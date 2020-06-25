@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptBinaryToStringA
 title: CryptBinaryToStringA function (wincrypt.h)
-description: Converts an array of bytes into a formatted string.helpviewer_keywords: ["CRYPT_STRING_BASE64","CRYPT_STRING_BASE64HEADER","CRYPT_STRING_BASE64REQUESTHEADER","CRYPT_STRING_BASE64X509CRLHEADER","CRYPT_STRING_BINARY","CRYPT_STRING_HEX","CRYPT_STRING_HEXADDR","CRYPT_STRING_HEXASCII","CRYPT_STRING_HEXASCIIADDR","CRYPT_STRING_HEXRAW","CRYPT_STRING_NOCR","CRYPT_STRING_NOCRLF","CRYPT_STRING_STRICT","CryptBinaryToString","CryptBinaryToString function [Security]","CryptBinaryToStringA","CryptBinaryToStringW","_crypto2_cryptbinarytostring","security.cryptbinarytostring","wincrypt/CryptBinaryToString","wincrypt/CryptBinaryToStringA","wincrypt/CryptBinaryToStringW"]
+description: Converts an array of bytes into a formatted string.
+helpviewer_keywords: ["CRYPT_STRING_BASE64","CRYPT_STRING_BASE64HEADER","CRYPT_STRING_BASE64REQUESTHEADER","CRYPT_STRING_BASE64X509CRLHEADER","CRYPT_STRING_BINARY","CRYPT_STRING_HEX","CRYPT_STRING_HEXADDR","CRYPT_STRING_HEXASCII","CRYPT_STRING_HEXASCIIADDR","CRYPT_STRING_HEXRAW","CRYPT_STRING_NOCR","CRYPT_STRING_NOCRLF","CRYPT_STRING_STRICT","CryptBinaryToString","CryptBinaryToString function [Security]","CryptBinaryToStringA","CryptBinaryToStringW","_crypto2_cryptbinarytostring","security.cryptbinarytostring","wincrypt/CryptBinaryToString","wincrypt/CryptBinaryToStringA","wincrypt/CryptBinaryToStringW"]
 old-location: security\cryptbinarytostring.htm
 tech.root: SecCrypto
 ms.assetid: e6bdf931-fba3-4a33-b22e-5f818f565842
@@ -282,6 +283,10 @@ With the exception of when <b>CRYPT_STRING_BINARY</b> encoding is used, all stri
 
 
 
+
+
+> [!NOTE]
+> The wincrypt.h header defines CryptBinaryToString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

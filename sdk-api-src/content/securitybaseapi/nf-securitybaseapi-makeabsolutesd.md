@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.MakeAbsoluteSD
 title: MakeAbsoluteSD function (securitybaseapi.h)
-description: Creates a security descriptor in absolute format by using a security descriptor in self-relative format as a template.helpviewer_keywords: ["MakeAbsoluteSD","MakeAbsoluteSD function [Security]","_win32_makeabsolutesd","security.makeabsolutesd","securitybaseapi/MakeAbsoluteSD"]
+description: Creates a security descriptor in absolute format by using a security descriptor in self-relative format as a template.
+helpviewer_keywords: ["MakeAbsoluteSD","MakeAbsoluteSD function [Security]","_win32_makeabsolutesd","security.makeabsolutesd","securitybaseapi/MakeAbsoluteSD"]
 old-location: security\makeabsolutesd.htm
 tech.root: SecAuthZ
 ms.assetid: 47c75071-f10d-43cf-a841-2dd49fc39afa

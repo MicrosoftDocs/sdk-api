@@ -1,7 +1,8 @@
 ---
 UID: NF:traffic.TcSetInterface
 title: TcSetInterface function (traffic.h)
-description: The TcSetInterface function sets individual parameters for a given interface.helpviewer_keywords: ["TcSetInterface","TcSetInterface function [QOS]","_gqos_tcsetinterface","qos.tcsetinterface","traffic/TcSetInterface"]
+description: The TcSetInterface function sets individual parameters for a given interface.
+helpviewer_keywords: ["TcSetInterface","TcSetInterface function [QOS]","_gqos_tcsetinterface","qos.tcsetinterface","traffic/TcSetInterface"]
 old-location: qos\tcsetinterface.htm
 tech.root: QOS
 ms.assetid: 7ca28fac-999c-4386-81e7-65003e89d9c5

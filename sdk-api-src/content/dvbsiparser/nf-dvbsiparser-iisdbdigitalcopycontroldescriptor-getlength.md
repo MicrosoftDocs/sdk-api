@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbDigitalCopyControlDescriptor.GetLength
 title: IIsdbDigitalCopyControlDescriptor::GetLength (dvbsiparser.h)
-description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor, in bytes.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IIsdbDigitalCopyControlDescriptor interface","IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies]","GetLength method","IIsdbDigitalCopyControlDescriptor.GetLength","IIsdbDigitalCopyControlDescriptor::GetLength","dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetLength","mstv.iisdbdigitalcopycontroldescriptor_getlength"]
+description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) digital copy control descriptor, in bytes.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IIsdbDigitalCopyControlDescriptor interface","IIsdbDigitalCopyControlDescriptor interface [Microsoft TV Technologies]","GetLength method","IIsdbDigitalCopyControlDescriptor.GetLength","IIsdbDigitalCopyControlDescriptor::GetLength","dvbsiparser/IIsdbDigitalCopyControlDescriptor::GetLength","mstv.iisdbdigitalcopycontroldescriptor_getlength"]
 old-location: mstv\iisdbdigitalcopycontroldescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 3a0b5433-1681-4b2d-9436-9ed853da6a80

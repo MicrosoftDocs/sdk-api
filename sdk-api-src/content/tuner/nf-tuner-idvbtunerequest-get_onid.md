@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.get_ONID
 title: IDVBTuneRequest::get_ONID (tuner.h)
-description: The get_ONID method retrieves the original network ID.helpviewer_keywords: ["IDVBTuneRequest interface [Microsoft TV Technologies]","get_ONID method","IDVBTuneRequest.get_ONID","IDVBTuneRequest::get_ONID","IDVBTuneRequestget_ONID","get_ONID","get_ONID method [Microsoft TV Technologies]","get_ONID method [Microsoft TV Technologies]","IDVBTuneRequest interface","mstv.idvbtunerequest_get_onid","tuner/IDVBTuneRequest::get_ONID"]
+description: The get_ONID method retrieves the original network ID.
+helpviewer_keywords: ["IDVBTuneRequest interface [Microsoft TV Technologies]","get_ONID method","IDVBTuneRequest.get_ONID","IDVBTuneRequest::get_ONID","IDVBTuneRequestget_ONID","get_ONID","get_ONID method [Microsoft TV Technologies]","get_ONID method [Microsoft TV Technologies]","IDVBTuneRequest interface","mstv.idvbtunerequest_get_onid","tuner/IDVBTuneRequest::get_ONID"]
 old-location: mstv\idvbtunerequest_get_onid.htm
 tech.root: mstv
 ms.assetid: 24cfc4bb-7df0-4380-9322-4bec6e8a2385

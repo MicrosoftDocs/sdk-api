@@ -1,7 +1,8 @@
 ---
 UID: NC:winuser.TIMERPROC
 title: TIMERPROC (winuser.h)
-description: An application-defined callback function that processes WM_TIMER messages. The TIMERPROC type defines a pointer to this callback function. TimerProc is a placeholder for the application-defined function name.helpviewer_keywords: ["TimerProc","TimerProc callback","TimerProc callback function [Windows and Messages]","_win32_TimerProc","_win32_timerproc_cpp","winmsg.timerproc","winui._win32_timerproc","winuser/TimerProc"]
+description: An application-defined callback function that processes WM_TIMER messages. The TIMERPROC type defines a pointer to this callback function. TimerProc is a placeholder for the application-defined function name.
+helpviewer_keywords: ["TimerProc","TimerProc callback","TimerProc callback function [Windows and Messages]","_win32_TimerProc","_win32_timerproc_cpp","winmsg.timerproc","winui._win32_timerproc","winuser/TimerProc"]
 old-location: winmsg\timerproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\timerproc.htm

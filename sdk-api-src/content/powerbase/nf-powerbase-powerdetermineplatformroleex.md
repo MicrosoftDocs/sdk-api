@@ -1,7 +1,8 @@
 ---
 UID: NF:powerbase.PowerDeterminePlatformRoleEx
 title: PowerDeterminePlatformRoleEx function (powerbase.h)
-description: Determines the computer role for the specified platform.helpviewer_keywords: ["POWER_PLATFORM_ROLE_V1","POWER_PLATFORM_ROLE_V2","POWER_PLATFORM_ROLE_VERSION","PowerDeterminePlatformRoleEx","PowerDeterminePlatformRoleEx function","base.powerdetermineplatformroleex","powerbase/PowerDeterminePlatformRoleEx"]
+description: Determines the computer role for the specified platform.
+helpviewer_keywords: ["POWER_PLATFORM_ROLE_V1","POWER_PLATFORM_ROLE_V2","POWER_PLATFORM_ROLE_VERSION","PowerDeterminePlatformRoleEx","PowerDeterminePlatformRoleEx function","base.powerdetermineplatformroleex","powerbase/PowerDeterminePlatformRoleEx"]
 old-location: base\powerdetermineplatformroleex.htm
 tech.root: power
 ms.assetid: 64b597d3-ca7a-4ff7-8527-72c3625147cd

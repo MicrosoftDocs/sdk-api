@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointControl.Start
 title: IAudioEndpointControl::Start (audioengineendpoint.h)
-description: Starts the endpoint stream.helpviewer_keywords: ["IAudioEndpointControl interface [Remote Desktop Services]","Start method","IAudioEndpointControl.Start","IAudioEndpointControl::Start","Start","Start method [Remote Desktop Services]","Start method [Remote Desktop Services]","IAudioEndpointControl interface","audioengineendpoint/IAudioEndpointControl::Start","termserv.iaudioendpointcontrol_start"]
+description: Starts the endpoint stream.
+helpviewer_keywords: ["IAudioEndpointControl interface [Remote Desktop Services]","Start method","IAudioEndpointControl.Start","IAudioEndpointControl::Start","Start","Start method [Remote Desktop Services]","Start method [Remote Desktop Services]","IAudioEndpointControl interface","audioengineendpoint/IAudioEndpointControl::Start","termserv.iaudioendpointcontrol_start"]
 old-location: termserv\iaudioendpointcontrol_start.htm
 tech.root: TermServ
 ms.assetid: d9b54618-9750-49be-a966-1a2f02c81af6

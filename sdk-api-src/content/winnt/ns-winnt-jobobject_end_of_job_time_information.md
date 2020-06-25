@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._JOBOBJECT_END_OF_JOB_TIME_INFORMATION
 title: JOBOBJECT_END_OF_JOB_TIME_INFORMATION (winnt.h)
-description: Specifies the action the system will perform when an end-of-job time limit is exceeded.helpviewer_keywords: ["*PJOBOBJECT_END_OF_JOB_TIME_INFORMATION","JOBOBJECT_END_OF_JOB_TIME_INFORMATION","JOBOBJECT_END_OF_JOB_TIME_INFORMATION structure","JOB_OBJECT_POST_AT_END_OF_JOB","JOB_OBJECT_TERMINATE_AT_END_OF_JOB","PJOBOBJECT_END_OF_JOB_TIME_INFORMATION","PJOBOBJECT_END_OF_JOB_TIME_INFORMATION structure","_JOBOBJECT_END_OF_JOB_TIME_INFORMATION","_win32_jobobject_end_of_job_time_information_str","base.jobobject_end_of_job_time_information_str","winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION","winnt/PJOBOBJECT_END_OF_JOB_TIME_INFORMATION"]
+description: Specifies the action the system will perform when an end-of-job time limit is exceeded.
+helpviewer_keywords: ["*PJOBOBJECT_END_OF_JOB_TIME_INFORMATION","JOBOBJECT_END_OF_JOB_TIME_INFORMATION","JOBOBJECT_END_OF_JOB_TIME_INFORMATION structure","JOB_OBJECT_POST_AT_END_OF_JOB","JOB_OBJECT_TERMINATE_AT_END_OF_JOB","PJOBOBJECT_END_OF_JOB_TIME_INFORMATION","PJOBOBJECT_END_OF_JOB_TIME_INFORMATION structure","_JOBOBJECT_END_OF_JOB_TIME_INFORMATION","_win32_jobobject_end_of_job_time_information_str","base.jobobject_end_of_job_time_information_str","winnt/JOBOBJECT_END_OF_JOB_TIME_INFORMATION","winnt/PJOBOBJECT_END_OF_JOB_TIME_INFORMATION"]
 old-location: base\jobobject_end_of_job_time_information_str.htm
 tech.root: ProcThread
 ms.assetid: 0054d018-c358-4cb0-a4db-fc6464b4b08c

@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt64VectorAlloc
 title: PropVariantToUInt64VectorAlloc function (propvarutil.h)
-description: Extracts data from a PROPVARIANT structure into a newly-allocated ULONGLONG vector.helpviewer_keywords: ["PropVariantToUInt64VectorAlloc","PropVariantToUInt64VectorAlloc function [Windows Properties]","_shell_PropVariantToUInt64VectorAlloc","properties.PropVariantToUInt64VectorAlloc","propvarutil/PropVariantToUInt64VectorAlloc","shell.PropVariantToUInt64VectorAlloc"]
+description: Extracts data from a PROPVARIANT structure into a newly-allocated ULONGLONG vector.
+helpviewer_keywords: ["PropVariantToUInt64VectorAlloc","PropVariantToUInt64VectorAlloc function [Windows Properties]","_shell_PropVariantToUInt64VectorAlloc","properties.PropVariantToUInt64VectorAlloc","propvarutil/PropVariantToUInt64VectorAlloc","shell.PropVariantToUInt64VectorAlloc"]
 old-location: properties\PropVariantToUInt64VectorAlloc.htm
 tech.root: properties
 ms.assetid: 88947036-3745-48c6-ba61-dc139c3801d5

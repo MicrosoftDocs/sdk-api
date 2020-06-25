@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl.__unnamed_struct_17
 title: READ_FILE_USN_DATA
-description: Specifies the versions of the update sequence number (USN) change journal supported by the application.helpviewer_keywords: ["*PREAD_FILE_USN_DATA","PREAD_FILE_USN_DATA","PREAD_FILE_USN_DATA structure pointer [Files]","READ_FILE_USN_DATA","READ_FILE_USN_DATA structure [Files]","fs.read_file_usn_data","winioctl/PREAD_FILE_USN_DATA","winioctl/READ_FILE_USN_DATA"]
+description: Specifies the versions of the update sequence number (USN) change journal supported by the application.
+helpviewer_keywords: ["*PREAD_FILE_USN_DATA","PREAD_FILE_USN_DATA","PREAD_FILE_USN_DATA structure pointer [Files]","READ_FILE_USN_DATA","READ_FILE_USN_DATA structure [Files]","fs.read_file_usn_data","winioctl/PREAD_FILE_USN_DATA","winioctl/READ_FILE_USN_DATA"]
 old-location: fs\read_file_usn_data.htm
 tech.root: FileIO
 ms.assetid: 8c403eec-7504-4a69-9f05-7a3a164557a6

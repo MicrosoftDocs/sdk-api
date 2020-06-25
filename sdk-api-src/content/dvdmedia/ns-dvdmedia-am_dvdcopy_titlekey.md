@@ -1,7 +1,8 @@
 ---
 UID: NS:dvdmedia.AM_DVDCOPY_TITLEKEY
 title: AM_DVDCOPY_TITLEKEY (dvdmedia.h)
-description: Specifies the DVD title key from the current content.helpviewer_keywords: ["*PAM_DVDCOPY_TITLEKEY","AM_DVDCOPY_TITLEKEY","AM_DVDCOPY_TITLEKEY structure [DirectShow]","PAM_DVDCOPY_TITLEKEY","PAM_DVDCOPY_TITLEKEY structure pointer [DirectShow]","dshow.am_dvdcopy_titlekey","dvdmedia/AM_DVDCOPY_TITLEKEY","dvdmedia/PAM_DVDCOPY_TITLEKEY"]
+description: Specifies the DVD title key from the current content.
+helpviewer_keywords: ["*PAM_DVDCOPY_TITLEKEY","AM_DVDCOPY_TITLEKEY","AM_DVDCOPY_TITLEKEY structure [DirectShow]","PAM_DVDCOPY_TITLEKEY","PAM_DVDCOPY_TITLEKEY structure pointer [DirectShow]","dshow.am_dvdcopy_titlekey","dvdmedia/AM_DVDCOPY_TITLEKEY","dvdmedia/PAM_DVDCOPY_TITLEKEY"]
 old-location: dshow\am_dvdcopy_titlekey.htm
 tech.root: DirectShow
 ms.assetid: 14460ad8-4c7b-4566-b1ac-9a35fd20f3f3

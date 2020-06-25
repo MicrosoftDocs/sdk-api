@@ -1,7 +1,8 @@
 ---
 UID: NN:oaidl.IDispatch
 title: IDispatch (oaidl.h)
-description: Exposes objects, methods and properties to programming tools and other applications that support Automation.helpviewer_keywords: ["IDispatch","IDispatch interface [Automation]","IDispatch interface [Automation]","described","_oa96_IDispatch_Interface","automat.idispatch","oaidl/IDispatch"]
+description: Exposes objects, methods and properties to programming tools and other applications that support Automation.
+helpviewer_keywords: ["IDispatch","IDispatch interface [Automation]","IDispatch interface [Automation]","described","_oa96_IDispatch_Interface","automat.idispatch","oaidl/IDispatch"]
 old-location: automat\idispatch.htm
 tech.root: automat
 ms.assetid: ebbff4bc-36b2-4861-9efa-ffa45e013eb5

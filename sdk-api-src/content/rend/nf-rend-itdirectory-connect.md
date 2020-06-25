@@ -1,7 +1,8 @@
 ---
 UID: NF:rend.ITDirectory.Connect
 title: ITDirectory::Connect (rend.h)
-description: The Connect method establishes a connection to the directory server.helpviewer_keywords: ["Connect","Connect method [TAPI 2.2]","Connect method [TAPI 2.2]","ITDirectory interface","ITDirectory interface [TAPI 2.2]","Connect method","ITDirectory.Connect","ITDirectory::Connect","_tapi3_itdirectory_connect","rend/ITDirectory::Connect","tapi3.itdirectory_connect"]
+description: The Connect method establishes a connection to the directory server.
+helpviewer_keywords: ["Connect","Connect method [TAPI 2.2]","Connect method [TAPI 2.2]","ITDirectory interface","ITDirectory interface [TAPI 2.2]","Connect method","ITDirectory.Connect","ITDirectory::Connect","_tapi3_itdirectory_connect","rend/ITDirectory::Connect","tapi3.itdirectory_connect"]
 old-location: tapi3\itdirectory_connect.htm
 tech.root: Tapi
 ms.assetid: b781008b-430a-444e-a700-8cde09e721b4

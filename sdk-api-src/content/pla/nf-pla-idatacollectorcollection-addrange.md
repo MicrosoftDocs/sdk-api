@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorCollection.AddRange
 title: IDataCollectorCollection::AddRange (pla.h)
-description: Adds one or more data collectors to the collection.helpviewer_keywords: ["AddRange","AddRange method [PLA]","AddRange method [PLA]","IDataCollectorCollection interface","IDataCollectorCollection interface [PLA]","AddRange method","IDataCollectorCollection.AddRange","IDataCollectorCollection::AddRange","base.idatacollectorcollection_addrange","pla.idatacollectorcollection_addrange","pla/IDataCollectorCollection::AddRange"]
+description: Adds one or more data collectors to the collection.
+helpviewer_keywords: ["AddRange","AddRange method [PLA]","AddRange method [PLA]","IDataCollectorCollection interface","IDataCollectorCollection interface [PLA]","AddRange method","IDataCollectorCollection.AddRange","IDataCollectorCollection::AddRange","base.idatacollectorcollection_addrange","pla.idatacollectorcollection_addrange","pla/IDataCollectorCollection::AddRange"]
 old-location: pla\idatacollectorcollection_addrange.htm
 tech.root: PLA
 ms.assetid: e7482bc4-18a4-4267-9ceb-1552dd71391c

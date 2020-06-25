@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.GetGPOLinks
 title: IGPMSOM::GetGPOLinks (gpmgmt.h)
-description: Returns a GPMGPOLinksCollection object that contains the GPO links for the scope of management (SOM). The collection is sorted in the SOM link order and contains both enabled and disabled links. See IGPMGPOLink for the definition of SOM link order.helpviewer_keywords: ["GPMSOM class [GPMC]","GetGPOLinks method","GetGPOLinks","GetGPOLinks method [GPMC]","GetGPOLinks method [GPMC]","GPMSOM class","GetGPOLinks method [GPMC]","IGPMSOM interface","IGPMSOM interface [GPMC]","GetGPOLinks method","IGPMSOM.GetGPOLinks","IGPMSOM::GetGPOLinks","_win32_igpmsom_getgpolinks","gpmc.igpmsom_getgpolinks","gpmgmt/IGPMSOM::GetGPOLinks"]
+description: Returns a GPMGPOLinksCollection object that contains the GPO links for the scope of management (SOM). The collection is sorted in the SOM link order and contains both enabled and disabled links. See IGPMGPOLink for the definition of SOM link order.
+helpviewer_keywords: ["GPMSOM class [GPMC]","GetGPOLinks method","GetGPOLinks","GetGPOLinks method [GPMC]","GetGPOLinks method [GPMC]","GPMSOM class","GetGPOLinks method [GPMC]","IGPMSOM interface","IGPMSOM interface [GPMC]","GetGPOLinks method","IGPMSOM.GetGPOLinks","IGPMSOM::GetGPOLinks","_win32_igpmsom_getgpolinks","gpmc.igpmsom_getgpolinks","gpmgmt/IGPMSOM::GetGPOLinks"]
 old-location: gpmc\igpmsom_getgpolinks.htm
 tech.root: gpmc
 ms.assetid: cab93e8e-d91d-47b6-9b33-adcf06fb9e41

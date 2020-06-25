@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncItemContainer.GetSyncItem
 title: ISyncMgrSyncItemContainer::GetSyncItem (syncmgr.h)
-description: Gets a specified sync item.helpviewer_keywords: ["GetSyncItem","GetSyncItem method [Windows Shell]","GetSyncItem method [Windows Shell]","ISyncMgrSyncItemContainer interface","ISyncMgrSyncItemContainer interface [Windows Shell]","GetSyncItem method","ISyncMgrSyncItemContainer.GetSyncItem","ISyncMgrSyncItemContainer::GetSyncItem","_shell_ISyncMgrSyncItemContainer_GetSyncItem","shell.ISyncMgrSyncItemContainer_GetSyncItem","syncmgr/ISyncMgrSyncItemContainer::GetSyncItem"]
+description: Gets a specified sync item.
+helpviewer_keywords: ["GetSyncItem","GetSyncItem method [Windows Shell]","GetSyncItem method [Windows Shell]","ISyncMgrSyncItemContainer interface","ISyncMgrSyncItemContainer interface [Windows Shell]","GetSyncItem method","ISyncMgrSyncItemContainer.GetSyncItem","ISyncMgrSyncItemContainer::GetSyncItem","_shell_ISyncMgrSyncItemContainer_GetSyncItem","shell.ISyncMgrSyncItemContainer_GetSyncItem","syncmgr/ISyncMgrSyncItemContainer::GetSyncItem"]
 old-location: shell\ISyncMgrSyncItemContainer_GetSyncItem.htm
 tech.root: shell
 ms.assetid: 27cdfcfe-d419-4232-b1cc-b9e7b8b2d315

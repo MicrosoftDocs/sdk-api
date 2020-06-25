@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoAddRefServerProcess
 title: CoAddRefServerProcess function (combaseapi.h)
-description: Increments a global per-process reference count.helpviewer_keywords: ["CoAddRefServerProcess","CoAddRefServerProcess function [COM]","_com_CoAddRefServerProcess","com.coaddrefserverprocess","combaseapi/CoAddRefServerProcess"]
+description: Increments a global per-process reference count.
+helpviewer_keywords: ["CoAddRefServerProcess","CoAddRefServerProcess function [COM]","_com_CoAddRefServerProcess","com.coaddrefserverprocess","combaseapi/CoAddRefServerProcess"]
 old-location: com\coaddrefserverprocess.htm
 tech.root: com
 ms.assetid: 79887f9d-cad1-492a-b406-d1753ffaf82b

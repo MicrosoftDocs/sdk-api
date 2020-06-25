@@ -1,7 +1,8 @@
 ---
 UID: NN:wsdhost.IWSDDeviceHost
 title: IWSDDeviceHost (wsdhost.h)
-description: Represents a DPWS-compliant device.helpviewer_keywords: ["IWSDDeviceHost","IWSDDeviceHost interface","IWSDDeviceHost interface","described","ncd.iwsddevicehost","wsdhost/IWSDDeviceHost"]
+description: Represents a DPWS-compliant device.
+helpviewer_keywords: ["IWSDDeviceHost","IWSDDeviceHost interface","IWSDDeviceHost interface","described","ncd.iwsddevicehost","wsdhost/IWSDDeviceHost"]
 old-location: ncd\iwsddevicehost.htm
 tech.root: WsdApi
 ms.assetid: 497d0331-c88d-4381-8990-94227a9b9659

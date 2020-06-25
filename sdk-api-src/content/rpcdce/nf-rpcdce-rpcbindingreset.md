@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingReset
 title: RpcBindingReset function (rpcdce.h)
-description: The RpcBindingReset function resets a binding handle so that the host is specified but the server on that host is unspecified.helpviewer_keywords: ["RpcBindingReset","RpcBindingReset function [RPC]","_rpc_rpcbindingreset","rpc.rpcbindingreset","rpcdce/RpcBindingReset"]
+description: The RpcBindingReset function resets a binding handle so that the host is specified but the server on that host is unspecified.
+helpviewer_keywords: ["RpcBindingReset","RpcBindingReset function [RPC]","_rpc_rpcbindingreset","rpc.rpcbindingreset","rpcdce/RpcBindingReset"]
 old-location: rpc\rpcbindingreset.htm
 tech.root: Rpc
 ms.assetid: 2f7a447a-50b1-422e-a49a-00ede3fcf187

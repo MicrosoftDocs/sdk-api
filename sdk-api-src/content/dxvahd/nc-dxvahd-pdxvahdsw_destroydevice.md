@@ -1,7 +1,8 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_DestroyDevice
 title: PDXVAHDSW_DestroyDevice (dxvahd.h)
-description: Destroys an instance of a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.helpviewer_keywords: ["PDXVAHDSW_DestroyDevice","PDXVAHDSW_DestroyDevice callback","PDXVAHDSW_DestroyDevice callback function [Media Foundation]","dxvahd/PDXVAHDSW_DestroyDevice","mf.pdxvahdsw_destroydevice"]
+description: Destroys an instance of a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+helpviewer_keywords: ["PDXVAHDSW_DestroyDevice","PDXVAHDSW_DestroyDevice callback","PDXVAHDSW_DestroyDevice callback function [Media Foundation]","dxvahd/PDXVAHDSW_DestroyDevice","mf.pdxvahdsw_destroydevice"]
 old-location: mf\pdxvahdsw_destroydevice.htm
 tech.root: medfound
 ms.assetid: 1d0cc0a4-effb-4dea-b6ba-ca1a4e1e394e

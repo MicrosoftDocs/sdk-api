@@ -1,7 +1,8 @@
 ---
 UID: NI:genericusbfnioctl.IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX
 title: IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX (genericusbfnioctl.h)
-description: This I/O control code (IOCTL) is sent by a user-mode service or application to retrieve information about a device's available pipes as configured in the registry.helpviewer_keywords: ["IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX","IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control","IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control code [Buses]","buses.ioctl_genericusbfn_get_class_info_ex","genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX"]
+description: This I/O control code (IOCTL) is sent by a user-mode service or application to retrieve information about a device's available pipes as configured in the registry.
+helpviewer_keywords: ["IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX","IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control","IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX control code [Buses]","buses.ioctl_genericusbfn_get_class_info_ex","genericusbfnioctl/IOCTL_GENERICUSBFN_GET_CLASS_INFO_EX"]
 old-location: buses\ioctl_genericusbfn_get_class_info_ex.htm
 tech.root: usbref
 ms.assetid: 9FC6E1F4-65AF-4315-B7F2-241E74820742

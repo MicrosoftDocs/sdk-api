@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.ConnectNode
 title: ID2D1TransformGraph::ConnectNode (d2d1effectauthor.h)
-description: Connects two nodes inside the transform graph.helpviewer_keywords: ["ConnectNode","ConnectNode method [Direct2D]","ConnectNode method [Direct2D]","ID2D1TransformGraph interface","ID2D1TransformGraph interface [Direct2D]","ConnectNode method","ID2D1TransformGraph.ConnectNode","ID2D1TransformGraph::ConnectNode","d2d1effectauthor/ID2D1TransformGraph::ConnectNode","direct2d.id2d1transformgraph_connectnode"]
+description: Connects two nodes inside the transform graph.
+helpviewer_keywords: ["ConnectNode","ConnectNode method [Direct2D]","ConnectNode method [Direct2D]","ID2D1TransformGraph interface","ID2D1TransformGraph interface [Direct2D]","ConnectNode method","ID2D1TransformGraph.ConnectNode","ID2D1TransformGraph::ConnectNode","d2d1effectauthor/ID2D1TransformGraph::ConnectNode","direct2d.id2d1transformgraph_connectnode"]
 old-location: direct2d\id2d1transformgraph_connectnode.htm
 tech.root: Direct2D
 ms.assetid: 59C7A366-804F-4CB3-A8CB-8617F226CE6B

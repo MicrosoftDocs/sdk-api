@@ -1,7 +1,8 @@
 ---
 UID: NN:bits10_1.IBackgroundCopyCallback3
 title: IBackgroundCopyCallback3 (bits10_1.h)
-description: Clients implement the IBackgroundCopyCallback3 interface to receive notification that ranges of a file have completed downloading.helpviewer_keywords: ["IBackgroundCopyCallback3","IBackgroundCopyCallback3 interface [BITS]","IBackgroundCopyCallback3 interface [BITS]","described","bits.ibackgroundcopycallback3","bits10_1/IBackgroundCopyCallback3"]
+description: Clients implement the IBackgroundCopyCallback3 interface to receive notification that ranges of a file have completed downloading.
+helpviewer_keywords: ["IBackgroundCopyCallback3","IBackgroundCopyCallback3 interface [BITS]","IBackgroundCopyCallback3 interface [BITS]","described","bits.ibackgroundcopycallback3","bits10_1/IBackgroundCopyCallback3"]
 old-location: bits\ibackgroundcopycallback3.htm
 tech.root: Bits
 ms.assetid: 74712770-BB14-4B8A-8DA4-096CEB58D820

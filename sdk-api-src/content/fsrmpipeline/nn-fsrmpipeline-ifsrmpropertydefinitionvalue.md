@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPropertyDefinitionValue
 title: IFsrmPropertyDefinitionValue (fsrmpipeline.h)
-description: Contains properties that describe a classification property definition value.helpviewer_keywords: ["IFsrmPropertyDefinitionValue","IFsrmPropertyDefinitionValue interface [File Server Resource Manager]","IFsrmPropertyDefinitionValue interface [File Server Resource Manager]","described","fs.ifsrmpropertydefinitionvalue","fsrm.ifsrmpropertydefinitionvalue","fsrmpipeline/IFsrmPropertyDefinitionValue"]
+description: Contains properties that describe a classification property definition value.
+helpviewer_keywords: ["IFsrmPropertyDefinitionValue","IFsrmPropertyDefinitionValue interface [File Server Resource Manager]","IFsrmPropertyDefinitionValue interface [File Server Resource Manager]","described","fs.ifsrmpropertydefinitionvalue","fsrm.ifsrmpropertydefinitionvalue","fsrmpipeline/IFsrmPropertyDefinitionValue"]
 old-location: fsrm\ifsrmpropertydefinitionvalue.htm
 tech.root: fsrm
 ms.assetid: 886f0f02-fe0e-4001-b6c2-e3d1d15d8e49

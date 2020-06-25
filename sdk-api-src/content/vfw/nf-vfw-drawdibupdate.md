@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.DrawDibUpdate
 title: DrawDibUpdate macro (vfw.h)
-description: The DrawDibUpdate macro draws the last frame in the DrawDib off-screen buffer.helpviewer_keywords: ["DrawDibUpdate","DrawDibUpdate macro [Windows Multimedia]","_win32_DrawDibUpdate","multimedia.drawdibupdate","vfw/DrawDibUpdate"]
+description: The DrawDibUpdate macro draws the last frame in the DrawDib off-screen buffer.
+helpviewer_keywords: ["DrawDibUpdate","DrawDibUpdate macro [Windows Multimedia]","_win32_DrawDibUpdate","multimedia.drawdibupdate","vfw/DrawDibUpdate"]
 old-location: multimedia\drawdibupdate.htm
 tech.root: Multimedia
 ms.assetid: 049a513a-bae1-4551-8700-cef417ed5373

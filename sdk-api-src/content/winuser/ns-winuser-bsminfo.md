@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.__unnamed_struct_2
 title: BSMINFO (winuser.h)
-description: Contains information about a window that denied a request from BroadcastSystemMessageEx.helpviewer_keywords: ["*PBSMINFO","BSMINFO","BSMINFO structure [Windows and Messages]","PBSMINFO","PBSMINFO structure pointer [Windows and Messages]","_win32_BSMINFO_str","_win32_bsminfo_str_cpp","winmsg.bsminfo","winui._win32_bsminfo_str","winuser/BSMINFO","winuser/PBSMINFO"]
+description: Contains information about a window that denied a request from BroadcastSystemMessageEx.
+helpviewer_keywords: ["*PBSMINFO","BSMINFO","BSMINFO structure [Windows and Messages]","PBSMINFO","PBSMINFO structure pointer [Windows and Messages]","_win32_BSMINFO_str","_win32_bsminfo_str_cpp","winmsg.bsminfo","winui._win32_bsminfo_str","winuser/BSMINFO","winuser/PBSMINFO"]
 old-location: winmsg\bsminfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messageandmessagequeuestructures\bsminfo.htm

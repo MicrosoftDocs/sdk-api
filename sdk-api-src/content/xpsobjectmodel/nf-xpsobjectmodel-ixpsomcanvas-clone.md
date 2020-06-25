@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCanvas.Clone
 title: IXpsOMCanvas::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","Clone method","IXpsOMCanvas.Clone","IXpsOMCanvas::Clone","xps.ixpsomcanvas_clone","xpsobjectmodel/IXpsOMCanvas::Clone"]
+description: Makes a deep copy of the interface.
+helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMCanvas interface","IXpsOMCanvas interface [XPS Documents and Packaging]","Clone method","IXpsOMCanvas.Clone","IXpsOMCanvas::Clone","xps.ixpsomcanvas_clone","xpsobjectmodel/IXpsOMCanvas::Clone"]
 old-location: xps\ixpsomcanvas_clone.htm
 tech.root: printdocs
 ms.assetid: 2411fca6-2d36-4704-83a6-0086c6be0e2a

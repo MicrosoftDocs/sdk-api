@@ -1,7 +1,8 @@
 ---
 UID: NN:relogger.ITraceEventCallback
 title: ITraceEventCallback (relogger.h)
-description: Used by ETW to provide information to the relogger as the tracing process starts, ends, and logs events.helpviewer_keywords: ["IEventCallback","IEventCallback interface [ETW]","IEventCallback interface [ETW]","described","ITraceEventCallback","etw.ieventcallback","relogger/ITraceEventCallback"]
+description: Used by ETW to provide information to the relogger as the tracing process starts, ends, and logs events.
+helpviewer_keywords: ["IEventCallback","IEventCallback interface [ETW]","IEventCallback interface [ETW]","described","ITraceEventCallback","etw.ieventcallback","relogger/ITraceEventCallback"]
 old-location: etw\ieventcallback.htm
 tech.root: ETW
 ms.assetid: 70139402-86e6-43b4-9016-42854ef998fd

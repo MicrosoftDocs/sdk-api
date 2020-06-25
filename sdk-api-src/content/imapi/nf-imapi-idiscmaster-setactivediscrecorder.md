@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi.IDiscMaster.SetActiveDiscRecorder
 title: IDiscMaster::SetActiveDiscRecorder (imapi.h)
-description: Selects an active disc recorder. The active disc recorder is the recorder where a burn will occur when RecordDisc is called.helpviewer_keywords: ["IDiscMaster interface [IMAPI]","SetActiveDiscRecorder method","IDiscMaster.SetActiveDiscRecorder","IDiscMaster::SetActiveDiscRecorder","SetActiveDiscRecorder","SetActiveDiscRecorder method [IMAPI]","SetActiveDiscRecorder method [IMAPI]","IDiscMaster interface","_win32_idiscmaster_setactivediscrecorder","base.idiscmaster_setactivediscrecorder","imapi.idiscmaster_setactivediscrecorder","imapi/IDiscMaster::SetActiveDiscRecorder"]
+description: Selects an active disc recorder. The active disc recorder is the recorder where a burn will occur when RecordDisc is called.
+helpviewer_keywords: ["IDiscMaster interface [IMAPI]","SetActiveDiscRecorder method","IDiscMaster.SetActiveDiscRecorder","IDiscMaster::SetActiveDiscRecorder","SetActiveDiscRecorder","SetActiveDiscRecorder method [IMAPI]","SetActiveDiscRecorder method [IMAPI]","IDiscMaster interface","_win32_idiscmaster_setactivediscrecorder","base.idiscmaster_setactivediscrecorder","imapi.idiscmaster_setactivediscrecorder","imapi/IDiscMaster::SetActiveDiscRecorder"]
 old-location: imapi\idiscmaster_setactivediscrecorder.htm
 tech.root: imapi
 ms.assetid: 5f2e9135-d251-4702-b5d1-51d9b445a4f5

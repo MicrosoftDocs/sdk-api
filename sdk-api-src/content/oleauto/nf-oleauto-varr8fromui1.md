@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarR8FromUI1
 title: VarR8FromUI1 function (oleauto.h)
-description: Converts an unsigned char value to a double value.helpviewer_keywords: ["VarR8FromUI1","VarR8FromUI1 function [Automation]","_oa96_VarR8FromUI1","automat.varr8fromui1","oleauto/VarR8FromUI1"]
+description: Converts an unsigned char value to a double value.
+helpviewer_keywords: ["VarR8FromUI1","VarR8FromUI1 function [Automation]","_oa96_VarR8FromUI1","automat.varr8fromui1","oleauto/VarR8FromUI1"]
 old-location: automat\varr8fromui1.htm
 tech.root: automat
 ms.assetid: f7c3e1f5-ed39-45e0-bfb3-a3a7c396c4ee

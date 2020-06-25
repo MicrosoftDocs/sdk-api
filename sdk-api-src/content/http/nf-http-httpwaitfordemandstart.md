@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpWaitForDemandStart
 title: HttpWaitForDemandStart function (http.h)
-description: Waits for the arrival of a new request that can be served by a new request queue process.helpviewer_keywords: ["HttpWaitForDemandStart","HttpWaitForDemandStart function [HTTP]","http.httpwaitfordemandstart","http/HttpWaitForDemandStart"]
+description: Waits for the arrival of a new request that can be served by a new request queue process.
+helpviewer_keywords: ["HttpWaitForDemandStart","HttpWaitForDemandStart function [HTTP]","http.httpwaitfordemandstart","http/HttpWaitForDemandStart"]
 old-location: http\httpwaitfordemandstart.htm
 tech.root: http
 ms.assetid: e6bc4d24-5495-44cc-81ee-e5213095f3e4

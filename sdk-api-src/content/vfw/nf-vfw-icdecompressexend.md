@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.ICDecompressExEnd
 title: ICDecompressExEnd macro (vfw.h)
-description: The ICDecompressExEnd macro notifies a video decompression driver to end decompression and free resources allocated for decompression. You can use this macro or explicitly call the ICM_DECOMPRESSEX_END message.helpviewer_keywords: ["ICDecompressExEnd","ICDecompressExEnd macro [Windows Multimedia]","_win32_ICDecompressExEnd","multimedia.icdecompressexend","vfw/ICDecompressExEnd"]
+description: The ICDecompressExEnd macro notifies a video decompression driver to end decompression and free resources allocated for decompression. You can use this macro or explicitly call the ICM_DECOMPRESSEX_END message.
+helpviewer_keywords: ["ICDecompressExEnd","ICDecompressExEnd macro [Windows Multimedia]","_win32_ICDecompressExEnd","multimedia.icdecompressexend","vfw/ICDecompressExEnd"]
 old-location: multimedia\icdecompressexend.htm
 tech.root: Multimedia
 ms.assetid: db0ab881-2e26-4f60-a22c-cb4bd2016028

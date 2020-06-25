@@ -1,7 +1,8 @@
 ---
 UID: NS:strmif.tagDVD_MultichannelAudioAttributes
 title: DVD_MultichannelAudioAttributes (strmif.h)
-description: The DVD_MultichannelAudioAttributes structure describes the multichannel attributes of one audio stream within a specified title.helpviewer_keywords: ["DVD_MultichannelAudioAttributes","DVD_MultichannelAudioAttributes structure [DirectShow]","DVD_MultichannelAudioAttributesStructure","dshow.dvd_multichannelaudioattributes","strmif/DVD_MultichannelAudioAttributes"]
+description: The DVD_MultichannelAudioAttributes structure describes the multichannel attributes of one audio stream within a specified title.
+helpviewer_keywords: ["DVD_MultichannelAudioAttributes","DVD_MultichannelAudioAttributes structure [DirectShow]","DVD_MultichannelAudioAttributesStructure","dshow.dvd_multichannelaudioattributes","strmif/DVD_MultichannelAudioAttributes"]
 old-location: dshow\dvd_multichannelaudioattributes.htm
 tech.root: DirectShow
 ms.assetid: 8aba7e5a-62ec-4ef5-821f-cfef8cf7d93d

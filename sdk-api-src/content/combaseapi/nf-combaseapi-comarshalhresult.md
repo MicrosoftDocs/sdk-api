@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoMarshalHresult
 title: CoMarshalHresult function (combaseapi.h)
-description: Marshals an HRESULT to the specified stream, from which it can be unmarshaled using the CoUnmarshalHresult function.helpviewer_keywords: ["CoMarshalHresult","CoMarshalHresult function [COM]","_com_CoMarshalHresult","com.comarshalhresult","combaseapi/CoMarshalHresult"]
+description: Marshals an HRESULT to the specified stream, from which it can be unmarshaled using the CoUnmarshalHresult function.
+helpviewer_keywords: ["CoMarshalHresult","CoMarshalHresult function [COM]","_com_CoMarshalHresult","com.comarshalhresult","combaseapi/CoMarshalHresult"]
 old-location: com\comarshalhresult.htm
 tech.root: com
 ms.assetid: 37aaf404-49ca-4881-a369-44c5288abf1d

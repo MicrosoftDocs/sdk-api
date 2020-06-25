@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsDisk.GetIdentificationData
 title: IVdsDisk::GetIdentificationData (vds.h)
-description: Retrieves information that uniquely identifies a disk.helpviewer_keywords: ["GetIdentificationData","GetIdentificationData method [VDS]","GetIdentificationData method [VDS]","IVdsDisk interface","IVdsDisk interface [VDS]","GetIdentificationData method","IVdsDisk.GetIdentificationData","IVdsDisk::GetIdentificationData","base.ivdsdisk_getidentificationdata","vds/IVdsDisk::GetIdentificationData"]
+description: Retrieves information that uniquely identifies a disk.
+helpviewer_keywords: ["GetIdentificationData","GetIdentificationData method [VDS]","GetIdentificationData method [VDS]","IVdsDisk interface","IVdsDisk interface [VDS]","GetIdentificationData method","IVdsDisk.GetIdentificationData","IVdsDisk::GetIdentificationData","base.ivdsdisk_getidentificationdata","vds/IVdsDisk::GetIdentificationData"]
 old-location: base\ivdsdisk_getidentificationdata.htm
 tech.root: VDS
 ms.assetid: 400fa102-f98a-4bc1-919c-858c135a5b93

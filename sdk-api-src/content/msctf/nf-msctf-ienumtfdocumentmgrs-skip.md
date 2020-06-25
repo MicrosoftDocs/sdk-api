@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfDocumentMgrs.Skip
 title: IEnumTfDocumentMgrs::Skip (msctf.h)
-description: IEnumTfDocumentMgrs::Skip methodhelpviewer_keywords: ["IEnumTfDocumentMgrs interface [Text Services Framework]","Skip method","IEnumTfDocumentMgrs.Skip","IEnumTfDocumentMgrs::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfDocumentMgrs interface","_tsf_ienumtfdocumentmgrs_skip_ref","msctf/IEnumTfDocumentMgrs::Skip","tsf.ienumtfdocumentmgrs_skip"]
+description: IEnumTfDocumentMgrs::Skip method
+helpviewer_keywords: ["IEnumTfDocumentMgrs interface [Text Services Framework]","Skip method","IEnumTfDocumentMgrs.Skip","IEnumTfDocumentMgrs::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfDocumentMgrs interface","_tsf_ienumtfdocumentmgrs_skip_ref","msctf/IEnumTfDocumentMgrs::Skip","tsf.ienumtfdocumentmgrs_skip"]
 old-location: tsf\ienumtfdocumentmgrs_skip.htm
 tech.root: TSF
 ms.assetid: 04464160-d171-4c83-91f0-068a1c13544a

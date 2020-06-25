@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationcore.IUIAutomationRegistrar
 title: IUIAutomationRegistrar (uiautomationcore.h)
-description: Exposes methods for registering new control patterns, properties, and events.helpviewer_keywords: ["IUIAutomationRegistrar","IUIAutomationRegistrar interface [Windows Accessibility]","IUIAutomationRegistrar interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationRegistrar","uiauto_IUIAutomationRegistrar","uiautomationcore/IUIAutomationRegistrar","winauto.uiauto_IUIAutomationRegistrar"]
+description: Exposes methods for registering new control patterns, properties, and events.
+helpviewer_keywords: ["IUIAutomationRegistrar","IUIAutomationRegistrar interface [Windows Accessibility]","IUIAutomationRegistrar interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationRegistrar","uiauto_IUIAutomationRegistrar","uiautomationcore/IUIAutomationRegistrar","winauto.uiauto_IUIAutomationRegistrar"]
 old-location: winauto\uiauto_IUIAutomationRegistrar.htm
 tech.root: WinAuto
 ms.assetid: b5d979aa-7a87-4d6c-acdc-6e9eb19aac98

@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateManager.UnregisterWaitHandleCallback
 title: IDirectManipulationUpdateManager::UnregisterWaitHandleCallback (directmanipulation.h)
-description: Deregisters a callback.helpviewer_keywords: ["IDirectManipulationUpdateManager interface [Direct Manipulation]","UnregisterWaitHandleCallback method","IDirectManipulationUpdateManager.UnregisterWaitHandleCallback","IDirectManipulationUpdateManager::UnregisterWaitHandleCallback","UnregisterWaitHandleCallback","UnregisterWaitHandleCallback method [Direct Manipulation]","UnregisterWaitHandleCallback method [Direct Manipulation]","IDirectManipulationUpdateManager interface","directmanipulation.idirectmanipulationupdatemanager_unregisterwaithandlecallback","directmanipulation/IDirectManipulationUpdateManager::UnregisterWaitHandleCallback"]
+description: Deregisters a callback.
+helpviewer_keywords: ["IDirectManipulationUpdateManager interface [Direct Manipulation]","UnregisterWaitHandleCallback method","IDirectManipulationUpdateManager.UnregisterWaitHandleCallback","IDirectManipulationUpdateManager::UnregisterWaitHandleCallback","UnregisterWaitHandleCallback","UnregisterWaitHandleCallback method [Direct Manipulation]","UnregisterWaitHandleCallback method [Direct Manipulation]","IDirectManipulationUpdateManager interface","directmanipulation.idirectmanipulationupdatemanager_unregisterwaithandlecallback","directmanipulation/IDirectManipulationUpdateManager::UnregisterWaitHandleCallback"]
 old-location: directmanipulation\idirectmanipulationupdatemanager_unregisterwaithandlecallback.htm
 tech.root: directmanipulation
 ms.assetid: d932a4a9-827f-4e23-b30a-3a4b85a60c6e

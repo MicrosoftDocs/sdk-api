@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj_core.IQueryInfo
 title: IQueryInfo (shlobj_core.h)
-description: Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an IShellFolder implementation. Info tips are usually displayed inside a tooltip control.helpviewer_keywords: ["IQueryInfo","IQueryInfo interface [Windows Shell]","IQueryInfo interface [Windows Shell]","described","_win32_IQueryInfo","shell.IQueryInfo","shlobj_core/IQueryInfo"]
+description: Exposes methods that the Shell uses to retrieve flags and info tip information for an item that resides in an IShellFolder implementation. Info tips are usually displayed inside a tooltip control.
+helpviewer_keywords: ["IQueryInfo","IQueryInfo interface [Windows Shell]","IQueryInfo interface [Windows Shell]","described","_win32_IQueryInfo","shell.IQueryInfo","shlobj_core/IQueryInfo"]
 old-location: shell\IQueryInfo.htm
 tech.root: shell
 ms.assetid: 7e256ed3-b3c7-4f9d-b3a0-e33c46fa2573

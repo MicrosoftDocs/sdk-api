@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &)
 title: ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &) (d2d1_3.h)
-description: Updates the last segment in this ink object with new control points.helpviewer_keywords: ["ID2D1Ink interface [Direct2D]","SetSegmentAtEnd method","ID2D1Ink.SetSegmentAtEnd","ID2D1Ink.SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &)","ID2D1Ink::SetSegmentAtEnd","ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &)","SetSegmentAtEnd","SetSegmentAtEnd method [Direct2D]","SetSegmentAtEnd method [Direct2D]","ID2D1Ink interface","d2d1_3/ID2D1Ink::SetSegmentAtEnd","direct2d.id2d1ink_setsegmentatend_2"]
+description: Updates the last segment in this ink object with new control points.
+helpviewer_keywords: ["ID2D1Ink interface [Direct2D]","SetSegmentAtEnd method","ID2D1Ink.SetSegmentAtEnd","ID2D1Ink.SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &)","ID2D1Ink::SetSegmentAtEnd","ID2D1Ink::SetSegmentAtEnd(const D2D1_INK_BEZIER_SEGMENT &)","SetSegmentAtEnd","SetSegmentAtEnd method [Direct2D]","SetSegmentAtEnd method [Direct2D]","ID2D1Ink interface","d2d1_3/ID2D1Ink::SetSegmentAtEnd","direct2d.id2d1ink_setsegmentatend_2"]
 old-location: direct2d\id2d1ink_setsegmentatend_2.htm
 tech.root: Direct2D
 ms.assetid: C9DB6A07-4FDD-4B39-8D30-DF6453D1E61C

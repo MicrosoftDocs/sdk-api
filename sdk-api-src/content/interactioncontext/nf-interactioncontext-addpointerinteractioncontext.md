@@ -1,7 +1,8 @@
 ---
 UID: NF:interactioncontext.AddPointerInteractionContext
 title: AddPointerInteractionContext function (interactioncontext.h)
-description: Include the specified pointer in the set of pointers processed by the Interaction Context object.helpviewer_keywords: ["AddPointerInteractionContext","AddPointerInteractionContext function","input_intcontext.addpointerinteractioncontext","interactioncontext.addpointerinteractioncontext","interactioncontext/AddPointerInteractionContext"]
+description: Include the specified pointer in the set of pointers processed by the Interaction Context object.
+helpviewer_keywords: ["AddPointerInteractionContext","AddPointerInteractionContext function","input_intcontext.addpointerinteractioncontext","interactioncontext.addpointerinteractioncontext","interactioncontext/AddPointerInteractionContext"]
 old-location: input_intcontext\addpointerinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: a720284f-af50-4e55-ae48-c78a1e826dc4

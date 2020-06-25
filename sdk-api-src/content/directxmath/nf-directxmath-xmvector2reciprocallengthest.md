@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector2ReciprocalLengthEst
 title: XMVector2ReciprocalLengthEst function (directxmath.h)
-description: Estimates the reciprocal of the length of a 2D vector.helpviewer_keywords: ["Use DirectX..XMVector2ReciprocalLengthEst","XMVector2ReciprocalLengthEst","XMVector2ReciprocalLengthEst method [DirectX Math Support APIs]","dxmath.xmvector2reciprocallengthest"]
+description: Estimates the reciprocal of the length of a 2D vector.
+helpviewer_keywords: ["Use DirectX..XMVector2ReciprocalLengthEst","XMVector2ReciprocalLengthEst","XMVector2ReciprocalLengthEst method [DirectX Math Support APIs]","dxmath.xmvector2reciprocallengthest"]
 old-location: dxmath\xmvector2reciprocallengthest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2ReciprocalLengthEst(XMVECTOR)

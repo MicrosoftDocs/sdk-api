@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIWindow
 title: IRDPSRAPIWindow (rdpencomapi.h)
-description: Represents a one-to-one mapping to a sharable window.helpviewer_keywords: ["IRDPSRAPIWindow","IRDPSRAPIWindow interface [RDP]","IRDPSRAPIWindow interface [RDP]","described","rdp.irdpsrapiwindow","rdpencomapi/IRDPSRAPIWindow"]
+description: Represents a one-to-one mapping to a sharable window.
+helpviewer_keywords: ["IRDPSRAPIWindow","IRDPSRAPIWindow interface [RDP]","IRDPSRAPIWindow interface [RDP]","described","rdp.irdpsrapiwindow","rdpencomapi/IRDPSRAPIWindow"]
 old-location: rdp\irdpsrapiwindow.htm
 tech.root: rdp
 ms.assetid: 85c8263b-e796-4748-b8e5-6315e5937861

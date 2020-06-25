@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.Reset
 title: IEnumWIA_DEV_CAPS::Reset (wia_xp.h)
-description: The IEnumWIA_DEV_CAPS::Reset method is used by applications to restart the enumeration of device capabilities.helpviewer_keywords: ["IEnumWIA_DEV_CAPS interface [WIA]","Reset method","IEnumWIA_DEV_CAPS.Reset","IEnumWIA_DEV_CAPS::Reset","Reset","Reset method [WIA]","Reset method [WIA]","IEnumWIA_DEV_CAPS interface","_wia_IEnumWIA_DEV_CAPS_Reset","wia._wia_IEnumWIA_DEV_CAPS_Reset","wia_xp/IEnumWIA_DEV_CAPS::Reset"]
+description: The IEnumWIA_DEV_CAPS::Reset method is used by applications to restart the enumeration of device capabilities.
+helpviewer_keywords: ["IEnumWIA_DEV_CAPS interface [WIA]","Reset method","IEnumWIA_DEV_CAPS.Reset","IEnumWIA_DEV_CAPS::Reset","Reset","Reset method [WIA]","Reset method [WIA]","IEnumWIA_DEV_CAPS interface","_wia_IEnumWIA_DEV_CAPS_Reset","wia._wia_IEnumWIA_DEV_CAPS_Reset","wia_xp/IEnumWIA_DEV_CAPS::Reset"]
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_Reset.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\reset.htm

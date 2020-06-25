@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ICspAlgorithm.get_Name
 title: ICspAlgorithm::get_Name (certenroll.h)
-description: Retrieves the abbreviated algorithm name.helpviewer_keywords: ["ICspAlgorithm interface [Security]","Name property","ICspAlgorithm.Name","ICspAlgorithm.get_Name","ICspAlgorithm::Name","ICspAlgorithm::get_Name","Name property [Security]","Name property [Security]","ICspAlgorithm interface","certenroll/ICspAlgorithm::Name","certenroll/ICspAlgorithm::get_Name","get_Name","security.icspalgorithm_name_property"]
+description: Retrieves the abbreviated algorithm name.
+helpviewer_keywords: ["ICspAlgorithm interface [Security]","Name property","ICspAlgorithm.Name","ICspAlgorithm.get_Name","ICspAlgorithm::Name","ICspAlgorithm::get_Name","Name property [Security]","Name property [Security]","ICspAlgorithm interface","certenroll/ICspAlgorithm::Name","certenroll/ICspAlgorithm::get_Name","get_Name","security.icspalgorithm_name_property"]
 old-location: security\icspalgorithm_name_property.htm
 tech.root: seccertenroll
 ms.assetid: af7fa894-58e2-4607-9b6e-c32d4f412ddf

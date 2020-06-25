@@ -1,7 +1,8 @@
 ---
 UID: NF:cryptxml.CryptXmlOpenToEncode
 title: CryptXmlOpenToEncode function (cryptxml.h)
-description: Opens an XML digital signature to encode and returns a handle of the opened Signature element. The handle encapsulates a document context with a single CRYPT_XML_SIGNATURE structure and remains open until the CryptXmlClose function is called.helpviewer_keywords: ["CRYPT_XML_FLAG_DISABLE_EXTENSIONS","CRYPT_XML_FLAG_NO_SERIALIZE","CryptXmlOpenToEncode","CryptXmlOpenToEncode function [Security]","cryptxml/CryptXmlOpenToEncode","security.cryptxmlopentoencode"]
+description: Opens an XML digital signature to encode and returns a handle of the opened Signature element. The handle encapsulates a document context with a single CRYPT_XML_SIGNATURE structure and remains open until the CryptXmlClose function is called.
+helpviewer_keywords: ["CRYPT_XML_FLAG_DISABLE_EXTENSIONS","CRYPT_XML_FLAG_NO_SERIALIZE","CryptXmlOpenToEncode","CryptXmlOpenToEncode function [Security]","cryptxml/CryptXmlOpenToEncode","security.cryptxmlopentoencode"]
 old-location: security\cryptxmlopentoencode.htm
 tech.root: SecCrypto
 ms.assetid: a313d14c-03fc-4719-bacd-c7b3e5ce2dba

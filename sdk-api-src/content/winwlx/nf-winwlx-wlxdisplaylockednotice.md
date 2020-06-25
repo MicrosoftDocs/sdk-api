@@ -1,7 +1,8 @@
 ---
 UID: NF:winwlx.WlxDisplayLockedNotice
 title: WlxDisplayLockedNotice function (winwlx.h)
-description: Allows the GINA to display information about the lock, such as who locked the workstation and when it was locked.helpviewer_keywords: ["WlxDisplayLockedNotice","WlxDisplayLockedNotice function [Security]","_gina_wlxdisplaylockednotice","security.wlxdisplaylockednotice","winwlx/WlxDisplayLockedNotice"]
+description: Allows the GINA to display information about the lock, such as who locked the workstation and when it was locked.
+helpviewer_keywords: ["WlxDisplayLockedNotice","WlxDisplayLockedNotice function [Security]","_gina_wlxdisplaylockednotice","security.wlxdisplaylockednotice","winwlx/WlxDisplayLockedNotice"]
 old-location: security\wlxdisplaylockednotice.htm
 tech.root: SecAuthN
 ms.assetid: f8209ac4-e79b-4997-8dc3-c9224e10822b

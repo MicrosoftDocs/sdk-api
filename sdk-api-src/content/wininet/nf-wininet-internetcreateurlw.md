@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetCreateUrlW
 title: InternetCreateUrlW function (wininet.h)
-description: Creates a URL from its component parts.helpviewer_keywords: ["InternetCreateUrl","InternetCreateUrl function [WinINet]","InternetCreateUrlA","InternetCreateUrlW","_inet_internetcreateurl_function","wininet.internetcreateurl","wininet/InternetCreateUrl","wininet/InternetCreateUrlA","wininet/InternetCreateUrlW"]
+description: Creates a URL from its component parts.
+helpviewer_keywords: ["InternetCreateUrl","InternetCreateUrl function [WinINet]","InternetCreateUrlA","InternetCreateUrlW","_inet_internetcreateurl_function","wininet.internetcreateurl","wininet/InternetCreateUrl","wininet/InternetCreateUrlA","wininet/InternetCreateUrlW"]
 old-location: wininet\internetcreateurl.htm
 tech.root: wininet
 ms.assetid: b01bb684-0b2f-4c17-ab32-9f83fdd89e69
@@ -134,6 +135,10 @@ When specifying scheme in the <a href="https://docs.microsoft.com/windows/deskto
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines InternetCreateUrl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

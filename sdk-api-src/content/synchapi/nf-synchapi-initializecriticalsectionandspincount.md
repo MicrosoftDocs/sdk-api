@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.InitializeCriticalSectionAndSpinCount
 title: InitializeCriticalSectionAndSpinCount function (synchapi.h)
-description: Initializes a critical section object and sets the spin count for the critical section.helpviewer_keywords: ["InitializeCriticalSectionAndSpinCount","InitializeCriticalSectionAndSpinCount function","_win32_initializecriticalsectionandspincount","base.initializecriticalsectionandspincount","synchapi/InitializeCriticalSectionAndSpinCount","winbase/InitializeCriticalSectionAndSpinCount"]
+description: Initializes a critical section object and sets the spin count for the critical section.
+helpviewer_keywords: ["InitializeCriticalSectionAndSpinCount","InitializeCriticalSectionAndSpinCount function","_win32_initializecriticalsectionandspincount","base.initializecriticalsectionandspincount","synchapi/InitializeCriticalSectionAndSpinCount","winbase/InitializeCriticalSectionAndSpinCount"]
 old-location: base\initializecriticalsectionandspincount.htm
 tech.root: Sync
 ms.assetid: 4b84b305-8bc0-4592-9378-b757bbc0de19

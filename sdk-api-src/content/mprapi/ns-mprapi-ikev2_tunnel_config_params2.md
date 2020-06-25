@@ -1,7 +1,8 @@
 ---
 UID: NS:mprapi._IKEV2_TUNNEL_CONFIG_PARAMS2
 title: IKEV2_TUNNEL_CONFIG_PARAMS2 (mprapi.h)
-description: Gets or sets tunnel parameters for Internet Key Exchange version 2 (IKEv2) devices.helpviewer_keywords: ["*PIKEV2_TUNNEL_CONFIG_PARAMS2","IKEV2_TUNNEL_CONFIG_PARAMS2","IKEV2_TUNNEL_CONFIG_PARAMS2 structure [RAS]","PIKEV2_TUNNEL_CONFIG_PARAMS2","PIKEV2_TUNNEL_CONFIG_PARAMS2 structure pointer [RAS]","mprapi/IKEV2_TUNNEL_CONFIG_PARAMS2","mprapi/PIKEV2_TUNNEL_CONFIG_PARAMS2","rras.ikev2_tunnel_config_params2"]
+description: Gets or sets tunnel parameters for Internet Key Exchange version 2 (IKEv2) devices.
+helpviewer_keywords: ["*PIKEV2_TUNNEL_CONFIG_PARAMS2","IKEV2_TUNNEL_CONFIG_PARAMS2","IKEV2_TUNNEL_CONFIG_PARAMS2 structure [RAS]","PIKEV2_TUNNEL_CONFIG_PARAMS2","PIKEV2_TUNNEL_CONFIG_PARAMS2 structure pointer [RAS]","mprapi/IKEV2_TUNNEL_CONFIG_PARAMS2","mprapi/PIKEV2_TUNNEL_CONFIG_PARAMS2","rras.ikev2_tunnel_config_params2"]
 old-location: rras\ikev2_tunnel_config_params2.htm
 tech.root: RRAS
 ms.assetid: 916e70d9-b103-4e72-a9b3-a34063b3641e

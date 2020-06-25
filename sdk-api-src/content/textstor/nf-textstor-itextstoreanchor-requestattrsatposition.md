@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestAttrsAtPosition
 title: ITextStoreAnchor::RequestAttrsAtPosition (textstor.h)
-description: ITextStoreAnchor::RequestAttrsAtPosition methodhelpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","RequestAttrsAtPosition method","ITextStoreAnchor.RequestAttrsAtPosition","ITextStoreAnchor::RequestAttrsAtPosition","RequestAttrsAtPosition","RequestAttrsAtPosition method [Text Services Framework]","RequestAttrsAtPosition method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::RequestAttrsAtPosition","tsf.itextstoreanchor_requestattrsatposition"]
+description: ITextStoreAnchor::RequestAttrsAtPosition method
+helpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","RequestAttrsAtPosition method","ITextStoreAnchor.RequestAttrsAtPosition","ITextStoreAnchor::RequestAttrsAtPosition","RequestAttrsAtPosition","RequestAttrsAtPosition method [Text Services Framework]","RequestAttrsAtPosition method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::RequestAttrsAtPosition","tsf.itextstoreanchor_requestattrsatposition"]
 old-location: tsf\itextstoreanchor_requestattrsatposition.htm
 tech.root: TSF
 ms.assetid: d0f20507-005b-409d-90d5-5817b7d95f19

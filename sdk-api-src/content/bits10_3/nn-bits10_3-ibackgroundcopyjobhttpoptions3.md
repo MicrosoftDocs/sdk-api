@@ -3,7 +3,8 @@ UID: NN:bits10_3.IBackgroundCopyJobHttpOptions3
 title: IBackgroundCopyJobHttpOptions3
 ms.date: 05/09/2019
 ms.keywords: IBackgroundCopyJobHttpOptions3
-description: Use this interface to set HTTP customer headers to write-only, or to set a server certificate validation callback method that you've implemented.helpviewer_keywords: ["IBackgroundCopyJobHttpOptions3"]
+description: Use this interface to set HTTP customer headers to write-only, or to set a server certificate validation callback method that you've implemented.
+helpviewer_keywords: ["IBackgroundCopyJobHttpOptions3"]
 tech.root: Bits
 f1_keywords:
 - bits10_3/IBackgroundCopyJobHttpOptions3

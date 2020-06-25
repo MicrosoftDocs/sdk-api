@@ -1,7 +1,8 @@
 ---
 UID: NF:medparam.IMediaParams.GetParam
 title: IMediaParams::GetParam (medparam.h)
-description: The GetParam method retrieves the current value of the specified parameter. If the parameter is currently within an envelope segment, the returned value is the value on the most recently processed sample.helpviewer_keywords: ["GetParam","GetParam method [DirectShow]","GetParam method [DirectShow]","IMediaParams interface","IMediaParams interface [DirectShow]","GetParam method","IMediaParams.GetParam","IMediaParams::GetParam","IMediaParamsGetParam","dshow.imediaparams_getparam","medparam/IMediaParams::GetParam"]
+description: The GetParam method retrieves the current value of the specified parameter. If the parameter is currently within an envelope segment, the returned value is the value on the most recently processed sample.
+helpviewer_keywords: ["GetParam","GetParam method [DirectShow]","GetParam method [DirectShow]","IMediaParams interface","IMediaParams interface [DirectShow]","GetParam method","IMediaParams.GetParam","IMediaParams::GetParam","IMediaParamsGetParam","dshow.imediaparams_getparam","medparam/IMediaParams::GetParam"]
 old-location: dshow\imediaparams_getparam.htm
 tech.root: DirectShow
 ms.assetid: 4fcae36a-c659-4565-9169-66d97beb26a4

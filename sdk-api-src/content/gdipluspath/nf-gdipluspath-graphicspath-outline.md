@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Outline
 title: GraphicsPath::Outline (gdipluspath.h)
-description: The GraphicsPath::Outline method transforms and flattens this path, and then converts this path's data points so that they represent only the outline of the path.helpviewer_keywords: ["GraphicsPath class [GDI+]","Outline method","GraphicsPath.Outline","GraphicsPath::Outline","Outline","Outline method [GDI+]","Outline method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_Outline_matrix_flatness_","gdiplus._gdiplus_CLASS_GraphicsPath_Outline_matrix_flatness_"]
+description: The GraphicsPath::Outline method transforms and flattens this path, and then converts this path's data points so that they represent only the outline of the path.
+helpviewer_keywords: ["GraphicsPath class [GDI+]","Outline method","GraphicsPath.Outline","GraphicsPath::Outline","Outline","Outline method [GDI+]","Outline method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_Outline_matrix_flatness_","gdiplus._gdiplus_CLASS_GraphicsPath_Outline_matrix_flatness_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Outline_matrix_flatness_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\outline.htm

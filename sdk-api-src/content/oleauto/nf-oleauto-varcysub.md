@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarCySub
 title: VarCySub function (oleauto.h)
-description: Subtracts two variants of type currency.helpviewer_keywords: ["VarCySub","VarCySub function [Automation]","_oa96_VarCySub","automat.varcysub","oleauto/VarCySub"]
+description: Subtracts two variants of type currency.
+helpviewer_keywords: ["VarCySub","VarCySub function [Automation]","_oa96_VarCySub","automat.varcysub","oleauto/VarCySub"]
 old-location: automat\varcysub.htm
 tech.root: automat
 ms.assetid: 248640b4-4c53-402b-af53-b76a809f0741

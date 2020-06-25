@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMGetDepthStencilState
 title: ID3D11DeviceContext::OMGetDepthStencilState (d3d11.h)
-description: Gets the depth-stencil state of the output-merger stage.helpviewer_keywords: ["46d0ab14-fdda-10ce-1e1a-4e551e1deeb3","ID3D11DeviceContext interface [Direct3D 11]","OMGetDepthStencilState method","ID3D11DeviceContext.OMGetDepthStencilState","ID3D11DeviceContext::OMGetDepthStencilState","OMGetDepthStencilState","OMGetDepthStencilState method [Direct3D 11]","OMGetDepthStencilState method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::OMGetDepthStencilState","direct3d11.id3d11devicecontext_omgetdepthstencilstate"]
+description: Gets the depth-stencil state of the output-merger stage.
+helpviewer_keywords: ["46d0ab14-fdda-10ce-1e1a-4e551e1deeb3","ID3D11DeviceContext interface [Direct3D 11]","OMGetDepthStencilState method","ID3D11DeviceContext.OMGetDepthStencilState","ID3D11DeviceContext::OMGetDepthStencilState","OMGetDepthStencilState","OMGetDepthStencilState method [Direct3D 11]","OMGetDepthStencilState method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::OMGetDepthStencilState","direct3d11.id3d11devicecontext_omgetdepthstencilstate"]
 old-location: direct3d11\id3d11devicecontext_omgetdepthstencilstate.htm
 tech.root: direct3d11
 ms.assetid: d5ea53a8-62c9-46c9-96ed-8c9977d916b2

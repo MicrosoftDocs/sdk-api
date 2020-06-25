@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateSurface
 title: IDCompositionDevice::CreateSurface (dcomp.h)
-description: Creates an updateable surface object that can be associated with one or more visuals for composition.helpviewer_keywords: ["CreateSurface","CreateSurface method [DirectComposition]","CreateSurface method [DirectComposition]","IDCompositionDevice interface","DXGI_ALPHA_MODE_IGNORE","DXGI_ALPHA_MODE_PREMULTIPLIED","DXGI_ALPHA_MODE_UNSPECIFIED","IDCompositionDevice interface [DirectComposition]","CreateSurface method","IDCompositionDevice.CreateSurface","IDCompositionDevice::CreateSurface","dcomp/IDCompositionDevice::CreateSurface","directcomp.idcompositiondevice_createsurface"]
+description: Creates an updateable surface object that can be associated with one or more visuals for composition.
+helpviewer_keywords: ["CreateSurface","CreateSurface method [DirectComposition]","CreateSurface method [DirectComposition]","IDCompositionDevice interface","DXGI_ALPHA_MODE_IGNORE","DXGI_ALPHA_MODE_PREMULTIPLIED","DXGI_ALPHA_MODE_UNSPECIFIED","IDCompositionDevice interface [DirectComposition]","CreateSurface method","IDCompositionDevice.CreateSurface","IDCompositionDevice::CreateSurface","dcomp/IDCompositionDevice::CreateSurface","directcomp.idcompositiondevice_createsurface"]
 old-location: directcomp\idcompositiondevice_createsurface.htm
 tech.root: directcomp
 ms.assetid: 3B321BF8-A7A5-4E40-B548-D88CA45F6DAF

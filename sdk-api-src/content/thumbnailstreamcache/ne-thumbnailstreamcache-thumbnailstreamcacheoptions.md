@@ -1,7 +1,8 @@
 ---
 UID: NE:thumbnailstreamcache.ThumbnailStreamCacheOptions
 title: ThumbnailStreamCacheOptions (thumbnailstreamcache.h)
-description: Defines the cache options used by the IThumbnailStreamCache interface.helpviewer_keywords: ["AllowSmallerSize","ExtractIfNotCached","ResizeThumbnail","ReturnOnlyIfCached","ThumbnailStreamCacheOptions","ThumbnailStreamCacheOptions enumeration [Windows Shell]","shell.thumbnailstreamcacheoptions","thumbnailstreamcache/AllowSmallerSize","thumbnailstreamcache/ExtractIfNotCached","thumbnailstreamcache/ResizeThumbnail","thumbnailstreamcache/ReturnOnlyIfCached","thumbnailstreamcache/ThumbnailStreamCacheOptions"]
+description: Defines the cache options used by the IThumbnailStreamCache interface.
+helpviewer_keywords: ["AllowSmallerSize","ExtractIfNotCached","ResizeThumbnail","ReturnOnlyIfCached","ThumbnailStreamCacheOptions","ThumbnailStreamCacheOptions enumeration [Windows Shell]","shell.thumbnailstreamcacheoptions","thumbnailstreamcache/AllowSmallerSize","thumbnailstreamcache/ExtractIfNotCached","thumbnailstreamcache/ResizeThumbnail","thumbnailstreamcache/ReturnOnlyIfCached","thumbnailstreamcache/ThumbnailStreamCacheOptions"]
 old-location: shell\thumbnailstreamcacheoptions.htm
 tech.root: shell
 ms.assetid: E148138E-E41F-4274-B40A-7BF49BCF2AB4

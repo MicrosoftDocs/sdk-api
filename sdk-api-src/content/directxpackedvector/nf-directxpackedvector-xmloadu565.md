@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMLoadU565
 title: XMLoadU565 function (directxpackedvector.h)
-description: Loads an XMU565 into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMLoadU565","XMLoadU565","XMLoadU565 method [DirectX Math Support APIs]","dxmath.xmloadu565"]
+description: Loads an XMU565 into an XMVECTOR.
+helpviewer_keywords: ["DirectX::PackedVector.XMLoadU565","XMLoadU565","XMLoadU565 method [DirectX Math Support APIs]","dxmath.xmloadu565"]
 old-location: dxmath\xmloadu565.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadU565(const XMU565)

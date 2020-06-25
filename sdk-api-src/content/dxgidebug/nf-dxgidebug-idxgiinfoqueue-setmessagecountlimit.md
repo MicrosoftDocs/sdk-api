@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetMessageCountLimit
 title: IDXGIInfoQueue::SetMessageCountLimit (dxgidebug.h)
-description: Sets the maximum number of messages that can be added to the message queue.helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","SetMessageCountLimit method","IDXGIInfoQueue.SetMessageCountLimit","IDXGIInfoQueue::SetMessageCountLimit","SetMessageCountLimit","SetMessageCountLimit method [DXGI]","SetMessageCountLimit method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_setmessagecountlimit","dxgidebug/IDXGIInfoQueue::SetMessageCountLimit"]
+description: Sets the maximum number of messages that can be added to the message queue.
+helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","SetMessageCountLimit method","IDXGIInfoQueue.SetMessageCountLimit","IDXGIInfoQueue::SetMessageCountLimit","SetMessageCountLimit","SetMessageCountLimit method [DXGI]","SetMessageCountLimit method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_setmessagecountlimit","dxgidebug/IDXGIInfoQueue::SetMessageCountLimit"]
 old-location: direct3ddxgi\idxgiinfoqueue_setmessagecountlimit.htm
 tech.root: direct3ddxgi
 ms.assetid: 77FFF3EA-DEBC-4D92-9C10-E382CD663D20

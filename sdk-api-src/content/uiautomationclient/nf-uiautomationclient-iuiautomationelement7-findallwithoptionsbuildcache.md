@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement7.FindAllWithOptionsBuildCache
 title: IUIAutomationElement7::FindAllWithOptionsBuildCache (uiautomationclient.h)
-description: Finds all matching elements in the specified order, but also caches their properties and patterns.helpviewer_keywords: ["FindAllWithOptionsBuildCache","FindAllWithOptionsBuildCache method [Windows Accessibility]","FindAllWithOptionsBuildCache method [Windows Accessibility]","IUIAutomationElement7 interface","IUIAutomationElement7 interface [Windows Accessibility]","FindAllWithOptionsBuildCache method","IUIAutomationElement7.FindAllWithOptionsBuildCache","IUIAutomationElement7::FindAllWithOptionsBuildCache","uiautomationclient/IUIAutomationElement7::FindAllWithOptionsBuildCache","winauto.uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache","winauto.uiauto_iuiautomationelement_findallwithoptionsbuildcache"]
+description: Finds all matching elements in the specified order, but also caches their properties and patterns.
+helpviewer_keywords: ["FindAllWithOptionsBuildCache","FindAllWithOptionsBuildCache method [Windows Accessibility]","FindAllWithOptionsBuildCache method [Windows Accessibility]","IUIAutomationElement7 interface","IUIAutomationElement7 interface [Windows Accessibility]","FindAllWithOptionsBuildCache method","IUIAutomationElement7.FindAllWithOptionsBuildCache","IUIAutomationElement7::FindAllWithOptionsBuildCache","uiautomationclient/IUIAutomationElement7::FindAllWithOptionsBuildCache","winauto.uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache","winauto.uiauto_iuiautomationelement_findallwithoptionsbuildcache"]
 old-location: winauto\uiauto_IUIAutomationElement7_FindAllWithOptionsBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 92F9E34B-BFB9-48EA-A0EC-6E69EFB6307B

@@ -1,7 +1,8 @@
 ---
 UID: NN:vdshwprv.IVdsController
 title: IVdsController (vdshwprv.h)
-description: Provides methods for performing query and configuration operations on a controller.helpviewer_keywords: ["IVdsController","IVdsController interface [VDS]","IVdsController interface [VDS]","described","base.ivdscontroller","vds/IVdsController","vdshwprv/IVdsController"]
+description: Provides methods for performing query and configuration operations on a controller.
+helpviewer_keywords: ["IVdsController","IVdsController interface [VDS]","IVdsController interface [VDS]","described","base.ivdscontroller","vds/IVdsController","vdshwprv/IVdsController"]
 old-location: base\ivdscontroller.htm
 tech.root: VDS
 ms.assetid: cc30a78a-78a4-49c2-a97d-228400da46a9

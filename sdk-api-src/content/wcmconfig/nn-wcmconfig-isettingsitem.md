@@ -1,7 +1,8 @@
 ---
 UID: NN:wcmconfig.ISettingsItem
 title: ISettingsItem (wcmconfig.h)
-description: Navigates the settings tree, retrieves the metadata for a particular setting, and retrieves or modify its value.helpviewer_keywords: ["ISettingsItem","ISettingsItem interface [SMI]","ISettingsItem interface [SMI]","described","smi.isettingsitem","wcmconfig/ISettingsItem"]
+description: Navigates the settings tree, retrieves the metadata for a particular setting, and retrieves or modify its value.
+helpviewer_keywords: ["ISettingsItem","ISettingsItem interface [SMI]","ISettingsItem interface [SMI]","described","smi.isettingsitem","wcmconfig/ISettingsItem"]
 old-location: smi\isettingsitem.htm
 tech.root: SMI
 ms.assetid: a743d942-69f9-426b-be88-adf88b9bb1e0

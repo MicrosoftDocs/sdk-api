@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_RecipientName
 title: IFaxStatus::get_RecipientName (faxcom.h)
-description: Retrieves the RecipientName property for a FaxStatus object. The RecipientName property is a null-terminated string that contains the name of the recipient of an inbound fax transmission.helpviewer_keywords: ["IFaxStatus interface [Fax Service]","RecipientName property","IFaxStatus.RecipientName","IFaxStatus.get_RecipientName","IFaxStatus::RecipientName","IFaxStatus::get_RecipientName","RecipientName property [Fax Service]","RecipientName property [Fax Service]","IFaxStatus interface","_mfax_ifaxstatus_get_recipientname","fax._mfax_ifaxstatus_get_recipientname","fax._mfax_ifaxstatus_mfax_ifaxstatus_get_recipientname_cpp","faxcom/IFaxStatus::RecipientName","faxcom/IFaxStatus::get_RecipientName","get_RecipientName"]
+description: Retrieves the RecipientName property for a FaxStatus object. The RecipientName property is a null-terminated string that contains the name of the recipient of an inbound fax transmission.
+helpviewer_keywords: ["IFaxStatus interface [Fax Service]","RecipientName property","IFaxStatus.RecipientName","IFaxStatus.get_RecipientName","IFaxStatus::RecipientName","IFaxStatus::get_RecipientName","RecipientName property [Fax Service]","RecipientName property [Fax Service]","IFaxStatus interface","_mfax_ifaxstatus_get_recipientname","fax._mfax_ifaxstatus_get_recipientname","fax._mfax_ifaxstatus_mfax_ifaxstatus_get_recipientname_cpp","faxcom/IFaxStatus::RecipientName","faxcom/IFaxStatus::get_RecipientName","get_RecipientName"]
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_recipientname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6qlh.htm

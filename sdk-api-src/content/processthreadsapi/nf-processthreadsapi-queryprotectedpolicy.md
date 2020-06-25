@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.QueryProtectedPolicy
 title: QueryProtectedPolicy function (processthreadsapi.h)
-description: Queries the value associated with a protected policy.helpviewer_keywords: ["QueryProtectedPolicy","QueryProtectedPolicy function","base.getprotectedpolicy","base.queryprotectedpolicy","processthreadsapi/QueryProtectedPolicy"]
+description: Queries the value associated with a protected policy.
+helpviewer_keywords: ["QueryProtectedPolicy","QueryProtectedPolicy function","base.getprotectedpolicy","base.queryprotectedpolicy","processthreadsapi/QueryProtectedPolicy"]
 old-location: base\queryprotectedpolicy.htm
 tech.root: ProcThread
 ms.assetid: A9B37117-DE6A-426C-B554-2178247FD4C8

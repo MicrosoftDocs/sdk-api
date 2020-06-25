@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite.IDWriteFactory
 title: IDWriteFactory (dwrite.h)
-description: Used to create all subsequent DirectWrite objects. This interface is the root factory interface for all DirectWrite objects.helpviewer_keywords: ["IDWriteFactory","IDWriteFactory interface [Direct Write]","IDWriteFactory interface [Direct Write]","described","directwrite.IDWriteFactory","dwrite/IDWriteFactory"]
+description: Used to create all subsequent DirectWrite objects. This interface is the root factory interface for all DirectWrite objects.
+helpviewer_keywords: ["IDWriteFactory","IDWriteFactory interface [Direct Write]","IDWriteFactory interface [Direct Write]","described","directwrite.IDWriteFactory","dwrite/IDWriteFactory"]
 old-location: directwrite\IDWriteFactory.htm
 tech.root: DirectWrite
 ms.assetid: 73a85977-5c24-4abc-ad8c-1d0d6474bd7e

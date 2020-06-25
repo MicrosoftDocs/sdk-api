@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock.recvfrom
 title: recvfrom function (winsock.h)
-description: The recvfrom function receives a datagram and stores the source address.helpviewer_keywords: ["_win32_recvfrom_2","recvfrom","recvfrom function [Winsock]","winsock.recvfrom_2","winsock/recvfrom"]
+description: The recvfrom function receives a datagram and stores the source address.
+helpviewer_keywords: ["_win32_recvfrom_2","recvfrom","recvfrom function [Winsock]","winsock.recvfrom_2","winsock/recvfrom"]
 old-location: winsock\recvfrom_2.htm
 tech.root: WinSock
 ms.assetid: 3e4282e0-3ed0-43e7-9b27-72ec36b9cfa1

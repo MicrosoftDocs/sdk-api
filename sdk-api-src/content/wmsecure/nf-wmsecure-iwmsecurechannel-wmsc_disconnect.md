@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Disconnect
 title: IWMSecureChannel::WMSC_Disconnect (wmsecure.h)
-description: The WMSC_Disconnect method destroys the secure connection.helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_Disconnect method","IWMSecureChannel.WMSC_Disconnect","IWMSecureChannel::WMSC_Disconnect","WMSC_Disconnect","WMSC_Disconnect method [windows Media Format]","WMSC_Disconnect method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_disconnect","wmsecure/IWMSecureChannel::WMSC_Disconnect"]
+description: The WMSC_Disconnect method destroys the secure connection.
+helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_Disconnect method","IWMSecureChannel.WMSC_Disconnect","IWMSecureChannel::WMSC_Disconnect","WMSC_Disconnect","WMSC_Disconnect method [windows Media Format]","WMSC_Disconnect method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_disconnect","wmsecure/IWMSecureChannel::WMSC_Disconnect"]
 old-location: wmformat\iwmsecurechannel_wmsc_disconnect.htm
 tech.root: wmformat
 ms.assetid: 13956668-2fd3-45ac-a96c-7dfc5c8fcb26

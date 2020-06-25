@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_Task
 title: IDataCollectorSet::get_Task (pla.h)
-description: Retrieves or sets the name of a Task Scheduler job to start each time the data collector set stops, including between segments.helpviewer_keywords: ["IDataCollectorSet interface [PLA]","Task property","IDataCollectorSet.Task","IDataCollectorSet.get_Task","IDataCollectorSet::Task","IDataCollectorSet::get_Task","IDataCollectorSet::put_Task","Task property [PLA]","Task property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_task","get_Task","pla.idatacollectorset_get_task","pla/IDataCollectorSet::Task","pla/IDataCollectorSet::get_Task","pla/IDataCollectorSet::put_Task"]
+description: Retrieves or sets the name of a Task Scheduler job to start each time the data collector set stops, including between segments.
+helpviewer_keywords: ["IDataCollectorSet interface [PLA]","Task property","IDataCollectorSet.Task","IDataCollectorSet.get_Task","IDataCollectorSet::Task","IDataCollectorSet::get_Task","IDataCollectorSet::put_Task","Task property [PLA]","Task property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_task","get_Task","pla.idatacollectorset_get_task","pla/IDataCollectorSet::Task","pla/IDataCollectorSet::get_Task","pla/IDataCollectorSet::put_Task"]
 old-location: pla\idatacollectorset_get_task.htm
 tech.root: PLA
 ms.assetid: 8a89ebb9-2396-43f9-81ee-bfc2cdff18fa

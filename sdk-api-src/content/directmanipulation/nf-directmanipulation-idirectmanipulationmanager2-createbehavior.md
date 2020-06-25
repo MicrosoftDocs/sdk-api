@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager2.CreateBehavior
 title: IDirectManipulationManager2::CreateBehavior (directmanipulation.h)
-description: Factory method to create a behavior.helpviewer_keywords: ["CreateBehavior","CreateBehavior method [Direct Manipulation]","CreateBehavior method [Direct Manipulation]","IDirectManipulationManager2 interface","IDirectManipulationManager2 interface [Direct Manipulation]","CreateBehavior method","IDirectManipulationManager2.CreateBehavior","IDirectManipulationManager2::CreateBehavior","directmanipulation.idirectmanipulationmanager2_createbehavior","directmanipulation/IDirectManipulationManager2::CreateBehavior"]
+description: Factory method to create a behavior.
+helpviewer_keywords: ["CreateBehavior","CreateBehavior method [Direct Manipulation]","CreateBehavior method [Direct Manipulation]","IDirectManipulationManager2 interface","IDirectManipulationManager2 interface [Direct Manipulation]","CreateBehavior method","IDirectManipulationManager2.CreateBehavior","IDirectManipulationManager2::CreateBehavior","directmanipulation.idirectmanipulationmanager2_createbehavior","directmanipulation/IDirectManipulationManager2::CreateBehavior"]
 old-location: directmanipulation\idirectmanipulationmanager2_createbehavior.htm
 tech.root: directmanipulation
 ms.assetid: 8890E44F-595A-4116-B4A4-F10FAEE598B7

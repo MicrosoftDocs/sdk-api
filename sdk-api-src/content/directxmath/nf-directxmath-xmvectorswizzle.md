@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorSwizzle
 title: XMVectorSwizzle function (directxmath.h)
-description: Swizzles a vector.helpviewer_keywords: ["Use DirectX..XMVectorSwizzle","XMVectorSwizzle","XMVectorSwizzle method [DirectX Math Support APIs]","dxmath.xmvectorswizzle"]
+description: Swizzles a vector.
+helpviewer_keywords: ["Use DirectX..XMVectorSwizzle","XMVectorSwizzle","XMVectorSwizzle method [DirectX Math Support APIs]","dxmath.xmvectorswizzle"]
 old-location: dxmath\xmvectorswizzle.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.component-wise.XMVectorSwizzle(XMVECTOR,uint32_t,uint32_t,uint32_t,uint32_t)

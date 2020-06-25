@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceGetHandle
 title: MprAdminInterfaceGetHandle function (mprapi.h)
-description: The MprAdminInterfaceGetHandle function retrieves a handle to a specified interface.helpviewer_keywords: ["MprAdminInterfaceGetHandle","MprAdminInterfaceGetHandle function [RAS]","_mpr_mpradmininterfacegethandle","mprapi/MprAdminInterfaceGetHandle","rras.mpradmininterfacegethandle"]
+description: The MprAdminInterfaceGetHandle function retrieves a handle to a specified interface.
+helpviewer_keywords: ["MprAdminInterfaceGetHandle","MprAdminInterfaceGetHandle function [RAS]","_mpr_mpradmininterfacegethandle","mprapi/MprAdminInterfaceGetHandle","rras.mpradmininterfacegethandle"]
 old-location: rras\mpradmininterfacegethandle.htm
 tech.root: RRAS
 ms.assetid: a220dbc1-90e0-4290-8a65-c2a2dd218f07

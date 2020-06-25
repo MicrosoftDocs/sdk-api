@@ -1,7 +1,8 @@
 ---
 UID: NE:mmc._MMC_RESULT_VIEW_STYLE
 title: MMC_RESULT_VIEW_STYLE (mmc.h)
-description: The MMC_RESULT_VIEW_STYLE enumeration defines the Win32 list view style (LVS_*) flags that can be used to set the view style in the MMC result view pane. They can be used in the add and remove parameters of the IResultData::ModifyViewStyle method.helpviewer_keywords: ["MMC_NOSORTHEADER","MMC_RESULT_VIEW_STYLE","MMC_RESULT_VIEW_STYLE enumeration [MMC]","MMC_SHOWSELALWAYS","MMC_SINGLESEL","_slate_mmc_result_view_style","mmc.mmc_result_view_style","mmc/MMC_NOSORTHEADER","mmc/MMC_RESULT_VIEW_STYLE","mmc/MMC_SHOWSELALWAYS","mmc/MMC_SINGLESEL"]
+description: The MMC_RESULT_VIEW_STYLE enumeration defines the Win32 list view style (LVS_*) flags that can be used to set the view style in the MMC result view pane. They can be used in the add and remove parameters of the IResultData::ModifyViewStyle method.
+helpviewer_keywords: ["MMC_NOSORTHEADER","MMC_RESULT_VIEW_STYLE","MMC_RESULT_VIEW_STYLE enumeration [MMC]","MMC_SHOWSELALWAYS","MMC_SINGLESEL","_slate_mmc_result_view_style","mmc.mmc_result_view_style","mmc/MMC_NOSORTHEADER","mmc/MMC_RESULT_VIEW_STYLE","mmc/MMC_SHOWSELALWAYS","mmc/MMC_SINGLESEL"]
 old-location: mmc\mmc_result_view_style.htm
 tech.root: mmc
 ms.assetid: 2f1b93e2-aa1d-4478-877b-a26cdb3dc84b

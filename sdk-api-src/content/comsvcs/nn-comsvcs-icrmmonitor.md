@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.ICrmMonitor
 title: ICrmMonitor (comsvcs.h)
-description: Captures a snapshot of the current state of the CRM and holds a specific CRM clerk.helpviewer_keywords: ["ICrmMonitor","ICrmMonitor interface [COM+]","ICrmMonitor interface [COM+]","described","_dtc_ICrmMonitor_Interface","comsvcs/ICrmMonitor","cos.icrmmonitor"]
+description: Captures a snapshot of the current state of the CRM and holds a specific CRM clerk.
+helpviewer_keywords: ["ICrmMonitor","ICrmMonitor interface [COM+]","ICrmMonitor interface [COM+]","described","_dtc_ICrmMonitor_Interface","comsvcs/ICrmMonitor","cos.icrmmonitor"]
 old-location: cos\icrmmonitor.htm
 tech.root: cossdk
 ms.assetid: ead5f782-8512-4387-b8f3-7be960f35bbe

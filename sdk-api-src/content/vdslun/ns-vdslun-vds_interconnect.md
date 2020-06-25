@@ -1,7 +1,8 @@
 ---
 UID: NS:vdslun._VDS_INTERCONNECT
 title: VDS_INTERCONNECT (vdslun.h)
-description: Defines the address data of a physical interconnect.helpviewer_keywords: ["VDS_INTERCONNECT","VDS_INTERCONNECT structure [VDS]","base.vds_interconnect","vdslun/_VDS_INTERCONNECT"]
+description: Defines the address data of a physical interconnect.
+helpviewer_keywords: ["VDS_INTERCONNECT","VDS_INTERCONNECT structure [VDS]","base.vds_interconnect","vdslun/_VDS_INTERCONNECT"]
 old-location: base\vds_interconnect.htm
 tech.root: VDS
 ms.assetid: fc9f532b-a37f-4338-95db-6ec988131211

@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1_3.ID2D1Factory6
 title: ID2D1Factory6 (d2d1_3.h)
-description: Creates Direct2D resources. This interface also enables the creation of ID2D1Device5 objects.helpviewer_keywords: ["ID2D1Factory6","ID2D1Factory6 interface [Direct2D]","ID2D1Factory6 interface [Direct2D]","described","d2d1_3/ID2D1Factory6","direct2d.id2d1factory6"]
+description: Creates Direct2D resources. This interface also enables the creation of ID2D1Device5 objects.
+helpviewer_keywords: ["ID2D1Factory6","ID2D1Factory6 interface [Direct2D]","ID2D1Factory6 interface [Direct2D]","described","d2d1_3/ID2D1Factory6","direct2d.id2d1factory6"]
 old-location: direct2d\id2d1factory6.htm
 tech.root: Direct2D
 ms.assetid: 79656026-7197-4EF4-A8DD-7E65D43D1F18

@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.INamedPropertyStore.GetNamedValue
 title: INamedPropertyStore::GetNamedValue (propsys.h)
-description: Gets the value of a named property from the named property store.helpviewer_keywords: ["GetNamedValue","GetNamedValue method [Windows Shell]","GetNamedValue method [Windows Shell]","INamedPropertyStore interface","INamedPropertyStore interface [Windows Shell]","GetNamedValue method","INamedPropertyStore.GetNamedValue","INamedPropertyStore::GetNamedValue","_shell_INamedPropertyStore_GetNamedValue","propsys/INamedPropertyStore::GetNamedValue","shell.INamedPropertyStore_GetNamedValue"]
+description: Gets the value of a named property from the named property store.
+helpviewer_keywords: ["GetNamedValue","GetNamedValue method [Windows Shell]","GetNamedValue method [Windows Shell]","INamedPropertyStore interface","INamedPropertyStore interface [Windows Shell]","GetNamedValue method","INamedPropertyStore.GetNamedValue","INamedPropertyStore::GetNamedValue","_shell_INamedPropertyStore_GetNamedValue","propsys/INamedPropertyStore::GetNamedValue","shell.INamedPropertyStore_GetNamedValue"]
 old-location: shell\INamedPropertyStore_GetNamedValue.htm
 tech.root: shell
 ms.assetid: d62fcacd-7af5-4618-9b76-bebb001bb827

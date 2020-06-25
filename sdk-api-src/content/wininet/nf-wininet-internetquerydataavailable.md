@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetQueryDataAvailable
 title: InternetQueryDataAvailable function (wininet.h)
-description: Queries the server to determine the amount of data available.helpviewer_keywords: ["InternetQueryDataAvailable","InternetQueryDataAvailable function [WinINet]","_inet_internetquerydataavailable_function","wininet.internetquerydataavailable","wininet/InternetQueryDataAvailable"]
+description: Queries the server to determine the amount of data available.
+helpviewer_keywords: ["InternetQueryDataAvailable","InternetQueryDataAvailable function [WinINet]","_inet_internetquerydataavailable_function","wininet.internetquerydataavailable","wininet/InternetQueryDataAvailable"]
 old-location: wininet\internetquerydataavailable.htm
 tech.root: wininet
 ms.assetid: fea8250d-f260-421f-b4dd-14b8685e8dac

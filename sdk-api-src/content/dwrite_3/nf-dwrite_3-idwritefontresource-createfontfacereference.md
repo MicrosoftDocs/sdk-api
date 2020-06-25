@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontResource.CreateFontFaceReference
 title: IDWriteFontResource::CreateFontFaceReference
-description: Creates a font face reference with specific axis values.helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","CreateFontFaceReference method","IDWriteFontResource.CreateFontFaceReference","IDWriteFontResource::CreateFontFaceReference","CreateFontFaceReference","CreateFontFaceReference method [Direct Write]","CreateFontFaceReference method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_createfontfacereference","dwrite_3/IDWriteFontResource::CreateFontFaceReference"]
+description: Creates a font face reference with specific axis values.
+helpviewer_keywords: ["IDWriteFontResource interface [Direct Write]","CreateFontFaceReference method","IDWriteFontResource.CreateFontFaceReference","IDWriteFontResource::CreateFontFaceReference","CreateFontFaceReference","CreateFontFaceReference method [Direct Write]","CreateFontFaceReference method [Direct Write]","IDWriteFontResource interface","directwrite.idwritefontresource_createfontfacereference","dwrite_3/IDWriteFontResource::CreateFontFaceReference"]
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: IDWriteFontResource interface [Direct Write],CreateFontFaceReference method, IDWriteFontResource.CreateFontFaceReference, IDWriteFontResource::CreateFontFaceReference, CreateFontFaceReference, CreateFontFaceReference method [Direct Write], CreateFontFaceReference method [Direct Write],IDWriteFontResource interface, directwrite.idwritefontresource_createfontfacereference, dwrite_3/IDWriteFontResource::CreateFontFaceReference

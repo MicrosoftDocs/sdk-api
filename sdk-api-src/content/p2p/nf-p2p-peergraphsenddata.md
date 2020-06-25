@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphSendData
 title: PeerGraphSendData function (p2p.h)
-description: The PeerGraphSendData function sends data to a neighbor node or a directly connected node.helpviewer_keywords: ["PeerGraphSendData","PeerGraphSendData function [Peer Networking]","p2p.peergraphsenddata","p2p/PeerGraphSendData"]
+description: The PeerGraphSendData function sends data to a neighbor node or a directly connected node.
+helpviewer_keywords: ["PeerGraphSendData","PeerGraphSendData function [Peer Networking]","p2p.peergraphsenddata","p2p/PeerGraphSendData"]
 old-location: p2p\peergraphsenddata.htm
 tech.root: P2PSdk
 ms.assetid: 8ccb6f37-cb1b-41fd-a852-5a84cb5506f5

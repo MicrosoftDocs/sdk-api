@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSignatureReferenceSet.Delete
 title: IOpcSignatureReferenceSet::Delete (msopc.h)
-description: Deletes a specified IOpcSignatureReference interface pointer from the set.helpviewer_keywords: ["Delete","Delete method [Open Packaging Conventions]","Delete method [Open Packaging Conventions]","IOpcSignatureReferenceSet interface","IOpcSignatureReferenceSet interface [Open Packaging Conventions]","Delete method","IOpcSignatureReferenceSet.Delete","IOpcSignatureReferenceSet::Delete","msopc/IOpcSignatureReferenceSet::Delete","opc.iopcsignaturereferenceset_delete"]
+description: Deletes a specified IOpcSignatureReference interface pointer from the set.
+helpviewer_keywords: ["Delete","Delete method [Open Packaging Conventions]","Delete method [Open Packaging Conventions]","IOpcSignatureReferenceSet interface","IOpcSignatureReferenceSet interface [Open Packaging Conventions]","Delete method","IOpcSignatureReferenceSet.Delete","IOpcSignatureReferenceSet::Delete","msopc/IOpcSignatureReferenceSet::Delete","opc.iopcsignaturereferenceset_delete"]
 old-location: opc\iopcsignaturereferenceset_delete.htm
 tech.root: OPC
 ms.assetid: 62e47da4-9486-41f4-9e56-23288c0c406b

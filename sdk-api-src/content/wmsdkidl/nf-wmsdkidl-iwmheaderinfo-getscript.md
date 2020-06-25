@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetScript
 title: IWMHeaderInfo::GetScript (wmsdkidl.h)
-description: The GetScript method returns the type and command strings, and the presentation time, of a script.helpviewer_keywords: ["GetScript","GetScript method [windows Media Format]","GetScript method [windows Media Format]","IWMHeaderInfo interface","GetScript method [windows Media Format]","IWMHeaderInfo2 interface","GetScript method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo interface [windows Media Format]","GetScript method","IWMHeaderInfo.GetScript","IWMHeaderInfo2 interface [windows Media Format]","GetScript method","IWMHeaderInfo2::GetScript","IWMHeaderInfo3 interface [windows Media Format]","GetScript method","IWMHeaderInfo3::GetScript","IWMHeaderInfo::GetScript","IWMHeaderInfoGetScript","wmformat.iwmheaderinfo_getscript","wmsdkidl/IWMHeaderInfo2::GetScript","wmsdkidl/IWMHeaderInfo3::GetScript","wmsdkidl/IWMHeaderInfo::GetScript"]
+description: The GetScript method returns the type and command strings, and the presentation time, of a script.
+helpviewer_keywords: ["GetScript","GetScript method [windows Media Format]","GetScript method [windows Media Format]","IWMHeaderInfo interface","GetScript method [windows Media Format]","IWMHeaderInfo2 interface","GetScript method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo interface [windows Media Format]","GetScript method","IWMHeaderInfo.GetScript","IWMHeaderInfo2 interface [windows Media Format]","GetScript method","IWMHeaderInfo2::GetScript","IWMHeaderInfo3 interface [windows Media Format]","GetScript method","IWMHeaderInfo3::GetScript","IWMHeaderInfo::GetScript","IWMHeaderInfoGetScript","wmformat.iwmheaderinfo_getscript","wmsdkidl/IWMHeaderInfo2::GetScript","wmsdkidl/IWMHeaderInfo3::GetScript","wmsdkidl/IWMHeaderInfo::GetScript"]
 old-location: wmformat\iwmheaderinfo_getscript.htm
 tech.root: wmformat
 ms.assetid: 779a7618-9f22-4caf-8a4e-b622e422c30d

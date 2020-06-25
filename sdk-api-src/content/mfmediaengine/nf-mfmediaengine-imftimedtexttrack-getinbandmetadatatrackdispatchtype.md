@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.GetInBandMetadataTrackDispatchType
 title: IMFTimedTextTrack::GetInBandMetadataTrackDispatchType (mfmediaengine.h)
-description: Gets the in-band metadata of the track.helpviewer_keywords: ["GetInBandMetadataTrackDispatchType","GetInBandMetadataTrackDispatchType method [Media Foundation]","GetInBandMetadataTrackDispatchType method [Media Foundation]","IMFTimedTextTrack interface","IMFTimedTextTrack interface [Media Foundation]","GetInBandMetadataTrackDispatchType method","IMFTimedTextTrack.GetInBandMetadataTrackDispatchType","IMFTimedTextTrack::GetInBandMetadataTrackDispatchType","mf.imftimedtexttrack_getinbandmetadatatrackdispatchtype","mfmediaengine/IMFTimedTextTrack::GetInBandMetadataTrackDispatchType"]
+description: Gets the in-band metadata of the track.
+helpviewer_keywords: ["GetInBandMetadataTrackDispatchType","GetInBandMetadataTrackDispatchType method [Media Foundation]","GetInBandMetadataTrackDispatchType method [Media Foundation]","IMFTimedTextTrack interface","IMFTimedTextTrack interface [Media Foundation]","GetInBandMetadataTrackDispatchType method","IMFTimedTextTrack.GetInBandMetadataTrackDispatchType","IMFTimedTextTrack::GetInBandMetadataTrackDispatchType","mf.imftimedtexttrack_getinbandmetadatatrackdispatchtype","mfmediaengine/IMFTimedTextTrack::GetInBandMetadataTrackDispatchType"]
 old-location: mf\imftimedtexttrack_getinbandmetadatatrackdispatchtype.htm
 tech.root: medfound
 ms.assetid: AEA4D160-6DBC-4829-95F3-F016F9709042

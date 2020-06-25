@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.GetExtendModeX
 title: ID2D1ImageBrush::GetExtendModeX (d2d1_1.h)
-description: Gets the extend mode of the image brush on the x-axis.helpviewer_keywords: ["GetExtendModeX","GetExtendModeX method [Direct2D]","GetExtendModeX method [Direct2D]","ID2D1ImageBrush interface","ID2D1ImageBrush interface [Direct2D]","GetExtendModeX method","ID2D1ImageBrush.GetExtendModeX","ID2D1ImageBrush::GetExtendModeX","d2d1_1/ID2D1ImageBrush::GetExtendModeX","direct2d.id2d1imagebrush_getextendmodex"]
+description: Gets the extend mode of the image brush on the x-axis.
+helpviewer_keywords: ["GetExtendModeX","GetExtendModeX method [Direct2D]","GetExtendModeX method [Direct2D]","ID2D1ImageBrush interface","ID2D1ImageBrush interface [Direct2D]","GetExtendModeX method","ID2D1ImageBrush.GetExtendModeX","ID2D1ImageBrush::GetExtendModeX","d2d1_1/ID2D1ImageBrush::GetExtendModeX","direct2d.id2d1imagebrush_getextendmodex"]
 old-location: direct2d\id2d1imagebrush_getextendmodex.htm
 tech.root: Direct2D
 ms.assetid: 272b3d4d-ff76-42fa-8765-b44b1a834dbe

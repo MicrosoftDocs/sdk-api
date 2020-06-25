@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarity.GetRecordCount
 title: ISimilarity::GetRecordCount (msrdc.h)
-description: Retrieves the number of records that are stored in the similarity file ID table in a similarity file.helpviewer_keywords: ["GetRecordCount","GetRecordCount method [Remote Differential Compression]","GetRecordCount method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","GetRecordCount method","ISimilarity.GetRecordCount","ISimilarity::GetRecordCount","fs.isimilarity_getrecordcount","msrdc/ISimilarity::GetRecordCount","rdc.isimilarity_getrecordcount"]
+description: Retrieves the number of records that are stored in the similarity file ID table in a similarity file.
+helpviewer_keywords: ["GetRecordCount","GetRecordCount method [Remote Differential Compression]","GetRecordCount method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","GetRecordCount method","ISimilarity.GetRecordCount","ISimilarity::GetRecordCount","fs.isimilarity_getrecordcount","msrdc/ISimilarity::GetRecordCount","rdc.isimilarity_getrecordcount"]
 old-location: rdc\isimilarity_getrecordcount.htm
 tech.root: rdc
 ms.assetid: 19dda0ed-0f11-4e17-823b-667a48cf6dc1

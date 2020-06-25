@@ -1,7 +1,8 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_OPTION
 title: PXE_DHCPV6_OPTION (wdspxe.h)
-description: The PXE_DHCPV6_OPTION structure can be used with the Windows Deployment Services PXE Server API.helpviewer_keywords: ["*PPXE_DHCPV6_OPTION","PPXE_DHCPV6_OPTION","PPXE_DHCPV6_OPTION structure pointer [Windows Deployment Services]","PXE_DHCPV6_OPTION","PXE_DHCPV6_OPTION structure [Windows Deployment Services]","wds.pxe_dhcpv6_option","wdspxe/PPXE_DHCPV6_OPTION","wdspxe/PXE_DHCPV6_OPTION"]
+description: The PXE_DHCPV6_OPTION structure can be used with the Windows Deployment Services PXE Server API.
+helpviewer_keywords: ["*PPXE_DHCPV6_OPTION","PPXE_DHCPV6_OPTION","PPXE_DHCPV6_OPTION structure pointer [Windows Deployment Services]","PXE_DHCPV6_OPTION","PXE_DHCPV6_OPTION structure [Windows Deployment Services]","wds.pxe_dhcpv6_option","wdspxe/PPXE_DHCPV6_OPTION","wdspxe/PXE_DHCPV6_OPTION"]
 old-location: wds\pxe_dhcpv6_option.htm
 tech.root: wds
 ms.assetid: 9B0A1A5B-1CF7-46B4-9C94-42355555DD60

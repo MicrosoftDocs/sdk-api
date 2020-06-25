@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Multithread.Enter
 title: ID2D1Multithread::Enter (d2d1_1.h)
-description: Enters the Direct2D API critical section, if it exists.helpviewer_keywords: ["Enter","Enter method [Direct2D]","Enter method [Direct2D]","ID2D1Multithread interface","ID2D1Multithread interface [Direct2D]","Enter method","ID2D1Multithread.Enter","ID2D1Multithread::Enter","d2d1_1/ID2D1Multithread::Enter","direct2d.id2d1multithread_enter"]
+description: Enters the Direct2D API critical section, if it exists.
+helpviewer_keywords: ["Enter","Enter method [Direct2D]","Enter method [Direct2D]","ID2D1Multithread interface","ID2D1Multithread interface [Direct2D]","Enter method","ID2D1Multithread.Enter","ID2D1Multithread::Enter","d2d1_1/ID2D1Multithread::Enter","direct2d.id2d1multithread_enter"]
 old-location: direct2d\id2d1multithread_enter.htm
 tech.root: Direct2D
 ms.assetid: 5578DAC4-90C6-4E6D-B38B-D5AC301A8DB2

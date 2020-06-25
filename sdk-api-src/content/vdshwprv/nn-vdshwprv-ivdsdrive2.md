@@ -1,7 +1,8 @@
 ---
 UID: NN:vdshwprv.IVdsDrive2
 title: IVdsDrive2 (vdshwprv.h)
-description: Provides a method for querying the properties of a drive.helpviewer_keywords: ["IVdsDrive2","IVdsDrive2 interface","IVdsDrive2 interface","described","base.ivdsdrive2","vds/IVdsDrive2","vdshwprv/IVdsDrive2"]
+description: Provides a method for querying the properties of a drive.
+helpviewer_keywords: ["IVdsDrive2","IVdsDrive2 interface","IVdsDrive2 interface","described","base.ivdsdrive2","vds/IVdsDrive2","vdshwprv/IVdsDrive2"]
 old-location: base\ivdsdrive2.htm
 tech.root: VDS
 ms.assetid: 6d8115e3-2a47-4bc3-9a69-24e26f555f41

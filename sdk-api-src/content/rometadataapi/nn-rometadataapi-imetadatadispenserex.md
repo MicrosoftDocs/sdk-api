@@ -1,7 +1,8 @@
 ---
 UID: NN:rometadataapi.IMetaDataDispenserEx
 title: IMetaDataDispenserEx (rometadataapi.h)
-description: Extends the IMetaDataDispenser interface to provide the capability to control how the metadata APIs operate on the current metadata scope.helpviewer_keywords: ["IMetaDataDispenserEx","IMetaDataDispenserEx interface [Windows Runtime]","IMetaDataDispenserEx interface [Windows Runtime]","described","rometadataapi/IMetaDataDispenserEx","winrt.imetadatadispenserex"]
+description: Extends the IMetaDataDispenser interface to provide the capability to control how the metadata APIs operate on the current metadata scope.
+helpviewer_keywords: ["IMetaDataDispenserEx","IMetaDataDispenserEx interface [Windows Runtime]","IMetaDataDispenserEx interface [Windows Runtime]","described","rometadataapi/IMetaDataDispenserEx","winrt.imetadatadispenserex"]
 old-location: winrt\imetadatadispenserex.htm
 tech.root: WinRT
 ms.assetid: b61c8d05-6d73-4f84-95b2-2a892f3de77c

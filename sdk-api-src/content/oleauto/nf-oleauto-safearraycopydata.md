@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArrayCopyData
 title: SafeArrayCopyData function (oleauto.h)
-description: Copies the source array to the specified target array after releasing any resources in the target array.helpviewer_keywords: ["SafeArrayCopyData","SafeArrayCopyData function [Automation]","_oa96_SafeArrayCopyData","automat.safearraycopydata","oleauto/SafeArrayCopyData"]
+description: Copies the source array to the specified target array after releasing any resources in the target array.
+helpviewer_keywords: ["SafeArrayCopyData","SafeArrayCopyData function [Automation]","_oa96_SafeArrayCopyData","automat.safearraycopydata","oleauto/SafeArrayCopyData"]
 old-location: automat\safearraycopydata.htm
 tech.root: automat
 ms.assetid: 32c1fc4f-3fe0-490f-b5af-640514a8cecc

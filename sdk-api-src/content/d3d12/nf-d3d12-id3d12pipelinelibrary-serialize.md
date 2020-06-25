@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12PipelineLibrary.Serialize
 title: ID3D12PipelineLibrary::Serialize (d3d12.h)
-description: Writes the contents of the library to the provided memory, to be provided back to the runtime at a later time.helpviewer_keywords: ["ID3D12PipelineLibrary interface","Serialize method","ID3D12PipelineLibrary.Serialize","ID3D12PipelineLibrary::Serialize","Serialize","Serialize method","Serialize method","ID3D12PipelineLibrary interface","d3d12/ID3D12PipelineLibrary::Serialize","direct3d12.id3d12pipelinelibrary_serialize"]
+description: Writes the contents of the library to the provided memory, to be provided back to the runtime at a later time.
+helpviewer_keywords: ["ID3D12PipelineLibrary interface","Serialize method","ID3D12PipelineLibrary.Serialize","ID3D12PipelineLibrary::Serialize","Serialize","Serialize method","Serialize method","ID3D12PipelineLibrary interface","d3d12/ID3D12PipelineLibrary::Serialize","direct3d12.id3d12pipelinelibrary_serialize"]
 old-location: direct3d12\id3d12pipelinelibrary_serialize.htm
 tech.root: direct3d12
 ms.assetid: FD81B464-1E93-47CF-9D95-8F8F64C39CD6

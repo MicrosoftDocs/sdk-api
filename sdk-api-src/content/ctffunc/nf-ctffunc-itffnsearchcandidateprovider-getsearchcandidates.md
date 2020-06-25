@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.ITfFnSearchCandidateProvider.GetSearchCandidates
 title: ITfFnSearchCandidateProvider::GetSearchCandidates (ctffunc.h)
-description: Gets a list of conversion candidates for a given string without generating any IME-related messages or events.helpviewer_keywords: ["GetSearchCandidates","GetSearchCandidates method [Text Services Framework]","GetSearchCandidates method [Text Services Framework]","ITfFnSearchCandidateProvider interface","ITfFnSearchCandidateProvider interface [Text Services Framework]","GetSearchCandidates method","ITfFnSearchCandidateProvider.GetSearchCandidates","ITfFnSearchCandidateProvider::GetSearchCandidates","ctffunc/ITfFnSearchCandidateProvider::GetSearchCandidates","tsf.itffnsearchcandidateprovider_getsearchcandidates"]
+description: Gets a list of conversion candidates for a given string without generating any IME-related messages or events.
+helpviewer_keywords: ["GetSearchCandidates","GetSearchCandidates method [Text Services Framework]","GetSearchCandidates method [Text Services Framework]","ITfFnSearchCandidateProvider interface","ITfFnSearchCandidateProvider interface [Text Services Framework]","GetSearchCandidates method","ITfFnSearchCandidateProvider.GetSearchCandidates","ITfFnSearchCandidateProvider::GetSearchCandidates","ctffunc/ITfFnSearchCandidateProvider::GetSearchCandidates","tsf.itffnsearchcandidateprovider_getsearchcandidates"]
 old-location: tsf\itffnsearchcandidateprovider_getsearchcandidates.htm
 tech.root: TSF
 ms.assetid: 7D7E8171-229F-4D9C-B086-D68E064A8A4C

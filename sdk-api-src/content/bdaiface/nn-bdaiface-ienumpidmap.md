@@ -1,7 +1,8 @@
 ---
 UID: NN:bdaiface.IEnumPIDMap
 title: IEnumPIDMap (bdaiface.h)
-description: The IEnumPIDMap interface enumerates a collection of Packet ID (PID) maps.helpviewer_keywords: ["IEnumPIDMap","IEnumPIDMap interface [DirectShow]","IEnumPIDMap interface [DirectShow]","described","IEnumPIDMapInterface","bdaiface/IEnumPIDMap","dshow.ienumpidmap"]
+description: The IEnumPIDMap interface enumerates a collection of Packet ID (PID) maps.
+helpviewer_keywords: ["IEnumPIDMap","IEnumPIDMap interface [DirectShow]","IEnumPIDMap interface [DirectShow]","described","IEnumPIDMapInterface","bdaiface/IEnumPIDMap","dshow.ienumpidmap"]
 old-location: dshow\ienumpidmap.htm
 tech.root: DirectShow
 ms.assetid: d46010c4-0f16-4c97-ad10-16f7ac250390

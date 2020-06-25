@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.MoveNext
 title: IOpcPartEnumerator::MoveNext (msopc.h)
-description: Moves the current position of the enumerator to the next IOpcPart interface pointer.helpviewer_keywords: ["IOpcPartEnumerator interface [Open Packaging Conventions]","MoveNext method","IOpcPartEnumerator.MoveNext","IOpcPartEnumerator::MoveNext","MoveNext","MoveNext method [Open Packaging Conventions]","MoveNext method [Open Packaging Conventions]","IOpcPartEnumerator interface","msopc/IOpcPartEnumerator::MoveNext","opc.iopcpartenumerator_movenext"]
+description: Moves the current position of the enumerator to the next IOpcPart interface pointer.
+helpviewer_keywords: ["IOpcPartEnumerator interface [Open Packaging Conventions]","MoveNext method","IOpcPartEnumerator.MoveNext","IOpcPartEnumerator::MoveNext","MoveNext","MoveNext method [Open Packaging Conventions]","MoveNext method [Open Packaging Conventions]","IOpcPartEnumerator interface","msopc/IOpcPartEnumerator::MoveNext","opc.iopcpartenumerator_movenext"]
 old-location: opc\iopcpartenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: 4d52bb74-53f5-4c7c-a42e-5d67e330b48c

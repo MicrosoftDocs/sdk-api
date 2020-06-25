@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_1.ID3DUserDefinedAnnotation.EndEvent
 title: ID3DUserDefinedAnnotation::EndEvent (d3d11_1.h)
-description: Marks the end of a section of event code.helpviewer_keywords: ["EndEvent","EndEvent method [Direct3D 11]","EndEvent method [Direct3D 11]","ID3DUserDefinedAnnotation interface","ID3DUserDefinedAnnotation interface [Direct3D 11]","EndEvent method","ID3DUserDefinedAnnotation.EndEvent","ID3DUserDefinedAnnotation::EndEvent","d3d11_1/ID3DUserDefinedAnnotation::EndEvent","direct3d11.id3duserdefinedannotation_endevent"]
+description: Marks the end of a section of event code.
+helpviewer_keywords: ["EndEvent","EndEvent method [Direct3D 11]","EndEvent method [Direct3D 11]","ID3DUserDefinedAnnotation interface","ID3DUserDefinedAnnotation interface [Direct3D 11]","EndEvent method","ID3DUserDefinedAnnotation.EndEvent","ID3DUserDefinedAnnotation::EndEvent","d3d11_1/ID3DUserDefinedAnnotation::EndEvent","direct3d11.id3duserdefinedannotation_endevent"]
 old-location: direct3d11\id3duserdefinedannotation_endevent.htm
 tech.root: direct3d11
 ms.assetid: 5C478278-EC05-4214-80F9-808EADA76E41

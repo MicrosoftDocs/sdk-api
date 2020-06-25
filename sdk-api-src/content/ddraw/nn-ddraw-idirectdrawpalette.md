@@ -1,7 +1,8 @@
 ---
 UID: NN:ddraw.IDirectDrawPalette
 title: IDirectDrawPalette (ddraw.h)
-description: Applications use the methods of the IDirectDrawPalette interface to create DirectDrawPalette objects and work with system-level variables. This section is a reference to the methods of this interface.helpviewer_keywords: ["IDirectDrawPalette","IDirectDrawPalette interface [DirectDraw]","IDirectDrawPalette interface [DirectDraw]","described","ddraw/IDirectDrawPalette","directdraw.idirectdrawpalette"]
+description: Applications use the methods of the IDirectDrawPalette interface to create DirectDrawPalette objects and work with system-level variables. This section is a reference to the methods of this interface.
+helpviewer_keywords: ["IDirectDrawPalette","IDirectDrawPalette interface [DirectDraw]","IDirectDrawPalette interface [DirectDraw]","described","ddraw/IDirectDrawPalette","directdraw.idirectdrawpalette"]
 old-location: directdraw\idirectdrawpalette.htm
 tech.root: directdraw
 ms.assetid: 82dad1d4-2368-4cb0-a45c-0de894b016b7

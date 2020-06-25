@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.FindResourceTexture
 title: ID2D1EffectContext::FindResourceTexture (d2d1effectauthor.h)
-description: Finds the given resource texture if it has already been created with ID2D1EffectContext::CreateResourceTexture with the same GUID.helpviewer_keywords: ["FindResourceTexture","FindResourceTexture method [Direct2D]","FindResourceTexture method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","FindResourceTexture method","ID2D1EffectContext.FindResourceTexture","ID2D1EffectContext::FindResourceTexture","d2d1effectauthor/ID2D1EffectContext::FindResourceTexture","direct2d.id2d1effectcontext_findresourcetexture"]
+description: Finds the given resource texture if it has already been created with ID2D1EffectContext::CreateResourceTexture with the same GUID.
+helpviewer_keywords: ["FindResourceTexture","FindResourceTexture method [Direct2D]","FindResourceTexture method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","FindResourceTexture method","ID2D1EffectContext.FindResourceTexture","ID2D1EffectContext::FindResourceTexture","d2d1effectauthor/ID2D1EffectContext::FindResourceTexture","direct2d.id2d1effectcontext_findresourcetexture"]
 old-location: direct2d\id2d1effectcontext_findresourcetexture.htm
 tech.root: Direct2D
 ms.assetid: 7E205798-A9E1-4213-925B-7A5DF918F60E

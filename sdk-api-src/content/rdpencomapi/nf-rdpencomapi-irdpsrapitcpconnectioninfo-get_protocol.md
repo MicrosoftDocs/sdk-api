@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITcpConnectionInfo.get_Protocol
 title: IRDPSRAPITcpConnectionInfo::get_Protocol (rdpencomapi.h)
-description: Retrieves the protocol that is being used by the sharer or by the viewer for communication.helpviewer_keywords: ["IRDPSRAPITcpConnectionInfo interface [RDP]","Protocol property","IRDPSRAPITcpConnectionInfo.Protocol","IRDPSRAPITcpConnectionInfo.get_Protocol","IRDPSRAPITcpConnectionInfo::Protocol","IRDPSRAPITcpConnectionInfo::get_Protocol","Protocol property [RDP]","Protocol property [RDP]","IRDPSRAPITcpConnectionInfo interface","Protocol property [RDP]","RDPSRAPITcpConnectionInfo object","RDPSRAPITcpConnectionInfo object [RDP]","Protocol property","get_Protocol","rdp.irdpsrapitcpconnectioninfo_protocol","rdpencomapi/IRDPSRAPITcpConnectionInfo::Protocol","rdpencomapi/IRDPSRAPITcpConnectionInfo::get_Protocol"]
+description: Retrieves the protocol that is being used by the sharer or by the viewer for communication.
+helpviewer_keywords: ["IRDPSRAPITcpConnectionInfo interface [RDP]","Protocol property","IRDPSRAPITcpConnectionInfo.Protocol","IRDPSRAPITcpConnectionInfo.get_Protocol","IRDPSRAPITcpConnectionInfo::Protocol","IRDPSRAPITcpConnectionInfo::get_Protocol","Protocol property [RDP]","Protocol property [RDP]","IRDPSRAPITcpConnectionInfo interface","Protocol property [RDP]","RDPSRAPITcpConnectionInfo object","RDPSRAPITcpConnectionInfo object [RDP]","Protocol property","get_Protocol","rdp.irdpsrapitcpconnectioninfo_protocol","rdpencomapi/IRDPSRAPITcpConnectionInfo::Protocol","rdpencomapi/IRDPSRAPITcpConnectionInfo::get_Protocol"]
 old-location: rdp\irdpsrapitcpconnectioninfo_protocol.htm
 tech.root: rdp
 ms.assetid: 1ca6d2db-bbd9-4332-bee6-7454a4c3cbea

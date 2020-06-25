@@ -1,7 +1,8 @@
 ---
 UID: NF:uiribbon.IUIContextualUI.ShowAtLocation
 title: IUIContextualUI::ShowAtLocation (uiribbon.h)
-description: Displays a ContextPopup.helpviewer_keywords: ["IUIContextualUI interface [Windows Ribbon]","ShowAtLocation method","IUIContextualUI.ShowAtLocation","IUIContextualUI::ShowAtLocation","ShowAtLocation","ShowAtLocation method [Windows Ribbon]","ShowAtLocation method [Windows Ribbon]","IUIContextualUI interface","scenicintent_IUIContextualUI_ShowAtLocation","uiribbon/IUIContextualUI::ShowAtLocation","windowsribbon.windowsribbon_iuicontextualui_showatlocation"]
+description: Displays a ContextPopup.
+helpviewer_keywords: ["IUIContextualUI interface [Windows Ribbon]","ShowAtLocation method","IUIContextualUI.ShowAtLocation","IUIContextualUI::ShowAtLocation","ShowAtLocation","ShowAtLocation method [Windows Ribbon]","ShowAtLocation method [Windows Ribbon]","IUIContextualUI interface","scenicintent_IUIContextualUI_ShowAtLocation","uiribbon/IUIContextualUI::ShowAtLocation","windowsribbon.windowsribbon_iuicontextualui_showatlocation"]
 old-location: windowsribbon\windowsribbon_iuicontextualui_showatlocation.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicontextualui\showatlocation.htm

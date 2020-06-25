@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectDepthStencilViewVariable
 title: ID3D10EffectDepthStencilViewVariable (d3d10effect.h)
-description: A depth-stencil-view-variable interface accesses a depth-stencil view.helpviewer_keywords: ["264cb8cf-4a76-a538-f9c5-5ae2e743f9ed","ID3D10EffectDepthStencilViewVariable","ID3D10EffectDepthStencilViewVariable interface [Direct3D 10]","ID3D10EffectDepthStencilViewVariable interface [Direct3D 10]","described","d3d10effect/ID3D10EffectDepthStencilViewVariable","direct3d10.id3d10effectdepthstencilviewvariable"]
+description: A depth-stencil-view-variable interface accesses a depth-stencil view.
+helpviewer_keywords: ["264cb8cf-4a76-a538-f9c5-5ae2e743f9ed","ID3D10EffectDepthStencilViewVariable","ID3D10EffectDepthStencilViewVariable interface [Direct3D 10]","ID3D10EffectDepthStencilViewVariable interface [Direct3D 10]","described","d3d10effect/ID3D10EffectDepthStencilViewVariable","direct3d10.id3d10effectdepthstencilviewvariable"]
 old-location: direct3d10\id3d10effectdepthstencilviewvariable.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectdepthstencilviewvariable.htm

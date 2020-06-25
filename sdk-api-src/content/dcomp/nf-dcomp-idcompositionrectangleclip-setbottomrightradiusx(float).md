@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetBottomRightRadiusX(float)
 title: IDCompositionRectangleClip::SetBottomRightRadiusX (dcomp.h)
-description: Changes or animates the value of the BottomRightRadiusX property of this clip. The BottomRightRadiusX property specifies the x radius of the ellipse that rounds the lower-right corner of the clip.helpviewer_keywords: ["IDCompositionRectangleClip.SetBottomRightRadiusX","IDCompositionRectangleClip::SetBottomRightRadiusX","SetBottomRightRadiusX","SetBottomRightRadiusX methods [DirectComposition]","dcomp/SetBottomRightRadiusX","directcomp.idcompositionrectangleclip_setbottomrightradiusx"]
+description: Changes or animates the value of the BottomRightRadiusX property of this clip. The BottomRightRadiusX property specifies the x radius of the ellipse that rounds the lower-right corner of the clip.
+helpviewer_keywords: ["IDCompositionRectangleClip.SetBottomRightRadiusX","IDCompositionRectangleClip::SetBottomRightRadiusX","SetBottomRightRadiusX","SetBottomRightRadiusX methods [DirectComposition]","dcomp/SetBottomRightRadiusX","directcomp.idcompositionrectangleclip_setbottomrightradiusx"]
 old-location: directcomp\idcompositionrectangleclip_setbottomrightradiusx.htm
 tech.root: directcomp
 ms.assetid: 036E842C-320B-4C6B-9D83-561B2A107A59

@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmreports.IFsrmReportManager
 title: IFsrmReportManager (fsrmreports.h)
-description: Used to manage report jobs.helpviewer_keywords: ["IFsrmReportManager","IFsrmReportManager interface [File Server Resource Manager]","IFsrmReportManager interface [File Server Resource Manager]","described","fs.ifsrmreportmanager","fsrm.ifsrmreportmanager","fsrmreports/IFsrmReportManager"]
+description: Used to manage report jobs.
+helpviewer_keywords: ["IFsrmReportManager","IFsrmReportManager interface [File Server Resource Manager]","IFsrmReportManager interface [File Server Resource Manager]","described","fs.ifsrmreportmanager","fsrm.ifsrmreportmanager","fsrmreports/IFsrmReportManager"]
 old-location: fsrm\ifsrmreportmanager.htm
 tech.root: fsrm
 ms.assetid: 112ed457-1083-4550-abd6-933f4b128e9a

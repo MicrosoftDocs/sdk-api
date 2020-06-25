@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbSession.put_DisconnectTime
 title: ITsSbSession::put_DisconnectTime (sbtsv.h)
-description: Retrieves or specifies the time the session was disconnected.helpviewer_keywords: ["DisconnectTime property [Remote Desktop Services]","DisconnectTime property [Remote Desktop Services]","ITsSbSession interface","ITsSbSession interface [Remote Desktop Services]","DisconnectTime property","ITsSbSession.DisconnectTime","ITsSbSession.put_DisconnectTime","ITsSbSession::DisconnectTime","ITsSbSession::get_DisconnectTime","ITsSbSession::put_DisconnectTime","put_DisconnectTime","sbtsv/ITsSbSession::DisconnectTime","sbtsv/ITsSbSession::get_DisconnectTime","sbtsv/ITsSbSession::put_DisconnectTime","termserv.itssbsession_disconnecttime"]
+description: Retrieves or specifies the time the session was disconnected.
+helpviewer_keywords: ["DisconnectTime property [Remote Desktop Services]","DisconnectTime property [Remote Desktop Services]","ITsSbSession interface","ITsSbSession interface [Remote Desktop Services]","DisconnectTime property","ITsSbSession.DisconnectTime","ITsSbSession.put_DisconnectTime","ITsSbSession::DisconnectTime","ITsSbSession::get_DisconnectTime","ITsSbSession::put_DisconnectTime","put_DisconnectTime","sbtsv/ITsSbSession::DisconnectTime","sbtsv/ITsSbSession::get_DisconnectTime","sbtsv/ITsSbSession::put_DisconnectTime","termserv.itssbsession_disconnecttime"]
 old-location: termserv\itssbsession_disconnecttime.htm
 tech.root: TermServ
 ms.assetid: e4bbb6e5-5fe2-4aa8-8a14-40fb2a4251e2

@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.IAVIStream.Info
 title: IAVIStream::Info (vfw.h)
-description: The Info method fills and returns an AVISTREAMINFO structure with information about a stream. Called when an application uses the AVIStreamInfo function.helpviewer_keywords: ["IAVIStream interface [Windows Multimedia]","Info method","IAVIStream.Info","IAVIStream::Info","Info","Info method [Windows Multimedia]","Info method [Windows Multimedia]","IAVIStream interface","_win32_IAVIStream_Info","multimedia.iavistream_info","vfw/IAVIStream::Info"]
+description: The Info method fills and returns an AVISTREAMINFO structure with information about a stream. Called when an application uses the AVIStreamInfo function.
+helpviewer_keywords: ["IAVIStream interface [Windows Multimedia]","Info method","IAVIStream.Info","IAVIStream::Info","Info","Info method [Windows Multimedia]","Info method [Windows Multimedia]","IAVIStream interface","_win32_IAVIStream_Info","multimedia.iavistream_info","vfw/IAVIStream::Info"]
 old-location: multimedia\iavistream_info.htm
 tech.root: Multimedia
 ms.assetid: c58c4d68-4d27-4c3c-a1f6-bdafa3633dae

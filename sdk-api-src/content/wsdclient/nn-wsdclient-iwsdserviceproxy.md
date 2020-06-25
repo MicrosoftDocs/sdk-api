@@ -1,7 +1,8 @@
 ---
 UID: NN:wsdclient.IWSDServiceProxy
 title: IWSDServiceProxy (wsdclient.h)
-description: Represents a remote WSD service for client applications and middleware.helpviewer_keywords: ["IWSDServiceProxy","IWSDServiceProxy interface","IWSDServiceProxy interface","described","ncd.iwsdserviceproxy","wsdclient/IWSDServiceProxy"]
+description: Represents a remote WSD service for client applications and middleware.
+helpviewer_keywords: ["IWSDServiceProxy","IWSDServiceProxy interface","IWSDServiceProxy interface","described","ncd.iwsdserviceproxy","wsdclient/IWSDServiceProxy"]
 old-location: ncd\iwsdserviceproxy.htm
 tech.root: WsdApi
 ms.assetid: 8753bcc8-f0c3-4dd0-8ebe-f6c15a271c70

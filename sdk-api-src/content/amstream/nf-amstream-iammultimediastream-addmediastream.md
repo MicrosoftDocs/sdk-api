@@ -1,7 +1,8 @@
 ---
 UID: NF:amstream.IAMMultiMediaStream.AddMediaStream
 title: IAMMultiMediaStream::AddMediaStream (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method adds a new media stream to the filter graph.helpviewer_keywords: ["AddMediaStream","AddMediaStream method [DirectShow]","AddMediaStream method [DirectShow]","IAMMultiMediaStream interface","IAMMultiMediaStream interface [DirectShow]","AddMediaStream method","IAMMultiMediaStream.AddMediaStream","IAMMultiMediaStream::AddMediaStream","IAMMultiMediaStreamAddMediaStream","amstream/IAMMultiMediaStream::AddMediaStream","dshow.iammultimediastream_addmediastream"]
+description: Note  This interface is deprecated. New applications should not use it. The AddMediaStream method adds a new media stream to the filter graph.
+helpviewer_keywords: ["AddMediaStream","AddMediaStream method [DirectShow]","AddMediaStream method [DirectShow]","IAMMultiMediaStream interface","IAMMultiMediaStream interface [DirectShow]","AddMediaStream method","IAMMultiMediaStream.AddMediaStream","IAMMultiMediaStream::AddMediaStream","IAMMultiMediaStreamAddMediaStream","amstream/IAMMultiMediaStream::AddMediaStream","dshow.iammultimediastream_addmediastream"]
 old-location: dshow\iammultimediastream_addmediastream.htm
 tech.root: DirectShow
 ms.assetid: 3ccfb776-6a4e-48da-857d-6693cf916c40

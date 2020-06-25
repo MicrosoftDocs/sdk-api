@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetShellItem
 title: IKnownFolder::GetShellItem (shobjidl_core.h)
-description: Retrieves the location of a known folder in the Shell namespace in the form of a Shell item (IShellItem or derived interface).helpviewer_keywords: ["GetShellItem","GetShellItem method [Windows Shell]","GetShellItem method [Windows Shell]","IKnownFolder interface","IKnownFolder interface [Windows Shell]","GetShellItem method","IKnownFolder.GetShellItem","IKnownFolder::GetShellItem","_shell_IKnownFolder_GetShellItem","shell.IKnownFolder_GetShellItem","shobjidl_core/IKnownFolder::GetShellItem"]
+description: Retrieves the location of a known folder in the Shell namespace in the form of a Shell item (IShellItem or derived interface).
+helpviewer_keywords: ["GetShellItem","GetShellItem method [Windows Shell]","GetShellItem method [Windows Shell]","IKnownFolder interface","IKnownFolder interface [Windows Shell]","GetShellItem method","IKnownFolder.GetShellItem","IKnownFolder::GetShellItem","_shell_IKnownFolder_GetShellItem","shell.IKnownFolder_GetShellItem","shobjidl_core/IKnownFolder::GetShellItem"]
 old-location: shell\IKnownFolder_GetShellItem.htm
 tech.root: shell
 ms.assetid: a42c0a20-9c72-48d3-8432-15b73ff211d2

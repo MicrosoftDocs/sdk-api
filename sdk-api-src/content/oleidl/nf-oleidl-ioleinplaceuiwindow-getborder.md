@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleInPlaceUIWindow.GetBorder
 title: IOleInPlaceUIWindow::GetBorder (oleidl.h)
-description: Retrieves the outer rectange for toolbars and controls while the object is active in place.helpviewer_keywords: ["GetBorder","GetBorder method [COM]","GetBorder method [COM]","IOleInPlaceUIWindow interface","IOleInPlaceUIWindow interface [COM]","GetBorder method","IOleInPlaceUIWindow.GetBorder","IOleInPlaceUIWindow::GetBorder","_ole_ioleinplaceuiwindow_getborder","com.ioleinplaceuiwindow_getborder","oleidl/IOleInPlaceUIWindow::GetBorder"]
+description: Retrieves the outer rectange for toolbars and controls while the object is active in place.
+helpviewer_keywords: ["GetBorder","GetBorder method [COM]","GetBorder method [COM]","IOleInPlaceUIWindow interface","IOleInPlaceUIWindow interface [COM]","GetBorder method","IOleInPlaceUIWindow.GetBorder","IOleInPlaceUIWindow::GetBorder","_ole_ioleinplaceuiwindow_getborder","com.ioleinplaceuiwindow_getborder","oleidl/IOleInPlaceUIWindow::GetBorder"]
 old-location: com\ioleinplaceuiwindow_getborder.htm
 tech.root: com
 ms.assetid: 9ee9970a-b937-4538-b3b8-460647086db1

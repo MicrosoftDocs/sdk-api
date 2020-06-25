@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptDestroyKey
 title: BCryptDestroyKey function (bcrypt.h)
-description: Destroys a key.helpviewer_keywords: ["BCryptDestroyKey","BCryptDestroyKey function [Security]","bcrypt/BCryptDestroyKey","security.bcryptdestroykey_func"]
+description: Destroys a key.
+helpviewer_keywords: ["BCryptDestroyKey","BCryptDestroyKey function [Security]","bcrypt/BCryptDestroyKey","security.bcryptdestroykey_func"]
 old-location: security\bcryptdestroykey_func.htm
 tech.root: SecCNG
 ms.assetid: 98c02e55-6489-4901-8a7a-021baac41965

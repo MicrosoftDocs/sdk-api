@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IOverlay.SetColorKey
 title: IOverlay::SetColorKey (strmif.h)
-description: The SetColorKey method changes the color key.helpviewer_keywords: ["IOverlay interface [DirectShow]","SetColorKey method","IOverlay.SetColorKey","IOverlay::SetColorKey","IOverlaySetColorKey","SetColorKey","SetColorKey method [DirectShow]","SetColorKey method [DirectShow]","IOverlay interface","dshow.ioverlay_setcolorkey","strmif/IOverlay::SetColorKey"]
+description: The SetColorKey method changes the color key.
+helpviewer_keywords: ["IOverlay interface [DirectShow]","SetColorKey method","IOverlay.SetColorKey","IOverlay::SetColorKey","IOverlaySetColorKey","SetColorKey","SetColorKey method [DirectShow]","SetColorKey method [DirectShow]","IOverlay interface","dshow.ioverlay_setcolorkey","strmif/IOverlay::SetColorKey"]
 old-location: dshow\ioverlay_setcolorkey.htm
 tech.root: DirectShow
 ms.assetid: dacbaf03-348f-403d-9c2c-aed8ec344879

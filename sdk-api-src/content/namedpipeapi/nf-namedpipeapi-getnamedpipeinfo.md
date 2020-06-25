@@ -1,7 +1,8 @@
 ---
 UID: NF:namedpipeapi.GetNamedPipeInfo
 title: GetNamedPipeInfo function (namedpipeapi.h)
-description: Retrieves information about the specified named pipe.helpviewer_keywords: ["GetNamedPipeInfo","GetNamedPipeInfo function","PIPE_CLIENT_END","PIPE_SERVER_END","PIPE_TYPE_BYTE","PIPE_TYPE_MESSAGE","_win32_getnamedpipeinfo","base.getnamedpipeinfo","namedpipeapi/GetNamedPipeInfo"]
+description: Retrieves information about the specified named pipe.
+helpviewer_keywords: ["GetNamedPipeInfo","GetNamedPipeInfo function","PIPE_CLIENT_END","PIPE_SERVER_END","PIPE_TYPE_BYTE","PIPE_TYPE_MESSAGE","_win32_getnamedpipeinfo","base.getnamedpipeinfo","namedpipeapi/GetNamedPipeInfo"]
 old-location: base\getnamedpipeinfo.htm
 tech.root: ipc
 ms.assetid: 91081373-60cd-4a90-a304-1e67fff9a483

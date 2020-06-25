@@ -1,7 +1,8 @@
 ---
 UID: NF:imagehlp.BindImageEx
 title: BindImageEx function (imagehlp.h)
-description: Computes the virtual address of each function that is imported.helpviewer_keywords: ["BIND_ALL_IMAGES","BIND_CACHE_IMPORT_DLLS","BIND_NO_BOUND_IMPORTS","BIND_NO_UPDATE","BindImageEx","BindImageEx function","_win32_bindimageex","base.bindimageex","imagehlp/BindImageEx"]
+description: Computes the virtual address of each function that is imported.
+helpviewer_keywords: ["BIND_ALL_IMAGES","BIND_CACHE_IMPORT_DLLS","BIND_NO_BOUND_IMPORTS","BIND_NO_UPDATE","BindImageEx","BindImageEx function","_win32_bindimageex","base.bindimageex","imagehlp/BindImageEx"]
 old-location: base\bindimageex.htm
 tech.root: Debug
 ms.assetid: 97edbe29-94e5-4d3c-b640-c92b7f01a159

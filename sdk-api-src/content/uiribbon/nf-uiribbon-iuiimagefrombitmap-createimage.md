@@ -1,7 +1,8 @@
 ---
 UID: NF:uiribbon.IUIImageFromBitmap.CreateImage
 title: IUIImageFromBitmap::CreateImage (uiribbon.h)
-description: Creates an IUIImage object from a bitmap image.helpviewer_keywords: ["CreateImage","CreateImage method [Windows Ribbon]","CreateImage method [Windows Ribbon]","IUIImageFromBitmap interface","IUIImageFromBitmap interface [Windows Ribbon]","CreateImage method","IUIImageFromBitmap.CreateImage","IUIImageFromBitmap::CreateImage","scenicintent_IUIImageFromBitmap_CreateImage","uiribbon/IUIImageFromBitmap::CreateImage","windowsribbon.windowsribbon_iuiimagefrombitmap_createimage"]
+description: Creates an IUIImage object from a bitmap image.
+helpviewer_keywords: ["CreateImage","CreateImage method [Windows Ribbon]","CreateImage method [Windows Ribbon]","IUIImageFromBitmap interface","IUIImageFromBitmap interface [Windows Ribbon]","CreateImage method","IUIImageFromBitmap.CreateImage","IUIImageFromBitmap::CreateImage","scenicintent_IUIImageFromBitmap_CreateImage","uiribbon/IUIImageFromBitmap::CreateImage","windowsribbon.windowsribbon_iuiimagefrombitmap_createimage"]
 old-location: windowsribbon\windowsribbon_iuiimagefrombitmap_createimage.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiimagefrombitmap\createimage.htm

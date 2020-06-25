@@ -1,7 +1,8 @@
 ---
 UID: NF:userenv.UnloadUserProfile
 title: UnloadUserProfile function (userenv.h)
-description: Unloads a user's profile that was loaded by the LoadUserProfile function. The caller must have administrative privileges on the computer. For more information, see the Remarks section of the LoadUserProfile function.helpviewer_keywords: ["UnloadUserProfile","UnloadUserProfile function [Windows Shell]","_shell_UnloadUserProfile","shell.UnloadUserProfile","userenv/UnloadUserProfile"]
+description: Unloads a user's profile that was loaded by the LoadUserProfile function. The caller must have administrative privileges on the computer. For more information, see the Remarks section of the LoadUserProfile function.
+helpviewer_keywords: ["UnloadUserProfile","UnloadUserProfile function [Windows Shell]","_shell_UnloadUserProfile","shell.UnloadUserProfile","userenv/UnloadUserProfile"]
 old-location: shell\UnloadUserProfile.htm
 tech.root: shell
 ms.assetid: 7ecb8a3f-c041-4133-b23a-101de8884882

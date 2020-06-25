@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbBaseNotifySink.OnError
 title: ITsSbBaseNotifySink::OnError (sbtsv.h)
-description: Reports an error condition to Remote Desktop Connection Broker (RD Connection Broker).helpviewer_keywords: ["ITsSbBaseNotifySink interface [Remote Desktop Services]","OnError method","ITsSbBaseNotifySink.OnError","ITsSbBaseNotifySink::OnError","OnError","OnError method [Remote Desktop Services]","OnError method [Remote Desktop Services]","ITsSbBaseNotifySink interface","sbtsv/ITsSbBaseNotifySink::OnError","termserv.itssbbasenotifysink_onerror"]
+description: Reports an error condition to Remote Desktop Connection Broker (RD Connection Broker).
+helpviewer_keywords: ["ITsSbBaseNotifySink interface [Remote Desktop Services]","OnError method","ITsSbBaseNotifySink.OnError","ITsSbBaseNotifySink::OnError","OnError","OnError method [Remote Desktop Services]","OnError method [Remote Desktop Services]","ITsSbBaseNotifySink interface","sbtsv/ITsSbBaseNotifySink::OnError","termserv.itssbbasenotifysink_onerror"]
 old-location: termserv\itssbbasenotifysink_onerror.htm
 tech.root: TermServ
 ms.assetid: d8101644-51b4-45a8-8696-7dbb28aaaf0b

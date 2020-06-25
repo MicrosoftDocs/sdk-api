@@ -1,7 +1,8 @@
 ---
 UID: NF:projectedfslib.PrjDeleteFile
 title: PrjDeleteFile function (projectedfslib.h)
-description: Enables a provider to delete an item that has been cached on the local file system.helpviewer_keywords: ["PrjDeleteFile","PrjDeleteFile function","ProjFS.prjdeletefile","projectedfslib/PrjDeleteFile"]
+description: Enables a provider to delete an item that has been cached on the local file system.
+helpviewer_keywords: ["PrjDeleteFile","PrjDeleteFile function","ProjFS.prjdeletefile","projectedfslib/PrjDeleteFile"]
 old-location: projfs\prjdeletefile.htm
 tech.root: ProjFS
 ms.assetid: 4F3529FC-5658-4768-AC72-29178C9595F0

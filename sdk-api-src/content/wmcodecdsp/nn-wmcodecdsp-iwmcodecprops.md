@@ -1,7 +1,8 @@
 ---
 UID: NN:wmcodecdsp.IWMCodecProps
 title: IWMCodecProps (wmcodecdsp.h)
-description: Provides methods that retrieve format-specific codec properties.helpviewer_keywords: ["IWMCodecProps","IWMCodecProps interface [Media Foundation]","IWMCodecProps interface [Media Foundation]","described","codecapi.iwmcodecpropsinterface","mf.iwmcodecprops","mf.iwmcodecpropsinterface","wmcodecdsp/IWMCodecProps"]
+description: Provides methods that retrieve format-specific codec properties.
+helpviewer_keywords: ["IWMCodecProps","IWMCodecProps interface [Media Foundation]","IWMCodecProps interface [Media Foundation]","described","codecapi.iwmcodecpropsinterface","mf.iwmcodecprops","mf.iwmcodecpropsinterface","wmcodecdsp/IWMCodecProps"]
 old-location: mf\iwmcodecpropsinterface.htm
 tech.root: medfound
 ms.assetid: b49e506b-8c87-44b9-be6c-b9a33f6c9ecb

@@ -1,7 +1,8 @@
 ---
 UID: NF:spellcheckprovider.IComprehensiveSpellCheckProvider.ComprehensiveCheck
 title: IComprehensiveSpellCheckProvider::ComprehensiveCheck (spellcheckprovider.h)
-description: Spell-check the provider text in a more thorough manner than ISpellCheckProvider::Check.helpviewer_keywords: ["ComprehensiveCheck","ComprehensiveCheck method [Internationalization for Windows Applications]","ComprehensiveCheck method [Internationalization for Windows Applications]","IComprehensiveSpellCheckProvider interface","IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications]","ComprehensiveCheck method","IComprehensiveSpellCheckProvider.ComprehensiveCheck","IComprehensiveSpellCheckProvider::ComprehensiveCheck","intl.icomprehensivespellcheckprovider_comprehensivecheck","spellcheckprovider/IComprehensiveSpellCheckProvider::ComprehensiveCheck"]
+description: Spell-check the provider text in a more thorough manner than ISpellCheckProvider::Check.
+helpviewer_keywords: ["ComprehensiveCheck","ComprehensiveCheck method [Internationalization for Windows Applications]","ComprehensiveCheck method [Internationalization for Windows Applications]","IComprehensiveSpellCheckProvider interface","IComprehensiveSpellCheckProvider interface [Internationalization for Windows Applications]","ComprehensiveCheck method","IComprehensiveSpellCheckProvider.ComprehensiveCheck","IComprehensiveSpellCheckProvider::ComprehensiveCheck","intl.icomprehensivespellcheckprovider_comprehensivecheck","spellcheckprovider/IComprehensiveSpellCheckProvider::ComprehensiveCheck"]
 old-location: intl\icomprehensivespellcheckprovider_comprehensivecheck.htm
 tech.root: Intl
 ms.assetid: BD334EB8-4E14-478D-AB2A-E7F863C4BE0F

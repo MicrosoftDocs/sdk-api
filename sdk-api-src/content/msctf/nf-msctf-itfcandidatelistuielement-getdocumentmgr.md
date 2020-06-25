@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetDocumentMgr
 title: ITfCandidateListUIElement::GetDocumentMgr (msctf.h)
-description: The ITfCandidateListUIElement::GetDocumentMgr method returns the target document manager of this UI.helpviewer_keywords: ["GetDocumentMgr","GetDocumentMgr method [Text Services Framework]","GetDocumentMgr method [Text Services Framework]","ITfCandidateListUIElement interface","ITfCandidateListUIElement interface [Text Services Framework]","GetDocumentMgr method","ITfCandidateListUIElement.GetDocumentMgr","ITfCandidateListUIElement::GetDocumentMgr","msctf/ITfCandidateListUIElement::GetDocumentMgr","tsf.itfcandidatelistuielement_getdocumentmgr"]
+description: The ITfCandidateListUIElement::GetDocumentMgr method returns the target document manager of this UI.
+helpviewer_keywords: ["GetDocumentMgr","GetDocumentMgr method [Text Services Framework]","GetDocumentMgr method [Text Services Framework]","ITfCandidateListUIElement interface","ITfCandidateListUIElement interface [Text Services Framework]","GetDocumentMgr method","ITfCandidateListUIElement.GetDocumentMgr","ITfCandidateListUIElement::GetDocumentMgr","msctf/ITfCandidateListUIElement::GetDocumentMgr","tsf.itfcandidatelistuielement_getdocumentmgr"]
 old-location: tsf\itfcandidatelistuielement_getdocumentmgr.htm
 tech.root: TSF
 ms.assetid: def8e85d-8180-4ad4-9d70-07adef0ce5fb

@@ -1,7 +1,8 @@
 ---
 UID: NF:qmgr.IBackgroundCopyQMgr.GetGroup
 title: IBackgroundCopyQMgr::GetGroup (qmgr.h)
-description: Use the GetGroup method to retrieve a group from the download queue.helpviewer_keywords: ["GetGroup","GetGroup method [BITS]","GetGroup method [BITS]","IBackgroundCopyQMgr interface","IBackgroundCopyQMgr interface [BITS]","GetGroup method","IBackgroundCopyQMgr.GetGroup","IBackgroundCopyQMgr::GetGroup","bits.ibackgroundcopyqmgr_getgroup","qmgr/IBackgroundCopyQMgr::GetGroup"]
+description: Use the GetGroup method to retrieve a group from the download queue.
+helpviewer_keywords: ["GetGroup","GetGroup method [BITS]","GetGroup method [BITS]","IBackgroundCopyQMgr interface","IBackgroundCopyQMgr interface [BITS]","GetGroup method","IBackgroundCopyQMgr.GetGroup","IBackgroundCopyQMgr::GetGroup","bits.ibackgroundcopyqmgr_getgroup","qmgr/IBackgroundCopyQMgr::GetGroup"]
 old-location: bits\ibackgroundcopyqmgr_getgroup.htm
 tech.root: Bits
 ms.assetid: 36836fe5-4858-4c6e-8ce8-1bb71c8e9f5a

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetEditBoxText
 title: IFileDialogCustomize::GetEditBoxText (shobjidl_core.h)
-description: Gets the current text in an edit box control.helpviewer_keywords: ["GetEditBoxText","GetEditBoxText method [Windows Shell]","GetEditBoxText method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","GetEditBoxText method","IFileDialogCustomize.GetEditBoxText","IFileDialogCustomize::GetEditBoxText","shell.IFileDialogCustomize_GetEditBoxText","shell_IFileDialogCustomize_GetEditBoxText","shobjidl_core/IFileDialogCustomize::GetEditBoxText"]
+description: Gets the current text in an edit box control.
+helpviewer_keywords: ["GetEditBoxText","GetEditBoxText method [Windows Shell]","GetEditBoxText method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","GetEditBoxText method","IFileDialogCustomize.GetEditBoxText","IFileDialogCustomize::GetEditBoxText","shell.IFileDialogCustomize_GetEditBoxText","shell_IFileDialogCustomize_GetEditBoxText","shobjidl_core/IFileDialogCustomize::GetEditBoxText"]
 old-location: shell\IFileDialogCustomize_GetEditBoxText.htm
 tech.root: shell
 ms.assetid: 7c3db511-d357-48b4-9ac3-07f6b3d23a5f

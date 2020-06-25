@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfRanges.Reset
 title: IEnumTfRanges::Reset (msctf.h)
-description: IEnumTfRanges::Reset methodhelpviewer_keywords: ["IEnumTfRanges interface [Text Services Framework]","Reset method","IEnumTfRanges.Reset","IEnumTfRanges::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfRanges interface","_tsf_ienumtfranges_reset_ref","msctf/IEnumTfRanges::Reset","tsf.ienumtfranges_reset"]
+description: IEnumTfRanges::Reset method
+helpviewer_keywords: ["IEnumTfRanges interface [Text Services Framework]","Reset method","IEnumTfRanges.Reset","IEnumTfRanges::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfRanges interface","_tsf_ienumtfranges_reset_ref","msctf/IEnumTfRanges::Reset","tsf.ienumtfranges_reset"]
 old-location: tsf\ienumtfranges_reset.htm
 tech.root: TSF
 ms.assetid: c7f8ea8d-5627-4dc1-ab22-a9e14f536520

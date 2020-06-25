@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegCloseBatchNotifyPort
 title: ClusterRegCloseBatchNotifyPort function (clusapi.h)
-description: Closes a subscription to a batch notification port created by the ClusterRegCreateBatchNotifyPort function.helpviewer_keywords: ["ClusterRegCloseBatchNotifyPort","ClusterRegCloseBatchNotifyPort function [Failover Cluster]","PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT","clusapi/ClusterRegCloseBatchNotifyPort","mscs.clusterregclosebatchnotifyport"]
+description: Closes a subscription to a batch notification port created by the ClusterRegCreateBatchNotifyPort function.
+helpviewer_keywords: ["ClusterRegCloseBatchNotifyPort","ClusterRegCloseBatchNotifyPort function [Failover Cluster]","PCLUSTER_REG_CLOSE_BATCH_NOTIFY_PORT","clusapi/ClusterRegCloseBatchNotifyPort","mscs.clusterregclosebatchnotifyport"]
 old-location: mscs\clusterregclosebatchnotifyport.htm
 tech.root: MsCS
 ms.assetid: 7ae10343-c97e-4036-9fe6-b894394bb605

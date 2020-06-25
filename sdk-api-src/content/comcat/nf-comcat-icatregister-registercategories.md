@@ -1,7 +1,8 @@
 ---
 UID: NF:comcat.ICatRegister.RegisterCategories
 title: ICatRegister::RegisterCategories (comcat.h)
-description: Registers one or more component categories. Each component category consists of a CATID and a list of locale-dependent description strings.helpviewer_keywords: ["ICatRegister interface [COM]","RegisterCategories method","ICatRegister.RegisterCategories","ICatRegister::RegisterCategories","RegisterCategories","RegisterCategories method [COM]","RegisterCategories method [COM]","ICatRegister interface","_com_icatregister_registercategories","com.icatregister_registercategories","comcat/ICatRegister::RegisterCategories"]
+description: Registers one or more component categories. Each component category consists of a CATID and a list of locale-dependent description strings.
+helpviewer_keywords: ["ICatRegister interface [COM]","RegisterCategories method","ICatRegister.RegisterCategories","ICatRegister::RegisterCategories","RegisterCategories","RegisterCategories method [COM]","RegisterCategories method [COM]","ICatRegister interface","_com_icatregister_registercategories","com.icatregister_registercategories","comcat/ICatRegister::RegisterCategories"]
 old-location: com\icatregister_registercategories.htm
 tech.root: com
 ms.assetid: c84a4b00-c43d-488a-b406-3bac2d25dcb8

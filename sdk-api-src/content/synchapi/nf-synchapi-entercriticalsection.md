@@ -80,7 +80,6 @@ This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b> if a wait operation o
 
 
 
-
 ## -remarks
 
 
@@ -151,7 +150,3 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>
- 
-
- 
-

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetOutline
 title: ITextFont::GetOutline (tom.h)
-description: Gets whether characters are displayed as outlined characters.helpviewer_keywords: ["GetOutline","GetOutline method [Windows Controls]","GetOutline method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetOutline method","ITextFont.GetOutline","ITextFont::GetOutline","_win32_ITextFont_GetOutline","_win32_ITextFont_GetOutline_cpp","controls.ITextFont_GetOutline","controls._win32_ITextFont_GetOutline","tom/ITextFont::GetOutline"]
+description: Gets whether characters are displayed as outlined characters.
+helpviewer_keywords: ["GetOutline","GetOutline method [Windows Controls]","GetOutline method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetOutline method","ITextFont.GetOutline","ITextFont::GetOutline","_win32_ITextFont_GetOutline","_win32_ITextFont_GetOutline_cpp","controls.ITextFont_GetOutline","controls._win32_ITextFont_GetOutline","tom/ITextFont::GetOutline"]
 old-location: controls\ITextFont_GetOutline.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getoutline.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetBottomLeftRadiusY(float)
 title: IDCompositionRectangleClip::SetBottomLeftRadiusY (dcomp.h)
-description: Changes or animates the value of the BottomLeftRadiusY property of this clip. The BottomLeftRadiusY property specifies the y radius of the ellipse that rounds the lower-left corner of the clip.helpviewer_keywords: ["IDCompositionRectangleClip.SetBottomLeftRadiusY","IDCompositionRectangleClip::SetBottomLeftRadiusY","SetBottomLeftRadiusY","SetBottomLeftRadiusY methods [DirectComposition]","dcomp/SetBottomLeftRadiusY","directcomp.idcompositionrectangleclip_setbottomleftradiusy"]
+description: Changes or animates the value of the BottomLeftRadiusY property of this clip. The BottomLeftRadiusY property specifies the y radius of the ellipse that rounds the lower-left corner of the clip.
+helpviewer_keywords: ["IDCompositionRectangleClip.SetBottomLeftRadiusY","IDCompositionRectangleClip::SetBottomLeftRadiusY","SetBottomLeftRadiusY","SetBottomLeftRadiusY methods [DirectComposition]","dcomp/SetBottomLeftRadiusY","directcomp.idcompositionrectangleclip_setbottomleftradiusy"]
 old-location: directcomp\idcompositionrectangleclip_setbottomleftradiusy.htm
 tech.root: directcomp
 ms.assetid: 299D718D-F313-4884-B89B-8CE5EBF78B74

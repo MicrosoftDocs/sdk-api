@@ -1,7 +1,8 @@
 ---
 UID: NS:hrtfapoapi.HrtfDirectivityCone
 title: HrtfDirectivityCone (hrtfapoapi.h)
-description: Describes a cone directivity.helpviewer_keywords: ["HrtfDirectivityCone","HrtfDirectivityCone structure [XAudio2 Audio Mixing APIs]","PHrtfDirectivityCone","PHrtfDirectivityCone structure pointer [XAudio2 Audio Mixing APIs]","hrtfapoapi/HrtfDirectivityCone","hrtfapoapi/PHrtfDirectivityCone","xaudio2.hrtfdirectivitycone"]
+description: Describes a cone directivity.
+helpviewer_keywords: ["HrtfDirectivityCone","HrtfDirectivityCone structure [XAudio2 Audio Mixing APIs]","PHrtfDirectivityCone","PHrtfDirectivityCone structure pointer [XAudio2 Audio Mixing APIs]","hrtfapoapi/HrtfDirectivityCone","hrtfapoapi/PHrtfDirectivityCone","xaudio2.hrtfdirectivitycone"]
 old-location: xaudio2\hrtfdirectivitycone.htm
 tech.root: xaudio2
 ms.assetid: 88679E17-285A-41C1-87A5-C37AF66F327F

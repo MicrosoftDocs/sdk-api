@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10.ID3D10Multithread.GetMultithreadProtected
 title: ID3D10Multithread::GetMultithreadProtected (d3d10.h)
-description: Find out if multithreading is turned on or not.helpviewer_keywords: ["GetMultithreadProtected","GetMultithreadProtected method [Direct3D 10]","GetMultithreadProtected method [Direct3D 10]","ID3D10Multithread interface","ID3D10Multithread interface [Direct3D 10]","GetMultithreadProtected method","ID3D10Multithread.GetMultithreadProtected","ID3D10Multithread::GetMultithreadProtected","c9c76a23-94f1-07fd-0f2b-39bc5da06624","d3d10/ID3D10Multithread::GetMultithreadProtected","direct3d10.id3d10multithread_getmultithreadprotected"]
+description: Find out if multithreading is turned on or not.
+helpviewer_keywords: ["GetMultithreadProtected","GetMultithreadProtected method [Direct3D 10]","GetMultithreadProtected method [Direct3D 10]","ID3D10Multithread interface","ID3D10Multithread interface [Direct3D 10]","GetMultithreadProtected method","ID3D10Multithread.GetMultithreadProtected","ID3D10Multithread::GetMultithreadProtected","c9c76a23-94f1-07fd-0f2b-39bc5da06624","d3d10/ID3D10Multithread::GetMultithreadProtected","direct3d10.id3d10multithread_getmultithreadprotected"]
 old-location: direct3d10\id3d10multithread_getmultithreadprotected.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10multithread_getmultithreadprotected.htm

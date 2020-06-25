@@ -1,7 +1,8 @@
 ---
 UID: NS:directxmath.XMFLOAT4
 title: XMFLOAT4 (directxmath.h)
-description: Describes a 4D vector consisting of four single-precision floating-point values.helpviewer_keywords: ["XMFLOAT4","XMFLOAT4 structure [DirectX Math Support APIs]","directxmath/XMFLOAT4","dxmath.xmfloat4"]
+description: Describes a 4D vector consisting of four single-precision floating-point values.
+helpviewer_keywords: ["XMFLOAT4","XMFLOAT4 structure [DirectX Math Support APIs]","directxmath/XMFLOAT4","dxmath.xmfloat4"]
 old-location: dxmath\xmfloat4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT4

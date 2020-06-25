@@ -3,7 +3,8 @@ UID: NN:bits10_3.IBackgroundCopyServerCertificateValidationCallback
 title: IBackgroundCopyServerCertificateValidationCallback
 ms.date: 05/09/2019
 ms.keywords: IBackgroundCopyServerCertificateValidationCallback
-description: Server certificates are sent when an HTTPS connection is opened. Use this method to implement a callback to be called to validate those server certificates.helpviewer_keywords: ["IBackgroundCopyServerCertificateValidationCallback"]
+description: Server certificates are sent when an HTTPS connection is opened. Use this method to implement a callback to be called to validate those server certificates.
+helpviewer_keywords: ["IBackgroundCopyServerCertificateValidationCallback"]
 tech.root: Bits
 f1_keywords:
 - bits10_3/IBackgroundCopyServerCertificateValidationCallback

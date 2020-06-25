@@ -1,7 +1,8 @@
 ---
 UID: NF:upnphost.IUPnPRegistrar.UnregisterDevice
 title: IUPnPRegistrar::UnregisterDevice (upnphost.h)
-description: The UnregisterDevice method unregisters the device from the device host. A device is either temporarily or permanently unregistered.helpviewer_keywords: ["IUPnPRegistrar interface [UPnP APIs]","UnregisterDevice method","IUPnPRegistrar.UnregisterDevice","IUPnPRegistrar::UnregisterDevice","UnregisterDevice","UnregisterDevice method [UPnP APIs]","UnregisterDevice method [UPnP APIs]","IUPnPRegistrar interface","_upnp_iupnpregistrar_unregisterdevice","upnp.iupnpregistrar_unregisterdevice","upnphost/IUPnPRegistrar::UnregisterDevice"]
+description: The UnregisterDevice method unregisters the device from the device host. A device is either temporarily or permanently unregistered.
+helpviewer_keywords: ["IUPnPRegistrar interface [UPnP APIs]","UnregisterDevice method","IUPnPRegistrar.UnregisterDevice","IUPnPRegistrar::UnregisterDevice","UnregisterDevice","UnregisterDevice method [UPnP APIs]","UnregisterDevice method [UPnP APIs]","IUPnPRegistrar interface","_upnp_iupnpregistrar_unregisterdevice","upnp.iupnpregistrar_unregisterdevice","upnphost/IUPnPRegistrar::UnregisterDevice"]
 old-location: upnp\iupnpregistrar_unregisterdevice.htm
 tech.root: upnp
 ms.assetid: 76fca00c-8638-4e2f-8dd1-20b24cde0108

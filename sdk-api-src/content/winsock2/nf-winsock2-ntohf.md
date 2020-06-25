@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.ntohf
 title: ntohf function (winsock2.h)
-description: Converts an unsigned __int32 from TCP/IP network order to host byte order (which is little-endian on Intel processors) and returns a float.helpviewer_keywords: ["ntohf","ntohf function [Winsock]","winsock.ntohf","winsock2/ntohf"]
+description: Converts an unsigned __int32 from TCP/IP network order to host byte order (which is little-endian on Intel processors) and returns a float.
+helpviewer_keywords: ["ntohf","ntohf function [Winsock]","winsock.ntohf","winsock2/ntohf"]
 old-location: winsock\ntohf.htm
 tech.root: WinSock
 ms.assetid: FD98AE9D-C753-479C-BF44-7495B3B5C953

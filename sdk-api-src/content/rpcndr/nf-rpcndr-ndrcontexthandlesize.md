@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrContextHandleSize
 title: NdrContextHandleSize function (rpcndr.h)
-description: The NdrContextHandleSize function returns the size of the supplied RPC context handle.helpviewer_keywords: ["NdrContextHandleSize","NdrContextHandleSize function [RPC]","rpc.ndrcontexthandlesize","rpcndr/NdrContextHandleSize"]
+description: The NdrContextHandleSize function returns the size of the supplied RPC context handle.
+helpviewer_keywords: ["NdrContextHandleSize","NdrContextHandleSize function [RPC]","rpc.ndrcontexthandlesize","rpcndr/NdrContextHandleSize"]
 old-location: rpc\ndrcontexthandlesize.htm
 tech.root: Rpc
 ms.assetid: f5f90887-67b2-4796-96b2-2607b9284387

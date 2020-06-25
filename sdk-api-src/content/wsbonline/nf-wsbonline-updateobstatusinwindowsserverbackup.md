@@ -1,7 +1,8 @@
 ---
 UID: NF:wsbonline.UpdateOBStatusInWindowsServerBackup
 title: UpdateOBStatusInWindowsServerBackup function (wsbonline.h)
-description: Updates the Cloud backup provider status in the Windows Server Backup MMC snap-in.helpviewer_keywords: ["UpdateOBStatusInWindowsServerBackup","UpdateOBStatusInWindowsServerBackup function [Windows Server Backup]","wsb.updateobstatusinwindowsserverbackup","wsbonline/UpdateOBStatusInWindowsServerBackup"]
+description: Updates the Cloud backup provider status in the Windows Server Backup MMC snap-in.
+helpviewer_keywords: ["UpdateOBStatusInWindowsServerBackup","UpdateOBStatusInWindowsServerBackup function [Windows Server Backup]","wsb.updateobstatusinwindowsserverbackup","wsbonline/UpdateOBStatusInWindowsServerBackup"]
 old-location: wsb\updateobstatusinwindowsserverbackup.htm
 tech.root: wsb
 ms.assetid: 13C745FB-D0B9-432E-BDBA-E4194BF54924

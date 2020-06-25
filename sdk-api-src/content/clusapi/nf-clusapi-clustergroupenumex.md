@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterGroupEnumEx
 title: ClusterGroupEnumEx function (clusapi.h)
-description: Retrieves an item in the enumeration.helpviewer_keywords: ["ClusterGroupEnumEx","ClusterGroupEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_GROUP_ENUM_EX","PCLUSAPI_CLUSTER_GROUP_ENUM_EX function [Failover Cluster]","clusapi/ClusterGroupEnumEx","clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM_EX","mscs.clustergroupenumex"]
+description: Retrieves an item in the enumeration.
+helpviewer_keywords: ["ClusterGroupEnumEx","ClusterGroupEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_GROUP_ENUM_EX","PCLUSAPI_CLUSTER_GROUP_ENUM_EX function [Failover Cluster]","clusapi/ClusterGroupEnumEx","clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM_EX","mscs.clustergroupenumex"]
 old-location: mscs\clustergroupenumex.htm
 tech.root: MsCS
 ms.assetid: 139FE5AB-9465-46F8-B360-F27F19D82A88

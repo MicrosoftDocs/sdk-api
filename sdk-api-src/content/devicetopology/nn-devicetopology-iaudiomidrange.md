@@ -1,7 +1,8 @@
 ---
 UID: NN:devicetopology.IAudioMidrange
 title: IAudioMidrange (devicetopology.h)
-description: The IAudioMidrange interface provides access to a hardware midrange-level control.helpviewer_keywords: ["IAudioMidrange","IAudioMidrange interface [Core Audio]","IAudioMidrange interface [Core Audio]","described","coreaudio.iaudiomidrange","devicetopology/IAudioMidrange"]
+description: The IAudioMidrange interface provides access to a hardware midrange-level control.
+helpviewer_keywords: ["IAudioMidrange","IAudioMidrange interface [Core Audio]","IAudioMidrange interface [Core Audio]","described","coreaudio.iaudiomidrange","devicetopology/IAudioMidrange"]
 old-location: coreaudio\iaudiomidrange.htm
 tech.root: CoreAudio
 ms.assetid: d2d93dba-1867-4c3a-9cd1-60842bf8311d

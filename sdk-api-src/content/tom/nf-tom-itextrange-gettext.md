@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.GetText
 title: ITextRange::GetText (tom.h)
-description: Gets the plain text in this range. The Text property is the default property of the ITextRange interface.helpviewer_keywords: ["GetText","GetText method [Windows Controls]","GetText method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetText method","ITextRange.GetText","ITextRange::GetText","_win32_ITextRange_GetText","_win32_ITextRange_GetText_cpp","controls.ITextRange_GetText","controls._win32_ITextRange_GetText","tom/ITextRange::GetText"]
+description: Gets the plain text in this range. The Text property is the default property of the ITextRange interface.
+helpviewer_keywords: ["GetText","GetText method [Windows Controls]","GetText method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetText method","ITextRange.GetText","ITextRange::GetText","_win32_ITextRange_GetText","_win32_ITextRange_GetText_cpp","controls.ITextRange_GetText","controls._win32_ITextRange_GetText","tom/ITextRange::GetText"]
 old-location: controls\ITextRange_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettext.htm

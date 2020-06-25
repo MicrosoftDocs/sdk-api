@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IDirectorySearch.GetFirstRow
 title: IDirectorySearch::GetFirstRow (iads.h)
-description: The GetFirstRow method gets the first row of a search result. This method will issue or reissue a new search, even if this method has been called before.helpviewer_keywords: ["GetFirstRow","GetFirstRow method [ADSI]","GetFirstRow method [ADSI]","IDirectorySearch interface","IDirectorySearch interface [ADSI]","GetFirstRow method","IDirectorySearch.GetFirstRow","IDirectorySearch::GetFirstRow","_ds_idirectorysearch_getfirstrow","adsi.idirectorysearch__getfirstrow","adsi.idirectorysearch_getfirstrow","iads/IDirectorySearch::GetFirstRow"]
+description: The GetFirstRow method gets the first row of a search result. This method will issue or reissue a new search, even if this method has been called before.
+helpviewer_keywords: ["GetFirstRow","GetFirstRow method [ADSI]","GetFirstRow method [ADSI]","IDirectorySearch interface","IDirectorySearch interface [ADSI]","GetFirstRow method","IDirectorySearch.GetFirstRow","IDirectorySearch::GetFirstRow","_ds_idirectorysearch_getfirstrow","adsi.idirectorysearch__getfirstrow","adsi.idirectorysearch_getfirstrow","iads/IDirectorySearch::GetFirstRow"]
 old-location: adsi\idirectorysearch_getfirstrow.htm
 tech.root: adsi
 ms.assetid: 99ece6d1-3963-40bc-993e-f03aa9039c2d

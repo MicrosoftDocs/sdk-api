@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.RtlDecryptMemory
 title: RtlDecryptMemory function (ntsecapi.h)
-description: Decrypts memory contents previously encrypted by the RtlEncryptMemory function.helpviewer_keywords: ["RTL_ENCRYPT_OPTION_CROSS_PROCESS","RTL_ENCRYPT_OPTION_SAME_LOGON","RtlDecryptMemory","RtlDecryptMemory function [Security]","ntsecapi/RtlDecryptMemory","security.rtldecryptmemory"]
+description: Decrypts memory contents previously encrypted by the RtlEncryptMemory function.
+helpviewer_keywords: ["RTL_ENCRYPT_OPTION_CROSS_PROCESS","RTL_ENCRYPT_OPTION_SAME_LOGON","RtlDecryptMemory","RtlDecryptMemory function [Security]","ntsecapi/RtlDecryptMemory","security.rtldecryptmemory"]
 old-location: security\rtldecryptmemory.htm
 tech.root: SecCrypto
 ms.assetid: 8ecc5007-92ce-4e32-a093-dcb75ee8ba62

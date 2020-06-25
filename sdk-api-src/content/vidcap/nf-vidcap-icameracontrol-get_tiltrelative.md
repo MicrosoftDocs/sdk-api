@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ICameraControl.get_TiltRelative
 title: ICameraControl::get_TiltRelative (vidcap.h)
-description: This topic applies only to Windows XP Service Pack 2 and later.helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_TiltRelative method","ICameraControl.get_TiltRelative","ICameraControl::get_TiltRelative","ICameraControlget_TiltRelative","dshow.icameracontrol_get_tiltrelative","get_TiltRelative","get_TiltRelative method [DirectShow]","get_TiltRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_TiltRelative"]
+description: This topic applies only to Windows XP Service Pack 2 and later.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_TiltRelative method","ICameraControl.get_TiltRelative","ICameraControl::get_TiltRelative","ICameraControlget_TiltRelative","dshow.icameracontrol_get_tiltrelative","get_TiltRelative","get_TiltRelative method [DirectShow]","get_TiltRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_TiltRelative"]
 old-location: dshow\icameracontrol_get_tiltrelative.htm
 tech.root: DirectShow
 ms.assetid: e8730043-a506-4c74-a9ca-94d6e003a4b1

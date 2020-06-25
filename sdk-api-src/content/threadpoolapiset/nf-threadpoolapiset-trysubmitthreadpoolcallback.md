@@ -1,7 +1,8 @@
 ---
 UID: NF:threadpoolapiset.TrySubmitThreadpoolCallback
 title: TrySubmitThreadpoolCallback function (threadpoolapiset.h)
-description: Requests that a thread pool worker thread call the specified callback function.helpviewer_keywords: ["TrySubmitThreadpoolCallback","TrySubmitThreadpoolCallback function","base.trysubmitthreadpoolcallback","threadpoolapiset/TrySubmitThreadpoolCallback","winbase/TrySubmitThreadpoolCallback"]
+description: Requests that a thread pool worker thread call the specified callback function.
+helpviewer_keywords: ["TrySubmitThreadpoolCallback","TrySubmitThreadpoolCallback function","base.trysubmitthreadpoolcallback","threadpoolapiset/TrySubmitThreadpoolCallback","winbase/TrySubmitThreadpoolCallback"]
 old-location: base\trysubmitthreadpoolcallback.htm
 tech.root: ProcThread
 ms.assetid: 689d197e-195f-419c-9317-b30c614038c4

@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetClip(const D2D_RECT_F &)
 title: IDCompositionVisual::SetClip (dcomp.h)
-description: Sets the Clip property of this visual to the specified rectangle.helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","SetClip method","IDCompositionVisual.SetClip","IDCompositionVisual::SetClip","IDCompositionVisual::SetClip(const D2D_RECT_F &)","IDCompositionVisual::SetClip(const D2D_RECT_F&)","SetClip","SetClip method [DirectComposition]","SetClip method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::SetClip","directcomp.idcompositionvisual_setclip_const_d2d_rect_f_"]
+description: Sets the Clip property of this visual to the specified rectangle.
+helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","SetClip method","IDCompositionVisual.SetClip","IDCompositionVisual::SetClip","IDCompositionVisual::SetClip(const D2D_RECT_F &)","IDCompositionVisual::SetClip(const D2D_RECT_F&)","SetClip","SetClip method [DirectComposition]","SetClip method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::SetClip","directcomp.idcompositionvisual_setclip_const_d2d_rect_f_"]
 old-location: directcomp\idcompositionvisual_setclip_const_d2d_rect_f_.htm
 tech.root: directcomp
 ms.assetid: 7F01EB25-3A44-416F-A926-D185F2FD44EC

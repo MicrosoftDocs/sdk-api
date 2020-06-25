@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarFormatFromTokens
 title: VarFormatFromTokens function (oleauto.h)
-description: Takes a tokenized format string and applies it to a variant to produce a formatted output string.helpviewer_keywords: ["VarFormatFromTokens","VarFormatFromTokens function [Automation]","_oa96_VarFormatFromTokens","automat.varformatfromtokens","oleauto/VarFormatFromTokens"]
+description: Takes a tokenized format string and applies it to a variant to produce a formatted output string.
+helpviewer_keywords: ["VarFormatFromTokens","VarFormatFromTokens function [Automation]","_oa96_VarFormatFromTokens","automat.varformatfromtokens","oleauto/VarFormatFromTokens"]
 old-location: automat\varformatfromtokens.htm
 tech.root: automat
 ms.assetid: 36437d1a-970d-4a52-a8a5-1cddfe3d42f3

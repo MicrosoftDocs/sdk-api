@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.CreateGPO
 title: IGPMDomain::CreateGPO (gpmgmt.h)
-description: Creates and retrieves a GPMGPO object with a default display name. Typically, the caller sets the display name immediately after calling this method.helpviewer_keywords: ["CreateGPO","CreateGPO method [GPMC]","CreateGPO method [GPMC]","GPMDomain object","CreateGPO method [GPMC]","IGPMDomain interface","GPMDomain object [GPMC]","CreateGPO method","IGPMDomain interface [GPMC]","CreateGPO method","IGPMDomain.CreateGPO","IGPMDomain::CreateGPO","_win32_igpmdomain_creategpo","gpmc.igpmdomain_creategpo","gpmgmt/IGPMDomain::CreateGPO"]
+description: Creates and retrieves a GPMGPO object with a default display name. Typically, the caller sets the display name immediately after calling this method.
+helpviewer_keywords: ["CreateGPO","CreateGPO method [GPMC]","CreateGPO method [GPMC]","GPMDomain object","CreateGPO method [GPMC]","IGPMDomain interface","GPMDomain object [GPMC]","CreateGPO method","IGPMDomain interface [GPMC]","CreateGPO method","IGPMDomain.CreateGPO","IGPMDomain::CreateGPO","_win32_igpmdomain_creategpo","gpmc.igpmdomain_creategpo","gpmgmt/IGPMDomain::CreateGPO"]
 old-location: gpmc\igpmdomain_creategpo.htm
 tech.root: gpmc
 ms.assetid: 00e83637-820b-488e-abf4-4210ac3b98b6

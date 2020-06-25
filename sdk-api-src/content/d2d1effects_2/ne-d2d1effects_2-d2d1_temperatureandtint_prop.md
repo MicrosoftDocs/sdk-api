@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1effects_2.D2D1_TEMPERATUREANDTINT_PROP
 title: D2D1_TEMPERATUREANDTINT_PROP (d2d1effects_2.h)
-description: Identifiers for properties of the Temperature and Tint effect.helpviewer_keywords: ["D2D1_TEMPERATUREANDTINT_PROP","D2D1_TEMPERATUREANDTINT_PROP enumeration [Direct2D]","D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE","D2D1_TEMPERATUREANDTINT_PROP_TINT","d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP","d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE","d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP_TINT","direct2d.d2d1_temperatureandtint_prop"]
+description: Identifiers for properties of the Temperature and Tint effect.
+helpviewer_keywords: ["D2D1_TEMPERATUREANDTINT_PROP","D2D1_TEMPERATUREANDTINT_PROP enumeration [Direct2D]","D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE","D2D1_TEMPERATUREANDTINT_PROP_TINT","d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP","d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP_TEMPERATURE","d2d1effects_2/D2D1_TEMPERATUREANDTINT_PROP_TINT","direct2d.d2d1_temperatureandtint_prop"]
 old-location: direct2d\d2d1_temperatureandtint_prop.htm
 tech.root: Direct2D
 ms.assetid: 7295BFD0-773A-488A-BE86-CE1B202BCAC6

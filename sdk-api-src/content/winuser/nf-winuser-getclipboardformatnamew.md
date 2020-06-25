@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetClipboardFormatNameW
 title: GetClipboardFormatNameW function (winuser.h)
-description: Retrieves from the clipboard the name of the specified registered format. The function copies the name to the specified buffer.helpviewer_keywords: ["GetClipboardFormatName","GetClipboardFormatName function [Data Exchange]","GetClipboardFormatNameA","GetClipboardFormatNameW","_win32_GetClipboardFormatName","_win32_getclipboardformatname_cpp","dataxchg.getclipboardformatname","winui._win32_getclipboardformatname","winuser/GetClipboardFormatName","winuser/GetClipboardFormatNameA","winuser/GetClipboardFormatNameW"]
+description: Retrieves from the clipboard the name of the specified registered format. The function copies the name to the specified buffer.
+helpviewer_keywords: ["GetClipboardFormatName","GetClipboardFormatName function [Data Exchange]","GetClipboardFormatNameA","GetClipboardFormatNameW","_win32_GetClipboardFormatName","_win32_getclipboardformatname_cpp","dataxchg.getclipboardformatname","winui._win32_getclipboardformatname","winuser/GetClipboardFormatName","winuser/GetClipboardFormatNameA","winuser/GetClipboardFormatNameW"]
 old-location: dataxchg\getclipboardformatname.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\getclipboardformatname.htm
@@ -121,6 +122,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines GetClipboardFormatName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

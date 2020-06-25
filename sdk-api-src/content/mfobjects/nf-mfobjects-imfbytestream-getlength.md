@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFByteStream.GetLength
 title: IMFByteStream::GetLength (mfobjects.h)
-description: Retrieves the length of the stream.helpviewer_keywords: ["6fb817a6-5b43-4716-a997-bbd8a0b9305d","GetLength","GetLength method [Media Foundation]","GetLength method [Media Foundation]","IMFByteStream interface","IMFByteStream interface [Media Foundation]","GetLength method","IMFByteStream.GetLength","IMFByteStream::GetLength","mf.imfbytestream_getlength","mfobjects/IMFByteStream::GetLength"]
+description: Retrieves the length of the stream.
+helpviewer_keywords: ["6fb817a6-5b43-4716-a997-bbd8a0b9305d","GetLength","GetLength method [Media Foundation]","GetLength method [Media Foundation]","IMFByteStream interface","IMFByteStream interface [Media Foundation]","GetLength method","IMFByteStream.GetLength","IMFByteStream::GetLength","mf.imfbytestream_getlength","mfobjects/IMFByteStream::GetLength"]
 old-location: mf\imfbytestream_getlength.htm
 tech.root: medfound
 ms.assetid: 6fb817a6-5b43-4716-a997-bbd8a0b9305d

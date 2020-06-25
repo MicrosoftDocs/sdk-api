@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3LengthSq
 title: XMVector3LengthSq function (directxmath.h)
-description: Computes the square of the length of a 3D vector.helpviewer_keywords: ["Use DirectX..XMVector3LengthSq","XMVector3LengthSq","XMVector3LengthSq method [DirectX Math Support APIs]","dxmath.xmvector3lengthsq"]
+description: Computes the square of the length of a 3D vector.
+helpviewer_keywords: ["Use DirectX..XMVector3LengthSq","XMVector3LengthSq","XMVector3LengthSq method [DirectX Math Support APIs]","dxmath.xmvector3lengthsq"]
 old-location: dxmath\xmvector3lengthsq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3LengthSq(XMVECTOR)

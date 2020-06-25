@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedProcessId
 title: IUIAutomationElement::get_CachedProcessId (uiautomationclient.h)
-description: Retrieves the cached ID of the process that hosts the element.helpviewer_keywords: ["CachedProcessId property [Windows Accessibility]","CachedProcessId property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedProcessId property","IUIAutomationElement.CachedProcessId","IUIAutomationElement.get_CachedProcessId","IUIAutomationElement::CachedProcessId","IUIAutomationElement::get_CachedProcessId","get_CachedProcessId","uiauto.uiauto_IUIAutomationElement_CachedProcessId","uiauto_IUIAutomationElement_CachedProcessId","uiautomationclient/IUIAutomationElement::CachedProcessId","uiautomationclient/IUIAutomationElement::get_CachedProcessId","winauto.uiauto_IUIAutomationElement_CachedProcessId"]
+description: Retrieves the cached ID of the process that hosts the element.
+helpviewer_keywords: ["CachedProcessId property [Windows Accessibility]","CachedProcessId property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedProcessId property","IUIAutomationElement.CachedProcessId","IUIAutomationElement.get_CachedProcessId","IUIAutomationElement::CachedProcessId","IUIAutomationElement::get_CachedProcessId","get_CachedProcessId","uiauto.uiauto_IUIAutomationElement_CachedProcessId","uiauto_IUIAutomationElement_CachedProcessId","uiautomationclient/IUIAutomationElement::CachedProcessId","uiautomationclient/IUIAutomationElement::get_CachedProcessId","winauto.uiauto_IUIAutomationElement_CachedProcessId"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedProcessId.htm
 tech.root: WinAuto
 ms.assetid: 16a3470d-cbea-4cc2-96d5-668c748abab2

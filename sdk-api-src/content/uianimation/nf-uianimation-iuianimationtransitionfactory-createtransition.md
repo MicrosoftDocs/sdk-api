@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionFactory.CreateTransition
 title: IUIAnimationTransitionFactory::CreateTransition (uianimation.h)
-description: Creates a transition from a custom interpolator.helpviewer_keywords: ["CreateTransition","CreateTransition method [Windows Animation]","CreateTransition method [Windows Animation]","IUIAnimationTransitionFactory interface","IUIAnimationTransitionFactory interface [Windows Animation]","CreateTransition method","IUIAnimationTransitionFactory.CreateTransition","IUIAnimationTransitionFactory::CreateTransition","uianimation.iuianimationtransitionfactory_createtransition","uianimation/IUIAnimationTransitionFactory::CreateTransition"]
+description: Creates a transition from a custom interpolator.
+helpviewer_keywords: ["CreateTransition","CreateTransition method [Windows Animation]","CreateTransition method [Windows Animation]","IUIAnimationTransitionFactory interface","IUIAnimationTransitionFactory interface [Windows Animation]","CreateTransition method","IUIAnimationTransitionFactory.CreateTransition","IUIAnimationTransitionFactory::CreateTransition","uianimation.iuianimationtransitionfactory_createtransition","uianimation/IUIAnimationTransitionFactory::CreateTransition"]
 old-location: uianimation\iuianimationtransitionfactory_createtransition.htm
 tech.root: UIAnimation
 ms.assetid: 02d28669-0cbd-41e2-b9ca-4ad893f09fc9

@@ -1,7 +1,8 @@
 ---
 UID: NF:ddeml.DdeClientTransaction
 title: DdeClientTransaction function (ddeml.h)
-description: Begins a data transaction between a client and a server. Only a Dynamic Data Exchange (DDE) client application can call this function, and the application can use it only after establishing a conversation with the server.helpviewer_keywords: ["DdeClientTransaction","DdeClientTransaction function [Data Exchange]","XTYP_ADVSTART","XTYP_ADVSTOP","XTYP_EXECUTE","XTYP_POKE","XTYP_REQUEST","_win32_DdeClientTransaction","_win32_ddeclienttransaction_cpp","dataxchg.ddeclienttransaction","ddeml/DdeClientTransaction","winui._win32_ddeclienttransaction"]
+description: Begins a data transaction between a client and a server. Only a Dynamic Data Exchange (DDE) client application can call this function, and the application can use it only after establishing a conversation with the server.
+helpviewer_keywords: ["DdeClientTransaction","DdeClientTransaction function [Data Exchange]","XTYP_ADVSTART","XTYP_ADVSTOP","XTYP_EXECUTE","XTYP_POKE","XTYP_REQUEST","_win32_DdeClientTransaction","_win32_ddeclienttransaction_cpp","dataxchg.ddeclienttransaction","ddeml/DdeClientTransaction","winui._win32_ddeclienttransaction"]
 old-location: dataxchg\ddeclienttransaction.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeclienttransaction.htm

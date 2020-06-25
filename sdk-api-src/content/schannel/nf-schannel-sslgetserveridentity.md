@@ -1,7 +1,8 @@
 ---
 UID: NF:schannel.SslGetServerIdentity
 title: SslGetServerIdentity function (schannel.h)
-description: Gets the identity of the server.helpviewer_keywords: ["SslGetServerIdentity","SslGetServerIdentity function [Security]","schannel/SslGetServerIdentity","security.sslgetserveridentity"]
+description: Gets the identity of the server.
+helpviewer_keywords: ["SslGetServerIdentity","SslGetServerIdentity function [Security]","schannel/SslGetServerIdentity","security.sslgetserveridentity"]
 old-location: security\sslgetserveridentity.htm
 tech.root: SecAuthN
 ms.assetid: 5FA7A0F5-187F-4CE6-AD62-44B71A40568D

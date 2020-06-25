@@ -1,7 +1,8 @@
 ---
 UID: NN:wsmandisp.IWSManConnectionOptionsEx2
 title: IWSManConnectionOptionsEx2 (wsmandisp.h)
-description: The IWSManConnectionOptionsEx2 object is passed to the IWSMan::CreateSession method to provide the authentication mechanism, access type, and credentials to connect to a proxy server.helpviewer_keywords: ["IWSManConnectionOptionsEx2","IWSManConnectionOptionsEx2 interface [Windows Remote Management]","IWSManConnectionOptionsEx2 interface [Windows Remote Management]","described","winrm.iwsmanconnectionoptionsex2","wsmandisp/IWSManConnectionOptionsEx2"]
+description: The IWSManConnectionOptionsEx2 object is passed to the IWSMan::CreateSession method to provide the authentication mechanism, access type, and credentials to connect to a proxy server.
+helpviewer_keywords: ["IWSManConnectionOptionsEx2","IWSManConnectionOptionsEx2 interface [Windows Remote Management]","IWSManConnectionOptionsEx2 interface [Windows Remote Management]","described","winrm.iwsmanconnectionoptionsex2","wsmandisp/IWSManConnectionOptionsEx2"]
 old-location: winrm\iwsmanconnectionoptionsex2.htm
 tech.root: winrm
 ms.assetid: 09159904-0160-411d-af54-f6aca94d4d7d

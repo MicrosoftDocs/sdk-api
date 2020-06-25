@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.GetHorizontalResolution
 title: Image::GetHorizontalResolution (gdiplusheaders.h)
-description: The Image::GetHorizontalResolution method gets the horizontal resolution, in dots per inch, of this image.helpviewer_keywords: ["GetHorizontalResolution","GetHorizontalResolution method [GDI+]","GetHorizontalResolution method [GDI+]","Image class","Image class [GDI+]","GetHorizontalResolution method","Image.GetHorizontalResolution","Image::GetHorizontalResolution","_gdiplus_CLASS_Image_GetHorizontalResolution_","gdiplus._gdiplus_CLASS_Image_GetHorizontalResolution_"]
+description: The Image::GetHorizontalResolution method gets the horizontal resolution, in dots per inch, of this image.
+helpviewer_keywords: ["GetHorizontalResolution","GetHorizontalResolution method [GDI+]","GetHorizontalResolution method [GDI+]","Image class","Image class [GDI+]","GetHorizontalResolution method","Image.GetHorizontalResolution","Image::GetHorizontalResolution","_gdiplus_CLASS_Image_GetHorizontalResolution_","gdiplus._gdiplus_CLASS_Image_GetHorizontalResolution_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetHorizontalResolution_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\gethorizontalresolution.htm

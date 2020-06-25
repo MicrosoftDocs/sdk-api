@@ -1,7 +1,8 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.EnumRecords
 title: IBitsPeerCacheAdministration::EnumRecords (bits3_0.h)
-description: Gets an IEnumBitsPeerCacheRecords interface pointer that you use to enumerate the records in the cache. The enumeration is a snapshot of the records in the cache.helpviewer_keywords: ["EnumRecords","EnumRecords method [BITS]","EnumRecords method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","EnumRecords method","IBitsPeerCacheAdministration.EnumRecords","IBitsPeerCacheAdministration::EnumRecords","bits.ibitspeercacheadministration_enumrecords","bits3_0/IBitsPeerCacheAdministration::EnumRecords"]
+description: Gets an IEnumBitsPeerCacheRecords interface pointer that you use to enumerate the records in the cache. The enumeration is a snapshot of the records in the cache.
+helpviewer_keywords: ["EnumRecords","EnumRecords method [BITS]","EnumRecords method [BITS]","IBitsPeerCacheAdministration interface","IBitsPeerCacheAdministration interface [BITS]","EnumRecords method","IBitsPeerCacheAdministration.EnumRecords","IBitsPeerCacheAdministration::EnumRecords","bits.ibitspeercacheadministration_enumrecords","bits3_0/IBitsPeerCacheAdministration::EnumRecords"]
 old-location: bits\ibitspeercacheadministration_enumrecords.htm
 tech.root: Bits
 ms.assetid: b471cee0-0ad0-4488-9819-e524e50dbc76

@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IRunningObjectTable.Register
 title: IRunningObjectTable::Register (objidl.h)
-description: Registers an object and its identifying moniker in the running object table (ROT).helpviewer_keywords: ["IRunningObjectTable interface [COM]","Register method","IRunningObjectTable.Register","IRunningObjectTable::Register","ROTFLAGS_ALLOWANYCLIENT","ROTFLAGS_REGISTRATIONKEEPSALIVE","Register","Register method [COM]","Register method [COM]","IRunningObjectTable interface","_com_irunningobjecttable_register","com.irunningobjecttable_register","objidl/IRunningObjectTable::Register"]
+description: Registers an object and its identifying moniker in the running object table (ROT).
+helpviewer_keywords: ["IRunningObjectTable interface [COM]","Register method","IRunningObjectTable.Register","IRunningObjectTable::Register","ROTFLAGS_ALLOWANYCLIENT","ROTFLAGS_REGISTRATIONKEEPSALIVE","Register","Register method [COM]","Register method [COM]","IRunningObjectTable interface","_com_irunningobjecttable_register","com.irunningobjecttable_register","objidl/IRunningObjectTable::Register"]
 old-location: com\irunningobjecttable_register.htm
 tech.root: com
 ms.assetid: 40f815b2-dfea-416c-aae1-7ba3a710ad91

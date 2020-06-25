@@ -1,7 +1,8 @@
 ---
 UID: NS:wcmapi._WCM_DATAPLAN_STATUS
 title: WCM_DATAPLAN_STATUS (wcmapi.h)
-description: Specifies subscription information for a network connection.helpviewer_keywords: ["*PWCM_DATAPLAN_STATUS","PWCM_DATAPLAN_STATUS","PWCM_DATAPLAN_STATUS structure pointer [Windows Connection Manager]","WCM_DATAPLAN_STATUS","WCM_DATAPLAN_STATUS structure [Windows Connection Manager]","wcm.wcm_dataplan_status","wcmapi/PWCM_DATAPLAN_STATUS","wcmapi/WCM_DATAPLAN_STATUS"]
+description: Specifies subscription information for a network connection.
+helpviewer_keywords: ["*PWCM_DATAPLAN_STATUS","PWCM_DATAPLAN_STATUS","PWCM_DATAPLAN_STATUS structure pointer [Windows Connection Manager]","WCM_DATAPLAN_STATUS","WCM_DATAPLAN_STATUS structure [Windows Connection Manager]","wcm.wcm_dataplan_status","wcmapi/PWCM_DATAPLAN_STATUS","wcmapi/WCM_DATAPLAN_STATUS"]
 old-location: wcm\wcm_dataplan_status.htm
 tech.root: wcm
 ms.assetid: 6ed0f05c-a9f8-49bb-9fb0-b91af8594d76

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.SetPipelineState1
 title: ID3D12GraphicsCommandList4::SetPipelineState1 (d3d12.h)
-description: Sets a state object on the command list.helpviewer_keywords: ["ID3D12GraphicsCommandList4 interface","SetPipelineState1 method","ID3D12GraphicsCommandList4.SetPipelineState1","ID3D12GraphicsCommandList4::SetPipelineState1","SetPipelineState1","SetPipelineState1 method","SetPipelineState1 method","ID3D12GraphicsCommandList4 interface","d3d12/ID3D12GraphicsCommandList4::SetPipelineState1","direct3d12.id3d12graphicscommandlist4_setpipelinestate1"]
+description: Sets a state object on the command list.
+helpviewer_keywords: ["ID3D12GraphicsCommandList4 interface","SetPipelineState1 method","ID3D12GraphicsCommandList4.SetPipelineState1","ID3D12GraphicsCommandList4::SetPipelineState1","SetPipelineState1","SetPipelineState1 method","SetPipelineState1 method","ID3D12GraphicsCommandList4 interface","d3d12/ID3D12GraphicsCommandList4::SetPipelineState1","direct3d12.id3d12graphicscommandlist4_setpipelinestate1"]
 old-location: direct3d12\id3d12graphicscommandlist4_setpipelinestate1.htm
 tech.root: direct3d12
 ms.assetid: CD408074-2B2A-461C-9CA8-DC967BC61067

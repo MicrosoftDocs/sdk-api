@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.put_HashAlgorithm
 title: IX509CertificateRequest::put_HashAlgorithm (certenroll.h)
-description: Specifies and retrieves the object identifier (OID) of the hash algorithm used to sign the certificate request.helpviewer_keywords: ["HashAlgorithm property [Security]","HashAlgorithm property [Security]","IX509CertificateRequest interface","IX509CertificateRequest interface [Security]","HashAlgorithm property","IX509CertificateRequest.HashAlgorithm","IX509CertificateRequest.put_HashAlgorithm","IX509CertificateRequest::HashAlgorithm","IX509CertificateRequest::get_HashAlgorithm","IX509CertificateRequest::put_HashAlgorithm","certenroll/IX509CertificateRequest::HashAlgorithm","certenroll/IX509CertificateRequest::get_HashAlgorithm","certenroll/IX509CertificateRequest::put_HashAlgorithm","put_HashAlgorithm","security.ix509certificaterequest_hashalgorithm_property"]
+description: Specifies and retrieves the object identifier (OID) of the hash algorithm used to sign the certificate request.
+helpviewer_keywords: ["HashAlgorithm property [Security]","HashAlgorithm property [Security]","IX509CertificateRequest interface","IX509CertificateRequest interface [Security]","HashAlgorithm property","IX509CertificateRequest.HashAlgorithm","IX509CertificateRequest.put_HashAlgorithm","IX509CertificateRequest::HashAlgorithm","IX509CertificateRequest::get_HashAlgorithm","IX509CertificateRequest::put_HashAlgorithm","certenroll/IX509CertificateRequest::HashAlgorithm","certenroll/IX509CertificateRequest::get_HashAlgorithm","certenroll/IX509CertificateRequest::put_HashAlgorithm","put_HashAlgorithm","security.ix509certificaterequest_hashalgorithm_property"]
 old-location: security\ix509certificaterequest_hashalgorithm_property.htm
 tech.root: seccertenroll
 ms.assetid: 9f68ee54-5dea-47bb-8a90-0285d081c9b8

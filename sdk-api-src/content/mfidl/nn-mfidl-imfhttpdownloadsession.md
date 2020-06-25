@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFHttpDownloadSession
 title: IMFHttpDownloadSession (mfidl.h)
-description: Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation.helpviewer_keywords: ["IMFHttpDownloadSession","IMFHttpDownloadSession interface [Media Foundation]","IMFHttpDownloadSession interface [Media Foundation]","described","mf.imfhttpdownloadsession","mfidl/IMFHttpDownloadSession"]
+description: Applications implement this interface to override the default implementation of the HTTP and HTTPS protocols used by Microsoft Media Foundation.
+helpviewer_keywords: ["IMFHttpDownloadSession","IMFHttpDownloadSession interface [Media Foundation]","IMFHttpDownloadSession interface [Media Foundation]","described","mf.imfhttpdownloadsession","mfidl/IMFHttpDownloadSession"]
 old-location: mf\imfhttpdownloadsession.htm
 tech.root: medfound
 ms.assetid: 048B2922-3B77-4F2D-9437-0FA54F94C67E

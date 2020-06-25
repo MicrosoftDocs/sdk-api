@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10.ID3D10Device.GetCreationFlags
 title: ID3D10Device::GetCreationFlags (d3d10.h)
-description: Get the flags used during the call to create the device with D3D10CreateDevice.helpviewer_keywords: ["4822c55e-f89a-b10d-ccba-aa989735a00f","GetCreationFlags","GetCreationFlags method [Direct3D 10]","GetCreationFlags method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GetCreationFlags method","ID3D10Device.GetCreationFlags","ID3D10Device::GetCreationFlags","d3d10/ID3D10Device::GetCreationFlags","direct3d10.id3d10device_getcreationflags"]
+description: Get the flags used during the call to create the device with D3D10CreateDevice.
+helpviewer_keywords: ["4822c55e-f89a-b10d-ccba-aa989735a00f","GetCreationFlags","GetCreationFlags method [Direct3D 10]","GetCreationFlags method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GetCreationFlags method","ID3D10Device.GetCreationFlags","ID3D10Device::GetCreationFlags","d3d10/ID3D10Device::GetCreationFlags","direct3d10.id3d10device_getcreationflags"]
 old-location: direct3d10\id3d10device_getcreationflags.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_getcreationflags.htm

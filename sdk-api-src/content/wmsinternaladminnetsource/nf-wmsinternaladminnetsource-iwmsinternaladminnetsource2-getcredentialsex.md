@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource2.GetCredentialsEx
 title: IWMSInternalAdminNetSource2::GetCredentialsEx (wmsinternaladminnetsource.h)
-description: The GetCredentialsEx method retrieves a cached password.helpviewer_keywords: ["GetCredentialsEx","GetCredentialsEx method [windows Media Format]","GetCredentialsEx method [windows Media Format]","IWMSInternalAdminNetSource2 interface","IWMSInternalAdminNetSource2 interface [windows Media Format]","GetCredentialsEx method","IWMSInternalAdminNetSource2.GetCredentialsEx","IWMSInternalAdminNetSource2::GetCredentialsEx","IWMSInternalAdminNetSource2GetCredentialsEx","wmformat.iwmsinternaladminnetsource2_getcredentialsex","wmsinternaladminnetsource/IWMSInternalAdminNetSource2::GetCredentialsEx"]
+description: The GetCredentialsEx method retrieves a cached password.
+helpviewer_keywords: ["GetCredentialsEx","GetCredentialsEx method [windows Media Format]","GetCredentialsEx method [windows Media Format]","IWMSInternalAdminNetSource2 interface","IWMSInternalAdminNetSource2 interface [windows Media Format]","GetCredentialsEx method","IWMSInternalAdminNetSource2.GetCredentialsEx","IWMSInternalAdminNetSource2::GetCredentialsEx","IWMSInternalAdminNetSource2GetCredentialsEx","wmformat.iwmsinternaladminnetsource2_getcredentialsex","wmsinternaladminnetsource/IWMSInternalAdminNetSource2::GetCredentialsEx"]
 old-location: wmformat\iwmsinternaladminnetsource2_getcredentialsex.htm
 tech.root: wmformat
 ms.assetid: 5840fe0b-34f6-4e39-b55f-7e07b7795e52

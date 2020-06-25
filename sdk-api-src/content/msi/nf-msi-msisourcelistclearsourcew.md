@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListClearSourceW
 title: MsiSourceListClearSourceW function (msi.h)
-description: Removes an existing source for a product or patch in a specified context.helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListClearSource","MsiSourceListClearSource function","MsiSourceListClearSourceA","MsiSourceListClearSourceW","NULL","User SID","msi/MsiSourceListClearSource","msi/MsiSourceListClearSourceA","msi/MsiSourceListClearSourceW","setup.msisourcelistclearsource"]
+description: Removes an existing source for a product or patch in a specified context.
+helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListClearSource","MsiSourceListClearSource function","MsiSourceListClearSourceA","MsiSourceListClearSourceW","NULL","User SID","msi/MsiSourceListClearSource","msi/MsiSourceListClearSourceA","msi/MsiSourceListClearSourceW","setup.msisourcelistclearsource"]
 old-location: setup\msisourcelistclearsource.htm
 tech.root: Msi
 ms.assetid: 7d37cdd2-ecdd-4d27-b5b1-87bcffc5bf79
@@ -319,6 +320,10 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListClearSource as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

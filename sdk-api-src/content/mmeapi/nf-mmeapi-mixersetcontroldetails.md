@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.mixerSetControlDetails
 title: mixerSetControlDetails function (mmeapi.h)
-description: The mixerSetControlDetails function sets properties of a single control associated with an audio line.helpviewer_keywords: ["_win32_mixerSetControlDetails","mixerSetControlDetails","mixerSetControlDetails function [Windows Multimedia]","mmeapi/mixerSetControlDetails","multimedia.mixersetcontroldetails"]
+description: The mixerSetControlDetails function sets properties of a single control associated with an audio line.
+helpviewer_keywords: ["_win32_mixerSetControlDetails","mixerSetControlDetails","mixerSetControlDetails function [Windows Multimedia]","mmeapi/mixerSetControlDetails","multimedia.mixersetcontroldetails"]
 old-location: multimedia\mixersetcontroldetails.htm
 tech.root: Multimedia
 ms.assetid: c4d500f3-a1c2-432c-9096-90f229bc7b7a

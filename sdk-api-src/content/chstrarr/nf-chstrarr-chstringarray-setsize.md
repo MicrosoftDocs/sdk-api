@@ -1,7 +1,8 @@
 ---
 UID: NF:chstrarr.CHStringArray.SetSize
 title: CHStringArray::SetSize (chstrarr.h)
-description: The SetSize method establishes the size of an empty or existing array.helpviewer_keywords: ["CHStringArray interface [Windows Management Instrumentation]","SetSize method","CHStringArray.SetSize","CHStringArray::SetSize","SetSize","SetSize method [Windows Management Instrumentation]","SetSize method [Windows Management Instrumentation]","CHStringArray interface","_hmm_chstringarray_setsize","chstrarr/CHStringArray::SetSize","wmi.chstringarray_setsize"]
+description: The SetSize method establishes the size of an empty or existing array.
+helpviewer_keywords: ["CHStringArray interface [Windows Management Instrumentation]","SetSize method","CHStringArray.SetSize","CHStringArray::SetSize","SetSize","SetSize method [Windows Management Instrumentation]","SetSize method [Windows Management Instrumentation]","CHStringArray interface","_hmm_chstringarray_setsize","chstrarr/CHStringArray::SetSize","wmi.chstringarray_setsize"]
 old-location: wmi\chstringarray_setsize.htm
 tech.root: WmiSdk
 ms.assetid: 9320b6b6-5253-419e-a293-3b9d030f5963

@@ -1,7 +1,8 @@
 ---
 UID: NF:rend.IEnumDialableAddrs.Clone
 title: IEnumDialableAddrs::Clone (rend.h)
-description: The Clone method creates another enumerator that contains the same enumeration state as the current one.helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumDialableAddrs interface","IEnumDialableAddrs interface [TAPI 2.2]","Clone method","IEnumDialableAddrs.Clone","IEnumDialableAddrs::Clone","_tapi3_ienumdialableaddrs_clone","rend/IEnumDialableAddrs::Clone","tapi3.ienumdialableaddrs_clone"]
+description: The Clone method creates another enumerator that contains the same enumeration state as the current one.
+helpviewer_keywords: ["Clone","Clone method [TAPI 2.2]","Clone method [TAPI 2.2]","IEnumDialableAddrs interface","IEnumDialableAddrs interface [TAPI 2.2]","Clone method","IEnumDialableAddrs.Clone","IEnumDialableAddrs::Clone","_tapi3_ienumdialableaddrs_clone","rend/IEnumDialableAddrs::Clone","tapi3.ienumdialableaddrs_clone"]
 old-location: tapi3\ienumdialableaddrs_clone.htm
 tech.root: Tapi
 ms.assetid: 5d05bdfb-007a-451a-bf79-f5a8e4171f85

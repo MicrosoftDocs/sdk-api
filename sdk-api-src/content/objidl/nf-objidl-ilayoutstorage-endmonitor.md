@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.ILayoutStorage.EndMonitor
 title: ILayoutStorage::EndMonitor (objidl.h)
-description: The EndMonitor method ends monitoring of a compound file. Must be preceded by a call to ILayoutStorage::BeginMonitor.helpviewer_keywords: ["EndMonitor","EndMonitor method [Structured Storage]","EndMonitor method [Structured Storage]","ILayoutStorage interface","ILayoutStorage interface [Structured Storage]","EndMonitor method","ILayoutStorage.EndMonitor","ILayoutStorage::EndMonitor","_stg_ilayoutstorage_endmonitor","objidl/ILayoutStorage::EndMonitor","stg.ilayoutstorage_endmonitor"]
+description: The EndMonitor method ends monitoring of a compound file. Must be preceded by a call to ILayoutStorage::BeginMonitor.
+helpviewer_keywords: ["EndMonitor","EndMonitor method [Structured Storage]","EndMonitor method [Structured Storage]","ILayoutStorage interface","ILayoutStorage interface [Structured Storage]","EndMonitor method","ILayoutStorage.EndMonitor","ILayoutStorage::EndMonitor","_stg_ilayoutstorage_endmonitor","objidl/ILayoutStorage::EndMonitor","stg.ilayoutstorage_endmonitor"]
 old-location: stg\ilayoutstorage_endmonitor.htm
 tech.root: Stg
 ms.assetid: 83b9486b-78b6-473c-9a9a-33f470a4d70f

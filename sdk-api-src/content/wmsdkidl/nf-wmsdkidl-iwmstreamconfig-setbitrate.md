@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetBitrate
 title: IWMStreamConfig::SetBitrate (wmsdkidl.h)
-description: The SetBitrate method specifies the bit rate for the stream.helpviewer_keywords: ["IWMStreamConfig interface [windows Media Format]","SetBitrate method","IWMStreamConfig.SetBitrate","IWMStreamConfig::SetBitrate","IWMStreamConfigSetBitrate","SetBitrate","SetBitrate method [windows Media Format]","SetBitrate method [windows Media Format]","IWMStreamConfig interface","wmformat.iwmstreamconfig_setbitrate","wmsdkidl/IWMStreamConfig::SetBitrate"]
+description: The SetBitrate method specifies the bit rate for the stream.
+helpviewer_keywords: ["IWMStreamConfig interface [windows Media Format]","SetBitrate method","IWMStreamConfig.SetBitrate","IWMStreamConfig::SetBitrate","IWMStreamConfigSetBitrate","SetBitrate","SetBitrate method [windows Media Format]","SetBitrate method [windows Media Format]","IWMStreamConfig interface","wmformat.iwmstreamconfig_setbitrate","wmsdkidl/IWMStreamConfig::SetBitrate"]
 old-location: wmformat\iwmstreamconfig_setbitrate.htm
 tech.root: wmformat
 ms.assetid: 202be688-e739-4e80-9574-f85b2eb168fc

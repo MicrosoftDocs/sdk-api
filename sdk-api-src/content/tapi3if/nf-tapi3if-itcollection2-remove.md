@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITCollection2.Remove
 title: ITCollection2::Remove (tapi3if.h)
-description: The Remove method deletes an item from the collection at the specified index.helpviewer_keywords: ["ITCollection2 interface [TAPI 2.2]","Remove method","ITCollection2.Remove","ITCollection2::Remove","Remove","Remove method [TAPI 2.2]","Remove method [TAPI 2.2]","ITCollection2 interface","_tapi3_itcollection2_remove","tapi3.itcollection2_remove","tapi3if/ITCollection2::Remove"]
+description: The Remove method deletes an item from the collection at the specified index.
+helpviewer_keywords: ["ITCollection2 interface [TAPI 2.2]","Remove method","ITCollection2.Remove","ITCollection2::Remove","Remove","Remove method [TAPI 2.2]","Remove method [TAPI 2.2]","ITCollection2 interface","_tapi3_itcollection2_remove","tapi3.itcollection2_remove","tapi3if/ITCollection2::Remove"]
 old-location: tapi3\itcollection2_remove.htm
 tech.root: Tapi
 ms.assetid: 27e46c36-8704-4e33-ad2a-5888d701651c

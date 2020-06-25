@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IProcessLock.ReleaseRefOnProcess
 title: IProcessLock::ReleaseRefOnProcess (objidl.h)
-description: Decrements the reference count of the process.helpviewer_keywords: ["IProcessLock interface [COM]","ReleaseRefOnProcess method","IProcessLock.ReleaseRefOnProcess","IProcessLock::ReleaseRefOnProcess","ReleaseRefOnProcess","ReleaseRefOnProcess method [COM]","ReleaseRefOnProcess method [COM]","IProcessLock interface","_com_iprocesslock_releaserefonprocess","com.iprocesslock_releaserefonprocess","objidl/IProcessLock::ReleaseRefOnProcess"]
+description: Decrements the reference count of the process.
+helpviewer_keywords: ["IProcessLock interface [COM]","ReleaseRefOnProcess method","IProcessLock.ReleaseRefOnProcess","IProcessLock::ReleaseRefOnProcess","ReleaseRefOnProcess","ReleaseRefOnProcess method [COM]","ReleaseRefOnProcess method [COM]","IProcessLock interface","_com_iprocesslock_releaserefonprocess","com.iprocesslock_releaserefonprocess","objidl/IProcessLock::ReleaseRefOnProcess"]
 old-location: com\iprocesslock_releaserefonprocess.htm
 tech.root: com
 ms.assetid: a0943afc-b20f-4082-b561-552370a630a1

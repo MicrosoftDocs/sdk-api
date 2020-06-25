@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bufferingCount
 title: IWMPNetwork::get_bufferingCount (wmp.h)
-description: The get_bufferingCount method retrieves the number of times buffering occurred during playback.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_bufferingCount method","IWMPNetwork.get_bufferingCount","IWMPNetwork::get_bufferingCount","IWMPNetworkget_bufferingCount","get_bufferingCount","get_bufferingCount method [Windows Media Player]","get_bufferingCount method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_bufferingcount","wmp/IWMPNetwork::get_bufferingCount"]
+description: The get_bufferingCount method retrieves the number of times buffering occurred during playback.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_bufferingCount method","IWMPNetwork.get_bufferingCount","IWMPNetwork::get_bufferingCount","IWMPNetworkget_bufferingCount","get_bufferingCount","get_bufferingCount method [Windows Media Player]","get_bufferingCount method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_bufferingcount","wmp/IWMPNetwork::get_bufferingCount"]
 old-location: wmp\iwmpnetwork_get_bufferingcount.htm
 tech.root: WMP
 ms.assetid: 9ba9be8d-9b2b-4620-8572-317555d51bdf

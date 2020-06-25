@@ -1,7 +1,8 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog.StartApplication
 title: ICOMAdminCatalog::StartApplication (comadmin.h)
-description: Starts the specified COM+ server application. The application components are launched in a dedicated server process.helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","StartApplication method","ICOMAdminCatalog.StartApplication","ICOMAdminCatalog::StartApplication","StartApplication","StartApplication method [COM+]","StartApplication method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_StartApplication","comadmin/ICOMAdminCatalog::StartApplication","cos.icomadmincatalog_startapplication"]
+description: Starts the specified COM+ server application. The application components are launched in a dedicated server process.
+helpviewer_keywords: ["ICOMAdminCatalog interface [COM+]","StartApplication method","ICOMAdminCatalog.StartApplication","ICOMAdminCatalog::StartApplication","StartApplication","StartApplication method [COM+]","StartApplication method [COM+]","ICOMAdminCatalog interface","_cos_ICOMAdminCatalog_StartApplication","comadmin/ICOMAdminCatalog::StartApplication","cos.icomadmincatalog_startapplication"]
 old-location: cos\icomadmincatalog_startapplication.htm
 tech.root: cossdk
 ms.assetid: 89423f39-7cbd-42dd-8d4a-6f312884e0bf

@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngQueryPerformanceFrequency
 title: EngQueryPerformanceFrequency function (winddi.h)
-description: The EngQueryPerformanceFrequency function queries the frequency of the performance counter.helpviewer_keywords: ["EngQueryPerformanceFrequency","EngQueryPerformanceFrequency function [Display Devices]","display.engqueryperformancefrequency","gdifncs_46139586-61a2-4418-9400-ac9bbce12167.xml","winddi/EngQueryPerformanceFrequency"]
+description: The EngQueryPerformanceFrequency function queries the frequency of the performance counter.
+helpviewer_keywords: ["EngQueryPerformanceFrequency","EngQueryPerformanceFrequency function [Display Devices]","display.engqueryperformancefrequency","gdifncs_46139586-61a2-4418-9400-ac9bbce12167.xml","winddi/EngQueryPerformanceFrequency"]
 old-location: display\engqueryperformancefrequency.htm
 tech.root: display
 ms.assetid: d4194278-eb49-43e4-b4bf-576e65d9e5ad

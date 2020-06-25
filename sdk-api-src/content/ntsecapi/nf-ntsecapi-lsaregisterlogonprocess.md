@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaRegisterLogonProcess
 title: LsaRegisterLogonProcess function (ntsecapi.h)
-description: Establishes a connection to the LSA server and verifies that the caller is a logon application.helpviewer_keywords: ["LsaRegisterLogonProcess","LsaRegisterLogonProcess function [Security]","_lsa_lsaregisterlogonprocess","ntsecapi/LsaRegisterLogonProcess","security.lsaregisterlogonprocess"]
+description: Establishes a connection to the LSA server and verifies that the caller is a logon application.
+helpviewer_keywords: ["LsaRegisterLogonProcess","LsaRegisterLogonProcess function [Security]","_lsa_lsaregisterlogonprocess","ntsecapi/LsaRegisterLogonProcess","security.lsaregisterlogonprocess"]
 old-location: security\lsaregisterlogonprocess.htm
 tech.root: SecAuthN
 ms.assetid: 1bef2949-b4c8-400e-8a2d-60aa88a4e238

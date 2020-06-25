@@ -1,7 +1,8 @@
 ---
 UID: NS:iptypes._IP_ADAPTER_ANYCAST_ADDRESS_XP
 title: IP_ADAPTER_ANYCAST_ADDRESS_XP (iptypes.h)
-description: Stores a single anycast IP address in a linked list of addresses for a particular adapter.helpviewer_keywords: ["*PIP_ADAPTER_ANYCAST_ADDRESS","*PIP_ADAPTER_ANYCAST_ADDRESS_XP","IP_ADAPTER_ADDRESS_DNS_ELIGIBLE","IP_ADAPTER_ADDRESS_TRANSIENT","IP_ADAPTER_ANYCAST_ADDRESS","IP_ADAPTER_ANYCAST_ADDRESS structure [IP Helper]","IP_ADAPTER_ANYCAST_ADDRESS_XP","PIP_ADAPTER_ANYCAST_ADDRESS","PIP_ADAPTER_ANYCAST_ADDRESS structure pointer [IP Helper]","_iphlp_ip_adapter_anycast_address","iphlp.ip_adapter_anycast_address","iptypes/IP_ADAPTER_ANYCAST_ADDRESS","iptypes/PIP_ADAPTER_ANYCAST_ADDRESS"]
+description: Stores a single anycast IP address in a linked list of addresses for a particular adapter.
+helpviewer_keywords: ["*PIP_ADAPTER_ANYCAST_ADDRESS","*PIP_ADAPTER_ANYCAST_ADDRESS_XP","IP_ADAPTER_ADDRESS_DNS_ELIGIBLE","IP_ADAPTER_ADDRESS_TRANSIENT","IP_ADAPTER_ANYCAST_ADDRESS","IP_ADAPTER_ANYCAST_ADDRESS structure [IP Helper]","IP_ADAPTER_ANYCAST_ADDRESS_XP","PIP_ADAPTER_ANYCAST_ADDRESS","PIP_ADAPTER_ANYCAST_ADDRESS structure pointer [IP Helper]","_iphlp_ip_adapter_anycast_address","iphlp.ip_adapter_anycast_address","iptypes/IP_ADAPTER_ANYCAST_ADDRESS","iptypes/PIP_ADAPTER_ANYCAST_ADDRESS"]
 old-location: iphlp\ip_adapter_anycast_address.htm
 tech.root: IpHlp
 ms.assetid: 2626fc86-e29b-4162-8625-207c709d67ed

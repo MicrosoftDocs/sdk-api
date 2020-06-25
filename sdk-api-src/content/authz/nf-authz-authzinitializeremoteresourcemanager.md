@@ -1,7 +1,8 @@
 ---
 UID: NF:authz.AuthzInitializeRemoteResourceManager
 title: AuthzInitializeRemoteResourceManager function (authz.h)
-description: Allocates and initializes a remote resource manager. The caller can use the resulting handle to make RPC calls to a remote instance of the resource manager configured on a server.helpviewer_keywords: ["AuthzInitializeRemoteResourceManager","AuthzInitializeRemoteResourceManager function [Security]","authz/AuthzInitializeRemoteResourceManager","security.authzinitializeremoteresourcemanager"]
+description: Allocates and initializes a remote resource manager. The caller can use the resulting handle to make RPC calls to a remote instance of the resource manager configured on a server.
+helpviewer_keywords: ["AuthzInitializeRemoteResourceManager","AuthzInitializeRemoteResourceManager function [Security]","authz/AuthzInitializeRemoteResourceManager","security.authzinitializeremoteresourcemanager"]
 old-location: security\authzinitializeremoteresourcemanager.htm
 tech.root: SecAuthZ
 ms.assetid: C3B6C75B-13A5-49CC-BB01-DA1EEC292C20

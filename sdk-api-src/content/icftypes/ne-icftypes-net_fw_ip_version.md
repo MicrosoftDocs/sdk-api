@@ -1,7 +1,8 @@
 ---
 UID: NE:icftypes.NET_FW_IP_VERSION_
 title: NET_FW_IP_VERSION (icftypes.h)
-description: Specifies the IP version for a port.helpviewer_keywords: ["NET_FW_IP_VERSION","NET_FW_IP_VERSION enumeration [ICS/ICF]","NET_FW_IP_VERSION_ANY","NET_FW_IP_VERSION_MAX","NET_FW_IP_VERSION_V4","NET_FW_IP_VERSION_V6","icftypes/NET_FW_IP_VERSION","icftypes/NET_FW_IP_VERSION_ANY","icftypes/NET_FW_IP_VERSION_MAX","icftypes/NET_FW_IP_VERSION_V4","icftypes/NET_FW_IP_VERSION_V6","ics.net_fw_ip_version"]
+description: Specifies the IP version for a port.
+helpviewer_keywords: ["NET_FW_IP_VERSION","NET_FW_IP_VERSION enumeration [ICS/ICF]","NET_FW_IP_VERSION_ANY","NET_FW_IP_VERSION_MAX","NET_FW_IP_VERSION_V4","NET_FW_IP_VERSION_V6","icftypes/NET_FW_IP_VERSION","icftypes/NET_FW_IP_VERSION_ANY","icftypes/NET_FW_IP_VERSION_MAX","icftypes/NET_FW_IP_VERSION_V4","icftypes/NET_FW_IP_VERSION_V6","ics.net_fw_ip_version"]
 old-location: ics\net_fw_ip_version.htm
 tech.root: ics
 ms.assetid: f322c914-e84f-4c13-8200-06e5fe2bdab7

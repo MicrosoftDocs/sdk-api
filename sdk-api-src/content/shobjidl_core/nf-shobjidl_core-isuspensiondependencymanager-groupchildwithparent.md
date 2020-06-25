@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ISuspensionDependencyManager.GroupChildWithParent
 title: ISuspensionDependencyManager::GroupChildWithParent (shobjidl_core.h)
-description: ISuspensionDependencyManager::GroupChildWithParent methodhelpviewer_keywords: ["GroupChildWithParent","GroupChildWithParent method [Windows Shell]","GroupChildWithParent method [Windows Shell]","ISuspensionDependencyManager interface","ISuspensionDependencyManager interface [Windows Shell]","GroupChildWithParent method","ISuspensionDependencyManager.GroupChildWithParent","ISuspensionDependencyManager::GroupChildWithParent","shell.ISuspensionDependencyManager_GroupChildWithParent","shobjidl_core/ISuspensionDependencyManager::GroupChildWithParent"]
+description: ISuspensionDependencyManager::GroupChildWithParent method
+helpviewer_keywords: ["GroupChildWithParent","GroupChildWithParent method [Windows Shell]","GroupChildWithParent method [Windows Shell]","ISuspensionDependencyManager interface","ISuspensionDependencyManager interface [Windows Shell]","GroupChildWithParent method","ISuspensionDependencyManager.GroupChildWithParent","ISuspensionDependencyManager::GroupChildWithParent","shell.ISuspensionDependencyManager_GroupChildWithParent","shobjidl_core/ISuspensionDependencyManager::GroupChildWithParent"]
 old-location: shell\ISuspensionDependencyManager_GroupChildWithParent.htm
 tech.root: shell
 ms.assetid: E9E5FDCB-83AA-4EC1-9CE2-1EABDD7DF39C

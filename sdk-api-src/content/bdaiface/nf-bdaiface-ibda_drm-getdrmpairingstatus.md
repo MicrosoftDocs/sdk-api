@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_DRM.GetDRMPairingStatus
 title: IBDA_DRM::GetDRMPairingStatus (bdaiface.h)
-description: The GetDRMPairingStatus method queries the status of the DRM handshake.helpviewer_keywords: ["GetDRMPairingStatus","GetDRMPairingStatus method [Microsoft TV Technologies]","GetDRMPairingStatus method [Microsoft TV Technologies]","IBDA_DRM interface","IBDA_DRM interface [Microsoft TV Technologies]","GetDRMPairingStatus method","IBDA_DRM.GetDRMPairingStatus","IBDA_DRM::GetDRMPairingStatus","IBDA_DRMGetDRMPairingStatus","bdaiface/IBDA_DRM::GetDRMPairingStatus","mstv.ibda_drm_getdrmpairingstatus"]
+description: The GetDRMPairingStatus method queries the status of the DRM handshake.
+helpviewer_keywords: ["GetDRMPairingStatus","GetDRMPairingStatus method [Microsoft TV Technologies]","GetDRMPairingStatus method [Microsoft TV Technologies]","IBDA_DRM interface","IBDA_DRM interface [Microsoft TV Technologies]","GetDRMPairingStatus method","IBDA_DRM.GetDRMPairingStatus","IBDA_DRM::GetDRMPairingStatus","IBDA_DRMGetDRMPairingStatus","bdaiface/IBDA_DRM::GetDRMPairingStatus","mstv.ibda_drm_getdrmpairingstatus"]
 old-location: mstv\ibda_drm_getdrmpairingstatus.htm
 tech.root: mstv
 ms.assetid: dff38609-9e90-491c-b8c4-33fd07471895

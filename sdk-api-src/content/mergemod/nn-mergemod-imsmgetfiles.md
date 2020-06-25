@@ -1,7 +1,8 @@
 ---
 UID: NN:mergemod.IMsmGetFiles
 title: IMsmGetFiles (mergemod.h)
-description: The IMsmGetFiles interface enables the client to retrieve the files needed in a particular language of the module.helpviewer_keywords: ["IMsmGetFiles","IMsmGetFiles interface","IMsmGetFiles interface","described","mergemod/IMsmGetFiles","setup.imsmgetfiles_interface"]
+description: The IMsmGetFiles interface enables the client to retrieve the files needed in a particular language of the module.
+helpviewer_keywords: ["IMsmGetFiles","IMsmGetFiles interface","IMsmGetFiles interface","described","mergemod/IMsmGetFiles","setup.imsmgetfiles_interface"]
 old-location: setup\imsmgetfiles_interface.htm
 tech.root: Msi
 ms.assetid: d6912c92-b3e0-4b3d-a618-17e252cd14ae

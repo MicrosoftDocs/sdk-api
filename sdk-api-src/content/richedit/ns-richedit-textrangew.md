@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit._textrangew
 title: TEXTRANGEW (richedit.h)
-description: A range of text from a rich edit control. This structure is filled in by the EM_GETTEXTRANGE message. The buffer pointed to by the lpstrText member must be large enough to receive all characters and the terminating null character.helpviewer_keywords: ["TEXTRANGE","TEXTRANGE structure [Windows Controls]","TEXTRANGEA","TEXTRANGEW","_win32_TEXTRANGE_str","_win32_TEXTRANGE_str_cpp","controls.TEXTRANGE","controls._win32_TEXTRANGE_str","richedit/TEXTRANGE","richedit/TEXTRANGEA","richedit/TEXTRANGEW"]
+description: A range of text from a rich edit control. This structure is filled in by the EM_GETTEXTRANGE message. The buffer pointed to by the lpstrText member must be large enough to receive all characters and the terminating null character.
+helpviewer_keywords: ["TEXTRANGE","TEXTRANGE structure [Windows Controls]","TEXTRANGEA","TEXTRANGEW","_win32_TEXTRANGE_str","_win32_TEXTRANGE_str_cpp","controls.TEXTRANGE","controls._win32_TEXTRANGE_str","richedit/TEXTRANGE","richedit/TEXTRANGEA","richedit/TEXTRANGEW"]
 old-location: controls\TEXTRANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\textrange.htm
@@ -90,4 +91,9 @@ The text.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The richedit.h header defines TEXTRANGE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

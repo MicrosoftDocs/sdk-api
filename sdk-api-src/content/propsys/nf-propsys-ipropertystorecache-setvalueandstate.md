@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyStoreCache.SetValueAndState
 title: IPropertyStoreCache::SetValueAndState (propsys.h)
-description: Sets value and state data for a property key.helpviewer_keywords: ["IPropertyStoreCache interface [Windows Properties]","SetValueAndState method","IPropertyStoreCache.SetValueAndState","IPropertyStoreCache::SetValueAndState","SetValueAndState","SetValueAndState method [Windows Properties]","SetValueAndState method [Windows Properties]","IPropertyStoreCache interface","properties.IPropertyStoreCache_SetValueAndState","propsys/IPropertyStoreCache::SetValueAndState","shell.IPropertyStoreCache_SetValueAndState","shell_IPropertyStoreCache_SetValueAndState"]
+description: Sets value and state data for a property key.
+helpviewer_keywords: ["IPropertyStoreCache interface [Windows Properties]","SetValueAndState method","IPropertyStoreCache.SetValueAndState","IPropertyStoreCache::SetValueAndState","SetValueAndState","SetValueAndState method [Windows Properties]","SetValueAndState method [Windows Properties]","IPropertyStoreCache interface","properties.IPropertyStoreCache_SetValueAndState","propsys/IPropertyStoreCache::SetValueAndState","shell.IPropertyStoreCache_SetValueAndState","shell_IPropertyStoreCache_SetValueAndState"]
 old-location: properties\IPropertyStoreCache_SetValueAndState.htm
 tech.root: properties
 ms.assetid: 2f330b24-339f-420b-871f-6f2ac7bc578c

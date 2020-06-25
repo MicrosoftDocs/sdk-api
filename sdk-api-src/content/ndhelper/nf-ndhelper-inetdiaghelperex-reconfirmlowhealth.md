@@ -1,7 +1,8 @@
 ---
 UID: NF:ndhelper.INetDiagHelperEx.ReconfirmLowHealth
 title: INetDiagHelperEx::ReconfirmLowHealth (ndhelper.h)
-description: Used to add a second Low Health pass after hypotheses have been diagnosed and before repairs are retrieved.helpviewer_keywords: ["INetDiagHelperEx interface [NDF]","ReconfirmLowHealth method","INetDiagHelperEx.ReconfirmLowHealth","INetDiagHelperEx::ReconfirmLowHealth","ReconfirmLowHealth","ReconfirmLowHealth method [NDF]","ReconfirmLowHealth method [NDF]","INetDiagHelperEx interface","ndf.inetdiaghelperex_reconfirmlowhealth","ndhelper/INetDiagHelperEx::ReconfirmLowHealth"]
+description: Used to add a second Low Health pass after hypotheses have been diagnosed and before repairs are retrieved.
+helpviewer_keywords: ["INetDiagHelperEx interface [NDF]","ReconfirmLowHealth method","INetDiagHelperEx.ReconfirmLowHealth","INetDiagHelperEx::ReconfirmLowHealth","ReconfirmLowHealth","ReconfirmLowHealth method [NDF]","ReconfirmLowHealth method [NDF]","INetDiagHelperEx interface","ndf.inetdiaghelperex_reconfirmlowhealth","ndhelper/INetDiagHelperEx::ReconfirmLowHealth"]
 old-location: ndf\inetdiaghelperex_reconfirmlowhealth.htm
 tech.root: NDF
 ms.assetid: 4ac1c901-cfc3-4ef6-aceb-d496179145b8

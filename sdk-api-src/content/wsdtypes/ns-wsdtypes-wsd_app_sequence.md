@@ -1,7 +1,8 @@
 ---
 UID: NS:wsdtypes._WSD_APP_SEQUENCE
 title: WSD_APP_SEQUENCE (wsdtypes.h)
-description: Represents application sequence information relating to WS-Discovery messages.helpviewer_keywords: ["WSD_APP_SEQUENCE","WSD_APP_SEQUENCE structure","ncd.wsd_app_sequence_struct","wsdtypes/WSD_APP_SEQUENCE"]
+description: Represents application sequence information relating to WS-Discovery messages.
+helpviewer_keywords: ["WSD_APP_SEQUENCE","WSD_APP_SEQUENCE structure","ncd.wsd_app_sequence_struct","wsdtypes/WSD_APP_SEQUENCE"]
 old-location: ncd\wsd_app_sequence_struct.htm
 tech.root: WsdApi
 ms.assetid: e9aa8e2f-0162-4f2e-ad70-54b6352105f9

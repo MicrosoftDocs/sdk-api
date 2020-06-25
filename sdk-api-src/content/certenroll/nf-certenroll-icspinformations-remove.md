@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ICspInformations.Remove
 title: ICspInformations::Remove (certenroll.h)
-description: Removes an ICspInformation object from the collection by index number.helpviewer_keywords: ["ICspInformations interface [Security]","Remove method","ICspInformations.Remove","ICspInformations::Remove","Remove","Remove method [Security]","Remove method [Security]","ICspInformations interface","certenroll/ICspInformations::Remove","security.icspinformations_remove_method"]
+description: Removes an ICspInformation object from the collection by index number.
+helpviewer_keywords: ["ICspInformations interface [Security]","Remove method","ICspInformations.Remove","ICspInformations::Remove","Remove","Remove method [Security]","Remove method [Security]","ICspInformations interface","certenroll/ICspInformations::Remove","security.icspinformations_remove_method"]
 old-location: security\icspinformations_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: cbf427d8-3f66-4a54-a226-2060c58924b6

@@ -1,7 +1,8 @@
 ---
 UID: NN:tpmvscmgr.ITpmVirtualSmartCardManagerStatusCallback
 title: ITpmVirtualSmartCardManagerStatusCallback (tpmvscmgr.h)
-description: Notifies the caller of the progress of the requested operation or any resulting errors.helpviewer_keywords: ["ITpmVirtualSmartCardManagerStatusCallback","ITpmVirtualSmartCardManagerStatusCallback interface [Security]","ITpmVirtualSmartCardManagerStatusCallback interface [Security]","described","security.itpmvirtualsmartcardmanagerstatuscallback","tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback"]
+description: Notifies the caller of the progress of the requested operation or any resulting errors.
+helpviewer_keywords: ["ITpmVirtualSmartCardManagerStatusCallback","ITpmVirtualSmartCardManagerStatusCallback interface [Security]","ITpmVirtualSmartCardManagerStatusCallback interface [Security]","described","security.itpmvirtualsmartcardmanagerstatuscallback","tpmvscmgr/ITpmVirtualSmartCardManagerStatusCallback"]
 old-location: security\itpmvirtualsmartcardmanagerstatuscallback.htm
 tech.root: SecAuthN
 ms.assetid: 6CB62E42-16FD-453F-9566-B4DFCDAC7368

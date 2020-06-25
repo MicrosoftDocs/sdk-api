@@ -1,7 +1,8 @@
 ---
 UID: NE:xamlom.RenderTargetBitmapOptions
 title: RenderTargetBitmapOptions (xamlom.h)
-description: Defines constants that specify what parts of the visual tree should be rendered.helpviewer_keywords: ["RenderTarget","RenderTargetAndChildren","RenderTargetBitmapOptions","RenderTargetBitmapOptions enumeration","xaml_diagnostics.rendertargetbitmapoptions","xamlom/RenderTarget","xamlom/RenderTargetAndChildren","xamlom/RenderTargetBitmapOptions"]
+description: Defines constants that specify what parts of the visual tree should be rendered.
+helpviewer_keywords: ["RenderTarget","RenderTargetAndChildren","RenderTargetBitmapOptions","RenderTargetBitmapOptions enumeration","xaml_diagnostics.rendertargetbitmapoptions","xamlom/RenderTarget","xamlom/RenderTargetAndChildren","xamlom/RenderTargetBitmapOptions"]
 old-location: xaml_diagnostics\rendertargetbitmapoptions.htm
 tech.root: xaml_diagnostics
 ms.assetid: 02A22436-A11B-4417-9832-1AB0B0FB1FA3

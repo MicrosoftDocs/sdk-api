@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsole.QueryScopeImageList
 title: IConsole::QueryScopeImageList (mmc.h)
-description: Queries the console-provided scope pane image list.helpviewer_keywords: ["IConsole interface [MMC]","QueryScopeImageList method","IConsole.QueryScopeImageList","IConsole::QueryScopeImageList","QueryScopeImageList","QueryScopeImageList method [MMC]","QueryScopeImageList method [MMC]","IConsole interface","mmc.iconsole_queryscopeimagelist","mmc/IConsole::QueryScopeImageList"]
+description: Queries the console-provided scope pane image list.
+helpviewer_keywords: ["IConsole interface [MMC]","QueryScopeImageList method","IConsole.QueryScopeImageList","IConsole::QueryScopeImageList","QueryScopeImageList","QueryScopeImageList method [MMC]","QueryScopeImageList method [MMC]","IConsole interface","mmc.iconsole_queryscopeimagelist","mmc/IConsole::QueryScopeImageList"]
 old-location: mmc\iconsole_queryscopeimagelist.htm
 tech.root: mmc
 ms.assetid: 42901F6C-F66E-4CB6-A457-1905C3912F15

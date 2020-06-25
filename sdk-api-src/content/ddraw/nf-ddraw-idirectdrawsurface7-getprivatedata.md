@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetPrivateData
 title: IDirectDrawSurface7::GetPrivateData (ddraw.h)
-description: Copies the private data that is associated with this surface to a provided buffer.helpviewer_keywords: ["GetPrivateData","GetPrivateData method [DirectDraw]","GetPrivateData method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetPrivateData method","IDirectDrawSurface7.GetPrivateData","IDirectDrawSurface7::GetPrivateData","ddraw/IDirectDrawSurface7::GetPrivateData","directdraw.idirectdrawsurface7_getprivatedata"]
+description: Copies the private data that is associated with this surface to a provided buffer.
+helpviewer_keywords: ["GetPrivateData","GetPrivateData method [DirectDraw]","GetPrivateData method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetPrivateData method","IDirectDrawSurface7.GetPrivateData","IDirectDrawSurface7::GetPrivateData","ddraw/IDirectDrawSurface7::GetPrivateData","directdraw.idirectdrawsurface7_getprivatedata"]
 old-location: directdraw\idirectdrawsurface7_getprivatedata.htm
 tech.root: directdraw
 ms.assetid: f8c0c882-329f-4cce-8cd0-ff71c18b1716

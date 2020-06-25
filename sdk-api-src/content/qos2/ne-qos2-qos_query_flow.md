@@ -1,7 +1,8 @@
 ---
 UID: NE:qos2._QOS_QUERY_FLOW
 title: QOS_QUERY_FLOW (qos2.h)
-description: The QOS_QUERY_FLOW enumeration indicates the type of information a QOSQueryFlow function will request.helpviewer_keywords: ["*PQOS_QUERY_FLOW","QOSQueryFlowFundamentals","QOSQueryOutgoingRate","QOSQueryPacketPriority","QOS_QUERY_FLOW","QOS_QUERY_FLOW enumeration [QOS]","qos.qos_query_flow","qos2/QOSQueryFlowFundamentals","qos2/QOSQueryOutgoingRate","qos2/QOSQueryPacketPriority","qos2/QOS_QUERY_FLOW"]
+description: The QOS_QUERY_FLOW enumeration indicates the type of information a QOSQueryFlow function will request.
+helpviewer_keywords: ["*PQOS_QUERY_FLOW","QOSQueryFlowFundamentals","QOSQueryOutgoingRate","QOSQueryPacketPriority","QOS_QUERY_FLOW","QOS_QUERY_FLOW enumeration [QOS]","qos.qos_query_flow","qos2/QOSQueryFlowFundamentals","qos2/QOSQueryOutgoingRate","qos2/QOSQueryPacketPriority","qos2/QOS_QUERY_FLOW"]
 old-location: qos\qos_query_flow.htm
 tech.root: QOS
 ms.assetid: cae09751-0ac8-4fa1-9fdb-d2df3f01e504

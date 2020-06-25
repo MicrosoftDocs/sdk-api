@@ -1,7 +1,8 @@
 ---
 UID: NF:projectedfslib.PrjFileNameCompare
 title: PrjFileNameCompare function (projectedfslib.h)
-description: Compares two file names and returns a value that indicates their relative collation order.helpviewer_keywords: ["PrjFileNameCompare","PrjFileNameCompare function","ProjFS.prjfilenamecompare","projectedfslib/PrjFileNameCompare"]
+description: Compares two file names and returns a value that indicates their relative collation order.
+helpviewer_keywords: ["PrjFileNameCompare","PrjFileNameCompare function","ProjFS.prjfilenamecompare","projectedfslib/PrjFileNameCompare"]
 old-location: projfs\prjfilenamecompare.htm
 tech.root: ProjFS
 ms.assetid: A20C2E31-918D-4AE8-9C54-D88BB5DC21E7

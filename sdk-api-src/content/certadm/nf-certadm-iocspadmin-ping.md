@@ -1,7 +1,8 @@
 ---
 UID: NF:certadm.IOCSPAdmin.Ping
 title: IOCSPAdmin::Ping (certadm.h)
-description: Tests a DCOM connection with an Online Certificate Status Protocol (OCSP) responder service.helpviewer_keywords: ["IOCSPAdmin interface [Security]","Ping method","IOCSPAdmin.Ping","IOCSPAdmin::Ping","Ping","Ping method [Security]","Ping method [Security]","IOCSPAdmin interface","certadm/IOCSPAdmin::Ping","security.iocspadmin_ping"]
+description: Tests a DCOM connection with an Online Certificate Status Protocol (OCSP) responder service.
+helpviewer_keywords: ["IOCSPAdmin interface [Security]","Ping method","IOCSPAdmin.Ping","IOCSPAdmin::Ping","Ping","Ping method [Security]","Ping method [Security]","IOCSPAdmin interface","certadm/IOCSPAdmin::Ping","security.iocspadmin_ping"]
 old-location: security\iocspadmin_ping.htm
 tech.root: SecCrypto
 ms.assetid: 55d224c7-f309-471a-b2e5-38b8e2b8e00c

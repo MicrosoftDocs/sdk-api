@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IMTSActivity
 title: IMTSActivity (comsvcs.h)
-description: Submits batch work through the activity created by the MTSCreateActivity function.helpviewer_keywords: ["IMTSActivity","IMTSActivity interface [COM+]","IMTSActivity interface [COM+]","described","_cos_IMTSActivity","comsvcs/IMTSActivity","cos.imtsactivity"]
+description: Submits batch work through the activity created by the MTSCreateActivity function.
+helpviewer_keywords: ["IMTSActivity","IMTSActivity interface [COM+]","IMTSActivity interface [COM+]","described","_cos_IMTSActivity","comsvcs/IMTSActivity","cos.imtsactivity"]
 old-location: cos\imtsactivity.htm
 tech.root: cossdk
 ms.assetid: a45b29f0-d3f1-4593-9df5-4f6d617b93fa

@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbSession.put_CreateTime
 title: ITsSbSession::put_CreateTime (sbtsv.h)
-description: Retrieves or specifies the time the session was created.helpviewer_keywords: ["CreateTime property [Remote Desktop Services]","CreateTime property [Remote Desktop Services]","ITsSbSession interface","ITsSbSession interface [Remote Desktop Services]","CreateTime property","ITsSbSession.CreateTime","ITsSbSession.put_CreateTime","ITsSbSession::CreateTime","ITsSbSession::get_CreateTime","ITsSbSession::put_CreateTime","put_CreateTime","sbtsv/ITsSbSession::CreateTime","sbtsv/ITsSbSession::get_CreateTime","sbtsv/ITsSbSession::put_CreateTime","termserv.itssbsession_createtime"]
+description: Retrieves or specifies the time the session was created.
+helpviewer_keywords: ["CreateTime property [Remote Desktop Services]","CreateTime property [Remote Desktop Services]","ITsSbSession interface","ITsSbSession interface [Remote Desktop Services]","CreateTime property","ITsSbSession.CreateTime","ITsSbSession.put_CreateTime","ITsSbSession::CreateTime","ITsSbSession::get_CreateTime","ITsSbSession::put_CreateTime","put_CreateTime","sbtsv/ITsSbSession::CreateTime","sbtsv/ITsSbSession::get_CreateTime","sbtsv/ITsSbSession::put_CreateTime","termserv.itssbsession_createtime"]
 old-location: termserv\itssbsession_createtime.htm
 tech.root: TermServ
 ms.assetid: 227ac94a-2d04-4b94-9ba4-e0cc6e2496cf

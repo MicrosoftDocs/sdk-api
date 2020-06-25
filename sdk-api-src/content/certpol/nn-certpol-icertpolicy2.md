@@ -1,7 +1,8 @@
 ---
 UID: NN:certpol.ICertPolicy2
 title: ICertPolicy2 (certpol.h)
-description: Provide communications between the Certificate Services server engine and the policy module.helpviewer_keywords: ["ICertPolicy2","ICertPolicy2 interface [Security]","ICertPolicy2 interface [Security]","described","_certsrv_icertpolicy2","certpol/ICertPolicy2","security.icertpolicy2"]
+description: Provide communications between the Certificate Services server engine and the policy module.
+helpviewer_keywords: ["ICertPolicy2","ICertPolicy2 interface [Security]","ICertPolicy2 interface [Security]","described","_certsrv_icertpolicy2","certpol/ICertPolicy2","security.icertpolicy2"]
 old-location: security\icertpolicy2.htm
 tech.root: SecCrypto
 ms.assetid: 2e48b096-e23a-4106-bfaf-f089d2291fba

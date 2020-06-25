@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMObjectInfo.SetPlayLength
 title: IWMDMObjectInfo::SetPlayLength (mswmdm.h)
-description: The SetPlayLength method sets the play length of the object, in units appropriate to the format. This is the maximum length that the object plays regardless of its actual length.helpviewer_keywords: ["IWMDMObjectInfo interface [windows Media Device Manager]","SetPlayLength method","IWMDMObjectInfo.SetPlayLength","IWMDMObjectInfo::SetPlayLength","IWMDMObjectInfoSetPlayLength","SetPlayLength","SetPlayLength method [windows Media Device Manager]","SetPlayLength method [windows Media Device Manager]","IWMDMObjectInfo interface","mswmdm/IWMDMObjectInfo::SetPlayLength","wmdm.iwmdmobjectinfo_setplaylength"]
+description: The SetPlayLength method sets the play length of the object, in units appropriate to the format. This is the maximum length that the object plays regardless of its actual length.
+helpviewer_keywords: ["IWMDMObjectInfo interface [windows Media Device Manager]","SetPlayLength method","IWMDMObjectInfo.SetPlayLength","IWMDMObjectInfo::SetPlayLength","IWMDMObjectInfoSetPlayLength","SetPlayLength","SetPlayLength method [windows Media Device Manager]","SetPlayLength method [windows Media Device Manager]","IWMDMObjectInfo interface","mswmdm/IWMDMObjectInfo::SetPlayLength","wmdm.iwmdmobjectinfo_setplaylength"]
 old-location: wmdm\iwmdmobjectinfo_setplaylength.htm
 tech.root: WMDM
 ms.assetid: 7dfa6443-4eb8-4a88-8af1-c082750e8d22

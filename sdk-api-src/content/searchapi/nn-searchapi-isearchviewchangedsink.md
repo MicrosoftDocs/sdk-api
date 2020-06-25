@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchViewChangedSink
 title: ISearchViewChangedSink (searchapi.h)
-description: Not implemented.helpviewer_keywords: ["ISearchViewChangedSink","ISearchViewChangedSink interface [search]","ISearchViewChangedSink interface [search]","described","_search_ISearchViewChangedSink","search._search_ISearchViewChangedSink","searchapi/ISearchViewChangedSink"]
+description: Not implemented.
+helpviewer_keywords: ["ISearchViewChangedSink","ISearchViewChangedSink interface [search]","ISearchViewChangedSink interface [search]","described","_search_ISearchViewChangedSink","search._search_ISearchViewChangedSink","searchapi/ISearchViewChangedSink"]
 old-location: search\_search_ISearchViewChangedSink.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchviewchangedsink\isearchviewchangedsink.htm

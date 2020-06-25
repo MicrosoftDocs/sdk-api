@@ -1,7 +1,8 @@
 ---
 UID: NN:oleidl.IDropTarget
 title: IDropTarget (oleidl.h)
-description: The IDropTarget interface is one of the interfaces you implement to provide drag-and-drop operations in your application.helpviewer_keywords: ["IDropTarget","IDropTarget interface [COM]","IDropTarget interface [COM]","described","_ole_idroptarget","com.idroptarget","oleidl/IDropTarget"]
+description: The IDropTarget interface is one of the interfaces you implement to provide drag-and-drop operations in your application.
+helpviewer_keywords: ["IDropTarget","IDropTarget interface [COM]","IDropTarget interface [COM]","described","_ole_idroptarget","com.idroptarget","oleidl/IDropTarget"]
 old-location: com\idroptarget.htm
 tech.root: com
 ms.assetid: 13fbe834-1ef8-4944-b2e4-9f5c413c65c8

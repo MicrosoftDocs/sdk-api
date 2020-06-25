@@ -1,7 +1,8 @@
 ---
 UID: NF:lpmapi.LPM_Initialize
 title: LPM_Initialize function (lpmapi.h)
-description: The LPM_Initialize function initializes a local policy module (LPM).helpviewer_keywords: ["LPM_Initialize","LPM_Initialize callback","LPM_Initialize callback function [QOS]","_gqos_lpm_initialize","lpmapi/LPM_Initialize","qos.lpm_initialize"]
+description: The LPM_Initialize function initializes a local policy module (LPM).
+helpviewer_keywords: ["LPM_Initialize","LPM_Initialize callback","LPM_Initialize callback function [QOS]","_gqos_lpm_initialize","lpmapi/LPM_Initialize","qos.lpm_initialize"]
 old-location: qos\lpm_initialize.htm
 tech.root: QOS
 ms.assetid: 00f4ab59-8808-4bcb-8258-5aad113ad2b5

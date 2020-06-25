@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionVariable.GetDesc
 title: ID3D12ShaderReflectionVariable::GetDesc (d3d12shader.h)
-description: Gets a shader-variable description.helpviewer_keywords: ["GetDesc","GetDesc method","GetDesc method","ID3D12ShaderReflectionVariable interface","ID3D12ShaderReflectionVariable interface","GetDesc method","ID3D12ShaderReflectionVariable.GetDesc","ID3D12ShaderReflectionVariable::GetDesc","d3d12shader/ID3D12ShaderReflectionVariable::GetDesc","direct3d12.id3d12shaderreflectionvariable_getdesc"]
+description: Gets a shader-variable description.
+helpviewer_keywords: ["GetDesc","GetDesc method","GetDesc method","ID3D12ShaderReflectionVariable interface","ID3D12ShaderReflectionVariable interface","GetDesc method","ID3D12ShaderReflectionVariable.GetDesc","ID3D12ShaderReflectionVariable::GetDesc","d3d12shader/ID3D12ShaderReflectionVariable::GetDesc","direct3d12.id3d12shaderreflectionvariable_getdesc"]
 old-location: direct3d12\id3d12shaderreflectionvariable_getdesc.htm
 tech.root: direct3d12
 ms.assetid: 21CF98AF-5645-4059-992A-FFF778576C93

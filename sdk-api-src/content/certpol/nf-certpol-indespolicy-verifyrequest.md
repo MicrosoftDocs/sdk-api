@@ -1,7 +1,8 @@
 ---
 UID: NF:certpol.INDESPolicy.VerifyRequest
 title: INDESPolicy::VerifyRequest (certpol.h)
-description: Verifies the NDES certificate request for submission to the CA.helpviewer_keywords: ["INDESPolicy interface [Security]","VerifyRequest method","INDESPolicy.VerifyRequest","INDESPolicy::VerifyRequest","VerifyRequest","VerifyRequest method [Security]","VerifyRequest method [Security]","INDESPolicy interface","certpol/INDESPolicy::VerifyRequest","security.indespolicy_verifyrequest"]
+description: Verifies the NDES certificate request for submission to the CA.
+helpviewer_keywords: ["INDESPolicy interface [Security]","VerifyRequest method","INDESPolicy.VerifyRequest","INDESPolicy::VerifyRequest","VerifyRequest","VerifyRequest method [Security]","VerifyRequest method [Security]","INDESPolicy interface","certpol/INDESPolicy::VerifyRequest","security.indespolicy_verifyrequest"]
 old-location: security\indespolicy_verifyrequest.htm
 tech.root: SecCrypto
 ms.assetid: 420ef521-07ff-466c-a3c2-cbffd896ca16

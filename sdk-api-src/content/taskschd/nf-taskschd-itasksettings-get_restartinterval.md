@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_RestartInterval
 title: ITaskSettings::get_RestartInterval (taskschd.h)
-description: Gets or sets a value that specifies how long the Task Scheduler will attempt to restart the task.helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","RestartInterval property","ITaskSettings.RestartInterval","ITaskSettings.get_RestartInterval","ITaskSettings::RestartInterval","ITaskSettings::get_RestartInterval","ITaskSettings::put_RestartInterval","RestartInterval property [Task Scheduler]","RestartInterval property [Task Scheduler]","ITaskSettings interface","get_RestartInterval","taskschd.itasksettings_restartinterval","taskschd/ITaskSettings::RestartInterval","taskschd/ITaskSettings::get_RestartInterval","taskschd/ITaskSettings::put_RestartInterval"]
+description: Gets or sets a value that specifies how long the Task Scheduler will attempt to restart the task.
+helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","RestartInterval property","ITaskSettings.RestartInterval","ITaskSettings.get_RestartInterval","ITaskSettings::RestartInterval","ITaskSettings::get_RestartInterval","ITaskSettings::put_RestartInterval","RestartInterval property [Task Scheduler]","RestartInterval property [Task Scheduler]","ITaskSettings interface","get_RestartInterval","taskschd.itasksettings_restartinterval","taskschd/ITaskSettings::RestartInterval","taskschd/ITaskSettings::get_RestartInterval","taskschd/ITaskSettings::put_RestartInterval"]
 old-location: taskschd\itasksettings_restartinterval.htm
 tech.root: taskschd
 ms.assetid: 6fe72035-e5f3-4c87-9dce-ba07374e7086

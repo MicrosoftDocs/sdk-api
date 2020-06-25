@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_4.IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus
 title: IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus (dxgi1_4.h)
-description: Unregisters an event to stop it from receiving notification of hardware content protection teardown events.helpviewer_keywords: ["IDXGIAdapter3 interface [DXGI]","UnregisterHardwareContentProtectionTeardownStatus method","IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus","IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus","UnregisterHardwareContentProtectionTeardownStatus","UnregisterHardwareContentProtectionTeardownStatus method [DXGI]","UnregisterHardwareContentProtectionTeardownStatus method [DXGI]","IDXGIAdapter3 interface","direct3ddxgi.idxgiadapter3_unregisterhardwarecontentprotectionteardownstatus","dxgi1_4/IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus"]
+description: Unregisters an event to stop it from receiving notification of hardware content protection teardown events.
+helpviewer_keywords: ["IDXGIAdapter3 interface [DXGI]","UnregisterHardwareContentProtectionTeardownStatus method","IDXGIAdapter3.UnregisterHardwareContentProtectionTeardownStatus","IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus","UnregisterHardwareContentProtectionTeardownStatus","UnregisterHardwareContentProtectionTeardownStatus method [DXGI]","UnregisterHardwareContentProtectionTeardownStatus method [DXGI]","IDXGIAdapter3 interface","direct3ddxgi.idxgiadapter3_unregisterhardwarecontentprotectionteardownstatus","dxgi1_4/IDXGIAdapter3::UnregisterHardwareContentProtectionTeardownStatus"]
 old-location: direct3ddxgi\idxgiadapter3_unregisterhardwarecontentprotectionteardownstatus.htm
 tech.root: direct3ddxgi
 ms.assetid: 821F8BFA-FD11-4E3E-BE5A-05A1F1002EE6

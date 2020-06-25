@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.AddApplicationMessage
 title: IDXGIInfoQueue::AddApplicationMessage (dxgidebug.h)
-description: Adds a user-defined message to the message queue and sends that message to the debug output.helpviewer_keywords: ["AddApplicationMessage","AddApplicationMessage method [DXGI]","AddApplicationMessage method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","AddApplicationMessage method","IDXGIInfoQueue.AddApplicationMessage","IDXGIInfoQueue::AddApplicationMessage","direct3ddxgi.idxgiinfoqueue_addapplicationmessage","dxgidebug/IDXGIInfoQueue::AddApplicationMessage"]
+description: Adds a user-defined message to the message queue and sends that message to the debug output.
+helpviewer_keywords: ["AddApplicationMessage","AddApplicationMessage method [DXGI]","AddApplicationMessage method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","AddApplicationMessage method","IDXGIInfoQueue.AddApplicationMessage","IDXGIInfoQueue::AddApplicationMessage","direct3ddxgi.idxgiinfoqueue_addapplicationmessage","dxgidebug/IDXGIInfoQueue::AddApplicationMessage"]
 old-location: direct3ddxgi\idxgiinfoqueue_addapplicationmessage.htm
 tech.root: direct3ddxgi
 ms.assetid: 30245BF0-C0AF-4780-A55F-D55A331427FA

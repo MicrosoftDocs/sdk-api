@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IBinaryConverter
 title: IBinaryConverter (certenroll.h)
-description: Contains general methods that enable you to create a Unicode-encoded string from a byte array, create a byte array from a Unicode-encoded string, and modify the type of Unicode encoding applied to a string.helpviewer_keywords: ["IBinaryConverter","IBinaryConverter interface [Security]","IBinaryConverter interface [Security]","described","certenroll/IBinaryConverter","security.ibinaryconverter"]
+description: Contains general methods that enable you to create a Unicode-encoded string from a byte array, create a byte array from a Unicode-encoded string, and modify the type of Unicode encoding applied to a string.
+helpviewer_keywords: ["IBinaryConverter","IBinaryConverter interface [Security]","IBinaryConverter interface [Security]","described","certenroll/IBinaryConverter","security.ibinaryconverter"]
 old-location: security\ibinaryconverter.htm
 tech.root: seccertenroll
 ms.assetid: 495a321a-3005-4537-b082-5003e437d21f

@@ -1,7 +1,8 @@
 ---
 UID: NE:gpmgmt.__MIDL___MIDL_itf_gpmgmt_0000_0000_0008
 title: GPMReportingOptions (gpmgmt.h)
-description: Options for Group Policy Management Console reports.helpviewer_keywords: ["GPMReportingOptions","GPMReportingOptions enumeration [GPMC]","gpmc.gpmreportingoptions","gpmgmt/GPMReportingOptions","gpmgmt/opReportComments","gpmgmt/opReportLegacy","opReportComments","opReportLegacy"]
+description: Options for Group Policy Management Console reports.
+helpviewer_keywords: ["GPMReportingOptions","GPMReportingOptions enumeration [GPMC]","gpmc.gpmreportingoptions","gpmgmt/GPMReportingOptions","gpmgmt/opReportComments","gpmgmt/opReportLegacy","opReportComments","opReportLegacy"]
 old-location: gpmc\gpmreportingoptions.htm
 tech.root: gpmc
 ms.assetid: 52d51058-d5fd-4b62-9206-2dc60a3eafb1

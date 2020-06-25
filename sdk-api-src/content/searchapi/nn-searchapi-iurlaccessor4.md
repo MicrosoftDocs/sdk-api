@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.IUrlAccessor4
 title: IUrlAccessor4 (searchapi.h)
-description: Extends the functionality of the IUrlAccessor3 interface with the IUrlAccessor4::ShouldIndexItemContent method that identifies whether the content of the item should be indexed.helpviewer_keywords: ["IUrlAccessor4","IUrlAccessor4 interface [search]","IUrlAccessor4 interface [search]","described","_search_IUrlAccessor4","search._search_IUrlAccessor4","searchapi/IUrlAccessor4"]
+description: Extends the functionality of the IUrlAccessor3 interface with the IUrlAccessor4::ShouldIndexItemContent method that identifies whether the content of the item should be indexed.
+helpviewer_keywords: ["IUrlAccessor4","IUrlAccessor4 interface [search]","IUrlAccessor4 interface [search]","described","_search_IUrlAccessor4","search._search_IUrlAccessor4","searchapi/IUrlAccessor4"]
 old-location: search\_search_IUrlAccessor4.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor4\iurlaccessor4.htm

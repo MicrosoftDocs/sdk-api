@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminInitializeDllEx
 title: MprAdminInitializeDllEx function (mprapi.h)
-description: When the Routing and Remote Access Service (RRAS) starts, it calls the MprAdminInitializeDll function that is exported by the administration DLL.helpviewer_keywords: ["MprAdminInitializeDllEx","MprAdminInitializeDllEx callback","MprAdminInitializeDllEx callback function [RAS]","mprapi/MprAdminInitializeDllEx","rras.mpradmininitializedllex"]
+description: When the Routing and Remote Access Service (RRAS) starts, it calls the MprAdminInitializeDll function that is exported by the administration DLL.
+helpviewer_keywords: ["MprAdminInitializeDllEx","MprAdminInitializeDllEx callback","MprAdminInitializeDllEx callback function [RAS]","mprapi/MprAdminInitializeDllEx","rras.mpradmininitializedllex"]
 old-location: rras\mpradmininitializedllex.htm
 tech.root: RRAS
 ms.assetid: c608c1b3-39de-4c0f-b834-27b9211dffb5

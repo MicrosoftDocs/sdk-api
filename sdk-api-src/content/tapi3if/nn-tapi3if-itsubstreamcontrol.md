@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITSubStreamControl
 title: ITSubStreamControl (tapi3if.h)
-description: The ITSubStreamControl interface exposes methods that allow an application to enumerate, create, or remove substreams. Many MSPs do not support this interface.helpviewer_keywords: ["ITSubStreamControl","ITSubStreamControl interface [TAPI 2.2]","ITSubStreamControl interface [TAPI 2.2]","described","_tapi3_itsubstreamcontrol","tapi3.itsubstreamcontrol","tapi3if/ITSubStreamControl"]
+description: The ITSubStreamControl interface exposes methods that allow an application to enumerate, create, or remove substreams. Many MSPs do not support this interface.
+helpviewer_keywords: ["ITSubStreamControl","ITSubStreamControl interface [TAPI 2.2]","ITSubStreamControl interface [TAPI 2.2]","described","_tapi3_itsubstreamcontrol","tapi3.itsubstreamcontrol","tapi3if/ITSubStreamControl"]
 old-location: tapi3\itsubstreamcontrol.htm
 tech.root: Tapi
 ms.assetid: 17c5f2ba-d526-4b00-9649-8fd73d70bc79

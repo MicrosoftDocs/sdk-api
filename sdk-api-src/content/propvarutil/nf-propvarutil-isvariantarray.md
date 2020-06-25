@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.IsVariantArray
 title: IsVariantArray function (propvarutil.h)
-description: Specifies whether a variant is an array.helpviewer_keywords: ["IsVariantArray","IsVariantArray function [Windows Properties]","_shell_IsVariantArray","properties.IsVariantArray","propvarutil/IsVariantArray","shell.IsVariantArray"]
+description: Specifies whether a variant is an array.
+helpviewer_keywords: ["IsVariantArray","IsVariantArray function [Windows Properties]","_shell_IsVariantArray","properties.IsVariantArray","propvarutil/IsVariantArray","shell.IsVariantArray"]
 old-location: properties\IsVariantArray.htm
 tech.root: properties
 ms.assetid: 3e3a4eb0-c50a-4e4a-b3e3-dc760a519901

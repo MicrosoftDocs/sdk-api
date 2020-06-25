@@ -1,7 +1,8 @@
 ---
 UID: NF:fdi.FDIDestroy
 title: FDIDestroy function (fdi.h)
-description: The FDIDestroy function deletes an open FDI context.helpviewer_keywords: ["FDIDestroy","FDIDestroy function [Windows API]","fdi/FDIDestroy","winprog.fdidestroy"]
+description: The FDIDestroy function deletes an open FDI context.
+helpviewer_keywords: ["FDIDestroy","FDIDestroy function [Windows API]","fdi/FDIDestroy","winprog.fdidestroy"]
 old-location: winprog\fdidestroy.htm
 tech.root: DevNotes
 ms.assetid: fe3b8045-a476-4a21-b732-0d4799798faf

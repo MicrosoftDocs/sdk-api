@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugCommandList.SetFeatureMask
 title: ID3D12DebugCommandList::SetFeatureMask (d3d12sdklayers.h)
-description: Turns the debug features for a command list on or off.helpviewer_keywords: ["ID3D12DebugCommandList interface","SetFeatureMask method","ID3D12DebugCommandList.SetFeatureMask","ID3D12DebugCommandList::SetFeatureMask","SetFeatureMask","SetFeatureMask method","SetFeatureMask method","ID3D12DebugCommandList interface","d3d12sdklayers/ID3D12DebugCommandList::SetFeatureMask","direct3d12.id3d12debugcommandlist_setfeaturemask"]
+description: Turns the debug features for a command list on or off.
+helpviewer_keywords: ["ID3D12DebugCommandList interface","SetFeatureMask method","ID3D12DebugCommandList.SetFeatureMask","ID3D12DebugCommandList::SetFeatureMask","SetFeatureMask","SetFeatureMask method","SetFeatureMask method","ID3D12DebugCommandList interface","d3d12sdklayers/ID3D12DebugCommandList::SetFeatureMask","direct3d12.id3d12debugcommandlist_setfeaturemask"]
 old-location: direct3d12\id3d12debugcommandlist_setfeaturemask.htm
 tech.root: direct3d12
 ms.assetid: D2273A6C-7401-44D6-A0E3-F3F2C5DBCB8B

@@ -1,7 +1,8 @@
 ---
 UID: NS:wtsapi32._WTS_PROCESS_INFO_EXA
 title: WTS_PROCESS_INFO_EXA (wtsapi32.h)
-description: Contains extended information about a process running on a Remote Desktop Session Host (RD Session Host) server.helpviewer_keywords: ["*PWTS_PROCESS_INFO_EXA","PWTS_PROCESS_INFO_EX","PWTS_PROCESS_INFO_EX structure pointer [Remote Desktop Services]","WTS_PROCESS_INFO_EX","WTS_PROCESS_INFO_EX structure [Remote Desktop Services]","WTS_PROCESS_INFO_EXA","WTS_PROCESS_INFO_EXW","termserv.wts_process_info_ex","wtsapi32/PWTS_PROCESS_INFO_EX","wtsapi32/WTS_PROCESS_INFO_EX","wtsapi32/WTS_PROCESS_INFO_EXA","wtsapi32/WTS_PROCESS_INFO_EXW"]
+description: Contains extended information about a process running on a Remote Desktop Session Host (RD Session Host) server.
+helpviewer_keywords: ["*PWTS_PROCESS_INFO_EXA","PWTS_PROCESS_INFO_EX","PWTS_PROCESS_INFO_EX structure pointer [Remote Desktop Services]","WTS_PROCESS_INFO_EX","WTS_PROCESS_INFO_EX structure [Remote Desktop Services]","WTS_PROCESS_INFO_EXA","WTS_PROCESS_INFO_EXW","termserv.wts_process_info_ex","wtsapi32/PWTS_PROCESS_INFO_EX","wtsapi32/WTS_PROCESS_INFO_EX","wtsapi32/WTS_PROCESS_INFO_EXA","wtsapi32/WTS_PROCESS_INFO_EXW"]
 old-location: termserv\wts_process_info_ex.htm
 tech.root: TermServ
 ms.assetid: a678d249-4943-4d2b-9cea-87ce20177c75
@@ -139,4 +140,9 @@ The amount of time, in milliseconds, the process has been running in kernel mode
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The wtsapi32.h header defines WTS_PROCESS_INFO_EX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

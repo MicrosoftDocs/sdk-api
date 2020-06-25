@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFMediaSource.GetCharacteristics
 title: IMFMediaSource::GetCharacteristics (mfidl.h)
-description: Retrieves the characteristics of the media source.helpviewer_keywords: ["GetCharacteristics","GetCharacteristics method [Media Foundation]","GetCharacteristics method [Media Foundation]","IMFMediaSource interface","IMFMediaSource interface [Media Foundation]","GetCharacteristics method","IMFMediaSource.GetCharacteristics","IMFMediaSource::GetCharacteristics","cb5d54cd-58a3-4903-b22e-8207f90dbbc0","mf.imfmediasource_getcharacteristics","mfidl/IMFMediaSource::GetCharacteristics"]
+description: Retrieves the characteristics of the media source.
+helpviewer_keywords: ["GetCharacteristics","GetCharacteristics method [Media Foundation]","GetCharacteristics method [Media Foundation]","IMFMediaSource interface","IMFMediaSource interface [Media Foundation]","GetCharacteristics method","IMFMediaSource.GetCharacteristics","IMFMediaSource::GetCharacteristics","cb5d54cd-58a3-4903-b22e-8207f90dbbc0","mf.imfmediasource_getcharacteristics","mfidl/IMFMediaSource::GetCharacteristics"]
 old-location: mf\imfmediasource_getcharacteristics.htm
 tech.root: medfound
 ms.assetid: cb5d54cd-58a3-4903-b22e-8207f90dbbc0

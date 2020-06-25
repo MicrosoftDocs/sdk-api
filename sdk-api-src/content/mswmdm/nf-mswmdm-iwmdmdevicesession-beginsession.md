@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceSession.BeginSession
 title: IWMDMDeviceSession::BeginSession (mswmdm.h)
-description: The BeginSession method begins a device session.helpviewer_keywords: ["BeginSession","BeginSession method [windows Media Device Manager]","BeginSession method [windows Media Device Manager]","IWMDMDeviceSession interface","IWMDMDeviceSession interface [windows Media Device Manager]","BeginSession method","IWMDMDeviceSession.BeginSession","IWMDMDeviceSession::BeginSession","IWMDMDeviceSessionBeginSession","mswmdm/IWMDMDeviceSession::BeginSession","wmdm.iwmdmdevicesession_beginsession"]
+description: The BeginSession method begins a device session.
+helpviewer_keywords: ["BeginSession","BeginSession method [windows Media Device Manager]","BeginSession method [windows Media Device Manager]","IWMDMDeviceSession interface","IWMDMDeviceSession interface [windows Media Device Manager]","BeginSession method","IWMDMDeviceSession.BeginSession","IWMDMDeviceSession::BeginSession","IWMDMDeviceSessionBeginSession","mswmdm/IWMDMDeviceSession::BeginSession","wmdm.iwmdmdevicesession_beginsession"]
 old-location: wmdm\iwmdmdevicesession_beginsession.htm
 tech.root: WMDM
 ms.assetid: 7077e594-58ed-497d-893d-81eeb317b274

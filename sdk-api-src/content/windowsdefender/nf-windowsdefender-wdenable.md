@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsdefender.WDEnable
 title: WDEnable function (windowsdefender.h)
-description: Changes Windows Defender status to on or off.helpviewer_keywords: ["WDEnable","WDEnable function [Legacy Windows Environment Features]","lwef.defender_wdenable","shell.defender_wdenable","shell_defender_WDEnable","windowsdefender/WDEnable"]
+description: Changes Windows Defender status to on or off.
+helpviewer_keywords: ["WDEnable","WDEnable function [Legacy Windows Environment Features]","lwef.defender_wdenable","shell.defender_wdenable","shell_defender_WDEnable","windowsdefender/WDEnable"]
 old-location: lwef\defender_wdenable.htm
 tech.root: lwef
 ms.assetid: a12d3b2a-6873-4ef4-90d6-08dbd5feb959

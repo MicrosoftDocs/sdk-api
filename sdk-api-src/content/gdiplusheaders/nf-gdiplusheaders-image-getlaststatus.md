@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.GetLastStatus
 title: Image::GetLastStatus (gdiplusheaders.h)
-description: The Image::GetLastStatus method returns a value that indicates the nature of this Image object's most recent method failure.helpviewer_keywords: ["GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","Image class","Image class [GDI+]","GetLastStatus method","Image.GetLastStatus","Image::GetLastStatus","_gdiplus_CLASS_Image_GetLastStatus_","gdiplus._gdiplus_CLASS_Image_GetLastStatus_"]
+description: The Image::GetLastStatus method returns a value that indicates the nature of this Image object's most recent method failure.
+helpviewer_keywords: ["GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","Image class","Image class [GDI+]","GetLastStatus method","Image.GetLastStatus","Image::GetLastStatus","_gdiplus_CLASS_Image_GetLastStatus_","gdiplus._gdiplus_CLASS_Image_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getlaststatus_65.htm

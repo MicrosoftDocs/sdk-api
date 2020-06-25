@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupsEnumerator.GetCurrent
 title: IAppxContentGroupsEnumerator::GetCurrent (appxpackaging.h)
-description: Gets the content group at the current position of the enumerator.helpviewer_keywords: ["GetCurrent","GetCurrent method [App packaging and management]","GetCurrent method [App packaging and management]","IAppxContentGroupsEnumerator interface","IAppxContentGroupsEnumerator interface [App packaging and management]","GetCurrent method","IAppxContentGroupsEnumerator.GetCurrent","IAppxContentGroupsEnumerator::GetCurrent","appxpackaging/IAppxContentGroupsEnumerator::GetCurrent","appxpkg.iappxcontentgroupsenumerator_getcurrent"]
+description: Gets the content group at the current position of the enumerator.
+helpviewer_keywords: ["GetCurrent","GetCurrent method [App packaging and management]","GetCurrent method [App packaging and management]","IAppxContentGroupsEnumerator interface","IAppxContentGroupsEnumerator interface [App packaging and management]","GetCurrent method","IAppxContentGroupsEnumerator.GetCurrent","IAppxContentGroupsEnumerator::GetCurrent","appxpackaging/IAppxContentGroupsEnumerator::GetCurrent","appxpkg.iappxcontentgroupsenumerator_getcurrent"]
 old-location: appxpkg\iappxcontentgroupsenumerator_getcurrent.htm
 tech.root: appxpkg
 ms.assetid: 1A7055F5-6121-4A3A-AE7C-4BFDF6D7F1A9

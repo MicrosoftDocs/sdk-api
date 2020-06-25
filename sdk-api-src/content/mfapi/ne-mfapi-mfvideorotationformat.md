@@ -1,7 +1,8 @@
 ---
 UID: NE:mfapi._MFVideoRotationFormat
 title: MFVideoRotationFormat (mfapi.h)
-description: Describes the rotation of the video image in the counter-clockwise direction.helpviewer_keywords: ["MFVideoRotationFormat","MFVideoRotationFormat enumeration [Media Foundation]","MFVideoRotationFormat_0","MFVideoRotationFormat_180","MFVideoRotationFormat_270","MFVideoRotationFormat_90","mf.mfvideorotationformat","mfapi/MFVideoRotationFormat","mfapi/MFVideoRotationFormat_0","mfapi/MFVideoRotationFormat_180","mfapi/MFVideoRotationFormat_270","mfapi/MFVideoRotationFormat_90"]
+description: Describes the rotation of the video image in the counter-clockwise direction.
+helpviewer_keywords: ["MFVideoRotationFormat","MFVideoRotationFormat enumeration [Media Foundation]","MFVideoRotationFormat_0","MFVideoRotationFormat_180","MFVideoRotationFormat_270","MFVideoRotationFormat_90","mf.mfvideorotationformat","mfapi/MFVideoRotationFormat","mfapi/MFVideoRotationFormat_0","mfapi/MFVideoRotationFormat_180","mfapi/MFVideoRotationFormat_270","mfapi/MFVideoRotationFormat_90"]
 old-location: mf\mfvideorotationformat.htm
 tech.root: medfound
 ms.assetid: E2760742-3914-4B5C-87FB-38F2EF3025C3

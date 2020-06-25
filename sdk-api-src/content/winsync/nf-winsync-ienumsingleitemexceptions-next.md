@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IEnumSingleItemExceptions.Next
 title: IEnumSingleItemExceptions::Next (winsync.h)
-description: Returns the next elements in the single-item exception set, if they are available.helpviewer_keywords: ["IEnumSingleItemExceptions interface [Windows Sync]","Next method","IEnumSingleItemExceptions.Next","IEnumSingleItemExceptions::Next","Next","Next method [Windows Sync]","Next method [Windows Sync]","IEnumSingleItemExceptions interface","winsync.ienumsingleitemexceptions_next","winsync/IEnumSingleItemExceptions::Next"]
+description: Returns the next elements in the single-item exception set, if they are available.
+helpviewer_keywords: ["IEnumSingleItemExceptions interface [Windows Sync]","Next method","IEnumSingleItemExceptions.Next","IEnumSingleItemExceptions::Next","Next","Next method [Windows Sync]","Next method [Windows Sync]","IEnumSingleItemExceptions interface","winsync.ienumsingleitemexceptions_next","winsync/IEnumSingleItemExceptions::Next"]
 old-location: winsync\ienumsingleitemexceptions_next.htm
 tech.root: winsync
 ms.assetid: a9605eaa-2b68-4bc6-9dcf-c2bebc4e6f1b

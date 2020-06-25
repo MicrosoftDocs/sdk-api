@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement5
 title: IUIAutomationElement5 (uiautomationclient.h)
-description: Extends the IUIAutomationElement4 interface to provide access to current and cached landmark data.helpviewer_keywords: ["IUIAutomationElement5","IUIAutomationElement5 interface [Windows Accessibility]","IUIAutomationElement5 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationElement5","winauto.uiauto_IUIAutomationElement5"]
+description: Extends the IUIAutomationElement4 interface to provide access to current and cached landmark data.
+helpviewer_keywords: ["IUIAutomationElement5","IUIAutomationElement5 interface [Windows Accessibility]","IUIAutomationElement5 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationElement5","winauto.uiauto_IUIAutomationElement5"]
 old-location: winauto\uiauto_IUIAutomationElement5.htm
 tech.root: WinAuto
 ms.assetid: 9E3DE7EE-E569-4AE6-8A55-C9CDB28C51E5

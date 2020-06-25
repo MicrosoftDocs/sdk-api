@@ -1,7 +1,8 @@
 ---
 UID: NF:prnasnot.UnRegisterForPrintAsyncNotifications
 title: UnRegisterForPrintAsyncNotifications function (prnasnot.h)
-description: Enables an application that has registered to receive notifications from Print Spooler-hosted printing components to unregister.helpviewer_keywords: ["UnRegisterForPrintAsyncNotifications","UnRegisterForPrintAsyncNotifications function [Windows GDI]","_win32_UnRegisterForPrintAsyncNotifications","gdi.unregisterforprintasyncnotifications","prnasnot/UnRegisterForPrintAsyncNotifications"]
+description: Enables an application that has registered to receive notifications from Print Spooler-hosted printing components to unregister.
+helpviewer_keywords: ["UnRegisterForPrintAsyncNotifications","UnRegisterForPrintAsyncNotifications function [Windows GDI]","_win32_UnRegisterForPrintAsyncNotifications","gdi.unregisterforprintasyncnotifications","prnasnot/UnRegisterForPrintAsyncNotifications"]
 old-location: gdi\unregisterforprintasyncnotifications.htm
 tech.root: printdocs
 ms.assetid: 2b039018-71c0-4110-8c0b-702927f58df4

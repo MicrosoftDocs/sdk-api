@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetFlags
 title: IScheduledWorkItem::SetFlags (mstask.h)
-description: Sets the flags that modify the behavior of any type of work item.helpviewer_keywords: ["IScheduledWorkItem interface [Task Scheduler]","SetFlags method","IScheduledWorkItem.SetFlags","IScheduledWorkItem::SetFlags","SetFlags","SetFlags method [Task Scheduler]","SetFlags method [Task Scheduler]","IScheduledWorkItem interface","_msb_ischeduledworkitem_setflags","mstask/IScheduledWorkItem::SetFlags","taskschd.ischeduledworkitem_setflags"]
+description: Sets the flags that modify the behavior of any type of work item.
+helpviewer_keywords: ["IScheduledWorkItem interface [Task Scheduler]","SetFlags method","IScheduledWorkItem.SetFlags","IScheduledWorkItem::SetFlags","SetFlags","SetFlags method [Task Scheduler]","SetFlags method [Task Scheduler]","IScheduledWorkItem interface","_msb_ischeduledworkitem_setflags","mstask/IScheduledWorkItem::SetFlags","taskschd.ischeduledworkitem_setflags"]
 old-location: taskschd\ischeduledworkitem_setflags.htm
 tech.root: taskschd
 ms.assetid: 640ba3c7-ed9d-4c4c-82fd-34fc777172c2

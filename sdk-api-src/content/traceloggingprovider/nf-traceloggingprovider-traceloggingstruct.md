@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingStruct
 title: TraceLoggingStruct macro (traceloggingprovider.h)
-description: Wrapper macro for defining a group of related fields in an event.helpviewer_keywords: ["TraceLoggingStruct","TraceLoggingStruct macro","tracelogging.traceloggingstruct","traceloggingprovider/TraceLoggingStruct"]
+description: Wrapper macro for defining a group of related fields in an event.
+helpviewer_keywords: ["TraceLoggingStruct","TraceLoggingStruct macro","tracelogging.traceloggingstruct","traceloggingprovider/TraceLoggingStruct"]
 old-location: tracelogging\traceloggingstruct.htm
 tech.root: tracelogging
 ms.assetid: 9F681D04-98DF-4B27-9A40-740B2F0B287D

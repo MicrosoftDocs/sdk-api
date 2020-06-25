@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_4
 title: RSVP_HOP (lpmapi.h)
-description: The RSVP_HOP structure contains information about an RSVP-enabled hop.helpviewer_keywords: ["RSVP_HOP","RSVP_HOP structure [QOS]","lpmapi/RSVP_HOP","qos.rsvp_hop"]
+description: The RSVP_HOP structure contains information about an RSVP-enabled hop.
+helpviewer_keywords: ["RSVP_HOP","RSVP_HOP structure [QOS]","lpmapi/RSVP_HOP","qos.rsvp_hop"]
 old-location: qos\rsvp_hop.htm
 tech.root: QOS
 ms.assetid: 4b23bc0e-ccea-4161-93fa-b136099e88bd

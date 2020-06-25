@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetPayloadPackage
 title: IAppxBundleReader::GetPayloadPackage (appxpackaging.h)
-description: Retrieves an appx file object for the payload package with the specified file name.helpviewer_keywords: ["GetPayloadPackage","GetPayloadPackage method [App packaging and management]","GetPayloadPackage method [App packaging and management]","IAppxBundleReader interface","IAppxBundleReader interface [App packaging and management]","GetPayloadPackage method","IAppxBundleReader.GetPayloadPackage","IAppxBundleReader::GetPayloadPackage","appxpackaging/IAppxBundleReader::GetPayloadPackage","appxpkg.iappxbundlereader_getpayloadpackage"]
+description: Retrieves an appx file object for the payload package with the specified file name.
+helpviewer_keywords: ["GetPayloadPackage","GetPayloadPackage method [App packaging and management]","GetPayloadPackage method [App packaging and management]","IAppxBundleReader interface","IAppxBundleReader interface [App packaging and management]","GetPayloadPackage method","IAppxBundleReader.GetPayloadPackage","IAppxBundleReader::GetPayloadPackage","appxpackaging/IAppxBundleReader::GetPayloadPackage","appxpkg.iappxbundlereader_getpayloadpackage"]
 old-location: appxpkg\iappxbundlereader_getpayloadpackage.htm
 tech.root: appxpkg
 ms.assetid: 6ACAB26C-22FC-45D7-9F6A-98B56B615DCA

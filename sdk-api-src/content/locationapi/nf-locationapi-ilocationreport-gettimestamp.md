@@ -1,7 +1,8 @@
 ---
 UID: NF:locationapi.ILocationReport.GetTimestamp
 title: ILocationReport::GetTimestamp (locationapi.h)
-description: Retrieves the date and time when the report was generated.helpviewer_keywords: ["GetTimestamp","GetTimestamp method [WinLocation]","GetTimestamp method [WinLocation]","ILocationReport interface","ILocationReport interface [WinLocation]","GetTimestamp method","ILocationReport.GetTimestamp","ILocationReport::GetTimestamp","WinLocation_COM_Ref.ilocationreport_gettimestamp","locationapi/ILocationReport::GetTimestamp"]
+description: Retrieves the date and time when the report was generated.
+helpviewer_keywords: ["GetTimestamp","GetTimestamp method [WinLocation]","GetTimestamp method [WinLocation]","ILocationReport interface","ILocationReport interface [WinLocation]","GetTimestamp method","ILocationReport.GetTimestamp","ILocationReport::GetTimestamp","WinLocation_COM_Ref.ilocationreport_gettimestamp","locationapi/ILocationReport::GetTimestamp"]
 old-location: winlocation_com_ref\ilocationreport_gettimestamp.htm
 tech.root: locationapi
 ms.assetid: 3573b2e7-fa76-4819-894d-d1215dc625bc

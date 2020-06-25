@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagTVINSERTSTRUCTA
 title: TVINSERTSTRUCTA (commctrl.h)
-description: Contains information used to add a new item to a tree-view control. This structure is used with the TVM_INSERTITEM message. The structure is identical to the TV_INSERTSTRUCT structure, but it has been renamed to follow current naming conventions.helpviewer_keywords: ["*LPTVINSERTSTRUCTA","LPTVINSERTSTRUCT","LPTVINSERTSTRUCT structure pointer [Windows Controls]","TVINSERTSTRUCT","TVINSERTSTRUCT structure [Windows Controls]","TVINSERTSTRUCTA","TVINSERTSTRUCTW","TVI_FIRST","TVI_LAST","TVI_ROOT","TVI_SORT","_win32_TVINSERTSTRUCT","_win32_TVINSERTSTRUCT_cpp","commctrl/LPTVINSERTSTRUCT","commctrl/TVINSERTSTRUCT","commctrl/TVINSERTSTRUCTA","commctrl/TVINSERTSTRUCTW","controls.TVINSERTSTRUCT","controls._win32_TVINSERTSTRUCT"]
+description: Contains information used to add a new item to a tree-view control. This structure is used with the TVM_INSERTITEM message. The structure is identical to the TV_INSERTSTRUCT structure, but it has been renamed to follow current naming conventions.
+helpviewer_keywords: ["*LPTVINSERTSTRUCTA","LPTVINSERTSTRUCT","LPTVINSERTSTRUCT structure pointer [Windows Controls]","TVINSERTSTRUCT","TVINSERTSTRUCT structure [Windows Controls]","TVINSERTSTRUCTA","TVINSERTSTRUCTW","TVI_FIRST","TVI_LAST","TVI_ROOT","TVI_SORT","_win32_TVINSERTSTRUCT","_win32_TVINSERTSTRUCT_cpp","commctrl/LPTVINSERTSTRUCT","commctrl/TVINSERTSTRUCT","commctrl/TVINSERTSTRUCTA","commctrl/TVINSERTSTRUCTW","controls.TVINSERTSTRUCT","controls._win32_TVINSERTSTRUCT"]
 old-location: controls\TVINSERTSTRUCT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\tvinsertstruct.htm
@@ -149,4 +150,8 @@ The unions in this structure have been updated to work with compilers that do no
 <div class="alert"><b>Important</b>  Using TVI_LAST to insert an item into a tree-view node that already contains a large number of items can take a long time, causing  the application to stop responding until the insert operation completes.</div>
 <div> </div>
 
+
+
+> [!NOTE]
+> The commctrl.h header defines TVINSERTSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core.FDAP
 title: FDAP (shobjidl_core.h)
-description: Specifies list placement.helpviewer_keywords: ["FDAP","FDAP enumeration [Windows Shell]","FDAP_BOTTOM","FDAP_TOP","_shell_FDAP","shell.FDAP","shobjidl_core/FDAP","shobjidl_core/FDAP_BOTTOM","shobjidl_core/FDAP_TOP"]
+description: Specifies list placement.
+helpviewer_keywords: ["FDAP","FDAP enumeration [Windows Shell]","FDAP_BOTTOM","FDAP_TOP","_shell_FDAP","shell.FDAP","shobjidl_core/FDAP","shobjidl_core/FDAP_BOTTOM","shobjidl_core/FDAP_TOP"]
 old-location: shell\FDAP.htm
 tech.root: shell
 ms.assetid: 96865947-abd1-4045-9bb2-5839e9592ad2

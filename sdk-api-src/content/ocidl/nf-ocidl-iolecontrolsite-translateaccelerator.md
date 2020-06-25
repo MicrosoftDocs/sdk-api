@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleControlSite.TranslateAccelerator
 title: IOleControlSite::TranslateAccelerator (ocidl.h)
-description: Passes a keystroke to the control site for processing.helpviewer_keywords: ["IOleControlSite interface [COM]","TranslateAccelerator method","IOleControlSite.TranslateAccelerator","IOleControlSite::TranslateAccelerator","TranslateAccelerator","TranslateAccelerator method [COM]","TranslateAccelerator method [COM]","IOleControlSite interface","_ctrl_iolecontrolsite_translateaccelerator","com.iolecontrolsite_translateaccelerator","ocidl/IOleControlSite::TranslateAccelerator"]
+description: Passes a keystroke to the control site for processing.
+helpviewer_keywords: ["IOleControlSite interface [COM]","TranslateAccelerator method","IOleControlSite.TranslateAccelerator","IOleControlSite::TranslateAccelerator","TranslateAccelerator","TranslateAccelerator method [COM]","TranslateAccelerator method [COM]","IOleControlSite interface","_ctrl_iolecontrolsite_translateaccelerator","com.iolecontrolsite_translateaccelerator","ocidl/IOleControlSite::TranslateAccelerator"]
 old-location: com\iolecontrolsite_translateaccelerator.htm
 tech.root: com
 ms.assetid: e4f9a6f7-bb0f-41d2-b1b8-7fda2dbee278

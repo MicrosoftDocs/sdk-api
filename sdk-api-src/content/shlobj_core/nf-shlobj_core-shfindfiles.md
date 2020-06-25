@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHFindFiles
 title: SHFindFiles function (shlobj_core.h)
-description: SHFindFiles may be altered or unavailable.helpviewer_keywords: ["SHFindFiles","SHFindFiles function [Windows Shell]","_win32_SHFindFiles","shell.SHFindFiles","shlobj_core/SHFindFiles"]
+description: SHFindFiles may be altered or unavailable.
+helpviewer_keywords: ["SHFindFiles","SHFindFiles function [Windows Shell]","_win32_SHFindFiles","shell.SHFindFiles","shlobj_core/SHFindFiles"]
 old-location: shell\SHFindFiles.htm
 tech.root: shell
 ms.assetid: c54036c2-e6b9-4b21-b2b2-a6721c502ee5

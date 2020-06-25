@@ -1,7 +1,8 @@
 ---
 UID: NF:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask
 title: IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask (icontentprefetchertasktrigger.h)
-description: Triggers a content prefetch background task for the specified app package.helpviewer_keywords: ["IContentPrefetcherTaskTrigger interface [Web Services for Windows]","TriggerContentPrefetcherTask method","IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask","IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask","TriggerContentPrefetcherTask","TriggerContentPrefetcherTask method [Web Services for Windows]","TriggerContentPrefetcherTask method [Web Services for Windows]","IContentPrefetcherTaskTrigger interface","icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask","wsw.icontentprefetchertasktrigger_triggercontentprefetchertask"]
+description: Triggers a content prefetch background task for the specified app package.
+helpviewer_keywords: ["IContentPrefetcherTaskTrigger interface [Web Services for Windows]","TriggerContentPrefetcherTask method","IContentPrefetcherTaskTrigger.TriggerContentPrefetcherTask","IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask","TriggerContentPrefetcherTask","TriggerContentPrefetcherTask method [Web Services for Windows]","TriggerContentPrefetcherTask method [Web Services for Windows]","IContentPrefetcherTaskTrigger interface","icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::TriggerContentPrefetcherTask","wsw.icontentprefetchertasktrigger_triggercontentprefetchertask"]
 old-location: wsw\icontentprefetchertasktrigger_triggercontentprefetchertask.htm
 tech.root: wsw
 ms.assetid: F7AC2CA1-3726-4685-ABA8-5F9EE8FD54FF

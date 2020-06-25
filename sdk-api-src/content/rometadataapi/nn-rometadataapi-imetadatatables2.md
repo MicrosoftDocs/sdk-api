@@ -1,7 +1,8 @@
 ---
 UID: NN:rometadataapi.IMetaDataTables2
 title: IMetaDataTables2 (rometadataapi.h)
-description: Extends IMetaDataTables to include methods for working with metadata streams.helpviewer_keywords: ["IMetaDataTables2","IMetaDataTables2 interface [Windows Runtime]","IMetaDataTables2 interface [Windows Runtime]","described","rometadataapi/IMetaDataTables2","winrt.imetadatatables2"]
+description: Extends IMetaDataTables to include methods for working with metadata streams.
+helpviewer_keywords: ["IMetaDataTables2","IMetaDataTables2 interface [Windows Runtime]","IMetaDataTables2 interface [Windows Runtime]","described","rometadataapi/IMetaDataTables2","winrt.imetadatatables2"]
 old-location: winrt\imetadatatables2.htm
 tech.root: WinRT
 ms.assetid: dc59fe85-b490-4f23-a32f-2942610dd8dc

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMBufferNegotiation.GetAllocatorProperties
 title: IAMBufferNegotiation::GetAllocatorProperties (strmif.h)
-description: The GetAllocatorProperties method retrieves the allocator properties that the pin is using.helpviewer_keywords: ["GetAllocatorProperties","GetAllocatorProperties method [DirectShow]","GetAllocatorProperties method [DirectShow]","IAMBufferNegotiation interface","IAMBufferNegotiation interface [DirectShow]","GetAllocatorProperties method","IAMBufferNegotiation.GetAllocatorProperties","IAMBufferNegotiation::GetAllocatorProperties","IAMBufferNegotiationGetAllocatorProperties","dshow.iambuffernegotiation_getallocatorproperties","strmif/IAMBufferNegotiation::GetAllocatorProperties"]
+description: The GetAllocatorProperties method retrieves the allocator properties that the pin is using.
+helpviewer_keywords: ["GetAllocatorProperties","GetAllocatorProperties method [DirectShow]","GetAllocatorProperties method [DirectShow]","IAMBufferNegotiation interface","IAMBufferNegotiation interface [DirectShow]","GetAllocatorProperties method","IAMBufferNegotiation.GetAllocatorProperties","IAMBufferNegotiation::GetAllocatorProperties","IAMBufferNegotiationGetAllocatorProperties","dshow.iambuffernegotiation_getallocatorproperties","strmif/IAMBufferNegotiation::GetAllocatorProperties"]
 old-location: dshow\iambuffernegotiation_getallocatorproperties.htm
 tech.root: DirectShow
 ms.assetid: 85bbb900-772c-4091-83e3-f2a5dd198d39

@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluseffects.Blur
 title: Blur (gdipluseffects.h)
-description: The Blur class enables you to apply a Gaussian blur effect to a bitmap and specify the nature of the blur.helpviewer_keywords: ["Blur","Blur class [GDI+]","Blur class [GDI+]","described","_gdiplus_CLASS_Blur_Class","gdiplus._gdiplus_CLASS_Blur_Class","gdipluseffects/Blur"]
+description: The Blur class enables you to apply a Gaussian blur effect to a bitmap and specify the nature of the blur.
+helpviewer_keywords: ["Blur","Blur class [GDI+]","Blur class [GDI+]","described","_gdiplus_CLASS_Blur_Class","gdiplus._gdiplus_CLASS_Blur_Class","gdipluseffects/Blur"]
 old-location: gdiplus\_gdiplus_CLASS_Blur_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blur.htm

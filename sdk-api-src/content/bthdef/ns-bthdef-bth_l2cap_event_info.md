@@ -1,7 +1,8 @@
 ---
 UID: NS:bthdef._BTH_L2CAP_EVENT_INFO
 title: BTH_L2CAP_EVENT_INFO (bthdef.h)
-description: Contains data about events associated with an L2CAP channel.helpviewer_keywords: ["*PBTH_L2CAP_EVENT_INFO","*PBTH_L2CAP_EVENT_INFO structure [Bluetooth]","BTH_L2CAP_EVENT_INFO","BTH_L2CAP_EVENT_INFO structure [Bluetooth]","bluetooth.bth_l2cap_event_info","bthdef/*PBTH_L2CAP_EVENT_INFO","bthdef/BTH_L2CAP_EVENT_INFO"]
+description: Contains data about events associated with an L2CAP channel.
+helpviewer_keywords: ["*PBTH_L2CAP_EVENT_INFO","*PBTH_L2CAP_EVENT_INFO structure [Bluetooth]","BTH_L2CAP_EVENT_INFO","BTH_L2CAP_EVENT_INFO structure [Bluetooth]","bluetooth.bth_l2cap_event_info","bthdef/*PBTH_L2CAP_EVENT_INFO","bthdef/BTH_L2CAP_EVENT_INFO"]
 old-location: bluetooth\bth_l2cap_event_info.htm
 tech.root: bluetooth
 ms.assetid: fd16514c-7a7e-4da4-b506-71cb66ed1983

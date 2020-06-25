@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_Create
 title: ImageList_Create function (commctrl.h)
-description: Creates a new image list.helpviewer_keywords: ["ImageList_Create","ImageList_Create function [Windows Controls]","_win32_ImageList_Create","_win32_ImageList_Create_cpp","commctrl/ImageList_Create","controls.ImageList_Create","controls._win32_ImageList_Create"]
+description: Creates a new image list.
+helpviewer_keywords: ["ImageList_Create","ImageList_Create function [Windows Controls]","_win32_ImageList_Create","_win32_ImageList_Create_cpp","commctrl/ImageList_Create","controls.ImageList_Create","controls._win32_ImageList_Create"]
 old-location: controls\ImageList_Create.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_create.htm

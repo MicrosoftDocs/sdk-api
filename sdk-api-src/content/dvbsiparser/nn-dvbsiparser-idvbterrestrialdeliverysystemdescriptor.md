@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor
 title: IDvbTerrestrialDeliverySystemDescriptor (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IDvbTerrestrialDeliverySystemDescriptor","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","described","IDvbTerrestrialDeliverySystemDescriptorInterface","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor","mstv.idvbterrestrialdeliverysystemdescriptor"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IDvbTerrestrialDeliverySystemDescriptor","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","described","IDvbTerrestrialDeliverySystemDescriptorInterface","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor","mstv.idvbterrestrialdeliverysystemdescriptor"]
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor.htm
 tech.root: mstv
 ms.assetid: 7000f937-2f58-43c1-b0e1-60d3171485b0

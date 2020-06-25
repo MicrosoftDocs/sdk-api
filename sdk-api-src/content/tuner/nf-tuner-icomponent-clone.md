@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IComponent.Clone
 title: IComponent::Clone (tuner.h)
-description: The Clone method creates a copy of the component.helpviewer_keywords: ["Clone","Clone method [Microsoft TV Technologies]","Clone method [Microsoft TV Technologies]","IComponent interface","IComponent interface [Microsoft TV Technologies]","Clone method","IComponent.Clone","IComponent::Clone","IComponentClone","mstv.icomponent_clone","tuner/IComponent::Clone"]
+description: The Clone method creates a copy of the component.
+helpviewer_keywords: ["Clone","Clone method [Microsoft TV Technologies]","Clone method [Microsoft TV Technologies]","IComponent interface","IComponent interface [Microsoft TV Technologies]","Clone method","IComponent.Clone","IComponent::Clone","IComponentClone","mstv.icomponent_clone","tuner/IComponent::Clone"]
 old-location: mstv\icomponent_clone.htm
 tech.root: mstv
 ms.assetid: 8d643a76-c0aa-4ded-9534-0ff7c4e8402d

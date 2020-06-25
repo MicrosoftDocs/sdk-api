@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1helper.GradientStop
 title: GradientStop function (d2d1helper.h)
-description: Creates a D2D1_GRADIENT_STOP structure.helpviewer_keywords: ["GradientStop","GradientStop function [Direct2D]","d2d1helper/GradientStop","direct2d.gradientstop"]
+description: Creates a D2D1_GRADIENT_STOP structure.
+helpviewer_keywords: ["GradientStop","GradientStop function [Direct2D]","d2d1helper/GradientStop","direct2d.gradientstop"]
 old-location: direct2d\gradientstop.htm
 tech.root: Direct2D
 ms.assetid: 37f413e8-36ee-462d-8419-908690094c49

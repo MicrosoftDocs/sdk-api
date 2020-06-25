@@ -1,7 +1,8 @@
 ---
 UID: NF:msime.IFECommon.IsDefaultIME
 title: IFECommon::IsDefaultIME (msime.h)
-description: Determines if the IME specified by the class ID is the default IME on a local computer.helpviewer_keywords: ["IFECommon interface [Internationalization for Windows Applications]","IsDefaultIME method","IFECommon.IsDefaultIME","IFECommon::IsDefaultIME","IsDefaultIME","IsDefaultIME method [Internationalization for Windows Applications]","IsDefaultIME method [Internationalization for Windows Applications]","IFECommon interface","intl.ifecommon_isdefaultime","msime/IFECommon::IsDefaultIME"]
+description: Determines if the IME specified by the class ID is the default IME on a local computer.
+helpviewer_keywords: ["IFECommon interface [Internationalization for Windows Applications]","IsDefaultIME method","IFECommon.IsDefaultIME","IFECommon::IsDefaultIME","IsDefaultIME","IsDefaultIME method [Internationalization for Windows Applications]","IsDefaultIME method [Internationalization for Windows Applications]","IFECommon interface","intl.ifecommon_isdefaultime","msime/IFECommon::IsDefaultIME"]
 old-location: intl\ifecommon_isdefaultime.htm
 tech.root: Intl
 ms.assetid: FFC3E200-54D4-4C47-A4A3-87AA2A4A2232

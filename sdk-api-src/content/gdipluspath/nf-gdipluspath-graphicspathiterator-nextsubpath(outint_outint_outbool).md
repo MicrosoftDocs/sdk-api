@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.NextSubpath(OUT INT,OUT INT,OUT BOOL)
 title: GraphicsPathIterator::NextSubpath
-description: The GraphicsPathIterator::NextSubpath method gets the starting index and the ending index of the next subpath.helpviewer_keywords: ["GraphicsPathIterator::NextSubpath"]
+description: The GraphicsPathIterator::NextSubpath method gets the starting index and the ending index of the next subpath.
+helpviewer_keywords: ["GraphicsPathIterator::NextSubpath"]
 ms.assetid: 175a664d-76d3-40d7-8978-90120e26baf6
 ms.date: 05/13/2019
 ms.keywords: GraphicsPathIterator::NextSubpath

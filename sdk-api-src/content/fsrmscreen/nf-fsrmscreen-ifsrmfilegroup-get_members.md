@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroup.get_Members
 title: IFsrmFileGroup::get_Members (fsrmscreen.h)
-description: Retrieves or sets the filename patterns that determine the files that are included in the file group.helpviewer_keywords: ["IFsrmFileGroup interface [File Server Resource Manager]","Members property","IFsrmFileGroup.Members","IFsrmFileGroup.get_Members","IFsrmFileGroup::Members","IFsrmFileGroup::get_Members","IFsrmFileGroup::put_Members","Members property [File Server Resource Manager]","Members property [File Server Resource Manager]","IFsrmFileGroup interface","fs.ifsrmfilegroup_members","fsrm.ifsrmfilegroup_members","fsrmscreen/IFsrmFileGroup::Members","fsrmscreen/IFsrmFileGroup::get_Members","fsrmscreen/IFsrmFileGroup::put_Members","get_Members"]
+description: Retrieves or sets the filename patterns that determine the files that are included in the file group.
+helpviewer_keywords: ["IFsrmFileGroup interface [File Server Resource Manager]","Members property","IFsrmFileGroup.Members","IFsrmFileGroup.get_Members","IFsrmFileGroup::Members","IFsrmFileGroup::get_Members","IFsrmFileGroup::put_Members","Members property [File Server Resource Manager]","Members property [File Server Resource Manager]","IFsrmFileGroup interface","fs.ifsrmfilegroup_members","fsrm.ifsrmfilegroup_members","fsrmscreen/IFsrmFileGroup::Members","fsrmscreen/IFsrmFileGroup::get_Members","fsrmscreen/IFsrmFileGroup::put_Members","get_Members"]
 old-location: fsrm\ifsrmfilegroup_members.htm
 tech.root: fsrm
 ms.assetid: 242a86ab-9dec-4106-9a49-70c12cc6de91

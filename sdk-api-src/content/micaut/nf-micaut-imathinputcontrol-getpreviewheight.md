@@ -1,7 +1,8 @@
 ---
 UID: NF:micaut.IMathInputControl.GetPreviewHeight
 title: IMathInputControl::GetPreviewHeight (micaut.h)
-description: Retrieves the height in pixels of the preview area.helpviewer_keywords: ["GetPreviewHeight","GetPreviewHeight method [Tablet PC]","GetPreviewHeight method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","GetPreviewHeight method","IMathInputControl.GetPreviewHeight","IMathInputControl::GetPreviewHeight","micaut/IMathInputControl::GetPreviewHeight","tablet.imathinputcontrol_getpreviewheight"]
+description: Retrieves the height in pixels of the preview area.
+helpviewer_keywords: ["GetPreviewHeight","GetPreviewHeight method [Tablet PC]","GetPreviewHeight method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","GetPreviewHeight method","IMathInputControl.GetPreviewHeight","IMathInputControl::GetPreviewHeight","micaut/IMathInputControl::GetPreviewHeight","tablet.imathinputcontrol_getpreviewheight"]
 old-location: tablet\imathinputcontrol_getpreviewheight.htm
 tech.root: tablet
 ms.assetid: 3b3404f5-b775-483f-b3a9-9467c937226b

@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IResultDataCompareEx
 title: IResultDataCompareEx (mmc.h)
-description: Allows primary snap-ins to compare both scope and result items that are displayed in a sorted order in the result pane.helpviewer_keywords: ["IResultDataCompareEx","IResultDataCompareEx interface [MMC]","IResultDataCompareEx interface [MMC]","described","_slate_iresultdatacompareex","mmc.iresultdatacompareex","mmc/IResultDataCompareEx"]
+description: Allows primary snap-ins to compare both scope and result items that are displayed in a sorted order in the result pane.
+helpviewer_keywords: ["IResultDataCompareEx","IResultDataCompareEx interface [MMC]","IResultDataCompareEx interface [MMC]","described","_slate_iresultdatacompareex","mmc.iresultdatacompareex","mmc/IResultDataCompareEx"]
 old-location: mmc\iresultdatacompareex.htm
 tech.root: mmc
 ms.assetid: e4b305e4-4649-42f4-86f4-3c12e5aa5337

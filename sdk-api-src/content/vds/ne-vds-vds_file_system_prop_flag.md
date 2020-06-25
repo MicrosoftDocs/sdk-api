@@ -1,7 +1,8 @@
 ---
 UID: NE:vds._VDS_FILE_SYSTEM_PROP_FLAG
 title: VDS_FILE_SYSTEM_PROP_FLAG (vds.h)
-description: Defines the details of file-system compression.helpviewer_keywords: ["VDS_FILE_SYSTEM_PROP_FLAG","VDS_FILE_SYSTEM_PROP_FLAG enumeration [VDS]","VDS_FPF_COMPRESSED","base.vds_file_system_prop_flag","vds/VDS_FILE_SYSTEM_PROP_FLAG","vds/VDS_FPF_COMPRESSED"]
+description: Defines the details of file-system compression.
+helpviewer_keywords: ["VDS_FILE_SYSTEM_PROP_FLAG","VDS_FILE_SYSTEM_PROP_FLAG enumeration [VDS]","VDS_FPF_COMPRESSED","base.vds_file_system_prop_flag","vds/VDS_FILE_SYSTEM_PROP_FLAG","vds/VDS_FPF_COMPRESSED"]
 old-location: base\vds_file_system_prop_flag.htm
 tech.root: VDS
 ms.assetid: f2776ee9-4809-4f99-b464-80b5b53f8675

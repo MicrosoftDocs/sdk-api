@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsHwProviderStoragePools.QueryStoragePools
 title: IVdsHwProviderStoragePools::QueryStoragePools (vds.h)
-description: Returns an IEnumVdsObject enumeration object containing a list of the storage pools managed by the hardware provider.helpviewer_keywords: ["IVdsHwProviderStoragePools interface","QueryStoragePools method","IVdsHwProviderStoragePools.QueryStoragePools","IVdsHwProviderStoragePools::QueryStoragePools","QueryStoragePools","QueryStoragePools method","QueryStoragePools method","IVdsHwProviderStoragePools interface","base.ivdshwproviderstoragepools_querystoragepools","vds/IVdsHwProviderStoragePools::QueryStoragePools","vdshwprv/IVdsHwProviderStoragePools::QueryStoragePools"]
+description: Returns an IEnumVdsObject enumeration object containing a list of the storage pools managed by the hardware provider.
+helpviewer_keywords: ["IVdsHwProviderStoragePools interface","QueryStoragePools method","IVdsHwProviderStoragePools.QueryStoragePools","IVdsHwProviderStoragePools::QueryStoragePools","QueryStoragePools","QueryStoragePools method","QueryStoragePools method","IVdsHwProviderStoragePools interface","base.ivdshwproviderstoragepools_querystoragepools","vds/IVdsHwProviderStoragePools::QueryStoragePools","vdshwprv/IVdsHwProviderStoragePools::QueryStoragePools"]
 old-location: base\ivdshwproviderstoragepools_querystoragepools.htm
 tech.root: VDS
 ms.assetid: 308c9821-927d-4b90-854d-b050f3730c22

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.AnalyzeBidi
 title: IDWriteTextAnalyzer::AnalyzeBidi (dwrite.h)
-description: Analyzes a text range for script directionality, reading attributes from the source and reporting levels to the sink callback SetBidiLevel.helpviewer_keywords: ["AnalyzeBidi","AnalyzeBidi method [Direct Write]","AnalyzeBidi method [Direct Write]","IDWriteTextAnalyzer interface","IDWriteTextAnalyzer interface [Direct Write]","AnalyzeBidi method","IDWriteTextAnalyzer.AnalyzeBidi","IDWriteTextAnalyzer::AnalyzeBidi","directwrite.IDWriteTextAnalyzer_AnalyzeBidi","dwrite/IDWriteTextAnalyzer::AnalyzeBidi"]
+description: Analyzes a text range for script directionality, reading attributes from the source and reporting levels to the sink callback SetBidiLevel.
+helpviewer_keywords: ["AnalyzeBidi","AnalyzeBidi method [Direct Write]","AnalyzeBidi method [Direct Write]","IDWriteTextAnalyzer interface","IDWriteTextAnalyzer interface [Direct Write]","AnalyzeBidi method","IDWriteTextAnalyzer.AnalyzeBidi","IDWriteTextAnalyzer::AnalyzeBidi","directwrite.IDWriteTextAnalyzer_AnalyzeBidi","dwrite/IDWriteTextAnalyzer::AnalyzeBidi"]
 old-location: directwrite\IDWriteTextAnalyzer_AnalyzeBidi.htm
 tech.root: DirectWrite
 ms.assetid: 413d49d2-bacd-4e98-bfac-c0aea2650a7c

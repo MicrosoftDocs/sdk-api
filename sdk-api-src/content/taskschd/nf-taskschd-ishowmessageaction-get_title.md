@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IShowMessageAction.get_Title
 title: IShowMessageAction::get_Title (taskschd.h)
-description: Gets or sets the title of the message box.helpviewer_keywords: ["IShowMessageAction interface [Task Scheduler]","Title property","IShowMessageAction.Title","IShowMessageAction.get_Title","IShowMessageAction::Title","IShowMessageAction::get_Title","IShowMessageAction::put_Title","Title property [Task Scheduler]","Title property [Task Scheduler]","IShowMessageAction interface","get_Title","taskschd.ishowmessageaction_title","taskschd/IShowMessageAction::Title","taskschd/IShowMessageAction::get_Title","taskschd/IShowMessageAction::put_Title"]
+description: Gets or sets the title of the message box.
+helpviewer_keywords: ["IShowMessageAction interface [Task Scheduler]","Title property","IShowMessageAction.Title","IShowMessageAction.get_Title","IShowMessageAction::Title","IShowMessageAction::get_Title","IShowMessageAction::put_Title","Title property [Task Scheduler]","Title property [Task Scheduler]","IShowMessageAction interface","get_Title","taskschd.ishowmessageaction_title","taskschd/IShowMessageAction::Title","taskschd/IShowMessageAction::get_Title","taskschd/IShowMessageAction::put_Title"]
 old-location: taskschd\ishowmessageaction_title.htm
 tech.root: taskschd
 ms.assetid: 6ec51ebb-5aa3-4338-bc88-dd8df34d59ac

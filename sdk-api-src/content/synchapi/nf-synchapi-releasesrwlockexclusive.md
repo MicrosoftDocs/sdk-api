@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.ReleaseSRWLockExclusive
 title: ReleaseSRWLockExclusive function (synchapi.h)
-description: Releases a slim reader/writer (SRW) lock that was acquired in exclusive mode.helpviewer_keywords: ["ReleaseSRWLockExclusive","ReleaseSRWLockExclusive function","base.releasesrwlockexclusive","synchapi/ReleaseSRWLockExclusive","winbase/ReleaseSRWLockExclusive"]
+description: Releases a slim reader/writer (SRW) lock that was acquired in exclusive mode.
+helpviewer_keywords: ["ReleaseSRWLockExclusive","ReleaseSRWLockExclusive function","base.releasesrwlockexclusive","synchapi/ReleaseSRWLockExclusive","winbase/ReleaseSRWLockExclusive"]
 old-location: base\releasesrwlockexclusive.htm
 tech.root: Sync
 ms.assetid: 77f9b8ee-f922-4bd1-b715-ccb1ca891dcc

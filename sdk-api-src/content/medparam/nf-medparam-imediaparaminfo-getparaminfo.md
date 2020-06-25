@@ -1,7 +1,8 @@
 ---
 UID: NF:medparam.IMediaParamInfo.GetParamInfo
 title: IMediaParamInfo::GetParamInfo (medparam.h)
-description: The GetParamInfo method retrieves information about a specified parameter.helpviewer_keywords: ["GetParamInfo","GetParamInfo method [DirectShow]","GetParamInfo method [DirectShow]","IMediaParamInfo interface","IMediaParamInfo interface [DirectShow]","GetParamInfo method","IMediaParamInfo.GetParamInfo","IMediaParamInfo::GetParamInfo","IMediaParamInfoGetParamInfo","dshow.imediaparaminfo_getparaminfo","medparam/IMediaParamInfo::GetParamInfo"]
+description: The GetParamInfo method retrieves information about a specified parameter.
+helpviewer_keywords: ["GetParamInfo","GetParamInfo method [DirectShow]","GetParamInfo method [DirectShow]","IMediaParamInfo interface","IMediaParamInfo interface [DirectShow]","GetParamInfo method","IMediaParamInfo.GetParamInfo","IMediaParamInfo::GetParamInfo","IMediaParamInfoGetParamInfo","dshow.imediaparaminfo_getparaminfo","medparam/IMediaParamInfo::GetParamInfo"]
 old-location: dshow\imediaparaminfo_getparaminfo.htm
 tech.root: DirectShow
 ms.assetid: 80fdb9c2-d979-4671-981a-54d968b23042

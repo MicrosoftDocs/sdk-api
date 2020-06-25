@@ -1,7 +1,8 @@
 ---
 UID: NF:ncryptprotect.NCryptCloseProtectionDescriptor
 title: NCryptCloseProtectionDescriptor function (ncryptprotect.h)
-description: Zeros and frees a protection descriptor object and releases its handle.helpviewer_keywords: ["NCryptCloseProtectionDescriptor","NCryptCloseProtectionDescriptor function [Security]","ncryptprotect/NCryptCloseProtectionDescriptor","security.ncryptcloseprotectiondescriptor"]
+description: Zeros and frees a protection descriptor object and releases its handle.
+helpviewer_keywords: ["NCryptCloseProtectionDescriptor","NCryptCloseProtectionDescriptor function [Security]","ncryptprotect/NCryptCloseProtectionDescriptor","security.ncryptcloseprotectiondescriptor"]
 old-location: security\ncryptcloseprotectiondescriptor.htm
 tech.root: SecCNG
 ms.assetid: 523FD83E-85A3-4A0E-BA8D-2F27F82C1072

@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._MEM_ADDRESS_REQUIREMENTS
 title: MEM_ADDRESS_REQUIREMENTS (winnt.h)
-description: Specifies a lowest and highest base address and alignment as part of an extended parameter to a function that manages virtual memory.helpviewer_keywords: ["*PMEM_ADDRESS_REQUIREMENTS","MEM_ADDRESS_REQUIREMENTS","MEM_ADDRESS_REQUIREMENTS structure","PMEM_ADDRESS_REQUIREMENTS","PMEM_ADDRESS_REQUIREMENTS structure pointer","base.mem_address_requirements","winnt/MEM_ADDRESS_REQUIREMENTS","winnt/PMEM_ADDRESS_REQUIREMENTS"]
+description: Specifies a lowest and highest base address and alignment as part of an extended parameter to a function that manages virtual memory.
+helpviewer_keywords: ["*PMEM_ADDRESS_REQUIREMENTS","MEM_ADDRESS_REQUIREMENTS","MEM_ADDRESS_REQUIREMENTS structure","PMEM_ADDRESS_REQUIREMENTS","PMEM_ADDRESS_REQUIREMENTS structure pointer","base.mem_address_requirements","winnt/MEM_ADDRESS_REQUIREMENTS","winnt/PMEM_ADDRESS_REQUIREMENTS"]
 old-location: base\mem_address_requirements.htm
 tech.root: Memory
 ms.assetid: 1CAB4942-F0D2-4A60-9472-4EDF2FC9FA7A

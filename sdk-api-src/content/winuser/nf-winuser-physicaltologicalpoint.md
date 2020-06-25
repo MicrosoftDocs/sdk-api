@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.PhysicalToLogicalPoint
 title: PhysicalToLogicalPoint function (winuser.h)
-description: Converts the physical coordinates of a point in a window to logical coordinates.helpviewer_keywords: ["PhysicalToLogicalPoint","PhysicalToLogicalPoint function [Windows and Messages]","_win32_PhysicalToLogicalPoint","_win32_physicaltologicalpoint_cpp","winmsg.physicaltologicalpoint","winui._win32_physicaltologicalpoint","winuser/PhysicalToLogicalPoint"]
+description: Converts the physical coordinates of a point in a window to logical coordinates.
+helpviewer_keywords: ["PhysicalToLogicalPoint","PhysicalToLogicalPoint function [Windows and Messages]","_win32_PhysicalToLogicalPoint","_win32_physicaltologicalpoint_cpp","winmsg.physicaltologicalpoint","winui._win32_physicaltologicalpoint","winuser/PhysicalToLogicalPoint"]
 old-location: winmsg\physicaltologicalpoint.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\physicaltologicalpoint.htm

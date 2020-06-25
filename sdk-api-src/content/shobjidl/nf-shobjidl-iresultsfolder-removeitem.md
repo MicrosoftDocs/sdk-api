@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IResultsFolder.RemoveItem
 title: IResultsFolder::RemoveItem (shobjidl.h)
-description: Removes an item from a results folder.helpviewer_keywords: ["IResultsFolder interface [Windows Shell]","RemoveItem method","IResultsFolder.RemoveItem","IResultsFolder::RemoveItem","RemoveItem","RemoveItem method [Windows Shell]","RemoveItem method [Windows Shell]","IResultsFolder interface","_shell_IResultsFolder_RemoveItem","shell.IResultsFolder_RemoveItem","shobjidl/IResultsFolder::RemoveItem"]
+description: Removes an item from a results folder.
+helpviewer_keywords: ["IResultsFolder interface [Windows Shell]","RemoveItem method","IResultsFolder.RemoveItem","IResultsFolder::RemoveItem","RemoveItem","RemoveItem method [Windows Shell]","RemoveItem method [Windows Shell]","IResultsFolder interface","_shell_IResultsFolder_RemoveItem","shell.IResultsFolder_RemoveItem","shobjidl/IResultsFolder::RemoveItem"]
 old-location: shell\IResultsFolder_RemoveItem.htm
 tech.root: shell
 ms.assetid: 17be32ed-50d7-4c16-9a06-97c4a0f8dc8d

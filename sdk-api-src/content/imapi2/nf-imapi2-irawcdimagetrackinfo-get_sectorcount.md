@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_SectorCount
 title: IRawCDImageTrackInfo::get_SectorCount (imapi2.h)
-description: Retrieves the number of user sectors in this track.helpviewer_keywords: ["IRawCDImageTrackInfo interface [IMAPI]","get_SectorCount method","IRawCDImageTrackInfo.get_SectorCount","IRawCDImageTrackInfo::get_SectorCount","get_SectorCount","get_SectorCount method [IMAPI]","get_SectorCount method [IMAPI]","IRawCDImageTrackInfo interface","imapi.irawcdimagetrackinfo_get_sectorcount","imapi2/IRawCDImageTrackInfo::get_SectorCount"]
+description: Retrieves the number of user sectors in this track.
+helpviewer_keywords: ["IRawCDImageTrackInfo interface [IMAPI]","get_SectorCount method","IRawCDImageTrackInfo.get_SectorCount","IRawCDImageTrackInfo::get_SectorCount","get_SectorCount","get_SectorCount method [IMAPI]","get_SectorCount method [IMAPI]","IRawCDImageTrackInfo interface","imapi.irawcdimagetrackinfo_get_sectorcount","imapi2/IRawCDImageTrackInfo::get_SectorCount"]
 old-location: imapi\irawcdimagetrackinfo_get_sectorcount.htm
 tech.root: imapi
 ms.assetid: 1762620b-b429-4674-85e2-f6f206de1a4f

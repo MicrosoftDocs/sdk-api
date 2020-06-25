@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeAnimationTransform
 title: GetThemeAnimationTransform function (uxtheme.h)
-description: Gets an animation transform operation based on storyboard id, target id and transform index.helpviewer_keywords: ["GetThemeAnimationTransform","GetThemeAnimationTransform function [Windows Controls]","controls.getthemeanimationtransform","uxtheme/GetThemeAnimationTransform"]
+description: Gets an animation transform operation based on storyboard id, target id and transform index.
+helpviewer_keywords: ["GetThemeAnimationTransform","GetThemeAnimationTransform function [Windows Controls]","controls.getthemeanimationtransform","uxtheme/GetThemeAnimationTransform"]
 old-location: controls\getthemeanimationtransform.htm
 tech.root: Controls
 ms.assetid: 3B7691C0-4237-4CE4-9B7C-937089AC5606

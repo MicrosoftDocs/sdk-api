@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaSourceExtensionNotify.OnSourceEnded
 title: IMFMediaSourceExtensionNotify::OnSourceEnded (mfmediaengine.h)
-description: Used to indicate that the media source has ended.helpviewer_keywords: ["IMFMediaSourceExtensionNotify interface [Media Foundation]","OnSourceEnded method","IMFMediaSourceExtensionNotify.OnSourceEnded","IMFMediaSourceExtensionNotify::OnSourceEnded","OnSourceEnded","OnSourceEnded method [Media Foundation]","OnSourceEnded method [Media Foundation]","IMFMediaSourceExtensionNotify interface","mf.imfmediasourceextensionnotify_onsourceended","mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceEnded"]
+description: Used to indicate that the media source has ended.
+helpviewer_keywords: ["IMFMediaSourceExtensionNotify interface [Media Foundation]","OnSourceEnded method","IMFMediaSourceExtensionNotify.OnSourceEnded","IMFMediaSourceExtensionNotify::OnSourceEnded","OnSourceEnded","OnSourceEnded method [Media Foundation]","OnSourceEnded method [Media Foundation]","IMFMediaSourceExtensionNotify interface","mf.imfmediasourceextensionnotify_onsourceended","mfmediaengine/IMFMediaSourceExtensionNotify::OnSourceEnded"]
 old-location: mf\imfmediasourceextensionnotify_onsourceended.htm
 tech.root: medfound
 ms.assetid: 2ce65194-fb52-41e7-9ca4-d1e65fbbbeb0

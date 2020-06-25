@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetDevice
 title: IMDSPStorageGlobals::GetDevice (mswmdm.h)
-description: The GetDevice method retrieves a pointer to the device on which the storage medium with which this interface is associated is mounted.helpviewer_keywords: ["GetDevice","GetDevice method [windows Media Device Manager]","GetDevice method [windows Media Device Manager]","IMDSPStorageGlobals interface","IMDSPStorageGlobals interface [windows Media Device Manager]","GetDevice method","IMDSPStorageGlobals.GetDevice","IMDSPStorageGlobals::GetDevice","IMDSPStorageGlobalsGetDevice","mswmdm/IMDSPStorageGlobals::GetDevice","wmdm.imdspstorageglobals_getdevice"]
+description: The GetDevice method retrieves a pointer to the device on which the storage medium with which this interface is associated is mounted.
+helpviewer_keywords: ["GetDevice","GetDevice method [windows Media Device Manager]","GetDevice method [windows Media Device Manager]","IMDSPStorageGlobals interface","IMDSPStorageGlobals interface [windows Media Device Manager]","GetDevice method","IMDSPStorageGlobals.GetDevice","IMDSPStorageGlobals::GetDevice","IMDSPStorageGlobalsGetDevice","mswmdm/IMDSPStorageGlobals::GetDevice","wmdm.imdspstorageglobals_getdevice"]
 old-location: wmdm\imdspstorageglobals_getdevice.htm
 tech.root: WMDM
 ms.assetid: 5c35b426-f7fd-46f7-b92d-12a0c22b50e9

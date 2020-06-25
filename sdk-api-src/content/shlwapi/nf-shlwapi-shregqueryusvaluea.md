@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegQueryUSValueA
 title: SHRegQueryUSValueA function (shlwapi.h)
-description: Retrieves the type and data for a specified name associated with an open registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHRegQueryUSValue","SHRegQueryUSValue function [Windows Shell]","SHRegQueryUSValueA","SHRegQueryUSValueW","_win32_SHRegQueryUSValue","shell.SHRegQueryUSValue","shlwapi/SHRegQueryUSValue","shlwapi/SHRegQueryUSValueA","shlwapi/SHRegQueryUSValueW"]
+description: Retrieves the type and data for a specified name associated with an open registry subkey in a user-specific subtree (HKEY_CURRENT_USER or HKEY_LOCAL_MACHINE).
+helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHRegQueryUSValue","SHRegQueryUSValue function [Windows Shell]","SHRegQueryUSValueA","SHRegQueryUSValueW","_win32_SHRegQueryUSValue","shell.SHRegQueryUSValue","shlwapi/SHRegQueryUSValue","shlwapi/SHRegQueryUSValueA","shlwapi/SHRegQueryUSValueW"]
 old-location: shell\SHRegQueryUSValue.htm
 tech.root: shell
 ms.assetid: 302a51b5-9cf9-46e5-908c-df0d3c31c91c
@@ -167,4 +168,8 @@ When <i>fIgnoreHKCU</i> is set to <b>TRUE</b>, <b>SHRegQueryUSValue</b> returns 
 If you only need to read a single value, <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shreggetusvaluea">SHRegGetUSValue</a> will both open the key and return the value. To use <b>SHRegQueryUSValue</b>, you must first open the key with <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shregopenuskeya">SHRegOpenUSKey</a>. However, once the key is opened, you can use <b>SHRegQueryUSValue</b> as many times as necessary. If you need to retrieve more than one value from the same key, using multiple calls to <b>SHRegQueryUSValue</b> is usually more efficient than <b>SHRegGetUSValue</b>, as the key is only opened once.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines SHRegQueryUSValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

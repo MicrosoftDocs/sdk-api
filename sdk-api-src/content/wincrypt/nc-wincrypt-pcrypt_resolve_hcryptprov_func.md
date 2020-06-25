@@ -1,7 +1,8 @@
 ---
 UID: NC:wincrypt.PCRYPT_RESOLVE_HCRYPTPROV_FUNC
 title: PCRYPT_RESOLVE_HCRYPTPROV_FUNC (wincrypt.h)
-description: Returns a handle to a cryptographic service provider (CSP) by using the phCryptProv parameter to receive the key being imported.helpviewer_keywords: ["PCRYPT_RESOLVE_HCRYPTPROV_FUNC","PCRYPT_RESOLVE_HCRYPTPROV_FUNC callback","PCRYPT_RESOLVE_HCRYPTPROV_FUNC callback function [Security]","security.pcrypt_resolve_hcryptprov_func","wincrypt/PCRYPT_RESOLVE_HCRYPTPROV_FUNC"]
+description: Returns a handle to a cryptographic service provider (CSP) by using the phCryptProv parameter to receive the key being imported.
+helpviewer_keywords: ["PCRYPT_RESOLVE_HCRYPTPROV_FUNC","PCRYPT_RESOLVE_HCRYPTPROV_FUNC callback","PCRYPT_RESOLVE_HCRYPTPROV_FUNC callback function [Security]","security.pcrypt_resolve_hcryptprov_func","wincrypt/PCRYPT_RESOLVE_HCRYPTPROV_FUNC"]
 old-location: security\pcrypt_resolve_hcryptprov_func.htm
 tech.root: SecCrypto
 ms.assetid: d3b2b942-bde5-4399-9412-95fe227cd546

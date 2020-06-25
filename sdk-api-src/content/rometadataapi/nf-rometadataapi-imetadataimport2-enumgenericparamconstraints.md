@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.EnumGenericParamConstraints
 title: IMetaDataImport2::EnumGenericParamConstraints (rometadataapi.h)
-description: Gets an enumerator for an array of generic parameter constraints associated with the generic parameter represented by the specified token.helpviewer_keywords: ["EnumGenericParamConstraints","EnumGenericParamConstraints method [Windows Runtime]","EnumGenericParamConstraints method [Windows Runtime]","IMetaDataImport2 interface","IMetaDataImport2 interface [Windows Runtime]","EnumGenericParamConstraints method","IMetaDataImport2.EnumGenericParamConstraints","IMetaDataImport2::EnumGenericParamConstraints","rometadataapi/IMetaDataImport2::EnumGenericParamConstraints","winrt.imetadataimport2_enumgenericparamconstraints"]
+description: Gets an enumerator for an array of generic parameter constraints associated with the generic parameter represented by the specified token.
+helpviewer_keywords: ["EnumGenericParamConstraints","EnumGenericParamConstraints method [Windows Runtime]","EnumGenericParamConstraints method [Windows Runtime]","IMetaDataImport2 interface","IMetaDataImport2 interface [Windows Runtime]","EnumGenericParamConstraints method","IMetaDataImport2.EnumGenericParamConstraints","IMetaDataImport2::EnumGenericParamConstraints","rometadataapi/IMetaDataImport2::EnumGenericParamConstraints","winrt.imetadataimport2_enumgenericparamconstraints"]
 old-location: winrt\imetadataimport2_enumgenericparamconstraints.htm
 tech.root: WinRT
 ms.assetid: 5e8ba48d-7c94-4fc6-8def-db296065fdce

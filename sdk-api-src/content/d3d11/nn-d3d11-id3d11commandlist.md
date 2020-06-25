@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11.ID3D11CommandList
 title: ID3D11CommandList (d3d11.h)
-description: The ID3D11CommandList interface encapsulates a list of graphics commands for play back.helpviewer_keywords: ["6f498894-85b1-fe5f-e486-d12c2cb7a180","ID3D11CommandList","ID3D11CommandList interface [Direct3D 11]","ID3D11CommandList interface [Direct3D 11]","described","d3d11/ID3D11CommandList","direct3d11.id3d11commandlist"]
+description: The ID3D11CommandList interface encapsulates a list of graphics commands for play back.
+helpviewer_keywords: ["6f498894-85b1-fe5f-e486-d12c2cb7a180","ID3D11CommandList","ID3D11CommandList interface [Direct3D 11]","ID3D11CommandList interface [Direct3D 11]","described","d3d11/ID3D11CommandList","direct3d11.id3d11commandlist"]
 old-location: direct3d11\id3d11commandlist.htm
 tech.root: direct3d11
 ms.assetid: 432f1d21-bf13-4569-9c8f-04f5d2845150

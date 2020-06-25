@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiSetClassInstallParamsA
 title: SetupDiSetClassInstallParamsA function (setupapi.h)
-description: The SetupDiSetClassInstallParams function sets or clears class install parameters for a device information set or a particular device information element.helpviewer_keywords: ["SetupDiSetClassInstallParams","SetupDiSetClassInstallParams function [Device and Driver Installation]","SetupDiSetClassInstallParamsA","SetupDiSetClassInstallParamsW","devinst.setupdisetclassinstallparams","di-rtns_4bbd92e2-cdae-4b03-9b30-931b6155dc2c.xml","setupapi/SetupDiSetClassInstallParams"]
+description: The SetupDiSetClassInstallParams function sets or clears class install parameters for a device information set or a particular device information element.
+helpviewer_keywords: ["SetupDiSetClassInstallParams","SetupDiSetClassInstallParams function [Device and Driver Installation]","SetupDiSetClassInstallParamsA","SetupDiSetClassInstallParamsW","devinst.setupdisetclassinstallparams","di-rtns_4bbd92e2-cdae-4b03-9b30-931b6155dc2c.xml","setupapi/SetupDiSetClassInstallParams"]
 old-location: devinst\setupdisetclassinstallparams.htm
 tech.root: devinst
 ms.assetid: a7f35e32-eaad-440b-8109-7320048ec7ba
@@ -101,6 +102,10 @@ If the class install parameters are cleared, the DI_CLASSINSTALLPARAMS flag is r
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiSetClassInstallParams as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

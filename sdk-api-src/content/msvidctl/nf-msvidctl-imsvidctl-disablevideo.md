@@ -1,7 +1,8 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.DisableVideo
 title: IMSVidCtl::DisableVideo (msvidctl.h)
-description: The DisableVideo method disables the video renderer.helpviewer_keywords: ["DisableVideo","DisableVideo method [Microsoft TV Technologies]","DisableVideo method [Microsoft TV Technologies]","IMSVidCtl interface","IMSVidCtl interface [Microsoft TV Technologies]","DisableVideo method","IMSVidCtl.DisableVideo","IMSVidCtl::DisableVideo","IMSVidCtlDisableVideo","mstv.imsvidctl_disablevideo","msvidctl/IMSVidCtl::DisableVideo"]
+description: The DisableVideo method disables the video renderer.
+helpviewer_keywords: ["DisableVideo","DisableVideo method [Microsoft TV Technologies]","DisableVideo method [Microsoft TV Technologies]","IMSVidCtl interface","IMSVidCtl interface [Microsoft TV Technologies]","DisableVideo method","IMSVidCtl.DisableVideo","IMSVidCtl::DisableVideo","IMSVidCtlDisableVideo","mstv.imsvidctl_disablevideo","msvidctl/IMSVidCtl::DisableVideo"]
 old-location: mstv\imsvidctl_disablevideo.htm
 tech.root: mstv
 ms.assetid: 5c8f7af1-0416-4860-aa05-d2167452291e

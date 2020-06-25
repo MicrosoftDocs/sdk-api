@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetAllParamCustData
 title: ITypeInfo2::GetAllParamCustData (oaidl.h)
-description: Gets all of the custom data for the specified function parameter.helpviewer_keywords: ["GetAllParamCustData","GetAllParamCustData method [Automation]","GetAllParamCustData method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetAllParamCustData method","ITypeInfo2.GetAllParamCustData","ITypeInfo2::GetAllParamCustData","_oa96_ITypeInfo2_GetAllParamCustData","automat.itypeinfo2_getallparamcustdata","oaidl/ITypeInfo2::GetAllParamCustData"]
+description: Gets all of the custom data for the specified function parameter.
+helpviewer_keywords: ["GetAllParamCustData","GetAllParamCustData method [Automation]","GetAllParamCustData method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetAllParamCustData method","ITypeInfo2.GetAllParamCustData","ITypeInfo2::GetAllParamCustData","_oa96_ITypeInfo2_GetAllParamCustData","automat.itypeinfo2_getallparamcustdata","oaidl/ITypeInfo2::GetAllParamCustData"]
 old-location: automat\itypeinfo2_getallparamcustdata.htm
 tech.root: automat
 ms.assetid: cb5ab67e-b5ff-40fd-a25f-d8dfb1e2c636

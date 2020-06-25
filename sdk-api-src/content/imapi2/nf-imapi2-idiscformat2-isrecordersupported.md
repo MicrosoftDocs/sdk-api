@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2.IsRecorderSupported
 title: IDiscFormat2::IsRecorderSupported (imapi2.h)
-description: Determines if the recorder supports the given format.helpviewer_keywords: ["IDiscFormat2 interface [IMAPI]","IsRecorderSupported method","IDiscFormat2.IsRecorderSupported","IDiscFormat2::IsRecorderSupported","IsRecorderSupported","IsRecorderSupported method [IMAPI]","IsRecorderSupported method [IMAPI]","IDiscFormat2 interface","imapi.idiscformat2_isrecordersupported","imapi2/IDiscFormat2::IsRecorderSupported"]
+description: Determines if the recorder supports the given format.
+helpviewer_keywords: ["IDiscFormat2 interface [IMAPI]","IsRecorderSupported method","IDiscFormat2.IsRecorderSupported","IDiscFormat2::IsRecorderSupported","IsRecorderSupported","IsRecorderSupported method [IMAPI]","IsRecorderSupported method [IMAPI]","IDiscFormat2 interface","imapi.idiscformat2_isrecordersupported","imapi2/IDiscFormat2::IsRecorderSupported"]
 old-location: imapi\idiscformat2_isrecordersupported.htm
 tech.root: imapi
 ms.assetid: 1a96283a-a5a3-434a-834a-d539160cfc5c

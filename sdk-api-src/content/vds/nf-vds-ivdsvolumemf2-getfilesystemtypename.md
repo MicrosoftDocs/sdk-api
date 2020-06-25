@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsVolumeMF2.GetFileSystemTypeName
 title: IVdsVolumeMF2::GetFileSystemTypeName (vds.h)
-description: Retrieves the name of the file system on a volume.helpviewer_keywords: ["GetFileSystemTypeName","GetFileSystemTypeName method","GetFileSystemTypeName method","IVdsVolumeMF2 interface","IVdsVolumeMF2 interface","GetFileSystemTypeName method","IVdsVolumeMF2.GetFileSystemTypeName","IVdsVolumeMF2::GetFileSystemTypeName","base.ivdsvolumemf2_getfilesystemtypename","vds/IVdsVolumeMF2::GetFileSystemTypeName"]
+description: Retrieves the name of the file system on a volume.
+helpviewer_keywords: ["GetFileSystemTypeName","GetFileSystemTypeName method","GetFileSystemTypeName method","IVdsVolumeMF2 interface","IVdsVolumeMF2 interface","GetFileSystemTypeName method","IVdsVolumeMF2.GetFileSystemTypeName","IVdsVolumeMF2::GetFileSystemTypeName","base.ivdsvolumemf2_getfilesystemtypename","vds/IVdsVolumeMF2::GetFileSystemTypeName"]
 old-location: base\ivdsvolumemf2_getfilesystemtypename.htm
 tech.root: VDS
 ms.assetid: f9e8627b-0531-4dcb-9818-7560372aa4b0

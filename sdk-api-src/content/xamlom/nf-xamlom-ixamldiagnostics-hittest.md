@@ -1,7 +1,8 @@
 ---
 UID: NF:xamlom.IXamlDiagnostics.HitTest
 title: IXamlDiagnostics::HitTest (xamlom.h)
-description: Gets all elements in the visual tree that fall within the specified rectangle.helpviewer_keywords: ["HitTest","HitTest method","HitTest method","IXamlDiagnostics interface","IXamlDiagnostics interface","HitTest method","IXamlDiagnostics.HitTest","IXamlDiagnostics::HitTest","xaml_diagnostics.ixamldiagnostics_hittest","xamlom/IXamlDiagnostics::HitTest"]
+description: Gets all elements in the visual tree that fall within the specified rectangle.
+helpviewer_keywords: ["HitTest","HitTest method","HitTest method","IXamlDiagnostics interface","IXamlDiagnostics interface","HitTest method","IXamlDiagnostics.HitTest","IXamlDiagnostics::HitTest","xaml_diagnostics.ixamldiagnostics_hittest","xamlom/IXamlDiagnostics::HitTest"]
 old-location: xaml_diagnostics\ixamldiagnostics_hittest.htm
 tech.root: xaml_diagnostics
 ms.assetid: B7722F49-F477-4D24-9183-BC09A4A12730

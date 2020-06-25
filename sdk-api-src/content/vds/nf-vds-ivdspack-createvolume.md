@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsPack.CreateVolume
 title: IVdsPack::CreateVolume (vds.h)
-description: Creates a volume within the pack.helpviewer_keywords: ["CreateVolume","CreateVolume method [VDS]","CreateVolume method [VDS]","IVdsPack interface","IVdsPack interface [VDS]","CreateVolume method","IVdsPack.CreateVolume","IVdsPack::CreateVolume","base.ivdspack_createvolume","vds/IVdsPack::CreateVolume"]
+description: Creates a volume within the pack.
+helpviewer_keywords: ["CreateVolume","CreateVolume method [VDS]","CreateVolume method [VDS]","IVdsPack interface","IVdsPack interface [VDS]","CreateVolume method","IVdsPack.CreateVolume","IVdsPack::CreateVolume","base.ivdspack_createvolume","vds/IVdsPack::CreateVolume"]
 old-location: base\ivdspack_createvolume.htm
 tech.root: VDS
 ms.assetid: 26fea1a4-f060-49e2-a7ac-0e751f798c72

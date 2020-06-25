@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetworkConnections
 title: INetworkListManager::GetNetworkConnections (netlistmgr.h)
-description: The GetNetworkConnections method enumerates a complete list of the network connections that have been made.helpviewer_keywords: ["GetNetworkConnections","GetNetworkConnections method [Network Awareness]","GetNetworkConnections method [Network Awareness]","INetworkListManager interface","INetworkListManager interface [Network Awareness]","GetNetworkConnections method","INetworkListManager.GetNetworkConnections","INetworkListManager::GetNetworkConnections","netlistmgr/INetworkListManager::GetNetworkConnections","nla.inetworklistmanager_getnetworkconnections"]
+description: The GetNetworkConnections method enumerates a complete list of the network connections that have been made.
+helpviewer_keywords: ["GetNetworkConnections","GetNetworkConnections method [Network Awareness]","GetNetworkConnections method [Network Awareness]","INetworkListManager interface","INetworkListManager interface [Network Awareness]","GetNetworkConnections method","INetworkListManager.GetNetworkConnections","INetworkListManager::GetNetworkConnections","netlistmgr/INetworkListManager::GetNetworkConnections","nla.inetworklistmanager_getnetworkconnections"]
 old-location: nla\inetworklistmanager_getnetworkconnections.htm
 tech.root: nla
 ms.assetid: ddbf02ae-3232-4866-b4c1-e4611b680f9f

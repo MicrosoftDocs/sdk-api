@@ -1,7 +1,8 @@
 ---
 UID: NN:dsclient.IDsBrowseDomainTree
 title: IDsBrowseDomainTree (dsclient.h)
-description: The IDsBrowseDomainTree interface is used by an application to display a domain browser dialog box and/or obtain a list of trust domains related to a given computer.helpviewer_keywords: ["IDsBrowseDomainTree","IDsBrowseDomainTree interface [Active Directory]","IDsBrowseDomainTree interface [Active Directory]","described","_glines_idsbrowsedomaintree","ad.idsbrowsedomaintree","dsclient/IDsBrowseDomainTree"]
+description: The IDsBrowseDomainTree interface is used by an application to display a domain browser dialog box and/or obtain a list of trust domains related to a given computer.
+helpviewer_keywords: ["IDsBrowseDomainTree","IDsBrowseDomainTree interface [Active Directory]","IDsBrowseDomainTree interface [Active Directory]","described","_glines_idsbrowsedomaintree","ad.idsbrowsedomaintree","dsclient/IDsBrowseDomainTree"]
 old-location: ad\idsbrowsedomaintree.htm
 tech.root: ad
 ms.assetid: f50caa34-d29e-4ad1-98b0-ef5c1f5550bf

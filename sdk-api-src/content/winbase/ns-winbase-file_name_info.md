@@ -1,7 +1,8 @@
 ---
 UID: NS:winbase._FILE_NAME_INFO
 title: FILE_NAME_INFO (winbase.h)
-description: Receives the file name.helpviewer_keywords: ["*PFILE_NAME_INFO","FILE_NAME_INFO","FILE_NAME_INFO structure [Files]","PFILE_NAME_INFO","PFILE_NAME_INFO structure pointer [Files]","fileextd/FILE_NAME_INFO","fileextd/PFILE_NAME_INFO","fs.file_name_info","winbase/FILE_NAME_INFO","winbase/PFILE_NAME_INFO"]
+description: Receives the file name.
+helpviewer_keywords: ["*PFILE_NAME_INFO","FILE_NAME_INFO","FILE_NAME_INFO structure [Files]","PFILE_NAME_INFO","PFILE_NAME_INFO structure pointer [Files]","fileextd/FILE_NAME_INFO","fileextd/PFILE_NAME_INFO","fs.file_name_info","winbase/FILE_NAME_INFO","winbase/PFILE_NAME_INFO"]
 old-location: fs\file_name_info.htm
 tech.root: FileIO
 ms.assetid: 7ab98f41-b99e-4731-b803-921064a961c4

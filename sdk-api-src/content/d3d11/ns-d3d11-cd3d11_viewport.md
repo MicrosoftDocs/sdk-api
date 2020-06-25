@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.CD3D11_VIEWPORT
 title: CD3D11_VIEWPORT (d3d11.h)
-description: Represents a viewport and provides convenience methods for creating viewports.helpviewer_keywords: ["CD3D11_VIEWPORT","CD3D11_VIEWPORT structure [Direct3D 11]","d3d11/CD3D11_VIEWPORT","direct3d11.cd3d11_viewport"]
+description: Represents a viewport and provides convenience methods for creating viewports.
+helpviewer_keywords: ["CD3D11_VIEWPORT","CD3D11_VIEWPORT structure [Direct3D 11]","d3d11/CD3D11_VIEWPORT","direct3d11.cd3d11_viewport"]
 old-location: direct3d11\cd3d11_viewport.htm
 tech.root: direct3d11
 ms.assetid: F4C7E5E7-1986-4210-83BC-80277A47CB97

@@ -1,7 +1,8 @@
 ---
 UID: NN:objidl.IPersistStorage
 title: IPersistStorage (objidl.h)
-description: Enables a container application to pass a storage object to one of its contained objects and to load and save the storage object.helpviewer_keywords: ["IPersistStorage","IPersistStorage interface [COM]","IPersistStorage interface [COM]","described","_com_ipersiststorage","com.ipersiststorage","objidl/IPersistStorage"]
+description: Enables a container application to pass a storage object to one of its contained objects and to load and save the storage object.
+helpviewer_keywords: ["IPersistStorage","IPersistStorage interface [COM]","IPersistStorage interface [COM]","described","_com_ipersiststorage","com.ipersiststorage","objidl/IPersistStorage"]
 old-location: com\ipersiststorage.htm
 tech.root: com
 ms.assetid: 1c1a20fc-c101-4cbc-a7a6-30613aa387d7

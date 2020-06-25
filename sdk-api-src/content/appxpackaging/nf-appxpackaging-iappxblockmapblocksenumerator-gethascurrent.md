@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBlockMapBlocksEnumerator.GetHasCurrent
 title: IAppxBlockMapBlocksEnumerator::GetHasCurrent (appxpackaging.h)
-description: Determines whether there is a block at the current position of the enumerator.helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxBlockMapBlocksEnumerator interface","IAppxBlockMapBlocksEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxBlockMapBlocksEnumerator.GetHasCurrent","IAppxBlockMapBlocksEnumerator::GetHasCurrent","appxpackaging/IAppxBlockMapBlocksEnumerator::GetHasCurrent","appxpkg.iappxblockmapblocksenumerator_gethascurrent"]
+description: Determines whether there is a block at the current position of the enumerator.
+helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxBlockMapBlocksEnumerator interface","IAppxBlockMapBlocksEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxBlockMapBlocksEnumerator.GetHasCurrent","IAppxBlockMapBlocksEnumerator::GetHasCurrent","appxpackaging/IAppxBlockMapBlocksEnumerator::GetHasCurrent","appxpkg.iappxblockmapblocksenumerator_gethascurrent"]
 old-location: appxpkg\iappxblockmapblocksenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: AC12BCDD-201C-4F22-B39E-1349EB84ED00

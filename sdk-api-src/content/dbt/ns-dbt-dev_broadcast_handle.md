@@ -1,7 +1,8 @@
 ---
 UID: NS:dbt._DEV_BROADCAST_HANDLE
 title: DEV_BROADCAST_HANDLE (dbt.h)
-description: Contains information about a file system handle.helpviewer_keywords: ["*PDEV_BROADCAST_HANDLE","DEV_BROADCAST_HANDLE","DEV_BROADCAST_HANDLE structure","PDEV_BROADCAST_HANDLE","PDEV_BROADCAST_HANDLE structure pointer","_win32_dev_broadcast_handle_str","base.dev_broadcast_handle_str","dbt/DEV_BROADCAST_HANDLE","dbt/PDEV_BROADCAST_HANDLE"]
+description: Contains information about a file system handle.
+helpviewer_keywords: ["*PDEV_BROADCAST_HANDLE","DEV_BROADCAST_HANDLE","DEV_BROADCAST_HANDLE structure","PDEV_BROADCAST_HANDLE","PDEV_BROADCAST_HANDLE structure pointer","_win32_dev_broadcast_handle_str","base.dev_broadcast_handle_str","dbt/DEV_BROADCAST_HANDLE","dbt/PDEV_BROADCAST_HANDLE"]
 old-location: base\dev_broadcast_handle_str.htm
 tech.root: devio
 ms.assetid: 5e542abc-8db3-4251-8b68-11456aa2da5e

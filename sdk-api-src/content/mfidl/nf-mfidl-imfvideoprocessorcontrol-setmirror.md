@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetMirror
 title: IMFVideoProcessorControl::SetMirror (mfidl.h)
-description: Specifies whether to flip the video image.helpviewer_keywords: ["IMFVideoProcessorControl interface [Media Foundation]","SetMirror method","IMFVideoProcessorControl.SetMirror","IMFVideoProcessorControl::SetMirror","SetMirror","SetMirror method [Media Foundation]","SetMirror method [Media Foundation]","IMFVideoProcessorControl interface","mf.imfvideoprocessorcontrol_setmirror","mfidl/IMFVideoProcessorControl::SetMirror"]
+description: Specifies whether to flip the video image.
+helpviewer_keywords: ["IMFVideoProcessorControl interface [Media Foundation]","SetMirror method","IMFVideoProcessorControl.SetMirror","IMFVideoProcessorControl::SetMirror","SetMirror","SetMirror method [Media Foundation]","SetMirror method [Media Foundation]","IMFVideoProcessorControl interface","mf.imfvideoprocessorcontrol_setmirror","mfidl/IMFVideoProcessorControl::SetMirror"]
 old-location: mf\imfvideoprocessorcontrol_setmirror.htm
 tech.root: medfound
 ms.assetid: 4529FEE5-7FDF-4EFF-93C1-E20A63186496

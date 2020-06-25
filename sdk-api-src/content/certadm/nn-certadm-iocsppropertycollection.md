@@ -1,7 +1,8 @@
 ---
 UID: NN:certadm.IOCSPPropertyCollection
 title: IOCSPPropertyCollection (certadm.h)
-description: Represents a set of configurable attribute properties (name-value pairs) for an Online Certificate Status Protocol (OCSP) service.helpviewer_keywords: ["IOCSPPropertyCollection","IOCSPPropertyCollection interface [Security]","IOCSPPropertyCollection interface [Security]","described","certadm/IOCSPPropertyCollection","security.iocsppropertycollection"]
+description: Represents a set of configurable attribute properties (name-value pairs) for an Online Certificate Status Protocol (OCSP) service.
+helpviewer_keywords: ["IOCSPPropertyCollection","IOCSPPropertyCollection interface [Security]","IOCSPPropertyCollection interface [Security]","described","certadm/IOCSPPropertyCollection","security.iocsppropertycollection"]
 old-location: security\iocsppropertycollection.htm
 tech.root: SecCrypto
 ms.assetid: 8c700357-0cb4-4780-9ff1-ac57c46f9183

@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IMtsGrp
 title: IMtsGrp (comsvcs.h)
-description: Provides methods for enumerating through running packages.helpviewer_keywords: ["IMtsGrp","IMtsGrp interface [COM+]","IMtsGrp interface [COM+]","described","_dtc_IMtsGrp_Interface","comsvcs/IMtsGrp","cos.imtsgrp"]
+description: Provides methods for enumerating through running packages.
+helpviewer_keywords: ["IMtsGrp","IMtsGrp interface [COM+]","IMtsGrp interface [COM+]","described","_dtc_IMtsGrp_Interface","comsvcs/IMtsGrp","cos.imtsgrp"]
 old-location: cos\imtsgrp.htm
 tech.root: cossdk
 ms.assetid: 976b4f0a-79cb-4b2d-8d69-225230147c53

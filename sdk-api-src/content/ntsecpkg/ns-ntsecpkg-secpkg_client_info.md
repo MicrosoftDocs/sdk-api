@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecpkg._SECPKG_CLIENT_INFO
 title: SECPKG_CLIENT_INFO (ntsecpkg.h)
-description: The SECPKG_CLIENT_INFO structure holds information about a security package's client. This structure is used by the GetClientInfo function.helpviewer_keywords: ["*PSECPKG_CLIENT_INFO","PSECPKG_CLIENT_INFO","PSECPKG_CLIENT_INFO structure pointer [Security]","SECPKG_CLIENT_INFO","SECPKG_CLIENT_INFO structure [Security]","_ssp_secpkg_client_info","ntsecpkg/PSECPKG_CLIENT_INFO","ntsecpkg/SECPKG_CLIENT_INFO","security.secpkg_client_info"]
+description: The SECPKG_CLIENT_INFO structure holds information about a security package's client. This structure is used by the GetClientInfo function.
+helpviewer_keywords: ["*PSECPKG_CLIENT_INFO","PSECPKG_CLIENT_INFO","PSECPKG_CLIENT_INFO structure pointer [Security]","SECPKG_CLIENT_INFO","SECPKG_CLIENT_INFO structure [Security]","_ssp_secpkg_client_info","ntsecpkg/PSECPKG_CLIENT_INFO","ntsecpkg/SECPKG_CLIENT_INFO","security.secpkg_client_info"]
 old-location: security\secpkg_client_info.htm
 tech.root: SecAuthN
 ms.assetid: c9c58a50-7fc2-44a7-9551-a2675410b2b5

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IEnumExtraSearch.Reset
 title: IEnumExtraSearch::Reset (shobjidl_core.h)
-description: Used to reset the enumeration index to zero.helpviewer_keywords: ["IEnumExtraSearch interface [Windows Shell]","Reset method","IEnumExtraSearch.Reset","IEnumExtraSearch::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumExtraSearch interface","_win32_IEnumExtraSearch_Reset","shell.IEnumExtraSearch_Reset","shobjidl_core/IEnumExtraSearch::Reset"]
+description: Used to reset the enumeration index to zero.
+helpviewer_keywords: ["IEnumExtraSearch interface [Windows Shell]","Reset method","IEnumExtraSearch.Reset","IEnumExtraSearch::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumExtraSearch interface","_win32_IEnumExtraSearch_Reset","shell.IEnumExtraSearch_Reset","shobjidl_core/IEnumExtraSearch::Reset"]
 old-location: shell\IEnumExtraSearch_Reset.htm
 tech.root: shell
 ms.assetid: c5b74037-1188-4979-8acf-6994ceb15719

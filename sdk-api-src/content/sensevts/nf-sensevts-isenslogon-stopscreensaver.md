@@ -1,7 +1,8 @@
 ---
 UID: NF:sensevts.ISensLogon.StopScreenSaver
 title: ISensLogon::StopScreenSaver (sensevts.h)
-description: The StopScreenSaver method notifies an application that a screen saver is stopped.helpviewer_keywords: ["ISensLogon interface [SENS]","StopScreenSaver method","ISensLogon.StopScreenSaver","ISensLogon::StopScreenSaver","StopScreenSaver","StopScreenSaver method [SENS]","StopScreenSaver method [SENS]","ISensLogon interface","_zaw_isenslogon_stopscreensaver","sens.isenslogon_stopscreensaver","sensevts/ISensLogon::StopScreenSaver","syncmgr.isenslogon_stopscreensaver"]
+description: The StopScreenSaver method notifies an application that a screen saver is stopped.
+helpviewer_keywords: ["ISensLogon interface [SENS]","StopScreenSaver method","ISensLogon.StopScreenSaver","ISensLogon::StopScreenSaver","StopScreenSaver","StopScreenSaver method [SENS]","StopScreenSaver method [SENS]","ISensLogon interface","_zaw_isenslogon_stopscreensaver","sens.isenslogon_stopscreensaver","sensevts/ISensLogon::StopScreenSaver","syncmgr.isenslogon_stopscreensaver"]
 old-location: sens\isenslogon_stopscreensaver.htm
 tech.root: Sens
 ms.assetid: 61a6434b-1a80-4a37-9175-636c3792a865

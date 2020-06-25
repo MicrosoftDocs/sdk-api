@@ -1,7 +1,8 @@
 ---
 UID: NE:rend.RND_ADVERTISING_SCOPE
 title: RND_ADVERTISING_SCOPE (rend.h)
-description: Members of the RND_ADVERTISING_SCOPE enumeration specify how widely a conference announcement is distributed. Values correspond to the advertising scope property on the ITDirectoryObjectConference interface.helpviewer_keywords: ["RAS_LOCAL","RAS_REGION","RAS_SITE","RAS_WORLD","RND_ADVERTISING_SCOPE","RND_ADVERTISING_SCOPE enumeration [TAPI 2.2]","_tapi3_rnd_advertising_scope","rend/RAS_LOCAL","rend/RAS_REGION","rend/RAS_SITE","rend/RAS_WORLD","rend/RND_ADVERTISING_SCOPE","tapi3.rnd_advertising_scope"]
+description: Members of the RND_ADVERTISING_SCOPE enumeration specify how widely a conference announcement is distributed. Values correspond to the advertising scope property on the ITDirectoryObjectConference interface.
+helpviewer_keywords: ["RAS_LOCAL","RAS_REGION","RAS_SITE","RAS_WORLD","RND_ADVERTISING_SCOPE","RND_ADVERTISING_SCOPE enumeration [TAPI 2.2]","_tapi3_rnd_advertising_scope","rend/RAS_LOCAL","rend/RAS_REGION","rend/RAS_SITE","rend/RAS_WORLD","rend/RND_ADVERTISING_SCOPE","tapi3.rnd_advertising_scope"]
 old-location: tapi3\rnd_advertising_scope.htm
 tech.root: Tapi
 ms.assetid: e08e7b8a-e27b-48a8-ab2d-d4ce5fed912a

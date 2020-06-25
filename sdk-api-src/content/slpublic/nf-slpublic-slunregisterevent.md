@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLUnregisterEvent
 title: SLUnregisterEvent function (slpublic.h)
-description: Unregisters a registered event in the SL service.helpviewer_keywords: ["SLUnregisterEvent","SLUnregisterEvent function [Security]","security.slunregisterevent","slpublic/SLUnregisterEvent"]
+description: Unregisters a registered event in the SL service.
+helpviewer_keywords: ["SLUnregisterEvent","SLUnregisterEvent function [Security]","security.slunregisterevent","slpublic/SLUnregisterEvent"]
 old-location: security\slunregisterevent.htm
 tech.root: SecSLApi
 ms.assetid: 0fd02eb4-16d9-4892-b50c-3f9b0ead8478

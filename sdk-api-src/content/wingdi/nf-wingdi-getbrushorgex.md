@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetBrushOrgEx
 title: GetBrushOrgEx function (wingdi.h)
-description: The GetBrushOrgEx function retrieves the current brush origin for the specified device context. This function replaces the GetBrushOrg function.helpviewer_keywords: ["GetBrushOrgEx","GetBrushOrgEx function [Windows GDI]","_win32_GetBrushOrgEx","gdi.getbrushorgex","wingdi/GetBrushOrgEx"]
+description: The GetBrushOrgEx function retrieves the current brush origin for the specified device context. This function replaces the GetBrushOrg function.
+helpviewer_keywords: ["GetBrushOrgEx","GetBrushOrgEx function [Windows GDI]","_win32_GetBrushOrgEx","gdi.getbrushorgex","wingdi/GetBrushOrgEx"]
 old-location: gdi\getbrushorgex.htm
 tech.root: gdi
 ms.assetid: 0b938237-cb06-4776-86f8-14478abcee00

@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IGetClusterUIInfo.GetIcon
 title: IGetClusterUIInfo::GetIcon (cluadmex.h)
-description: Returns a handle to the icon to use in the upper-left corner of property and wizard pages.helpviewer_keywords: ["GetIcon","GetIcon method [Failover Cluster]","GetIcon method [Failover Cluster]","IGetClusterUIInfo interface","IGetClusterUIInfo interface [Failover Cluster]","GetIcon method","IGetClusterUIInfo.GetIcon","IGetClusterUIInfo::GetIcon","_wolf_igetclusteruiinfo_geticon","cluadmex/IGetClusterUIInfo::GetIcon","mscs.igetclusteruiinfo_geticon"]
+description: Returns a handle to the icon to use in the upper-left corner of property and wizard pages.
+helpviewer_keywords: ["GetIcon","GetIcon method [Failover Cluster]","GetIcon method [Failover Cluster]","IGetClusterUIInfo interface","IGetClusterUIInfo interface [Failover Cluster]","GetIcon method","IGetClusterUIInfo.GetIcon","IGetClusterUIInfo::GetIcon","_wolf_igetclusteruiinfo_geticon","cluadmex/IGetClusterUIInfo::GetIcon","mscs.igetclusteruiinfo_geticon"]
 old-location: mscs\igetclusteruiinfo_geticon.htm
 tech.root: MsCS
 ms.assetid: b4572178-6225-4a22-8b45-7e8abbaa9759

@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ICertificationAuthorities.Add
 title: ICertificationAuthorities::Add (certenroll.h)
-description: Adds an ICertificationAuthority object to the collection.helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICertificationAuthorities interface","ICertificationAuthorities interface [Security]","Add method","ICertificationAuthorities.Add","ICertificationAuthorities::Add","certenroll/ICertificationAuthorities::Add","security.icertificationauthorities_add"]
+description: Adds an ICertificationAuthority object to the collection.
+helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICertificationAuthorities interface","ICertificationAuthorities interface [Security]","Add method","ICertificationAuthorities.Add","ICertificationAuthorities::Add","certenroll/ICertificationAuthorities::Add","security.icertificationauthorities_add"]
 old-location: security\icertificationauthorities_add.htm
 tech.root: seccertenroll
 ms.assetid: 8a618b8b-9089-4f35-afd4-b11255a26ac9

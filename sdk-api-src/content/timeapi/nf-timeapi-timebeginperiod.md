@@ -1,7 +1,8 @@
 ---
 UID: NF:timeapi.timeBeginPeriod
 title: timeBeginPeriod function (timeapi.h)
-description: The timeBeginPeriod function requests a minimum resolution for periodic timers.helpviewer_keywords: ["_win32_timeBeginPeriod","mmsystem/timeBeginPeriod","multimedia.timebeginperiod","timeBeginPeriod","timeBeginPeriod function [Windows Multimedia]","timeapi/timeBeginPeriod"]
+description: The timeBeginPeriod function requests a minimum resolution for periodic timers.
+helpviewer_keywords: ["_win32_timeBeginPeriod","mmsystem/timeBeginPeriod","multimedia.timebeginperiod","timeBeginPeriod","timeBeginPeriod function [Windows Multimedia]","timeapi/timeBeginPeriod"]
 old-location: multimedia\timebeginperiod.htm
 tech.root: Multimedia
 ms.assetid: 7168981c-9af8-4665-88a2-7d96a8f2b273

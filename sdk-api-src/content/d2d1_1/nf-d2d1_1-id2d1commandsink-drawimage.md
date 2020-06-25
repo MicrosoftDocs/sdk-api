@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.DrawImage
 title: ID2D1CommandSink::DrawImage (d2d1_1.h)
-description: Draws the provided image to the command sink.helpviewer_keywords: ["DrawImage","DrawImage method [Direct2D]","DrawImage method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","DrawImage method","ID2D1CommandSink.DrawImage","ID2D1CommandSink::DrawImage","d2d1_1/ID2D1CommandSink::DrawImage","direct2d.id2d1commandsink_drawimage"]
+description: Draws the provided image to the command sink.
+helpviewer_keywords: ["DrawImage","DrawImage method [Direct2D]","DrawImage method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","DrawImage method","ID2D1CommandSink.DrawImage","ID2D1CommandSink::DrawImage","d2d1_1/ID2D1CommandSink::DrawImage","direct2d.id2d1commandsink_drawimage"]
 old-location: direct2d\id2d1commandsink_drawimage.htm
 tech.root: Direct2D
 ms.assetid: 1235dd6d-8495-4a92-96b7-4d741d9e296f

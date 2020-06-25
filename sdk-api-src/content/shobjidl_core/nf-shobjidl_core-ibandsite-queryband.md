@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IBandSite.QueryBand
 title: IBandSite::QueryBand (shobjidl_core.h)
-description: Gets information about a band in a band site.helpviewer_keywords: ["IBandSite interface [Windows Shell]","QueryBand method","IBandSite.QueryBand","IBandSite::QueryBand","QueryBand","QueryBand method [Windows Shell]","QueryBand method [Windows Shell]","IBandSite interface","_win32_IBandSite_QueryBand","shell.IBandSite_QueryBand","shobjidl_core/IBandSite::QueryBand"]
+description: Gets information about a band in a band site.
+helpviewer_keywords: ["IBandSite interface [Windows Shell]","QueryBand method","IBandSite.QueryBand","IBandSite::QueryBand","QueryBand","QueryBand method [Windows Shell]","QueryBand method [Windows Shell]","IBandSite interface","_win32_IBandSite_QueryBand","shell.IBandSite_QueryBand","shobjidl_core/IBandSite::QueryBand"]
 old-location: shell\IBandSite_QueryBand.htm
 tech.root: shell
 ms.assetid: 0618ad7d-4e8f-4fbf-ab64-2b1c0d42158c

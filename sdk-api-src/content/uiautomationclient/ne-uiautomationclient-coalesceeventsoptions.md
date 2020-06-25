@@ -1,7 +1,8 @@
 ---
 UID: NE:uiautomationclient.CoalesceEventsOptions
 title: CoalesceEventsOptions (uiautomationclient.h)
-description: Contains possible values for the CoalesceEvents property, which indicates whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.helpviewer_keywords: ["CoalesceEventsOptions","CoalesceEventsOptions enumeration [Windows Accessibility]","CoalesceEventsOptions_Disabled","CoalesceEventsOptions_Enabled","uiautomationclient/CoalesceEventsOptions","uiautomationclient/CoalesceEventsOptions_Disabled","uiautomationclient/CoalesceEventsOptions_Enabled","winauto.uiauto_coalesceeventsoptions_enum"]
+description: Contains possible values for the CoalesceEvents property, which indicates whether an accessible technology client receives all events, or a subset where duplicate events are detected and filtered.
+helpviewer_keywords: ["CoalesceEventsOptions","CoalesceEventsOptions enumeration [Windows Accessibility]","CoalesceEventsOptions_Disabled","CoalesceEventsOptions_Enabled","uiautomationclient/CoalesceEventsOptions","uiautomationclient/CoalesceEventsOptions_Disabled","uiautomationclient/CoalesceEventsOptions_Enabled","winauto.uiauto_coalesceeventsoptions_enum"]
 old-location: winauto\uiauto_coalesceeventsoptions_enum.htm
 tech.root: WinAuto
 ms.assetid: 2CE5A02A-40B4-43BE-863E-08AD9B2A9F75

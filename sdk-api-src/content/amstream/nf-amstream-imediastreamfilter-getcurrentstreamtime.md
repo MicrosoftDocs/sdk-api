@@ -1,7 +1,8 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.GetCurrentStreamTime
 title: IMediaStreamFilter::GetCurrentStreamTime (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The GetCurrentStreamTime method retrieves the current stream time.helpviewer_keywords: ["GetCurrentStreamTime","GetCurrentStreamTime method [DirectShow]","GetCurrentStreamTime method [DirectShow]","IMediaStreamFilter interface","IMediaStreamFilter interface [DirectShow]","GetCurrentStreamTime method","IMediaStreamFilter.GetCurrentStreamTime","IMediaStreamFilter::GetCurrentStreamTime","IMediaStreamFilterGetCurrentStreamTime","amstream/IMediaStreamFilter::GetCurrentStreamTime","dshow.imediastreamfilter_getcurrentstreamtime"]
+description: Note  This interface is deprecated. New applications should not use it. The GetCurrentStreamTime method retrieves the current stream time.
+helpviewer_keywords: ["GetCurrentStreamTime","GetCurrentStreamTime method [DirectShow]","GetCurrentStreamTime method [DirectShow]","IMediaStreamFilter interface","IMediaStreamFilter interface [DirectShow]","GetCurrentStreamTime method","IMediaStreamFilter.GetCurrentStreamTime","IMediaStreamFilter::GetCurrentStreamTime","IMediaStreamFilterGetCurrentStreamTime","amstream/IMediaStreamFilter::GetCurrentStreamTime","dshow.imediastreamfilter_getcurrentstreamtime"]
 old-location: dshow\imediastreamfilter_getcurrentstreamtime.htm
 tech.root: DirectShow
 ms.assetid: 933f83a3-600e-4897-b4df-a481d2874155

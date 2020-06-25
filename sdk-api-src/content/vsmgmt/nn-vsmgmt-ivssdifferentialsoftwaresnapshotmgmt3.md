@@ -1,7 +1,8 @@
 ---
 UID: NN:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3
 title: IVssDifferentialSoftwareSnapshotMgmt3 (vsmgmt.h)
-description: Defines methods that allow applications to use the shadow copy protection feature of VSS.helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt3","IVssDifferentialSoftwareSnapshotMgmt3 interface","IVssDifferentialSoftwareSnapshotMgmt3 interface","described","base.ivssdifferentialsoftwaresnapshotmgmt3","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3"]
+description: Defines methods that allow applications to use the shadow copy protection feature of VSS.
+helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt3","IVssDifferentialSoftwareSnapshotMgmt3 interface","IVssDifferentialSoftwareSnapshotMgmt3 interface","described","base.ivssdifferentialsoftwaresnapshotmgmt3","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3.htm
 tech.root: VSS
 ms.assetid: e5abcf69-748a-4ed6-973d-8ba49ec22ef2

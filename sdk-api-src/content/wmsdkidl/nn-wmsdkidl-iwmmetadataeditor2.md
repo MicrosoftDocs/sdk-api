@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMMetadataEditor2
 title: IWMMetadataEditor2 (wmsdkidl.h)
-description: The IWMMetadataEditor2 interface provides an improved method for opening files for metadata operations.This interface is implemented as part of the metadata editor object.helpviewer_keywords: ["IWMMetadataEditor2","IWMMetadataEditor2 interface [windows Media Format]","IWMMetadataEditor2 interface [windows Media Format]","described","IWMMetadataEditor2Interface","wmformat.iwmmetadataeditor2","wmsdkidl/IWMMetadataEditor2"]
+description: The IWMMetadataEditor2 interface provides an improved method for opening files for metadata operations.This interface is implemented as part of the metadata editor object.
+helpviewer_keywords: ["IWMMetadataEditor2","IWMMetadataEditor2 interface [windows Media Format]","IWMMetadataEditor2 interface [windows Media Format]","described","IWMMetadataEditor2Interface","wmformat.iwmmetadataeditor2","wmsdkidl/IWMMetadataEditor2"]
 old-location: wmformat\iwmmetadataeditor2.htm
 tech.root: wmformat
 ms.assetid: e991ac8e-35af-484f-8c60-dc6a7d402120

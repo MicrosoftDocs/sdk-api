@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.IAnchor.Shift
 title: IAnchor::Shift (textstor.h)
-description: The IAnchor::Shift method shifts the anchor forward or backward within a text stream.helpviewer_keywords: ["IAnchor interface [Text Services Framework]","Shift method","IAnchor.Shift","IAnchor::Shift","Shift","Shift method [Text Services Framework]","Shift method [Text Services Framework]","IAnchor interface","TS_SHIFT_COUNT_ONLY","textstor/IAnchor::Shift","tsf.ianchor_shift"]
+description: The IAnchor::Shift method shifts the anchor forward or backward within a text stream.
+helpviewer_keywords: ["IAnchor interface [Text Services Framework]","Shift method","IAnchor.Shift","IAnchor::Shift","Shift","Shift method [Text Services Framework]","Shift method [Text Services Framework]","IAnchor interface","TS_SHIFT_COUNT_ONLY","textstor/IAnchor::Shift","tsf.ianchor_shift"]
 old-location: tsf\ianchor_shift.htm
 tech.root: TSF
 ms.assetid: e57a78e6-42e6-4a2b-b4e1-20bb64add872

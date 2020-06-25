@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.PATHOBJ_vGetBounds
 title: PATHOBJ_vGetBounds function (winddi.h)
-description: The PATHOBJ_vGetBounds function retrieves the bounding rectangle for the specified path.helpviewer_keywords: ["PATHOBJ_vGetBounds","PATHOBJ_vGetBounds function [Display Devices]","display.pathobj_vgetbounds","gdifncs_d5ad1bbf-ddbe-43c1-92a9-dbe3a0091b24.xml","winddi/PATHOBJ_vGetBounds"]
+description: The PATHOBJ_vGetBounds function retrieves the bounding rectangle for the specified path.
+helpviewer_keywords: ["PATHOBJ_vGetBounds","PATHOBJ_vGetBounds function [Display Devices]","display.pathobj_vgetbounds","gdifncs_d5ad1bbf-ddbe-43c1-92a9-dbe3a0091b24.xml","winddi/PATHOBJ_vGetBounds"]
 old-location: display\pathobj_vgetbounds.htm
 tech.root: display
 ms.assetid: f7ce7909-552c-4e23-a620-280fadeade01

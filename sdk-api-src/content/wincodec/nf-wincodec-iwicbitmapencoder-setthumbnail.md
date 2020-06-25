@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetThumbnail
 title: IWICBitmapEncoder::SetThumbnail (wincodec.h)
-description: Sets the global thumbnail for the image.helpviewer_keywords: ["IWICBitmapEncoder interface [Windows Imaging Component]","SetThumbnail method","IWICBitmapEncoder.SetThumbnail","IWICBitmapEncoder::SetThumbnail","SetThumbnail","SetThumbnail method [Windows Imaging Component]","SetThumbnail method [Windows Imaging Component]","IWICBitmapEncoder interface","_wic_codec_iwicbitmapencoder_setthumbnail","wic._wic_codec_iwicbitmapencoder_setthumbnail","wincodec/IWICBitmapEncoder::SetThumbnail"]
+description: Sets the global thumbnail for the image.
+helpviewer_keywords: ["IWICBitmapEncoder interface [Windows Imaging Component]","SetThumbnail method","IWICBitmapEncoder.SetThumbnail","IWICBitmapEncoder::SetThumbnail","SetThumbnail","SetThumbnail method [Windows Imaging Component]","SetThumbnail method [Windows Imaging Component]","IWICBitmapEncoder interface","_wic_codec_iwicbitmapencoder_setthumbnail","wic._wic_codec_iwicbitmapencoder_setthumbnail","wincodec/IWICBitmapEncoder::SetThumbnail"]
 old-location: wic\_wic_codec_iwicbitmapencoder_setthumbnail.htm
 tech.root: wic
 ms.assetid: ecabfde8-0079-4059-8691-bbe3f0baa934

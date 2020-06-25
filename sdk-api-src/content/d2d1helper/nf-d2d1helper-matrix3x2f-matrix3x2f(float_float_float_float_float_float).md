@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1helper.Matrix3x2F.Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT)
 title: Matrix3x2F::Matrix3x2F(FLOAT,FLOAT,FLOAT,FLOAT,FLOAT,FLOAT) (d2d1helper.h)
-description: Instantiates a new instance of the Matrix3x2F class that contains the specified values.helpviewer_keywords: ["D2D1.Matrix3x2F.Matrix3x2F","D2D1::Matrix3x2F::Matrix3x2F","Matrix3x2F","Matrix3x2F constructor [Direct2D]","Matrix3x2F constructor [Direct2D]","Matrix3x2F interface","Matrix3x2F interface [Direct2D]","Matrix3x2F constructor","Matrix3x2F.Matrix3x2F","Matrix3x2F.Matrix3x2F(FLOAT","FLOAT","FLOAT","FLOAT","FLOAT","FLOAT)","Matrix3x2F::Matrix3x2F","Matrix3x2F::Matrix3x2F(FLOAT","FLOAT","FLOAT","FLOAT","FLOAT","FLOAT)","d2d1helper/Matrix3x2F::Matrix3x2F","direct2d.matrix3x2f_matrix3x2f_float__float__float__float__float__float_"]
+description: Instantiates a new instance of the Matrix3x2F class that contains the specified values.
+helpviewer_keywords: ["D2D1.Matrix3x2F.Matrix3x2F","D2D1::Matrix3x2F::Matrix3x2F","Matrix3x2F","Matrix3x2F constructor [Direct2D]","Matrix3x2F constructor [Direct2D]","Matrix3x2F interface","Matrix3x2F interface [Direct2D]","Matrix3x2F constructor","Matrix3x2F.Matrix3x2F","Matrix3x2F.Matrix3x2F(FLOAT","FLOAT","FLOAT","FLOAT","FLOAT","FLOAT)","Matrix3x2F::Matrix3x2F","Matrix3x2F::Matrix3x2F(FLOAT","FLOAT","FLOAT","FLOAT","FLOAT","FLOAT)","d2d1helper/Matrix3x2F::Matrix3x2F","direct2d.matrix3x2f_matrix3x2f_float__float__float__float__float__float_"]
 old-location: direct2d\matrix3x2f_matrix3x2f_float__float__float__float__float__float_.htm
 tech.root: Direct2D
 ms.assetid: f4701597-9473-4333-9e6d-60000ccea40e

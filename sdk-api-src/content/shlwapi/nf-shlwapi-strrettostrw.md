@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StrRetToStrW
 title: StrRetToStrW function (shlwapi.h)
-description: Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf and returns a pointer to an allocated string containing the display name.helpviewer_keywords: ["StrRetToStr","StrRetToStr function [Windows Shell]","StrRetToStrA","StrRetToStrW","_win32_StrRetToStr","shell.StrRetToStr","shlwapi/StrRetToStr","shlwapi/StrRetToStrA","shlwapi/StrRetToStrW"]
+description: Takes an STRRET structure returned by IShellFolder::GetDisplayNameOf and returns a pointer to an allocated string containing the display name.
+helpviewer_keywords: ["StrRetToStr","StrRetToStr function [Windows Shell]","StrRetToStrA","StrRetToStrW","_win32_StrRetToStr","shell.StrRetToStr","shlwapi/StrRetToStr","shlwapi/StrRetToStrA","shlwapi/StrRetToStrW"]
 old-location: shell\StrRetToStr.htm
 tech.root: shell
 ms.assetid: 03b0dffb-8ef7-41da-9773-81ed55275802
@@ -101,4 +102,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines StrRetToStr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

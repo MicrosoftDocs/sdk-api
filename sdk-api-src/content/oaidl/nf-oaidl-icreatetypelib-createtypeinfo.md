@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeLib.CreateTypeInfo
 title: ICreateTypeLib::CreateTypeInfo (oaidl.h)
-description: Creates a new type description instance within the type library.helpviewer_keywords: ["CreateTypeInfo","CreateTypeInfo method [Automation]","CreateTypeInfo method [Automation]","ICreateTypeLib interface","ICreateTypeLib interface [Automation]","CreateTypeInfo method","ICreateTypeLib.CreateTypeInfo","ICreateTypeLib::CreateTypeInfo","_oa96_ICreateTypeLib_CreateTypeInfo","automat.icreatetypelib_createtypeinfo","oaidl/ICreateTypeLib::CreateTypeInfo"]
+description: Creates a new type description instance within the type library.
+helpviewer_keywords: ["CreateTypeInfo","CreateTypeInfo method [Automation]","CreateTypeInfo method [Automation]","ICreateTypeLib interface","ICreateTypeLib interface [Automation]","CreateTypeInfo method","ICreateTypeLib.CreateTypeInfo","ICreateTypeLib::CreateTypeInfo","_oa96_ICreateTypeLib_CreateTypeInfo","automat.icreatetypelib_createtypeinfo","oaidl/ICreateTypeLib::CreateTypeInfo"]
 old-location: automat\icreatetypelib_createtypeinfo.htm
 tech.root: automat
 ms.assetid: 5e9678af-661b-4033-bd3f-607c064f4245

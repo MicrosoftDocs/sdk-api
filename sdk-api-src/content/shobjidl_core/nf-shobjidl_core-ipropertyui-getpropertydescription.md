@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IPropertyUI.GetPropertyDescription
 title: IPropertyUI::GetPropertyDescription (shobjidl_core.h)
-description: Developers should use IPropertyDescription instead. Gets the property description of a specified property.helpviewer_keywords: ["GetPropertyDescription","GetPropertyDescription method [Windows Properties]","GetPropertyDescription method [Windows Properties]","IPropertyUI interface","IPropertyUI interface [Windows Properties]","GetPropertyDescription method","IPropertyUI.GetPropertyDescription","IPropertyUI::GetPropertyDescription","_shell_IPropertyUI_GetPropertyDescription","properties.IPropertyUI_GetPropertyDescription","shell.IPropertyUI_GetPropertyDescription","shobjidl_core/IPropertyUI::GetPropertyDescription"]
+description: Developers should use IPropertyDescription instead. Gets the property description of a specified property.
+helpviewer_keywords: ["GetPropertyDescription","GetPropertyDescription method [Windows Properties]","GetPropertyDescription method [Windows Properties]","IPropertyUI interface","IPropertyUI interface [Windows Properties]","GetPropertyDescription method","IPropertyUI.GetPropertyDescription","IPropertyUI::GetPropertyDescription","_shell_IPropertyUI_GetPropertyDescription","properties.IPropertyUI_GetPropertyDescription","shell.IPropertyUI_GetPropertyDescription","shobjidl_core/IPropertyUI::GetPropertyDescription"]
 old-location: properties\IPropertyUI_GetPropertyDescription.htm
 tech.root: properties
 ms.assetid: 47EAA768-BDAE-44de-AAD8-529E12761065

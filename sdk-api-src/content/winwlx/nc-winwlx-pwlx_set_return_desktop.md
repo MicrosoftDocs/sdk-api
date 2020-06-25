@@ -1,7 +1,8 @@
 ---
 UID: NC:winwlx.PWLX_SET_RETURN_DESKTOP
 title: PWLX_SET_RETURN_DESKTOP (winwlx.h)
-description: Called by GINA to specify the alternate application desktop that Winlogon will switch to when the current secure attention sequence (SAS) event processing function is complete.helpviewer_keywords: ["PWLX_SET_RETURN_DESKTOP","PWLX_SET_RETURN_DESKTOP callback","WlxSetReturnDesktop","WlxSetReturnDesktop callback function [Security]","_gina_wlxsetreturndesktop","security.wlxsetreturndesktop","winwlx/WlxSetReturnDesktop"]
+description: Called by GINA to specify the alternate application desktop that Winlogon will switch to when the current secure attention sequence (SAS) event processing function is complete.
+helpviewer_keywords: ["PWLX_SET_RETURN_DESKTOP","PWLX_SET_RETURN_DESKTOP callback","WlxSetReturnDesktop","WlxSetReturnDesktop callback function [Security]","_gina_wlxsetreturndesktop","security.wlxsetreturndesktop","winwlx/WlxSetReturnDesktop"]
 old-location: security\wlxsetreturndesktop.htm
 tech.root: SecAuthN
 ms.assetid: 539e81d9-6362-4476-bdbc-849fb905b268

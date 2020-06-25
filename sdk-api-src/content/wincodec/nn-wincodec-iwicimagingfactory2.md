@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICImagingFactory2
 title: IWICImagingFactory2 (wincodec.h)
-description: An extension of the WIC factory interface that includes the ability to create an IWICImageEncoder.helpviewer_keywords: ["IWICImagingFactory2","IWICImagingFactory2 interface [Windows Imaging Component]","IWICImagingFactory2 interface [Windows Imaging Component]","described","wic.iwicimagingfactory2","wincodec/IWICImagingFactory2"]
+description: An extension of the WIC factory interface that includes the ability to create an IWICImageEncoder.
+helpviewer_keywords: ["IWICImagingFactory2","IWICImagingFactory2 interface [Windows Imaging Component]","IWICImagingFactory2 interface [Windows Imaging Component]","described","wic.iwicimagingfactory2","wincodec/IWICImagingFactory2"]
 old-location: wic\iwicimagingfactory2.htm
 tech.root: wic
 ms.assetid: 95F64E01-6174-4C1C-B0BE-331380E583C2

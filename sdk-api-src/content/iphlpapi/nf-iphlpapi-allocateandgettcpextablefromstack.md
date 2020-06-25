@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.AllocateAndGetTcpExTableFromStack
 title: AllocateAndGetTcpExTableFromStack function (iphlpapi.h)
-description: Retrieves the TCP connection table and allocates memory from the local heap to store the table.helpviewer_keywords: ["AF_INET","AF_INET6","AllocateAndGetTcpExTableFromStack","AllocateAndGetTcpExTableFromStack function [IP Helper]","iphlp.allocateandgettcpextablefromstack","iphlpapi/AllocateAndGetTcpExTableFromStack"]
+description: Retrieves the TCP connection table and allocates memory from the local heap to store the table.
+helpviewer_keywords: ["AF_INET","AF_INET6","AllocateAndGetTcpExTableFromStack","AllocateAndGetTcpExTableFromStack function [IP Helper]","iphlp.allocateandgettcpextablefromstack","iphlpapi/AllocateAndGetTcpExTableFromStack"]
 old-location: iphlp\allocateandgettcpextablefromstack.htm
 tech.root: IpHlp
 ms.assetid: c79dd5ba-e80b-494f-80fa-efa10c021773

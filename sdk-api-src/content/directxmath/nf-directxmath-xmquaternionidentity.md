@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMQuaternionIdentity
 title: XMQuaternionIdentity function (directxmath.h)
-description: Returns the identity quaternion.helpviewer_keywords: ["Use DirectX..XMQuaternionIdentity","XMQuaternionIdentity","XMQuaternionIdentity method [DirectX Math Support APIs]","dxmath.xmquaternionidentity"]
+description: Returns the identity quaternion.
+helpviewer_keywords: ["Use DirectX..XMQuaternionIdentity","XMQuaternionIdentity","XMQuaternionIdentity method [DirectX Math Support APIs]","dxmath.xmquaternionidentity"]
 old-location: dxmath\xmquaternionidentity.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionIdentity

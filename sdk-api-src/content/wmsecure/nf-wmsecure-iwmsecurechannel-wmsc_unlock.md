@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_Unlock
 title: IWMSecureChannel::WMSC_Unlock (wmsecure.h)
-description: The WMSC_Unlock method unlocks access to the secure connection.helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_Unlock method","IWMSecureChannel.WMSC_Unlock","IWMSecureChannel::WMSC_Unlock","WMSC_Unlock","WMSC_Unlock method [windows Media Format]","WMSC_Unlock method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_unlock","wmsecure/IWMSecureChannel::WMSC_Unlock"]
+description: The WMSC_Unlock method unlocks access to the secure connection.
+helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_Unlock method","IWMSecureChannel.WMSC_Unlock","IWMSecureChannel::WMSC_Unlock","WMSC_Unlock","WMSC_Unlock method [windows Media Format]","WMSC_Unlock method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_unlock","wmsecure/IWMSecureChannel::WMSC_Unlock"]
 old-location: wmformat\iwmsecurechannel_wmsc_unlock.htm
 tech.root: wmformat
 ms.assetid: 3127a3bb-380d-46f9-82a3-d584705b1c60

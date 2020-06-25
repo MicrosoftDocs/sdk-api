@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetKnownFolderIDList
 title: SHGetKnownFolderIDList function (shlobj_core.h)
-description: Retrieves the path of a known folder as an ITEMIDLIST structure.helpviewer_keywords: ["SHGetKnownFolderIDList","SHGetKnownFolderIDList function [Windows Shell]","_shell_SHGetKnownFolderIDList","shell.SHGetKnownFolderIDList","shlobj_core/SHGetKnownFolderIDList"]
+description: Retrieves the path of a known folder as an ITEMIDLIST structure.
+helpviewer_keywords: ["SHGetKnownFolderIDList","SHGetKnownFolderIDList function [Windows Shell]","_shell_SHGetKnownFolderIDList","shell.SHGetKnownFolderIDList","shlobj_core/SHGetKnownFolderIDList"]
 old-location: shell\SHGetKnownFolderIDList.htm
 tech.root: shell
 ms.assetid: fed9cfb8-4c38-4947-99aa-278245148136

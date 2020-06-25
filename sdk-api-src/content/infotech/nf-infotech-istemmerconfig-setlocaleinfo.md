@@ -1,7 +1,8 @@
 ---
 UID: NF:infotech.IStemmerConfig.SetLocaleInfo
 title: IStemmerConfig::SetLocaleInfo (infotech.h)
-description: Sets locale information for the stemmer.helpviewer_keywords: ["IStemmerConfig interface [HTML Help Workshop]","SetLocaleInfo method","IStemmerConfig.SetLocaleInfo","IStemmerConfig::SetLocaleInfo","SetLocaleInfo","SetLocaleInfo method [HTML Help Workshop]","SetLocaleInfo method [HTML Help Workshop]","IStemmerConfig interface","htmlhelp.istemmerconfig_setlocaleinfo","infotech/IStemmerConfig::SetLocaleInfo","refIStemmerConfigSetLocaleInfo"]
+description: Sets locale information for the stemmer.
+helpviewer_keywords: ["IStemmerConfig interface [HTML Help Workshop]","SetLocaleInfo method","IStemmerConfig.SetLocaleInfo","IStemmerConfig::SetLocaleInfo","SetLocaleInfo","SetLocaleInfo method [HTML Help Workshop]","SetLocaleInfo method [HTML Help Workshop]","IStemmerConfig interface","htmlhelp.istemmerconfig_setlocaleinfo","infotech/IStemmerConfig::SetLocaleInfo","refIStemmerConfigSetLocaleInfo"]
 old-location: htmlhelp\istemmerconfig_setlocaleinfo.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refistemmerconfigsetlocaleinfo.htm

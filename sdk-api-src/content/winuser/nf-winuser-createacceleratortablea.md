@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CreateAcceleratorTableA
 title: CreateAcceleratorTableA function (winuser.h)
-description: Creates an accelerator table.helpviewer_keywords: ["CreateAcceleratorTable","CreateAcceleratorTable function [Menus and Other Resources]","CreateAcceleratorTableA","CreateAcceleratorTableW","_win32_CreateAcceleratorTable","_win32_createacceleratortable_cpp","menurc.createacceleratortable","winui._win32_createacceleratortable","winuser/CreateAcceleratorTable","winuser/CreateAcceleratorTableA","winuser/CreateAcceleratorTableW"]
+description: Creates an accelerator table.
+helpviewer_keywords: ["CreateAcceleratorTable","CreateAcceleratorTable function [Menus and Other Resources]","CreateAcceleratorTableA","CreateAcceleratorTableW","_win32_CreateAcceleratorTable","_win32_createacceleratortable_cpp","menurc.createacceleratortable","winui._win32_createacceleratortable","winuser/CreateAcceleratorTable","winuser/CreateAcceleratorTableA","winuser/CreateAcceleratorTableW"]
 old-location: menurc\createacceleratortable.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardaccelerators\keyboardacceleratorreference\keyboardacceleratorfunctions\createacceleratortable.htm
@@ -102,6 +103,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CreateAcceleratorTable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

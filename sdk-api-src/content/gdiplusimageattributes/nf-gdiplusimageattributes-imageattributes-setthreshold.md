@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetThreshold
 title: ImageAttributes::SetThreshold (gdiplusimageattributes.h)
-description: The ImageAttributes::SetThreshold method sets the threshold (transparency range) for a specified category.helpviewer_keywords: ["ImageAttributes class [GDI+]","SetThreshold method","ImageAttributes.SetThreshold","ImageAttributes::SetThreshold","SetThreshold","SetThreshold method [GDI+]","SetThreshold method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetThreshold_threshold_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetThreshold_threshold_type_"]
+description: The ImageAttributes::SetThreshold method sets the threshold (transparency range) for a specified category.
+helpviewer_keywords: ["ImageAttributes class [GDI+]","SetThreshold method","ImageAttributes.SetThreshold","ImageAttributes::SetThreshold","SetThreshold","SetThreshold method [GDI+]","SetThreshold method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetThreshold_threshold_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetThreshold_threshold_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetThreshold_threshold_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setthreshold.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetTrigger
 title: IScheduledWorkItem::GetTrigger (mstask.h)
-description: Retrieves a task trigger.helpviewer_keywords: ["GetTrigger","GetTrigger method [Task Scheduler]","GetTrigger method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetTrigger method","IScheduledWorkItem.GetTrigger","IScheduledWorkItem::GetTrigger","_msb_ischeduledworkitem_gettrigger","mstask/IScheduledWorkItem::GetTrigger","taskschd.ischeduledworkitem_gettrigger"]
+description: Retrieves a task trigger.
+helpviewer_keywords: ["GetTrigger","GetTrigger method [Task Scheduler]","GetTrigger method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetTrigger method","IScheduledWorkItem.GetTrigger","IScheduledWorkItem::GetTrigger","_msb_ischeduledworkitem_gettrigger","mstask/IScheduledWorkItem::GetTrigger","taskschd.ischeduledworkitem_gettrigger"]
 old-location: taskschd\ischeduledworkitem_gettrigger.htm
 tech.root: taskschd
 ms.assetid: f99b342c-9233-43e3-93f1-88586e975608

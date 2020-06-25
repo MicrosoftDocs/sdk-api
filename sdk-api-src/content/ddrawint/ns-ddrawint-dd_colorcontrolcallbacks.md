@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_COLORCONTROLCALLBACKS
 title: DD_COLORCONTROLCALLBACKS (ddrawint.h)
-description: The DD_COLORCONTROLCALLBACKS structure contains an entry pointer to the Microsoft DirectDraw color control callback that a device driver supports.helpviewer_keywords: ["*PDD_COLORCONTROLCALLBACKS","DD_COLORCONTROLCALLBACKS","DD_COLORCONTROLCALLBACKS structure [Display Devices]","PDD_COLORCONTROLCALLBACKS","PDD_COLORCONTROLCALLBACKS structure pointer [Display Devices]","ddrawint/DD_COLORCONTROLCALLBACKS","ddrawint/PDD_COLORCONTROLCALLBACKS","ddstrcts_2e14797b-2bd8-4107-8085-60f8b5838bda.xml","display.dd_colorcontrolcallbacks"]
+description: The DD_COLORCONTROLCALLBACKS structure contains an entry pointer to the Microsoft DirectDraw color control callback that a device driver supports.
+helpviewer_keywords: ["*PDD_COLORCONTROLCALLBACKS","DD_COLORCONTROLCALLBACKS","DD_COLORCONTROLCALLBACKS structure [Display Devices]","PDD_COLORCONTROLCALLBACKS","PDD_COLORCONTROLCALLBACKS structure pointer [Display Devices]","ddrawint/DD_COLORCONTROLCALLBACKS","ddrawint/PDD_COLORCONTROLCALLBACKS","ddstrcts_2e14797b-2bd8-4107-8085-60f8b5838bda.xml","display.dd_colorcontrolcallbacks"]
 old-location: display\dd_colorcontrolcallbacks.htm
 tech.root: display
 ms.assetid: fcf0e136-a7cc-4bb3-8af4-2478d4a2c055

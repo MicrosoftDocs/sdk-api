@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxIncomingQueue.GetJobs
 title: IFaxIncomingQueue::GetJobs (faxcomex.h)
-description: The GetJobs method returns the collection of inbound fax jobs in the queue.helpviewer_keywords: ["GetJobs","GetJobs method [Fax Service]","GetJobs method [Fax Service]","IFaxIncomingQueue interface","IFaxIncomingQueue interface [Fax Service]","GetJobs method","IFaxIncomingQueue.GetJobs","IFaxIncomingQueue::GetJobs","_mfax_faxincomingqueue.getjobs","fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_getjobs_cpp","fax._mfax_faxincomingqueue_getjobs","faxcomex/IFaxIncomingQueue::GetJobs"]
+description: The GetJobs method returns the collection of inbound fax jobs in the queue.
+helpviewer_keywords: ["GetJobs","GetJobs method [Fax Service]","GetJobs method [Fax Service]","IFaxIncomingQueue interface","IFaxIncomingQueue interface [Fax Service]","GetJobs method","IFaxIncomingQueue.GetJobs","IFaxIncomingQueue::GetJobs","_mfax_faxincomingqueue.getjobs","fax._mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_getjobs_cpp","fax._mfax_faxincomingqueue_getjobs","faxcomex/IFaxIncomingQueue::GetJobs"]
 old-location: fax\_mfax_faxincomingqueue_cpp_mfax_faxincomingqueue_getjobs_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6p6b.htm

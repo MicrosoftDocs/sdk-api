@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetStretchBltMode
 title: GetStretchBltMode function (wingdi.h)
-description: The GetStretchBltMode function retrieves the current stretching mode. The stretching mode defines how color data is added to or removed from bitmaps that are stretched or compressed when the StretchBlt function is called.helpviewer_keywords: ["GetStretchBltMode","GetStretchBltMode function [Windows GDI]","_win32_GetStretchBltMode","gdi.getstretchbltmode","wingdi/GetStretchBltMode"]
+description: The GetStretchBltMode function retrieves the current stretching mode. The stretching mode defines how color data is added to or removed from bitmaps that are stretched or compressed when the StretchBlt function is called.
+helpviewer_keywords: ["GetStretchBltMode","GetStretchBltMode function [Windows GDI]","_win32_GetStretchBltMode","gdi.getstretchbltmode","wingdi/GetStretchBltMode"]
 old-location: gdi\getstretchbltmode.htm
 tech.root: gdi
 ms.assetid: a4408e28-d7ac-44e9-905d-efa75c60e503

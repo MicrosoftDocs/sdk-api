@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1helper.RectL
 title: RectL function (d2d1_1helper.h)
-description: Returns a filled D2D1_RECT_L structure.helpviewer_keywords: ["RectL","RectL function [Direct2D]","dciddi/RectL","direct2d.rectl"]
+description: Returns a filled D2D1_RECT_L structure.
+helpviewer_keywords: ["RectL","RectL function [Direct2D]","dciddi/RectL","direct2d.rectl"]
 old-location: direct2d\rectl.htm
 tech.root: Direct2D
 ms.assetid: CE2B4034-24BC-49AE-88C6-C60BDCEA38B5

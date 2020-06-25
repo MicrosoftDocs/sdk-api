@@ -1,7 +1,8 @@
 ---
 UID: NS:ndattrib.tagRepairInfoEx
 title: RepairInfoEx (ndattrib.h)
-description: Contains detailed repair information that can be used to help resolve the root cause of an incident.helpviewer_keywords: ["*PRepairInfoEx","PRepairInfoEx","PRepairInfoEx structure pointer [NDF]","RepairInfoEx","RepairInfoEx structure [NDF]","ndattrib/PRepairInfoEx","ndattrib/RepairInfoEx","ndf.repairinfoex"]
+description: Contains detailed repair information that can be used to help resolve the root cause of an incident.
+helpviewer_keywords: ["*PRepairInfoEx","PRepairInfoEx","PRepairInfoEx structure pointer [NDF]","RepairInfoEx","RepairInfoEx structure [NDF]","ndattrib/PRepairInfoEx","ndattrib/RepairInfoEx","ndf.repairinfoex"]
 old-location: ndf\repairinfoex.htm
 tech.root: NDF
 ms.assetid: 9357f463-946c-47ad-bb8d-ff9de210e7e1

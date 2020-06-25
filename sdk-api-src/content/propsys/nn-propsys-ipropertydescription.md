@@ -1,7 +1,8 @@
 ---
 UID: NN:propsys.IPropertyDescription
 title: IPropertyDescription (propsys.h)
-description: Exposes methods that enumerate and retrieve individual property description details.helpviewer_keywords: ["IPropertyDescription","IPropertyDescription interface [Windows Properties]","IPropertyDescription interface [Windows Properties]","described","properties.IPropertyDescription","propsys/IPropertyDescription","shell.IPropertyDescription","shell_IPropertyDescription"]
+description: Exposes methods that enumerate and retrieve individual property description details.
+helpviewer_keywords: ["IPropertyDescription","IPropertyDescription interface [Windows Properties]","IPropertyDescription interface [Windows Properties]","described","properties.IPropertyDescription","propsys/IPropertyDescription","shell.IPropertyDescription","shell_IPropertyDescription"]
 old-location: properties\IPropertyDescription.htm
 tech.root: properties
 ms.assetid: 9abd476c-450e-4381-b28e-afca00d4b179

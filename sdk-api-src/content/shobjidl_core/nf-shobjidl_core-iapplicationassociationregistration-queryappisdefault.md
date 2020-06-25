@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IApplicationAssociationRegistration.QueryAppIsDefault
 title: IApplicationAssociationRegistration::QueryAppIsDefault (shobjidl_core.h)
-description: Determines whether an application owns the registered default association for a given application level and type. Not intended for use in Windows 8.helpviewer_keywords: ["IApplicationAssociationRegistration interface [Windows Shell]","QueryAppIsDefault method","IApplicationAssociationRegistration.QueryAppIsDefault","IApplicationAssociationRegistration::QueryAppIsDefault","QueryAppIsDefault","QueryAppIsDefault method [Windows Shell]","QueryAppIsDefault method [Windows Shell]","IApplicationAssociationRegistration interface","_shell_IApplicationAssociationRegistration_QueryAppIsDefault","shell.IApplicationAssociationRegistration_QueryAppIsDefault","shobjidl_core/IApplicationAssociationRegistration::QueryAppIsDefault"]
+description: Determines whether an application owns the registered default association for a given application level and type. Not intended for use in Windows 8.
+helpviewer_keywords: ["IApplicationAssociationRegistration interface [Windows Shell]","QueryAppIsDefault method","IApplicationAssociationRegistration.QueryAppIsDefault","IApplicationAssociationRegistration::QueryAppIsDefault","QueryAppIsDefault","QueryAppIsDefault method [Windows Shell]","QueryAppIsDefault method [Windows Shell]","IApplicationAssociationRegistration interface","_shell_IApplicationAssociationRegistration_QueryAppIsDefault","shell.IApplicationAssociationRegistration_QueryAppIsDefault","shobjidl_core/IApplicationAssociationRegistration::QueryAppIsDefault"]
 old-location: shell\IApplicationAssociationRegistration_QueryAppIsDefault.htm
 tech.root: shell
 ms.assetid: 63127fa4-be09-4dd6-9084-cfde00967279

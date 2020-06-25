@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.SetProperty
 title: IAzAuthorizationStore::SetProperty (azroles.h)
-description: Sets the specified value to the AzAuthorizationStore object property with the specified property ID.helpviewer_keywords: ["AZ_PROP_APPLICATION_DATA","AZ_PROP_APPLY_STORE_SACL","AZ_PROP_AZSTORE_DOMAIN_TIMEOUT","AZ_PROP_AZSTORE_MAX_SCRIPT_ENGINES","AZ_PROP_AZSTORE_SCRIPT_ENGINE_TIMEOUT","AZ_PROP_DESCRIPTION","AZ_PROP_GENERATE_AUDITS","AzAuthorizationStore object [Security]","SetProperty method","IAzAuthorizationStore interface [Security]","SetProperty method","IAzAuthorizationStore.SetProperty","IAzAuthorizationStore::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","AzAuthorizationStore object","SetProperty method [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::SetProperty","security.azauthorizationstore_setproperty"]
+description: Sets the specified value to the AzAuthorizationStore object property with the specified property ID.
+helpviewer_keywords: ["AZ_PROP_APPLICATION_DATA","AZ_PROP_APPLY_STORE_SACL","AZ_PROP_AZSTORE_DOMAIN_TIMEOUT","AZ_PROP_AZSTORE_MAX_SCRIPT_ENGINES","AZ_PROP_AZSTORE_SCRIPT_ENGINE_TIMEOUT","AZ_PROP_DESCRIPTION","AZ_PROP_GENERATE_AUDITS","AzAuthorizationStore object [Security]","SetProperty method","IAzAuthorizationStore interface [Security]","SetProperty method","IAzAuthorizationStore.SetProperty","IAzAuthorizationStore::SetProperty","SetProperty","SetProperty method [Security]","SetProperty method [Security]","AzAuthorizationStore object","SetProperty method [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::SetProperty","security.azauthorizationstore_setproperty"]
 old-location: security\azauthorizationstore_setproperty.htm
 tech.root: SecAuthZ
 ms.assetid: c71a022f-8244-4263-8ff6-6c2d9562fcd1

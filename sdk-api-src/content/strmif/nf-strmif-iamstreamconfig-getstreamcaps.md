@@ -64,6 +64,7 @@ The <b>GetStreamCaps</b> method retrieves a set of format capabilities.
 
 ### -param iIndex [in]
 
+
 Specifies the format capability to retrieve, indexed from zero. To determine the number of capabilities that the pin supports, call the <a href="/windows/desktop/api/strmif/nf-strmif-iamstreamconfig-getnumberofcapabilities">IAMStreamConfig::GetNumberOfCapabilities</a> method.
 
 
@@ -75,7 +76,6 @@ Address of a pointer to an <a href="/windows/desktop/api/strmif/ns-strmif-am_med
 ### -param pSCC [out]
 
 Pointer to a byte array allocated by the caller. For video, use the <a href="/windows/win32/api/strmif/ns-strmif-video_stream_config_caps">VIDEO_STREAM_CONFIG_CAPS</a> structure (see Remarks). For audio, use the <a href="/windows/win32/api/strmif/ns-strmif-audio_stream_config_caps">AUDIO_STREAM_CONFIG_CAPS</a> structure. To determine the required size of the array, call the <b>GetNumberOfCapabilities</b> method. The size is returned in the <i>piSize</i> parameter.
-
 
 ## -returns
 
@@ -182,7 +182,6 @@ On some compression filters, this method fails if the filter's input pin is not 
 
 <b>Filter Developers</b>: For more information on implementing this method, see <a href="/windows/desktop/DirectShow/exposing-capture-and-compression-formats">Exposing Capture and Compression Formats</a>.
 
-
 #### Examples
 
 The following example retrieves the first supported format (index zero) on a video output pin and then sets this format on the pin.
@@ -231,14 +230,10 @@ delete [] pSCC;
 ## -see-also
 
 
-
-
 <a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-iamstreamconfig">IAMStreamConfig Interface</a>
- 
 
- 
 

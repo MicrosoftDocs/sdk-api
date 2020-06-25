@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters
 title: IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters (dxgidebug.h)
-description: Gets the number of messages that can pass through a retrieval filter.helpviewer_keywords: ["GetNumStoredMessagesAllowedByRetrievalFilters","GetNumStoredMessagesAllowedByRetrievalFilters method [DXGI]","GetNumStoredMessagesAllowedByRetrievalFilters method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetNumStoredMessagesAllowedByRetrievalFilters method","IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters","IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters","direct3ddxgi.idxgiinfoqueue_getnumstoredmessagesallowedbyretrievalfilters","dxgidebug/IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters"]
+description: Gets the number of messages that can pass through a retrieval filter.
+helpviewer_keywords: ["GetNumStoredMessagesAllowedByRetrievalFilters","GetNumStoredMessagesAllowedByRetrievalFilters method [DXGI]","GetNumStoredMessagesAllowedByRetrievalFilters method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetNumStoredMessagesAllowedByRetrievalFilters method","IDXGIInfoQueue.GetNumStoredMessagesAllowedByRetrievalFilters","IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters","direct3ddxgi.idxgiinfoqueue_getnumstoredmessagesallowedbyretrievalfilters","dxgidebug/IDXGIInfoQueue::GetNumStoredMessagesAllowedByRetrievalFilters"]
 old-location: direct3ddxgi\idxgiinfoqueue_getnumstoredmessagesallowedbyretrievalfilters.htm
 tech.root: direct3ddxgi
 ms.assetid: 1BFFEE9F-7902-41B7-9607-BD0E955FBD8B

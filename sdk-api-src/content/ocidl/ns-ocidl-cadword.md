@@ -1,7 +1,8 @@
 ---
 UID: NS:ocidl.tagCADWORD
 title: CADWORD (ocidl.h)
-description: Specifies a counted array of values that can be used to obtain the value corresponding to one of the predefined strings for a property.helpviewer_keywords: ["*LPCADWORD","CADWORD","CADWORD structure [COM]","LPCADWORD","LPCADWORD structure pointer [COM]","_ctrl_CADWORD","com.cadword","ocidl/CADWORD","ocidl/LPCADWORD"]
+description: Specifies a counted array of values that can be used to obtain the value corresponding to one of the predefined strings for a property.
+helpviewer_keywords: ["*LPCADWORD","CADWORD","CADWORD structure [COM]","LPCADWORD","LPCADWORD structure pointer [COM]","_ctrl_CADWORD","com.cadword","ocidl/CADWORD","ocidl/LPCADWORD"]
 old-location: com\cadword.htm
 tech.root: com
 ms.assetid: 4e7f8e1a-53cc-40db-9651-00f5d912e768

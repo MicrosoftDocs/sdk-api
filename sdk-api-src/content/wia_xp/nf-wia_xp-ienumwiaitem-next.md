@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Next
 title: IEnumWiaItem::Next (wia_xp.h)
-description: The IEnumWiaItem::Next method fills an array of pointers to IWiaItem interfaces.helpviewer_keywords: ["IEnumWiaItem interface [WIA]","Next method","IEnumWiaItem.Next","IEnumWiaItem::Next","Next","Next method [WIA]","Next method [WIA]","IEnumWiaItem interface","_wia_IEnumWiaItem_Next","wia._wia_IEnumWiaItem_Next","wia_xp/IEnumWiaItem::Next"]
+description: The IEnumWiaItem::Next method fills an array of pointers to IWiaItem interfaces.
+helpviewer_keywords: ["IEnumWiaItem interface [WIA]","Next method","IEnumWiaItem.Next","IEnumWiaItem::Next","Next","Next method [WIA]","Next method [WIA]","IEnumWiaItem interface","_wia_IEnumWiaItem_Next","wia._wia_IEnumWiaItem_Next","wia_xp/IEnumWiaItem::Next"]
 old-location: wia\_wia_IEnumWiaItem_Next.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\next.htm

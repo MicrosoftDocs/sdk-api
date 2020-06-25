@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetRangesFilePath
 title: IVssBackupComponents::SetRangesFilePath (vsbackup.h)
-description: The SetRangesFilePath method is used when a partial file operation requires a ranges file, and that file has been restored to a location other than its original one.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetRangesFilePath method","IVssBackupComponents.SetRangesFilePath","IVssBackupComponents::SetRangesFilePath","SetRangesFilePath","SetRangesFilePath method [VSS]","SetRangesFilePath method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setrangesfilepath","base.ivssbackupcomponents_setrangesfilepath","vsbackup/IVssBackupComponents::SetRangesFilePath"]
+description: The SetRangesFilePath method is used when a partial file operation requires a ranges file, and that file has been restored to a location other than its original one.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetRangesFilePath method","IVssBackupComponents.SetRangesFilePath","IVssBackupComponents::SetRangesFilePath","SetRangesFilePath","SetRangesFilePath method [VSS]","SetRangesFilePath method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setrangesfilepath","base.ivssbackupcomponents_setrangesfilepath","vsbackup/IVssBackupComponents::SetRangesFilePath"]
 old-location: base\ivssbackupcomponents_setrangesfilepath.htm
 tech.root: VSS
 ms.assetid: 170f9ea0-4846-49d4-ab06-eb1ce580e827

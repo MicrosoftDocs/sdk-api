@@ -1,7 +1,8 @@
 ---
 UID: NF:ntquery.BindIFilterFromStream
 title: BindIFilterFromStream function (ntquery.h)
-description: Retrieves the IFilter interface pointer for the specified storage object. This is especially useful when filtering the contents of a document and processing embedded OLE objects accessible through their IStream interfaces.helpviewer_keywords: ["BindIFilterFromStream","BindIFilterFromStream function [Indexing Service]","_idxs_BindIFilterFromStream","indexsrv.bindifilterfromstream","ntquery/BindIFilterFromStream"]
+description: Retrieves the IFilter interface pointer for the specified storage object. This is especially useful when filtering the contents of a document and processing embedded OLE objects accessible through their IStream interfaces.
+helpviewer_keywords: ["BindIFilterFromStream","BindIFilterFromStream function [Indexing Service]","_idxs_BindIFilterFromStream","indexsrv.bindifilterfromstream","ntquery/BindIFilterFromStream"]
 old-location: indexsrv\bindifilterfromstream.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0f8t.htm

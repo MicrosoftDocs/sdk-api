@@ -1,7 +1,8 @@
 ---
 UID: NN:xaudio2.IXAudio2SourceVoice
 title: IXAudio2SourceVoice (xaudio2.h)
-description: Use a source voice to submit audio data to the XAudio2 processing pipeline.helpviewer_keywords: ["IXAudio2SourceVoice","IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","described","xaudio2.ixaudio2sourcevoice","xaudio2/IXAudio2SourceVoice"]
+description: Use a source voice to submit audio data to the XAudio2 processing pipeline.
+helpviewer_keywords: ["IXAudio2SourceVoice","IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","described","xaudio2.ixaudio2sourcevoice","xaudio2/IXAudio2SourceVoice"]
 old-location: xaudio2\ixaudio2sourcevoice.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice

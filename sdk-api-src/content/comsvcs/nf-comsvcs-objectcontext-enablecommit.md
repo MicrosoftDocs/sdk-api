@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ObjectContext.EnableCommit
 title: ObjectContext::EnableCommit (comsvcs.h)
-description: Declares that the current object's work is not necessarily finished but that its transactional updates are consistent and could be committed in their present form.helpviewer_keywords: ["EnableCommit","EnableCommit method [COM+]","EnableCommit method [COM+]","ObjectContext interface","ObjectContext interface [COM+]","EnableCommit method","ObjectContext.EnableCommit","ObjectContext::EnableCommit","_cos_ObjectContext_EnableCommit","comsvcs/ObjectContext::EnableCommit","cos.objectcontext_enablecommit"]
+description: Declares that the current object's work is not necessarily finished but that its transactional updates are consistent and could be committed in their present form.
+helpviewer_keywords: ["EnableCommit","EnableCommit method [COM+]","EnableCommit method [COM+]","ObjectContext interface","ObjectContext interface [COM+]","EnableCommit method","ObjectContext.EnableCommit","ObjectContext::EnableCommit","_cos_ObjectContext_EnableCommit","comsvcs/ObjectContext::EnableCommit","cos.objectcontext_enablecommit"]
 old-location: cos\objectcontext_enablecommit.htm
 tech.root: cossdk
 ms.assetid: c625d3e2-8a12-4049-8997-6e57c3423acc

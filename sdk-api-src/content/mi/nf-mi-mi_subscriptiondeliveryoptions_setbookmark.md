@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_SetBookmark
 title: MI_SubscriptionDeliveryOptions_SetBookmark function (mi.h)
-description: Sets a bookmark for subscription indication delivery.helpviewer_keywords: ["MI_SUBSCRIBE_BOOKMARK_NEWEST","MI_SUBSCRIBE_BOOKMARK_OLDEST","MI_SubscriptionDeliveryOptions_SetBookmark","MI_SubscriptionDeliveryOptions_SetBookmark function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_SetBookmark","wmi_v2.mi_subscriptiondeliveryoptions_setbookmark"]
+description: Sets a bookmark for subscription indication delivery.
+helpviewer_keywords: ["MI_SUBSCRIBE_BOOKMARK_NEWEST","MI_SUBSCRIBE_BOOKMARK_OLDEST","MI_SubscriptionDeliveryOptions_SetBookmark","MI_SubscriptionDeliveryOptions_SetBookmark function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_SetBookmark","wmi_v2.mi_subscriptiondeliveryoptions_setbookmark"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_setbookmark.htm
 tech.root: wmi_v2
 ms.assetid: 9450dde9-fcd6-41c9-a1cb-2dce308653b8

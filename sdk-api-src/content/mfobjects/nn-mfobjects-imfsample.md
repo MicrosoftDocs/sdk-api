@@ -1,7 +1,8 @@
 ---
 UID: NN:mfobjects.IMFSample
 title: IMFSample (mfobjects.h)
-description: Represents a media sample, which is a container object for media data.helpviewer_keywords: ["IMFSample","IMFSample interface [Media Foundation]","IMFSample interface [Media Foundation]","described","b1c3758c-5133-41ee-b991-ae99d0296ccc","mf.imfsample","mfobjects/IMFSample"]
+description: Represents a media sample, which is a container object for media data.
+helpviewer_keywords: ["IMFSample","IMFSample interface [Media Foundation]","IMFSample interface [Media Foundation]","described","b1c3758c-5133-41ee-b991-ae99d0296ccc","mf.imfsample","mfobjects/IMFSample"]
 old-location: mf\imfsample.htm
 tech.root: medfound
 ms.assetid: b1c3758c-5133-41ee-b991-ae99d0296ccc

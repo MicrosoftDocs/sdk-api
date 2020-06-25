@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVectorVariable.GetIntVector
 title: ID3D10EffectVectorVariable::GetIntVector (d3d10effect.h)
-description: Get a four-component vector that contains integer data.helpviewer_keywords: ["GetIntVector","GetIntVector method [Direct3D 10]","GetIntVector method [Direct3D 10]","ID3D10EffectVectorVariable interface","ID3D10EffectVectorVariable interface [Direct3D 10]","GetIntVector method","ID3D10EffectVectorVariable.GetIntVector","ID3D10EffectVectorVariable::GetIntVector","b23e6d50-7609-d19b-180d-089671972202","d3d10effect/ID3D10EffectVectorVariable::GetIntVector","direct3d10.id3d10effectvectorvariable_getintvector"]
+description: Get a four-component vector that contains integer data.
+helpviewer_keywords: ["GetIntVector","GetIntVector method [Direct3D 10]","GetIntVector method [Direct3D 10]","ID3D10EffectVectorVariable interface","ID3D10EffectVectorVariable interface [Direct3D 10]","GetIntVector method","ID3D10EffectVectorVariable.GetIntVector","ID3D10EffectVectorVariable::GetIntVector","b23e6d50-7609-d19b-180d-089671972202","d3d10effect/ID3D10EffectVectorVariable::GetIntVector","direct3d10.id3d10effectvectorvariable_getintvector"]
 old-location: direct3d10\id3d10effectvectorvariable_getintvector.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvectorvariable_getintvector.htm

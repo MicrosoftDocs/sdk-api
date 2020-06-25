@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcRelationshipEnumerator
 title: IOpcRelationshipEnumerator (msopc.h)
-description: A read-only enumerator of IOpcRelationship interface pointers.helpviewer_keywords: ["IOpcRelationshipEnumerator","IOpcRelationshipEnumerator interface [Open Packaging Conventions]","IOpcRelationshipEnumerator interface [Open Packaging Conventions]","described","msopc/IOpcRelationshipEnumerator","opc.iopcrelationshipenumerator"]
+description: A read-only enumerator of IOpcRelationship interface pointers.
+helpviewer_keywords: ["IOpcRelationshipEnumerator","IOpcRelationshipEnumerator interface [Open Packaging Conventions]","IOpcRelationshipEnumerator interface [Open Packaging Conventions]","described","msopc/IOpcRelationshipEnumerator","opc.iopcrelationshipenumerator"]
 old-location: opc\iopcrelationshipenumerator.htm
 tech.root: OPC
 ms.assetid: 8d8071cb-89ea-421e-9475-04a028317198

@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfQueryEmbedded
 title: ITfQueryEmbedded (msctf.h)
-description: The ITfQueryEmbedded interface is implemented by the TSF manager and used by a text service to determine if a context can accept an embedded object.helpviewer_keywords: ["ITfQueryEmbedded","ITfQueryEmbedded interface [Text Services Framework]","ITfQueryEmbedded interface [Text Services Framework]","described","_tsf_itfqueryembedded_ref","msctf/ITfQueryEmbedded","tsf.itfqueryembedded"]
+description: The ITfQueryEmbedded interface is implemented by the TSF manager and used by a text service to determine if a context can accept an embedded object.
+helpviewer_keywords: ["ITfQueryEmbedded","ITfQueryEmbedded interface [Text Services Framework]","ITfQueryEmbedded interface [Text Services Framework]","described","_tsf_itfqueryembedded_ref","msctf/ITfQueryEmbedded","tsf.itfqueryembedded"]
 old-location: tsf\itfqueryembedded.htm
 tech.root: TSF
 ms.assetid: 6e2c3ad5-73c6-481f-9ade-58782e12dfbd

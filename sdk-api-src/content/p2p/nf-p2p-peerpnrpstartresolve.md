@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerPnrpStartResolve
 title: PeerPnrpStartResolve function (p2p.h)
-description: Starts an asynchronous peer name resolution operation.helpviewer_keywords: ["PeerPnrpStartResolve","PeerPnrpStartResolve function [Peer Networking]","p2p.peerpnrpstartresolve","p2p/PeerPnrpStartResolve"]
+description: Starts an asynchronous peer name resolution operation.
+helpviewer_keywords: ["PeerPnrpStartResolve","PeerPnrpStartResolve function [Peer Networking]","p2p.peerpnrpstartresolve","p2p/PeerPnrpStartResolve"]
 old-location: p2p\peerpnrpstartresolve.htm
 tech.root: P2PSdk
 ms.assetid: 140ecca5-85fe-480e-bc69-86e0bc69ad2e

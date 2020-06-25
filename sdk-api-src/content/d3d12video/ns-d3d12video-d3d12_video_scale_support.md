@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_SCALE_SUPPORT
 title: D3D12_VIDEO_SCALE_SUPPORT
-description: Describes the supported scaling range of output sizes for a video scaler.helpviewer_keywords: ["D3D12_VIDEO_SCALE_SUPPORT","D3D12_VIDEO_SCALE_SUPPORT",""]
+description: Describes the supported scaling range of output sizes for a video scaler.
+helpviewer_keywords: ["D3D12_VIDEO_SCALE_SUPPORT","D3D12_VIDEO_SCALE_SUPPORT",""]
 tech.root: mf
 ms.assetid: f05d3e73-5912-4d1b-92c1-fba067719001
 ms.date: 05/28/2019

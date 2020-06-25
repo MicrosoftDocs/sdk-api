@@ -1,7 +1,8 @@
 ---
 UID: NF:aclui.IEffectivePermission.GetEffectivePermission
 title: IEffectivePermission::GetEffectivePermission (aclui.h)
-description: Returns the effective permission for an object type.helpviewer_keywords: ["GetEffectivePermission","GetEffectivePermission method [Security]","GetEffectivePermission method [Security]","IEffectivePermission interface","IEffectivePermission interface [Security]","GetEffectivePermission method","IEffectivePermission.GetEffectivePermission","IEffectivePermission::GetEffectivePermission","aclui/IEffectivePermission::GetEffectivePermission","security.ieffectivepermission_geteffectivepermission"]
+description: Returns the effective permission for an object type.
+helpviewer_keywords: ["GetEffectivePermission","GetEffectivePermission method [Security]","GetEffectivePermission method [Security]","IEffectivePermission interface","IEffectivePermission interface [Security]","GetEffectivePermission method","IEffectivePermission.GetEffectivePermission","IEffectivePermission::GetEffectivePermission","aclui/IEffectivePermission::GetEffectivePermission","security.ieffectivepermission_geteffectivepermission"]
 old-location: security\ieffectivepermission_geteffectivepermission.htm
 tech.root: SecAuthZ
 ms.assetid: fef2dfe0-3c56-4502-9e8d-900aea84318b

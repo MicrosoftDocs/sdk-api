@@ -1,7 +1,8 @@
 ---
 UID: NF:sdoias.ISdoCollection.Reload
 title: ISdoCollection::Reload (sdoias.h)
-description: The Reload method reloads all the objects in the collection from the underlying datastore.helpviewer_keywords: ["ISdoCollection interface [Network Policy Server]","Reload method","ISdoCollection.Reload","ISdoCollection::Reload","Reload","Reload method [Network Policy Server]","Reload method [Network Policy Server]","ISdoCollection interface","_sdo_isdocollection_reload","nps.SDO_isdocollection_reload","sdo.isdocollection_reload","sdoias/ISdoCollection::Reload"]
+description: The Reload method reloads all the objects in the collection from the underlying datastore.
+helpviewer_keywords: ["ISdoCollection interface [Network Policy Server]","Reload method","ISdoCollection.Reload","ISdoCollection::Reload","Reload","Reload method [Network Policy Server]","Reload method [Network Policy Server]","ISdoCollection interface","_sdo_isdocollection_reload","nps.SDO_isdocollection_reload","sdo.isdocollection_reload","sdoias/ISdoCollection::Reload"]
 old-location: nps\SDO_isdocollection_reload.htm
 tech.root: Nps
 ms.assetid: 9bf216a0-2d65-4242-97bc-f4b690e92d55

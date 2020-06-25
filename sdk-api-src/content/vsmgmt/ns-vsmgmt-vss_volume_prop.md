@@ -75,12 +75,9 @@ A pointer to a null-terminated Unicode string that contains the shortest mount
 
 
 
+
 <a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a>
 
 
 
 <a href="/windows/desktop/VSS/volume-shadow-copy-api-structures">Volume Shadow Copy API Structures</a>
- 
-
- 
-

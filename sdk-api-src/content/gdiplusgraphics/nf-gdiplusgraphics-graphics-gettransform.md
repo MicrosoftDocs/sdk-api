@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetTransform
 title: Graphics::GetTransform (gdiplusgraphics.h)
-description: The Graphics::GetTransform method gets the world transformation matrix of this Graphics object.helpviewer_keywords: ["GetTransform","GetTransform method [GDI+]","GetTransform method [GDI+]","Graphics class","Graphics class [GDI+]","GetTransform method","Graphics.GetTransform","Graphics::GetTransform","_gdiplus_CLASS_Graphics_GetTransform_matrix_","gdiplus._gdiplus_CLASS_Graphics_GetTransform_matrix_"]
+description: The Graphics::GetTransform method gets the world transformation matrix of this Graphics object.
+helpviewer_keywords: ["GetTransform","GetTransform method [GDI+]","GetTransform method [GDI+]","Graphics class","Graphics class [GDI+]","GetTransform method","Graphics.GetTransform","Graphics::GetTransform","_gdiplus_CLASS_Graphics_GetTransform_matrix_","gdiplus._gdiplus_CLASS_Graphics_GetTransform_matrix_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gettransform.htm

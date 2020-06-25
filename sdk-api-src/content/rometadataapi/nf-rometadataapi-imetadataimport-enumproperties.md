@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumProperties
 title: IMetaDataImport::EnumProperties (rometadataapi.h)
-description: Enumerates PropertyDef tokens representing the properties of the type referenced by the specified TypeDef token.helpviewer_keywords: ["EnumProperties","EnumProperties method [Windows Runtime]","EnumProperties method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumProperties method","IMetaDataImport.EnumProperties","IMetaDataImport::EnumProperties","rometadataapi/IMetaDataImport::EnumProperties","winrt.imetadataimport_enumproperties"]
+description: Enumerates PropertyDef tokens representing the properties of the type referenced by the specified TypeDef token.
+helpviewer_keywords: ["EnumProperties","EnumProperties method [Windows Runtime]","EnumProperties method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumProperties method","IMetaDataImport.EnumProperties","IMetaDataImport::EnumProperties","rometadataapi/IMetaDataImport::EnumProperties","winrt.imetadataimport_enumproperties"]
 old-location: winrt\imetadataimport_enumproperties.htm
 tech.root: WinRT
 ms.assetid: 54b89188-43d3-4997-aef4-48beaae151da

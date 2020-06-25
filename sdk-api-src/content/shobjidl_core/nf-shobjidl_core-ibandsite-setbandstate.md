@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IBandSite.SetBandState
 title: IBandSite::SetBandState (shobjidl_core.h)
-description: Set the state of a band in the band site.helpviewer_keywords: ["IBandSite interface [Windows Shell]","SetBandState method","IBandSite.SetBandState","IBandSite::SetBandState","SetBandState","SetBandState method [Windows Shell]","SetBandState method [Windows Shell]","IBandSite interface","_win32_IBandSite_SetBandState","shell.IBandSite_SetBandState","shobjidl_core/IBandSite::SetBandState"]
+description: Set the state of a band in the band site.
+helpviewer_keywords: ["IBandSite interface [Windows Shell]","SetBandState method","IBandSite.SetBandState","IBandSite::SetBandState","SetBandState","SetBandState method [Windows Shell]","SetBandState method [Windows Shell]","IBandSite interface","_win32_IBandSite_SetBandState","shell.IBandSite_SetBandState","shobjidl_core/IBandSite::SetBandState"]
 old-location: shell\IBandSite_SetBandState.htm
 tech.root: shell
 ms.assetid: d327f0fe-7d61-4edd-aff3-f4507763d751

@@ -1,7 +1,8 @@
 ---
 UID: NN:objsel.IDsObjectPickerCredentials
 title: IDsObjectPickerCredentials (objsel.h)
-description: The IDsObjectPickerCredentials interface allows you to override credentials for the IDsObjectPicker object implementing this interface.helpviewer_keywords: ["IDsObjectPickerCredentials","IDsObjectPickerCredentials object [Active Directory]","IDsObjectPickerCredentials object [Active Directory]","described","ad.idsobjectpickercredentials","objsel/IDsObjectPickerCredentials"]
+description: The IDsObjectPickerCredentials interface allows you to override credentials for the IDsObjectPicker object implementing this interface.
+helpviewer_keywords: ["IDsObjectPickerCredentials","IDsObjectPickerCredentials object [Active Directory]","IDsObjectPickerCredentials object [Active Directory]","described","ad.idsobjectpickercredentials","objsel/IDsObjectPickerCredentials"]
 old-location: ad\idsobjectpickercredentials.htm
 tech.root: ad
 ms.assetid: 336e7e68-0903-42f7-9810-53ccceed32de

@@ -1,7 +1,8 @@
 ---
 UID: NF:iwstdec.IAMWstDecoder.GetCurrentService
 title: IAMWstDecoder::GetCurrentService (iwstdec.h)
-description: Applications use the GetCurrentService method to retrieve the current WST service.helpviewer_keywords: ["GetCurrentService","GetCurrentService method [DirectShow]","GetCurrentService method [DirectShow]","IAMWstDecoder interface","IAMWstDecoder interface [DirectShow]","GetCurrentService method","IAMWstDecoder.GetCurrentService","IAMWstDecoder::GetCurrentService","IAMWstDecoderGetCurrentService","dshow.iamwstdecoder_getcurrentservice","iwstdec/IAMWstDecoder::GetCurrentService"]
+description: Applications use the GetCurrentService method to retrieve the current WST service.
+helpviewer_keywords: ["GetCurrentService","GetCurrentService method [DirectShow]","GetCurrentService method [DirectShow]","IAMWstDecoder interface","IAMWstDecoder interface [DirectShow]","GetCurrentService method","IAMWstDecoder.GetCurrentService","IAMWstDecoder::GetCurrentService","IAMWstDecoderGetCurrentService","dshow.iamwstdecoder_getcurrentservice","iwstdec/IAMWstDecoder::GetCurrentService"]
 old-location: dshow\iamwstdecoder_getcurrentservice.htm
 tech.root: DirectShow
 ms.assetid: d16b3501-efee-48e6-8d5d-d76f206d77ed

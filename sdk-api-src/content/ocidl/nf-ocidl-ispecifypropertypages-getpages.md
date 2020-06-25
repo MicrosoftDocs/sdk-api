@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.ISpecifyPropertyPages.GetPages
 title: ISpecifyPropertyPages::GetPages (ocidl.h)
-description: Retrieves a list of property pages that can be displayed in this object's property sheet.helpviewer_keywords: ["GetPages","GetPages method [COM]","GetPages method [COM]","ISpecifyPropertyPages interface","ISpecifyPropertyPages interface [COM]","GetPages method","ISpecifyPropertyPages.GetPages","ISpecifyPropertyPages::GetPages","_ctrl_ispecifypropertypages_getpages","com.ispecifypropertypages_getpages","ocidl/ISpecifyPropertyPages::GetPages"]
+description: Retrieves a list of property pages that can be displayed in this object's property sheet.
+helpviewer_keywords: ["GetPages","GetPages method [COM]","GetPages method [COM]","ISpecifyPropertyPages interface","ISpecifyPropertyPages interface [COM]","GetPages method","ISpecifyPropertyPages.GetPages","ISpecifyPropertyPages::GetPages","_ctrl_ispecifypropertypages_getpages","com.ispecifypropertypages_getpages","ocidl/ISpecifyPropertyPages::GetPages"]
 old-location: com\ispecifypropertypages_getpages.htm
 tech.root: com
 ms.assetid: 82b652da-b49a-47a7-a959-522b051bfd59

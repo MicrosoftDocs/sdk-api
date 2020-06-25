@@ -1,7 +1,8 @@
 ---
 UID: NE:msinkaut.TabletHardwareCapabilities
 title: TabletHardwareCapabilities (msinkaut.h)
-description: Specifies the hardware capabilities of the Tablet PC.helpviewer_keywords: ["THWC_CursorMustTouch","THWC_CursorsHavePhysicalIds","THWC_HardProximity","THWC_Integrated","TabletHardwareCapabilities","TabletHardwareCapabilities enumeration [Tablet PC]","ab8dfca3-df5e-40a7-9da2-d19447bc746b","msinkaut/THWC_CursorMustTouch","msinkaut/THWC_CursorsHavePhysicalIds","msinkaut/THWC_HardProximity","msinkaut/THWC_Integrated","msinkaut/TabletHardwareCapabilities","tablet.tablethardwarecapabilities"]
+description: Specifies the hardware capabilities of the Tablet PC.
+helpviewer_keywords: ["THWC_CursorMustTouch","THWC_CursorsHavePhysicalIds","THWC_HardProximity","THWC_Integrated","TabletHardwareCapabilities","TabletHardwareCapabilities enumeration [Tablet PC]","ab8dfca3-df5e-40a7-9da2-d19447bc746b","msinkaut/THWC_CursorMustTouch","msinkaut/THWC_CursorsHavePhysicalIds","msinkaut/THWC_HardProximity","msinkaut/THWC_Integrated","msinkaut/TabletHardwareCapabilities","tablet.tablethardwarecapabilities"]
 old-location: tablet\tablethardwarecapabilities.htm
 tech.root: tablet
 ms.assetid: ab8dfca3-df5e-40a7-9da2-d19447bc746b

@@ -1,7 +1,8 @@
 ---
 UID: NC:mswsock.LPFN_DISCONNECTEX
 title: LPFN_DISCONNECTEX
-description: Closes a connection on a socket, and allows the socket handle to be reused.Note  This function is a Microsoft-specific extension to the Windows Sockets specification.helpviewer_keywords: ["LPFN_DISCONNECTEX"]
+description: Closes a connection on a socket, and allows the socket handle to be reused.Note  This function is a Microsoft-specific extension to the Windows Sockets specification.
+helpviewer_keywords: ["LPFN_DISCONNECTEX"]
 old-location: 
 tech.root: WinSock
 ms.assetid: 220ba610-1694-470d-8b5e-e6b5fc3b4d0b

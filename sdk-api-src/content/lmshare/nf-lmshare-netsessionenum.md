@@ -1,7 +1,8 @@
 ---
 UID: NF:lmshare.NetSessionEnum
 title: NetSessionEnum function (lmshare.h)
-description: Provides information about sessions established on a server.helpviewer_keywords: ["0","1","10","2","502","NetSessionEnum","NetSessionEnum function [Files]","_win32_netsessionenum","fs.netsessionenum","lmshare/NetSessionEnum","netmgmt.netsessionenum"]
+description: Provides information about sessions established on a server.
+helpviewer_keywords: ["0","1","10","2","502","NetSessionEnum","NetSessionEnum function [Files]","_win32_netsessionenum","fs.netsessionenum","lmshare/NetSessionEnum","netmgmt.netsessionenum"]
 old-location: fs\netsessionenum.htm
 tech.root: NetShare
 ms.assetid: 5923a8cc-bf7a-4ffa-b089-fd7f26ee42d2

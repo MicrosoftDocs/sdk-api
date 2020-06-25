@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetActualModelsSectionA
 title: SetupDiGetActualModelsSectionA function (setupapi.h)
-description: The SetupDiGetActualModelsSection function retrieves the appropriate decorated INF Models section to use when installing a device from a device INF file.helpviewer_keywords: ["SetupDiGetActualModelsSection","SetupDiGetActualModelsSection function [Device and Driver Installation]","SetupDiGetActualModelsSectionA","SetupDiGetActualModelsSectionW","devinst.setupdigetactualmodelssection","di-rtns_d008a45e-8dbe-4d59-ac12-be4ac28eebcb.xml","setupapi/SetupDiGetActualModelsSection"]
+description: The SetupDiGetActualModelsSection function retrieves the appropriate decorated INF Models section to use when installing a device from a device INF file.
+helpviewer_keywords: ["SetupDiGetActualModelsSection","SetupDiGetActualModelsSection function [Device and Driver Installation]","SetupDiGetActualModelsSectionA","SetupDiGetActualModelsSectionW","devinst.setupdigetactualmodelssection","di-rtns_d008a45e-8dbe-4d59-ac12-be4ac28eebcb.xml","setupapi/SetupDiGetActualModelsSection"]
 old-location: devinst\setupdigetactualmodelssection.htm
 tech.root: devinst
 ms.assetid: 8338989a-ef99-479c-8163-ad8d65eba32b
@@ -108,6 +109,10 @@ For information about retrieving an <a href="https://docs.microsoft.com/windows-
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetActualModelsSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

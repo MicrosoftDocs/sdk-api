@@ -1,7 +1,8 @@
 ---
 UID: NF:aclapi.GetTrusteeTypeA
 title: GetTrusteeTypeA function (aclapi.h)
-description: Retrieves the trustee type from the specified TRUSTEE structure. This value indicates whether the trustee is a user, a group, or the trustee type is unknown.helpviewer_keywords: ["GetTrusteeType","GetTrusteeType function [Security]","GetTrusteeTypeA","GetTrusteeTypeW","_win32_gettrusteetype","aclapi/GetTrusteeType","aclapi/GetTrusteeTypeA","aclapi/GetTrusteeTypeW","security.gettrusteetype"]
+description: Retrieves the trustee type from the specified TRUSTEE structure. This value indicates whether the trustee is a user, a group, or the trustee type is unknown.
+helpviewer_keywords: ["GetTrusteeType","GetTrusteeType function [Security]","GetTrusteeTypeA","GetTrusteeTypeW","_win32_gettrusteetype","aclapi/GetTrusteeType","aclapi/GetTrusteeTypeA","aclapi/GetTrusteeTypeW","security.gettrusteetype"]
 old-location: security\gettrusteetype.htm
 tech.root: SecAuthZ
 ms.assetid: 19777929-43cf-45ea-8283-e42bf9ce8d7a
@@ -96,4 +97,9 @@ The return value is one of the constants from the <a href="https://docs.microsof
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The aclapi.h header defines GetTrusteeType as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

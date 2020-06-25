@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.SetTraceCallback
 title: SetTraceCallback function (evntrace.h)
-description: The SetTraceCallback function specifies an EventClassCallback function to process events for the specified event trace class.helpviewer_keywords: ["SetTraceCallback","SetTraceCallback function [ETW]","_evt_settracecallback","base.settracecallback","etw.settracecallback","evntrace/SetTraceCallback"]
+description: The SetTraceCallback function specifies an EventClassCallback function to process events for the specified event trace class.
+helpviewer_keywords: ["SetTraceCallback","SetTraceCallback function [ETW]","_evt_settracecallback","base.settracecallback","etw.settracecallback","evntrace/SetTraceCallback"]
 old-location: etw\settracecallback.htm
 tech.root: ETW
 ms.assetid: 8663f64f-a203-43e5-94e8-337f2d81c3a0

@@ -1,7 +1,8 @@
 ---
 UID: NE:mi._MI_OperationCallback_ResponseType
 title: MI_OperationCallback_ResponseType (mi.h)
-description: If the MI_CallbackMode is MI_CALLBACKMODE_INQUIRE, one of these values can be used in the callback.helpviewer_keywords: ["MI_OperationCallback_ResponseType","MI_OperationCallback_ResponseType enumeration [Windows Management Infrastructure (MI)]","MI_OperationCallback_ResponseType_No","MI_OperationCallback_ResponseType_NoToAll","MI_OperationCallback_ResponseType_Yes","MI_OperationCallback_ResponseType_YesToAll","mi/MI_OperationCallback_ResponseType","mi/MI_OperationCallback_ResponseType_No","mi/MI_OperationCallback_ResponseType_NoToAll","mi/MI_OperationCallback_ResponseType_Yes","mi/MI_OperationCallback_ResponseType_YesToAll","wmi._mi_operationcallback_responsetype","wmi_v2.mi_operationcallback_responsetype"]
+description: If the MI_CallbackMode is MI_CALLBACKMODE_INQUIRE, one of these values can be used in the callback.
+helpviewer_keywords: ["MI_OperationCallback_ResponseType","MI_OperationCallback_ResponseType enumeration [Windows Management Infrastructure (MI)]","MI_OperationCallback_ResponseType_No","MI_OperationCallback_ResponseType_NoToAll","MI_OperationCallback_ResponseType_Yes","MI_OperationCallback_ResponseType_YesToAll","mi/MI_OperationCallback_ResponseType","mi/MI_OperationCallback_ResponseType_No","mi/MI_OperationCallback_ResponseType_NoToAll","mi/MI_OperationCallback_ResponseType_Yes","mi/MI_OperationCallback_ResponseType_YesToAll","wmi._mi_operationcallback_responsetype","wmi_v2.mi_operationcallback_responsetype"]
 old-location: wmi_v2\mi_operationcallback_responsetype.htm
 tech.root: wmi_v2
 ms.assetid: 07e1d42b-b9e4-4199-88b1-71864de37282

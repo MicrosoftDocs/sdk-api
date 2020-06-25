@@ -1,7 +1,8 @@
 ---
 UID: NN:msrdc.IRdcFileReader
 title: IRdcFileReader (msrdc.h)
-description: The IRdcFileReader interface is used to provide the equivalent of a file handle, because the data being synchronized may not exist as a file on disk.helpviewer_keywords: ["IRdcFileReader","IRdcFileReader interface [Remote Differential Compression]","IRdcFileReader interface [Remote Differential Compression]","described","fs.irdcfilereader","msrdc/IRdcFileReader","rdc.irdcfilereader"]
+description: The IRdcFileReader interface is used to provide the equivalent of a file handle, because the data being synchronized may not exist as a file on disk.
+helpviewer_keywords: ["IRdcFileReader","IRdcFileReader interface [Remote Differential Compression]","IRdcFileReader interface [Remote Differential Compression]","described","fs.irdcfilereader","msrdc/IRdcFileReader","rdc.irdcfilereader"]
 old-location: rdc\irdcfilereader.htm
 tech.root: rdc
 ms.assetid: 9684efca-37fd-45ce-a24e-d5276b8ea6af

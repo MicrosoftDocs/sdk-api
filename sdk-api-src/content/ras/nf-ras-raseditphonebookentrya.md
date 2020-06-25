@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasEditPhonebookEntryA
 title: RasEditPhonebookEntryA function (ras.h)
-description: The RasEditPhonebookEntry function edits an existing phone-book entry. The function displays a dialog box in which the user can modify the existing information.helpviewer_keywords: ["RasEditPhonebookEntry","RasEditPhonebookEntry function [RAS]","RasEditPhonebookEntryA","RasEditPhonebookEntryW","_ras_raseditphonebookentry","ras/RasEditPhonebookEntry","ras/RasEditPhonebookEntryA","ras/RasEditPhonebookEntryW","rras.raseditphonebookentry"]
+description: The RasEditPhonebookEntry function edits an existing phone-book entry. The function displays a dialog box in which the user can modify the existing information.
+helpviewer_keywords: ["RasEditPhonebookEntry","RasEditPhonebookEntry function [RAS]","RasEditPhonebookEntryA","RasEditPhonebookEntryW","_ras_raseditphonebookentry","ras/RasEditPhonebookEntry","ras/RasEditPhonebookEntryA","ras/RasEditPhonebookEntryW","rras.raseditphonebookentry"]
 old-location: rras\raseditphonebookentry.htm
 tech.root: RRAS
 ms.assetid: 7fce1ea8-7ed6-4975-af4b-e20a1c1be5fa
@@ -145,6 +146,10 @@ When calling <a href="https://docs.microsoft.com/windows/desktop/api/rasdlg/nf-r
 </ul>
 
 
+
+
+> [!NOTE]
+> The ras.h header defines RasEditPhonebookEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

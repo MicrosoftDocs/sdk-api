@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationcore.IScrollItemProvider
 title: IScrollItemProvider (uiautomationcore.h)
-description: Provides access to individual child controls of containers that implement IScrollProvider.helpviewer_keywords: ["IScrollItemProvider","IScrollItemProvider interface [Windows Accessibility]","IScrollItemProvider interface [Windows Accessibility]","described","uiauto.uiauto_IScrollItemProvider","uiauto_IScrollItemProvider","uiautomationcore/IScrollItemProvider","winauto.uiauto_IScrollItemProvider"]
+description: Provides access to individual child controls of containers that implement IScrollProvider.
+helpviewer_keywords: ["IScrollItemProvider","IScrollItemProvider interface [Windows Accessibility]","IScrollItemProvider interface [Windows Accessibility]","described","uiauto.uiauto_IScrollItemProvider","uiauto_IScrollItemProvider","uiautomationcore/IScrollItemProvider","winauto.uiauto_IScrollItemProvider"]
 old-location: winauto\uiauto_IScrollItemProvider.htm
 tech.root: WinAuto
 ms.assetid: d8a8384e-d57b-4614-a643-b5ba3a63224d

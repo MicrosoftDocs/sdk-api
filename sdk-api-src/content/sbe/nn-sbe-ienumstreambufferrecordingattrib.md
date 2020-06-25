@@ -1,7 +1,8 @@
 ---
 UID: NN:sbe.IEnumStreamBufferRecordingAttrib
 title: IEnumStreamBufferRecordingAttrib (sbe.h)
-description: The IEnumStreamBufferRecordingAttrib interface enumerates a collection of attributes on a stream buffer file.helpviewer_keywords: ["IEnumStreamBufferRecordingAttrib","IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies]","IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies]","described","IEnumStreamBufferRecordingAttribInterface","mstv.ienumstreambufferrecordingattrib","sbe/IEnumStreamBufferRecordingAttrib"]
+description: The IEnumStreamBufferRecordingAttrib interface enumerates a collection of attributes on a stream buffer file.
+helpviewer_keywords: ["IEnumStreamBufferRecordingAttrib","IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies]","IEnumStreamBufferRecordingAttrib interface [Microsoft TV Technologies]","described","IEnumStreamBufferRecordingAttribInterface","mstv.ienumstreambufferrecordingattrib","sbe/IEnumStreamBufferRecordingAttrib"]
 old-location: mstv\ienumstreambufferrecordingattrib.htm
 tech.root: mstv
 ms.assetid: 668d2e04-74fa-41d7-b238-ec737a4441ca

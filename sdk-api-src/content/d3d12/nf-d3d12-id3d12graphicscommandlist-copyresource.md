@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.CopyResource
 title: ID3D12GraphicsCommandList::CopyResource (d3d12.h)
-description: Copies the entire contents of the source resource to the destination resource.helpviewer_keywords: ["CopyResource","CopyResource method","CopyResource method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","CopyResource method","ID3D12GraphicsCommandList.CopyResource","ID3D12GraphicsCommandList::CopyResource","d3d12/ID3D12GraphicsCommandList::CopyResource","direct3d12.id3d12graphicscommandlist_copyresource"]
+description: Copies the entire contents of the source resource to the destination resource.
+helpviewer_keywords: ["CopyResource","CopyResource method","CopyResource method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","CopyResource method","ID3D12GraphicsCommandList.CopyResource","ID3D12GraphicsCommandList::CopyResource","d3d12/ID3D12GraphicsCommandList::CopyResource","direct3d12.id3d12graphicscommandlist_copyresource"]
 old-location: direct3d12\id3d12graphicscommandlist_copyresource.htm
 tech.root: direct3d12
 ms.assetid: EFC305CF-FBA9-4192-999B-6C6BFCDFF51F

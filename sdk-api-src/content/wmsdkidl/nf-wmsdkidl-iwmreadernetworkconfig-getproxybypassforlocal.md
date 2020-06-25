@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyBypassForLocal
 title: IWMReaderNetworkConfig::GetProxyBypassForLocal (wmsdkidl.h)
-description: The GetProxyBypassForLocal method queries whether the reader object bypasses the proxy server for local URLs.helpviewer_keywords: ["GetProxyBypassForLocal","GetProxyBypassForLocal method [windows Media Format]","GetProxyBypassForLocal method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetProxyBypassForLocal method","IWMReaderNetworkConfig.GetProxyBypassForLocal","IWMReaderNetworkConfig::GetProxyBypassForLocal","IWMReaderNetworkConfigGetProxyBypassForLocal","wmformat.iwmreadernetworkconfig_getproxybypassforlocal","wmsdkidl/IWMReaderNetworkConfig::GetProxyBypassForLocal"]
+description: The GetProxyBypassForLocal method queries whether the reader object bypasses the proxy server for local URLs.
+helpviewer_keywords: ["GetProxyBypassForLocal","GetProxyBypassForLocal method [windows Media Format]","GetProxyBypassForLocal method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetProxyBypassForLocal method","IWMReaderNetworkConfig.GetProxyBypassForLocal","IWMReaderNetworkConfig::GetProxyBypassForLocal","IWMReaderNetworkConfigGetProxyBypassForLocal","wmformat.iwmreadernetworkconfig_getproxybypassforlocal","wmsdkidl/IWMReaderNetworkConfig::GetProxyBypassForLocal"]
 old-location: wmformat\iwmreadernetworkconfig_getproxybypassforlocal.htm
 tech.root: wmformat
 ms.assetid: 5e960fa9-d71c-4a13-9210-8a2a86e9989c

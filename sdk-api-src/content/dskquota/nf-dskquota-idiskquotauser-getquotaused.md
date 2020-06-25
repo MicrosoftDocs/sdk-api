@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaUsed
 title: IDiskQuotaUser::GetQuotaUsed (dskquota.h)
-description: Retrieves the user's quota used value on the volume.helpviewer_keywords: ["GetQuotaUsed","GetQuotaUsed method [Files]","GetQuotaUsed method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaUsed method","IDiskQuotaUser.GetQuotaUsed","IDiskQuotaUser::GetQuotaUsed","_win32_idiskquotauser_getquotaused","base.idiskquotauser_getquotaused","dskquota/IDiskQuotaUser::GetQuotaUsed","fs.idiskquotauser_getquotaused"]
+description: Retrieves the user's quota used value on the volume.
+helpviewer_keywords: ["GetQuotaUsed","GetQuotaUsed method [Files]","GetQuotaUsed method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaUsed method","IDiskQuotaUser.GetQuotaUsed","IDiskQuotaUser::GetQuotaUsed","_win32_idiskquotauser_getquotaused","base.idiskquotauser_getquotaused","dskquota/IDiskQuotaUser::GetQuotaUsed","fs.idiskquotauser_getquotaused"]
 old-location: fs\idiskquotauser_getquotaused.htm
 tech.root: FileIO
 ms.assetid: 3787648e-7788-4d09-a236-fe28a693a8ff

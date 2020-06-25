@@ -1,7 +1,8 @@
 ---
 UID: NS:sspi._SecPkgContext_ClientSpecifiedTarget
 title: SecPkgContext_ClientSpecifiedTarget (sspi.h)
-description: Specifies the service principal name (SPN) of the initial target when calling the QueryContextAttributes (Digest) function.helpviewer_keywords: ["*PSecPkgContext_ClientSpecifiedTarget","PSecPkgContext_ClientSpecifiedTarget","PSecPkgContext_ClientSpecifiedTarget structure pointer [Security]","SecPkgContext_ClientSpecifiedTarget","SecPkgContext_ClientSpecifiedTarget structure [Security]","security.secpkgcontext_clientspecifiedtarget","sspi/PSecPkgContext_ClientSpecifiedTarget","sspi/SecPkgContext_ClientSpecifiedTarget"]
+description: Specifies the service principal name (SPN) of the initial target when calling the QueryContextAttributes (Digest) function.
+helpviewer_keywords: ["*PSecPkgContext_ClientSpecifiedTarget","PSecPkgContext_ClientSpecifiedTarget","PSecPkgContext_ClientSpecifiedTarget structure pointer [Security]","SecPkgContext_ClientSpecifiedTarget","SecPkgContext_ClientSpecifiedTarget structure [Security]","security.secpkgcontext_clientspecifiedtarget","sspi/PSecPkgContext_ClientSpecifiedTarget","sspi/SecPkgContext_ClientSpecifiedTarget"]
 old-location: security\secpkgcontext_clientspecifiedtarget.htm
 tech.root: SecAuthN
 ms.assetid: 67536f69-a1fc-4f26-84dc-872635bafa3b

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHAlloc
 title: SHAlloc function (shlobj_core.h)
-description: Allocates memory from the Shell's heap.helpviewer_keywords: ["SHAlloc","SHAlloc function [Windows Shell]","_win32_SHAlloc","shell.SHAlloc","shlobj_core/SHAlloc"]
+description: Allocates memory from the Shell's heap.
+helpviewer_keywords: ["SHAlloc","SHAlloc function [Windows Shell]","_win32_SHAlloc","shell.SHAlloc","shlobj_core/SHAlloc"]
 old-location: shell\SHAlloc.htm
 tech.root: shell
 ms.assetid: 621e4335-1484-4111-9cfe-7ae5c6d5c609

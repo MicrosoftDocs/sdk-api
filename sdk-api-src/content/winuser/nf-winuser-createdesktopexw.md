@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CreateDesktopExW
 title: CreateDesktopExW function (winuser.h)
-description: Creates a new desktop with the specified heap, associates it with the current window station of the calling process, and assigns it to the calling thread.helpviewer_keywords: ["CreateDesktopEx","CreateDesktopEx function [Windows Stations and Desktops]","CreateDesktopExA","CreateDesktopExW","DF_ALLOWOTHERACCOUNTHOOK","base.createdesktopex","winstation.createdesktopex","winuser/CreateDesktopEx","winuser/CreateDesktopExA","winuser/CreateDesktopExW"]
+description: Creates a new desktop with the specified heap, associates it with the current window station of the calling process, and assigns it to the calling thread.
+helpviewer_keywords: ["CreateDesktopEx","CreateDesktopEx function [Windows Stations and Desktops]","CreateDesktopExA","CreateDesktopExW","DF_ALLOWOTHERACCOUNTHOOK","base.createdesktopex","winstation.createdesktopex","winuser/CreateDesktopEx","winuser/CreateDesktopExA","winuser/CreateDesktopExW"]
 old-location: winstation\createdesktopex.htm
 tech.root: winstation
 ms.assetid: 2fe8859d-1fe3-4f44-aa97-58e61779c4cc
@@ -173,6 +174,10 @@ The default size of the desktop heap depends on factors such as hardware archite
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CreateDesktopEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

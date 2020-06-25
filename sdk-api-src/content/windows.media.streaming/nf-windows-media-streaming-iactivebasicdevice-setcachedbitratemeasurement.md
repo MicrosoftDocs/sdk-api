@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.SetCachedBitrateMeasurement
 title: IActiveBasicDevice::streaming (windows.media.streaming.h)
-description: Sets the cached bitrate.helpviewer_keywords: ["IActiveBasicDevice interface [Media Streaming API]","SetCachedBitrateMeasurement method","IActiveBasicDevice.SetCachedBitrateMeasurement","IActiveBasicDevice.streaming","IActiveBasicDevice::SetCachedBitrateMeasurement","IActiveBasicDevice::streaming","SetCachedBitrateMeasurement","SetCachedBitrateMeasurement method [Media Streaming API]","SetCachedBitrateMeasurement method [Media Streaming API]","IActiveBasicDevice interface","mediastreaming.iactivebasicdevice_setcachedbitratemeasurement","windows/IActiveBasicDevice::SetCachedBitrateMeasurement"]
+description: Sets the cached bitrate.
+helpviewer_keywords: ["IActiveBasicDevice interface [Media Streaming API]","SetCachedBitrateMeasurement method","IActiveBasicDevice.SetCachedBitrateMeasurement","IActiveBasicDevice.streaming","IActiveBasicDevice::SetCachedBitrateMeasurement","IActiveBasicDevice::streaming","SetCachedBitrateMeasurement","SetCachedBitrateMeasurement method [Media Streaming API]","SetCachedBitrateMeasurement method [Media Streaming API]","IActiveBasicDevice interface","mediastreaming.iactivebasicdevice_setcachedbitratemeasurement","windows/IActiveBasicDevice::SetCachedBitrateMeasurement"]
 old-location: mediastreaming\iactivebasicdevice_setcachedbitratemeasurement.htm
 tech.root: mediastreaming
 ms.assetid: B695D51C-205B-4D45-BEA7-0235FC770C77

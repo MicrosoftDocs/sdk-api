@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetStorageFilter
 title: IDXGIInfoQueue::GetStorageFilter (dxgidebug.h)
-description: Gets the storage filter at the top of the storage-filter stack.helpviewer_keywords: ["GetStorageFilter","GetStorageFilter method [DXGI]","GetStorageFilter method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetStorageFilter method","IDXGIInfoQueue.GetStorageFilter","IDXGIInfoQueue::GetStorageFilter","direct3ddxgi.idxgiinfoqueue_getstoragefilter","dxgidebug/IDXGIInfoQueue::GetStorageFilter"]
+description: Gets the storage filter at the top of the storage-filter stack.
+helpviewer_keywords: ["GetStorageFilter","GetStorageFilter method [DXGI]","GetStorageFilter method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetStorageFilter method","IDXGIInfoQueue.GetStorageFilter","IDXGIInfoQueue::GetStorageFilter","direct3ddxgi.idxgiinfoqueue_getstoragefilter","dxgidebug/IDXGIInfoQueue::GetStorageFilter"]
 old-location: direct3ddxgi\idxgiinfoqueue_getstoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: C0709ECD-94CC-4745-A811-4180EC763CFC

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetAncestor
 title: GetAncestor function (winuser.h)
-description: Retrieves the handle to the ancestor of the specified window.helpviewer_keywords: ["GA_PARENT","GA_ROOT","GA_ROOTOWNER","GetAncestor","GetAncestor function [Windows and Messages]","_win32_GetAncestor","_win32_getancestor_cpp","winmsg.getancestor","winui._win32_getancestor","winuser/GetAncestor"]
+description: Retrieves the handle to the ancestor of the specified window.
+helpviewer_keywords: ["GA_PARENT","GA_ROOT","GA_ROOTOWNER","GetAncestor","GetAncestor function [Windows and Messages]","_win32_GetAncestor","_win32_getancestor_cpp","winmsg.getancestor","winui._win32_getancestor","winuser/GetAncestor"]
 old-location: winmsg\getancestor.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getancestor.htm

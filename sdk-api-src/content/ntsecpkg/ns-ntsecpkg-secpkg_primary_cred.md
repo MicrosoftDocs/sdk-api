@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecpkg._SECPKG_PRIMARY_CRED
 title: SECPKG_PRIMARY_CRED (ntsecpkg.h)
-description: The SECPKG_PRIMARY_CRED structure contains the primary credentials. This structure is used by the LsaApLogonUserEx2 and SpAcceptCredentials functions.helpviewer_keywords: ["*PSECPKG_PRIMARY_CRED","PRIMARY_CRED_CACHED_LOGON","PRIMARY_CRED_CLEAR_PASSWORD","PRIMARY_CRED_OWF_PASSWORD","PRIMARY_CRED_UPDATE","PSECPKG_PRIMARY_CRED","PSECPKG_PRIMARY_CRED structure pointer [Security]","SECPKG_PRIMARY_CRED","SECPKG_PRIMARY_CRED structure [Security]","_ssp_secpkg_primary_cred","ntsecpkg/PSECPKG_PRIMARY_CRED","ntsecpkg/SECPKG_PRIMARY_CRED","security.secpkg_primary_cred"]
+description: The SECPKG_PRIMARY_CRED structure contains the primary credentials. This structure is used by the LsaApLogonUserEx2 and SpAcceptCredentials functions.
+helpviewer_keywords: ["*PSECPKG_PRIMARY_CRED","PRIMARY_CRED_CACHED_LOGON","PRIMARY_CRED_CLEAR_PASSWORD","PRIMARY_CRED_OWF_PASSWORD","PRIMARY_CRED_UPDATE","PSECPKG_PRIMARY_CRED","PSECPKG_PRIMARY_CRED structure pointer [Security]","SECPKG_PRIMARY_CRED","SECPKG_PRIMARY_CRED structure [Security]","_ssp_secpkg_primary_cred","ntsecpkg/PSECPKG_PRIMARY_CRED","ntsecpkg/SECPKG_PRIMARY_CRED","security.secpkg_primary_cred"]
 old-location: security\secpkg_primary_cred.htm
 tech.root: SecAuthN
 ms.assetid: e51fd400-6c3c-4861-ab5c-6c1800b12d31

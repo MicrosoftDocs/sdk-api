@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleObject.SetExtent
 title: IOleObject::SetExtent (oleidl.h)
-description: Informs an object of how much display space its container has assigned it.helpviewer_keywords: ["IOleObject interface [COM]","SetExtent method","IOleObject.SetExtent","IOleObject::SetExtent","SetExtent","SetExtent method [COM]","SetExtent method [COM]","IOleObject interface","_ole_ioleobject_setextent","com.ioleobject_setextent","oleidl/IOleObject::SetExtent"]
+description: Informs an object of how much display space its container has assigned it.
+helpviewer_keywords: ["IOleObject interface [COM]","SetExtent method","IOleObject.SetExtent","IOleObject::SetExtent","SetExtent","SetExtent method [COM]","SetExtent method [COM]","IOleObject interface","_ole_ioleobject_setextent","com.ioleobject_setextent","oleidl/IOleObject::SetExtent"]
 old-location: com\ioleobject_setextent.htm
 tech.root: com
 ms.assetid: f1960095-7c9a-4058-aef1-f31e3d6e3509

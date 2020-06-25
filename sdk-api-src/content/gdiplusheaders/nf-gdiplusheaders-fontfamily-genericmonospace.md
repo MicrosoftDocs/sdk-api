@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GenericMonospace
 title: FontFamily::GenericMonospace (gdiplusheaders.h)
-description: The FontFamily::GenericMonospace method gets a FontFamily object that specifies a generic monospace typeface.helpviewer_keywords: ["FontFamily class [GDI+]","GenericMonospace method","FontFamily.GenericMonospace","FontFamily::GenericMonospace","GenericMonospace","GenericMonospace method [GDI+]","GenericMonospace method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GenericMonospace_","gdiplus._gdiplus_CLASS_FontFamily_GenericMonospace_"]
+description: The FontFamily::GenericMonospace method gets a FontFamily object that specifies a generic monospace typeface.
+helpviewer_keywords: ["FontFamily class [GDI+]","GenericMonospace method","FontFamily.GenericMonospace","FontFamily::GenericMonospace","GenericMonospace","GenericMonospace method [GDI+]","GenericMonospace method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GenericMonospace_","gdiplus._gdiplus_CLASS_FontFamily_GenericMonospace_"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GenericMonospace_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\genericmonospace.htm

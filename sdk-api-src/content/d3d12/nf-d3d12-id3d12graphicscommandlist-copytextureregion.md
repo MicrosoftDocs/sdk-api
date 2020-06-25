@@ -108,8 +108,6 @@ Specifies an optional  D3D12_BOX that sets the size of the source texture to cop
 
 ## -remarks
 
-
-
 The source box must be within the size of the source resource. The destination offsets, (x, y, and z), allow the source box to be offset when writing into the destination resource; however, the dimensions of the source box and the offsets must be within the size of the resource. If you try and copy outside the destination resource or specify a source box that is larger than the source resource, the behavior of <b>CopyTextureRegion</b> is undefined. If you created a device that supports the <a href="https://docs.microsoft.com/windows/desktop/direct3d11/overviews-direct3d-11-devices-layers">debug layer</a>, the debug output reports an error on this invalid <b>CopyTextureRegion</b> call. Invalid parameters to <b>CopyTextureRegion</b> cause undefined behavior and might result in incorrect rendering, clipping, no copy, or even the removal of the rendering device.
         
 
@@ -127,7 +125,6 @@ If the resources are buffers, all coordinates are in bytes; if the resources are
 Note that for a depth-stencil buffer, the depth and stencil planes are <a href="https://docs.microsoft.com/en-us/windows/win32/direct3d12/subresources#plane-slice">separate subresources</a> within the buffer.
 
 To copy an entire resource, rather than just a region of a subresource, we recommend to use <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copyresource">CopyResource</a> instead.
-        
 
 <div class="alert"><b>Note</b>  If you use <b>CopyTextureRegion</b> with a depth-stencil buffer or a multisampled resource, you must copy the entire subresource rectangle. In this situation, you must pass 0 to the <i>DstX</i>, <i>DstY</i>, and <i>DstZ</i> parameters and <b>NULL</b> to the <i>pSrcBox</i> parameter. In addition, source and destination resources, which are represented by the <i>pSrcResource</i> and <i>pDstResource</i> parameters, should have identical sample count values.
         </div>
@@ -239,7 +236,3 @@ See <a href="https://docs.microsoft.com/windows/desktop/direct3d12/notes-on-exam
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
- 
-
- 
-

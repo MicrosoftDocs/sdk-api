@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMStoreInt
 title: XMStoreInt function (directxmath.h)
-description: Stores an XMVECTOR in a uint32_t.helpviewer_keywords: ["Use DirectX..XMStoreInt","XMStoreInt","XMStoreInt method [DirectX Math Support APIs]","dxmath.xmstoreint"]
+description: Stores an XMVECTOR in a uint32_t.
+helpviewer_keywords: ["Use DirectX..XMStoreInt","XMStoreInt","XMStoreInt method [DirectX Math Support APIs]","dxmath.xmstoreint"]
 old-location: dxmath\xmstoreint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreInt(uint32_t@,XMVECTOR)

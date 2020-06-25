@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinitionValue.get_Name
 title: IFsrmPropertyDefinitionValue::get_Name (fsrmpipeline.h)
-description: Name of the classification property definition value.helpviewer_keywords: ["IFsrmPropertyDefinitionValue interface [File Server Resource Manager]","Name property","IFsrmPropertyDefinitionValue.Name","IFsrmPropertyDefinitionValue.get_Name","IFsrmPropertyDefinitionValue::Name","IFsrmPropertyDefinitionValue::get_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmPropertyDefinitionValue interface","fs.ifsrmpropertydefinitionvalue_name","fsrm.ifsrmpropertydefinitionvalue_name","fsrmpipeline/IFsrmPropertyDefinitionValue::Name","fsrmpipeline/IFsrmPropertyDefinitionValue::get_Name","get_Name"]
+description: Name of the classification property definition value.
+helpviewer_keywords: ["IFsrmPropertyDefinitionValue interface [File Server Resource Manager]","Name property","IFsrmPropertyDefinitionValue.Name","IFsrmPropertyDefinitionValue.get_Name","IFsrmPropertyDefinitionValue::Name","IFsrmPropertyDefinitionValue::get_Name","Name property [File Server Resource Manager]","Name property [File Server Resource Manager]","IFsrmPropertyDefinitionValue interface","fs.ifsrmpropertydefinitionvalue_name","fsrm.ifsrmpropertydefinitionvalue_name","fsrmpipeline/IFsrmPropertyDefinitionValue::Name","fsrmpipeline/IFsrmPropertyDefinitionValue::get_Name","get_Name"]
 old-location: fsrm\ifsrmpropertydefinitionvalue_name.htm
 tech.root: fsrm
 ms.assetid: d7839713-61a8-4cb4-bc1d-0cc2b2234fd4

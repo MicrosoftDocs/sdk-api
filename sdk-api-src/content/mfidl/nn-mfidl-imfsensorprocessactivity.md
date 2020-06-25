@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFSensorProcessActivity
 title: IMFSensorProcessActivity (mfidl.h)
-description: Represents the activity of a process associated with a sensor.helpviewer_keywords: ["IMFSensorProcessActivity","IMFSensorProcessActivity interface [Media Foundation]","IMFSensorProcessActivity interface [Media Foundation]","described","mf.imfsensorprocessactivity","mfidl/IMFSensorProcessActivity"]
+description: Represents the activity of a process associated with a sensor.
+helpviewer_keywords: ["IMFSensorProcessActivity","IMFSensorProcessActivity interface [Media Foundation]","IMFSensorProcessActivity interface [Media Foundation]","described","mf.imfsensorprocessactivity","mfidl/IMFSensorProcessActivity"]
 old-location: mf\imfsensorprocessactivity.htm
 tech.root: medfound
 ms.assetid: 833A24EA-11E0-47CF-A710-06E38A1FD50A

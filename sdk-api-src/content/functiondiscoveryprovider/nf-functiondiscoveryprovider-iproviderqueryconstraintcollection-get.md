@@ -1,7 +1,8 @@
 ---
 UID: NF:functiondiscoveryprovider.IProviderQueryConstraintCollection.Get
 title: IProviderQueryConstraintCollection::Get (functiondiscoveryprovider.h)
-description: Gets the value of the specified query constraint, by name.helpviewer_keywords: ["Get","Get method","Get method","IProviderQueryConstraintCollection interface","IProviderQueryConstraintCollection interface","Get method","IProviderQueryConstraintCollection.Get","IProviderQueryConstraintCollection::Get","functiondiscoveryprovider/IProviderQueryConstraintCollection::Get","ncd.iproviderqueryconstraintcollection_get"]
+description: Gets the value of the specified query constraint, by name.
+helpviewer_keywords: ["Get","Get method","Get method","IProviderQueryConstraintCollection interface","IProviderQueryConstraintCollection interface","Get method","IProviderQueryConstraintCollection.Get","IProviderQueryConstraintCollection::Get","functiondiscoveryprovider/IProviderQueryConstraintCollection::Get","ncd.iproviderqueryconstraintcollection_get"]
 old-location: ncd\iproviderqueryconstraintcollection_get.htm
 tech.root: FunDisc
 ms.assetid: 30b66ed6-ef02-4a47-baa0-dc48b6d84187

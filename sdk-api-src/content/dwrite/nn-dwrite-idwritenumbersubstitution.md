@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite.IDWriteNumberSubstitution
 title: IDWriteNumberSubstitution (dwrite.h)
-description: Holds the appropriate digits and numeric punctuation for a specified locale.helpviewer_keywords: ["IDWriteNumberSubstitution","IDWriteNumberSubstitution interface [Direct Write]","IDWriteNumberSubstitution interface [Direct Write]","described","directwrite.IDWriteNumberSubstitution","dwrite/IDWriteNumberSubstitution"]
+description: Holds the appropriate digits and numeric punctuation for a specified locale.
+helpviewer_keywords: ["IDWriteNumberSubstitution","IDWriteNumberSubstitution interface [Direct Write]","IDWriteNumberSubstitution interface [Direct Write]","described","directwrite.IDWriteNumberSubstitution","dwrite/IDWriteNumberSubstitution"]
 old-location: directwrite\IDWriteNumberSubstitution.htm
 tech.root: DirectWrite
 ms.assetid: bf8caeea-6ede-4cd3-84f7-2e8314af50db

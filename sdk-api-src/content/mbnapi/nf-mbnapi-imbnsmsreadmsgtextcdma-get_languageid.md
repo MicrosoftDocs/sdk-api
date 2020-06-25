@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgTextCdma.get_LanguageID
 title: IMbnSmsReadMsgTextCdma::get_LanguageID (mbnapi.h)
-description: The language used in the message.helpviewer_keywords: ["IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks]","LanguageID property","IMbnSmsReadMsgTextCdma.LanguageID","IMbnSmsReadMsgTextCdma.get_LanguageID","IMbnSmsReadMsgTextCdma::LanguageID","IMbnSmsReadMsgTextCdma::get_LanguageID","LanguageID property [Microsoft Broadband Networks]","LanguageID property [Microsoft Broadband Networks]","IMbnSmsReadMsgTextCdma interface","get_LanguageID","mbn.imbnsmsreadmsgtextcdma_languageid","mbnapi/IMbnSmsReadMsgTextCdma::LanguageID","mbnapi/IMbnSmsReadMsgTextCdma::get_LanguageID"]
+description: The language used in the message.
+helpviewer_keywords: ["IMbnSmsReadMsgTextCdma interface [Microsoft Broadband Networks]","LanguageID property","IMbnSmsReadMsgTextCdma.LanguageID","IMbnSmsReadMsgTextCdma.get_LanguageID","IMbnSmsReadMsgTextCdma::LanguageID","IMbnSmsReadMsgTextCdma::get_LanguageID","LanguageID property [Microsoft Broadband Networks]","LanguageID property [Microsoft Broadband Networks]","IMbnSmsReadMsgTextCdma interface","get_LanguageID","mbn.imbnsmsreadmsgtextcdma_languageid","mbnapi/IMbnSmsReadMsgTextCdma::LanguageID","mbnapi/IMbnSmsReadMsgTextCdma::get_LanguageID"]
 old-location: mbn\imbnsmsreadmsgtextcdma_languageid.htm
 tech.root: mbn
 ms.assetid: 0c4c2566-091c-4415-a0d7-28f67f2a2259

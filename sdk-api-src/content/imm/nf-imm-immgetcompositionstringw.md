@@ -1,7 +1,8 @@
 ---
 UID: NF:imm.ImmGetCompositionStringW
 title: ImmGetCompositionStringW function (imm.h)
-description: Retrieves information about the composition string.helpviewer_keywords: ["ImmGetCompositionString","ImmGetCompositionString function [Internationalization for Windows Applications]","ImmGetCompositionStringA","ImmGetCompositionStringW","_win32_ImmGetCompositionString","imm/ImmGetCompositionString","imm/ImmGetCompositionStringA","imm/ImmGetCompositionStringW","intl.immgetcompositionstring"]
+description: Retrieves information about the composition string.
+helpviewer_keywords: ["ImmGetCompositionString","ImmGetCompositionString function [Internationalization for Windows Applications]","ImmGetCompositionStringA","ImmGetCompositionStringW","_win32_ImmGetCompositionString","imm/ImmGetCompositionString","imm/ImmGetCompositionStringA","imm/ImmGetCompositionStringW","intl.immgetcompositionstring"]
 old-location: intl\immgetcompositionstring.htm
 tech.root: Intl
 ms.assetid: 6309e5b4-36ce-4899-be33-d7bf0d828d3d
@@ -109,6 +110,10 @@ An application calls this function in response to the <a href="https://docs.micr
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The imm.h header defines ImmGetCompositionString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

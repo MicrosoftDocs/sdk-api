@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGIObject.GetPrivateData
 title: IDXGIObject::GetPrivateData (dxgi.h)
-description: Get a pointer to the object's data.helpviewer_keywords: ["86763938-a2bf-a817-2ffc-645427783675","GetPrivateData","GetPrivateData method [DXGI]","GetPrivateData method [DXGI]","IDXGIObject interface","IDXGIObject interface [DXGI]","GetPrivateData method","IDXGIObject.GetPrivateData","IDXGIObject::GetPrivateData","direct3ddxgi.idxgiobject_getprivatedata","dxgi/IDXGIObject::GetPrivateData"]
+description: Get a pointer to the object's data.
+helpviewer_keywords: ["86763938-a2bf-a817-2ffc-645427783675","GetPrivateData","GetPrivateData method [DXGI]","GetPrivateData method [DXGI]","IDXGIObject interface","IDXGIObject interface [DXGI]","GetPrivateData method","IDXGIObject.GetPrivateData","IDXGIObject::GetPrivateData","direct3ddxgi.idxgiobject_getprivatedata","dxgi/IDXGIObject::GetPrivateData"]
 old-location: direct3ddxgi\idxgiobject_getprivatedata.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiobject_getprivatedata.htm

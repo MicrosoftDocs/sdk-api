@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IMediaPosition.put_Rate
 title: IMediaPosition::put_Rate (control.h)
-description: The put_Rate method sets the playback rate.helpviewer_keywords: ["IMediaPosition interface [DirectShow]","put_Rate method","IMediaPosition.put_Rate","IMediaPosition::put_Rate","IMediaPositionput_Rate","control/IMediaPosition::put_Rate","dshow.imediaposition_put_rate","put_Rate","put_Rate method [DirectShow]","put_Rate method [DirectShow]","IMediaPosition interface"]
+description: The put_Rate method sets the playback rate.
+helpviewer_keywords: ["IMediaPosition interface [DirectShow]","put_Rate method","IMediaPosition.put_Rate","IMediaPosition::put_Rate","IMediaPositionput_Rate","control/IMediaPosition::put_Rate","dshow.imediaposition_put_rate","put_Rate","put_Rate method [DirectShow]","put_Rate method [DirectShow]","IMediaPosition interface"]
 old-location: dshow\imediaposition_put_rate.htm
 tech.root: DirectShow
 ms.assetid: fba6bb5a-6709-41e6-bf76-182c88ee42e3

@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetEffectParameters
 title: IXAudio2Voice::SetEffectParameters (xaudio2.h)
-description: Sets parameters for a given effect in the voice's effect chain.helpviewer_keywords: ["IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","SetEffectParameters method","IXAudio2Voice.SetEffectParameters","IXAudio2Voice::SetEffectParameters","SetEffectParameters","SetEffectParameters method [XAudio2 Audio Mixing APIs]","SetEffectParameters method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","xaudio2.ixaudio2voice_interface_seteffectparameters","xaudio2/IXAudio2Voice::SetEffectParameters"]
+description: Sets parameters for a given effect in the voice's effect chain.
+helpviewer_keywords: ["IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","SetEffectParameters method","IXAudio2Voice.SetEffectParameters","IXAudio2Voice::SetEffectParameters","SetEffectParameters","SetEffectParameters method [XAudio2 Audio Mixing APIs]","SetEffectParameters method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","xaudio2.ixaudio2voice_interface_seteffectparameters","xaudio2/IXAudio2Voice::SetEffectParameters"]
 old-location: xaudio2\ixaudio2voice_interface_seteffectparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetEffectParameters(UINT32,const void,UINT32,UINT32)

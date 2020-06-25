@@ -1,7 +1,8 @@
 ---
 UID: NN:certview.ICertView2
 title: ICertView2 (certview.h)
-description: Allow properly authorized clients to create a customized or complete view of the Certificate Services database.helpviewer_keywords: ["ICertView2","ICertView2 interface [Security]","ICertView2 interface [Security]","described","_certsrv_icertview2","certview/ICertView2","security.icertview2"]
+description: Allow properly authorized clients to create a customized or complete view of the Certificate Services database.
+helpviewer_keywords: ["ICertView2","ICertView2 interface [Security]","ICertView2 interface [Security]","described","_certsrv_icertview2","certview/ICertView2","security.icertview2"]
 old-location: security\icertview2.htm
 tech.root: SecCrypto
 ms.assetid: c29f1db3-0cdf-463e-a202-47fbba8e1c81

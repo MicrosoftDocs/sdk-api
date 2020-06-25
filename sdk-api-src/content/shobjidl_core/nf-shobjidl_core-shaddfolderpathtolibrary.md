@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.SHAddFolderPathToLibrary
 title: SHAddFolderPathToLibrary function (shobjidl_core.h)
-description: Adds a folder to a library.helpviewer_keywords: ["SHAddFolderPathToLibrary","SHAddFolderPathToLibrary function [Windows Shell]","_shell_SHAddFolderPathToLibrary","shell.SHAddFolderPathToLibrary","shobjidl_core/SHAddFolderPathToLibrary"]
+description: Adds a folder to a library.
+helpviewer_keywords: ["SHAddFolderPathToLibrary","SHAddFolderPathToLibrary function [Windows Shell]","_shell_SHAddFolderPathToLibrary","shell.SHAddFolderPathToLibrary","shobjidl_core/SHAddFolderPathToLibrary"]
 old-location: shell\SHAddFolderPathToLibrary.htm
 tech.root: shell
 ms.assetid: 308e7905-dfa1-438f-9e7e-f895517e7adb

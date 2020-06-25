@@ -1,7 +1,8 @@
 ---
 UID: NF:wabapi.IWABObject.SetMe
 title: IWABObject::SetMe (wabapi.h)
-description: Designates a particular contact as the ME object.helpviewer_keywords: ["IWABObject interface [Windows Address Book]","SetMe method","IWABObject.SetMe","IWABObject::SetMe","MAPI_DIALOG","SetMe","SetMe method [Windows Address Book]","SetMe method [Windows Address Book]","IWABObject interface","_wab_IWABObject_SetMe","wab._wab_IWABObject_SetMe","wabapi/IWABObject::SetMe"]
+description: Designates a particular contact as the ME object.
+helpviewer_keywords: ["IWABObject interface [Windows Address Book]","SetMe method","IWABObject.SetMe","IWABObject::SetMe","MAPI_DIALOG","SetMe","SetMe method [Windows Address Book]","SetMe method [Windows Address Book]","IWABObject interface","_wab_IWABObject_SetMe","wab._wab_IWABObject_SetMe","wabapi/IWABObject::SetMe"]
 old-location: wab\_wab_IWABObject_SetMe.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\setme.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.GetTokenInformation
 title: GetTokenInformation function (securitybaseapi.h)
-description: Retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.helpviewer_keywords: ["GetTokenInformation","GetTokenInformation function [Security]","_win32_gettokeninformation","security.gettokeninformation","securitybaseapi/GetTokenInformation"]
+description: Retrieves a specified type of information about an access token. The calling process must have appropriate access rights to obtain the information.
+helpviewer_keywords: ["GetTokenInformation","GetTokenInformation function [Security]","_win32_gettokeninformation","security.gettokeninformation","securitybaseapi/GetTokenInformation"]
 old-location: security\gettokeninformation.htm
 tech.root: SecAuthZ
 ms.assetid: e94de19c-de12-40fb-a72c-060f7ad12f75

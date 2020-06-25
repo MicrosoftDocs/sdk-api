@@ -1,7 +1,8 @@
 ---
 UID: NE:cfapi.CF_REVERT_FLAGS
 title: CF_REVERT_FLAGS (cfapi.h)
-description: Flags for reverting a placeholder file to a regular file.helpviewer_keywords: ["CF_REVERT_FLAGS","CF_REVERT_FLAGS enumeration","CF_REVERT_FLAG_NONE","cfapi/CF_REVERT_FLAGS","cfapi/CF_REVERT_FLAG_NONE","cloudApi.cf_revert_flags"]
+description: Flags for reverting a placeholder file to a regular file.
+helpviewer_keywords: ["CF_REVERT_FLAGS","CF_REVERT_FLAGS enumeration","CF_REVERT_FLAG_NONE","cfapi/CF_REVERT_FLAGS","cfapi/CF_REVERT_FLAG_NONE","cloudApi.cf_revert_flags"]
 old-location: cloudapi\cf_revert_flags.htm
 tech.root: cfApi
 ms.assetid: 71FDE7FA-99FC-4773-A857-8E1BF89ED7E4

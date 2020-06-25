@@ -1,7 +1,8 @@
 ---
 UID: NC:prsht.LPFNADDPROPSHEETPAGE
 title: LPFNADDPROPSHEETPAGE (prsht.h)
-description: Specifies an application-defined callback function that a property sheet extension uses to add a page to a property sheet.helpviewer_keywords: ["AddPropSheetPageProc","AddPropSheetPageProc callback","AddPropSheetPageProc callback function [Windows Controls]","LPFNADDPROPSHEETPAGE","_win32_AddPropSheetPageProc","_win32_AddPropSheetPageProc_cpp","controls.AddPropSheetPageProc","controls._win32_AddPropSheetPageProc","prsht/AddPropSheetPageProc","prsht/LPFNADDPROPSHEETPAGE"]
+description: Specifies an application-defined callback function that a property sheet extension uses to add a page to a property sheet.
+helpviewer_keywords: ["AddPropSheetPageProc","AddPropSheetPageProc callback","AddPropSheetPageProc callback function [Windows Controls]","LPFNADDPROPSHEETPAGE","_win32_AddPropSheetPageProc","_win32_AddPropSheetPageProc_cpp","controls.AddPropSheetPageProc","controls._win32_AddPropSheetPageProc","prsht/AddPropSheetPageProc","prsht/LPFNADDPROPSHEETPAGE"]
 old-location: controls\AddPropSheetPageProc.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\addpropsheetpageproc.htm

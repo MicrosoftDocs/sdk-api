@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzRoleAssignment.DeleteRoleDefinition
 title: IAzRoleAssignment::DeleteRoleDefinition (azroles.h)
-description: Removes the IAzRoleDefinition object with the specified name from this IAzRoleAssignment object.helpviewer_keywords: ["DeleteRoleDefinition","DeleteRoleDefinition method [Security]","DeleteRoleDefinition method [Security]","IAzRoleAssignment interface","IAzRoleAssignment interface [Security]","DeleteRoleDefinition method","IAzRoleAssignment.DeleteRoleDefinition","IAzRoleAssignment::DeleteRoleDefinition","azroles/IAzRoleAssignment::DeleteRoleDefinition","security.iazroleassignment_deleteroledefinition"]
+description: Removes the IAzRoleDefinition object with the specified name from this IAzRoleAssignment object.
+helpviewer_keywords: ["DeleteRoleDefinition","DeleteRoleDefinition method [Security]","DeleteRoleDefinition method [Security]","IAzRoleAssignment interface","IAzRoleAssignment interface [Security]","DeleteRoleDefinition method","IAzRoleAssignment.DeleteRoleDefinition","IAzRoleAssignment::DeleteRoleDefinition","azroles/IAzRoleAssignment::DeleteRoleDefinition","security.iazroleassignment_deleteroledefinition"]
 old-location: security\iazroleassignment_deleteroledefinition.htm
 tech.root: SecAuthZ
 ms.assetid: 17af80d0-d9b4-4e20-b7a8-72e8dc42b69d

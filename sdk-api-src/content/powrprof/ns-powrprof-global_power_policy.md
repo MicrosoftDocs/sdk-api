@@ -1,7 +1,8 @@
 ---
 UID: NS:powrprof._GLOBAL_POWER_POLICY
 title: GLOBAL_POWER_POLICY (powrprof.h)
-description: Contains global power policy settings that apply to all power schemes.helpviewer_keywords: ["*PGLOBAL_POWER_POLICY","GLOBAL_POWER_POLICY","GLOBAL_POWER_POLICY structure","PGLOBAL_POWER_POLICY","PGLOBAL_POWER_POLICY structure pointer","_win32_global_power_policy_str","base.global_power_policy_str","powrprof/GLOBAL_POWER_POLICY","powrprof/PGLOBAL_POWER_POLICY"]
+description: Contains global power policy settings that apply to all power schemes.
+helpviewer_keywords: ["*PGLOBAL_POWER_POLICY","GLOBAL_POWER_POLICY","GLOBAL_POWER_POLICY structure","PGLOBAL_POWER_POLICY","PGLOBAL_POWER_POLICY structure pointer","_win32_global_power_policy_str","base.global_power_policy_str","powrprof/GLOBAL_POWER_POLICY","powrprof/PGLOBAL_POWER_POLICY"]
 old-location: base\global_power_policy_str.htm
 tech.root: power
 ms.assetid: 5c177093-0c16-4a84-9212-f2376de6965b

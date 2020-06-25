@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteAsyncResult.GetResult
 title: IDWriteAsyncResult::GetResult (dwrite_3.h)
-description: Returns the result of the asynchronous operation. The return value is E_PENDING if the operation has not yet completed.helpviewer_keywords: ["GetResult","GetResult method [Direct Write]","GetResult method [Direct Write]","IDWriteAsyncResult interface","IDWriteAsyncResult interface [Direct Write]","GetResult method","IDWriteAsyncResult.GetResult","IDWriteAsyncResult::GetResult","directwrite.idwriteasyncresult_getresult","dwrite_3/IDWriteAsyncResult::GetResult"]
+description: Returns the result of the asynchronous operation. The return value is E_PENDING if the operation has not yet completed.
+helpviewer_keywords: ["GetResult","GetResult method [Direct Write]","GetResult method [Direct Write]","IDWriteAsyncResult interface","IDWriteAsyncResult interface [Direct Write]","GetResult method","IDWriteAsyncResult.GetResult","IDWriteAsyncResult::GetResult","directwrite.idwriteasyncresult_getresult","dwrite_3/IDWriteAsyncResult::GetResult"]
 old-location: directwrite\idwriteasyncresult_getresult.htm
 tech.root: DirectWrite
 ms.assetid: 40588741-958D-4D7E-8E39-206D7CFCBFB6

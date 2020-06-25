@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSCreateMemoryPropertyStore
 title: PSCreateMemoryPropertyStore function (propsys.h)
-description: Creates an in-memory property store.helpviewer_keywords: ["PSCreateMemoryPropertyStore","PSCreateMemoryPropertyStore function [Windows Properties]","_shell_PSCreateMemoryPropertyStore","properties.PSCreateMemoryPropertyStore","propsys/PSCreateMemoryPropertyStore","shell.PSCreateMemoryPropertyStore"]
+description: Creates an in-memory property store.
+helpviewer_keywords: ["PSCreateMemoryPropertyStore","PSCreateMemoryPropertyStore function [Windows Properties]","_shell_PSCreateMemoryPropertyStore","properties.PSCreateMemoryPropertyStore","propsys/PSCreateMemoryPropertyStore","shell.PSCreateMemoryPropertyStore"]
 old-location: properties\PSCreateMemoryPropertyStore.htm
 tech.root: properties
 ms.assetid: 6e7a2ac0-2a4a-41ec-a2a8-ddbe8aa45bc9

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.MFCreateASFProfileFromPresentationDescriptor
 title: MFCreateASFProfileFromPresentationDescriptor function (wmcontainer.h)
-description: Creates an ASF profile object from a presentation descriptor.helpviewer_keywords: ["1163d958-fbea-48f3-9ac3-1595c0cc2d32","MFCreateASFProfileFromPresentationDescriptor","MFCreateASFProfileFromPresentationDescriptor function [Media Foundation]","mf.mfcreateasfprofilefrompresentationdescriptor","wmcontainer/MFCreateASFProfileFromPresentationDescriptor"]
+description: Creates an ASF profile object from a presentation descriptor.
+helpviewer_keywords: ["1163d958-fbea-48f3-9ac3-1595c0cc2d32","MFCreateASFProfileFromPresentationDescriptor","MFCreateASFProfileFromPresentationDescriptor function [Media Foundation]","mf.mfcreateasfprofilefrompresentationdescriptor","wmcontainer/MFCreateASFProfileFromPresentationDescriptor"]
 old-location: mf\mfcreateasfprofilefrompresentationdescriptor.htm
 tech.root: medfound
 ms.assetid: 1163d958-fbea-48f3-9ac3-1595c0cc2d32

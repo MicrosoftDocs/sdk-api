@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITTAPIEventNotification
 title: ITTAPIEventNotification (tapi3if.h)
-description: The ITTAPIEventNotification interface is an outgoing interface that allows an application to control the processing of event information.helpviewer_keywords: ["ITTAPIEventNotification","ITTAPIEventNotification interface [TAPI 2.2]","ITTAPIEventNotification interface [TAPI 2.2]","described","_tapi3_ittapieventnotification","tapi3.ittapieventnotification","tapi3if/ITTAPIEventNotification"]
+description: The ITTAPIEventNotification interface is an outgoing interface that allows an application to control the processing of event information.
+helpviewer_keywords: ["ITTAPIEventNotification","ITTAPIEventNotification interface [TAPI 2.2]","ITTAPIEventNotification interface [TAPI 2.2]","described","_tapi3_ittapieventnotification","tapi3.ittapieventnotification","tapi3if/ITTAPIEventNotification"]
 old-location: tapi3\ittapieventnotification.htm
 tech.root: Tapi
 ms.assetid: 06cfe56c-907f-49ed-8a7a-db31383a06f9

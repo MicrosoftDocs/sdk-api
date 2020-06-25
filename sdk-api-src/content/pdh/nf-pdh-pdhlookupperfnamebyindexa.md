@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhLookupPerfNameByIndexA
 title: PdhLookupPerfNameByIndexA function (pdh.h)
-description: Returns the performance object name or counter name corresponding to the specified index.helpviewer_keywords: ["PdhLookupPerfNameByIndex","PdhLookupPerfNameByIndex function [Perf]","PdhLookupPerfNameByIndexA","PdhLookupPerfNameByIndexW","_win32_pdhlookupperfnamebyindex","base.pdhlookupperfnamebyindex","pdh/PdhLookupPerfNameByIndex","pdh/PdhLookupPerfNameByIndexA","pdh/PdhLookupPerfNameByIndexW","perf.pdhlookupperfnamebyindex"]
+description: Returns the performance object name or counter name corresponding to the specified index.
+helpviewer_keywords: ["PdhLookupPerfNameByIndex","PdhLookupPerfNameByIndex function [Perf]","PdhLookupPerfNameByIndexA","PdhLookupPerfNameByIndexW","_win32_pdhlookupperfnamebyindex","base.pdhlookupperfnamebyindex","pdh/PdhLookupPerfNameByIndex","pdh/PdhLookupPerfNameByIndexA","pdh/PdhLookupPerfNameByIndexW","perf.pdhlookupperfnamebyindex"]
 old-location: perf\pdhlookupperfnamebyindex.htm
 tech.root: perfctrs
 ms.assetid: 6d5e1465-296b-4d8c-b0cb-aefdffb8539e
@@ -150,6 +151,10 @@ The index value that you specify must match one of the index values associated w
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhLookupPerfNameByIndex as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

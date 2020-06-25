@@ -1,7 +1,8 @@
 ---
 UID: NF:lmaccess.NetQueryServiceAccount
 title: NetQueryServiceAccount function (lmaccess.h)
-description: Gets information about the specified managed service account.helpviewer_keywords: ["NetQueryServiceAccount","NetQueryServiceAccount function [Security]","lmaccess/NetQueryServiceAccount","security.netqueryserviceaccount"]
+description: Gets information about the specified managed service account.
+helpviewer_keywords: ["NetQueryServiceAccount","NetQueryServiceAccount function [Security]","lmaccess/NetQueryServiceAccount","security.netqueryserviceaccount"]
 old-location: security\netqueryserviceaccount.htm
 tech.root: SecMgmt
 ms.assetid: ee253cab-bd53-426e-809a-12a1ccdc010b

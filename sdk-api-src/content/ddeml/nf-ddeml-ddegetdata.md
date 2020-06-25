@@ -1,7 +1,8 @@
 ---
 UID: NF:ddeml.DdeGetData
 title: DdeGetData function (ddeml.h)
-description: Copies data from the specified Dynamic Data Exchange (DDE) object to the specified local buffer.helpviewer_keywords: ["DdeGetData","DdeGetData function [Data Exchange]","_win32_DdeGetData","_win32_ddegetdata_cpp","dataxchg.ddegetdata","ddeml/DdeGetData","winui._win32_ddegetdata"]
+description: Copies data from the specified Dynamic Data Exchange (DDE) object to the specified local buffer.
+helpviewer_keywords: ["DdeGetData","DdeGetData function [Data Exchange]","_win32_DdeGetData","_win32_ddegetdata_cpp","dataxchg.ddegetdata","ddeml/DdeGetData","winui._win32_ddegetdata"]
 old-location: dataxchg\ddegetdata.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddegetdata.htm

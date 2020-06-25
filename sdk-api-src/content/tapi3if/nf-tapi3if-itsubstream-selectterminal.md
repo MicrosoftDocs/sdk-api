@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITSubStream.SelectTerminal
 title: ITSubStream::SelectTerminal (tapi3if.h)
-description: The SelectTerminal method selects an ITTerminal object onto the substream. See the Remarks section under ITStream::SelectTerminal for additional information.helpviewer_keywords: ["ITSubStream interface [TAPI 2.2]","SelectTerminal method","ITSubStream.SelectTerminal","ITSubStream::SelectTerminal","SelectTerminal","SelectTerminal method [TAPI 2.2]","SelectTerminal method [TAPI 2.2]","ITSubStream interface","_tapi3_itsubstream_selectterminal","tapi3.itsubstream_selectterminal","tapi3if/ITSubStream::SelectTerminal"]
+description: The SelectTerminal method selects an ITTerminal object onto the substream. See the Remarks section under ITStream::SelectTerminal for additional information.
+helpviewer_keywords: ["ITSubStream interface [TAPI 2.2]","SelectTerminal method","ITSubStream.SelectTerminal","ITSubStream::SelectTerminal","SelectTerminal","SelectTerminal method [TAPI 2.2]","SelectTerminal method [TAPI 2.2]","ITSubStream interface","_tapi3_itsubstream_selectterminal","tapi3.itsubstream_selectterminal","tapi3if/ITSubStream::SelectTerminal"]
 old-location: tapi3\itsubstream_selectterminal.htm
 tech.root: Tapi
 ms.assetid: 5dc558ab-7422-4106-831e-9d2812530e0a

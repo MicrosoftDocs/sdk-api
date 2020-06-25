@@ -1,7 +1,8 @@
 ---
 UID: NF:winerror.IS_ERROR
 title: IS_ERROR macro (winerror.h)
-description: Provides a generic test for errors on any status value.helpviewer_keywords: ["IS_ERROR","IS_ERROR macro [COM]","_com_IS_ERROR","com.is_error","com.is_error_macro","winerror/IS_ERROR"]
+description: Provides a generic test for errors on any status value.
+helpviewer_keywords: ["IS_ERROR","IS_ERROR macro [COM]","_com_IS_ERROR","com.is_error","com.is_error_macro","winerror/IS_ERROR"]
 old-location: com\is_error_macro.htm
 tech.root: com
 ms.assetid: 74497f4b-1c88-4c8a-b9e7-606e77364f48

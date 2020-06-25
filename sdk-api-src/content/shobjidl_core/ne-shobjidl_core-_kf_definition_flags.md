@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core._KF_DEFINITION_FLAGS
 title: _KF_DEFINITION_FLAGS (shobjidl_core.h)
-description: Flags that specify certain known folder behaviors. Used with the KNOWNFOLDER_DEFINITION structure.helpviewer_keywords: ["KFDF_LOCAL_REDIRECT_ONLY","KFDF_NO_REDIRECT_UI","KFDF_PRECREATE","KFDF_PUBLISHEXPANDEDPATH","KFDF_ROAMABLE","KFDF_STREAM","KF_DEFINITION_FLAGS","KF_DEFINITION_FLAGS enumeration [Windows Shell]","_KF_DEFINITION_FLAGS","_shell_KF_DEFINITION_FLAGS","shell.KF_DEFINITION_FLAGS","shobjidl_core/KFDF_LOCAL_REDIRECT_ONLY","shobjidl_core/KFDF_NO_REDIRECT_UI","shobjidl_core/KFDF_PRECREATE","shobjidl_core/KFDF_PUBLISHEXPANDEDPATH","shobjidl_core/KFDF_ROAMABLE","shobjidl_core/KFDF_STREAM","shobjidl_core/KF_DEFINITION_FLAGS"]
+description: Flags that specify certain known folder behaviors. Used with the KNOWNFOLDER_DEFINITION structure.
+helpviewer_keywords: ["KFDF_LOCAL_REDIRECT_ONLY","KFDF_NO_REDIRECT_UI","KFDF_PRECREATE","KFDF_PUBLISHEXPANDEDPATH","KFDF_ROAMABLE","KFDF_STREAM","KF_DEFINITION_FLAGS","KF_DEFINITION_FLAGS enumeration [Windows Shell]","_KF_DEFINITION_FLAGS","_shell_KF_DEFINITION_FLAGS","shell.KF_DEFINITION_FLAGS","shobjidl_core/KFDF_LOCAL_REDIRECT_ONLY","shobjidl_core/KFDF_NO_REDIRECT_UI","shobjidl_core/KFDF_PRECREATE","shobjidl_core/KFDF_PUBLISHEXPANDEDPATH","shobjidl_core/KFDF_ROAMABLE","shobjidl_core/KFDF_STREAM","shobjidl_core/KF_DEFINITION_FLAGS"]
 old-location: shell\KF_DEFINITION_FLAGS.htm
 tech.root: shell
 ms.assetid: c5267aea-19b7-4e4a-a443-24674a6ae608

@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminMIBBufferFree
 title: MprAdminMIBBufferFree function (mprapi.h)
-description: The MprAdminMIBBufferFree function frees buffers returned by the following functions MprAdminMIBEntryGet, MprAdminMIBEntryGetFirst, MprAdminMIBEntryGetNexthelpviewer_keywords: ["MprAdminMIBBufferFree","MprAdminMIBBufferFree function [RAS]","_mpr_mpradminmibbufferfree","mprapi/MprAdminMIBBufferFree","rras.mpradminmibbufferfree"]
+description: The MprAdminMIBBufferFree function frees buffers returned by the following functions MprAdminMIBEntryGet, MprAdminMIBEntryGetFirst, MprAdminMIBEntryGetNext
+helpviewer_keywords: ["MprAdminMIBBufferFree","MprAdminMIBBufferFree function [RAS]","_mpr_mpradminmibbufferfree","mprapi/MprAdminMIBBufferFree","rras.mpradminmibbufferfree"]
 old-location: rras\mpradminmibbufferfree.htm
 tech.root: RRAS
 ms.assetid: cee21427-42bc-45df-ad95-c8aa81041776

@@ -1,7 +1,8 @@
 ---
 UID: NE:virtdisk._COMPACT_VIRTUAL_DISK_FLAG
 title: COMPACT_VIRTUAL_DISK_FLAG (virtdisk.h)
-description: Contains virtual disk compact request flags.helpviewer_keywords: ["COMPACT_VIRTUAL_DISK_FLAG","COMPACT_VIRTUAL_DISK_FLAG enumeration [VHD]","COMPACT_VIRTUAL_DISK_FLAG_NONE","vdssys/COMPACT_VIRTUAL_DISK_FLAG","vdssys/COMPACT_VIRTUAL_DISK_FLAG_NONE","vhd.compact_virtual_disk_flag","virtdisk/COMPACT_VIRTUAL_DISK_FLAG","virtdisk/COMPACT_VIRTUAL_DISK_FLAG_NONE"]
+description: Contains virtual disk compact request flags.
+helpviewer_keywords: ["COMPACT_VIRTUAL_DISK_FLAG","COMPACT_VIRTUAL_DISK_FLAG enumeration [VHD]","COMPACT_VIRTUAL_DISK_FLAG_NONE","vdssys/COMPACT_VIRTUAL_DISK_FLAG","vdssys/COMPACT_VIRTUAL_DISK_FLAG_NONE","vhd.compact_virtual_disk_flag","virtdisk/COMPACT_VIRTUAL_DISK_FLAG","virtdisk/COMPACT_VIRTUAL_DISK_FLAG_NONE"]
 old-location: vhd\compact_virtual_disk_flag.htm
 tech.root: VStor
 ms.assetid: e0efa6e3-e691-4854-a09e-9504a37621a2

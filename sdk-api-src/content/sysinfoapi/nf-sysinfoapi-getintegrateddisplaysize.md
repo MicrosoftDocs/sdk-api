@@ -1,7 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetIntegratedDisplaySize
 title: GetIntegratedDisplaySize function (sysinfoapi.h)
-description: Retrieves the best estimate of the diagonal size of the built-in screen, in inches.helpviewer_keywords: ["GetIntegratedDisplaySize","GetIntegratedDisplaySize function","base.getintegrateddisplaysize","sysinfoapi/GetIntegratedDisplaySize"]
+description: Retrieves the best estimate of the diagonal size of the built-in screen, in inches.
+helpviewer_keywords: ["GetIntegratedDisplaySize","GetIntegratedDisplaySize function","base.getintegrateddisplaysize","sysinfoapi/GetIntegratedDisplaySize"]
 old-location: base\getintegrateddisplaysize.htm
 tech.root: SysInfo
 ms.assetid: EA155FCF-3245-498B-BEC8-742DE38DE258

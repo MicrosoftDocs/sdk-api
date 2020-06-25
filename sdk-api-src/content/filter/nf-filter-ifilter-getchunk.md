@@ -1,7 +1,8 @@
 ---
 UID: NF:filter.IFilter.GetChunk
 title: IFilter::GetChunk (filter.h)
-description: Positions the filter at the beginning of the next chunk, or at the first chunk if this is the first call to the GetChunk method, and returns a description of the current chunk.helpviewer_keywords: ["GetChunk","GetChunk method [Indexing Service]","GetChunk method [Indexing Service]","IFilter interface","IFilter interface [Indexing Service]","GetChunk method","IFilter.GetChunk","IFilter::GetChunk","_idxs_IFilter_GetChunk","filter/IFilter::GetChunk","indexsrv.ifilter_getchunk"]
+description: Positions the filter at the beginning of the next chunk, or at the first chunk if this is the first call to the GetChunk method, and returns a description of the current chunk.
+helpviewer_keywords: ["GetChunk","GetChunk method [Indexing Service]","GetChunk method [Indexing Service]","IFilter interface","IFilter interface [Indexing Service]","GetChunk method","IFilter.GetChunk","IFilter::GetChunk","_idxs_IFilter_GetChunk","filter/IFilter::GetChunk","indexsrv.ifilter_getchunk"]
 old-location: indexsrv\ifilter_getchunk.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_96gb.htm

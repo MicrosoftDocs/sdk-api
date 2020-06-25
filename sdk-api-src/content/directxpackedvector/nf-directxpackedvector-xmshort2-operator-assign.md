@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMSHORT2.operator-assign
 title: XMSHORT2::operator-assign (directxpackedvector.h)
-description: Assigns the vector component data from one instance of XMSHORT2 to the current instance of XMSHORT2.helpviewer_keywords: ["DirectX::PackedVector.XMSHORT2.operator =","DirectX::PackedVector::XMSHORT2::operator =","XMSHORT2 structure [DirectX Math Support APIs]","operator = method","XMSHORT2.operator =","XMSHORT2.operator-assign","XMSHORT2.operator=","XMSHORT2::operator-assign","XMSHORT2::operator=","dxmath.xmshort2_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMSHORT2 structure","operator="]
+description: Assigns the vector component data from one instance of XMSHORT2 to the current instance of XMSHORT2.
+helpviewer_keywords: ["DirectX::PackedVector.XMSHORT2.operator =","DirectX::PackedVector::XMSHORT2::operator =","XMSHORT2 structure [DirectX Math Support APIs]","operator = method","XMSHORT2.operator =","XMSHORT2.operator-assign","XMSHORT2.operator=","XMSHORT2::operator-assign","XMSHORT2::operator=","dxmath.xmshort2_operator_eq","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMSHORT2 structure","operator="]
 old-location: dxmath\xmshort2_operator_eq.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORT2.operator = (const XMSHORT2)

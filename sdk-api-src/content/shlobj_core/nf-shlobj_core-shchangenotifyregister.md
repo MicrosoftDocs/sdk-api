@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHChangeNotifyRegister
 title: SHChangeNotifyRegister function (shlobj_core.h)
-description: Registers a window to receive notifications from the file system or Shell, if the file system supports notifications.helpviewer_keywords: ["NTSHChangeNotifyRegister","SHCNRF_InterruptLevel","SHCNRF_NewDelivery","SHCNRF_RecursiveInterrupt","SHCNRF_ShellLevel","SHChangeNotifyRegister","SHChangeNotifyRegister function [Windows Shell]","_win32_SHChangeNotifyRegister","shell.SHChangeNotifyRegister","shlobj_core/NTSHChangeNotifyRegister","shlobj_core/SHChangeNotifyRegister"]
+description: Registers a window to receive notifications from the file system or Shell, if the file system supports notifications.
+helpviewer_keywords: ["NTSHChangeNotifyRegister","SHCNRF_InterruptLevel","SHCNRF_NewDelivery","SHCNRF_RecursiveInterrupt","SHCNRF_ShellLevel","SHChangeNotifyRegister","SHChangeNotifyRegister function [Windows Shell]","_win32_SHChangeNotifyRegister","shell.SHChangeNotifyRegister","shlobj_core/NTSHChangeNotifyRegister","shlobj_core/SHChangeNotifyRegister"]
 old-location: shell\SHChangeNotifyRegister.htm
 tech.root: shell
 ms.assetid: 73143865-ca2f-4578-a7a2-2ba4833eddd8

@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMIsActivated
 title: DRMIsActivated function (msdrm.h)
-description: Indicates whether the current user or machine is activated.helpviewer_keywords: ["DRMIsActivated","DRMIsActivated function [Active Directory Rights Management Services SDK 1.0]","DRM_ACTIVATE_GROUPIDENTITY","DRM_ACTIVATE_MACHINE","msdrm/DRMIsActivated","rm.drmisactivated"]
+description: Indicates whether the current user or machine is activated.
+helpviewer_keywords: ["DRMIsActivated","DRMIsActivated function [Active Directory Rights Management Services SDK 1.0]","DRM_ACTIVATE_GROUPIDENTITY","DRM_ACTIVATE_MACHINE","msdrm/DRMIsActivated","rm.drmisactivated"]
 old-location: rm\drmisactivated.htm
 tech.root: AdRms_Sdk
 ms.assetid: f6c7bc7f-e9e8-4fc4-b30f-31bc0f5f46aa

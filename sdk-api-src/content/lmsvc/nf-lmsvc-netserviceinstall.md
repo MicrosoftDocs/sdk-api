@@ -1,7 +1,8 @@
 ---
 UID: NF:lmsvc.NetServiceInstall
 title: NetServiceInstall function (lmsvc.h)
-description: The NetServiceInstall function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.helpviewer_keywords: ["NetServiceInstall","NetServiceInstall function [Network Management]","_win32_netserviceinstall","lmsvc/NetServiceInstall","netmgmt.netserviceinstall"]
+description: The NetServiceInstall function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the service functions.
+helpviewer_keywords: ["NetServiceInstall","NetServiceInstall function [Network Management]","_win32_netserviceinstall","lmsvc/NetServiceInstall","netmgmt.netserviceinstall"]
 old-location: netmgmt\netserviceinstall.htm
 tech.root: NetMgmt
 ms.assetid: 4eb0cc77-3862-4b1c-8146-2798cdc6ab66

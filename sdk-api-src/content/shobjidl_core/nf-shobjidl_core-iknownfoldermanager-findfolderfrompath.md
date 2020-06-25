@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.FindFolderFromPath
 title: IKnownFolderManager::FindFolderFromPath (shobjidl_core.h)
-description: Gets an object that represents a known folder based on a file system path.helpviewer_keywords: ["FFFP_EXACTMATCH","FFFP_NEARESTPARENTMATCH","FindFolderFromPath","FindFolderFromPath method [Windows Shell]","FindFolderFromPath method [Windows Shell]","IKnownFolderManager interface","IKnownFolderManager interface [Windows Shell]","FindFolderFromPath method","IKnownFolderManager.FindFolderFromPath","IKnownFolderManager::FindFolderFromPath","_shell_IKnownFolderManager_FindFolderFromPath","shell.IKnownFolderManager_FindFolderFromPath","shobjidl_core/IKnownFolderManager::FindFolderFromPath"]
+description: Gets an object that represents a known folder based on a file system path.
+helpviewer_keywords: ["FFFP_EXACTMATCH","FFFP_NEARESTPARENTMATCH","FindFolderFromPath","FindFolderFromPath method [Windows Shell]","FindFolderFromPath method [Windows Shell]","IKnownFolderManager interface","IKnownFolderManager interface [Windows Shell]","FindFolderFromPath method","IKnownFolderManager.FindFolderFromPath","IKnownFolderManager::FindFolderFromPath","_shell_IKnownFolderManager_FindFolderFromPath","shell.IKnownFolderManager_FindFolderFromPath","shobjidl_core/IKnownFolderManager::FindFolderFromPath"]
 old-location: shell\IKnownFolderManager_FindFolderFromPath.htm
 tech.root: shell
 ms.assetid: e8033305-e5b9-499d-b794-ac3190141650

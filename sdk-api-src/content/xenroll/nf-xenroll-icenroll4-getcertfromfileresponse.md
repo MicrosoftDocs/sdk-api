@@ -1,7 +1,8 @@
 ---
 UID: NF:xenroll.ICEnroll4.getCertFromFileResponse
 title: ICEnroll4::getCertFromFileResponse (xenroll.h)
-description: Retrieves the certificate from a file containing a response from a certification authority. This method was first defined in the ICEnroll4 interface.helpviewer_keywords: ["CEnroll object [Security]","getCertFromFileResponse method","ICEnroll4 interface [Security]","getCertFromFileResponse method","ICEnroll4.getCertFromFileResponse","ICEnroll4::getCertFromFileResponse","_xen_icenroll4_getcertfromfileresponse","getCertFromFileResponse","getCertFromFileResponse method [Security]","getCertFromFileResponse method [Security]","CEnroll object","getCertFromFileResponse method [Security]","ICEnroll4 interface","security.icenroll4_getcertfromfileresponse","xenroll/ICEnroll4::getCertFromFileResponse"]
+description: Retrieves the certificate from a file containing a response from a certification authority. This method was first defined in the ICEnroll4 interface.
+helpviewer_keywords: ["CEnroll object [Security]","getCertFromFileResponse method","ICEnroll4 interface [Security]","getCertFromFileResponse method","ICEnroll4.getCertFromFileResponse","ICEnroll4::getCertFromFileResponse","_xen_icenroll4_getcertfromfileresponse","getCertFromFileResponse","getCertFromFileResponse method [Security]","getCertFromFileResponse method [Security]","CEnroll object","getCertFromFileResponse method [Security]","ICEnroll4 interface","security.icenroll4_getcertfromfileresponse","xenroll/ICEnroll4::getCertFromFileResponse"]
 old-location: security\icenroll4_getcertfromfileresponse.htm
 tech.root: SecCrypto
 ms.assetid: 0e89465b-4525-4b36-b0c7-7f34dc4a34aa

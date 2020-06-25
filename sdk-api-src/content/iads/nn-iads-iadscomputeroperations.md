@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsComputerOperations
 title: IADsComputerOperations (iads.h)
-description: The IADsComputerOperations interface is a dual interface that inherits from IADs.helpviewer_keywords: ["IADsComputerOperations","IADsComputerOperations interface [ADSI]","IADsComputerOperations interface [ADSI]","described","_ds_iadscomputeroperations","adsi.iadscomputeroperations","iads/IADsComputerOperations"]
+description: The IADsComputerOperations interface is a dual interface that inherits from IADs.
+helpviewer_keywords: ["IADsComputerOperations","IADsComputerOperations interface [ADSI]","IADsComputerOperations interface [ADSI]","described","_ds_iadscomputeroperations","adsi.iadscomputeroperations","iads/IADsComputerOperations"]
 old-location: adsi\iadscomputeroperations.htm
 tech.root: adsi
 ms.assetid: 9b0155ce-f313-43fa-8605-650aa8f38587

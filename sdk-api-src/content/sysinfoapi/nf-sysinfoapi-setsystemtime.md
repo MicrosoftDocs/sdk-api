@@ -1,7 +1,8 @@
 ---
 UID: NF:sysinfoapi.SetSystemTime
 title: SetSystemTime function (sysinfoapi.h)
-description: Sets the current system time and date. The system time is expressed in Coordinated Universal Time (UTC).helpviewer_keywords: ["SetSystemTime","SetSystemTime function","_win32_setsystemtime","base.setsystemtime","sysinfoapi/SetSystemTime"]
+description: Sets the current system time and date. The system time is expressed in Coordinated Universal Time (UTC).
+helpviewer_keywords: ["SetSystemTime","SetSystemTime function","_win32_setsystemtime","base.setsystemtime","sysinfoapi/SetSystemTime"]
 old-location: base\setsystemtime.htm
 tech.root: SysInfo
 ms.assetid: 0768794d-de61-4d5c-96ad-4c4711c72584

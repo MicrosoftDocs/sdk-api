@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICHeifHdrProperties
 title: WICHeifHdrProperties
-description: Specifies the HDR properties of a High Efficiency Image Format (HEIF) image.helpviewer_keywords: ["WICHeifHdrProperties"]
+description: Specifies the HDR properties of a High Efficiency Image Format (HEIF) image.
+helpviewer_keywords: ["WICHeifHdrProperties"]
 tech.root: wic
 ms.date: 01/31/19
 ms.keywords: WICHeifHdrProperties

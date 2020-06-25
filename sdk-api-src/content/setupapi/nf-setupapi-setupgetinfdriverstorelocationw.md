@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetInfDriverStoreLocationW
 title: SetupGetInfDriverStoreLocationW function (setupapi.h)
-description: The SetupGetInfDriverStoreLocation function retrieves the fully qualified file name (directory path and file name) of an INF file in the driver store that corresponds to a specified INF file in the system INF file directory or a specified INF file in the driver store.helpviewer_keywords: ["SetupGetInfDriverStoreLocation","SetupGetInfDriverStoreLocation function [Device and Driver Installation]","SetupGetInfDriverStoreLocationA","SetupGetInfDriverStoreLocationW","devinst.setupgetinfdriverstorelocation","setup-ref_349dd5f9-d925-4bdf-b99d-b8abef1eb12b.xml","setupapi/SetupGetInfDriverStoreLocation"]
+description: The SetupGetInfDriverStoreLocation function retrieves the fully qualified file name (directory path and file name) of an INF file in the driver store that corresponds to a specified INF file in the system INF file directory or a specified INF file in the driver store.
+helpviewer_keywords: ["SetupGetInfDriverStoreLocation","SetupGetInfDriverStoreLocation function [Device and Driver Installation]","SetupGetInfDriverStoreLocationA","SetupGetInfDriverStoreLocationW","devinst.setupgetinfdriverstorelocation","setup-ref_349dd5f9-d925-4bdf-b99d-b8abef1eb12b.xml","setupapi/SetupGetInfDriverStoreLocation"]
 old-location: devinst\setupgetinfdriverstorelocation.htm
 tech.root: devinst
 ms.assetid: 34131e9e-2e0e-4098-a988-3dadbf1789af
@@ -131,6 +132,10 @@ Call the <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-set
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupGetInfDriverStoreLocation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

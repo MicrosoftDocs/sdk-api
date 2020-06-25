@@ -1,7 +1,8 @@
 ---
 UID: NN:eventsys.IEventPublisher
 title: IEventPublisher (eventsys.h)
-description: Registers, modifies, removes, and provides information about an event publisher.helpviewer_keywords: ["IEventPublisher","IEventPublisher interface [COM]","IEventPublisher interface [COM]","described","_com_ieventpublisher","com.ieventpublisher","eventsys/IEventPublisher"]
+description: Registers, modifies, removes, and provides information about an event publisher.
+helpviewer_keywords: ["IEventPublisher","IEventPublisher interface [COM]","IEventPublisher interface [COM]","described","_com_ieventpublisher","com.ieventpublisher","eventsys/IEventPublisher"]
 old-location: com\ieventpublisher.htm
 tech.root: com
 ms.assetid: 132b79c8-d7f4-49c1-87c7-9bdf311ae697

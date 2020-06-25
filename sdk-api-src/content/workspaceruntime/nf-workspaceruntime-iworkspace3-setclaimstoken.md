@@ -1,7 +1,8 @@
 ---
 UID: NF:workspaceruntime.IWorkspace3.SetClaimsToken
 title: IWorkspace3::SetClaimsToken (workspaceruntime.h)
-description: Sets the claims token.helpviewer_keywords: ["IWorkspace3 interface [Remote Desktop Services]","SetClaimsToken method","IWorkspace3.SetClaimsToken","IWorkspace3::SetClaimsToken","SetClaimsToken","SetClaimsToken method [Remote Desktop Services]","SetClaimsToken method [Remote Desktop Services]","IWorkspace3 interface","termserv.iworkspace3_setclaimstoken","workspaceruntime/IWorkspace3::SetClaimsToken"]
+description: Sets the claims token.
+helpviewer_keywords: ["IWorkspace3 interface [Remote Desktop Services]","SetClaimsToken method","IWorkspace3.SetClaimsToken","IWorkspace3::SetClaimsToken","SetClaimsToken","SetClaimsToken method [Remote Desktop Services]","SetClaimsToken method [Remote Desktop Services]","IWorkspace3 interface","termserv.iworkspace3_setclaimstoken","workspaceruntime/IWorkspace3::SetClaimsToken"]
 old-location: termserv\iworkspace3_setclaimstoken.htm
 tech.root: TermServ
 ms.assetid: 221b0e8f-b43a-4942-9e70-152daf5b1ef0

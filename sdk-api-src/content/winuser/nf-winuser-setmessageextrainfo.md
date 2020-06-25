@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetMessageExtraInfo
 title: SetMessageExtraInfo function (winuser.h)
-description: Sets the extra message information for the current thread.helpviewer_keywords: ["SetMessageExtraInfo","SetMessageExtraInfo function [Windows and Messages]","_win32_SetMessageExtraInfo","_win32_setmessageextrainfo_cpp","winmsg.setmessageextrainfo","winui._win32_setmessageextrainfo","winuser/SetMessageExtraInfo"]
+description: Sets the extra message information for the current thread.
+helpviewer_keywords: ["SetMessageExtraInfo","SetMessageExtraInfo function [Windows and Messages]","_win32_SetMessageExtraInfo","_win32_setmessageextrainfo_cpp","winmsg.setmessageextrainfo","winui._win32_setmessageextrainfo","winuser/SetMessageExtraInfo"]
 old-location: winmsg\setmessageextrainfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\setmessageextrainfo.htm

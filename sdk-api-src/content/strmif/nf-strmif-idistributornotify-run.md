@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDistributorNotify.Run
 title: IDistributorNotify::Run (strmif.h)
-description: The Run method is called when the filter graph is entering a running state.helpviewer_keywords: ["IDistributorNotify interface [DirectShow]","Run method","IDistributorNotify.Run","IDistributorNotify::Run","IDistributorNotifyRun","Run","Run method [DirectShow]","Run method [DirectShow]","IDistributorNotify interface","dshow.idistributornotify_run","strmif/IDistributorNotify::Run"]
+description: The Run method is called when the filter graph is entering a running state.
+helpviewer_keywords: ["IDistributorNotify interface [DirectShow]","Run method","IDistributorNotify.Run","IDistributorNotify::Run","IDistributorNotifyRun","Run","Run method [DirectShow]","Run method [DirectShow]","IDistributorNotify interface","dshow.idistributornotify_run","strmif/IDistributorNotify::Run"]
 old-location: dshow\idistributornotify_run.htm
 tech.root: DirectShow
 ms.assetid: d6a6595b-b243-41bf-bba9-6e35fa81116c

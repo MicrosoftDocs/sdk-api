@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IFont.put_Charset
 title: IFont::put_Charset (ocidl.h)
-description: Sets the font's character set.helpviewer_keywords: ["IFont interface [COM]","put_Charset method","IFont.put_Charset","IFont::put_Charset","_ctrl_ifont_put_charset","com.ifont_put_charset","ocidl/IFont::put_Charset","put_Charset","put_Charset method [COM]","put_Charset method [COM]","IFont interface"]
+description: Sets the font's character set.
+helpviewer_keywords: ["IFont interface [COM]","put_Charset method","IFont.put_Charset","IFont::put_Charset","_ctrl_ifont_put_charset","com.ifont_put_charset","ocidl/IFont::put_Charset","put_Charset","put_Charset method [COM]","put_Charset method [COM]","IFont interface"]
 old-location: com\ifont_put_charset.htm
 tech.root: com
 ms.assetid: da48fefa-28d2-41aa-a324-dc259504c9ed

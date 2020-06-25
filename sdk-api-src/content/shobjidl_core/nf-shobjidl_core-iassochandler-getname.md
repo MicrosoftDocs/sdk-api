@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IAssocHandler.GetName
 title: IAssocHandler::GetName (shobjidl_core.h)
-description: Retrieves the full path and file name of the executable file associated with the file type.helpviewer_keywords: ["GetName","GetName method [Windows Shell]","GetName method [Windows Shell]","IAssocHandler interface","IAssocHandler interface [Windows Shell]","GetName method","IAssocHandler.GetName","IAssocHandler::GetName","_shell_IAssocHandler_GetName","shell.IAssocHandler_GetName","shobjidl_core/IAssocHandler::GetName"]
+description: Retrieves the full path and file name of the executable file associated with the file type.
+helpviewer_keywords: ["GetName","GetName method [Windows Shell]","GetName method [Windows Shell]","IAssocHandler interface","IAssocHandler interface [Windows Shell]","GetName method","IAssocHandler.GetName","IAssocHandler::GetName","_shell_IAssocHandler_GetName","shell.IAssocHandler_GetName","shobjidl_core/IAssocHandler::GetName"]
 old-location: shell\IAssocHandler_GetName.htm
 tech.root: shell
 ms.assetid: d20aee32-fa5a-40a9-b0e2-8479a90fcf35

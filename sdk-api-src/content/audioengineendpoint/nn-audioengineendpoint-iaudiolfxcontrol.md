@@ -1,7 +1,8 @@
 ---
 UID: NN:audioengineendpoint.IAudioLfxControl
 title: IAudioLfxControl (audioengineendpoint.h)
-description: The IAudioLfxControl interface allows the client to apply or remove local effects from the offloaded audio stream.helpviewer_keywords: ["IAudioLfxControl","IAudioLfxControl interface [Core Audio]","IAudioLfxControl interface [Core Audio]","described","audioengineendpoint/IAudioLfxControl","coreaudio.iaudiolfxcontrol"]
+description: The IAudioLfxControl interface allows the client to apply or remove local effects from the offloaded audio stream.
+helpviewer_keywords: ["IAudioLfxControl","IAudioLfxControl interface [Core Audio]","IAudioLfxControl interface [Core Audio]","described","audioengineendpoint/IAudioLfxControl","coreaudio.iaudiolfxcontrol"]
 old-location: coreaudio\iaudiolfxcontrol.htm
 tech.root: CoreAudio
 ms.assetid: E4290AE9-7F2E-4D0B-BEAF-F01D95B3E03D

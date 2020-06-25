@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.IAutoCompleteDropDown
 title: IAutoCompleteDropDown (shobjidl.h)
-description: Exposes methods that allow clients to reset or query the display state of the autocomplete drop-down list, which contains possible completions to a string entered by the user in an edit control.helpviewer_keywords: ["IAutoCompleteDropDown","IAutoCompleteDropDown interface [Windows Shell]","IAutoCompleteDropDown interface [Windows Shell]","described","_shell_IAutoCompleteDropDown","shell.IAutoCompleteDropDown","shobjidl/IAutoCompleteDropDown"]
+description: Exposes methods that allow clients to reset or query the display state of the autocomplete drop-down list, which contains possible completions to a string entered by the user in an edit control.
+helpviewer_keywords: ["IAutoCompleteDropDown","IAutoCompleteDropDown interface [Windows Shell]","IAutoCompleteDropDown interface [Windows Shell]","described","_shell_IAutoCompleteDropDown","shell.IAutoCompleteDropDown","shobjidl/IAutoCompleteDropDown"]
 old-location: shell\IAutoCompleteDropDown.htm
 tech.root: shell
 ms.assetid: 1f956d61-6a09-464e-bfe8-0b3bcb9ea181

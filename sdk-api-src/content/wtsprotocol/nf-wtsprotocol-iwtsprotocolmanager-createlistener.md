@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolManager.CreateListener
 title: IWTSProtocolManager::CreateListener (wtsprotocol.h)
-description: IWTSProtocolManager::CreateListener is no longer available. Instead, use IWRdsProtocolManager::CreateListener.helpviewer_keywords: ["CreateListener","CreateListener method [Remote Desktop Services]","CreateListener method [Remote Desktop Services]","IWTSProtocolManager interface","IWTSProtocolManager interface [Remote Desktop Services]","CreateListener method","IWTSProtocolManager.CreateListener","IWTSProtocolManager::CreateListener","termserv.iwtsprotocolmanager_createlistener","wtsprotocol/IWTSProtocolManager::CreateListener"]
+description: IWTSProtocolManager::CreateListener is no longer available. Instead, use IWRdsProtocolManager::CreateListener.
+helpviewer_keywords: ["CreateListener","CreateListener method [Remote Desktop Services]","CreateListener method [Remote Desktop Services]","IWTSProtocolManager interface","IWTSProtocolManager interface [Remote Desktop Services]","CreateListener method","IWTSProtocolManager.CreateListener","IWTSProtocolManager::CreateListener","termserv.iwtsprotocolmanager_createlistener","wtsprotocol/IWTSProtocolManager::CreateListener"]
 old-location: termserv\iwtsprotocolmanager_createlistener.htm
 tech.root: TermServ
 ms.assetid: 2c947181-5cac-40c1-b993-537b580efafe

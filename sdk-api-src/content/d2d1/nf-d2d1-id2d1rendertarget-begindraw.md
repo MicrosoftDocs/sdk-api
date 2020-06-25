@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.BeginDraw
 title: ID2D1RenderTarget::BeginDraw (d2d1.h)
-description: Initiates drawing on this render target.helpviewer_keywords: ["BeginDraw","BeginDraw method [Direct2D]","BeginDraw method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","BeginDraw method","ID2D1RenderTarget.BeginDraw","ID2D1RenderTarget::BeginDraw","d2d1/ID2D1RenderTarget::BeginDraw","direct2d.ID2D1RenderTarget_BeginDraw"]
+description: Initiates drawing on this render target.
+helpviewer_keywords: ["BeginDraw","BeginDraw method [Direct2D]","BeginDraw method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","BeginDraw method","ID2D1RenderTarget.BeginDraw","ID2D1RenderTarget::BeginDraw","d2d1/ID2D1RenderTarget::BeginDraw","direct2d.ID2D1RenderTarget_BeginDraw"]
 old-location: direct2d\ID2D1RenderTarget_BeginDraw.htm
 tech.root: Direct2D
 ms.assetid: 0562b286-7427-4d76-b699-a39356496a0f

@@ -1,7 +1,8 @@
 ---
 UID: NN:adhoc.IDot11AdHocInterface
 title: IDot11AdHocInterface (adhoc.h)
-description: Represents a wireless network interface card (NIC).helpviewer_keywords: ["IDot11AdHocInterface","IDot11AdHocInterface interface [NativeWIFI]","IDot11AdHocInterface interface [NativeWIFI]","described","adhoc/IDot11AdHocInterface","nwifi.idot11adhocinterface"]
+description: Represents a wireless network interface card (NIC).
+helpviewer_keywords: ["IDot11AdHocInterface","IDot11AdHocInterface interface [NativeWIFI]","IDot11AdHocInterface interface [NativeWIFI]","described","adhoc/IDot11AdHocInterface","nwifi.idot11adhocinterface"]
 old-location: nwifi\idot11adhocinterface.htm
 tech.root: NativeWiFi
 ms.assetid: a4a73ff8-e24a-4f44-9205-c60699d1c27d

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.HueSaturationLightness.SetParameters
 title: HueSaturationLightness::SetParameters (gdipluseffects.h)
-description: The HueSaturationLightness::SetParameters method sets the parameters of this HueSaturationLightness object.helpviewer_keywords: ["HueSaturationLightness class [GDI+]","SetParameters method","HueSaturationLightness.SetParameters","HueSaturationLightness::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","HueSaturationLightness class","_gdiplus_CLASS_HueSaturationLightness_SetParameters_","gdiplus._gdiplus_CLASS_HueSaturationLightness_SetParameters_"]
+description: The HueSaturationLightness::SetParameters method sets the parameters of this HueSaturationLightness object.
+helpviewer_keywords: ["HueSaturationLightness class [GDI+]","SetParameters method","HueSaturationLightness.SetParameters","HueSaturationLightness::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","HueSaturationLightness class","_gdiplus_CLASS_HueSaturationLightness_SetParameters_","gdiplus._gdiplus_CLASS_HueSaturationLightness_SetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightnessclass\huesaturationlightnessmethods\setparameters.htm

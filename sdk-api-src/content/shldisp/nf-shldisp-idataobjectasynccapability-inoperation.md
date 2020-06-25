@@ -1,7 +1,8 @@
 ---
 UID: NF:shldisp.IDataObjectAsyncCapability.InOperation
 title: IDataObjectAsyncCapability::InOperation (shldisp.h)
-description: Called by the drop source to determine whether the target is extracting data asynchronously.helpviewer_keywords: ["IDataObjectAsyncCapability interface [Windows Shell]","InOperation method","IDataObjectAsyncCapability.InOperation","IDataObjectAsyncCapability::InOperation","InOperation","InOperation method [Windows Shell]","InOperation method [Windows Shell]","IDataObjectAsyncCapability interface","shell.IDataObjectAsyncCapability_InOperation","shldisp/IDataObjectAsyncCapability::InOperation"]
+description: Called by the drop source to determine whether the target is extracting data asynchronously.
+helpviewer_keywords: ["IDataObjectAsyncCapability interface [Windows Shell]","InOperation method","IDataObjectAsyncCapability.InOperation","IDataObjectAsyncCapability::InOperation","InOperation","InOperation method [Windows Shell]","InOperation method [Windows Shell]","IDataObjectAsyncCapability interface","shell.IDataObjectAsyncCapability_InOperation","shldisp/IDataObjectAsyncCapability::InOperation"]
 old-location: shell\IDataObjectAsyncCapability_InOperation.htm
 tech.root: shell
 ms.assetid: 858EB8C4-88AB-40a3-B4FC-CCD19235CE55

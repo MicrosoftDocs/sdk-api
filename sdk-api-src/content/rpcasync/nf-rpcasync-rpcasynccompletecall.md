@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcasync.RpcAsyncCompleteCall
 title: RpcAsyncCompleteCall function (rpcasync.h)
-description: The client and the server call the RpcAsyncCompleteCall function to complete an asynchronous remote procedure call.helpviewer_keywords: ["RpcAsyncCompleteCall","RpcAsyncCompleteCall function [RPC]","_rpc_rpcasynccompletecall","rpc.rpcasynccompletecall","rpcasync/RpcAsyncCompleteCall"]
+description: The client and the server call the RpcAsyncCompleteCall function to complete an asynchronous remote procedure call.
+helpviewer_keywords: ["RpcAsyncCompleteCall","RpcAsyncCompleteCall function [RPC]","_rpc_rpcasynccompletecall","rpc.rpcasynccompletecall","rpcasync/RpcAsyncCompleteCall"]
 old-location: rpc\rpcasynccompletecall.htm
 tech.root: Rpc
 ms.assetid: 76b6bc3a-f5d1-4780-8071-9b221a6fd7d8

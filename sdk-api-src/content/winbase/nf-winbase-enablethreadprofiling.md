@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.EnableThreadProfiling
 title: EnableThreadProfiling function (winbase.h)
-description: Enables thread profiling on the specified thread.helpviewer_keywords: ["EnableThreadProfiling","EnableThreadProfiling function [Hardware Counter Profiling]","hcp.enablethreadprofiling","winbase/EnableThreadProfiling"]
+description: Enables thread profiling on the specified thread.
+helpviewer_keywords: ["EnableThreadProfiling","EnableThreadProfiling function [Hardware Counter Profiling]","hcp.enablethreadprofiling","winbase/EnableThreadProfiling"]
 old-location: hcp\enablethreadprofiling.htm
 tech.root: hcp
 ms.assetid: dbbe5b01-cabf-42cb-9ed9-c2c143f9923b

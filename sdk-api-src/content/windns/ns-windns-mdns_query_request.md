@@ -1,7 +1,8 @@
 ---
 UID: NS:windns._MDNS_QUERY_REQUEST
 title: MDNS_QUERY_REQUEST structure
-description: Contains the necessary information to perform an mDNS query.helpviewer_keywords: ["_MDNS_QUERY_REQUEST","MDNS_QUERY_REQUEST"]
+description: Contains the necessary information to perform an mDNS query.
+helpviewer_keywords: ["_MDNS_QUERY_REQUEST","MDNS_QUERY_REQUEST"]
 ms.date: 02/19/2019
 ms.keywords: _MDNS_QUERY_REQUEST, MDNS_QUERY_REQUEST
 f1_keywords:

@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.VariantToInt16ArrayAlloc
 title: VariantToInt16ArrayAlloc function (propvarutil.h)
-description: Extracts data from a vector structure into a newly-allocated Int16 array.helpviewer_keywords: ["VariantToInt16ArrayAlloc","VariantToInt16ArrayAlloc function [Windows Properties]","_shell_VariantToInt16ArrayAlloc","properties.VariantToInt16ArrayAlloc","propvarutil/VariantToInt16ArrayAlloc","shell.VariantToInt16ArrayAlloc"]
+description: Extracts data from a vector structure into a newly-allocated Int16 array.
+helpviewer_keywords: ["VariantToInt16ArrayAlloc","VariantToInt16ArrayAlloc function [Windows Properties]","_shell_VariantToInt16ArrayAlloc","properties.VariantToInt16ArrayAlloc","propvarutil/VariantToInt16ArrayAlloc","shell.VariantToInt16ArrayAlloc"]
 old-location: properties\VariantToInt16ArrayAlloc.htm
 tech.root: properties
 ms.assetid: 616c9d03-f641-49e3-af95-80ebaea3e8aa

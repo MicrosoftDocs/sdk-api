@@ -1,7 +1,8 @@
 ---
 UID: NS:dmemmgr._SURFACEALIGNMENT
 title: SURFACEALIGNMENT (dmemmgr.h)
-description: The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by HeapVidMemAllocAligned.helpviewer_keywords: ["*LPSURFACEALIGNMENT","SURFACEALIGNMENT","SURFACEALIGNMENT structure [Display Devices]","display.surfacealignment","dmemmgr/SURFACEALIGNMENT","grstrcts_8ab8c373-9600-45dc-9f16-f6c4de52a0c7.xml"]
+description: The SURFACEALIGNMENT structure is used by a display driver to describe the alignment restrictions for a surface being allocated by HeapVidMemAllocAligned.
+helpviewer_keywords: ["*LPSURFACEALIGNMENT","SURFACEALIGNMENT","SURFACEALIGNMENT structure [Display Devices]","display.surfacealignment","dmemmgr/SURFACEALIGNMENT","grstrcts_8ab8c373-9600-45dc-9f16-f6c4de52a0c7.xml"]
 old-location: display\surfacealignment.htm
 tech.root: display
 ms.assetid: 200f4e08-b5d3-484e-b87a-b3069dc3c99f

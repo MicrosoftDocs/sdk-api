@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVECTORU32.operator __m128i
 title: XMVECTORU32::operator __m128i
-description: Returns the object implementing the current instance of XMVECTORU32 cast to a __m128i instance of.helpviewer_keywords: ["XMVECTORU32::operator __m128i"]
+description: Returns the object implementing the current instance of XMVECTORU32 cast to a __m128i instance of.
+helpviewer_keywords: ["XMVECTORU32::operator __m128i"]
 ms.assetid: 0a8f9517-2610-4d4c-a338-43ec5b3688c0
 ms.date: 05/13/2019
 ms.keywords: XMVECTORU32::operator __m128i

@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1ResourceTexture
 title: ID2D1ResourceTexture (d2d1effectauthor.h)
-description: Tracks a transform-created resource texture.helpviewer_keywords: ["ID2D1ResourceTexture","ID2D1ResourceTexture interface [Direct2D]","ID2D1ResourceTexture interface [Direct2D]","described","d2d1effectauthor/ID2D1ResourceTexture","direct2d.id2d1resourcetexture"]
+description: Tracks a transform-created resource texture.
+helpviewer_keywords: ["ID2D1ResourceTexture","ID2D1ResourceTexture interface [Direct2D]","ID2D1ResourceTexture interface [Direct2D]","described","d2d1effectauthor/ID2D1ResourceTexture","direct2d.id2d1resourcetexture"]
 old-location: direct2d\id2d1resourcetexture.htm
 tech.root: Direct2D
 ms.assetid: 516FFBB4-1908-4574-BD4A-884C142204CD

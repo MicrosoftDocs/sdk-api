@@ -1,7 +1,8 @@
 ---
 UID: NF:winfax.FaxSetLoggingCategoriesA
 title: FaxSetLoggingCategoriesA function (winfax.h)
-description: A fax client application calls the FaxSetLoggingCategories function to modify the current logging categories for the fax server to which the client has connected.helpviewer_keywords: ["FaxSetLoggingCategories","FaxSetLoggingCategories function [Fax Service]","FaxSetLoggingCategoriesA","FaxSetLoggingCategoriesW","_mfax_faxsetloggingcategories","fax._mfax_faxsetloggingcategories","winfax/FaxSetLoggingCategories","winfax/FaxSetLoggingCategoriesA","winfax/FaxSetLoggingCategoriesW"]
+description: A fax client application calls the FaxSetLoggingCategories function to modify the current logging categories for the fax server to which the client has connected.
+helpviewer_keywords: ["FaxSetLoggingCategories","FaxSetLoggingCategories function [Fax Service]","FaxSetLoggingCategoriesA","FaxSetLoggingCategoriesW","_mfax_faxsetloggingcategories","fax._mfax_faxsetloggingcategories","winfax/FaxSetLoggingCategories","winfax/FaxSetLoggingCategoriesA","winfax/FaxSetLoggingCategoriesW"]
 old-location: fax\_mfax_faxsetloggingcategories.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_30vn.htm
@@ -154,6 +155,10 @@ The fax service administration application, a Microsoft Management Console (MMC)
 
 
 
+
+
+> [!NOTE]
+> The winfax.h header defines FaxSetLoggingCategories as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

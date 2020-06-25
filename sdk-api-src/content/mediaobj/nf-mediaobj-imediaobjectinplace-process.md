@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IMediaObjectInPlace.Process
 title: IMediaObjectInPlace::Process (mediaobj.h)
-description: The Process method processes a block of data. The application supplies a pointer to a block of input data. The DMO processes the data in place.helpviewer_keywords: ["IMediaObjectInPlace interface [DirectShow]","Process method","IMediaObjectInPlace.Process","IMediaObjectInPlace::Process","IMediaObjectInPlaceProcess","Process","Process method [DirectShow]","Process method [DirectShow]","IMediaObjectInPlace interface","dshow.imediaobjectinplace_process","mediaobj/IMediaObjectInPlace::Process"]
+description: The Process method processes a block of data. The application supplies a pointer to a block of input data. The DMO processes the data in place.
+helpviewer_keywords: ["IMediaObjectInPlace interface [DirectShow]","Process method","IMediaObjectInPlace.Process","IMediaObjectInPlace::Process","IMediaObjectInPlaceProcess","Process","Process method [DirectShow]","Process method [DirectShow]","IMediaObjectInPlace interface","dshow.imediaobjectinplace_process","mediaobj/IMediaObjectInPlace::Process"]
 old-location: dshow\imediaobjectinplace_process.htm
 tech.root: DirectShow
 ms.assetid: 567117cd-db7b-4764-9c88-ab898a64b56a

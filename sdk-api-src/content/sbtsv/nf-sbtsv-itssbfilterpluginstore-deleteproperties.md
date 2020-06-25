@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbFilterPluginStore.DeleteProperties
 title: ITsSbFilterPluginStore::DeleteProperties (sbtsv.h)
-description: Deletes a property.helpviewer_keywords: ["DeleteProperties","DeleteProperties method [Remote Desktop Services]","DeleteProperties method [Remote Desktop Services]","ITsSbFilterPluginStore interface","ITsSbFilterPluginStore interface [Remote Desktop Services]","DeleteProperties method","ITsSbFilterPluginStore.DeleteProperties","ITsSbFilterPluginStore::DeleteProperties","sbtsv/ITsSbFilterPluginStore::DeleteProperties","termserv.itssbfilterpluginstore_deleteproperties"]
+description: Deletes a property.
+helpviewer_keywords: ["DeleteProperties","DeleteProperties method [Remote Desktop Services]","DeleteProperties method [Remote Desktop Services]","ITsSbFilterPluginStore interface","ITsSbFilterPluginStore interface [Remote Desktop Services]","DeleteProperties method","ITsSbFilterPluginStore.DeleteProperties","ITsSbFilterPluginStore::DeleteProperties","sbtsv/ITsSbFilterPluginStore::DeleteProperties","termserv.itssbfilterpluginstore_deleteproperties"]
 old-location: termserv\itssbfilterpluginstore_deleteproperties.htm
 tech.root: TermServ
 ms.assetid: 25c2ab34-0879-4dda-9ccb-fb5d7baea61c

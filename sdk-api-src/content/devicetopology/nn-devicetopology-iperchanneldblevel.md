@@ -1,7 +1,8 @@
 ---
 UID: NN:devicetopology.IPerChannelDbLevel
 title: IPerChannelDbLevel (devicetopology.h)
-description: The IPerChannelDbLevel interface represents a generic subunit control interface that provides per-channel control over the volume level, in decibels, of an audio stream or of a frequency band in an audio stream.helpviewer_keywords: ["IPerChannelDbLevel","IPerChannelDbLevel interface [Core Audio]","IPerChannelDbLevel interface [Core Audio]","described","coreaudio.iperchanneldblevel","devicetopology/IPerChannelDbLevel"]
+description: The IPerChannelDbLevel interface represents a generic subunit control interface that provides per-channel control over the volume level, in decibels, of an audio stream or of a frequency band in an audio stream.
+helpviewer_keywords: ["IPerChannelDbLevel","IPerChannelDbLevel interface [Core Audio]","IPerChannelDbLevel interface [Core Audio]","described","coreaudio.iperchanneldblevel","devicetopology/IPerChannelDbLevel"]
 old-location: coreaudio\iperchanneldblevel.htm
 tech.root: CoreAudio
 ms.assetid: e70b4518-c9de-4426-b8e5-db80656699a9

@@ -1,7 +1,8 @@
 ---
 UID: NS:ocidl.tagQACONTROL
 title: QACONTROL (ocidl.h)
-description: Specifies control information for IQuickActivate::QuickActivate.helpviewer_keywords: ["QACONTROL","QACONTROL structure [COM]","_ctrl_QACONTROL","com.qacontrol","ocidl/QACONTROL"]
+description: Specifies control information for IQuickActivate::QuickActivate.
+helpviewer_keywords: ["QACONTROL","QACONTROL structure [COM]","_ctrl_QACONTROL","com.qacontrol","ocidl/QACONTROL"]
 old-location: com\qacontrol.htm
 tech.root: com
 ms.assetid: dd7ee4b1-2ad9-4ceb-b569-9988696760e8

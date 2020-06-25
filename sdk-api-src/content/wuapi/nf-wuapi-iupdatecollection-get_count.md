@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateCollection.get_Count
 title: IUpdateCollection::get_Count (wuapi.h)
-description: Gets the number of elements in the collection.helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","IUpdateCollection interface","IUpdateCollection interface [Windows Update Agent]","Count property","IUpdateCollection.Count","IUpdateCollection.get_Count","IUpdateCollection::Count","IUpdateCollection::get_Count","get_Count","wua.iupdatecollection_count","wuapi/IUpdateCollection::Count","wuapi/IUpdateCollection::get_Count"]
+description: Gets the number of elements in the collection.
+helpviewer_keywords: ["Count property [Windows Update Agent]","Count property [Windows Update Agent]","IUpdateCollection interface","IUpdateCollection interface [Windows Update Agent]","Count property","IUpdateCollection.Count","IUpdateCollection.get_Count","IUpdateCollection::Count","IUpdateCollection::get_Count","get_Count","wua.iupdatecollection_count","wuapi/IUpdateCollection::Count","wuapi/IUpdateCollection::get_Count"]
 old-location: wua\iupdatecollection_count.htm
 tech.root: Wua_Sdk
 ms.assetid: f0d8de56-c51e-4165-a6bb-ea7eec70c567

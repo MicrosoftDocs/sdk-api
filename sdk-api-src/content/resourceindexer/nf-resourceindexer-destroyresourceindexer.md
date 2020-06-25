@@ -1,7 +1,8 @@
 ---
 UID: NF:resourceindexer.DestroyResourceIndexer
 title: DestroyResourceIndexer function (resourceindexer.h)
-description: Frees the computational resources associated with the specified resource indexer.helpviewer_keywords: ["DestroyResourceIndexer","DestroyResourceIndexer function [Menus and Other Resources]","menurc.destroyresourceindexer","resourceindexer/DestroyResourceIndexer"]
+description: Frees the computational resources associated with the specified resource indexer.
+helpviewer_keywords: ["DestroyResourceIndexer","DestroyResourceIndexer function [Menus and Other Resources]","menurc.destroyresourceindexer","resourceindexer/DestroyResourceIndexer"]
 old-location: menurc\destroyresourceindexer.htm
 tech.root: menurc
 ms.assetid: 42DCE463-B883-4564-9B7E-DEFF0A17CC1C

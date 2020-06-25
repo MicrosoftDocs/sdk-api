@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpPrepareUrl
 title: HttpPrepareUrl function (http.h)
-description: Parses, analyzes, and normalizes a non-normalized Unicode or punycode URL so it is safe and valid to use in other HTTP functions.helpviewer_keywords: ["HttpPrepareUrl","HttpPrepareUrl function [HTTP]","http.httpprepareurl","http/HttpPrepareUrl"]
+description: Parses, analyzes, and normalizes a non-normalized Unicode or punycode URL so it is safe and valid to use in other HTTP functions.
+helpviewer_keywords: ["HttpPrepareUrl","HttpPrepareUrl function [HTTP]","http.httpprepareurl","http/HttpPrepareUrl"]
 old-location: http\httpprepareurl.htm
 tech.root: http
 ms.assetid: 45199AEE-950D-44C4-8590-96077DBDC846

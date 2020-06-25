@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.OnSetFocus
 title: IBrowserService2::OnSetFocus (shdeprecated.h)
-description: Deprecated. Calls the derived class from the base class on receipt of a WM_SETFOCUS message. The derived class handles the message.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","OnSetFocus method","IBrowserService2.OnSetFocus","IBrowserService2::OnSetFocus","OnSetFocus","OnSetFocus method [Windows Shell]","OnSetFocus method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::OnSetFocus","shell.IBrowserService2_OnSetFocus","zone_IBrowserService2_OnSetFocus"]
+description: Deprecated. Calls the derived class from the base class on receipt of a WM_SETFOCUS message. The derived class handles the message.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","OnSetFocus method","IBrowserService2.OnSetFocus","IBrowserService2::OnSetFocus","OnSetFocus","OnSetFocus method [Windows Shell]","OnSetFocus method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::OnSetFocus","shell.IBrowserService2_OnSetFocus","zone_IBrowserService2_OnSetFocus"]
 old-location: shell\IBrowserService2_OnSetFocus.htm
 tech.root: shell
 ms.assetid: 107a2ce8-2914-423a-bda7-4aeb112965bc

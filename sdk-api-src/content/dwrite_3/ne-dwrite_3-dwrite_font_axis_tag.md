@@ -1,7 +1,8 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_AXIS_TAG
 title: DWRITE_FONT_AXIS_TAG
-description: Defines constants that specify a four-character identifier for a font axis.helpviewer_keywords: ["DWRITE_FONT_AXIS_TAG","DWRITE_FONT_AXIS_TAG enumeration [Direct Write]","directwrite.dwrite_font_axis_tag","dwrite_3/DWRITE_FONT_AXIS_TAG"]
+description: Defines constants that specify a four-character identifier for a font axis.
+helpviewer_keywords: ["DWRITE_FONT_AXIS_TAG","DWRITE_FONT_AXIS_TAG enumeration [Direct Write]","directwrite.dwrite_font_axis_tag","dwrite_3/DWRITE_FONT_AXIS_TAG"]
 tech.root: DirectWrite
 ms.date: 09/10/2019
 ms.keywords: DWRITE_FONT_AXIS_TAG, DWRITE_FONT_AXIS_TAG enumeration [Direct Write], directwrite.dwrite_font_axis_tag, dwrite_3/DWRITE_FONT_AXIS_TAG

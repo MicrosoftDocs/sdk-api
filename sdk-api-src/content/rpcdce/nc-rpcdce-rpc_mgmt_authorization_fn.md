@@ -1,7 +1,8 @@
 ---
 UID: NC:rpcdce.RPC_MGMT_AUTHORIZATION_FN
 title: RPC_MGMT_AUTHORIZATION_FN (rpcdce.h)
-description: The RPC_MGMT_AUTHORIZATION_FN enables server programs to implement custom RPC authorization techniques.helpviewer_keywords: ["RPC_MGMT_AUTHORIZATION_FN","RPC_MGMT_AUTHORIZATION_FN callback","RPC_MGMT_AUTHORIZATION_FN callback function [RPC]","RpcMgmtInqIfIds","RpcMgmtInqServerPrincName","RpcMgmtInqStats","RpcMgmtIsServerListening","RpcMgmtStopServerListening","_rpc_rpc_mgmt_authorization_fn","rpc.rpc_mgmt_authorization_fn","rpcdce/RPC_MGMT_AUTHORIZATION_FN"]
+description: The RPC_MGMT_AUTHORIZATION_FN enables server programs to implement custom RPC authorization techniques.
+helpviewer_keywords: ["RPC_MGMT_AUTHORIZATION_FN","RPC_MGMT_AUTHORIZATION_FN callback","RPC_MGMT_AUTHORIZATION_FN callback function [RPC]","RpcMgmtInqIfIds","RpcMgmtInqServerPrincName","RpcMgmtInqStats","RpcMgmtIsServerListening","RpcMgmtStopServerListening","_rpc_rpc_mgmt_authorization_fn","rpc.rpc_mgmt_authorization_fn","rpcdce/RPC_MGMT_AUTHORIZATION_FN"]
 old-location: rpc\rpc_mgmt_authorization_fn.htm
 tech.root: Rpc
 ms.assetid: 9b7ab901-1dcf-458c-858f-f411825f324b

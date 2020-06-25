@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IBandHost.SetBandAvailability
 title: IBandHost::SetBandAvailability (shobjidl.h)
-description: Sets the availability of a specified band.helpviewer_keywords: ["IBandHost interface [Windows Shell]","SetBandAvailability method","IBandHost.SetBandAvailability","IBandHost::SetBandAvailability","SetBandAvailability","SetBandAvailability method [Windows Shell]","SetBandAvailability method [Windows Shell]","IBandHost interface","_shell_IBandHost_SetBandAvailability","shell.IBandHost_SetBandAvailability","shobjidl/IBandHost::SetBandAvailability"]
+description: Sets the availability of a specified band.
+helpviewer_keywords: ["IBandHost interface [Windows Shell]","SetBandAvailability method","IBandHost.SetBandAvailability","IBandHost::SetBandAvailability","SetBandAvailability","SetBandAvailability method [Windows Shell]","SetBandAvailability method [Windows Shell]","IBandHost interface","_shell_IBandHost_SetBandAvailability","shell.IBandHost_SetBandAvailability","shobjidl/IBandHost::SetBandAvailability"]
 old-location: shell\IBandHost_SetBandAvailability.htm
 tech.root: shell
 ms.assetid: a3e41e8f-45dd-4160-8a65-ec82b7e9abe7

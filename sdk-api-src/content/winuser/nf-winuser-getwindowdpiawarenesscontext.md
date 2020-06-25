@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetWindowDpiAwarenessContext
 title: GetWindowDpiAwarenessContext function (winuser.h)
-description: Returns the DPI_AWARENESS_CONTEXT associated with a window.helpviewer_keywords: ["GetWindowDpiAwarenessContext","GetWindowDpiAwarenessContext function [High DPI]","hidpi.getwindowdpiawarenesscontext","winuser/GetWindowDpiAwarenessContext"]
+description: Returns the DPI_AWARENESS_CONTEXT associated with a window.
+helpviewer_keywords: ["GetWindowDpiAwarenessContext","GetWindowDpiAwarenessContext function [High DPI]","hidpi.getwindowdpiawarenesscontext","winuser/GetWindowDpiAwarenessContext"]
 old-location: hidpi\getwindowdpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: BCBC6EC7-9792-43C0-BE0E-D94F00A7CAFD

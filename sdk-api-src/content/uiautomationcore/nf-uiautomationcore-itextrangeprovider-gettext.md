@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.GetText
 title: ITextRangeProvider::GetText (uiautomationcore.h)
-description: Retrieves the plain text of the range.helpviewer_keywords: ["GetText","GetText method [Windows Accessibility]","GetText method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","GetText method","ITextRangeProvider.GetText","ITextRangeProvider::GetText","uiauto.uiauto_ITextRangeProvider_GetText","uiauto_ITextRangeProvider_GetText","uiautomationcore/ITextRangeProvider::GetText","winauto.uiauto_ITextRangeProvider_GetText"]
+description: Retrieves the plain text of the range.
+helpviewer_keywords: ["GetText","GetText method [Windows Accessibility]","GetText method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","GetText method","ITextRangeProvider.GetText","ITextRangeProvider::GetText","uiauto.uiauto_ITextRangeProvider_GetText","uiauto_ITextRangeProvider_GetText","uiautomationcore/ITextRangeProvider::GetText","winauto.uiauto_ITextRangeProvider_GetText"]
 old-location: winauto\uiauto_ITextRangeProvider_GetText.htm
 tech.root: WinAuto
 ms.assetid: f3c5f0cc-15a5-4a13-b3be-355de6633c66

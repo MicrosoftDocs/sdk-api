@@ -74,7 +74,6 @@ cySize
 
 Initial point size of the font. Use the <b>int64</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/wtypes/ns-wtypes-cy~r1">CY</a> structure and scale your font size (in points) by 10000.
 
-
 ### -field sWeight
 
 Initial weight of the font. If the weight is below 550 (the average of FW_NORMAL, 400, and FW_BOLD, 700), then the <b>Bold</b> property is also initialized to <b>FALSE</b>. If the weight is above 550, the <b>Bold</b> property is set to <b>TRUE</b>.
@@ -107,6 +106,3 @@ Initial strikethrough state of the font.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a>
  
-
- 
-

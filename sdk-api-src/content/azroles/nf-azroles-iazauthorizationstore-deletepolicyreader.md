@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeletePolicyReader
 title: IAzAuthorizationStore::DeletePolicyReader (azroles.h)
-description: Removes the specified security identifier (SID) in text form from the list of principals that act as policy readers.helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeletePolicyReader method","DeletePolicyReader","DeletePolicyReader method [Security]","DeletePolicyReader method [Security]","AzAuthorizationStore object","DeletePolicyReader method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DeletePolicyReader method","IAzAuthorizationStore.DeletePolicyReader","IAzAuthorizationStore::DeletePolicyReader","azroles/IAzAuthorizationStore::DeletePolicyReader","security.azauthorizationstore_deletepolicyreader"]
+description: Removes the specified security identifier (SID) in text form from the list of principals that act as policy readers.
+helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeletePolicyReader method","DeletePolicyReader","DeletePolicyReader method [Security]","DeletePolicyReader method [Security]","AzAuthorizationStore object","DeletePolicyReader method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DeletePolicyReader method","IAzAuthorizationStore.DeletePolicyReader","IAzAuthorizationStore::DeletePolicyReader","azroles/IAzAuthorizationStore::DeletePolicyReader","security.azauthorizationstore_deletepolicyreader"]
 old-location: security\azauthorizationstore_deletepolicyreader.htm
 tech.root: SecAuthZ
 ms.assetid: 948732bb-4d29-402b-bb12-02d2b73bc443

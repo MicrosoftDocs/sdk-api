@@ -1,7 +1,8 @@
 ---
 UID: NS:wintrust.WINTRUST_FILE_INFO_
 title: WINTRUST_FILE_INFO (wintrust.h)
-description: The WINTRUST_FILE_INFO structure is used when calling WinVerifyTrust to verify an individual file.helpviewer_keywords: ["*PWINTRUST_FILE_INFO","PWINTRUCT_FILE_INFO","PWINTRUCT_FILE_INFO structure pointer [Security]","WINTRUST_FILE_INFO","WINTRUST_FILE_INFO structure [Security]","_win32_wintrust_file_info","security.wintrust_file_info","wintrust/PWINTRUCT_FILE_INFO","wintrust/WINTRUST_FILE_INFO"]
+description: The WINTRUST_FILE_INFO structure is used when calling WinVerifyTrust to verify an individual file.
+helpviewer_keywords: ["*PWINTRUST_FILE_INFO","PWINTRUCT_FILE_INFO","PWINTRUCT_FILE_INFO structure pointer [Security]","WINTRUST_FILE_INFO","WINTRUST_FILE_INFO structure [Security]","_win32_wintrust_file_info","security.wintrust_file_info","wintrust/PWINTRUCT_FILE_INFO","wintrust/WINTRUST_FILE_INFO"]
 old-location: security\wintrust_file_info.htm
 tech.root: SecCrypto
 ms.assetid: 3c3bef86-a2ed-47d1-a726-90630433358a

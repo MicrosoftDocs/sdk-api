@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilSetUnknownProperties
 title: ResUtilSetUnknownProperties function (resapi.h)
-description: Stores a cluster object's unknown properties in the cluster database.helpviewer_keywords: ["PRESUTIL_SET_UNKNOWN_PROPERTIES","PRESUTIL_SET_UNKNOWN_PROPERTIES function [Failover Cluster]","ResUtilSetUnknownProperties","ResUtilSetUnknownProperties function [Failover Cluster]","_wolf_resutilsetunknownproperties","mscs.resutilsetunknownproperties","resapi/PRESUTIL_SET_UNKNOWN_PROPERTIES","resapi/ResUtilSetUnknownProperties"]
+description: Stores a cluster object's unknown properties in the cluster database.
+helpviewer_keywords: ["PRESUTIL_SET_UNKNOWN_PROPERTIES","PRESUTIL_SET_UNKNOWN_PROPERTIES function [Failover Cluster]","ResUtilSetUnknownProperties","ResUtilSetUnknownProperties function [Failover Cluster]","_wolf_resutilsetunknownproperties","mscs.resutilsetunknownproperties","resapi/PRESUTIL_SET_UNKNOWN_PROPERTIES","resapi/ResUtilSetUnknownProperties"]
 old-location: mscs\resutilsetunknownproperties.htm
 tech.root: MsCS
 ms.assetid: ee729a3d-9d10-459c-b57d-de17f29d8ae8

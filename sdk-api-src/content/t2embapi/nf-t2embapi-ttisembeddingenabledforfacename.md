@@ -1,7 +1,8 @@
 ---
 UID: NF:t2embapi.TTIsEmbeddingEnabledForFacename
 title: TTIsEmbeddingEnabledForFacename function (t2embapi.h)
-description: Determines whether embedding is enabled for a specified font.helpviewer_keywords: ["TTIsEmbeddingEnabledForFacename","TTIsEmbeddingEnabledForFacename function [Windows GDI]","_win32_TTIsEmbeddingEnabledForFacename","gdi.ttisembeddingenabledforfacename","t2embapi/TTIsEmbeddingEnabledForFacename"]
+description: Determines whether embedding is enabled for a specified font.
+helpviewer_keywords: ["TTIsEmbeddingEnabledForFacename","TTIsEmbeddingEnabledForFacename function [Windows GDI]","_win32_TTIsEmbeddingEnabledForFacename","gdi.ttisembeddingenabledforfacename","t2embapi/TTIsEmbeddingEnabledForFacename"]
 old-location: gdi\ttisembeddingenabledforfacename.htm
 tech.root: gdi
 ms.assetid: 1f494bb1-62c4-45c4-b1a5-df6842d94dcc

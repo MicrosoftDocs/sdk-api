@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_CCS_SET
 title: HTTP_SERVICE_CONFIG_SSL_CCS_SET (http.h)
-description: Represents the SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the port receives a Transport Layer Security (TLS) handshake.helpviewer_keywords: ["*PHTTP_SERVICE_CONFIG_SSL_CCS_SET","HTTP_SERVICE_CONFIG_SSL_CCS_SET","HTTP_SERVICE_CONFIG_SSL_CCS_SET structure [HTTP]","PHTTP_SERVICE_CONFIG_SSL_CCS_SET","PHTTP_SERVICE_CONFIG_SSL_CCS_SET structure pointer [HTTP]","http.http_service_config_ssl_ccs_set","http/HTTP_SERVICE_CONFIG_SSL_CCS_SET","http/PHTTP_SERVICE_CONFIG_SSL_CCS_SET"]
+description: Represents the SSL certificate record that specifies that Http.sys should consult the Centralized Certificate Store (CCS) store to find certificates if the port receives a Transport Layer Security (TLS) handshake.
+helpviewer_keywords: ["*PHTTP_SERVICE_CONFIG_SSL_CCS_SET","HTTP_SERVICE_CONFIG_SSL_CCS_SET","HTTP_SERVICE_CONFIG_SSL_CCS_SET structure [HTTP]","PHTTP_SERVICE_CONFIG_SSL_CCS_SET","PHTTP_SERVICE_CONFIG_SSL_CCS_SET structure pointer [HTTP]","http.http_service_config_ssl_ccs_set","http/HTTP_SERVICE_CONFIG_SSL_CCS_SET","http/PHTTP_SERVICE_CONFIG_SSL_CCS_SET"]
 old-location: http\http_service_config_ssl_ccs_set.htm
 tech.root: http
 ms.assetid: BA815FB7-4A9F-4917-89E7-3CD108E1CEE3

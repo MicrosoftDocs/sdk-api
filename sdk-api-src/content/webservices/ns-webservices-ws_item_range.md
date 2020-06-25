@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_ITEM_RANGE
 title: WS_ITEM_RANGE (webservices.h)
-description: Defines the minimum and maximum number of items that may appear when using WS_REPEATING_ELEMENT_FIELD_MAPPING, WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING, or WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING within a WS_FIELD_DESCRIPTION.helpviewer_keywords: ["WS_ITEM_RANGE","WS_ITEM_RANGE structure [Web Services for Windows]","webservices/WS_ITEM_RANGE","wsw.ws_item_range"]
+description: Defines the minimum and maximum number of items that may appear when using WS_REPEATING_ELEMENT_FIELD_MAPPING, WS_REPEATING_ELEMENT_CHOICE_FIELD_MAPPING, or WS_REPEATING_ANY_ELEMENT_FIELD_MAPPING within a WS_FIELD_DESCRIPTION.
+helpviewer_keywords: ["WS_ITEM_RANGE","WS_ITEM_RANGE structure [Web Services for Windows]","webservices/WS_ITEM_RANGE","wsw.ws_item_range"]
 old-location: wsw\ws_item_range.htm
 tech.root: wsw
 ms.assetid: 29e04edd-fa39-47d0-a24c-ef3f539ce171

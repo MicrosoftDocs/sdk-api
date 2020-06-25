@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgicommon.DXGI_RATIONAL
 title: DXGI_RATIONAL (dxgicommon.h)
-description: Represents a rational number.helpviewer_keywords: ["5deaf109-e4cc-0f12-82f4-0d4d0b2e387a","DXGI_RATIONAL","DXGI_RATIONAL structure [DXGI]","direct3ddxgi.dxgi_rational","dxgicommon/DXGI_RATIONAL"]
+description: Represents a rational number.
+helpviewer_keywords: ["5deaf109-e4cc-0f12-82f4-0d4d0b2e387a","DXGI_RATIONAL","DXGI_RATIONAL structure [DXGI]","direct3ddxgi.dxgi_rational","dxgicommon/DXGI_RATIONAL"]
 old-location: direct3ddxgi\dxgi_rational.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_rational.htm

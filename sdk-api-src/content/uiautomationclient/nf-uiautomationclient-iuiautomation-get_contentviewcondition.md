@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ContentViewCondition
 title: IUIAutomation::get_ContentViewCondition (uiautomationclient.h)
-description: Retrieves a predefined IUIAutomationCondition interface that selects content elements.helpviewer_keywords: ["ContentViewCondition property [Windows Accessibility]","ContentViewCondition property [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","ContentViewCondition property","IUIAutomation.ContentViewCondition","IUIAutomation.get_ContentViewCondition","IUIAutomation::ContentViewCondition","IUIAutomation::get_ContentViewCondition","get_ContentViewCondition","uiauto.uiauto_IUIAutomation_ContentViewCondition","uiauto_IUIAutomation_ContentViewCondition","uiautomationclient/IUIAutomation::ContentViewCondition","uiautomationclient/IUIAutomation::get_ContentViewCondition","winauto.uiauto_IUIAutomation_ContentViewCondition"]
+description: Retrieves a predefined IUIAutomationCondition interface that selects content elements.
+helpviewer_keywords: ["ContentViewCondition property [Windows Accessibility]","ContentViewCondition property [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","ContentViewCondition property","IUIAutomation.ContentViewCondition","IUIAutomation.get_ContentViewCondition","IUIAutomation::ContentViewCondition","IUIAutomation::get_ContentViewCondition","get_ContentViewCondition","uiauto.uiauto_IUIAutomation_ContentViewCondition","uiauto_IUIAutomation_ContentViewCondition","uiautomationclient/IUIAutomation::ContentViewCondition","uiautomationclient/IUIAutomation::get_ContentViewCondition","winauto.uiauto_IUIAutomation_ContentViewCondition"]
 old-location: winauto\uiauto_IUIAutomation_ContentViewCondition.htm
 tech.root: WinAuto
 ms.assetid: d674a8c5-cb09-49a6-b457-5e7486b0e178

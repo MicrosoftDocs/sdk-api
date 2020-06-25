@@ -1,7 +1,8 @@
 ---
 UID: NF:mergemod.IMsmError.get_DatabaseTable
 title: IMsmError::get_DatabaseTable (mergemod.h)
-description: The get_DatabaseTable method retrieves the DatabaseTable property of the Error object. The method returns the name of the table in the database that caused the error.helpviewer_keywords: ["IMsmError interface","get_DatabaseTable method","IMsmError.get_DatabaseTable","IMsmError::get_DatabaseTable","_msi_get_databasetable_function","get_DatabaseTable","get_DatabaseTable method","get_DatabaseTable method","IMsmError interface","mergemod/IMsmError::get_DatabaseTable","setup.imsmerror_get_databasetable"]
+description: The get_DatabaseTable method retrieves the DatabaseTable property of the Error object. The method returns the name of the table in the database that caused the error.
+helpviewer_keywords: ["IMsmError interface","get_DatabaseTable method","IMsmError.get_DatabaseTable","IMsmError::get_DatabaseTable","_msi_get_databasetable_function","get_DatabaseTable","get_DatabaseTable method","get_DatabaseTable method","IMsmError interface","mergemod/IMsmError::get_DatabaseTable","setup.imsmerror_get_databasetable"]
 old-location: setup\imsmerror_get_databasetable.htm
 tech.root: Msi
 ms.assetid: fee774b3-66ee-4ffd-b000-8032118e9a9d

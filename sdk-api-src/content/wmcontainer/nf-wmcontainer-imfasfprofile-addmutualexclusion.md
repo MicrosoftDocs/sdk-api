@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.AddMutualExclusion
 title: IMFASFProfile::AddMutualExclusion (wmcontainer.h)
-description: Adds a configured Advanced Systems Format (ASF) mutual exclusion object to the profile.helpviewer_keywords: ["AddMutualExclusion","AddMutualExclusion method [Media Foundation]","AddMutualExclusion method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","AddMutualExclusion method","IMFASFProfile.AddMutualExclusion","IMFASFProfile::AddMutualExclusion","d9069feb-7d39-4b40-b95e-0112d959bbae","mf.imfasfprofile_addmutualexclusion","wmcontainer/IMFASFProfile::AddMutualExclusion"]
+description: Adds a configured Advanced Systems Format (ASF) mutual exclusion object to the profile.
+helpviewer_keywords: ["AddMutualExclusion","AddMutualExclusion method [Media Foundation]","AddMutualExclusion method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","AddMutualExclusion method","IMFASFProfile.AddMutualExclusion","IMFASFProfile::AddMutualExclusion","d9069feb-7d39-4b40-b95e-0112d959bbae","mf.imfasfprofile_addmutualexclusion","wmcontainer/IMFASFProfile::AddMutualExclusion"]
 old-location: mf\imfasfprofile_addmutualexclusion.htm
 tech.root: medfound
 ms.assetid: d9069feb-7d39-4b40-b95e-0112d959bbae

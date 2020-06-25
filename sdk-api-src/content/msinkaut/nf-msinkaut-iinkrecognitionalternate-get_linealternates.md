@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_LineAlternates
 title: IInkRecognitionAlternate::get_LineAlternates (msinkaut.h)
-description: Gets the IInkRecognitionAlternates collection in which each alternate in the collection is on a separate line.helpviewer_keywords: ["IInkRecognitionAlternate interface [Tablet PC]","LineAlternates property","IInkRecognitionAlternate.LineAlternates","IInkRecognitionAlternate.get_LineAlternates","IInkRecognitionAlternate::LineAlternates","IInkRecognitionAlternate::get_LineAlternates","LineAlternates property [Tablet PC]","LineAlternates property [Tablet PC]","IInkRecognitionAlternate interface","ccdf3092-b0a0-4626-b614-164548b1ca72","get_LineAlternates","msinkaut/IInkRecognitionAlternate::LineAlternates","msinkaut/IInkRecognitionAlternate::get_LineAlternates","tablet.iinkrecognitionalternate_linealternates"]
+description: Gets the IInkRecognitionAlternates collection in which each alternate in the collection is on a separate line.
+helpviewer_keywords: ["IInkRecognitionAlternate interface [Tablet PC]","LineAlternates property","IInkRecognitionAlternate.LineAlternates","IInkRecognitionAlternate.get_LineAlternates","IInkRecognitionAlternate::LineAlternates","IInkRecognitionAlternate::get_LineAlternates","LineAlternates property [Tablet PC]","LineAlternates property [Tablet PC]","IInkRecognitionAlternate interface","ccdf3092-b0a0-4626-b614-164548b1ca72","get_LineAlternates","msinkaut/IInkRecognitionAlternate::LineAlternates","msinkaut/IInkRecognitionAlternate::get_LineAlternates","tablet.iinkrecognitionalternate_linealternates"]
 old-location: tablet\iinkrecognitionalternate_linealternates.htm
 tech.root: tablet
 ms.assetid: ccdf3092-b0a0-4626-b614-164548b1ca72

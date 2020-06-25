@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetVersion
 title: IWICComponentInfo::GetVersion (wincodec.h)
-description: Retrieves the component's version.helpviewer_keywords: ["GetVersion","GetVersion method [Windows Imaging Component]","GetVersion method [Windows Imaging Component]","IWICComponentInfo interface","IWICComponentInfo interface [Windows Imaging Component]","GetVersion method","IWICComponentInfo.GetVersion","IWICComponentInfo::GetVersion","_wic_codec_iwiccomponentinfo_getversion","wic._wic_codec_iwiccomponentinfo_getversion","wincodec/IWICComponentInfo::GetVersion"]
+description: Retrieves the component's version.
+helpviewer_keywords: ["GetVersion","GetVersion method [Windows Imaging Component]","GetVersion method [Windows Imaging Component]","IWICComponentInfo interface","IWICComponentInfo interface [Windows Imaging Component]","GetVersion method","IWICComponentInfo.GetVersion","IWICComponentInfo::GetVersion","_wic_codec_iwiccomponentinfo_getversion","wic._wic_codec_iwiccomponentinfo_getversion","wincodec/IWICComponentInfo::GetVersion"]
 old-location: wic\_wic_codec_iwiccomponentinfo_getversion.htm
 tech.root: wic
 ms.assetid: f65d13ae-ccec-49a8-8818-225464b3a117

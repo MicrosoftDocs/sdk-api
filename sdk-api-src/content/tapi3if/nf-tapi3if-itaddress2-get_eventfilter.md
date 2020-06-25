@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITAddress2.get_EventFilter
 title: ITAddress2::get_EventFilter (tapi3if.h)
-description: The get_EventFilter method retrieves the current filter settings for the current address and a given TAPI_EVENT value.helpviewer_keywords: ["ITAddress2 interface [TAPI 2.2]","get_EventFilter method","ITAddress2.get_EventFilter","ITAddress2::get_EventFilter","_tapi3_itaddress2_get_eventfilter","get_EventFilter","get_EventFilter method [TAPI 2.2]","get_EventFilter method [TAPI 2.2]","ITAddress2 interface","tapi3.itaddress2_get_eventfilter","tapi3if/ITAddress2::get_EventFilter"]
+description: The get_EventFilter method retrieves the current filter settings for the current address and a given TAPI_EVENT value.
+helpviewer_keywords: ["ITAddress2 interface [TAPI 2.2]","get_EventFilter method","ITAddress2.get_EventFilter","ITAddress2::get_EventFilter","_tapi3_itaddress2_get_eventfilter","get_EventFilter","get_EventFilter method [TAPI 2.2]","get_EventFilter method [TAPI 2.2]","ITAddress2 interface","tapi3.itaddress2_get_eventfilter","tapi3if/ITAddress2::get_EventFilter"]
 old-location: tapi3\itaddress2_get_eventfilter.htm
 tech.root: Tapi
 ms.assetid: cb0fbfc1-56bf-4455-8d6a-71c78b6a6534

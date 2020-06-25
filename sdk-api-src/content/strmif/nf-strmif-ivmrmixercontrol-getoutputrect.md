@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRMixerControl.GetOutputRect
 title: IVMRMixerControl::GetOutputRect (strmif.h)
-description: The GetOutputRect method retrieves the position of this stream's video rectangle within the composition rectangle.helpviewer_keywords: ["GetOutputRect","GetOutputRect method [DirectShow]","GetOutputRect method [DirectShow]","IVMRMixerControl interface","IVMRMixerControl interface [DirectShow]","GetOutputRect method","IVMRMixerControl.GetOutputRect","IVMRMixerControl::GetOutputRect","IVMRMixerControlGetOutputRect","dshow.ivmrmixercontrol_getoutputrect","strmif/IVMRMixerControl::GetOutputRect"]
+description: The GetOutputRect method retrieves the position of this stream's video rectangle within the composition rectangle.
+helpviewer_keywords: ["GetOutputRect","GetOutputRect method [DirectShow]","GetOutputRect method [DirectShow]","IVMRMixerControl interface","IVMRMixerControl interface [DirectShow]","GetOutputRect method","IVMRMixerControl.GetOutputRect","IVMRMixerControl::GetOutputRect","IVMRMixerControlGetOutputRect","dshow.ivmrmixercontrol_getoutputrect","strmif/IVMRMixerControl::GetOutputRect"]
 old-location: dshow\ivmrmixercontrol_getoutputrect.htm
 tech.root: DirectShow
 ms.assetid: da6409b0-161d-4724-b448-e68cb5d1941c

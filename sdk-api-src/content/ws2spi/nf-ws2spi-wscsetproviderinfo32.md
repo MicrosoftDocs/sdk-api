@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2spi.WSCSetProviderInfo32
 title: WSCSetProviderInfo32 function (ws2spi.h)
-description: Sets the data value for specified information class for a layered service provider (LSP).helpviewer_keywords: ["WSCSetProviderInfo32","WSCSetProviderInfo32 function [Winsock]","winsock.wscsetproviderinfo32","ws2spi/WSCSetProviderInfo32"]
+description: Sets the data value for specified information class for a layered service provider (LSP).
+helpviewer_keywords: ["WSCSetProviderInfo32","WSCSetProviderInfo32 function [Winsock]","winsock.wscsetproviderinfo32","ws2spi/WSCSetProviderInfo32"]
 old-location: winsock\wscsetproviderinfo32.htm
 tech.root: WinSock
 ms.assetid: adb2737f-5327-4306-bd57-f165f339f911

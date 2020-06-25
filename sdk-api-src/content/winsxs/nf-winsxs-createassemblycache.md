@@ -1,7 +1,8 @@
 ---
 UID: NF:winsxs.CreateAssemblyCache
 title: CreateAssemblyCache function (winsxs.h)
-description: The CreateAssemblyCache function obtains an instance of the IAssemblyCache interface.helpviewer_keywords: ["CreateAssemblyCache","CreateAssemblyCache function [Side-by-side Assemblies]","setup.createassemblycache","winsxs/CreateAssemblyCache"]
+description: The CreateAssemblyCache function obtains an instance of the IAssemblyCache interface.
+helpviewer_keywords: ["CreateAssemblyCache","CreateAssemblyCache function [Side-by-side Assemblies]","setup.createassemblycache","winsxs/CreateAssemblyCache"]
 old-location: setup\createassemblycache.htm
 tech.root: SbsCs
 ms.assetid: 99032c27-d9a3-4319-ba6e-2271d35da804

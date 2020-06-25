@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextHost.TxGetSysColor
 title: ITextHost::TxGetSysColor (textserv.h)
-description: Retrieves the text host's color for a specified display element.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxGetSysColor method","ITextHost.TxGetSysColor","ITextHost::TxGetSysColor","TxGetSysColor","TxGetSysColor method [Windows Controls]","TxGetSysColor method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxGetSysColor","_win32_ITextHost_TxGetSysColor_cpp","controls.ITextHost_TxGetSysColor","controls._win32_ITextHost_TxGetSysColor","textserv/ITextHost::TxGetSysColor"]
+description: Retrieves the text host's color for a specified display element.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxGetSysColor method","ITextHost.TxGetSysColor","ITextHost::TxGetSysColor","TxGetSysColor","TxGetSysColor method [Windows Controls]","TxGetSysColor method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxGetSysColor","_win32_ITextHost_TxGetSysColor_cpp","controls.ITextHost_TxGetSysColor","controls._win32_ITextHost_TxGetSysColor","textserv/ITextHost::TxGetSysColor"]
 old-location: controls\ITextHost_TxGetSysColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetsyscolor.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddSeparator
 title: IFileDialogCustomize::AddSeparator (shobjidl_core.h)
-description: Adds a separator to the dialog, allowing a visual separation of controls.helpviewer_keywords: ["AddSeparator","AddSeparator method [Windows Shell]","AddSeparator method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","AddSeparator method","IFileDialogCustomize.AddSeparator","IFileDialogCustomize::AddSeparator","shell.IFileDialogCustomize_AddSeparator","shell_IFileDialogCustomize_AddSeparator","shobjidl_core/IFileDialogCustomize::AddSeparator"]
+description: Adds a separator to the dialog, allowing a visual separation of controls.
+helpviewer_keywords: ["AddSeparator","AddSeparator method [Windows Shell]","AddSeparator method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","AddSeparator method","IFileDialogCustomize.AddSeparator","IFileDialogCustomize::AddSeparator","shell.IFileDialogCustomize_AddSeparator","shell_IFileDialogCustomize_AddSeparator","shobjidl_core/IFileDialogCustomize::AddSeparator"]
 old-location: shell\IFileDialogCustomize_AddSeparator.htm
 tech.root: shell
 ms.assetid: e2d0f1c7-9296-4651-8910-89dcfe5a6a68

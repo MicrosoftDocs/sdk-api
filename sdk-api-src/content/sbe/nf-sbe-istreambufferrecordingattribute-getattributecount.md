@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.IStreamBufferRecordingAttribute.GetAttributeCount
 title: IStreamBufferRecordingAttribute::GetAttributeCount (sbe.h)
-description: The GetAttributeCount method returns the number of attributes that are currently defined for this stream buffer file.helpviewer_keywords: ["GetAttributeCount","GetAttributeCount method [Microsoft TV Technologies]","GetAttributeCount method [Microsoft TV Technologies]","IStreamBufferRecordingAttribute interface","IStreamBufferRecordingAttribute interface [Microsoft TV Technologies]","GetAttributeCount method","IStreamBufferRecordingAttribute.GetAttributeCount","IStreamBufferRecordingAttribute::GetAttributeCount","IStreamBufferRecordingAttributeGetAttributeCount","mstv.istreambufferrecordingattribute_getattributecount","sbe/IStreamBufferRecordingAttribute::GetAttributeCount"]
+description: The GetAttributeCount method returns the number of attributes that are currently defined for this stream buffer file.
+helpviewer_keywords: ["GetAttributeCount","GetAttributeCount method [Microsoft TV Technologies]","GetAttributeCount method [Microsoft TV Technologies]","IStreamBufferRecordingAttribute interface","IStreamBufferRecordingAttribute interface [Microsoft TV Technologies]","GetAttributeCount method","IStreamBufferRecordingAttribute.GetAttributeCount","IStreamBufferRecordingAttribute::GetAttributeCount","IStreamBufferRecordingAttributeGetAttributeCount","mstv.istreambufferrecordingattribute_getattributecount","sbe/IStreamBufferRecordingAttribute::GetAttributeCount"]
 old-location: mstv\istreambufferrecordingattribute_getattributecount.htm
 tech.root: mstv
 ms.assetid: 44ff4991-f6f2-4f70-bdf5-b8e1dc06611c

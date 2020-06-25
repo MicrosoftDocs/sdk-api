@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleCreateLinkToFile
 title: OleCreateLinkToFile function (ole2.h)
-description: Creates an object that is linked to a file.helpviewer_keywords: ["OleCreateLinkToFile","OleCreateLinkToFile function [COM]","_ole_OleCreateLinkToFile","com.olecreatelinktofile","ole2/OleCreateLinkToFile"]
+description: Creates an object that is linked to a file.
+helpviewer_keywords: ["OleCreateLinkToFile","OleCreateLinkToFile function [COM]","_ole_OleCreateLinkToFile","com.olecreatelinktofile","ole2/OleCreateLinkToFile"]
 old-location: com\olecreatelinktofile.htm
 tech.root: com
 ms.assetid: 06b013db-0554-4dbc-b19d-28314fb4fee0

@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFMetadata
 title: IMFMetadata (mfidl.h)
-description: Manages metadata for an object.helpviewer_keywords: ["411658ca-dc5e-445b-8d61-0c0429fcfbb1","IMFMetadata","IMFMetadata interface [Media Foundation]","IMFMetadata interface [Media Foundation]","described","mf.imfmetadata","mfidl/IMFMetadata"]
+description: Manages metadata for an object.
+helpviewer_keywords: ["411658ca-dc5e-445b-8d61-0c0429fcfbb1","IMFMetadata","IMFMetadata interface [Media Foundation]","IMFMetadata interface [Media Foundation]","described","mf.imfmetadata","mfidl/IMFMetadata"]
 old-location: mf\imfmetadata.htm
 tech.root: medfound
 ms.assetid: 411658ca-dc5e-445b-8d61-0c0429fcfbb1

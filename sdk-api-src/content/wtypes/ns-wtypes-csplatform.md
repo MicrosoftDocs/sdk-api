@@ -1,7 +1,8 @@
 ---
 UID: NS:wtypes.tagCSPLATFORM
 title: CSPLATFORM (wtypes.h)
-description: Contains an operating system platform and processor architecture.helpviewer_keywords: ["CSPLATFORM","CSPLATFORM structure [COM]","_com_CSPLATFORM","com.csplatform","wtypes/tagCSPLATFORM"]
+description: Contains an operating system platform and processor architecture.
+helpviewer_keywords: ["CSPLATFORM","CSPLATFORM structure [COM]","_com_CSPLATFORM","com.csplatform","wtypes/tagCSPLATFORM"]
 old-location: com\csplatform.htm
 tech.root: com
 ms.assetid: e9ffa8ba-98a2-431c-a069-20ed4a45e6f8

@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.ICommDlgBrowser
 title: ICommDlgBrowser (shobjidl_core.h)
-description: Exposed by the common file dialog boxes to be used when they host a Shell browser.helpviewer_keywords: ["ICommDlgBrowser","ICommDlgBrowser interface [Windows Shell]","ICommDlgBrowser interface [Windows Shell]","described","_win32_ICommDlgBrowser","shell.ICommDlgBrowser","shobjidl_core/ICommDlgBrowser"]
+description: Exposed by the common file dialog boxes to be used when they host a Shell browser.
+helpviewer_keywords: ["ICommDlgBrowser","ICommDlgBrowser interface [Windows Shell]","ICommDlgBrowser interface [Windows Shell]","described","_win32_ICommDlgBrowser","shell.ICommDlgBrowser","shobjidl_core/ICommDlgBrowser"]
 old-location: shell\ICommDlgBrowser.htm
 tech.root: shell
 ms.assetid: bf89ac6e-6c2e-4944-885c-9ab62f58fe71

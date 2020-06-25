@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.get_SmartCardStatus
 title: IBDA_ConditionalAccess::get_SmartCardStatus (bdaiface.h)
-description: The get_SmartCardStatus method retrieves the status of the smart card.helpviewer_keywords: ["IBDA_ConditionalAccess interface [Microsoft TV Technologies]","get_SmartCardStatus method","IBDA_ConditionalAccess.get_SmartCardStatus","IBDA_ConditionalAccess::get_SmartCardStatus","IBDA_ConditionalAccessget_SmartCardStatus","bdaiface/IBDA_ConditionalAccess::get_SmartCardStatus","get_SmartCardStatus","get_SmartCardStatus method [Microsoft TV Technologies]","get_SmartCardStatus method [Microsoft TV Technologies]","IBDA_ConditionalAccess interface","mstv.ibda_conditionalaccess_get_smartcardstatus"]
+description: The get_SmartCardStatus method retrieves the status of the smart card.
+helpviewer_keywords: ["IBDA_ConditionalAccess interface [Microsoft TV Technologies]","get_SmartCardStatus method","IBDA_ConditionalAccess.get_SmartCardStatus","IBDA_ConditionalAccess::get_SmartCardStatus","IBDA_ConditionalAccessget_SmartCardStatus","bdaiface/IBDA_ConditionalAccess::get_SmartCardStatus","get_SmartCardStatus","get_SmartCardStatus method [Microsoft TV Technologies]","get_SmartCardStatus method [Microsoft TV Technologies]","IBDA_ConditionalAccess interface","mstv.ibda_conditionalaccess_get_smartcardstatus"]
 old-location: mstv\ibda_conditionalaccess_get_smartcardstatus.htm
 tech.root: mstv
 ms.assetid: 940247b0-c002-414f-9d01-9f4acfe90a35

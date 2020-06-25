@@ -1,7 +1,8 @@
 ---
 UID: NF:t2embapi.TTGetEmbeddedFontInfo
 title: TTGetEmbeddedFontInfo function (t2embapi.h)
-description: Retrieves information about an embedded font, such as embedding permissions. TTGetEmbeddedFontInfo performs the same task as TTLoadEmbeddedFont but does not allocate internal data structures for the embedded font.helpviewer_keywords: ["EMBED_EDITABLE","EMBED_INSTALLABLE","EMBED_NOEMBEDDING","EMBED_PREVIEWPRINT","LICENSE_DEFAULT","LICENSE_EDITABLE","LICENSE_INSTALLABLE","LICENSE_NOEMBEDDING","LICENSE_PREVIEWPRINT","TTEMBED_EMBEDEUDC","TTEMBED_RAW","TTEMBED_SUBSET","TTEMBED_TTCOMPRESSED","TTGetEmbeddedFontInfo","TTGetEmbeddedFontInfo function [Windows GDI]","TTLOAD_FONT_SUBSETTED","_win32_TTGetEmbeddedFontInfo","gdi.ttgetembeddedfontinfo","t2embapi/TTGetEmbeddedFontInfo"]
+description: Retrieves information about an embedded font, such as embedding permissions. TTGetEmbeddedFontInfo performs the same task as TTLoadEmbeddedFont but does not allocate internal data structures for the embedded font.
+helpviewer_keywords: ["EMBED_EDITABLE","EMBED_INSTALLABLE","EMBED_NOEMBEDDING","EMBED_PREVIEWPRINT","LICENSE_DEFAULT","LICENSE_EDITABLE","LICENSE_INSTALLABLE","LICENSE_NOEMBEDDING","LICENSE_PREVIEWPRINT","TTEMBED_EMBEDEUDC","TTEMBED_RAW","TTEMBED_SUBSET","TTEMBED_TTCOMPRESSED","TTGetEmbeddedFontInfo","TTGetEmbeddedFontInfo function [Windows GDI]","TTLOAD_FONT_SUBSETTED","_win32_TTGetEmbeddedFontInfo","gdi.ttgetembeddedfontinfo","t2embapi/TTGetEmbeddedFontInfo"]
 old-location: gdi\ttgetembeddedfontinfo.htm
 tech.root: gdi
 ms.assetid: 0ce9ade0-df5b-4a2a-adf6-ca641e27d2bd

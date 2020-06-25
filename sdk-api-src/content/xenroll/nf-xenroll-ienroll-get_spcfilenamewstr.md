@@ -1,7 +1,8 @@
 ---
 UID: NF:xenroll.IEnroll.get_SPCFileNameWStr
 title: IEnroll::get_SPCFileNameWStr (xenroll.h)
-description: The SPCFileNameWStr property of IEnroll4 sets or retrieves the name of the file to which to write the base64-encoded PKCShelpviewer_keywords: ["IEnroll interface [Security]","SPCFileNameWStr property","IEnroll.SPCFileNameWStr","IEnroll.get_SPCFileNameWStr","IEnroll::SPCFileNameWStr","IEnroll::get_SPCFileNameWStr","IEnroll::put_SPCFileNameWStr","SPCFileNameWStr property [Security]","SPCFileNameWStr property [Security]","IEnroll interface","get_SPCFileNameWStr","security.ienroll4_spcfilenamewstr","xenroll/IEnroll::SPCFileNameWStr","xenroll/IEnroll::get_SPCFileNameWStr","xenroll/IEnroll::put_SPCFileNameWStr"]
+description: The SPCFileNameWStr property of IEnroll4 sets or retrieves the name of the file to which to write the base64-encoded PKCS
+helpviewer_keywords: ["IEnroll interface [Security]","SPCFileNameWStr property","IEnroll.SPCFileNameWStr","IEnroll.get_SPCFileNameWStr","IEnroll::SPCFileNameWStr","IEnroll::get_SPCFileNameWStr","IEnroll::put_SPCFileNameWStr","SPCFileNameWStr property [Security]","SPCFileNameWStr property [Security]","IEnroll interface","get_SPCFileNameWStr","security.ienroll4_spcfilenamewstr","xenroll/IEnroll::SPCFileNameWStr","xenroll/IEnroll::get_SPCFileNameWStr","xenroll/IEnroll::put_SPCFileNameWStr"]
 old-location: security\ienroll4_spcfilenamewstr.htm
 tech.root: SecCrypto
 ms.assetid: 75e9327e-72d6-4247-a339-1ca494bc8408

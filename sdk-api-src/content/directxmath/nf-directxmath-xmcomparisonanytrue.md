@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMComparisonAnyTrue
 title: XMComparisonAnyTrue function (directxmath.h)
-description: Tests the comparison value to determine if any of the compared components are true.helpviewer_keywords: ["Use DirectX..XMComparisonAnyTrue","XMComparisonAnyTrue","XMComparisonAnyTrue method [DirectX Math Support APIs]","dxmath.xmcomparisonanytrue"]
+description: Tests the comparison value to determine if any of the compared components are true.
+helpviewer_keywords: ["Use DirectX..XMComparisonAnyTrue","XMComparisonAnyTrue","XMComparisonAnyTrue method [DirectX Math Support APIs]","dxmath.xmcomparisonanytrue"]
 old-location: dxmath\xmcomparisonanytrue.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAnyTrue(uint32_t)

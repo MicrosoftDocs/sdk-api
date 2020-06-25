@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_AUX.QueryCapabilities
 title: IBDA_AUX::QueryCapabilities (bdaiface.h)
-description: Gets the number of auxiliary connectors on the device.helpviewer_keywords: ["IBDA_AUX interface [Microsoft TV Technologies]","QueryCapabilities method","IBDA_AUX.QueryCapabilities","IBDA_AUX::QueryCapabilities","QueryCapabilities","QueryCapabilities method [Microsoft TV Technologies]","QueryCapabilities method [Microsoft TV Technologies]","IBDA_AUX interface","bdaiface/IBDA_AUX::QueryCapabilities","mstv.ibda_aux_querycapabilities"]
+description: Gets the number of auxiliary connectors on the device.
+helpviewer_keywords: ["IBDA_AUX interface [Microsoft TV Technologies]","QueryCapabilities method","IBDA_AUX.QueryCapabilities","IBDA_AUX::QueryCapabilities","QueryCapabilities","QueryCapabilities method [Microsoft TV Technologies]","QueryCapabilities method [Microsoft TV Technologies]","IBDA_AUX interface","bdaiface/IBDA_AUX::QueryCapabilities","mstv.ibda_aux_querycapabilities"]
 old-location: mstv\ibda_aux_querycapabilities.htm
 tech.root: mstv
 ms.assetid: 7bb80ae2-050e-4fe6-9dd4-9cc6b2bcdd3c

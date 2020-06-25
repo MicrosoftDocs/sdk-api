@@ -1,7 +1,8 @@
 ---
 UID: NN:azroles.IAzClientContext
 title: IAzClientContext (azroles.h)
-description: Maintains the state that describes a particular client.helpviewer_keywords: ["IAzClientContext","IAzClientContext interface [Security]","IAzClientContext interface [Security]","described","azroles/IAzClientContext","security.iazclientcontext"]
+description: Maintains the state that describes a particular client.
+helpviewer_keywords: ["IAzClientContext","IAzClientContext interface [Security]","IAzClientContext interface [Security]","described","azroles/IAzClientContext","security.iazclientcontext"]
 old-location: security\iazclientcontext.htm
 tech.root: SecAuthZ
 ms.assetid: e24184d2-a77b-4a8b-b2f3-78f1e0b902f9

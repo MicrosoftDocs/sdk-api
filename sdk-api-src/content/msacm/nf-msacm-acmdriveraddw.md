@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmDriverAddW
 title: acmDriverAddW function (msacm.h)
-description: The acmDriverAdd function adds a driver to the list of available ACM drivers.helpviewer_keywords: ["_win32_acmDriverAdd","acmDriverAdd","acmDriverAdd function [Windows Multimedia]","acmDriverAddA","acmDriverAddW","msacm/acmDriverAdd","msacm/acmDriverAddA","msacm/acmDriverAddW","multimedia.acmdriveradd"]
+description: The acmDriverAdd function adds a driver to the list of available ACM drivers.
+helpviewer_keywords: ["_win32_acmDriverAdd","acmDriverAdd","acmDriverAdd function [Windows Multimedia]","acmDriverAddA","acmDriverAddW","msacm/acmDriverAdd","msacm/acmDriverAddA","msacm/acmDriverAddW","multimedia.acmdriveradd"]
 old-location: multimedia\acmdriveradd.htm
 tech.root: Multimedia
 ms.assetid: f037cab8-a1f4-487f-ab0a-11e11993b007
@@ -181,4 +182,9 @@ The system is unable to allocate resources.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The msacm.h header defines acmDriverAdd as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

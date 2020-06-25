@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetAuthFlags
 title: IX509EnrollmentPolicyServer::GetAuthFlags (certenroll.h)
-description: Retrieves a value that specifies the authentication type used by the client to authenticate itself to the certificate enrollment policy (CEP) server.helpviewer_keywords: ["GetAuthFlags","GetAuthFlags method [Security]","GetAuthFlags method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetAuthFlags method","IX509EnrollmentPolicyServer.GetAuthFlags","IX509EnrollmentPolicyServer::GetAuthFlags","X509AuthAnonymous","X509AuthCertificate","X509AuthKerberos","X509AuthUsername","certenroll/IX509EnrollmentPolicyServer::GetAuthFlags","security.ix509enrollmentpolicyserver_getauthflags"]
+description: Retrieves a value that specifies the authentication type used by the client to authenticate itself to the certificate enrollment policy (CEP) server.
+helpviewer_keywords: ["GetAuthFlags","GetAuthFlags method [Security]","GetAuthFlags method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetAuthFlags method","IX509EnrollmentPolicyServer.GetAuthFlags","IX509EnrollmentPolicyServer::GetAuthFlags","X509AuthAnonymous","X509AuthCertificate","X509AuthKerberos","X509AuthUsername","certenroll/IX509EnrollmentPolicyServer::GetAuthFlags","security.ix509enrollmentpolicyserver_getauthflags"]
 old-location: security\ix509enrollmentpolicyserver_getauthflags.htm
 tech.root: seccertenroll
 ms.assetid: 29ecfb93-82ec-4d34-84ea-0a181e134b6a

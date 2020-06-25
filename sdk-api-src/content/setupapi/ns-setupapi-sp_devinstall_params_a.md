@@ -1,7 +1,8 @@
 ---
 UID: NS:setupapi._SP_DEVINSTALL_PARAMS_A
 title: SP_DEVINSTALL_PARAMS_A (setupapi.h)
-description: An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set.helpviewer_keywords: ["*PSP_DEVINSTALL_PARAMS_A","PSP_DEVINSTALL_PARAMS","PSP_DEVINSTALL_PARAMS structure pointer [Device and Driver Installation]","SP_DEVINSTALL_PARAMS","SP_DEVINSTALL_PARAMS structure [Device and Driver Installation]","SP_DEVINSTALL_PARAMS_A","devinst.sp_devinstall_params","di-struct_ef7906d1-6416-41fc-8844-53f2f594a913.xml","setupapi/PSP_DEVINSTALL_PARAMS","setupapi/SP_DEVINSTALL_PARAMS"]
+description: An SP_DEVINSTALL_PARAMS structure contains device installation parameters associated with a particular device information element or associated globally with a device information set.
+helpviewer_keywords: ["*PSP_DEVINSTALL_PARAMS_A","PSP_DEVINSTALL_PARAMS","PSP_DEVINSTALL_PARAMS structure pointer [Device and Driver Installation]","SP_DEVINSTALL_PARAMS","SP_DEVINSTALL_PARAMS structure [Device and Driver Installation]","SP_DEVINSTALL_PARAMS_A","devinst.sp_devinstall_params","di-struct_ef7906d1-6416-41fc-8844-53f2f594a913.xml","setupapi/PSP_DEVINSTALL_PARAMS","setupapi/SP_DEVINSTALL_PARAMS"]
 old-location: devinst\sp_devinstall_params.htm
 tech.root: devinst
 ms.assetid: 1bd21150-f8f4-480d-a4b2-99fa4b4233b9
@@ -478,4 +479,9 @@ This path is used by the <a href="https://docs.microsoft.com/windows/desktop/api
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SP_DEVINSTALL_PARAMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

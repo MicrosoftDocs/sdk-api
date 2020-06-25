@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.D3D12GetDebugInterface
 title: D3D12GetDebugInterface function (d3d12.h)
-description: Gets a debug interface.helpviewer_keywords: ["D3D12GetDebugInterface","D3D12GetDebugInterface function","d3d12/D3D12GetDebugInterface","direct3d12.d3d12getdebuginterface"]
+description: Gets a debug interface.
+helpviewer_keywords: ["D3D12GetDebugInterface","D3D12GetDebugInterface function","d3d12/D3D12GetDebugInterface","direct3d12.d3d12getdebuginterface"]
 old-location: direct3d12\d3d12getdebuginterface.htm
 tech.root: direct3d12
 ms.assetid: 6D1D6B73-3C2C-4BE0-B75D-2CD39DAC9499

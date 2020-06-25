@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_SetCallbackMask
 title: ListView_SetCallbackMask macro (commctrl.h)
-description: Changes the callback mask for a list-view control. You can use this macro or send the LVM_SETCALLBACKMASK message explicitly.helpviewer_keywords: ["LVIS_CUT","LVIS_DROPHILITED","LVIS_FOCUSED","LVIS_OVERLAYMASK","LVIS_SELECTED","LVIS_STATEIMAGEMASK","ListView_SetCallbackMask","ListView_SetCallbackMask macro [Windows Controls]","_win32_ListView_SetCallbackMask","_win32_ListView_SetCallbackMask_cpp","commctrl/ListView_SetCallbackMask","controls.ListView_SetCallbackMask","controls._win32_ListView_SetCallbackMask"]
+description: Changes the callback mask for a list-view control. You can use this macro or send the LVM_SETCALLBACKMASK message explicitly.
+helpviewer_keywords: ["LVIS_CUT","LVIS_DROPHILITED","LVIS_FOCUSED","LVIS_OVERLAYMASK","LVIS_SELECTED","LVIS_STATEIMAGEMASK","ListView_SetCallbackMask","ListView_SetCallbackMask macro [Windows Controls]","_win32_ListView_SetCallbackMask","_win32_ListView_SetCallbackMask_cpp","commctrl/ListView_SetCallbackMask","controls.ListView_SetCallbackMask","controls._win32_ListView_SetCallbackMask"]
 old-location: controls\ListView_SetCallbackMask.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setcallbackmask.htm

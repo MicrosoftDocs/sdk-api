@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecStrings.GetDescription
 title: IWMCodecStrings::GetDescription (wmcodecdsp.h)
-description: Retrieves the description of an output format.helpviewer_keywords: ["GetDescription","GetDescription method [Media Foundation]","GetDescription method [Media Foundation]","IWMCodecStrings interface","IWMCodecStrings interface [Media Foundation]","GetDescription method","IWMCodecStrings.GetDescription","IWMCodecStrings::GetDescription","codecapi.iwmcodecstringsgetdescription","mf.iwmcodecstringsgetdescription","wmcodecdsp/IWMCodecStrings::GetDescription"]
+description: Retrieves the description of an output format.
+helpviewer_keywords: ["GetDescription","GetDescription method [Media Foundation]","GetDescription method [Media Foundation]","IWMCodecStrings interface","IWMCodecStrings interface [Media Foundation]","GetDescription method","IWMCodecStrings.GetDescription","IWMCodecStrings::GetDescription","codecapi.iwmcodecstringsgetdescription","mf.iwmcodecstringsgetdescription","wmcodecdsp/IWMCodecStrings::GetDescription"]
 old-location: mf\iwmcodecstringsgetdescription.htm
 tech.root: medfound
 ms.assetid: 79068e6c-bd16-45e4-a8af-6a03e0c5b528

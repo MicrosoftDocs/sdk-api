@@ -1,7 +1,8 @@
 ---
 UID: NC:wofapi.WofEnumFilesProc
 title: WofEnumFilesProc (wofapi.h)
-description: Callback function that gets called for each file backed by an external data source, such as a WIM file.helpviewer_keywords: ["WofEnumFilesProc","WofEnumFilesProc callback","WofEnumFilesProc callback function [Files]","fs.wofenumfilesproc","wofapi/WofEnumFilesProc"]
+description: Callback function that gets called for each file backed by an external data source, such as a WIM file.
+helpviewer_keywords: ["WofEnumFilesProc","WofEnumFilesProc callback","WofEnumFilesProc callback function [Files]","fs.wofenumfilesproc","wofapi/WofEnumFilesProc"]
 old-location: fs\wofenumfilesproc.htm
 tech.root: FileIO
 ms.assetid: E710869D-68A9-4E30-96DE-6313A5A182D8

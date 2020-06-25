@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement4
 title: IUIAutomationElement4 (uiautomationclient.h)
-description: Extends the IUIAutomationElement3 interface.helpviewer_keywords: ["IUIAutomationElement4","IUIAutomationElement4 interface [Windows Accessibility]","IUIAutomationElement4 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationElement4","winauto.uiauto_IUIAutomationElement4"]
+description: Extends the IUIAutomationElement3 interface.
+helpviewer_keywords: ["IUIAutomationElement4","IUIAutomationElement4 interface [Windows Accessibility]","IUIAutomationElement4 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationElement4","winauto.uiauto_IUIAutomationElement4"]
 old-location: winauto\uiauto_IUIAutomationElement4.htm
 tech.root: WinAuto
 ms.assetid: 658FA354-38AE-4038-9F18-FE2858900BF7

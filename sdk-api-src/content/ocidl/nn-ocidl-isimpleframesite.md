@@ -1,7 +1,8 @@
 ---
 UID: NN:ocidl.ISimpleFrameSite
 title: ISimpleFrameSite (ocidl.h)
-description: Provides simple frame controls that act as simple containers for other nested controls.helpviewer_keywords: ["ISimpleFrameSite","ISimpleFrameSite interface [COM]","ISimpleFrameSite interface [COM]","described","_ctrl_isimpleframesite","com.isimpleframesite","ocidl/ISimpleFrameSite"]
+description: Provides simple frame controls that act as simple containers for other nested controls.
+helpviewer_keywords: ["ISimpleFrameSite","ISimpleFrameSite interface [COM]","ISimpleFrameSite interface [COM]","described","_ctrl_isimpleframesite","com.isimpleframesite","ocidl/ISimpleFrameSite"]
 old-location: com\isimpleframesite.htm
 tech.root: com
 ms.assetid: ccddeae4-14fc-47df-a612-83d48a479b48

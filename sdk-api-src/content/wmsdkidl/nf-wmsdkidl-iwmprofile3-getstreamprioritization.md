@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetStreamPrioritization
 title: IWMProfile3::GetStreamPrioritization (wmsdkidl.h)
-description: The GetStreamPrioritization method retrieves the stream prioritization that exists in the profile.helpviewer_keywords: ["GetStreamPrioritization","GetStreamPrioritization method [windows Media Format]","GetStreamPrioritization method [windows Media Format]","IWMProfile3 interface","IWMProfile3 interface [windows Media Format]","GetStreamPrioritization method","IWMProfile3.GetStreamPrioritization","IWMProfile3::GetStreamPrioritization","IWMProfile3GetStreamPrioritization","wmformat.iwmprofile3_getstreamprioritization","wmsdkidl/IWMProfile3::GetStreamPrioritization"]
+description: The GetStreamPrioritization method retrieves the stream prioritization that exists in the profile.
+helpviewer_keywords: ["GetStreamPrioritization","GetStreamPrioritization method [windows Media Format]","GetStreamPrioritization method [windows Media Format]","IWMProfile3 interface","IWMProfile3 interface [windows Media Format]","GetStreamPrioritization method","IWMProfile3.GetStreamPrioritization","IWMProfile3::GetStreamPrioritization","IWMProfile3GetStreamPrioritization","wmformat.iwmprofile3_getstreamprioritization","wmsdkidl/IWMProfile3::GetStreamPrioritization"]
 old-location: wmformat\iwmprofile3_getstreamprioritization.htm
 tech.root: wmformat
 ms.assetid: 09545c1e-8090-4526-9faf-6cb2cb369208

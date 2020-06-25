@@ -1,7 +1,8 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheRecord.GetFileModificationTime
 title: IBitsPeerCacheRecord::GetFileModificationTime (bits3_0.h)
-description: Gets the date and time that the file was last modified on the server.helpviewer_keywords: ["GetFileModificationTime","GetFileModificationTime method [BITS]","GetFileModificationTime method [BITS]","IBitsPeerCacheRecord interface","IBitsPeerCacheRecord interface [BITS]","GetFileModificationTime method","IBitsPeerCacheRecord.GetFileModificationTime","IBitsPeerCacheRecord::GetFileModificationTime","bits.ibitspeercacherecord_getfilemodificationtime","bits3_0/IBitsPeerCacheRecord::GetFileModificationTime"]
+description: Gets the date and time that the file was last modified on the server.
+helpviewer_keywords: ["GetFileModificationTime","GetFileModificationTime method [BITS]","GetFileModificationTime method [BITS]","IBitsPeerCacheRecord interface","IBitsPeerCacheRecord interface [BITS]","GetFileModificationTime method","IBitsPeerCacheRecord.GetFileModificationTime","IBitsPeerCacheRecord::GetFileModificationTime","bits.ibitspeercacherecord_getfilemodificationtime","bits3_0/IBitsPeerCacheRecord::GetFileModificationTime"]
 old-location: bits\ibitspeercacherecord_getfilemodificationtime.htm
 tech.root: Bits
 ms.assetid: fe24b090-7dfd-4cbe-bb5d-ff3fd01723df

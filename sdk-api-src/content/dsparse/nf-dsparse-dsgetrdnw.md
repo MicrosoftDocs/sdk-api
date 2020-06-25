@@ -1,7 +1,8 @@
 ---
 UID: NF:dsparse.DsGetRdnW
 title: DsGetRdnW function (dsparse.h)
-description: Retrieves the key and value of the first relative distinguished name and a pointer to the next relative distinguished name from a distinguished name string.helpviewer_keywords: ["DsGetRdnW","DsGetRdnW function [Active Directory]","ad.dsgetrdnw","dsparse/DsGetRdnW"]
+description: Retrieves the key and value of the first relative distinguished name and a pointer to the next relative distinguished name from a distinguished name string.
+helpviewer_keywords: ["DsGetRdnW","DsGetRdnW function [Active Directory]","ad.dsgetrdnw","dsparse/DsGetRdnW"]
 old-location: ad\dsgetrdnw.htm
 tech.root: ad
 ms.assetid: 22627f2e-adfb-49de-bae5-20aaf69830ac

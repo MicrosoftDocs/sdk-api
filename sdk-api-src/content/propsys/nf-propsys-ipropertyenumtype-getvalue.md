@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyEnumType.GetValue
 title: IPropertyEnumType::GetValue (propsys.h)
-description: Gets a value from an enumeration information structure.helpviewer_keywords: ["GetValue","GetValue method [Windows Properties]","GetValue method [Windows Properties]","IPropertyEnumType interface","IPropertyEnumType interface [Windows Properties]","GetValue method","IPropertyEnumType.GetValue","IPropertyEnumType::GetValue","_shell_IPropertyEnumType_GetValue","properties.IPropertyEnumType_GetValue","propsys/IPropertyEnumType::GetValue","shell.IPropertyEnumType_GetValue"]
+description: Gets a value from an enumeration information structure.
+helpviewer_keywords: ["GetValue","GetValue method [Windows Properties]","GetValue method [Windows Properties]","IPropertyEnumType interface","IPropertyEnumType interface [Windows Properties]","GetValue method","IPropertyEnumType.GetValue","IPropertyEnumType::GetValue","_shell_IPropertyEnumType_GetValue","properties.IPropertyEnumType_GetValue","propsys/IPropertyEnumType::GetValue","shell.IPropertyEnumType_GetValue"]
 old-location: properties\IPropertyEnumType_GetValue.htm
 tech.root: properties
 ms.assetid: e820087b-95fb-4352-9bb0-cf34216d37a6

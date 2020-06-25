@@ -1,7 +1,8 @@
 ---
 UID: NN:mpeg2psiparser.IPAT
 title: IPAT (mpeg2psiparser.h)
-description: The IPAT interface enables the client to get information from a Program Association Table (PAT). The IAtscPsipParser::GetPAT method returns a pointer to this interface.helpviewer_keywords: ["IPAT","IPAT interface [Microsoft TV Technologies]","IPAT interface [Microsoft TV Technologies]","described","IPATInterface","mpeg2psiparser/IPAT","mstv.ipat"]
+description: The IPAT interface enables the client to get information from a Program Association Table (PAT). The IAtscPsipParser::GetPAT method returns a pointer to this interface.
+helpviewer_keywords: ["IPAT","IPAT interface [Microsoft TV Technologies]","IPAT interface [Microsoft TV Technologies]","described","IPATInterface","mpeg2psiparser/IPAT","mstv.ipat"]
 old-location: mstv\ipat.htm
 tech.root: mstv
 ms.assetid: 31b0e558-0f22-4761-a964-1908c2835478

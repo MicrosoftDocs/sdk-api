@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.Move
 title: ITextRangeProvider::Move (uiautomationcore.h)
-description: Moves the text range forward or backward by the specified number of text units.helpviewer_keywords: ["ITextRangeProvider interface [Windows Accessibility]","Move method","ITextRangeProvider.Move","ITextRangeProvider::Move","Move","Move method [Windows Accessibility]","Move method [Windows Accessibility]","ITextRangeProvider interface","uiauto.uiauto_ITextRangeProvider_Move","uiauto_ITextRangeProvider_Move","uiautomationcore/ITextRangeProvider::Move","winauto.uiauto_ITextRangeProvider_Move"]
+description: Moves the text range forward or backward by the specified number of text units.
+helpviewer_keywords: ["ITextRangeProvider interface [Windows Accessibility]","Move method","ITextRangeProvider.Move","ITextRangeProvider::Move","Move","Move method [Windows Accessibility]","Move method [Windows Accessibility]","ITextRangeProvider interface","uiauto.uiauto_ITextRangeProvider_Move","uiauto_ITextRangeProvider_Move","uiautomationcore/ITextRangeProvider::Move","winauto.uiauto_ITextRangeProvider_Move"]
 old-location: winauto\uiauto_ITextRangeProvider_Move.htm
 tech.root: WinAuto
 ms.assetid: 09cd8826-4fdf-4ea5-8159-18bb81e3b5cf

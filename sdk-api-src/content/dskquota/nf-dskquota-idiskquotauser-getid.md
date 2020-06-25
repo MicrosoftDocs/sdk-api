@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetID
 title: IDiskQuotaUser::GetID (dskquota.h)
-description: Retrieves a unique identifier (ID) number for the DiskQuotaUser object.helpviewer_keywords: ["GetID","GetID method [Files]","GetID method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetID method","IDiskQuotaUser.GetID","IDiskQuotaUser::GetID","_win32_idiskquotauser_getid","base.idiskquotauser_getid","dskquota/IDiskQuotaUser::GetID","fs.idiskquotauser_getid"]
+description: Retrieves a unique identifier (ID) number for the DiskQuotaUser object.
+helpviewer_keywords: ["GetID","GetID method [Files]","GetID method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetID method","IDiskQuotaUser.GetID","IDiskQuotaUser::GetID","_win32_idiskquotauser_getid","base.idiskquotauser_getid","dskquota/IDiskQuotaUser::GetID","fs.idiskquotauser_getid"]
 old-location: fs\idiskquotauser_getid.htm
 tech.root: FileIO
 ms.assetid: 04f84fd1-9ce4-4daa-91b3-24508f326f84

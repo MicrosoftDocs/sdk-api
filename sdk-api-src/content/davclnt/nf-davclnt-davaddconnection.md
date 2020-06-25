@@ -1,7 +1,8 @@
 ---
 UID: NF:davclnt.DavAddConnection
 title: DavAddConnection function (davclnt.h)
-description: Creates a secure connection to a WebDAV server or to a remote file or directory on a WebDAV server.helpviewer_keywords: ["DavAddConnection","DavAddConnection function [WebDAV]","davclnt/DavAddConnection","webdav.davaddconnection"]
+description: Creates a secure connection to a WebDAV server or to a remote file or directory on a WebDAV server.
+helpviewer_keywords: ["DavAddConnection","DavAddConnection function [WebDAV]","davclnt/DavAddConnection","webdav.davaddconnection"]
 old-location: webdav\davaddconnection.htm
 tech.root: WebDAV
 ms.assetid: d69cba04-503c-4d21-b762-3094c0921e28

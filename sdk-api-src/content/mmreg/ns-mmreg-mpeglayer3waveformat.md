@@ -1,7 +1,8 @@
 ---
 UID: NS:mmreg.mpeglayer3waveformat_tag
 title: MPEGLAYER3WAVEFORMAT (mmreg.h)
-description: The MPEGLAYER3WAVEFORMAT structure describes an MPEG Audio Layer-3 (MP3) audio format.helpviewer_keywords: ["*LPMPEGLAYER3WAVEFORMAT","*NPMPEGLAYER3WAVEFORMAT","*PMPEGLAYER3WAVEFORMAT","MPEGLAYER3WAVEFORMAT","MPEGLAYER3WAVEFORMAT structure [DirectShow]","MPEGLAYER3WAVEFORMATStructure","MPEGLAYER3_FLAG_PADDING_ISO","MPEGLAYER3_FLAG_PADDING_OFF","MPEGLAYER3_FLAG_PADDING_ON","dshow.mpeglayer3waveformat","mmreg/MPEGLAYER3WAVEFORMAT","mpeglayer3waveformat_tag"]
+description: The MPEGLAYER3WAVEFORMAT structure describes an MPEG Audio Layer-3 (MP3) audio format.
+helpviewer_keywords: ["*LPMPEGLAYER3WAVEFORMAT","*NPMPEGLAYER3WAVEFORMAT","*PMPEGLAYER3WAVEFORMAT","MPEGLAYER3WAVEFORMAT","MPEGLAYER3WAVEFORMAT structure [DirectShow]","MPEGLAYER3WAVEFORMATStructure","MPEGLAYER3_FLAG_PADDING_ISO","MPEGLAYER3_FLAG_PADDING_OFF","MPEGLAYER3_FLAG_PADDING_ON","dshow.mpeglayer3waveformat","mmreg/MPEGLAYER3WAVEFORMAT","mpeglayer3waveformat_tag"]
 old-location: dshow\mpeglayer3waveformat.htm
 tech.root: DirectShow
 ms.assetid: eca403a0-01a2-4290-951f-a7d516a58b9e

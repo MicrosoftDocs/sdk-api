@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleCreateLinkEx
 title: OleCreateLinkEx function (ole2.h)
-description: Extends OleCreateLink functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLink.helpviewer_keywords: ["OleCreateLinkEx","OleCreateLinkEx function [COM]","_ole_OleCreateLinkEx","com.olecreatelinkex","ole2/OleCreateLinkEx"]
+description: Extends OleCreateLink functionality by supporting more efficient instantiation of objects in containers requiring caching of multiple formats of presentations or data, instead of the single format supported by OleCreateLink.
+helpviewer_keywords: ["OleCreateLinkEx","OleCreateLinkEx function [COM]","_ole_OleCreateLinkEx","com.olecreatelinkex","ole2/OleCreateLinkEx"]
 old-location: com\olecreatelinkex.htm
 tech.root: com
 ms.assetid: b43acd14-3cf8-45da-8c2c-f2f6dc2ada78

@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IFont.get_Charset
 title: IFont::get_Charset (ocidl.h)
-description: Retrieves the character set used in the font.helpviewer_keywords: ["IFont interface [COM]","get_Charset method","IFont.get_Charset","IFont::get_Charset","_ctrl_ifont_get_charset","com.ifont_get_charset","get_Charset","get_Charset method [COM]","get_Charset method [COM]","IFont interface","ocidl/IFont::get_Charset"]
+description: Retrieves the character set used in the font.
+helpviewer_keywords: ["IFont interface [COM]","get_Charset method","IFont.get_Charset","IFont::get_Charset","_ctrl_ifont_get_charset","com.ifont_get_charset","get_Charset","get_Charset method [COM]","get_Charset method [COM]","IFont interface","ocidl/IFont::get_Charset"]
 old-location: com\ifont_get_charset.htm
 tech.root: com
 ms.assetid: 3a784453-db29-4917-90ee-8893f787646a

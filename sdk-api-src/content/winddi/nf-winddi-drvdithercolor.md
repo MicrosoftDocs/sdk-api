@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvDitherColor
 title: DrvDitherColor function (winddi.h)
-description: The DrvDitherColor function requests the device to create a brush dithered against a device palette.helpviewer_keywords: ["DrvDitherColor","DrvDitherColor function [Display Devices]","ddifncs_2b62d877-2c36-41ad-bca7-88f1daf3640c.xml","display.drvdithercolor","winddi/DrvDitherColor"]
+description: The DrvDitherColor function requests the device to create a brush dithered against a device palette.
+helpviewer_keywords: ["DrvDitherColor","DrvDitherColor function [Display Devices]","ddifncs_2b62d877-2c36-41ad-bca7-88f1daf3640c.xml","display.drvdithercolor","winddi/DrvDitherColor"]
 old-location: display\drvdithercolor.htm
 tech.root: display
 ms.assetid: 635a4af8-ec19-4f99-80b2-bad2a6e87edc

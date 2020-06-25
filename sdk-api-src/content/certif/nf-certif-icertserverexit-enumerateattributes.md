@@ -1,7 +1,8 @@
 ---
 UID: NF:certif.ICertServerExit.EnumerateAttributes
 title: ICertServerExit::EnumerateAttributes (certif.h)
-description: Returns the name of the next request attribute within the current context, then increments the internal pointer to the following attribute.helpviewer_keywords: ["CCertServerExit object [Security]","EnumerateAttributes method","EnumerateAttributes","EnumerateAttributes method [Security]","EnumerateAttributes method [Security]","CCertServerExit object","EnumerateAttributes method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","EnumerateAttributes method","ICertServerExit.EnumerateAttributes","ICertServerExit::EnumerateAttributes","_certsrv_icertserverexit_enumerateattributes","certif/ICertServerExit::EnumerateAttributes","security.icertserverexit_enumerateattributes"]
+description: Returns the name of the next request attribute within the current context, then increments the internal pointer to the following attribute.
+helpviewer_keywords: ["CCertServerExit object [Security]","EnumerateAttributes method","EnumerateAttributes","EnumerateAttributes method [Security]","EnumerateAttributes method [Security]","CCertServerExit object","EnumerateAttributes method [Security]","ICertServerExit interface","ICertServerExit interface [Security]","EnumerateAttributes method","ICertServerExit.EnumerateAttributes","ICertServerExit::EnumerateAttributes","_certsrv_icertserverexit_enumerateattributes","certif/ICertServerExit::EnumerateAttributes","security.icertserverexit_enumerateattributes"]
 old-location: security\icertserverexit_enumerateattributes.htm
 tech.root: SecCrypto
 ms.assetid: df778207-3b20-45a5-a705-8dba566eb658

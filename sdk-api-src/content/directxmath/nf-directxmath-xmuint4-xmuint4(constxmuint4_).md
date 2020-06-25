@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMUINT4.XMUINT4(const XMUINT4 &)
 title: XMUINT4::XMUINT4(const XMUINT4 &) (directxmath.h)
-description: A constructor for XMUINT4.helpviewer_keywords: ["XMUINT4","XMUINT4 constructor [DirectX Math Support APIs]","XMUINT4 constructor [DirectX Math Support APIs]","XMUINT4 structure","XMUINT4 structure [DirectX Math Support APIs]","XMUINT4 constructor","XMUINT4.XMUINT4","XMUINT4.XMUINT4()","XMUINT4.XMUINT4(const XMUINT4 &)","XMUINT4::XMUINT4","XMUINT4::XMUINT4(const XMUINT4 &)","dxmath.xmuint4_ctor_1"]
+description: A constructor for XMUINT4.
+helpviewer_keywords: ["XMUINT4","XMUINT4 constructor [DirectX Math Support APIs]","XMUINT4 constructor [DirectX Math Support APIs]","XMUINT4 structure","XMUINT4 structure [DirectX Math Support APIs]","XMUINT4 constructor","XMUINT4.XMUINT4","XMUINT4.XMUINT4()","XMUINT4.XMUINT4(const XMUINT4 &)","XMUINT4::XMUINT4","XMUINT4::XMUINT4(const XMUINT4 &)","dxmath.xmuint4_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 

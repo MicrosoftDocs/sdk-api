@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IGetSecurityCallContext
 title: IGetSecurityCallContext (comsvcs.h)
-description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call.helpviewer_keywords: ["IGetSecurityCallContext","IGetSecurityCallContext interface [COM+]","IGetSecurityCallContext interface [COM+]","described","_cos_IGetSecurityCallContext","comsvcs/IGetSecurityCallContext","cos.igetsecuritycallcontext"]
+description: Retrieves a reference to an object created from the SecurityCallContext class that is associated with the current call.
+helpviewer_keywords: ["IGetSecurityCallContext","IGetSecurityCallContext interface [COM+]","IGetSecurityCallContext interface [COM+]","described","_cos_IGetSecurityCallContext","comsvcs/IGetSecurityCallContext","cos.igetsecuritycallcontext"]
 old-location: cos\igetsecuritycallcontext.htm
 tech.root: cossdk
 ms.assetid: 7be988b7-b144-4b8f-b8d3-b0700b564df3

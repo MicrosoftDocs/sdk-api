@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.EnumItemsInCategory
 title: ITfCategoryMgr::EnumItemsInCategory (msctf.h)
-description: ITfCategoryMgr::EnumItemsInCategory methodhelpviewer_keywords: ["EnumItemsInCategory","EnumItemsInCategory method [Text Services Framework]","EnumItemsInCategory method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","EnumItemsInCategory method","ITfCategoryMgr.EnumItemsInCategory","ITfCategoryMgr::EnumItemsInCategory","_tsf_itfcategorymgr_enumitemsincategory_ref","msctf/ITfCategoryMgr::EnumItemsInCategory","tsf.itfcategorymgr_enumitemsincategory"]
+description: ITfCategoryMgr::EnumItemsInCategory method
+helpviewer_keywords: ["EnumItemsInCategory","EnumItemsInCategory method [Text Services Framework]","EnumItemsInCategory method [Text Services Framework]","ITfCategoryMgr interface","ITfCategoryMgr interface [Text Services Framework]","EnumItemsInCategory method","ITfCategoryMgr.EnumItemsInCategory","ITfCategoryMgr::EnumItemsInCategory","_tsf_itfcategorymgr_enumitemsincategory_ref","msctf/ITfCategoryMgr::EnumItemsInCategory","tsf.itfcategorymgr_enumitemsincategory"]
 old-location: tsf\itfcategorymgr_enumitemsincategory.htm
 tech.root: TSF
 ms.assetid: 88b123d8-86aa-40ae-8777-1b33cfbb953a

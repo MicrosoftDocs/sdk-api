@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj._SHChangeProductKeyAsIDList
 title: SHChangeProductKeyAsIDList (shlobj.h)
-description: SHChangeProductKeyAsIDList structurehelpviewer_keywords: ["*LPSHChangeProductKeyAsIDList","SHChangeProductKeyAsIDList","SHChangeProductKeyAsIDList structure [Windows Shell]","_shell_shchangeproductkeyasidlist","shell.SHChangeProductKeyAsIDList","shlobj/SHChangeProductKeyAsIDList"]
+description: SHChangeProductKeyAsIDList structure
+helpviewer_keywords: ["*LPSHChangeProductKeyAsIDList","SHChangeProductKeyAsIDList","SHChangeProductKeyAsIDList structure [Windows Shell]","_shell_shchangeproductkeyasidlist","shell.SHChangeProductKeyAsIDList","shlobj/SHChangeProductKeyAsIDList"]
 old-location: shell\SHChangeProductKeyAsIDList.htm
 tech.root: shell
 ms.assetid: 98aba08d-518c-4ff9-af3d-c9a92b6fe5ab

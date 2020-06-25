@@ -1,7 +1,8 @@
 ---
 UID: NF:madcapcl.McastEnumerateScopes
 title: McastEnumerateScopes function (madcapcl.h)
-description: The McastEnumerateScopes function enumerates multicast scopes available on the network.helpviewer_keywords: ["McastEnumerateScopes","McastEnumerateScopes function [MADCAP]","_mdhcp_mcastenumeratescopes","madcap.mcastenumeratescopes","madcapcl/McastEnumerateScopes"]
+description: The McastEnumerateScopes function enumerates multicast scopes available on the network.
+helpviewer_keywords: ["McastEnumerateScopes","McastEnumerateScopes function [MADCAP]","_mdhcp_mcastenumeratescopes","madcap.mcastenumeratescopes","madcapcl/McastEnumerateScopes"]
 old-location: madcap\mcastenumeratescopes.htm
 tech.root: Madcap
 ms.assetid: df33d766-d420-4069-8b94-86f5e4e91c1d

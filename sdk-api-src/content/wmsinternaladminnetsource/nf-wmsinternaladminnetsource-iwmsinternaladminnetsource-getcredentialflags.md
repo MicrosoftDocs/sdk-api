@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.GetCredentialFlags
 title: IWMSInternalAdminNetSource::GetCredentialFlags (wmsinternaladminnetsource.h)
-description: The GetCredentialFlags method can be used in conjunction with IWMSInternalAdminNetSource::SetCredentialFlags to determine whether the user wants passwords saved as a default behavior. This method retrieves any flags previously set.helpviewer_keywords: ["GetCredentialFlags","GetCredentialFlags method [windows Media Format]","GetCredentialFlags method [windows Media Format]","IWMSInternalAdminNetSource interface","IWMSInternalAdminNetSource interface [windows Media Format]","GetCredentialFlags method","IWMSInternalAdminNetSource.GetCredentialFlags","IWMSInternalAdminNetSource::GetCredentialFlags","IWMSInternalAdminNetSourceGetCredentialFlags","wmformat.iwmsinternaladminnetsource_getcredentialflags","wmsinternaladminnetsource/IWMSInternalAdminNetSource::GetCredentialFlags"]
+description: The GetCredentialFlags method can be used in conjunction with IWMSInternalAdminNetSource::SetCredentialFlags to determine whether the user wants passwords saved as a default behavior. This method retrieves any flags previously set.
+helpviewer_keywords: ["GetCredentialFlags","GetCredentialFlags method [windows Media Format]","GetCredentialFlags method [windows Media Format]","IWMSInternalAdminNetSource interface","IWMSInternalAdminNetSource interface [windows Media Format]","GetCredentialFlags method","IWMSInternalAdminNetSource.GetCredentialFlags","IWMSInternalAdminNetSource::GetCredentialFlags","IWMSInternalAdminNetSourceGetCredentialFlags","wmformat.iwmsinternaladminnetsource_getcredentialflags","wmsinternaladminnetsource/IWMSInternalAdminNetSource::GetCredentialFlags"]
 old-location: wmformat\iwmsinternaladminnetsource_getcredentialflags.htm
 tech.root: wmformat
 ms.assetid: 781b2868-c8e2-4d92-98f2-c2950fac3d9b

@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiSelectOEMDrv
 title: SetupDiSelectOEMDrv function (setupapi.h)
-description: The SetupDiSelectOEMDrv function selects a driver for a device information set or a particular device information element that uses an OEM path supplied by the user.helpviewer_keywords: ["SetupDiSelectOEMDrv","SetupDiSelectOEMDrv function [Device and Driver Installation]","devinst.setupdiselectoemdrv","di-rtns_00ac5dd3-d358-4f14-b8ea-20231051ed8d.xml","setupapi/SetupDiSelectOEMDrv"]
+description: The SetupDiSelectOEMDrv function selects a driver for a device information set or a particular device information element that uses an OEM path supplied by the user.
+helpviewer_keywords: ["SetupDiSelectOEMDrv","SetupDiSelectOEMDrv function [Device and Driver Installation]","devinst.setupdiselectoemdrv","di-rtns_00ac5dd3-d358-4f14-b8ea-20231051ed8d.xml","setupapi/SetupDiSelectOEMDrv"]
 old-location: devinst\setupdiselectoemdrv.htm
 tech.root: devinst
 ms.assetid: e97f0569-419a-4a9a-a657-fd972b160269

@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICBitmapDecoderInfo
 title: IWICBitmapDecoderInfo (wincodec.h)
-description: Exposes methods that provide information about a decoder.helpviewer_keywords: ["IWICBitmapDecoderInfo","IWICBitmapDecoderInfo interface [Windows Imaging Component]","IWICBitmapDecoderInfo interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapdecoderinfo","wic._wic_codec_iwicbitmapdecoderinfo","wincodec/IWICBitmapDecoderInfo"]
+description: Exposes methods that provide information about a decoder.
+helpviewer_keywords: ["IWICBitmapDecoderInfo","IWICBitmapDecoderInfo interface [Windows Imaging Component]","IWICBitmapDecoderInfo interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapdecoderinfo","wic._wic_codec_iwicbitmapdecoderinfo","wincodec/IWICBitmapDecoderInfo"]
 old-location: wic\_wic_codec_iwicbitmapdecoderinfo.htm
 tech.root: wic
 ms.assetid: 7edc6d1a-7eda-45ef-bf1d-c5835b37a90f

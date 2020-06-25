@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.ISCPSecureExchange
 title: ISCPSecureExchange (mswmdm.h)
-description: The ISCPSecureExchange interface is used to exchange secured content and rights associated with content. The secure content provider implements this interface and secure Windows Media Device Manager implementations call its methods.helpviewer_keywords: ["ISCPSecureExchange","ISCPSecureExchange interface [windows Media Device Manager]","ISCPSecureExchange interface [windows Media Device Manager]","described","ISCPSecureExchangeInterface","mswmdm/ISCPSecureExchange","wmdm.iscpsecureexchange"]
+description: The ISCPSecureExchange interface is used to exchange secured content and rights associated with content. The secure content provider implements this interface and secure Windows Media Device Manager implementations call its methods.
+helpviewer_keywords: ["ISCPSecureExchange","ISCPSecureExchange interface [windows Media Device Manager]","ISCPSecureExchange interface [windows Media Device Manager]","described","ISCPSecureExchangeInterface","mswmdm/ISCPSecureExchange","wmdm.iscpsecureexchange"]
 old-location: wmdm\iscpsecureexchange.htm
 tech.root: WMDM
 ms.assetid: 8c61e1a0-18fc-4ae9-881a-0362166012d9

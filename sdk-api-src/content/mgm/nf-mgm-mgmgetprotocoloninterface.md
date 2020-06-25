@@ -1,7 +1,8 @@
 ---
 UID: NF:mgm.MgmGetProtocolOnInterface
 title: MgmGetProtocolOnInterface function (mgm.h)
-description: The MgmGetProtocolOnInterface function retrieves the protocol ID of the multicast routing protocol that owns the specified interface.helpviewer_keywords: ["MgmGetProtocolOnInterface","MgmGetProtocolOnInterface function [RAS]","_mpr_mgmgetprotocoloninterface","mgm/MgmGetProtocolOnInterface","rras.mgmgetprotocoloninterface"]
+description: The MgmGetProtocolOnInterface function retrieves the protocol ID of the multicast routing protocol that owns the specified interface.
+helpviewer_keywords: ["MgmGetProtocolOnInterface","MgmGetProtocolOnInterface function [RAS]","_mpr_mgmgetprotocoloninterface","mgm/MgmGetProtocolOnInterface","rras.mgmgetprotocoloninterface"]
 old-location: rras\mgmgetprotocoloninterface.htm
 tech.root: RRAS
 ms.assetid: 38f6cc9b-ae9e-49a3-8f5e-835699ff3d60

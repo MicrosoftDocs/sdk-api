@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgi1_5.DXGI_HDR_METADATA_HDR10
 title: DXGI_HDR_METADATA_HDR10 (dxgi1_5.h)
-description: Describes the metadata for HDR10, used when video is compressed using High Efficiency Video Coding (HEVC).helpviewer_keywords: ["DXGI_HDR_METADATA_HDR10","DXGI_HDR_METADATA_HDR10 structure [DXGI]","direct3ddxgi.dxgi_hdr_metadata_hdr10","dxgi1_5/DXGI_HDR_METADATA_HDR10"]
+description: Describes the metadata for HDR10, used when video is compressed using High Efficiency Video Coding (HEVC).
+helpviewer_keywords: ["DXGI_HDR_METADATA_HDR10","DXGI_HDR_METADATA_HDR10 structure [DXGI]","direct3ddxgi.dxgi_hdr_metadata_hdr10","dxgi1_5/DXGI_HDR_METADATA_HDR10"]
 old-location: direct3ddxgi\dxgi_hdr_metadata_hdr10.htm
 tech.root: direct3ddxgi
 ms.assetid: 67A53A43-121F-4D83-AACC-D25D58123BE1

@@ -1,7 +1,8 @@
 ---
 UID: NF:ddeml.DdeFreeDataHandle
 title: DdeFreeDataHandle function (ddeml.h)
-description: Frees a Dynamic Data Exchange (DDE) object and deletes the data handle associated with the object.helpviewer_keywords: ["DdeFreeDataHandle","DdeFreeDataHandle function [Data Exchange]","_win32_DdeFreeDataHandle","_win32_ddefreedatahandle_cpp","dataxchg.ddefreedatahandle","ddeml/DdeFreeDataHandle","winui._win32_ddefreedatahandle"]
+description: Frees a Dynamic Data Exchange (DDE) object and deletes the data handle associated with the object.
+helpviewer_keywords: ["DdeFreeDataHandle","DdeFreeDataHandle function [Data Exchange]","_win32_DdeFreeDataHandle","_win32_ddefreedatahandle_cpp","dataxchg.ddefreedatahandle","ddeml/DdeFreeDataHandle","winui._win32_ddefreedatahandle"]
 old-location: dataxchg\ddefreedatahandle.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddefreedatahandle.htm

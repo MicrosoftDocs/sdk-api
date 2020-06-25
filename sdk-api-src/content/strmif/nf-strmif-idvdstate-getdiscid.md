@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdState.GetDiscID
 title: IDvdState::GetDiscID (strmif.h)
-description: The GetDiscID method retrieves the unique ID of the disc from which the bookmark was made.helpviewer_keywords: ["GetDiscID","GetDiscID method [DirectShow]","GetDiscID method [DirectShow]","IDvdState interface","IDvdState interface [DirectShow]","GetDiscID method","IDvdState.GetDiscID","IDvdState::GetDiscID","IDvdStateGetDiscID","dshow.idvdstate_getdiscid","strmif/IDvdState::GetDiscID"]
+description: The GetDiscID method retrieves the unique ID of the disc from which the bookmark was made.
+helpviewer_keywords: ["GetDiscID","GetDiscID method [DirectShow]","GetDiscID method [DirectShow]","IDvdState interface","IDvdState interface [DirectShow]","GetDiscID method","IDvdState.GetDiscID","IDvdState::GetDiscID","IDvdStateGetDiscID","dshow.idvdstate_getdiscid","strmif/IDvdState::GetDiscID"]
 old-location: dshow\idvdstate_getdiscid.htm
 tech.root: DirectShow
 ms.assetid: 1a3d8dba-4281-4385-b48f-d9d1b1134676

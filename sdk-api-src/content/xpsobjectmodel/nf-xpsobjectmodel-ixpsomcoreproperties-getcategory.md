@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetCategory
 title: IXpsOMCoreProperties::GetCategory (xpsobjectmodel.h)
-description: Gets the category property.helpviewer_keywords: ["GetCategory","GetCategory method [XPS Documents and Packaging]","GetCategory method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetCategory method","IXpsOMCoreProperties.GetCategory","IXpsOMCoreProperties::GetCategory","xps.ixpsomcoreproperties_getcategory","xpsobjectmodel/IXpsOMCoreProperties::GetCategory"]
+description: Gets the category property.
+helpviewer_keywords: ["GetCategory","GetCategory method [XPS Documents and Packaging]","GetCategory method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetCategory method","IXpsOMCoreProperties.GetCategory","IXpsOMCoreProperties::GetCategory","xps.ixpsomcoreproperties_getcategory","xpsobjectmodel/IXpsOMCoreProperties::GetCategory"]
 old-location: xps\ixpsomcoreproperties_getcategory.htm
 tech.root: printdocs
 ms.assetid: 97b1b0ca-a2e7-4835-aece-c2cc23481530

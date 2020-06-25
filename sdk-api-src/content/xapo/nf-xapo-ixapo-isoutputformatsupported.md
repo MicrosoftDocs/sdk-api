@@ -1,7 +1,8 @@
 ---
 UID: NF:xapo.IXAPO.IsOutputFormatSupported
 title: IXAPO::IsOutputFormatSupported (xapo.h)
-description: Queries if a specific output format is supported for a given input format.helpviewer_keywords: ["IXAPO interface [XAudio2 Audio Mixing APIs]","IsOutputFormatSupported method","IXAPO.IsOutputFormatSupported","IXAPO::IsOutputFormatSupported","IsOutputFormatSupported","IsOutputFormatSupported method [XAudio2 Audio Mixing APIs]","IsOutputFormatSupported method [XAudio2 Audio Mixing APIs]","IXAPO interface","xapo/IXAPO::IsOutputFormatSupported","xaudio2.ixapo_interface_isoutputformatsupported"]
+description: Queries if a specific output format is supported for a given input format.
+helpviewer_keywords: ["IXAPO interface [XAudio2 Audio Mixing APIs]","IsOutputFormatSupported method","IXAPO.IsOutputFormatSupported","IXAPO::IsOutputFormatSupported","IsOutputFormatSupported","IsOutputFormatSupported method [XAudio2 Audio Mixing APIs]","IsOutputFormatSupported method [XAudio2 Audio Mixing APIs]","IXAPO interface","xapo/IXAPO::IsOutputFormatSupported","xaudio2.ixapo_interface_isoutputformatsupported"]
 old-location: xaudio2\ixapo_interface_isoutputformatsupported.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.IsOutputFormatSupported(const WAVEFORMATEX,const WAVEFORMATEX,WAVEFORMATEX@)

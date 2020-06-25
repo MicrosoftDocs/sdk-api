@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GdiFlush
 title: GdiFlush function (wingdi.h)
-description: The GdiFlush function flushes the calling thread's current batch.helpviewer_keywords: ["GdiFlush","GdiFlush function [Windows GDI]","_win32_GdiFlush","gdi.gdiflush","wingdi/GdiFlush"]
+description: The GdiFlush function flushes the calling thread's current batch.
+helpviewer_keywords: ["GdiFlush","GdiFlush function [Windows GDI]","_win32_GdiFlush","gdi.gdiflush","wingdi/GdiFlush"]
 old-location: gdi\gdiflush.htm
 tech.root: gdi
 ms.assetid: 6d2f398d-7a30-4b14-81de-23ab10e1749c

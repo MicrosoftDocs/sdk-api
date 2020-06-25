@@ -1,7 +1,8 @@
 ---
 UID: NF:effects.IWMPEffects.GetCapabilities
 title: IWMPEffects::GetCapabilities (effects.h)
-description: The GetCapabilities method gets the capabilities of the visualization.helpviewer_keywords: ["EffectsGetCapabilities","GetCapabilities","GetCapabilities method [Windows Media Player]","GetCapabilities method [Windows Media Player]","IWMPEffects interface","IWMPEffects interface [Windows Media Player]","GetCapabilities method","IWMPEffects.GetCapabilities","IWMPEffects::GetCapabilities","effects/IWMPEffects::GetCapabilities","wmp.iwmpeffects_getcapabilities"]
+description: The GetCapabilities method gets the capabilities of the visualization.
+helpviewer_keywords: ["EffectsGetCapabilities","GetCapabilities","GetCapabilities method [Windows Media Player]","GetCapabilities method [Windows Media Player]","IWMPEffects interface","IWMPEffects interface [Windows Media Player]","GetCapabilities method","IWMPEffects.GetCapabilities","IWMPEffects::GetCapabilities","effects/IWMPEffects::GetCapabilities","wmp.iwmpeffects_getcapabilities"]
 old-location: wmp\iwmpeffects_getcapabilities.htm
 tech.root: WMP
 ms.assetid: e2efb0cd-417f-4b96-a4d7-c02c41a6244d

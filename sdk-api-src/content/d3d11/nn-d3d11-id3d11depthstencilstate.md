@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11.ID3D11DepthStencilState
 title: ID3D11DepthStencilState (d3d11.h)
-description: The depth-stencil-state interface holds a description for depth-stencil state that you can bind to the output-merger stage.helpviewer_keywords: ["ID3D11DepthStencilState","ID3D11DepthStencilState interface [Direct3D 11]","ID3D11DepthStencilState interface [Direct3D 11]","described","d3d11/ID3D11DepthStencilState","direct3d11.id3d11depthstencilstate","f7092d61-0b1d-daf2-0e96-635da5ebc121"]
+description: The depth-stencil-state interface holds a description for depth-stencil state that you can bind to the output-merger stage.
+helpviewer_keywords: ["ID3D11DepthStencilState","ID3D11DepthStencilState interface [Direct3D 11]","ID3D11DepthStencilState interface [Direct3D 11]","described","d3d11/ID3D11DepthStencilState","direct3d11.id3d11depthstencilstate","f7092d61-0b1d-daf2-0e96-635da5ebc121"]
 old-location: direct3d11\id3d11depthstencilstate.htm
 tech.root: direct3d11
 ms.assetid: cac22076-2ba6-4ab1-918e-8c9a7773acf6

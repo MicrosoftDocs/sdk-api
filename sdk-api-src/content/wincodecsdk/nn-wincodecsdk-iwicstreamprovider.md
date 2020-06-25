@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodecsdk.IWICStreamProvider
 title: IWICStreamProvider (wincodecsdk.h)
-description: Exposes methods for a stream provider.helpviewer_keywords: ["IWICStreamProvider","IWICStreamProvider interface [Windows Imaging Component]","IWICStreamProvider interface [Windows Imaging Component]","described","_wic_codec_iwicstreamprovider","wic._wic_codec_iwicstreamprovider","wincodecsdk/IWICStreamProvider"]
+description: Exposes methods for a stream provider.
+helpviewer_keywords: ["IWICStreamProvider","IWICStreamProvider interface [Windows Imaging Component]","IWICStreamProvider interface [Windows Imaging Component]","described","_wic_codec_iwicstreamprovider","wic._wic_codec_iwicstreamprovider","wincodecsdk/IWICStreamProvider"]
 old-location: wic\_wic_codec_iwicstreamprovider.htm
 tech.root: wic
 ms.assetid: fdcaf668-a5c3-4852-8bc9-5535f0756592

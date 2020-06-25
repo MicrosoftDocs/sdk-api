@@ -1,7 +1,8 @@
 ---
 UID: NF:amvideo.IQualProp.get_Jitter
 title: IQualProp::get_Jitter (amvideo.h)
-description: The get_Jitter method gets the jitter (variation in time) between successive frames delivered to the video renderer.helpviewer_keywords: ["IQualProp interface [DirectShow]","get_Jitter method","IQualProp.get_Jitter","IQualProp::get_Jitter","IQualPropget_Jitter","amvideo/IQualProp::get_Jitter","dshow.iqualprop_get_jitter","get_Jitter","get_Jitter method [DirectShow]","get_Jitter method [DirectShow]","IQualProp interface"]
+description: The get_Jitter method gets the jitter (variation in time) between successive frames delivered to the video renderer.
+helpviewer_keywords: ["IQualProp interface [DirectShow]","get_Jitter method","IQualProp.get_Jitter","IQualProp::get_Jitter","IQualPropget_Jitter","amvideo/IQualProp::get_Jitter","dshow.iqualprop_get_jitter","get_Jitter","get_Jitter method [DirectShow]","get_Jitter method [DirectShow]","IQualProp interface"]
 old-location: dshow\iqualprop_get_jitter.htm
 tech.root: DirectShow
 ms.assetid: e1f6e93f-58d6-41b4-b16f-e9f02bfec0fe

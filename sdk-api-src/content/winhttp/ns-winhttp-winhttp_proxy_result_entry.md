@@ -1,7 +1,8 @@
 ---
 UID: NS:winhttp._WINHTTP_PROXY_RESULT_ENTRY
 title: WINHTTP_PROXY_RESULT_ENTRY (winhttp.h)
-description: The WINHTTP_PROXY_RESULT_ENTRY structure contains a result entry from a call to WinHttpGetProxyResult.helpviewer_keywords: ["WINHTTP_PROXY_RESULT_ENTRY","WINHTTP_PROXY_RESULT_ENTRY structure [HTTP]","http.winhttp_proxy_result_entry","winhttp/WINHTTP_PROXY_RESULT_ENTRY"]
+description: The WINHTTP_PROXY_RESULT_ENTRY structure contains a result entry from a call to WinHttpGetProxyResult.
+helpviewer_keywords: ["WINHTTP_PROXY_RESULT_ENTRY","WINHTTP_PROXY_RESULT_ENTRY structure [HTTP]","http.winhttp_proxy_result_entry","winhttp/WINHTTP_PROXY_RESULT_ENTRY"]
 old-location: http\winhttp_proxy_result_entry.htm
 tech.root: WinHttp
 ms.assetid: d1652b34-67a9-40ad-a495-836147e5cc88

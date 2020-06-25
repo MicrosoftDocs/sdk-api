@@ -1,7 +1,8 @@
 ---
 UID: NF:msime.IFEDictionary.SetHeader
 title: IFEDictionary::SetHeader (msime.h)
-description: Sets a dictionary header in a dictionary file.helpviewer_keywords: ["IFEDictionary interface [Internationalization for Windows Applications]","SetHeader method","IFEDictionary.SetHeader","IFEDictionary::SetHeader","SetHeader","SetHeader method [Internationalization for Windows Applications]","SetHeader method [Internationalization for Windows Applications]","IFEDictionary interface","intl.ifedictionary_setheader","msime/IFEDictionary::SetHeader"]
+description: Sets a dictionary header in a dictionary file.
+helpviewer_keywords: ["IFEDictionary interface [Internationalization for Windows Applications]","SetHeader method","IFEDictionary.SetHeader","IFEDictionary::SetHeader","SetHeader","SetHeader method [Internationalization for Windows Applications]","SetHeader method [Internationalization for Windows Applications]","IFEDictionary interface","intl.ifedictionary_setheader","msime/IFEDictionary::SetHeader"]
 old-location: intl\ifedictionary_setheader.htm
 tech.root: Intl
 ms.assetid: 8666DDE7-D90E-4423-984B-EF526FC34320

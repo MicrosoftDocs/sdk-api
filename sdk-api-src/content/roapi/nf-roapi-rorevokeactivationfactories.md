@@ -1,7 +1,8 @@
 ---
 UID: NF:roapi.RoRevokeActivationFactories
 title: RoRevokeActivationFactories function (roapi.h)
-description: Removes an array of registered activation factories from the Windows Runtime.helpviewer_keywords: ["RoRevokeActivationFactories","RoRevokeActivationFactories function [Windows Runtime]","WinRTRevokeActivationFactories","roapi/RoRevokeActivationFactories","roapi/WinRTRevokeActivationFactories","winrt.rorevokeactivationfactories","winrt.winrtrevokeactivationfactories"]
+description: Removes an array of registered activation factories from the Windows Runtime.
+helpviewer_keywords: ["RoRevokeActivationFactories","RoRevokeActivationFactories function [Windows Runtime]","WinRTRevokeActivationFactories","roapi/RoRevokeActivationFactories","roapi/WinRTRevokeActivationFactories","winrt.rorevokeactivationfactories","winrt.winrtrevokeactivationfactories"]
 old-location: winrt\rorevokeactivationfactories.htm
 tech.root: WinRT
 ms.assetid: 0311bd92-3b12-46bc-a21d-13bd57a2c545

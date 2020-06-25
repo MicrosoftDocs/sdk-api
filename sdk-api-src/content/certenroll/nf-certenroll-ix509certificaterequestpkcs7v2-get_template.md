@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs7V2.get_Template
 title: IX509CertificateRequestPkcs7V2::get_Template (certenroll.h)
-description: Retrieves the certificate request template used during initialization.helpviewer_keywords: ["IX509CertificateRequestPkcs7V2 interface [Security]","Template property","IX509CertificateRequestPkcs7V2.Template","IX509CertificateRequestPkcs7V2.get_Template","IX509CertificateRequestPkcs7V2::Template","IX509CertificateRequestPkcs7V2::get_Template","Template property [Security]","Template property [Security]","IX509CertificateRequestPkcs7V2 interface","certenroll/IX509CertificateRequestPkcs7V2::Template","certenroll/IX509CertificateRequestPkcs7V2::get_Template","get_Template","security.ix509certificaterequestpkcs7v2_template"]
+description: Retrieves the certificate request template used during initialization.
+helpviewer_keywords: ["IX509CertificateRequestPkcs7V2 interface [Security]","Template property","IX509CertificateRequestPkcs7V2.Template","IX509CertificateRequestPkcs7V2.get_Template","IX509CertificateRequestPkcs7V2::Template","IX509CertificateRequestPkcs7V2::get_Template","Template property [Security]","Template property [Security]","IX509CertificateRequestPkcs7V2 interface","certenroll/IX509CertificateRequestPkcs7V2::Template","certenroll/IX509CertificateRequestPkcs7V2::get_Template","get_Template","security.ix509certificaterequestpkcs7v2_template"]
 old-location: security\ix509certificaterequestpkcs7v2_template.htm
 tech.root: seccertenroll
 ms.assetid: 8d19360f-de6b-40a9-a82b-6d8dace686b6

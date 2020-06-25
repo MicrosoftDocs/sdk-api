@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.CVssWriter.Subscribe
 title: CVssWriter::Subscribe (vswriter.h)
-description: The Subscribe method subscribes the writer with VSS.helpviewer_keywords: ["CVssWriter interface [VSS]","Subscribe method","CVssWriter.Subscribe","CVssWriter::Subscribe","Subscribe","Subscribe method [VSS]","Subscribe method [VSS]","CVssWriter interface","_win32_cvsswriter_subscribe","base.cvsswriter_subscribe","vswriter/CVssWriter::Subscribe"]
+description: The Subscribe method subscribes the writer with VSS.
+helpviewer_keywords: ["CVssWriter interface [VSS]","Subscribe method","CVssWriter.Subscribe","CVssWriter::Subscribe","Subscribe","Subscribe method [VSS]","Subscribe method [VSS]","CVssWriter interface","_win32_cvsswriter_subscribe","base.cvsswriter_subscribe","vswriter/CVssWriter::Subscribe"]
 old-location: base\cvsswriter_subscribe.htm
 tech.root: VSS
 ms.assetid: ab9520c9-bd6b-4c81-87fc-f5cda6ee9c94

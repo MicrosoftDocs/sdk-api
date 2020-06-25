@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetNameFromToken
 title: IMetaDataImport::GetNameFromToken (rometadataapi.h)
-description: Gets the UTF-8 name of the object referenced by the specified metadata token. This method is obsolete.helpviewer_keywords: ["GetNameFromToken","GetNameFromToken method [Windows Runtime]","GetNameFromToken method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetNameFromToken method","IMetaDataImport.GetNameFromToken","IMetaDataImport::GetNameFromToken","rometadataapi/IMetaDataImport::GetNameFromToken","winrt.imetadataimport_getnamefromtoken"]
+description: Gets the UTF-8 name of the object referenced by the specified metadata token. This method is obsolete.
+helpviewer_keywords: ["GetNameFromToken","GetNameFromToken method [Windows Runtime]","GetNameFromToken method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetNameFromToken method","IMetaDataImport.GetNameFromToken","IMetaDataImport::GetNameFromToken","rometadataapi/IMetaDataImport::GetNameFromToken","winrt.imetadataimport_getnamefromtoken"]
 old-location: winrt\imetadataimport_getnamefromtoken.htm
 tech.root: WinRT
 ms.assetid: 933d502a-c752-45ae-b51f-8c0a876856bc

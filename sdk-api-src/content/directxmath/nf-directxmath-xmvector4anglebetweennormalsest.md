@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector4AngleBetweenNormalsEst
 title: XMVector4AngleBetweenNormalsEst function (directxmath.h)
-description: Estimates the radian angle between two normalized 4D vectors.helpviewer_keywords: ["Use DirectX..XMVector4AngleBetweenNormalsEst","XMVector4AngleBetweenNormalsEst","XMVector4AngleBetweenNormalsEst method [DirectX Math Support APIs]","dxmath.xmvector4anglebetweennormalsest"]
+description: Estimates the radian angle between two normalized 4D vectors.
+helpviewer_keywords: ["Use DirectX..XMVector4AngleBetweenNormalsEst","XMVector4AngleBetweenNormalsEst","XMVector4AngleBetweenNormalsEst method [DirectX Math Support APIs]","dxmath.xmvector4anglebetweennormalsest"]
 old-location: dxmath\xmvector4anglebetweennormalsest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector4AngleBetweenNormalsEst(XMVECTOR,XMVECTOR)

@@ -1,7 +1,8 @@
 ---
 UID: NS:directxmath.XMINT4
 title: XMINT4 (directxmath.h)
-description: A 4D vector where each component is a signed integer.helpviewer_keywords: ["XMINT4","XMINT4 structure [DirectX Math Support APIs]","directxmath/XMINT4","dxmath.xmint4"]
+description: A 4D vector where each component is a signed integer.
+helpviewer_keywords: ["XMINT4","XMINT4 structure [DirectX Math Support APIs]","directxmath/XMINT4","dxmath.xmint4"]
 old-location: dxmath\xmint4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMINT4

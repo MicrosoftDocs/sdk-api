@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromUInt32Vector
 title: InitPropVariantFromUInt32Vector function (propvarutil.h)
-description: Initializes a PROPVARIANT structure based on a vector of 32-bit unsigned integer values.helpviewer_keywords: ["InitPropVariantFromUInt32Vector","InitPropVariantFromUInt32Vector function [Windows Properties]","properties.InitPropVariantFromUInt32Vector","propvarutil/InitPropVariantFromUInt32Vector","shell.InitPropVariantFromUInt32Vector","shell_InitPropVariantFromUInt32Vector"]
+description: Initializes a PROPVARIANT structure based on a vector of 32-bit unsigned integer values.
+helpviewer_keywords: ["InitPropVariantFromUInt32Vector","InitPropVariantFromUInt32Vector function [Windows Properties]","properties.InitPropVariantFromUInt32Vector","propvarutil/InitPropVariantFromUInt32Vector","shell.InitPropVariantFromUInt32Vector","shell_InitPropVariantFromUInt32Vector"]
 old-location: properties\InitPropVariantFromUInt32Vector.htm
 tech.root: properties
 ms.assetid: 807793fc-c679-4749-816c-005a77a37f08

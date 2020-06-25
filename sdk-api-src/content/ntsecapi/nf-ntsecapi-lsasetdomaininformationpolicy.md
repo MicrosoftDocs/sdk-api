@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaSetDomainInformationPolicy
 title: LsaSetDomainInformationPolicy function (ntsecapi.h)
-description: Sets domain information to the Policyobject.helpviewer_keywords: ["LsaSetDomainInformationPolicy","LsaSetDomainInformationPolicy function [Security]","PolicyDomainEfsInformation","PolicyDomainKerberosTicketInformation","ntsecapi/LsaSetDomainInformationPolicy","security.lsasetdomaininformationpolicy"]
+description: Sets domain information to the Policyobject.
+helpviewer_keywords: ["LsaSetDomainInformationPolicy","LsaSetDomainInformationPolicy function [Security]","PolicyDomainEfsInformation","PolicyDomainKerberosTicketInformation","ntsecapi/LsaSetDomainInformationPolicy","security.lsasetdomaininformationpolicy"]
 old-location: security\lsasetdomaininformationpolicy.htm
 tech.root: SecAuthN
 ms.assetid: 77af6fdc-a52e-476c-9de2-36ee48133a87

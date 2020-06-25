@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.FindFirstFileExW
 title: FindFirstFileExW function (fileapi.h)
-description: Searches a directory for a file or subdirectory with a name and attributes that match those specified.helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE","FIND_FIRST_EX_LARGE_FETCH","FIND_FIRST_EX_ON_DISK_ENTRIES_ONLY","FindFirstFileEx","FindFirstFileEx function [Files]","FindFirstFileExA","FindFirstFileExW","_win32_findfirstfileex","base.findfirstfileex","fileapi/FindFirstFileEx","fileapi/FindFirstFileExA","fileapi/FindFirstFileExW","fs.findfirstfileex","winbase/FindFirstFileEx","winbase/FindFirstFileExA","winbase/FindFirstFileExW"]
+description: Searches a directory for a file or subdirectory with a name and attributes that match those specified.
+helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE","FIND_FIRST_EX_LARGE_FETCH","FIND_FIRST_EX_ON_DISK_ENTRIES_ONLY","FindFirstFileEx","FindFirstFileEx function [Files]","FindFirstFileExA","FindFirstFileExW","_win32_findfirstfileex","base.findfirstfileex","fileapi/FindFirstFileEx","fileapi/FindFirstFileExA","fileapi/FindFirstFileExW","fs.findfirstfileex","winbase/FindFirstFileEx","winbase/FindFirstFileExA","winbase/FindFirstFileExW"]
 old-location: fs\findfirstfileex.htm
 tech.root: FileIO
 ms.assetid: 9f40e98f-153f-4b65-afd9-06742684c100
@@ -403,6 +404,10 @@ void _tmain(int argc, TCHAR *argv[])
 
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines FindFirstFileEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

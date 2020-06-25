@@ -1,7 +1,8 @@
 ---
 UID: NN:msrdc.IRdcSignatureReader
 title: IRdcSignatureReader (msrdc.h)
-description: Reads the signatures and the parameters used to generate the signatures.helpviewer_keywords: ["IRdcSignatureReader","IRdcSignatureReader interface [Remote Differential Compression]","IRdcSignatureReader interface [Remote Differential Compression]","described","fs.irdcsignaturereader","msrdc/IRdcSignatureReader","rdc.irdcsignaturereader"]
+description: Reads the signatures and the parameters used to generate the signatures.
+helpviewer_keywords: ["IRdcSignatureReader","IRdcSignatureReader interface [Remote Differential Compression]","IRdcSignatureReader interface [Remote Differential Compression]","described","fs.irdcsignaturereader","msrdc/IRdcSignatureReader","rdc.irdcsignaturereader"]
 old-location: rdc\irdcsignaturereader.htm
 tech.root: rdc
 ms.assetid: dec6eb10-1243-4888-9ccc-ab1f4cfb11e7

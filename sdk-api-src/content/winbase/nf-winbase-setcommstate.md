@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.SetCommState
 title: SetCommState function (winbase.h)
-description: Configures a communications device according to the specifications in a device-control block (a DCB structure). The function reinitializes all hardware and control settings, but it does not empty output or input queues.helpviewer_keywords: ["SetCommState","SetCommState function","_win32_setcommstate","base.setcommstate","winbase/SetCommState"]
+description: Configures a communications device according to the specifications in a device-control block (a DCB structure). The function reinitializes all hardware and control settings, but it does not empty output or input queues.
+helpviewer_keywords: ["SetCommState","SetCommState function","_win32_setcommstate","base.setcommstate","winbase/SetCommState"]
 old-location: base\setcommstate.htm
 tech.root: devio
 ms.assetid: a9296514-4789-4830-ba68-84a16ac7fc47

@@ -1,7 +1,8 @@
 ---
 UID: NF:strsafe.StringCchGetsExW
 title: StringCchGetsExW function (strsafe.h)
-description: Gets one line of text from stdin, up to and including the newline character ('\n').helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchGetsEx","StringCchGetsEx function [Menus and Other Resources]","StringCchGetsExA","StringCchGetsExW","_shell_StringCchGetsEx","_shell_stringcchgetsex_cpp","menurc.stringcchgetsex","strsafe/StringCchGetsEx","strsafe/StringCchGetsExA","strsafe/StringCchGetsExW","winui._shell_stringcchgetsex"]
+description: Gets one line of text from stdin, up to and including the newline character ('\n').
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchGetsEx","StringCchGetsEx function [Menus and Other Resources]","StringCchGetsExA","StringCchGetsExW","_shell_StringCchGetsEx","_shell_stringcchgetsex_cpp","menurc.stringcchgetsex","strsafe/StringCchGetsEx","strsafe/StringCchGetsExA","strsafe/StringCchGetsExW","winui._shell_stringcchgetsex"]
 old-location: menurc\stringcchgetsex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchgetsex.htm
@@ -264,6 +265,10 @@ The value of <i>pszDest</i> should not be <b>NULL</b> unless the <b>STRSAFE_IGNO
 
 
 
+
+
+> [!NOTE]
+> The strsafe.h header defines StringCchGetsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

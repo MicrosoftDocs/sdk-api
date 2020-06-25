@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetGammaCorrection
 title: PathGradientBrush::SetGammaCorrection (gdipluspath.h)
-description: The PathGradientBrush::SetGammaCorrection method specifies whether gamma correction is enabled for this path gradient brush.helpviewer_keywords: ["PathGradientBrush class [GDI+]","SetGammaCorrection method","PathGradientBrush.SetGammaCorrection","PathGradientBrush::SetGammaCorrection","SetGammaCorrection","SetGammaCorrection method [GDI+]","SetGammaCorrection method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_SetGammaCorrection_useGammaCorrection_","gdiplus._gdiplus_CLASS_PathGradientBrush_SetGammaCorrection_useGammaCorrection_"]
+description: The PathGradientBrush::SetGammaCorrection method specifies whether gamma correction is enabled for this path gradient brush.
+helpviewer_keywords: ["PathGradientBrush class [GDI+]","SetGammaCorrection method","PathGradientBrush.SetGammaCorrection","PathGradientBrush::SetGammaCorrection","SetGammaCorrection","SetGammaCorrection method [GDI+]","SetGammaCorrection method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_SetGammaCorrection_useGammaCorrection_","gdiplus._gdiplus_CLASS_PathGradientBrush_SetGammaCorrection_useGammaCorrection_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetGammaCorrection_useGammaCorrection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setgammacorrection_7usegammacorrection.htm

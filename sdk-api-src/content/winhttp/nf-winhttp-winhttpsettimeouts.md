@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpSetTimeouts
 title: WinHttpSetTimeouts function (winhttp.h)
-description: Sets time-outs involved with HTTP transactions.helpviewer_keywords: ["WinHttpSetTimeouts","WinHttpSetTimeouts function [WinHTTP]","http.winhttpsettimeouts","winhttp.winhttpsettimeouts_function","winhttp/WinHttpSetTimeouts"]
+description: Sets time-outs involved with HTTP transactions.
+helpviewer_keywords: ["WinHttpSetTimeouts","WinHttpSetTimeouts function [WinHTTP]","http.winhttpsettimeouts","winhttp.winhttpsettimeouts_function","winhttp/WinHttpSetTimeouts"]
 old-location: http\winhttpsettimeouts.htm
 tech.root: WinHttp
 ms.assetid: e31fee78-44bd-41cd-a181-bb3c0418b469

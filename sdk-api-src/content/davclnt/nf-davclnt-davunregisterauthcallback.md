@@ -1,7 +1,8 @@
 ---
 UID: NF:davclnt.DavUnregisterAuthCallback
 title: DavUnregisterAuthCallback function (davclnt.h)
-description: Unregisters a registered callback function that the WebDAV client uses to prompt the user for credentials.helpviewer_keywords: ["DavUnregisterAuthCallback","DavUnregisterAuthCallback function [WebDAV]","davclnt/DavUnregisterAuthCallback","webdav.davunregisterauthcallback"]
+description: Unregisters a registered callback function that the WebDAV client uses to prompt the user for credentials.
+helpviewer_keywords: ["DavUnregisterAuthCallback","DavUnregisterAuthCallback function [WebDAV]","davclnt/DavUnregisterAuthCallback","webdav.davunregisterauthcallback"]
 old-location: webdav\davunregisterauthcallback.htm
 tech.root: WebDAV
 ms.assetid: 5277d9ce-22e6-49d5-9a9c-c02993605bdf

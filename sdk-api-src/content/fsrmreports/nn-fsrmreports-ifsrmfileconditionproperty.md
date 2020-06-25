@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmreports.IFsrmFileConditionProperty
 title: IFsrmFileConditionProperty (fsrmreports.h)
-description: Defines a file condition property.helpviewer_keywords: ["IFsrmFileConditionProperty","IFsrmFileConditionProperty interface [File Server Resource Manager]","IFsrmFileConditionProperty interface [File Server Resource Manager]","described","fs.ifsrmfileconditionproperty","fsrm.ifsrmfileconditionproperty","fsrmreports/IFsrmFileConditionProperty"]
+description: Defines a file condition property.
+helpviewer_keywords: ["IFsrmFileConditionProperty","IFsrmFileConditionProperty interface [File Server Resource Manager]","IFsrmFileConditionProperty interface [File Server Resource Manager]","described","fs.ifsrmfileconditionproperty","fsrm.ifsrmfileconditionproperty","fsrmreports/IFsrmFileConditionProperty"]
 old-location: fsrm\ifsrmfileconditionproperty.htm
 tech.root: fsrm
 ms.assetid: 460819db-0ac2-4008-8dfb-f0edc69bb478

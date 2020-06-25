@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetStorageGlobals
 title: IWMDMStorage::GetStorageGlobals (mswmdm.h)
-description: The GetStorageGlobals method retrieves the IWMDMStorageGlobals interface of the root storage of this storage.helpviewer_keywords: ["GetStorageGlobals","GetStorageGlobals method [windows Media Device Manager]","GetStorageGlobals method [windows Media Device Manager]","IWMDMStorage interface","IWMDMStorage interface [windows Media Device Manager]","GetStorageGlobals method","IWMDMStorage.GetStorageGlobals","IWMDMStorage::GetStorageGlobals","IWMDMStorageGetStorageGlobals","mswmdm/IWMDMStorage::GetStorageGlobals","wmdm.iwmdmstorage_getstorageglobals"]
+description: The GetStorageGlobals method retrieves the IWMDMStorageGlobals interface of the root storage of this storage.
+helpviewer_keywords: ["GetStorageGlobals","GetStorageGlobals method [windows Media Device Manager]","GetStorageGlobals method [windows Media Device Manager]","IWMDMStorage interface","IWMDMStorage interface [windows Media Device Manager]","GetStorageGlobals method","IWMDMStorage.GetStorageGlobals","IWMDMStorage::GetStorageGlobals","IWMDMStorageGetStorageGlobals","mswmdm/IWMDMStorage::GetStorageGlobals","wmdm.iwmdmstorage_getstorageglobals"]
 old-location: wmdm\iwmdmstorage_getstorageglobals.htm
 tech.root: WMDM
 ms.assetid: 0203f881-f838-412b-a796-42f946513c65

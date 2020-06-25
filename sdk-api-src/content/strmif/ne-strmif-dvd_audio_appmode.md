@@ -1,7 +1,8 @@
 ---
 UID: NE:strmif.tagDVD_AUDIO_APPMODE
 title: DVD_AUDIO_APPMODE (strmif.h)
-description: Indicates the current audio mode as retrieved in a call to IDvdInfo2::GetAudioAttributes.helpviewer_keywords: ["DVD_AUDIO_APPMODE","DVD_AUDIO_APPMODE","DVD_AUDIO_APPMODE enumeration [DirectShow]","DVD_AUDIO_APPMODEEnumeration","DVD_AudioMode_Karaoke","DVD_AudioMode_None","DVD_AudioMode_Other","DVD_AudioMode_Surround","dshow.dvd_audio_appmode","strmif/DVD_AUDIO_APPMODE","strmif/DVD_AudioMode_Karaoke","strmif/DVD_AudioMode_None","strmif/DVD_AudioMode_Other","strmif/DVD_AudioMode_Surround"]
+description: Indicates the current audio mode as retrieved in a call to IDvdInfo2::GetAudioAttributes.
+helpviewer_keywords: ["DVD_AUDIO_APPMODE","DVD_AUDIO_APPMODE","DVD_AUDIO_APPMODE enumeration [DirectShow]","DVD_AUDIO_APPMODEEnumeration","DVD_AudioMode_Karaoke","DVD_AudioMode_None","DVD_AudioMode_Other","DVD_AudioMode_Surround","dshow.dvd_audio_appmode","strmif/DVD_AUDIO_APPMODE","strmif/DVD_AudioMode_Karaoke","strmif/DVD_AudioMode_None","strmif/DVD_AudioMode_Other","strmif/DVD_AudioMode_Surround"]
 old-location: dshow\dvd_audio_appmode.htm
 tech.root: DirectShow
 ms.assetid: 900fd812-7ca0-4dd8-bb30-3c8eff136939

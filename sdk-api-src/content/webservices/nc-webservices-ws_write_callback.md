@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_WRITE_CALLBACK
 title: WS_WRITE_CALLBACK (webservices.h)
-description: Used by the WS_XML_WRITER function to write a specified buffer to a user-determined destination.helpviewer_keywords: ["WS_WRITE_CALLBACK","WS_WRITE_CALLBACK callback","WS_WRITE_CALLBACK callback function [Web Services for Windows]","webservices/WS_WRITE_CALLBACK","wsw.ws_write_callback"]
+description: Used by the WS_XML_WRITER function to write a specified buffer to a user-determined destination.
+helpviewer_keywords: ["WS_WRITE_CALLBACK","WS_WRITE_CALLBACK callback","WS_WRITE_CALLBACK callback function [Web Services for Windows]","webservices/WS_WRITE_CALLBACK","wsw.ws_write_callback"]
 old-location: wsw\ws_write_callback.htm
 tech.root: wsw
 ms.assetid: 8d106ac2-226d-4e0c-8f14-8d3e17f15548

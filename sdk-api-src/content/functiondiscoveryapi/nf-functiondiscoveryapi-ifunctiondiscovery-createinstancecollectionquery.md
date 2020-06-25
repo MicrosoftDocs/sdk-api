@@ -1,7 +1,8 @@
 ---
 UID: NF:functiondiscoveryapi.IFunctionDiscovery.CreateInstanceCollectionQuery
 title: IFunctionDiscovery::CreateInstanceCollectionQuery (functiondiscoveryapi.h)
-description: Creates a query for a collection of specific function instances.helpviewer_keywords: ["CreateInstanceCollectionQuery","CreateInstanceCollectionQuery method","CreateInstanceCollectionQuery method","IFunctionDiscovery interface","IFunctionDiscovery interface","CreateInstanceCollectionQuery method","IFunctionDiscovery.CreateInstanceCollectionQuery","IFunctionDiscovery::CreateInstanceCollectionQuery","functiondiscoveryapi/IFunctionDiscovery::CreateInstanceCollectionQuery","ncd.ifunctiondiscovery_createinstancecollectionquery_method"]
+description: Creates a query for a collection of specific function instances.
+helpviewer_keywords: ["CreateInstanceCollectionQuery","CreateInstanceCollectionQuery method","CreateInstanceCollectionQuery method","IFunctionDiscovery interface","IFunctionDiscovery interface","CreateInstanceCollectionQuery method","IFunctionDiscovery.CreateInstanceCollectionQuery","IFunctionDiscovery::CreateInstanceCollectionQuery","functiondiscoveryapi/IFunctionDiscovery::CreateInstanceCollectionQuery","ncd.ifunctiondiscovery_createinstancecollectionquery_method"]
 old-location: ncd\ifunctiondiscovery_createinstancecollectionquery_method.htm
 tech.root: FunDisc
 ms.assetid: 46f74e55-8060-4f02-85e3-dbd2fc8fce78

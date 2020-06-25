@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.SetStartPoint(const D2D1_INK_POINT &)
 title: ID2D1Ink::SetStartPoint(const D2D1_INK_POINT &) (d2d1_3.h)
-description: Sets the starting point for this ink object. This determines where this ink object will start rendering.helpviewer_keywords: ["ID2D1Ink interface [Direct2D]","SetStartPoint method","ID2D1Ink.SetStartPoint","ID2D1Ink.SetStartPoint(const D2D1_INK_POINT &)","ID2D1Ink::SetStartPoint","ID2D1Ink::SetStartPoint(const D2D1_INK_POINT &)","SetStartPoint","SetStartPoint method [Direct2D]","SetStartPoint method [Direct2D]","ID2D1Ink interface","d2d1_3/ID2D1Ink::SetStartPoint","direct2d.id2d1ink_setstartpoint_2"]
+description: Sets the starting point for this ink object. This determines where this ink object will start rendering.
+helpviewer_keywords: ["ID2D1Ink interface [Direct2D]","SetStartPoint method","ID2D1Ink.SetStartPoint","ID2D1Ink.SetStartPoint(const D2D1_INK_POINT &)","ID2D1Ink::SetStartPoint","ID2D1Ink::SetStartPoint(const D2D1_INK_POINT &)","SetStartPoint","SetStartPoint method [Direct2D]","SetStartPoint method [Direct2D]","ID2D1Ink interface","d2d1_3/ID2D1Ink::SetStartPoint","direct2d.id2d1ink_setstartpoint_2"]
 old-location: direct2d\id2d1ink_setstartpoint_2.htm
 tech.root: Direct2D
 ms.assetid: 4B8E8AEB-DD8A-4ADF-9ECB-C1BDA4009021

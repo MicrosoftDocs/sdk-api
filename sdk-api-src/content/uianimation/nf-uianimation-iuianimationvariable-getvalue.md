@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationVariable.GetValue
 title: IUIAnimationVariable::GetValue (uianimation.h)
-description: Gets the current value of the animation variable.helpviewer_keywords: ["GetValue","GetValue method [Windows Animation]","GetValue method [Windows Animation]","IUIAnimationVariable interface","IUIAnimationVariable interface [Windows Animation]","GetValue method","IUIAnimationVariable.GetValue","IUIAnimationVariable::GetValue","uianimation.iuianimationvariable_getvalue","uianimation/IUIAnimationVariable::GetValue"]
+description: Gets the current value of the animation variable.
+helpviewer_keywords: ["GetValue","GetValue method [Windows Animation]","GetValue method [Windows Animation]","IUIAnimationVariable interface","IUIAnimationVariable interface [Windows Animation]","GetValue method","IUIAnimationVariable.GetValue","IUIAnimationVariable::GetValue","uianimation.iuianimationvariable_getvalue","uianimation/IUIAnimationVariable::GetValue"]
 old-location: uianimation\iuianimationvariable_getvalue.htm
 tech.root: UIAnimation
 ms.assetid: 51ae200a-a630-44fd-afd4-33d1b1dbf6d7

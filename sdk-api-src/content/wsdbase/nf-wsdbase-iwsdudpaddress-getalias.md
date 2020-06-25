@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.GetAlias
 title: IWSDUdpAddress::GetAlias (wsdbase.h)
-description: Gets the alias for the discovery address.helpviewer_keywords: ["GetAlias","GetAlias method","GetAlias method","IWSDUdpAddress interface","IWSDUdpAddress interface","GetAlias method","IWSDUdpAddress.GetAlias","IWSDUdpAddress::GetAlias","ncd.iwsdudpaddress_getalias","wsdbase/IWSDUdpAddress::GetAlias"]
+description: Gets the alias for the discovery address.
+helpviewer_keywords: ["GetAlias","GetAlias method","GetAlias method","IWSDUdpAddress interface","IWSDUdpAddress interface","GetAlias method","IWSDUdpAddress.GetAlias","IWSDUdpAddress::GetAlias","ncd.iwsdudpaddress_getalias","wsdbase/IWSDUdpAddress::GetAlias"]
 old-location: ncd\iwsdudpaddress_getalias.htm
 tech.root: WsdApi
 ms.assetid: c11a7e39-6df1-411b-9992-6ce869b0db69

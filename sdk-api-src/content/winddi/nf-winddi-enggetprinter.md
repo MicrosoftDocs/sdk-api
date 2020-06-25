@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngGetPrinter
 title: EngGetPrinter function (winddi.h)
-description: The EngGetPrinter function retrieves information about the specified printer.helpviewer_keywords: ["EngGetPrinter","EngGetPrinter function [Display Devices]","display.enggetprinter","gdifncs_6e95ce51-f1ca-4e44-b26d-b677ace5e297.xml","winddi/EngGetPrinter"]
+description: The EngGetPrinter function retrieves information about the specified printer.
+helpviewer_keywords: ["EngGetPrinter","EngGetPrinter function [Display Devices]","display.enggetprinter","gdifncs_6e95ce51-f1ca-4e44-b26d-b677ace5e297.xml","winddi/EngGetPrinter"]
 old-location: display\enggetprinter.htm
 tech.root: display
 ms.assetid: dd492777-48a2-4fb6-9202-a2af3b632678

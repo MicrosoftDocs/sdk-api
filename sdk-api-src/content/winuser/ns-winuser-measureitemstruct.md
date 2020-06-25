@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagMEASUREITEMSTRUCT
 title: MEASUREITEMSTRUCT (winuser.h)
-description: Informs the system of the dimensions of an owner-drawn control or menu item. This allows the system to process user interaction with the control correctly.helpviewer_keywords: ["*LPMEASUREITEMSTRUCT","*PMEASUREITEMSTRUCT","MEASUREITEMSTRUCT","MEASUREITEMSTRUCT structure [Windows Controls]","ODT_COMBOBOX","ODT_LISTBOX","ODT_LISTVIEW","ODT_MENU","_win32_MEASUREITEMSTRUCT_str","_win32_MEASUREITEMSTRUCT_str_cpp","controls.MEASUREITEMSTRUCT","controls._win32_MEASUREITEMSTRUCT_str","winuser/MEASUREITEMSTRUCT"]
+description: Informs the system of the dimensions of an owner-drawn control or menu item. This allows the system to process user interaction with the control correctly.
+helpviewer_keywords: ["*LPMEASUREITEMSTRUCT","*PMEASUREITEMSTRUCT","MEASUREITEMSTRUCT","MEASUREITEMSTRUCT structure [Windows Controls]","ODT_COMBOBOX","ODT_LISTBOX","ODT_LISTVIEW","ODT_MENU","_win32_MEASUREITEMSTRUCT_str","_win32_MEASUREITEMSTRUCT_str_cpp","controls.MEASUREITEMSTRUCT","controls._win32_MEASUREITEMSTRUCT_str","winuser/MEASUREITEMSTRUCT"]
 old-location: controls\MEASUREITEMSTRUCT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\measureitemstruct.htm

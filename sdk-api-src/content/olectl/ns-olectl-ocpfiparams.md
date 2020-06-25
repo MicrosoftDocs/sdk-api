@@ -1,7 +1,8 @@
 ---
 UID: NS:olectl.tagOCPFIPARAMS
 title: OCPFIPARAMS (olectl.h)
-description: Contains parameters used to invoke a property sheet dialog box through the OleCreatePropertyFrameIndirect function.helpviewer_keywords: ["*LPOCPFIPARAMS","LPOCPFIPARAMS","LPOCPFIPARAMS structure pointer [COM]","OCPFIPARAMS","OCPFIPARAMS structure [COM]","_ctrl_OCPFIPARAMS","com.ocpfiparams","olectl/LPOCPFIPARAMS","olectl/OCPFIPARAMS"]
+description: Contains parameters used to invoke a property sheet dialog box through the OleCreatePropertyFrameIndirect function.
+helpviewer_keywords: ["*LPOCPFIPARAMS","LPOCPFIPARAMS","LPOCPFIPARAMS structure pointer [COM]","OCPFIPARAMS","OCPFIPARAMS structure [COM]","_ctrl_OCPFIPARAMS","com.ocpfiparams","olectl/LPOCPFIPARAMS","olectl/OCPFIPARAMS"]
 old-location: com\ocpfiparams.htm
 tech.root: com
 ms.assetid: d65d8239-495c-4eee-bd9c-8e803fd09a06

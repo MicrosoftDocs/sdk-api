@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509NameValuePair.get_Name
 title: IX509NameValuePair::get_Name (certenroll.h)
-description: Retrieves the name portion of the name-value pair.helpviewer_keywords: ["IX509NameValuePair interface [Security]","Name property","IX509NameValuePair.Name","IX509NameValuePair.get_Name","IX509NameValuePair::Name","IX509NameValuePair::get_Name","Name property [Security]","Name property [Security]","IX509NameValuePair interface","certenroll/IX509NameValuePair::Name","certenroll/IX509NameValuePair::get_Name","get_Name","security.ix509namevaluepair_name_property"]
+description: Retrieves the name portion of the name-value pair.
+helpviewer_keywords: ["IX509NameValuePair interface [Security]","Name property","IX509NameValuePair.Name","IX509NameValuePair.get_Name","IX509NameValuePair::Name","IX509NameValuePair::get_Name","Name property [Security]","Name property [Security]","IX509NameValuePair interface","certenroll/IX509NameValuePair::Name","certenroll/IX509NameValuePair::get_Name","get_Name","security.ix509namevaluepair_name_property"]
 old-location: security\ix509namevaluepair_name_property.htm
 tech.root: seccertenroll
 ms.assetid: 2a124fe7-7f28-4911-b5fe-2c98b4187723

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.ColorBalance.GetParameters
 title: ColorBalance::GetParameters (gdipluseffects.h)
-description: The ColorBalance::GetParameters method gets the current values of the parameters of this ColorBalance object.helpviewer_keywords: ["ColorBalance class [GDI+]","GetParameters method","ColorBalance.GetParameters","ColorBalance::GetParameters","GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","ColorBalance class","_gdiplus_CLASS_ColorBalance_GetParameters_","gdiplus._gdiplus_CLASS_ColorBalance_GetParameters_"]
+description: The ColorBalance::GetParameters method gets the current values of the parameters of this ColorBalance object.
+helpviewer_keywords: ["ColorBalance class [GDI+]","GetParameters method","ColorBalance.GetParameters","ColorBalance::GetParameters","GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","ColorBalance class","_gdiplus_CLASS_ColorBalance_GetParameters_","gdiplus._gdiplus_CLASS_ColorBalance_GetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_ColorBalance_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalanceclass\colorbalancemethods\getparameters.htm

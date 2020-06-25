@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_SegmentMaxSize
 title: IDataCollectorSet::get_SegmentMaxSize (pla.h)
-description: Retrieves or sets the maximum size of any log file in the data collector set.helpviewer_keywords: ["IDataCollectorSet interface [PLA]","SegmentMaxSize property","IDataCollectorSet.SegmentMaxSize","IDataCollectorSet.get_SegmentMaxSize","IDataCollectorSet::SegmentMaxSize","IDataCollectorSet::get_SegmentMaxSize","IDataCollectorSet::put_SegmentMaxSize","SegmentMaxSize property [PLA]","SegmentMaxSize property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_segmentmaxsize","get_SegmentMaxSize","pla.idatacollectorset_get_segmentmaxsize","pla/IDataCollectorSet::SegmentMaxSize","pla/IDataCollectorSet::get_SegmentMaxSize","pla/IDataCollectorSet::put_SegmentMaxSize"]
+description: Retrieves or sets the maximum size of any log file in the data collector set.
+helpviewer_keywords: ["IDataCollectorSet interface [PLA]","SegmentMaxSize property","IDataCollectorSet.SegmentMaxSize","IDataCollectorSet.get_SegmentMaxSize","IDataCollectorSet::SegmentMaxSize","IDataCollectorSet::get_SegmentMaxSize","IDataCollectorSet::put_SegmentMaxSize","SegmentMaxSize property [PLA]","SegmentMaxSize property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_segmentmaxsize","get_SegmentMaxSize","pla.idatacollectorset_get_segmentmaxsize","pla/IDataCollectorSet::SegmentMaxSize","pla/IDataCollectorSet::get_SegmentMaxSize","pla/IDataCollectorSet::put_SegmentMaxSize"]
 old-location: pla\idatacollectorset_get_segmentmaxsize.htm
 tech.root: PLA
 ms.assetid: 7dd96822-a398-42c3-94f1-b9cd7a647575

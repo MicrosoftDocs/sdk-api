@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetworkCostManagerEvents.DataPlanStatusChanged
 title: INetworkCostManagerEvents::DataPlanStatusChanged (netlistmgr.h)
-description: DataPlanStatusChanged method is called to indicate a change to the status of a data plan associated with either a connection used for machine-wide Internet connectivity, or the first-hop of routing to a specific destination on a connection.helpviewer_keywords: ["DataPlanStatusChanged","DataPlanStatusChanged method [Network Awareness]","DataPlanStatusChanged method [Network Awareness]","INetworkCostManagerEvents interface","INetworkCostManagerEvents interface [Network Awareness]","DataPlanStatusChanged method","INetworkCostManagerEvents.DataPlanStatusChanged","INetworkCostManagerEvents::DataPlanStatusChanged","netlistmgr/INetworkCostManagerEvents::DataPlanStatusChanged","nla.inetworkcostmanagerevents_dataplanstatuschanged"]
+description: DataPlanStatusChanged method is called to indicate a change to the status of a data plan associated with either a connection used for machine-wide Internet connectivity, or the first-hop of routing to a specific destination on a connection.
+helpviewer_keywords: ["DataPlanStatusChanged","DataPlanStatusChanged method [Network Awareness]","DataPlanStatusChanged method [Network Awareness]","INetworkCostManagerEvents interface","INetworkCostManagerEvents interface [Network Awareness]","DataPlanStatusChanged method","INetworkCostManagerEvents.DataPlanStatusChanged","INetworkCostManagerEvents::DataPlanStatusChanged","netlistmgr/INetworkCostManagerEvents::DataPlanStatusChanged","nla.inetworkcostmanagerevents_dataplanstatuschanged"]
 old-location: nla\inetworkcostmanagerevents_dataplanstatuschanged.htm
 tech.root: nla
 ms.assetid: A9908F22-A9E9-4C05-A434-57D0C433EA3E

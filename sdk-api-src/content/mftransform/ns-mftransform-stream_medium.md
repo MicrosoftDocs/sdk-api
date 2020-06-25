@@ -1,7 +1,8 @@
 ---
 UID: NS:mftransform._STREAM_MEDIUM
 title: STREAM_MEDIUM (mftransform.h)
-description: Not for application use.helpviewer_keywords: ["*PSTREAM_MEDIUM","PSTREAM_MEDIUM","PSTREAM_MEDIUM structure pointer [Media Foundation]","STREAM_MEDIUM","STREAM_MEDIUM structure [Media Foundation]","mf.stream_medium","mftransform/PSTREAM_MEDIUM","mftransform/STREAM_MEDIUM"]
+description: Not for application use.
+helpviewer_keywords: ["*PSTREAM_MEDIUM","PSTREAM_MEDIUM","PSTREAM_MEDIUM structure pointer [Media Foundation]","STREAM_MEDIUM","STREAM_MEDIUM structure [Media Foundation]","mf.stream_medium","mftransform/PSTREAM_MEDIUM","mftransform/STREAM_MEDIUM"]
 old-location: mf\stream_medium.htm
 tech.root: medfound
 ms.assetid: c3e3fd40-f6e6-4e43-927f-5dff4169a52c

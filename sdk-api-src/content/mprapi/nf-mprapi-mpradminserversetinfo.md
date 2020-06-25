@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminServerSetInfo
 title: MprAdminServerSetInfo function (mprapi.h)
-description: The MprAdminServerSetInfo function is used to set the number of ports for L2TP, PPTP, and SSTP devices when the RRAS service is running.helpviewer_keywords: ["MprAdminServerSetInfo","MprAdminServerSetInfo function [RAS]","mprapi/MprAdminServerSetInfo","rras.mpradminserversetinfo"]
+description: The MprAdminServerSetInfo function is used to set the number of ports for L2TP, PPTP, and SSTP devices when the RRAS service is running.
+helpviewer_keywords: ["MprAdminServerSetInfo","MprAdminServerSetInfo function [RAS]","mprapi/MprAdminServerSetInfo","rras.mpradminserversetinfo"]
 old-location: rras\mpradminserversetinfo.htm
 tech.root: RRAS
 ms.assetid: 37187f6f-388e-47d6-83a8-92c2f69f71d9

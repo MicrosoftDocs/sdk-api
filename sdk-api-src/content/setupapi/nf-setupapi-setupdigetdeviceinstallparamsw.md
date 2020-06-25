@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInstallParamsW
 title: SetupDiGetDeviceInstallParamsW function (setupapi.h)
-description: The SetupDiGetDeviceInstallParams function retrieves device installation parameters for a device information set or a particular device information element.helpviewer_keywords: ["SetupDiGetDeviceInstallParams","SetupDiGetDeviceInstallParams function [Device and Driver Installation]","SetupDiGetDeviceInstallParamsA","SetupDiGetDeviceInstallParamsW","devinst.setupdigetdeviceinstallparams","di-rtns_417ee0d9-f9c6-44a2-b4b4-4787fe9e952b.xml","setupapi/SetupDiGetDeviceInstallParams"]
+description: The SetupDiGetDeviceInstallParams function retrieves device installation parameters for a device information set or a particular device information element.
+helpviewer_keywords: ["SetupDiGetDeviceInstallParams","SetupDiGetDeviceInstallParams function [Device and Driver Installation]","SetupDiGetDeviceInstallParamsA","SetupDiGetDeviceInstallParamsW","devinst.setupdigetdeviceinstallparams","di-rtns_417ee0d9-f9c6-44a2-b4b4-4787fe9e952b.xml","setupapi/SetupDiGetDeviceInstallParams"]
 old-location: devinst\setupdigetdeviceinstallparams.htm
 tech.root: devinst
 ms.assetid: e5e8c203-cf71-4cb4-a7a8-5af3a2483eea
@@ -100,4 +101,9 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetDeviceInstallParams as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.ISchemaLocalizerSupport.Localize
 title: ISchemaLocalizerSupport::Localize (structuredquery.h)
-description: Localizes keywords from an input string.helpviewer_keywords: ["ISchemaLocalizerSupport interface [search]","Localize method","ISchemaLocalizerSupport.Localize","ISchemaLocalizerSupport::Localize","Localize","Localize method [search]","Localize method [search]","ISchemaLocalizerSupport interface","_search_ISchemaLocalizerSupport_Localize","search._search_ISchemaLocalizerSupport_Localize","structuredquery/ISchemaLocalizerSupport::Localize"]
+description: Localizes keywords from an input string.
+helpviewer_keywords: ["ISchemaLocalizerSupport interface [search]","Localize method","ISchemaLocalizerSupport.Localize","ISchemaLocalizerSupport::Localize","Localize","Localize method [search]","Localize method [search]","ISchemaLocalizerSupport interface","_search_ISchemaLocalizerSupport_Localize","search._search_ISchemaLocalizerSupport_Localize","structuredquery/ISchemaLocalizerSupport::Localize"]
 old-location: search\_search_ISchemaLocalizerSupport_Localize.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemalocalizersupport\localize.htm

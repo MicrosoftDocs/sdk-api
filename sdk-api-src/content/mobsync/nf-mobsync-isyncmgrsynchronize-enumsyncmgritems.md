@@ -1,7 +1,8 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.EnumSyncMgrItems
 title: ISyncMgrSynchronize::EnumSyncMgrItems (mobsync.h)
-description: Obtains the ISyncMgrEnumItems interface for the items that are handled by a registered application.helpviewer_keywords: ["EnumSyncMgrItems","EnumSyncMgrItems method [Windows Shell]","EnumSyncMgrItems method [Windows Shell]","ISyncMgrSynchronize interface","ISyncMgrSynchronize interface [Windows Shell]","EnumSyncMgrItems method","ISyncMgrSynchronize.EnumSyncMgrItems","ISyncMgrSynchronize::EnumSyncMgrItems","mobsync/ISyncMgrSynchronize::EnumSyncMgrItems","shell.syncmgr_isyncmgrsynchronize_enumsyncmgritems","syncmgr.isyncmgrsynchronize_enumsyncmgritems"]
+description: Obtains the ISyncMgrEnumItems interface for the items that are handled by a registered application.
+helpviewer_keywords: ["EnumSyncMgrItems","EnumSyncMgrItems method [Windows Shell]","EnumSyncMgrItems method [Windows Shell]","ISyncMgrSynchronize interface","ISyncMgrSynchronize interface [Windows Shell]","EnumSyncMgrItems method","ISyncMgrSynchronize.EnumSyncMgrItems","ISyncMgrSynchronize::EnumSyncMgrItems","mobsync/ISyncMgrSynchronize::EnumSyncMgrItems","shell.syncmgr_isyncmgrsynchronize_enumsyncmgritems","syncmgr.isyncmgrsynchronize_enumsyncmgritems"]
 old-location: shell\syncmgr_isyncmgrsynchronize_enumsyncmgritems.htm
 tech.root: shell
 ms.assetid: 75f6ce68-237f-4228-adcf-f5ec929f49a7

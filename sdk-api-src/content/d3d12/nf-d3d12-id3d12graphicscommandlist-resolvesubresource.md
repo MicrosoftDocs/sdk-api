@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResolveSubresource
 title: ID3D12GraphicsCommandList::ResolveSubresource (d3d12.h)
-description: Copy a multi-sampled resource into a non-multi-sampled resource.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","ResolveSubresource method","ID3D12GraphicsCommandList.ResolveSubresource","ID3D12GraphicsCommandList::ResolveSubresource","ResolveSubresource","ResolveSubresource method","ResolveSubresource method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::ResolveSubresource","direct3d12.id3d12graphicscommandlist_resolvesubresource"]
+description: Copy a multi-sampled resource into a non-multi-sampled resource.
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","ResolveSubresource method","ID3D12GraphicsCommandList.ResolveSubresource","ID3D12GraphicsCommandList::ResolveSubresource","ResolveSubresource","ResolveSubresource method","ResolveSubresource method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::ResolveSubresource","direct3d12.id3d12graphicscommandlist_resolvesubresource"]
 old-location: direct3d12\id3d12graphicscommandlist_resolvesubresource.htm
 tech.root: direct3d12
 ms.assetid: F1D4BAD1-B08E-47D0-9D2B-41873D6B4456

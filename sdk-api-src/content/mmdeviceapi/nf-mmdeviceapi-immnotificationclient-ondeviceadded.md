@@ -1,7 +1,8 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDeviceAdded
 title: IMMNotificationClient::OnDeviceAdded (mmdeviceapi.h)
-description: The OnDeviceAdded method indicates that a new audio endpoint device has been added.helpviewer_keywords: ["IMMNotificationClient interface [Core Audio]","OnDeviceAdded method","IMMNotificationClient.OnDeviceAdded","IMMNotificationClient::OnDeviceAdded","IMMNotificationClientOnDeviceAdded","OnDeviceAdded","OnDeviceAdded method [Core Audio]","OnDeviceAdded method [Core Audio]","IMMNotificationClient interface","coreaudio.immnotificationclient_ondeviceadded","mmdeviceapi/IMMNotificationClient::OnDeviceAdded"]
+description: The OnDeviceAdded method indicates that a new audio endpoint device has been added.
+helpviewer_keywords: ["IMMNotificationClient interface [Core Audio]","OnDeviceAdded method","IMMNotificationClient.OnDeviceAdded","IMMNotificationClient::OnDeviceAdded","IMMNotificationClientOnDeviceAdded","OnDeviceAdded","OnDeviceAdded method [Core Audio]","OnDeviceAdded method [Core Audio]","IMMNotificationClient interface","coreaudio.immnotificationclient_ondeviceadded","mmdeviceapi/IMMNotificationClient::OnDeviceAdded"]
 old-location: coreaudio\immnotificationclient_ondeviceadded.htm
 tech.root: CoreAudio
 ms.assetid: c839493d-e53c-4afe-b53d-af9d1a6f2965

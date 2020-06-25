@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IEnterpriseDropTarget.IsEvaluatingEdpPolicy
 title: IEnterpriseDropTarget::IsEvaluatingEdpPolicy (oleidl.h)
-description: Indicates whether the drop target is intends to handle the evaluation of the enterprise protection policy.helpviewer_keywords: ["IEnterpriseDropTarget interface [COM]","IsEvaluatingEdpPolicy method","IEnterpriseDropTarget.IsEvaluatingEdpPolicy","IEnterpriseDropTarget::IsEvaluatingEdpPolicy","IsEvaluatingEdpPolicy","IsEvaluatingEdpPolicy method [COM]","IsEvaluatingEdpPolicy method [COM]","IEnterpriseDropTarget interface","com.isevaluatingedppolicy_isevaluatingedppolicy","com.isevaluatingedppolicy_requestaccessforappwithmessageforwindowasync","oleidl/IEnterpriseDropTarget::IsEvaluatingEdpPolicy"]
+description: Indicates whether the drop target is intends to handle the evaluation of the enterprise protection policy.
+helpviewer_keywords: ["IEnterpriseDropTarget interface [COM]","IsEvaluatingEdpPolicy method","IEnterpriseDropTarget.IsEvaluatingEdpPolicy","IEnterpriseDropTarget::IsEvaluatingEdpPolicy","IsEvaluatingEdpPolicy","IsEvaluatingEdpPolicy method [COM]","IsEvaluatingEdpPolicy method [COM]","IEnterpriseDropTarget interface","com.isevaluatingedppolicy_isevaluatingedppolicy","com.isevaluatingedppolicy_requestaccessforappwithmessageforwindowasync","oleidl/IEnterpriseDropTarget::IsEvaluatingEdpPolicy"]
 old-location: com\isevaluatingedppolicy_isevaluatingedppolicy.htm
 tech.root: com
 ms.assetid: EB28FF02-E747-4898-AEEF-811BAF7A6DBC

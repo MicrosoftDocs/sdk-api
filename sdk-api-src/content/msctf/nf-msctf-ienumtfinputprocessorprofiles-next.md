@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Next
 title: IEnumTfInputProcessorProfiles::Next (msctf.h)
-description: The IEnumTfInputProcessorProfiles::Next method obtains, from the current position, the specified number of elements in the enumeration sequence.helpviewer_keywords: ["IEnumTfInputProcessorProfiles interface [Text Services Framework]","Next method","IEnumTfInputProcessorProfiles.Next","IEnumTfInputProcessorProfiles::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfInputProcessorProfiles interface","msctf/IEnumTfInputProcessorProfiles::Next","tsf.ienumtfinputprocessorprofiles_next"]
+description: The IEnumTfInputProcessorProfiles::Next method obtains, from the current position, the specified number of elements in the enumeration sequence.
+helpviewer_keywords: ["IEnumTfInputProcessorProfiles interface [Text Services Framework]","Next method","IEnumTfInputProcessorProfiles.Next","IEnumTfInputProcessorProfiles::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfInputProcessorProfiles interface","msctf/IEnumTfInputProcessorProfiles::Next","tsf.ienumtfinputprocessorprofiles_next"]
 old-location: tsf\ienumtfinputprocessorprofiles_next.htm
 tech.root: TSF
 ms.assetid: b936c479-a5f1-47a3-bd5a-f1b83cd84dc0

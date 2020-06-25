@@ -1,7 +1,8 @@
 ---
 UID: NN:netfw.INetFwPolicy
 title: INetFwPolicy (netfw.h)
-description: The INetFwPolicy interface provides access to a firewall policy.helpviewer_keywords: ["INetFwPolicy","INetFwPolicy interface [ICS/ICF]","INetFwPolicy interface [ICS/ICF]","described","ics.inetfwpolicy","netfw/INetFwPolicy"]
+description: The INetFwPolicy interface provides access to a firewall policy.
+helpviewer_keywords: ["INetFwPolicy","INetFwPolicy interface [ICS/ICF]","INetFwPolicy interface [ICS/ICF]","described","ics.inetfwpolicy","netfw/INetFwPolicy"]
 old-location: ics\inetfwpolicy.htm
 tech.root: ics
 ms.assetid: 8bfe55b6-c38d-47f8-9160-a304a85eb67f

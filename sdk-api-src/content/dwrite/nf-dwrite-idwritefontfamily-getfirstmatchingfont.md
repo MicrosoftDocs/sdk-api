@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFontFamily.GetFirstMatchingFont
 title: IDWriteFontFamily::GetFirstMatchingFont (dwrite.h)
-description: Gets the font that best matches the specified properties.helpviewer_keywords: ["GetFirstMatchingFont","GetFirstMatchingFont method [Direct Write]","GetFirstMatchingFont method [Direct Write]","IDWriteFontFamily interface","IDWriteFontFamily interface [Direct Write]","GetFirstMatchingFont method","IDWriteFontFamily.GetFirstMatchingFont","IDWriteFontFamily::GetFirstMatchingFont","directwrite.IDWriteFontFamily_GetFirstMatchingFont","dwrite/IDWriteFontFamily::GetFirstMatchingFont"]
+description: Gets the font that best matches the specified properties.
+helpviewer_keywords: ["GetFirstMatchingFont","GetFirstMatchingFont method [Direct Write]","GetFirstMatchingFont method [Direct Write]","IDWriteFontFamily interface","IDWriteFontFamily interface [Direct Write]","GetFirstMatchingFont method","IDWriteFontFamily.GetFirstMatchingFont","IDWriteFontFamily::GetFirstMatchingFont","directwrite.IDWriteFontFamily_GetFirstMatchingFont","dwrite/IDWriteFontFamily::GetFirstMatchingFont"]
 old-location: directwrite\IDWriteFontFamily_GetFirstMatchingFont.htm
 tech.root: DirectWrite
 ms.assetid: ba5836a5-87ca-43bf-bb18-4498ed2a9619

@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGISwapChain.GetFullscreenState
 title: IDXGISwapChain::GetFullscreenState (dxgi.h)
-description: Get the state associated with full-screen mode.helpviewer_keywords: ["GetFullscreenState","GetFullscreenState method [DXGI]","GetFullscreenState method [DXGI]","IDXGISwapChain interface","IDXGISwapChain interface [DXGI]","GetFullscreenState method","IDXGISwapChain.GetFullscreenState","IDXGISwapChain::GetFullscreenState","d3b177d7-2b70-fc90-2a07-3046eb5fdf48","direct3ddxgi.idxgiswapchain_getfullscreenstate","dxgi/IDXGISwapChain::GetFullscreenState"]
+description: Get the state associated with full-screen mode.
+helpviewer_keywords: ["GetFullscreenState","GetFullscreenState method [DXGI]","GetFullscreenState method [DXGI]","IDXGISwapChain interface","IDXGISwapChain interface [DXGI]","GetFullscreenState method","IDXGISwapChain.GetFullscreenState","IDXGISwapChain::GetFullscreenState","d3b177d7-2b70-fc90-2a07-3046eb5fdf48","direct3ddxgi.idxgiswapchain_getfullscreenstate","dxgi/IDXGISwapChain::GetFullscreenState"]
 old-location: direct3ddxgi\idxgiswapchain_getfullscreenstate.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiswapchain_getfullscreenstate.htm

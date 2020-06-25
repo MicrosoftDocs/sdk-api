@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.ConfigureAuthenticatedChannel
 title: ID3D11VideoContext::ConfigureAuthenticatedChannel (d3d11.h)
-description: Sends a configuration command to an authenticated channel.helpviewer_keywords: ["ConfigureAuthenticatedChannel","ConfigureAuthenticatedChannel method [Media Foundation]","ConfigureAuthenticatedChannel method [Media Foundation]","ID3D11VideoContext interface","ID3D11VideoContext interface [Media Foundation]","ConfigureAuthenticatedChannel method","ID3D11VideoContext.ConfigureAuthenticatedChannel","ID3D11VideoContext::ConfigureAuthenticatedChannel","d3d11/ID3D11VideoContext::ConfigureAuthenticatedChannel","mf.id3d11videocontext_configureauthenticatedchannel"]
+description: Sends a configuration command to an authenticated channel.
+helpviewer_keywords: ["ConfigureAuthenticatedChannel","ConfigureAuthenticatedChannel method [Media Foundation]","ConfigureAuthenticatedChannel method [Media Foundation]","ID3D11VideoContext interface","ID3D11VideoContext interface [Media Foundation]","ConfigureAuthenticatedChannel method","ID3D11VideoContext.ConfigureAuthenticatedChannel","ID3D11VideoContext::ConfigureAuthenticatedChannel","d3d11/ID3D11VideoContext::ConfigureAuthenticatedChannel","mf.id3d11videocontext_configureauthenticatedchannel"]
 old-location: mf\id3d11videocontext_configureauthenticatedchannel.htm
 tech.root: medfound
 ms.assetid: 6564EC13-A7B3-4A48-8776-4CD46BFF8E8F

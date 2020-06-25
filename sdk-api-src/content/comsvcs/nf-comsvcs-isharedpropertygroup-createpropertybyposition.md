@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ISharedPropertyGroup.CreatePropertyByPosition
 title: ISharedPropertyGroup::CreatePropertyByPosition (comsvcs.h)
-description: Creates a new shared property with the specified index.helpviewer_keywords: ["CreatePropertyByPosition","CreatePropertyByPosition method [COM+]","CreatePropertyByPosition method [COM+]","ISharedPropertyGroup interface","ISharedPropertyGroup interface [COM+]","CreatePropertyByPosition method","ISharedPropertyGroup.CreatePropertyByPosition","ISharedPropertyGroup::CreatePropertyByPosition","_cos_ISharedPropertyGroup_CreatePropertyByPosition","comsvcs/ISharedPropertyGroup::CreatePropertyByPosition","cos.isharedpropertygroup_createpropertybyposition"]
+description: Creates a new shared property with the specified index.
+helpviewer_keywords: ["CreatePropertyByPosition","CreatePropertyByPosition method [COM+]","CreatePropertyByPosition method [COM+]","ISharedPropertyGroup interface","ISharedPropertyGroup interface [COM+]","CreatePropertyByPosition method","ISharedPropertyGroup.CreatePropertyByPosition","ISharedPropertyGroup::CreatePropertyByPosition","_cos_ISharedPropertyGroup_CreatePropertyByPosition","comsvcs/ISharedPropertyGroup::CreatePropertyByPosition","cos.isharedpropertygroup_createpropertybyposition"]
 old-location: cos\isharedpropertygroup_createpropertybyposition.htm
 tech.root: cossdk
 ms.assetid: 47e0e230-0952-4afb-a757-af387a7cddfb

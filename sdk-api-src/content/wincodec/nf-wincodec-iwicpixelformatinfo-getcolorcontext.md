@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICPixelFormatInfo.GetColorContext
 title: IWICPixelFormatInfo::GetColorContext (wincodec.h)
-description: Gets the pixel format's IWICColorContext.helpviewer_keywords: ["GetColorContext","GetColorContext method [Windows Imaging Component]","GetColorContext method [Windows Imaging Component]","IWICPixelFormatInfo interface","IWICPixelFormatInfo interface [Windows Imaging Component]","GetColorContext method","IWICPixelFormatInfo.GetColorContext","IWICPixelFormatInfo::GetColorContext","_wic_codec_iwicpixelformatinfo_getcolorcontext","wic._wic_codec_iwicpixelformatinfo_getcolorcontext","wincodec/IWICPixelFormatInfo::GetColorContext"]
+description: Gets the pixel format's IWICColorContext.
+helpviewer_keywords: ["GetColorContext","GetColorContext method [Windows Imaging Component]","GetColorContext method [Windows Imaging Component]","IWICPixelFormatInfo interface","IWICPixelFormatInfo interface [Windows Imaging Component]","GetColorContext method","IWICPixelFormatInfo.GetColorContext","IWICPixelFormatInfo::GetColorContext","_wic_codec_iwicpixelformatinfo_getcolorcontext","wic._wic_codec_iwicpixelformatinfo_getcolorcontext","wincodec/IWICPixelFormatInfo::GetColorContext"]
 old-location: wic\_wic_codec_iwicpixelformatinfo_getcolorcontext.htm
 tech.root: wic
 ms.assetid: c35fc474-cbf5-4705-b0f1-a2e24a062a7a

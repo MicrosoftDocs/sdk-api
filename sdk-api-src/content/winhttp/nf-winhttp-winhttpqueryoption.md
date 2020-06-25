@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpQueryOption
 title: WinHttpQueryOption function (winhttp.h)
-description: The WinHttpQueryOption function queries an Internet option on the specified handle.helpviewer_keywords: ["WinHttpQueryOption","WinHttpQueryOption function [WinHTTP]","http.winhttpqueryoption","winhttp.winhttpqueryoption_function","winhttp/WinHttpQueryOption"]
+description: The WinHttpQueryOption function queries an Internet option on the specified handle.
+helpviewer_keywords: ["WinHttpQueryOption","WinHttpQueryOption function [WinHTTP]","http.winhttpqueryoption","winhttp.winhttpqueryoption_function","winhttp/WinHttpQueryOption"]
 old-location: http\winhttpqueryoption.htm
 tech.root: WinHttp
 ms.assetid: 47973eab-de70-47bf-9713-97b87a500cfa

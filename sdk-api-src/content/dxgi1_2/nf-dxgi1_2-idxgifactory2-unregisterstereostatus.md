@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.UnregisterStereoStatus
 title: IDXGIFactory2::UnregisterStereoStatus (dxgi1_2.h)
-description: Unregisters a window or an event to stop it from receiving notification when stereo status changes.helpviewer_keywords: ["IDXGIFactory2 interface [DXGI]","UnregisterStereoStatus method","IDXGIFactory2.UnregisterStereoStatus","IDXGIFactory2::UnregisterStereoStatus","UnregisterStereoStatus","UnregisterStereoStatus method [DXGI]","UnregisterStereoStatus method [DXGI]","IDXGIFactory2 interface","direct3ddxgi.idxgifactory2_UnregisterStereoStatus","dxgi1_2/IDXGIFactory2::UnregisterStereoStatus"]
+description: Unregisters a window or an event to stop it from receiving notification when stereo status changes.
+helpviewer_keywords: ["IDXGIFactory2 interface [DXGI]","UnregisterStereoStatus method","IDXGIFactory2.UnregisterStereoStatus","IDXGIFactory2::UnregisterStereoStatus","UnregisterStereoStatus","UnregisterStereoStatus method [DXGI]","UnregisterStereoStatus method [DXGI]","IDXGIFactory2 interface","direct3ddxgi.idxgifactory2_UnregisterStereoStatus","dxgi1_2/IDXGIFactory2::UnregisterStereoStatus"]
 old-location: direct3ddxgi\idxgifactory2_UnregisterStereoStatus.htm
 tech.root: direct3ddxgi
 ms.assetid: 8E3994C4-DA37-4D17-9F4D-C31E48CDE170

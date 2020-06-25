@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMDomain2
 title: IGPMDomain2 (gpmgmt.h)
-description: Represents a given domain and supports methods that allow you to query scope of management (SOM) objects, create, restore and query Starter GPOs, and create and query WMI filters when you are using the Group Policy Management Console (GPMC) interfaces.helpviewer_keywords: ["IGPMDomain2","IGPMDomain2 interface [GPMC]","IGPMDomain2 interface [GPMC]","described","gpmc.igpmdomain2","gpmgmt/IGPMDomain2"]
+description: Represents a given domain and supports methods that allow you to query scope of management (SOM) objects, create, restore and query Starter GPOs, and create and query WMI filters when you are using the Group Policy Management Console (GPMC) interfaces.
+helpviewer_keywords: ["IGPMDomain2","IGPMDomain2 interface [GPMC]","IGPMDomain2 interface [GPMC]","described","gpmc.igpmdomain2","gpmgmt/IGPMDomain2"]
 old-location: gpmc\igpmdomain2.htm
 tech.root: gpmc
 ms.assetid: 5abfea14-0cb9-46ea-915c-93a8d8b2477b

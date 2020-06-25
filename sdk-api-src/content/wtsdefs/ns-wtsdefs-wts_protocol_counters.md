@@ -1,7 +1,8 @@
 ---
 UID: NS:wtsdefs._WTS_PROTOCOL_COUNTERS
 title: WTS_PROTOCOL_COUNTERS (wtsdefs.h)
-description: Contains protocol performance counters.helpviewer_keywords: ["*PWTS_PROTOCOL_COUNTERS","PWRDS_PROTOCOL_COUNTERS","PWRDS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services]","PWTS_PROTOCOL_COUNTERS","PWTS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services]","WRDS_PROTOCOL_COUNTERS","WRDS_PROTOCOL_COUNTERS structure [Remote Desktop Services]","WTS_PROTOCOL_COUNTERS","WTS_PROTOCOL_COUNTERS structure [Remote Desktop Services]","termserv.wts_protocol_counters","wtsdefs/PWRDS_PROTOCOL_COUNTERS","wtsdefs/PWTS_PROTOCOL_COUNTERS","wtsdefs/WRDS_PROTOCOL_COUNTERS","wtsdefs/WTS_PROTOCOL_COUNTERS"]
+description: Contains protocol performance counters.
+helpviewer_keywords: ["*PWTS_PROTOCOL_COUNTERS","PWRDS_PROTOCOL_COUNTERS","PWRDS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services]","PWTS_PROTOCOL_COUNTERS","PWTS_PROTOCOL_COUNTERS structure pointer [Remote Desktop Services]","WRDS_PROTOCOL_COUNTERS","WRDS_PROTOCOL_COUNTERS structure [Remote Desktop Services]","WTS_PROTOCOL_COUNTERS","WTS_PROTOCOL_COUNTERS structure [Remote Desktop Services]","termserv.wts_protocol_counters","wtsdefs/PWRDS_PROTOCOL_COUNTERS","wtsdefs/PWTS_PROTOCOL_COUNTERS","wtsdefs/WRDS_PROTOCOL_COUNTERS","wtsdefs/WTS_PROTOCOL_COUNTERS"]
 old-location: termserv\wts_protocol_counters.htm
 tech.root: TermServ
 ms.assetid: 118c5e12-5436-4c0a-a31d-a60c5123e384

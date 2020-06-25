@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.EnumerateNtmsObject
 title: EnumerateNtmsObject function (ntmsapi.h)
-description: The EnumerateNtmsObject function enumerates the RSM objects contained in the lpContainerId parameter.helpviewer_keywords: ["EnumerateNtmsObject","EnumerateNtmsObject function [Files]","NTMS_CHANGER","NTMS_CHANGER_TYPE","NTMS_COMPUTER","NTMS_DRIVE","NTMS_DRIVE_TYPE","NTMS_ENUM_DEFAULT","NTMS_ENUM_ROOTPOOL","NTMS_IEDOOR","NTMS_IEPORT","NTMS_LIBRARY","NTMS_LIBREQUEST","NTMS_LOGICAL_MEDIA","NTMS_MEDIA_POOL","NTMS_MEDIA_TYPE","NTMS_OPREQUEST","NTMS_PARTITION","NTMS_PHYSICAL_MEDIA","NTMS_STORAGESLOT","_zaw_enumeratentmsobject","base.enumeratentmsobject","fs.enumeratentmsobject","ntmsapi/EnumerateNtmsObject"]
+description: The EnumerateNtmsObject function enumerates the RSM objects contained in the lpContainerId parameter.
+helpviewer_keywords: ["EnumerateNtmsObject","EnumerateNtmsObject function [Files]","NTMS_CHANGER","NTMS_CHANGER_TYPE","NTMS_COMPUTER","NTMS_DRIVE","NTMS_DRIVE_TYPE","NTMS_ENUM_DEFAULT","NTMS_ENUM_ROOTPOOL","NTMS_IEDOOR","NTMS_IEPORT","NTMS_LIBRARY","NTMS_LIBREQUEST","NTMS_LOGICAL_MEDIA","NTMS_MEDIA_POOL","NTMS_MEDIA_TYPE","NTMS_OPREQUEST","NTMS_PARTITION","NTMS_PHYSICAL_MEDIA","NTMS_STORAGESLOT","_zaw_enumeratentmsobject","base.enumeratentmsobject","fs.enumeratentmsobject","ntmsapi/EnumerateNtmsObject"]
 old-location: fs\enumeratentmsobject.htm
 tech.root: Rsm
 ms.assetid: bbbb2888-36f5-4667-90f0-088382ad32f5

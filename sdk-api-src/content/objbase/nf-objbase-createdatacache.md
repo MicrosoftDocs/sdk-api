@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.CreateDataCache
 title: CreateDataCache function (objbase.h)
-description: Retrieves a pointer to a new instance of an OLE-provided implementation of a data cache.helpviewer_keywords: ["CreateDataCache","CreateDataCache function [COM]","_ole_CreateDataCache","com.createdatacache","objbase/CreateDataCache"]
+description: Retrieves a pointer to a new instance of an OLE-provided implementation of a data cache.
+helpviewer_keywords: ["CreateDataCache","CreateDataCache function [COM]","_ole_CreateDataCache","com.createdatacache","objbase/CreateDataCache"]
 old-location: com\createdatacache.htm
 tech.root: com
 ms.assetid: 8a64675b-1337-4555-b9a6-e19f9b987ba2

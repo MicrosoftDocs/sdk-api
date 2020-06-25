@@ -1,7 +1,8 @@
 ---
 UID: NF:xinput.XInputSetState
 title: XInputSetState function (xinput.h)
-description: Sends data to a connected controller. This function is used to activate the vibration function of a controller.helpviewer_keywords: ["XInputSetState","XInputSetState function [XInput Game Controller APIs]","xinput.xinputsetstate","xinput/XInputSetState"]
+description: Sends data to a connected controller. This function is used to activate the vibration function of a controller.
+helpviewer_keywords: ["XInputSetState","XInputSetState function [XInput Game Controller APIs]","xinput.xinputsetstate","xinput/XInputSetState"]
 old-location: xinput\xinputsetstate.htm
 tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputSetState(DWORD,XINPUT_VIBRATION*@)

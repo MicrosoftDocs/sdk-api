@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Invoke
 title: IWSManSession::Invoke (wsmandisp.h)
-description: Invokes a method and returns the results of the method call.helpviewer_keywords: ["IWSManSession interface [Windows Remote Management]","Invoke method","IWSManSession.Invoke","IWSManSession::Invoke","Invoke","Invoke method [Windows Remote Management]","Invoke method [Windows Remote Management]","IWSManSession interface","winrm.iwsmansession_invoke","wsmandisp/IWSManSession::Invoke"]
+description: Invokes a method and returns the results of the method call.
+helpviewer_keywords: ["IWSManSession interface [Windows Remote Management]","Invoke method","IWSManSession.Invoke","IWSManSession::Invoke","Invoke","Invoke method [Windows Remote Management]","Invoke method [Windows Remote Management]","IWSManSession interface","winrm.iwsmansession_invoke","wsmandisp/IWSManSession::Invoke"]
 old-location: winrm\iwsmansession_invoke.htm
 tech.root: winrm
 ms.assetid: 3fdf769c-dc7e-4089-b781-be288855d5c1

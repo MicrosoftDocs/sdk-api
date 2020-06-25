@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.LoadCachedAttributes
 title: LoadCachedAttributes function (recapis.h)
-description: Loads the cached attributes of a recognizer.helpviewer_keywords: ["LoadCachedAttributes","LoadCachedAttributes function [Tablet PC]","recapis/LoadCachedAttributes","tablet.loadcachedattributes"]
+description: Loads the cached attributes of a recognizer.
+helpviewer_keywords: ["LoadCachedAttributes","LoadCachedAttributes function [Tablet PC]","recapis/LoadCachedAttributes","tablet.loadcachedattributes"]
 old-location: tablet\loadcachedattributes.htm
 tech.root: tablet
 ms.assetid: 19DC01B8-FB2C-4724-907A-E68A9DD37FF3

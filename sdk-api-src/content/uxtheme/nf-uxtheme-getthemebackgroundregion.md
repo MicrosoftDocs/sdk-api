@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeBackgroundRegion
 title: GetThemeBackgroundRegion function (uxtheme.h)
-description: Computes the region for a regular or partially transparent background that is bounded by a specified rectangle.helpviewer_keywords: ["GetThemeBackgroundRegion","GetThemeBackgroundRegion function [Windows Controls]","controls.GetThemeBackgroundRegion","controls.inet_GetThemeBackgroundRegion","inet_GetThemeBackgroundRegion","inet_GetThemeBackgroundRegion_cpp","uxtheme/GetThemeBackgroundRegion"]
+description: Computes the region for a regular or partially transparent background that is bounded by a specified rectangle.
+helpviewer_keywords: ["GetThemeBackgroundRegion","GetThemeBackgroundRegion function [Windows Controls]","controls.GetThemeBackgroundRegion","controls.inet_GetThemeBackgroundRegion","inet_GetThemeBackgroundRegion","inet_GetThemeBackgroundRegion_cpp","uxtheme/GetThemeBackgroundRegion"]
 old-location: controls\GetThemeBackgroundRegion.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemebackgroundregion.htm

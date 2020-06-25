@@ -1,7 +1,8 @@
 ---
 UID: NF:werapi.WerUnregisterFile
 title: WerUnregisterFile function (werapi.h)
-description: Removes a file from the list of files to be added to reports generated for the current process.helpviewer_keywords: ["WerUnregisterFile","WerUnregisterFile function [Windows Error Reporting]","base.werunregisterfile","wer.werunregisterfile","werapi/WerUnregisterFile"]
+description: Removes a file from the list of files to be added to reports generated for the current process.
+helpviewer_keywords: ["WerUnregisterFile","WerUnregisterFile function [Windows Error Reporting]","base.werunregisterfile","wer.werunregisterfile","werapi/WerUnregisterFile"]
 old-location: wer\werunregisterfile.htm
 tech.root: wer
 ms.assetid: 2b2684a4-3030-4fae-ad1c-a60d13d2c643

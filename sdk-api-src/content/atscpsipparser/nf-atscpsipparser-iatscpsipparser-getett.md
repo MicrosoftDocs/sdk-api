@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetETT
 title: IAtscPsipParser::GetETT (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetETT","GetETT method [Microsoft TV Technologies]","GetETT method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetETT method","IAtscPsipParser.GetETT","IAtscPsipParser::GetETT","IAtscPsipParserGetETT","atscpsipparser/IAtscPsipParser::GetETT","mstv.iatscpsipparser_getett"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetETT","GetETT method [Microsoft TV Technologies]","GetETT method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetETT method","IAtscPsipParser.GetETT","IAtscPsipParser::GetETT","IAtscPsipParserGetETT","atscpsipparser/IAtscPsipParser::GetETT","mstv.iatscpsipparser_getett"]
 old-location: mstv\iatscpsipparser_getett.htm
 tech.root: mstv
 ms.assetid: 6838620a-3dee-468e-bfc8-00757c06263e

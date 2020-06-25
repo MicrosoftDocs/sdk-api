@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.SetMuted
 title: IMFMediaEngine::SetMuted (mfmediaengine.h)
-description: Mutes or unmutes the audio.helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","SetMuted method","IMFMediaEngine.SetMuted","IMFMediaEngine::SetMuted","SetMuted","SetMuted method [Media Foundation]","SetMuted method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_setmuted","mfmediaengine/IMFMediaEngine::SetMuted"]
+description: Mutes or unmutes the audio.
+helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","SetMuted method","IMFMediaEngine.SetMuted","IMFMediaEngine::SetMuted","SetMuted","SetMuted method [Media Foundation]","SetMuted method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_setmuted","mfmediaengine/IMFMediaEngine::SetMuted"]
 old-location: mf\imfmediaengine_setmuted.htm
 tech.root: medfound
 ms.assetid: 330CB3CF-F649-4964-A24D-3C16E778BFD7

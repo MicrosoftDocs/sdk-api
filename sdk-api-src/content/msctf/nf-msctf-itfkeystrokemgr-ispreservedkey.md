@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.IsPreservedKey
 title: ITfKeystrokeMgr::IsPreservedKey (msctf.h)
-description: ITfKeystrokeMgr::IsPreservedKey methodhelpviewer_keywords: ["ITfKeystrokeMgr interface [Text Services Framework]","IsPreservedKey method","ITfKeystrokeMgr.IsPreservedKey","ITfKeystrokeMgr::IsPreservedKey","IsPreservedKey","IsPreservedKey method [Text Services Framework]","IsPreservedKey method [Text Services Framework]","ITfKeystrokeMgr interface","_tsf_itfkeystrokemgr_ispreservedkey_ref","msctf/ITfKeystrokeMgr::IsPreservedKey","tsf.itfkeystrokemgr_ispreservedkey"]
+description: ITfKeystrokeMgr::IsPreservedKey method
+helpviewer_keywords: ["ITfKeystrokeMgr interface [Text Services Framework]","IsPreservedKey method","ITfKeystrokeMgr.IsPreservedKey","ITfKeystrokeMgr::IsPreservedKey","IsPreservedKey","IsPreservedKey method [Text Services Framework]","IsPreservedKey method [Text Services Framework]","ITfKeystrokeMgr interface","_tsf_itfkeystrokemgr_ispreservedkey_ref","msctf/ITfKeystrokeMgr::IsPreservedKey","tsf.itfkeystrokemgr_ispreservedkey"]
 old-location: tsf\itfkeystrokemgr_ispreservedkey.htm
 tech.root: TSF
 ms.assetid: 50deac9c-b659-494b-9cda-d6109fa39363

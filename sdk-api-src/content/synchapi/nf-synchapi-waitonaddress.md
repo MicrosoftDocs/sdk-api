@@ -137,7 +137,3 @@ while (CapturedValue == UndesiredValue) {
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-wakebyaddresssingle">WakeByAddressSingle</a>
- 
-
- 
-

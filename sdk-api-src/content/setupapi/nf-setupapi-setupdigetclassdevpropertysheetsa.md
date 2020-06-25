@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetClassDevPropertySheetsA
 title: SetupDiGetClassDevPropertySheetsA function (setupapi.h)
-description: The SetupDiGetClassDevPropertySheets function retrieves handles to the property sheets of a device information element or of the device setup class of a device information set.helpviewer_keywords: ["SetupDiGetClassDevPropertySheets","SetupDiGetClassDevPropertySheets function [Device and Driver Installation]","SetupDiGetClassDevPropertySheetsA","SetupDiGetClassDevPropertySheetsW","devinst.setupdigetclassdevpropertysheets","di-rtns_cdfb15cd-b7a4-42bf-ad4c-a3084a7a6d98.xml","setupapi/SetupDiGetClassDevPropertySheets"]
+description: The SetupDiGetClassDevPropertySheets function retrieves handles to the property sheets of a device information element or of the device setup class of a device information set.
+helpviewer_keywords: ["SetupDiGetClassDevPropertySheets","SetupDiGetClassDevPropertySheets function [Device and Driver Installation]","SetupDiGetClassDevPropertySheetsA","SetupDiGetClassDevPropertySheetsW","devinst.setupdigetclassdevpropertysheets","di-rtns_cdfb15cd-b7a4-42bf-ad4c-a3084a7a6d98.xml","setupapi/SetupDiGetClassDevPropertySheets"]
 old-location: devinst\setupdigetclassdevpropertysheets.htm
 tech.root: devinst
 ms.assetid: cf5e8511-37be-4fb8-bded-b9b1e6bd247b
@@ -192,6 +193,10 @@ Returns <b>FALSE</b>.
 </ul>
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetClassDevPropertySheets as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

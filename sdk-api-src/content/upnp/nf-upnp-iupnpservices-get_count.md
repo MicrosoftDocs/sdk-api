@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPServices.get_Count
 title: IUPnPServices::get_Count (upnp.h)
-description: The Count property specifies the number of services in the collection.helpviewer_keywords: ["IUPnPServices interface [UPnP APIs]","get_Count method","IUPnPServices.get_Count","IUPnPServices::get_Count","_upnp_iupnpservices_count","get_Count","get_Count method [UPnP APIs]","get_Count method [UPnP APIs]","IUPnPServices interface","upnp.iupnpservices_count","upnp/IUPnPServices::get_Count"]
+description: The Count property specifies the number of services in the collection.
+helpviewer_keywords: ["IUPnPServices interface [UPnP APIs]","get_Count method","IUPnPServices.get_Count","IUPnPServices::get_Count","_upnp_iupnpservices_count","get_Count","get_Count method [UPnP APIs]","get_Count method [UPnP APIs]","IUPnPServices interface","upnp.iupnpservices_count","upnp/IUPnPServices::get_Count"]
 old-location: upnp\iupnpservices_count.htm
 tech.root: upnp
 ms.assetid: 33d90664-825a-4562-82ae-249b329743ac

@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaManager.Scan
 title: IFsrmQuotaManager::Scan (fsrmquota.h)
-description: Starts a quota scan on the specified path.helpviewer_keywords: ["FsrmQuotaManager class [File Server Resource Manager]","Scan method","IFsrmQuotaManager interface [File Server Resource Manager]","Scan method","IFsrmQuotaManager.Scan","IFsrmQuotaManager::Scan","IFsrmQuotaManagerEx interface [File Server Resource Manager]","Scan method","IFsrmQuotaManagerEx::Scan","Scan","Scan method [File Server Resource Manager]","Scan method [File Server Resource Manager]","FsrmQuotaManager class","Scan method [File Server Resource Manager]","IFsrmQuotaManager interface","Scan method [File Server Resource Manager]","IFsrmQuotaManagerEx interface","fs.ifsrmquotamanager_scan","fsrm.ifsrmquotamanager_scan","fsrmquota/IFsrmQuotaManager::Scan","fsrmquota/IFsrmQuotaManagerEx::Scan"]
+description: Starts a quota scan on the specified path.
+helpviewer_keywords: ["FsrmQuotaManager class [File Server Resource Manager]","Scan method","IFsrmQuotaManager interface [File Server Resource Manager]","Scan method","IFsrmQuotaManager.Scan","IFsrmQuotaManager::Scan","IFsrmQuotaManagerEx interface [File Server Resource Manager]","Scan method","IFsrmQuotaManagerEx::Scan","Scan","Scan method [File Server Resource Manager]","Scan method [File Server Resource Manager]","FsrmQuotaManager class","Scan method [File Server Resource Manager]","IFsrmQuotaManager interface","Scan method [File Server Resource Manager]","IFsrmQuotaManagerEx interface","fs.ifsrmquotamanager_scan","fsrm.ifsrmquotamanager_scan","fsrmquota/IFsrmQuotaManager::Scan","fsrmquota/IFsrmQuotaManagerEx::Scan"]
 old-location: fsrm\ifsrmquotamanager_scan.htm
 tech.root: fsrm
 ms.assetid: 1581f4c7-a912-4214-9ad9-181ad5ebba7e

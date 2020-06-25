@@ -1,7 +1,8 @@
 ---
 UID: NF:pathcch.PathCchStripPrefix
 title: PathCchStripPrefix function (pathcch.h)
-description: Removes the &#0034;\\?\&#0034; prefix, if present, from a file path.helpviewer_keywords: ["PathCchStripPrefix","PathCchStripPrefix function [Windows Shell]","pathcch/PathCchStripPrefix","shell.PathCchStripPrefix"]
+description: Removes the &#0034;\\?\&#0034; prefix, if present, from a file path.
+helpviewer_keywords: ["PathCchStripPrefix","PathCchStripPrefix function [Windows Shell]","pathcch/PathCchStripPrefix","shell.PathCchStripPrefix"]
 old-location: shell\PathCchStripPrefix.htm
 tech.root: shell
 ms.assetid: 2e50b23e-2725-4200-bd5e-845ff3458026

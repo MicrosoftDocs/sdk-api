@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectSamplerVariable.GetSampler
 title: ID3D10EffectSamplerVariable::GetSampler (d3d10effect.h)
-description: Get a pointer to a sampler interface.helpviewer_keywords: ["GetSampler","GetSampler method [Direct3D 10]","GetSampler method [Direct3D 10]","ID3D10EffectSamplerVariable interface","ID3D10EffectSamplerVariable interface [Direct3D 10]","GetSampler method","ID3D10EffectSamplerVariable.GetSampler","ID3D10EffectSamplerVariable::GetSampler","cd07e1d0-28d4-ba10-87d9-3768dd4f0157","d3d10effect/ID3D10EffectSamplerVariable::GetSampler","direct3d10.id3d10effectsamplervariable_getsampler"]
+description: Get a pointer to a sampler interface.
+helpviewer_keywords: ["GetSampler","GetSampler method [Direct3D 10]","GetSampler method [Direct3D 10]","ID3D10EffectSamplerVariable interface","ID3D10EffectSamplerVariable interface [Direct3D 10]","GetSampler method","ID3D10EffectSamplerVariable.GetSampler","ID3D10EffectSamplerVariable::GetSampler","cd07e1d0-28d4-ba10-87d9-3768dd4f0157","d3d10effect/ID3D10EffectSamplerVariable::GetSampler","direct3d10.id3d10effectsamplervariable_getsampler"]
 old-location: direct3d10\id3d10effectsamplervariable_getsampler.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectsamplervariable_getsampler.htm

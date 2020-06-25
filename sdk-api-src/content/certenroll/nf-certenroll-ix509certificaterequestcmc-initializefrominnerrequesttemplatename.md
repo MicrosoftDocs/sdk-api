@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc.InitializeFromInnerRequestTemplateName
 title: IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName (certenroll.h)
-description: The InitializeFromInnerRequestTemplateName method initializes the certificate request from an inner request object and a template.helpviewer_keywords: ["IX509CertificateRequestCmc interface [Security]","InitializeFromInnerRequestTemplateName method","IX509CertificateRequestCmc.InitializeFromInnerRequestTemplateName","IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName","InitializeFromInnerRequestTemplateName","InitializeFromInnerRequestTemplateName method [Security]","InitializeFromInnerRequestTemplateName method [Security]","IX509CertificateRequestCmc interface","certenroll/IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName","security.ix509certificaterequestcmc_initializefrominnerrequesttemplatename"]
+description: The InitializeFromInnerRequestTemplateName method initializes the certificate request from an inner request object and a template.
+helpviewer_keywords: ["IX509CertificateRequestCmc interface [Security]","InitializeFromInnerRequestTemplateName method","IX509CertificateRequestCmc.InitializeFromInnerRequestTemplateName","IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName","InitializeFromInnerRequestTemplateName","InitializeFromInnerRequestTemplateName method [Security]","InitializeFromInnerRequestTemplateName method [Security]","IX509CertificateRequestCmc interface","certenroll/IX509CertificateRequestCmc::InitializeFromInnerRequestTemplateName","security.ix509certificaterequestcmc_initializefrominnerrequesttemplatename"]
 old-location: security\ix509certificaterequestcmc_initializefrominnerrequesttemplatename.htm
 tech.root: seccertenroll
 ms.assetid: abf7617e-1194-4303-a214-23fbaf20eccf

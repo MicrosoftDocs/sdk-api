@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.BeginFigure
 title: ID2D1SimplifiedGeometrySink::BeginFigure (d2d1.h)
-description: Starts a new figure at the specified point.helpviewer_keywords: ["BeginFigure","BeginFigure method [Direct2D]","BeginFigure method [Direct2D]","ID2D1SimplifiedGeometrySink interface","ID2D1SimplifiedGeometrySink interface [Direct2D]","BeginFigure method","ID2D1SimplifiedGeometrySink.BeginFigure","ID2D1SimplifiedGeometrySink::BeginFigure","d2d1/ID2D1SimplifiedGeometrySink::BeginFigure","direct2d.ID2D1SimplifiedGeometrySink_BeginFigure"]
+description: Starts a new figure at the specified point.
+helpviewer_keywords: ["BeginFigure","BeginFigure method [Direct2D]","BeginFigure method [Direct2D]","ID2D1SimplifiedGeometrySink interface","ID2D1SimplifiedGeometrySink interface [Direct2D]","BeginFigure method","ID2D1SimplifiedGeometrySink.BeginFigure","ID2D1SimplifiedGeometrySink::BeginFigure","d2d1/ID2D1SimplifiedGeometrySink::BeginFigure","direct2d.ID2D1SimplifiedGeometrySink_BeginFigure"]
 old-location: direct2d\ID2D1SimplifiedGeometrySink_BeginFigure.htm
 tech.root: Direct2D
 ms.assetid: 87a932d4-1f90-4bdb-b131-0664566b0318

@@ -1,7 +1,8 @@
 ---
 UID: NF:evr.IMFVideoPresenter.GetCurrentMediaType
 title: IMFVideoPresenter::GetCurrentMediaType (evr.h)
-description: Retrieves the presenter's media type.helpviewer_keywords: ["4b8f0e56-35de-4b4f-9897-32a7e14171c8","GetCurrentMediaType","GetCurrentMediaType method [Media Foundation]","GetCurrentMediaType method [Media Foundation]","IMFVideoPresenter interface","IMFVideoPresenter interface [Media Foundation]","GetCurrentMediaType method","IMFVideoPresenter.GetCurrentMediaType","IMFVideoPresenter::GetCurrentMediaType","evr/IMFVideoPresenter::GetCurrentMediaType","mf.imfvideopresenter_getcurrentmediatype"]
+description: Retrieves the presenter's media type.
+helpviewer_keywords: ["4b8f0e56-35de-4b4f-9897-32a7e14171c8","GetCurrentMediaType","GetCurrentMediaType method [Media Foundation]","GetCurrentMediaType method [Media Foundation]","IMFVideoPresenter interface","IMFVideoPresenter interface [Media Foundation]","GetCurrentMediaType method","IMFVideoPresenter.GetCurrentMediaType","IMFVideoPresenter::GetCurrentMediaType","evr/IMFVideoPresenter::GetCurrentMediaType","mf.imfvideopresenter_getcurrentmediatype"]
 old-location: mf\imfvideopresenter_getcurrentmediatype.htm
 tech.root: medfound
 ms.assetid: 4b8f0e56-35de-4b4f-9897-32a7e14171c8

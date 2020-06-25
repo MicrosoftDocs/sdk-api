@@ -1,7 +1,8 @@
 ---
 UID: NF:strsafe.StringCbVPrintfA
 title: StringCbVPrintfA function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments.helpviewer_keywords: ["StringCbVPrintf","StringCbVPrintf function [Menus and Other Resources]","StringCbVPrintfA","StringCbVPrintfW","_shell_StringCbVPrintf","_shell_stringcbvprintf_cpp","menurc.stringcbvprintf","strsafe/StringCbVPrintf","strsafe/StringCbVPrintfA","strsafe/StringCbVPrintfW","winui._shell_stringcbvprintf"]
+description: Writes formatted data to the specified string using a pointer to a list of arguments.
+helpviewer_keywords: ["StringCbVPrintf","StringCbVPrintf function [Menus and Other Resources]","StringCbVPrintfA","StringCbVPrintfW","_shell_StringCbVPrintf","_shell_stringcbvprintf_cpp","menurc.stringcbvprintf","strsafe/StringCbVPrintf","strsafe/StringCbVPrintfA","strsafe/StringCbVPrintfW","winui._shell_stringcbvprintf"]
 old-location: menurc\stringcbvprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbvprintf.htm
@@ -192,6 +193,10 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="
 
 
 
+
+
+> [!NOTE]
+> The strsafe.h header defines StringCbVPrintf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

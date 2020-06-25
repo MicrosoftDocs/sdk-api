@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt.MEM_EXTENDED_PARAMETER
 title: MEM_EXTENDED_PARAMETER (winnt.h)
-description: Represents an extended parameter for a function that manages virtual memory.helpviewer_keywords: ["*PMEM_EXTENDED_PARAMETER","MEM_EXTENDED_PARAMETER","MEM_EXTENDED_PARAMETER structure","PMEM_EXTENDED_PARAMETER","PMEM_EXTENDED_PARAMETER structure pointer","base.mem_extended_parameter","winnt/MEM_EXTENDED_PARAMETER","winnt/PMEM_EXTENDED_PARAMETER"]
+description: Represents an extended parameter for a function that manages virtual memory.
+helpviewer_keywords: ["*PMEM_EXTENDED_PARAMETER","MEM_EXTENDED_PARAMETER","MEM_EXTENDED_PARAMETER structure","PMEM_EXTENDED_PARAMETER","PMEM_EXTENDED_PARAMETER structure pointer","base.mem_extended_parameter","winnt/MEM_EXTENDED_PARAMETER","winnt/PMEM_EXTENDED_PARAMETER"]
 old-location: base\mem_extended_parameter.htm
 tech.root: Memory
 ms.assetid: 8D189F7E-83E7-4AF3-9E25-928C66666887

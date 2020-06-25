@@ -1,7 +1,8 @@
 ---
 UID: NF:wsman.WSManPluginAuthzUserComplete
 title: WSManPluginAuthzUserComplete function (wsman.h)
-description: Reports either a successful or failed user connection authorization.helpviewer_keywords: ["WSManPluginAuthzUserComplete","WSManPluginAuthzUserComplete function [Windows Remote Management]","winrm.wsmanpluginauthzusercomplete","wsman/WSManPluginAuthzUserComplete"]
+description: Reports either a successful or failed user connection authorization.
+helpviewer_keywords: ["WSManPluginAuthzUserComplete","WSManPluginAuthzUserComplete function [Windows Remote Management]","winrm.wsmanpluginauthzusercomplete","wsman/WSManPluginAuthzUserComplete"]
 old-location: winrm\wsmanpluginauthzusercomplete.htm
 tech.root: winrm
 ms.assetid: f8897936-91fa-4b91-a13a-0ef0a52d780c

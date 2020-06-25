@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.GetFullPathNameW
 title: GetFullPathNameW function (fileapi.h)
-description: Retrieves the full path and file name of the specified file.helpviewer_keywords: ["GetFullPathName","GetFullPathName function [Files]","GetFullPathNameA","GetFullPathNameW","_win32_getfullpathname","base.getfullpathname","fileapi/GetFullPathName","fileapi/GetFullPathNameA","fileapi/GetFullPathNameW","fs.getfullpathname","winbase/GetFullPathName","winbase/GetFullPathNameA","winbase/GetFullPathNameW"]
+description: Retrieves the full path and file name of the specified file.
+helpviewer_keywords: ["GetFullPathName","GetFullPathName function [Files]","GetFullPathNameA","GetFullPathNameW","_win32_getfullpathname","base.getfullpathname","fileapi/GetFullPathName","fileapi/GetFullPathNameA","fileapi/GetFullPathNameW","fs.getfullpathname","winbase/GetFullPathName","winbase/GetFullPathNameA","winbase/GetFullPathNameW"]
 old-location: fs\getfullpathname.htm
 tech.root: FileIO
 ms.assetid: 4cf59ee3-4065-4096-a2b5-fbed20aa5caa
@@ -357,6 +358,10 @@ void _tmain(int argc, TCHAR *argv[])
 
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines GetFullPathName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

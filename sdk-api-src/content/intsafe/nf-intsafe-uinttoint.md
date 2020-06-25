@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.UIntToInt
 title: UIntToInt function (intsafe.h)
-description: Converts a value of type UINT to a value of type INT.helpviewer_keywords: ["UIntToInt","UIntToInt function [Windows Shell]","_shell_UIntToInt","intsafe/UIntToInt","shell.UIntToInt"]
+description: Converts a value of type UINT to a value of type INT.
+helpviewer_keywords: ["UIntToInt","UIntToInt function [Windows Shell]","_shell_UIntToInt","intsafe/UIntToInt","shell.UIntToInt"]
 old-location: shell\UIntToInt.htm
 tech.root: shell
 ms.assetid: c50f2147-1b18-42bf-a5ae-fa20d487c52d

@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrInterfacePointerUnmarshall
 title: NdrInterfacePointerUnmarshall function (rpcndr.h)
-description: The NdrInterfacePointerUnmarshall function unmarshalls the data referenced by the interface pointer from the network buffer to memory.helpviewer_keywords: ["NdrInterfacePointerUnmarshall","NdrInterfacePointerUnmarshall function [RPC]","rpc.ndrinterfacepointerunmarshall","rpcndr/NdrInterfacePointerUnmarshall"]
+description: The NdrInterfacePointerUnmarshall function unmarshalls the data referenced by the interface pointer from the network buffer to memory.
+helpviewer_keywords: ["NdrInterfacePointerUnmarshall","NdrInterfacePointerUnmarshall function [RPC]","rpc.ndrinterfacepointerunmarshall","rpcndr/NdrInterfacePointerUnmarshall"]
 old-location: rpc\ndrinterfacepointerunmarshall.htm
 tech.root: Rpc
 ms.assetid: b6ed9308-a935-44ed-a0e7-17d05d4762e5

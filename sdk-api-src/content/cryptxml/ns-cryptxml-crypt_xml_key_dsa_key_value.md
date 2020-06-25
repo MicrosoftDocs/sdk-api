@@ -1,7 +1,8 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_KEY_DSA_KEY_VALUE
 title: CRYPT_XML_KEY_DSA_KEY_VALUE (cryptxml.h)
-description: Defines a Digital Signature Algorithm (DSA) key value. The CRYPT_XML_KEY_DSA_KEY_VALUE structure is used as an element of the key value union in the CRYPT_XML_KEY_VALUE structure.helpviewer_keywords: ["CRYPT_XML_KEY_DSA_KEY_VALUE","CRYPT_XML_KEY_DSA_KEY_VALUE structure [Security]","cryptxml/CRYPT_XML_KEY_DSA_KEY_VALUE","security.crypt_xml_key_dsa_key_value"]
+description: Defines a Digital Signature Algorithm (DSA) key value. The CRYPT_XML_KEY_DSA_KEY_VALUE structure is used as an element of the key value union in the CRYPT_XML_KEY_VALUE structure.
+helpviewer_keywords: ["CRYPT_XML_KEY_DSA_KEY_VALUE","CRYPT_XML_KEY_DSA_KEY_VALUE structure [Security]","cryptxml/CRYPT_XML_KEY_DSA_KEY_VALUE","security.crypt_xml_key_dsa_key_value"]
 old-location: security\crypt_xml_key_dsa_key_value.htm
 tech.root: SecCrypto
 ms.assetid: 634c47c2-28ba-40ea-975d-95f5663eb0b0

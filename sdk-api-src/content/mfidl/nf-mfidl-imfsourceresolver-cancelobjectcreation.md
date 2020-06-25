@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.CancelObjectCreation
 title: IMFSourceResolver::CancelObjectCreation (mfidl.h)
-description: Cancels an asynchronous request to create an object.helpviewer_keywords: ["6a30ac92-a281-4293-8975-987fa25a5318","CancelObjectCreation","CancelObjectCreation method [Media Foundation]","CancelObjectCreation method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","CancelObjectCreation method","IMFSourceResolver.CancelObjectCreation","IMFSourceResolver::CancelObjectCreation","mf.imfsourceresolver_cancelobjectcreation","mfidl/IMFSourceResolver::CancelObjectCreation"]
+description: Cancels an asynchronous request to create an object.
+helpviewer_keywords: ["6a30ac92-a281-4293-8975-987fa25a5318","CancelObjectCreation","CancelObjectCreation method [Media Foundation]","CancelObjectCreation method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","CancelObjectCreation method","IMFSourceResolver.CancelObjectCreation","IMFSourceResolver::CancelObjectCreation","mf.imfsourceresolver_cancelobjectcreation","mfidl/IMFSourceResolver::CancelObjectCreation"]
 old-location: mf\imfsourceresolver_cancelobjectcreation.htm
 tech.root: medfound
 ms.assetid: 6a30ac92-a281-4293-8975-987fa25a5318

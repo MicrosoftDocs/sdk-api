@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMGetSignedIssuanceLicenseEx
 title: DRMGetSignedIssuanceLicenseEx function (msdrm.h)
-description: Acquires a signed issuance license offline.helpviewer_keywords: ["DRMGetSignedIssuanceLicenseEx","DRMGetSignedIssuanceLicenseEx function [Active Directory Rights Management Services SDK 1.0]","DRM_AUTO_GENERATE_KEY","DRM_OWNER_LICENSE_NOPERSIST","DRM_REUSE_KEY","DRM_SIGN_CANCEL","DRM_SIGN_OFFLINE","msdrm/DRMGetSignedIssuanceLicenseEx","rm.drmgetsignedissuancelicenseex"]
+description: Acquires a signed issuance license offline.
+helpviewer_keywords: ["DRMGetSignedIssuanceLicenseEx","DRMGetSignedIssuanceLicenseEx function [Active Directory Rights Management Services SDK 1.0]","DRM_AUTO_GENERATE_KEY","DRM_OWNER_LICENSE_NOPERSIST","DRM_REUSE_KEY","DRM_SIGN_CANCEL","DRM_SIGN_OFFLINE","msdrm/DRMGetSignedIssuanceLicenseEx","rm.drmgetsignedissuancelicenseex"]
 old-location: rm\drmgetsignedissuancelicenseex.htm
 tech.root: AdRms_Sdk
 ms.assetid: 9d37f69e-e582-4efc-9f17-866f195e439a

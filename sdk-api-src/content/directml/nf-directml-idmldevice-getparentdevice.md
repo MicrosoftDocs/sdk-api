@@ -1,7 +1,8 @@
 ---
 UID: NF:directml.IDMLDevice.GetParentDevice
 title: IDMLDevice::GetParentDevice
-description: Retrieves the Direct3D 12 device that was used to create this DirectML device.helpviewer_keywords: ["GetParentDevice","GetParentDevice method","GetParentDevice method","IDMLDevice interface","IDMLDevice interface","GetParentDevice method","IDMLDevice.GetParentDevice","IDMLDevice::GetParentDevice","direct3d12.idmldevice_getparentdevice","directml/IDMLDevice::GetParentDevice"]
+description: Retrieves the Direct3D 12 device that was used to create this DirectML device.
+helpviewer_keywords: ["GetParentDevice","GetParentDevice method","GetParentDevice method","IDMLDevice interface","IDMLDevice interface","GetParentDevice method","IDMLDevice.GetParentDevice","IDMLDevice::GetParentDevice","direct3d12.idmldevice_getparentdevice","directml/IDMLDevice::GetParentDevice"]
 old-location: direct3d12\idmldevice_getparentdevice.htm
 tech.root: direct3d12
 ms.assetid: 1EE62E60-629A-4D3B-A8CD-C0D9D9FBCB93

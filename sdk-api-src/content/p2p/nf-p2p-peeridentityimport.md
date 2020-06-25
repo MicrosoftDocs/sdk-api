@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerIdentityImport
 title: PeerIdentityImport function (p2p.h)
-description: The PeerIdentityImport function imports one peer identity. If the peer identity exists on a computer, PEER_E_ALREADY_EXISTS is returned.helpviewer_keywords: ["PeerIdentityImport","PeerIdentityImport function [Peer Networking]","p2p.peeridentityimport","p2p/PeerIdentityImport"]
+description: The PeerIdentityImport function imports one peer identity. If the peer identity exists on a computer, PEER_E_ALREADY_EXISTS is returned.
+helpviewer_keywords: ["PeerIdentityImport","PeerIdentityImport function [Peer Networking]","p2p.peeridentityimport","p2p/PeerIdentityImport"]
 old-location: p2p\peeridentityimport.htm
 tech.root: P2PSdk
 ms.assetid: 273aa395-905a-41bd-a027-23f4b3f549b6

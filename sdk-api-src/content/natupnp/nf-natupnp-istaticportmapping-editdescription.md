@@ -1,7 +1,8 @@
 ---
 UID: NF:natupnp.IStaticPortMapping.EditDescription
 title: IStaticPortMapping::EditDescription (natupnp.h)
-description: The EditDescription method sets the description property of this port mapping to the specified value.helpviewer_keywords: ["EditDescription","EditDescription method [ICS/ICF]","EditDescription method [ICS/ICF]","IStaticPortMapping interface","IStaticPortMapping interface [ICS/ICF]","EditDescription method","IStaticPortMapping.EditDescription","IStaticPortMapping::EditDescription","_ics_istaticportmapping_editdescription","ics.istaticportmapping_editdescription","natupnp/IStaticPortMapping::EditDescription"]
+description: The EditDescription method sets the description property of this port mapping to the specified value.
+helpviewer_keywords: ["EditDescription","EditDescription method [ICS/ICF]","EditDescription method [ICS/ICF]","IStaticPortMapping interface","IStaticPortMapping interface [ICS/ICF]","EditDescription method","IStaticPortMapping.EditDescription","IStaticPortMapping::EditDescription","_ics_istaticportmapping_editdescription","ics.istaticportmapping_editdescription","natupnp/IStaticPortMapping::EditDescription"]
 old-location: ics\istaticportmapping_editdescription.htm
 tech.root: ics
 ms.assetid: 6bfa6242-298e-4835-9eda-fdc6a88d848f

@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.FreeSid
 title: FreeSid function (securitybaseapi.h)
-description: Frees a security identifier (SID) previously allocated by using the AllocateAndInitializeSid function.helpviewer_keywords: ["FreeSid","FreeSid function [Security]","_win32_freesid","security.freesid","securitybaseapi/FreeSid"]
+description: Frees a security identifier (SID) previously allocated by using the AllocateAndInitializeSid function.
+helpviewer_keywords: ["FreeSid","FreeSid function [Security]","_win32_freesid","security.freesid","securitybaseapi/FreeSid"]
 old-location: security\freesid.htm
 tech.root: SecAuthZ
 ms.assetid: 1e2098d8-4d1f-4353-97c1-549021a5b3fd

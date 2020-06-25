@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ISuspensionDependencyManager.UngroupChildFromParent
 title: ISuspensionDependencyManager::UngroupChildFromParent (shobjidl_core.h)
-description: ISuspensionDependencyManager::UngroupChildFromParent methodhelpviewer_keywords: ["ISuspensionDependencyManager interface [Windows Shell]","UngroupChildFromParent method","ISuspensionDependencyManager.UngroupChildFromParent","ISuspensionDependencyManager::UngroupChildFromParent","UngroupChildFromParent","UngroupChildFromParent method [Windows Shell]","UngroupChildFromParent method [Windows Shell]","ISuspensionDependencyManager interface","shell.ISuspensionDependencyManager_UngroupChildFromParent","shobjidl_core/ISuspensionDependencyManager::UngroupChildFromParent"]
+description: ISuspensionDependencyManager::UngroupChildFromParent method
+helpviewer_keywords: ["ISuspensionDependencyManager interface [Windows Shell]","UngroupChildFromParent method","ISuspensionDependencyManager.UngroupChildFromParent","ISuspensionDependencyManager::UngroupChildFromParent","UngroupChildFromParent","UngroupChildFromParent method [Windows Shell]","UngroupChildFromParent method [Windows Shell]","ISuspensionDependencyManager interface","shell.ISuspensionDependencyManager_UngroupChildFromParent","shobjidl_core/ISuspensionDependencyManager::UngroupChildFromParent"]
 old-location: shell\ISuspensionDependencyManager_UngroupChildFromParent.htm
 tech.root: shell
 ms.assetid: 4635FCD2-C49F-45F1-8D48-6BA418EBDFD0

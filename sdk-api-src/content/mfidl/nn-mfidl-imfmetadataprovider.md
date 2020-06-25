@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFMetadataProvider
 title: IMFMetadataProvider (mfidl.h)
-description: Gets metadata from a media source or other object.helpviewer_keywords: ["IMFMetadataProvider","IMFMetadataProvider interface [Media Foundation]","IMFMetadataProvider interface [Media Foundation]","described","f32e78c9-a567-448d-947d-d7ea996bba5e","mf.imfmetadataprovider","mfidl/IMFMetadataProvider"]
+description: Gets metadata from a media source or other object.
+helpviewer_keywords: ["IMFMetadataProvider","IMFMetadataProvider interface [Media Foundation]","IMFMetadataProvider interface [Media Foundation]","described","f32e78c9-a567-448d-947d-d7ea996bba5e","mf.imfmetadataprovider","mfidl/IMFMetadataProvider"]
 old-location: mf\imfmetadataprovider.htm
 tech.root: medfound
 ms.assetid: f32e78c9-a567-448d-947d-d7ea996bba5e

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputNumberForStream
 title: IWMSyncReader::GetOutputNumberForStream (wmsdkidl.h)
-description: The GetOutputNumberForStream method retrieves the output number that corresponds with the specified stream.helpviewer_keywords: ["GetOutputNumberForStream","GetOutputNumberForStream method [windows Media Format]","GetOutputNumberForStream method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetOutputNumberForStream method","IWMSyncReader.GetOutputNumberForStream","IWMSyncReader::GetOutputNumberForStream","IWMSyncReaderGetOutputNumberForStream","wmformat.iwmsyncreader_getoutputnumberforstream","wmsdkidl/IWMSyncReader::GetOutputNumberForStream"]
+description: The GetOutputNumberForStream method retrieves the output number that corresponds with the specified stream.
+helpviewer_keywords: ["GetOutputNumberForStream","GetOutputNumberForStream method [windows Media Format]","GetOutputNumberForStream method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetOutputNumberForStream method","IWMSyncReader.GetOutputNumberForStream","IWMSyncReader::GetOutputNumberForStream","IWMSyncReaderGetOutputNumberForStream","wmformat.iwmsyncreader_getoutputnumberforstream","wmsdkidl/IWMSyncReader::GetOutputNumberForStream"]
 old-location: wmformat\iwmsyncreader_getoutputnumberforstream.htm
 tech.root: wmformat
 ms.assetid: 605f5a66-aa06-4d4e-998e-1a3f7d1c7be6

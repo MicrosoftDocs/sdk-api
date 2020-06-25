@@ -1,7 +1,8 @@
 ---
 UID: NF:qnetwork.IAMNetShowExProps.get_CreationDate
 title: IAMNetShowExProps::get_CreationDate (qnetwork.h)
-description: The get_CreationDate method retrieves the creation date of the source file.helpviewer_keywords: ["IAMNetShowExProps interface [DirectShow]","get_CreationDate method","IAMNetShowExProps.get_CreationDate","IAMNetShowExProps::get_CreationDate","IAMNetShowExPropsget_CreationDate","dshow.iamnetshowexprops_get_creationdate","get_CreationDate","get_CreationDate method [DirectShow]","get_CreationDate method [DirectShow]","IAMNetShowExProps interface","qnetwork/IAMNetShowExProps::get_CreationDate"]
+description: The get_CreationDate method retrieves the creation date of the source file.
+helpviewer_keywords: ["IAMNetShowExProps interface [DirectShow]","get_CreationDate method","IAMNetShowExProps.get_CreationDate","IAMNetShowExProps::get_CreationDate","IAMNetShowExPropsget_CreationDate","dshow.iamnetshowexprops_get_creationdate","get_CreationDate","get_CreationDate method [DirectShow]","get_CreationDate method [DirectShow]","IAMNetShowExProps interface","qnetwork/IAMNetShowExProps::get_CreationDate"]
 old-location: dshow\iamnetshowexprops_get_creationdate.htm
 tech.root: DirectShow
 ms.assetid: 0a9cbaed-c8aa-445a-9f8e-d84a7b50166e

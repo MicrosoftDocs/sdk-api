@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzRoleDefinitions.get_Count
 title: IAzRoleDefinitions::get_Count (azroles.h)
-description: Retrieves the number of IAzRoleDefinitions objects in the collection.helpviewer_keywords: ["Count property [Security]","Count property [Security]","IAzRoleDefinitions interface","IAzRoleDefinitions interface [Security]","Count property","IAzRoleDefinitions.Count","IAzRoleDefinitions.get_Count","IAzRoleDefinitions::Count","IAzRoleDefinitions::get_Count","azroles/IAzRoleDefinitions::Count","azroles/IAzRoleDefinitions::get_Count","get_Count","security.iazroledefinitions_count"]
+description: Retrieves the number of IAzRoleDefinitions objects in the collection.
+helpviewer_keywords: ["Count property [Security]","Count property [Security]","IAzRoleDefinitions interface","IAzRoleDefinitions interface [Security]","Count property","IAzRoleDefinitions.Count","IAzRoleDefinitions.get_Count","IAzRoleDefinitions::Count","IAzRoleDefinitions::get_Count","azroles/IAzRoleDefinitions::Count","azroles/IAzRoleDefinitions::get_Count","get_Count","security.iazroledefinitions_count"]
 old-location: security\iazroledefinitions_count.htm
 tech.root: SecAuthZ
 ms.assetid: ba841ca6-3c3e-4f47-9b44-24739440acd9

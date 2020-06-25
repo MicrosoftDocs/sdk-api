@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.ITaskHandlerStatus
 title: ITaskHandlerStatus (taskschd.h)
-description: Provides the methods that are used by COM handlers to notify the Task Scheduler about the status of the handler.helpviewer_keywords: ["ITaskHandlerStatus","ITaskHandlerStatus interface [Task Scheduler]","ITaskHandlerStatus interface [Task Scheduler]","described","taskschd.itaskhandlerstatus","taskschd/ITaskHandlerStatus"]
+description: Provides the methods that are used by COM handlers to notify the Task Scheduler about the status of the handler.
+helpviewer_keywords: ["ITaskHandlerStatus","ITaskHandlerStatus interface [Task Scheduler]","ITaskHandlerStatus interface [Task Scheduler]","described","taskschd.itaskhandlerstatus","taskschd/ITaskHandlerStatus"]
 old-location: taskschd\itaskhandlerstatus.htm
 tech.root: taskschd
 ms.assetid: 8b846be3-f05f-4d90-9865-da245c2bfdbf

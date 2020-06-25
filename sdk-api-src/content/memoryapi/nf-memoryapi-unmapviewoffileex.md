@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.UnmapViewOfFileEx
 title: UnmapViewOfFileEx function (memoryapi.h)
-description: This is an extended version of UnmapViewOfFile that takes an additional flags parameter.helpviewer_keywords: ["MEM_PRESERVE_PLACEHOLDER","MEM_UNMAP_WITH_TRANSIENT_BOOST","UnmapViewOfFileEx","UnmapViewOfFileEx function","base.unmapviewoffileex","winbase/UnmapViewOfFileEx"]
+description: This is an extended version of UnmapViewOfFile that takes an additional flags parameter.
+helpviewer_keywords: ["MEM_PRESERVE_PLACEHOLDER","MEM_UNMAP_WITH_TRANSIENT_BOOST","UnmapViewOfFileEx","UnmapViewOfFileEx function","base.unmapviewoffileex","winbase/UnmapViewOfFileEx"]
 old-location: base\unmapviewoffileex.htm
 tech.root: Memory
 ms.assetid: 1C86075D-17B8-481E-BDF0-6E5A8F55C188

@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.TF_CreateLangBarItemMgr
 title: TF_CreateLangBarItemMgr function (msctf.h)
-description: The TF_CreateLangBarItemMgr function is used to create a language bar item manager object without having to initialize COM.helpviewer_keywords: ["TF_CreateLangBarItemMgr","TF_CreateLangBarItemMgr function [Text Services Framework]","msctf/TF_CreateLangBarItemMgr","tsf.tf_createlangbaritemmgr"]
+description: The TF_CreateLangBarItemMgr function is used to create a language bar item manager object without having to initialize COM.
+helpviewer_keywords: ["TF_CreateLangBarItemMgr","TF_CreateLangBarItemMgr function [Text Services Framework]","msctf/TF_CreateLangBarItemMgr","tsf.tf_createlangbaritemmgr"]
 old-location: tsf\tf_createlangbaritemmgr.htm
 tech.root: TSF
 ms.assetid: b7492732-ae06-4344-b5c0-97b3734af36a

@@ -1,7 +1,8 @@
 ---
 UID: NF:webapplication.IWebApplicationNavigationEvents.DownloadComplete
 title: IWebApplicationNavigationEvents::DownloadComplete (webapplication.h)
-description: Download of a page has completed.helpviewer_keywords: ["DownloadComplete","DownloadComplete method [Debugging Windows Store apps]","DownloadComplete method [Debugging Windows Store apps]","IWebApplicationNavigationEvents interface","IWebApplicationNavigationEvents interface [Debugging Windows Store apps]","DownloadComplete method","IWebApplicationNavigationEvents.DownloadComplete","IWebApplicationNavigationEvents::DownloadComplete","debug.iwebapplicationnavigationevents_downloadcomplete","webapplication/IWebApplicationNavigationEvents::DownloadComplete"]
+description: Download of a page has completed.
+helpviewer_keywords: ["DownloadComplete","DownloadComplete method [Debugging Windows Store apps]","DownloadComplete method [Debugging Windows Store apps]","IWebApplicationNavigationEvents interface","IWebApplicationNavigationEvents interface [Debugging Windows Store apps]","DownloadComplete method","IWebApplicationNavigationEvents.DownloadComplete","IWebApplicationNavigationEvents::DownloadComplete","debug.iwebapplicationnavigationevents_downloadcomplete","webapplication/IWebApplicationNavigationEvents::DownloadComplete"]
 old-location: debug\iwebapplicationnavigationevents_downloadcomplete.htm
 tech.root: debug_wwahost
 ms.assetid: a787ae3b-060a-4a7e-b980-e33d3d6b2a01

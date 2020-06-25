@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbEmergencyInformationDescriptor.GetStartEndFlag
 title: IIsdbEmergencyInformationDescriptor::GetStartEndFlag (dvbsiparser.h)
-description: Gets the value of the start_end_flag field from an emergency information descriptor. This field indicates whether the emergency alarm signal has started or finished broadcasting.helpviewer_keywords: ["GetStartEndFlag","GetStartEndFlag method [Microsoft TV Technologies]","GetStartEndFlag method [Microsoft TV Technologies]","IIsdbEmergencyInformationDescriptor interface","IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies]","GetStartEndFlag method","IIsdbEmergencyInformationDescriptor.GetStartEndFlag","IIsdbEmergencyInformationDescriptor::GetStartEndFlag","dvbsiparser/IIsdbEmergencyInformationDescriptor::GetStartEndFlag","mstv.iisdbemergencyinformationdescriptor_getstartendflag"]
+description: Gets the value of the start_end_flag field from an emergency information descriptor. This field indicates whether the emergency alarm signal has started or finished broadcasting.
+helpviewer_keywords: ["GetStartEndFlag","GetStartEndFlag method [Microsoft TV Technologies]","GetStartEndFlag method [Microsoft TV Technologies]","IIsdbEmergencyInformationDescriptor interface","IIsdbEmergencyInformationDescriptor interface [Microsoft TV Technologies]","GetStartEndFlag method","IIsdbEmergencyInformationDescriptor.GetStartEndFlag","IIsdbEmergencyInformationDescriptor::GetStartEndFlag","dvbsiparser/IIsdbEmergencyInformationDescriptor::GetStartEndFlag","mstv.iisdbemergencyinformationdescriptor_getstartendflag"]
 old-location: mstv\iisdbemergencyinformationdescriptor_getstartendflag.htm
 tech.root: mstv
 ms.assetid: 13593be1-073c-41df-b389-f0920d192c92

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetData
 title: IMFTimedTextCue::GetData (mfmediaengine.h)
-description: Gets the data content of the timed-text cue.helpviewer_keywords: ["GetData","GetData method [Media Foundation]","GetData method [Media Foundation]","IMFTimedTextCue interface","IMFTimedTextCue interface [Media Foundation]","GetData method","IMFTimedTextCue.GetData","IMFTimedTextCue::GetData","mf.imftimedtextcue_getdata","mfmediaengine/IMFTimedTextCue::GetData"]
+description: Gets the data content of the timed-text cue.
+helpviewer_keywords: ["GetData","GetData method [Media Foundation]","GetData method [Media Foundation]","IMFTimedTextCue interface","IMFTimedTextCue interface [Media Foundation]","GetData method","IMFTimedTextCue.GetData","IMFTimedTextCue::GetData","mf.imftimedtextcue_getdata","mfmediaengine/IMFTimedTextCue::GetData"]
 old-location: mf\imftimedtextcue_getdata.htm
 tech.root: medfound
 ms.assetid: 18884B70-DE34-494E-A029-6DD48AB0BA13

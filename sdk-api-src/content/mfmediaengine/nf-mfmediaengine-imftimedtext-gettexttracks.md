@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.GetTextTracks
 title: IMFTimedText::GetTextTracks (mfmediaengine.h)
-description: Gets the list of all the timed-text tracks in the timed-text component.helpviewer_keywords: ["GetTextTracks","GetTextTracks method [Media Foundation]","GetTextTracks method [Media Foundation]","IMFTimedText interface","IMFTimedText interface [Media Foundation]","GetTextTracks method","IMFTimedText.GetTextTracks","IMFTimedText::GetTextTracks","mf.imftimedtext_gettexttracks","mfmediaengine/IMFTimedText::GetTextTracks"]
+description: Gets the list of all the timed-text tracks in the timed-text component.
+helpviewer_keywords: ["GetTextTracks","GetTextTracks method [Media Foundation]","GetTextTracks method [Media Foundation]","IMFTimedText interface","IMFTimedText interface [Media Foundation]","GetTextTracks method","IMFTimedText.GetTextTracks","IMFTimedText::GetTextTracks","mf.imftimedtext_gettexttracks","mfmediaengine/IMFTimedText::GetTextTracks"]
 old-location: mf\imftimedtext_gettexttracks.htm
 tech.root: medfound
 ms.assetid: 75F2874A-67E0-4167-9B5D-A8B90C3509E0

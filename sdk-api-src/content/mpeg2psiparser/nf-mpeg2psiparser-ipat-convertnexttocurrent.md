@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.ConvertNextToCurrent
 title: IPAT::ConvertNextToCurrent (mpeg2psiparser.h)
-description: The ConvertNextToCurrent method converts a next table to a current table.helpviewer_keywords: ["ConvertNextToCurrent","ConvertNextToCurrent method [Microsoft TV Technologies]","ConvertNextToCurrent method [Microsoft TV Technologies]","IPAT interface","IPAT interface [Microsoft TV Technologies]","ConvertNextToCurrent method","IPAT.ConvertNextToCurrent","IPAT::ConvertNextToCurrent","IPATConvertNextToCurrent","mpeg2psiparser/IPAT::ConvertNextToCurrent","mstv.ipat_convertnexttocurrent"]
+description: The ConvertNextToCurrent method converts a next table to a current table.
+helpviewer_keywords: ["ConvertNextToCurrent","ConvertNextToCurrent method [Microsoft TV Technologies]","ConvertNextToCurrent method [Microsoft TV Technologies]","IPAT interface","IPAT interface [Microsoft TV Technologies]","ConvertNextToCurrent method","IPAT.ConvertNextToCurrent","IPAT::ConvertNextToCurrent","IPATConvertNextToCurrent","mpeg2psiparser/IPAT::ConvertNextToCurrent","mstv.ipat_convertnexttocurrent"]
 old-location: mstv\ipat_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: 89a493b9-93d3-435f-a4dc-24f8f8e2d1bf

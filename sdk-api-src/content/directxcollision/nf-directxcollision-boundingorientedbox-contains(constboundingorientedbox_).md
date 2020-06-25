@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingOrientedBox.Contains(const BoundingOrientedBox &)
 title: BoundingOrientedBox::Contains(const BoundingOrientedBox &)
-description: Tests whether the BoundingOrientedBox contains a BoundingOrientedBox.helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","Contains method","BoundingOrientedBox.Contains","BoundingOrientedBox.Contains(const BoundingOrientedBox &)","BoundingOrientedBox.Contains(const BoundingOrientedBox&)","BoundingOrientedBox::Contains","BoundingOrientedBox::Contains(const BoundingOrientedBox &)","Contains","Contains method [DirectX Math Support APIs]","Contains method [DirectX Math Support APIs]","BoundingOrientedBox interface","dxmath.boundingorientedbox_contains_4"]
+description: Tests whether the BoundingOrientedBox contains a BoundingOrientedBox.
+helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","Contains method","BoundingOrientedBox.Contains","BoundingOrientedBox.Contains(const BoundingOrientedBox &)","BoundingOrientedBox.Contains(const BoundingOrientedBox&)","BoundingOrientedBox::Contains","BoundingOrientedBox::Contains(const BoundingOrientedBox &)","Contains","Contains method [DirectX Math Support APIs]","Contains method [DirectX Math Support APIs]","BoundingOrientedBox interface","dxmath.boundingorientedbox_contains_4"]
 old-location: dxmath\boundingorientedbox_contains_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingOrientedBox.Contains(BoundingOrientedBox)

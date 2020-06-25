@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DPA_Destroy
 title: DPA_Destroy function (dpa_dsa.h)
-description: Frees a Dynamic Pointer Array (DPA).helpviewer_keywords: ["DPA_Destroy","DPA_Destroy function [Windows Controls]","_win32_DPA_Destroy","_win32_DPA_Destroy_cpp","controls.DPA_Destroy","controls._win32_DPA_Destroy","dpa_dsa/DPA_Destroy"]
+description: Frees a Dynamic Pointer Array (DPA).
+helpviewer_keywords: ["DPA_Destroy","DPA_Destroy function [Windows Controls]","_win32_DPA_Destroy","_win32_DPA_Destroy_cpp","controls.DPA_Destroy","controls._win32_DPA_Destroy","dpa_dsa/DPA_Destroy"]
 old-location: controls\DPA_Destroy.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_destroy.htm

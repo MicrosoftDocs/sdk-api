@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreAnchorSink.OnSelectionChange
 title: ITextStoreAnchorSink::OnSelectionChange (textstor.h)
-description: The ITextStoreAnchorSink::OnSelectionChange method is called when the selection within the text stream changes. This method should be called whenever the return value of a potential call to ITextStoreAnchor::GetSelection has changed.helpviewer_keywords: ["ITextStoreAnchorSink interface [Text Services Framework]","OnSelectionChange method","ITextStoreAnchorSink.OnSelectionChange","ITextStoreAnchorSink::OnSelectionChange","OnSelectionChange","OnSelectionChange method [Text Services Framework]","OnSelectionChange method [Text Services Framework]","ITextStoreAnchorSink interface","_tsf_itextstoreanchorsink_onselectionchange_ref","textstor/ITextStoreAnchorSink::OnSelectionChange","tsf.itextstoreanchorsink_onselectionchange"]
+description: The ITextStoreAnchorSink::OnSelectionChange method is called when the selection within the text stream changes. This method should be called whenever the return value of a potential call to ITextStoreAnchor::GetSelection has changed.
+helpviewer_keywords: ["ITextStoreAnchorSink interface [Text Services Framework]","OnSelectionChange method","ITextStoreAnchorSink.OnSelectionChange","ITextStoreAnchorSink::OnSelectionChange","OnSelectionChange","OnSelectionChange method [Text Services Framework]","OnSelectionChange method [Text Services Framework]","ITextStoreAnchorSink interface","_tsf_itextstoreanchorsink_onselectionchange_ref","textstor/ITextStoreAnchorSink::OnSelectionChange","tsf.itextstoreanchorsink_onselectionchange"]
 old-location: tsf\itextstoreanchorsink_onselectionchange.htm
 tech.root: TSF
 ms.assetid: e33932b0-f5ce-4325-809d-ec06cb4a49a6

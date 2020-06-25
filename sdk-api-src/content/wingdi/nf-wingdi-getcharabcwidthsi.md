@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetCharABCWidthsI
 title: GetCharABCWidthsI function (wingdi.h)
-description: The GetCharABCWidthsI function retrieves the widths, in logical units, of consecutive glyph indices in a specified range from the current TrueType font. This function succeeds only with TrueType fonts.helpviewer_keywords: ["GetCharABCWidthsI","GetCharABCWidthsI function [Windows GDI]","_win32_GetCharABCWidthsI","gdi.getcharabcwidthsi","wingdi/GetCharABCWidthsI"]
+description: The GetCharABCWidthsI function retrieves the widths, in logical units, of consecutive glyph indices in a specified range from the current TrueType font. This function succeeds only with TrueType fonts.
+helpviewer_keywords: ["GetCharABCWidthsI","GetCharABCWidthsI function [Windows GDI]","_win32_GetCharABCWidthsI","gdi.getcharabcwidthsi","wingdi/GetCharABCWidthsI"]
 old-location: gdi\getcharabcwidthsi.htm
 tech.root: gdi
 ms.assetid: 7d1210ee-42b7-4f2e-9e89-fb1543d76290

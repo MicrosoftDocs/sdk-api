@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.LocalSize
 title: LocalSize function (winbase.h)
-description: Retrieves the current size of the specified local memory object, in bytes.helpviewer_keywords: ["LocalSize","LocalSize function","_win32_localsize","base.localsize","winbase/LocalSize"]
+description: Retrieves the current size of the specified local memory object, in bytes.
+helpviewer_keywords: ["LocalSize","LocalSize function","_win32_localsize","base.localsize","winbase/LocalSize"]
 old-location: base\localsize.htm
 tech.root: Memory
 ms.assetid: d1337845-d89c-4cd5-a584-36fe0c682c1a

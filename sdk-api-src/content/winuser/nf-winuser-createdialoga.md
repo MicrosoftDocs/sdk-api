@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CreateDialogA
 title: CreateDialogA macro (winuser.h)
-description: Creates a modeless dialog box from a dialog box template resource. The CreateDialog macro uses the CreateDialogParam function.helpviewer_keywords: ["CreateDialog","CreateDialog function [Dialog Boxes]","CreateDialogA","CreateDialogW","_win32_CreateDialog","_win32_createdialog_cpp","dlgbox.createdialog","winui._win32_createdialog","winuser/CreateDialog","winuser/CreateDialogA","winuser/CreateDialogW"]
+description: Creates a modeless dialog box from a dialog box template resource. The CreateDialog macro uses the CreateDialogParam function.
+helpviewer_keywords: ["CreateDialog","CreateDialog function [Dialog Boxes]","CreateDialogA","CreateDialogW","_win32_CreateDialog","_win32_createdialog_cpp","dlgbox.createdialog","winui._win32_createdialog","winuser/CreateDialog","winuser/CreateDialogA","winuser/CreateDialogW"]
 old-location: dlgbox\createdialog.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\createdialog.htm
@@ -103,6 +104,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CreateDialog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

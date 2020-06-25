@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_PercentCompletion
 title: IWdsTransportClient::get_PercentCompletion (wdstptmgmt.h)
-description: Receives the percentage of the current object that has been downloaded.helpviewer_keywords: ["IWdsTransportClient interface [Windows Deployment Services]","PercentCompletion property","IWdsTransportClient.PercentCompletion","IWdsTransportClient.get_PercentCompletion","IWdsTransportClient::PercentCompletion","IWdsTransportClient::get_PercentCompletion","PercentCompletion property [Windows Deployment Services]","PercentCompletion property [Windows Deployment Services]","IWdsTransportClient interface","get_PercentCompletion","wds.iwdstransportclient_percentcompletion","wdstptmgmt/IWdsTransportClient::PercentCompletion","wdstptmgmt/IWdsTransportClient::get_PercentCompletion"]
+description: Receives the percentage of the current object that has been downloaded.
+helpviewer_keywords: ["IWdsTransportClient interface [Windows Deployment Services]","PercentCompletion property","IWdsTransportClient.PercentCompletion","IWdsTransportClient.get_PercentCompletion","IWdsTransportClient::PercentCompletion","IWdsTransportClient::get_PercentCompletion","PercentCompletion property [Windows Deployment Services]","PercentCompletion property [Windows Deployment Services]","IWdsTransportClient interface","get_PercentCompletion","wds.iwdstransportclient_percentcompletion","wdstptmgmt/IWdsTransportClient::PercentCompletion","wdstptmgmt/IWdsTransportClient::get_PercentCompletion"]
 old-location: wds\iwdstransportclient_percentcompletion.htm
 tech.root: wds
 ms.assetid: 7d093d69-822c-4b89-893c-d9b070bd8133

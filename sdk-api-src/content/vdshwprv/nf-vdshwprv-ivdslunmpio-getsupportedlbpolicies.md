@@ -1,7 +1,8 @@
 ---
 UID: NF:vdshwprv.IVdsLunMpio.GetSupportedLbPolicies
 title: IVdsLunMpio::GetSupportedLbPolicies (vdshwprv.h)
-description: Retrieves the load balance policies that are supported by the hardware provider.helpviewer_keywords: ["GetSupportedLbPolicies","GetSupportedLbPolicies method [VDS]","GetSupportedLbPolicies method [VDS]","IVdsLunMpio interface","IVdsLunMpio interface [VDS]","GetSupportedLbPolicies method","IVdsLunMpio.GetSupportedLbPolicies","IVdsLunMpio::GetSupportedLbPolicies","base.ivdslunmpio_getsupportedlbpolicies","vds/IVdsLunMpio::GetSupportedLbPolicies","vdshwprv/IVdsLunMpio::GetSupportedLbPolicies"]
+description: Retrieves the load balance policies that are supported by the hardware provider.
+helpviewer_keywords: ["GetSupportedLbPolicies","GetSupportedLbPolicies method [VDS]","GetSupportedLbPolicies method [VDS]","IVdsLunMpio interface","IVdsLunMpio interface [VDS]","GetSupportedLbPolicies method","IVdsLunMpio.GetSupportedLbPolicies","IVdsLunMpio::GetSupportedLbPolicies","base.ivdslunmpio_getsupportedlbpolicies","vds/IVdsLunMpio::GetSupportedLbPolicies","vdshwprv/IVdsLunMpio::GetSupportedLbPolicies"]
 old-location: base\ivdslunmpio_getsupportedlbpolicies.htm
 tech.root: VDS
 ms.assetid: 1b1f3437-41db-403e-abdb-febbfe90858c

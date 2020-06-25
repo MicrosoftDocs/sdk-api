@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.AppPolicyGetMediaFoundationCodecLoading
 title: AppPolicyGetMediaFoundationCodecLoading function (appmodel.h)
-description: Retrieves a value indicating whether a process’s policy allows it to load non-Windows (third-party) plugins. You can use the value to decide whether or not to allow non-Windows (third-party) plugins.helpviewer_keywords: ["AppPolicyGetMediaFoundationCodecLoading","AppPolicyGetMediaFoundationCodecLoading function [App packaging and management]","appmodel/AppPolicyGetMediaFoundationCodecLoading","appxpkg.apppolicygetmediafoundationcodecloading"]
+description: Retrieves a value indicating whether a process’s policy allows it to load non-Windows (third-party) plugins. You can use the value to decide whether or not to allow non-Windows (third-party) plugins.
+helpviewer_keywords: ["AppPolicyGetMediaFoundationCodecLoading","AppPolicyGetMediaFoundationCodecLoading function [App packaging and management]","appmodel/AppPolicyGetMediaFoundationCodecLoading","appxpkg.apppolicygetmediafoundationcodecloading"]
 old-location: appxpkg\apppolicygetmediafoundationcodecloading.htm
 tech.root: appxpkg
 ms.assetid: 59231147-0505-4353-AADE-D81701ECBAD5

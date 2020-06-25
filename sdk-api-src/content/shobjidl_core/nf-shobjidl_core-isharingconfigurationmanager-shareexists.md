@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.ShareExists
 title: ISharingConfigurationManager::ShareExists (shobjidl_core.h)
-description: Queries whether the Users or Public folder is shared.helpviewer_keywords: ["ISharingConfigurationManager interface [Windows Shell]","ShareExists method","ISharingConfigurationManager.ShareExists","ISharingConfigurationManager::ShareExists","ShareExists","ShareExists method [Windows Shell]","ShareExists method [Windows Shell]","ISharingConfigurationManager interface","_shell_ISharingConfigurationManager_ShareExists","shell.ISharingConfigurationManager_ShareExists","shobjidl_core/ISharingConfigurationManager::ShareExists"]
+description: Queries whether the Users or Public folder is shared.
+helpviewer_keywords: ["ISharingConfigurationManager interface [Windows Shell]","ShareExists method","ISharingConfigurationManager.ShareExists","ISharingConfigurationManager::ShareExists","ShareExists","ShareExists method [Windows Shell]","ShareExists method [Windows Shell]","ISharingConfigurationManager interface","_shell_ISharingConfigurationManager_ShareExists","shell.ISharingConfigurationManager_ShareExists","shobjidl_core/ISharingConfigurationManager::ShareExists"]
 old-location: shell\ISharingConfigurationManager_ShareExists.htm
 tech.root: shell
 ms.assetid: d15d40a1-fdde-430a-bb8c-537ce58536dd

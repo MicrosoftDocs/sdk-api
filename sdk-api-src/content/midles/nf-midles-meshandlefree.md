@@ -1,7 +1,8 @@
 ---
 UID: NF:midles.MesHandleFree
 title: MesHandleFree function (midles.h)
-description: The MesHandleFree function frees the memory allocated by the serialization handle.helpviewer_keywords: ["MesHandleFree","MesHandleFree function [RPC]","_rpc_meshandlefree","midles/MesHandleFree","rpc.meshandlefree"]
+description: The MesHandleFree function frees the memory allocated by the serialization handle.
+helpviewer_keywords: ["MesHandleFree","MesHandleFree function [RPC]","_rpc_meshandlefree","midles/MesHandleFree","rpc.meshandlefree"]
 old-location: rpc\meshandlefree.htm
 tech.root: Rpc
 ms.assetid: d4a4ac59-56fb-4693-9007-f358105f82f0

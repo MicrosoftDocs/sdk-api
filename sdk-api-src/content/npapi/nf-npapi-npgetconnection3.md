@@ -1,7 +1,8 @@
 ---
 UID: NF:npapi.NPGetConnection3
 title: NPGetConnection3 function (npapi.h)
-description: Retrieves information about a network connection, even if it is currently disconnected.helpviewer_keywords: ["NPGetConnection3","NPGetConnection3 function [Security]","WNGETCON_CONNECTED","WNGETCON_DISCONNECTED","_mnp_npgetconnection3","npapi/NPGetConnection3","security.npgetconnection3"]
+description: Retrieves information about a network connection, even if it is currently disconnected.
+helpviewer_keywords: ["NPGetConnection3","NPGetConnection3 function [Security]","WNGETCON_CONNECTED","WNGETCON_DISCONNECTED","_mnp_npgetconnection3","npapi/NPGetConnection3","security.npgetconnection3"]
 old-location: security\npgetconnection3.htm
 tech.root: SecAuthN
 ms.assetid: 6beb0a9e-4f32-4e83-be78-858185b30521

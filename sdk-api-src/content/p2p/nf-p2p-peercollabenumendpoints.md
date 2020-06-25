@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerCollabEnumEndpoints
 title: PeerCollabEnumEndpoints function (p2p.h)
-description: Returns the handle to an enumeration that contains the endpoints associated with a specific peer contact.helpviewer_keywords: ["PeerCollabEnumEndpoints","PeerCollabEnumEndpoints function [Peer Networking]","p2p.peercollabenumendpoints","p2p/PeerCollabEnumEndpoints"]
+description: Returns the handle to an enumeration that contains the endpoints associated with a specific peer contact.
+helpviewer_keywords: ["PeerCollabEnumEndpoints","PeerCollabEnumEndpoints function [Peer Networking]","p2p.peercollabenumendpoints","p2p/PeerCollabEnumEndpoints"]
 old-location: p2p\peercollabenumendpoints.htm
 tech.root: P2PSdk
 ms.assetid: c29d089c-1f1e-4d50-9a3a-18c844b4ad1c

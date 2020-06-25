@@ -1,7 +1,8 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_FeaturesActive
 title: IMSVidCtl::put_FeaturesActive (msvidctl.h)
-description: The put_FeaturesActive method specifies a collection of features to activate.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","put_FeaturesActive method","IMSVidCtl.put_FeaturesActive","IMSVidCtl::put_FeaturesActive","IMSVidCtlput_FeaturesActive","mstv.imsvidctl_put_featuresactive","msvidctl/IMSVidCtl::put_FeaturesActive","put_FeaturesActive","put_FeaturesActive method [Microsoft TV Technologies]","put_FeaturesActive method [Microsoft TV Technologies]","IMSVidCtl interface"]
+description: The put_FeaturesActive method specifies a collection of features to activate.
+helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","put_FeaturesActive method","IMSVidCtl.put_FeaturesActive","IMSVidCtl::put_FeaturesActive","IMSVidCtlput_FeaturesActive","mstv.imsvidctl_put_featuresactive","msvidctl/IMSVidCtl::put_FeaturesActive","put_FeaturesActive","put_FeaturesActive method [Microsoft TV Technologies]","put_FeaturesActive method [Microsoft TV Technologies]","IMSVidCtl interface"]
 old-location: mstv\imsvidctl_put_featuresactive.htm
 tech.root: mstv
 ms.assetid: 293506fa-3208-468e-982a-3c1f8ce0269b

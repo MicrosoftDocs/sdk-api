@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.Conclude
 title: IUIAnimationStoryboard2::Conclude (uianimation.h)
-description: Completes the current iteration of a keyframe loop that is in progress (where the loop is set to UI_ANIMATION_REPEAT_INDEFINITELY), terminates the loop, and continues with the storyboard.helpviewer_keywords: ["Conclude","Conclude method [Windows Animation]","Conclude method [Windows Animation]","IUIAnimationStoryboard2 interface","IUIAnimationStoryboard2 interface [Windows Animation]","Conclude method","IUIAnimationStoryboard2.Conclude","IUIAnimationStoryboard2::Conclude","uianimation.iuianimationstoryboard2_conclude","uianimation/IUIAnimationStoryboard2::Conclude"]
+description: Completes the current iteration of a keyframe loop that is in progress (where the loop is set to UI_ANIMATION_REPEAT_INDEFINITELY), terminates the loop, and continues with the storyboard.
+helpviewer_keywords: ["Conclude","Conclude method [Windows Animation]","Conclude method [Windows Animation]","IUIAnimationStoryboard2 interface","IUIAnimationStoryboard2 interface [Windows Animation]","Conclude method","IUIAnimationStoryboard2.Conclude","IUIAnimationStoryboard2::Conclude","uianimation.iuianimationstoryboard2_conclude","uianimation/IUIAnimationStoryboard2::Conclude"]
 old-location: uianimation\iuianimationstoryboard2_conclude.htm
 tech.root: UIAnimation
 ms.assetid: C7687E52-433F-4E73-910D-86298E528F7B

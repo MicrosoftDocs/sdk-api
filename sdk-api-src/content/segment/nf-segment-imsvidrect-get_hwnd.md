@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidRect.get_HWnd
 title: IMSVidRect::get_HWnd (segment.h)
-description: The get_HWnd method retrieves the window associated with the rectangle.helpviewer_keywords: ["IMSVidRect interface [Microsoft TV Technologies]","get_HWnd method","IMSVidRect.get_HWnd","IMSVidRect::get_HWnd","IMSVidRectget_HWnd","get_HWnd","get_HWnd method [Microsoft TV Technologies]","get_HWnd method [Microsoft TV Technologies]","IMSVidRect interface","mstv.imsvidrect_get_hwnd","segment/IMSVidRect::get_HWnd"]
+description: The get_HWnd method retrieves the window associated with the rectangle.
+helpviewer_keywords: ["IMSVidRect interface [Microsoft TV Technologies]","get_HWnd method","IMSVidRect.get_HWnd","IMSVidRect::get_HWnd","IMSVidRectget_HWnd","get_HWnd","get_HWnd method [Microsoft TV Technologies]","get_HWnd method [Microsoft TV Technologies]","IMSVidRect interface","mstv.imsvidrect_get_hwnd","segment/IMSVidRect::get_HWnd"]
 old-location: mstv\imsvidrect_get_hwnd.htm
 tech.root: mstv
 ms.assetid: caa56beb-7eba-48a1-8645-f63666ba0593

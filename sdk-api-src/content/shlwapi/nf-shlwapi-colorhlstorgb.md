@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.ColorHLSToRGB
 title: ColorHLSToRGB function (shlwapi.h)
-description: Converts colors from hue-luminance-saturation (HLS) to RGB format.helpviewer_keywords: ["ColorHLSToRGB","ColorHLSToRGB function [Windows Shell]","_win32_ColorHLSToRGB","shell.ColorHLSToRGB","shlwapi/ColorHLSToRGB"]
+description: Converts colors from hue-luminance-saturation (HLS) to RGB format.
+helpviewer_keywords: ["ColorHLSToRGB","ColorHLSToRGB function [Windows Shell]","_win32_ColorHLSToRGB","shell.ColorHLSToRGB","shlwapi/ColorHLSToRGB"]
 old-location: shell\ColorHLSToRGB.htm
 tech.root: shell
 ms.assetid: 1bf0b337-01de-4ce3-851f-d845866fb46f

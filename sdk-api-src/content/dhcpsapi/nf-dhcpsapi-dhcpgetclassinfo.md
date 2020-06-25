@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpGetClassInfo
 title: DhcpGetClassInfo function (dhcpsapi.h)
-description: The DhcpGetClassInfo function returns the user or vendor class information configured on a specific DHCP server.helpviewer_keywords: ["DhcpGetClassInfo","DhcpGetClassInfo function [DHCP]","dhcp.dhcpgetclassinfo","dhcpsapi/DhcpGetClassInfo"]
+description: The DhcpGetClassInfo function returns the user or vendor class information configured on a specific DHCP server.
+helpviewer_keywords: ["DhcpGetClassInfo","DhcpGetClassInfo function [DHCP]","dhcp.dhcpgetclassinfo","dhcpsapi/DhcpGetClassInfo"]
 old-location: dhcp\dhcpgetclassinfo.htm
 tech.root: DHCP
 ms.assetid: c38a593f-60f0-41c7-83a8-bbec9b79dfac

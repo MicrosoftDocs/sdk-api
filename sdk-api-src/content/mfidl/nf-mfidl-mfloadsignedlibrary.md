@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFLoadSignedLibrary
 title: MFLoadSignedLibrary function (mfidl.h)
-description: Loads a dynamic link library that is signed for the protected environment.helpviewer_keywords: ["MFLoadSignedLibrary","MFLoadSignedLibrary function [Media Foundation]","mf.mfloadsignedlibrary","mfidl/MFLoadSignedLibrary"]
+description: Loads a dynamic link library that is signed for the protected environment.
+helpviewer_keywords: ["MFLoadSignedLibrary","MFLoadSignedLibrary function [Media Foundation]","mf.mfloadsignedlibrary","mfidl/MFLoadSignedLibrary"]
 old-location: mf\mfloadsignedlibrary.htm
 tech.root: medfound
 ms.assetid: 979A5FE5-0DED-4C5A-A27D-CDD10A4A8D5C

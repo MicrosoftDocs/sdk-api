@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HTTP_SET_NULL_ID
 title: HTTP_SET_NULL_ID macro (http.h)
-description: The HTTP_SET_NULL_ID macro sets the HTTP_OPAQUE_ID to NULL.helpviewer_keywords: ["HTTP_SET_NULL_ID","HTTP_SET_NULL_ID macro [HTTP]","http.http_set_null_id","http/HTTP_SET_NULL_ID"]
+description: The HTTP_SET_NULL_ID macro sets the HTTP_OPAQUE_ID to NULL.
+helpviewer_keywords: ["HTTP_SET_NULL_ID","HTTP_SET_NULL_ID macro [HTTP]","http.http_set_null_id","http/HTTP_SET_NULL_ID"]
 old-location: http\http_set_null_id.htm
 tech.root: http
 ms.assetid: d4a15361-3346-4c05-a3df-4503da183549

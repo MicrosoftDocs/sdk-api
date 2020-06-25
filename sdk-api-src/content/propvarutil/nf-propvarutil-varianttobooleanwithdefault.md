@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.VariantToBooleanWithDefault
 title: VariantToBooleanWithDefault function (propvarutil.h)
-description: Extracts a BOOL value from a VARIANT structure. If no value exists, then the specified default value is returned.helpviewer_keywords: ["VariantToBooleanWithDefault","VariantToBooleanWithDefault function [Windows Properties]","_shell_VariantToBooleanWithDefault","properties.VariantToBooleanWithDefault","propvarutil/VariantToBooleanWithDefault","shell.VariantToBooleanWithDefault"]
+description: Extracts a BOOL value from a VARIANT structure. If no value exists, then the specified default value is returned.
+helpviewer_keywords: ["VariantToBooleanWithDefault","VariantToBooleanWithDefault function [Windows Properties]","_shell_VariantToBooleanWithDefault","properties.VariantToBooleanWithDefault","propvarutil/VariantToBooleanWithDefault","shell.VariantToBooleanWithDefault"]
 old-location: properties\VariantToBooleanWithDefault.htm
 tech.root: properties
 ms.assetid: 523c6e75-a51c-4ef7-928c-0d228ab0d337

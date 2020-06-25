@@ -1,7 +1,8 @@
 ---
 UID: NF:winsvc.QueryServiceConfig2A
 title: QueryServiceConfig2A function (winsvc.h)
-description: Retrieves the optional configuration parameters of the specified service.helpviewer_keywords: ["QueryServiceConfig2","QueryServiceConfig2 function","QueryServiceConfig2A","QueryServiceConfig2W","SERVICE_CONFIG_DELAYED_AUTO_START_INFO","SERVICE_CONFIG_DESCRIPTION","SERVICE_CONFIG_FAILURE_ACTIONS","SERVICE_CONFIG_FAILURE_ACTIONS_FLAG","SERVICE_CONFIG_LAUNCH_PROTECTED","SERVICE_CONFIG_PREFERRED_NODE","SERVICE_CONFIG_PRESHUTDOWN_INFO","SERVICE_CONFIG_REQUIRED_PRIVILEGES_INFO","SERVICE_CONFIG_SERVICE_SID_INFO","SERVICE_CONFIG_TRIGGER_INFO","_win32_queryserviceconfig2","base.queryserviceconfig2","winsvc/QueryServiceConfig2","winsvc/QueryServiceConfig2A","winsvc/QueryServiceConfig2W"]
+description: Retrieves the optional configuration parameters of the specified service.
+helpviewer_keywords: ["QueryServiceConfig2","QueryServiceConfig2 function","QueryServiceConfig2A","QueryServiceConfig2W","SERVICE_CONFIG_DELAYED_AUTO_START_INFO","SERVICE_CONFIG_DESCRIPTION","SERVICE_CONFIG_FAILURE_ACTIONS","SERVICE_CONFIG_FAILURE_ACTIONS_FLAG","SERVICE_CONFIG_LAUNCH_PROTECTED","SERVICE_CONFIG_PREFERRED_NODE","SERVICE_CONFIG_PRESHUTDOWN_INFO","SERVICE_CONFIG_REQUIRED_PRIVILEGES_INFO","SERVICE_CONFIG_SERVICE_SID_INFO","SERVICE_CONFIG_TRIGGER_INFO","_win32_queryserviceconfig2","base.queryserviceconfig2","winsvc/QueryServiceConfig2","winsvc/QueryServiceConfig2A","winsvc/QueryServiceConfig2W"]
 old-location: base\queryserviceconfig2.htm
 tech.root: Services
 ms.assetid: cb090e59-aeff-4420-bb7c-912a4911006f
@@ -306,6 +307,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winsvc.h header defines QueryServiceConfig2 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

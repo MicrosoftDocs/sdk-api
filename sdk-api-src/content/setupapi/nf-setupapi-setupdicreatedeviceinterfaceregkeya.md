@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInterfaceRegKeyA
 title: SetupDiCreateDeviceInterfaceRegKeyA function (setupapi.h)
-description: The SetupDiCreateDeviceInterfaceRegKey function creates a registry key for storing information about a device interface and returns a handle to the key.helpviewer_keywords: ["SetupDiCreateDeviceInterfaceRegKey","SetupDiCreateDeviceInterfaceRegKey function [Device and Driver Installation]","SetupDiCreateDeviceInterfaceRegKeyA","SetupDiCreateDeviceInterfaceRegKeyW","devinst.setupdicreatedeviceinterfaceregkey","di-rtns_4b18b81a-e8ae-4d04-ae67-26cb21472e23.xml","setupapi/SetupDiCreateDeviceInterfaceRegKey"]
+description: The SetupDiCreateDeviceInterfaceRegKey function creates a registry key for storing information about a device interface and returns a handle to the key.
+helpviewer_keywords: ["SetupDiCreateDeviceInterfaceRegKey","SetupDiCreateDeviceInterfaceRegKey function [Device and Driver Installation]","SetupDiCreateDeviceInterfaceRegKeyA","SetupDiCreateDeviceInterfaceRegKeyW","devinst.setupdicreatedeviceinterfaceregkey","di-rtns_4b18b81a-e8ae-4d04-ae67-26cb21472e23.xml","setupapi/SetupDiCreateDeviceInterfaceRegKey"]
 old-location: devinst\setupdicreatedeviceinterfaceregkey.htm
 tech.root: devinst
 ms.assetid: 1be942a1-428d-4cc4-bc9f-9f21243c3d21
@@ -113,6 +114,10 @@ The device information set specified by <i>DeviceInfoSet</i> must only contain e
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiCreateDeviceInterfaceRegKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

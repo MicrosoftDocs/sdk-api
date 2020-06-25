@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement8.get_CachedHeadingLevel
 title: IUIAutomationElement8::get_CachedHeadingLevel (uiautomationclient.h)
-description: Gets the cached heading level of the automation element.helpviewer_keywords: ["CachedHeadingLevel property [Windows Accessibility]","CachedHeadingLevel property [Windows Accessibility]","IUIAutomationElement8 interface","IUIAutomationElement8 interface [Windows Accessibility]","CachedHeadingLevel property","IUIAutomationElement8.CachedHeadingLevel","IUIAutomationElement8.get_CachedHeadingLevel","IUIAutomationElement8::CachedHeadingLevel","IUIAutomationElement8::get_CachedHeadingLevel","get_CachedHeadingLevel","uiautomationclient/IUIAutomationElement8::CachedHeadingLevel","uiautomationclient/IUIAutomationElement8::get_CachedHeadingLevel","winauto.uiauto_IUIAutomationElement8_CachedHeadingLevel"]
+description: Gets the cached heading level of the automation element.
+helpviewer_keywords: ["CachedHeadingLevel property [Windows Accessibility]","CachedHeadingLevel property [Windows Accessibility]","IUIAutomationElement8 interface","IUIAutomationElement8 interface [Windows Accessibility]","CachedHeadingLevel property","IUIAutomationElement8.CachedHeadingLevel","IUIAutomationElement8.get_CachedHeadingLevel","IUIAutomationElement8::CachedHeadingLevel","IUIAutomationElement8::get_CachedHeadingLevel","get_CachedHeadingLevel","uiautomationclient/IUIAutomationElement8::CachedHeadingLevel","uiautomationclient/IUIAutomationElement8::get_CachedHeadingLevel","winauto.uiauto_IUIAutomationElement8_CachedHeadingLevel"]
 old-location: winauto\uiauto_IUIAutomationElement8_CachedHeadingLevel.htm
 tech.root: WinAuto
 ms.assetid: 09D26DA8-DC15-48B3-A52B-FD7AE0FB3D61

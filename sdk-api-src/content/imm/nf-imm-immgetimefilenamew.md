@@ -1,7 +1,8 @@
 ---
 UID: NF:imm.ImmGetIMEFileNameW
 title: ImmGetIMEFileNameW function (imm.h)
-description: Retrieves the file name of the IME associated with the specified input locale.helpviewer_keywords: ["ImmGetIMEFileName","ImmGetIMEFileName function [Internationalization for Windows Applications]","ImmGetIMEFileNameA","ImmGetIMEFileNameW","_win32_ImmGetIMEFileName","imm/ImmGetIMEFileName","imm/ImmGetIMEFileNameA","imm/ImmGetIMEFileNameW","intl.immgetimefilename"]
+description: Retrieves the file name of the IME associated with the specified input locale.
+helpviewer_keywords: ["ImmGetIMEFileName","ImmGetIMEFileName function [Internationalization for Windows Applications]","ImmGetIMEFileNameA","ImmGetIMEFileNameW","_win32_ImmGetIMEFileName","imm/ImmGetIMEFileName","imm/ImmGetIMEFileNameA","imm/ImmGetIMEFileNameW","intl.immgetimefilename"]
 old-location: intl\immgetimefilename.htm
 tech.root: Intl
 ms.assetid: c2dafd0a-3cb9-4d9b-919b-c7ef86fb1cd4
@@ -94,6 +95,10 @@ In the registry, the operating system stores the file name as the "IME name valu
 
 
 
+
+
+> [!NOTE]
+> The imm.h header defines ImmGetIMEFileName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

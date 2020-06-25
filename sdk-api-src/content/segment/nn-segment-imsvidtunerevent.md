@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidTunerEvent
 title: IMSVidTunerEvent (segment.h)
-description: This topic applies to Windows XP or later.helpviewer_keywords: ["IMSVidTunerEvent","IMSVidTunerEvent interface [Microsoft TV Technologies]","IMSVidTunerEvent interface [Microsoft TV Technologies]","described","IMSVidTunerEventInterface","mstv.imsvidtunerevent","segment/IMSVidTunerEvent"]
+description: This topic applies to Windows XP or later.
+helpviewer_keywords: ["IMSVidTunerEvent","IMSVidTunerEvent interface [Microsoft TV Technologies]","IMSVidTunerEvent interface [Microsoft TV Technologies]","described","IMSVidTunerEventInterface","mstv.imsvidtunerevent","segment/IMSVidTunerEvent"]
 old-location: mstv\imsvidtunerevent.htm
 tech.root: mstv
 ms.assetid: cdffe6ca-00b0-4230-963d-b4409413e5f5

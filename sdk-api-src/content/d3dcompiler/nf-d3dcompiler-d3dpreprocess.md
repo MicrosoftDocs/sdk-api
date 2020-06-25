@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcompiler.D3DPreprocess
 title: D3DPreprocess function (d3dcompiler.h)
-description: Preprocesses uncompiled HLSL code.helpviewer_keywords: ["91482c2f-2730-5aba-e73a-43653c75ff49","D3DPreprocess","D3DPreprocess function [HLSL]","d3dcompiler/D3DPreprocess","direct3dhlsl.d3dpreprocess"]
+description: Preprocesses uncompiled HLSL code.
+helpviewer_keywords: ["91482c2f-2730-5aba-e73a-43653c75ff49","D3DPreprocess","D3DPreprocess function [HLSL]","d3dcompiler/D3DPreprocess","direct3dhlsl.d3dpreprocess"]
 old-location: direct3dhlsl\d3dpreprocess.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dpreprocess.htm

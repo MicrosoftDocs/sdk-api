@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagGESTUREINFO
 title: GESTUREINFO (winuser.h)
-description: Stores information about a gesture.helpviewer_keywords: ["*PGESTUREINFO","GESTUREINFO","GESTUREINFO structure [Windows Touch]","PGESTUREINFO","PGESTUREINFO structure pointer [Windows Touch]","tagGESTUREINFO","wintouch.gestureinfo","winuser/GESTUREINFO","winuser/PGESTUREINFO"]
+description: Stores information about a gesture.
+helpviewer_keywords: ["*PGESTUREINFO","GESTUREINFO","GESTUREINFO structure [Windows Touch]","PGESTUREINFO","PGESTUREINFO structure pointer [Windows Touch]","tagGESTUREINFO","wintouch.gestureinfo","winuser/GESTUREINFO","winuser/PGESTUREINFO"]
 old-location: wintouch\gestureinfo.htm
 tech.root: wintouch
 ms.assetid: f5b8b530-ff1e-4d78-a12f-86990fe9ac88

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbio.WinBioEnrollCaptureWithCallback
 title: WinBioEnrollCaptureWithCallback function (winbio.h)
-description: Asynchronously captures a biometric sample and adds it to a template.helpviewer_keywords: ["WinBioEnrollCaptureWithCallback","WinBioEnrollCaptureWithCallback function [Windows Biometric Framework API]","secbiomet.winbioenrollcapturewithcallback","winbio/WinBioEnrollCaptureWithCallback"]
+description: Asynchronously captures a biometric sample and adds it to a template.
+helpviewer_keywords: ["WinBioEnrollCaptureWithCallback","WinBioEnrollCaptureWithCallback function [Windows Biometric Framework API]","secbiomet.winbioenrollcapturewithcallback","winbio/WinBioEnrollCaptureWithCallback"]
 old-location: secbiomet\winbioenrollcapturewithcallback.htm
 tech.root: SecBioMet
 ms.assetid: 809e7d2f-6b41-4afc-86c2-43b6611d6e48

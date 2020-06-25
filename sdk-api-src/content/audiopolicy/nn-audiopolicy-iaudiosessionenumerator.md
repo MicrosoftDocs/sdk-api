@@ -1,7 +1,8 @@
 ---
 UID: NN:audiopolicy.IAudioSessionEnumerator
 title: IAudioSessionEnumerator (audiopolicy.h)
-description: The IAudioSessionEnumerator interface enumerates audio sessions on an audio device.helpviewer_keywords: ["IAudioSessionEnumerator","IAudioSessionEnumerator interface [Core Audio]","IAudioSessionEnumerator interface [Core Audio]","described","audiopolicy/IAudioSessionEnumerator","coreaudio.iaudiosessionenumerator"]
+description: The IAudioSessionEnumerator interface enumerates audio sessions on an audio device.
+helpviewer_keywords: ["IAudioSessionEnumerator","IAudioSessionEnumerator interface [Core Audio]","IAudioSessionEnumerator interface [Core Audio]","described","audiopolicy/IAudioSessionEnumerator","coreaudio.iaudiosessionenumerator"]
 old-location: coreaudio\iaudiosessionenumerator.htm
 tech.root: CoreAudio
 ms.assetid: a7976d13-3391-4747-b83a-cfb9407b34f2

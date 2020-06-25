@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdhost.IWSDDeviceHost.Stop
 title: IWSDDeviceHost::Stop (wsdhost.h)
-description: Sends a WS-Discovery Bye message and stops the host.helpviewer_keywords: ["IWSDDeviceHost interface","Stop method","IWSDDeviceHost.Stop","IWSDDeviceHost::Stop","Stop","Stop method","Stop method","IWSDDeviceHost interface","ncd.iwsddevicehost_stop_method","wsdhost/IWSDDeviceHost::Stop"]
+description: Sends a WS-Discovery Bye message and stops the host.
+helpviewer_keywords: ["IWSDDeviceHost interface","Stop method","IWSDDeviceHost.Stop","IWSDDeviceHost::Stop","Stop","Stop method","Stop method","IWSDDeviceHost interface","ncd.iwsddevicehost_stop_method","wsdhost/IWSDDeviceHost::Stop"]
 old-location: ncd\iwsddevicehost_stop_method.htm
 tech.root: WsdApi
 ms.assetid: 7a31e45a-7d38-44b7-84c7-7471bc14cc94

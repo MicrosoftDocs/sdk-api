@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetContext
 title: IToc::GetContext (wmcodecdsp.h)
-description: The GetContext method retrieves a block of bytes that was previously associated with the table of contents by a call to SetContext.helpviewer_keywords: ["GetContext","GetContext method [Media Foundation]","GetContext method [Media Foundation]","IToc interface","IToc interface [Media Foundation]","GetContext method","IToc.GetContext","IToc::GetContext","codecapi.itoc_getcontext","mf.itoc_getcontext","wmcodecdsp/IToc::GetContext"]
+description: The GetContext method retrieves a block of bytes that was previously associated with the table of contents by a call to SetContext.
+helpviewer_keywords: ["GetContext","GetContext method [Media Foundation]","GetContext method [Media Foundation]","IToc interface","IToc interface [Media Foundation]","GetContext method","IToc.GetContext","IToc::GetContext","codecapi.itoc_getcontext","mf.itoc_getcontext","wmcodecdsp/IToc::GetContext"]
 old-location: mf\itoc_getcontext.htm
 tech.root: medfound
 ms.assetid: b4c65f1b-7465-4229-8fac-92d6b1be50da

@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzRoleDefinition.get_RoleDefinitions
 title: IAzRoleDefinition::get_RoleDefinitions (azroles.h)
-description: Retrieves a collection of the IAzRoleDefinition objects associated with this IAzRoleDefinition object.helpviewer_keywords: ["IAzRoleDefinition interface [Security]","RoleDefinitions property","IAzRoleDefinition.RoleDefinitions","IAzRoleDefinition.get_RoleDefinitions","IAzRoleDefinition::RoleDefinitions","IAzRoleDefinition::get_RoleDefinitions","RoleDefinitions property [Security]","RoleDefinitions property [Security]","IAzRoleDefinition interface","azroles/IAzRoleDefinition::RoleDefinitions","azroles/IAzRoleDefinition::get_RoleDefinitions","get_RoleDefinitions","security.iazroledefinition_roledefinitions"]
+description: Retrieves a collection of the IAzRoleDefinition objects associated with this IAzRoleDefinition object.
+helpviewer_keywords: ["IAzRoleDefinition interface [Security]","RoleDefinitions property","IAzRoleDefinition.RoleDefinitions","IAzRoleDefinition.get_RoleDefinitions","IAzRoleDefinition::RoleDefinitions","IAzRoleDefinition::get_RoleDefinitions","RoleDefinitions property [Security]","RoleDefinitions property [Security]","IAzRoleDefinition interface","azroles/IAzRoleDefinition::RoleDefinitions","azroles/IAzRoleDefinition::get_RoleDefinitions","get_RoleDefinitions","security.iazroledefinition_roledefinitions"]
 old-location: security\iazroledefinition_roledefinitions.htm
 tech.root: SecAuthZ
 ms.assetid: 362df9e2-af74-48b7-a6f4-aaa6ad1d8df5

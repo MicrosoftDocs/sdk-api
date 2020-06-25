@@ -1,7 +1,8 @@
 ---
 UID: NF:snmp.SnmpUtilVarBindListCpy
 title: SnmpUtilVarBindListCpy function (snmp.h)
-description: The SnmpUtilVarBindListCpy function copies the specified SnmpVarBindList structure, and allocates any necessary memory for the destination's copy. This function is an element of the SNMP Utility API.helpviewer_keywords: ["SnmpUtilVarBindListCpy","SnmpUtilVarBindListCpy function [SNMP]","_snmp_snmputilvarbindlistcpy","snmp.snmputilvarbindlistcpy","snmp/SnmpUtilVarBindListCpy"]
+description: The SnmpUtilVarBindListCpy function copies the specified SnmpVarBindList structure, and allocates any necessary memory for the destination's copy. This function is an element of the SNMP Utility API.
+helpviewer_keywords: ["SnmpUtilVarBindListCpy","SnmpUtilVarBindListCpy function [SNMP]","_snmp_snmputilvarbindlistcpy","snmp.snmputilvarbindlistcpy","snmp/SnmpUtilVarBindListCpy"]
 old-location: snmp\snmputilvarbindlistcpy.htm
 tech.root: SNMP
 ms.assetid: 19837eac-c5b0-46a6-b10d-4460cf918cba

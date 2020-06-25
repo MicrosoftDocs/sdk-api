@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IInvokeProvider.Invoke
 title: IInvokeProvider::Invoke (uiautomationcore.h)
-description: Sends a request to activate a control and initiate its single, unambiguous action.helpviewer_keywords: ["IInvokeProvider interface [Windows Accessibility]","Invoke method","IInvokeProvider.Invoke","IInvokeProvider::Invoke","Invoke","Invoke method [Windows Accessibility]","Invoke method [Windows Accessibility]","IInvokeProvider interface","uiauto.uiauto_IInvokeProvider_Invoke","uiauto_IInvokeProvider_Invoke","uiautomationcore/IInvokeProvider::Invoke","winauto.uiauto_IInvokeProvider_Invoke"]
+description: Sends a request to activate a control and initiate its single, unambiguous action.
+helpviewer_keywords: ["IInvokeProvider interface [Windows Accessibility]","Invoke method","IInvokeProvider.Invoke","IInvokeProvider::Invoke","Invoke","Invoke method [Windows Accessibility]","Invoke method [Windows Accessibility]","IInvokeProvider interface","uiauto.uiauto_IInvokeProvider_Invoke","uiauto_IInvokeProvider_Invoke","uiautomationcore/IInvokeProvider::Invoke","winauto.uiauto_IInvokeProvider_Invoke"]
 old-location: winauto\uiauto_IInvokeProvider_Invoke.htm
 tech.root: WinAuto
 ms.assetid: 9bd2aba1-0751-412c-a6fe-0c10b9baa01e

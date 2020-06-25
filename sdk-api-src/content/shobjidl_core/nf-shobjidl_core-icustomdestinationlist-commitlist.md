@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.CommitList
 title: ICustomDestinationList::CommitList (shobjidl_core.h)
-description: Declares that the Jump List initiated by a call to ICustomDestinationList::BeginList is complete and ready for display.helpviewer_keywords: ["CommitList","CommitList method [Windows Shell]","CommitList method [Windows Shell]","ICustomDestinationList interface","ICustomDestinationList interface [Windows Shell]","CommitList method","ICustomDestinationList.CommitList","ICustomDestinationList::CommitList","_shell_ICustomDestinationList_CommitList","shell.ICustomDestinationList_CommitList","shobjidl_core/ICustomDestinationList::CommitList"]
+description: Declares that the Jump List initiated by a call to ICustomDestinationList::BeginList is complete and ready for display.
+helpviewer_keywords: ["CommitList","CommitList method [Windows Shell]","CommitList method [Windows Shell]","ICustomDestinationList interface","ICustomDestinationList interface [Windows Shell]","CommitList method","ICustomDestinationList.CommitList","ICustomDestinationList::CommitList","_shell_ICustomDestinationList_CommitList","shell.ICustomDestinationList_CommitList","shobjidl_core/ICustomDestinationList::CommitList"]
 old-location: shell\ICustomDestinationList_CommitList.htm
 tech.root: shell
 ms.assetid: 5f9aa598-9a94-4210-84cd-f4b39e47b260

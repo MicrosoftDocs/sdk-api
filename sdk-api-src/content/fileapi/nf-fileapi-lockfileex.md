@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.LockFileEx
 title: LockFileEx function (fileapi.h)
-description: Locks the specified file for exclusive access by the calling process. This function can operate either synchronously or asynchronously and can request either an exclusive or a shared lock.helpviewer_keywords: ["LOCKFILE_EXCLUSIVE_LOCK","LOCKFILE_FAIL_IMMEDIATELY","LockFileEx","LockFileEx function [Files]","_win32_lockfileex","base.lockfileex","fileapi/LockFileEx","fs.lockfileex","winbase/LockFileEx"]
+description: Locks the specified file for exclusive access by the calling process. This function can operate either synchronously or asynchronously and can request either an exclusive or a shared lock.
+helpviewer_keywords: ["LOCKFILE_EXCLUSIVE_LOCK","LOCKFILE_FAIL_IMMEDIATELY","LockFileEx","LockFileEx function [Files]","_win32_lockfileex","base.lockfileex","fileapi/LockFileEx","fs.lockfileex","winbase/LockFileEx"]
 old-location: fs\lockfileex.htm
 tech.root: FileIO
 ms.assetid: 30931ed0-495c-4b50-964a-c507d4ebc2be

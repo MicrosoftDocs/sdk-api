@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.SetTextRenderingParams
 title: ID2D1CommandSink::SetTextRenderingParams (d2d1_1.h)
-description: Indicates more detailed text rendering parameters.helpviewer_keywords: ["ID2D1CommandSink interface [Direct2D]","SetTextRenderingParams method","ID2D1CommandSink.SetTextRenderingParams","ID2D1CommandSink::SetTextRenderingParams","SetTextRenderingParams","SetTextRenderingParams method [Direct2D]","SetTextRenderingParams method [Direct2D]","ID2D1CommandSink interface","d2d1_1/ID2D1CommandSink::SetTextRenderingParams","direct2d.id2d1commandsink_settextrendeingparams"]
+description: Indicates more detailed text rendering parameters.
+helpviewer_keywords: ["ID2D1CommandSink interface [Direct2D]","SetTextRenderingParams method","ID2D1CommandSink.SetTextRenderingParams","ID2D1CommandSink::SetTextRenderingParams","SetTextRenderingParams","SetTextRenderingParams method [Direct2D]","SetTextRenderingParams method [Direct2D]","ID2D1CommandSink interface","d2d1_1/ID2D1CommandSink::SetTextRenderingParams","direct2d.id2d1commandsink_settextrendeingparams"]
 old-location: direct2d\id2d1commandsink_settextrendeingparams.htm
 tech.root: Direct2D
 ms.assetid: e847f2e3-6d2d-45e6-b1ef-bf393ed53e2b

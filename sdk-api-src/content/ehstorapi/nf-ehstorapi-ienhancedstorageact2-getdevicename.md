@@ -1,7 +1,8 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT2.GetDeviceName
 title: IEnhancedStorageACT2::GetDeviceName (ehstorapi.h)
-description: IEnhancedStorageACT2::GetDeviceName method returns the device name associated with the Addressable Command Target (ACT).helpviewer_keywords: ["GetDeviceName","GetDeviceName method [Enhanced Storage]","GetDeviceName method [Enhanced Storage]","IEnhancedStorageACT2 interface","IEnhancedStorageACT2 interface [Enhanced Storage]","GetDeviceName method","IEnhancedStorageACT2.GetDeviceName","IEnhancedStorageACT2::GetDeviceName","ehstorapi/IEnhancedStorageACT2::GetDeviceName","enstor.ienhancedstorageact2_getdevicename"]
+description: IEnhancedStorageACT2::GetDeviceName method returns the device name associated with the Addressable Command Target (ACT).
+helpviewer_keywords: ["GetDeviceName","GetDeviceName method [Enhanced Storage]","GetDeviceName method [Enhanced Storage]","IEnhancedStorageACT2 interface","IEnhancedStorageACT2 interface [Enhanced Storage]","GetDeviceName method","IEnhancedStorageACT2.GetDeviceName","IEnhancedStorageACT2::GetDeviceName","ehstorapi/IEnhancedStorageACT2::GetDeviceName","enstor.ienhancedstorageact2_getdevicename"]
 old-location: enstor\ienhancedstorageact2_getdevicename.htm
 tech.root: enstor
 ms.assetid: 8603a7c3-b3b9-4b84-9f74-96b639c6c961

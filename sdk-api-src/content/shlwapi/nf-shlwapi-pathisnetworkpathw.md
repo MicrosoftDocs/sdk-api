@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsNetworkPathW
 title: PathIsNetworkPathW function (shlwapi.h)
-description: Determines whether a path string represents a network resource.helpviewer_keywords: ["PathIsNetworkPath","PathIsNetworkPath function [Windows Shell]","PathIsNetworkPathA","PathIsNetworkPathW","_win32_PathIsNetworkPath","shell.PathIsNetworkPath","shlwapi/PathIsNetworkPath","shlwapi/PathIsNetworkPathA","shlwapi/PathIsNetworkPathW"]
+description: Determines whether a path string represents a network resource.
+helpviewer_keywords: ["PathIsNetworkPath","PathIsNetworkPath function [Windows Shell]","PathIsNetworkPathA","PathIsNetworkPathW","_win32_PathIsNetworkPath","shell.PathIsNetworkPath","shlwapi/PathIsNetworkPath","shlwapi/PathIsNetworkPathA","shlwapi/PathIsNetworkPathW"]
 old-location: shell\PathIsNetworkPath.htm
 tech.root: shell
 ms.assetid: 3a9c33bc-2325-4285-b6c3-4c3e1d323c1e
@@ -93,4 +94,8 @@ Returns <b>TRUE</b> if the string represents a network resource, or <b>FALSE</b>
 <div class="alert"><b>Note</b>  The function does not verify that the specified network resource exists, is currently accessible, or that the user has sufficient permissions to access it.</div>
 <div> </div>
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines PathIsNetworkPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

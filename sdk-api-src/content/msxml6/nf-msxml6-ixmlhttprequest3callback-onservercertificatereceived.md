@@ -1,7 +1,8 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest3Callback.OnServerCertificateReceived
 title: IXMLHTTPRequest3Callback::OnServerCertificateReceived (msxml6.h)
-description: Occurs when a client receives certificate errors or a server certificate chain during SSL negotiation with the server.helpviewer_keywords: ["IXMLHTTPRequest3Callback interface [XMLHttpRequest2]","OnServerCertificateReceived method","IXMLHTTPRequest3Callback.OnServerCertificateReceived","IXMLHTTPRequest3Callback::OnServerCertificateReceived","OnServerCertificateReceived","OnServerCertificateReceived method [XMLHttpRequest2]","OnServerCertificateReceived method [XMLHttpRequest2]","IXMLHTTPRequest3Callback interface","ixhr2.ixmlhttprequest3callback_onservercertificatereceived","msxml6/IXMLHTTPRequest3Callback::OnServerCertificateReceived"]
+description: Occurs when a client receives certificate errors or a server certificate chain during SSL negotiation with the server.
+helpviewer_keywords: ["IXMLHTTPRequest3Callback interface [XMLHttpRequest2]","OnServerCertificateReceived method","IXMLHTTPRequest3Callback.OnServerCertificateReceived","IXMLHTTPRequest3Callback::OnServerCertificateReceived","OnServerCertificateReceived","OnServerCertificateReceived method [XMLHttpRequest2]","OnServerCertificateReceived method [XMLHttpRequest2]","IXMLHTTPRequest3Callback interface","ixhr2.ixmlhttprequest3callback_onservercertificatereceived","msxml6/IXMLHTTPRequest3Callback::OnServerCertificateReceived"]
 old-location: ixhr2\ixmlhttprequest3callback_onservercertificatereceived.htm
 tech.root: ixhr2
 ms.assetid: 5b00ab76-880b-4450-a6b2-fda399cc9e8b

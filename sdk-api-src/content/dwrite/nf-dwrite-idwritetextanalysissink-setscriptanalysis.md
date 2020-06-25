@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSink.SetScriptAnalysis
 title: IDWriteTextAnalysisSink::SetScriptAnalysis (dwrite.h)
-description: Reports script analysis for the specified text range.helpviewer_keywords: ["IDWriteTextAnalysisSink interface [Direct Write]","SetScriptAnalysis method","IDWriteTextAnalysisSink.SetScriptAnalysis","IDWriteTextAnalysisSink::SetScriptAnalysis","SetScriptAnalysis","SetScriptAnalysis method [Direct Write]","SetScriptAnalysis method [Direct Write]","IDWriteTextAnalysisSink interface","directwrite.idwritetextanalysissink_setscriptanalysis","dwrite/IDWriteTextAnalysisSink::SetScriptAnalysis"]
+description: Reports script analysis for the specified text range.
+helpviewer_keywords: ["IDWriteTextAnalysisSink interface [Direct Write]","SetScriptAnalysis method","IDWriteTextAnalysisSink.SetScriptAnalysis","IDWriteTextAnalysisSink::SetScriptAnalysis","SetScriptAnalysis","SetScriptAnalysis method [Direct Write]","SetScriptAnalysis method [Direct Write]","IDWriteTextAnalysisSink interface","directwrite.idwritetextanalysissink_setscriptanalysis","dwrite/IDWriteTextAnalysisSink::SetScriptAnalysis"]
 old-location: directwrite\idwritetextanalysissink_setscriptanalysis.htm
 tech.root: DirectWrite
 ms.assetid: beae0420-b244-4c87-a3cb-a1b34562c3ed

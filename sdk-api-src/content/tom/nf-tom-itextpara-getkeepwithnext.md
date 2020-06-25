@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetKeepWithNext
 title: ITextPara::GetKeepWithNext (tom.h)
-description: Determines whether page breaks are allowed between paragraphs in the range.helpviewer_keywords: ["GetKeepWithNext","GetKeepWithNext method [Windows Controls]","GetKeepWithNext method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetKeepWithNext method","ITextPara.GetKeepWithNext","ITextPara::GetKeepWithNext","_win32_ITextPara_GetKeepWithNext","_win32_ITextPara_GetKeepWithNext_cpp","controls.ITextPara_GetKeepWithNext","controls._win32_ITextPara_GetKeepWithNext","tom/ITextPara::GetKeepWithNext","tomFalse","tomTrue","tomUndefined"]
+description: Determines whether page breaks are allowed between paragraphs in the range.
+helpviewer_keywords: ["GetKeepWithNext","GetKeepWithNext method [Windows Controls]","GetKeepWithNext method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetKeepWithNext method","ITextPara.GetKeepWithNext","ITextPara::GetKeepWithNext","_win32_ITextPara_GetKeepWithNext","_win32_ITextPara_GetKeepWithNext_cpp","controls.ITextPara_GetKeepWithNext","controls._win32_ITextPara_GetKeepWithNext","tom/ITextPara::GetKeepWithNext","tomFalse","tomTrue","tomUndefined"]
 old-location: controls\ITextPara_GetKeepWithNext.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getkeepwithnext.htm

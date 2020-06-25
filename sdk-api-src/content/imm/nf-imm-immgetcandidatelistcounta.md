@@ -1,7 +1,8 @@
 ---
 UID: NF:imm.ImmGetCandidateListCountA
 title: ImmGetCandidateListCountA function (imm.h)
-description: Retrieves the size of the candidate lists.helpviewer_keywords: ["ImmGetCandidateListCount","ImmGetCandidateListCount function [Internationalization for Windows Applications]","ImmGetCandidateListCountA","ImmGetCandidateListCountW","_win32_ImmGetCandidateListCount","imm/ImmGetCandidateListCount","imm/ImmGetCandidateListCountA","imm/ImmGetCandidateListCountW","intl.immgetcandidatelistcount"]
+description: Retrieves the size of the candidate lists.
+helpviewer_keywords: ["ImmGetCandidateListCount","ImmGetCandidateListCount function [Internationalization for Windows Applications]","ImmGetCandidateListCountA","ImmGetCandidateListCountW","_win32_ImmGetCandidateListCount","imm/ImmGetCandidateListCount","imm/ImmGetCandidateListCountA","imm/ImmGetCandidateListCountW","intl.immgetcandidatelistcount"]
 old-location: intl\immgetcandidatelistcount.htm
 tech.root: Intl
 ms.assetid: da7c4eee-3c79-4ea8-b9a5-3b43befa0021
@@ -86,6 +87,10 @@ Applications typically call this function in response to an <a href="https://doc
 
 
 
+
+
+> [!NOTE]
+> The imm.h header defines ImmGetCandidateListCount as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICBitmapSourceTransform
 title: IWICBitmapSourceTransform (wincodec.h)
-description: Exposes methods for offloading certain operations to the underlying IWICBitmapSource implementation.helpviewer_keywords: ["IWICBitmapSourceTransform","IWICBitmapSourceTransform interface [Windows Imaging Component]","IWICBitmapSourceTransform interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapsourcetransform","wic._wic_codec_iwicbitmapsourcetransform","wincodec/IWICBitmapSourceTransform"]
+description: Exposes methods for offloading certain operations to the underlying IWICBitmapSource implementation.
+helpviewer_keywords: ["IWICBitmapSourceTransform","IWICBitmapSourceTransform interface [Windows Imaging Component]","IWICBitmapSourceTransform interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapsourcetransform","wic._wic_codec_iwicbitmapsourcetransform","wincodec/IWICBitmapSourceTransform"]
 old-location: wic\_wic_codec_iwicbitmapsourcetransform.htm
 tech.root: wic
 ms.assetid: f9cc348f-d4f0-4e77-90d6-9ff563a1799c

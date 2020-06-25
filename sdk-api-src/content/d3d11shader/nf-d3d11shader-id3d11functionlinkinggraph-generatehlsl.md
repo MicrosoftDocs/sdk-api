@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.GenerateHlsl
 title: ID3D11FunctionLinkingGraph::GenerateHlsl (d3d11shader.h)
-description: Generates Microsoft High Level Shader Language (HLSL) shader code that represents the function-linking-graph.helpviewer_keywords: ["GenerateHlsl","GenerateHlsl method [Direct3D 11]","GenerateHlsl method [Direct3D 11]","ID3D11FunctionLinkingGraph interface","ID3D11FunctionLinkingGraph interface [Direct3D 11]","GenerateHlsl method","ID3D11FunctionLinkingGraph.GenerateHlsl","ID3D11FunctionLinkingGraph::GenerateHlsl","d3d11shader/ID3D11FunctionLinkingGraph::GenerateHlsl","direct3d11.id3d11functionlinkinggraph_generatehlsl"]
+description: Generates Microsoft High Level Shader Language (HLSL) shader code that represents the function-linking-graph.
+helpviewer_keywords: ["GenerateHlsl","GenerateHlsl method [Direct3D 11]","GenerateHlsl method [Direct3D 11]","ID3D11FunctionLinkingGraph interface","ID3D11FunctionLinkingGraph interface [Direct3D 11]","GenerateHlsl method","ID3D11FunctionLinkingGraph.GenerateHlsl","ID3D11FunctionLinkingGraph::GenerateHlsl","d3d11shader/ID3D11FunctionLinkingGraph::GenerateHlsl","direct3d11.id3d11functionlinkinggraph_generatehlsl"]
 old-location: direct3d11\id3d11functionlinkinggraph_generatehlsl.htm
 tech.root: direct3d11
 ms.assetid: CD3B815A-0D18-4568-BCDF-7E2D5F1C139F

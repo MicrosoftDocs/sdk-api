@@ -216,8 +216,6 @@ Calls to <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents
 ## -see-also
 
 
-
-
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-getsnapshotproperties">IVssBackupComponents::GetSnapshotProperties</a>
 
 

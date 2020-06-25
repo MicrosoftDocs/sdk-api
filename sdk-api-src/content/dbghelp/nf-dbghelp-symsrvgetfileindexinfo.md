@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymSrvGetFileIndexInfo
 title: SymSrvGetFileIndexInfo function (dbghelp.h)
-description: Retrieves the index information for the specified .pdb, .dbg, or image file.helpviewer_keywords: ["SymSrvGetFileIndexInfo","SymSrvGetFileIndexInfo function","SymSrvGetFileIndexInfoW","base.symsrvgetfileindexinfo","dbghelp/SymSrvGetFileIndexInfo","dbghelp/SymSrvGetFileIndexInfoW"]
+description: Retrieves the index information for the specified .pdb, .dbg, or image file.
+helpviewer_keywords: ["SymSrvGetFileIndexInfo","SymSrvGetFileIndexInfo function","SymSrvGetFileIndexInfoW","base.symsrvgetfileindexinfo","dbghelp/SymSrvGetFileIndexInfo","dbghelp/SymSrvGetFileIndexInfoW"]
 old-location: base\symsrvgetfileindexinfo.htm
 tech.root: Debug
 ms.assetid: ee5b0821-2746-467e-9d95-90776882ac95

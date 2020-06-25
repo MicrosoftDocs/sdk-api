@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.SHEmptyRecycleBinW
 title: SHEmptyRecycleBinW function (shellapi.h)
-description: Empties the Recycle Bin on the specified drive.helpviewer_keywords: ["SHERB_NOCONFIRMATION","SHERB_NOPROGRESSUI","SHERB_NOSOUND","SHEmptyRecycleBin","SHEmptyRecycleBin function [Windows Shell]","SHEmptyRecycleBinA","SHEmptyRecycleBinW","_win32_SHEmptyRecycleBin","shell.SHEmptyRecycleBin","shellapi/SHEmptyRecycleBin","shellapi/SHEmptyRecycleBinA","shellapi/SHEmptyRecycleBinW"]
+description: Empties the Recycle Bin on the specified drive.
+helpviewer_keywords: ["SHERB_NOCONFIRMATION","SHERB_NOPROGRESSUI","SHERB_NOSOUND","SHEmptyRecycleBin","SHEmptyRecycleBin function [Windows Shell]","SHEmptyRecycleBinA","SHEmptyRecycleBinW","_win32_SHEmptyRecycleBin","shell.SHEmptyRecycleBin","shellapi/SHEmptyRecycleBin","shellapi/SHEmptyRecycleBinA","shellapi/SHEmptyRecycleBinW"]
 old-location: shell\SHEmptyRecycleBin.htm
 tech.root: shell
 ms.assetid: c3995be7-bc8b-4e1f-8ef6-fdf4c0a75720
@@ -134,4 +135,9 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The shellapi.h header defines SHEmptyRecycleBin as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

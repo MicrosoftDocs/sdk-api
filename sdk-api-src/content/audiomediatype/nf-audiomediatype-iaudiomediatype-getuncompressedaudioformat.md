@@ -1,7 +1,8 @@
 ---
 UID: NF:audiomediatype.IAudioMediaType.GetUncompressedAudioFormat
 title: IAudioMediaType::GetUncompressedAudioFormat (audiomediatype.h)
-description: The IAudioMediaType::GetUncompressedAudioFormat returns information about the audio data format.helpviewer_keywords: ["GetUncompressedAudioFormat","GetUncompressedAudioFormat method [Audio Devices]","GetUncompressedAudioFormat method [Audio Devices]","IAudioMediaType interface","IAudioMediaType interface [Audio Devices]","GetUncompressedAudioFormat method","IAudioMediaType.GetUncompressedAudioFormat","IAudioMediaType::GetUncompressedAudioFormat","audio.iaudiomediatype_getuncompressedaudioformat","audio_syseffects_r_2e6e3723-2bc2-4e75-b64d-9b577d7916d6.xml","audiomediatype/IAudioMediaType::GetUncompressedAudioFormat"]
+description: The IAudioMediaType::GetUncompressedAudioFormat returns information about the audio data format.
+helpviewer_keywords: ["GetUncompressedAudioFormat","GetUncompressedAudioFormat method [Audio Devices]","GetUncompressedAudioFormat method [Audio Devices]","IAudioMediaType interface","IAudioMediaType interface [Audio Devices]","GetUncompressedAudioFormat method","IAudioMediaType.GetUncompressedAudioFormat","IAudioMediaType::GetUncompressedAudioFormat","audio.iaudiomediatype_getuncompressedaudioformat","audio_syseffects_r_2e6e3723-2bc2-4e75-b64d-9b577d7916d6.xml","audiomediatype/IAudioMediaType::GetUncompressedAudioFormat"]
 old-location: audio\iaudiomediatype_getuncompressedaudioformat.htm
 tech.root: audio
 ms.assetid: 9b4661cc-77b3-439b-bf28-5f9738dca6e1

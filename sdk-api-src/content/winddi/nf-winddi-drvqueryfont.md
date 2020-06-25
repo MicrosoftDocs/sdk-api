@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvQueryFont
 title: DrvQueryFont function (winddi.h)
-description: The DrvQueryFont function is used by GDI to get the IFIMETRICS structure for a given font.helpviewer_keywords: ["DrvQueryFont","DrvQueryFont function [Display Devices]","ddifncs_b8a9ed0f-ad7f-47a3-b2d4-bbdd40386bd2.xml","display.drvqueryfont","winddi/DrvQueryFont"]
+description: The DrvQueryFont function is used by GDI to get the IFIMETRICS structure for a given font.
+helpviewer_keywords: ["DrvQueryFont","DrvQueryFont function [Display Devices]","ddifncs_b8a9ed0f-ad7f-47a3-b2d4-bbdd40386bd2.xml","display.drvqueryfont","winddi/DrvQueryFont"]
 old-location: display\drvqueryfont.htm
 tech.root: display
 ms.assetid: 2ba6c8e3-9707-48dd-98d9-072f3eee8cd0

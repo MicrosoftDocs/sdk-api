@@ -1,7 +1,8 @@
 ---
 UID: NS:madcapcl._MCAST_SCOPE_CTX
 title: MCAST_SCOPE_CTX (madcapcl.h)
-description: The MCAST_SCOPE_CTX structure defines the scope context for programmatic interaction with multicast addresses. The MCAST_SCOPE_CTX structure is used by various MADCAP functions as a handle for allocating, renewing, or releasing MADCAP addresses.helpviewer_keywords: ["*PMCAST_SCOPE_CTX","MCAST_SCOPE_CTX","MCAST_SCOPE_CTX structure [MADCAP]","PMCAST_SCOPE_CTX","PMCAST_SCOPE_CTX structure pointer [MADCAP]","_mdhcp_mcast_scope_ctx","madcap.mcast_scope_ctx","madcapcl/MCAST_SCOPE_CTX","madcapcl/PMCAST_SCOPE_CTX"]
+description: The MCAST_SCOPE_CTX structure defines the scope context for programmatic interaction with multicast addresses. The MCAST_SCOPE_CTX structure is used by various MADCAP functions as a handle for allocating, renewing, or releasing MADCAP addresses.
+helpviewer_keywords: ["*PMCAST_SCOPE_CTX","MCAST_SCOPE_CTX","MCAST_SCOPE_CTX structure [MADCAP]","PMCAST_SCOPE_CTX","PMCAST_SCOPE_CTX structure pointer [MADCAP]","_mdhcp_mcast_scope_ctx","madcap.mcast_scope_ctx","madcapcl/MCAST_SCOPE_CTX","madcapcl/PMCAST_SCOPE_CTX"]
 old-location: madcap\mcast_scope_ctx.htm
 tech.root: Madcap
 ms.assetid: 164d8f73-f5f5-4cc6-85ca-8e249192c202

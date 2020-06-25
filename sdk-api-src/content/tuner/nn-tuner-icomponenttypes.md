@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IComponentTypes
 title: IComponentTypes (tuner.h)
-description: The IComponentTypes interface is implemented on ComponentTypes objects and contains methods that enable applications to enumerate, add, remove and retrieve individual ComponentType objects. All ComponentTypes objects also support IPersistPropertyBag.helpviewer_keywords: ["IComponentTypes","IComponentTypes interface [Microsoft TV Technologies]","IComponentTypes interface [Microsoft TV Technologies]","described","IComponentTypesInterface","mstv.icomponenttypes","tuner/IComponentTypes"]
+description: The IComponentTypes interface is implemented on ComponentTypes objects and contains methods that enable applications to enumerate, add, remove and retrieve individual ComponentType objects. All ComponentTypes objects also support IPersistPropertyBag.
+helpviewer_keywords: ["IComponentTypes","IComponentTypes interface [Microsoft TV Technologies]","IComponentTypes interface [Microsoft TV Technologies]","described","IComponentTypesInterface","mstv.icomponenttypes","tuner/IComponentTypes"]
 old-location: mstv\icomponenttypes.htm
 tech.root: mstv
 ms.assetid: 47c3837b-1348-4359-ad3d-3d82c5fe3781

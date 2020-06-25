@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VariantCopy
 title: VariantCopy function (oleauto.h)
-description: Frees the destination variant and makes a copy of the source variant.helpviewer_keywords: ["VariantCopy","VariantCopy function [Automation]","_oa96_VariantCopy","automat.variantcopy","oleauto/VariantCopy"]
+description: Frees the destination variant and makes a copy of the source variant.
+helpviewer_keywords: ["VariantCopy","VariantCopy function [Automation]","_oa96_VariantCopy","automat.variantcopy","oleauto/VariantCopy"]
 old-location: automat\variantcopy.htm
 tech.root: automat
 ms.assetid: f6ddbe1f-37b0-44f1-a3f0-b7ef4df88f8a

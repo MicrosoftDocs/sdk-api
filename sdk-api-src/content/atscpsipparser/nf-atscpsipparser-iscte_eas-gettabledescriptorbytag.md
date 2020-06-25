@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetTableDescriptorByTag
 title: ISCTE_EAS::GetTableDescriptorByTag (atscpsipparser.h)
-description: The GetTableDescriptorByTag method searches the EAS table for a descriptor with the specified descriptor tag.helpviewer_keywords: ["GetTableDescriptorByTag","GetTableDescriptorByTag method [Microsoft TV Technologies]","GetTableDescriptorByTag method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetTableDescriptorByTag method","ISCTE_EAS.GetTableDescriptorByTag","ISCTE_EAS::GetTableDescriptorByTag","ISCTE_EASGetTableDescriptorByTag","atscpsipparser/ISCTE_EAS::GetTableDescriptorByTag","mstv.iscte_eas_gettabledescriptorbytag"]
+description: The GetTableDescriptorByTag method searches the EAS table for a descriptor with the specified descriptor tag.
+helpviewer_keywords: ["GetTableDescriptorByTag","GetTableDescriptorByTag method [Microsoft TV Technologies]","GetTableDescriptorByTag method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetTableDescriptorByTag method","ISCTE_EAS.GetTableDescriptorByTag","ISCTE_EAS::GetTableDescriptorByTag","ISCTE_EASGetTableDescriptorByTag","atscpsipparser/ISCTE_EAS::GetTableDescriptorByTag","mstv.iscte_eas_gettabledescriptorbytag"]
 old-location: mstv\iscte_eas_gettabledescriptorbytag.htm
 tech.root: mstv
 ms.assetid: 91e0aad8-31d9-44d1-9bda-7f0134f5457b

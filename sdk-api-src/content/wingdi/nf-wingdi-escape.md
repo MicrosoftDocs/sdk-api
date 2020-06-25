@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.Escape
 title: Escape function (wingdi.h)
-description: Enables an application to access the system-defined device capabilities that are not available through GDI.helpviewer_keywords: ["Escape","Escape function [Windows GDI]","_win32_Escape_v3","gdi.escape","wingdi/Escape"]
+description: Enables an application to access the system-defined device capabilities that are not available through GDI.
+helpviewer_keywords: ["Escape","Escape function [Windows GDI]","_win32_Escape_v3","gdi.escape","wingdi/Escape"]
 old-location: gdi\escape.htm
 tech.root: printdocs
 ms.assetid: ba21b680-78a8-45a2-94e1-01b377b74787

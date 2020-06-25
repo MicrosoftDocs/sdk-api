@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_HostDepth
 title: ISearchRoot::put_HostDepth (searchapi.h)
-description: Sets a value that indicates how far into a host tree to crawl when indexing.helpviewer_keywords: ["ISearchRoot interface [search]","put_HostDepth method","ISearchRoot.put_HostDepth","ISearchRoot::put_HostDepth","_search_ISearchRoot_put_HostDepth","put_HostDepth","put_HostDepth method [search]","put_HostDepth method [search]","ISearchRoot interface","search._search_ISearchRoot_put_HostDepth","searchapi/ISearchRoot::put_HostDepth"]
+description: Sets a value that indicates how far into a host tree to crawl when indexing.
+helpviewer_keywords: ["ISearchRoot interface [search]","put_HostDepth method","ISearchRoot.put_HostDepth","ISearchRoot::put_HostDepth","_search_ISearchRoot_put_HostDepth","put_HostDepth","put_HostDepth method [search]","put_HostDepth method [search]","ISearchRoot interface","search._search_ISearchRoot_put_HostDepth","searchapi/ISearchRoot::put_HostDepth"]
 old-location: search\_search_ISearchRoot_put_HostDepth.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_hostdepth.htm

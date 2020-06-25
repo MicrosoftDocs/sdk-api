@@ -1,7 +1,8 @@
 ---
 UID: NF:winevt.EvtCancel
 title: EvtCancel function (winevt.h)
-description: Cancels all pending operations on a handle.helpviewer_keywords: ["EvtCancel","EvtCancel function [EventLog]","wes.evtcancel","winevt/EvtCancel"]
+description: Cancels all pending operations on a handle.
+helpviewer_keywords: ["EvtCancel","EvtCancel function [EventLog]","wes.evtcancel","winevt/EvtCancel"]
 old-location: wes\evtcancel.htm
 tech.root: wes
 ms.assetid: c8770139-93de-4da2-b797-f82775f4c553

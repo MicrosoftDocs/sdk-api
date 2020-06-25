@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IIsdbDownloadContentDescriptor
 title: IIsdbDownloadContentDescriptor (dvbsiparser.h)
-description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.helpviewer_keywords: ["IIsdbDownloadContentDescriptor","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IIsdbDownloadContentDescriptor","mstv.iisdbdownloadcontentdescriptor"]
+description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
+helpviewer_keywords: ["IIsdbDownloadContentDescriptor","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IIsdbDownloadContentDescriptor","mstv.iisdbdownloadcontentdescriptor"]
 old-location: mstv\iisdbdownloadcontentdescriptor.htm
 tech.root: mstv
 ms.assetid: beef626c-64b1-4f49-bb21-69022907004d

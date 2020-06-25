@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrEvent.GetLevel
 title: ISyncMgrEvent::GetLevel (syncmgr.h)
-description: Gets the log level of the event.helpviewer_keywords: ["GetLevel","GetLevel method [Windows Shell]","GetLevel method [Windows Shell]","ISyncMgrEvent interface","ISyncMgrEvent interface [Windows Shell]","GetLevel method","ISyncMgrEvent.GetLevel","ISyncMgrEvent::GetLevel","_shell_ISyncMgrEvent_GetLevel","shell.ISyncMgrEvent_GetLevel","syncmgr/ISyncMgrEvent::GetLevel"]
+description: Gets the log level of the event.
+helpviewer_keywords: ["GetLevel","GetLevel method [Windows Shell]","GetLevel method [Windows Shell]","ISyncMgrEvent interface","ISyncMgrEvent interface [Windows Shell]","GetLevel method","ISyncMgrEvent.GetLevel","ISyncMgrEvent::GetLevel","_shell_ISyncMgrEvent_GetLevel","shell.ISyncMgrEvent_GetLevel","syncmgr/ISyncMgrEvent::GetLevel"]
 old-location: shell\ISyncMgrEvent_GetLevel.htm
 tech.root: shell
 ms.assetid: 2937dc05-9576-43b4-9fbe-6c151dffcace

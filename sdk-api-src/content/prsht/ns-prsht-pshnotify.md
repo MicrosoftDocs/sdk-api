@@ -1,7 +1,8 @@
 ---
 UID: NS:prsht._PSHNOTIFY
 title: PSHNOTIFY (prsht.h)
-description: Contains information for the property sheet notification messages.helpviewer_keywords: ["*LPPSHNOTIFY","LPPSHNOTIFY","LPPSHNOTIFY structure pointer [Windows Controls]","PSHNOTIFY","PSHNOTIFY structure [Windows Controls]","_win32_PSHNOTIFY","_win32_PSHNOTIFY_cpp","controls.PSHNOTIFY","controls._win32_PSHNOTIFY","prsht/LPPSHNOTIFY","prsht/PSHNOTIFY"]
+description: Contains information for the property sheet notification messages.
+helpviewer_keywords: ["*LPPSHNOTIFY","LPPSHNOTIFY","LPPSHNOTIFY structure pointer [Windows Controls]","PSHNOTIFY","PSHNOTIFY structure [Windows Controls]","_win32_PSHNOTIFY","_win32_PSHNOTIFY_cpp","controls.PSHNOTIFY","controls._win32_PSHNOTIFY","prsht/LPPSHNOTIFY","prsht/PSHNOTIFY"]
 old-location: controls\PSHNOTIFY.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\structures\pshnotify.htm

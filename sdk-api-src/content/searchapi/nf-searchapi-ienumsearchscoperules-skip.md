@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IEnumSearchScopeRules.Skip
 title: IEnumSearchScopeRules::Skip (searchapi.h)
-description: Skips the specified number of elements.helpviewer_keywords: ["IEnumSearchScopeRules interface [search]","Skip method","IEnumSearchScopeRules.Skip","IEnumSearchScopeRules::Skip","Skip","Skip method [search]","Skip method [search]","IEnumSearchScopeRules interface","_search_IEnumSearchScopeRules_Skip","search._search_IEnumSearchScopeRules_Skip","searchapi/IEnumSearchScopeRules::Skip"]
+description: Skips the specified number of elements.
+helpviewer_keywords: ["IEnumSearchScopeRules interface [search]","Skip method","IEnumSearchScopeRules.Skip","IEnumSearchScopeRules::Skip","Skip","Skip method [search]","Skip method [search]","IEnumSearchScopeRules interface","_search_IEnumSearchScopeRules_Skip","search._search_IEnumSearchScopeRules_Skip","searchapi/IEnumSearchScopeRules::Skip"]
 old-location: search\_search_IEnumSearchScopeRules_Skip.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchscoperules\skip.htm

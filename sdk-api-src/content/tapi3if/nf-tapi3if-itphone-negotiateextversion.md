@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITPhone.NegotiateExtVersion
 title: ITPhone::NegotiateExtVersion (tapi3if.h)
-description: The NegotiateExtVersion method allows an application to negotiate an extension version to use with the specified phone device. This operation need not be called if the application does not support provider specific extensions.helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","NegotiateExtVersion method","ITPhone.NegotiateExtVersion","ITPhone::NegotiateExtVersion","NegotiateExtVersion","NegotiateExtVersion method [TAPI 2.2]","NegotiateExtVersion method [TAPI 2.2]","ITPhone interface","_tapi3_itphone_negotiateextversion","tapi3.itphone_negotiateextversion","tapi3if/ITPhone::NegotiateExtVersion"]
+description: The NegotiateExtVersion method allows an application to negotiate an extension version to use with the specified phone device. This operation need not be called if the application does not support provider specific extensions.
+helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","NegotiateExtVersion method","ITPhone.NegotiateExtVersion","ITPhone::NegotiateExtVersion","NegotiateExtVersion","NegotiateExtVersion method [TAPI 2.2]","NegotiateExtVersion method [TAPI 2.2]","ITPhone interface","_tapi3_itphone_negotiateextversion","tapi3.itphone_negotiateextversion","tapi3if/ITPhone::NegotiateExtVersion"]
 old-location: tapi3\itphone_negotiateextversion.htm
 tech.root: Tapi
 ms.assetid: a29311bf-0fe4-4e58-96cc-2e3734c32aee

@@ -1,7 +1,8 @@
 ---
 UID: NF:winternl.RtlFreeAnsiString
 title: RtlFreeAnsiString function (winternl.h)
-description: Frees the string buffer allocated by RtlUnicodeStringToAnsiString.helpviewer_keywords: ["RtlFreeAnsiString","RtlFreeAnsiString function [Windows API]","winprog.rtlfreeansistring","winternl/RtlFreeAnsiString","winui.rtlfreeansistring"]
+description: Frees the string buffer allocated by RtlUnicodeStringToAnsiString.
+helpviewer_keywords: ["RtlFreeAnsiString","RtlFreeAnsiString function [Windows API]","winprog.rtlfreeansistring","winternl/RtlFreeAnsiString","winui.rtlfreeansistring"]
 old-location: winprog\rtlfreeansistring.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\misc\rtlfreeansistring.htm

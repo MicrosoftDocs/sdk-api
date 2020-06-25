@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IServiceLocationDescriptor.GetPCR_PID
 title: IServiceLocationDescriptor::GetPCR_PID (atscpsipparser.h)
-description: Gets the program ID (PID) for the packets that contain the Program Clock Reference (PCR) in the transport stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.helpviewer_keywords: ["GetPCR_PID","GetPCR_PID method [Microsoft TV Technologies]","GetPCR_PID method [Microsoft TV Technologies]","IServiceLocationDescriptor interface","IServiceLocationDescriptor interface [Microsoft TV Technologies]","GetPCR_PID method","IServiceLocationDescriptor.GetPCR_PID","IServiceLocationDescriptor::GetPCR_PID","atscpsipparser/IServiceLocationDescriptor::GetPCR_PID","mstv.iservicelocationdescriptor_getpcr_pid"]
+description: Gets the program ID (PID) for the packets that contain the Program Clock Reference (PCR) in the transport stream from an Advanced Television Systems Committee (ATSC) Service Location Descriptor.
+helpviewer_keywords: ["GetPCR_PID","GetPCR_PID method [Microsoft TV Technologies]","GetPCR_PID method [Microsoft TV Technologies]","IServiceLocationDescriptor interface","IServiceLocationDescriptor interface [Microsoft TV Technologies]","GetPCR_PID method","IServiceLocationDescriptor.GetPCR_PID","IServiceLocationDescriptor::GetPCR_PID","atscpsipparser/IServiceLocationDescriptor::GetPCR_PID","mstv.iservicelocationdescriptor_getpcr_pid"]
 old-location: mstv\iservicelocationdescriptor_getpcr_pid.htm
 tech.root: mstv
 ms.assetid: a81a2218-3c44-4b17-a5cb-bb68d10da977

@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj_core._CSFV
 title: CSFV (shlobj_core.h)
-description: Used with the SHCreateShellFolderViewEx function.helpviewer_keywords: ["*LPCSFV","CSFV","CSFV structure [Windows Shell]","LPCSFV","LPCSFV structure pointer [Windows Shell]","_CSFV","_win32_CSFV","shell.CSFV","shlobj_core/CSFV","shlobj_core/LPCSFV"]
+description: Used with the SHCreateShellFolderViewEx function.
+helpviewer_keywords: ["*LPCSFV","CSFV","CSFV structure [Windows Shell]","LPCSFV","LPCSFV structure pointer [Windows Shell]","_CSFV","_win32_CSFV","shell.CSFV","shlobj_core/CSFV","shlobj_core/LPCSFV"]
 old-location: shell\CSFV.htm
 tech.root: shell
 ms.assetid: 9ec22fd4-1562-4ef0-b932-ebbf06082807

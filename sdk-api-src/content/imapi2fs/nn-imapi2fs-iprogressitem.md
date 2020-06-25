@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2fs.IProgressItem
 title: IProgressItem (imapi2fs.h)
-description: Use this interface to retrieve block information for one segment of the result file image.helpviewer_keywords: ["IProgressItem","IProgressItem interface [IMAPI]","IProgressItem interface [IMAPI]","described","imapi.iprogressitem","imapi2fs/IProgressItem"]
+description: Use this interface to retrieve block information for one segment of the result file image.
+helpviewer_keywords: ["IProgressItem","IProgressItem interface [IMAPI]","IProgressItem interface [IMAPI]","described","imapi.iprogressitem","imapi2fs/IProgressItem"]
 old-location: imapi\iprogressitem.htm
 tech.root: imapi
 ms.assetid: b6ba9226-655e-4eac-ad43-2b5a8e90039f

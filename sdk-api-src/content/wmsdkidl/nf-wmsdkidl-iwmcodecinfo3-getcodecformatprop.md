@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo3.GetCodecFormatProp
 title: IWMCodecInfo3::GetCodecFormatProp (wmsdkidl.h)
-description: The GetCodecFormatProp method retrieves a property from one format of a codec.helpviewer_keywords: ["GetCodecFormatProp","GetCodecFormatProp method [windows Media Format]","GetCodecFormatProp method [windows Media Format]","IWMCodecInfo3 interface","IWMCodecInfo3 interface [windows Media Format]","GetCodecFormatProp method","IWMCodecInfo3.GetCodecFormatProp","IWMCodecInfo3::GetCodecFormatProp","IWMCodecInfo3GetCodecFormatProp","wmformat.iwmcodecinfo3_getcodecformatprop","wmsdkidl/IWMCodecInfo3::GetCodecFormatProp"]
+description: The GetCodecFormatProp method retrieves a property from one format of a codec.
+helpviewer_keywords: ["GetCodecFormatProp","GetCodecFormatProp method [windows Media Format]","GetCodecFormatProp method [windows Media Format]","IWMCodecInfo3 interface","IWMCodecInfo3 interface [windows Media Format]","GetCodecFormatProp method","IWMCodecInfo3.GetCodecFormatProp","IWMCodecInfo3::GetCodecFormatProp","IWMCodecInfo3GetCodecFormatProp","wmformat.iwmcodecinfo3_getcodecformatprop","wmsdkidl/IWMCodecInfo3::GetCodecFormatProp"]
 old-location: wmformat\iwmcodecinfo3_getcodecformatprop.htm
 tech.root: wmformat
 ms.assetid: 04f5301f-0033-4cf3-bc05-3159fe274a8d

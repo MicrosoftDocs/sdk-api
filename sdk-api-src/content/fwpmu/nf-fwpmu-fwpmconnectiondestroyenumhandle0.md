@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmConnectionDestroyEnumHandle0
 title: FwpmConnectionDestroyEnumHandle0 function (fwpmu.h)
-description: Frees a handle returned by FwpmConnectionCreateEnumHandle0.helpviewer_keywords: ["FwpmConnectionDestroyEnumHandle0","FwpmConnectionDestroyEnumHandle0 function [Filtering]","fwp.fwpmconnectiondestroyenumhandle0","fwpmu/FwpmConnectionDestroyEnumHandle0"]
+description: Frees a handle returned by FwpmConnectionCreateEnumHandle0.
+helpviewer_keywords: ["FwpmConnectionDestroyEnumHandle0","FwpmConnectionDestroyEnumHandle0 function [Filtering]","fwp.fwpmconnectiondestroyenumhandle0","fwpmu/FwpmConnectionDestroyEnumHandle0"]
 old-location: fwp\fwpmconnectiondestroyenumhandle0.htm
 tech.root: fwp
 ms.assetid: 0325908e-4d2b-4cdb-9cfa-f2985a76dba9

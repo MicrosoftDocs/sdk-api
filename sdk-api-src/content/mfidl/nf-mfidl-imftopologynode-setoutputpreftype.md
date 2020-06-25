@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.SetOutputPrefType
 title: IMFTopologyNode::SetOutputPrefType (mfidl.h)
-description: Sets the preferred media type for an output stream on this node.helpviewer_keywords: ["948fd64d-e3d8-45de-aaab-b052d9f0b9d8","IMFTopologyNode interface [Media Foundation]","SetOutputPrefType method","IMFTopologyNode.SetOutputPrefType","IMFTopologyNode::SetOutputPrefType","SetOutputPrefType","SetOutputPrefType method [Media Foundation]","SetOutputPrefType method [Media Foundation]","IMFTopologyNode interface","mf.imftopologynode_setoutputpreftype","mfidl/IMFTopologyNode::SetOutputPrefType"]
+description: Sets the preferred media type for an output stream on this node.
+helpviewer_keywords: ["948fd64d-e3d8-45de-aaab-b052d9f0b9d8","IMFTopologyNode interface [Media Foundation]","SetOutputPrefType method","IMFTopologyNode.SetOutputPrefType","IMFTopologyNode::SetOutputPrefType","SetOutputPrefType","SetOutputPrefType method [Media Foundation]","SetOutputPrefType method [Media Foundation]","IMFTopologyNode interface","mf.imftopologynode_setoutputpreftype","mfidl/IMFTopologyNode::SetOutputPrefType"]
 old-location: mf\imftopologynode_setoutputpreftype.htm
 tech.root: medfound
 ms.assetid: 948fd64d-e3d8-45de-aaab-b052d9f0b9d8

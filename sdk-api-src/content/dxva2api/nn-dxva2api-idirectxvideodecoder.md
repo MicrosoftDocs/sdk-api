@@ -1,7 +1,8 @@
 ---
 UID: NN:dxva2api.IDirectXVideoDecoder
 title: IDirectXVideoDecoder (dxva2api.h)
-description: Represents a DirectX Video Acceleration (DXVA) video decoder device.helpviewer_keywords: ["116c19a3-39be-4f96-969f-f3d62ed33a70","IDirectXVideoDecoder","IDirectXVideoDecoder interface [Media Foundation]","IDirectXVideoDecoder interface [Media Foundation]","described","dxva2api/IDirectXVideoDecoder","mf.idirectxvideodecoder"]
+description: Represents a DirectX Video Acceleration (DXVA) video decoder device.
+helpviewer_keywords: ["116c19a3-39be-4f96-969f-f3d62ed33a70","IDirectXVideoDecoder","IDirectXVideoDecoder interface [Media Foundation]","IDirectXVideoDecoder interface [Media Foundation]","described","dxva2api/IDirectXVideoDecoder","mf.idirectxvideodecoder"]
 old-location: mf\idirectxvideodecoder.htm
 tech.root: medfound
 ms.assetid: 116c19a3-39be-4f96-969f-f3d62ed33a70

@@ -1,7 +1,8 @@
 ---
 UID: NN:bdaiface.IBDA_GuideDataDeliveryService
 title: IBDA_GuideDataDeliveryService (bdaiface.h)
-description: Retrieves out-of-band guide data from a media transform device (MTD). This interface provides access to a device's Guide Data Delivery Service.helpviewer_keywords: ["IBDA_GuideDataDeliveryService","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","described","bdaiface/IBDA_GuideDataDeliveryService","mstv.ibda_guidedatadeliveryservice"]
+description: Retrieves out-of-band guide data from a media transform device (MTD). This interface provides access to a device's Guide Data Delivery Service.
+helpviewer_keywords: ["IBDA_GuideDataDeliveryService","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","described","bdaiface/IBDA_GuideDataDeliveryService","mstv.ibda_guidedatadeliveryservice"]
 old-location: mstv\ibda_guidedatadeliveryservice.htm
 tech.root: mstv
 ms.assetid: 5329f725-e77e-49c2-87f5-f7204d022adc

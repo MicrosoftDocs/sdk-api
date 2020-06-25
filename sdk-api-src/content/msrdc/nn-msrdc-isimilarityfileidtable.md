@@ -1,7 +1,8 @@
 ---
 UID: NN:msrdc.ISimilarityFileIdTable
 title: ISimilarityFileIdTable (msrdc.h)
-description: Defines methods for storing and retrieving similarity file ID information.helpviewer_keywords: ["ISimilarityFileIdTable","ISimilarityFileIdTable interface [Remote Differential Compression]","ISimilarityFileIdTable interface [Remote Differential Compression]","described","fs.isimilarityfileidtable","msrdc/ISimilarityFileIdTable","rdc.isimilarityfileidtable"]
+description: Defines methods for storing and retrieving similarity file ID information.
+helpviewer_keywords: ["ISimilarityFileIdTable","ISimilarityFileIdTable interface [Remote Differential Compression]","ISimilarityFileIdTable interface [Remote Differential Compression]","described","fs.isimilarityfileidtable","msrdc/ISimilarityFileIdTable","rdc.isimilarityfileidtable"]
 old-location: rdc\isimilarityfileidtable.htm
 tech.root: rdc
 ms.assetid: 539a2e9b-9719-4012-bb7f-4d14723a3695

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddPropertyChangedEventHandler
 title: IUIAutomationEventHandlerGroup::AddPropertyChangedEventHandler (uiautomationclient.h)
-description: Registers a method that handles a property-changed event.helpviewer_keywords: ["AddPropertyChangedEventHandler","AddPropertyChangedEventHandler method [Windows Accessibility]","AddPropertyChangedEventHandler method [Windows Accessibility]","IUIAutomationEventHandlerGroup interface","IUIAutomationEventHandlerGroup interface [Windows Accessibility]","AddPropertyChangedEventHandler method","IUIAutomationEventHandlerGroup.AddPropertyChangedEventHandler","IUIAutomationEventHandlerGroup::AddPropertyChangedEventHandler","uiautomationclient/IUIAutomationEventHandlerGroup::AddPropertyChangedEventHandler","winauto.uiauto_iuiautomationeventhandlergroup_addpropertychangedeventhandler"]
+description: Registers a method that handles a property-changed event.
+helpviewer_keywords: ["AddPropertyChangedEventHandler","AddPropertyChangedEventHandler method [Windows Accessibility]","AddPropertyChangedEventHandler method [Windows Accessibility]","IUIAutomationEventHandlerGroup interface","IUIAutomationEventHandlerGroup interface [Windows Accessibility]","AddPropertyChangedEventHandler method","IUIAutomationEventHandlerGroup.AddPropertyChangedEventHandler","IUIAutomationEventHandlerGroup::AddPropertyChangedEventHandler","uiautomationclient/IUIAutomationEventHandlerGroup::AddPropertyChangedEventHandler","winauto.uiauto_iuiautomationeventhandlergroup_addpropertychangedeventhandler"]
 old-location: winauto\uiauto_iuiautomationeventhandlergroup_addpropertychangedeventhandler.htm
 tech.root: WinAuto
 ms.assetid: 186958B6-6D13-41F2-B6E5-A4C36D1B8451

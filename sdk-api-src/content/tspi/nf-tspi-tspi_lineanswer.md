@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineAnswer
 title: TSPI_lineAnswer function (tspi.h)
-description: The TSPI_lineAnswer function answers the specified offering call.helpviewer_keywords: ["TSPI_lineAnswer","TSPI_lineAnswer function [TAPI 2.2]","_tspi_tspi_lineanswer","tspi.tspi_lineanswer","tspi/TSPI_lineAnswer"]
+description: The TSPI_lineAnswer function answers the specified offering call.
+helpviewer_keywords: ["TSPI_lineAnswer","TSPI_lineAnswer function [TAPI 2.2]","_tspi_tspi_lineanswer","tspi.tspi_lineanswer","tspi/TSPI_lineAnswer"]
 old-location: tspi\tspi_lineanswer.htm
 tech.root: Tapi
 ms.assetid: efd4d7f8-bf81-46c4-b51b-516036e9baef

@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionDeviceDebug
 title: IDCompositionDeviceDebug (dcomp.h)
-description: Provides access to rendering features that help with application debugging and performance tuning. This interface can be queried from the DirectComposition device interface.helpviewer_keywords: ["IDCompositionDeviceDebug","IDCompositionDeviceDebug interface [DirectComposition]","IDCompositionDeviceDebug interface [DirectComposition]","described","dcomp/IDCompositionDeviceDebug","directcomp.idcompositiondevicedebug"]
+description: Provides access to rendering features that help with application debugging and performance tuning. This interface can be queried from the DirectComposition device interface.
+helpviewer_keywords: ["IDCompositionDeviceDebug","IDCompositionDeviceDebug interface [DirectComposition]","IDCompositionDeviceDebug interface [DirectComposition]","described","dcomp/IDCompositionDeviceDebug","directcomp.idcompositiondevicedebug"]
 old-location: directcomp\idcompositiondevicedebug.htm
 tech.root: directcomp
 ms.assetid: B8D17570-9729-45DB-99E1-A2EBBDAA5996

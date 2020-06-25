@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetStretchBltMode
 title: SetStretchBltMode function (wingdi.h)
-description: The SetStretchBltMode function sets the bitmap stretching mode in the specified device context.helpviewer_keywords: ["BLACKONWHITE","COLORONCOLOR","HALFTONE","STRETCH_ANDSCANS","STRETCH_DELETESCANS","STRETCH_HALFTONE","STRETCH_ORSCANS","SetStretchBltMode","SetStretchBltMode function [Windows GDI]","WHITEONBLACK","_win32_SetStretchBltMode","gdi.setstretchbltmode","wingdi/SetStretchBltMode"]
+description: The SetStretchBltMode function sets the bitmap stretching mode in the specified device context.
+helpviewer_keywords: ["BLACKONWHITE","COLORONCOLOR","HALFTONE","STRETCH_ANDSCANS","STRETCH_DELETESCANS","STRETCH_HALFTONE","STRETCH_ORSCANS","SetStretchBltMode","SetStretchBltMode function [Windows GDI]","WHITEONBLACK","_win32_SetStretchBltMode","gdi.setstretchbltmode","wingdi/SetStretchBltMode"]
 old-location: gdi\setstretchbltmode.htm
 tech.root: gdi
 ms.assetid: 3e5a48dc-ccd5-41ea-a24b-5c40213abf38

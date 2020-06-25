@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont2.SetOldNumbers
 title: ITextFont2::SetOldNumbers (tom.h)
-description: Sets whether old-style numbers are active.helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetOldNumbers method","ITextFont2.SetOldNumbers","ITextFont2::SetOldNumbers","SetOldNumbers","SetOldNumbers method [Windows Controls]","SetOldNumbers method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setoldnumbers","tom/ITextFont2::SetOldNumbers"]
+description: Sets whether old-style numbers are active.
+helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetOldNumbers method","ITextFont2.SetOldNumbers","ITextFont2::SetOldNumbers","SetOldNumbers","SetOldNumbers method [Windows Controls]","SetOldNumbers method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setoldnumbers","tom/ITextFont2::SetOldNumbers"]
 old-location: controls\itextfont2_setoldnumbers.htm
 tech.root: Controls
 ms.assetid: f510781e-ede9-41dc-ae69-3b0ca52a6773

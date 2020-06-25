@@ -1,7 +1,8 @@
 ---
 UID: NF:propidl.IPropertyStorage.Revert
 title: IPropertyStorage::Revert (propidl.h)
-description: The Revert method discards all changes to the named property set since it was last opened or discards changes that were last committed to the property set. This method has no effect on a direct-mode property set.helpviewer_keywords: ["IPropertyStorage [Strctd Stg]","Revert","IPropertyStorage interface [Structured Storage]","Revert method","IPropertyStorage.Revert","IPropertyStorage::Revert","Revert","Revert method [Structured Storage]","Revert method [Structured Storage]","IPropertyStorage interface","_stg_ipropertystorage_revert","propidl/IPropertyStorage::Revert","stg.ipropertystorage_revert"]
+description: The Revert method discards all changes to the named property set since it was last opened or discards changes that were last committed to the property set. This method has no effect on a direct-mode property set.
+helpviewer_keywords: ["IPropertyStorage [Strctd Stg]","Revert","IPropertyStorage interface [Structured Storage]","Revert method","IPropertyStorage.Revert","IPropertyStorage::Revert","Revert","Revert method [Structured Storage]","Revert method [Structured Storage]","IPropertyStorage interface","_stg_ipropertystorage_revert","propidl/IPropertyStorage::Revert","stg.ipropertystorage_revert"]
 old-location: stg\ipropertystorage_revert.htm
 tech.root: Stg
 ms.assetid: 31e0d3e7-8575-4788-b42e-606221cf5a4c

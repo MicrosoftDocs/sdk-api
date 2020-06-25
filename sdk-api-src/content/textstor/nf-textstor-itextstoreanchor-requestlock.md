@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestLock
 title: ITextStoreAnchor::RequestLock (textstor.h)
-description: ITextStoreAnchor::RequestLock methodhelpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","RequestLock method","ITextStoreAnchor.RequestLock","ITextStoreAnchor::RequestLock","RequestLock","RequestLock method [Text Services Framework]","RequestLock method [Text Services Framework]","ITextStoreAnchor interface","TS_LF_READ","TS_LF_READWRITE","TS_LF_SYNC","textstor/ITextStoreAnchor::RequestLock","tsf.itextstoreanchor_requestlock"]
+description: ITextStoreAnchor::RequestLock method
+helpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","RequestLock method","ITextStoreAnchor.RequestLock","ITextStoreAnchor::RequestLock","RequestLock","RequestLock method [Text Services Framework]","RequestLock method [Text Services Framework]","ITextStoreAnchor interface","TS_LF_READ","TS_LF_READWRITE","TS_LF_SYNC","textstor/ITextStoreAnchor::RequestLock","tsf.itextstoreanchor_requestlock"]
 old-location: tsf\itextstoreanchor_requestlock.htm
 tech.root: TSF
 ms.assetid: 4cace5bd-d111-4a9a-af10-9ad454d4f2eb

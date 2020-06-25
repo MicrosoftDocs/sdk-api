@@ -1,7 +1,8 @@
 ---
 UID: NS:bcrypt._BCRYPT_OAEP_PADDING_INFO
 title: BCRYPT_OAEP_PADDING_INFO (bcrypt.h)
-description: Used to provide options for the Optimal Asymmetric Encryption Padding (OAEP) scheme.helpviewer_keywords: ["BCRYPT_OAEP_PADDING_INFO","BCRYPT_OAEP_PADDING_INFO structure [Security]","bcrypt/BCRYPT_OAEP_PADDING_INFO","security.bcrypt_oaep_padding_info"]
+description: Used to provide options for the Optimal Asymmetric Encryption Padding (OAEP) scheme.
+helpviewer_keywords: ["BCRYPT_OAEP_PADDING_INFO","BCRYPT_OAEP_PADDING_INFO structure [Security]","bcrypt/BCRYPT_OAEP_PADDING_INFO","security.bcrypt_oaep_padding_info"]
 old-location: security\bcrypt_oaep_padding_info.htm
 tech.root: SecCNG
 ms.assetid: 19f48f2d-e952-4a01-8112-f298c79919b2

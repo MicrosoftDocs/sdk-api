@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsUNCServerW
 title: PathIsUNCServerW function (shlwapi.h)
-description: Determines if a string is a valid Universal Naming Convention (UNC) for a server path only.helpviewer_keywords: ["PathIsUNCServer","PathIsUNCServer function [Windows Shell]","PathIsUNCServerA","PathIsUNCServerW","_win32_PathIsUNCServer","shell.PathIsUNCServer","shlwapi/PathIsUNCServer","shlwapi/PathIsUNCServerA","shlwapi/PathIsUNCServerW"]
+description: Determines if a string is a valid Universal Naming Convention (UNC) for a server path only.
+helpviewer_keywords: ["PathIsUNCServer","PathIsUNCServer function [Windows Shell]","PathIsUNCServerA","PathIsUNCServerW","_win32_PathIsUNCServer","shell.PathIsUNCServer","shlwapi/PathIsUNCServer","shlwapi/PathIsUNCServerA","shlwapi/PathIsUNCServerW"]
 old-location: shell\PathIsUNCServer.htm
 tech.root: shell
 ms.assetid: 9158ceb6-dd20-4b1a-93d3-cf7a5a5c6c75
@@ -79,4 +80,9 @@ Type: <b>BOOL</b>
 Returns <b>TRUE</b> if the string is a valid UNC path for a server only (no share name), or <b>FALSE</b> otherwise.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines PathIsUNCServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

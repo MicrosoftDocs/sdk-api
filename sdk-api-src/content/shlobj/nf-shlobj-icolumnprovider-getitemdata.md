@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.IColumnProvider.GetItemData
 title: IColumnProvider::GetItemData (shlobj.h)
-description: Requests column data for a specified file.helpviewer_keywords: ["GetItemData","GetItemData method [Windows Shell]","GetItemData method [Windows Shell]","IColumnProvider interface","IColumnProvider interface [Windows Shell]","GetItemData method","IColumnProvider.GetItemData","IColumnProvider::GetItemData","_win32_IColumnProvider_GetItemData","shell.IColumnProvider_GetItemData","shlobj/IColumnProvider::GetItemData"]
+description: Requests column data for a specified file.
+helpviewer_keywords: ["GetItemData","GetItemData method [Windows Shell]","GetItemData method [Windows Shell]","IColumnProvider interface","IColumnProvider interface [Windows Shell]","GetItemData method","IColumnProvider.GetItemData","IColumnProvider::GetItemData","_win32_IColumnProvider_GetItemData","shell.IColumnProvider_GetItemData","shlobj/IColumnProvider::GetItemData"]
 old-location: shell\IColumnProvider_GetItemData.htm
 tech.root: shell
 ms.assetid: 88e76f03-acc3-46b1-ad03-d2343f4f3dac

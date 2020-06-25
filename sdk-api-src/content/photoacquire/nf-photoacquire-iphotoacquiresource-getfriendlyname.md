@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetFriendlyName
 title: IPhotoAcquireSource::GetFriendlyName (photoacquire.h)
-description: The GetFriendlyName method retrieves the name of the device, formatted for display.helpviewer_keywords: ["GetFriendlyName","GetFriendlyName method [Picture Acquisition]","GetFriendlyName method [Picture Acquisition]","IPhotoAcquireSource interface","IPhotoAcquireSource interface [Picture Acquisition]","GetFriendlyName method","IPhotoAcquireSource.GetFriendlyName","IPhotoAcquireSource::GetFriendlyName","IPhotoAcquireSourceGetFriendlyName","photoacquire/IPhotoAcquireSource::GetFriendlyName","picacq.iphotoacquiresource_getfriendlyname"]
+description: The GetFriendlyName method retrieves the name of the device, formatted for display.
+helpviewer_keywords: ["GetFriendlyName","GetFriendlyName method [Picture Acquisition]","GetFriendlyName method [Picture Acquisition]","IPhotoAcquireSource interface","IPhotoAcquireSource interface [Picture Acquisition]","GetFriendlyName method","IPhotoAcquireSource.GetFriendlyName","IPhotoAcquireSource::GetFriendlyName","IPhotoAcquireSourceGetFriendlyName","photoacquire/IPhotoAcquireSource::GetFriendlyName","picacq.iphotoacquiresource_getfriendlyname"]
 old-location: picacq\iphotoacquiresource_getfriendlyname.htm
 tech.root: acquisition
 ms.assetid: e6e1c5d7-b9d8-479a-a8e5-53124b55369d

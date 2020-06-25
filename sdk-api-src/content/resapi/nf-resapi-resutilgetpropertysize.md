@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetPropertySize
 title: ResUtilGetPropertySize function (resapi.h)
-description: Returns the total number of bytes required for a specified property.helpviewer_keywords: ["PRESUTIL_GET_PROPERTY_SIZE","PRESUTIL_GET_PROPERTY_SIZE function [Failover Cluster]","ResUtilGetPropertySize","ResUtilGetPropertySize function [Failover Cluster]","_wolf_resutilgetpropertysize","mscs.resutilgetpropertysize","resapi/PRESUTIL_GET_PROPERTY_SIZE","resapi/ResUtilGetPropertySize"]
+description: Returns the total number of bytes required for a specified property.
+helpviewer_keywords: ["PRESUTIL_GET_PROPERTY_SIZE","PRESUTIL_GET_PROPERTY_SIZE function [Failover Cluster]","ResUtilGetPropertySize","ResUtilGetPropertySize function [Failover Cluster]","_wolf_resutilgetpropertysize","mscs.resutilgetpropertysize","resapi/PRESUTIL_GET_PROPERTY_SIZE","resapi/ResUtilGetPropertySize"]
 old-location: mscs\resutilgetpropertysize.htm
 tech.root: MsCS
 ms.assetid: 0f21ef2b-747c-4fb3-a13c-16bcb7bfd46e

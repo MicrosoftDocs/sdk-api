@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QuerySelectColumns
 title: ISearchQueryHelper::get_QuerySelectColumns (searchapi.h)
-description: Gets the columns (or properties) requested in the SELECT statement of the query.helpviewer_keywords: ["ISearchQueryHelper interface [search]","get_QuerySelectColumns method","ISearchQueryHelper.get_QuerySelectColumns","ISearchQueryHelper::get_QuerySelectColumns","_search_ISearchQueryHelper_get_QuerySelectColumns","get_QuerySelectColumns","get_QuerySelectColumns method [search]","get_QuerySelectColumns method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_get_QuerySelectColumns","searchapi/ISearchQueryHelper::get_QuerySelectColumns"]
+description: Gets the columns (or properties) requested in the SELECT statement of the query.
+helpviewer_keywords: ["ISearchQueryHelper interface [search]","get_QuerySelectColumns method","ISearchQueryHelper.get_QuerySelectColumns","ISearchQueryHelper::get_QuerySelectColumns","_search_ISearchQueryHelper_get_QuerySelectColumns","get_QuerySelectColumns","get_QuerySelectColumns method [search]","get_QuerySelectColumns method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_get_QuerySelectColumns","searchapi/ISearchQueryHelper::get_QuerySelectColumns"]
 old-location: search\_search_ISearchQueryHelper_get_QuerySelectColumns.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_queryselectcolumns.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetOptionCount
 title: MI_OperationOptions_GetOptionCount function (mi.h)
-description: Gets the number of options previously added.helpviewer_keywords: ["MI_OperationOptions_GetOptionCount","MI_OperationOptions_GetOptionCount function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetOptionCount","wmi_v2.mi_operationoptions_getoptioncount"]
+description: Gets the number of options previously added.
+helpviewer_keywords: ["MI_OperationOptions_GetOptionCount","MI_OperationOptions_GetOptionCount function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetOptionCount","wmi_v2.mi_operationoptions_getoptioncount"]
 old-location: wmi_v2\mi_operationoptions_getoptioncount.htm
 tech.root: wmi_v2
 ms.assetid: 0c015ec7-d663-4207-b6d0-149da41cbf0e

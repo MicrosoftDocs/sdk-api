@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.RevokeActiveObject
 title: RevokeActiveObject function (oleauto.h)
-description: Ends an object's status as active.helpviewer_keywords: ["RevokeActiveObject","RevokeActiveObject function [Automation]","_oa96_RevokeActiveObject","automat.revokeactiveobject","oleauto/RevokeActiveObject"]
+description: Ends an object's status as active.
+helpviewer_keywords: ["RevokeActiveObject","RevokeActiveObject function [Automation]","_oa96_RevokeActiveObject","automat.revokeactiveobject","oleauto/RevokeActiveObject"]
 old-location: automat\revokeactiveobject.htm
 tech.root: automat
 ms.assetid: 47e7b47b-dddc-445d-918f-02b1b6a37075

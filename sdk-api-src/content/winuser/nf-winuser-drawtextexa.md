@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.DrawTextExA
 title: DrawTextExA function (winuser.h)
-description: The DrawTextEx function draws formatted text in the specified rectangle.helpviewer_keywords: ["DT_BOTTOM","DT_CALCRECT","DT_CENTER","DT_EDITCONTROL","DT_END_ELLIPSIS","DT_EXPANDTABS","DT_EXTERNALLEADING","DT_HIDEPREFIX","DT_INTERNAL","DT_LEFT","DT_MODIFYSTRING","DT_NOCLIP","DT_NOFULLWIDTHCHARBREAK","DT_NOPREFIX","DT_PATH_ELLIPSIS","DT_PREFIXONLY","DT_RIGHT","DT_RTLREADING","DT_SINGLELINE","DT_TABSTOP","DT_TOP","DT_VCENTER","DT_WORDBREAK","DT_WORD_ELLIPSIS","DrawTextEx","DrawTextEx function [Windows GDI]","DrawTextExA","DrawTextExW","_win32_DrawTextEx","gdi.drawtextex","winuser/DrawTextEx","winuser/DrawTextExA","winuser/DrawTextExW"]
+description: The DrawTextEx function draws formatted text in the specified rectangle.
+helpviewer_keywords: ["DT_BOTTOM","DT_CALCRECT","DT_CENTER","DT_EDITCONTROL","DT_END_ELLIPSIS","DT_EXPANDTABS","DT_EXTERNALLEADING","DT_HIDEPREFIX","DT_INTERNAL","DT_LEFT","DT_MODIFYSTRING","DT_NOCLIP","DT_NOFULLWIDTHCHARBREAK","DT_NOPREFIX","DT_PATH_ELLIPSIS","DT_PREFIXONLY","DT_RIGHT","DT_RTLREADING","DT_SINGLELINE","DT_TABSTOP","DT_TOP","DT_VCENTER","DT_WORDBREAK","DT_WORD_ELLIPSIS","DrawTextEx","DrawTextEx function [Windows GDI]","DrawTextExA","DrawTextExW","_win32_DrawTextEx","gdi.drawtextex","winuser/DrawTextEx","winuser/DrawTextExA","winuser/DrawTextExW"]
 old-location: gdi\drawtextex.htm
 tech.root: gdi
 ms.assetid: 77b9973b-77f1-4508-a021-52d61d576c23
@@ -392,6 +393,10 @@ The text alignment mode for the device context must include the TA_LEFT, TA_TOP,
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines DrawTextEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

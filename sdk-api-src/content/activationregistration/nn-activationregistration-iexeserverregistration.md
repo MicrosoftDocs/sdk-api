@@ -1,7 +1,8 @@
 ---
 UID: NN:activationregistration.IExeServerRegistration
 title: IExeServerRegistration (activationregistration.h)
-description: Represents a registered an out-of-process server.helpviewer_keywords: ["IExeServerRegistration","IExeServerRegistration interface [Windows Runtime]","IExeServerRegistration interface [Windows Runtime]","described","activationregistration/IExeServerRegistration","winrt.iexeserverregistration"]
+description: Represents a registered an out-of-process server.
+helpviewer_keywords: ["IExeServerRegistration","IExeServerRegistration interface [Windows Runtime]","IExeServerRegistration interface [Windows Runtime]","described","activationregistration/IExeServerRegistration","winrt.iexeserverregistration"]
 old-location: winrt\iexeserverregistration.htm
 tech.root: WinRT
 ms.assetid: 9A96968D-B9BD-4C47-B626-69B6EA6AE7EA

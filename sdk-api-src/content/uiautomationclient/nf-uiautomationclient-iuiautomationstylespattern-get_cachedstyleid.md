@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationStylesPattern.get_CachedStyleId
 title: IUIAutomationStylesPattern::get_CachedStyleId (uiautomationclient.h)
-description: Retrieves the cached identifier of the visual style associated with an element in a document.helpviewer_keywords: ["CachedStyleId property [Windows Accessibility]","CachedStyleId property [Windows Accessibility]","IUIAutomationStylesPattern interface","IUIAutomationStylesPattern interface [Windows Accessibility]","CachedStyleId property","IUIAutomationStylesPattern.CachedStyleId","IUIAutomationStylesPattern.get_CachedStyleId","IUIAutomationStylesPattern::CachedStyleId","IUIAutomationStylesPattern::get_CachedStyleId","get_CachedStyleId","uiautomationclient/IUIAutomationStylesPattern::CachedStyleId","uiautomationclient/IUIAutomationStylesPattern::get_CachedStyleId","winauto.uiauto_IUIAutomationStylesPattern_CachedStyleId"]
+description: Retrieves the cached identifier of the visual style associated with an element in a document.
+helpviewer_keywords: ["CachedStyleId property [Windows Accessibility]","CachedStyleId property [Windows Accessibility]","IUIAutomationStylesPattern interface","IUIAutomationStylesPattern interface [Windows Accessibility]","CachedStyleId property","IUIAutomationStylesPattern.CachedStyleId","IUIAutomationStylesPattern.get_CachedStyleId","IUIAutomationStylesPattern::CachedStyleId","IUIAutomationStylesPattern::get_CachedStyleId","get_CachedStyleId","uiautomationclient/IUIAutomationStylesPattern::CachedStyleId","uiautomationclient/IUIAutomationStylesPattern::get_CachedStyleId","winauto.uiauto_IUIAutomationStylesPattern_CachedStyleId"]
 old-location: winauto\uiauto_IUIAutomationStylesPattern_CachedStyleId.htm
 tech.root: WinAuto
 ms.assetid: F884A9FF-4538-41B6-A067-246A8897F076

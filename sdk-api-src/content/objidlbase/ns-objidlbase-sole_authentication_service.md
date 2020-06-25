@@ -1,7 +1,8 @@
 ---
 UID: NS:objidlbase.tagSOLE_AUTHENTICATION_SERVICE
 title: SOLE_AUTHENTICATION_SERVICE (objidlbase.h)
-description: Identifies an authentication service that a server is willing to use to communicate to a client.helpviewer_keywords: ["*PSOLE_AUTHENTICATION_SERVICE","PSOLE_AUTHENTICATION_SERVICE","PSOLE_AUTHENTICATION_SERVICE structure pointer [COM]","SOLE_AUTHENTICATION_SERVICE","SOLE_AUTHENTICATION_SERVICE structure [COM]","_com_SOLE_AUTHENTICATION_SERVICE","com.sole_authentication_service","objidlbase/PSOLE_AUTHENTICATION_SERVICE","objidlbase/SOLE_AUTHENTICATION_SERVICE","tagSOLE_AUTHENTICATION_SERVICE"]
+description: Identifies an authentication service that a server is willing to use to communicate to a client.
+helpviewer_keywords: ["*PSOLE_AUTHENTICATION_SERVICE","PSOLE_AUTHENTICATION_SERVICE","PSOLE_AUTHENTICATION_SERVICE structure pointer [COM]","SOLE_AUTHENTICATION_SERVICE","SOLE_AUTHENTICATION_SERVICE structure [COM]","_com_SOLE_AUTHENTICATION_SERVICE","com.sole_authentication_service","objidlbase/PSOLE_AUTHENTICATION_SERVICE","objidlbase/SOLE_AUTHENTICATION_SERVICE","tagSOLE_AUTHENTICATION_SERVICE"]
 old-location: com\sole_authentication_service.htm
 tech.root: com
 ms.assetid: 77fd15d7-54d4-4812-93d3-13a671e7afff

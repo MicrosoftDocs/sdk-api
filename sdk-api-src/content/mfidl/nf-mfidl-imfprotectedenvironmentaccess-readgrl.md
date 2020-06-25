@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFProtectedEnvironmentAccess.ReadGRL
 title: IMFProtectedEnvironmentAccess::ReadGRL (mfidl.h)
-description: Gets the Global Revocation List (GLR).helpviewer_keywords: ["IMFProtectedEnvironmentAccess interface [Media Foundation]","ReadGRL method","IMFProtectedEnvironmentAccess.ReadGRL","IMFProtectedEnvironmentAccess::ReadGRL","ReadGRL","ReadGRL method [Media Foundation]","ReadGRL method [Media Foundation]","IMFProtectedEnvironmentAccess interface","mf.imfprotectedenvironmentaccess_readgrl","mfidl/IMFProtectedEnvironmentAccess::ReadGRL"]
+description: Gets the Global Revocation List (GLR).
+helpviewer_keywords: ["IMFProtectedEnvironmentAccess interface [Media Foundation]","ReadGRL method","IMFProtectedEnvironmentAccess.ReadGRL","IMFProtectedEnvironmentAccess::ReadGRL","ReadGRL","ReadGRL method [Media Foundation]","ReadGRL method [Media Foundation]","IMFProtectedEnvironmentAccess interface","mf.imfprotectedenvironmentaccess_readgrl","mfidl/IMFProtectedEnvironmentAccess::ReadGRL"]
 old-location: mf\imfprotectedenvironmentaccess_readgrl.htm
 tech.root: medfound
 ms.assetid: 38b70c99-1823-498c-b3e4-d2cad05278de

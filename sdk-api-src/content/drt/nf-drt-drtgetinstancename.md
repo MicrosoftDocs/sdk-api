@@ -1,7 +1,8 @@
 ---
 UID: NF:drt.DrtGetInstanceName
 title: DrtGetInstanceName function (drt.h)
-description: DrtGetInstanceName function retrieves the full name of the Distributed Routing Table instance that corresponds to the specified DRT handle.helpviewer_keywords: ["DrtGetInstanceName","DrtGetInstanceName function [Distributed Routing Tables]","drt/DrtGetInstanceName","p2p.drtgetinstancename"]
+description: DrtGetInstanceName function retrieves the full name of the Distributed Routing Table instance that corresponds to the specified DRT handle.
+helpviewer_keywords: ["DrtGetInstanceName","DrtGetInstanceName function [Distributed Routing Tables]","drt/DrtGetInstanceName","p2p.drtgetinstancename"]
 old-location: p2p\drtgetinstancename.htm
 tech.root: P2PSdk
 ms.assetid: f69b745c-d990-42cf-8994-9640bcb7d1bf

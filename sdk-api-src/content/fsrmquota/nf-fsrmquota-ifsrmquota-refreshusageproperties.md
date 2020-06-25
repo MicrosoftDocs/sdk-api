@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmquota.IFsrmQuota.RefreshUsageProperties
 title: IFsrmQuota::RefreshUsageProperties (fsrmquota.h)
-description: Refreshes this object's quota usage information from the current information in FSRM.helpviewer_keywords: ["IFsrmQuota interface [File Server Resource Manager]","RefreshUsageProperties method","IFsrmQuota.RefreshUsageProperties","IFsrmQuota::RefreshUsageProperties","RefreshUsageProperties","RefreshUsageProperties method [File Server Resource Manager]","RefreshUsageProperties method [File Server Resource Manager]","IFsrmQuota interface","fs.ifsrmquota_refreshusageproperties","fsrm.ifsrmquota_refreshusageproperties","fsrmquota/IFsrmQuota::RefreshUsageProperties"]
+description: Refreshes this object's quota usage information from the current information in FSRM.
+helpviewer_keywords: ["IFsrmQuota interface [File Server Resource Manager]","RefreshUsageProperties method","IFsrmQuota.RefreshUsageProperties","IFsrmQuota::RefreshUsageProperties","RefreshUsageProperties","RefreshUsageProperties method [File Server Resource Manager]","RefreshUsageProperties method [File Server Resource Manager]","IFsrmQuota interface","fs.ifsrmquota_refreshusageproperties","fsrm.ifsrmquota_refreshusageproperties","fsrmquota/IFsrmQuota::RefreshUsageProperties"]
 old-location: fsrm\ifsrmquota_refreshusageproperties.htm
 tech.root: fsrm
 ms.assetid: 1aa20d1a-4259-4ae0-9717-957f7b8b984e

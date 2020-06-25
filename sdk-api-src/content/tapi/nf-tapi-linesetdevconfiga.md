@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineSetDevConfigA
 title: lineSetDevConfigA function (tapi.h)
-description: The lineSetDevConfig function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using lineGetDevConfig.helpviewer_keywords: ["_tapi2_linesetdevconfig","lineSetDevConfig","lineSetDevConfig function [TAPI 2.2]","lineSetDevConfigA","lineSetDevConfigW","tapi/lineSetDevConfig","tapi/lineSetDevConfigA","tapi/lineSetDevConfigW","tapi2.linesetdevconfig"]
+description: The lineSetDevConfig function allows the application to restore the configuration of a media stream device on a line device to a setup previously obtained using lineGetDevConfig.
+helpviewer_keywords: ["_tapi2_linesetdevconfig","lineSetDevConfig","lineSetDevConfig function [TAPI 2.2]","lineSetDevConfigA","lineSetDevConfigW","tapi/lineSetDevConfig","tapi/lineSetDevConfigA","tapi/lineSetDevConfigW","tapi2.linesetdevconfig"]
 old-location: tapi2\linesetdevconfig.htm
 tech.root: Tapi
 ms.assetid: f1b04224-e535-4100-b026-3203eebc42c8
@@ -118,6 +119,10 @@ Some service providers may permit the configuration to be set while a call is ac
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines lineSetDevConfig as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFontCollection.GetFontFromFontFace
 title: IDWriteFontCollection::GetFontFromFontFace (dwrite.h)
-description: Gets the font object that corresponds to the same physical font as the specified font face object. The specified physical font must belong to the font collection.helpviewer_keywords: ["GetFontFromFontFace","GetFontFromFontFace method [Direct Write]","GetFontFromFontFace method [Direct Write]","IDWriteFontCollection interface","IDWriteFontCollection interface [Direct Write]","GetFontFromFontFace method","IDWriteFontCollection.GetFontFromFontFace","IDWriteFontCollection::GetFontFromFontFace","directwrite.IDWriteFontCollection_GetFontFromFontFace","dwrite/IDWriteFontCollection::GetFontFromFontFace"]
+description: Gets the font object that corresponds to the same physical font as the specified font face object. The specified physical font must belong to the font collection.
+helpviewer_keywords: ["GetFontFromFontFace","GetFontFromFontFace method [Direct Write]","GetFontFromFontFace method [Direct Write]","IDWriteFontCollection interface","IDWriteFontCollection interface [Direct Write]","GetFontFromFontFace method","IDWriteFontCollection.GetFontFromFontFace","IDWriteFontCollection::GetFontFromFontFace","directwrite.IDWriteFontCollection_GetFontFromFontFace","dwrite/IDWriteFontCollection::GetFontFromFontFace"]
 old-location: directwrite\IDWriteFontCollection_GetFontFromFontFace.htm
 tech.root: DirectWrite
 ms.assetid: cc3c6cb9-9e98-4d45-bf73-ee625fb17e8c

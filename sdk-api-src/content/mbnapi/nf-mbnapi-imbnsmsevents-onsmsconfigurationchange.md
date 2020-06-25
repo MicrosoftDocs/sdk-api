@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnSmsEvents.OnSmsConfigurationChange
 title: IMbnSmsEvents::OnSmsConfigurationChange (mbnapi.h)
-description: Notification method that indicates that SMS configuration has changed or is available.helpviewer_keywords: ["IMbnSmsEvents interface [Microsoft Broadband Networks]","OnSmsConfigurationChange method","IMbnSmsEvents.OnSmsConfigurationChange","IMbnSmsEvents::OnSmsConfigurationChange","OnSmsConfigurationChange","OnSmsConfigurationChange method [Microsoft Broadband Networks]","OnSmsConfigurationChange method [Microsoft Broadband Networks]","IMbnSmsEvents interface","mbn.imbnsmsevents_onsmsconfigurationchange","mbnapi/IMbnSmsEvents::OnSmsConfigurationChange"]
+description: Notification method that indicates that SMS configuration has changed or is available.
+helpviewer_keywords: ["IMbnSmsEvents interface [Microsoft Broadband Networks]","OnSmsConfigurationChange method","IMbnSmsEvents.OnSmsConfigurationChange","IMbnSmsEvents::OnSmsConfigurationChange","OnSmsConfigurationChange","OnSmsConfigurationChange method [Microsoft Broadband Networks]","OnSmsConfigurationChange method [Microsoft Broadband Networks]","IMbnSmsEvents interface","mbn.imbnsmsevents_onsmsconfigurationchange","mbnapi/IMbnSmsEvents::OnSmsConfigurationChange"]
 old-location: mbn\imbnsmsevents_onsmsconfigurationchange.htm
 tech.root: mbn
 ms.assetid: d6990732-60ef-43e5-b35c-9a3f0324d580

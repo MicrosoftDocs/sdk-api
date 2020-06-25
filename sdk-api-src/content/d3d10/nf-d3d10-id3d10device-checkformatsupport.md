@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10.ID3D10Device.CheckFormatSupport
 title: ID3D10Device::CheckFormatSupport (d3d10.h)
-description: Get the support of a given format on the installed video device.helpviewer_keywords: ["CheckFormatSupport","CheckFormatSupport method [Direct3D 10]","CheckFormatSupport method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CheckFormatSupport method","ID3D10Device.CheckFormatSupport","ID3D10Device::CheckFormatSupport","d3d10/ID3D10Device::CheckFormatSupport","direct3d10.id3d10device_checkformatsupport","eaf02733-648b-44c6-4ca7-57aa2cecf913"]
+description: Get the support of a given format on the installed video device.
+helpviewer_keywords: ["CheckFormatSupport","CheckFormatSupport method [Direct3D 10]","CheckFormatSupport method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CheckFormatSupport method","ID3D10Device.CheckFormatSupport","ID3D10Device::CheckFormatSupport","d3d10/ID3D10Device::CheckFormatSupport","direct3d10.id3d10device_checkformatsupport","eaf02733-648b-44c6-4ca7-57aa2cecf913"]
 old-location: direct3d10\id3d10device_checkformatsupport.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_checkformatsupport.htm

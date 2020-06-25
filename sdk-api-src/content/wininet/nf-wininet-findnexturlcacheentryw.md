@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.FindNextUrlCacheEntryW
 title: FindNextUrlCacheEntryW function (wininet.h)
-description: Retrieves the next entry in the Internet cache.helpviewer_keywords: ["FindNextUrlCacheEntry","FindNextUrlCacheEntry function [WinINet]","FindNextUrlCacheEntryA","FindNextUrlCacheEntryW","_inet_findnexturlcacheentry_function","wininet.findnexturlcacheentry","wininet/FindNextUrlCacheEntry","wininet/FindNextUrlCacheEntryA","wininet/FindNextUrlCacheEntryW"]
+description: Retrieves the next entry in the Internet cache.
+helpviewer_keywords: ["FindNextUrlCacheEntry","FindNextUrlCacheEntry function [WinINet]","FindNextUrlCacheEntryA","FindNextUrlCacheEntryW","_inet_findnexturlcacheentry_function","wininet.findnexturlcacheentry","wininet/FindNextUrlCacheEntry","wininet/FindNextUrlCacheEntryA","wininet/FindNextUrlCacheEntryW"]
 old-location: wininet\findnexturlcacheentry.htm
 tech.root: wininet
 ms.assetid: 776bf73e-00f3-46a1-a8c7-5eb365e9a518
@@ -132,6 +133,10 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines FindNextUrlCacheEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

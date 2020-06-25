@@ -1,7 +1,8 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfActivationParams
 title: SpatialAudioHrtfActivationParams (spatialaudiohrtf.h)
-description: Specifies the activation parameters for an ISpatialAudioRenderStreamForHrtf.helpviewer_keywords: ["PSpatialAudioHrtfActivationParams","PSpatialAudioHrtfActivationParams structure pointer [Core Audio]","SpatialAudioHrtfActivationParams","SpatialAudioHrtfActivationParams structure [Core Audio]","coreaudio.spatialaudiohrtfactivationparams","spatialaudiohrtf/PSpatialAudioHrtfActivationParams","spatialaudiohrtf/SpatialAudioHrtfActivationParams"]
+description: Specifies the activation parameters for an ISpatialAudioRenderStreamForHrtf.
+helpviewer_keywords: ["PSpatialAudioHrtfActivationParams","PSpatialAudioHrtfActivationParams structure pointer [Core Audio]","SpatialAudioHrtfActivationParams","SpatialAudioHrtfActivationParams structure [Core Audio]","coreaudio.spatialaudiohrtfactivationparams","spatialaudiohrtf/PSpatialAudioHrtfActivationParams","spatialaudiohrtf/SpatialAudioHrtfActivationParams"]
 old-location: coreaudio\spatialaudiohrtfactivationparams.htm
 tech.root: CoreAudio
 ms.assetid: 6A549BFB-993A-4A20-AFAB-B38D03EAE35C

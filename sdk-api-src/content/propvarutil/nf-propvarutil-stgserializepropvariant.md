@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.StgSerializePropVariant
 title: StgSerializePropVariant function (propvarutil.h)
-description: The StgSerializePropVariant function converts a PROPVARIANT data type to a SERIALIZEDPROPERTYVALUE data type.helpviewer_keywords: ["StgSerializePropVariant","StgSerializePropVariant function [Structured Storage]","propvarutil/StgSerializePropVariant","stg.StgSerializePropVariant"]
+description: The StgSerializePropVariant function converts a PROPVARIANT data type to a SERIALIZEDPROPERTYVALUE data type.
+helpviewer_keywords: ["StgSerializePropVariant","StgSerializePropVariant function [Structured Storage]","propvarutil/StgSerializePropVariant","stg.StgSerializePropVariant"]
 old-location: stg\StgSerializePropVariant.htm
 tech.root: Stg
 ms.assetid: e1382c1e-3f9e-41a2-8e95-fc3702e516d3

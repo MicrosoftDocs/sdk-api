@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_MousePointer
 title: IInkOverlay::put_MousePointer (msinkaut.h)
-description: Gets or sets a value that indicates the type of mouse pointer that appears.helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","MousePointer property","IInkOverlay.MousePointer","IInkOverlay.put_MousePointer","IInkOverlay::MousePointer","IInkOverlay::get_MousePointer","IInkOverlay::put_MousePointer","InkOverlay.get_MousePointer","InkOverlay.put_MousePointer","MousePointer property [Tablet PC]","MousePointer property [Tablet PC]","IInkOverlay interface","get_MousePointer","msinkaut/IInkOverlay::MousePointer","msinkaut/IInkOverlay::get_MousePointer","msinkaut/IInkOverlay::put_MousePointer","put_MousePointer","tablet.inkoverlay_mousepointer"]
+description: Gets or sets a value that indicates the type of mouse pointer that appears.
+helpviewer_keywords: ["IInkOverlay interface [Tablet PC]","MousePointer property","IInkOverlay.MousePointer","IInkOverlay.put_MousePointer","IInkOverlay::MousePointer","IInkOverlay::get_MousePointer","IInkOverlay::put_MousePointer","InkOverlay.get_MousePointer","InkOverlay.put_MousePointer","MousePointer property [Tablet PC]","MousePointer property [Tablet PC]","IInkOverlay interface","get_MousePointer","msinkaut/IInkOverlay::MousePointer","msinkaut/IInkOverlay::get_MousePointer","msinkaut/IInkOverlay::put_MousePointer","put_MousePointer","tablet.inkoverlay_mousepointer"]
 old-location: tablet\inkoverlay_mousepointer.htm
 tech.root: tablet
 ms.assetid: cf687894-b005-4a86-9a71-dc27b225b1e4

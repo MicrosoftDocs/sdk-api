@@ -53,7 +53,8 @@ ms.custom: 19H1
 
 The <b>BCryptDeriveKey</b> function derives a key from a secret agreement value. 
 
-For key derivation from a given secret see <a href="https://docs.microsoft.com/en-us/windows/win32/api/bcrypt/nf-bcrypt-bcryptkeyderivation">BCryptKeyDerivation</a>
+For key derivation from a given secret, see <a href="https://docs.microsoft.com/windows/win32/api/bcrypt/nf-bcrypt-bcryptkeyderivation">BCryptKeyDerivation</a>.
+
 
 ## -parameters
 
@@ -451,6 +452,7 @@ If the <i>cbDerivedKey</i> parameter is less than the size of the derived key, t
 <b>Windows 8, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
 
+
 ### -param pParameterList [in, optional]
 
 The address of a <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa375370(v=vs.85)">BCryptBufferDesc</a> structure that contains the KDF parameters. This parameter is optional and can be <b>NULL</b> if it is not needed.
@@ -600,6 +602,7 @@ Value: {0x01, 0x10, 0x11, 0x12}, length 4
 
 If the <i>pwszKDF</i> parameter is set to <b>BCRYPT_KDF_RAW_SECRET</b>, The returned secret (unlike the other <i>pwszKDF</i> values) will be encoded in little-endian format. It is important to take note of this when using the raw secret in any other CNG functions, as most of them take in big-endian encoded inputs.
 
+
 Depending on what processor modes a provider supports, <b>BCryptDeriveKey</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hSharedSecret</i> parameter must be located in nonpaged (or locked) memory and must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
@@ -616,6 +619,3 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsecretagreement">BCryptSecretAgreement</a>
  
-
- 
-

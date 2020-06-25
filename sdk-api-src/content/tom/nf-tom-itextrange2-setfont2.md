@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange2.SetFont2
 title: ITextRange2::SetFont2 (tom.h)
-description: Sets the character formatting attributes of the range.helpviewer_keywords: ["ITextRange2 interface [Windows Controls]","SetFont2 method","ITextRange2.SetFont2","ITextRange2::SetFont2","SetFont2","SetFont2 method [Windows Controls]","SetFont2 method [Windows Controls]","ITextRange2 interface","controls.itextrange2_setfont2","tom/ITextRange2::SetFont2"]
+description: Sets the character formatting attributes of the range.
+helpviewer_keywords: ["ITextRange2 interface [Windows Controls]","SetFont2 method","ITextRange2.SetFont2","ITextRange2::SetFont2","SetFont2","SetFont2 method [Windows Controls]","SetFont2 method [Windows Controls]","ITextRange2 interface","controls.itextrange2_setfont2","tom/ITextRange2::SetFont2"]
 old-location: controls\itextrange2_setfont2.htm
 tech.root: Controls
 ms.assetid: ff3c2bf3-efb8-454e-b0e2-e65afeb1a091

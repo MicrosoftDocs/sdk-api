@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMStreamControl.StopAt
 title: IAMStreamControl::StopAt (strmif.h)
-description: The StopAt method informs the pin when to stop delivering data.helpviewer_keywords: ["IAMStreamControl interface [DirectShow]","StopAt method","IAMStreamControl.StopAt","IAMStreamControl::StopAt","IAMStreamControlStopAt","StopAt","StopAt method [DirectShow]","StopAt method [DirectShow]","IAMStreamControl interface","dshow.iamstreamcontrol_stopat","strmif/IAMStreamControl::StopAt"]
+description: The StopAt method informs the pin when to stop delivering data.
+helpviewer_keywords: ["IAMStreamControl interface [DirectShow]","StopAt method","IAMStreamControl.StopAt","IAMStreamControl::StopAt","IAMStreamControlStopAt","StopAt","StopAt method [DirectShow]","StopAt method [DirectShow]","IAMStreamControl interface","dshow.iamstreamcontrol_stopat","strmif/IAMStreamControl::StopAt"]
 old-location: dshow\iamstreamcontrol_stopat.htm
 tech.root: DirectShow
 ms.assetid: b3dd5332-e93e-4e55-9c7f-47c302ef11a3

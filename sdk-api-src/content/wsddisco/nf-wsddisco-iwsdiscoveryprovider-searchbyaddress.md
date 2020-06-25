@@ -1,7 +1,8 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProvider.SearchByAddress
 title: IWSDiscoveryProvider::SearchByAddress (wsddisco.h)
-description: Initializes a search for WS-Discovery hosts by device address.helpviewer_keywords: ["IWSDiscoveryProvider interface","SearchByAddress method","IWSDiscoveryProvider.SearchByAddress","IWSDiscoveryProvider::SearchByAddress","SearchByAddress","SearchByAddress method","SearchByAddress method","IWSDiscoveryProvider interface","ncd.iwsdiscoveryprovider_searchbyaddress","wsddisco/IWSDiscoveryProvider::SearchByAddress"]
+description: Initializes a search for WS-Discovery hosts by device address.
+helpviewer_keywords: ["IWSDiscoveryProvider interface","SearchByAddress method","IWSDiscoveryProvider.SearchByAddress","IWSDiscoveryProvider::SearchByAddress","SearchByAddress","SearchByAddress method","SearchByAddress method","IWSDiscoveryProvider interface","ncd.iwsdiscoveryprovider_searchbyaddress","wsddisco/IWSDiscoveryProvider::SearchByAddress"]
 old-location: ncd\iwsdiscoveryprovider_searchbyaddress.htm
 tech.root: WsdApi
 ms.assetid: 64493841-0715-4bae-a416-aca9945b2420

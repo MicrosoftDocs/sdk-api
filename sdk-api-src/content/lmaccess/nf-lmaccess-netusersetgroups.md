@@ -1,7 +1,8 @@
 ---
 UID: NF:lmaccess.NetUserSetGroups
 title: NetUserSetGroups function (lmaccess.h)
-description: The NetUserSetGroups function sets global group memberships for a specified user account.helpviewer_keywords: ["0","1","NetUserSetGroups","NetUserSetGroups function [Network Management]","_win32_netusersetgroups","lmaccess/NetUserSetGroups","netmgmt.netusersetgroups"]
+description: The NetUserSetGroups function sets global group memberships for a specified user account.
+helpviewer_keywords: ["0","1","NetUserSetGroups","NetUserSetGroups function [Network Management]","_win32_netusersetgroups","lmaccess/NetUserSetGroups","netmgmt.netusersetgroups"]
 old-location: netmgmt\netusersetgroups.htm
 tech.root: NetMgmt
 ms.assetid: 7042c43a-09d1-4179-8074-eb055dc279a6

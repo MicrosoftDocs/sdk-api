@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.SetErrorInfo
 title: IWTSProtocolConnection::SetErrorInfo (wtsprotocol.h)
-description: IWTSProtocolConnection::SetErrorInfo is no longer available. Instead, use IWRdsProtocolConnection::SetErrorInfo.helpviewer_keywords: ["IWTSProtocolConnection interface [Remote Desktop Services]","SetErrorInfo method","IWTSProtocolConnection.SetErrorInfo","IWTSProtocolConnection::SetErrorInfo","SetErrorInfo","SetErrorInfo method [Remote Desktop Services]","SetErrorInfo method [Remote Desktop Services]","IWTSProtocolConnection interface","termserv.iwtsprotocolconnection_seterrorinfo","wtsprotocol/IWTSProtocolConnection::SetErrorInfo"]
+description: IWTSProtocolConnection::SetErrorInfo is no longer available. Instead, use IWRdsProtocolConnection::SetErrorInfo.
+helpviewer_keywords: ["IWTSProtocolConnection interface [Remote Desktop Services]","SetErrorInfo method","IWTSProtocolConnection.SetErrorInfo","IWTSProtocolConnection::SetErrorInfo","SetErrorInfo","SetErrorInfo method [Remote Desktop Services]","SetErrorInfo method [Remote Desktop Services]","IWTSProtocolConnection interface","termserv.iwtsprotocolconnection_seterrorinfo","wtsprotocol/IWTSProtocolConnection::SetErrorInfo"]
 old-location: termserv\iwtsprotocolconnection_seterrorinfo.htm
 tech.root: TermServ
 ms.assetid: 0ec35560-5aad-403a-9477-50e48ee7136a

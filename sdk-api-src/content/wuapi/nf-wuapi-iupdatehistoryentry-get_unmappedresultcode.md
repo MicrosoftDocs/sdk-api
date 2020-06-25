@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateHistoryEntry.get_UnmappedResultCode
 title: IUpdateHistoryEntry::get_UnmappedResultCode (wuapi.h)
-description: Gets the unmapped result code that is returned from an operation on an update.helpviewer_keywords: ["IUpdateHistoryEntry interface [Windows Update Agent]","UnmappedResultCode property","IUpdateHistoryEntry.UnmappedResultCode","IUpdateHistoryEntry.get_UnmappedResultCode","IUpdateHistoryEntry::UnmappedResultCode","IUpdateHistoryEntry::get_UnmappedResultCode","UnmappedResultCode property [Windows Update Agent]","UnmappedResultCode property [Windows Update Agent]","IUpdateHistoryEntry interface","get_UnmappedResultCode","wua.iupdatehistoryentry_unmappedresultcode","wuapi/IUpdateHistoryEntry::UnmappedResultCode","wuapi/IUpdateHistoryEntry::get_UnmappedResultCode"]
+description: Gets the unmapped result code that is returned from an operation on an update.
+helpviewer_keywords: ["IUpdateHistoryEntry interface [Windows Update Agent]","UnmappedResultCode property","IUpdateHistoryEntry.UnmappedResultCode","IUpdateHistoryEntry.get_UnmappedResultCode","IUpdateHistoryEntry::UnmappedResultCode","IUpdateHistoryEntry::get_UnmappedResultCode","UnmappedResultCode property [Windows Update Agent]","UnmappedResultCode property [Windows Update Agent]","IUpdateHistoryEntry interface","get_UnmappedResultCode","wua.iupdatehistoryentry_unmappedresultcode","wuapi/IUpdateHistoryEntry::UnmappedResultCode","wuapi/IUpdateHistoryEntry::get_UnmappedResultCode"]
 old-location: wua\iupdatehistoryentry_unmappedresultcode.htm
 tech.root: Wua_Sdk
 ms.assetid: 8c0c49c2-6902-4c4b-95a9-5254b0b83897

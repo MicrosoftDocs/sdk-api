@@ -1,7 +1,8 @@
 ---
 UID: NF:t2embapi.TTGetNewFontName
 title: TTGetNewFontName function (t2embapi.h)
-description: Obtains the family name for the font loaded through TTLoadEmbeddedFont.helpviewer_keywords: ["TTGetNewFontName","TTGetNewFontName function [Windows GDI]","_win32_TTGetNewFontName","gdi.ttgetnewfontname","t2embapi/TTGetNewFontName"]
+description: Obtains the family name for the font loaded through TTLoadEmbeddedFont.
+helpviewer_keywords: ["TTGetNewFontName","TTGetNewFontName function [Windows GDI]","_win32_TTGetNewFontName","gdi.ttgetnewfontname","t2embapi/TTGetNewFontName"]
 old-location: gdi\ttgetnewfontname.htm
 tech.root: gdi
 ms.assetid: 08636992-8dd8-461c-b360-f52a19d845bf

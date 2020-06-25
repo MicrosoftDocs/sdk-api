@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IEntity.NamedEntities
 title: IEntity::NamedEntities (structuredquery.h)
-description: Retrieves an enumeration of INamedEntity objects, one for each known named entity of this type.helpviewer_keywords: ["IEntity interface [search]","NamedEntities method","IEntity.NamedEntities","IEntity::NamedEntities","NamedEntities","NamedEntities method [search]","NamedEntities method [search]","IEntity interface","_search_IEntity_NamedEntities","search._search_IEntity_NamedEntities","structuredquery/IEntity::NamedEntities"]
+description: Retrieves an enumeration of INamedEntity objects, one for each known named entity of this type.
+helpviewer_keywords: ["IEntity interface [search]","NamedEntities method","IEntity.NamedEntities","IEntity::NamedEntities","NamedEntities","NamedEntities method [search]","NamedEntities method [search]","IEntity interface","_search_IEntity_NamedEntities","search._search_IEntity_NamedEntities","structuredquery/IEntity::NamedEntities"]
 old-location: search\_search_IEntity_NamedEntities.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\namedentities.htm

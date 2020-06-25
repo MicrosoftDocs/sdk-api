@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IBroadcastEventEx
 title: IBroadcastEventEx (tuner.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["IBroadcastEventEx","IBroadcastEventEx interface [Microsoft TV Technologies]","IBroadcastEventEx interface [Microsoft TV Technologies]","described","IBroadcastEventExInterface","mstv.ibroadcasteventex","tuner/IBroadcastEventEx"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IBroadcastEventEx","IBroadcastEventEx interface [Microsoft TV Technologies]","IBroadcastEventEx interface [Microsoft TV Technologies]","described","IBroadcastEventExInterface","mstv.ibroadcasteventex","tuner/IBroadcastEventEx"]
 old-location: mstv\ibroadcasteventex.htm
 tech.root: mstv
 ms.assetid: c16ad538-afc6-4530-a2fd-18965b63983b

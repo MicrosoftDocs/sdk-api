@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetInterfaceCurrentTimestampCapabilities
 title: GetInterfaceCurrentTimestampCapabilities function (iphlpapi.h)
-description: This function is reserved for system use, and you should not call it from your code.helpviewer_keywords: ["GetInterfaceCurrentTimestampCapabilities","GetInterfaceCurrentTimestampCapabilities function [IP Helper]","iphlp.getinterfacecurrenttimestampcapabilities","iphlpapi/GetInterfaceCurrentTimestampCapabilities"]
+description: This function is reserved for system use, and you should not call it from your code.
+helpviewer_keywords: ["GetInterfaceCurrentTimestampCapabilities","GetInterfaceCurrentTimestampCapabilities function [IP Helper]","iphlp.getinterfacecurrenttimestampcapabilities","iphlpapi/GetInterfaceCurrentTimestampCapabilities"]
 old-location: iphlp\getinterfacecurrenttimestampcapabilities.htm
 tech.root: IpHlp
 ms.assetid: 5E43CF7E-70EF-4E26-A029-C33905A1C5C4

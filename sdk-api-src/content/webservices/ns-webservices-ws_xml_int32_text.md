@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_INT32_TEXT
 title: WS_XML_INT32_TEXT (webservices.h)
-description: Represents a signed 32 bit integer.helpviewer_keywords: ["WS_XML_INT32_TEXT","WS_XML_INT32_TEXT structure [Web Services for Windows]","webservices/WS_XML_INT32_TEXT","wsw.ws_xml_int32_text"]
+description: Represents a signed 32 bit integer.
+helpviewer_keywords: ["WS_XML_INT32_TEXT","WS_XML_INT32_TEXT structure [Web Services for Windows]","webservices/WS_XML_INT32_TEXT","wsw.ws_xml_int32_text"]
 old-location: wsw\ws_xml_int32_text.htm
 tech.root: wsw
 ms.assetid: 23ca9a0c-dbfb-449a-b1ef-44c6eae6c82f

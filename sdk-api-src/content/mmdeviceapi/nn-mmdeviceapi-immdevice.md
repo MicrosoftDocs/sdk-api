@@ -1,7 +1,8 @@
 ---
 UID: NN:mmdeviceapi.IMMDevice
 title: IMMDevice (mmdeviceapi.h)
-description: The IMMDevice interface encapsulates the generic features of a multimedia device resource.helpviewer_keywords: ["IMMDevice","IMMDevice interface [Core Audio]","IMMDevice interface [Core Audio]","described","coreaudio.immdevice","mmdeviceapi/IMMDevice"]
+description: The IMMDevice interface encapsulates the generic features of a multimedia device resource.
+helpviewer_keywords: ["IMMDevice","IMMDevice interface [Core Audio]","IMMDevice interface [Core Audio]","described","coreaudio.immdevice","mmdeviceapi/IMMDevice"]
 old-location: coreaudio\immdevice.htm
 tech.root: CoreAudio
 ms.assetid: 12b05e7e-81b2-49fd-bb9f-d5ad3315c580

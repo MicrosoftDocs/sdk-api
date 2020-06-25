@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_FriendlyName
 title: IUPnPDevice::get_FriendlyName (upnp.h)
-description: The FriendlyName property specifies the device display name for the device.helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_FriendlyName method","IUPnPDevice.get_FriendlyName","IUPnPDevice::get_FriendlyName","_upnp_iupnpdevice_friendlyname","get_FriendlyName","get_FriendlyName method [UPnP APIs]","get_FriendlyName method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_friendlyname","upnp/IUPnPDevice::get_FriendlyName"]
+description: The FriendlyName property specifies the device display name for the device.
+helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_FriendlyName method","IUPnPDevice.get_FriendlyName","IUPnPDevice::get_FriendlyName","_upnp_iupnpdevice_friendlyname","get_FriendlyName","get_FriendlyName method [UPnP APIs]","get_FriendlyName method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_friendlyname","upnp/IUPnPDevice::get_FriendlyName"]
 old-location: upnp\iupnpdevice_friendlyname.htm
 tech.root: upnp
 ms.assetid: dd24384f-2657-4cb0-812e-1b51d53b73de

@@ -1,7 +1,8 @@
 ---
 UID: NS:oledlg.tagOLEUIPASTEENTRYW
 title: OLEUIPASTEENTRYW (oledlg.h)
-description: An array of entries to be specified in the OLEUIPASTESPECIAL structure for the Paste Special dialog box.helpviewer_keywords: ["*LPOLEUIPASTEENTRYW","*POLEUIPASTEENTRYW","LPOLEUIPASTEENTRY","LPOLEUIPASTEENTRY structure pointer [COM]","OLEUIPASTEENTRY","OLEUIPASTEENTRY structure [COM]","OLEUIPASTEENTRYA","OLEUIPASTEENTRYW","POLEUIPASTEENTRY","POLEUIPASTEENTRY structure pointer [COM]","_ole_OLEUIPASTEENTRY","com.oleuipasteentry_struct","oledlg/LPOLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRYA","oledlg/OLEUIPASTEENTRYW","oledlg/POLEUIPASTEENTRY"]
+description: An array of entries to be specified in the OLEUIPASTESPECIAL structure for the Paste Special dialog box.
+helpviewer_keywords: ["*LPOLEUIPASTEENTRYW","*POLEUIPASTEENTRYW","LPOLEUIPASTEENTRY","LPOLEUIPASTEENTRY structure pointer [COM]","OLEUIPASTEENTRY","OLEUIPASTEENTRY structure [COM]","OLEUIPASTEENTRYA","OLEUIPASTEENTRYW","POLEUIPASTEENTRY","POLEUIPASTEENTRY structure pointer [COM]","_ole_OLEUIPASTEENTRY","com.oleuipasteentry_struct","oledlg/LPOLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRY","oledlg/OLEUIPASTEENTRYA","oledlg/OLEUIPASTEENTRYW","oledlg/POLEUIPASTEENTRY"]
 old-location: com\oleuipasteentry_struct.htm
 tech.root: com
 ms.assetid: 9c84bb0e-d998-4e35-bf34-2377f5cd0cb7
@@ -102,4 +103,9 @@ Scratch space available to routines that loop through an <a href="https://docs.m
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The oledlg.h header defines OLEUIPASTEENTRY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

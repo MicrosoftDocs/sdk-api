@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstpdi.WdsTransportServerFreeBuffer
 title: WdsTransportServerFreeBuffer function (wdstpdi.h)
-description: Releases memory used by a buffer.helpviewer_keywords: ["WdsTransportServerFreeBuffer","WdsTransportServerFreeBuffer function [Windows Deployment Services]","wds.wdstransportserverfreebuffer","wdstpdi/WdsTransportServerFreeBuffer"]
+description: Releases memory used by a buffer.
+helpviewer_keywords: ["WdsTransportServerFreeBuffer","WdsTransportServerFreeBuffer function [Windows Deployment Services]","wds.wdstransportserverfreebuffer","wdstpdi/WdsTransportServerFreeBuffer"]
 old-location: wds\wdstransportserverfreebuffer.htm
 tech.root: wds
 ms.assetid: c6123cec-fed3-4745-9d82-e501e972d54f

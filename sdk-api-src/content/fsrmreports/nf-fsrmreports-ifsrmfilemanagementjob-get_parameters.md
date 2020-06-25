@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.get_Parameters
 title: IFsrmFileManagementJob::get_Parameters (fsrmreports.h)
-description: The parameters for the file management job.helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","Parameters property","IFsrmFileManagementJob.Parameters","IFsrmFileManagementJob.get_Parameters","IFsrmFileManagementJob::Parameters","IFsrmFileManagementJob::get_Parameters","IFsrmFileManagementJob::put_Parameters","Parameters property [File Server Resource Manager]","Parameters property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_parameters","fsrm.ifsrmfilemanagementjob_parameters","fsrmreports/IFsrmFileManagementJob::Parameters","fsrmreports/IFsrmFileManagementJob::get_Parameters","fsrmreports/IFsrmFileManagementJob::put_Parameters","get_Parameters"]
+description: The parameters for the file management job.
+helpviewer_keywords: ["IFsrmFileManagementJob interface [File Server Resource Manager]","Parameters property","IFsrmFileManagementJob.Parameters","IFsrmFileManagementJob.get_Parameters","IFsrmFileManagementJob::Parameters","IFsrmFileManagementJob::get_Parameters","IFsrmFileManagementJob::put_Parameters","Parameters property [File Server Resource Manager]","Parameters property [File Server Resource Manager]","IFsrmFileManagementJob interface","fs.ifsrmfilemanagementjob_parameters","fsrm.ifsrmfilemanagementjob_parameters","fsrmreports/IFsrmFileManagementJob::Parameters","fsrmreports/IFsrmFileManagementJob::get_Parameters","fsrmreports/IFsrmFileManagementJob::put_Parameters","get_Parameters"]
 old-location: fsrm\ifsrmfilemanagementjob_parameters.htm
 tech.root: fsrm
 ms.assetid: 87eb994c-3d15-4c6b-90c3-1ddb340f7458

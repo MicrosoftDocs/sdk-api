@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfThreadMgr.GetFocus
 title: ITfThreadMgr::GetFocus (msctf.h)
-description: ITfThreadMgr::GetFocus methodhelpviewer_keywords: ["GetFocus","GetFocus method [Text Services Framework]","GetFocus method [Text Services Framework]","ITfThreadMgr interface","ITfThreadMgr interface [Text Services Framework]","GetFocus method","ITfThreadMgr.GetFocus","ITfThreadMgr::GetFocus","_tsf_itfthreadmgr_getfocus_ref","msctf/ITfThreadMgr::GetFocus","tsf.itfthreadmgr_getfocus"]
+description: ITfThreadMgr::GetFocus method
+helpviewer_keywords: ["GetFocus","GetFocus method [Text Services Framework]","GetFocus method [Text Services Framework]","ITfThreadMgr interface","ITfThreadMgr interface [Text Services Framework]","GetFocus method","ITfThreadMgr.GetFocus","ITfThreadMgr::GetFocus","_tsf_itfthreadmgr_getfocus_ref","msctf/ITfThreadMgr::GetFocus","tsf.itfthreadmgr_getfocus"]
 old-location: tsf\itfthreadmgr_getfocus.htm
 tech.root: TSF
 ms.assetid: bd6b4566-de23-49f5-9ef1-f82626b1f140

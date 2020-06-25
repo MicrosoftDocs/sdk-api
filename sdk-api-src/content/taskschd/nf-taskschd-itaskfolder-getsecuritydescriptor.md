@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskFolder.GetSecurityDescriptor
 title: ITaskFolder::GetSecurityDescriptor (taskschd.h)
-description: Gets the security descriptor for the folder.helpviewer_keywords: ["GetSecurityDescriptor","GetSecurityDescriptor method [Task Scheduler]","GetSecurityDescriptor method [Task Scheduler]","ITaskFolder interface","ITaskFolder interface [Task Scheduler]","GetSecurityDescriptor method","ITaskFolder.GetSecurityDescriptor","ITaskFolder::GetSecurityDescriptor","taskschd.itaskfolder_getsecuritydescriptor","taskschd/ITaskFolder::GetSecurityDescriptor"]
+description: Gets the security descriptor for the folder.
+helpviewer_keywords: ["GetSecurityDescriptor","GetSecurityDescriptor method [Task Scheduler]","GetSecurityDescriptor method [Task Scheduler]","ITaskFolder interface","ITaskFolder interface [Task Scheduler]","GetSecurityDescriptor method","ITaskFolder.GetSecurityDescriptor","ITaskFolder::GetSecurityDescriptor","taskschd.itaskfolder_getsecuritydescriptor","taskschd/ITaskFolder::GetSecurityDescriptor"]
 old-location: taskschd\itaskfolder_getsecuritydescriptor.htm
 tech.root: taskschd
 ms.assetid: 9360746e-0f6d-40cb-9135-b12bd8b7d760

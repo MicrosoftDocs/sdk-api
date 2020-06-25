@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeIntList
 title: GetThemeIntList function (uxtheme.h)
-description: Retrieves a list of int data from a visual style.helpviewer_keywords: ["GetThemeIntList","GetThemeIntList function [Windows Controls]","controls.GetThemeIntList","controls.inet_GetThemeIntList","inet_GetThemeIntList","inet_GetThemeIntList_cpp","uxtheme/GetThemeIntList"]
+description: Retrieves a list of int data from a visual style.
+helpviewer_keywords: ["GetThemeIntList","GetThemeIntList function [Windows Controls]","controls.GetThemeIntList","controls.inet_GetThemeIntList","inet_GetThemeIntList","inet_GetThemeIntList_cpp","uxtheme/GetThemeIntList"]
 old-location: controls\GetThemeIntList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeintlist.htm

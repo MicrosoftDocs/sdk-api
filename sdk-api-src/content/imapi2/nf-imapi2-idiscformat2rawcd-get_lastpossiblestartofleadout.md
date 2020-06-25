@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_LastPossibleStartOfLeadout
 title: IDiscFormat2RawCD::get_LastPossibleStartOfLeadout (imapi2.h)
-description: Retrieves the last possible starting position for the leadout area.helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_LastPossibleStartOfLeadout method","IDiscFormat2RawCD.get_LastPossibleStartOfLeadout","IDiscFormat2RawCD::get_LastPossibleStartOfLeadout","get_LastPossibleStartOfLeadout","get_LastPossibleStartOfLeadout method [IMAPI]","get_LastPossibleStartOfLeadout method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_lastpossiblestartofleadout","imapi2/IDiscFormat2RawCD::get_LastPossibleStartOfLeadout"]
+description: Retrieves the last possible starting position for the leadout area.
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_LastPossibleStartOfLeadout method","IDiscFormat2RawCD.get_LastPossibleStartOfLeadout","IDiscFormat2RawCD::get_LastPossibleStartOfLeadout","get_LastPossibleStartOfLeadout","get_LastPossibleStartOfLeadout method [IMAPI]","get_LastPossibleStartOfLeadout method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_lastpossiblestartofleadout","imapi2/IDiscFormat2RawCD::get_LastPossibleStartOfLeadout"]
 old-location: imapi\idiscformat2rawcd_get_lastpossiblestartofleadout.htm
 tech.root: imapi
 ms.assetid: 2588f35e-388b-4491-a209-99d34b1d82df

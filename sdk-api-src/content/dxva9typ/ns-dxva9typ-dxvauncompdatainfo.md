@@ -1,7 +1,8 @@
 ---
 UID: NS:dxva9typ._DXVAUncompDataInfo
 title: DXVAUncompDataInfo (dxva9typ.h)
-description: Specifies the dimensions and pixel format of the uncompressed surfaces for DirectX Video Acceleration (DXVA) video decoding.helpviewer_keywords: ["DXVAUncompDataInfo","DXVAUncompDataInfo structure [Media Foundation]","_DXVAUncompDataInfo","dxva9typ/DXVAUncompDataInfo","mf.dxvauncompdatainfo"]
+description: Specifies the dimensions and pixel format of the uncompressed surfaces for DirectX Video Acceleration (DXVA) video decoding.
+helpviewer_keywords: ["DXVAUncompDataInfo","DXVAUncompDataInfo structure [Media Foundation]","_DXVAUncompDataInfo","dxva9typ/DXVAUncompDataInfo","mf.dxvauncompdatainfo"]
 old-location: mf\dxvauncompdatainfo.htm
 tech.root: medfound
 ms.assetid: bd19d9a8-7d69-4aea-9638-84c3f1a1e810

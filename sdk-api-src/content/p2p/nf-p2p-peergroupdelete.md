@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGroupDelete
 title: PeerGroupDelete function (p2p.h)
-description: The PeerGroupDelete function deletes the local data and certificate associated with a peer group.helpviewer_keywords: ["PeerGroupDelete","PeerGroupDelete function [Peer Networking]","p2p.peergroupdelete","p2p/PeerGroupDelete"]
+description: The PeerGroupDelete function deletes the local data and certificate associated with a peer group.
+helpviewer_keywords: ["PeerGroupDelete","PeerGroupDelete function [Peer Networking]","p2p.peergroupdelete","p2p/PeerGroupDelete"]
 old-location: p2p\peergroupdelete.htm
 tech.root: P2PSdk
 ms.assetid: e98df845-71d9-41f9-bf05-b46014e861df

@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITPhoneDeviceSpecificEvent
 title: ITPhoneDeviceSpecificEvent (tapi3if.h)
-description: The ITPhoneDeviceSpecificEvent exposes methods that allow an application to retrieve information about a phone device-specific event.helpviewer_keywords: ["ITPhoneDeviceSpecificEvent","ITPhoneDeviceSpecificEvent interface [TAPI 2.2]","ITPhoneDeviceSpecificEvent interface [TAPI 2.2]","described","_tapi3_itphonedevicespecificevent","tapi3.itphonedevicespecificevent","tapi3if/ITPhoneDeviceSpecificEvent"]
+description: The ITPhoneDeviceSpecificEvent exposes methods that allow an application to retrieve information about a phone device-specific event.
+helpviewer_keywords: ["ITPhoneDeviceSpecificEvent","ITPhoneDeviceSpecificEvent interface [TAPI 2.2]","ITPhoneDeviceSpecificEvent interface [TAPI 2.2]","described","_tapi3_itphonedevicespecificevent","tapi3.itphonedevicespecificevent","tapi3if/ITPhoneDeviceSpecificEvent"]
 old-location: tapi3\itphonedevicespecificevent.htm
 tech.root: Tapi
 ms.assetid: a4b2fb49-6128-41b6-8eb3-13a8bbba66ac

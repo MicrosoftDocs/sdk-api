@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetAllTabletContextIds
 title: IRealTimeStylus::GetAllTabletContextIds (rtscom.h)
-description: Retrieves an array containing all of the currently active tablet context identifiers.helpviewer_keywords: ["1fac0624-2e1c-44b2-8a11-82b746a18356","GetAllTabletContextIds","GetAllTabletContextIds method [Tablet PC]","GetAllTabletContextIds method [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","GetAllTabletContextIds method","IRealTimeStylus.GetAllTabletContextIds","IRealTimeStylus::GetAllTabletContextIds","rtscom/IRealTimeStylus::GetAllTabletContextIds","tablet.irealtimestylus_getalltabletcontextids"]
+description: Retrieves an array containing all of the currently active tablet context identifiers.
+helpviewer_keywords: ["1fac0624-2e1c-44b2-8a11-82b746a18356","GetAllTabletContextIds","GetAllTabletContextIds method [Tablet PC]","GetAllTabletContextIds method [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","GetAllTabletContextIds method","IRealTimeStylus.GetAllTabletContextIds","IRealTimeStylus::GetAllTabletContextIds","rtscom/IRealTimeStylus::GetAllTabletContextIds","tablet.irealtimestylus_getalltabletcontextids"]
 old-location: tablet\irealtimestylus_getalltabletcontextids.htm
 tech.root: tablet
 ms.assetid: 1fac0624-2e1c-44b2-8a11-82b746a18356

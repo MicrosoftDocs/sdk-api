@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionVisualDebug
 title: IDCompositionVisualDebug (dcomp.h)
-description: Represents a debug visual.helpviewer_keywords: ["IDCompositionVisualDebug","IDCompositionVisualDebug interface [DirectComposition]","IDCompositionVisualDebug interface [DirectComposition]","described","dcomp/IDCompositionVisualDebug","directcomp.idcompositionvisualdebug"]
+description: Represents a debug visual.
+helpviewer_keywords: ["IDCompositionVisualDebug","IDCompositionVisualDebug interface [DirectComposition]","IDCompositionVisualDebug interface [DirectComposition]","described","dcomp/IDCompositionVisualDebug","directcomp.idcompositionvisualdebug"]
 old-location: directcomp\idcompositionvisualdebug.htm
 tech.root: directcomp
 ms.assetid: 0AF98EEB-3EA7-44E3-8F2F-182D9F6BCCA4

@@ -1,7 +1,8 @@
 ---
 UID: NE:wmsdkidl.tagWMT_FILESINK_MODE
 title: WMT_FILESINK_MODE (wmsdkidl.h)
-description: The WMT_FILESINK_MODE enumeration type defines the types of input accepted by the file sink.helpviewer_keywords: ["WMT_FILESINK_MODE","WMT_FILESINK_MODE enumeration [windows Media Format]","WMT_FM_FILESINK_DATA_UNITS","WMT_FM_FILESINK_UNBUFFERED","WMT_FM_SINGLE_BUFFERS","wmformat.wmt_filesink_mode","wmsdkidl/WMT_FILESINK_MODE","wmsdkidl/WMT_FM_FILESINK_DATA_UNITS","wmsdkidl/WMT_FM_FILESINK_UNBUFFERED","wmsdkidl/WMT_FM_SINGLE_BUFFERS"]
+description: The WMT_FILESINK_MODE enumeration type defines the types of input accepted by the file sink.
+helpviewer_keywords: ["WMT_FILESINK_MODE","WMT_FILESINK_MODE enumeration [windows Media Format]","WMT_FM_FILESINK_DATA_UNITS","WMT_FM_FILESINK_UNBUFFERED","WMT_FM_SINGLE_BUFFERS","wmformat.wmt_filesink_mode","wmsdkidl/WMT_FILESINK_MODE","wmsdkidl/WMT_FM_FILESINK_DATA_UNITS","wmsdkidl/WMT_FM_FILESINK_UNBUFFERED","wmsdkidl/WMT_FM_SINGLE_BUFFERS"]
 old-location: wmformat\wmt_filesink_mode.htm
 tech.root: wmformat
 ms.assetid: 27846996-1957-4b19-91da-feeef477b06a

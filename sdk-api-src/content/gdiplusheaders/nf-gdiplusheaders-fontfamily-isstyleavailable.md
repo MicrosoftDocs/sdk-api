@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.IsStyleAvailable
 title: FontFamily::IsStyleAvailable (gdiplusheaders.h)
-description: The FontFamily::IsStyleAvailable method determines whether the specified style is available for this font family.helpviewer_keywords: ["FontFamily class [GDI+]","IsStyleAvailable method","FontFamily.IsStyleAvailable","FontFamily::IsStyleAvailable","IsStyleAvailable","IsStyleAvailable method [GDI+]","IsStyleAvailable method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_IsStyleAvailable_style_","gdiplus._gdiplus_CLASS_FontFamily_IsStyleAvailable_style_"]
+description: The FontFamily::IsStyleAvailable method determines whether the specified style is available for this font family.
+helpviewer_keywords: ["FontFamily class [GDI+]","IsStyleAvailable method","FontFamily.IsStyleAvailable","FontFamily::IsStyleAvailable","IsStyleAvailable","IsStyleAvailable method [GDI+]","IsStyleAvailable method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_IsStyleAvailable_style_","gdiplus._gdiplus_CLASS_FontFamily_IsStyleAvailable_style_"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_IsStyleAvailable_style_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\isstyleavailable.htm

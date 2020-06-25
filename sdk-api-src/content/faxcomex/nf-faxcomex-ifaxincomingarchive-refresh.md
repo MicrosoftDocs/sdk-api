@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.Refresh
 title: IFaxIncomingArchive::Refresh (faxcomex.h)
-description: The Refresh method refreshes FaxIncomingArchive object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.helpviewer_keywords: ["IFaxIncomingArchive interface [Fax Service]","Refresh method","IFaxIncomingArchive.Refresh","IFaxIncomingArchive::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxIncomingArchive interface","_mfax_faxincomingarchive.refresh","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_refresh_cpp","fax._mfax_faxincomingarchive_refresh","faxcomex/IFaxIncomingArchive::Refresh"]
+description: The Refresh method refreshes FaxIncomingArchive object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.
+helpviewer_keywords: ["IFaxIncomingArchive interface [Fax Service]","Refresh method","IFaxIncomingArchive.Refresh","IFaxIncomingArchive::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxIncomingArchive interface","_mfax_faxincomingarchive.refresh","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_refresh_cpp","fax._mfax_faxincomingarchive_refresh","faxcomex/IFaxIncomingArchive::Refresh"]
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_827c.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetCount
 title: IMFAttributes::GetCount (mfobjects.h)
-description: Retrieves the number of attributes that are set on this object.helpviewer_keywords: ["5f511d5c-249c-4311-8380-a932a755eaaf","GetCount","GetCount method [Media Foundation]","GetCount method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetCount method","IMFAttributes.GetCount","IMFAttributes::GetCount","mf.imfattributes_getcount","mfobjects/IMFAttributes::GetCount"]
+description: Retrieves the number of attributes that are set on this object.
+helpviewer_keywords: ["5f511d5c-249c-4311-8380-a932a755eaaf","GetCount","GetCount method [Media Foundation]","GetCount method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetCount method","IMFAttributes.GetCount","IMFAttributes::GetCount","mf.imfattributes_getcount","mfobjects/IMFAttributes::GetCount"]
 old-location: mf\imfattributes_getcount.htm
 tech.root: medfound
 ms.assetid: 5f511d5c-249c-4311-8380-a932a755eaaf

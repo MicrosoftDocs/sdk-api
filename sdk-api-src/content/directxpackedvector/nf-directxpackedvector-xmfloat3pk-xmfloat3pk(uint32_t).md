@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK(uint32_t)
 title: XMFLOAT3PK::XMFLOAT3PK(uint32_t) (directxpackedvector.h)
-description: Initializes a new instance of XMFLOAT3PK from a uint32_tvariable containing component data in a packed format.helpviewer_keywords: ["XMFLOAT3PK","XMFLOAT3PK constructor [DirectX Math Support APIs]","XMFLOAT3PK constructor [DirectX Math Support APIs]","XMFLOAT3PK structure","XMFLOAT3PK structure [DirectX Math Support APIs]","XMFLOAT3PK constructor","XMFLOAT3PK.XMFLOAT3PK","XMFLOAT3PK.XMFLOAT3PK(uint32_t)","XMFLOAT3PK::XMFLOAT3PK","XMFLOAT3PK::XMFLOAT3PK(uint32_t)","dxmath.xmfloat3pk_ctor_3"]
+description: Initializes a new instance of XMFLOAT3PK from a uint32_tvariable containing component data in a packed format.
+helpviewer_keywords: ["XMFLOAT3PK","XMFLOAT3PK constructor [DirectX Math Support APIs]","XMFLOAT3PK constructor [DirectX Math Support APIs]","XMFLOAT3PK structure","XMFLOAT3PK structure [DirectX Math Support APIs]","XMFLOAT3PK constructor","XMFLOAT3PK.XMFLOAT3PK","XMFLOAT3PK.XMFLOAT3PK(uint32_t)","XMFLOAT3PK::XMFLOAT3PK","XMFLOAT3PK::XMFLOAT3PK(uint32_t)","dxmath.xmfloat3pk_ctor_3"]
 old-location: dxmath\xmfloat3pk_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.#ctor(uint32_t)

@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_providerInstall
 title: TSPI_providerInstall function (tspi.h)
-description: The TSPI_providerInstall function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_providerInstall.helpviewer_keywords: ["TSPI_providerInstall","TSPI_providerInstall function [TAPI 2.2]","_tspi_tspi_providerinstall","tspi.tspi_providerinstall","tspi/TSPI_providerInstall"]
+description: The TSPI_providerInstall function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_providerInstall.
+helpviewer_keywords: ["TSPI_providerInstall","TSPI_providerInstall function [TAPI 2.2]","_tspi_tspi_providerinstall","tspi.tspi_providerinstall","tspi/TSPI_providerInstall"]
 old-location: tspi\tspi_providerinstall.htm
 tech.root: Tapi
 ms.assetid: fb8ec97d-b96c-4533-a83e-cb9a8b4adf51

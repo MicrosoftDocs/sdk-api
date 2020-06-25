@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueYIntercept(float)
 title: IDCompositionLinearTransferEffect::SetBlueYIntercept (dcomp.h)
-description: Sets the Y-intercept of the linear function for the blue channel.helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetBlueYIntercept method","IDCompositionLinearTransferEffect.SetBlueYIntercept","IDCompositionLinearTransferEffect::SetBlueYIntercept","IDCompositionLinearTransferEffect::SetBlueYIntercept(float)","SetBlueYIntercept","SetBlueYIntercept method [DirectComposition]","SetBlueYIntercept method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetBlueYIntercept","directcomp.idcompositionlineartransfereffect_setblueyintercept"]
+description: Sets the Y-intercept of the linear function for the blue channel.
+helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetBlueYIntercept method","IDCompositionLinearTransferEffect.SetBlueYIntercept","IDCompositionLinearTransferEffect::SetBlueYIntercept","IDCompositionLinearTransferEffect::SetBlueYIntercept(float)","SetBlueYIntercept","SetBlueYIntercept method [DirectComposition]","SetBlueYIntercept method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetBlueYIntercept","directcomp.idcompositionlineartransfereffect_setblueyintercept"]
 old-location: directcomp\idcompositionlineartransfereffect_setblueyintercept.htm
 tech.root: directcomp
 ms.assetid: 1687DE56-E737-47F6-BBA4-43AAED572AA7

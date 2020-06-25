@@ -1,7 +1,8 @@
 ---
 UID: NS:tapi.linedialparams_tag
 title: LINEDIALPARAMS (tapi.h)
-description: The LINEDIALPARAMS structure specifies a collection of dialing-related fields. Call the lineSetCallParams function or the TSPI_lineSetCallParams function to set parameters for a call using the LINEDIALPARAMS structure.helpviewer_keywords: ["*LPLINEDIALPARAMS","LINEDIALPARAMS","LINEDIALPARAMS structure [TAPI 2.2]","LPLINEDIALPARAMS","LPLINEDIALPARAMS structure pointer [TAPI 2.2]","_tapi2_linedialparams_str","tapi/LINEDIALPARAMS","tapi/LPLINEDIALPARAMS","tapi2.linedialparams_str"]
+description: The LINEDIALPARAMS structure specifies a collection of dialing-related fields. Call the lineSetCallParams function or the TSPI_lineSetCallParams function to set parameters for a call using the LINEDIALPARAMS structure.
+helpviewer_keywords: ["*LPLINEDIALPARAMS","LINEDIALPARAMS","LINEDIALPARAMS structure [TAPI 2.2]","LPLINEDIALPARAMS","LPLINEDIALPARAMS structure pointer [TAPI 2.2]","_tapi2_linedialparams_str","tapi/LINEDIALPARAMS","tapi/LPLINEDIALPARAMS","tapi2.linedialparams_str"]
 old-location: tapi2\linedialparams_str.htm
 tech.root: Tapi
 ms.assetid: efb65462-abe5-46db-9299-97871e0d011e

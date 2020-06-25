@@ -1,7 +1,8 @@
 ---
 UID: NS:winternl._PEB_LDR_DATA
 title: PEB_LDR_DATA (winternl.h)
-description: Contains information about the loaded modules for the process.helpviewer_keywords: ["*PPEB_LDR_DATA","PEB_LDR_DATA","PEB_LDR_DATA structure","PPEB_LDR_DATA","PPEB_LDR_DATA structure pointer","base.peb_ldr_data","winternl/PEB_LDR_DATA","winternl/PPEB_LDR_DATA"]
+description: Contains information about the loaded modules for the process.
+helpviewer_keywords: ["*PPEB_LDR_DATA","PEB_LDR_DATA","PEB_LDR_DATA structure","PPEB_LDR_DATA","PPEB_LDR_DATA structure pointer","base.peb_ldr_data","winternl/PEB_LDR_DATA","winternl/PPEB_LDR_DATA"]
 old-location: base\peb_ldr_data.htm
 tech.root: ProcThread
 ms.assetid: 2e03b513-5c03-4436-99f8-3a6d3a45aff2

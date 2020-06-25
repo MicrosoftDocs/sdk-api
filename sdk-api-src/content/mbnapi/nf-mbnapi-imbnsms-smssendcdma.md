@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnSms.SmsSendCdma
 title: IMbnSms::SmsSendCdma (mbnapi.h)
-description: Sends a message in CDMA format.helpviewer_keywords: ["IMbnSms interface [Microsoft Broadband Networks]","SmsSendCdma method","IMbnSms.SmsSendCdma","IMbnSms::SmsSendCdma","SmsSendCdma","SmsSendCdma method [Microsoft Broadband Networks]","SmsSendCdma method [Microsoft Broadband Networks]","IMbnSms interface","mbn.imbnsms_smssendcdma","mbnapi/IMbnSms::SmsSendCdma"]
+description: Sends a message in CDMA format.
+helpviewer_keywords: ["IMbnSms interface [Microsoft Broadband Networks]","SmsSendCdma method","IMbnSms.SmsSendCdma","IMbnSms::SmsSendCdma","SmsSendCdma","SmsSendCdma method [Microsoft Broadband Networks]","SmsSendCdma method [Microsoft Broadband Networks]","IMbnSms interface","mbn.imbnsms_smssendcdma","mbnapi/IMbnSms::SmsSendCdma"]
 old-location: mbn\imbnsms_smssendcdma.htm
 tech.root: mbn
 ms.assetid: 5a370e00-929f-4ff9-861f-d0edc880f51d

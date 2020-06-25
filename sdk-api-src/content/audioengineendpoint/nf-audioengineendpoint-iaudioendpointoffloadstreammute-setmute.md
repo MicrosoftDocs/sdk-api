@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointOffloadStreamMute.SetMute
 title: IAudioEndpointOffloadStreamMute::SetMute (audioengineendpoint.h)
-description: The SetMute method sets the mute status of the offloaded audio stream.helpviewer_keywords: ["IAudioEndpointOffloadStreamMute interface [Core Audio]","SetMute method","IAudioEndpointOffloadStreamMute.SetMute","IAudioEndpointOffloadStreamMute::SetMute","SetMute","SetMute method [Core Audio]","SetMute method [Core Audio]","IAudioEndpointOffloadStreamMute interface","audioengineendpoint/IAudioEndpointOffloadStreamMute::SetMute","coreaudio.iaudioendpointoffloadstreammute_setmute"]
+description: The SetMute method sets the mute status of the offloaded audio stream.
+helpviewer_keywords: ["IAudioEndpointOffloadStreamMute interface [Core Audio]","SetMute method","IAudioEndpointOffloadStreamMute.SetMute","IAudioEndpointOffloadStreamMute::SetMute","SetMute","SetMute method [Core Audio]","SetMute method [Core Audio]","IAudioEndpointOffloadStreamMute interface","audioengineendpoint/IAudioEndpointOffloadStreamMute::SetMute","coreaudio.iaudioendpointoffloadstreammute_setmute"]
 old-location: coreaudio\iaudioendpointoffloadstreammute_setmute.htm
 tech.root: CoreAudio
 ms.assetid: 43AF8146-BDF6-47F5-BD8F-DA46C4624D95

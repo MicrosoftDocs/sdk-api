@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.EjectMedia
 title: IDiscRecorder2::EjectMedia (imapi2.h)
-description: Ejects media from the device.helpviewer_keywords: ["EjectMedia","EjectMedia method [IMAPI]","EjectMedia method [IMAPI]","IDiscRecorder2 interface","IDiscRecorder2 interface [IMAPI]","EjectMedia method","IDiscRecorder2.EjectMedia","IDiscRecorder2::EjectMedia","imapi.idiscrecorder2_ejectmedia","imapi2/IDiscRecorder2::EjectMedia"]
+description: Ejects media from the device.
+helpviewer_keywords: ["EjectMedia","EjectMedia method [IMAPI]","EjectMedia method [IMAPI]","IDiscRecorder2 interface","IDiscRecorder2 interface [IMAPI]","EjectMedia method","IDiscRecorder2.EjectMedia","IDiscRecorder2::EjectMedia","imapi.idiscrecorder2_ejectmedia","imapi2/IDiscRecorder2::EjectMedia"]
 old-location: imapi\idiscrecorder2_ejectmedia.htm
 tech.root: imapi
 ms.assetid: d8fc55d7-0840-4090-a653-eb38d3f37fac

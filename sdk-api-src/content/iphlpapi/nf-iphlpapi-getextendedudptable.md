@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetExtendedUdpTable
 title: GetExtendedUdpTable function (iphlpapi.h)
-description: Retrieves a table that contains a list of UDP endpoints available to the application.helpviewer_keywords: ["AF_INET","AF_INET6","GetExtendedUdpTable","GetExtendedUdpTable function [IP Helper]","iphlp.getextendedudptable","iphlpapi/GetExtendedUdpTable"]
+description: Retrieves a table that contains a list of UDP endpoints available to the application.
+helpviewer_keywords: ["AF_INET","AF_INET6","GetExtendedUdpTable","GetExtendedUdpTable function [IP Helper]","iphlp.getextendedudptable","iphlpapi/GetExtendedUdpTable"]
 old-location: iphlp\getextendedudptable.htm
 tech.root: IpHlp
 ms.assetid: c936d5a0-ca5e-487e-b304-bfd81403ab40

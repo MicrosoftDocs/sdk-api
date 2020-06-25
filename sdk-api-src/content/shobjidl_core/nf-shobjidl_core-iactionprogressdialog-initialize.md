@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IActionProgressDialog.Initialize
 title: IActionProgressDialog::Initialize (shobjidl_core.h)
-description: Provides details about the action progress dialog.helpviewer_keywords: ["IActionProgressDialog interface [Windows Shell]","Initialize method","IActionProgressDialog.Initialize","IActionProgressDialog::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IActionProgressDialog interface","SPINITF_MODAL","SPINITF_NOMINIMIZE","SPINITF_NORMAL","_shell_IActionProgressDialog_Initialize","shell.IActionProgressDialog_Initialize","shobjidl_core/IActionProgressDialog::Initialize"]
+description: Provides details about the action progress dialog.
+helpviewer_keywords: ["IActionProgressDialog interface [Windows Shell]","Initialize method","IActionProgressDialog.Initialize","IActionProgressDialog::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IActionProgressDialog interface","SPINITF_MODAL","SPINITF_NOMINIMIZE","SPINITF_NORMAL","_shell_IActionProgressDialog_Initialize","shell.IActionProgressDialog_Initialize","shobjidl_core/IActionProgressDialog::Initialize"]
 old-location: shell\IActionProgressDialog_Initialize.htm
 tech.root: shell
 ms.assetid: e82f4686-75c6-4f06-8468-937352fe33d3

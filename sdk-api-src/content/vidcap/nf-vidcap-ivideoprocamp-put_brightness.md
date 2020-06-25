@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Brightness
 title: IVideoProcAmp::put_Brightness (vidcap.h)
-description: The put_Brightness method sets the camera's brightness setting.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_Brightness method","IVideoProcAmp.put_Brightness","IVideoProcAmp::put_Brightness","IVideoProcAmpput_Brightness","dshow.ivideoprocamp_put_brightness","put_Brightness","put_Brightness method [DirectShow]","put_Brightness method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::put_Brightness"]
+description: The put_Brightness method sets the camera's brightness setting.
+helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_Brightness method","IVideoProcAmp.put_Brightness","IVideoProcAmp::put_Brightness","IVideoProcAmpput_Brightness","dshow.ivideoprocamp_put_brightness","put_Brightness","put_Brightness method [DirectShow]","put_Brightness method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::put_Brightness"]
 old-location: dshow\ivideoprocamp_put_brightness.htm
 tech.root: DirectShow
 ms.assetid: 69c8086c-a638-4ec6-a4fd-5a400095145d

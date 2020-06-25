@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFolderView.GetSpacing
 title: IFolderView::GetSpacing (shobjidl_core.h)
-description: Gets a POINT structure containing the width (x) and height (y) dimensions, including the surrounding white space, of an item.helpviewer_keywords: ["GetSpacing","GetSpacing method [Windows Shell]","GetSpacing method [Windows Shell]","IFolderView interface","IFolderView interface [Windows Shell]","GetSpacing method","IFolderView.GetSpacing","IFolderView::GetSpacing","_shell_IFolderView_GetSpacing","shell.IFolderView_GetSpacing","shobjidl_core/IFolderView::GetSpacing"]
+description: Gets a POINT structure containing the width (x) and height (y) dimensions, including the surrounding white space, of an item.
+helpviewer_keywords: ["GetSpacing","GetSpacing method [Windows Shell]","GetSpacing method [Windows Shell]","IFolderView interface","IFolderView interface [Windows Shell]","GetSpacing method","IFolderView.GetSpacing","IFolderView::GetSpacing","_shell_IFolderView_GetSpacing","shell.IFolderView_GetSpacing","shobjidl_core/IFolderView::GetSpacing"]
 old-location: shell\IFolderView_GetSpacing.htm
 tech.root: shell
 ms.assetid: 6ea81c40-773f-4f53-97c1-99619e46be48

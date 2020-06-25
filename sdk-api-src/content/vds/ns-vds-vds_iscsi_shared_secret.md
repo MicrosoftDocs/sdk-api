@@ -1,7 +1,8 @@
 ---
 UID: NS:vds._VDS_ISCSI_SHARED_SECRET
 title: VDS_ISCSI_SHARED_SECRET (vds.h)
-description: Defines a CHAP shared secret.helpviewer_keywords: ["VDS_ISCSI_SHARED_SECRET","VDS_ISCSI_SHARED_SECRET structure [VDS]","_VDS_ISCSI_SHARED_SECRET","base.vds_iscsi_shared_secret","vds/VDS_ISCSI_SHARED_SECRET","vdshwprv/VDS_ISCSI_SHARED_SECRET"]
+description: Defines a CHAP shared secret.
+helpviewer_keywords: ["VDS_ISCSI_SHARED_SECRET","VDS_ISCSI_SHARED_SECRET structure [VDS]","_VDS_ISCSI_SHARED_SECRET","base.vds_iscsi_shared_secret","vds/VDS_ISCSI_SHARED_SECRET","vdshwprv/VDS_ISCSI_SHARED_SECRET"]
 old-location: base\vds_iscsi_shared_secret.htm
 tech.root: VDS
 ms.assetid: eab1e2f4-b14e-4336-9b83-5dd7089da2d8

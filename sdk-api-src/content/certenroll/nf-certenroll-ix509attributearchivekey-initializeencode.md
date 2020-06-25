@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509AttributeArchiveKey.InitializeEncode
 title: IX509AttributeArchiveKey::InitializeEncode (certenroll.h)
-description: Initializes the attribute from an IX509PrivateKey object, the certification authority encryption certificate, and the symmetric encryption algorithm object identifier (OID).helpviewer_keywords: ["IX509AttributeArchiveKey interface [Security]","InitializeEncode method","IX509AttributeArchiveKey.InitializeEncode","IX509AttributeArchiveKey::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509AttributeArchiveKey interface","certenroll/IX509AttributeArchiveKey::InitializeEncode","security.ix509attributearchivekey_initializeencode_method"]
+description: Initializes the attribute from an IX509PrivateKey object, the certification authority encryption certificate, and the symmetric encryption algorithm object identifier (OID).
+helpviewer_keywords: ["IX509AttributeArchiveKey interface [Security]","InitializeEncode method","IX509AttributeArchiveKey.InitializeEncode","IX509AttributeArchiveKey::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IX509AttributeArchiveKey interface","certenroll/IX509AttributeArchiveKey::InitializeEncode","security.ix509attributearchivekey_initializeencode_method"]
 old-location: security\ix509attributearchivekey_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: 44865c22-0eca-4781-962c-a10698a435f4

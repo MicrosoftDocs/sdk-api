@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.IUrlAccessor
 title: IUrlAccessor (searchapi.h)
-description: Provides methods for processing an individual item in a content source whose URL is provided by the gatherer to the filter host.helpviewer_keywords: ["IUrlAccessor","IUrlAccessor interface [search]","IUrlAccessor interface [search]","described","_search_IUrlAccessor","search._search_IUrlAccessor","searchapi/IUrlAccessor"]
+description: Provides methods for processing an individual item in a content source whose URL is provided by the gatherer to the filter host.
+helpviewer_keywords: ["IUrlAccessor","IUrlAccessor interface [search]","IUrlAccessor interface [search]","described","_search_IUrlAccessor","search._search_IUrlAccessor","searchapi/IUrlAccessor"]
 old-location: search\_search_IUrlAccessor.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\iurlaccessor.htm

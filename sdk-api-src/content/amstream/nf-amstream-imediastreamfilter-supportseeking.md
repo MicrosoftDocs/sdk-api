@@ -1,7 +1,8 @@
 ---
 UID: NF:amstream.IMediaStreamFilter.SupportSeeking
 title: IMediaStreamFilter::SupportSeeking (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The SupportSeeking method initializes the filter to support seeking. The multimedia stream object calls this method.helpviewer_keywords: ["IMediaStreamFilter interface [DirectShow]","SupportSeeking method","IMediaStreamFilter.SupportSeeking","IMediaStreamFilter::SupportSeeking","IMediaStreamFilterSupportSeeking","SupportSeeking","SupportSeeking method [DirectShow]","SupportSeeking method [DirectShow]","IMediaStreamFilter interface","amstream/IMediaStreamFilter::SupportSeeking","dshow.imediastreamfilter_supportseeking"]
+description: Note  This interface is deprecated. New applications should not use it. The SupportSeeking method initializes the filter to support seeking. The multimedia stream object calls this method.
+helpviewer_keywords: ["IMediaStreamFilter interface [DirectShow]","SupportSeeking method","IMediaStreamFilter.SupportSeeking","IMediaStreamFilter::SupportSeeking","IMediaStreamFilterSupportSeeking","SupportSeeking","SupportSeeking method [DirectShow]","SupportSeeking method [DirectShow]","IMediaStreamFilter interface","amstream/IMediaStreamFilter::SupportSeeking","dshow.imediastreamfilter_supportseeking"]
 old-location: dshow\imediastreamfilter_supportseeking.htm
 tech.root: DirectShow
 ms.assetid: 7cb15898-8a22-4621-a6e5-bb5d17640749

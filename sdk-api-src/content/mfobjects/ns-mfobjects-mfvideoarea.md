@@ -1,7 +1,8 @@
 ---
 UID: NS:mfobjects._MFVideoArea
 title: MFVideoArea (mfobjects.h)
-description: Specifies a rectangular area within a video frame.helpviewer_keywords: ["MFVideoArea","MFVideoArea structure [Media Foundation]","d22b8b9c-399b-4fce-a173-833005b5bf03","mf.mfvideoarea","mfobjects/MFVideoArea"]
+description: Specifies a rectangular area within a video frame.
+helpviewer_keywords: ["MFVideoArea","MFVideoArea structure [Media Foundation]","d22b8b9c-399b-4fce-a173-833005b5bf03","mf.mfvideoarea","mfobjects/MFVideoArea"]
 old-location: mf\mfvideoarea.htm
 tech.root: medfound
 ms.assetid: d22b8b9c-399b-4fce-a173-833005b5bf03

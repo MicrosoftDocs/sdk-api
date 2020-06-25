@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IWebProxy.get_BypassProxyOnLocal
 title: IWebProxy::get_BypassProxyOnLocal (wuapi.h)
-description: Gets and sets a Boolean value that indicates whether local addresses bypass the proxy server.helpviewer_keywords: ["BypassProxyOnLocal property [Windows Update Agent]","BypassProxyOnLocal property [Windows Update Agent]","IWebProxy interface","IWebProxy interface [Windows Update Agent]","BypassProxyOnLocal property","IWebProxy.BypassProxyOnLocal","IWebProxy.get_BypassProxyOnLocal","IWebProxy::BypassProxyOnLocal","IWebProxy::get_BypassProxyOnLocal","IWebProxy::put_BypassProxyOnLocal","get_BypassProxyOnLocal","wua.iwebproxy_bypassproxyonlocal","wuapi/IWebProxy::BypassProxyOnLocal","wuapi/IWebProxy::get_BypassProxyOnLocal","wuapi/IWebProxy::put_BypassProxyOnLocal"]
+description: Gets and sets a Boolean value that indicates whether local addresses bypass the proxy server.
+helpviewer_keywords: ["BypassProxyOnLocal property [Windows Update Agent]","BypassProxyOnLocal property [Windows Update Agent]","IWebProxy interface","IWebProxy interface [Windows Update Agent]","BypassProxyOnLocal property","IWebProxy.BypassProxyOnLocal","IWebProxy.get_BypassProxyOnLocal","IWebProxy::BypassProxyOnLocal","IWebProxy::get_BypassProxyOnLocal","IWebProxy::put_BypassProxyOnLocal","get_BypassProxyOnLocal","wua.iwebproxy_bypassproxyonlocal","wuapi/IWebProxy::BypassProxyOnLocal","wuapi/IWebProxy::get_BypassProxyOnLocal","wuapi/IWebProxy::put_BypassProxyOnLocal"]
 old-location: wua\iwebproxy_bypassproxyonlocal.htm
 tech.root: Wua_Sdk
 ms.assetid: 541626ca-0b68-41cd-8f20-5ffd034fc878

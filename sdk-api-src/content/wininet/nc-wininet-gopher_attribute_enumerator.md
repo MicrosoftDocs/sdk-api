@@ -1,7 +1,8 @@
 ---
 UID: NC:wininet.GOPHER_ATTRIBUTE_ENUMERATOR
 title: GOPHER_ATTRIBUTE_ENUMERATOR (wininet.h)
-description: Prototype for a callback function that processes attribute information from a Gopher server.helpviewer_keywords: ["GOPHER_ATTRIBUTE_ENUMERATOR","GOPHER_ATTRIBUTE_ENUMERATOR callback","GOPHER_ATTRIBUTE_ENUMERATOR callback function [WinINet]","GopherAttributeEnumerator","_inet_gopher_attribute_enumerator_prototype","wininet.gopherattributeenumerator","wininet/GOPHER_ATTRIBUTE_ENUMERATOR"]
+description: Prototype for a callback function that processes attribute information from a Gopher server.
+helpviewer_keywords: ["GOPHER_ATTRIBUTE_ENUMERATOR","GOPHER_ATTRIBUTE_ENUMERATOR callback","GOPHER_ATTRIBUTE_ENUMERATOR callback function [WinINet]","GopherAttributeEnumerator","_inet_gopher_attribute_enumerator_prototype","wininet.gopherattributeenumerator","wininet/GOPHER_ATTRIBUTE_ENUMERATOR"]
 old-location: wininet\gopherattributeenumerator.htm
 tech.root: wininet
 ms.assetid: 1a319d79-7866-4121-a80f-22e3bf983a0a

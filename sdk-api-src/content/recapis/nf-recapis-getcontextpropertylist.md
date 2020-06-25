@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.GetContextPropertyList
 title: GetContextPropertyList function (recapis.h)
-description: Retrieves a list of properties the recognizer supports.helpviewer_keywords: ["3d3df56f-d989-4d3b-a0e2-00a7ac0fabd6","GetContextPropertyList","GetContextPropertyList function [Tablet PC]","recapis/GetContextPropertyList","tablet.getcontextpropertylist"]
+description: Retrieves a list of properties the recognizer supports.
+helpviewer_keywords: ["3d3df56f-d989-4d3b-a0e2-00a7ac0fabd6","GetContextPropertyList","GetContextPropertyList function [Tablet PC]","recapis/GetContextPropertyList","tablet.getcontextpropertylist"]
 old-location: tablet\getcontextpropertylist.htm
 tech.root: tablet
 ms.assetid: 3d3df56f-d989-4d3b-a0e2-00a7ac0fabd6

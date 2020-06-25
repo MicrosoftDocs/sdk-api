@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.GetItem
 title: IConsoleNameSpace::GetItem (mmc.h)
-description: The IConsoleNameSpace2::GetItem method enables the snap-in to retrieve some or all of a single scope item's attributes.helpviewer_keywords: ["GetItem","GetItem method [MMC]","GetItem method [MMC]","IConsoleNameSpace interface","GetItem method [MMC]","IConsoleNameSpace2 interface","IConsoleNameSpace interface [MMC]","GetItem method","IConsoleNameSpace.GetItem","IConsoleNameSpace2 interface [MMC]","GetItem method","IConsoleNameSpace2::GetItem","IConsoleNameSpace::GetItem","_slate_iconsolenamespace2_getitem","mmc.iconsolenamespace2_getitem","mmc/IConsoleNameSpace2::GetItem","mmc/IConsoleNameSpace::GetItem"]
+description: The IConsoleNameSpace2::GetItem method enables the snap-in to retrieve some or all of a single scope item's attributes.
+helpviewer_keywords: ["GetItem","GetItem method [MMC]","GetItem method [MMC]","IConsoleNameSpace interface","GetItem method [MMC]","IConsoleNameSpace2 interface","IConsoleNameSpace interface [MMC]","GetItem method","IConsoleNameSpace.GetItem","IConsoleNameSpace2 interface [MMC]","GetItem method","IConsoleNameSpace2::GetItem","IConsoleNameSpace::GetItem","_slate_iconsolenamespace2_getitem","mmc.iconsolenamespace2_getitem","mmc/IConsoleNameSpace2::GetItem","mmc/IConsoleNameSpace::GetItem"]
 old-location: mmc\iconsolenamespace2_getitem.htm
 tech.root: mmc
 ms.assetid: 0dadf9f0-4d49-49c3-a190-dfab0d6ace3f

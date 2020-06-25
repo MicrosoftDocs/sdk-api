@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetIpErrorString
 title: GetIpErrorString function (iphlpapi.h)
-description: The GetIpErrorString function retrieves an IP Helper error string.helpviewer_keywords: ["GetIpErrorString","GetIpErrorString function [IP Helper]","iphlp.getiperrorstring","iphlpapi/GetIpErrorString"]
+description: The GetIpErrorString function retrieves an IP Helper error string.
+helpviewer_keywords: ["GetIpErrorString","GetIpErrorString function [IP Helper]","iphlp.getiperrorstring","iphlpapi/GetIpErrorString"]
 old-location: iphlp\getiperrorstring.htm
 tech.root: IpHlp
 ms.assetid: 4f71777a-2e87-4411-89fd-12c165d4d8ae

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetControlItemState
 title: IFileDialogCustomize::GetControlItemState (shobjidl_core.h)
-description: Gets the current state of an item in a container control found in the dialog.helpviewer_keywords: ["GetControlItemState","GetControlItemState method [Windows Shell]","GetControlItemState method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","GetControlItemState method","IFileDialogCustomize.GetControlItemState","IFileDialogCustomize::GetControlItemState","shell.IFileDialogCustomize_GetControlItemState","shell_IFileDialogCustomize_GetControlItemState","shobjidl_core/IFileDialogCustomize::GetControlItemState"]
+description: Gets the current state of an item in a container control found in the dialog.
+helpviewer_keywords: ["GetControlItemState","GetControlItemState method [Windows Shell]","GetControlItemState method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","GetControlItemState method","IFileDialogCustomize.GetControlItemState","IFileDialogCustomize::GetControlItemState","shell.IFileDialogCustomize_GetControlItemState","shell_IFileDialogCustomize_GetControlItemState","shobjidl_core/IFileDialogCustomize::GetControlItemState"]
 old-location: shell\IFileDialogCustomize_GetControlItemState.htm
 tech.root: shell
 ms.assetid: 62fc28c4-3e6d-4141-b5c7-e7659a1a15c2

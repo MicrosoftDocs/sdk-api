@@ -1,7 +1,8 @@
 ---
 UID: NF:clfsw32.TruncateLog
 title: TruncateLog function (clfsw32.h)
-description: Truncates the log. The function sets the end of the log to the specified value.helpviewer_keywords: ["TruncateLog","TruncateLog function [Files]","clfsw32/TruncateLog","fs.truncatelog"]
+description: Truncates the log. The function sets the end of the log to the specified value.
+helpviewer_keywords: ["TruncateLog","TruncateLog function [Files]","clfsw32/TruncateLog","fs.truncatelog"]
 old-location: fs\truncatelog.htm
 tech.root: Clfs
 ms.assetid: 76ef1a01-ba5c-4419-ac2f-4ba53dcc5bc4

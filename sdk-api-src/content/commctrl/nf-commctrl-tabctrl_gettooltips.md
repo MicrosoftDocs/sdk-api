@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TabCtrl_GetToolTips
 title: TabCtrl_GetToolTips macro (commctrl.h)
-description: Retrieves the handle to the tooltip control associated with a tab control. You can use this macro or send the TCM_GETTOOLTIPS message explicitly.helpviewer_keywords: ["TabCtrl_GetToolTips","TabCtrl_GetToolTips macro [Windows Controls]","_win32_TabCtrl_GetToolTips","_win32_TabCtrl_GetToolTips_cpp","commctrl/TabCtrl_GetToolTips","controls.TabCtrl_GetToolTips","controls._win32_TabCtrl_GetToolTips"]
+description: Retrieves the handle to the tooltip control associated with a tab control. You can use this macro or send the TCM_GETTOOLTIPS message explicitly.
+helpviewer_keywords: ["TabCtrl_GetToolTips","TabCtrl_GetToolTips macro [Windows Controls]","_win32_TabCtrl_GetToolTips","_win32_TabCtrl_GetToolTips_cpp","commctrl/TabCtrl_GetToolTips","controls.TabCtrl_GetToolTips","controls._win32_TabCtrl_GetToolTips"]
 old-location: controls\TabCtrl_GetToolTips.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_gettooltips.htm

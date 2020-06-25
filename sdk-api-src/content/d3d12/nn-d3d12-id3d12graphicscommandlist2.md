@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12.ID3D12GraphicsCommandList2
 title: ID3D12GraphicsCommandList2 (d3d12.h)
-description: Encapsulates a list of graphics commands for rendering, extending the interface to support writing immediate values directly to a buffer.helpviewer_keywords: ["ID3D12GraphicsCommandList2","ID3D12GraphicsCommandList2 interface","ID3D12GraphicsCommandList2 interface","described","d3d12/ID3D12GraphicsCommandList2","direct3d12.id3d12graphicscommandlist2"]
+description: Encapsulates a list of graphics commands for rendering, extending the interface to support writing immediate values directly to a buffer.
+helpviewer_keywords: ["ID3D12GraphicsCommandList2","ID3D12GraphicsCommandList2 interface","ID3D12GraphicsCommandList2 interface","described","d3d12/ID3D12GraphicsCommandList2","direct3d12.id3d12graphicscommandlist2"]
 old-location: direct3d12\id3d12graphicscommandlist2.htm
 tech.root: direct3d12
 ms.assetid: 6A1BF079-CAE7-45E9-A95F-E19ACD380143

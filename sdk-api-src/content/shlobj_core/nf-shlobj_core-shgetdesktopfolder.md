@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetDesktopFolder
 title: SHGetDesktopFolder function (shlobj_core.h)
-description: Retrieves the IShellFolder interface for the desktop folder, which is the root of the Shell's namespace.helpviewer_keywords: ["SHGetDesktopFolder","SHGetDesktopFolder function [Windows Shell]","_win32_SHGetDesktopFolder","shell.SHGetDesktopFolder","shlobj_core/SHGetDesktopFolder"]
+description: Retrieves the IShellFolder interface for the desktop folder, which is the root of the Shell's namespace.
+helpviewer_keywords: ["SHGetDesktopFolder","SHGetDesktopFolder function [Windows Shell]","_win32_SHGetDesktopFolder","shell.SHGetDesktopFolder","shlobj_core/SHGetDesktopFolder"]
 old-location: shell\SHGetDesktopFolder.htm
 tech.root: shell
 ms.assetid: 121cbd41-d512-4f33-b89c-d0dd9933df87
