@@ -62,7 +62,7 @@ Copy a multi-sampled resource into a non-multi-sampled resource.
 
 Type: <b>ID3D12Resource*</b>
 
-Destination resource. Must be a created with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a> flag and be single-sampled. See
+Destination resource. Must be a created on a <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE_DEFAULT</a> heap and be single-sampled. See
             <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
           
 
@@ -110,8 +110,6 @@ The debug layer will issue an error if the subresources referenced by the source
 
 The debug layer will issue an error if the destination buffer is not in the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_DEST</a>state.
           
-
-This API is most useful when re-using the resulting rendertarget of one render pass as an input to a second render pass.
 
 The source and destination resources must be the same resource type and have the same dimensions. In addition, they must have compatible formats. There are three scenarios for this:
 
