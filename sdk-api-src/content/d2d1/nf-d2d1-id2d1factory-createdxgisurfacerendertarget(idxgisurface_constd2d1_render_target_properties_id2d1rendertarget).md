@@ -76,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-To write to a Direct3D surface, you obtain an <a href="/windows/win32/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a> and pass it to the <a href="/windows/win32/api/d2d1/nf-d2d1-createdxgisurfacerendertarget">CreateDxgiSurfaceRenderTarget</a> method to create a DXGI surface render target; you can then use the DXGI surface render target to draw 2-D content to the DXGI surface.  
+To write to a Direct3D surface, you obtain an <a href="/windows/win32/api/dxgi/nn-dxgi-idxgisurface">IDXGISurface</a> and pass it to the CreateDxgiSurfaceRenderTarget method to create a DXGI surface render target; you can then use the DXGI surface render target to draw 2-D content to the DXGI surface.  
 
 A DXGI surface render target is a type of <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>. Like other Direct2D render targets, you can use it to create resources and issue drawing commands. 
 

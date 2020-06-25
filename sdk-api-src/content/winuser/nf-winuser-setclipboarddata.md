@@ -60,7 +60,7 @@ ms.custom: 19H1
 ## -description
 
 
-Places data on the clipboard in a specified clipboard format. The window must be the current clipboard owner, and the application must have called the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-openclipboard">OpenClipboard</a> function. (When responding to the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-renderformat">WM_RENDERFORMAT</a> and <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-renderallformats">WM_RENDERALLFORMATS</a> messages, the clipboard owner must not call <b>OpenClipboard</b> before calling <b>SetClipboardData</b>.)
+Places data on the clipboard in a specified clipboard format. The window must be the current clipboard owner, and the application must have called the [**OpenClipboard**](nf-winuser-openclipboard.md) function. (When responding to the [WM_RENDERFORMAT](/windows/win32/dataxchg/wm-renderformat) message, the clipboard owner must not call **OpenClipboard** before calling **SetClipboardData**.)
 
 
 ## -parameters
@@ -79,7 +79,7 @@ The clipboard format. This parameter can be a registered format or any of the st
 
 Type: <b>HANDLE</b>
 
-A handle to the data in the specified format. This parameter can be <b>NULL</b>, indicating that the window provides data in the specified clipboard format (renders the format) upon request. If a window delays rendering, it must process the <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-renderformat">WM_RENDERFORMAT</a> and <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-renderallformats">WM_RENDERALLFORMATS</a> messages.
+A handle to the data in the specified format. This parameter can be <b>NULL</b>, indicating that the window provides data in the specified clipboard format (renders the format) upon request; this is known as [delayed rendering](/windows/win32/dataxchg/clipboard-operations#delayed-rendering). If a window delays rendering, it must process the [WM_RENDERFORMAT](/windows/win32/dataxchg/wm-renderformat) and [WM_RENDERALLFORMATS](/windows/win32/dataxchg/wm-renderallformats) messages.
 
 If <b>SetClipboardData</b> succeeds, the system owns the object identified by the <i>hMem</i> parameter. The application may not write to or free the data once ownership has been transferred to the system, but it can lock and read from the data until the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-closeclipboard">CloseClipboard</a> function is called. (The memory must be unlocked before the Clipboard is closed.) If the <i>hMem</i> parameter identifies a memory object, the object must have been allocated using the function with the <b>GMEM_MOVEABLE</b> flag.
 
@@ -156,7 +156,3 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-renderformat">WM_RENDERFORMAT</a>
- 
-
- 
-

@@ -68,9 +68,5 @@ This property is read/write.
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwproduct">INetFwProduct</a>
 
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_rule_category_">NET_FW_RULE_CATEGORY</a>
- 
-
- 
+<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_category">NET_FW_RULE_CATEGORY</a>
 

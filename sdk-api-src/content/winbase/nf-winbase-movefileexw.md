@@ -250,8 +250,7 @@ If the <i>dwFlags</i> parameter specifies
      <b>MOVEFILE_DELAY_UNTIL_REBOOT</b>, 
      <b>MoveFileEx</b> fails if it cannot access the registry. The 
      function stores the locations of the files to be renamed at restart in the following registry value:
-     <b>HKEY_LOCAL_MACHINE</b>\<b>SYSTEM</b>\<b>CurrentControlSet</b>\<b>Control</b>\<b>Session Manager</b>\<b>PendingFileRenameOperations</b>
-
+     <b>HKEY_LOCAL_MACHINE</b>\\<b>SYSTEM</b>\\<b>CurrentControlSet</b>\\<b>Control</b>\\<b>Session Manager</b>\\<b>PendingFileRenameOperations</b>
 
 
 This registry  value is of type <b>REG_MULTI_SZ</b>. Each rename operation stores one 
@@ -425,7 +424,3 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
- 
-
- 
-

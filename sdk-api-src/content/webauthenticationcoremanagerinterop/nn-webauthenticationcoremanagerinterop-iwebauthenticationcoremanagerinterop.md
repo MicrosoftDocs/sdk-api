@@ -38,8 +38,24 @@ tech.root: winrt
 
 ## -description
 
-Contains core methods for obtaining tokens from web account providers.
+Provides Win32 apps with access to certain functions of [WebAuthenticationCoreManager](/uwp/api/windows.security.authentication.web.core.webauthenticationcoremanager)
+that are otherwise available only to UWP apps.
 
 ## -remarks
+
+This interface is implemented by WebAuthenticationCoreManager's [activation factory](../activation/nn-activation-iactivationfactory).
+To get an object of this interface, get a reference to the activation factory
+and then call [IUnknown::QueryInterface](../unknwn/nf-unknwn-iunknown-queryinterface%28refiid_void%29)
+on it:
+
+```cppwinrt
+using winrt::Windows::Security::Authentication::Web::Core::WebAuthenticationCoreManager;
+
+auto managerFactory = winrt::get_activation_factory<WebAuthenticationCoreManager>();
+winrt::com_ptr<IWebAuthenticationCoreManagerInterop> managerInterop{ managerFactory.as<IWebAuthenticationCoreManagerInterop>() };
+
+managerInterop->RequestTokenForWindowAsync(/* ... */)
+```
+
 
 ## -see-also

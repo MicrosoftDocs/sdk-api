@@ -71,7 +71,7 @@ A pointer to
 
 ### -param cToBeSigned [in]
 
-Count of the number of array elements in <i>rgpbToBeSigned</i> and <i>rgpbToBeSigned</i>. This parameter must be set to one unless <i>fDetachedSignature</i> is set to <b>TRUE</b>.
+Count of the number of array elements in <i>rgpbToBeSigned</i> and <i>rgcbToBeSigned</i>. This parameter must be set to one unless <i>fDetachedSignature</i> is set to <b>TRUE</b>.
 
 
 ### -param rgpbToBeSigned [in]
@@ -186,7 +186,3 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
-

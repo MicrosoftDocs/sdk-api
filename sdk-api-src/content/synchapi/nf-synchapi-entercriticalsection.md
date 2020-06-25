@@ -76,8 +76,7 @@ A pointer to the critical section object.
 
 This function does not return a value.
 
-This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b> if a wait operation on the critical section times out. The timeout interval is specified by the following registry value: <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager</b>\<b>CriticalSectionTimeout</b>. Do not handle a possible deadlock exception; instead, debug the application.
-
+This function can raise <b>EXCEPTION_POSSIBLE_DEADLOCK</b> if a wait operation on the critical section times out. The timeout interval is specified by the following registry value: <b>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\CriticalSectionTimeout</b>. Do not handle a possible deadlock exception; instead, debug the application.
 
 
 
@@ -151,7 +150,3 @@ For an example that uses
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-tryentercriticalsection">TryEnterCriticalSection</a>
- 
-
- 
-

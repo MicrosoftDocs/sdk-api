@@ -65,8 +65,8 @@ The session handle obtained from <a href="https://docs.microsoft.com/previous-ve
 
 ### -param timeout [in]
 
-A pointer to an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-l_timeval">LDAP_TIMEVAL</a> structure that specifies the number of seconds to spend in an attempt to establish a connection before a timeout. If <b>NULL</b>, the function uses a default timeout value.
 
+A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_timeval">LDAP_TIMEVAL</a> structure that specifies the number of seconds to spend in an attempt to establish a connection before a timeout. If <b>NULL</b>, the function uses a default timeout value.
 
 ## -returns
 
@@ -106,9 +106,7 @@ If the <b>ldap_connect</b> call fails, the session handle should be freed with a
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-l_timeval">LDAP_TIMEVAL</a>
-
+<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_timeval">LDAP_TIMEVAL</a>
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>

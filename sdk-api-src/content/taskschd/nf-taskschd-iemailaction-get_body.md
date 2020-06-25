@@ -52,7 +52,8 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://docs.microsoft.com/powershell/module/3.0/microsoft.powershell.utility/Send-MailMessage">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7
+">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the body of the email that contains the email message.
 
@@ -77,8 +78,6 @@ When setting this property value, the value can be text that is retrieved from a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
- 
 
- 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
 

@@ -146,9 +146,7 @@ For an example, see
 <a href="/windows/win32/api/fileapi/nf-fileapi-readfile">ReadFile</a>
 
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/win32/legacy/aa379560(v=vs.85)">SECURITY_ATTRIBUTES</a>
-
 
 
 <a href="/windows/win32/api/fileapi/nf-fileapi-writefile">WriteFile</a>

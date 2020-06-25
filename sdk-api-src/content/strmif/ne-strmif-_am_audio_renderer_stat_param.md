@@ -57,6 +57,10 @@ The <b>_AM_AUDIO_RENDERER_STAT_PARAM</b> enumeration specifies which performance
 
 This enumeration type is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudiorendererstats-getstatparam">IAMAudioRendererStats::GetStatParam</a> method. Each enumeration member defines the meaning of the values that are returned in the <i>pdwParam1</i> and <i>pdwParam2</i> parameters of <b>GetStatParam</b>.
 
+> [!NOTE]
+> Bias-free Communication
+Microsoft supports a diverse and inclusionary environment.  Within this document, there are references to the word 'slave.' Microsoft's [Style Guide for Bias-Free Communications](https://docs.microsoft.com/style-guide/bias-free-communication) recognizes this as an exclusionary word.  This wording is used as it is currently the wording used within the software. For consistency, this document contains this word. When this word is removed from the software, we will correct this document to be in alignment.
+
 
 ## -enum-fields
 
@@ -173,6 +177,3 @@ Not implemented.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudiorendererstats">IAMAudioRendererStats Interface</a>
  
-
- 
-

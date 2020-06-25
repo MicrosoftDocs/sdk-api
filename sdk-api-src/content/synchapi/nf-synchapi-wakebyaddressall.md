@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: Synchronization.lib
-req.dll: Kernel32.dll
+req.dll: API-MS-Win-Core-Synch-l1-2-0.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -87,6 +87,3 @@ Only threads within the same process can be woken.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-waitonaddress">WaitOnAddress</a>
  
-
- 
-

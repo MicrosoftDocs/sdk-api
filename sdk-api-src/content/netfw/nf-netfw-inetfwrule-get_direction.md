@@ -80,8 +80,4 @@ Also see the restrictions on changing properties described in the Remarks sectio
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_rule_direction_">NET_FW_RULE_DIRECTION</a>
- 
-
- 
-
+<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_direction">NET_FW_RULE_DIRECTION</a>

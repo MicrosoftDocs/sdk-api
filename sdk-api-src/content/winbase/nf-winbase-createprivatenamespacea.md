@@ -77,7 +77,7 @@ A descriptor that defines how the namespace is to be isolated. The caller must b
 
 ### -param lpAliasPrefix [in]
 
-The prefix for the namespace. To create an object in this namespace, specify the object name as <i>prefix</i>\<i>objectname</i>.
+The prefix for the namespace. To create an object in this namespace, specify the object name as _prefix_\\_objectname_.
 
 The system supports multiple private namespaces with the same name, as long as they define different boundaries.
 
@@ -122,7 +122,3 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-openprivatenamespacea">OpenPrivateNamespace</a>
- 
-
- 
-

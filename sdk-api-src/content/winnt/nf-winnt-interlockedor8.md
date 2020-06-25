@@ -83,11 +83,12 @@ The function returns the original value of the <i>Destination</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
-For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="https://docs.microsoft.com/previous-versions/b11125ze(v=vs.85)">_InterlockedOr8</a> compiler intrinsic directly.
+
+For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="/previous-versions/b11125ze(v=vs.85)">_InterlockedOr8</a> compiler intrinsic directly.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
 
-<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683639(v=vs.85)">InterlockedOr8Acquire</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683640(v=vs.85)">InterlockedOr8Release</a> instead.
+<b>Itanium-based systems:  </b>For performance-critical applications, use <a href="/previous-versions/windows/desktop/legacy/ms683639(v=vs.85)">InterlockedOr8Acquire</a> or <a href="/previous-versions/windows/desktop/legacy/ms683640(v=vs.85)">InterlockedOr8Release</a> instead.
 
 <div class="alert"><b>Note</b>  This function is supported on Windows RT-based systems.</div>
 <div> </div>
@@ -98,73 +99,68 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 
-
-<a href="https://docs.microsoft.com/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-interlockedor">InterlockedOr</a>
+<a href="/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winnt/nf-winnt-interlockedor16">InterlockedOr16</a>
+<a href="/windows/win32/api/winnt/nf-winnt-interlockedor">InterlockedOr</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683629(v=vs.85)">InterlockedOr16Acquire</a>
+<a href="/windows/desktop/api/winnt/nf-winnt-interlockedor16">InterlockedOr16</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972669(v=vs.85)">InterlockedOr16NoFence</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683629(v=vs.85)">InterlockedOr16Acquire</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683631(v=vs.85)">InterlockedOr16Release</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972669(v=vs.85)">InterlockedOr16NoFence</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683633(v=vs.85)">InterlockedOr64</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683631(v=vs.85)">InterlockedOr16Release</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683634(v=vs.85)">InterlockedOr64Acquire</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683633(v=vs.85)">InterlockedOr64</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972670(v=vs.85)">InterlockedOr64NoFence</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683634(v=vs.85)">InterlockedOr64Acquire</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683636(v=vs.85)">InterlockedOr64Release</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972670(v=vs.85)">InterlockedOr64NoFence</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683639(v=vs.85)">InterlockedOr8Acquire</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683636(v=vs.85)">InterlockedOr64Release</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972671(v=vs.85)">InterlockedOr8NoFence</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683639(v=vs.85)">InterlockedOr8Acquire</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683640(v=vs.85)">InterlockedOr8Release</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972671(v=vs.85)">InterlockedOr8NoFence</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683643(v=vs.85)">InterlockedOrAcquire</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683640(v=vs.85)">InterlockedOr8Release</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/hh972672(v=vs.85)">InterlockedOrNoFence</a>
+<a href="/previous-versions/windows/desktop/legacy/ms683643(v=vs.85)">InterlockedOrAcquire</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms683646(v=vs.85)">InterlockedOrRelease</a>
+<a href="/previous-versions/windows/desktop/legacy/hh972672(v=vs.85)">InterlockedOrNoFence</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
+<a href="/previous-versions/windows/desktop/legacy/ms683646(v=vs.85)">InterlockedOrRelease</a>
 
- 
 
+
+<a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>

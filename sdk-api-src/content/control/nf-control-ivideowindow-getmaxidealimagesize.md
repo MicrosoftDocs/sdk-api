@@ -149,8 +149,6 @@ This method returns S_FALSE under various circumstances:
 <li>The video surface has no maximum overlay stretch. (The <b>dwMaxOverlayStretch</b> member of the DDCAPS structure is zero. See <a href="https://docs.microsoft.com/windows/desktop/api/amvideo/nf-amvideo-idirectdrawvideo-getcaps">IDirectDrawVideo::GetCaps</a>.)</li>
 </ul>
 
-
-
 ## -see-also
 
 

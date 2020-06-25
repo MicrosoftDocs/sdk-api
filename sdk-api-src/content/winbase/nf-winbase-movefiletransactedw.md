@@ -244,7 +244,7 @@ If the <i>dwFlags</i> parameter specifies
     <b>MoveFileTransacted</b> fails if it cannot access the registry. The 
     function transactionally stores the locations of the files to be renamed at restart in the following registry 
     value:
-    <b>HKEY_LOCAL_MACHINE</b>\<b>SYSTEM</b>\<b>CurrentControlSet</b>\<b>Control</b>\<b>Session Manager</b>\<b>PendingFileRenameOperations</b>
+    <b>HKEY_LOCAL_MACHINE</b>\\<b>SYSTEM</b>\\<b>CurrentControlSet</b>\\<b>Control</b>\\<b>Session Manager</b>\\<b>PendingFileRenameOperations</b>
 
 
 
@@ -363,7 +363,3 @@ SMB 3.0 does not support TxF.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/transactional-ntfs-portal">Transactional NTFS</a>
- 
-
- 
-

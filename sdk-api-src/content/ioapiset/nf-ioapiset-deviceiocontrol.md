@@ -139,11 +139,11 @@ For lists of supported control codes, see the following topics:
 
 - [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
 
-- [File Management Control Codes](windows/win32/FileIO/file-management-control-codes)
+- [File Management Control Codes](/windows/win32/FileIO/file-management-control-codes)
 
-- [Power Management Control Codes](windows/win32/Power/power-management-control-codes)
+- [Power Management Control Codes](/windows/win32/Power/power-management-control-codes)
 
-- [Volume Management Control Codes](windows/win32/FileIO/volume-management-control-codes)
+- [Volume Management Control Codes](/windows/win32/FileIO/volume-management-control-codes)
 
 ### Examples
 

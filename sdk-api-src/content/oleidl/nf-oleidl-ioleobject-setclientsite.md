@@ -95,7 +95,7 @@ An unexpected error occurred.
 
 
 
-Within a compound document, each embedded object has its own client site  â€” the place where it is displayed and through which it receives information about its storage, user interface, and other resources. <b>IOleObject::SetClientSite</b> is the only method enabling an embedded object to obtain a pointer to its client site.
+Within a compound document, each embedded object has its own client site - the place where it is displayed and through which it receives information about its storage, user interface, and other resources. <b>IOleObject::SetClientSite</b> is the only method enabling an embedded object to obtain a pointer to its client site.
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
 A container can notify an object of its client site either at the time the object is created or, subsequently, when the object is initialized.
@@ -140,7 +140,3 @@ Implementation consists simply of incrementing the reference count on, and stori
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oleload">OleLoad</a>
- 
-
- 
-

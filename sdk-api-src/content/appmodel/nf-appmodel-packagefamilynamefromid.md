@@ -297,7 +297,3 @@ bool ParseVersion(__in PCWSTR versionString, __out PACKAGE_VERSION * version)
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/appmodel/nf-appmodel-packagenameandpublisheridfromfamilyname">PackageNameAndPublisherIdFromFamilyName</a>
- 
-
- 
-

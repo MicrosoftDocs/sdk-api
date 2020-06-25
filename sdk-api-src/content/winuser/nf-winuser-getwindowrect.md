@@ -101,6 +101,14 @@ If the function fails, the return value is zero. To get extended error informati
 
 In conformance with conventions for the <a href="/windows/desktop/api/windef/ns-windef-rect">RECT</a> structure, the bottom-right coordinates of the returned rectangle are exclusive. In other words, the pixel at (<b>right</b>, <b>bottom</b>) lies immediately outside the rectangle.
 
+GetWindowRect is virtualized for DPI.
+
+In Windows Vista and later, the Window Rect now includes the area occupied by the drop shadow.
+
+Calling GetWindowRect will have different behavior depending on whether the window has ever been shown or not.  If the window has not been shown before, GetWindowRect will not include the area of the drop shadow.
+
+To get the window bounds excluding the drop shadow, use <a href="https://docs.microsoft.com/en-us/windows/win32/api/dwmapi/nf-dwmapi-dwmgetwindowattribute">DwmGetWindowAttribute</a>, specifying <b>DWMWA_EXTENDED_FRAME_BOUNDS</b>.  Note that unlike the Window Rect, the DWM Extended Frame Bounds are not adjusted for DPI.  Getting the extended frame bounds can only be done after the window has been shown at least once.
+
 
 #### Examples
 
@@ -136,7 +144,3 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/winmsg/windows">Windows</a>
- 
-
- 
-

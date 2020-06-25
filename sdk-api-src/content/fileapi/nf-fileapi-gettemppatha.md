@@ -72,8 +72,6 @@ Retrieves the path of the directory designated for temporary files.
 ## -parameters
 
 
-
-
 ### -param nBufferLength [in]
 
 The size of the string buffer identified by <i>lpBuffer</i>, in 
@@ -83,7 +81,7 @@ The size of the string buffer identified by <i>lpBuffer</i>, in
 ### -param lpBuffer [out]
 
 A pointer to a string buffer that receives the null-terminated string specifying the temporary file path. 
-      The returned string ends with a backslash, for example, "C:\TEMP\".
+      The returned string ends with a backslash, for example, "C:\\TEMP\\".
 
 
 ## -returns
@@ -214,6 +212,3 @@ For an example, see
 
 <a href="https://docs.microsoft.com/windows/desktop/FileIO/symbolic-links">Symbolic Links</a>
  
-
- 
-

@@ -27,7 +27,7 @@ req.namespace:
 req.assembly: 
 req.type-library: 
 req.lib: d3dcompiler.lib
-req.dll: d3dcompiler.dll
+req.dll: d3dcompiler_47.dll
 req.irql: 
 topic_type:
 - APIRef
@@ -169,7 +169,3 @@ The difference between <b>D3DCompile</b> and <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
- 
-
- 
-

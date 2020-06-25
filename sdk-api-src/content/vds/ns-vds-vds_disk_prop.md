@@ -184,7 +184,7 @@ This member is optional and can be <b>NULL</b> if no value is available. If it i
 ### -field pwszName
 
 The name used to open a handle to an object created using the <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-createfilea">CreateFile</a> 
-      function. For example:
+      function. For example: `\\?\PhysicalDrive2`
       
 
 
@@ -260,6 +260,3 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>
  
-
- 
-

@@ -241,6 +241,3 @@ For code examples that call the <b>GetBuffer</b> method, see the following topic
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a>
  
-
- 
-

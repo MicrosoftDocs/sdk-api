@@ -132,7 +132,7 @@ After this function has been successfully issued, subsequent receives on the soc
 
 To successfully receive incoming disconnect data, a Windows Sockets SPI client must use other mechanisms to determine that the circuit has been closed. For example, a client needs to receive an FD_CLOSE notification, or get a zero return value, or a <b><a href="/windows/win32/winsock/windows-sockets-error-codes-2#WSAEDISCON">WSAEDISCON</a></b> error code from <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwsprecv">LPWSPRecv</a></b>.
 
-Note that **LPWSPRecvDisconnect** does not close the socket, and resources attached to the socket will not be freed until <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosecoket">LPWSPCloseSocket</a></b> is invoked.
+Note that **LPWSPRecvDisconnect** does not close the socket, and resources attached to the socket will not be freed until <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspclosesocket">LPWSPCloseSocket</a></b> is invoked.
 
 > [!Note]  
 > **LPWSPRecvDisconnect** does not block regardless of the SO_LINGER setting on the socket. A Windows Sockets SPI client should not rely on being able to reuse a socket after it has been **LPWSPRecvDisconnect**ed. In particular, a Windows Sockets provider is not required to support the use of <b><a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspconnect">LPWSPConnect</a></b> on such a socket.

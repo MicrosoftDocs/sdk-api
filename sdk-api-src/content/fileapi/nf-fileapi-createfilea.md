@@ -1090,9 +1090,9 @@ The following requirements must be met for such a call to succeed:
 <li>The caller must have administrative privileges. For more information, see 
        <a href="https://docs.microsoft.com/windows/desktop/SecBP/running-with-special-privileges">Running with Special Privileges</a>.</li>
 <li>The <i>dwCreationDisposition</i> parameter must have the 
-       <b>OPEN_EXISTING</b>flag.</li>
+       <b>OPEN_EXISTING</b> flag.</li>
 <li>When opening a volume or floppy disk, the <i>dwShareMode</i> parameter must have the 
-       <b>FILE_SHARE_WRITE</b>flag.</li>
+       <b>FILE_SHARE_WRITE</b> flag.</li>
 </ul>
 <div class="alert"><b>Note</b>  The <i>dwDesiredAccess</i> parameter can be zero, allowing the application to query 
       device attributes without accessing a device. This is useful for an application to determine the size of a 
@@ -1598,7 +1598,3 @@ A tape backup code snippet can found at
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/fileapi/nf-fileapi-writefileex">WriteFileEx</a>
- 
-
- 
-

@@ -53,17 +53,11 @@ ms.custom: 19H1
 
 # GetRawInputDeviceInfoA function
 
-
 ## -description
-
 
 Retrieves information about the raw input device.
 
-
 ## -parameters
-
-
-
 
 ### -param hDevice [in, optional]
 
@@ -71,13 +65,11 @@ Type: <b>HANDLE</b>
 
 A handle to the raw input device. This comes from the <b>hDevice</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a> or from <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdevicelist">GetRawInputDeviceList</a>. 
 
-
 ### -param uiCommand [in]
 
 Type: <b>UINT</b>
 
-Specifies what data will be returned in 
-					<i>pData</i>. This parameter can be one of the following values. 
+Specifies what data will be returned in <i>pData</i>. This parameter can be one of the following values. 
 
 <table>
 <tr>
@@ -93,9 +85,7 @@ Specifies what data will be returned in
 <td width="60%">
 <i>pData</i> points to a string that contains the device name. 
 
-For this 
-						<i>uiCommand</i> only, the value in 
-						<i>pcbSize</i> is the character count (not the byte count).
+For this <i>uiCommand</i> only, the value in <i>pcbSize</i> is the character count (not the byte count).
 
 </td>
 </tr>
@@ -107,7 +97,6 @@ For this
 </td>
 <td width="60%">
 <i>pData</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> structure.
-
 </td>
 </tr>
 <tr>
@@ -117,83 +106,54 @@ For this
 </dl>
 </td>
 <td width="60%">
-<i>pData</i> points to the previously parsed data.
-
+<i>pData</i> points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
 </td>
 </tr>
 </table>
- 
-
 
 ### -param pData [in, out, optional]
 
 Type: <b>LPVOID</b>
 
-A pointer to a buffer that contains the information specified by 
-					<i>uiCommand</i>. If 
-					<i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>. 
-
+A pointer to a buffer that contains the information specified by <i>uiCommand</i>. If <i>uiCommand</i> is <b>RIDI_DEVICEINFO</b>, set the <b>cbSize</b> member of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> to <code>sizeof(RID_DEVICE_INFO)</code> before calling <b>GetRawInputDeviceInfo</b>. 
 
 ### -param pcbSize [in, out]
 
 Type: <b>PUINT</b>
 
-The size, in bytes, of the data in 
-					<i>pData</i>. 
-
+The size, in bytes, of the data in <i>pData</i>. 
 
 ## -returns
 
-
-
 Type: <b>UINT</b>
 
-If successful, this function returns a non-negative number indicating the number of bytes copied to 
-						<i>pData</i>. 
+If successful, this function returns a non-negative number indicating the number of bytes copied to <i>pData</i>. 
 
-If 
-						<i>pData</i> is not large enough for the data, the function returns -1. If 
-						<i>pData</i> is <b>NULL</b>, the function returns a value of zero. In both of these cases, 
-						<i>pcbSize</i> is set to the minimum size required for the 
-						<i>pData</i> buffer.
+If <i>pData</i> is not large enough for the data, the function returns -1. If <i>pData</i> is <b>NULL</b>, the function returns a value of zero. In both of these cases, <i>pcbSize</i> is set to the minimum size required for the <i>pData</i> buffer.
 
 Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> to identify any other errors.
 
-
-
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
-
-
 
 <b>Reference</b>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a>
- 
 
- 
+<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">Top-Level Collections</a>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">Preparsed Data</a>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
 
 ## -remarks
 
 > [!NOTE]
 > The winuser.h header defines GetRawInputDeviceInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
-
