@@ -72,7 +72,7 @@ Optional. A pointer to a <b>ULONG</b> that may contain a server error code. This
 
 ### -param result [out]
 
-Optional. A pointer to a pointer for an <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>  structure that may contain a server referral message.  Pass in <b>NULL</b> if you do not wish to use it.
+Optional. A pointer to a pointer for an <a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>  structure that may contain a server referral message.  Pass in <b>NULL</b> if you do not wish to use it.
 
 
 ### -param ServerControls [in]
@@ -107,9 +107,6 @@ After <b>ldap_start_tls_s</b> is called, automatic referral chasing and autoreco
 This function has a default timeout of about thirty seconds. That timeout is used in waiting for responses from the server for the Start TLS extended operation and during the TLS (SSL) negotiation.
 
 For more information about start-stop TLS encryption, see <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/using-start-stop-tls-encryption">Using Start-Stop TLS Encryption</a>.
-
-
-
 
 
 > [!NOTE]

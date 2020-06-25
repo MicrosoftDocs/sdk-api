@@ -49,8 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
-Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a> object.
+Creates a new TraceLoggingActivity object.
 
 <b>TraceLoggingActivity</b> is a class template.
 
@@ -84,12 +83,3 @@ Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/traceloggi
 
 
 ## -see-also
-
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/traceloggingactivity/nl-traceloggingactivity-traceloggingactivity~r1">TraceLoggingActivity</a>
- 
-
- 
-

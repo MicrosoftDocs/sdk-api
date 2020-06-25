@@ -91,7 +91,7 @@ If the message is for the object application, the return value is <b>TRUE</b>. I
 
 
 
-While an object is active in-place, the object always has first chance to translate the keystrokes into accelerators. If the keystroke corresponds to one of its accelerators, the object must not call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a> function â€” even if its call to the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a> function fails. Failure to process keystrokes in this manner can lead to inconsistent behavior.
+While an object is active in-place, the object always has first chance to translate the keystrokes into accelerators. If the keystroke corresponds to one of its accelerators, the object must not call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a> function - even if its call to the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a> function fails. Failure to process keystrokes in this manner can lead to inconsistent behavior.
 
 If the keystroke is not one of the object's accelerators, then the object must call <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-oletranslateaccelerator">OleTranslateAccelerator</a> to let the container try its accelerator translation.
 
@@ -111,7 +111,3 @@ The object's server can call <b>IsAccelerator</b> to determine if the accelerato
 
 
 <a href="https://docs.microsoft.com/windows/desktop/DirectShow/cbasepropertypage-translateaccelerator">TranslateAccelerator</a>
- 
-
- 
-

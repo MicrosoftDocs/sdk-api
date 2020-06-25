@@ -68,7 +68,7 @@ The session handle.
 ### -param Message [in]
 
 Handle to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure.
 
 
 ### -param attr [in]
@@ -120,7 +120,7 @@ Call
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 

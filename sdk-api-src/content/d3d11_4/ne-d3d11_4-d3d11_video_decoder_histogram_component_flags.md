@@ -72,4 +72,3 @@ If the format is an RGB/BGR format, indicates the A component.
 ## -remarks
 
 ## -see-also
-

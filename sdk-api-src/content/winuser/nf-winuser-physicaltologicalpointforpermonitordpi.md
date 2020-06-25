@@ -1,7 +1,7 @@
 ---
 UID: NF:winuser.PhysicalToLogicalPointForPerMonitorDPI
 title: PhysicalToLogicalPointForPerMonitorDPI function (winuser.h)
-description: Converts a point in a window from logical coordinates into physical coordinates, regardless of the dots per inch (dpi) awareness of the caller.
+description: Converts a point in a window from physical coordinates into logical coordinates, regardless of the dots per inch (dpi) awareness of the caller.
 helpviewer_keywords: ["PhysicalToLogicalPointForPerMonitorDPI","PhysicalToLogicalPointForPerMonitorDPI function [High DPI]","hidpi.physicaltologicalpointforpermonitordpi","winuser/PhysicalToLogicalPointForPerMonitorDPI"]
 old-location: hidpi\physicaltologicalpointforpermonitordpi.htm
 tech.root: hidpi
@@ -51,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Converts a point in a window from logical coordinates into physical coordinates, regardless of the dots per inch (dpi) awareness of the caller. For more information about DPI awareness levels, see <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>.
+Converts a point in a window from physical coordinates into logical coordinates, regardless of the dots per inch (dpi) awareness of the caller. For more information about DPI awareness levels, see <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>.
 
 
 ## -parameters
@@ -102,7 +102,3 @@ Consider two applications, one has a <a href="https://docs.microsoft.com/windows
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/shellscalingapi/ne-shellscalingapi-process_dpi_awareness">PROCESS_DPI_AWARENESS</a>
- 
-
- 
-

@@ -68,7 +68,7 @@ The session handle.
 ### -param ResultMessage [in]
 
 A pointer to an 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure as returned by 
+<a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure as returned by 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_result">ldap_result</a> in response to an extended operation request.
 
 
@@ -113,8 +113,6 @@ When they are no longer needed, free the <i>ResultOID</i> string and the <i>Resu
 
 
 
-
-
 > [!NOTE]
 > The winldap.h header defines ldap_parse_extended_result as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
@@ -126,10 +124,7 @@ When they are no longer needed, free the <i>ResultOID</i> string and the <i>Resu
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
-
-
+<a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>
 

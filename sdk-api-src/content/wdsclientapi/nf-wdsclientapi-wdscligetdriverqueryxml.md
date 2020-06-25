@@ -65,7 +65,7 @@ The path to the Windows directory of the applied image. This parameter is option
 
 ### -param ppwszDriverQuery [out]
 
-A pointer to a pointer to a string that receives the generated WDS driver query XML. The caller has to free this buffer using "delete[](*ppwszDriverQuery)".
+A pointer to a pointer to a string that receives the generated WDS driver query XML. The caller has to free this buffer using "delete\[\]\(\*ppwszDriverQuery\)".
 
 
 ## -returns
@@ -73,6 +73,3 @@ A pointer to a pointer to a string that receives the generated WDS driver query 
 
 
 If the function succeeds, the return is <b>S_OK</b>.
-
-
-

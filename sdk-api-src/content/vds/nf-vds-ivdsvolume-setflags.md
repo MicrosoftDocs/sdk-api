@@ -66,14 +66,13 @@ Sets the volume
 
 The flags enumerated by <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>. Callers 
       can set the following flags: 
-      
 
-<b>VDS_VF_LBN_REMAP_ENABLED</b>
-<b>VDS_VF_HIDDEN</b>
-<b>VDS_VF_READONLY</b>
-<b>VDS_VF_NO_DEFAULT_DRIVE_LETTER</b>
-<b>VDS_VF_INSTALLABLE</b>
-<b>VDS_VF_SHADOW_COPY</b>
+* `VDS_VF_LBN_REMAP_ENABLED`
+* `VDS_VF_HIDDEN`
+* `VDS_VF_READONLY`
+* `VDS_VF_NO_DEFAULT_DRIVE_LETTER`
+* `VDS_VF_INSTALLABLE`
+* `VDS_VF_SHADOW_COPY`
 
 ### -param bRevertOnClose [in]
 
@@ -274,6 +273,3 @@ Specifying either <b>VDS_VF_HIDDEN</b> or <b>VDS_VF_READONLY</b> will
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vds/ne-vds-vds_volume_flag">VDS_VOLUME_FLAG</a>
  
-
- 
-

@@ -96,7 +96,7 @@ Validate an incoming server credential. Inbound credentials might be validated b
 <tr>
 <td width="40%"><a id="SECPKG_CRED_OUTBOUND"></a><a id="secpkg_cred_outbound"></a><dl>
 <dt><b>SECPKG_CRED_OUTBOUND</b></dt>
-<dt>0x0</dt>
+<dt>0x2</dt>
 </dl>
 </td>
 <td width="60%">
@@ -284,7 +284,3 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
- 
-
- 
-

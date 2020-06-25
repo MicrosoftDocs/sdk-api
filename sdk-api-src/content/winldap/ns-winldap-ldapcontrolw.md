@@ -84,9 +84,8 @@ Effective with LDAP 3, you can extend LDAP operations through the use of control
 The <b>ldctl_iscritical</b> member enables an extended operation to succeed when the server or client does not support the control. If the value of this field is zero, the server and/or client ignores the control if it is not supported and carries out the operation. If the value is nonzero the operation is carried out only if the control is recognized by the server and/or client.
 
 For more information, and a list of the supported LDAP extended controls and their descriptions, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>.
 
-
+<a href="/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>.
 
 
 
@@ -98,16 +97,13 @@ For more information, and a list of the supported LDAP extended controls and the
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
+
+<a href="/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>

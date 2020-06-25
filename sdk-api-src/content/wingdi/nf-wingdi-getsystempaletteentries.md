@@ -79,7 +79,7 @@ The number of entries to be retrieved from the system palette.
 
 ### -param pPalEntries [out]
 
-A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures to receive the palette entries. The array must contain at least as many structures as specified by the <i>nEntries</i> parameter. If this parameter is <b>NULL</b>, the function returns the total number of entries in the palette.
+A pointer to an array of <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a> structures to receive the palette entries. The array must contain at least as many structures as specified by the <i>cEntries</i> parameter. If this parameter is <b>NULL</b>, the function returns the total number of entries in the palette.
 
 
 ## -returns
@@ -124,7 +124,3 @@ An application can determine whether a device supports palette operations by cal
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
- 
-
- 
-

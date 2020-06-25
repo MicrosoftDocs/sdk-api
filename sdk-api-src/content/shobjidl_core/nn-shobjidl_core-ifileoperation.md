@@ -298,7 +298,7 @@ To accomplish a file operation using this interface, a sequence of calls must be
 </li>
 <li>Specify which operations to perform on which items using the following as needed.
 
-                        <ul>
+<ul>
 <li>
 <a href="https://docs.microsoft.com/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ifileoperation-applypropertiestoitem">ApplyPropertiesToItem</a>
 </li>
@@ -340,6 +340,3 @@ To accomplish a file operation using this interface, a sequence of calls must be
 <b>IFileOperation</b> can only be applied in a single-threaded apartment (STA) situation. It cannot be used for a multithreaded apartment (MTA) situation. For MTA, you still must use <a href="https://docs.microsoft.com/windows/desktop/api/shellapi/nf-shellapi-shfileoperationa">SHFileOperation</a>.
 
 A full sample that demonstrates the extension of <b>IFileOperation</b> is included in the Windows Software Development Kit (SDK). In a default installation, it can be found at %ProgramFiles%\Microsoft SDKs\Windows\v6.0\Samples\WinUI\Shell\AppPlatform\FileOperations.
-
-
-

@@ -136,7 +136,7 @@ The language ID used by the application. If this parameter is set to zero, the d
 
 ### -param pActServInfo [in]
 
-Optional server information. If the client has not been configured to use Active Directory Federation Services (ADFS) with AD RMS, you can pass <b>NULL</b> to use the Windows Live ID service for service discovery. If the client has been configured to use ADFS, you must pass the Windows Live certification URL. Currently, the Windows Live ID certification service URL is https://certification.drm.microsoft.com/certification. For more information about service discovery, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetservicelocation">DRMGetServiceLocation</a>.
+Optional server information. If the client has not been configured to use Active Directory Federation Services (ADFS) with AD RMS, you can pass <b>NULL</b> to use the Windows Live ID service for service discovery. If the client has been configured to use ADFS, you must pass the Windows Live certification URL. <!-- Currently, the Windows Live ID certification service URL is https://certification.isv.drm.microsoft.com/certification/certification.asmx.--> For more information about service discovery, see  <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/msdrm/nf-msdrm-drmgetservicelocation">DRMGetServiceLocation</a>.
 
 
 ### -param pvContext [in]

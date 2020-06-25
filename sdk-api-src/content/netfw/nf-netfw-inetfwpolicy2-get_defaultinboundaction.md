@@ -80,13 +80,7 @@ When you pass a profile type obtained from the <a href="https://docs.microsoft.c
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/netfw/nn-netfw-inetfwpolicy2">INetFwPolicy2</a>
 
 
-
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_action_">NET_FW_ACTION</a>
-
+<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_action">NET_FW_ACTION</a>
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_profile_type2_">NET_FW_PROFILE_TYPE2</a>
- 
-
- 
-
+<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_profile_type2">NET_FW_PROFILE_TYPE2</a>

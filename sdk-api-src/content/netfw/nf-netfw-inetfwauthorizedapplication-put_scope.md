@@ -92,9 +92,7 @@ To create a custom scope, use the <a href="https://docs.microsoft.com/previous-v
 <a href="https://docs.microsoft.com/windows/desktop/api/netfw/nn-netfw-inetfwremoteadminsettings">INetFwRemoteAdminSettings</a>
 
 
-
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/icftypes/ne-icftypes-net_fw_scope_">NET_FW_SCOPE</a>
  
 
- 
-
+<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_scope">NET_FW_SCOPE</a>

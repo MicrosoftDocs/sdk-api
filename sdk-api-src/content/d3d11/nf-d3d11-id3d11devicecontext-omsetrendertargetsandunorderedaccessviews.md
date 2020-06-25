@@ -81,7 +81,7 @@ Pointer to an array of <a href="https://docs.microsoft.com/windows/desktop/api/d
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilview">ID3D11DepthStencilView</a>*</b>
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11depthstencilview">ID3D11DepthStencilView</a> that represents the depth-stencil view to bind to the device.
-            If this parameter is <b>NULL</b>, the depth-stencil state is not bound.
+            If this parameter is <b>NULL</b>, the depth-stencil view is not bound.
           
 
 
@@ -255,6 +255,3 @@ The following conditions must be true for <b>OMSetRenderTargetsAndUnorderedAcces
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
  
-
- 
-

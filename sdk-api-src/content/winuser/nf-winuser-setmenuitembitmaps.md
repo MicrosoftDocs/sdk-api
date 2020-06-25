@@ -147,7 +147,7 @@ When the menu is destroyed, these bitmaps are not destroyed; it is up to the app
 
 The selected and clear bitmaps should be monochrome. The system uses the Boolean AND operator to combine bitmaps with the menu so that the white part becomes transparent and the black part becomes the menu-item color. If you use color bitmaps, the results may be undesirable.
 
-Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function with the <b>CXMENUCHECK</b> and <b>CYMENUCHECK</b> values to retrieve the bitmap dimensions.
+Use the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function with the <b>SM_CXMENUCHECK</b> and <b>SM_CYMENUCHECK</b> values to retrieve the bitmap dimensions.
 
 
 #### Examples
@@ -164,7 +164,3 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 
 
 <a href="https://docs.microsoft.com/windows/desktop/menurc/menus">Menus</a>
- 
-
- 
-

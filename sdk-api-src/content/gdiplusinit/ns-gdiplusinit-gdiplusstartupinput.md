@@ -70,7 +70,7 @@ The **GdiplusStartupInput** structure provides a constructor that sets the **Gdi
 If you set the **SuppressBackgroundThread** member to **TRUE** in the *input* parameter of [GdiplusStartup](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup), then you must call the hook and unhook functions returned in the *output* parameter returned by that function. Call those functions before and after the application's main message loop; that is, a message loop that is active for the lifetime of GDI+. Call the hook function before the loop starts, and call the unhook function after the loop ends.
 
 ## -see-also
-* [GdiplusShutdown](windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown)
+* [GdiplusShutdown](https://docs.microsoft.com/en-us/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusshutdown)
 * [GdiplusStartup](/windows/win32/api/gdiplusinit/nf-gdiplusinit-gdiplusstartup)
 * [GdiplusStartupOutput](/windows/win32/api/gdiplusinit/ns-gdiplusinit-gdiplusstartupoutput)
 * [Getting started](windows/win32/gdiplus/-gdiplus-getting-started-use)

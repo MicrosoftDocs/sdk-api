@@ -51,51 +51,38 @@ ms.custom: 19H1
 
 ## -description
 
-
-Retrieves the description that was assigned to a thread by calling <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription">SetThreadDescription</a>.
-
+Retrieves the description that was assigned to a thread by calling [SetThreadDescription](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription).
 
 ## -parameters
-
-
-
 
 ### -param hThread [in]
 
 A handle to the thread for which to retrieve the description. The handle must have THREAD_QUERY_LIMITED_INFORMATION access.
 
-
 ### -param ppszThreadDescription [out]
 
 A Unicode string that contains the description of the thread.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is the <b>HRESULT</b> that denotes a successful operation.
 If the function fails, the return value is an <b>HRESULT</b> that denotes the error.
 
-
-
-
-
 ## -remarks
 
-
+GetThreadDescription is only available through [Run Time Dynamic Linking](/windows/win32/dlls/using-run-time-dynamic-linking) on Windows Server 2016, 1607.
 
 The description for a thread can change at any time. For example, a different thread can change the description of a thread of interest while you try to retrieve that description.
 
 Thread descriptions do not need to be unique.
 
-To free the memory for the thread description, call the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> method.
+To free the memory for the thread description, call the [LocalFree](/windows/win32/api/winbase/nf-winbase-localfree) method.
+
 
 
 #### Examples
 
 The following example gets the description for a thread,  prints the description, and then frees the memory for the description.
-
 
 ```cpp
 HRESULT hr = GetThreadDescription(ThreadHandle, &data);
@@ -104,24 +91,8 @@ if (SUCCEEDED(hr))
     wprintf(“%ls\m”, data);
     LocalFree(data);
 }
-
 ```
-
-
-
-
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription">SetThreadDescription</a>
- 
-
- 
-
+[LocalFree](/windows/win32/api/winbase/nf-winbase-localfree), [SetThreadDescription](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreaddescription)

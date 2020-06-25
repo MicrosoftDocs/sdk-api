@@ -122,7 +122,7 @@ You can also call <b>OleCreateStaticFromData</b> to paste a static object from t
 
 The new static object is of class CLSID_StaticMetafile in the case of CF_METAFILEPICT, CLSID_StaticDib in the case of CF_DIB or CF_BITMAP, or CLSID_Picture_EnhMetafile in the case of CF_ENHMETAFILE. The static object sets the OLEMISC_STATIC and OLE_CANTLINKINSIDE bits returned from <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-getmiscstatus">IOleObject::GetMiscStatus</a>. The static object will have the aspect DVASPECT_CONTENT and a LINDEX of -1.
 
-The <i>pSrcDataObject</i> is still valid after <b>OleCreateStaticFromData</b> returns. It is the caller's responsibility to free <i>pSrcDataObject</i> â€” OLE does not release it.
+The <i>pSrcDataObject</i> is still valid after <b>OleCreateStaticFromData</b> returns. It is the caller's responsibility to free <i>pSrcDataObject</i> - OLE does not release it.
 
 
 
@@ -137,7 +137,5 @@ There cannot be more than one presentation stream in a static object.
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olecreatefromdata">OleCreateFromData</a>
- 
 
- 
 
