@@ -44,74 +44,48 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID3D12GraphicsCommandList::ResolveSubresource
-
-
 ## -description
-
 
 Copy a multi-sampled resource into a non-multi-sampled resource.
 
-
 ## -parameters
 
+### -param pDstResource
 
+Type: [in] <b>ID3D12Resource*</b>
 
+Destination resource. Must be a created on a <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_heap_type">D3D12_HEAP_TYPE_DEFAULT</a> heap and be single-sampled. See <a href="/windows/win32/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
 
-### -param pDstResource [in]
+### -param DstSubresource
 
-Type: <b>ID3D12Resource*</b>
+Type: [in] <b>UINT</b>
 
-Destination resource. Must be a created with the <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/ne-d3d11-d3d11_usage">D3D11_USAGE_DEFAULT</a> flag and be single-sampled. See
-            <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12resource">ID3D12Resource</a>.
-          
+A zero-based index, that identifies the destination subresource. Use <a href="/windows/win32/direct3d12/d3d12calcsubresource">D3D12CalcSubresource</a> to calculate the subresource index if the parent resource is complex.
 
+### -param pSrcResource
 
-### -param DstSubresource [in]
-
-Type: <b>UINT</b>
-
-A zero-based index, that identifies the destination subresource. Use <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12calcsubresource">D3D12CalcSubresource</a> to calculate the subresource index if the parent resource is complex.
-          
-
-
-### -param pSrcResource [in]
-
-Type: <b>ID3D12Resource*</b>
+Type: [in] <b>ID3D12Resource*</b>
 
 Source resource. Must be multisampled.
-          
 
+### -param SrcSubresource
 
-### -param SrcSubresource [in]
-
-Type: <b>UINT</b>
+Type: [in] <b>UINT</b>
 
 The source subresource of the source resource.
-          
 
+### -param Format
 
-### -param Format [in]
+Type: [in] <b>DXGI_FORMAT</b>
 
-Type: <b>DXGI_FORMAT</b>
-
-A <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource.
-            See remarks.
-          
-
+A <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT</a> that indicates how the multisampled resource will be resolved to a single-sampled resource. See remarks.
 
 ## -remarks
 
-
-
 <h3><a id="Debug_layer"></a><a id="debug_layer"></a><a id="DEBUG_LAYER"></a>Debug layer</h3>
-The debug layer will issue an error if the subresources referenced by the source view is not in the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_SOURCE</a> state.
-          
+The debug layer will issue an error if the subresources referenced by the source view is not in the  <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_SOURCE</a> state.
 
-The debug layer will issue an error if the destination buffer is not in the  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_DEST</a>state.
-          
-
-This API is most useful when re-using the resulting rendertarget of one render pass as an input to a second render pass.
+The debug layer will issue an error if the destination buffer is not in the  <a href="/windows/win32/api/d3d12/ne-d3d12-d3d12_resource_states">D3D12_RESOURCE_STATE_RESOLVE_DEST</a>state.
 
 The source and destination resources must be the same resource type and have the same dimensions. In addition, they must have compatible formats. There are three scenarios for this:
 
@@ -142,21 +116,8 @@ The source and destination resources must be the same resource type and have the
 </tr>
 </table>
  
-
-
-
-
 ## -see-also
 
+<a href="/windows/win32/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3d12/subresources">Subresources</a>
- 
-
- 
-
+<a href="/windows/win32/direct3d12/subresources">Subresources</a>
