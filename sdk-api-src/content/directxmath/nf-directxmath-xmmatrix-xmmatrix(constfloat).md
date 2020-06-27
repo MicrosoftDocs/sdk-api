@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMMATRIX.XMMATRIX(const float)
+UID: NF:directxmath.XMMATRIX.XMMATRIX(constfloat)
 title: XMMATRIX::XMMATRIX(const float) (directxmath.h)
 description: Initializes a new instance of the XMMATRIX structure from a sixteen element float array.
 helpviewer_keywords: ["XMMATRIX","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX structure","XMMATRIX structure [DirectX Math Support APIs]","XMMATRIX constructor","XMMATRIX.XMMATRIX","XMMATRIX.XMMATRIX()","XMMATRIX.XMMATRIX(const float)","XMMATRIX::XMMATRIX","XMMATRIX::XMMATRIX(const float)","dxmath.xmmatrix_ctor_1"]

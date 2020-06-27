@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusbase.GdiplusBase.operator delete
+UID: NF:gdiplusbase.GdiplusBase.operator-delete
 title: GdiplusBase::operator delete (gdiplusbase.h)
 description: The GdiplusBase::operator delete method deallocates memory for one Windows GDI+ object.
 helpviewer_keywords: ["GdiplusBase class [GDI+]","operator delete method","GdiplusBase.operator delete","GdiplusBase::operator delete","_gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_","gdiplus._gdiplus_CLASS_GdiplusBase_operator_delete_in_pVoid_","operator delete","operator delete method [GDI+]","operator delete method [GDI+]","GdiplusBase class"]

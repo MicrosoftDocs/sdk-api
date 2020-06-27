@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(IN HMETAFILE,IN const WmfPlaceableFileHeader,OUT MetafileHeader)
+UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(INHMETAFILE,INconstWmfPlaceableFileHeader,OUTMetafileHeader)
 title: Metafile::GetMetafileHeader
 description: The Metafile::GetMetafileHeader method gets the metafile header of this metafile.
 helpviewer_keywords: ["Metafile::GetMetafileHeader"]

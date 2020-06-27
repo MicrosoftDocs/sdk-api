@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplustypes.RectF.Contains(IN const PointF &)
+UID: NF:gdiplustypes.RectF.Contains(INconstPointF&)
 title: RectF::Contains(IN const PointF &) (gdiplustypes.h)
 description: The RectF::Contains method determines whether a point is inside this rectangle.
 helpviewer_keywords: ["Contains","Contains method [GDI+]","Contains method [GDI+]","RectF class","RectF class [GDI+]","Contains method","RectF.Contains","RectF.Contains(IN const PointF &)","RectF.Contains(const PointF&)","RectF::Contains","RectF::Contains(IN const PointF &)","_gdiplus_CLASS_RectF_Contains_pt_","gdiplus._gdiplus_CLASS_RectF_Contains_pt_"]

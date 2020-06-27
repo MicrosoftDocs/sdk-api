@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Font.Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection)
+UID: NF:gdiplusheaders.Font.Font(INconstWCHAR,INREAL,ININT,INUnit,INconstFontCollection)
 title: Font::Font(IN const WCHAR,IN REAL,IN INT,IN Unit,IN const FontCollection) (gdiplusheaders.h)
 description: Creates a Font::Font object based on a font family, a size, a font style, a unit of measurement, and a FontCollection object.
 helpviewer_keywords: ["Font","Font class [GDI+]","Font constructor","Font constructor [GDI+]","Font constructor [GDI+]","Font class","Font.Font","Font.Font(IN const WCHAR","IN REAL","IN INT","IN Unit","IN const FontCollection)","Font.Font(const WCHAR*","REAL","INT","Unit","const FontCollection*)","Font::Font","Font::Font(IN const WCHAR","IN REAL","IN INT","IN Unit","IN const FontCollection)","_gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_","gdiplus._gdiplus_CLASS_Font_Font_familyName_emSize_style_unit_fontCollection_"]

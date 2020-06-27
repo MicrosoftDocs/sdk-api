@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.Complement(IN const Rect &)
+UID: NF:gdiplusheaders.Region.Complement(INconstRect&)
 title: Region::Complement
 description: The Region::Complement method updates a region that does not intersect this region.
 helpviewer_keywords: ["Region::Complement"]

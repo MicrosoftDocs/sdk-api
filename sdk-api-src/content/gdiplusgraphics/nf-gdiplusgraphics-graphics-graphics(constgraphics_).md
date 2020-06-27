@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.Graphics(const Graphics &)
+UID: NF:gdiplusgraphics.Graphics.Graphics(constGraphics&)
 title: Graphics::Graphics(const Graphics &) (gdiplusgraphics.h)
 description: This topic lists the constructors of the Graphics class. For a complete class listing, see Graphics Class.
 helpviewer_keywords: ["Graphics","Graphics constructors [GDI+]","Graphics.Graphics","Graphics.Graphics(const Graphics &)","Graphics::Graphics","Graphics::Graphics(const Graphics &)","_gdiplus_CLASS_Graphics_Constructors","gdiplus._gdiplus_CLASS_Graphics_Constructors","gdiplusgraphics/Graphics"]

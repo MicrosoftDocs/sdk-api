@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK(const XMFLOAT3PK &)
+UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK(constXMFLOAT3PK&)
 title: XMFLOAT3PK::XMFLOAT3PK(const XMFLOAT3PK &) (directxpackedvector.h)
 description: A constructor for XMFLOAT3PK.
 helpviewer_keywords: ["XMFLOAT3PK","XMFLOAT3PK constructor [DirectX Math Support APIs]","XMFLOAT3PK constructor [DirectX Math Support APIs]","XMFLOAT3PK structure","XMFLOAT3PK structure [DirectX Math Support APIs]","XMFLOAT3PK constructor","XMFLOAT3PK.XMFLOAT3PK","XMFLOAT3PK.XMFLOAT3PK()","XMFLOAT3PK.XMFLOAT3PK(const XMFLOAT3PK &)","XMFLOAT3PK::XMFLOAT3PK","XMFLOAT3PK::XMFLOAT3PK(const XMFLOAT3PK &)","dxmath.xmfloat3pk_ctor_1"]

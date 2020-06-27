@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.Region(IN const RectF &)
+UID: NF:gdiplusheaders.Region.Region(INconstRectF&)
 title: Region::Region(IN const RectF &) (gdiplusheaders.h)
 description: Creates a region that is defined by a rectangle.
 helpviewer_keywords: ["Region","Region class [GDI+]","Region constructor","Region constructor [GDI+]","Region constructor [GDI+]","Region class","Region.Region","Region.Region(IN const RectF &)","Region.Region(const RectF&)","Region::Region","Region::Region(IN const RectF &)","_gdiplus_CLASS_Region_Region_RectF_rect_","gdiplus._gdiplus_CLASS_Region_Region_RectF_rect_"]

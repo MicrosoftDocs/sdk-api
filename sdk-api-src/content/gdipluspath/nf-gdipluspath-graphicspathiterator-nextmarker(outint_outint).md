@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPathIterator.NextMarker(OUT INT,OUT INT)
+UID: NF:gdipluspath.GraphicsPathIterator.NextMarker(OUTINT,OUTINT)
 title: GraphicsPathIterator::NextMarker
 description: The GraphicsPathIterator::NextMarker method gets the starting index and the ending index of a section.
 helpviewer_keywords: ["GraphicsPathIterator::NextMarker"]

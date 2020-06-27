@@ -1,5 +1,5 @@
 ---
-UID: NF:wbemtime.WBEMTime.operator-sub(const WBEMTime &)
+UID: NF:wbemtime.WBEMTime.operator-sub(constWBEMTime&)
 title: WBEMTime::operator-sub (wbemtime.h)
 description: This overload of the WBEMTime class subtraction operator (&#8211;) subtracts a time span from an object's time to produce a new time object that contains the resulting time.
 helpviewer_keywords: ["??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z","WBEMTime interface [Windows Management Instrumentation]","operator- method","WBEMTime.operator-","WBEMTime.operator-sub","WBEMTime::operator-","WBEMTime::operator-(const WBEMTimeSpan&)","WBEMTime::operator-sub","operator-","operator- method [Windows Management Instrumentation]","operator- method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator-","wmi.wbemtime_operator_minus_const_wbemtimespan__"]

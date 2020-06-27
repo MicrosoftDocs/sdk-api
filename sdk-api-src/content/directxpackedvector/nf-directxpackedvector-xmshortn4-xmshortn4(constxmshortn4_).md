@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMSHORTN4.XMSHORTN4(const XMSHORTN4 &)
+UID: NF:directxpackedvector.XMSHORTN4.XMSHORTN4(constXMSHORTN4&)
 title: XMSHORTN4::XMSHORTN4(const XMSHORTN4 &) (directxpackedvector.h)
 description: A constructor for XMSHORTN4.
 helpviewer_keywords: ["XMSHORTN4","XMSHORTN4 constructor [DirectX Math Support APIs]","XMSHORTN4 constructor [DirectX Math Support APIs]","XMSHORTN4 structure","XMSHORTN4 structure [DirectX Math Support APIs]","XMSHORTN4 constructor","XMSHORTN4.XMSHORTN4","XMSHORTN4.XMSHORTN4()","XMSHORTN4.XMSHORTN4(const XMSHORTN4 &)","XMSHORTN4::XMSHORTN4","XMSHORTN4::XMSHORTN4(const XMSHORTN4 &)","dxmath.xmshortn4_ctor_1"]

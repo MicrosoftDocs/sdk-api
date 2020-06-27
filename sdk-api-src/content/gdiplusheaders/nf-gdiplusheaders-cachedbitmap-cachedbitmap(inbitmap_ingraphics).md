@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.CachedBitmap.CachedBitmap(IN Bitmap,IN Graphics)
+UID: NF:gdiplusheaders.CachedBitmap.CachedBitmap(INBitmap,INGraphics)
 title: CachedBitmap::CachedBitmap(IN Bitmap,IN Graphics) (gdiplusheaders.h)
 description: Creates a CachedBitmap::CachedBitmap object based on a Bitmap object and a Graphics object.
 helpviewer_keywords: ["CachedBitmap","CachedBitmap class [GDI+]","CachedBitmap constructor","CachedBitmap constructor [GDI+]","CachedBitmap constructor [GDI+]","CachedBitmap class","CachedBitmap.CachedBitmap","CachedBitmap.CachedBitmap(IN Bitmap","IN Graphics)","CachedBitmap::CachedBitmap","CachedBitmap::CachedBitmap(IN Bitmap","IN Graphics)","_gdiplus_CLASS_CachedBitmap_CachedBitmap_bitmap_graphics_","gdiplus._gdiplus_CLASS_CachedBitmap_CachedBitmap_bitmap_graphics_"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingOrientedBox.Transform(BoundingOrientedBox &,float,FXMVECTOR,FXMVECTOR)
+UID: NF:directxcollision.BoundingOrientedBox.Transform(BoundingOrientedBox&,float,FXMVECTOR,FXMVECTOR)
 title: BoundingOrientedBox::Transform(BoundingOrientedBox &,float,FXMVECTOR,FXMVECTOR)
 description: Transforms the BoundingOrientedBox.
 helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","Transform method","BoundingOrientedBox.Transform","BoundingOrientedBox.Transform(BoundingOrientedBox &","float","FXMVECTOR","FXMVECTOR)","BoundingOrientedBox.Transform(BoundingOrientedBox&","float","XMVECTOR","XMVECTOR)","BoundingOrientedBox::Transform","BoundingOrientedBox::Transform(BoundingOrientedBox &","float","FXMVECTOR","FXMVECTOR)","Transform","Transform method [DirectX Math Support APIs]","Transform method [DirectX Math Support APIs]","BoundingOrientedBox interface","dxmath.boundingorientedbox_transform_2"]

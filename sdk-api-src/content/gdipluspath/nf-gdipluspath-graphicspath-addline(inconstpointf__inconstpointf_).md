@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddLine(IN const PointF &,IN const PointF &)
+UID: NF:gdipluspath.GraphicsPath.AddLine(INconstPointF&,INconstPointF&)
 title: GraphicsPath::AddLine
 description: The GraphicsPath::AddLine method adds a line to the current figure of this path.
 helpviewer_keywords: ["GraphicsPath::AddLine"]

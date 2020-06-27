@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1RenderTarget.CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES &,ID2D1BitmapBrush)
+UID: NF:d2d1.ID2D1RenderTarget.CreateBitmapBrush(ID2D1Bitmap,constD2D1_BITMAP_BRUSH_PROPERTIES&,ID2D1BitmapBrush)
 title: ID2D1RenderTarget::CreateBitmapBrush(ID2D1Bitmap,const D2D1_BITMAP_BRUSH_PROPERTIES &,ID2D1BitmapBrush) (d2d1.h)
 description: Creates an ID2D1BitmapBrush from the specified bitmap. The brush uses the default values for its opacity and transform.
 helpviewer_keywords: ["CreateBitmapBrush","CreateBitmapBrush method [Direct2D]","CreateBitmapBrush method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateBitmapBrush method","ID2D1RenderTarget.CreateBitmapBrush","ID2D1RenderTarget.CreateBitmapBrush(ID2D1Bitmap","const D2D1_BITMAP_BRUSH_PROPERTIES &","ID2D1BitmapBrush)","ID2D1RenderTarget::CreateBitmapBrush","ID2D1RenderTarget::CreateBitmapBrush(ID2D1Bitmap","const D2D1_BITMAP_BRUSH_PROPERTIES &","ID2D1BitmapBrush)","d2d1/ID2D1RenderTarget::CreateBitmapBrush","direct2d.ID2D1RenderTarget_CreateBitmapBrush_ptr_ID2D1Bitmap_ref_D2D1_BITMAP_BRUSH_PROPERTIES_ptr_ptr_ID2D1BitmapBrush"]

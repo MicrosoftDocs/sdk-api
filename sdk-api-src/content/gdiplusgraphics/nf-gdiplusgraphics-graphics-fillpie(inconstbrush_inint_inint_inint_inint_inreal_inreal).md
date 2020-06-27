@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.FillPie(IN const Brush,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.FillPie(INconstBrush,ININT,ININT,ININT,ININT,INREAL,INREAL)
 title: Graphics::FillPie(IN const Brush,IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL) (gdiplusgraphics.h)
 description: The Graphics::FillPie method uses a brush to fill the interior of a pie.
 helpviewer_keywords: ["FillPie","FillPie method [GDI+]","FillPie method [GDI+]","Graphics class","Graphics class [GDI+]","FillPie method","Graphics.FillPie","Graphics.FillPie(IN const Brush","IN INT","IN INT","IN INT","IN INT","IN REAL","IN REAL)","Graphics.FillPie(const Brush*","INT","INT","INT","INT","REAL","REAL)","Graphics::FillPie","Graphics::FillPie(IN const Brush","IN INT","IN INT","IN INT","IN INT","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_FillPie_Brush_brush_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sw","gdiplus._gdiplus_CLASS_Graphics_FillPie_Brush_brush_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sw"]

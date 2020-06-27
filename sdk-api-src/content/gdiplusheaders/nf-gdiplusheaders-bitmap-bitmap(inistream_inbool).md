@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Bitmap.Bitmap(IN IStream,IN BOOL)
+UID: NF:gdiplusheaders.Bitmap.Bitmap(INIStream,INBOOL)
 title: Bitmap::Bitmap(IN IStream,IN BOOL) (gdiplusheaders.h)
 description: Creates a Bitmap::Bitmap object based on an IStream COM interface.
 helpviewer_keywords: ["Bitmap","Bitmap class [GDI+]","Bitmap constructor","Bitmap constructor [GDI+]","Bitmap constructor [GDI+]","Bitmap class","Bitmap.Bitmap","Bitmap.Bitmap(IN IStream","IN BOOL)","Bitmap.Bitmap(IStream*","BOOL)","Bitmap::Bitmap","Bitmap::Bitmap(IN IStream","IN BOOL)","_gdiplus_CLASS_Bitmap_Bitmap_stream_useIcm_","gdiplus._gdiplus_CLASS_Bitmap_Bitmap_stream_useIcm_"]

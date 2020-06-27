@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.CachedBitmap.CachedBitmap(const CachedBitmap &)
+UID: NF:gdiplusheaders.CachedBitmap.CachedBitmap(constCachedBitmap&)
 title: CachedBitmap::CachedBitmap(const CachedBitmap &) (gdiplusheaders.h)
 description: Creates a CachedBitmap::CachedBitmap object based on a Bitmap object and a Graphics object.
 helpviewer_keywords: ["CachedBitmap","CachedBitmap class [GDI+]","CachedBitmap constructor","CachedBitmap constructor [GDI+]","CachedBitmap constructor [GDI+]","CachedBitmap class","CachedBitmap.CachedBitmap","CachedBitmap.CachedBitmap(const CachedBitmap &)","CachedBitmap::CachedBitmap","CachedBitmap::CachedBitmap(const CachedBitmap &)","_gdiplus_CLASS_CachedBitmap_CachedBitmap_bitmap_graphics_","gdiplus._gdiplus_CLASS_CachedBitmap_CachedBitmap_bitmap_graphics_"]

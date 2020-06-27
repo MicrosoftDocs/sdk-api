@@ -1,5 +1,5 @@
 ---
-UID: NF:dwrite_3.IDWriteFactory3.CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference)
+UID: NF:dwrite_3.IDWriteFactory3.CreateFontFaceReference(WCHARconst,FILETIMEconst,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference)
 title: IDWriteFactory3::CreateFontFaceReference(WCHAR const,FILETIME const,UINT32,DWRITE_FONT_SIMULATIONS,IDWriteFontFaceReference) (dwrite_3.h)
 description: Creates a reference to a font given a full path.
 helpviewer_keywords: ["CreateFontFaceReference","CreateFontFaceReference method [Direct Write]","CreateFontFaceReference method [Direct Write]","IDWriteFactory3 interface","IDWriteFactory3 interface [Direct Write]","CreateFontFaceReference method","IDWriteFactory3.CreateFontFaceReference","IDWriteFactory3.CreateFontFaceReference(WCHAR const","FILETIME const","UINT32","DWRITE_FONT_SIMULATIONS","IDWriteFontFaceReference)","IDWriteFactory3::CreateFontFaceReference","IDWriteFactory3::CreateFontFaceReference(WCHAR const","FILETIME const","UINT32","DWRITE_FONT_SIMULATIONS","IDWriteFontFaceReference)","directwrite.idwritefactory3_createfontfacereference","dwrite_3/IDWriteFactory3::CreateFontFaceReference"]

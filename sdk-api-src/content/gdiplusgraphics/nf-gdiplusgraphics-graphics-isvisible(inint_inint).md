@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.IsVisible(IN INT,IN INT)
+UID: NF:gdiplusgraphics.Graphics.IsVisible(ININT,ININT)
 title: Graphics::IsVisible
 description: The Graphics::IsVisible method determines whether the specified point is inside the visible clipping region of this Graphics object.
 helpviewer_keywords: ["Graphics::IsVisible"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.TranslateClip(IN INT,IN INT)
+UID: NF:gdiplusgraphics.Graphics.TranslateClip(ININT,ININT)
 title: Graphics::TranslateClip(IN INT,IN INT) (gdiplusgraphics.h)
 description: The Graphics::TranslateClip method translates the clipping region of this Graphics object.
 helpviewer_keywords: ["Graphics class [GDI+]","TranslateClip method","Graphics.TranslateClip","Graphics.TranslateClip(IN INT","IN INT)","Graphics.TranslateClip(INT","INT)","Graphics::TranslateClip","Graphics::TranslateClip(IN INT","IN INT)","TranslateClip","TranslateClip method [GDI+]","TranslateClip method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_TranslateClip_INT_dx_INT_dy_","gdiplus._gdiplus_CLASS_Graphics_TranslateClip_INT_dx_INT_dy_"]

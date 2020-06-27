@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingSphere.operator-assign(BoundingSphere &&)
+UID: NF:directxcollision.BoundingSphere.operator-assign(BoundingSphere&&)
 title: BoundingSphere::operator-assign(BoundingSphere &&)
 description: Initializes the BoundingSphere with values from a specified BoundingSphere.
 helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","op_Assignment method","BoundingSphere.op_Assignment","BoundingSphere.operator-assign(BoundingSphere &&)","BoundingSphere.operator=","BoundingSphere::operator-assign(BoundingSphere &&)","BoundingSphere::operator=","Use DirectX..BoundingSphere.op_Assignment","Use DirectX::::BoundingSphere::op_Assignment","dxmath.boundingsphere_op_assignment","op_Assignment method [DirectX Math Support APIs]","op_Assignment method [DirectX Math Support APIs]","BoundingSphere interface","operator="]

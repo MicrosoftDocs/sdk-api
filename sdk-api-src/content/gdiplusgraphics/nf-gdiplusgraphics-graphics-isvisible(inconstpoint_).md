@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.IsVisible(IN const Point &)
+UID: NF:gdiplusgraphics.Graphics.IsVisible(INconstPoint&)
 title: Graphics::IsVisible(IN const Point &) (gdiplusgraphics.h)
 description: The Graphics::IsVisible method determines whether the specified point is inside the visible clipping region of this Graphics object.
 helpviewer_keywords: ["Graphics class [GDI+]","IsVisible method","Graphics.IsVisible","Graphics.IsVisible(IN const Point &)","Graphics.IsVisible(const Point&)","Graphics::IsVisible","Graphics::IsVisible(IN const Point &)","IsVisible","IsVisible method [GDI+]","IsVisible method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_IsVisible_Point_point_","gdiplus._gdiplus_CLASS_Graphics_IsVisible_Point_point_"]

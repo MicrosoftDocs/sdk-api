@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.Intersect(IN const RectF &)
+UID: NF:gdiplusheaders.Region.Intersect(INconstRectF&)
 title: Region::Intersect(IN const RectF &) (gdiplusheaders.h)
 description: The Region::Intersect method updates this region to the portion of itself that intersects the specified rectangle's interior.
 helpviewer_keywords: ["Intersect","Intersect method [GDI+]","Intersect method [GDI+]","Region class","Region class [GDI+]","Intersect method","Region.Intersect","Region.Intersect(IN const RectF &)","Region.Intersect(const RectF&)","Region::Intersect","Region::Intersect(IN const RectF &)","_gdiplus_CLASS_Region_Intersect_RectF_rect_","gdiplus._gdiplus_CLASS_Region_Intersect_RectF_rect_"]

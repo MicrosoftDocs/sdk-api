@@ -1,5 +1,5 @@
 ---
-UID: NF:traceloggingactivity.TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter(const GUID &)
+UID: NF:traceloggingactivity.TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter(constGUID&)
 title: TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter(const GUID &) (traceloggingactivity.h)
 description: Creates a new TraceLoggingThreadActivityIdSetter object.
 helpviewer_keywords: ["TraceLoggingThreadActivityIdSetter","TraceLoggingThreadActivityIdSetter interface","TraceLoggingThreadActivityIdSetter method","TraceLoggingThreadActivityIdSetter method","TraceLoggingThreadActivityIdSetter method","TraceLoggingThreadActivityIdSetter interface","TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter","TraceLoggingThreadActivityIdSetter.TraceLoggingThreadActivityIdSetter(const GUID &)","TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter","TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter(const GUID &)","tracelogging.traceloggingthreadactivityidsetter_traceloggingthreadactivityidsetter","traceloggingactivity/TraceLoggingThreadActivityIdSetter::TraceLoggingThreadActivityIdSetter"]

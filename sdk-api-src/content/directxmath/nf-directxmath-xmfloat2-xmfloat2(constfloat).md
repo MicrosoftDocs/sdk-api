@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMFLOAT2.XMFLOAT2(const float)
+UID: NF:directxmath.XMFLOAT2.XMFLOAT2(constfloat)
 title: XMFLOAT2::XMFLOAT2(const float) (directxmath.h)
 description: Initializes a new instance of XMFLOAT2 from a two element float array argument.
 helpviewer_keywords: ["XMFLOAT2","XMFLOAT2 constructor [DirectX Math Support APIs]","XMFLOAT2 constructor [DirectX Math Support APIs]","XMFLOAT2 structure","XMFLOAT2 structure [DirectX Math Support APIs]","XMFLOAT2 constructor","XMFLOAT2.XMFLOAT2","XMFLOAT2.XMFLOAT2(const float)","XMFLOAT2.XMFLOAT2(const float*)","XMFLOAT2::XMFLOAT2","XMFLOAT2::XMFLOAT2(const float)","dxmath.xmfloat2_ctor_3"]

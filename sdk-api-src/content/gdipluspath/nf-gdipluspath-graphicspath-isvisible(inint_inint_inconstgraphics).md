@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.IsVisible(IN INT,IN INT,IN const Graphics)
+UID: NF:gdipluspath.GraphicsPath.IsVisible(ININT,ININT,INconstGraphics)
 title: GraphicsPath::IsVisible(IN INT,IN INT,IN const Graphics) (gdipluspath.h)
 description: The GraphicsPath::IsVisible method determines whether a specified point lies in the area that is filled when this path is filled by a specified Graphicsobject.
 helpviewer_keywords: ["GraphicsPath class [GDI+]","IsVisible method","GraphicsPath.IsVisible","GraphicsPath.IsVisible(IN INT","IN INT","IN const Graphics)","GraphicsPath.IsVisible(INT","INT","const Graphics*)","GraphicsPath::IsVisible","GraphicsPath::IsVisible(IN INT","IN INT","IN const Graphics)","IsVisible","IsVisible method [GDI+]","IsVisible method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_IsVisible_INT_x_INT_y_Graphics_g_","gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_INT_x_INT_y_Graphics_g_"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.IntersectClip(IN const Region)
+UID: NF:gdiplusgraphics.Graphics.IntersectClip(INconstRegion)
 title: Graphics::IntersectClip(IN const Region) (gdiplusgraphics.h)
 description: The Graphics::IntersectClip method updates the clipping region of this Graphics object to the portion of the specified region that intersects with the current clipping region of this Graphics object.
 helpviewer_keywords: ["Graphics class [GDI+]","IntersectClip method","Graphics.IntersectClip","Graphics.IntersectClip(IN const Region)","Graphics.IntersectClip(const Region*)","Graphics::IntersectClip","Graphics::IntersectClip(IN const Region)","IntersectClip","IntersectClip method [GDI+]","IntersectClip method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_IntersectClip_region_","gdiplus._gdiplus_CLASS_Graphics_IntersectClip_region_"]

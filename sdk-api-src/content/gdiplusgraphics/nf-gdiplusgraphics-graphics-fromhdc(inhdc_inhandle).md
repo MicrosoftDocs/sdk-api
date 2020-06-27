@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.FromHDC(IN HDC,IN HANDLE)
+UID: NF:gdiplusgraphics.Graphics.FromHDC(INHDC,INHANDLE)
 title: Graphics::FromHDC(IN HDC,IN HANDLE) (gdiplusgraphics.h)
 description: The Graphics::FromHDC method creates a Graphics object that is associated with a specified device context and a specified device.
 helpviewer_keywords: ["FromHDC","FromHDC method [GDI+]","FromHDC method [GDI+]","Graphics class","Graphics class [GDI+]","FromHDC method","Graphics.FromHDC","Graphics.FromHDC(HDD","HANDLE)","Graphics.FromHDC(IN HDC","IN HANDLE)","Graphics::FromHDC","Graphics::FromHDC(IN HDC","IN HANDLE)","_gdiplus_CLASS_Graphics_FromHDC_hdc_hdevice_","gdiplus._gdiplus_CLASS_Graphics_FromHDC_hdc_hdevice_"]

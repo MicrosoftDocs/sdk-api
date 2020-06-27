@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawPolygon(IN const Pen,IN const Point,IN INT)
+UID: NF:gdiplusgraphics.Graphics.DrawPolygon(INconstPen,INconstPoint,ININT)
 title: Graphics::DrawPolygon(IN const Pen,IN const Point,IN INT) (gdiplusgraphics.h)
 description: The Graphics::DrawPolygon method draws a polygon.
 helpviewer_keywords: ["DrawPolygon","DrawPolygon method [GDI+]","DrawPolygon method [GDI+]","Graphics class","Graphics class [GDI+]","DrawPolygon method","Graphics.DrawPolygon","Graphics.DrawPolygon(IN const Pen","IN const Point","IN INT)","Graphics.DrawPolygon(const Pen*","const Point*","INT*)","Graphics::DrawPolygon","Graphics::DrawPolygon(IN const Pen","IN const Point","IN INT)","_gdiplus_CLASS_Graphics_DrawPolygon_Pen_pen_Point_points_INT_count_","gdiplus._gdiplus_CLASS_Graphics_DrawPolygon_Pen_pen_Point_points_INT_count_"]

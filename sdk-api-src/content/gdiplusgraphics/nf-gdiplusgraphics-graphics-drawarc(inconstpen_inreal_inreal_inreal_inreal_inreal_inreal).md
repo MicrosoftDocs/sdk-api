@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawArc(IN const Pen,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.DrawArc(INconstPen,INREAL,INREAL,INREAL,INREAL,INREAL,INREAL)
 title: Graphics::DrawArc
 description: The Graphics::DrawArc method draws an arc.
 helpviewer_keywords: ["Graphics::DrawArc"]

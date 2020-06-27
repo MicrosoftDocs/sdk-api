@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK(XMFLOAT3PK &&)
+UID: NF:directxpackedvector.XMFLOAT3PK.XMFLOAT3PK(XMFLOAT3PK&&)
 title: XMFLOAT3PK::XMFLOAT3PK(XMFLOAT3PK &&) (directxpackedvector.h)
 description: Assigns the vector component data from one instance of XMFLOAT3SE to the current instance of XMFLOAT3SE.
 helpviewer_keywords: ["XMFLOAT3PK","XMFLOAT3PK.XMFLOAT3PK","XMFLOAT3PK.XMFLOAT3PK(XMFLOAT3PK &&)","XMFLOAT3PK::XMFLOAT3PK","XMFLOAT3PK::XMFLOAT3PK(XMFLOAT3PK &&)","XMFLOAT3SE structure [DirectX Math Support APIs]","operator = method","XMFLOAT3SE.operator =(const XMFLOAT3SE&)","dxmath.xmfloat3se_operator_eq_1","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMFLOAT3SE structure"]

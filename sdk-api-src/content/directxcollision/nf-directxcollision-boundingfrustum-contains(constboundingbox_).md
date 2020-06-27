@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingFrustum.Contains(const BoundingBox &)
+UID: NF:directxcollision.BoundingFrustum.Contains(constBoundingBox&)
 title: BoundingFrustum::Contains(const BoundingBox &)
 description: Tests whether the BoundingFrustum contains the specified BoundingBox.
 helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","Contains method","BoundingFrustum.Contains","BoundingFrustum.Contains(const BoundingBox &)","BoundingFrustum.Contains(const BoundingBox&)","BoundingFrustum::Contains","BoundingFrustum::Contains(const BoundingBox &)","Contains","Contains method [DirectX Math Support APIs]","Contains method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_contains_3"]

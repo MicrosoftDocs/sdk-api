@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawEllipse(IN const Pen,IN const RectF &)
+UID: NF:gdiplusgraphics.Graphics.DrawEllipse(INconstPen,INconstRectF&)
 title: Graphics::DrawEllipse
 description: The Graphics::DrawEllipse method draws an ellipse.
 helpviewer_keywords: ["Graphics::DrawEllipse"]

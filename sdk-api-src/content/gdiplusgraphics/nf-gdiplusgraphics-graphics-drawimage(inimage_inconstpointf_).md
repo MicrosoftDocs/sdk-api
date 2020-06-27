@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN const PointF &)
+UID: NF:gdiplusgraphics.Graphics.DrawImage(INImage,INconstPointF&)
 title: Graphics::DrawImage
 description: The Graphics::DrawImage method draws an image.
 helpviewer_keywords: ["Graphics::DrawImage"]

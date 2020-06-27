@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.Graphics(IN HDC)
+UID: NF:gdiplusgraphics.Graphics.Graphics(INHDC)
 title: Graphics::Graphics
 description: Creates a Graphics::Graphics object that is associated with a specified device context.
 helpviewer_keywords: ["Graphics::Graphics"]

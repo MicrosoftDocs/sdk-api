@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMU555.XMU555(const float,bool)
+UID: NF:directxpackedvector.XMU555.XMU555(constfloat,bool)
 title: XMU555::XMU555(const float,bool) (directxpackedvector.h)
 description: Initializes a new instance of XMU555 from a three element float array and one bool argument.
 helpviewer_keywords: ["XMU555","XMU555 constructor [DirectX Math Support APIs]","XMU555 constructor [DirectX Math Support APIs]","XMU555 structure","XMU555 structure [DirectX Math Support APIs]","XMU555 constructor","XMU555.XMU555","XMU555.XMU555()","XMU555.XMU555(const float","bool)","XMU555::XMU555","XMU555::XMU555(const float","bool)","dxmath.xmu555_ctor_1"]

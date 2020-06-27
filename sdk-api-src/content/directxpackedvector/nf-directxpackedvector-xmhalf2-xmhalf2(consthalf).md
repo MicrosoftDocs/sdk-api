@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMHALF2.XMHALF2(const HALF)
+UID: NF:directxpackedvector.XMHALF2.XMHALF2(constHALF)
 title: XMHALF2::XMHALF2(const HALF) (directxpackedvector.h)
 description: Initializes a new instance of XMHALF2 from a two element HALF array argument.
 helpviewer_keywords: ["XMHALF2","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 structure","XMHALF2 structure [DirectX Math Support APIs]","XMHALF2 constructor","XMHALF2.XMHALF2","XMHALF2.XMHALF2()","XMHALF2.XMHALF2(const HALF)","XMHALF2::XMHALF2","XMHALF2::XMHALF2(const HALF)","dxmath.xmhalf2_ctor_1"]

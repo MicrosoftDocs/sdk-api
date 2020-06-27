@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,const D2D1_SVG_PRESERVE_ASPECT_RATIO &)
+UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,constD2D1_SVG_PRESERVE_ASPECT_RATIO&)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,const D2D1_SVG_PRESERVE_ASPECT_RATIO &) (d2d1svg.h)
 description: Sets an attribute of this element as a preserve aspect ratio value. This method can be used to set the value of a preserveAspectRatio attribute.
 helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","SetAttributeValue method","ID2D1SvgElement.SetAttributeValue","ID2D1SvgElement.SetAttributeValue(PCWSTR","const D2D1_SVG_PRESERVE_ASPECT_RATIO &)","ID2D1SvgElement::SetAttributeValue","ID2D1SvgElement::SetAttributeValue(PCWSTR","const D2D1_SVG_PRESERVE_ASPECT_RATIO &)","SetAttributeValue","SetAttributeValue method [Direct2D]","SetAttributeValue method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::SetAttributeValue","direct2d.id2d1svgelement_setattributevalue_15"]

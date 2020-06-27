@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMBYTE4.XMBYTE4(const float)
+UID: NF:directxpackedvector.XMBYTE4.XMBYTE4(constfloat)
 title: XMBYTE4::XMBYTE4(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMBYTE4 from a four element float array argument.
 helpviewer_keywords: ["XMBYTE4","XMBYTE4 constructor [DirectX Math Support APIs]","XMBYTE4 constructor [DirectX Math Support APIs]","XMBYTE4 structure","XMBYTE4 structure [DirectX Math Support APIs]","XMBYTE4 constructor","XMBYTE4.XMBYTE4","XMBYTE4.XMBYTE4()","XMBYTE4.XMBYTE4(const float)","XMBYTE4::XMBYTE4","XMBYTE4::XMBYTE4(const float)","dxmath.xmbyte4_ctor_1"]

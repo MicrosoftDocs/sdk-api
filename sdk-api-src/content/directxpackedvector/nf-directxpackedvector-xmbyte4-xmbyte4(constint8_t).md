@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMBYTE4.XMBYTE4(const int8_t)
+UID: NF:directxpackedvector.XMBYTE4.XMBYTE4(constint8_t)
 title: XMBYTE4::XMBYTE4(const int8_t) (directxpackedvector.h)
 description: Initializes a new instance of XMBYTE4 from a four element int8_t array argument.
 helpviewer_keywords: ["XMBYTE4","XMBYTE4 constructor [DirectX Math Support APIs]","XMBYTE4 constructor [DirectX Math Support APIs]","XMBYTE4 structure","XMBYTE4 structure [DirectX Math Support APIs]","XMBYTE4 constructor","XMBYTE4.XMBYTE4","XMBYTE4.XMBYTE4()","XMBYTE4.XMBYTE4(const int8_t)","XMBYTE4::XMBYTE4","XMBYTE4::XMBYTE4(const int8_t)","dxmath.xmbyte4_ctor_1"]

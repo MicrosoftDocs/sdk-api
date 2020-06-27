@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawCurve(IN const Pen,IN const PointF,IN INT,IN INT,IN INT,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.DrawCurve(INconstPen,INconstPointF,ININT,ININT,ININT,INREAL)
 title: Graphics::DrawCurve(IN const Pen,IN const PointF,IN INT,IN INT,IN INT,IN REAL) (gdiplusgraphics.h)
 description: The Graphics::DrawCurve method draws a cardinal spline.
 helpviewer_keywords: ["DrawCurve","DrawCurve method [GDI+]","DrawCurve method [GDI+]","Graphics class","Graphics class [GDI+]","DrawCurve method","Graphics.DrawCurve","Graphics.DrawCurve(IN const Pen","IN const PointF","IN INT","IN INT","IN INT","IN REAL)","Graphics.DrawCurve(const Pen*","const PointF*","INT","INT","INT","REAL)","Graphics::DrawCurve","Graphics::DrawCurve(IN const Pen","IN const PointF","IN INT","IN INT","IN INT","IN REAL)","_gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_PointF_points_INT_count_INT_offset_INT_numberOfSegments_RE","gdiplus._gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_PointF_points_INT_count_INT_offset_INT_numberOfSegments_RE"]

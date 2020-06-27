@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplustypes.SizeF.SizeF(IN const SizeF &)
+UID: NF:gdiplustypes.SizeF.SizeF(INconstSizeF&)
 title: SizeF::SizeF(IN const SizeF &) (gdiplustypes.h)
 description: Creates a SizeF object and initializes its members by copying the members of another SizeF object.
 helpviewer_keywords: ["SizeF","SizeF class [GDI+]","SizeF constructor","SizeF constructor [GDI+]","SizeF constructor [GDI+]","SizeF class","SizeF.SizeF","SizeF.SizeF(IN const SizeF &)","SizeF.SizeF(const SizeF&)","SizeF::SizeF","SizeF::SizeF(IN const SizeF &)","_gdiplus_CLASS_SizeF_SizeF_size_","gdiplus._gdiplus_CLASS_SizeF_SizeF_size_"]

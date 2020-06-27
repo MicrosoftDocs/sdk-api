@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplustypes.RectF.RectF(IN REAL,IN REAL,IN REAL,IN REAL)
+UID: NF:gdiplustypes.RectF.RectF(INREAL,INREAL,INREAL,INREAL)
 title: RectF::RectF(IN REAL,IN REAL,IN REAL,IN REAL) (gdiplustypes.h)
 description: Creates a RectF object by using four integers to initialize the X, Y, Width, and Height data members.
 helpviewer_keywords: ["RectF","RectF class [GDI+]","RectF constructor","RectF constructor [GDI+]","RectF constructor [GDI+]","RectF class","RectF.RectF","RectF.RectF(IN REAL","IN REAL","IN REAL","IN REAL)","RectF.RectF(REAL","REAL","REAL","REAL)","RectF::RectF","RectF::RectF(IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_RectF_RectF_x_y_width_height_","gdiplus._gdiplus_CLASS_RectF_RectF_x_y_width_height_"]

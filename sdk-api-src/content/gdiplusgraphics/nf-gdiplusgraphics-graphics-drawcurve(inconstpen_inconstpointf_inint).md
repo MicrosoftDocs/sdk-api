@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawCurve(IN const Pen,IN const PointF,IN INT)
+UID: NF:gdiplusgraphics.Graphics.DrawCurve(INconstPen,INconstPointF,ININT)
 title: Graphics::DrawCurve
 description: The Graphics::DrawCurve method draws a cardinal spline.
 helpviewer_keywords: ["Graphics::DrawCurve"]

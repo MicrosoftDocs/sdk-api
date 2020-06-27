@@ -1,5 +1,5 @@
 ---
-UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFonts(DWRITE_FONT_AXIS_RANGE const,UINT32,BOOL,IDWriteFontSet1)
+UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFonts(DWRITE_FONT_AXIS_RANGEconst,UINT32,BOOL,IDWriteFontSet1)
 title: IDWriteFontSet1::GetFilteredFonts
 description: Retrieves a subset of fonts filtered by the given ranges, endpoint-inclusive.
 helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFilteredFonts method","IDWriteFontSet1.GetFilteredFonts","IDWriteFontSet1::GetFilteredFonts","GetFilteredFonts","GetFilteredFonts method [Direct Write]","GetFilteredFonts method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfilteredfonts","dwrite_3/IDWriteFontSet1::GetFilteredFonts"]

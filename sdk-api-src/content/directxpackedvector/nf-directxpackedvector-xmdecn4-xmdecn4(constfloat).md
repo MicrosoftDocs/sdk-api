@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMDECN4.XMDECN4(const float)
+UID: NF:directxpackedvector.XMDECN4.XMDECN4(constfloat)
 title: XMDECN4::XMDECN4(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMDECN4 from a four element float array argument.
 helpviewer_keywords: ["XMDECN4","XMDECN4 constructor [DirectX Math Support APIs]","XMDECN4 constructor [DirectX Math Support APIs]","XMDECN4 structure","XMDECN4 structure [DirectX Math Support APIs]","XMDECN4 constructor","XMDECN4.XMDECN4","XMDECN4.XMDECN4()","XMDECN4.XMDECN4(const float)","XMDECN4::XMDECN4","XMDECN4::XMDECN4(const float)","dxmath.xmdecn4_ctor_1"]

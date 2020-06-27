@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMSHORTN2.XMSHORTN2(const XMSHORTN2 &)
+UID: NF:directxpackedvector.XMSHORTN2.XMSHORTN2(constXMSHORTN2&)
 title: XMSHORTN2::XMSHORTN2(const XMSHORTN2 &) (directxpackedvector.h)
 description: A constructor for XMSHORTN2.
 helpviewer_keywords: ["XMSHORTN2","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 structure","XMSHORTN2 structure [DirectX Math Support APIs]","XMSHORTN2 constructor","XMSHORTN2.XMSHORTN2","XMSHORTN2.XMSHORTN2()","XMSHORTN2.XMSHORTN2(const XMSHORTN2 &)","XMSHORTN2::XMSHORTN2","XMSHORTN2::XMSHORTN2(const XMSHORTN2 &)","dxmath.xmshortn2_ctor_1"]

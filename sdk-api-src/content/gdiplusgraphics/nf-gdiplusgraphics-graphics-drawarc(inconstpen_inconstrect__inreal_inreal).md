@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawArc(IN const Pen,IN const Rect &,IN REAL,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.DrawArc(INconstPen,INconstRect&,INREAL,INREAL)
 title: Graphics::DrawArc(IN const Pen,IN const Rect &,IN REAL,IN REAL) (gdiplusgraphics.h)
 description: The Graphics::DrawArc method draws an arc. The arc is part of an ellipse.
 helpviewer_keywords: ["DrawArc","DrawArc method [GDI+]","DrawArc method [GDI+]","Graphics class","Graphics class [GDI+]","DrawArc method","Graphics.DrawArc","Graphics.DrawArc(IN const Pen","IN const Rect &","IN REAL","IN REAL)","Graphics.DrawArc(const Pen*","const Rect&","REAL","REAL)","Graphics::DrawArc","Graphics::DrawArc(IN const Pen","IN const Rect &","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_DrawArc_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_","gdiplus._gdiplus_CLASS_Graphics_DrawArc_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddPolygon(IN const Point,IN INT)
+UID: NF:gdipluspath.GraphicsPath.AddPolygon(INconstPoint,ININT)
 title: GraphicsPath::AddPolygon(IN const Point,IN INT) (gdipluspath.h)
 description: The GraphicsPath::AddPolygon method adds a polygon to this path.
 helpviewer_keywords: ["AddPolygon","AddPolygon method [GDI+]","AddPolygon method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddPolygon method","GraphicsPath.AddPolygon","GraphicsPath.AddPolygon(IN const Point","IN INT)","GraphicsPath.AddPolygon(const Point*","INT)","GraphicsPath::AddPolygon","GraphicsPath::AddPolygon(IN const Point","IN INT)","_gdiplus_CLASS_GraphicsPath_AddPolygon_Point_points_INT_count_","gdiplus._gdiplus_CLASS_GraphicsPath_AddPolygon_Point_points_INT_count_"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.IsOutlineVisible(IN const PointF &,IN const Pen,IN const Graphics)
+UID: NF:gdipluspath.GraphicsPath.IsOutlineVisible(INconstPointF&,INconstPen,INconstGraphics)
 title: GraphicsPath::IsOutlineVisible
 description: The GraphicsPath::IsOutlineVisible method determines whether a specified point touches the outline of a path.
 helpviewer_keywords: ["GraphicsPath::IsOutlineVisible"]

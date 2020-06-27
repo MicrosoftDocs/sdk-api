@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMFLOAT4X4.XMFLOAT4X4(const float)
+UID: NF:directxmath.XMFLOAT4X4.XMFLOAT4X4(constfloat)
 title: XMFLOAT4X4::XMFLOAT4X4(const float) (directxmath.h)
 description: Initializes a new instance of the XMFLOAT4X4 structure from a sixteen element float array.
 helpviewer_keywords: ["XMFLOAT4X4","XMFLOAT4X4 constructor [DirectX Math Support APIs]","XMFLOAT4X4 constructor [DirectX Math Support APIs]","XMFLOAT4X4 structure","XMFLOAT4X4 structure [DirectX Math Support APIs]","XMFLOAT4X4 constructor","XMFLOAT4X4.XMFLOAT4X4","XMFLOAT4X4.XMFLOAT4X4(const float)","XMFLOAT4X4.XMFLOAT4X4(const float*)","XMFLOAT4X4::XMFLOAT4X4","XMFLOAT4X4::XMFLOAT4X4(const float)","dxmath.xmfloat4x4_ctor_3"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat)
+UID: NF:gdipluspath.GraphicsPath.AddString(INconstWCHAR,ININT,INconstFontFamily,ININT,INREAL,INconstPoint&,INconstStringFormat)
 title: GraphicsPath::AddString(IN const WCHAR,IN INT,IN const FontFamily,IN INT,IN REAL,IN const Point &,IN const StringFormat) (gdipluspath.h)
 description: The GraphicsPath::AddString method adds the outlines of a string to this path.
 helpviewer_keywords: ["AddString","AddString method [GDI+]","AddString method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddString method","GraphicsPath.AddString","GraphicsPath.AddString(IN const WCHAR","IN INT","IN const FontFamily","IN INT","IN REAL","IN const Point &","IN const StringFormat)","GraphicsPath.AddString(const WCHAR*","INT","const FontFamily*","INT","REAL","const Point&","const StringFormat*)","GraphicsPath::AddString","GraphicsPath::AddString(IN const WCHAR","IN INT","IN const FontFamily","IN INT","IN REAL","IN const Point &","IN const StringFormat)","_gdiplus_CLASS_GraphicsPath_AddString_WCHAR_string_INT_length_FontFamily_family_INT_style_REAL_emSiz","gdiplus._gdiplus_CLASS_GraphicsPath_AddString_WCHAR_string_INT_length_FontFamily_family_INT_style_REAL_emSiz"]

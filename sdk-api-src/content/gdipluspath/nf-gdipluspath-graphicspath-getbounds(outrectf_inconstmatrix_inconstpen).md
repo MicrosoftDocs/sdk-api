@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.GetBounds(OUT RectF,IN const Matrix,IN const Pen)
+UID: NF:gdipluspath.GraphicsPath.GetBounds(OUTRectF,INconstMatrix,INconstPen)
 title: GraphicsPath::GetBounds
 description: The GraphicsPath::GetBounds method gets a bounding rectangle for this path.
 helpviewer_keywords: ["GraphicsPath::GetBounds"]

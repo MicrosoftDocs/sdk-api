@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Font.GetHeight(IN const Graphics)
+UID: NF:gdiplusheaders.Font.GetHeight(INconstGraphics)
 title: Font::GetHeight
 description: The Font::GetHeight method gets the line spacing of this font in the current unit of a specified Graphics object.
 helpviewer_keywords: ["Font::GetHeight"]

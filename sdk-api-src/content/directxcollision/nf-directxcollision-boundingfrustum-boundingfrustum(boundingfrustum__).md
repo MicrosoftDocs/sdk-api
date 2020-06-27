@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(BoundingFrustum &&)
+UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(BoundingFrustum&&)
 title: BoundingFrustum::BoundingFrustum(BoundingFrustum &&)
 description: Creates an instance of BoundingFrustum.
 helpviewer_keywords: ["BoundingFrustum","BoundingFrustum constructor [DirectX Math Support APIs]","BoundingFrustum constructor [DirectX Math Support APIs]","BoundingFrustum interface","BoundingFrustum interface [DirectX Math Support APIs]","BoundingFrustum constructor","BoundingFrustum.BoundingFrustum","BoundingFrustum.BoundingFrustum()","BoundingFrustum.BoundingFrustum(BoundingFrustum &&)","BoundingFrustum::BoundingFrustum","BoundingFrustum::BoundingFrustum(BoundingFrustum &&)","dxmath.boundingfrustum_ctor_3"]

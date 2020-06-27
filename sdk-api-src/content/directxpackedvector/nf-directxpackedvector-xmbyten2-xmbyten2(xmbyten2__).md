@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2(XMBYTEN2 &&)
+UID: NF:directxpackedvector.XMBYTEN2.XMBYTEN2(XMBYTEN2&&)
 title: XMBYTEN2::XMBYTEN2(XMBYTEN2 &&) (directxpackedvector.h)
 description: A constructor for XMBYTEN2.
 helpviewer_keywords: ["XMBYTEN2","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 constructor [DirectX Math Support APIs]","XMBYTEN2 structure","XMBYTEN2 structure [DirectX Math Support APIs]","XMBYTEN2 constructor","XMBYTEN2.XMBYTEN2","XMBYTEN2.XMBYTEN2()","XMBYTEN2.XMBYTEN2(XMBYTEN2 &&)","XMBYTEN2::XMBYTEN2","XMBYTEN2::XMBYTEN2(XMBYTEN2 &&)","dxmath.xmbyten2_ctor_1"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMBYTE2.XMBYTE2(const float)
+UID: NF:directxpackedvector.XMBYTE2.XMBYTE2(constfloat)
 title: XMBYTE2::XMBYTE2(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMBYTE2 from a two-element float array argument.
 helpviewer_keywords: ["XMBYTE2","XMBYTE2 constructor [DirectX Math Support APIs]","XMBYTE2 constructor [DirectX Math Support APIs]","XMBYTE2 structure","XMBYTE2 structure [DirectX Math Support APIs]","XMBYTE2 constructor","XMBYTE2.XMBYTE2","XMBYTE2.XMBYTE2()","XMBYTE2.XMBYTE2(const float)","XMBYTE2::XMBYTE2","XMBYTE2::XMBYTE2(const float)","dxmath.xmbyte2_ctor_1"]

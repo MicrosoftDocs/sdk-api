@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.Xor(IN const RectF &)
+UID: NF:gdiplusheaders.Region.Xor(INconstRectF&)
 title: Region::Xor(IN const RectF &) (gdiplusheaders.h)
 description: The Region::Xor method updates this region to the nonintersecting portions of itself and the specified rectangle's interior.
 helpviewer_keywords: ["Region class [GDI+]","Xor method","Region.Xor","Region.Xor(IN const RectF &)","Region.Xor(const RectF&)","Region::Xor","Region::Xor(IN const RectF &)","Xor","Xor method [GDI+]","Xor method [GDI+]","Region class","_gdiplus_CLASS_Region_Xor_RectF_rect_","gdiplus._gdiplus_CLASS_Region_Xor_RectF_rect_"]

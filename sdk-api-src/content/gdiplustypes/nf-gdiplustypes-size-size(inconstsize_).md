@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplustypes.Size.Size(IN const Size &)
+UID: NF:gdiplustypes.Size.Size(INconstSize&)
 title: Size::Size(IN const Size &) (gdiplustypes.h)
 description: Creates a Size object and initializes its members by copying the members of another Size object.
 helpviewer_keywords: ["Size","Size class [GDI+]","Size constructor","Size constructor [GDI+]","Size constructor [GDI+]","Size class","Size.Size","Size.Size(IN const Size &)","Size.Size(const Size&)","Size::Size","Size::Size(IN const Size &)","_gdiplus_CLASS_Size_Size_size_","gdiplus._gdiplus_CLASS_Size_Size_size_"]

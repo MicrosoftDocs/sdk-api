@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush(IN const GraphicsPath)
+UID: NF:gdipluspath.PathGradientBrush.PathGradientBrush(INconstGraphicsPath)
 title: PathGradientBrush::PathGradientBrush(IN const GraphicsPath) (gdipluspath.h)
 description: Creates a PathGradientBrush::PathGradientBrush object based on a GraphicsPath object.
 helpviewer_keywords: ["PathGradientBrush","PathGradientBrush class [GDI+]","PathGradientBrush constructor","PathGradientBrush constructor [GDI+]","PathGradientBrush constructor [GDI+]","PathGradientBrush class","PathGradientBrush.PathGradientBrush","PathGradientBrush.PathGradientBrush(IN const GraphicsPath)","PathGradientBrush.PathGradientBrush(const GraphicsPath*)","PathGradientBrush::PathGradientBrush","PathGradientBrush::PathGradientBrush(IN const GraphicsPath)","_gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_","gdiplus._gdiplus_CLASS_PathGradientBrush_PathGradientBrush_path_"]

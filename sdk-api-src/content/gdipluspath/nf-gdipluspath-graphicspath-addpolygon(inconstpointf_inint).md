@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddPolygon(IN const PointF,IN INT)
+UID: NF:gdipluspath.GraphicsPath.AddPolygon(INconstPointF,ININT)
 title: GraphicsPath::AddPolygon
 description: The GraphicsPath::AddPolygon method adds a polygon to this path.
 helpviewer_keywords: ["GraphicsPath::AddPolygon"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMFLOAT2.XMFLOAT2(XMFLOAT2 &&)
+UID: NF:directxmath.XMFLOAT2.XMFLOAT2(XMFLOAT2&&)
 title: XMFLOAT2::XMFLOAT2(XMFLOAT2 &&) (directxmath.h)
 description: A constructor for XMFLOAT2.
 helpviewer_keywords: ["XMFLOAT2","XMFLOAT2 constructor [DirectX Math Support APIs]","XMFLOAT2 constructor [DirectX Math Support APIs]","XMFLOAT2 structure","XMFLOAT2 structure [DirectX Math Support APIs]","XMFLOAT2 constructor","XMFLOAT2.XMFLOAT2","XMFLOAT2.XMFLOAT2()","XMFLOAT2.XMFLOAT2(XMFLOAT2 &&)","XMFLOAT2::XMFLOAT2","XMFLOAT2::XMFLOAT2(XMFLOAT2 &&)","dxmath.xmfloat2_ctor_1"]

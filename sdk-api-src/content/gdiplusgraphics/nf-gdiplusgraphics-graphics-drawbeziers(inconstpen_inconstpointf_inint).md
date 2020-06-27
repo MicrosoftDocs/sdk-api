@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawBeziers(IN const Pen,IN const PointF,IN INT)
+UID: NF:gdiplusgraphics.Graphics.DrawBeziers(INconstPen,INconstPointF,ININT)
 title: Graphics::DrawBeziers
 description: The Graphics::DrawBeziers method draws a sequence of connected Bezier splines.
 helpviewer_keywords: ["Graphics::DrawBeziers"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMUSHORT2.XMUSHORT2(const uint16_t)
+UID: NF:directxpackedvector.XMUSHORT2.XMUSHORT2(constuint16_t)
 title: XMUSHORT2::XMUSHORT2(const uint16_t) (directxpackedvector.h)
 description: Initializes a new instance of XMUSHORT2 from an array of uint16_t arguments.
 helpviewer_keywords: ["XMUSHORT2","XMUSHORT2 constructor [DirectX Math Support APIs]","XMUSHORT2 constructor [DirectX Math Support APIs]","XMUSHORT2 structure","XMUSHORT2 structure [DirectX Math Support APIs]","XMUSHORT2 constructor","XMUSHORT2.XMUSHORT2","XMUSHORT2.XMUSHORT2()","XMUSHORT2.XMUSHORT2(const uint16_t)","XMUSHORT2::XMUSHORT2","XMUSHORT2::XMUSHORT2(const uint16_t)","dxmath.xmushort2_ctor_1"]

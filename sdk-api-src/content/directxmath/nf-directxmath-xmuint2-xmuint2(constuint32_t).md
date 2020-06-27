@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMUINT2.XMUINT2(const uint32_t)
+UID: NF:directxmath.XMUINT2.XMUINT2(constuint32_t)
 title: XMUINT2::XMUINT2(const uint32_t) (directxmath.h)
 description: Initializes a new instance of XMUINT2 from a two element uint32_t array argument.
 helpviewer_keywords: ["XMUINT2","XMUINT2 constructor [DirectX Math Support APIs]","XMUINT2 constructor [DirectX Math Support APIs]","XMUINT2 structure","XMUINT2 structure [DirectX Math Support APIs]","XMUINT2 constructor","XMUINT2.XMUINT2","XMUINT2.XMUINT2()","XMUINT2.XMUINT2(const uint32_t)","XMUINT2::XMUINT2","XMUINT2::XMUINT2(const uint32_t)","dxmath.xmuint2_ctor_1"]

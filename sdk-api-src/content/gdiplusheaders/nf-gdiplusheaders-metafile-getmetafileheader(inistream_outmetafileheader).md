@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(IN IStream,OUT MetafileHeader)
+UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(INIStream,OUTMetafileHeader)
 title: Metafile::GetMetafileHeader(IN IStream,OUT MetafileHeader) (gdiplusheaders.h)
 description: The Metafile::GetMetafileHeader method gets the header.
 helpviewer_keywords: ["GetMetafileHeader","GetMetafileHeader method [GDI+]","GetMetafileHeader method [GDI+]","Metafile class","Metafile class [GDI+]","GetMetafileHeader method","Metafile.GetMetafileHeader","Metafile.GetMetafileHeader(IN IStream","OUT MetafileHeader)","Metafile.GetMetafileHeader(IStream*","MetafileHeader*)","Metafile::GetMetafileHeader","Metafile::GetMetafileHeader(IN IStream","OUT MetafileHeader)","_gdiplus_CLASS_Metafile_GetMetafileHeader_stream_header_","gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_stream_header_"]

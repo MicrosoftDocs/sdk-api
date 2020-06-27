@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMHALF4.XMHALF4(const float)
+UID: NF:directxpackedvector.XMHALF4.XMHALF4(constfloat)
 title: XMHALF4::XMHALF4(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMHALF4 from a four element float array argument.
 helpviewer_keywords: ["XMHALF4","XMHALF4 constructor [DirectX Math Support APIs]","XMHALF4 constructor [DirectX Math Support APIs]","XMHALF4 structure","XMHALF4 structure [DirectX Math Support APIs]","XMHALF4 constructor","XMHALF4.XMHALF4","XMHALF4.XMHALF4()","XMHALF4.XMHALF4(const float)","XMHALF4::XMHALF4","XMHALF4::XMHALF4(const float)","dxmath.xmhalf4_ctor_1"]

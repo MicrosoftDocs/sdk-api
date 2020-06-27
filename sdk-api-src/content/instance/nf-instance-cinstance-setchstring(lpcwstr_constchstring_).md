@@ -1,5 +1,5 @@
 ---
-UID: NF:instance.CInstance.SetCHString(LPCWSTR,const CHString &)
+UID: NF:instance.CInstance.SetCHString(LPCWSTR,constCHString&)
 title: CInstance::SetCHString(LPCWSTR,const CHString &) (instance.h)
 description: The SetCHString(LPCWSTR, const CHString&) method sets a string property.
 helpviewer_keywords: ["?SetCHString@CInstance@@QAE_NPBGABVCHString@@@Z","?SetCHString@CInstance@@QEAA_NPEBGAEBVCHString@@@Z","CInstance interface [Windows Management Instrumentation]","SetCHString method","CInstance.SetCHString","CInstance.SetCHString(LPCWSTR","const CHString &)","CInstance::SetCHString","CInstance::SetCHString(LPCWSTR","const CHString &)","CInstance::SetCHString(LPCWSTR","const CHString&)","SetCHString","SetCHString method [Windows Management Instrumentation]","SetCHString method [Windows Management Instrumentation]","CInstance interface","instance/CInstance::SetCHString","wmi.cinstance_setchstring_lpcwstr__const_chstring__"]

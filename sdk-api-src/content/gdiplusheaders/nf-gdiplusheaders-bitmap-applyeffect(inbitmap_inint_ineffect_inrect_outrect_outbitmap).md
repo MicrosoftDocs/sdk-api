@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Bitmap.ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap)
+UID: NF:gdiplusheaders.Bitmap.ApplyEffect(INBitmap,ININT,INEffect,INRECT,OUTRECT,OUTBitmap)
 title: Bitmap::ApplyEffect(IN Bitmap,IN INT,IN Effect,IN RECT,OUT RECT,OUT Bitmap) (gdiplusheaders.h)
 description: The Bitmap::ApplyEffect method creates a new Bitmap object by applying a specified effect to an existing Bitmap object.
 helpviewer_keywords: ["ApplyEffect","ApplyEffect method [GDI+]","ApplyEffect method [GDI+]","Bitmap class","Bitmap class [GDI+]","ApplyEffect method","Bitmap.ApplyEffect","Bitmap.ApplyEffect(Bitmap**","INT","Effect*","RECT*","RECT*","Bitmap**)","Bitmap.ApplyEffect(IN Bitmap","IN INT","IN Effect","IN RECT","OUT RECT","OUT Bitmap)","Bitmap::ApplyEffect","Bitmap::ApplyEffect(IN Bitmap","IN INT","IN Effect","IN RECT","OUT RECT","OUT Bitmap)","_gdiplus_CLASS_Bitmap_ApplyEffect_Bitmap_inputs_","gdiplus._gdiplus_CLASS_Bitmap_ApplyEffect_Bitmap_inputs_"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMVECTORF32.operator __m128d
+UID: NF:directxmath.XMVECTORF32.operator-cast-__m128d
 title: XMVECTORF32::operator __m128d
 description: Returns the object implementing the current instance of XMVECTORF32 cast to a __m128d instance.
 helpviewer_keywords: ["XMVECTORF32::operator __m128d"]

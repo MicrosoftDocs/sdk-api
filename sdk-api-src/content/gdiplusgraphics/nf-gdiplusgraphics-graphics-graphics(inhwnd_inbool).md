@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.Graphics(IN HWND,IN BOOL)
+UID: NF:gdiplusgraphics.Graphics.Graphics(INHWND,INBOOL)
 title: Graphics::Graphics(IN HWND,IN BOOL) (gdiplusgraphics.h)
 description: Creates a Graphics::Graphics object that is associated with a specified window.
 helpviewer_keywords: ["Graphics","Graphics class [GDI+]","Graphics constructor","Graphics constructor [GDI+]","Graphics constructor [GDI+]","Graphics class","Graphics.Graphics","Graphics.Graphics(HWND","BOOL)","Graphics.Graphics(IN HWND","IN BOOL)","Graphics::Graphics","Graphics::Graphics(IN HWND","IN BOOL)","_gdiplus_CLASS_Graphics_Graphics_hwnd_icm_","gdiplus._gdiplus_CLASS_Graphics_Graphics_hwnd_icm_"]

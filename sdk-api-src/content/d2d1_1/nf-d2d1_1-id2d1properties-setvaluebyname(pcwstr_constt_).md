@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1_1.ID2D1Properties.SetValueByName(PCWSTR,const T &)
+UID: NF:d2d1_1.ID2D1Properties.SetValueByName(PCWSTR,constT&)
 title: ID2D1Properties::SetValueByName(PCWSTR,const T &,) (d2d1_1.h)
 description: Sets the named property to the given value. This is a template overload. See Remarks.
 helpviewer_keywords: ["ID2D1Properties interface [Direct2D]","SetValueByName method","ID2D1Properties.SetValueByName","ID2D1Properties.SetValueByName(PCWSTR","const T &",")","ID2D1Properties::SetValueByName","ID2D1Properties::SetValueByName(PCWSTR","const T &",")","ID2D1Properties::SetValueByName(PCWSTR","const T&)","SetValueByName","SetValueByName method [Direct2D]","SetValueByName method [Direct2D]","ID2D1Properties interface","d2d1_1/ID2D1Properties::SetValueByName","direct2d.id2d1properties_setvaluebyname__pcwstr__const_t_"]

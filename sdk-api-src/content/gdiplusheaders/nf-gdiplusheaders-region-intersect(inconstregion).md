@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.Intersect(IN const Region)
+UID: NF:gdiplusheaders.Region.Intersect(INconstRegion)
 title: Region::Intersect(IN const Region) (gdiplusheaders.h)
 description: The Region::Intersect method updates this region to the portion of itself that intersects another region.
 helpviewer_keywords: ["Intersect","Intersect method [GDI+]","Intersect method [GDI+]","Region class","Region class [GDI+]","Intersect method","Region.Intersect","Region.Intersect(IN const Region)","Region.Intersect(const Region*)","Region::Intersect","Region::Intersect(IN const Region)","_gdiplus_CLASS_Region_Intersect_region_","gdiplus._gdiplus_CLASS_Region_Intersect_region_"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.SetClip(IN const Graphics,IN CombineMode)
+UID: NF:gdiplusgraphics.Graphics.SetClip(INconstGraphics,INCombineMode)
 title: Graphics::SetClip
 description: The Graphics::SetClip method updates the clipping region of this Graphics object.
 helpviewer_keywords: ["Graphics::SetClip"]

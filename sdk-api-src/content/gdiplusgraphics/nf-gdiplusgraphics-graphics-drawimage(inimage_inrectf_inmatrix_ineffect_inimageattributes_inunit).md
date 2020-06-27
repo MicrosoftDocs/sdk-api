@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit)
+UID: NF:gdiplusgraphics.Graphics.DrawImage(INImage,INRectF,INMatrix,INEffect,INImageAttributes,INUnit)
 title: Graphics::DrawImage(IN Image,IN RectF,IN Matrix,IN Effect,IN ImageAttributes,IN Unit) (gdiplusgraphics.h)
 description: The method draws a portion of an image after applying a specified effect.
 helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN RectF","IN Matrix","IN Effect","IN ImageAttributes","IN Unit)","Graphics.DrawImage(Image*","RectF*","Matrix*","Effect*","ImageAttributes*","Unit*)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN RectF","IN Matrix","IN Effect","IN ImageAttributes","IN Unit)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_sourceRect_Matrix_xForm_","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_RectF_sourceRect_Matrix_xForm_"]

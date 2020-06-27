@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1Factory.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle)
+UID: NF:d2d1.ID2D1Factory.CreateStrokeStyle(constD2D1_STROKE_STYLE_PROPERTIES&,constFLOAT,UINT32,ID2D1StrokeStyle)
 title: ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &,const FLOAT,UINT32,ID2D1StrokeStyle) (d2d1.h)
 description: Creates an ID2D1StrokeStyle that describes start cap, dash pattern, and other features of a stroke.
 helpviewer_keywords: ["CreateStrokeStyle","CreateStrokeStyle method [Direct2D]","CreateStrokeStyle method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateStrokeStyle method","ID2D1Factory.CreateStrokeStyle","ID2D1Factory.CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &","const FLOAT","UINT32","ID2D1StrokeStyle)","ID2D1Factory::CreateStrokeStyle","ID2D1Factory::CreateStrokeStyle(const D2D1_STROKE_STYLE_PROPERTIES &","const FLOAT","UINT32","ID2D1StrokeStyle)","d2d1/ID2D1Factory::CreateStrokeStyle","direct2d.ID2D1Factory_CreateStrokeStyle_ref_D2D1_STROKE_STYLE_PROPERTIES_ptr_FLOAT_ptr_ptr_ID2D1StrokeStyle"]

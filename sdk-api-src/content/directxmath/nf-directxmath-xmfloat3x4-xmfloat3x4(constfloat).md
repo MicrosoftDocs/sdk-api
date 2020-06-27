@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMFLOAT3X4.XMFLOAT3X4(const float)
+UID: NF:directxmath.XMFLOAT3X4.XMFLOAT3X4(constfloat)
 title: XMFLOAT3X4::XMFLOAT3X4
 ms.date: 04/22/2020
 description: Constructs an **XMFLOAT3X4** from a 12-element array of float values.

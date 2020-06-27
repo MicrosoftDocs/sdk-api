@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMFLOAT4.XMFLOAT4(const XMFLOAT4 &)
+UID: NF:directxmath.XMFLOAT4.XMFLOAT4(constXMFLOAT4&)
 title: XMFLOAT4::XMFLOAT4(const XMFLOAT4 &) (directxmath.h)
 description: A constructor for XMFLOAT4.
 helpviewer_keywords: ["XMFLOAT4","XMFLOAT4 constructor [DirectX Math Support APIs]","XMFLOAT4 constructor [DirectX Math Support APIs]","XMFLOAT4 structure","XMFLOAT4 structure [DirectX Math Support APIs]","XMFLOAT4 constructor","XMFLOAT4.XMFLOAT4","XMFLOAT4.XMFLOAT4()","XMFLOAT4.XMFLOAT4(const XMFLOAT4 &)","XMFLOAT4::XMFLOAT4","XMFLOAT4::XMFLOAT4(const XMFLOAT4 &)","dxmath.xmfloat4_ctor_1"]

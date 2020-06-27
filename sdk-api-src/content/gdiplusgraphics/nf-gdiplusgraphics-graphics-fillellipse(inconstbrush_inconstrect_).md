@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.FillEllipse(IN const Brush,IN const Rect &)
+UID: NF:gdiplusgraphics.Graphics.FillEllipse(INconstBrush,INconstRect&)
 title: Graphics::FillEllipse(IN const Brush,IN const Rect &) (gdiplusgraphics.h)
 description: The Graphics::FillEllipse method uses a brush to fill the interior of an ellipse that is specified by a rectangle.
 helpviewer_keywords: ["FillEllipse","FillEllipse method [GDI+]","FillEllipse method [GDI+]","Graphics class","Graphics class [GDI+]","FillEllipse method","Graphics.FillEllipse","Graphics.FillEllipse(IN const Brush","IN const Rect &)","Graphics.FillEllipse(const Brush*","const Rect&)","Graphics::FillEllipse","Graphics::FillEllipse(IN const Brush","IN const Rect &)","_gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_Rect_rect_","gdiplus._gdiplus_CLASS_Graphics_FillEllipse_Brush_brush_Rect_rect_"]

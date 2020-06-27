@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawPolygon(IN const Pen,IN const PointF,IN INT)
+UID: NF:gdiplusgraphics.Graphics.DrawPolygon(INconstPen,INconstPointF,ININT)
 title: Graphics::DrawPolygon
 description: The Graphics::DrawPolygon method draws a polygon.
 helpviewer_keywords: ["Graphics::DrawPolygon"]

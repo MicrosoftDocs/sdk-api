@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.Exclude(IN const Rect &)
+UID: NF:gdiplusheaders.Region.Exclude(INconstRect&)
 title: Region::Exclude
 description: The Region::Exclude method updates a region that does not intersect the specified rectangle's interior.
 helpviewer_keywords: ["Region::Exclude"]

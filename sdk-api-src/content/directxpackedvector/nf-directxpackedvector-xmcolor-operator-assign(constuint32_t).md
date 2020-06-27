@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMCOLOR.operator-assign(const uint32_t)
+UID: NF:directxpackedvector.XMCOLOR.operator-assign(constuint32_t)
 title: XMCOLOR::operator-assign(const uint32_t) (directxpackedvector.h)
 description: Assigns the vector component data packed in an instance of uint32_t to the current instance of XMCOLOR.
 helpviewer_keywords: ["XMCOLOR structure [DirectX Math Support APIs]","operator = method","XMCOLOR.operator =(const uint32_t)","XMCOLOR.operator-assign(const uint32_t)","XMCOLOR.operator=","XMCOLOR::operator-assign(const uint32_t)","XMCOLOR::operator=","dxmath.xmcolor_operator_eq_2","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMCOLOR structure","operator="]

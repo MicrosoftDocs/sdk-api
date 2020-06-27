@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusmatrix.Matrix.TransformPoints(IN OUT PointF,IN INT)
+UID: NF:gdiplusmatrix.Matrix.TransformPoints(INOUTPointF,ININT)
 title: Matrix::TransformPoints (gdiplusmatrix.h)
 description: This topic lists the TransformPoints methods of the Matrix class. For a complete list of methods for the Matrix class, see Matrix Methods.
 helpviewer_keywords: ["Matrix.TransformPoints","Matrix::TransformPoints","TransformPoints","TransformPoints methods [GDI+]","_gdiplus_CLASS_Matrix_TransformPoints_Methods","gdiplus._gdiplus_CLASS_Matrix_TransformPoints_Methods","gdiplusmatrix/TransformPoints"]

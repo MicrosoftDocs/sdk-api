@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingFrustum.Contains(const BoundingOrientedBox &)
+UID: NF:directxcollision.BoundingFrustum.Contains(constBoundingOrientedBox&)
 title: BoundingFrustum::Contains(const BoundingOrientedBox &)
 description: Tests whether the BoundingFrustum contains the specified BoundingOrientedBox.
 helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","Contains method","BoundingFrustum.Contains","BoundingFrustum.Contains(const BoundingOrientedBox &)","BoundingFrustum.Contains(const BoundingOrientedBox&)","BoundingFrustum::Contains","BoundingFrustum::Contains(const BoundingOrientedBox &)","Contains","Contains method [DirectX Math Support APIs]","Contains method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_contains_4"]

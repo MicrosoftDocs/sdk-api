@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMDEC4.XMDEC4(const XMDEC4 &)
+UID: NF:directxpackedvector.XMDEC4.XMDEC4(constXMDEC4&)
 title: XMDEC4::XMDEC4(const XMDEC4 &) (directxpackedvector.h)
 description: A constructor for XMDEC4.
 helpviewer_keywords: ["XMDEC4","XMDEC4 constructor [DirectX Math Support APIs]","XMDEC4 constructor [DirectX Math Support APIs]","XMDEC4 structure","XMDEC4 structure [DirectX Math Support APIs]","XMDEC4 constructor","XMDEC4.XMDEC4","XMDEC4.XMDEC4()","XMDEC4.XMDEC4(const XMDEC4 &)","XMDEC4::XMDEC4","XMDEC4::XMDEC4(const XMDEC4 &)","dxmath.xmdec4_ctor_1"]

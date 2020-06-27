@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN Unit)
+UID: NF:gdiplusgraphics.Graphics.DrawImage(INImage,ININT,ININT,ININT,ININT,ININT,ININT,INUnit)
 title: Graphics::DrawImage(IN Image,IN INT,IN INT,IN INT,IN INT,IN INT,IN INT,IN Unit) (gdiplusgraphics.h)
 description: The Graphics::DrawImage method draws an image.
 helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT","IN Unit)","Graphics.DrawImage(Image*","INT","INT","INT","INT","INT","INT","Unit)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN INT","IN INT","IN INT","IN INT","IN INT","IN INT","IN Unit)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_INT_srcx_INT_srcy_INT_srcwidth_INT_srcheig","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_INT_x_INT_y_INT_srcx_INT_srcy_INT_srcwidth_INT_srcheig"]

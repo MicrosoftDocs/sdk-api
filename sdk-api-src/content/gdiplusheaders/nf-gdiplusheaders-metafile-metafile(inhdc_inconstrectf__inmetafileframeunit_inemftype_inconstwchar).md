@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Metafile.Metafile(IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR)
+UID: NF:gdiplusheaders.Metafile.Metafile(INHDC,INconstRectF&,INMetafileFrameUnit,INEmfType,INconstWCHAR)
 title: Metafile::Metafile(IN HDC,IN const RectF &,IN MetafileFrameUnit,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
 description: Creates a Metafile::Metafile object for recording.
 helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile constructor","Metafile constructor [GDI+]","Metafile constructor [GDI+]","Metafile class","Metafile.Metafile","Metafile.Metafile(HDC","const RectF&","MetaFileFrameUnit","EmfType","const WCHAR*)","Metafile.Metafile(IN HDC","IN const RectF &","IN MetafileFrameUnit","IN EmfType","IN const WCHAR)","Metafile::Metafile","Metafile::Metafile(IN HDC","IN const RectF &","IN MetafileFrameUnit","IN EmfType","IN const WCHAR)","_gdiplus_CLASS_Metafile_Metafile_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_frameUnit_EmfTyp","gdiplus._gdiplus_CLASS_Metafile_Metafile_HDC_referenceHdc_RectF_frameRect_MetafileFrameUnit_frameUnit_EmfTyp"]

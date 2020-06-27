@@ -1,5 +1,5 @@
 ---
-UID: NF:d3d11.CD3D11_BOX.operator const D3D11_BOX&
+UID: NF:d3d11.CD3D11_BOX.operator-cast-const-D3D11_BOX&
 title: CD3D11_BOX::operator const D3D11_BOX& (d3d11.h)
 description: This operator returns the address of a D3D11_BOX structure that contains the data from the CD3D11_BOX instance.
 helpviewer_keywords: ["CD3D11_BOX interface [Direct3D 11]","operator const D3D11_BOX& method","CD3D11_BOX.operator const D3D11_BOX&","CD3D11_BOX::operator const D3D11_BOX&","CD3D11_BOX::operator const D3D11_BOX&()","d3d11/CD3D11_BOX::operator const D3D11_BOX&","direct3d11.cd3d11_box_d3d11_box__","operator const D3D11_BOX&","operator const D3D11_BOX& method [Direct3D 11]","operator const D3D11_BOX& method [Direct3D 11]","CD3D11_BOX interface"]

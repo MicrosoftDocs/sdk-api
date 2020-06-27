@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusbrush.TextureBrush.TextureBrush(IN Image,IN WrapMode,IN INT,IN INT,IN INT,IN INT)
+UID: NF:gdiplusbrush.TextureBrush.TextureBrush(INImage,INWrapMode,ININT,ININT,ININT,ININT)
 title: TextureBrush::TextureBrush(IN Image,IN WrapMode,IN INT,IN INT,IN INT,IN INT) (gdiplusbrush.h)
 description: Creates a TextureBrush object based on an image, a wrap mode, and a defining set of coordinates.
 helpviewer_keywords: ["TextureBrush","TextureBrush class [GDI+]","TextureBrush constructor","TextureBrush constructor [GDI+]","TextureBrush constructor [GDI+]","TextureBrush class","TextureBrush.TextureBrush","TextureBrush.TextureBrush(IN Image","IN WrapMode","IN INT","IN INT","IN INT","IN INT)","TextureBrush.TextureBrush(Image*","WrapMode","INT","INT","INT","INT)","TextureBrush::TextureBrush","TextureBrush::TextureBrush(IN Image","IN WrapMode","IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_INT_dstX_INT_dstY_INT_dstWidt","gdiplus._gdiplus_CLASS_TextureBrush_TextureBrush_Image_image_WrapMode_wrapMode_INT_dstX_INT_dstY_INT_dstWidt"]

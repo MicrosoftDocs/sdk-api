@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddPie(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
+UID: NF:gdipluspath.GraphicsPath.AddPie(ININT,ININT,ININT,ININT,INREAL,INREAL)
 title: GraphicsPath::AddPie(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL) (gdipluspath.h)
 description: The GraphicsPath::AddPie method adds a pie to this path.
 helpviewer_keywords: ["AddPie","AddPie method [GDI+]","AddPie method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddPie method","GraphicsPath.AddPie","GraphicsPath.AddPie(IN INT","IN INT","IN INT","IN INT","IN REAL","IN REAL)","GraphicsPath.AddPie(INT","INT","INT","INT","REAL","REAL)","GraphicsPath::AddPie","GraphicsPath::AddPie(IN INT","IN INT","IN INT","IN INT","IN REAL","IN REAL)","_gdiplus_CLASS_GraphicsPath_AddPie_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepAngle_","gdiplus._gdiplus_CLASS_GraphicsPath_AddPie_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepAngle_"]

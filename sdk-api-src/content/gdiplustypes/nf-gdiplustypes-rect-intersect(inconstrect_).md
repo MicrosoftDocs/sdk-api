@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplustypes.Rect.Intersect(IN const Rect &)
+UID: NF:gdiplustypes.Rect.Intersect(INconstRect&)
 title: Rect::Intersect (gdiplustypes.h)
 description: This topic lists the Intersect methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 helpviewer_keywords: ["Intersect","Intersect methods [GDI+]","Rect.Intersect","Rect::Intersect","_gdiplus_CLASS_Rect_Intersect_Methods","gdiplus._gdiplus_CLASS_Rect_Intersect_Methods","gdiplustypes/Intersect"]

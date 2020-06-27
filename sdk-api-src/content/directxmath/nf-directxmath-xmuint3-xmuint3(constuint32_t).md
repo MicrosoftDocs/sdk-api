@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMUINT3.XMUINT3(const uint32_t)
+UID: NF:directxmath.XMUINT3.XMUINT3(constuint32_t)
 title: XMUINT3::XMUINT3(const uint32_t) (directxmath.h)
 description: Initializes a new instance of XMUINT3 from a three element uint32_t array argument.
 helpviewer_keywords: ["XMUINT3","XMUINT3 constructor [DirectX Math Support APIs]","XMUINT3 constructor [DirectX Math Support APIs]","XMUINT3 structure","XMUINT3 structure [DirectX Math Support APIs]","XMUINT3 constructor","XMUINT3.XMUINT3","XMUINT3.XMUINT3()","XMUINT3.XMUINT3(const uint32_t)","XMUINT3::XMUINT3","XMUINT3::XMUINT3(const uint32_t)","dxmath.xmuint3_ctor_1"]

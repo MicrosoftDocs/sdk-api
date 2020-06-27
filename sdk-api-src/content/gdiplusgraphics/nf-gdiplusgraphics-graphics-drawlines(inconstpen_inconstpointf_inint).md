@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawLines(IN const Pen,IN const PointF,IN INT)
+UID: NF:gdiplusgraphics.Graphics.DrawLines(INconstPen,INconstPointF,ININT)
 title: Graphics::DrawLines
 description: The Graphics::DrawLines method draws a sequence of connected lines.
 helpviewer_keywords: ["Graphics::DrawLines"]

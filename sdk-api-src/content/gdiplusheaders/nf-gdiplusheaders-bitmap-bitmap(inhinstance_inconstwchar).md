@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Bitmap.Bitmap(IN HINSTANCE,IN const WCHAR)
+UID: NF:gdiplusheaders.Bitmap.Bitmap(INHINSTANCE,INconstWCHAR)
 title: Bitmap::Bitmap(IN HINSTANCE,IN const WCHAR) (gdiplusheaders.h)
 description: Creates a Bitmap::Bitmap object based on an application or DLL instance handle and the name of a bitmap resource.
 helpviewer_keywords: ["Bitmap","Bitmap class [GDI+]","Bitmap constructor","Bitmap constructor [GDI+]","Bitmap constructor [GDI+]","Bitmap class","Bitmap.Bitmap","Bitmap.Bitmap(HINSTANCE","const WCHAR*)","Bitmap.Bitmap(IN HINSTANCE","IN const WCHAR)","Bitmap::Bitmap","Bitmap::Bitmap(IN HINSTANCE","IN const WCHAR)","_gdiplus_CLASS_Bitmap_Bitmap_hInstance_bitmapName_","gdiplus._gdiplus_CLASS_Bitmap_Bitmap_hInstance_bitmapName_"]

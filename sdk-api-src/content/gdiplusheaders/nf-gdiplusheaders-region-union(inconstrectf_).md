@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.Union(IN const RectF &)
+UID: NF:gdiplusheaders.Region.Union(INconstRectF&)
 title: Region::Union(IN const RectF &) (gdiplusheaders.h)
 description: The Region::Union method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of the specified rectangle's interior.
 helpviewer_keywords: ["Region class [GDI+]","Union method","Region.Union","Region.Union(IN const RectF &)","Region.Union(const RectF&)","Region::Union","Region::Union(IN const RectF &)","Union","Union method [GDI+]","Union method [GDI+]","Region class","_gdiplus_CLASS_Region_Union_RectF_rect_","gdiplus._gdiplus_CLASS_Region_Union_RectF_rect_"]

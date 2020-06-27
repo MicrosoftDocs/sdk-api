@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMFLOAT3X3.XMFLOAT3X3(const float)
+UID: NF:directxmath.XMFLOAT3X3.XMFLOAT3X3(constfloat)
 title: XMFLOAT3X3::XMFLOAT3X3(const float) (directxmath.h)
 description: Initializes a new instance of the XMFLOAT3X3 structure from a nine element float array.
 helpviewer_keywords: ["XMFLOAT3X3","XMFLOAT3X3 constructor [DirectX Math Support APIs]","XMFLOAT3X3 constructor [DirectX Math Support APIs]","XMFLOAT3X3 structure","XMFLOAT3X3 structure [DirectX Math Support APIs]","XMFLOAT3X3 constructor","XMFLOAT3X3.XMFLOAT3X3","XMFLOAT3X3.XMFLOAT3X3(const float)","XMFLOAT3X3.XMFLOAT3X3(const float*)","XMFLOAT3X3::XMFLOAT3X3","XMFLOAT3X3::XMFLOAT3X3(const float)","dxmath.xmfloat3x3_ctor_3"]

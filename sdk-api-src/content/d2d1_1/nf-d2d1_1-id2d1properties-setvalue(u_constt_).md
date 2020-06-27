@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1_1.ID2D1Properties.SetValue(U,const T &)
+UID: NF:d2d1_1.ID2D1Properties.SetValue(U,constT&)
 title: ID2D1Properties::SetValue(U,const T &,) (d2d1_1.h)
 description: Sets the corresponding property by index. This is a template overload.
 helpviewer_keywords: ["ID2D1Properties interface [Direct2D]","SetValue method","ID2D1Properties.SetValue","ID2D1Properties.SetValue(U","const T &",")","ID2D1Properties::SetValue","ID2D1Properties::SetValue(U","const T &",")","ID2D1Properties::SetValue(U","const T&)","SetValue","SetValue method [Direct2D]","SetValue method [Direct2D]","ID2D1Properties interface","d2d1_1/ID2D1Properties::SetValue","direct2d.id2d1properties_setvalue2"]

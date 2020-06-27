@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddPie(IN const RectF &,IN REAL,IN REAL)
+UID: NF:gdipluspath.GraphicsPath.AddPie(INconstRectF&,INREAL,INREAL)
 title: GraphicsPath::AddPie
 description: The GraphicsPath::AddPie method adds a pie to this path.
 helpviewer_keywords: ["GraphicsPath::AddPie"]

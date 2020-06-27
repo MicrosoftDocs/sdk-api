@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddBezier(IN const PointF &,IN const PointF &,IN const PointF &,IN const PointF &)
+UID: NF:gdipluspath.GraphicsPath.AddBezier(INconstPointF&,INconstPointF&,INconstPointF&,INconstPointF&)
 title: GraphicsPath::AddBezier
 description: The GraphicsPath::AddBezier method adds a Bezier spline to the current figure of this path.
 helpviewer_keywords: ["GraphicsPath::AddBezier"]

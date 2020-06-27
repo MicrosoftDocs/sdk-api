@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspen.Pen.Pen(const Pen &)
+UID: NF:gdipluspen.Pen.Pen(constPen&)
 title: Pen::Pen(const Pen &) (gdipluspen.h)
 description: This topic lists the constructors of the Pen class. For a complete class listing, see Pen Class.
 helpviewer_keywords: ["Pen","Pen constructors [GDI+]","Pen.Pen","Pen.Pen(const Pen &)","Pen::Pen","Pen::Pen(const Pen &)","_gdiplus_CLASS_Pen_Constructors","gdiplus._gdiplus_CLASS_Pen_Constructors","gdipluspen/Pen"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplustypes.PointF.PointF(IN const PointF &)
+UID: NF:gdiplustypes.PointF.PointF(INconstPointF&)
 title: PointF::PointF(IN const PointF &) (gdiplustypes.h)
 description: Creates a new PointF object and copies the data from another PointF object.
 helpviewer_keywords: ["PointF","PointF class [GDI+]","PointF constructor","PointF constructor [GDI+]","PointF constructor [GDI+]","PointF class","PointF.PointF","PointF.PointF(IN const PointF &)","PointF.PointF(const PointF&)","PointF::PointF","PointF::PointF(IN const PointF &)","_gdiplus_CLASS_PointF_PointF_point_","gdiplus._gdiplus_CLASS_PointF_PointF_point_"]

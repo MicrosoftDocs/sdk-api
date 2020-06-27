@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.InstalledFontCollection.InstalledFontCollection(const InstalledFontCollection &)
+UID: NF:gdiplusheaders.InstalledFontCollection.InstalledFontCollection(constInstalledFontCollection&)
 title: InstalledFontCollection::InstalledFontCollection(const InstalledFontCollection &) (gdiplusheaders.h)
 description: Creates an InstalledFontCollection::InstalledFontCollection object.
 helpviewer_keywords: ["InstalledFontCollection","InstalledFontCollection class [GDI+]","InstalledFontCollection constructor","InstalledFontCollection constructor [GDI+]","InstalledFontCollection constructor [GDI+]","InstalledFontCollection class","InstalledFontCollection.InstalledFontCollection","InstalledFontCollection.InstalledFontCollection(const InstalledFontCollection &)","InstalledFontCollection::InstalledFontCollection","InstalledFontCollection::InstalledFontCollection(const InstalledFontCollection &)","_gdiplus_CLASS_InstalledFontCollection_InstalledFontCollection_","gdiplus._gdiplus_CLASS_InstalledFontCollection_InstalledFontCollection_"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPathIterator.GraphicsPathIterator(IN const GraphicsPath)
+UID: NF:gdipluspath.GraphicsPathIterator.GraphicsPathIterator(INconstGraphicsPath)
 title: GraphicsPathIterator::GraphicsPathIterator(IN const GraphicsPath) (gdipluspath.h)
 description: Creates a new GraphicsPathIterator::GraphicsPathIterator object and associates it with a GraphicsPath object.
 helpviewer_keywords: ["GraphicsPathIterator","GraphicsPathIterator class [GDI+]","GraphicsPathIterator constructor","GraphicsPathIterator constructor [GDI+]","GraphicsPathIterator constructor [GDI+]","GraphicsPathIterator class","GraphicsPathIterator.GraphicsPathIterator","GraphicsPathIterator.GraphicsPathIterator(IN const GraphicsPath)","GraphicsPathIterator::GraphicsPathIterator","GraphicsPathIterator::GraphicsPathIterator(IN const GraphicsPath)","_gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_GraphicsPathIterator_path_"]

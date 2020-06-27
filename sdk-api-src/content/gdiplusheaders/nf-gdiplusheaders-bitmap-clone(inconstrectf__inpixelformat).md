@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Bitmap.Clone(IN const RectF &,IN PixelFormat)
+UID: NF:gdiplusheaders.Bitmap.Clone(INconstRectF&,INPixelFormat)
 title: Bitmap::Clone(IN const RectF &,IN PixelFormat) (gdiplusheaders.h)
 description: The Bitmap::Clone method creates a new Bitmap object by copying a portion of this bitmap.
 helpviewer_keywords: ["Bitmap class [GDI+]","Clone method","Bitmap.Clone","Bitmap.Clone(IN const RectF &","IN PixelFormat)","Bitmap.Clone(const RectF&","PixelFormat)","Bitmap::Clone","Bitmap::Clone(IN const RectF &","IN PixelFormat)","Clone","Clone method [GDI+]","Clone method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_Clone_RectF_rect_PixelFormat_format_","gdiplus._gdiplus_CLASS_Bitmap_Clone_RectF_rect_PixelFormat_format_"]

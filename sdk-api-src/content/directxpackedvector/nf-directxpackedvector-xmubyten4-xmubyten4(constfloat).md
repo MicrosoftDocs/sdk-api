@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMUBYTEN4.XMUBYTEN4(const float)
+UID: NF:directxpackedvector.XMUBYTEN4.XMUBYTEN4(constfloat)
 title: XMUBYTEN4::XMUBYTEN4(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMUBYTEN4 from a four element float array argument.
 helpviewer_keywords: ["XMUBYTEN4","XMUBYTEN4 constructor [DirectX Math Support APIs]","XMUBYTEN4 constructor [DirectX Math Support APIs]","XMUBYTEN4 structure","XMUBYTEN4 structure [DirectX Math Support APIs]","XMUBYTEN4 constructor","XMUBYTEN4.XMUBYTEN4","XMUBYTEN4.XMUBYTEN4()","XMUBYTEN4.XMUBYTEN4(const float)","XMUBYTEN4::XMUBYTEN4","XMUBYTEN4::XMUBYTEN4(const float)","dxmath.xmubyten4_ctor_1"]

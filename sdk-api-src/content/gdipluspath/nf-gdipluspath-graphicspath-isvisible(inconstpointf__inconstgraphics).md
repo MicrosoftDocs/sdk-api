@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.IsVisible(IN const PointF &,IN const Graphics)
+UID: NF:gdipluspath.GraphicsPath.IsVisible(INconstPointF&,INconstGraphics)
 title: GraphicsPath::IsVisible
 description: The GraphicsPath::IsVisible method determines whether a specified point lies in an area.
 helpviewer_keywords: ["GraphicsPath::IsVisible"]
