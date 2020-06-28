@@ -70,6 +70,12 @@ Releases a slim reader/writer (SRW) lock that was acquired in exclusive mode.
 A pointer to the SRW lock.
 
 
+## -remarks
+
+SRW lock cannot be released by a different thread from the one that has acquired it.
+Correct thread usage may not be enforced by the API, it is undefined what happens on violations.
+
+
 ## -see-also
 
 
