@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.CustomLineCap.CustomLineCap(IN const GraphicsPath,IN const GraphicsPath,IN LineCap,IN REAL)
+UID: NF:gdiplusheaders.CustomLineCap.CustomLineCap(INconstGraphicsPath,INconstGraphicsPath,INLineCap,INREAL)
 title: CustomLineCap::CustomLineCap(IN const GraphicsPath,IN const GraphicsPath,IN LineCap,IN REAL) (gdiplusheaders.h)
 description: Creates a CustomLineCap::CustomLineCap object.
 helpviewer_keywords: ["CustomLineCap","CustomLineCap class [GDI+]","CustomLineCap constructor","CustomLineCap constructor [GDI+]","CustomLineCap constructor [GDI+]","CustomLineCap class","CustomLineCap.CustomLineCap","CustomLineCap.CustomLineCap(IN const GraphicsPath","IN const GraphicsPath","IN LineCap","IN REAL)","CustomLineCap::CustomLineCap","CustomLineCap::CustomLineCap(IN const GraphicsPath","IN const GraphicsPath","IN LineCap","IN REAL)","_gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_","gdiplus._gdiplus_CLASS_CustomLineCap_CustomLineCap_fillPath_strokePath_baseCap_baseInset_"]

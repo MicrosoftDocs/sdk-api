@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Bitmap.Bitmap(IN const BITMAPINFO,IN VOID)
+UID: NF:gdiplusheaders.Bitmap.Bitmap(INconstBITMAPINFO,INVOID)
 title: Bitmap::Bitmap(IN const BITMAPINFO,IN VOID) (gdiplusheaders.h)
 description: Creates a Bitmap::Bitmap object based on a BITMAPINFO structure and an array of pixel data.
 helpviewer_keywords: ["Bitmap","Bitmap class [GDI+]","Bitmap constructor","Bitmap constructor [GDI+]","Bitmap constructor [GDI+]","Bitmap class","Bitmap.Bitmap","Bitmap.Bitmap(IN const BITMAPINFO","IN VOID)","Bitmap.Bitmap(const BITMAPINFO*","VOID*)","Bitmap::Bitmap","Bitmap::Bitmap(IN const BITMAPINFO","IN VOID)","_gdiplus_CLASS_Bitmap_Bitmap_gdiBitmapInfo_gdiBitmapData_","gdiplus._gdiplus_CLASS_Bitmap_Bitmap_gdiBitmapInfo_gdiBitmapData_"]

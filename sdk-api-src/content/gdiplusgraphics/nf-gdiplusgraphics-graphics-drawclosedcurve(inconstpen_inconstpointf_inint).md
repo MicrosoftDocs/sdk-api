@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawClosedCurve(IN const Pen,IN const PointF,IN INT)
+UID: NF:gdiplusgraphics.Graphics.DrawClosedCurve(INconstPen,INconstPointF,ININT)
 title: Graphics::DrawClosedCurve
 description: The Graphics::DrawClosedCurve method draws a closed cardinal spline.
 helpviewer_keywords: ["Graphics::DrawClosedCurve"]

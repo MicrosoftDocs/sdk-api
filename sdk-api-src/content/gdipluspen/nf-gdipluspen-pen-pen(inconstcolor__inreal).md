@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspen.Pen.Pen(IN const Color &,IN REAL)
+UID: NF:gdipluspen.Pen.Pen(INconstColor&,INREAL)
 title: Pen::Pen(IN const Color &,IN REAL) (gdipluspen.h)
 description: Creates a Pen object that uses a specified color and width.
 helpviewer_keywords: ["Pen","Pen class [GDI+]","Pen constructor","Pen constructor [GDI+]","Pen constructor [GDI+]","Pen class","Pen.Pen","Pen.Pen(IN const Color &","IN REAL)","Pen.Pen(const Color&","REAL)","Pen::Pen","Pen::Pen(IN const Color &","IN REAL)","_gdiplus_CLASS_Pen_Pen_color_width_","gdiplus._gdiplus_CLASS_Pen_Pen_color_width_"]

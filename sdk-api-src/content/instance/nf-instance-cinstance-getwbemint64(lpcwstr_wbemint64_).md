@@ -1,5 +1,5 @@
 ---
-UID: NF:instance.CInstance.GetWBEMINT64(LPCWSTR,WBEMINT64 &)
+UID: NF:instance.CInstance.GetWBEMINT64(LPCWSTR,WBEMINT64&)
 title: CInstance::GetWBEMINT64 (instance.h)
 description: The GetWBEMINT64 method retrieves a 64-bit integer property.
 helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","GetWBEMINT64 method","CInstance.GetWBEMINT64","CInstance::GetWBEMINT64","CInstance::GetWBEMINT64(LPCWSTR","LONGLONG&)","GetWBEMINT64","GetWBEMINT64 method [Windows Management Instrumentation]","GetWBEMINT64 method [Windows Management Instrumentation]","CInstance interface","instance/CInstance::GetWBEMINT64","wmi.cinstance_getwbemint64_lpcwstr__longlong__"]

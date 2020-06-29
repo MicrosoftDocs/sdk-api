@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.Xor(IN const Rect &)
+UID: NF:gdiplusheaders.Region.Xor(INconstRect&)
 title: Region::Xor
 description: The **Region::Xor** method updates a region to the nonintersecting portions with a rectangle's interior.
 helpviewer_keywords: ["Region::Xor"]

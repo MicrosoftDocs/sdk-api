@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingSphere.Intersects(const BoundingFrustum &)
+UID: NF:directxcollision.BoundingSphere.Intersects(constBoundingFrustum&)
 title: BoundingSphere::Intersects(const BoundingFrustum &)
 description: Test the BoundingSphere for intersection with a BoundingFrustum.
 helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","Intersects method","BoundingSphere.Intersects","BoundingSphere.Intersects(const BoundingFrustum &)","BoundingSphere.Intersects(const BoundingFrustum&)","BoundingSphere::Intersects","BoundingSphere::Intersects(const BoundingFrustum &)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_intersects_1"]

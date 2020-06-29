@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Font.Font(IN HDC,IN const LOGFONTA)
+UID: NF:gdiplusheaders.Font.Font(INHDC,INconstLOGFONTA)
 title: Font::Font(IN HDC,IN const LOGFONTA) (gdiplusheaders.h)
 description: Creates a Font::Font object directly from a Windows Graphics Device Interface (GDI) logical font.
 helpviewer_keywords: ["Font","Font class [GDI+]","Font constructor","Font constructor [GDI+]","Font constructor [GDI+]","Font class","Font.Font","Font.Font(HDC","const LOGFONTA*)","Font.Font(IN HDC","IN const LOGFONTA)","Font::Font","Font::Font(IN HDC","IN const LOGFONTA)","_gdiplus_CLASS_Font_Font_HDC_hdc_LOGFONTA_logfont_","gdiplus._gdiplus_CLASS_Font_Font_HDC_hdc_LOGFONTA_logfont_"]

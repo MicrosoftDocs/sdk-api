@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplustypes.Rect.Offset(IN const Point &)
+UID: NF:gdiplustypes.Rect.Offset(INconstPoint&)
 title: Rect::Offset (gdiplustypes.h)
 description: This topic lists the Offset methods of the Rect class. For a complete list of methods for the Rect class, see Rect Methods.
 helpviewer_keywords: ["Offset","Offset methods [GDI+]","Rect.Offset","Rect::Offset","_gdiplus_CLASS_Rect_Offset_Methods","gdiplus._gdiplus_CLASS_Rect_Offset_Methods","gdiplustypes/Offset"]

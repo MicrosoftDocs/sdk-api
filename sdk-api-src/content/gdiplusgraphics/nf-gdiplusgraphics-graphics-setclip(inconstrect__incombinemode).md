@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.SetClip(IN const Rect &,IN CombineMode)
+UID: NF:gdiplusgraphics.Graphics.SetClip(INconstRect&,INCombineMode)
 title: Graphics::SetClip(IN const Rect &,IN CombineMode) (gdiplusgraphics.h)
 description: The Graphics::SetClip method updates the clipping region of this Graphics object to a region that is the combination of itself and a rectangle.
 helpviewer_keywords: ["Graphics class [GDI+]","SetClip method","Graphics.SetClip","Graphics.SetClip(IN const Rect &","IN CombineMode)","Graphics.SetClip(const Rect&","CombineMode)","Graphics::SetClip","Graphics::SetClip(IN const Rect &","IN CombineMode)","SetClip","SetClip method [GDI+]","SetClip method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetClip_Rect_rect_CombineMode_combineMode_","gdiplus._gdiplus_CLASS_Graphics_SetClip_Rect_rect_CombineMode_combineMode_"]

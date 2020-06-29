@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.GetBounds(OUT Rect,IN const Graphics)
+UID: NF:gdiplusheaders.Region.GetBounds(OUTRect,INconstGraphics)
 title: Region::GetBounds
 description: The Region::GetBounds method gets a rectangle that encloses this region.
 helpviewer_keywords: ["Region::GetBounds"]

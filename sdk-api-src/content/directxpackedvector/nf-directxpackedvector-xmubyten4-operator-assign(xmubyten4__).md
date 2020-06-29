@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMUBYTEN4.operator-assign(XMUBYTEN4 &&)
+UID: NF:directxpackedvector.XMUBYTEN4.operator-assign(XMUBYTEN4&&)
 title: XMUBYTEN4::operator=
 description: Assigns the vector component data from one instance of XMUBYTEN4 to the current instance of XMUBYTEN4.
 helpviewer_keywords: ["XMUBYTEN4::operator="]

@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.Exclude(IN const GraphicsPath)
+UID: NF:gdiplusheaders.Region.Exclude(INconstGraphicsPath)
 title: Region::Exclude(IN const GraphicsPath) (gdiplusheaders.h)
 description: The Region::Exclude method updates this region to the portion of itself that does not intersect the specified path's interior.
 helpviewer_keywords: ["Exclude","Exclude method [GDI+]","Exclude method [GDI+]","Region class","Region class [GDI+]","Exclude method","Region.Exclude","Region.Exclude(IN const GraphicsPath)","Region.Exclude(const GraphicsPath*)","Region::Exclude","Region::Exclude(IN const GraphicsPath)","_gdiplus_CLASS_Region_Exclude_path_","gdiplus._gdiplus_CLASS_Region_Exclude_path_"]

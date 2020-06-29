@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.FillPie(IN const Brush,IN const RectF &,IN REAL,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.FillPie(INconstBrush,INconstRectF&,INREAL,INREAL)
 title: Graphics::FillPie
 description: The Graphics::FillPie method uses a brush to fill the interior of a pie.
 helpviewer_keywords: ["Graphics::FillPie"]

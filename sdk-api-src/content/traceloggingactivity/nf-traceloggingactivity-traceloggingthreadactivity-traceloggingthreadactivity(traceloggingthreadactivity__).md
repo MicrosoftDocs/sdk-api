@@ -1,5 +1,5 @@
 ---
-UID: NF:traceloggingactivity.TraceLoggingThreadActivity.TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)
+UID: NF:traceloggingactivity.TraceLoggingThreadActivity.TraceLoggingThreadActivity(TraceLoggingThreadActivity&&)
 title: TraceLoggingThreadActivity::TraceLoggingThreadActivity(TraceLoggingThreadActivity &&) (traceloggingactivity.h)
 description: Initializes a new instance of the TraceLoggingThreadActivity class.
 helpviewer_keywords: ["TraceLoggingThreadActivity","TraceLoggingThreadActivity interface","TraceLoggingThreadActivity method","TraceLoggingThreadActivity method","TraceLoggingThreadActivity method","TraceLoggingThreadActivity interface","TraceLoggingThreadActivity.TraceLoggingThreadActivity","TraceLoggingThreadActivity.TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)","TraceLoggingThreadActivity::TraceLoggingThreadActivity","TraceLoggingThreadActivity::TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)","tracelogging.traceloggingthreadactivity_traceloggingthreadactivity","traceloggingactivity/TraceLoggingThreadActivity::TraceLoggingThreadActivity"]

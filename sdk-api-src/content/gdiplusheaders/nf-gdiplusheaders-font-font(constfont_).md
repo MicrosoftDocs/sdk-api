@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Font.Font(const Font &)
+UID: NF:gdiplusheaders.Font.Font(constFont&)
 title: Font::Font(const Font &) (gdiplusheaders.h)
 description: This topic lists the constructors of the Font class. For a complete class listing, see Font Class.
 helpviewer_keywords: ["Font","Font constructors [GDI+]","Font.Font","Font.Font(const Font &)","Font::Font","Font::Font(const Font &)","_gdiplus_CLASS_Font_Constructors","gdiplus._gdiplus_CLASS_Font_Constructors","gdiplusheaders/Font"]

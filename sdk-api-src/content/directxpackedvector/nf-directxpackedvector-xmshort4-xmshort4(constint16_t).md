@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMSHORT4.XMSHORT4(const int16_t)
+UID: NF:directxpackedvector.XMSHORT4.XMSHORT4(constint16_t)
 title: XMSHORT4::XMSHORT4(const int16_t) (directxpackedvector.h)
 description: Initializes a new instance of XMSHORT4 from a four element int16_t array argument.
 helpviewer_keywords: ["XMSHORT4","XMSHORT4 constructor [DirectX Math Support APIs]","XMSHORT4 constructor [DirectX Math Support APIs]","XMSHORT4 structure","XMSHORT4 structure [DirectX Math Support APIs]","XMSHORT4 constructor","XMSHORT4.XMSHORT4","XMSHORT4.XMSHORT4()","XMSHORT4.XMSHORT4(const int16_t)","XMSHORT4::XMSHORT4","XMSHORT4::XMSHORT4(const int16_t)","dxmath.xmshort4_ctor_1"]

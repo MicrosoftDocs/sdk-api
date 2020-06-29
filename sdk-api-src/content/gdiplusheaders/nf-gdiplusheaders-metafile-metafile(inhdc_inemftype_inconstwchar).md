@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Metafile.Metafile(IN HDC,IN EmfType,IN const WCHAR)
+UID: NF:gdiplusheaders.Metafile.Metafile(INHDC,INEmfType,INconstWCHAR)
 title: Metafile::Metafile(IN HDC,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
 description: Creates a Metafile::Metafile object for recording.
 helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile constructor","Metafile constructor [GDI+]","Metafile constructor [GDI+]","Metafile class","Metafile.Metafile","Metafile.Metafile(HDC","EmfType","const WCHAR*)","Metafile.Metafile(IN HDC","IN EmfType","IN const WCHAR)","Metafile::Metafile","Metafile::Metafile(IN HDC","IN EmfType","IN const WCHAR)","_gdiplus_CLASS_Metafile_Metafile_referenceHdc_type_description_","gdiplus._gdiplus_CLASS_Metafile_Metafile_referenceHdc_type_description_"]

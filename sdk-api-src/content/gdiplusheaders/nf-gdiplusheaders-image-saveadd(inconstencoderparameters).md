@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Image.SaveAdd(IN const EncoderParameters)
+UID: NF:gdiplusheaders.Image.SaveAdd(INconstEncoderParameters)
 title: Image::SaveAdd
 description: The Image::SaveAdd method adds a frame to a file or stream specified in a previous call to the Save method.
 helpviewer_keywords: ["Image::SaveAdd"]

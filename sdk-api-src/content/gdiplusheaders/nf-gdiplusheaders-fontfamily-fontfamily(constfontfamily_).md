@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.FontFamily.FontFamily(const FontFamily &)
+UID: NF:gdiplusheaders.FontFamily.FontFamily(constFontFamily&)
 title: FontFamily::FontFamily(const FontFamily &) (gdiplusheaders.h)
 description: This topic lists the constructors of the FontFamily class. For a complete class listing, see FontFamilyClass.
 helpviewer_keywords: ["FontFamily","FontFamily constructors [GDI+]","FontFamily.FontFamily","FontFamily.FontFamily(const FontFamily &)","FontFamily::FontFamily","FontFamily::FontFamily(const FontFamily &)","_gdiplus_CLASS_FontFamily_Constructors","gdiplus._gdiplus_CLASS_FontFamily_Constructors","gdiplusheaders/FontFamily"]

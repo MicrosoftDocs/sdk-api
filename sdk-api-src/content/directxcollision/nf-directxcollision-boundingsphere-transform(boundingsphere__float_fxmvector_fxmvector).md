@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingSphere.Transform(BoundingSphere &,float,FXMVECTOR,FXMVECTOR)
+UID: NF:directxcollision.BoundingSphere.Transform(BoundingSphere&,float,FXMVECTOR,FXMVECTOR)
 title: BoundingSphere::Transform(BoundingSphere &,float,FXMVECTOR,FXMVECTOR)
 description: Transforms the BoundingSphere using the specified scale, rotation and translation vectors.
 helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","Transform method","BoundingSphere.Transform","BoundingSphere.Transform(BoundingSphere &","float","FXMVECTOR","FXMVECTOR)","BoundingSphere.Transform(BoundingSphere&","float","XMVECTOR","XMVECTOR)","BoundingSphere::Transform","BoundingSphere::Transform(BoundingSphere &","float","FXMVECTOR","FXMVECTOR)","Transform","Transform method [DirectX Math Support APIs]","Transform method [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_transform_2"]

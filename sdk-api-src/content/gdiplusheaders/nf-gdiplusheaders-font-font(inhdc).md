@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Font.Font(IN HDC)
+UID: NF:gdiplusheaders.Font.Font(INHDC)
 title: Font::Font(IN HDC) (gdiplusheaders.h)
 description: Creates a Font::Font object based on the Windows Graphics Device Interface (GDI) font object that is currently selected into a specified device context. This constructor is provided for compatibility with GDI.
 helpviewer_keywords: ["Font","Font class [GDI+]","Font constructor","Font constructor [GDI+]","Font constructor [GDI+]","Font class","Font.Font","Font.Font(HDC)","Font.Font(IN HDC)","Font::Font","Font::Font(IN HDC)","_gdiplus_CLASS_Font_Font_hdc_","gdiplus._gdiplus_CLASS_Font_Font_hdc_"]

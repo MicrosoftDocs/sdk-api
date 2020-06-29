@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplustypes.RectF.Inflate(IN REAL,IN REAL)
+UID: NF:gdiplustypes.RectF.Inflate(INREAL,INREAL)
 title: RectF::Inflate (gdiplustypes.h)
 description: This topic lists the Inflate methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
 helpviewer_keywords: ["Inflate","Inflate methods [GDI+]","RectF.Inflate","RectF::Inflate","_gdiplus_CLASS_RectF_Inflate_Methods","gdiplus._gdiplus_CLASS_RectF_Inflate_Methods","gdiplustypes/Inflate"]

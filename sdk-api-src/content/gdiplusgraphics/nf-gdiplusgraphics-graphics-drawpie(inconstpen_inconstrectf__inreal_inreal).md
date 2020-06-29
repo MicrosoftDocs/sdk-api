@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawPie(IN const Pen,IN const RectF &,IN REAL,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.DrawPie(INconstPen,INconstRectF&,INREAL,INREAL)
 title: Graphics::DrawPie
 description: The Graphics::DrawPie method draws a pie.
 helpviewer_keywords: ["Graphics::DrawPie"]

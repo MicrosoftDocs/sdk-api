@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Image.Image(IN const WCHAR,IN BOOL)
+UID: NF:gdiplusheaders.Image.Image(INconstWCHAR,INBOOL)
 title: Image::Image(IN const WCHAR,IN BOOL) (gdiplusheaders.h)
 description: Creates an Image::Image object based on a file.
 helpviewer_keywords: ["FALSE","Image","Image class [GDI+]","Image constructor","Image constructor [GDI+]","Image constructor [GDI+]","Image class","Image.Image","Image.Image(IN const WCHAR","IN BOOL)","Image.Image(const WCHAR*","BOOL)","Image::Image","Image::Image(IN const WCHAR","IN BOOL)","TRUE","_gdiplus_CLASS_Image_Image_filename_useEmbeddedColorManagement_","gdiplus._gdiplus_CLASS_Image_Image_filename_useEmbeddedColorManagement_"]

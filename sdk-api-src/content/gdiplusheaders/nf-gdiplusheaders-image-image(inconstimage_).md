@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Image.Image(IN const Image &)
+UID: NF:gdiplusheaders.Image.Image(INconstImage&)
 title: Image::Image(IN const Image &) (gdiplusheaders.h)
 description: This topic lists the constructors of the Image class. For a complete class listing, see Image Class.
 helpviewer_keywords: ["Image","Image constructors [GDI+]","Image.Image","Image.Image(IN const Image &)","Image::Image","Image::Image(IN const Image &)","_gdiplus_CLASS_Image_Constructors","gdiplus._gdiplus_CLASS_Image_Constructors","gdiplusheaders/Image"]

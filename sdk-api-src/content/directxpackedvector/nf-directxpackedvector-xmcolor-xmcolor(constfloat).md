@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMCOLOR.XMCOLOR(const float)
+UID: NF:directxpackedvector.XMCOLOR.XMCOLOR(constfloat)
 title: XMCOLOR::XMCOLOR(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMCOLOR from a four element float array argument.
 helpviewer_keywords: ["XMCOLOR","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR constructor [DirectX Math Support APIs]","XMCOLOR structure","XMCOLOR structure [DirectX Math Support APIs]","XMCOLOR constructor","XMCOLOR.XMCOLOR","XMCOLOR.XMCOLOR()","XMCOLOR.XMCOLOR(const float)","XMCOLOR::XMCOLOR","XMCOLOR::XMCOLOR(const float)","dxmath.xmcolor_ctor_1"]

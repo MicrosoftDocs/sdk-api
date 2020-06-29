@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.IsVisible(IN INT,IN INT,IN INT,IN INT)
+UID: NF:gdiplusgraphics.Graphics.IsVisible(ININT,ININT,ININT,ININT)
 title: Graphics::IsVisible(IN INT,IN INT,IN INT,IN INT) (gdiplusgraphics.h)
 description: The Graphics::IsVisible method determines whether the specified rectangle intersects the visible clipping region of this Graphics object.
 helpviewer_keywords: ["Graphics class [GDI+]","IsVisible method","Graphics.IsVisible","Graphics.IsVisible(IN INT","IN INT","IN INT","IN INT)","Graphics.IsVisible(INT","INT","INT","INT)","Graphics::IsVisible","Graphics::IsVisible(IN INT","IN INT","IN INT","IN INT)","IsVisible","IsVisible method [GDI+]","IsVisible method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_IsVisible_INT_x_INT_y_INT_width_INT_height_","gdiplus._gdiplus_CLASS_Graphics_IsVisible_INT_x_INT_y_INT_width_INT_height_"]

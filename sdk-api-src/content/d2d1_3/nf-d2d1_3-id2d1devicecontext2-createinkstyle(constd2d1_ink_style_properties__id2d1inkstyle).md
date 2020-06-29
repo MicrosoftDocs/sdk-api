@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1_3.ID2D1DeviceContext2.CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES &,ID2D1InkStyle)
+UID: NF:d2d1_3.ID2D1DeviceContext2.CreateInkStyle(constD2D1_INK_STYLE_PROPERTIES&,ID2D1InkStyle)
 title: ID2D1DeviceContext2::CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES &,ID2D1InkStyle) (d2d1_3.h)
 description: Creates a new ID2D1InkStyle object, for use with ink rendering methods such as DrawInk.
 helpviewer_keywords: ["CreateInkStyle","CreateInkStyle method [Direct2D]","CreateInkStyle method [Direct2D]","ID2D1DeviceContext2 interface","ID2D1DeviceContext2 interface [Direct2D]","CreateInkStyle method","ID2D1DeviceContext2.CreateInkStyle","ID2D1DeviceContext2.CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES &","ID2D1InkStyle)","ID2D1DeviceContext2::CreateInkStyle","ID2D1DeviceContext2::CreateInkStyle(const D2D1_INK_STYLE_PROPERTIES &","ID2D1InkStyle)","d2d1_3/ID2D1DeviceContext2::CreateInkStyle","direct2d.id2d1devicecontext2_createinkstyle"]

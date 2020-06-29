@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluscolor.Color.Color(IN ARGB)
+UID: NF:gdipluscolor.Color.Color(INARGB)
 title: Color::Color(IN ARGB) (gdipluscolor.h)
 description: Creates a Color::Color object by using an ARGB value.
 helpviewer_keywords: ["Color","Color class [GDI+]","Color constructor","Color constructor [GDI+]","Color constructor [GDI+]","Color class","Color.Color","Color.Color(ARGB)","Color.Color(IN ARGB)","Color::Color","Color::Color(IN ARGB)","_gdiplus_CLASS_Color_Color_argb_","gdiplus._gdiplus_CLASS_Color_Color_argb_"]

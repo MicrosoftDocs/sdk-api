@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusbase.GdiplusBase.operator new[]
+UID: NF:gdiplusbase.GdiplusBase.operator-new[]
 title: GdiplusBase::operator new[]
 description: The GdiplusBase::operator new[] method allocates memory for an array of Windows GDI+ objects.
 helpviewer_keywords: ["GdiplusBase class [GDI+]","operator new[] method","GdiplusBase.operator new[]","GdiplusBase::operator new[]","_gdiplus_CLASS_GdiplusBase_operator_new_bracket_in_size_","gdiplus._gdiplus_CLASS_GdiplusBase_operator_new_bracket_in_size_","operator new[]","operator new[] method [GDI+]","operator new[] method [GDI+]","GdiplusBase class"]

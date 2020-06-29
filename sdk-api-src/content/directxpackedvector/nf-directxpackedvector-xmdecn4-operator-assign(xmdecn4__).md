@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMDECN4.operator-assign(XMDECN4 &&)
+UID: NF:directxpackedvector.XMDECN4.operator-assign(XMDECN4&&)
 title: XMDECN4::operator=
 description: Assigns the vector component data from one instance of XMDECN4 to the current instance of XMDECN4.
 helpviewer_keywords: ["XMDECN4::operator="]

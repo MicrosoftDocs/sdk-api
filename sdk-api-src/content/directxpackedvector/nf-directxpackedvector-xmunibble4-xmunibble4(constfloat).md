@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(const float)
+UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(constfloat)
 title: XMUNIBBLE4::XMUNIBBLE4(const float) (directxpackedvector.h)
 description: Initializes a new instance of **XMUNIBBLE4** from a four element float array argument.
 helpviewer_keywords: ["XMUNIBBLE4","XMUNIBBLE4 constructor [DirectX Math Support APIs]","XMUNIBBLE4 constructor [DirectX Math Support APIs]","XMUNIBBLE4 structure","XMUNIBBLE4 structure [DirectX Math Support APIs]","XMUNIBBLE4 constructor","XMUNIBBLE4.XMUNIBBLE4","XMUNIBBLE4.XMUNIBBLE4()","XMUNIBBLE4.XMUNIBBLE4(const float)","XMUNIBBLE4::XMUNIBBLE4","XMUNIBBLE4::XMUNIBBLE4(const float)","dxmath.xmunibble4_ctor_1"]

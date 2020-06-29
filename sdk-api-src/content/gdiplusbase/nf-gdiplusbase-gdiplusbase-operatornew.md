@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusbase.GdiplusBase.operator new
+UID: NF:gdiplusbase.GdiplusBase.operator-new
 title: GdiplusBase::operator new (gdiplusbase.h)
 description: The GdiplusBase::operator new method allocates memory for one Windows GDI+ object.
 helpviewer_keywords: ["GdiplusBase class [GDI+]","operator new method","GdiplusBase.operator new","GdiplusBase::operator new","_gdiplus_CLASS_GdiplusBase_operator_new_in_size_","gdiplus._gdiplus_CLASS_GdiplusBase_operator_new_in_size_","operator new","operator new method [GDI+]","operator new method [GDI+]","GdiplusBase class"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingBox.BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)
+UID: NF:directxcollision.BoundingBox.BoundingBox(constXMFLOAT3&,constXMFLOAT3&)
 title: BoundingBox::BoundingBox(const XMFLOAT3 &,const XMFLOAT3 &)
 description: Creates an instance of the BoundingBox class.
 helpviewer_keywords: ["BoundingBox","BoundingBox constructor [DirectX Math Support APIs]","BoundingBox constructor [DirectX Math Support APIs]","BoundingBox interface","BoundingBox interface [DirectX Math Support APIs]","BoundingBox constructor","BoundingBox.BoundingBox","BoundingBox.BoundingBox(const XMFLOAT3 &","const XMFLOAT3 &)","BoundingBox.BoundingBox(const XMFLOAT3&","const XMFLOAT3&)","BoundingBox::BoundingBox","BoundingBox::BoundingBox(const XMFLOAT3 &","const XMFLOAT3 &)","dxmath.boundingbox_ctor_2"]

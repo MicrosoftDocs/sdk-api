@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusbrush.HatchBrush.HatchBrush(const HatchBrush &)
+UID: NF:gdiplusbrush.HatchBrush.HatchBrush(constHatchBrush&)
 title: HatchBrush::HatchBrush(const HatchBrush &) (gdiplusbrush.h)
 description: Creates a HatchBrush::HatchBrush object based on a hatch style, a foreground color, and a background color.
 helpviewer_keywords: ["HatchBrush","HatchBrush class [GDI+]","HatchBrush constructor","HatchBrush constructor [GDI+]","HatchBrush constructor [GDI+]","HatchBrush class","HatchBrush.HatchBrush","HatchBrush.HatchBrush(const HatchBrush &)","HatchBrush::HatchBrush","HatchBrush::HatchBrush(const HatchBrush &)","_gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_","gdiplus._gdiplus_CLASS_HatchBrush_HatchBrush_hatchStyle_foreColor_backColor_"]

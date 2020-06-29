@@ -1,5 +1,5 @@
 ---
-UID: NF:d3d11.CD3D11_VIEWPORT.operator const D3D11_VIEWPORT&
+UID: NF:d3d11.CD3D11_VIEWPORT.operator-cast-const-D3D11_VIEWPORT&
 title: CD3D11_VIEWPORT::operator const D3D11_VIEWPORT& (d3d11.h)
 description: This operator returns the address of a D3D11_VIEWPORT structure that contains the data from the CD3D11_VIEWPORT instance.
 helpviewer_keywords: ["CD3D11_VIEWPORT interface [Direct3D 11]","operator const D3D11_VIEWPORT& method","CD3D11_VIEWPORT.operator const D3D11_VIEWPORT&","CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&","CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&()","d3d11/CD3D11_VIEWPORT::operator const D3D11_VIEWPORT&","direct3d11.cd3d11_viewport_d3d11_viewport__","operator const D3D11_VIEWPORT&","operator const D3D11_VIEWPORT& method [Direct3D 11]","operator const D3D11_VIEWPORT& method [Direct3D 11]","CD3D11_VIEWPORT interface"]

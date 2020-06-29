@@ -1,5 +1,5 @@
 ---
-UID: NF:instance.CInstance.SetWBEMINT64(LPCWSTR,const ULONGLONG)
+UID: NF:instance.CInstance.SetWBEMINT64(LPCWSTR,constULONGLONG)
 title: CInstance::SetWBEMINT64(LPCWSTR,const ULONGLONG) (instance.h)
 description: The SetWBEMINT64(LPCWSTR, const LONGLONG&) method sets a 64-bit integer value.
 helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","SetWBEMINT64 method","CInstance.SetWBEMINT64","CInstance.SetWBEMINT64(LPCWSTR","const ULONGLONG)","CInstance::SetWBEMINT64","CInstance::SetWBEMINT64(LPCWSTR","const LONGLONG&)","CInstance::SetWBEMINT64(LPCWSTR","const ULONGLONG)","SetWBEMINT64","SetWBEMINT64 method [Windows Management Instrumentation]","SetWBEMINT64 method [Windows Management Instrumentation]","CInstance interface","instance/CInstance::SetWBEMINT64","wmi.cinstance_setwbemint64_lpcwstr__const_longlong_"]

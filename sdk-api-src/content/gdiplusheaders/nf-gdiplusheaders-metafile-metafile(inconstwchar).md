@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Metafile.Metafile(IN const WCHAR)
+UID: NF:gdiplusheaders.Metafile.Metafile(INconstWCHAR)
 title: Metafile::Metafile(IN const WCHAR) (gdiplusheaders.h)
 description: Creates a Metafile::Metafile object for playback.
 helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile constructor","Metafile constructor [GDI+]","Metafile constructor [GDI+]","Metafile class","Metafile.Metafile","Metafile.Metafile(IN const WCHAR)","Metafile.Metafile(const WCHAR*)","Metafile::Metafile","Metafile::Metafile(IN const WCHAR)","_gdiplus_CLASS_Metafile_Metafile_filename_","gdiplus._gdiplus_CLASS_Metafile_Metafile_filename_"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMU555.operator uint16_t
+UID: NF:directxpackedvector.XMU555.operator-cast-uint16_t
 title: XMU555::operator uint16_t (directxpackedvector.h)
 description: Returns an instance of uint16_t containing the components of the XMU555 instance in a packed format.
 helpviewer_keywords: ["DirectX::PackedVector.XMU555.operator uint16_t","DirectX::PackedVector::XMU555::operator uint16_t","XMU555 structure [DirectX Math Support APIs]","operator uint16_t method","XMU555.operator uint16_t","XMU555::operator uint16_t","dxmath.xmu555_operator_uint16_t","operator uint16_t","operator uint16_t method [DirectX Math Support APIs]","operator uint16_t method [DirectX Math Support APIs]","XMU555 structure"]

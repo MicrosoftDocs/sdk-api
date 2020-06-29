@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddCurve(IN const PointF,IN INT)
+UID: NF:gdipluspath.GraphicsPath.AddCurve(INconstPointF,ININT)
 title: GraphicsPath::AddCurve
 description: The GraphicsPath::AddCurve method adds a cardinal spline to the current figure of this path.
 helpviewer_keywords: ["GraphicsPath::AddCurve"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingOrientedBox.operator-assign(BoundingOrientedBox &&)
+UID: NF:directxcollision.BoundingOrientedBox.operator-assign(BoundingOrientedBox&&)
 title: BoundingOrientedBox::operator-assign(BoundingOrientedBox &&)
 description: Copies values from another BoundingOrientedBox.
 helpviewer_keywords: ["BoundingOrientedBox interface [DirectX Math Support APIs]","op_Assignment method","BoundingOrientedBox.op_Assignment","BoundingOrientedBox.operator-assign(BoundingOrientedBox &&)","BoundingOrientedBox.operator=","BoundingOrientedBox::operator-assign(BoundingOrientedBox &&)","BoundingOrientedBox::operator=","dxmath.boundingorientedbox_op_assignment","op_Assignment method [DirectX Math Support APIs]","op_Assignment method [DirectX Math Support APIs]","BoundingOrientedBox interface","operator="]

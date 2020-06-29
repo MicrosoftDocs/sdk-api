@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.Union(IN const GraphicsPath)
+UID: NF:gdiplusheaders.Region.Union(INconstGraphicsPath)
 title: Region::Union(IN const GraphicsPath) (gdiplusheaders.h)
 description: The Region::Union method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of the specified path's interior.
 helpviewer_keywords: ["Region class [GDI+]","Union method","Region.Union","Region.Union(IN const GraphicsPath)","Region.Union(const GraphicsPath*)","Region::Union","Region::Union(IN const GraphicsPath)","Union","Union method [GDI+]","Union method [GDI+]","Region class","_gdiplus_CLASS_Region_Union_path_","gdiplus._gdiplus_CLASS_Region_Union_path_"]

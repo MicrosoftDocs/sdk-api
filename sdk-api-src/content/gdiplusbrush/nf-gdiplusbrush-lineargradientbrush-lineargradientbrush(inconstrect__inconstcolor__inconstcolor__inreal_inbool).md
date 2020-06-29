@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusbrush.LinearGradientBrush.LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN REAL,IN BOOL)
+UID: NF:gdiplusbrush.LinearGradientBrush.LinearGradientBrush(INconstRect&,INconstColor&,INconstColor&,INREAL,INBOOL)
 title: LinearGradientBrush::LinearGradientBrush(IN const Rect &,IN const Color &,IN const Color &,IN REAL,IN BOOL) (gdiplusbrush.h)
 description: Creates a LinearGradientBrush::LinearGradientBrush object from a rectangle and angle of direction.
 helpviewer_keywords: ["LinearGradientBrush","LinearGradientBrush class [GDI+]","LinearGradientBrush constructor","LinearGradientBrush constructor [GDI+]","LinearGradientBrush constructor [GDI+]","LinearGradientBrush class","LinearGradientBrush.LinearGradientBrush","LinearGradientBrush.LinearGradientBrush(IN const Rect &","IN const Color &","IN const Color &","IN REAL","IN BOOL)","LinearGradientBrush.LinearGradientBrush(const Rect&","const Color&","const Color&","REAL","BOOL)","LinearGradientBrush::LinearGradientBrush","LinearGradientBrush::LinearGradientBrush(IN const Rect &","IN const Color &","IN const Color &","IN REAL","IN BOOL)","_gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_Rect_rect_Color_color1_Color_color2_REAL_angl","gdiplus._gdiplus_CLASS_LinearGradientBrush_LinearGradientBrush_Rect_rect_Color_color1_Color_color2_REAL_angl"]

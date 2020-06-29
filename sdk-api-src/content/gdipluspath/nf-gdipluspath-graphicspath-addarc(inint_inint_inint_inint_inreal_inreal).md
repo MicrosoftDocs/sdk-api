@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddArc(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL)
+UID: NF:gdipluspath.GraphicsPath.AddArc(ININT,ININT,ININT,ININT,INREAL,INREAL)
 title: GraphicsPath::AddArc(IN INT,IN INT,IN INT,IN INT,IN REAL,IN REAL) (gdipluspath.h)
 description: The GraphicsPath::AddArc method adds an elliptical arc to the current figure of this path.
 helpviewer_keywords: ["AddArc","AddArc method [GDI+]","AddArc method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddArc method","GraphicsPath.AddArc","GraphicsPath.AddArc(IN INT","IN INT","IN INT","IN INT","IN REAL","IN REAL)","GraphicsPath.AddArc(INT","INT","INT","INT","REAL","REAL)","GraphicsPath::AddArc","GraphicsPath::AddArc(IN INT","IN INT","IN INT","IN INT","IN REAL","IN REAL)","_gdiplus_CLASS_GraphicsPath_AddArc_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepAngle_","gdiplus._gdiplus_CLASS_GraphicsPath_AddArc_INT_x_INT_y_INT_width_INT_height_REAL_startAngle_REAL_sweepAngle_"]

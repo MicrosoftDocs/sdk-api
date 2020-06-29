@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddCurve(IN const Point,IN INT,IN REAL)
+UID: NF:gdipluspath.GraphicsPath.AddCurve(INconstPoint,ININT,INREAL)
 title: GraphicsPath::AddCurve(IN const Point,IN INT,IN REAL) (gdipluspath.h)
 description: The GraphicsPath::AddCurve method adds a cardinal spline to the current figure of this path.
 helpviewer_keywords: ["AddCurve","AddCurve method [GDI+]","AddCurve method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddCurve method","GraphicsPath.AddCurve","GraphicsPath.AddCurve(IN const Point","IN INT","IN REAL)","GraphicsPath.AddCurve(const Point*","INT","REAL)","GraphicsPath::AddCurve","GraphicsPath::AddCurve(IN const Point","IN INT","IN REAL)","_gdiplus_CLASS_GraphicsPath_AddCurve_Point_points_INT_count_REAL_tension_","gdiplus._gdiplus_CLASS_GraphicsPath_AddCurve_Point_points_INT_count_REAL_tension_"]

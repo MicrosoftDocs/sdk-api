@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(XMUNIBBLE4 &&)
+UID: NF:directxpackedvector.XMUNIBBLE4.XMUNIBBLE4(XMUNIBBLE4&&)
 title: XMUNIBBLE4::XMUNIBBLE4(XMUNIBBLE4 &&) (directxpackedvector.h)
 description: A constructor for XMUNIBBLE4.
 helpviewer_keywords: ["XMUNIBBLE4","XMUNIBBLE4 constructor [DirectX Math Support APIs]","XMUNIBBLE4 constructor [DirectX Math Support APIs]","XMUNIBBLE4 structure","XMUNIBBLE4 structure [DirectX Math Support APIs]","XMUNIBBLE4 constructor","XMUNIBBLE4.XMUNIBBLE4","XMUNIBBLE4.XMUNIBBLE4()","XMUNIBBLE4.XMUNIBBLE4(XMUNIBBLE4 &&)","XMUNIBBLE4::XMUNIBBLE4","XMUNIBBLE4::XMUNIBBLE4(XMUNIBBLE4 &&)","dxmath.xmunibble4_ctor_1"]

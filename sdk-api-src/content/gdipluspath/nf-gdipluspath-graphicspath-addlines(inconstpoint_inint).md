@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddLines(IN const Point,IN INT)
+UID: NF:gdipluspath.GraphicsPath.AddLines(INconstPoint,ININT)
 title: GraphicsPath::AddLines(IN const Point,IN INT) (gdipluspath.h)
 description: The GraphicsPath::AddLines method adds a sequence of connected lines to the current figure of this path.
 helpviewer_keywords: ["AddLines","AddLines method [GDI+]","AddLines method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddLines method","GraphicsPath.AddLines","GraphicsPath.AddLines(IN const Point","IN INT)","GraphicsPath.AddLines(const Point*","INT)","GraphicsPath::AddLines","GraphicsPath::AddLines(IN const Point","IN INT)","_gdiplus_CLASS_GraphicsPath_AddLines_Point_points_INT_count_","gdiplus._gdiplus_CLASS_GraphicsPath_AddLines_Point_points_INT_count_"]

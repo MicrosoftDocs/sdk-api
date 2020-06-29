@@ -1,5 +1,5 @@
 ---
-UID: NF:wbemtime.WBEMTime.WBEMTime(const tm &)
+UID: NF:wbemtime.WBEMTime.WBEMTime(consttm&)
 title: WBEMTime::WBEMTime(const tm &) (wbemtime.h)
 description: The WBEMTime overload class constructor takes an ANSI C tm structure parameter.
 helpviewer_keywords: ["??0WBEMTime@@QAE@ABUtm@@@Z","WBEMTime","WBEMTime constructor [Windows Management Instrumentation]","WBEMTime constructor [Windows Management Instrumentation]","WBEMTime interface","WBEMTime interface [Windows Management Instrumentation]","WBEMTime constructor","WBEMTime.WBEMTime","WBEMTime.WBEMTime(const tm &)","WBEMTime::WBEMTime","WBEMTime::WBEMTime(const struct tm&)","WBEMTime::WBEMTime(const tm &)","wbemtime/WBEMTime::WBEMTime","wmi.wbemtime_wbemtime_const_struct_tm__"]

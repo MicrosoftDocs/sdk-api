@@ -1,5 +1,5 @@
 ---
-UID: NF:chstring.CHString.CHString(const unsigned char)
+UID: NF:chstring.CHString.CHString(constunsignedchar)
 title: CHString::CHString(const unsigned char) (chstring.h)
 description: Initializes a new CHString object with the specified data.
 helpviewer_keywords: ["??0CHString@@QAE@PBE@Z","??0CHString@@QEAA@PEBE@Z","CHString","CHString constructor [Windows Management Instrumentation]","CHString constructor [Windows Management Instrumentation]","CHString interface","CHString interface [Windows Management Instrumentation]","CHString constructor","CHString.CHString","CHString.CHString(const unsigned char)","CHString::CHString","CHString::CHString(const unsigned char)","CHString::CHString(const unsigned char*)","chstring/CHString::CHString","wmi.chstring_chstring_const_unsigned_char__"]

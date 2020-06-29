@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddEllipse(IN const RectF &)
+UID: NF:gdipluspath.GraphicsPath.AddEllipse(INconstRectF&)
 title: GraphicsPath::AddEllipse
 description: The GraphicsPath::AddEllipse method adds an ellipse to this path.
 helpviewer_keywords: ["GraphicsPath::AddEllipse"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMU565.XMU565(const uint8_t)
+UID: NF:directxpackedvector.XMU565.XMU565(constuint8_t)
 title: XMU565::XMU565(const uint8_t) (directxpackedvector.h)
 description: Initializes a new instance of XMU565 from a three element int8_t array.
 helpviewer_keywords: ["XMU565","XMU565 constructor [DirectX Math Support APIs]","XMU565 constructor [DirectX Math Support APIs]","XMU565 structure","XMU565 structure [DirectX Math Support APIs]","XMU565 constructor","XMU565.XMU565","XMU565.XMU565()","XMU565.XMU565(const uint8_t)","XMU565::XMU565","XMU565::XMU565(const uint8_t)","dxmath.xmu565_ctor_1"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawImage(IN Image,IN const Point &)
+UID: NF:gdiplusgraphics.Graphics.DrawImage(INImage,INconstPoint&)
 title: Graphics::DrawImage(IN Image,IN const Point &) (gdiplusgraphics.h)
 description: The Graphics::DrawImage method draws an image.
 helpviewer_keywords: ["DrawImage","DrawImage method [GDI+]","DrawImage method [GDI+]","Graphics class","Graphics class [GDI+]","DrawImage method","Graphics.DrawImage","Graphics.DrawImage(IN Image","IN const Point &)","Graphics.DrawImage(Image*","const Point&)","Graphics::DrawImage","Graphics::DrawImage(IN Image","IN const Point &)","_gdiplus_CLASS_Graphics_DrawImage_Image_image_Point_point_","gdiplus._gdiplus_CLASS_Graphics_DrawImage_Image_image_Point_point_"]

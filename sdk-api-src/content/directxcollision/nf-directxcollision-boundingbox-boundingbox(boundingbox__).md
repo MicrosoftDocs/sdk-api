@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingBox.BoundingBox(BoundingBox &&)
+UID: NF:directxcollision.BoundingBox.BoundingBox(BoundingBox&&)
 title: BoundingBox::BoundingBox(BoundingBox &&)
 description: Creates an instance of the BoundingBox class.
 helpviewer_keywords: ["BoundingBox","BoundingBox constructor [DirectX Math Support APIs]","BoundingBox constructor [DirectX Math Support APIs]","BoundingBox interface","BoundingBox interface [DirectX Math Support APIs]","BoundingBox constructor","BoundingBox.BoundingBox","BoundingBox.BoundingBox()","BoundingBox.BoundingBox(BoundingBox &&)","BoundingBox::BoundingBox","BoundingBox::BoundingBox(BoundingBox &&)","dxmath.boundingbox_ctor_3"]

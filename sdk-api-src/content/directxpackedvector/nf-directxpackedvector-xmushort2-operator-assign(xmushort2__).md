@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMUSHORT2.operator-assign(XMUSHORT2 &&)
+UID: NF:directxpackedvector.XMUSHORT2.operator-assign(XMUSHORT2&&)
 title: XMUSHORT2::operator=
 description: Assigns the vector component data from one instance of XMUSHORT2 to the current instance of XMUSHORT2.
 helpviewer_keywords: ["XMUSHORT2::operator="]

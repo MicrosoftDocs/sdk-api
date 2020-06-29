@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.PathGradientBrush.GetCenterPoint(OUT PointF)
+UID: NF:gdipluspath.PathGradientBrush.GetCenterPoint(OUTPointF)
 title: PathGradientBrush::GetCenterPoint
 description: The PathGradientBrush::GetCenterPoint method gets the center point of this path gradient brush.
 helpviewer_keywords: ["PathGradientBrush::GetCenterPoint"]

@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddLine(IN INT,IN INT,IN INT,IN INT)
+UID: NF:gdipluspath.GraphicsPath.AddLine(ININT,ININT,ININT,ININT)
 title: GraphicsPath::AddLine(IN INT,IN INT,IN INT,IN INT) (gdipluspath.h)
 description: The GraphicsPath::AddLine method adds a line to the current figure of this path.
 helpviewer_keywords: ["AddLine","AddLine method [GDI+]","AddLine method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","AddLine method","GraphicsPath.AddLine","GraphicsPath.AddLine(IN INT","IN INT","IN INT","IN INT)","GraphicsPath.AddLine(INT","INT","INT","INT)","GraphicsPath::AddLine","GraphicsPath::AddLine(IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_GraphicsPath_AddLine_INT_x1_INT_y1_INT_x2_INT_y2_","gdiplus._gdiplus_CLASS_GraphicsPath_AddLine_INT_x1_INT_y1_INT_x2_INT_y2_"]

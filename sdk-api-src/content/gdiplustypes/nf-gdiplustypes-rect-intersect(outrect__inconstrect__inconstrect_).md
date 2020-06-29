@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplustypes.Rect.Intersect(OUT Rect &,IN const Rect &,IN const Rect &)
+UID: NF:gdiplustypes.Rect.Intersect(OUTRect&,INconstRect&,INconstRect&)
 title: Rect::Intersect(OUT Rect &,IN const Rect &,IN const Rect &) (gdiplustypes.h)
 description: The Rect::Intersect method determines the intersection of two rectangles and stores the result in a Rect object.
 helpviewer_keywords: ["Intersect","Intersect method [GDI+]","Intersect method [GDI+]","Rect class","Rect class [GDI+]","Intersect method","Rect.Intersect","Rect.Intersect(OUT Rect &","IN const Rect &","IN const Rect &)","Rect.Intersect(Rect&","const Rect&","const Rect&)","Rect::Intersect","Rect::Intersect(OUT Rect &","IN const Rect &","IN const Rect &)","_gdiplus_CLASS_Rect_Intersect_c_a_b_","gdiplus._gdiplus_CLASS_Rect_Intersect_c_a_b_"]

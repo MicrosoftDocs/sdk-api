@@ -1,5 +1,5 @@
 ---
-UID: NF:traceloggingactivity.TraceLoggingActivity.TraceLoggingActivity(TraceLoggingActivity &&)
+UID: NF:traceloggingactivity.TraceLoggingActivity.TraceLoggingActivity(TraceLoggingActivity&&)
 title: TraceLoggingActivity::TraceLoggingActivity(TraceLoggingActivity &&) (traceloggingactivity.h)
 description: Creates a new TraceLoggingActivity object.
 helpviewer_keywords: ["TraceLoggingActivity","TraceLoggingActivity interface","TraceLoggingActivity method","TraceLoggingActivity method","TraceLoggingActivity method","TraceLoggingActivity interface","TraceLoggingActivity.TraceLoggingActivity","TraceLoggingActivity.TraceLoggingActivity(TraceLoggingActivity &&)","TraceLoggingActivity::TraceLoggingActivity","TraceLoggingActivity::TraceLoggingActivity(TraceLoggingActivity &&)","tracelogging.traceloggingactivity_traceloggingactivity","traceloggingactivity/TraceLoggingActivity::TraceLoggingActivity"]

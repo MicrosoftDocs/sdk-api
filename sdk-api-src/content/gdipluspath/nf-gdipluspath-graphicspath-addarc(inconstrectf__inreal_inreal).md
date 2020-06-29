@@ -1,5 +1,5 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddArc(IN const RectF &,IN REAL,IN REAL)
+UID: NF:gdipluspath.GraphicsPath.AddArc(INconstRectF&,INREAL,INREAL)
 title: GraphicsPath::AddArc
 description: The GraphicsPath::AddArc method adds an elliptical arc to the current figure of this path.
 helpviewer_keywords: ["GraphicsPath::AddArc"]

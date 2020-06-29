@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1RenderTarget.DrawRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
+UID: NF:d2d1.ID2D1RenderTarget.DrawRoundedRectangle(constD2D1_ROUNDED_RECT&,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawRoundedRectangle(const D2D1_ROUNDED_RECT &,ID2D1Brush,FLOAT,ID2D1StrokeStyle) (d2d1.h)
 description: Draws the outline of the specified rounded rectangle using the specified stroke style.
 helpviewer_keywords: ["DrawRoundedRectangle","DrawRoundedRectangle method [Direct2D]","DrawRoundedRectangle method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","DrawRoundedRectangle method","ID2D1RenderTarget.DrawRoundedRectangle","ID2D1RenderTarget.DrawRoundedRectangle(const D2D1_ROUNDED_RECT &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","ID2D1RenderTarget::DrawRoundedRectangle","ID2D1RenderTarget::DrawRoundedRectangle(const D2D1_ROUNDED_RECT &","ID2D1Brush","FLOAT","ID2D1StrokeStyle)","d2d1/ID2D1RenderTarget::DrawRoundedRectangle","direct2d.ID2D1RenderTarget_DrawRoundedRectangle_ref_D2D1_ROUNDED_RECT_ptr_ID2D1Brush_FLOAT_ptr_ID2D1StrokeStyle"]

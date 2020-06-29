@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingSphere.Intersects(const BoundingBox &)
+UID: NF:directxcollision.BoundingSphere.Intersects(constBoundingBox&)
 title: BoundingSphere::Intersects(const BoundingBox &)
 description: Tests the BoundingSphere for intersection with a BoundingBox.
 helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","Intersects method","BoundingSphere.Intersects","BoundingSphere.Intersects(const BoundingBox &)","BoundingSphere.Intersects(const BoundingBox&)","BoundingSphere::Intersects","BoundingSphere::Intersects(const BoundingBox &)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_intersects_4"]

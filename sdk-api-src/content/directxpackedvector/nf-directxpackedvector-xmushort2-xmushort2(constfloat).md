@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMUSHORT2.XMUSHORT2(const float)
+UID: NF:directxpackedvector.XMUSHORT2.XMUSHORT2(constfloat)
 title: XMUSHORT2::XMUSHORT2(const float) (directxpackedvector.h)
 description: Initializes a new instance of XMUSHORT2 from a two element float array argument.
 helpviewer_keywords: ["XMUSHORT2","XMUSHORT2 constructor [DirectX Math Support APIs]","XMUSHORT2 constructor [DirectX Math Support APIs]","XMUSHORT2 structure","XMUSHORT2 structure [DirectX Math Support APIs]","XMUSHORT2 constructor","XMUSHORT2.XMUSHORT2","XMUSHORT2.XMUSHORT2()","XMUSHORT2.XMUSHORT2(const float)","XMUSHORT2::XMUSHORT2","XMUSHORT2::XMUSHORT2(const float)","dxmath.xmushort2_ctor_1"]

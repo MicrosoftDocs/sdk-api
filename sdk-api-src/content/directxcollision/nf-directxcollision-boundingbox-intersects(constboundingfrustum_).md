@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingBox.Intersects(const BoundingFrustum &)
+UID: NF:directxcollision.BoundingBox.Intersects(constBoundingFrustum&)
 title: BoundingBox::Intersects(const BoundingFrustum &)
 description: Test the BoundingBox for intersection with a BoundingFrustum.
 helpviewer_keywords: ["BoundingBox interface [DirectX Math Support APIs]","Intersects method","BoundingBox.Intersects","BoundingBox.Intersects(const BoundingFrustum &)","BoundingBox.Intersects(const BoundingFrustum&)","BoundingBox::Intersects","BoundingBox::Intersects(const BoundingFrustum &)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingBox interface","dxmath.boundingbox_intersects_1"]

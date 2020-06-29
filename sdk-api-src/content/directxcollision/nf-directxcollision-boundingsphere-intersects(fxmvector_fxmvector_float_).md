@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingSphere.Intersects(FXMVECTOR,FXMVECTOR,float &)
+UID: NF:directxcollision.BoundingSphere.Intersects(FXMVECTOR,FXMVECTOR,float&)
 title: BoundingSphere::Intersects(FXMVECTOR,FXMVECTOR,float &)
 description: Tests the BoundingSphere for intersection with a ray.
 helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","Intersects method","BoundingSphere.Intersects","BoundingSphere.Intersects(FXMVECTOR","FXMVECTOR","float &)","BoundingSphere.Intersects(XMVECTOR","XMVECTOR","float&)","BoundingSphere::Intersects","BoundingSphere::Intersects(FXMVECTOR","FXMVECTOR","float &)","Intersects","Intersects method [DirectX Math Support APIs]","Intersects method [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_intersects_2"]

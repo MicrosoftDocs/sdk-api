@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMFLOAT3.XMFLOAT3(const XMFLOAT3 &)
+UID: NF:directxmath.XMFLOAT3.XMFLOAT3(constXMFLOAT3&)
 title: XMFLOAT3::XMFLOAT3(const XMFLOAT3 &) (directxmath.h)
 description: A constructor for XMFLOAT3.
 helpviewer_keywords: ["XMFLOAT3","XMFLOAT3 constructor [DirectX Math Support APIs]","XMFLOAT3 constructor [DirectX Math Support APIs]","XMFLOAT3 structure","XMFLOAT3 structure [DirectX Math Support APIs]","XMFLOAT3 constructor","XMFLOAT3.XMFLOAT3","XMFLOAT3.XMFLOAT3()","XMFLOAT3.XMFLOAT3(const XMFLOAT3 &)","XMFLOAT3::XMFLOAT3","XMFLOAT3::XMFLOAT3(const XMFLOAT3 &)","dxmath.xmfloat3_ctor_1"]

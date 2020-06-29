@@ -1,5 +1,5 @@
 ---
-UID: NF:provider.Provider.DeleteInstance(const CInstance &,long)
+UID: NF:provider.Provider.DeleteInstance(constCInstance&,long)
 title: Provider::DeleteInstance (provider.h)
 description: The DeleteInstance method is called by WMI to delete an instance.
 helpviewer_keywords: ["DeleteInstance","DeleteInstance method [Windows Management Instrumentation]","DeleteInstance method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","DeleteInstance method","Provider.DeleteInstance","Provider::DeleteInstance","_hmm_provider_deleteinstance","provider/Provider::DeleteInstance","wmi.provider_deleteinstance"]

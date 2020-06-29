@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Region.Union(IN const Rect &)
+UID: NF:gdiplusheaders.Region.Union(INconstRect&)
 title: Region::Union
 description: The Region::Union method updates this region.
 helpviewer_keywords: ["Region::Union"]

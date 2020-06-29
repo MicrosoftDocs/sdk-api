@@ -1,5 +1,5 @@
 ---
-UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFontIndices(DWRITE_FONT_AXIS_RANGE const,UINT32,BOOL,UINT32,UINT32,UINT32)
+UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFontIndices(DWRITE_FONT_AXIS_RANGEconst,UINT32,BOOL,UINT32,UINT32,UINT32)
 title: IDWriteFontSet1::GetFilteredFontIndices
 description: Retrives all the item indices, filtered by the given ranges.
 helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFilteredFontIndices method","IDWriteFontSet1.GetFilteredFontIndices","IDWriteFontSet1::GetFilteredFontIndices","GetFilteredFontIndices","GetFilteredFontIndices method [Direct Write]","GetFilteredFontIndices method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfilteredfontindices","dwrite_3/IDWriteFontSet1::GetFilteredFontIndices"]

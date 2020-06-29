@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMUBYTE4.XMUBYTE4(XMUBYTE4 &&)
+UID: NF:directxpackedvector.XMUBYTE4.XMUBYTE4(XMUBYTE4&&)
 title: XMUBYTE4::XMUBYTE4(XMUBYTE4 &&) (directxpackedvector.h)
 description: Default constructor for XMUBYTE4.
 helpviewer_keywords: ["XMUBYTE4","XMUBYTE4 constructor [DirectX Math Support APIs]","XMUBYTE4 constructor [DirectX Math Support APIs]","XMUBYTE4 structure","XMUBYTE4 structure [DirectX Math Support APIs]","XMUBYTE4 constructor","XMUBYTE4.XMUBYTE4","XMUBYTE4.XMUBYTE4()","XMUBYTE4.XMUBYTE4(XMUBYTE4 &&)","XMUBYTE4::XMUBYTE4","XMUBYTE4::XMUBYTE4(XMUBYTE4 &&)","dxmath.xmubyte4_ctor_1"]

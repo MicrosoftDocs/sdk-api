@@ -1,5 +1,5 @@
 ---
-UID: NF:directxcollision.BoundingFrustum.Transform(BoundingFrustum &,float,FXMVECTOR,FXMVECTOR)
+UID: NF:directxcollision.BoundingFrustum.Transform(BoundingFrustum&,float,FXMVECTOR,FXMVECTOR)
 title: BoundingFrustum::Transform(BoundingFrustum &,float,FXMVECTOR,FXMVECTOR)
 description: Transforms the BoundingFrustum using the specified scale, rotation and translation vectors.
 helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","Transform method","BoundingFrustum.Transform","BoundingFrustum.Transform(BoundingFrustum &","float","FXMVECTOR","FXMVECTOR)","BoundingFrustum.Transform(BoundingFrustum&","float","XMVECTOR","XMVECTOR)","BoundingFrustum::Transform","BoundingFrustum::Transform(BoundingFrustum &","float","FXMVECTOR","FXMVECTOR)","Transform","Transform method [DirectX Math Support APIs]","Transform method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_transform_2"]

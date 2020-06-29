@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusbrush.TextureBrush.TextureBrush(const TextureBrush &)
+UID: NF:gdiplusbrush.TextureBrush.TextureBrush(constTextureBrush&)
 title: TextureBrush::TextureBrush(const TextureBrush &) (gdiplusbrush.h)
 description: This topic lists the constructors of the TextureBrush class. For a complete class listing, see TextureBrush Class.
 helpviewer_keywords: ["TextureBrush","TextureBrush constructors [GDI+]","TextureBrush.TextureBrush","TextureBrush.TextureBrush(const TextureBrush &)","TextureBrush::TextureBrush","TextureBrush::TextureBrush(const TextureBrush &)","_gdiplus_CLASS_TextureBrush_Constructors","gdiplus._gdiplus_CLASS_TextureBrush_Constructors","gdiplusbrush/TextureBrush"]

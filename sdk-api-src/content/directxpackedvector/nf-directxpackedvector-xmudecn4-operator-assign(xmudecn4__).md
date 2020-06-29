@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMUDECN4.operator-assign(XMUDECN4 &&)
+UID: NF:directxpackedvector.XMUDECN4.operator-assign(XMUDECN4&&)
 title: XMUDECN4::operator-assign(XMUDECN4 &&) (directxpackedvector.h)
 description: Assigns the vector component data from one instance of XMUDECN4 to the current instance of XMUDECN4.
 helpviewer_keywords: ["XMUDECN4 structure [DirectX Math Support APIs]","operator = method","XMUDECN4.operator =(const XMUDECN4&)","XMUDECN4.operator-assign(XMUDECN4 &&)","XMUDECN4.operator=","XMUDECN4::operator-assign(XMUDECN4 &&)","XMUDECN4::operator=","dxmath.xmudecn4_operator_eq_1","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMUDECN4 structure","operator="]

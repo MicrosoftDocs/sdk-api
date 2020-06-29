@@ -1,5 +1,5 @@
 ---
-UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivityId(const GUID)
+UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivityId(constGUID)
 title: TraceLoggingActivity::SetRelatedActivityId(const GUID) (traceloggingactivity.h)
 description: Uses the unique identifier of an activity to set the related activity for this TraceLoggingActivity object.
 helpviewer_keywords: ["SetRelatedActivityId","SetRelatedActivityId method","SetRelatedActivityId method","TraceLoggingActivity interface","TraceLoggingActivity interface","SetRelatedActivityId method","TraceLoggingActivity.SetRelatedActivityId","TraceLoggingActivity.SetRelatedActivityId(const GUID)","TraceLoggingActivity::SetRelatedActivityId","TraceLoggingActivity::SetRelatedActivityId(const GUID)","tracelogging.traceloggingactivity_setrelatedactivityid","traceloggingactivity/TraceLoggingActivity::SetRelatedActivityId"]

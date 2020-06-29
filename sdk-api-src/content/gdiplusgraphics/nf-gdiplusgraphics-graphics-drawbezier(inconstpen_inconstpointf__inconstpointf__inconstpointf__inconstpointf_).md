@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawBezier(IN const Pen,IN const PointF &,IN const PointF &,IN const PointF &,IN const PointF &)
+UID: NF:gdiplusgraphics.Graphics.DrawBezier(INconstPen,INconstPointF&,INconstPointF&,INconstPointF&,INconstPointF&)
 title: Graphics::DrawBezier(IN const Pen,IN const PointF &,IN const PointF &,IN const PointF &,IN const PointF &) (gdiplusgraphics.h)
 description: The Graphics::DrawBezier method draws a B&#233;zier spline.
 helpviewer_keywords: ["DrawBezier","DrawBezier method [GDI+]","DrawBezier method [GDI+]","Graphics class","Graphics class [GDI+]","DrawBezier method","Graphics.DrawBezier","Graphics.DrawBezier(IN const Pen","IN const PointF &","IN const PointF &","IN const PointF &","IN const PointF &)","Graphics.DrawBezier(const Pen*","const POINTF&","const POINTF&","const POINTF&","const POINTF&)","Graphics::DrawBezier","Graphics::DrawBezier(IN const Pen","IN const PointF &","IN const PointF &","IN const PointF &","IN const PointF &)","_gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_PointF_pt1_PointF_pt2_PointF_pt3_PointF_pt4_","gdiplus._gdiplus_CLASS_Graphics_DrawBezier_Pen_pen_PointF_pt1_PointF_pt2_PointF_pt3_PointF_pt4_"]

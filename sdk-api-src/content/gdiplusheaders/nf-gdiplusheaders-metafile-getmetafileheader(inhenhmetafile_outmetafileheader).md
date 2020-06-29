@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader)
+UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(INHENHMETAFILE,OUTMetafileHeader)
 title: Metafile::GetMetafileHeader(IN HENHMETAFILE,OUT MetafileHeader) (gdiplusheaders.h)
 description: The Metafile::GetMetafileHeader method gets the header.
 helpviewer_keywords: ["GetMetafileHeader","GetMetafileHeader method [GDI+]","GetMetafileHeader method [GDI+]","Metafile class","Metafile class [GDI+]","GetMetafileHeader method","Metafile.GetMetafileHeader","Metafile.GetMetafileHeader(HENHMETAFILE*","MetafileHeader*)","Metafile.GetMetafileHeader(IN HENHMETAFILE","OUT MetafileHeader)","Metafile::GetMetafileHeader","Metafile::GetMetafileHeader(IN HENHMETAFILE","OUT MetafileHeader)","_gdiplus_CLASS_Metafile_GetMetafileHeader_hEmf_header_","gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_hEmf_header_"]

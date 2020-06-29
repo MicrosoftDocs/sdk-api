@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawRectangle(IN const Pen,IN const Rect &)
+UID: NF:gdiplusgraphics.Graphics.DrawRectangle(INconstPen,INconstRect&)
 title: Graphics::DrawRectangle(IN const Pen,IN const Rect &) (gdiplusgraphics.h)
 description: The Graphics::DrawRectangle method draws a rectangle.
 helpviewer_keywords: ["DrawRectangle","DrawRectangle method [GDI+]","DrawRectangle method [GDI+]","Graphics class","Graphics class [GDI+]","DrawRectangle method","Graphics.DrawRectangle","Graphics.DrawRectangle(IN const Pen","IN const Rect &)","Graphics.DrawRectangle(const Pen*","const Rect&)","Graphics::DrawRectangle","Graphics::DrawRectangle(IN const Pen","IN const Rect &)","_gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_Rect_rect_","gdiplus._gdiplus_CLASS_Graphics_DrawRectangle_Pen_pen_Rect_rect_"]

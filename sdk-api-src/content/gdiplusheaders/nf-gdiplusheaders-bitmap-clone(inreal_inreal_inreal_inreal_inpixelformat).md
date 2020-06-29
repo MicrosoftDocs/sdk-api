@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Bitmap.Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat)
+UID: NF:gdiplusheaders.Bitmap.Clone(INREAL,INREAL,INREAL,INREAL,INPixelFormat)
 title: Bitmap::Clone(IN REAL,IN REAL,IN REAL,IN REAL,IN PixelFormat) (gdiplusheaders.h)
 description: The Bitmap::Clone method creates a new Bitmapobject by copying a portion of this bitmap.
 helpviewer_keywords: ["Bitmap class [GDI+]","Clone method","Bitmap.Clone","Bitmap.Clone(IN REAL","IN REAL","IN REAL","IN REAL","IN PixelFormat)","Bitmap.Clone(REAL","REAL","REAL","REAL","PixelFormat)","Bitmap::Clone","Bitmap::Clone(IN REAL","IN REAL","IN REAL","IN REAL","IN PixelFormat)","Clone","Clone method [GDI+]","Clone method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_Clone_REAL_x_REAL_y_REAL_width_REAL_height_PixelFormat_format_","gdiplus._gdiplus_CLASS_Bitmap_Clone_REAL_x_REAL_y_REAL_width_REAL_height_PixelFormat_format_"]

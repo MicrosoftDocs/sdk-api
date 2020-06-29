@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplustypes.Point.Point(IN const Size &)
+UID: NF:gdiplustypes.Point.Point(INconstSize&)
 title: Point::Point(IN const Size &) (gdiplustypes.h)
 description: Creates a Point object using a Size object to initialize the X and Y data members.
 helpviewer_keywords: ["Point","Point class [GDI+]","Point constructor","Point constructor [GDI+]","Point constructor [GDI+]","Point class","Point.Point","Point.Point(IN const Size &)","Point.Point(const Size&)","Point::Point","Point::Point(IN const Size &)","_gdiplus_CLASS_Point_Point_size_","gdiplus._gdiplus_CLASS_Point_Point_size_"]

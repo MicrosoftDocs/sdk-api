@@ -1,5 +1,5 @@
 ---
-UID: NF:directxpackedvector.XMU555.operator-assign(XMU555 &&)
+UID: NF:directxpackedvector.XMU555.operator-assign(XMU555&&)
 title: XMU555::operator-assign(XMU555 &&) (directxpackedvector.h)
 description: Assigns the vector component data from one instance of XMU555 to the current instance of XMU555.
 helpviewer_keywords: ["XMU555 structure [DirectX Math Support APIs]","operator = method","XMU555.operator =(const XMU555&)","XMU555.operator-assign(XMU555 &&)","XMU555.operator=","XMU555::operator-assign(XMU555 &&)","XMU555::operator=","dxmath.xmu555_operator_eq_1","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMU555 structure","operator="]

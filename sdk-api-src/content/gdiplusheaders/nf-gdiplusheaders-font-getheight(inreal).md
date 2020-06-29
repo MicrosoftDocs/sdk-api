@@ -1,5 +1,5 @@
 ---
-UID: NF:gdiplusheaders.Font.GetHeight(IN REAL)
+UID: NF:gdiplusheaders.Font.GetHeight(INREAL)
 title: Font::GetHeight(IN REAL) (gdiplusheaders.h)
 description: The Font::GetHeight method gets the line spacing, in pixels, of this font.
 helpviewer_keywords: ["Font class [GDI+]","GetHeight method","Font.GetHeight","Font.GetHeight(IN REAL)","Font.GetHeight(REAL)","Font::GetHeight","Font::GetHeight(IN REAL)","GetHeight","GetHeight method [GDI+]","GetHeight method [GDI+]","Font class","_gdiplus_CLASS_Font_GetHeight_dpi_","gdiplus._gdiplus_CLASS_Font_GetHeight_dpi_"]
