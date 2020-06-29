@@ -72,8 +72,7 @@ A pointer to the SRW lock.
 
 ## -remarks
 
-SRW lock cannot be released by a different thread from the one that has acquired it.
-Correct thread usage may not be enforced by the API, it is undefined what happens on violations.
+The SRW lock must be released by the same thread that acquired it. You can use Application Verifier to help verify that your program uses SRW locks correctly (enable Locks checker from Basic group).
 
 
 ## -see-also
