@@ -109,7 +109,7 @@ The number of icons to extract from the file.
 
 Type: <b>UINT</b>
 
-If the <i>nIconIndex</i> parameter is -1, the <i>phiconLarge</i> parameter is <b>NULL</b>, and the <i>phiconSmall</i> parameter is <b>NULL</b>, then the return value is the number of icons contained in the specified file. Otherwise, the return value is the number of icons successfully extracted from the file.
+If the <i>nIconIndex</i> parameter is -1, the <i>phiconLarge</i> parameter is <b>NULL</b>, and the <i>phiconSmall</i> parameter is <b>NULL</b>, then the return value is the number of icons contained in the specified file. If the <i>nIconIndex</i> parameter is not negative, either the <i>phiconLarge</i> parameter or the <i>phiconSmall</i> parameter is not <b>NULL</b>, and the <i>lpszFile</i> does not exist, then the return value is 4294967295(the maximum value of a 32-bit unsigned inteager). Otherwise, the return value is the number of icons successfully extracted from the file.
 
 
 
