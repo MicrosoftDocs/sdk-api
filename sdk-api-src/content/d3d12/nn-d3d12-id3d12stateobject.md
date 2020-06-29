@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a variable amount of configuration state, including shaders, that an application manages as a single unit and which is given to a driver atomically to process, such as compile or optimize. Create a state object by calling <a href="https://docs.microsoft.com/en-us/windows/win32/api/d3d12/nf-d3d12-id3d12device5-createstateobject">ID3D12Device5::CreateStateObject</a>. 
+Represents a variable amount of configuration state, including shaders, that an application manages as a single unit and which is given to a driver atomically to process, such as compile or optimize. Create a state object by calling <a href="https://docs.microsoft.com/windows/win32/api/d3d12/nf-d3d12-id3d12device5-createstateobject">ID3D12Device5::CreateStateObject</a>. 
 
 
 ## -see-also
