@@ -81,7 +81,7 @@ Reserved for future use.
 
 ### -field pDeviceCollection
 
-A pointer to an IMMDeviceCollection object.
+A pointer to an IMMDeviceCollection object. The last item in the *pDeviceCollection* is always the [IMMDevice](/windows/win32/api/mmdeviceapi/nn-mmdeviceapi-immdevice) representing the audio endpoint. 
 
 
 ### -field nSoftwareIoDeviceInCollection
