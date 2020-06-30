@@ -320,7 +320,7 @@ Yes
 
 #### Examples
 
-The following example demonstrates the us of the 
+The following example demonstrates the use of the 
      <b>GetFinalPathNameByHandle</b> function.
 
 
