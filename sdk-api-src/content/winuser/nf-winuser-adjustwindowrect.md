@@ -104,6 +104,8 @@ The <b>AdjustWindowRect</b> function does not add extra space when a menu bar wr
 
 The <b>AdjustWindowRect</b> function does not take the <b>WS_VSCROLL</b> or <b>WS_HSCROLL</b> styles into account. To account for the scroll bars, call the  <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getsystemmetrics">GetSystemMetrics</a> function with <b>SM_CXVSCROLL</b> or <b>SM_CYHSCROLL</b>. 
 
+Both the coordinates of the top-left and bottom-right corners can be adjusted after the call. To get the width and height of the window, it should always be calculated, not just assumed to be the bottom-right corner of window rectangle.
+
 
 
 
