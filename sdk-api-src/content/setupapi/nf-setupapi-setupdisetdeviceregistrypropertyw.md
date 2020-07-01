@@ -73,9 +73,43 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 One of the following values, which identifies the property to be set. For descriptions of these values, see <a href="https://docs.microsoft.com/windows/desktop/api/setupapi/nf-setupapi-setupdigetdeviceregistrypropertya">SetupDiGetDeviceRegistryProperty</a>. 
 
-<div class="alert"><b>Note</b>  <b>SPDRP_HARDWAREID</b> or <b>SPDRP_COMPATIBLEIDS</b> can only be used when <i>DeviceInfoData</i> represents a root-enumerated device. For other devices, the bus driver reports hardware and compatible IDs when enumerating a child device after receiving <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a>.</div>
-<div> </div>
-The following values are reserved for use by the operating system and cannot be used in the <i>Property</i> parameter:
+* SPDRP_CONFIGFLAGS
+* SPDRP_EXCLUSIVE
+* SPDRP_FRIENDLYNAME
+* SPDRP_LOCATION_INFORMATION
+* SPDRP_LOWERFILTERS
+* SPDRP_REMOVAL_POLICY_OVERRIDE
+* SPDRP_SECURITY
+* SPDRP_SECURITY_SDS
+* SPDRP_UI_NUMBER_DESC_FORMAT
+* SPDRP_UPPERFILTERS
+
+> [!NOTE]
+> SPDRP_HARDWAREID or SPDRP_COMPATIBLEIDS can only be used when *DeviceInfoData* represents a root-enumerated device. For other devices, the bus driver reports hardware and compatible IDs when enumerating a child device after receiving <a href="https://docs.microsoft.com/windows-hardware/drivers/kernel/irp-mn-query-id">IRP_MN_QUERY_ID</a>.
+
+The following values are reserved for use by the operating system and cannot be used in the *Property* parameter:
+
+* SPDRP_ADDRESS
+* SPDRP_BUSNUMBER
+* SPDRP_BUSTYPEGUID
+* SPDRP_CHARACTERISTICS
+* SPDRP_CAPABILITIES
+* SPDRP_CLASS
+* SPDRP_CLASSGUID
+* SPDRP_DEVICE_POWER_DATA
+* SPDRP_DEVICEDESC
+* SPDRP_DEVTYPE
+* SPDRP_DRIVER
+* SPDRP_ENUMERATOR_NAME
+* SPDRP_INSTALL_STATE
+* SPDRP_LEGACYBUSTYPE
+* SPDRP_LOCATION_PATHS
+* SPDRP_MFG
+* SPDRP_PHYSICAL_DEVICE_OBJECT_NAME
+* SPDRP_REMOVAL_POLICY
+* SPDRP_REMOVAL_POLICY_HW_DEFAULT
+* SPDRP_SERVICE
+* SPDRP_UI_NUMBER
 
 
 ### -param PropertyBuffer [in, optional]
