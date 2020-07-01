@@ -107,9 +107,14 @@ The number of icons to extract from the file.
 
 
 
-Type: <b>UINT</b>
+Type: **UINT**
 
-If the <i>nIconIndex</i> parameter is -1, the <i>phiconLarge</i> parameter is <b>NULL</b>, and the <i>phiconSmall</i> parameter is <b>NULL</b>, then the return value is the number of icons contained in the specified file. Otherwise, the return value is the number of icons successfully extracted from the file.
+If the *nIconIndex* parameter is -1 and both the *phiconLarge* and *phiconSmall* parameters are **NULL**, then the return value is the number of icons contained in the specified file.
+
+If the *nIconIndex* parameter is any value other than -1 and either *phiconLarge* or *phiconSmall* is not **NULL**, the return value is the number of icons successfully extracted from the file.
+
+> [!NOTE]
+> If the function encounters an error, it returns **UINT_MAX**. In this case, you can call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error code. For example, this function returns **UINT_MAX** if the file specified by *lpszFile* cannot be found while the *nIconIndex* parameter is any value other than -1 and either *phiconLarge* or *phiconSmall* is not **NULL**. In this case, **GetLastError** returns **ERROR_FILE_NOT_FOUND** (2).
 
 
 
