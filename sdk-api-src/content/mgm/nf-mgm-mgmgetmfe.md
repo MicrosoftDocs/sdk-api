@@ -1,7 +1,8 @@
 ---
 UID: NF:mgm.MgmGetMfe
 title: MgmGetMfe function (mgm.h)
-description: The MgmGetMfe function retrieves a specific MFE.helpviewer_keywords: ["MgmGetMfe","MgmGetMfe function [RAS]","_mpr_mgmgetmfe","mgm/MgmGetMfe","rras.mgmgetmfe"]
+description: The MgmGetMfe function retrieves a specific MFE.
+helpviewer_keywords: ["MgmGetMfe","MgmGetMfe function [RAS]","_mpr_mgmgetmfe","mgm/MgmGetMfe","rras.mgmgetmfe"]
 old-location: rras\mgmgetmfe.htm
 tech.root: RRAS
 ms.assetid: 15b1b096-9044-4983-9039-e7a13c2cca25

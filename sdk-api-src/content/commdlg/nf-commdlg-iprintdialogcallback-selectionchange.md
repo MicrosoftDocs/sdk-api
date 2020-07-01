@@ -1,7 +1,8 @@
 ---
 UID: NF:commdlg.IPrintDialogCallback.SelectionChange
 title: IPrintDialogCallback::SelectionChange (commdlg.h)
-description: Called by PrintDlgEx when the user selects a different printer from the list of installed printers on the General page of the Print Property Sheet.helpviewer_keywords: ["IPrintDialogCallback interface [Dialog Boxes]","SelectionChange method","IPrintDialogCallback.SelectionChange","IPrintDialogCallback::SelectionChange","SelectionChange","SelectionChange method [Dialog Boxes]","SelectionChange method [Dialog Boxes]","IPrintDialogCallback interface","_win32_IPrintDialogCallback_SelectionChange","_win32_iprintdialogcallback_selectionchange_cpp","commdlg/IPrintDialogCallback::SelectionChange","dlgbox.iprintdialogcallback_selectionchange","winui._win32_iprintdialogcallback_selectionchange"]
+description: Called by PrintDlgEx when the user selects a different printer from the list of installed printers on the General page of the Print Property Sheet.
+helpviewer_keywords: ["IPrintDialogCallback interface [Dialog Boxes]","SelectionChange method","IPrintDialogCallback.SelectionChange","IPrintDialogCallback::SelectionChange","SelectionChange","SelectionChange method [Dialog Boxes]","SelectionChange method [Dialog Boxes]","IPrintDialogCallback interface","_win32_IPrintDialogCallback_SelectionChange","_win32_iprintdialogcallback_selectionchange_cpp","commdlg/IPrintDialogCallback::SelectionChange","dlgbox.iprintdialogcallback_selectionchange","winui._win32_iprintdialogcallback_selectionchange"]
 old-location: dlgbox\iprintdialogcallback_selectionchange.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback\iprintdialogcallbackselectionchange.htm

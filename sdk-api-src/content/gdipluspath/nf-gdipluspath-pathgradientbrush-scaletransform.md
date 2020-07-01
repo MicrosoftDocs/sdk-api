@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.ScaleTransform
 title: PathGradientBrush::ScaleTransform (gdipluspath.h)
-description: The PathGradientBrush::ScaleTransform method updates this brush's current transformation matrix with the product of itself and a scaling matrix.helpviewer_keywords: ["PathGradientBrush class [GDI+]","ScaleTransform method","PathGradientBrush.ScaleTransform","PathGradientBrush::ScaleTransform","ScaleTransform","ScaleTransform method [GDI+]","ScaleTransform method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_","gdiplus._gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_"]
+description: The PathGradientBrush::ScaleTransform method updates this brush's current transformation matrix with the product of itself and a scaling matrix.
+helpviewer_keywords: ["PathGradientBrush class [GDI+]","ScaleTransform method","PathGradientBrush.ScaleTransform","PathGradientBrush::ScaleTransform","ScaleTransform","ScaleTransform method [GDI+]","ScaleTransform method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_","gdiplus._gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_ScaleTransform_sx_sy_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\scaletransform_38sx_sy_order.htm

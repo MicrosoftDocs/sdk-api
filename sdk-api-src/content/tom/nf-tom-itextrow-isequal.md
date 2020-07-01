@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRow.IsEqual
 title: ITextRow::IsEqual (tom.h)
-description: Compares two table rows to determine if they have the same properties.helpviewer_keywords: ["ITextRow interface [Windows Controls]","IsEqual method","ITextRow.IsEqual","ITextRow::IsEqual","IsEqual","IsEqual method [Windows Controls]","IsEqual method [Windows Controls]","ITextRow interface","controls.itextrow_isequal","tom/ITextRow::IsEqual"]
+description: Compares two table rows to determine if they have the same properties.
+helpviewer_keywords: ["ITextRow interface [Windows Controls]","IsEqual method","ITextRow.IsEqual","ITextRow::IsEqual","IsEqual","IsEqual method [Windows Controls]","IsEqual method [Windows Controls]","ITextRow interface","controls.itextrow_isequal","tom/ITextRow::IsEqual"]
 old-location: controls\itextrow_isequal.htm
 tech.root: Controls
 ms.assetid: 2e516a4d-0f3b-475b-969d-661662bfaeef

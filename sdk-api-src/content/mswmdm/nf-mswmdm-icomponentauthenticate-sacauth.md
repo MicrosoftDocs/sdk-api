@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IComponentAuthenticate.SACAuth
 title: IComponentAuthenticate::SACAuth (mswmdm.h)
-description: The SACAuth method establishes a secure authenticated channel between components.helpviewer_keywords: ["IComponentAuthenticate interface [windows Media Device Manager]","SACAuth method","IComponentAuthenticate.SACAuth","IComponentAuthenticate::SACAuth","IComponentAuthenticateSACAuth","SACAuth","SACAuth method [windows Media Device Manager]","SACAuth method [windows Media Device Manager]","IComponentAuthenticate interface","mswmdm/IComponentAuthenticate::SACAuth","wmdm.icomponentauthenticate_sacauth"]
+description: The SACAuth method establishes a secure authenticated channel between components.
+helpviewer_keywords: ["IComponentAuthenticate interface [windows Media Device Manager]","SACAuth method","IComponentAuthenticate.SACAuth","IComponentAuthenticate::SACAuth","IComponentAuthenticateSACAuth","SACAuth","SACAuth method [windows Media Device Manager]","SACAuth method [windows Media Device Manager]","IComponentAuthenticate interface","mswmdm/IComponentAuthenticate::SACAuth","wmdm.icomponentauthenticate_sacauth"]
 old-location: wmdm\icomponentauthenticate_sacauth.htm
 tech.root: WMDM
 ms.assetid: 26cecd09-5f28-47e5-92ec-c2f277be8052

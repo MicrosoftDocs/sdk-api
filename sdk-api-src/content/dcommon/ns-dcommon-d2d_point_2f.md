@@ -1,7 +1,8 @@
 ---
 UID: NS:dcommon.D2D_POINT_2F
 title: D2D_POINT_2F (dcommon.h)
-description: Represents an x-coordinate and y-coordinate pair, expressed as floating-point values, in two-dimensional space.helpviewer_keywords: ["D2D1_POINT_2F","D2D_POINT_2F","D2D_POINT_2F structure [Direct2D]","dcommon/D2D_POINT_2F","direct2d.D2D_POINT_2F"]
+description: Represents an x-coordinate and y-coordinate pair, expressed as floating-point values, in two-dimensional space.
+helpviewer_keywords: ["D2D1_POINT_2F","D2D_POINT_2F","D2D_POINT_2F structure [Direct2D]","dcommon/D2D_POINT_2F","direct2d.D2D_POINT_2F"]
 old-location: direct2d\D2D_POINT_2F.htm
 tech.root: Direct2D
 ms.assetid: 2ee55d63-594b-482d-9e31-2378369c6c30

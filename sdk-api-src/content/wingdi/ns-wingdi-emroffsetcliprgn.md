@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMROFFSETCLIPRGN
 title: EMROFFSETCLIPRGN (wingdi.h)
-description: The EMROFFSETCLIPRGN structure contains members for the OffsetClipRgn enhanced metafile record.helpviewer_keywords: ["*PEMROFFSETCLIPRGN","EMROFFSETCLIPRGN","EMROFFSETCLIPRGN structure [Windows GDI]","PEMROFFSETCLIPRGN","PEMROFFSETCLIPRGN structure pointer [Windows GDI]","_win32_EMROFFSETCLIPRGN_str","gdi.emroffsetcliprgn","wingdi/EMROFFSETCLIPRGN","wingdi/PEMROFFSETCLIPRGN"]
+description: The EMROFFSETCLIPRGN structure contains members for the OffsetClipRgn enhanced metafile record.
+helpviewer_keywords: ["*PEMROFFSETCLIPRGN","EMROFFSETCLIPRGN","EMROFFSETCLIPRGN structure [Windows GDI]","PEMROFFSETCLIPRGN","PEMROFFSETCLIPRGN structure pointer [Windows GDI]","_win32_EMROFFSETCLIPRGN_str","gdi.emroffsetcliprgn","wingdi/EMROFFSETCLIPRGN","wingdi/PEMROFFSETCLIPRGN"]
 old-location: gdi\emroffsetcliprgn.htm
 tech.root: gdi
 ms.assetid: 814a1105-0edc-4d1e-9f94-1c13152c0925

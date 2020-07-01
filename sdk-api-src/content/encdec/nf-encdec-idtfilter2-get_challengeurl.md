@@ -1,7 +1,8 @@
 ---
 UID: NF:encdec.IDTFilter2.get_ChallengeUrl
 title: IDTFilter2::get_ChallengeUrl (encdec.h)
-description: Not implemented in this release.helpviewer_keywords: ["IDTFilter2 interface [Microsoft TV Technologies]","get_ChallengeUrl method","IDTFilter2.get_ChallengeUrl","IDTFilter2::get_ChallengeUrl","IDTFilter2get_ChallengeUrl","encdec/IDTFilter2::get_ChallengeUrl","get_ChallengeUrl","get_ChallengeUrl method [Microsoft TV Technologies]","get_ChallengeUrl method [Microsoft TV Technologies]","IDTFilter2 interface","mstv.idtfilter2_get_challengeurl"]
+description: Not implemented in this release.
+helpviewer_keywords: ["IDTFilter2 interface [Microsoft TV Technologies]","get_ChallengeUrl method","IDTFilter2.get_ChallengeUrl","IDTFilter2::get_ChallengeUrl","IDTFilter2get_ChallengeUrl","encdec/IDTFilter2::get_ChallengeUrl","get_ChallengeUrl","get_ChallengeUrl method [Microsoft TV Technologies]","get_ChallengeUrl method [Microsoft TV Technologies]","IDTFilter2 interface","mstv.idtfilter2_get_challengeurl"]
 old-location: mstv\idtfilter2_get_challengeurl.htm
 tech.root: mstv
 ms.assetid: 46bb9197-839a-4a49-98b5-c51164651868

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamLumaKey
 title: ID3D11VideoContext::VideoProcessorGetStreamLumaKey (d3d11.h)
-description: Gets the luma key for an input stream of the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamLumaKey method","ID3D11VideoContext.VideoProcessorGetStreamLumaKey","ID3D11VideoContext::VideoProcessorGetStreamLumaKey","VideoProcessorGetStreamLumaKey","VideoProcessorGetStreamLumaKey method [Media Foundation]","VideoProcessorGetStreamLumaKey method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamLumaKey","mf.id3d11videocontext_videoprocessorgetstreamlumakey"]
+description: Gets the luma key for an input stream of the video processor.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamLumaKey method","ID3D11VideoContext.VideoProcessorGetStreamLumaKey","ID3D11VideoContext::VideoProcessorGetStreamLumaKey","VideoProcessorGetStreamLumaKey","VideoProcessorGetStreamLumaKey method [Media Foundation]","VideoProcessorGetStreamLumaKey method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamLumaKey","mf.id3d11videocontext_videoprocessorgetstreamlumakey"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreamlumakey.htm
 tech.root: medfound
 ms.assetid: 1DE22456-84E9-478F-A6CA-4C9CACF7E9AF

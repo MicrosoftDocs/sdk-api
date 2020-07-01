@@ -1,7 +1,8 @@
 ---
 UID: NF:xenroll.IEnroll.put_RootStoreFlags
 title: IEnroll::put_RootStoreFlags (xenroll.h)
-description: Sets or retrieves the registry location used for the root store.helpviewer_keywords: ["IEnroll interface [Security]","RootStoreFlags property","IEnroll.RootStoreFlags","IEnroll.put_RootStoreFlags","IEnroll::RootStoreFlags","IEnroll::get_RootStoreFlags","IEnroll::put_RootStoreFlags","RootStoreFlags property [Security]","RootStoreFlags property [Security]","IEnroll interface","put_RootStoreFlags","security.ienroll4_rootstoreflags","xenroll/IEnroll::RootStoreFlags","xenroll/IEnroll::get_RootStoreFlags","xenroll/IEnroll::put_RootStoreFlags"]
+description: Sets or retrieves the registry location used for the root store.
+helpviewer_keywords: ["IEnroll interface [Security]","RootStoreFlags property","IEnroll.RootStoreFlags","IEnroll.put_RootStoreFlags","IEnroll::RootStoreFlags","IEnroll::get_RootStoreFlags","IEnroll::put_RootStoreFlags","RootStoreFlags property [Security]","RootStoreFlags property [Security]","IEnroll interface","put_RootStoreFlags","security.ienroll4_rootstoreflags","xenroll/IEnroll::RootStoreFlags","xenroll/IEnroll::get_RootStoreFlags","xenroll/IEnroll::put_RootStoreFlags"]
 old-location: security\ienroll4_rootstoreflags.htm
 tech.root: SecCrypto
 ms.assetid: fa4640db-f3e5-4fe0-a696-26b5e13b7dd1

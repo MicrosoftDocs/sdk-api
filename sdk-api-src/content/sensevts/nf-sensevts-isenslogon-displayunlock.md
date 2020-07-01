@@ -1,7 +1,8 @@
 ---
 UID: NF:sensevts.ISensLogon.DisplayUnlock
 title: ISensLogon::DisplayUnlock (sensevts.h)
-description: The DisplayUnLock method notifies an application that the screen display is unlocked.helpviewer_keywords: ["DisplayUnLock method [SENS]","DisplayUnLock method [SENS]","ISensLogon interface","DisplayUnlock","ISensLogon interface [SENS]","DisplayUnLock method","ISensLogon.DisplayUnlock","ISensLogon::DisplayUnLock","ISensLogon::DisplayUnlock","_zaw_isenslogon_displayunlock","sens.isenslogon_displayunlock","sensevts/ISensLogon::DisplayUnLock","syncmgr.isenslogon_displayunlock"]
+description: The DisplayUnLock method notifies an application that the screen display is unlocked.
+helpviewer_keywords: ["DisplayUnLock method [SENS]","DisplayUnLock method [SENS]","ISensLogon interface","DisplayUnlock","ISensLogon interface [SENS]","DisplayUnLock method","ISensLogon.DisplayUnlock","ISensLogon::DisplayUnLock","ISensLogon::DisplayUnlock","_zaw_isenslogon_displayunlock","sens.isenslogon_displayunlock","sensevts/ISensLogon::DisplayUnLock","syncmgr.isenslogon_displayunlock"]
 old-location: sens\isenslogon_displayunlock.htm
 tech.root: Sens
 ms.assetid: aa1b1beb-f59a-4990-84e1-deca1432f6cf

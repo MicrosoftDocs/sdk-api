@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.IProtocolHandlerSite
 title: IProtocolHandlerSite (searchapi.h)
-description: Provides methods for a protocol handler's IUrlAccessor object to query the Filter Daemon for the appropriate filter for the URL item.helpviewer_keywords: ["IProtocolHandlerSite","IProtocolHandlerSite interface [search]","IProtocolHandlerSite interface [search]","described","_search_IProtocolHandlerSite","search._search_IProtocolHandlerSite","searchapi/IProtocolHandlerSite"]
+description: Provides methods for a protocol handler's IUrlAccessor object to query the Filter Daemon for the appropriate filter for the URL item.
+helpviewer_keywords: ["IProtocolHandlerSite","IProtocolHandlerSite interface [search]","IProtocolHandlerSite interface [search]","described","_search_IProtocolHandlerSite","search._search_IProtocolHandlerSite","searchapi/IProtocolHandlerSite"]
 old-location: search\_search_IProtocolHandlerSite.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iprotocolhandlersite\iprotocolhandlersite.htm

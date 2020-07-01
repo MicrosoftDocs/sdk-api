@@ -1,7 +1,8 @@
 ---
 UID: NE:cmdtree.DBCOMMANDOPENUM
 title: DBCOMMANDOPENUM (cmdtree.h)
-description: The DBCOMMANDOPENUM enumerated type contains a list of the possible command operators for nodes in a command tree.helpviewer_keywords: ["DBCOMMANDOPENUM","DBCOMMANDOPENUM enumeration [Indexing Service]","See below.","_idxs_DBCOMMANDOPENUM","cmdtree/DBCOMMANDOPENUM","cmdtree/See below.","indexsrv.dbcommandopenum"]
+description: The DBCOMMANDOPENUM enumerated type contains a list of the possible command operators for nodes in a command tree.
+helpviewer_keywords: ["DBCOMMANDOPENUM","DBCOMMANDOPENUM enumeration [Indexing Service]","See below.","_idxs_DBCOMMANDOPENUM","cmdtree/DBCOMMANDOPENUM","cmdtree/See below.","indexsrv.dbcommandopenum"]
 old-location: indexsrv\dbcommandopenum.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_6yp9.htm

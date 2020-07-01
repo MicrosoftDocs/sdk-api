@@ -1,7 +1,8 @@
 ---
 UID: NF:amvideo.IDirectDrawVideo.WillUseFullScreen
 title: IDirectDrawVideo::WillUseFullScreen (amvideo.h)
-description: The WillUseFullScreen method determines whether DirectShow will change display mode when going to full-screen mode.helpviewer_keywords: ["IDirectDrawVideo interface [DirectShow]","WillUseFullScreen method","IDirectDrawVideo.WillUseFullScreen","IDirectDrawVideo::WillUseFullScreen","IDirectDrawVideoWillUseFullScreen","WillUseFullScreen","WillUseFullScreen method [DirectShow]","WillUseFullScreen method [DirectShow]","IDirectDrawVideo interface","amvideo/IDirectDrawVideo::WillUseFullScreen","dshow.idirectdrawvideo_willusefullscreen"]
+description: The WillUseFullScreen method determines whether DirectShow will change display mode when going to full-screen mode.
+helpviewer_keywords: ["IDirectDrawVideo interface [DirectShow]","WillUseFullScreen method","IDirectDrawVideo.WillUseFullScreen","IDirectDrawVideo::WillUseFullScreen","IDirectDrawVideoWillUseFullScreen","WillUseFullScreen","WillUseFullScreen method [DirectShow]","WillUseFullScreen method [DirectShow]","IDirectDrawVideo interface","amvideo/IDirectDrawVideo::WillUseFullScreen","dshow.idirectdrawvideo_willusefullscreen"]
 old-location: dshow\idirectdrawvideo_willusefullscreen.htm
 tech.root: DirectShow
 ms.assetid: de2addfc-e289-4277-a283-b7aa2aa47ba0

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRow.Apply
 title: ITextRow::Apply (tom.h)
-description: Applies the formatting attributes of this text row object to the specified rows in the associated ITextRange2.helpviewer_keywords: ["Apply","Apply method [Windows Controls]","Apply method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","Apply method","ITextRow.Apply","ITextRow::Apply","controls.itextrow_apply","tom/ITextRow::Apply","tomCellStructureChangeOnly","tomRowApplyDefault"]
+description: Applies the formatting attributes of this text row object to the specified rows in the associated ITextRange2.
+helpviewer_keywords: ["Apply","Apply method [Windows Controls]","Apply method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","Apply method","ITextRow.Apply","ITextRow::Apply","controls.itextrow_apply","tom/ITextRow::Apply","tomCellStructureChangeOnly","tomRowApplyDefault"]
 old-location: controls\itextrow_apply.htm
 tech.root: Controls
 ms.assetid: f09f73d3-c71f-43f1-b671-aba392e1fb49

@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IEnumUnknown.Next
 title: IEnumUnknown::Next (objidl.h)
-description: Retrieves the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumUnknown interface [COM]","Next method","IEnumUnknown.Next","IEnumUnknown::Next","Next","Next method [COM]","Next method [COM]","IEnumUnknown interface","_com_ienumunknown_next","com.ienumunknown_next","objidlbase/IEnumUnknown::Next"]
+description: Retrieves the specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumUnknown interface [COM]","Next method","IEnumUnknown.Next","IEnumUnknown::Next","Next","Next method [COM]","Next method [COM]","IEnumUnknown interface","_com_ienumunknown_next","com.ienumunknown_next","objidlbase/IEnumUnknown::Next"]
 old-location: com\ienumunknown_next.htm
 tech.root: com
 ms.assetid: cef932cf-dacd-430d-8834-c41cc2d885a6

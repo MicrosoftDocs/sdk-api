@@ -1,7 +1,8 @@
 ---
 UID: NC:wincrypt.PFN_CRYPT_ENUM_OID_FUNC
 title: PFN_CRYPT_ENUM_OID_FUNC (wincrypt.h)
-description: The CRYPT_ENUM_OID_FUNCTION callback function is used with the CryptEnumOIDFunction function.helpviewer_keywords: ["CRYPT_ENUM_OID_FUNC","CRYPT_ENUM_OID_FUNCTION","CRYPT_ENUM_OID_FUNCTION callback function [Security]","PFN_CRYPT_ENUM_OID_FUNC","PFN_CRYPT_ENUM_OID_FUNC callback","security.crypt_enum_oid_function","wincrypt/CRYPT_ENUM_OID_FUNCTION"]
+description: The CRYPT_ENUM_OID_FUNCTION callback function is used with the CryptEnumOIDFunction function.
+helpviewer_keywords: ["CRYPT_ENUM_OID_FUNC","CRYPT_ENUM_OID_FUNCTION","CRYPT_ENUM_OID_FUNCTION callback function [Security]","PFN_CRYPT_ENUM_OID_FUNC","PFN_CRYPT_ENUM_OID_FUNC callback","security.crypt_enum_oid_function","wincrypt/CRYPT_ENUM_OID_FUNCTION"]
 old-location: security\crypt_enum_oid_function.htm
 tech.root: SecCrypto
 ms.assetid: f29a3454-fa64-4305-ba4e-027d45014024

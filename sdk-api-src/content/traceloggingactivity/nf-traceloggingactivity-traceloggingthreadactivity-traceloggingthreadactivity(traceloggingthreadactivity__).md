@@ -1,7 +1,8 @@
 ---
-UID: NF:traceloggingactivity.TraceLoggingThreadActivity.TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)
+UID: NF:traceloggingactivity.TraceLoggingThreadActivity.TraceLoggingThreadActivity(TraceLoggingThreadActivity&&)
 title: TraceLoggingThreadActivity::TraceLoggingThreadActivity(TraceLoggingThreadActivity &&) (traceloggingactivity.h)
-description: Initializes a new instance of the TraceLoggingThreadActivity class.helpviewer_keywords: ["TraceLoggingThreadActivity","TraceLoggingThreadActivity interface","TraceLoggingThreadActivity method","TraceLoggingThreadActivity method","TraceLoggingThreadActivity method","TraceLoggingThreadActivity interface","TraceLoggingThreadActivity.TraceLoggingThreadActivity","TraceLoggingThreadActivity.TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)","TraceLoggingThreadActivity::TraceLoggingThreadActivity","TraceLoggingThreadActivity::TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)","tracelogging.traceloggingthreadactivity_traceloggingthreadactivity","traceloggingactivity/TraceLoggingThreadActivity::TraceLoggingThreadActivity"]
+description: Initializes a new instance of the TraceLoggingThreadActivity class.
+helpviewer_keywords: ["TraceLoggingThreadActivity","TraceLoggingThreadActivity interface","TraceLoggingThreadActivity method","TraceLoggingThreadActivity method","TraceLoggingThreadActivity method","TraceLoggingThreadActivity interface","TraceLoggingThreadActivity.TraceLoggingThreadActivity","TraceLoggingThreadActivity.TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)","TraceLoggingThreadActivity::TraceLoggingThreadActivity","TraceLoggingThreadActivity::TraceLoggingThreadActivity(TraceLoggingThreadActivity &&)","tracelogging.traceloggingthreadactivity_traceloggingthreadactivity","traceloggingactivity/TraceLoggingThreadActivity::TraceLoggingThreadActivity"]
 old-location: tracelogging\traceloggingthreadactivity_traceloggingthreadactivity.htm
 tech.root: tracelogging
 ms.assetid: A83EE18B-F443-42B8-841D-83CF2BA0FCBC

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMTuner.put_CountryCode
 title: IAMTuner::put_CountryCode (strmif.h)
-description: The put_CountryCode method sets the country/region code to establish the frequency to use.helpviewer_keywords: ["IAMTuner interface [DirectShow]","put_CountryCode method","IAMTuner.put_CountryCode","IAMTuner::put_CountryCode","IAMTunerput_CountryCode","dshow.iamtuner_put_countrycode","put_CountryCode","put_CountryCode method [DirectShow]","put_CountryCode method [DirectShow]","IAMTuner interface","strmif/IAMTuner::put_CountryCode"]
+description: The put_CountryCode method sets the country/region code to establish the frequency to use.
+helpviewer_keywords: ["IAMTuner interface [DirectShow]","put_CountryCode method","IAMTuner.put_CountryCode","IAMTuner::put_CountryCode","IAMTunerput_CountryCode","dshow.iamtuner_put_countrycode","put_CountryCode","put_CountryCode method [DirectShow]","put_CountryCode method [DirectShow]","IAMTuner interface","strmif/IAMTuner::put_CountryCode"]
 old-location: dshow\iamtuner_put_countrycode.htm
 tech.root: DirectShow
 ms.assetid: d733f829-5600-4f75-9bc9-de8dc8dd8031

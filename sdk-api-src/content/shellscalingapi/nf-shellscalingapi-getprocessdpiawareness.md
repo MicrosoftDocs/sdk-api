@@ -1,7 +1,8 @@
 ---
 UID: NF:shellscalingapi.GetProcessDpiAwareness
 title: GetProcessDpiAwareness function (shellscalingapi.h)
-description: Retrieves the dots per inch (dpi) awareness of the specified process.helpviewer_keywords: ["GetProcessDpiAwareness","GetProcessDpiAwareness function [High DPI]","hidpi.getprocessdpiawareness","shellscalingapi/GetProcessDpiAwareness","winmsg.GetProcessDpiAwareness"]
+description: Retrieves the dots per inch (dpi) awareness of the specified process.
+helpviewer_keywords: ["GetProcessDpiAwareness","GetProcessDpiAwareness function [High DPI]","hidpi.getprocessdpiawareness","shellscalingapi/GetProcessDpiAwareness","winmsg.GetProcessDpiAwareness"]
 old-location: hidpi\getprocessdpiawareness.htm
 tech.root: hidpi
 ms.assetid: FC99DBC7-D710-49EF-B114-6CE6F1AE2454

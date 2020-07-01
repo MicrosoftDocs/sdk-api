@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_CALLOUT_ENUM_TEMPLATE0_
 title: FWPM_CALLOUT_ENUM_TEMPLATE0 (fwpmtypes.h)
-description: Used for limiting callout enumerations.helpviewer_keywords: ["FWPM_CALLOUT_ENUM_TEMPLATE0","FWPM_CALLOUT_ENUM_TEMPLATE0 structure [Filtering]","fwp.fwpm_callout_enum_template0_struct","fwpmtypes/FWPM_CALLOUT_ENUM_TEMPLATE0"]
+description: Used for limiting callout enumerations.
+helpviewer_keywords: ["FWPM_CALLOUT_ENUM_TEMPLATE0","FWPM_CALLOUT_ENUM_TEMPLATE0 structure [Filtering]","fwp.fwpm_callout_enum_template0_struct","fwpmtypes/FWPM_CALLOUT_ENUM_TEMPLATE0"]
 old-location: fwp\fwpm_callout_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 10997be6-069d-4d1a-a6b1-1a1e0a5359c5

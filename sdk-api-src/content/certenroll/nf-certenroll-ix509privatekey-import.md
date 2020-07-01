@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.Import
 title: IX509PrivateKey::Import (certenroll.h)
-description: Imports an existing private key into a key container within a cryptographic provider.helpviewer_keywords: ["BCRYPT_PRIVATE_KEY_BLOB","IX509PrivateKey interface [Security]","Import method","IX509PrivateKey.Import","IX509PrivateKey::Import","Import","Import method [Security]","Import method [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::Import","security.ix509privatekey_import_method"]
+description: Imports an existing private key into a key container within a cryptographic provider.
+helpviewer_keywords: ["BCRYPT_PRIVATE_KEY_BLOB","IX509PrivateKey interface [Security]","Import method","IX509PrivateKey.Import","IX509PrivateKey::Import","Import","Import method [Security]","Import method [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::Import","security.ix509privatekey_import_method"]
 old-location: security\ix509privatekey_import_method.htm
 tech.root: seccertenroll
 ms.assetid: 33e335e2-9c3f-4aa1-a393-db0ee8095b64

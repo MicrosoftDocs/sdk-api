@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPicture.get_Handle
 title: IPicture::get_Handle (ocidl.h)
-description: Retrieves the handle to the picture managed within this picture object to a specified location.helpviewer_keywords: ["IPicture interface [COM]","get_Handle method","IPicture.get_Handle","IPicture::get_Handle","_ctrl_ipicture_get_handle","com.ipicture_get_handle","get_Handle","get_Handle method [COM]","get_Handle method [COM]","IPicture interface","ocidl/IPicture::get_Handle"]
+description: Retrieves the handle to the picture managed within this picture object to a specified location.
+helpviewer_keywords: ["IPicture interface [COM]","get_Handle method","IPicture.get_Handle","IPicture::get_Handle","_ctrl_ipicture_get_handle","com.ipicture_get_handle","get_Handle","get_Handle method [COM]","get_Handle method [COM]","IPicture interface","ocidl/IPicture::get_Handle"]
 old-location: com\ipicture_get_handle.htm
 tech.root: com
 ms.assetid: 196b911b-a685-44d5-a772-a71767f957f5

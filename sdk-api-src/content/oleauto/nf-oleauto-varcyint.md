@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarCyInt
 title: VarCyInt function (oleauto.h)
-description: Retrieves the integer portion of a variant of type currency.helpviewer_keywords: ["VarCyInt","VarCyInt function [Automation]","_oa96_VarCyInt","automat.varcyint","oleauto/VarCyInt"]
+description: Retrieves the integer portion of a variant of type currency.
+helpviewer_keywords: ["VarCyInt","VarCyInt function [Automation]","_oa96_VarCyInt","automat.varcyint","oleauto/VarCyInt"]
 old-location: automat\varcyint.htm
 tech.root: automat
 ms.assetid: 234c8407-93c9-49bd-aae7-d526d5f5e34c

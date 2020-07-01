@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite_3.IDWriteStringList
 title: IDWriteStringList (dwrite_3.h)
-description: Represents a collection of strings indexed by number.helpviewer_keywords: ["IDWriteStringList","IDWriteStringList interface [Direct Write]","IDWriteStringList interface [Direct Write]","described","directwrite.idwritestringlist","dwrite_3/IDWriteStringList"]
+description: Represents a collection of strings indexed by number.
+helpviewer_keywords: ["IDWriteStringList","IDWriteStringList interface [Direct Write]","IDWriteStringList interface [Direct Write]","described","directwrite.idwritestringlist","dwrite_3/IDWriteStringList"]
 old-location: directwrite\idwritestringlist.htm
 tech.root: DirectWrite
 ms.assetid: 07A61B37-C63D-4F7D-888C-96B56F30F477

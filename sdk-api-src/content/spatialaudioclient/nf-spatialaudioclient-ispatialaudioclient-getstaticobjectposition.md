@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetStaticObjectPosition
 title: ISpatialAudioClient::GetStaticObjectPosition (spatialaudioclient.h)
-description: Gets the position in 3D space of the specified static spatial audio channel.helpviewer_keywords: ["GetStaticObjectPosition","GetStaticObjectPosition method [Core Audio]","GetStaticObjectPosition method [Core Audio]","ISpatialAudioClient interface","ISpatialAudioClient interface [Core Audio]","GetStaticObjectPosition method","ISpatialAudioClient.GetStaticObjectPosition","ISpatialAudioClient::GetStaticObjectPosition","coreaudio.ispatialaudioclient_getstaticobjectposition","spatialaudioclient/ISpatialAudioClient::GetStaticObjectPosition"]
+description: Gets the position in 3D space of the specified static spatial audio channel.
+helpviewer_keywords: ["GetStaticObjectPosition","GetStaticObjectPosition method [Core Audio]","GetStaticObjectPosition method [Core Audio]","ISpatialAudioClient interface","ISpatialAudioClient interface [Core Audio]","GetStaticObjectPosition method","ISpatialAudioClient.GetStaticObjectPosition","ISpatialAudioClient::GetStaticObjectPosition","coreaudio.ispatialaudioclient_getstaticobjectposition","spatialaudioclient/ISpatialAudioClient::GetStaticObjectPosition"]
 old-location: coreaudio\ispatialaudioclient_getstaticobjectposition.htm
 tech.root: CoreAudio
 ms.assetid: F8CD558A-994D-46E0-98A0-1D7AD3B919C0

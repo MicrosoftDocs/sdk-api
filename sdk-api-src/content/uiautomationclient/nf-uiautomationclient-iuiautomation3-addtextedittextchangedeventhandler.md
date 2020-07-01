@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation3.AddTextEditTextChangedEventHandler
 title: IUIAutomation3::AddTextEditTextChangedEventHandler (uiautomationclient.h)
-description: Registers a method that handles programmatic text-edit events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.helpviewer_keywords: ["AddTextEditTextChangedEventHandler","AddTextEditTextChangedEventHandler method [Windows Accessibility]","AddTextEditTextChangedEventHandler method [Windows Accessibility]","IUIAutomation3 interface","IUIAutomation3 interface [Windows Accessibility]","AddTextEditTextChangedEventHandler method","IUIAutomation3.AddTextEditTextChangedEventHandler","IUIAutomation3::AddTextEditTextChangedEventHandler","uiautomationclient/IUIAutomation3::AddTextEditTextChangedEventHandler","winauto.uiauto_IUIAutomation3_AddTextEditTextChangedEventHandler"]
+description: Registers a method that handles programmatic text-edit events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
+helpviewer_keywords: ["AddTextEditTextChangedEventHandler","AddTextEditTextChangedEventHandler method [Windows Accessibility]","AddTextEditTextChangedEventHandler method [Windows Accessibility]","IUIAutomation3 interface","IUIAutomation3 interface [Windows Accessibility]","AddTextEditTextChangedEventHandler method","IUIAutomation3.AddTextEditTextChangedEventHandler","IUIAutomation3::AddTextEditTextChangedEventHandler","uiautomationclient/IUIAutomation3::AddTextEditTextChangedEventHandler","winauto.uiauto_IUIAutomation3_AddTextEditTextChangedEventHandler"]
 old-location: winauto\uiauto_IUIAutomation3_AddTextEditTextChangedEventHandler.htm
 tech.root: WinAuto
 ms.assetid: E4FBD04E-2E0B-6B87-F589-C3214EF54E5F

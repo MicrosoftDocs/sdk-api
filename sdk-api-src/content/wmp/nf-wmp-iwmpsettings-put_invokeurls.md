@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPSettings.put_invokeURLs
 title: IWMPSettings::put_invokeURLs (wmp.h)
-description: The put_invokeURLs method specifies a value indicating whether URL events should launch a Web browser.helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_invokeURLs method","IWMPSettings.put_invokeURLs","IWMPSettings::put_invokeURLs","IWMPSettingsput_invokeURLs","put_invokeURLs","put_invokeURLs method [Windows Media Player]","put_invokeURLs method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_put_invokeurls","wmp/IWMPSettings::put_invokeURLs"]
+description: The put_invokeURLs method specifies a value indicating whether URL events should launch a Web browser.
+helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_invokeURLs method","IWMPSettings.put_invokeURLs","IWMPSettings::put_invokeURLs","IWMPSettingsput_invokeURLs","put_invokeURLs","put_invokeURLs method [Windows Media Player]","put_invokeURLs method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_put_invokeurls","wmp/IWMPSettings::put_invokeURLs"]
 old-location: wmp\iwmpsettings_put_invokeurls.htm
 tech.root: WMP
 ms.assetid: 4c62ba8e-8fca-4cfe-9a52-6b6ac2c7c0de

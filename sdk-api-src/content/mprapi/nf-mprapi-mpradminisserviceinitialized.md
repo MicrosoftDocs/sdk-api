@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminIsServiceInitialized
 title: MprAdminIsServiceInitialized function (mprapi.h)
-description: The MprAdminIsServiceInitialized function checks whether the RRAS service is running on a specified server if the calling process has access.helpviewer_keywords: ["FALSE","MprAdminIsServiceInitialized","MprAdminIsServiceInitialized function [RAS]","TRUE","mprapi/MprAdminIsServiceInitialized","rras.mpradminisserviceinitialized"]
+description: The MprAdminIsServiceInitialized function checks whether the RRAS service is running on a specified server if the calling process has access.
+helpviewer_keywords: ["FALSE","MprAdminIsServiceInitialized","MprAdminIsServiceInitialized function [RAS]","TRUE","mprapi/MprAdminIsServiceInitialized","rras.mpradminisserviceinitialized"]
 old-location: rras\mpradminisserviceinitialized.htm
 tech.root: RRAS
 ms.assetid: 912bbb7d-f566-4297-b412-605658acaac8

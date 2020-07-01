@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.ICCompressGetFormatSize
 title: ICCompressGetFormatSize macro (vfw.h)
-description: The ICCompressGetFormatSize macro requests the size of the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the ICM_COMPRESS_GET_FORMAT message.helpviewer_keywords: ["ICCompressGetFormatSize","ICCompressGetFormatSize macro [Windows Multimedia]","_win32_ICCompressGetFormatSize","multimedia.iccompressgetformatsize","vfw/ICCompressGetFormatSize"]
+description: The ICCompressGetFormatSize macro requests the size of the output format of the compressed data from a video compression driver. You can use this macro or explicitly call the ICM_COMPRESS_GET_FORMAT message.
+helpviewer_keywords: ["ICCompressGetFormatSize","ICCompressGetFormatSize macro [Windows Multimedia]","_win32_ICCompressGetFormatSize","multimedia.iccompressgetformatsize","vfw/ICCompressGetFormatSize"]
 old-location: multimedia\iccompressgetformatsize.htm
 tech.root: Multimedia
 ms.assetid: 50d73009-1f8e-4e2e-950c-0c1262ea61f0

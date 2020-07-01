@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.ClearPropVariantArray
 title: ClearPropVariantArray function (propvarutil.h)
-description: Frees the memory and references used by an array of PROPVARIANT structures stored in an array.helpviewer_keywords: ["ClearPropVariantArray","ClearPropVariantArray function [Windows Properties]","_shell_ClearPropVariantArray","properties.ClearPropVariantArray","propvarutil/ClearPropVariantArray","shell.ClearPropVariantArray"]
+description: Frees the memory and references used by an array of PROPVARIANT structures stored in an array.
+helpviewer_keywords: ["ClearPropVariantArray","ClearPropVariantArray function [Windows Properties]","_shell_ClearPropVariantArray","properties.ClearPropVariantArray","propvarutil/ClearPropVariantArray","shell.ClearPropVariantArray"]
 old-location: properties\ClearPropVariantArray.htm
 tech.root: properties
 ms.assetid: e8d7f951-8a9e-441b-9fa7-bf21cf08c8ac

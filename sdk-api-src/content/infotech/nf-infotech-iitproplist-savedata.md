@@ -1,7 +1,8 @@
 ---
 UID: NF:infotech.IITPropList.SaveData
 title: IITPropList::SaveData (infotech.h)
-description: Saves the data size and data from the property list to a buffer.helpviewer_keywords: ["IITPropList interface [HTML Help Workshop]","SaveData method","IITPropList.SaveData","IITPropList::SaveData","SaveData","SaveData method [HTML Help Workshop]","SaveData method [HTML Help Workshop]","IITPropList interface","htmlhelp.iitproplist_savedata","infotech/IITPropList::SaveData","refIITPropListSaveData"]
+description: Saves the data size and data from the property list to a buffer.
+helpviewer_keywords: ["IITPropList interface [HTML Help Workshop]","SaveData method","IITPropList.SaveData","IITPropList::SaveData","SaveData","SaveData method [HTML Help Workshop]","SaveData method [HTML Help Workshop]","IITPropList interface","htmlhelp.iitproplist_savedata","infotech/IITPropList::SaveData","refIITPropListSaveData"]
 old-location: htmlhelp\iitproplist_savedata.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsavedata.htm

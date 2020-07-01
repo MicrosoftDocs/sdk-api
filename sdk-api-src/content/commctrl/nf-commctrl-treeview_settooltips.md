@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_SetToolTips
 title: TreeView_SetToolTips macro (commctrl.h)
-description: Sets a tree-view control's child tooltip control. You can use this macro or send the TVM_SETTOOLTIPS message explicitly.helpviewer_keywords: ["TreeView_SetToolTips","TreeView_SetToolTips macro [Windows Controls]","_win32_TreeView_SetToolTips","_win32_TreeView_SetToolTips_cpp","commctrl/TreeView_SetToolTips","controls.TreeView_SetToolTips","controls._win32_TreeView_SetToolTips"]
+description: Sets a tree-view control's child tooltip control. You can use this macro or send the TVM_SETTOOLTIPS message explicitly.
+helpviewer_keywords: ["TreeView_SetToolTips","TreeView_SetToolTips macro [Windows Controls]","_win32_TreeView_SetToolTips","_win32_TreeView_SetToolTips_cpp","commctrl/TreeView_SetToolTips","controls.TreeView_SetToolTips","controls._win32_TreeView_SetToolTips"]
 old-location: controls\TreeView_SetToolTips.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_settooltips.htm

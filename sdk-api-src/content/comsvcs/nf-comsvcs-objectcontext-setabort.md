@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ObjectContext.SetAbort
 title: ObjectContext::SetAbort (comsvcs.h)
-description: Declares that the transaction in which the object is executing must be aborted and that the object should be deactivated on return.helpviewer_keywords: ["ObjectContext interface [COM+]","SetAbort method","ObjectContext.SetAbort","ObjectContext::SetAbort","SetAbort","SetAbort method [COM+]","SetAbort method [COM+]","ObjectContext interface","_cos_ObjectContext_SetAbort","comsvcs/ObjectContext::SetAbort","cos.objectcontext_setabort"]
+description: Declares that the transaction in which the object is executing must be aborted and that the object should be deactivated on return.
+helpviewer_keywords: ["ObjectContext interface [COM+]","SetAbort method","ObjectContext.SetAbort","ObjectContext::SetAbort","SetAbort","SetAbort method [COM+]","SetAbort method [COM+]","ObjectContext interface","_cos_ObjectContext_SetAbort","comsvcs/ObjectContext::SetAbort","cos.objectcontext_setabort"]
 old-location: cos\objectcontext_setabort.htm
 tech.root: cossdk
 ms.assetid: 709c1752-f2fb-463e-a95e-a082cd28b110

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarDecFromR8
 title: VarDecFromR8 function (oleauto.h)
-description: Converts a double value to a decimal value.helpviewer_keywords: ["VarDecFromR8","VarDecFromR8 function [Automation]","_oa96_VarDecFromR8","automat.vardecfromr8","oleauto/VarDecFromR8"]
+description: Converts a double value to a decimal value.
+helpviewer_keywords: ["VarDecFromR8","VarDecFromR8 function [Automation]","_oa96_VarDecFromR8","automat.vardecfromr8","oleauto/VarDecFromR8"]
 old-location: automat\vardecfromr8.htm
 tech.root: automat
 ms.assetid: 5661ec3d-d3bf-434d-af31-20f108b78c03

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaRectSetEmpty
 title: UiaRectSetEmpty function (uiautomationcoreapi.h)
-description: Sets the elements of a UiaRect structure to 0.helpviewer_keywords: ["UiaRectSetEmpty","UiaRectSetEmpty function [Windows Accessibility]","uiauto.uiauto_UiaRectSetEmptyFunction","uiauto_UiaRectSetEmptyFunction","uiautomationcoreapi/UiaRectSetEmpty","winauto.uiauto_UiaRectSetEmptyFunction"]
+description: Sets the elements of a UiaRect structure to 0.
+helpviewer_keywords: ["UiaRectSetEmpty","UiaRectSetEmpty function [Windows Accessibility]","uiauto.uiauto_UiaRectSetEmptyFunction","uiauto_UiaRectSetEmptyFunction","uiautomationcoreapi/UiaRectSetEmpty","winauto.uiauto_UiaRectSetEmptyFunction"]
 old-location: winauto\uiauto_UiaRectSetEmptyFunction.htm
 tech.root: WinAuto
 ms.assetid: c42ced34-2645-4f10-962b-6e5345c1c439

@@ -1,7 +1,8 @@
 ---
 UID: NS:lsalookup._LSA_REFERENCED_DOMAIN_LIST
 title: LSA_REFERENCED_DOMAIN_LIST (lsalookup.h)
-description: The LSA_REFERENCED_DOMAIN_LIST structure contains information about the domains referenced in a lookup operation.helpviewer_keywords: ["*PLSA_REFERENCED_DOMAIN_LIST","LSA_REFERENCED_DOMAIN_LIST","LSA_REFERENCED_DOMAIN_LIST structure [Security]","PLSA_REFERENCED_DOMAIN_LIST","PLSA_REFERENCED_DOMAIN_LIST structure pointer [Security]","_LSA_REFERENCED_DOMAIN_LIST","_lsa_lsa_referenced_domain_list","lsalookup/LSA_REFERENCED_DOMAIN_LIST","lsalookup/PLSA_REFERENCED_DOMAIN_LIST","security.lsa_referenced_domain_list"]
+description: The LSA_REFERENCED_DOMAIN_LIST structure contains information about the domains referenced in a lookup operation.
+helpviewer_keywords: ["*PLSA_REFERENCED_DOMAIN_LIST","LSA_REFERENCED_DOMAIN_LIST","LSA_REFERENCED_DOMAIN_LIST structure [Security]","PLSA_REFERENCED_DOMAIN_LIST","PLSA_REFERENCED_DOMAIN_LIST structure pointer [Security]","_LSA_REFERENCED_DOMAIN_LIST","_lsa_lsa_referenced_domain_list","lsalookup/LSA_REFERENCED_DOMAIN_LIST","lsalookup/PLSA_REFERENCED_DOMAIN_LIST","security.lsa_referenced_domain_list"]
 old-location: security\lsa_referenced_domain_list.htm
 tech.root: SecMgmt
 ms.assetid: ddf0afcb-7ec4-42ed-bf40-38ef33f33a0c

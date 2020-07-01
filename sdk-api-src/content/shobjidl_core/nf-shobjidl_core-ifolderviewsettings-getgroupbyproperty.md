@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFolderViewSettings.GetGroupByProperty
 title: IFolderViewSettings::GetGroupByProperty (shobjidl_core.h)
-description: Gets a grouping property.helpviewer_keywords: ["GetGroupByProperty","GetGroupByProperty method [Windows Shell]","GetGroupByProperty method [Windows Shell]","IFolderViewSettings interface","IFolderViewSettings interface [Windows Shell]","GetGroupByProperty method","IFolderViewSettings.GetGroupByProperty","IFolderViewSettings::GetGroupByProperty","_shell_IFolderViewSettings_GetGroupByProperty","shell.IFolderViewSettings_GetGroupByProperty","shobjidl_core/IFolderViewSettings::GetGroupByProperty"]
+description: Gets a grouping property.
+helpviewer_keywords: ["GetGroupByProperty","GetGroupByProperty method [Windows Shell]","GetGroupByProperty method [Windows Shell]","IFolderViewSettings interface","IFolderViewSettings interface [Windows Shell]","GetGroupByProperty method","IFolderViewSettings.GetGroupByProperty","IFolderViewSettings::GetGroupByProperty","_shell_IFolderViewSettings_GetGroupByProperty","shell.IFolderViewSettings_GetGroupByProperty","shobjidl_core/IFolderViewSettings::GetGroupByProperty"]
 old-location: shell\IFolderViewSettings_GetGroupByProperty.htm
 tech.root: shell
 ms.assetid: 5a5fb679-f2e7-457f-9624-64ed993c2d74

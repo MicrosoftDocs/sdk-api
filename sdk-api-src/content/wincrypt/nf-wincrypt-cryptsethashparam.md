@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptSetHashParam
 title: CryptSetHashParam function (wincrypt.h)
-description: Customizes the operations of a hash object, including setting up initial hash contents and selecting a specific hashing algorithm.helpviewer_keywords: ["CryptSetHashParam","CryptSetHashParam function [Security]","HP_HASHVAL.","HP_HMAC_INFO.","_crypto2_cryptsethashparam","security.cryptsethashparam","wincrypt/CryptSetHashParam"]
+description: Customizes the operations of a hash object, including setting up initial hash contents and selecting a specific hashing algorithm.
+helpviewer_keywords: ["CryptSetHashParam","CryptSetHashParam function [Security]","HP_HASHVAL.","HP_HMAC_INFO.","_crypto2_cryptsethashparam","security.cryptsethashparam","wincrypt/CryptSetHashParam"]
 old-location: security\cryptsethashparam.htm
 tech.root: SecCrypto
 ms.assetid: 0c8d3ef9-e7b5-4e49-a2f8-9c85b16549da

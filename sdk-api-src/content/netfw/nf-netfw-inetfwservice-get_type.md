@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwService.get_Type
 title: INetFwService::get_Type (netfw.h)
-description: Retrieves the type of the service.helpviewer_keywords: ["INetFwService interface [ICS/ICF]","Type property","INetFwService.Type","INetFwService.get_Type","INetFwService::Type","INetFwService::get_Type","Type property [ICS/ICF]","Type property [ICS/ICF]","INetFwService interface","get_Type","ics.inetfwservice_type","netfw/INetFwService::Type","netfw/INetFwService::get_Type"]
+description: Retrieves the type of the service.
+helpviewer_keywords: ["INetFwService interface [ICS/ICF]","Type property","INetFwService.Type","INetFwService.get_Type","INetFwService::Type","INetFwService::get_Type","Type property [ICS/ICF]","Type property [ICS/ICF]","INetFwService interface","get_Type","ics.inetfwservice_type","netfw/INetFwService::Type","netfw/INetFwService::get_Type"]
 old-location: ics\inetfwservice_type.htm
 tech.root: ics
 ms.assetid: 22f91e9a-e5b2-47a1-8ccb-b033c7d88286

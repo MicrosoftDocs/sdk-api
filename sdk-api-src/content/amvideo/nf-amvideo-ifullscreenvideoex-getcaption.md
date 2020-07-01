@@ -1,7 +1,8 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.GetCaption
 title: IFullScreenVideoEx::GetCaption (amvideo.h)
-description: The GetCaption method retrieves the caption associated with the full-screen window.helpviewer_keywords: ["GetCaption","GetCaption method [DirectShow]","GetCaption method [DirectShow]","IFullScreenVideoEx interface","IFullScreenVideoEx interface [DirectShow]","GetCaption method","IFullScreenVideoEx.GetCaption","IFullScreenVideoEx::GetCaption","IFullScreenVideoGetCaption","amvideo/IFullScreenVideoEx::GetCaption","dshow.ifullscreenvideoex_getcaption"]
+description: The GetCaption method retrieves the caption associated with the full-screen window.
+helpviewer_keywords: ["GetCaption","GetCaption method [DirectShow]","GetCaption method [DirectShow]","IFullScreenVideoEx interface","IFullScreenVideoEx interface [DirectShow]","GetCaption method","IFullScreenVideoEx.GetCaption","IFullScreenVideoEx::GetCaption","IFullScreenVideoGetCaption","amvideo/IFullScreenVideoEx::GetCaption","dshow.ifullscreenvideoex_getcaption"]
 old-location: dshow\ifullscreenvideoex_getcaption.htm
 tech.root: DirectShow
 ms.assetid: 0757da34-cfc5-4a40-9ad0-03bd016ad828

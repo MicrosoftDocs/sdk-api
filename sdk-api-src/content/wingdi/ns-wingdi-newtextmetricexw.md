@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagNEWTEXTMETRICEXW
 title: NEWTEXTMETRICEXW (wingdi.h)
-description: The NEWTEXTMETRICEX structure contains information about a physical font.helpviewer_keywords: ["NEWTEXTMETRICEX","NEWTEXTMETRICEX structure [Windows GDI]","NEWTEXTMETRICEXA","NEWTEXTMETRICEXW","_win32_NEWTEXTMETRICEX_str","gdi.newtextmetricex","wingdi/NEWTEXTMETRICEX","wingdi/NEWTEXTMETRICEXA","wingdi/NEWTEXTMETRICEXW"]
+description: The NEWTEXTMETRICEX structure contains information about a physical font.
+helpviewer_keywords: ["NEWTEXTMETRICEX","NEWTEXTMETRICEX structure [Windows GDI]","NEWTEXTMETRICEXA","NEWTEXTMETRICEXW","_win32_NEWTEXTMETRICEX_str","gdi.newtextmetricex","wingdi/NEWTEXTMETRICEX","wingdi/NEWTEXTMETRICEXA","wingdi/NEWTEXTMETRICEXW"]
 old-location: gdi\newtextmetricex.htm
 tech.root: gdi
 ms.assetid: b85ff705-2dd4-4877-9905-d4c2a0894e24
@@ -93,4 +94,9 @@ A <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-fonts
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The wingdi.h header defines NEWTEXTMETRICEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

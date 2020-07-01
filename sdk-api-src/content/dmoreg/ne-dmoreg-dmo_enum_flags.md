@@ -1,7 +1,8 @@
 ---
 UID: NE:dmoreg.DMO_ENUM_FLAGS
 title: DMO_ENUM_FLAGS (dmoreg.h)
-description: The DMO_ENUM_FLAGS enumeration defines flags that specify search criteria when enumerating Microsoft DirectX Media Objects (DMOs).helpviewer_keywords: ["DMO_ENUMF_INCLUDE_KEYED","DMO_ENUM_FLAGS","DMO_ENUM_FLAGS enumeration [DirectShow]","DMO_ENUM_FLAGSEnumeration","dmoreg/DMO_ENUMF_INCLUDE_KEYED","dmoreg/DMO_ENUM_FLAGS","dshow.dmo_enum_flags"]
+description: The DMO_ENUM_FLAGS enumeration defines flags that specify search criteria when enumerating Microsoft DirectX Media Objects (DMOs).
+helpviewer_keywords: ["DMO_ENUMF_INCLUDE_KEYED","DMO_ENUM_FLAGS","DMO_ENUM_FLAGS enumeration [DirectShow]","DMO_ENUM_FLAGSEnumeration","dmoreg/DMO_ENUMF_INCLUDE_KEYED","dmoreg/DMO_ENUM_FLAGS","dshow.dmo_enum_flags"]
 old-location: dshow\dmo_enum_flags.htm
 tech.root: DirectShow
 ms.assetid: ef2be8d8-99d9-4200-8edb-284a5b216814

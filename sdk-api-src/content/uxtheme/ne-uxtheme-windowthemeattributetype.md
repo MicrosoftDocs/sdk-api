@@ -1,7 +1,8 @@
 ---
 UID: NE:uxtheme.WINDOWTHEMEATTRIBUTETYPE
 title: WINDOWTHEMEATTRIBUTETYPE (uxtheme.h)
-description: Specifies the type of visual style attribute to set on a window.helpviewer_keywords: ["WINDOWTHEMEATTRIBUTETYPE","WINDOWTHEMEATTRIBUTETYPE enumeration [Windows Controls]","WTA_NONCLIENT","controls.WINDOWTHEMEATTRIBUTETYPE","controls.inet_WINDOWTHEMEATTRIBUTETYPE","inet_WINDOWTHEMEATTRIBUTETYPE","inet_WINDOWTHEMEATTRIBUTETYPE_cpp","uxtheme/WINDOWTHEMEATTRIBUTETYPE","uxtheme/WTA_NONCLIENT"]
+description: Specifies the type of visual style attribute to set on a window.
+helpviewer_keywords: ["WINDOWTHEMEATTRIBUTETYPE","WINDOWTHEMEATTRIBUTETYPE enumeration [Windows Controls]","WTA_NONCLIENT","controls.WINDOWTHEMEATTRIBUTETYPE","controls.inet_WINDOWTHEMEATTRIBUTETYPE","inet_WINDOWTHEMEATTRIBUTETYPE","inet_WINDOWTHEMEATTRIBUTETYPE_cpp","uxtheme/WINDOWTHEMEATTRIBUTETYPE","uxtheme/WTA_NONCLIENT"]
 old-location: controls\WINDOWTHEMEATTRIBUTETYPE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\enums\windowthemeattributetype.htm

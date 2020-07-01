@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingActivity.SetRelatedActivity
 title: TraceLoggingActivity::SetRelatedActivity (traceloggingactivity.h)
-description: Sets the related activity for this TraceLoggingActivity object.helpviewer_keywords: ["SetRelatedActivity","SetRelatedActivity method","SetRelatedActivity method","TraceLoggingActivity interface","TraceLoggingActivity interface","SetRelatedActivity method","TraceLoggingActivity.SetRelatedActivity","TraceLoggingActivity::SetRelatedActivity","tracelogging.traceloggingactivity_setrelatedactivity","traceloggingactivity/TraceLoggingActivity::SetRelatedActivity"]
+description: Sets the related activity for this TraceLoggingActivity object.
+helpviewer_keywords: ["SetRelatedActivity","SetRelatedActivity method","SetRelatedActivity method","TraceLoggingActivity interface","TraceLoggingActivity interface","SetRelatedActivity method","TraceLoggingActivity.SetRelatedActivity","TraceLoggingActivity::SetRelatedActivity","tracelogging.traceloggingactivity_setrelatedactivity","traceloggingactivity/TraceLoggingActivity::SetRelatedActivity"]
 old-location: tracelogging\traceloggingactivity_setrelatedactivity.htm
 tech.root: tracelogging
 ms.assetid: 3A756D11-2595-451B-9BE6-BBE950252D3F

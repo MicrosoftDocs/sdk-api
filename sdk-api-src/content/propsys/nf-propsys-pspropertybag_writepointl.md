@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_WritePOINTL
 title: PSPropertyBag_WritePOINTL function (propsys.h)
-description: Stores the property coordinates in aPOINTL structure of a specified property bag.helpviewer_keywords: ["PSPropertyBag_WritePOINTL","PSPropertyBag_WritePOINTL function [Windows Properties]","properties.PSPropertyBag_WritePOINTL","propsys/PSPropertyBag_WritePOINTL","shell.PSPropertyBag_WritePOINTL","shell_PSPropertyBag_WritePOINTL"]
+description: Stores the property coordinates in aPOINTL structure of a specified property bag.
+helpviewer_keywords: ["PSPropertyBag_WritePOINTL","PSPropertyBag_WritePOINTL function [Windows Properties]","properties.PSPropertyBag_WritePOINTL","propsys/PSPropertyBag_WritePOINTL","shell.PSPropertyBag_WritePOINTL","shell_PSPropertyBag_WritePOINTL"]
 old-location: properties\PSPropertyBag_WritePOINTL.htm
 tech.root: properties
 ms.assetid: 881A9D35-DF77-44d1-86DF-D6BC97AC0DD4

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Header_GetUnicodeFormat
 title: Header_GetUnicodeFormat macro (commctrl.h)
-description: Gets the Unicode character format flag for the control. You can use this macro or send the HDM_GETUNICODEFORMAT message explicitly.helpviewer_keywords: ["Header_GetUnicodeFormat","Header_GetUnicodeFormat macro [Windows Controls]","_win32_Header_GetUnicodeFormat","_win32_Header_GetUnicodeFormat_cpp","commctrl/Header_GetUnicodeFormat","controls.Header_GetUnicodeFormat","controls._win32_Header_GetUnicodeFormat"]
+description: Gets the Unicode character format flag for the control. You can use this macro or send the HDM_GETUNICODEFORMAT message explicitly.
+helpviewer_keywords: ["Header_GetUnicodeFormat","Header_GetUnicodeFormat macro [Windows Controls]","_win32_Header_GetUnicodeFormat","_win32_Header_GetUnicodeFormat_cpp","commctrl/Header_GetUnicodeFormat","controls.Header_GetUnicodeFormat","controls._win32_Header_GetUnicodeFormat"]
 old-location: controls\Header_GetUnicodeFormat.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_getunicodeformat.htm

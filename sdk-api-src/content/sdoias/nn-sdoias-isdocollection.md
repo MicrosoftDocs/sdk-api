@@ -1,7 +1,8 @@
 ---
 UID: NN:sdoias.ISdoCollection
 title: ISdoCollection (sdoias.h)
-description: Use the ISdoCollection interface to manipulate a collection of SDO objects.helpviewer_keywords: ["ISdoCollection","ISdoCollection interface [Network Policy Server]","ISdoCollection interface [Network Policy Server]","described","_sdo_isdocollection","nps.SDO_isdocollection","sdo.isdocollection","sdoias/ISdoCollection"]
+description: Use the ISdoCollection interface to manipulate a collection of SDO objects.
+helpviewer_keywords: ["ISdoCollection","ISdoCollection interface [Network Policy Server]","ISdoCollection interface [Network Policy Server]","described","_sdo_isdocollection","nps.SDO_isdocollection","sdo.isdocollection","sdoias/ISdoCollection"]
 old-location: nps\SDO_isdocollection.htm
 tech.root: Nps
 ms.assetid: 26470906-1cba-41fc-96f3-078208ab3d51

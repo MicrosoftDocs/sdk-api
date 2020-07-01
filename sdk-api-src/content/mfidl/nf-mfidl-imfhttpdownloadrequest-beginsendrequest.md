@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.BeginSendRequest
 title: IMFHttpDownloadRequest::BeginSendRequest (mfidl.h)
-description: Invoked by Microsoft Media Foundation to send a HTTP or HTTPS request.helpviewer_keywords: ["BeginSendRequest","BeginSendRequest method [Media Foundation]","BeginSendRequest method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","BeginSendRequest method","IMFHttpDownloadRequest.BeginSendRequest","IMFHttpDownloadRequest::BeginSendRequest","mf.imfhttpdownloadrequest_beginsendrequest","mfidl/IMFHttpDownloadRequest::BeginSendRequest"]
+description: Invoked by Microsoft Media Foundation to send a HTTP or HTTPS request.
+helpviewer_keywords: ["BeginSendRequest","BeginSendRequest method [Media Foundation]","BeginSendRequest method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","BeginSendRequest method","IMFHttpDownloadRequest.BeginSendRequest","IMFHttpDownloadRequest::BeginSendRequest","mf.imfhttpdownloadrequest_beginsendrequest","mfidl/IMFHttpDownloadRequest::BeginSendRequest"]
 old-location: mf\imfhttpdownloadrequest_beginsendrequest.htm
 tech.root: medfound
 ms.assetid: 38025B19-146A-4050-9BD2-2CF974729FE3

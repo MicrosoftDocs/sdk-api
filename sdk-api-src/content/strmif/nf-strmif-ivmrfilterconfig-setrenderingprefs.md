@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.SetRenderingPrefs
 title: IVMRFilterConfig::SetRenderingPrefs (strmif.h)
-description: The SetRenderingPrefs method sets various application preferences related to video rendering.helpviewer_keywords: ["IVMRFilterConfig interface [DirectShow]","SetRenderingPrefs method","IVMRFilterConfig.SetRenderingPrefs","IVMRFilterConfig::SetRenderingPrefs","IVMRFilterConfigSetRenderingPrefs","SetRenderingPrefs","SetRenderingPrefs method [DirectShow]","SetRenderingPrefs method [DirectShow]","IVMRFilterConfig interface","dshow.ivmrfilterconfig_setrenderingprefs","strmif/IVMRFilterConfig::SetRenderingPrefs"]
+description: The SetRenderingPrefs method sets various application preferences related to video rendering.
+helpviewer_keywords: ["IVMRFilterConfig interface [DirectShow]","SetRenderingPrefs method","IVMRFilterConfig.SetRenderingPrefs","IVMRFilterConfig::SetRenderingPrefs","IVMRFilterConfigSetRenderingPrefs","SetRenderingPrefs","SetRenderingPrefs method [DirectShow]","SetRenderingPrefs method [DirectShow]","IVMRFilterConfig interface","dshow.ivmrfilterconfig_setrenderingprefs","strmif/IVMRFilterConfig::SetRenderingPrefs"]
 old-location: dshow\ivmrfilterconfig_setrenderingprefs.htm
 tech.root: DirectShow
 ms.assetid: 1374d071-f396-4fcb-8ca2-ac3986960207

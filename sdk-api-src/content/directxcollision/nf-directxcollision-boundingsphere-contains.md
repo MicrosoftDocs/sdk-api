@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Contains
 title: BoundingSphere::Contains
-description: Tests whether the BoundingSphere contains a specified point.helpviewer_keywords: ["BoundingSphere::Contains"]
+description: Tests whether the BoundingSphere contains a specified point.
+helpviewer_keywords: ["BoundingSphere::Contains"]
 ms.date: 04/22/19
 ms.keywords: BoundingSphere::Contains
 f1_keywords:

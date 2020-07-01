@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMStatusMsgCollection
 title: IGPMStatusMsgCollection (gpmgmt.h)
-description: The IGPMStatusMsgCollection interface contains methods that enable applications to access a collection of status messages when using the Group Policy Management Console (GPMC) interfaces.helpviewer_keywords: ["GPMStatusMsgCollection","IGPMStatusMsgCollection","IGPMStatusMsgCollection interface [GPMC]","IGPMStatusMsgCollection interface [GPMC]","described","_win32_igpmstatusmsgcollection","gpmc.igpmstatusmsgcollection","gpmgmt/IGPMStatusMsgCollection"]
+description: The IGPMStatusMsgCollection interface contains methods that enable applications to access a collection of status messages when using the Group Policy Management Console (GPMC) interfaces.
+helpviewer_keywords: ["GPMStatusMsgCollection","IGPMStatusMsgCollection","IGPMStatusMsgCollection interface [GPMC]","IGPMStatusMsgCollection interface [GPMC]","described","_win32_igpmstatusmsgcollection","gpmc.igpmstatusmsgcollection","gpmgmt/IGPMStatusMsgCollection"]
 old-location: gpmc\igpmstatusmsgcollection.htm
 tech.root: gpmc
 ms.assetid: 774dd1b0-e5ea-4fef-b3bc-743870793db5

@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IResultDataCompare.Compare
 title: IResultDataCompare::Compare (mmc.h)
-description: Provides a way for a primary snap-in to compare cookies for the purpose of sorting the result items that it inserts in the result pane.helpviewer_keywords: ["Compare","Compare method [MMC]","Compare method [MMC]","IResultDataCompare interface","IResultDataCompare interface [MMC]","Compare method","IResultDataCompare.Compare","IResultDataCompare::Compare","_slate_iresultdatacompare_compare","mmc.iresultdatacompare_compare","mmc/IResultDataCompare::Compare"]
+description: Provides a way for a primary snap-in to compare cookies for the purpose of sorting the result items that it inserts in the result pane.
+helpviewer_keywords: ["Compare","Compare method [MMC]","Compare method [MMC]","IResultDataCompare interface","IResultDataCompare interface [MMC]","Compare method","IResultDataCompare.Compare","IResultDataCompare::Compare","_slate_iresultdatacompare_compare","mmc.iresultdatacompare_compare","mmc/IResultDataCompare::Compare"]
 old-location: mmc\iresultdatacompare_compare.htm
 tech.root: mmc
 ms.assetid: 00d18ba5-589f-4a70-b331-ba9c7d5164c5

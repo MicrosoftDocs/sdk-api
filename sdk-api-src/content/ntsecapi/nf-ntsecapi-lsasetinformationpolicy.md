@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaSetInformationPolicy
 title: LsaSetInformationPolicy function (ntsecapi.h)
-description: Modifies information in a Policy object.helpviewer_keywords: ["LsaSetInformationPolicy","LsaSetInformationPolicy function [Security]","PolicyAccountDomainInformation","PolicyAuditEventsInformation","PolicyDnsDomainInformation","PolicyLsaServerRoleInformation","PolicyPrimaryDomainInformation","_lsa_lsasetinformationpolicy","ntsecapi/LsaSetInformationPolicy","security.lsasetinformationpolicy"]
+description: Modifies information in a Policy object.
+helpviewer_keywords: ["LsaSetInformationPolicy","LsaSetInformationPolicy function [Security]","PolicyAccountDomainInformation","PolicyAuditEventsInformation","PolicyDnsDomainInformation","PolicyLsaServerRoleInformation","PolicyPrimaryDomainInformation","_lsa_lsasetinformationpolicy","ntsecapi/LsaSetInformationPolicy","security.lsasetinformationpolicy"]
 old-location: security\lsasetinformationpolicy.htm
 tech.root: SecAuthN
 ms.assetid: 2aa3b09e-2cd9-4a09-bfd6-b37c97266dcb

@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IIdleTrigger
 title: IIdleTrigger (taskschd.h)
-description: Represents a trigger that starts a task when the computer goes into an idle state.helpviewer_keywords: ["IIdleTrigger","IIdleTrigger interface [Task Scheduler]","IIdleTrigger interface [Task Scheduler]","described","idle trigger [Task Scheduler]","interface","taskschd.iidletrigger","taskschd/IIdleTrigger"]
+description: Represents a trigger that starts a task when the computer goes into an idle state.
+helpviewer_keywords: ["IIdleTrigger","IIdleTrigger interface [Task Scheduler]","IIdleTrigger interface [Task Scheduler]","described","idle trigger [Task Scheduler]","interface","taskschd.iidletrigger","taskschd/IIdleTrigger"]
 old-location: taskschd\iidletrigger.htm
 tech.root: taskschd
 ms.assetid: aca5305f-68fc-4211-9f71-3f572340e94d

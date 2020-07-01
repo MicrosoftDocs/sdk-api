@@ -1,7 +1,8 @@
 ---
 UID: NN:bdaiface.IBDA_IPV6Filter
 title: IBDA_IPV6Filter (bdaiface.h)
-description: This interface is not supported.helpviewer_keywords: ["IBDA_IPV6Filter","IBDA_IPV6Filter interface [Microsoft TV Technologies]","IBDA_IPV6Filter interface [Microsoft TV Technologies]","described","IBDA_IPV6FilterInterface","bdaiface/IBDA_IPV6Filter","mstv.ibda_ipv6filter"]
+description: This interface is not supported.
+helpviewer_keywords: ["IBDA_IPV6Filter","IBDA_IPV6Filter interface [Microsoft TV Technologies]","IBDA_IPV6Filter interface [Microsoft TV Technologies]","described","IBDA_IPV6FilterInterface","bdaiface/IBDA_IPV6Filter","mstv.ibda_ipv6filter"]
 old-location: mstv\ibda_ipv6filter.htm
 tech.root: mstv
 ms.assetid: b506d382-c56d-4c5b-ad57-e186173ea9a8

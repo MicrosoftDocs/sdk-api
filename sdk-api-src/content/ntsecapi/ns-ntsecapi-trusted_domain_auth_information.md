@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecapi._TRUSTED_DOMAIN_AUTH_INFORMATION
 title: TRUSTED_DOMAIN_AUTH_INFORMATION (ntsecapi.h)
-description: The TRUSTED_DOMAIN_AUTH_INFORMATION structure is used to retrieve authentication information for a trusted domain. The LsaQueryTrustedDomainInfo function uses this structure when its InformationClass parameter is set to TrustedDomainAuthInformation.helpviewer_keywords: ["*PTRUSTED_DOMAIN_AUTH_INFORMATION","PTRUSTED_DOMAIN_AUTH_INFORMATION","PTRUSTED_DOMAIN_AUTH_INFORMATION structure pointer [Security]","TRUSTED_DOMAIN_AUTH_INFORMATION","TRUSTED_DOMAIN_AUTH_INFORMATION structure [Security]","_TRUSTED_DOMAIN_AUTH_INFORMATION","_lsa_trusted_domain_auth_information","ntsecapi/PTRUSTED_DOMAIN_AUTH_INFORMATION","ntsecapi/TRUSTED_DOMAIN_AUTH_INFORMATION","security.trusted_domain_auth_information"]
+description: The TRUSTED_DOMAIN_AUTH_INFORMATION structure is used to retrieve authentication information for a trusted domain. The LsaQueryTrustedDomainInfo function uses this structure when its InformationClass parameter is set to TrustedDomainAuthInformation.
+helpviewer_keywords: ["*PTRUSTED_DOMAIN_AUTH_INFORMATION","PTRUSTED_DOMAIN_AUTH_INFORMATION","PTRUSTED_DOMAIN_AUTH_INFORMATION structure pointer [Security]","TRUSTED_DOMAIN_AUTH_INFORMATION","TRUSTED_DOMAIN_AUTH_INFORMATION structure [Security]","_TRUSTED_DOMAIN_AUTH_INFORMATION","_lsa_trusted_domain_auth_information","ntsecapi/PTRUSTED_DOMAIN_AUTH_INFORMATION","ntsecapi/TRUSTED_DOMAIN_AUTH_INFORMATION","security.trusted_domain_auth_information"]
 old-location: security\trusted_domain_auth_information.htm
 tech.root: SecMgmt
 ms.assetid: 2ec606d7-42bd-47cc-a4cd-82908774aa43

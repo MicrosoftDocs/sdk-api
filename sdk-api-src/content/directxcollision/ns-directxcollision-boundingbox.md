@@ -1,7 +1,8 @@
 ---
 UID: NS:directxcollision.BoundingBox
 title: BoundingBox
-description: A bounding axis-aligned object.helpviewer_keywords: ["BoundingBox","BoundingBox structure [DirectX Math Support APIs]","directxcollision/BoundingBox","dxmath.boundingbox"]
+description: A bounding axis-aligned object.
+helpviewer_keywords: ["BoundingBox","BoundingBox structure [DirectX Math Support APIs]","directxcollision/BoundingBox","dxmath.boundingbox"]
 old-location: dxmath\boundingbox.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.BoundingBox

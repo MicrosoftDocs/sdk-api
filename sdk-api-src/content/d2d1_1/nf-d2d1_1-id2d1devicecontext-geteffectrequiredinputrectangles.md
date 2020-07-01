@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.GetEffectRequiredInputRectangles
 title: ID2D1DeviceContext::GetEffectRequiredInputRectangles (d2d1_1.h)
-description: Returns the input rectangles that are required to be supplied by the caller to produce the given output rectangle.helpviewer_keywords: ["GetEffectRequiredInputRectangles","GetEffectRequiredInputRectangles method [Direct2D]","GetEffectRequiredInputRectangles method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","GetEffectRequiredInputRectangles method","ID2D1DeviceContext.GetEffectRequiredInputRectangles","ID2D1DeviceContext::GetEffectRequiredInputRectangles","d2d1_1/ID2D1DeviceContext::GetEffectRequiredInputRectangles","direct2d.id2d1devicecontext_geteffectrequiredinputrectangles"]
+description: Returns the input rectangles that are required to be supplied by the caller to produce the given output rectangle.
+helpviewer_keywords: ["GetEffectRequiredInputRectangles","GetEffectRequiredInputRectangles method [Direct2D]","GetEffectRequiredInputRectangles method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","GetEffectRequiredInputRectangles method","ID2D1DeviceContext.GetEffectRequiredInputRectangles","ID2D1DeviceContext::GetEffectRequiredInputRectangles","d2d1_1/ID2D1DeviceContext::GetEffectRequiredInputRectangles","direct2d.id2d1devicecontext_geteffectrequiredinputrectangles"]
 old-location: direct2d\id2d1devicecontext_geteffectrequiredinputrectangles.htm
 tech.root: Direct2D
 ms.assetid: B34548A9-1E23-496F-A1D9-87B74EF67C72

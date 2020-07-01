@@ -1,7 +1,8 @@
 ---
 UID: NL:traceloggingactivity.TraceLoggingActivity~r1
 title: TraceLoggingActivity
-description: TBDhelpviewer_keywords: ["- TraceLoggingActivity"]
+description: TBD
+helpviewer_keywords: ["- TraceLoggingActivity"]
 tech.root: 
 ms.assetid: b5fb71bf-1906-4b9d-a845-b8bd92e8042d
 ms.date: 11/14/2019

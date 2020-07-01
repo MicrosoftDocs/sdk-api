@@ -1,7 +1,8 @@
 ---
 UID: NE:uiautomationcoreapi.ProviderType
 title: ProviderType (uiautomationcoreapi.h)
-description: Contains values that specify the type of a client-side (proxy) UI Automation provider.helpviewer_keywords: ["ProviderType","ProviderType enumeration [Windows Accessibility]","ProviderType_BaseHwnd","ProviderType_NonClientArea","ProviderType_Proxy","uiauto.uiauto_ProviderTypeEnum","uiauto_ProviderTypeEnum","uiautomationcoreapi/ProviderType","uiautomationcoreapi/ProviderType_BaseHwnd","uiautomationcoreapi/ProviderType_NonClientArea","uiautomationcoreapi/ProviderType_Proxy","winauto.uiauto_ProviderTypeEnum"]
+description: Contains values that specify the type of a client-side (proxy) UI Automation provider.
+helpviewer_keywords: ["ProviderType","ProviderType enumeration [Windows Accessibility]","ProviderType_BaseHwnd","ProviderType_NonClientArea","ProviderType_Proxy","uiauto.uiauto_ProviderTypeEnum","uiauto_ProviderTypeEnum","uiautomationcoreapi/ProviderType","uiautomationcoreapi/ProviderType_BaseHwnd","uiautomationcoreapi/ProviderType_NonClientArea","uiautomationcoreapi/ProviderType_Proxy","winauto.uiauto_ProviderTypeEnum"]
 old-location: winauto\uiauto_ProviderTypeEnum.htm
 tech.root: WinAuto
 ms.assetid: 442dcda2-046d-4203-aa55-ddf83983cb26

@@ -1,7 +1,8 @@
 ---
 UID: NF:avrt.AvRtCreateThreadOrderingGroup
 title: AvRtCreateThreadOrderingGroup function (avrt.h)
-description: Creates a thread ordering group.helpviewer_keywords: ["AvRtCreateThreadOrderingGroup","AvRtCreateThreadOrderingGroup function","avrt/AvRtCreateThreadOrderingGroup","base.avrtcreatethreadorderinggroup"]
+description: Creates a thread ordering group.
+helpviewer_keywords: ["AvRtCreateThreadOrderingGroup","AvRtCreateThreadOrderingGroup function","avrt/AvRtCreateThreadOrderingGroup","base.avrtcreatethreadorderinggroup"]
 old-location: base\avrtcreatethreadorderinggroup.htm
 tech.root: ProcThread
 ms.assetid: c334a861-7dd6-4fc9-90ce-5923d053d325

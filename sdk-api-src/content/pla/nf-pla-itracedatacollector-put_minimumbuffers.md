@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_MinimumBuffers
 title: ITraceDataCollector::put_MinimumBuffers (pla.h)
-description: Retrieves or sets the minimum number of buffers allocated for the event tracing session's buffer pool.helpviewer_keywords: ["ITraceDataCollector interface [PLA]","MinimumBuffers property","ITraceDataCollector.MinimumBuffers","ITraceDataCollector.put_MinimumBuffers","ITraceDataCollector::MinimumBuffers","ITraceDataCollector::get_MinimumBuffers","ITraceDataCollector::put_MinimumBuffers","MinimumBuffers property [PLA]","MinimumBuffers property [PLA]","ITraceDataCollector interface","base.itracedatacollector_minimumbuffers","pla.itracedatacollector_minimumbuffers","pla/ITraceDataCollector::MinimumBuffers","pla/ITraceDataCollector::get_MinimumBuffers","pla/ITraceDataCollector::put_MinimumBuffers","put_MinimumBuffers"]
+description: Retrieves or sets the minimum number of buffers allocated for the event tracing session's buffer pool.
+helpviewer_keywords: ["ITraceDataCollector interface [PLA]","MinimumBuffers property","ITraceDataCollector.MinimumBuffers","ITraceDataCollector.put_MinimumBuffers","ITraceDataCollector::MinimumBuffers","ITraceDataCollector::get_MinimumBuffers","ITraceDataCollector::put_MinimumBuffers","MinimumBuffers property [PLA]","MinimumBuffers property [PLA]","ITraceDataCollector interface","base.itracedatacollector_minimumbuffers","pla.itracedatacollector_minimumbuffers","pla/ITraceDataCollector::MinimumBuffers","pla/ITraceDataCollector::get_MinimumBuffers","pla/ITraceDataCollector::put_MinimumBuffers","put_MinimumBuffers"]
 old-location: pla\itracedatacollector_minimumbuffers.htm
 tech.root: PLA
 ms.assetid: 67b53e9a-c72c-4da5-835f-5623a02a14e1

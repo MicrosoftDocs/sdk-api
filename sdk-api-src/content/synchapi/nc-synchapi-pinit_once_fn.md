@@ -1,7 +1,8 @@
 ---
 UID: NC:synchapi.PINIT_ONCE_FN
 title: PINIT_ONCE_FN (synchapi.h)
-description: An application-defined callback function. Specify a pointer to this function when calling the InitOnceExecuteOnce function.helpviewer_keywords: ["PINIT_ONCE_FN","PINIT_ONCE_FN callback","PINIT_ONCE_FN callback function","base.initoncecallback","synchapi/PINIT_ONCE_FN"]
+description: An application-defined callback function. Specify a pointer to this function when calling the InitOnceExecuteOnce function.
+helpviewer_keywords: ["PINIT_ONCE_FN","PINIT_ONCE_FN callback","PINIT_ONCE_FN callback function","base.initoncecallback","synchapi/PINIT_ONCE_FN"]
 old-location: base\initoncecallback.htm
 tech.root: Sync
 ms.assetid: e4a73572-e477-4518-87fe-b9b74234e8ec

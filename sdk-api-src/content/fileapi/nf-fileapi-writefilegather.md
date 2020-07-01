@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.WriteFileGather
 title: WriteFileGather function (fileapi.h)
-description: Retrieves data from an array of buffers and writes the data to a file.helpviewer_keywords: ["WriteFileGather","WriteFileGather function [Files]","_win32_writefilegather","base.writefilegather","fileapi/WriteFileGather","fs.writefilegather","winbase/WriteFileGather"]
+description: Retrieves data from an array of buffers and writes the data to a file.
+helpviewer_keywords: ["WriteFileGather","WriteFileGather function [Files]","_win32_writefilegather","base.writefilegather","fileapi/WriteFileGather","fs.writefilegather","winbase/WriteFileGather"]
 old-location: fs\writefilegather.htm
 tech.root: FileIO
 ms.assetid: 9590eabb-6e85-406e-8101-e67f87e6850b

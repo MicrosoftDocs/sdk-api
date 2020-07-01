@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.VerifyPermission
 title: IWMPContentPartner::VerifyPermission (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPContentPartner interface [Windows Media Player]","VerifyPermission method","IWMPContentPartner.VerifyPermission","IWMPContentPartner::VerifyPermission","IWMPContentPartnerVerifyPermission","VerifyPermission","VerifyPermission method [Windows Media Player]","VerifyPermission method [Windows Media Player]","IWMPContentPartner interface","contentpartner/IWMPContentPartner::VerifyPermission","wmp.iwmpcontentpartner_verifypermission"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["IWMPContentPartner interface [Windows Media Player]","VerifyPermission method","IWMPContentPartner.VerifyPermission","IWMPContentPartner::VerifyPermission","IWMPContentPartnerVerifyPermission","VerifyPermission","VerifyPermission method [Windows Media Player]","VerifyPermission method [Windows Media Player]","IWMPContentPartner interface","contentpartner/IWMPContentPartner::VerifyPermission","wmp.iwmpcontentpartner_verifypermission"]
 old-location: wmp\iwmpcontentpartner_verifypermission.htm
 tech.root: WMP
 ms.assetid: 7ff45264-6e49-4953-bc0a-b3652aee965d

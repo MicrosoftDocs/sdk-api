@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbTaskPluginNotifySink.OnDeleteTaskTime
 title: ITsSbTaskPluginNotifySink::OnDeleteTaskTime (sbtsv.h)
-description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a task has been removed from the queue.helpviewer_keywords: ["ITsSbTaskPluginNotifySink interface [Remote Desktop Services]","OnDeleteTaskTime method","ITsSbTaskPluginNotifySink.OnDeleteTaskTime","ITsSbTaskPluginNotifySink::OnDeleteTaskTime","OnDeleteTaskTime","OnDeleteTaskTime method [Remote Desktop Services]","OnDeleteTaskTime method [Remote Desktop Services]","ITsSbTaskPluginNotifySink interface","sbtsv/ITsSbTaskPluginNotifySink::OnDeleteTaskTime","termserv.itssbtaskpluginnotifysink_ondeletetasktime"]
+description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a task has been removed from the queue.
+helpviewer_keywords: ["ITsSbTaskPluginNotifySink interface [Remote Desktop Services]","OnDeleteTaskTime method","ITsSbTaskPluginNotifySink.OnDeleteTaskTime","ITsSbTaskPluginNotifySink::OnDeleteTaskTime","OnDeleteTaskTime","OnDeleteTaskTime method [Remote Desktop Services]","OnDeleteTaskTime method [Remote Desktop Services]","ITsSbTaskPluginNotifySink interface","sbtsv/ITsSbTaskPluginNotifySink::OnDeleteTaskTime","termserv.itssbtaskpluginnotifysink_ondeletetasktime"]
 old-location: termserv\itssbtaskpluginnotifysink_ondeletetasktime.htm
 tech.root: TermServ
 ms.assetid: f78a22c3-45e6-4bb1-9ea0-9958339a4ff3

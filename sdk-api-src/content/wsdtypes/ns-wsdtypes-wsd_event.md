@@ -1,7 +1,8 @@
 ---
 UID: NS:wsdtypes._WSD_EVENT
 title: WSD_EVENT (wsdtypes.h)
-description: Provides an internal representation of a SOAP message.helpviewer_keywords: ["WSD_EVENT","WSD_EVENT structure","ncd.wsd_event_struct","wsdtypes/WSD_EVENT"]
+description: Provides an internal representation of a SOAP message.
+helpviewer_keywords: ["WSD_EVENT","WSD_EVENT structure","ncd.wsd_event_struct","wsdtypes/WSD_EVENT"]
 old-location: ncd\wsd_event_struct.htm
 tech.root: WsdApi
 ms.assetid: d8697474-bfe5-4704-b1ac-15cf96f2ca92

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_SO_DECLARATION_ENTRY
 title: D3D11_SO_DECLARATION_ENTRY (d3d11.h)
-description: Description of a vertex element in a vertex buffer in an output slot.helpviewer_keywords: ["D3D11_SO_DECLARATION_ENTRY","D3D11_SO_DECLARATION_ENTRY structure [Direct3D 11]","d3d11/D3D11_SO_DECLARATION_ENTRY","direct3d11.d3d11_so_declaration_entry","fdc7503f-19ea-e13f-ae4b-f27469123a78"]
+description: Description of a vertex element in a vertex buffer in an output slot.
+helpviewer_keywords: ["D3D11_SO_DECLARATION_ENTRY","D3D11_SO_DECLARATION_ENTRY structure [Direct3D 11]","d3d11/D3D11_SO_DECLARATION_ENTRY","direct3d11.d3d11_so_declaration_entry","fdc7503f-19ea-e13f-ae4b-f27469123a78"]
 old-location: direct3d11\d3d11_so_declaration_entry.htm
 tech.root: direct3d11
 ms.assetid: c40e8db6-e26f-4c61-a812-f60eae43e86b

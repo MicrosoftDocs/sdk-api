@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.ExportNtmsDatabase
 title: ExportNtmsDatabase function (ntmsapi.h)
-description: The ExportNtmsDatabase function creates a consistent set of database files in the RSM database directory.helpviewer_keywords: ["ExportNtmsDatabase","ExportNtmsDatabase function [Files]","_zaw_exportntmsdatabase","base.exportntmsdatabase","fs.exportntmsdatabase","ntmsapi/ExportNtmsDatabase"]
+description: The ExportNtmsDatabase function creates a consistent set of database files in the RSM database directory.
+helpviewer_keywords: ["ExportNtmsDatabase","ExportNtmsDatabase function [Files]","_zaw_exportntmsdatabase","base.exportntmsdatabase","fs.exportntmsdatabase","ntmsapi/ExportNtmsDatabase"]
 old-location: fs\exportntmsdatabase.htm
 tech.root: Rsm
 ms.assetid: 0c6df5d3-c771-4749-8fbd-de5c02ffa5d9

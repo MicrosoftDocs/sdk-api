@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IWMColorConvProps.SetMode
 title: IWMColorConvProps::SetMode (wmcodecdsp.h)
-description: Specifies whether the input video stream is interlaced.helpviewer_keywords: ["IWMColorConvProps interface [Media Foundation]","SetMode method","IWMColorConvProps.SetMode","IWMColorConvProps::SetMode","SetMode","SetMode method [Media Foundation]","SetMode method [Media Foundation]","IWMColorConvProps interface","codecapi.iwmcolorconvpropssetmode","mf.iwmcolorconvpropssetmode","wmcodecdsp/IWMColorConvProps::SetMode"]
+description: Specifies whether the input video stream is interlaced.
+helpviewer_keywords: ["IWMColorConvProps interface [Media Foundation]","SetMode method","IWMColorConvProps.SetMode","IWMColorConvProps::SetMode","SetMode","SetMode method [Media Foundation]","SetMode method [Media Foundation]","IWMColorConvProps interface","codecapi.iwmcolorconvpropssetmode","mf.iwmcolorconvpropssetmode","wmcodecdsp/IWMColorConvProps::SetMode"]
 old-location: mf\iwmcolorconvpropssetmode.htm
 tech.root: medfound
 ms.assetid: b0be2965-36cf-4d14-8df6-c5296135a8e5

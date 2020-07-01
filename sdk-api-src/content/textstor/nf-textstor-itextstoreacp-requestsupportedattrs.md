@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreACP.RequestSupportedAttrs
 title: ITextStoreACP::RequestSupportedAttrs (textstor.h)
-description: Get the attributes that are supported in the document.helpviewer_keywords: ["ITextStoreACP interface [Text Services Framework]","RequestSupportedAttrs method","ITextStoreACP.RequestSupportedAttrs","ITextStoreACP::RequestSupportedAttrs","RequestSupportedAttrs","RequestSupportedAttrs method [Text Services Framework]","RequestSupportedAttrs method [Text Services Framework]","ITextStoreACP interface","_tsf_itextstoreacp_requestsupportedattrs_ref","textstor/ITextStoreACP::RequestSupportedAttrs","tsf.itextstoreacp_requestsupportedattrs"]
+description: Get the attributes that are supported in the document.
+helpviewer_keywords: ["ITextStoreACP interface [Text Services Framework]","RequestSupportedAttrs method","ITextStoreACP.RequestSupportedAttrs","ITextStoreACP::RequestSupportedAttrs","RequestSupportedAttrs","RequestSupportedAttrs method [Text Services Framework]","RequestSupportedAttrs method [Text Services Framework]","ITextStoreACP interface","_tsf_itextstoreacp_requestsupportedattrs_ref","textstor/ITextStoreACP::RequestSupportedAttrs","tsf.itextstoreacp_requestsupportedattrs"]
 old-location: tsf\itextstoreacp_requestsupportedattrs.htm
 tech.root: TSF
 ms.assetid: 243cd002-c882-4ce9-b528-1a2229c46f4a

@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.put_Gamma
 title: IVideoProcAmp::put_Gamma (vidcap.h)
-description: The put_Gamma method sets the camera's gamma setting.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_Gamma method","IVideoProcAmp.put_Gamma","IVideoProcAmp::put_Gamma","IVideoProcAmpput_Gamma","dshow.ivideoprocamp_put_gamma","put_Gamma","put_Gamma method [DirectShow]","put_Gamma method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::put_Gamma"]
+description: The put_Gamma method sets the camera's gamma setting.
+helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","put_Gamma method","IVideoProcAmp.put_Gamma","IVideoProcAmp::put_Gamma","IVideoProcAmpput_Gamma","dshow.ivideoprocamp_put_gamma","put_Gamma","put_Gamma method [DirectShow]","put_Gamma method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::put_Gamma"]
 old-location: dshow\ivideoprocamp_put_gamma.htm
 tech.root: DirectShow
 ms.assetid: f4efe538-75c5-4c52-9ad2-dc6badee74f2

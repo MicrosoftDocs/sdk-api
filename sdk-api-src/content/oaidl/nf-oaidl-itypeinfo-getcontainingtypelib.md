@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ITypeInfo.GetContainingTypeLib
 title: ITypeInfo::GetContainingTypeLib (oaidl.h)
-description: Retrieves the containing type library and the index of the type description within that type library.helpviewer_keywords: ["GetContainingTypeLib","GetContainingTypeLib method [Automation]","GetContainingTypeLib method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetContainingTypeLib method","ITypeInfo.GetContainingTypeLib","ITypeInfo::GetContainingTypeLib","_oa96_ITypeInfo_GetContainingTypeLib","automat.itypeinfo_getcontainingtypelib","oaidl/ITypeInfo::GetContainingTypeLib"]
+description: Retrieves the containing type library and the index of the type description within that type library.
+helpviewer_keywords: ["GetContainingTypeLib","GetContainingTypeLib method [Automation]","GetContainingTypeLib method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","GetContainingTypeLib method","ITypeInfo.GetContainingTypeLib","ITypeInfo::GetContainingTypeLib","_oa96_ITypeInfo_GetContainingTypeLib","automat.itypeinfo_getcontainingtypelib","oaidl/ITypeInfo::GetContainingTypeLib"]
 old-location: automat\itypeinfo_getcontainingtypelib.htm
 tech.root: automat
 ms.assetid: 9ca58285-4778-4c2a-b800-dcda9b62e328

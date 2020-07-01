@@ -1,7 +1,8 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.Publish
 title: IWSDiscoveryPublisher::Publish (wsddisco.h)
-description: Announces the presence of a network host by sending a Hello message.helpviewer_keywords: ["IWSDiscoveryPublisher interface","Publish method","IWSDiscoveryPublisher.Publish","IWSDiscoveryPublisher::Publish","Publish","Publish method","Publish method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_publish_method","wsddisco/IWSDiscoveryPublisher::Publish"]
+description: Announces the presence of a network host by sending a Hello message.
+helpviewer_keywords: ["IWSDiscoveryPublisher interface","Publish method","IWSDiscoveryPublisher.Publish","IWSDiscoveryPublisher::Publish","Publish","Publish method","Publish method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_publish_method","wsddisco/IWSDiscoveryPublisher::Publish"]
 old-location: ncd\iwsdiscoverypublisher_publish_method.htm
 tech.root: WsdApi
 ms.assetid: 71c6e4af-128a-4418-9c3b-f64aa734fb50

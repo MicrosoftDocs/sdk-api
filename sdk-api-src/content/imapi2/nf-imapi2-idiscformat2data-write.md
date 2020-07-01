@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.Write
 title: IDiscFormat2Data::Write (imapi2.h)
-description: Writes the data stream to the device.helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","Write method","IDiscFormat2Data.Write","IDiscFormat2Data::Write","Write","Write method [IMAPI]","Write method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_write","imapi2/IDiscFormat2Data::Write"]
+description: Writes the data stream to the device.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","Write method","IDiscFormat2Data.Write","IDiscFormat2Data::Write","Write","Write method [IMAPI]","Write method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_write","imapi2/IDiscFormat2Data::Write"]
 old-location: imapi\idiscformat2data_write.htm
 tech.root: imapi
 ms.assetid: 9daf31f3-84c2-48b2-ab21-a3809b6ed9af

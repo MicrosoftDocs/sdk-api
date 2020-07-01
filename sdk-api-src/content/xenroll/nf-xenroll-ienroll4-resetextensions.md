@@ -1,7 +1,8 @@
 ---
 UID: NF:xenroll.IEnroll4.resetExtensions
 title: IEnroll4::resetExtensions (xenroll.h)
-description: Removes all extensions from the request.helpviewer_keywords: ["IEnroll4 interface [Security]","resetExtensions method","IEnroll4.resetExtensions","IEnroll4::resetExtensions","resetExtensions","resetExtensions method [Security]","resetExtensions method [Security]","IEnroll4 interface","security.ienroll4_resetextensions","xenroll/IEnroll4::resetExtensions"]
+description: Removes all extensions from the request.
+helpviewer_keywords: ["IEnroll4 interface [Security]","resetExtensions method","IEnroll4.resetExtensions","IEnroll4::resetExtensions","resetExtensions","resetExtensions method [Security]","resetExtensions method [Security]","IEnroll4 interface","security.ienroll4_resetextensions","xenroll/IEnroll4::resetExtensions"]
 old-location: security\ienroll4_resetextensions.htm
 tech.root: SecCrypto
 ms.assetid: 6e03ecaa-3996-4aea-b328-e438194f30d5

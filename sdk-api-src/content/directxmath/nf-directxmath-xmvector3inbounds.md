@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3InBounds
 title: XMVector3InBounds function (directxmath.h)
-description: Tests whether the components of a 3D vector are within set bounds.helpviewer_keywords: ["Use DirectX..XMVector3InBounds","XMVector3InBounds","XMVector3InBounds method [DirectX Math Support APIs]","dxmath.xmvector3inbounds"]
+description: Tests whether the components of a 3D vector are within set bounds.
+helpviewer_keywords: ["Use DirectX..XMVector3InBounds","XMVector3InBounds","XMVector3InBounds method [DirectX Math Support APIs]","dxmath.xmvector3inbounds"]
 old-location: dxmath\xmvector3inbounds.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3InBounds(XMVECTOR,XMVECTOR)

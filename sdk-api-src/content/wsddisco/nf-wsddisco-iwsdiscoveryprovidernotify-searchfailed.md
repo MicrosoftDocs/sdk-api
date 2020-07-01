@@ -1,7 +1,8 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.SearchFailed
 title: IWSDiscoveryProviderNotify::SearchFailed (wsddisco.h)
-description: Is called to indicate a user initiated search has failed.helpviewer_keywords: ["IWSDiscoveryProviderNotify interface","SearchFailed method","IWSDiscoveryProviderNotify.SearchFailed","IWSDiscoveryProviderNotify::SearchFailed","SearchFailed","SearchFailed method","SearchFailed method","IWSDiscoveryProviderNotify interface","ncd.iwsdiscoveryprovidernotify_searchfailed_method","wsddisco/IWSDiscoveryProviderNotify::SearchFailed"]
+description: Is called to indicate a user initiated search has failed.
+helpviewer_keywords: ["IWSDiscoveryProviderNotify interface","SearchFailed method","IWSDiscoveryProviderNotify.SearchFailed","IWSDiscoveryProviderNotify::SearchFailed","SearchFailed","SearchFailed method","SearchFailed method","IWSDiscoveryProviderNotify interface","ncd.iwsdiscoveryprovidernotify_searchfailed_method","wsddisco/IWSDiscoveryProviderNotify::SearchFailed"]
 old-location: ncd\iwsdiscoveryprovidernotify_searchfailed_method.htm
 tech.root: WsdApi
 ms.assetid: 8f861c69-2967-4a8d-a64a-e2409d722984

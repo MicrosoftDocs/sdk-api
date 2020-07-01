@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetWindowLongW
 title: SetWindowLongW function (winuser.h)
-description: Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory.helpviewer_keywords: ["DWL_DLGPROC","DWL_MSGRESULT","DWL_USER","GWL_EXSTYLE","GWL_HINSTANCE","GWL_ID","GWL_STYLE","GWL_USERDATA","GWL_WNDPROC","SetWindowLong","SetWindowLong function [Windows and Messages]","SetWindowLongA","SetWindowLongW","_win32_SetWindowLong","_win32_setwindowlong_cpp","winmsg.setwindowlong","winui._win32_setwindowlong","winuser/SetWindowLong","winuser/SetWindowLongA","winuser/SetWindowLongW"]
+description: Changes an attribute of the specified window. The function also sets the 32-bit (long) value at the specified offset into the extra window memory.
+helpviewer_keywords: ["DWL_DLGPROC","DWL_MSGRESULT","DWL_USER","GWL_EXSTYLE","GWL_HINSTANCE","GWL_ID","GWL_STYLE","GWL_USERDATA","GWL_WNDPROC","SetWindowLong","SetWindowLong function [Windows and Messages]","SetWindowLongA","SetWindowLongW","_win32_SetWindowLong","_win32_setwindowlong_cpp","winmsg.setwindowlong","winui._win32_setwindowlong","winuser/SetWindowLong","winuser/SetWindowLongA","winuser/SetWindowLongW"]
 old-location: winmsg\setwindowlong.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlong.htm
@@ -254,6 +255,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines SetWindowLong as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.SendMessageComplete
 title: IWMPContentPartnerCallback::SendMessageComplete (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPContentPartnerCallback interface [Windows Media Player]","SendMessageComplete method","IWMPContentPartnerCallback.SendMessageComplete","IWMPContentPartnerCallback::SendMessageComplete","IWMPContentPartnerCallbackSendMessageComplete","SendMessageComplete","SendMessageComplete method [Windows Media Player]","SendMessageComplete method [Windows Media Player]","IWMPContentPartnerCallback interface","contentpartner/IWMPContentPartnerCallback::SendMessageComplete","wmp.iwmpcontentpartnercallback_sendmessagecomplete"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["IWMPContentPartnerCallback interface [Windows Media Player]","SendMessageComplete method","IWMPContentPartnerCallback.SendMessageComplete","IWMPContentPartnerCallback::SendMessageComplete","IWMPContentPartnerCallbackSendMessageComplete","SendMessageComplete","SendMessageComplete method [Windows Media Player]","SendMessageComplete method [Windows Media Player]","IWMPContentPartnerCallback interface","contentpartner/IWMPContentPartnerCallback::SendMessageComplete","wmp.iwmpcontentpartnercallback_sendmessagecomplete"]
 old-location: wmp\iwmpcontentpartnercallback_sendmessagecomplete.htm
 tech.root: WMP
 ms.assetid: fa5c6b8f-5797-4703-9be8-e3c3a1f1f5f3

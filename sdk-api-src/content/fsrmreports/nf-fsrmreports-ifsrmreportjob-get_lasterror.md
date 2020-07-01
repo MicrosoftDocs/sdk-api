@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmReportJob.get_LastError
 title: IFsrmReportJob::get_LastError (fsrmreports.h)
-description: Retrieves the error message from the last time the reports were run.helpviewer_keywords: ["IFsrmReportJob interface [File Server Resource Manager]","LastError property","IFsrmReportJob.LastError","IFsrmReportJob.get_LastError","IFsrmReportJob::LastError","IFsrmReportJob::get_LastError","LastError property [File Server Resource Manager]","LastError property [File Server Resource Manager]","IFsrmReportJob interface","fs.ifsrmreportjob_lasterror","fsrm.ifsrmreportjob_lasterror","fsrmreports/IFsrmReportJob::LastError","fsrmreports/IFsrmReportJob::get_LastError","get_LastError"]
+description: Retrieves the error message from the last time the reports were run.
+helpviewer_keywords: ["IFsrmReportJob interface [File Server Resource Manager]","LastError property","IFsrmReportJob.LastError","IFsrmReportJob.get_LastError","IFsrmReportJob::LastError","IFsrmReportJob::get_LastError","LastError property [File Server Resource Manager]","LastError property [File Server Resource Manager]","IFsrmReportJob interface","fs.ifsrmreportjob_lasterror","fsrm.ifsrmreportjob_lasterror","fsrmreports/IFsrmReportJob::LastError","fsrmreports/IFsrmReportJob::get_LastError","get_LastError"]
 old-location: fsrm\ifsrmreportjob_lasterror.htm
 tech.root: fsrm
 ms.assetid: 7a610d10-8e43-49b7-b85b-bb0ec122fda8

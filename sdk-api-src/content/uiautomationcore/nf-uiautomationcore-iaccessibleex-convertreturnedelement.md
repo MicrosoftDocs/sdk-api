@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IAccessibleEx.ConvertReturnedElement
 title: IAccessibleEx::ConvertReturnedElement (uiautomationcore.h)
-description: Retrieves the IAccessibleEx interface of an element returned as a property value.helpviewer_keywords: ["ConvertReturnedElement","ConvertReturnedElement method [Windows Accessibility]","ConvertReturnedElement method [Windows Accessibility]","IAccessibleEx interface","IAccessibleEx interface [Windows Accessibility]","ConvertReturnedElement method","IAccessibleEx.ConvertReturnedElement","IAccessibleEx::ConvertReturnedElement","uiauto.uiauto_IAccessibleEx_ConvertReturnedElement","uiauto_IAccessibleEx_ConvertReturnedElement","uiautomationcore/IAccessibleEx::ConvertReturnedElement","winauto.uiauto_IAccessibleEx_ConvertReturnedElement"]
+description: Retrieves the IAccessibleEx interface of an element returned as a property value.
+helpviewer_keywords: ["ConvertReturnedElement","ConvertReturnedElement method [Windows Accessibility]","ConvertReturnedElement method [Windows Accessibility]","IAccessibleEx interface","IAccessibleEx interface [Windows Accessibility]","ConvertReturnedElement method","IAccessibleEx.ConvertReturnedElement","IAccessibleEx::ConvertReturnedElement","uiauto.uiauto_IAccessibleEx_ConvertReturnedElement","uiauto_IAccessibleEx_ConvertReturnedElement","uiautomationcore/IAccessibleEx::ConvertReturnedElement","winauto.uiauto_IAccessibleEx_ConvertReturnedElement"]
 old-location: winauto\uiauto_IAccessibleEx_ConvertReturnedElement.htm
 tech.root: WinAuto
 ms.assetid: eafda7ed-b18c-4d52-9d1c-a9d1a2d5dfd1

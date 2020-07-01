@@ -1,7 +1,8 @@
 ---
 UID: NS:msctf.TF_INPUTPROCESSORPROFILE
 title: TF_INPUTPROCESSORPROFILE (msctf.h)
-description: This structure contains data for the input processor profile.helpviewer_keywords: ["TF_INPUTPROCESSORPROFILE","TF_INPUTPROCESSORPROFILE structure [Text Services Framework]","_tsf_tf_inputprocessorprofile_ref","msctf/TF_INPUTPROCESSORPROFILE","tsf.tf_inputprocessorprofile"]
+description: This structure contains data for the input processor profile.
+helpviewer_keywords: ["TF_INPUTPROCESSORPROFILE","TF_INPUTPROCESSORPROFILE structure [Text Services Framework]","_tsf_tf_inputprocessorprofile_ref","msctf/TF_INPUTPROCESSORPROFILE","tsf.tf_inputprocessorprofile"]
 old-location: tsf\tf_inputprocessorprofile.htm
 tech.root: TSF
 ms.assetid: fecaf8f5-1323-4a2e-94ee-26b5712ed643

@@ -1,7 +1,8 @@
 ---
 UID: NN:dmusics.IDirectMusicSynth
 title: IDirectMusicSynth (dmusics.h)
-description: The IDirectMusicSynth interface is used by DirectMusic to communicate with user-mode synthesizers.helpviewer_keywords: ["IDirectMusicSynth","IDirectMusicSynth interface [Audio Devices]","IDirectMusicSynth interface [Audio Devices]","described","audio.idirectmusicsynth","audmp-routines_ab253bc7-f9a6-4279-99fb-4e5b2693c94b.xml","dmusics/IDirectMusicSynth"]
+description: The IDirectMusicSynth interface is used by DirectMusic to communicate with user-mode synthesizers.
+helpviewer_keywords: ["IDirectMusicSynth","IDirectMusicSynth interface [Audio Devices]","IDirectMusicSynth interface [Audio Devices]","described","audio.idirectmusicsynth","audmp-routines_ab253bc7-f9a6-4279-99fb-4e5b2693c94b.xml","dmusics/IDirectMusicSynth"]
 old-location: audio\idirectmusicsynth.htm
 tech.root: audio
 ms.assetid: 08f1056a-fead-475b-a13a-ee11b9709241

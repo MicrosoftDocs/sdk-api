@@ -1,7 +1,8 @@
 ---
 UID: NN:vds.IVdsVolumeShrink
 title: IVdsVolumeShrink (vds.h)
-description: Provides methods to support volume shrinking.helpviewer_keywords: ["IVdsVolumeShrink","IVdsVolumeShrink interface","IVdsVolumeShrink interface","described","base.ivdsvolumeshrink","vds/IVdsVolumeShrink"]
+description: Provides methods to support volume shrinking.
+helpviewer_keywords: ["IVdsVolumeShrink","IVdsVolumeShrink interface","IVdsVolumeShrink interface","described","base.ivdsvolumeshrink","vds/IVdsVolumeShrink"]
 old-location: base\ivdsvolumeshrink.htm
 tech.root: VDS
 ms.assetid: 08c354a6-5cc0-405c-91cf-dca55b87b49a

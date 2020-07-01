@@ -1,7 +1,8 @@
 ---
 UID: NF:immdev.ImmRegisterWordA
 title: ImmRegisterWordA function (immdev.h)
-description: Registers a string with the dictionary of the IME associated with the specified input locale.helpviewer_keywords: ["Any value in the range from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST","IME_REGWORD_STYLE_EUDC","ImmRegisterWord","ImmRegisterWord function [Internationalization for Windows Applications]","ImmRegisterWordA","ImmRegisterWordW","_win32_ImmRegisterWord","imm/ImmRegisterWord","imm/ImmRegisterWordA","imm/ImmRegisterWordW","intl.immregisterword"]
+description: Registers a string with the dictionary of the IME associated with the specified input locale.
+helpviewer_keywords: ["Any value in the range from IME_REGWORD_STYLE_USER_FIRST to IME_REGWORD_STYLE_USER_LAST","IME_REGWORD_STYLE_EUDC","ImmRegisterWord","ImmRegisterWord function [Internationalization for Windows Applications]","ImmRegisterWordA","ImmRegisterWordW","_win32_ImmRegisterWord","imm/ImmRegisterWord","imm/ImmRegisterWordA","imm/ImmRegisterWordW","intl.immregisterword"]
 old-location: intl\immregisterword.htm
 tech.root: Intl
 ms.assetid: c5a507f3-5908-4f44-be7a-7feba8bfe378
@@ -132,6 +133,10 @@ An IME independent software vendor (ISV) can define private styles for an IME in
 
 
 
+
+
+> [!NOTE]
+> The immdev.h header defines ImmRegisterWord as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

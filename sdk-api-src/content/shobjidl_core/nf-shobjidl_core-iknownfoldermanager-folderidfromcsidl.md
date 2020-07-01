@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IKnownFolderManager.FolderIdFromCsidl
 title: IKnownFolderManager::FolderIdFromCsidl (shobjidl_core.h)
-description: Gets the KNOWNFOLDERID that is the equivalent of a legacy CSIDL value.helpviewer_keywords: ["FolderIdFromCsidl","FolderIdFromCsidl method [Windows Shell]","FolderIdFromCsidl method [Windows Shell]","IKnownFolderManager interface","IKnownFolderManager interface [Windows Shell]","FolderIdFromCsidl method","IKnownFolderManager.FolderIdFromCsidl","IKnownFolderManager::FolderIdFromCsidl","_shell_IKnownFolderManager_FolderIdFromCsidl","shell.IKnownFolderManager_FolderIdFromCsidl","shobjidl_core/IKnownFolderManager::FolderIdFromCsidl"]
+description: Gets the KNOWNFOLDERID that is the equivalent of a legacy CSIDL value.
+helpviewer_keywords: ["FolderIdFromCsidl","FolderIdFromCsidl method [Windows Shell]","FolderIdFromCsidl method [Windows Shell]","IKnownFolderManager interface","IKnownFolderManager interface [Windows Shell]","FolderIdFromCsidl method","IKnownFolderManager.FolderIdFromCsidl","IKnownFolderManager::FolderIdFromCsidl","_shell_IKnownFolderManager_FolderIdFromCsidl","shell.IKnownFolderManager_FolderIdFromCsidl","shobjidl_core/IKnownFolderManager::FolderIdFromCsidl"]
 old-location: shell\IKnownFolderManager_FolderIdFromCsidl.htm
 tech.root: shell
 ms.assetid: 8c819558-8cbd-4576-98e6-99efa39ca5a6

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.GetBlendCount
 title: PathGradientBrush::GetBlendCount (gdipluspath.h)
-description: The PathGradientBrush::GetBlendCount method gets the number of blend factors currently set for this path gradient brush.helpviewer_keywords: ["GetBlendCount","GetBlendCount method [GDI+]","GetBlendCount method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","GetBlendCount method","PathGradientBrush.GetBlendCount","PathGradientBrush::GetBlendCount","_gdiplus_CLASS_PathGradientBrush_GetBlendCount_","gdiplus._gdiplus_CLASS_PathGradientBrush_GetBlendCount_"]
+description: The PathGradientBrush::GetBlendCount method gets the number of blend factors currently set for this path gradient brush.
+helpviewer_keywords: ["GetBlendCount","GetBlendCount method [GDI+]","GetBlendCount method [GDI+]","PathGradientBrush class","PathGradientBrush class [GDI+]","GetBlendCount method","PathGradientBrush.GetBlendCount","PathGradientBrush::GetBlendCount","_gdiplus_CLASS_PathGradientBrush_GetBlendCount_","gdiplus._gdiplus_CLASS_PathGradientBrush_GetBlendCount_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_GetBlendCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\getblendcount_26.htm

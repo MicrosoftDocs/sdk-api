@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptMsgCountersign
 title: CryptMsgCountersign function (wincrypt.h)
-description: Countersigns an existing signature in a message.helpviewer_keywords: ["CryptMsgCountersign","CryptMsgCountersign function [Security]","_crypto2_cryptmsgcountersign","security.cryptmsgcountersign","wincrypt/CryptMsgCountersign"]
+description: Countersigns an existing signature in a message.
+helpviewer_keywords: ["CryptMsgCountersign","CryptMsgCountersign function [Security]","_crypto2_cryptmsgcountersign","security.cryptmsgcountersign","wincrypt/CryptMsgCountersign"]
 old-location: security\cryptmsgcountersign.htm
 tech.root: SecCrypto
 ms.assetid: ebf76664-bca6-462d-b519-2b60f435d8ef

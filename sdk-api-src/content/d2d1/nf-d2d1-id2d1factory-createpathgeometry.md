@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreatePathGeometry
 title: ID2D1Factory::CreatePathGeometry (d2d1.h)
-description: Creates an empty ID2D1PathGeometry.helpviewer_keywords: ["CreatePathGeometry","CreatePathGeometry method [Direct2D]","CreatePathGeometry method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreatePathGeometry method","ID2D1Factory.CreatePathGeometry","ID2D1Factory::CreatePathGeometry","d2d1/ID2D1Factory::CreatePathGeometry","direct2d.ID2D1Factory_CreatePathGeometry"]
+description: Creates an empty ID2D1PathGeometry.
+helpviewer_keywords: ["CreatePathGeometry","CreatePathGeometry method [Direct2D]","CreatePathGeometry method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreatePathGeometry method","ID2D1Factory.CreatePathGeometry","ID2D1Factory::CreatePathGeometry","d2d1/ID2D1Factory::CreatePathGeometry","direct2d.ID2D1Factory_CreatePathGeometry"]
 old-location: direct2d\ID2D1Factory_CreatePathGeometry.htm
 tech.root: Direct2D
 ms.assetid: 35c46055-3df2-44d5-b11d-520ab2fa4a0e

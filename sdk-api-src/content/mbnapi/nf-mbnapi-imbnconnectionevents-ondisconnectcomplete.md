@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnConnectionEvents.OnDisconnectComplete
 title: IMbnConnectionEvents::OnDisconnectComplete (mbnapi.h)
-description: Notification method that indicates that a disconnection operation has been performed.helpviewer_keywords: ["IMbnConnectionEvents interface [Microsoft Broadband Networks]","OnDisconnectComplete method","IMbnConnectionEvents.OnDisconnectComplete","IMbnConnectionEvents::OnDisconnectComplete","OnDisconnectComplete","OnDisconnectComplete method [Microsoft Broadband Networks]","OnDisconnectComplete method [Microsoft Broadband Networks]","IMbnConnectionEvents interface","mbn.imbnconnectionevents_ondisconnectcomplete","mbnapi/IMbnConnectionEvents::OnDisconnectComplete"]
+description: Notification method that indicates that a disconnection operation has been performed.
+helpviewer_keywords: ["IMbnConnectionEvents interface [Microsoft Broadband Networks]","OnDisconnectComplete method","IMbnConnectionEvents.OnDisconnectComplete","IMbnConnectionEvents::OnDisconnectComplete","OnDisconnectComplete","OnDisconnectComplete method [Microsoft Broadband Networks]","OnDisconnectComplete method [Microsoft Broadband Networks]","IMbnConnectionEvents interface","mbn.imbnconnectionevents_ondisconnectcomplete","mbnapi/IMbnConnectionEvents::OnDisconnectComplete"]
 old-location: mbn\imbnconnectionevents_ondisconnectcomplete.htm
 tech.root: mbn
 ms.assetid: 2d225823-2b9b-4c3a-b847-7b2b9a13d121

@@ -1,7 +1,8 @@
 ---
 UID: NF:ntquery.CITextToFullTreeEx
 title: CITextToFullTreeEx function (ntquery.h)
-description: Creates a full command tree using the Query Language Dialect that you specify.helpviewer_keywords: ["CITextToFullTreeEx","CITextToFullTreeEx function [Indexing Service]","_idxs_CITextToFullTreeEx","indexsrv.citexttofulltreeex","ntquery/CITextToFullTreeEx"]
+description: Creates a full command tree using the Query Language Dialect that you specify.
+helpviewer_keywords: ["CITextToFullTreeEx","CITextToFullTreeEx function [Indexing Service]","_idxs_CITextToFullTreeEx","indexsrv.citexttofulltreeex","ntquery/CITextToFullTreeEx"]
 old-location: indexsrv\citexttofulltreeex.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_0trs.htm

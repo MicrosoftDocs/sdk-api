@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcMgmtInqDefaultProtectLevel
 title: RpcMgmtInqDefaultProtectLevel function (rpcdce.h)
-description: The RpcMgmtInqDefaultProtectLevel function returns the default authentication level for an authentication service.helpviewer_keywords: ["RpcMgmtInqDefaultProtectLevel","RpcMgmtInqDefaultProtectLevel function [RPC]","_rpc_rpcmgmtinqdefaultprotectlevel","rpc.rpcmgmtinqdefaultprotectlevel","rpcdce/RpcMgmtInqDefaultProtectLevel"]
+description: The RpcMgmtInqDefaultProtectLevel function returns the default authentication level for an authentication service.
+helpviewer_keywords: ["RpcMgmtInqDefaultProtectLevel","RpcMgmtInqDefaultProtectLevel function [RPC]","_rpc_rpcmgmtinqdefaultprotectlevel","rpc.rpcmgmtinqdefaultprotectlevel","rpcdce/RpcMgmtInqDefaultProtectLevel"]
 old-location: rpc\rpcmgmtinqdefaultprotectlevel.htm
 tech.root: Rpc
 ms.assetid: 54a960dd-7dfc-4364-8ae8-e18fa30a51a3

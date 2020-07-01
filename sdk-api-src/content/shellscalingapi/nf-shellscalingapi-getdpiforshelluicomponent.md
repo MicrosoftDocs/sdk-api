@@ -1,7 +1,8 @@
 ---
 UID: NF:shellscalingapi.GetDpiForShellUIComponent
 title: GetDpiForShellUIComponent function (shellscalingapi.h)
-description: Retrieves the dots per inch (dpi) occupied by a SHELL_UI_COMPONENT based on the current scale factor and PROCESS_DPI_AWARENESS.helpviewer_keywords: ["GetDpiForShellUIComponent","GetDpiForShellUiComponent","GetDpiForShellUiComponent function [Windows Shell]","shell.getdpiforshelluicomponent","shellscalingapi/GetDpiForShellUiComponent"]
+description: Retrieves the dots per inch (dpi) occupied by a SHELL_UI_COMPONENT based on the current scale factor and PROCESS_DPI_AWARENESS.
+helpviewer_keywords: ["GetDpiForShellUIComponent","GetDpiForShellUiComponent","GetDpiForShellUiComponent function [Windows Shell]","shell.getdpiforshelluicomponent","shellscalingapi/GetDpiForShellUiComponent"]
 old-location: shell\getdpiforshelluicomponent.htm
 tech.root: shell
 ms.assetid: D5198497-DBD5-439E-809C-A36211C2774C

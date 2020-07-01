@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetLength
 title: IDvbSubtitlingDescriptor::GetLength (dvbsiparser.h)
-description: Gets the body length of a Digital Video Broadcast (DVB) subtitling descriptor.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbSubtitlingDescriptor.GetLength","IDvbSubtitlingDescriptor::GetLength","dvbsiparser/IDvbSubtitlingDescriptor::GetLength","mstv.idvbsubtitlingdescriptor_getlength"]
+description: Gets the body length of a Digital Video Broadcast (DVB) subtitling descriptor.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbSubtitlingDescriptor.GetLength","IDvbSubtitlingDescriptor::GetLength","dvbsiparser/IDvbSubtitlingDescriptor::GetLength","mstv.idvbsubtitlingdescriptor_getlength"]
 old-location: mstv\idvbsubtitlingdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 1b02c37c-4411-4d69-af5d-d758b18fe42c

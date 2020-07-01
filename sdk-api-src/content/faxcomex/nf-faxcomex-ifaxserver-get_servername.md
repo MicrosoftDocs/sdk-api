@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_ServerName
 title: IFaxServer::get_ServerName (faxcomex.h)
-description: The IFaxServer::get_ServerName property retrieves the name of the active fax server to which the fax client is connected.helpviewer_keywords: ["IFaxServer interface [Fax Service]","ServerName property","IFaxServer.ServerName","IFaxServer.get_ServerName","IFaxServer::ServerName","IFaxServer::get_ServerName","ServerName property [Fax Service]","ServerName property [Fax Service]","IFaxServer interface","_mfax_faxserver.servername","fax._mfax_faxserver_cpp_mfax_faxserver_servername_cpp","fax._mfax_faxserver_servername","faxcomex/IFaxServer::ServerName","faxcomex/IFaxServer::get_ServerName","get_ServerName"]
+description: The IFaxServer::get_ServerName property retrieves the name of the active fax server to which the fax client is connected.
+helpviewer_keywords: ["IFaxServer interface [Fax Service]","ServerName property","IFaxServer.ServerName","IFaxServer.get_ServerName","IFaxServer::ServerName","IFaxServer::get_ServerName","ServerName property [Fax Service]","ServerName property [Fax Service]","IFaxServer interface","_mfax_faxserver.servername","fax._mfax_faxserver_cpp_mfax_faxserver_servername_cpp","fax._mfax_faxserver_servername","faxcomex/IFaxServer::ServerName","faxcomex/IFaxServer::get_ServerName","get_ServerName"]
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_servername_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_04dh.htm

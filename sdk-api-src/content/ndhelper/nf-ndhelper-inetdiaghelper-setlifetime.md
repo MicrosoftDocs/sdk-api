@@ -1,7 +1,8 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.SetLifeTime
 title: INetDiagHelper::SetLifeTime (ndhelper.h)
-description: The Helper Class Extension can limit its diagnosis to events within that time period.helpviewer_keywords: ["INetDiagHelper interface [NDF]","SetLifeTime method","INetDiagHelper.SetLifeTime","INetDiagHelper::SetLifeTime","SetLifeTime","SetLifeTime method [NDF]","SetLifeTime method [NDF]","INetDiagHelper interface","ndf.inetdiaghelpe_setlifetime","ndhelper/INetDiagHelper::SetLifeTime"]
+description: The Helper Class Extension can limit its diagnosis to events within that time period.
+helpviewer_keywords: ["INetDiagHelper interface [NDF]","SetLifeTime method","INetDiagHelper.SetLifeTime","INetDiagHelper::SetLifeTime","SetLifeTime","SetLifeTime method [NDF]","SetLifeTime method [NDF]","INetDiagHelper interface","ndf.inetdiaghelpe_setlifetime","ndhelper/INetDiagHelper::SetLifeTime"]
 old-location: ndf\inetdiaghelpe_setlifetime.htm
 tech.root: NDF
 ms.assetid: a211c885-364f-4ba5-a4c9-88a87b30cdc7

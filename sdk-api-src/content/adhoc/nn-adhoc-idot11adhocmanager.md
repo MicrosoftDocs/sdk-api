@@ -1,7 +1,8 @@
 ---
 UID: NN:adhoc.IDot11AdHocManager
 title: IDot11AdHocManager (adhoc.h)
-description: Creates and manages 802.11 ad hoc networks.helpviewer_keywords: ["IDot11AdHocManager","IDot11AdHocManager interface [NativeWIFI]","IDot11AdHocManager interface [NativeWIFI]","described","adhoc/IDot11AdHocManager","nwifi.idot11adhocmanager"]
+description: Creates and manages 802.11 ad hoc networks.
+helpviewer_keywords: ["IDot11AdHocManager","IDot11AdHocManager interface [NativeWIFI]","IDot11AdHocManager interface [NativeWIFI]","described","adhoc/IDot11AdHocManager","nwifi.idot11adhocmanager"]
 old-location: nwifi\idot11adhocmanager.htm
 tech.root: NativeWiFi
 ms.assetid: dcb93b9c-3292-4cbf-9d44-5367bdbd4878

@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPEnumStorage.Skip
 title: IMDSPEnumStorage::Skip (mswmdm.h)
-description: The Skip method skips over the next specified number of storage interface(s) in the enumeration sequence.helpviewer_keywords: ["IMDSPEnumStorage interface [windows Media Device Manager]","Skip method","IMDSPEnumStorage.Skip","IMDSPEnumStorage::Skip","IMDSPEnumStorageSkip","Skip","Skip method [windows Media Device Manager]","Skip method [windows Media Device Manager]","IMDSPEnumStorage interface","mswmdm/IMDSPEnumStorage::Skip","wmdm.imdspenumstorage_skip"]
+description: The Skip method skips over the next specified number of storage interface(s) in the enumeration sequence.
+helpviewer_keywords: ["IMDSPEnumStorage interface [windows Media Device Manager]","Skip method","IMDSPEnumStorage.Skip","IMDSPEnumStorage::Skip","IMDSPEnumStorageSkip","Skip","Skip method [windows Media Device Manager]","Skip method [windows Media Device Manager]","IMDSPEnumStorage interface","mswmdm/IMDSPEnumStorage::Skip","wmdm.imdspenumstorage_skip"]
 old-location: wmdm\imdspenumstorage_skip.htm
 tech.root: WMDM
 ms.assetid: 68025a40-a423-4a11-87c6-ae8c2d7b3765

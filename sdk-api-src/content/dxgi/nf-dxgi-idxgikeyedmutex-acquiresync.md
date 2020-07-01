@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGIKeyedMutex.AcquireSync
 title: IDXGIKeyedMutex::AcquireSync (dxgi.h)
-description: Using a key, acquires exclusive rendering access to a shared resource.helpviewer_keywords: ["06d995ac-16d4-215c-4d9a-179636a32853","AcquireSync","AcquireSync method [DXGI]","AcquireSync method [DXGI]","IDXGIKeyedMutex interface","IDXGIKeyedMutex interface [DXGI]","AcquireSync method","IDXGIKeyedMutex.AcquireSync","IDXGIKeyedMutex::AcquireSync","direct3ddxgi.idxgikeyedmutex_acquiresync","dxgi/IDXGIKeyedMutex::AcquireSync"]
+description: Using a key, acquires exclusive rendering access to a shared resource.
+helpviewer_keywords: ["06d995ac-16d4-215c-4d9a-179636a32853","AcquireSync","AcquireSync method [DXGI]","AcquireSync method [DXGI]","IDXGIKeyedMutex interface","IDXGIKeyedMutex interface [DXGI]","AcquireSync method","IDXGIKeyedMutex.AcquireSync","IDXGIKeyedMutex::AcquireSync","direct3ddxgi.idxgikeyedmutex_acquiresync","dxgi/IDXGIKeyedMutex::AcquireSync"]
 old-location: direct3ddxgi\idxgikeyedmutex_acquiresync.htm
 tech.root: direct3ddxgi
 ms.assetid: 31edab76-7b16-4a02-83ff-998c21e77f2e

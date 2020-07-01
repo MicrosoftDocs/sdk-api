@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaUserBatch.RemoveAll
 title: IDiskQuotaUserBatch::RemoveAll (dskquota.h)
-description: Removes all IDiskQuotaUser pointers from the batch list.helpviewer_keywords: ["IDiskQuotaUserBatch interface [Files]","RemoveAll method","IDiskQuotaUserBatch.RemoveAll","IDiskQuotaUserBatch::RemoveAll","RemoveAll","RemoveAll method [Files]","RemoveAll method [Files]","IDiskQuotaUserBatch interface","_win32_idiskquotauserbatch_removeall","base.idiskquotauserbatch_removeall","dskquota/IDiskQuotaUserBatch::RemoveAll","fs.idiskquotauserbatch_removeall"]
+description: Removes all IDiskQuotaUser pointers from the batch list.
+helpviewer_keywords: ["IDiskQuotaUserBatch interface [Files]","RemoveAll method","IDiskQuotaUserBatch.RemoveAll","IDiskQuotaUserBatch::RemoveAll","RemoveAll","RemoveAll method [Files]","RemoveAll method [Files]","IDiskQuotaUserBatch interface","_win32_idiskquotauserbatch_removeall","base.idiskquotauserbatch_removeall","dskquota/IDiskQuotaUserBatch::RemoveAll","fs.idiskquotauserbatch_removeall"]
 old-location: fs\idiskquotauserbatch_removeall.htm
 tech.root: FileIO
 ms.assetid: f3c791a9-4976-4e04-903f-a1afffd01f7c

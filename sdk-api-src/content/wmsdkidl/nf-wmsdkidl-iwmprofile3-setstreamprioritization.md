@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.SetStreamPrioritization
 title: IWMProfile3::SetStreamPrioritization (wmsdkidl.h)
-description: The SetStreamPrioritization method assigns a stream prioritization object to the profile. A profile can contain only one stream prioritization object at a time.helpviewer_keywords: ["IWMProfile3 interface [windows Media Format]","SetStreamPrioritization method","IWMProfile3.SetStreamPrioritization","IWMProfile3::SetStreamPrioritization","IWMProfile3SetStreamPrioritization","SetStreamPrioritization","SetStreamPrioritization method [windows Media Format]","SetStreamPrioritization method [windows Media Format]","IWMProfile3 interface","wmformat.iwmprofile3_setstreamprioritization","wmsdkidl/IWMProfile3::SetStreamPrioritization"]
+description: The SetStreamPrioritization method assigns a stream prioritization object to the profile. A profile can contain only one stream prioritization object at a time.
+helpviewer_keywords: ["IWMProfile3 interface [windows Media Format]","SetStreamPrioritization method","IWMProfile3.SetStreamPrioritization","IWMProfile3::SetStreamPrioritization","IWMProfile3SetStreamPrioritization","SetStreamPrioritization","SetStreamPrioritization method [windows Media Format]","SetStreamPrioritization method [windows Media Format]","IWMProfile3 interface","wmformat.iwmprofile3_setstreamprioritization","wmsdkidl/IWMProfile3::SetStreamPrioritization"]
 old-location: wmformat\iwmprofile3_setstreamprioritization.htm
 tech.root: wmformat
 ms.assetid: 16dfb205-2a0b-4dc8-a8f2-8981534018f1

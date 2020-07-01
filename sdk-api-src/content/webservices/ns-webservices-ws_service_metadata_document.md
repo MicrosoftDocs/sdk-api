@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_SERVICE_METADATA_DOCUMENT
 title: WS_SERVICE_METADATA_DOCUMENT (webservices.h)
-description: Specifies the individual documents that make up the service metadata.helpviewer_keywords: ["WS_SERVICE_METADATA_DOCUMENT","WS_SERVICE_METADATA_DOCUMENT structure [Web Services for Windows]","webservices/WS_SERVICE_METADATA_DOCUMENT","wsw.ws_service_metadata_document"]
+description: Specifies the individual documents that make up the service metadata.
+helpviewer_keywords: ["WS_SERVICE_METADATA_DOCUMENT","WS_SERVICE_METADATA_DOCUMENT structure [Web Services for Windows]","webservices/WS_SERVICE_METADATA_DOCUMENT","wsw.ws_service_metadata_document"]
 old-location: wsw\ws_service_metadata_document.htm
 tech.root: wsw
 ms.assetid: d15fb735-9f82-4dd2-8586-f67999ab9727

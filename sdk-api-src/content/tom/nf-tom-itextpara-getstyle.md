@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetStyle
 title: ITextPara::GetStyle (tom.h)
-description: Retrieves the style handle to the paragraphs in the specified range.helpviewer_keywords: ["GetStyle","GetStyle method [Windows Controls]","GetStyle method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetStyle method","ITextPara.GetStyle","ITextPara::GetStyle","_win32_ITextPara_GetStyle","_win32_ITextPara_GetStyle_cpp","controls.ITextPara_GetStyle","controls._win32_ITextPara_GetStyle","tom/ITextPara::GetStyle"]
+description: Retrieves the style handle to the paragraphs in the specified range.
+helpviewer_keywords: ["GetStyle","GetStyle method [Windows Controls]","GetStyle method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetStyle method","ITextPara.GetStyle","ITextPara::GetStyle","_win32_ITextPara_GetStyle","_win32_ITextPara_GetStyle_cpp","controls.ITextPara_GetStyle","controls._win32_ITextPara_GetStyle","tom/ITextPara::GetStyle"]
 old-location: controls\ITextPara_GetStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparagetstyle.htm

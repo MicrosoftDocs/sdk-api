@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetThisModelMetadata
 title: IWSDDeviceProxy::GetThisModelMetadata (wsdclient.h)
-description: Retrieves model-specific metadata for the device.helpviewer_keywords: ["GetThisModelMetadata","GetThisModelMetadata method","GetThisModelMetadata method","IWSDDeviceProxy interface","IWSDDeviceProxy interface","GetThisModelMetadata method","IWSDDeviceProxy.GetThisModelMetadata","IWSDDeviceProxy::GetThisModelMetadata","ncd.iwsddeviceproxy_getthismodelmetadata_method","wsdclient/IWSDDeviceProxy::GetThisModelMetadata"]
+description: Retrieves model-specific metadata for the device.
+helpviewer_keywords: ["GetThisModelMetadata","GetThisModelMetadata method","GetThisModelMetadata method","IWSDDeviceProxy interface","IWSDDeviceProxy interface","GetThisModelMetadata method","IWSDDeviceProxy.GetThisModelMetadata","IWSDDeviceProxy::GetThisModelMetadata","ncd.iwsddeviceproxy_getthismodelmetadata_method","wsdclient/IWSDDeviceProxy::GetThisModelMetadata"]
 old-location: ncd\iwsddeviceproxy_getthismodelmetadata_method.htm
 tech.root: WsdApi
 ms.assetid: 8a9343b8-34f3-41f9-8b02-853ae724ec75

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellLinkDataList.AddDataBlock
 title: IShellLinkDataList::AddDataBlock (shobjidl_core.h)
-description: Adds a data block to a link.helpviewer_keywords: ["AddDataBlock","AddDataBlock method [Windows Shell]","AddDataBlock method [Windows Shell]","IShellLinkDataList interface","IShellLinkDataList interface [Windows Shell]","AddDataBlock method","IShellLinkDataList.AddDataBlock","IShellLinkDataList::AddDataBlock","_win32_IShellLinkDataList_AddDataBlock","shell.IShellLinkDataList_AddDataBlock","shobjidl_core/IShellLinkDataList::AddDataBlock"]
+description: Adds a data block to a link.
+helpviewer_keywords: ["AddDataBlock","AddDataBlock method [Windows Shell]","AddDataBlock method [Windows Shell]","IShellLinkDataList interface","IShellLinkDataList interface [Windows Shell]","AddDataBlock method","IShellLinkDataList.AddDataBlock","IShellLinkDataList::AddDataBlock","_win32_IShellLinkDataList_AddDataBlock","shell.IShellLinkDataList_AddDataBlock","shobjidl_core/IShellLinkDataList::AddDataBlock"]
 old-location: shell\IShellLinkDataList_AddDataBlock.htm
 tech.root: shell
 ms.assetid: 6580736f-e217-4e3e-9b6e-1c1c004916f4

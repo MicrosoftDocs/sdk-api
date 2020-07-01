@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSAIsBlocking
 title: WSAIsBlocking function (winsock2.h)
-description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.helpviewer_keywords: ["WSAIsBlocking","WSAIsBlocking function [Winsock]","_win32_wsaisblocking_2","winsock.wsaisblocking_2","winsock2/WSAIsBlocking"]
+description: This function has been removed in compliance with the Windows Sockets 2 specification, revision 2.2.0.
+helpviewer_keywords: ["WSAIsBlocking","WSAIsBlocking function [Winsock]","_win32_wsaisblocking_2","winsock.wsaisblocking_2","winsock2/WSAIsBlocking"]
 old-location: winsock\wsaisblocking_2.htm
 tech.root: WinSock
 ms.assetid: 2721fb73-4c2e-43c4-aea8-232ba531122f

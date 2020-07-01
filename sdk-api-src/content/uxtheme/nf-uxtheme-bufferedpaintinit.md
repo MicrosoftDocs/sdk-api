@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.BufferedPaintInit
 title: BufferedPaintInit function (uxtheme.h)
-description: Initialize buffered painting for the current thread.helpviewer_keywords: ["BufferedPaintInit","BufferedPaintInit function [Windows Controls]","_shell_BufferedPaintInit","_shell_BufferedPaintInit_cpp","controls.BufferedPaintInit","controls._shell_BufferedPaintInit","uxtheme/BufferedPaintInit"]
+description: Initialize buffered painting for the current thread.
+helpviewer_keywords: ["BufferedPaintInit","BufferedPaintInit function [Windows Controls]","_shell_BufferedPaintInit","_shell_BufferedPaintInit_cpp","controls.BufferedPaintInit","controls._shell_BufferedPaintInit","uxtheme/BufferedPaintInit"]
 old-location: controls\BufferedPaintInit.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintinit.htm

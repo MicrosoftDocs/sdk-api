@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetSpaceAfter
 title: ITextPara::GetSpaceAfter (tom.h)
-description: Retrieves the amount of vertical space below a paragraph.helpviewer_keywords: ["GetSpaceAfter","GetSpaceAfter method [Windows Controls]","GetSpaceAfter method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetSpaceAfter method","ITextPara.GetSpaceAfter","ITextPara::GetSpaceAfter","_win32_ITextPara_GetSpaceAfter","_win32_ITextPara_GetSpaceAfter_cpp","controls.ITextPara_GetSpaceAfter","controls._win32_ITextPara_GetSpaceAfter","tom/ITextPara::GetSpaceAfter"]
+description: Retrieves the amount of vertical space below a paragraph.
+helpviewer_keywords: ["GetSpaceAfter","GetSpaceAfter method [Windows Controls]","GetSpaceAfter method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetSpaceAfter method","ITextPara.GetSpaceAfter","ITextPara::GetSpaceAfter","_win32_ITextPara_GetSpaceAfter","_win32_ITextPara_GetSpaceAfter_cpp","controls.ITextPara_GetSpaceAfter","controls._win32_ITextPara_GetSpaceAfter","tom/ITextPara::GetSpaceAfter"]
 old-location: controls\ITextPara_GetSpaceAfter.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getspaceafter.htm

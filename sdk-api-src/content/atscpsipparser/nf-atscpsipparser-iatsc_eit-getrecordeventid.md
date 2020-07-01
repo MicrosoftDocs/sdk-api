@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_EIT.GetRecordEventId
 title: IATSC_EIT::GetRecordEventId (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordEventId","GetRecordEventId method [Microsoft TV Technologies]","GetRecordEventId method [Microsoft TV Technologies]","IATSC_EIT interface","IATSC_EIT interface [Microsoft TV Technologies]","GetRecordEventId method","IATSC_EIT.GetRecordEventId","IATSC_EIT::GetRecordEventId","IATSC_EITGetRecordEventId","atscpsipparser/IATSC_EIT::GetRecordEventId","mstv.iatsc_eit_getrecordeventid"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordEventId","GetRecordEventId method [Microsoft TV Technologies]","GetRecordEventId method [Microsoft TV Technologies]","IATSC_EIT interface","IATSC_EIT interface [Microsoft TV Technologies]","GetRecordEventId method","IATSC_EIT.GetRecordEventId","IATSC_EIT::GetRecordEventId","IATSC_EITGetRecordEventId","atscpsipparser/IATSC_EIT::GetRecordEventId","mstv.iatsc_eit_getrecordeventid"]
 old-location: mstv\iatsc_eit_getrecordeventid.htm
 tech.root: mstv
 ms.assetid: 4fb908cf-4ee9-433b-b686-330a32f855af

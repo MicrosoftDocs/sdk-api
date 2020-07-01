@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IEnumSyncChanges.Next
 title: IEnumSyncChanges::Next (winsync.h)
-description: Returns the next item change.helpviewer_keywords: ["IEnumSyncChanges interface [Windows Sync]","Next method","IEnumSyncChanges.Next","IEnumSyncChanges::Next","Next","Next method [Windows Sync]","Next method [Windows Sync]","IEnumSyncChanges interface","winsync.ienumsyncchanges_next","winsync/IEnumSyncChanges::Next"]
+description: Returns the next item change.
+helpviewer_keywords: ["IEnumSyncChanges interface [Windows Sync]","Next method","IEnumSyncChanges.Next","IEnumSyncChanges::Next","Next","Next method [Windows Sync]","Next method [Windows Sync]","IEnumSyncChanges interface","winsync.ienumsyncchanges_next","winsync/IEnumSyncChanges::Next"]
 old-location: winsync\ienumsyncchanges_next.htm
 tech.root: winsync
 ms.assetid: 23b5f46f-87f3-431e-a253-d349eed27082

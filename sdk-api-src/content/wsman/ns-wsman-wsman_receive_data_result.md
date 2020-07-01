@@ -1,7 +1,8 @@
 ---
 UID: NS:wsman._WSMAN_RECEIVE_DATA_RESULT
 title: WSMAN_RECEIVE_DATA_RESULT (wsman.h)
-description: Represents the output data received from a WSManReceiveShellOutput method.helpviewer_keywords: ["WSMAN_RECEIVE_DATA_RESULT","WSMAN_RECEIVE_DATA_RESULT structure [Windows Remote Management]","winrm.wsman_receive_data_result","wsman/WSMAN_RECEIVE_DATA_RESULT"]
+description: Represents the output data received from a WSManReceiveShellOutput method.
+helpviewer_keywords: ["WSMAN_RECEIVE_DATA_RESULT","WSMAN_RECEIVE_DATA_RESULT structure [Windows Remote Management]","winrm.wsman_receive_data_result","wsman/WSMAN_RECEIVE_DATA_RESULT"]
 old-location: winrm\wsman_receive_data_result.htm
 tech.root: winrm
 ms.assetid: e649a4f0-37ae-40cb-9245-e1b792034c8a

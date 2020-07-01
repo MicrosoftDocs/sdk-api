@@ -1,7 +1,8 @@
 ---
 UID: NS:vdshwprv._VDS_PATH_ID
 title: VDS_PATH_ID (vdshwprv.h)
-description: Defines a unique identification for a path.helpviewer_keywords: ["VDS_PATH_ID","VDS_PATH_ID structure [VDS]","base.vds_path_id","vds/VDS_PATH_ID","vdshwprv/VDS_PATH_ID"]
+description: Defines a unique identification for a path.
+helpviewer_keywords: ["VDS_PATH_ID","VDS_PATH_ID structure [VDS]","base.vds_path_id","vds/VDS_PATH_ID","vdshwprv/VDS_PATH_ID"]
 old-location: base\vds_path_id.htm
 tech.root: VDS
 ms.assetid: bfb786fc-eb03-4449-b631-fb85813c08c8

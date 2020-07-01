@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwService.put_Enabled
 title: INetFwService::put_Enabled (netfw.h)
-description: Indicates whether all the ports associated with the service are enabled.helpviewer_keywords: ["Enabled property [ICS/ICF]","Enabled property [ICS/ICF]","INetFwService interface","INetFwService interface [ICS/ICF]","Enabled property","INetFwService.Enabled","INetFwService.put_Enabled","INetFwService::Enabled","INetFwService::get_Enabled","INetFwService::put_Enabled","ics.inetfwservice_enabled","netfw/INetFwService::Enabled","netfw/INetFwService::get_Enabled","netfw/INetFwService::put_Enabled","put_Enabled"]
+description: Indicates whether all the ports associated with the service are enabled.
+helpviewer_keywords: ["Enabled property [ICS/ICF]","Enabled property [ICS/ICF]","INetFwService interface","INetFwService interface [ICS/ICF]","Enabled property","INetFwService.Enabled","INetFwService.put_Enabled","INetFwService::Enabled","INetFwService::get_Enabled","INetFwService::put_Enabled","ics.inetfwservice_enabled","netfw/INetFwService::Enabled","netfw/INetFwService::get_Enabled","netfw/INetFwService::put_Enabled","put_Enabled"]
 old-location: ics\inetfwservice_enabled.htm
 tech.root: ics
 ms.assetid: bf690427-ad2e-4a5b-9651-f6a9382ab341

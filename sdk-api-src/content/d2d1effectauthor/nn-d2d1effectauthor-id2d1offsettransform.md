@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1OffsetTransform
 title: ID2D1OffsetTransform (d2d1effectauthor.h)
-description: Instructs the effect-rendering system to offset an input bitmap without inserting a rendering pass.helpviewer_keywords: ["ID2D1OffsetTransform","ID2D1OffsetTransform interface [Direct2D]","ID2D1OffsetTransform interface [Direct2D]","described","d2d1effectauthor/ID2D1OffsetTransform","direct2d.id2d1offsettransform"]
+description: Instructs the effect-rendering system to offset an input bitmap without inserting a rendering pass.
+helpviewer_keywords: ["ID2D1OffsetTransform","ID2D1OffsetTransform interface [Direct2D]","ID2D1OffsetTransform interface [Direct2D]","described","d2d1effectauthor/ID2D1OffsetTransform","direct2d.id2d1offsettransform"]
 old-location: direct2d\id2d1offsettransform.htm
 tech.root: Direct2D
 ms.assetid: 0809C0FC-2F7B-49D8-A695-AD451C9BD17F

@@ -1,7 +1,8 @@
 ---
 UID: NE:oleauto.tagREGKIND
 title: REGKIND (oleauto.h)
-description: Controls how a type library is registered.helpviewer_keywords: ["REGKIND","REGKIND enumeration [Automation]","REGKIND_DEFAULT","REGKIND_NONE","REGKIND_REGISTER","_oa96_REGKIND","automat.regkind","oleauto/REGKIND","oleauto/REGKIND_DEFAULT","oleauto/REGKIND_NONE","oleauto/REGKIND_REGISTER"]
+description: Controls how a type library is registered.
+helpviewer_keywords: ["REGKIND","REGKIND enumeration [Automation]","REGKIND_DEFAULT","REGKIND_NONE","REGKIND_REGISTER","_oa96_REGKIND","automat.regkind","oleauto/REGKIND","oleauto/REGKIND_DEFAULT","oleauto/REGKIND_NONE","oleauto/REGKIND_REGISTER"]
 old-location: automat\regkind.htm
 tech.root: automat
 ms.assetid: 2ca13d58-59d2-4e5d-8094-9f1c03bf463c

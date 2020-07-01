@@ -1,7 +1,8 @@
 ---
 UID: NE:clfs._CLFS_CONTEXT_MODE
 title: CLFS_CONTEXT_MODE (clfs.h)
-description: Specifies a context mode type that indicates the direction and access methods that a client uses to scan a log.helpviewer_keywords: ["*PCLFS_CONTEXT_MODE","CLFS_CONTEXT_MODE","CLFS_CONTEXT_MODE enumeration [Files]","ClfsContextForward","ClfsContextNone","ClfsContextPrevious","ClfsContextUndoNext","PCLFS_CONTEXT_MODE","PCLFS_CONTEXT_MODE enumeration pointer [Files]","PPCLFS_CONTEXT_MODE","PPCLFS_CONTEXT_MODE enumeration pointer [Files]","clfs/CLFS_CONTEXT_MODE","clfs/ClfsContextForward","clfs/ClfsContextNone","clfs/ClfsContextPrevious","clfs/ClfsContextUndoNext","clfs/PCLFS_CONTEXT_MODE","clfs/PPCLFS_CONTEXT_MODE","fs.clfs_context_mode"]
+description: Specifies a context mode type that indicates the direction and access methods that a client uses to scan a log.
+helpviewer_keywords: ["*PCLFS_CONTEXT_MODE","CLFS_CONTEXT_MODE","CLFS_CONTEXT_MODE enumeration [Files]","ClfsContextForward","ClfsContextNone","ClfsContextPrevious","ClfsContextUndoNext","PCLFS_CONTEXT_MODE","PCLFS_CONTEXT_MODE enumeration pointer [Files]","PPCLFS_CONTEXT_MODE","PPCLFS_CONTEXT_MODE enumeration pointer [Files]","clfs/CLFS_CONTEXT_MODE","clfs/ClfsContextForward","clfs/ClfsContextNone","clfs/ClfsContextPrevious","clfs/ClfsContextUndoNext","clfs/PCLFS_CONTEXT_MODE","clfs/PPCLFS_CONTEXT_MODE","fs.clfs_context_mode"]
 old-location: fs\clfs_context_mode.htm
 tech.root: Clfs
 ms.assetid: d71c18c3-42d5-4606-9915-8ea491e8b78f

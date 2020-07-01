@@ -1,7 +1,8 @@
 ---
 UID: NF:amstream.IAMMediaTypeStream.GetFormat
 title: IAMMediaTypeStream::GetFormat (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The GetFormat method retrieves the format of the stream.helpviewer_keywords: ["GetFormat","GetFormat method [DirectShow]","GetFormat method [DirectShow]","IAMMediaTypeStream interface","IAMMediaTypeStream interface [DirectShow]","GetFormat method","IAMMediaTypeStream.GetFormat","IAMMediaTypeStream::GetFormat","IAMMediaTypeStreamGetFormat","amstream/IAMMediaTypeStream::GetFormat","dshow.iammediatypestream_getformat"]
+description: Note  This interface is deprecated. New applications should not use it. The GetFormat method retrieves the format of the stream.
+helpviewer_keywords: ["GetFormat","GetFormat method [DirectShow]","GetFormat method [DirectShow]","IAMMediaTypeStream interface","IAMMediaTypeStream interface [DirectShow]","GetFormat method","IAMMediaTypeStream.GetFormat","IAMMediaTypeStream::GetFormat","IAMMediaTypeStreamGetFormat","amstream/IAMMediaTypeStream::GetFormat","dshow.iammediatypestream_getformat"]
 old-location: dshow\iammediatypestream_getformat.htm
 tech.root: DirectShow
 ms.assetid: 9f00fe45-df4b-4787-980c-9fe434a8ab7e

@@ -1,7 +1,8 @@
 ---
 UID: NS:lmdfs.__unnamed_struct_2
 title: DFS_GET_PKT_ENTRY_STATE_ARG (lmdfs.h)
-description: Input buffer used with the FSCTL_DFS_GET_PKT_ENTRY_STATE control code.helpviewer_keywords: ["*PDFS_GET_PKT_ENTRY_STATE_ARG","DFS_GET_PKT_ENTRY_STATE_ARG","DFS_GET_PKT_ENTRY_STATE_ARG structure [Distributed File System]","PDFS_GET_PKT_ENTRY_STATE_ARG","PDFS_GET_PKT_ENTRY_STATE_ARG structure pointer [Distributed File System]","dfs.dfs_get_pkt_entry_state_arg","lmdfs/DFS_GET_PKT_ENTRY_STATE_ARG","lmdfs/PDFS_GET_PKT_ENTRY_STATE_ARG"]
+description: Input buffer used with the FSCTL_DFS_GET_PKT_ENTRY_STATE control code.
+helpviewer_keywords: ["*PDFS_GET_PKT_ENTRY_STATE_ARG","DFS_GET_PKT_ENTRY_STATE_ARG","DFS_GET_PKT_ENTRY_STATE_ARG structure [Distributed File System]","PDFS_GET_PKT_ENTRY_STATE_ARG","PDFS_GET_PKT_ENTRY_STATE_ARG structure pointer [Distributed File System]","dfs.dfs_get_pkt_entry_state_arg","lmdfs/DFS_GET_PKT_ENTRY_STATE_ARG","lmdfs/PDFS_GET_PKT_ENTRY_STATE_ARG"]
 old-location: dfs\dfs_get_pkt_entry_state_arg.htm
 tech.root: Dfs
 ms.assetid: eb69d346-d88c-48e8-abd7-5cbb5976f41f

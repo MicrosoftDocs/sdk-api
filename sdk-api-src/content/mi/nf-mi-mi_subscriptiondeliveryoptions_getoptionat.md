@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetOptionAt
 title: MI_SubscriptionDeliveryOptions_GetOptionAt function (mi.h)
-description: Gets the option at the specified index.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetOptionAt","MI_SubscriptionDeliveryOptions_GetOptionAt function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetOptionAt","wmi_v2.mi_subscriptiondeliveryoptions_getoptionat"]
+description: Gets the option at the specified index.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetOptionAt","MI_SubscriptionDeliveryOptions_GetOptionAt function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetOptionAt","wmi_v2.mi_subscriptiondeliveryoptions_getoptionat"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getoptionat.htm
 tech.root: wmi_v2
 ms.assetid: 7ee9fc4a-b836-4820-84b6-925d9842819d

@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IRealTimeStylusSynchronization.ReleaseLock
 title: IRealTimeStylusSynchronization::ReleaseLock (rtscom.h)
-description: Releases the specified lock.helpviewer_keywords: ["13970fda-7b2a-4fb7-9403-8d9aad39d83a","IRealTimeStylusSynchronization interface [Tablet PC]","ReleaseLock method","IRealTimeStylusSynchronization.ReleaseLock","IRealTimeStylusSynchronization::ReleaseLock","ReleaseLock","ReleaseLock method [Tablet PC]","ReleaseLock method [Tablet PC]","IRealTimeStylusSynchronization interface","rtscom/IRealTimeStylusSynchronization::ReleaseLock","tablet.irealtimestylussynchronization_releaselock"]
+description: Releases the specified lock.
+helpviewer_keywords: ["13970fda-7b2a-4fb7-9403-8d9aad39d83a","IRealTimeStylusSynchronization interface [Tablet PC]","ReleaseLock method","IRealTimeStylusSynchronization.ReleaseLock","IRealTimeStylusSynchronization::ReleaseLock","ReleaseLock","ReleaseLock method [Tablet PC]","ReleaseLock method [Tablet PC]","IRealTimeStylusSynchronization interface","rtscom/IRealTimeStylusSynchronization::ReleaseLock","tablet.irealtimestylussynchronization_releaselock"]
 old-location: tablet\irealtimestylussynchronization_releaselock.htm
 tech.root: tablet
 ms.assetid: 13970fda-7b2a-4fb7-9403-8d9aad39d83a

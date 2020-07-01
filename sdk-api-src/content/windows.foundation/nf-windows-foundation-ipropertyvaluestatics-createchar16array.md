@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateChar16Array
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified array of Unicode characters.helpviewer_keywords: ["CreateChar16Array","CreateChar16Array method [Windows Runtime]","CreateChar16Array method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateChar16Array method","IPropertyValueStatics.CreateChar16Array","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateChar16Array","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateChar16Array","winrt.ipropertyvaluefactory_createchar16array","winrt.ipropertyvaluestatics_createchar16array"]
+description: Creates a new IPropertyValue object that contains the specified array of Unicode characters.
+helpviewer_keywords: ["CreateChar16Array","CreateChar16Array method [Windows Runtime]","CreateChar16Array method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateChar16Array method","IPropertyValueStatics.CreateChar16Array","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateChar16Array","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateChar16Array","winrt.ipropertyvaluefactory_createchar16array","winrt.ipropertyvaluestatics_createchar16array"]
 old-location: winrt\ipropertyvaluestatics_createchar16array.htm
 tech.root: WinRT
 ms.assetid: 4d78015a-dfe1-49be-8523-a5b0f96f7c58

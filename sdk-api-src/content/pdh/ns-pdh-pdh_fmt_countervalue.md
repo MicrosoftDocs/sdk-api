@@ -1,7 +1,8 @@
 ---
 UID: NS:pdh._PDH_FMT_COUNTERVALUE
 title: PDH_FMT_COUNTERVALUE (pdh.h)
-description: The PDH_FMT_COUNTERVALUE structure contains the computed value of the counter and its status.helpviewer_keywords: ["*PPDH_FMT_COUNTERVALUE","PDH_FMT_COUNTERVALUE","PDH_FMT_COUNTERVALUE structure [Perf]","PPDH_FMT_COUNTERVALUE","PPDH_FMT_COUNTERVALUE structure pointer [Perf]","_win32_pdh_fmt_countervalue_str","base.pdh_fmt_countervalue_str","pdh/PDH_FMT_COUNTERVALUE","pdh/PPDH_FMT_COUNTERVALUE","perf.pdh_fmt_countervalue_str"]
+description: The PDH_FMT_COUNTERVALUE structure contains the computed value of the counter and its status.
+helpviewer_keywords: ["*PPDH_FMT_COUNTERVALUE","PDH_FMT_COUNTERVALUE","PDH_FMT_COUNTERVALUE structure [Perf]","PPDH_FMT_COUNTERVALUE","PPDH_FMT_COUNTERVALUE structure pointer [Perf]","_win32_pdh_fmt_countervalue_str","base.pdh_fmt_countervalue_str","pdh/PDH_FMT_COUNTERVALUE","pdh/PPDH_FMT_COUNTERVALUE","perf.pdh_fmt_countervalue_str"]
 old-location: perf\pdh_fmt_countervalue_str.htm
 tech.root: perfctrs
 ms.assetid: 68ccd722-94d2-4610-ba64-f51318f5436e

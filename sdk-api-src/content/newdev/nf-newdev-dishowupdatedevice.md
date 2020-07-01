@@ -1,7 +1,8 @@
 ---
 UID: NF:newdev.DiShowUpdateDevice
 title: DiShowUpdateDevice function (newdev.h)
-description: The DiShowUpdateDevice function displays the Hardware Update wizard for a specified device.helpviewer_keywords: ["DiShowUpdateDevice","DiShowUpdateDevice function [Device and Driver Installation]","devinst.dishowupdatedevice","di-rtns_096f087c-2947-4424-861d-af7287eec8ad.xml","newdev/DiShowUpdateDevice"]
+description: The DiShowUpdateDevice function displays the Hardware Update wizard for a specified device.
+helpviewer_keywords: ["DiShowUpdateDevice","DiShowUpdateDevice function [Device and Driver Installation]","devinst.dishowupdatedevice","di-rtns_096f087c-2947-4424-861d-af7287eec8ad.xml","newdev/DiShowUpdateDevice"]
 old-location: devinst\dishowupdatedevice.htm
 tech.root: devinst
 ms.assetid: 4b60f7cd-0375-4569-abb1-721fd8cdf5a1

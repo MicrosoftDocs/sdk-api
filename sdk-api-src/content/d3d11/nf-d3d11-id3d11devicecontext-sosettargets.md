@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.SOSetTargets
 title: ID3D11DeviceContext::SOSetTargets (d3d11.h)
-description: Set the target output buffers for the stream-output stage of the pipeline.helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","SOSetTargets method","ID3D11DeviceContext.SOSetTargets","ID3D11DeviceContext::SOSetTargets","SOSetTargets","SOSetTargets method [Direct3D 11]","SOSetTargets method [Direct3D 11]","ID3D11DeviceContext interface","cd7db46c-7177-04d3-fee4-89a568e09d9e","d3d11/ID3D11DeviceContext::SOSetTargets","direct3d11.id3d11devicecontext_sosettargets"]
+description: Set the target output buffers for the stream-output stage of the pipeline.
+helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","SOSetTargets method","ID3D11DeviceContext.SOSetTargets","ID3D11DeviceContext::SOSetTargets","SOSetTargets","SOSetTargets method [Direct3D 11]","SOSetTargets method [Direct3D 11]","ID3D11DeviceContext interface","cd7db46c-7177-04d3-fee4-89a568e09d9e","d3d11/ID3D11DeviceContext::SOSetTargets","direct3d11.id3d11devicecontext_sosettargets"]
 old-location: direct3d11\id3d11devicecontext_sosettargets.htm
 tech.root: direct3d11
 ms.assetid: fba6e33e-7d35-4f26-b841-38610164d276

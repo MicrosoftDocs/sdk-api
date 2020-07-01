@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportNamespace.Register
 title: IWdsTransportNamespace::Register (wdstptmgmt.h)
-description: Registers the namespace on the server.helpviewer_keywords: ["IWdsTransportNamespace interface [Windows Deployment Services]","Register method","IWdsTransportNamespace.Register","IWdsTransportNamespace::Register","Register","Register method [Windows Deployment Services]","Register method [Windows Deployment Services]","IWdsTransportNamespace interface","wds.iwdstransportnamespace_register","wdstptmgmt/IWdsTransportNamespace::Register"]
+description: Registers the namespace on the server.
+helpviewer_keywords: ["IWdsTransportNamespace interface [Windows Deployment Services]","Register method","IWdsTransportNamespace.Register","IWdsTransportNamespace::Register","Register","Register method [Windows Deployment Services]","Register method [Windows Deployment Services]","IWdsTransportNamespace interface","wds.iwdstransportnamespace_register","wdstptmgmt/IWdsTransportNamespace::Register"]
 old-location: wds\iwdstransportnamespace_register.htm
 tech.root: wds
 ms.assetid: 9b5d2bf7-c06b-4e1b-bb98-e17a9816c90f

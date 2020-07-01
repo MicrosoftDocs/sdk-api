@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj.IFileViewerSite
 title: IFileViewerSite (shlobj.h)
-description: Exposes methods that designate an interface that allows a file viewer to retrieve the handle to the current pinned window, or to set a new pinned window.helpviewer_keywords: ["IFileViewerSite","IFileViewerSite interface [Windows Shell]","IFileViewerSite interface [Windows Shell]","described","_win32_IFileViewerSite","shell.IFileViewerSite","shlobj/IFileViewerSite"]
+description: Exposes methods that designate an interface that allows a file viewer to retrieve the handle to the current pinned window, or to set a new pinned window.
+helpviewer_keywords: ["IFileViewerSite","IFileViewerSite interface [Windows Shell]","IFileViewerSite interface [Windows Shell]","described","_win32_IFileViewerSite","shell.IFileViewerSite","shlobj/IFileViewerSite"]
 old-location: shell\IFileViewerSite.htm
 tech.root: shell
 ms.assetid: 500fa3e4-1865-4543-ae34-8bd7ce9d94cb

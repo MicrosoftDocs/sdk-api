@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarCyCmpR8
 title: VarCyCmpR8 function (oleauto.h)
-description: Compares a variant of type currency with a value of type double.helpviewer_keywords: ["VarCyCmpR8","VarCyCmpR8 function [Automation]","_oa96_VarCyCmpR8","automat.varcycmpr8","oleauto/VarCyCmpR8"]
+description: Compares a variant of type currency with a value of type double.
+helpviewer_keywords: ["VarCyCmpR8","VarCyCmpR8 function [Automation]","_oa96_VarCyCmpR8","automat.varcycmpr8","oleauto/VarCyCmpR8"]
 old-location: automat\varcycmpr8.htm
 tech.root: automat
 ms.assetid: 391ace93-7f08-4fa3-a897-1f4012fe631b

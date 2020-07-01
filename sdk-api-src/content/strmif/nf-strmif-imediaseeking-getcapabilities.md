@@ -66,7 +66,6 @@ The <code>GetCapabilities</code> method retrieves all the seeking capabilities o
 
 Pointer to a variable that receives a bitwise combination of <a href="/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> flags.
 
-
 ## -returns
 
 
@@ -141,13 +140,10 @@ if (dwCaps &amp; AM_SEEKING_CanPlayBackwards)
 
 
 
-
 <a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
- 
-
  
 

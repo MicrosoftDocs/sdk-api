@@ -1,7 +1,8 @@
 ---
 UID: NS:schannel._SecPkgContext_EarlyStart
 title: SecPkgContext_EarlyStart (schannel.h)
-description: The SecPkgContext_EarlyStart structure contains information about whether to attempt to use the False Start feature in a security context.helpviewer_keywords: ["*PSecPkgContext_EarlyStart","PSecPkgContext_EarlyStart","PSecPkgContext_EarlyStart structure pointer [Security]","SecPkgContext_EarlyStart","SecPkgContext_EarlyStart structure [Security]","SecPkgContext_EarlyStartA","SecPkgContext_EarlyStartW","_SecPkgContext_EarlyStart","schannel/PSecPkgContext_EarlyStart","schannel/SecPkgContext_EarlyStart","schannel/SecPkgContext_EarlyStartA","schannel/SecPkgContext_EarlyStartW","security.secpkgcontext_earlystart"]
+description: The SecPkgContext_EarlyStart structure contains information about whether to attempt to use the False Start feature in a security context.
+helpviewer_keywords: ["*PSecPkgContext_EarlyStart","PSecPkgContext_EarlyStart","PSecPkgContext_EarlyStart structure pointer [Security]","SecPkgContext_EarlyStart","SecPkgContext_EarlyStart structure [Security]","SecPkgContext_EarlyStartA","SecPkgContext_EarlyStartW","_SecPkgContext_EarlyStart","schannel/PSecPkgContext_EarlyStart","schannel/SecPkgContext_EarlyStart","schannel/SecPkgContext_EarlyStartA","schannel/SecPkgContext_EarlyStartW","security.secpkgcontext_earlystart"]
 old-location: security\secpkgcontext_earlystart.htm
 tech.root: SecAuthN
 ms.assetid: 5DD5D0B9-CFFF-4743-94EC-A569D265D31F

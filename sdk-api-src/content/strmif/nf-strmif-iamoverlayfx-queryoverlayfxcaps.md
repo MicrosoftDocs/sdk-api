@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMOverlayFX.QueryOverlayFXCaps
 title: IAMOverlayFX::QueryOverlayFXCaps (strmif.h)
-description: The QueryOverlayFXCaps method retrieves information about which overlay effects are available to the Overlay Mixer filter.helpviewer_keywords: ["IAMOverlayFX interface [DirectShow]","QueryOverlayFXCaps method","IAMOverlayFX.QueryOverlayFXCaps","IAMOverlayFX::QueryOverlayFXCaps","IAMOverlayFXQueryOverlayFXCaps","QueryOverlayFXCaps","QueryOverlayFXCaps method [DirectShow]","QueryOverlayFXCaps method [DirectShow]","IAMOverlayFX interface","dshow.iamoverlayfx_queryoverlayfxcaps","strmif/IAMOverlayFX::QueryOverlayFXCaps"]
+description: The QueryOverlayFXCaps method retrieves information about which overlay effects are available to the Overlay Mixer filter.
+helpviewer_keywords: ["IAMOverlayFX interface [DirectShow]","QueryOverlayFXCaps method","IAMOverlayFX.QueryOverlayFXCaps","IAMOverlayFX::QueryOverlayFXCaps","IAMOverlayFXQueryOverlayFXCaps","QueryOverlayFXCaps","QueryOverlayFXCaps method [DirectShow]","QueryOverlayFXCaps method [DirectShow]","IAMOverlayFX interface","dshow.iamoverlayfx_queryoverlayfxcaps","strmif/IAMOverlayFX::QueryOverlayFXCaps"]
 old-location: dshow\iamoverlayfx_queryoverlayfxcaps.htm
 tech.root: DirectShow
 ms.assetid: 01fdbe3d-bec7-4e66-87c5-b7e6c1044e8a

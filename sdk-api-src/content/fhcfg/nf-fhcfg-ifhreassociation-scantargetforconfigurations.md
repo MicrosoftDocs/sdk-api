@@ -1,7 +1,8 @@
 ---
 UID: NF:fhcfg.IFhReassociation.ScanTargetForConfigurations
 title: IFhReassociation::ScanTargetForConfigurations (fhcfg.h)
-description: Scans the namespace on a specified storage device or network share for File History configurations that can be reassociated with and continued to be used on the current computer.helpviewer_keywords: ["FhReassociation class [Windows API]","ScanTargetForConfigurations method","IFhReassociation interface [Windows API]","ScanTargetForConfigurations method","IFhReassociation.ScanTargetForConfigurations","IFhReassociation::ScanTargetForConfigurations","ScanTargetForConfigurations","ScanTargetForConfigurations method [Windows API]","ScanTargetForConfigurations method [Windows API]","FhReassociation class","ScanTargetForConfigurations method [Windows API]","IFhReassociation interface","fhcfg/IFhReassociation::ScanTargetForConfigurations","winprog.ifhreassociation_scantargetforconfigurations"]
+description: Scans the namespace on a specified storage device or network share for File History configurations that can be reassociated with and continued to be used on the current computer.
+helpviewer_keywords: ["FhReassociation class [Windows API]","ScanTargetForConfigurations method","IFhReassociation interface [Windows API]","ScanTargetForConfigurations method","IFhReassociation.ScanTargetForConfigurations","IFhReassociation::ScanTargetForConfigurations","ScanTargetForConfigurations","ScanTargetForConfigurations method [Windows API]","ScanTargetForConfigurations method [Windows API]","FhReassociation class","ScanTargetForConfigurations method [Windows API]","IFhReassociation interface","fhcfg/IFhReassociation::ScanTargetForConfigurations","winprog.ifhreassociation_scantargetforconfigurations"]
 old-location: winprog\ifhreassociation_scantargetforconfigurations.htm
 tech.root: DevNotes
 ms.assetid: E26F5C41-50E7-4D4F-A6FF-D1B21AF28A9D

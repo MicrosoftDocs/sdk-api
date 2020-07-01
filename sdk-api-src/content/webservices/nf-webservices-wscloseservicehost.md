@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsCloseServiceHost
 title: WsCloseServiceHost function (webservices.h)
-description: Closes down communication with the specified service host.helpviewer_keywords: ["WsCloseServiceHost","WsCloseServiceHost function [Web Services for Windows]","webservices/WsCloseServiceHost","wsw.wscloseservicehost"]
+description: Closes down communication with the specified service host.
+helpviewer_keywords: ["WsCloseServiceHost","WsCloseServiceHost function [Web Services for Windows]","webservices/WsCloseServiceHost","wsw.wscloseservicehost"]
 old-location: wsw\wscloseservicehost.htm
 tech.root: wsw
 ms.assetid: 46abbcba-72ba-4328-858d-367218f45df3

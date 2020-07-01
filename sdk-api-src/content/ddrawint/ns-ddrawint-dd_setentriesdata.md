@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_SETENTRIESDATA
 title: DD_SETENTRIESDATA (ddrawint.h)
-description: The DD_SETENTRIESDATA structure contains information necessary to set palette entries.helpviewer_keywords: ["*PDD_SETENTRIESDATA","DD_SETENTRIESDATA","DD_SETENTRIESDATA structure [Display Devices]","ddrawint/DD_SETENTRIESDATA","ddstrcts_dc575bf2-1249-4d66-aba9-aba1856358df.xml","display.dd_setentriesdata"]
+description: The DD_SETENTRIESDATA structure contains information necessary to set palette entries.
+helpviewer_keywords: ["*PDD_SETENTRIESDATA","DD_SETENTRIESDATA","DD_SETENTRIESDATA structure [Display Devices]","ddrawint/DD_SETENTRIESDATA","ddstrcts_dc575bf2-1249-4d66-aba9-aba1856358df.xml","display.dd_setentriesdata"]
 old-location: display\dd_setentriesdata.htm
 tech.root: display
 ms.assetid: 9420f41a-401b-4fc3-b9a4-f2bfe6cb2710

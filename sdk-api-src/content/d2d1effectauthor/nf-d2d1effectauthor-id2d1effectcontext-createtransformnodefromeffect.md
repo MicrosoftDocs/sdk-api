@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateTransformNodeFromEffect
 title: ID2D1EffectContext::CreateTransformNodeFromEffect (d2d1effectauthor.h)
-description: Wraps an effect graph into a single transform node and then inserted into a transform graph. This allows an effect to aggregate other effects.helpviewer_keywords: ["CreateTransformNodeFromEffect","CreateTransformNodeFromEffect method [Direct2D]","CreateTransformNodeFromEffect method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateTransformNodeFromEffect method","ID2D1EffectContext.CreateTransformNodeFromEffect","ID2D1EffectContext::CreateTransformNodeFromEffect","d2d1effectauthor/ID2D1EffectContext::CreateTransformNodeFromEffect","direct2d.id2d1contextinternal_createtransformnodefromeffect"]
+description: Wraps an effect graph into a single transform node and then inserted into a transform graph. This allows an effect to aggregate other effects.
+helpviewer_keywords: ["CreateTransformNodeFromEffect","CreateTransformNodeFromEffect method [Direct2D]","CreateTransformNodeFromEffect method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateTransformNodeFromEffect method","ID2D1EffectContext.CreateTransformNodeFromEffect","ID2D1EffectContext::CreateTransformNodeFromEffect","d2d1effectauthor/ID2D1EffectContext::CreateTransformNodeFromEffect","direct2d.id2d1contextinternal_createtransformnodefromeffect"]
 old-location: direct2d\id2d1contextinternal_createtransformnodefromeffect.htm
 tech.root: Direct2D
 ms.assetid: 75F1366A-4E82-4CAD-A843-6E53035CB520

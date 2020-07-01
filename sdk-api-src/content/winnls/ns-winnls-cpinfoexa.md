@@ -1,7 +1,8 @@
 ---
 UID: NS:winnls._cpinfoexA
 title: CPINFOEXA (winnls.h)
-description: Contains information about a code page. This structure is used by the GetCPInfoEx function.helpviewer_keywords: ["*LPCPINFOEXA","CPINFOEX","CPINFOEX structure [Internationalization for Windows Applications]","CPINFOEXA","LPCPINFOEX","LPCPINFOEX structure pointer [Internationalization for Windows Applications]","_win32_CPINFOEX_str","intl.cpinfoex","winnls/CPINFOEX","winnls/LPCPINFOEX"]
+description: Contains information about a code page. This structure is used by the GetCPInfoEx function.
+helpviewer_keywords: ["*LPCPINFOEXA","CPINFOEX","CPINFOEX structure [Internationalization for Windows Applications]","CPINFOEXA","LPCPINFOEX","LPCPINFOEX structure pointer [Internationalization for Windows Applications]","_win32_CPINFOEX_str","intl.cpinfoex","winnls/CPINFOEX","winnls/LPCPINFOEX"]
 old-location: intl\cpinfoex.htm
 tech.root: Intl
 ms.assetid: 9639bb11-477e-45ee-b9fb-d5d099925e00
@@ -102,6 +103,10 @@ The lead byte information is not very helpful for most code pages, and is not ev
 
 
 
+
+
+> [!NOTE]
+> The winnls.h header defines CPINFOEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

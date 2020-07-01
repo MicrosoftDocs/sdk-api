@@ -1,7 +1,8 @@
 ---
 UID: NF:wslapi.WslRegisterDistribution
 title: WslRegisterDistribution function (wslapi.h)
-description: Registers a new distribution with the Windows Subsystem for Linux (WSL).helpviewer_keywords: ["WslRegisterDistribution","WslRegisterDistribution function","wsl.wslregisterdistribution","wslapi/WslRegisterDistribution"]
+description: Registers a new distribution with the Windows Subsystem for Linux (WSL).
+helpviewer_keywords: ["WslRegisterDistribution","WslRegisterDistribution function","wsl.wslregisterdistribution","wslapi/WslRegisterDistribution"]
 old-location: wsl\wslregisterdistribution.htm
 tech.root: wsl
 ms.assetid: 34D5D38D-A155-42DE-9E9B-2BD7E414E4EC

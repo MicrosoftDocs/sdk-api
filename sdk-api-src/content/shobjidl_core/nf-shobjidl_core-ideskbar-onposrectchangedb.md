@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDeskBar.OnPosRectChangeDB
 title: IDeskBar::OnPosRectChangeDB (shobjidl_core.h)
-description: Notifies the object that the rectangle has changed.helpviewer_keywords: ["IDeskBar interface [Windows Shell]","OnPosRectChangeDB method","IDeskBar.OnPosRectChangeDB","IDeskBar::OnPosRectChangeDB","OnPosRectChangeDB","OnPosRectChangeDB method [Windows Shell]","OnPosRectChangeDB method [Windows Shell]","IDeskBar interface","_win32_IDeskBar_OnPosRectChangeDB","shell.IDeskBar_OnPosRectChangeDB","shobjidl_core/IDeskBar::OnPosRectChangeDB"]
+description: Notifies the object that the rectangle has changed.
+helpviewer_keywords: ["IDeskBar interface [Windows Shell]","OnPosRectChangeDB method","IDeskBar.OnPosRectChangeDB","IDeskBar::OnPosRectChangeDB","OnPosRectChangeDB","OnPosRectChangeDB method [Windows Shell]","OnPosRectChangeDB method [Windows Shell]","IDeskBar interface","_win32_IDeskBar_OnPosRectChangeDB","shell.IDeskBar_OnPosRectChangeDB","shobjidl_core/IDeskBar::OnPosRectChangeDB"]
 old-location: shell\IDeskBar_OnPosRectChangeDB.htm
 tech.root: shell
 ms.assetid: a66093e1-4b91-4edd-abee-0043b437a5f6

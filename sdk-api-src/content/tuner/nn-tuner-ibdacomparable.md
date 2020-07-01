@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IBDAComparable
 title: IBDAComparable (tuner.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IBDAComparable","IBDAComparable interface [Microsoft TV Technologies]","IBDAComparable interface [Microsoft TV Technologies]","described","IBDAComparableInterface","mstv.ibdacomparable","tuner/IBDAComparable"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IBDAComparable","IBDAComparable interface [Microsoft TV Technologies]","IBDAComparable interface [Microsoft TV Technologies]","described","IBDAComparableInterface","mstv.ibdacomparable","tuner/IBDAComparable"]
 old-location: mstv\ibdacomparable.htm
 tech.root: mstv
 ms.assetid: 6f582ae2-d8c6-4d85-a01f-e98c6ee16021

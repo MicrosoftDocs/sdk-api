@@ -1,7 +1,8 @@
 ---
 UID: NF:winfax.FaxGetLoggingCategoriesW
 title: FaxGetLoggingCategoriesW function (winfax.h)
-description: The FaxGetLoggingCategories function returns to a fax client application the current logging categories for the fax server to which the client has connected.helpviewer_keywords: ["FaxGetLoggingCategories","FaxGetLoggingCategories function [Fax Service]","FaxGetLoggingCategoriesA","FaxGetLoggingCategoriesW","_mfax_faxgetloggingcategories","fax._mfax_faxgetloggingcategories","winfax/FaxGetLoggingCategories","winfax/FaxGetLoggingCategoriesA","winfax/FaxGetLoggingCategoriesW"]
+description: The FaxGetLoggingCategories function returns to a fax client application the current logging categories for the fax server to which the client has connected.
+helpviewer_keywords: ["FaxGetLoggingCategories","FaxGetLoggingCategories function [Fax Service]","FaxGetLoggingCategoriesA","FaxGetLoggingCategoriesW","_mfax_faxgetloggingcategories","fax._mfax_faxgetloggingcategories","winfax/FaxGetLoggingCategories","winfax/FaxGetLoggingCategoriesA","winfax/FaxGetLoggingCategoriesW"]
 old-location: fax\_mfax_faxgetloggingcategories.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6cab.htm
@@ -151,6 +152,10 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 
+
+
+> [!NOTE]
+> The winfax.h header defines FaxGetLoggingCategories as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

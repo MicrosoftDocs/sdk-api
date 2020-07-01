@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core._EXPLORERPANESTATE
 title: _EXPLORERPANESTATE (shobjidl_core.h)
-description: Indicate flags used by IExplorerPaneVisibility::GetPaneState to get the current state of the given Windows Explorer pane.helpviewer_keywords: ["EPS_DEFAULT_OFF","EPS_DEFAULT_ON","EPS_DONTCARE","EPS_FORCE","EPS_INITIALSTATE","EPS_STATEMASK","EXPLORERPANESTATE","EXPLORERPANESTATE enumeration [Windows Shell]","_EXPLORERPANESTATE","_shell_EXPLORERPANESTATE","shell.EXPLORERPANESTATE","shobjidl_core/EPS_DEFAULT_OFF","shobjidl_core/EPS_DEFAULT_ON","shobjidl_core/EPS_DONTCARE","shobjidl_core/EPS_FORCE","shobjidl_core/EPS_INITIALSTATE","shobjidl_core/EPS_STATEMASK","shobjidl_core/EXPLORERPANESTATE"]
+description: Indicate flags used by IExplorerPaneVisibility::GetPaneState to get the current state of the given Windows Explorer pane.
+helpviewer_keywords: ["EPS_DEFAULT_OFF","EPS_DEFAULT_ON","EPS_DONTCARE","EPS_FORCE","EPS_INITIALSTATE","EPS_STATEMASK","EXPLORERPANESTATE","EXPLORERPANESTATE enumeration [Windows Shell]","_EXPLORERPANESTATE","_shell_EXPLORERPANESTATE","shell.EXPLORERPANESTATE","shobjidl_core/EPS_DEFAULT_OFF","shobjidl_core/EPS_DEFAULT_ON","shobjidl_core/EPS_DONTCARE","shobjidl_core/EPS_FORCE","shobjidl_core/EPS_INITIALSTATE","shobjidl_core/EPS_STATEMASK","shobjidl_core/EXPLORERPANESTATE"]
 old-location: shell\EXPLORERPANESTATE.htm
 tech.root: shell
 ms.assetid: 4caa2fe7-5bb3-4940-a429-fd32128eea84

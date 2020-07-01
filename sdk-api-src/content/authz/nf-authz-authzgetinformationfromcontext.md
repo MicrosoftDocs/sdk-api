@@ -1,7 +1,8 @@
 ---
 UID: NF:authz.AuthzGetInformationFromContext
 title: AuthzGetInformationFromContext function (authz.h)
-description: Returns information about an Authz context.helpviewer_keywords: ["AuthzGetInformationFromContext","AuthzGetInformationFromContext function [Security]","_win32_authzgetinformationfromcontext","authz/AuthzGetInformationFromContext","security.authzgetinformationfromcontext"]
+description: Returns information about an Authz context.
+helpviewer_keywords: ["AuthzGetInformationFromContext","AuthzGetInformationFromContext function [Security]","_win32_authzgetinformationfromcontext","authz/AuthzGetInformationFromContext","security.authzgetinformationfromcontext"]
 old-location: security\authzgetinformationfromcontext.htm
 tech.root: SecAuthZ
 ms.assetid: c365029a-3ff3-49c1-9dfc-b52948e466f3

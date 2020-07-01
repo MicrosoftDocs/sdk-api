@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplusheaders.Region
 title: Region (gdiplusheaders.h)
-description: The Region class describes an area of the display surface.helpviewer_keywords: ["Region","Region class [GDI+]","Region class [GDI+]","described","_gdiplus_CLASS_Region_Class","gdiplus._gdiplus_CLASS_Region_Class","gdiplusheaders/Region"]
+description: The Region class describes an area of the display surface.
+helpviewer_keywords: ["Region","Region class [GDI+]","Region class [GDI+]","described","_gdiplus_CLASS_Region_Class","gdiplus._gdiplus_CLASS_Region_Class","gdiplusheaders/Region"]
 old-location: gdiplus\_gdiplus_CLASS_Region_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\region.htm

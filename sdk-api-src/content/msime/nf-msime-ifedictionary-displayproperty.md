@@ -1,7 +1,8 @@
 ---
 UID: NF:msime.IFEDictionary.DisplayProperty
 title: IFEDictionary::DisplayProperty (msime.h)
-description: This method is obsolete starting with Windows 8, and is no longer supported.helpviewer_keywords: ["DisplayProperty","DisplayProperty method [Internationalization for Windows Applications]","DisplayProperty method [Internationalization for Windows Applications]","IFEDictionary interface","IFEDictionary interface [Internationalization for Windows Applications]","DisplayProperty method","IFEDictionary.DisplayProperty","IFEDictionary::DisplayProperty","intl.ifedictionary_displayproperty","msime/IFEDictionary::DisplayProperty"]
+description: This method is obsolete starting with Windows 8, and is no longer supported.
+helpviewer_keywords: ["DisplayProperty","DisplayProperty method [Internationalization for Windows Applications]","DisplayProperty method [Internationalization for Windows Applications]","IFEDictionary interface","IFEDictionary interface [Internationalization for Windows Applications]","DisplayProperty method","IFEDictionary.DisplayProperty","IFEDictionary::DisplayProperty","intl.ifedictionary_displayproperty","msime/IFEDictionary::DisplayProperty"]
 old-location: intl\ifedictionary_displayproperty.htm
 tech.root: Intl
 ms.assetid: 5598D1DD-0254-4142-B91F-6BE36DD94228

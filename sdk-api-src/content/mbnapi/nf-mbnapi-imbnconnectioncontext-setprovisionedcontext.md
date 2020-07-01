@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContext.SetProvisionedContext
 title: IMbnConnectionContext::SetProvisionedContext (mbnapi.h)
-description: Adds or updates a provisioned context.helpviewer_keywords: ["IMbnConnectionContext interface [Microsoft Broadband Networks]","SetProvisionedContext method","IMbnConnectionContext.SetProvisionedContext","IMbnConnectionContext::SetProvisionedContext","SetProvisionedContext","SetProvisionedContext method [Microsoft Broadband Networks]","SetProvisionedContext method [Microsoft Broadband Networks]","IMbnConnectionContext interface","mbn.imbnconnectioncontext_setprovisionedcontext","mbnapi/IMbnConnectionContext::SetProvisionedContext"]
+description: Adds or updates a provisioned context.
+helpviewer_keywords: ["IMbnConnectionContext interface [Microsoft Broadband Networks]","SetProvisionedContext method","IMbnConnectionContext.SetProvisionedContext","IMbnConnectionContext::SetProvisionedContext","SetProvisionedContext","SetProvisionedContext method [Microsoft Broadband Networks]","SetProvisionedContext method [Microsoft Broadband Networks]","IMbnConnectionContext interface","mbn.imbnconnectioncontext_setprovisionedcontext","mbnapi/IMbnConnectionContext::SetProvisionedContext"]
 old-location: mbn\imbnconnectioncontext_setprovisionedcontext.htm
 tech.root: mbn
 ms.assetid: 738a3037-01a9-465a-a67d-979a29968b68

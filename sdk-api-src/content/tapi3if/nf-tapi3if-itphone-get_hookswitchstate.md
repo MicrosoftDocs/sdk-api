@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITPhone.get_HookSwitchState
 title: ITPhone::get_HookSwitchState (tapi3if.h)
-description: The get_HookSwitchState method retrieves the current hookswitch state for a particular hookswitch device on the phone.helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_HookSwitchState method","ITPhone.get_HookSwitchState","ITPhone::get_HookSwitchState","_tapi3_itphone_get_hookswitchstate","get_HookSwitchState","get_HookSwitchState method [TAPI 2.2]","get_HookSwitchState method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_hookswitchstate","tapi3if/ITPhone::get_HookSwitchState"]
+description: The get_HookSwitchState method retrieves the current hookswitch state for a particular hookswitch device on the phone.
+helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","get_HookSwitchState method","ITPhone.get_HookSwitchState","ITPhone::get_HookSwitchState","_tapi3_itphone_get_hookswitchstate","get_HookSwitchState","get_HookSwitchState method [TAPI 2.2]","get_HookSwitchState method [TAPI 2.2]","ITPhone interface","tapi3.itphone_get_hookswitchstate","tapi3if/ITPhone::get_HookSwitchState"]
 old-location: tapi3\itphone_get_hookswitchstate.htm
 tech.root: Tapi
 ms.assetid: 4560b447-45af-482a-b97b-dd0cbdb52466

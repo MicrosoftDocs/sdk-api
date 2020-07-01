@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICDdsFrameDecode.GetFormatInfo
 title: IWICDdsFrameDecode::GetFormatInfo (wincodec.h)
-description: Gets information about the format in which the DDS image is stored.helpviewer_keywords: ["GetFormatInfo","GetFormatInfo method [Windows Imaging Component]","GetFormatInfo method [Windows Imaging Component]","IWICDdsFrameDecode interface","IWICDdsFrameDecode interface [Windows Imaging Component]","GetFormatInfo method","IWICDdsFrameDecode.GetFormatInfo","IWICDdsFrameDecode::GetFormatInfo","wic.iwicddsframedecode_getformatinfo","wincodec/IWICDdsFrameDecode::GetFormatInfo"]
+description: Gets information about the format in which the DDS image is stored.
+helpviewer_keywords: ["GetFormatInfo","GetFormatInfo method [Windows Imaging Component]","GetFormatInfo method [Windows Imaging Component]","IWICDdsFrameDecode interface","IWICDdsFrameDecode interface [Windows Imaging Component]","GetFormatInfo method","IWICDdsFrameDecode.GetFormatInfo","IWICDdsFrameDecode::GetFormatInfo","wic.iwicddsframedecode_getformatinfo","wincodec/IWICDdsFrameDecode::GetFormatInfo"]
 old-location: wic\iwicddsframedecode_getformatinfo.htm
 tech.root: wic
 ms.assetid: 0D5B9E45-E1EA-4D16-B793-63FEAB2BAF65

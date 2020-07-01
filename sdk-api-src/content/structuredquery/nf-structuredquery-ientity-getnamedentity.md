@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IEntity.GetNamedEntity
 title: IEntity::GetNamedEntity (structuredquery.h)
-description: Retrieves an INamedEntity object based on an entity name.helpviewer_keywords: ["GetNamedEntity","GetNamedEntity method [search]","GetNamedEntity method [search]","IEntity interface","IEntity interface [search]","GetNamedEntity method","IEntity.GetNamedEntity","IEntity::GetNamedEntity","_search_IEntity_GetNamedEntity","search._search_IEntity_GetNamedEntity","structuredquery/IEntity::GetNamedEntity"]
+description: Retrieves an INamedEntity object based on an entity name.
+helpviewer_keywords: ["GetNamedEntity","GetNamedEntity method [search]","GetNamedEntity method [search]","IEntity interface","IEntity interface [search]","GetNamedEntity method","IEntity.GetNamedEntity","IEntity::GetNamedEntity","_search_IEntity_GetNamedEntity","search._search_IEntity_GetNamedEntity","structuredquery/IEntity::GetNamedEntity"]
 old-location: search\_search_IEntity_GetNamedEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\getnamedentity.htm

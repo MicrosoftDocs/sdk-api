@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPM.GetDomain
 title: IGPM::GetDomain (gpmgmt.h)
-description: Creates and returns a GPMDomain object that corresponds to the specified domain.helpviewer_keywords: ["GPM object [GPMC]","GetDomain method","GetDomain","GetDomain method [GPMC]","GetDomain method [GPMC]","GPM object","GetDomain method [GPMC]","IGPM interface","IGPM interface [GPMC]","GetDomain method","IGPM.GetDomain","IGPM::GetDomain","_win32_igpm_getdomain","gpmc.igpm_getdomain","gpmgmt/IGPM::GetDomain"]
+description: Creates and returns a GPMDomain object that corresponds to the specified domain.
+helpviewer_keywords: ["GPM object [GPMC]","GetDomain method","GetDomain","GetDomain method [GPMC]","GetDomain method [GPMC]","GPM object","GetDomain method [GPMC]","IGPM interface","IGPM interface [GPMC]","GetDomain method","IGPM.GetDomain","IGPM::GetDomain","_win32_igpm_getdomain","gpmc.igpm_getdomain","gpmgmt/IGPM::GetDomain"]
 old-location: gpmc\igpm_getdomain.htm
 tech.root: gpmc
 ms.assetid: 32aee72f-96fa-4ebd-9ff7-643972b82cf6

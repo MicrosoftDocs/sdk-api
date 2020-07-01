@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfReadingInformationUIElement.IsVerticalOrderPreferred
 title: ITfReadingInformationUIElement::IsVerticalOrderPreferred (msctf.h)
-description: This method returns if the UI prefers to be shown in vertical order.helpviewer_keywords: ["ITfReadingInformationUIElement interface [Text Services Framework]","IsVerticalOrderPreferred method","ITfReadingInformationUIElement.IsVerticalOrderPreferred","ITfReadingInformationUIElement::IsVerticalOrderPreferred","IsVerticalOrderPreferred","IsVerticalOrderPreferred method [Text Services Framework]","IsVerticalOrderPreferred method [Text Services Framework]","ITfReadingInformationUIElement interface","msctf/ITfReadingInformationUIElement::IsVerticalOrderPreferred","tsf.iitfreadinginformationuielement_isverticalorderpreferred","tsf.itfreadinginformationuielement_isverticalorderpreferred"]
+description: This method returns if the UI prefers to be shown in vertical order.
+helpviewer_keywords: ["ITfReadingInformationUIElement interface [Text Services Framework]","IsVerticalOrderPreferred method","ITfReadingInformationUIElement.IsVerticalOrderPreferred","ITfReadingInformationUIElement::IsVerticalOrderPreferred","IsVerticalOrderPreferred","IsVerticalOrderPreferred method [Text Services Framework]","IsVerticalOrderPreferred method [Text Services Framework]","ITfReadingInformationUIElement interface","msctf/ITfReadingInformationUIElement::IsVerticalOrderPreferred","tsf.iitfreadinginformationuielement_isverticalorderpreferred","tsf.itfreadinginformationuielement_isverticalorderpreferred"]
 old-location: tsf\itfreadinginformationuielement_isverticalorderpreferred.htm
 tech.root: TSF
 ms.assetid: a45d8928-5cfd-4af9-ba3b-7171e48d81c8

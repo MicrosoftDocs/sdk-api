@@ -1,7 +1,8 @@
 ---
 UID: NF:mmddk.mmTaskCreate
 title: mmTaskCreate function (mmddk.h)
-description: The mmTaskCreate function is deprecated. Applications should not use this function.helpviewer_keywords: ["mmTaskCreate","mmTaskCreate function [Windows Multimedia]","mmddk/mmTaskCreate","multimedia.mmtaskcreate"]
+description: The mmTaskCreate function is deprecated. Applications should not use this function.
+helpviewer_keywords: ["mmTaskCreate","mmTaskCreate function [Windows Multimedia]","mmddk/mmTaskCreate","multimedia.mmtaskcreate"]
 old-location: multimedia\mmtaskcreate.htm
 tech.root: Multimedia
 ms.assetid: 9e5cad11-ed26-4c19-89e0-dbf6be9af78c

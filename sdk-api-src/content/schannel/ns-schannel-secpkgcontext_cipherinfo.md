@@ -1,7 +1,8 @@
 ---
 UID: NS:schannel._SecPkgContext_CipherInfo
 title: SecPkgContext_CipherInfo (schannel.h)
-description: Cipher info structure. This is returned by SECPKG_ATTR_CIPHER_INFO ulAttribute from the QueryContextAttributes (Schannel) function.helpviewer_keywords: ["*PSecPkgContext_CipherInfo","PSecPkgContext_CipherInfo","PSecPkgContext_CipherInfo structure pointer [Security]","SecPkgContext_CipherInfo","SecPkgContext_CipherInfo structure [Security]","schannel/PSecPkgContext_CipherInfo","schannel/SecPkgContext_CipherInfo","security.secpkgcontext_cipherinfo"]
+description: Cipher info structure. This is returned by SECPKG_ATTR_CIPHER_INFO ulAttribute from the QueryContextAttributes (Schannel) function.
+helpviewer_keywords: ["*PSecPkgContext_CipherInfo","PSecPkgContext_CipherInfo","PSecPkgContext_CipherInfo structure pointer [Security]","SecPkgContext_CipherInfo","SecPkgContext_CipherInfo structure [Security]","schannel/PSecPkgContext_CipherInfo","schannel/SecPkgContext_CipherInfo","security.secpkgcontext_cipherinfo"]
 old-location: security\secpkgcontext_cipherinfo.htm
 tech.root: SecAuthN
 ms.assetid: 204D3520-76B6-42C0-83A4-45769F66364A

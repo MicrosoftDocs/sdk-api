@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetNextWindow
 title: GetNextWindow macro (winuser.h)
-description: Retrieves a handle to the next or previous window in the Z-Order. The next window is below the specified window; the previous window is above.helpviewer_keywords: ["GW_HWNDNEXT","GW_HWNDPREV","GetNextWindow","GetNextWindow function [Windows and Messages]","_win32_GetNextWindow","_win32_getnextwindow_cpp","winmsg.getnextwindow","winui._win32_getnextwindow","winuser/GetNextWindow"]
+description: Retrieves a handle to the next or previous window in the Z-Order. The next window is below the specified window; the previous window is above.
+helpviewer_keywords: ["GW_HWNDNEXT","GW_HWNDPREV","GetNextWindow","GetNextWindow function [Windows and Messages]","_win32_GetNextWindow","_win32_getnextwindow_cpp","winmsg.getnextwindow","winui._win32_getnextwindow","winuser/GetNextWindow"]
 old-location: winmsg\getnextwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getnextwindow.htm

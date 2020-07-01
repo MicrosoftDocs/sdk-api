@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCustomObjects
 title: IXpsSigningOptions::GetCustomObjects (xpsdigitalsignature.h)
-description: Gets a pointer to an IOpcSignatureCustomObjectSet interface that contains a set of signature custom objects.helpviewer_keywords: ["GetCustomObjects","GetCustomObjects method [XPS Documents and Packaging]","GetCustomObjects method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetCustomObjects method","IXpsSigningOptions.GetCustomObjects","IXpsSigningOptions::GetCustomObjects","xps.ixpssigningoptions_getcustomobjects","xpsdigitalsignature/IXpsSigningOptions::GetCustomObjects"]
+description: Gets a pointer to an IOpcSignatureCustomObjectSet interface that contains a set of signature custom objects.
+helpviewer_keywords: ["GetCustomObjects","GetCustomObjects method [XPS Documents and Packaging]","GetCustomObjects method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetCustomObjects method","IXpsSigningOptions.GetCustomObjects","IXpsSigningOptions::GetCustomObjects","xps.ixpssigningoptions_getcustomobjects","xpsdigitalsignature/IXpsSigningOptions::GetCustomObjects"]
 old-location: xps\ixpssigningoptions_getcustomobjects.htm
 tech.root: printdocs
 ms.assetid: 17a3f913-57f2-40e1-b886-6cefb9e42a83

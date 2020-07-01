@@ -1,7 +1,8 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1538
 title: SERVER_INFO_1538 (lmserver.h)
-description: The SERVER_INFO_1538 structure specifies whether several MS-DOS File Control Blocks (FCBs) are placed in a single location.helpviewer_keywords: ["*LPSERVER_INFO_1538","*PSERVER_INFO_1538","LPSERVER_INFO_1538","LPSERVER_INFO_1538 structure pointer [Network Management]","PSERVER_INFO_1538","PSERVER_INFO_1538 structure pointer [Network Management]","SERVER_INFO_1538","SERVER_INFO_1538 structure [Network Management]","_win32_server_info_1538_str","lmserver/LPSERVER_INFO_1538","lmserver/PSERVER_INFO_1538","lmserver/SERVER_INFO_1538","netmgmt.server_info_1538_str"]
+description: The SERVER_INFO_1538 structure specifies whether several MS-DOS File Control Blocks (FCBs) are placed in a single location.
+helpviewer_keywords: ["*LPSERVER_INFO_1538","*PSERVER_INFO_1538","LPSERVER_INFO_1538","LPSERVER_INFO_1538 structure pointer [Network Management]","PSERVER_INFO_1538","PSERVER_INFO_1538 structure pointer [Network Management]","SERVER_INFO_1538","SERVER_INFO_1538 structure [Network Management]","_win32_server_info_1538_str","lmserver/LPSERVER_INFO_1538","lmserver/PSERVER_INFO_1538","lmserver/SERVER_INFO_1538","netmgmt.server_info_1538_str"]
 old-location: netmgmt\server_info_1538_str.htm
 tech.root: NetMgmt
 ms.assetid: 4e11d2f5-27e5-480d-8486-d683bea22781

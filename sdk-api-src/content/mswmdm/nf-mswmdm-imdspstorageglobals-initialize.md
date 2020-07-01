@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.Initialize
 title: IMDSPStorageGlobals::Initialize (mswmdm.h)
-description: The Initialize method formats the storage medium.helpviewer_keywords: ["IMDSPStorageGlobals interface [windows Media Device Manager]","Initialize method","IMDSPStorageGlobals.Initialize","IMDSPStorageGlobals::Initialize","IMDSPStorageGlobalsInitialize","Initialize","Initialize method [windows Media Device Manager]","Initialize method [windows Media Device Manager]","IMDSPStorageGlobals interface","mswmdm/IMDSPStorageGlobals::Initialize","wmdm.imdspstorageglobals_initialize"]
+description: The Initialize method formats the storage medium.
+helpviewer_keywords: ["IMDSPStorageGlobals interface [windows Media Device Manager]","Initialize method","IMDSPStorageGlobals.Initialize","IMDSPStorageGlobals::Initialize","IMDSPStorageGlobalsInitialize","Initialize","Initialize method [windows Media Device Manager]","Initialize method [windows Media Device Manager]","IMDSPStorageGlobals interface","mswmdm/IMDSPStorageGlobals::Initialize","wmdm.imdspstorageglobals_initialize"]
 old-location: wmdm\imdspstorageglobals_initialize.htm
 tech.root: WMDM
 ms.assetid: 661060dc-5a38-4110-80f6-c67e3be8c96b

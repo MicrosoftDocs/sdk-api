@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IEntity.Base
 title: IEntity::Base (structuredquery.h)
-description: Retrieves the parent entity of this entity.helpviewer_keywords: ["Base","Base method [search]","Base method [search]","IEntity interface","IEntity interface [search]","Base method","IEntity.Base","IEntity::Base","_search_IEntity_Base","search._search_IEntity_Base","structuredquery/IEntity::Base"]
+description: Retrieves the parent entity of this entity.
+helpviewer_keywords: ["Base","Base method [search]","Base method [search]","IEntity interface","IEntity interface [search]","Base method","IEntity.Base","IEntity::Base","_search_IEntity_Base","search._search_IEntity_Base","structuredquery/IEntity::Base"]
 old-location: search\_search_IEntity_Base.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\base.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigServerSetInfoEx
 title: MprConfigServerSetInfoEx function (mprapi.h)
-description: The MprConfigServerSetInfoEx function sets port information on a specified RRAS server.helpviewer_keywords: ["MprConfigServerSetInfoEx","MprConfigServerSetInfoEx function [RAS]","mprapi/MprConfigServerSetInfoEx","rras.mprconfigserversetinfoex"]
+description: The MprConfigServerSetInfoEx function sets port information on a specified RRAS server.
+helpviewer_keywords: ["MprConfigServerSetInfoEx","MprConfigServerSetInfoEx function [RAS]","mprapi/MprConfigServerSetInfoEx","rras.mprconfigserversetinfoex"]
 old-location: rras\mprconfigserversetinfoex.htm
 tech.root: RRAS
 ms.assetid: 8251f391-7697-4024-9a9d-c7c810129a78

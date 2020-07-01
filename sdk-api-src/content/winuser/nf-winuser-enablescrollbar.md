@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.EnableScrollBar
 title: EnableScrollBar function (winuser.h)
-description: The EnableScrollBar function enables or disables one or both scroll bar arrows.helpviewer_keywords: ["ESB_DISABLE_BOTH","ESB_DISABLE_DOWN","ESB_DISABLE_LEFT","ESB_DISABLE_LTUP","ESB_DISABLE_RIGHT","ESB_DISABLE_RTDN","ESB_DISABLE_UP","ESB_ENABLE_BOTH","EnableScrollBar","EnableScrollBar function [Windows Controls]","SB_BOTH","SB_CTL","SB_HORZ","SB_VERT","_win32_EnableScrollBar","_win32_EnableScrollBar_cpp","controls.EnableScrollBar","controls._win32_EnableScrollBar","winuser/EnableScrollBar"]
+description: The EnableScrollBar function enables or disables one or both scroll bar arrows.
+helpviewer_keywords: ["ESB_DISABLE_BOTH","ESB_DISABLE_DOWN","ESB_DISABLE_LEFT","ESB_DISABLE_LTUP","ESB_DISABLE_RIGHT","ESB_DISABLE_RTDN","ESB_DISABLE_UP","ESB_ENABLE_BOTH","EnableScrollBar","EnableScrollBar function [Windows Controls]","SB_BOTH","SB_CTL","SB_HORZ","SB_VERT","_win32_EnableScrollBar","_win32_EnableScrollBar_cpp","controls.EnableScrollBar","controls._win32_EnableScrollBar","winuser/EnableScrollBar"]
 old-location: controls\EnableScrollBar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\scrollbars\scrollbarreference\scrollbarfunctions\enablescrollbar.htm

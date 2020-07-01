@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClientActions.ResumeScreenUpdates
 title: IRemoteDesktopClientActions::ResumeScreenUpdates (rdpappcontainerclient.h)
-description: Resumes screen updates being sent to the client.helpviewer_keywords: ["IRemoteDesktopClientActions interface [Remote Desktop Services]","ResumeScreenUpdates method","IRemoteDesktopClientActions.ResumeScreenUpdates","IRemoteDesktopClientActions::ResumeScreenUpdates","ResumeScreenUpdates","ResumeScreenUpdates method [Remote Desktop Services]","ResumeScreenUpdates method [Remote Desktop Services]","IRemoteDesktopClientActions interface","rdpappcontainerclient/IRemoteDesktopClientActions::ResumeScreenUpdates","termserv.iremotedesktopclientactions_resumescreenupdates"]
+description: Resumes screen updates being sent to the client.
+helpviewer_keywords: ["IRemoteDesktopClientActions interface [Remote Desktop Services]","ResumeScreenUpdates method","IRemoteDesktopClientActions.ResumeScreenUpdates","IRemoteDesktopClientActions::ResumeScreenUpdates","ResumeScreenUpdates","ResumeScreenUpdates method [Remote Desktop Services]","ResumeScreenUpdates method [Remote Desktop Services]","IRemoteDesktopClientActions interface","rdpappcontainerclient/IRemoteDesktopClientActions::ResumeScreenUpdates","termserv.iremotedesktopclientactions_resumescreenupdates"]
 old-location: termserv\iremotedesktopclientactions_resumescreenupdates.htm
 tech.root: TermServ
 ms.assetid: be11f1c8-eb55-4ed3-80ca-eda9ee21c92c

@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterResourceControl
 title: ClusterResourceControl function (clusapi.h)
-description: Initiates an operation affecting a resource. The operation performed depends on the control code passed to the dwControlCode parameter.helpviewer_keywords: ["ClusterResourceControl","ClusterResourceControl function [Failover Cluster]","_wolf_clusterresourcecontrol","clusapi/ClusterResourceControl","mscs.clusterresourcecontrol"]
+description: Initiates an operation affecting a resource. The operation performed depends on the control code passed to the dwControlCode parameter.
+helpviewer_keywords: ["ClusterResourceControl","ClusterResourceControl function [Failover Cluster]","_wolf_clusterresourcecontrol","clusapi/ClusterResourceControl","mscs.clusterresourcecontrol"]
 old-location: mscs\clusterresourcecontrol.htm
 tech.root: MsCS
 ms.assetid: a98ca55a-6535-48cf-a925-5005baa01b94

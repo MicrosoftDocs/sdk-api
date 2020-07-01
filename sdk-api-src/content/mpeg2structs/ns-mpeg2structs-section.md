@@ -1,7 +1,8 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0006
 title: SECTION (mpeg2structs.h)
-description: The SECTION structure represents a short header from an MPEG-2 table section.helpviewer_keywords: ["*PSECTION","PSECTION","PSECTION structure pointer [Microsoft TV Technologies]","SECTION","SECTION structure [Microsoft TV Technologies]","mpeg2structs/PSECTION","mpeg2structs/SECTION","mstv.section"]
+description: The SECTION structure represents a short header from an MPEG-2 table section.
+helpviewer_keywords: ["*PSECTION","PSECTION","PSECTION structure pointer [Microsoft TV Technologies]","SECTION","SECTION structure [Microsoft TV Technologies]","mpeg2structs/PSECTION","mpeg2structs/SECTION","mstv.section"]
 old-location: mstv\section.htm
 tech.root: mstv
 ms.assetid: 6ee07b84-ae97-413f-a3b4-0078ad740194

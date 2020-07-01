@@ -1,7 +1,8 @@
 ---
 UID: NF:gamingdeviceinformation.GetGamingDeviceModelInformation
 title: GetGamingDeviceModelInformation function (gamingdeviceinformation.h)
-description: Gets information about the device that the game is running on.helpviewer_keywords: ["GetGamingDeviceModelInformation","GetGamingDeviceModelInformation function","gamingdeviceinformation/GetGamingDeviceModelInformation","gamingdvcinfo.getgamingdevicemodelinformation"]
+description: Gets information about the device that the game is running on.
+helpviewer_keywords: ["GetGamingDeviceModelInformation","GetGamingDeviceModelInformation function","gamingdeviceinformation/GetGamingDeviceModelInformation","gamingdvcinfo.getgamingdevicemodelinformation"]
 old-location: gamingdvcinfo\getgamingdevicemodelinformation.htm
 tech.root: gamingdvcinfo
 ms.assetid: 78101CBA-63B5-4B3F-9CEC-A215F32D9EB8

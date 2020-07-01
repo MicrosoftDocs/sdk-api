@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupInstallServicesFromInfSectionExA
 title: SetupInstallServicesFromInfSectionExA function (setupapi.h)
-description: The SetupInstallServicesFromInfSectionEx function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.helpviewer_keywords: ["SPSVCINST_ASSOCSERVICE","SPSVCINST_CLOBBER_SECURITY","SPSVCINST_DELETEEVENTLOGENTRY","SPSVCINST_NOCLOBBER_DEPENDENCIES","SPSVCINST_NOCLOBBER_DESCRIPTION","SPSVCINST_NOCLOBBER_DISPLAYNAME","SPSVCINST_NOCLOBBER_ERRORCONTROL","SPSVCINST_NOCLOBBER_LOADORDERGROUP","SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES","SPSVCINST_NOCLOBBER_STARTTYPE","SPSVCINST_STARTSERVICE","SPSVCINST_STOPSERVICE","SPSVCINST_TAGTOFRONT","SetupInstallServicesFromInfSectionEx","SetupInstallServicesFromInfSectionEx function [Setup API]","SetupInstallServicesFromInfSectionExA","SetupInstallServicesFromInfSectionExW","_setupapi_setupinstallservicesfrominfsectionex","setup.setupinstallservicesfrominfsectionex","setupapi/SetupInstallServicesFromInfSectionEx","setupapi/SetupInstallServicesFromInfSectionExA","setupapi/SetupInstallServicesFromInfSectionExW"]
+description: The SetupInstallServicesFromInfSectionEx function performs service installation and deletion operations that are specified in the Service Install sections listed in the Service section of an INF file.
+helpviewer_keywords: ["SPSVCINST_ASSOCSERVICE","SPSVCINST_CLOBBER_SECURITY","SPSVCINST_DELETEEVENTLOGENTRY","SPSVCINST_NOCLOBBER_DEPENDENCIES","SPSVCINST_NOCLOBBER_DESCRIPTION","SPSVCINST_NOCLOBBER_DISPLAYNAME","SPSVCINST_NOCLOBBER_ERRORCONTROL","SPSVCINST_NOCLOBBER_LOADORDERGROUP","SPSVCINST_NOCLOBBER_REQUIREDPRIVILEGES","SPSVCINST_NOCLOBBER_STARTTYPE","SPSVCINST_STARTSERVICE","SPSVCINST_STOPSERVICE","SPSVCINST_TAGTOFRONT","SetupInstallServicesFromInfSectionEx","SetupInstallServicesFromInfSectionEx function [Setup API]","SetupInstallServicesFromInfSectionExA","SetupInstallServicesFromInfSectionExW","_setupapi_setupinstallservicesfrominfsectionex","setup.setupinstallservicesfrominfsectionex","setupapi/SetupInstallServicesFromInfSectionEx","setupapi/SetupInstallServicesFromInfSectionExA","setupapi/SetupInstallServicesFromInfSectionExW"]
 old-location: setup\setupinstallservicesfrominfsectionex.htm
 tech.root: SetupApi
 ms.assetid: c0bf6442-56dc-41f1-8a21-ff7b92b1ef0f
@@ -301,4 +302,9 @@ If the function fails, the return value is 0 (zero). To get extended error infor
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupInstallServicesFromInfSectionEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_ExtractIcon
 title: ImageList_ExtractIcon macro (commctrl.h)
-description: Calls the ImageList_GetIcon function to create an icon or cursor based on an image and mask in an image list.helpviewer_keywords: ["ImageList_ExtractIcon","ImageList_ExtractIcon macro [Windows Controls]","_win32_ImageList_ExtractIcon","_win32_ImageList_ExtractIcon_cpp","commctrl/ImageList_ExtractIcon","controls.ImageList_ExtractIcon","controls._win32_ImageList_ExtractIcon"]
+description: Calls the ImageList_GetIcon function to create an icon or cursor based on an image and mask in an image list.
+helpviewer_keywords: ["ImageList_ExtractIcon","ImageList_ExtractIcon macro [Windows Controls]","_win32_ImageList_ExtractIcon","_win32_ImageList_ExtractIcon_cpp","commctrl/ImageList_ExtractIcon","controls.ImageList_ExtractIcon","controls._win32_ImageList_ExtractIcon"]
 old-location: controls\ImageList_ExtractIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_extracticon.htm

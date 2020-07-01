@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptEnumProviders
 title: BCryptEnumProviders function (bcrypt.h)
-description: Obtains all of the CNG providers that support a specified algorithm.helpviewer_keywords: ["BCryptEnumProviders","BCryptEnumProviders function [Security]","bcrypt/BCryptEnumProviders","security.bcryptenumproviders_func"]
+description: Obtains all of the CNG providers that support a specified algorithm.
+helpviewer_keywords: ["BCryptEnumProviders","BCryptEnumProviders function [Security]","bcrypt/BCryptEnumProviders","security.bcryptenumproviders_func"]
 old-location: security\bcryptenumproviders_func.htm
 tech.root: SecCNG
 ms.assetid: 0496f241-9530-47fb-89e2-15d7ab6da87a

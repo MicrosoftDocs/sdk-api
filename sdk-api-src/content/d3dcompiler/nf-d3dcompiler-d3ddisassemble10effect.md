@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcompiler.D3DDisassemble10Effect
 title: D3DDisassemble10Effect function (d3dcompiler.h)
-description: Disassembles compiled HLSL code from a Direct3D10 effect.helpviewer_keywords: ["712a7486-754f-69f6-11b7-5bf288ee98af","D3DDisassemble10Effect","D3DDisassemble10Effect function [HLSL]","d3dcompiler/D3DDisassemble10Effect","direct3dhlsl.d3ddisassemble10effect"]
+description: Disassembles compiled HLSL code from a Direct3D10 effect.
+helpviewer_keywords: ["712a7486-754f-69f6-11b7-5bf288ee98af","D3DDisassemble10Effect","D3DDisassemble10Effect function [HLSL]","d3dcompiler/D3DDisassemble10Effect","direct3dhlsl.d3ddisassemble10effect"]
 old-location: direct3dhlsl\d3ddisassemble10effect.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3ddisassemble10effect.htm

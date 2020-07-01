@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.LineTo
 title: LineTo function (wingdi.h)
-description: The LineTo function draws a line from the current position up to, but not including, the specified point.helpviewer_keywords: ["LineTo","LineTo function [Windows GDI]","_win32_LineTo","gdi.lineto","wingdi/LineTo"]
+description: The LineTo function draws a line from the current position up to, but not including, the specified point.
+helpviewer_keywords: ["LineTo","LineTo function [Windows GDI]","_win32_LineTo","gdi.lineto","wingdi/LineTo"]
 old-location: gdi\lineto.htm
 tech.root: gdi
 ms.assetid: a31b3a9a-110f-4cdf-89d9-19937a2e40b4

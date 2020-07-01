@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageData.NextFrame
 title: IShellImageData::NextFrame (shimgdata.h)
-description: Switches to the next frame of an animated image.helpviewer_keywords: ["IShellImageData interface [Windows Shell]","NextFrame method","IShellImageData.NextFrame","IShellImageData::NextFrame","NextFrame","NextFrame method [Windows Shell]","NextFrame method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_NextFrame","shell.IShellImageData_NextFrame","shimgdata/IShellImageData::NextFrame"]
+description: Switches to the next frame of an animated image.
+helpviewer_keywords: ["IShellImageData interface [Windows Shell]","NextFrame method","IShellImageData.NextFrame","IShellImageData::NextFrame","NextFrame","NextFrame method [Windows Shell]","NextFrame method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_NextFrame","shell.IShellImageData_NextFrame","shimgdata/IShellImageData::NextFrame"]
 old-location: shell\IShellImageData_NextFrame.htm
 tech.root: shell
 ms.assetid: b797539e-7766-4da7-864f-401c7c2ff082

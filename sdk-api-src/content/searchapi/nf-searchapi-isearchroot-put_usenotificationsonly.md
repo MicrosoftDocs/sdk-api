@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_UseNotificationsOnly
 title: ISearchRoot::put_UseNotificationsOnly (searchapi.h)
-description: Sets a value that indicates whether this search root should be indexed only by notification and not crawled.helpviewer_keywords: ["ISearchRoot interface [search]","put_UseNotificationsOnly method","ISearchRoot.put_UseNotificationsOnly","ISearchRoot::put_UseNotificationsOnly","_search_ISearchRoot_put_UseNotificationsOnly","put_UseNotificationsOnly","put_UseNotificationsOnly method [search]","put_UseNotificationsOnly method [search]","ISearchRoot interface","search._search_ISearchRoot_put_UseNotificationsOnly","searchapi/ISearchRoot::put_UseNotificationsOnly"]
+description: Sets a value that indicates whether this search root should be indexed only by notification and not crawled.
+helpviewer_keywords: ["ISearchRoot interface [search]","put_UseNotificationsOnly method","ISearchRoot.put_UseNotificationsOnly","ISearchRoot::put_UseNotificationsOnly","_search_ISearchRoot_put_UseNotificationsOnly","put_UseNotificationsOnly","put_UseNotificationsOnly method [search]","put_UseNotificationsOnly method [search]","ISearchRoot interface","search._search_ISearchRoot_put_UseNotificationsOnly","searchapi/ISearchRoot::put_UseNotificationsOnly"]
 old-location: search\_search_ISearchRoot_put_UseNotificationsOnly.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\set_usenotificationsonly.htm
@@ -77,12 +78,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
 For search root URLs in a custom data store or on a remote system, it can be useful to limit the search engine to indexing the URLs only if the store or system has sent notifications that something has changed. This might help to reduce traffic in the store or across the network by avoiding the incremental crawls when the store is unchanged.
 
-The CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line 
-options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

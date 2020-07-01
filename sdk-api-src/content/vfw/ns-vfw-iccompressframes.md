@@ -1,7 +1,8 @@
 ---
 UID: NS:vfw.__unnamed_struct_3
 title: ICCOMPRESSFRAMES (vfw.h)
-description: The ICCOMPRESSFRAMES structure contains compression parameters used with the ICM_COMPRESS_FRAMES_INFO message.helpviewer_keywords: ["ICCOMPRESSFRAMES","ICCOMPRESSFRAMES structure [Windows Multimedia]","_win32_ICCOMPRESSFRAMES_str","multimedia.iccompressframes","vfw/ICCOMPRESSFRAMES"]
+description: The ICCOMPRESSFRAMES structure contains compression parameters used with the ICM_COMPRESS_FRAMES_INFO message.
+helpviewer_keywords: ["ICCOMPRESSFRAMES","ICCOMPRESSFRAMES structure [Windows Multimedia]","_win32_ICCOMPRESSFRAMES_str","multimedia.iccompressframes","vfw/ICCOMPRESSFRAMES"]
 old-location: multimedia\iccompressframes.htm
 tech.root: Multimedia
 ms.assetid: ced9ceea-d3fa-4496-886a-837545a28194

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetDesktopItem
 title: IActiveDesktop::GetDesktopItem (shlobj_core.h)
-description: Gets the specified desktop item.helpviewer_keywords: ["GetDesktopItem","GetDesktopItem method [Legacy Windows Environment Features]","GetDesktopItem method [Legacy Windows Environment Features]","IActiveDesktop interface","IActiveDesktop interface [Legacy Windows Environment Features]","GetDesktopItem method","IActiveDesktop.GetDesktopItem","IActiveDesktop::GetDesktopItem","_win32_IActiveDesktop_GetDesktopItem","lwef.iactivedesktop_getdesktopitem","shell.iactivedesktop_getdesktopitem","shlobj_core/IActiveDesktop::GetDesktopItem"]
+description: Gets the specified desktop item.
+helpviewer_keywords: ["GetDesktopItem","GetDesktopItem method [Legacy Windows Environment Features]","GetDesktopItem method [Legacy Windows Environment Features]","IActiveDesktop interface","IActiveDesktop interface [Legacy Windows Environment Features]","GetDesktopItem method","IActiveDesktop.GetDesktopItem","IActiveDesktop::GetDesktopItem","_win32_IActiveDesktop_GetDesktopItem","lwef.iactivedesktop_getdesktopitem","shell.iactivedesktop_getdesktopitem","shlobj_core/IActiveDesktop::GetDesktopItem"]
 old-location: lwef\iactivedesktop_getdesktopitem.htm
 tech.root: lwef
 ms.assetid: b9d4a771-023f-4a31-b9b7-39b8b4a8695a

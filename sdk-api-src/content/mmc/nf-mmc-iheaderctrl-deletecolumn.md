@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IHeaderCtrl.DeleteColumn
 title: IHeaderCtrl::DeleteColumn (mmc.h)
-description: Removes a column from the header of the result view.helpviewer_keywords: ["DeleteColumn","DeleteColumn method [MMC]","DeleteColumn method [MMC]","IHeaderCtrl interface","IHeaderCtrl interface [MMC]","DeleteColumn method","IHeaderCtrl.DeleteColumn","IHeaderCtrl::DeleteColumn","mmc.iheaderctrl_deletecolumn","mmc/IHeaderCtrl::DeleteColumn"]
+description: Removes a column from the header of the result view.
+helpviewer_keywords: ["DeleteColumn","DeleteColumn method [MMC]","DeleteColumn method [MMC]","IHeaderCtrl interface","IHeaderCtrl interface [MMC]","DeleteColumn method","IHeaderCtrl.DeleteColumn","IHeaderCtrl::DeleteColumn","mmc.iheaderctrl_deletecolumn","mmc/IHeaderCtrl::DeleteColumn"]
 old-location: mmc\iheaderctrl_deletecolumn.htm
 tech.root: mmc
 ms.assetid: 85A4D929-E98B-4C84-9E5C-EA5E41BD0D07

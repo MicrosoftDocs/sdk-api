@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.ITaskbarList2
 title: ITaskbarList2 (shobjidl_core.h)
-description: Extends the ITaskbarList interface by exposing a method to mark a window as a full-screen display.helpviewer_keywords: ["ITaskbarList2","ITaskbarList2 interface [Windows Shell]","ITaskbarList2 interface [Windows Shell]","described","shell.ITaskbarList2","shell_ITaskbarList2","shobjidl_core/ITaskbarList2"]
+description: Extends the ITaskbarList interface by exposing a method to mark a window as a full-screen display.
+helpviewer_keywords: ["ITaskbarList2","ITaskbarList2 interface [Windows Shell]","ITaskbarList2 interface [Windows Shell]","described","shell.ITaskbarList2","shell_ITaskbarList2","shobjidl_core/ITaskbarList2"]
 old-location: shell\ITaskbarList2.htm
 tech.root: shell
 ms.assetid: 8af23586-349f-4d21-98cb-0aaa27a586ff

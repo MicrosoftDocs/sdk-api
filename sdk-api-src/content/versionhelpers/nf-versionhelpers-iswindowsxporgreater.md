@@ -1,7 +1,8 @@
 ---
 UID: NF:versionhelpers.IsWindowsXPOrGreater
 title: IsWindowsXPOrGreater function (versionhelpers.h)
-description: Indicates if the current OS version matches, or is greater than, the Windows XP version.helpviewer_keywords: ["IsWindowsXPOrGreater","IsWindowsXPOrGreater function","base.iswindowsxporgreater","versionhelpers/IsWindowsXPOrGreater"]
+description: Indicates if the current OS version matches, or is greater than, the Windows XP version.
+helpviewer_keywords: ["IsWindowsXPOrGreater","IsWindowsXPOrGreater function","base.iswindowsxporgreater","versionhelpers/IsWindowsXPOrGreater"]
 old-location: base\iswindowsxporgreater.htm
 tech.root: SysInfo
 ms.assetid: 48B7FAD6-569F-4CF5-A413-857679363736

@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.GetQuotaLogFlags
 title: IDiskQuotaControl::GetQuotaLogFlags (dskquota.h)
-description: Retrieves the flags that control the logging of user-related quota events on the volume.helpviewer_keywords: ["GetQuotaLogFlags","GetQuotaLogFlags method [Files]","GetQuotaLogFlags method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GetQuotaLogFlags method","IDiskQuotaControl.GetQuotaLogFlags","IDiskQuotaControl::GetQuotaLogFlags","_win32_idiskquotacontrol_getquotalogflags","base.idiskquotacontrol_getquotalogflags","dskquota/IDiskQuotaControl::GetQuotaLogFlags","fs.idiskquotacontrol_getquotalogflags"]
+description: Retrieves the flags that control the logging of user-related quota events on the volume.
+helpviewer_keywords: ["GetQuotaLogFlags","GetQuotaLogFlags method [Files]","GetQuotaLogFlags method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","GetQuotaLogFlags method","IDiskQuotaControl.GetQuotaLogFlags","IDiskQuotaControl::GetQuotaLogFlags","_win32_idiskquotacontrol_getquotalogflags","base.idiskquotacontrol_getquotalogflags","dskquota/IDiskQuotaControl::GetQuotaLogFlags","fs.idiskquotacontrol_getquotalogflags"]
 old-location: fs\idiskquotacontrol_getquotalogflags.htm
 tech.root: FileIO
 ms.assetid: 79ba4f8a-9f89-4c15-9d17-b61960d12b62

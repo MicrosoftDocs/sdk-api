@@ -1,7 +1,8 @@
 ---
 UID: NN:audioenginebaseapo.IAudioProcessingObjectConfiguration
 title: IAudioProcessingObjectConfiguration (audioenginebaseapo.h)
-description: The IAudioProcessingObjectConfiguration interface is used to configure the APO. This interface uses its methods to lock and unlock the APO for processing.helpviewer_keywords: ["IAudioProcessingObjectConfiguration","IAudioProcessingObjectConfiguration interface [Audio Devices]","IAudioProcessingObjectConfiguration interface [Audio Devices]","described","audio.iaudioprocessingobjectconfiguration","audio_syseffects_r_b3847e21-94ea-45b3-9ae4-ccdb83f262aa.xml","audioenginebaseapo/IAudioProcessingObjectConfiguration"]
+description: The IAudioProcessingObjectConfiguration interface is used to configure the APO. This interface uses its methods to lock and unlock the APO for processing.
+helpviewer_keywords: ["IAudioProcessingObjectConfiguration","IAudioProcessingObjectConfiguration interface [Audio Devices]","IAudioProcessingObjectConfiguration interface [Audio Devices]","described","audio.iaudioprocessingobjectconfiguration","audio_syseffects_r_b3847e21-94ea-45b3-9ae4-ccdb83f262aa.xml","audioenginebaseapo/IAudioProcessingObjectConfiguration"]
 old-location: audio\iaudioprocessingobjectconfiguration.htm
 tech.root: audio
 ms.assetid: 6311a5d1-b9d3-4c62-99aa-8feda32b4a2f

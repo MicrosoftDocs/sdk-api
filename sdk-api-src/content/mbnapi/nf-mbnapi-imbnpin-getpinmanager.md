@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnPin.GetPinManager
 title: IMbnPin::GetPinManager (mbnapi.h)
-description: Gets the IMbnPinManager.helpviewer_keywords: ["GetPinManager","GetPinManager method [Microsoft Broadband Networks]","GetPinManager method [Microsoft Broadband Networks]","IMbnPin interface","IMbnPin interface [Microsoft Broadband Networks]","GetPinManager method","IMbnPin.GetPinManager","IMbnPin::GetPinManager","mbn.imbnpin_getpinmanager","mbnapi/IMbnPin::GetPinManager"]
+description: Gets the IMbnPinManager.
+helpviewer_keywords: ["GetPinManager","GetPinManager method [Microsoft Broadband Networks]","GetPinManager method [Microsoft Broadband Networks]","IMbnPin interface","IMbnPin interface [Microsoft Broadband Networks]","GetPinManager method","IMbnPin.GetPinManager","IMbnPin::GetPinManager","mbn.imbnpin_getpinmanager","mbnapi/IMbnPin::GetPinManager"]
 old-location: mbn\imbnpin_getpinmanager.htm
 tech.root: mbn
 ms.assetid: 51957cb9-0204-4e07-aebf-1aaddb16b3c2

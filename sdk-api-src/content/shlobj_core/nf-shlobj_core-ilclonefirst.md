@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.ILCloneFirst
 title: ILCloneFirst function (shlobj_core.h)
-description: Clones the first SHITEMID structure in an ITEMIDLIST structure.helpviewer_keywords: ["ILCloneFirst","ILCloneFirst function [Windows Shell]","_win32_ILCloneFirst","shell.ILCloneFirst","shlobj_core/ILCloneFirst"]
+description: Clones the first SHITEMID structure in an ITEMIDLIST structure.
+helpviewer_keywords: ["ILCloneFirst","ILCloneFirst function [Windows Shell]","_win32_ILCloneFirst","shell.ILCloneFirst","shlobj_core/ILCloneFirst"]
 old-location: shell\ILCloneFirst.htm
 tech.root: shell
 ms.assetid: 931df0c7-6acb-4c49-aa2b-464255e97347

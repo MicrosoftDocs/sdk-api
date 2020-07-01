@@ -1,7 +1,8 @@
 ---
 UID: NN:ocidl.IViewObjectEx
 title: IViewObjectEx (ocidl.h)
-description: An extension derived from IViewObject2 to provide support for Enhanced, flicker-free drawing for non-rectangular objects and transparent objects, hit testing for non-rectangular objects, and Control sizinghelpviewer_keywords: ["IViewObjectEx","IViewObjectEx interface [COM]","IViewObjectEx interface [COM]","described","_ole_iviewobjectex","com.iviewobjectex","ocidl/IViewObjectEx"]
+description: An extension derived from IViewObject2 to provide support for Enhanced, flicker-free drawing for non-rectangular objects and transparent objects, hit testing for non-rectangular objects, and Control sizing
+helpviewer_keywords: ["IViewObjectEx","IViewObjectEx interface [COM]","IViewObjectEx interface [COM]","described","_ole_iviewobjectex","com.iviewobjectex","ocidl/IViewObjectEx"]
 old-location: com\iviewobjectex.htm
 tech.root: com
 ms.assetid: 4e677ec6-9c9e-4ee7-bb7f-1df6e590319b

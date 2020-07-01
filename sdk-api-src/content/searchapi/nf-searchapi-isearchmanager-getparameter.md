@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchManager.GetParameter
 title: ISearchManager::GetParameter (searchapi.h)
-description: Not supported.This method returns E_INVALIDARG when called.helpviewer_keywords: ["GetParameter","GetParameter method [search]","GetParameter method [search]","ISearchManager interface","ISearchManager interface [search]","GetParameter method","ISearchManager.GetParameter","ISearchManager::GetParameter","_search_ISearchManager_GetParameter","search._search_ISearchManager_GetParameter","searchapi/ISearchManager::GetParameter"]
+description: Not supported.This method returns E_INVALIDARG when called.
+helpviewer_keywords: ["GetParameter","GetParameter method [search]","GetParameter method [search]","ISearchManager interface","ISearchManager interface [search]","GetParameter method","ISearchManager.GetParameter","ISearchManager::GetParameter","_search_ISearchManager_GetParameter","search._search_ISearchManager_GetParameter","searchapi/ISearchManager::GetParameter"]
 old-location: search\_search_ISearchManager_GetParameter.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getparameter.htm
@@ -86,9 +87,4 @@ This method returns E_InvalidArg as an error code when called.
 
 ## -remarks
 
-
-
-The ReindexMatchingUrls code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

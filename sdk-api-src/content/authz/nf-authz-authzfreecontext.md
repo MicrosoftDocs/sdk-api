@@ -1,7 +1,8 @@
 ---
 UID: NF:authz.AuthzFreeContext
 title: AuthzFreeContext function (authz.h)
-description: Frees all structures and memory associated with the client context. The list of handles for a client is freed in this call.helpviewer_keywords: ["AuthzFreeContext","AuthzFreeContext function [Security]","_win32_authzfreecontext","authz/AuthzFreeContext","security.authzfreecontext"]
+description: Frees all structures and memory associated with the client context. The list of handles for a client is freed in this call.
+helpviewer_keywords: ["AuthzFreeContext","AuthzFreeContext function [Security]","_win32_authzfreecontext","authz/AuthzFreeContext","security.authzfreecontext"]
 old-location: security\authzfreecontext.htm
 tech.root: SecAuthZ
 ms.assetid: cad9fff0-9aa6-4cb2-a34f-94cf72f66bca

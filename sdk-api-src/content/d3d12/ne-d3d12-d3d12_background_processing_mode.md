@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12.D3D12_BACKGROUND_PROCESSING_MODE
 title: D3D12_BACKGROUND_PROCESSING_MODE
-description: Defines constants that specify a level of dynamic optimization to apply to GPU work that's subsequently submitted.helpviewer_keywords: ["D3D12_BACKGROUND_PROCESSING_MODE","D3D12_BACKGROUND_PROCESSING_MODE enumeration","direct3d12.d3d12_background_processing_mode"]
+description: Defines constants that specify a level of dynamic optimization to apply to GPU work that's subsequently submitted.
+helpviewer_keywords: ["D3D12_BACKGROUND_PROCESSING_MODE","D3D12_BACKGROUND_PROCESSING_MODE enumeration","direct3d12.d3d12_background_processing_mode"]
 tech.root: direct3d12
 ms.date: 10/14/2019
 ms.keywords: D3D12_BACKGROUND_PROCESSING_MODE, D3D12_BACKGROUND_PROCESSING_MODE enumeration, direct3d12.d3d12_background_processing_mode

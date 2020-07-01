@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.UnregisterPowerSettingNotification
 title: UnregisterPowerSettingNotification function (winuser.h)
-description: Unregisters the power setting notification.helpviewer_keywords: ["UnregisterPowerSettingNotification","UnregisterPowerSettingNotification function","base.unregisterpowersettingnotification","winuser/UnregisterPowerSettingNotification"]
+description: Unregisters the power setting notification.
+helpviewer_keywords: ["UnregisterPowerSettingNotification","UnregisterPowerSettingNotification function","base.unregisterpowersettingnotification","winuser/UnregisterPowerSettingNotification"]
 old-location: base\unregisterpowersettingnotification.htm
 tech.root: power
 ms.assetid: de1509f5-cf4c-448e-bb3b-08da6be53bfa

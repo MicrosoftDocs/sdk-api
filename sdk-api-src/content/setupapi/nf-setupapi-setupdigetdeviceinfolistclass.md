@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInfoListClass
 title: SetupDiGetDeviceInfoListClass function (setupapi.h)
-description: The SetupDiGetDeviceInfoListClass function retrieves the GUID for the device setup class associated with a device information set if the set has an associated class.helpviewer_keywords: ["SetupDiGetDeviceInfoListClass","SetupDiGetDeviceInfoListClass function [Device and Driver Installation]","devinst.setupdigetdeviceinfolistclass","di-rtns_219b6225-e6f3-40b4-8127-709c425a0cad.xml","setupapi/SetupDiGetDeviceInfoListClass"]
+description: The SetupDiGetDeviceInfoListClass function retrieves the GUID for the device setup class associated with a device information set if the set has an associated class.
+helpviewer_keywords: ["SetupDiGetDeviceInfoListClass","SetupDiGetDeviceInfoListClass function [Device and Driver Installation]","devinst.setupdigetdeviceinfolistclass","di-rtns_219b6225-e6f3-40b4-8127-709c425a0cad.xml","setupapi/SetupDiGetDeviceInfoListClass"]
 old-location: devinst\setupdigetdeviceinfolistclass.htm
 tech.root: devinst
 ms.assetid: 332945dc-9edc-4fbf-a4fa-533a00352553

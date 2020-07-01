@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IGraphConfig.EnumCacheFilter
 title: IGraphConfig::EnumCacheFilter (strmif.h)
-description: The EnumCacheFilter method enumerates the filters in the filter cache.helpviewer_keywords: ["EnumCacheFilter","EnumCacheFilter method [DirectShow]","EnumCacheFilter method [DirectShow]","IGraphConfig interface","IGraphConfig interface [DirectShow]","EnumCacheFilter method","IGraphConfig.EnumCacheFilter","IGraphConfig::EnumCacheFilter","IGraphConfigEnumCacheFilter","dshow.igraphconfig_enumcachefilter","strmif/IGraphConfig::EnumCacheFilter"]
+description: The EnumCacheFilter method enumerates the filters in the filter cache.
+helpviewer_keywords: ["EnumCacheFilter","EnumCacheFilter method [DirectShow]","EnumCacheFilter method [DirectShow]","IGraphConfig interface","IGraphConfig interface [DirectShow]","EnumCacheFilter method","IGraphConfig.EnumCacheFilter","IGraphConfig::EnumCacheFilter","IGraphConfigEnumCacheFilter","dshow.igraphconfig_enumcachefilter","strmif/IGraphConfig::EnumCacheFilter"]
 old-location: dshow\igraphconfig_enumcachefilter.htm
 tech.root: DirectShow
 ms.assetid: 1782def0-13ed-411c-ab05-d0f0c307e16a

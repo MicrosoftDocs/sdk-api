@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerSetSecurityInfoByKey0
 title: FwpmSubLayerSetSecurityInfoByKey0 function (fwpmu.h)
-description: Sets specified security information in the security descriptor of a sublayer.helpviewer_keywords: ["FwpmSubLayerSetSecurityInfoByKey0","FwpmSubLayerSetSecurityInfoByKey0 function [Filtering]","fwp.fwpmsublayersetsecurityinfobykey0_func","fwpmu/FwpmSubLayerSetSecurityInfoByKey0"]
+description: Sets specified security information in the security descriptor of a sublayer.
+helpviewer_keywords: ["FwpmSubLayerSetSecurityInfoByKey0","FwpmSubLayerSetSecurityInfoByKey0 function [Filtering]","fwp.fwpmsublayersetsecurityinfobykey0_func","fwpmu/FwpmSubLayerSetSecurityInfoByKey0"]
 old-location: fwp\fwpmsublayersetsecurityinfobykey0_func.htm
 tech.root: fwp
 ms.assetid: 47f1aa71-017d-4de2-8428-d666afa67b71

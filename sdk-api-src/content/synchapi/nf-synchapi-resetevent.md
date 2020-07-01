@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.ResetEvent
 title: ResetEvent function (synchapi.h)
-description: Sets the specified event object to the nonsignaled state.helpviewer_keywords: ["ResetEvent","ResetEvent function","_win32_resetevent","base.resetevent","synchapi/ResetEvent","winbase/ResetEvent"]
+description: Sets the specified event object to the nonsignaled state.
+helpviewer_keywords: ["ResetEvent","ResetEvent function","_win32_resetevent","base.resetevent","synchapi/ResetEvent","winbase/ResetEvent"]
 old-location: base\resetevent.htm
 tech.root: Sync
 ms.assetid: bba7caab-d1ed-4261-aeca-49f847458f4c

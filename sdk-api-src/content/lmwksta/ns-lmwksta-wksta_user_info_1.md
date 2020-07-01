@@ -1,7 +1,8 @@
 ---
 UID: NS:lmwksta._WKSTA_USER_INFO_1
 title: WKSTA_USER_INFO_1 (lmwksta.h)
-description: The WKSTA_USER_INFO_1 structure contains user information as it pertains to a specific workstation. The information includes the name of the current user and the domains accessed by the workstation.helpviewer_keywords: ["*LPWKSTA_USER_INFO_1","*PWKSTA_USER_INFO_1","LPWKSTA_USER_INFO_1","LPWKSTA_USER_INFO_1 structure pointer [Network Management]","PWKSTA_USER_INFO_1","PWKSTA_USER_INFO_1 structure pointer [Network Management]","WKSTA_USER_INFO_1","WKSTA_USER_INFO_1 structure [Network Management]","_win32_wksta_user_info_1_str","lmwksta/LPWKSTA_USER_INFO_1","lmwksta/PWKSTA_USER_INFO_1","lmwksta/WKSTA_USER_INFO_1","netmgmt.wksta_user_info_1_str"]
+description: The WKSTA_USER_INFO_1 structure contains user information as it pertains to a specific workstation. The information includes the name of the current user and the domains accessed by the workstation.
+helpviewer_keywords: ["*LPWKSTA_USER_INFO_1","*PWKSTA_USER_INFO_1","LPWKSTA_USER_INFO_1","LPWKSTA_USER_INFO_1 structure pointer [Network Management]","PWKSTA_USER_INFO_1","PWKSTA_USER_INFO_1 structure pointer [Network Management]","WKSTA_USER_INFO_1","WKSTA_USER_INFO_1 structure [Network Management]","_win32_wksta_user_info_1_str","lmwksta/LPWKSTA_USER_INFO_1","lmwksta/PWKSTA_USER_INFO_1","lmwksta/WKSTA_USER_INFO_1","netmgmt.wksta_user_info_1_str"]
 old-location: netmgmt\wksta_user_info_1_str.htm
 tech.root: NetMgmt
 ms.assetid: a30747de-6cb0-41dc-95a7-be3d471056d5

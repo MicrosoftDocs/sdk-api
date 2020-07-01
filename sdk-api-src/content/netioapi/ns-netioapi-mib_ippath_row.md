@@ -1,7 +1,8 @@
 ---
 UID: NS:netioapi._MIB_IPPATH_ROW
 title: MIB_IPPATH_ROW (netioapi.h)
-description: Stores information about an IP path entry.helpviewer_keywords: ["*PMIB_IPPATH_ROW","MIB_IPPATH_ROW","MIB_IPPATH_ROW structure [MIB]","PMIB_IPPATH_ROW","PMIB_IPPATH_ROW structure pointer [MIB]","_MIB_IPPATH_ROW","mib.mib_ippath_row","netioapi/MIB_IPPATH_ROW","netioapi/PMIB_IPPATH_ROW"]
+description: Stores information about an IP path entry.
+helpviewer_keywords: ["*PMIB_IPPATH_ROW","MIB_IPPATH_ROW","MIB_IPPATH_ROW structure [MIB]","PMIB_IPPATH_ROW","PMIB_IPPATH_ROW structure pointer [MIB]","_MIB_IPPATH_ROW","mib.mib_ippath_row","netioapi/MIB_IPPATH_ROW","netioapi/PMIB_IPPATH_ROW"]
 old-location: mib\mib_ippath_row.htm
 tech.root: MIB
 ms.assetid: 0cfef3cb-bb96-4250-864b-2468a46ba277

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_DeleteItem
 title: TreeView_DeleteItem macro (commctrl.h)
-description: Removes an item and all its children from a tree-view control. You can also send the TVM_DELETEITEM message explicitly.helpviewer_keywords: ["TreeView_DeleteItem","TreeView_DeleteItem macro [Windows Controls]","_win32_TreeView_DeleteItem","_win32_TreeView_DeleteItem_cpp","commctrl/TreeView_DeleteItem","controls.TreeView_DeleteItem","controls._win32_TreeView_DeleteItem"]
+description: Removes an item and all its children from a tree-view control. You can also send the TVM_DELETEITEM message explicitly.
+helpviewer_keywords: ["TreeView_DeleteItem","TreeView_DeleteItem macro [Windows Controls]","_win32_TreeView_DeleteItem","_win32_TreeView_DeleteItem_cpp","commctrl/TreeView_DeleteItem","controls.TreeView_DeleteItem","controls._win32_TreeView_DeleteItem"]
 old-location: controls\TreeView_DeleteItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_deleteitem.htm

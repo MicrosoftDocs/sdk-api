@@ -1,7 +1,8 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.Execute
 title: IAMVideoAccelerator::Execute (videoacc.h)
-description: The Execute method performs a DirectX Video Acceleration (DXVA) decoding operation.helpviewer_keywords: ["Execute","Execute method [DirectShow]","Execute method [DirectShow]","IAMVideoAccelerator interface","IAMVideoAccelerator interface [DirectShow]","Execute method","IAMVideoAccelerator.Execute","IAMVideoAccelerator::Execute","IAMVideoAcceleratorExecute","dshow.iamvideoaccelerator_execute","videoacc/IAMVideoAccelerator::Execute"]
+description: The Execute method performs a DirectX Video Acceleration (DXVA) decoding operation.
+helpviewer_keywords: ["Execute","Execute method [DirectShow]","Execute method [DirectShow]","IAMVideoAccelerator interface","IAMVideoAccelerator interface [DirectShow]","Execute method","IAMVideoAccelerator.Execute","IAMVideoAccelerator::Execute","IAMVideoAcceleratorExecute","dshow.iamvideoaccelerator_execute","videoacc/IAMVideoAccelerator::Execute"]
 old-location: dshow\iamvideoaccelerator_execute.htm
 tech.root: DirectShow
 ms.assetid: 12794739-9120-4dc1-b95d-6d390d25726b

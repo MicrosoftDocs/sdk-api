@@ -1,7 +1,8 @@
 ---
 UID: NE:dsrole._DSROLE_SERVER_STATE
 title: DSROLE_SERVER_STATE (dsrole.h)
-description: Used with the DSROLE_UPGRADE_STATUS_INFO structure to indicate the role of a server.helpviewer_keywords: ["*PDSROLE_SERVER_STATE","DSROLE_SERVER_STATE","DSROLE_SERVER_STATE enumeration [Active Directory]","DsRoleServerBackup","DsRoleServerPrimary","DsRoleServerUnknown","ad.dsrole_server_state","dsrole/DSROLE_SERVER_STATE","dsrole/DsRoleServerBackup","dsrole/DsRoleServerPrimary","dsrole/DsRoleServerUnknown"]
+description: Used with the DSROLE_UPGRADE_STATUS_INFO structure to indicate the role of a server.
+helpviewer_keywords: ["*PDSROLE_SERVER_STATE","DSROLE_SERVER_STATE","DSROLE_SERVER_STATE enumeration [Active Directory]","DsRoleServerBackup","DsRoleServerPrimary","DsRoleServerUnknown","ad.dsrole_server_state","dsrole/DSROLE_SERVER_STATE","dsrole/DsRoleServerBackup","dsrole/DsRoleServerPrimary","dsrole/DsRoleServerUnknown"]
 old-location: ad\dsrole_server_state.htm
 tech.root: ad
 ms.assetid: cd15aa25-7a73-475f-b163-30e5dc1f52bd

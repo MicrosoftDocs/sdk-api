@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.SetBlendBellShape
 title: PathGradientBrush::SetBlendBellShape (gdipluspath.h)
-description: The PathGradientBrush::SetBlendBellShape method sets the blend shape of this path gradient brush.helpviewer_keywords: ["PathGradientBrush class [GDI+]","SetBlendBellShape method","PathGradientBrush.SetBlendBellShape","PathGradientBrush::SetBlendBellShape","SetBlendBellShape","SetBlendBellShape method [GDI+]","SetBlendBellShape method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_","gdiplus._gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_"]
+description: The PathGradientBrush::SetBlendBellShape method sets the blend shape of this path gradient brush.
+helpviewer_keywords: ["PathGradientBrush class [GDI+]","SetBlendBellShape method","PathGradientBrush.SetBlendBellShape","PathGradientBrush::SetBlendBellShape","SetBlendBellShape","SetBlendBellShape method [GDI+]","SetBlendBellShape method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_","gdiplus._gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_SetBlendBellShape_focus_scale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\setblendbellshape_37focus_scale.htm

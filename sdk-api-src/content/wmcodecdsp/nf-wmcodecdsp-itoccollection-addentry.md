@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.AddEntry
 title: ITocCollection::AddEntry (wmcodecdsp.h)
-description: The AddEntry method adds an individual table of contents to the collection and assigns an index to the added table of contents.helpviewer_keywords: ["AddEntry","AddEntry method [Media Foundation]","AddEntry method [Media Foundation]","ITocCollection interface","ITocCollection interface [Media Foundation]","AddEntry method","ITocCollection.AddEntry","ITocCollection::AddEntry","codecapi.itoccollection_addentry","mf.itoccollection_addentry","wmcodecdsp/ITocCollection::AddEntry"]
+description: The AddEntry method adds an individual table of contents to the collection and assigns an index to the added table of contents.
+helpviewer_keywords: ["AddEntry","AddEntry method [Media Foundation]","AddEntry method [Media Foundation]","ITocCollection interface","ITocCollection interface [Media Foundation]","AddEntry method","ITocCollection.AddEntry","ITocCollection::AddEntry","codecapi.itoccollection_addentry","mf.itoccollection_addentry","wmcodecdsp/ITocCollection::AddEntry"]
 old-location: mf\itoccollection_addentry.htm
 tech.root: medfound
 ms.assetid: b4d4e40b-151b-4217-81c8-1eaa8336407d

@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegEnumKeyA
 title: RegEnumKeyA function (winreg.h)
-description: Enumerates the subkeys of the specified open registry key.helpviewer_keywords: ["RegEnumKey","RegEnumKey function","RegEnumKeyA","RegEnumKeyW","_win32_regenumkey","base.regenumkey","winreg/RegEnumKey","winreg/RegEnumKeyA","winreg/RegEnumKeyW"]
+description: Enumerates the subkeys of the specified open registry key.
+helpviewer_keywords: ["RegEnumKey","RegEnumKey function","RegEnumKeyA","RegEnumKeyW","_win32_regenumkey","base.regenumkey","winreg/RegEnumKey","winreg/RegEnumKeyA","winreg/RegEnumKeyW"]
 old-location: base\regenumkey.htm
 tech.root: SysInfo
 ms.assetid: 18a05c60-6c6d-438f-9003-f07d688d86a3
@@ -142,6 +143,10 @@ While an application is using the
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegEnumKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

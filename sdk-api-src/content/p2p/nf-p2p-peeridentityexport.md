@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerIdentityExport
 title: PeerIdentityExport function (p2p.h)
-description: The PeerIdentityExport function allows a user to export one peer identity. The user can then transfer the peer identity to a different computer.helpviewer_keywords: ["PeerIdentityExport","PeerIdentityExport function [Peer Networking]","p2p.peeridentityexport","p2p/PeerIdentityExport"]
+description: The PeerIdentityExport function allows a user to export one peer identity. The user can then transfer the peer identity to a different computer.
+helpviewer_keywords: ["PeerIdentityExport","PeerIdentityExport function [Peer Networking]","p2p.peeridentityexport","p2p/PeerIdentityExport"]
 old-location: p2p\peeridentityexport.htm
 tech.root: P2PSdk
 ms.assetid: 2b7cfc46-77f6-49cb-966c-0a96830c96fd

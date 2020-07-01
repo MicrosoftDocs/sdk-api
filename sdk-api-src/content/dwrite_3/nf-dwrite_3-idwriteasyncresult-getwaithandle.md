@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteAsyncResult.GetWaitHandle
 title: IDWriteAsyncResult::GetWaitHandle (dwrite_3.h)
-description: Returns a handle that can be used to wait for the asynchronous operation to complete. The handle remains valid until the interface is released.helpviewer_keywords: ["GetWaitHandle","GetWaitHandle method [Direct Write]","GetWaitHandle method [Direct Write]","IDWriteAsyncResult interface","IDWriteAsyncResult interface [Direct Write]","GetWaitHandle method","IDWriteAsyncResult.GetWaitHandle","IDWriteAsyncResult::GetWaitHandle","directwrite.idwriteasyncresult_getwaithandle","dwrite_3/IDWriteAsyncResult::GetWaitHandle"]
+description: Returns a handle that can be used to wait for the asynchronous operation to complete. The handle remains valid until the interface is released.
+helpviewer_keywords: ["GetWaitHandle","GetWaitHandle method [Direct Write]","GetWaitHandle method [Direct Write]","IDWriteAsyncResult interface","IDWriteAsyncResult interface [Direct Write]","GetWaitHandle method","IDWriteAsyncResult.GetWaitHandle","IDWriteAsyncResult::GetWaitHandle","directwrite.idwriteasyncresult_getwaithandle","dwrite_3/IDWriteAsyncResult::GetWaitHandle"]
 old-location: directwrite\idwriteasyncresult_getwaithandle.htm
 tech.root: DirectWrite
 ms.assetid: BF7F7A94-AD3E-48DB-9A01-D4E615063A8F

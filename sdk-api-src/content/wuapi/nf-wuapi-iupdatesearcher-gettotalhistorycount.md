@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateSearcher.GetTotalHistoryCount
 title: IUpdateSearcher::GetTotalHistoryCount (wuapi.h)
-description: Returns the number of update events on the computer.helpviewer_keywords: ["GetTotalHistoryCount","GetTotalHistoryCount method [Windows Update Agent]","GetTotalHistoryCount method [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","GetTotalHistoryCount method","IUpdateSearcher.GetTotalHistoryCount","IUpdateSearcher::GetTotalHistoryCount","wua.iupdatesearchergettotalhistorycount","wuapi/IUpdateSearcher::GetTotalHistoryCount"]
+description: Returns the number of update events on the computer.
+helpviewer_keywords: ["GetTotalHistoryCount","GetTotalHistoryCount method [Windows Update Agent]","GetTotalHistoryCount method [Windows Update Agent]","IUpdateSearcher interface","IUpdateSearcher interface [Windows Update Agent]","GetTotalHistoryCount method","IUpdateSearcher.GetTotalHistoryCount","IUpdateSearcher::GetTotalHistoryCount","wua.iupdatesearchergettotalhistorycount","wuapi/IUpdateSearcher::GetTotalHistoryCount"]
 old-location: wua\iupdatesearchergettotalhistorycount.htm
 tech.root: Wua_Sdk
 ms.assetid: 895f60c2-c106-4088-9a4f-7c1d159d8a9b

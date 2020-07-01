@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ICameraControl.put_Zoom
 title: ICameraControl::put_Zoom (vidcap.h)
-description: The put_Zoom method sets the camera's zoom level.helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_Zoom method","ICameraControl.put_Zoom","ICameraControl::put_Zoom","ICameraControlput_Zoom","dshow.icameracontrol_put_zoom","put_Zoom","put_Zoom method [DirectShow]","put_Zoom method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_Zoom"]
+description: The put_Zoom method sets the camera's zoom level.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","put_Zoom method","ICameraControl.put_Zoom","ICameraControl::put_Zoom","ICameraControlput_Zoom","dshow.icameracontrol_put_zoom","put_Zoom","put_Zoom method [DirectShow]","put_Zoom method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::put_Zoom"]
 old-location: dshow\icameracontrol_put_zoom.htm
 tech.root: DirectShow
 ms.assetid: e6bb0206-04c4-4d93-b267-2881e58c0a14

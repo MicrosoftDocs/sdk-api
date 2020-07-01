@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.GetCPInfoExW
 title: GetCPInfoExW function (winnls.h)
-description: Retrieves information about any valid installed or available code page.helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CP_THREAD_ACP","GetCPInfoEx","GetCPInfoEx function [Internationalization for Windows Applications]","GetCPInfoExA","GetCPInfoExW","_win32_GetCPInfoEx","intl.getcpinfoex","winnls/GetCPInfoEx","winnls/GetCPInfoExA","winnls/GetCPInfoExW"]
+description: Retrieves information about any valid installed or available code page.
+helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CP_THREAD_ACP","GetCPInfoEx","GetCPInfoEx function [Internationalization for Windows Applications]","GetCPInfoExA","GetCPInfoExW","_win32_GetCPInfoEx","intl.getcpinfoex","winnls/GetCPInfoEx","winnls/GetCPInfoExA","winnls/GetCPInfoExW"]
 old-location: intl\getcpinfoex.htm
 tech.root: Intl
 ms.assetid: c21ed6fe-85b6-438a-8f53-e30833e0c88a
@@ -152,6 +153,10 @@ The information retrieved in the <a href="https://docs.microsoft.com/windows/des
 
 
 
+
+
+> [!NOTE]
+> The winnls.h header defines GetCPInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

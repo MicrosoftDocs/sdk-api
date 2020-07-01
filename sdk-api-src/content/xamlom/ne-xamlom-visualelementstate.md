@@ -1,7 +1,8 @@
 ---
 UID: NE:xamlom.VisualElementState
 title: VisualElementState (xamlom.h)
-description: Defines constants that specify the state of an element in the visual tree.helpviewer_keywords: ["ErrorInvalidResource","ErrorResolved","ErrorResourceNotFound","VisualElementState","VisualElementState enumeration","xaml_diagnostics.visualelementstate","xamlom/ErrorInvalidResource","xamlom/ErrorResolved","xamlom/ErrorResourceNotFound","xamlom/VisualElementState"]
+description: Defines constants that specify the state of an element in the visual tree.
+helpviewer_keywords: ["ErrorInvalidResource","ErrorResolved","ErrorResourceNotFound","VisualElementState","VisualElementState enumeration","xaml_diagnostics.visualelementstate","xamlom/ErrorInvalidResource","xamlom/ErrorResolved","xamlom/ErrorResourceNotFound","xamlom/VisualElementState"]
 old-location: xaml_diagnostics\visualelementstate.htm
 tech.root: xaml_diagnostics
 ms.assetid: 6D2AA4D0-4EB6-419F-AA9F-1B2404E0ED42

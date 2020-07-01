@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHGlobalCounterIncrement
 title: SHGlobalCounterIncrement function (shlwapi.h)
-description: Increments a global counter.helpviewer_keywords: ["SHGlobalCounterIncrement","SHGlobalCounterIncrement function [Windows Shell]","_shell_SHGlobalCounterIncrement","shell.SHGlobalCounterIncrement","shlwapi/SHGlobalCounterIncrement"]
+description: Increments a global counter.
+helpviewer_keywords: ["SHGlobalCounterIncrement","SHGlobalCounterIncrement function [Windows Shell]","_shell_SHGlobalCounterIncrement","shell.SHGlobalCounterIncrement","shlwapi/SHGlobalCounterIncrement"]
 old-location: shell\SHGlobalCounterIncrement.htm
 tech.root: shell
 ms.assetid: 088efa01-b070-4384-b17a-311aefb0737c

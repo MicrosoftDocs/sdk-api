@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.InterlockedAnd
 title: InterlockedAnd function (winnt.h)
-description: Performs an atomic AND operation on the specified LONG values.helpviewer_keywords: ["InterlockedAnd","InterlockedAnd function","base.interlockedand","winnt/InterlockedAnd"]
+description: Performs an atomic AND operation on the specified LONG values.
+helpviewer_keywords: ["InterlockedAnd","InterlockedAnd function","base.interlockedand","winnt/InterlockedAnd"]
 old-location: base\interlockedand.htm
 tech.root: Sync
 ms.assetid: 463b579e-d1cd-4ad5-b2f2-bae599849401

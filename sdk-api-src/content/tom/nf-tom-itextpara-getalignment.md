@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetAlignment
 title: ITextPara::GetAlignment (tom.h)
-description: Retrieves the current paragraph alignment value.helpviewer_keywords: ["GetAlignment","GetAlignment method [Windows Controls]","GetAlignment method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetAlignment method","ITextPara.GetAlignment","ITextPara::GetAlignment","_win32_ITextPara_GetAlignment","_win32_ITextPara_GetAlignment_cpp","controls.ITextPara_GetAlignment","controls._win32_ITextPara_GetAlignment","tom/ITextPara::GetAlignment","tomAlignCenter","tomAlignInterLetter","tomAlignInterWord","tomAlignJustify","tomAlignLeft","tomAlignNewspaper","tomAlignRight","tomAlignScaled"]
+description: Retrieves the current paragraph alignment value.
+helpviewer_keywords: ["GetAlignment","GetAlignment method [Windows Controls]","GetAlignment method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetAlignment method","ITextPara.GetAlignment","ITextPara::GetAlignment","_win32_ITextPara_GetAlignment","_win32_ITextPara_GetAlignment_cpp","controls.ITextPara_GetAlignment","controls._win32_ITextPara_GetAlignment","tom/ITextPara::GetAlignment","tomAlignCenter","tomAlignInterLetter","tomAlignInterWord","tomAlignJustify","tomAlignLeft","tomAlignNewspaper","tomAlignRight","tomAlignScaled"]
 old-location: controls\ITextPara_GetAlignment.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getalignment.htm

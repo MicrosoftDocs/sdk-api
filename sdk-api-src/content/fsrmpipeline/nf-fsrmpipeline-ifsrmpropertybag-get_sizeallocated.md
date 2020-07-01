@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_SizeAllocated
 title: IFsrmPropertyBag::get_SizeAllocated (fsrmpipeline.h)
-description: The allocation size of the file.helpviewer_keywords: ["IFsrmPropertyBag interface [File Server Resource Manager]","SizeAllocated property","IFsrmPropertyBag.SizeAllocated","IFsrmPropertyBag.get_SizeAllocated","IFsrmPropertyBag::SizeAllocated","IFsrmPropertyBag::get_SizeAllocated","SizeAllocated property [File Server Resource Manager]","SizeAllocated property [File Server Resource Manager]","IFsrmPropertyBag interface","fs.ifsrmpropertybag_sizeallocated","fsrm.ifsrmpropertybag_sizeallocated","fsrmpipeline/IFsrmPropertyBag::SizeAllocated","fsrmpipeline/IFsrmPropertyBag::get_SizeAllocated","get_SizeAllocated"]
+description: The allocation size of the file.
+helpviewer_keywords: ["IFsrmPropertyBag interface [File Server Resource Manager]","SizeAllocated property","IFsrmPropertyBag.SizeAllocated","IFsrmPropertyBag.get_SizeAllocated","IFsrmPropertyBag::SizeAllocated","IFsrmPropertyBag::get_SizeAllocated","SizeAllocated property [File Server Resource Manager]","SizeAllocated property [File Server Resource Manager]","IFsrmPropertyBag interface","fs.ifsrmpropertybag_sizeallocated","fsrm.ifsrmpropertybag_sizeallocated","fsrmpipeline/IFsrmPropertyBag::SizeAllocated","fsrmpipeline/IFsrmPropertyBag::get_SizeAllocated","get_SizeAllocated"]
 old-location: fsrm\ifsrmpropertybag_sizeallocated.htm
 tech.root: fsrm
 ms.assetid: d1ec946b-2769-4e0d-b01c-08ef6032df16

@@ -1,7 +1,8 @@
 ---
 UID: NN:cscobj.IOfflineFilesItemFilter
 title: IOfflineFilesItemFilter (cscobj.h)
-description: Represents an instance of a filter to be applied to an enumeration.helpviewer_keywords: ["IOfflineFilesItemFilter","IOfflineFilesItemFilter interface [Offline Files]","IOfflineFilesItemFilter interface [Offline Files]","described","cscobj/IOfflineFilesItemFilter","of.iofflinefilesitemfilter"]
+description: Represents an instance of a filter to be applied to an enumeration.
+helpviewer_keywords: ["IOfflineFilesItemFilter","IOfflineFilesItemFilter interface [Offline Files]","IOfflineFilesItemFilter interface [Offline Files]","described","cscobj/IOfflineFilesItemFilter","of.iofflinefilesitemfilter"]
 old-location: of\iofflinefilesitemfilter.htm
 tech.root: offlinefiles
 ms.assetid: e77b4f90-7a08-47f8-b297-8c1360167e1f

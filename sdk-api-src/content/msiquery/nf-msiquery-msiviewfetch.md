@@ -1,7 +1,8 @@
 ---
 UID: NF:msiquery.MsiViewFetch
 title: MsiViewFetch function (msiquery.h)
-description: The MsiViewFetch function fetches the next sequential record from the view. This function returns a handle that should be closed using MsiCloseHandle.helpviewer_keywords: ["MsiViewFetch","MsiViewFetch function","_msi_msiviewfetch","msiquery/MsiViewFetch","setup.msiviewfetch"]
+description: The MsiViewFetch function fetches the next sequential record from the view. This function returns a handle that should be closed using MsiCloseHandle.
+helpviewer_keywords: ["MsiViewFetch","MsiViewFetch function","_msi_msiviewfetch","msiquery/MsiViewFetch","setup.msiviewfetch"]
 old-location: setup\msiviewfetch.htm
 tech.root: Msi
 ms.assetid: 1a973a22-ca3a-4980-9b20-d3c5b43fdd19

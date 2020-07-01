@@ -1,7 +1,8 @@
 ---
 UID: NF:audioclient.IAudioClient2.SetClientProperties
 title: IAudioClient2::SetClientProperties (audioclient.h)
-description: Sets the properties of the audio stream by populating an AudioClientProperties structure.helpviewer_keywords: ["IAudioClient2 interface [Core Audio]","SetClientProperties method","IAudioClient2.SetClientProperties","IAudioClient2::SetClientProperties","SetClientProperties","SetClientProperties method [Core Audio]","SetClientProperties method [Core Audio]","IAudioClient2 interface","audioclient/IAudioClient2::SetClientProperties","coreaudio.iaudioclient2_setclientproperties"]
+description: Sets the properties of the audio stream by populating an AudioClientProperties structure.
+helpviewer_keywords: ["IAudioClient2 interface [Core Audio]","SetClientProperties method","IAudioClient2.SetClientProperties","IAudioClient2::SetClientProperties","SetClientProperties","SetClientProperties method [Core Audio]","SetClientProperties method [Core Audio]","IAudioClient2 interface","audioclient/IAudioClient2::SetClientProperties","coreaudio.iaudioclient2_setclientproperties"]
 old-location: coreaudio\iaudioclient2_setclientproperties.htm
 tech.root: CoreAudio
 ms.assetid: B9B98EF9-C0E1-430A-9C79-1B414F4D67B5

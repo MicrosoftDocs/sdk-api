@@ -1,7 +1,8 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolLicenseConnection
 title: IWTSProtocolLicenseConnection (wtsprotocol.h)
-description: IWTSProtocolLicenseConnection is no longer available. Instead, use IWRdsProtocolLicenseConnection.helpviewer_keywords: ["IWTSProtocolLicenseConnection","IWTSProtocolLicenseConnection interface [Remote Desktop Services]","IWTSProtocolLicenseConnection interface [Remote Desktop Services]","described","termserv.iwtsprotocollicenseconnection","wtsprotocol/IWTSProtocolLicenseConnection"]
+description: IWTSProtocolLicenseConnection is no longer available. Instead, use IWRdsProtocolLicenseConnection.
+helpviewer_keywords: ["IWTSProtocolLicenseConnection","IWTSProtocolLicenseConnection interface [Remote Desktop Services]","IWTSProtocolLicenseConnection interface [Remote Desktop Services]","described","termserv.iwtsprotocollicenseconnection","wtsprotocol/IWTSProtocolLicenseConnection"]
 old-location: termserv\iwtsprotocollicenseconnection.htm
 tech.root: TermServ
 ms.assetid: 3f6925b6-c712-40c6-8b48-7df8ef4a9872

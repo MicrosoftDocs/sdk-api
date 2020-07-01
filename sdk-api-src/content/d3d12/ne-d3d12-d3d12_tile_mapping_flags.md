@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12.D3D12_TILE_MAPPING_FLAGS
 title: D3D12_TILE_MAPPING_FLAGS (d3d12.h)
-description: Specifies how to perform a tile-mapping operation.helpviewer_keywords: ["D3D12_TILE_MAPPING_FLAGS","D3D12_TILE_MAPPING_FLAGS enumeration","D3D12_TILE_MAPPING_FLAG_NONE","D3D12_TILE_MAPPING_FLAG_NO_HAZARD","d3d12/D3D12_TILE_MAPPING_FLAGS","d3d12/D3D12_TILE_MAPPING_FLAG_NONE","d3d12/D3D12_TILE_MAPPING_FLAG_NO_HAZARD","direct3d12.d3d12_tile_mapping_flags"]
+description: Specifies how to perform a tile-mapping operation.
+helpviewer_keywords: ["D3D12_TILE_MAPPING_FLAGS","D3D12_TILE_MAPPING_FLAGS enumeration","D3D12_TILE_MAPPING_FLAG_NONE","D3D12_TILE_MAPPING_FLAG_NO_HAZARD","d3d12/D3D12_TILE_MAPPING_FLAGS","d3d12/D3D12_TILE_MAPPING_FLAG_NONE","d3d12/D3D12_TILE_MAPPING_FLAG_NO_HAZARD","direct3d12.d3d12_tile_mapping_flags"]
 old-location: direct3d12\d3d12_tile_mapping_flags.htm
 tech.root: direct3d12
 ms.assetid: 588BCCA8-3F14-4837-86AE-EE4E4F0BC5ED

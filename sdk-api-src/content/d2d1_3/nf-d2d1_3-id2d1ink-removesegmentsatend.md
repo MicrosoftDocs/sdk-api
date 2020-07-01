@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.RemoveSegmentsAtEnd
 title: ID2D1Ink::RemoveSegmentsAtEnd (d2d1_3.h)
-description: Removes the given number of segments from the end of this ink object.helpviewer_keywords: ["ID2D1Ink interface [Direct2D]","RemoveSegmentsAtEnd method","ID2D1Ink.RemoveSegmentsAtEnd","ID2D1Ink::RemoveSegmentsAtEnd","RemoveSegmentsAtEnd","RemoveSegmentsAtEnd method [Direct2D]","RemoveSegmentsAtEnd method [Direct2D]","ID2D1Ink interface","d2d1_3/ID2D1Ink::RemoveSegmentsAtEnd","direct2d.id2d1ink_removesegmentsatend"]
+description: Removes the given number of segments from the end of this ink object.
+helpviewer_keywords: ["ID2D1Ink interface [Direct2D]","RemoveSegmentsAtEnd method","ID2D1Ink.RemoveSegmentsAtEnd","ID2D1Ink::RemoveSegmentsAtEnd","RemoveSegmentsAtEnd","RemoveSegmentsAtEnd method [Direct2D]","RemoveSegmentsAtEnd method [Direct2D]","ID2D1Ink interface","d2d1_3/ID2D1Ink::RemoveSegmentsAtEnd","direct2d.id2d1ink_removesegmentsatend"]
 old-location: direct2d\id2d1ink_removesegmentsatend.htm
 tech.root: Direct2D
 ms.assetid: 8EA09675-971E-4399-B718-E7433D894867

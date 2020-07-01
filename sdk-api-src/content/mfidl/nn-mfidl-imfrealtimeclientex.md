@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFRealTimeClientEx
 title: IMFRealTimeClientEx (mfidl.h)
-description: Notifies a pipeline object to register itself with the Multimedia Class Scheduler Service (MMCSS).helpviewer_keywords: ["IMFRealTimeClientEx","IMFRealTimeClientEx interface [Media Foundation]","IMFRealTimeClientEx interface [Media Foundation]","described","mf.imfrealtimeclientex","mfidl/IMFRealTimeClientEx"]
+description: Notifies a pipeline object to register itself with the Multimedia Class Scheduler Service (MMCSS).
+helpviewer_keywords: ["IMFRealTimeClientEx","IMFRealTimeClientEx interface [Media Foundation]","IMFRealTimeClientEx interface [Media Foundation]","described","mf.imfrealtimeclientex","mfidl/IMFRealTimeClientEx"]
 old-location: mf\imfrealtimeclientex.htm
 tech.root: medfound
 ms.assetid: EC5CDD23-B862-4DAE-AC01-4926C4FAD89A

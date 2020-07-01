@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationInterpolator2
 title: IUIAnimationInterpolator2 (uianimation.h)
-description: Extends the IUIAnimationInterpolator interface that defines methods for creating a custom interpolator. IUIAnimationInterpolator2 supports interpolation in a given dimension.helpviewer_keywords: ["IUIAnimationInterpolator2","IUIAnimationInterpolator2 interface [Windows Animation]","IUIAnimationInterpolator2 interface [Windows Animation]","described","uianimation.iuianimationinterpolator2","uianimation/IUIAnimationInterpolator2"]
+description: Extends the IUIAnimationInterpolator interface that defines methods for creating a custom interpolator. IUIAnimationInterpolator2 supports interpolation in a given dimension.
+helpviewer_keywords: ["IUIAnimationInterpolator2","IUIAnimationInterpolator2 interface [Windows Animation]","IUIAnimationInterpolator2 interface [Windows Animation]","described","uianimation.iuianimationinterpolator2","uianimation/IUIAnimationInterpolator2"]
 old-location: uianimation\iuianimationinterpolator2.htm
 tech.root: UIAnimation
 ms.assetid: EC0D1933-37C3-41E2-AB13-DA4AAF4B8F04

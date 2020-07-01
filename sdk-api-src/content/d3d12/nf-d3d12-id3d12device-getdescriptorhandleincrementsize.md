@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device.GetDescriptorHandleIncrementSize
 title: ID3D12Device::GetDescriptorHandleIncrementSize (d3d12.h)
-description: Gets the size of the handle increment for the given type of descriptor heap. This value is typically used to increment a handle into a descriptor array by the correct amount.helpviewer_keywords: ["GetDescriptorHandleIncrementSize","GetDescriptorHandleIncrementSize method","GetDescriptorHandleIncrementSize method","ID3D12Device interface","ID3D12Device interface","GetDescriptorHandleIncrementSize method","ID3D12Device.GetDescriptorHandleIncrementSize","ID3D12Device::GetDescriptorHandleIncrementSize","d3d12/ID3D12Device::GetDescriptorHandleIncrementSize","direct3d12.id3d12device_getdescriptorhandleincrementsize"]
+description: Gets the size of the handle increment for the given type of descriptor heap. This value is typically used to increment a handle into a descriptor array by the correct amount.
+helpviewer_keywords: ["GetDescriptorHandleIncrementSize","GetDescriptorHandleIncrementSize method","GetDescriptorHandleIncrementSize method","ID3D12Device interface","ID3D12Device interface","GetDescriptorHandleIncrementSize method","ID3D12Device.GetDescriptorHandleIncrementSize","ID3D12Device::GetDescriptorHandleIncrementSize","d3d12/ID3D12Device::GetDescriptorHandleIncrementSize","direct3d12.id3d12device_getdescriptorhandleincrementsize"]
 old-location: direct3d12\id3d12device_getdescriptorhandleincrementsize.htm
 tech.root: direct3d12
 ms.assetid: 4593C153-913A-49DF-ADDC-6FB1E19D3D17

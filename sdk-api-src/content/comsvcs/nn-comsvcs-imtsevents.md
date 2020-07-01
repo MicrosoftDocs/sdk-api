@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IMtsEvents
 title: IMtsEvents (comsvcs.h)
-description: Provides methods for obtaining information about the running package and establishing event sinks.helpviewer_keywords: ["IMtsEvents","IMtsEvents interface [COM+]","IMtsEvents interface [COM+]","described","_dtc_IMtsEvents_Interface","comsvcs/IMtsEvents","cos.imtsevents"]
+description: Provides methods for obtaining information about the running package and establishing event sinks.
+helpviewer_keywords: ["IMtsEvents","IMtsEvents interface [COM+]","IMtsEvents interface [COM+]","described","_dtc_IMtsEvents_Interface","comsvcs/IMtsEvents","cos.imtsevents"]
 old-location: cos\imtsevents.htm
 tech.root: cossdk
 ms.assetid: 7db3a373-00d3-480e-8f8e-7e65a468d5dc

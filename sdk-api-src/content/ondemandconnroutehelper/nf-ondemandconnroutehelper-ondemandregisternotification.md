@@ -1,7 +1,8 @@
 ---
 UID: NF:ondemandconnroutehelper.OnDemandRegisterNotification
 title: OnDemandRegisterNotification function (ondemandconnroutehelper.h)
-description: The OnDemandRegisterNotification function allows an application to register to be notified when the Route Requests cache is modified.helpviewer_keywords: ["OnDemandRegisterNotification","OnDemandRegisterNotification function [Network Awareness]","nla.ondemandregisternotification","ondemandconnroutehelper/OnDemandRegisterNotification"]
+description: The OnDemandRegisterNotification function allows an application to register to be notified when the Route Requests cache is modified.
+helpviewer_keywords: ["OnDemandRegisterNotification","OnDemandRegisterNotification function [Network Awareness]","nla.ondemandregisternotification","ondemandconnroutehelper/OnDemandRegisterNotification"]
 old-location: nla\ondemandregisternotification.htm
 tech.root: nla
 ms.assetid: 1C9BB656-B1A7-49A6-97B9-414946BF9BE0

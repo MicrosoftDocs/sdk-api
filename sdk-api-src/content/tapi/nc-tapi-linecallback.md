@@ -1,7 +1,8 @@
 ---
 UID: NC:tapi.LINECALLBACK
 title: LINECALLBACK (tapi.h)
-description: The lineCallback function is a placeholder for the application-supplied function name.helpviewer_keywords: ["LINECALLBACK","LINECALLBACK callback function [TAPI 2.2]","_tapi2_linecallbackfunc","lineCallback callback","tapi/LINECALLBACK","tapi2.linecallbackfunc"]
+description: The lineCallback function is a placeholder for the application-supplied function name.
+helpviewer_keywords: ["LINECALLBACK","LINECALLBACK callback function [TAPI 2.2]","_tapi2_linecallbackfunc","lineCallback callback","tapi/LINECALLBACK","tapi2.linecallbackfunc"]
 old-location: tapi2\linecallbackfunc.htm
 tech.root: Tapi
 ms.assetid: 449ecf4f-0b1b-449e-9eae-049770d41dbc

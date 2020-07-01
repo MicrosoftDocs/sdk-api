@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupEnumInfSectionsA
 title: SetupEnumInfSectionsA function (setupapi.h)
-description: The SetupEnumInfSections function retrieves section names from an INF file.helpviewer_keywords: ["SetupEnumInfSections","SetupEnumInfSections function [Setup API]","SetupEnumInfSectionsA","SetupEnumInfSectionsW","setup.setupenuminfsections","setupapi/SetupEnumInfSections","setupapi/SetupEnumInfSectionsA","setupapi/SetupEnumInfSectionsW"]
+description: The SetupEnumInfSections function retrieves section names from an INF file.
+helpviewer_keywords: ["SetupEnumInfSections","SetupEnumInfSections function [Setup API]","SetupEnumInfSectionsA","SetupEnumInfSectionsW","setup.setupenuminfsections","setupapi/SetupEnumInfSections","setupapi/SetupEnumInfSectionsA","setupapi/SetupEnumInfSectionsW"]
 old-location: setup\setupenuminfsections.htm
 tech.root: SetupApi
 ms.assetid: 9b19ced6-728a-48e7-9e87-03fc53f7fb72
@@ -109,4 +110,8 @@ If the function fails, the return value is <b>FALSE</b>. To get extended error i
 This function can enumerate all unique section names in the INF file. If a section name appears more than once in an INF file, the function returns the name only once using a single enumeration index. To return all section names in the INF file, call the function beginning with an enumeration index of zero and then make repeated calls to the function while incrementing the index until the function returns  <b>FALSE</b> and <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_NO_MORE_ITEMS</b>.  Your application should not rely on the section names being returned in any order based on the enumeration index.
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupEnumInfSections as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

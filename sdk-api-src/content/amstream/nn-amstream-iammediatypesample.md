@@ -1,7 +1,8 @@
 ---
 UID: NN:amstream.IAMMediaTypeSample
 title: IAMMediaTypeSample (amstream.h)
-description: Note  This interface is deprecated.helpviewer_keywords: ["IAMMediaTypeSample","IAMMediaTypeSample interface [DirectShow]","IAMMediaTypeSample interface [DirectShow]","described","IAMMediaTypeSampleInterface","amstream/IAMMediaTypeSample","dshow.iammediatypesample"]
+description: Note  This interface is deprecated.
+helpviewer_keywords: ["IAMMediaTypeSample","IAMMediaTypeSample interface [DirectShow]","IAMMediaTypeSample interface [DirectShow]","described","IAMMediaTypeSampleInterface","amstream/IAMMediaTypeSample","dshow.iammediatypesample"]
 old-location: dshow\iammediatypesample.htm
 tech.root: DirectShow
 ms.assetid: e0a62251-68ee-4318-b09a-0aac6b73bf54

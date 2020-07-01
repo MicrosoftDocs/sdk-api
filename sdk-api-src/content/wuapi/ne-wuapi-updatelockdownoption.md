@@ -1,7 +1,8 @@
 ---
 UID: NE:wuapi.tagUpdateLockdownOption
 title: UpdateLockdownOption (wuapi.h)
-description: Defines the functionality that the Windows Update Agent (WUA) object can access from Windows Update.helpviewer_keywords: ["UpdateLockdownOption","UpdateLockdownOption enumeration [Windows Update Agent]","uloForWebsiteAccess","wua.updatelockdownoption","wuapi/UpdateLockdownOption","wuapi/uloForWebsiteAccess"]
+description: Defines the functionality that the Windows Update Agent (WUA) object can access from Windows Update.
+helpviewer_keywords: ["UpdateLockdownOption","UpdateLockdownOption enumeration [Windows Update Agent]","uloForWebsiteAccess","wua.updatelockdownoption","wuapi/UpdateLockdownOption","wuapi/uloForWebsiteAccess"]
 old-location: wua\updatelockdownoption.htm
 tech.root: Wua_Sdk
 ms.assetid: 6e664485-d26f-4702-9190-9440b13c60b5

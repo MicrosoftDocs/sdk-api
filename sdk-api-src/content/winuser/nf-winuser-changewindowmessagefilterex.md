@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ChangeWindowMessageFilterEx
 title: ChangeWindowMessageFilterEx function (winuser.h)
-description: Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window.helpviewer_keywords: ["ChangeWindowMessageFilterEx","ChangeWindowMessageFilterEx function [Windows and Messages]","MSGFLT_ALLOW","MSGFLT_DISALLOW","MSGFLT_RESET","_win32_ChangeWindowMessageFilterEx","_win32_changewindowmessagefilterex_cpp","winmsg.changewindowmessagefilterex","winui._win32_changewindowmessagefilterex","winuser/ChangeWindowMessageFilterEx"]
+description: Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window.
+helpviewer_keywords: ["ChangeWindowMessageFilterEx","ChangeWindowMessageFilterEx function [Windows and Messages]","MSGFLT_ALLOW","MSGFLT_DISALLOW","MSGFLT_RESET","_win32_ChangeWindowMessageFilterEx","_win32_changewindowmessagefilterex_cpp","winmsg.changewindowmessagefilterex","winui._win32_changewindowmessagefilterex","winuser/ChangeWindowMessageFilterEx"]
 old-location: winmsg\changewindowmessagefilterex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\changewindowmessagefilterex.htm

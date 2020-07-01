@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITCallMediaEvent
 title: ITCallMediaEvent (tapi3if.h)
-description: The ITCallMediaEvent interface contains methods that retrieve the description of media events.helpviewer_keywords: ["ITCallMediaEvent","ITCallMediaEvent interface [TAPI 2.2]","ITCallMediaEvent interface [TAPI 2.2]","described","_tapi3_itcallmediaevent","tapi3.itcallmediaevent","tapi3if/ITCallMediaEvent"]
+description: The ITCallMediaEvent interface contains methods that retrieve the description of media events.
+helpviewer_keywords: ["ITCallMediaEvent","ITCallMediaEvent interface [TAPI 2.2]","ITCallMediaEvent interface [TAPI 2.2]","described","_tapi3_itcallmediaevent","tapi3.itcallmediaevent","tapi3if/ITCallMediaEvent"]
 old-location: tapi3\itcallmediaevent.htm
 tech.root: Tapi
 ms.assetid: db55ff03-9271-4a94-9cba-a3ef0282b7b6

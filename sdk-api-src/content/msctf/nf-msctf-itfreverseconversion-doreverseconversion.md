@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfReverseConversion.DoReverseConversion
 title: ITfReverseConversion::DoReverseConversion (msctf.h)
-description: Performs a reverse conversion of the specified string.helpviewer_keywords: ["DoReverseConversion","DoReverseConversion method [Text Services Framework]","DoReverseConversion method [Text Services Framework]","ITfReverseConversion interface","ITfReverseConversion interface [Text Services Framework]","DoReverseConversion method","ITfReverseConversion.DoReverseConversion","ITfReverseConversion::DoReverseConversion","msctf/ITfReverseConversion::DoReverseConversion","tsf.itfreverseconversion__doreverseconversion"]
+description: Performs a reverse conversion of the specified string.
+helpviewer_keywords: ["DoReverseConversion","DoReverseConversion method [Text Services Framework]","DoReverseConversion method [Text Services Framework]","ITfReverseConversion interface","ITfReverseConversion interface [Text Services Framework]","DoReverseConversion method","ITfReverseConversion.DoReverseConversion","ITfReverseConversion::DoReverseConversion","msctf/ITfReverseConversion::DoReverseConversion","tsf.itfreverseconversion__doreverseconversion"]
 old-location: tsf\itfreverseconversion__doreverseconversion.htm
 tech.root: TSF
 ms.assetid: a2312cd4-316a-42a6-85a5-e5ef819faa79

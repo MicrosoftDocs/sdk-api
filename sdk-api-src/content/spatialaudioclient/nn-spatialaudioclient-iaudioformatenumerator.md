@@ -1,7 +1,8 @@
 ---
 UID: NN:spatialaudioclient.IAudioFormatEnumerator
 title: IAudioFormatEnumerator (spatialaudioclient.h)
-description: Provides a list of supported audio formats. The most preferred format is first in the list. Get a reference to this interface by calling ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator.helpviewer_keywords: ["IAudioFormatEnumerator","IAudioFormatEnumerator interface [Core Audio]","IAudioFormatEnumerator interface [Core Audio]","described","coreaudio.iaudioformatenumerator","spatialaudioclient/IAudioFormatEnumerator"]
+description: Provides a list of supported audio formats. The most preferred format is first in the list. Get a reference to this interface by calling ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator.
+helpviewer_keywords: ["IAudioFormatEnumerator","IAudioFormatEnumerator interface [Core Audio]","IAudioFormatEnumerator interface [Core Audio]","described","coreaudio.iaudioformatenumerator","spatialaudioclient/IAudioFormatEnumerator"]
 old-location: coreaudio\iaudioformatenumerator.htm
 tech.root: CoreAudio
 ms.assetid: 50434617-E70E-4931-B98E-61650E9DEA7E

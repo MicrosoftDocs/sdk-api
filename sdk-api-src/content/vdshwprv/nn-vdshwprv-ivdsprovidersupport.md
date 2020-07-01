@@ -1,7 +1,8 @@
 ---
 UID: NN:vdshwprv.IVdsProviderSupport
 title: IVdsProviderSupport (vdshwprv.h)
-description: Provides a method to indicate what versions of the VDS interfaces are supported by the provider.helpviewer_keywords: ["IVdsProviderSupport","IVdsProviderSupport interface","IVdsProviderSupport interface","described","base.ivdsprovidersupport","vds/IVdsProviderSupport","vdshwprv/IVdsProviderSupport"]
+description: Provides a method to indicate what versions of the VDS interfaces are supported by the provider.
+helpviewer_keywords: ["IVdsProviderSupport","IVdsProviderSupport interface","IVdsProviderSupport interface","described","base.ivdsprovidersupport","vds/IVdsProviderSupport","vdshwprv/IVdsProviderSupport"]
 old-location: base\ivdsprovidersupport.htm
 tech.root: VDS
 ms.assetid: 74e17a86-75ec-429b-9efb-80812ca4b431

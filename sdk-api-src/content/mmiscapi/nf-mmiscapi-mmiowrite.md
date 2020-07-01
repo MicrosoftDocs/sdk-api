@@ -1,7 +1,8 @@
 ---
 UID: NF:mmiscapi.mmioWrite
 title: mmioWrite function (mmiscapi.h)
-description: The mmioWrite function writes a specified number of bytes to a file opened by using the mmioOpen function.helpviewer_keywords: ["_win32_mmioWrite","mmioWrite","mmioWrite function [Windows Multimedia]","mmsystem/mmioWrite","multimedia.mmiowrite"]
+description: The mmioWrite function writes a specified number of bytes to a file opened by using the mmioOpen function.
+helpviewer_keywords: ["_win32_mmioWrite","mmioWrite","mmioWrite function [Windows Multimedia]","mmsystem/mmioWrite","multimedia.mmiowrite"]
 old-location: multimedia\mmiowrite.htm
 tech.root: Multimedia
 ms.assetid: e47d00ba-ad29-4a23-8a7c-604bedac10e7

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ICategorizer.GetCategoryInfo
 title: ICategorizer::GetCategoryInfo (shobjidl_core.h)
-description: Gets information about a category, such as the default display and the text to display in the UI.helpviewer_keywords: ["GetCategoryInfo","GetCategoryInfo method [Windows Shell]","GetCategoryInfo method [Windows Shell]","ICategorizer interface","ICategorizer interface [Windows Shell]","GetCategoryInfo method","ICategorizer.GetCategoryInfo","ICategorizer::GetCategoryInfo","inet_ICategorizer_GetCategoryInfo","shell.ICategorizer_GetCategoryInfo","shobjidl_core/ICategorizer::GetCategoryInfo"]
+description: Gets information about a category, such as the default display and the text to display in the UI.
+helpviewer_keywords: ["GetCategoryInfo","GetCategoryInfo method [Windows Shell]","GetCategoryInfo method [Windows Shell]","ICategorizer interface","ICategorizer interface [Windows Shell]","GetCategoryInfo method","ICategorizer.GetCategoryInfo","ICategorizer::GetCategoryInfo","inet_ICategorizer_GetCategoryInfo","shell.ICategorizer_GetCategoryInfo","shobjidl_core/ICategorizer::GetCategoryInfo"]
 old-location: shell\ICategorizer_GetCategoryInfo.htm
 tech.root: shell
 ms.assetid: 6b789033-ce42-4fb5-8a3d-b05243b62d4e

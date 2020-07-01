@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsCreateFaultFromError
 title: WsCreateFaultFromError function (webservices.h)
-description: Constructs a WS_FAULT from a specified error object.helpviewer_keywords: ["WsCreateFaultFromError","WsCreateFaultFromError function [Web Services for Windows]","webservices/WsCreateFaultFromError","wsw.wscreatefaultfromerror"]
+description: Constructs a WS_FAULT from a specified error object.
+helpviewer_keywords: ["WsCreateFaultFromError","WsCreateFaultFromError function [Web Services for Windows]","webservices/WsCreateFaultFromError","wsw.wscreatefaultfromerror"]
 old-location: wsw\wscreatefaultfromerror.htm
 tech.root: wsw
 ms.assetid: 193854d7-3b7f-4f2b-b068-33b9c4d91e57

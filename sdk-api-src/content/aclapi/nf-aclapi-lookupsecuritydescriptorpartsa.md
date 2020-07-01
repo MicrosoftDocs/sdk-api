@@ -1,7 +1,8 @@
 ---
 UID: NF:aclapi.LookupSecurityDescriptorPartsA
 title: LookupSecurityDescriptorPartsA function (aclapi.h)
-description: Retrieves security information from a self-relative security descriptor.helpviewer_keywords: ["LookupSecurityDescriptorParts","LookupSecurityDescriptorParts function [Security]","LookupSecurityDescriptorPartsA","LookupSecurityDescriptorPartsW","_win32_lookupsecuritydescriptorparts","aclapi/LookupSecurityDescriptorParts","aclapi/LookupSecurityDescriptorPartsA","aclapi/LookupSecurityDescriptorPartsW","security.lookupsecuritydescriptorparts"]
+description: Retrieves security information from a self-relative security descriptor.
+helpviewer_keywords: ["LookupSecurityDescriptorParts","LookupSecurityDescriptorParts function [Security]","LookupSecurityDescriptorPartsA","LookupSecurityDescriptorPartsW","_win32_lookupsecuritydescriptorparts","aclapi/LookupSecurityDescriptorParts","aclapi/LookupSecurityDescriptorPartsA","aclapi/LookupSecurityDescriptorPartsW","security.lookupsecuritydescriptorparts"]
 old-location: security\lookupsecuritydescriptorparts.htm
 tech.root: SecAuthZ
 ms.assetid: 68c3f56b-6c48-4f4b-bd38-9f4e346c663b
@@ -135,6 +136,10 @@ The <b>LookupSecurityDescriptorParts</b> function is intended for trusted server
 
 
 
+
+
+> [!NOTE]
+> The aclapi.h header defines LookupSecurityDescriptorParts as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

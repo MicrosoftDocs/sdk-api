@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.ICreateWithLocalTransaction
 title: ICreateWithLocalTransaction (comsvcs.h)
-description: Creates a COM+ object that executes within the scope of the specified local transaction.helpviewer_keywords: ["ICreateWithLocalTransaction","ICreateWithLocalTransaction interface [COM+]","ICreateWithLocalTransaction interface [COM+]","described","comsvcs/ICreateWithLocalTransaction","cos.icreatewithlocaltransaction"]
+description: Creates a COM+ object that executes within the scope of the specified local transaction.
+helpviewer_keywords: ["ICreateWithLocalTransaction","ICreateWithLocalTransaction interface [COM+]","ICreateWithLocalTransaction interface [COM+]","described","comsvcs/ICreateWithLocalTransaction","cos.icreatewithlocaltransaction"]
 old-location: cos\icreatewithlocaltransaction.htm
 tech.root: cossdk
 ms.assetid: 667ebc77-943c-4cf0-90b4-7c28949f406e

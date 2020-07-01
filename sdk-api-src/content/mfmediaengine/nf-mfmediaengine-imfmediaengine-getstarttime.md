@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetStartTime
 title: IMFMediaEngine::GetStartTime (mfmediaengine.h)
-description: Gets the initial playback position.helpviewer_keywords: ["GetStartTime","GetStartTime method [Media Foundation]","GetStartTime method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetStartTime method","IMFMediaEngine.GetStartTime","IMFMediaEngine::GetStartTime","mf.imfmediaengine_getstarttime","mfmediaengine/IMFMediaEngine::GetStartTime"]
+description: Gets the initial playback position.
+helpviewer_keywords: ["GetStartTime","GetStartTime method [Media Foundation]","GetStartTime method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetStartTime method","IMFMediaEngine.GetStartTime","IMFMediaEngine::GetStartTime","mf.imfmediaengine_getstarttime","mfmediaengine/IMFMediaEngine::GetStartTime"]
 old-location: mf\imfmediaengine_getstarttime.htm
 tech.root: medfound
 ms.assetid: 18793EC9-D04A-443F-8469-44CC00C4EE27

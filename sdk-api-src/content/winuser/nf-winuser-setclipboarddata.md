@@ -156,7 +156,3 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dataxchg
 
 
 <a href="https://docs.microsoft.com/windows/desktop/dataxchg/wm-renderformat">WM_RENDERFORMAT</a>
- 
-
- 
-

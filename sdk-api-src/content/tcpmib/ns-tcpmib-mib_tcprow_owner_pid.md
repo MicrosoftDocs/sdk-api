@@ -1,7 +1,8 @@
 ---
 UID: NS:tcpmib._MIB_TCPROW_OWNER_PID
 title: MIB_TCPROW_OWNER_PID (tcpmib.h)
-description: Contains information that describes an IPv4 TCP connection with IPv4 addresses, ports used by the TCP connection, and the specific process ID (PID) associated with connection.helpviewer_keywords: ["*PMIB_TCPROW_OWNER_PID","MIB_TCPROW_OWNER_PID","MIB_TCPROW_OWNER_PID structure [MIB]","MIB_TCP_STATE_CLOSED","MIB_TCP_STATE_CLOSE_WAIT","MIB_TCP_STATE_CLOSING","MIB_TCP_STATE_DELETE_TCB","MIB_TCP_STATE_ESTAB","MIB_TCP_STATE_FIN_WAIT1","MIB_TCP_STATE_FIN_WAIT2","MIB_TCP_STATE_LAST_ACK","MIB_TCP_STATE_LISTEN","MIB_TCP_STATE_SYN_RCVD","MIB_TCP_STATE_SYN_SENT","MIB_TCP_STATE_TIME_WAIT","PMIB_TCPROW_OWNER_PID","PMIB_TCPROW_OWNER_PID structure pointer [MIB]","iprtrmib/MIB_TCPROW_OWNER_PID","iprtrmib/PMIB_TCPROW_OWNER_PID","mib.mib_tcprow_owner_pid","tcpmib/MIB_TCPROW_OWNER_PID","tcpmib/PMIB_TCPROW_OWNER_PID"]
+description: Contains information that describes an IPv4 TCP connection with IPv4 addresses, ports used by the TCP connection, and the specific process ID (PID) associated with connection.
+helpviewer_keywords: ["*PMIB_TCPROW_OWNER_PID","MIB_TCPROW_OWNER_PID","MIB_TCPROW_OWNER_PID structure [MIB]","MIB_TCP_STATE_CLOSED","MIB_TCP_STATE_CLOSE_WAIT","MIB_TCP_STATE_CLOSING","MIB_TCP_STATE_DELETE_TCB","MIB_TCP_STATE_ESTAB","MIB_TCP_STATE_FIN_WAIT1","MIB_TCP_STATE_FIN_WAIT2","MIB_TCP_STATE_LAST_ACK","MIB_TCP_STATE_LISTEN","MIB_TCP_STATE_SYN_RCVD","MIB_TCP_STATE_SYN_SENT","MIB_TCP_STATE_TIME_WAIT","PMIB_TCPROW_OWNER_PID","PMIB_TCPROW_OWNER_PID structure pointer [MIB]","iprtrmib/MIB_TCPROW_OWNER_PID","iprtrmib/PMIB_TCPROW_OWNER_PID","mib.mib_tcprow_owner_pid","tcpmib/MIB_TCPROW_OWNER_PID","tcpmib/PMIB_TCPROW_OWNER_PID"]
 old-location: mib\mib_tcprow_owner_pid.htm
 tech.root: MIB
 ms.assetid: 220b69a4-b372-4eff-8d5a-eca0d39b8af9

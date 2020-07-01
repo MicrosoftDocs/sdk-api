@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl._WMT_COLORSPACEINFO_EXTENSION_DATA
 title: WMT_COLORSPACEINFO_EXTENSION_DATA (wmsdkidl.h)
-description: The WMT_COLORSPACEINFO_EXTENSION_DATA structure contains information about the color format of output video samples. It is used as the value for the WM_SampleExtensionGUID_ColorSpaceInfo data unit extension.helpviewer_keywords: ["WMT_COLORSPACEINFO_EXTENSION_DATA","WMT_COLORSPACEINFO_EXTENSION_DATA structure [windows Media Format]","wmformat.wmt_colorspaceinfo_extension_data","wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA"]
+description: The WMT_COLORSPACEINFO_EXTENSION_DATA structure contains information about the color format of output video samples. It is used as the value for the WM_SampleExtensionGUID_ColorSpaceInfo data unit extension.
+helpviewer_keywords: ["WMT_COLORSPACEINFO_EXTENSION_DATA","WMT_COLORSPACEINFO_EXTENSION_DATA structure [windows Media Format]","wmformat.wmt_colorspaceinfo_extension_data","wmsdkidl/WMT_COLORSPACEINFO_EXTENSION_DATA"]
 old-location: wmformat\wmt_colorspaceinfo_extension_data.htm
 tech.root: wmformat
 ms.assetid: 0d512d6a-95d5-4ca1-aee2-ca19319e1b83

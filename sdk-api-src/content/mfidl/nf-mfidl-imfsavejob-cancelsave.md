@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSaveJob.CancelSave
 title: IMFSaveJob::CancelSave (mfidl.h)
-description: Cancels the operation started by IMFSaveJob::BeginSave.helpviewer_keywords: ["CancelSave","CancelSave method [Media Foundation]","CancelSave method [Media Foundation]","IMFSaveJob interface","IMFSaveJob interface [Media Foundation]","CancelSave method","IMFSaveJob.CancelSave","IMFSaveJob::CancelSave","ce3ec53a-eeca-430f-a939-3d941b9b2570","mf.imfsavejob_cancelsave","mfidl/IMFSaveJob::CancelSave"]
+description: Cancels the operation started by IMFSaveJob::BeginSave.
+helpviewer_keywords: ["CancelSave","CancelSave method [Media Foundation]","CancelSave method [Media Foundation]","IMFSaveJob interface","IMFSaveJob interface [Media Foundation]","CancelSave method","IMFSaveJob.CancelSave","IMFSaveJob::CancelSave","ce3ec53a-eeca-430f-a939-3d941b9b2570","mf.imfsavejob_cancelsave","mfidl/IMFSaveJob::CancelSave"]
 old-location: mf\imfsavejob_cancelsave.htm
 tech.root: medfound
 ms.assetid: ce3ec53a-eeca-430f-a939-3d941b9b2570

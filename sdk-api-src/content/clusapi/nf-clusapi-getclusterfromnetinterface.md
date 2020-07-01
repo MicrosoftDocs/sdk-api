@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.GetClusterFromNetInterface
 title: GetClusterFromNetInterface function (clusapi.h)
-description: Returns a handle to the cluster associated with a network interface.helpviewer_keywords: ["GetClusterFromNetInterface","GetClusterFromNetInterface function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE","PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE function [Failover Cluster]","_wolf_getclusterfromnetinterface","clusapi/GetClusterFromNetInterface","clusapi/PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE","mscs.getclusterfromnetinterface"]
+description: Returns a handle to the cluster associated with a network interface.
+helpviewer_keywords: ["GetClusterFromNetInterface","GetClusterFromNetInterface function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE","PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE function [Failover Cluster]","_wolf_getclusterfromnetinterface","clusapi/GetClusterFromNetInterface","clusapi/PCLUSAPI_GET_CLUSTER_FROM_NET_INTERFACE","mscs.getclusterfromnetinterface"]
 old-location: mscs\getclusterfromnetinterface.htm
 tech.root: MsCS
 ms.assetid: 7c6c6883-0d88-4162-a70d-cb6f1153226e

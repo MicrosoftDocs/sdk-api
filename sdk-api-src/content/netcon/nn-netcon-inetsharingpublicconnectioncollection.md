@@ -1,7 +1,8 @@
 ---
 UID: NN:netcon.INetSharingPublicConnectionCollection
 title: INetSharingPublicConnectionCollection (netcon.h)
-description: The INetSharingPublicConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate public connections.helpviewer_keywords: ["INetSharingPublicConnectionCollection","INetSharingPublicConnectionCollection interface [ICS/ICF]","INetSharingPublicConnectionCollection interface [ICS/ICF]","described","_ics_inetsharingpublicconnectioncollection","ics.inetsharingpublicconnectioncollection","netcon/INetSharingPublicConnectionCollection"]
+description: The INetSharingPublicConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate public connections.
+helpviewer_keywords: ["INetSharingPublicConnectionCollection","INetSharingPublicConnectionCollection interface [ICS/ICF]","INetSharingPublicConnectionCollection interface [ICS/ICF]","described","_ics_inetsharingpublicconnectioncollection","ics.inetsharingpublicconnectioncollection","netcon/INetSharingPublicConnectionCollection"]
 old-location: ics\inetsharingpublicconnectioncollection.htm
 tech.root: ics
 ms.assetid: 92027ba2-b803-4c9f-ae77-a89074fef718

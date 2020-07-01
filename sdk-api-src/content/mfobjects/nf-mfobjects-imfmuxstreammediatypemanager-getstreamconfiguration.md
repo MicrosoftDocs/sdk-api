@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.GetStreamConfiguration
 title: IMFMuxStreamMediaTypeManager::GetStreamConfiguration (mfobjects.h)
-description: Gets the stream configuration with the specified index, which defines a set of substreams that can be included the multiplexed output.helpviewer_keywords: ["GetStreamConfiguration","GetStreamConfiguration method [Media Foundation]","GetStreamConfiguration method [Media Foundation]","IMFMuxStreamMediaTypeManager interface","IMFMuxStreamMediaTypeManager interface [Media Foundation]","GetStreamConfiguration method","IMFMuxStreamMediaTypeManager.GetStreamConfiguration","IMFMuxStreamMediaTypeManager::GetStreamConfiguration","mf.imfmuxstreammediatypemanager_getstreamconfiguration","mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfiguration"]
+description: Gets the stream configuration with the specified index, which defines a set of substreams that can be included the multiplexed output.
+helpviewer_keywords: ["GetStreamConfiguration","GetStreamConfiguration method [Media Foundation]","GetStreamConfiguration method [Media Foundation]","IMFMuxStreamMediaTypeManager interface","IMFMuxStreamMediaTypeManager interface [Media Foundation]","GetStreamConfiguration method","IMFMuxStreamMediaTypeManager.GetStreamConfiguration","IMFMuxStreamMediaTypeManager::GetStreamConfiguration","mf.imfmuxstreammediatypemanager_getstreamconfiguration","mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfiguration"]
 old-location: mf\imfmuxstreammediatypemanager_getstreamconfiguration.htm
 tech.root: medfound
 ms.assetid: 5B2B7F8C-0D3B-4BBB-8445-1A428A29A272

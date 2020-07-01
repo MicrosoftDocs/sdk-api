@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION
 title: D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION (d3d12.h)
-description: Associates a subobject defined directly in a state object with shader exports.helpviewer_keywords: ["D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION","D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure","PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION","PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure pointer","d3d12/D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION","d3d12/PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION","direct3d12.d3d12_subobject_to_exports_association"]
+description: Associates a subobject defined directly in a state object with shader exports.
+helpviewer_keywords: ["D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION","D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure","PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION","PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION structure pointer","d3d12/D3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION","d3d12/PD3D12_SUBOBJECT_TO_EXPORTS_ASSOCIATION","direct3d12.d3d12_subobject_to_exports_association"]
 old-location: direct3d12\d3d12_subobject_to_exports_association.htm
 tech.root: direct3d12
 ms.assetid: B44B2F0C-D330-41AE-844C-F8B4D5697027

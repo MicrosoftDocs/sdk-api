@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPolicy
 title: IOfflineFilesSetting::GetPolicy (cscobj.h)
-description: Retrieves a policy associated with a particular Offline Files setting.helpviewer_keywords: ["GetPolicy","GetPolicy method [Offline Files]","GetPolicy method [Offline Files]","IOfflineFilesSetting interface","IOfflineFilesSetting interface [Offline Files]","GetPolicy method","IOfflineFilesSetting.GetPolicy","IOfflineFilesSetting::GetPolicy","OFFLINEFILES_SETTING_SCOPE_COMPUTER","OFFLINEFILES_SETTING_SCOPE_USER","cscobj/IOfflineFilesSetting::GetPolicy","of.iofflinefilessetting_getpolicy"]
+description: Retrieves a policy associated with a particular Offline Files setting.
+helpviewer_keywords: ["GetPolicy","GetPolicy method [Offline Files]","GetPolicy method [Offline Files]","IOfflineFilesSetting interface","IOfflineFilesSetting interface [Offline Files]","GetPolicy method","IOfflineFilesSetting.GetPolicy","IOfflineFilesSetting::GetPolicy","OFFLINEFILES_SETTING_SCOPE_COMPUTER","OFFLINEFILES_SETTING_SCOPE_USER","cscobj/IOfflineFilesSetting::GetPolicy","of.iofflinefilessetting_getpolicy"]
 old-location: of\iofflinefilessetting_getpolicy.htm
 tech.root: offlinefiles
 ms.assetid: b7f7f8f5-2640-4770-a7ba-230cca8a9575

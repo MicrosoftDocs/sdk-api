@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GenericSansSerif
 title: FontFamily::GenericSansSerif (gdiplusheaders.h)
-description: The FontFamily::GenericSansSerif method gets a FontFamily object that specifies a generic sans serif typeface.helpviewer_keywords: ["FontFamily class [GDI+]","GenericSansSerif method","FontFamily.GenericSansSerif","FontFamily::GenericSansSerif","GenericSansSerif","GenericSansSerif method [GDI+]","GenericSansSerif method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GenericSansSerif_","gdiplus._gdiplus_CLASS_FontFamily_GenericSansSerif_"]
+description: The FontFamily::GenericSansSerif method gets a FontFamily object that specifies a generic sans serif typeface.
+helpviewer_keywords: ["FontFamily class [GDI+]","GenericSansSerif method","FontFamily.GenericSansSerif","FontFamily::GenericSansSerif","GenericSansSerif","GenericSansSerif method [GDI+]","GenericSansSerif method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GenericSansSerif_","gdiplus._gdiplus_CLASS_FontFamily_GenericSansSerif_"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GenericSansSerif_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\genericsansserif.htm

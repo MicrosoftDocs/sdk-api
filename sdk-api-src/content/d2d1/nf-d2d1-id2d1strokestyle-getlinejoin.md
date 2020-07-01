@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetLineJoin
 title: ID2D1StrokeStyle::GetLineJoin (d2d1.h)
-description: Retrieves the type of joint used at the vertices of a shape's outline.helpviewer_keywords: ["GetLineJoin","GetLineJoin method [Direct2D]","GetLineJoin method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetLineJoin method","ID2D1StrokeStyle.GetLineJoin","ID2D1StrokeStyle::GetLineJoin","d2d1/ID2D1StrokeStyle::GetLineJoin","direct2d.ID2D1StrokeStyle_GetLineJoin"]
+description: Retrieves the type of joint used at the vertices of a shape's outline.
+helpviewer_keywords: ["GetLineJoin","GetLineJoin method [Direct2D]","GetLineJoin method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetLineJoin method","ID2D1StrokeStyle.GetLineJoin","ID2D1StrokeStyle::GetLineJoin","d2d1/ID2D1StrokeStyle::GetLineJoin","direct2d.ID2D1StrokeStyle_GetLineJoin"]
 old-location: direct2d\ID2D1StrokeStyle_GetLineJoin.htm
 tech.root: Direct2D
 ms.assetid: 408e473d-c143-490e-98c3-2da312aa0c94

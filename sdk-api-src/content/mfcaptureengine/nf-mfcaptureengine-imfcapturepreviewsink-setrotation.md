@@ -1,7 +1,8 @@
 ---
 UID: NF:mfcaptureengine.IMFCapturePreviewSink.SetRotation
 title: IMFCapturePreviewSink::SetRotation (mfcaptureengine.h)
-description: Rotates the video preview stream.helpviewer_keywords: ["IMFCapturePreviewSink interface [Media Foundation]","SetRotation method","IMFCapturePreviewSink.SetRotation","IMFCapturePreviewSink::SetRotation","SetRotation","SetRotation method [Media Foundation]","SetRotation method [Media Foundation]","IMFCapturePreviewSink interface","mf.imfcapturepreviewsink_setrotation","mfcaptureengine/IMFCapturePreviewSink::SetRotation"]
+description: Rotates the video preview stream.
+helpviewer_keywords: ["IMFCapturePreviewSink interface [Media Foundation]","SetRotation method","IMFCapturePreviewSink.SetRotation","IMFCapturePreviewSink::SetRotation","SetRotation","SetRotation method [Media Foundation]","SetRotation method [Media Foundation]","IMFCapturePreviewSink interface","mf.imfcapturepreviewsink_setrotation","mfcaptureengine/IMFCapturePreviewSink::SetRotation"]
 old-location: mf\imfcapturepreviewsink_setrotation.htm
 tech.root: medfound
 ms.assetid: 84C53A34-B2FB-4D13-9A45-5172E9E3CEE8

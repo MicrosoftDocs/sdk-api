@@ -1,7 +1,8 @@
 ---
 UID: NN:pla.ITraceDataProviderCollection
 title: ITraceDataProviderCollection (pla.h)
-description: Manages a collection of TraceDataProvider objects.To get this interface, access the ITraceDataCollector::TraceDataProviders property.You can also call the CoCreateInstance function to create a new instance of the TraceDataProviderCollection object.helpviewer_keywords: ["ITraceDataProviderCollection","ITraceDataProviderCollection interface [PLA]","ITraceDataProviderCollection interface [PLA]","described","base.itracedataprovidercollection","pla.itracedataprovidercollection","pla/ITraceDataProviderCollection"]
+description: Manages a collection of TraceDataProvider objects.To get this interface, access the ITraceDataCollector::TraceDataProviders property.You can also call the CoCreateInstance function to create a new instance of the TraceDataProviderCollection object.
+helpviewer_keywords: ["ITraceDataProviderCollection","ITraceDataProviderCollection interface [PLA]","ITraceDataProviderCollection interface [PLA]","described","base.itracedataprovidercollection","pla.itracedataprovidercollection","pla/ITraceDataProviderCollection"]
 old-location: pla\itracedataprovidercollection.htm
 tech.root: PLA
 ms.assetid: 74300222-dca4-4871-bae3-0c3182fbc539

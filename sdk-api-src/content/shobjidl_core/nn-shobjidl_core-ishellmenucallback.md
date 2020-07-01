@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IShellMenuCallback
 title: IShellMenuCallback (shobjidl_core.h)
-description: A callback interface that exposes a method that receives messages from a menu band.helpviewer_keywords: ["IShellMenuCallback","IShellMenuCallback interface [Windows Shell]","IShellMenuCallback interface [Windows Shell]","described","_win32_IShellMenuCallback","shell.IShellMenuCallback","shobjidl_core/IShellMenuCallback"]
+description: A callback interface that exposes a method that receives messages from a menu band.
+helpviewer_keywords: ["IShellMenuCallback","IShellMenuCallback interface [Windows Shell]","IShellMenuCallback interface [Windows Shell]","described","_win32_IShellMenuCallback","shell.IShellMenuCallback","shobjidl_core/IShellMenuCallback"]
 old-location: shell\IShellMenuCallback.htm
 tech.root: shell
 ms.assetid: 96bfdc52-bd4a-4345-8dd1-7e716a3d9811

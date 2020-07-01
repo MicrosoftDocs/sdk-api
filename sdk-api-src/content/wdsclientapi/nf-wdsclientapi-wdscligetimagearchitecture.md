@@ -1,7 +1,8 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageArchitecture
 title: WdsCliGetImageArchitecture function (wdsclientapi.h)
-description: Returns the processor architecture for the current image.helpviewer_keywords: ["PROCESSOR_ARCHITECTURE_AMD64","PROCESSOR_ARCHITECTURE_IA64","PROCESSOR_ARCHITECTURE_INTEL","WdsCliGetImageArchitecture","WdsCliGetImageArchitecture function [Windows Deployment Services]","wds.wdscligetimagearchitecture","wdsclientapi/WdsCliGetImageArchitecture"]
+description: Returns the processor architecture for the current image.
+helpviewer_keywords: ["PROCESSOR_ARCHITECTURE_AMD64","PROCESSOR_ARCHITECTURE_IA64","PROCESSOR_ARCHITECTURE_INTEL","WdsCliGetImageArchitecture","WdsCliGetImageArchitecture function [Windows Deployment Services]","wds.wdscligetimagearchitecture","wdsclientapi/WdsCliGetImageArchitecture"]
 old-location: wds\wdscligetimagearchitecture.htm
 tech.root: wds
 ms.assetid: 69df2926-e0f1-4c52-bc91-7d2e1391f835

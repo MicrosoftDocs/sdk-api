@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.AddPrimaryPages
 title: IPropertySheetProvider::AddPrimaryPages (mmc.h)
-description: The IPropertySheetProvider::AddPrimaryPages method collects the pages from the primary snap-in.helpviewer_keywords: ["AddPrimaryPages","AddPrimaryPages method [MMC]","AddPrimaryPages method [MMC]","IPropertySheetProvider interface","IPropertySheetProvider interface [MMC]","AddPrimaryPages method","IPropertySheetProvider.AddPrimaryPages","IPropertySheetProvider::AddPrimaryPages","_slate_ipropertysheetprovider_addprimarypages","mmc.ipropertysheetprovider_addprimarypages","mmc/IPropertySheetProvider::AddPrimaryPages"]
+description: The IPropertySheetProvider::AddPrimaryPages method collects the pages from the primary snap-in.
+helpviewer_keywords: ["AddPrimaryPages","AddPrimaryPages method [MMC]","AddPrimaryPages method [MMC]","IPropertySheetProvider interface","IPropertySheetProvider interface [MMC]","AddPrimaryPages method","IPropertySheetProvider.AddPrimaryPages","IPropertySheetProvider::AddPrimaryPages","_slate_ipropertysheetprovider_addprimarypages","mmc.ipropertysheetprovider_addprimarypages","mmc/IPropertySheetProvider::AddPrimaryPages"]
 old-location: mmc\ipropertysheetprovider_addprimarypages.htm
 tech.root: mmc
 ms.assetid: f555dfd0-8af3-422f-a339-ab79daa89b45

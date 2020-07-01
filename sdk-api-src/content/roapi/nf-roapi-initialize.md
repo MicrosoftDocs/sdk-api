@@ -1,7 +1,8 @@
 ---
 UID: NF:roapi.Initialize
 title: Initialize function (roapi.h)
-description: Initializes a thread to use Windows Runtime APIs.helpviewer_keywords: ["Initialize","Initialize function [COM]","com.initialize","roapi/Initialize"]
+description: Initializes a thread to use Windows Runtime APIs.
+helpviewer_keywords: ["Initialize","Initialize function [COM]","com.initialize","roapi/Initialize"]
 old-location: com\initialize.htm
 tech.root: com
 ms.assetid: 615E552B-46EF-4D94-BF60-A44885731F75

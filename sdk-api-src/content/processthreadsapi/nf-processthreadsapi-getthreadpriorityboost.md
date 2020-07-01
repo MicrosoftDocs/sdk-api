@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.GetThreadPriorityBoost
 title: GetThreadPriorityBoost function (processthreadsapi.h)
-description: Retrieves the priority boost control state of the specified thread.helpviewer_keywords: ["GetThreadPriorityBoost","GetThreadPriorityBoost function","_win32_getthreadpriorityboost","base.getthreadpriorityboost","processthreadsapi/GetThreadPriorityBoost","winbase/GetThreadPriorityBoost"]
+description: Retrieves the priority boost control state of the specified thread.
+helpviewer_keywords: ["GetThreadPriorityBoost","GetThreadPriorityBoost function","_win32_getthreadpriorityboost","base.getthreadpriorityboost","processthreadsapi/GetThreadPriorityBoost","winbase/GetThreadPriorityBoost"]
 old-location: base\getthreadpriorityboost.htm
 tech.root: ProcThread
 ms.assetid: 44edf5e3-7543-482f-89ff-ae9daf495ff3

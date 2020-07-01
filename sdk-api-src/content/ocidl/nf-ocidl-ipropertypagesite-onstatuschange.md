@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPropertyPageSite.OnStatusChange
 title: IPropertyPageSite::OnStatusChange (ocidl.h)
-description: Informs the frame that the property page managed by this site has changed its state, that is, one or more property values have been changed in the page. Property pages should call this method whenever changes occur in their dialog boxes.helpviewer_keywords: ["IPropertyPageSite interface [COM]","OnStatusChange method","IPropertyPageSite.OnStatusChange","IPropertyPageSite::OnStatusChange","OnStatusChange","OnStatusChange method [COM]","OnStatusChange method [COM]","IPropertyPageSite interface","PROPPAGESTATUS_DIRTY","PROPPAGESTATUS_VALIDATE","_ctrl_ipropertypagesite_onstatuschange","com.ipropertypagesite_onstatuschange","ocidl/IPropertyPageSite::OnStatusChange"]
+description: Informs the frame that the property page managed by this site has changed its state, that is, one or more property values have been changed in the page. Property pages should call this method whenever changes occur in their dialog boxes.
+helpviewer_keywords: ["IPropertyPageSite interface [COM]","OnStatusChange method","IPropertyPageSite.OnStatusChange","IPropertyPageSite::OnStatusChange","OnStatusChange","OnStatusChange method [COM]","OnStatusChange method [COM]","IPropertyPageSite interface","PROPPAGESTATUS_DIRTY","PROPPAGESTATUS_VALIDATE","_ctrl_ipropertypagesite_onstatuschange","com.ipropertypagesite_onstatuschange","ocidl/IPropertyPageSite::OnStatusChange"]
 old-location: com\ipropertypagesite_onstatuschange.htm
 tech.root: com
 ms.assetid: cea36260-b0f6-489a-b02a-3ca3576c6431

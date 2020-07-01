@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ByteToInt8
 title: ByteToInt8 function (intsafe.h)
-description: Converts a value of type BYTE to a value of type INT8.helpviewer_keywords: ["ByteToInt8","ByteToInt8 function [Windows Shell]","intsafe/ByteToInt8","shell.ByteToInt8"]
+description: Converts a value of type BYTE to a value of type INT8.
+helpviewer_keywords: ["ByteToInt8","ByteToInt8 function [Windows Shell]","intsafe/ByteToInt8","shell.ByteToInt8"]
 old-location: shell\ByteToInt8.htm
 tech.root: shell
 ms.assetid: b04e7258-12a4-4766-8bdd-d6a268f3e53b

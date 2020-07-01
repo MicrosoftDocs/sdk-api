@@ -1,7 +1,8 @@
 ---
 UID: NS:tbs.tdTBS_CONTEXT_PARAMS
 title: TBS_CONTEXT_PARAMS (tbs.h)
-description: Specifies the version of the TBS context implementation.helpviewer_keywords: ["*PTBS_CONTEXT_PARAMS","TBS_CONTEXT_PARAMS","TBS_CONTEXT_PARAMS structure [TBS]","tbs.tbs_context_params","tbs/TBS_CONTEXT_PARAMS"]
+description: Specifies the version of the TBS context implementation.
+helpviewer_keywords: ["*PTBS_CONTEXT_PARAMS","TBS_CONTEXT_PARAMS","TBS_CONTEXT_PARAMS structure [TBS]","tbs.tbs_context_params","tbs/TBS_CONTEXT_PARAMS"]
 old-location: tbs\tbs_context_params.htm
 tech.root: TBS
 ms.assetid: 1b2093b3-6e5e-4289-9b1b-48027ded0fac

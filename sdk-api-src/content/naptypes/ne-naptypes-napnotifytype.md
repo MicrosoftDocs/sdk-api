@@ -1,7 +1,8 @@
 ---
 UID: NE:naptypes.tagNapNotifyType
 title: NapNotifyType (naptypes.h)
-description: Enumerates the types of service notifications sent by the NapAgent service.helpviewer_keywords: ["NapNotifyType","NapNotifyType enumeration [NAP]","nap.napnotifytype","napNotifyTypeQuarState","napNotifyTypeServiceState","napNotifyTypeUnknown","naptypes/NapNotifyType","naptypes/napNotifyTypeQuarState","naptypes/napNotifyTypeServiceState","naptypes/napNotifyTypeUnknown"]
+description: Enumerates the types of service notifications sent by the NapAgent service.
+helpviewer_keywords: ["NapNotifyType","NapNotifyType enumeration [NAP]","nap.napnotifytype","napNotifyTypeQuarState","napNotifyTypeServiceState","napNotifyTypeUnknown","naptypes/NapNotifyType","naptypes/napNotifyTypeQuarState","naptypes/napNotifyTypeServiceState","naptypes/napNotifyTypeUnknown"]
 old-location: nap\napnotifytype.htm
 tech.root: NAP
 ms.assetid: dc573bff-9f28-4aa1-8787-e2a2dccf9859

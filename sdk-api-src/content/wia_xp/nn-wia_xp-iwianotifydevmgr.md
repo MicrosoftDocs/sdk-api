@@ -1,7 +1,8 @@
 ---
 UID: NN:wia_xp.IWiaNotifyDevMgr
 title: IWiaNotifyDevMgr (wia_xp.h)
-description: This interface is not implemented.helpviewer_keywords: ["IWiaNotifyDevMgr","IWiaNotifyDevMgr interface [WIA]","IWiaNotifyDevMgr interface [WIA]","described","_wia_IWiaNotifyDevMgr","wia._wia_IWiaNotifyDevMgr","wia_xp/IWiaNotifyDevMgr"]
+description: This interface is not implemented.
+helpviewer_keywords: ["IWiaNotifyDevMgr","IWiaNotifyDevMgr interface [WIA]","IWiaNotifyDevMgr interface [WIA]","described","_wia_IWiaNotifyDevMgr","wia._wia_IWiaNotifyDevMgr","wia_xp/IWiaNotifyDevMgr"]
 old-location: wia\_wia_IWiaNotifyDevMgr.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwianotifydevmgr\iwianotifydevmgr.htm

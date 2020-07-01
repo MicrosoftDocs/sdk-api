@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptMemFree
 title: CryptMemFree function (wincrypt.h)
-description: The CryptMemFree function frees memory allocated by CryptMemAlloc or CryptMemRealloc.helpviewer_keywords: ["CryptMemFree","CryptMemFree function [Security]","_crypto2_cryptmemfree","security.cryptmemfree","wincrypt/CryptMemFree"]
+description: The CryptMemFree function frees memory allocated by CryptMemAlloc or CryptMemRealloc.
+helpviewer_keywords: ["CryptMemFree","CryptMemFree function [Security]","_crypto2_cryptmemfree","security.cryptmemfree","wincrypt/CryptMemFree"]
 old-location: security\cryptmemfree.htm
 tech.root: SecCrypto
 ms.assetid: fb5c10ba-da8e-4a34-9302-67586a0a9624

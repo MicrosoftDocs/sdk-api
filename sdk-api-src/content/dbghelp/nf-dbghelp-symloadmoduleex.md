@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymLoadModuleEx
 title: SymLoadModuleEx function (dbghelp.h)
-description: Loads the symbol table for the specified module.helpviewer_keywords: ["SLMFLAG_NO_SYMBOLS","SLMFLAG_VIRTUAL","SymLoadModuleEx","SymLoadModuleEx function","SymLoadModuleExW","_win32_symloadmoduleex","base.symloadmoduleex","dbghelp/SymLoadModuleEx","dbghelp/SymLoadModuleExW"]
+description: Loads the symbol table for the specified module.
+helpviewer_keywords: ["SLMFLAG_NO_SYMBOLS","SLMFLAG_VIRTUAL","SymLoadModuleEx","SymLoadModuleEx function","SymLoadModuleExW","_win32_symloadmoduleex","base.symloadmoduleex","dbghelp/SymLoadModuleEx","dbghelp/SymLoadModuleExW"]
 old-location: base\symloadmoduleex.htm
 tech.root: Debug
 ms.assetid: 4a880090-f063-4d03-8fd5-a57ccba262c8

@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.CreateRecognizer
 title: CreateRecognizer function (recapis.h)
-description: Creates a recognizer.helpviewer_keywords: ["CreateRecognizer","CreateRecognizer function [Tablet PC]","b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6","recapis/CreateRecognizer","tablet.createrecognizer"]
+description: Creates a recognizer.
+helpviewer_keywords: ["CreateRecognizer","CreateRecognizer function [Tablet PC]","b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6","recapis/CreateRecognizer","tablet.createrecognizer"]
 old-location: tablet\createrecognizer.htm
 tech.root: tablet
 ms.assetid: b4a5517e-d818-4d4d-a06f-3e0dcbcc52c6

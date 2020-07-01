@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.RequestLicensingCapabilities
 title: IWTSProtocolLicenseConnection::RequestLicensingCapabilities (wtsprotocol.h)
-description: IWTSProtocolLicenseConnection::RequestLicensingCapabilities is no longer available. Instead, use IWRdsProtocolLicenseConnection::RequestLicensingCapabilities.helpviewer_keywords: ["IWTSProtocolLicenseConnection interface [Remote Desktop Services]","RequestLicensingCapabilities method","IWTSProtocolLicenseConnection.RequestLicensingCapabilities","IWTSProtocolLicenseConnection::RequestLicensingCapabilities","RequestLicensingCapabilities","RequestLicensingCapabilities method [Remote Desktop Services]","RequestLicensingCapabilities method [Remote Desktop Services]","IWTSProtocolLicenseConnection interface","termserv.iwtsprotocollicenseconnection_requestlicensingcapabilities","wtsprotocol/IWTSProtocolLicenseConnection::RequestLicensingCapabilities"]
+description: IWTSProtocolLicenseConnection::RequestLicensingCapabilities is no longer available. Instead, use IWRdsProtocolLicenseConnection::RequestLicensingCapabilities.
+helpviewer_keywords: ["IWTSProtocolLicenseConnection interface [Remote Desktop Services]","RequestLicensingCapabilities method","IWTSProtocolLicenseConnection.RequestLicensingCapabilities","IWTSProtocolLicenseConnection::RequestLicensingCapabilities","RequestLicensingCapabilities","RequestLicensingCapabilities method [Remote Desktop Services]","RequestLicensingCapabilities method [Remote Desktop Services]","IWTSProtocolLicenseConnection interface","termserv.iwtsprotocollicenseconnection_requestlicensingcapabilities","wtsprotocol/IWTSProtocolLicenseConnection::RequestLicensingCapabilities"]
 old-location: termserv\iwtsprotocollicenseconnection_requestlicensingcapabilities.htm
 tech.root: TermServ
 ms.assetid: ff6123f6-4d78-41d1-8093-916f01de09ef

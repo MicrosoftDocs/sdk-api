@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.SetSelection
 title: ITextStoreAnchor::SetSelection (textstor.h)
-description: ITextStoreAnchor::SetSelection methodhelpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","SetSelection method","ITextStoreAnchor.SetSelection","ITextStoreAnchor::SetSelection","SetSelection","SetSelection method [Text Services Framework]","SetSelection method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::SetSelection","tsf.itextstoreanchor_setselection"]
+description: ITextStoreAnchor::SetSelection method
+helpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","SetSelection method","ITextStoreAnchor.SetSelection","ITextStoreAnchor::SetSelection","SetSelection","SetSelection method [Text Services Framework]","SetSelection method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::SetSelection","tsf.itextstoreanchor_setselection"]
 old-location: tsf\itextstoreanchor_setselection.htm
 tech.root: TSF
 ms.assetid: ce301fa4-d1dd-4470-b8b5-fc944afdc621

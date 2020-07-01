@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetWordWrapping
 title: IDWriteTextFormat::SetWordWrapping (dwrite.h)
-description: Sets the word wrapping option.helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetWordWrapping method","IDWriteTextFormat.SetWordWrapping","IDWriteTextFormat::SetWordWrapping","SetWordWrapping","SetWordWrapping method [Direct Write]","SetWordWrapping method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetWordWrapping","dwrite/IDWriteTextFormat::SetWordWrapping"]
+description: Sets the word wrapping option.
+helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetWordWrapping method","IDWriteTextFormat.SetWordWrapping","IDWriteTextFormat::SetWordWrapping","SetWordWrapping","SetWordWrapping method [Direct Write]","SetWordWrapping method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetWordWrapping","dwrite/IDWriteTextFormat::SetWordWrapping"]
 old-location: directwrite\IDWriteTextFormat_SetWordWrapping.htm
 tech.root: DirectWrite
 ms.assetid: 04c9fc62-d5a3-470b-bcae-4c6570eebdaa

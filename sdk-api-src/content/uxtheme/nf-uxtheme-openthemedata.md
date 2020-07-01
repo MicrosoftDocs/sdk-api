@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.OpenThemeData
 title: OpenThemeData function (uxtheme.h)
-description: Opens the theme data for a window and its associated class.helpviewer_keywords: ["OpenThemeData","OpenThemeData function [Windows Controls]","controls.OpenThemeData","controls.inet_OpenThemeData","inet_OpenThemeData","inet_OpenThemeData_cpp","uxtheme/OpenThemeData"]
+description: Opens the theme data for a window and its associated class.
+helpviewer_keywords: ["OpenThemeData","OpenThemeData function [Windows Controls]","controls.OpenThemeData","controls.inet_OpenThemeData","inet_OpenThemeData","inet_OpenThemeData_cpp","uxtheme/OpenThemeData"]
 old-location: controls\OpenThemeData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\openthemedata.htm

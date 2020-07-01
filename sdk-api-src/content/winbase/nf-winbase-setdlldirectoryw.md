@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.SetDllDirectoryW
 title: SetDllDirectoryW function (winbase.h)
-description: Adds a directory to the search path used to locate DLLs for the application.helpviewer_keywords: ["SetDllDirectory","SetDllDirectory function","SetDllDirectoryA","SetDllDirectoryW","base.setdlldirectory","winbase/SetDllDirectory","winbase/SetDllDirectoryA","winbase/SetDllDirectoryW"]
+description: Adds a directory to the search path used to locate DLLs for the application.
+helpviewer_keywords: ["SetDllDirectory","SetDllDirectory function","SetDllDirectoryA","SetDllDirectoryW","base.setdlldirectory","winbase/SetDllDirectory","winbase/SetDllDirectoryA","winbase/SetDllDirectoryW"]
 old-location: base\setdlldirectory.htm
 tech.root: Dlls
 ms.assetid: c0c57554-3d98-487c-8bae-c594620d5a00
@@ -117,6 +118,10 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0502
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines SetDllDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

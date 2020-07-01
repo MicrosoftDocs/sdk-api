@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IPublishingWizard.GetTransferManifest
 title: IPublishingWizard::GetTransferManifest (shobjidl.h)
-description: Gets a transfer manifest for a file transfer operation performed by a publishing wizard, such as the Online Print Wizard or the Add Network Place Wizard.helpviewer_keywords: ["GetTransferManifest","GetTransferManifest method [Windows Shell]","GetTransferManifest method [Windows Shell]","IPublishingWizard interface","IPublishingWizard interface [Windows Shell]","GetTransferManifest method","IPublishingWizard.GetTransferManifest","IPublishingWizard::GetTransferManifest","_shell_IPublishingWizard_GetTransferManifest","shell.IPublishingWizard_GetTransferManifest","shobjidl/IPublishingWizard::GetTransferManifest"]
+description: Gets a transfer manifest for a file transfer operation performed by a publishing wizard, such as the Online Print Wizard or the Add Network Place Wizard.
+helpviewer_keywords: ["GetTransferManifest","GetTransferManifest method [Windows Shell]","GetTransferManifest method [Windows Shell]","IPublishingWizard interface","IPublishingWizard interface [Windows Shell]","GetTransferManifest method","IPublishingWizard.GetTransferManifest","IPublishingWizard::GetTransferManifest","_shell_IPublishingWizard_GetTransferManifest","shell.IPublishingWizard_GetTransferManifest","shobjidl/IPublishingWizard::GetTransferManifest"]
 old-location: shell\IPublishingWizard_GetTransferManifest.htm
 tech.root: shell
 ms.assetid: 1c595526-f810-4a33-82c3-785727153b16

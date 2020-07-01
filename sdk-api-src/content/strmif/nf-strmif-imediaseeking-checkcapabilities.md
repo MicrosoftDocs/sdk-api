@@ -61,9 +61,7 @@ The <b>CheckCapabilities</b> method queries whether a stream has specified seeki
 
 ### -param pCapabilities [in, out]
 
-On input, a pointer to a  variable that contains a bitwise <b>OR</b> of one or more <a href="/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> attributes. When the method returns, the value indicates which of those attributes are available.
-          
-
+On input, a pointer to a variable that contains a bitwise <b>OR</b> of one or more <a href="/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> attributes. When the method returns, the value indicates which of those attributes are available.
 
 ## -returns
 
@@ -129,8 +127,6 @@ No capabilities in <i>pCapabilities</i> are present.
 
 ## -remarks
 
-
-
 If you are only interested in a few specific capabilities, calling this method is more efficient than calling <a href="/windows/desktop/api/strmif/nf-strmif-imediaseeking-getcapabilities">IMediaSeeking::GetCapabilities</a>, which checks all the stream's seeking capabilities.
 
 To call this method, declare a <b>DWORD</b> variable and set the value to the bitwise-<b>OR</b> combination of the <a href="/windows/win32/api/strmif/ne-strmif-am_seeking_seeking_capabilities">AM_SEEKING_SEEKING_CAPABILITIES</a> flags that you want to test. Pass the address of this value in the <i>pCapabilities</i> parameter. When the method returns, <i>pCapabilities</i> contains a subset of the original bits, indicating which capabilities are present. The return value indicates whether some, none, or all of the requested capabilities are present.
@@ -185,13 +181,8 @@ else if (hr == S_FALSE) // The stream has some of the capabilities.
 
 
 
-
 <a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
 
 <a href="/windows/desktop/api/strmif/nn-strmif-imediaseeking">IMediaSeeking Interface</a>
- 
-
- 
-

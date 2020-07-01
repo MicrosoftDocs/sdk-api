@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationcore.IWindowProvider
 title: IWindowProvider (uiautomationcore.h)
-description: Provides access to the fundamental window-based functionality of a control.helpviewer_keywords: ["IWindowProvider","IWindowProvider interface [Windows Accessibility]","IWindowProvider interface [Windows Accessibility]","described","uiauto.uiauto_IWindowProvider","uiauto_IWindowProvider","uiautomationcore/IWindowProvider","winauto.uiauto_IWindowProvider"]
+description: Provides access to the fundamental window-based functionality of a control.
+helpviewer_keywords: ["IWindowProvider","IWindowProvider interface [Windows Accessibility]","IWindowProvider interface [Windows Accessibility]","described","uiauto.uiauto_IWindowProvider","uiauto_IWindowProvider","uiautomationcore/IWindowProvider","winauto.uiauto_IWindowProvider"]
 old-location: winauto\uiauto_IWindowProvider.htm
 tech.root: WinAuto
 ms.assetid: cf09ad4e-fd5b-4304-b5fb-165205bff1f3

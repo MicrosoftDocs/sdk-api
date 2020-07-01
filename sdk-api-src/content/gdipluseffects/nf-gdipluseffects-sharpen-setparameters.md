@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.Sharpen.SetParameters
 title: Sharpen::SetParameters (gdipluseffects.h)
-description: The Sharpen::SetParameters method sets the parameters of this Sharpen object.helpviewer_keywords: ["SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","Sharpen class","Sharpen class [GDI+]","SetParameters method","Sharpen.SetParameters","Sharpen::SetParameters","_gdiplus_CLASS_Sharpen_SetParameters_","gdiplus._gdiplus_CLASS_Sharpen_SetParameters_"]
+description: The Sharpen::SetParameters method sets the parameters of this Sharpen object.
+helpviewer_keywords: ["SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","Sharpen class","Sharpen class [GDI+]","SetParameters method","Sharpen.SetParameters","Sharpen::SetParameters","_gdiplus_CLASS_Sharpen_SetParameters_","gdiplus._gdiplus_CLASS_Sharpen_SetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_Sharpen_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpenclass\sharpenmethods\setparameters.htm

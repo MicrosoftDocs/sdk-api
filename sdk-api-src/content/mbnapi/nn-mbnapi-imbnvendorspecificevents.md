@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnVendorSpecificEvents
 title: IMbnVendorSpecificEvents (mbnapi.h)
-description: This notification interface signals an application of the completion status of vendor-specific operations and other vendor-specific changes in the device state.helpviewer_keywords: ["IMbnVendorSpecificEvents","IMbnVendorSpecificEvents interface [Microsoft Broadband Networks]","IMbnVendorSpecificEvents interface [Microsoft Broadband Networks]","described","mbn.imbnvendorspecificevents","mbnapi/IMbnVendorSpecificEvents"]
+description: This notification interface signals an application of the completion status of vendor-specific operations and other vendor-specific changes in the device state.
+helpviewer_keywords: ["IMbnVendorSpecificEvents","IMbnVendorSpecificEvents interface [Microsoft Broadband Networks]","IMbnVendorSpecificEvents interface [Microsoft Broadband Networks]","described","mbn.imbnvendorspecificevents","mbnapi/IMbnVendorSpecificEvents"]
 old-location: mbn\imbnvendorspecificevents.htm
 tech.root: mbn
 ms.assetid: 28507e68-5eaa-4b9d-bbb4-e276f4c213d5

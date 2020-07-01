@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagCHANGEFILTERSTRUCT
 title: CHANGEFILTERSTRUCT (winuser.h)
-description: Contains extended result information obtained by calling the ChangeWindowMessageFilterEx function.helpviewer_keywords: ["*PCHANGEFILTERSTRUCT","CHANGEFILTERSTRUCT","CHANGEFILTERSTRUCT structure [Windows and Messages]","MSGFLTINFO_ALLOWED_HIGHER","MSGFLTINFO_ALREADYALLOWED_FORWND","MSGFLTINFO_ALREADYDISALLOWED_FORWND","MSGFLTINFO_NONE","PCHANGEFILTERSTRUCT","PCHANGEFILTERSTRUCT structure pointer [Windows and Messages]","_win32_CHANGEFILTERSTRUCT_str","_win32_changefilterstruct_str_cpp","winmsg.changefilterstruct","winui._win32_changefilterstruct_str","winuser/CHANGEFILTERSTRUCT","winuser/PCHANGEFILTERSTRUCT"]
+description: Contains extended result information obtained by calling the ChangeWindowMessageFilterEx function.
+helpviewer_keywords: ["*PCHANGEFILTERSTRUCT","CHANGEFILTERSTRUCT","CHANGEFILTERSTRUCT structure [Windows and Messages]","MSGFLTINFO_ALLOWED_HIGHER","MSGFLTINFO_ALREADYALLOWED_FORWND","MSGFLTINFO_ALREADYDISALLOWED_FORWND","MSGFLTINFO_NONE","PCHANGEFILTERSTRUCT","PCHANGEFILTERSTRUCT structure pointer [Windows and Messages]","_win32_CHANGEFILTERSTRUCT_str","_win32_changefilterstruct_str_cpp","winmsg.changefilterstruct","winui._win32_changefilterstruct_str","winuser/CHANGEFILTERSTRUCT","winuser/PCHANGEFILTERSTRUCT"]
 old-location: winmsg\changefilterstruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\changefilterstruct.htm

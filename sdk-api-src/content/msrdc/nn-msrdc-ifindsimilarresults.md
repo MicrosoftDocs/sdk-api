@@ -1,7 +1,8 @@
 ---
 UID: NN:msrdc.IFindSimilarResults
 title: IFindSimilarResults (msrdc.h)
-description: Provides methods for retrieving information from the file list returned by the ISimilarity::FindSimilarFileId method.helpviewer_keywords: ["IFindSimilarResults","IFindSimilarResults interface [Remote Differential Compression]","IFindSimilarResults interface [Remote Differential Compression]","described","fs.ifindsimilarresults","msrdc/IFindSimilarResults","rdc.ifindsimilarresults"]
+description: Provides methods for retrieving information from the file list returned by the ISimilarity::FindSimilarFileId method.
+helpviewer_keywords: ["IFindSimilarResults","IFindSimilarResults interface [Remote Differential Compression]","IFindSimilarResults interface [Remote Differential Compression]","described","fs.ifindsimilarresults","msrdc/IFindSimilarResults","rdc.ifindsimilarresults"]
 old-location: rdc\ifindsimilarresults.htm
 tech.root: rdc
 ms.assetid: 3118cf53-c544-48bc-ac38-79ca2252f83f

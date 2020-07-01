@@ -1,7 +1,8 @@
 ---
 UID: NF:eventsys.IEventSystem.Query
 title: IEventSystem::Query (eventsys.h)
-description: Retrieves a collection of subscription or event objects from the event data store.helpviewer_keywords: ["IEventSystem interface [COM+]","Query method","IEventSystem.Query","IEventSystem::Query","Query","Query method [COM+]","Query method [COM+]","IEventSystem interface","_cos_IEventSystem_Query","cos.ieventsystem_query","eventsys/IEventSystem::Query"]
+description: Retrieves a collection of subscription or event objects from the event data store.
+helpviewer_keywords: ["IEventSystem interface [COM+]","Query method","IEventSystem.Query","IEventSystem::Query","Query","Query method [COM+]","Query method [COM+]","IEventSystem interface","_cos_IEventSystem_Query","cos.ieventsystem_query","eventsys/IEventSystem::Query"]
 old-location: cos\ieventsystem_query.htm
 tech.root: cossdk
 ms.assetid: 47025361-4420-4c5d-aed7-d40ea0ba3e3b

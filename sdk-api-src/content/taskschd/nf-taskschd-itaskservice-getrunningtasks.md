@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskService.GetRunningTasks
 title: ITaskService::GetRunningTasks (taskschd.h)
-description: Gets a collection of running tasks.helpviewer_keywords: ["GetRunningTasks","GetRunningTasks method [Task Scheduler]","GetRunningTasks method [Task Scheduler]","ITaskService interface","ITaskService interface [Task Scheduler]","GetRunningTasks method","ITaskService.GetRunningTasks","ITaskService::GetRunningTasks","taskschd.itaskservice_getrunningtasks","taskschd/ITaskService::GetRunningTasks"]
+description: Gets a collection of running tasks.
+helpviewer_keywords: ["GetRunningTasks","GetRunningTasks method [Task Scheduler]","GetRunningTasks method [Task Scheduler]","ITaskService interface","ITaskService interface [Task Scheduler]","GetRunningTasks method","ITaskService.GetRunningTasks","ITaskService::GetRunningTasks","taskschd.itaskservice_getrunningtasks","taskschd/ITaskService::GetRunningTasks"]
 old-location: taskschd\itaskservice_getrunningtasks.htm
 tech.root: taskschd
 ms.assetid: 6248cf51-acd8-4317-9837-99dcf918e816

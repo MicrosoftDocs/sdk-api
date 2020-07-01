@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IExtendTaskPad
 title: IExtendTaskPad (mmc.h)
-description: The IExtendTaskPad interface is introduced in MMC 1.1.helpviewer_keywords: ["IExtendTaskPad","IExtendTaskPad interface [MMC]","IExtendTaskPad interface [MMC]","described","_slate_iextendtaskpad","mmc.iextendtaskpad","mmc/IExtendTaskPad"]
+description: The IExtendTaskPad interface is introduced in MMC 1.1.
+helpviewer_keywords: ["IExtendTaskPad","IExtendTaskPad interface [MMC]","IExtendTaskPad interface [MMC]","described","_slate_iextendtaskpad","mmc.iextendtaskpad","mmc/IExtendTaskPad"]
 old-location: mmc\iextendtaskpad.htm
 tech.root: mmc
 ms.assetid: 30f5b526-d2d5-48a6-be5f-d0f2ba9397c4

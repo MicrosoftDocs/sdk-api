@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCore3.newMedia
 title: IWMPCore3::newMedia (wmp.h)
-description: The newMedia method retrieves a pointer to an IWMPMedia interface for a new media item.helpviewer_keywords: ["IWMPCore3 interface [Windows Media Player]","newMedia method","IWMPCore3.newMedia","IWMPCore3::newMedia","IWMPCore3newMedia","newMedia","newMedia method [Windows Media Player]","newMedia method [Windows Media Player]","IWMPCore3 interface","wmp.iwmpcore3_newmedia","wmp/IWMPCore3::newMedia"]
+description: The newMedia method retrieves a pointer to an IWMPMedia interface for a new media item.
+helpviewer_keywords: ["IWMPCore3 interface [Windows Media Player]","newMedia method","IWMPCore3.newMedia","IWMPCore3::newMedia","IWMPCore3newMedia","newMedia","newMedia method [Windows Media Player]","newMedia method [Windows Media Player]","IWMPCore3 interface","wmp.iwmpcore3_newmedia","wmp/IWMPCore3::newMedia"]
 old-location: wmp\iwmpcore3_newmedia.htm
 tech.root: WMP
 ms.assetid: d0ae488f-cdc8-4688-bfc5-b7821216da37

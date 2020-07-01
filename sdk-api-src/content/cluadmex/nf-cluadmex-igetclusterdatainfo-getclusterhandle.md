@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IGetClusterDataInfo.GetClusterHandle
 title: IGetClusterDataInfo::GetClusterHandle (cluadmex.h)
-description: Returns a handle to the cluster.helpviewer_keywords: ["GetClusterHandle","GetClusterHandle method [Failover Cluster]","GetClusterHandle method [Failover Cluster]","IGetClusterDataInfo interface","IGetClusterDataInfo interface [Failover Cluster]","GetClusterHandle method","IGetClusterDataInfo.GetClusterHandle","IGetClusterDataInfo::GetClusterHandle","_wolf_igetclusterdatainfo_getclusterhandle","cluadmex/IGetClusterDataInfo::GetClusterHandle","mscs.igetclusterdatainfo_getclusterhandle"]
+description: Returns a handle to the cluster.
+helpviewer_keywords: ["GetClusterHandle","GetClusterHandle method [Failover Cluster]","GetClusterHandle method [Failover Cluster]","IGetClusterDataInfo interface","IGetClusterDataInfo interface [Failover Cluster]","GetClusterHandle method","IGetClusterDataInfo.GetClusterHandle","IGetClusterDataInfo::GetClusterHandle","_wolf_igetclusterdatainfo_getclusterhandle","cluadmex/IGetClusterDataInfo::GetClusterHandle","mscs.igetclusterdatainfo_getclusterhandle"]
 old-location: mscs\igetclusterdatainfo_getclusterhandle.htm
 tech.root: MsCS
 ms.assetid: 5623552e-ab06-4e18-88dc-e297c6af8a63

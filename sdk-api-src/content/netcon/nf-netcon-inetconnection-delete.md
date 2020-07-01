@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.INetConnection.Delete
 title: INetConnection::Delete (netcon.h)
-description: The Delete method deletes this connection from connections folder.helpviewer_keywords: ["Delete","Delete method [ICS/ICF]","Delete method [ICS/ICF]","INetConnection interface","INetConnection interface [ICS/ICF]","Delete method","INetConnection.Delete","INetConnection::Delete","_ics_inetconnection_delete","ics.inetconnection_delete","netcon/INetConnection::Delete"]
+description: The Delete method deletes this connection from connections folder.
+helpviewer_keywords: ["Delete","Delete method [ICS/ICF]","Delete method [ICS/ICF]","INetConnection interface","INetConnection interface [ICS/ICF]","Delete method","INetConnection.Delete","INetConnection::Delete","_ics_inetconnection_delete","ics.inetconnection_delete","netcon/INetConnection::Delete"]
 old-location: ics\inetconnection_delete.htm
 tech.root: ics
 ms.assetid: d2179872-da9b-4d89-b6e9-b318d304b15d

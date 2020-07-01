@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.GetOutputBounds
 title: IMILBitmapEffectRenderContextImpl::GetOutputBounds (mileffects.h)
-description: Gets the output bounds of the render context.helpviewer_keywords: ["GetOutputBounds","GetOutputBounds method [WPF Bitmap Effects]","GetOutputBounds method [WPF Bitmap Effects]","IMILBitmapEffectRenderContextImpl interface","IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects]","GetOutputBounds method","IMILBitmapEffectRenderContextImpl.GetOutputBounds","IMILBitmapEffectRenderContextImpl::GetOutputBounds","_wibe_imilbitmapeffectrendercontextimpl_getoutputbounds","mileffects/IMILBitmapEffectRenderContextImpl::GetOutputBounds","wibe._wibe_imilbitmapeffectrendercontextimpl_getoutputbounds"]
+description: Gets the output bounds of the render context.
+helpviewer_keywords: ["GetOutputBounds","GetOutputBounds method [WPF Bitmap Effects]","GetOutputBounds method [WPF Bitmap Effects]","IMILBitmapEffectRenderContextImpl interface","IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects]","GetOutputBounds method","IMILBitmapEffectRenderContextImpl.GetOutputBounds","IMILBitmapEffectRenderContextImpl::GetOutputBounds","_wibe_imilbitmapeffectrendercontextimpl_getoutputbounds","mileffects/IMILBitmapEffectRenderContextImpl::GetOutputBounds","wibe._wibe_imilbitmapeffectrendercontextimpl_getoutputbounds"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_getoutputbounds.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\getoutputbounds.htm

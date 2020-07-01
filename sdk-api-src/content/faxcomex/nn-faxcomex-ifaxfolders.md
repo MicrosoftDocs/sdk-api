@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxFolders
 title: IFaxFolders (faxcomex.h)
-description: The IFaxFolders interface defines a configuration object used by a fax client application to access the folders, queued jobs, and archived messages on a fax server.helpviewer_keywords: ["IFaxFolders","IFaxFolders interface [Fax Service]","IFaxFolders interface [Fax Service]","described","_mfax_faxfolders_cpp","fax._mfax_faxfolders_cpp","faxcomex/IFaxFolders"]
+description: The IFaxFolders interface defines a configuration object used by a fax client application to access the folders, queued jobs, and archived messages on a fax server.
+helpviewer_keywords: ["IFaxFolders","IFaxFolders interface [Fax Service]","IFaxFolders interface [Fax Service]","described","_mfax_faxfolders_cpp","fax._mfax_faxfolders_cpp","faxcomex/IFaxFolders"]
 old-location: fax\_mfax_faxfolders_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1gfn_cpp.htm

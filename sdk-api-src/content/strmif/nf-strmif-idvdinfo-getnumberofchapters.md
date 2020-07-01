@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdInfo.GetNumberOfChapters
 title: IDvdInfo::GetNumberOfChapters (strmif.h)
-description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of chapters that are defined for a given title.helpviewer_keywords: ["GetNumberOfChapters","GetNumberOfChapters method [DirectShow]","GetNumberOfChapters method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetNumberOfChapters method","IDvdInfo.GetNumberOfChapters","IDvdInfo::GetNumberOfChapters","IDvdInfoGetNumberOfChapters","dshow.idvdinfo_getnumberofchapters","strmif/IDvdInfo::GetNumberOfChapters"]
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the number of chapters that are defined for a given title.
+helpviewer_keywords: ["GetNumberOfChapters","GetNumberOfChapters method [DirectShow]","GetNumberOfChapters method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetNumberOfChapters method","IDvdInfo.GetNumberOfChapters","IDvdInfo::GetNumberOfChapters","IDvdInfoGetNumberOfChapters","dshow.idvdinfo_getnumberofchapters","strmif/IDvdInfo::GetNumberOfChapters"]
 old-location: dshow\idvdinfo_getnumberofchapters.htm
 tech.root: DirectShow
 ms.assetid: 65d36d1c-956f-480f-adbb-1682eafc9c93

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPDVD.get_domain
 title: IWMPDVD::get_domain (wmp.h)
-description: The get_domain method retrieves the current domain of the DVD.helpviewer_keywords: ["IWMPDVD interface [Windows Media Player]","get_domain method","IWMPDVD.get_domain","IWMPDVD::get_domain","IWMPDVDget_domain","get_domain","get_domain method [Windows Media Player]","get_domain method [Windows Media Player]","IWMPDVD interface","wmp.iwmpdvd_get_domain","wmp/IWMPDVD::get_domain"]
+description: The get_domain method retrieves the current domain of the DVD.
+helpviewer_keywords: ["IWMPDVD interface [Windows Media Player]","get_domain method","IWMPDVD.get_domain","IWMPDVD::get_domain","IWMPDVDget_domain","get_domain","get_domain method [Windows Media Player]","get_domain method [Windows Media Player]","IWMPDVD interface","wmp.iwmpdvd_get_domain","wmp/IWMPDVD::get_domain"]
 old-location: wmp\iwmpdvd_get_domain.htm
 tech.root: WMP
 ms.assetid: 2a8d5ea6-ed70-4952-810c-215acd1ae560

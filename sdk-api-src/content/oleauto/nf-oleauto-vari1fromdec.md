@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarI1FromDec
 title: VarI1FromDec function (oleauto.h)
-description: Converts a decimal value to a char value.helpviewer_keywords: ["VarI1FromDec","VarI1FromDec function [Automation]","_oa96_VarI1FromDec","automat.vari1fromdec","oleauto/VarI1FromDec"]
+description: Converts a decimal value to a char value.
+helpviewer_keywords: ["VarI1FromDec","VarI1FromDec function [Automation]","_oa96_VarI1FromDec","automat.vari1fromdec","oleauto/VarI1FromDec"]
 old-location: automat\vari1fromdec.htm
 tech.root: automat
 ms.assetid: 3a28520c-3825-4b7b-9b2c-c4514cdfcec0

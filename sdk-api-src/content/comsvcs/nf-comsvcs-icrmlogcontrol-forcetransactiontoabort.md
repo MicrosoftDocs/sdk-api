@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.ForceTransactionToAbort
 title: ICrmLogControl::ForceTransactionToAbort (comsvcs.h)
-description: Performs an immediate abort call on the transaction.helpviewer_keywords: ["ForceTransactionToAbort","ForceTransactionToAbort method [COM+]","ForceTransactionToAbort method [COM+]","ICrmLogControl interface","ICrmLogControl interface [COM+]","ForceTransactionToAbort method","ICrmLogControl.ForceTransactionToAbort","ICrmLogControl::ForceTransactionToAbort","_dtc_ICrmLogControl_ForceTransactionToAbort","comsvcs/ICrmLogControl::ForceTransactionToAbort","cos.icrmlogcontrol_forcetransactiontoabort"]
+description: Performs an immediate abort call on the transaction.
+helpviewer_keywords: ["ForceTransactionToAbort","ForceTransactionToAbort method [COM+]","ForceTransactionToAbort method [COM+]","ICrmLogControl interface","ICrmLogControl interface [COM+]","ForceTransactionToAbort method","ICrmLogControl.ForceTransactionToAbort","ICrmLogControl::ForceTransactionToAbort","_dtc_ICrmLogControl_ForceTransactionToAbort","comsvcs/ICrmLogControl::ForceTransactionToAbort","cos.icrmlogcontrol_forcetransactiontoabort"]
 old-location: cos\icrmlogcontrol_forcetransactiontoabort.htm
 tech.root: cossdk
 ms.assetid: 5a0289c6-d177-40a3-968d-96ae3179e78d

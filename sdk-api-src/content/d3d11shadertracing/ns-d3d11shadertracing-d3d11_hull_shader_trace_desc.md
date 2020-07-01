@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_HULL_SHADER_TRACE_DESC
 title: D3D11_HULL_SHADER_TRACE_DESC (d3d11shadertracing.h)
-description: Describes an instance of a hull shader to trace.helpviewer_keywords: ["D3D11_HULL_SHADER_TRACE_DESC","D3D11_HULL_SHADER_TRACE_DESC structure [Direct3D 11]","d3d11shadertracing/D3D11_HULL_SHADER_TRACE_DESC","direct3d11.d3d11_hull_shader_trace_desc"]
+description: Describes an instance of a hull shader to trace.
+helpviewer_keywords: ["D3D11_HULL_SHADER_TRACE_DESC","D3D11_HULL_SHADER_TRACE_DESC structure [Direct3D 11]","d3d11shadertracing/D3D11_HULL_SHADER_TRACE_DESC","direct3d11.d3d11_hull_shader_trace_desc"]
 old-location: direct3d11\d3d11_hull_shader_trace_desc.htm
 tech.root: direct3d11
 ms.assetid: E91FE826-C1BC-4583-83B0-FF2869AF86F2

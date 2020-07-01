@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.ParseHeader
 title: IMFASFContentInfo::ParseHeader (wmcontainer.h)
-description: Parses the information in an ASF header and uses that information to set values in the ContentInfo object. You can pass the entire header in a single buffer or send it in several pieces.helpviewer_keywords: ["149e2514-74e5-403b-925f-53a17dbbcb64","IMFASFContentInfo interface [Media Foundation]","ParseHeader method","IMFASFContentInfo.ParseHeader","IMFASFContentInfo::ParseHeader","ParseHeader","ParseHeader method [Media Foundation]","ParseHeader method [Media Foundation]","IMFASFContentInfo interface","mf.imfasfcontentinfo_parseheader","wmcontainer/IMFASFContentInfo::ParseHeader"]
+description: Parses the information in an ASF header and uses that information to set values in the ContentInfo object. You can pass the entire header in a single buffer or send it in several pieces.
+helpviewer_keywords: ["149e2514-74e5-403b-925f-53a17dbbcb64","IMFASFContentInfo interface [Media Foundation]","ParseHeader method","IMFASFContentInfo.ParseHeader","IMFASFContentInfo::ParseHeader","ParseHeader","ParseHeader method [Media Foundation]","ParseHeader method [Media Foundation]","IMFASFContentInfo interface","mf.imfasfcontentinfo_parseheader","wmcontainer/IMFASFContentInfo::ParseHeader"]
 old-location: mf\imfasfcontentinfo_parseheader.htm
 tech.root: medfound
 ms.assetid: 149e2514-74e5-403b-925f-53a17dbbcb64

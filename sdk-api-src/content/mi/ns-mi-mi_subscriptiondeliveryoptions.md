@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_SubscriptionDeliveryOptions
 title: MI_SubscriptionDeliveryOptions (mi.h)
-description: The subscription options object stores configuration options used for passing into subscription operations.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions","MI_SubscriptionDeliveryOptions structure [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions","wmi_v2.mi_subscriptiondeliveryoptions"]
+description: The subscription options object stores configuration options used for passing into subscription operations.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions","MI_SubscriptionDeliveryOptions structure [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions","wmi_v2.mi_subscriptiondeliveryoptions"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions.htm
 tech.root: wmi_v2
 ms.assetid: aaed635c-ee53-4307-a5b4-e9d3bd2e7c21

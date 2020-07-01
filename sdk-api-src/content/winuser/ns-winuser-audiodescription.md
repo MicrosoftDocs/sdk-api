@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagAUDIODESCRIPTION
 title: AUDIODESCRIPTION (winuser.h)
-description: Contains information associated with audio descriptions. This structure is used with the SystemParametersInfo function when the SPI_GETAUDIODESCRIPTION or SPI_SETAUDIODESCRIPTION action value is specified.helpviewer_keywords: ["*LPAUDIODESCRIPTION","AUDIODESCRIPTION","AUDIODESCRIPTION structure [Windows and Messages]","LPAUDIODESCRIPTION","LPAUDIODESCRIPTION structure pointer [Windows and Messages]","audiodescription_cpp","base.audiodescription","tagAUDIODESCRIPTION","winmsg.audiodescription","winui.audiodescription","winuser/AUDIODESCRIPTION","winuser/LPAUDIODESCRIPTION"]
+description: Contains information associated with audio descriptions. This structure is used with the SystemParametersInfo function when the SPI_GETAUDIODESCRIPTION or SPI_SETAUDIODESCRIPTION action value is specified.
+helpviewer_keywords: ["*LPAUDIODESCRIPTION","AUDIODESCRIPTION","AUDIODESCRIPTION structure [Windows and Messages]","LPAUDIODESCRIPTION","LPAUDIODESCRIPTION structure pointer [Windows and Messages]","audiodescription_cpp","base.audiodescription","tagAUDIODESCRIPTION","winmsg.audiodescription","winui.audiodescription","winuser/AUDIODESCRIPTION","winuser/LPAUDIODESCRIPTION"]
 old-location: winmsg\audiodescription.htm
 tech.root: winmsg
 ms.assetid: 20eb48da-cd2b-4af8-b3a7-5ee3f39b1387

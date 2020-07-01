@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.IFolderBandPriv
 title: IFolderBandPriv (shobjidl.h)
-description: IFolderBandPriv is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.helpviewer_keywords: ["IFolderBandPriv","IFolderBandPriv interface [Windows Shell]","IFolderBandPriv interface [Windows Shell]","described","_win32_IFolderBandPriv","shell.IFolderBandPriv","shobjidl/IFolderBandPriv"]
+description: IFolderBandPriv is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions.
+helpviewer_keywords: ["IFolderBandPriv","IFolderBandPriv interface [Windows Shell]","IFolderBandPriv interface [Windows Shell]","described","_win32_IFolderBandPriv","shell.IFolderBandPriv","shobjidl/IFolderBandPriv"]
 old-location: shell\IFolderBandPriv.htm
 tech.root: shell
 ms.assetid: d942a60d-aaac-4889-b74a-a8b4682ab619

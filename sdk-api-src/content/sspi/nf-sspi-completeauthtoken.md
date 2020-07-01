@@ -1,7 +1,8 @@
 ---
 UID: NF:sspi.CompleteAuthToken
 title: CompleteAuthToken function (sspi.h)
-description: Completes an authentication token.helpviewer_keywords: ["CompleteAuthToken","CompleteAuthToken function [Security]","_ssp_completeauthtoken","security.completeauthtoken","sspi/CompleteAuthToken"]
+description: Completes an authentication token.
+helpviewer_keywords: ["CompleteAuthToken","CompleteAuthToken function [Security]","_ssp_completeauthtoken","security.completeauthtoken","sspi/CompleteAuthToken"]
 old-location: security\completeauthtoken.htm
 tech.root: SecAuthN
 ms.assetid: a404d0a3-d1ea-4708-87d7-2d216e9a5f5f

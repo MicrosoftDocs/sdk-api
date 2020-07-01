@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12.D3D12_INDEX_BUFFER_STRIP_CUT_VALUE
 title: D3D12_INDEX_BUFFER_STRIP_CUT_VALUE (d3d12.h)
-description: When using triangle strip primitive topology, vertex positions are interpreted as vertices of a continuous triangle “strip”.helpviewer_keywords: ["D3D12_INDEX_BUFFER_STRIP_CUT_VALUE","D3D12_INDEX_BUFFER_STRIP_CUT_VALUE enumeration","D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF","D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF","D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED","d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE","d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF","d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF","d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED","direct3d12.d3d12_index_buffer_strip_cut_value"]
+description: When using triangle strip primitive topology, vertex positions are interpreted as vertices of a continuous triangle “strip”.
+helpviewer_keywords: ["D3D12_INDEX_BUFFER_STRIP_CUT_VALUE","D3D12_INDEX_BUFFER_STRIP_CUT_VALUE enumeration","D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF","D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF","D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED","d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE","d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFF","d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_0xFFFFFFFF","d3d12/D3D12_INDEX_BUFFER_STRIP_CUT_VALUE_DISABLED","direct3d12.d3d12_index_buffer_strip_cut_value"]
 old-location: direct3d12\d3d12_index_buffer_strip_cut_value.htm
 tech.root: direct3d12
 ms.assetid: 22448EAE-05F3-4E14-90A6-A427E83361B8

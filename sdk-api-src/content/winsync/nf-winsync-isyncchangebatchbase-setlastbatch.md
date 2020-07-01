@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.SetLastBatch
 title: ISyncChangeBatchBase::SetLastBatch (winsync.h)
-description: Sets a flag that indicates there are no more changes to be enumerated in the synchronization session.helpviewer_keywords: ["ISyncChangeBatchBase interface [Windows Sync]","SetLastBatch method","ISyncChangeBatchBase.SetLastBatch","ISyncChangeBatchBase::SetLastBatch","SetLastBatch","SetLastBatch method [Windows Sync]","SetLastBatch method [Windows Sync]","ISyncChangeBatchBase interface","winsync.isyncchangebatchbase_setlastbatch","winsync/ISyncChangeBatchBase::SetLastBatch"]
+description: Sets a flag that indicates there are no more changes to be enumerated in the synchronization session.
+helpviewer_keywords: ["ISyncChangeBatchBase interface [Windows Sync]","SetLastBatch method","ISyncChangeBatchBase.SetLastBatch","ISyncChangeBatchBase::SetLastBatch","SetLastBatch","SetLastBatch method [Windows Sync]","SetLastBatch method [Windows Sync]","ISyncChangeBatchBase interface","winsync.isyncchangebatchbase_setlastbatch","winsync/ISyncChangeBatchBase::SetLastBatch"]
 old-location: winsync\isyncchangebatchbase_setlastbatch.htm
 tech.root: winsync
 ms.assetid: 7619b446-5c71-4533-8af6-15f06dda3c87

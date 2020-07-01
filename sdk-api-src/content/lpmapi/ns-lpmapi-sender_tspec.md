@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_24
 title: SENDER_TSPEC (lpmapi.h)
-description: The SENDER_TSPEC structure contains information for an RSVP sender Tspec.helpviewer_keywords: ["SENDER_TSPEC","SENDER_TSPEC structure [QOS]","lpmapi/SENDER_TSPEC","qos.sender_tspec"]
+description: The SENDER_TSPEC structure contains information for an RSVP sender Tspec.
+helpviewer_keywords: ["SENDER_TSPEC","SENDER_TSPEC structure [QOS]","lpmapi/SENDER_TSPEC","qos.sender_tspec"]
 old-location: qos\sender_tspec.htm
 tech.root: QOS
 ms.assetid: d7905687-1af8-4469-b8de-a2445afa90f4

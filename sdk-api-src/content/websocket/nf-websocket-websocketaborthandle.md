@@ -1,7 +1,8 @@
 ---
 UID: NF:websocket.WebSocketAbortHandle
 title: WebSocketAbortHandle function (websocket.h)
-description: Aborts a WebSocket session handle created by WebSocketCreateClientHandle or WebSocketCreateServerHandle.helpviewer_keywords: ["WebSocketAbortHandle","WebSocketAbortHandle function [Websocket Protocol Component API]","websock.websocketaborthandle","websocket/WebSocketAbortHandle"]
+description: Aborts a WebSocket session handle created by WebSocketCreateClientHandle or WebSocketCreateServerHandle.
+helpviewer_keywords: ["WebSocketAbortHandle","WebSocketAbortHandle function [Websocket Protocol Component API]","websock.websocketaborthandle","websocket/WebSocketAbortHandle"]
 old-location: websock\websocketaborthandle.htm
 tech.root: WebSock
 ms.assetid: fcfa67cf-9121-4f65-bba9-31ebca1291bd

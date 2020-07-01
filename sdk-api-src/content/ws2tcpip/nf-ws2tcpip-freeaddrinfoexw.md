@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2tcpip.FreeAddrInfoExW
 title: FreeAddrInfoExW function (ws2tcpip.h)
-description: Frees address information that the GetAddrInfoEx function dynamically allocates in addrinfoex structures.helpviewer_keywords: ["FreeAddrInfoEx","FreeAddrInfoEx function [Winsock]","FreeAddrInfoExW","winsock.freeaddrinfoex","ws2tcpip/FreeAddrInfoEx","ws2tcpip/FreeAddrInfoExW"]
+description: Frees address information that the GetAddrInfoEx function dynamically allocates in addrinfoex structures.
+helpviewer_keywords: ["FreeAddrInfoEx","FreeAddrInfoEx function [Winsock]","FreeAddrInfoExW","winsock.freeaddrinfoex","ws2tcpip/FreeAddrInfoEx","ws2tcpip/FreeAddrInfoExW"]
 old-location: winsock\freeaddrinfoex.htm
 tech.root: WinSock
 ms.assetid: bc3d7ba7-ec00-4ee0-ad7d-d46641043a7b
@@ -94,6 +95,10 @@ When UNICODE or _UNICODE is defined, <b>FreeAddrInfoEx</b> is defined to <b>Free
 
 
 
+
+
+> [!NOTE]
+> The ws2tcpip.h header defines FreeAddrInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

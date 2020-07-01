@@ -1,7 +1,8 @@
 ---
 UID: NN:rometadataapi.IMetaDataTables
 title: IMetaDataTables (rometadataapi.h)
-description: Provides methods for the storage and retrieval of metadata information in tables.helpviewer_keywords: ["IMetaDataTables","IMetaDataTables interface [Windows Runtime]","IMetaDataTables interface [Windows Runtime]","described","rometadataapi/IMetaDataTables","winrt.imetadatatables"]
+description: Provides methods for the storage and retrieval of metadata information in tables.
+helpviewer_keywords: ["IMetaDataTables","IMetaDataTables interface [Windows Runtime]","IMetaDataTables interface [Windows Runtime]","described","rometadataapi/IMetaDataTables","winrt.imetadatatables"]
 old-location: winrt\imetadatatables.htm
 tech.root: WinRT
 ms.assetid: 30d06e87-93a2-4a9c-8843-4c42d7d9e3c8

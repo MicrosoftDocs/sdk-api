@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.VariantGetDoubleElem
 title: VariantGetDoubleElem function (propvarutil.h)
-description: Extracts one double element from a variant structure.helpviewer_keywords: ["VariantGetDoubleElem","VariantGetDoubleElem function [Windows Properties]","_shell_VariantGetDoubleElem","properties.VariantGetDoubleElem","propvarutil/VariantGetDoubleElem","shell.VariantGetDoubleElem"]
+description: Extracts one double element from a variant structure.
+helpviewer_keywords: ["VariantGetDoubleElem","VariantGetDoubleElem function [Windows Properties]","_shell_VariantGetDoubleElem","properties.VariantGetDoubleElem","propvarutil/VariantGetDoubleElem","shell.VariantGetDoubleElem"]
 old-location: properties\VariantGetDoubleElem.htm
 tech.root: properties
 ms.assetid: cc6cb3a0-ba39-4088-8d72-082f6a4e39d3

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.GetChar
 title: ITextRange::GetChar (tom.h)
-description: Gets the character at the start position of the range.helpviewer_keywords: ["GetChar","GetChar method [Windows Controls]","GetChar method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetChar method","ITextRange.GetChar","ITextRange::GetChar","_win32_ITextRange_GetChar","_win32_ITextRange_GetChar_cpp","controls.ITextRange_GetChar","controls._win32_ITextRange_GetChar","tom/ITextRange::GetChar"]
+description: Gets the character at the start position of the range.
+helpviewer_keywords: ["GetChar","GetChar method [Windows Controls]","GetChar method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetChar method","ITextRange.GetChar","ITextRange::GetChar","_win32_ITextRange_GetChar","_win32_ITextRange_GetChar_cpp","controls.ITextRange_GetChar","controls._win32_ITextRange_GetChar","tom/ITextRange::GetChar"]
 old-location: controls\ITextRange_GetChar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getchar.htm

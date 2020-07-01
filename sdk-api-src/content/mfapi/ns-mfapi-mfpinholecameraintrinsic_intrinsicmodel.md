@@ -1,7 +1,8 @@
 ---
 UID: NS:mfapi._MFPinholeCameraIntrinsic_IntrinsicModel
 title: MFPinholeCameraIntrinsic_IntrinsicModel (mfapi.h)
-description: Represents a pinhole camera intrinsic model for a specified resolution.helpviewer_keywords: ["MFPinholeCameraIntrinsic_IntrinsicModel","MFPinholeCameraIntrinsic_IntrinsicModel structure [Media Foundation]","PMFPinholeCameraIntrinsic_IntrinsicModel","PMFPinholeCameraIntrinsic_IntrinsicModel structure pointer [Media Foundation]","mf.mfpinholecameraintrinsic_intrinsicmodel","mfapi/MFPinholeCameraIntrinsic_IntrinsicModel","mfapi/PMFPinholeCameraIntrinsic_IntrinsicModel"]
+description: Represents a pinhole camera intrinsic model for a specified resolution.
+helpviewer_keywords: ["MFPinholeCameraIntrinsic_IntrinsicModel","MFPinholeCameraIntrinsic_IntrinsicModel structure [Media Foundation]","PMFPinholeCameraIntrinsic_IntrinsicModel","PMFPinholeCameraIntrinsic_IntrinsicModel structure pointer [Media Foundation]","mf.mfpinholecameraintrinsic_intrinsicmodel","mfapi/MFPinholeCameraIntrinsic_IntrinsicModel","mfapi/PMFPinholeCameraIntrinsic_IntrinsicModel"]
 old-location: mf\mfpinholecameraintrinsic_intrinsicmodel.htm
 tech.root: medfound
 ms.assetid: 9A8ED71E-A138-4ADE-AB17-543C77590676

@@ -1,7 +1,8 @@
 ---
 UID: NE:spatialaudiohrtf.SpatialAudioHrtfEnvironmentType
 title: SpatialAudioHrtfEnvironmentType (spatialaudiohrtf.h)
-description: Specifies the type of acoustic environment that is simulated when audio is processed for an ISpatialAudioObjectForHrtf.helpviewer_keywords: ["SpatialAudioHrtfEnvironmentType","SpatialAudioHrtfEnvironmentType enumeration [Core Audio]","SpatialAudioHrtfEnvironment_Average","SpatialAudioHrtfEnvironment_Large","SpatialAudioHrtfEnvironment_Medium","SpatialAudioHrtfEnvironment_Outdoors","SpatialAudioHrtfEnvironment_Small","coreaudio.spatialaudiohrtfenvironmenttype","spatialaudiohrtf/SpatialAudioHrtfEnvironmentType","spatialaudiohrtf/SpatialAudioHrtfEnvironment_Average","spatialaudiohrtf/SpatialAudioHrtfEnvironment_Large","spatialaudiohrtf/SpatialAudioHrtfEnvironment_Medium","spatialaudiohrtf/SpatialAudioHrtfEnvironment_Outdoors","spatialaudiohrtf/SpatialAudioHrtfEnvironment_Small"]
+description: Specifies the type of acoustic environment that is simulated when audio is processed for an ISpatialAudioObjectForHrtf.
+helpviewer_keywords: ["SpatialAudioHrtfEnvironmentType","SpatialAudioHrtfEnvironmentType enumeration [Core Audio]","SpatialAudioHrtfEnvironment_Average","SpatialAudioHrtfEnvironment_Large","SpatialAudioHrtfEnvironment_Medium","SpatialAudioHrtfEnvironment_Outdoors","SpatialAudioHrtfEnvironment_Small","coreaudio.spatialaudiohrtfenvironmenttype","spatialaudiohrtf/SpatialAudioHrtfEnvironmentType","spatialaudiohrtf/SpatialAudioHrtfEnvironment_Average","spatialaudiohrtf/SpatialAudioHrtfEnvironment_Large","spatialaudiohrtf/SpatialAudioHrtfEnvironment_Medium","spatialaudiohrtf/SpatialAudioHrtfEnvironment_Outdoors","spatialaudiohrtf/SpatialAudioHrtfEnvironment_Small"]
 old-location: coreaudio\spatialaudiohrtfenvironmenttype.htm
 tech.root: CoreAudio
 ms.assetid: 017FC8D4-2B74-4B13-AF5B-D7FFF97A7E45

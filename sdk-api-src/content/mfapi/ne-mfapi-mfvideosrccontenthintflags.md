@@ -1,7 +1,8 @@
 ---
 UID: NE:mfapi._MFVideoSrcContentHintFlags
 title: MFVideoSrcContentHintFlags (mfapi.h)
-description: Describes the intended aspect ratio for a video stream.helpviewer_keywords: ["6166b880-36bc-4ac3-9d66-d3dd17c29ae7","MFVideoSrcContentHintFlag_16x9","MFVideoSrcContentHintFlag_235_1","MFVideoSrcContentHintFlag_None","MFVideoSrcContentHintFlags","MFVideoSrcContentHintFlags enumeration [Media Foundation]","mf.mfvideosrccontenthintflags","mfapi/MFVideoSrcContentHintFlag_16x9","mfapi/MFVideoSrcContentHintFlag_235_1","mfapi/MFVideoSrcContentHintFlag_None","mfapi/MFVideoSrcContentHintFlags"]
+description: Describes the intended aspect ratio for a video stream.
+helpviewer_keywords: ["6166b880-36bc-4ac3-9d66-d3dd17c29ae7","MFVideoSrcContentHintFlag_16x9","MFVideoSrcContentHintFlag_235_1","MFVideoSrcContentHintFlag_None","MFVideoSrcContentHintFlags","MFVideoSrcContentHintFlags enumeration [Media Foundation]","mf.mfvideosrccontenthintflags","mfapi/MFVideoSrcContentHintFlag_16x9","mfapi/MFVideoSrcContentHintFlag_235_1","mfapi/MFVideoSrcContentHintFlag_None","mfapi/MFVideoSrcContentHintFlags"]
 old-location: mf\mfvideosrccontenthintflags.htm
 tech.root: medfound
 ms.assetid: 6166b880-36bc-4ac3-9d66-d3dd17c29ae7

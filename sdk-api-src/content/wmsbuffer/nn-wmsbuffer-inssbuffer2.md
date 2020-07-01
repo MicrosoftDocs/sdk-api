@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsbuffer.INSSBuffer2
 title: INSSBuffer2 (wmsbuffer.h)
-description: The INSSBuffer2 interface inherits from INSSBuffer and defines two additional methods. Currently, neither of these methods is implemented.helpviewer_keywords: ["INSSBuffer2","INSSBuffer2 interface [windows Media Format]","INSSBuffer2 interface [windows Media Format]","described","INSSBuffer2Interface","wmformat.inssbuffer2","wmsbuffer/INSSBuffer2"]
+description: The INSSBuffer2 interface inherits from INSSBuffer and defines two additional methods. Currently, neither of these methods is implemented.
+helpviewer_keywords: ["INSSBuffer2","INSSBuffer2 interface [windows Media Format]","INSSBuffer2 interface [windows Media Format]","described","INSSBuffer2Interface","wmformat.inssbuffer2","wmsbuffer/INSSBuffer2"]
 old-location: wmformat\inssbuffer2.htm
 tech.root: wmformat
 ms.assetid: 74d174a1-ede8-482c-ae42-19ca65c6cad4

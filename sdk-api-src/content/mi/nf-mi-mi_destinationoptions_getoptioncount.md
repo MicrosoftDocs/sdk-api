@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetOptionCount
 title: MI_DestinationOptions_GetOptionCount function (mi.h)
-description: Gets the number of options previously added.helpviewer_keywords: ["MI_DestinationOptions_GetOptionCount","MI_DestinationOptions_GetOptionCount function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetOptionCount","wmi_v2.mi_destinationoptions_getoptioncount"]
+description: Gets the number of options previously added.
+helpviewer_keywords: ["MI_DestinationOptions_GetOptionCount","MI_DestinationOptions_GetOptionCount function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetOptionCount","wmi_v2.mi_destinationoptions_getoptioncount"]
 old-location: wmi_v2\mi_destinationoptions_getoptioncount.htm
 tech.root: wmi_v2
 ms.assetid: 8bfbd58d-3c9d-4828-9922-ba13033a6c96

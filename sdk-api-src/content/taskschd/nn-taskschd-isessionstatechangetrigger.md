@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.ISessionStateChangeTrigger
 title: ISessionStateChangeTrigger (taskschd.h)
-description: Triggers tasks for console connect or disconnect, remote connect or disconnect, or workstation lock or unlock notifications.helpviewer_keywords: ["ISessionStateChangeTrigger","ISessionStateChangeTrigger interface [Task Scheduler]","ISessionStateChangeTrigger interface [Task Scheduler]","described","taskschd.isessionstatechangetrigger","taskschd/ISessionStateChangeTrigger"]
+description: Triggers tasks for console connect or disconnect, remote connect or disconnect, or workstation lock or unlock notifications.
+helpviewer_keywords: ["ISessionStateChangeTrigger","ISessionStateChangeTrigger interface [Task Scheduler]","ISessionStateChangeTrigger interface [Task Scheduler]","described","taskschd.isessionstatechangetrigger","taskschd/ISessionStateChangeTrigger"]
 old-location: taskschd\isessionstatechangetrigger.htm
 tech.root: taskschd
 ms.assetid: 0bf56d67-6c44-4978-93a9-7b525f2bf140

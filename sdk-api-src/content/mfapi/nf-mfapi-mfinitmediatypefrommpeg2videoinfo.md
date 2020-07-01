@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFInitMediaTypeFromMPEG2VideoInfo
 title: MFInitMediaTypeFromMPEG2VideoInfo function (mfapi.h)
-description: Initializes a media type from a DirectShow MPEG2VIDEOINFO structure.helpviewer_keywords: ["44ad976e-2b15-454c-9422-26fc960e03aa","MFInitMediaTypeFromMPEG2VideoInfo","MFInitMediaTypeFromMPEG2VideoInfo function [Media Foundation]","mf.mfinitmediatypefrommpeg2videoinfo","mfapi/MFInitMediaTypeFromMPEG2VideoInfo"]
+description: Initializes a media type from a DirectShow MPEG2VIDEOINFO structure.
+helpviewer_keywords: ["44ad976e-2b15-454c-9422-26fc960e03aa","MFInitMediaTypeFromMPEG2VideoInfo","MFInitMediaTypeFromMPEG2VideoInfo function [Media Foundation]","mf.mfinitmediatypefrommpeg2videoinfo","mfapi/MFInitMediaTypeFromMPEG2VideoInfo"]
 old-location: mf\mfinitmediatypefrommpeg2videoinfo.htm
 tech.root: medfound
 ms.assetid: 44ad976e-2b15-454c-9422-26fc960e03aa

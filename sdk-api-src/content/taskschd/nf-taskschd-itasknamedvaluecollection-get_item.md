@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.get_Item
 title: ITaskNamedValueCollection::get_Item (taskschd.h)
-description: Gets the specified name-value pair from the collection.helpviewer_keywords: ["ITaskNamedValueCollection interface [Task Scheduler]","Item property","ITaskNamedValueCollection.Item","ITaskNamedValueCollection.get_Item","ITaskNamedValueCollection::Item","ITaskNamedValueCollection::get_Item","Item property [Task Scheduler]","Item property [Task Scheduler]","ITaskNamedValueCollection interface","get_Item","taskschd.itasknamedvaluecollection_item","taskschd/ITaskNamedValueCollection::Item","taskschd/ITaskNamedValueCollection::get_Item"]
+description: Gets the specified name-value pair from the collection.
+helpviewer_keywords: ["ITaskNamedValueCollection interface [Task Scheduler]","Item property","ITaskNamedValueCollection.Item","ITaskNamedValueCollection.get_Item","ITaskNamedValueCollection::Item","ITaskNamedValueCollection::get_Item","Item property [Task Scheduler]","Item property [Task Scheduler]","ITaskNamedValueCollection interface","get_Item","taskschd.itasknamedvaluecollection_item","taskschd/ITaskNamedValueCollection::Item","taskschd/ITaskNamedValueCollection::get_Item"]
 old-location: taskschd\itasknamedvaluecollection_item.htm
 tech.root: taskschd
 ms.assetid: a243b814-7d83-466d-bd49-3414f3240780

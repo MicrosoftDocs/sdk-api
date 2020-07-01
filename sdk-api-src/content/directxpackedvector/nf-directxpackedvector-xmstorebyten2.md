@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMStoreByteN2
 title: XMStoreByteN2 function (directxpackedvector.h)
-description: Stores an XMVECTOR in an XMBYTEN2.helpviewer_keywords: ["DirectX::PackedVector.XMStoreByteN2","XMStoreByteN2","XMStoreByteN2 method [DirectX Math Support APIs]","dxmath.xmstorebyten2"]
+description: Stores an XMVECTOR in an XMBYTEN2.
+helpviewer_keywords: ["DirectX::PackedVector.XMStoreByteN2","XMStoreByteN2","XMStoreByteN2 method [DirectX Math Support APIs]","dxmath.xmstorebyten2"]
 old-location: dxmath\xmstorebyten2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreByteN2(XMBYTEN2@,XMVECTOR)

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmiutils.IWbemPath
 title: IWbemPath (wmiutils.h)
-description: The IWbemPath interface is the primary interface for the object path parser and makes parsing a path available to programs in a standard way. This interface is the main interface for setting and retrieving path information.helpviewer_keywords: ["IWbemPath","IWbemPath interface [Windows Management Instrumentation]","IWbemPath interface [Windows Management Instrumentation]","described","WbemDefPath","_hmm_iwbempath","wmi.iwbempath","wmiutils/IWbemPath"]
+description: The IWbemPath interface is the primary interface for the object path parser and makes parsing a path available to programs in a standard way. This interface is the main interface for setting and retrieving path information.
+helpviewer_keywords: ["IWbemPath","IWbemPath interface [Windows Management Instrumentation]","IWbemPath interface [Windows Management Instrumentation]","described","WbemDefPath","_hmm_iwbempath","wmi.iwbempath","wmiutils/IWbemPath"]
 old-location: wmi\iwbempath.htm
 tech.root: WmiSdk
 ms.assetid: 71b2597b-d82a-439d-b0b7-af76aefea6a2

@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.IsCallerInRole
 title: ISecurityCallContext::IsCallerInRole (comsvcs.h)
-description: Determines whether the direct caller is in the specified role.helpviewer_keywords: ["ISecurityCallContext interface [COM+]","IsCallerInRole method","ISecurityCallContext.IsCallerInRole","ISecurityCallContext::IsCallerInRole","IsCallerInRole","IsCallerInRole method [COM+]","IsCallerInRole method [COM+]","ISecurityCallContext interface","_cos_ISecurityCallContext_IsCallerInRole","comsvcs/ISecurityCallContext::IsCallerInRole","cos.isecuritycallcontext_iscallerinrole"]
+description: Determines whether the direct caller is in the specified role.
+helpviewer_keywords: ["ISecurityCallContext interface [COM+]","IsCallerInRole method","ISecurityCallContext.IsCallerInRole","ISecurityCallContext::IsCallerInRole","IsCallerInRole","IsCallerInRole method [COM+]","IsCallerInRole method [COM+]","ISecurityCallContext interface","_cos_ISecurityCallContext_IsCallerInRole","comsvcs/ISecurityCallContext::IsCallerInRole","cos.isecuritycallcontext_iscallerinrole"]
 old-location: cos\isecuritycallcontext_iscallerinrole.htm
 tech.root: cossdk
 ms.assetid: 544deb46-6427-4936-97a6-ea995b5e77ba

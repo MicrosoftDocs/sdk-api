@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarUI2FromBool
 title: VarUI2FromBool function (oleauto.h)
-description: Converts a Boolean value to an unsigned short value.helpviewer_keywords: ["VarUI2FromBool","VarUI2FromBool function [Automation]","_oa96_VarUI2FromBool","automat.varui2frombool","oleauto/VarUI2FromBool"]
+description: Converts a Boolean value to an unsigned short value.
+helpviewer_keywords: ["VarUI2FromBool","VarUI2FromBool function [Automation]","_oa96_VarUI2FromBool","automat.varui2frombool","oleauto/VarUI2FromBool"]
 old-location: automat\varui2frombool.htm
 tech.root: automat
 ms.assetid: 0d1ee7cf-3d3b-49a3-9afa-9ee5afc49d19

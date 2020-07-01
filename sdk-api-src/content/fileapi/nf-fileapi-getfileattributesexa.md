@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.GetFileAttributesExA
 title: GetFileAttributesExA function (fileapi.h)
-description: Retrieves attributes for a specified file or directory.helpviewer_keywords: ["GetFileAttributesEx","GetFileAttributesEx function [Files]","GetFileAttributesExA","GetFileAttributesExW","GetFileExInfoStandard","_win32_getfileattributesex","base.getfileattributesex","fileapi/GetFileAttributesEx","fileapi/GetFileAttributesExA","fileapi/GetFileAttributesExW","fs.getfileattributesex","winbase/GetFileAttributesEx","winbase/GetFileAttributesExA","winbase/GetFileAttributesExW"]
+description: Retrieves attributes for a specified file or directory.
+helpviewer_keywords: ["GetFileAttributesEx","GetFileAttributesEx function [Files]","GetFileAttributesExA","GetFileAttributesExW","GetFileExInfoStandard","_win32_getfileattributesex","base.getfileattributesex","fileapi/GetFileAttributesEx","fileapi/GetFileAttributesExA","fileapi/GetFileAttributesExW","fs.getfileattributesex","winbase/GetFileAttributesEx","winbase/GetFileAttributesExA","winbase/GetFileAttributesExW"]
 old-location: fs\getfileattributesex.htm
 tech.root: FileIO
 ms.assetid: e5d84000-17c1-4517-97a7-6bd240d73814
@@ -220,6 +221,10 @@ If a file is open for modification in a transaction, no other thread can open th
 
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines GetFileAttributesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

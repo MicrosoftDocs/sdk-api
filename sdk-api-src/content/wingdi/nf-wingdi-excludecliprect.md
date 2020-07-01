@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.ExcludeClipRect
 title: ExcludeClipRect function (wingdi.h)
-description: The ExcludeClipRect function creates a new clipping region that consists of the existing clipping region minus the specified rectangle.helpviewer_keywords: ["ExcludeClipRect","ExcludeClipRect function [Windows GDI]","_win32_ExcludeClipRect","gdi.excludecliprect","wingdi/ExcludeClipRect"]
+description: The ExcludeClipRect function creates a new clipping region that consists of the existing clipping region minus the specified rectangle.
+helpviewer_keywords: ["ExcludeClipRect","ExcludeClipRect function [Windows GDI]","_win32_ExcludeClipRect","gdi.excludecliprect","wingdi/ExcludeClipRect"]
 old-location: gdi\excludecliprect.htm
 tech.root: gdi
 ms.assetid: 5b29c44a-3959-498e-8327-c42ef16a8609

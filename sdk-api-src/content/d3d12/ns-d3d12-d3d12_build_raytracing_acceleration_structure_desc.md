@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC
 title: D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC (d3d12.h)
-description: Describes a raytracing acceleration structure. Pass this structure into ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure to describe the acceleration structure to be built.helpviewer_keywords: ["D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC","D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC structure","PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC","PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC structure pointer","d3d12/D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC","d3d12/PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC","direct3d12.d3d12_build_raytracing_acceleration_structure_desc"]
+description: Describes a raytracing acceleration structure. Pass this structure into ID3D12GraphicsCommandList4::BuildRaytracingAccelerationStructure to describe the acceleration structure to be built.
+helpviewer_keywords: ["D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC","D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC structure","PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC","PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC structure pointer","d3d12/D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC","d3d12/PD3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_DESC","direct3d12.d3d12_build_raytracing_acceleration_structure_desc"]
 old-location: direct3d12\d3d12_build_raytracing_acceleration_structure_desc.htm
 tech.root: direct3d12
 ms.assetid: C73A3A59-1184-401C-AF45-CBF12419852E

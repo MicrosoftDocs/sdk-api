@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.RemoveDirectoryA
 title: RemoveDirectoryA function (fileapi.h)
-description: Deletes an existing empty directory.helpviewer_keywords: ["RemoveDirectory","RemoveDirectory function [Files]","RemoveDirectoryA","RemoveDirectoryW","_win32_removedirectory","base.removedirectory","fileapi/RemoveDirectory","fileapi/RemoveDirectoryA","fileapi/RemoveDirectoryW","fs.removedirectory","winbase/RemoveDirectory","winbase/RemoveDirectoryA","winbase/RemoveDirectoryW"]
+description: Deletes an existing empty directory.
+helpviewer_keywords: ["RemoveDirectory","RemoveDirectory function [Files]","RemoveDirectoryA","RemoveDirectoryW","_win32_removedirectory","base.removedirectory","fileapi/RemoveDirectory","fileapi/RemoveDirectoryA","fileapi/RemoveDirectoryW","fs.removedirectory","winbase/RemoveDirectory","winbase/RemoveDirectoryA","winbase/RemoveDirectoryW"]
 old-location: fs\removedirectory.htm
 tech.root: FileIO
 ms.assetid: d699cdd2-e270-4f17-bdec-6eea25b01578
@@ -171,6 +172,10 @@ Yes
 
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines RemoveDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

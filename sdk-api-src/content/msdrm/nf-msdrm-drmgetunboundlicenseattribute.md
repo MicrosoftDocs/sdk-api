@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMGetUnboundLicenseAttribute
 title: DRMGetUnboundLicenseAttribute function (msdrm.h)
-description: Retrieves an unbound license attribute from the underlying XrML.helpviewer_keywords: ["DRMGetUnboundLicenseAttribute","DRMGetUnboundLicenseAttribute function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetUnboundLicenseAttribute","rm.drmgetunboundlicenseattribute"]
+description: Retrieves an unbound license attribute from the underlying XrML.
+helpviewer_keywords: ["DRMGetUnboundLicenseAttribute","DRMGetUnboundLicenseAttribute function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetUnboundLicenseAttribute","rm.drmgetunboundlicenseattribute"]
 old-location: rm\drmgetunboundlicenseattribute.htm
 tech.root: AdRms_Sdk
 ms.assetid: 4ddf2920-95ea-47be-a5dd-b68eee2de29e

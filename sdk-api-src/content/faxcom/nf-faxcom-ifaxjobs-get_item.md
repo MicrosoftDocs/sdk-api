@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxJobs.get_Item
 title: IFaxJobs::get_Item (faxcom.h)
-description: The IFaxJobs::get_Item method returns a new FaxJob object for a specified fax job. The object allows enumeration of the fax jobs associated with a connected fax server.helpviewer_keywords: ["IFaxJobs interface [Fax Service]","get_Item method","IFaxJobs.get_Item","IFaxJobs::get_Item","_mfax_ifaxjobs_get_item","fax._mfax_ifaxjobs_get_item","faxcom/IFaxJobs::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxJobs interface"]
+description: The IFaxJobs::get_Item method returns a new FaxJob object for a specified fax job. The object allows enumeration of the fax jobs associated with a connected fax server.
+helpviewer_keywords: ["IFaxJobs interface [Fax Service]","get_Item method","IFaxJobs.get_Item","IFaxJobs::get_Item","_mfax_ifaxjobs_get_item","fax._mfax_ifaxjobs_get_item","faxcom/IFaxJobs::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxJobs interface"]
 old-location: fax\_mfax_ifaxjobs_get_item.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1zn1.htm

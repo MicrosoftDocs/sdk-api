@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFactory.UnregisterFontFileLoader
 title: IDWriteFactory::UnregisterFontFileLoader (dwrite.h)
-description: Unregisters a font file loader that was previously registered with the DirectWrite font system using RegisterFontFileLoader.helpviewer_keywords: ["IDWriteFactory interface [Direct Write]","UnregisterFontFileLoader method","IDWriteFactory.UnregisterFontFileLoader","IDWriteFactory::UnregisterFontFileLoader","UnregisterFontFileLoader","UnregisterFontFileLoader method [Direct Write]","UnregisterFontFileLoader method [Direct Write]","IDWriteFactory interface","directwrite.IDWriteFactory_UnregisterFontFileLoader","dwrite/IDWriteFactory::UnregisterFontFileLoader"]
+description: Unregisters a font file loader that was previously registered with the DirectWrite font system using RegisterFontFileLoader.
+helpviewer_keywords: ["IDWriteFactory interface [Direct Write]","UnregisterFontFileLoader method","IDWriteFactory.UnregisterFontFileLoader","IDWriteFactory::UnregisterFontFileLoader","UnregisterFontFileLoader","UnregisterFontFileLoader method [Direct Write]","UnregisterFontFileLoader method [Direct Write]","IDWriteFactory interface","directwrite.IDWriteFactory_UnregisterFontFileLoader","dwrite/IDWriteFactory::UnregisterFontFileLoader"]
 old-location: directwrite\IDWriteFactory_UnregisterFontFileLoader.htm
 tech.root: DirectWrite
 ms.assetid: f048671e-dfb6-449d-9bcd-e5df8408c01a

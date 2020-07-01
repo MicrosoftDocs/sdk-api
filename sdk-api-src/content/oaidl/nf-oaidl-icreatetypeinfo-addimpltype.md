@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddImplType
 title: ICreateTypeInfo::AddImplType (oaidl.h)
-description: Specifies an inherited interface, or an interface implemented by a component object class (coclass).helpviewer_keywords: ["AddImplType","AddImplType method [Automation]","AddImplType method [Automation]","ICreateTypeInfo interface","ICreateTypeInfo interface [Automation]","AddImplType method","ICreateTypeInfo.AddImplType","ICreateTypeInfo::AddImplType","_oa96_ICreateTypeInfo_AddImplType","automat.icreatetypeinfo_addimpltype","oaidl/ICreateTypeInfo::AddImplType"]
+description: Specifies an inherited interface, or an interface implemented by a component object class (coclass).
+helpviewer_keywords: ["AddImplType","AddImplType method [Automation]","AddImplType method [Automation]","ICreateTypeInfo interface","ICreateTypeInfo interface [Automation]","AddImplType method","ICreateTypeInfo.AddImplType","ICreateTypeInfo::AddImplType","_oa96_ICreateTypeInfo_AddImplType","automat.icreatetypeinfo_addimpltype","oaidl/ICreateTypeInfo::AddImplType"]
 old-location: automat\icreatetypeinfo_addimpltype.htm
 tech.root: automat
 ms.assetid: fef8421f-67de-402b-8efd-7a104c84ca6e

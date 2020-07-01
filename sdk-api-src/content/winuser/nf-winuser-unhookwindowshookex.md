@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.UnhookWindowsHookEx
 title: UnhookWindowsHookEx function (winuser.h)
-description: Removes a hook procedure installed in a hook chain by the SetWindowsHookEx function.helpviewer_keywords: ["UnhookWindowsHookEx","UnhookWindowsHookEx function [Windows and Messages]","_win32_UnhookWindowsHookEx","_win32_unhookwindowshookex_cpp","winmsg.unhookwindowshookex","winui._win32_unhookwindowshookex","winuser/UnhookWindowsHookEx"]
+description: Removes a hook procedure installed in a hook chain by the SetWindowsHookEx function.
+helpviewer_keywords: ["UnhookWindowsHookEx","UnhookWindowsHookEx function [Windows and Messages]","_win32_UnhookWindowsHookEx","_win32_unhookwindowshookex_cpp","winmsg.unhookwindowshookex","winui._win32_unhookwindowshookex","winuser/UnhookWindowsHookEx"]
 old-location: winmsg\unhookwindowshookex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\unhookwindowshookex.htm

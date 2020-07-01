@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeTextExtent
 title: GetThemeTextExtent function (uxtheme.h)
-description: Calculates the size and location of the specified text when rendered in the visual style font.helpviewer_keywords: ["GetThemeTextExtent","GetThemeTextExtent function [Windows Controls]","controls.GetThemeTextExtent","controls.inet_GetThemeTextExtent","inet_GetThemeTextExtent","inet_GetThemeTextExtent_cpp","uxtheme/GetThemeTextExtent"]
+description: Calculates the size and location of the specified text when rendered in the visual style font.
+helpviewer_keywords: ["GetThemeTextExtent","GetThemeTextExtent function [Windows Controls]","controls.GetThemeTextExtent","controls.inet_GetThemeTextExtent","inet_GetThemeTextExtent","inet_GetThemeTextExtent_cpp","uxtheme/GetThemeTextExtent"]
 old-location: controls\GetThemeTextExtent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemetextextent.htm

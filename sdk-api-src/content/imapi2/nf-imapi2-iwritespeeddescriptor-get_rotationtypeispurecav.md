@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IWriteSpeedDescriptor.get_RotationTypeIsPureCAV
 title: IWriteSpeedDescriptor::get_RotationTypeIsPureCAV (imapi2.h)
-description: Retrieves the supported rotational-speed control used by the recorder for the current media.helpviewer_keywords: ["IWriteSpeedDescriptor interface [IMAPI]","get_RotationTypeIsPureCAV method","IWriteSpeedDescriptor.get_RotationTypeIsPureCAV","IWriteSpeedDescriptor::get_RotationTypeIsPureCAV","get_RotationTypeIsPureCAV","get_RotationTypeIsPureCAV method [IMAPI]","get_RotationTypeIsPureCAV method [IMAPI]","IWriteSpeedDescriptor interface","imapi.iwritespeeddescriptor_get_rotationtypeispurecav","imapi2/IWriteSpeedDescriptor::get_RotationTypeIsPureCAV"]
+description: Retrieves the supported rotational-speed control used by the recorder for the current media.
+helpviewer_keywords: ["IWriteSpeedDescriptor interface [IMAPI]","get_RotationTypeIsPureCAV method","IWriteSpeedDescriptor.get_RotationTypeIsPureCAV","IWriteSpeedDescriptor::get_RotationTypeIsPureCAV","get_RotationTypeIsPureCAV","get_RotationTypeIsPureCAV method [IMAPI]","get_RotationTypeIsPureCAV method [IMAPI]","IWriteSpeedDescriptor interface","imapi.iwritespeeddescriptor_get_rotationtypeispurecav","imapi2/IWriteSpeedDescriptor::get_RotationTypeIsPureCAV"]
 old-location: imapi\iwritespeeddescriptor_get_rotationtypeispurecav.htm
 tech.root: imapi
 ms.assetid: 36c509a2-6592-4fa0-8e4a-4b21f4cf7a13

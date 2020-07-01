@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.OffsetRgn
 title: OffsetRgn function (wingdi.h)
-description: The OffsetRgn function moves a region by the specified offsets.helpviewer_keywords: ["OffsetRgn","OffsetRgn function [Windows GDI]","_win32_OffsetRgn","gdi.offsetrgn","wingdi/OffsetRgn"]
+description: The OffsetRgn function moves a region by the specified offsets.
+helpviewer_keywords: ["OffsetRgn","OffsetRgn function [Windows GDI]","_win32_OffsetRgn","gdi.offsetrgn","wingdi/OffsetRgn"]
 old-location: gdi\offsetrgn.htm
 tech.root: gdi
 ms.assetid: 5228c614-3278-4852-a867-7eed57359aef

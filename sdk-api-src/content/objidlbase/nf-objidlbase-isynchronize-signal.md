@@ -1,7 +1,8 @@
 ---
 UID: NF:objidlbase.ISynchronize.Signal
 title: ISynchronize::Signal (objidlbase.h)
-description: Sets the synchronization object to the signaled state and causes pending wait operations to return S_OK.helpviewer_keywords: ["ISynchronize interface [COM]","Signal method","ISynchronize.Signal","ISynchronize::Signal","Signal","Signal method [COM]","Signal method [COM]","ISynchronize interface","_com_isynchronize_signal","com.isynchronize_signal","objidlbase/ISynchronize::Signal"]
+description: Sets the synchronization object to the signaled state and causes pending wait operations to return S_OK.
+helpviewer_keywords: ["ISynchronize interface [COM]","Signal method","ISynchronize.Signal","ISynchronize::Signal","Signal","Signal method [COM]","Signal method [COM]","ISynchronize interface","_com_isynchronize_signal","com.isynchronize_signal","objidlbase/ISynchronize::Signal"]
 old-location: com\isynchronize_signal.htm
 tech.root: com
 ms.assetid: c55b9ffc-2e28-427b-8c77-349f554469e5

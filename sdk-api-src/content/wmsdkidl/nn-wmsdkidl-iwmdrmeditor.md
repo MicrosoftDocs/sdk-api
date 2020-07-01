@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMDRMEditor
 title: IWMDRMEditor (wmsdkidl.h)
-description: The IWMDRMEditor interface is exposed on the metadata editor object.helpviewer_keywords: ["IWMDRMEditor","IWMDRMEditor interface [windows Media Format]","IWMDRMEditor interface [windows Media Format]","described","IWMDRMEditorInterface","wmformat.iwmdrmeditor","wmsdkidl/IWMDRMEditor"]
+description: The IWMDRMEditor interface is exposed on the metadata editor object.
+helpviewer_keywords: ["IWMDRMEditor","IWMDRMEditor interface [windows Media Format]","IWMDRMEditor interface [windows Media Format]","described","IWMDRMEditorInterface","wmformat.iwmdrmeditor","wmsdkidl/IWMDRMEditor"]
 old-location: wmformat\iwmdrmeditor.htm
 tech.root: wmformat
 ms.assetid: a404d30d-0b42-44c9-93e6-3eb9ef9e40fc

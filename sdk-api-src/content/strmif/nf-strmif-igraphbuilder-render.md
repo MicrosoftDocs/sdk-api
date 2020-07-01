@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IGraphBuilder.Render
 title: IGraphBuilder::Render (strmif.h)
-description: The Render method builds a filter graph that renders the data from a specified output pin.helpviewer_keywords: ["IGraphBuilder interface [DirectShow]","Render method","IGraphBuilder.Render","IGraphBuilder::Render","IGraphBuilderRender","Render","Render method [DirectShow]","Render method [DirectShow]","IGraphBuilder interface","dshow.igraphbuilder_render","strmif/IGraphBuilder::Render"]
+description: The Render method builds a filter graph that renders the data from a specified output pin.
+helpviewer_keywords: ["IGraphBuilder interface [DirectShow]","Render method","IGraphBuilder.Render","IGraphBuilder::Render","IGraphBuilderRender","Render","Render method [DirectShow]","Render method [DirectShow]","IGraphBuilder interface","dshow.igraphbuilder_render","strmif/IGraphBuilder::Render"]
 old-location: dshow\igraphbuilder_render.htm
 tech.root: DirectShow
 ms.assetid: de3adac7-ff99-4415-9afc-e25ad420df59

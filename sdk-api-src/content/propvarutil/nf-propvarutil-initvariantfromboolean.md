@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitVariantFromBoolean
 title: InitVariantFromBoolean function (propvarutil.h)
-description: Initializes a VARIANT structure with a Boolean value.helpviewer_keywords: ["InitVariantFromBoolean","InitVariantFromBoolean function [Windows Properties]","_shell_InitVariantFromBoolean","properties.InitVariantFromBoolean","propvarutil/InitVariantFromBoolean","shell.InitVariantFromBoolean"]
+description: Initializes a VARIANT structure with a Boolean value.
+helpviewer_keywords: ["InitVariantFromBoolean","InitVariantFromBoolean function [Windows Properties]","_shell_InitVariantFromBoolean","properties.InitVariantFromBoolean","propvarutil/InitVariantFromBoolean","shell.InitVariantFromBoolean"]
 old-location: properties\InitVariantFromBoolean.htm
 tech.root: properties
 ms.assetid: 155af0c9-bc1a-4d57-a2fc-dc22a0b1abe3

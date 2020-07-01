@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagICEXYZTRIPLE
 title: CIEXYZTRIPLE (wingdi.h)
-description: The CIEXYZTRIPLE structure contains the x,y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for a specified logical color space.helpviewer_keywords: ["*LPCIEXYZTRIPLE","CIEXYZTRIPLE","CIEXYZTRIPLE structure [Windows Color System]","CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE","CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE structure [Windows Color System]","_color_CIEXYZTRIPLE_str","wcs.ciexyztriple","wingdi/CIEXYZTRIPLE"]
+description: The CIEXYZTRIPLE structure contains the x,y, and z coordinates of the three colors that correspond to the red, green, and blue endpoints for a specified logical color space.
+helpviewer_keywords: ["*LPCIEXYZTRIPLE","CIEXYZTRIPLE","CIEXYZTRIPLE structure [Windows Color System]","CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE","CIEXYZTRIPLE typedef CIEXYZTRIPLE FAR* LPCIEXYZTRIPLE structure [Windows Color System]","_color_CIEXYZTRIPLE_str","wcs.ciexyztriple","wingdi/CIEXYZTRIPLE"]
 old-location: wcs\ciexyztriple.htm
 tech.root: WCS
 ms.assetid: cf4473b0-7e54-42d1-a013-2442a540daee

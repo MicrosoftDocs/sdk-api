@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMStorage3.CreateEmptyMetadataObject
 title: IWMDMStorage3::CreateEmptyMetadataObject (mswmdm.h)
-description: The CreateEmptyMetadataObject method creates a new IWMDMMetaData interface. This interface is used to set or retrieve metadata properties of a storage.helpviewer_keywords: ["CreateEmptyMetadataObject","CreateEmptyMetadataObject method [windows Media Device Manager]","CreateEmptyMetadataObject method [windows Media Device Manager]","IWMDMStorage3 interface","IWMDMStorage3 interface [windows Media Device Manager]","CreateEmptyMetadataObject method","IWMDMStorage3.CreateEmptyMetadataObject","IWMDMStorage3::CreateEmptyMetadataObject","IWMDMStorage3CreateEmptyMetadataObject","mswmdm/IWMDMStorage3::CreateEmptyMetadataObject","wmdm.iwmdmstorage3_createemptymetadataobject"]
+description: The CreateEmptyMetadataObject method creates a new IWMDMMetaData interface. This interface is used to set or retrieve metadata properties of a storage.
+helpviewer_keywords: ["CreateEmptyMetadataObject","CreateEmptyMetadataObject method [windows Media Device Manager]","CreateEmptyMetadataObject method [windows Media Device Manager]","IWMDMStorage3 interface","IWMDMStorage3 interface [windows Media Device Manager]","CreateEmptyMetadataObject method","IWMDMStorage3.CreateEmptyMetadataObject","IWMDMStorage3::CreateEmptyMetadataObject","IWMDMStorage3CreateEmptyMetadataObject","mswmdm/IWMDMStorage3::CreateEmptyMetadataObject","wmdm.iwmdmstorage3_createemptymetadataobject"]
 old-location: wmdm\iwmdmstorage3_createemptymetadataobject.htm
 tech.root: WMDM
 ms.assetid: e46b5f30-3dd9-4e5a-bd75-c7716a1d8a2a

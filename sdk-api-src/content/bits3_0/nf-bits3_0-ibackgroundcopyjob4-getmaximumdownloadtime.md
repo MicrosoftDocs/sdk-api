@@ -1,7 +1,8 @@
 ---
 UID: NF:bits3_0.IBackgroundCopyJob4.GetMaximumDownloadTime
 title: IBackgroundCopyJob4::GetMaximumDownloadTime (bits3_0.h)
-description: Retrieves the maximum time that BITS will spend transferring the files in the job.helpviewer_keywords: ["GetMaximumDownloadTime","GetMaximumDownloadTime method [BITS]","GetMaximumDownloadTime method [BITS]","IBackgroundCopyJob4 interface","IBackgroundCopyJob4 interface [BITS]","GetMaximumDownloadTime method","IBackgroundCopyJob4.GetMaximumDownloadTime","IBackgroundCopyJob4::GetMaximumDownloadTime","bits.ibackgroundcopyjob4_getmaximumdownloadtime","bits3_0/IBackgroundCopyJob4::GetMaximumDownloadTime"]
+description: Retrieves the maximum time that BITS will spend transferring the files in the job.
+helpviewer_keywords: ["GetMaximumDownloadTime","GetMaximumDownloadTime method [BITS]","GetMaximumDownloadTime method [BITS]","IBackgroundCopyJob4 interface","IBackgroundCopyJob4 interface [BITS]","GetMaximumDownloadTime method","IBackgroundCopyJob4.GetMaximumDownloadTime","IBackgroundCopyJob4::GetMaximumDownloadTime","bits.ibackgroundcopyjob4_getmaximumdownloadtime","bits3_0/IBackgroundCopyJob4::GetMaximumDownloadTime"]
 old-location: bits\ibackgroundcopyjob4_getmaximumdownloadtime.htm
 tech.root: Bits
 ms.assetid: 2d258dc4-a6fd-46d7-ac90-2703c8ddc666

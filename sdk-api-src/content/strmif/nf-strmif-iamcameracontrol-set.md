@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMCameraControl.Set
 title: IAMCameraControl::Set (strmif.h)
-description: The Set method sets a specified property on the camera.helpviewer_keywords: ["IAMCameraControl interface [DirectShow]","Set method","IAMCameraControl.Set","IAMCameraControl::Set","IAMCameraControlSet","Set","Set method [DirectShow]","Set method [DirectShow]","IAMCameraControl interface","dshow.iamcameracontrol_set","strmif/IAMCameraControl::Set"]
+description: The Set method sets a specified property on the camera.
+helpviewer_keywords: ["IAMCameraControl interface [DirectShow]","Set method","IAMCameraControl.Set","IAMCameraControl::Set","IAMCameraControlSet","Set","Set method [DirectShow]","Set method [DirectShow]","IAMCameraControl interface","dshow.iamcameracontrol_set","strmif/IAMCameraControl::Set"]
 old-location: dshow\iamcameracontrol_set.htm
 tech.root: DirectShow
 ms.assetid: d896fb5e-a43b-4cb8-a5d1-4ce6e60831be

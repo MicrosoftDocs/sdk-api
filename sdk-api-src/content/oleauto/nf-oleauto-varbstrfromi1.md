@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarBstrFromI1
 title: VarBstrFromI1 function (oleauto.h)
-description: Converts a char value to a BSTR value.helpviewer_keywords: ["VarBstrFromI1","VarBstrFromI1 function [Automation]","_oa96_VarBstrFromI1","automat.varbstrfromi1","oleauto/VarBstrFromI1"]
+description: Converts a char value to a BSTR value.
+helpviewer_keywords: ["VarBstrFromI1","VarBstrFromI1 function [Automation]","_oa96_VarBstrFromI1","automat.varbstrfromi1","oleauto/VarBstrFromI1"]
 old-location: automat\varbstrfromi1.htm
 tech.root: automat
 ms.assetid: a11d772c-aace-4d8f-93b3-8425a4888848

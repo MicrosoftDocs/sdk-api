@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IHeaderCtrl.InsertColumn
 title: IHeaderCtrl::InsertColumn (mmc.h)
-description: Adds a column to a default result pane.helpviewer_keywords: ["HIDE_COLUMN","IHeaderCtrl interface [MMC]","InsertColumn method","IHeaderCtrl.InsertColumn","IHeaderCtrl::InsertColumn","InsertColumn","InsertColumn method [MMC]","InsertColumn method [MMC]","IHeaderCtrl interface","LVCFMT_CENTER","LVCFMT_LEFT","LVCFMT_RIGHT","MMCLV_AUTO","mmc.iheaderctrl_insertcolumn","mmc/IHeaderCtrl::InsertColumn"]
+description: Adds a column to a default result pane.
+helpviewer_keywords: ["HIDE_COLUMN","IHeaderCtrl interface [MMC]","InsertColumn method","IHeaderCtrl.InsertColumn","IHeaderCtrl::InsertColumn","InsertColumn","InsertColumn method [MMC]","InsertColumn method [MMC]","IHeaderCtrl interface","LVCFMT_CENTER","LVCFMT_LEFT","LVCFMT_RIGHT","MMCLV_AUTO","mmc.iheaderctrl_insertcolumn","mmc/IHeaderCtrl::InsertColumn"]
 old-location: mmc\iheaderctrl_insertcolumn.htm
 tech.root: mmc
 ms.assetid: F5499550-9460-4BF9-AF99-F4BDC7F32EBC

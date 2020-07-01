@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiClassNameFromGuidA
 title: SetupDiClassNameFromGuidA function (setupapi.h)
-description: The SetupDiClassNameFromGuid function retrieves the class name associated with a class GUID.helpviewer_keywords: ["SetupDiClassNameFromGuid","SetupDiClassNameFromGuid function [Device and Driver Installation]","SetupDiClassNameFromGuidA","SetupDiClassNameFromGuidW","devinst.setupdiclassnamefromguid","di-rtns_b17476f2-25e2-48ed-be4d-53af55541056.xml","setupapi/SetupDiClassNameFromGuid"]
+description: The SetupDiClassNameFromGuid function retrieves the class name associated with a class GUID.
+helpviewer_keywords: ["SetupDiClassNameFromGuid","SetupDiClassNameFromGuid function [Device and Driver Installation]","SetupDiClassNameFromGuidA","SetupDiClassNameFromGuidW","devinst.setupdiclassnamefromguid","di-rtns_b17476f2-25e2-48ed-be4d-53af55541056.xml","setupapi/SetupDiClassNameFromGuid"]
 old-location: devinst\setupdiclassnamefromguid.htm
 tech.root: devinst
 ms.assetid: e23631b4-eb7f-4a75-ac23-25d3d974a3e3
@@ -98,6 +99,10 @@ Call <b>SetupDiClassNameFromGuidEx</b> to retrieve the name for a class on a rem
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiClassNameFromGuid as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

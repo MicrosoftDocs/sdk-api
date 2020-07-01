@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellFolder2.MapColumnToSCID
 title: IShellFolder2::MapColumnToSCID (shobjidl_core.h)
-description: Converts a column to the appropriate property set ID (FMTID) and property ID (PID).helpviewer_keywords: ["IShellFolder2 interface [Windows Shell]","MapColumnToSCID method","IShellFolder2.MapColumnToSCID","IShellFolder2::MapColumnToSCID","MapColumnToSCID","MapColumnToSCID method [Windows Shell]","MapColumnToSCID method [Windows Shell]","IShellFolder2 interface","_win32_IShellFolder2_MapColumnToSCID","shell.IShellFolder2_MapColumnToSCID","shobjidl_core/IShellFolder2::MapColumnToSCID"]
+description: Converts a column to the appropriate property set ID (FMTID) and property ID (PID).
+helpviewer_keywords: ["IShellFolder2 interface [Windows Shell]","MapColumnToSCID method","IShellFolder2.MapColumnToSCID","IShellFolder2::MapColumnToSCID","MapColumnToSCID","MapColumnToSCID method [Windows Shell]","MapColumnToSCID method [Windows Shell]","IShellFolder2 interface","_win32_IShellFolder2_MapColumnToSCID","shell.IShellFolder2_MapColumnToSCID","shobjidl_core/IShellFolder2::MapColumnToSCID"]
 old-location: shell\IShellFolder2_MapColumnToSCID.htm
 tech.root: shell
 ms.assetid: 4bd1f9a1-379b-4488-87d3-c7c7dc47c4d1

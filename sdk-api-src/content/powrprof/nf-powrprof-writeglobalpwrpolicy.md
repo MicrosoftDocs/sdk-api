@@ -1,7 +1,8 @@
 ---
 UID: NF:powrprof.WriteGlobalPwrPolicy
 title: WriteGlobalPwrPolicy function (powrprof.h)
-description: Writes global power policy settings.helpviewer_keywords: ["WriteGlobalPwrPolicy","WriteGlobalPwrPolicy function","_win32_writeglobalpwrpolicy","base.writeglobalpwrpolicy","powrprof/WriteGlobalPwrPolicy"]
+description: Writes global power policy settings.
+helpviewer_keywords: ["WriteGlobalPwrPolicy","WriteGlobalPwrPolicy function","_win32_writeglobalpwrpolicy","base.writeglobalpwrpolicy","powrprof/WriteGlobalPwrPolicy"]
 old-location: base\writeglobalpwrpolicy.htm
 tech.root: power
 ms.assetid: 293dc3a5-5e6b-4709-8439-67d2339740e7

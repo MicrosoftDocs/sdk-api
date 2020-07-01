@@ -1,7 +1,8 @@
 ---
 UID: NF:relogger.ITraceRelogger.Cancel
 title: ITraceRelogger::Cancel (relogger.h)
-description: Terminates the relogging process.helpviewer_keywords: ["Cancel","Cancel method [ETW]","Cancel method [ETW]","ITraceRelogger interface","ITraceRelogger interface [ETW]","Cancel method","ITraceRelogger.Cancel","ITraceRelogger::Cancel","etw.itracerelogger_cancel","relogger/ITraceRelogger::Cancel"]
+description: Terminates the relogging process.
+helpviewer_keywords: ["Cancel","Cancel method [ETW]","Cancel method [ETW]","ITraceRelogger interface","ITraceRelogger interface [ETW]","Cancel method","ITraceRelogger.Cancel","ITraceRelogger::Cancel","etw.itracerelogger_cancel","relogger/ITraceRelogger::Cancel"]
 old-location: etw\itracerelogger_cancel.htm
 tech.root: ETW
 ms.assetid: d195f746-7f56-443f-9232-e95a6b026331

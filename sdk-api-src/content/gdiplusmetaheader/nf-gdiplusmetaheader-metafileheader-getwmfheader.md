@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetWmfHeader
 title: MetafileHeader::GetWmfHeader (gdiplusmetaheader.h)
-description: The MetafileHeader::GetWmfHeader method gets a METAHEADER structure that contains properties of the associated metafile.helpviewer_keywords: ["GetWmfHeader","GetWmfHeader method [GDI+]","GetWmfHeader method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetWmfHeader method","MetafileHeader.GetWmfHeader","MetafileHeader::GetWmfHeader","_gdiplus_CLASS_MetafileHeader_GetWmfHeader_","gdiplus._gdiplus_CLASS_MetafileHeader_GetWmfHeader_"]
+description: The MetafileHeader::GetWmfHeader method gets a METAHEADER structure that contains properties of the associated metafile.
+helpviewer_keywords: ["GetWmfHeader","GetWmfHeader method [GDI+]","GetWmfHeader method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetWmfHeader method","MetafileHeader.GetWmfHeader","MetafileHeader::GetWmfHeader","_gdiplus_CLASS_MetafileHeader_GetWmfHeader_","gdiplus._gdiplus_CLASS_MetafileHeader_GetWmfHeader_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetWmfHeader_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getwmfheader.htm

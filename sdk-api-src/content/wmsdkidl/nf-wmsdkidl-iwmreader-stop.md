@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Stop
 title: IWMReader::Stop (wmsdkidl.h)
-description: The Stop method stops reading the file.helpviewer_keywords: ["IWMReader interface [windows Media Format]","Stop method","IWMReader.Stop","IWMReader::Stop","IWMReaderStop","Stop","Stop method [windows Media Format]","Stop method [windows Media Format]","IWMReader interface","wmformat.iwmreader_stop","wmsdkidl/IWMReader::Stop"]
+description: The Stop method stops reading the file.
+helpviewer_keywords: ["IWMReader interface [windows Media Format]","Stop method","IWMReader.Stop","IWMReader::Stop","IWMReaderStop","Stop","Stop method [windows Media Format]","Stop method [windows Media Format]","IWMReader interface","wmformat.iwmreader_stop","wmsdkidl/IWMReader::Stop"]
 old-location: wmformat\iwmreader_stop.htm
 tech.root: wmformat
 ms.assetid: 781d1882-4b48-4415-9b3a-788207b42151

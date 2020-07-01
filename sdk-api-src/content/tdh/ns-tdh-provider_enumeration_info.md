@@ -1,7 +1,8 @@
 ---
 UID: NS:tdh._PROVIDER_ENUMERATION_INFO
 title: PROVIDER_ENUMERATION_INFO (tdh.h)
-description: Defines the array of providers that have registered a MOF or manifest on the computer.helpviewer_keywords: ["*PPROVIDER_ENUMERATION_INFO","PROVIDER_ENUMERATION_INFO","PROVIDER_ENUMERATION_INFO structure [ETW]","etw.provider_enumeration_info_struct","tdh.provider_enumeration_info_struct","tdh/PROVIDER_ENUMERATION_INFO"]
+description: Defines the array of providers that have registered a MOF or manifest on the computer.
+helpviewer_keywords: ["*PPROVIDER_ENUMERATION_INFO","PROVIDER_ENUMERATION_INFO","PROVIDER_ENUMERATION_INFO structure [ETW]","etw.provider_enumeration_info_struct","tdh.provider_enumeration_info_struct","tdh/PROVIDER_ENUMERATION_INFO"]
 old-location: etw\provider_enumeration_info_struct.htm
 tech.root: ETW
 ms.assetid: bb4548fb-70e5-4726-bc92-adb7ba7be0e4

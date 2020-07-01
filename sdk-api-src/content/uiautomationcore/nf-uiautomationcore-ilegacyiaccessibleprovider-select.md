@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.Select
 title: ILegacyIAccessibleProvider::Select (uiautomationcore.h)
-description: Selects the element.helpviewer_keywords: ["ILegacyIAccessibleProvider interface [Windows Accessibility]","Select method","ILegacyIAccessibleProvider.Select","ILegacyIAccessibleProvider::Select","Select","Select method [Windows Accessibility]","Select method [Windows Accessibility]","ILegacyIAccessibleProvider interface","uiauto.uiauto_ILegacyIAccessibleProvider_Select","uiauto_ILegacyIAccessibleProvider_Select","uiautomationcore/ILegacyIAccessibleProvider::Select","winauto.uiauto_ILegacyIAccessibleProvider_Select"]
+description: Selects the element.
+helpviewer_keywords: ["ILegacyIAccessibleProvider interface [Windows Accessibility]","Select method","ILegacyIAccessibleProvider.Select","ILegacyIAccessibleProvider::Select","Select","Select method [Windows Accessibility]","Select method [Windows Accessibility]","ILegacyIAccessibleProvider interface","uiauto.uiauto_ILegacyIAccessibleProvider_Select","uiauto_ILegacyIAccessibleProvider_Select","uiautomationcore/ILegacyIAccessibleProvider::Select","winauto.uiauto_ILegacyIAccessibleProvider_Select"]
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_Select.htm
 tech.root: WinAuto
 ms.assetid: 9cdb3f88-c4aa-4a04-94e3-5549c389ad1f

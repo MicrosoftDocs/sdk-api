@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMDomain2.LoadStarterGPO
 title: IGPMDomain2::LoadStarterGPO (gpmgmt.h)
-description: Opens a Starter Group Policy object (GPO) cabinet (CAB) file and imports it into the domain.helpviewer_keywords: ["IGPMDomain2 interface [GPMC]","LoadStarterGPO method","IGPMDomain2.LoadStarterGPO","IGPMDomain2::LoadStarterGPO","LoadStarterGPO","LoadStarterGPO method [GPMC]","LoadStarterGPO method [GPMC]","IGPMDomain2 interface","gpmc.igpmdomain2_loadstartergpo","gpmgmt/IGPMDomain2::LoadStarterGPO"]
+description: Opens a Starter Group Policy object (GPO) cabinet (CAB) file and imports it into the domain.
+helpviewer_keywords: ["IGPMDomain2 interface [GPMC]","LoadStarterGPO method","IGPMDomain2.LoadStarterGPO","IGPMDomain2::LoadStarterGPO","LoadStarterGPO","LoadStarterGPO method [GPMC]","LoadStarterGPO method [GPMC]","IGPMDomain2 interface","gpmc.igpmdomain2_loadstartergpo","gpmgmt/IGPMDomain2::LoadStarterGPO"]
 old-location: gpmc\igpmdomain2_loadstartergpo.htm
 tech.root: gpmc
 ms.assetid: 3375ecaf-6128-4bc0-9cfc-e9b00bf4b70a

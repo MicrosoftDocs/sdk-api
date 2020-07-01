@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreACP2.FindNextAttrTransition
 title: ITextStoreACP2::FindNextAttrTransition (textstor.h)
-description: Determines the character position where a transition occurs in an attribute value. The specified attribute to check is application-dependent.helpviewer_keywords: ["FindNextAttrTransition","FindNextAttrTransition method [Text Services Framework]","FindNextAttrTransition method [Text Services Framework]","ITextStoreACP2 interface","ITextStoreACP2 interface [Text Services Framework]","FindNextAttrTransition method","ITextStoreACP2.FindNextAttrTransition","ITextStoreACP2::FindNextAttrTransition","TS_ATTR_FIND_BACKWARDS","TS_ATTR_FIND_WANT_OFFSET","textstor/ITextStoreACP2::FindNextAttrTransition","tsf.itextstoreacp2_findnextattrtransition"]
+description: Determines the character position where a transition occurs in an attribute value. The specified attribute to check is application-dependent.
+helpviewer_keywords: ["FindNextAttrTransition","FindNextAttrTransition method [Text Services Framework]","FindNextAttrTransition method [Text Services Framework]","ITextStoreACP2 interface","ITextStoreACP2 interface [Text Services Framework]","FindNextAttrTransition method","ITextStoreACP2.FindNextAttrTransition","ITextStoreACP2::FindNextAttrTransition","TS_ATTR_FIND_BACKWARDS","TS_ATTR_FIND_WANT_OFFSET","textstor/ITextStoreACP2::FindNextAttrTransition","tsf.itextstoreacp2_findnextattrtransition"]
 old-location: tsf\itextstoreacp2_findnextattrtransition.htm
 tech.root: TSF
 ms.assetid: 8ccad786-64e0-423c-8b8e-c853123828e5

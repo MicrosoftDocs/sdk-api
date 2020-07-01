@@ -1,7 +1,8 @@
 ---
 UID: NN:syncmgr.ISyncMgrSyncCallback
 title: ISyncMgrSyncCallback (syncmgr.h)
-description: Exposes methods that allow a synchronization process to report progress and events to Sync Center, or to query whether the process has been canceled.helpviewer_keywords: ["ISyncMgrSyncCallback","ISyncMgrSyncCallback interface [Windows Shell]","ISyncMgrSyncCallback interface [Windows Shell]","described","_shell_ISyncMgrSyncCallback","shell.ISyncMgrSyncCallback","syncmgr/ISyncMgrSyncCallback"]
+description: Exposes methods that allow a synchronization process to report progress and events to Sync Center, or to query whether the process has been canceled.
+helpviewer_keywords: ["ISyncMgrSyncCallback","ISyncMgrSyncCallback interface [Windows Shell]","ISyncMgrSyncCallback interface [Windows Shell]","described","_shell_ISyncMgrSyncCallback","shell.ISyncMgrSyncCallback","syncmgr/ISyncMgrSyncCallback"]
 old-location: shell\ISyncMgrSyncCallback.htm
 tech.root: shell
 ms.assetid: 4f2b6dc3-3b81-4c0a-b0a2-b48f13fba397

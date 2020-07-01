@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupPromptReboot
 title: SetupPromptReboot function (setupapi.h)
-description: The SetupPromptReboot function asks the user if he wants to reboot the system, optionally dependent on whether any files in a committed file queue were in use during a file operation.helpviewer_keywords: ["SetupPromptReboot","SetupPromptReboot function [Setup API]","_setupapi_setuppromptreboot","setup.setuppromptreboot","setupapi/SetupPromptReboot"]
+description: The SetupPromptReboot function asks the user if he wants to reboot the system, optionally dependent on whether any files in a committed file queue were in use during a file operation.
+helpviewer_keywords: ["SetupPromptReboot","SetupPromptReboot function [Setup API]","_setupapi_setuppromptreboot","setup.setuppromptreboot","setupapi/SetupPromptReboot"]
 old-location: setup\setuppromptreboot.htm
 tech.root: SetupApi
 ms.assetid: 14b34fd9-ae96-4552-b99d-488bae5c7644

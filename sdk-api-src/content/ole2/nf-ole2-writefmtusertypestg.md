@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.WriteFmtUserTypeStg
 title: WriteFmtUserTypeStg function (ole2.h)
-description: The WriteFmtUserTypeStg function writes a clipboard format and user type to the storage object.helpviewer_keywords: ["WriteFmtUserTypeStg","WriteFmtUserTypeStg function [Structured Storage]","_stg_writefmtusertypestg","ole2/WriteFmtUserTypeStg","stg.writefmtusertypestg"]
+description: The WriteFmtUserTypeStg function writes a clipboard format and user type to the storage object.
+helpviewer_keywords: ["WriteFmtUserTypeStg","WriteFmtUserTypeStg function [Structured Storage]","_stg_writefmtusertypestg","ole2/WriteFmtUserTypeStg","stg.writefmtusertypestg"]
 old-location: stg\writefmtusertypestg.htm
 tech.root: Stg
 ms.assetid: ef60493c-164e-4633-a248-05c4afade937

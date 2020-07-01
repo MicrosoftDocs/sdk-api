@@ -1,7 +1,8 @@
 ---
 UID: NF:reconcil.IReconcileInitiator.SetProgressFeedback
 title: IReconcileInitiator::SetProgressFeedback (reconcil.h)
-description: Indicates the amount of progress the briefcase reconciler has made toward completing the reconciliation.helpviewer_keywords: ["IReconcileInitiator interface [Legacy Windows Environment Features]","SetProgressFeedback method","IReconcileInitiator.SetProgressFeedback","IReconcileInitiator::SetProgressFeedback","SetProgressFeedback","SetProgressFeedback method [Legacy Windows Environment Features]","SetProgressFeedback method [Legacy Windows Environment Features]","IReconcileInitiator interface","_win32_IReconcileInitiator_SetProgressFeedback","lwef.ireconcileinitiator_setprogressfeedback","reconcil/IReconcileInitiator::SetProgressFeedback","shell.ireconcileinitiator_setprogressfeedback"]
+description: Indicates the amount of progress the briefcase reconciler has made toward completing the reconciliation.
+helpviewer_keywords: ["IReconcileInitiator interface [Legacy Windows Environment Features]","SetProgressFeedback method","IReconcileInitiator.SetProgressFeedback","IReconcileInitiator::SetProgressFeedback","SetProgressFeedback","SetProgressFeedback method [Legacy Windows Environment Features]","SetProgressFeedback method [Legacy Windows Environment Features]","IReconcileInitiator interface","_win32_IReconcileInitiator_SetProgressFeedback","lwef.ireconcileinitiator_setprogressfeedback","reconcil/IReconcileInitiator::SetProgressFeedback","shell.ireconcileinitiator_setprogressfeedback"]
 old-location: lwef\ireconcileinitiator_setprogressfeedback.htm
 tech.root: lwef
 ms.assetid: faa685f1-e203-4d8a-a1c3-d544b8e5271d

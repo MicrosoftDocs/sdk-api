@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Properties.GetSubProperties(U,ID2D1Properties)
 title: ID2D1Properties::GetSubProperties(U,ID2D1Properties,) (d2d1_1.h)
-description: Gets the sub-properties of the provided property by index. This is a template overload.helpviewer_keywords: ["GetSubProperties","GetSubProperties method [Direct2D]","GetSubProperties method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetSubProperties method","ID2D1Properties.GetSubProperties","ID2D1Properties.GetSubProperties(U","ID2D1Properties",")","ID2D1Properties::GetSubProperties","ID2D1Properties::GetSubProperties(U","ID2D1Properties**)","ID2D1Properties::GetSubProperties(U","ID2D1Properties",")","d2d1_1/ID2D1Properties::GetSubProperties","direct2d.id2d1properties_getsubproperties2"]
+description: Gets the sub-properties of the provided property by index. This is a template overload.
+helpviewer_keywords: ["GetSubProperties","GetSubProperties method [Direct2D]","GetSubProperties method [Direct2D]","ID2D1Properties interface","ID2D1Properties interface [Direct2D]","GetSubProperties method","ID2D1Properties.GetSubProperties","ID2D1Properties.GetSubProperties(U","ID2D1Properties",")","ID2D1Properties::GetSubProperties","ID2D1Properties::GetSubProperties(U","ID2D1Properties**)","ID2D1Properties::GetSubProperties(U","ID2D1Properties",")","d2d1_1/ID2D1Properties::GetSubProperties","direct2d.id2d1properties_getsubproperties2"]
 old-location: direct2d\id2d1properties_getsubproperties2.htm
 tech.root: Direct2D
 ms.assetid: D7A79C72-6BFC-4603-82AD-FFEEA91B6CBE

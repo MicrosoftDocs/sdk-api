@@ -1,7 +1,8 @@
 ---
 UID: NS:vds._VDS_VOLUME_PLEX_PROP
 title: VDS_VOLUME_PLEX_PROP (vds.h)
-description: Defines the properties of a volume plex object.helpviewer_keywords: ["*PVDS_VOLUME_PLEX_PROP","PVDS_VOLUME_PLEX_PROP","PVDS_VOLUME_PLEX_PROP structure pointer [VDS]","VDS_VOLUME_PLEX_PROP","VDS_VOLUME_PLEX_PROP structure [VDS]","base.vds_volume_plex_prop","vds/PVDS_VOLUME_PLEX_PROP","vds/_VDS_VOLUME_PLEX_PROP"]
+description: Defines the properties of a volume plex object.
+helpviewer_keywords: ["*PVDS_VOLUME_PLEX_PROP","PVDS_VOLUME_PLEX_PROP","PVDS_VOLUME_PLEX_PROP structure pointer [VDS]","VDS_VOLUME_PLEX_PROP","VDS_VOLUME_PLEX_PROP structure [VDS]","base.vds_volume_plex_prop","vds/PVDS_VOLUME_PLEX_PROP","vds/_VDS_VOLUME_PLEX_PROP"]
 old-location: base\vds_volume_plex_prop.htm
 tech.root: VDS
 ms.assetid: 225cdc5e-045b-407f-b383-8f92025fbbd6

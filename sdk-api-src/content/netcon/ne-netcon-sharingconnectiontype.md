@@ -1,7 +1,8 @@
 ---
 UID: NE:netcon.tagSHARINGCONNECTIONTYPE
 title: SHARINGCONNECTIONTYPE (netcon.h)
-description: The values of the SHARINGCONNECTIONTYPE type enumerate the possible types of shared connections.helpviewer_keywords: ["*LPSHARINGCONNECTIONTYPE","ICSSHARINGTYPE_PRIVATE","ICSSHARINGTYPE_PUBLIC","LPSHARINGCONNECTIONTYPE","LPSHARINGCONNECTIONTYPE enumeration pointer [ICS/ICF]","SHARINGCONNECTIONTYPE","SHARINGCONNECTIONTYPE enumeration [ICS/ICF]","_ics_sharingconnectiontype","ics.sharingconnectiontype","netcon/ICSSHARINGTYPE_PRIVATE","netcon/ICSSHARINGTYPE_PUBLIC","netcon/LPSHARINGCONNECTIONTYPE","netcon/SHARINGCONNECTIONTYPE"]
+description: The values of the SHARINGCONNECTIONTYPE type enumerate the possible types of shared connections.
+helpviewer_keywords: ["*LPSHARINGCONNECTIONTYPE","ICSSHARINGTYPE_PRIVATE","ICSSHARINGTYPE_PUBLIC","LPSHARINGCONNECTIONTYPE","LPSHARINGCONNECTIONTYPE enumeration pointer [ICS/ICF]","SHARINGCONNECTIONTYPE","SHARINGCONNECTIONTYPE enumeration [ICS/ICF]","_ics_sharingconnectiontype","ics.sharingconnectiontype","netcon/ICSSHARINGTYPE_PRIVATE","netcon/ICSSHARINGTYPE_PUBLIC","netcon/LPSHARINGCONNECTIONTYPE","netcon/SHARINGCONNECTIONTYPE"]
 old-location: ics\sharingconnectiontype.htm
 tech.root: ics
 ms.assetid: 97409190-55b3-412f-b654-e5b27928a4c3

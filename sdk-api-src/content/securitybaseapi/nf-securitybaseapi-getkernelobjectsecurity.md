@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.GetKernelObjectSecurity
 title: GetKernelObjectSecurity function (securitybaseapi.h)
-description: Retrieves a copy of the security descriptor that protects a kernel object.helpviewer_keywords: ["GetKernelObjectSecurity","GetKernelObjectSecurity function [Security]","_win32_getkernelobjectsecurity","security.getkernelobjectsecurity","securitybaseapi/GetKernelObjectSecurity"]
+description: Retrieves a copy of the security descriptor that protects a kernel object.
+helpviewer_keywords: ["GetKernelObjectSecurity","GetKernelObjectSecurity function [Security]","_win32_getkernelobjectsecurity","security.getkernelobjectsecurity","securitybaseapi/GetKernelObjectSecurity"]
 old-location: security\getkernelobjectsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 276e9657-5729-48cb-9531-14bfd08b7868

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.DeleteItems
 title: IFileOperation::DeleteItems (shobjidl_core.h)
-description: Declares a set of items that are to be deleted.helpviewer_keywords: ["DeleteItems","DeleteItems method [Windows Shell]","DeleteItems method [Windows Shell]","IFileOperation interface","IFileOperation interface [Windows Shell]","DeleteItems method","IFileOperation.DeleteItems","IFileOperation::DeleteItems","_shell_IFileOperation_DeleteItems","shell.IFileOperation_DeleteItems","shobjidl_core/IFileOperation::DeleteItems"]
+description: Declares a set of items that are to be deleted.
+helpviewer_keywords: ["DeleteItems","DeleteItems method [Windows Shell]","DeleteItems method [Windows Shell]","IFileOperation interface","IFileOperation interface [Windows Shell]","DeleteItems method","IFileOperation.DeleteItems","IFileOperation::DeleteItems","_shell_IFileOperation_DeleteItems","shell.IFileOperation_DeleteItems","shobjidl_core/IFileOperation::DeleteItems"]
 old-location: shell\IFileOperation_DeleteItems.htm
 tech.root: shell
 ms.assetid: 708072c4-c0c7-4d7d-a54f-234c57ff08e6

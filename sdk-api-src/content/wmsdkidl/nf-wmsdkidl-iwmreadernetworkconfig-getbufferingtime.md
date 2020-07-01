@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetBufferingTime
 title: IWMReaderNetworkConfig::GetBufferingTime (wmsdkidl.h)
-description: The GetBufferingTime method retrieves the amount of time that the network source buffers data before rendering it.helpviewer_keywords: ["GetBufferingTime","GetBufferingTime method [windows Media Format]","GetBufferingTime method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetBufferingTime method","IWMReaderNetworkConfig.GetBufferingTime","IWMReaderNetworkConfig::GetBufferingTime","IWMReaderNetworkConfigGetBufferingTime","wmformat.iwmreadernetworkconfig_getbufferingtime","wmsdkidl/IWMReaderNetworkConfig::GetBufferingTime"]
+description: The GetBufferingTime method retrieves the amount of time that the network source buffers data before rendering it.
+helpviewer_keywords: ["GetBufferingTime","GetBufferingTime method [windows Media Format]","GetBufferingTime method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetBufferingTime method","IWMReaderNetworkConfig.GetBufferingTime","IWMReaderNetworkConfig::GetBufferingTime","IWMReaderNetworkConfigGetBufferingTime","wmformat.iwmreadernetworkconfig_getbufferingtime","wmsdkidl/IWMReaderNetworkConfig::GetBufferingTime"]
 old-location: wmformat\iwmreadernetworkconfig_getbufferingtime.htm
 tech.root: wmformat
 ms.assetid: a3f35230-363c-48e7-bef9-b92e0b50b978

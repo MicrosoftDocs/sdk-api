@@ -1,7 +1,8 @@
 ---
 UID: NF:fhcfg.IFhTarget.GetStringProperty
 title: IFhTarget::GetStringProperty (fhcfg.h)
-description: Retrieves a string property of the File History backup target that is represented by an IFhTarget interface.helpviewer_keywords: ["GetStringProperty","GetStringProperty method [Windows API]","GetStringProperty method [Windows API]","IFhTarget interface","IFhTarget interface [Windows API]","GetStringProperty method","IFhTarget.GetStringProperty","IFhTarget::GetStringProperty","fhcfg/IFhTarget::GetStringProperty","winprog.ifhtarget_getstringproperty"]
+description: Retrieves a string property of the File History backup target that is represented by an IFhTarget interface.
+helpviewer_keywords: ["GetStringProperty","GetStringProperty method [Windows API]","GetStringProperty method [Windows API]","IFhTarget interface","IFhTarget interface [Windows API]","GetStringProperty method","IFhTarget.GetStringProperty","IFhTarget::GetStringProperty","fhcfg/IFhTarget::GetStringProperty","winprog.ifhtarget_getstringproperty"]
 old-location: winprog\ifhtarget_getstringproperty.htm
 tech.root: DevNotes
 ms.assetid: DC5FE023-FA6E-4B97-AD9D-830975A17159

@@ -1,7 +1,8 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_ADDATTACHEDSURFACE
 title: PDD_SURFCB_ADDATTACHEDSURFACE (ddrawint.h)
-description: The DdAddAttachedSurface callback function attaches a surface to another surface.helpviewer_keywords: ["DdAddAttachedSurface","DdAddAttachedSurface callback function [Display Devices]","PDD_SURFCB_ADDATTACHEDSURFACE","PDD_SURFCB_ADDATTACHEDSURFACE callback","ddfncs_b7f5d56d-95b7-4b79-8d20-9ab663582dd2.xml","ddrawint/DdAddAttachedSurface","display.ddaddattachedsurface"]
+description: The DdAddAttachedSurface callback function attaches a surface to another surface.
+helpviewer_keywords: ["DdAddAttachedSurface","DdAddAttachedSurface callback function [Display Devices]","PDD_SURFCB_ADDATTACHEDSURFACE","PDD_SURFCB_ADDATTACHEDSURFACE callback","ddfncs_b7f5d56d-95b7-4b79-8d20-9ab663582dd2.xml","ddrawint/DdAddAttachedSurface","display.ddaddattachedsurface"]
 old-location: display\ddaddattachedsurface.htm
 tech.root: display
 ms.assetid: 53f146e6-f521-4c95-b98b-0e8acb994c9d

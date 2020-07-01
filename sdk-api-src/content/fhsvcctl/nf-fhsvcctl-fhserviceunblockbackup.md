@@ -1,7 +1,8 @@
 ---
 UID: NF:fhsvcctl.FhServiceUnblockBackup
 title: FhServiceUnblockBackup function (fhsvcctl.h)
-description: This function unblocks backups blocked via FhServiceBlockBackup.helpviewer_keywords: ["FhServiceUnblockBackup","FhServiceUnblockBackup function [Windows API]","fhsvcctl/FhServiceUnblockBackup","winprog.fhserviceunblockbackup"]
+description: This function unblocks backups blocked via FhServiceBlockBackup.
+helpviewer_keywords: ["FhServiceUnblockBackup","FhServiceUnblockBackup function [Windows API]","fhsvcctl/FhServiceUnblockBackup","winprog.fhserviceunblockbackup"]
 old-location: winprog\fhserviceunblockbackup.htm
 tech.root: DevNotes
 ms.assetid: 4CCCEEA5-40BC-4862-ADF5-C8757E02916A

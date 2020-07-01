@@ -1,7 +1,8 @@
 ---
 UID: NS:wmcontainer._ASF_INDEX_DESCRIPTOR
 title: ASF_INDEX_DESCRIPTOR (wmcontainer.h)
-description: Describes the indexing configuration for a stream and type of index.helpviewer_keywords: ["2a540aef-068d-4465-b0ed-64aed828af01","ASF_INDEX_DESCRIPTOR","ASF_INDEX_DESCRIPTOR structure [Media Foundation]","mf.asf_index_descriptor","wmcontainer/ASF_INDEX_DESCRIPTOR"]
+description: Describes the indexing configuration for a stream and type of index.
+helpviewer_keywords: ["2a540aef-068d-4465-b0ed-64aed828af01","ASF_INDEX_DESCRIPTOR","ASF_INDEX_DESCRIPTOR structure [Media Foundation]","mf.asf_index_descriptor","wmcontainer/ASF_INDEX_DESCRIPTOR"]
 old-location: mf\asf_index_descriptor.htm
 tech.root: medfound
 ms.assetid: 2a540aef-068d-4465-b0ed-64aed828af01

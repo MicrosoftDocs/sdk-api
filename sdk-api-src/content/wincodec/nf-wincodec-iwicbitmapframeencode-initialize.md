@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.Initialize
 title: IWICBitmapFrameEncode::Initialize (wincodec.h)
-description: Initializes the frame encoder using the given properties.helpviewer_keywords: ["IWICBitmapFrameEncode interface [Windows Imaging Component]","Initialize method","IWICBitmapFrameEncode.Initialize","IWICBitmapFrameEncode::Initialize","Initialize","Initialize method [Windows Imaging Component]","Initialize method [Windows Imaging Component]","IWICBitmapFrameEncode interface","_wic_codec_iwicbitmapframeencode_initialize","wic._wic_codec_iwicbitmapframeencode_initialize","wincodec/IWICBitmapFrameEncode::Initialize"]
+description: Initializes the frame encoder using the given properties.
+helpviewer_keywords: ["IWICBitmapFrameEncode interface [Windows Imaging Component]","Initialize method","IWICBitmapFrameEncode.Initialize","IWICBitmapFrameEncode::Initialize","Initialize","Initialize method [Windows Imaging Component]","Initialize method [Windows Imaging Component]","IWICBitmapFrameEncode interface","_wic_codec_iwicbitmapframeencode_initialize","wic._wic_codec_iwicbitmapframeencode_initialize","wincodec/IWICBitmapFrameEncode::Initialize"]
 old-location: wic\_wic_codec_iwicbitmapframeencode_initialize.htm
 tech.root: wic
 ms.assetid: ec215e32-b4bd-469a-903d-f5b546185183

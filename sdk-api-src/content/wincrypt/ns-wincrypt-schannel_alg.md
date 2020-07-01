@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._SCHANNEL_ALG
 title: SCHANNEL_ALG (wincrypt.h)
-description: The SCHANNEL_ALG structure contains algorithm and key size information. It is used as the structure passed as pbData in CryptSetKeyParam when dwParam is set to KP_SCHANNEL_ALG.helpviewer_keywords: ["*PSCHANNEL_ALG","PSCHANNEL_ALG","PSCHANNEL_ALG structure pointer [Security]","SCHANNEL_ALG","SCHANNEL_ALG structure [Security]","SCHANNEL_ENC_KEY","SCHANNEL_MAC_KEY","_crypto2_schannel_alg","security.schannel_alg","wincrypt/PSCHANNEL_ALG","wincrypt/SCHANNEL_ALG"]
+description: The SCHANNEL_ALG structure contains algorithm and key size information. It is used as the structure passed as pbData in CryptSetKeyParam when dwParam is set to KP_SCHANNEL_ALG.
+helpviewer_keywords: ["*PSCHANNEL_ALG","PSCHANNEL_ALG","PSCHANNEL_ALG structure pointer [Security]","SCHANNEL_ALG","SCHANNEL_ALG structure [Security]","SCHANNEL_ENC_KEY","SCHANNEL_MAC_KEY","_crypto2_schannel_alg","security.schannel_alg","wincrypt/PSCHANNEL_ALG","wincrypt/SCHANNEL_ALG"]
 old-location: security\schannel_alg.htm
 tech.root: SecCrypto
 ms.assetid: 55afebf4-8872-42a1-847f-ff0240c2be20

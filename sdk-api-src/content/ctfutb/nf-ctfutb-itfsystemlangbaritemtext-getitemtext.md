@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemText.GetItemText
 title: ITfSystemLangBarItemText::GetItemText (ctfutb.h)
-description: The ITfSystemLangBarItemText::GetItemText method obtains the text displayed for the system language bar menu.helpviewer_keywords: ["GetItemText","GetItemText method [Text Services Framework]","GetItemText method [Text Services Framework]","ITfSystemLangBarItemText interface","ITfSystemLangBarItemText interface [Text Services Framework]","GetItemText method","ITfSystemLangBarItemText.GetItemText","ITfSystemLangBarItemText::GetItemText","ctfutb/ITfSystemLangBarItemText::GetItemText","tsf.itfsystemlangbaritemtext_getitemtext"]
+description: The ITfSystemLangBarItemText::GetItemText method obtains the text displayed for the system language bar menu.
+helpviewer_keywords: ["GetItemText","GetItemText method [Text Services Framework]","GetItemText method [Text Services Framework]","ITfSystemLangBarItemText interface","ITfSystemLangBarItemText interface [Text Services Framework]","GetItemText method","ITfSystemLangBarItemText.GetItemText","ITfSystemLangBarItemText::GetItemText","ctfutb/ITfSystemLangBarItemText::GetItemText","tsf.itfsystemlangbaritemtext_getitemtext"]
 old-location: tsf\itfsystemlangbaritemtext_getitemtext.htm
 tech.root: TSF
 ms.assetid: eec4486e-c4fd-484f-bbd7-9f2ee974459b

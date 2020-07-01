@@ -1,7 +1,8 @@
 ---
 UID: NE:codecapi.eAVDecAudioDualMonoReproMode
 title: eAVDecAudioDualMonoReproMode (codecapi.h)
-description: Specifies how the decoder reproduces dual mono audio. This enumeration is used with the AVDecAudioDualMonoReproMode property.helpviewer_keywords: ["codecapi/eAVDecAudioDualMonoReproMode","codecapi/eAVDecAudioDualMonoReproMode_LEFT_MONO","codecapi/eAVDecAudioDualMonoReproMode_MIX_MONO","codecapi/eAVDecAudioDualMonoReproMode_RIGHT_MONO","codecapi/eAVDecAudioDualMonoReproMode_STEREO","dshow.eavdecaudiodualmonorepromode","eAVDecAudioDualMonoReproMode","eAVDecAudioDualMonoReproMode enumeration [DirectShow]","eAVDecAudioDualMonoReproModeEnumeration","eAVDecAudioDualMonoReproMode_LEFT_MONO","eAVDecAudioDualMonoReproMode_MIX_MONO","eAVDecAudioDualMonoReproMode_RIGHT_MONO","eAVDecAudioDualMonoReproMode_STEREO"]
+description: Specifies how the decoder reproduces dual mono audio. This enumeration is used with the AVDecAudioDualMonoReproMode property.
+helpviewer_keywords: ["codecapi/eAVDecAudioDualMonoReproMode","codecapi/eAVDecAudioDualMonoReproMode_LEFT_MONO","codecapi/eAVDecAudioDualMonoReproMode_MIX_MONO","codecapi/eAVDecAudioDualMonoReproMode_RIGHT_MONO","codecapi/eAVDecAudioDualMonoReproMode_STEREO","dshow.eavdecaudiodualmonorepromode","eAVDecAudioDualMonoReproMode","eAVDecAudioDualMonoReproMode enumeration [DirectShow]","eAVDecAudioDualMonoReproModeEnumeration","eAVDecAudioDualMonoReproMode_LEFT_MONO","eAVDecAudioDualMonoReproMode_MIX_MONO","eAVDecAudioDualMonoReproMode_RIGHT_MONO","eAVDecAudioDualMonoReproMode_STEREO"]
 old-location: dshow\eavdecaudiodualmonorepromode.htm
 tech.root: DirectShow
 ms.assetid: 16374617-8342-4e8c-b52a-c5a419998699

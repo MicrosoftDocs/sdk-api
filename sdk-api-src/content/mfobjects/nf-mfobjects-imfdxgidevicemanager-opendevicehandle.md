@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFDXGIDeviceManager.OpenDeviceHandle
 title: IMFDXGIDeviceManager::OpenDeviceHandle (mfobjects.h)
-description: Gets a handle to the Microsoft Direct3D device.helpviewer_keywords: ["IMFDXGIDeviceManager interface [Media Foundation]","OpenDeviceHandle method","IMFDXGIDeviceManager.OpenDeviceHandle","IMFDXGIDeviceManager::OpenDeviceHandle","OpenDeviceHandle","OpenDeviceHandle method [Media Foundation]","OpenDeviceHandle method [Media Foundation]","IMFDXGIDeviceManager interface","mf.imfdxgidevicemanager_opendevicehandle","mfobjects/IMFDXGIDeviceManager::OpenDeviceHandle"]
+description: Gets a handle to the Microsoft Direct3D device.
+helpviewer_keywords: ["IMFDXGIDeviceManager interface [Media Foundation]","OpenDeviceHandle method","IMFDXGIDeviceManager.OpenDeviceHandle","IMFDXGIDeviceManager::OpenDeviceHandle","OpenDeviceHandle","OpenDeviceHandle method [Media Foundation]","OpenDeviceHandle method [Media Foundation]","IMFDXGIDeviceManager interface","mf.imfdxgidevicemanager_opendevicehandle","mfobjects/IMFDXGIDeviceManager::OpenDeviceHandle"]
 old-location: mf\imfdxgidevicemanager_opendevicehandle.htm
 tech.root: medfound
 ms.assetid: B025DF73-1F85-46F3-9AD4-2385BD515DDD

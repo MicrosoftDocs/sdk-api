@@ -1,7 +1,8 @@
 ---
 UID: NF:strsafe.StringCbPrintfW
 title: StringCbPrintfW function (strsafe.h)
-description: Writes formatted data to the specified string.helpviewer_keywords: ["StringCbPrintf","StringCbPrintf function [Menus and Other Resources]","StringCbPrintfA","StringCbPrintfW","_shell_StringCbPrintf","_shell_stringcbprintf_cpp","menurc.stringcbprintf","strsafe/StringCbPrintf","strsafe/StringCbPrintfA","strsafe/StringCbPrintfW","winui._shell_stringcbprintf"]
+description: Writes formatted data to the specified string.
+helpviewer_keywords: ["StringCbPrintf","StringCbPrintf function [Menus and Other Resources]","StringCbPrintfA","StringCbPrintfW","_shell_StringCbPrintf","_shell_stringcbprintf_cpp","menurc.stringcbprintf","strsafe/StringCbPrintf","strsafe/StringCbPrintfA","strsafe/StringCbPrintfW","winui._shell_stringcbprintf"]
 old-location: menurc\stringcbprintf.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintf.htm
@@ -209,6 +210,10 @@ HRESULT hr = StringCbPrintf(pszDest, cbDest, pszFormat, pszTxt, 1, 2, 3);
 
 
 
+
+
+> [!NOTE]
+> The strsafe.h header defines StringCbPrintf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

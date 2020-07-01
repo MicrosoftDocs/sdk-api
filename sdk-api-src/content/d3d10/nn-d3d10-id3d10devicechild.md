@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d10.ID3D10DeviceChild
 title: ID3D10DeviceChild (d3d10.h)
-description: A device-child interface accesses data used by a device.helpviewer_keywords: ["ID3D10DeviceChild","ID3D10DeviceChild interface [Direct3D 10]","ID3D10DeviceChild interface [Direct3D 10]","described","d3d10/ID3D10DeviceChild","direct3d10.id3d10devicechild","e38df520-7753-67fb-6fb9-7bd65b783c01"]
+description: A device-child interface accesses data used by a device.
+helpviewer_keywords: ["ID3D10DeviceChild","ID3D10DeviceChild interface [Direct3D 10]","ID3D10DeviceChild interface [Direct3D 10]","described","d3d10/ID3D10DeviceChild","direct3d10.id3d10devicechild","e38df520-7753-67fb-6fb9-7bd65b783c01"]
 old-location: direct3d10\id3d10devicechild.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10devicechild.htm

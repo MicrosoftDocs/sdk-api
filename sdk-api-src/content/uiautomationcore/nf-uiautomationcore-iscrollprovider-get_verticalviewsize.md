@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IScrollProvider.get_VerticalViewSize
 title: IScrollProvider::get_VerticalViewSize (uiautomationcore.h)
-description: Specifies the vertical size of the viewable region.helpviewer_keywords: ["IScrollProvider interface [Windows Accessibility]","VerticalViewSize property","IScrollProvider.VerticalViewSize","IScrollProvider.get_VerticalViewSize","IScrollProvider::VerticalViewSize","IScrollProvider::get_VerticalViewSize","VerticalViewSize property [Windows Accessibility]","VerticalViewSize property [Windows Accessibility]","IScrollProvider interface","get_VerticalViewSize","uiauto.uiauto_IScrollProvider_VerticalViewSize","uiauto_IScrollProvider_VerticalViewSize","uiautomationcore/IScrollProvider::VerticalViewSize","uiautomationcore/IScrollProvider::get_VerticalViewSize","winauto.uiauto_IScrollProvider_VerticalViewSize"]
+description: Specifies the vertical size of the viewable region.
+helpviewer_keywords: ["IScrollProvider interface [Windows Accessibility]","VerticalViewSize property","IScrollProvider.VerticalViewSize","IScrollProvider.get_VerticalViewSize","IScrollProvider::VerticalViewSize","IScrollProvider::get_VerticalViewSize","VerticalViewSize property [Windows Accessibility]","VerticalViewSize property [Windows Accessibility]","IScrollProvider interface","get_VerticalViewSize","uiauto.uiauto_IScrollProvider_VerticalViewSize","uiauto_IScrollProvider_VerticalViewSize","uiautomationcore/IScrollProvider::VerticalViewSize","uiautomationcore/IScrollProvider::get_VerticalViewSize","winauto.uiauto_IScrollProvider_VerticalViewSize"]
 old-location: winauto\uiauto_IScrollProvider_VerticalViewSize.htm
 tech.root: WinAuto
 ms.assetid: 9ddf60c9-68d4-4bec-8bbe-cb9bb13711e6

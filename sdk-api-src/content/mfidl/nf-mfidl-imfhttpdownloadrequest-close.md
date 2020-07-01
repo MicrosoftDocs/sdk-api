@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.Close
 title: IMFHttpDownloadRequest::Close (mfidl.h)
-description: Invoked by Microsoft Media Foundation to allow IMFHttpDownloadRequest to free any internal resources. It will also cancel the current request if it is still in progress.helpviewer_keywords: ["Close","Close method [Media Foundation]","Close method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","Close method","IMFHttpDownloadRequest.Close","IMFHttpDownloadRequest::Close","mf.imfhttpdownloadrequest_close","mfidl/IMFHttpDownloadRequest::Close"]
+description: Invoked by Microsoft Media Foundation to allow IMFHttpDownloadRequest to free any internal resources. It will also cancel the current request if it is still in progress.
+helpviewer_keywords: ["Close","Close method [Media Foundation]","Close method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","Close method","IMFHttpDownloadRequest.Close","IMFHttpDownloadRequest::Close","mf.imfhttpdownloadrequest_close","mfidl/IMFHttpDownloadRequest::Close"]
 old-location: mf\imfhttpdownloadrequest_close.htm
 tech.root: medfound
 ms.assetid: BA560323-EE64-4423-B63A-F2B6FDE608DC

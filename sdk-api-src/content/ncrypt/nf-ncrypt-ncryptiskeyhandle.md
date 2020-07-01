@@ -1,7 +1,8 @@
 ---
 UID: NF:ncrypt.NCryptIsKeyHandle
 title: NCryptIsKeyHandle function (ncrypt.h)
-description: Determines if the specified handle is a CNG key handle.helpviewer_keywords: ["NCryptIsKeyHandle","NCryptIsKeyHandle function [Security]","ncrypt/NCryptIsKeyHandle","security.ncryptiskeyhandle"]
+description: Determines if the specified handle is a CNG key handle.
+helpviewer_keywords: ["NCryptIsKeyHandle","NCryptIsKeyHandle function [Security]","ncrypt/NCryptIsKeyHandle","security.ncryptiskeyhandle"]
 old-location: security\ncryptiskeyhandle.htm
 tech.root: SecCNG
 ms.assetid: ad841c2e-8097-4b07-914e-8e7240d55585

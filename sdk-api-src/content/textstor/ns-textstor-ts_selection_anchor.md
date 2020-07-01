@@ -1,7 +1,8 @@
 ---
 UID: NS:textstor.TS_SELECTION_ANCHOR
 title: TS_SELECTION_ANCHOR (textstor.h)
-description: The TS_SELECTION_ANCHOR structure contains anchor-based text selection data.helpviewer_keywords: ["TS_SELECTION_ANCHOR","TS_SELECTION_ANCHOR structure [Text Services Framework]","_tsf_ts_selection_anchor_ref","textstor/TS_SELECTION_ANCHOR","tsf.ts_selection_anchor"]
+description: The TS_SELECTION_ANCHOR structure contains anchor-based text selection data.
+helpviewer_keywords: ["TS_SELECTION_ANCHOR","TS_SELECTION_ANCHOR structure [Text Services Framework]","_tsf_ts_selection_anchor_ref","textstor/TS_SELECTION_ANCHOR","tsf.ts_selection_anchor"]
 old-location: tsf\ts_selection_anchor.htm
 tech.root: TSF
 ms.assetid: 56fbe145-1972-4b44-a730-17860e428dd0

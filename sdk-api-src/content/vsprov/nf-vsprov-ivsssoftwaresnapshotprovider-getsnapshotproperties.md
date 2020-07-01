@@ -1,7 +1,8 @@
 ---
 UID: NF:vsprov.IVssSoftwareSnapshotProvider.GetSnapshotProperties
 title: IVssSoftwareSnapshotProvider::GetSnapshotProperties (vsprov.h)
-description: Gets the properties of the specified shadow copy.helpviewer_keywords: ["GetSnapshotProperties","GetSnapshotProperties method","GetSnapshotProperties method","IVssSoftwareSnapshotProvider interface","IVssSoftwareSnapshotProvider interface","GetSnapshotProperties method","IVssSoftwareSnapshotProvider.GetSnapshotProperties","IVssSoftwareSnapshotProvider::GetSnapshotProperties","base.ivsssoftwaresnapshotprovider_getsnapshotproperties","vsprov/IVssSoftwareSnapshotProvider::GetSnapshotProperties"]
+description: Gets the properties of the specified shadow copy.
+helpviewer_keywords: ["GetSnapshotProperties","GetSnapshotProperties method","GetSnapshotProperties method","IVssSoftwareSnapshotProvider interface","IVssSoftwareSnapshotProvider interface","GetSnapshotProperties method","IVssSoftwareSnapshotProvider.GetSnapshotProperties","IVssSoftwareSnapshotProvider::GetSnapshotProperties","base.ivsssoftwaresnapshotprovider_getsnapshotproperties","vsprov/IVssSoftwareSnapshotProvider::GetSnapshotProperties"]
 old-location: base\ivsssoftwaresnapshotprovider_getsnapshotproperties.htm
 tech.root: VSS
 ms.assetid: 59886344-d594-4eb8-9718-ab11a6627e8e

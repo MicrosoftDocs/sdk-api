@@ -1,7 +1,8 @@
 ---
 UID: NS:setupapi._SP_DEVINFO_DATA
 title: SP_DEVINFO_DATA (setupapi.h)
-description: An SP_DEVINFO_DATA structure defines a device instance that is a member of a device information set.helpviewer_keywords: ["*PSP_DEVINFO_DATA","PSP_DEVINFO_DATA","PSP_DEVINFO_DATA structure pointer [Device and Driver Installation]","SP_DEVINFO_DATA","SP_DEVINFO_DATA structure [Device and Driver Installation]","devinst.sp_devinfo_data","di-struct_1d8e747e-8359-405d-8819-29c516a99cbe.xml","setupapi/PSP_DEVINFO_DATA","setupapi/SP_DEVINFO_DATA"]
+description: An SP_DEVINFO_DATA structure defines a device instance that is a member of a device information set.
+helpviewer_keywords: ["*PSP_DEVINFO_DATA","PSP_DEVINFO_DATA","PSP_DEVINFO_DATA structure pointer [Device and Driver Installation]","SP_DEVINFO_DATA","SP_DEVINFO_DATA structure [Device and Driver Installation]","devinst.sp_devinfo_data","di-struct_1d8e747e-8359-405d-8819-29c516a99cbe.xml","setupapi/PSP_DEVINFO_DATA","setupapi/SP_DEVINFO_DATA"]
 old-location: devinst\sp_devinfo_data.htm
 tech.root: devinst
 ms.assetid: 9ad0ef4f-4a67-4f16-8bb1-2242dad0d041

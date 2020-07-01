@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorGetIntZ
 title: XMVectorGetIntZ function (directxmath.h)
-description: Retrieve the z component of an XMVECTOR Data Type.helpviewer_keywords: ["Use DirectX..XMVectorGetIntZ","XMVectorGetIntZ","XMVectorGetIntZ method [DirectX Math Support APIs]","dxmath.xmvectorgetintz"]
+description: Retrieve the z component of an XMVECTOR Data Type.
+helpviewer_keywords: ["Use DirectX..XMVectorGetIntZ","XMVectorGetIntZ","XMVectorGetIntZ method [DirectX Math Support APIs]","dxmath.xmvectorgetintz"]
 old-location: dxmath\xmvectorgetintz.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetIntZ(XMVECTOR)

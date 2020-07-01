@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetDate
 title: IWMDMStorage::GetDate (mswmdm.h)
-description: The GetDate method retrieves the date when the storage was last modified.helpviewer_keywords: ["GetDate","GetDate method [windows Media Device Manager]","GetDate method [windows Media Device Manager]","IWMDMStorage interface","IWMDMStorage interface [windows Media Device Manager]","GetDate method","IWMDMStorage.GetDate","IWMDMStorage::GetDate","IWMDMStorageGetDate","mswmdm/IWMDMStorage::GetDate","wmdm.iwmdmstorage_getdate"]
+description: The GetDate method retrieves the date when the storage was last modified.
+helpviewer_keywords: ["GetDate","GetDate method [windows Media Device Manager]","GetDate method [windows Media Device Manager]","IWMDMStorage interface","IWMDMStorage interface [windows Media Device Manager]","GetDate method","IWMDMStorage.GetDate","IWMDMStorage::GetDate","IWMDMStorageGetDate","mswmdm/IWMDMStorage::GetDate","wmdm.iwmdmstorage_getdate"]
 old-location: wmdm\iwmdmstorage_getdate.htm
 tech.root: WMDM
 ms.assetid: 53693e2f-f6d2-42cc-9387-798f8dc10556

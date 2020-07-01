@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchManager.GetIndexerVersion
 title: ISearchManager::GetIndexerVersion (searchapi.h)
-description: Retrieves the version of the current indexer in two chunks:\_the major version signifier and the minor version signifier.helpviewer_keywords: ["GetIndexerVersion","GetIndexerVersion method [search]","GetIndexerVersion method [search]","ISearchManager interface","ISearchManager interface [search]","GetIndexerVersion method","ISearchManager.GetIndexerVersion","ISearchManager::GetIndexerVersion","_search_ISearchManager_GetIndexerVersion","search._search_ISearchManager_GetIndexerVersion","searchapi/ISearchManager::GetIndexerVersion"]
+description: Retrieves the version of the current indexer in two chunks:\_the major version signifier and the minor version signifier.
+helpviewer_keywords: ["GetIndexerVersion","GetIndexerVersion method [search]","GetIndexerVersion method [search]","ISearchManager interface","ISearchManager interface [search]","GetIndexerVersion method","ISearchManager.GetIndexerVersion","ISearchManager::GetIndexerVersion","_search_ISearchManager_GetIndexerVersion","search._search_ISearchManager_GetIndexerVersion","searchapi/ISearchManager::GetIndexerVersion"]
 old-location: search\_search_ISearchManager_GetIndexerVersion.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getindexerversion.htm
@@ -84,9 +85,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-The ReindexMatchingUrls code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

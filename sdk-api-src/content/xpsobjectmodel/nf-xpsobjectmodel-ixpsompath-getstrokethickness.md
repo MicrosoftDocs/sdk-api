@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeThickness
 title: IXpsOMPath::GetStrokeThickness (xpsobjectmodel.h)
-description: Gets the stroke thickness.helpviewer_keywords: ["GetStrokeThickness","GetStrokeThickness method [XPS Documents and Packaging]","GetStrokeThickness method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeThickness method","IXpsOMPath.GetStrokeThickness","IXpsOMPath::GetStrokeThickness","xps.ixpsompath_getstrokethickness","xpsobjectmodel/IXpsOMPath::GetStrokeThickness"]
+description: Gets the stroke thickness.
+helpviewer_keywords: ["GetStrokeThickness","GetStrokeThickness method [XPS Documents and Packaging]","GetStrokeThickness method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeThickness method","IXpsOMPath.GetStrokeThickness","IXpsOMPath::GetStrokeThickness","xps.ixpsompath_getstrokethickness","xpsobjectmodel/IXpsOMPath::GetStrokeThickness"]
 old-location: xps\ixpsompath_getstrokethickness.htm
 tech.root: printdocs
 ms.assetid: 5c1d8179-99e6-4335-8777-56b6873f746b

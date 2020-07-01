@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CreateSkewTransform
 title: IDCompositionDevice::CreateSkewTransform (dcomp.h)
-description: Creates a 2D skew transform object.helpviewer_keywords: ["CreateSkewTransform","CreateSkewTransform method [DirectComposition]","CreateSkewTransform method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CreateSkewTransform method","IDCompositionDevice.CreateSkewTransform","IDCompositionDevice::CreateSkewTransform","dcomp/IDCompositionDevice::CreateSkewTransform","directcomp.idcompositiondevice_createskewtransform"]
+description: Creates a 2D skew transform object.
+helpviewer_keywords: ["CreateSkewTransform","CreateSkewTransform method [DirectComposition]","CreateSkewTransform method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CreateSkewTransform method","IDCompositionDevice.CreateSkewTransform","IDCompositionDevice::CreateSkewTransform","dcomp/IDCompositionDevice::CreateSkewTransform","directcomp.idcompositiondevice_createskewtransform"]
 old-location: directcomp\idcompositiondevice_createskewtransform.htm
 tech.root: directcomp
 ms.assetid: c67d1c75-8704-44b3-8794-58cf08ea2572

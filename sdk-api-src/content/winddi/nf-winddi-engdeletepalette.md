@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngDeletePalette
 title: EngDeletePalette function (winddi.h)
-description: The EngDeletePalette function sends a request to GDI to delete the specified palette.helpviewer_keywords: ["EngDeletePalette","EngDeletePalette function [Display Devices]","display.engdeletepalette","gdifncs_221095fd-b5c5-485e-9e8c-9f7a114d496d.xml","winddi/EngDeletePalette"]
+description: The EngDeletePalette function sends a request to GDI to delete the specified palette.
+helpviewer_keywords: ["EngDeletePalette","EngDeletePalette function [Display Devices]","display.engdeletepalette","gdifncs_221095fd-b5c5-485e-9e8c-9f7a114d496d.xml","winddi/EngDeletePalette"]
 old-location: display\engdeletepalette.htm
 tech.root: display
 ms.assetid: ebdbbb4e-aaa8-4fb7-9546-545dce803054

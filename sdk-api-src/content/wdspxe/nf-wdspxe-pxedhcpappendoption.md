@@ -1,7 +1,8 @@
 ---
 UID: NF:wdspxe.PxeDhcpAppendOption
 title: PxeDhcpAppendOption function (wdspxe.h)
-description: Appends a DHCP option to the reply packet.helpviewer_keywords: ["PxeDhcpAppendOption","PxeDhcpAppendOption function [Windows Deployment Services]","wds.pxedhcpappendoption","wdspxe/PxeDhcpAppendOption"]
+description: Appends a DHCP option to the reply packet.
+helpviewer_keywords: ["PxeDhcpAppendOption","PxeDhcpAppendOption function [Windows Deployment Services]","wds.pxedhcpappendoption","wdspxe/PxeDhcpAppendOption"]
 old-location: wds\pxedhcpappendoption.htm
 tech.root: wds
 ms.assetid: bc639af6-de51-4c82-985a-96e5a10389e7

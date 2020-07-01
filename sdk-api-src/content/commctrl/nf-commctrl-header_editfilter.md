@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Header_EditFilter
 title: Header_EditFilter macro (commctrl.h)
-description: Moves the input focus to the edit box when a filter button has the focus.helpviewer_keywords: ["FALSE","Header_EditFilter","Header_EditFilter macro [Windows Controls]","TRUE","_win32_Header_EditFilter","_win32_Header_EditFilter_cpp","commctrl/Header_EditFilter","controls.Header_EditFilter","controls._win32_Header_EditFilter"]
+description: Moves the input focus to the edit box when a filter button has the focus.
+helpviewer_keywords: ["FALSE","Header_EditFilter","Header_EditFilter macro [Windows Controls]","TRUE","_win32_Header_EditFilter","_win32_Header_EditFilter_cpp","commctrl/Header_EditFilter","controls.Header_EditFilter","controls._win32_Header_EditFilter"]
 old-location: controls\Header_EditFilter.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\header\macros\header_editfilter.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchLanguageSupport
 title: ISearchLanguageSupport (searchapi.h)
-description: Provides methods for accessing thesaurus information.helpviewer_keywords: ["ISearchLanguageSupport","ISearchLanguageSupport interface [search]","ISearchLanguageSupport interface [search]","described","_search_ISearchLanguageSupport","search._search_ISearchLanguageSupport","searchapi/ISearchLanguageSupport"]
+description: Provides methods for accessing thesaurus information.
+helpviewer_keywords: ["ISearchLanguageSupport","ISearchLanguageSupport interface [search]","ISearchLanguageSupport interface [search]","described","_search_ISearchLanguageSupport","search._search_ISearchLanguageSupport","searchapi/ISearchLanguageSupport"]
 old-location: search\_search_ISearchLanguageSupport.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\isearchlanguagesupport.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.RtlInterlockedFlushSList
 title: RtlInterlockedFlushSList function (winnt.h)
-description: Removes all items from a singly linked list. Access to the list is synchronized on a multiprocessor system.helpviewer_keywords: ["RtlInterlockedFlushSList","RtlInterlockedFlushSList function","base.rtlinterlockedflushslist","winnt/RtlInterlockedFlushSList"]
+description: Removes all items from a singly linked list. Access to the list is synchronized on a multiprocessor system.
+helpviewer_keywords: ["RtlInterlockedFlushSList","RtlInterlockedFlushSList function","base.rtlinterlockedflushslist","winnt/RtlInterlockedFlushSList"]
 old-location: base\rtlinterlockedflushslist.htm
 tech.root: Sync
 ms.assetid: bc5f28d8-c976-4614-9136-99887c617023

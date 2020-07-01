@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.QueryThreadProfiling
 title: QueryThreadProfiling function (winbase.h)
-description: Determines whether thread profiling is enabled for the specified thread.helpviewer_keywords: ["QueryThreadProfiling","QueryThreadProfiling function [Hardware Counter Profiling]","hcp.querythreadprofiling","winbase/QueryThreadProfiling"]
+description: Determines whether thread profiling is enabled for the specified thread.
+helpviewer_keywords: ["QueryThreadProfiling","QueryThreadProfiling function [Hardware Counter Profiling]","hcp.querythreadprofiling","winbase/QueryThreadProfiling"]
 old-location: hcp\querythreadprofiling.htm
 tech.root: hcp
 ms.assetid: cf746694-cc3a-4791-8877-fd879e968811

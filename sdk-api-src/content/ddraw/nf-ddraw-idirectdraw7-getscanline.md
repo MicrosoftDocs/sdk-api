@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetScanLine
 title: IDirectDraw7::GetScanLine (ddraw.h)
-description: Retrieves the scan line that is currently being drawn on the monitor.helpviewer_keywords: ["GetScanLine","GetScanLine method [DirectDraw]","GetScanLine method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","GetScanLine method","IDirectDraw7.GetScanLine","IDirectDraw7::GetScanLine","ddraw/IDirectDraw7::GetScanLine","directdraw.idirectdraw7_getscanline"]
+description: Retrieves the scan line that is currently being drawn on the monitor.
+helpviewer_keywords: ["GetScanLine","GetScanLine method [DirectDraw]","GetScanLine method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","GetScanLine method","IDirectDraw7.GetScanLine","IDirectDraw7::GetScanLine","ddraw/IDirectDraw7::GetScanLine","directdraw.idirectdraw7_getscanline"]
 old-location: directdraw\idirectdraw7_getscanline.htm
 tech.root: directdraw
 ms.assetid: 0bccb384-2de3-49a5-962a-31ad2a751e28

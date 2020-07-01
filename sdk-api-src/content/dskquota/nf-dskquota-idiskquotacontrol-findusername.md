@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.FindUserName
 title: IDiskQuotaControl::FindUserName (dskquota.h)
-description: Locates a specific entry in the volume quota information.helpviewer_keywords: ["FindUserName","FindUserName method [Files]","FindUserName method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","FindUserName method","IDiskQuotaControl.FindUserName","IDiskQuotaControl::FindUserName","_win32_idiskquotacontrol_findusername","base.idiskquotacontrol_findusername","dskquota/IDiskQuotaControl::FindUserName","fs.idiskquotacontrol_findusername"]
+description: Locates a specific entry in the volume quota information.
+helpviewer_keywords: ["FindUserName","FindUserName method [Files]","FindUserName method [Files]","IDiskQuotaControl interface","IDiskQuotaControl interface [Files]","FindUserName method","IDiskQuotaControl.FindUserName","IDiskQuotaControl::FindUserName","_win32_idiskquotacontrol_findusername","base.idiskquotacontrol_findusername","dskquota/IDiskQuotaControl::FindUserName","fs.idiskquotacontrol_findusername"]
 old-location: fs\idiskquotacontrol_findusername.htm
 tech.root: FileIO
 ms.assetid: dae4e2d4-0293-4ee4-9687-9fed4b3a3600

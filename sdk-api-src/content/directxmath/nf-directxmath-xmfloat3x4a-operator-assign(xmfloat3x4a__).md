@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMFLOAT3X4A.operator-assign(XMFLOAT3X4A &&)
+UID: NF:directxmath.XMFLOAT3X4A.operator-assign(XMFLOAT3X4A&&)
 title: XMFLOAT3X4A::operator=
 ms.date: 11/8/2019
 ms.topic: language-reference

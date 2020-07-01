@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IESEvent.GetStringData
 title: IESEvent::GetStringData (tuner.h)
-description: Gets the data from an event that is derived from the IESEvent interface, in Unicode string format. The data is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.helpviewer_keywords: ["GetStringData","GetStringData method [Microsoft TV Technologies]","GetStringData method [Microsoft TV Technologies]","IESEvent interface","IESEvent interface [Microsoft TV Technologies]","GetStringData method","IESEvent.GetStringData","IESEvent::GetStringData","mstv.iesevent_getstringdata","tuner/IESEvent::GetStringData"]
+description: Gets the data from an event that is derived from the IESEvent interface, in Unicode string format. The data is contained in an IESEvent object, which ispassed in a call to IESEventService::FireESEvent.
+helpviewer_keywords: ["GetStringData","GetStringData method [Microsoft TV Technologies]","GetStringData method [Microsoft TV Technologies]","IESEvent interface","IESEvent interface [Microsoft TV Technologies]","GetStringData method","IESEvent.GetStringData","IESEvent::GetStringData","mstv.iesevent_getstringdata","tuner/IESEvent::GetStringData"]
 old-location: mstv\iesevent_getstringdata.htm
 tech.root: mstv
 ms.assetid: 6a1c98af-a753-40e5-bea8-825863f94172

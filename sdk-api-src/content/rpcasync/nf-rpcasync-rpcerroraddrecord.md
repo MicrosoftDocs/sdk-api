@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcasync.RpcErrorAddRecord
 title: RpcErrorAddRecord function (rpcasync.h)
-description: The RpcErrorAddRecord function adds extended error information to a chain of extended error information records.helpviewer_keywords: ["RpcErrorAddRecord","RpcErrorAddRecord function [RPC]","_rpc_rpcerroraddrecord","rpc.rpcerroraddrecord","rpcasync/RpcErrorAddRecord"]
+description: The RpcErrorAddRecord function adds extended error information to a chain of extended error information records.
+helpviewer_keywords: ["RpcErrorAddRecord","RpcErrorAddRecord function [RPC]","_rpc_rpcerroraddrecord","rpc.rpcerroraddrecord","rpcasync/RpcErrorAddRecord"]
 old-location: rpc\rpcerroraddrecord.htm
 tech.root: Rpc
 ms.assetid: b82708ef-0760-49b0-87d2-3d55a07b351f

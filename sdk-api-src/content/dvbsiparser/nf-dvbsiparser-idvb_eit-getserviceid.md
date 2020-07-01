@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetServiceId
 title: IDVB_EIT::GetServiceId (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetServiceId","GetServiceId method [Microsoft TV Technologies]","GetServiceId method [Microsoft TV Technologies]","IDVB_EIT interface","IDVB_EIT interface [Microsoft TV Technologies]","GetServiceId method","IDVB_EIT.GetServiceId","IDVB_EIT::GetServiceId","IDVB_EITGetServiceId","dvbsiparser/IDVB_EIT::GetServiceId","mstv.idvb_eit_getserviceid"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetServiceId","GetServiceId method [Microsoft TV Technologies]","GetServiceId method [Microsoft TV Technologies]","IDVB_EIT interface","IDVB_EIT interface [Microsoft TV Technologies]","GetServiceId method","IDVB_EIT.GetServiceId","IDVB_EIT::GetServiceId","IDVB_EITGetServiceId","dvbsiparser/IDVB_EIT::GetServiceId","mstv.idvb_eit_getserviceid"]
 old-location: mstv\idvb_eit_getserviceid.htm
 tech.root: mstv
 ms.assetid: 6ff89d80-9c68-4c2a-b0b5-14603b55d7b7

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_receivedPackets
 title: IWMPNetwork::get_receivedPackets (wmp.h)
-description: The get_receivedPackets method retrieves the number of packets received.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_receivedPackets method","IWMPNetwork.get_receivedPackets","IWMPNetwork::get_receivedPackets","IWMPNetworkget_receivedPackets","get_receivedPackets","get_receivedPackets method [Windows Media Player]","get_receivedPackets method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_receivedpackets","wmp/IWMPNetwork::get_receivedPackets"]
+description: The get_receivedPackets method retrieves the number of packets received.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_receivedPackets method","IWMPNetwork.get_receivedPackets","IWMPNetwork::get_receivedPackets","IWMPNetworkget_receivedPackets","get_receivedPackets","get_receivedPackets method [Windows Media Player]","get_receivedPackets method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_receivedpackets","wmp/IWMPNetwork::get_receivedPackets"]
 old-location: wmp\iwmpnetwork_get_receivedpackets.htm
 tech.root: WMP
 ms.assetid: 9a896a67-ef0c-4fd7-b352-3c091bea1ad8

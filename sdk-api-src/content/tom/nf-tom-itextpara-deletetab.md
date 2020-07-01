@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.DeleteTab
 title: ITextPara::DeleteTab (tom.h)
-description: Deletes a tab at a specified displacement.helpviewer_keywords: ["DeleteTab","DeleteTab method [Windows Controls]","DeleteTab method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","DeleteTab method","ITextPara.DeleteTab","ITextPara::DeleteTab","_win32_ITextPara_DeleteTab","_win32_ITextPara_DeleteTab_cpp","controls.ITextPara_DeleteTab","controls._win32_ITextPara_DeleteTab","tom/ITextPara::DeleteTab"]
+description: Deletes a tab at a specified displacement.
+helpviewer_keywords: ["DeleteTab","DeleteTab method [Windows Controls]","DeleteTab method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","DeleteTab method","ITextPara.DeleteTab","ITextPara::DeleteTab","_win32_ITextPara_DeleteTab","_win32_ITextPara_DeleteTab_cpp","controls.ITextPara_DeleteTab","controls._win32_ITextPara_DeleteTab","tom/ITextPara::DeleteTab"]
 old-location: controls\ITextPara_DeleteTab.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\deletetab.htm

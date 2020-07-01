@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateCubicVectorTransition
 title: IUIAnimationTransitionLibrary2::CreateCubicVectorTransition (uianimation.h)
-description: Creates a cubic vector transition for each specified dimension.helpviewer_keywords: ["CreateCubicVectorTransition","CreateCubicVectorTransition method [Windows Animation]","CreateCubicVectorTransition method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateCubicVectorTransition method","IUIAnimationTransitionLibrary2.CreateCubicVectorTransition","IUIAnimationTransitionLibrary2::CreateCubicVectorTransition","uianimation.iuianimationtransitionlibrary2_createcubicvectortransition","uianimation/IUIAnimationTransitionLibrary2::CreateCubicVectorTransition"]
+description: Creates a cubic vector transition for each specified dimension.
+helpviewer_keywords: ["CreateCubicVectorTransition","CreateCubicVectorTransition method [Windows Animation]","CreateCubicVectorTransition method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateCubicVectorTransition method","IUIAnimationTransitionLibrary2.CreateCubicVectorTransition","IUIAnimationTransitionLibrary2::CreateCubicVectorTransition","uianimation.iuianimationtransitionlibrary2_createcubicvectortransition","uianimation/IUIAnimationTransitionLibrary2::CreateCubicVectorTransition"]
 old-location: uianimation\iuianimationtransitionlibrary2_createcubicvectortransition.htm
 tech.root: UIAnimation
 ms.assetid: 27671A90-611C-457A-8D2B-657256896CF4

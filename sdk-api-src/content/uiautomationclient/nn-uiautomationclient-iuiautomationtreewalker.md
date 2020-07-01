@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTreeWalker
 title: IUIAutomationTreeWalker (uiautomationclient.h)
-description: Exposes properties and methods that UI Automation client applications use to view and navigate the UI Automation elements on the desktop.helpviewer_keywords: ["IUIAutomationTreeWalker","IUIAutomationTreeWalker interface [Windows Accessibility]","IUIAutomationTreeWalker interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationTreeWalker","uiauto_IUIAutomationTreeWalker","uiautomationclient/IUIAutomationTreeWalker","winauto.uiauto_IUIAutomationTreeWalker"]
+description: Exposes properties and methods that UI Automation client applications use to view and navigate the UI Automation elements on the desktop.
+helpviewer_keywords: ["IUIAutomationTreeWalker","IUIAutomationTreeWalker interface [Windows Accessibility]","IUIAutomationTreeWalker interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationTreeWalker","uiauto_IUIAutomationTreeWalker","uiautomationclient/IUIAutomationTreeWalker","winauto.uiauto_IUIAutomationTreeWalker"]
 old-location: winauto\uiauto_IUIAutomationTreeWalker.htm
 tech.root: WinAuto
 ms.assetid: adb4afed-63b9-42b4-8a8d-673d4813bb52

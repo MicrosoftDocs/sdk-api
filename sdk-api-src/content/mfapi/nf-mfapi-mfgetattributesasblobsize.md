@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFGetAttributesAsBlobSize
 title: MFGetAttributesAsBlobSize function (mfapi.h)
-description: Retrieves the size of the buffer needed for the MFGetAttributesAsBlob function.helpviewer_keywords: ["52abfe30-a18d-45f7-93db-13f87b0647b7","MFGetAttributesAsBlobSize","MFGetAttributesAsBlobSize function [Media Foundation]","mf.mfgetattributesasblobsize","mfapi/MFGetAttributesAsBlobSize"]
+description: Retrieves the size of the buffer needed for the MFGetAttributesAsBlob function.
+helpviewer_keywords: ["52abfe30-a18d-45f7-93db-13f87b0647b7","MFGetAttributesAsBlobSize","MFGetAttributesAsBlobSize function [Media Foundation]","mf.mfgetattributesasblobsize","mfapi/MFGetAttributesAsBlobSize"]
 old-location: mf\mfgetattributesasblobsize.htm
 tech.root: medfound
 ms.assetid: 52abfe30-a18d-45f7-93db-13f87b0647b7

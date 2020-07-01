@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.midiInGetID
 title: midiInGetID function (mmeapi.h)
-description: The midiInGetID function gets the device identifier for the given MIDI input device.helpviewer_keywords: ["_win32_midiInGetID","midiInGetID","midiInGetID function [Windows Multimedia]","mmeapi/midiInGetID","multimedia.midiingetid"]
+description: The midiInGetID function gets the device identifier for the given MIDI input device.
+helpviewer_keywords: ["_win32_midiInGetID","midiInGetID","midiInGetID function [Windows Multimedia]","mmeapi/midiInGetID","multimedia.midiingetid"]
 old-location: multimedia\midiingetid.htm
 tech.root: Multimedia
 ms.assetid: 008e88e4-05d6-4204-802b-dd406113a7f5

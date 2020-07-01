@@ -1,7 +1,8 @@
 ---
 UID: NS:dwrite.DWRITE_SHAPING_TEXT_PROPERTIES
 title: DWRITE_SHAPING_TEXT_PROPERTIES (dwrite.h)
-description: Shaping output properties for an output glyph.helpviewer_keywords: ["DWRITE_SHAPING_TEXT_PROPERTIES","DWRITE_SHAPING_TEXT_PROPERTIES structure [Direct Write]","directwrite.dwrite_shaping_text_properties","dwrite/DWRITE_SHAPING_TEXT_PROPERTIES"]
+description: Shaping output properties for an output glyph.
+helpviewer_keywords: ["DWRITE_SHAPING_TEXT_PROPERTIES","DWRITE_SHAPING_TEXT_PROPERTIES structure [Direct Write]","directwrite.dwrite_shaping_text_properties","dwrite/DWRITE_SHAPING_TEXT_PROPERTIES"]
 old-location: directwrite\dwrite_shaping_text_properties.htm
 tech.root: DirectWrite
 ms.assetid: 2fd1af73-c2ea-4077-9cf5-77ab9f237f0a

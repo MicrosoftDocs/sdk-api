@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Session_TestConnection
 title: MI_Session_TestConnection function (mi.h)
-description: Tests a connection by communicating with the server represented by the session to determine whether it is responding.helpviewer_keywords: ["MI_Session_TestConnection","MI_Session_TestConnection function [Windows Management Infrastructure (MI)]","mi/MI_Session_TestConnection","wmi_v2.mi_session_testconnection"]
+description: Tests a connection by communicating with the server represented by the session to determine whether it is responding.
+helpviewer_keywords: ["MI_Session_TestConnection","MI_Session_TestConnection function [Windows Management Infrastructure (MI)]","mi/MI_Session_TestConnection","wmi_v2.mi_session_testconnection"]
 old-location: wmi_v2\mi_session_testconnection.htm
 tech.root: wmi_v2
 ms.assetid: 513eb39c-6894-49fa-bc4d-932f25318c34

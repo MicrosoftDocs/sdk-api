@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_NODE_MASK
 title: D3D12_NODE_MASK (d3d12.h)
-description: A state subobject that identifies the GPU nodes to which the state object applies.helpviewer_keywords: ["D3D12_NODE_MASK","D3D12_NODE_MASK structure","PD3D12_NODE_MASK","PD3D12_NODE_MASK structure pointer","d3d12/D3D12_NODE_MASK","d3d12/PD3D12_NODE_MASK","direct3d12.d3d12_node_mask"]
+description: A state subobject that identifies the GPU nodes to which the state object applies.
+helpviewer_keywords: ["D3D12_NODE_MASK","D3D12_NODE_MASK structure","PD3D12_NODE_MASK","PD3D12_NODE_MASK structure pointer","d3d12/D3D12_NODE_MASK","d3d12/PD3D12_NODE_MASK","direct3d12.d3d12_node_mask"]
 old-location: direct3d12\d3d12_node_mask.htm
 tech.root: direct3d12
 ms.assetid: DB1CF496-EB74-4898-8742-6D8374455C00

@@ -1,7 +1,8 @@
 ---
 UID: NN:devicetopology.IDeviceSpecificProperty
 title: IDeviceSpecificProperty (devicetopology.h)
-description: The IDeviceSpecificProperty interface provides access to the control value of a device-specific hardware control.helpviewer_keywords: ["IDeviceSpecificProperty","IDeviceSpecificProperty interface [Core Audio]","IDeviceSpecificProperty interface [Core Audio]","described","coreaudio.idevicespecificproperty","devicetopology/IDeviceSpecificProperty"]
+description: The IDeviceSpecificProperty interface provides access to the control value of a device-specific hardware control.
+helpviewer_keywords: ["IDeviceSpecificProperty","IDeviceSpecificProperty interface [Core Audio]","IDeviceSpecificProperty interface [Core Audio]","described","coreaudio.idevicespecificproperty","devicetopology/IDeviceSpecificProperty"]
 old-location: coreaudio\idevicespecificproperty.htm
 tech.root: CoreAudio
 ms.assetid: 52873fe2-7f59-4a30-b526-cbefa27a81bb

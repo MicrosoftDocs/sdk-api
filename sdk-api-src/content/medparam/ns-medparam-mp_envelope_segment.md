@@ -1,7 +1,8 @@
 ---
 UID: NS:medparam._MP_ENVELOPE_SEGMENT
 title: MP_ENVELOPE_SEGMENT (medparam.h)
-description: The MP_ENVELOPE_SEGMENT structure defines an envelope segment used by an envelope-following parameter.helpviewer_keywords: ["MPF_ENVLP_BEGIN_CURRENTVAL","MPF_ENVLP_BEGIN_NEUTRALVAL","MPF_ENVLP_STANDARD","MP_ENVELOPEStructure","MP_ENVELOPE_SEGMENT","MP_ENVELOPE_SEGMENT structure [DirectShow]","dshow.mp_envelope_segment","medparam/MP_ENVELOPE_SEGMENT"]
+description: The MP_ENVELOPE_SEGMENT structure defines an envelope segment used by an envelope-following parameter.
+helpviewer_keywords: ["MPF_ENVLP_BEGIN_CURRENTVAL","MPF_ENVLP_BEGIN_NEUTRALVAL","MPF_ENVLP_STANDARD","MP_ENVELOPEStructure","MP_ENVELOPE_SEGMENT","MP_ENVELOPE_SEGMENT structure [DirectShow]","dshow.mp_envelope_segment","medparam/MP_ENVELOPE_SEGMENT"]
 old-location: dshow\mp_envelope_segment.htm
 tech.root: DirectShow
 ms.assetid: b7386b63-c563-42dd-851c-780bf1043f65

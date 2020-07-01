@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorNegativeMultiplySubtract
 title: XMVectorNegativeMultiplySubtract function (directxmath.h)
-description: Computes the difference of a third vector and the product of the first two vectors.helpviewer_keywords: ["Use DirectX..XMVectorNegativeMultiplySubtract","XMVectorNegativeMultiplySubtract","XMVectorNegativeMultiplySubtract method [DirectX Math Support APIs]","dxmath.xmvectornegativemultiplysubtract"]
+description: Computes the difference of a third vector and the product of the first two vectors.
+helpviewer_keywords: ["Use DirectX..XMVectorNegativeMultiplySubtract","XMVectorNegativeMultiplySubtract","XMVectorNegativeMultiplySubtract method [DirectX Math Support APIs]","dxmath.xmvectornegativemultiplysubtract"]
 old-location: dxmath\xmvectornegativemultiplysubtract.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorNegativeMultiplySubtract(XMVECTOR,XMVECTOR,XMVECTOR)

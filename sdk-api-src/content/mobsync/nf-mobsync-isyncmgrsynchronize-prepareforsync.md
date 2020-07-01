@@ -1,7 +1,8 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.PrepareForSync
 title: ISyncMgrSynchronize::PrepareForSync (mobsync.h)
-description: Allows a registered application to display any user interface, and perform any necessary initialization before the ISyncMgrSynchronize::Synchronize method is called.helpviewer_keywords: ["ISyncMgrSynchronize interface [Windows Shell]","PrepareForSync method","ISyncMgrSynchronize.PrepareForSync","ISyncMgrSynchronize::PrepareForSync","PrepareForSync","PrepareForSync method [Windows Shell]","PrepareForSync method [Windows Shell]","ISyncMgrSynchronize interface","mobsync/ISyncMgrSynchronize::PrepareForSync","shell.syncmgr_isyncmgrsynchronize_prepareforsync","syncmgr.isyncmgrsynchronize_prepareforsync"]
+description: Allows a registered application to display any user interface, and perform any necessary initialization before the ISyncMgrSynchronize::Synchronize method is called.
+helpviewer_keywords: ["ISyncMgrSynchronize interface [Windows Shell]","PrepareForSync method","ISyncMgrSynchronize.PrepareForSync","ISyncMgrSynchronize::PrepareForSync","PrepareForSync","PrepareForSync method [Windows Shell]","PrepareForSync method [Windows Shell]","ISyncMgrSynchronize interface","mobsync/ISyncMgrSynchronize::PrepareForSync","shell.syncmgr_isyncmgrsynchronize_prepareforsync","syncmgr.isyncmgrsynchronize_prepareforsync"]
 old-location: shell\syncmgr_isyncmgrsynchronize_prepareforsync.htm
 tech.root: shell
 ms.assetid: 82e70e75-a5d4-41b2-87c4-2a032628954d

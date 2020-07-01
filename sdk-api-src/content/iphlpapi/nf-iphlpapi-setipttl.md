@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.SetIpTTL
 title: SetIpTTL function (iphlpapi.h)
-description: The SetIpTTL function sets the default time-to-live (TTL) value for the local computer.helpviewer_keywords: ["SetIpTTL","SetIpTTL function [IP Helper]","_iphlp_setipttl","iphlp.setipttl","iphlpapi/SetIpTTL"]
+description: The SetIpTTL function sets the default time-to-live (TTL) value for the local computer.
+helpviewer_keywords: ["SetIpTTL","SetIpTTL function [IP Helper]","_iphlp_setipttl","iphlp.setipttl","iphlpapi/SetIpTTL"]
 old-location: iphlp\setipttl.htm
 tech.root: IpHlp
 ms.assetid: dfde8712-f68f-4fa4-b939-ea36e23b5b1e

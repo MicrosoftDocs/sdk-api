@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontDownloadListener.DownloadCompleted
 title: IDWriteFontDownloadListener::DownloadCompleted (dwrite_3.h)
-description: The DownloadCompleted method is called back on an arbitrary thread when a download operation ends.helpviewer_keywords: ["DownloadCompleted","DownloadCompleted method [Direct Write]","DownloadCompleted method [Direct Write]","IDWriteFontDownloadListener interface","IDWriteFontDownloadListener interface [Direct Write]","DownloadCompleted method","IDWriteFontDownloadListener.DownloadCompleted","IDWriteFontDownloadListener::DownloadCompleted","directwrite.idwritefontdownloadlistener_downloadcompleted","dwrite_3/IDWriteFontDownloadListener::DownloadCompleted"]
+description: The DownloadCompleted method is called back on an arbitrary thread when a download operation ends.
+helpviewer_keywords: ["DownloadCompleted","DownloadCompleted method [Direct Write]","DownloadCompleted method [Direct Write]","IDWriteFontDownloadListener interface","IDWriteFontDownloadListener interface [Direct Write]","DownloadCompleted method","IDWriteFontDownloadListener.DownloadCompleted","IDWriteFontDownloadListener::DownloadCompleted","directwrite.idwritefontdownloadlistener_downloadcompleted","dwrite_3/IDWriteFontDownloadListener::DownloadCompleted"]
 old-location: directwrite\idwritefontdownloadlistener_downloadcompleted.htm
 tech.root: DirectWrite
 ms.assetid: d4da0189-efe4-4ee6-4cc9-179fbda54b98

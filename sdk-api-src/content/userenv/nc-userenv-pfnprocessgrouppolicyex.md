@@ -1,7 +1,8 @@
 ---
 UID: NC:userenv.PFNPROCESSGROUPPOLICYEX
 title: PFNPROCESSGROUPPOLICYEX (userenv.h)
-description: The ProcessGroupPolicyEx function is an application-defined callback function used when applying policy.helpviewer_keywords: ["GPO_INFO_FLAG_ASYNC_FOREGROUND","GPO_INFO_FLAG_BACKGROUND","GPO_INFO_FLAG_FORCED_REFRESH","GPO_INFO_FLAG_LINKTRANSITION","GPO_INFO_FLAG_LOGRSOP_TRANSITION","GPO_INFO_FLAG_MACHINE","GPO_INFO_FLAG_NOCHANGES","GPO_INFO_FLAG_SAFEMODE_BOOT","GPO_INFO_FLAG_SLOWLINK","GPO_INFO_FLAG_VERBOSE","PFNPROCESSGROUPPOLICYEX","PFNPROCESSGROUPPOLICYEX callback","PFNPROCESSGROUPPOLICYEX callback function [Group Policy]","ProcessGroupPolicyEx","_win32_processgrouppolicyex","policy.processgrouppolicyex","userenv/PFNPROCESSGROUPPOLICYEX"]
+description: The ProcessGroupPolicyEx function is an application-defined callback function used when applying policy.
+helpviewer_keywords: ["GPO_INFO_FLAG_ASYNC_FOREGROUND","GPO_INFO_FLAG_BACKGROUND","GPO_INFO_FLAG_FORCED_REFRESH","GPO_INFO_FLAG_LINKTRANSITION","GPO_INFO_FLAG_LOGRSOP_TRANSITION","GPO_INFO_FLAG_MACHINE","GPO_INFO_FLAG_NOCHANGES","GPO_INFO_FLAG_SAFEMODE_BOOT","GPO_INFO_FLAG_SLOWLINK","GPO_INFO_FLAG_VERBOSE","PFNPROCESSGROUPPOLICYEX","PFNPROCESSGROUPPOLICYEX callback","PFNPROCESSGROUPPOLICYEX callback function [Group Policy]","ProcessGroupPolicyEx","_win32_processgrouppolicyex","policy.processgrouppolicyex","userenv/PFNPROCESSGROUPPOLICYEX"]
 old-location: policy\processgrouppolicyex.htm
 tech.root: Policy
 ms.assetid: df77fece-6e81-4a85-847a-fef3ba775e93

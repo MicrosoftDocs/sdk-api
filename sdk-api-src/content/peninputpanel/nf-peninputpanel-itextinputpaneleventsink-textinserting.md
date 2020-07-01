@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.ITextInputPanelEventSink.TextInserting
 title: ITextInputPanelEventSink::TextInserting (peninputpanel.h)
-description: Occurs when the Tablet PC Input Panel is about to insert text into the control with input focus. Provides access to the ink the user entered in the Input Panel.helpviewer_keywords: ["8e2ca5e2-a407-44cd-b489-c118401ca21b","ITextInputPanelEventSink interface [Tablet PC]","TextInserting method","ITextInputPanelEventSink.TextInserting","ITextInputPanelEventSink::TextInserting","TextInserting","TextInserting method [Tablet PC]","TextInserting method [Tablet PC]","ITextInputPanelEventSink interface","peninputpanel/ITextInputPanelEventSink::TextInserting","tablet.itextinputpaneleventsink_textinserting"]
+description: Occurs when the Tablet PC Input Panel is about to insert text into the control with input focus. Provides access to the ink the user entered in the Input Panel.
+helpviewer_keywords: ["8e2ca5e2-a407-44cd-b489-c118401ca21b","ITextInputPanelEventSink interface [Tablet PC]","TextInserting method","ITextInputPanelEventSink.TextInserting","ITextInputPanelEventSink::TextInserting","TextInserting","TextInserting method [Tablet PC]","TextInserting method [Tablet PC]","ITextInputPanelEventSink interface","peninputpanel/ITextInputPanelEventSink::TextInserting","tablet.itextinputpaneleventsink_textinserting"]
 old-location: tablet\itextinputpaneleventsink_textinserting.htm
 tech.root: tablet
 ms.assetid: 8e2ca5e2-a407-44cd-b489-c118401ca21b

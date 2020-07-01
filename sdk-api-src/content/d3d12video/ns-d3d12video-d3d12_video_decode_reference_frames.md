@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_DECODE_REFERENCE_FRAMES
 title: D3D12_VIDEO_DECODE_REFERENCE_FRAMES
-description: Contains the list of reference frames for the current decode operation.helpviewer_keywords: ["D3D12_VIDEO_DECODE_REFERENCE_FRAMES","D3D12_VIDEO_DECODE_REFERENCE_FRAMES",""]
+description: Contains the list of reference frames for the current decode operation.
+helpviewer_keywords: ["D3D12_VIDEO_DECODE_REFERENCE_FRAMES","D3D12_VIDEO_DECODE_REFERENCE_FRAMES",""]
 tech.root: mf
 ms.assetid: 9b0151d7-aaeb-4f85-bd41-b68df916b9d0
 ms.date: 05/28/2019

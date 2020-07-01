@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarBstrFromDate
 title: VarBstrFromDate function (oleauto.h)
-description: Converts a date value to a BSTR value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_CALENDAR_GREGORIAN","VAR_CALENDAR_HIJRI","VAR_CALENDAR_THAI","VAR_DATEVALUEONLY","VAR_FOURDIGITYEARS","VAR_TIMEVALUEONLY","VarBstrFromDate","VarBstrFromDate function [Automation]","_oa96_VarBstrFromDate","automat.varbstrfromdate","oleauto/VarBstrFromDate"]
+description: Converts a date value to a BSTR value.
+helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_CALENDAR_GREGORIAN","VAR_CALENDAR_HIJRI","VAR_CALENDAR_THAI","VAR_DATEVALUEONLY","VAR_FOURDIGITYEARS","VAR_TIMEVALUEONLY","VarBstrFromDate","VarBstrFromDate function [Automation]","_oa96_VarBstrFromDate","automat.varbstrfromdate","oleauto/VarBstrFromDate"]
 old-location: automat\varbstrfromdate.htm
 tech.root: automat
 ms.assetid: f9b22626-0f9f-4ef9-ab6d-7cea44b01eb6

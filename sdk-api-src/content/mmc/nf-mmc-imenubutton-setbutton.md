@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IMenuButton.SetButton
 title: IMenuButton::SetButton (mmc.h)
-description: The IMenuButton::SetButton method enables a user to set the text attributes of a button in the menu bar that is changed.helpviewer_keywords: ["IMenuButton interface [MMC]","SetButton method","IMenuButton.SetButton","IMenuButton::SetButton","SetButton","SetButton method [MMC]","SetButton method [MMC]","IMenuButton interface","_slate_imenubutton_setbutton","mmc.imenubutton_setbutton","mmc/IMenuButton::SetButton"]
+description: The IMenuButton::SetButton method enables a user to set the text attributes of a button in the menu bar that is changed.
+helpviewer_keywords: ["IMenuButton interface [MMC]","SetButton method","IMenuButton.SetButton","IMenuButton::SetButton","SetButton","SetButton method [MMC]","SetButton method [MMC]","IMenuButton interface","_slate_imenubutton_setbutton","mmc.imenubutton_setbutton","mmc/IMenuButton::SetButton"]
 old-location: mmc\imenubutton_setbutton.htm
 tech.root: mmc
 ms.assetid: f0297c54-7aa2-497b-9fe7-1be4fc7517f9

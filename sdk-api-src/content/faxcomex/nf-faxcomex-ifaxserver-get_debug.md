@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_Debug
 title: IFaxServer::get_Debug (faxcomex.h)
-description: The IFaxServer::get_Debug property is a Boolean value that indicates whether the fax server was created in a debug environment.helpviewer_keywords: ["Debug property [Fax Service]","Debug property [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","Debug property","IFaxServer.Debug","IFaxServer.get_Debug","IFaxServer::Debug","IFaxServer::get_Debug","_mfax_faxserver.debug","fax._mfax_faxserver_cpp_mfax_faxserver_debug_cpp","fax._mfax_faxserver_debug","faxcomex/IFaxServer::Debug","faxcomex/IFaxServer::get_Debug","get_Debug"]
+description: The IFaxServer::get_Debug property is a Boolean value that indicates whether the fax server was created in a debug environment.
+helpviewer_keywords: ["Debug property [Fax Service]","Debug property [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","Debug property","IFaxServer.Debug","IFaxServer.get_Debug","IFaxServer::Debug","IFaxServer::get_Debug","_mfax_faxserver.debug","fax._mfax_faxserver_cpp_mfax_faxserver_debug_cpp","fax._mfax_faxserver_debug","faxcomex/IFaxServer::Debug","faxcomex/IFaxServer::get_Debug","get_Debug"]
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_debug_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_92cn.htm

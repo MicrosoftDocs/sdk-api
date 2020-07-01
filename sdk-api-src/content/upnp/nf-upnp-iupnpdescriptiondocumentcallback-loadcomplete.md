@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPDescriptionDocumentCallback.LoadComplete
 title: IUPnPDescriptionDocumentCallback::LoadComplete (upnp.h)
-description: The LoadComplete method is invoked when the UPnP framework has finished loading a device description.helpviewer_keywords: ["IUPnPDescriptionDocumentCallback interface [UPnP APIs]","LoadComplete method","IUPnPDescriptionDocumentCallback.LoadComplete","IUPnPDescriptionDocumentCallback::LoadComplete","LoadComplete","LoadComplete method [UPnP APIs]","LoadComplete method [UPnP APIs]","IUPnPDescriptionDocumentCallback interface","UPNP_E_DEVICE_ELEMENT_EXPECTED","UPNP_E_DEVICE_NODE_INCOMPLETE","UPNP_E_ICON_ELEMENT_EXPECTED","UPNP_E_ICON_NODE_INCOMPLETE","UPNP_E_ROOT_ELEMENT_EXPECTED","UPNP_E_SERVICE_ELEMENT_EXPECTED","UPNP_E_SERVICE_NODE_INCOMPLETE","_upnp_iupnpdescriptiondocumentcallback_loadcomplete","upnp.iupnpdescriptiondocumentcallback_loadcomplete","upnp/IUPnPDescriptionDocumentCallback::LoadComplete"]
+description: The LoadComplete method is invoked when the UPnP framework has finished loading a device description.
+helpviewer_keywords: ["IUPnPDescriptionDocumentCallback interface [UPnP APIs]","LoadComplete method","IUPnPDescriptionDocumentCallback.LoadComplete","IUPnPDescriptionDocumentCallback::LoadComplete","LoadComplete","LoadComplete method [UPnP APIs]","LoadComplete method [UPnP APIs]","IUPnPDescriptionDocumentCallback interface","UPNP_E_DEVICE_ELEMENT_EXPECTED","UPNP_E_DEVICE_NODE_INCOMPLETE","UPNP_E_ICON_ELEMENT_EXPECTED","UPNP_E_ICON_NODE_INCOMPLETE","UPNP_E_ROOT_ELEMENT_EXPECTED","UPNP_E_SERVICE_ELEMENT_EXPECTED","UPNP_E_SERVICE_NODE_INCOMPLETE","_upnp_iupnpdescriptiondocumentcallback_loadcomplete","upnp.iupnpdescriptiondocumentcallback_loadcomplete","upnp/IUPnPDescriptionDocumentCallback::LoadComplete"]
 old-location: upnp\iupnpdescriptiondocumentcallback_loadcomplete.htm
 tech.root: upnp
 ms.assetid: 899b1aa4-597c-4434-80cc-2ea22759fbc8

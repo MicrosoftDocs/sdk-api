@@ -1,7 +1,8 @@
 ---
 UID: NF:mfplay.IMFPMediaItem.GetDuration
 title: IMFPMediaItem::GetDuration (mfplay.h)
-description: Gets the duration of the media item.helpviewer_keywords: ["GetDuration","GetDuration method [Media Foundation]","GetDuration method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetDuration method","IMFPMediaItem.GetDuration","IMFPMediaItem::GetDuration","MFP_POSITIONTYPE_100NS","mf.imfpmediaitem_getduration","mfplay/IMFPMediaItem::GetDuration"]
+description: Gets the duration of the media item.
+helpviewer_keywords: ["GetDuration","GetDuration method [Media Foundation]","GetDuration method [Media Foundation]","IMFPMediaItem interface","IMFPMediaItem interface [Media Foundation]","GetDuration method","IMFPMediaItem.GetDuration","IMFPMediaItem::GetDuration","MFP_POSITIONTYPE_100NS","mf.imfpmediaitem_getduration","mfplay/IMFPMediaItem::GetDuration"]
 old-location: mf\imfpmediaitem_getduration.htm
 tech.root: medfound
 ms.assetid: 831f023b-c06f-4099-9f4c-df38f3d1382f

@@ -1,7 +1,8 @@
 ---
 UID: NF:msaatext.ICoCreatedLocally.LocalInit
 title: ICoCreatedLocally::LocalInit (msaatext.h)
-description: Implemented by clients to return information about the local object.Note  Active Accessibility Text Services is deprecated.helpviewer_keywords: ["ICoCreatedLocally interface [Windows Accessibility]","LocalInit method","ICoCreatedLocally.LocalInit","ICoCreatedLocally::LocalInit","LocalInit","LocalInit method [Windows Accessibility]","LocalInit method [Windows Accessibility]","ICoCreatedLocally interface","_msaa_ICoCreatedLocally_LocalInit","msaa.icocreatedlocally_icocreatedlocally__localinit","msaatext/ICoCreatedLocally::LocalInit","winauto.icocreatedlocally_icocreatedlocally__localinit"]
+description: Implemented by clients to return information about the local object.Note  Active Accessibility Text Services is deprecated.
+helpviewer_keywords: ["ICoCreatedLocally interface [Windows Accessibility]","LocalInit method","ICoCreatedLocally.LocalInit","ICoCreatedLocally::LocalInit","LocalInit","LocalInit method [Windows Accessibility]","LocalInit method [Windows Accessibility]","ICoCreatedLocally interface","_msaa_ICoCreatedLocally_LocalInit","msaa.icocreatedlocally_icocreatedlocally__localinit","msaatext/ICoCreatedLocally::LocalInit","winauto.icocreatedlocally_icocreatedlocally__localinit"]
 old-location: winauto\icocreatedlocally_icocreatedlocally__localinit.htm
 tech.root: WinAuto
 ms.assetid: c2ad4462-4e8a-4f1f-8e44-b1494ca37399

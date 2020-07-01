@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.WakeConditionVariable
 title: WakeConditionVariable function (synchapi.h)
-description: Wake a single thread waiting on the specified condition variable.helpviewer_keywords: ["WakeConditionVariable","WakeConditionVariable function","base.wakeconditionvariable","synchapi/WakeConditionVariable","winbase/WakeConditionVariable"]
+description: Wake a single thread waiting on the specified condition variable.
+helpviewer_keywords: ["WakeConditionVariable","WakeConditionVariable function","base.wakeconditionvariable","synchapi/WakeConditionVariable","winbase/WakeConditionVariable"]
 old-location: base\wakeconditionvariable.htm
 tech.root: Sync
 ms.assetid: e175062a-ef25-4341-8197-df7ca6b008e6

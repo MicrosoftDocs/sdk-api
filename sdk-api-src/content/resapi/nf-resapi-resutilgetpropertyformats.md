@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetPropertyFormats
 title: ResUtilGetPropertyFormats function (resapi.h)
-description: Returns a property format list describing the format of a specified set of properties. The PRESUTIL_GET_PROPERTY_FORMATS type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_GET_PROPERTY_FORMATS","PRESUTIL_GET_PROPERTY_FORMATS function [Failover Cluster]","ResUtilGetPropertyFormats","ResUtilGetPropertyFormats function [Failover Cluster]","_wolf_resutilgetpropertyformats","mscs.resutilgetpropertyformats","resapi/PRESUTIL_GET_PROPERTY_FORMATS","resapi/ResUtilGetPropertyFormats"]
+description: Returns a property format list describing the format of a specified set of properties. The PRESUTIL_GET_PROPERTY_FORMATS type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_GET_PROPERTY_FORMATS","PRESUTIL_GET_PROPERTY_FORMATS function [Failover Cluster]","ResUtilGetPropertyFormats","ResUtilGetPropertyFormats function [Failover Cluster]","_wolf_resutilgetpropertyformats","mscs.resutilgetpropertyformats","resapi/PRESUTIL_GET_PROPERTY_FORMATS","resapi/ResUtilGetPropertyFormats"]
 old-location: mscs\resutilgetpropertyformats.htm
 tech.root: MsCS
 ms.assetid: 034c7a4f-4219-47ea-afb0-a7c634d1b544

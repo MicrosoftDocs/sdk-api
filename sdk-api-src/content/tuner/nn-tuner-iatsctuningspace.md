@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IATSCTuningSpace
 title: IATSCTuningSpace (tuner.h)
-description: The IATSCTuningSpace interface is implemented on ATSCTuningSpace objects, which represent any tuning space with an ATSC network type.helpviewer_keywords: ["IATSCTuningSpace","IATSCTuningSpace interface [Microsoft TV Technologies]","IATSCTuningSpace interface [Microsoft TV Technologies]","described","IATSCTuningSpaceInterface","mstv.iatsctuningspace","tuner/IATSCTuningSpace"]
+description: The IATSCTuningSpace interface is implemented on ATSCTuningSpace objects, which represent any tuning space with an ATSC network type.
+helpviewer_keywords: ["IATSCTuningSpace","IATSCTuningSpace interface [Microsoft TV Technologies]","IATSCTuningSpace interface [Microsoft TV Technologies]","described","IATSCTuningSpaceInterface","mstv.iatsctuningspace","tuner/IATSCTuningSpace"]
 old-location: mstv\iatsctuningspace.htm
 tech.root: mstv
 ms.assetid: 313508e5-a9b2-42b8-bb2f-d191944d0939

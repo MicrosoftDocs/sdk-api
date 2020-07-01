@@ -1,7 +1,8 @@
 ---
 UID: NF:strsafe.StringCchVPrintfExW
 title: StringCchVPrintfExW function (strsafe.h)
-description: Writes formatted data to the specified string using a pointer to a list of arguments.helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchVPrintfEx","StringCchVPrintfEx function [Menus and Other Resources]","StringCchVPrintfExA","StringCchVPrintfExW","_shell_StringCchVPrintfEx","_shell_stringcchvprintfex_cpp","menurc.stringcchvprintfex","strsafe/StringCchVPrintfEx","strsafe/StringCchVPrintfExA","strsafe/StringCchVPrintfExW","winui._shell_stringcchvprintfex"]
+description: Writes formatted data to the specified string using a pointer to a list of arguments.
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchVPrintfEx","StringCchVPrintfEx function [Menus and Other Resources]","StringCchVPrintfExA","StringCchVPrintfExW","_shell_StringCchVPrintfEx","_shell_stringcchvprintfex_cpp","menurc.stringcchvprintfex","strsafe/StringCchVPrintfEx","strsafe/StringCchVPrintfExA","strsafe/StringCchVPrintfExW","winui._shell_stringcchvprintfex"]
 old-location: menurc\stringcchvprintfex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchvprintfex.htm
@@ -278,6 +279,10 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>
 
 
 
+
+
+> [!NOTE]
+> The strsafe.h header defines StringCchVPrintfEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExecuteCommand.Execute
 title: IExecuteCommand::Execute (shobjidl_core.h)
-description: Invoke the verb on the selected items. Call this method after you have called the other methods of this interface.helpviewer_keywords: ["Execute","Execute method [Windows Shell]","Execute method [Windows Shell]","IExecuteCommand interface","IExecuteCommand interface [Windows Shell]","Execute method","IExecuteCommand.Execute","IExecuteCommand::Execute","_shell_IExecuteCommand_Execute","shell.IExecuteCommand_Execute","shobjidl_core/IExecuteCommand::Execute"]
+description: Invoke the verb on the selected items. Call this method after you have called the other methods of this interface.
+helpviewer_keywords: ["Execute","Execute method [Windows Shell]","Execute method [Windows Shell]","IExecuteCommand interface","IExecuteCommand interface [Windows Shell]","Execute method","IExecuteCommand.Execute","IExecuteCommand::Execute","_shell_IExecuteCommand_Execute","shell.IExecuteCommand_Execute","shobjidl_core/IExecuteCommand::Execute"]
 old-location: shell\IExecuteCommand_Execute.htm
 tech.root: shell
 ms.assetid: 388136bb-a5c0-48c0-adfc-f5154910fd72

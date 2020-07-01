@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoCopyProxy
 title: CoCopyProxy function (combaseapi.h)
-description: Makes a private copy of the specified proxy.helpviewer_keywords: ["CoCopyProxy","CoCopyProxy function [COM]","_com_CoCopyProxy","com.cocopyproxy","combaseapi/CoCopyProxy"]
+description: Makes a private copy of the specified proxy.
+helpviewer_keywords: ["CoCopyProxy","CoCopyProxy function [COM]","_com_CoCopyProxy","com.cocopyproxy","combaseapi/CoCopyProxy"]
 old-location: com\cocopyproxy.htm
 tech.root: com
 ms.assetid: 26de7bac-8745-40c0-be0a-dcec88a3ecaf

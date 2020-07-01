@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler
 title: IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler (uiautomationclient.h)
-description: Registers a method that handles programmatic text-edit events.helpviewer_keywords: ["AddTextEditTextChangedEventHandler","AddTextEditTextChangedEventHandler method [Windows Accessibility]","AddTextEditTextChangedEventHandler method [Windows Accessibility]","IUIAutomationEventHandlerGroup interface","IUIAutomationEventHandlerGroup interface [Windows Accessibility]","AddTextEditTextChangedEventHandler method","IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler","IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler","uiautomationclient/IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler","winauto.uiauto_iuiautomationeventhandlergroup_addtextedittextchangedeventhandler"]
+description: Registers a method that handles programmatic text-edit events.
+helpviewer_keywords: ["AddTextEditTextChangedEventHandler","AddTextEditTextChangedEventHandler method [Windows Accessibility]","AddTextEditTextChangedEventHandler method [Windows Accessibility]","IUIAutomationEventHandlerGroup interface","IUIAutomationEventHandlerGroup interface [Windows Accessibility]","AddTextEditTextChangedEventHandler method","IUIAutomationEventHandlerGroup.AddTextEditTextChangedEventHandler","IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler","uiautomationclient/IUIAutomationEventHandlerGroup::AddTextEditTextChangedEventHandler","winauto.uiauto_iuiautomationeventhandlergroup_addtextedittextchangedeventhandler"]
 old-location: winauto\uiauto_iuiautomationeventhandlergroup_addtextedittextchangedeventhandler.htm
 tech.root: WinAuto
 ms.assetid: D26780A1-AF5E-42E9-BBDA-4685AA184BD1

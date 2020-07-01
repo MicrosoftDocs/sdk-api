@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfUIElementMgr
 title: ITfUIElementMgr (msctf.h)
-description: The ITfUIElementMgr interface is implemented by TSF manager and used by an application or a text service. An application and a text service can obtain this interface by ITfThreadMgr::QueryInterface with IID_ITfUIElementMgr.helpviewer_keywords: ["ITfUIElementMgr","ITfUIElementMgr interface [Text Services Framework]","ITfUIElementMgr interface [Text Services Framework]","described","_tsf_itfuielementmgr_ref","msctf/ITfUIElementMgr","tsf.itfuielementmgr"]
+description: The ITfUIElementMgr interface is implemented by TSF manager and used by an application or a text service. An application and a text service can obtain this interface by ITfThreadMgr::QueryInterface with IID_ITfUIElementMgr.
+helpviewer_keywords: ["ITfUIElementMgr","ITfUIElementMgr interface [Text Services Framework]","ITfUIElementMgr interface [Text Services Framework]","described","_tsf_itfuielementmgr_ref","msctf/ITfUIElementMgr","tsf.itfuielementmgr"]
 old-location: tsf\itfuielementmgr.htm
 tech.root: TSF
 ms.assetid: 7b4d3f4e-bf30-45c6-8709-88b71b25d333

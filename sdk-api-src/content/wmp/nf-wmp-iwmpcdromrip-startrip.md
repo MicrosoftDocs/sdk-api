@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCdromRip.startRip
 title: IWMPCdromRip::startRip (wmp.h)
-description: The startRip method rips the CD.helpviewer_keywords: ["IWMPCdromRip interface [Windows Media Player]","startRip method","IWMPCdromRip.startRip","IWMPCdromRip::startRip","IWMPCdromRipstartRip","startRip","startRip method [Windows Media Player]","startRip method [Windows Media Player]","IWMPCdromRip interface","wmp.iwmpcdromrip_startrip","wmp/IWMPCdromRip::startRip"]
+description: The startRip method rips the CD.
+helpviewer_keywords: ["IWMPCdromRip interface [Windows Media Player]","startRip method","IWMPCdromRip.startRip","IWMPCdromRip::startRip","IWMPCdromRipstartRip","startRip","startRip method [Windows Media Player]","startRip method [Windows Media Player]","IWMPCdromRip interface","wmp.iwmpcdromrip_startrip","wmp/IWMPCdromRip::startRip"]
 old-location: wmp\iwmpcdromrip_startrip.htm
 tech.root: WMP
 ms.assetid: 88ba1e83-a3c5-4922-8c58-37993ccb4afc

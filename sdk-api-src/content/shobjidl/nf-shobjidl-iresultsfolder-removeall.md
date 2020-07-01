@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IResultsFolder.RemoveAll
 title: IResultsFolder::RemoveAll (shobjidl.h)
-description: Removes all items from a results folder.helpviewer_keywords: ["IResultsFolder interface [Windows Shell]","RemoveAll method","IResultsFolder.RemoveAll","IResultsFolder::RemoveAll","RemoveAll","RemoveAll method [Windows Shell]","RemoveAll method [Windows Shell]","IResultsFolder interface","_shell_IResultsFolder_RemoveAll","shell.IResultsFolder_RemoveAll","shobjidl/IResultsFolder::RemoveAll"]
+description: Removes all items from a results folder.
+helpviewer_keywords: ["IResultsFolder interface [Windows Shell]","RemoveAll method","IResultsFolder.RemoveAll","IResultsFolder::RemoveAll","RemoveAll","RemoveAll method [Windows Shell]","RemoveAll method [Windows Shell]","IResultsFolder interface","_shell_IResultsFolder_RemoveAll","shell.IResultsFolder_RemoveAll","shobjidl/IResultsFolder::RemoveAll"]
 old-location: shell\IResultsFolder_RemoveAll.htm
 tech.root: shell
 ms.assetid: 2aac1b5a-298a-4682-9874-7cf114ce1f63

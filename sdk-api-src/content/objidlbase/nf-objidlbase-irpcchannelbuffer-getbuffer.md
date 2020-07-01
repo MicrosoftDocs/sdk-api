@@ -1,7 +1,8 @@
 ---
 UID: NF:objidlbase.IRpcChannelBuffer.GetBuffer
 title: IRpcChannelBuffer::GetBuffer (objidlbase.h)
-description: Retrieves a buffer into which data can be marshaled for transmission.helpviewer_keywords: ["GetBuffer","GetBuffer method [COM]","GetBuffer method [COM]","IRpcChannelBuffer interface","IRpcChannelBuffer interface [COM]","GetBuffer method","IRpcChannelBuffer.GetBuffer","IRpcChannelBuffer::GetBuffer","_com_irpcchannelbuffer_getbuffer","com.irpcchannelbuffer_getbuffer","objidlbase/IRpcChannelBuffer::GetBuffer"]
+description: Retrieves a buffer into which data can be marshaled for transmission.
+helpviewer_keywords: ["GetBuffer","GetBuffer method [COM]","GetBuffer method [COM]","IRpcChannelBuffer interface","IRpcChannelBuffer interface [COM]","GetBuffer method","IRpcChannelBuffer.GetBuffer","IRpcChannelBuffer::GetBuffer","_com_irpcchannelbuffer_getbuffer","com.irpcchannelbuffer_getbuffer","objidlbase/IRpcChannelBuffer::GetBuffer"]
 old-location: com\irpcchannelbuffer_getbuffer.htm
 tech.root: com
 ms.assetid: 775a15df-8bcf-4c1b-a8b9-5c7c03106c09

@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGIOutput.ReleaseOwnership
 title: IDXGIOutput::ReleaseOwnership (dxgi.h)
-description: Releases ownership of the output.helpviewer_keywords: ["85bdbad9-3499-5766-c623-04b46be2a80a","IDXGIOutput interface [DXGI]","ReleaseOwnership method","IDXGIOutput.ReleaseOwnership","IDXGIOutput::ReleaseOwnership","ReleaseOwnership","ReleaseOwnership method [DXGI]","ReleaseOwnership method [DXGI]","IDXGIOutput interface","direct3ddxgi.idxgioutput_releaseownership","dxgi/IDXGIOutput::ReleaseOwnership"]
+description: Releases ownership of the output.
+helpviewer_keywords: ["85bdbad9-3499-5766-c623-04b46be2a80a","IDXGIOutput interface [DXGI]","ReleaseOwnership method","IDXGIOutput.ReleaseOwnership","IDXGIOutput::ReleaseOwnership","ReleaseOwnership","ReleaseOwnership method [DXGI]","ReleaseOwnership method [DXGI]","IDXGIOutput interface","direct3ddxgi.idxgioutput_releaseownership","dxgi/IDXGIOutput::ReleaseOwnership"]
 old-location: direct3ddxgi\idxgioutput_releaseownership.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_releaseownership.htm

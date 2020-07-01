@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElementBehavior.Abort
 title: ITfCandidateListUIElementBehavior::Abort (msctf.h)
-description: The ITfCandidateListUIElementBehavior::Abort method closes the candidate list. There is no guarantee that the current selection will be finalized.helpviewer_keywords: ["Abort","Abort method [Text Services Framework]","Abort method [Text Services Framework]","ITfCandidateListUIElementBehavior interface","ITfCandidateListUIElementBehavior interface [Text Services Framework]","Abort method","ITfCandidateListUIElementBehavior.Abort","ITfCandidateListUIElementBehavior::Abort","msctf/ITfCandidateListUIElementBehavior::Abort","tsf.itfcandidatelistuielementbehavior_abort"]
+description: The ITfCandidateListUIElementBehavior::Abort method closes the candidate list. There is no guarantee that the current selection will be finalized.
+helpviewer_keywords: ["Abort","Abort method [Text Services Framework]","Abort method [Text Services Framework]","ITfCandidateListUIElementBehavior interface","ITfCandidateListUIElementBehavior interface [Text Services Framework]","Abort method","ITfCandidateListUIElementBehavior.Abort","ITfCandidateListUIElementBehavior::Abort","msctf/ITfCandidateListUIElementBehavior::Abort","tsf.itfcandidatelistuielementbehavior_abort"]
 old-location: tsf\itfcandidatelistuielementbehavior_abort.htm
 tech.root: TSF
 ms.assetid: 2e9d231c-fd80-45fa-bfd0-6a9e057dccf2

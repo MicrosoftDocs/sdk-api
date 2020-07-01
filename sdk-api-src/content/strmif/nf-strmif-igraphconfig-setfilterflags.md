@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IGraphConfig.SetFilterFlags
 title: IGraphConfig::SetFilterFlags (strmif.h)
-description: The SetFilterFlags method sets a filter's configuration information.helpviewer_keywords: ["IGraphConfig interface [DirectShow]","SetFilterFlags method","IGraphConfig.SetFilterFlags","IGraphConfig::SetFilterFlags","IGraphConfigSetFilterFlags","SetFilterFlags","SetFilterFlags method [DirectShow]","SetFilterFlags method [DirectShow]","IGraphConfig interface","dshow.igraphconfig_setfilterflags","strmif/IGraphConfig::SetFilterFlags"]
+description: The SetFilterFlags method sets a filter's configuration information.
+helpviewer_keywords: ["IGraphConfig interface [DirectShow]","SetFilterFlags method","IGraphConfig.SetFilterFlags","IGraphConfig::SetFilterFlags","IGraphConfigSetFilterFlags","SetFilterFlags","SetFilterFlags method [DirectShow]","SetFilterFlags method [DirectShow]","IGraphConfig interface","dshow.igraphconfig_setfilterflags","strmif/IGraphConfig::SetFilterFlags"]
 old-location: dshow\igraphconfig_setfilterflags.htm
 tech.root: DirectShow
 ms.assetid: 1f2ed50e-8bb9-4076-ad0e-a7311acb8285

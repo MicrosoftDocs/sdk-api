@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLQueryLicenseValueFromApp
 title: SLQueryLicenseValueFromApp function (slpublic.h)
-description: Gets the value for the specified component policy.helpviewer_keywords: ["SLQueryLicenseValueFromApp","SLQueryLicenseValueFromApp function [Security]","security.slquerylicensevaluefromapp","slpublic/SLQueryLicenseValueFromApp"]
+description: Gets the value for the specified component policy.
+helpviewer_keywords: ["SLQueryLicenseValueFromApp","SLQueryLicenseValueFromApp function [Security]","security.slquerylicensevaluefromapp","slpublic/SLQueryLicenseValueFromApp"]
 old-location: security\slquerylicensevaluefromapp.htm
 tech.root: SecSLApi
 ms.assetid: C26FF469-2B25-4EDA-8432-EF32A4550650

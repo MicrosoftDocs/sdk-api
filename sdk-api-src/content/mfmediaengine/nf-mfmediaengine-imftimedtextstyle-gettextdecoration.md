@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.GetTextDecoration
 title: IMFTimedTextStyle::GetTextDecoration (mfmediaengine.h)
-description: Gets how text is decorated for the timed-text style.helpviewer_keywords: ["GetTextDecoration","GetTextDecoration method [Media Foundation]","GetTextDecoration method [Media Foundation]","IMFTimedTextStyle interface","IMFTimedTextStyle interface [Media Foundation]","GetTextDecoration method","IMFTimedTextStyle.GetTextDecoration","IMFTimedTextStyle::GetTextDecoration","mf.imftimedtextstyle_gettextdecoration","mfmediaengine/IMFTimedTextStyle::GetTextDecoration"]
+description: Gets how text is decorated for the timed-text style.
+helpviewer_keywords: ["GetTextDecoration","GetTextDecoration method [Media Foundation]","GetTextDecoration method [Media Foundation]","IMFTimedTextStyle interface","IMFTimedTextStyle interface [Media Foundation]","GetTextDecoration method","IMFTimedTextStyle.GetTextDecoration","IMFTimedTextStyle::GetTextDecoration","mf.imftimedtextstyle_gettextdecoration","mfmediaengine/IMFTimedTextStyle::GetTextDecoration"]
 old-location: mf\imftimedtextstyle_gettextdecoration.htm
 tech.root: medfound
 ms.assetid: 5B987C19-5F59-4B5D-BA40-341FA4B3CD35

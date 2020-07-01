@@ -1,7 +1,8 @@
 ---
 UID: NN:cscobj.IOfflineFilesPinInfo
 title: IOfflineFilesPinInfo (cscobj.h)
-description: Represents the pinned status of an item in the Offline Files cache.helpviewer_keywords: ["IOfflineFilesPinInfo","IOfflineFilesPinInfo interface [Offline Files]","IOfflineFilesPinInfo interface [Offline Files]","described","cscobj/IOfflineFilesPinInfo","of.iofflinefilespininfo"]
+description: Represents the pinned status of an item in the Offline Files cache.
+helpviewer_keywords: ["IOfflineFilesPinInfo","IOfflineFilesPinInfo interface [Offline Files]","IOfflineFilesPinInfo interface [Offline Files]","described","cscobj/IOfflineFilesPinInfo","of.iofflinefilespininfo"]
 old-location: of\iofflinefilespininfo.htm
 tech.root: offlinefiles
 ms.assetid: 529a529a-fbeb-4414-b4c9-46bfcca4aa7a

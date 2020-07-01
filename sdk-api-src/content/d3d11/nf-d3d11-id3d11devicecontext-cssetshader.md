@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSSetShader
 title: ID3D11DeviceContext::CSSetShader (d3d11.h)
-description: Set a compute shader to the device.helpviewer_keywords: ["CSSetShader","CSSetShader method [Direct3D 11]","CSSetShader method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CSSetShader method","ID3D11DeviceContext.CSSetShader","ID3D11DeviceContext::CSSetShader","cd24a33e-1a95-4033-49fc-875e68702c5b","d3d11/ID3D11DeviceContext::CSSetShader","direct3d11.id3d11devicecontext_cssetshader"]
+description: Set a compute shader to the device.
+helpviewer_keywords: ["CSSetShader","CSSetShader method [Direct3D 11]","CSSetShader method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CSSetShader method","ID3D11DeviceContext.CSSetShader","ID3D11DeviceContext::CSSetShader","cd24a33e-1a95-4033-49fc-875e68702c5b","d3d11/ID3D11DeviceContext::CSSetShader","direct3d11.id3d11devicecontext_cssetshader"]
 old-location: direct3d11\id3d11devicecontext_cssetshader.htm
 tech.root: direct3d11
 ms.assetid: 97be7622-609f-4576-911a-93aa7f1b6b8c

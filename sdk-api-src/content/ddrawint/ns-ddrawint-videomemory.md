@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._VIDEOMEMORY
 title: VIDEOMEMORY (ddrawint.h)
-description: The VIDEOMEMORY structure allows the driver to manage its display memory into heaps.helpviewer_keywords: ["*LPVIDEOMEMORY","LPVIDEOMEMORY","LPVIDEOMEMORY structure pointer [Display Devices]","VIDEOMEMORY","VIDEOMEMORY structure [Display Devices]","ddrawint/LPVIDEOMEMORY","ddrawint/VIDEOMEMORY","ddstrcts_f00d50c3-df1a-46c6-8822-1be4a5cef837.xml","display.videomemory"]
+description: The VIDEOMEMORY structure allows the driver to manage its display memory into heaps.
+helpviewer_keywords: ["*LPVIDEOMEMORY","LPVIDEOMEMORY","LPVIDEOMEMORY structure pointer [Display Devices]","VIDEOMEMORY","VIDEOMEMORY structure [Display Devices]","ddrawint/LPVIDEOMEMORY","ddrawint/VIDEOMEMORY","ddstrcts_f00d50c3-df1a-46c6-8822-1be4a5cef837.xml","display.videomemory"]
 old-location: display\videomemory.htm
 tech.root: display
 ms.assetid: a472a9f6-d85e-429b-9b0d-efce576b6330

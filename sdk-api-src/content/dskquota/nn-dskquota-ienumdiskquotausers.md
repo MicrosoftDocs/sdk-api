@@ -1,7 +1,8 @@
 ---
 UID: NN:dskquota.IEnumDiskQuotaUsers
 title: IEnumDiskQuotaUsers (dskquota.h)
-description: Enumerates user quota entries on the volume.helpviewer_keywords: ["IEnumDiskQuotaUsers","IEnumDiskQuotaUsers interface [Files]","IEnumDiskQuotaUsers interface [Files]","described","_win32_ienumdiskquotausers","base.ienumdiskquotausers","dskquota/IEnumDiskQuotaUsers","fs.ienumdiskquotausers"]
+description: Enumerates user quota entries on the volume.
+helpviewer_keywords: ["IEnumDiskQuotaUsers","IEnumDiskQuotaUsers interface [Files]","IEnumDiskQuotaUsers interface [Files]","described","_win32_ienumdiskquotausers","base.ienumdiskquotausers","dskquota/IEnumDiskQuotaUsers","fs.ienumdiskquotausers"]
 old-location: fs\ienumdiskquotausers.htm
 tech.root: FileIO
 ms.assetid: f5916b17-66ed-46d4-87f1-5ee2ef57c1a1

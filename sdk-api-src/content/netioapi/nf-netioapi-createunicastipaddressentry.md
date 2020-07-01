@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.CreateUnicastIpAddressEntry
 title: CreateUnicastIpAddressEntry function (netioapi.h)
-description: Adds a new unicast IP address entry on the local computer.helpviewer_keywords: ["CreateUnicastIpAddressEntry","CreateUnicastIpAddressEntry function [IP Helper]","iphlp.createunicastipaddressentry","netioapi/CreateUnicastIpAddressEntry"]
+description: Adds a new unicast IP address entry on the local computer.
+helpviewer_keywords: ["CreateUnicastIpAddressEntry","CreateUnicastIpAddressEntry function [IP Helper]","iphlp.createunicastipaddressentry","netioapi/CreateUnicastIpAddressEntry"]
 old-location: iphlp\createunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 8afca4e9-a4c4-4f93-bb4d-25e2eea71ae0

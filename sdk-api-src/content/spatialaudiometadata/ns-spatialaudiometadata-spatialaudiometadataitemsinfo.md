@@ -1,7 +1,8 @@
 ---
 UID: NS:spatialaudiometadata.SpatialAudioMetadataItemsInfo
 title: SpatialAudioMetadataItemsInfo (spatialaudiometadata.h)
-description: Provides information about an ISpatialAudioMetadataItems object. Get a copy of this structure by calling GetInfo.helpviewer_keywords: ["PSpatialAudioMetadataItemsInfo","PSpatialAudioMetadataItemsInfo structure pointer [Core Audio]","SpatialAudioMetadataItemsInfo","SpatialAudioMetadataItemsInfo structure [Core Audio]","coreaudio.spatialaudiometadataitemsinfo","spatialaudiometadata/PSpatialAudioMetadataItemsInfo","spatialaudiometadata/SpatialAudioMetadataItemsInfo"]
+description: Provides information about an ISpatialAudioMetadataItems object. Get a copy of this structure by calling GetInfo.
+helpviewer_keywords: ["PSpatialAudioMetadataItemsInfo","PSpatialAudioMetadataItemsInfo structure pointer [Core Audio]","SpatialAudioMetadataItemsInfo","SpatialAudioMetadataItemsInfo structure [Core Audio]","coreaudio.spatialaudiometadataitemsinfo","spatialaudiometadata/PSpatialAudioMetadataItemsInfo","spatialaudiometadata/SpatialAudioMetadataItemsInfo"]
 old-location: coreaudio\spatialaudiometadataitemsinfo.htm
 tech.root: CoreAudio
 ms.assetid: EC694B26-988B-4765-8B9F-130FCF614166

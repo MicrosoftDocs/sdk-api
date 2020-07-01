@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetValue
 title: IEncoderAPI::GetValue (strmif.h)
-description: The GetValue method retrieves the current value of a specified parameter.helpviewer_keywords: ["GetValue","GetValue method [Microsoft TV Technologies]","GetValue method [Microsoft TV Technologies]","IEncoderAPI interface","IEncoderAPI interface [Microsoft TV Technologies]","GetValue method","IEncoderAPI.GetValue","IEncoderAPI::GetValue","IEncoderAPIGetValue","mstv.iencoderapi_getvalue","strmif/IEncoderAPI::GetValue"]
+description: The GetValue method retrieves the current value of a specified parameter.
+helpviewer_keywords: ["GetValue","GetValue method [Microsoft TV Technologies]","GetValue method [Microsoft TV Technologies]","IEncoderAPI interface","IEncoderAPI interface [Microsoft TV Technologies]","GetValue method","IEncoderAPI.GetValue","IEncoderAPI::GetValue","IEncoderAPIGetValue","mstv.iencoderapi_getvalue","strmif/IEncoderAPI::GetValue"]
 old-location: mstv\iencoderapi_getvalue.htm
 tech.root: mstv
 ms.assetid: 62f69677-05cd-46ab-8b77-96e10f8fbb1d

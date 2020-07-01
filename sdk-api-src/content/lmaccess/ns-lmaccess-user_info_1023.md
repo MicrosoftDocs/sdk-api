@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._USER_INFO_1023
 title: USER_INFO_1023 (lmaccess.h)
-description: The USER_INFO_1023 structure contains the name of the server to which network logon requests should be sent. This information level is valid only when you call the NetUserSetInfo function.helpviewer_keywords: ["*LPUSER_INFO_1023","*PUSER_INFO_1023","LPUSER_INFO_1023","LPUSER_INFO_1023 structure pointer [Network Management]","PUSER_INFO_1023","PUSER_INFO_1023 structure pointer [Network Management]","USER_INFO_1023","USER_INFO_1023 structure [Network Management]","_win32_user_info_1023_str","lmaccess/LPUSER_INFO_1023","lmaccess/PUSER_INFO_1023","lmaccess/USER_INFO_1023","netmgmt.user_info_1023_str"]
+description: The USER_INFO_1023 structure contains the name of the server to which network logon requests should be sent. This information level is valid only when you call the NetUserSetInfo function.
+helpviewer_keywords: ["*LPUSER_INFO_1023","*PUSER_INFO_1023","LPUSER_INFO_1023","LPUSER_INFO_1023 structure pointer [Network Management]","PUSER_INFO_1023","PUSER_INFO_1023 structure pointer [Network Management]","USER_INFO_1023","USER_INFO_1023 structure [Network Management]","_win32_user_info_1023_str","lmaccess/LPUSER_INFO_1023","lmaccess/PUSER_INFO_1023","lmaccess/USER_INFO_1023","netmgmt.user_info_1023_str"]
 old-location: netmgmt\user_info_1023_str.htm
 tech.root: NetMgmt
 ms.assetid: 44985bbe-48d2-4fe9-9247-2800089269cb

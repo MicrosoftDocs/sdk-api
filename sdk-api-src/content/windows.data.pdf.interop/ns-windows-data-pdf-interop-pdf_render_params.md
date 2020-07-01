@@ -1,7 +1,8 @@
 ---
 UID: NS:windows.data.pdf.interop.PDF_RENDER_PARAMS
 title: PDF_RENDER_PARAMS (windows.data.pdf.interop.h)
-description: Represents a set of properties for outputting a single page of a Portable Document Format (PDF) file.helpviewer_keywords: ["PDF_RENDER_PARAMS","PDF_RENDER_PARAMS structure [Windows Runtime]","windows/PDF_RENDER_PARAMS","winrt.pdf_render_params"]
+description: Represents a set of properties for outputting a single page of a Portable Document Format (PDF) file.
+helpviewer_keywords: ["PDF_RENDER_PARAMS","PDF_RENDER_PARAMS structure [Windows Runtime]","windows/PDF_RENDER_PARAMS","winrt.pdf_render_params"]
 old-location: winrt\pdf_render_params.htm
 tech.root: WinRT
 ms.assetid: 1B2F12FB-E053-4B79-B71D-E66D7A6E5054

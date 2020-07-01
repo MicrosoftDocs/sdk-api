@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.CommitPendingInput
 title: ITextInputPanel::CommitPendingInput (peninputpanel.h)
-description: Sends collected ink to the recognizer and posts the recognition result.helpviewer_keywords: ["652df9e7-5bac-4dc7-bd1a-3934a2bdeb94","CommitPendingInput","CommitPendingInput method [Tablet PC]","CommitPendingInput method [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","CommitPendingInput method","ITextInputPanel.CommitPendingInput","ITextInputPanel::CommitPendingInput","peninputpanel/ITextInputPanel::CommitPendingInput","tablet.itextinputpanel_commitpendinginput"]
+description: Sends collected ink to the recognizer and posts the recognition result.
+helpviewer_keywords: ["652df9e7-5bac-4dc7-bd1a-3934a2bdeb94","CommitPendingInput","CommitPendingInput method [Tablet PC]","CommitPendingInput method [Tablet PC]","ITextInputPanel interface","ITextInputPanel interface [Tablet PC]","CommitPendingInput method","ITextInputPanel.CommitPendingInput","ITextInputPanel::CommitPendingInput","peninputpanel/ITextInputPanel::CommitPendingInput","tablet.itextinputpanel_commitpendinginput"]
 old-location: tablet\itextinputpanel_commitpendinginput.htm
 tech.root: tablet
 ms.assetid: 652df9e7-5bac-4dc7-bd1a-3934a2bdeb94

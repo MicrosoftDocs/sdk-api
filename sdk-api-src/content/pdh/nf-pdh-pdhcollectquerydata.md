@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhCollectQueryData
 title: PdhCollectQueryData function (pdh.h)
-description: Collects the current raw data value for all counters in the specified query and updates the status code of each counter.helpviewer_keywords: ["PdhCollectQueryData","PdhCollectQueryData function [Perf]","_win32_pdhcollectquerydata","base.pdhcollectquerydata","pdh/PdhCollectQueryData","perf.pdhcollectquerydata"]
+description: Collects the current raw data value for all counters in the specified query and updates the status code of each counter.
+helpviewer_keywords: ["PdhCollectQueryData","PdhCollectQueryData function [Perf]","_win32_pdhcollectquerydata","base.pdhcollectquerydata","pdh/PdhCollectQueryData","perf.pdhcollectquerydata"]
 old-location: perf\pdhcollectquerydata.htm
 tech.root: perfctrs
 ms.assetid: 1d83325b-8deb-4731-9df4-6201da292cdc

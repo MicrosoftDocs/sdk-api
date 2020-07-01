@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IFont.QueryTextMetrics
 title: IFont::QueryTextMetrics (ocidl.h)
-description: Fills a caller-allocated structure with information about the font.helpviewer_keywords: ["IFont interface [COM]","QueryTextMetrics method","IFont.QueryTextMetrics","IFont::QueryTextMetrics","QueryTextMetrics","QueryTextMetrics method [COM]","QueryTextMetrics method [COM]","IFont interface","_ctrl_ifont_querytextmetrics","com.ifont_querytextmetrics","ocidl/IFont::QueryTextMetrics"]
+description: Fills a caller-allocated structure with information about the font.
+helpviewer_keywords: ["IFont interface [COM]","QueryTextMetrics method","IFont.QueryTextMetrics","IFont::QueryTextMetrics","QueryTextMetrics","QueryTextMetrics method [COM]","QueryTextMetrics method [COM]","IFont interface","_ctrl_ifont_querytextmetrics","com.ifont_querytextmetrics","ocidl/IFont::QueryTextMetrics"]
 old-location: com\ifont_querytextmetrics.htm
 tech.root: com
 ms.assetid: 960dcc0b-8769-415c-9d5a-eaf9f4b3aeac

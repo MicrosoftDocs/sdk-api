@@ -1,7 +1,8 @@
 ---
 UID: NS:winfax._FAX_COVERPAGE_INFOA
 title: FAX_COVERPAGE_INFOA (winfax.h)
-description: The FAX_COVERPAGE_INFO structure contains data to display on the cover page of a fax transmission. The SizeOfStruct and CoverPageName members are required; other members are optional.helpviewer_keywords: ["*PFAX_COVERPAGE_INFOA","FAX_COVERPAGE_INFO","FAX_COVERPAGE_INFO structure [Fax Service]","FAX_COVERPAGE_INFOA","FAX_COVERPAGE_INFOW","PFAX_COVERPAGE_INFO","PFAX_COVERPAGE_INFO structure pointer [Fax Service]","_mfax_fax_coverpage_info_str","fax._mfax_fax_coverpage_info_str","winfax/FAX_COVERPAGE_INFO","winfax/FAX_COVERPAGE_INFOA","winfax/FAX_COVERPAGE_INFOW","winfax/PFAX_COVERPAGE_INFO"]
+description: The FAX_COVERPAGE_INFO structure contains data to display on the cover page of a fax transmission. The SizeOfStruct and CoverPageName members are required; other members are optional.
+helpviewer_keywords: ["*PFAX_COVERPAGE_INFOA","FAX_COVERPAGE_INFO","FAX_COVERPAGE_INFO structure [Fax Service]","FAX_COVERPAGE_INFOA","FAX_COVERPAGE_INFOW","PFAX_COVERPAGE_INFO","PFAX_COVERPAGE_INFO structure pointer [Fax Service]","_mfax_fax_coverpage_info_str","fax._mfax_fax_coverpage_info_str","winfax/FAX_COVERPAGE_INFO","winfax/FAX_COVERPAGE_INFOA","winfax/FAX_COVERPAGE_INFOW","winfax/PFAX_COVERPAGE_INFO"]
 old-location: fax\_mfax_fax_coverpage_info_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zaq.htm
@@ -293,6 +294,10 @@ A fax client application passes the <b>FAX_COVERPAGE_INFO</b> structure in a cal
 
 
 
+
+
+> [!NOTE]
+> The winfax.h header defines FAX_COVERPAGE_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

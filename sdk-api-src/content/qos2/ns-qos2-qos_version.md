@@ -1,7 +1,8 @@
 ---
 UID: NS:qos2._QOS_VERSION
 title: QOS_VERSION (qos2.h)
-description: The QOS_VERSION structure indicates the version of the QOS protocol.helpviewer_keywords: ["*PQOS_VERSION","PQOS_VERSION","PQOS_VERSION structure pointer [QOS]","QOS_VERSION","QOS_VERSION structure [QOS]","qos.qos_version","qos2/PQOS_VERSION","qos2/QOS_VERSION"]
+description: The QOS_VERSION structure indicates the version of the QOS protocol.
+helpviewer_keywords: ["*PQOS_VERSION","PQOS_VERSION","PQOS_VERSION structure pointer [QOS]","QOS_VERSION","QOS_VERSION structure [QOS]","qos.qos_version","qos2/PQOS_VERSION","qos2/QOS_VERSION"]
 old-location: qos\qos_version.htm
 tech.root: QOS
 ms.assetid: cc8d6dc3-87e9-46c7-8192-78053b4932a3

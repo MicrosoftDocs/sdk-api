@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.QueryInsertEmbedded
 title: ITextStoreAnchor::QueryInsertEmbedded (textstor.h)
-description: ITextStoreAnchor::QueryInsertEmbedded methodhelpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","QueryInsertEmbedded method","ITextStoreAnchor.QueryInsertEmbedded","ITextStoreAnchor::QueryInsertEmbedded","QueryInsertEmbedded","QueryInsertEmbedded method [Text Services Framework]","QueryInsertEmbedded method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::QueryInsertEmbedded","tsf.itextstoreanchor_queryinsertembedded"]
+description: ITextStoreAnchor::QueryInsertEmbedded method
+helpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","QueryInsertEmbedded method","ITextStoreAnchor.QueryInsertEmbedded","ITextStoreAnchor::QueryInsertEmbedded","QueryInsertEmbedded","QueryInsertEmbedded method [Text Services Framework]","QueryInsertEmbedded method [Text Services Framework]","ITextStoreAnchor interface","textstor/ITextStoreAnchor::QueryInsertEmbedded","tsf.itextstoreanchor_queryinsertembedded"]
 old-location: tsf\itextstoreanchor_queryinsertembedded.htm
 tech.root: TSF
 ms.assetid: 722506fa-db83-49d3-9434-a4ad7b797ce2

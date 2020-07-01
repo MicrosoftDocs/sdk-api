@@ -1,7 +1,8 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0000_0000_0027
 title: ADS_PROPERTY_OPERATION_ENUM (iads.h)
-description: Specifies ways to update a named property in the cache.helpviewer_keywords: ["ADS_PROPERTY_APPEND","ADS_PROPERTY_CLEAR","ADS_PROPERTY_DELETE","ADS_PROPERTY_OPERATION_ENUM","ADS_PROPERTY_OPERATION_ENUM enumeration [ADSI]","ADS_PROPERTY_UPDATE","_ds_ads_property_operation_enum","adsi.ads__property__operation__enum","adsi.ads_property_operation_enum","iads/ADS_PROPERTY_APPEND","iads/ADS_PROPERTY_CLEAR","iads/ADS_PROPERTY_DELETE","iads/ADS_PROPERTY_OPERATION_ENUM","iads/ADS_PROPERTY_UPDATE"]
+description: Specifies ways to update a named property in the cache.
+helpviewer_keywords: ["ADS_PROPERTY_APPEND","ADS_PROPERTY_CLEAR","ADS_PROPERTY_DELETE","ADS_PROPERTY_OPERATION_ENUM","ADS_PROPERTY_OPERATION_ENUM enumeration [ADSI]","ADS_PROPERTY_UPDATE","_ds_ads_property_operation_enum","adsi.ads__property__operation__enum","adsi.ads_property_operation_enum","iads/ADS_PROPERTY_APPEND","iads/ADS_PROPERTY_CLEAR","iads/ADS_PROPERTY_DELETE","iads/ADS_PROPERTY_OPERATION_ENUM","iads/ADS_PROPERTY_UPDATE"]
 old-location: adsi\ads_property_operation_enum.htm
 tech.root: adsi
 ms.assetid: fba20292-870d-4948-abf1-225b1230e938

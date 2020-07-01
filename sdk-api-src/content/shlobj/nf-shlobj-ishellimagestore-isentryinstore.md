@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.IShellImageStore.IsEntryInStore
 title: IShellImageStore::IsEntryInStore (shlobj.h)
-description: Checks to see if the image is in the store.helpviewer_keywords: ["IShellImageStore interface [Windows Shell]","IsEntryInStore method","IShellImageStore.IsEntryInStore","IShellImageStore::IsEntryInStore","IsEntryInStore","IsEntryInStore method [Windows Shell]","IsEntryInStore method [Windows Shell]","IShellImageStore interface","_win32_IShellImageStore_IsEntryInStore","shell.IShellImageStore_IsEntryInStore","shlobj/IShellImageStore::IsEntryInStore"]
+description: Checks to see if the image is in the store.
+helpviewer_keywords: ["IShellImageStore interface [Windows Shell]","IsEntryInStore method","IShellImageStore.IsEntryInStore","IShellImageStore::IsEntryInStore","IsEntryInStore","IsEntryInStore method [Windows Shell]","IsEntryInStore method [Windows Shell]","IShellImageStore interface","_win32_IShellImageStore_IsEntryInStore","shell.IShellImageStore_IsEntryInStore","shlobj/IShellImageStore::IsEntryInStore"]
 old-location: shell\IShellImageStore_IsEntryInStore.htm
 tech.root: shell
 ms.assetid: 571df609-9d17-415c-a4e0-23c4e1523993

@@ -1,7 +1,8 @@
 ---
 UID: NE:gdiplusenums.CompositingQuality
 title: CompositingQuality (gdiplusenums.h)
-description: The CompositingQuality enumeration specifies whether gamma correction is applied when colors are blended with background colors.helpviewer_keywords: ["CompositingQuality","CompositingQuality enumeration [GDI+]","CompositingQualityAssumeLinear","CompositingQualityDefault","CompositingQualityGammaCorrected","CompositingQualityHighQuality","CompositingQualityHighSpeed","_gdiplus_ENUM_CompositingQuality","gdiplus._gdiplus_ENUM_CompositingQuality","gdiplusenums/CompositingQuality","gdiplusenums/CompositingQualityAssumeLinear","gdiplusenums/CompositingQualityDefault","gdiplusenums/CompositingQualityGammaCorrected","gdiplusenums/CompositingQualityHighQuality","gdiplusenums/CompositingQualityHighSpeed"]
+description: The CompositingQuality enumeration specifies whether gamma correction is applied when colors are blended with background colors.
+helpviewer_keywords: ["CompositingQuality","CompositingQuality enumeration [GDI+]","CompositingQualityAssumeLinear","CompositingQualityDefault","CompositingQualityGammaCorrected","CompositingQualityHighQuality","CompositingQualityHighSpeed","_gdiplus_ENUM_CompositingQuality","gdiplus._gdiplus_ENUM_CompositingQuality","gdiplusenums/CompositingQuality","gdiplusenums/CompositingQualityAssumeLinear","gdiplusenums/CompositingQualityDefault","gdiplusenums/CompositingQualityGammaCorrected","gdiplusenums/CompositingQualityHighQuality","gdiplusenums/CompositingQualityHighSpeed"]
 old-location: gdiplus\_gdiplus_ENUM_CompositingQuality.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\compositingquality.htm

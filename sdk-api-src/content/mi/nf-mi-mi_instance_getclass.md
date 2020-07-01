@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Instance_GetClass
 title: MI_Instance_GetClass function (mi.h)
-description: Gets the MI_Class associated with an instance.helpviewer_keywords: ["MI_Instance_GetClass","MI_Instance_GetClass function [Windows Management Infrastructure (MI)]","mi/MI_Instance_GetClass","wmi_v2.mi_instance_getclass"]
+description: Gets the MI_Class associated with an instance.
+helpviewer_keywords: ["MI_Instance_GetClass","MI_Instance_GetClass function [Windows Management Infrastructure (MI)]","mi/MI_Instance_GetClass","wmi_v2.mi_instance_getclass"]
 old-location: wmi_v2\mi_instance_getclass.htm
 tech.root: wmi_v2
 ms.assetid: 4799e9f0-f233-499f-acec-9041074eab42

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IEncoderAPI.GetDefaultValue
 title: IEncoderAPI::GetDefaultValue (strmif.h)
-description: The GetDefaultValue method retrieves the default value for a parameter, if one exists.helpviewer_keywords: ["GetDefaultValue","GetDefaultValue method [Microsoft TV Technologies]","GetDefaultValue method [Microsoft TV Technologies]","IEncoderAPI interface","IEncoderAPI interface [Microsoft TV Technologies]","GetDefaultValue method","IEncoderAPI.GetDefaultValue","IEncoderAPI::GetDefaultValue","IEncoderAPIGetDefaultValue","mstv.iencoderapi_getdefaultvalue","strmif/IEncoderAPI::GetDefaultValue"]
+description: The GetDefaultValue method retrieves the default value for a parameter, if one exists.
+helpviewer_keywords: ["GetDefaultValue","GetDefaultValue method [Microsoft TV Technologies]","GetDefaultValue method [Microsoft TV Technologies]","IEncoderAPI interface","IEncoderAPI interface [Microsoft TV Technologies]","GetDefaultValue method","IEncoderAPI.GetDefaultValue","IEncoderAPI::GetDefaultValue","IEncoderAPIGetDefaultValue","mstv.iencoderapi_getdefaultvalue","strmif/IEncoderAPI::GetDefaultValue"]
 old-location: mstv\iencoderapi_getdefaultvalue.htm
 tech.root: mstv
 ms.assetid: 86eb8008-6d1c-4de7-8a88-b42f33ca24d3

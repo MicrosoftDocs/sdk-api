@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_44
 title: WS_ADDRESSING_VERSION (webservices.h)
-description: Identifies the version of the specification used for the addressing headers.helpviewer_keywords: ["WS_ADDRESSING_VERSION","WS_ADDRESSING_VERSION enumeration [Web Services for Windows]","WS_ADDRESSING_VERSION_0_9","WS_ADDRESSING_VERSION_1_0","WS_ADDRESSING_VERSION_TRANSPORT","webservices/WS_ADDRESSING_VERSION","webservices/WS_ADDRESSING_VERSION_0_9","webservices/WS_ADDRESSING_VERSION_1_0","webservices/WS_ADDRESSING_VERSION_TRANSPORT","wsw.ws_addressing_version"]
+description: Identifies the version of the specification used for the addressing headers.
+helpviewer_keywords: ["WS_ADDRESSING_VERSION","WS_ADDRESSING_VERSION enumeration [Web Services for Windows]","WS_ADDRESSING_VERSION_0_9","WS_ADDRESSING_VERSION_1_0","WS_ADDRESSING_VERSION_TRANSPORT","webservices/WS_ADDRESSING_VERSION","webservices/WS_ADDRESSING_VERSION_0_9","webservices/WS_ADDRESSING_VERSION_1_0","webservices/WS_ADDRESSING_VERSION_TRANSPORT","wsw.ws_addressing_version"]
 old-location: wsw\ws_addressing_version.htm
 tech.root: wsw
 ms.assetid: 87f60067-109c-456c-b060-33ab840872e0

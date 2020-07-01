@@ -1,7 +1,8 @@
 ---
 UID: NE:msvidctl.DisplaySizeList
 title: DisplaySizeList (msvidctl.h)
-description: This topic applies to Windows XP or later.helpviewer_keywords: ["DisplaySizeList","DisplaySizeList enumeration [Microsoft TV Technologies]","MSVidCtlDisplaySizeListEnumeration","dslDefaultSize","dslDoubleSourceSize","dslFullScreen","dslHalfScreen","dslHalfSourceSize","dslQuarterScreen","dslSixteenthScreen","dslSourceSize","enumeration [Microsoft TV Technologies]","mstv.displaysizelist","msvidctl/DisplaySizeList","msvidctl/dslDefaultSize","msvidctl/dslDoubleSourceSize","msvidctl/dslFullScreen","msvidctl/dslHalfScreen","msvidctl/dslHalfSourceSize","msvidctl/dslQuarterScreen","msvidctl/dslSixteenthScreen","msvidctl/dslSourceSize"]
+description: This topic applies to Windows XP or later.
+helpviewer_keywords: ["DisplaySizeList","DisplaySizeList enumeration [Microsoft TV Technologies]","MSVidCtlDisplaySizeListEnumeration","dslDefaultSize","dslDoubleSourceSize","dslFullScreen","dslHalfScreen","dslHalfSourceSize","dslQuarterScreen","dslSixteenthScreen","dslSourceSize","enumeration [Microsoft TV Technologies]","mstv.displaysizelist","msvidctl/DisplaySizeList","msvidctl/dslDefaultSize","msvidctl/dslDoubleSourceSize","msvidctl/dslFullScreen","msvidctl/dslHalfScreen","msvidctl/dslHalfSourceSize","msvidctl/dslQuarterScreen","msvidctl/dslSixteenthScreen","msvidctl/dslSourceSize"]
 old-location: mstv\displaysizelist.htm
 tech.root: mstv
 ms.assetid: 2e939cbc-fc75-41d7-9fcb-32da5173f9bc

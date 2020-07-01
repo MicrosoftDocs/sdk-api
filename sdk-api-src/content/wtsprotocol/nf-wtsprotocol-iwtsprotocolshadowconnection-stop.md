@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolShadowConnection.Stop
 title: IWTSProtocolShadowConnection::Stop (wtsprotocol.h)
-description: IWTSProtocolShadowConnection::Stop is no longer available. Instead, use IWRdsProtocolShadowConnection::Stop.helpviewer_keywords: ["IWTSProtocolShadowConnection interface [Remote Desktop Services]","Stop method","IWTSProtocolShadowConnection.Stop","IWTSProtocolShadowConnection::Stop","Stop","Stop method [Remote Desktop Services]","Stop method [Remote Desktop Services]","IWTSProtocolShadowConnection interface","termserv.iwtsprotocolshadowconnection_stop","wtsprotocol/IWTSProtocolShadowConnection::Stop"]
+description: IWTSProtocolShadowConnection::Stop is no longer available. Instead, use IWRdsProtocolShadowConnection::Stop.
+helpviewer_keywords: ["IWTSProtocolShadowConnection interface [Remote Desktop Services]","Stop method","IWTSProtocolShadowConnection.Stop","IWTSProtocolShadowConnection::Stop","Stop","Stop method [Remote Desktop Services]","Stop method [Remote Desktop Services]","IWTSProtocolShadowConnection interface","termserv.iwtsprotocolshadowconnection_stop","wtsprotocol/IWTSProtocolShadowConnection::Stop"]
 old-location: termserv\iwtsprotocolshadowconnection_stop.htm
 tech.root: TermServ
 ms.assetid: 629b82cb-7bf3-4a83-bc96-a1e6a757f974

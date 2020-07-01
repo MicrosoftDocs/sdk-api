@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.RemoveMutualExclusion
 title: IMFASFProfile::RemoveMutualExclusion (wmcontainer.h)
-description: Removes an Advanced Systems Format (ASF) mutual exclusion object from the profile.helpviewer_keywords: ["IMFASFProfile interface [Media Foundation]","RemoveMutualExclusion method","IMFASFProfile.RemoveMutualExclusion","IMFASFProfile::RemoveMutualExclusion","RemoveMutualExclusion","RemoveMutualExclusion method [Media Foundation]","RemoveMutualExclusion method [Media Foundation]","IMFASFProfile interface","dbcf192f-1ab4-44c4-8444-5d2aba941fe1","mf.imfasfprofile_removemutualexclusion","wmcontainer/IMFASFProfile::RemoveMutualExclusion"]
+description: Removes an Advanced Systems Format (ASF) mutual exclusion object from the profile.
+helpviewer_keywords: ["IMFASFProfile interface [Media Foundation]","RemoveMutualExclusion method","IMFASFProfile.RemoveMutualExclusion","IMFASFProfile::RemoveMutualExclusion","RemoveMutualExclusion","RemoveMutualExclusion method [Media Foundation]","RemoveMutualExclusion method [Media Foundation]","IMFASFProfile interface","dbcf192f-1ab4-44c4-8444-5d2aba941fe1","mf.imfasfprofile_removemutualexclusion","wmcontainer/IMFASFProfile::RemoveMutualExclusion"]
 old-location: mf\imfasfprofile_removemutualexclusion.htm
 tech.root: medfound
 ms.assetid: dbcf192f-1ab4-44c4-8444-5d2aba941fe1

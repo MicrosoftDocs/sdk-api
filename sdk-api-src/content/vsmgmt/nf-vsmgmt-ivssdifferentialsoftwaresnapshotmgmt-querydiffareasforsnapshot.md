@@ -135,7 +135,6 @@ The caller is out of memory or other system resources.
 <td width="60%">
 Provider error - the provider logged the error in the event log. For more information, see 
         <a href="/windows/desktop/VSS/event-and-error-handling-under-vss">Event and Error Handling Under VSS</a>.
-
 </td>
 </tr>
 <tr>
@@ -161,7 +160,6 @@ Unexpected error. The error code is logged in the error log file. For more infor
 ## -remarks
 
 
-
 The returned <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a> enumerator object 
     will contain <a href="/windows/desktop/api/vsmgmt/ns-vsmgmt-vss_diff_area_prop">VSS_DIFF_AREA_PROP</a> structures inside the 
     <a href="/openspecs/windows_protocols/ms-scmp/63b53947-2649-4eac-a883-498f77361396">VSS_MGMT_OBJECT_UNION</a> union inside the 
@@ -169,9 +167,7 @@ The returned <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">
 
 
 
-
 ## -see-also
-
 
 
 
@@ -180,7 +176,3 @@ The returned <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">
 
 
 <a href="/windows/desktop/api/vsmgmt/nn-vsmgmt-ivssenummgmtobject">IVssEnumMgmtObject</a>
- 
-
- 
-

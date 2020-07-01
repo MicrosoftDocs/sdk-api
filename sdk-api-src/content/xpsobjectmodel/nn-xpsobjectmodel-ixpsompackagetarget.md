@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMPackageTarget
 title: IXpsOMPackageTarget (xpsobjectmodel.h)
-description: Provides the method to create an IXpsOMPackageWriter that can be used by a print job that was created by the StartXpsPrintJob1 function.helpviewer_keywords: ["IXpsOMPackageTarget","IXpsOMPackageTarget interface [XPS Documents and Packaging]","IXpsOMPackageTarget interface [XPS Documents and Packaging]","described","xps.ixpsompackagetarget","xpsobjectmodel/IXpsOMPackageTarget"]
+description: Provides the method to create an IXpsOMPackageWriter that can be used by a print job that was created by the StartXpsPrintJob1 function.
+helpviewer_keywords: ["IXpsOMPackageTarget","IXpsOMPackageTarget interface [XPS Documents and Packaging]","IXpsOMPackageTarget interface [XPS Documents and Packaging]","described","xps.ixpsompackagetarget","xpsobjectmodel/IXpsOMPackageTarget"]
 old-location: xps\ixpsompackagetarget.htm
 tech.root: printdocs
 ms.assetid: 980D2A37-933F-41B1-A975-6BC797E8E770

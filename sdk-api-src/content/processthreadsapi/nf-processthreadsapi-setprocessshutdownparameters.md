@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.SetProcessShutdownParameters
 title: SetProcessShutdownParameters function (processthreadsapi.h)
-description: Sets shutdown parameters for the currently calling process. This function sets a shutdown order for a process relative to the other processes in the system.helpviewer_keywords: ["SHUTDOWN_NORETRY","SetProcessShutdownParameters","SetProcessShutdownParameters function","_win32_setprocessshutdownparameters","base.setprocessshutdownparameters","processthreadsapi/SetProcessShutdownParameters","winbase/SetProcessShutdownParameters"]
+description: Sets shutdown parameters for the currently calling process. This function sets a shutdown order for a process relative to the other processes in the system.
+helpviewer_keywords: ["SHUTDOWN_NORETRY","SetProcessShutdownParameters","SetProcessShutdownParameters function","_win32_setprocessshutdownparameters","base.setprocessshutdownparameters","processthreadsapi/SetProcessShutdownParameters","winbase/SetProcessShutdownParameters"]
 old-location: base\setprocessshutdownparameters.htm
 tech.root: ProcThread
 ms.assetid: c467950e-31e1-4608-a08a-0736a5524e0e

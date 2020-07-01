@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.CertificateSuccess
 title: IMSVidStreamBufferSourceEvent::CertificateSuccess (segment.h)
-description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["CertificateSuccess","CertificateSuccess method [Microsoft TV Technologies]","CertificateSuccess method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent interface","IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies]","CertificateSuccess method","IMSVidStreamBufferSourceEvent.CertificateSuccess","IMSVidStreamBufferSourceEvent::CertificateSuccess","IMSVidStreamBufferSourceEventCertificateSuccess","mstv.imsvidstreambuffersourceevent_certificatesuccess","segment/IMSVidStreamBufferSourceEvent::CertificateSuccess"]
+description: This topic applies to Windows XP Service Pack 1 or later.
+helpviewer_keywords: ["CertificateSuccess","CertificateSuccess method [Microsoft TV Technologies]","CertificateSuccess method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent interface","IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies]","CertificateSuccess method","IMSVidStreamBufferSourceEvent.CertificateSuccess","IMSVidStreamBufferSourceEvent::CertificateSuccess","IMSVidStreamBufferSourceEventCertificateSuccess","mstv.imsvidstreambuffersourceevent_certificatesuccess","segment/IMSVidStreamBufferSourceEvent::CertificateSuccess"]
 old-location: mstv\imsvidstreambuffersourceevent_certificatesuccess.htm
 tech.root: mstv
 ms.assetid: 1c541058-5e02-4b78-8c28-a2a0709d5872

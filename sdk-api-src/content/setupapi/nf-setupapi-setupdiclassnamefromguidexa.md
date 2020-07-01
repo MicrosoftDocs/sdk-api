@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiClassNameFromGuidExA
 title: SetupDiClassNameFromGuidExA function (setupapi.h)
-description: The SetupDiClassNameFromGuidEx function retrieves the class name associated with a class GUID. The class can be installed on a local or remote computer.helpviewer_keywords: ["SetupDiClassNameFromGuidEx","SetupDiClassNameFromGuidEx function [Device and Driver Installation]","SetupDiClassNameFromGuidExA","SetupDiClassNameFromGuidExW","devinst.setupdiclassnamefromguidex","di-rtns_69da61fd-b042-4b1b-92a4-d40418f18794.xml","setupapi/SetupDiClassNameFromGuidEx"]
+description: The SetupDiClassNameFromGuidEx function retrieves the class name associated with a class GUID. The class can be installed on a local or remote computer.
+helpviewer_keywords: ["SetupDiClassNameFromGuidEx","SetupDiClassNameFromGuidEx function [Device and Driver Installation]","SetupDiClassNameFromGuidExA","SetupDiClassNameFromGuidExW","devinst.setupdiclassnamefromguidex","di-rtns_69da61fd-b042-4b1b-92a4-d40418f18794.xml","setupapi/SetupDiClassNameFromGuidEx"]
 old-location: devinst\setupdiclassnamefromguidex.htm
 tech.root: devinst
 ms.assetid: 0d576df1-e259-4025-8ef0-a520f5680fa0
@@ -111,4 +112,9 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiClassNameFromGuidEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

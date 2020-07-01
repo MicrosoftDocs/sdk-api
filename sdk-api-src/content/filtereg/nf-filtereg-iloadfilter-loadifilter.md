@@ -1,7 +1,8 @@
 ---
 UID: NF:filtereg.ILoadFilter.LoadIFilter
 title: ILoadFilter::LoadIFilter (filtereg.h)
-description: Retrieves and loads the most appropriate filter that is mapped to a Shell data source.helpviewer_keywords: ["ILoadFilter interface [search]","LoadIFilter method","ILoadFilter.LoadIFilter","ILoadFilter::LoadIFilter","LoadIFilter","LoadIFilter method [search]","LoadIFilter method [search]","ILoadFilter interface","filtereg/ILoadFilter::LoadIFilter","search.iloadfilter_loadifilter"]
+description: Retrieves and loads the most appropriate filter that is mapped to a Shell data source.
+helpviewer_keywords: ["ILoadFilter interface [search]","LoadIFilter method","ILoadFilter.LoadIFilter","ILoadFilter::LoadIFilter","LoadIFilter","LoadIFilter method [search]","LoadIFilter method [search]","ILoadFilter interface","filtereg/ILoadFilter::LoadIFilter","search.iloadfilter_loadifilter"]
 old-location: search\iloadfilter_loadifilter.htm
 tech.root: search
 ms.assetid: 920c976e-4dde-4e53-85b7-7547291736a0

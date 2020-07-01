@@ -1,7 +1,8 @@
 ---
 UID: NE:sensorsapi.MagnetometerAccuracy
 title: MagnetometerAccuracy (sensorsapi.h)
-description: Specifies the accuracy of the magnetometer.helpviewer_keywords: ["Approximate","High","MagnetometerAccuracy","MagnetometerAccuracy enumeration [WinSensors]","Unknown","Unreliable","sensorsapi/Approximate","sensorsapi/High","sensorsapi/MagnetometerAccuracy","sensorsapi/Unknown","sensorsapi/Unreliable","winsensors.magnetometeraccuracy"]
+description: Specifies the accuracy of the magnetometer.
+helpviewer_keywords: ["Approximate","High","MagnetometerAccuracy","MagnetometerAccuracy enumeration [WinSensors]","Unknown","Unreliable","sensorsapi/Approximate","sensorsapi/High","sensorsapi/MagnetometerAccuracy","sensorsapi/Unknown","sensorsapi/Unreliable","winsensors.magnetometeraccuracy"]
 old-location: winsensors\magnetometeraccuracy.htm
 tech.root: SensorsAPI
 ms.assetid: DBD06A2E-35AB-4692-8475-98B803C2202B

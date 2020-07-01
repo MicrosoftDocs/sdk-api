@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.IntSub
 title: IntSub function (intsafe.h)
-description: Subtracts one value of type INT from another.helpviewer_keywords: ["IntSub","IntSub function [Windows Shell]","intsafe/IntSub","shell.IntSub"]
+description: Subtracts one value of type INT from another.
+helpviewer_keywords: ["IntSub","IntSub function [Windows Shell]","intsafe/IntSub","shell.IntSub"]
 old-location: shell\IntSub.htm
 tech.root: shell
 ms.assetid: ee083a68-27fd-4c94-93e0-7e662c48d5cf

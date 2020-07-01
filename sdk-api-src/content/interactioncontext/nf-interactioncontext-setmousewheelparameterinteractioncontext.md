@@ -1,7 +1,8 @@
 ---
 UID: NF:interactioncontext.SetMouseWheelParameterInteractionContext
 title: SetMouseWheelParameterInteractionContext function (interactioncontext.h)
-description: Sets the parameter values for mouse wheel input.helpviewer_keywords: ["SetMouseWheelParameterInteractionContext","SetMouseWheelParameterInteractionContext function","input_intcontext.setmousewheelparameterinteractioncontext","interactioncontext.setmousewheelparameterinteractioncontext","interactioncontext/SetMouseWheelParameterInteractionContext"]
+description: Sets the parameter values for mouse wheel input.
+helpviewer_keywords: ["SetMouseWheelParameterInteractionContext","SetMouseWheelParameterInteractionContext function","input_intcontext.setmousewheelparameterinteractioncontext","interactioncontext.setmousewheelparameterinteractioncontext","interactioncontext/SetMouseWheelParameterInteractionContext"]
 old-location: input_intcontext\setmousewheelparameterinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: fbc47bd4-f78a-4b03-8adc-9b2c4620ea55

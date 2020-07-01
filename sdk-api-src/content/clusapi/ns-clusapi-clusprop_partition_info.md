@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi.CLUSPROP_PARTITION_INFO
 title: CLUSPROP_PARTITION_INFO (clusapi.h)
-description: Contains information relevant to storage class resources.helpviewer_keywords: ["*PCLUSPROP_PARTITION_INFO","CLUSPROP_PARTITION_INFO","CLUSPROP_PARTITION_INFO structure [Failover Cluster]","PCLUSPROP_PARTITION_INFO","PCLUSPROP_PARTITION_INFO structure pointer [Failover Cluster]","_wolf_clusprop_partition_info","clusapi/CLUSPROP_PARTITION_INFO","clusapi/PCLUSPROP_PARTITION_INFO","mscs.clusprop_partition_info"]
+description: Contains information relevant to storage class resources.
+helpviewer_keywords: ["*PCLUSPROP_PARTITION_INFO","CLUSPROP_PARTITION_INFO","CLUSPROP_PARTITION_INFO structure [Failover Cluster]","PCLUSPROP_PARTITION_INFO","PCLUSPROP_PARTITION_INFO structure pointer [Failover Cluster]","_wolf_clusprop_partition_info","clusapi/CLUSPROP_PARTITION_INFO","clusapi/PCLUSPROP_PARTITION_INFO","mscs.clusprop_partition_info"]
 old-location: mscs\clusprop_partition_info.htm
 tech.root: MsCS
 ms.assetid: cda1e334-dba8-4fe9-b035-4e475245869c

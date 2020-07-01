@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelPurgeOutput
 title: WTSVirtualChannelPurgeOutput function (wtsapi32.h)
-description: Deletes all queued output data sent from the server to the client on a specified virtual channel.helpviewer_keywords: ["WTSVirtualChannelPurgeOutput","WTSVirtualChannelPurgeOutput function [Remote Desktop Services]","_win32_wtsvirtualchannelpurgeoutput","termserv.wtsvirtualchannelpurgeoutput","wtsapi32/WTSVirtualChannelPurgeOutput"]
+description: Deletes all queued output data sent from the server to the client on a specified virtual channel.
+helpviewer_keywords: ["WTSVirtualChannelPurgeOutput","WTSVirtualChannelPurgeOutput function [Remote Desktop Services]","_win32_wtsvirtualchannelpurgeoutput","termserv.wtsvirtualchannelpurgeoutput","wtsapi32/WTSVirtualChannelPurgeOutput"]
 old-location: termserv\wtsvirtualchannelpurgeoutput.htm
 tech.root: TermServ
 ms.assetid: 9edd06d1-3f5a-4d83-8c3c-16b761ce4c60

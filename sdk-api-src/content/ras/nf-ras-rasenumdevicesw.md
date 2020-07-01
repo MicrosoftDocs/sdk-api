@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasEnumDevicesW
 title: RasEnumDevicesW function (ras.h)
-description: The RasEnumDevices function returns the name and type of all available RAS-capable devices.helpviewer_keywords: ["RasEnumDevices","RasEnumDevices function [RAS]","RasEnumDevicesA","RasEnumDevicesW","_ras_rasenumdevices","ras/RasEnumDevices","ras/RasEnumDevicesA","ras/RasEnumDevicesW","rras.rasenumdevices"]
+description: The RasEnumDevices function returns the name and type of all available RAS-capable devices.
+helpviewer_keywords: ["RasEnumDevices","RasEnumDevices function [RAS]","RasEnumDevicesA","RasEnumDevicesW","_ras_rasenumdevices","ras/RasEnumDevices","ras/RasEnumDevicesA","ras/RasEnumDevicesW","rras.rasenumdevices"]
 old-location: rras\rasenumdevices.htm
 tech.root: RRAS
 ms.assetid: 819f069f-15e7-41b6-9153-4d602be4245d
@@ -220,6 +221,10 @@ DWORD __cdecl wmain(){
 
 
 
+
+
+> [!NOTE]
+> The ras.h header defines RasEnumDevices as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

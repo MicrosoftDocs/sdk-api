@@ -1,7 +1,8 @@
 ---
 UID: NF:chstrarr.CHStringArray.GetData
 title: CHStringArray::GetData (chstrarr.h)
-description: The GetData method gains direct access to the elements in the array.helpviewer_keywords: ["CHStringArray interface [Windows Management Instrumentation]","GetData method","CHStringArray.GetData","CHStringArray::GetData","GetData","GetData method [Windows Management Instrumentation]","GetData method [Windows Management Instrumentation]","CHStringArray interface","_hmm_chstringarray_getdata","chstrarr/CHStringArray::GetData","wmi.chstringarray_getdata"]
+description: The GetData method gains direct access to the elements in the array.
+helpviewer_keywords: ["CHStringArray interface [Windows Management Instrumentation]","GetData method","CHStringArray.GetData","CHStringArray::GetData","GetData","GetData method [Windows Management Instrumentation]","GetData method [Windows Management Instrumentation]","CHStringArray interface","_hmm_chstringarray_getdata","chstrarr/CHStringArray::GetData","wmi.chstringarray_getdata"]
 old-location: wmi\chstringarray_getdata.htm
 tech.root: WmiSdk
 ms.assetid: b59a0c42-e753-43ff-bf39-279f0a8b9d2b

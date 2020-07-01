@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_GETVPORTSIGNALDATA
 title: DD_GETVPORTSIGNALDATA (ddrawint.h)
-description: The DD_GETVPORTSIGNALDATA structure contains the signal status of the hardware video port.helpviewer_keywords: ["*PDD_GETVPORTSIGNALDATA","DD_GETVPORTSIGNALDATA","DD_GETVPORTSIGNALDATA structure [Display Devices]","ddrawint/DD_GETVPORTSIGNALDATA","ddstrcts_4079ddf7-58a7-46ef-b11a-858bbd486333.xml","display.dd_getvportsignaldata"]
+description: The DD_GETVPORTSIGNALDATA structure contains the signal status of the hardware video port.
+helpviewer_keywords: ["*PDD_GETVPORTSIGNALDATA","DD_GETVPORTSIGNALDATA","DD_GETVPORTSIGNALDATA structure [Display Devices]","ddrawint/DD_GETVPORTSIGNALDATA","ddstrcts_4079ddf7-58a7-46ef-b11a-858bbd486333.xml","display.dd_getvportsignaldata"]
 old-location: display\dd_getvportsignaldata.htm
 tech.root: display
 ms.assetid: 33db5ce5-534b-4e66-853b-5e60892f544b

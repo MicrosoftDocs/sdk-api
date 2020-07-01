@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnRegistration
 title: IMbnRegistration (mbnapi.h)
-description: Provides access to network registration data.helpviewer_keywords: ["IMbnRegistration","IMbnRegistration interface [Microsoft Broadband Networks]","IMbnRegistration interface [Microsoft Broadband Networks]","described","mbn.imbnregistration","mbnapi/IMbnRegistration"]
+description: Provides access to network registration data.
+helpviewer_keywords: ["IMbnRegistration","IMbnRegistration interface [Microsoft Broadband Networks]","IMbnRegistration interface [Microsoft Broadband Networks]","described","mbn.imbnregistration","mbnapi/IMbnRegistration"]
 old-location: mbn\imbnregistration.htm
 tech.root: mbn
 ms.assetid: da5413b7-adf4-4a3d-893f-f51441460541

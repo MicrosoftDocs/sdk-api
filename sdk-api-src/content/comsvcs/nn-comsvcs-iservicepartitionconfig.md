@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IServicePartitionConfig
 title: IServicePartitionConfig (comsvcs.h)
-description: Configures how partitions are used for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.helpviewer_keywords: ["IServicePartitionConfig","IServicePartitionConfig interface [COM+]","IServicePartitionConfig interface [COM+]","described","_cos_IServicePartitionConfi","comsvcs/IServicePartitionConfig","cos.iservicepartitionconfig"]
+description: Configures how partitions are used for the work that is done when calling either CoCreateActivity or CoEnterServiceDomain.
+helpviewer_keywords: ["IServicePartitionConfig","IServicePartitionConfig interface [COM+]","IServicePartitionConfig interface [COM+]","described","_cos_IServicePartitionConfi","comsvcs/IServicePartitionConfig","cos.iservicepartitionconfig"]
 old-location: cos\iservicepartitionconfig.htm
 tech.root: cossdk
 ms.assetid: 63dcc64b-edd5-4188-a87b-46452c3b624f

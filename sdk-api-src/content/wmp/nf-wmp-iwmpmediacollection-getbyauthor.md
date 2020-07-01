@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByAuthor
 title: IWMPMediaCollection::getByAuthor (wmp.h)
-description: The getByAuthor method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items for the specified author.helpviewer_keywords: ["IWMPMediaCollection interface [Windows Media Player]","getByAuthor method","IWMPMediaCollection.getByAuthor","IWMPMediaCollection::getByAuthor","IWMPMediaCollectiongetByAuthor","getByAuthor","getByAuthor method [Windows Media Player]","getByAuthor method [Windows Media Player]","IWMPMediaCollection interface","wmp.iwmpmediacollection_getbyauthor","wmp/IWMPMediaCollection::getByAuthor"]
+description: The getByAuthor method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items for the specified author.
+helpviewer_keywords: ["IWMPMediaCollection interface [Windows Media Player]","getByAuthor method","IWMPMediaCollection.getByAuthor","IWMPMediaCollection::getByAuthor","IWMPMediaCollectiongetByAuthor","getByAuthor","getByAuthor method [Windows Media Player]","getByAuthor method [Windows Media Player]","IWMPMediaCollection interface","wmp.iwmpmediacollection_getbyauthor","wmp/IWMPMediaCollection::getByAuthor"]
 old-location: wmp\iwmpmediacollection_getbyauthor.htm
 tech.root: WMP
 ms.assetid: 415dfbe5-c709-4674-bcdd-38742150d11f

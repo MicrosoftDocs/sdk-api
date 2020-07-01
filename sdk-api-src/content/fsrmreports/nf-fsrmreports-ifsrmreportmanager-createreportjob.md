@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmReportManager.CreateReportJob
 title: IFsrmReportManager::CreateReportJob (fsrmreports.h)
-description: Creates a report job.helpviewer_keywords: ["CreateReportJob","CreateReportJob method [File Server Resource Manager]","CreateReportJob method [File Server Resource Manager]","FsrmReportManager class","CreateReportJob method [File Server Resource Manager]","IFsrmReportManager interface","FsrmReportManager class [File Server Resource Manager]","CreateReportJob method","IFsrmReportManager interface [File Server Resource Manager]","CreateReportJob method","IFsrmReportManager.CreateReportJob","IFsrmReportManager::CreateReportJob","fs.ifsrmreportmanager_createreportjob","fsrm.ifsrmreportmanager_createreportjob","fsrmreports/IFsrmReportManager::CreateReportJob"]
+description: Creates a report job.
+helpviewer_keywords: ["CreateReportJob","CreateReportJob method [File Server Resource Manager]","CreateReportJob method [File Server Resource Manager]","FsrmReportManager class","CreateReportJob method [File Server Resource Manager]","IFsrmReportManager interface","FsrmReportManager class [File Server Resource Manager]","CreateReportJob method","IFsrmReportManager interface [File Server Resource Manager]","CreateReportJob method","IFsrmReportManager.CreateReportJob","IFsrmReportManager::CreateReportJob","fs.ifsrmreportmanager_createreportjob","fsrm.ifsrmreportmanager_createreportjob","fsrmreports/IFsrmReportManager::CreateReportJob"]
 old-location: fsrm\ifsrmreportmanager_createreportjob.htm
 tech.root: fsrm
 ms.assetid: 30274108-a820-409e-ba7c-6971b7726b9b

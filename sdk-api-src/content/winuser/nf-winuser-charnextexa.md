@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CharNextExA
 title: CharNextExA function (winuser.h)
-description: Retrieves the pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters.helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CharNextExA","CharNextExA function [Menus and Other Resources]","_win32_CharNextExA","_win32_charnextexa_cpp","menurc.charnextexa","winui._win32_charnextexa","winuser/CharNextExA"]
+description: Retrieves the pointer to the next character in a string. This function can handle strings consisting of either single- or multi-byte characters.
+helpviewer_keywords: ["CP_ACP","CP_MACCP","CP_OEMCP","CharNextExA","CharNextExA function [Menus and Other Resources]","_win32_CharNextExA","_win32_charnextexa_cpp","menurc.charnextexa","winui._win32_charnextexa","winuser/CharNextExA"]
 old-location: menurc\charnextexa.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\charnextexa.htm

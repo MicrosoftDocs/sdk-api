@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplustypes.Rect
 title: Rect (gdiplustypes.h)
-description: A Rect object stores the upper-left corner, width, and height of a rectangle.helpviewer_keywords: ["Rect","Rect class [GDI+]","Rect class [GDI+]","described","_gdiplus_CLASS_Rect_Class","gdiplus._gdiplus_CLASS_Rect_Class","gdiplustypes/Rect"]
+description: A Rect object stores the upper-left corner, width, and height of a rectangle.
+helpviewer_keywords: ["Rect","Rect class [GDI+]","Rect class [GDI+]","described","_gdiplus_CLASS_Rect_Class","gdiplus._gdiplus_CLASS_Rect_Class","gdiplustypes/Rect"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rect.htm

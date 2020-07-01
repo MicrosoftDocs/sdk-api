@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetUdp6Table
 title: GetUdp6Table function (iphlpapi.h)
-description: Retrieves the IPv6 User Datagram Protocol (UDP) listener table.helpviewer_keywords: ["GetUdp6Table","GetUdp6Table function [IP Helper]","iphlp.getudp6table","iphlpapi/GetUdp6Table"]
+description: Retrieves the IPv6 User Datagram Protocol (UDP) listener table.
+helpviewer_keywords: ["GetUdp6Table","GetUdp6Table function [IP Helper]","iphlp.getudp6table","iphlpapi/GetUdp6Table"]
 old-location: iphlp\getudp6table.htm
 tech.root: IpHlp
 ms.assetid: 5e86483c-aa39-4d6c-a9b4-9b046b3dcc74

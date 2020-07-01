@@ -1,7 +1,8 @@
 ---
 UID: NF:drt.DrtGetEventDataSize
 title: DrtGetEventDataSize function (drt.h)
-description: DrtGetEventDataSize function returns the size of the DRT_EVENT_DATA structure associated with a signaled event.helpviewer_keywords: ["DrtGetEventDataSize","DrtGetEventDataSize function [Peer Networking]","drt/DrtGetEventDataSize","p2p.drtgeteventdatasize"]
+description: DrtGetEventDataSize function returns the size of the DRT_EVENT_DATA structure associated with a signaled event.
+helpviewer_keywords: ["DrtGetEventDataSize","DrtGetEventDataSize function [Peer Networking]","drt/DrtGetEventDataSize","p2p.drtgeteventdatasize"]
 old-location: p2p\drtgeteventdatasize.htm
 tech.root: P2PSdk
 ms.assetid: b73431fc-6b5a-41f7-8616-6d82dc8844f4

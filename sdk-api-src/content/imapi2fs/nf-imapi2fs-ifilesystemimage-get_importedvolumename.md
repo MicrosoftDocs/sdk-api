@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_ImportedVolumeName
 title: IFileSystemImage::get_ImportedVolumeName (imapi2fs.h)
-description: Retrieves the volume name provided from an imported file system.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_ImportedVolumeName method","IFileSystemImage.get_ImportedVolumeName","IFileSystemImage::get_ImportedVolumeName","get_ImportedVolumeName","get_ImportedVolumeName method [IMAPI]","get_ImportedVolumeName method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_importedvolumename","imapi2fs/IFileSystemImage::get_ImportedVolumeName"]
+description: Retrieves the volume name provided from an imported file system.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_ImportedVolumeName method","IFileSystemImage.get_ImportedVolumeName","IFileSystemImage::get_ImportedVolumeName","get_ImportedVolumeName","get_ImportedVolumeName method [IMAPI]","get_ImportedVolumeName method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_importedvolumename","imapi2fs/IFileSystemImage::get_ImportedVolumeName"]
 old-location: imapi\ifilesystemimage_get_importedvolumename.htm
 tech.root: imapi
 ms.assetid: 57d66dd3-2525-4102-bba7-00bad76a3d9c

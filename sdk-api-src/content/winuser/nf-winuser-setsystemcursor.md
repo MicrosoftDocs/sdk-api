@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetSystemCursor
 title: SetSystemCursor function (winuser.h)
-description: Enables an application to customize the system cursors. It replaces the contents of the system cursor specified by the id parameter with the contents of the cursor specified by the hcur parameter and then destroys hcur.helpviewer_keywords: ["OCR_APPSTARTING","OCR_CROSS","OCR_HAND","OCR_HELP","OCR_IBEAM","OCR_NO","OCR_NORMAL","OCR_SIZEALL","OCR_SIZENESW","OCR_SIZENS","OCR_SIZENWSE","OCR_SIZEWE","OCR_UP","OCR_WAIT","SetSystemCursor","SetSystemCursor function [Menus and Other Resources]","_win32_SetSystemCursor","_win32_setsystemcursor_cpp","menurc.setsystemcursor","winui._win32_setsystemcursor","winuser/SetSystemCursor"]
+description: Enables an application to customize the system cursors. It replaces the contents of the system cursor specified by the id parameter with the contents of the cursor specified by the hcur parameter and then destroys hcur.
+helpviewer_keywords: ["OCR_APPSTARTING","OCR_CROSS","OCR_HAND","OCR_HELP","OCR_IBEAM","OCR_NO","OCR_NORMAL","OCR_SIZEALL","OCR_SIZENESW","OCR_SIZENS","OCR_SIZENWSE","OCR_SIZEWE","OCR_UP","OCR_WAIT","SetSystemCursor","SetSystemCursor function [Menus and Other Resources]","_win32_SetSystemCursor","_win32_setsystemcursor_cpp","menurc.setsystemcursor","winui._win32_setsystemcursor","winuser/SetSystemCursor"]
 old-location: menurc\setsystemcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\setsystemcursor.htm

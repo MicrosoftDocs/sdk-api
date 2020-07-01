@@ -1,7 +1,8 @@
 ---
 UID: NS:uiribbon._UI_EVENTPARAMS
 title: UI_EVENTPARAMS (uiribbon.h)
-description: Contains information about a Ribbon event.helpviewer_keywords: ["PUI_EVENTPARAMS","PUI_EVENTPARAMS structure pointer [Windows Ribbon]","UI_EVENTPARAMS","UI_EVENTPARAMS structure [Windows Ribbon]","uiribbon/PUI_EVENTPARAMS","uiribbon/UI_EVENTPARAMS","windowsribbon.ui_eventparams"]
+description: Contains information about a Ribbon event.
+helpviewer_keywords: ["PUI_EVENTPARAMS","PUI_EVENTPARAMS structure pointer [Windows Ribbon]","UI_EVENTPARAMS","UI_EVENTPARAMS structure [Windows Ribbon]","uiribbon/PUI_EVENTPARAMS","uiribbon/UI_EVENTPARAMS","windowsribbon.ui_eventparams"]
 old-location: windowsribbon\ui_eventparams.htm
 tech.root: windowsribbon
 ms.assetid: 438ACF91-3C83-4E2D-B919-4CCAE65BCD3E

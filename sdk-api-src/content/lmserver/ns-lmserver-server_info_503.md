@@ -1,7 +1,8 @@
 ---
 UID: NS:lmserver._SERVER_INFO_503
 title: SERVER_INFO_503 (lmserver.h)
-description: The SERVER_INFO_503 structure is obsolete. The structure contains information about the specified server.helpviewer_keywords: ["*LPSERVER_INFO_503","*PSERVER_INFO_503","LPSERVER_INFO_503","LPSERVER_INFO_503 structure pointer [Network Management]","PSERVER_INFO_503","PSERVER_INFO_503 structure pointer [Network Management]","SERVER_INFO_503","SERVER_INFO_503 structure [Network Management]","_win32_server_info_503_str","lmserver/LPSERVER_INFO_503","lmserver/PSERVER_INFO_503","lmserver/SERVER_INFO_503","netmgmt.server_info_503_str"]
+description: The SERVER_INFO_503 structure is obsolete. The structure contains information about the specified server.
+helpviewer_keywords: ["*LPSERVER_INFO_503","*PSERVER_INFO_503","LPSERVER_INFO_503","LPSERVER_INFO_503 structure pointer [Network Management]","PSERVER_INFO_503","PSERVER_INFO_503 structure pointer [Network Management]","SERVER_INFO_503","SERVER_INFO_503 structure [Network Management]","_win32_server_info_503_str","lmserver/LPSERVER_INFO_503","lmserver/PSERVER_INFO_503","lmserver/SERVER_INFO_503","netmgmt.server_info_503_str"]
 old-location: netmgmt\server_info_503_str.htm
 tech.root: NetMgmt
 ms.assetid: c6ad20ed-9f2b-4cbe-ac2e-a57acf1b32ea

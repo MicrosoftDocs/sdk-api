@@ -1,7 +1,8 @@
 ---
 UID: NS:mstask._DAILY
 title: DAILY (mstask.h)
-description: Defines the interval, in days, at which a task is run.helpviewer_keywords: ["DAILY","DAILY structure [Task Scheduler]","_msb_daily","mstask/DAILY","taskschd.daily","triggers [Task Scheduler]","structures","DAILY"]
+description: Defines the interval, in days, at which a task is run.
+helpviewer_keywords: ["DAILY","DAILY structure [Task Scheduler]","_msb_daily","mstask/DAILY","taskschd.daily","triggers [Task Scheduler]","structures","DAILY"]
 old-location: taskschd\daily.htm
 tech.root: taskschd
 ms.assetid: 4dbab308-fd1c-4be4-84f6-c12f751ab29e

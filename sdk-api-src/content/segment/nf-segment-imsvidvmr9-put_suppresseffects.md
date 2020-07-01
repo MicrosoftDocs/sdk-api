@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVMR9.put_SuppressEffects
 title: IMSVidVMR9::put_SuppressEffects (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["IMSVidVMR9 interface [Microsoft TV Technologies]","put_SuppressEffects method","IMSVidVMR9.put_SuppressEffects","IMSVidVMR9::put_SuppressEffects","IMSVidVMR9put_SuppressEffects","mstv.imsvidvmr9_put_suppresseffects","put_SuppressEffects","put_SuppressEffects method [Microsoft TV Technologies]","put_SuppressEffects method [Microsoft TV Technologies]","IMSVidVMR9 interface","segment/IMSVidVMR9::put_SuppressEffects"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IMSVidVMR9 interface [Microsoft TV Technologies]","put_SuppressEffects method","IMSVidVMR9.put_SuppressEffects","IMSVidVMR9::put_SuppressEffects","IMSVidVMR9put_SuppressEffects","mstv.imsvidvmr9_put_suppresseffects","put_SuppressEffects","put_SuppressEffects method [Microsoft TV Technologies]","put_SuppressEffects method [Microsoft TV Technologies]","IMSVidVMR9 interface","segment/IMSVidVMR9::put_SuppressEffects"]
 old-location: mstv\imsvidvmr9_put_suppresseffects.htm
 tech.root: mstv
 ms.assetid: 6e51ed2a-7516-4621-9ecb-0e645c6d416c

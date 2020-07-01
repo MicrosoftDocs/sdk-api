@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindResourceByName
 title: ID3D11ModuleInstance::BindResourceByName (d3d11shader.h)
-description: Rebinds a texture or buffer by name to destination slots.helpviewer_keywords: ["BindResourceByName","BindResourceByName method [Direct3D 11]","BindResourceByName method [Direct3D 11]","ID3D11ModuleInstance interface","ID3D11ModuleInstance interface [Direct3D 11]","BindResourceByName method","ID3D11ModuleInstance.BindResourceByName","ID3D11ModuleInstance::BindResourceByName","d3d11shader/ID3D11ModuleInstance::BindResourceByName","direct3d11.id3d11moduleinstance_bindresourcebyname"]
+description: Rebinds a texture or buffer by name to destination slots.
+helpviewer_keywords: ["BindResourceByName","BindResourceByName method [Direct3D 11]","BindResourceByName method [Direct3D 11]","ID3D11ModuleInstance interface","ID3D11ModuleInstance interface [Direct3D 11]","BindResourceByName method","ID3D11ModuleInstance.BindResourceByName","ID3D11ModuleInstance::BindResourceByName","d3d11shader/ID3D11ModuleInstance::BindResourceByName","direct3d11.id3d11moduleinstance_bindresourcebyname"]
 old-location: direct3d11\id3d11moduleinstance_bindresourcebyname.htm
 tech.root: direct3d11
 ms.assetid: 313A4AE8-8B3A-40B9-85C4-86A43F4F37D5

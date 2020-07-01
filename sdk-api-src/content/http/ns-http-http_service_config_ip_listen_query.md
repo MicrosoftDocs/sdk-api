@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY
 title: HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY (http.h)
-description: Used by HttpQueryServiceConfiguration to return a list of the Internet Protocol (IP) addresses to which the HTTP service binds.helpviewer_keywords: ["*PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY","HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY","HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure [HTTP]","PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY","PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure pointer [HTTP]","_http_http_service_config_ip_listen_query","http.http_service_config_ip_listen_query","http/HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY","http/PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY"]
+description: Used by HttpQueryServiceConfiguration to return a list of the Internet Protocol (IP) addresses to which the HTTP service binds.
+helpviewer_keywords: ["*PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY","HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY","HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure [HTTP]","PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY","PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY structure pointer [HTTP]","_http_http_service_config_ip_listen_query","http.http_service_config_ip_listen_query","http/HTTP_SERVICE_CONFIG_IP_LISTEN_QUERY","http/PHTTP_SERVICE_CONFIG_IP_LISTEN_QUERY"]
 old-location: http\http_service_config_ip_listen_query.htm
 tech.root: http
 ms.assetid: 8cecb295-a35b-466d-9420-3b72f77f731f

@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleControl.GetControlInfo
 title: IOleControl::GetControlInfo (ocidl.h)
-description: Retrieves information about the control's keyboard mnemonics and behavior.helpviewer_keywords: ["GetControlInfo","GetControlInfo method [COM]","GetControlInfo method [COM]","IOleControl interface","IOleControl interface [COM]","GetControlInfo method","IOleControl.GetControlInfo","IOleControl::GetControlInfo","_ctrl_iolecontrol_getcontrolinfo","com.iolecontrol_getcontrolinfo","ocidl/IOleControl::GetControlInfo"]
+description: Retrieves information about the control's keyboard mnemonics and behavior.
+helpviewer_keywords: ["GetControlInfo","GetControlInfo method [COM]","GetControlInfo method [COM]","IOleControl interface","IOleControl interface [COM]","GetControlInfo method","IOleControl.GetControlInfo","IOleControl::GetControlInfo","_ctrl_iolecontrol_getcontrolinfo","com.iolecontrol_getcontrolinfo","ocidl/IOleControl::GetControlInfo"]
 old-location: com\iolecontrol_getcontrolinfo.htm
 tech.root: com
 ms.assetid: defb7509-e586-45a0-9e56-de9eba17f18e

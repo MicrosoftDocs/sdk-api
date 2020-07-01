@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.AddExtensionPages
 title: IPropertySheetProvider::AddExtensionPages (mmc.h)
-description: The IPropertySheetProvider::AddExtensionPages method collects the pages from the extension snap-ins.helpviewer_keywords: ["AddExtensionPages","AddExtensionPages method [MMC]","AddExtensionPages method [MMC]","IPropertySheetProvider interface","IPropertySheetProvider interface [MMC]","AddExtensionPages method","IPropertySheetProvider.AddExtensionPages","IPropertySheetProvider::AddExtensionPages","_slate_ipropertysheetprovider_addextensionpages","mmc.ipropertysheetprovider_addextensionpages","mmc/IPropertySheetProvider::AddExtensionPages"]
+description: The IPropertySheetProvider::AddExtensionPages method collects the pages from the extension snap-ins.
+helpviewer_keywords: ["AddExtensionPages","AddExtensionPages method [MMC]","AddExtensionPages method [MMC]","IPropertySheetProvider interface","IPropertySheetProvider interface [MMC]","AddExtensionPages method","IPropertySheetProvider.AddExtensionPages","IPropertySheetProvider::AddExtensionPages","_slate_ipropertysheetprovider_addextensionpages","mmc.ipropertysheetprovider_addextensionpages","mmc/IPropertySheetProvider::AddExtensionPages"]
 old-location: mmc\ipropertysheetprovider_addextensionpages.htm
 tech.root: mmc
 ms.assetid: 3a2ce7a6-65d6-4e39-b8b8-8d9b59b32d11

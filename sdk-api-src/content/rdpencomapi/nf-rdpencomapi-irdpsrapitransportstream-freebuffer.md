@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.FreeBuffer
 title: IRDPSRAPITransportStream::FreeBuffer (rdpencomapi.h)
-description: Called by the Remote Desktop Protocol (RDP) stack to return a stream buffer to the stream.helpviewer_keywords: ["FreeBuffer","FreeBuffer method [RDP]","FreeBuffer method [RDP]","IRDPSRAPITransportStream interface","IRDPSRAPITransportStream interface [RDP]","FreeBuffer method","IRDPSRAPITransportStream.FreeBuffer","IRDPSRAPITransportStream::FreeBuffer","rdp.irdpsrapitransportstream_freebuffer","rdpencomapi/IRDPSRAPITransportStream::FreeBuffer"]
+description: Called by the Remote Desktop Protocol (RDP) stack to return a stream buffer to the stream.
+helpviewer_keywords: ["FreeBuffer","FreeBuffer method [RDP]","FreeBuffer method [RDP]","IRDPSRAPITransportStream interface","IRDPSRAPITransportStream interface [RDP]","FreeBuffer method","IRDPSRAPITransportStream.FreeBuffer","IRDPSRAPITransportStream::FreeBuffer","rdp.irdpsrapitransportstream_freebuffer","rdpencomapi/IRDPSRAPITransportStream::FreeBuffer"]
 old-location: rdp\irdpsrapitransportstream_freebuffer.htm
 tech.root: rdp
 ms.assetid: db2f0bc2-cddf-44bd-9899-192e5eb014bb

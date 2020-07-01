@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCore.put_URL
 title: IWMPCore::put_URL (wmp.h)
-description: The put_URL method specifies the URL of the media item to play.helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","put_URL method","IWMPCore.put_URL","IWMPCore::put_URL","IWMPCoreput_URL","put_URL","put_URL method [Windows Media Player]","put_URL method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_put_url","wmp/IWMPCore::put_URL"]
+description: The put_URL method specifies the URL of the media item to play.
+helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","put_URL method","IWMPCore.put_URL","IWMPCore::put_URL","IWMPCoreput_URL","put_URL","put_URL method [Windows Media Player]","put_URL method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_put_url","wmp/IWMPCore::put_URL"]
 old-location: wmp\iwmpcore_put_url.htm
 tech.root: WMP
 ms.assetid: 0a8625b9-19a1-41dc-9bb8-afca4bfebf5a

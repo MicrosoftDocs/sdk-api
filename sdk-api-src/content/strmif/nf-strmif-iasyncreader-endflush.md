@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAsyncReader.EndFlush
 title: IAsyncReader::EndFlush (strmif.h)
-description: The EndFlush method ends a flush operation.helpviewer_keywords: ["EndFlush","EndFlush method [DirectShow]","EndFlush method [DirectShow]","IAsyncReader interface","IAsyncReader interface [DirectShow]","EndFlush method","IAsyncReader.EndFlush","IAsyncReader::EndFlush","IAsyncReaderEndFlush","dshow.iasyncreader_endflush","strmif/IAsyncReader::EndFlush"]
+description: The EndFlush method ends a flush operation.
+helpviewer_keywords: ["EndFlush","EndFlush method [DirectShow]","EndFlush method [DirectShow]","IAsyncReader interface","IAsyncReader interface [DirectShow]","EndFlush method","IAsyncReader.EndFlush","IAsyncReader::EndFlush","IAsyncReaderEndFlush","dshow.iasyncreader_endflush","strmif/IAsyncReader::EndFlush"]
 old-location: dshow\iasyncreader_endflush.htm
 tech.root: DirectShow
 ms.assetid: 38a7fd8a-c027-49fd-8f52-49ddf072fe02

@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IMonthlyDOWTrigger.get_WeeksOfMonth
 title: IMonthlyDOWTrigger::get_WeeksOfMonth (taskschd.h)
-description: Gets or sets the weeks of the month during which the task runs.helpviewer_keywords: ["IMonthlyDOWTrigger interface [Task Scheduler]","WeeksOfMonth property","IMonthlyDOWTrigger.WeeksOfMonth","IMonthlyDOWTrigger.get_WeeksOfMonth","IMonthlyDOWTrigger::WeeksOfMonth","IMonthlyDOWTrigger::get_WeeksOfMonth","IMonthlyDOWTrigger::put_WeeksOfMonth","WeeksOfMonth property [Task Scheduler]","WeeksOfMonth property [Task Scheduler]","IMonthlyDOWTrigger interface","get_WeeksOfMonth","taskschd.imonthlydowtrigger_weeksofmonth","taskschd/IMonthlyDOWTrigger::WeeksOfMonth","taskschd/IMonthlyDOWTrigger::get_WeeksOfMonth","taskschd/IMonthlyDOWTrigger::put_WeeksOfMonth"]
+description: Gets or sets the weeks of the month during which the task runs.
+helpviewer_keywords: ["IMonthlyDOWTrigger interface [Task Scheduler]","WeeksOfMonth property","IMonthlyDOWTrigger.WeeksOfMonth","IMonthlyDOWTrigger.get_WeeksOfMonth","IMonthlyDOWTrigger::WeeksOfMonth","IMonthlyDOWTrigger::get_WeeksOfMonth","IMonthlyDOWTrigger::put_WeeksOfMonth","WeeksOfMonth property [Task Scheduler]","WeeksOfMonth property [Task Scheduler]","IMonthlyDOWTrigger interface","get_WeeksOfMonth","taskschd.imonthlydowtrigger_weeksofmonth","taskschd/IMonthlyDOWTrigger::WeeksOfMonth","taskschd/IMonthlyDOWTrigger::get_WeeksOfMonth","taskschd/IMonthlyDOWTrigger::put_WeeksOfMonth"]
 old-location: taskschd\imonthlydowtrigger_weeksofmonth.htm
 tech.root: taskschd
 ms.assetid: 55bbf8d6-6ff6-46a3-82e2-b5986ee3927e

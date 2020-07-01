@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetRoamingText
 title: IMbnRegistration::GetRoamingText (mbnapi.h)
-description: Gets the roaming text describing the roaming provider.helpviewer_keywords: ["GetRoamingText","GetRoamingText method [Microsoft Broadband Networks]","GetRoamingText method [Microsoft Broadband Networks]","IMbnRegistration interface","IMbnRegistration interface [Microsoft Broadband Networks]","GetRoamingText method","IMbnRegistration.GetRoamingText","IMbnRegistration::GetRoamingText","mbn.imbnregistration_getroamingtext","mbnapi/IMbnRegistration::GetRoamingText"]
+description: Gets the roaming text describing the roaming provider.
+helpviewer_keywords: ["GetRoamingText","GetRoamingText method [Microsoft Broadband Networks]","GetRoamingText method [Microsoft Broadband Networks]","IMbnRegistration interface","IMbnRegistration interface [Microsoft Broadband Networks]","GetRoamingText method","IMbnRegistration.GetRoamingText","IMbnRegistration::GetRoamingText","mbn.imbnregistration_getroamingtext","mbnapi/IMbnRegistration::GetRoamingText"]
 old-location: mbn\imbnregistration_getroamingtext.htm
 tech.root: mbn
 ms.assetid: a2911387-7497-43c5-bc1c-db093f31186c

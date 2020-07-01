@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IDVEnc
 title: IDVEnc (strmif.h)
-description: The IDVEnc interface sets and retrieves properties on the DV Video Encoder filter.helpviewer_keywords: ["IDVEnc","IDVEnc interface [DirectShow]","IDVEnc interface [DirectShow]","described","IDVEncInterface","dshow.idvenc","strmif/IDVEnc"]
+description: The IDVEnc interface sets and retrieves properties on the DV Video Encoder filter.
+helpviewer_keywords: ["IDVEnc","IDVEnc interface [DirectShow]","IDVEnc interface [DirectShow]","described","IDVEncInterface","dshow.idvenc","strmif/IDVEnc"]
 old-location: dshow\idvenc.htm
 tech.root: DirectShow
 ms.assetid: f193b76f-ca6a-44f5-b097-1570c4527ab4

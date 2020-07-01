@@ -1,7 +1,8 @@
 ---
 UID: NF:windns.DnsStopMulticastQuery
 title: DnsStopMulticastQuery function
-description: Used to stop a running [DnsStartMulticastQuery](nf-windns-dnsstartmulticastquery.md) operation.helpviewer_keywords: ["DnsStopMulticastQuery"]
+description: Used to stop a running [DnsStartMulticastQuery](nf-windns-dnsstartmulticastquery.md) operation.
+helpviewer_keywords: ["DnsStopMulticastQuery"]
 ms.date: 02/14/2019
 ms.keywords: DnsStopMulticastQuery
 f1_keywords:

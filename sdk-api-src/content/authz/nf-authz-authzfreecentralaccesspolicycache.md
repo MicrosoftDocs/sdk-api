@@ -1,7 +1,8 @@
 ---
 UID: NF:authz.AuthzFreeCentralAccessPolicyCache
 title: AuthzFreeCentralAccessPolicyCache function (authz.h)
-description: Decreases the CAP cache reference count by one so that the CAP cache can be deallocated.helpviewer_keywords: ["AuthzFreeCentralAccessPolicyCache","AuthzFreeCentralAccessPolicyCache function [Security]","authz/AuthzFreeCentralAccessPolicyCache","security.authzfreecentralaccesspolicycache"]
+description: Decreases the CAP cache reference count by one so that the CAP cache can be deallocated.
+helpviewer_keywords: ["AuthzFreeCentralAccessPolicyCache","AuthzFreeCentralAccessPolicyCache function [Security]","authz/AuthzFreeCentralAccessPolicyCache","security.authzfreecentralaccesspolicycache"]
 old-location: security\authzfreecentralaccesspolicycache.htm
 tech.root: SecAuthZ
 ms.assetid: 0F972A95-3CD7-4C86-99DE-5B3D50CE9A34

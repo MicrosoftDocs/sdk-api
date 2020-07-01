@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.CreateContent
 title: IDirectManipulationManager::CreateContent (directmanipulation.h)
-description: The factory method that is used to create an instance of secondary content (such as a panning indicator) inside a viewport.helpviewer_keywords: ["CreateContent","CreateContent method [Direct Manipulation]","CreateContent method [Direct Manipulation]","IDirectManipulationManager interface","IDirectManipulationManager interface [Direct Manipulation]","CreateContent method","IDirectManipulationManager.CreateContent","IDirectManipulationManager::CreateContent","directmanipulation.idirectmanipulationmanager_createcontent","directmanipulation/IDirectManipulationManager::CreateContent"]
+description: The factory method that is used to create an instance of secondary content (such as a panning indicator) inside a viewport.
+helpviewer_keywords: ["CreateContent","CreateContent method [Direct Manipulation]","CreateContent method [Direct Manipulation]","IDirectManipulationManager interface","IDirectManipulationManager interface [Direct Manipulation]","CreateContent method","IDirectManipulationManager.CreateContent","IDirectManipulationManager::CreateContent","directmanipulation.idirectmanipulationmanager_createcontent","directmanipulation/IDirectManipulationManager::CreateContent"]
 old-location: directmanipulation\idirectmanipulationmanager_createcontent.htm
 tech.root: directmanipulation
 ms.assetid: f8a2fbb2-f662-4eb7-88fb-64286205f19e

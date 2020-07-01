@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.IsAppThemed
 title: IsAppThemed function (uxtheme.h)
-description: Reports whether the current application's user interface displays using visual styles.helpviewer_keywords: ["IsAppThemed","IsAppThemed function [Windows Controls]","controls.IsAppThemed","controls.inet_IsAppThemed","inet_IsAppThemed","inet_IsAppThemed_cpp","uxtheme/IsAppThemed"]
+description: Reports whether the current application's user interface displays using visual styles.
+helpviewer_keywords: ["IsAppThemed","IsAppThemed function [Windows Controls]","controls.IsAppThemed","controls.inet_IsAppThemed","inet_IsAppThemed","inet_IsAppThemed_cpp","uxtheme/IsAppThemed"]
 old-location: controls\IsAppThemed.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isappthemed.htm

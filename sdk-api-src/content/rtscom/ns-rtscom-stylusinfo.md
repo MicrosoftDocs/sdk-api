@@ -1,7 +1,8 @@
 ---
 UID: NS:rtscom.StylusInfo
 title: StylusInfo (rtscom.h)
-description: Provides information about the stylus.helpviewer_keywords: ["StylusInfo","StylusInfo structure [Tablet PC]","d2642082-e18c-4f91-b08c-e25aa388a2a3","rtscom/StylusInfo","tablet.stylusinfo"]
+description: Provides information about the stylus.
+helpviewer_keywords: ["StylusInfo","StylusInfo structure [Tablet PC]","d2642082-e18c-4f91-b08c-e25aa388a2a3","rtscom/StylusInfo","tablet.stylusinfo"]
 old-location: tablet\stylusinfo.htm
 tech.root: tablet
 ms.assetid: d2642082-e18c-4f91-b08c-e25aa388a2a3

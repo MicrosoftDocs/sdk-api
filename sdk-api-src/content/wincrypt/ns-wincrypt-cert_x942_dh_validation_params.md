@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_X942_DH_VALIDATION_PARAMS
 title: CERT_X942_DH_VALIDATION_PARAMS (wincrypt.h)
-description: Optionally pointed to by a member of the CERT_X942_DH_PARAMETERS structure and contains additional seed information.helpviewer_keywords: ["*PCERT_X942_DH_VALIDATION_PARAMS","CERT_942_DH_VALIDATION_PARAMS","CERT_942_DH_VALIDATION_PARAMS structure [Security]","CERT_X942_DH_VALIDATION_PARAMS","CERT_X942_DH_VALIDATION_PARAMS structure [Security]","PCERT942_DH_VALIDATION_PARAMS","PCERT942_DH_VALIDATION_PARAMS structure pointer [Security]","_crypto2_cert_x942_dh_validation_params","security.cert_x942_dh_validation_params","wincrypt/CERT_X942_DH_VALIDATION_PARAMS","wincrypt/PCERT942_DH_VALIDATION_PARAMS"]
+description: Optionally pointed to by a member of the CERT_X942_DH_PARAMETERS structure and contains additional seed information.
+helpviewer_keywords: ["*PCERT_X942_DH_VALIDATION_PARAMS","CERT_942_DH_VALIDATION_PARAMS","CERT_942_DH_VALIDATION_PARAMS structure [Security]","CERT_X942_DH_VALIDATION_PARAMS","CERT_X942_DH_VALIDATION_PARAMS structure [Security]","PCERT942_DH_VALIDATION_PARAMS","PCERT942_DH_VALIDATION_PARAMS structure pointer [Security]","_crypto2_cert_x942_dh_validation_params","security.cert_x942_dh_validation_params","wincrypt/CERT_X942_DH_VALIDATION_PARAMS","wincrypt/PCERT942_DH_VALIDATION_PARAMS"]
 old-location: security\cert_x942_dh_validation_params.htm
 tech.root: SecCrypto
 ms.assetid: 26c367d5-c338-4db3-9973-ce21dcddf7ca

@@ -1,7 +1,8 @@
 ---
 UID: NS:dxvahd._DXVAHD_CONTENT_DESC
 title: DXVAHD_CONTENT_DESC (dxvahd.h)
-description: Describes a video stream for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.helpviewer_keywords: ["DXVAHD_CONTENT_DESC","DXVAHD_CONTENT_DESC structure [Media Foundation]","dxvahd/DXVAHD_CONTENT_DESC","mf.dxvahd_content_desc"]
+description: Describes a video stream for a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor.
+helpviewer_keywords: ["DXVAHD_CONTENT_DESC","DXVAHD_CONTENT_DESC structure [Media Foundation]","dxvahd/DXVAHD_CONTENT_DESC","mf.dxvahd_content_desc"]
 old-location: mf\dxvahd_content_desc.htm
 tech.root: medfound
 ms.assetid: 9319a98d-8f43-4f29-8787-18dec53dff88

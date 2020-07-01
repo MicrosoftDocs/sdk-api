@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.InitializeFlatSB
 title: InitializeFlatSB function (commctrl.h)
-description: Initializes flat scroll bars for a particular window.helpviewer_keywords: ["InitializeFlatSB","InitializeFlatSB function [Windows Controls]","_win32_InitializeFlatSB","_win32_InitializeFlatSB_cpp","commctrl/InitializeFlatSB","controls.InitializeFlatSB","controls._win32_InitializeFlatSB"]
+description: Initializes flat scroll bars for a particular window.
+helpviewer_keywords: ["InitializeFlatSB","InitializeFlatSB function [Windows Controls]","_win32_InitializeFlatSB","_win32_InitializeFlatSB_cpp","commctrl/InitializeFlatSB","controls.InitializeFlatSB","controls._win32_InitializeFlatSB"]
 old-location: controls\InitializeFlatSB.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\initializeflatsb.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:powersetting.EFFECTIVE_POWER_MODE_CALLBACK
 title: EFFECTIVE_POWER_MODE_CALLBACK function (powersetting.h)
-description: Function class for effective power mode callback.helpviewer_keywords: ["EFFECTIVE_POWER_MODE_CALLBACK","EFFECTIVE_POWER_MODE_CALLBACK function","base.effective_power_mode_callback","powersetting/EFFECTIVE_POWER_MODE_CALLBACK"]
+description: Function class for effective power mode callback.
+helpviewer_keywords: ["EFFECTIVE_POWER_MODE_CALLBACK","EFFECTIVE_POWER_MODE_CALLBACK function","base.effective_power_mode_callback","powersetting/EFFECTIVE_POWER_MODE_CALLBACK"]
 old-location: base\effective_power_mode_callback.htm
 tech.root: power
 ms.assetid: 47DD6801-5120-44D3-9EE4-58CCDB4B933A

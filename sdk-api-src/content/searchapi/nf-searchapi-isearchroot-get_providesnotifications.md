@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_ProvidesNotifications
 title: ISearchRoot::get_ProvidesNotifications (searchapi.h)
-description: Gets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.helpviewer_keywords: ["ISearchRoot interface [search]","get_ProvidesNotifications method","ISearchRoot.get_ProvidesNotifications","ISearchRoot::get_ProvidesNotifications","_search_ISearchRoot_get_ProvidesNotifications","get_ProvidesNotifications","get_ProvidesNotifications method [search]","get_ProvidesNotifications method [search]","ISearchRoot interface","search._search_ISearchRoot_get_ProvidesNotifications","searchapi/ISearchRoot::get_ProvidesNotifications"]
+description: Gets a value that indicates whether the search engine is notified (by protocol handlers or other applications) about changes to the URLs under the search root.
+helpviewer_keywords: ["ISearchRoot interface [search]","get_ProvidesNotifications method","ISearchRoot.get_ProvidesNotifications","ISearchRoot::get_ProvidesNotifications","_search_ISearchRoot_get_ProvidesNotifications","get_ProvidesNotifications","get_ProvidesNotifications method [search]","get_ProvidesNotifications method [search]","ISearchRoot interface","search._search_ISearchRoot_get_ProvidesNotifications","searchapi/ISearchRoot::get_ProvidesNotifications"]
 old-location: search\_search_ISearchRoot_get_ProvidesNotifications.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_providesnotifications.htm
@@ -77,12 +78,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
 The value <b>ISearchRoot::get_ProvidesNotifications</b> returns is not protocol specific.
 
-The CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line 
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line 
 options for Crawl Scope Manager (CSM) indexing operations.
-
-
-

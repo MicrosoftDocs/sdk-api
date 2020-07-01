@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListAddMediaDiskW
 title: MsiSourceListAddMediaDiskW function (msi.h)
-description: The MsiSourceListAddMediaDisk function adds or updates a disk of the media source of a registered product or patch.helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListAddMediaDisk","MsiSourceListAddMediaDisk function","MsiSourceListAddMediaDiskA","MsiSourceListAddMediaDiskW","NULL","User SID","msi/MsiSourceListAddMediaDisk","msi/MsiSourceListAddMediaDiskA","msi/MsiSourceListAddMediaDiskW","setup.msisourcelistaddmediadisk","setup.msisourcelistaddmediadisks"]
+description: The MsiSourceListAddMediaDisk function adds or updates a disk of the media source of a registered product or patch.
+helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListAddMediaDisk","MsiSourceListAddMediaDisk function","MsiSourceListAddMediaDiskA","MsiSourceListAddMediaDiskW","NULL","User SID","msi/MsiSourceListAddMediaDisk","msi/MsiSourceListAddMediaDiskA","msi/MsiSourceListAddMediaDiskW","setup.msisourcelistaddmediadisk","setup.msisourcelistaddmediadisks"]
 old-location: setup\msisourcelistaddmediadisk.htm
 tech.root: Msi
 ms.assetid: 70c58c39-1b0b-44ec-ba0c-6755015c28d7
@@ -315,6 +316,10 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListAddMediaDisk as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

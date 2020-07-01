@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMDRMReader.CancelMonitorLicenseAcquisition
 title: IWMDRMReader::CancelMonitorLicenseAcquisition (wmsdkidl.h)
-description: The CancelMonitorLicenseAcquisition method cancels a current call to the MonitorLicenseAcquisition method.helpviewer_keywords: ["CancelMonitorLicenseAcquisition","CancelMonitorLicenseAcquisition method [windows Media Format]","CancelMonitorLicenseAcquisition method [windows Media Format]","IWMDRMReader interface","IWMDRMReader interface [windows Media Format]","CancelMonitorLicenseAcquisition method","IWMDRMReader.CancelMonitorLicenseAcquisition","IWMDRMReader::CancelMonitorLicenseAcquisition","IWMDRMReaderCancelMonitorLicenseAcquisition","wmformat.iwmdrmreader_cancelmonitorlicenseacquisition","wmsdkidl/IWMDRMReader::CancelMonitorLicenseAcquisition"]
+description: The CancelMonitorLicenseAcquisition method cancels a current call to the MonitorLicenseAcquisition method.
+helpviewer_keywords: ["CancelMonitorLicenseAcquisition","CancelMonitorLicenseAcquisition method [windows Media Format]","CancelMonitorLicenseAcquisition method [windows Media Format]","IWMDRMReader interface","IWMDRMReader interface [windows Media Format]","CancelMonitorLicenseAcquisition method","IWMDRMReader.CancelMonitorLicenseAcquisition","IWMDRMReader::CancelMonitorLicenseAcquisition","IWMDRMReaderCancelMonitorLicenseAcquisition","wmformat.iwmdrmreader_cancelmonitorlicenseacquisition","wmsdkidl/IWMDRMReader::CancelMonitorLicenseAcquisition"]
 old-location: wmformat\iwmdrmreader_cancelmonitorlicenseacquisition.htm
 tech.root: wmformat
 ms.assetid: 9d33f727-9213-4744-bf65-42b971e3f7da

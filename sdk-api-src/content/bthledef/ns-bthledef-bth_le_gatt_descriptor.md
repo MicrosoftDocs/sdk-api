@@ -1,7 +1,8 @@
 ---
 UID: NS:bthledef._BTH_LE_GATT_DESCRIPTOR
 title: BTH_LE_GATT_DESCRIPTOR (bthledef.h)
-description: The BTH_LE_GATT_DESCRIPTOR structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile descriptor.helpviewer_keywords: ["*PBTH_LE_GATT_DESCRIPTOR","BTH_LE_GATT_DESCRIPTOR","BTH_LE_GATT_DESCRIPTOR structure [Bluetooth Devices]","PBTH_LE_GATT_DESCRIPTOR","PBTH_LE_GATT_DESCRIPTOR structure pointer [Bluetooth Devices]","bltooth.bth_le_gatt_descriptor","bthledef/BTH_LE_GATT_DESCRIPTOR","bthledef/PBTH_LE_GATT_DESCRIPTOR"]
+description: The BTH_LE_GATT_DESCRIPTOR structure describes a Bluetooth Low Energy (LE) generic attribute (GATT) profile descriptor.
+helpviewer_keywords: ["*PBTH_LE_GATT_DESCRIPTOR","BTH_LE_GATT_DESCRIPTOR","BTH_LE_GATT_DESCRIPTOR structure [Bluetooth Devices]","PBTH_LE_GATT_DESCRIPTOR","PBTH_LE_GATT_DESCRIPTOR structure pointer [Bluetooth Devices]","bltooth.bth_le_gatt_descriptor","bthledef/BTH_LE_GATT_DESCRIPTOR","bthledef/PBTH_LE_GATT_DESCRIPTOR"]
 old-location: bltooth\bth_le_gatt_descriptor.htm
 tech.root: bltooth
 ms.assetid: DE738ADA-AE8E-4679-887C-A6194E88386E

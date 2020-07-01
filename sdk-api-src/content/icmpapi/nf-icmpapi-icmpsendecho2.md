@@ -1,7 +1,8 @@
 ---
 UID: NF:icmpapi.IcmpSendEcho2
 title: IcmpSendEcho2 function (icmpapi.h)
-description: The IcmpSendEcho2 function sends an IPv4 ICMP echo request and returns either immediately (if Event or ApcRoutine is non-NULL) or returns after the specified time-out. The ReplyBuffer contains the ICMP echo responses, if any.helpviewer_keywords: ["IcmpSendEcho2","IcmpSendEcho2 function [IP Helper]","_iphlp_icmpsendecho2","icmpapi/IcmpSendEcho2","iphlp.icmpsendecho2"]
+description: The IcmpSendEcho2 function sends an IPv4 ICMP echo request and returns either immediately (if Event or ApcRoutine is non-NULL) or returns after the specified time-out. The ReplyBuffer contains the ICMP echo responses, if any.
+helpviewer_keywords: ["IcmpSendEcho2","IcmpSendEcho2 function [IP Helper]","_iphlp_icmpsendecho2","icmpapi/IcmpSendEcho2","iphlp.icmpsendecho2"]
 old-location: iphlp\icmpsendecho2.htm
 tech.root: IpHlp
 ms.assetid: 1f70b6cc-9085-4eb8-b2cc-3b3d98d0ea46

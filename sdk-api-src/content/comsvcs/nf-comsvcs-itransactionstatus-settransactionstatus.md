@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ITransactionStatus.SetTransactionStatus
 title: ITransactionStatus::SetTransactionStatus (comsvcs.h)
-description: Sets the transaction status to either committed or aborted. Do not use this method. It is used only internally by COM+.helpviewer_keywords: ["ITransactionStatus interface [COM+]","SetTransactionStatus method","ITransactionStatus.SetTransactionStatus","ITransactionStatus::SetTransactionStatus","SetTransactionStatus","SetTransactionStatus method [COM+]","SetTransactionStatus method [COM+]","ITransactionStatus interface","_cos_ITransactionStatus_SetTransactionStatus","comsvcs/ITransactionStatus::SetTransactionStatus","cos.itransactionstatus_settransactionstatus"]
+description: Sets the transaction status to either committed or aborted. Do not use this method. It is used only internally by COM+.
+helpviewer_keywords: ["ITransactionStatus interface [COM+]","SetTransactionStatus method","ITransactionStatus.SetTransactionStatus","ITransactionStatus::SetTransactionStatus","SetTransactionStatus","SetTransactionStatus method [COM+]","SetTransactionStatus method [COM+]","ITransactionStatus interface","_cos_ITransactionStatus_SetTransactionStatus","comsvcs/ITransactionStatus::SetTransactionStatus","cos.itransactionstatus_settransactionstatus"]
 old-location: cos\itransactionstatus_settransactionstatus.htm
 tech.root: cossdk
 ms.assetid: 0e69758a-8dc7-489c-8e78-ba35749beb01

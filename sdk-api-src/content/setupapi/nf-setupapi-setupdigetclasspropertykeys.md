@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetClassPropertyKeys
 title: SetupDiGetClassPropertyKeys function (setupapi.h)
-description: The SetupDiGetClassPropertyKeys function retrieves an array of the device property keys that represent the device properties that are set for a device setup class or a device interface class.helpviewer_keywords: ["SetupDiGetClassPropertyKeys","SetupDiGetClassPropertyKeys function [Device and Driver Installation]","devinst.setupdigetclasspropertykeys","di-rtns_7f87ef8b-8752-4cd4-9aca-811a83c99ccf.xml","setupapi/SetupDiGetClassPropertyKeys"]
+description: The SetupDiGetClassPropertyKeys function retrieves an array of the device property keys that represent the device properties that are set for a device setup class or a device interface class.
+helpviewer_keywords: ["SetupDiGetClassPropertyKeys","SetupDiGetClassPropertyKeys function [Device and Driver Installation]","devinst.setupdigetclasspropertykeys","di-rtns_7f87ef8b-8752-4cd4-9aca-811a83c99ccf.xml","setupapi/SetupDiGetClassPropertyKeys"]
 old-location: devinst\setupdigetclasspropertykeys.htm
 tech.root: devinst
 ms.assetid: 9b595fc5-f517-41f9-b7a8-a7811f658d57

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetParent
 title: SetParent function (winuser.h)
-description: Changes the parent window of the specified child window.helpviewer_keywords: ["SetParent","SetParent function [Windows and Messages]","_win32_SetParent","_win32_setparent_cpp","winmsg.setparent","winui._win32_setparent","winuser/SetParent"]
+description: Changes the parent window of the specified child window.
+helpviewer_keywords: ["SetParent","SetParent function [Windows and Messages]","_win32_SetParent","_win32_setparent_cpp","winmsg.setparent","winui._win32_setparent","winuser/SetParent"]
 old-location: winmsg\setparent.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setparent.htm

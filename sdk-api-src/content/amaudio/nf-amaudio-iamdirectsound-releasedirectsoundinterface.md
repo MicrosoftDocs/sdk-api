@@ -1,7 +1,8 @@
 ---
 UID: NF:amaudio.IAMDirectSound.ReleaseDirectSoundInterface
 title: IAMDirectSound::ReleaseDirectSoundInterface (amaudio.h)
-description: The ReleaseDirectSoundInterface method is not implemented.helpviewer_keywords: ["IAMDirectSound interface [DirectShow]","ReleaseDirectSoundInterface method","IAMDirectSound.ReleaseDirectSoundInterface","IAMDirectSound::ReleaseDirectSoundInterface","IAMDirectSoundReleaseDirectSoundInterface","ReleaseDirectSoundInterface","ReleaseDirectSoundInterface method [DirectShow]","ReleaseDirectSoundInterface method [DirectShow]","IAMDirectSound interface","amaudio/IAMDirectSound::ReleaseDirectSoundInterface","dshow.iamdirectsound_releasedirectsoundinterface"]
+description: The ReleaseDirectSoundInterface method is not implemented.
+helpviewer_keywords: ["IAMDirectSound interface [DirectShow]","ReleaseDirectSoundInterface method","IAMDirectSound.ReleaseDirectSoundInterface","IAMDirectSound::ReleaseDirectSoundInterface","IAMDirectSoundReleaseDirectSoundInterface","ReleaseDirectSoundInterface","ReleaseDirectSoundInterface method [DirectShow]","ReleaseDirectSoundInterface method [DirectShow]","IAMDirectSound interface","amaudio/IAMDirectSound::ReleaseDirectSoundInterface","dshow.iamdirectsound_releasedirectsoundinterface"]
 old-location: dshow\iamdirectsound_releasedirectsoundinterface.htm
 tech.root: DirectShow
 ms.assetid: fa02546b-7306-46ef-82a3-c6c1d89423e5

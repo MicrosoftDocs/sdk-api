@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.put_MaxMinorChannel
 title: IATSCTuningSpace::put_MaxMinorChannel (tuner.h)
-description: The put_MaxMinorChannel method gets the highest minor channel number for this tuning space.helpviewer_keywords: ["IATSCTuningSpace interface [Microsoft TV Technologies]","put_MaxMinorChannel method","IATSCTuningSpace.put_MaxMinorChannel","IATSCTuningSpace::put_MaxMinorChannel","IATSCTuningSpaceput_MaxMinorChannel","mstv.iatsctuningspace_put_maxminorchannel","put_MaxMinorChannel","put_MaxMinorChannel method [Microsoft TV Technologies]","put_MaxMinorChannel method [Microsoft TV Technologies]","IATSCTuningSpace interface","tuner/IATSCTuningSpace::put_MaxMinorChannel"]
+description: The put_MaxMinorChannel method gets the highest minor channel number for this tuning space.
+helpviewer_keywords: ["IATSCTuningSpace interface [Microsoft TV Technologies]","put_MaxMinorChannel method","IATSCTuningSpace.put_MaxMinorChannel","IATSCTuningSpace::put_MaxMinorChannel","IATSCTuningSpaceput_MaxMinorChannel","mstv.iatsctuningspace_put_maxminorchannel","put_MaxMinorChannel","put_MaxMinorChannel method [Microsoft TV Technologies]","put_MaxMinorChannel method [Microsoft TV Technologies]","IATSCTuningSpace interface","tuner/IATSCTuningSpace::put_MaxMinorChannel"]
 old-location: mstv\iatsctuningspace_put_maxminorchannel.htm
 tech.root: mstv
 ms.assetid: e90b78da-abd5-40bc-8d88-8a257acabe23

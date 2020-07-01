@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetDirectCallerSID
 title: ISecurityProperty::GetDirectCallerSID (comsvcs.h)
-description: Retrieves the security identifier of the external process that called the currently executing method.helpviewer_keywords: ["GetDirectCallerSID","GetDirectCallerSID method [COM+]","GetDirectCallerSID method [COM+]","ISecurityProperty interface","ISecurityProperty interface [COM+]","GetDirectCallerSID method","ISecurityProperty.GetDirectCallerSID","ISecurityProperty::GetDirectCallerSID","_cos_ISecurityProperty_GetDirectCallerSID","comsvcs/ISecurityProperty::GetDirectCallerSID","cos.isecurityproperty_getdirectcallersid"]
+description: Retrieves the security identifier of the external process that called the currently executing method.
+helpviewer_keywords: ["GetDirectCallerSID","GetDirectCallerSID method [COM+]","GetDirectCallerSID method [COM+]","ISecurityProperty interface","ISecurityProperty interface [COM+]","GetDirectCallerSID method","ISecurityProperty.GetDirectCallerSID","ISecurityProperty::GetDirectCallerSID","_cos_ISecurityProperty_GetDirectCallerSID","comsvcs/ISecurityProperty::GetDirectCallerSID","cos.isecurityproperty_getdirectcallersid"]
 old-location: cos\isecurityproperty_getdirectcallersid.htm
 tech.root: cossdk
 ms.assetid: e322df62-25a4-40a3-9b80-da468a265162

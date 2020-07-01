@@ -1,7 +1,8 @@
 ---
 UID: NE:wmsdkidl.WM_AETYPE
 title: WM_AETYPE (wmsdkidl.h)
-description: The WM_AETYPE enumeration specifies the permissions for an entry in an IP address access list.helpviewer_keywords: ["WM_AETYPE","WM_AETYPE enumeration [windows Media Format]","WM_AETYPE_EXCLUDE","WM_AETYPE_INCLUDE","wmformat.wm_aetype","wmsdkidl/WM_AETYPE","wmsdkidl/WM_AETYPE_EXCLUDE","wmsdkidl/WM_AETYPE_INCLUDE"]
+description: The WM_AETYPE enumeration specifies the permissions for an entry in an IP address access list.
+helpviewer_keywords: ["WM_AETYPE","WM_AETYPE enumeration [windows Media Format]","WM_AETYPE_EXCLUDE","WM_AETYPE_INCLUDE","wmformat.wm_aetype","wmsdkidl/WM_AETYPE","wmsdkidl/WM_AETYPE_EXCLUDE","wmsdkidl/WM_AETYPE_INCLUDE"]
 old-location: wmformat\wm_aetype.htm
 tech.root: wmformat
 ms.assetid: 514e6745-c521-41bd-81c2-b6c24cfb0192

@@ -1,7 +1,8 @@
 ---
 UID: NF:locationapi.ILatLongReport.GetLatitude
 title: ILatLongReport::GetLatitude (locationapi.h)
-description: Retrieves the latitude, in degrees.helpviewer_keywords: ["GetLatitude","GetLatitude method [WinLocation]","GetLatitude method [WinLocation]","ILatLongReport interface","ILatLongReport interface [WinLocation]","GetLatitude method","ILatLongReport.GetLatitude","ILatLongReport::GetLatitude","WinLocation_COM_Ref.ilatlongreport_getlatitude","locationapi/ILatLongReport::GetLatitude"]
+description: Retrieves the latitude, in degrees.
+helpviewer_keywords: ["GetLatitude","GetLatitude method [WinLocation]","GetLatitude method [WinLocation]","ILatLongReport interface","ILatLongReport interface [WinLocation]","GetLatitude method","ILatLongReport.GetLatitude","ILatLongReport::GetLatitude","WinLocation_COM_Ref.ilatlongreport_getlatitude","locationapi/ILatLongReport::GetLatitude"]
 old-location: winlocation_com_ref\ilatlongreport_getlatitude.htm
 tech.root: locationapi
 ms.assetid: 81392683-61bc-4b17-8f3c-172b66bd543b

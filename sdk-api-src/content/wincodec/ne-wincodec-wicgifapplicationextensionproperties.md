@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICGifApplicationExtensionProperties
 title: WICGifApplicationExtensionProperties (wincodec.h)
-description: Specifies the application extension metadata properties for a Graphics Interchange Format (GIF) image.helpviewer_keywords: ["WICGifApplicationExtensionApplication","WICGifApplicationExtensionData","WICGifApplicationExtensionProperties","WICGifApplicationExtensionProperties enumeration [Windows Imaging Component]","_wic_codec_wicgifapplicationextensionproperties","wic._wic_codec_wicgifapplicationextensionproperties","wincodec/WICGifApplicationExtensionApplication","wincodec/WICGifApplicationExtensionData","wincodec/WICGifApplicationExtensionProperties"]
+description: Specifies the application extension metadata properties for a Graphics Interchange Format (GIF) image.
+helpviewer_keywords: ["WICGifApplicationExtensionApplication","WICGifApplicationExtensionData","WICGifApplicationExtensionProperties","WICGifApplicationExtensionProperties enumeration [Windows Imaging Component]","_wic_codec_wicgifapplicationextensionproperties","wic._wic_codec_wicgifapplicationextensionproperties","wincodec/WICGifApplicationExtensionApplication","wincodec/WICGifApplicationExtensionData","wincodec/WICGifApplicationExtensionProperties"]
 old-location: wic\_wic_codec_wicgifapplicationextensionproperties.htm
 tech.root: wic
 ms.assetid: e60da197-2510-4a13-91e3-896d6027ee57

@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetConnector
 title: IDeviceTopology::GetConnector (devicetopology.h)
-description: The GetConnector method gets the connector that is specified by a connector number.helpviewer_keywords: ["GetConnector","GetConnector method [Core Audio]","GetConnector method [Core Audio]","IDeviceTopology interface","IDeviceTopology interface [Core Audio]","GetConnector method","IDeviceTopology.GetConnector","IDeviceTopology::GetConnector","IDeviceTopologyGetConnector","coreaudio.idevicetopology_getconnector","devicetopology/IDeviceTopology::GetConnector"]
+description: The GetConnector method gets the connector that is specified by a connector number.
+helpviewer_keywords: ["GetConnector","GetConnector method [Core Audio]","GetConnector method [Core Audio]","IDeviceTopology interface","IDeviceTopology interface [Core Audio]","GetConnector method","IDeviceTopology.GetConnector","IDeviceTopology::GetConnector","IDeviceTopologyGetConnector","coreaudio.idevicetopology_getconnector","devicetopology/IDeviceTopology::GetConnector"]
 old-location: coreaudio\idevicetopology_getconnector.htm
 tech.root: CoreAudio
 ms.assetid: a2da5d1e-ecd3-411e-8428-f529569cc11d

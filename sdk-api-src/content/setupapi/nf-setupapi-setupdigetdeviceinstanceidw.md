@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInstanceIdW
 title: SetupDiGetDeviceInstanceIdW function (setupapi.h)
-description: The SetupDiGetDeviceInstanceId function retrieves the device instance ID that is associated with a device information element.helpviewer_keywords: ["SetupDiGetDeviceInstanceId","SetupDiGetDeviceInstanceId function [Device and Driver Installation]","SetupDiGetDeviceInstanceIdA","SetupDiGetDeviceInstanceIdW","devinst.setupdigetdeviceinstanceid","di-rtns_f7f2bb12-37a0-489f-a1e7-0ca67600876c.xml","setupapi/SetupDiGetDeviceInstanceId"]
+description: The SetupDiGetDeviceInstanceId function retrieves the device instance ID that is associated with a device information element.
+helpviewer_keywords: ["SetupDiGetDeviceInstanceId","SetupDiGetDeviceInstanceId function [Device and Driver Installation]","SetupDiGetDeviceInstanceIdA","SetupDiGetDeviceInstanceIdW","devinst.setupdigetdeviceinstanceid","di-rtns_f7f2bb12-37a0-489f-a1e7-0ca67600876c.xml","setupapi/SetupDiGetDeviceInstanceId"]
 old-location: devinst\setupdigetdeviceinstanceid.htm
 tech.root: devinst
 ms.assetid: 43ad298d-2ff4-445a-aa23-1319d5f990c8
@@ -117,4 +118,9 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetDeviceInstanceId as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

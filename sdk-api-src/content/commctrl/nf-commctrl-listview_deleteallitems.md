@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_DeleteAllItems
 title: ListView_DeleteAllItems macro (commctrl.h)
-description: Removes all items from a list-view control. You can use this macro or send the LVM_DELETEALLITEMS message explicitly.helpviewer_keywords: ["ListView_DeleteAllItems","ListView_DeleteAllItems macro [Windows Controls]","_win32_ListView_DeleteAllItems","_win32_ListView_DeleteAllItems_cpp","commctrl/ListView_DeleteAllItems","controls.ListView_DeleteAllItems","controls._win32_ListView_DeleteAllItems"]
+description: Removes all items from a list-view control. You can use this macro or send the LVM_DELETEALLITEMS message explicitly.
+helpviewer_keywords: ["ListView_DeleteAllItems","ListView_DeleteAllItems macro [Windows Controls]","_win32_ListView_DeleteAllItems","_win32_ListView_DeleteAllItems_cpp","commctrl/ListView_DeleteAllItems","controls.ListView_DeleteAllItems","controls._win32_ListView_DeleteAllItems"]
 old-location: controls\ListView_DeleteAllItems.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_deleteallitems.htm

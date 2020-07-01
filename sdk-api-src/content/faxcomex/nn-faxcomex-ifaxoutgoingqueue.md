@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingQueue
 title: IFaxOutgoingQueue (faxcomex.h)
-description: The IFaxOutgoingQueue interface defines a FaxOutgoingQueue configuration object used by a fax client application to set and retrieve the configuration parameters on the outbound fax queue on a fax server.helpviewer_keywords: ["IFaxOutgoingQueue","IFaxOutgoingQueue interface [Fax Service]","IFaxOutgoingQueue interface [Fax Service]","described","_mfax_faxoutgoingqueue_cpp","fax._mfax_faxoutgoingqueue_cpp","faxcomex/IFaxOutgoingQueue"]
+description: The IFaxOutgoingQueue interface defines a FaxOutgoingQueue configuration object used by a fax client application to set and retrieve the configuration parameters on the outbound fax queue on a fax server.
+helpviewer_keywords: ["IFaxOutgoingQueue","IFaxOutgoingQueue interface [Fax Service]","IFaxOutgoingQueue interface [Fax Service]","described","_mfax_faxoutgoingqueue_cpp","fax._mfax_faxoutgoingqueue_cpp","faxcomex/IFaxOutgoingQueue"]
 old-location: fax\_mfax_faxoutgoingqueue_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0dyd_cpp.htm

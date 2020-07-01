@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionCompositeEffect
 title: IDCompositionCompositeEffect (dcomp.h)
-description: The composite effect is used to combine 2 or more images.helpviewer_keywords: ["IDCompositionCompositeEffect","IDCompositionCompositeEffect interface [DirectComposition]","IDCompositionCompositeEffect interface [DirectComposition]","described","dcomp/IDCompositionCompositeEffect","directcomp.idcompositioncompositeeffect"]
+description: The composite effect is used to combine 2 or more images.
+helpviewer_keywords: ["IDCompositionCompositeEffect","IDCompositionCompositeEffect interface [DirectComposition]","IDCompositionCompositeEffect interface [DirectComposition]","described","dcomp/IDCompositionCompositeEffect","directcomp.idcompositioncompositeeffect"]
 old-location: directcomp\idcompositioncompositeeffect.htm
 tech.root: directcomp
 ms.assetid: 72647FCE-F1B0-4A50-927B-23EE38EEEC8B

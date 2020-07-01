@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigTransportDelete
 title: MprConfigTransportDelete function (mprapi.h)
-description: The MprConfigTransportDelete function removes the specified transport from the list of transports present in the specified router configuration.helpviewer_keywords: ["MprConfigTransportDelete","MprConfigTransportDelete function [RAS]","_mpr_mprconfigtransportdelete","mprapi/MprConfigTransportDelete","rras.mprconfigtransportdelete"]
+description: The MprConfigTransportDelete function removes the specified transport from the list of transports present in the specified router configuration.
+helpviewer_keywords: ["MprConfigTransportDelete","MprConfigTransportDelete function [RAS]","_mpr_mprconfigtransportdelete","mprapi/MprConfigTransportDelete","rras.mprconfigtransportdelete"]
 old-location: rras\mprconfigtransportdelete.htm
 tech.root: RRAS
 ms.assetid: e022d0bc-f5ae-4c04-80f7-40ec77e2fa80

@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymEnumProcesses
 title: SymEnumProcesses function (dbghelp.h)
-description: Enumerates each process that has called the SymInitialize function.helpviewer_keywords: ["SymEnumProcesses","SymEnumProcesses function","base.symenumprocesses","dbghelp/SymEnumProcesses"]
+description: Enumerates each process that has called the SymInitialize function.
+helpviewer_keywords: ["SymEnumProcesses","SymEnumProcesses function","base.symenumprocesses","dbghelp/SymEnumProcesses"]
 old-location: base\symenumprocesses.htm
 tech.root: Debug
 ms.assetid: 281b83ff-8375-4edb-8a10-97af5dbdc87b

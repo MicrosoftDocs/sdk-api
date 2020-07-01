@@ -1,7 +1,8 @@
 ---
 UID: NS:wsman._WSMAN_CERTIFICATE_DETAILS
 title: WSMAN_CERTIFICATE_DETAILS (wsman.h)
-description: Stores client information for an inbound request that was sent with a client certificate.helpviewer_keywords: ["WSMAN_CERTIFICATE_DETAILS","WSMAN_CERTIFICATE_DETAILS structure [Windows Remote Management]","winrm.wsman_certificate_details","wsman/WSMAN_CERTIFICATE_DETAILS"]
+description: Stores client information for an inbound request that was sent with a client certificate.
+helpviewer_keywords: ["WSMAN_CERTIFICATE_DETAILS","WSMAN_CERTIFICATE_DETAILS structure [Windows Remote Management]","winrm.wsman_certificate_details","wsman/WSMAN_CERTIFICATE_DETAILS"]
 old-location: winrm\wsman_certificate_details.htm
 tech.root: winrm
 ms.assetid: 82b723fd-c9bb-4ddd-bd2a-4b6d1186846b

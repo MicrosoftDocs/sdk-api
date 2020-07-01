@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.ICInfo
 title: ICInfo function (vfw.h)
-description: The ICInfo function retrieves information about specific installed compressors or enumerates the installed compressors.helpviewer_keywords: ["ICInfo","ICInfo function [Windows Multimedia]","_win32_ICInfo","multimedia.icinfo","vfw/ICInfo"]
+description: The ICInfo function retrieves information about specific installed compressors or enumerates the installed compressors.
+helpviewer_keywords: ["ICInfo","ICInfo function [Windows Multimedia]","_win32_ICInfo","multimedia.icinfo","vfw/ICInfo"]
 old-location: multimedia\icinfo.htm
 tech.root: Multimedia
 ms.assetid: 755ff010-3edc-4e13-9c8f-104a6d1f590a

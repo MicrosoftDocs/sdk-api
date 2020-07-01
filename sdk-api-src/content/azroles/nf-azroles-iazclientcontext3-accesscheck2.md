@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzClientContext3.AccessCheck2
 title: IAzClientContext3::AccessCheck2 (azroles.h)
-description: Returns a value that specifies whether the principal represented by the current client context is allowed to perform the specified operation.helpviewer_keywords: ["AccessCheck2","AccessCheck2 method [Security]","AccessCheck2 method [Security]","IAzClientContext3 interface","IAzClientContext3 interface [Security]","AccessCheck2 method","IAzClientContext3.AccessCheck2","IAzClientContext3::AccessCheck2","azroles/IAzClientContext3::AccessCheck2","security.iazclientcontext3_accesscheck2_method"]
+description: Returns a value that specifies whether the principal represented by the current client context is allowed to perform the specified operation.
+helpviewer_keywords: ["AccessCheck2","AccessCheck2 method [Security]","AccessCheck2 method [Security]","IAzClientContext3 interface","IAzClientContext3 interface [Security]","AccessCheck2 method","IAzClientContext3.AccessCheck2","IAzClientContext3::AccessCheck2","azroles/IAzClientContext3::AccessCheck2","security.iazclientcontext3_accesscheck2_method"]
 old-location: security\iazclientcontext3_accesscheck2_method.htm
 tech.root: SecAuthZ
 ms.assetid: 042d1f51-5eb8-4c32-97f1-bb76546e6624

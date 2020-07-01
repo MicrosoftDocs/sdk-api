@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsdefender.WDStatus
 title: WDStatus function (windowsdefender.h)
-description: Returns the current status of Windows Defender.helpviewer_keywords: ["WDStatus","WDStatus function [Legacy Windows Environment Features]","lwef.defender_wdstatus","shell.defender_wdstatus","shell_defender_WDStatus","windowsdefender/WDStatus"]
+description: Returns the current status of Windows Defender.
+helpviewer_keywords: ["WDStatus","WDStatus function [Legacy Windows Environment Features]","lwef.defender_wdstatus","shell.defender_wdstatus","shell_defender_WDStatus","windowsdefender/WDStatus"]
 old-location: lwef\defender_wdstatus.htm
 tech.root: lwef
 ms.assetid: 885729a7-13a4-401e-ad7b-4f679777531b

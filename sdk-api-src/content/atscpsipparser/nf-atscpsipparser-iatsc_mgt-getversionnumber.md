@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_MGT.GetVersionNumber
 title: IATSC_MGT::GetVersionNumber (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IATSC_MGT interface","IATSC_MGT interface [Microsoft TV Technologies]","GetVersionNumber method","IATSC_MGT.GetVersionNumber","IATSC_MGT::GetVersionNumber","IATSC_MGTGetVersionNumber","atscpsipparser/IATSC_MGT::GetVersionNumber","mstv.iatsc_mgt_getversionnumber"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IATSC_MGT interface","IATSC_MGT interface [Microsoft TV Technologies]","GetVersionNumber method","IATSC_MGT.GetVersionNumber","IATSC_MGT::GetVersionNumber","IATSC_MGTGetVersionNumber","atscpsipparser/IATSC_MGT::GetVersionNumber","mstv.iatsc_mgt_getversionnumber"]
 old-location: mstv\iatsc_mgt_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 5bfc7ca8-543d-4222-9c0a-effbed7d39e8

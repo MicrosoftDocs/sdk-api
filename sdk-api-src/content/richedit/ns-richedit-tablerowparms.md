@@ -49,9 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the attributes of rows in a table. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the Rich Text Format (RTF) Specification. 
-
 
 
 ## -struct-fields

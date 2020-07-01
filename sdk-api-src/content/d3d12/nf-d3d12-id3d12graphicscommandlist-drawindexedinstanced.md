@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.DrawIndexedInstanced
 title: ID3D12GraphicsCommandList::DrawIndexedInstanced (d3d12.h)
-description: Draws indexed, instanced primitives.helpviewer_keywords: ["DrawIndexedInstanced","DrawIndexedInstanced method","DrawIndexedInstanced method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","DrawIndexedInstanced method","ID3D12GraphicsCommandList.DrawIndexedInstanced","ID3D12GraphicsCommandList::DrawIndexedInstanced","d3d12/ID3D12GraphicsCommandList::DrawIndexedInstanced","direct3d12.id3d12graphicscommandlist_drawindexedinstanced"]
+description: Draws indexed, instanced primitives.
+helpviewer_keywords: ["DrawIndexedInstanced","DrawIndexedInstanced method","DrawIndexedInstanced method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","DrawIndexedInstanced method","ID3D12GraphicsCommandList.DrawIndexedInstanced","ID3D12GraphicsCommandList::DrawIndexedInstanced","d3d12/ID3D12GraphicsCommandList::DrawIndexedInstanced","direct3d12.id3d12graphicscommandlist_drawindexedinstanced"]
 old-location: direct3d12\id3d12graphicscommandlist_drawindexedinstanced.htm
 tech.root: direct3d12
 ms.assetid: 16333C88-81B7-44D8-A226-D707C8A9CCF4

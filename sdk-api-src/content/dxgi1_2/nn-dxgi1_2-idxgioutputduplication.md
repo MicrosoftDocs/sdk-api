@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi1_2.IDXGIOutputDuplication
 title: IDXGIOutputDuplication (dxgi1_2.h)
-description: The IDXGIOutputDuplication interface accesses and manipulates the duplicated desktop image.helpviewer_keywords: ["IDXGIOutputDuplication","IDXGIOutputDuplication interface [DXGI]","IDXGIOutputDuplication interface [DXGI]","described","direct3ddxgi.idxgioutputduplication","dxgi1_2/IDXGIOutputDuplication"]
+description: The IDXGIOutputDuplication interface accesses and manipulates the duplicated desktop image.
+helpviewer_keywords: ["IDXGIOutputDuplication","IDXGIOutputDuplication interface [DXGI]","IDXGIOutputDuplication interface [DXGI]","described","direct3ddxgi.idxgioutputduplication","dxgi1_2/IDXGIOutputDuplication"]
 old-location: direct3ddxgi\idxgioutputduplication.htm
 tech.root: direct3ddxgi
 ms.assetid: 02C4EC3D-D97F-4CFC-ABF5-03B44CE6A658

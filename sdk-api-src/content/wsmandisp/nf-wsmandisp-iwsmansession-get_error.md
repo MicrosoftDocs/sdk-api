@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManSession.get_Error
 title: IWSManSession::get_Error (wsmandisp.h)
-description: Gets additional error information in an XML stream for the preceding call to an IWSManSession object method.helpviewer_keywords: ["Error property [Windows Remote Management]","Error property [Windows Remote Management]","IWSManSession interface","IWSManSession interface [Windows Remote Management]","Error property","IWSManSession.Error","IWSManSession.get_Error","IWSManSession::Error","IWSManSession::get_Error","get_Error","winrm.iwsmansession_error","wsmandisp/IWSManSession::Error","wsmandisp/IWSManSession::get_Error"]
+description: Gets additional error information in an XML stream for the preceding call to an IWSManSession object method.
+helpviewer_keywords: ["Error property [Windows Remote Management]","Error property [Windows Remote Management]","IWSManSession interface","IWSManSession interface [Windows Remote Management]","Error property","IWSManSession.Error","IWSManSession.get_Error","IWSManSession::Error","IWSManSession::get_Error","get_Error","winrm.iwsmansession_error","wsmandisp/IWSManSession::Error","wsmandisp/IWSManSession::get_Error"]
 old-location: winrm\iwsmansession_error.htm
 tech.root: winrm
 ms.assetid: 9fa89b5d-60c3-4a0d-9d4b-62a266e884aa

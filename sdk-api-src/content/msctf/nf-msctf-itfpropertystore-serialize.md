@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfPropertyStore.Serialize
 title: ITfPropertyStore::Serialize (msctf.h)
-description: ITfPropertyStore::Serialize methodhelpviewer_keywords: ["ITfPropertyStore interface [Text Services Framework]","Serialize method","ITfPropertyStore.Serialize","ITfPropertyStore::Serialize","Serialize","Serialize method [Text Services Framework]","Serialize method [Text Services Framework]","ITfPropertyStore interface","_tsf_itfpropertystore_serialize_ref","msctf/ITfPropertyStore::Serialize","tsf.itfpropertystore_serialize"]
+description: ITfPropertyStore::Serialize method
+helpviewer_keywords: ["ITfPropertyStore interface [Text Services Framework]","Serialize method","ITfPropertyStore.Serialize","ITfPropertyStore::Serialize","Serialize","Serialize method [Text Services Framework]","Serialize method [Text Services Framework]","ITfPropertyStore interface","_tsf_itfpropertystore_serialize_ref","msctf/ITfPropertyStore::Serialize","tsf.itfpropertystore_serialize"]
 old-location: tsf\itfpropertystore_serialize.htm
 tech.root: TSF
 ms.assetid: b84bce22-684f-4326-9e28-0fc16b818732

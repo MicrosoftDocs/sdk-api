@@ -1,7 +1,8 @@
 ---
 UID: NS:schannel._SecPkgContext_SessionAppData
 title: SecPkgContext_SessionAppData (schannel.h)
-description: Stores application data for a session context.helpviewer_keywords: ["*PSecPkgContext_SessionAppData","SecPkgContext_SessionAppData","SecPkgContext_SessionAppData structure [Security]","schannel/SecPkgContext_SessionAppData","security.secpkgcontext_sessionappdata"]
+description: Stores application data for a session context.
+helpviewer_keywords: ["*PSecPkgContext_SessionAppData","SecPkgContext_SessionAppData","SecPkgContext_SessionAppData structure [Security]","schannel/SecPkgContext_SessionAppData","security.secpkgcontext_sessionappdata"]
 old-location: security\secpkgcontext_sessionappdata.htm
 tech.root: SecAuthN
 ms.assetid: 7bda791a-dd60-4651-bfe8-13333017d6a3

@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetOwnerModuleFromUdpEntry
 title: GetOwnerModuleFromUdpEntry function (iphlpapi.h)
-description: Retrieves data about the module that issued the context bind for a specific IPv4 UDP endpoint in a MIB table row.helpviewer_keywords: ["GetOwnerModuleFromUdpEntry","GetOwnerModuleFromUdpEntry function [IP Helper]","iphlp.getownermodulefromudpentry","iphlpapi/GetOwnerModuleFromUdpEntry"]
+description: Retrieves data about the module that issued the context bind for a specific IPv4 UDP endpoint in a MIB table row.
+helpviewer_keywords: ["GetOwnerModuleFromUdpEntry","GetOwnerModuleFromUdpEntry function [IP Helper]","iphlp.getownermodulefromudpentry","iphlpapi/GetOwnerModuleFromUdpEntry"]
 old-location: iphlp\getownermodulefromudpentry.htm
 tech.root: IpHlp
 ms.assetid: bd8f82b0-4a2d-48f1-8ae7-85257c6ae656

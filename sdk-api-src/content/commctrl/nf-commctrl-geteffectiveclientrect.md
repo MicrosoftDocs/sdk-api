@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.GetEffectiveClientRect
 title: GetEffectiveClientRect function (commctrl.h)
-description: Calculates the dimensions of a rectangle in the client area that contains all the specified controls.helpviewer_keywords: ["GetEffectiveClientRect","GetEffectiveClientRect function [Windows Controls]","_win32_GetEffectiveClientRect","_win32_GetEffectiveClientRect_cpp","commctrl/GetEffectiveClientRect","controls.GetEffectiveClientRect","controls._win32_GetEffectiveClientRect"]
+description: Calculates the dimensions of a rectangle in the client area that contains all the specified controls.
+helpviewer_keywords: ["GetEffectiveClientRect","GetEffectiveClientRect function [Windows Controls]","_win32_GetEffectiveClientRect","_win32_GetEffectiveClientRect_cpp","commctrl/GetEffectiveClientRect","controls.GetEffectiveClientRect","controls._win32_GetEffectiveClientRect"]
 old-location: controls\GetEffectiveClientRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\geteffectiveclientrect.htm

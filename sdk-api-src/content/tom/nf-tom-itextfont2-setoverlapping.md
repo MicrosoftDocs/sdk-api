@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont2.SetOverlapping
 title: ITextFont2::SetOverlapping (tom.h)
-description: Sets whether overlapping text is active.helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetOverlapping method","ITextFont2.SetOverlapping","ITextFont2::SetOverlapping","SetOverlapping","SetOverlapping method [Windows Controls]","SetOverlapping method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setoverlapping","tom/ITextFont2::SetOverlapping"]
+description: Sets whether overlapping text is active.
+helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetOverlapping method","ITextFont2.SetOverlapping","ITextFont2::SetOverlapping","SetOverlapping","SetOverlapping method [Windows Controls]","SetOverlapping method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setoverlapping","tom/ITextFont2::SetOverlapping"]
 old-location: controls\itextfont2_setoverlapping.htm
 tech.root: Controls
 ms.assetid: 40addd31-5c0e-45bd-a649-c65973ae8340

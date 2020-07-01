@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.GopherCreateLocatorA
 title: GopherCreateLocatorA function (wininet.h)
-description: Creates a Gopher or Gopher+ locator string from the selector string's component parts.helpviewer_keywords: ["GopherCreateLocator","GopherCreateLocator function [WinINet]","GopherCreateLocatorA","GopherCreateLocatorW","_inet_gophercreatelocator_function","wininet.gophercreatelocator","wininet/GopherCreateLocator","wininet/GopherCreateLocatorA","wininet/GopherCreateLocatorW"]
+description: Creates a Gopher or Gopher+ locator string from the selector string's component parts.
+helpviewer_keywords: ["GopherCreateLocator","GopherCreateLocator function [WinINet]","GopherCreateLocatorA","GopherCreateLocatorW","_inet_gophercreatelocator_function","wininet.gophercreatelocator","wininet/GopherCreateLocator","wininet/GopherCreateLocatorA","wininet/GopherCreateLocatorW"]
 old-location: wininet\gophercreatelocator.htm
 tech.root: wininet
 ms.assetid: 972a4ff9-efda-4784-9ac8-c76e679e8032
@@ -132,6 +133,10 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines GopherCreateLocator as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

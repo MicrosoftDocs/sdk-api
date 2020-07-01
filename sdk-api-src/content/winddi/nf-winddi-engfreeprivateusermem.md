@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngFreePrivateUserMem
 title: EngFreePrivateUserMem macro (winddi.h)
-description: The EngFreePrivateUserMem function deallocates a block of private user memory.helpviewer_keywords: ["EngFreePrivateUserMem","EngFreePrivateUserMem function [Display Devices]","display.engfreeprivateusermem","gdifncs_debf1b76-d783-4b91-832e-c95c2c41af76.xml","winddi/EngFreePrivateUserMem"]
+description: The EngFreePrivateUserMem function deallocates a block of private user memory.
+helpviewer_keywords: ["EngFreePrivateUserMem","EngFreePrivateUserMem function [Display Devices]","display.engfreeprivateusermem","gdifncs_debf1b76-d783-4b91-832e-c95c2c41af76.xml","winddi/EngFreePrivateUserMem"]
 old-location: display\engfreeprivateusermem.htm
 tech.root: display
 ms.assetid: 098bba48-849e-4a35-801c-9573bc5c33f5

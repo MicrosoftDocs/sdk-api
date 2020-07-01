@@ -1,7 +1,8 @@
 ---
 UID: NF:thumbnailstreamcache.IThumbnailStreamCache.SetThumbnailStream
 title: IThumbnailStreamCache::SetThumbnailStream (thumbnailstreamcache.h)
-description: Sets the thumbnail stream. This method is for internal use only and can only be called by the photos application.helpviewer_keywords: ["IThumbnailStreamCache interface [Windows Shell]","SetThumbnailStream method","IThumbnailStreamCache.SetThumbnailStream","IThumbnailStreamCache::SetThumbnailStream","SetThumbnailStream","SetThumbnailStream method [Windows Shell]","SetThumbnailStream method [Windows Shell]","IThumbnailStreamCache interface","shell.ithumbnailstreamcache_setthumbnailstream","thumbnailstreamcache/IThumbnailStreamCache::SetThumbnailStream"]
+description: Sets the thumbnail stream. This method is for internal use only and can only be called by the photos application.
+helpviewer_keywords: ["IThumbnailStreamCache interface [Windows Shell]","SetThumbnailStream method","IThumbnailStreamCache.SetThumbnailStream","IThumbnailStreamCache::SetThumbnailStream","SetThumbnailStream","SetThumbnailStream method [Windows Shell]","SetThumbnailStream method [Windows Shell]","IThumbnailStreamCache interface","shell.ithumbnailstreamcache_setthumbnailstream","thumbnailstreamcache/IThumbnailStreamCache::SetThumbnailStream"]
 old-location: shell\ithumbnailstreamcache_setthumbnailstream.htm
 tech.root: shell
 ms.assetid: F2A105BB-9523-49F1-89B6-57CAF35C1AC4

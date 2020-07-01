@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcMgmtWaitServerListen
 title: RpcMgmtWaitServerListen function (rpcdce.h)
-description: The RpcMgmtWaitServerListen function performs the wait operation usually associated with RpcServerListen.helpviewer_keywords: ["RpcMgmtWaitServerListen","RpcMgmtWaitServerListen function [RPC]","_rpc_rpcmgmtwaitserverlisten","rpc.rpcmgmtwaitserverlisten","rpcdce/RpcMgmtWaitServerListen"]
+description: The RpcMgmtWaitServerListen function performs the wait operation usually associated with RpcServerListen.
+helpviewer_keywords: ["RpcMgmtWaitServerListen","RpcMgmtWaitServerListen function [RPC]","_rpc_rpcmgmtwaitserverlisten","rpc.rpcmgmtwaitserverlisten","rpcdce/RpcMgmtWaitServerListen"]
 old-location: rpc\rpcmgmtwaitserverlisten.htm
 tech.root: Rpc
 ms.assetid: 19fa750f-76f8-4005-992f-9c2707e48668

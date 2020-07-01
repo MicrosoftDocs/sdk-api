@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.midiInPrepareHeader
 title: midiInPrepareHeader function (mmeapi.h)
-description: The midiInPrepareHeader function prepares a buffer for MIDI input.helpviewer_keywords: ["_win32_midiInPrepareHeader","midiInPrepareHeader","midiInPrepareHeader function [Windows Multimedia]","mmeapi/midiInPrepareHeader","multimedia.midiinprepareheader"]
+description: The midiInPrepareHeader function prepares a buffer for MIDI input.
+helpviewer_keywords: ["_win32_midiInPrepareHeader","midiInPrepareHeader","midiInPrepareHeader function [Windows Multimedia]","mmeapi/midiInPrepareHeader","multimedia.midiinprepareheader"]
 old-location: multimedia\midiinprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 26895526-2c1e-4335-8b45-511ca56696ab

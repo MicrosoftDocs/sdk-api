@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.Intersects~r2
 title: Intersects(XMVECTOR, XMVECTOR, XMVECTOR, XMVECTOR)
-description: Tests whether a triangle and a plane intersect.helpviewer_keywords: ["Intersects"]
+description: Tests whether a triangle and a plane intersect.
+helpviewer_keywords: ["Intersects"]
 ms.date: 04/22/19
 ms.keywords: Intersects
 f1_keywords:

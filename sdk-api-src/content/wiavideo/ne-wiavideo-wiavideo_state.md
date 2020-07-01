@@ -1,7 +1,8 @@
 ---
 UID: NE:wiavideo.__MIDL___MIDL_itf_wiavideo_xp_0000_0000_0001
 title: WIAVIDEO_STATE (wiavideo.h)
-description: The WIAVIDEO_STATE enumeration is used to specify the current state of a video stream.helpviewer_keywords: ["WIAVIDEO_CREATING_VIDEO","WIAVIDEO_DESTROYING_VIDEO","WIAVIDEO_NO_VIDEO","WIAVIDEO_STATE","WIAVIDEO_STATE enumeration [WIA]","WIAVIDEO_VIDEO_CREATED","WIAVIDEO_VIDEO_PAUSED","WIAVIDEO_VIDEO_PLAYING","_wia_WIAVIDEO_STATE","wia._wia_WIAVIDEO_STATE","wiavideo/WIAVIDEO_CREATING_VIDEO","wiavideo/WIAVIDEO_DESTROYING_VIDEO","wiavideo/WIAVIDEO_NO_VIDEO","wiavideo/WIAVIDEO_STATE","wiavideo/WIAVIDEO_VIDEO_CREATED","wiavideo/WIAVIDEO_VIDEO_PAUSED","wiavideo/WIAVIDEO_VIDEO_PLAYING"]
+description: The WIAVIDEO_STATE enumeration is used to specify the current state of a video stream.
+helpviewer_keywords: ["WIAVIDEO_CREATING_VIDEO","WIAVIDEO_DESTROYING_VIDEO","WIAVIDEO_NO_VIDEO","WIAVIDEO_STATE","WIAVIDEO_STATE enumeration [WIA]","WIAVIDEO_VIDEO_CREATED","WIAVIDEO_VIDEO_PAUSED","WIAVIDEO_VIDEO_PLAYING","_wia_WIAVIDEO_STATE","wia._wia_WIAVIDEO_STATE","wiavideo/WIAVIDEO_CREATING_VIDEO","wiavideo/WIAVIDEO_DESTROYING_VIDEO","wiavideo/WIAVIDEO_NO_VIDEO","wiavideo/WIAVIDEO_STATE","wiavideo/WIAVIDEO_VIDEO_CREATED","wiavideo/WIAVIDEO_VIDEO_PAUSED","wiavideo/WIAVIDEO_VIDEO_PLAYING"]
 old-location: wia\_wia_WIAVIDEO_STATE.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\enums\wiavideo_state.htm

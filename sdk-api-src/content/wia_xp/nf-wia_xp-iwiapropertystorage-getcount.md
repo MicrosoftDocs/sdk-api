@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaPropertyStorage.GetCount
 title: IWiaPropertyStorage::GetCount (wia_xp.h)
-description: The IWiaPropertyStorage::GetCount method returns the number of properties stored in the property storage.helpviewer_keywords: ["GetCount","GetCount method [WIA]","GetCount method [WIA]","IWiaPropertyStorage interface","IWiaPropertyStorage interface [WIA]","GetCount method","IWiaPropertyStorage.GetCount","IWiaPropertyStorage::GetCount","_wia_IWiaPropertyStorage_GetCount","wia._wia_IWiaPropertyStorage_GetCount","wia_xp/IWiaPropertyStorage::GetCount"]
+description: The IWiaPropertyStorage::GetCount method returns the number of properties stored in the property storage.
+helpviewer_keywords: ["GetCount","GetCount method [WIA]","GetCount method [WIA]","IWiaPropertyStorage interface","IWiaPropertyStorage interface [WIA]","GetCount method","IWiaPropertyStorage.GetCount","IWiaPropertyStorage::GetCount","_wia_IWiaPropertyStorage_GetCount","wia._wia_IWiaPropertyStorage_GetCount","wia_xp/IWiaPropertyStorage::GetCount"]
 old-location: wia\_wia_IWiaPropertyStorage_GetCount.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiapropertystorage\getcount.htm

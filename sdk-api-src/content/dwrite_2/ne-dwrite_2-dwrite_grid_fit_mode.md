@@ -1,7 +1,8 @@
 ---
 UID: NE:dwrite_2.DWRITE_GRID_FIT_MODE
 title: DWRITE_GRID_FIT_MODE (dwrite_2.h)
-description: Specifies whether to enable grid-fitting of glyph outlines (also known as hinting).helpviewer_keywords: ["DWRITE_GRID_FIT_MODE","DWRITE_GRID_FIT_MODE enumeration [Direct Write]","DWRITE_GRID_FIT_MODE_DEFAULT","DWRITE_GRID_FIT_MODE_DISABLED","DWRITE_GRID_FIT_MODE_ENABLED","directwrite.dwrite_grid_fit_mode","dwrite_2/DWRITE_GRID_FIT_MODE","dwrite_2/DWRITE_GRID_FIT_MODE_DEFAULT","dwrite_2/DWRITE_GRID_FIT_MODE_DISABLED","dwrite_2/DWRITE_GRID_FIT_MODE_ENABLED"]
+description: Specifies whether to enable grid-fitting of glyph outlines (also known as hinting).
+helpviewer_keywords: ["DWRITE_GRID_FIT_MODE","DWRITE_GRID_FIT_MODE enumeration [Direct Write]","DWRITE_GRID_FIT_MODE_DEFAULT","DWRITE_GRID_FIT_MODE_DISABLED","DWRITE_GRID_FIT_MODE_ENABLED","directwrite.dwrite_grid_fit_mode","dwrite_2/DWRITE_GRID_FIT_MODE","dwrite_2/DWRITE_GRID_FIT_MODE_DEFAULT","dwrite_2/DWRITE_GRID_FIT_MODE_DISABLED","dwrite_2/DWRITE_GRID_FIT_MODE_ENABLED"]
 old-location: directwrite\dwrite_grid_fit_mode.htm
 tech.root: DirectWrite
 ms.assetid: C32A6017-3711-482B-B806-79651163DEF6

@@ -1,7 +1,8 @@
 ---
 UID: NE:fwpmtypes.FWPM_APPC_NETWORK_CAPABILITY_TYPE_
 title: FWPM_APPC_NETWORK_CAPABILITY_TYPE (fwpmtypes.h)
-description: Specifies the type of app container network capability that is associated with the object or traffic in question.helpviewer_keywords: ["FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT","FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT_SERVER","FWPM_APPC_NETWORK_CAPABILITY_INTERNET_PRIVATE_NETWORK","FWPM_APPC_NETWORK_CAPABILITY_TYPE","FWPM_APPC_NETWORK_CAPABILITY_TYPE enumeration [Filtering]","fwp.fwpm_appc_network_capability_type","fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT","fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT_SERVER","fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_INTERNET_PRIVATE_NETWORK","fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_TYPE"]
+description: Specifies the type of app container network capability that is associated with the object or traffic in question.
+helpviewer_keywords: ["FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT","FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT_SERVER","FWPM_APPC_NETWORK_CAPABILITY_INTERNET_PRIVATE_NETWORK","FWPM_APPC_NETWORK_CAPABILITY_TYPE","FWPM_APPC_NETWORK_CAPABILITY_TYPE enumeration [Filtering]","fwp.fwpm_appc_network_capability_type","fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT","fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_INTERNET_CLIENT_SERVER","fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_INTERNET_PRIVATE_NETWORK","fwpmtypes/FWPM_APPC_NETWORK_CAPABILITY_TYPE"]
 old-location: fwp\fwpm_appc_network_capability_type.htm
 tech.root: fwp
 ms.assetid: e69ac412-0868-49da-9a87-58a03098839d

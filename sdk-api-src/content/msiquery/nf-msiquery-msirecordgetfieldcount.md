@@ -1,7 +1,8 @@
 ---
 UID: NF:msiquery.MsiRecordGetFieldCount
 title: MsiRecordGetFieldCount function (msiquery.h)
-description: Returns the number of fields in a record.helpviewer_keywords: ["MsiRecordGetFieldCount","MsiRecordGetFieldCount function","_msi_msirecordgetfieldcount","msiquery/MsiRecordGetFieldCount","setup.msirecordgetfieldcount"]
+description: Returns the number of fields in a record.
+helpviewer_keywords: ["MsiRecordGetFieldCount","MsiRecordGetFieldCount function","_msi_msirecordgetfieldcount","msiquery/MsiRecordGetFieldCount","setup.msirecordgetfieldcount"]
 old-location: setup\msirecordgetfieldcount.htm
 tech.root: Msi
 ms.assetid: 17d4e593-f80c-4f67-bfd0-fa487e2477c4

@@ -1,7 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetWindowsDirectoryW
 title: GetWindowsDirectoryW function (sysinfoapi.h)
-description: Retrieves the path of the Windows directory.helpviewer_keywords: ["GetWindowsDirectory","GetWindowsDirectory function","GetWindowsDirectoryA","GetWindowsDirectoryW","_win32_getwindowsdirectory","base.getwindowsdirectory","sysinfoapi/GetWindowsDirectory","sysinfoapi/GetWindowsDirectoryA","sysinfoapi/GetWindowsDirectoryW"]
+description: Retrieves the path of the Windows directory.
+helpviewer_keywords: ["GetWindowsDirectory","GetWindowsDirectory function","GetWindowsDirectoryA","GetWindowsDirectoryW","_win32_getwindowsdirectory","base.getwindowsdirectory","sysinfoapi/GetWindowsDirectory","sysinfoapi/GetWindowsDirectoryA","sysinfoapi/GetWindowsDirectoryW"]
 old-location: base\getwindowsdirectory.htm
 tech.root: SysInfo
 ms.assetid: 8c9b55e1-121a-4405-9f83-043752dd48ed
@@ -140,6 +141,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The sysinfoapi.h header defines GetWindowsDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

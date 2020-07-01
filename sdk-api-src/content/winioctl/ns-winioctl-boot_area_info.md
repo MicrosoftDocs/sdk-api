@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._BOOT_AREA_INFO
 title: BOOT_AREA_INFO
-description: Contains the output for the FSCTL_GET_BOOT_AREA_INFO control code.helpviewer_keywords: ["*PBOOT_AREA_INFO","BOOT_AREA_INFO","BOOT_AREA_INFO structure [Files]","PBOOT_AREA_INFO","PBOOT_AREA_INFO structure pointer [Files]","fs.boot_area_info","winioctl/BOOT_AREA_INFO","winioctl/PBOOT_AREA_INFO"]
+description: Contains the output for the FSCTL_GET_BOOT_AREA_INFO control code.
+helpviewer_keywords: ["*PBOOT_AREA_INFO","BOOT_AREA_INFO","BOOT_AREA_INFO structure [Files]","PBOOT_AREA_INFO","PBOOT_AREA_INFO structure pointer [Files]","fs.boot_area_info","winioctl/BOOT_AREA_INFO","winioctl/PBOOT_AREA_INFO"]
 old-location: fs\boot_area_info.htm
 tech.root: FileIO
 ms.assetid: e6ec156d-6a20-4b00-89fb-a27421fffbc0

@@ -1,7 +1,8 @@
 ---
 UID: NF:msiquery.MsiRecordGetStringW
 title: MsiRecordGetStringW function (msiquery.h)
-description: The MsiRecordGetString function returns the string value of a record field.helpviewer_keywords: ["MsiRecordGetString","MsiRecordGetString function","MsiRecordGetStringA","MsiRecordGetStringW","_msi_msirecordgetstring","msiquery/MsiRecordGetString","msiquery/MsiRecordGetStringA","msiquery/MsiRecordGetStringW","setup.msirecordgetstring"]
+description: The MsiRecordGetString function returns the string value of a record field.
+helpviewer_keywords: ["MsiRecordGetString","MsiRecordGetString function","MsiRecordGetStringA","MsiRecordGetStringW","_msi_msirecordgetstring","msiquery/MsiRecordGetString","msiquery/MsiRecordGetStringA","msiquery/MsiRecordGetStringW","setup.msirecordgetstring"]
 old-location: setup\msirecordgetstring.htm
 tech.root: Msi
 ms.assetid: 4d1b049c-9511-4858-8cc1-3cd2424c55ca
@@ -99,6 +100,10 @@ If <b>ERROR_MORE_DATA</b> is returned, the parameter which is a pointer gives th
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiRecordGetString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

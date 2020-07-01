@@ -1,7 +1,8 @@
 ---
 UID: NF:casetup.ICertSrvSetup.get_CAErrorString
 title: ICertSrvSetup::get_CAErrorString (casetup.h)
-description: Gets the string data for additional error information related to a failed certification authority (CA) specification.helpviewer_keywords: ["CAErrorString property [Security]","CAErrorString property [Security]","ICertSrvSetup interface","ICertSrvSetup interface [Security]","CAErrorString property","ICertSrvSetup.CAErrorString","ICertSrvSetup.get_CAErrorString","ICertSrvSetup::CAErrorString","ICertSrvSetup::get_CAErrorString","casetup/ICertSrvSetup::CAErrorString","casetup/ICertSrvSetup::get_CAErrorString","get_CAErrorString","security.icertsrvsetup_caerrorstring"]
+description: Gets the string data for additional error information related to a failed certification authority (CA) specification.
+helpviewer_keywords: ["CAErrorString property [Security]","CAErrorString property [Security]","ICertSrvSetup interface","ICertSrvSetup interface [Security]","CAErrorString property","ICertSrvSetup.CAErrorString","ICertSrvSetup.get_CAErrorString","ICertSrvSetup::CAErrorString","ICertSrvSetup::get_CAErrorString","casetup/ICertSrvSetup::CAErrorString","casetup/ICertSrvSetup::get_CAErrorString","get_CAErrorString","security.icertsrvsetup_caerrorstring"]
 old-location: security\icertsrvsetup_caerrorstring.htm
 tech.root: SecCrypto
 ms.assetid: 154397f8-aa0e-4d74-b18e-b68b46fdfcdb

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument2.UpdateWindow
 title: ITextDocument2::UpdateWindow (tom.h)
-description: Notifies the client that the view has changed and the client should update the view if the Text Object Model (TOM) engine is in-place active.helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","UpdateWindow method","ITextDocument2.UpdateWindow","ITextDocument2::UpdateWindow","UpdateWindow","UpdateWindow method [Windows Controls]","UpdateWindow method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_updatewindow","tom/ITextDocument2::UpdateWindow"]
+description: Notifies the client that the view has changed and the client should update the view if the Text Object Model (TOM) engine is in-place active.
+helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","UpdateWindow method","ITextDocument2.UpdateWindow","ITextDocument2::UpdateWindow","UpdateWindow","UpdateWindow method [Windows Controls]","UpdateWindow method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_updatewindow","tom/ITextDocument2::UpdateWindow"]
 old-location: controls\itextdocument2_updatewindow.htm
 tech.root: Controls
 ms.assetid: 85bb0a41-e3a7-43ab-bc14-fdd4dae2ee69

@@ -1,7 +1,8 @@
 ---
 UID: NF:propidlbase.IPropertyStorage.WritePropertyNames
 title: IPropertyStorage::WritePropertyNames (propidlbase.h)
-description: Assigns string IPropertyStoragenames to a specified array of property IDs in the current property set.helpviewer_keywords: ["IPropertyStorage interface [Structured Storage]","WritePropertyNames method","IPropertyStorage.WritePropertyNames","IPropertyStorage::WritePropertyNames","WritePropertyNames","WritePropertyNames method [Structured Storage]","WritePropertyNames method [Structured Storage]","IPropertyStorage interface","_stg_ipropertystorage_writepropertynames","propidl/IPropertyStorage::WritePropertyNames","stg.ipropertystorage_writepropertynames"]
+description: Assigns string IPropertyStoragenames to a specified array of property IDs in the current property set.
+helpviewer_keywords: ["IPropertyStorage interface [Structured Storage]","WritePropertyNames method","IPropertyStorage.WritePropertyNames","IPropertyStorage::WritePropertyNames","WritePropertyNames","WritePropertyNames method [Structured Storage]","WritePropertyNames method [Structured Storage]","IPropertyStorage interface","_stg_ipropertystorage_writepropertynames","propidl/IPropertyStorage::WritePropertyNames","stg.ipropertystorage_writepropertynames"]
 old-location: stg\ipropertystorage_writepropertynames.htm
 tech.root: Stg
 ms.assetid: 3612bf29-344a-4389-bd3b-56b9fa297362

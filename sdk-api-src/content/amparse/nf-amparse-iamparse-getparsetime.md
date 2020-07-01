@@ -1,7 +1,8 @@
 ---
 UID: NF:amparse.IAMParse.GetParseTime
 title: IAMParse::GetParseTime (amparse.h)
-description: The GetParseTime method retrieves the current stream parse time. For MPEG-2, this corresponds to the system clock time computed for the current stream position.helpviewer_keywords: ["GetParseTime","GetParseTime method [DirectShow]","GetParseTime method [DirectShow]","IAMParse interface","IAMParse interface [DirectShow]","GetParseTime method","IAMParse.GetParseTime","IAMParse::GetParseTime","IAMParseGetParseTime","amparse/IAMParse::GetParseTime","dshow.iamparse_getparsetime"]
+description: The GetParseTime method retrieves the current stream parse time. For MPEG-2, this corresponds to the system clock time computed for the current stream position.
+helpviewer_keywords: ["GetParseTime","GetParseTime method [DirectShow]","GetParseTime method [DirectShow]","IAMParse interface","IAMParse interface [DirectShow]","GetParseTime method","IAMParse.GetParseTime","IAMParse::GetParseTime","IAMParseGetParseTime","amparse/IAMParse::GetParseTime","dshow.iamparse_getparsetime"]
 old-location: dshow\iamparse_getparsetime.htm
 tech.root: DirectShow
 ms.assetid: ce87e39e-1e5d-4098-8431-ea9b3188784e

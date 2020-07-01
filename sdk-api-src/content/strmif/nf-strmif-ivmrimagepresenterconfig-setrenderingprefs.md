@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRImagePresenterConfig.SetRenderingPrefs
 title: IVMRImagePresenterConfig::SetRenderingPrefs (strmif.h)
-description: The SetRenderingPrefs method sets the rendering preferences on the VMR-7 filter's allocator-presenter.helpviewer_keywords: ["IVMRImagePresenterConfig interface [DirectShow]","SetRenderingPrefs method","IVMRImagePresenterConfig.SetRenderingPrefs","IVMRImagePresenterConfig::SetRenderingPrefs","IVMRImagePresenterConfigSetRenderingPrefs","SetRenderingPrefs","SetRenderingPrefs method [DirectShow]","SetRenderingPrefs method [DirectShow]","IVMRImagePresenterConfig interface","dshow.ivmrimagepresenterconfig_setrenderingprefs","strmif/IVMRImagePresenterConfig::SetRenderingPrefs"]
+description: The SetRenderingPrefs method sets the rendering preferences on the VMR-7 filter's allocator-presenter.
+helpviewer_keywords: ["IVMRImagePresenterConfig interface [DirectShow]","SetRenderingPrefs method","IVMRImagePresenterConfig.SetRenderingPrefs","IVMRImagePresenterConfig::SetRenderingPrefs","IVMRImagePresenterConfigSetRenderingPrefs","SetRenderingPrefs","SetRenderingPrefs method [DirectShow]","SetRenderingPrefs method [DirectShow]","IVMRImagePresenterConfig interface","dshow.ivmrimagepresenterconfig_setrenderingprefs","strmif/IVMRImagePresenterConfig::SetRenderingPrefs"]
 old-location: dshow\ivmrimagepresenterconfig_setrenderingprefs.htm
 tech.root: DirectShow
 ms.assetid: 22bb6d52-2201-429d-bd1a-d031c9b017ae

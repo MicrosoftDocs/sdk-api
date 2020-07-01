@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndGetActiveTimer
 title: MCIWndGetActiveTimer macro (vfw.h)
-description: The MCIWndGetActiveTimer macro retrieves the update period used when the MCIWnd window is the active window. You can use this macro or explicitly send the MCIWNDM_GETACTIVETIMER message.helpviewer_keywords: ["MCIWndGetActiveTimer","MCIWndGetActiveTimer macro [Windows Multimedia]","_win32_MCIWndGetActiveTimer","multimedia.mciwndgetactivetimer","vfw/MCIWndGetActiveTimer"]
+description: The MCIWndGetActiveTimer macro retrieves the update period used when the MCIWnd window is the active window. You can use this macro or explicitly send the MCIWNDM_GETACTIVETIMER message.
+helpviewer_keywords: ["MCIWndGetActiveTimer","MCIWndGetActiveTimer macro [Windows Multimedia]","_win32_MCIWndGetActiveTimer","multimedia.mciwndgetactivetimer","vfw/MCIWndGetActiveTimer"]
 old-location: multimedia\mciwndgetactivetimer.htm
 tech.root: Multimedia
 ms.assetid: 581b9bb3-9bc0-46f2-a5d2-93397900ff28

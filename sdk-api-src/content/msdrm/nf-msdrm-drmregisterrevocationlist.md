@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMRegisterRevocationList
 title: DRMRegisterRevocationList function (msdrm.h)
-description: Registers a rights revocation list on the client.helpviewer_keywords: ["DRMRegisterRevocationList","DRMRegisterRevocationList function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMRegisterRevocationList","rm.drmregisterrevocationlist"]
+description: Registers a rights revocation list on the client.
+helpviewer_keywords: ["DRMRegisterRevocationList","DRMRegisterRevocationList function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMRegisterRevocationList","rm.drmregisterrevocationlist"]
 old-location: rm\drmregisterrevocationlist.htm
 tech.root: AdRms_Sdk
 ms.assetid: 819a8471-e447-4a4d-ae52-5929350df2c8

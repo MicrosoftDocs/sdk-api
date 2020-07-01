@@ -1,7 +1,8 @@
 ---
 UID: NE:dispatcherqueue.DISPATCHERQUEUE_THREAD_APARTMENTTYPE
 title: DISPATCHERQUEUE_THREAD_APARTMENTTYPE (dispatcherqueue.h)
-description: Specifies the threading apartment type for a new DispatcherQueueController.helpviewer_keywords: ["DISPATCHERQUEUE_THREAD_APARTMENTTYPE","DISPATCHERQUEUE_THREAD_APARTMENTTYPE enumeration","DQTAT_COM_ASTA","DQTAT_COM_NONE","DQTAT_COM_STA","base.dispatcherqueue_thread_apartmenttype","dispatcherqueue/DISPATCHERQUEUE_THREAD_APARTMENTTYPE","dispatcherqueue/DQTAT_COM_ASTA","dispatcherqueue/DQTAT_COM_NONE","dispatcherqueue/DQTAT_COM_STA"]
+description: Specifies the threading apartment type for a new DispatcherQueueController.
+helpviewer_keywords: ["DISPATCHERQUEUE_THREAD_APARTMENTTYPE","DISPATCHERQUEUE_THREAD_APARTMENTTYPE enumeration","DQTAT_COM_ASTA","DQTAT_COM_NONE","DQTAT_COM_STA","base.dispatcherqueue_thread_apartmenttype","dispatcherqueue/DISPATCHERQUEUE_THREAD_APARTMENTTYPE","dispatcherqueue/DQTAT_COM_ASTA","dispatcherqueue/DQTAT_COM_NONE","dispatcherqueue/DQTAT_COM_STA"]
 old-location: base\dispatcherqueue_thread_apartmenttype.htm
 tech.root: ProcThread
 ms.assetid: 46BCD25E-22C7-4D9C-A424-AFF0B0B41AB6

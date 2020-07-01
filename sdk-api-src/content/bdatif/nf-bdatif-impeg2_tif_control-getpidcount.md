@@ -1,7 +1,8 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.GetPIDCount
 title: IMPEG2_TIF_CONTROL::GetPIDCount (bdatif.h)
-description: The GetPIDCount method retrieves the number of MPEG-2 Packet IDs being filtered by the MPEG-2 Demultiplexer into the TIF's input data.helpviewer_keywords: ["GetPIDCount","GetPIDCount method [Microsoft TV Technologies]","GetPIDCount method [Microsoft TV Technologies]","IMPEG2_TIF_CONTROL interface","IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies]","GetPIDCount method","IMPEG2_TIF_CONTROL.GetPIDCount","IMPEG2_TIF_CONTROL::GetPIDCount","IMPEG2_TIF_CONTROLGetPIDCount","bdatif/IMPEG2_TIF_CONTROL::GetPIDCount","mstv.impeg2_tif_control_getpidcount"]
+description: The GetPIDCount method retrieves the number of MPEG-2 Packet IDs being filtered by the MPEG-2 Demultiplexer into the TIF's input data.
+helpviewer_keywords: ["GetPIDCount","GetPIDCount method [Microsoft TV Technologies]","GetPIDCount method [Microsoft TV Technologies]","IMPEG2_TIF_CONTROL interface","IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies]","GetPIDCount method","IMPEG2_TIF_CONTROL.GetPIDCount","IMPEG2_TIF_CONTROL::GetPIDCount","IMPEG2_TIF_CONTROLGetPIDCount","bdatif/IMPEG2_TIF_CONTROL::GetPIDCount","mstv.impeg2_tif_control_getpidcount"]
 old-location: mstv\impeg2_tif_control_getpidcount.htm
 tech.root: mstv
 ms.assetid: 2d77c3d8-b91c-43de-b4c1-bd41636eb4ad

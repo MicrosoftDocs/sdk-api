@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidAudioRendererDevices
 title: IMSVidAudioRendererDevices (segment.h)
-description: The IMSVidAudioRendererDevices interface represents a collection of audio renderers. Applications can use this interface to enumerate the collection. The MSVidAudioRendererDevices object exposes this method.helpviewer_keywords: ["IMSVidAudioRendererDevices","IMSVidAudioRendererDevices interface [Microsoft TV Technologies]","IMSVidAudioRendererDevices interface [Microsoft TV Technologies]","described","IMSVidAudioRendererDevicesInterface","mstv.imsvidaudiorendererdevices","segment/IMSVidAudioRendererDevices"]
+description: The IMSVidAudioRendererDevices interface represents a collection of audio renderers. Applications can use this interface to enumerate the collection. The MSVidAudioRendererDevices object exposes this method.
+helpviewer_keywords: ["IMSVidAudioRendererDevices","IMSVidAudioRendererDevices interface [Microsoft TV Technologies]","IMSVidAudioRendererDevices interface [Microsoft TV Technologies]","described","IMSVidAudioRendererDevicesInterface","mstv.imsvidaudiorendererdevices","segment/IMSVidAudioRendererDevices"]
 old-location: mstv\imsvidaudiorendererdevices.htm
 tech.root: mstv
 ms.assetid: 2cf03260-7abe-4602-8364-447d076a4f76

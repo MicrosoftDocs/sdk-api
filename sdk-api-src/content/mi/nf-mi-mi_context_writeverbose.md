@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Context_WriteVerbose
 title: MI_Context_WriteVerbose function (mi.h)
-description: Writes a verbose message to the client.helpviewer_keywords: ["MI_Context_WriteVerbose","MI_Context_WriteVerbose function [Windows Management Infrastructure (MI)]","mi/MI_Context_WriteVerbose","wmi.mi_writeverbose","wmi_v2.mi_context_writeverbose"]
+description: Writes a verbose message to the client.
+helpviewer_keywords: ["MI_Context_WriteVerbose","MI_Context_WriteVerbose function [Windows Management Infrastructure (MI)]","mi/MI_Context_WriteVerbose","wmi.mi_writeverbose","wmi_v2.mi_context_writeverbose"]
 old-location: wmi_v2\mi_context_writeverbose.htm
 tech.root: wmi_v2
 ms.assetid: 55f46e42-3649-40f0-9bd6-4564afc2f8e2

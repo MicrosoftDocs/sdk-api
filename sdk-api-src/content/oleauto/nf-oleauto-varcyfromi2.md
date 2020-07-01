@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarCyFromI2
 title: VarCyFromI2 function (oleauto.h)
-description: Converts a short value to a currency value.helpviewer_keywords: ["VarCyFromI2","VarCyFromI2 function [Automation]","_oa96_VarCyFromI2","automat.varcyfromi2","oleauto/VarCyFromI2"]
+description: Converts a short value to a currency value.
+helpviewer_keywords: ["VarCyFromI2","VarCyFromI2 function [Automation]","_oa96_VarCyFromI2","automat.varcyfromi2","oleauto/VarCyFromI2"]
 old-location: automat\varcyfromi2.htm
 tech.root: automat
 ms.assetid: 987ec4cd-345c-43b9-b2ca-e7746afc2c59

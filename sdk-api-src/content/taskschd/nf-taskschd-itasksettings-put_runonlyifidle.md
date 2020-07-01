@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskSettings.put_RunOnlyIfIdle
 title: ITaskSettings::put_RunOnlyIfIdle (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the Task Scheduler will run the task only if the computer is in an idle condition.helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","RunOnlyIfIdle property","ITaskSettings.RunOnlyIfIdle","ITaskSettings.put_RunOnlyIfIdle","ITaskSettings::RunOnlyIfIdle","ITaskSettings::get_RunOnlyIfIdle","ITaskSettings::put_RunOnlyIfIdle","RunOnlyIfIdle property [Task Scheduler]","RunOnlyIfIdle property [Task Scheduler]","ITaskSettings interface","put_RunOnlyIfIdle","taskschd.itasksettings_runonlyifidle","taskschd/ITaskSettings::RunOnlyIfIdle","taskschd/ITaskSettings::get_RunOnlyIfIdle","taskschd/ITaskSettings::put_RunOnlyIfIdle"]
+description: Gets or sets a Boolean value that indicates that the Task Scheduler will run the task only if the computer is in an idle condition.
+helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","RunOnlyIfIdle property","ITaskSettings.RunOnlyIfIdle","ITaskSettings.put_RunOnlyIfIdle","ITaskSettings::RunOnlyIfIdle","ITaskSettings::get_RunOnlyIfIdle","ITaskSettings::put_RunOnlyIfIdle","RunOnlyIfIdle property [Task Scheduler]","RunOnlyIfIdle property [Task Scheduler]","ITaskSettings interface","put_RunOnlyIfIdle","taskschd.itasksettings_runonlyifidle","taskschd/ITaskSettings::RunOnlyIfIdle","taskschd/ITaskSettings::get_RunOnlyIfIdle","taskschd/ITaskSettings::put_RunOnlyIfIdle"]
 old-location: taskschd\itasksettings_runonlyifidle.htm
 tech.root: taskschd
 ms.assetid: 2ea0b2bd-793b-427f-9177-c8d124e5ae25

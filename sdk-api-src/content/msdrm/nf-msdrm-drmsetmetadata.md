@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMSetMetaData
 title: DRMSetMetaData function (msdrm.h)
-description: Adds application-specific metadata to an issuance license.helpviewer_keywords: ["DRMSetMetaData","DRMSetMetaData function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMSetMetaData","rm.drmsetmetadata"]
+description: Adds application-specific metadata to an issuance license.
+helpviewer_keywords: ["DRMSetMetaData","DRMSetMetaData function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMSetMetaData","rm.drmsetmetadata"]
 old-location: rm\drmsetmetadata.htm
 tech.root: AdRms_Sdk
 ms.assetid: dcf95e9e-e2de-449e-a45a-4974094ecb7e

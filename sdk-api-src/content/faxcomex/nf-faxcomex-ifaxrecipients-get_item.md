@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxRecipients.get_Item
 title: IFaxRecipients::get_Item (faxcomex.h)
-description: The Item method returns a FaxRecipient object from the FaxRecipients collection.helpviewer_keywords: ["IFaxRecipients interface [Fax Service]","get_Item method","IFaxRecipients.get_Item","IFaxRecipients::get_Item","_mfax_faxrecipients.item_cpp","fax._mfax_faxrecipients_item_cpp","faxcomex/IFaxRecipients::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxRecipients interface"]
+description: The Item method returns a FaxRecipient object from the FaxRecipients collection.
+helpviewer_keywords: ["IFaxRecipients interface [Fax Service]","get_Item method","IFaxRecipients.get_Item","IFaxRecipients::get_Item","_mfax_faxrecipients.item_cpp","fax._mfax_faxrecipients_item_cpp","faxcomex/IFaxRecipients::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxRecipients interface"]
 old-location: fax\_mfax_faxrecipients_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0q7h_cpp.htm

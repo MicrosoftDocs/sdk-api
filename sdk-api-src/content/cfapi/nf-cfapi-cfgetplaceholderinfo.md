@@ -1,7 +1,8 @@
 ---
 UID: NF:cfapi.CfGetPlaceholderInfo
 title: CfGetPlaceholderInfo function (cfapi.h)
-description: Gets various characteristics of a placeholder file or folder.helpviewer_keywords: ["CfGetPlaceholderInfo","CfGetPlaceholderInfo function","cfapi/CfGetPlaceholderInfo","cloudApi.cfgetplaceholderinfo"]
+description: Gets various characteristics of a placeholder file or folder.
+helpviewer_keywords: ["CfGetPlaceholderInfo","CfGetPlaceholderInfo function","cfapi/CfGetPlaceholderInfo","cloudApi.cfgetplaceholderinfo"]
 old-location: cloudapi\cfgetplaceholderinfo.htm
 tech.root: cfApi
 ms.assetid: D82269CF-8056-46CF-9832-AAE8767A854B

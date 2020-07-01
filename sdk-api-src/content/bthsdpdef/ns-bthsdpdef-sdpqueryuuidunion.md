@@ -1,7 +1,8 @@
 ---
 UID: NS:bthsdpdef.SdpQueryUuidUnion
 title: SdpQueryUuidUnion (bthsdpdef.h)
-description: The SdpQueryUuidUnion union contains the UUID on which to perform an SDP query. Used in conjunction with the SdpQueryUuid structure.helpviewer_keywords: ["SdpQueryUuidUnion","SdpQueryUuidUnion structure [Bluetooth]","bluetooth.sdpqueryuuidunion","bthsdpdef/SdpQueryUuidUnion"]
+description: The SdpQueryUuidUnion union contains the UUID on which to perform an SDP query. Used in conjunction with the SdpQueryUuid structure.
+helpviewer_keywords: ["SdpQueryUuidUnion","SdpQueryUuidUnion structure [Bluetooth]","bluetooth.sdpqueryuuidunion","bthsdpdef/SdpQueryUuidUnion"]
 old-location: bluetooth\sdpqueryuuidunion.htm
 tech.root: bluetooth
 ms.assetid: 446b0337-ea83-4d8a-bee7-3cccf03e61a5

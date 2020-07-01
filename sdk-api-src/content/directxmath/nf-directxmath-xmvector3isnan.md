@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3IsNaN
 title: XMVector3IsNaN function (directxmath.h)
-description: Tests whether any component of a 3D vector is a NaN.helpviewer_keywords: ["Use DirectX..XMVector3IsNaN","XMVector3IsNaN","XMVector3IsNaN method [DirectX Math Support APIs]","dxmath.xmvector3isnan"]
+description: Tests whether any component of a 3D vector is a NaN.
+helpviewer_keywords: ["Use DirectX..XMVector3IsNaN","XMVector3IsNaN","XMVector3IsNaN method [DirectX Math Support APIs]","dxmath.xmvector3isnan"]
 old-location: dxmath\xmvector3isnan.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3IsNaN(XMVECTOR)

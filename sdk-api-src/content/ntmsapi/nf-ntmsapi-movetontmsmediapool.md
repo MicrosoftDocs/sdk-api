@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.MoveToNtmsMediaPool
 title: MoveToNtmsMediaPool function (ntmsapi.h)
-description: The MoveToNtmsMediaPool function moves the specified medium from its current media pool to the specified media pool.helpviewer_keywords: ["MoveToNtmsMediaPool","MoveToNtmsMediaPool function [Files]","_zaw_movetontmsmediapool","base.movetontmsmediapool","fs.movetontmsmediapool","ntmsapi/MoveToNtmsMediaPool"]
+description: The MoveToNtmsMediaPool function moves the specified medium from its current media pool to the specified media pool.
+helpviewer_keywords: ["MoveToNtmsMediaPool","MoveToNtmsMediaPool function [Files]","_zaw_movetontmsmediapool","base.movetontmsmediapool","fs.movetontmsmediapool","ntmsapi/MoveToNtmsMediaPool"]
 old-location: fs\movetontmsmediapool.htm
 tech.root: Rsm
 ms.assetid: 6bc11877-6657-4e8b-8239-bb2720cfb256

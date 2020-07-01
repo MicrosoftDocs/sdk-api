@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetMessageExtraInfo
 title: GetMessageExtraInfo function (winuser.h)
-description: Retrieves the extra message information for the current thread. Extra message information is an application- or driver-defined value associated with the current thread's message queue.helpviewer_keywords: ["GetMessageExtraInfo","GetMessageExtraInfo function [Windows and Messages]","_win32_GetMessageExtraInfo","_win32_getmessageextrainfo_cpp","winmsg.getmessageextrainfo","winui._win32_getmessageextrainfo","winuser/GetMessageExtraInfo"]
+description: Retrieves the extra message information for the current thread. Extra message information is an application- or driver-defined value associated with the current thread's message queue.
+helpviewer_keywords: ["GetMessageExtraInfo","GetMessageExtraInfo function [Windows and Messages]","_win32_GetMessageExtraInfo","_win32_getmessageextrainfo_cpp","winmsg.getmessageextrainfo","winui._win32_getmessageextrainfo","winuser/GetMessageExtraInfo"]
 old-location: winmsg\getmessageextrainfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessageextrainfo.htm

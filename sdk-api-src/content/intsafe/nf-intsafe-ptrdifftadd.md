@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.PtrdiffTAdd
 title: PtrdiffTAdd function (intsafe.h)
-description: Adds two values of type ptrdiff_t.helpviewer_keywords: ["PtrdiffTAdd","PtrdiffTAdd function [Windows Shell]","intsafe/PtrdiffTAdd","shell.PtrdiffTAdd"]
+description: Adds two values of type ptrdiff_t.
+helpviewer_keywords: ["PtrdiffTAdd","PtrdiffTAdd function [Windows Shell]","intsafe/PtrdiffTAdd","shell.PtrdiffTAdd"]
 old-location: shell\PtrdiffTAdd.htm
 tech.root: shell
 ms.assetid: ed670d8a-ede5-47c5-9cf9-eea32609f195

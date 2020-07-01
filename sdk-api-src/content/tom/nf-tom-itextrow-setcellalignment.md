@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRow.SetCellAlignment
 title: ITextRow::SetCellAlignment (tom.h)
-description: Sets the vertical alignment of the active cell.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetCellAlignment method","ITextRow.SetCellAlignment","ITextRow::SetCellAlignment","SetCellAlignment","SetCellAlignment method [Windows Controls]","SetCellAlignment method [Windows Controls]","ITextRow interface","controls.itextrow_setcellalignment","tom/ITextRow::SetCellAlignment"]
+description: Sets the vertical alignment of the active cell.
+helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetCellAlignment method","ITextRow.SetCellAlignment","ITextRow::SetCellAlignment","SetCellAlignment","SetCellAlignment method [Windows Controls]","SetCellAlignment method [Windows Controls]","ITextRow interface","controls.itextrow_setcellalignment","tom/ITextRow::SetCellAlignment"]
 old-location: controls\itextrow_setcellalignment.htm
 tech.root: Controls
 ms.assetid: dd47cb2f-ddcf-4131-99fd-0981d3c4ec6f

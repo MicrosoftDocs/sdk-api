@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d10.ID3D10RasterizerState
 title: ID3D10RasterizerState (d3d10.h)
-description: A rasterizer-state interface accesses rasterizer state for the rasterizer stage.helpviewer_keywords: ["ID3D10RasterizerState","ID3D10RasterizerState interface [Direct3D 10]","ID3D10RasterizerState interface [Direct3D 10]","described","ce1e96e6-707f-1c9e-1985-3b3acefd307f","d3d10/ID3D10RasterizerState","direct3d10.id3d10rasterizerstate"]
+description: A rasterizer-state interface accesses rasterizer state for the rasterizer stage.
+helpviewer_keywords: ["ID3D10RasterizerState","ID3D10RasterizerState interface [Direct3D 10]","ID3D10RasterizerState interface [Direct3D 10]","described","ce1e96e6-707f-1c9e-1985-3b3acefd307f","d3d10/ID3D10RasterizerState","direct3d10.id3d10rasterizerstate"]
 old-location: direct3d10\id3d10rasterizerstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10rasterizerstate.htm

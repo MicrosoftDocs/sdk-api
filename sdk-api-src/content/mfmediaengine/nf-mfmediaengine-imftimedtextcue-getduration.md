@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetDuration
 title: IMFTimedTextCue::GetDuration (mfmediaengine.h)
-description: Gets the duration time of the cue in the track.helpviewer_keywords: ["GetDuration","GetDuration method [Media Foundation]","GetDuration method [Media Foundation]","IMFTimedTextCue interface","IMFTimedTextCue interface [Media Foundation]","GetDuration method","IMFTimedTextCue.GetDuration","IMFTimedTextCue::GetDuration","mf.imftimedtextcue_getduration","mfmediaengine/IMFTimedTextCue::GetDuration"]
+description: Gets the duration time of the cue in the track.
+helpviewer_keywords: ["GetDuration","GetDuration method [Media Foundation]","GetDuration method [Media Foundation]","IMFTimedTextCue interface","IMFTimedTextCue interface [Media Foundation]","GetDuration method","IMFTimedTextCue.GetDuration","IMFTimedTextCue::GetDuration","mf.imftimedtextcue_getduration","mfmediaengine/IMFTimedTextCue::GetDuration"]
 old-location: mf\imftimedtextcue_getduration.htm
 tech.root: medfound
 ms.assetid: 6E2CD435-C628-4F8B-B648-9EEBCFDA8EC2

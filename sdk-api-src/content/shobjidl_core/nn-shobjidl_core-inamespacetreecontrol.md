@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.INameSpaceTreeControl
 title: INameSpaceTreeControl (shobjidl_core.h)
-description: Exposes methods used to view and manipulate nodes in a tree of Shell items.helpviewer_keywords: ["INameSpaceTreeControl","INameSpaceTreeControl interface [Windows Shell]","INameSpaceTreeControl interface [Windows Shell]","described","_shell_INameSpaceTreeControl","shell.INameSpaceTreeControl","shobjidl_core/INameSpaceTreeControl"]
+description: Exposes methods used to view and manipulate nodes in a tree of Shell items.
+helpviewer_keywords: ["INameSpaceTreeControl","INameSpaceTreeControl interface [Windows Shell]","INameSpaceTreeControl interface [Windows Shell]","described","_shell_INameSpaceTreeControl","shell.INameSpaceTreeControl","shobjidl_core/INameSpaceTreeControl"]
 old-location: shell\INameSpaceTreeControl.htm
 tech.root: shell
 ms.assetid: 2072cb3c-e540-4708-bfe8-33fff3a190bd

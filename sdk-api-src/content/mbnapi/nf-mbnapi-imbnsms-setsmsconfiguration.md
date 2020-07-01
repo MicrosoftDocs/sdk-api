@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnSms.SetSmsConfiguration
 title: IMbnSms::SetSmsConfiguration (mbnapi.h)
-description: Updates the SMS configuration for a device.helpviewer_keywords: ["IMbnSms interface [Microsoft Broadband Networks]","SetSmsConfiguration method","IMbnSms.SetSmsConfiguration","IMbnSms::SetSmsConfiguration","SetSmsConfiguration","SetSmsConfiguration method [Microsoft Broadband Networks]","SetSmsConfiguration method [Microsoft Broadband Networks]","IMbnSms interface","mbn.imbnsms_setsmsconfiguration","mbnapi/IMbnSms::SetSmsConfiguration"]
+description: Updates the SMS configuration for a device.
+helpviewer_keywords: ["IMbnSms interface [Microsoft Broadband Networks]","SetSmsConfiguration method","IMbnSms.SetSmsConfiguration","IMbnSms::SetSmsConfiguration","SetSmsConfiguration","SetSmsConfiguration method [Microsoft Broadband Networks]","SetSmsConfiguration method [Microsoft Broadband Networks]","IMbnSms interface","mbn.imbnsms_setsmsconfiguration","mbnapi/IMbnSms::SetSmsConfiguration"]
 old-location: mbn\imbnsms_setsmsconfiguration.htm
 tech.root: mbn
 ms.assetid: 8ed3af39-345b-4bfb-aea1-072a64f7921a

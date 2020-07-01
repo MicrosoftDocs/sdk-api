@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArrayDestroyData
 title: SafeArrayDestroyData function (oleauto.h)
-description: Destroys all the data in the specified safe array.helpviewer_keywords: ["SafeArrayDestroyData","SafeArrayDestroyData function [Automation]","_oa96_SafeArrayDestroyData","automat.safearraydestroydata","oleauto/SafeArrayDestroyData"]
+description: Destroys all the data in the specified safe array.
+helpviewer_keywords: ["SafeArrayDestroyData","SafeArrayDestroyData function [Automation]","_oa96_SafeArrayDestroyData","automat.safearraydestroydata","oleauto/SafeArrayDestroyData"]
 old-location: automat\safearraydestroydata.htm
 tech.root: automat
 ms.assetid: aa9c62ba-79b5-4fcf-b3ed-664016486dfc

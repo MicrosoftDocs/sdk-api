@@ -1,7 +1,8 @@
 ---
 UID: NS:jobapi2.JOBOBJECT_IO_RATE_CONTROL_INFORMATION
 title: JOBOBJECT_IO_RATE_CONTROL_INFORMATION (jobapi2.h)
-description: Contains information used to control the I/O rate for a job. This structure is used by the SetIoRateControlInformationJobObject and QueryIoRateControlInformationJobObject functions.helpviewer_keywords: ["JOBOBJECT_IO_RATE_CONTROL_INFORMATION","JOBOBJECT_IO_RATE_CONTROL_INFORMATION structure","JOB_OBJECT_IO_RATE_CONTROL_ENABLE","base.jobobject_io_rate_control_information","jobapi2/JOBOBJECT_IO_RATE_CONTROL_INFORMATION"]
+description: Contains information used to control the I/O rate for a job. This structure is used by the SetIoRateControlInformationJobObject and QueryIoRateControlInformationJobObject functions.
+helpviewer_keywords: ["JOBOBJECT_IO_RATE_CONTROL_INFORMATION","JOBOBJECT_IO_RATE_CONTROL_INFORMATION structure","JOB_OBJECT_IO_RATE_CONTROL_ENABLE","base.jobobject_io_rate_control_information","jobapi2/JOBOBJECT_IO_RATE_CONTROL_INFORMATION"]
 old-location: base\jobobject_io_rate_control_information.htm
 tech.root: ProcThread
 ms.assetid: E4AA03B5-4D83-4826-B85D-FA4B412AFEBF

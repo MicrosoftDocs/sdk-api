@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11shadertracing.ID3D11ShaderTraceFactory
 title: ID3D11ShaderTraceFactory (d3d11shadertracing.h)
-description: An ID3D11ShaderTraceFactory interface implements a method for generating shader trace information objects.helpviewer_keywords: ["ID3D11ShaderTraceFactory","ID3D11ShaderTraceFactory interface [Direct3D 11]","ID3D11ShaderTraceFactory interface [Direct3D 11]","described","d3d11shadertracing/ID3D11ShaderTraceFactory","direct3d11.id3d11shadertracefactory"]
+description: An ID3D11ShaderTraceFactory interface implements a method for generating shader trace information objects.
+helpviewer_keywords: ["ID3D11ShaderTraceFactory","ID3D11ShaderTraceFactory interface [Direct3D 11]","ID3D11ShaderTraceFactory interface [Direct3D 11]","described","d3d11shadertracing/ID3D11ShaderTraceFactory","direct3d11.id3d11shadertracefactory"]
 old-location: direct3d11\id3d11shadertracefactory.htm
 tech.root: direct3d11
 ms.assetid: 0B90EA4B-0176-49DC-8A57-4D847552EFA3

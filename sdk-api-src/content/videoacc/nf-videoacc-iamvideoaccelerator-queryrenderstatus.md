@@ -1,7 +1,8 @@
 ---
 UID: NF:videoacc.IAMVideoAccelerator.QueryRenderStatus
 title: IAMVideoAccelerator::QueryRenderStatus (videoacc.h)
-description: The QueryRenderStatus method queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.helpviewer_keywords: ["AMVA_QUERYRENDERSTATUSF_READ","IAMVideoAccelerator interface [DirectShow]","QueryRenderStatus method","IAMVideoAccelerator.QueryRenderStatus","IAMVideoAccelerator::QueryRenderStatus","IAMVideoAcceleratorQueryRenderStatus","QueryRenderStatus","QueryRenderStatus method [DirectShow]","QueryRenderStatus method [DirectShow]","IAMVideoAccelerator interface","Zero","dshow.iamvideoaccelerator_queryrenderstatus","videoacc/IAMVideoAccelerator::QueryRenderStatus"]
+description: The QueryRenderStatus method queries the read/write status of a DirectX Video Acceleration (DXVA) decoding surface.
+helpviewer_keywords: ["AMVA_QUERYRENDERSTATUSF_READ","IAMVideoAccelerator interface [DirectShow]","QueryRenderStatus method","IAMVideoAccelerator.QueryRenderStatus","IAMVideoAccelerator::QueryRenderStatus","IAMVideoAcceleratorQueryRenderStatus","QueryRenderStatus","QueryRenderStatus method [DirectShow]","QueryRenderStatus method [DirectShow]","IAMVideoAccelerator interface","Zero","dshow.iamvideoaccelerator_queryrenderstatus","videoacc/IAMVideoAccelerator::QueryRenderStatus"]
 old-location: dshow\iamvideoaccelerator_queryrenderstatus.htm
 tech.root: DirectShow
 ms.assetid: 29d77bd5-2823-4e67-a69f-2898ad4c467c

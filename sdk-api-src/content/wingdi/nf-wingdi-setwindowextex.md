@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetWindowExtEx
 title: SetWindowExtEx function (wingdi.h)
-description: The SetWindowExtEx function sets the horizontal and vertical extents of the window for a device context by using the specified values.helpviewer_keywords: ["SetWindowExtEx","SetWindowExtEx function [Windows GDI]","_win32_SetWindowExtEx","gdi.setwindowextex","wingdi/SetWindowExtEx"]
+description: The SetWindowExtEx function sets the horizontal and vertical extents of the window for a device context by using the specified values.
+helpviewer_keywords: ["SetWindowExtEx","SetWindowExtEx function [Windows GDI]","_win32_SetWindowExtEx","gdi.setwindowextex","wingdi/SetWindowExtEx"]
 old-location: gdi\setwindowextex.htm
 tech.root: gdi
 ms.assetid: 8fd13d56-f6fa-4aea-a7e5-535caf22a840

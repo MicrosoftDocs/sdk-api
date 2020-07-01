@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsController.GetSubSystem
 title: IVdsController::GetSubSystem (vds.h)
-description: Returns the subsystem to which the controller belongs.helpviewer_keywords: ["GetSubSystem","GetSubSystem method [VDS]","GetSubSystem method [VDS]","IVdsController interface","IVdsController interface [VDS]","GetSubSystem method","IVdsController.GetSubSystem","IVdsController::GetSubSystem","base.ivdscontroller_getsubsystem","vds/IVdsController::GetSubSystem","vdshwprv/IVdsController::GetSubSystem"]
+description: Returns the subsystem to which the controller belongs.
+helpviewer_keywords: ["GetSubSystem","GetSubSystem method [VDS]","GetSubSystem method [VDS]","IVdsController interface","IVdsController interface [VDS]","GetSubSystem method","IVdsController.GetSubSystem","IVdsController::GetSubSystem","base.ivdscontroller_getsubsystem","vds/IVdsController::GetSubSystem","vdshwprv/IVdsController::GetSubSystem"]
 old-location: base\ivdscontroller_getsubsystem.htm
 tech.root: VDS
 ms.assetid: 8635d594-b58a-4ee1-9966-1340d954da81

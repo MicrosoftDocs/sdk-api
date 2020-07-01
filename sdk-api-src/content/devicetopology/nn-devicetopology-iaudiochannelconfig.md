@@ -1,7 +1,8 @@
 ---
 UID: NN:devicetopology.IAudioChannelConfig
 title: IAudioChannelConfig (devicetopology.h)
-description: The IAudioChannelConfig interface provides access to a hardware channel-configuration control.helpviewer_keywords: ["IAudioChannelConfig","IAudioChannelConfig interface [Core Audio]","IAudioChannelConfig interface [Core Audio]","described","coreaudio.iaudiochannelconfig","devicetopology/IAudioChannelConfig"]
+description: The IAudioChannelConfig interface provides access to a hardware channel-configuration control.
+helpviewer_keywords: ["IAudioChannelConfig","IAudioChannelConfig interface [Core Audio]","IAudioChannelConfig interface [Core Audio]","described","coreaudio.iaudiochannelconfig","devicetopology/IAudioChannelConfig"]
 old-location: coreaudio\iaudiochannelconfig.htm
 tech.root: CoreAudio
 ms.assetid: b8e54e9e-a6eb-46e6-a71c-ff498c7e8f47

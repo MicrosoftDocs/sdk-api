@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IRunningTask.Refresh
 title: IRunningTask::Refresh (taskschd.h)
-description: Refreshes all of the local instance variables of the task.helpviewer_keywords: ["IRunningTask interface [Task Scheduler]","Refresh method","IRunningTask.Refresh","IRunningTask::Refresh","Refresh","Refresh method [Task Scheduler]","Refresh method [Task Scheduler]","IRunningTask interface","taskschd.irunningtask_refresh","taskschd/IRunningTask::Refresh"]
+description: Refreshes all of the local instance variables of the task.
+helpviewer_keywords: ["IRunningTask interface [Task Scheduler]","Refresh method","IRunningTask.Refresh","IRunningTask::Refresh","Refresh","Refresh method [Task Scheduler]","Refresh method [Task Scheduler]","IRunningTask interface","taskschd.irunningtask_refresh","taskschd/IRunningTask::Refresh"]
 old-location: taskschd\irunningtask_refresh.htm
 tech.root: taskschd
 ms.assetid: f46d82ff-2f1b-477b-b043-665659ad8982

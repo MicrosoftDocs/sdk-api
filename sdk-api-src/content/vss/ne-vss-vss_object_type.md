@@ -126,8 +126,6 @@ The <b>Type</b> member of
 ## -see-also
 
 
-
-
 <a href="/windows/desktop/api/vsbackup/nf-vsbackup-ivssbackupcomponents-deletesnapshots">IVssBackupComponents::DeleteSnapshots</a>
 
 
@@ -145,6 +143,3 @@ The <b>Type</b> member of
 
 
 <a href="/windows/desktop/api/vss/ns-vss-vss_object_prop">VSS_OBJECT_PROP</a>
-
-
-

@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcServerUseAllProtseqsIf
 title: RpcServerUseAllProtseqsIf function (rpcdce.h)
-description: The RpcServerUseAllProtseqsIf function tells the RPC run-time library to use all specified protocol sequences and endpoints in the interface specification for receiving remote procedure calls.helpviewer_keywords: ["RpcServerUseAllProtseqsIf","RpcServerUseAllProtseqsIf function [RPC]","_rpc_rpcserveruseallprotseqsif","rpc.rpcserveruseallprotseqsif","rpcdce/RpcServerUseAllProtseqsIf"]
+description: The RpcServerUseAllProtseqsIf function tells the RPC run-time library to use all specified protocol sequences and endpoints in the interface specification for receiving remote procedure calls.
+helpviewer_keywords: ["RpcServerUseAllProtseqsIf","RpcServerUseAllProtseqsIf function [RPC]","_rpc_rpcserveruseallprotseqsif","rpc.rpcserveruseallprotseqsif","rpcdce/RpcServerUseAllProtseqsIf"]
 old-location: rpc\rpcserveruseallprotseqsif.htm
 tech.root: Rpc
 ms.assetid: 6f3f7726-3e12-4b0b-8454-25f06a29b245

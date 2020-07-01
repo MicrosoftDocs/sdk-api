@@ -1,7 +1,8 @@
 ---
 UID: NE:uiautomationcore.NotificationProcessing
 title: NotificationProcessing (uiautomationcore.h)
-description: Defines values that indicate how a notification should be processed.helpviewer_keywords: ["NotificationProcessing","NotificationProcessing enumeration [Windows Accessibility]","NotificationProcessing_All","NotificationProcessing_CurrentThenMostRecent","NotificationProcessing_ImportantAll","NotificationProcessing_ImportantMostRecent","NotificationProcessing_MostRecent","uiautomationclient/NotificationProcessing","uiautomationclient/NotificationProcessing_All","uiautomationclient/NotificationProcessing_CurrentThenMostRecent","uiautomationclient/NotificationProcessing_ImportantAll","uiautomationclient/NotificationProcessing_ImportantMostRecent","uiautomationclient/NotificationProcessing_MostRecent","winauto.uiauto_NotificationProcessing"]
+description: Defines values that indicate how a notification should be processed.
+helpviewer_keywords: ["NotificationProcessing","NotificationProcessing enumeration [Windows Accessibility]","NotificationProcessing_All","NotificationProcessing_CurrentThenMostRecent","NotificationProcessing_ImportantAll","NotificationProcessing_ImportantMostRecent","NotificationProcessing_MostRecent","uiautomationclient/NotificationProcessing","uiautomationclient/NotificationProcessing_All","uiautomationclient/NotificationProcessing_CurrentThenMostRecent","uiautomationclient/NotificationProcessing_ImportantAll","uiautomationclient/NotificationProcessing_ImportantMostRecent","uiautomationclient/NotificationProcessing_MostRecent","winauto.uiauto_NotificationProcessing"]
 old-location: winauto\uiauto_NotificationProcessing.htm
 tech.root: WinAuto
 ms.assetid: 5A6969E1-2350-4418-B02A-0C92D8A246A1

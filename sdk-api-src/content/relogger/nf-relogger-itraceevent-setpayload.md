@@ -1,7 +1,8 @@
 ---
 UID: NF:relogger.ITraceEvent.SetPayload
 title: ITraceEvent::SetPayload (relogger.h)
-description: Sets the payload for an event.helpviewer_keywords: ["ITraceEvent interface [ETW]","SetPayload method","ITraceEvent.SetPayload","ITraceEvent::SetPayload","SetPayload","SetPayload method [ETW]","SetPayload method [ETW]","ITraceEvent interface","etw.ievent_setpayload","relogger/ITraceEvent::SetPayload"]
+description: Sets the payload for an event.
+helpviewer_keywords: ["ITraceEvent interface [ETW]","SetPayload method","ITraceEvent.SetPayload","ITraceEvent::SetPayload","SetPayload","SetPayload method [ETW]","SetPayload method [ETW]","ITraceEvent interface","etw.ievent_setpayload","relogger/ITraceEvent::SetPayload"]
 old-location: etw\ievent_setpayload.htm
 tech.root: ETW
 ms.assetid: 180e0487-5262-45ae-a701-3fcb575637ae

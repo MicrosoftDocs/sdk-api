@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.ISurrogateService.ProcessShutdown
 title: ISurrogateService::ProcessShutdown (objidl.h)
-description: Shuts down the process.helpviewer_keywords: ["ISurrogateService interface [COM]","ProcessShutdown method","ISurrogateService.ProcessShutdown","ISurrogateService::ProcessShutdown","ProcessShutdown","ProcessShutdown method [COM]","ProcessShutdown method [COM]","ISurrogateService interface","_com_isurrogateservice_processshutdown","com.isurrogateservice_processshutdown","objidl/ISurrogateService::ProcessShutdown"]
+description: Shuts down the process.
+helpviewer_keywords: ["ISurrogateService interface [COM]","ProcessShutdown method","ISurrogateService.ProcessShutdown","ISurrogateService::ProcessShutdown","ProcessShutdown","ProcessShutdown method [COM]","ProcessShutdown method [COM]","ISurrogateService interface","_com_isurrogateservice_processshutdown","com.isurrogateservice_processshutdown","objidl/ISurrogateService::ProcessShutdown"]
 old-location: com\isurrogateservice_processshutdown.htm
 tech.root: com
 ms.assetid: b01dc079-647c-4e58-a36b-0a665355afb7

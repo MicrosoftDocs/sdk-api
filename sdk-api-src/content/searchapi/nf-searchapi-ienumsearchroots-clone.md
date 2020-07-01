@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IEnumSearchRoots.Clone
 title: IEnumSearchRoots::Clone (searchapi.h)
-description: Creates a copy of the IEnumSearchRoots object with the same contents and state as the current one.helpviewer_keywords: ["Clone","Clone method [search]","Clone method [search]","IEnumSearchRoots interface","IEnumSearchRoots interface [search]","Clone method","IEnumSearchRoots.Clone","IEnumSearchRoots::Clone","_search_IEnumSearchRoots_Clone","search._search_IEnumSearchRoots_Clone","searchapi/IEnumSearchRoots::Clone"]
+description: Creates a copy of the IEnumSearchRoots object with the same contents and state as the current one.
+helpviewer_keywords: ["Clone","Clone method [search]","Clone method [search]","IEnumSearchRoots interface","IEnumSearchRoots interface [search]","Clone method","IEnumSearchRoots.Clone","IEnumSearchRoots::Clone","_search_IEnumSearchRoots_Clone","search._search_IEnumSearchRoots_Clone","searchapi/IEnumSearchRoots::Clone"]
 old-location: search\_search_IEnumSearchRoots_Clone.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\ienumsearchroots\clone.htm
@@ -80,8 +81,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-        
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

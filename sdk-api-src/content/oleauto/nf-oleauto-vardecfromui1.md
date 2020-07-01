@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarDecFromUI1
 title: VarDecFromUI1 function (oleauto.h)
-description: Converts an unsigned char value to a decimal value.helpviewer_keywords: ["VarDecFromUI1","VarDecFromUI1 function [Automation]","_oa96_VarDecFromUI1","automat.vardecfromui1","oleauto/VarDecFromUI1"]
+description: Converts an unsigned char value to a decimal value.
+helpviewer_keywords: ["VarDecFromUI1","VarDecFromUI1 function [Automation]","_oa96_VarDecFromUI1","automat.vardecfromui1","oleauto/VarDecFromUI1"]
 old-location: automat\vardecfromui1.htm
 tech.root: automat
 ms.assetid: dd326a61-42d1-4cf5-bd63-98a6ecdf6ce8

@@ -1,7 +1,8 @@
 ---
 UID: NS:tcpmib._MIB_TCPTABLE2
 title: MIB_TCPTABLE2 (tcpmib.h)
-description: Contains a table of IPv4 TCP connections on the local computer.helpviewer_keywords: ["*PMIB_TCPTABLE2","MIB_TCPTABLE2","MIB_TCPTABLE2 structure [MIB]","PMIB_TCPTABLE2","PMIB_TCPTABLE2 structure pointer [MIB]","mib.mib_tcptable2","tcpmib/MIB_TCPTABLE2","tcpmib/PMIB_TCPTABLE2"]
+description: Contains a table of IPv4 TCP connections on the local computer.
+helpviewer_keywords: ["*PMIB_TCPTABLE2","MIB_TCPTABLE2","MIB_TCPTABLE2 structure [MIB]","PMIB_TCPTABLE2","PMIB_TCPTABLE2 structure pointer [MIB]","mib.mib_tcptable2","tcpmib/MIB_TCPTABLE2","tcpmib/PMIB_TCPTABLE2"]
 old-location: mib\mib_tcptable2.htm
 tech.root: MIB
 ms.assetid: e07de994-0bd5-4d18-9012-8ff191dd6939

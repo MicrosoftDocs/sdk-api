@@ -1,7 +1,8 @@
 ---
 UID: NS:wdspxe.tagPXE_DHCPV6_RELAY_MESSAGE
 title: PXE_DHCPV6_RELAY_MESSAGE (wdspxe.h)
-description: Provides the DHCPV6 relay message.helpviewer_keywords: ["*PPXE_DHCPV6_RELAY_MESSAGE","PPXE_DHCPV6_RELAY_MESSAGE","PPXE_DHCPV6_RELAY_MESSAGE structure pointer [Windows Deployment Services]","PXE_DHCPV6_RELAY_MESSAGE","PXE_DHCPV6_RELAY_MESSAGE structure [Windows Deployment Services]","wds.pxe_dhcpv6_relay_message","wdspxe/PPXE_DHCPV6_RELAY_MESSAGE","wdspxe/PXE_DHCPV6_RELAY_MESSAGE"]
+description: Provides the DHCPV6 relay message.
+helpviewer_keywords: ["*PPXE_DHCPV6_RELAY_MESSAGE","PPXE_DHCPV6_RELAY_MESSAGE","PPXE_DHCPV6_RELAY_MESSAGE structure pointer [Windows Deployment Services]","PXE_DHCPV6_RELAY_MESSAGE","PXE_DHCPV6_RELAY_MESSAGE structure [Windows Deployment Services]","wds.pxe_dhcpv6_relay_message","wdspxe/PPXE_DHCPV6_RELAY_MESSAGE","wdspxe/PXE_DHCPV6_RELAY_MESSAGE"]
 old-location: wds\pxe_dhcpv6_relay_message.htm
 tech.root: wds
 ms.assetid: 6C27D67D-938B-4357-9664-704FC04DCFBB

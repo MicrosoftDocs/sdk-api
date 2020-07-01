@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagMDICREATESTRUCTW
 title: MDICREATESTRUCTW (winuser.h)
-description: Contains information about the class, title, owner, location, and size of a multiple-document interface (MDI) child window.helpviewer_keywords: ["*LPMDICREATESTRUCTW","LPMDICREATESTRUCT","LPMDICREATESTRUCT structure pointer [Windows and Messages]","MDICREATESTRUCT","MDICREATESTRUCT structure [Windows and Messages]","MDICREATESTRUCTA","MDICREATESTRUCTW","WS_HSCROLL","WS_MAXIMIZE","WS_MINIMIZE","WS_VSCROLL","_win32_MDICREATESTRUCT_str","_win32_mdicreatestruct_str_cpp","winmsg.mdicreatestruct","winui._win32_mdicreatestruct_str","winuser/LPMDICREATESTRUCT","winuser/MDICREATESTRUCT","winuser/MDICREATESTRUCTA","winuser/MDICREATESTRUCTW"]
+description: Contains information about the class, title, owner, location, and size of a multiple-document interface (MDI) child window.
+helpviewer_keywords: ["*LPMDICREATESTRUCTW","LPMDICREATESTRUCT","LPMDICREATESTRUCT structure pointer [Windows and Messages]","MDICREATESTRUCT","MDICREATESTRUCT structure [Windows and Messages]","MDICREATESTRUCTA","MDICREATESTRUCTW","WS_HSCROLL","WS_MAXIMIZE","WS_MINIMIZE","WS_VSCROLL","_win32_MDICREATESTRUCT_str","_win32_mdicreatestruct_str_cpp","winmsg.mdicreatestruct","winui._win32_mdicreatestruct_str","winuser/LPMDICREATESTRUCT","winuser/MDICREATESTRUCT","winuser/MDICREATESTRUCTA","winuser/MDICREATESTRUCTW"]
 old-location: winmsg\mdicreatestruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacestructures\mdicreatestruct.htm
@@ -187,6 +188,10 @@ When the MDI client window creates an MDI child window
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines MDICREATESTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

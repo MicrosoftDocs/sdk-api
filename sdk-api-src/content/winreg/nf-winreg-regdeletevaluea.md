@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegDeleteValueA
 title: RegDeleteValueA function (winreg.h)
-description: Removes a named value from the specified registry key.helpviewer_keywords: ["RegDeleteValue","RegDeleteValue function","RegDeleteValueA","RegDeleteValueW","_win32_regdeletevalue","base.regdeletevalue","winreg/RegDeleteValue","winreg/RegDeleteValueA","winreg/RegDeleteValueW"]
+description: Removes a named value from the specified registry key.
+helpviewer_keywords: ["RegDeleteValue","RegDeleteValue function","RegDeleteValueA","RegDeleteValueW","_win32_regdeletevalue","base.regdeletevalue","winreg/RegDeleteValue","winreg/RegDeleteValueA","winreg/RegDeleteValueW"]
 old-location: base\regdeletevalue.htm
 tech.root: SysInfo
 ms.assetid: 4393b4ef-cd10-40d4-bb12-2d84e7cb7d3c
@@ -130,4 +131,9 @@ If the function fails, the return value is a nonzero error code defined in Winer
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winreg.h header defines RegDeleteValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

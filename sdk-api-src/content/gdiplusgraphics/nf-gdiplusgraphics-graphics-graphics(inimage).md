@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.Graphics(IN Image)
+UID: NF:gdiplusgraphics.Graphics.Graphics(INImage)
 title: Graphics::Graphics(IN Image) (gdiplusgraphics.h)
-description: Creates a Graphics::Graphics object that is associated with an Image object.helpviewer_keywords: ["Graphics","Graphics class [GDI+]","Graphics constructor","Graphics constructor [GDI+]","Graphics constructor [GDI+]","Graphics class","Graphics.Graphics","Graphics.Graphics(IN Image)","Graphics.Graphics(Image*)","Graphics::Graphics","Graphics::Graphics(IN Image)","_gdiplus_CLASS_Graphics_Graphics_image_","gdiplus._gdiplus_CLASS_Graphics_Graphics_image_"]
+description: Creates a Graphics::Graphics object that is associated with an Image object.
+helpviewer_keywords: ["Graphics","Graphics class [GDI+]","Graphics constructor","Graphics constructor [GDI+]","Graphics constructor [GDI+]","Graphics class","Graphics.Graphics","Graphics.Graphics(IN Image)","Graphics.Graphics(Image*)","Graphics::Graphics","Graphics::Graphics(IN Image)","_gdiplus_CLASS_Graphics_Graphics_image_","gdiplus._gdiplus_CLASS_Graphics_Graphics_image_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Graphics_image_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsconstructors\graphics_30image.htm

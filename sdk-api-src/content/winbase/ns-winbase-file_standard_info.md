@@ -1,7 +1,8 @@
 ---
 UID: NS:winbase._FILE_STANDARD_INFO
 title: FILE_STANDARD_INFO (winbase.h)
-description: Receives extended information for the file.helpviewer_keywords: ["*PFILE_STANDARD_INFO","FILE_STANDARD_INFO","FILE_STANDARD_INFO structure [Files]","PFILE_STANDARD_INFO","PFILE_STANDARD_INFO structure pointer [Files]","fileextd/FILE_STANDARD_INFO","fileextd/PFILE_STANDARD_INFO","fs.file_standard_info","winbase/FILE_STANDARD_INFO","winbase/PFILE_STANDARD_INFO"]
+description: Receives extended information for the file.
+helpviewer_keywords: ["*PFILE_STANDARD_INFO","FILE_STANDARD_INFO","FILE_STANDARD_INFO structure [Files]","PFILE_STANDARD_INFO","PFILE_STANDARD_INFO structure pointer [Files]","fileextd/FILE_STANDARD_INFO","fileextd/PFILE_STANDARD_INFO","fs.file_standard_info","winbase/FILE_STANDARD_INFO","winbase/PFILE_STANDARD_INFO"]
 old-location: fs\file_standard_info.htm
 tech.root: FileIO
 ms.assetid: da3187de-7de2-4307-a083-ae5fff6d8096

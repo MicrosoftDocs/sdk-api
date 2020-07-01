@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1SvgGlyphStyle.GetStroke
 title: ID2D1SvgGlyphStyle::GetStroke (d2d1_3.h)
-description: Returns the requested stroke parameters.helpviewer_keywords: ["GetStroke","GetStroke method [Direct2D]","GetStroke method [Direct2D]","ID2D1SvgGlyphStyle interface","ID2D1SvgGlyphStyle interface [Direct2D]","GetStroke method","ID2D1SvgGlyphStyle.GetStroke","ID2D1SvgGlyphStyle::GetStroke","d2d1_3/ID2D1SvgGlyphStyle::GetStroke","direct2d.id2d1svgglyphstyle_getstroke"]
+description: Returns the requested stroke parameters.
+helpviewer_keywords: ["GetStroke","GetStroke method [Direct2D]","GetStroke method [Direct2D]","ID2D1SvgGlyphStyle interface","ID2D1SvgGlyphStyle interface [Direct2D]","GetStroke method","ID2D1SvgGlyphStyle.GetStroke","ID2D1SvgGlyphStyle::GetStroke","d2d1_3/ID2D1SvgGlyphStyle::GetStroke","direct2d.id2d1svgglyphstyle_getstroke"]
 old-location: direct2d\id2d1svgglyphstyle_getstroke.htm
 tech.root: Direct2D
 ms.assetid: 5EC78516-E0E2-4758-9C36-47F951D1BCAE

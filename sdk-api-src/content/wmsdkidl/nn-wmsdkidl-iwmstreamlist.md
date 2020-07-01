@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMStreamList
 title: IWMStreamList (wmsdkidl.h)
-description: The IWMStreamList interface is used by mutual exclusion objects and bandwidth sharing objects to maintain lists of streams.helpviewer_keywords: ["IWMStreamList","IWMStreamList interface [windows Media Format]","IWMStreamList interface [windows Media Format]","described","IWMStreamListInterface","wmformat.iwmstreamlist","wmsdkidl/IWMStreamList"]
+description: The IWMStreamList interface is used by mutual exclusion objects and bandwidth sharing objects to maintain lists of streams.
+helpviewer_keywords: ["IWMStreamList","IWMStreamList interface [windows Media Format]","IWMStreamList interface [windows Media Format]","described","IWMStreamListInterface","wmformat.iwmstreamlist","wmsdkidl/IWMStreamList"]
 old-location: wmformat\iwmstreamlist.htm
 tech.root: wmformat
 ms.assetid: 076bb0bf-3cf8-48b4-bfca-abbd9c1bf211

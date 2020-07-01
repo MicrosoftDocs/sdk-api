@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminServerGetInfoEx
 title: MprAdminServerGetInfoEx function (mprapi.h)
-description: The MprAdminServerGetInfoEx function retrieves port information about the specified RRAS server.helpviewer_keywords: ["MprAdminServerGetInfoEx","MprAdminServerGetInfoEx function [RAS]","mprapi/MprAdminServerGetInfoEx","rras.mpradminservergetinfoex"]
+description: The MprAdminServerGetInfoEx function retrieves port information about the specified RRAS server.
+helpviewer_keywords: ["MprAdminServerGetInfoEx","MprAdminServerGetInfoEx function [RAS]","mprapi/MprAdminServerGetInfoEx","rras.mpradminservergetinfoex"]
 old-location: rras\mpradminservergetinfoex.htm
 tech.root: RRAS
 ms.assetid: 19fff58d-6e13-478f-a960-de5d0702661c

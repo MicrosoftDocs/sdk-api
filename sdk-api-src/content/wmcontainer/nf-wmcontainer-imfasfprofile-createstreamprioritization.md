@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.CreateStreamPrioritization
 title: IMFASFProfile::CreateStreamPrioritization (wmcontainer.h)
-description: IMFASFProfile::CreateStreamPrioritization methodhelpviewer_keywords: ["1c3a5470-eba9-4233-8744-8630002d3fa0","CreateStreamPrioritization","CreateStreamPrioritization method [Media Foundation]","CreateStreamPrioritization method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","CreateStreamPrioritization method","IMFASFProfile.CreateStreamPrioritization","IMFASFProfile::CreateStreamPrioritization","mf.imfasfprofile_createstreamprioritization","wmcontainer/IMFASFProfile::CreateStreamPrioritization"]
+description: IMFASFProfile::CreateStreamPrioritization method
+helpviewer_keywords: ["1c3a5470-eba9-4233-8744-8630002d3fa0","CreateStreamPrioritization","CreateStreamPrioritization method [Media Foundation]","CreateStreamPrioritization method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","CreateStreamPrioritization method","IMFASFProfile.CreateStreamPrioritization","IMFASFProfile::CreateStreamPrioritization","mf.imfasfprofile_createstreamprioritization","wmcontainer/IMFASFProfile::CreateStreamPrioritization"]
 old-location: mf\imfasfprofile_createstreamprioritization.htm
 tech.root: medfound
 ms.assetid: 1c3a5470-eba9-4233-8744-8630002d3fa0

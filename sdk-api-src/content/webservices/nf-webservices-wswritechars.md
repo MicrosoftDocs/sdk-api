@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsWriteChars
 title: WsWriteChars function (webservices.h)
-description: Writes a series of characters to an element or attribute.helpviewer_keywords: ["WsWriteChars","WsWriteChars function [Web Services for Windows]","webservices/WsWriteChars","wsw.wswritechars"]
+description: Writes a series of characters to an element or attribute.
+helpviewer_keywords: ["WsWriteChars","WsWriteChars function [Web Services for Windows]","webservices/WsWriteChars","wsw.wswritechars"]
 old-location: wsw\wswritechars.htm
 tech.root: wsw
 ms.assetid: e435058f-62b5-4ae9-800e-e022033a9664

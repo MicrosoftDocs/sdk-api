@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreatePath
 title: IXpsOMObjectFactory::CreatePath (xpsobjectmodel.h)
-description: Creates an IXpsOMPath interface that specifies a graphical path element on a page.helpviewer_keywords: ["CreatePath","CreatePath method [XPS Documents and Packaging]","CreatePath method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePath method","IXpsOMObjectFactory.CreatePath","IXpsOMObjectFactory::CreatePath","xps.ixpsomobjectfactory_createpath","xpsobjectmodel/IXpsOMObjectFactory::CreatePath"]
+description: Creates an IXpsOMPath interface that specifies a graphical path element on a page.
+helpviewer_keywords: ["CreatePath","CreatePath method [XPS Documents and Packaging]","CreatePath method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreatePath method","IXpsOMObjectFactory.CreatePath","IXpsOMObjectFactory::CreatePath","xps.ixpsomobjectfactory_createpath","xpsobjectmodel/IXpsOMObjectFactory::CreatePath"]
 old-location: xps\ixpsomobjectfactory_createpath.htm
 tech.root: printdocs
 ms.assetid: aa5dcddd-9ca7-4b8f-9f4f-aa0f851e8697

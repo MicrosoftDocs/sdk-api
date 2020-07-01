@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFRemoteProxy.GetRemoteObject
 title: IMFRemoteProxy::GetRemoteObject (mfidl.h)
-description: Retrieves a pointer to the remote object for which this object is a proxy.helpviewer_keywords: ["2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3","GetRemoteObject","GetRemoteObject method [Media Foundation]","GetRemoteObject method [Media Foundation]","IMFRemoteProxy interface","IMFRemoteProxy interface [Media Foundation]","GetRemoteObject method","IMFRemoteProxy.GetRemoteObject","IMFRemoteProxy::GetRemoteObject","mf.imfremoteproxy_getremoteobject","mfidl/IMFRemoteProxy::GetRemoteObject"]
+description: Retrieves a pointer to the remote object for which this object is a proxy.
+helpviewer_keywords: ["2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3","GetRemoteObject","GetRemoteObject method [Media Foundation]","GetRemoteObject method [Media Foundation]","IMFRemoteProxy interface","IMFRemoteProxy interface [Media Foundation]","GetRemoteObject method","IMFRemoteProxy.GetRemoteObject","IMFRemoteProxy::GetRemoteObject","mf.imfremoteproxy_getremoteobject","mfidl/IMFRemoteProxy::GetRemoteObject"]
 old-location: mf\imfremoteproxy_getremoteobject.htm
 tech.root: medfound
 ms.assetid: 2d9e35bd-fe4c-4a98-91c8-2192ae34b2b3

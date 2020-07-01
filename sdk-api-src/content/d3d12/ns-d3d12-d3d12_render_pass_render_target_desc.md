@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_RENDER_PASS_RENDER_TARGET_DESC
 title: D3D12_RENDER_PASS_RENDER_TARGET_DESC (d3d12.h)
-description: Describes bindings (fixed for the duration of the render pass) to one or more render target views (RTVs), as well as their beginning and ending access characteristics.helpviewer_keywords: ["D3D12_RENDER_PASS_RENDER_TARGET_DESC","D3D12_RENDER_PASS_RENDER_TARGET_DESC structure","d3d12/D3D12_RENDER_PASS_RENDER_TARGET_DESC","direct3d12.d3d12_render_pass_render_target_desc"]
+description: Describes bindings (fixed for the duration of the render pass) to one or more render target views (RTVs), as well as their beginning and ending access characteristics.
+helpviewer_keywords: ["D3D12_RENDER_PASS_RENDER_TARGET_DESC","D3D12_RENDER_PASS_RENDER_TARGET_DESC structure","d3d12/D3D12_RENDER_PASS_RENDER_TARGET_DESC","direct3d12.d3d12_render_pass_render_target_desc"]
 old-location: direct3d12\d3d12_render_pass_render_target_desc.htm
 tech.root: direct3d12
 ms.assetid: C319081F-290E-4031-AE0C-F97D82ED4178

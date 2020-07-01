@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidAnalogTuner2
 title: IMSVidAnalogTuner2 (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IMSVidAnalogTuner2 interface represents an analog-only tuner card that does not support the Broadcast Driver Architecture (BDA).helpviewer_keywords: ["IMSVidAnalogTuner2","IMSVidAnalogTuner2 interface [Microsoft TV Technologies]","IMSVidAnalogTuner2 interface [Microsoft TV Technologies]","described","IMSVidAnalogTuner2Interface","mstv.imsvidanalogtuner2","segment/IMSVidAnalogTuner2"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later. The IMSVidAnalogTuner2 interface represents an analog-only tuner card that does not support the Broadcast Driver Architecture (BDA).
+helpviewer_keywords: ["IMSVidAnalogTuner2","IMSVidAnalogTuner2 interface [Microsoft TV Technologies]","IMSVidAnalogTuner2 interface [Microsoft TV Technologies]","described","IMSVidAnalogTuner2Interface","mstv.imsvidanalogtuner2","segment/IMSVidAnalogTuner2"]
 old-location: mstv\imsvidanalogtuner2.htm
 tech.root: mstv
 ms.assetid: 50d30a45-8cea-454c-b5d2-ff809b8a8206

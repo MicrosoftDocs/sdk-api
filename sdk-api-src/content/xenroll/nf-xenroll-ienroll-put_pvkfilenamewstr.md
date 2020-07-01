@@ -1,7 +1,8 @@
 ---
 UID: NF:xenroll.IEnroll.put_PVKFileNameWStr
 title: IEnroll::put_PVKFileNameWStr (xenroll.h)
-description: Sets or retrieves the name of the file that will contain exported keys.helpviewer_keywords: ["IEnroll interface [Security]","PVKFileNameWStr property","IEnroll.PVKFileNameWStr","IEnroll.put_PVKFileNameWStr","IEnroll::PVKFileNameWStr","IEnroll::get_PVKFileNameWStr","IEnroll::put_PVKFileNameWStr","PVKFileNameWStr property [Security]","PVKFileNameWStr property [Security]","IEnroll interface","put_PVKFileNameWStr","security.ienroll4_pvkfilenamewstr","xenroll/IEnroll::PVKFileNameWStr","xenroll/IEnroll::get_PVKFileNameWStr","xenroll/IEnroll::put_PVKFileNameWStr"]
+description: Sets or retrieves the name of the file that will contain exported keys.
+helpviewer_keywords: ["IEnroll interface [Security]","PVKFileNameWStr property","IEnroll.PVKFileNameWStr","IEnroll.put_PVKFileNameWStr","IEnroll::PVKFileNameWStr","IEnroll::get_PVKFileNameWStr","IEnroll::put_PVKFileNameWStr","PVKFileNameWStr property [Security]","PVKFileNameWStr property [Security]","IEnroll interface","put_PVKFileNameWStr","security.ienroll4_pvkfilenamewstr","xenroll/IEnroll::PVKFileNameWStr","xenroll/IEnroll::get_PVKFileNameWStr","xenroll/IEnroll::put_PVKFileNameWStr"]
 old-location: security\ienroll4_pvkfilenamewstr.htm
 tech.root: SecCrypto
 ms.assetid: 5518c252-fdca-444b-b87e-9fe3cb3b3e3f

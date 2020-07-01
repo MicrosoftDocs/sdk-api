@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer2.Configure
 title: IWMIndexer2::Configure (wmsdkidl.h)
-description: The Configure method changes the internal settings of the indexer object.helpviewer_keywords: ["Configure","Configure method [windows Media Format]","Configure method [windows Media Format]","IWMIndexer2 interface","IWMIndexer2 interface [windows Media Format]","Configure method","IWMIndexer2.Configure","IWMIndexer2::Configure","IWMIndexer2Configure","wmformat.iwmindexer2_configure","wmsdkidl/IWMIndexer2::Configure"]
+description: The Configure method changes the internal settings of the indexer object.
+helpviewer_keywords: ["Configure","Configure method [windows Media Format]","Configure method [windows Media Format]","IWMIndexer2 interface","IWMIndexer2 interface [windows Media Format]","Configure method","IWMIndexer2.Configure","IWMIndexer2::Configure","IWMIndexer2Configure","wmformat.iwmindexer2_configure","wmsdkidl/IWMIndexer2::Configure"]
 old-location: wmformat\iwmindexer2_configure.htm
 tech.root: wmformat
 ms.assetid: b4ab9ad8-5fc7-43ce-ba2f-f32135a44a86

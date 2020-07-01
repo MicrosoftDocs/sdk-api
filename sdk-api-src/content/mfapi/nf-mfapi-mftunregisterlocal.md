@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFTUnregisterLocal
 title: MFTUnregisterLocal function (mfapi.h)
-description: Unregisters one or more Media Foundation transforms (MFTs) from the caller's process.helpviewer_keywords: ["MFTUnregisterLocal","MFTUnregisterLocal function [Media Foundation]","mf.mftunregisterlocal","mfapi/MFTUnregisterLocal"]
+description: Unregisters one or more Media Foundation transforms (MFTs) from the caller's process.
+helpviewer_keywords: ["MFTUnregisterLocal","MFTUnregisterLocal function [Media Foundation]","mf.mftunregisterlocal","mfapi/MFTUnregisterLocal"]
 old-location: mf\mftunregisterlocal.htm
 tech.root: medfound
 ms.assetid: e77edce7-0abb-41a3-a65e-fd159173e135

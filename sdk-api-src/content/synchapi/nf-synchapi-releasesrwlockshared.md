@@ -1,11 +1,12 @@
 ---
 UID: NF:synchapi.ReleaseSRWLockShared
 title: ReleaseSRWLockShared function (synchapi.h)
-description: Releases a slim reader/writer (SRW) lock that was acquired in shared mode.helpviewer_keywords: ["ReleaseSRWLockShared","ReleaseSRWLockShared function","base.releasesrwlockshared","synchapi/ReleaseSRWLockShared","winbase/ReleaseSRWLockShared"]
+description: Releases a slim reader/writer (SRW) lock that was acquired in shared mode.
+helpviewer_keywords: ["ReleaseSRWLockShared","ReleaseSRWLockShared function","base.releasesrwlockshared","synchapi/ReleaseSRWLockShared","winbase/ReleaseSRWLockShared"]
 old-location: base\releasesrwlockshared.htm
 tech.root: Sync
 ms.assetid: afefd9f2-7fd4-4cba-9a6f-1f9da614dcec
-ms.date: 12/05/2018
+ms.date: 06/29/2020
 ms.keywords: ReleaseSRWLockShared, ReleaseSRWLockShared function, base.releasesrwlockshared, synchapi/ReleaseSRWLockShared, winbase/ReleaseSRWLockShared
 f1_keywords:
 - synchapi/ReleaseSRWLockShared
@@ -69,6 +70,11 @@ Releases a slim reader/writer (SRW) lock that was acquired in shared mode.
 ### -param SRWLock [in, out]
 
 A pointer to the SRW lock.
+
+
+## -remarks
+
+The SRW lock must be released by the same thread that acquired it. You can use [Application Verifier](https://docs.microsoft.com/windows-hardware/drivers/devtest/application-verifier) to help verify that your program uses SRW locks correctly (enable Locks checker from Basic group).
 
 
 ## -see-also

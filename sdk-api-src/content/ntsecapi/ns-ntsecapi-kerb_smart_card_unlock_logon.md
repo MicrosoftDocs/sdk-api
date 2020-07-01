@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecapi._KERB_SMART_CARD_UNLOCK_LOGON
 title: KERB_SMART_CARD_UNLOCK_LOGON (ntsecapi.h)
-description: Contains information used to unlock a workstation that has been locked during a smart card logon session.helpviewer_keywords: ["*PKERB_SMART_CARD_UNLOCK_LOGON","KERB_SMART_CARD_UNLOCK_LOGON","KERB_SMART_CARD_UNLOCK_LOGON structure [Security]","PKERB_SMART_CARD_UNLOCK_LOGON","PKERB_SMART_CARD_UNLOCK_LOGON structure pointer [Security]","ntsecapi/KERB_SMART_CARD_UNLOCK_LOGON","ntsecapi/PKERB_SMART_CARD_UNLOCK_LOGON","security.kerb_smart_card_unlock_logon"]
+description: Contains information used to unlock a workstation that has been locked during a smart card logon session.
+helpviewer_keywords: ["*PKERB_SMART_CARD_UNLOCK_LOGON","KERB_SMART_CARD_UNLOCK_LOGON","KERB_SMART_CARD_UNLOCK_LOGON structure [Security]","PKERB_SMART_CARD_UNLOCK_LOGON","PKERB_SMART_CARD_UNLOCK_LOGON structure pointer [Security]","ntsecapi/KERB_SMART_CARD_UNLOCK_LOGON","ntsecapi/PKERB_SMART_CARD_UNLOCK_LOGON","security.kerb_smart_card_unlock_logon"]
 old-location: security\kerb_smart_card_unlock_logon.htm
 tech.root: SecAuthN
 ms.assetid: 5fcd61f6-d93d-4047-b472-8b44f9681907

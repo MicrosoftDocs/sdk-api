@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextStoryRanges.Item
 title: ITextStoryRanges::Item (tom.h)
-description: Retrieves an ITextRange object for the Indexth story in this story collection.helpviewer_keywords: ["ITextStoryRanges interface [Windows Controls]","Item method","ITextStoryRanges.Item","ITextStoryRanges::Item","Item","Item method [Windows Controls]","Item method [Windows Controls]","ITextStoryRanges interface","_win32_ITextStoryRanges_Item","_win32_ITextStoryRanges_Item_cpp","controls.ITextStoryRanges_Item","controls._win32_ITextStoryRanges_Item","tom/ITextStoryRanges::Item"]
+description: Retrieves an ITextRange object for the Indexth story in this story collection.
+helpviewer_keywords: ["ITextStoryRanges interface [Windows Controls]","Item method","ITextStoryRanges.Item","ITextStoryRanges::Item","Item","Item method [Windows Controls]","Item method [Windows Controls]","ITextStoryRanges interface","_win32_ITextStoryRanges_Item","_win32_ITextStoryRanges_Item_cpp","controls.ITextStoryRanges_Item","controls._win32_ITextStoryRanges_Item","tom/ITextStoryRanges::Item"]
 old-location: controls\ITextStoryRanges_Item.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\item.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_IPSinkInfo.get_MulticastList
 title: IBDA_IPSinkInfo::get_MulticastList (bdaiface.h)
-description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.helpviewer_keywords: ["IBDA_IPSinkInfo interface [Microsoft TV Technologies]","get_MulticastList method","IBDA_IPSinkInfo.get_MulticastList","IBDA_IPSinkInfo::get_MulticastList","IBDA_IPSinkInfoget_MulticastList","bdaiface/IBDA_IPSinkInfo::get_MulticastList","get_MulticastList","get_MulticastList method [Microsoft TV Technologies]","get_MulticastList method [Microsoft TV Technologies]","IBDA_IPSinkInfo interface","mstv.ibda_ipsinkinfo_get_multicastlist"]
+description: This interface is available for use in the Microsoft Windows 2000, Windows XP, and Windows Server 2003 operating systems. It may be altered or unavailable in subsequent versions.
+helpviewer_keywords: ["IBDA_IPSinkInfo interface [Microsoft TV Technologies]","get_MulticastList method","IBDA_IPSinkInfo.get_MulticastList","IBDA_IPSinkInfo::get_MulticastList","IBDA_IPSinkInfoget_MulticastList","bdaiface/IBDA_IPSinkInfo::get_MulticastList","get_MulticastList","get_MulticastList method [Microsoft TV Technologies]","get_MulticastList method [Microsoft TV Technologies]","IBDA_IPSinkInfo interface","mstv.ibda_ipsinkinfo_get_multicastlist"]
 old-location: mstv\ibda_ipsinkinfo_get_multicastlist.htm
 tech.root: mstv
 ms.assetid: 29375c69-5e45-4fc5-98d2-1cc1c750b809

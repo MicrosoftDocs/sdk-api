@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMProgress.Begin
 title: IWMDMProgress::Begin (mswmdm.h)
-description: The Begin method indicates that an operation is beginning. An estimate of the duration of the operation is provided when possible.helpviewer_keywords: ["Begin","Begin method [windows Media Device Manager]","Begin method [windows Media Device Manager]","IWMDMProgress interface","IWMDMProgress interface [windows Media Device Manager]","Begin method","IWMDMProgress.Begin","IWMDMProgress::Begin","IWMDMProgressBegin","mswmdm/IWMDMProgress::Begin","wmdm.iwmdmprogress_begin"]
+description: The Begin method indicates that an operation is beginning. An estimate of the duration of the operation is provided when possible.
+helpviewer_keywords: ["Begin","Begin method [windows Media Device Manager]","Begin method [windows Media Device Manager]","IWMDMProgress interface","IWMDMProgress interface [windows Media Device Manager]","Begin method","IWMDMProgress.Begin","IWMDMProgress::Begin","IWMDMProgressBegin","mswmdm/IWMDMProgress::Begin","wmdm.iwmdmprogress_begin"]
 old-location: wmdm\iwmdmprogress_begin.htm
 tech.root: WMDM
 ms.assetid: 207b7cb5-4471-4be9-8252-9d467d67d7a2

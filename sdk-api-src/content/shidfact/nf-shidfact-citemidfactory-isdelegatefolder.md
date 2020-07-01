@@ -1,7 +1,8 @@
 ---
 UID: NF:shidfact.CItemIDFactory.IsDelegateFolder
 title: CItemIDFactory::IsDelegateFolder (shidfact.h)
-description: Gets a Boolean value specifying whether the factory is a delegate folder.helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","IsDelegateFolder method","CItemIDFactory.IsDelegateFolder","CItemIDFactory::IsDelegateFolder","IsDelegateFolder","IsDelegateFolder method [Windows Shell]","IsDelegateFolder method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_isdelegatefolder","shidfact/CItemIDFactory::IsDelegateFolder"]
+description: Gets a Boolean value specifying whether the factory is a delegate folder.
+helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","IsDelegateFolder method","CItemIDFactory.IsDelegateFolder","CItemIDFactory::IsDelegateFolder","IsDelegateFolder","IsDelegateFolder method [Windows Shell]","IsDelegateFolder method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_isdelegatefolder","shidfact/CItemIDFactory::IsDelegateFolder"]
 old-location: shell\citemidfactory_isdelegatefolder.htm
 tech.root: shell
 ms.assetid: 269DFCDF-A5F7-4367-8B08-3A5015BB04FE

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_PIXEL_SHADER_TRACE_DESC
 title: D3D11_PIXEL_SHADER_TRACE_DESC (d3d11shadertracing.h)
-description: Describes an instance of a pixel shader to trace.helpviewer_keywords: ["D3D11_PIXEL_SHADER_TRACE_DESC","D3D11_PIXEL_SHADER_TRACE_DESC structure [Direct3D 11]","d3d11shadertracing/D3D11_PIXEL_SHADER_TRACE_DESC","direct3d11.d3d11_pixel_shader_trace_desc"]
+description: Describes an instance of a pixel shader to trace.
+helpviewer_keywords: ["D3D11_PIXEL_SHADER_TRACE_DESC","D3D11_PIXEL_SHADER_TRACE_DESC structure [Direct3D 11]","d3d11shadertracing/D3D11_PIXEL_SHADER_TRACE_DESC","direct3d11.d3d11_pixel_shader_trace_desc"]
 old-location: direct3d11\d3d11_pixel_shader_trace_desc.htm
 tech.root: direct3d11
 ms.assetid: 4A44DA4F-81FC-47BE-90CA-06355C363795

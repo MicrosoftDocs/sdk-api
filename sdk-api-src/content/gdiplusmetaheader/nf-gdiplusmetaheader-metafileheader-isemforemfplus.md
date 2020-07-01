@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.IsEmfOrEmfPlus
 title: MetafileHeader::IsEmfOrEmfPlus (gdiplusmetaheader.h)
-description: The MetafileHeader::IsEmfOrEmfPlus method determines whether the associated metafile is in either the EMF or EMF+ format.helpviewer_keywords: ["IsEmfOrEmfPlus","IsEmfOrEmfPlus method [GDI+]","IsEmfOrEmfPlus method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","IsEmfOrEmfPlus method","MetafileHeader.IsEmfOrEmfPlus","MetafileHeader::IsEmfOrEmfPlus","_gdiplus_CLASS_MetafileHeader_IsEmfOrEmfPlus_","gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfOrEmfPlus_"]
+description: The MetafileHeader::IsEmfOrEmfPlus method determines whether the associated metafile is in either the EMF or EMF+ format.
+helpviewer_keywords: ["IsEmfOrEmfPlus","IsEmfOrEmfPlus method [GDI+]","IsEmfOrEmfPlus method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","IsEmfOrEmfPlus method","MetafileHeader.IsEmfOrEmfPlus","MetafileHeader::IsEmfOrEmfPlus","_gdiplus_CLASS_MetafileHeader_IsEmfOrEmfPlus_","gdiplus._gdiplus_CLASS_MetafileHeader_IsEmfOrEmfPlus_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_IsEmfOrEmfPlus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\isemforemfplus.htm

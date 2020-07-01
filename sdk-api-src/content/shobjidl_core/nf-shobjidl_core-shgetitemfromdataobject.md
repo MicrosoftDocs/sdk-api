@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.SHGetItemFromDataObject
 title: SHGetItemFromDataObject function (shobjidl_core.h)
-description: Creates an IShellItem or related object based on an item specified by an IDataObject.helpviewer_keywords: ["SHGetItemFromDataObject","SHGetItemFromDataObject function [Windows Shell]","_shell_SHGetItemFromDataObject","shell.SHGetItemFromDataObject","shobjidl_core/SHGetItemFromDataObject"]
+description: Creates an IShellItem or related object based on an item specified by an IDataObject.
+helpviewer_keywords: ["SHGetItemFromDataObject","SHGetItemFromDataObject function [Windows Shell]","_shell_SHGetItemFromDataObject","shell.SHGetItemFromDataObject","shobjidl_core/SHGetItemFromDataObject"]
 old-location: shell\SHGetItemFromDataObject.htm
 tech.root: shell
 ms.assetid: 1d7b9ffa-9980-4d68-85e4-7bab667be168

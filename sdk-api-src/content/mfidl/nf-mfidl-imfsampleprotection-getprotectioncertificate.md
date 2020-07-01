@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSampleProtection.GetProtectionCertificate
 title: IMFSampleProtection::GetProtectionCertificate (mfidl.h)
-description: Retrieves the sample protection certificate.helpviewer_keywords: ["GetProtectionCertificate","GetProtectionCertificate method [Media Foundation]","GetProtectionCertificate method [Media Foundation]","IMFSampleProtection interface","IMFSampleProtection interface [Media Foundation]","GetProtectionCertificate method","IMFSampleProtection.GetProtectionCertificate","IMFSampleProtection::GetProtectionCertificate","b93ecc4e-40f6-4ae1-9a1a-9767e6c8c4af","mf.imfsampleprotection_getprotectioncertificate","mfidl/IMFSampleProtection::GetProtectionCertificate"]
+description: Retrieves the sample protection certificate.
+helpviewer_keywords: ["GetProtectionCertificate","GetProtectionCertificate method [Media Foundation]","GetProtectionCertificate method [Media Foundation]","IMFSampleProtection interface","IMFSampleProtection interface [Media Foundation]","GetProtectionCertificate method","IMFSampleProtection.GetProtectionCertificate","IMFSampleProtection::GetProtectionCertificate","b93ecc4e-40f6-4ae1-9a1a-9767e6c8c4af","mf.imfsampleprotection_getprotectioncertificate","mfidl/IMFSampleProtection::GetProtectionCertificate"]
 old-location: mf\imfsampleprotection_getprotectioncertificate.htm
 tech.root: medfound
 ms.assetid: b93ecc4e-40f6-4ae1-9a1a-9767e6c8c4af

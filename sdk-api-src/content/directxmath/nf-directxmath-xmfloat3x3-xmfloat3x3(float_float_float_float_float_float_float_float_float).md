@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMFLOAT3X3.XMFLOAT3X3(float,float,float,float,float,float,float,float,float)
 title: XMFLOAT3X3::XMFLOAT3X3(float,float,float,float,float,float,float,float,float) (directxmath.h)
-description: Initializes a new instance of the XMFLOAT3X3 structure from nine scalar float values.helpviewer_keywords: ["XMFLOAT3X3","XMFLOAT3X3 constructor [DirectX Math Support APIs]","XMFLOAT3X3 constructor [DirectX Math Support APIs]","XMFLOAT3X3 structure","XMFLOAT3X3 structure [DirectX Math Support APIs]","XMFLOAT3X3 constructor","XMFLOAT3X3.XMFLOAT3X3","XMFLOAT3X3.XMFLOAT3X3(float","float","float","float","float","float","float","float","float)","XMFLOAT3X3::XMFLOAT3X3","XMFLOAT3X3::XMFLOAT3X3(float","float","float","float","float","float","float","float","float)","dxmath.xmfloat3x3_ctor_2"]
+description: Initializes a new instance of the XMFLOAT3X3 structure from nine scalar float values.
+helpviewer_keywords: ["XMFLOAT3X3","XMFLOAT3X3 constructor [DirectX Math Support APIs]","XMFLOAT3X3 constructor [DirectX Math Support APIs]","XMFLOAT3X3 structure","XMFLOAT3X3 structure [DirectX Math Support APIs]","XMFLOAT3X3 constructor","XMFLOAT3X3.XMFLOAT3X3","XMFLOAT3X3.XMFLOAT3X3(float","float","float","float","float","float","float","float","float)","XMFLOAT3X3::XMFLOAT3X3","XMFLOAT3X3::XMFLOAT3X3(float","float","float","float","float","float","float","float","float)","dxmath.xmfloat3x3_ctor_2"]
 old-location: dxmath\xmfloat3x3_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3X3.#ctor(float,float,float,float,float,float,float,float,float)

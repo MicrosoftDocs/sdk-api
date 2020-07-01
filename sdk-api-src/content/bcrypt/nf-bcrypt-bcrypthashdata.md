@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptHashData
 title: BCryptHashData function (bcrypt.h)
-description: Performs a one way hash or Message Authentication Code (MAC) on a data buffer.helpviewer_keywords: ["BCryptHashData","BCryptHashData function [Security]","bcrypt/BCryptHashData","security.bcrypthashdata_func"]
+description: Performs a one way hash or Message Authentication Code (MAC) on a data buffer.
+helpviewer_keywords: ["BCryptHashData","BCryptHashData function [Security]","bcrypt/BCryptHashData","security.bcrypthashdata_func"]
 old-location: security\bcrypthashdata_func.htm
 tech.root: SecCNG
 ms.assetid: dab89dff-dc84-4f69-8b6b-de65704b0265

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.SaveAll
 title: ISearchCrawlScopeManager::SaveAll (searchapi.h)
-description: Commits all changes to the search engine.helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","SaveAll method","ISearchCrawlScopeManager.SaveAll","ISearchCrawlScopeManager::SaveAll","SaveAll","SaveAll method [search]","SaveAll method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_SaveAll","search._search_ISearchCrawlScopeManager_SaveAll","searchapi/ISearchCrawlScopeManager::SaveAll"]
+description: Commits all changes to the search engine.
+helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","SaveAll method","ISearchCrawlScopeManager.SaveAll","ISearchCrawlScopeManager::SaveAll","SaveAll","SaveAll method [search]","SaveAll method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_SaveAll","search._search_ISearchCrawlScopeManager_SaveAll","searchapi/ISearchCrawlScopeManager::SaveAll"]
 old-location: search\_search_ISearchCrawlScopeManager_SaveAll.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\saveall.htm
@@ -73,9 +74,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

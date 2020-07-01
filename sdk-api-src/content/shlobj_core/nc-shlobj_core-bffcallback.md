@@ -1,7 +1,8 @@
 ---
 UID: NC:shlobj_core.BFFCALLBACK
 title: BFFCALLBACK (shlobj_core.h)
-description: Receives event notifications from the Active Directory Domain Services container browser dialog box.helpviewer_keywords: ["BFFCALLBACK","BFFCALLBACK callback function [Active Directory]","BFFCallBack","BFFCallBack callback","BFFCallBack callback function [Active Directory]","BFFM_ENABLEOK","BFFM_INITIALIZED","BFFM_SELCHANGED","BFFM_SETSELECTION","DSBM_CHANGEIMAGESTATE","DSBM_CONTEXTMENU","DSBM_HELP","DSBM_QUERYINSERT","_glines_bffcallback","ad.bffcallback","shlobj_core/BFFCallBack"]
+description: Receives event notifications from the Active Directory Domain Services container browser dialog box.
+helpviewer_keywords: ["BFFCALLBACK","BFFCALLBACK callback function [Active Directory]","BFFCallBack","BFFCallBack callback","BFFCallBack callback function [Active Directory]","BFFM_ENABLEOK","BFFM_INITIALIZED","BFFM_SELCHANGED","BFFM_SETSELECTION","DSBM_CHANGEIMAGESTATE","DSBM_CONTEXTMENU","DSBM_HELP","DSBM_QUERYINSERT","_glines_bffcallback","ad.bffcallback","shlobj_core/BFFCallBack"]
 old-location: ad\bffcallback.htm
 tech.root: ad
 ms.assetid: 91cfef29-3e0a-4dd0-be1a-215827c23143

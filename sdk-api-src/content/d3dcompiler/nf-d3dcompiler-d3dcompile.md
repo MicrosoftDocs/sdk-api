@@ -169,7 +169,3 @@ The difference between <b>D3DCompile</b> and <a href="https://docs.microsoft.com
 
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/dx-graphics-d3dcompiler-reference-functions">Functions</a>
- 
-
- 
-

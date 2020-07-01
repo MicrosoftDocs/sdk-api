@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIStreamSampleToSample
 title: AVIStreamSampleToSample macro (vfw.h)
-description: The AVIStreamSampleToSample macro returns the sample in a stream that occurs at the same time as a sample that occurs in a second stream.helpviewer_keywords: ["AVIStreamSampleToSample","AVIStreamSampleToSample macro [Windows Multimedia]","_win32_AVIStreamSampleToSample","multimedia.avistreamsampletosample","vfw/AVIStreamSampleToSample"]
+description: The AVIStreamSampleToSample macro returns the sample in a stream that occurs at the same time as a sample that occurs in a second stream.
+helpviewer_keywords: ["AVIStreamSampleToSample","AVIStreamSampleToSample macro [Windows Multimedia]","_win32_AVIStreamSampleToSample","multimedia.avistreamsampletosample","vfw/AVIStreamSampleToSample"]
 old-location: multimedia\avistreamsampletosample.htm
 tech.root: Multimedia
 ms.assetid: ed726651-d8f3-4dba-b81d-e283733cabe2

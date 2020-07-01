@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.UpdateDeletePercent
 title: IPhotoAcquireProgressCB::UpdateDeletePercent (photoacquire.h)
-description: The UpdateDeletePercent method provides extended functionality when the percentage of items deleted changes. The application provides the implementation of the UpdateDeletePercent method.helpviewer_keywords: ["IPhotoAcquireProgressCB interface [Picture Acquisition]","UpdateDeletePercent method","IPhotoAcquireProgressCB.UpdateDeletePercent","IPhotoAcquireProgressCB::UpdateDeletePercent","IPhotoAcquireProgressCBUpdateDeletePercent","UpdateDeletePercent","UpdateDeletePercent method [Picture Acquisition]","UpdateDeletePercent method [Picture Acquisition]","IPhotoAcquireProgressCB interface","photoacquire/IPhotoAcquireProgressCB::UpdateDeletePercent","picacq.iphotoacquireprogresscb_updatedeletepercent"]
+description: The UpdateDeletePercent method provides extended functionality when the percentage of items deleted changes. The application provides the implementation of the UpdateDeletePercent method.
+helpviewer_keywords: ["IPhotoAcquireProgressCB interface [Picture Acquisition]","UpdateDeletePercent method","IPhotoAcquireProgressCB.UpdateDeletePercent","IPhotoAcquireProgressCB::UpdateDeletePercent","IPhotoAcquireProgressCBUpdateDeletePercent","UpdateDeletePercent","UpdateDeletePercent method [Picture Acquisition]","UpdateDeletePercent method [Picture Acquisition]","IPhotoAcquireProgressCB interface","photoacquire/IPhotoAcquireProgressCB::UpdateDeletePercent","picacq.iphotoacquireprogresscb_updatedeletepercent"]
 old-location: picacq\iphotoacquireprogresscb_updatedeletepercent.htm
 tech.root: acquisition
 ms.assetid: 8b555d9b-1d01-43ad-b267-8d53023390e8

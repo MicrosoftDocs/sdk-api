@@ -1,7 +1,8 @@
 ---
 UID: NF:dmoreg.DMOGetTypes
 title: DMOGetTypes function (dmoreg.h)
-description: The DMOGetTypes function retrieves the name of a DMO from the registry.helpviewer_keywords: ["DMOGetTypes","DMOGetTypes function [DirectShow]","dmoreg/DMOGetTypes","dshow.dmogettypes"]
+description: The DMOGetTypes function retrieves the name of a DMO from the registry.
+helpviewer_keywords: ["DMOGetTypes","DMOGetTypes function [DirectShow]","dmoreg/DMOGetTypes","dshow.dmogettypes"]
 old-location: dshow\dmogettypes.htm
 tech.root: DirectShow
 ms.assetid: d50e067e-6bf2-4d19-86ef-38a414099666

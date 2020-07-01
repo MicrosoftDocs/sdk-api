@@ -1,7 +1,8 @@
 ---
 UID: NS:wabdefs._SPropProblemArray
 title: SPropProblemArray (wabdefs.h)
-description: Do not use. Contains an array of one or more SPropProblem structures.helpviewer_keywords: ["*LPSPropProblemArray","SPropProblemArray","SPropProblemArray structure [Windows Address Book]","_wab_SPropProblemArray","wab._wab_SPropProblemArray","wabdefs/SPropProblemArray"]
+description: Do not use. Contains an array of one or more SPropProblem structures.
+helpviewer_keywords: ["*LPSPropProblemArray","SPropProblemArray","SPropProblemArray structure [Windows Address Book]","_wab_SPropProblemArray","wab._wab_SPropProblemArray","wabdefs/SPropProblemArray"]
 old-location: wab\_wab_SPropProblemArray.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\spropproblemarray.htm

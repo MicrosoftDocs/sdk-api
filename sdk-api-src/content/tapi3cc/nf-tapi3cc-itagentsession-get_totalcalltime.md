@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3cc.ITAgentSession.get_TotalCallTime
 title: ITAgentSession::get_TotalCallTime (tapi3cc.h)
-description: The get_TotalCallTime method gets the number of seconds spent on ACD calls during this agent session (by this agent). This value includes the time spent on the phone plus wrap-up time.helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_TotalCallTime method","ITAgentSession.get_TotalCallTime","ITAgentSession::get_TotalCallTime","_tapi3_itagentsession_get_totalcalltime","get_TotalCallTime","get_TotalCallTime method [TAPI 2.2]","get_TotalCallTime method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_totalcalltime","tapi3cc/ITAgentSession::get_TotalCallTime"]
+description: The get_TotalCallTime method gets the number of seconds spent on ACD calls during this agent session (by this agent). This value includes the time spent on the phone plus wrap-up time.
+helpviewer_keywords: ["ITAgentSession interface [TAPI 2.2]","get_TotalCallTime method","ITAgentSession.get_TotalCallTime","ITAgentSession::get_TotalCallTime","_tapi3_itagentsession_get_totalcalltime","get_TotalCallTime","get_TotalCallTime method [TAPI 2.2]","get_TotalCallTime method [TAPI 2.2]","ITAgentSession interface","tapi3.itagentsession_get_totalcalltime","tapi3cc/ITAgentSession::get_TotalCallTime"]
 old-location: tapi3\itagentsession_get_totalcalltime.htm
 tech.root: Tapi
 ms.assetid: a5d6aee4-0d50-42da-8e2e-db9d3731cb3c

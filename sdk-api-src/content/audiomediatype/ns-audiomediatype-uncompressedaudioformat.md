@@ -1,7 +1,8 @@
 ---
 UID: NS:audiomediatype._UNCOMPRESSEDAUDIOFORMAT
 title: UNCOMPRESSEDAUDIOFORMAT (audiomediatype.h)
-description: The UNCOMPRESSEDAUDIOFORMAT structure specifies the frame rate, channel mask, and other attributes of the uncompressed audio data format.helpviewer_keywords: ["UNCOMPRESSEDAUDIOFORMAT","UNCOMPRESSEDAUDIOFORMAT structure [Audio Devices]","aud-prop_077921c9-89ee-44ca-a585-d87e4d025c16.xml","audio.uncompressedauudioformat","audiomediatype/UNCOMPRESSEDAUUDIOFORMAT"]
+description: The UNCOMPRESSEDAUDIOFORMAT structure specifies the frame rate, channel mask, and other attributes of the uncompressed audio data format.
+helpviewer_keywords: ["UNCOMPRESSEDAUDIOFORMAT","UNCOMPRESSEDAUDIOFORMAT structure [Audio Devices]","aud-prop_077921c9-89ee-44ca-a585-d87e4d025c16.xml","audio.uncompressedauudioformat","audiomediatype/UNCOMPRESSEDAUUDIOFORMAT"]
 old-location: audio\uncompressedauudioformat.htm
 tech.root: audio
 ms.assetid: b1d35067-7ef3-4c29-8b16-642300485695

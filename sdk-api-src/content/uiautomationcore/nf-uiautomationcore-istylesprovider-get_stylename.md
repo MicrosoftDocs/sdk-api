@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_StyleName
 title: IStylesProvider::get_StyleName (uiautomationcore.h)
-description: Specifies the name of the visual style of an element in a document.helpviewer_keywords: ["IStylesProvider interface [Windows Accessibility]","StyleName property","IStylesProvider.StyleName","IStylesProvider.get_StyleName","IStylesProvider::StyleName","IStylesProvider::get_StyleName","StyleName property [Windows Accessibility]","StyleName property [Windows Accessibility]","IStylesProvider interface","get_StyleName","uiautomationcore/IStylesProvider::StyleName","uiautomationcore/IStylesProvider::get_StyleName","winauto.iuiauto_stylesprovider_stylename"]
+description: Specifies the name of the visual style of an element in a document.
+helpviewer_keywords: ["IStylesProvider interface [Windows Accessibility]","StyleName property","IStylesProvider.StyleName","IStylesProvider.get_StyleName","IStylesProvider::StyleName","IStylesProvider::get_StyleName","StyleName property [Windows Accessibility]","StyleName property [Windows Accessibility]","IStylesProvider interface","get_StyleName","uiautomationcore/IStylesProvider::StyleName","uiautomationcore/IStylesProvider::get_StyleName","winauto.iuiauto_stylesprovider_stylename"]
 old-location: winauto\iuiauto_stylesprovider_stylename.htm
 tech.root: WinAuto
 ms.assetid: 5FFCFC37-F03D-4F86-8D8E-3AF03547A40B

@@ -1,7 +1,8 @@
 ---
 UID: NS:strmif.REGFILTERPINS2
 title: REGFILTERPINS2 (strmif.h)
-description: The REGFILTERPINS2 structure contains information for registering a filter through the IFilterMapper2 interface.helpviewer_keywords: ["REGFILTERPINS2","REGFILTERPINS2 structure [DirectShow]","REGFILTERPINS2Structure","dshow.regfilterpins2","strmif/REGFILTERPINS2"]
+description: The REGFILTERPINS2 structure contains information for registering a filter through the IFilterMapper2 interface.
+helpviewer_keywords: ["REGFILTERPINS2","REGFILTERPINS2 structure [DirectShow]","REGFILTERPINS2Structure","dshow.regfilterpins2","strmif/REGFILTERPINS2"]
 old-location: dshow\regfilterpins2.htm
 tech.root: DirectShow
 ms.assetid: a78327f1-a0aa-4e25-b6f8-cf45b92191fa

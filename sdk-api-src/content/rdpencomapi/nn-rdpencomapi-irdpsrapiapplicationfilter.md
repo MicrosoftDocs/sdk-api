@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIApplicationFilter
 title: IRDPSRAPIApplicationFilter (rdpencomapi.h)
-description: Manages the shared desktop area at the window and process level. Applications can use the enumerators to display lists of objects in the session that can be shared.helpviewer_keywords: ["IRDPSRAPIApplicationFilter","IRDPSRAPIApplicationFilter interface [RDP]","IRDPSRAPIApplicationFilter interface [RDP]","described","rdp.irdpsrapiapplicationfilter","rdpencomapi/IRDPSRAPIApplicationFilter"]
+description: Manages the shared desktop area at the window and process level. Applications can use the enumerators to display lists of objects in the session that can be shared.
+helpviewer_keywords: ["IRDPSRAPIApplicationFilter","IRDPSRAPIApplicationFilter interface [RDP]","IRDPSRAPIApplicationFilter interface [RDP]","described","rdp.irdpsrapiapplicationfilter","rdpencomapi/IRDPSRAPIApplicationFilter"]
 old-location: rdp\irdpsrapiapplicationfilter.htm
 tech.root: rdp
 ms.assetid: 6a08c948-1b25-4a36-93c8-23e7e3f4fb08

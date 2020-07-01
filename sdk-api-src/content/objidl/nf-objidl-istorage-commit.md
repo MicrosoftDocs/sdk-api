@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IStorage.Commit
 title: IStorage::Commit (objidl.h)
-description: The Commit method ensures that any changes made to a storage object open in transacted mode are reflected in the parent storage.helpviewer_keywords: ["Commit","Commit method [Structured Storage]","Commit method [Structured Storage]","IStorage interface","IStorage interface [Structured Storage]","Commit method","IStorage.Commit","IStorage::Commit","_stg_istorage_commit","objidl/IStorage::Commit","stg.istorage_commit"]
+description: The Commit method ensures that any changes made to a storage object open in transacted mode are reflected in the parent storage.
+helpviewer_keywords: ["Commit","Commit method [Structured Storage]","Commit method [Structured Storage]","IStorage interface","IStorage interface [Structured Storage]","Commit method","IStorage.Commit","IStorage::Commit","_stg_istorage_commit","objidl/IStorage::Commit","stg.istorage_commit"]
 old-location: stg\istorage_commit.htm
 tech.root: Stg
 ms.assetid: 72831f2c-1e07-429b-af4c-2aaced3f3888

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokes.Item
 title: IInkStrokes::Item (msinkaut.h)
-description: Retrieves the IInkStrokeDisp object at the specified index within the InkStrokes collection.helpviewer_keywords: ["IInkStrokes interface [Tablet PC]","Item method","IInkStrokes.Item","IInkStrokes::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkStrokes interface","ecffbdf0-4b1c-46de-bc4c-c44812dae27a","msinkaut/IInkStrokes::Item","tablet.inkstrokes_item"]
+description: Retrieves the IInkStrokeDisp object at the specified index within the InkStrokes collection.
+helpviewer_keywords: ["IInkStrokes interface [Tablet PC]","Item method","IInkStrokes.Item","IInkStrokes::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkStrokes interface","ecffbdf0-4b1c-46de-bc4c-c44812dae27a","msinkaut/IInkStrokes::Item","tablet.inkstrokes_item"]
 old-location: tablet\inkstrokes_item.htm
 tech.root: tablet
 ms.assetid: ecffbdf0-4b1c-46de-bc4c-c44812dae27a

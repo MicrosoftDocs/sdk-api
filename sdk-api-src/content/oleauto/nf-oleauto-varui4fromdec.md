@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarUI4FromDec
 title: VarUI4FromDec function (oleauto.h)
-description: Converts a decimal value to an unsigned long value.helpviewer_keywords: ["VarUI4FromDec","VarUI4FromDec function [Automation]","_oa96_VarUI4FromDec","automat.varui4fromdec","oleauto/VarUI4FromDec"]
+description: Converts a decimal value to an unsigned long value.
+helpviewer_keywords: ["VarUI4FromDec","VarUI4FromDec function [Automation]","_oa96_VarUI4FromDec","automat.varui4fromdec","oleauto/VarUI4FromDec"]
 old-location: automat\varui4fromdec.htm
 tech.root: automat
 ms.assetid: dd36f6f5-7f33-43a7-99b1-16497e26bebb

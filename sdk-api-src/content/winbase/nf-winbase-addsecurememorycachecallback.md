@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.AddSecureMemoryCacheCallback
 title: AddSecureMemoryCacheCallback function (winbase.h)
-description: Registers a callback function to be called when a secured memory range is freed or its protections are changed.helpviewer_keywords: ["AddSecureMemoryCacheCallback","AddSecureMemoryCacheCallback function","base.addsecurememorycachecallback","winbase/AddSecureMemoryCacheCallback"]
+description: Registers a callback function to be called when a secured memory range is freed or its protections are changed.
+helpviewer_keywords: ["AddSecureMemoryCacheCallback","AddSecureMemoryCacheCallback function","base.addsecurememorycachecallback","winbase/AddSecureMemoryCacheCallback"]
 old-location: base\addsecurememorycachecallback.htm
 tech.root: Memory
 ms.assetid: 6c89d6f3-182e-4b10-931c-8d55d603c9dc

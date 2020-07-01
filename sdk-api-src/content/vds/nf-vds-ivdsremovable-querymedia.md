@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsRemovable.QueryMedia
 title: IVdsRemovable::QueryMedia (vds.h)
-description: Updates the disk properties in the cache. Call IVdsDisk::GetProperties to get updated details about the current media.helpviewer_keywords: ["IVdsRemovable interface [VDS]","QueryMedia method","IVdsRemovable.QueryMedia","IVdsRemovable::QueryMedia","QueryMedia","QueryMedia method [VDS]","QueryMedia method [VDS]","IVdsRemovable interface","base.ivdsremovable_querymedia","vds/IVdsRemovable::QueryMedia"]
+description: Updates the disk properties in the cache. Call IVdsDisk::GetProperties to get updated details about the current media.
+helpviewer_keywords: ["IVdsRemovable interface [VDS]","QueryMedia method","IVdsRemovable.QueryMedia","IVdsRemovable::QueryMedia","QueryMedia","QueryMedia method [VDS]","QueryMedia method [VDS]","IVdsRemovable interface","base.ivdsremovable_querymedia","vds/IVdsRemovable::QueryMedia"]
 old-location: base\ivdsremovable_querymedia.htm
 tech.root: VDS
 ms.assetid: 6a56be84-ddf3-4c82-9465-4cb683e993f6

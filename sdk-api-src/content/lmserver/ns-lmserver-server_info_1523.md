@@ -1,7 +1,8 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1523
 title: SERVER_INFO_1523 (lmserver.h)
-description: The SERVER_INFO_1523 structure specifies the length of time the server retains information about incomplete search operations.helpviewer_keywords: ["*LPSERVER_INFO_1523","*PSERVER_INFO_1523","LPSERVER_INFO_1523","LPSERVER_INFO_1523 structure pointer [Network Management]","PSERVER_INFO_1523","PSERVER_INFO_1523 structure pointer [Network Management]","SERVER_INFO_1523","SERVER_INFO_1523 structure [Network Management]","_win32_server_info_1523_str","lmserver/LPSERVER_INFO_1523","lmserver/PSERVER_INFO_1523","lmserver/SERVER_INFO_1523","netmgmt.server_info_1523_str"]
+description: The SERVER_INFO_1523 structure specifies the length of time the server retains information about incomplete search operations.
+helpviewer_keywords: ["*LPSERVER_INFO_1523","*PSERVER_INFO_1523","LPSERVER_INFO_1523","LPSERVER_INFO_1523 structure pointer [Network Management]","PSERVER_INFO_1523","PSERVER_INFO_1523 structure pointer [Network Management]","SERVER_INFO_1523","SERVER_INFO_1523 structure [Network Management]","_win32_server_info_1523_str","lmserver/LPSERVER_INFO_1523","lmserver/PSERVER_INFO_1523","lmserver/SERVER_INFO_1523","netmgmt.server_info_1523_str"]
 old-location: netmgmt\server_info_1523_str.htm
 tech.root: NetMgmt
 ms.assetid: 61cf462b-8a1d-455e-b664-6ee6a1a1375c

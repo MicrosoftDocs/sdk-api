@@ -1,7 +1,8 @@
 ---
 UID: NF:ktmw32.SetResourceManagerCompletionPort
 title: SetResourceManagerCompletionPort function (ktmw32.h)
-description: Associates the specified I/O completion port with the specified resource manager (RM). This port receives all notifications for the RM.helpviewer_keywords: ["SetResourceManagerCompletionPort","SetResourceManagerCompletionPort function [Files]","fs.setresourcemanagercompletionport","ktmw32/SetResourceManagerCompletionPort"]
+description: Associates the specified I/O completion port with the specified resource manager (RM). This port receives all notifications for the RM.
+helpviewer_keywords: ["SetResourceManagerCompletionPort","SetResourceManagerCompletionPort function [Files]","fs.setresourcemanagercompletionport","ktmw32/SetResourceManagerCompletionPort"]
 old-location: fs\setresourcemanagercompletionport.htm
 tech.root: ktm
 ms.assetid: 219fc899-84ee-474f-9f86-6ebf9c721810

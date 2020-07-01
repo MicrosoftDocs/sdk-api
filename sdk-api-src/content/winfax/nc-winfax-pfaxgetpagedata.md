@@ -1,7 +1,8 @@
 ---
 UID: NC:winfax.PFAXGETPAGEDATA
 title: PFAXGETPAGEDATA (winfax.h)
-description: The FaxGetPageData function returns to a fax client application the first page of data for a fax job.helpviewer_keywords: ["FaxGetPageDataA","FaxGetPageDataW","PFAXGETPAGEDATA","PFAXGETPAGEDATA callback","PFAXGETPAGEDATA callback function [Fax Service]","_mfax_faxgetpagedata","fax._mfax_faxgetpagedata","winfax/FaxGetPageDataA","winfax/FaxGetPageDataW","winfax/PFAXGETPAGEDATA"]
+description: The FaxGetPageData function returns to a fax client application the first page of data for a fax job.
+helpviewer_keywords: ["FaxGetPageDataA","FaxGetPageDataW","PFAXGETPAGEDATA","PFAXGETPAGEDATA callback","PFAXGETPAGEDATA callback function [Fax Service]","_mfax_faxgetpagedata","fax._mfax_faxgetpagedata","winfax/FaxGetPageDataA","winfax/FaxGetPageDataW","winfax/PFAXGETPAGEDATA"]
 old-location: fax\_mfax_faxgetpagedata.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3ko1.htm

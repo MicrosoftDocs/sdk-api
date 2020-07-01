@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetSpecifiedAttributeNameLength
 title: ID2D1SvgElement::GetSpecifiedAttributeNameLength (d2d1svg.h)
-description: Gets the string length of the name of the specified attribute at the given index.helpviewer_keywords: ["GetSpecifiedAttributeNameLength","GetSpecifiedAttributeNameLength method [Direct2D]","GetSpecifiedAttributeNameLength method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetSpecifiedAttributeNameLength method","ID2D1SvgElement.GetSpecifiedAttributeNameLength","ID2D1SvgElement::GetSpecifiedAttributeNameLength","d2d1svg/ID2D1SvgElement::GetSpecifiedAttributeNameLength","direct2d.id2d1svgelement_getspecifiedattributenamelength"]
+description: Gets the string length of the name of the specified attribute at the given index.
+helpviewer_keywords: ["GetSpecifiedAttributeNameLength","GetSpecifiedAttributeNameLength method [Direct2D]","GetSpecifiedAttributeNameLength method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetSpecifiedAttributeNameLength method","ID2D1SvgElement.GetSpecifiedAttributeNameLength","ID2D1SvgElement::GetSpecifiedAttributeNameLength","d2d1svg/ID2D1SvgElement::GetSpecifiedAttributeNameLength","direct2d.id2d1svgelement_getspecifiedattributenamelength"]
 old-location: direct2d\id2d1svgelement_getspecifiedattributenamelength.htm
 tech.root: Direct2D
 ms.assetid: AD94B020-D9AA-4B1F-B7C3-DEF97DADFEEA

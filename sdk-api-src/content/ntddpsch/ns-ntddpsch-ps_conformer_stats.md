@@ -1,7 +1,8 @@
 ---
 UID: NS:ntddpsch._PS_CONFORMER_STATS
 title: PS_CONFORMER_STATS (ntddpsch.h)
-description: The PS_CONFORMER_STATS structure provides statistical packet shaper information about a particular flow. Note that the PS_CONFORMER_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.helpviewer_keywords: ["*PPS_CONFORMER_STATS","PPS_CONFORMER_STATS","PPS_CONFORMER_STATS structure pointer [QOS]","PS_CONFORMER_STATS","PS_CONFORMER_STATS structure [QOS]","_gqos_ps_conformer_stats","ntddpsch/PPS_CONFORMER_STATS","ntddpsch/PS_CONFORMER_STATS","qos.ps_conformer_stats"]
+description: The PS_CONFORMER_STATS structure provides statistical packet shaper information about a particular flow. Note that the PS_CONFORMER_STATS structure is used in conjunction with the PS_COMPONENT_STATS structure.
+helpviewer_keywords: ["*PPS_CONFORMER_STATS","PPS_CONFORMER_STATS","PPS_CONFORMER_STATS structure pointer [QOS]","PS_CONFORMER_STATS","PS_CONFORMER_STATS structure [QOS]","_gqos_ps_conformer_stats","ntddpsch/PPS_CONFORMER_STATS","ntddpsch/PS_CONFORMER_STATS","qos.ps_conformer_stats"]
 old-location: qos\ps_conformer_stats.htm
 tech.root: QOS
 ms.assetid: 709274fe-de56-4f86-9002-71f0ee333ace

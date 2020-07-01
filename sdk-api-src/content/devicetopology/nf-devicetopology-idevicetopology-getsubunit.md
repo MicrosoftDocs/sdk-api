@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetSubunit
 title: IDeviceTopology::GetSubunit (devicetopology.h)
-description: The GetSubunit method gets the subunit that is specified by a subunit number.helpviewer_keywords: ["GetSubunit","GetSubunit method [Core Audio]","GetSubunit method [Core Audio]","IDeviceTopology interface","IDeviceTopology interface [Core Audio]","GetSubunit method","IDeviceTopology.GetSubunit","IDeviceTopology::GetSubunit","IDeviceTopologyGetSubunit","coreaudio.idevicetopology_getsubunit","devicetopology/IDeviceTopology::GetSubunit"]
+description: The GetSubunit method gets the subunit that is specified by a subunit number.
+helpviewer_keywords: ["GetSubunit","GetSubunit method [Core Audio]","GetSubunit method [Core Audio]","IDeviceTopology interface","IDeviceTopology interface [Core Audio]","GetSubunit method","IDeviceTopology.GetSubunit","IDeviceTopology::GetSubunit","IDeviceTopologyGetSubunit","coreaudio.idevicetopology_getsubunit","devicetopology/IDeviceTopology::GetSubunit"]
 old-location: coreaudio\idevicetopology_getsubunit.htm
 tech.root: CoreAudio
 ms.assetid: 6251cabd-9284-4311-bd5c-0c5b6d9a9be4

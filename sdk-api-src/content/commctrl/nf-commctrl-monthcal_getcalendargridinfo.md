@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.MonthCal_GetCalendarGridInfo
 title: MonthCal_GetCalendarGridInfo macro (commctrl.h)
-description: Gets information about a calendar grid.helpviewer_keywords: ["MonthCal_GetCalendarGridInfo","MonthCal_GetCalendarGridInfo macro [Windows Controls]","_shell_MonthCal_GetCalendarGridInfo","_shell_MonthCal_GetCalendarGridInfo_cpp","commctrl/MonthCal_GetCalendarGridInfo","controls.MonthCal_GetCalendarGridInfo","controls._shell_MonthCal_GetCalendarGridInfo"]
+description: Gets information about a calendar grid.
+helpviewer_keywords: ["MonthCal_GetCalendarGridInfo","MonthCal_GetCalendarGridInfo macro [Windows Controls]","_shell_MonthCal_GetCalendarGridInfo","_shell_MonthCal_GetCalendarGridInfo_cpp","commctrl/MonthCal_GetCalendarGridInfo","controls.MonthCal_GetCalendarGridInfo","controls._shell_MonthCal_GetCalendarGridInfo"]
 old-location: controls\MonthCal_GetCalendarGridInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_getcalendargridinfo.htm

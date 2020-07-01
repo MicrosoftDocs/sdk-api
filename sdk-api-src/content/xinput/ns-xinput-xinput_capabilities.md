@@ -1,7 +1,8 @@
 ---
 UID: NS:xinput._XINPUT_CAPABILITIES
 title: XINPUT_CAPABILITIES (xinput.h)
-description: Describes the capabilities of a connected controller. The XInputGetCapabilities function returns XINPUT_CAPABILITIES.helpviewer_keywords: ["*PXINPUT_CAPABILITIES","PXINPUT_CAPABILITIES","PXINPUT_CAPABILITIES structure pointer [XInput Game Controller APIs]","XINPUT_CAPABILITIES","XINPUT_CAPABILITIES structure [XInput Game Controller APIs]","xinput.xinput_capabilities","xinput/PXINPUT_CAPABILITIES","xinput/XINPUT_CAPABILITIES"]
+description: Describes the capabilities of a connected controller. The XInputGetCapabilities function returns XINPUT_CAPABILITIES.
+helpviewer_keywords: ["*PXINPUT_CAPABILITIES","PXINPUT_CAPABILITIES","PXINPUT_CAPABILITIES structure pointer [XInput Game Controller APIs]","XINPUT_CAPABILITIES","XINPUT_CAPABILITIES structure [XInput Game Controller APIs]","xinput.xinput_capabilities","xinput/PXINPUT_CAPABILITIES","xinput/XINPUT_CAPABILITIES"]
 old-location: xinput\xinput_capabilities.htm
 tech.root: xinput
 ms.assetid: T:Microsoft.directx_sdk.reference.XINPUT_CAPABILITIES

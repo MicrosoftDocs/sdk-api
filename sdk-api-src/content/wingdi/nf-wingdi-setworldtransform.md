@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetWorldTransform
 title: SetWorldTransform function (wingdi.h)
-description: The SetWorldTransform function sets a two-dimensional linear transformation between world space and page space for the specified device context. This transformation can be used to scale, rotate, shear, or translate graphics output.helpviewer_keywords: ["SetWorldTransform","SetWorldTransform function [Windows GDI]","_win32_SetWorldTransform","gdi.setworldtransform","wingdi/SetWorldTransform"]
+description: The SetWorldTransform function sets a two-dimensional linear transformation between world space and page space for the specified device context. This transformation can be used to scale, rotate, shear, or translate graphics output.
+helpviewer_keywords: ["SetWorldTransform","SetWorldTransform function [Windows GDI]","_win32_SetWorldTransform","gdi.setworldtransform","wingdi/SetWorldTransform"]
 old-location: gdi\setworldtransform.htm
 tech.root: gdi
 ms.assetid: d103a4dd-949e-4f18-ac90-bb0e51011233
@@ -48,54 +49,45 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# SetWorldTransform function
-
-
 ## -description
-
 
 The <b>SetWorldTransform</b> function sets a two-dimensional linear transformation between world space and page space for the specified device context. This transformation can be used to scale, rotate, shear, or translate graphics output.
 
-
 ## -parameters
-
-
-
 
 ### -param hdc [in]
 
 A handle to the device context.
 
-
 ### -param lpxf [in]
 
 A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a> structure that contains the transformation data.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is nonzero.
 
 If the function fails, the return value is zero.
 
-
-
-
 ## -remarks
 
+Below is the transformation matrix (note that the digits in the element notation are 1-based column number followed by 1-based row number, rather than the reverse).
 
+<pre class="syntax" xml:space="preserve"><code>| eM11 eM21 eDx |
+| eM12 eM22 eDy |
+| 0    0    1   |
+</code></pre>
 
-For any coordinates (x, y) in world space, the transformed coordinates in page space (x', y') can be determined by the following algorithm:
+So for any coordinates (x, y) in world space, the transformed coordinates in page space (x', y') can be determined in the way shown below.
 
-<pre class="syntax" xml:space="preserve"><code>x' = x * eM11 + y * eM21 + eDx, 
-y' = x * eM12 + y * eM22 + eDy, </code></pre>
-where the transformation matrix is represented by the following:
+<pre class="syntax" xml:space="preserve"><code>| x' |   | eM11 eM21 eDx |   | x |   
+| y' | = | eM12 eM22 eDy | . | y |
+| 1  |   | 0    0    1   |   | 1 |
 
-<pre class="syntax" xml:space="preserve"><code>| eM11 eM12 0 | 
-| eM21 eM22 0 | 
-| eDx  eDy  1 | </code></pre>
+x' = x * eM11 + y * eM21 + eDx
+y' = x * eM12 + y * eM22 + eDy
+</code></pre>
+
 This function uses logical units.
 
 The world transformation is usually used to scale or rotate logical images in a device-independent way.
@@ -104,62 +96,30 @@ The default world transformation is the identity matrix with zero offset.
 
 The <b>SetWorldTransform</b> function will fail unless the graphics mode for the given device context has been set to GM_ADVANCED by previously calling the <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a> function. Likewise, it will not be possible to reset the graphics mode for the device context to the default GM_COMPATIBLE mode, unless the world transformation has first been reset to the default identity transformation by calling <b>SetWorldTransform</b> or <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a>.
 
-
 #### Examples
 
 For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/using-coordinate-spaces-and-transformations">Using Coordinate Spaces and Transformations</a>.
 
-<div class="code"></div>
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-space-and-transformation-functions">Coordinate Space and Transformation Functions</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/gdi/coordinate-spaces-and-transformations">Coordinate Spaces and Transformations Overview</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-getworldtransform">GetWorldTransform</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-modifyworldtransform">ModifyWorldTransform</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setgraphicsmode">SetGraphicsMode</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setmapmode">SetMapMode</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportextex">SetViewportExtEx</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setviewportorgex">SetViewportOrgEx</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwindowextex">SetWindowExtEx</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-setwindoworgex">SetWindowOrgEx</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/ns-wingdi-xform">XFORM</a>
- 
-
- 
-

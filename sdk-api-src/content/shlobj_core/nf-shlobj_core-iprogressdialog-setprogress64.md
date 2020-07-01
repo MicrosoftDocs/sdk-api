@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetProgress64
 title: IProgressDialog::SetProgress64 (shlobj_core.h)
-description: Updates the progress dialog box with the current state of the operation.helpviewer_keywords: ["IProgressDialog interface [Windows Shell]","SetProgress64 method","IProgressDialog.SetProgress64","IProgressDialog::SetProgress64","SetProgress64","SetProgress64 method [Windows Shell]","SetProgress64 method [Windows Shell]","IProgressDialog interface","_win32_IProgressDialog_SetProgress64","shell.IProgressDialog_SetProgress64","shlobj_core/IProgressDialog::SetProgress64"]
+description: Updates the progress dialog box with the current state of the operation.
+helpviewer_keywords: ["IProgressDialog interface [Windows Shell]","SetProgress64 method","IProgressDialog.SetProgress64","IProgressDialog::SetProgress64","SetProgress64","SetProgress64 method [Windows Shell]","SetProgress64 method [Windows Shell]","IProgressDialog interface","_win32_IProgressDialog_SetProgress64","shell.IProgressDialog_SetProgress64","shlobj_core/IProgressDialog::SetProgress64"]
 old-location: shell\IProgressDialog_SetProgress64.htm
 tech.root: shell
 ms.assetid: 829775a0-5dd0-4c5e-8b92-b34c7d75f15e

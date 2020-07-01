@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_ExclusiveAccessOwner
 title: IDiscRecorder2::get_ExclusiveAccessOwner (imapi2.h)
-description: Retrieves the name of the client application that has exclusive access to the device.helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_ExclusiveAccessOwner method","IDiscRecorder2.get_ExclusiveAccessOwner","IDiscRecorder2::get_ExclusiveAccessOwner","get_ExclusiveAccessOwner","get_ExclusiveAccessOwner method [IMAPI]","get_ExclusiveAccessOwner method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_exclusiveaccessowner","imapi2/IDiscRecorder2::get_ExclusiveAccessOwner"]
+description: Retrieves the name of the client application that has exclusive access to the device.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_ExclusiveAccessOwner method","IDiscRecorder2.get_ExclusiveAccessOwner","IDiscRecorder2::get_ExclusiveAccessOwner","get_ExclusiveAccessOwner","get_ExclusiveAccessOwner method [IMAPI]","get_ExclusiveAccessOwner method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_exclusiveaccessowner","imapi2/IDiscRecorder2::get_ExclusiveAccessOwner"]
 old-location: imapi\idiscrecorder2_get_exclusiveaccessowner.htm
 tech.root: imapi
 ms.assetid: 32577b35-235a-4186-8fb3-18e5555cb56f

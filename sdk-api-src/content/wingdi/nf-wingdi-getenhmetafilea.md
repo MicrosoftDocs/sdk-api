@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetEnhMetaFileA
 title: GetEnhMetaFileA function (wingdi.h)
-description: The GetEnhMetaFile function creates a handle that identifies the enhanced-format metafile stored in the specified file.helpviewer_keywords: ["GetEnhMetaFile","GetEnhMetaFile function [Windows GDI]","GetEnhMetaFileA","GetEnhMetaFileW","_win32_GetEnhMetaFile","gdi.getenhmetafile","wingdi/GetEnhMetaFile","wingdi/GetEnhMetaFileA","wingdi/GetEnhMetaFileW"]
+description: The GetEnhMetaFile function creates a handle that identifies the enhanced-format metafile stored in the specified file.
+helpviewer_keywords: ["GetEnhMetaFile","GetEnhMetaFile function [Windows GDI]","GetEnhMetaFileA","GetEnhMetaFileW","_win32_GetEnhMetaFile","gdi.getenhmetafile","wingdi/GetEnhMetaFile","wingdi/GetEnhMetaFileA","wingdi/GetEnhMetaFileW"]
 old-location: gdi\getenhmetafile.htm
 tech.root: gdi
 ms.assetid: bcb9611e-8e4e-4f87-8a1e-dedbe0042821
@@ -96,6 +97,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/open
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines GetEnhMetaFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

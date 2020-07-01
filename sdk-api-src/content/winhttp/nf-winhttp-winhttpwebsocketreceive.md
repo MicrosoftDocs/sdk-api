@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpWebSocketReceive
 title: WinHttpWebSocketReceive function (winhttp.h)
-description: Receives data from a WebSocket connection.helpviewer_keywords: ["WinHttpWebSocketReceive","WinHttpWebSocketReceive function [WinHTTP]","http.winhttpwebsocketreceive","winhttp/WinHttpWebSocketReceive"]
+description: Receives data from a WebSocket connection.
+helpviewer_keywords: ["WinHttpWebSocketReceive","WinHttpWebSocketReceive function [WinHTTP]","http.winhttpwebsocketreceive","winhttp/WinHttpWebSocketReceive"]
 old-location: http\winhttpwebsocketreceive.htm
 tech.root: WinHttp
 ms.assetid: 9992150d-632b-45fe-8f11-84d698b4ffb3

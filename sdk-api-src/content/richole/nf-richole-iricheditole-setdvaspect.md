@@ -1,7 +1,8 @@
 ---
 UID: NF:richole.IRichEditOle.SetDvaspect
 title: IRichEditOle::SetDvaspect (richole.h)
-description: Sets the aspect that a rich edit control uses to draw an object. This call does not change the drawing information cached in the object; this must be done by the caller. The call does cause the object to be redrawn.helpviewer_keywords: ["IRichEditOle interface [Windows Controls]","SetDvaspect method","IRichEditOle.SetDvaspect","IRichEditOle::SetDvaspect","SetDvaspect","SetDvaspect method [Windows Controls]","SetDvaspect method [Windows Controls]","IRichEditOle interface","_win32_IRichEditOle_SetDvaspect","_win32_IRichEditOle_SetDvaspect_cpp","controls.IRichEditOle_SetDvaspect","controls._win32_IRichEditOle_SetDvaspect","richole/IRichEditOle::SetDvaspect"]
+description: Sets the aspect that a rich edit control uses to draw an object. This call does not change the drawing information cached in the object; this must be done by the caller. The call does cause the object to be redrawn.
+helpviewer_keywords: ["IRichEditOle interface [Windows Controls]","SetDvaspect method","IRichEditOle.SetDvaspect","IRichEditOle::SetDvaspect","SetDvaspect","SetDvaspect method [Windows Controls]","SetDvaspect method [Windows Controls]","IRichEditOle interface","_win32_IRichEditOle_SetDvaspect","_win32_IRichEditOle_SetDvaspect_cpp","controls.IRichEditOle_SetDvaspect","controls._win32_IRichEditOle_SetDvaspect","richole/IRichEditOle::SetDvaspect"]
 old-location: controls\IRichEditOle_SetDvaspect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesetdvaspect.htm

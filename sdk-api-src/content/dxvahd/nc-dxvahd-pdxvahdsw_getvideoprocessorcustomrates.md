@@ -1,7 +1,8 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessorCustomRates
 title: PDXVAHDSW_GetVideoProcessorCustomRates (dxvahd.h)
-description: Gets the custom rates that a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor supports.helpviewer_keywords: ["PDXVAHDSW_GetVideoProcessorCustomRates","PDXVAHDSW_GetVideoProcessorCustomRates callback","PDXVAHDSW_GetVideoProcessorCustomRates callback function [Media Foundation]","dxvahd/PDXVAHDSW_GetVideoProcessorCustomRates","mf.pdxvahdsw_getvideoprocessorcustomrates"]
+description: Gets the custom rates that a software Microsoft DirectX Video Acceleration High Definition (DXVA-HD) video processor supports.
+helpviewer_keywords: ["PDXVAHDSW_GetVideoProcessorCustomRates","PDXVAHDSW_GetVideoProcessorCustomRates callback","PDXVAHDSW_GetVideoProcessorCustomRates callback function [Media Foundation]","dxvahd/PDXVAHDSW_GetVideoProcessorCustomRates","mf.pdxvahdsw_getvideoprocessorcustomrates"]
 old-location: mf\pdxvahdsw_getvideoprocessorcustomrates.htm
 tech.root: medfound
 ms.assetid: 0b633dcc-c6eb-47e5-b43b-b2a6cb66abf6

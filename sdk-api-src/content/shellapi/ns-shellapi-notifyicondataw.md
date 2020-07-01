@@ -1,7 +1,8 @@
 ---
 UID: NS:shellapi._NOTIFYICONDATAW
 title: NOTIFYICONDATAW (shellapi.h)
-description: Contains information that the system needs to display notifications in the notification area. Used by Shell_NotifyIcon.helpviewer_keywords: ["*PNOTIFYICONDATAW","0","NIF_GUID","NIF_ICON","NIF_INFO","NIF_MESSAGE","NIF_REALTIME","NIF_SHOWTIP","NIF_STATE","NIF_TIP","NIIF_ERROR","NIIF_ICON_MASK","NIIF_INFO","NIIF_LARGE_ICON","NIIF_NONE","NIIF_NOSOUND","NIIF_RESPECT_QUIET_TIME","NIIF_USER","NIIF_WARNING","NIS_HIDDEN","NIS_SHAREDICON","NOTIFYICONDATA","NOTIFYICONDATA structure [Windows Shell]","NOTIFYICONDATAW","NOTIFYICON_VERSION","NOTIFYICON_VERSION_4","PNOTIFYICONDATA","PNOTIFYICONDATA structure pointer [Windows Shell]","_win32_NOTIFYICONDATA","shell.NOTIFYICONDATA","shellapi/NOTIFYICONDATA","shellapi/PNOTIFYICONDATA"]
+description: Contains information that the system needs to display notifications in the notification area. Used by Shell_NotifyIcon.
+helpviewer_keywords: ["*PNOTIFYICONDATAW","0","NIF_GUID","NIF_ICON","NIF_INFO","NIF_MESSAGE","NIF_REALTIME","NIF_SHOWTIP","NIF_STATE","NIF_TIP","NIIF_ERROR","NIIF_ICON_MASK","NIIF_INFO","NIIF_LARGE_ICON","NIIF_NONE","NIIF_NOSOUND","NIIF_RESPECT_QUIET_TIME","NIIF_USER","NIIF_WARNING","NIS_HIDDEN","NIS_SHAREDICON","NOTIFYICONDATA","NOTIFYICONDATA structure [Windows Shell]","NOTIFYICONDATAW","NOTIFYICON_VERSION","NOTIFYICON_VERSION_4","PNOTIFYICONDATA","PNOTIFYICONDATA structure pointer [Windows Shell]","_win32_NOTIFYICONDATA","shell.NOTIFYICONDATA","shellapi/NOTIFYICONDATA","shellapi/PNOTIFYICONDATA"]
 old-location: shell\NOTIFYICONDATA.htm
 tech.root: shell
 ms.assetid: fdcc42c1-b3e5-4b04-8d79-7b6c29699d53
@@ -638,6 +639,10 @@ This also occurs in the case of a side-by-side installation. When dealing with a
 </ol>
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines NOTIFYICONDATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

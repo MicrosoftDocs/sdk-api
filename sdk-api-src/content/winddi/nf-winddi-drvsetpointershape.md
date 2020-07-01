@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvSetPointerShape
 title: DrvSetPointerShape function (winddi.h)
-description: The DrvSetPointerShape function is used to request the driver to take the pointer off the display, if the driver has drawn it there; to attempt to set a new pointer shape; and to put the new pointer on the display at a specified position.helpviewer_keywords: ["DrvSetPointerShape","DrvSetPointerShape function [Display Devices]","ddifncs_86472b92-edfc-4811-8b35-e690136a2430.xml","display.drvsetpointershape","winddi/DrvSetPointerShape"]
+description: The DrvSetPointerShape function is used to request the driver to take the pointer off the display, if the driver has drawn it there; to attempt to set a new pointer shape; and to put the new pointer on the display at a specified position.
+helpviewer_keywords: ["DrvSetPointerShape","DrvSetPointerShape function [Display Devices]","ddifncs_86472b92-edfc-4811-8b35-e690136a2430.xml","display.drvsetpointershape","winddi/DrvSetPointerShape"]
 old-location: display\drvsetpointershape.htm
 tech.root: display
 ms.assetid: 3cc186df-572b-48ed-ac0b-56c8d91a9794

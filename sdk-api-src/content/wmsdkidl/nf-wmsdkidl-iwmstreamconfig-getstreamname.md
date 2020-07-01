@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamName
 title: IWMStreamConfig::GetStreamName (wmsdkidl.h)
-description: The GetStreamName method retrieves the stream name.helpviewer_keywords: ["GetStreamName","GetStreamName method [windows Media Format]","GetStreamName method [windows Media Format]","IWMStreamConfig interface","IWMStreamConfig interface [windows Media Format]","GetStreamName method","IWMStreamConfig.GetStreamName","IWMStreamConfig::GetStreamName","IWMStreamConfigGetStreamName","wmformat.iwmstreamconfig_getstreamname","wmsdkidl/IWMStreamConfig::GetStreamName"]
+description: The GetStreamName method retrieves the stream name.
+helpviewer_keywords: ["GetStreamName","GetStreamName method [windows Media Format]","GetStreamName method [windows Media Format]","IWMStreamConfig interface","IWMStreamConfig interface [windows Media Format]","GetStreamName method","IWMStreamConfig.GetStreamName","IWMStreamConfig::GetStreamName","IWMStreamConfigGetStreamName","wmformat.iwmstreamconfig_getstreamname","wmsdkidl/IWMStreamConfig::GetStreamName"]
 old-location: wmformat\iwmstreamconfig_getstreamname.htm
 tech.root: wmformat
 ms.assetid: 86c65cfe-d482-461b-a187-ce1ce9a30609

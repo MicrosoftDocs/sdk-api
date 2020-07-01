@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMStreamPrioritization.GetPriorityRecords
 title: IWMStreamPrioritization::GetPriorityRecords (wmsdkidl.h)
-description: The GetPriorityRecords method retrieves the list of streams and their priorities from the profile.helpviewer_keywords: ["GetPriorityRecords","GetPriorityRecords method [windows Media Format]","GetPriorityRecords method [windows Media Format]","IWMStreamPrioritization interface","IWMStreamPrioritization interface [windows Media Format]","GetPriorityRecords method","IWMStreamPrioritization.GetPriorityRecords","IWMStreamPrioritization::GetPriorityRecords","IWMStreamPrioritizationGetPriorityRecords","wmformat.iwmstreamprioritization_getpriorityrecords","wmsdkidl/IWMStreamPrioritization::GetPriorityRecords"]
+description: The GetPriorityRecords method retrieves the list of streams and their priorities from the profile.
+helpviewer_keywords: ["GetPriorityRecords","GetPriorityRecords method [windows Media Format]","GetPriorityRecords method [windows Media Format]","IWMStreamPrioritization interface","IWMStreamPrioritization interface [windows Media Format]","GetPriorityRecords method","IWMStreamPrioritization.GetPriorityRecords","IWMStreamPrioritization::GetPriorityRecords","IWMStreamPrioritizationGetPriorityRecords","wmformat.iwmstreamprioritization_getpriorityrecords","wmsdkidl/IWMStreamPrioritization::GetPriorityRecords"]
 old-location: wmformat\iwmstreamprioritization_getpriorityrecords.htm
 tech.root: wmformat
 ms.assetid: 50b105c7-1e4f-435c-8bb6-643ea4d065bb

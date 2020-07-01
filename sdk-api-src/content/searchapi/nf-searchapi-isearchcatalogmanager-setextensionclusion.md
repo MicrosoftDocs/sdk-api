@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.SetExtensionClusion
 title: ISearchCatalogManager::SetExtensionClusion (searchapi.h)
-description: Not implemented.helpviewer_keywords: ["ISearchCatalogManager interface [search]","SetExtensionClusion method","ISearchCatalogManager.SetExtensionClusion","ISearchCatalogManager::SetExtensionClusion","SetExtensionClusion","SetExtensionClusion method [search]","SetExtensionClusion method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_SetExtensionClusion","search._search_ISearchCatalogManager_SetExtensionClusion","searchapi/ISearchCatalogManager::SetExtensionClusion"]
+description: Not implemented.
+helpviewer_keywords: ["ISearchCatalogManager interface [search]","SetExtensionClusion method","ISearchCatalogManager.SetExtensionClusion","ISearchCatalogManager::SetExtensionClusion","SetExtensionClusion","SetExtensionClusion method [search]","SetExtensionClusion method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_SetExtensionClusion","search._search_ISearchCatalogManager_SetExtensionClusion","searchapi/ISearchCatalogManager::SetExtensionClusion"]
 old-location: search\_search_ISearchCatalogManager_SetExtensionClusion.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\setextensionclusion.htm

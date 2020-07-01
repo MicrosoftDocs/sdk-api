@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.SetBaseInset
 title: CustomLineCap::SetBaseInset (gdiplusheaders.h)
-description: The CustomLineCap::SetBaseInset method sets the base inset value of this custom line cap. This is the distance between the end of a line and the base cap.helpviewer_keywords: ["CustomLineCap class [GDI+]","SetBaseInset method","CustomLineCap.SetBaseInset","CustomLineCap::SetBaseInset","SetBaseInset","SetBaseInset method [GDI+]","SetBaseInset method [GDI+]","CustomLineCap class","_gdiplus_CLASS_CustomLineCap_SetBaseInset_inset_","gdiplus._gdiplus_CLASS_CustomLineCap_SetBaseInset_inset_"]
+description: The CustomLineCap::SetBaseInset method sets the base inset value of this custom line cap. This is the distance between the end of a line and the base cap.
+helpviewer_keywords: ["CustomLineCap class [GDI+]","SetBaseInset method","CustomLineCap.SetBaseInset","CustomLineCap::SetBaseInset","SetBaseInset","SetBaseInset method [GDI+]","SetBaseInset method [GDI+]","CustomLineCap class","_gdiplus_CLASS_CustomLineCap_SetBaseInset_inset_","gdiplus._gdiplus_CLASS_CustomLineCap_SetBaseInset_inset_"]
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetBaseInset_inset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\setbaseinset.htm

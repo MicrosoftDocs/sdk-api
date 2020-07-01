@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumStoredMessages
 title: IDXGIInfoQueue::GetNumStoredMessages (dxgidebug.h)
-description: Gets the number of messages currently stored in the message queue.helpviewer_keywords: ["GetNumStoredMessages","GetNumStoredMessages method [DXGI]","GetNumStoredMessages method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetNumStoredMessages method","IDXGIInfoQueue.GetNumStoredMessages","IDXGIInfoQueue::GetNumStoredMessages","direct3ddxgi.idxgiinfoqueue_getnumstoredmessages","dxgidebug/IDXGIInfoQueue::GetNumStoredMessages"]
+description: Gets the number of messages currently stored in the message queue.
+helpviewer_keywords: ["GetNumStoredMessages","GetNumStoredMessages method [DXGI]","GetNumStoredMessages method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetNumStoredMessages method","IDXGIInfoQueue.GetNumStoredMessages","IDXGIInfoQueue::GetNumStoredMessages","direct3ddxgi.idxgiinfoqueue_getnumstoredmessages","dxgidebug/IDXGIInfoQueue::GetNumStoredMessages"]
 old-location: direct3ddxgi\idxgiinfoqueue_getnumstoredmessages.htm
 tech.root: direct3ddxgi
 ms.assetid: 81556BB3-D8B8-4868-8B21-C9E01C3F183E

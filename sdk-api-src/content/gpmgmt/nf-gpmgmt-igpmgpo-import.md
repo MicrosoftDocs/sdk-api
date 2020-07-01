@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.Import
 title: IGPMGPO::Import (gpmgmt.h)
-description: Imports the policy settings from the specified GPMBackup object.helpviewer_keywords: ["GPMGPO object [GPMC]","Import method","IGPMGPO interface [GPMC]","Import method","IGPMGPO.Import","IGPMGPO::Import","Import","Import method [GPMC]","Import method [GPMC]","GPMGPO object","Import method [GPMC]","IGPMGPO interface","_win32_igpmgpo_import","gpmc.igpmgpo_import","gpmgmt/IGPMGPO::Import"]
+description: Imports the policy settings from the specified GPMBackup object.
+helpviewer_keywords: ["GPMGPO object [GPMC]","Import method","IGPMGPO interface [GPMC]","Import method","IGPMGPO.Import","IGPMGPO::Import","Import","Import method [GPMC]","Import method [GPMC]","GPMGPO object","Import method [GPMC]","IGPMGPO interface","_win32_igpmgpo_import","gpmc.igpmgpo_import","gpmgmt/IGPMGPO::Import"]
 old-location: gpmc\igpmgpo_import.htm
 tech.root: gpmc
 ms.assetid: 3b16eefb-89af-408b-a84c-c8ab958b4cc7

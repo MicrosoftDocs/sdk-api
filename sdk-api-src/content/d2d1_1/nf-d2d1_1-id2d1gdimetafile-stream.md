@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1GdiMetafile.Stream
 title: ID2D1GdiMetafile::Stream (d2d1_1.h)
-description: This method streams the contents of the command to the given metafile sink.helpviewer_keywords: ["ID2D1GdiMetafile interface [Direct2D]","Stream method","ID2D1GdiMetafile.Stream","ID2D1GdiMetafile::Stream","Stream","Stream method [Direct2D]","Stream method [Direct2D]","ID2D1GdiMetafile interface","d2d1_1/ID2D1GdiMetafile::Stream","direct2d.id2d1gdimetafile_stream"]
+description: This method streams the contents of the command to the given metafile sink.
+helpviewer_keywords: ["ID2D1GdiMetafile interface [Direct2D]","Stream method","ID2D1GdiMetafile.Stream","ID2D1GdiMetafile::Stream","Stream","Stream method [Direct2D]","Stream method [Direct2D]","ID2D1GdiMetafile interface","d2d1_1/ID2D1GdiMetafile::Stream","direct2d.id2d1gdimetafile_stream"]
 old-location: direct2d\id2d1gdimetafile_stream.htm
 tech.root: Direct2D
 ms.assetid: 84E7305D-1E2D-43C3-8E79-02EBCC8F36A1

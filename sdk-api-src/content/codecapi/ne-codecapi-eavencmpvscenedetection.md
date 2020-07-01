@@ -1,7 +1,8 @@
 ---
 UID: NE:codecapi.eAVEncMPVSceneDetection
 title: eAVEncMPVSceneDetection (codecapi.h)
-description: Specifies how the encoder behaves when it detects a new scene. This enumeration is used with the AVEncMPVSceneDetection property.helpviewer_keywords: ["codecapi/eAVEncMPVSceneDetection","codecapi/eAVEncMPVSceneDetection_InsertIPicture","codecapi/eAVEncMPVSceneDetection_None","codecapi/eAVEncMPVSceneDetection_StartNewGOP","codecapi/eAVEncMPVSceneDetection_StartNewLocatableGOP","dshow.eavencmpvscenedetection","eAVEncMPVSceneDetection","eAVEncMPVSceneDetection enumeration [DirectShow]","eAVEncMPVSceneDetectionEnumeration","eAVEncMPVSceneDetection_InsertIPicture","eAVEncMPVSceneDetection_None","eAVEncMPVSceneDetection_StartNewGOP","eAVEncMPVSceneDetection_StartNewLocatableGOP"]
+description: Specifies how the encoder behaves when it detects a new scene. This enumeration is used with the AVEncMPVSceneDetection property.
+helpviewer_keywords: ["codecapi/eAVEncMPVSceneDetection","codecapi/eAVEncMPVSceneDetection_InsertIPicture","codecapi/eAVEncMPVSceneDetection_None","codecapi/eAVEncMPVSceneDetection_StartNewGOP","codecapi/eAVEncMPVSceneDetection_StartNewLocatableGOP","dshow.eavencmpvscenedetection","eAVEncMPVSceneDetection","eAVEncMPVSceneDetection enumeration [DirectShow]","eAVEncMPVSceneDetectionEnumeration","eAVEncMPVSceneDetection_InsertIPicture","eAVEncMPVSceneDetection_None","eAVEncMPVSceneDetection_StartNewGOP","eAVEncMPVSceneDetection_StartNewLocatableGOP"]
 old-location: dshow\eavencmpvscenedetection.htm
 tech.root: DirectShow
 ms.assetid: 81d273bd-06bc-4418-98af-8e7756aac91c

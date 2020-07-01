@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectSamplerVariable.GetBackingStore
 title: ID3D10EffectSamplerVariable::GetBackingStore (d3d10effect.h)
-description: Get a pointer to a variable that contains sampler state.helpviewer_keywords: ["4dc77fe0-2533-5324-1a51-b4e1cde4e16d","GetBackingStore","GetBackingStore method [Direct3D 10]","GetBackingStore method [Direct3D 10]","ID3D10EffectSamplerVariable interface","ID3D10EffectSamplerVariable interface [Direct3D 10]","GetBackingStore method","ID3D10EffectSamplerVariable.GetBackingStore","ID3D10EffectSamplerVariable::GetBackingStore","d3d10effect/ID3D10EffectSamplerVariable::GetBackingStore","direct3d10.id3d10effectsamplervariable_getbackingstore"]
+description: Get a pointer to a variable that contains sampler state.
+helpviewer_keywords: ["4dc77fe0-2533-5324-1a51-b4e1cde4e16d","GetBackingStore","GetBackingStore method [Direct3D 10]","GetBackingStore method [Direct3D 10]","ID3D10EffectSamplerVariable interface","ID3D10EffectSamplerVariable interface [Direct3D 10]","GetBackingStore method","ID3D10EffectSamplerVariable.GetBackingStore","ID3D10EffectSamplerVariable::GetBackingStore","d3d10effect/ID3D10EffectSamplerVariable::GetBackingStore","direct3d10.id3d10effectsamplervariable_getbackingstore"]
 old-location: direct3d10\id3d10effectsamplervariable_getbackingstore.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectsamplervariable_getbackingstore.htm

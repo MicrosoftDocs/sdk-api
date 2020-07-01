@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleSetAutoConvert
 title: OleSetAutoConvert function (ole2.h)
-description: Specifies a CLSID for automatic conversion to a different class when an object of that class is loaded.helpviewer_keywords: ["OleSetAutoConvert","OleSetAutoConvert function [COM]","_com_OleSetAutoConvert","com.olesetautoconvert","ole2/OleSetAutoConvert"]
+description: Specifies a CLSID for automatic conversion to a different class when an object of that class is loaded.
+helpviewer_keywords: ["OleSetAutoConvert","OleSetAutoConvert function [COM]","_com_OleSetAutoConvert","com.olesetautoconvert","ole2/OleSetAutoConvert"]
 old-location: com\olesetautoconvert.htm
 tech.root: com
 ms.assetid: 39abf385-962a-4b20-b319-501c8130e050

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IObjMgr.Remove
 title: IObjMgr::Remove (shlobj_core.h)
-description: Removes an object from the collection of managed objects.helpviewer_keywords: ["IObjMgr interface [Windows Shell]","Remove method","IObjMgr.Remove","IObjMgr::Remove","Remove","Remove method [Windows Shell]","Remove method [Windows Shell]","IObjMgr interface","_win32_IObjMgr_Remove","shell.IObjMgr_Remove","shlobj_core/IObjMgr::Remove"]
+description: Removes an object from the collection of managed objects.
+helpviewer_keywords: ["IObjMgr interface [Windows Shell]","Remove method","IObjMgr.Remove","IObjMgr::Remove","Remove","Remove method [Windows Shell]","Remove method [Windows Shell]","IObjMgr interface","_win32_IObjMgr_Remove","shell.IObjMgr_Remove","shlobj_core/IObjMgr::Remove"]
 old-location: shell\IObjMgr_Remove.htm
 tech.root: shell
 ms.assetid: 21f8cce6-0d48-4b8e-8f15-1f95b112892d

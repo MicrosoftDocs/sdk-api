@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IIsdbCAServiceDescriptor
 title: IIsdbCAServiceDescriptor (dvbsiparser.h)
-description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) service descriptor.helpviewer_keywords: ["IIsdbCAServiceDescriptor","IIsdbCAServiceDescriptor interface [Microsoft TV Technologies]","IIsdbCAServiceDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IIsdbCAServiceDescriptor","mstv.iisdbcaservicedescriptor"]
+description: Implements methods that get data from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) service descriptor.
+helpviewer_keywords: ["IIsdbCAServiceDescriptor","IIsdbCAServiceDescriptor interface [Microsoft TV Technologies]","IIsdbCAServiceDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IIsdbCAServiceDescriptor","mstv.iisdbcaservicedescriptor"]
 old-location: mstv\iisdbcaservicedescriptor.htm
 tech.root: mstv
 ms.assetid: 6d56e39d-3c7a-4c55-8d07-00e25eba18bd

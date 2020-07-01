@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFMediaEventGenerator.GetEvent
 title: IMFMediaEventGenerator::GetEvent (mfobjects.h)
-description: Retrieves the next event in the queue. This method is synchronous.helpviewer_keywords: ["0","GetEvent","GetEvent method [Media Foundation]","GetEvent method [Media Foundation]","IMFMediaEventGenerator interface","IMFMediaEventGenerator interface [Media Foundation]","GetEvent method","IMFMediaEventGenerator.GetEvent","IMFMediaEventGenerator::GetEvent","MF_EVENT_FLAG_NO_WAIT","e78464b5-ec6b-4739-a135-352fa297916a","mf.imfmediaeventgenerator_getevent","mfobjects/IMFMediaEventGenerator::GetEvent"]
+description: Retrieves the next event in the queue. This method is synchronous.
+helpviewer_keywords: ["0","GetEvent","GetEvent method [Media Foundation]","GetEvent method [Media Foundation]","IMFMediaEventGenerator interface","IMFMediaEventGenerator interface [Media Foundation]","GetEvent method","IMFMediaEventGenerator.GetEvent","IMFMediaEventGenerator::GetEvent","MF_EVENT_FLAG_NO_WAIT","e78464b5-ec6b-4739-a135-352fa297916a","mf.imfmediaeventgenerator_getevent","mfobjects/IMFMediaEventGenerator::GetEvent"]
 old-location: mf\imfmediaeventgenerator_getevent.htm
 tech.root: medfound
 ms.assetid: e78464b5-ec6b-4739-a135-352fa297916a

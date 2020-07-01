@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3EqualR
 title: XMVector3EqualR function (directxmath.h)
-description: Tests whether two 3D vectors are equal. In addition, this function returns a comparison value that can be examined using functions such as XMComparisonAllTrue.helpviewer_keywords: ["Use DirectX..XMVector3EqualR","XMVector3EqualR","XMVector3EqualR method [DirectX Math Support APIs]","dxmath.xmvector3equalr"]
+description: Tests whether two 3D vectors are equal. In addition, this function returns a comparison value that can be examined using functions such as XMComparisonAllTrue.
+helpviewer_keywords: ["Use DirectX..XMVector3EqualR","XMVector3EqualR","XMVector3EqualR method [DirectX Math Support APIs]","dxmath.xmvector3equalr"]
 old-location: dxmath\xmvector3equalr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3EqualR(XMVECTOR,XMVECTOR)

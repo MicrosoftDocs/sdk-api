@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.FindFirstFileW
 title: FindFirstFileW function (fileapi.h)
-description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used).helpviewer_keywords: ["FindFirstFile","FindFirstFile function [Files]","FindFirstFileA","FindFirstFileW","_win32_findfirstfile","base.findfirstfile","fileapi/FindFirstFile","fileapi/FindFirstFileA","fileapi/FindFirstFileW","fs.findfirstfile","winbase/FindFirstFile","winbase/FindFirstFileA","winbase/FindFirstFileW"]
+description: Searches a directory for a file or subdirectory with a name that matches a specific name (or partial name if wildcards are used).
+helpviewer_keywords: ["FindFirstFile","FindFirstFile function [Files]","FindFirstFileA","FindFirstFileW","_win32_findfirstfile","base.findfirstfile","fileapi/FindFirstFile","fileapi/FindFirstFileA","fileapi/FindFirstFileW","fs.findfirstfile","winbase/FindFirstFile","winbase/FindFirstFileA","winbase/FindFirstFileW"]
 old-location: fs\findfirstfile.htm
 tech.root: FileIO
 ms.assetid: 02fc92c4-582d-4c9f-a811-b5c839e9fffa
@@ -304,6 +305,10 @@ For another example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines FindFirstFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

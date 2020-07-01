@@ -1,7 +1,8 @@
 ---
 UID: NN:ctfspui.ITfSpeechUIServer
 title: ITfSpeechUIServer (ctfspui.h)
-description: The ITfSpeechUIServer interface manages the speech-related user interface on the TSF language bar.helpviewer_keywords: ["ITfSpeechUIServer","ITfSpeechUIServer interface [Text Services Framework]","ITfSpeechUIServer interface [Text Services Framework]","described","ctfspui/ITfSpeechUIServer","tsf.itfspeechuiserver"]
+description: The ITfSpeechUIServer interface manages the speech-related user interface on the TSF language bar.
+helpviewer_keywords: ["ITfSpeechUIServer","ITfSpeechUIServer interface [Text Services Framework]","ITfSpeechUIServer interface [Text Services Framework]","described","ctfspui/ITfSpeechUIServer","tsf.itfspeechuiserver"]
 old-location: tsf\itfspeechuiserver.htm
 tech.root: TSF
 ms.assetid: 40961001-b659-4ddb-ae7d-5342957770be

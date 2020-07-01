@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorCos
 title: XMVectorCos function (directxmath.h)
-description: Computes the cosine of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorCos","XMVectorCos","XMVectorCos method [DirectX Math Support APIs]","dxmath.xmvectorcos"]
+description: Computes the cosine of each component of an XMVECTOR.
+helpviewer_keywords: ["Use DirectX..XMVectorCos","XMVectorCos","XMVectorCos method [DirectX Math Support APIs]","dxmath.xmvectorcos"]
 old-location: dxmath\xmvectorcos.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorCos(XMVECTOR)

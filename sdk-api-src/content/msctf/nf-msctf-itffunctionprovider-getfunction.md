@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfFunctionProvider.GetFunction
 title: ITfFunctionProvider::GetFunction (msctf.h)
-description: ITfFunctionProvider::GetFunction methodhelpviewer_keywords: ["GetFunction","GetFunction method [Text Services Framework]","GetFunction method [Text Services Framework]","ITfFunctionProvider interface","ITfFunctionProvider interface [Text Services Framework]","GetFunction method","ITfFunctionProvider.GetFunction","ITfFunctionProvider::GetFunction","_tsf_itffunctionprovider_getfunction_ref","msctf/ITfFunctionProvider::GetFunction","tsf.itffunctionprovider_getfunction"]
+description: ITfFunctionProvider::GetFunction method
+helpviewer_keywords: ["GetFunction","GetFunction method [Text Services Framework]","GetFunction method [Text Services Framework]","ITfFunctionProvider interface","ITfFunctionProvider interface [Text Services Framework]","GetFunction method","ITfFunctionProvider.GetFunction","ITfFunctionProvider::GetFunction","_tsf_itffunctionprovider_getfunction_ref","msctf/ITfFunctionProvider::GetFunction","tsf.itffunctionprovider_getfunction"]
 old-location: tsf\itffunctionprovider_getfunction.htm
 tech.root: TSF
 ms.assetid: a8ec629a-9ac6-4f25-82f2-42af6ce52ddc

@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.OfflineClusterResource
 title: OfflineClusterResource function (clusapi.h)
-description: Takes a resource offline.helpviewer_keywords: ["OfflineClusterResource","OfflineClusterResource function [Failover Cluster]","PCLUSAPI_OFFLINE_CLUSTER_RESOURCE","PCLUSAPI_OFFLINE_CLUSTER_RESOURCE function [Failover Cluster]","_wolf_offlineclusterresource","clusapi/OfflineClusterResource","clusapi/PCLUSAPI_OFFLINE_CLUSTER_RESOURCE","mscs.offlineclusterresource"]
+description: Takes a resource offline.
+helpviewer_keywords: ["OfflineClusterResource","OfflineClusterResource function [Failover Cluster]","PCLUSAPI_OFFLINE_CLUSTER_RESOURCE","PCLUSAPI_OFFLINE_CLUSTER_RESOURCE function [Failover Cluster]","_wolf_offlineclusterresource","clusapi/OfflineClusterResource","clusapi/PCLUSAPI_OFFLINE_CLUSTER_RESOURCE","mscs.offlineclusterresource"]
 old-location: mscs\offlineclusterresource.htm
 tech.root: MsCS
 ms.assetid: 694dbf3d-3355-44d9-8af0-ea2baae832fd

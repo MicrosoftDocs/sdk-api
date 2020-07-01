@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnEmergencyModeChange
 title: IMbnInterfaceEvents::OnEmergencyModeChange (mbnapi.h)
-description: This notification method is called by the Mobile Broadband service to indicate that the emergency mode has changed.helpviewer_keywords: ["IMbnInterfaceEvents interface [Microsoft Broadband Networks]","OnEmergencyModeChange method","IMbnInterfaceEvents.OnEmergencyModeChange","IMbnInterfaceEvents::OnEmergencyModeChange","OnEmergencyModeChange","OnEmergencyModeChange method [Microsoft Broadband Networks]","OnEmergencyModeChange method [Microsoft Broadband Networks]","IMbnInterfaceEvents interface","mbn.imbninterfaceevents_onemergencymodechange","mbnapi/IMbnInterfaceEvents::OnEmergencyModeChange"]
+description: This notification method is called by the Mobile Broadband service to indicate that the emergency mode has changed.
+helpviewer_keywords: ["IMbnInterfaceEvents interface [Microsoft Broadband Networks]","OnEmergencyModeChange method","IMbnInterfaceEvents.OnEmergencyModeChange","IMbnInterfaceEvents::OnEmergencyModeChange","OnEmergencyModeChange","OnEmergencyModeChange method [Microsoft Broadband Networks]","OnEmergencyModeChange method [Microsoft Broadband Networks]","IMbnInterfaceEvents interface","mbn.imbninterfaceevents_onemergencymodechange","mbnapi/IMbnInterfaceEvents::OnEmergencyModeChange"]
 old-location: mbn\imbninterfaceevents_onemergencymodechange.htm
 tech.root: mbn
 ms.assetid: 637e0f6b-102f-436c-b0ec-edef16245675

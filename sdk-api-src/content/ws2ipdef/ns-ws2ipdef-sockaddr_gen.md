@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2ipdef.sockaddr_gen
 title: sockaddr_gen (ws2ipdef.h)
-description: Provides generic socket address information, and is used with the INTERFACE_INFO structure.helpviewer_keywords: ["sockaddr_gen","sockaddr_gen union [Winsock]","winsock.sockaddr_gen","ws2ipdef/sockaddr_gen","ws2tcpip/sockaddr_gen"]
+description: Provides generic socket address information, and is used with the INTERFACE_INFO structure.
+helpviewer_keywords: ["sockaddr_gen","sockaddr_gen union [Winsock]","winsock.sockaddr_gen","ws2ipdef/sockaddr_gen","ws2tcpip/sockaddr_gen"]
 old-location: winsock\sockaddr_gen.htm
 tech.root: WinSock
 ms.assetid: 60b11476-07ca-476e-a2f0-669631835128

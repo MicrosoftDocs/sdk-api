@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgi.DXGI_ADAPTER_DESC
 title: DXGI_ADAPTER_DESC (dxgi.h)
-description: Describes an adapter (or video card) by using DXGI 1.0.helpviewer_keywords: ["DXGI_ADAPTER_DESC","DXGI_ADAPTER_DESC structure [DXGI]","aa379230-8fa1-e846-2745-b4f13f26ee19","direct3ddxgi.dxgi_adapter_desc","dxgi/DXGI_ADAPTER_DESC"]
+description: Describes an adapter (or video card) by using DXGI 1.0.
+helpviewer_keywords: ["DXGI_ADAPTER_DESC","DXGI_ADAPTER_DESC structure [DXGI]","aa379230-8fa1-e846-2745-b4f13f26ee19","direct3ddxgi.dxgi_adapter_desc","dxgi/DXGI_ADAPTER_DESC"]
 old-location: direct3ddxgi\dxgi_adapter_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_adapter_desc.htm

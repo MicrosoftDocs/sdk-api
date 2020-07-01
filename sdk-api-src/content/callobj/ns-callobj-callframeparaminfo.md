@@ -1,7 +1,8 @@
 ---
 UID: NS:callobj.__MIDL_ICallFrame_0002
 title: CALLFRAMEPARAMINFO (callobj.h)
-description: Provides information about the parameter on the stack.helpviewer_keywords: ["CALLFRAMEPARAMINFO","CALLFRAMEPARAMINFO structure [COM]","callobj/CALLFRAMEPARAMINFO","com.callframeparaminfo"]
+description: Provides information about the parameter on the stack.
+helpviewer_keywords: ["CALLFRAMEPARAMINFO","CALLFRAMEPARAMINFO structure [COM]","callobj/CALLFRAMEPARAMINFO","com.callframeparaminfo"]
 old-location: com\callframeparaminfo.htm
 tech.root: com
 ms.assetid: 0f3a1e81-c8b6-4141-8712-c600b30a2779

@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IMediaSeeking
 title: IMediaSeeking (strmif.h)
-description: The IMediaSeeking interface contains methods for seeking to a position within a stream, and for setting the playback rate.helpviewer_keywords: ["IMediaSeeking","IMediaSeeking interface [DirectShow]","IMediaSeeking interface [DirectShow]","described","IMediaSeekingInterface","dshow.imediaseeking","strmif/IMediaSeeking"]
+description: The IMediaSeeking interface contains methods for seeking to a position within a stream, and for setting the playback rate.
+helpviewer_keywords: ["IMediaSeeking","IMediaSeeking interface [DirectShow]","IMediaSeeking interface [DirectShow]","described","IMediaSeekingInterface","dshow.imediaseeking","strmif/IMediaSeeking"]
 old-location: dshow\imediaseeking.htm
 tech.root: DirectShow
 ms.assetid: 32adad53-d1ac-495f-9347-7bdd4ae4b78d

@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IFeedClockVectorElement.GetSyncTime
 title: IFeedClockVectorElement::GetSyncTime (winsync.h)
-description: Gets a SYNC_TIME value that corresponds to the when value for the item.helpviewer_keywords: ["GetSyncTime","GetSyncTime method [Windows Sync]","GetSyncTime method [Windows Sync]","IFeedClockVectorElement interface","IFeedClockVectorElement interface [Windows Sync]","GetSyncTime method","IFeedClockVectorElement.GetSyncTime","IFeedClockVectorElement::GetSyncTime","winsync.ifeedclockvectorelement_getsynctime","winsync/IFeedClockVectorElement::GetSyncTime"]
+description: Gets a SYNC_TIME value that corresponds to the when value for the item.
+helpviewer_keywords: ["GetSyncTime","GetSyncTime method [Windows Sync]","GetSyncTime method [Windows Sync]","IFeedClockVectorElement interface","IFeedClockVectorElement interface [Windows Sync]","GetSyncTime method","IFeedClockVectorElement.GetSyncTime","IFeedClockVectorElement::GetSyncTime","winsync.ifeedclockvectorelement_getsynctime","winsync/IFeedClockVectorElement::GetSyncTime"]
 old-location: winsync\ifeedclockvectorelement_getsynctime.htm
 tech.root: winsync
 ms.assetid: f39b3bdf-a37e-4673-a620-5b14109718cb

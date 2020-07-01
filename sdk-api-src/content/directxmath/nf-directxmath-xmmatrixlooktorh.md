@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMatrixLookToRH
 title: XMMatrixLookToRH function (directxmath.h)
-description: Builds a view matrix for a right-handed coordinate system using a camera position, an up direction, and a camera direction.helpviewer_keywords: ["Use DirectX..XMMatrixLookToRH","XMMatrixLookToRH","XMMatrixLookToRH method [DirectX Math Support APIs]","dxmath.xmmatrixlooktorh"]
+description: Builds a view matrix for a right-handed coordinate system using a camera position, an up direction, and a camera direction.
+helpviewer_keywords: ["Use DirectX..XMMatrixLookToRH","XMMatrixLookToRH","XMMatrixLookToRH method [DirectX Math Support APIs]","dxmath.xmmatrixlooktorh"]
 old-location: dxmath\xmmatrixlooktorh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixLookToRH(XMVECTOR,XMVECTOR,XMVECTOR)

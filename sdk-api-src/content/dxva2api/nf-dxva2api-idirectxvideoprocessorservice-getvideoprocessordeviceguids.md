@@ -1,7 +1,8 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids
 title: IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids (dxva2api.h)
-description: Gets an array of GUIDs which identify the video processors supported by the graphics hardware.helpviewer_keywords: ["26b52407-7c75-4731-aff3-41376aa9ac3a","GetVideoProcessorDeviceGuids","GetVideoProcessorDeviceGuids method [Media Foundation]","GetVideoProcessorDeviceGuids method [Media Foundation]","IDirectXVideoProcessorService interface","IDirectXVideoProcessorService interface [Media Foundation]","GetVideoProcessorDeviceGuids method","IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids","IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids","dxva2api/IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids","mf.idirectxvideoprocessorservice_getvideoprocessordeviceguids"]
+description: Gets an array of GUIDs which identify the video processors supported by the graphics hardware.
+helpviewer_keywords: ["26b52407-7c75-4731-aff3-41376aa9ac3a","GetVideoProcessorDeviceGuids","GetVideoProcessorDeviceGuids method [Media Foundation]","GetVideoProcessorDeviceGuids method [Media Foundation]","IDirectXVideoProcessorService interface","IDirectXVideoProcessorService interface [Media Foundation]","GetVideoProcessorDeviceGuids method","IDirectXVideoProcessorService.GetVideoProcessorDeviceGuids","IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids","dxva2api/IDirectXVideoProcessorService::GetVideoProcessorDeviceGuids","mf.idirectxvideoprocessorservice_getvideoprocessordeviceguids"]
 old-location: mf\idirectxvideoprocessorservice_getvideoprocessordeviceguids.htm
 tech.root: medfound
 ms.assetid: 26b52407-7c75-4731-aff3-41376aa9ac3a

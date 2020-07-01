@@ -1,7 +1,8 @@
 ---
 UID: NS:wtypes.tagQUERYCONTEXT
 title: QUERYCONTEXT (wtypes.h)
-description: Contains a list of attributes used to look up a class implementation.helpviewer_keywords: ["QUERYCONTEXT","QUERYCONTEXT structure [COM]","_com_QUERYCONTEXT","com.querycontext","wtypes/tagQUERYCONTEXT"]
+description: Contains a list of attributes used to look up a class implementation.
+helpviewer_keywords: ["QUERYCONTEXT","QUERYCONTEXT structure [COM]","_com_QUERYCONTEXT","com.querycontext","wtypes/tagQUERYCONTEXT"]
 old-location: com\querycontext.htm
 tech.root: com
 ms.assetid: 5d6a17e1-dcdd-4691-aec2-f63dbcb26027

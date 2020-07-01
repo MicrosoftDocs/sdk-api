@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationValuePattern.SetValue
 title: IUIAutomationValuePattern::SetValue (uiautomationclient.h)
-description: Sets the value of the element.helpviewer_keywords: ["IUIAutomationValuePattern interface [Windows Accessibility]","SetValue method","IUIAutomationValuePattern.SetValue","IUIAutomationValuePattern::SetValue","SetValue","SetValue method [Windows Accessibility]","SetValue method [Windows Accessibility]","IUIAutomationValuePattern interface","uiauto.uiauto_IUIAutomationValuePattern_SetValue","uiauto_IUIAutomationValuePattern_SetValue","uiautomationclient/IUIAutomationValuePattern::SetValue","winauto.uiauto_IUIAutomationValuePattern_SetValue"]
+description: Sets the value of the element.
+helpviewer_keywords: ["IUIAutomationValuePattern interface [Windows Accessibility]","SetValue method","IUIAutomationValuePattern.SetValue","IUIAutomationValuePattern::SetValue","SetValue","SetValue method [Windows Accessibility]","SetValue method [Windows Accessibility]","IUIAutomationValuePattern interface","uiauto.uiauto_IUIAutomationValuePattern_SetValue","uiauto_IUIAutomationValuePattern_SetValue","uiautomationclient/IUIAutomationValuePattern::SetValue","winauto.uiauto_IUIAutomationValuePattern_SetValue"]
 old-location: winauto\uiauto_IUIAutomationValuePattern_SetValue.htm
 tech.root: WinAuto
 ms.assetid: 9b4caa59-bda4-4cc6-b2d8-ff47ea292746

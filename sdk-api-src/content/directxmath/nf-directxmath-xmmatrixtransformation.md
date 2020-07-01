@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMatrixTransformation
 title: XMMatrixTransformation function (directxmath.h)
-description: Builds a transformation matrix.helpviewer_keywords: ["Use DirectX..XMMatrixTransformation","XMMatrixTransformation","XMMatrixTransformation method [DirectX Math Support APIs]","dxmath.xmmatrixtransformation"]
+description: Builds a transformation matrix.
+helpviewer_keywords: ["Use DirectX..XMMatrixTransformation","XMMatrixTransformation","XMMatrixTransformation method [DirectX Math Support APIs]","dxmath.xmmatrixtransformation"]
 old-location: dxmath\xmmatrixtransformation.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTransformation(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)

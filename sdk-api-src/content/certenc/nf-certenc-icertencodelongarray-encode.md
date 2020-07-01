@@ -1,7 +1,8 @@
 ---
 UID: NF:certenc.ICertEncodeLongArray.Encode
 title: ICertEncodeLongArray::Encode (certenc.h)
-description: Returns an ASN.1-encoded string of the LONG array stored in this object.helpviewer_keywords: ["CCertEncodeLongArray object [Security]","Encode method","Encode","Encode method [Security]","Encode method [Security]","CCertEncodeLongArray object","Encode method [Security]","ICertEncodeLongArray interface","ICertEncodeLongArray interface [Security]","Encode method","ICertEncodeLongArray.Encode","ICertEncodeLongArray::Encode","_certsrv_icertencodelongarray_encode","certenc/ICertEncodeLongArray::Encode","security.icertencodelongarray_encode"]
+description: Returns an ASN.1-encoded string of the LONG array stored in this object.
+helpviewer_keywords: ["CCertEncodeLongArray object [Security]","Encode method","Encode","Encode method [Security]","Encode method [Security]","CCertEncodeLongArray object","Encode method [Security]","ICertEncodeLongArray interface","ICertEncodeLongArray interface [Security]","Encode method","ICertEncodeLongArray.Encode","ICertEncodeLongArray::Encode","_certsrv_icertencodelongarray_encode","certenc/ICertEncodeLongArray::Encode","security.icertencodelongarray_encode"]
 old-location: security\icertencodelongarray_encode.htm
 tech.root: SecCrypto
 ms.assetid: e2cf6e69-2431-4a97-86f1-9e1546aa6c08

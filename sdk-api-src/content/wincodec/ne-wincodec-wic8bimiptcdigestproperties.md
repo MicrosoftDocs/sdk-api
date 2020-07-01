@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WIC8BIMIptcDigestProperties
 title: WIC8BIMIptcDigestProperties (wincodec.h)
-description: Specifies the identifiers of the metadata items in an 8BIM IPTC digest metadata block.helpviewer_keywords: ["WIC8BIMIptcDigestIptcDigest","WIC8BIMIptcDigestPString","WIC8BIMIptcDigestProperties","WIC8BIMIptcDigestProperties enumeration [Windows Imaging Component]","_wic_codec_wic8bimiptcdigestproperties","wic._wic_codec_wic8bimiptcdigestproperties","wincodec/WIC8BIMIptcDigestIptcDigest","wincodec/WIC8BIMIptcDigestPString","wincodec/WIC8BIMIptcDigestProperties"]
+description: Specifies the identifiers of the metadata items in an 8BIM IPTC digest metadata block.
+helpviewer_keywords: ["WIC8BIMIptcDigestIptcDigest","WIC8BIMIptcDigestPString","WIC8BIMIptcDigestProperties","WIC8BIMIptcDigestProperties enumeration [Windows Imaging Component]","_wic_codec_wic8bimiptcdigestproperties","wic._wic_codec_wic8bimiptcdigestproperties","wincodec/WIC8BIMIptcDigestIptcDigest","wincodec/WIC8BIMIptcDigestPString","wincodec/WIC8BIMIptcDigestProperties"]
 old-location: wic\_wic_codec_wic8bimiptcdigestproperties.htm
 tech.root: wic
 ms.assetid: b0dbd1fa-face-4f6f-a943-60d108388b97

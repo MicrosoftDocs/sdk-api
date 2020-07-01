@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Region.Equals
 title: Region::Equals (gdiplusheaders.h)
-description: The Region::Equals method determines whether this region is equal to a specified region.helpviewer_keywords: ["Equals","Equals method [GDI+]","Equals method [GDI+]","Region class","Region class [GDI+]","Equals method","Region.Equals","Region::Equals","_gdiplus_CLASS_Region_Equals_region_g_","gdiplus._gdiplus_CLASS_Region_Equals_region_g_"]
+description: The Region::Equals method determines whether this region is equal to a specified region.
+helpviewer_keywords: ["Equals","Equals method [GDI+]","Equals method [GDI+]","Region class","Region class [GDI+]","Equals method","Region.Equals","Region::Equals","_gdiplus_CLASS_Region_Equals_region_g_","gdiplus._gdiplus_CLASS_Region_Equals_region_g_"]
 old-location: gdiplus\_gdiplus_CLASS_Region_Equals_region_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\equals_59region_g.htm

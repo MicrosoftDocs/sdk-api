@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.AppPolicyGetThreadInitializationType
 title: AppPolicyGetThreadInitializationType function (appmodel.h)
-description: Retrieves the kind of initialization that should be automatically performed for a process when beginthread[ex] creates a thread.helpviewer_keywords: ["AppPolicyGetThreadInitializationType","AppPolicyGetThreadInitializationType function [App packaging and management]","appmodel/AppPolicyGetThreadInitializationType","appxpkg.apppolicygetthreadinitializationtype_function"]
+description: Retrieves the kind of initialization that should be automatically performed for a process when beginthread[ex] creates a thread.
+helpviewer_keywords: ["AppPolicyGetThreadInitializationType","AppPolicyGetThreadInitializationType function [App packaging and management]","appmodel/AppPolicyGetThreadInitializationType","appxpkg.apppolicygetthreadinitializationtype_function"]
 old-location: appxpkg\apppolicygetthreadinitializationtype_function.htm
 tech.root: appxpkg
 ms.assetid: E8D52FDB-CD62-407A-9F70-2825E0BF8523

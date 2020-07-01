@@ -1,7 +1,8 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolLogonErrorRedirector
 title: IWRdsProtocolLogonErrorRedirector (wtsprotocol.h)
-description: Exposes methods called by the Remote Desktop Services service to update logon status and determine how to direct logon error messages.helpviewer_keywords: ["IWRdsProtocolLogonErrorRedirector","IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services]","IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services]","described","termserv.iwrdsprotocollogonerrorredirector","wtsprotocol/IWRdsProtocolLogonErrorRedirector"]
+description: Exposes methods called by the Remote Desktop Services service to update logon status and determine how to direct logon error messages.
+helpviewer_keywords: ["IWRdsProtocolLogonErrorRedirector","IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services]","IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services]","described","termserv.iwrdsprotocollogonerrorredirector","wtsprotocol/IWRdsProtocolLogonErrorRedirector"]
 old-location: termserv\iwrdsprotocollogonerrorredirector.htm
 tech.root: TermServ
 ms.assetid: 43c283f5-c902-49cc-81a0-15fc6316c7d4

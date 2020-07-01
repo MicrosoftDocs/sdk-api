@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IWMDMStorage4
 title: IWMDMStorage4 (mswmdm.h)
-description: The IWMDMStorage4 interface extends IWMDMStorage3 by providing methods for retrieving a subset of available metadata for a storage, and for setting and retrieving a list of references to other storages.helpviewer_keywords: ["IWMDMStorage4","IWMDMStorage4 interface [windows Media Device Manager]","IWMDMStorage4 interface [windows Media Device Manager]","described","IWMDMStorage4Interface","mswmdm/IWMDMStorage4","wmdm.iwmdmstorage4"]
+description: The IWMDMStorage4 interface extends IWMDMStorage3 by providing methods for retrieving a subset of available metadata for a storage, and for setting and retrieving a list of references to other storages.
+helpviewer_keywords: ["IWMDMStorage4","IWMDMStorage4 interface [windows Media Device Manager]","IWMDMStorage4 interface [windows Media Device Manager]","described","IWMDMStorage4Interface","mswmdm/IWMDMStorage4","wmdm.iwmdmstorage4"]
 old-location: wmdm\iwmdmstorage4.htm
 tech.root: WMDM
 ms.assetid: ac80cc08-0ff0-48ee-b9c6-e094f803b751

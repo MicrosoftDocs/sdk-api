@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.SetThreadInformation
 title: SetThreadInformation function (processthreadsapi.h)
-description: Sets information for the specified thread.helpviewer_keywords: ["SetThreadInformation","SetThreadInformation function","base.setthreadinformation","processthreadsapi/SetThreadInformation"]
+description: Sets information for the specified thread.
+helpviewer_keywords: ["SetThreadInformation","SetThreadInformation function","base.setthreadinformation","processthreadsapi/SetThreadInformation"]
 old-location: base\setthreadinformation.htm
 tech.root: ProcThread
 ms.assetid: c0159bea-870a-46b7-a350-91fe52efae49

@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMMigrationTable
 title: IGPMMigrationTable (gpmgmt.h)
-description: The IGPMMigrationTable interface provides an interface to a migration table.helpviewer_keywords: ["GPMMigrationTable","IGPMMigrationTable","IGPMMigrationTable interface [GPMC]","IGPMMigrationTable interface [GPMC]","described","gpmc.igpmmigrationtable","gpmgmt/IGPMMigrationTable"]
+description: The IGPMMigrationTable interface provides an interface to a migration table.
+helpviewer_keywords: ["GPMMigrationTable","IGPMMigrationTable","IGPMMigrationTable interface [GPMC]","IGPMMigrationTable interface [GPMC]","described","gpmc.igpmmigrationtable","gpmgmt/IGPMMigrationTable"]
 old-location: gpmc\igpmmigrationtable.htm
 tech.root: gpmc
 ms.assetid: c80c76b0-8589-4ecb-b9bf-6b8377fa98dd

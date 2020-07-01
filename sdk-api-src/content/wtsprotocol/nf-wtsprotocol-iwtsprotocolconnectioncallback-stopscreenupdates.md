@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.StopScreenUpdates
 title: IWTSProtocolConnectionCallback::StopScreenUpdates (wtsprotocol.h)
-description: IWTSProtocolConnectionCallback::StopScreenUpdates is no longer available. Instead, use IWRdsProtocolConnectionCallback::StopScreenUpdates.helpviewer_keywords: ["IWTSProtocolConnectionCallback interface [Remote Desktop Services]","StopScreenUpdates method","IWTSProtocolConnectionCallback.StopScreenUpdates","IWTSProtocolConnectionCallback::StopScreenUpdates","StopScreenUpdates","StopScreenUpdates method [Remote Desktop Services]","StopScreenUpdates method [Remote Desktop Services]","IWTSProtocolConnectionCallback interface","termserv.iwtsprotocolconnectioncallback_stopscreenupdates","wtsprotocol/IWTSProtocolConnectionCallback::StopScreenUpdates"]
+description: IWTSProtocolConnectionCallback::StopScreenUpdates is no longer available. Instead, use IWRdsProtocolConnectionCallback::StopScreenUpdates.
+helpviewer_keywords: ["IWTSProtocolConnectionCallback interface [Remote Desktop Services]","StopScreenUpdates method","IWTSProtocolConnectionCallback.StopScreenUpdates","IWTSProtocolConnectionCallback::StopScreenUpdates","StopScreenUpdates","StopScreenUpdates method [Remote Desktop Services]","StopScreenUpdates method [Remote Desktop Services]","IWTSProtocolConnectionCallback interface","termserv.iwtsprotocolconnectioncallback_stopscreenupdates","wtsprotocol/IWTSProtocolConnectionCallback::StopScreenUpdates"]
 old-location: termserv\iwtsprotocolconnectioncallback_stopscreenupdates.htm
 tech.root: TermServ
 ms.assetid: 69fab470-8763-405e-96f1-d3b1c5a26422

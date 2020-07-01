@@ -1,7 +1,8 @@
 ---
 UID: NF:evr.IMFVideoDisplayControl.GetVideoWindow
 title: IMFVideoDisplayControl::GetVideoWindow (evr.h)
-description: Gets the clipping window for the video.helpviewer_keywords: ["0b2b6b61-a2c5-4efd-ac40-962b0c2ae9c5","GetVideoWindow","GetVideoWindow method [Media Foundation]","GetVideoWindow method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetVideoWindow method","IMFVideoDisplayControl.GetVideoWindow","IMFVideoDisplayControl::GetVideoWindow","evr/IMFVideoDisplayControl::GetVideoWindow","mf.imfvideodisplaycontrol_getvideowindow"]
+description: Gets the clipping window for the video.
+helpviewer_keywords: ["0b2b6b61-a2c5-4efd-ac40-962b0c2ae9c5","GetVideoWindow","GetVideoWindow method [Media Foundation]","GetVideoWindow method [Media Foundation]","IMFVideoDisplayControl interface","IMFVideoDisplayControl interface [Media Foundation]","GetVideoWindow method","IMFVideoDisplayControl.GetVideoWindow","IMFVideoDisplayControl::GetVideoWindow","evr/IMFVideoDisplayControl::GetVideoWindow","mf.imfvideodisplaycontrol_getvideowindow"]
 old-location: mf\imfvideodisplaycontrol_getvideowindow.htm
 tech.root: medfound
 ms.assetid: 0b2b6b61-a2c5-4efd-ac40-962b0c2ae9c5

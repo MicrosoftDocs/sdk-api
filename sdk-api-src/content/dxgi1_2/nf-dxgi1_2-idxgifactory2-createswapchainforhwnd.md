@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.CreateSwapChainForHwnd
 title: IDXGIFactory2::CreateSwapChainForHwnd (dxgi1_2.h)
-description: Creates a swap chain that is associated with an HWND handle to the output window for the swap chain.helpviewer_keywords: ["CreateSwapChainForHwnd","CreateSwapChainForHwnd method [DXGI]","CreateSwapChainForHwnd method [DXGI]","IDXGIFactory2 interface","IDXGIFactory2 interface [DXGI]","CreateSwapChainForHwnd method","IDXGIFactory2.CreateSwapChainForHwnd","IDXGIFactory2::CreateSwapChainForHwnd","direct3ddxgi.idxgifactory2_createswapchain1","dxgi1_2/IDXGIFactory2::CreateSwapChainForHwnd"]
+description: Creates a swap chain that is associated with an HWND handle to the output window for the swap chain.
+helpviewer_keywords: ["CreateSwapChainForHwnd","CreateSwapChainForHwnd method [DXGI]","CreateSwapChainForHwnd method [DXGI]","IDXGIFactory2 interface","IDXGIFactory2 interface [DXGI]","CreateSwapChainForHwnd method","IDXGIFactory2.CreateSwapChainForHwnd","IDXGIFactory2::CreateSwapChainForHwnd","direct3ddxgi.idxgifactory2_createswapchain1","dxgi1_2/IDXGIFactory2::CreateSwapChainForHwnd"]
 old-location: direct3ddxgi\idxgifactory2_createswapchain1.htm
 tech.root: direct3ddxgi
 ms.assetid: B78E9F87-C6B0-4078-8C59-AFB85B9C3CBD

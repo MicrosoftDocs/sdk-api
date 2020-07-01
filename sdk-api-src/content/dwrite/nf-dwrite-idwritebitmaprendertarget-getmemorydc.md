@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.GetMemoryDC
 title: IDWriteBitmapRenderTarget::GetMemoryDC (dwrite.h)
-description: Gets a handle to the memory device context.helpviewer_keywords: ["GetMemoryDC","GetMemoryDC method [Direct Write]","GetMemoryDC method [Direct Write]","IDWriteBitmapRenderTarget interface","IDWriteBitmapRenderTarget interface [Direct Write]","GetMemoryDC method","IDWriteBitmapRenderTarget.GetMemoryDC","IDWriteBitmapRenderTarget::GetMemoryDC","directwrite.IDWriteBitmapRenderTarget_GetMemoryDC","dwrite/IDWriteBitmapRenderTarget::GetMemoryDC"]
+description: Gets a handle to the memory device context.
+helpviewer_keywords: ["GetMemoryDC","GetMemoryDC method [Direct Write]","GetMemoryDC method [Direct Write]","IDWriteBitmapRenderTarget interface","IDWriteBitmapRenderTarget interface [Direct Write]","GetMemoryDC method","IDWriteBitmapRenderTarget.GetMemoryDC","IDWriteBitmapRenderTarget::GetMemoryDC","directwrite.IDWriteBitmapRenderTarget_GetMemoryDC","dwrite/IDWriteBitmapRenderTarget::GetMemoryDC"]
 old-location: directwrite\IDWriteBitmapRenderTarget_GetMemoryDC.htm
 tech.root: DirectWrite
 ms.assetid: 9ca9a002-2a78-4c7c-926c-52414dd801bb

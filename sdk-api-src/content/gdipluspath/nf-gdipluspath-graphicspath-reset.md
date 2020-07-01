@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.Reset
 title: GraphicsPath::Reset (gdipluspath.h)
-description: The GraphicsPath::Reset method empties the path and sets the fill mode to FillModeAlternate.helpviewer_keywords: ["GraphicsPath class [GDI+]","Reset method","GraphicsPath.Reset","GraphicsPath::Reset","Reset","Reset method [GDI+]","Reset method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_Reset_","gdiplus._gdiplus_CLASS_GraphicsPath_Reset_"]
+description: The GraphicsPath::Reset method empties the path and sets the fill mode to FillModeAlternate.
+helpviewer_keywords: ["GraphicsPath class [GDI+]","Reset method","GraphicsPath.Reset","GraphicsPath::Reset","Reset","Reset method [GDI+]","Reset method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_Reset_","gdiplus._gdiplus_CLASS_GraphicsPath_Reset_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_Reset_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\reset.htm

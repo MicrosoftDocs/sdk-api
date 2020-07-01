@@ -1,7 +1,8 @@
 ---
 UID: NS:mfapi.tagCapturedMetadataExposureCompensation
 title: CapturedMetadataExposureCompensation (mfapi.h)
-description: This structure contains blob information for the EV compensation feedback for the photo captured.helpviewer_keywords: ["CapturedMetadataExposureCompensation","CapturedMetadataExposureCompensation structure [Streaming Media Devices]","mfapi/CapturedMetadataExposureCompensation","stream.capturedmetadataexposurecompensation"]
+description: This structure contains blob information for the EV compensation feedback for the photo captured.
+helpviewer_keywords: ["CapturedMetadataExposureCompensation","CapturedMetadataExposureCompensation structure [Streaming Media Devices]","mfapi/CapturedMetadataExposureCompensation","stream.capturedmetadataexposurecompensation"]
 old-location: stream\capturedmetadataexposurecompensation.htm
 tech.root: stream
 ms.assetid: B7C32495-F9A1-4206-81D2-DCA247F83901

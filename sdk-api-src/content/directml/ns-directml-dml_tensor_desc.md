@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_TENSOR_DESC
 title: DML_TENSOR_DESC
-description: A generic container for a DirectML tensor description.helpviewer_keywords: ["DML_TENSOR_DESC","DML_TENSOR_DESC structure","direct3d12.dml_tensor_desc","directml/DML_TENSOR_DESC"]
+description: A generic container for a DirectML tensor description.
+helpviewer_keywords: ["DML_TENSOR_DESC","DML_TENSOR_DESC structure","direct3d12.dml_tensor_desc","directml/DML_TENSOR_DESC"]
 old-location: direct3d12\dml_tensor_desc.htm
 tech.root: direct3d12
 ms.assetid: 5F47CAC2-3896-4432-95BE-E28BE6D7566E

@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITCallInfo
 title: ITCallInfo (tapi3if.h)
-description: The ITCallInfo interface gets and sets a variety of information concerning a Call object. The ITAddress::get_Calls and IEnumCall::Next methods create the ITCallInfo interface.helpviewer_keywords: ["ITCallInfo","ITCallInfo interface [TAPI 2.2]","ITCallInfo interface [TAPI 2.2]","described","_tapi3_itcallinfo","tapi3.itcallinfo","tapi3if/ITCallInfo"]
+description: The ITCallInfo interface gets and sets a variety of information concerning a Call object. The ITAddress::get_Calls and IEnumCall::Next methods create the ITCallInfo interface.
+helpviewer_keywords: ["ITCallInfo","ITCallInfo interface [TAPI 2.2]","ITCallInfo interface [TAPI 2.2]","described","_tapi3_itcallinfo","tapi3.itcallinfo","tapi3if/ITCallInfo"]
 old-location: tapi3\itcallinfo.htm
 tech.root: Tapi
 ms.assetid: 5209d4a1-e05b-453e-8896-2dc71f0b9af0

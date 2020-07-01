@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsFreeServiceHost
 title: WsFreeServiceHost function (webservices.h)
-description: Releases the memory associated with a Service Host object.helpviewer_keywords: ["WsFreeServiceHost","WsFreeServiceHost function [Web Services for Windows]","webservices/WsFreeServiceHost","wsw.wsfreeservicehost"]
+description: Releases the memory associated with a Service Host object.
+helpviewer_keywords: ["WsFreeServiceHost","WsFreeServiceHost function [Web Services for Windows]","webservices/WsFreeServiceHost","wsw.wsfreeservicehost"]
 old-location: wsw\wsfreeservicehost.htm
 tech.root: wsw
 ms.assetid: 5362d8a4-8b38-462a-a7c1-9cde19abee1e

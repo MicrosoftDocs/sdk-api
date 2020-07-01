@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICProgressCallback.Notify
 title: IWICProgressCallback::Notify (wincodec.h)
-description: Notify method is documented only for compliance; its use is not recommended and may be altered or unavailable in the future. Instead, and use RegisterProgressNotification.helpviewer_keywords: ["IWICProgressCallback interface [Windows Imaging Component]","Notify method","IWICProgressCallback.Notify","IWICProgressCallback::Notify","Notify","Notify method [Windows Imaging Component]","Notify method [Windows Imaging Component]","IWICProgressCallback interface","_wic_codec_iwicprogresscallback_notify","wic._wic_codec_iwicprogresscallback_notify","wincodec/IWICProgressCallback::Notify"]
+description: Notify method is documented only for compliance; its use is not recommended and may be altered or unavailable in the future. Instead, and use RegisterProgressNotification.
+helpviewer_keywords: ["IWICProgressCallback interface [Windows Imaging Component]","Notify method","IWICProgressCallback.Notify","IWICProgressCallback::Notify","Notify","Notify method [Windows Imaging Component]","Notify method [Windows Imaging Component]","IWICProgressCallback interface","_wic_codec_iwicprogresscallback_notify","wic._wic_codec_iwicprogresscallback_notify","wincodec/IWICProgressCallback::Notify"]
 old-location: wic\_wic_codec_iwicprogresscallback_notify.htm
 tech.root: wic
 ms.assetid: afbbfa87-716c-4957-9f90-d48d02d642e0

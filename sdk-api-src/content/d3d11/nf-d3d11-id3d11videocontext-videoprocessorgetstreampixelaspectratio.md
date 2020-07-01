@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamPixelAspectRatio
 title: ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio (d3d11.h)
-description: Gets the pixel aspect ratio for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamPixelAspectRatio method","ID3D11VideoContext.VideoProcessorGetStreamPixelAspectRatio","ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio","VideoProcessorGetStreamPixelAspectRatio","VideoProcessorGetStreamPixelAspectRatio method [Media Foundation]","VideoProcessorGetStreamPixelAspectRatio method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio","mf.id3d11videocontext_videoprocessorgetstreampixelaspectratio"]
+description: Gets the pixel aspect ratio for an input stream on the video processor.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamPixelAspectRatio method","ID3D11VideoContext.VideoProcessorGetStreamPixelAspectRatio","ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio","VideoProcessorGetStreamPixelAspectRatio","VideoProcessorGetStreamPixelAspectRatio method [Media Foundation]","VideoProcessorGetStreamPixelAspectRatio method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamPixelAspectRatio","mf.id3d11videocontext_videoprocessorgetstreampixelaspectratio"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreampixelaspectratio.htm
 tech.root: medfound
 ms.assetid: 45B0CF31-6552-4C75-B32F-755398D1A054

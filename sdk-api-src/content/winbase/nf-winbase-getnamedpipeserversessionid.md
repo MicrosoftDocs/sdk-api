@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetNamedPipeServerSessionId
 title: GetNamedPipeServerSessionId function (winbase.h)
-description: Retrieves the server session identifier for the specified named pipe.helpviewer_keywords: ["GetNamedPipeServerSessionId","GetNamedPipeServerSessionId function","base.getnamedpipeserversessionid","winbase/GetNamedPipeServerSessionId"]
+description: Retrieves the server session identifier for the specified named pipe.
+helpviewer_keywords: ["GetNamedPipeServerSessionId","GetNamedPipeServerSessionId function","base.getnamedpipeserversessionid","winbase/GetNamedPipeServerSessionId"]
 old-location: base\getnamedpipeserversessionid.htm
 tech.root: ipc
 ms.assetid: cd628d6d-aa13-4762-893b-42f6cf7a2ba6

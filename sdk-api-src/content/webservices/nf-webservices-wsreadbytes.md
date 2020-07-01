@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsReadBytes
 title: WsReadBytes function (webservices.h)
-description: Reads text from the Reader and decodes the characters as bytes according to the base64 specification.helpviewer_keywords: ["WsReadBytes","WsReadBytes function [Web Services for Windows]","webservices/WsReadBytes","wsw.wsreadbytes"]
+description: Reads text from the Reader and decodes the characters as bytes according to the base64 specification.
+helpviewer_keywords: ["WsReadBytes","WsReadBytes function [Web Services for Windows]","webservices/WsReadBytes","wsw.wsreadbytes"]
 old-location: wsw\wsreadbytes.htm
 tech.root: wsw
 ms.assetid: 02cff29c-7d39-4df2-8eb1-506f93959a1e

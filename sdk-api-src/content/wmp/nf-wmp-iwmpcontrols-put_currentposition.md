@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPControls.put_currentPosition
 title: IWMPControls::put_currentPosition (wmp.h)
-description: The put_currentPosition method specifies the current position in the media item in seconds from the beginning.helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","put_currentPosition method","IWMPControls.put_currentPosition","IWMPControls::put_currentPosition","IWMPControlsput_currentPosition","put_currentPosition","put_currentPosition method [Windows Media Player]","put_currentPosition method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_put_currentposition","wmp/IWMPControls::put_currentPosition"]
+description: The put_currentPosition method specifies the current position in the media item in seconds from the beginning.
+helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","put_currentPosition method","IWMPControls.put_currentPosition","IWMPControls::put_currentPosition","IWMPControlsput_currentPosition","put_currentPosition","put_currentPosition method [Windows Media Player]","put_currentPosition method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_put_currentposition","wmp/IWMPControls::put_currentPosition"]
 old-location: wmp\iwmpcontrols_put_currentposition.htm
 tech.root: WMP
 ms.assetid: 7deedeed-8ce9-4fd7-9825-817204a9cb3e

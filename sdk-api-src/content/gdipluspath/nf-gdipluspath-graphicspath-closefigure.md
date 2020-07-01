@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.CloseFigure
 title: GraphicsPath::CloseFigure (gdipluspath.h)
-description: The GraphicsPath::CloseFigure method closes the current figure of this path.helpviewer_keywords: ["CloseFigure","CloseFigure method [GDI+]","CloseFigure method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","CloseFigure method","GraphicsPath.CloseFigure","GraphicsPath::CloseFigure","_gdiplus_CLASS_GraphicsPath_CloseFigure_","gdiplus._gdiplus_CLASS_GraphicsPath_CloseFigure_"]
+description: The GraphicsPath::CloseFigure method closes the current figure of this path.
+helpviewer_keywords: ["CloseFigure","CloseFigure method [GDI+]","CloseFigure method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","CloseFigure method","GraphicsPath.CloseFigure","GraphicsPath::CloseFigure","_gdiplus_CLASS_GraphicsPath_CloseFigure_","gdiplus._gdiplus_CLASS_GraphicsPath_CloseFigure_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_CloseFigure_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\closefigure.htm

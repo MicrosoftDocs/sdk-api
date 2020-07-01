@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11_1.ID3DUserDefinedAnnotation
 title: ID3DUserDefinedAnnotation (d3d11_1.h)
-description: The ID3DUserDefinedAnnotation interface enables an application to describe conceptual sections and markers within the application's code flow.helpviewer_keywords: ["ID3DUserDefinedAnnotation","ID3DUserDefinedAnnotation interface [Direct3D 11]","ID3DUserDefinedAnnotation interface [Direct3D 11]","described","d3d11_1/ID3DUserDefinedAnnotation","direct3d11.id3duserdefinedannotation"]
+description: The ID3DUserDefinedAnnotation interface enables an application to describe conceptual sections and markers within the application's code flow.
+helpviewer_keywords: ["ID3DUserDefinedAnnotation","ID3DUserDefinedAnnotation interface [Direct3D 11]","ID3DUserDefinedAnnotation interface [Direct3D 11]","described","d3d11_1/ID3DUserDefinedAnnotation","direct3d11.id3duserdefinedannotation"]
 old-location: direct3d11\id3duserdefinedannotation.htm
 tech.root: direct3d11
 ms.assetid: 255DE24B-3D6D-49D9-B6A8-D296AB99B4C9

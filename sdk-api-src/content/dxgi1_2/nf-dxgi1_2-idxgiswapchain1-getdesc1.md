@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetDesc1
 title: IDXGISwapChain1::GetDesc1 (dxgi1_2.h)
-description: Gets a description of the swap chain.helpviewer_keywords: ["GetDesc1","GetDesc1 method [DXGI]","GetDesc1 method [DXGI]","IDXGISwapChain1 interface","IDXGISwapChain1 interface [DXGI]","GetDesc1 method","IDXGISwapChain1.GetDesc1","IDXGISwapChain1::GetDesc1","direct3ddxgi.idxgiswapchain1_getdesc1","dxgi1_2/IDXGISwapChain1::GetDesc1"]
+description: Gets a description of the swap chain.
+helpviewer_keywords: ["GetDesc1","GetDesc1 method [DXGI]","GetDesc1 method [DXGI]","IDXGISwapChain1 interface","IDXGISwapChain1 interface [DXGI]","GetDesc1 method","IDXGISwapChain1.GetDesc1","IDXGISwapChain1::GetDesc1","direct3ddxgi.idxgiswapchain1_getdesc1","dxgi1_2/IDXGISwapChain1::GetDesc1"]
 old-location: direct3ddxgi\idxgiswapchain1_getdesc1.htm
 tech.root: direct3ddxgi
 ms.assetid: 86BB75A7-C289-4EBA-A9EE-ED4F5C590BA2

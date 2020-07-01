@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidRect.get_Height
 title: IMSVidRect::get_Height (segment.h)
-description: The get_Height method retrieves the height of the rectangle.helpviewer_keywords: ["IMSVidRect interface [Microsoft TV Technologies]","get_Height method","IMSVidRect.get_Height","IMSVidRect::get_Height","IMSVidRectget_Height","get_Height","get_Height method [Microsoft TV Technologies]","get_Height method [Microsoft TV Technologies]","IMSVidRect interface","mstv.imsvidrect_get_height","segment/IMSVidRect::get_Height"]
+description: The get_Height method retrieves the height of the rectangle.
+helpviewer_keywords: ["IMSVidRect interface [Microsoft TV Technologies]","get_Height method","IMSVidRect.get_Height","IMSVidRect::get_Height","IMSVidRectget_Height","get_Height","get_Height method [Microsoft TV Technologies]","get_Height method [Microsoft TV Technologies]","IMSVidRect interface","mstv.imsvidrect_get_height","segment/IMSVidRect::get_Height"]
 old-location: mstv\imsvidrect_get_height.htm
 tech.root: mstv
 ms.assetid: 83925bca-8cb2-4f79-9aca-1bee0fb4a96a

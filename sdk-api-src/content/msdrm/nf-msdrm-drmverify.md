@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMVerify
 title: DRMVerify function (msdrm.h)
-description: No longer supported and returns E_NOTIMPL.helpviewer_keywords: ["DRMVerify","DRMVerify function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMVerify","rm.drmverify"]
+description: No longer supported and returns E_NOTIMPL.
+helpviewer_keywords: ["DRMVerify","DRMVerify function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMVerify","rm.drmverify"]
 old-location: rm\drmverify.htm
 tech.root: AdRms_Sdk
 ms.assetid: aebf46e7-9de2-40e7-a748-0621a61ccb6a

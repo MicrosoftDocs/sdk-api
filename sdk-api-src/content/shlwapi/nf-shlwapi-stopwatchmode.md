@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StopWatchMode
 title: StopWatchMode function (shlwapi.h)
-description: StopWatchMode may be altered or unavailable.helpviewer_keywords: ["StopWatchMode","StopWatchMode function [Windows Shell]","_win32_StopWatchMode","shell.StopWatchMode","shlwapi/StopWatchMode"]
+description: StopWatchMode may be altered or unavailable.
+helpviewer_keywords: ["StopWatchMode","StopWatchMode function [Windows Shell]","_win32_StopWatchMode","shell.StopWatchMode","shlwapi/StopWatchMode"]
 old-location: shell\StopWatchMode.htm
 tech.root: shell
 ms.assetid: 3db69040-0720-41a3-ba88-db885a2685aa

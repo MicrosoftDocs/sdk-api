@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetEventLogInformation
 title: GetEventLogInformation function (winbase.h)
-description: Retrieves information about the specified event log.helpviewer_keywords: ["EVENTLOG_FULL_INFO","GetEventLogInformation","GetEventLogInformation function","_win32_geteventloginformation","base.geteventloginformation","winbase/GetEventLogInformation"]
+description: Retrieves information about the specified event log.
+helpviewer_keywords: ["EVENTLOG_FULL_INFO","GetEventLogInformation","GetEventLogInformation function","_win32_geteventloginformation","base.geteventloginformation","winbase/GetEventLogInformation"]
 old-location: base\geteventloginformation.htm
 tech.root: EventLog
 ms.assetid: 627e0af2-3ce6-47fe-89c6-d7c0483cb94b

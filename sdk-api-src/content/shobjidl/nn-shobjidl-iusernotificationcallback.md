@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.IUserNotificationCallback
 title: IUserNotificationCallback (shobjidl.h)
-description: Exposes a method for the handling of a mouse click or shortcut menu access in a notification balloon. Used with IUserNotification2::Show.helpviewer_keywords: ["IUserNotificationCallback","IUserNotificationCallback interface [Windows Shell]","IUserNotificationCallback interface [Windows Shell]","described","_shell_IUserNotificationCallback","shell.IUserNotificationCallback","shobjidl/IUserNotificationCallback"]
+description: Exposes a method for the handling of a mouse click or shortcut menu access in a notification balloon. Used with IUserNotification2::Show.
+helpviewer_keywords: ["IUserNotificationCallback","IUserNotificationCallback interface [Windows Shell]","IUserNotificationCallback interface [Windows Shell]","described","_shell_IUserNotificationCallback","shell.IUserNotificationCallback","shobjidl/IUserNotificationCallback"]
 old-location: shell\IUserNotificationCallback.htm
 tech.root: shell
 ms.assetid: f746a4d4-8649-43a1-ac9b-773402dfb6c7

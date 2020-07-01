@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgi1_4.DXGI_QUERY_VIDEO_MEMORY_INFO
 title: DXGI_QUERY_VIDEO_MEMORY_INFO (dxgi1_4.h)
-description: Describes the current video memory budgeting parameters.helpviewer_keywords: ["DXGI_QUERY_VIDEO_MEMORY_INFO","DXGI_QUERY_VIDEO_MEMORY_INFO structure [DXGI]","direct3ddxgi.dxgi_query_video_memory_info","dxgi1_4/DXGI_QUERY_VIDEO_MEMORY_INFO"]
+description: Describes the current video memory budgeting parameters.
+helpviewer_keywords: ["DXGI_QUERY_VIDEO_MEMORY_INFO","DXGI_QUERY_VIDEO_MEMORY_INFO structure [DXGI]","direct3ddxgi.dxgi_query_video_memory_info","dxgi1_4/DXGI_QUERY_VIDEO_MEMORY_INFO"]
 old-location: direct3ddxgi\dxgi_query_video_memory_info.htm
 tech.root: direct3ddxgi
 ms.assetid: E710F3A9-CB12-43B0-B56C-789350BCAE59

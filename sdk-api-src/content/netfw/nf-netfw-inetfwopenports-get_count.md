@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwOpenPorts.get_Count
 title: INetFwOpenPorts::get_Count (netfw.h)
-description: Retrieves a read-only element yielding the number of items in the collection.helpviewer_keywords: ["Count property [ICS/ICF]","Count property [ICS/ICF]","INetFwOpenPorts interface","INetFwOpenPorts interface [ICS/ICF]","Count property","INetFwOpenPorts.Count","INetFwOpenPorts.get_Count","INetFwOpenPorts::Count","INetFwOpenPorts::get_Count","get_Count","ics.inetfwopenports_count","netfw/INetFwOpenPorts::Count","netfw/INetFwOpenPorts::get_Count"]
+description: Retrieves a read-only element yielding the number of items in the collection.
+helpviewer_keywords: ["Count property [ICS/ICF]","Count property [ICS/ICF]","INetFwOpenPorts interface","INetFwOpenPorts interface [ICS/ICF]","Count property","INetFwOpenPorts.Count","INetFwOpenPorts.get_Count","INetFwOpenPorts::Count","INetFwOpenPorts::get_Count","get_Count","ics.inetfwopenports_count","netfw/INetFwOpenPorts::Count","netfw/INetFwOpenPorts::get_Count"]
 old-location: ics\inetfwopenports_count.htm
 tech.root: ics
 ms.assetid: 83d95b38-0c0d-4325-904e-7953ccef24e7

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFMediaSourcePresentationProvider.ForceEndOfPresentation
 title: IMFMediaSourcePresentationProvider::ForceEndOfPresentation (mfidl.h)
-description: Notifies the source when playback has reached the end of a segment. For timelines, this corresponds to reaching a mark-out point.helpviewer_keywords: ["ForceEndOfPresentation","ForceEndOfPresentation method [Media Foundation]","ForceEndOfPresentation method [Media Foundation]","IMFMediaSourcePresentationProvider interface","IMFMediaSourcePresentationProvider interface [Media Foundation]","ForceEndOfPresentation method","IMFMediaSourcePresentationProvider.ForceEndOfPresentation","IMFMediaSourcePresentationProvider::ForceEndOfPresentation","fb2896f9-c397-4a0d-b8fe-b03ff4f08dda","mf.imfmediasourcepresentationprovider_forceendofpresentation","mfidl/IMFMediaSourcePresentationProvider::ForceEndOfPresentation"]
+description: Notifies the source when playback has reached the end of a segment. For timelines, this corresponds to reaching a mark-out point.
+helpviewer_keywords: ["ForceEndOfPresentation","ForceEndOfPresentation method [Media Foundation]","ForceEndOfPresentation method [Media Foundation]","IMFMediaSourcePresentationProvider interface","IMFMediaSourcePresentationProvider interface [Media Foundation]","ForceEndOfPresentation method","IMFMediaSourcePresentationProvider.ForceEndOfPresentation","IMFMediaSourcePresentationProvider::ForceEndOfPresentation","fb2896f9-c397-4a0d-b8fe-b03ff4f08dda","mf.imfmediasourcepresentationprovider_forceendofpresentation","mfidl/IMFMediaSourcePresentationProvider::ForceEndOfPresentation"]
 old-location: mf\imfmediasourcepresentationprovider_forceendofpresentation.htm
 tech.root: medfound
 ms.assetid: fb2896f9-c397-4a0d-b8fe-b03ff4f08dda

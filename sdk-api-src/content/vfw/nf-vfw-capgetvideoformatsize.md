@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.capGetVideoFormatSize
 title: capGetVideoFormatSize macro (vfw.h)
-description: The capGetVideoFormatSize macro retrieves the size required for the video format. You can use this macro or explicitly call the WM_CAP_GET_VIDEOFORMAT message.helpviewer_keywords: ["_win32_capGetVideoFormatSize","capGetVideoFormatSize","capGetVideoFormatSize macro [Windows Multimedia]","multimedia.capgetvideoformatsize","vfw/capGetVideoFormatSize"]
+description: The capGetVideoFormatSize macro retrieves the size required for the video format. You can use this macro or explicitly call the WM_CAP_GET_VIDEOFORMAT message.
+helpviewer_keywords: ["_win32_capGetVideoFormatSize","capGetVideoFormatSize","capGetVideoFormatSize macro [Windows Multimedia]","multimedia.capgetvideoformatsize","vfw/capGetVideoFormatSize"]
 old-location: multimedia\capgetvideoformatsize.htm
 tech.root: Multimedia
 ms.assetid: 4ee78b19-4171-4da8-ad26-199067bb6db8

@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetColumn
 title: IMetaDataTables::GetColumn (rometadataapi.h)
-description: Gets a pointer to the value contained in the cell of the specified column and row in the given table.helpviewer_keywords: ["GetColumn","GetColumn method [Windows Runtime]","GetColumn method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetColumn method","IMetaDataTables.GetColumn","IMetaDataTables::GetColumn","rometadataapi/IMetaDataTables::GetColumn","winrt.imetadatatables_getcolumn"]
+description: Gets a pointer to the value contained in the cell of the specified column and row in the given table.
+helpviewer_keywords: ["GetColumn","GetColumn method [Windows Runtime]","GetColumn method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetColumn method","IMetaDataTables.GetColumn","IMetaDataTables::GetColumn","rometadataapi/IMetaDataTables::GetColumn","winrt.imetadatatables_getcolumn"]
 old-location: winrt\imetadatatables_getcolumn.htm
 tech.root: WinRT
 ms.assetid: 69f80c79-5587-4740-b996-6c996e40ccf4

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMLicenseRestore
 title: IWMLicenseRestore (wmsdkidl.h)
-description: The IWMLicenseRestore interface manages the restoring of licenses.This interface is obtained from another interface on the backup restorer object.helpviewer_keywords: ["IWMLicenseRestore","IWMLicenseRestore interface [windows Media Format]","IWMLicenseRestore interface [windows Media Format]","described","IWMLicenseRestoreInterface","wmformat.iwmlicenserestore","wmsdkidl/IWMLicenseRestore"]
+description: The IWMLicenseRestore interface manages the restoring of licenses.This interface is obtained from another interface on the backup restorer object.
+helpviewer_keywords: ["IWMLicenseRestore","IWMLicenseRestore interface [windows Media Format]","IWMLicenseRestore interface [windows Media Format]","described","IWMLicenseRestoreInterface","wmformat.iwmlicenserestore","wmsdkidl/IWMLicenseRestore"]
 old-location: wmformat\iwmlicenserestore.htm
 tech.root: wmformat
 ms.assetid: 29444445-7104-4900-a00d-dabd2766d1d7

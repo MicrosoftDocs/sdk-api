@@ -1,7 +1,8 @@
 ---
 UID: NE:uianimation.__MIDL___MIDL_itf_UIAnimation_0000_0000_0004
 title: UI_ANIMATION_REPEAT_MODE (uianimation.h)
-description: Defines the pattern for a loop iteration.helpviewer_keywords: ["UI_ANIMATION_REPEAT_MODE","UI_ANIMATION_REPEAT_MODE enumeration [Windows Animation]","UI_ANIMATION_REPEAT_MODE_ALTERNATE","UI_ANIMATION_REPEAT_MODE_NORMAL","uianimation.ui_animation_repeat_mode","uianimation/UI_ANIMATION_REPEAT_MODE","uianimation/UI_ANIMATION_REPEAT_MODE_ALTERNATE","uianimation/UI_ANIMATION_REPEAT_MODE_NORMAL"]
+description: Defines the pattern for a loop iteration.
+helpviewer_keywords: ["UI_ANIMATION_REPEAT_MODE","UI_ANIMATION_REPEAT_MODE enumeration [Windows Animation]","UI_ANIMATION_REPEAT_MODE_ALTERNATE","UI_ANIMATION_REPEAT_MODE_NORMAL","uianimation.ui_animation_repeat_mode","uianimation/UI_ANIMATION_REPEAT_MODE","uianimation/UI_ANIMATION_REPEAT_MODE_ALTERNATE","uianimation/UI_ANIMATION_REPEAT_MODE_NORMAL"]
 old-location: uianimation\ui_animation_repeat_mode.htm
 tech.root: UIAnimation
 ms.assetid: 5E3AAAFE-C4EC-4BAF-AD0E-51F1AC04E472

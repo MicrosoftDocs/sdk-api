@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumOptionsV5
 title: DhcpEnumOptionsV5 function (dhcpsapi.h)
-description: The DhcpEnumOptionsV5 function returns an enumerated list of DHCP options for a given user or vendor class.helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpEnumOptionsV5","DhcpEnumOptionsV5 function [DHCP]","dhcp.dhcpenumoptionsv5","dhcpsapi/DhcpEnumOptionsV5"]
+description: The DhcpEnumOptionsV5 function returns an enumerated list of DHCP options for a given user or vendor class.
+helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpEnumOptionsV5","DhcpEnumOptionsV5 function [DHCP]","dhcp.dhcpenumoptionsv5","dhcpsapi/DhcpEnumOptionsV5"]
 old-location: dhcp\dhcpenumoptionsv5.htm
 tech.root: DHCP
 ms.assetid: 9fe14fe7-d207-4a5a-b36c-4a5ab32a6bc3

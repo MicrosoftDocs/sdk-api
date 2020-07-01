@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.SHAddDefaultPropertiesByExt
 title: SHAddDefaultPropertiesByExt function (shobjidl.h)
-description: Adds default properties to the property store as registered for the specified file extension.helpviewer_keywords: ["SHAddDefaultPropertiesByExt","SHAddDefaultPropertiesByExt function [Windows Properties]","_shell_SHAddDefaultPropertiesByExt","properties.SHAddDefaultPropertiesByExt","shell.SHAddDefaultPropertiesByExt","shobjidl/SHAddDefaultPropertiesByExt"]
+description: Adds default properties to the property store as registered for the specified file extension.
+helpviewer_keywords: ["SHAddDefaultPropertiesByExt","SHAddDefaultPropertiesByExt function [Windows Properties]","_shell_SHAddDefaultPropertiesByExt","properties.SHAddDefaultPropertiesByExt","shell.SHAddDefaultPropertiesByExt","shobjidl/SHAddDefaultPropertiesByExt"]
 old-location: properties\SHAddDefaultPropertiesByExt.htm
 tech.root: properties
 ms.assetid: ba0fec36-3983-4064-9202-6158af565d9b

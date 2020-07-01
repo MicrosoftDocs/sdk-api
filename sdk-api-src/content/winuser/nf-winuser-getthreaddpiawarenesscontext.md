@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetThreadDpiAwarenessContext
 title: GetThreadDpiAwarenessContext function (winuser.h)
-description: Gets the DPI_AWARENESS_CONTEXT for the current thread.helpviewer_keywords: ["GetThreadDpiAwarenessContext","GetThreadDpiAwarenessContext function [High DPI]","hidpi.getthreaddpiawarenesscontext","winuser/GetThreadDpiAwarenessContext"]
+description: Gets the DPI_AWARENESS_CONTEXT for the current thread.
+helpviewer_keywords: ["GetThreadDpiAwarenessContext","GetThreadDpiAwarenessContext function [High DPI]","hidpi.getthreaddpiawarenesscontext","winuser/GetThreadDpiAwarenessContext"]
 old-location: hidpi\getthreaddpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: DE86D551-974F-4A03-BDBE-348592CAB81F

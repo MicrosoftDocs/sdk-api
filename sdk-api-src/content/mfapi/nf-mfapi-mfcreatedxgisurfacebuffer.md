@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateDXGISurfaceBuffer
 title: MFCreateDXGISurfaceBuffer function (mfapi.h)
-description: Creates a media buffer to manage a Microsoft DirectX Graphics Infrastructure (DXGI) surface.helpviewer_keywords: ["MFCreateDXGISurfaceBuffer","MFCreateDXGISurfaceBuffer function [Media Foundation]","mf.mfcreatedxgisurfacebuffer","mfapi/MFCreateDXGISurfaceBuffer"]
+description: Creates a media buffer to manage a Microsoft DirectX Graphics Infrastructure (DXGI) surface.
+helpviewer_keywords: ["MFCreateDXGISurfaceBuffer","MFCreateDXGISurfaceBuffer function [Media Foundation]","mf.mfcreatedxgisurfacebuffer","mfapi/MFCreateDXGISurfaceBuffer"]
 old-location: mf\mfcreatedxgisurfacebuffer.htm
 tech.root: medfound
 ms.assetid: 5D859F36-A82B-488B-A2F6-C697A1AA86BC

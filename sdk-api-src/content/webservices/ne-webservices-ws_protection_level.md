@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_60
 title: WS_PROTECTION_LEVEL (webservices.h)
-description: Defines the required integrity and confidentiality levels for sent and received messages.helpviewer_keywords: ["WS_PROTECTION_LEVEL","WS_PROTECTION_LEVEL enumeration [Web Services for Windows]","WS_PROTECTION_LEVEL_NONE","WS_PROTECTION_LEVEL_SIGN","WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT","webservices/WS_PROTECTION_LEVEL","webservices/WS_PROTECTION_LEVEL_NONE","webservices/WS_PROTECTION_LEVEL_SIGN","webservices/WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT","wsw.ws_protection_level"]
+description: Defines the required integrity and confidentiality levels for sent and received messages.
+helpviewer_keywords: ["WS_PROTECTION_LEVEL","WS_PROTECTION_LEVEL enumeration [Web Services for Windows]","WS_PROTECTION_LEVEL_NONE","WS_PROTECTION_LEVEL_SIGN","WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT","webservices/WS_PROTECTION_LEVEL","webservices/WS_PROTECTION_LEVEL_NONE","webservices/WS_PROTECTION_LEVEL_SIGN","webservices/WS_PROTECTION_LEVEL_SIGN_AND_ENCRYPT","wsw.ws_protection_level"]
 old-location: wsw\ws_protection_level.htm
 tech.root: wsw
 ms.assetid: 2b673728-1050-4005-bbb6-64b81ec19174

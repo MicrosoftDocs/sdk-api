@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPServiceDocumentAccess.GetDocumentURL
 title: IUPnPServiceDocumentAccess::GetDocumentURL (upnp.h)
-description: GetDocumentURL method retrieves the Service Control Protocol Description (SCPD) URL for a service object. Using this URL, the UPnP control point can download the complete SCPD document.helpviewer_keywords: ["GetDocumentURL","GetDocumentURL method [UPnP APIs]","GetDocumentURL method [UPnP APIs]","IUPnPServiceDocumentAccess interface","IUPnPServiceDocumentAccess interface [UPnP APIs]","GetDocumentURL method","IUPnPServiceDocumentAccess.GetDocumentURL","IUPnPServiceDocumentAccess::GetDocumentURL","upnp.iupnpservicedocumentaccess_getdocumenturl","upnp/IUPnPServiceDocumentAccess::GetDocumentURL"]
+description: GetDocumentURL method retrieves the Service Control Protocol Description (SCPD) URL for a service object. Using this URL, the UPnP control point can download the complete SCPD document.
+helpviewer_keywords: ["GetDocumentURL","GetDocumentURL method [UPnP APIs]","GetDocumentURL method [UPnP APIs]","IUPnPServiceDocumentAccess interface","IUPnPServiceDocumentAccess interface [UPnP APIs]","GetDocumentURL method","IUPnPServiceDocumentAccess.GetDocumentURL","IUPnPServiceDocumentAccess::GetDocumentURL","upnp.iupnpservicedocumentaccess_getdocumenturl","upnp/IUPnPServiceDocumentAccess::GetDocumentURL"]
 old-location: upnp\iupnpservicedocumentaccess_getdocumenturl.htm
 tech.root: upnp
 ms.assetid: 57AF4510-89D6-4DD5-B164-1478A5C27E20

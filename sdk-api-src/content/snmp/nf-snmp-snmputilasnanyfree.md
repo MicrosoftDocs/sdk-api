@@ -1,7 +1,8 @@
 ---
 UID: NF:snmp.SnmpUtilAsnAnyFree
 title: SnmpUtilAsnAnyFree function (snmp.h)
-description: The SnmpUtilAsnAnyFree function frees the memory allocated for the specified AsnAny structure. This function is an element of the SNMP Utility API.helpviewer_keywords: ["SnmpUtilAsnAnyFree","SnmpUtilAsnAnyFree function [SNMP]","_snmp_snmputilasnanyfree","snmp.snmputilasnanyfree","snmp/SnmpUtilAsnAnyFree"]
+description: The SnmpUtilAsnAnyFree function frees the memory allocated for the specified AsnAny structure. This function is an element of the SNMP Utility API.
+helpviewer_keywords: ["SnmpUtilAsnAnyFree","SnmpUtilAsnAnyFree function [SNMP]","_snmp_snmputilasnanyfree","snmp.snmputilasnanyfree","snmp/SnmpUtilAsnAnyFree"]
 old-location: snmp\snmputilasnanyfree.htm
 tech.root: SNMP
 ms.assetid: b18c3722-398e-4659-ab1c-edd09d5c220d

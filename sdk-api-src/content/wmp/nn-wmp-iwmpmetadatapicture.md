@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPMetadataPicture
 title: IWMPMetadataPicture (wmp.h)
-description: The IWMPMetadataPicture interface provides methods for retrieving information about the WM/Picture metadata attribute.helpviewer_keywords: ["IWMPMetadataPicture","IWMPMetadataPicture interface [Windows Media Player]","IWMPMetadataPicture interface [Windows Media Player]","described","IWMPMetadataPictureInterface","wmp.iwmpmetadatapicture","wmp/IWMPMetadataPicture"]
+description: The IWMPMetadataPicture interface provides methods for retrieving information about the WM/Picture metadata attribute.
+helpviewer_keywords: ["IWMPMetadataPicture","IWMPMetadataPicture interface [Windows Media Player]","IWMPMetadataPicture interface [Windows Media Player]","described","IWMPMetadataPictureInterface","wmp.iwmpmetadatapicture","wmp/IWMPMetadataPicture"]
 old-location: wmp\iwmpmetadatapicture.htm
 tech.root: WMP
 ms.assetid: 385819d0-cf27-4f39-86be-140d1bc87d12

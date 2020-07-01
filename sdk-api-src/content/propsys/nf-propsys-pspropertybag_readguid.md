@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadGUID
 title: PSPropertyBag_ReadGUID function (propsys.h)
-description: Reads the GUID data value from a property in a property bag.helpviewer_keywords: ["PSPropertyBag_ReadGUID","PSPropertyBag_ReadGUID function [Windows Properties]","properties.PSPropertyBag_ReadGUID","propsys/PSPropertyBag_ReadGUID","shell.PSPropertyBag_ReadGUID","shell_PSPropertyBag_ReadGUID"]
+description: Reads the GUID data value from a property in a property bag.
+helpviewer_keywords: ["PSPropertyBag_ReadGUID","PSPropertyBag_ReadGUID function [Windows Properties]","properties.PSPropertyBag_ReadGUID","propsys/PSPropertyBag_ReadGUID","shell.PSPropertyBag_ReadGUID","shell_PSPropertyBag_ReadGUID"]
 old-location: properties\PSPropertyBag_ReadGUID.htm
 tech.root: properties
 ms.assetid: BCC6E830-CF05-42c1-874F-CCC97E58A4BC

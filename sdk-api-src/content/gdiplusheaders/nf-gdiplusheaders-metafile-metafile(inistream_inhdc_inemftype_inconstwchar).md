@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusheaders.Metafile.Metafile(IN IStream,IN HDC,IN EmfType,IN const WCHAR)
+UID: NF:gdiplusheaders.Metafile.Metafile(INIStream,INHDC,INEmfType,INconstWCHAR)
 title: Metafile::Metafile(IN IStream,IN HDC,IN EmfType,IN const WCHAR) (gdiplusheaders.h)
-description: Creates a Metafile::Metafile object for recording to an IStream interface.helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile constructor","Metafile constructor [GDI+]","Metafile constructor [GDI+]","Metafile class","Metafile.Metafile","Metafile.Metafile(IN IStream","IN HDC","IN EmfType","IN const WCHAR)","Metafile.Metafile(IStream*","HDC","EmfType","const WCHAR*)","Metafile::Metafile","Metafile::Metafile(IN IStream","IN HDC","IN EmfType","IN const WCHAR)","_gdiplus_CLASS_Metafile_Metafile_stream_referenceHdc_type_description_","gdiplus._gdiplus_CLASS_Metafile_Metafile_stream_referenceHdc_type_description_"]
+description: Creates a Metafile::Metafile object for recording to an IStream interface.
+helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile constructor","Metafile constructor [GDI+]","Metafile constructor [GDI+]","Metafile class","Metafile.Metafile","Metafile.Metafile(IN IStream","IN HDC","IN EmfType","IN const WCHAR)","Metafile.Metafile(IStream*","HDC","EmfType","const WCHAR*)","Metafile::Metafile","Metafile::Metafile(IN IStream","IN HDC","IN EmfType","IN const WCHAR)","_gdiplus_CLASS_Metafile_Metafile_stream_referenceHdc_type_description_","gdiplus._gdiplus_CLASS_Metafile_Metafile_stream_referenceHdc_type_description_"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_stream_referenceHdc_type_description_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_48stream_referencehdc_type_description.htm

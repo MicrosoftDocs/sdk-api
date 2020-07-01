@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvDrawEscape
 title: DrvDrawEscape function (winddi.h)
-description: The DrvDrawEscape function is the entry point that serves more than one function call; the particular function depends on the value of the iEsc parameter.helpviewer_keywords: ["DrvDrawEscape","DrvDrawEscape function [Display Devices]","ddifncs_d3db71f3-aafb-4718-a98f-4ef5d30a6b50.xml","display.drvdrawescape","winddi/DrvDrawEscape"]
+description: The DrvDrawEscape function is the entry point that serves more than one function call; the particular function depends on the value of the iEsc parameter.
+helpviewer_keywords: ["DrvDrawEscape","DrvDrawEscape function [Display Devices]","ddifncs_d3db71f3-aafb-4718-a98f-4ef5d30a6b50.xml","display.drvdrawescape","winddi/DrvDrawEscape"]
 old-location: display\drvdrawescape.htm
 tech.root: display
 ms.assetid: 698fb67e-4878-42ad-9c7a-899ddcbf1811

@@ -1,7 +1,8 @@
 ---
 UID: NN:dshowasf.IConfigAsfWriter2
 title: IConfigAsfWriter2 (dshowasf.h)
-description: The IConfigAsfWriter2 interface extends the IConfigAsfWriter interface, which configures the WM ASF Writer filter.helpviewer_keywords: ["IConfigAsfWriter2","IConfigAsfWriter2 interface [DirectShow]","IConfigAsfWriter2 interface [DirectShow]","described","IConfigAsfWriter2Interface","dshow.iconfigasfwriter2","dshowasf/IConfigAsfWriter2"]
+description: The IConfigAsfWriter2 interface extends the IConfigAsfWriter interface, which configures the WM ASF Writer filter.
+helpviewer_keywords: ["IConfigAsfWriter2","IConfigAsfWriter2 interface [DirectShow]","IConfigAsfWriter2 interface [DirectShow]","described","IConfigAsfWriter2Interface","dshow.iconfigasfwriter2","dshowasf/IConfigAsfWriter2"]
 old-location: dshow\iconfigasfwriter2.htm
 tech.root: DirectShow
 ms.assetid: fd931a95-3678-46de-8f17-9e7c27087398

@@ -1,7 +1,8 @@
 ---
 UID: NF:ddstream.IDirectDrawStreamSample.SetRect
 title: IDirectDrawStreamSample::SetRect (ddstream.h)
-description: Note  This interface is deprecated. New applications should not use it. Changes the clipping rectangle for a sample.helpviewer_keywords: ["IDirectDrawStreamSample interface [DirectShow]","SetRect method","IDirectDrawStreamSample.SetRect","IDirectDrawStreamSample::SetRect","IDirectDrawStreamSampleSetRect","SetRect","SetRect method [DirectShow]","SetRect method [DirectShow]","IDirectDrawStreamSample interface","ddstream/IDirectDrawStreamSample::SetRect","dshow.idirectdrawstreamsample_setrect"]
+description: Note  This interface is deprecated. New applications should not use it. Changes the clipping rectangle for a sample.
+helpviewer_keywords: ["IDirectDrawStreamSample interface [DirectShow]","SetRect method","IDirectDrawStreamSample.SetRect","IDirectDrawStreamSample::SetRect","IDirectDrawStreamSampleSetRect","SetRect","SetRect method [DirectShow]","SetRect method [DirectShow]","IDirectDrawStreamSample interface","ddstream/IDirectDrawStreamSample::SetRect","dshow.idirectdrawstreamsample_setrect"]
 old-location: dshow\idirectdrawstreamsample_setrect.htm
 tech.root: DirectShow
 ms.assetid: 10b25552-e923-4cd5-afb7-52164057f2e0

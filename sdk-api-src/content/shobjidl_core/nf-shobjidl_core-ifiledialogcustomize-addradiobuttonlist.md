@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddRadioButtonList
 title: IFileDialogCustomize::AddRadioButtonList (shobjidl_core.h)
-description: Adds an option button (also known as radio button) group to the dialog.helpviewer_keywords: ["AddRadioButtonList","AddRadioButtonList method [Windows Shell]","AddRadioButtonList method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","AddRadioButtonList method","IFileDialogCustomize.AddRadioButtonList","IFileDialogCustomize::AddRadioButtonList","shell.IFileDialogCustomize_AddRadioButtonList","shell_IFileDialogCustomize_AddRadioButtonList","shobjidl_core/IFileDialogCustomize::AddRadioButtonList"]
+description: Adds an option button (also known as radio button) group to the dialog.
+helpviewer_keywords: ["AddRadioButtonList","AddRadioButtonList method [Windows Shell]","AddRadioButtonList method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","AddRadioButtonList method","IFileDialogCustomize.AddRadioButtonList","IFileDialogCustomize::AddRadioButtonList","shell.IFileDialogCustomize_AddRadioButtonList","shell_IFileDialogCustomize_AddRadioButtonList","shobjidl_core/IFileDialogCustomize::AddRadioButtonList"]
 old-location: shell\IFileDialogCustomize_AddRadioButtonList.htm
 tech.root: shell
 ms.assetid: 9f60b69d-4625-48b7-b265-ab2e9d842fc2

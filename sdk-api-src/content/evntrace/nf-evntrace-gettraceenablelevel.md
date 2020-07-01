@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.GetTraceEnableLevel
 title: GetTraceEnableLevel function (evntrace.h)
-description: The GetTraceEnableLevel function retrieves the severity level passed by the controller to indicate the level of logging the provider should perform. Providers can only call this function from their ControlCallback function.helpviewer_keywords: ["GetTraceEnableLevel","GetTraceEnableLevel function [ETW]","_evt_gettraceenablelevel","base.gettraceenablelevel","etw.gettraceenablelevel","evntrace/GetTraceEnableLevel"]
+description: The GetTraceEnableLevel function retrieves the severity level passed by the controller to indicate the level of logging the provider should perform. Providers can only call this function from their ControlCallback function.
+helpviewer_keywords: ["GetTraceEnableLevel","GetTraceEnableLevel function [ETW]","_evt_gettraceenablelevel","base.gettraceenablelevel","etw.gettraceenablelevel","evntrace/GetTraceEnableLevel"]
 old-location: etw\gettraceenablelevel.htm
 tech.root: ETW
 ms.assetid: 22326fd9-c428-4430-8a92-978d005f6705

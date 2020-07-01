@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.GetCurrentOperationMode
 title: IDMOVideoOutputOptimizations::GetCurrentOperationMode (mediaobj.h)
-description: The GetCurrentOperationMode method retrieves the optimization features in effect.helpviewer_keywords: ["GetCurrentOperationMode","GetCurrentOperationMode method [DirectShow]","GetCurrentOperationMode method [DirectShow]","IDMOVideoOutputOptimizations interface","IDMOVideoOutputOptimizations interface [DirectShow]","GetCurrentOperationMode method","IDMOVideoOutputOptimizations.GetCurrentOperationMode","IDMOVideoOutputOptimizations::GetCurrentOperationMode","IDMOVideoOutputOptimizationsGetCurrentOperationMode","dshow.idmovideooutputoptimizations_getcurrentoperationmode","mediaobj/IDMOVideoOutputOptimizations::GetCurrentOperationMode"]
+description: The GetCurrentOperationMode method retrieves the optimization features in effect.
+helpviewer_keywords: ["GetCurrentOperationMode","GetCurrentOperationMode method [DirectShow]","GetCurrentOperationMode method [DirectShow]","IDMOVideoOutputOptimizations interface","IDMOVideoOutputOptimizations interface [DirectShow]","GetCurrentOperationMode method","IDMOVideoOutputOptimizations.GetCurrentOperationMode","IDMOVideoOutputOptimizations::GetCurrentOperationMode","IDMOVideoOutputOptimizationsGetCurrentOperationMode","dshow.idmovideooutputoptimizations_getcurrentoperationmode","mediaobj/IDMOVideoOutputOptimizations::GetCurrentOperationMode"]
 old-location: dshow\idmovideooutputoptimizations_getcurrentoperationmode.htm
 tech.root: DirectShow
 ms.assetid: ddfc65ea-e336-40b8-a901-53ebc3ee7d86

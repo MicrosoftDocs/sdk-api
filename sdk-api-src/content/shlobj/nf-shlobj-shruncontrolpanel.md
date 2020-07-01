@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.SHRunControlPanel
 title: SHRunControlPanel function (shlobj.h)
-description: Opens a Control Panel item.helpviewer_keywords: ["SHRunControlPanel","SHRunControlPanel function [Windows Shell]","_shell_SHRunControlPanel","shell.SHRunControlPanel","shlobj/SHRunControlPanel"]
+description: Opens a Control Panel item.
+helpviewer_keywords: ["SHRunControlPanel","SHRunControlPanel function [Windows Shell]","_shell_SHRunControlPanel","shell.SHRunControlPanel","shlobj/SHRunControlPanel"]
 old-location: shell\SHRunControlPanel.htm
 tech.root: shell
 ms.assetid: 393a1f63-071e-4655-b6fb-7b0abca7818c

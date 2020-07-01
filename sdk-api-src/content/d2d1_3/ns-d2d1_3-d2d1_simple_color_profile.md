@@ -1,7 +1,8 @@
 ---
 UID: NS:d2d1_3.D2D1_SIMPLE_COLOR_PROFILE
 title: D2D1_SIMPLE_COLOR_PROFILE (d2d1_3.h)
-description: Simple description of a color space.helpviewer_keywords: ["D2D1_SIMPLE_COLOR_PROFILE","D2D1_SIMPLE_COLOR_PROFILE structure [Direct2D]","d2d1_3/D2D1_SIMPLE_COLOR_PROFILE","direct2d.d2d1_simple_color_profile"]
+description: Simple description of a color space.
+helpviewer_keywords: ["D2D1_SIMPLE_COLOR_PROFILE","D2D1_SIMPLE_COLOR_PROFILE structure [Direct2D]","d2d1_3/D2D1_SIMPLE_COLOR_PROFILE","direct2d.d2d1_simple_color_profile"]
 old-location: direct2d\d2d1_simple_color_profile.htm
 tech.root: Direct2D
 ms.assetid: B48A7333-AC8B-4965-9D78-6FFC3B0F01A9

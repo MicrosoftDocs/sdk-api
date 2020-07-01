@@ -1,7 +1,8 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetRestrictions
 title: IXblIdpAuthTokenResult::GetRestrictions (xblidpauthmanager.h)
-description: Reserved for Microsoft use.helpviewer_keywords: ["GetRestrictions","GetRestrictions method","GetRestrictions method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetRestrictions method","IXblIdpAuthTokenResult.GetRestrictions","IXblIdpAuthTokenResult::GetRestrictions","xblidp.ixblidpauthtokenresult_getrestrictions","xblidpauthmanager/IXblIdpAuthTokenResult::GetRestrictions"]
+description: Reserved for Microsoft use.
+helpviewer_keywords: ["GetRestrictions","GetRestrictions method","GetRestrictions method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetRestrictions method","IXblIdpAuthTokenResult.GetRestrictions","IXblIdpAuthTokenResult::GetRestrictions","xblidp.ixblidpauthtokenresult_getrestrictions","xblidpauthmanager/IXblIdpAuthTokenResult::GetRestrictions"]
 old-location: xblidp\ixblidpauthtokenresult_getrestrictions.htm
 tech.root: xblidp
 ms.assetid: 6F3B7959-BFAF-496B-A8AB-FD29606199AF

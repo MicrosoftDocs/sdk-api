@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetTag
 title: IIsdbDataContentDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) data content descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbDataContentDescriptor.GetTag","IIsdbDataContentDescriptor::GetTag","dvbsiparser/IIsdbDataContentDescriptor::GetTag","mstv.iisdbdatacontentdescriptor_gettag"]
+description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) data content descriptor.
+helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbDataContentDescriptor.GetTag","IIsdbDataContentDescriptor::GetTag","dvbsiparser/IIsdbDataContentDescriptor::GetTag","mstv.iisdbdatacontentdescriptor_gettag"]
 old-location: mstv\iisdbdatacontentdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 308f44d6-0aae-418e-8aad-cc812c0cdb8a

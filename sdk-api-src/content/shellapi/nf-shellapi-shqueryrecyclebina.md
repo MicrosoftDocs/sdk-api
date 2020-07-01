@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.SHQueryRecycleBinA
 title: SHQueryRecycleBinA function (shellapi.h)
-description: Retrieves the size of the Recycle Bin and the number of items in it, for a specified drive.helpviewer_keywords: ["SHQueryRecycleBin","SHQueryRecycleBin function [Windows Shell]","SHQueryRecycleBinA","SHQueryRecycleBinW","_win32_SHQueryRecycleBin","shell.SHQueryRecycleBin","shellapi/SHQueryRecycleBin","shellapi/SHQueryRecycleBinA","shellapi/SHQueryRecycleBinW"]
+description: Retrieves the size of the Recycle Bin and the number of items in it, for a specified drive.
+helpviewer_keywords: ["SHQueryRecycleBin","SHQueryRecycleBin function [Windows Shell]","SHQueryRecycleBinA","SHQueryRecycleBinW","_win32_SHQueryRecycleBin","shell.SHQueryRecycleBin","shellapi/SHQueryRecycleBin","shellapi/SHQueryRecycleBinA","shellapi/SHQueryRecycleBinW"]
 old-location: shell\SHQueryRecycleBin.htm
 tech.root: shell
 ms.assetid: a9a80486-2c99-4916-af25-10b00573456b
@@ -92,6 +93,10 @@ With Windows 2000, if <b>NULL</b> is passed in the <i>pszRootPath</i> parameter
 
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines SHQueryRecycleBin as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

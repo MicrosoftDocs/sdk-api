@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptQueryContextConfiguration
 title: BCryptQueryContextConfiguration function (bcrypt.h)
-description: Retrieves the current configuration for the specified CNG context.helpviewer_keywords: ["BCryptQueryContextConfiguration","BCryptQueryContextConfiguration function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","bcrypt/BCryptQueryContextConfiguration","security.bcryptquerycontextconfiguration"]
+description: Retrieves the current configuration for the specified CNG context.
+helpviewer_keywords: ["BCryptQueryContextConfiguration","BCryptQueryContextConfiguration function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","bcrypt/BCryptQueryContextConfiguration","security.bcryptquerycontextconfiguration"]
 old-location: security\bcryptquerycontextconfiguration.htm
 tech.root: SecCNG
 ms.assetid: 3e2ae471-cad6-4bfe-9e30-7b2a7014bc08

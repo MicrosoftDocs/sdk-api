@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationOrCondition.GetChildrenAsNativeArray
 title: IUIAutomationOrCondition::GetChildrenAsNativeArray (uiautomationclient.h)
-description: Retrieves the conditions that make up this &#0034;or&#0034; condition, as an ordinary array.helpviewer_keywords: ["GetChildrenAsNativeArray","GetChildrenAsNativeArray method [Windows Accessibility]","GetChildrenAsNativeArray method [Windows Accessibility]","IUIAutomationOrCondition interface","IUIAutomationOrCondition interface [Windows Accessibility]","GetChildrenAsNativeArray method","IUIAutomationOrCondition.GetChildrenAsNativeArray","IUIAutomationOrCondition::GetChildrenAsNativeArray","uiauto.uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray","uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray","uiautomationclient/IUIAutomationOrCondition::GetChildrenAsNativeArray","winauto.uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray"]
+description: Retrieves the conditions that make up this &#0034;or&#0034; condition, as an ordinary array.
+helpviewer_keywords: ["GetChildrenAsNativeArray","GetChildrenAsNativeArray method [Windows Accessibility]","GetChildrenAsNativeArray method [Windows Accessibility]","IUIAutomationOrCondition interface","IUIAutomationOrCondition interface [Windows Accessibility]","GetChildrenAsNativeArray method","IUIAutomationOrCondition.GetChildrenAsNativeArray","IUIAutomationOrCondition::GetChildrenAsNativeArray","uiauto.uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray","uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray","uiautomationclient/IUIAutomationOrCondition::GetChildrenAsNativeArray","winauto.uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray"]
 old-location: winauto\uiauto_IUIAutomationOrCondition_GetChildrenAsNativeArray.htm
 tech.root: WinAuto
 ms.assetid: d8c45ccb-5e3c-4816-8ffe-6865a7794e8b

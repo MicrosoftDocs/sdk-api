@@ -1,7 +1,8 @@
 ---
 UID: NN:mfmediaengine.IMFSourceBufferList
 title: IMFSourceBufferList (mfmediaengine.h)
-description: Represents a collection of IMFSourceBuffer objects.helpviewer_keywords: ["IMFSourceBufferList","IMFSourceBufferList interface [Media Foundation]","IMFSourceBufferList interface [Media Foundation]","described","mf.imfsourcebufferlist","mfmediaengine/IMFSourceBufferList"]
+description: Represents a collection of IMFSourceBuffer objects.
+helpviewer_keywords: ["IMFSourceBufferList","IMFSourceBufferList interface [Media Foundation]","IMFSourceBufferList interface [Media Foundation]","described","mf.imfsourcebufferlist","mfmediaengine/IMFSourceBufferList"]
 old-location: mf\imfsourcebufferlist.htm
 tech.root: medfound
 ms.assetid: 26f66c2d-5f84-485f-bc86-c8399666c9f1

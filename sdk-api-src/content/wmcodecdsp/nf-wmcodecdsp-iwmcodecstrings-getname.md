@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecStrings.GetName
 title: IWMCodecStrings::GetName (wmcodecdsp.h)
-description: Retrieves the name of a codec.helpviewer_keywords: ["GetName","GetName method [Media Foundation]","GetName method [Media Foundation]","IWMCodecStrings interface","IWMCodecStrings interface [Media Foundation]","GetName method","IWMCodecStrings.GetName","IWMCodecStrings::GetName","codecapi.iwmcodecstringsgetname","mf.iwmcodecstringsgetname","wmcodecdsp/IWMCodecStrings::GetName"]
+description: Retrieves the name of a codec.
+helpviewer_keywords: ["GetName","GetName method [Media Foundation]","GetName method [Media Foundation]","IWMCodecStrings interface","IWMCodecStrings interface [Media Foundation]","GetName method","IWMCodecStrings.GetName","IWMCodecStrings::GetName","codecapi.iwmcodecstringsgetname","mf.iwmcodecstringsgetname","wmcodecdsp/IWMCodecStrings::GetName"]
 old-location: mf\iwmcodecstringsgetname.htm
 tech.root: medfound
 ms.assetid: 12422e46-dfde-4a0f-8988-567a42f5a212

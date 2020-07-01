@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFontRenderingEmSize
 title: IXpsOMGlyphs::SetFontRenderingEmSize (xpsobjectmodel.h)
-description: Sets the font size of the text.helpviewer_keywords: ["IXpsOMGlyphs interface [XPS Documents and Packaging]","SetFontRenderingEmSize method","IXpsOMGlyphs.SetFontRenderingEmSize","IXpsOMGlyphs::SetFontRenderingEmSize","SetFontRenderingEmSize","SetFontRenderingEmSize method [XPS Documents and Packaging]","SetFontRenderingEmSize method [XPS Documents and Packaging]","IXpsOMGlyphs interface","xps.ixpsomglyphs_setfontrenderingemsize","xpsobjectmodel/IXpsOMGlyphs::SetFontRenderingEmSize"]
+description: Sets the font size of the text.
+helpviewer_keywords: ["IXpsOMGlyphs interface [XPS Documents and Packaging]","SetFontRenderingEmSize method","IXpsOMGlyphs.SetFontRenderingEmSize","IXpsOMGlyphs::SetFontRenderingEmSize","SetFontRenderingEmSize","SetFontRenderingEmSize method [XPS Documents and Packaging]","SetFontRenderingEmSize method [XPS Documents and Packaging]","IXpsOMGlyphs interface","xps.ixpsomglyphs_setfontrenderingemsize","xpsobjectmodel/IXpsOMGlyphs::SetFontRenderingEmSize"]
 old-location: xps\ixpsomglyphs_setfontrenderingemsize.htm
 tech.root: printdocs
 ms.assetid: 9863caa0-9f43-45f7-9bed-c5b7187491de

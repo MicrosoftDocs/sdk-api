@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_BUFFEREX_SRV
 title: D3D11_BUFFEREX_SRV (d3d11.h)
-description: Describes the elements in a raw buffer resource to use in a shader-resource view.helpviewer_keywords: ["6e2b4acb-42c7-1258-4812-425166fea83e","D3D11_BUFFEREX_SRV","D3D11_BUFFEREX_SRV structure [Direct3D 11]","d3d11/D3D11_BUFFEREX_SRV","direct3d11.d3d11_bufferex_srv"]
+description: Describes the elements in a raw buffer resource to use in a shader-resource view.
+helpviewer_keywords: ["6e2b4acb-42c7-1258-4812-425166fea83e","D3D11_BUFFEREX_SRV","D3D11_BUFFEREX_SRV structure [Direct3D 11]","d3d11/D3D11_BUFFEREX_SRV","direct3d11.d3d11_bufferex_srv"]
 old-location: direct3d11\d3d11_bufferex_srv.htm
 tech.root: direct3d11
 ms.assetid: 55714c3b-ef21-43c1-94a1-60b63f3fedac

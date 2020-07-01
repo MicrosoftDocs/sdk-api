@@ -1,7 +1,8 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0030
 title: MPEG_CONTEXT (mpeg2structs.h)
-description: The MPEG_CONTEXT structure identifies the source of an MPEG-2 data stream.helpviewer_keywords: ["*PMPEG_CONTEXT","MPEG_CONTEXT","MPEG_CONTEXT structure [Microsoft TV Technologies]","mpeg2structs/MPEG_CONTEXT","mstv.mpeg_context"]
+description: The MPEG_CONTEXT structure identifies the source of an MPEG-2 data stream.
+helpviewer_keywords: ["*PMPEG_CONTEXT","MPEG_CONTEXT","MPEG_CONTEXT structure [Microsoft TV Technologies]","mpeg2structs/MPEG_CONTEXT","mstv.mpeg_context"]
 old-location: mstv\mpeg_context.htm
 tech.root: mstv
 ms.assetid: 7a92e545-805b-4ce6-bbf1-397f7a5f6524

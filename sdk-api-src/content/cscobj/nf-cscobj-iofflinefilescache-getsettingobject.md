@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesCache.GetSettingObject
 title: IOfflineFilesCache::GetSettingObject (cscobj.h)
-description: Creates an object that represents a particular Offline Files setting.helpviewer_keywords: ["GetSettingObject","GetSettingObject method [Offline Files]","GetSettingObject method [Offline Files]","IOfflineFilesCache interface","IOfflineFilesCache interface [Offline Files]","GetSettingObject method","IOfflineFilesCache.GetSettingObject","IOfflineFilesCache::GetSettingObject","cscobj/IOfflineFilesCache::GetSettingObject","of.iofflinefilescache_getsettingobject"]
+description: Creates an object that represents a particular Offline Files setting.
+helpviewer_keywords: ["GetSettingObject","GetSettingObject method [Offline Files]","GetSettingObject method [Offline Files]","IOfflineFilesCache interface","IOfflineFilesCache interface [Offline Files]","GetSettingObject method","IOfflineFilesCache.GetSettingObject","IOfflineFilesCache::GetSettingObject","cscobj/IOfflineFilesCache::GetSettingObject","of.iofflinefilescache_getsettingobject"]
 old-location: of\iofflinefilescache_getsettingobject.htm
 tech.root: offlinefiles
 ms.assetid: 17b6572d-f05e-4f0e-a247-89acd2963d6b

@@ -44,43 +44,59 @@ req.redist:
 ms.custom: 19H1
 ---
 
+# D3D12_STENCIL_OP enumeration
+
+
 ## -description
+
 
 Identifies the stencil operations that can be performed during depth-stencil testing.
 
+
 ## -enum-fields
+
+
 
 ### -field D3D12_STENCIL_OP_KEEP
 
 Keep the existing stencil data.
 
+
 ### -field D3D12_STENCIL_OP_ZERO
 
 Set the stencil data to 0.
 
+
 ### -field D3D12_STENCIL_OP_REPLACE
 
+
 Set the stencil data to the reference value set by calling <a href="/windows/win32/api/d3d12/nf-d3d12-id3d12graphicscommandlist-omsetstencilref">ID3D12GraphicsCommandList::OMSetStencilRef</a>.
+
 
 ### -field D3D12_STENCIL_OP_INCR_SAT
 
 Increment the stencil value by 1, and clamp the result.
 
+
 ### -field D3D12_STENCIL_OP_DECR_SAT
 
 Decrement the stencil value by 1, and clamp the result.
+
 
 ### -field D3D12_STENCIL_OP_INVERT
 
 Invert the stencil data.
 
+
 ### -field D3D12_STENCIL_OP_INCR
 
 Increment the stencil value by 1, and wrap the result if necessary.
 
+
 ### -field D3D12_STENCIL_OP_DECR
 
 Decrement the stencil value by 1, and wrap the result if necessary.
+
 
 ## -remarks
 

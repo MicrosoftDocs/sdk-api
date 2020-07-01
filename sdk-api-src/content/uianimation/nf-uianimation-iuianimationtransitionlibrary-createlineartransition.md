@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateLinearTransition
 title: IUIAnimationTransitionLibrary::CreateLinearTransition (uianimation.h)
-description: Creates a linear transition.helpviewer_keywords: ["CreateLinearTransition","CreateLinearTransition method [Windows Animation]","CreateLinearTransition method [Windows Animation]","IUIAnimationTransitionLibrary interface","IUIAnimationTransitionLibrary interface [Windows Animation]","CreateLinearTransition method","IUIAnimationTransitionLibrary.CreateLinearTransition","IUIAnimationTransitionLibrary::CreateLinearTransition","uianimation.iuianimationtransitionlibrary_createlineartransition","uianimation/IUIAnimationTransitionLibrary::CreateLinearTransition"]
+description: Creates a linear transition.
+helpviewer_keywords: ["CreateLinearTransition","CreateLinearTransition method [Windows Animation]","CreateLinearTransition method [Windows Animation]","IUIAnimationTransitionLibrary interface","IUIAnimationTransitionLibrary interface [Windows Animation]","CreateLinearTransition method","IUIAnimationTransitionLibrary.CreateLinearTransition","IUIAnimationTransitionLibrary::CreateLinearTransition","uianimation.iuianimationtransitionlibrary_createlineartransition","uianimation/IUIAnimationTransitionLibrary::CreateLinearTransition"]
 old-location: uianimation\iuianimationtransitionlibrary_createlineartransition.htm
 tech.root: UIAnimation
 ms.assetid: 51c54bc9-771c-484e-a24f-22ba03c70709

@@ -1,7 +1,8 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolShadowCallback
 title: IWTSProtocolShadowCallback (wtsprotocol.h)
-description: IWTSProtocolShadowCallback is no longer available. Instead, use IWRdsProtocolShadowCallback.helpviewer_keywords: ["IWTSProtocolShadowCallback","IWTSProtocolShadowCallback interface [Remote Desktop Services]","IWTSProtocolShadowCallback interface [Remote Desktop Services]","described","termserv.iwtsprotocolshadowcallback","wtsprotocol/IWTSProtocolShadowCallback"]
+description: IWTSProtocolShadowCallback is no longer available. Instead, use IWRdsProtocolShadowCallback.
+helpviewer_keywords: ["IWTSProtocolShadowCallback","IWTSProtocolShadowCallback interface [Remote Desktop Services]","IWTSProtocolShadowCallback interface [Remote Desktop Services]","described","termserv.iwtsprotocolshadowcallback","wtsprotocol/IWTSProtocolShadowCallback"]
 old-location: termserv\iwtsprotocolshadowcallback.htm
 tech.root: TermServ
 ms.assetid: ce224b9f-161c-4133-97d9-05c339eefb77

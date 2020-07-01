@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrConformantStringBufferSize
 title: NdrConformantStringBufferSize function (rpcndr.h)
-description: The NdrConformantStringBufferSize function calculates the size of the buffer, in bytes, needed to marshal the conformant string.helpviewer_keywords: ["NdrConformantStringBufferSize","NdrConformantStringBufferSize function [RPC]","rpc.ndrconformantstringbuffersize","rpcndr/NdrConformantStringBufferSize"]
+description: The NdrConformantStringBufferSize function calculates the size of the buffer, in bytes, needed to marshal the conformant string.
+helpviewer_keywords: ["NdrConformantStringBufferSize","NdrConformantStringBufferSize function [RPC]","rpc.ndrconformantstringbuffersize","rpcndr/NdrConformantStringBufferSize"]
 old-location: rpc\ndrconformantstringbuffersize.htm
 tech.root: Rpc
 ms.assetid: 6090d96c-dd00-4df6-879b-893cd5b457b9

@@ -1,7 +1,8 @@
 ---
 UID: NN:windows.graphics.imaging.interop.ISoftwareBitmapNative
 title: ISoftwareBitmapNative (windows.graphics.imaging.interop.h)
-description: Represents a software bitmap.helpviewer_keywords: ["ISoftwareBitmapNative","ISoftwareBitmapNative interface [Windows Runtime]","ISoftwareBitmapNative interface [Windows Runtime]","described","windows/ISoftwareBitmapNative","winrt.isoftwarebitmapnative"]
+description: Represents a software bitmap.
+helpviewer_keywords: ["ISoftwareBitmapNative","ISoftwareBitmapNative interface [Windows Runtime]","ISoftwareBitmapNative interface [Windows Runtime]","described","windows/ISoftwareBitmapNative","winrt.isoftwarebitmapnative"]
 old-location: winrt\isoftwarebitmapnative.htm
 tech.root: WinRT
 ms.assetid: 9EB9C74E-A056-4A40-AFAD-0056E139BA28

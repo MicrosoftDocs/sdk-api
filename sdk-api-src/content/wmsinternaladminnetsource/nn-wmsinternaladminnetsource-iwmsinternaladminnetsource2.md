@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsinternaladminnetsource.IWMSInternalAdminNetSource2
 title: IWMSInternalAdminNetSource2 (wmsinternaladminnetsource.h)
-description: The IWMSInternalAdminNetSource2 interface provides improved methods for password caching.helpviewer_keywords: ["IWMSInternalAdminNetSource2","IWMSInternalAdminNetSource2 interface [windows Media Format]","IWMSInternalAdminNetSource2 interface [windows Media Format]","described","IWMSInternalAdminNetSource2Interface","wmformat.iwmsinternaladminnetsource2","wmsinternaladminnetsource/IWMSInternalAdminNetSource2"]
+description: The IWMSInternalAdminNetSource2 interface provides improved methods for password caching.
+helpviewer_keywords: ["IWMSInternalAdminNetSource2","IWMSInternalAdminNetSource2 interface [windows Media Format]","IWMSInternalAdminNetSource2 interface [windows Media Format]","described","IWMSInternalAdminNetSource2Interface","wmformat.iwmsinternaladminnetsource2","wmsinternaladminnetsource/IWMSInternalAdminNetSource2"]
 old-location: wmformat\iwmsinternaladminnetsource2.htm
 tech.root: wmformat
 ms.assetid: 6d334725-11d5-4249-a83d-fc8c1c35a56f

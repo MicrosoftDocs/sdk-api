@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetFootprintFile
 title: IAppxBundleReader::GetFootprintFile (appxpackaging.h)
-description: Retrieves the specified type of footprint file from the bundle.helpviewer_keywords: ["GetFootprintFile","GetFootprintFile method [App packaging and management]","GetFootprintFile method [App packaging and management]","IAppxBundleReader interface","IAppxBundleReader interface [App packaging and management]","GetFootprintFile method","IAppxBundleReader.GetFootprintFile","IAppxBundleReader::GetFootprintFile","appxpackaging/IAppxBundleReader::GetFootprintFile","appxpkg.iappxbundlereader_getfootprintfile"]
+description: Retrieves the specified type of footprint file from the bundle.
+helpviewer_keywords: ["GetFootprintFile","GetFootprintFile method [App packaging and management]","GetFootprintFile method [App packaging and management]","IAppxBundleReader interface","IAppxBundleReader interface [App packaging and management]","GetFootprintFile method","IAppxBundleReader.GetFootprintFile","IAppxBundleReader::GetFootprintFile","appxpackaging/IAppxBundleReader::GetFootprintFile","appxpkg.iappxbundlereader_getfootprintfile"]
 old-location: appxpkg\iappxbundlereader_getfootprintfile.htm
 tech.root: appxpkg
 ms.assetid: BD60CD3E-2C08-4B97-B311-00C0EEBEF752

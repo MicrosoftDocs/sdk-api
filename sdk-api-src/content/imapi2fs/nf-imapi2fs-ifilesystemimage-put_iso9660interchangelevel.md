@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.put_ISO9660InterchangeLevel
 title: IFileSystemImage::put_ISO9660InterchangeLevel (imapi2fs.h)
-description: Sets the ISO9660 compatibility level of the file system image.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","put_ISO9660InterchangeLevel method","IFileSystemImage.put_ISO9660InterchangeLevel","IFileSystemImage::put_ISO9660InterchangeLevel","imapi.ifilesystemimage_put_iso9660interchangelevel","imapi2fs/IFileSystemImage::put_ISO9660InterchangeLevel","put_ISO9660InterchangeLevel","put_ISO9660InterchangeLevel method [IMAPI]","put_ISO9660InterchangeLevel method [IMAPI]","IFileSystemImage interface"]
+description: Sets the ISO9660 compatibility level of the file system image.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","put_ISO9660InterchangeLevel method","IFileSystemImage.put_ISO9660InterchangeLevel","IFileSystemImage::put_ISO9660InterchangeLevel","imapi.ifilesystemimage_put_iso9660interchangelevel","imapi2fs/IFileSystemImage::put_ISO9660InterchangeLevel","put_ISO9660InterchangeLevel","put_ISO9660InterchangeLevel method [IMAPI]","put_ISO9660InterchangeLevel method [IMAPI]","IFileSystemImage interface"]
 old-location: imapi\ifilesystemimage_put_iso9660interchangelevel.htm
 tech.root: imapi
 ms.assetid: 8bfb770a-5a69-4980-94e2-4a3f65caa645

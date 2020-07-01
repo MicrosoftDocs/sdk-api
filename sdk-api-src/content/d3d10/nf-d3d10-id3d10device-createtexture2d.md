@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateTexture2D
 title: ID3D10Device::CreateTexture2D (d3d10.h)
-description: Create an array of 2D textures (see Texture2D).helpviewer_keywords: ["38b3a1e8-7790-fb65-bd38-77d5f709bdbd","CreateTexture2D","CreateTexture2D method [Direct3D 10]","CreateTexture2D method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateTexture2D method","ID3D10Device.CreateTexture2D","ID3D10Device::CreateTexture2D","d3d10/ID3D10Device::CreateTexture2D","direct3d10.id3d10device_createtexture2d"]
+description: Create an array of 2D textures (see Texture2D).
+helpviewer_keywords: ["38b3a1e8-7790-fb65-bd38-77d5f709bdbd","CreateTexture2D","CreateTexture2D method [Direct3D 10]","CreateTexture2D method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateTexture2D method","ID3D10Device.CreateTexture2D","ID3D10Device::CreateTexture2D","d3d10/ID3D10Device::CreateTexture2D","direct3d10.id3d10device_createtexture2d"]
 old-location: direct3d10\id3d10device_createtexture2d.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createtexture2d.htm

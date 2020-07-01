@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRow.GetCellWidth
 title: ITextRow::GetCellWidth (tom.h)
-description: Gets the width of the active cell.helpviewer_keywords: ["GetCellWidth","GetCellWidth method [Windows Controls]","GetCellWidth method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetCellWidth method","ITextRow.GetCellWidth","ITextRow::GetCellWidth","controls.itextrow_getcellwidth","tom/ITextRow::GetCellWidth"]
+description: Gets the width of the active cell.
+helpviewer_keywords: ["GetCellWidth","GetCellWidth method [Windows Controls]","GetCellWidth method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetCellWidth method","ITextRow.GetCellWidth","ITextRow::GetCellWidth","controls.itextrow_getcellwidth","tom/ITextRow::GetCellWidth"]
 old-location: controls\itextrow_getcellwidth.htm
 tech.root: Controls
 ms.assetid: dc73fdf4-29ce-4432-825d-725d61717b7a

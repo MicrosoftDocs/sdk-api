@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.GetFileStreamInterface
 title: IFsrmPropertyBag::GetFileStreamInterface (fsrmpipeline.h)
-description: Retrieves a file stream interface that you can use to access the contents of the file.helpviewer_keywords: ["GetFileStreamInterface","GetFileStreamInterface method [File Server Resource Manager]","GetFileStreamInterface method [File Server Resource Manager]","IFsrmPropertyBag interface","IFsrmPropertyBag interface [File Server Resource Manager]","GetFileStreamInterface method","IFsrmPropertyBag.GetFileStreamInterface","IFsrmPropertyBag::GetFileStreamInterface","fs.ifsrmpropertybag_getfilestreaminterface","fsrm.ifsrmpropertybag_getfilestreaminterface","fsrmpipeline/IFsrmPropertyBag::GetFileStreamInterface"]
+description: Retrieves a file stream interface that you can use to access the contents of the file.
+helpviewer_keywords: ["GetFileStreamInterface","GetFileStreamInterface method [File Server Resource Manager]","GetFileStreamInterface method [File Server Resource Manager]","IFsrmPropertyBag interface","IFsrmPropertyBag interface [File Server Resource Manager]","GetFileStreamInterface method","IFsrmPropertyBag.GetFileStreamInterface","IFsrmPropertyBag::GetFileStreamInterface","fs.ifsrmpropertybag_getfilestreaminterface","fsrm.ifsrmpropertybag_getfilestreaminterface","fsrmpipeline/IFsrmPropertyBag::GetFileStreamInterface"]
 old-location: fsrm\ifsrmpropertybag_getfilestreaminterface.htm
 tech.root: fsrm
 ms.assetid: e5250f0f-c8b4-4579-a4c2-b4f6ee48acdc

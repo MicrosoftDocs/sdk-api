@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IFileSaveDialog
 title: IFileSaveDialog (shobjidl_core.h)
-description: Extends the IFileDialog interface by adding methods specific to the save dialog, which include those that provide support for the collection of metadata to be persisted with the file.helpviewer_keywords: ["IFileSaveDialog","IFileSaveDialog interface [Windows Shell]","IFileSaveDialog interface [Windows Shell]","described","shell.IFileSaveDialog","shell_IFileSaveDialog","shobjidl_core/IFileSaveDialog"]
+description: Extends the IFileDialog interface by adding methods specific to the save dialog, which include those that provide support for the collection of metadata to be persisted with the file.
+helpviewer_keywords: ["IFileSaveDialog","IFileSaveDialog interface [Windows Shell]","IFileSaveDialog interface [Windows Shell]","described","shell.IFileSaveDialog","shell_IFileSaveDialog","shobjidl_core/IFileSaveDialog"]
 old-location: shell\IFileSaveDialog.htm
 tech.root: shell
 ms.assetid: 74021f92-54ff-4c02-a8cf-49bcd7b9171e

@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantToVariant
 title: PropVariantToVariant function (propvarutil.h)
-description: Converts the contents of a PROPVARIANT structure to a VARIANT structure.helpviewer_keywords: ["PropVariantToVariant","PropVariantToVariant function [Windows Properties]","properties.PropVariantToVariant","propvarutil/PropVariantToVariant","shell.PropVariantToVariant","shell_PropVariantToVariant"]
+description: Converts the contents of a PROPVARIANT structure to a VARIANT structure.
+helpviewer_keywords: ["PropVariantToVariant","PropVariantToVariant function [Windows Properties]","properties.PropVariantToVariant","propvarutil/PropVariantToVariant","shell.PropVariantToVariant","shell_PropVariantToVariant"]
 old-location: properties\PropVariantToVariant.htm
 tech.root: properties
 ms.assetid: 34907419-47ae-4f8f-8ce6-5f5e9b098488

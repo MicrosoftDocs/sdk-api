@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IDvbSiParser2
 title: IDvbSiParser2 (dvbsiparser.h)
-description: The IDvbSiParser2 interface retrieves program specific information (PSI) and service information (SI) tables from a DVB transport stream.helpviewer_keywords: ["IDvbSiParser2","IDvbSiParser2 interface [Microsoft TV Technologies]","IDvbSiParser2 interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbSiParser2","mstv.idvbsiparser2"]
+description: The IDvbSiParser2 interface retrieves program specific information (PSI) and service information (SI) tables from a DVB transport stream.
+helpviewer_keywords: ["IDvbSiParser2","IDvbSiParser2 interface [Microsoft TV Technologies]","IDvbSiParser2 interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbSiParser2","mstv.idvbsiparser2"]
 old-location: mstv\idvbsiparser2.htm
 tech.root: mstv
 ms.assetid: 085808e7-b067-470e-9edd-8795f4881485

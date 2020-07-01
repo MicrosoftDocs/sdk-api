@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPControls.next
 title: IWMPControls::next (wmp.h)
-description: The next method sets the next item in the playlist as the current item.helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","next method","IWMPControls.next","IWMPControls::next","IWMPControlsnext","next","next method [Windows Media Player]","next method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_next","wmp/IWMPControls::next"]
+description: The next method sets the next item in the playlist as the current item.
+helpviewer_keywords: ["IWMPControls interface [Windows Media Player]","next method","IWMPControls.next","IWMPControls::next","IWMPControlsnext","next","next method [Windows Media Player]","next method [Windows Media Player]","IWMPControls interface","wmp.iwmpcontrols_next","wmp/IWMPControls::next"]
 old-location: wmp\iwmpcontrols_next.htm
 tech.root: WMP
 ms.assetid: 1f0bbc77-b271-4076-8089-92fe7745d9a8

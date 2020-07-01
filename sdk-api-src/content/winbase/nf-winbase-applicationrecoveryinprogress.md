@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.ApplicationRecoveryInProgress
 title: ApplicationRecoveryInProgress function (winbase.h)
-description: Indicates that the calling application is continuing to recover data.helpviewer_keywords: ["ApplicationRecoveryInProgress","ApplicationRecoveryInProgress function [Recovery]","recovery.applicationrecoveryinprogress","winbase/ApplicationRecoveryInProgress"]
+description: Indicates that the calling application is continuing to recover data.
+helpviewer_keywords: ["ApplicationRecoveryInProgress","ApplicationRecoveryInProgress function [Recovery]","recovery.applicationrecoveryinprogress","winbase/ApplicationRecoveryInProgress"]
 old-location: recovery\applicationrecoveryinprogress.htm
 tech.root: Recovery
 ms.assetid: 9c765f72-10ad-4d16-a9e5-d73ea5c4f59b

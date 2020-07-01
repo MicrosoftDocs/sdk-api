@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.UpdatePanningFeedback
 title: UpdatePanningFeedback function (uxtheme.h)
-description: Updates clients about state of a window resulting from a panning gesture. This function can only be called after a BeginPanningFeedback call.helpviewer_keywords: ["UpdatePanningFeedback","UpdatePanningFeedback function [Windows Controls]","_controls_UpdatePanningFeedback","_controls_UpdatePanningFeedback_cpp","controls.UpdatePanningFeedback","controls._controls_UpdatePanningFeedback","uxtheme/UpdatePanningFeedback"]
+description: Updates clients about state of a window resulting from a panning gesture. This function can only be called after a BeginPanningFeedback call.
+helpviewer_keywords: ["UpdatePanningFeedback","UpdatePanningFeedback function [Windows Controls]","_controls_UpdatePanningFeedback","_controls_UpdatePanningFeedback_cpp","controls.UpdatePanningFeedback","controls._controls_UpdatePanningFeedback","uxtheme/UpdatePanningFeedback"]
 old-location: controls\UpdatePanningFeedback.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\updatepanningfeedback.htm

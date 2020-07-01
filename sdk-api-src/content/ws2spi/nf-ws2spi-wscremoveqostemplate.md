@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2spi.WSCRemoveQOSTemplate
 title: WSCRemoveQOSTemplate function (ws2spi.h)
-description: Removes the specified QoS template from the system configuration database.helpviewer_keywords: ["WSCRemoveQOSTemplate","WSCRemoveQOSTemplate function [Winsock]","winsock.wscremoveqostemplate","ws2spi/WSCRemoveQOSTemplate"]
+description: Removes the specified QoS template from the system configuration database.
+helpviewer_keywords: ["WSCRemoveQOSTemplate","WSCRemoveQOSTemplate function [Winsock]","winsock.wscremoveqostemplate","ws2spi/WSCRemoveQOSTemplate"]
 old-location: winsock\wscremoveqostemplate.htm
 tech.root: WinSock
 ms.assetid: e3cb8428-98d8-4bc3-926c-baa7cbf5d679

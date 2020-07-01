@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1GdiMetafile1.GetDpi
 title: ID2D1GdiMetafile1::GetDpi (d2d1_3.h)
-description: Gets the DPI reported by the metafile.helpviewer_keywords: ["GetDpi","GetDpi method [Direct2D]","GetDpi method [Direct2D]","ID2D1GdiMetafile1 interface","ID2D1GdiMetafile1 interface [Direct2D]","GetDpi method","ID2D1GdiMetafile1.GetDpi","ID2D1GdiMetafile1::GetDpi","d2d1_3/ID2D1GdiMetafile1::GetDpi","direct2d.id2d1gdimetafile1_getdpi"]
+description: Gets the DPI reported by the metafile.
+helpviewer_keywords: ["GetDpi","GetDpi method [Direct2D]","GetDpi method [Direct2D]","ID2D1GdiMetafile1 interface","ID2D1GdiMetafile1 interface [Direct2D]","GetDpi method","ID2D1GdiMetafile1.GetDpi","ID2D1GdiMetafile1::GetDpi","d2d1_3/ID2D1GdiMetafile1::GetDpi","direct2d.id2d1gdimetafile1_getdpi"]
 old-location: direct2d\id2d1gdimetafile1_getdpi.htm
 tech.root: Direct2D
 ms.assetid: 21238137-034c-9439-8b42-aba1be6a69af

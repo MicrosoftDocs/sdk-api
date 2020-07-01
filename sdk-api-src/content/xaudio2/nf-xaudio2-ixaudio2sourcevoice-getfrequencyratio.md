@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.GetFrequencyRatio
 title: IXAudio2SourceVoice::GetFrequencyRatio (xaudio2.h)
-description: Returns the frequency adjustment ratio of the voice.helpviewer_keywords: ["GetFrequencyRatio","GetFrequencyRatio method [XAudio2 Audio Mixing APIs]","GetFrequencyRatio method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","GetFrequencyRatio method","IXAudio2SourceVoice.GetFrequencyRatio","IXAudio2SourceVoice::GetFrequencyRatio","xaudio2.ixaudio2sourcevoice_interface_getfrequencyratio","xaudio2/IXAudio2SourceVoice::GetFrequencyRatio"]
+description: Returns the frequency adjustment ratio of the voice.
+helpviewer_keywords: ["GetFrequencyRatio","GetFrequencyRatio method [XAudio2 Audio Mixing APIs]","GetFrequencyRatio method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","GetFrequencyRatio method","IXAudio2SourceVoice.GetFrequencyRatio","IXAudio2SourceVoice::GetFrequencyRatio","xaudio2.ixaudio2sourcevoice_interface_getfrequencyratio","xaudio2/IXAudio2SourceVoice::GetFrequencyRatio"]
 old-location: xaudio2\ixaudio2sourcevoice_interface_getfrequencyratio.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.GetFrequencyRatio(float@)

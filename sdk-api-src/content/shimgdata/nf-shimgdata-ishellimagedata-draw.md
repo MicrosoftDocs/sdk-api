@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageData.Draw
 title: IShellImageData::Draw (shimgdata.h)
-description: Draws a decoded image.helpviewer_keywords: ["Draw","Draw method [Windows Shell]","Draw method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","Draw method","IShellImageData.Draw","IShellImageData::Draw","_shell_IShellImageData_Draw","shell.IShellImageData_Draw","shimgdata/IShellImageData::Draw"]
+description: Draws a decoded image.
+helpviewer_keywords: ["Draw","Draw method [Windows Shell]","Draw method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","Draw method","IShellImageData.Draw","IShellImageData::Draw","_shell_IShellImageData_Draw","shell.IShellImageData_Draw","shimgdata/IShellImageData::Draw"]
 old-location: shell\IShellImageData_Draw.htm
 tech.root: shell
 ms.assetid: 35989c3b-15b9-4503-a883-99df730b2a80

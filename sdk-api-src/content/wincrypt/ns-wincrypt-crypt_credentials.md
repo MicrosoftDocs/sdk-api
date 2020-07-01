@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CRYPT_CREDENTIALS
 title: CRYPT_CREDENTIALS (wincrypt.h)
-description: Contains information about credentials that can be passed as optional input to a remote object retrieval function such as CryptRetrieveObjectByUrl or CryptGetTimeValidObject.helpviewer_keywords: ["*PCRYPT_CREDENTIALS","CREDENTIAL_OID_PASSWORD_CREDENTIALS","CRYPT_CREDENTIALS","CRYPT_CREDENTIALS structure [Security]","PCRYPT_CREDENTIALS","PCRYPT_CREDENTIALS structure pointer [Security]","security.crypt_credentials","wincrypt/CRYPT_CREDENTIALS","wincrypt/PCRYPT_CREDENTIALS"]
+description: Contains information about credentials that can be passed as optional input to a remote object retrieval function such as CryptRetrieveObjectByUrl or CryptGetTimeValidObject.
+helpviewer_keywords: ["*PCRYPT_CREDENTIALS","CREDENTIAL_OID_PASSWORD_CREDENTIALS","CRYPT_CREDENTIALS","CRYPT_CREDENTIALS structure [Security]","PCRYPT_CREDENTIALS","PCRYPT_CREDENTIALS structure pointer [Security]","security.crypt_credentials","wincrypt/CRYPT_CREDENTIALS","wincrypt/PCRYPT_CREDENTIALS"]
 old-location: security\crypt_credentials.htm
 tech.root: SecCrypto
 ms.assetid: d28b2f52-3258-44ad-a3ab-0743d3afcd62

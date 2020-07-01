@@ -1,7 +1,8 @@
 ---
 UID: NF:wincred.CredMarshalCredentialA
 title: CredMarshalCredentialA function (wincred.h)
-description: The CredMarshalCredential function transforms a credential into a text string.helpviewer_keywords: ["CredMarshalCredential","CredMarshalCredential function [Security]","CredMarshalCredentialA","CredMarshalCredentialW","_cred_credmarshalcredential","security.credmarshalcredential","wincred/CredMarshalCredential","wincred/CredMarshalCredentialA","wincred/CredMarshalCredentialW"]
+description: The CredMarshalCredential function transforms a credential into a text string.
+helpviewer_keywords: ["CredMarshalCredential","CredMarshalCredential function [Security]","CredMarshalCredentialA","CredMarshalCredentialW","_cred_credmarshalcredential","security.credmarshalcredential","wincred/CredMarshalCredential","wincred/CredMarshalCredentialA","wincred/CredMarshalCredentialW"]
 old-location: security\credmarshalcredential.htm
 tech.root: SecAuthN
 ms.assetid: 20a1d54b-04a7-4b0a-88e4-1970d1f71502
@@ -131,4 +132,9 @@ ERROR_INVALID_PARAMETER
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The wincred.h header defines CredMarshalCredential as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

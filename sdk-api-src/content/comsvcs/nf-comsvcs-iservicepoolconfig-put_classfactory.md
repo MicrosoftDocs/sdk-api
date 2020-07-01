@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IServicePoolConfig.put_ClassFactory
 title: IServicePoolConfig::put_ClassFactory (comsvcs.h)
-description: Sets a class factory for the pooled objects.helpviewer_keywords: ["IServicePoolConfig interface [COM+]","put_ClassFactory method","IServicePoolConfig.put_ClassFactory","IServicePoolConfig::put_ClassFactory","comsvcs/IServicePoolConfig::put_ClassFactory","cos.iservicepoolconfig_put_classfactory","put_ClassFactory","put_ClassFactory method [COM+]","put_ClassFactory method [COM+]","IServicePoolConfig interface"]
+description: Sets a class factory for the pooled objects.
+helpviewer_keywords: ["IServicePoolConfig interface [COM+]","put_ClassFactory method","IServicePoolConfig.put_ClassFactory","IServicePoolConfig::put_ClassFactory","comsvcs/IServicePoolConfig::put_ClassFactory","cos.iservicepoolconfig_put_classfactory","put_ClassFactory","put_ClassFactory method [COM+]","put_ClassFactory method [COM+]","IServicePoolConfig interface"]
 old-location: cos\iservicepoolconfig_put_classfactory.htm
 tech.root: cossdk
 ms.assetid: 329c67f0-3c02-4cea-bee6-b5c8aaa9471b

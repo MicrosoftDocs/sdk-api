@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndCanPlay
 title: MCIWndCanPlay macro (vfw.h)
-description: The MCIWndCanPlay macro determines if an MCI device can play a data file or content of some other kind. You can use this macro or explicitly send the MCIWNDM_CAN_PLAY message.helpviewer_keywords: ["MCIWndCanPlay","MCIWndCanPlay macro [Windows Multimedia]","_win32_MCIWndCanPlay","multimedia.mciwndcanplay","vfw/MCIWndCanPlay"]
+description: The MCIWndCanPlay macro determines if an MCI device can play a data file or content of some other kind. You can use this macro or explicitly send the MCIWNDM_CAN_PLAY message.
+helpviewer_keywords: ["MCIWndCanPlay","MCIWndCanPlay macro [Windows Multimedia]","_win32_MCIWndCanPlay","multimedia.mciwndcanplay","vfw/MCIWndCanPlay"]
 old-location: multimedia\mciwndcanplay.htm
 tech.root: Multimedia
 ms.assetid: 6ba9a080-f74a-4c3d-b264-8fbd768f3e6e

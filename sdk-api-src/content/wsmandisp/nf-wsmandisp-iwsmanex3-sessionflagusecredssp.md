@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManEx3.SessionFlagUseCredSsp
 title: IWSManEx3::SessionFlagUseCredSsp (wsmandisp.h)
-description: Returns the value of the authentication flag WSManFlagUseCredSsp for use in the flags parameter of IWSMan::CreateSession.helpviewer_keywords: ["IWSManEx3 interface [Windows Remote Management]","SessionFlagUseCredSsp method","IWSManEx3.SessionFlagUseCredSsp","IWSManEx3::SessionFlagUseCredSsp","SessionFlagUseCredSsp","SessionFlagUseCredSsp method [Windows Remote Management]","SessionFlagUseCredSsp method [Windows Remote Management]","IWSManEx3 interface","winrm.iwsmanex3_sessionflagusecredssp","wsmandisp/IWSManEx3::SessionFlagUseCredSsp"]
+description: Returns the value of the authentication flag WSManFlagUseCredSsp for use in the flags parameter of IWSMan::CreateSession.
+helpviewer_keywords: ["IWSManEx3 interface [Windows Remote Management]","SessionFlagUseCredSsp method","IWSManEx3.SessionFlagUseCredSsp","IWSManEx3::SessionFlagUseCredSsp","SessionFlagUseCredSsp","SessionFlagUseCredSsp method [Windows Remote Management]","SessionFlagUseCredSsp method [Windows Remote Management]","IWSManEx3 interface","winrm.iwsmanex3_sessionflagusecredssp","wsmandisp/IWSManEx3::SessionFlagUseCredSsp"]
 old-location: winrm\iwsmanex3_sessionflagusecredssp.htm
 tech.root: winrm
 ms.assetid: 69c62ad1-319e-4716-a2c7-61b931567244

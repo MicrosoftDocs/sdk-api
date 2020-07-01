@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetKeyboardLayoutNameA
 title: GetKeyboardLayoutNameA function (winuser.h)
-description: Retrieves the name of the active input locale identifier (formerly called the keyboard layout) for the system.helpviewer_keywords: ["GetKeyboardLayoutName","GetKeyboardLayoutName function [Keyboard and Mouse Input]","GetKeyboardLayoutNameA","GetKeyboardLayoutNameW","_win32_GetKeyboardLayoutName","_win32_getkeyboardlayoutname_cpp","inputdev.getkeyboardlayoutname","winui._win32_getkeyboardlayoutname","winuser/GetKeyboardLayoutName","winuser/GetKeyboardLayoutNameA","winuser/GetKeyboardLayoutNameW"]
+description: Retrieves the name of the active input locale identifier (formerly called the keyboard layout) for the system.
+helpviewer_keywords: ["GetKeyboardLayoutName","GetKeyboardLayoutName function [Keyboard and Mouse Input]","GetKeyboardLayoutNameA","GetKeyboardLayoutNameW","_win32_GetKeyboardLayoutName","_win32_getkeyboardlayoutname_cpp","inputdev.getkeyboardlayoutname","winui._win32_getkeyboardlayoutname","winuser/GetKeyboardLayoutName","winuser/GetKeyboardLayoutNameA","winuser/GetKeyboardLayoutNameW"]
 old-location: inputdev\getkeyboardlayoutname.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeyboardlayoutname.htm
@@ -97,6 +98,10 @@ The input locale identifier is a broader concept than a keyboard layout, since i
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines GetKeyboardLayoutName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

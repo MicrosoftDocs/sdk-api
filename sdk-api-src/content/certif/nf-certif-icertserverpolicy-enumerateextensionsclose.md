@@ -1,7 +1,8 @@
 ---
 UID: NF:certif.ICertServerPolicy.EnumerateExtensionsClose
 title: ICertServerPolicy::EnumerateExtensionsClose (certif.h)
-description: Frees the resources connected with extension enumeration.helpviewer_keywords: ["CCertServerPolicy object [Security]","EnumerateExtensionsClose method","EnumerateExtensionsClose","EnumerateExtensionsClose method [Security]","EnumerateExtensionsClose method [Security]","CCertServerPolicy object","EnumerateExtensionsClose method [Security]","ICertServerPolicy interface","ICertServerPolicy interface [Security]","EnumerateExtensionsClose method","ICertServerPolicy.EnumerateExtensionsClose","ICertServerPolicy::EnumerateExtensionsClose","_certsrv_icertserverpolicy_enumerateextensionsclose","certif/ICertServerPolicy::EnumerateExtensionsClose","security.icertserverpolicy_enumerateextensionsclose"]
+description: Frees the resources connected with extension enumeration.
+helpviewer_keywords: ["CCertServerPolicy object [Security]","EnumerateExtensionsClose method","EnumerateExtensionsClose","EnumerateExtensionsClose method [Security]","EnumerateExtensionsClose method [Security]","CCertServerPolicy object","EnumerateExtensionsClose method [Security]","ICertServerPolicy interface","ICertServerPolicy interface [Security]","EnumerateExtensionsClose method","ICertServerPolicy.EnumerateExtensionsClose","ICertServerPolicy::EnumerateExtensionsClose","_certsrv_icertserverpolicy_enumerateextensionsclose","certif/ICertServerPolicy::EnumerateExtensionsClose","security.icertserverpolicy_enumerateextensionsclose"]
 old-location: security\icertserverpolicy_enumerateextensionsclose.htm
 tech.root: SecCrypto
 ms.assetid: b1755fc5-f18f-45b5-a89a-44c6598c0e2c
