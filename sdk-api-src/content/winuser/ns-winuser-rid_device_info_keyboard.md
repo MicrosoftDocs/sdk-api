@@ -90,7 +90,7 @@ The total number of keys on the keyboard.
 
 ### -remarks
 
-For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in *ntdd8042.h* and *ntddkbd.h* header in Windows SDK, and the [Keyboard Layout Samples](https://docs.microsoft.com/samples/microsoft/windows-driver-samples/keyboard-layout-samples/).
+For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in *kbd.h*, *ntdd8042.h* and *ntddkbd.h* headers in Windows SDK, and the [Keyboard Layout Samples](https://docs.microsoft.com/samples/microsoft/windows-driver-samples/keyboard-layout-samples/). 
 
 ## -see-also
 
