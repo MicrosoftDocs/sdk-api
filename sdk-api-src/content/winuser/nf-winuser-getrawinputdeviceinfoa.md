@@ -77,16 +77,26 @@ Specifies what data will be returned in <i>pData</i>. This parameter can be one 
 <th>Meaning</th>
 </tr>
 <tr>
+<td width="40%"><a id="RIDI_PREPARSEDDATA"></a><a id="ridi_preparseddata"></a><dl>
+<dt><b>RIDI_PREPARSEDDATA</b></dt>
+<dt>0x20000005</dt>
+</dl>
+</td>
+<td width="60%">
+<i>pData</i> is a <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">PHIDP_PREPARSED_DATA</a> pointer to a buffer for a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="RIDI_DEVICENAME"></a><a id="ridi_devicename"></a><dl>
 <dt><b>RIDI_DEVICENAME</b></dt>
 <dt>0x20000007</dt>
 </dl>
 </td>
 <td width="60%">
-<i>pData</i> points to a string that contains the device name. 
-
-For this <i>uiCommand</i> only, the value in <i>pcbSize</i> is the character count (not the byte count).
-
+<i>pData</i> points to a string that contains the device name.
+</br>If this device is <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/hid-clients-supported-in-windows">opened with Shared Access Mode</a> then you can call CreateFile with this name to open a HID collection and use returned handle for calling ReadFile to read input reports and WriteFile to send output reports.
+</br>For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/opening-hid-collections">Opening HID Collections</a> and <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/handling-hid-reports">Handling HID Reports</a>.
+</br>For this <i>uiCommand</i> only, the value in <i>pcbSize</i> is the character count (not the byte count).
 </td>
 </tr>
 <tr>
@@ -96,17 +106,7 @@ For this <i>uiCommand</i> only, the value in <i>pcbSize</i> is the character cou
 </dl>
 </td>
 <td width="60%">
-<i>pData</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a> structure.
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="RIDI_PREPARSEDDATA"></a><a id="ridi_preparseddata"></a><dl>
-<dt><b>RIDI_PREPARSEDDATA</b></dt>
-<dt>0x20000005</dt>
-</dl>
-</td>
-<td width="60%">
-<i>pData</i> points to an <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a> structure that contains a <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/top-level-collections">top-level collection's</a> <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">preparsed data</a>.
+<i>pData</i> points to an <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info.md">RID_DEVICE_INFO</a> structure.
 </td>
 </tr>
 </table>
@@ -151,7 +151,11 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-e
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/hid/preparsed-data">Preparsed Data</a>
 
-<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidsdi/nf-hidsdi-hidd_getpreparseddata">_HIDP_PREPARSED_DATA</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/hidclass/ni-hidclass-ioctl_hid_get_collection_descriptor">PHIDP_PREPARSED_DATA</a>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/opening-hid-collections">Opening HID collections</a>
+
+<a href="https://docs.microsoft.com/windows-hardware/drivers/hid/handling-hid-reports">Handling HID Reports</a>
 
 ## -remarks
 

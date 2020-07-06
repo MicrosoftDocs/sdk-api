@@ -46,24 +46,17 @@ ms.custom: 19H1
 
 # RID_DEVICE_INFO structure
 
-
 ## -description
-
 
 Defines the raw input data coming from any device. 
 
-
 ## -struct-fields
-
-
-
 
 ### -field cbSize
 
 Type: <b>DWORD</b>
 
 The size, in bytes, of the <b>RID_DEVICE_INFO</b> structure. 
-
 
 ### -field dwType
 
@@ -77,14 +70,13 @@ The type of raw input data. This member can be one of the following values.
 <th>Meaning</th>
 </tr>
 <tr>
-<td width="40%"><a id="RIM_TYPEHID"></a><a id="rim_typehid"></a><dl>
-<dt><b>RIM_TYPEHID</b></dt>
-<dt>2</dt>
+<td width="40%"><a id="RIM_TYPEMOUSE"></a><a id="rim_typemouse"></a><dl>
+<dt><b>RIM_TYPEMOUSE</b></dt>
+<dt>0</dt>
 </dl>
 </td>
 <td width="60%">
-Data comes from an HID that is not a keyboard or a mouse.
-
+Data comes from a mouse.
 </td>
 </tr>
 <tr>
@@ -95,28 +87,21 @@ Data comes from an HID that is not a keyboard or a mouse.
 </td>
 <td width="60%">
 Data comes from a keyboard.
-
 </td>
 </tr>
 <tr>
-<td width="40%"><a id="RIM_TYPEMOUSE"></a><a id="rim_typemouse"></a><dl>
-<dt><b>RIM_TYPEMOUSE</b></dt>
-<dt>0</dt>
+<td width="40%"><a id="RIM_TYPEHID"></a><a id="rim_typehid"></a><dl>
+<dt><b>RIM_TYPEHID</b></dt>
+<dt>2</dt>
 </dl>
 </td>
 <td width="60%">
-Data comes from a mouse.
-
+Data comes from an HID that is not a keyboard or a mouse.
 </td>
 </tr>
 </table>
- 
-
 
 ### -field DUMMYUNIONNAME
-
- 
-
 
 ### -field DUMMYUNIONNAME.mouse
 
@@ -124,13 +109,11 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winu
 
 If <b>dwType</b> is <b>RIM_TYPEMOUSE</b>, this is the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_mouse">RID_DEVICE_INFO_MOUSE</a> structure that defines the mouse. 
 
-
 ### -field DUMMYUNIONNAME.keyboard
 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard">RID_DEVICE_INFO_KEYBOARD</a></b>
 
 If <b>dwType</b> is <b>RIM_TYPEKEYBOARD</b>, this is the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard">RID_DEVICE_INFO_KEYBOARD</a> structure that defines the keyboard. 
-
 
 ### -field DUMMYUNIONNAME.hid
 
@@ -138,38 +121,18 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winu
 
 If <b>dwType</b> is <b>RIM_TYPEHID</b>, this is the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_hid">RID_DEVICE_INFO_HID</a> structure that defines the HID device. 
 
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_hid">RID_DEVICE_INFO_HID</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_keyboard">RID_DEVICE_INFO_KEYBOARD</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info_mouse">RID_DEVICE_INFO_MOUSE</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
 
-
-
 <b>Reference</b>
- 
-
- 
-
