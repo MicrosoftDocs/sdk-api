@@ -44,34 +44,20 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# DML_TENSOR_DESC structure
-
-
 ## -description
-
-
-
-
-
 
 A generic container for a DirectML tensor description.
 
-
 ## -struct-fields
-
-
-
 
 ### -field Type
 
-Type: [**DML_TENSOR_TYPE**](/windows/desktop/api/directml/ne-directml-dml_tensor_type)
+Type: [**DML_TENSOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_tensor_type)
 
-The type of the tensor description. See <a href="https://docs.microsoft.com/windows/win32/api/directml/ne-directml-dml_tensor_type">DML_TENSOR_TYPE</a> for the available types.
-
+The type of the tensor description. See <a href="/windows/win32/api/directml/ne-directml-dml_tensor_type">DML_TENSOR_TYPE</a> for the available types.
 
 ### -field Desc
 
 Type: <b>const void*</b>
 
 A pointer to the tensor description. The type of the pointed-to struct must match the value specified in <i>Type</i>.
-
