@@ -132,7 +132,7 @@ If set, this enables the caller to receive the input even when the caller is not
 </dl>
 </td>
 <td width="60%">
-If set, the mouse button click does not activate the other window.
+If set, the mouse button click does not activate the other window. <b>RIDEV_CAPTUREMOUSE</b> can be specified only if <b>RIDEV_NOLEGACY</b> is specified for a mouse device.  
 </td>
 </tr>
 <tr>
