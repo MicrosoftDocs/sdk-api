@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxDevice
 title: IFaxDevice (faxcomex.h)
-description: The IFaxDevice interface defines a configuration object used by a fax client application to retrieve and set fax device information, and to add and remove fax routing methods associated with a fax device.helpviewer_keywords: ["IFaxDevice","IFaxDevice interface [Fax Service]","IFaxDevice interface [Fax Service]","described","_mfax_faxdevice_cpp","fax._mfax_faxdevice_cpp","faxcomex/IFaxDevice"]
+description: The IFaxDevice interface defines a configuration object used by a fax client application to retrieve and set fax device information, and to add and remove fax routing methods associated with a fax device.
+helpviewer_keywords: ["IFaxDevice","IFaxDevice interface [Fax Service]","IFaxDevice interface [Fax Service]","described","_mfax_faxdevice_cpp","fax._mfax_faxdevice_cpp","faxcomex/IFaxDevice"]
 old-location: fax\_mfax_faxdevice_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5nad_cpp.htm

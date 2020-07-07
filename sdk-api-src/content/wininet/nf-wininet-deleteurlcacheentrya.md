@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.DeleteUrlCacheEntryA
 title: DeleteUrlCacheEntryA function (wininet.h)
-description: Removes the file associated with the source name from the cache, if the file exists.helpviewer_keywords: ["DeleteUrlCacheEntry","DeleteUrlCacheEntry function [WinINet]","DeleteUrlCacheEntryA","DeleteUrlCacheEntryW","_inet_deleteurlcacheentry_function","wininet.deleteurlcacheentry","wininet/DeleteUrlCacheEntry","wininet/DeleteUrlCacheEntryA","wininet/DeleteUrlCacheEntryW"]
+description: Removes the file associated with the source name from the cache, if the file exists.
+helpviewer_keywords: ["DeleteUrlCacheEntry","DeleteUrlCacheEntry function [WinINet]","DeleteUrlCacheEntryA","DeleteUrlCacheEntryW","_inet_deleteurlcacheentry_function","wininet.deleteurlcacheentry","wininet/DeleteUrlCacheEntry","wininet/DeleteUrlCacheEntryA","wininet/DeleteUrlCacheEntryW"]
 old-location: wininet\deleteurlcacheentry.htm
 tech.root: wininet
 ms.assetid: bb765cba-6662-4dca-8f9f-3f35e37da28a
@@ -112,6 +113,10 @@ The file is not in the cache.
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines DeleteUrlCacheEntry as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

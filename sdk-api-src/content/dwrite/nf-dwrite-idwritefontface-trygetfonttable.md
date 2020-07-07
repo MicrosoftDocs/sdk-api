@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.TryGetFontTable
 title: IDWriteFontFace::TryGetFontTable (dwrite.h)
-description: Finds the specified OpenType font table if it exists and returns a pointer to it. The function accesses the underlying font data through the IDWriteFontFileStream interface implemented by the font file loader.helpviewer_keywords: ["IDWriteFontFace interface [Direct Write]","TryGetFontTable method","IDWriteFontFace.TryGetFontTable","IDWriteFontFace::TryGetFontTable","TryGetFontTable","TryGetFontTable method [Direct Write]","TryGetFontTable method [Direct Write]","IDWriteFontFace interface","directwrite.IDWriteFontFace_TryGetFontTable","dwrite/IDWriteFontFace::TryGetFontTable"]
+description: Finds the specified OpenType font table if it exists and returns a pointer to it. The function accesses the underlying font data through the IDWriteFontFileStream interface implemented by the font file loader.
+helpviewer_keywords: ["IDWriteFontFace interface [Direct Write]","TryGetFontTable method","IDWriteFontFace.TryGetFontTable","IDWriteFontFace::TryGetFontTable","TryGetFontTable","TryGetFontTable method [Direct Write]","TryGetFontTable method [Direct Write]","IDWriteFontFace interface","directwrite.IDWriteFontFace_TryGetFontTable","dwrite/IDWriteFontFace::TryGetFontTable"]
 old-location: directwrite\IDWriteFontFace_TryGetFontTable.htm
 tech.root: DirectWrite
 ms.assetid: 82ce9078-0b50-4e8c-a38a-181ec71d6136

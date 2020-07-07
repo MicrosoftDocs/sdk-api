@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled
 title: IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled (imapi2.h)
-description: Determines if Buffer Underrun Free recording is enabled.helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_BufferUnderrunFreeDisabled method","IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled","IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled","get_BufferUnderrunFreeDisabled","get_BufferUnderrunFreeDisabled method [IMAPI]","get_BufferUnderrunFreeDisabled method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_bufferunderrunfreedisabled","imapi2/IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled"]
+description: Determines if Buffer Underrun Free recording is enabled.
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_BufferUnderrunFreeDisabled method","IDiscFormat2RawCD.get_BufferUnderrunFreeDisabled","IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled","get_BufferUnderrunFreeDisabled","get_BufferUnderrunFreeDisabled method [IMAPI]","get_BufferUnderrunFreeDisabled method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_bufferunderrunfreedisabled","imapi2/IDiscFormat2RawCD::get_BufferUnderrunFreeDisabled"]
 old-location: imapi\idiscformat2rawcd_get_bufferunderrunfreedisabled.htm
 tech.root: imapi
 ms.assetid: 85b20760-334e-47a1-9683-be3d76c8958f

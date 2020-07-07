@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetEnableUDP
 title: IWMReaderNetworkConfig::SetEnableUDP (wmsdkidl.h)
-description: The SetEnableUDP method enables or disables UDP.helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetEnableUDP method","IWMReaderNetworkConfig.SetEnableUDP","IWMReaderNetworkConfig::SetEnableUDP","IWMReaderNetworkConfigSetEnableUDP","SetEnableUDP","SetEnableUDP method [windows Media Format]","SetEnableUDP method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setenableudp","wmsdkidl/IWMReaderNetworkConfig::SetEnableUDP"]
+description: The SetEnableUDP method enables or disables UDP.
+helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetEnableUDP method","IWMReaderNetworkConfig.SetEnableUDP","IWMReaderNetworkConfig::SetEnableUDP","IWMReaderNetworkConfigSetEnableUDP","SetEnableUDP","SetEnableUDP method [windows Media Format]","SetEnableUDP method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setenableudp","wmsdkidl/IWMReaderNetworkConfig::SetEnableUDP"]
 old-location: wmformat\iwmreadernetworkconfig_setenableudp.htm
 tech.root: wmformat
 ms.assetid: 03afdef3-2aa8-4826-8dce-6d501fa42bcd

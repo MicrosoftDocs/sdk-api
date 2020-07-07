@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_SetInfoTip
 title: ListView_SetInfoTip macro (commctrl.h)
-description: Sets tooltip text. You can use this macro or send the LVM_SETINFOTIP message explicitly.helpviewer_keywords: ["ListView_SetInfoTip","ListView_SetInfoTip macro [Windows Controls]","_win32_ListView_SetInfoTip","_win32_ListView_SetInfoTip_cpp","commctrl/ListView_SetInfoTip","controls.ListView_SetInfoTip","controls._win32_ListView_SetInfoTip"]
+description: Sets tooltip text. You can use this macro or send the LVM_SETINFOTIP message explicitly.
+helpviewer_keywords: ["ListView_SetInfoTip","ListView_SetInfoTip macro [Windows Controls]","_win32_ListView_SetInfoTip","_win32_ListView_SetInfoTip_cpp","commctrl/ListView_SetInfoTip","controls.ListView_SetInfoTip","controls._win32_ListView_SetInfoTip"]
 old-location: controls\ListView_SetInfoTip.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setinfotip.htm

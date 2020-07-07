@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IKnownFolder.GetRedirectionCapabilities
 title: IKnownFolder::GetRedirectionCapabilities (shobjidl_core.h)
-description: Gets a value that states whether the known folder can have its path set to a new value or what specific restrictions or prohibitions are placed on that redirection.helpviewer_keywords: ["GetRedirectionCapabilities","GetRedirectionCapabilities method [Windows Shell]","GetRedirectionCapabilities method [Windows Shell]","IKnownFolder interface","IKnownFolder interface [Windows Shell]","GetRedirectionCapabilities method","IKnownFolder.GetRedirectionCapabilities","IKnownFolder::GetRedirectionCapabilities","_shell_IKnownFolder_GetRedirectionCapabilities","shell.IKnownFolder_GetRedirectionCapabilities","shobjidl_core/IKnownFolder::GetRedirectionCapabilities"]
+description: Gets a value that states whether the known folder can have its path set to a new value or what specific restrictions or prohibitions are placed on that redirection.
+helpviewer_keywords: ["GetRedirectionCapabilities","GetRedirectionCapabilities method [Windows Shell]","GetRedirectionCapabilities method [Windows Shell]","IKnownFolder interface","IKnownFolder interface [Windows Shell]","GetRedirectionCapabilities method","IKnownFolder.GetRedirectionCapabilities","IKnownFolder::GetRedirectionCapabilities","_shell_IKnownFolder_GetRedirectionCapabilities","shell.IKnownFolder_GetRedirectionCapabilities","shobjidl_core/IKnownFolder::GetRedirectionCapabilities"]
 old-location: shell\IKnownFolder_GetRedirectionCapabilities.htm
 tech.root: shell
 ms.assetid: 5abc4944-1fd7-400a-817d-b58a7f4989ea
@@ -59,9 +60,9 @@ Gets a value that states whether the known folder can have its path set to a new
 
 ### -param pCapabilities [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirection_capabilities">KF_REDIRECTION_CAPABILITIES</a>*</b>
+Type: <b><a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirection_capabilities">KF_REDIRECTION_CAPABILITIES</a>*</b>
 
-When this method returns, contains a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirection_capabilities">KF_REDIRECTION_CAPABILITIES</a> value that indicates the redirection capabilities for this folder.
+When this method returns, contains a pointer to a <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_kf_redirection_capabilities">KF_REDIRECTION_CAPABILITIES</a> value that indicates the redirection capabilities for this folder.
 
 
 ## -returns

@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetPromptUserMode
 title: MI_OperationOptions_GetPromptUserMode function (mi.h)
-description: Gets the value that tells the server how to respond to a provider's call to MI_Context_PromptUser.helpviewer_keywords: ["MI_OperationOptions_GetPromptUserMode","MI_OperationOptions_GetPromptUserMode function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetPromptUserMode","wmi_v2.mi_operationoptions_getpromptusermode"]
+description: Gets the value that tells the server how to respond to a provider's call to MI_Context_PromptUser.
+helpviewer_keywords: ["MI_OperationOptions_GetPromptUserMode","MI_OperationOptions_GetPromptUserMode function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetPromptUserMode","wmi_v2.mi_operationoptions_getpromptusermode"]
 old-location: wmi_v2\mi_operationoptions_getpromptusermode.htm
 tech.root: wmi_v2
 ms.assetid: 611e2798-4ab5-405b-9586-5054fe14cd96

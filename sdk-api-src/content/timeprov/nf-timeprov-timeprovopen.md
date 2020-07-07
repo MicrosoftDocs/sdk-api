@@ -1,7 +1,8 @@
 ---
 UID: NF:timeprov.TimeProvOpen
 title: TimeProvOpen function (timeprov.h)
-description: A callback function that is called by the time provider manager when the time provider DLL is loaded.helpviewer_keywords: ["TimeProvOpen","TimeProvOpen callback","TimeProvOpen callback function","_win32_timeprovopen","base.timeprovopen","timeprov/TimeProvOpen"]
+description: A callback function that is called by the time provider manager when the time provider DLL is loaded.
+helpviewer_keywords: ["TimeProvOpen","TimeProvOpen callback","TimeProvOpen callback function","_win32_timeprovopen","base.timeprovopen","timeprov/TimeProvOpen"]
 old-location: base\timeprovopen.htm
 tech.root: SysInfo
 ms.assetid: cf4f8d00-4c6f-4036-a179-444ff7505ab4

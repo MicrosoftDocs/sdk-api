@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxFile.GetContentType
 title: IAppxFile::GetContentType (appxpackaging.h)
-description: Retrieves the content type of the file.helpviewer_keywords: ["GetContentType","GetContentType method [App packaging and management]","GetContentType method [App packaging and management]","IAppxFile interface","IAppxFile interface [App packaging and management]","GetContentType method","IAppxFile.GetContentType","IAppxFile::GetContentType","appxpackaging/IAppxFile::GetContentType","appxpkg.iappxfile_getcontenttype"]
+description: Retrieves the content type of the file.
+helpviewer_keywords: ["GetContentType","GetContentType method [App packaging and management]","GetContentType method [App packaging and management]","IAppxFile interface","IAppxFile interface [App packaging and management]","GetContentType method","IAppxFile.GetContentType","IAppxFile::GetContentType","appxpackaging/IAppxFile::GetContentType","appxpkg.iappxfile_getcontenttype"]
 old-location: appxpkg\iappxfile_getcontenttype.htm
 tech.root: appxpkg
 ms.assetid: 86EE47E1-B2AD-4610-8C9A-679536F9C51D

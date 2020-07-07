@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_Property_ExW
 title: CM_Get_Device_Interface_Property_ExW function (cfgmgr32.h)
-description: The CM_Get_Device_Interface_Property_ExW function retrieves a device property that is set for a device interface.helpviewer_keywords: ["CM_Get_Device_Interface_Property_ExW","CM_Get_Device_Interface_Property_ExW function [Device and Driver Installation]","cfgmgr32/CM_Get_Device_Interface_Property_ExW","devinst.cm_get_device_interface_property_exw"]
+description: The CM_Get_Device_Interface_Property_ExW function retrieves a device property that is set for a device interface.
+helpviewer_keywords: ["CM_Get_Device_Interface_Property_ExW","CM_Get_Device_Interface_Property_ExW function [Device and Driver Installation]","cfgmgr32/CM_Get_Device_Interface_Property_ExW","devinst.cm_get_device_interface_property_exw"]
 old-location: devinst\cm_get_device_interface_property_exw.htm
 tech.root: devinst
 ms.assetid: A367AF27-BF99-4322-9D11-8792AA2863B9

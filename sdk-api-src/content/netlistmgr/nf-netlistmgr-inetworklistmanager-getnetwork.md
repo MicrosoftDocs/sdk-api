@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetNetwork
 title: INetworkListManager::GetNetwork (netlistmgr.h)
-description: The GetNetwork method retrieves a network based on a supplied network ID.helpviewer_keywords: ["GetNetwork","GetNetwork method [Network Awareness]","GetNetwork method [Network Awareness]","INetworkListManager interface","INetworkListManager interface [Network Awareness]","GetNetwork method","INetworkListManager.GetNetwork","INetworkListManager::GetNetwork","netlistmgr/INetworkListManager::GetNetwork","nla.inetworklistmanager_getnetwork"]
+description: The GetNetwork method retrieves a network based on a supplied network ID.
+helpviewer_keywords: ["GetNetwork","GetNetwork method [Network Awareness]","GetNetwork method [Network Awareness]","INetworkListManager interface","INetworkListManager interface [Network Awareness]","GetNetwork method","INetworkListManager.GetNetwork","INetworkListManager::GetNetwork","netlistmgr/INetworkListManager::GetNetwork","nla.inetworklistmanager_getnetwork"]
 old-location: nla\inetworklistmanager_getnetwork.htm
 tech.root: nla
 ms.assetid: a4418884-8df6-4f5b-b9ef-c3cae2bcee47

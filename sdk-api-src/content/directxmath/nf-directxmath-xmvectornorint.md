@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorNorInt
 title: XMVectorNorInt function (directxmath.h)
-description: Computes the logical NOR of two vectors, treating each component as an unsigned integer.helpviewer_keywords: ["Use DirectX..XMVectorNorInt","XMVectorNorInt","XMVectorNorInt method [DirectX Math Support APIs]","dxmath.xmvectornorint"]
+description: Computes the logical NOR of two vectors, treating each component as an unsigned integer.
+helpviewer_keywords: ["Use DirectX..XMVectorNorInt","XMVectorNorInt","XMVectorNorInt method [DirectX Math Support APIs]","dxmath.xmvectornorint"]
 old-location: dxmath\xmvectornorint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.bit-wise.XMVectorNorInt(XMVECTOR,XMVECTOR)

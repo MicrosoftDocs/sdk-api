@@ -1,7 +1,8 @@
 ---
 UID: NF:casetup.IMSCEPSetup.SetMSCEPSetupProperty
 title: IMSCEPSetup::SetMSCEPSetupProperty (casetup.h)
-description: Sets a property value for a Network Device Enrollment Service (NDES) configuration.helpviewer_keywords: ["IMSCEPSetup interface [Security]","SetMSCEPSetupProperty method","IMSCEPSetup.SetMSCEPSetupProperty","IMSCEPSetup::SetMSCEPSetupProperty","SetMSCEPSetupProperty","SetMSCEPSetupProperty method [Security]","SetMSCEPSetupProperty method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::SetMSCEPSetupProperty","security.imscepsetup_setmscepsetupproperty"]
+description: Sets a property value for a Network Device Enrollment Service (NDES) configuration.
+helpviewer_keywords: ["IMSCEPSetup interface [Security]","SetMSCEPSetupProperty method","IMSCEPSetup.SetMSCEPSetupProperty","IMSCEPSetup::SetMSCEPSetupProperty","SetMSCEPSetupProperty","SetMSCEPSetupProperty method [Security]","SetMSCEPSetupProperty method [Security]","IMSCEPSetup interface","casetup/IMSCEPSetup::SetMSCEPSetupProperty","security.imscepsetup_setmscepsetupproperty"]
 old-location: security\imscepsetup_setmscepsetupproperty.htm
 tech.root: SecCrypto
 ms.assetid: 868f3e5f-1345-414b-a75f-d2e68213469b
@@ -59,12 +60,12 @@ The <b>SetMSCEPSetupProperty</b> method sets a property value for a Network Devi
 
 ### -param propertyId [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-mscepsetupproperty">MSCEPSetupProperty</a> enumeration that specifies the type of property to configure.
+A value of the <a href="/windows/win32/api/casetup/ne-casetup-mscepsetupproperty">MSCEPSetupProperty</a> enumeration that specifies the type of property to configure.
 
 
 ### -param pPropertyValue [in]
 
-A pointer to a  <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-mscepsetupproperty">MSCEPSetupProperty</a>.
+A pointer to a  <b>VARIANT</b> that specifies the property value. The <b>VARIANT</b> type depends on the property type. For more information about the <b>VARIANT</b> type, see <a href="/windows/win32/api/casetup/ne-casetup-mscepsetupproperty">MSCEPSetupProperty</a>.
 
 
 ## -see-also

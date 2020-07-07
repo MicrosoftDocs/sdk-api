@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathMatchSpecW
 title: PathMatchSpecW function (shlwapi.h)
-description: Searches a string using a Microsoft MS-DOS wildcard match type.helpviewer_keywords: ["PathMatchSpec","PathMatchSpec function [Windows Shell]","PathMatchSpecA","PathMatchSpecW","_win32_PathMatchSpec","shell.PathMatchSpec","shlwapi/PathMatchSpec","shlwapi/PathMatchSpecA","shlwapi/PathMatchSpecW"]
+description: Searches a string using a Microsoft MS-DOS wildcard match type.
+helpviewer_keywords: ["PathMatchSpec","PathMatchSpec function [Windows Shell]","PathMatchSpecA","PathMatchSpecW","_win32_PathMatchSpec","shell.PathMatchSpec","shlwapi/PathMatchSpec","shlwapi/PathMatchSpecA","shlwapi/PathMatchSpecW"]
 old-location: shell\PathMatchSpec.htm
 tech.root: shell
 ms.assetid: 908e7204-d168-4179-9c7b-ad46ba68bebc
@@ -85,4 +86,9 @@ Type: <b>BOOL</b>
 Returns <b>TRUE</b> if the string matches, or <b>FALSE</b> otherwise.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines PathMatchSpec as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

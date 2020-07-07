@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMObjectFactory1.CreatePackageWriterOnStream1
 title: IXpsOMObjectFactory1::CreatePackageWriterOnStream1 (xpsobjectmodel_1.h)
-description: Opens a stream for writing the contents of an XPS OM to an XPS package of a specified type.helpviewer_keywords: ["CreatePackageWriterOnStream1","CreatePackageWriterOnStream1 method [XPS Documents and Packaging]","CreatePackageWriterOnStream1 method [XPS Documents and Packaging]","IXpsOMObjectFactory1 interface","FALSE","IXpsOMObjectFactory1 interface [XPS Documents and Packaging]","CreatePackageWriterOnStream1 method","IXpsOMObjectFactory1.CreatePackageWriterOnStream1","IXpsOMObjectFactory1::CreatePackageWriterOnStream1","TRUE","xps.ixpsomobjectfactory1_createpackagewriteronstream1","xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageWriterOnStream1"]
+description: Opens a stream for writing the contents of an XPS OM to an XPS package of a specified type.
+helpviewer_keywords: ["CreatePackageWriterOnStream1","CreatePackageWriterOnStream1 method [XPS Documents and Packaging]","CreatePackageWriterOnStream1 method [XPS Documents and Packaging]","IXpsOMObjectFactory1 interface","FALSE","IXpsOMObjectFactory1 interface [XPS Documents and Packaging]","CreatePackageWriterOnStream1 method","IXpsOMObjectFactory1.CreatePackageWriterOnStream1","IXpsOMObjectFactory1::CreatePackageWriterOnStream1","TRUE","xps.ixpsomobjectfactory1_createpackagewriteronstream1","xpsobjectmodel_1/IXpsOMObjectFactory1::CreatePackageWriterOnStream1"]
 old-location: xps\ixpsomobjectfactory1_createpackagewriteronstream1.htm
 tech.root: printdocs
 ms.assetid: ce948f17-689a-4430-8152-20fbecaf6ee9

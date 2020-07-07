@@ -1,7 +1,8 @@
 ---
 UID: NN:netlistmgr.INetworkConnectionCostEvents
 title: INetworkConnectionCostEvents (netlistmgr.h)
-description: This interface to notify an application of cost and data plan status change events for a connection.helpviewer_keywords: ["INetworkConnectionCostEvents","INetworkConnectionCostEvents interface [Network Awareness]","INetworkConnectionCostEvents interface [Network Awareness]","described","netlistmgr/INetworkConnectionCostEvents","nla.inetworkconnectioncostevents"]
+description: This interface to notify an application of cost and data plan status change events for a connection.
+helpviewer_keywords: ["INetworkConnectionCostEvents","INetworkConnectionCostEvents interface [Network Awareness]","INetworkConnectionCostEvents interface [Network Awareness]","described","netlistmgr/INetworkConnectionCostEvents","nla.inetworkconnectioncostevents"]
 old-location: nla\inetworkconnectioncostevents.htm
 tech.root: nla
 ms.assetid: ABFE73E5-CB9E-4077-81D2-DD0FB39F4EC5

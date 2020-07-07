@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpcsdk.DhcpRegisterParamChange
 title: DhcpRegisterParamChange function (dhcpcsdk.h)
-description: The DhcpRegisterParamChange function enables clients to register for notification of changes in DHCP configuration parameters.helpviewer_keywords: ["DhcpRegisterParamChange","DhcpRegisterParamChange function [DHCP]","_dhcp_dhcpregisterparamchange","dhcp.dhcpregisterparamchange","dhcpcsdk/DhcpRegisterParamChange"]
+description: The DhcpRegisterParamChange function enables clients to register for notification of changes in DHCP configuration parameters.
+helpviewer_keywords: ["DhcpRegisterParamChange","DhcpRegisterParamChange function [DHCP]","_dhcp_dhcpregisterparamchange","dhcp.dhcpregisterparamchange","dhcpcsdk/DhcpRegisterParamChange"]
 old-location: dhcp\dhcpregisterparamchange.htm
 tech.root: DHCP
 ms.assetid: e0099827-2f88-4309-a5e7-3bc1395de5a2
@@ -70,7 +71,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 ### -param AdapterName [in]
 
-Name of the adapter for which event notification is being requested.  Must be under 256 characters. 
+GUID of the adapter for which event notification is being requested.  Must be under 256 characters. 
 
 
 ### -param ClassId [in]
@@ -80,7 +81,7 @@ Reserved. Must be set to <b>NULL</b>.
 
 ### -param Params [in]
 
-Parameters for which the client is interested in registering for notification, in the form of a <a href="https://docs.microsoft.com/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a> structure.
+Parameters for which the client is interested in registering for notification, in the form of a <a href="/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a> structure.
 
 
 ### -param Handle [in, out]
@@ -136,7 +137,7 @@ Version 2 of the DHCP Client API provides only event-based notification. With ev
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a>
+<a href="/windows/win32/api/dhcpcsdk/ns-dhcpcsdk-dhcpcapi_params_array">DHCPCAPI_PARAMS_ARRAY</a>
 
 
 
@@ -145,7 +146,3 @@ Version 2 of the DHCP Client API provides only event-based notification. With ev
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/dhcpcsdk/nf-dhcpcsdk-dhcpderegisterparamchange">DhcpDeRegisterParamChange</a>
- 
-
- 
-

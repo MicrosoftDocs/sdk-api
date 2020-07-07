@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Class_GetMethodAt
 title: MI_Class_GetMethodAt function (mi.h)
-description: Gets details of a method based on the method index.helpviewer_keywords: ["MI_Class_GetMethodAt","MI_Class_GetMethodAt function [Windows Management Infrastructure (MI)]","mi/MI_Class_GetMethodAt","wmi_v2.mi_class_getmethodat"]
+description: Gets details of a method based on the method index.
+helpviewer_keywords: ["MI_Class_GetMethodAt","MI_Class_GetMethodAt function [Windows Management Infrastructure (MI)]","mi/MI_Class_GetMethodAt","wmi_v2.mi_class_getmethodat"]
 old-location: wmi_v2\mi_class_getmethodat.htm
 tech.root: wmi_v2
 ms.assetid: 00239417-f771-48fa-afce-fef2ec99a171

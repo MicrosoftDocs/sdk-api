@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreateTopologyNode
 title: MFCreateTopologyNode function (mfidl.h)
-description: Creates a topology node.helpviewer_keywords: ["67c32232-09cb-4098-b80b-4b93ee121190","MFCreateTopologyNode","MFCreateTopologyNode function [Media Foundation]","mf.mfcreatetopologynode","mfidl/MFCreateTopologyNode"]
+description: Creates a topology node.
+helpviewer_keywords: ["67c32232-09cb-4098-b80b-4b93ee121190","MFCreateTopologyNode","MFCreateTopologyNode function [Media Foundation]","mf.mfcreatetopologynode","mfidl/MFCreateTopologyNode"]
 old-location: mf\mfcreatetopologynode.htm
 tech.root: medfound
 ms.assetid: 67c32232-09cb-4098-b80b-4b93ee121190

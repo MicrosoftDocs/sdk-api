@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetResponsePacket
 title: EapPeerGetResponsePacket function (eapmethodpeerapis.h)
-description: Obtains a response packet from the EAP method.helpviewer_keywords: ["EapPeerGetResponsePacket","EapPeerGetResponsePacket function [EAPHost]","eaphost.eappeergetresponsepacket","eapmethodpeerapis/EapPeerGetResponsePacket"]
+description: Obtains a response packet from the EAP method.
+helpviewer_keywords: ["EapPeerGetResponsePacket","EapPeerGetResponsePacket function [EAPHost]","eaphost.eappeergetresponsepacket","eapmethodpeerapis/EapPeerGetResponsePacket"]
 old-location: eaphost\eappeergetresponsepacket.htm
 tech.root: eaphost
 ms.assetid: 4e1deaab-53fe-4c8f-9018-d7b148131231
@@ -93,7 +94,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrm.IFsrmExportImport
 title: IFsrmExportImport (fsrm.h)
-description: Used to export and import FSRM objects.helpviewer_keywords: ["IFsrmExportImport","IFsrmExportImport interface [File Server Resource Manager]","IFsrmExportImport interface [File Server Resource Manager]","described","fs.ifsrmexportimport","fsrm.ifsrmexportimport","fsrm/IFsrmExportImport"]
+description: Used to export and import FSRM objects.
+helpviewer_keywords: ["IFsrmExportImport","IFsrmExportImport interface [File Server Resource Manager]","IFsrmExportImport interface [File Server Resource Manager]","described","fs.ifsrmexportimport","fsrm.ifsrmexportimport","fsrm/IFsrmExportImport"]
 old-location: fsrm\ifsrmexportimport.htm
 tech.root: fsrm
 ms.assetid: 5a3b682e-d2c3-43b3-9d10-4bba9d9c81d4

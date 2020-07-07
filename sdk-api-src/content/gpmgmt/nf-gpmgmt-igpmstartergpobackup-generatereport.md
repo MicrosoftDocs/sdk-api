@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackup.GenerateReport
 title: IGPMStarterGPOBackup::GenerateReport (gpmgmt.h)
-description: The GenerateReport method gets the report for the backup GPO.helpviewer_keywords: ["GenerateReport","GenerateReport method [GPMC]","GenerateReport method [GPMC]","IGPMStarterGPOBackup interface","IGPMStarterGPOBackup interface [GPMC]","GenerateReport method","IGPMStarterGPOBackup.GenerateReport","IGPMStarterGPOBackup::GenerateReport","gpmc.igpmstartergpobackup_generatereport","gpmgmt/IGPMStarterGPOBackup::GenerateReport"]
+description: The GenerateReport method gets the report for the backup GPO.
+helpviewer_keywords: ["GenerateReport","GenerateReport method [GPMC]","GenerateReport method [GPMC]","IGPMStarterGPOBackup interface","IGPMStarterGPOBackup interface [GPMC]","GenerateReport method","IGPMStarterGPOBackup.GenerateReport","IGPMStarterGPOBackup::GenerateReport","gpmc.igpmstartergpobackup_generatereport","gpmgmt/IGPMStarterGPOBackup::GenerateReport"]
 old-location: gpmc\igpmstartergpobackup_generatereport.htm
 tech.root: gpmc
 ms.assetid: ce0dd44f-dfd9-4e7c-9854-9decbc25ec54

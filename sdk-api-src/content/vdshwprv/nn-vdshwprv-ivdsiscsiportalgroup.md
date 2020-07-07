@@ -1,7 +1,8 @@
 ---
 UID: NN:vdshwprv.IVdsIscsiPortalGroup
 title: IVdsIscsiPortalGroup (vdshwprv.h)
-description: Provides methods for performing query and configuration services on an iSCSI portal group.helpviewer_keywords: ["IVdsIscsiPortalGroup","IVdsIscsiPortalGroup interface [VDS]","IVdsIscsiPortalGroup interface [VDS]","described","base.ivdsiscsiportalgroup","vds/IVdsIscsiPortalGroup","vdshwprv/IVdsIscsiPortalGroup"]
+description: Provides methods for performing query and configuration services on an iSCSI portal group.
+helpviewer_keywords: ["IVdsIscsiPortalGroup","IVdsIscsiPortalGroup interface [VDS]","IVdsIscsiPortalGroup interface [VDS]","described","base.ivdsiscsiportalgroup","vds/IVdsIscsiPortalGroup","vdshwprv/IVdsIscsiPortalGroup"]
 old-location: base\ivdsiscsiportalgroup.htm
 tech.root: VDS
 ms.assetid: 65d773bd-3828-4c9d-a841-bb85a53aeadc

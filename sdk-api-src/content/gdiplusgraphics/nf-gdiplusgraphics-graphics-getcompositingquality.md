@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetCompositingQuality
 title: Graphics::GetCompositingQuality (gdiplusgraphics.h)
-description: The Graphics::GetCompositingQuality method gets the compositing quality currently set for this Graphics object.helpviewer_keywords: ["GetCompositingQuality","GetCompositingQuality method [GDI+]","GetCompositingQuality method [GDI+]","Graphics class","Graphics class [GDI+]","GetCompositingQuality method","Graphics.GetCompositingQuality","Graphics::GetCompositingQuality","_gdiplus_CLASS_Graphics_GetCompositingQuality_","gdiplus._gdiplus_CLASS_Graphics_GetCompositingQuality_"]
+description: The Graphics::GetCompositingQuality method gets the compositing quality currently set for this Graphics object.
+helpviewer_keywords: ["GetCompositingQuality","GetCompositingQuality method [GDI+]","GetCompositingQuality method [GDI+]","Graphics class","Graphics class [GDI+]","GetCompositingQuality method","Graphics.GetCompositingQuality","Graphics::GetCompositingQuality","_gdiplus_CLASS_Graphics_GetCompositingQuality_","gdiplus._gdiplus_CLASS_Graphics_GetCompositingQuality_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetCompositingQuality_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getcompositingquality.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.PackTouchHitTestingProximityEvaluation
 title: PackTouchHitTestingProximityEvaluation function (winuser.h)
-description: Returns the proximity evaluation score and the adjusted touch-point coordinates as a packed value for the WM_TOUCHHITTESTING callback.helpviewer_keywords: ["PackTouchHitTestingProximityEvaluation","PackTouchHitTestingProximityEvaluation function","input_touchhittest.packtouchhittestingproximityevaluation","touch_hittest.packtouchhittestingproximityevaluation","winuser/PackTouchHitTestingProximityEvaluation"]
+description: Returns the proximity evaluation score and the adjusted touch-point coordinates as a packed value for the WM_TOUCHHITTESTING callback.
+helpviewer_keywords: ["PackTouchHitTestingProximityEvaluation","PackTouchHitTestingProximityEvaluation function","input_touchhittest.packtouchhittestingproximityevaluation","touch_hittest.packtouchhittestingproximityevaluation","winuser/PackTouchHitTestingProximityEvaluation"]
 old-location: input_touchhittest\packtouchhittestingproximityevaluation.htm
 tech.root: Input_TouchHitTest
 ms.assetid: c4061285-2d0f-4404-9b63-bda2ec61b764
@@ -68,14 +69,14 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-t
 
 ### -param pProximityEval [in]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data that the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-evaluateproximitytopolygon">EvaluateProximityToPolygon</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-evaluateproximitytorect">EvaluateProximityToRect</a> function returns.
+The <a href="/windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> structure that holds the score and adjusted touch-point data that the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-evaluateproximitytopolygon">EvaluateProximityToPolygon</a> or <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-evaluateproximitytorect">EvaluateProximityToRect</a> function returns.
 
 
 ## -returns
 
 
 
-If this function succeeds, it returns the <b>score</b> and <b>adjustedPoint</b> values from <a href="https://docs.microsoft.com/windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> as an LRESULT. To retrieve extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
+If this function succeeds, it returns the <b>score</b> and <b>adjustedPoint</b> values from <a href="/windows/win32/api/winuser/ns-winuser-touch_hit_testing_proximity_evaluation">TOUCH_HIT_TESTING_PROXIMITY_EVALUATION</a> as an LRESULT. To retrieve extended error information, call the <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> function.
  
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminConnectionEnumEx
 title: MprAdminConnectionEnumEx function (mprapi.h)
-description: The MprAdminConnectionEnumEx function enumerates the active connections for a specified RRAS server.helpviewer_keywords: ["MprAdminConnectionEnumEx","MprAdminConnectionEnumEx function [RAS]","mprapi/MprAdminConnectionEnumEx","rras.mpradminconnectionenumex"]
+description: The MprAdminConnectionEnumEx function enumerates the active connections for a specified RRAS server.
+helpviewer_keywords: ["MprAdminConnectionEnumEx","MprAdminConnectionEnumEx function [RAS]","mprapi/MprAdminConnectionEnumEx","rras.mpradminconnectionenumex"]
 old-location: rras\mpradminconnectionenumex.htm
 tech.root: RRAS
 ms.assetid: 12507432-bf18-444d-9bcc-4ebc1418c083

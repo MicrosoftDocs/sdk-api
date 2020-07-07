@@ -1,7 +1,8 @@
 ---
 UID: NN:storageprovider.IStorageProviderPropertyHandler
 title: IStorageProviderPropertyHandler (storageprovider.h)
-description: Provides a collection of properties associated with a file or folder.helpviewer_keywords: ["IStorageProviderPropertyHandler","IStorageProviderPropertyHandler interface [Windows Shell]","IStorageProviderPropertyHandler interface [Windows Shell]","described","shell.istorageproviderpropertyhandler","storageprovider/IStorageProviderPropertyHandler"]
+description: Provides a collection of properties associated with a file or folder.
+helpviewer_keywords: ["IStorageProviderPropertyHandler","IStorageProviderPropertyHandler interface [Windows Shell]","IStorageProviderPropertyHandler interface [Windows Shell]","described","shell.istorageproviderpropertyhandler","storageprovider/IStorageProviderPropertyHandler"]
 old-location: shell\istorageproviderpropertyhandler.htm
 tech.root: shell
 ms.assetid: 8CB56726-DABA-44A4-ADAE-DAD8ECB047E6

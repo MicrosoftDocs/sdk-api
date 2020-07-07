@@ -1,7 +1,8 @@
 ---
 UID: NF:handleapi.DuplicateHandle
 title: DuplicateHandle function (handleapi.h)
-description: Duplicates an object handle.helpviewer_keywords: ["DUPLICATE_CLOSE_SOURCE","DUPLICATE_SAME_ACCESS","DuplicateHandle","DuplicateHandle function","_win32_duplicatehandle","base.duplicatehandle","handleapi/DuplicateHandle"]
+description: Duplicates an object handle.
+helpviewer_keywords: ["DUPLICATE_CLOSE_SOURCE","DUPLICATE_SAME_ACCESS","DuplicateHandle","DuplicateHandle function","_win32_duplicatehandle","base.duplicatehandle","handleapi/DuplicateHandle"]
 old-location: base\duplicatehandle.htm
 tech.root: SysInfo
 ms.assetid: 9c8da574-5bda-49f1-a6b6-c026639d6504
@@ -246,7 +247,7 @@ If the process that calls
 <td>Mutex</td>
 <td>The handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-createmutexa">CreateMutex</a> or 
-[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw)a> function.</td>
+[OpenMutex](/windows/win32/api/synchapi/nf-synchapi-openmutexw) function.</td>
 </tr>
 <tr>
 <td>Pipe</td>
@@ -289,7 +290,7 @@ If the process that calls
 <tr>
 <td>Timer</td>
 <td>The handle is returned by the 
-<a href="https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw">CreateWaitableTimerW</a> or <a href="https://docs.microsoft.com/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw">OpenWaitableTimerW</a> function.</td>
+<a href="/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw">CreateWaitableTimerW</a> or <a href="/windows/win32/api/synchapi/nf-synchapi-openwaitabletimerw">OpenWaitableTimerW</a> function.</td>
 </tr>
 <tr>
 <td>Transaction</td>
@@ -309,7 +310,7 @@ You should not use
 <ul>
 <li>I/O completion ports. No error is returned, but the duplicate handle cannot be used.</li>
 <li>Sockets. No error is returned, but the duplicate handle may not be recognized by Winsock at the target process. Also, using <b>DuplicateHandle</b> interferes with internal reference counting on the underlying object. To duplicate a socket handle, use the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsaduplicatesocketa">WSADuplicateSocket</a> function.</li>
-<li>Pseudo-handles other than the ones returned by the <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> or <a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a> functions.</li>
+<li>Pseudo-handles other than the ones returned by the <a href="/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentprocess">GetCurrentProcess</a> or <a href="/windows/win32/api/processthreadsapi/nf-processthreadsapi-getcurrentthread">GetCurrentThread</a> functions.</li>
 </ul>
 The <i>dwDesiredAccess</i> parameter specifies the new handle's access rights. All objects support the <a href="https://docs.microsoft.com/windows/desktop/SecAuthZ/standard-access-rights">standard access rights</a>. Objects may also support additional access rights depending on the object type. For more information, see the following topics:
 

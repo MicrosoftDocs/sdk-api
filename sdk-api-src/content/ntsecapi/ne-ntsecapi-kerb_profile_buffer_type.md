@@ -1,7 +1,8 @@
 ---
 UID: NE:ntsecapi._KERB_PROFILE_BUFFER_TYPE
 title: KERB_PROFILE_BUFFER_TYPE (ntsecapi.h)
-description: Lists the type of logon profile returned.helpviewer_keywords: ["*PKERB_PROFILE_BUFFER_TYPE","KERB_PROFILE_BUFFER_TYPE","KERB_PROFILE_BUFFER_TYPE enumeration [Security]","KerbInteractiveProfile","KerbTicketProfile","PKERB_PROFILE_BUFFER_TYPE","PKERB_PROFILE_BUFFER_TYPE enumeration pointer [Security]","_lsa_kerb_profile_buffer_type","ntsecapi/KERB_PROFILE_BUFFER_TYPE","ntsecapi/KerbInteractiveProfile","ntsecapi/KerbTicketProfile","ntsecapi/PKERB_PROFILE_BUFFER_TYPE","security.kerb_profile_buffer_type"]
+description: Lists the type of logon profile returned.
+helpviewer_keywords: ["*PKERB_PROFILE_BUFFER_TYPE","KERB_PROFILE_BUFFER_TYPE","KERB_PROFILE_BUFFER_TYPE enumeration [Security]","KerbInteractiveProfile","KerbTicketProfile","PKERB_PROFILE_BUFFER_TYPE","PKERB_PROFILE_BUFFER_TYPE enumeration pointer [Security]","_lsa_kerb_profile_buffer_type","ntsecapi/KERB_PROFILE_BUFFER_TYPE","ntsecapi/KerbInteractiveProfile","ntsecapi/KerbTicketProfile","ntsecapi/PKERB_PROFILE_BUFFER_TYPE","security.kerb_profile_buffer_type"]
 old-location: security\kerb_profile_buffer_type.htm
 tech.root: SecAuthN
 ms.assetid: c590b6fd-c241-4ff8-9475-c8af7de7b431

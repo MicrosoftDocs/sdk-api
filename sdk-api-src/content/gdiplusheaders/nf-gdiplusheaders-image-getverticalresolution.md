@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.GetVerticalResolution
 title: Image::GetVerticalResolution (gdiplusheaders.h)
-description: The Image::GetVerticalResolution method gets the vertical resolution, in dots per inch, of this image.helpviewer_keywords: ["GetVerticalResolution","GetVerticalResolution method [GDI+]","GetVerticalResolution method [GDI+]","Image class","Image class [GDI+]","GetVerticalResolution method","Image.GetVerticalResolution","Image::GetVerticalResolution","_gdiplus_CLASS_Image_GetVerticalResolution_","gdiplus._gdiplus_CLASS_Image_GetVerticalResolution_"]
+description: The Image::GetVerticalResolution method gets the vertical resolution, in dots per inch, of this image.
+helpviewer_keywords: ["GetVerticalResolution","GetVerticalResolution method [GDI+]","GetVerticalResolution method [GDI+]","Image class","Image class [GDI+]","GetVerticalResolution method","Image.GetVerticalResolution","Image::GetVerticalResolution","_gdiplus_CLASS_Image_GetVerticalResolution_","gdiplus._gdiplus_CLASS_Image_GetVerticalResolution_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetVerticalResolution_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getverticalresolution.htm

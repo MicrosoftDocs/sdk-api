@@ -1,7 +1,8 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
 title: IOCTL_DISK_GET_DRIVE_GEOMETRY_EX
-description: Retrieves extended information about the physical disk's geometry:\_type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector.helpviewer_keywords: ["IOCTL_DISK_GET_DRIVE_GEOMETRY_EX","IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control","IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Files]","_win32_ioctl_disk_get_drive_geometry_ex","base.ioctl_disk_get_drive_geometry_ex","fs.ioctl_disk_get_drive_geometry_ex","winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX"]
+description: Retrieves extended information about the physical disk's geometry:\_type, number of cylinders, tracks per cylinder, sectors per track, and bytes per sector.
+helpviewer_keywords: ["IOCTL_DISK_GET_DRIVE_GEOMETRY_EX","IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control","IOCTL_DISK_GET_DRIVE_GEOMETRY_EX control code [Files]","_win32_ioctl_disk_get_drive_geometry_ex","base.ioctl_disk_get_drive_geometry_ex","fs.ioctl_disk_get_drive_geometry_ex","winioctl/IOCTL_DISK_GET_DRIVE_GEOMETRY_EX"]
 old-location: fs\ioctl_disk_get_drive_geometry_ex.htm
 tech.root: FileIO
 ms.assetid: 8a0667c8-b182-4851-af8e-411d95da0e3b
@@ -53,8 +54,8 @@ To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapise
 ```cpp
 BOOL DeviceIoControl(
   (HANDLE) hDevice,                 // handle to device
-  IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, //dwIoControlCode
-  NULL,                             //lpInBuffer
+  IOCTL_DISK_GET_DRIVE_GEOMETRY_EX, // dwIoControlCode
+  NULL,                             // lpInBuffer
   0,                                // nInBufferSize
   (LPVOID) lpOutBuffer,             // output buffer
   (DWORD) nOutBufferSize,           // size of output buffer
@@ -113,4 +114,6 @@ If the operation fails, or is pending, the return value is zero. To get extended
 
 ## -see-also
 
-[DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md), [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md), [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
+* [DISK_GEOMETRY_EX](ns-winioctl-disk_geometry_ex.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)

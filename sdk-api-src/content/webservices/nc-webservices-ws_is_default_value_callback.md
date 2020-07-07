@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_IS_DEFAULT_VALUE_CALLBACK
 title: WS_IS_DEFAULT_VALUE_CALLBACK (webservices.h)
-description: Determines if a value is the default value.helpviewer_keywords: ["WS_IS_DEFAULT_VALUE_CALLBACK","WS_IS_DEFAULT_VALUE_CALLBACK callback","WS_IS_DEFAULT_VALUE_CALLBACK callback function [Web Services for Windows]","webservices/WS_IS_DEFAULT_VALUE_CALLBACK","wsw.ws_is_default_value_callback"]
+description: Determines if a value is the default value.
+helpviewer_keywords: ["WS_IS_DEFAULT_VALUE_CALLBACK","WS_IS_DEFAULT_VALUE_CALLBACK callback","WS_IS_DEFAULT_VALUE_CALLBACK callback function [Web Services for Windows]","webservices/WS_IS_DEFAULT_VALUE_CALLBACK","wsw.ws_is_default_value_callback"]
 old-location: wsw\ws_is_default_value_callback.htm
 tech.root: wsw
 ms.assetid: 1bfbd405-860e-4888-8363-bbc678d1256a
@@ -52,7 +53,7 @@ ms.custom: 19H1
 Determines if a value is the default value. This callback is used  before a value that is handled
                 by a <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ne-webservices-ws_type">WS_CUSTOM_TYPE</a> is serialized.  Support
                 for default values is enabled by specifying 
-                when <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
+                when <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_reader_encoding_type">WS_FIELD_OPTIONAL</a> in the <a href="https://docs.microsoft.com/windows/desktop/api/webservices/ns-webservices-ws_field_description">WS_FIELD_DESCRIPTION</a>.
             
 
 

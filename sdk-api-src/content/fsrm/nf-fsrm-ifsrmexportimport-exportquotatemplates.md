@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrm.IFsrmExportImport.ExportQuotaTemplates
 title: IFsrmExportImport::ExportQuotaTemplates (fsrm.h)
-description: Exports one or more quota templates to the specified file.helpviewer_keywords: ["ExportQuotaTemplates","ExportQuotaTemplates method [File Server Resource Manager]","ExportQuotaTemplates method [File Server Resource Manager]","FsrmExportImport class","ExportQuotaTemplates method [File Server Resource Manager]","IFsrmExportImport interface","FsrmExportImport class [File Server Resource Manager]","ExportQuotaTemplates method","IFsrmExportImport interface [File Server Resource Manager]","ExportQuotaTemplates method","IFsrmExportImport.ExportQuotaTemplates","IFsrmExportImport::ExportQuotaTemplates","fs.ifsrmexportimport_exportquotatemplates","fsrm.ifsrmexportimport_exportquotatemplates","fsrm/IFsrmExportImport::ExportQuotaTemplates"]
+description: Exports one or more quota templates to the specified file.
+helpviewer_keywords: ["ExportQuotaTemplates","ExportQuotaTemplates method [File Server Resource Manager]","ExportQuotaTemplates method [File Server Resource Manager]","FsrmExportImport class","ExportQuotaTemplates method [File Server Resource Manager]","IFsrmExportImport interface","FsrmExportImport class [File Server Resource Manager]","ExportQuotaTemplates method","IFsrmExportImport interface [File Server Resource Manager]","ExportQuotaTemplates method","IFsrmExportImport.ExportQuotaTemplates","IFsrmExportImport::ExportQuotaTemplates","fs.ifsrmexportimport_exportquotatemplates","fsrm.ifsrmexportimport_exportquotatemplates","fsrm/IFsrmExportImport::ExportQuotaTemplates"]
 old-location: fsrm\ifsrmexportimport_exportquotatemplates.htm
 tech.root: fsrm
 ms.assetid: ede839ed-3e6f-4b70-bede-07e097ecc1e6

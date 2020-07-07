@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.GetWidth
 title: Image::GetWidth (gdiplusheaders.h)
-description: The Image::GetWidth method gets the width, in pixels, of this image.helpviewer_keywords: ["GetWidth","GetWidth method [GDI+]","GetWidth method [GDI+]","Image class","Image class [GDI+]","GetWidth method","Image.GetWidth","Image::GetWidth","_gdiplus_CLASS_Image_GetWidth_","gdiplus._gdiplus_CLASS_Image_GetWidth_"]
+description: The Image::GetWidth method gets the width, in pixels, of this image.
+helpviewer_keywords: ["GetWidth","GetWidth method [GDI+]","GetWidth method [GDI+]","Image class","Image class [GDI+]","GetWidth method","Image.GetWidth","Image::GetWidth","_gdiplus_CLASS_Image_GetWidth_","gdiplus._gdiplus_CLASS_Image_GetWidth_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetWidth_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getwidth_81.htm

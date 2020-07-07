@@ -1,7 +1,8 @@
 ---
 UID: NF:powrprof.PowerWriteFriendlyName
 title: PowerWriteFriendlyName function (powrprof.h)
-description: Sets the friendly name for the specified power setting, subgroup, or scheme.helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteFriendlyName","PowerWriteFriendlyName function","base.powerwritefriendlyname","powrprof/PowerWriteFriendlyName"]
+description: Sets the friendly name for the specified power setting, subgroup, or scheme.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteFriendlyName","PowerWriteFriendlyName function","base.powerwritefriendlyname","powrprof/PowerWriteFriendlyName"]
 old-location: base\powerwritefriendlyname.htm
 tech.root: power
 ms.assetid: 3d81f634-8095-49c6-a5fe-6fe5e33bf0aa

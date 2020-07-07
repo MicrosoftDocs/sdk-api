@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.OpenTraceW
 title: OpenTraceW function (evntrace.h)
-description: The OpenTrace function opens a real-time trace session or log file for consuming.helpviewer_keywords: ["OpenTrace","OpenTrace function [ETW]","OpenTraceA","OpenTraceW","_evt_opentrace","base.opentrace","etw.opentrace","evntrace/OpenTrace","evntrace/OpenTraceA","evntrace/OpenTraceW"]
+description: The OpenTrace function opens a real-time trace session or log file for consuming.
+helpviewer_keywords: ["OpenTrace","OpenTrace function [ETW]","OpenTraceA","OpenTraceW","_evt_opentrace","base.opentrace","etw.opentrace","evntrace/OpenTrace","evntrace/OpenTraceA","evntrace/OpenTraceW"]
 old-location: etw\opentrace.htm
 tech.root: ETW
 ms.assetid: 505e643b-6b4f-4f93-96c8-7fe8abdd6234
@@ -191,6 +192,10 @@ For an example that uses <b>OpenTrace</b>, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The evntrace.h header defines OpenTrace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

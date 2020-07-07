@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectShaderVariable.GetShaderDesc
 title: ID3D10EffectShaderVariable::GetShaderDesc (d3d10effect.h)
-description: Get a shader description.helpviewer_keywords: ["GetShaderDesc","GetShaderDesc method [Direct3D 10]","GetShaderDesc method [Direct3D 10]","ID3D10EffectShaderVariable interface","ID3D10EffectShaderVariable interface [Direct3D 10]","GetShaderDesc method","ID3D10EffectShaderVariable.GetShaderDesc","ID3D10EffectShaderVariable::GetShaderDesc","d3d10effect/ID3D10EffectShaderVariable::GetShaderDesc","direct3d10.id3d10effectshadervariable_getshaderdesc","eb630246-c382-1984-9a6c-712450dfdd06"]
+description: Get a shader description.
+helpviewer_keywords: ["GetShaderDesc","GetShaderDesc method [Direct3D 10]","GetShaderDesc method [Direct3D 10]","ID3D10EffectShaderVariable interface","ID3D10EffectShaderVariable interface [Direct3D 10]","GetShaderDesc method","ID3D10EffectShaderVariable.GetShaderDesc","ID3D10EffectShaderVariable::GetShaderDesc","d3d10effect/ID3D10EffectShaderVariable::GetShaderDesc","direct3d10.id3d10effectshadervariable_getshaderdesc","eb630246-c382-1984-9a6c-712450dfdd06"]
 old-location: direct3d10\id3d10effectshadervariable_getshaderdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectshadervariable_getshaderdesc.htm

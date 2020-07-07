@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.BreakMirrorVirtualDisk
 title: BreakMirrorVirtualDisk function (virtdisk.h)
-description: Breaks a previously initiated mirror operation and sets the mirror to be the active virtual disk.helpviewer_keywords: ["BreakMirrorVirtualDisk","BreakMirrorVirtualDisk function [VHD]","vdssys/BreakMirrorVirtualDisk","vhd.breakmirrorvirtualdisk","virtdisk/BreakMirrorVirtualDisk"]
+description: Breaks a previously initiated mirror operation and sets the mirror to be the active virtual disk.
+helpviewer_keywords: ["BreakMirrorVirtualDisk","BreakMirrorVirtualDisk function [VHD]","vdssys/BreakMirrorVirtualDisk","vhd.breakmirrorvirtualdisk","virtdisk/BreakMirrorVirtualDisk"]
 old-location: vhd\breakmirrorvirtualdisk.htm
 tech.root: VStor
 ms.assetid: bf70ee43-9fba-4856-a1bc-85eec61f5763
@@ -61,8 +62,8 @@ Breaks a previously initiated mirror operation and sets the mirror to be the act
 ### -param VirtualDiskHandle [in]
 
 A handle to the open mirrored virtual disk. For information on how to open a virtual disk, see the 
-      <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
-      mirror a virtual disk, see the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">MirrorVirtualDisk</a> 
+      <a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a> function. For information on how to 
+      mirror a virtual disk, see the <a href="/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">MirrorVirtualDisk</a> 
       function.
 
 
@@ -85,11 +86,11 @@ If the function fails, the return value is an error code. For more information, 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">MirrorVirtualDisk</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-breakmirrorvirtualdisk">MirrorVirtualDisk</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-openvirtualdisk">OpenVirtualDisk</a>
 
 
 

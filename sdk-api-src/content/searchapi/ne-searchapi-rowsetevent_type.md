@@ -1,7 +1,8 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0023_0002
 title: ROWSETEVENT_TYPE (searchapi.h)
-description: Describes the type of change to the rowset's data.helpviewer_keywords: ["ROWSETEVENT_TYPE","ROWSETEVENT_TYPE enumeration [search]","ROWSETEVENT_TYPE_DATAEXPIRED","ROWSETEVENT_TYPE_FOREGROUNDLOST","ROWSETEVENT_TYPE_SCOPESTATISTICS","_search_ROWSETEVENT_TYPE","search._search_ROWSETEVENT_TYPE","searchapi/ROWSETEVENT_TYPE","searchapi/ROWSETEVENT_TYPE_DATAEXPIRED","searchapi/ROWSETEVENT_TYPE_FOREGROUNDLOST","searchapi/ROWSETEVENT_TYPE_SCOPESTATISTICS"]
+description: Describes the type of change to the rowset's data.
+helpviewer_keywords: ["ROWSETEVENT_TYPE","ROWSETEVENT_TYPE enumeration [search]","ROWSETEVENT_TYPE_DATAEXPIRED","ROWSETEVENT_TYPE_FOREGROUNDLOST","ROWSETEVENT_TYPE_SCOPESTATISTICS","_search_ROWSETEVENT_TYPE","search._search_ROWSETEVENT_TYPE","searchapi/ROWSETEVENT_TYPE","searchapi/ROWSETEVENT_TYPE_DATAEXPIRED","searchapi/ROWSETEVENT_TYPE_FOREGROUNDLOST","searchapi/ROWSETEVENT_TYPE_SCOPESTATISTICS"]
 old-location: search\_search_ROWSETEVENT_TYPE.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_type.htm
@@ -89,10 +90,7 @@ The <b>ROWSETEVENT_TYPE_SCOPESTATISTICS</b> event gives you the same information
 <li>This event is guaranteed to raise a "bounce zero" state (zero items remaining to be added, zero modifies remaining), provided that a non-zero event has been raised.</li>
 <li>The indexer may process items without sending this event, if the queue empties before the statistics event frequency.</li>
 </ul>
-The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to prioritize indexing events.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
 
 ## -see-also
 
@@ -115,15 +113,15 @@ The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 

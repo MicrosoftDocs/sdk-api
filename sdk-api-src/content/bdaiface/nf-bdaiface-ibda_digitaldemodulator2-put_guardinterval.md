@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.put_GuardInterval
 title: IBDA_DigitalDemodulator2::put_GuardInterval (bdaiface.h)
-description: Sets the demodulator's guard interval.helpviewer_keywords: ["IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies]","put_GuardInterval method","IBDA_DigitalDemodulator2.put_GuardInterval","IBDA_DigitalDemodulator2::put_GuardInterval","bdaiface/IBDA_DigitalDemodulator2::put_GuardInterval","mstv.ibda_digitaldemodulator2_put_guardinterval","put_GuardInterval","put_GuardInterval method [Microsoft TV Technologies]","put_GuardInterval method [Microsoft TV Technologies]","IBDA_DigitalDemodulator2 interface"]
+description: Sets the demodulator's guard interval.
+helpviewer_keywords: ["IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies]","put_GuardInterval method","IBDA_DigitalDemodulator2.put_GuardInterval","IBDA_DigitalDemodulator2::put_GuardInterval","bdaiface/IBDA_DigitalDemodulator2::put_GuardInterval","mstv.ibda_digitaldemodulator2_put_guardinterval","put_GuardInterval","put_GuardInterval method [Microsoft TV Technologies]","put_GuardInterval method [Microsoft TV Technologies]","IBDA_DigitalDemodulator2 interface"]
 old-location: mstv\ibda_digitaldemodulator2_put_guardinterval.htm
 tech.root: mstv
 ms.assetid: 1183eacb-4846-4b5e-b879-7e557eb5f5dc

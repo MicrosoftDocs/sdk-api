@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordCompositionPageID
 title: IDvbSubtitlingDescriptor::GetRecordCompositionPageID (dvbsiparser.h)
-description: Gets the composition page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.helpviewer_keywords: ["GetRecordCompositionPageID","GetRecordCompositionPageID method [Microsoft TV Technologies]","GetRecordCompositionPageID method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetRecordCompositionPageID method","IDvbSubtitlingDescriptor.GetRecordCompositionPageID","IDvbSubtitlingDescriptor::GetRecordCompositionPageID","dvbsiparser/IDvbSubtitlingDescriptor::GetRecordCompositionPageID","mstv.idvbsubtitlingdescriptor_getrecordcompositionpageid"]
+description: Gets the composition page identifier for a Digital Video Broadcast (DVB) subtitling descriptor.
+helpviewer_keywords: ["GetRecordCompositionPageID","GetRecordCompositionPageID method [Microsoft TV Technologies]","GetRecordCompositionPageID method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetRecordCompositionPageID method","IDvbSubtitlingDescriptor.GetRecordCompositionPageID","IDvbSubtitlingDescriptor::GetRecordCompositionPageID","dvbsiparser/IDvbSubtitlingDescriptor::GetRecordCompositionPageID","mstv.idvbsubtitlingdescriptor_getrecordcompositionpageid"]
 old-location: mstv\idvbsubtitlingdescriptor_getrecordcompositionpageid.htm
 tech.root: mstv
 ms.assetid: 108f431a-e3c3-42d5-ad27-b7a54029051f

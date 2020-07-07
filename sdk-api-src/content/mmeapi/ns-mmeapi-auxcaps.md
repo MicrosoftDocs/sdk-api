@@ -1,7 +1,8 @@
 ---
 UID: NS:mmeapi.auxcaps_tag
 title: AUXCAPS (mmeapi.h)
-description: The AUXCAPS structure describes the capabilities of an auxiliary output device.helpviewer_keywords: ["*LPAUXCAPS","*NPAUXCAPS","*PAUXCAPS","AUXCAPS","AUXCAPS structure [Windows Multimedia]","AUXCAPSA","AUXCAPSW","AUXCAPS_AUXIN","AUXCAPS_CDAUDIO","AUXCAPS_LRVOLUME","AUXCAPS_VOLUME","_win32_AUXCAPS_str","auxcaps_tag","mmeapi/AUXCAPS","multimedia.auxcaps"]
+description: The AUXCAPS structure describes the capabilities of an auxiliary output device.
+helpviewer_keywords: ["*LPAUXCAPS","*NPAUXCAPS","*PAUXCAPS","AUXCAPS","AUXCAPS structure [Windows Multimedia]","AUXCAPSA","AUXCAPSW","AUXCAPS_AUXIN","AUXCAPS_CDAUDIO","AUXCAPS_LRVOLUME","AUXCAPS_VOLUME","_win32_AUXCAPS_str","auxcaps_tag","mmeapi/AUXCAPS","multimedia.auxcaps"]
 old-location: multimedia\auxcaps.htm
 tech.root: Multimedia
 ms.assetid: 5b94a468-88b2-40a4-b28d-49f262e62749
@@ -148,7 +149,5 @@ Supports volume control.
 If a device supports volume changes, the AUXCAPS_VOLUME flag will be set. If a device supports separate volume changes on the left and right channels, both AUXCAPS_VOLUME and the AUXCAPS_LRVOLUME will be set.
 
 
-#### - wReserved1
 
-Padding.
 

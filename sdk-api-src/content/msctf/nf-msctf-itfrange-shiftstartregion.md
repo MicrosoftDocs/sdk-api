@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfRange.ShiftStartRegion
 title: ITfRange::ShiftStartRegion (msctf.h)
-description: ITfRange::ShiftStartRegion methodhelpviewer_keywords: ["ITfRange interface [Text Services Framework]","ShiftStartRegion method","ITfRange.ShiftStartRegion","ITfRange::ShiftStartRegion","ShiftStartRegion","ShiftStartRegion method [Text Services Framework]","ShiftStartRegion method [Text Services Framework]","ITfRange interface","_tsf_itfrange_shiftstartregion_ref","msctf/ITfRange::ShiftStartRegion","tsf.itfrange_shiftstartregion"]
+description: ITfRange::ShiftStartRegion method
+helpviewer_keywords: ["ITfRange interface [Text Services Framework]","ShiftStartRegion method","ITfRange.ShiftStartRegion","ITfRange::ShiftStartRegion","ShiftStartRegion","ShiftStartRegion method [Text Services Framework]","ShiftStartRegion method [Text Services Framework]","ITfRange interface","_tsf_itfrange_shiftstartregion_ref","msctf/ITfRange::ShiftStartRegion","tsf.itfrange_shiftstartregion"]
 old-location: tsf\itfrange_shiftstartregion.htm
 tech.root: TSF
 ms.assetid: 6e16112a-0cfe-41be-9d9c-4cbcde898c3f
@@ -62,7 +63,7 @@ Contains an edit cookie that identifies the edit context obtained from <a href="
 
 ### -param dir [in]
 
-Contains one of the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir</a> values that specifies which adjacent region the start anchor is moved to.
+Contains one of the <a href="/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir</a> values that specifies which adjacent region the start anchor is moved to.
 
 
 ### -param pfNoRegion [out]
@@ -160,7 +161,7 @@ The anchor must be positioned adjacent to the desired region prior to calling th
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir
+<a href="/windows/win32/api/msctf/ne-msctf-tfshiftdir">TfShiftDir
       </a>
  
 

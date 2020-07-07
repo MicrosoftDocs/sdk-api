@@ -1,7 +1,8 @@
 ---
 UID: NF:cfapi.CfOpenFileWithOplock
 title: CfOpenFileWithOplock function (cfapi.h)
-description: Opens an asynchronous opaque handle to a file or directory (for both normal and placeholder files) and sets up a proper oplock on it based on the open flags.helpviewer_keywords: ["CfOpenFileWithOplock","CfOpenFileWithOplock function","cfapi/CfOpenFileWithOplock","cloudApi.cfopenfilewithoplock"]
+description: Opens an asynchronous opaque handle to a file or directory (for both normal and placeholder files) and sets up a proper oplock on it based on the open flags.
+helpviewer_keywords: ["CfOpenFileWithOplock","CfOpenFileWithOplock function","cfapi/CfOpenFileWithOplock","cloudApi.cfopenfilewithoplock"]
 old-location: cloudapi\cfopenfilewithoplock.htm
 tech.root: cfApi
 ms.assetid: AFC48080-3B4A-4F6B-9122-25C2A025EA95

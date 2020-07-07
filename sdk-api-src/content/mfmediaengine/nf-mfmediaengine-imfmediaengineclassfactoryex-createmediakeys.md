@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineClassFactoryEx.CreateMediaKeys
 title: IMFMediaEngineClassFactoryEx::CreateMediaKeys (mfmediaengine.h)
-description: Creates a media keys object based on the specified key system.helpviewer_keywords: ["CreateMediaKeys","CreateMediaKeys method [Media Foundation]","CreateMediaKeys method [Media Foundation]","IMFMediaEngineClassFactoryEx interface","IMFMediaEngineClassFactoryEx interface [Media Foundation]","CreateMediaKeys method","IMFMediaEngineClassFactoryEx.CreateMediaKeys","IMFMediaEngineClassFactoryEx::CreateMediaKeys","mf.imfmediaengineclassfactoryex_createmediakeys","mfmediaengine/IMFMediaEngineClassFactoryEx::CreateMediaKeys"]
+description: Creates a media keys object based on the specified key system.
+helpviewer_keywords: ["CreateMediaKeys","CreateMediaKeys method [Media Foundation]","CreateMediaKeys method [Media Foundation]","IMFMediaEngineClassFactoryEx interface","IMFMediaEngineClassFactoryEx interface [Media Foundation]","CreateMediaKeys method","IMFMediaEngineClassFactoryEx.CreateMediaKeys","IMFMediaEngineClassFactoryEx::CreateMediaKeys","mf.imfmediaengineclassfactoryex_createmediakeys","mfmediaengine/IMFMediaEngineClassFactoryEx::CreateMediaKeys"]
 old-location: mf\imfmediaengineclassfactoryex_createmediakeys.htm
 tech.root: medfound
 ms.assetid: 40b2b978-f12c-4066-acf5-e0c68b0fa928

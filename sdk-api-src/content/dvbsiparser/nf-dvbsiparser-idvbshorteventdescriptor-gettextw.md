@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbShortEventDescriptor.GetTextW
 title: IDvbShortEventDescriptor::GetTextW (dvbsiparser.h)
-description: Gets the text that describes the event in Unicode string format from a Digital Video Broadcast (DVB) short event descriptor.helpviewer_keywords: ["GetTextW","GetTextW method [Microsoft TV Technologies]","GetTextW method [Microsoft TV Technologies]","IDvbShortEventDescriptor interface","IDvbShortEventDescriptor interface [Microsoft TV Technologies]","GetTextW method","IDvbShortEventDescriptor.GetTextW","IDvbShortEventDescriptor::GetTextW","dvbsiparser/IDvbShortEventDescriptor::GetTextW","mstv.idvbshorteventdescriptor_gettextw"]
+description: Gets the text that describes the event in Unicode string format from a Digital Video Broadcast (DVB) short event descriptor.
+helpviewer_keywords: ["GetTextW","GetTextW method [Microsoft TV Technologies]","GetTextW method [Microsoft TV Technologies]","IDvbShortEventDescriptor interface","IDvbShortEventDescriptor interface [Microsoft TV Technologies]","GetTextW method","IDvbShortEventDescriptor.GetTextW","IDvbShortEventDescriptor::GetTextW","dvbsiparser/IDvbShortEventDescriptor::GetTextW","mstv.idvbshorteventdescriptor_gettextw"]
 old-location: mstv\idvbshorteventdescriptor_gettextw.htm
 tech.root: mstv
 ms.assetid: 0770d24f-b421-4b00-809c-04fa53ca038c

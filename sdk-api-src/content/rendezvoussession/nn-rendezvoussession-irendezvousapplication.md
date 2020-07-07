@@ -1,7 +1,8 @@
 ---
 UID: NN:rendezvoussession.IRendezvousApplication
 title: IRendezvousApplication (rendezvoussession.h)
-description: Exposes a method used by an instant messaging (IM) application to create a remote assistance session.helpviewer_keywords: ["IRendezvousApplication","IRendezvousApplication interface [Remote Assistance]","IRendezvousApplication interface [Remote Assistance]","described","remoteassist.remoteassist_IRendezvousApplication","remoteassist_IRendezvousApplication","rendezvoussession/IRendezvousApplication"]
+description: Exposes a method used by an instant messaging (IM) application to create a remote assistance session.
+helpviewer_keywords: ["IRendezvousApplication","IRendezvousApplication interface [Remote Assistance]","IRendezvousApplication interface [Remote Assistance]","described","remoteassist.remoteassist_IRendezvousApplication","remoteassist_IRendezvousApplication","rendezvoussession/IRendezvousApplication"]
 old-location: remoteassist\remoteassist_IRendezvousApplication.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvousapplication\irendezvousapplication.htm

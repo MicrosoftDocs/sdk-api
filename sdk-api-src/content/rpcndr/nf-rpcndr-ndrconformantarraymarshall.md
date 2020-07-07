@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrConformantArrayMarshall
 title: NdrConformantArrayMarshall function (rpcndr.h)
-description: The NdrConformantArrayMarshall function marshals the conformant array into a network buffer.helpviewer_keywords: ["NdrComformantArrayMarshall","NdrConformantArrayMarshall","NdrConformantArrayMarshall function [Windows API]","rpcndr/NdrConformantArrayMarshall","winprog.ndrcomformantarraymarshall"]
+description: The NdrConformantArrayMarshall function marshals the conformant array into a network buffer.
+helpviewer_keywords: ["NdrComformantArrayMarshall","NdrConformantArrayMarshall","NdrConformantArrayMarshall function [Windows API]","rpcndr/NdrConformantArrayMarshall","winprog.ndrcomformantarraymarshall"]
 old-location: winprog\ndrcomformantarraymarshall.htm
 tech.root: DevNotes
 ms.assetid: 28098531-a836-4a22-8c1a-fbf28d4a1bdd

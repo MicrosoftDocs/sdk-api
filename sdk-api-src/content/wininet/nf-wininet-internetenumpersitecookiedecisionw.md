@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetEnumPerSiteCookieDecisionW
 title: InternetEnumPerSiteCookieDecisionW function (wininet.h)
-description: Retrieves the domains and cookie settings of websites for which site-specific cookie regulations are set.helpviewer_keywords: ["InternetEnumPerSiteCookieDecision","InternetEnumPerSiteCookieDecision function [WinINet]","InternetEnumPerSiteCookieDecisionA","InternetEnumPerSiteCookieDecisionW","wininet.internetenumpersitecookiedecision","winineti/InternetEnumPerSiteCookieDecision","winineti/InternetEnumPerSiteCookieDecisionA","winineti/InternetEnumPerSiteCookieDecisionW"]
+description: Retrieves the domains and cookie settings of websites for which site-specific cookie regulations are set.
+helpviewer_keywords: ["InternetEnumPerSiteCookieDecision","InternetEnumPerSiteCookieDecision function [WinINet]","InternetEnumPerSiteCookieDecisionA","InternetEnumPerSiteCookieDecisionW","wininet.internetenumpersitecookiedecision","winineti/InternetEnumPerSiteCookieDecision","winineti/InternetEnumPerSiteCookieDecisionA","winineti/InternetEnumPerSiteCookieDecisionW"]
 old-location: wininet\internetenumpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: de1db7e6-21f4-4bbb-b4fc-277bbd01f32c
@@ -71,7 +72,7 @@ A pointer to an unsigned long that specifies the size of the <i>pcSiteNameSize</
 
 ### -param pdwDecision [out]
 
-Pointer to an unsigned long that receives the <a href="https://docs.microsoft.com/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration value corresponding to <i>pszSiteName</i>.
+Pointer to an unsigned long that receives the <a href="/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration value corresponding to <i>pszSiteName</i>.
 
 
 ### -param dwIndex [in]
@@ -102,6 +103,10 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines InternetEnumPerSiteCookieDecision as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

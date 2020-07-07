@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleCache.Uncache
 title: IOleCache::Uncache (oleidl.h)
-description: Removes a cache connection created previously using IOleCache::Cache.helpviewer_keywords: ["IOleCache interface [COM]","Uncache method","IOleCache.Uncache","IOleCache::Uncache","Uncache","Uncache method [COM]","Uncache method [COM]","IOleCache interface","_ole_iolecache_uncache","com.iolecache_uncache","oleidl/IOleCache::Uncache"]
+description: Removes a cache connection created previously using IOleCache::Cache.
+helpviewer_keywords: ["IOleCache interface [COM]","Uncache method","IOleCache.Uncache","IOleCache::Uncache","Uncache","Uncache method [COM]","Uncache method [COM]","IOleCache interface","_ole_iolecache_uncache","com.iolecache_uncache","oleidl/IOleCache::Uncache"]
 old-location: com\iolecache_uncache.htm
 tech.root: com
 ms.assetid: a6a57bdd-190f-485b-9b46-cbfc1a1d29a6

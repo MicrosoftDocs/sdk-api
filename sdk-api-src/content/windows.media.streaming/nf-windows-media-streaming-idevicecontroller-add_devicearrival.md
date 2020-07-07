@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.add_DeviceArrival
 title: IDeviceController::streaming (windows.media.streaming.h)
-description: Registers an event handler for the DeviceArrival event.helpviewer_keywords: ["IDeviceController interface [Media Streaming API]","add_DeviceArrival method","IDeviceController.add_DeviceArrival","IDeviceController.streaming","IDeviceController::add_DeviceArrival","IDeviceController::streaming","add_DeviceArrival","add_DeviceArrival method [Media Streaming API]","add_DeviceArrival method [Media Streaming API]","IDeviceController interface","mediastreaming.idevicecontroller_add_devicearrival","windows/IDeviceController::add_DeviceArrival"]
+description: Registers an event handler for the DeviceArrival event.
+helpviewer_keywords: ["IDeviceController interface [Media Streaming API]","add_DeviceArrival method","IDeviceController.add_DeviceArrival","IDeviceController.streaming","IDeviceController::add_DeviceArrival","IDeviceController::streaming","add_DeviceArrival","add_DeviceArrival method [Media Streaming API]","add_DeviceArrival method [Media Streaming API]","IDeviceController interface","mediastreaming.idevicecontroller_add_devicearrival","windows/IDeviceController::add_DeviceArrival"]
 old-location: mediastreaming\idevicecontroller_add_devicearrival.htm
 tech.root: mediastreaming
 ms.assetid: 968A30D5-42ED-472B-9436-EBC77A3F76C9

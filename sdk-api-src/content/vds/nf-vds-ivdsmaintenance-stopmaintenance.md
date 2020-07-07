@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsMaintenance.StopMaintenance
 title: IVdsMaintenance::StopMaintenance (vds.h)
-description: Stops a maintenance operation.helpviewer_keywords: ["IVdsMaintenance interface [VDS]","StopMaintenance method","IVdsMaintenance.StopMaintenance","IVdsMaintenance::StopMaintenance","StopMaintenance","StopMaintenance method [VDS]","StopMaintenance method [VDS]","IVdsMaintenance interface","base.ivdsmaintenance_stopmaintenance","vds/IVdsMaintenance::StopMaintenance","vdshwprv/IVdsMaintenance::StopMaintenance"]
+description: Stops a maintenance operation.
+helpviewer_keywords: ["IVdsMaintenance interface [VDS]","StopMaintenance method","IVdsMaintenance.StopMaintenance","IVdsMaintenance::StopMaintenance","StopMaintenance","StopMaintenance method [VDS]","StopMaintenance method [VDS]","IVdsMaintenance interface","base.ivdsmaintenance_stopmaintenance","vds/IVdsMaintenance::StopMaintenance","vdshwprv/IVdsMaintenance::StopMaintenance"]
 old-location: base\ivdsmaintenance_stopmaintenance.htm
 tech.root: VDS
 ms.assetid: 542f84d7-eb97-4738-b7c0-1c95bc5e063c

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbLinkageDescriptor.GetTSId
 title: IDvbLinkageDescriptor::GetTSId (dvbsiparser.h)
-description: Gets the identifier of the transport stream containing the information service from a DVB linkage descriptor.helpviewer_keywords: ["GetTSId","GetTSId method [Microsoft TV Technologies]","GetTSId method [Microsoft TV Technologies]","IDvbLinkageDescriptor interface","IDvbLinkageDescriptor interface [Microsoft TV Technologies]","GetTSId method","IDvbLinkageDescriptor.GetTSId","IDvbLinkageDescriptor::GetTSId","dvbsiparser/IDvbLinkageDescriptor::GetTSId","mstv.idvblinkagedescriptor_gettsid"]
+description: Gets the identifier of the transport stream containing the information service from a DVB linkage descriptor.
+helpviewer_keywords: ["GetTSId","GetTSId method [Microsoft TV Technologies]","GetTSId method [Microsoft TV Technologies]","IDvbLinkageDescriptor interface","IDvbLinkageDescriptor interface [Microsoft TV Technologies]","GetTSId method","IDvbLinkageDescriptor.GetTSId","IDvbLinkageDescriptor::GetTSId","dvbsiparser/IDvbLinkageDescriptor::GetTSId","mstv.idvblinkagedescriptor_gettsid"]
 old-location: mstv\idvblinkagedescriptor_gettsid.htm
 tech.root: mstv
 ms.assetid: 263f3ff1-33a6-4c40-bcdf-049c4dbaf2ef

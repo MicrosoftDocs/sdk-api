@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Disable_DevNode
 title: CM_Disable_DevNode function (cfgmgr32.h)
-description: The CM_Disable_DevNode function disables a device.helpviewer_keywords: ["CM_Disable_DevNode","CM_Disable_DevNode function [Device and Driver Installation]","cfgmgr32/CM_Disable_DevNode","cfgmgrfn_3a8b48b2-fb94-421c-9ec4-2e88997eb9b5.xml","devinst.cm_disable_devnode"]
+description: The CM_Disable_DevNode function disables a device.
+helpviewer_keywords: ["CM_Disable_DevNode","CM_Disable_DevNode function [Device and Driver Installation]","cfgmgr32/CM_Disable_DevNode","cfgmgrfn_3a8b48b2-fb94-421c-9ec4-2e88997eb9b5.xml","devinst.cm_disable_devnode"]
 old-location: devinst\cm_disable_devnode.htm
 tech.root: devinst
 ms.assetid: 6013fec3-1fb3-4956-982d-5841518f5d31

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device1.CreatePipelineLibrary
 title: ID3D12Device1::CreatePipelineLibrary (d3d12.h)
-description: Creates a cached pipeline library.helpviewer_keywords: ["CreatePipelineLibrary","CreatePipelineLibrary method","CreatePipelineLibrary method","ID3D12Device1 interface","ID3D12Device1 interface","CreatePipelineLibrary method","ID3D12Device1.CreatePipelineLibrary","ID3D12Device1::CreatePipelineLibrary","d3d12/ID3D12Device1::CreatePipelineLibrary","direct3d12.id3d12device1_createpipelinelibrary"]
+description: Creates a cached pipeline library.
+helpviewer_keywords: ["CreatePipelineLibrary","CreatePipelineLibrary method","CreatePipelineLibrary method","ID3D12Device1 interface","ID3D12Device1 interface","CreatePipelineLibrary method","ID3D12Device1.CreatePipelineLibrary","ID3D12Device1::CreatePipelineLibrary","d3d12/ID3D12Device1::CreatePipelineLibrary","direct3d12.id3d12device1_createpipelinelibrary"]
 old-location: direct3d12\id3d12device1_createpipelinelibrary.htm
 tech.root: direct3d12
 ms.assetid: 572A95A6-A02F-4512-9BDE-2A8CA58A0A27
@@ -97,6 +98,11 @@ At no point in the lifecycle of a pipeline library is there duplication between 
 
 A recommended solution for managing the lifetime of the provided pointer while only having to ref-count the returned interface is to leverage <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setprivatedatainterface">ID3D12Object::SetPrivateDataInterface</a>, and use an object which implements <b>IUnknown</b>, and frees the memory when the ref-count reaches 0. 
 
+#### Thread Safety
+
+The pipeline library is thread-safe to use, and will internally synchronize as necessary, with one exception: multiple threads loading the same PSO (via [**LoadComputePipeline**](nf-d3d12-id3d12pipelinelibrary-loadcomputepipeline.md),
+[**LoadGraphicsPipeline**](nf-d3d12-id3d12pipelinelibrary-loadgraphicspipeline.md), or [**LoadPipeline**](nf-d3d12-id3d12pipelinelibrary1-loadpipeline.md)) should synchronize themselves, as this act may modify the state of that pipeline within the library in a non-thread-safe manner.
+
 #### Examples
 
 Create a PSO library and add PSOs to it. Note the macro IID_PPV_ARGS expands to become two parameters.
@@ -114,7 +120,7 @@ ID3D12Device* Device;
     VERIFY_SUCCEEDED(Library->StorePipeline(L“PSO2”, PSO2)); 
     SIZE_T LibrarySize = Library->GetSerializedSize(); 
     void* pData = new BYTE[LibrarySize]; 
-    VERIFY_SUCCEEDED(Library->Serialize(LibrarySize, pData)); 
+    VERIFY_SUCCEEDED(Library->Serialize(pData, LibrarySize)); 
 
     // Save pData to disk 
     ...

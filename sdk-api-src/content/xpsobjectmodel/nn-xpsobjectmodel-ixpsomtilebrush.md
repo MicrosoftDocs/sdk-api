@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMTileBrush
 title: IXpsOMTileBrush (xpsobjectmodel.h)
-description: A tile brush uses a visual image to paint a region by repeating the image.helpviewer_keywords: ["IXpsOMTileBrush","IXpsOMTileBrush interface [XPS Documents and Packaging]","IXpsOMTileBrush interface [XPS Documents and Packaging]","described","xps.ixpsomtilebrush","xpsobjectmodel/IXpsOMTileBrush"]
+description: A tile brush uses a visual image to paint a region by repeating the image.
+helpviewer_keywords: ["IXpsOMTileBrush","IXpsOMTileBrush interface [XPS Documents and Packaging]","IXpsOMTileBrush interface [XPS Documents and Packaging]","described","xps.ixpsomtilebrush","xpsobjectmodel/IXpsOMTileBrush"]
 old-location: xps\ixpsomtilebrush.htm
 tech.root: printdocs
 ms.assetid: fc9e1925-0dbc-447b-9acc-e7f719df62d1
@@ -74,7 +75,7 @@ The <b>IXpsOMTileBrush</b> interface has these methods.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-gettilemode">GetTileMode</a>
 </td>
 <td align="left" width="63%">
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
+Gets the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value that describes the tile mode of the brush.
             
 
 </td>
@@ -132,7 +133,7 @@ Gets the portion of  the destination geometry that is covered by a single tile.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomtilebrush-settilemode">SetTileMode</a>
 </td>
 <td align="left" width="63%">
-Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
+Sets the <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE</a> value that describes the tiling mode of the brush.
             
 
 </td>
@@ -191,7 +192,7 @@ A <i>viewbox</i> describes the portion of the source image that is used for the 
  In the illustration that follows, the  brush is created by using  a viewbox that includes only a portion of the original image or visual.
 
 <img alt="An illustration that shows a viewbox example" src="./images/CreateBrush.png"/>
-The next illustration shows the tile modes that are used to repeat the tile image to fill the output area. If the tile mode value is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
+The next illustration shows the tile modes that are used to repeat the tile image to fill the output area. If the tile mode value is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_tile_mode">XPS_TILE_MODE_NONE</a>, the tile image is drawn only once.
 
 <img alt="An illustration that shows different examples of different tile mode behaviors" src="./images/TileMode.png"/>
 

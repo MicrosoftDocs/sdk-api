@@ -1,7 +1,8 @@
 ---
 UID: NC:mssip.pfnIsFileSupported
 title: pfnIsFileSupported (mssip.h)
-description: Queries the subject interface packages (SIPs) listed in the registry to determine which SIP handles the file type.helpviewer_keywords: ["mssip/pfnIsFileSupported","pfnIsFileSupported","pfnIsFileSupported callback","pfnIsFileSupported callback function [Security]","security.pfnisfilesupported"]
+description: Queries the subject interface packages (SIPs) listed in the registry to determine which SIP handles the file type.
+helpviewer_keywords: ["mssip/pfnIsFileSupported","pfnIsFileSupported","pfnIsFileSupported callback","pfnIsFileSupported callback function [Security]","security.pfnisfilesupported"]
 old-location: security\pfnisfilesupported.htm
 tech.root: SecCrypto
 ms.assetid: cf12d057-328a-4975-b7e5-842c4ea2e760
@@ -84,7 +85,7 @@ If the function fails, it returns <b>FALSE</b>. For extended error information, 
 
 If the SIP supports the file type passed by <i>hfile</i>, the function returns <b>TRUE</b>, and sets <i>pgSubject</i> to the GUID that identifies the SIP for handling the file type.
 
-Each SIP implements its own version of the function that determines whether the file type is supported. The specific name of the function may vary depending on the implementation of the SIP, but the signature of the function will match that of the [SIP_ADD_NEWPROVIDER](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider)a> structure.
+Each SIP implements its own version of the function that determines whether the file type is supported. The specific name of the function may vary depending on the implementation of the SIP, but the signature of the function will match that of the [SIP_ADD_NEWPROVIDER](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_add_newprovider) structure.
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITAddressCapabilities.EnumerateCompletionMessages
 title: ITAddressCapabilities::EnumerateCompletionMessages (tapi3if.h)
-description: The EnumerateCompletionMessages method gets completion messages. This method is provided for applications written in C/C++ and Java.helpviewer_keywords: ["EnumerateCompletionMessages","EnumerateCompletionMessages method [TAPI 2.2]","EnumerateCompletionMessages method [TAPI 2.2]","ITAddressCapabilities interface","ITAddressCapabilities interface [TAPI 2.2]","EnumerateCompletionMessages method","ITAddressCapabilities.EnumerateCompletionMessages","ITAddressCapabilities::EnumerateCompletionMessages","_tapi3_itaddresscapabilities_enumeratecompletionmessages","tapi3.itaddresscapabilities_enumeratecompletionmessages","tapi3if/ITAddressCapabilities::EnumerateCompletionMessages"]
+description: The EnumerateCompletionMessages method gets completion messages. This method is provided for applications written in C/C++ and Java.
+helpviewer_keywords: ["EnumerateCompletionMessages","EnumerateCompletionMessages method [TAPI 2.2]","EnumerateCompletionMessages method [TAPI 2.2]","ITAddressCapabilities interface","ITAddressCapabilities interface [TAPI 2.2]","EnumerateCompletionMessages method","ITAddressCapabilities.EnumerateCompletionMessages","ITAddressCapabilities::EnumerateCompletionMessages","_tapi3_itaddresscapabilities_enumeratecompletionmessages","tapi3.itaddresscapabilities_enumeratecompletionmessages","tapi3if/ITAddressCapabilities::EnumerateCompletionMessages"]
 old-location: tapi3\itaddresscapabilities_enumeratecompletionmessages.htm
 tech.root: Tapi
 ms.assetid: b7a3eb72-6c9f-4164-a082-8b0951733dcb

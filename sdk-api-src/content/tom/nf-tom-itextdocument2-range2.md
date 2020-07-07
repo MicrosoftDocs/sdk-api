@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument2.Range2
 title: ITextDocument2::Range2 (tom.h)
-description: Retrieves a new text range for the active story of the document.helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","Range2 method","ITextDocument2.Range2","ITextDocument2::Range2","Range2","Range2 method [Windows Controls]","Range2 method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_range2","tom/ITextDocument2::Range2"]
+description: Retrieves a new text range for the active story of the document.
+helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","Range2 method","ITextDocument2.Range2","ITextDocument2::Range2","Range2","Range2 method [Windows Controls]","Range2 method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_range2","tom/ITextDocument2::Range2"]
 old-location: controls\itextdocument2_range2.htm
 tech.root: Controls
 ms.assetid: e0cd3788-de0e-4b57-8f24-f0897e2b0bed

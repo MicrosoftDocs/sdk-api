@@ -1,7 +1,8 @@
 ---
 UID: NE:wbemcli.tag_WBEM_TEXT_FLAG_TYPE
 title: WBEM_TEXT_FLAG_TYPE (wbemcli.h)
-description: Contains flags to control the execution of the IWbemClassObject::GetObjectText method.helpviewer_keywords: ["WBEM_FLAG_NO_FLAVORS","WBEM_TEXT_FLAG_TYPE","WBEM_TEXT_FLAG_TYPE enumeration [Windows Management Instrumentation]","wbemcli/WBEM_FLAG_NO_FLAVORS","wbemcli/WBEM_TEXT_FLAG_TYPE","wmi.wbem_text_flag_type"]
+description: Contains flags to control the execution of the IWbemClassObject::GetObjectText method.
+helpviewer_keywords: ["WBEM_FLAG_NO_FLAVORS","WBEM_TEXT_FLAG_TYPE","WBEM_TEXT_FLAG_TYPE enumeration [Windows Management Instrumentation]","wbemcli/WBEM_FLAG_NO_FLAVORS","wbemcli/WBEM_TEXT_FLAG_TYPE","wmi.wbem_text_flag_type"]
 old-location: wmi\wbem_text_flag_type.htm
 tech.root: WmiSdk
 ms.assetid: 6E4F87D1-9952-4D85-9A32-3D7068831087

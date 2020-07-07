@@ -1,7 +1,8 @@
 ---
 UID: NF:eappapis.EapHostPeerInitialize
 title: EapHostPeerInitialize function (eappapis.h)
-description: Initializes an EAPHost authentication session.helpviewer_keywords: ["EapHostPeerInitialize","EapHostPeerInitialize function [EAPHost]","eaphost.eaphostpeerinitialize","eappapis/EapHostPeerInitialize"]
+description: Initializes an EAPHost authentication session.
+helpviewer_keywords: ["EapHostPeerInitialize","EapHostPeerInitialize function [EAPHost]","eaphost.eaphostpeerinitialize","eappapis/EapHostPeerInitialize"]
 old-location: eaphost\eaphostpeerinitialize.htm
 tech.root: eaphost
 ms.assetid: 4af7103e-85c8-472e-96fe-407f07a1f447
@@ -85,7 +86,7 @@ If different COM environment (such as a single-threaded apartment) is required, 
 
 
 
-[EAPHost Supplicant Run-time Functions](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-run-time-functions)a>
+[EAPHost Supplicant Run-time Functions](/windows/win32/eaphost/eap-host-supplicant-run-time-functions)
 
 
 

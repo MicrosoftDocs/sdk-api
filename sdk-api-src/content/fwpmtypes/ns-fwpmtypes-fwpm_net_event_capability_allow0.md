@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_CAPABILITY_ALLOW0_
 title: FWPM_NET_EVENT_CAPABILITY_ALLOW0 (fwpmtypes.h)
-description: Contains information about network traffic allowed in relation to an app container network capability.helpviewer_keywords: ["FWPM_NET_EVENT_CAPABILITY_ALLOW0","FWPM_NET_EVENT_CAPABILITY_ALLOW0 structure [Filtering]","fwp.fwpm_net_event_capability_allow0","fwpmtypes/FWPM_NET_EVENT_CAPABILITY_ALLOW0"]
+description: Contains information about network traffic allowed in relation to an app container network capability.
+helpviewer_keywords: ["FWPM_NET_EVENT_CAPABILITY_ALLOW0","FWPM_NET_EVENT_CAPABILITY_ALLOW0 structure [Filtering]","fwp.fwpm_net_event_capability_allow0","fwpmtypes/FWPM_NET_EVENT_CAPABILITY_ALLOW0"]
 old-location: fwp\fwpm_net_event_capability_allow0.htm
 tech.root: fwp
 ms.assetid: e53e92e5-f7fa-4457-8681-754b50b24273
@@ -59,7 +60,7 @@ The <b>FWPM_NET_EVENT_CAPABILITY_ALLOW0</b> structure contains information about
 
 ### -field networkCapabilityId
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a></b>
+Type: <b><a href="/windows/win32/api/fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a></b>
 
 The specific app container network capability allowing this traffic.
 
@@ -83,11 +84,11 @@ True if the packet originated from (or was heading to) the loopback adapter; oth
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a>
+<a href="/windows/win32/api/fwpmtypes/ne-fwpmtypes-fwpm_appc_network_capability_type">FWPM_APPC_NETWORK_CAPABILITY_TYPE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_capability_drop0">FWPM_NET_EVENT_CAPABILITY_DROP0</a>
+<a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_capability_drop0">FWPM_NET_EVENT_CAPABILITY_DROP0</a>
  
 
  

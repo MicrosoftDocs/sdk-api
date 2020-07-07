@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.GetCurrentProcessExplicitAppUserModelID
 title: GetCurrentProcessExplicitAppUserModelID function (shobjidl_core.h)
-description: Retrieves the application-defined, explicit Application User Model ID (AppUserModelID) for the current process.helpviewer_keywords: ["GetCurrentProcessExplicitAppUserModelID","GetCurrentProcessExplicitAppUserModelID function [Windows Shell]","_shell_GetCurrentProcessExplicitAppUserModelID","_shell_GetCurrentProcessExplicitAppUserModelID_cpp","shell.GetCurrentProcessExplicitAppUserModelID","shobjidl_core/GetCurrentProcessExplicitAppUserModelID"]
+description: Retrieves the application-defined, explicit Application User Model ID (AppUserModelID) for the current process.
+helpviewer_keywords: ["GetCurrentProcessExplicitAppUserModelID","GetCurrentProcessExplicitAppUserModelID function [Windows Shell]","_shell_GetCurrentProcessExplicitAppUserModelID","_shell_GetCurrentProcessExplicitAppUserModelID_cpp","shell.GetCurrentProcessExplicitAppUserModelID","shobjidl_core/GetCurrentProcessExplicitAppUserModelID"]
 old-location: shell\GetCurrentProcessExplicitAppUserModelID.htm
 tech.root: shell
 ms.assetid: d3af052b-1f58-4c56-914b-a8283aceef5b

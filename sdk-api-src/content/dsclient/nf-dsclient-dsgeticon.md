@@ -1,7 +1,8 @@
 ---
 UID: NF:dsclient.DsGetIcon
 title: DsGetIcon function (dsclient.h)
-description: Obtains the icon for a given object class.helpviewer_keywords: ["DSGIF_DEFAULTISCONTAINER","DSGIF_GETDEFAULTICON","DSGIF_ISDISABLED","DSGIF_ISNORMAL","DSGIF_ISOPEN","DsGetIcon","DsGetIcon function [Active Directory]","ad.dsgeticon","dsclient/DsGetIcon"]
+description: Obtains the icon for a given object class.
+helpviewer_keywords: ["DSGIF_DEFAULTISCONTAINER","DSGIF_GETDEFAULTICON","DSGIF_ISDISABLED","DSGIF_ISNORMAL","DSGIF_ISOPEN","DsGetIcon","DsGetIcon function [Active Directory]","ad.dsgeticon","dsclient/DsGetIcon"]
 old-location: ad\dsgeticon.htm
 tech.root: ad
 ms.assetid: eee18c78-aefa-4f09-9361-91893502efec

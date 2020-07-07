@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantToUInt16WithDefault
 title: PropVariantToUInt16WithDefault function (propvarutil.h)
-description: Extracts an unsigned short value from a PROPVARIANT structure. If no value exists, then the specified default value is returned.helpviewer_keywords: ["PropVariantToUInt16WithDefault","PropVariantToUInt16WithDefault function [Windows Properties]","properties.PropVariantToUInt16WithDefault","propvarutil/PropVariantToUInt16WithDefault","shell.PropVariantToUInt16WithDefault","shell_PropVariantToUInt16WithDefault"]
+description: Extracts an unsigned short value from a PROPVARIANT structure. If no value exists, then the specified default value is returned.
+helpviewer_keywords: ["PropVariantToUInt16WithDefault","PropVariantToUInt16WithDefault function [Windows Properties]","properties.PropVariantToUInt16WithDefault","propvarutil/PropVariantToUInt16WithDefault","shell.PropVariantToUInt16WithDefault","shell_PropVariantToUInt16WithDefault"]
 old-location: properties\PropVariantToUInt16WithDefault.htm
 tech.root: properties
 ms.assetid: 4346cef2-5e43-47bf-9bfb-0ede923872fd

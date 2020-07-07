@@ -1,7 +1,8 @@
 ---
 UID: NF:midles.NdrMesProcEncodeDecode2
 title: NdrMesProcEncodeDecode2 function (midles.h)
-description: NdrMesProcEncodeDecode2 may be altered or unavailable.helpviewer_keywords: ["NdrMesProcEncodeDecode2","NdrMesProcEncodeDecode2 function [RPC]","midles/NdrMesProcEncodeDecode2","rpc.ndrmesprocencodedecode2"]
+description: NdrMesProcEncodeDecode2 may be altered or unavailable.
+helpviewer_keywords: ["NdrMesProcEncodeDecode2","NdrMesProcEncodeDecode2 function [RPC]","midles/NdrMesProcEncodeDecode2","rpc.ndrmesprocencodedecode2"]
 old-location: rpc\ndrmesprocencodedecode2.htm
 tech.root: Rpc
 ms.assetid: A2FA0E3A-C038-42AB-9341-CC2D781743BE

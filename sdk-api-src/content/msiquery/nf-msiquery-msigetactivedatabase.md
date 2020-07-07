@@ -1,7 +1,8 @@
 ---
 UID: NF:msiquery.MsiGetActiveDatabase
 title: MsiGetActiveDatabase function (msiquery.h)
-description: The MsiGetActiveDatabase function returns the active database for the installation. This function returns a read-only handle that should be closed using MsiCloseHandle.helpviewer_keywords: ["MsiGetActiveDatabase","MsiGetActiveDatabase function","_msi_msigetactivedatabase","msiquery/MsiGetActiveDatabase","setup.msigetactivedatabase"]
+description: The MsiGetActiveDatabase function returns the active database for the installation. This function returns a read-only handle that should be closed using MsiCloseHandle.
+helpviewer_keywords: ["MsiGetActiveDatabase","MsiGetActiveDatabase function","_msi_msigetactivedatabase","msiquery/MsiGetActiveDatabase","setup.msigetactivedatabase"]
 old-location: setup\msigetactivedatabase.htm
 tech.root: Msi
 ms.assetid: 148d467f-fecd-42a9-b838-22799a159f97

@@ -1,7 +1,8 @@
 ---
 UID: NF:scclient.CSecureChannelClient.MACUpdate
 title: CSecureChannelClient::MACUpdate (scclient.h)
-description: The MACUpdate method adds a value to a message authentication code (MAC).helpviewer_keywords: ["CSecureChannelClient class [windows Media Device Manager]","MACUpdate method","CSecureChannelClient.MACUpdate","CSecureChannelClient::MACUpdate","CSecureChannelClientMACUpdate","MACUpdate","MACUpdate method [windows Media Device Manager]","MACUpdate method [windows Media Device Manager]","CSecureChannelClient class","scclient/CSecureChannelClient::MACUpdate","wmdm.csecurechannelclient_macupdate"]
+description: The MACUpdate method adds a value to a message authentication code (MAC).
+helpviewer_keywords: ["CSecureChannelClient class [windows Media Device Manager]","MACUpdate method","CSecureChannelClient.MACUpdate","CSecureChannelClient::MACUpdate","CSecureChannelClientMACUpdate","MACUpdate","MACUpdate method [windows Media Device Manager]","MACUpdate method [windows Media Device Manager]","CSecureChannelClient class","scclient/CSecureChannelClient::MACUpdate","wmdm.csecurechannelclient_macupdate"]
 old-location: wmdm\csecurechannelclient_macupdate.htm
 tech.root: WMDM
 ms.assetid: b868d422-535d-44f5-9713-bfa049da8a4e

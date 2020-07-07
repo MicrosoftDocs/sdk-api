@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadRequest.HasNullSourceOrigin
 title: IMFHttpDownloadRequest::HasNullSourceOrigin (mfidl.h)
-description: Invoked by Microsoft Media Foundation to detect the case when a HTTP or HTTPS request has been redirected to a different server of different &#0034;origin&#0034;.helpviewer_keywords: ["HasNullSourceOrigin","HasNullSourceOrigin method [Media Foundation]","HasNullSourceOrigin method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","HasNullSourceOrigin method","IMFHttpDownloadRequest.HasNullSourceOrigin","IMFHttpDownloadRequest::HasNullSourceOrigin","mf.imfhttpdownloadrequest_hasnullsourceorigin","mfidl/IMFHttpDownloadRequest::HasNullSourceOrigin"]
+description: Invoked by Microsoft Media Foundation to detect the case when a HTTP or HTTPS request has been redirected to a different server of different &#0034;origin&#0034;.
+helpviewer_keywords: ["HasNullSourceOrigin","HasNullSourceOrigin method [Media Foundation]","HasNullSourceOrigin method [Media Foundation]","IMFHttpDownloadRequest interface","IMFHttpDownloadRequest interface [Media Foundation]","HasNullSourceOrigin method","IMFHttpDownloadRequest.HasNullSourceOrigin","IMFHttpDownloadRequest::HasNullSourceOrigin","mf.imfhttpdownloadrequest_hasnullsourceorigin","mfidl/IMFHttpDownloadRequest::HasNullSourceOrigin"]
 old-location: mf\imfhttpdownloadrequest_hasnullsourceorigin.htm
 tech.root: medfound
 ms.assetid: D83F079F-605A-4F62-B037-3C5D0487D778

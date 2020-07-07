@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComUserEvent.OnUserEvent
 title: IComUserEvent::OnUserEvent (comsvcs.h)
-description: Provided for user components to generate user-defined events.helpviewer_keywords: ["IComUserEvent interface [COM+]","OnUserEvent method","IComUserEvent.OnUserEvent","IComUserEvent::OnUserEvent","OnUserEvent","OnUserEvent method [COM+]","OnUserEvent method [COM+]","IComUserEvent interface","_dtc_IComUserEvent_OnUserEvent","comsvcs/IComUserEvent::OnUserEvent","cos.icomuserevent_onuserevent"]
+description: Provided for user components to generate user-defined events.
+helpviewer_keywords: ["IComUserEvent interface [COM+]","OnUserEvent method","IComUserEvent.OnUserEvent","IComUserEvent::OnUserEvent","OnUserEvent","OnUserEvent method [COM+]","OnUserEvent method [COM+]","IComUserEvent interface","_dtc_IComUserEvent_OnUserEvent","comsvcs/IComUserEvent::OnUserEvent","cos.icomuserevent_onuserevent"]
 old-location: cos\icomuserevent_onuserevent.htm
 tech.root: cossdk
 ms.assetid: 3c14bf53-7466-4cb0-b90f-681796e40fd3
@@ -59,7 +60,7 @@ Provided for user components to generate user-defined events.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param pvarEvent [in]

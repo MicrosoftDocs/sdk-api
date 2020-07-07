@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwProducts.Item
 title: INetFwProducts::Item (netfw.h)
-description: The Item method returns the product with the specified index if it is in the collection.helpviewer_keywords: ["INetFwProducts interface [ICS/ICF]","Item method","INetFwProducts.Item","INetFwProducts::Item","Item","Item method [ICS/ICF]","Item method [ICS/ICF]","INetFwProducts interface","ics.inetfwproducts_item","netfw/INetFwProducts::Item"]
+description: The Item method returns the product with the specified index if it is in the collection.
+helpviewer_keywords: ["INetFwProducts interface [ICS/ICF]","Item method","INetFwProducts.Item","INetFwProducts::Item","Item","Item method [ICS/ICF]","Item method [ICS/ICF]","INetFwProducts interface","ics.inetfwproducts_item","netfw/INetFwProducts::Item"]
 old-location: ics\inetfwproducts_item.htm
 tech.root: ics
 ms.assetid: 091d53bc-3c5e-4960-9bc9-34343fd352ce

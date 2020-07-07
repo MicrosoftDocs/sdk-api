@@ -1,7 +1,8 @@
 ---
 UID: NN:mfplay.IMFPMediaPlayerCallback
 title: IMFPMediaPlayerCallback (mfplay.h)
-description: Callback interface for the IMFPMediaPlayer interface.helpviewer_keywords: ["IMFPMediaPlayerCallback","IMFPMediaPlayerCallback interface [Media Foundation]","IMFPMediaPlayerCallback interface [Media Foundation]","described","mf.imfpmediaplayercallback","mfplay/IMFPMediaPlayerCallback"]
+description: Callback interface for the IMFPMediaPlayer interface.
+helpviewer_keywords: ["IMFPMediaPlayerCallback","IMFPMediaPlayerCallback interface [Media Foundation]","IMFPMediaPlayerCallback interface [Media Foundation]","described","mf.imfpmediaplayercallback","mfplay/IMFPMediaPlayerCallback"]
 old-location: mf\imfpmediaplayercallback.htm
 tech.root: medfound
 ms.assetid: 7d9d01bf-861a-4c35-93b1-dbf85cbf0a32

@@ -1,7 +1,8 @@
 ---
 UID: NS:processthreadsapi._PROCESS_MEMORY_EXHAUSTION_INFO
 title: PROCESS_MEMORY_EXHAUSTION_INFO (processthreadsapi.h)
-description: Allows applications to configure a process to terminate if an allocation fails to commit memory. This structure is used by the PROCESS_INFORMATION_CLASS class.helpviewer_keywords: ["*PPROCESS_MEMORY_EXHAUSTION_INFO","PPROCESS_MEMORY_EXHAUSTION_INFO","PPROCESS_MEMORY_EXHAUSTION_INFO structure pointer","PROCESS_MEMORY_EXHAUSTION_INFO","PROCESS_MEMORY_EXHAUSTION_INFO structure","base.process_memory_exhaustion_info","processthreadsapi/PPROCESS_MEMORY_EXHAUSTION_INFO","processthreadsapi/PROCESS_MEMORY_EXHAUSTION_INFO"]
+description: Allows applications to configure a process to terminate if an allocation fails to commit memory. This structure is used by the PROCESS_INFORMATION_CLASS class.
+helpviewer_keywords: ["*PPROCESS_MEMORY_EXHAUSTION_INFO","PPROCESS_MEMORY_EXHAUSTION_INFO","PPROCESS_MEMORY_EXHAUSTION_INFO structure pointer","PROCESS_MEMORY_EXHAUSTION_INFO","PROCESS_MEMORY_EXHAUSTION_INFO structure","base.process_memory_exhaustion_info","processthreadsapi/PPROCESS_MEMORY_EXHAUSTION_INFO","processthreadsapi/PROCESS_MEMORY_EXHAUSTION_INFO"]
 old-location: base\process_memory_exhaustion_info.htm
 tech.root: ProcThread
 ms.assetid: 5BD60CA2-1F97-4B62-8DD1-D21724186323
@@ -107,7 +108,7 @@ Used to turn the feature on or off.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_memory_exhaustion_type">PROCESS_MEMORY_EXHAUSTION_TYPE</a>
+<a href="/windows/win32/api/processthreadsapi/ne-processthreadsapi-process_memory_exhaustion_type">PROCESS_MEMORY_EXHAUSTION_TYPE</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.AssocQueryKeyW
 title: AssocQueryKeyW function (shlwapi.h)
-description: Searches for and retrieves a key related to a file or protocol association from the registry.helpviewer_keywords: ["AssocQueryKey","AssocQueryKey function [Windows Shell]","AssocQueryKeyA","AssocQueryKeyW","CLSID","Executable name","File name extension","ProgID","_win32_AssocQueryKey","shell.AssocQueryKey","shlwapi/AssocQueryKey","shlwapi/AssocQueryKeyA","shlwapi/AssocQueryKeyW"]
+description: Searches for and retrieves a key related to a file or protocol association from the registry.
+helpviewer_keywords: ["AssocQueryKey","AssocQueryKey function [Windows Shell]","AssocQueryKeyA","AssocQueryKeyW","CLSID","Executable name","File name extension","ProgID","_win32_AssocQueryKey","shell.AssocQueryKey","shlwapi/AssocQueryKey","shlwapi/AssocQueryKeyA","shlwapi/AssocQueryKeyW"]
 old-location: shell\AssocQueryKey.htm
 tech.root: shell
 ms.assetid: 9eaeb885-0428-48c3-82a7-5dc21d5015ce
@@ -102,7 +103,7 @@ An application's ProgID, such as <b>Word.Document.8</b>.
 
 #### Executable name
 
-The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+The name of an application's .exe file. The <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 
 ### -param pszExtra [in]
@@ -126,7 +127,7 @@ A CLSID GUID in the standard "{GUID}" format.
 
 ##### - pszAssoc.Executable name
 
-The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+The name of an application's .exe file. The <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 
 ##### - pszAssoc.File name extension
@@ -157,4 +158,8 @@ Returns S_OK if successful, or a COM error value otherwise.
 This function is a wrapper for the <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> interface. It is intended to simplify the process of using the interface. For further discussion of how the file and protocol association functions work, see <b>IQueryAssociations</b>.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines AssocQueryKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

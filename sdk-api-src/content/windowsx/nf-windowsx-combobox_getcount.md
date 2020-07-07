@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ComboBox_GetCount
 title: ComboBox_GetCount macro (windowsx.h)
-description: Gets the number of items in the list box of a combo box. You can use this macro or send the CB_GETCOUNT message explicitly.helpviewer_keywords: ["ComboBox_GetCount","ComboBox_GetCount macro [Windows Controls]","_win32_ComboBox_GetCount","_win32_ComboBox_GetCount_cpp","controls.ComboBox_GetCount","controls._win32_ComboBox_GetCount","windowsx/ComboBox_GetCount"]
+description: Gets the number of items in the list box of a combo box. You can use this macro or send the CB_GETCOUNT message explicitly.
+helpviewer_keywords: ["ComboBox_GetCount","ComboBox_GetCount macro [Windows Controls]","_win32_ComboBox_GetCount","_win32_ComboBox_GetCount_cpp","controls.ComboBox_GetCount","controls._win32_ComboBox_GetCount","windowsx/ComboBox_GetCount"]
 old-location: controls\ComboBox_GetCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_getcount.htm

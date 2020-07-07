@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderTimecode.GetTimecodeRangeBounds
 title: IWMReaderTimecode::GetTimecodeRangeBounds (wmsdkidl.h)
-description: The GetTimecodeRangeBounds method retrieves the starting and ending time codes for a specified SMPTE time code range.helpviewer_keywords: ["GetTimecodeRangeBounds","GetTimecodeRangeBounds method [windows Media Format]","GetTimecodeRangeBounds method [windows Media Format]","IWMReaderTimecode interface","IWMReaderTimecode interface [windows Media Format]","GetTimecodeRangeBounds method","IWMReaderTimecode.GetTimecodeRangeBounds","IWMReaderTimecode::GetTimecodeRangeBounds","IWMReaderTimecodeGetTimecodeRangeBounds","wmformat.iwmreadertimecode_gettimecoderangebounds","wmsdkidl/IWMReaderTimecode::GetTimecodeRangeBounds"]
+description: The GetTimecodeRangeBounds method retrieves the starting and ending time codes for a specified SMPTE time code range.
+helpviewer_keywords: ["GetTimecodeRangeBounds","GetTimecodeRangeBounds method [windows Media Format]","GetTimecodeRangeBounds method [windows Media Format]","IWMReaderTimecode interface","IWMReaderTimecode interface [windows Media Format]","GetTimecodeRangeBounds method","IWMReaderTimecode.GetTimecodeRangeBounds","IWMReaderTimecode::GetTimecodeRangeBounds","IWMReaderTimecodeGetTimecodeRangeBounds","wmformat.iwmreadertimecode_gettimecoderangebounds","wmsdkidl/IWMReaderTimecode::GetTimecodeRangeBounds"]
 old-location: wmformat\iwmreadertimecode_gettimecoderangebounds.htm
 tech.root: wmformat
 ms.assetid: 5bc1f21c-0aca-4e45-ac82-898cb8b9f4cc

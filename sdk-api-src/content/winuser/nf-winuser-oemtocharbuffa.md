@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.OemToCharBuffA
 title: OemToCharBuffA function (winuser.h)
-description: Translates a specified number of characters in a string from the OEM-defined character set into either an ANSI or a wide-character string.helpviewer_keywords: ["OemToCharBuff","OemToCharBuff function [Menus and Other Resources]","OemToCharBuffA","OemToCharBuffW","_win32_OemToCharBuff","_win32_oemtocharbuff_cpp","menurc.oemtocharbuff","winui._win32_oemtocharbuff","winuser/OemToCharBuff","winuser/OemToCharBuffA","winuser/OemToCharBuffW"]
+description: Translates a specified number of characters in a string from the OEM-defined character set into either an ANSI or a wide-character string.
+helpviewer_keywords: ["OemToCharBuff","OemToCharBuff function [Menus and Other Resources]","OemToCharBuffA","OemToCharBuffW","_win32_OemToCharBuff","_win32_oemtocharbuff_cpp","menurc.oemtocharbuff","winui._win32_oemtocharbuff","winuser/OemToCharBuff","winuser/OemToCharBuffA","winuser/OemToCharBuffW"]
 old-location: menurc\oemtocharbuff.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\oemtocharbuff.htm
@@ -108,6 +109,10 @@ Unlike the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-wi
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines OemToCharBuff as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IPin.EnumMediaTypes
 title: IPin::EnumMediaTypes (strmif.h)
-description: The EnumMediaTypes method enumerates the pin's preferred media types.helpviewer_keywords: ["EnumMediaTypes","EnumMediaTypes method [DirectShow]","EnumMediaTypes method [DirectShow]","IPin interface","IPin interface [DirectShow]","EnumMediaTypes method","IPin.EnumMediaTypes","IPin::EnumMediaTypes","IPinEnumMediaTypes","dshow.ipin_enummediatypes","strmif/IPin::EnumMediaTypes"]
+description: The EnumMediaTypes method enumerates the pin's preferred media types.
+helpviewer_keywords: ["EnumMediaTypes","EnumMediaTypes method [DirectShow]","EnumMediaTypes method [DirectShow]","IPin interface","IPin interface [DirectShow]","EnumMediaTypes method","IPin.EnumMediaTypes","IPin::EnumMediaTypes","IPinEnumMediaTypes","dshow.ipin_enummediatypes","strmif/IPin::EnumMediaTypes"]
 old-location: dshow\ipin_enummediatypes.htm
 tech.root: DirectShow
 ms.assetid: 288be4db-5236-40e5-bd92-d95b1bfb86fa

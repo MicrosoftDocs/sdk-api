@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMForce
 title: IComCRMEvents::OnCRMForce (comsvcs.h)
-description: Generated when a CRM clerk receives a request to force log records to disk, either from the CRM worker or from the CRM compensator.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMForce method","IComCRMEvents.OnCRMForce","IComCRMEvents::OnCRMForce","OnCRMForce","OnCRMForce method [COM+]","OnCRMForce method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMForce","comsvcs/IComCRMEvents::OnCRMForce","cos.icomcrmevents_oncrmforce"]
+description: Generated when a CRM clerk receives a request to force log records to disk, either from the CRM worker or from the CRM compensator.
+helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMForce method","IComCRMEvents.OnCRMForce","IComCRMEvents::OnCRMForce","OnCRMForce","OnCRMForce method [COM+]","OnCRMForce method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMForce","comsvcs/IComCRMEvents::OnCRMForce","cos.icomcrmevents_oncrmforce"]
 old-location: cos\icomcrmevents_oncrmforce.htm
 tech.root: cossdk
 ms.assetid: 92f2088b-4d74-4d33-9953-0f5229f6303c
@@ -59,7 +60,7 @@ Generated when a CRM clerk receives a request to force log records to disk, eith
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidClerkCLSID [in]

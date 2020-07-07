@@ -1,7 +1,8 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0020
 title: MPEG2_FILTER2 (mpeg2structs.h)
-description: The MPEG2_FILTER2 structure specifies criteria for matching MPEG-2 section headers.helpviewer_keywords: ["*PMPEG2_FILTER2","MPEG2_FILTER2","MPEG2_FILTER2 structure [Microsoft TV Technologies]","PMPEG2_FILTER2","PMPEG2_FILTER2 structure pointer [Microsoft TV Technologies]","mpeg2structs/MPEG2_FILTER","mpeg2structs/PMPEG2_FILTER2","mstv.mpeg2_filter2"]
+description: The MPEG2_FILTER2 structure specifies criteria for matching MPEG-2 section headers.
+helpviewer_keywords: ["*PMPEG2_FILTER2","MPEG2_FILTER2","MPEG2_FILTER2 structure [Microsoft TV Technologies]","PMPEG2_FILTER2","PMPEG2_FILTER2 structure pointer [Microsoft TV Technologies]","mpeg2structs/MPEG2_FILTER","mpeg2structs/PMPEG2_FILTER2","mstv.mpeg2_filter2"]
 old-location: mstv\mpeg2_filter2.htm
 tech.root: mstv
 ms.assetid: 3828f80f-23dc-4028-95d6-d85c007a44ec
@@ -168,14 +169,10 @@ If <b>TRUE</b>, the <b>Dvb_Eit</b> member contains additional filtering criteria
 
 ### -field DvbEit
 
- 
-
-
-
-
-#### - Dvb_Eit
-
 An <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/mpeg2structs/ns-mpeg2structs-dvb_eit_filter_options">DVB_EIT_FILTER_OPTIONS</a> structure that contains additional filtering criteria. 
+
+
+
           
 
 <div class="alert"><b>Note</b>  Requires Windows 7 or later.</div>

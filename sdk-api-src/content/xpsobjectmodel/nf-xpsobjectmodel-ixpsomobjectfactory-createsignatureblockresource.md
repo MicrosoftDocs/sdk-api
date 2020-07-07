@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateSignatureBlockResource
 title: IXpsOMObjectFactory::CreateSignatureBlockResource (xpsobjectmodel.h)
-description: Creates an IXpsOMSignatureBlockResource that can contain one or more signature requests.helpviewer_keywords: ["CreateSignatureBlockResource","CreateSignatureBlockResource method [XPS Documents and Packaging]","CreateSignatureBlockResource method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateSignatureBlockResource method","IXpsOMObjectFactory.CreateSignatureBlockResource","IXpsOMObjectFactory::CreateSignatureBlockResource","xps.ixpsomobjectfactory_createsignatureblockresource","xpsobjectmodel/IXpsOMObjectFactory::CreateSignatureBlockResource"]
+description: Creates an IXpsOMSignatureBlockResource that can contain one or more signature requests.
+helpviewer_keywords: ["CreateSignatureBlockResource","CreateSignatureBlockResource method [XPS Documents and Packaging]","CreateSignatureBlockResource method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateSignatureBlockResource method","IXpsOMObjectFactory.CreateSignatureBlockResource","IXpsOMObjectFactory::CreateSignatureBlockResource","xps.ixpsomobjectfactory_createsignatureblockresource","xpsobjectmodel/IXpsOMObjectFactory::CreateSignatureBlockResource"]
 old-location: xps\ixpsomobjectfactory_createsignatureblockresource.htm
 tech.root: printdocs
 ms.assetid: 0948d495-f2da-4361-8365-d4316da72524

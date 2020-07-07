@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnDeviceServicesEvents.OnWriteDataComplete
 title: IMbnDeviceServicesEvents::OnWriteDataComplete (mbnapi.h)
-description: Notification method indicating that a device service session Write request has completed.helpviewer_keywords: ["IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","OnWriteDataComplete method","IMbnDeviceServicesEvents.OnWriteDataComplete","IMbnDeviceServicesEvents::OnWriteDataComplete","OnWriteDataComplete","OnWriteDataComplete method [Microsoft Broadband Networks]","OnWriteDataComplete method [Microsoft Broadband Networks]","IMbnDeviceServicesEvents interface","mbn.imbndeviceservicesevents_onwritedatacomplete","mbnapi/IMbnDeviceServicesEvents::OnWriteDataComplete"]
+description: Notification method indicating that a device service session Write request has completed.
+helpviewer_keywords: ["IMbnDeviceServicesEvents interface [Microsoft Broadband Networks]","OnWriteDataComplete method","IMbnDeviceServicesEvents.OnWriteDataComplete","IMbnDeviceServicesEvents::OnWriteDataComplete","OnWriteDataComplete","OnWriteDataComplete method [Microsoft Broadband Networks]","OnWriteDataComplete method [Microsoft Broadband Networks]","IMbnDeviceServicesEvents interface","mbn.imbndeviceservicesevents_onwritedatacomplete","mbnapi/IMbnDeviceServicesEvents::OnWriteDataComplete"]
 old-location: mbn\imbndeviceservicesevents_onwritedatacomplete.htm
 tech.root: mbn
 ms.assetid: 2C885E15-C689-4ADF-BFB0-24D03932FAC7

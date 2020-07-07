@@ -1,7 +1,8 @@
 ---
 UID: NS:msime._IMEDLG
 title: IMEDLG (msime.h)
-description: Used when invoking the Microsoft IME's Dictionary Tool or Word Register Dialog Window from the app.helpviewer_keywords: ["IMEDLG","IMEDLG structure [Internationalization for Windows Applications]","PIMEDLG","PIMEDLG structure pointer [Internationalization for Windows Applications]","intl.imedlg","msime/IMEDLG","msime/PIMEDLG"]
+description: Used when invoking the Microsoft IME's Dictionary Tool or Word Register Dialog Window from the app.
+helpviewer_keywords: ["IMEDLG","IMEDLG structure [Internationalization for Windows Applications]","PIMEDLG","PIMEDLG structure pointer [Internationalization for Windows Applications]","intl.imedlg","msime/IMEDLG","msime/PIMEDLG"]
 old-location: intl\imedlg.htm
 tech.root: Intl
 ms.assetid: 14F39582-F51D-456F-BC19-AFE6E50D4155

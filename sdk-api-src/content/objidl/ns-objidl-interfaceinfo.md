@@ -1,7 +1,8 @@
 ---
 UID: NS:objidl.tagINTERFACEINFO
 title: INTERFACEINFO (objidl.h)
-description: Contains information about incoming calls.helpviewer_keywords: ["*LPINTERFACEINFO","INTERFACEINFO","INTERFACEINFO structure [COM]","LPINTERFACEINFO","LPINTERFACEINFO structure pointer [COM]","_com_INTERFACEINFO","com.interfaceinfo","objidl/INTERFACEINFO","objidl/LPINTERFACEINFO"]
+description: Contains information about incoming calls.
+helpviewer_keywords: ["*LPINTERFACEINFO","INTERFACEINFO","INTERFACEINFO structure [COM]","LPINTERFACEINFO","LPINTERFACEINFO structure pointer [COM]","_com_INTERFACEINFO","com.interfaceinfo","objidl/INTERFACEINFO","objidl/LPINTERFACEINFO"]
 old-location: com\interfaceinfo.htm
 tech.root: com
 ms.assetid: 5c2c07bf-1c15-4f21-baef-103837ea24d0

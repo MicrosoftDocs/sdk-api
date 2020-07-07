@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_compare_extW
 title: ldap_compare_extW function (winldap.h)
-description: Use the ldap_compare_ext function to determine if an attribute, for a given entry, holds a known value.helpviewer_keywords: ["_ldap_ldap_compare_ext","ldap.ldap__compare__ext","ldap.ldap_compare_ext","ldap_compare_ext","ldap_compare_ext function [LDAP]","ldap_compare_extA","ldap_compare_extW","winldap/ldap_compare_ext","winldap/ldap_compare_extA","winldap/ldap_compare_extW"]
+description: Use the ldap_compare_ext function to determine if an attribute, for a given entry, holds a known value.
+helpviewer_keywords: ["_ldap_ldap_compare_ext","ldap.ldap__compare__ext","ldap.ldap_compare_ext","ldap_compare_ext","ldap_compare_ext function [LDAP]","ldap_compare_extA","ldap_compare_extW","winldap/ldap_compare_ext","winldap/ldap_compare_extA","winldap/ldap_compare_extW"]
 old-location: ldap\ldap_compare_ext.htm
 tech.root: ldap
 ms.assetid: 07e96a95-439b-4bb1-a9ca-d76d181e8bea
@@ -82,7 +83,7 @@ A pointer to a null-terminated string that contains the string attribute value t
 ### -param Data [in]
 
 The 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> attribute value to be compared to the attribute value.
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> attribute value to be compared to the attribute value.
 
 
 ### -param ServerControls [in]
@@ -130,6 +131,10 @@ Multithreading: Calls to <b>ldap_compare_ext</b> are thread-safe.
 
 
 
+
+> [!NOTE]
+> The winldap.h header defines ldap_compare_ext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -151,7 +156,7 @@ Multithreading: Calls to <b>ldap_compare_ext</b> are thread-safe.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

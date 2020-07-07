@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetRegistrationStats
 title: IWMDeviceRegistration::GetRegistrationStats (wmsdkidl.h)
-description: The GetRegistrationStats method retrieves the number of devices in the device registration database that have a specified type.helpviewer_keywords: ["GetRegistrationStats","GetRegistrationStats method [windows Media Format]","GetRegistrationStats method [windows Media Format]","IWMDeviceRegistration interface","IWMDeviceRegistration interface [windows Media Format]","GetRegistrationStats method","IWMDeviceRegistration.GetRegistrationStats","IWMDeviceRegistration::GetRegistrationStats","IWMDeviceRegistrationGetRegistrationStats","wmformat.iwmdeviceregistration_getregistrationstats","wmsdkidl/IWMDeviceRegistration::GetRegistrationStats"]
+description: The GetRegistrationStats method retrieves the number of devices in the device registration database that have a specified type.
+helpviewer_keywords: ["GetRegistrationStats","GetRegistrationStats method [windows Media Format]","GetRegistrationStats method [windows Media Format]","IWMDeviceRegistration interface","IWMDeviceRegistration interface [windows Media Format]","GetRegistrationStats method","IWMDeviceRegistration.GetRegistrationStats","IWMDeviceRegistration::GetRegistrationStats","IWMDeviceRegistrationGetRegistrationStats","wmformat.iwmdeviceregistration_getregistrationstats","wmsdkidl/IWMDeviceRegistration::GetRegistrationStats"]
 old-location: wmformat\iwmdeviceregistration_getregistrationstats.htm
 tech.root: wmformat
 ms.assetid: 56c5b2c7-46c2-42e4-a7d4-f1b3e56ffbcb

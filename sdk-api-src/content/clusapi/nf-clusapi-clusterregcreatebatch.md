@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegCreateBatch
 title: ClusterRegCreateBatch function (clusapi.h)
-description: Creates a batch that will execute commands on a cluster registry key.helpviewer_keywords: ["ClusterRegCreateBatch","ClusterRegCreateBatch function [Failover Cluster]","PCLUSTER_REG_CREATE_BATCH","clusapi/ClusterRegCreateBatch","mscs.clusterregcreatebatch"]
+description: Creates a batch that will execute commands on a cluster registry key.
+helpviewer_keywords: ["ClusterRegCreateBatch","ClusterRegCreateBatch function [Failover Cluster]","PCLUSTER_REG_CREATE_BATCH","clusapi/ClusterRegCreateBatch","mscs.clusterregcreatebatch"]
 old-location: mscs\clusterregcreatebatch.htm
 tech.root: MsCS
 ms.assetid: 83e7c216-f08f-4dc2-9b53-faa2760985d4

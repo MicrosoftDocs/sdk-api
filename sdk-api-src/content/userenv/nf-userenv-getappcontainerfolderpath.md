@@ -1,7 +1,8 @@
 ---
 UID: NF:userenv.GetAppContainerFolderPath
 title: GetAppContainerFolderPath function (userenv.h)
-description: Gets the path of the local app data folder for the specified app container.helpviewer_keywords: ["GetAppContainerFolderPath","GetAppContainerFolderPath function [Windows Shell]","shell.getappcontainerfolderpath","userenv/GetAppContainerFolderPath"]
+description: Gets the path of the local app data folder for the specified app container.
+helpviewer_keywords: ["GetAppContainerFolderPath","GetAppContainerFolderPath function [Windows Shell]","shell.getappcontainerfolderpath","userenv/GetAppContainerFolderPath"]
 old-location: shell\getappcontainerfolderpath.htm
 tech.root: shell
 ms.assetid: 7D3AB78D-C094-4F89-8032-13F3C137E910

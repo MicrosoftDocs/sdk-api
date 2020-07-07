@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetListAlignment
 title: ITextPara::GetListAlignment (tom.h)
-description: Retrieves the kind of alignment to use for bulleted and numbered lists.helpviewer_keywords: ["GetListAlignment","GetListAlignment method [Windows Controls]","GetListAlignment method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetListAlignment method","ITextPara.GetListAlignment","ITextPara::GetListAlignment","_win32_ITextPara_GetListAlignment","_win32_ITextPara_GetListAlignment_cpp","controls.ITextPara_GetListAlignment","controls._win32_ITextPara_GetListAlignment","tom/ITextPara::GetListAlignment"]
+description: Retrieves the kind of alignment to use for bulleted and numbered lists.
+helpviewer_keywords: ["GetListAlignment","GetListAlignment method [Windows Controls]","GetListAlignment method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetListAlignment method","ITextPara.GetListAlignment","ITextPara::GetListAlignment","_win32_ITextPara_GetListAlignment","_win32_ITextPara_GetListAlignment_cpp","controls.ITextPara_GetListAlignment","controls._win32_ITextPara_GetListAlignment","tom/ITextPara::GetListAlignment"]
 old-location: controls\ITextPara_GetListAlignment.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getlistalignment.htm

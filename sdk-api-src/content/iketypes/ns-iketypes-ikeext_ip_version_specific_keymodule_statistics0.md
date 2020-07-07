@@ -1,7 +1,8 @@
 ---
 UID: NS:iketypes.IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0_
 title: IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0 (iketypes.h)
-description: Various statistics specific to the keying module and IP version.helpviewer_keywords: ["IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0","IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0 structure [Filtering]","fwp.ikeext_ip_version_specific_keymodule_statistics0","iketypes/IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0"]
+description: Various statistics specific to the keying module and IP version.
+helpviewer_keywords: ["IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0","IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0 structure [Filtering]","fwp.ikeext_ip_version_specific_keymodule_statistics0","iketypes/IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0"]
 old-location: fwp\ikeext_ip_version_specific_keymodule_statistics0.htm
 tech.root: fwp
 ms.assetid: 5b5bb140-ca44-4a46-bb96-aba0b499e94f
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS0</b> structure contains various statistics specific to the keying module and IP version.
-[IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics1)a> is available.</div><div> </div>
+[IKEEXT_IP_VERSION_SPECIFIC_KEYMODULE_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/iketypes/ns-iketypes-ikeext_ip_version_specific_keymodule_statistics1) is available.</div><div> </div>
 
 ## -struct-fields
 

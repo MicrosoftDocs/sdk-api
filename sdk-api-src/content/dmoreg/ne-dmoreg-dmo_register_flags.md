@@ -1,7 +1,8 @@
 ---
 UID: NE:dmoreg.DMO_REGISTER_FLAGS
 title: DMO_REGISTER_FLAGS (dmoreg.h)
-description: The DMO_REGISTER_FLAGS enumeration defines flags that specify registry information for a Microsoft DirectX Media Object (DMO).helpviewer_keywords: ["DMO_REGISTERF_IS_KEYED","DMO_REGISTER_FLAGS","DMO_REGISTER_FLAGS enumeration [DirectShow]","DMO_REGISTER_FLAGSEnumeration","dmoreg/DMO_REGISTERF_IS_KEYED","dmoreg/DMO_REGISTER_FLAGS","dshow.dmo_register_flags"]
+description: The DMO_REGISTER_FLAGS enumeration defines flags that specify registry information for a Microsoft DirectX Media Object (DMO).
+helpviewer_keywords: ["DMO_REGISTERF_IS_KEYED","DMO_REGISTER_FLAGS","DMO_REGISTER_FLAGS enumeration [DirectShow]","DMO_REGISTER_FLAGSEnumeration","dmoreg/DMO_REGISTERF_IS_KEYED","dmoreg/DMO_REGISTER_FLAGS","dshow.dmo_register_flags"]
 old-location: dshow\dmo_register_flags.htm
 tech.root: DirectShow
 ms.assetid: 472be505-a13c-4612-b799-1e9add3ee3fc

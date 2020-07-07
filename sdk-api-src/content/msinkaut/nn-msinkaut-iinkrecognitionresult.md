@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkRecognitionResult
 title: IInkRecognitionResult (msinkaut.h)
-description: Represents the result of the recognition. The results of recognizing handwritten ink are returned in an IInkRecognitionResult object.helpviewer_keywords: ["IInkRecognitionResult","IInkRecognitionResult interface [Tablet PC]","IInkRecognitionResult interface [Tablet PC]","described","fd7ee250-6f76-419b-8164-0d2717ea288c","msinkaut/IInkRecognitionResult","tablet.iinkrecognitionresult"]
+description: Represents the result of the recognition. The results of recognizing handwritten ink are returned in an IInkRecognitionResult object.
+helpviewer_keywords: ["IInkRecognitionResult","IInkRecognitionResult interface [Tablet PC]","IInkRecognitionResult interface [Tablet PC]","described","fd7ee250-6f76-419b-8164-0d2717ea288c","msinkaut/IInkRecognitionResult","tablet.iinkrecognitionresult"]
 old-location: tablet\iinkrecognitionresult.htm
 tech.root: tablet
 ms.assetid: fd7ee250-6f76-419b-8164-0d2717ea288c

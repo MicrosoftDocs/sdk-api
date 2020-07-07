@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.ICommDlgBrowser3.GetCurrentFilter
 title: ICommDlgBrowser3::GetCurrentFilter (shobjidl.h)
-description: Gets the current filter as a Unicode string.helpviewer_keywords: ["GetCurrentFilter","GetCurrentFilter method [Windows Shell]","GetCurrentFilter method [Windows Shell]","ICommDlgBrowser3 interface","ICommDlgBrowser3 interface [Windows Shell]","GetCurrentFilter method","ICommDlgBrowser3.GetCurrentFilter","ICommDlgBrowser3::GetCurrentFilter","_shell_ICommDlgBrowser3_GetCurrentFilter","shell.ICommDlgBrowser3_GetCurrentFilter","shobjidl/ICommDlgBrowser3::GetCurrentFilter"]
+description: Gets the current filter as a Unicode string.
+helpviewer_keywords: ["GetCurrentFilter","GetCurrentFilter method [Windows Shell]","GetCurrentFilter method [Windows Shell]","ICommDlgBrowser3 interface","ICommDlgBrowser3 interface [Windows Shell]","GetCurrentFilter method","ICommDlgBrowser3.GetCurrentFilter","ICommDlgBrowser3::GetCurrentFilter","_shell_ICommDlgBrowser3_GetCurrentFilter","shell.ICommDlgBrowser3_GetCurrentFilter","shobjidl/ICommDlgBrowser3::GetCurrentFilter"]
 old-location: shell\ICommDlgBrowser3_GetCurrentFilter.htm
 tech.root: shell
 ms.assetid: 038f3478-82d0-4023-a787-b7a2c66ceb27

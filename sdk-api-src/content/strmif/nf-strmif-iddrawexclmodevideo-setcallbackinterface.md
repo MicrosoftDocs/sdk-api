@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.SetCallbackInterface
 title: IDDrawExclModeVideo::SetCallbackInterface (strmif.h)
-description: The SetCallbackInterface method retrieves a pointer to the callback interface of the Overlay Mixer so that the calling application can be notified about adjustments to the display during video playback.helpviewer_keywords: ["IDDrawExclModeVideo interface [DirectShow]","SetCallbackInterface method","IDDrawExclModeVideo.SetCallbackInterface","IDDrawExclModeVideo::SetCallbackInterface","IDDrawExclModeVideoSetCallbackInterface","SetCallbackInterface","SetCallbackInterface method [DirectShow]","SetCallbackInterface method [DirectShow]","IDDrawExclModeVideo interface","dshow.iddrawexclmodevideo_setcallbackinterface","strmif/IDDrawExclModeVideo::SetCallbackInterface"]
+description: The SetCallbackInterface method retrieves a pointer to the callback interface of the Overlay Mixer so that the calling application can be notified about adjustments to the display during video playback.
+helpviewer_keywords: ["IDDrawExclModeVideo interface [DirectShow]","SetCallbackInterface method","IDDrawExclModeVideo.SetCallbackInterface","IDDrawExclModeVideo::SetCallbackInterface","IDDrawExclModeVideoSetCallbackInterface","SetCallbackInterface","SetCallbackInterface method [DirectShow]","SetCallbackInterface method [DirectShow]","IDDrawExclModeVideo interface","dshow.iddrawexclmodevideo_setcallbackinterface","strmif/IDDrawExclModeVideo::SetCallbackInterface"]
 old-location: dshow\iddrawexclmodevideo_setcallbackinterface.htm
 tech.root: DirectShow
 ms.assetid: f8f885fe-d1a2-4635-9f30-d57ac0eb905e

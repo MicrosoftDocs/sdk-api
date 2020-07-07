@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager2.PrioritizeMatchingURLs
 title: ISearchCatalogManager2::PrioritizeMatchingURLs (searchapi.h)
-description: Instructs the indexer to give a higher priority to indexing items that have URLs that match a specified pattern. These items will then have a higher priority than other indexing tasks.helpviewer_keywords: ["ISearchCatalogManager2 interface [search]","PrioritizeMatchingURLs method","ISearchCatalogManager2.PrioritizeMatchingURLs","ISearchCatalogManager2::PrioritizeMatchingURLs","PrioritizeMatchingURLs","PrioritizeMatchingURLs method [search]","PrioritizeMatchingURLs method [search]","ISearchCatalogManager2 interface","_search_ISearchCatalogManager2_PrioritizeMatchingURLs","search._search_ISearchCatalogManager2_PrioritizeMatchingURLs","searchapi/ISearchCatalogManager2::PrioritizeMatchingURLs"]
+description: Instructs the indexer to give a higher priority to indexing items that have URLs that match a specified pattern. These items will then have a higher priority than other indexing tasks.
+helpviewer_keywords: ["ISearchCatalogManager2 interface [search]","PrioritizeMatchingURLs method","ISearchCatalogManager2.PrioritizeMatchingURLs","ISearchCatalogManager2::PrioritizeMatchingURLs","PrioritizeMatchingURLs","PrioritizeMatchingURLs method [search]","PrioritizeMatchingURLs method [search]","ISearchCatalogManager2 interface","_search_ISearchCatalogManager2_PrioritizeMatchingURLs","search._search_ISearchCatalogManager2_PrioritizeMatchingURLs","searchapi/ISearchCatalogManager2::PrioritizeMatchingURLs"]
 old-location: search\_search_ISearchCatalogManager2_PrioritizeMatchingURLs.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager2\prioritizematchingurls.htm
@@ -66,9 +67,9 @@ A string specifying the URL pattern that defines items that failed indexing and 
 
 ### -param dwPrioritizeFlags [in]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a></b>
+Type: <b><a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a></b>
 
-A value from the <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a> enumeration that specifies how to process items that the indexer has failed to index.
+A value from the <a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a> enumeration that specifies how to process items that the indexer has failed to index.
 
 
 ## -returns

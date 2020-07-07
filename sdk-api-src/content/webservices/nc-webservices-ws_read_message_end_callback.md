@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_READ_MESSAGE_END_CALLBACK
 title: WS_READ_MESSAGE_END_CALLBACK (webservices.h)
-description: Handles the WsReadMessageEnd call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_READ_MESSAGE_END_CALLBACK","WS_READ_MESSAGE_END_CALLBACK callback","WS_READ_MESSAGE_END_CALLBACK callback function [Web Services for Windows]","webservices/WS_READ_MESSAGE_END_CALLBACK","wsw.ws_read_message_end_callback"]
+description: Handles the WsReadMessageEnd call for a WS_CUSTOM_CHANNEL_BINDING.
+helpviewer_keywords: ["WS_READ_MESSAGE_END_CALLBACK","WS_READ_MESSAGE_END_CALLBACK callback","WS_READ_MESSAGE_END_CALLBACK callback function [Web Services for Windows]","webservices/WS_READ_MESSAGE_END_CALLBACK","wsw.ws_read_message_end_callback"]
 old-location: wsw\ws_read_message_end_callback.htm
 tech.root: wsw
 ms.assetid: 6e03b812-9022-4c17-b25d-e06cc8943a1b

@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_SELECT_CRITERIA
 title: CERT_SELECT_CRITERIA (wincrypt.h)
-description: Specifies selection criteria that is passed to the CertSelectCertificateChains function.helpviewer_keywords: ["*PCERT_SELECT_CRITERIA","CERT_SELECT_BY_ENHKEY_USAGE","CERT_SELECT_BY_EXTENSION","CERT_SELECT_BY_ISSUER_ATTR","CERT_SELECT_BY_ISSUER_NAME","CERT_SELECT_BY_KEY_USAGE","CERT_SELECT_BY_POLICY_OID","CERT_SELECT_BY_PROV_NAME","CERT_SELECT_BY_PUBLIC_KEY","CERT_SELECT_BY_SUBJECT_ATTR","CERT_SELECT_BY_SUBJECT_HOST_NAME","CERT_SELECT_BY_TLS_SIGNATURES","CERT_SELECT_CRITERIA","CERT_SELECT_CRITERIA structure [Security]","PCCERT_SELECT_CRITERIA","PCCERT_SELECT_CRITERIA structure pointer [Security]","PCERT_SELECT_CRITERIA","PCERT_SELECT_CRITERIA structure pointer [Security]","security.cert_select_criteria","wincrypt/CERT_SELECT_CRITERIA","wincrypt/PCCERT_SELECT_CRITERIA","wincrypt/PCERT_SELECT_CRITERIA"]
+description: Specifies selection criteria that is passed to the CertSelectCertificateChains function.
+helpviewer_keywords: ["*PCERT_SELECT_CRITERIA","CERT_SELECT_BY_ENHKEY_USAGE","CERT_SELECT_BY_EXTENSION","CERT_SELECT_BY_ISSUER_ATTR","CERT_SELECT_BY_ISSUER_NAME","CERT_SELECT_BY_KEY_USAGE","CERT_SELECT_BY_POLICY_OID","CERT_SELECT_BY_PROV_NAME","CERT_SELECT_BY_PUBLIC_KEY","CERT_SELECT_BY_SUBJECT_ATTR","CERT_SELECT_BY_SUBJECT_HOST_NAME","CERT_SELECT_BY_TLS_SIGNATURES","CERT_SELECT_CRITERIA","CERT_SELECT_CRITERIA structure [Security]","PCCERT_SELECT_CRITERIA","PCCERT_SELECT_CRITERIA structure pointer [Security]","PCERT_SELECT_CRITERIA","PCERT_SELECT_CRITERIA structure pointer [Security]","security.cert_select_criteria","wincrypt/CERT_SELECT_CRITERIA","wincrypt/PCCERT_SELECT_CRITERIA","wincrypt/PCERT_SELECT_CRITERIA"]
 old-location: security\cert_select_criteria.htm
 tech.root: SecCrypto
 ms.assetid: 246722a9-5db6-4a82-8f29-f60f0a2263e3
@@ -173,7 +174,7 @@ This criteria is evaluated on the certificate.
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the issuer of the certificate. The <b>ppPara</b> member must be a reference to a <a href="https://docs.microsoft.com/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CERT_NAME_BLOB</a> structure that contains the name of the issuer.
+Select certificates based on the issuer of the certificate. The <b>ppPara</b> member must be a reference to a <a href="/windows/win32/api/dpapi/ns-dpapi-crypt_integer_blob">CERT_NAME_BLOB</a> structure that contains the name of the issuer.
 
 This criteria is evaluated on the certificate chain.
 
@@ -199,7 +200,7 @@ This criteria is evaluated on the certificate.
 </dl>
 </td>
 <td width="60%">
-Select certificates based on the <a href="https://docs.microsoft.com/windows/win32/api/schannel/ns-schannel-secpkgcontext_supportedsignatures">Transport Layer Security protocol</a> (TLS) Signature requirement. The <b>ppPara</b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_supportedsignatures">SecPkgContext_SupportedSignatures</a> structure.
+Select certificates based on the <a href="/windows/win32/api/schannel/ns-schannel-secpkgcontext_supportedsignatures">Transport Layer Security protocol</a> (TLS) Signature requirement. The <b>ppPara</b> member must reference a <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-secpkgcontext_supportedsignatures">SecPkgContext_SupportedSignatures</a> structure.
 
 This criteria is evaluated on the certificate.
 

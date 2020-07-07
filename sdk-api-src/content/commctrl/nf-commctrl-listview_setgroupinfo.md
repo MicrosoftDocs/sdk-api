@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_SetGroupInfo
 title: ListView_SetGroupInfo macro (commctrl.h)
-description: Sets group information. You can use this macro or send the LVM_SETGROUPINFO message explicitly.helpviewer_keywords: ["ListView_SetGroupInfo","ListView_SetGroupInfo macro [Windows Controls]","_win32_ListView_SetGroupInfo","_win32_ListView_SetGroupInfo_cpp","commctrl/ListView_SetGroupInfo","controls.ListView_SetGroupInfo","controls._win32_ListView_SetGroupInfo"]
+description: Sets group information. You can use this macro or send the LVM_SETGROUPINFO message explicitly.
+helpviewer_keywords: ["ListView_SetGroupInfo","ListView_SetGroupInfo macro [Windows Controls]","_win32_ListView_SetGroupInfo","_win32_ListView_SetGroupInfo_cpp","commctrl/ListView_SetGroupInfo","controls.ListView_SetGroupInfo","controls._win32_ListView_SetGroupInfo"]
 old-location: controls\ListView_SetGroupInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setgroupinfo.htm

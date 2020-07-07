@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.stopBurn
 title: IWMPCdromBurn::stopBurn (wmp.h)
-description: The stopBurn method stops the CD burning process.helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","stopBurn method","IWMPCdromBurn.stopBurn","IWMPCdromBurn::stopBurn","IWMPCdromBurnstopBurn","stopBurn","stopBurn method [Windows Media Player]","stopBurn method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_stopburn","wmp/IWMPCdromBurn::stopBurn"]
+description: The stopBurn method stops the CD burning process.
+helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","stopBurn method","IWMPCdromBurn.stopBurn","IWMPCdromBurn::stopBurn","IWMPCdromBurnstopBurn","stopBurn","stopBurn method [Windows Media Player]","stopBurn method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_stopburn","wmp/IWMPCdromBurn::stopBurn"]
 old-location: wmp\iwmpcdromburn_stopburn.htm
 tech.root: WMP
 ms.assetid: cf001a08-97e9-4f88-919a-54651e3bfd5d

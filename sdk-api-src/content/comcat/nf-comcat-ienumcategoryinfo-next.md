@@ -1,7 +1,8 @@
 ---
 UID: NF:comcat.IEnumCATEGORYINFO.Next
 title: IEnumCATEGORYINFO::Next (comcat.h)
-description: Retrieves the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumCATEGORYINFO interface [COM]","Next method","IEnumCATEGORYINFO.Next","IEnumCATEGORYINFO::Next","Next","Next method [COM]","Next method [COM]","IEnumCATEGORYINFO interface","_com_ienumcategoryinfo_next","com.ienumcategoryinfo_next","comcat/IEnumCATEGORYINFO::Next"]
+description: Retrieves the specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumCATEGORYINFO interface [COM]","Next method","IEnumCATEGORYINFO.Next","IEnumCATEGORYINFO::Next","Next","Next method [COM]","Next method [COM]","IEnumCATEGORYINFO interface","_com_ienumcategoryinfo_next","com.ienumcategoryinfo_next","comcat/IEnumCATEGORYINFO::Next"]
 old-location: com\ienumcategoryinfo_next.htm
 tech.root: com
 ms.assetid: d40816ca-b729-4251-b39b-a4c4ebec7118

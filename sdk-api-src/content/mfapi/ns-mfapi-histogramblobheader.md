@@ -1,7 +1,8 @@
 ---
 UID: NS:mfapi.tagHistogramBlobHeader
 title: HistogramBlobHeader (mfapi.h)
-description: The HistogramBlobHeader structure describes the blob size and the number of histograms in the blob for the MF_CAPTURE_METADATA_HISTOGRAM attribute.helpviewer_keywords: ["HistogramBlobHeader","HistogramBlobHeader structure [Streaming Media Devices]","mfapi/HistogramBlobHeader","stream.histogramblobheader"]
+description: The HistogramBlobHeader structure describes the blob size and the number of histograms in the blob for the MF_CAPTURE_METADATA_HISTOGRAM attribute.
+helpviewer_keywords: ["HistogramBlobHeader","HistogramBlobHeader structure [Streaming Media Devices]","mfapi/HistogramBlobHeader","stream.histogramblobheader"]
 old-location: stream\histogramblobheader.htm
 tech.root: stream
 ms.assetid: E72DEFAB-1176-47AA-B6FC-35346D63CBD9

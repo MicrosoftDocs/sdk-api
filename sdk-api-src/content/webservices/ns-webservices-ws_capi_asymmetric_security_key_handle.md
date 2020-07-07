@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE
 title: WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE (webservices.h)
-description: The type for specifying asymmetric cryptographic keys as CAPI 1.0 key handles.helpviewer_keywords: ["WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE","WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows]","webservices/WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE","wsw.ws_capi_asymmetric_security_key_handle"]
+description: The type for specifying asymmetric cryptographic keys as CAPI 1.0 key handles.
+helpviewer_keywords: ["WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE","WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows]","webservices/WS_CAPI_ASYMMETRIC_SECURITY_KEY_HANDLE","wsw.ws_capi_asymmetric_security_key_handle"]
 old-location: wsw\ws_capi_asymmetric_security_key_handle.htm
 tech.root: wsw
 ms.assetid: 1f5d1905-98ef-4481-88c7-4683cbeba0ae
@@ -63,7 +64,7 @@ it is no longer in use.
             
 
 This type is supported only on pre-Windows Vista platforms: for
-Windows Vista and later, please use <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_ncrypt_asymmetric_security_key_handle">WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
+Windows Vista and later, please use <a href="/windows/win32/api/webservices/ns-webservices-ws_ncrypt_asymmetric_security_key_handle">WS_NCRYPT_ASYMMETRIC_SECURITY_KEY_HANDLE</a>.
             
 
 

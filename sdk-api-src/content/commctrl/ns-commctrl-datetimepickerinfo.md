@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagDATETIMEPICKERINFO
 title: DATETIMEPICKERINFO (commctrl.h)
-description: Contains information about a date and time picker (DTP) control.helpviewer_keywords: ["*LPDATETIMEPICKERINFO","DATETIMEPICKERINFO","DATETIMEPICKERINFO structure [Windows Controls]","LPDATETIMEPICKERINFO","LPDATETIMEPICKERINFO structure pointer [Windows Controls]","_shell_DATETIMEPICKERINFO","_shell_DATETIMEPICKERINFO_cpp","commctrl/DATETIMEPICKERINFO","commctrl/LPDATETIMEPICKERINFO","controls.DATETIMEPICKERINFO","controls._shell_DATETIMEPICKERINFO"]
+description: Contains information about a date and time picker (DTP) control.
+helpviewer_keywords: ["*LPDATETIMEPICKERINFO","DATETIMEPICKERINFO","DATETIMEPICKERINFO structure [Windows Controls]","LPDATETIMEPICKERINFO","LPDATETIMEPICKERINFO structure pointer [Windows Controls]","_shell_DATETIMEPICKERINFO","_shell_DATETIMEPICKERINFO_cpp","commctrl/DATETIMEPICKERINFO","commctrl/LPDATETIMEPICKERINFO","controls.DATETIMEPICKERINFO","controls._shell_DATETIMEPICKERINFO"]
 old-location: controls\DATETIMEPICKERINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\datetimepickerinfo.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IOverlay.SetPalette
 title: IOverlay::SetPalette (strmif.h)
-description: The SetPalette method sets the palette.helpviewer_keywords: ["IOverlay interface [DirectShow]","SetPalette method","IOverlay.SetPalette","IOverlay::SetPalette","IOverlaySetPalette","SetPalette","SetPalette method [DirectShow]","SetPalette method [DirectShow]","IOverlay interface","dshow.ioverlay_setpalette","strmif/IOverlay::SetPalette"]
+description: The SetPalette method sets the palette.
+helpviewer_keywords: ["IOverlay interface [DirectShow]","SetPalette method","IOverlay.SetPalette","IOverlay::SetPalette","IOverlaySetPalette","SetPalette","SetPalette method [DirectShow]","SetPalette method [DirectShow]","IOverlay interface","dshow.ioverlay_setpalette","strmif/IOverlay::SetPalette"]
 old-location: dshow\ioverlay_setpalette.htm
 tech.root: DirectShow
 ms.assetid: 572f77ab-08a8-453a-993b-724da967bcde

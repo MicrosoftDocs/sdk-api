@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents
 title: IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents (imapi2.h)
-description: Retrieves the table of content for the audio tracks that were laid on the media within the track-writing session.helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_ExpectedTableOfContents method","IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents","IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents","get_ExpectedTableOfContents","get_ExpectedTableOfContents method [IMAPI]","get_ExpectedTableOfContents method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_expectedtableofcontents","imapi2/IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents"]
+description: Retrieves the table of content for the audio tracks that were laid on the media within the track-writing session.
+helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_ExpectedTableOfContents method","IDiscFormat2TrackAtOnce.get_ExpectedTableOfContents","IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents","get_ExpectedTableOfContents","get_ExpectedTableOfContents method [IMAPI]","get_ExpectedTableOfContents method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_expectedtableofcontents","imapi2/IDiscFormat2TrackAtOnce::get_ExpectedTableOfContents"]
 old-location: imapi\idiscformat2trackatonce_get_expectedtableofcontents.htm
 tech.root: imapi
 ms.assetid: b414bdbc-0f49-4a00-9b25-fa738f5f880b

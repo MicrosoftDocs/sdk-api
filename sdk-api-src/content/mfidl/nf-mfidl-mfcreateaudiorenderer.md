@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreateAudioRenderer
 title: MFCreateAudioRenderer function (mfidl.h)
-description: Creates the Streaming Audio Renderer.helpviewer_keywords: ["9554e39b-9d14-4b7f-862c-a1ffcf84543c","MFCreateAudioRenderer","MFCreateAudioRenderer function [Media Foundation]","mf.mfcreateaudiorenderer","mfidl/MFCreateAudioRenderer"]
+description: Creates the Streaming Audio Renderer.
+helpviewer_keywords: ["9554e39b-9d14-4b7f-862c-a1ffcf84543c","MFCreateAudioRenderer","MFCreateAudioRenderer function [Media Foundation]","mf.mfcreateaudiorenderer","mfidl/MFCreateAudioRenderer"]
 old-location: mf\mfcreateaudiorenderer.htm
 tech.root: medfound
 ms.assetid: 9554e39b-9d14-4b7f-862c-a1ffcf84543c

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDropTargetHelper.DragEnter
 title: IDropTargetHelper::DragEnter (shobjidl_core.h)
-description: Notifies the drag-image manager that the drop target's IDropTarget::DragEnter method has been called.helpviewer_keywords: ["DragEnter","DragEnter method [Windows Shell]","DragEnter method [Windows Shell]","IDropTargetHelper interface","IDropTargetHelper interface [Windows Shell]","DragEnter method","IDropTargetHelper.DragEnter","IDropTargetHelper::DragEnter","_win32_IDropTargetHelper_DragEnter","shell.IDropTargetHelper_DragEnter","shobjidl_core/IDropTargetHelper::DragEnter"]
+description: Notifies the drag-image manager that the drop target's IDropTarget::DragEnter method has been called.
+helpviewer_keywords: ["DragEnter","DragEnter method [Windows Shell]","DragEnter method [Windows Shell]","IDropTargetHelper interface","IDropTargetHelper interface [Windows Shell]","DragEnter method","IDropTargetHelper.DragEnter","IDropTargetHelper::DragEnter","_win32_IDropTargetHelper_DragEnter","shell.IDropTargetHelper_DragEnter","shobjidl_core/IDropTargetHelper::DragEnter"]
 old-location: shell\IDropTargetHelper_DragEnter.htm
 tech.root: shell
 ms.assetid: cc0fd3f2-424e-4448-b589-fc4b8dc75506

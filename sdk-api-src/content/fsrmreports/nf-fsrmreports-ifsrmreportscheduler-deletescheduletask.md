@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.DeleteScheduleTask
 title: IFsrmReportScheduler::DeleteScheduleTask (fsrmreports.h)
-description: Deletes a task that is used to trigger a report job.helpviewer_keywords: ["DeleteScheduleTask","DeleteScheduleTask method [File Server Resource Manager]","DeleteScheduleTask method [File Server Resource Manager]","FsrmReportScheduler class","DeleteScheduleTask method [File Server Resource Manager]","IFsrmReportScheduler interface","FsrmReportScheduler class [File Server Resource Manager]","DeleteScheduleTask method","IFsrmReportScheduler interface [File Server Resource Manager]","DeleteScheduleTask method","IFsrmReportScheduler.DeleteScheduleTask","IFsrmReportScheduler::DeleteScheduleTask","fs.ifsrmreportscheduler_deletescheduletask","fsrm.ifsrmreportscheduler_deletescheduletask","fsrmreports/IFsrmReportScheduler::DeleteScheduleTask"]
+description: Deletes a task that is used to trigger a report job.
+helpviewer_keywords: ["DeleteScheduleTask","DeleteScheduleTask method [File Server Resource Manager]","DeleteScheduleTask method [File Server Resource Manager]","FsrmReportScheduler class","DeleteScheduleTask method [File Server Resource Manager]","IFsrmReportScheduler interface","FsrmReportScheduler class [File Server Resource Manager]","DeleteScheduleTask method","IFsrmReportScheduler interface [File Server Resource Manager]","DeleteScheduleTask method","IFsrmReportScheduler.DeleteScheduleTask","IFsrmReportScheduler::DeleteScheduleTask","fs.ifsrmreportscheduler_deletescheduletask","fsrm.ifsrmreportscheduler_deletescheduletask","fsrmreports/IFsrmReportScheduler::DeleteScheduleTask"]
 old-location: fsrm\ifsrmreportscheduler_deletescheduletask.htm
 tech.root: fsrm
 ms.assetid: 31541668-6173-48d4-8650-13e78bc7a763

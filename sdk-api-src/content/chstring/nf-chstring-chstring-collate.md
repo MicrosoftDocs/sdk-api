@@ -1,7 +1,8 @@
 ---
 UID: NF:chstring.CHString.Collate
 title: CHString::Collate (chstring.h)
-description: The Collate method uses the wcscoll function to compare a CHString string with another string.helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","Collate method","CHString.Collate","CHString::Collate","Collate","Collate method [Windows Management Instrumentation]","Collate method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_collate","chstring/CHString::Collate","wmi.chstring_collate"]
+description: The Collate method uses the wcscoll function to compare a CHString string with another string.
+helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","Collate method","CHString.Collate","CHString::Collate","Collate","Collate method [Windows Management Instrumentation]","Collate method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_collate","chstring/CHString::Collate","wmi.chstring_collate"]
 old-location: wmi\chstring_collate.htm
 tech.root: WmiSdk
 ms.assetid: b6c88b83-a369-4cb2-9297-df9c5911d08f

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeBrush
 title: IXpsOMPath::GetStrokeBrush (xpsobjectmodel.h)
-description: Gets a pointer to the resolved IXpsOMBrush interface that contains the stroke brush that has been set for the path.helpviewer_keywords: ["GetStrokeBrush","GetStrokeBrush method [XPS Documents and Packaging]","GetStrokeBrush method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeBrush method","IXpsOMPath.GetStrokeBrush","IXpsOMPath::GetStrokeBrush","xps.ixpsompath_getstrokebrush","xpsobjectmodel/IXpsOMPath::GetStrokeBrush"]
+description: Gets a pointer to the resolved IXpsOMBrush interface that contains the stroke brush that has been set for the path.
+helpviewer_keywords: ["GetStrokeBrush","GetStrokeBrush method [XPS Documents and Packaging]","GetStrokeBrush method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeBrush method","IXpsOMPath.GetStrokeBrush","IXpsOMPath::GetStrokeBrush","xps.ixpsompath_getstrokebrush","xpsobjectmodel/IXpsOMPath::GetStrokeBrush"]
 old-location: xps\ixpsompath_getstrokebrush.htm
 tech.root: printdocs
 ms.assetid: dbf786b0-5603-4735-8770-4c5e17a67253

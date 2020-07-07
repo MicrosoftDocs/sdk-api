@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS
 title: D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS
-description: Retrieves the list of supported formats.helpviewer_keywords: ["D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS","D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS",""]
+description: Retrieves the list of supported formats.
+helpviewer_keywords: ["D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS","D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS",""]
 tech.root: mf
 ms.assetid: 685f27d9-b54d-40ca-a156-3bd85b8cae74
 ms.date: 05/28/2019
@@ -35,6 +36,7 @@ api_name:
 targetos: Windows
 ---
 
+
 # D3D12_FEATURE_DATA_VIDEO_DECODE_FORMATS structure
 
 ## -description
@@ -45,7 +47,7 @@ Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12vide
 
 ### -field NodeIndex
  
-In multi-adapter operation, identifies the physical adapter of the device this operation applies to.
+For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the device's physical adapter) to which the command queue applies. Each bit in the mask corresponds to a single node. Only 1 bit may be set.
 
 ### -field Configuration
 

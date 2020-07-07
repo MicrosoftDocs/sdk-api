@@ -1,7 +1,8 @@
 ---
 UID: NN:dskquota.IDiskQuotaEvents
 title: IDiskQuotaEvents (dskquota.h)
-description: Receives quota-related event notifications.helpviewer_keywords: ["IDiskQuotaEvents","IDiskQuotaEvents interface [Files]","IDiskQuotaEvents interface [Files]","described","_win32_idiskquotaevents","base.idiskquotaevents","dskquota/IDiskQuotaEvents","fs.idiskquotaevents"]
+description: Receives quota-related event notifications.
+helpviewer_keywords: ["IDiskQuotaEvents","IDiskQuotaEvents interface [Files]","IDiskQuotaEvents interface [Files]","described","_win32_idiskquotaevents","base.idiskquotaevents","dskquota/IDiskQuotaEvents","fs.idiskquotaevents"]
 old-location: fs\idiskquotaevents.htm
 tech.root: FileIO
 ms.assetid: 4b5dcb1f-8edb-4fcb-94ea-2a627667071e

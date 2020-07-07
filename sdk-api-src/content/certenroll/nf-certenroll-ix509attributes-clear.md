@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509Attributes.Clear
 title: IX509Attributes::Clear (certenroll.h)
-description: Removes all IX509Attribute objects from the collection.helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","IX509Attributes interface","IX509Attributes interface [Security]","Clear method","IX509Attributes.Clear","IX509Attributes::Clear","certenroll/IX509Attributes::Clear","security.ix509attributes_clear_method"]
+description: Removes all IX509Attribute objects from the collection.
+helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","IX509Attributes interface","IX509Attributes interface [Security]","Clear method","IX509Attributes.Clear","IX509Attributes::Clear","certenroll/IX509Attributes::Clear","security.ix509attributes_clear_method"]
 old-location: security\ix509attributes_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: f7d4e443-4022-4a62-b3a0-88a813a4b778

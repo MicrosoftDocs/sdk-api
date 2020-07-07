@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputSetting
 title: IWMSyncReader::GetOutputSetting (wmsdkidl.h)
-description: The GetOutputSetting method retrieves a setting for a particular output by name.helpviewer_keywords: ["GetOutputSetting","GetOutputSetting method [windows Media Format]","GetOutputSetting method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetOutputSetting method","IWMSyncReader.GetOutputSetting","IWMSyncReader::GetOutputSetting","IWMSyncReaderGetOutputSetting","wmformat.iwmsyncreader_getoutputsetting","wmsdkidl/IWMSyncReader::GetOutputSetting"]
+description: The GetOutputSetting method retrieves a setting for a particular output by name.
+helpviewer_keywords: ["GetOutputSetting","GetOutputSetting method [windows Media Format]","GetOutputSetting method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetOutputSetting method","IWMSyncReader.GetOutputSetting","IWMSyncReader::GetOutputSetting","IWMSyncReaderGetOutputSetting","wmformat.iwmsyncreader_getoutputsetting","wmsdkidl/IWMSyncReader::GetOutputSetting"]
 old-location: wmformat\iwmsyncreader_getoutputsetting.htm
 tech.root: wmformat
 ms.assetid: b96c84fd-a2e0-4fdb-a9c1-2e42b73f7a3e

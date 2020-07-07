@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._CSV_NAMESPACE_INFO
 title: CSV_NAMESPACE_INFO
-description: Contains the output for the FSCTL_IS_CSV_FILE control code that retrieves namespace information for a file.helpviewer_keywords: ["*PCSV_NAMESPACE_INFO","CSV_NAMESPACE_INFO","CSV_NAMESPACE_INFO structure [Files]","CSV_NAMESPACE_INFO_V1","PCSV_NAMESPACE_INFO","PCSV_NAMESPACE_INFO structure pointer [Files]","fs.csv_namespace_info","winioctl/CSV_NAMESPACE_INFO","winioctl/PCSV_NAMESPACE_INFO"]
+description: Contains the output for the FSCTL_IS_CSV_FILE control code that retrieves namespace information for a file.
+helpviewer_keywords: ["*PCSV_NAMESPACE_INFO","CSV_NAMESPACE_INFO","CSV_NAMESPACE_INFO structure [Files]","CSV_NAMESPACE_INFO_V1","PCSV_NAMESPACE_INFO","PCSV_NAMESPACE_INFO structure pointer [Files]","fs.csv_namespace_info","winioctl/CSV_NAMESPACE_INFO","winioctl/PCSV_NAMESPACE_INFO"]
 old-location: fs\csv_namespace_info.htm
 tech.root: FileIO
 ms.assetid: E6F3D334-6974-40E2-B00A-17CA5F05C3F4

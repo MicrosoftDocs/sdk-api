@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_Deserializer
 title: MI_Deserializer (mi.h)
-description: Deserialization object as created from MI_Application_NewDeserializer. The object itself should not be manually used or changed as it is used internally.helpviewer_keywords: ["MI_Deserializer","MI_Deserializer structure [Windows Management Infrastructure (MI)]","mi/MI_Deserializer","wmi_v2.mi_deserializer"]
+description: Deserialization object as created from MI_Application_NewDeserializer. The object itself should not be manually used or changed as it is used internally.
+helpviewer_keywords: ["MI_Deserializer","MI_Deserializer structure [Windows Management Infrastructure (MI)]","mi/MI_Deserializer","wmi_v2.mi_deserializer"]
 old-location: wmi_v2\mi_deserializer.htm
 tech.root: wmi_v2
 ms.assetid: 0d2d8f3b-9567-418f-a789-a34b85c114fd

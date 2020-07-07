@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMATRIX.XMMATRIX
 title: XMMATRIX::XMMATRIX (directxmath.h)
-description: Default constructor for XMMATRIX.helpviewer_keywords: ["XMMATRIX","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX structure","XMMATRIX structure [DirectX Math Support APIs]","XMMATRIX constructor","XMMATRIX.XMMATRIX","XMMATRIX.XMMATRIX()","XMMATRIX::XMMATRIX","dxmath.xmmatrix_ctor_1"]
+description: Default constructor for XMMATRIX.
+helpviewer_keywords: ["XMMATRIX","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX constructor [DirectX Math Support APIs]","XMMATRIX structure","XMMATRIX structure [DirectX Math Support APIs]","XMMATRIX constructor","XMMATRIX.XMMATRIX","XMMATRIX.XMMATRIX()","XMMATRIX::XMMATRIX","dxmath.xmmatrix_ctor_1"]
 old-location: dxmath\xmmatrix_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMMATRIX.#ctor

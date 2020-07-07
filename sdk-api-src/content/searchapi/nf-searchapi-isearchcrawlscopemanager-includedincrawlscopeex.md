@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.IncludedInCrawlScopeEx
 title: ISearchCrawlScopeManager::IncludedInCrawlScopeEx (searchapi.h)
-description: Retrieves an indicator of whether and why the specified URL is included in the crawl scope.helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","IncludedInCrawlScopeEx method","ISearchCrawlScopeManager.IncludedInCrawlScopeEx","ISearchCrawlScopeManager::IncludedInCrawlScopeEx","IncludedInCrawlScopeEx","IncludedInCrawlScopeEx method [search]","IncludedInCrawlScopeEx method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx","search._search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx","searchapi/ISearchCrawlScopeManager::IncludedInCrawlScopeEx"]
+description: Retrieves an indicator of whether and why the specified URL is included in the crawl scope.
+helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","IncludedInCrawlScopeEx method","ISearchCrawlScopeManager.IncludedInCrawlScopeEx","ISearchCrawlScopeManager::IncludedInCrawlScopeEx","IncludedInCrawlScopeEx","IncludedInCrawlScopeEx method [search]","IncludedInCrawlScopeEx method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx","search._search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx","searchapi/ISearchCrawlScopeManager::IncludedInCrawlScopeEx"]
 old-location: search\_search_ISearchCrawlScopeManager_IncludedInCrawlScopeEx.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\includedincrawlscopeex.htm
@@ -73,9 +74,9 @@ A pointer to a <b>BOOL</b> value: <b>TRUE</b> if <i>pszURL</i> is included in th
 
 ### -param pReason [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-clusion_reason">CLUSION_REASON</a>*</b>
+Type: <b><a href="/windows/win32/api/searchapi/ne-searchapi-clusion_reason">CLUSION_REASON</a>*</b>
 
-Retrieves a pointer to a value from the <a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-clusion_reason">CLUSION_REASON</a> enumeration that indicates the reason that the specified URL was included in or excluded from the crawl scope.
+Retrieves a pointer to a value from the <a href="/windows/win32/api/searchapi/ne-searchapi-clusion_reason">CLUSION_REASON</a> enumeration that indicates the reason that the specified URL was included in or excluded from the crawl scope.
 
 
 ## -returns
@@ -91,11 +92,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
 For hierarchical sources, the most immediate parent is included. For non-hierarchical sources like URLs, this will be only the URL rule itself. Other URLs that might be indexed will cause this method to retrieve <b>FALSE</b> because there is no way to tell whether they are in the scope.
 
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

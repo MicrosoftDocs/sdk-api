@@ -1,7 +1,8 @@
 ---
 UID: NN:structuredquerycondition.ICondition2
 title: ICondition2 (structuredquerycondition.h)
-description: Extends the functionality of the ICondition interface. ICondition2 provides methods for retrieving information about a search condition.helpviewer_keywords: ["ICondition2","ICondition2 interface [search]","ICondition2 interface [search]","described","_search_ICondition2","search._search_ICondition2","structuredquerycondition/ICondition2"]
+description: Extends the functionality of the ICondition interface. ICondition2 provides methods for retrieving information about a search condition.
+helpviewer_keywords: ["ICondition2","ICondition2 interface [search]","ICondition2 interface [search]","described","_search_ICondition2","search._search_ICondition2","structuredquerycondition/ICondition2"]
 old-location: search\_search_ICondition2.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\icondition2\icondition2.htm
@@ -94,8 +95,7 @@ Retrieves the property name, operation, and value from a leaf search condition n
 
 
 
-The StructuredQuerySample code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting 
-condition trees.
+The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
 
 
@@ -105,11 +105,11 @@ condition trees.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

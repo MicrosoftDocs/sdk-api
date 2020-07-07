@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_NET_EVENT_IKEEXT_EM_FAILURE1_
 title: FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 (fwpmtypes.h)
-description: The FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 structure contains information that describes an IKE Extended mode (EM) failure.Note  FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 is the specific implementation of FWPM_NET_EVENT_IKEEXT_EM_FAILURE used in Windows 7 and later.helpviewer_keywords: ["FWPM_NET_EVENT_IKEEXT_EM_FAILURE1","FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 structure [Filtering]","FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_BENIGN","FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_MULTIPLE","fwp.fwpm_net_event_ikeext_em_failure1","fwpmtypes/FWPM_NET_EVENT_IKEEXT_EM_FAILURE1"]
+description: The FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 structure contains information that describes an IKE Extended mode (EM) failure.Note  FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 is the specific implementation of FWPM_NET_EVENT_IKEEXT_EM_FAILURE used in Windows 7 and later.
+helpviewer_keywords: ["FWPM_NET_EVENT_IKEEXT_EM_FAILURE1","FWPM_NET_EVENT_IKEEXT_EM_FAILURE1 structure [Filtering]","FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_BENIGN","FWPM_NET_EVENT_IKEEXT_EM_FAILURE_FLAG_MULTIPLE","fwp.fwpm_net_event_ikeext_em_failure1","fwpmtypes/FWPM_NET_EVENT_IKEEXT_EM_FAILURE1"]
 old-location: fwp\fwpm_net_event_ikeext_em_failure1.htm
 tech.root: fwp
 ms.assetid: 42348e1d-e3b3-4f8c-9fef-15e2e4ebf580
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>FWPM_NET_EVENT_IKEEXT_EM_FAILURE1</b> structure contains information that describes an IKE Extended mode (EM) failure.
-[FWPM_NET_EVENT_IKEEXT_EM_FAILURE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure0)a> is available.</div><div> </div>
+[FWPM_NET_EVENT_IKEEXT_EM_FAILURE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_net_event_ikeext_em_failure0) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -64,7 +65,7 @@ Windows error code for the failure.
 
 ### -field failurePoint
 
-An [IPSEC_FAILURE_POINT](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point)a> value that indicates the IPsec state when the failure occurred.
+An [IPSEC_FAILURE_POINT](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point) value that indicates the IPsec state when the failure occurred.
 
 
 ### -field flags
@@ -102,17 +103,17 @@ Indicates that IKE EM failure events have been reported, but that the events are
 
 ### -field emState
 
-An [IKEEXT_EM_SA_STATE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state)a> value that indicates the EM state when the failure occurred.
+An [IKEEXT_EM_SA_STATE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state) value that indicates the EM state when the failure occurred.
 
 
 ### -field saRole
 
-An [IKEEXT_SA_ROLE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role)a> value that specifies the SA role when the failure occurred.
+An [IKEEXT_SA_ROLE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role) value that specifies the SA role when the failure occurred.
 
 
 ### -field emAuthMethod
 
-An <a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_method_type">IKEEXT_AUTHENTICATION_METHOD_TYPE</a> value that specifies the authentication method.
+An <a href="/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_method_type">IKEEXT_AUTHENTICATION_METHOD_TYPE</a> value that specifies the authentication method.
 
 
 ### -field endCertHash
@@ -172,23 +173,23 @@ Type of traffic for which the embedded quick mode was being negotiated.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_method_type">IKEEXT_AUTHENTICATION_METHOD_TYPE</a>
+<a href="/windows/win32/api/iketypes/ne-iketypes-ikeext_authentication_method_type">IKEEXT_AUTHENTICATION_METHOD_TYPE</a>
 
 
 
-[IKEEXT_EM_SA_STATE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state)a>
+[IKEEXT_EM_SA_STATE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_em_sa_state)
 
 
 
-[IKEEXT_SA_ROLE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role)a>
+[IKEEXT_SA_ROLE](https://docs.microsoft.com/windows/desktop/api/iketypes/ne-iketypes-ikeext_sa_role)
 
 
 
-[IPSEC_FAILURE_POINT](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point)a>
+[IPSEC_FAILURE_POINT](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_failure_point)
 
 
 
-[IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)a>
+[IPSEC_TRAFFIC_TYPE](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ne-ipsectypes-ipsec_traffic_type)
 
 
 

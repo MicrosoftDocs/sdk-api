@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ClientToScreen
 title: ClientToScreen function (winuser.h)
-description: The ClientToScreen function converts the client-area coordinates of a specified point to screen coordinates.helpviewer_keywords: ["ClientToScreen","ClientToScreen function [Windows GDI]","_win32_ClientToScreen","gdi.clienttoscreen","winuser/ClientToScreen"]
+description: The ClientToScreen function converts the client-area coordinates of a specified point to screen coordinates.
+helpviewer_keywords: ["ClientToScreen","ClientToScreen function [Windows GDI]","_win32_ClientToScreen","gdi.clienttoscreen","winuser/ClientToScreen"]
 old-location: gdi\clienttoscreen.htm
 tech.root: gdi
 ms.assetid: 3b1e2699-7f5f-444d-9072-f2ca7c8fa511

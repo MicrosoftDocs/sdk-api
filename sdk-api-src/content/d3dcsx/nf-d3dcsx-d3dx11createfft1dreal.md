@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcsx.D3DX11CreateFFT1DReal
 title: D3DX11CreateFFT1DReal function (d3dcsx.h)
-description: Creates an ID3DX11FFT COM interface object.helpviewer_keywords: ["542c01f8-d563-c1ab-aa89-495a7e96e411","D3DX11CreateFFT1DReal","D3DX11CreateFFT1DReal function [Direct3D 11]","d3dcsx/D3DX11CreateFFT1DReal","direct3d11.d3dx11createfft1dreal"]
+description: Creates an ID3DX11FFT COM interface object.
+helpviewer_keywords: ["542c01f8-d563-c1ab-aa89-495a7e96e411","D3DX11CreateFFT1DReal","D3DX11CreateFFT1DReal function [Direct3D 11]","d3dcsx/D3DX11CreateFFT1DReal","direct3d11.d3dx11createfft1dreal"]
 old-location: direct3d11\d3dx11createfft1dreal.htm
 tech.root: direct3d11
 ms.assetid: 49186642-2591-4943-b686-83bf24f470dd

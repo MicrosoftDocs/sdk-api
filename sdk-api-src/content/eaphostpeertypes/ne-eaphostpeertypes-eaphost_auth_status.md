@@ -1,7 +1,8 @@
 ---
 UID: NE:eaphostpeertypes._EAPHOST_AUTH_STATUS
 title: EAPHOST_AUTH_STATUS (eaphostpeertypes.h)
-description: Defines the set of possible EAP authentication session status values during the authentication process.helpviewer_keywords: ["EAPHOST_AUTH_STATUS","EAPHOST_AUTH_STATUS enumeration [EAPHost]","EapHostAuthFailed","EapHostAuthIdentityExchange","EapHostAuthInProgress","EapHostAuthNegotiatingType","EapHostAuthNotStarted","EapHostAuthSucceeded","EapHostInvalidSession","eaphost.eaphost_auth_status","eaphostpeertypes/EAPHOST_AUTH_STATUS","eaphostpeertypes/EapHostAuthFailed","eaphostpeertypes/EapHostAuthIdentityExchange","eaphostpeertypes/EapHostAuthInProgress","eaphostpeertypes/EapHostAuthNegotiatingType","eaphostpeertypes/EapHostAuthNotStarted","eaphostpeertypes/EapHostAuthSucceeded","eaphostpeertypes/EapHostInvalidSession"]
+description: Defines the set of possible EAP authentication session status values during the authentication process.
+helpviewer_keywords: ["EAPHOST_AUTH_STATUS","EAPHOST_AUTH_STATUS enumeration [EAPHost]","EapHostAuthFailed","EapHostAuthIdentityExchange","EapHostAuthInProgress","EapHostAuthNegotiatingType","EapHostAuthNotStarted","EapHostAuthSucceeded","EapHostInvalidSession","eaphost.eaphost_auth_status","eaphostpeertypes/EAPHOST_AUTH_STATUS","eaphostpeertypes/EapHostAuthFailed","eaphostpeertypes/EapHostAuthIdentityExchange","eaphostpeertypes/EapHostAuthInProgress","eaphostpeertypes/EapHostAuthNegotiatingType","eaphostpeertypes/EapHostAuthNotStarted","eaphostpeertypes/EapHostAuthSucceeded","eaphostpeertypes/EapHostInvalidSession"]
 old-location: eaphost\eaphost_auth_status.htm
 tech.root: eaphost
 ms.assetid: e1d0ff30-955c-4998-ae01-5dbadf3f4123
@@ -102,15 +103,15 @@ The EAP authentication session completed successfully, but authentication failed
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphost_auth_info">EAPHOST_AUTH_INFO</a>
+<a href="/windows/win32/api/eaphostpeertypes/ns-eaphostpeertypes-eaphost_auth_info">EAPHOST_AUTH_INFO</a>
 
 
 
-[EAPHost Supplicant Enumerations](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-enumerations)a>
+[EAPHost Supplicant Enumerations](/windows/win32/eaphost/eap-host-supplicant-enumerations)
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams">EapHostPeerAuthParams</a>
+<a href="/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams">EapHostPeerAuthParams</a>
 
 
 

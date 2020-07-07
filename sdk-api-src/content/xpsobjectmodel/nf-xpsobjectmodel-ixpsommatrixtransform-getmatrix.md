@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMMatrixTransform.GetMatrix
 title: IXpsOMMatrixTransform::GetMatrix (xpsobjectmodel.h)
-description: Gets the XPS_MATRIX structure, which specifies the transform matrix.helpviewer_keywords: ["GetMatrix","GetMatrix method [XPS Documents and Packaging]","GetMatrix method [XPS Documents and Packaging]","IXpsOMMatrixTransform interface","IXpsOMMatrixTransform interface [XPS Documents and Packaging]","GetMatrix method","IXpsOMMatrixTransform.GetMatrix","IXpsOMMatrixTransform::GetMatrix","xps.ixpsommatrixtransform_getmatrix","xpsobjectmodel/IXpsOMMatrixTransform::GetMatrix"]
+description: Gets the XPS_MATRIX structure, which specifies the transform matrix.
+helpviewer_keywords: ["GetMatrix","GetMatrix method [XPS Documents and Packaging]","GetMatrix method [XPS Documents and Packaging]","IXpsOMMatrixTransform interface","IXpsOMMatrixTransform interface [XPS Documents and Packaging]","GetMatrix method","IXpsOMMatrixTransform.GetMatrix","IXpsOMMatrixTransform::GetMatrix","xps.ixpsommatrixtransform_getmatrix","xpsobjectmodel/IXpsOMMatrixTransform::GetMatrix"]
 old-location: xps\ixpsommatrixtransform_getmatrix.htm
 tech.root: printdocs
 ms.assetid: 4067778d-d10f-4b53-9419-f438b7197f44
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure, which specifies the transform matrix.
+Gets the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure, which specifies the transform matrix.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns
 
 ### -param matrix [out, retval]
 
-The address of a variable that receives the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure.
+The address of a variable that receives the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a> structure.
 
 
 ## -returns
@@ -118,7 +119,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_matrix">XPS_MATRIX</a>
  
 
  

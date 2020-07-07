@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Id
 title: IFaxOutgoingJob::get_Id (faxcomex.h)
-description: The IFaxOutgoingJob::get_Id property is a null-terminated string that contains a unique identifier for the outbound fax job. You can use the identifier to retrieve the archived fax message after the job completes successfully.helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","Id property","IFaxOutgoingJob.Id","IFaxOutgoingJob.get_Id","IFaxOutgoingJob::Id","IFaxOutgoingJob::get_Id","Id property [Fax Service]","Id property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.id","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_id_cpp","fax._mfax_faxoutgoingjob_id","faxcomex/IFaxOutgoingJob::Id","faxcomex/IFaxOutgoingJob::get_Id","get_Id"]
+description: The IFaxOutgoingJob::get_Id property is a null-terminated string that contains a unique identifier for the outbound fax job. You can use the identifier to retrieve the archived fax message after the job completes successfully.
+helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","Id property","IFaxOutgoingJob.Id","IFaxOutgoingJob.get_Id","IFaxOutgoingJob::Id","IFaxOutgoingJob::get_Id","Id property [Fax Service]","Id property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.id","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_id_cpp","fax._mfax_faxoutgoingjob_id","faxcomex/IFaxOutgoingJob::Id","faxcomex/IFaxOutgoingJob::get_Id","get_Id"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_id_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_62ec.htm

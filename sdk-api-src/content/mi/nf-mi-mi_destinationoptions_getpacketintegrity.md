@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetPacketIntegrity
 title: MI_DestinationOptions_GetPacketIntegrity function (mi.h)
-description: Gets the packet integrity setting.helpviewer_keywords: ["MI_DestinationOptions_GetPacketIntegrity","MI_DestinationOptions_GetPacketIntegrity function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetPacketIntegrity","wmi_v2.mi_destinationoptions_getpacketintegrity"]
+description: Gets the packet integrity setting.
+helpviewer_keywords: ["MI_DestinationOptions_GetPacketIntegrity","MI_DestinationOptions_GetPacketIntegrity function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetPacketIntegrity","wmi_v2.mi_destinationoptions_getpacketintegrity"]
 old-location: wmi_v2\mi_destinationoptions_getpacketintegrity.htm
 tech.root: wmi_v2
 ms.assetid: 7f30822b-38c4-4d5e-b176-59aa403fa3fa

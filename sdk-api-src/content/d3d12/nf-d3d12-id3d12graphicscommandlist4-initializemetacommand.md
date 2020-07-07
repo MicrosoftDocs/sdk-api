@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList4.InitializeMetaCommand
 title: ID3D12GraphicsCommandList4::InitializeMetaCommand (d3d12.h)
-description: Initializes the specified meta command.helpviewer_keywords: ["ID3D12GraphicsCommandList4 interface","InitializeMetaCommand method","ID3D12GraphicsCommandList4.InitializeMetaCommand","ID3D12GraphicsCommandList4::InitializeMetaCommand","InitializeMetaCommand","InitializeMetaCommand method","InitializeMetaCommand method","ID3D12GraphicsCommandList4 interface","d3d12/ID3D12GraphicsCommandList4::InitializeMetaCommand","direct3d12.id3d12graphicscommandlist4_initializemetacommand"]
+description: Initializes the specified meta command.
+helpviewer_keywords: ["ID3D12GraphicsCommandList4 interface","InitializeMetaCommand method","ID3D12GraphicsCommandList4.InitializeMetaCommand","ID3D12GraphicsCommandList4::InitializeMetaCommand","InitializeMetaCommand","InitializeMetaCommand method","InitializeMetaCommand method","ID3D12GraphicsCommandList4 interface","d3d12/ID3D12GraphicsCommandList4::InitializeMetaCommand","direct3d12.id3d12graphicscommandlist4_initializemetacommand"]
 old-location: direct3d12\id3d12graphicscommandlist4_initializemetacommand.htm
 tech.root: direct3d12
 ms.assetid: EC50FE25-27C7-4A5D-B4D1-57D402730AF0

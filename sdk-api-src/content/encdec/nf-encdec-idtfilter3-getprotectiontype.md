@@ -1,7 +1,8 @@
 ---
 UID: NF:encdec.IDTFilter3.GetProtectionType
 title: IDTFilter3::GetProtectionType (encdec.h)
-description: The GetProtectionType method retrieves the type of content protection that is currently in effect.helpviewer_keywords: ["GetProtectionType","GetProtectionType method [Microsoft TV Technologies]","GetProtectionType method [Microsoft TV Technologies]","IDTFilter3 interface","IDTFilter3 interface [Microsoft TV Technologies]","GetProtectionType method","IDTFilter3.GetProtectionType","IDTFilter3::GetProtectionType","IDTFilter3GetProtectionType","encdec/IDTFilter3::GetProtectionType","mstv.idtfilter3_getprotectiontype"]
+description: The GetProtectionType method retrieves the type of content protection that is currently in effect.
+helpviewer_keywords: ["GetProtectionType","GetProtectionType method [Microsoft TV Technologies]","GetProtectionType method [Microsoft TV Technologies]","IDTFilter3 interface","IDTFilter3 interface [Microsoft TV Technologies]","GetProtectionType method","IDTFilter3.GetProtectionType","IDTFilter3::GetProtectionType","IDTFilter3GetProtectionType","encdec/IDTFilter3::GetProtectionType","mstv.idtfilter3_getprotectiontype"]
 old-location: mstv\idtfilter3_getprotectiontype.htm
 tech.root: mstv
 ms.assetid: 6b1e4186-de85-4de8-b309-82644c8b1269

@@ -1,7 +1,8 @@
 ---
 UID: NF:filehc.CacheCreateFile
 title: CacheCreateFile function (filehc.h)
-description: Creates a file in the cache or finds an existing file.helpviewer_keywords: ["CacheCreateFile","CacheCreateFile function [Windows API]","filehc/CacheCreateFile","winprog._cachecreatefile"]
+description: Creates a file in the cache or finds an existing file.
+helpviewer_keywords: ["CacheCreateFile","CacheCreateFile function [Windows API]","filehc/CacheCreateFile","winprog._cachecreatefile"]
 old-location: winprog\_cachecreatefile.htm
 tech.root: DevNotes
 ms.assetid: 089160c7-eb30-4b39-b982-75356e7cdb24

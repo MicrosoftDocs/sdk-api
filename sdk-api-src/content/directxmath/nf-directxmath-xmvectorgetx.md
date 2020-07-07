@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorGetX
 title: XMVectorGetX function (directxmath.h)
-description: Retrieve the x component of an XMVECTOR Data Type.helpviewer_keywords: ["Use DirectX..XMVectorGetX","XMVectorGetX","XMVectorGetX method [DirectX Math Support APIs]","dxmath.xmvectorgetx"]
+description: Retrieve the x component of an XMVECTOR Data Type.
+helpviewer_keywords: ["Use DirectX..XMVectorGetX","XMVectorGetX","XMVectorGetX method [DirectX Math Support APIs]","dxmath.xmvectorgetx"]
 old-location: dxmath\xmvectorgetx.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorGetX(XMVECTOR)

@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IGestureRecognizer.EnableGestures
 title: IGestureRecognizer::EnableGestures (rtscom.h)
-description: Sets a value that indicates to which application gestures the GestureRecognizer Class object responds.helpviewer_keywords: ["59d39c2c-1c92-4325-b534-36b97a7df20f","EnableGestures","EnableGestures method [Tablet PC]","EnableGestures method [Tablet PC]","IGestureRecognizer interface","IGestureRecognizer interface [Tablet PC]","EnableGestures method","IGestureRecognizer.EnableGestures","IGestureRecognizer::EnableGestures","rtscom/IGestureRecognizer::EnableGestures","tablet.igesturerecognizer_enablegestures"]
+description: Sets a value that indicates to which application gestures the GestureRecognizer Class object responds.
+helpviewer_keywords: ["59d39c2c-1c92-4325-b534-36b97a7df20f","EnableGestures","EnableGestures method [Tablet PC]","EnableGestures method [Tablet PC]","IGestureRecognizer interface","IGestureRecognizer interface [Tablet PC]","EnableGestures method","IGestureRecognizer.EnableGestures","IGestureRecognizer::EnableGestures","rtscom/IGestureRecognizer::EnableGestures","tablet.igesturerecognizer_enablegestures"]
 old-location: tablet\igesturerecognizer_enablegestures.htm
 tech.root: tablet
 ms.assetid: 59d39c2c-1c92-4325-b534-36b97a7df20f

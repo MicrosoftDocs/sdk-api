@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IRegTreeItem
 title: IRegTreeItem (shobjidl_core.h)
-description: Exposes methods that retrieve and set the state of items in a tree-view control that have the Tree-View Control Window Styles flag set.helpviewer_keywords: ["IRegTreeItem","IRegTreeItem interface [Windows Shell]","IRegTreeItem interface [Windows Shell]","described","_win32_IRegTreeItem","shell.IRegTreeItem","shobjidl_core/IRegTreeItem"]
+description: Exposes methods that retrieve and set the state of items in a tree-view control that have the Tree-View Control Window Styles flag set.
+helpviewer_keywords: ["IRegTreeItem","IRegTreeItem interface [Windows Shell]","IRegTreeItem interface [Windows Shell]","described","_win32_IRegTreeItem","shell.IRegTreeItem","shobjidl_core/IRegTreeItem"]
 old-location: shell\IRegTreeItem.htm
 tech.root: shell
 ms.assetid: a9ae0fb3-4a6e-473e-9fa3-d3894834fb72

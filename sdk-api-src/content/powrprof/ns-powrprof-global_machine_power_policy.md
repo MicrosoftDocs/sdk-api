@@ -1,7 +1,8 @@
 ---
 UID: NS:powrprof._GLOBAL_MACHINE_POWER_POLICY
 title: GLOBAL_MACHINE_POWER_POLICY (powrprof.h)
-description: Contains global computer power policy settings that apply to all power schemes for all users.helpviewer_keywords: ["*PGLOBAL_MACHINE_POWER_POLICY","GLOBAL_MACHINE_POWER_POLICY","GLOBAL_MACHINE_POWER_POLICY structure","PGLOBAL_MACHINE_POWER_POLICY","PGLOBAL_MACHINE_POWER_POLICY structure pointer","_win32_global_machine_power_policy_str","base.global_machine_power_policy_str","powrprof/GLOBAL_MACHINE_POWER_POLICY","powrprof/PGLOBAL_MACHINE_POWER_POLICY"]
+description: Contains global computer power policy settings that apply to all power schemes for all users.
+helpviewer_keywords: ["*PGLOBAL_MACHINE_POWER_POLICY","GLOBAL_MACHINE_POWER_POLICY","GLOBAL_MACHINE_POWER_POLICY structure","PGLOBAL_MACHINE_POWER_POLICY","PGLOBAL_MACHINE_POWER_POLICY structure pointer","_win32_global_machine_power_policy_str","base.global_machine_power_policy_str","powrprof/GLOBAL_MACHINE_POWER_POLICY","powrprof/PGLOBAL_MACHINE_POWER_POLICY"]
 old-location: base\global_machine_power_policy_str.htm
 tech.root: power
 ms.assetid: 79b57da4-0125-427b-aec7-7ca4c9bfb870

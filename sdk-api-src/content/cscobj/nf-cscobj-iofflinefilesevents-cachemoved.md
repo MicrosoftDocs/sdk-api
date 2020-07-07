@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.CacheMoved
 title: IOfflineFilesEvents::CacheMoved (cscobj.h)
-description: This method is reserved for future use.helpviewer_keywords: ["CacheMoved","CacheMoved method [Offline Files]","CacheMoved method [Offline Files]","IOfflineFilesEvents interface","IOfflineFilesEvents interface [Offline Files]","CacheMoved method","IOfflineFilesEvents.CacheMoved","IOfflineFilesEvents::CacheMoved","cscobj/IOfflineFilesEvents::CacheMoved","of.iofflinefilesevents_cachemoved"]
+description: This method is reserved for future use.
+helpviewer_keywords: ["CacheMoved","CacheMoved method [Offline Files]","CacheMoved method [Offline Files]","IOfflineFilesEvents interface","IOfflineFilesEvents interface [Offline Files]","CacheMoved method","IOfflineFilesEvents.CacheMoved","IOfflineFilesEvents::CacheMoved","cscobj/IOfflineFilesEvents::CacheMoved","of.iofflinefilesevents_cachemoved"]
 old-location: of\iofflinefilesevents_cachemoved.htm
 tech.root: offlinefiles
 ms.assetid: 73d9bb7b-4844-4d7c-9e50-8d63727f5309

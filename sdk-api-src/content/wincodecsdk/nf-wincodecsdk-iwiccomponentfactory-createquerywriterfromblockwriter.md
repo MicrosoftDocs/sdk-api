@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodecsdk.IWICComponentFactory.CreateQueryWriterFromBlockWriter
 title: IWICComponentFactory::CreateQueryWriterFromBlockWriter (wincodecsdk.h)
-description: Creates a IWICMetadataQueryWriter from the given IWICMetadataBlockWriter.helpviewer_keywords: ["CreateQueryWriterFromBlockWriter","CreateQueryWriterFromBlockWriter method [Windows Imaging Component]","CreateQueryWriterFromBlockWriter method [Windows Imaging Component]","IWICComponentFactory interface","IWICComponentFactory interface [Windows Imaging Component]","CreateQueryWriterFromBlockWriter method","IWICComponentFactory.CreateQueryWriterFromBlockWriter","IWICComponentFactory::CreateQueryWriterFromBlockWriter","_wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter","wic._wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter","wincodecsdk/IWICComponentFactory::CreateQueryWriterFromBlockWriter"]
+description: Creates a IWICMetadataQueryWriter from the given IWICMetadataBlockWriter.
+helpviewer_keywords: ["CreateQueryWriterFromBlockWriter","CreateQueryWriterFromBlockWriter method [Windows Imaging Component]","CreateQueryWriterFromBlockWriter method [Windows Imaging Component]","IWICComponentFactory interface","IWICComponentFactory interface [Windows Imaging Component]","CreateQueryWriterFromBlockWriter method","IWICComponentFactory.CreateQueryWriterFromBlockWriter","IWICComponentFactory::CreateQueryWriterFromBlockWriter","_wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter","wic._wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter","wincodecsdk/IWICComponentFactory::CreateQueryWriterFromBlockWriter"]
 old-location: wic\_wic_codec_iwiccomponentfactory_createquerywriterfromblockwriter.htm
 tech.root: wic
 ms.assetid: 1ad15754-c180-43e0-a307-6ff84f7eebd6

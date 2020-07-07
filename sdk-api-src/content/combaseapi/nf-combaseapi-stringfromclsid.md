@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.StringFromCLSID
 title: StringFromCLSID function (combaseapi.h)
-description: Converts a CLSID into a string of printable characters. Different CLSIDs always convert to different strings.helpviewer_keywords: ["StringFromCLSID","StringFromCLSID function [COM]","_com_StringFromCLSID","com.stringfromclsid","combaseapi/StringFromCLSID"]
+description: Converts a CLSID into a string of printable characters. Different CLSIDs always convert to different strings.
+helpviewer_keywords: ["StringFromCLSID","StringFromCLSID function [COM]","_com_StringFromCLSID","com.stringfromclsid","combaseapi/StringFromCLSID"]
 old-location: com\stringfromclsid.htm
 tech.root: com
 ms.assetid: 61210ebd-cbf3-4e78-b077-53d2779053eb

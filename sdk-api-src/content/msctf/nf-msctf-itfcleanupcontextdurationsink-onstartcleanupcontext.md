@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCleanupContextDurationSink.OnStartCleanupContext
 title: ITfCleanupContextDurationSink::OnStartCleanupContext (msctf.h)
-description: ITfCleanupContextDurationSink::OnStartCleanupContext methodhelpviewer_keywords: ["ITfCleanupContextDurationSink interface [Text Services Framework]","OnStartCleanupContext method","ITfCleanupContextDurationSink.OnStartCleanupContext","ITfCleanupContextDurationSink::OnStartCleanupContext","OnStartCleanupContext","OnStartCleanupContext method [Text Services Framework]","OnStartCleanupContext method [Text Services Framework]","ITfCleanupContextDurationSink interface","_tsf_itfcleanupcontextdurationsink_onstartcleanupcontext_ref","msctf/ITfCleanupContextDurationSink::OnStartCleanupContext","tsf.itfcleanupcontextdurationsink_onstartcleanupcontext"]
+description: ITfCleanupContextDurationSink::OnStartCleanupContext method
+helpviewer_keywords: ["ITfCleanupContextDurationSink interface [Text Services Framework]","OnStartCleanupContext method","ITfCleanupContextDurationSink.OnStartCleanupContext","ITfCleanupContextDurationSink::OnStartCleanupContext","OnStartCleanupContext","OnStartCleanupContext method [Text Services Framework]","OnStartCleanupContext method [Text Services Framework]","ITfCleanupContextDurationSink interface","_tsf_itfcleanupcontextdurationsink_onstartcleanupcontext_ref","msctf/ITfCleanupContextDurationSink::OnStartCleanupContext","tsf.itfcleanupcontextdurationsink_onstartcleanupcontext"]
 old-location: tsf\itfcleanupcontextdurationsink_onstartcleanupcontext.htm
 tech.root: TSF
 ms.assetid: a35aa7b1-273d-47ff-a705-298393f4abd2

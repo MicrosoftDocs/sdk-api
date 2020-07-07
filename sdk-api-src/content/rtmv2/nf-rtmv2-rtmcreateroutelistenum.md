@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmCreateRouteListEnum
 title: RtmCreateRouteListEnum function (rtmv2.h)
-description: The RtmCreateRouteListEnum function creates an enumeration of routes on the specified route list.helpviewer_keywords: ["RtmCreateRouteListEnum","RtmCreateRouteListEnum function [RAS]","_rtmv2ref_rtmcreateroutelistenum","rras.rtmcreateroutelistenum","rtmv2/RtmCreateRouteListEnum"]
+description: The RtmCreateRouteListEnum function creates an enumeration of routes on the specified route list.
+helpviewer_keywords: ["RtmCreateRouteListEnum","RtmCreateRouteListEnum function [RAS]","_rtmv2ref_rtmcreateroutelistenum","rras.rtmcreateroutelistenum","rtmv2/RtmCreateRouteListEnum"]
 old-location: rras\rtmcreateroutelistenum.htm
 tech.root: RRAS
 ms.assetid: 107fc253-58b3-479c-9cda-2c3b322e76f8

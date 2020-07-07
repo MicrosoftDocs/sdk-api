@@ -1,7 +1,8 @@
 ---
 UID: NC:ws2spi.LPWSPGETSOCKNAME
 title: LPWSPGETSOCKNAME
-description: The LPWSPGetSockName function gets the local name for a socket.helpviewer_keywords: ["LPWSPGETSOCKNAME"]
+description: The LPWSPGetSockName function gets the local name for a socket.
+helpviewer_keywords: ["LPWSPGETSOCKNAME"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPGETSOCKNAME
 targetos: Windows

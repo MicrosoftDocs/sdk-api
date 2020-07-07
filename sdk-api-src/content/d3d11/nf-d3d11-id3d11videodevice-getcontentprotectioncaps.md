@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.GetContentProtectionCaps
 title: ID3D11VideoDevice::GetContentProtectionCaps (d3d11.h)
-description: Queries the driver for its content protection capabilities.helpviewer_keywords: ["D3D11_CRYPTO_TYPE_AES128_CTR","GetContentProtectionCaps","GetContentProtectionCaps method [Media Foundation]","GetContentProtectionCaps method [Media Foundation]","ID3D11VideoDevice interface","ID3D11VideoDevice interface [Media Foundation]","GetContentProtectionCaps method","ID3D11VideoDevice.GetContentProtectionCaps","ID3D11VideoDevice::GetContentProtectionCaps","d3d11/ID3D11VideoDevice::GetContentProtectionCaps","mf.id3d11videodevice_getcontentprotectioncaps"]
+description: Queries the driver for its content protection capabilities.
+helpviewer_keywords: ["D3D11_CRYPTO_TYPE_AES128_CTR","GetContentProtectionCaps","GetContentProtectionCaps method [Media Foundation]","GetContentProtectionCaps method [Media Foundation]","ID3D11VideoDevice interface","ID3D11VideoDevice interface [Media Foundation]","GetContentProtectionCaps method","ID3D11VideoDevice.GetContentProtectionCaps","ID3D11VideoDevice::GetContentProtectionCaps","d3d11/ID3D11VideoDevice::GetContentProtectionCaps","mf.id3d11videodevice_getcontentprotectioncaps"]
 old-location: mf\id3d11videodevice_getcontentprotectioncaps.htm
 tech.root: medfound
 ms.assetid: 3BF2D2B9-6A12-4E71-9F52-829BABA32EF6

@@ -1,7 +1,8 @@
 ---
 UID: NS:winsock2.pollfd
 title: WSAPOLLFD (winsock2.h)
-description: Stores socket information used by the WSAPoll function.helpviewer_keywords: ["*LPWSAPOLLFD","*PWSAPOLLFD","LPWSAPOLLFD","LPWSAPOLLFD structure pointer [Winsock]","PWSAPOLLFD","PWSAPOLLFD structure pointer [Winsock]","WSAPOLLFD","WSAPOLLFD structure [Winsock]","winsock.pollfd","winsock2/LPWSAPOLLFD","winsock2/PWSAPOLLFD","winsock2/WSAPOLLFD"]
+description: Stores socket information used by the WSAPoll function.
+helpviewer_keywords: ["*LPWSAPOLLFD","*PWSAPOLLFD","LPWSAPOLLFD","LPWSAPOLLFD structure pointer [Winsock]","PWSAPOLLFD","PWSAPOLLFD structure pointer [Winsock]","WSAPOLLFD","WSAPOLLFD structure [Winsock]","winsock.pollfd","winsock2/LPWSAPOLLFD","winsock2/PWSAPOLLFD","winsock2/WSAPOLLFD"]
 old-location: winsock\pollfd.htm
 tech.root: WinSock
 ms.assetid: 88f122ce-e2ca-44ce-bd53-d73d0962e7ef

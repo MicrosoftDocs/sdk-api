@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV4RemovePolicyRange
 title: DhcpV4RemovePolicyRange function (dhcpsapi.h)
-description: Removes the specified IP address range from the list of IP address ranges of the policy.helpviewer_keywords: ["DhcpV4RemovePolicyRange","DhcpV4RemovePolicyRange function [DHCP]","dhcp.dhcpv4removepolicyrange","dhcpsapi/DhcpV4RemovePolicyRange"]
+description: Removes the specified IP address range from the list of IP address ranges of the policy.
+helpviewer_keywords: ["DhcpV4RemovePolicyRange","DhcpV4RemovePolicyRange function [DHCP]","dhcp.dhcpv4removepolicyrange","dhcpsapi/DhcpV4RemovePolicyRange"]
 old-location: dhcp\dhcpv4removepolicyrange.htm
 tech.root: DHCP
 ms.assetid: 2799e869-e9dd-41de-b808-8e4c52ee9ecf

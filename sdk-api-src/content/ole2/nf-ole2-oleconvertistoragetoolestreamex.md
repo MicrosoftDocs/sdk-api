@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleConvertIStorageToOLESTREAMEx
 title: OleConvertIStorageToOLESTREAMEx function (ole2.h)
-description: The OleConvertIStorageToOLESTREAMEx function converts the specified storage object from OLE 2 structured storage to the OLE 1 storage object model, including the presentation data.helpviewer_keywords: ["OleConvertIStorageToOLESTREAMEx","OleConvertIStorageToOLESTREAMEx function [Structured Storage]","_stg_oleconvertistoragetoolestreamex","ole2/OleConvertIStorageToOLESTREAMEx","stg.oleconvertistoragetoolestreamex"]
+description: The OleConvertIStorageToOLESTREAMEx function converts the specified storage object from OLE 2 structured storage to the OLE 1 storage object model, including the presentation data.
+helpviewer_keywords: ["OleConvertIStorageToOLESTREAMEx","OleConvertIStorageToOLESTREAMEx function [Structured Storage]","_stg_oleconvertistoragetoolestreamex","ole2/OleConvertIStorageToOLESTREAMEx","stg.oleconvertistoragetoolestreamex"]
 old-location: stg\oleconvertistoragetoolestreamex.htm
 tech.root: Stg
 ms.assetid: a6026b71-4223-40ab-b209-44531480db57
@@ -87,7 +88,7 @@ Size of the data, in bytes, to be converted.
 ### -param pmedium [in]
 
 Pointer to the 
-<a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure for the serialized data to be converted.
+<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure for the serialized data to be converted.
 
 
 ### -param polestm [out]
@@ -118,7 +119,7 @@ Because
 <b>OleConvertIStorageToOLESTREAMEx</b> can specify which presentation data to convert, it can be used by applications that do not use OLE default caching resources but do use OLE's conversion resources.
 
 The value of the <b>tymed</b> member of 
-<a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> must be either TYMED_HGLOBAL or TYMED_ISTREAM; refer to the 
+<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> must be either TYMED_HGLOBAL or TYMED_ISTREAM; refer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED</a> enumeration for more information. The medium is not released by the 
 <b>OleConvertIStorageToOLESTREAMEx</b> function.
 
@@ -146,7 +147,7 @@ The value of the <b>tymed</b> member of
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
+<a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a>
 
 
 

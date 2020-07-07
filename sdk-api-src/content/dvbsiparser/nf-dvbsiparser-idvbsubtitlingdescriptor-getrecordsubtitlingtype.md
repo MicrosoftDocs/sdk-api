@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbSubtitlingDescriptor.GetRecordSubtitlingType
 title: IDvbSubtitlingDescriptor::GetRecordSubtitlingType (dvbsiparser.h)
-description: Gets the subtitling component type from a DVB subtitling descriptor.helpviewer_keywords: ["GetRecordSubtitlingType","GetRecordSubtitlingType method [Microsoft TV Technologies]","GetRecordSubtitlingType method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetRecordSubtitlingType method","IDvbSubtitlingDescriptor.GetRecordSubtitlingType","IDvbSubtitlingDescriptor::GetRecordSubtitlingType","dvbsiparser/IDvbSubtitlingDescriptor::GetRecordSubtitlingType","mstv.idvbsubtitlingdescriptor_getrecordsubtitlingtype"]
+description: Gets the subtitling component type from a DVB subtitling descriptor.
+helpviewer_keywords: ["GetRecordSubtitlingType","GetRecordSubtitlingType method [Microsoft TV Technologies]","GetRecordSubtitlingType method [Microsoft TV Technologies]","IDvbSubtitlingDescriptor interface","IDvbSubtitlingDescriptor interface [Microsoft TV Technologies]","GetRecordSubtitlingType method","IDvbSubtitlingDescriptor.GetRecordSubtitlingType","IDvbSubtitlingDescriptor::GetRecordSubtitlingType","dvbsiparser/IDvbSubtitlingDescriptor::GetRecordSubtitlingType","mstv.idvbsubtitlingdescriptor_getrecordsubtitlingtype"]
 old-location: mstv\idvbsubtitlingdescriptor_getrecordsubtitlingtype.htm
 tech.root: mstv
 ms.assetid: 5ab91508-9afe-4ab7-957f-5467e87ce7ee

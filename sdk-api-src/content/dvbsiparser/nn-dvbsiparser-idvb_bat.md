@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IDVB_BAT
 title: IDVB_BAT (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IDVB_BAT","IDVB_BAT interface [Microsoft TV Technologies]","IDVB_BAT interface [Microsoft TV Technologies]","described","IDVB_BATInterface","dvbsiparser/IDVB_BAT","mstv.idvb_bat"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IDVB_BAT","IDVB_BAT interface [Microsoft TV Technologies]","IDVB_BAT interface [Microsoft TV Technologies]","described","IDVB_BATInterface","dvbsiparser/IDVB_BAT","mstv.idvb_bat"]
 old-location: mstv\idvb_bat.htm
 tech.root: mstv
 ms.assetid: c312a152-21ee-4708-90a8-ab9bde9a2011

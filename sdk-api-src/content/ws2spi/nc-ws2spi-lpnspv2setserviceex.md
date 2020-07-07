@@ -1,7 +1,8 @@
 ---
 UID: NC:ws2spi.LPNSPV2SETSERVICEEX
 title: LPNSPV2SETSERVICEEX (ws2spi.h)
-description: Registers or deregisters a name or service instance within a namespace of a namespace service provider version-2 (NSPv2) provider.helpviewer_keywords: ["LPNSPV2SETSERVICEEX","NSPv2SetServiceEx","NSPv2SetServiceEx function [Winsock]","RNRSERVICE_DELETE","RNRSERVICE_DEREGISTER","RNRSERVICE_REGISTER","SERVICE_MULTIPLE","winsock.nspv2setserviceex","ws2spi/NSPv2SetServiceEx"]
+description: Registers or deregisters a name or service instance within a namespace of a namespace service provider version-2 (NSPv2) provider.
+helpviewer_keywords: ["LPNSPV2SETSERVICEEX","NSPv2SetServiceEx","NSPv2SetServiceEx function [Winsock]","RNRSERVICE_DELETE","RNRSERVICE_DEREGISTER","RNRSERVICE_REGISTER","SERVICE_MULTIPLE","winsock.nspv2setserviceex","ws2spi/NSPv2SetServiceEx"]
 old-location: winsock\nspv2setserviceex.htm
 tech.root: WinSock
 ms.assetid: 596fe0bd-ec11-44f3-bffe-333758171ea6

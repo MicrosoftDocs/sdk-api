@@ -1,7 +1,8 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorDisplayAreaSize
 title: SetMonitorDisplayAreaSize function (highlevelmonitorconfigurationapi.h)
-description: Sets the width or height of a monitor's display area.helpviewer_keywords: ["SetMonitorDisplayAreaSize","SetMonitorDisplayAreaSize function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize","monitor.setmonitordisplayareasize"]
+description: Sets the width or height of a monitor's display area.
+helpviewer_keywords: ["SetMonitorDisplayAreaSize","SetMonitorDisplayAreaSize function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorDisplayAreaSize","monitor.setmonitordisplayareasize"]
 old-location: monitor\setmonitordisplayareasize.htm
 tech.root: Monitor
 ms.assetid: 0c3acb13-c5db-44ce-937d-b0b001a08062
@@ -65,7 +66,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param stSizeType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_size_type">MC_SIZE_TYPE</a> enumeration, specifying whether to set the width or the height.
+A member of the <a href="/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_size_type">MC_SIZE_TYPE</a> enumeration, specifying whether to set the width or the height.
           
 
 

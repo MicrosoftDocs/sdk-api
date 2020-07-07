@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComObjectEvents.OnSetComplete
 title: IComObjectEvents::OnSetComplete (comsvcs.h)
-description: Generated when the client calls SetComplete on a context.helpviewer_keywords: ["IComObjectEvents interface [COM+]","OnSetComplete method","IComObjectEvents.OnSetComplete","IComObjectEvents::OnSetComplete","OnSetComplete","OnSetComplete method [COM+]","OnSetComplete method [COM+]","IComObjectEvents interface","_dtc_IComObjectEvents_OnSetComplete","comsvcs/IComObjectEvents::OnSetComplete","cos.icomobjectevents_onsetcomplete"]
+description: Generated when the client calls SetComplete on a context.
+helpviewer_keywords: ["IComObjectEvents interface [COM+]","OnSetComplete method","IComObjectEvents.OnSetComplete","IComObjectEvents::OnSetComplete","OnSetComplete","OnSetComplete method [COM+]","OnSetComplete method [COM+]","IComObjectEvents interface","_dtc_IComObjectEvents_OnSetComplete","comsvcs/IComObjectEvents::OnSetComplete","cos.icomobjectevents_onsetcomplete"]
 old-location: cos\icomobjectevents_onsetcomplete.htm
 tech.root: cossdk
 ms.assetid: 3bda05b7-3306-428c-b920-d87eee0b35d7
@@ -59,7 +60,7 @@ Generated when the client calls <a href="https://docs.microsoft.com/windows/desk
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param CtxtID [in]

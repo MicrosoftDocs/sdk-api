@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodecsdk.WICMetadataCreationOptions
 title: WICMetadataCreationOptions (wincodecsdk.h)
-description: Specifies metadata creation options.helpviewer_keywords: ["WICMetadataCreationAllowUnknown","WICMetadataCreationDefault","WICMetadataCreationFailUnknown","WICMetadataCreationMask","WICMetadataCreationOptions","WICMetadataCreationOptions enumeration [Windows Imaging Component]","_wic_codec_wicmetadatacreationoptions","wic._wic_codec_wicmetadatacreationoptions","wincodecsdk/WICMetadataCreationAllowUnknown","wincodecsdk/WICMetadataCreationDefault","wincodecsdk/WICMetadataCreationFailUnknown","wincodecsdk/WICMetadataCreationMask","wincodecsdk/WICMetadataCreationOptions"]
+description: Specifies metadata creation options.
+helpviewer_keywords: ["WICMetadataCreationAllowUnknown","WICMetadataCreationDefault","WICMetadataCreationFailUnknown","WICMetadataCreationMask","WICMetadataCreationOptions","WICMetadataCreationOptions enumeration [Windows Imaging Component]","_wic_codec_wicmetadatacreationoptions","wic._wic_codec_wicmetadatacreationoptions","wincodecsdk/WICMetadataCreationAllowUnknown","wincodecsdk/WICMetadataCreationDefault","wincodecsdk/WICMetadataCreationFailUnknown","wincodecsdk/WICMetadataCreationMask","wincodecsdk/WICMetadataCreationOptions"]
 old-location: wic\_wic_codec_wicmetadatacreationoptions.htm
 tech.root: wic
 ms.assetid: 41fece55-1ce4-455a-99b5-5ff0ecd27e07

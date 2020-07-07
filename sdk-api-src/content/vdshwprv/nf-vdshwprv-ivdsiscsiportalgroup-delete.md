@@ -1,7 +1,8 @@
 ---
 UID: NF:vdshwprv.IVdsIscsiPortalGroup.Delete
 title: IVdsIscsiPortalGroup::Delete (vdshwprv.h)
-description: Deletes the portal group.helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","Delete method","IVdsIscsiPortalGroup.Delete","IVdsIscsiPortalGroup::Delete","base.ivdsiscsiportalgroup_delete","vds/IVdsIscsiPortalGroup::Delete","vdshwprv/IVdsIscsiPortalGroup::Delete"]
+description: Deletes the portal group.
+helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","Delete method","IVdsIscsiPortalGroup.Delete","IVdsIscsiPortalGroup::Delete","base.ivdsiscsiportalgroup_delete","vds/IVdsIscsiPortalGroup::Delete","vdshwprv/IVdsIscsiPortalGroup::Delete"]
 old-location: base\ivdsiscsiportalgroup_delete.htm
 tech.root: VDS
 ms.assetid: 903f89b8-4712-4832-ba70-41a5362cbf28

@@ -1,7 +1,8 @@
 ---
 UID: NF:mmiscapi.mmioSendMessage
 title: mmioSendMessage function (mmiscapi.h)
-description: The mmioSendMessage function sends a message to the I/O procedure associated with the specified file.helpviewer_keywords: ["_win32_mmioSendMessage","mmioSendMessage","mmioSendMessage function [Windows Multimedia]","mmsystem/mmioSendMessage","multimedia.mmiosendmessage"]
+description: The mmioSendMessage function sends a message to the I/O procedure associated with the specified file.
+helpviewer_keywords: ["_win32_mmioSendMessage","mmioSendMessage","mmioSendMessage function [Windows Multimedia]","mmsystem/mmioSendMessage","multimedia.mmiosendmessage"]
 old-location: multimedia\mmiosendmessage.htm
 tech.root: Multimedia
 ms.assetid: 6ff058bf-0681-4ab8-abea-ee820359f4b3

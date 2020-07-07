@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleParentUndoUnit.GetParentState
 title: IOleParentUndoUnit::GetParentState (ocidl.h)
-description: Retrieves state information about the innermost open parent undo unit.helpviewer_keywords: ["GetParentState","GetParentState method [COM]","GetParentState method [COM]","IOleParentUndoUnit interface","IOleParentUndoUnit interface [COM]","GetParentState method","IOleParentUndoUnit.GetParentState","IOleParentUndoUnit::GetParentState","_ole_ioleparentundounit_getparentstate","com.ioleparentundounit_getparentstate","ocidl/IOleParentUndoUnit::GetParentState"]
+description: Retrieves state information about the innermost open parent undo unit.
+helpviewer_keywords: ["GetParentState","GetParentState method [COM]","GetParentState method [COM]","IOleParentUndoUnit interface","IOleParentUndoUnit interface [COM]","GetParentState method","IOleParentUndoUnit.GetParentState","IOleParentUndoUnit::GetParentState","_ole_ioleparentundounit_getparentstate","com.ioleparentundounit_getparentstate","ocidl/IOleParentUndoUnit::GetParentState"]
 old-location: com\ioleparentundounit_getparentstate.htm
 tech.root: com
 ms.assetid: 23eb1768-b68a-4b97-94a4-eeb7b840dda8

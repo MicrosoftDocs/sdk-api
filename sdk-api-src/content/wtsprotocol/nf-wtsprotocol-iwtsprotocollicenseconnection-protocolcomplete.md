@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLicenseConnection.ProtocolComplete
 title: IWTSProtocolLicenseConnection::ProtocolComplete (wtsprotocol.h)
-description: IWTSProtocolLicenseConnection::ProtocolComplete is no longer available. Instead, use IWRdsProtocolLicenseConnection::ProtocolComplete.helpviewer_keywords: ["IWTSProtocolLicenseConnection interface [Remote Desktop Services]","ProtocolComplete method","IWTSProtocolLicenseConnection.ProtocolComplete","IWTSProtocolLicenseConnection::ProtocolComplete","ProtocolComplete","ProtocolComplete method [Remote Desktop Services]","ProtocolComplete method [Remote Desktop Services]","IWTSProtocolLicenseConnection interface","termserv.iwtsprotocollicenseconnection_protocolcomplete","wtsprotocol/IWTSProtocolLicenseConnection::ProtocolComplete"]
+description: IWTSProtocolLicenseConnection::ProtocolComplete is no longer available. Instead, use IWRdsProtocolLicenseConnection::ProtocolComplete.
+helpviewer_keywords: ["IWTSProtocolLicenseConnection interface [Remote Desktop Services]","ProtocolComplete method","IWTSProtocolLicenseConnection.ProtocolComplete","IWTSProtocolLicenseConnection::ProtocolComplete","ProtocolComplete","ProtocolComplete method [Remote Desktop Services]","ProtocolComplete method [Remote Desktop Services]","IWTSProtocolLicenseConnection interface","termserv.iwtsprotocollicenseconnection_protocolcomplete","wtsprotocol/IWTSProtocolLicenseConnection::ProtocolComplete"]
 old-location: termserv\iwtsprotocollicenseconnection_protocolcomplete.htm
 tech.root: TermServ
 ms.assetid: 3a615e25-51d0-49eb-ae0f-185fd3a0ea23

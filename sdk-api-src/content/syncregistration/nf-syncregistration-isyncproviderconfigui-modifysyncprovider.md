@@ -1,7 +1,8 @@
 ---
 UID: NF:syncregistration.ISyncProviderConfigUI.ModifySyncProvider
 title: ISyncProviderConfigUI::ModifySyncProvider (syncregistration.h)
-description: Updates the ISyncProviderInfo of the synchronization provider that is configured by this ISyncProviderConfigUI.helpviewer_keywords: ["ISyncProviderConfigUI interface [Windows Sync]","ModifySyncProvider method","ISyncProviderConfigUI.ModifySyncProvider","ISyncProviderConfigUI::ModifySyncProvider","ModifySyncProvider","ModifySyncProvider method [Windows Sync]","ModifySyncProvider method [Windows Sync]","ISyncProviderConfigUI interface","syncregistration/ISyncProviderConfigUI::ModifySyncProvider","winsync.isyncproviderconfigui_modifysyncprovider"]
+description: Updates the ISyncProviderInfo of the synchronization provider that is configured by this ISyncProviderConfigUI.
+helpviewer_keywords: ["ISyncProviderConfigUI interface [Windows Sync]","ModifySyncProvider method","ISyncProviderConfigUI.ModifySyncProvider","ISyncProviderConfigUI::ModifySyncProvider","ModifySyncProvider","ModifySyncProvider method [Windows Sync]","ModifySyncProvider method [Windows Sync]","ISyncProviderConfigUI interface","syncregistration/ISyncProviderConfigUI::ModifySyncProvider","winsync.isyncproviderconfigui_modifysyncprovider"]
 old-location: winsync\isyncproviderconfigui_modifysyncprovider.htm
 tech.root: winsync
 ms.assetid: 16f6d30c-422a-4638-a63b-f9d2a5fdb8b4
@@ -60,7 +61,7 @@ Updates the <a href="https://docs.microsoft.com/previous-versions/windows/deskto
 ### -param hwndParent [in]
 
 HWND serving as the parent for the configuration UI that needs to be presented before the synchronization provider can be created. 
-    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
+    	The HWND should be <b>NULL</b> only if the <b>dwCapabilities</b> member of the <a href="/windows/win32/api/syncregistration/ns-syncregistration-syncproviderconfiguiconfiguration">SyncProviderConfigUIConfiguration</a> structure is set to not support a UI.
 
 
 ### -param pUnkContext [in]

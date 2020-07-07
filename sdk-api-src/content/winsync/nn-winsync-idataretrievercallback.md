@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.IDataRetrieverCallback
 title: IDataRetrieverCallback (winsync.h)
-description: Represents methods that an IAsynchronousDataRetriever object can call to indicate that processing has been completed on an IAsynchronousDataRetriever method.helpviewer_keywords: ["IDataRetrieverCallback","IDataRetrieverCallback interface [Windows Sync]","IDataRetrieverCallback interface [Windows Sync]","described","winsync.idataretrievercallback","winsync/IDataRetrieverCallback"]
+description: Represents methods that an IAsynchronousDataRetriever object can call to indicate that processing has been completed on an IAsynchronousDataRetriever method.
+helpviewer_keywords: ["IDataRetrieverCallback","IDataRetrieverCallback interface [Windows Sync]","IDataRetrieverCallback interface [Windows Sync]","described","winsync.idataretrievercallback","winsync/IDataRetrieverCallback"]
 old-location: winsync\idataretrievercallback.htm
 tech.root: winsync
 ms.assetid: fc49614d-fdd7-433a-a942-f442edf1c69f

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.get_CurrentFormula
 title: IUIAutomationSpreadsheetItemPattern::get_CurrentFormula (uiautomationclient.h)
-description: Retrieves the formula for this cell.helpviewer_keywords: ["CurrentFormula property [Windows Accessibility]","CurrentFormula property [Windows Accessibility]","IUIAutomationSpreadsheetItemPattern interface","IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility]","CurrentFormula property","IUIAutomationSpreadsheetItemPattern.CurrentFormula","IUIAutomationSpreadsheetItemPattern.get_CurrentFormula","IUIAutomationSpreadsheetItemPattern::CurrentFormula","IUIAutomationSpreadsheetItemPattern::get_CurrentFormula","get_CurrentFormula","uiautomationclient/IUIAutomationSpreadsheetItemPattern::CurrentFormula","uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CurrentFormula","winauto.uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula"]
+description: Retrieves the formula for this cell.
+helpviewer_keywords: ["CurrentFormula property [Windows Accessibility]","CurrentFormula property [Windows Accessibility]","IUIAutomationSpreadsheetItemPattern interface","IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility]","CurrentFormula property","IUIAutomationSpreadsheetItemPattern.CurrentFormula","IUIAutomationSpreadsheetItemPattern.get_CurrentFormula","IUIAutomationSpreadsheetItemPattern::CurrentFormula","IUIAutomationSpreadsheetItemPattern::get_CurrentFormula","get_CurrentFormula","uiautomationclient/IUIAutomationSpreadsheetItemPattern::CurrentFormula","uiautomationclient/IUIAutomationSpreadsheetItemPattern::get_CurrentFormula","winauto.uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula"]
 old-location: winauto\uiauto_IUIAutomationspreadSheetItemPattern_CurrentFormula.htm
 tech.root: WinAuto
 ms.assetid: CBE97F32-9640-4093-9612-8751C4508563

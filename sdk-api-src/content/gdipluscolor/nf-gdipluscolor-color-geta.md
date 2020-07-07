@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluscolor.Color.GetA
 title: Color::GetA (gdipluscolor.h)
-description: The Color::GetA method gets the alpha component of this Color object.helpviewer_keywords: ["Color class [GDI+]","GetA method","Color.GetA","Color::GetA","GetA","GetA method [GDI+]","GetA method [GDI+]","Color class","_gdiplus_CLASS_Color_GetA_","gdiplus._gdiplus_CLASS_Color_GetA_"]
+description: The Color::GetA method gets the alpha component of this Color object.
+helpviewer_keywords: ["Color class [GDI+]","GetA method","Color.GetA","Color::GetA","GetA","GetA method [GDI+]","GetA method [GDI+]","Color class","_gdiplus_CLASS_Color_GetA_","gdiplus._gdiplus_CLASS_Color_GetA_"]
 old-location: gdiplus\_gdiplus_CLASS_Color_GetA_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\geta.htm

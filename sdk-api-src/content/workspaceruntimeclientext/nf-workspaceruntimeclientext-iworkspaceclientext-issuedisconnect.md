@@ -1,7 +1,8 @@
 ---
 UID: NF:workspaceruntimeclientext.IWorkspaceClientExt.IssueDisconnect
 title: IWorkspaceClientExt::IssueDisconnect (workspaceruntimeclientext.h)
-description: Disconnects the custom client in RemoteApp and Desktop Connection.helpviewer_keywords: ["IWorkspaceClientExt interface [Remote Desktop Services]","IssueDisconnect method","IWorkspaceClientExt.IssueDisconnect","IWorkspaceClientExt::IssueDisconnect","IssueDisconnect","IssueDisconnect method [Remote Desktop Services]","IssueDisconnect method [Remote Desktop Services]","IWorkspaceClientExt interface","termserv.iworkspaceclientext_issuedisconnect","workspaceruntimeclientext/IWorkspaceClientExt::IssueDisconnect"]
+description: Disconnects the custom client in RemoteApp and Desktop Connection.
+helpviewer_keywords: ["IWorkspaceClientExt interface [Remote Desktop Services]","IssueDisconnect method","IWorkspaceClientExt.IssueDisconnect","IWorkspaceClientExt::IssueDisconnect","IssueDisconnect","IssueDisconnect method [Remote Desktop Services]","IssueDisconnect method [Remote Desktop Services]","IWorkspaceClientExt interface","termserv.iworkspaceclientext_issuedisconnect","workspaceruntimeclientext/IWorkspaceClientExt::IssueDisconnect"]
 old-location: termserv\iworkspaceclientext_issuedisconnect.htm
 tech.root: TermServ
 ms.assetid: 07c2546b-e9bf-46e6-a1de-6da31fa1579b

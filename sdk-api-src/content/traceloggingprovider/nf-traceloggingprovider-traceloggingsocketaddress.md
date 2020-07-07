@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingSocketAddress
 title: TraceLoggingSocketAddress macro (traceloggingprovider.h)
-description: A wrapper macro that provides trace logging for socket addresses.helpviewer_keywords: ["TraceLoggingSocketAddress","TraceLoggingSocketAddress macro","tracelogging.traceloggingsocketaddress","traceloggingprovider/TraceLoggingSocketAddress"]
+description: A wrapper macro that provides trace logging for socket addresses.
+helpviewer_keywords: ["TraceLoggingSocketAddress","TraceLoggingSocketAddress macro","tracelogging.traceloggingsocketaddress","traceloggingprovider/TraceLoggingSocketAddress"]
 old-location: tracelogging\traceloggingsocketaddress.htm
 tech.root: tracelogging
 ms.assetid: 7965C10A-2C19-4AA3-A9E3-7219EFB2D3A0

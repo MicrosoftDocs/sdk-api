@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.QueryAssociatedLuns
 title: IVdsIscsiTarget::QueryAssociatedLuns (vds.h)
-description: Returns a enumeration of the LUNs associated with the target.helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","QueryAssociatedLuns method","IVdsIscsiTarget.QueryAssociatedLuns","IVdsIscsiTarget::QueryAssociatedLuns","QueryAssociatedLuns","QueryAssociatedLuns method [VDS]","QueryAssociatedLuns method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_queryassociatedluns","vds/IVdsIscsiTarget::QueryAssociatedLuns","vdshwprv/IVdsIscsiTarget::QueryAssociatedLuns"]
+description: Returns a enumeration of the LUNs associated with the target.
+helpviewer_keywords: ["IVdsIscsiTarget interface [VDS]","QueryAssociatedLuns method","IVdsIscsiTarget.QueryAssociatedLuns","IVdsIscsiTarget::QueryAssociatedLuns","QueryAssociatedLuns","QueryAssociatedLuns method [VDS]","QueryAssociatedLuns method [VDS]","IVdsIscsiTarget interface","base.ivdsiscsitarget_queryassociatedluns","vds/IVdsIscsiTarget::QueryAssociatedLuns","vdshwprv/IVdsIscsiTarget::QueryAssociatedLuns"]
 old-location: base\ivdsiscsitarget_queryassociatedluns.htm
 tech.root: VDS
 ms.assetid: 3f375c0b-7400-4660-8cb1-5291fd0dd52c

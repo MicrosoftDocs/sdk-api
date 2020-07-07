@@ -1,7 +1,8 @@
 ---
 UID: NC:routprot.PINTERFACE_STATUS
 title: PINTERFACE_STATUS (routprot.h)
-description: Router manager calls the InterfaceStatus function to change the status of an interface.helpviewer_keywords: ["InterfaceStatus","InterfaceStatus callback function [RAS]","PINTERFACE_STATUS","PINTERFACE_STATUS callback","_mpr_interfacestatus","routprot/InterfaceStatus","rras.interfacestatus"]
+description: Router manager calls the InterfaceStatus function to change the status of an interface.
+helpviewer_keywords: ["InterfaceStatus","InterfaceStatus callback function [RAS]","PINTERFACE_STATUS","PINTERFACE_STATUS callback","_mpr_interfacestatus","routprot/InterfaceStatus","rras.interfacestatus"]
 old-location: rras\interfacestatus.htm
 tech.root: RRAS
 ms.assetid: 8fd674a6-375e-450c-bd6b-4f252977dd8e

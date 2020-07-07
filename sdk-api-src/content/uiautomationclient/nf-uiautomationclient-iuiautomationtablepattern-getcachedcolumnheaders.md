@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTablePattern.GetCachedColumnHeaders
 title: IUIAutomationTablePattern::GetCachedColumnHeaders (uiautomationclient.h)
-description: Retrieves a cached collection of UI Automation elements representing all the column headers in a table.helpviewer_keywords: ["GetCachedColumnHeaders","GetCachedColumnHeaders method [Windows Accessibility]","GetCachedColumnHeaders method [Windows Accessibility]","IUIAutomationTablePattern interface","IUIAutomationTablePattern interface [Windows Accessibility]","GetCachedColumnHeaders method","IUIAutomationTablePattern.GetCachedColumnHeaders","IUIAutomationTablePattern::GetCachedColumnHeaders","uiauto.uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders","uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders","uiautomationclient/IUIAutomationTablePattern::GetCachedColumnHeaders","winauto.uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders"]
+description: Retrieves a cached collection of UI Automation elements representing all the column headers in a table.
+helpviewer_keywords: ["GetCachedColumnHeaders","GetCachedColumnHeaders method [Windows Accessibility]","GetCachedColumnHeaders method [Windows Accessibility]","IUIAutomationTablePattern interface","IUIAutomationTablePattern interface [Windows Accessibility]","GetCachedColumnHeaders method","IUIAutomationTablePattern.GetCachedColumnHeaders","IUIAutomationTablePattern::GetCachedColumnHeaders","uiauto.uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders","uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders","uiautomationclient/IUIAutomationTablePattern::GetCachedColumnHeaders","winauto.uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders"]
 old-location: winauto\uiauto_IUIAutomationTablePattern_GetCachedColumnHeaders.htm
 tech.root: WinAuto
 ms.assetid: 817a13b3-6de5-4473-8286-e3d728d06819

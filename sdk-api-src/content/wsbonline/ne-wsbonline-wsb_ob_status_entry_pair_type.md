@@ -1,7 +1,8 @@
 ---
 UID: NE:wsbonline._WSB_OB_STATUS_ENTRY_PAIR_TYPE
 title: WSB_OB_STATUS_ENTRY_PAIR_TYPE (wsbonline.h)
-description: Indicates the type of the parameter value.helpviewer_keywords: ["WSB_OB_ET_DATETIME","WSB_OB_ET_MAX","WSB_OB_ET_NUMBER","WSB_OB_ET_SIZE","WSB_OB_ET_STRING","WSB_OB_ET_TIME","WSB_OB_ET_UNDEFINED","WSB_OB_STATUS_ENTRY_PAIR_TYPE","WSB_OB_STATUS_ENTRY_PAIR_TYPE enumeration [Windows Server Backup]","wsb.wsb_ob_status_entry_pair_type","wsbonline/WSB_OB_ET_DATETIME","wsbonline/WSB_OB_ET_MAX","wsbonline/WSB_OB_ET_NUMBER","wsbonline/WSB_OB_ET_SIZE","wsbonline/WSB_OB_ET_STRING","wsbonline/WSB_OB_ET_TIME","wsbonline/WSB_OB_ET_UNDEFINED","wsbonline/WSB_OB_STATUS_ENTRY_PAIR_TYPE"]
+description: Indicates the type of the parameter value.
+helpviewer_keywords: ["WSB_OB_ET_DATETIME","WSB_OB_ET_MAX","WSB_OB_ET_NUMBER","WSB_OB_ET_SIZE","WSB_OB_ET_STRING","WSB_OB_ET_TIME","WSB_OB_ET_UNDEFINED","WSB_OB_STATUS_ENTRY_PAIR_TYPE","WSB_OB_STATUS_ENTRY_PAIR_TYPE enumeration [Windows Server Backup]","wsb.wsb_ob_status_entry_pair_type","wsbonline/WSB_OB_ET_DATETIME","wsbonline/WSB_OB_ET_MAX","wsbonline/WSB_OB_ET_NUMBER","wsbonline/WSB_OB_ET_SIZE","wsbonline/WSB_OB_ET_STRING","wsbonline/WSB_OB_ET_TIME","wsbonline/WSB_OB_ET_UNDEFINED","wsbonline/WSB_OB_STATUS_ENTRY_PAIR_TYPE"]
 old-location: wsb\wsb_ob_status_entry_pair_type.htm
 tech.root: wsb
 ms.assetid: E2D70C01-D331-4FBC-8586-2878513618D5
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>WSB_OB_STATUS_ENTRY_PAIR_TYPE</b> enumeration indicates the type of the parameter value contained in the <a href="https://docs.microsoft.com/windows/win32/api/wsbonline/ns-wsbonline-wsb_ob_status_entry_value_type_pair">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a> structure.
+The <b>WSB_OB_STATUS_ENTRY_PAIR_TYPE</b> enumeration indicates the type of the parameter value contained in the <a href="/windows/win32/api/wsbonline/ns-wsbonline-wsb_ob_status_entry_value_type_pair">WSB_OB_STATUS_ENTRY_VALUE_TYPE_PAIR</a> structure.
 
 
 ## -enum-fields

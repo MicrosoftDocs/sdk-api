@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.ConfirmEncryptionLoss
 title: ITransferAdviseSink::ConfirmEncryptionLoss (shobjidl_core.h)
-description: Displays a message to the user confirming that loss of encryption is acceptable for this operation.helpviewer_keywords: ["ConfirmEncryptionLoss","ConfirmEncryptionLoss method [Windows Shell]","ConfirmEncryptionLoss method [Windows Shell]","ITransferAdviseSink interface","ITransferAdviseSink interface [Windows Shell]","ConfirmEncryptionLoss method","ITransferAdviseSink.ConfirmEncryptionLoss","ITransferAdviseSink::ConfirmEncryptionLoss","_shell_ITransferAdviseSink_ConfirmEncryptionLoss","shell.ITransferAdviseSink_ConfirmEncryptionLoss","shobjidl_core/ITransferAdviseSink::ConfirmEncryptionLoss"]
+description: Displays a message to the user confirming that loss of encryption is acceptable for this operation.
+helpviewer_keywords: ["ConfirmEncryptionLoss","ConfirmEncryptionLoss method [Windows Shell]","ConfirmEncryptionLoss method [Windows Shell]","ITransferAdviseSink interface","ITransferAdviseSink interface [Windows Shell]","ConfirmEncryptionLoss method","ITransferAdviseSink.ConfirmEncryptionLoss","ITransferAdviseSink::ConfirmEncryptionLoss","_shell_ITransferAdviseSink_ConfirmEncryptionLoss","shell.ITransferAdviseSink_ConfirmEncryptionLoss","shobjidl_core/ITransferAdviseSink::ConfirmEncryptionLoss"]
 old-location: shell\ITransferAdviseSink_ConfirmEncryptionLoss.htm
 tech.root: shell
 ms.assetid: 6c6c6c6a-9eb0-43dd-a51f-cdbe6d538652

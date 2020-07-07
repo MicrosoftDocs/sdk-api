@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetViewModeAndIconSize
 title: IFolderView2::SetViewModeAndIconSize (shobjidl_core.h)
-description: Sets and applies the view mode and image size.helpviewer_keywords: ["IFolderView2 interface [Windows Shell]","SetViewModeAndIconSize method","IFolderView2.SetViewModeAndIconSize","IFolderView2::SetViewModeAndIconSize","SetViewModeAndIconSize","SetViewModeAndIconSize method [Windows Shell]","SetViewModeAndIconSize method [Windows Shell]","IFolderView2 interface","_shell_IFolderView2_SetViewModeAndIconSize","shell.IFolderView2_SetViewModeAndIconSize","shobjidl_core/IFolderView2::SetViewModeAndIconSize"]
+description: Sets and applies the view mode and image size.
+helpviewer_keywords: ["IFolderView2 interface [Windows Shell]","SetViewModeAndIconSize method","IFolderView2.SetViewModeAndIconSize","IFolderView2::SetViewModeAndIconSize","SetViewModeAndIconSize","SetViewModeAndIconSize method [Windows Shell]","SetViewModeAndIconSize method [Windows Shell]","IFolderView2 interface","_shell_IFolderView2_SetViewModeAndIconSize","shell.IFolderView2_SetViewModeAndIconSize","shobjidl_core/IFolderView2::SetViewModeAndIconSize"]
 old-location: shell\IFolderView2_SetViewModeAndIconSize.htm
 tech.root: shell
 ms.assetid: 52724e5d-074f-4715-9dca-50ed22d8519e

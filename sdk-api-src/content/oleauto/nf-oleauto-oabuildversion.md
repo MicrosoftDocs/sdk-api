@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.OaBuildVersion
 title: OaBuildVersion function (oleauto.h)
-description: Retrieves the build version of OLE Automation.helpviewer_keywords: ["OaBuildVersion","OaBuildVersion function [Automation]","_oa96_OaBuildVersion","automat.oabuildversion","oleauto/OaBuildVersion"]
+description: Retrieves the build version of OLE Automation.
+helpviewer_keywords: ["OaBuildVersion","OaBuildVersion function [Automation]","_oa96_OaBuildVersion","automat.oabuildversion","oleauto/OaBuildVersion"]
 old-location: automat\oabuildversion.htm
 tech.root: automat
 ms.assetid: e7466457-1025-4f1b-8b29-01cdf2358217

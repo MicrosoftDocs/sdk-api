@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtensions.get_Item
 title: IFaxInboundRoutingExtensions::get_Item (faxcomex.h)
-description: The IFaxInboundRoutingExtensions::get_Item method returns a IFaxInboundRoutingExtension interface from the IFaxInboundRoutingExtensions collection.helpviewer_keywords: ["IFaxInboundRoutingExtensions interface [Fax Service]","get_Item method","IFaxInboundRoutingExtensions.get_Item","IFaxInboundRoutingExtensions::get_Item","_mfax_faxinboundroutingextensions.item_cpp","fax._mfax_faxinboundroutingextensions_item_cpp","faxcomex/IFaxInboundRoutingExtensions::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxInboundRoutingExtensions interface"]
+description: The IFaxInboundRoutingExtensions::get_Item method returns a IFaxInboundRoutingExtension interface from the IFaxInboundRoutingExtensions collection.
+helpviewer_keywords: ["IFaxInboundRoutingExtensions interface [Fax Service]","get_Item method","IFaxInboundRoutingExtensions.get_Item","IFaxInboundRoutingExtensions::get_Item","_mfax_faxinboundroutingextensions.item_cpp","fax._mfax_faxinboundroutingextensions_item_cpp","faxcomex/IFaxInboundRoutingExtensions::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxInboundRoutingExtensions interface"]
 old-location: fax\_mfax_faxinboundroutingextensions_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9mwd_cpp.htm

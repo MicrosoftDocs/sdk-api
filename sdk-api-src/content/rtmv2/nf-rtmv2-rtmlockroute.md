@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmLockRoute
 title: RtmLockRoute function (rtmv2.h)
-description: The RtmLockRoute function locks or unlocks a route in the routing table. This protects the route while a client makes the necessary changes to the opaque route pointers owned by the client.helpviewer_keywords: ["RtmLockRoute","RtmLockRoute function [RAS]","_rtmv2ref_rtmlockroute","rras.rtmlockroute","rtmv2/RtmLockRoute"]
+description: The RtmLockRoute function locks or unlocks a route in the routing table. This protects the route while a client makes the necessary changes to the opaque route pointers owned by the client.
+helpviewer_keywords: ["RtmLockRoute","RtmLockRoute function [RAS]","_rtmv2ref_rtmlockroute","rras.rtmlockroute","rtmv2/RtmLockRoute"]
 old-location: rras\rtmlockroute.htm
 tech.root: RRAS
 ms.assetid: 8de3e4e3-f3bc-4a98-8a11-cc5b4db9027f

@@ -1,7 +1,8 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionInstanceCollection
 title: IFunctionInstanceCollection (functiondiscoveryapi.h)
-description: Represents a group of IFunctionInstance objects returned as the result of a query or get instance request.helpviewer_keywords: ["IFunctionInstanceCollection","IFunctionInstanceCollection interface","IFunctionInstanceCollection interface","described","functiondiscoveryapi/IFunctionInstanceCollection","ncd.ifunctioninstancecollection"]
+description: Represents a group of IFunctionInstance objects returned as the result of a query or get instance request.
+helpviewer_keywords: ["IFunctionInstanceCollection","IFunctionInstanceCollection interface","IFunctionInstanceCollection interface","described","functiondiscoveryapi/IFunctionInstanceCollection","ncd.ifunctioninstancecollection"]
 old-location: ncd\ifunctioninstancecollection.htm
 tech.root: FunDisc
 ms.assetid: 8ac1a406-92f3-4e39-985e-ab8fa7d28751

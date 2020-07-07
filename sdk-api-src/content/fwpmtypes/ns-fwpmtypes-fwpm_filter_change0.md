@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_FILTER_CHANGE0_
 title: FWPM_FILTER_CHANGE0 (fwpmtypes.h)
-description: Stores change notification dispatched to subscribers.helpviewer_keywords: ["FWPM_FILTER_CHANGE0","FWPM_FILTER_CHANGE0 structure [Filtering]","fwp.fwpm_filter_change0_struct","fwpmtypes/FWPM_FILTER_CHANGE0"]
+description: Stores change notification dispatched to subscribers.
+helpviewer_keywords: ["FWPM_FILTER_CHANGE0","FWPM_FILTER_CHANGE0 structure [Filtering]","fwp.fwpm_filter_change0_struct","fwpmtypes/FWPM_FILTER_CHANGE0"]
 old-location: fwp\fwpm_filter_change0_struct.htm
 tech.root: fwp
 ms.assetid: 01c58002-5506-4e2a-ae85-30b16aad2dd6
@@ -59,7 +60,7 @@ The <b>FWPM_FILTER_CHANGE0</b> structure stores change notification dispatched t
 
 ### -field changeType
 
-A [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a> value that specifies the type of change notification to be dispatched.
+A [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type) value that specifies the type of change notification to be dispatched.
 
 
 ### -field filterKey
@@ -86,7 +87,7 @@ LUID of the filter that changed.
 
 
 
-[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>
+[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)
 
 
 

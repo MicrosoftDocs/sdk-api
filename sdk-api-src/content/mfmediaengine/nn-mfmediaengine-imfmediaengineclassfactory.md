@@ -1,7 +1,8 @@
 ---
 UID: NN:mfmediaengine.IMFMediaEngineClassFactory
 title: IMFMediaEngineClassFactory (mfmediaengine.h)
-description: Creates an instance of the Media Engine.helpviewer_keywords: ["IMFMediaEngineClassFactory","IMFMediaEngineClassFactory interface [Media Foundation]","IMFMediaEngineClassFactory interface [Media Foundation]","described","mf.imfmediaengineclassfactory","mfmediaengine/IMFMediaEngineClassFactory"]
+description: Creates an instance of the Media Engine.
+helpviewer_keywords: ["IMFMediaEngineClassFactory","IMFMediaEngineClassFactory interface [Media Foundation]","IMFMediaEngineClassFactory interface [Media Foundation]","described","mf.imfmediaengineclassfactory","mfmediaengine/IMFMediaEngineClassFactory"]
 old-location: mf\imfmediaengineclassfactory.htm
 tech.root: medfound
 ms.assetid: 8E4E84A0-BCFC-4CBF-813B-4FEE2B42A83E
@@ -113,7 +114,7 @@ To get a pointer to this interface, call <a href="https://docs.microsoft.com/win
 
 
 
-<a href="https://code.msdn.microsoft.com/windowsapps/media-engine-playback-ce1c82f0">Media Engine Sample</a>
+<a href="https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/411c271e537727d737a53fa2cbe99eaecac00cc0/Official%20Windows%20Platform%20Sample/Windows%208%20app%20samples/%5BC%2B%2B%5D-Windows%208%20app%20samples/C%2B%2B/Windows%208%20app%20samples/Media%20engine%20native%20C%2B%2B%20video%20playback%20sample%20(Windows%208)">Media Engine Sample</a>
 
 
 

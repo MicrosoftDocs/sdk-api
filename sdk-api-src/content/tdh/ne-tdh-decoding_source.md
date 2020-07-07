@@ -1,7 +1,8 @@
 ---
 UID: NE:tdh._DECODING_SOURCE
 title: DECODING_SOURCE (tdh.h)
-description: Defines the source of the event data.helpviewer_keywords: ["DECODING_SOURCE","DECODING_SOURCE enumeration [ETW]","DecodingSourceTlg","DecodingSourceWPP","DecodingSourceWbem","DecodingSourceXMLFile","etw.decoding_source_enum","tdh.decoding_source_enum","tdh/DECODING_SOURCE","tdh/DecodingSourceTlg","tdh/DecodingSourceWPP","tdh/DecodingSourceWbem","tdh/DecodingSourceXMLFile"]
+description: Defines the source of the event data.
+helpviewer_keywords: ["DECODING_SOURCE","DECODING_SOURCE enumeration [ETW]","DecodingSourceTlg","DecodingSourceWPP","DecodingSourceWbem","DecodingSourceXMLFile","etw.decoding_source_enum","tdh.decoding_source_enum","tdh/DECODING_SOURCE","tdh/DecodingSourceTlg","tdh/DecodingSourceWPP","tdh/DecodingSourceWbem","tdh/DecodingSourceXMLFile"]
 old-location: etw\decoding_source_enum.htm
 tech.root: ETW
 ms.assetid: d6cd09da-9a67-4df2-9d82-370c559d3bfc

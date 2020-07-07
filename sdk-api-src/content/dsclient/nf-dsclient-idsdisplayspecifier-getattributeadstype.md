@@ -1,7 +1,8 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetAttributeADsType
 title: IDsDisplaySpecifier::GetAttributeADsType (dsclient.h)
-description: Retrieves the attribute type for a given attribute.helpviewer_keywords: ["GetAttributeADsType","GetAttributeADsType method [Active Directory]","GetAttributeADsType method [Active Directory]","IDsDisplaySpecifier interface","IDsDisplaySpecifier interface [Active Directory]","GetAttributeADsType method","IDsDisplaySpecifier.GetAttributeADsType","IDsDisplaySpecifier::GetAttributeADsType","_glines_idsdisplayspecifier_getattributeadstype","ad.idsdisplayspecifier__getattributeadstype","ad.idsdisplayspecifier_getattributeadstype","dsclient/IDsDisplaySpecifier::GetAttributeADsType"]
+description: Retrieves the attribute type for a given attribute.
+helpviewer_keywords: ["GetAttributeADsType","GetAttributeADsType method [Active Directory]","GetAttributeADsType method [Active Directory]","IDsDisplaySpecifier interface","IDsDisplaySpecifier interface [Active Directory]","GetAttributeADsType method","IDsDisplaySpecifier.GetAttributeADsType","IDsDisplaySpecifier::GetAttributeADsType","_glines_idsdisplayspecifier_getattributeadstype","ad.idsdisplayspecifier__getattributeadstype","ad.idsdisplayspecifier_getattributeadstype","dsclient/IDsDisplaySpecifier::GetAttributeADsType"]
 old-location: ad\idsdisplayspecifier_getattributeadstype.htm
 tech.root: ad
 ms.assetid: 4e9ecbee-b298-42a4-ad02-28bab9d99b6b
@@ -66,7 +67,7 @@ Pointer to a null-terminated Unicode string that contains the name of the attrib
 
 
 
-Returns one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> values that indicate the type of the attribute.
+Returns one of the <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> values that indicate the type of the attribute.
 
 
 
@@ -76,7 +77,7 @@ Returns one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
 
 
 

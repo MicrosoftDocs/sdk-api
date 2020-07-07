@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.MapGenericMask
 title: MapGenericMask function (securitybaseapi.h)
-description: Maps the generic access rights in an access mask to specific and standard access rights. The function applies a mapping supplied in a GENERIC_MAPPING structure.helpviewer_keywords: ["MapGenericMask","MapGenericMask function [Security]","_win32_mapgenericmask","security.mapgenericmask","securitybaseapi/MapGenericMask"]
+description: Maps the generic access rights in an access mask to specific and standard access rights. The function applies a mapping supplied in a GENERIC_MAPPING structure.
+helpviewer_keywords: ["MapGenericMask","MapGenericMask function [Security]","_win32_mapgenericmask","security.mapgenericmask","securitybaseapi/MapGenericMask"]
 old-location: security\mapgenericmask.htm
 tech.root: SecAuthZ
 ms.assetid: 54b5cd73-4011-4dcf-a951-7350dbd6eeab

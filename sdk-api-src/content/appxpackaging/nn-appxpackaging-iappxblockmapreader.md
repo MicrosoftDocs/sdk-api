@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxBlockMapReader
 title: IAppxBlockMapReader (appxpackaging.h)
-description: Represents a read-only object model for block maps that provides access to the file attributes and block hashes.helpviewer_keywords: ["IAppxBlockMapReader","IAppxBlockMapReader interface [App packaging and management]","IAppxBlockMapReader interface [App packaging and management]","described","appxpackaging/IAppxBlockMapReader","appxpkg.iappxblockmapreader"]
+description: Represents a read-only object model for block maps that provides access to the file attributes and block hashes.
+helpviewer_keywords: ["IAppxBlockMapReader","IAppxBlockMapReader interface [App packaging and management]","IAppxBlockMapReader interface [App packaging and management]","described","appxpackaging/IAppxBlockMapReader","appxpkg.iappxblockmapreader"]
 old-location: appxpkg\iappxblockmapreader.htm
 tech.root: appxpkg
 ms.assetid: 233539FD-E3BE-4783-9F23-B34F6397FBBE
@@ -114,10 +115,7 @@ The <b>IAppxBlockMapReader</b> represents the <b>BlockMap</b> root element of th
 
 This object can be retrieved using the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createblockmapreader">CreateBlockMapReader</a> or <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxfactory-createvalidatedblockmapreader">CreateValidatedBlockMapReader</a> method of the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxfactory">IAppxFactory</a> interface, or the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nf-appxpackaging-iappxpackagereader-getblockmap">GetBlockMap </a>method of the <a href="https://docs.microsoft.com/windows/desktop/api/appxpackaging/nn-appxpackaging-iappxpackagereader">IAppxPackageReader</a> interface.
 
-
-#### Examples
-
-For a example code, see <a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>.
+For a code example, see the [Query app package and app manifest sample](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingDescribeAppx).
 
 <div class="code"></div>
 
@@ -144,16 +142,6 @@ For a example code, see <a href="https://code.msdn.microsoft.com/windowsdesktop/
 
 
 
-<a href="https://code.msdn.microsoft.com/windowsdesktop/Appx-Packaging-API-3ff13a92">Read app package manifest info sample (DescribeAppx)</a>
+<a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/AppxPackingDescribeAppx">Query app package and app manifest sample</a>
 
-
-
-<b>Reference</b>
-
-
-
-<b>Samples</b>
- 
-
- 
 

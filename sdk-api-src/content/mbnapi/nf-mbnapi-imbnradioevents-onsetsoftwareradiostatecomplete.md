@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnRadioEvents.OnSetSoftwareRadioStateComplete
 title: IMbnRadioEvents::OnSetSoftwareRadioStateComplete (mbnapi.h)
-description: Notification that a set software radio state operation has completed.helpviewer_keywords: ["IMbnRadioEvents interface [Microsoft Broadband Networks]","OnSetSoftwareRadioStateComplete method","IMbnRadioEvents.OnSetSoftwareRadioStateComplete","IMbnRadioEvents::OnSetSoftwareRadioStateComplete","OnSetSoftwareRadioStateComplete","OnSetSoftwareRadioStateComplete method [Microsoft Broadband Networks]","OnSetSoftwareRadioStateComplete method [Microsoft Broadband Networks]","IMbnRadioEvents interface","S_OK","mbn.imbnradioevents_onsetsoftwareradiostatecomplete","mbnapi/IMbnRadioEvents::OnSetSoftwareRadioStateComplete"]
+description: Notification that a set software radio state operation has completed.
+helpviewer_keywords: ["IMbnRadioEvents interface [Microsoft Broadband Networks]","OnSetSoftwareRadioStateComplete method","IMbnRadioEvents.OnSetSoftwareRadioStateComplete","IMbnRadioEvents::OnSetSoftwareRadioStateComplete","OnSetSoftwareRadioStateComplete","OnSetSoftwareRadioStateComplete method [Microsoft Broadband Networks]","OnSetSoftwareRadioStateComplete method [Microsoft Broadband Networks]","IMbnRadioEvents interface","S_OK","mbn.imbnradioevents_onsetsoftwareradiostatecomplete","mbnapi/IMbnRadioEvents::OnSetSoftwareRadioStateComplete"]
 old-location: mbn\imbnradioevents_onsetsoftwareradiostatecomplete.htm
 tech.root: mbn
 ms.assetid: 0e62ff68-0a6b-4e22-9cce-0df5da14fa6a

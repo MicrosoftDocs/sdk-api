@@ -1,7 +1,8 @@
 ---
 UID: NN:shlwapi.IQueryAssociations
 title: IQueryAssociations (shlwapi.h)
-description: Exposes methods that simplify the process of retrieving information stored in the registry in association with defining a file type or protocol and associating it with an application.helpviewer_keywords: ["IQueryAssociations","IQueryAssociations interface [Windows Shell]","IQueryAssociations interface [Windows Shell]","described","_win32_IQueryAssociations","shell.IQueryAssociations","shlwapi/IQueryAssociations"]
+description: Exposes methods that simplify the process of retrieving information stored in the registry in association with defining a file type or protocol and associating it with an application.
+helpviewer_keywords: ["IQueryAssociations","IQueryAssociations interface [Windows Shell]","IQueryAssociations interface [Windows Shell]","described","_win32_IQueryAssociations","shell.IQueryAssociations","shlwapi/IQueryAssociations"]
 old-location: shell\IQueryAssociations.htm
 tech.root: shell
 ms.assetid: 8edb99d3-5860-4d78-a750-1df34cdfc313

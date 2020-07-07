@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawCurve(IN const Pen,IN const Point,IN INT)
+UID: NF:gdiplusgraphics.Graphics.DrawCurve(INconstPen,INconstPoint,ININT)
 title: Graphics::DrawCurve(IN const Pen,IN const Point,IN INT) (gdiplusgraphics.h)
-description: The Graphics::DrawCurve method draws a cardinal spline.helpviewer_keywords: ["DrawCurve","DrawCurve method [GDI+]","DrawCurve method [GDI+]","Graphics class","Graphics class [GDI+]","DrawCurve method","Graphics.DrawCurve","Graphics.DrawCurve(IN const Pen","IN const Point","IN INT)","Graphics.DrawCurve(const Pen*","const Point*","INT)","Graphics::DrawCurve","Graphics::DrawCurve(IN const Pen","IN const Point","IN INT)","_gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_Point_points_INT_count_","gdiplus._gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_Point_points_INT_count_"]
+description: The Graphics::DrawCurve method draws a cardinal spline.
+helpviewer_keywords: ["DrawCurve","DrawCurve method [GDI+]","DrawCurve method [GDI+]","Graphics class","Graphics class [GDI+]","DrawCurve method","Graphics.DrawCurve","Graphics.DrawCurve(IN const Pen","IN const Point","IN INT)","Graphics.DrawCurve(const Pen*","const Point*","INT)","Graphics::DrawCurve","Graphics::DrawCurve(IN const Pen","IN const Point","IN INT)","_gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_Point_points_INT_count_","gdiplus._gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_Point_points_INT_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawCurve_Pen_pen_Point_points_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawcurvemethods\drawcurve.htm

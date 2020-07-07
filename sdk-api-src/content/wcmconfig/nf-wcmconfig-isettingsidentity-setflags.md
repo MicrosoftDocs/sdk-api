@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsIdentity.SetFlags
 title: ISettingsIdentity::SetFlags (wcmconfig.h)
-description: Sets the identity flags for a namespace identity.helpviewer_keywords: ["ISettingsIdentity interface [SMI]","SetFlags method","ISettingsIdentity.SetFlags","ISettingsIdentity::SetFlags","SetFlags","SetFlags method [SMI]","SetFlags method [SMI]","ISettingsIdentity interface","smi.isettingsidentity_setflags","wcmconfig/ISettingsIdentity::SetFlags"]
+description: Sets the identity flags for a namespace identity.
+helpviewer_keywords: ["ISettingsIdentity interface [SMI]","SetFlags method","ISettingsIdentity.SetFlags","ISettingsIdentity::SetFlags","SetFlags","SetFlags method [SMI]","SetFlags method [SMI]","ISettingsIdentity interface","smi.isettingsidentity_setflags","wcmconfig/ISettingsIdentity::SetFlags"]
 old-location: smi\isettingsidentity_setflags.htm
 tech.root: SMI
 ms.assetid: f31f6ea1-e101-40c0-a431-ab3bdc9f02be

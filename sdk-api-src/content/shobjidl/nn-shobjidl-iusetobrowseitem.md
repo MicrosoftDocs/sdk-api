@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.IUseToBrowseItem
 title: IUseToBrowseItem (shobjidl.h)
-description: This interface is not supported. Do not use.helpviewer_keywords: ["IUseToBrowseItem","IUseToBrowseItem interface [Windows Shell]","IUseToBrowseItem interface [Windows Shell]","described","_shell_IUseToBrowseItem","shell.IUseToBrowseItem","shobjidl/IUseToBrowseItem"]
+description: This interface is not supported. Do not use.
+helpviewer_keywords: ["IUseToBrowseItem","IUseToBrowseItem interface [Windows Shell]","IUseToBrowseItem interface [Windows Shell]","described","_shell_IUseToBrowseItem","shell.IUseToBrowseItem","shobjidl/IUseToBrowseItem"]
 old-location: shell\IUseToBrowseItem.htm
 tech.root: shell
 ms.assetid: 12dfe612-d5b9-438f-aaa2-e52ebc3d6ebc

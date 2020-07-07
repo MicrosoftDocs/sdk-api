@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.wglDeleteContext
 title: wglDeleteContext function (wingdi.h)
-description: The wglDeleteContext function deletes a specified OpenGL rendering context.helpviewer_keywords: ["_ogl_wglDeleteContext","opengl.wgldeletecontext","wglDeleteContext","wglDeleteContext function [OpenGL]","wingdi/wglDeleteContext"]
+description: The wglDeleteContext function deletes a specified OpenGL rendering context.
+helpviewer_keywords: ["_ogl_wglDeleteContext","opengl.wgldeletecontext","wglDeleteContext","wglDeleteContext function [OpenGL]","wingdi/wglDeleteContext"]
 old-location: opengl\wgldeletecontext.htm
 tech.root: OpenGL
 ms.assetid: 51d4cce1-fd2d-436e-816b-b89d3cd66f3a

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_MAPPED_SUBRESOURCE
 title: D3D11_MAPPED_SUBRESOURCE (d3d11.h)
-description: Provides access to subresource data.helpviewer_keywords: ["6581ca11-abcb-9ae4-0972-0f8f36933283","D3D11_MAPPED_SUBRESOURCE","D3D11_MAPPED_SUBRESOURCE structure [Direct3D 11]","d3d11/D3D11_MAPPED_SUBRESOURCE","direct3d11.d3d11_mapped_subresource"]
+description: Provides access to subresource data.
+helpviewer_keywords: ["6581ca11-abcb-9ae4-0972-0f8f36933283","D3D11_MAPPED_SUBRESOURCE","D3D11_MAPPED_SUBRESOURCE structure [Direct3D 11]","d3d11/D3D11_MAPPED_SUBRESOURCE","direct3d11.d3d11_mapped_subresource"]
 old-location: direct3d11\d3d11_mapped_subresource.htm
 tech.root: direct3d11
 ms.assetid: cbbb8689-0a7d-43b9-bde3-29d93cc7f0fe

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IWindowProvider.WaitForInputIdle
 title: IWindowProvider::WaitForInputIdle (uiautomationcore.h)
-description: Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first.helpviewer_keywords: ["IWindowProvider interface [Windows Accessibility]","WaitForInputIdle method","IWindowProvider.WaitForInputIdle","IWindowProvider::WaitForInputIdle","WaitForInputIdle","WaitForInputIdle method [Windows Accessibility]","WaitForInputIdle method [Windows Accessibility]","IWindowProvider interface","uiauto.uiauto_IWindowProvider_WaitForInputIdle","uiauto_IWindowProvider_WaitForInputIdle","uiautomationcore/IWindowProvider::WaitForInputIdle","winauto.uiauto_IWindowProvider_WaitForInputIdle"]
+description: Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first.
+helpviewer_keywords: ["IWindowProvider interface [Windows Accessibility]","WaitForInputIdle method","IWindowProvider.WaitForInputIdle","IWindowProvider::WaitForInputIdle","WaitForInputIdle","WaitForInputIdle method [Windows Accessibility]","WaitForInputIdle method [Windows Accessibility]","IWindowProvider interface","uiauto.uiauto_IWindowProvider_WaitForInputIdle","uiauto_IWindowProvider_WaitForInputIdle","uiautomationcore/IWindowProvider::WaitForInputIdle","winauto.uiauto_IWindowProvider_WaitForInputIdle"]
 old-location: winauto\uiauto_IWindowProvider_WaitForInputIdle.htm
 tech.root: WinAuto
 ms.assetid: 787f8309-09aa-4e6a-bfbc-fc03b917ead4

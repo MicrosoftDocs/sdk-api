@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_MajorVersion
 title: IFaxDeviceProvider::get_MajorVersion (faxcomex.h)
-description: The IFaxDeviceProvider::get_MajorVersion property is a value that specifies the major part of the version number for the fax service provider (FSP)Â DLL.helpviewer_keywords: ["IFaxDeviceProvider interface [Fax Service]","MajorVersion property","IFaxDeviceProvider.MajorVersion","IFaxDeviceProvider.get_MajorVersion","IFaxDeviceProvider::MajorVersion","IFaxDeviceProvider::get_MajorVersion","MajorVersion property [Fax Service]","MajorVersion property [Fax Service]","IFaxDeviceProvider interface","_mfax_faxdeviceprovider.majorversion","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorversion_cpp","fax._mfax_faxdeviceprovider_majorversion","faxcomex/IFaxDeviceProvider::MajorVersion","faxcomex/IFaxDeviceProvider::get_MajorVersion","get_MajorVersion"]
+description: The IFaxDeviceProvider::get_MajorVersion property is a value that specifies the major part of the version number for the fax service provider (FSP)Â DLL.
+helpviewer_keywords: ["IFaxDeviceProvider interface [Fax Service]","MajorVersion property","IFaxDeviceProvider.MajorVersion","IFaxDeviceProvider.get_MajorVersion","IFaxDeviceProvider::MajorVersion","IFaxDeviceProvider::get_MajorVersion","MajorVersion property [Fax Service]","MajorVersion property [Fax Service]","IFaxDeviceProvider interface","_mfax_faxdeviceprovider.majorversion","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorversion_cpp","fax._mfax_faxdeviceprovider_majorversion","faxcomex/IFaxDeviceProvider::MajorVersion","faxcomex/IFaxDeviceProvider::get_MajorVersion","get_MajorVersion"]
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorversion_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_992m.htm

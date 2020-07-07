@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetPropW
 title: SetPropW function (winuser.h)
-description: Adds a new entry or changes an existing entry in the property list of the specified window.helpviewer_keywords: ["SetProp","SetProp function [Windows and Messages]","SetPropA","SetPropW","_win32_SetProp","_win32_setprop_cpp","winmsg.setprop","winui._win32_setprop","winuser/SetProp","winuser/SetPropA","winuser/SetPropW"]
+description: Adds a new entry or changes an existing entry in the property list of the specified window.
+helpviewer_keywords: ["SetProp","SetProp function [Windows and Messages]","SetPropA","SetPropW","_win32_SetProp","_win32_setprop_cpp","winmsg.setprop","winui._win32_setprop","winuser/SetProp","winuser/SetPropA","winuser/SetPropW"]
 old-location: winmsg\setprop.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\setprop.htm
@@ -120,6 +121,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
+
+> [!NOTE]
+> The winuser.h header defines SetProp as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -149,7 +154,7 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">ITaskbarList2::MarkFullscreenWindow</a>
+<a href="/windows/win32/api/shobjidl_core/nf-shobjidl_core-itaskbarlist2-markfullscreenwindow">ITaskbarList2::MarkFullscreenWindow</a>
  
 
  

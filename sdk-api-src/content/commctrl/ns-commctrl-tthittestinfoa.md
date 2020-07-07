@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl._TT_HITTESTINFOA
 title: TTHITTESTINFOA (commctrl.h)
-description: Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool.helpviewer_keywords: ["*LPTTHITTESTINFOA","LPHITTESTINFO","LPHITTESTINFO structure pointer [Windows Controls]","TTHITTESTINFO","TTHITTESTINFO structure [Windows Controls]","TTHITTESTINFOA","TTHITTESTINFOW","_win32_TTHITTESTINFO","_win32_TTHITTESTINFO_cpp","commctrl/LPHITTESTINFO","commctrl/TTHITTESTINFO","commctrl/TTHITTESTINFOA","commctrl/TTHITTESTINFOW","controls.TTHITTESTINFO","controls._win32_TTHITTESTINFO"]
+description: Contains information that a tooltip control uses to determine whether a point is in the bounding rectangle of the specified tool. If the point is in the rectangle, the structure receives information about the tool.
+helpviewer_keywords: ["*LPTTHITTESTINFOA","LPHITTESTINFO","LPHITTESTINFO structure pointer [Windows Controls]","TTHITTESTINFO","TTHITTESTINFO structure [Windows Controls]","TTHITTESTINFOA","TTHITTESTINFOW","_win32_TTHITTESTINFO","_win32_TTHITTESTINFO_cpp","commctrl/LPHITTESTINFO","commctrl/TTHITTESTINFO","commctrl/TTHITTESTINFOA","commctrl/TTHITTESTINFOW","controls.TTHITTESTINFO","controls._win32_TTHITTESTINFO"]
 old-location: controls\TTHITTESTINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\tthittestinfo.htm
@@ -75,10 +76,10 @@ Client coordinates of the point to test.
 
 ### -field ti
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa">TOOLINFO</a></b>
+Type: <b><a href="/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa">TOOLINFO</a></b>
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa">TOOLINFO</a> structure. If the point specified by 
+<a href="/windows/win32/api/commctrl/ns-commctrl-tttoolinfoa">TOOLINFO</a> structure. If the point specified by 
 					<b>pt</b> is in the tool specified by 
 					<b>hwnd</b>, this structure receives information about the tool. The 
 					<b>cbSize</b> member of this structure must be filled in before sending this message. 
@@ -91,4 +92,8 @@ Type: <b><a href="https://docs.microsoft.com/windows/win32/api/commctrl/ns-commc
 This structure is used with the <a href="https://docs.microsoft.com/windows/desktop/Controls/ttm-hittest">TTM_HITTEST</a> message. 
 
 
+
+
+> [!NOTE]
+> The commctrl.h header defines TTHITTESTINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

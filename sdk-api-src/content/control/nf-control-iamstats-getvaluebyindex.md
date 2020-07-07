@@ -1,13 +1,13 @@
 ---
 UID: NF:control.IAMStats.GetValueByIndex
 title: IAMStats::GetValueByIndex (control.h)
-description: The GetValueByIndex method retrieves a statistic, by index.helpviewer_keywords: ["GetValueByIndex","GetValueByIndex method [DirectShow]","GetValueByIndex method [DirectShow]","IAMStats interface","IAMStats interface [DirectShow]","GetValueByIndex method","IAMStats.GetValueByIndex","IAMStats::GetValueByIndex","IAMStatsGetValueByIndex","control/IAMStats::GetValueByIndex","dshow.iamstats_getvaluebyindex"]
+description: The GetValueByIndex method retrieves a statistic, by index.
+helpviewer_keywords: ["GetValueByIndex","GetValueByIndex method [DirectShow]","GetValueByIndex method [DirectShow]","IAMStats interface","IAMStats interface [DirectShow]","GetValueByIndex method","IAMStats.GetValueByIndex","IAMStats::GetValueByIndex","IAMStatsGetValueByIndex","control/IAMStats::GetValueByIndex","dshow.iamstats_getvaluebyindex"]
 old-location: dshow\iamstats_getvaluebyindex.htm
 tech.root: DirectShow
 ms.assetid: 68a74f56-288b-4e7e-bb0d-a38d43e08c27
 ms.date: 12/05/2018
 ms.keywords: GetValueByIndex, GetValueByIndex method [DirectShow], GetValueByIndex method [DirectShow],IAMStats interface, IAMStats interface [DirectShow],GetValueByIndex method, IAMStats.GetValueByIndex, IAMStats::GetValueByIndex, IAMStatsGetValueByIndex, control/IAMStats::GetValueByIndex, dshow.iamstats_getvaluebyindex
-ms.topic: method
 f1_keywords:
 - control/IAMStats.GetValueByIndex
 dev_langs:

@@ -1,7 +1,8 @@
 ---
 UID: NS:processthreadsapi._STARTUPINFOA
 title: STARTUPINFOA (processthreadsapi.h)
-description: Specifies the window station, desktop, standard handles, and appearance of the main window for a process at creation time.helpviewer_keywords: ["*LPSTARTUPINFOA","LPSTARTUPINFO","LPSTARTUPINFO structure pointer","STARTF_FORCEOFFFEEDBACK","STARTF_FORCEONFEEDBACK","STARTF_PREVENTPINNING","STARTF_RUNFULLSCREEN","STARTF_TITLEISAPPID","STARTF_TITLEISLINKNAME","STARTF_UNTRUSTEDSOURCE","STARTF_USECOUNTCHARS","STARTF_USEFILLATTRIBUTE","STARTF_USEHOTKEY","STARTF_USEPOSITION","STARTF_USESHOWWINDOW","STARTF_USESIZE","STARTF_USESTDHANDLES","STARTUPINFO","STARTUPINFO structure","STARTUPINFOA","STARTUPINFOW","_win32_startupinfo_str","base.startupinfo_str","processthreadsapi/LPSTARTUPINFO","processthreadsapi/STARTUPINFO","processthreadsapi/STARTUPINFOA","processthreadsapi/STARTUPINFOW","winbase/LPSTARTUPINFO","winbase/STARTUPINFO","winbase/STARTUPINFOA","winbase/STARTUPINFOW"]
+description: Specifies the window station, desktop, standard handles, and appearance of the main window for a process at creation time.
+helpviewer_keywords: ["*LPSTARTUPINFOA","LPSTARTUPINFO","LPSTARTUPINFO structure pointer","STARTF_FORCEOFFFEEDBACK","STARTF_FORCEONFEEDBACK","STARTF_PREVENTPINNING","STARTF_RUNFULLSCREEN","STARTF_TITLEISAPPID","STARTF_TITLEISLINKNAME","STARTF_UNTRUSTEDSOURCE","STARTF_USECOUNTCHARS","STARTF_USEFILLATTRIBUTE","STARTF_USEHOTKEY","STARTF_USEPOSITION","STARTF_USESHOWWINDOW","STARTF_USESIZE","STARTF_USESTDHANDLES","STARTUPINFO","STARTUPINFO structure","STARTUPINFOA","STARTUPINFOW","_win32_startupinfo_str","base.startupinfo_str","processthreadsapi/LPSTARTUPINFO","processthreadsapi/STARTUPINFO","processthreadsapi/STARTUPINFOA","processthreadsapi/STARTUPINFOW","winbase/LPSTARTUPINFO","winbase/STARTUPINFO","winbase/STARTUPINFOA","winbase/STARTUPINFOW"]
 old-location: base\startupinfo_str.htm
 tech.root: ProcThread
 ms.assetid: cf4b795c-52c1-4573-8328-99ee13f68bb3
@@ -413,14 +414,14 @@ If <b>dwFlags</b> specifies STARTF_USESTDHANDLES, this member is the standard er
 For graphical user interface (GUI) processes, this information affects the first window created by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-createwindowa">CreateWindow</a> function and shown by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-showwindow">ShowWindow</a> function. For console processes, this information affects the console window if a new console is created for the process. A process can use the 
-[GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a> function to retrieve the 
+[GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow) function to retrieve the 
 <b>STARTUPINFO</b> structure specified when the process was created.
 
 If a GUI process is being started and neither STARTF_FORCEONFEEDBACK or STARTF_FORCEOFFFEEDBACK is specified, the process feedback cursor is used. A GUI process is one whose subsystem is specified as "windows."
 
-If a process is launched from the taskbar or jump list, the system sets [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a> to retrieve the <b>STARTUPINFO</b> structure and check that <b>hStdOutput</b> is set. If so, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> to check whether <b>hStdOutput</b> is a valid monitor handle (HMONITOR). The process can then use the handle to position its windows.
+If a process is launched from the taskbar or jump list, the system sets [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow) to retrieve the <b>STARTUPINFO</b> structure and check that <b>hStdOutput</b> is set. If so, use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getmonitorinfoa">GetMonitorInfo</a> to check whether <b>hStdOutput</b> is a valid monitor handle (HMONITOR). The process can then use the handle to position its windows.
 
-If the [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a> function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
+If the [GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow) function, then applications should be aware that the command line is untrusted. If this flag is set, applications should disable potentially dangerous features such as macros, downloaded content, and automatic printing. This flag is optional. Applications that call <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa">CreateProcess</a> are encouraged to set this flag when launching a program with a untrusted command line so that the created process can apply appropriate policy.
 
 The <b>STARTF_UNTRUSTEDSOURCE</b> flag is supported starting in Windows Vista, but it is not defined in the SDK header files prior to the Windows 10 SDK. To use the flag in versions prior to Windows 10, you can define it manually in your program.
 
@@ -433,6 +434,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The processthreadsapi.h header defines STARTUPINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -455,7 +460,7 @@ For an example, see
 
 
 
-[GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)a>
+[GetStartupInfo](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)
  
 
  

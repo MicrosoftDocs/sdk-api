@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetStrokeMiterLimit
 title: IXpsOMPath::SetStrokeMiterLimit (xpsobjectmodel.h)
-description: Sets the miter limit of the path.helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetStrokeMiterLimit method","IXpsOMPath.SetStrokeMiterLimit","IXpsOMPath::SetStrokeMiterLimit","SetStrokeMiterLimit","SetStrokeMiterLimit method [XPS Documents and Packaging]","SetStrokeMiterLimit method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setstrokemiterlimit","xpsobjectmodel/IXpsOMPath::SetStrokeMiterLimit"]
+description: Sets the miter limit of the path.
+helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetStrokeMiterLimit method","IXpsOMPath.SetStrokeMiterLimit","IXpsOMPath::SetStrokeMiterLimit","SetStrokeMiterLimit","SetStrokeMiterLimit method [XPS Documents and Packaging]","SetStrokeMiterLimit method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setstrokemiterlimit","xpsobjectmodel/IXpsOMPath::SetStrokeMiterLimit"]
 old-location: xps\ixpsompath_setstrokemiterlimit.htm
 tech.root: printdocs
 ms.assetid: 4e33f9f3-119a-4635-b44c-fa002a59fa20
@@ -107,7 +108,7 @@ A value that was passed in <i>strokeMiterLimit</i> was not valid.
 
  The miter limit value is the ratio of the maximum miter length  to one-half of the stroke thickness.
 
-The miter limit value describes how to render a mitered line join. This value applies only if the line join style value is <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN_MITER</a>.
+The miter limit value describes how to render a mitered line join. This value applies only if the line join style value is <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_join">XPS_LINE_JOIN_MITER</a>.
 
 
 

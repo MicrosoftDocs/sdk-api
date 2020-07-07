@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectEnumerator.Clone
 title: IOpcSignatureCustomObjectEnumerator::Clone (msopc.h)
-description: Creates a copy of the current IOpcSignatureCustomObjectEnumerator interface pointer and all its descendants.helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcSignatureCustomObjectEnumerator interface","IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions]","Clone method","IOpcSignatureCustomObjectEnumerator.Clone","IOpcSignatureCustomObjectEnumerator::Clone","msopc/IOpcSignatureCustomObjectEnumerator::Clone","opc.iopcsignaturecustomobjectenumerator_clone"]
+description: Creates a copy of the current IOpcSignatureCustomObjectEnumerator interface pointer and all its descendants.
+helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcSignatureCustomObjectEnumerator interface","IOpcSignatureCustomObjectEnumerator interface [Open Packaging Conventions]","Clone method","IOpcSignatureCustomObjectEnumerator.Clone","IOpcSignatureCustomObjectEnumerator::Clone","msopc/IOpcSignatureCustomObjectEnumerator::Clone","opc.iopcsignaturecustomobjectenumerator_clone"]
 old-location: opc\iopcsignaturecustomobjectenumerator_clone.htm
 tech.root: OPC
 ms.assetid: 51dd3758-26c6-4d4f-a956-61a9ff1f67c5

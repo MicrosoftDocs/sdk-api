@@ -1,7 +1,8 @@
 ---
 UID: NF:oledlg.OleUIChangeIconA
 title: OleUIChangeIconA function (oledlg.h)
-description: Invokes the standard Change Icon dialog box, which allows the user to select an icon from an icon file, executable, or DLL.helpviewer_keywords: ["OleUIChangeIcon","OleUIChangeIcon function [COM]","OleUIChangeIconA","OleUIChangeIconW","_ole_OleUIChangeIcon","com.oleuichangeicon","oledlg/OleUIChangeIcon","oledlg/OleUIChangeIconA","oledlg/OleUIChangeIconW"]
+description: Invokes the standard Change Icon dialog box, which allows the user to select an icon from an icon file, executable, or DLL.
+helpviewer_keywords: ["OleUIChangeIcon","OleUIChangeIcon function [COM]","OleUIChangeIconA","OleUIChangeIconW","_ole_OleUIChangeIcon","com.oleuichangeicon","oledlg/OleUIChangeIcon","oledlg/OleUIChangeIconA","oledlg/OleUIChangeIconW"]
 old-location: com\oleuichangeicon.htm
 tech.root: com
 ms.assetid: 899aadbe-d3d7-42e2-b9c0-09efeb378bda
@@ -61,7 +62,7 @@ Invokes the standard <b>Change Icon</b> dialog box, which allows the user to sel
 
 ### -param Arg1 [in]
 
- Pointer to the In/Out [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)a> structure for this dialog box.
+ Pointer to the In/Out [OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona) structure for this dialog box.
 
 
 ## -returns
@@ -402,18 +403,22 @@ The <i>szIconExe</i> value was invalid.
 
 
 
-[OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)a> structure.
+[OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona) structure.
 
 
 
 
+
+
+> [!NOTE]
+> The oledlg.h header defines OLEUICHANGEICON as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
 
 
 
-[OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)a>
+[OLEUICHANGEICON](/windows/win32/api/oledlg/nf-oledlg-oleuichangeicona)
  
 
  

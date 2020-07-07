@@ -1,7 +1,8 @@
 ---
 UID: NE:ipsectypes.IPSEC_TOKEN_PRINCIPAL_
 title: IPSEC_TOKEN_PRINCIPAL (ipsectypes.h)
-description: An access token principal.helpviewer_keywords: ["IPSEC_TOKEN_PRINCIPAL","IPSEC_TOKEN_PRINCIPAL enumeration [Filtering]","IPSEC_TOKEN_PRINCIPAL_LOCAL","IPSEC_TOKEN_PRINCIPAL_MAX","IPSEC_TOKEN_PRINCIPAL_PEER","fwp.ipsec_token_principal","ipsectypes/IPSEC_TOKEN_PRINCIPAL","ipsectypes/IPSEC_TOKEN_PRINCIPAL_LOCAL","ipsectypes/IPSEC_TOKEN_PRINCIPAL_MAX","ipsectypes/IPSEC_TOKEN_PRINCIPAL_PEER"]
+description: An access token principal.
+helpviewer_keywords: ["IPSEC_TOKEN_PRINCIPAL","IPSEC_TOKEN_PRINCIPAL enumeration [Filtering]","IPSEC_TOKEN_PRINCIPAL_LOCAL","IPSEC_TOKEN_PRINCIPAL_MAX","IPSEC_TOKEN_PRINCIPAL_PEER","fwp.ipsec_token_principal","ipsectypes/IPSEC_TOKEN_PRINCIPAL","ipsectypes/IPSEC_TOKEN_PRINCIPAL_LOCAL","ipsectypes/IPSEC_TOKEN_PRINCIPAL_MAX","ipsectypes/IPSEC_TOKEN_PRINCIPAL_PEER"]
 old-location: fwp\ipsec_token_principal.htm
 tech.root: fwp
 ms.assetid: f61944aa-2545-4fdd-8bae-6271d4535acc
@@ -77,7 +78,7 @@ Maximum value for testing only.
 
 
 
-[IPSEC_TOKEN0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0)a>
+[IPSEC_TOKEN0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_token0)
  
 
  

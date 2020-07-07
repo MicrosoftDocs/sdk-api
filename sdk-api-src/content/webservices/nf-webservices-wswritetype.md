@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsWriteType
 title: WsWriteType function (webservices.h)
-description: Write a value of a given WS_TYPE to XML according to the WS_TYPE_MAPPING.helpviewer_keywords: ["WsWriteType","WsWriteType function [Web Services for Windows]","webservices/WsWriteType","wsw.wswritetype"]
+description: Write a value of a given WS_TYPE to XML according to the WS_TYPE_MAPPING.
+helpviewer_keywords: ["WsWriteType","WsWriteType function [Web Services for Windows]","webservices/WsWriteType","wsw.wswritetype"]
 old-location: wsw\wswritetype.htm
 tech.root: wsw
 ms.assetid: cab1b4d6-c18b-4740-b4a4-61e70ea181d9

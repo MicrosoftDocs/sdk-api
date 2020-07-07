@@ -1,7 +1,8 @@
 ---
 UID: NE:tsgpolicyengine.__MIDL___MIDL_itf_tsgpolicyengine_0000_0000_0001
 title: AAAuthSchemes (tsgpolicyengine.h)
-description: Specifies the type of authentication used to connect to Remote Desktop Gateway (RD Gateway).helpviewer_keywords: ["AAAuthSchemes","AAAuthSchemes enumeration [Remote Desktop Services]","AA_AUTH_ANY","AA_AUTH_BASIC","AA_AUTH_CONID","AA_AUTH_COOKIE","AA_AUTH_DIGEST","AA_AUTH_LOGGEDONCREDENTIALS","AA_AUTH_MAX","AA_AUTH_MIN","AA_AUTH_NEGOTIATE","AA_AUTH_NTLM","AA_AUTH_ORGID","AA_AUTH_SC","termserv.aaauthschemes","tsgpolicyengine/AAAuthSchemes","tsgpolicyengine/AA_AUTH_ANY","tsgpolicyengine/AA_AUTH_BASIC","tsgpolicyengine/AA_AUTH_CONID","tsgpolicyengine/AA_AUTH_COOKIE","tsgpolicyengine/AA_AUTH_DIGEST","tsgpolicyengine/AA_AUTH_LOGGEDONCREDENTIALS","tsgpolicyengine/AA_AUTH_MAX","tsgpolicyengine/AA_AUTH_MIN","tsgpolicyengine/AA_AUTH_NEGOTIATE","tsgpolicyengine/AA_AUTH_NTLM","tsgpolicyengine/AA_AUTH_ORGID","tsgpolicyengine/AA_AUTH_SC"]
+description: Specifies the type of authentication used to connect to Remote Desktop Gateway (RD Gateway).
+helpviewer_keywords: ["AAAuthSchemes","AAAuthSchemes enumeration [Remote Desktop Services]","AA_AUTH_ANY","AA_AUTH_BASIC","AA_AUTH_CONID","AA_AUTH_COOKIE","AA_AUTH_DIGEST","AA_AUTH_LOGGEDONCREDENTIALS","AA_AUTH_MAX","AA_AUTH_MIN","AA_AUTH_NEGOTIATE","AA_AUTH_NTLM","AA_AUTH_ORGID","AA_AUTH_SC","termserv.aaauthschemes","tsgpolicyengine/AAAuthSchemes","tsgpolicyengine/AA_AUTH_ANY","tsgpolicyengine/AA_AUTH_BASIC","tsgpolicyengine/AA_AUTH_CONID","tsgpolicyengine/AA_AUTH_COOKIE","tsgpolicyengine/AA_AUTH_DIGEST","tsgpolicyengine/AA_AUTH_LOGGEDONCREDENTIALS","tsgpolicyengine/AA_AUTH_MAX","tsgpolicyengine/AA_AUTH_MIN","tsgpolicyengine/AA_AUTH_NEGOTIATE","tsgpolicyengine/AA_AUTH_NTLM","tsgpolicyengine/AA_AUTH_ORGID","tsgpolicyengine/AA_AUTH_SC"]
 old-location: termserv\aaauthschemes.htm
 tech.root: TermServ
 ms.assetid: ff80f8ac-8378-4087-aa95-a081d2dd710a
@@ -130,7 +131,7 @@ This value is reserved.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a>
+<a href="/windows/win32/api/tsgpolicyengine/ns-tsgpolicyengine-aaaccountingdata">AAAccountingData</a>
  
 
  

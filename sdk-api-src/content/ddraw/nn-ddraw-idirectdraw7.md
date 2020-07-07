@@ -1,7 +1,8 @@
 ---
 UID: NN:ddraw.IDirectDraw7
 title: IDirectDraw7 (ddraw.h)
-description: Applications use the methods of the IDirectDraw7 interface to create DirectDraw objects and work with system-level variables. This section is a reference to the methods of the IDirectDraw7 interface.helpviewer_keywords: ["IDirectDraw7","IDirectDraw7 interface [DirectDraw]","IDirectDraw7 interface [DirectDraw]","described","ddraw/IDirectDraw7","directdraw.idirectdraw7"]
+description: Applications use the methods of the IDirectDraw7 interface to create DirectDraw objects and work with system-level variables. This section is a reference to the methods of the IDirectDraw7 interface.
+helpviewer_keywords: ["IDirectDraw7","IDirectDraw7 interface [DirectDraw]","IDirectDraw7 interface [DirectDraw]","described","ddraw/IDirectDraw7","directdraw.idirectdraw7"]
 old-location: directdraw\idirectdraw7.htm
 tech.root: directdraw
 ms.assetid: 1a1164fe-00c2-4469-8346-f86f7f48781e

@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.DeleteTrigger
 title: IScheduledWorkItem::DeleteTrigger (mstask.h)
-description: Deletes a trigger from a work item.helpviewer_keywords: ["DeleteTrigger","DeleteTrigger method [Task Scheduler]","DeleteTrigger method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","DeleteTrigger method","IScheduledWorkItem.DeleteTrigger","IScheduledWorkItem::DeleteTrigger","_msb_ischeduledworkitem_deletetrigger","mstask/IScheduledWorkItem::DeleteTrigger","taskschd.ischeduledworkitem_deletetrigger"]
+description: Deletes a trigger from a work item.
+helpviewer_keywords: ["DeleteTrigger","DeleteTrigger method [Task Scheduler]","DeleteTrigger method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","DeleteTrigger method","IScheduledWorkItem.DeleteTrigger","IScheduledWorkItem::DeleteTrigger","_msb_ischeduledworkitem_deletetrigger","mstask/IScheduledWorkItem::DeleteTrigger","taskschd.ischeduledworkitem_deletetrigger"]
 old-location: taskschd\ischeduledworkitem_deletetrigger.htm
 tech.root: taskschd
 ms.assetid: 418e16d3-67ee-4b77-a7a9-67e722619d80

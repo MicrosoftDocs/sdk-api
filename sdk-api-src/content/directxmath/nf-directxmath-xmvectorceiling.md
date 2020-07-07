@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorCeiling
 title: XMVectorCeiling function (directxmath.h)
-description: Computes the ceiling of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorCeiling","XMVectorCeiling","XMVectorCeiling method [DirectX Math Support APIs]","dxmath.xmvectorceiling"]
+description: Computes the ceiling of each component of an XMVECTOR.
+helpviewer_keywords: ["Use DirectX..XMVectorCeiling","XMVectorCeiling","XMVectorCeiling method [DirectX Math Support APIs]","dxmath.xmvectorceiling"]
 old-location: dxmath\xmvectorceiling.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorCeiling(XMVECTOR)

@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IDataObject.DAdvise
 title: IDataObject::DAdvise (objidl.h)
-description: Called by an object supporting an advise sink to create a connection between a data object and the advise sink. This enables the advise sink to be notified of changes in the data of the object.helpviewer_keywords: ["DAdvise","DAdvise method [COM]","DAdvise method [COM]","IDataObject interface","IDataObject interface [COM]","DAdvise method","IDataObject.DAdvise","IDataObject::DAdvise","_ole_idataobject_dadvise","com.idataobject_dadvise","objidl/IDataObject::DAdvise"]
+description: Called by an object supporting an advise sink to create a connection between a data object and the advise sink. This enables the advise sink to be notified of changes in the data of the object.
+helpviewer_keywords: ["DAdvise","DAdvise method [COM]","DAdvise method [COM]","IDataObject interface","IDataObject interface [COM]","DAdvise method","IDataObject.DAdvise","IDataObject::DAdvise","_ole_idataobject_dadvise","com.idataobject_dadvise","objidl/IDataObject::DAdvise"]
 old-location: com\idataobject_dadvise.htm
 tech.root: com
 ms.assetid: be9891d4-aad3-42a0-8c8e-4b86091ff03b
@@ -75,7 +76,7 @@ A group of flags for controlling the advisory connection. Possible values are fr
 <td>ADVF_NODATA
 </td>
 <td>
-Asks the data object to avoid sending data with the notifications. Typically data is sent. This flag is a way to override the default behavior. When ADVF_NODATA is used, the <b>tymed</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">OnDataChange</a> will usually contain TYMED_NULL. The caller can then retrieve the data with a subsequent <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> call.
+Asks the data object to avoid sending data with the notifications. Typically data is sent. This flag is a way to override the default behavior. When ADVF_NODATA is used, the <b>tymed</b> member of the <a href="/windows/win32/api/objidl/ns-objidl-ustgmedium~r1">STGMEDIUM</a> structure that is passed to <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-iadvisesink-ondatachange">OnDataChange</a> will usually contain TYMED_NULL. The caller can then retrieve the data with a subsequent <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nf-objidl-idataobject-getdata">IDataObject::GetData</a> call.
 
 </td>
 </tr>

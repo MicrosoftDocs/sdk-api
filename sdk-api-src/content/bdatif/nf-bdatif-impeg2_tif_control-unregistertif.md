@@ -1,7 +1,8 @@
 ---
 UID: NF:bdatif.IMPEG2_TIF_CONTROL.UnregisterTIF
 title: IMPEG2_TIF_CONTROL::UnregisterTIF (bdatif.h)
-description: The UnregisterTIF method unregisters the TIF with the Network Provider.helpviewer_keywords: ["IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies]","UnregisterTIF method","IMPEG2_TIF_CONTROL.UnregisterTIF","IMPEG2_TIF_CONTROL::UnregisterTIF","IMPEG2_TIF_CONTROLUnregisterTIF","UnregisterTIF","UnregisterTIF method [Microsoft TV Technologies]","UnregisterTIF method [Microsoft TV Technologies]","IMPEG2_TIF_CONTROL interface","bdatif/IMPEG2_TIF_CONTROL::UnregisterTIF","mstv.impeg2_tif_control_unregistertif"]
+description: The UnregisterTIF method unregisters the TIF with the Network Provider.
+helpviewer_keywords: ["IMPEG2_TIF_CONTROL interface [Microsoft TV Technologies]","UnregisterTIF method","IMPEG2_TIF_CONTROL.UnregisterTIF","IMPEG2_TIF_CONTROL::UnregisterTIF","IMPEG2_TIF_CONTROLUnregisterTIF","UnregisterTIF","UnregisterTIF method [Microsoft TV Technologies]","UnregisterTIF method [Microsoft TV Technologies]","IMPEG2_TIF_CONTROL interface","bdatif/IMPEG2_TIF_CONTROL::UnregisterTIF","mstv.impeg2_tif_control_unregistertif"]
 old-location: mstv\impeg2_tif_control_unregistertif.htm
 tech.root: mstv
 ms.assetid: e4fd151e-ec24-41b9-85df-fba05fc174d1

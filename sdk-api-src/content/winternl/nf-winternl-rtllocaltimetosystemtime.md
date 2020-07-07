@@ -1,7 +1,8 @@
 ---
 UID: NF:winternl.RtlLocalTimeToSystemTime
 title: RtlLocalTimeToSystemTime function (winternl.h)
-description: Converts the specified local time to system time.helpviewer_keywords: ["RtlLocalTimeToSystemTime","RtlLocalTimeToSystemTime function","base.rtllocaltimetosystemtime","winternl/RtlLocalTimeToSystemTime"]
+description: Converts the specified local time to system time.
+helpviewer_keywords: ["RtlLocalTimeToSystemTime","RtlLocalTimeToSystemTime function","base.rtllocaltimetosystemtime","winternl/RtlLocalTimeToSystemTime"]
 old-location: base\rtllocaltimetosystemtime.htm
 tech.root: SysInfo
 ms.assetid: ce6f0578-0ea1-4e31-98a7-0008795abd32
@@ -61,12 +62,12 @@ Converts the specified local time to system time.
 
 ### -param LocalTime [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that specifies the local time.
+A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that specifies the local time.
 
 
 ### -param SystemTime [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that receives the returned system time.
+A pointer to a <a href="/windows/win32/api/winnt/ns-winnt-large_integer~r1">LARGE_INTEGER</a> structure that receives the returned system time.
 
 
 ## -returns

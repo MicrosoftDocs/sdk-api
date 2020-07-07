@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_4.ID3D11Multithread.GetMultithreadProtected
 title: ID3D11Multithread::GetMultithreadProtected (d3d11_4.h)
-description: Find out if multithread protection is turned on or not.helpviewer_keywords: ["GetMultithreadProtected","GetMultithreadProtected method [Direct3D 11]","GetMultithreadProtected method [Direct3D 11]","ID3D11Multithread interface","ID3D11Multithread interface [Direct3D 11]","GetMultithreadProtected method","ID3D11Multithread.GetMultithreadProtected","ID3D11Multithread::GetMultithreadProtected","d3d11_4/ID3D11Multithread::GetMultithreadProtected","direct3d11.id3d11multithread_getmultithreadprotected"]
+description: Find out if multithread protection is turned on or not.
+helpviewer_keywords: ["GetMultithreadProtected","GetMultithreadProtected method [Direct3D 11]","GetMultithreadProtected method [Direct3D 11]","ID3D11Multithread interface","ID3D11Multithread interface [Direct3D 11]","GetMultithreadProtected method","ID3D11Multithread.GetMultithreadProtected","ID3D11Multithread::GetMultithreadProtected","d3d11_4/ID3D11Multithread::GetMultithreadProtected","direct3d11.id3d11multithread_getmultithreadprotected"]
 old-location: direct3d11\id3d11multithread_getmultithreadprotected.htm
 tech.root: direct3d11
 ms.assetid: 1BCB0021-9C92-425D-97C1-6EDB1D2127A8

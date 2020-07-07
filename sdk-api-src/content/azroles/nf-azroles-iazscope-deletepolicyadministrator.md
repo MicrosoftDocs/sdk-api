@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzScope.DeletePolicyAdministrator
 title: IAzScope::DeletePolicyAdministrator (azroles.h)
-description: The DeletePolicyAdministrator method of IAzScope removes the specified security identifier in text form from the list of principals that act as policy administrators.helpviewer_keywords: ["AzScope object [Security]","DeletePolicyAdministrator method","DeletePolicyAdministrator","DeletePolicyAdministrator method [Security]","DeletePolicyAdministrator method [Security]","AzScope object","DeletePolicyAdministrator method [Security]","IAzScope interface","IAzScope interface [Security]","DeletePolicyAdministrator method","IAzScope.DeletePolicyAdministrator","IAzScope::DeletePolicyAdministrator","azroles/IAzScope::DeletePolicyAdministrator","security.iazscope_deletepolicyadministrator"]
+description: The DeletePolicyAdministrator method of IAzScope removes the specified security identifier in text form from the list of principals that act as policy administrators.
+helpviewer_keywords: ["AzScope object [Security]","DeletePolicyAdministrator method","DeletePolicyAdministrator","DeletePolicyAdministrator method [Security]","DeletePolicyAdministrator method [Security]","AzScope object","DeletePolicyAdministrator method [Security]","IAzScope interface","IAzScope interface [Security]","DeletePolicyAdministrator method","IAzScope.DeletePolicyAdministrator","IAzScope::DeletePolicyAdministrator","azroles/IAzScope::DeletePolicyAdministrator","security.iazscope_deletepolicyadministrator"]
 old-location: security\iazscope_deletepolicyadministrator.htm
 tech.root: SecAuthZ
 ms.assetid: 23077da5-5475-45c6-87c0-b38f6c05d386

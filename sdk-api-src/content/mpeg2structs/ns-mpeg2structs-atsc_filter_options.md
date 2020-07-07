@@ -1,7 +1,8 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0017
 title: ATSC_FILTER_OPTIONS (mpeg2structs.h)
-description: The ATSC_FILTER_OPTIONS structure specifies additional criteria for matching ATSC section headers.helpviewer_keywords: ["ATSC_FILTER_OPTIONS","ATSC_FILTER_OPTIONS structure [Microsoft TV Technologies]","__MIDL___MIDL_itf_mpeg2structs_0000_0000_0017","mpeg2structs/ATSC_FILTER_OPTIONS","mstv.atsc_filter_options"]
+description: The ATSC_FILTER_OPTIONS structure specifies additional criteria for matching ATSC section headers.
+helpviewer_keywords: ["ATSC_FILTER_OPTIONS","ATSC_FILTER_OPTIONS structure [Microsoft TV Technologies]","__MIDL___MIDL_itf_mpeg2structs_0000_0000_0017","mpeg2structs/ATSC_FILTER_OPTIONS","mstv.atsc_filter_options"]
 old-location: mstv\atsc_filter_options.htm
 tech.root: mstv
 ms.assetid: 16e33f92-9e25-4a03-a21f-0ea5a99470ee

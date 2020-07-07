@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetDialogDpiChangeBehavior
 title: SetDialogDpiChangeBehavior function (winuser.h)
-description: Dialogs in Per-Monitor v2 contexts are automatically DPI scaled. This method lets you customize their DPI change behavior.helpviewer_keywords: ["SetDialogDpiChangeBehavior","SetDialogDpiChangeBehavior function [High DPI]","hidpi.setdialogdpichangebehavior","winuser/SetDialogDpiChangeBehavior"]
+description: Dialogs in Per-Monitor v2 contexts are automatically DPI scaled. This method lets you customize their DPI change behavior.
+helpviewer_keywords: ["SetDialogDpiChangeBehavior","SetDialogDpiChangeBehavior function [High DPI]","hidpi.setdialogdpichangebehavior","winuser/SetDialogDpiChangeBehavior"]
 old-location: hidpi\setdialogdpichangebehavior.htm
 tech.root: hidpi
 ms.assetid: 48A13F57-9D82-4F79-962B-FBD02FFF9B39

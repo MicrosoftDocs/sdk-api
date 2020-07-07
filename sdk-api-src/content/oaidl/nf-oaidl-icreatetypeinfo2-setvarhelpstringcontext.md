@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetVarHelpStringContext
 title: ICreateTypeInfo2::SetVarHelpStringContext (oaidl.h)
-description: Sets a Help context value for a specified variable.helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetVarHelpStringContext method","ICreateTypeInfo2.SetVarHelpStringContext","ICreateTypeInfo2::SetVarHelpStringContext","SetVarHelpStringContext","SetVarHelpStringContext method [Automation]","SetVarHelpStringContext method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetVarHelpStringContext","automat.icreatetypeinfo2_setvarhelpstringcontext","oaidl/ICreateTypeInfo2::SetVarHelpStringContext"]
+description: Sets a Help context value for a specified variable.
+helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetVarHelpStringContext method","ICreateTypeInfo2.SetVarHelpStringContext","ICreateTypeInfo2::SetVarHelpStringContext","SetVarHelpStringContext","SetVarHelpStringContext method [Automation]","SetVarHelpStringContext method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetVarHelpStringContext","automat.icreatetypeinfo2_setvarhelpstringcontext","oaidl/ICreateTypeInfo2::SetVarHelpStringContext"]
 old-location: automat\icreatetypeinfo2_setvarhelpstringcontext.htm
 tech.root: automat
 ms.assetid: 0939e286-150c-4258-bb6a-c020b6323b35

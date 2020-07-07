@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_RAYTRACING_GEOMETRY_AABBS_DESC
 title: D3D12_RAYTRACING_GEOMETRY_AABBS_DESC (d3d12.h)
-description: Describes a set of Axis-aligned bounding boxes that are used in the D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS structure to provide input data to a raytracing acceleration structure build operation.helpviewer_keywords: ["D3D12_RAYTRACING_GEOMETRY_AABBS_DESC","D3D12_RAYTRACING_GEOMETRY_AABBS_DESC structure","PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC","PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC structure pointer","d3d12/D3D12_RAYTRACING_GEOMETRY_AABBS_DESC","d3d12/PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC","direct3d12.d3d12_raytracing_geometry_aabbs_desc"]
+description: Describes a set of Axis-aligned bounding boxes that are used in the D3D12_BUILD_RAYTRACING_ACCELERATION_STRUCTURE_INPUTS structure to provide input data to a raytracing acceleration structure build operation.
+helpviewer_keywords: ["D3D12_RAYTRACING_GEOMETRY_AABBS_DESC","D3D12_RAYTRACING_GEOMETRY_AABBS_DESC structure","PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC","PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC structure pointer","d3d12/D3D12_RAYTRACING_GEOMETRY_AABBS_DESC","d3d12/PD3D12_RAYTRACING_GEOMETRY_AABBS_DESC","direct3d12.d3d12_raytracing_geometry_aabbs_desc"]
 old-location: direct3d12\d3d12_raytracing_geometry_aabbs_desc.htm
 tech.root: direct3d12
 ms.assetid: A9FA270E-2B97-4DAC-891F-0DF83F8F9522

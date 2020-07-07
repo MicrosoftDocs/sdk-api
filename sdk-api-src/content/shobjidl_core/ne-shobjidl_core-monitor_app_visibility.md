@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core.MONITOR_APP_VISIBILITY
 title: MONITOR_APP_VISIBILITY (shobjidl_core.h)
-description: Specifies whether a display is showing desktop windows instead of Windows Store apps.helpviewer_keywords: ["MAV_APP_VISIBLE","MAV_NO_APP_VISIBLE","MAV_UNKNOWN","MONITOR_APP_VISIBILITY","MONITOR_APP_VISIBILITY enumeration [Windows Shell]","shell.MONITOR_APP_VISIBILITY","shobjidl_core/MAV_APP_VISIBLE","shobjidl_core/MAV_NO_APP_VISIBLE","shobjidl_core/MAV_UNKNOWN","shobjidl_core/MONITOR_APP_VISIBILITY"]
+description: Specifies whether a display is showing desktop windows instead of Windows Store apps.
+helpviewer_keywords: ["MAV_APP_VISIBLE","MAV_NO_APP_VISIBLE","MAV_UNKNOWN","MONITOR_APP_VISIBILITY","MONITOR_APP_VISIBILITY enumeration [Windows Shell]","shell.MONITOR_APP_VISIBILITY","shobjidl_core/MAV_APP_VISIBLE","shobjidl_core/MAV_NO_APP_VISIBLE","shobjidl_core/MAV_UNKNOWN","shobjidl_core/MONITOR_APP_VISIBILITY"]
 old-location: shell\MONITOR_APP_VISIBILITY.htm
 tech.root: shell
 ms.assetid: DE52080C-5EC3-489B-ACC8-D5EAEE3DDF78

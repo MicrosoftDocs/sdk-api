@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawColorControl.SetColorControls
 title: IDirectDrawColorControl::SetColorControls (ddraw.h)
-description: Sets the color-control options for an overlay or a primary surface.helpviewer_keywords: ["IDirectDrawColorControl interface [DirectDraw]","SetColorControls method","IDirectDrawColorControl.SetColorControls","IDirectDrawColorControl::SetColorControls","SetColorControls","SetColorControls method [DirectDraw]","SetColorControls method [DirectDraw]","IDirectDrawColorControl interface","ddraw/IDirectDrawColorControl::SetColorControls","directdraw.idirectdrawcolorcontrol_setcolorcontrols"]
+description: Sets the color-control options for an overlay or a primary surface.
+helpviewer_keywords: ["IDirectDrawColorControl interface [DirectDraw]","SetColorControls method","IDirectDrawColorControl.SetColorControls","IDirectDrawColorControl::SetColorControls","SetColorControls","SetColorControls method [DirectDraw]","SetColorControls method [DirectDraw]","IDirectDrawColorControl interface","ddraw/IDirectDrawColorControl::SetColorControls","directdraw.idirectdrawcolorcontrol_setcolorcontrols"]
 old-location: directdraw\idirectdrawcolorcontrol_setcolorcontrols.htm
 tech.root: directdraw
 ms.assetid: de6f8266-d712-40bd-8230-cf5800cf8926

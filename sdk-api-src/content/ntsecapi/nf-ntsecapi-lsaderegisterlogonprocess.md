@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaDeregisterLogonProcess
 title: LsaDeregisterLogonProcess function (ntsecapi.h)
-description: Deletes the caller's logon application context and closes the connection to the LSA server.helpviewer_keywords: ["LsaDeregisterLogonProcess","LsaDeregisterLogonProcess function [Security]","_lsa_lsaderegisterlogonprocess","ntsecapi/LsaDeregisterLogonProcess","security.lsaderegisterlogonprocess"]
+description: Deletes the caller's logon application context and closes the connection to the LSA server.
+helpviewer_keywords: ["LsaDeregisterLogonProcess","LsaDeregisterLogonProcess function [Security]","_lsa_lsaderegisterlogonprocess","ntsecapi/LsaDeregisterLogonProcess","security.lsaderegisterlogonprocess"]
 old-location: security\lsaderegisterlogonprocess.htm
 tech.root: SecAuthN
 ms.assetid: 8a956469-9538-4d71-8158-af22aa26f840

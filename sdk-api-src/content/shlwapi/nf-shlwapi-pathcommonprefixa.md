@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathCommonPrefixA
 title: PathCommonPrefixA function (shlwapi.h)
-description: Compares two paths to determine if they share a common prefix. A prefix is one of these types:\_&#0034;C:\\&#0034;, &#0034;.&#0034;, &#0034;..&#0034;, &#0034;..\\&#0034;.helpviewer_keywords: ["PathCommonPrefix","PathCommonPrefix function [Windows Shell]","PathCommonPrefixA","PathCommonPrefixW","_win32_PathCommonPrefix","shell.PathCommonPrefix","shlwapi/PathCommonPrefix","shlwapi/PathCommonPrefixA","shlwapi/PathCommonPrefixW"]
+description: Compares two paths to determine if they share a common prefix. A prefix is one of these types:\_&#0034;C:\\&#0034;, &#0034;.&#0034;, &#0034;..&#0034;, &#0034;..\\&#0034;.
+helpviewer_keywords: ["PathCommonPrefix","PathCommonPrefix function [Windows Shell]","PathCommonPrefixA","PathCommonPrefixW","_win32_PathCommonPrefix","shell.PathCommonPrefix","shlwapi/PathCommonPrefix","shlwapi/PathCommonPrefixA","shlwapi/PathCommonPrefixW"]
 old-location: shell\PathCommonPrefix.htm
 tech.root: shell
 ms.assetid: 13c32b32-8541-41c4-82d8-48d3b2439f0c
@@ -93,4 +94,9 @@ Type: <b>int</b>
 Returns the count of common prefix characters in the path. If the output buffer pointer is not <b>NULL</b>, then these characters are copied to the output buffer.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines PathCommonPrefix as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

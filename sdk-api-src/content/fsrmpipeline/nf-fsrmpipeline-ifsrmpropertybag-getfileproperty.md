@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.GetFileProperty
 title: IFsrmPropertyBag::GetFileProperty (fsrmpipeline.h)
-description: Retrieves the specified property from the property bag.helpviewer_keywords: ["GetFileProperty","GetFileProperty method [File Server Resource Manager]","GetFileProperty method [File Server Resource Manager]","IFsrmPropertyBag interface","IFsrmPropertyBag interface [File Server Resource Manager]","GetFileProperty method","IFsrmPropertyBag.GetFileProperty","IFsrmPropertyBag::GetFileProperty","fs.ifsrmpropertybag_getfileproperty","fsrm.ifsrmpropertybag_getfileproperty","fsrmpipeline/IFsrmPropertyBag::GetFileProperty"]
+description: Retrieves the specified property from the property bag.
+helpviewer_keywords: ["GetFileProperty","GetFileProperty method [File Server Resource Manager]","GetFileProperty method [File Server Resource Manager]","IFsrmPropertyBag interface","IFsrmPropertyBag interface [File Server Resource Manager]","GetFileProperty method","IFsrmPropertyBag.GetFileProperty","IFsrmPropertyBag::GetFileProperty","fs.ifsrmpropertybag_getfileproperty","fsrm.ifsrmpropertybag_getfileproperty","fsrmpipeline/IFsrmPropertyBag::GetFileProperty"]
 old-location: fsrm\ifsrmpropertybag_getfileproperty.htm
 tech.root: fsrm
 ms.assetid: 09fc3287-f2a2-4ba7-9626-65c6634b7f2d

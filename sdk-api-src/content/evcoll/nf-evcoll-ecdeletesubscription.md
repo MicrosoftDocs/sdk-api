@@ -1,7 +1,8 @@
 ---
 UID: NF:evcoll.EcDeleteSubscription
 title: EcDeleteSubscription function (evcoll.h)
-description: Deletes an existing subscription.helpviewer_keywords: ["EcDeleteSubscription","EcDeleteSubscription function","evcoll/EcDeleteSubscription","wec.ecdeletesubscription","wes.ecdeletesubscription"]
+description: Deletes an existing subscription.
+helpviewer_keywords: ["EcDeleteSubscription","EcDeleteSubscription function","evcoll/EcDeleteSubscription","wec.ecdeletesubscription","wes.ecdeletesubscription"]
 old-location: wec\ecdeletesubscription.htm
 tech.root: WEC
 ms.assetid: 301b982e-a7ab-47ef-99a7-bd63dded792b

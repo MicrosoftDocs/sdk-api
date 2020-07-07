@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnPropertyItemCommit
 title: INameSpaceTreeControlEvents::OnPropertyItemCommit (shobjidl.h)
-description: Not implemented.helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnPropertyItemCommit method","INameSpaceTreeControlEvents.OnPropertyItemCommit","INameSpaceTreeControlEvents::OnPropertyItemCommit","OnPropertyItemCommit","OnPropertyItemCommit method [Windows Shell]","OnPropertyItemCommit method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnPropertyItemCommit","shell.INameSpaceTreeControlEvents_OnPropertyItemCommit","shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit"]
+description: Not implemented.
+helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnPropertyItemCommit method","INameSpaceTreeControlEvents.OnPropertyItemCommit","INameSpaceTreeControlEvents::OnPropertyItemCommit","OnPropertyItemCommit","OnPropertyItemCommit method [Windows Shell]","OnPropertyItemCommit method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnPropertyItemCommit","shell.INameSpaceTreeControlEvents_OnPropertyItemCommit","shobjidl/INameSpaceTreeControlEvents::OnPropertyItemCommit"]
 old-location: shell\INameSpaceTreeControlEvents_OnPropertyItemCommit.htm
 tech.root: shell
 ms.assetid: 85d0c2f1-b641-4437-90a4-285cfce62c60

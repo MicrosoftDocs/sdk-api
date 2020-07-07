@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStreamEvents.OnStreamClosed
 title: IRDPSRAPITransportStreamEvents::OnStreamClosed (rdpencomapi.h)
-description: Notifies the Remote Desktop Protocol (RDP) stack that the connection was closed.helpviewer_keywords: ["IRDPSRAPITransportStreamEvents interface [RDP]","OnStreamClosed method","IRDPSRAPITransportStreamEvents.OnStreamClosed","IRDPSRAPITransportStreamEvents::OnStreamClosed","OnStreamClosed","OnStreamClosed method [RDP]","OnStreamClosed method [RDP]","IRDPSRAPITransportStreamEvents interface","rdp.irdpsrapitransportstreamevents_onstreamclosed","rdpencomapi/IRDPSRAPITransportStreamEvents::OnStreamClosed"]
+description: Notifies the Remote Desktop Protocol (RDP) stack that the connection was closed.
+helpviewer_keywords: ["IRDPSRAPITransportStreamEvents interface [RDP]","OnStreamClosed method","IRDPSRAPITransportStreamEvents.OnStreamClosed","IRDPSRAPITransportStreamEvents::OnStreamClosed","OnStreamClosed","OnStreamClosed method [RDP]","OnStreamClosed method [RDP]","IRDPSRAPITransportStreamEvents interface","rdp.irdpsrapitransportstreamevents_onstreamclosed","rdpencomapi/IRDPSRAPITransportStreamEvents::OnStreamClosed"]
 old-location: rdp\irdpsrapitransportstreamevents_onstreamclosed.htm
 tech.root: rdp
 ms.assetid: 98767b91-95c1-4883-b27c-16c20d1da507

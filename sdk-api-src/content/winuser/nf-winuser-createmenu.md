@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CreateMenu
 title: CreateMenu function (winuser.h)
-description: Creates a menu. The menu is initially empty, but it can be filled with menu items by using the InsertMenuItem, AppendMenu, and InsertMenu functions.helpviewer_keywords: ["CreateMenu","CreateMenu function [Menus and Other Resources]","_win32_CreateMenu","_win32_createmenu_cpp","menurc.createmenu","winui._win32_createmenu","winuser/CreateMenu"]
+description: Creates a menu. The menu is initially empty, but it can be filled with menu items by using the InsertMenuItem, AppendMenu, and InsertMenu functions.
+helpviewer_keywords: ["CreateMenu","CreateMenu function [Menus and Other Resources]","_win32_CreateMenu","_win32_createmenu_cpp","menurc.createmenu","winui._win32_createmenu","winuser/CreateMenu"]
 old-location: menurc\createmenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\createmenu.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFHttpDownloadSession.Close
 title: IMFHttpDownloadSession::Close (mfidl.h)
-description: Invoked by Microsoft Media Foundation to specify that no more HTTP requests will be created, and allows IMFHttpDownloadSession to free any internal resources.helpviewer_keywords: ["Close","Close method [Media Foundation]","Close method [Media Foundation]","IMFHttpDownloadSession interface","IMFHttpDownloadSession interface [Media Foundation]","Close method","IMFHttpDownloadSession.Close","IMFHttpDownloadSession::Close","mf.imfhttpdownloadsession_close","mfidl/IMFHttpDownloadSession::Close"]
+description: Invoked by Microsoft Media Foundation to specify that no more HTTP requests will be created, and allows IMFHttpDownloadSession to free any internal resources.
+helpviewer_keywords: ["Close","Close method [Media Foundation]","Close method [Media Foundation]","IMFHttpDownloadSession interface","IMFHttpDownloadSession interface [Media Foundation]","Close method","IMFHttpDownloadSession.Close","IMFHttpDownloadSession::Close","mf.imfhttpdownloadsession_close","mfidl/IMFHttpDownloadSession::Close"]
 old-location: mf\imfhttpdownloadsession_close.htm
 tech.root: medfound
 ms.assetid: 587D281D-0488-470B-9E20-AE6DE70F33DC

@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIClearClipboard
 title: AVIClearClipboard function (vfw.h)
-description: The AVIClearClipboard function removes an AVI file from the clipboard.helpviewer_keywords: ["AVIClearClipboard","AVIClearClipboard function [Windows Multimedia]","_win32_AVIClearClipboard","multimedia.aviclearclipboard","vfw/AVIClearClipboard"]
+description: The AVIClearClipboard function removes an AVI file from the clipboard.
+helpviewer_keywords: ["AVIClearClipboard","AVIClearClipboard function [Windows Multimedia]","_win32_AVIClearClipboard","multimedia.aviclearclipboard","vfw/AVIClearClipboard"]
 old-location: multimedia\aviclearclipboard.htm
 tech.root: Multimedia
 ms.assetid: e16d3666-9624-4341-a11c-73149f1f178e

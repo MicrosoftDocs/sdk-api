@@ -1,7 +1,8 @@
 ---
 UID: NN:syncmgr.ISyncMgrHandlerCollection
 title: ISyncMgrHandlerCollection (syncmgr.h)
-description: Exposes methods that provide an enumerator of sync handler IDs and instantiate those sync handlers.helpviewer_keywords: ["ISyncMgrHandlerCollection","ISyncMgrHandlerCollection interface [Windows Shell]","ISyncMgrHandlerCollection interface [Windows Shell]","described","_shell_ISyncMgrHandlerCollection","shell.ISyncMgrHandlerCollection","syncmgr/ISyncMgrHandlerCollection"]
+description: Exposes methods that provide an enumerator of sync handler IDs and instantiate those sync handlers.
+helpviewer_keywords: ["ISyncMgrHandlerCollection","ISyncMgrHandlerCollection interface [Windows Shell]","ISyncMgrHandlerCollection interface [Windows Shell]","described","_shell_ISyncMgrHandlerCollection","shell.ISyncMgrHandlerCollection","syncmgr/ISyncMgrHandlerCollection"]
 old-location: shell\ISyncMgrHandlerCollection.htm
 tech.root: shell
 ms.assetid: 24514602-42c0-41ef-be33-fce03e7f091a

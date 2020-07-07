@@ -1,7 +1,8 @@
 ---
 UID: NF:olectl.OleTranslateColor
 title: OleTranslateColor function (olectl.h)
-description: Converts an OLE_COLOR type to a COLORREF.helpviewer_keywords: ["OleTranslateColor","OleTranslateColor function [COM]","_ctrl_OleTranslateColor","com.oletranslatecolor","olectl/OleTranslateColor"]
+description: Converts an OLE_COLOR type to a COLORREF.
+helpviewer_keywords: ["OleTranslateColor","OleTranslateColor function [COM]","_ctrl_OleTranslateColor","com.oletranslatecolor","olectl/OleTranslateColor"]
 old-location: com\oletranslatecolor.htm
 tech.root: com
 ms.assetid: f4b407c3-e88a-47b4-bb43-8f691629d2f3

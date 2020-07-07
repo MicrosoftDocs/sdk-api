@@ -1,7 +1,8 @@
 ---
 UID: NS:windns.__unnamed_struct_28
 title: DNS_NXT_DATAW (windns.h)
-description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535.helpviewer_keywords: ["*PDNS_NXT_DATA","*PDNS_NXT_DATAW","DNS_NXT_DATA","DNS_NXT_DATA structure [DNS]","DNS_NXT_DATAW","PDNS_NXT_DATA","PDNS_NXT_DATA structure pointer [DNS]","_dns_dns_nxt_data","dns.dns_nxt_data","windns/DNS_NXT_DATA","windns/PDNS_NXT_DATA"]
+description: The DNS_NXT_DATA structure represents a DNS next (NXT) resource record (RR) as specified in section 5 of RFC 2535.
+helpviewer_keywords: ["*PDNS_NXT_DATA","*PDNS_NXT_DATAW","DNS_NXT_DATA","DNS_NXT_DATA structure [DNS]","DNS_NXT_DATAW","PDNS_NXT_DATA","PDNS_NXT_DATA structure pointer [DNS]","_dns_dns_nxt_data","dns.dns_nxt_data","windns/DNS_NXT_DATA","windns/PDNS_NXT_DATA"]
 old-location: dns\dns_nxt_data.htm
 tech.root: DNS
 ms.assetid: 0e5370c2-30d3-4bb7-85a0-f4412f5572fd
@@ -89,17 +90,21 @@ A <b>BYTE</b> array that contains a bitmap which specifies the RR types that are
 
 The 
 <b>DNS_NXT_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
+
+
+> [!NOTE]
+> The windns.h header defines DNS_NXT_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

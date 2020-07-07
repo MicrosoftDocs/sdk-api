@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomation6
 title: IUIAutomation6 (uiautomationclient.h)
-description: Extends the IUIAutomation5 interface to expose additional methods for controlling Microsoft UI Automation functionality.helpviewer_keywords: ["IUIAutomation6","IUIAutomation6 interface [Windows Accessibility]","IUIAutomation6 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomation6","winauto.uiauto_IUIAutomation6"]
+description: Extends the IUIAutomation5 interface to expose additional methods for controlling Microsoft UI Automation functionality.
+helpviewer_keywords: ["IUIAutomation6","IUIAutomation6 interface [Windows Accessibility]","IUIAutomation6 interface [Windows Accessibility]","described","uiautomationclient/IUIAutomation6","winauto.uiauto_IUIAutomation6"]
 old-location: winauto\uiauto_IUIAutomation6.htm
 tech.root: WinAuto
 ms.assetid: FA42D0D0-E6D6-41C6-BCF1-6F9C02D2BE1D

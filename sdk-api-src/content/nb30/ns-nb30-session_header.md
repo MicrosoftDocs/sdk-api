@@ -1,7 +1,8 @@
 ---
 UID: NS:nb30._SESSION_HEADER
 title: SESSION_HEADER (nb30.h)
-description: The SESSION_HEADER structure contains information about a network session.helpviewer_keywords: ["*PSESSION_HEADER","PSESSION_HEADER","PSESSION_HEADER structure pointer [NetBIOS]","SESSION_HEADER","SESSION_HEADER structure [NetBIOS]","_SESSION_HEADER","nb30/PSESSION_HEADER","nb30/SESSION_HEADER","netbios.session_header"]
+description: The SESSION_HEADER structure contains information about a network session.
+helpviewer_keywords: ["*PSESSION_HEADER","PSESSION_HEADER","PSESSION_HEADER structure pointer [NetBIOS]","SESSION_HEADER","SESSION_HEADER structure [NetBIOS]","_SESSION_HEADER","nb30/PSESSION_HEADER","nb30/SESSION_HEADER","netbios.session_header"]
 old-location: netbios\session_header.htm
 tech.root: NetBIOS
 ms.assetid: 0b466bc7-6d20-477f-9e64-1d3dc0744484

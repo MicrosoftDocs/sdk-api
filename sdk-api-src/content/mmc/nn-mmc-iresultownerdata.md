@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IResultOwnerData
 title: IResultOwnerData (mmc.h)
-description: The IResultOwnerData interface supports the use of virtual lists, which are list-view controls that have the LVS_OWNERDATA style set.helpviewer_keywords: ["IResultOwnerData","IResultOwnerData interface [MMC]","IResultOwnerData interface [MMC]","described","_slate_iresultownerdata","mmc.iresultownerdata","mmc/IResultOwnerData"]
+description: The IResultOwnerData interface supports the use of virtual lists, which are list-view controls that have the LVS_OWNERDATA style set.
+helpviewer_keywords: ["IResultOwnerData","IResultOwnerData interface [MMC]","IResultOwnerData interface [MMC]","described","_slate_iresultownerdata","mmc.iresultownerdata","mmc/IResultOwnerData"]
 old-location: mmc\iresultownerdata.htm
 tech.root: mmc
 ms.assetid: 184f3783-9000-45aa-867b-580800b560b3

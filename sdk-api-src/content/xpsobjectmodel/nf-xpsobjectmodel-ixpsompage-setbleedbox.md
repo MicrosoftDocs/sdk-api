@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.SetBleedBox
 title: IXpsOMPage::SetBleedBox (xpsobjectmodel.h)
-description: Sets the dimensions of the page's bleed box.helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetBleedBox method","IXpsOMPage.SetBleedBox","IXpsOMPage::SetBleedBox","SetBleedBox","SetBleedBox method [XPS Documents and Packaging]","SetBleedBox method [XPS Documents and Packaging]","IXpsOMPage interface","bleedBox.height","bleedBox.width","bleedBox.x","bleedBox.y","xps.ixpsompage_setbleedbox","xpsobjectmodel/IXpsOMPage::SetBleedBox"]
+description: Sets the dimensions of the page's bleed box.
+helpviewer_keywords: ["IXpsOMPage interface [XPS Documents and Packaging]","SetBleedBox method","IXpsOMPage.SetBleedBox","IXpsOMPage::SetBleedBox","SetBleedBox","SetBleedBox method [XPS Documents and Packaging]","SetBleedBox method [XPS Documents and Packaging]","IXpsOMPage interface","bleedBox.height","bleedBox.width","bleedBox.x","bleedBox.y","xps.ixpsompage_setbleedbox","xpsobjectmodel/IXpsOMPage::SetBleedBox"]
 old-location: xps\ixpsompage_setbleedbox.htm
 tech.root: printdocs
 ms.assetid: 947313e1-6c95-4751-997f-d5172acaa5d5
@@ -156,7 +157,7 @@ The bleed box dimensions are not checked against the page dimensions until the p
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

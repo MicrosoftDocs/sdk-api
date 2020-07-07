@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_ACTIVATION_HARDMAX_OPERATOR_DESC
 title: DML_ACTIVATION_HARDMAX_OPERATOR_DESC
-description: Describes a DirectML activation operator that performs a hardmax function on the input, f(x) = if x_i == max(x) then 1 else 0 (but only for the first element in the axis).helpviewer_keywords: ["DML_ACTIVATION_HARDMAX_OPERATOR_DESC","DML_ACTIVATION_HARDMAX_OPERATOR_DESC structure","direct3d12.dml_activation_hardmax_operator_desc","directml/DML_ACTIVATION_HARDMAX_OPERATOR_DESC"]
+description: Describes a DirectML activation operator that performs a hardmax function on the input, f(x) = if x_i == max(x) then 1 else 0 (but only for the first element in the axis).
+helpviewer_keywords: ["DML_ACTIVATION_HARDMAX_OPERATOR_DESC","DML_ACTIVATION_HARDMAX_OPERATOR_DESC structure","direct3d12.dml_activation_hardmax_operator_desc","directml/DML_ACTIVATION_HARDMAX_OPERATOR_DESC"]
 old-location: direct3d12\dml_activation_hardmax_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 1624348B-F871-4645-848F-3E108D3CC7B1

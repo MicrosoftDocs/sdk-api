@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IStylesProvider.get_Shape
 title: IStylesProvider::get_Shape (uiautomationcore.h)
-description: Specifies the shape of an element in a document.helpviewer_keywords: ["IStylesProvider interface [Windows Accessibility]","Shape property","IStylesProvider.Shape","IStylesProvider.get_Shape","IStylesProvider::Shape","IStylesProvider::get_Shape","Shape property [Windows Accessibility]","Shape property [Windows Accessibility]","IStylesProvider interface","get_Shape","uiautomationcore/IStylesProvider::Shape","uiautomationcore/IStylesProvider::get_Shape","winauto.uiauto_istylesprovider_shape"]
+description: Specifies the shape of an element in a document.
+helpviewer_keywords: ["IStylesProvider interface [Windows Accessibility]","Shape property","IStylesProvider.Shape","IStylesProvider.get_Shape","IStylesProvider::Shape","IStylesProvider::get_Shape","Shape property [Windows Accessibility]","Shape property [Windows Accessibility]","IStylesProvider interface","get_Shape","uiautomationcore/IStylesProvider::Shape","uiautomationcore/IStylesProvider::get_Shape","winauto.uiauto_istylesprovider_shape"]
 old-location: winauto\uiauto_istylesprovider_shape.htm
 tech.root: WinAuto
 ms.assetid: 4FE34CD4-DF41-4B00-B9C9-A5909E116030

@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymSetScopeFromInlineContext
 title: SymSetScopeFromInlineContext function (dbghelp.h)
-description: Sets the local scope to the symbol that matches the specified address and inline context.helpviewer_keywords: ["SymSetScopeFromInlineContext","SymSetScopeFromInlineContext function","base.symsetscopefrominlinecontext","dbghelp/SymSetScopeFromInlineContext"]
+description: Sets the local scope to the symbol that matches the specified address and inline context.
+helpviewer_keywords: ["SymSetScopeFromInlineContext","SymSetScopeFromInlineContext function","base.symsetscopefrominlinecontext","dbghelp/SymSetScopeFromInlineContext"]
 old-location: base\symsetscopefrominlinecontext.htm
 tech.root: Debug
 ms.assetid: 053163b0-2504-48fc-92c1-3839311ec657

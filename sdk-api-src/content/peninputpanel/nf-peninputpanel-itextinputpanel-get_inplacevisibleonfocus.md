@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.ITextInputPanel.get_InPlaceVisibleOnFocus
 title: ITextInputPanel::get_InPlaceVisibleOnFocus (peninputpanel.h)
-description: Gets or sets a value that indicates whether the Tablet PC Input Panel is displayed automatically when the window to which it is attached gets focus.helpviewer_keywords: ["487ffcee-9df6-48db-8c84-e7e073b8a643","ITextInputPanel interface [Tablet PC]","InPlaceVisibleOnFocus property","ITextInputPanel.InPlaceVisibleOnFocus","ITextInputPanel.get_InPlaceVisibleOnFocus","ITextInputPanel.put_InPlaceVisibleOnFocus","ITextInputPanel::InPlaceVisibleOnFocus","ITextInputPanel::get_InPlaceVisibleOnFocus","ITextInputPanel::put_InPlaceVisibleOnFocus","InPlaceVisibleOnFocus property [Tablet PC]","InPlaceVisibleOnFocus property [Tablet PC]","ITextInputPanel interface","get_InPlaceVisibleOnFocus","peninputpanel/ITextInputPanel::InPlaceVisibleOnFocus","peninputpanel/ITextInputPanel::get_InPlaceVisibleOnFocus","peninputpanel/ITextInputPanel::put_InPlaceVisibleOnFocus","tablet.itextinputpanel_inplacevisibleonfocus"]
+description: Gets or sets a value that indicates whether the Tablet PC Input Panel is displayed automatically when the window to which it is attached gets focus.
+helpviewer_keywords: ["487ffcee-9df6-48db-8c84-e7e073b8a643","ITextInputPanel interface [Tablet PC]","InPlaceVisibleOnFocus property","ITextInputPanel.InPlaceVisibleOnFocus","ITextInputPanel.get_InPlaceVisibleOnFocus","ITextInputPanel.put_InPlaceVisibleOnFocus","ITextInputPanel::InPlaceVisibleOnFocus","ITextInputPanel::get_InPlaceVisibleOnFocus","ITextInputPanel::put_InPlaceVisibleOnFocus","InPlaceVisibleOnFocus property [Tablet PC]","InPlaceVisibleOnFocus property [Tablet PC]","ITextInputPanel interface","get_InPlaceVisibleOnFocus","peninputpanel/ITextInputPanel::InPlaceVisibleOnFocus","peninputpanel/ITextInputPanel::get_InPlaceVisibleOnFocus","peninputpanel/ITextInputPanel::put_InPlaceVisibleOnFocus","tablet.itextinputpanel_inplacevisibleonfocus"]
 old-location: tablet\itextinputpanel_inplacevisibleonfocus.htm
 tech.root: tablet
 ms.assetid: 487ffcee-9df6-48db-8c84-e7e073b8a643
@@ -72,7 +73,7 @@ This property is read/write.
 
 
 
-If <b>ITextInputPanel::InPlaceVisibleOnFocus Property</b> is set to <b>TRUE</b> for a control, then when the control gains focus, the Tablet PC Input Panel automatically shows in the default <a href="https://docs.microsoft.com/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a> provided it is a legal operation.
+If <b>ITextInputPanel::InPlaceVisibleOnFocus Property</b> is set to <b>TRUE</b> for a control, then when the control gains focus, the Tablet PC Input Panel automatically shows in the default <a href="/windows/win32/api/peninputpanel/ne-peninputpanel-inplacestate">InPlaceState Enumeration</a> provided it is a legal operation.
 
 It is possible to prevent the in-place Input Panel and the Input Panel Icon from ever appearing by setting the <b>ITextInputPanel::InPlaceVisibleOnFocus Property</b> to <b>FALSE</b>. Setting it to <b>TRUE</b> reverts it to the system default of appearing when possible, provided it has not been disabled by the user or Group Policy. This option is useful for applications that include custom text entry solutions as an alternative to the Input Panel.
 

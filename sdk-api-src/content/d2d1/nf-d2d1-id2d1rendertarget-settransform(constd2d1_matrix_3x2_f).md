@@ -1,7 +1,8 @@
 ---
-UID: NF:d2d1.ID2D1RenderTarget.SetTransform(const D2D1_MATRIX_3X2_F)
+UID: NF:d2d1.ID2D1RenderTarget.SetTransform(constD2D1_MATRIX_3X2_F)
 title: ID2D1RenderTarget::SetTransform (d2d1.h)
-description: Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","SetTransform method","ID2D1RenderTarget.SetTransform","ID2D1RenderTarget::SetTransform","ID2D1RenderTarget::SetTransform(const D2D1_MATRIX_3X2_F)","SetTransform","SetTransform method [Direct2D]","SetTransform method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::SetTransform","direct2d.ID2D1RenderTarget_SetTransform_ptr_D2D_MATRIX_3X2_F"]
+description: Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.
+helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","SetTransform method","ID2D1RenderTarget.SetTransform","ID2D1RenderTarget::SetTransform","ID2D1RenderTarget::SetTransform(const D2D1_MATRIX_3X2_F)","SetTransform","SetTransform method [Direct2D]","SetTransform method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::SetTransform","direct2d.ID2D1RenderTarget_SetTransform_ptr_D2D_MATRIX_3X2_F"]
 old-location: direct2d\ID2D1RenderTarget_SetTransform_ptr_D2D_MATRIX_3X2_F.htm
 tech.root: Direct2D
 ms.assetid: c358ea97-c42e-4912-a4e4-9a30935bd95b
@@ -59,7 +60,7 @@ Applies the specified transform to the render target, replacing the existing tra
 
 ### -param transform [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transform to apply to the render target.
 
@@ -69,31 +70,31 @@ The transform to apply to the render target.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-apply-multiple-transforms">How to Apply Multiple Transforms to an Object</a>
+<a href="/windows/win32/Direct2D/how-to-apply-multiple-transforms">How to Apply Multiple Transforms to an Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-rotate">How to Rotate an Object</a>
+<a href="/windows/win32/Direct2D/how-to-rotate">How to Rotate an Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-scale">How to Scale an Object</a>
+<a href="/windows/win32/Direct2D/how-to-scale">How to Scale an Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-skew">How to Skew an Object</a>
+<a href="/windows/win32/Direct2D/how-to-skew">How to Skew an Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-translate">How to Translate an Object</a>
+<a href="/windows/win32/Direct2D/how-to-translate">How to Translate an Object</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-transforms-overview">Transforms Overview</a>
+<a href="/windows/win32/Direct2D/direct2d-transforms-overview">Transforms Overview</a>
  
 
  

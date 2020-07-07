@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi.IDXGIOutput
 title: IDXGIOutput (dxgi.h)
-description: An IDXGIOutput interface represents an adapter output (such as a monitor).helpviewer_keywords: ["1d09c573-df6d-db81-0dbe-3135c4704ef8","IDXGIOutput","IDXGIOutput interface [DXGI]","IDXGIOutput interface [DXGI]","described","direct3ddxgi.idxgioutput","dxgi/IDXGIOutput"]
+description: An IDXGIOutput interface represents an adapter output (such as a monitor).
+helpviewer_keywords: ["1d09c573-df6d-db81-0dbe-3135c4704ef8","IDXGIOutput","IDXGIOutput interface [DXGI]","IDXGIOutput interface [DXGI]","described","direct3ddxgi.idxgioutput","dxgi/IDXGIOutput"]
 old-location: direct3ddxgi\idxgioutput.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput.htm

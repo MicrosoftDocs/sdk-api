@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems
 title: ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems (spatialaudiometadata.h)
-description: Activate an ISpatialAudioObjectForMetadataItems for rendering.helpviewer_keywords: ["ActivateSpatialAudioObjectForMetadataItems","ActivateSpatialAudioObjectForMetadataItems method [Core Audio]","ActivateSpatialAudioObjectForMetadataItems method [Core Audio]","ISpatialAudioObjectRenderStreamForMetadata interface","ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio]","ActivateSpatialAudioObjectForMetadataItems method","ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems","ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems","coreaudio.ispatialaudioobjectformetadataitems_activatespatialaudioobjectformetadataitems","coreaudio.ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadataitems","spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems"]
+description: Activate an ISpatialAudioObjectForMetadataItems for rendering.
+helpviewer_keywords: ["ActivateSpatialAudioObjectForMetadataItems","ActivateSpatialAudioObjectForMetadataItems method [Core Audio]","ActivateSpatialAudioObjectForMetadataItems method [Core Audio]","ISpatialAudioObjectRenderStreamForMetadata interface","ISpatialAudioObjectRenderStreamForMetadata interface [Core Audio]","ActivateSpatialAudioObjectForMetadataItems method","ISpatialAudioObjectRenderStreamForMetadata.ActivateSpatialAudioObjectForMetadataItems","ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems","coreaudio.ispatialaudioobjectformetadataitems_activatespatialaudioobjectformetadataitems","coreaudio.ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadataitems","spatialaudiometadata/ISpatialAudioObjectRenderStreamForMetadata::ActivateSpatialAudioObjectForMetadataItems"]
 old-location: coreaudio\ispatialaudioobjectrenderstreamformetadataitems_activatespatialaudioobjectformetadataitems.htm
 tech.root: CoreAudio
 ms.assetid: A9743D42-659A-404C-BB21-8A5086870F34
@@ -141,7 +142,7 @@ The value specified in the <i>type</i> parameter is not one of the values define
 </dl>
 </td>
 <td width="60%">
-The <a href="https://docs.microsoft.com/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
+The <a href="/windows/win32/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient">ISpatialAudioClient</a> associated with the spatial audio stream has been destroyed.
 
 </td>
 </tr>

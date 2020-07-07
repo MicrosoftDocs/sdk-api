@@ -1,7 +1,8 @@
 ---
 UID: NF:provider.Provider.ValidateDeletionFlags
 title: Provider::ValidateDeletionFlags (provider.h)
-description: The ValidateDeletionFlags method determines whether a set of flags is valid for a delete operation.helpviewer_keywords: ["?ValidateDeletionFlags@Provider@@MAEJJ@Z","?ValidateDeletionFlags@Provider@@MEAAJJ@Z","Provider interface [Windows Management Instrumentation]","ValidateDeletionFlags method","Provider.ValidateDeletionFlags","Provider::ValidateDeletionFlags","ValidateDeletionFlags","ValidateDeletionFlags method [Windows Management Instrumentation]","ValidateDeletionFlags method [Windows Management Instrumentation]","Provider interface","_hmm_provider_validatedeletionflags","provider/Provider::ValidateDeletionFlags","wmi.provider_validatedeletionflags"]
+description: The ValidateDeletionFlags method determines whether a set of flags is valid for a delete operation.
+helpviewer_keywords: ["?ValidateDeletionFlags@Provider@@MAEJJ@Z","?ValidateDeletionFlags@Provider@@MEAAJJ@Z","Provider interface [Windows Management Instrumentation]","ValidateDeletionFlags method","Provider.ValidateDeletionFlags","Provider::ValidateDeletionFlags","ValidateDeletionFlags","ValidateDeletionFlags method [Windows Management Instrumentation]","ValidateDeletionFlags method [Windows Management Instrumentation]","Provider interface","_hmm_provider_validatedeletionflags","provider/Provider::ValidateDeletionFlags","wmi.provider_validatedeletionflags"]
 old-location: wmi\provider_validatedeletionflags.htm
 tech.root: WmiSdk
 ms.assetid: eaaf49e3-e768-4494-ba0b-dc2c8c35be47

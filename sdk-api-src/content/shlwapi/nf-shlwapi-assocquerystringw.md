@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.AssocQueryStringW
 title: AssocQueryStringW function (shlwapi.h)
-description: Searches for and retrieves a file or protocol association-related string from the registry.helpviewer_keywords: ["AssocQueryString","AssocQueryString function [Windows Shell]","AssocQueryStringA","AssocQueryStringW","CLSID","Executable name","File name extension","ProgID","_win32_AssocQueryString","shell.AssocQueryString","shlwapi/AssocQueryString","shlwapi/AssocQueryStringA","shlwapi/AssocQueryStringW"]
+description: Searches for and retrieves a file or protocol association-related string from the registry.
+helpviewer_keywords: ["AssocQueryString","AssocQueryString function [Windows Shell]","AssocQueryStringA","AssocQueryStringW","CLSID","Executable name","File name extension","ProgID","_win32_AssocQueryString","shell.AssocQueryString","shlwapi/AssocQueryString","shlwapi/AssocQueryStringA","shlwapi/AssocQueryStringW"]
 old-location: shell\AssocQueryString.htm
 tech.root: shell
 ms.assetid: 026b841d-b831-475e-a788-2c79801e20b8
@@ -106,7 +107,7 @@ An application's ProgID, such as <b>Word.Document.8</b>.
 
 #### Executable name
 
-The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+The name of an application's .exe file. The <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 
 ### -param pszExtra [in, optional]
@@ -129,7 +130,7 @@ Type: <b>DWORD*</b>
 
 A pointer to a value that, when calling the function, is set to the number of characters in the <i>pszOut</i> buffer. When the function returns successfully, the value is set to the number of characters actually placed in the buffer.
 
-If the <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pszOut</i> is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
+If the <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_NOTRUNCATE</a> flag is set in <i>flags</i> and the buffer specified in <i>pszOut</i> is too small, the function returns E_POINTER and the value is set to the required size of the buffer.
 
 If <i>pszOut</i> is <b>NULL</b>, the function returns S_FALSE and <i>pcchOut</i> points to the required size, in characters, of the buffer.
 
@@ -141,7 +142,7 @@ A CLSID GUID in the standard "{GUID}" format.
 
 ##### - pszAssoc.Executable name
 
-The name of an application's .exe file. The <a href="https://docs.microsoft.com/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
+The name of an application's .exe file. The <a href="/windows/win32/api/shlwapi/ne-shlwapi-url_scheme">ASSOCF_OPEN_BYEXENAME</a> flag must be set in <i>flags</i>.
 
 
 ##### - pszAssoc.File name extension
@@ -196,4 +197,8 @@ This function is a wrapper for the <a href="https://docs.microsoft.com/windows/d
 Once an item is selected, the host must decide which (if any) preview handler is available for that item. Preview handlers are typically registered on file name extensions or ProgID, but some preview handlers are only instantiated for items within particular shell folders (the MAPI preview handler is associated with any items that came from the MAPI Shell folder, for example). Thus, the host must use <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a> to determine which preview handler to use. For further discussion of how the file and protocol association functions work, see <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nn-shlwapi-iqueryassociations">IQueryAssociations</a>.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines AssocQueryString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

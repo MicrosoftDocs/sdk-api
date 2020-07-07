@@ -1,7 +1,8 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_NUMERIC_COMPARISON_INFO
 title: BLUETOOTH_NUMERIC_COMPARISON_INFO (bluetoothapis.h)
-description: BLUETOOTH_NUMERIC_COMPARISON_INFO structure contains the numeric value used for authentication via numeric comparison.helpviewer_keywords: ["*PBLUETOOTH_NUMERIC_COMPARISON_INFO","BLUETOOTH_NUMERIC_COMPARISON_INFO","BLUETOOTH_NUMERIC_COMPARISON_INFO structure [Bluetooth]","PBLUETOOTH_NUMERIC_COMPARISON_INFO","PBLUETOOTH_NUMERIC_COMPARISON_INFO structure pointer [Bluetooth]","bluetooth.bluetooth_numeric_comparison_info","bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO","bluetoothapis/PBLUETOOTH_NUMERIC_COMPARISON_INFO"]
+description: BLUETOOTH_NUMERIC_COMPARISON_INFO structure contains the numeric value used for authentication via numeric comparison.
+helpviewer_keywords: ["*PBLUETOOTH_NUMERIC_COMPARISON_INFO","BLUETOOTH_NUMERIC_COMPARISON_INFO","BLUETOOTH_NUMERIC_COMPARISON_INFO structure [Bluetooth]","PBLUETOOTH_NUMERIC_COMPARISON_INFO","PBLUETOOTH_NUMERIC_COMPARISON_INFO structure pointer [Bluetooth]","bluetooth.bluetooth_numeric_comparison_info","bluetoothapis/BLUETOOTH_NUMERIC_COMPARISON_INFO","bluetoothapis/PBLUETOOTH_NUMERIC_COMPARISON_INFO"]
 old-location: bluetooth\bluetooth_numeric_comparison_info.htm
 tech.root: bluetooth
 ms.assetid: 5e8f8250-6790-41dd-bd0b-13a421cf3ebc
@@ -67,7 +68,7 @@ The numeric  value.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
+<a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_method">BLUETOOTH_AUTHENTICATION_METHOD</a>
  
 
  

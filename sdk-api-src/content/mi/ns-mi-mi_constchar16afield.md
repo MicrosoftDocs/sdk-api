@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_ConstChar16AField
 title: MI_ConstChar16AField (mi.h)
-description: Represents a property inside an MI_Instance structure.helpviewer_keywords: ["MI_ConstChar16AField","MI_ConstChar16AField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstChar16AField","wmi._mi_constchar16afield","wmi_v2.mi_constchar16afield"]
+description: Represents a property inside an MI_Instance structure.
+helpviewer_keywords: ["MI_ConstChar16AField","MI_ConstChar16AField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstChar16AField","wmi._mi_constchar16afield","wmi_v2.mi_constchar16afield"]
 old-location: wmi_v2\mi_constchar16afield.htm
 tech.root: wmi_v2
 ms.assetid: fb9bd986-b5c8-4e74-9131-2e9bd78ac784

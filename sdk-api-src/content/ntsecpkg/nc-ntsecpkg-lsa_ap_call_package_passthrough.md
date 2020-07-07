@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_CALL_PACKAGE_PASSTHROUGH
 title: LSA_AP_CALL_PACKAGE_PASSTHROUGH (ntsecpkg.h)
-description: The dispatch function for pass-through logon requests sent to the LsaCallAuthenticationPackage function.helpviewer_keywords: ["LSA_AP_CALL_PACKAGE_PASSTHROUGH","LSA_AP_CALL_PACKAGE_PASSTHROUGH callback","LsaApCallPackagePassthrough","LsaApCallPackagePassthrough callback function [Security]","_lsa_lsaapcallpackagepassthrough","ntsecpkg/LsaApCallPackagePassthrough","security.lsaapcallpackagepassthrough"]
+description: The dispatch function for pass-through logon requests sent to the LsaCallAuthenticationPackage function.
+helpviewer_keywords: ["LSA_AP_CALL_PACKAGE_PASSTHROUGH","LSA_AP_CALL_PACKAGE_PASSTHROUGH callback","LsaApCallPackagePassthrough","LsaApCallPackagePassthrough callback function [Security]","_lsa_lsaapcallpackagepassthrough","ntsecpkg/LsaApCallPackagePassthrough","security.lsaapcallpackagepassthrough"]
 old-location: security\lsaapcallpackagepassthrough.htm
 tech.root: SecAuthN
 ms.assetid: 8563b99d-8cc9-43a5-a6ae-615883c87bc2

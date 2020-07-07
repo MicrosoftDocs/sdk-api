@@ -1,7 +1,8 @@
 ---
 UID: NS:ocidl.tagCALPOLESTR
 title: CALPOLESTR (ocidl.h)
-description: Specifies a counted array of strings used to specify the predefined strings that a property can accept.helpviewer_keywords: ["*LPCALPOLESTR","CALPOLESTR","CALPOLESTR structure [COM]","LPCALPOLESTR","LPCALPOLESTR structure pointer [COM]","_ctrl_CALPOLESTR","com.calpolestr","ocidl/CALPOLESTR","ocidl/LPCALPOLESTR"]
+description: Specifies a counted array of strings used to specify the predefined strings that a property can accept.
+helpviewer_keywords: ["*LPCALPOLESTR","CALPOLESTR","CALPOLESTR structure [COM]","LPCALPOLESTR","LPCALPOLESTR structure pointer [COM]","_ctrl_CALPOLESTR","com.calpolestr","ocidl/CALPOLESTR","ocidl/LPCALPOLESTR"]
 old-location: com\calpolestr.htm
 tech.root: com
 ms.assetid: 730d5e23-e84a-4629-9b59-492d8536122e

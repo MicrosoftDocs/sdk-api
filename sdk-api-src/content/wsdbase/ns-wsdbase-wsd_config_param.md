@@ -1,7 +1,8 @@
 ---
 UID: NS:wsdbase._WSD_CONFIG_PARAM
 title: WSD_CONFIG_PARAM (wsdbase.h)
-description: Represents configuration parameters for creating WSDAPI objects.helpviewer_keywords: ["*PWSD_CONFIG_PARAM","WSD_CONFIG_PARAM","WSD_CONFIG_PARAM structure","_WSD_CONFIG_PARAM","ncd.wsd_config_param","wsdbase/WSD_CONFIG_PARAM"]
+description: Represents configuration parameters for creating WSDAPI objects.
+helpviewer_keywords: ["*PWSD_CONFIG_PARAM","WSD_CONFIG_PARAM","WSD_CONFIG_PARAM structure","_WSD_CONFIG_PARAM","ncd.wsd_config_param","wsdbase/WSD_CONFIG_PARAM"]
 old-location: ncd\wsd_config_param.htm
 tech.root: WsdApi
 ms.assetid: 58dc3e11-586e-4185-b1d0-4249b4bfb252
@@ -59,7 +60,7 @@ Represents configuration parameters for creating <code>WSDAPI</code> objects.
 
 ### -field configParamType
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wsdbase/ne-wsdbase-wsd_config_param_type">WSD_CONFIG_PARAM_TYPE</a> value that indicates the type configuration data contained in this structure.
+A <a href="/windows/win32/api/wsdbase/ne-wsdbase-wsd_config_param_type">WSD_CONFIG_PARAM_TYPE</a> value that indicates the type configuration data contained in this structure.
 
 
 ### -field pConfigData

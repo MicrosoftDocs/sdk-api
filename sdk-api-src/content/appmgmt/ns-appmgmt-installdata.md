@@ -1,7 +1,8 @@
 ---
 UID: NS:appmgmt._INSTALLDATA
 title: INSTALLDATA (appmgmt.h)
-description: The INSTALLDATA structure specifies a group-policy application to be installed by InstallApplication.helpviewer_keywords: ["*PINSTALLDATA","INSTALLDATA","INSTALLDATA structure [Group Policy]","PINSTALLDATA","PINSTALLDATA structure pointer [Group Policy]","appmgmt/INSTALLDATA","appmgmt/PINSTALLDATA","policy.installdata_str"]
+description: The INSTALLDATA structure specifies a group-policy application to be installed by InstallApplication.
+helpviewer_keywords: ["*PINSTALLDATA","INSTALLDATA","INSTALLDATA structure [Group Policy]","PINSTALLDATA","PINSTALLDATA structure pointer [Group Policy]","appmgmt/INSTALLDATA","appmgmt/PINSTALLDATA","policy.installdata_str"]
 old-location: policy\installdata_str.htm
 tech.root: Policy
 ms.assetid: 0c0570c6-f8f5-41e1-a1d2-d4e8c450f73c

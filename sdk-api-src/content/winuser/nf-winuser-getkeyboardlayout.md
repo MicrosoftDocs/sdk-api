@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetKeyboardLayout
 title: GetKeyboardLayout function (winuser.h)
-description: Retrieves the active input locale identifier (formerly called the keyboard layout).helpviewer_keywords: ["GetKeyboardLayout","GetKeyboardLayout function [Keyboard and Mouse Input]","_win32_GetKeyboardLayout","_win32_getkeyboardlayout_cpp","inputdev.getkeyboardlayout","winui._win32_getkeyboardlayout","winuser/GetKeyboardLayout"]
+description: Retrieves the active input locale identifier (formerly called the keyboard layout).
+helpviewer_keywords: ["GetKeyboardLayout","GetKeyboardLayout function [Keyboard and Mouse Input]","_win32_GetKeyboardLayout","_win32_getkeyboardlayout_cpp","inputdev.getkeyboardlayout","winui._win32_getkeyboardlayout","winuser/GetKeyboardLayout"]
 old-location: inputdev\getkeyboardlayout.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeyboardlayout.htm

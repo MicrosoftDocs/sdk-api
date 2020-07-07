@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetPointerPenInfo
 title: GetPointerPenInfo function (winuser.h)
-description: Gets the pen-based information for the specified pointer (of type PT_PEN) associated with the current message.helpviewer_keywords: ["GetPointerPenInfo","GetPointerPenInfo function [Input Messages and Notifications]","inputmsg.getpointerpeninfo","winuser/GetPointerPenInfo"]
+description: Gets the pen-based information for the specified pointer (of type PT_PEN) associated with the current message.
+helpviewer_keywords: ["GetPointerPenInfo","GetPointerPenInfo function [Input Messages and Notifications]","inputmsg.getpointerpeninfo","winuser/GetPointerPenInfo"]
 old-location: inputmsg\getpointerpeninfo.htm
 tech.root: InputMsg
 ms.assetid: 5f1f7252-a4aa-4b06-94c9-2aa365cf0100
@@ -54,7 +55,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the pen-based information for the specified pointer (of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) associated with the current message. 
+Gets the pen-based information for the specified pointer (of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) associated with the current message. 
 
 
 ## -parameters
@@ -87,7 +88,7 @@ If the function fails, the return value is zero. To get extended error informati
 
 
 
-<b>GetPointerPenInfo</b> retrieves information for a single pointer (of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) associated with a pointer message. 
+<b>GetPointerPenInfo</b> retrieves information for a single pointer (of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>) associated with a pointer message. 
 
 Use <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getpointerframepeninfo">GetPointerFramePenInfo</a> to retrieve frame information associated with a message  for a set of pointers.
 
@@ -99,7 +100,7 @@ If the information associated with the message is no longer available, this func
 
 If the calling thread does not own the window to which the pointer message has been delivered, this function fails with the last error set to <b>ERROR_ACCESS_DENIED</b>. Note that this may be the window to which the input was originally delivered or it may be a window to which the message was forwarded.
 
-If the specified pointer is not of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>, this function fails with the last error set to <b>ERROR_DATATYPE_MISMATCH</b>.
+If the specified pointer is not of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a>, this function fails with the last error set to <b>ERROR_DATATYPE_MISMATCH</b>.
 
 
 

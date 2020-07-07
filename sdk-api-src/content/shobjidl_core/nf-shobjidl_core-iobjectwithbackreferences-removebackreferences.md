@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IObjectWithBackReferences.RemoveBackReferences
 title: IObjectWithBackReferences::RemoveBackReferences (shobjidl_core.h)
-description: Removes all back references held by an object.helpviewer_keywords: ["IObjectWithBackReferences interface [Windows Shell]","RemoveBackReferences method","IObjectWithBackReferences.RemoveBackReferences","IObjectWithBackReferences::RemoveBackReferences","RemoveBackReferences","RemoveBackReferences method [Windows Shell]","RemoveBackReferences method [Windows Shell]","IObjectWithBackReferences interface","_shell_IObjectWithBackReferences_RemoveBackReferences","shell.IObjectWithBackReferences_RemoveBackReferences","shobjidl_core/IObjectWithBackReferences::RemoveBackReferences"]
+description: Removes all back references held by an object.
+helpviewer_keywords: ["IObjectWithBackReferences interface [Windows Shell]","RemoveBackReferences method","IObjectWithBackReferences.RemoveBackReferences","IObjectWithBackReferences::RemoveBackReferences","RemoveBackReferences","RemoveBackReferences method [Windows Shell]","RemoveBackReferences method [Windows Shell]","IObjectWithBackReferences interface","_shell_IObjectWithBackReferences_RemoveBackReferences","shell.IObjectWithBackReferences_RemoveBackReferences","shobjidl_core/IObjectWithBackReferences::RemoveBackReferences"]
 old-location: shell\IObjectWithBackReferences_RemoveBackReferences.htm
 tech.root: shell
 ms.assetid: 642fe793-974f-48e5-90a2-de6ba7a5b033

@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmapi.WcmSetProperty
 title: WcmSetProperty function (wcmapi.h)
-description: Sets the value of a WCM property.helpviewer_keywords: ["WcmSetProperty","WcmSetProperty function [Windows Connection Manager]","wcm.wcmsetproperty","wcmapi/WcmSetProperty"]
+description: Sets the value of a WCM property.
+helpviewer_keywords: ["WcmSetProperty","WcmSetProperty function [Windows Connection Manager]","wcm.wcmsetproperty","wcmapi/WcmSetProperty"]
 old-location: wcm\wcmsetproperty.htm
 tech.root: wcm
 ms.assetid: 79985d5e-a6a1-447c-b12e-11c6022c19a6

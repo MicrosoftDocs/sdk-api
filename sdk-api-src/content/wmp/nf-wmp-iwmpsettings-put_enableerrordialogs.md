@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPSettings.put_enableErrorDialogs
 title: IWMPSettings::put_enableErrorDialogs (wmp.h)
-description: The put_enableErrorDialogs method specifies a value indicating whether error dialog boxes are displayed automatically.helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_enableErrorDialogs method","IWMPSettings.put_enableErrorDialogs","IWMPSettings::put_enableErrorDialogs","IWMPSettingsput_enableErrorDialogs","put_enableErrorDialogs","put_enableErrorDialogs method [Windows Media Player]","put_enableErrorDialogs method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_put_enableerrordialogs","wmp/IWMPSettings::put_enableErrorDialogs"]
+description: The put_enableErrorDialogs method specifies a value indicating whether error dialog boxes are displayed automatically.
+helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","put_enableErrorDialogs method","IWMPSettings.put_enableErrorDialogs","IWMPSettings::put_enableErrorDialogs","IWMPSettingsput_enableErrorDialogs","put_enableErrorDialogs","put_enableErrorDialogs method [Windows Media Player]","put_enableErrorDialogs method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_put_enableerrordialogs","wmp/IWMPSettings::put_enableErrorDialogs"]
 old-location: wmp\iwmpsettings_put_enableerrordialogs.htm
 tech.root: WMP
 ms.assetid: c2a0e2bf-d0e4-4b2c-a8d4-15bae4214393

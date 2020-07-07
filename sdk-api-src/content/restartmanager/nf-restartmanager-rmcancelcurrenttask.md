@@ -1,7 +1,8 @@
 ---
 UID: NF:restartmanager.RmCancelCurrentTask
 title: RmCancelCurrentTask function (restartmanager.h)
-description: Cancels the current RmShutdown or RmRestart operation. This function must be called from the application that has started the session by calling the RmStartSession function.helpviewer_keywords: ["RmCancelCurrentTask","RmCancelCurrentTask function [Restart Mgr]","restartmanager/RmCancelCurrentTask","rstmgr.rmcancelcurrenttask"]
+description: Cancels the current RmShutdown or RmRestart operation. This function must be called from the application that has started the session by calling the RmStartSession function.
+helpviewer_keywords: ["RmCancelCurrentTask","RmCancelCurrentTask function [Restart Mgr]","restartmanager/RmCancelCurrentTask","rstmgr.rmcancelcurrenttask"]
 old-location: rstmgr\rmcancelcurrenttask.htm
 tech.root: rstmgr
 ms.assetid: 58a9a734-667a-48b0-84e2-8cfd85e918bf

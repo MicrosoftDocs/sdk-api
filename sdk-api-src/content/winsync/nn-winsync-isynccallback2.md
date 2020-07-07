@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.ISyncCallback2
 title: ISyncCallback2 (winsync.h)
-description: Represents additional application callbacks that are used to notify the application of synchronization events.helpviewer_keywords: ["ISyncCallback2","ISyncCallback2 interface [Windows Sync]","ISyncCallback2 interface [Windows Sync]","described","winsync.isynccallback2","winsync/ISyncCallback2"]
+description: Represents additional application callbacks that are used to notify the application of synchronization events.
+helpviewer_keywords: ["ISyncCallback2","ISyncCallback2 interface [Windows Sync]","ISyncCallback2 interface [Windows Sync]","described","winsync.isynccallback2","winsync/ISyncCallback2"]
 old-location: winsync\isynccallback2.htm
 tech.root: winsync
 ms.assetid: d2d690ba-8da2-4d53-a42c-14e4f010bc2d
@@ -93,7 +94,7 @@ Occurs after a change fails to apply.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CONFLICT_RESOLUTION_POLICY Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-conflict_resolution_policy">CONFLICT_RESOLUTION_POLICY Enumeration</a>
 
 
 

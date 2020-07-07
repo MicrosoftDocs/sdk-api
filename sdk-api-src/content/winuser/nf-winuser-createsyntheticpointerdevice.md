@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CreateSyntheticPointerDevice
 title: CreateSyntheticPointerDevice function (winuser.h)
-description: Configures the pointer injection device for the calling application, and initializes the maximum number of simultaneous pointers that the app can inject.helpviewer_keywords: ["CreateSyntheticPointerDevice","CreateSyntheticPointerDevice function","input_pointerdevice.createsyntheticpointerdevice","winuser/CreateSyntheticPointerDevice"]
+description: Configures the pointer injection device for the calling application, and initializes the maximum number of simultaneous pointers that the app can inject.
+helpviewer_keywords: ["CreateSyntheticPointerDevice","CreateSyntheticPointerDevice function","input_pointerdevice.createsyntheticpointerdevice","winuser/CreateSyntheticPointerDevice"]
 old-location: input_pointerdevice\createsyntheticpointerdevice.htm
 tech.root: Input_PointerDevice
 ms.assetid: 251F837F-DF9A-4A94-B790-73AA7196E4A9
@@ -59,7 +60,7 @@ Configures the pointer injection device for the calling application, and initial
 
 ### -param pointerType [in]
 
-The pointer injection device type. Must be either <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a> or <b>PT_PEN</b>.
+The pointer injection device type. Must be either <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a> or <b>PT_PEN</b>.
 
 
 ### -param maxCount [in]
@@ -67,9 +68,9 @@ The pointer injection device type. Must be either <a href="https://docs.microsof
 The maximum number of contacts. 
 
 
-For <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a> this value must be greater than 0 and less than or equal to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">MAX_TOUCH_COUNT</a>. 
+For <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a> this value must be greater than 0 and less than or equal to <a href="https://docs.microsoft.com/previous-versions/windows/desktop/input_touchinjection/constants">MAX_TOUCH_COUNT</a>. 
 
-For <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a> this value must be 1.
+For <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_PEN</a> this value must be 1.
 
 
 ### -param mode [in]

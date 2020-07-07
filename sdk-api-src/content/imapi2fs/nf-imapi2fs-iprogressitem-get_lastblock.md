@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IProgressItem.get_LastBlock
 title: IProgressItem::get_LastBlock (imapi2fs.h)
-description: Retrieves the last block in this segment of the result image.helpviewer_keywords: ["IProgressItem interface [IMAPI]","get_LastBlock method","IProgressItem.get_LastBlock","IProgressItem::get_LastBlock","get_LastBlock","get_LastBlock method [IMAPI]","get_LastBlock method [IMAPI]","IProgressItem interface","imapi.iprogressitem_get_lastblock","imapi2fs/IProgressItem::get_LastBlock"]
+description: Retrieves the last block in this segment of the result image.
+helpviewer_keywords: ["IProgressItem interface [IMAPI]","get_LastBlock method","IProgressItem.get_LastBlock","IProgressItem::get_LastBlock","get_LastBlock","get_LastBlock method [IMAPI]","get_LastBlock method [IMAPI]","IProgressItem interface","imapi.iprogressitem_get_lastblock","imapi2fs/IProgressItem::get_LastBlock"]
 old-location: imapi\iprogressitem_get_lastblock.htm
 tech.root: imapi
 ms.assetid: ad75e708-4a10-45b9-89c2-11270f6edd9e

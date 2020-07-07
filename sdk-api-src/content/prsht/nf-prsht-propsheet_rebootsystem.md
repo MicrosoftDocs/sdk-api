@@ -1,7 +1,8 @@
 ---
 UID: NF:prsht.PropSheet_RebootSystem
 title: PropSheet_RebootSystem macro (prsht.h)
-description: Indicates the system needs to be restarted for the changes to take effect. You can use this macro or send the PSM_REBOOTSYSTEM message explicitly.helpviewer_keywords: ["PropSheet_RebootSystem","PropSheet_RebootSystem macro [Windows Controls]","_win32_PropSheet_RebootSystem","_win32_PropSheet_RebootSystem_cpp","controls.PropSheet_RebootSystem","controls._win32_PropSheet_RebootSystem","prsht/PropSheet_RebootSystem"]
+description: Indicates the system needs to be restarted for the changes to take effect. You can use this macro or send the PSM_REBOOTSYSTEM message explicitly.
+helpviewer_keywords: ["PropSheet_RebootSystem","PropSheet_RebootSystem macro [Windows Controls]","_win32_PropSheet_RebootSystem","_win32_PropSheet_RebootSystem_cpp","controls.PropSheet_RebootSystem","controls._win32_PropSheet_RebootSystem","prsht/PropSheet_RebootSystem"]
 old-location: controls\PropSheet_RebootSystem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_rebootsystem.htm

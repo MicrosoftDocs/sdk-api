@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IEnumFullIDList
 title: IEnumFullIDList (shobjidl_core.h)
-description: Exposes a standard set of methods that enumerate the pointers to item identifier lists (PIDLs) of the items in a Shell folder.helpviewer_keywords: ["IEnumFullIDList","IEnumFullIDList interface [Windows Shell]","IEnumFullIDList interface [Windows Shell]","described","_shell_IEnumFullIDList","shell.IEnumFullIDList","shobjidl_core/IEnumFullIDList"]
+description: Exposes a standard set of methods that enumerate the pointers to item identifier lists (PIDLs) of the items in a Shell folder.
+helpviewer_keywords: ["IEnumFullIDList","IEnumFullIDList interface [Windows Shell]","IEnumFullIDList interface [Windows Shell]","described","_shell_IEnumFullIDList","shell.IEnumFullIDList","shobjidl_core/IEnumFullIDList"]
 old-location: shell\IEnumFullIDList.htm
 tech.root: shell
 ms.assetid: 1350e914-7935-42dd-b1b0-e447589dfb12

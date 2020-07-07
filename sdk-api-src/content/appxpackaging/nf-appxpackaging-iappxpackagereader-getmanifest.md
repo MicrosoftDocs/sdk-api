@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetManifest
 title: IAppxPackageReader::GetManifest (appxpackaging.h)
-description: Retrieves the object model of the app manifest of the package.helpviewer_keywords: ["GetManifest","GetManifest method [App packaging and management]","GetManifest method [App packaging and management]","IAppxPackageReader interface","IAppxPackageReader interface [App packaging and management]","GetManifest method","IAppxPackageReader.GetManifest","IAppxPackageReader::GetManifest","appxpackaging/IAppxPackageReader::GetManifest","appxpkg.iappxpackagereader_getmanifest"]
+description: Retrieves the object model of the app manifest of the package.
+helpviewer_keywords: ["GetManifest","GetManifest method [App packaging and management]","GetManifest method [App packaging and management]","IAppxPackageReader interface","IAppxPackageReader interface [App packaging and management]","GetManifest method","IAppxPackageReader.GetManifest","IAppxPackageReader::GetManifest","appxpackaging/IAppxPackageReader::GetManifest","appxpkg.iappxpackagereader_getmanifest"]
 old-location: appxpkg\iappxpackagereader_getmanifest.htm
 tech.root: appxpkg
 ms.assetid: 5EE69CCD-C941-4346-B539-C415CE9EA1FB

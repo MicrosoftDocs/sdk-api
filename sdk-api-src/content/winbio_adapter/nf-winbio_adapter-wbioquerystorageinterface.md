@@ -1,7 +1,8 @@
 ---
 UID: NF:winbio_adapter.WbioQueryStorageInterface
 title: WbioQueryStorageInterface function (winbio_adapter.h)
-description: Retrieves a pointer to the WINBIO_STORAGE_INTERFACE structure for the storage adapter.helpviewer_keywords: ["WbioQueryStorageInterface","WbioQueryStorageInterface function [Windows Biometric Framework API]","secbiomet.wbioquerystorageinterface","winbio_adapter/WbioQueryStorageInterface"]
+description: Retrieves a pointer to the WINBIO_STORAGE_INTERFACE structure for the storage adapter.
+helpviewer_keywords: ["WbioQueryStorageInterface","WbioQueryStorageInterface function [Windows Biometric Framework API]","secbiomet.wbioquerystorageinterface","winbio_adapter/WbioQueryStorageInterface"]
 old-location: secbiomet\wbioquerystorageinterface.htm
 tech.root: SecBioMet
 ms.assetid: ff7297ee-8d0a-41f4-8abf-66ab5163dae7
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure for the storage adapter.
+Retrieves a pointer to the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure for the storage adapter.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Retrieves a pointer to the <a href="https://docs.microsoft.com/windows/win32/api
 
 ### -param StorageInterface [out]
 
-Address of a variable that receives a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure.
+Address of a variable that receives a pointer to the <a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a> structure.
 
 
 ## -returns

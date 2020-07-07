@@ -1,7 +1,8 @@
 ---
 UID: NF:hrtfapoapi.IXAPOHrtfParameters.SetSourceOrientation
 title: IXAPOHrtfParameters::SetSourceOrientation (hrtfapoapi.h)
-description: Set the rotation matrix for the source orientation, with respect to the listener's coordinate system.helpviewer_keywords: ["IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs]","SetSourceOrientation method","IXAPOHrtfParameters.SetSourceOrientation","IXAPOHrtfParameters::SetSourceOrientation","SetSourceOrientation","SetSourceOrientation method [XAudio2 Audio Mixing APIs]","SetSourceOrientation method [XAudio2 Audio Mixing APIs]","IXAPOHrtfParameters interface","hrtfapoapi/IXAPOHrtfParameters::SetSourceOrientation","xaudio2.ixapohrtfparameters_setsourceorientation"]
+description: Set the rotation matrix for the source orientation, with respect to the listener's coordinate system.
+helpviewer_keywords: ["IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs]","SetSourceOrientation method","IXAPOHrtfParameters.SetSourceOrientation","IXAPOHrtfParameters::SetSourceOrientation","SetSourceOrientation","SetSourceOrientation method [XAudio2 Audio Mixing APIs]","SetSourceOrientation method [XAudio2 Audio Mixing APIs]","IXAPOHrtfParameters interface","hrtfapoapi/IXAPOHrtfParameters::SetSourceOrientation","xaudio2.ixapohrtfparameters_setsourceorientation"]
 old-location: xaudio2\ixapohrtfparameters_setsourceorientation.htm
 tech.root: xaudio2
 ms.assetid: 5E2F0A64-39BB-47B6-8C64-1FDB0B5C537C

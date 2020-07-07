@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12SharingContract.Present
 title: ID3D12SharingContract::Present (d3d12sdklayers.h)
-description: Shares a resource (or subresource) between the D3D layers and diagnostics tools.helpviewer_keywords: ["ID3D12SharingContract interface","Present method","ID3D12SharingContract.Present","ID3D12SharingContract::Present","Present","Present method","Present method","ID3D12SharingContract interface","d3d12sdklayers/ID3D12SharingContract::Present","direct3d12.id3d12sharingcontract_present"]
+description: Shares a resource (or subresource) between the D3D layers and diagnostics tools.
+helpviewer_keywords: ["ID3D12SharingContract interface","Present method","ID3D12SharingContract.Present","ID3D12SharingContract::Present","Present","Present method","Present method","ID3D12SharingContract interface","d3d12sdklayers/ID3D12SharingContract::Present","direct3d12.id3d12sharingcontract_present"]
 old-location: direct3d12\id3d12sharingcontract_present.htm
 tech.root: direct3d12
 ms.assetid: 878442E3-417A-46CE-B91A-698CA3CA60BE

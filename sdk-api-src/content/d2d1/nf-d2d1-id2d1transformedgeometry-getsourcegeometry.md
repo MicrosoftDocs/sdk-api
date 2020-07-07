@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1TransformedGeometry.GetSourceGeometry
 title: ID2D1TransformedGeometry::GetSourceGeometry (d2d1.h)
-description: Retrieves the source geometry of this transformed geometry object.helpviewer_keywords: ["GetSourceGeometry","GetSourceGeometry method [Direct2D]","GetSourceGeometry method [Direct2D]","ID2D1TransformedGeometry interface","ID2D1TransformedGeometry interface [Direct2D]","GetSourceGeometry method","ID2D1TransformedGeometry.GetSourceGeometry","ID2D1TransformedGeometry::GetSourceGeometry","d2d1/ID2D1TransformedGeometry::GetSourceGeometry","direct2d.ID2D1TransformedGeometry_GetSourceGeometry"]
+description: Retrieves the source geometry of this transformed geometry object.
+helpviewer_keywords: ["GetSourceGeometry","GetSourceGeometry method [Direct2D]","GetSourceGeometry method [Direct2D]","ID2D1TransformedGeometry interface","ID2D1TransformedGeometry interface [Direct2D]","GetSourceGeometry method","ID2D1TransformedGeometry.GetSourceGeometry","ID2D1TransformedGeometry::GetSourceGeometry","d2d1/ID2D1TransformedGeometry::GetSourceGeometry","direct2d.ID2D1TransformedGeometry_GetSourceGeometry"]
 old-location: direct2d\ID2D1TransformedGeometry_GetSourceGeometry.htm
 tech.root: Direct2D
 ms.assetid: 2e07c2e4-5f34-4949-bca1-92183652d2fb
@@ -59,7 +60,7 @@ Retrieves the source geometry of this transformed geometry object.
 
 ### -param sourceGeometry [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>**</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>**</b>
 
 When this method returns, contains a pointer to a pointer to the source geometry for this transformed geometry object. This parameter is passed uninitialized.
 
@@ -69,7 +70,7 @@ When this method returns, contains a pointer to a pointer to the source geometry
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry">ID2D1TransformedGeometry</a>
  
 
  

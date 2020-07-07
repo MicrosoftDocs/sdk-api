@@ -1,7 +1,8 @@
 ---
 UID: NF:icontact.IContactCollection.Next
 title: IContactCollection::Next (icontact.h)
-description: Moves to the next contact.helpviewer_keywords: ["IContactCollection interface [Windows Contacts]","Next method","IContactCollection.Next","IContactCollection::Next","Next","Next method [Windows Contacts]","Next method [Windows Contacts]","IContactCollection interface","_wincontacts_IContactCollection_Next","icontact/IContactCollection::Next","wincontacts._wincontacts_IContactCollection_Next"]
+description: Moves to the next contact.
+helpviewer_keywords: ["IContactCollection interface [Windows Contacts]","Next method","IContactCollection.Next","IContactCollection::Next","Next","Next method [Windows Contacts]","Next method [Windows Contacts]","IContactCollection interface","_wincontacts_IContactCollection_Next","icontact/IContactCollection::Next","wincontacts._wincontacts_IContactCollection_Next"]
 old-location: wincontacts\_wincontacts_IContactCollection_Next.htm
 tech.root: wincontacts
 ms.assetid: f7d47643-4ef2-41fb-9f75-2fe79fec2385

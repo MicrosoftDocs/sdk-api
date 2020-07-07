@@ -1,7 +1,8 @@
 ---
 UID: NF:winstring.WindowsIsStringEmpty
 title: WindowsIsStringEmpty function (winstring.h)
-description: Indicates whether the specified string is the empty string.helpviewer_keywords: ["WindowsIsStringEmpty","WindowsIsStringEmpty function [Windows Runtime]","winrt.windowsisstringempty","winstring/WindowsIsStringEmpty"]
+description: Indicates whether the specified string is the empty string.
+helpviewer_keywords: ["WindowsIsStringEmpty","WindowsIsStringEmpty function [Windows Runtime]","winrt.windowsisstringempty","winstring/WindowsIsStringEmpty"]
 old-location: winrt\windowsisstringempty.htm
 tech.root: WinRT
 ms.assetid: F354F692-4D64-4A3F-8B27-1951C93A6FCA
@@ -46,45 +47,24 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WindowsIsStringEmpty function
-
-
 ## -description
-
 
 Indicates whether the specified string is the empty string.
 
-
 ## -parameters
 
+### -param string
 
-
-
-### -param string [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The string to be tested for content.
 
-
 ## -returns
-
-
 
 Type: <b>BOOL</b>
 
-<b>TRUE</b> if <i>string</i> is <b>NULL</b> or  the empty string; otherwise, <b>FALSE</b>. 
-
-
-
+<b>TRUE</b> if <i>string</i> is <b>NULL</b> or the empty string; otherwise, <b>FALSE</b>. 
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsgetstringlen">WindowsGetStringLen</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winstring/nf-winstring-windowsgetstringlen">WindowsGetStringLen</a>

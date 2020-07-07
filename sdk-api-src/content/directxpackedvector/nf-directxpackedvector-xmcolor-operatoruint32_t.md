@@ -1,7 +1,8 @@
 ---
-UID: NF:directxpackedvector.XMCOLOR.operator uint32_t
+UID: NF:directxpackedvector.XMCOLOR.operator-cast-uint32_t
 title: XMCOLOR::operator uint32_t (directxpackedvector.h)
-description: Returns an instance of uint32_t containing the components of the XMCOLORinstance in a packed format.helpviewer_keywords: ["DirectX::PackedVector.XMCOLOR.operator uint32_t","DirectX::PackedVector::XMCOLOR::operator uint32_t","XMCOLOR structure [DirectX Math Support APIs]","operator uint32_t method","XMCOLOR.operator uint32_t","XMCOLOR::operator uint32_t","dxmath.xmcolor_operator_uint32_t","operator uint32_t","operator uint32_t method [DirectX Math Support APIs]","operator uint32_t method [DirectX Math Support APIs]","XMCOLOR structure"]
+description: Returns an instance of uint32_t containing the components of the XMCOLORinstance in a packed format.
+helpviewer_keywords: ["DirectX::PackedVector.XMCOLOR.operator uint32_t","DirectX::PackedVector::XMCOLOR::operator uint32_t","XMCOLOR structure [DirectX Math Support APIs]","operator uint32_t method","XMCOLOR.operator uint32_t","XMCOLOR::operator uint32_t","dxmath.xmcolor_operator_uint32_t","operator uint32_t","operator uint32_t method [DirectX Math Support APIs]","operator uint32_t method [DirectX Math Support APIs]","XMCOLOR structure"]
 old-location: dxmath\xmcolor_operator_uint32_t.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMCOLOR.operator uint32_t

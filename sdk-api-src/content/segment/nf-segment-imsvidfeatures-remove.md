@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidFeatures.Remove
 title: IMSVidFeatures::Remove (segment.h)
-description: The Remove method removes an item from the collection.helpviewer_keywords: ["IMSVidFeatures interface [Microsoft TV Technologies]","Remove method","IMSVidFeatures.Remove","IMSVidFeatures::Remove","IMSVidFeaturesRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","IMSVidFeatures interface","mstv.imsvidfeatures_remove","segment/IMSVidFeatures::Remove"]
+description: The Remove method removes an item from the collection.
+helpviewer_keywords: ["IMSVidFeatures interface [Microsoft TV Technologies]","Remove method","IMSVidFeatures.Remove","IMSVidFeatures::Remove","IMSVidFeaturesRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","IMSVidFeatures interface","mstv.imsvidfeatures_remove","segment/IMSVidFeatures::Remove"]
 old-location: mstv\imsvidfeatures_remove.htm
 tech.root: mstv
 ms.assetid: 6a9e35e2-231e-4ad6-ac57-e6258df2777f

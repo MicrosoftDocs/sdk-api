@@ -1,7 +1,8 @@
 ---
 UID: NS:msacm.tACMFILTERCHOOSE
 title: ACMFILTERCHOOSE (msacm.h)
-description: The ACMFILTERCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio filter selection dialog box.helpviewer_keywords: ["*LPACMFILTERCHOOSE","*PACMFILTERCHOOSE","ACMFILTERCHOOSE","ACMFILTERCHOOSE structure [Windows Multimedia]","ACMFILTERCHOOSE_STYLEF_CONTEXTHELP","ACMFILTERCHOOSE_STYLEF_ENABLEHOOK","ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE","ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATEHANDLE","ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT","ACMFILTERCHOOSE_STYLEF_SHOWHELP","ACM_FILTERENUMF_DWFILTERTAG","msacm/ACMFILTERCHOOSE","multimedia.acmfilterchoose_COLLISION925","multimedia.acmfilterchoose_struct"]
+description: The ACMFILTERCHOOSE structure contains information the ACM uses to initialize the system-defined waveform-audio filter selection dialog box.
+helpviewer_keywords: ["*LPACMFILTERCHOOSE","*PACMFILTERCHOOSE","ACMFILTERCHOOSE","ACMFILTERCHOOSE structure [Windows Multimedia]","ACMFILTERCHOOSE_STYLEF_CONTEXTHELP","ACMFILTERCHOOSE_STYLEF_ENABLEHOOK","ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATE","ACMFILTERCHOOSE_STYLEF_ENABLETEMPLATEHANDLE","ACMFILTERCHOOSE_STYLEF_INITTOFILTERSTRUCT","ACMFILTERCHOOSE_STYLEF_SHOWHELP","ACM_FILTERENUMF_DWFILTERTAG","msacm/ACMFILTERCHOOSE","multimedia.acmfilterchoose_COLLISION925","multimedia.acmfilterchoose_struct"]
 old-location: multimedia\acmfilterchoose_struct.htm
 tech.root: Multimedia
 ms.assetid: 92ec2a41-e853-4533-b831-43c9d52dc27f
@@ -160,12 +161,12 @@ Pointer to a string to be placed in the title bar of the dialog box. If this mem
 
 ### -field szFilterTag
 
-Buffer containing a null-terminated string describing the filter tag of the filter selection when the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the filter tag of the filter selection when the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails) structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfiltertagdetails">acmFilterTagDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field szFilter
 
-Buffer containing a null-terminated string describing the filter attributes of the filter selection when the [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a> structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
+Buffer containing a null-terminated string describing the filter attributes of the filter selection when the [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails) structure returned by <a href="https://docs.microsoft.com/windows/desktop/api/msacm/nf-msacm-acmfilterdetails">acmFilterDetails</a>. If the user cancels the dialog box, this member will contain a null-terminated string.
 
 
 ### -field pszName
@@ -233,11 +234,11 @@ Pointer to a callback function that processes messages intended for the dialog b
 
 
 
-[ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a>
+[ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)
 
 
 
-[ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)a>
+[ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)
 
 
 

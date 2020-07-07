@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_IPProtocol
 title: INetSharingPortMappingProps::get_IPProtocol (netcon.h)
-description: The get_IPProtocol method retrieves the IP Protocol associated with this port mapping.helpviewer_keywords: ["INetSharingPortMappingProps interface [ICS/ICF]","get_IPProtocol method","INetSharingPortMappingProps.get_IPProtocol","INetSharingPortMappingProps::get_IPProtocol","_ics_inetsharingportmappingprops_get_ipprotocol","get_IPProtocol","get_IPProtocol method [ICS/ICF]","get_IPProtocol method [ICS/ICF]","INetSharingPortMappingProps interface","ics.inetsharingportmappingprops_get_ipprotocol","netcon/INetSharingPortMappingProps::get_IPProtocol"]
+description: The get_IPProtocol method retrieves the IP Protocol associated with this port mapping.
+helpviewer_keywords: ["INetSharingPortMappingProps interface [ICS/ICF]","get_IPProtocol method","INetSharingPortMappingProps.get_IPProtocol","INetSharingPortMappingProps::get_IPProtocol","_ics_inetsharingportmappingprops_get_ipprotocol","get_IPProtocol","get_IPProtocol method [ICS/ICF]","get_IPProtocol method [ICS/ICF]","INetSharingPortMappingProps interface","ics.inetsharingportmappingprops_get_ipprotocol","netcon/INetSharingPortMappingProps::get_IPProtocol"]
 old-location: ics\inetsharingportmappingprops_get_ipprotocol.htm
 tech.root: ics
 ms.assetid: a227074e-014b-4b76-b1d7-e1728bd99270

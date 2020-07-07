@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.EnumDisplayDevicesA
 title: EnumDisplayDevicesA function (winuser.h)
-description: The EnumDisplayDevices function lets you obtain information about the display devices in the current session.helpviewer_keywords: ["EnumDisplayDevices","EnumDisplayDevices function [Windows GDI]","EnumDisplayDevicesA","EnumDisplayDevicesW","_win32_EnumDisplayDevices","gdi.enumdisplaydevices","winuser/EnumDisplayDevices","winuser/EnumDisplayDevicesA","winuser/EnumDisplayDevicesW"]
+description: The EnumDisplayDevices function lets you obtain information about the display devices in the current session.
+helpviewer_keywords: ["EnumDisplayDevices","EnumDisplayDevices function [Windows GDI]","EnumDisplayDevicesA","EnumDisplayDevicesW","_win32_EnumDisplayDevices","gdi.enumdisplaydevices","winuser/EnumDisplayDevices","winuser/EnumDisplayDevicesA","winuser/EnumDisplayDevicesW"]
 old-location: gdi\enumdisplaydevices.htm
 tech.root: gdi
 ms.assetid: df3b493c-23d2-4996-9b79-86009efe3078
@@ -114,6 +115,10 @@ To query all monitor devices associated with an adapter, call <b>EnumDisplayDevi
 
 
 
+
+> [!NOTE]
+> The winuser.h header defines EnumDisplayDevices as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -131,7 +136,7 @@ To query all monitor devices associated with an adapter, call <b>EnumDisplayDevi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

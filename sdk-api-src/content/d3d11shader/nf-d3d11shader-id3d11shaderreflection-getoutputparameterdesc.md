@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11ShaderReflection.GetOutputParameterDesc
 title: ID3D11ShaderReflection::GetOutputParameterDesc (d3d11shader.h)
-description: Get an output-parameter description for a shader.helpviewer_keywords: ["GetOutputParameterDesc","GetOutputParameterDesc method [Direct3D 11]","GetOutputParameterDesc method [Direct3D 11]","ID3D11ShaderReflection interface","ID3D11ShaderReflection interface [Direct3D 11]","GetOutputParameterDesc method","ID3D11ShaderReflection.GetOutputParameterDesc","ID3D11ShaderReflection::GetOutputParameterDesc","c79e62b5-e5fb-6a0f-07c6-439fa953073b","d3d11shader/ID3D11ShaderReflection::GetOutputParameterDesc","direct3d11.id3d11shaderreflection_getoutputparameterdesc"]
+description: Get an output-parameter description for a shader.
+helpviewer_keywords: ["GetOutputParameterDesc","GetOutputParameterDesc method [Direct3D 11]","GetOutputParameterDesc method [Direct3D 11]","ID3D11ShaderReflection interface","ID3D11ShaderReflection interface [Direct3D 11]","GetOutputParameterDesc method","ID3D11ShaderReflection.GetOutputParameterDesc","ID3D11ShaderReflection::GetOutputParameterDesc","c79e62b5-e5fb-6a0f-07c6-439fa953073b","d3d11shader/ID3D11ShaderReflection::GetOutputParameterDesc","direct3d11.id3d11shaderreflection_getoutputparameterdesc"]
 old-location: direct3d11\id3d11shaderreflection_getoutputparameterdesc.htm
 tech.root: direct3d11
 ms.assetid: 7fc27fae-d17a-4247-bd79-e02956890efd
@@ -66,9 +67,9 @@ A zero-based parameter index.
 
 ### -param pDesc [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>*</b>
+Type: <b><a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>*</b>
 
-A pointer to a shader-output-parameter description. See <a href="https://docs.microsoft.com/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>.
+A pointer to a shader-output-parameter description. See <a href="/windows/win32/api/d3d11shader/ns-d3d11shader-d3d11_signature_parameter_desc">D3D11_SIGNATURE_PARAMETER_DESC</a>.
 
 
 ## -returns

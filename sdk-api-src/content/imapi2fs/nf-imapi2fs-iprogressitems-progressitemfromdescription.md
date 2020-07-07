@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IProgressItems.ProgressItemFromDescription
 title: IProgressItems::ProgressItemFromDescription (imapi2fs.h)
-description: Retrieves a progress item based on the specified file name.helpviewer_keywords: ["IProgressItems interface [IMAPI]","ProgressItemFromDescription method","IProgressItems.ProgressItemFromDescription","IProgressItems::ProgressItemFromDescription","ProgressItemFromDescription","ProgressItemFromDescription method [IMAPI]","ProgressItemFromDescription method [IMAPI]","IProgressItems interface","imapi.iprogressitems_progressitemfromdescription","imapi2fs/IProgressItems::ProgressItemFromDescription"]
+description: Retrieves a progress item based on the specified file name.
+helpviewer_keywords: ["IProgressItems interface [IMAPI]","ProgressItemFromDescription method","IProgressItems.ProgressItemFromDescription","IProgressItems::ProgressItemFromDescription","ProgressItemFromDescription","ProgressItemFromDescription method [IMAPI]","ProgressItemFromDescription method [IMAPI]","IProgressItems interface","imapi.iprogressitems_progressitemfromdescription","imapi2fs/IProgressItems::ProgressItemFromDescription"]
 old-location: imapi\iprogressitems_progressitemfromdescription.htm
 tech.root: imapi
 ms.assetid: c27e9f30-e3f1-4436-b33a-fa3130baf374

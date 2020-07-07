@@ -1,7 +1,8 @@
 ---
 UID: NF:encdec.IDTFilter.get_BlockUnRatedDelay
 title: IDTFilter::get_BlockUnRatedDelay (encdec.h)
-description: The get_BlockUnRatedDelay method retrieves that length of time the filter waits before it blocks unrated content.helpviewer_keywords: ["IDTFilter interface [Microsoft TV Technologies]","get_BlockUnRatedDelay method","IDTFilter.get_BlockUnRatedDelay","IDTFilter::get_BlockUnRatedDelay","IDTFilterget_BlockUnRatedDelay","encdec/IDTFilter::get_BlockUnRatedDelay","get_BlockUnRatedDelay","get_BlockUnRatedDelay method [Microsoft TV Technologies]","get_BlockUnRatedDelay method [Microsoft TV Technologies]","IDTFilter interface","mstv.idtfilter_get_blockunrateddelay"]
+description: The get_BlockUnRatedDelay method retrieves that length of time the filter waits before it blocks unrated content.
+helpviewer_keywords: ["IDTFilter interface [Microsoft TV Technologies]","get_BlockUnRatedDelay method","IDTFilter.get_BlockUnRatedDelay","IDTFilter::get_BlockUnRatedDelay","IDTFilterget_BlockUnRatedDelay","encdec/IDTFilter::get_BlockUnRatedDelay","get_BlockUnRatedDelay","get_BlockUnRatedDelay method [Microsoft TV Technologies]","get_BlockUnRatedDelay method [Microsoft TV Technologies]","IDTFilter interface","mstv.idtfilter_get_blockunrateddelay"]
 old-location: mstv\idtfilter_get_blockunrateddelay.htm
 tech.root: mstv
 ms.assetid: 6852f376-35ab-4628-9068-51a2ca2ea31f

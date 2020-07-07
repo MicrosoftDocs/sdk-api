@@ -1,7 +1,8 @@
 ---
 UID: NF:wmnetsourcecreator.INSNetSourceCreator.Initialize
 title: INSNetSourceCreator::Initialize (wmnetsourcecreator.h)
-description: The Initialize method prepares the network source creator for operations. You must call this method before calling any of the other methods in the INSNetSourceCreator interface.helpviewer_keywords: ["INSNetSourceCreator interface [windows Media Format]","Initialize method","INSNetSourceCreator.Initialize","INSNetSourceCreator::Initialize","INSNetSourceCreatorInitialize","Initialize","Initialize method [windows Media Format]","Initialize method [windows Media Format]","INSNetSourceCreator interface","wmformat.insnetsourcecreator_initialize","wmnetsourcecreator/INSNetSourceCreator::Initialize"]
+description: The Initialize method prepares the network source creator for operations. You must call this method before calling any of the other methods in the INSNetSourceCreator interface.
+helpviewer_keywords: ["INSNetSourceCreator interface [windows Media Format]","Initialize method","INSNetSourceCreator.Initialize","INSNetSourceCreator::Initialize","INSNetSourceCreatorInitialize","Initialize","Initialize method [windows Media Format]","Initialize method [windows Media Format]","INSNetSourceCreator interface","wmformat.insnetsourcecreator_initialize","wmnetsourcecreator/INSNetSourceCreator::Initialize"]
 old-location: wmformat\insnetsourcecreator_initialize.htm
 tech.root: wmformat
 ms.assetid: 53c1a15e-3ced-44e5-b512-b381ae11aa65

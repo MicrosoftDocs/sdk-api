@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetStatistics
 title: ISyncKnowledge2::GetStatistics (winsync.h)
-description: Gets the specified statistic data that is contained in this object.helpviewer_keywords: ["GetStatistics","GetStatistics method [Windows Sync]","GetStatistics method [Windows Sync]","ISyncKnowledge2 interface","ISyncKnowledge2 interface [Windows Sync]","GetStatistics method","ISyncKnowledge2.GetStatistics","ISyncKnowledge2::GetStatistics","winsync.isyncknowledge2_getstatistics","winsync/ISyncKnowledge2::GetStatistics"]
+description: Gets the specified statistic data that is contained in this object.
+helpviewer_keywords: ["GetStatistics","GetStatistics method [Windows Sync]","GetStatistics method [Windows Sync]","ISyncKnowledge2 interface","ISyncKnowledge2 interface [Windows Sync]","GetStatistics method","ISyncKnowledge2.GetStatistics","ISyncKnowledge2::GetStatistics","winsync.isyncknowledge2_getstatistics","winsync/ISyncKnowledge2::GetStatistics"]
 old-location: winsync\isyncknowledge2_getstatistics.htm
 tech.root: winsync
 ms.assetid: a7dea268-87d7-4e6d-9618-089036d52699
@@ -131,7 +132,7 @@ Invalid pointer.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_statistics">SYNC_STATISTICS Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-sync_statistics">SYNC_STATISTICS Enumeration</a>
  
 
  

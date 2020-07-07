@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantToInt64Vector
 title: PropVariantToInt64Vector function (propvarutil.h)
-description: Extracts data from a PROPVARIANT structure into an Int64 vector.helpviewer_keywords: ["PropVariantToInt64Vector","PropVariantToInt64Vector function [Windows Properties]","_shell_PropVariantToInt64Vector","properties.PropVariantToInt64Vector","propvarutil/PropVariantToInt64Vector","shell.PropVariantToInt64Vector"]
+description: Extracts data from a PROPVARIANT structure into an Int64 vector.
+helpviewer_keywords: ["PropVariantToInt64Vector","PropVariantToInt64Vector function [Windows Properties]","_shell_PropVariantToInt64Vector","properties.PropVariantToInt64Vector","propvarutil/PropVariantToInt64Vector","shell.PropVariantToInt64Vector"]
 old-location: properties\PropVariantToInt64Vector.htm
 tech.root: properties
 ms.assetid: cda5589a-726f-4e43-aec4-bb7a7ca62b1a

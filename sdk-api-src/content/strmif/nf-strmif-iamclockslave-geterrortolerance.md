@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMClockSlave.GetErrorTolerance
 title: IAMClockSlave::GetErrorTolerance (strmif.h)
-description: The GetErrorTolerance method retrieves the audio renderer's rate-matching tolerance.helpviewer_keywords: ["GetErrorTolerance","GetErrorTolerance method [DirectShow]","GetErrorTolerance method [DirectShow]","IAMClockSlave interface","IAMClockSlave interface [DirectShow]","GetErrorTolerance method","IAMClockSlave.GetErrorTolerance","IAMClockSlave::GetErrorTolerance","IAMClockSlaveGetErrorTolerance","dshow.iamclockslave_geterrortolerance","strmif/IAMClockSlave::GetErrorTolerance"]
+description: The GetErrorTolerance method retrieves the audio renderer's rate-matching tolerance.
+helpviewer_keywords: ["GetErrorTolerance","GetErrorTolerance method [DirectShow]","GetErrorTolerance method [DirectShow]","IAMClockSlave interface","IAMClockSlave interface [DirectShow]","GetErrorTolerance method","IAMClockSlave.GetErrorTolerance","IAMClockSlave::GetErrorTolerance","IAMClockSlaveGetErrorTolerance","dshow.iamclockslave_geterrortolerance","strmif/IAMClockSlave::GetErrorTolerance"]
 old-location: dshow\iamclockslave_geterrortolerance.htm
 tech.root: DirectShow
 ms.assetid: a22e17d8-eb96-4e67-bbd7-7c116694c891

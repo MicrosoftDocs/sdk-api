@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetExtendedTcpTable
 title: GetExtendedTcpTable function (iphlpapi.h)
-description: Retrieves a table that contains a list of TCP endpoints available to the application.helpviewer_keywords: ["AF_INET","AF_INET6","GetExtendedTcpTable","GetExtendedTcpTable function [IP Helper]","iphlp.getextendedtcptable","iphlpapi/GetExtendedTcpTable"]
+description: Retrieves a table that contains a list of TCP endpoints available to the application.
+helpviewer_keywords: ["AF_INET","AF_INET6","GetExtendedTcpTable","GetExtendedTcpTable function [IP Helper]","iphlp.getextendedtcptable","iphlpapi/GetExtendedTcpTable"]
 old-location: iphlp\getextendedtcptable.htm
 tech.root: IpHlp
 ms.assetid: 96356a0e-ae0d-4000-9223-a578cbdeaa8b

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaGetUpdatedCache
 title: UiaGetUpdatedCache function (uiautomationcoreapi.h)
-description: Updates the cache of property values and control patterns.helpviewer_keywords: ["UiaGetUpdatedCache","UiaGetUpdatedCache function [Windows Accessibility]","uiauto.uiauto_UiaGetUpdatedCacheAutoMeth","uiauto_UiaGetUpdatedCacheAutoMeth","uiautomationcoreapi/UiaGetUpdatedCache","winauto.uiauto_UiaGetUpdatedCacheAutoMeth"]
+description: Updates the cache of property values and control patterns.
+helpviewer_keywords: ["UiaGetUpdatedCache","UiaGetUpdatedCache function [Windows Accessibility]","uiauto.uiauto_UiaGetUpdatedCacheAutoMeth","uiauto_UiaGetUpdatedCacheAutoMeth","uiautomationcoreapi/UiaGetUpdatedCache","winauto.uiauto_UiaGetUpdatedCacheAutoMeth"]
 old-location: winauto\uiauto_UiaGetUpdatedCacheAutoMeth.htm
 tech.root: WinAuto
 ms.assetid: 06f0874d-ca25-4fa8-8cbc-96c1eee1b36c
@@ -87,9 +88,9 @@ The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautom
 
 ### -param ppRequestedData [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
-The address of a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized. See Remarks.
+The address of a variable that receives a pointer to a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains the requested data. This parameter is passed uninitialized. See Remarks.
 
 
 ### -param ppTreeStructure [out]

@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ParentDevice
 title: IUPnPDevice::get_ParentDevice (upnp.h)
-description: The ParentDevice property specifies the parent of the device.helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_ParentDevice method","IUPnPDevice.get_ParentDevice","IUPnPDevice::get_ParentDevice","_upnp_iupnpdevice_parentdevice","get_ParentDevice","get_ParentDevice method [UPnP APIs]","get_ParentDevice method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_parentdevice","upnp/IUPnPDevice::get_ParentDevice"]
+description: The ParentDevice property specifies the parent of the device.
+helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_ParentDevice method","IUPnPDevice.get_ParentDevice","IUPnPDevice::get_ParentDevice","_upnp_iupnpdevice_parentdevice","get_ParentDevice","get_ParentDevice method [UPnP APIs]","get_ParentDevice method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_parentdevice","upnp/IUPnPDevice::get_ParentDevice"]
 old-location: upnp\iupnpdevice_parentdevice.htm
 tech.root: upnp
 ms.assetid: 662a0bda-32f5-4756-8851-e7b2d0b9cc44

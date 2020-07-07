@@ -1,7 +1,8 @@
 ---
 UID: NS:ntdef._OBJECT_ATTRIBUTES
 title: _OBJECT_ATTRIBUTES (ntdef.h)
-description: The OBJECT_ATTRIBUTES structure specifies attributes that can be applied to objects or object handles by routines that create objects and/or return handles to objects.helpviewer_keywords: ["*POBJECT_ATTRIBUTES","OBJECT_ATTRIBUTES","OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture]","POBJECT_ATTRIBUTES","POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture]","_OBJECT_ATTRIBUTES","kernel.object_attributes","kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml","ntdef/OBJECT_ATTRIBUTES","ntdef/POBJECT_ATTRIBUTES"]
+description: The OBJECT_ATTRIBUTES structure specifies attributes that can be applied to objects or object handles by routines that create objects and/or return handles to objects.
+helpviewer_keywords: ["*POBJECT_ATTRIBUTES","OBJECT_ATTRIBUTES","OBJECT_ATTRIBUTES structure [Kernel-Mode Driver Architecture]","POBJECT_ATTRIBUTES","POBJECT_ATTRIBUTES structure pointer [Kernel-Mode Driver Architecture]","_OBJECT_ATTRIBUTES","kernel.object_attributes","kstruct_c_62b87332-0ef4-4c45-8c4f-0fc12d18582b.xml","ntdef/OBJECT_ATTRIBUTES","ntdef/POBJECT_ATTRIBUTES"]
 old-location: kernel\object_attributes.htm
 tech.root: kernel
 ms.assetid: 08f5a141-abce-4890-867c-5fe8c4239905
@@ -57,7 +58,7 @@ The <b>OBJECT_ATTRIBUTES</b> structure specifies attributes that can be applied 
 
 ### -field Length
 
-The number of bytes of data contained in this structure. The [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)a> macro sets this member to <b>sizeof</b>(<b>OBJECT_ATTRIBUTES</b>).
+The number of bytes of data contained in this structure. The [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) macro sets this member to <b>sizeof</b>(<b>OBJECT_ATTRIBUTES</b>).
 
 
 ### -field RootDirectory
@@ -67,7 +68,7 @@ Optional handle to the root object directory for the path name specified by the 
 
 ### -field ObjectName
 
-Pointer to a [Unicode string](/windows/win32/api/ntdef/ns-ntdef-_unicode_string)a> that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the <b>RootDirectory</b> member.
+Pointer to a [Unicode string](/windows/win32/api/ntdef/ns-ntdef-_unicode_string) that contains the name of the object for which a handle is to be opened. This must either be a fully qualified object name, or a relative path name to the directory specified by the <b>RootDirectory</b> member.
 
 
 ### -field Attributes
@@ -163,6 +164,25 @@ The routine that opens the handle should enforce all access checks for the objec
 </tr>
 <tr>
 <td>
+OBJ_DONT_REPARSE
+
+</td>
+<td>
+If this flag is set, no reparse points will be followed when parsing the name of the associated object. If any reparses are encountered the attempt will fail and return an <b>STATUS_REPARSE_POINT_ENCOUNTERED</b> result. This can be used to determine if there are any reparse points in the object's path, in security scenarios.
+
+</td>
+</tr>
+<tr>
+<td>
+OBJ_IGNORE_IMPERSONATED_DEVICEMAP
+
+</td>
+<td>
+A device map is a mapping between DOS device names and devices in the system, and is used when resolving DOS names. Separate device maps exists for each user in the system, and users can manage their own device maps. Typically during impersonation, the impersonated user's device map would be used. However, when this flag is set, the process user's device map is used instead.  
+</td>
+</tr>
+<tr>
+<td>
 OBJ_VALID_ATTRIBUTES
 
 </td>
@@ -172,7 +192,6 @@ Reserved.
 </td>
 </tr>
 </table>
-Â 
 
 
 ### -field SecurityDescriptor
@@ -182,14 +201,14 @@ Specifies a security descriptor (<a href="https://docs.microsoft.com/windows-har
 
 ### -field SecurityQualityOfService
 
-Optional quality of service to be applied to the object when it is created. Used to indicate the security impersonation level and context tracking mode (dynamic or static). Currently, the [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)a> macro sets this member to <b>NULL</b>.
+Optional quality of service to be applied to the object when it is created. Used to indicate the security impersonation level and context tracking mode (dynamic or static). Currently, the [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) macro sets this member to <b>NULL</b>.
 
 
 ## -remarks
 
 
 
-Use the [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)a> macro to initialize the members of the <b>OBJECT_ATTRIBUTES</b> structure. Note that <b>InitializeObjectAttributes</b> initializes the <b>SecurityQualityOfService</b> member to <b>NULL</b>. If you must specify a non-<b>NULL</b> value, set the <b>SecurityQualityOfService</b> member after initialization.
+Use the [InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes) macro to initialize the members of the <b>OBJECT_ATTRIBUTES</b> structure. Note that <b>InitializeObjectAttributes</b> initializes the <b>SecurityQualityOfService</b> member to <b>NULL</b>. If you must specify a non-<b>NULL</b> value, set the <b>SecurityQualityOfService</b> member after initialization.
 
 To apply the attributes contained in this structure to an object or object handle, pass a pointer to this structure to a routine that accesses objects or returns object handles, such as <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a> or <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/wdm/nf-wdm-zwcreatedirectoryobject">ZwCreateDirectoryObject</a>.
 
@@ -221,7 +240,7 @@ Driver routines that run in a process context other than that of the system proc
 
 
 
-[InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)a>
+[InitializeObjectAttributes](/windows/win32/api/ntdef/nf-ntdef-initializeobjectattributes)
 
 
 
@@ -242,9 +261,9 @@ Driver routines that run in a process context other than that of the system proc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
-Â 
+ 
 
-Â 
+ 
 
 
 f1_keywords: 

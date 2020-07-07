@@ -1,7 +1,8 @@
 ---
 UID: NN:objidlbase.IMarshalingStream
 title: IMarshalingStream (objidlbase.h)
-description: Provides additional information about the marshaling context to custom-marshaled objects and unmarshalers.helpviewer_keywords: ["IMarshalingStream","IMarshalingStream interface [COM]","IMarshalingStream interface [COM]","described","com.imarshalingstream","objidl/IMarshalingStream"]
+description: Provides additional information about the marshaling context to custom-marshaled objects and unmarshalers.
+helpviewer_keywords: ["IMarshalingStream","IMarshalingStream interface [COM]","IMarshalingStream interface [COM]","described","com.imarshalingstream","objidl/IMarshalingStream"]
 old-location: com\imarshalingstream.htm
 tech.root: com
 ms.assetid: 7C4A3982-3623-4F1F-929C-6D0503700450
@@ -93,7 +94,7 @@ Implement <b>IMarshalingStream</b> interface if you have <a href="https://docs.m
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
+<a href="/windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values">GLOBALOPT_UNMARSHALING_POLICY_VALUES</a>
 
 
 

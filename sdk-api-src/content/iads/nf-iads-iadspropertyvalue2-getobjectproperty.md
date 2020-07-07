@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsPropertyValue2.GetObjectProperty
 title: IADsPropertyValue2::GetObjectProperty (iads.h)
-description: Retrieves an attribute value.helpviewer_keywords: ["GetObjectProperty","GetObjectProperty method [ADSI]","GetObjectProperty method [ADSI]","IADsPropertyValue2 interface","IADsPropertyValue2 interface [ADSI]","GetObjectProperty method","IADsPropertyValue2.GetObjectProperty","IADsPropertyValue2::GetObjectProperty","_ds_iadspropertyvalue2_getobjectproperty","adsi.iadspropertyvalue2__getobjectproperty","adsi.iadspropertyvalue2_getobjectproperty","iads/IADsPropertyValue2::GetObjectProperty"]
+description: Retrieves an attribute value.
+helpviewer_keywords: ["GetObjectProperty","GetObjectProperty method [ADSI]","GetObjectProperty method [ADSI]","IADsPropertyValue2 interface","IADsPropertyValue2 interface [ADSI]","GetObjectProperty method","IADsPropertyValue2.GetObjectProperty","IADsPropertyValue2::GetObjectProperty","_ds_iadspropertyvalue2_getobjectproperty","adsi.iadspropertyvalue2__getobjectproperty","adsi.iadspropertyvalue2_getobjectproperty","iads/IADsPropertyValue2::GetObjectProperty"]
 old-location: adsi\iadspropertyvalue2_getobjectproperty.htm
 tech.root: adsi
 ms.assetid: a189f106-23dc-441b-8d97-c03d4c49a4a1
@@ -59,9 +60,9 @@ The <b>IADsPropertyValue2::GetObjectProperty</b> method retrieves an attribute v
 
 ### -param lnADsType [in, out]
 
-Pointer to a variable that, on entry, contains one of the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> values that specifies the data format that the value should be returned.
+Pointer to a variable that, on entry, contains one of the <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> values that specifies the data format that the value should be returned.
 
-If the data type is not known, set this to <b>ADSTYPE_UNKNOWN</b>. In this case, this method will obtain the attribute value in the default data type and set this variable to the corresponding <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> value. If any other <b>ADSTYPEENUM</b> value is specified, ADSI will return the attribute value only if the data type matches the format of the value.
+If the data type is not known, set this to <b>ADSTYPE_UNKNOWN</b>. In this case, this method will obtain the attribute value in the default data type and set this variable to the corresponding <a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a> value. If any other <b>ADSTYPEENUM</b> value is specified, ADSI will return the attribute value only if the data type matches the format of the value.
 
 
 ### -param pvProp [out]
@@ -87,7 +88,7 @@ Returns <b>S_OK</b> if successful or one of the following error codes.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-adstypeenum">ADSTYPEENUM</a>
 
 
 

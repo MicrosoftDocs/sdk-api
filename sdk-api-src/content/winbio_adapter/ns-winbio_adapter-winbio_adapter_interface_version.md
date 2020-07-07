@@ -1,7 +1,8 @@
 ---
 UID: NS:winbio_adapter._WINBIO_ADAPTER_INTERFACE_VERSION
 title: WINBIO_ADAPTER_INTERFACE_VERSION (winbio_adapter.h)
-description: Contains a major and minor version number used in the engine, sensor, and storage adapter interface tables.helpviewer_keywords: ["*PWINBIO_ADAPTER_INTERFACE_VERSION","PWINBIO_ADAPTER_INTERFACE_VERSION","PWINBIO_ADAPTER_INTERFACE_VERSION structure pointer [Windows Biometric Framework API]","WINBIO_ADAPTER_INTERFACE_VERSION","WINBIO_ADAPTER_INTERFACE_VERSION structure [Windows Biometric Framework API]","secbiomet.winbio_adapter_interface_version","winbio_adapter/PWINBIO_ADAPTER_INTERFACE_VERSION","winbio_adapter/WINBIO_ADAPTER_INTERFACE_VERSION"]
+description: Contains a major and minor version number used in the engine, sensor, and storage adapter interface tables.
+helpviewer_keywords: ["*PWINBIO_ADAPTER_INTERFACE_VERSION","PWINBIO_ADAPTER_INTERFACE_VERSION","PWINBIO_ADAPTER_INTERFACE_VERSION structure pointer [Windows Biometric Framework API]","WINBIO_ADAPTER_INTERFACE_VERSION","WINBIO_ADAPTER_INTERFACE_VERSION structure [Windows Biometric Framework API]","secbiomet.winbio_adapter_interface_version","winbio_adapter/PWINBIO_ADAPTER_INTERFACE_VERSION","winbio_adapter/WINBIO_ADAPTER_INTERFACE_VERSION"]
 old-location: secbiomet\winbio_adapter_interface_version.htm
 tech.root: SecBioMet
 ms.assetid: e9dd91ea-cca3-49f3-89dc-f8f2c0594bd2
@@ -75,13 +76,13 @@ This structure is used by the following structures:
 
 <ul>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a>
+<a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_engine_interface">WINBIO_ENGINE_INTERFACE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a>
+<a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_sensor_interface">WINBIO_SENSOR_INTERFACE</a>
 </li>
 <li>
-<a href="https://docs.microsoft.com/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a>
+<a href="/windows/win32/api/winbio_adapter/ns-winbio_adapter-winbio_storage_interface">WINBIO_STORAGE_INTERFACE</a>
 </li>
 </ul>
 

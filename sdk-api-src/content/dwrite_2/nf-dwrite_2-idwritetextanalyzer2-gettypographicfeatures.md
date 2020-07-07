@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_2.IDWriteTextAnalyzer2.GetTypographicFeatures
 title: IDWriteTextAnalyzer2::GetTypographicFeatures (dwrite_2.h)
-description: Returns a complete list of OpenType features available for a script or font.helpviewer_keywords: ["GetTypographicFeatures","GetTypographicFeatures method [Direct Write]","GetTypographicFeatures method [Direct Write]","IDWriteTextAnalyzer2 interface","IDWriteTextAnalyzer2 interface [Direct Write]","GetTypographicFeatures method","IDWriteTextAnalyzer2.GetTypographicFeatures","IDWriteTextAnalyzer2::GetTypographicFeatures","directwrite.idwritetextanalyzer2_gettypographicfeatures","dwrite_2/IDWriteTextAnalyzer2::GetTypographicFeatures"]
+description: Returns a complete list of OpenType features available for a script or font.
+helpviewer_keywords: ["GetTypographicFeatures","GetTypographicFeatures method [Direct Write]","GetTypographicFeatures method [Direct Write]","IDWriteTextAnalyzer2 interface","IDWriteTextAnalyzer2 interface [Direct Write]","GetTypographicFeatures method","IDWriteTextAnalyzer2.GetTypographicFeatures","IDWriteTextAnalyzer2::GetTypographicFeatures","directwrite.idwritetextanalyzer2_gettypographicfeatures","dwrite_2/IDWriteTextAnalyzer2::GetTypographicFeatures"]
 old-location: directwrite\idwritetextanalyzer2_gettypographicfeatures.htm
 tech.root: DirectWrite
 ms.assetid: 36CAC2F8-9065-4FD9-8EFD-529B97CE94D8

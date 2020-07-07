@@ -1,7 +1,8 @@
 ---
 UID: NF:winenclaveapi.EnclaveGetEnclaveInformation
 title: EnclaveGetEnclaveInformation function (winenclaveapi.h)
-description: Gets information about the currently executing enclave.helpviewer_keywords: ["EnclaveGetEnclaveInformation","EnclaveGetEnclaveInformation function","base.enclavegetenclaveinformation","winenclaveapi/EnclaveGetEnclaveInformation"]
+description: Gets information about the currently executing enclave.
+helpviewer_keywords: ["EnclaveGetEnclaveInformation","EnclaveGetEnclaveInformation function","base.enclavegetenclaveinformation","winenclaveapi/EnclaveGetEnclaveInformation"]
 old-location: base\enclavegetenclaveinformation.htm
 tech.root: Memory
 ms.assetid: 26349C3C-4B73-430C-B002-ED262DB0304F

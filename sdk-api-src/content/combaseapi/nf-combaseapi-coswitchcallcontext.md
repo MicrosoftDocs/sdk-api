@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoSwitchCallContext
 title: CoSwitchCallContext function (combaseapi.h)
-description: Switches the call context object used by CoGetCallContext.helpviewer_keywords: ["CoSwitchCallContext","CoSwitchCallContext function [COM]","_com_CoSwitchCallContext","com.coswitchcallcontext","combaseapi/CoSwitchCallContext"]
+description: Switches the call context object used by CoGetCallContext.
+helpviewer_keywords: ["CoSwitchCallContext","CoSwitchCallContext function [COM]","_com_CoSwitchCallContext","com.coswitchcallcontext","combaseapi/CoSwitchCallContext"]
 old-location: com\coswitchcallcontext.htm
 tech.root: com
 ms.assetid: 146855a2-97ec-4e71-88dc-316eaa1a24a0

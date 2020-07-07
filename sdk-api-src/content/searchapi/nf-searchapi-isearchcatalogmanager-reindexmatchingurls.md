@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.ReindexMatchingURLs
 title: ISearchCatalogManager::ReindexMatchingURLs (searchapi.h)
-description: Reindexes all items that match the provided pattern. This method was not implemented prior to Windows 7.helpviewer_keywords: ["ISearchCatalogManager interface [search]","ReindexMatchingURLs method","ISearchCatalogManager.ReindexMatchingURLs","ISearchCatalogManager::ReindexMatchingURLs","ReindexMatchingURLs","ReindexMatchingURLs method [search]","ReindexMatchingURLs method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_ReindexMatchingURLs","search._search_ISearchCatalogManager_ReindexMatchingURLs","searchapi/ISearchCatalogManager::ReindexMatchingURLs"]
+description: Reindexes all items that match the provided pattern. This method was not implemented prior to Windows 7.
+helpviewer_keywords: ["ISearchCatalogManager interface [search]","ReindexMatchingURLs method","ISearchCatalogManager.ReindexMatchingURLs","ISearchCatalogManager::ReindexMatchingURLs","ReindexMatchingURLs","ReindexMatchingURLs method [search]","ReindexMatchingURLs method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_ReindexMatchingURLs","search._search_ISearchCatalogManager_ReindexMatchingURLs","searchapi/ISearchCatalogManager::ReindexMatchingURLs"]
 old-location: search\_search_ISearchCatalogManager_ReindexMatchingURLs.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reindexmatchingurls.htm

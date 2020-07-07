@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsTimestamp
 title: IADsTimestamp (iads.h)
-description: The IADsTimestamp interface provides methods for an ADSI client to access the Timestamp attribute.helpviewer_keywords: ["IADsTimestamp","IADsTimestamp interface [ADSI]","IADsTimestamp interface [ADSI]","described","Timestamp","_ds_iadstimestamp","adsi.iadstimestamp","iads/IADsTimestamp"]
+description: The IADsTimestamp interface provides methods for an ADSI client to access the Timestamp attribute.
+helpviewer_keywords: ["IADsTimestamp","IADsTimestamp interface [ADSI]","IADsTimestamp interface [ADSI]","described","Timestamp","_ds_iadstimestamp","adsi.iadstimestamp","iads/IADsTimestamp"]
 old-location: adsi\iadstimestamp.htm
 tech.root: adsi
 ms.assetid: 5f24e6e9-ad5b-4d5b-b3f3-cc3aca599bc1

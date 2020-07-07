@@ -1,7 +1,8 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceDispatchFactory
 title: IPortableDeviceDispatchFactory (portabledeviceapi.h)
-description: Represents a factory that can instantiate a WPD Automation Device object.helpviewer_keywords: ["IPortableDeviceDispatchFactory","IPortableDeviceDispatchFactory interface [WPD Automation]","IPortableDeviceDispatchFactory interface [WPD Automation]","described","portabledeviceapi/IPortableDeviceDispatchFactory","wpdauto.iportabledevicedispatchfactory_interface"]
+description: Represents a factory that can instantiate a WPD Automation Device object.
+helpviewer_keywords: ["IPortableDeviceDispatchFactory","IPortableDeviceDispatchFactory interface [WPD Automation]","IPortableDeviceDispatchFactory interface [WPD Automation]","described","portabledeviceapi/IPortableDeviceDispatchFactory","wpdauto.iportabledevicedispatchfactory_interface"]
 old-location: wpdauto\iportabledevicedispatchfactory_interface.htm
 tech.root: wpdauto
 ms.assetid: 537551c9-0773-44a9-b602-7d2a6bf9ad00

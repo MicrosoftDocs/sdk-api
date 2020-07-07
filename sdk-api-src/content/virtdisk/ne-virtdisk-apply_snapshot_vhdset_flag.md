@@ -1,7 +1,8 @@
 ---
 UID: NE:virtdisk._APPLY_SNAPSHOT_VHDSET_FLAG
 title: APPLY_SNAPSHOT_VHDSET_FLAG (virtdisk.h)
-description: Contains flags affecting the behavior of the ApplySnapshotVhdSet function.helpviewer_keywords: ["*PAPPLY_SNAPSHOT_VHDSET_FLAG","APPLY_SNAPSHOT_VHDSET_FLAG","APPLY_SNAPSHOT_VHDSET_FLAG enumeration [VHD]","APPLY_SNAPSHOT_VHDSET_FLAG_NONE","APPLY_SNAPSHOT_VHDSET_FLAG_WRITEABLE","PAPPLY_SNAPSHOT_VHDSET_FLAG","PAPPLY_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD]","vdssys/APPLY_SNAPSHOT_VHDSET_FLAG","vdssys/APPLY_SNAPSHOT_VHDSET_FLAG_NONE","vdssys/APPLY_SNAPSHOT_VHDSET_FLAG_WRITEABLE","vdssys/PAPPLY_SNAPSHOT_VHDSET_FLAG","vhd.apply_snapshot_vhdset_flag","virtdisk/APPLY_SNAPSHOT_VHDSET_FLAG","virtdisk/APPLY_SNAPSHOT_VHDSET_FLAG_NONE","virtdisk/APPLY_SNAPSHOT_VHDSET_FLAG_WRITEABLE","virtdisk/PAPPLY_SNAPSHOT_VHDSET_FLAG"]
+description: Contains flags affecting the behavior of the ApplySnapshotVhdSet function.
+helpviewer_keywords: ["*PAPPLY_SNAPSHOT_VHDSET_FLAG","APPLY_SNAPSHOT_VHDSET_FLAG","APPLY_SNAPSHOT_VHDSET_FLAG enumeration [VHD]","APPLY_SNAPSHOT_VHDSET_FLAG_NONE","APPLY_SNAPSHOT_VHDSET_FLAG_WRITEABLE","PAPPLY_SNAPSHOT_VHDSET_FLAG","PAPPLY_SNAPSHOT_VHDSET_FLAG enumeration pointer [VHD]","vdssys/APPLY_SNAPSHOT_VHDSET_FLAG","vdssys/APPLY_SNAPSHOT_VHDSET_FLAG_NONE","vdssys/APPLY_SNAPSHOT_VHDSET_FLAG_WRITEABLE","vdssys/PAPPLY_SNAPSHOT_VHDSET_FLAG","vhd.apply_snapshot_vhdset_flag","virtdisk/APPLY_SNAPSHOT_VHDSET_FLAG","virtdisk/APPLY_SNAPSHOT_VHDSET_FLAG_NONE","virtdisk/APPLY_SNAPSHOT_VHDSET_FLAG_WRITEABLE","virtdisk/PAPPLY_SNAPSHOT_VHDSET_FLAG"]
 old-location: vhd\apply_snapshot_vhdset_flag.htm
 tech.root: VStor
 ms.assetid: 96ED6EB4-BB11-430D-9B2E-C905C223D261
@@ -50,7 +51,7 @@ ms.custom: 19H1
 ## -description
 
 
-Contains flags affecting the behavior of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-applysnapshotvhdset">ApplySnapshotVhdSet</a> function.
+Contains flags affecting the behavior of the <a href="/windows/win32/api/virtdisk/nf-virtdisk-applysnapshotvhdset">ApplySnapshotVhdSet</a> function.
 
 
 ## -enum-fields

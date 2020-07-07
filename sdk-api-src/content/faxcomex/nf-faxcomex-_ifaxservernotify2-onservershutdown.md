@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex._IFaxServerNotify2.OnServerShutDown
 title: _IFaxServerNotify2::OnServerShutDown (faxcomex.h)
-description: The fax service calls the IFaxServerNotify2::OnServerShutDown method when the fax service shuts down.helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnServerShutDown method","IFaxServerNotify2.OnServerShutDown","IFaxServerNotify2::OnServerShutDown","OnServerShutDown","OnServerShutDown method [Fax Service]","OnServerShutDown method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnServerShutDown","_IFaxServerNotify2::OnServerShutDown","_mfax_ifaxservernotify2_onservershutdown","fax._mfax_ifaxservernotify2_onservershutdown","faxcomex/IFaxServerNotify2::OnServerShutDown"]
+description: The fax service calls the IFaxServerNotify2::OnServerShutDown method when the fax service shuts down.
+helpviewer_keywords: ["IFaxServerNotify2 interface [Fax Service]","OnServerShutDown method","IFaxServerNotify2.OnServerShutDown","IFaxServerNotify2::OnServerShutDown","OnServerShutDown","OnServerShutDown method [Fax Service]","OnServerShutDown method [Fax Service]","IFaxServerNotify2 interface","_IFaxServerNotify2.OnServerShutDown","_IFaxServerNotify2::OnServerShutDown","_mfax_ifaxservernotify2_onservershutdown","fax._mfax_ifaxservernotify2_onservershutdown","faxcomex/IFaxServerNotify2::OnServerShutDown"]
 old-location: fax\_mfax_ifaxservernotify2_onservershutdown.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_onservershutdown.htm
@@ -90,7 +91,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
+<a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxservernotify2">IFaxServerNotify2</a>
  
 
  

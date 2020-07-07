@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SysStringByteLen
 title: SysStringByteLen function (oleauto.h)
-description: Returns the length (in bytes) of a BSTR.helpviewer_keywords: ["SysStringByteLen","SysStringByteLen function [Automation]","_oa96_SysStringByteLen","automat.sysstringbytelen","oleauto/SysStringByteLen"]
+description: Returns the length (in bytes) of a BSTR.
+helpviewer_keywords: ["SysStringByteLen","SysStringByteLen function [Automation]","_oa96_SysStringByteLen","automat.sysstringbytelen","oleauto/SysStringByteLen"]
 old-location: automat\sysstringbytelen.htm
 tech.root: automat
 ms.assetid: 2a150503-f474-41b8-90dd-fbbc955bea99

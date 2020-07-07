@@ -1,7 +1,8 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0022_0001
 title: PRIORITY_LEVEL (searchapi.h)
-description: Used by the IRowsetPrioritization interface to sets or retrieve the current indexer prioritization level for the scope specified by a query.helpviewer_keywords: ["PRIORITY_LEVEL","PRIORITY_LEVEL enumeration [search]","PRIORITY_LEVEL_DEFAULT","PRIORITY_LEVEL_FOREGROUND","PRIORITY_LEVEL_HIGH","PRIORITY_LEVEL_LOW","_search_PRIORITY_LEVEL","search._search_PRIORITY_LEVEL","searchapi/PRIORITY_LEVEL","searchapi/PRIORITY_LEVEL_DEFAULT","searchapi/PRIORITY_LEVEL_FOREGROUND","searchapi/PRIORITY_LEVEL_HIGH","searchapi/PRIORITY_LEVEL_LOW"]
+description: Used by the IRowsetPrioritization interface to sets or retrieve the current indexer prioritization level for the scope specified by a query.
+helpviewer_keywords: ["PRIORITY_LEVEL","PRIORITY_LEVEL enumeration [search]","PRIORITY_LEVEL_DEFAULT","PRIORITY_LEVEL_FOREGROUND","PRIORITY_LEVEL_HIGH","PRIORITY_LEVEL_LOW","_search_PRIORITY_LEVEL","search._search_PRIORITY_LEVEL","searchapi/PRIORITY_LEVEL","searchapi/PRIORITY_LEVEL_DEFAULT","searchapi/PRIORITY_LEVEL_FOREGROUND","searchapi/PRIORITY_LEVEL_HIGH","searchapi/PRIORITY_LEVEL_LOW"]
 old-location: search\_search_PRIORITY_LEVEL.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\priority_level.htm
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetprioritization">IRowsetPrioritization</a> interface to sets or retrieve the current indexer prioritization level for the scope specified by a query.
+Used by the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetprioritization">IRowsetPrioritization</a> interface to set or retrieve the current indexer prioritization level for the scope specified by a query.
 
 
 ## -enum-fields
@@ -79,12 +80,7 @@ Indicates that the indexer should  process items at the normal indexer rate.
 
 ## -remarks
 
-
-
-The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to prioritize indexing events.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
 
 ## -see-also
 
@@ -103,15 +99,15 @@ The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

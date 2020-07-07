@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymQueryInlineTrace
 title: SymQueryInlineTrace function (dbghelp.h)
-description: Queries an inline trace.helpviewer_keywords: ["SymQueryInlineTrace","SymQueryInlineTrace function","base.symqueryinlinetrace","dbghelp/SymQueryInlineTrace"]
+description: Queries an inline trace.
+helpviewer_keywords: ["SymQueryInlineTrace","SymQueryInlineTrace function","base.symqueryinlinetrace","dbghelp/SymQueryInlineTrace"]
 old-location: base\symqueryinlinetrace.htm
 tech.root: Debug
 ms.assetid: e65cf979-f482-4019-ab67-5e908d23bcfa

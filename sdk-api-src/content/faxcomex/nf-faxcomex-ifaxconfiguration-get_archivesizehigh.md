@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveSizeHigh
 title: IFaxConfiguration::get_ArchiveSizeHigh (faxcomex.h)
-description: The value that specifies the high-order 32-bit value (in bytes) for the size of the fax message archive.helpviewer_keywords: ["ArchiveSizeHigh property [Fax Service]","ArchiveSizeHigh property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","ArchiveSizeHigh property","IFaxConfiguration.ArchiveSizeHigh","IFaxConfiguration.get_ArchiveSizeHigh","IFaxConfiguration::ArchiveSizeHigh","IFaxConfiguration::get_ArchiveSizeHigh","fax._mfax_ifaxconfiguration_archivesizehigh","faxcomex/IFaxConfiguration::ArchiveSizeHigh","faxcomex/IFaxConfiguration::get_ArchiveSizeHigh","get_ArchiveSizeHigh"]
+description: The value that specifies the high-order 32-bit value (in bytes) for the size of the fax message archive.
+helpviewer_keywords: ["ArchiveSizeHigh property [Fax Service]","ArchiveSizeHigh property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","ArchiveSizeHigh property","IFaxConfiguration.ArchiveSizeHigh","IFaxConfiguration.get_ArchiveSizeHigh","IFaxConfiguration::ArchiveSizeHigh","IFaxConfiguration::get_ArchiveSizeHigh","fax._mfax_ifaxconfiguration_archivesizehigh","faxcomex/IFaxConfiguration::ArchiveSizeHigh","faxcomex/IFaxConfiguration::get_ArchiveSizeHigh","get_ArchiveSizeHigh"]
 old-location: fax\_mfax_ifaxconfiguration_archivesizehigh.htm
 tech.root: Fax
 ms.assetid: 3386ec80-be4e-4105-ab57-dd634b57f67f

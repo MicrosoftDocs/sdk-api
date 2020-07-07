@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.OpenVirtualDisk
 title: OpenVirtualDisk function (virtdisk.h)
-description: Opens a virtual hard disk (VHD) or CD or DVD image file (ISO) for use.helpviewer_keywords: ["OpenVirtualDisk","OpenVirtualDisk function [VHD]","vdssys/OpenVirtualDisk","vhd.openvirtualdisk","virtdisk/OpenVirtualDisk"]
+description: Opens a virtual hard disk (VHD) or CD or DVD image file (ISO) for use.
+helpviewer_keywords: ["OpenVirtualDisk","OpenVirtualDisk function [VHD]","vdssys/OpenVirtualDisk","vhd.openvirtualdisk","virtdisk/OpenVirtualDisk"]
 old-location: vhd\openvirtualdisk.htm
 tech.root: VStor
 ms.assetid: 08e2a82d-9110-42b1-be09-dc5150da42f6
@@ -59,7 +60,7 @@ Opens a virtual hard disk (VHD) or CD or DVD image file (ISO) for use.
 
 ### -param VirtualStorageType [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> 
+A pointer to a valid <a href="/windows/win32/api/virtdisk/ns-virtdisk-virtual_storage_type">VIRTUAL_STORAGE_TYPE</a> 
      structure.
 
 
@@ -77,13 +78,13 @@ A valid value of the
 ### -param Flags [in]
 
 A valid combination of values of the 
-     <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration.
+     <a href="/windows/win32/api/virtdisk/ne-virtdisk-open_virtual_disk_flag">OPEN_VIRTUAL_DISK_FLAG</a> enumeration.
 
 
 ### -param Parameters [in, optional]
 
 An optional pointer to a valid 
-     <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure. Can 
+     <a href="/windows/win32/api/virtdisk/ns-virtdisk-open_virtual_disk_parameters">OPEN_VIRTUAL_DISK_PARAMETERS</a> structure. Can 
      be <b>NULL</b>.
 
 
@@ -164,7 +165,7 @@ CD and DVD image files (ISO) are not supported before Windows 8 and
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/virtdisk/nf-virtdisk-createvirtualdisk">CreateVirtualDisk</a>
+<a href="/windows/win32/api/virtdisk/nf-virtdisk-createvirtualdisk">CreateVirtualDisk</a>
 
 
 

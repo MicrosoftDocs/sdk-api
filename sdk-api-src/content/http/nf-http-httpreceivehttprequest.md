@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpReceiveHttpRequest
 title: HttpReceiveHttpRequest function (http.h)
-description: Retrieves the next available HTTP request from the specified request queue either synchronously or asynchronously.helpviewer_keywords: ["0 (zero)","HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY","HTTP_RECEIVE_REQUEST_FLAG_FLUSH_BODY","HttpReceiveHttpRequest","HttpReceiveHttpRequest function [HTTP]","_http_httpreceivehttprequest","http.httpreceivehttprequest","http/HttpReceiveHttpRequest"]
+description: Retrieves the next available HTTP request from the specified request queue either synchronously or asynchronously.
+helpviewer_keywords: ["0 (zero)","HTTP_RECEIVE_REQUEST_FLAG_COPY_BODY","HTTP_RECEIVE_REQUEST_FLAG_FLUSH_BODY","HttpReceiveHttpRequest","HttpReceiveHttpRequest function [HTTP]","_http_httpreceivehttprequest","http.httpreceivehttprequest","http/HttpReceiveHttpRequest"]
 old-location: http\httpreceivehttprequest.htm
 tech.root: http
 ms.assetid: ad9e80f7-04c4-4108-a7ab-40eb57d00e3b

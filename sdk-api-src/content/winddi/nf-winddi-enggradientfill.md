@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngGradientFill
 title: EngGradientFill function (winddi.h)
-description: The EngGradientFill function shades the specified primitives.helpviewer_keywords: ["EngGradientFill","EngGradientFill function [Display Devices]","display.enggradientfill","gdifncs_7f0502d6-5e1b-4780-9e59-3bbddf29d7c7.xml","winddi/EngGradientFill"]
+description: The EngGradientFill function shades the specified primitives.
+helpviewer_keywords: ["EngGradientFill","EngGradientFill function [Display Devices]","display.enggradientfill","gdifncs_7f0502d6-5e1b-4780-9e59-3bbddf29d7c7.xml","winddi/EngGradientFill"]
 old-location: display\enggradientfill.htm
 tech.root: display
 ms.assetid: 1005f89f-65cf-49bb-8377-3581fdc9c654

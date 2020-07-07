@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_3
 title: GROUP_INFO_3 (lmaccess.h)
-description: The GROUP_INFO_3 structure contains information about a global group, including name, security identifier (SID), and resource attributes.helpviewer_keywords: ["*PGROUP_INFO_3","GROUP_INFO_3","GROUP_INFO_3 structure [Network Management]","PGROUP_INFO_3","PGROUP_INFO_3 structure pointer [Network Management]","_win32_group_info_3_str","lmaccess/GROUP_INFO_3","lmaccess/PGROUP_INFO_3","netmgmt.group_info_3_str"]
+description: The GROUP_INFO_3 structure contains information about a global group, including name, security identifier (SID), and resource attributes.
+helpviewer_keywords: ["*PGROUP_INFO_3","GROUP_INFO_3","GROUP_INFO_3 structure [Network Management]","PGROUP_INFO_3","PGROUP_INFO_3 structure pointer [Network Management]","_win32_group_info_3_str","lmaccess/GROUP_INFO_3","lmaccess/PGROUP_INFO_3","netmgmt.group_info_3_str"]
 old-location: netmgmt\group_info_3_str.htm
 tech.root: NetMgmt
 ms.assetid: aa0c3b6e-ab27-48b9-a37f-5cceb63c70fd

@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTUnregisterEvent
 title: BluetoothGATTUnregisterEvent function (bluetoothleapis.h)
-description: Unregisters the given characteristic value change event.helpviewer_keywords: ["BluetoothGATTUnregisterEvent","BluetoothGATTUnregisterEvent function [Bluetooth Devices]","bltooth.bluetoothgattunregisterevent","bluetoothleapis/BluetoothGATTUnregisterEvent"]
+description: Unregisters the given characteristic value change event.
+helpviewer_keywords: ["BluetoothGATTUnregisterEvent","BluetoothGATTUnregisterEvent function [Bluetooth Devices]","bltooth.bluetoothgattunregisterevent","bluetoothleapis/BluetoothGATTUnregisterEvent"]
 old-location: bltooth\bluetoothgattunregisterevent.htm
 tech.root: bltooth
 ms.assetid: 4E0E8D6C-DC12-4F15-9D29-B38AE680894B

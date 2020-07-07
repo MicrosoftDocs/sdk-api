@@ -1,7 +1,8 @@
 ---
 UID: NF:realtimeapiset.QueryUnbiasedInterruptTimePrecise
 title: QueryUnbiasedInterruptTimePrecise function (realtimeapiset.h)
-description: Gets the current unbiased interrupt-time count, in a more precise form than QueryUnbiasedInterruptTime does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.helpviewer_keywords: ["QueryUnbiasedInterruptTimePrecise","QueryUnbiasedInterruptTimePrecise function","base.queryunbiasedinterrupttimeprecise","realtimeapiset/QueryUnbiasedInterruptTimePrecise"]
+description: Gets the current unbiased interrupt-time count, in a more precise form than QueryUnbiasedInterruptTime does. The unbiased interrupt-time count does not include time the system spends in sleep or hibernation.
+helpviewer_keywords: ["QueryUnbiasedInterruptTimePrecise","QueryUnbiasedInterruptTimePrecise function","base.queryunbiasedinterrupttimeprecise","realtimeapiset/QueryUnbiasedInterruptTimePrecise"]
 old-location: base\queryunbiasedinterrupttimeprecise.htm
 tech.root: SysInfo
 ms.assetid: FADFC168-A3CF-4676-9B6E-7A4028049423

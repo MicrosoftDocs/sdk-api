@@ -1,7 +1,8 @@
 ---
-UID: NF:directxcollision.BoundingBox.CreateFromPoints(BoundingBox &,size_t,const XMFLOAT3,size_t)
+UID: NF:directxcollision.BoundingBox.CreateFromPoints(BoundingBox&,size_t,constXMFLOAT3,size_t)
 title: BoundingBox::CreateFromPoints(BoundingBox &,size_t,const XMFLOAT3,size_t)
-description: Creates a BoundingBox from a list of points.helpviewer_keywords: ["BoundingBox interface [DirectX Math Support APIs]","CreateFromPoints method","BoundingBox.CreateFromPoints","BoundingBox.CreateFromPoints(BoundingBox &","size_t","const XMFLOAT3","size_t)","BoundingBox.CreateFromPoints(BoundingBox&","size_t","const XMFLOAT3*","size_t)","BoundingBox::CreateFromPoints","BoundingBox::CreateFromPoints(BoundingBox &","size_t","const XMFLOAT3","size_t)","CreateFromPoints","CreateFromPoints method [DirectX Math Support APIs]","CreateFromPoints method [DirectX Math Support APIs]","BoundingBox interface","dxmath.boundingbox_createfrompoints_1"]
+description: Creates a BoundingBox from a list of points.
+helpviewer_keywords: ["BoundingBox interface [DirectX Math Support APIs]","CreateFromPoints method","BoundingBox.CreateFromPoints","BoundingBox.CreateFromPoints(BoundingBox &","size_t","const XMFLOAT3","size_t)","BoundingBox.CreateFromPoints(BoundingBox&","size_t","const XMFLOAT3*","size_t)","BoundingBox::CreateFromPoints","BoundingBox::CreateFromPoints(BoundingBox &","size_t","const XMFLOAT3","size_t)","CreateFromPoints","CreateFromPoints method [DirectX Math Support APIs]","CreateFromPoints method [DirectX Math Support APIs]","BoundingBox interface","dxmath.boundingbox_createfrompoints_1"]
 old-location: dxmath\boundingbox_createfrompoints_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingBox.CreateFromPoints(BoundingBox@,size_t,XMFLOAT3,size_t)

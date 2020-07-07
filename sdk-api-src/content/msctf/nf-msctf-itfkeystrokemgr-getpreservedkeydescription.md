@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.GetPreservedKeyDescription
 title: ITfKeystrokeMgr::GetPreservedKeyDescription (msctf.h)
-description: ITfKeystrokeMgr::GetPreservedKeyDescription methodhelpviewer_keywords: ["GetPreservedKeyDescription","GetPreservedKeyDescription method [Text Services Framework]","GetPreservedKeyDescription method [Text Services Framework]","ITfKeystrokeMgr interface","ITfKeystrokeMgr interface [Text Services Framework]","GetPreservedKeyDescription method","ITfKeystrokeMgr.GetPreservedKeyDescription","ITfKeystrokeMgr::GetPreservedKeyDescription","_tsf_itfkeystrokemgr_getpreservedkeydescription_ref","msctf/ITfKeystrokeMgr::GetPreservedKeyDescription","tsf.itfkeystrokemgr_getpreservedkeydescription"]
+description: ITfKeystrokeMgr::GetPreservedKeyDescription method
+helpviewer_keywords: ["GetPreservedKeyDescription","GetPreservedKeyDescription method [Text Services Framework]","GetPreservedKeyDescription method [Text Services Framework]","ITfKeystrokeMgr interface","ITfKeystrokeMgr interface [Text Services Framework]","GetPreservedKeyDescription method","ITfKeystrokeMgr.GetPreservedKeyDescription","ITfKeystrokeMgr::GetPreservedKeyDescription","_tsf_itfkeystrokemgr_getpreservedkeydescription_ref","msctf/ITfKeystrokeMgr::GetPreservedKeyDescription","tsf.itfkeystrokemgr_getpreservedkeydescription"]
 old-location: tsf\itfkeystrokemgr_getpreservedkeydescription.htm
 tech.root: TSF
 ms.assetid: 5ae2b56f-0dd9-4f37-a677-20b53c7200c7

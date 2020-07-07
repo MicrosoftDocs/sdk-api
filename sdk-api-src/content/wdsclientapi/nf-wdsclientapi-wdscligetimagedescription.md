@@ -1,7 +1,8 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageDescription
 title: WdsCliGetImageDescription function (wdsclientapi.h)
-description: Returns a description of the current image.helpviewer_keywords: ["WdsCliGetImageDescription","WdsCliGetImageDescription function [Windows Deployment Services]","wds.wdscligetimagedescription","wdsclientapi/WdsCliGetImageDescription"]
+description: Returns a description of the current image.
+helpviewer_keywords: ["WdsCliGetImageDescription","WdsCliGetImageDescription function [Windows Deployment Services]","wds.wdscligetimagedescription","wdsclientapi/WdsCliGetImageDescription"]
 old-location: wds\wdscligetimagedescription.htm
 tech.root: wds
 ms.assetid: 57feb142-6c3a-4ce0-a23b-87d605234b70

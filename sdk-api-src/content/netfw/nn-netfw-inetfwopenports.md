@@ -1,7 +1,8 @@
 ---
 UID: NN:netfw.INetFwOpenPorts
 title: INetFwOpenPorts (netfw.h)
-description: The INetFwOpenPorts interface is a standard Automation collection interface.helpviewer_keywords: ["INetFwOpenPorts","INetFwOpenPorts interface [ICS/ICF]","INetFwOpenPorts interface [ICS/ICF]","described","ics.inetfwopenports","netfw/INetFwOpenPorts"]
+description: The INetFwOpenPorts interface is a standard Automation collection interface.
+helpviewer_keywords: ["INetFwOpenPorts","INetFwOpenPorts interface [ICS/ICF]","INetFwOpenPorts interface [ICS/ICF]","described","ics.inetfwopenports","netfw/INetFwOpenPorts"]
 old-location: ics\inetfwopenports.htm
 tech.root: ics
 ms.assetid: a3a6e5c1-5818-419c-8df4-966b2fbcd8c0

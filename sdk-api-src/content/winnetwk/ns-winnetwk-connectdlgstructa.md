@@ -1,7 +1,8 @@
 ---
 UID: NS:winnetwk._CONNECTDLGSTRUCTA
 title: CONNECTDLGSTRUCTA (winnetwk.h)
-description: Used by the WNetConnectionDialog1 function to establish browsing dialog box parameters.helpviewer_keywords: ["*LPCONNECTDLGSTRUCTA","CONNDLG_CONN_POINT","CONNDLG_HIDE_BOX","CONNDLG_NOT_PERSIST","CONNDLG_PERSIST","CONNDLG_RO_PATH","CONNDLG_USE_MRU","CONNECTDLGSTRUCT","CONNECTDLGSTRUCT structure [Windows Networking (WNet)]","CONNECTDLGSTRUCTA","CONNECTDLGSTRUCTW","LPCONNECTDLGSTRUCT","LPCONNECTDLGSTRUCT structure pointer [Windows Networking (WNet)]","SidTypeUser","_win32_connectdlgstruct_str","winnetwk/CONNECTDLGSTRUCT","winnetwk/CONNECTDLGSTRUCTA","winnetwk/CONNECTDLGSTRUCTW","winnetwk/LPCONNECTDLGSTRUCT","wnet.connectdlgstruct_str"]
+description: Used by the WNetConnectionDialog1 function to establish browsing dialog box parameters.
+helpviewer_keywords: ["*LPCONNECTDLGSTRUCTA","CONNDLG_CONN_POINT","CONNDLG_HIDE_BOX","CONNDLG_NOT_PERSIST","CONNDLG_PERSIST","CONNDLG_RO_PATH","CONNDLG_USE_MRU","CONNECTDLGSTRUCT","CONNECTDLGSTRUCT structure [Windows Networking (WNet)]","CONNECTDLGSTRUCTA","CONNECTDLGSTRUCTW","LPCONNECTDLGSTRUCT","LPCONNECTDLGSTRUCT structure pointer [Windows Networking (WNet)]","SidTypeUser","_win32_connectdlgstruct_str","winnetwk/CONNECTDLGSTRUCT","winnetwk/CONNECTDLGSTRUCTA","winnetwk/CONNECTDLGSTRUCTW","winnetwk/LPCONNECTDLGSTRUCT","wnet.connectdlgstruct_str"]
 old-location: wnet\connectdlgstruct_str.htm
 tech.root: WNet
 ms.assetid: fb2a4b5a-ad8a-4ebf-8430-349d821eee20
@@ -209,6 +210,10 @@ The CONNDLG_PERSIST and CONNDLG_NOT_PERSIST values cannot both be set. If neithe
 
 
 
+
+
+> [!NOTE]
+> The winnetwk.h header defines CONNECTDLGSTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileSystemBindData2.SetJunctionCLSID
 title: IFileSystemBindData2::SetJunctionCLSID (shobjidl_core.h)
-description: Sets the class identifier (CLSID) of the object that implements IShellFolder, if the current item is a junction point.helpviewer_keywords: ["IFileSystemBindData2 interface [Windows Shell]","SetJunctionCLSID method","IFileSystemBindData2.SetJunctionCLSID","IFileSystemBindData2::SetJunctionCLSID","SetJunctionCLSID","SetJunctionCLSID method [Windows Shell]","SetJunctionCLSID method [Windows Shell]","IFileSystemBindData2 interface","_shell_IFileSystemBindData2_SetJunctionCLSID","shell.IFileSystemBindData2_SetJunctionCLSID","shobjidl_core/IFileSystemBindData2::SetJunctionCLSID"]
+description: Sets the class identifier (CLSID) of the object that implements IShellFolder, if the current item is a junction point.
+helpviewer_keywords: ["IFileSystemBindData2 interface [Windows Shell]","SetJunctionCLSID method","IFileSystemBindData2.SetJunctionCLSID","IFileSystemBindData2::SetJunctionCLSID","SetJunctionCLSID","SetJunctionCLSID method [Windows Shell]","SetJunctionCLSID method [Windows Shell]","IFileSystemBindData2 interface","_shell_IFileSystemBindData2_SetJunctionCLSID","shell.IFileSystemBindData2_SetJunctionCLSID","shobjidl_core/IFileSystemBindData2::SetJunctionCLSID"]
 old-location: shell\IFileSystemBindData2_SetJunctionCLSID.htm
 tech.root: shell
 ms.assetid: e072818d-dfa4-4b95-93b6-275206596147

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11_3.D3D11_RASTERIZER_DESC2
 title: D3D11_RASTERIZER_DESC2 (d3d11_3.h)
-description: Describes rasterizer state.helpviewer_keywords: ["CD3D11_RASTERIZER_DESC2","D3D11_RASTERIZER_DESC2","D3D11_RASTERIZER_DESC2 structure [Direct3D 11]","d3d11_3/D3D11_RASTERIZER_DESC2","direct3d11.d3d11_rasterizer_desc2"]
+description: Describes rasterizer state.
+helpviewer_keywords: ["CD3D11_RASTERIZER_DESC2","D3D11_RASTERIZER_DESC2","D3D11_RASTERIZER_DESC2 structure [Direct3D 11]","d3d11_3/D3D11_RASTERIZER_DESC2","direct3d11.d3d11_rasterizer_desc2"]
 old-location: direct3d11\d3d11_rasterizer_desc2.htm
 tech.root: direct3d11
 ms.assetid: 54B5744A-1F50-4203-A43B-7E830D769534

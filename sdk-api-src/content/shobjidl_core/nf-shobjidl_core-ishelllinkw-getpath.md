@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellLinkW.GetPath
 title: IShellLinkW::GetPath (shobjidl_core.h)
-description: Gets the path and file name of the target of a Shell link object.helpviewer_keywords: ["GetPath","GetPath method [Windows Shell]","GetPath method [Windows Shell]","IShellLink interface","GetPath method [Windows Shell]","IShellLinkA interface","GetPath method [Windows Shell]","IShellLinkW interface","IShellLink interface [Windows Shell]","GetPath method","IShellLink::GetPath","IShellLinkA interface [Windows Shell]","GetPath method","IShellLinkA::GetPath","IShellLinkW interface [Windows Shell]","GetPath method","IShellLinkW.GetPath","IShellLinkW::GetPath","SLGP_RAWPATH","SLGP_RELATIVEPRIORITY","SLGP_SHORTPATH","SLGP_UNCPRIORITY","_win32_IShellLink_GetPath","shell.IShellLink_GetPath","shobjidl_core/IShellLink::GetPath","shobjidl_core/IShellLinkA::GetPath","shobjidl_core/IShellLinkW::GetPath"]
+description: Gets the path and file name of the target of a Shell link object.
+helpviewer_keywords: ["GetPath","GetPath method [Windows Shell]","GetPath method [Windows Shell]","IShellLink interface","GetPath method [Windows Shell]","IShellLinkA interface","GetPath method [Windows Shell]","IShellLinkW interface","IShellLink interface [Windows Shell]","GetPath method","IShellLink::GetPath","IShellLinkA interface [Windows Shell]","GetPath method","IShellLinkA::GetPath","IShellLinkW interface [Windows Shell]","GetPath method","IShellLinkW.GetPath","IShellLinkW::GetPath","SLGP_RAWPATH","SLGP_RELATIVEPRIORITY","SLGP_SHORTPATH","SLGP_UNCPRIORITY","_win32_IShellLink_GetPath","shell.IShellLink_GetPath","shobjidl_core/IShellLink::GetPath","shobjidl_core/IShellLinkA::GetPath","shobjidl_core/IShellLinkW::GetPath"]
 old-location: shell\IShellLink_GetPath.htm
 tech.root: shell
 ms.assetid: 7c60f5a2-dc21-4b13-a201-1fab04c53bb4

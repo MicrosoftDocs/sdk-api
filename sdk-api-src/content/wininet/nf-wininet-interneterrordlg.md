@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetErrorDlg
 title: InternetErrorDlg function (wininet.h)
-description: Displays a dialog box for the error that is passed to InternetErrorDlg, if an appropriate dialog box exists.helpviewer_keywords: ["InternetErrorDlg","InternetErrorDlg function [WinINet]","_inet_interneterrordlg_function","wininet.interneterrordlg","wininet/InternetErrorDlg"]
+description: Displays a dialog box for the error that is passed to InternetErrorDlg, if an appropriate dialog box exists.
+helpviewer_keywords: ["InternetErrorDlg","InternetErrorDlg function [WinINet]","_inet_interneterrordlg_function","wininet.interneterrordlg","wininet/InternetErrorDlg"]
 old-location: wininet\interneterrordlg.htm
 tech.root: wininet
 ms.assetid: 09384ba9-e5cc-48fd-a52c-15df223f87dc
@@ -325,7 +326,7 @@ Queries the Internet handle for needed information. The function constructs the 
 <td width="60%">
 Serializes authentication dialog boxes for concurrent requests on a password cache entry. The 
 <i>lppvData</i> parameter should contain the address of a pointer to an 
-<a href="https://docs.microsoft.com/windows/win32/api/wininet/ns-wininet-internet_per_conn_optionw">INTERNET_AUTH_NOTIFY_DATA</a> structure, and the client should implement a thread-safe, non-blocking callback function.
+<a href="/windows/win32/api/wininet/ns-wininet-internet_per_conn_optionw">INTERNET_AUTH_NOTIFY_DATA</a> structure, and the client should implement a thread-safe, non-blocking callback function.
 
 </td>
 </tr>

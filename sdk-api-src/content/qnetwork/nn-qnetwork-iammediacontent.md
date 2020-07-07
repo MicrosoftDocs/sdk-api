@@ -1,7 +1,8 @@
 ---
 UID: NN:qnetwork.IAMMediaContent
 title: IAMMediaContent (qnetwork.h)
-description: The IAMMediaContent interface retrieves metadata from a stream.helpviewer_keywords: ["IAMMediaContent","IAMMediaContent interface [DirectShow]","IAMMediaContent interface [DirectShow]","described","IAMMediaContentInterface","dshow.iammediacontent","qnetwork/IAMMediaContent"]
+description: The IAMMediaContent interface retrieves metadata from a stream.
+helpviewer_keywords: ["IAMMediaContent","IAMMediaContent interface [DirectShow]","IAMMediaContent interface [DirectShow]","described","IAMMediaContentInterface","dshow.iammediacontent","qnetwork/IAMMediaContent"]
 old-location: dshow\iammediacontent.htm
 tech.root: DirectShow
 ms.assetid: bd9cc96d-9664-41f3-9d4f-e5bdb1cb8d09

@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.CreateProxyArpEntry
 title: CreateProxyArpEntry function (iphlpapi.h)
-description: The CreateProxyArpEnry function creates a Proxy Address Resolution Protocol (PARP) entry on the local computer for the specified IPv4 address.helpviewer_keywords: ["CreateProxyArpEntry","CreateProxyArpEntry function [IP Helper]","_iphlp_createproxyarpentry","iphlp.createproxyarpentry","iphlpapi/CreateProxyArpEntry"]
+description: The CreateProxyArpEnry function creates a Proxy Address Resolution Protocol (PARP) entry on the local computer for the specified IPv4 address.
+helpviewer_keywords: ["CreateProxyArpEntry","CreateProxyArpEntry function [IP Helper]","_iphlp_createproxyarpentry","iphlp.createproxyarpentry","iphlpapi/CreateProxyArpEntry"]
 old-location: iphlp\createproxyarpentry.htm
 tech.root: IpHlp
 ms.assetid: a0e90c0a-9403-40cb-906e-6e1e2f8e73c4

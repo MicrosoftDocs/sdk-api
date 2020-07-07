@@ -1,7 +1,8 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_FILTER_DATA
 title: DXVAHD_STREAM_STATE_FILTER_DATA (dxvahd.h)
-description: Specifies the level for a filtering operation on a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.helpviewer_keywords: ["DXVAHD_STREAM_STATE_FILTER_DATA","DXVAHD_STREAM_STATE_FILTER_DATA structure [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_FILTER_DATA","mf.dxvahd_stream_state_filter_data"]
+description: Specifies the level for a filtering operation on a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) input stream.
+helpviewer_keywords: ["DXVAHD_STREAM_STATE_FILTER_DATA","DXVAHD_STREAM_STATE_FILTER_DATA structure [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_FILTER_DATA","mf.dxvahd_stream_state_filter_data"]
 old-location: mf\dxvahd_stream_state_filter_data.htm
 tech.root: medfound
 ms.assetid: 2f70222d-f87a-49a5-8da5-15dfa2807cd7

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRenderer.GetViewTransform
 title: IInkRenderer::GetViewTransform (msinkaut.h)
-description: Gets the InkTransform object that represents the view transform that is used to render ink.helpviewer_keywords: ["8a4d768d-09b6-45e1-b412-e267d92cc3ef","GetViewTransform","GetViewTransform method [Tablet PC]","GetViewTransform method [Tablet PC]","IInkRenderer interface","IInkRenderer interface [Tablet PC]","GetViewTransform method","IInkRenderer.GetViewTransform","IInkRenderer::GetViewTransform","msinkaut/IInkRenderer::GetViewTransform","tablet.inkrenderer_getviewtransform"]
+description: Gets the InkTransform object that represents the view transform that is used to render ink.
+helpviewer_keywords: ["8a4d768d-09b6-45e1-b412-e267d92cc3ef","GetViewTransform","GetViewTransform method [Tablet PC]","GetViewTransform method [Tablet PC]","IInkRenderer interface","IInkRenderer interface [Tablet PC]","GetViewTransform method","IInkRenderer.GetViewTransform","IInkRenderer::GetViewTransform","msinkaut/IInkRenderer::GetViewTransform","tablet.inkrenderer_getviewtransform"]
 old-location: tablet\inkrenderer_getviewtransform.htm
 tech.root: tablet
 ms.assetid: 8a4d768d-09b6-45e1-b412-e267d92cc3ef

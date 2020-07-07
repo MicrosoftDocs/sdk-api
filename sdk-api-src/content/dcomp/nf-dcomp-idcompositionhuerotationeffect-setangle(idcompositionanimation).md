@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation)
 title: IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation) (dcomp.h)
-description: Sets the angle to rotate the hue.helpviewer_keywords: ["IDCompositionHueRotationEffect interface [DirectComposition]","SetAngle method","IDCompositionHueRotationEffect.SetAngle","IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation)","IDCompositionHueRotationEffect::SetAngle","IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation)","SetAngle","SetAngle method [DirectComposition]","SetAngle method [DirectComposition]","IDCompositionHueRotationEffect interface","dcomp/IDCompositionHueRotationEffect::SetAngle","directcomp.idcompositionhuerotationeffect_setangle_2"]
+description: Sets the angle to rotate the hue.
+helpviewer_keywords: ["IDCompositionHueRotationEffect interface [DirectComposition]","SetAngle method","IDCompositionHueRotationEffect.SetAngle","IDCompositionHueRotationEffect.SetAngle(IDCompositionAnimation)","IDCompositionHueRotationEffect::SetAngle","IDCompositionHueRotationEffect::SetAngle(IDCompositionAnimation)","SetAngle","SetAngle method [DirectComposition]","SetAngle method [DirectComposition]","IDCompositionHueRotationEffect interface","dcomp/IDCompositionHueRotationEffect::SetAngle","directcomp.idcompositionhuerotationeffect_setangle_2"]
 old-location: directcomp\idcompositionhuerotationeffect_setangle_2.htm
 tech.root: directcomp
 ms.assetid: F0D73D46-D649-47F3-B1F1-FD995228A3EC

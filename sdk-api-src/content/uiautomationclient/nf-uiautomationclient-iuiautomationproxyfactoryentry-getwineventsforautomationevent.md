@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryEntry.GetWinEventsForAutomationEvent
 title: IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent (uiautomationclient.h)
-description: Retrieves the list of WinEvents that are mapped to a specific Microsoft UI Automation event. If an element represented by this proxy raises one the listed WinEvents, the proxy handles it.helpviewer_keywords: ["GetWinEventsForAutomationEvent","GetWinEventsForAutomationEvent method [Windows Accessibility]","GetWinEventsForAutomationEvent method [Windows Accessibility]","IUIAutomationProxyFactoryEntry interface","IUIAutomationProxyFactoryEntry interface [Windows Accessibility]","GetWinEventsForAutomationEvent method","IUIAutomationProxyFactoryEntry.GetWinEventsForAutomationEvent","IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent","uiauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent","uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent","uiautomationclient/IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent","winauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent"]
+description: Retrieves the list of WinEvents that are mapped to a specific Microsoft UI Automation event. If an element represented by this proxy raises one the listed WinEvents, the proxy handles it.
+helpviewer_keywords: ["GetWinEventsForAutomationEvent","GetWinEventsForAutomationEvent method [Windows Accessibility]","GetWinEventsForAutomationEvent method [Windows Accessibility]","IUIAutomationProxyFactoryEntry interface","IUIAutomationProxyFactoryEntry interface [Windows Accessibility]","GetWinEventsForAutomationEvent method","IUIAutomationProxyFactoryEntry.GetWinEventsForAutomationEvent","IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent","uiauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent","uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent","uiautomationclient/IUIAutomationProxyFactoryEntry::GetWinEventsForAutomationEvent","winauto.uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryEntry_GetWinEventsForAutomationEvent.htm
 tech.root: WinAuto
 ms.assetid: f8daa90f-9fad-48c7-8f22-e8c673fca330
@@ -73,7 +74,7 @@ The property identifier. For a list of property IDs, see <a href="https://docs.m
 
 ### -param winEvents [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives a pointer to the list of WinEvents that map to this event.
 

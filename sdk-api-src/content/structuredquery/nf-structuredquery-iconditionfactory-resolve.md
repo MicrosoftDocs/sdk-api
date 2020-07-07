@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IConditionFactory.Resolve
 title: IConditionFactory::Resolve (structuredquery.h)
-description: Performs a variety of transformations on a condition tree, including the following:\_resolves conditions with relative date/time expressions to conditions with absolute date/time (as a VT_FILETIME); turns other recognized named entities into condition trees with actual values; simplifies condition trees; replaces virtual or compound properties with OR trees of other properties; removes condition trees resulting from queries with property keywords that had no condition applied.helpviewer_keywords: ["IConditionFactory interface [search]","Resolve method","IConditionFactory.Resolve","IConditionFactory::Resolve","Resolve","Resolve method [search]","Resolve method [search]","IConditionFactory interface","_search_IConditionFactory_Resolve","search._search_IConditionFactory_Resolve","structuredquery/IConditionFactory::Resolve"]
+description: Performs a variety of transformations on a condition tree, including the following:\_resolves conditions with relative date/time expressions to conditions with absolute date/time (as a VT_FILETIME); turns other recognized named entities into condition trees with actual values; simplifies condition trees; replaces virtual or compound properties with OR trees of other properties; removes condition trees resulting from queries with property keywords that had no condition applied.
+helpviewer_keywords: ["IConditionFactory interface [search]","Resolve method","IConditionFactory.Resolve","IConditionFactory::Resolve","Resolve","Resolve method [search]","Resolve method [search]","IConditionFactory interface","_search_IConditionFactory_Resolve","search._search_IConditionFactory_Resolve","structuredquery/IConditionFactory::Resolve"]
 old-location: search\_search_IConditionFactory_Resolve.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditionfactory\resolve.htm
@@ -106,7 +107,7 @@ In a condition tree produced by the <a href="https://docs.microsoft.com/windows/
 <div> </div>
 For example, Structured Query supports relative date/time expressions, which remain unresolved until they are applied to some reference time. In a leaf node with semantic type <b>System.StructuredQueryType.DateTime</b>, the value can be either a VT_FILETIME or a VT_LPWSTR. VT_FILETIME is an absolute date/time so it is already resolved. VT_LPWSTR is a string representation of a relative date/time expression. The specified reference time should be a local time, but the resolved times in the resulting query expression will be in Coordinated Universal Time (UTC).
 
-The StructuredQuerySample code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
+The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
 
 
@@ -116,11 +117,11 @@ The StructuredQuerySample code sample, available on <a href="https://code.msdn.m
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

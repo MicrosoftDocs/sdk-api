@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhBrowseCountersHW
 title: PdhBrowseCountersHW function (pdh.h)
-description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. This function is identical to the PdhBrowseCounters function, except that it supports the use of handles to data sources.helpviewer_keywords: ["PdhBrowseCountersH","PdhBrowseCountersH function [Perf]","PdhBrowseCountersHA","PdhBrowseCountersHW","_win32_pdhbrowsecountersh","base.pdhbrowsecountersh","pdh/PdhBrowseCountersH","pdh/PdhBrowseCountersHA","pdh/PdhBrowseCountersHW","perf.pdhbrowsecountersh"]
+description: Displays a Browse Counters dialog box that the user can use to select one or more counters that they want to add to the query. This function is identical to the PdhBrowseCounters function, except that it supports the use of handles to data sources.
+helpviewer_keywords: ["PdhBrowseCountersH","PdhBrowseCountersH function [Perf]","PdhBrowseCountersHA","PdhBrowseCountersHW","_win32_pdhbrowsecountersh","base.pdhbrowsecountersh","pdh/PdhBrowseCountersH","pdh/PdhBrowseCountersHA","pdh/PdhBrowseCountersHW","perf.pdhbrowsecountersh"]
 old-location: perf\pdhbrowsecountersh.htm
 tech.root: perfctrs
 ms.assetid: ab835bf8-1adc-463f-99c3-654a328af98a
@@ -66,7 +67,7 @@ the <a href="https://docs.microsoft.com/windows/desktop/api/pdh/nf-pdh-pdhbrowse
 ### -param pBrowseDlgData [in]
 
 A 
-<a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_ha">PDH_BROWSE_DLG_CONFIG_H</a> structure that specifies the behavior of the dialog box.
+<a href="/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_ha">PDH_BROWSE_DLG_CONFIG_H</a> structure that specifies the behavior of the dialog box.
 
 
 ## -returns
@@ -93,12 +94,16 @@ Note that the dialog
 
 
 
+
+> [!NOTE]
+> The pdh.h header defines PdhBrowseCountersH as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_ha">PDH_BROWSE_DLG_CONFIG_H</a>
+<a href="/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_ha">PDH_BROWSE_DLG_CONFIG_H</a>
 
 
 

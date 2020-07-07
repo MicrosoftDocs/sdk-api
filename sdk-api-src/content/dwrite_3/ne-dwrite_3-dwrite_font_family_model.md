@@ -1,7 +1,8 @@
 ---
 UID: NE:dwrite_3.DWRITE_FONT_FAMILY_MODEL
 title: DWRITE_FONT_FAMILY_MODEL
-description: Defines constants that specify how font families are grouped together.helpviewer_keywords: ["DWRITE_FONT_FAMILY_MODEL","DWRITE_FONT_FAMILY_MODEL enumeration [Direct Write]","directwrite.dwrite_font_family_model","dwrite_3/DWRITE_FONT_FAMILY_MODEL"]
+description: Defines constants that specify how font families are grouped together.
+helpviewer_keywords: ["DWRITE_FONT_FAMILY_MODEL","DWRITE_FONT_FAMILY_MODEL enumeration [Direct Write]","directwrite.dwrite_font_family_model","dwrite_3/DWRITE_FONT_FAMILY_MODEL"]
 tech.root: DirectWrite
 ms.date: 09/12/2019
 ms.keywords: DWRITE_FONT_FAMILY_MODEL, DWRITE_FONT_FAMILY_MODEL enumeration [Direct Write], directwrite.dwrite_font_family_model, dwrite_3/DWRITE_FONT_FAMILY_MODEL

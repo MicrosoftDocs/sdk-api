@@ -1,7 +1,8 @@
 ---
 UID: NE:mfapi._MFT_ENUM_FLAG
 title: _MFT_ENUM_FLAG (mfapi.h)
-description: Contains flags for registering and enumeration Media Foundation transforms (MFTs).helpviewer_keywords: ["MFT_ENUM_FLAG_ALL","MFT_ENUM_FLAG_ASYNCMFT","MFT_ENUM_FLAG_FIELDOFUSE","MFT_ENUM_FLAG_HARDWARE","MFT_ENUM_FLAG_LOCALMFT","MFT_ENUM_FLAG_SORTANDFILTER","MFT_ENUM_FLAG_SYNCMFT","MFT_ENUM_FLAG_TRANSCODE_ONLY","_MFT_ENUM_FLAG","_MFT_ENUM_FLAG enumeration [Media Foundation]","mf._mft_enum_flag","mfapi/MFT_ENUM_FLAG_ALL","mfapi/MFT_ENUM_FLAG_ASYNCMFT","mfapi/MFT_ENUM_FLAG_FIELDOFUSE","mfapi/MFT_ENUM_FLAG_HARDWARE","mfapi/MFT_ENUM_FLAG_LOCALMFT","mfapi/MFT_ENUM_FLAG_SORTANDFILTER","mfapi/MFT_ENUM_FLAG_SYNCMFT","mfapi/MFT_ENUM_FLAG_TRANSCODE_ONLY","mfapi/_MFT_ENUM_FLAG"]
+description: Contains flags for registering and enumeration Media Foundation transforms (MFTs).
+helpviewer_keywords: ["MFT_ENUM_FLAG_ALL","MFT_ENUM_FLAG_ASYNCMFT","MFT_ENUM_FLAG_FIELDOFUSE","MFT_ENUM_FLAG_HARDWARE","MFT_ENUM_FLAG_LOCALMFT","MFT_ENUM_FLAG_SORTANDFILTER","MFT_ENUM_FLAG_SYNCMFT","MFT_ENUM_FLAG_TRANSCODE_ONLY","_MFT_ENUM_FLAG","_MFT_ENUM_FLAG enumeration [Media Foundation]","mf._mft_enum_flag","mfapi/MFT_ENUM_FLAG_ALL","mfapi/MFT_ENUM_FLAG_ASYNCMFT","mfapi/MFT_ENUM_FLAG_FIELDOFUSE","mfapi/MFT_ENUM_FLAG_HARDWARE","mfapi/MFT_ENUM_FLAG_LOCALMFT","mfapi/MFT_ENUM_FLAG_SORTANDFILTER","mfapi/MFT_ENUM_FLAG_SYNCMFT","mfapi/MFT_ENUM_FLAG_TRANSCODE_ONLY","mfapi/_MFT_ENUM_FLAG"]
 old-location: mf\_mft_enum_flag.htm
 tech.root: medfound
 ms.assetid: ba39fb66-d8b6-49c1-8312-18ebdcb012c9

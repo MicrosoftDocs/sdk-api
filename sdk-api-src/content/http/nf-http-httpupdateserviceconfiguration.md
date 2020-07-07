@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpUpdateServiceConfiguration
 title: HttpUpdateServiceConfiguration function (http.h)
-description: Updates atomically a service configuration parameter that specifies a Transport Layer Security (TLS) certificate in a configuration record within the HTTP Server API configuration store.helpviewer_keywords: ["HttpServiceConfigSSLCertInfo","HttpServiceConfigSslCcsCertInfo","HttpServiceConfigSslSniCertInfo","HttpUpdateServiceConfiguration","HttpUpdateServiceConfiguration function [HTTP]","http.httpupdateserviceconfiguration","http/HttpUpdateServiceConfiguration"]
+description: Updates atomically a service configuration parameter that specifies a Transport Layer Security (TLS) certificate in a configuration record within the HTTP Server API configuration store.
+helpviewer_keywords: ["HttpServiceConfigSSLCertInfo","HttpServiceConfigSslCcsCertInfo","HttpServiceConfigSslSniCertInfo","HttpUpdateServiceConfiguration","HttpUpdateServiceConfiguration function [HTTP]","http.httpupdateserviceconfiguration","http/HttpUpdateServiceConfiguration"]
 old-location: http\httpupdateserviceconfiguration.htm
 tech.root: http
 ms.assetid: B2102444-1183-4133-A83F-A58587FB6B89

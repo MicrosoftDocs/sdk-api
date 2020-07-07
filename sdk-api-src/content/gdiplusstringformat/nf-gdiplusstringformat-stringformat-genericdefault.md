@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GenericDefault
 title: StringFormat::GenericDefault (gdiplusstringformat.h)
-description: The StringFormat::GenericDefault method creates a generic, default StringFormat object.helpviewer_keywords: ["GenericDefault","GenericDefault method [GDI+]","GenericDefault method [GDI+]","StringFormat class","StringFormat class [GDI+]","GenericDefault method","StringFormat.GenericDefault","StringFormat::GenericDefault","_gdiplus_CLASS_StringFormat_GenericDefault_","gdiplus._gdiplus_CLASS_StringFormat_GenericDefault_"]
+description: The StringFormat::GenericDefault method creates a generic, default StringFormat object.
+helpviewer_keywords: ["GenericDefault","GenericDefault method [GDI+]","GenericDefault method [GDI+]","StringFormat class","StringFormat class [GDI+]","GenericDefault method","StringFormat.GenericDefault","StringFormat::GenericDefault","_gdiplus_CLASS_StringFormat_GenericDefault_","gdiplus._gdiplus_CLASS_StringFormat_GenericDefault_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GenericDefault_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\genericdefault.htm

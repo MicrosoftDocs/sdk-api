@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateService.get_ServiceID
 title: IUpdateService::get_ServiceID (wuapi.h)
-description: Retrieves or sets the identifier for a service.helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","ServiceID property","IUpdateService.ServiceID","IUpdateService.get_ServiceID","IUpdateService::ServiceID","IUpdateService::get_ServiceID","ServiceID property [Windows Update Agent]","ServiceID property [Windows Update Agent]","IUpdateService interface","get_ServiceID","wua.iupdateservice_serviceid","wuapi/IUpdateService::ServiceID","wuapi/IUpdateService::get_ServiceID"]
+description: Retrieves or sets the identifier for a service.
+helpviewer_keywords: ["IUpdateService interface [Windows Update Agent]","ServiceID property","IUpdateService.ServiceID","IUpdateService.get_ServiceID","IUpdateService::ServiceID","IUpdateService::get_ServiceID","ServiceID property [Windows Update Agent]","ServiceID property [Windows Update Agent]","IUpdateService interface","get_ServiceID","wua.iupdateservice_serviceid","wuapi/IUpdateService::ServiceID","wuapi/IUpdateService::get_ServiceID"]
 old-location: wua\iupdateservice_serviceid.htm
 tech.root: Wua_Sdk
 ms.assetid: 55cea655-09ac-410e-b802-f54b797ac609

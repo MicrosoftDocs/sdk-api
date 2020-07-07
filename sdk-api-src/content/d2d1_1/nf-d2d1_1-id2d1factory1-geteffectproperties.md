@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.GetEffectProperties
 title: ID2D1Factory1::GetEffectProperties (d2d1_1.h)
-description: Retrieves the properties of an effect.helpviewer_keywords: ["GetEffectProperties","GetEffectProperties method [Direct2D]","GetEffectProperties method [Direct2D]","ID2D1Factory1 interface","ID2D1Factory1 interface [Direct2D]","GetEffectProperties method","ID2D1Factory1.GetEffectProperties","ID2D1Factory1::GetEffectProperties","d2d1_1/ID2D1Factory1::GetEffectProperties","direct2d.id2d1factory1_geteffectproperties"]
+description: Retrieves the properties of an effect.
+helpviewer_keywords: ["GetEffectProperties","GetEffectProperties method [Direct2D]","GetEffectProperties method [Direct2D]","ID2D1Factory1 interface","ID2D1Factory1 interface [Direct2D]","GetEffectProperties method","ID2D1Factory1.GetEffectProperties","ID2D1Factory1::GetEffectProperties","d2d1_1/ID2D1Factory1::GetEffectProperties","direct2d.id2d1factory1_geteffectproperties"]
 old-location: direct2d\id2d1factory1_geteffectproperties.htm
 tech.root: Direct2D
 ms.assetid: 0e8a2f03-f297-4d5a-8461-4ed7cd1bf02f

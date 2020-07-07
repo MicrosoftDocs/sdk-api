@@ -1,7 +1,8 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2Callback.OnResponseReceived
 title: IXMLHTTPRequest2Callback::OnResponseReceived (msxml6.h)
-description: Occurs when a client has received a complete response from the server.helpviewer_keywords: ["IXMLHTTPRequest2Callback interface [XMLHttpRequest2]","OnResponseReceived method","IXMLHTTPRequest2Callback.OnResponseReceived","IXMLHTTPRequest2Callback::OnResponseReceived","OnResponseReceived","OnResponseReceived method [XMLHttpRequest2]","OnResponseReceived method [XMLHttpRequest2]","IXMLHTTPRequest2Callback interface","ixhr2.ixmlhttprequest2callback_onresponsereceived","msxml6/IXMLHTTPRequest2Callback::OnResponseReceived"]
+description: Occurs when a client has received a complete response from the server.
+helpviewer_keywords: ["IXMLHTTPRequest2Callback interface [XMLHttpRequest2]","OnResponseReceived method","IXMLHTTPRequest2Callback.OnResponseReceived","IXMLHTTPRequest2Callback::OnResponseReceived","OnResponseReceived","OnResponseReceived method [XMLHttpRequest2]","OnResponseReceived method [XMLHttpRequest2]","IXMLHTTPRequest2Callback interface","ixhr2.ixmlhttprequest2callback_onresponsereceived","msxml6/IXMLHTTPRequest2Callback::OnResponseReceived"]
 old-location: ixhr2\ixmlhttprequest2callback_onresponsereceived.htm
 tech.root: ixhr2
 ms.assetid: 5D1D4D4B-CC49-4A63-A0D5-B29D618E80DE

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwmapi.DwmSetWindowAttribute
 title: DwmSetWindowAttribute function (dwmapi.h)
-description: Sets the value of Desktop Window Manager (DWM) non-client rendering attributes for a window.helpviewer_keywords: ["DwmSetWindowAttribute","DwmSetWindowAttribute function [Desktop Window Manager]","_udwm_dwmsetwindowattribute","_udwm_dwmsetwindowattribute_cpp","dwm.dwmsetwindowattribute","dwmapi/DwmSetWindowAttribute","winui._udwm_dwmsetwindowattribute"]
+description: Sets the value of Desktop Window Manager (DWM) non-client rendering attributes for a window.
+helpviewer_keywords: ["DwmSetWindowAttribute","DwmSetWindowAttribute function [Desktop Window Manager]","_udwm_dwmsetwindowattribute","_udwm_dwmsetwindowattribute_cpp","dwm.dwmsetwindowattribute","dwmapi/DwmSetWindowAttribute","winui._udwm_dwmsetwindowattribute"]
 old-location: dwm\dwmsetwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetwindowattribute.htm

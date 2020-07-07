@@ -1,7 +1,8 @@
 ---
 UID: NF:prsht.PropSheet_SetWizButtons
 title: PropSheet_SetWizButtons macro (prsht.h)
-description: Enables or disables the Back, Next, and Finish buttons in a wizard by posting a PSM_SETWIZBUTTONS message. You can use this macro or send the PSM_SETWIZBUTTONS message explicitly.helpviewer_keywords: ["PSWIZB_BACK","PSWIZB_DISABLEDFINISH","PSWIZB_FINISH","PSWIZB_NEXT","PropSheet_SetWizButtons","PropSheet_SetWizButtons macro [Windows Controls]","_win32_PropSheet_SetWizButtons","_win32_PropSheet_SetWizButtons_cpp","controls.PropSheet_SetWizButtons","controls._win32_PropSheet_SetWizButtons","prsht/PropSheet_SetWizButtons"]
+description: Enables or disables the Back, Next, and Finish buttons in a wizard by posting a PSM_SETWIZBUTTONS message. You can use this macro or send the PSM_SETWIZBUTTONS message explicitly.
+helpviewer_keywords: ["PSWIZB_BACK","PSWIZB_DISABLEDFINISH","PSWIZB_FINISH","PSWIZB_NEXT","PropSheet_SetWizButtons","PropSheet_SetWizButtons macro [Windows Controls]","_win32_PropSheet_SetWizButtons","_win32_PropSheet_SetWizButtons_cpp","controls.PropSheet_SetWizButtons","controls._win32_PropSheet_SetWizButtons","prsht/PropSheet_SetWizButtons"]
 old-location: controls\PropSheet_SetWizButtons.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setwizbuttons.htm

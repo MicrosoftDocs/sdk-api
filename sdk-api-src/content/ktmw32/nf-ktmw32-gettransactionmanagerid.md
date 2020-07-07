@@ -1,7 +1,8 @@
 ---
 UID: NF:ktmw32.GetTransactionManagerId
 title: GetTransactionManagerId function (ktmw32.h)
-description: Obtains an identifier for the specified transaction manager.helpviewer_keywords: ["GetTransactionManagerId","GetTransactionManagerId function [Files]","fs.getidentitytransactionmanager_func","fs.gettransactionmanagerid","ktmw32/GetTransactionManagerId"]
+description: Obtains an identifier for the specified transaction manager.
+helpviewer_keywords: ["GetTransactionManagerId","GetTransactionManagerId function [Files]","fs.getidentitytransactionmanager_func","fs.gettransactionmanagerid","ktmw32/GetTransactionManagerId"]
 old-location: fs\gettransactionmanagerid.htm
 tech.root: ktm
 ms.assetid: e1aa573d-add9-42b7-8b2b-773dc12aa51b

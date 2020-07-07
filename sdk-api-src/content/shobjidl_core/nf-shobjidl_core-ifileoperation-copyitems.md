@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.CopyItems
 title: IFileOperation::CopyItems (shobjidl_core.h)
-description: Declares a set of items that are to be copied to a specified destination.helpviewer_keywords: ["CopyItems","CopyItems method [Windows Shell]","CopyItems method [Windows Shell]","IFileOperation interface","IFileOperation interface [Windows Shell]","CopyItems method","IFileOperation.CopyItems","IFileOperation::CopyItems","_shell_IFileOperation_CopyItems","shell.IFileOperation_CopyItems","shobjidl_core/IFileOperation::CopyItems"]
+description: Declares a set of items that are to be copied to a specified destination.
+helpviewer_keywords: ["CopyItems","CopyItems method [Windows Shell]","CopyItems method [Windows Shell]","IFileOperation interface","IFileOperation interface [Windows Shell]","CopyItems method","IFileOperation.CopyItems","IFileOperation::CopyItems","_shell_IFileOperation_CopyItems","shell.IFileOperation_CopyItems","shobjidl_core/IFileOperation::CopyItems"]
 old-location: shell\IFileOperation_CopyItems.htm
 tech.root: shell
 ms.assetid: 9899cac2-bc10-422c-ab7f-2b8c1b893fc9

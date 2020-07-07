@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IDirectWriterLock.WaitForWriteAccess
 title: IDirectWriterLock::WaitForWriteAccess (objidl.h)
-description: The WaitForWriteAccess method obtains exclusive write access to a storage object.helpviewer_keywords: ["IDirectWriterLock interface [Structured Storage]","WaitForWriteAccess method","IDirectWriterLock.WaitForWriteAccess","IDirectWriterLock::WaitForWriteAccess","WaitForWriteAccess","WaitForWriteAccess method [Structured Storage]","WaitForWriteAccess method [Structured Storage]","IDirectWriterLock interface","_stg_idirectwriterlock_waitforwriteaccess","objidl/IDirectWriterLock::WaitForWriteAccess","stg.idirectwriterlock_waitforwriteaccess"]
+description: The WaitForWriteAccess method obtains exclusive write access to a storage object.
+helpviewer_keywords: ["IDirectWriterLock interface [Structured Storage]","WaitForWriteAccess method","IDirectWriterLock.WaitForWriteAccess","IDirectWriterLock::WaitForWriteAccess","WaitForWriteAccess","WaitForWriteAccess method [Structured Storage]","WaitForWriteAccess method [Structured Storage]","IDirectWriterLock interface","_stg_idirectwriterlock_waitforwriteaccess","objidl/IDirectWriterLock::WaitForWriteAccess","stg.idirectwriterlock_waitforwriteaccess"]
 old-location: stg\idirectwriterlock_waitforwriteaccess.htm
 tech.root: Stg
 ms.assetid: e4505bed-325b-494e-93bd-7bf23b3a1215

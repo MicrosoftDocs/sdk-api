@@ -1,7 +1,8 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.ResumeGroup
 title: IBackgroundCopyGroup::ResumeGroup (qmgr.h)
-description: Use the ResumeGroup method to start a group that has been suspended in the download queue.helpviewer_keywords: ["IBackgroundCopyGroup interface [BITS]","ResumeGroup method","IBackgroundCopyGroup.ResumeGroup","IBackgroundCopyGroup::ResumeGroup","ResumeGroup","ResumeGroup method [BITS]","ResumeGroup method [BITS]","IBackgroundCopyGroup interface","bits.ibackgroundcopygroup_resumegroup","qmgr/IBackgroundCopyGroup::ResumeGroup"]
+description: Use the ResumeGroup method to start a group that has been suspended in the download queue.
+helpviewer_keywords: ["IBackgroundCopyGroup interface [BITS]","ResumeGroup method","IBackgroundCopyGroup.ResumeGroup","IBackgroundCopyGroup::ResumeGroup","ResumeGroup","ResumeGroup method [BITS]","ResumeGroup method [BITS]","IBackgroundCopyGroup interface","bits.ibackgroundcopygroup_resumegroup","qmgr/IBackgroundCopyGroup::ResumeGroup"]
 old-location: bits\ibackgroundcopygroup_resumegroup.htm
 tech.root: Bits
 ms.assetid: a9b0b7df-9149-4d09-a37c-c0a4f5dc6e45

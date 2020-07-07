@@ -1,7 +1,8 @@
 ---
 UID: NE:ntsecapi._POLICY_LSA_SERVER_ROLE
 title: POLICY_LSA_SERVER_ROLE (ntsecapi.h)
-description: Defines values that indicate the role of an LSA server.helpviewer_keywords: ["*PPOLICY_LSA_SERVER_ROLE","POLICY_LSA_SERVER_ROLE","POLICY_LSA_SERVER_ROLE enumeration [Security]","PPOLICY_LSA_SERVER_ROLE","PPOLICY_LSA_SERVER_ROLE enumeration pointer [Security]","PolicyServerRoleBackup","PolicyServerRolePrimary","_lsa_policy_lsa_server_role","ntsecapi/POLICY_LSA_SERVER_ROLE","ntsecapi/PPOLICY_LSA_SERVER_ROLE","ntsecapi/PolicyServerRoleBackup","ntsecapi/PolicyServerRolePrimary","security.policy_lsa_server_role"]
+description: Defines values that indicate the role of an LSA server.
+helpviewer_keywords: ["*PPOLICY_LSA_SERVER_ROLE","POLICY_LSA_SERVER_ROLE","POLICY_LSA_SERVER_ROLE enumeration [Security]","PPOLICY_LSA_SERVER_ROLE","PPOLICY_LSA_SERVER_ROLE enumeration pointer [Security]","PolicyServerRoleBackup","PolicyServerRolePrimary","_lsa_policy_lsa_server_role","ntsecapi/POLICY_LSA_SERVER_ROLE","ntsecapi/PPOLICY_LSA_SERVER_ROLE","ntsecapi/PolicyServerRoleBackup","ntsecapi/PolicyServerRolePrimary","security.policy_lsa_server_role"]
 old-location: security\policy_lsa_server_role.htm
 tech.root: SecMgmt
 ms.assetid: a2bcc380-8873-436b-a0d6-e4deb23669bb

@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.SetQuotaLimit
 title: IDiskQuotaUser::SetQuotaLimit (dskquota.h)
-description: Sets the user's quota limit value on the volume.helpviewer_keywords: ["IDiskQuotaUser interface [Files]","SetQuotaLimit method","IDiskQuotaUser.SetQuotaLimit","IDiskQuotaUser::SetQuotaLimit","SetQuotaLimit","SetQuotaLimit method [Files]","SetQuotaLimit method [Files]","IDiskQuotaUser interface","_win32_idiskquotauser_setquotalimit","base.idiskquotauser_setquotalimit","dskquota/IDiskQuotaUser::SetQuotaLimit","fs.idiskquotauser_setquotalimit"]
+description: Sets the user's quota limit value on the volume.
+helpviewer_keywords: ["IDiskQuotaUser interface [Files]","SetQuotaLimit method","IDiskQuotaUser.SetQuotaLimit","IDiskQuotaUser::SetQuotaLimit","SetQuotaLimit","SetQuotaLimit method [Files]","SetQuotaLimit method [Files]","IDiskQuotaUser interface","_win32_idiskquotauser_setquotalimit","base.idiskquotauser_setquotalimit","dskquota/IDiskQuotaUser::SetQuotaLimit","fs.idiskquotauser_setquotalimit"]
 old-location: fs\idiskquotauser_setquotalimit.htm
 tech.root: FileIO
 ms.assetid: f7c99415-685b-4a21-ac7b-68f4816aafb0

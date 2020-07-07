@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.CD3D11_VIEWPORT.CD3D11_VIEWPORT
 title: CD3D11_VIEWPORT::CD3D11_VIEWPORT (d3d11.h)
-description: Instantiates a new instance of an uninitialized CD3D11_VIEWPORT structure.helpviewer_keywords: ["CD3D11_VIEWPORT","CD3D11_VIEWPORT interface [Direct3D 11]","CD3D11_VIEWPORT method","CD3D11_VIEWPORT method [Direct3D 11]","CD3D11_VIEWPORT method [Direct3D 11]","CD3D11_VIEWPORT interface","CD3D11_VIEWPORT.CD3D11_VIEWPORT","CD3D11_VIEWPORT::CD3D11_VIEWPORT","CD3D11_VIEWPORT::CD3D11_VIEWPORT(const D3D11_VIEWPORT&)","d3d11/CD3D11_VIEWPORT::CD3D11_VIEWPORT","direct3d11.cd3d11_viewport_cd3d11_viewport_d3d11_viewport_"]
+description: Instantiates a new instance of an uninitialized CD3D11_VIEWPORT structure.
+helpviewer_keywords: ["CD3D11_VIEWPORT","CD3D11_VIEWPORT interface [Direct3D 11]","CD3D11_VIEWPORT method","CD3D11_VIEWPORT method [Direct3D 11]","CD3D11_VIEWPORT method [Direct3D 11]","CD3D11_VIEWPORT interface","CD3D11_VIEWPORT.CD3D11_VIEWPORT","CD3D11_VIEWPORT::CD3D11_VIEWPORT","CD3D11_VIEWPORT::CD3D11_VIEWPORT(const D3D11_VIEWPORT&)","d3d11/CD3D11_VIEWPORT::CD3D11_VIEWPORT","direct3d11.cd3d11_viewport_cd3d11_viewport_d3d11_viewport_"]
 old-location: 
 tech.root: direct3d11
 ms.assetid: 96491F35-1EF0-4F9F-8E4D-6C3141094EAA

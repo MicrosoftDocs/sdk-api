@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphImportDatabase
 title: PeerGraphImportDatabase function (p2p.h)
-description: The PeerGraphImportDatabase function imports a file that contains the information from a peer graph database. This function can only be called if the application has not yet called the PeerGraphListen or PeerGraphConnect function.helpviewer_keywords: ["PeerGraphImportDatabase","PeerGraphImportDatabase function [Peer Networking]","p2p.peergraphimportdatabase","p2p/PeerGraphImportDatabase"]
+description: The PeerGraphImportDatabase function imports a file that contains the information from a peer graph database. This function can only be called if the application has not yet called the PeerGraphListen or PeerGraphConnect function.
+helpviewer_keywords: ["PeerGraphImportDatabase","PeerGraphImportDatabase function [Peer Networking]","p2p.peergraphimportdatabase","p2p/PeerGraphImportDatabase"]
 old-location: p2p\peergraphimportdatabase.htm
 tech.root: P2PSdk
 ms.assetid: 85f7dc2b-c159-48e0-ac58-8a66eb0ec73b

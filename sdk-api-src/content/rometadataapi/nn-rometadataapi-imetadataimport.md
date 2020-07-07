@@ -1,7 +1,8 @@
 ---
 UID: NN:rometadataapi.IMetaDataImport
 title: IMetaDataImport (rometadataapi.h)
-description: Provides methods for importing and manipulating existing metadata from a portable executable (PE) file or other source, such as a type library or a stand-alone, run-time metadata binary.helpviewer_keywords: ["IMetaDataImport","IMetaDataImport interface [Windows Runtime]","IMetaDataImport interface [Windows Runtime]","described","rometadataapi/IMetaDataImport","winrt.imetadataimport"]
+description: Provides methods for importing and manipulating existing metadata from a portable executable (PE) file or other source, such as a type library or a stand-alone, run-time metadata binary.
+helpviewer_keywords: ["IMetaDataImport","IMetaDataImport interface [Windows Runtime]","IMetaDataImport interface [Windows Runtime]","described","rometadataapi/IMetaDataImport","winrt.imetadataimport"]
 old-location: winrt\imetadataimport.htm
 tech.root: WinRT
 ms.assetid: 5457d9d3-9a43-4e89-a52f-1254662ed92a

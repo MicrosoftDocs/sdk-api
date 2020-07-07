@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.SetFormat
 title: IInkLineInfo::SetFormat (msinkaut.h)
-description: Specifies the display properties to set on the text ink object (tInk).helpviewer_keywords: ["42e16e86-fc90-4089-9ae0-9a896cbeaccc","IInkLineInfo interface [Tablet PC]","SetFormat method","IInkLineInfo.SetFormat","IInkLineInfo::SetFormat","SetFormat","SetFormat method [Tablet PC]","SetFormat method [Tablet PC]","IInkLineInfo interface","msinkaut/IInkLineInfo::SetFormat","tablet.iinklineinfo_setformat"]
+description: Specifies the display properties to set on the text ink object (tInk).
+helpviewer_keywords: ["42e16e86-fc90-4089-9ae0-9a896cbeaccc","IInkLineInfo interface [Tablet PC]","SetFormat method","IInkLineInfo.SetFormat","IInkLineInfo::SetFormat","SetFormat","SetFormat method [Tablet PC]","SetFormat method [Tablet PC]","IInkLineInfo interface","msinkaut/IInkLineInfo::SetFormat","tablet.iinklineinfo_setformat"]
 old-location: tablet\iinklineinfo_setformat.htm
 tech.root: tablet
 ms.assetid: 42e16e86-fc90-4089-9ae0-9a896cbeaccc

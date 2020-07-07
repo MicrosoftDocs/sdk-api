@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_get_values_lenA
 title: ldap_get_values_lenA function (winldap.h)
-description: The ldap_get_values_len function retrieves the list of values for a given attribute.helpviewer_keywords: ["_ldap_ldap_get_values_len","ldap.ldap__get__values__len","ldap.ldap_get_values_len","ldap_get_values_len","ldap_get_values_len function [LDAP]","ldap_get_values_lenA","ldap_get_values_lenW","winldap/ldap_get_values_len","winldap/ldap_get_values_lenA","winldap/ldap_get_values_lenW"]
+description: The ldap_get_values_len function retrieves the list of values for a given attribute.
+helpviewer_keywords: ["_ldap_ldap_get_values_len","ldap.ldap__get__values__len","ldap.ldap_get_values_len","ldap_get_values_len","ldap_get_values_len function [LDAP]","ldap_get_values_lenA","ldap_get_values_lenW","winldap/ldap_get_values_len","winldap/ldap_get_values_lenA","winldap/ldap_get_values_lenW"]
 old-location: ldap\ldap_get_values_len.htm
 tech.root: ldap
 ms.assetid: e2100892-5dad-4fc7-8129-34c675bcf134
@@ -67,7 +68,7 @@ The session handle.
 ### -param Message [in]
 
 Handle to the 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure.
+<a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure.
 
 
 ### -param attr [in]
@@ -80,7 +81,7 @@ A pointer to a null-terminated string that contains the attribute whose values a
 
 
 If the function succeeds, it returns a null-terminated list of pointers to 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that contain the values of the specified attribute. If no attribute values were found, it returns <b>NULL</b>. The session error parameter in the LDAP data structure is set to 0 in either case.
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that contain the values of the specified attribute. If no attribute values were found, it returns <b>NULL</b>. The session error parameter in the LDAP data structure is set to 0 in either case.
 
 If the function fails, it returns <b>NULL</b> and the session error parameter in the LDAP data structure is set to the LDAP error code.
 
@@ -115,11 +116,11 @@ Call
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

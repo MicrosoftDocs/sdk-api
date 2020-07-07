@@ -1,7 +1,8 @@
 ---
 UID: NN:callobj.ICallFrame
 title: ICallFrame (callobj.h)
-description: Enables manipulation of call frames such as stack frames.helpviewer_keywords: ["ICallFrame","ICallFrame interface [COM]","ICallFrame interface [COM]","described","_com_icallframe_interface","callobj/ICallFrame","com.icallframe"]
+description: Enables manipulation of call frames such as stack frames.
+helpviewer_keywords: ["ICallFrame","ICallFrame interface [COM]","ICallFrame interface [COM]","described","_com_icallframe_interface","callobj/ICallFrame","com.icallframe"]
 old-location: com\icallframe.htm
 tech.root: com
 ms.assetid: 56a75123-f402-4187-af13-d31f72a5f094

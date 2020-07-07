@@ -1,7 +1,8 @@
 ---
 UID: NS:directxmath.XMFLOAT3A
 title: XMFLOAT3A
-description: Describes an XMFLOAT3 structure aligned on a 16-byte boundary.helpviewer_keywords: ["XMFLOAT3A"]
+description: Describes an XMFLOAT3 structure aligned on a 16-byte boundary.
+helpviewer_keywords: ["XMFLOAT3A"]
 ms.assetid: bad51162-3eaa-44e1-9032-6db3e75f0e99
 ms.date: 05/20/2019
 ms.keywords: XMFLOAT3A

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ShutdownBlockReasonDestroy
 title: ShutdownBlockReasonDestroy function (winuser.h)
-description: Indicates that the system can be shut down and frees the reason string.helpviewer_keywords: ["ShutdownBlockReasonDestroy","ShutdownBlockReasonDestroy function","base.shutdownblockreasondestroy","winuser/ShutdownBlockReasonDestroy"]
+description: Indicates that the system can be shut down and frees the reason string.
+helpviewer_keywords: ["ShutdownBlockReasonDestroy","ShutdownBlockReasonDestroy function","base.shutdownblockreasondestroy","winuser/ShutdownBlockReasonDestroy"]
 old-location: base\shutdownblockreasondestroy.htm
 tech.root: Shutdown
 ms.assetid: b7bf376a-79b5-4f63-b3ca-0d515c23d67c

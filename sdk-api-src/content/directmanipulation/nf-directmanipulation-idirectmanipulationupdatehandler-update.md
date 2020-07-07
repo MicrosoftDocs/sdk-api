@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationUpdateHandler.Update
 title: IDirectManipulationUpdateHandler::Update (directmanipulation.h)
-description: Notifies the compositor when to update inertia animation.helpviewer_keywords: ["IDirectManipulationUpdateHandler interface [Direct Manipulation]","Update method","IDirectManipulationUpdateHandler.Update","IDirectManipulationUpdateHandler::Update","Update","Update method [Direct Manipulation]","Update method [Direct Manipulation]","IDirectManipulationUpdateHandler interface","directmanipulation.idirectmanipulationupdatehandler_update","directmanipulation/IDirectManipulationUpdateHandler::Update"]
+description: Notifies the compositor when to update inertia animation.
+helpviewer_keywords: ["IDirectManipulationUpdateHandler interface [Direct Manipulation]","Update method","IDirectManipulationUpdateHandler.Update","IDirectManipulationUpdateHandler::Update","Update","Update method [Direct Manipulation]","Update method [Direct Manipulation]","IDirectManipulationUpdateHandler interface","directmanipulation.idirectmanipulationupdatehandler_update","directmanipulation/IDirectManipulationUpdateHandler::Update"]
 old-location: directmanipulation\idirectmanipulationupdatehandler_update.htm
 tech.root: directmanipulation
 ms.assetid: 542eb9b6-aafa-4952-853e-4a73ed322ca3

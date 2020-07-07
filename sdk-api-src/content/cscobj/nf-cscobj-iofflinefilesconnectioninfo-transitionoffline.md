@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesConnectionInfo.TransitionOffline
 title: IOfflineFilesConnectionInfo::TransitionOffline (cscobj.h)
-description: Transitions an item offline if possible.helpviewer_keywords: ["IOfflineFilesConnectionInfo interface [Offline Files]","TransitionOffline method","IOfflineFilesConnectionInfo.TransitionOffline","IOfflineFilesConnectionInfo::TransitionOffline","OFFLINEFILES_TRANSITION_FLAG_CONSOLE","OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE","TransitionOffline","TransitionOffline method [Offline Files]","TransitionOffline method [Offline Files]","IOfflineFilesConnectionInfo interface","cscobj/IOfflineFilesConnectionInfo::TransitionOffline","of.iofflinefilesconnectioninfo_transitionoffline"]
+description: Transitions an item offline if possible.
+helpviewer_keywords: ["IOfflineFilesConnectionInfo interface [Offline Files]","TransitionOffline method","IOfflineFilesConnectionInfo.TransitionOffline","IOfflineFilesConnectionInfo::TransitionOffline","OFFLINEFILES_TRANSITION_FLAG_CONSOLE","OFFLINEFILES_TRANSITION_FLAG_INTERACTIVE","TransitionOffline","TransitionOffline method [Offline Files]","TransitionOffline method [Offline Files]","IOfflineFilesConnectionInfo interface","cscobj/IOfflineFilesConnectionInfo::TransitionOffline","of.iofflinefilesconnectioninfo_transitionoffline"]
 old-location: of\iofflinefilesconnectioninfo_transitionoffline.htm
 tech.root: offlinefiles
 ms.assetid: cb32238d-c8f2-4228-8472-4a699b24c621

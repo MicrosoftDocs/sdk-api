@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CallWindowProcW
 title: CallWindowProcW function (winuser.h)
-description: Passes message information to the specified window procedure.helpviewer_keywords: ["CallWindowProc","CallWindowProc function [Windows and Messages]","CallWindowProcA","CallWindowProcW","_win32_CallWindowProc","_win32_callwindowproc_cpp","winmsg.callwindowproc","winui._win32_callwindowproc","winuser/CallWindowProc","winuser/CallWindowProcA","winuser/CallWindowProcW"]
+description: Passes message information to the specified window procedure.
+helpviewer_keywords: ["CallWindowProc","CallWindowProc function [Windows and Messages]","CallWindowProcA","CallWindowProcW","_win32_CallWindowProc","_win32_callwindowproc_cpp","winmsg.callwindowproc","winui._win32_callwindowproc","winuser/CallWindowProc","winuser/CallWindowProcA","winuser/CallWindowProcW"]
 old-location: winmsg\callwindowproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowprocedures\windowprocedurereference\windowprocedurefunctions\callwindowproc.htm
@@ -146,6 +147,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CallWindowProc as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

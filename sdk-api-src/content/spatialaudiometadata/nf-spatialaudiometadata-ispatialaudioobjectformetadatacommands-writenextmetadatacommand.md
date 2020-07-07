@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand
 title: ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand (spatialaudiometadata.h)
-description: Writes a metadata command to the spatial audio object, each command may only be added once per object per processing cycle.helpviewer_keywords: ["ISpatialAudioObjectForMetadataCommands interface [Core Audio]","WriteNextMetadataCommand method","ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand","ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand","WriteNextMetadataCommand","WriteNextMetadataCommand method [Core Audio]","WriteNextMetadataCommand method [Core Audio]","ISpatialAudioObjectForMetadataCommands interface","coreaudio.ispatialaudioobjectformetadatacommands_writenextmetadatacommand","spatialaudiometadata/ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand"]
+description: Writes a metadata command to the spatial audio object, each command may only be added once per object per processing cycle.
+helpviewer_keywords: ["ISpatialAudioObjectForMetadataCommands interface [Core Audio]","WriteNextMetadataCommand method","ISpatialAudioObjectForMetadataCommands.WriteNextMetadataCommand","ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand","WriteNextMetadataCommand","WriteNextMetadataCommand method [Core Audio]","WriteNextMetadataCommand method [Core Audio]","ISpatialAudioObjectForMetadataCommands interface","coreaudio.ispatialaudioobjectformetadatacommands_writenextmetadatacommand","spatialaudiometadata/ISpatialAudioObjectForMetadataCommands::WriteNextMetadataCommand"]
 old-location: coreaudio\ispatialaudioobjectformetadatacommands_writenextmetadatacommand.htm
 tech.root: CoreAudio
 ms.assetid: 4880851E-C13F-49EC-BFC2-0F97F36D4D07

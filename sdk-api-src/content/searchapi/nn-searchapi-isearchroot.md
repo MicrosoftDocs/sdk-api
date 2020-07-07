@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchRoot
 title: ISearchRoot (searchapi.h)
-description: Provides methods for manipulating a search root. Changes to property members are applied to any URL that falls under the search root. A URL falls under a search root if it matches the search root URL or is a hierarchical child of that URL.helpviewer_keywords: ["ISearchRoot","ISearchRoot interface [search]","ISearchRoot interface [search]","described","_search_ISearchRoot","search._search_ISearchRoot","searchapi/ISearchRoot"]
+description: Provides methods for manipulating a search root. Changes to property members are applied to any URL that falls under the search root. A URL falls under a search root if it matches the search root URL or is a hierarchical child of that URL.
+helpviewer_keywords: ["ISearchRoot","ISearchRoot interface [search]","ISearchRoot interface [search]","described","_search_ISearchRoot","search._search_ISearchRoot","searchapi/ISearchRoot"]
 old-location: search\_search_ISearchRoot.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\isearchroot.htm

@@ -1,7 +1,8 @@
 ---
 UID: NL:vswriter.IVssWriterComponents
 title: IVssWriterComponents (vswriter.h)
-description: Contains methods used to obtain and modify component information.helpviewer_keywords: ["IVssWriterComponents","IVssWriterComponents interface [VSS]","IVssWriterComponents interface [VSS]","described","_win32_ivsswritercomponents","base.ivsswritercomponents","vswriter/IVssWriterComponents"]
+description: Contains methods used to obtain and modify component information.
+helpviewer_keywords: ["IVssWriterComponents","IVssWriterComponents interface [VSS]","IVssWriterComponents interface [VSS]","described","_win32_ivsswritercomponents","base.ivsswritercomponents","vswriter/IVssWriterComponents"]
 old-location: base\ivsswritercomponents.htm
 tech.root: VSS
 ms.assetid: e8ff2491-014c-43c7-bdce-99ed3b408605

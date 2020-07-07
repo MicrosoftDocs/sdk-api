@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._FONTOBJ
 title: FONTOBJ (winddi.h)
-description: The FONTOBJ structure is used to give a driver access to information about a particular instance of a font.helpviewer_keywords: ["FONTOBJ","FONTOBJ structure [Display Devices]","display.fontobj","grstrcts_245faf9a-31c1-4b75-aa97-c4646022cea6.xml","winddi/FONTOBJ"]
+description: The FONTOBJ structure is used to give a driver access to information about a particular instance of a font.
+helpviewer_keywords: ["FONTOBJ","FONTOBJ structure [Display Devices]","display.fontobj","grstrcts_245faf9a-31c1-4b75-aa97-c4646022cea6.xml","winddi/FONTOBJ"]
 old-location: display\fontobj.htm
 tech.root: display
 ms.assetid: 09af2006-51f1-433e-9227-3c99b9860e75

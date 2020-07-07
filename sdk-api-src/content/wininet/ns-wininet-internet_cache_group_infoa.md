@@ -1,7 +1,8 @@
 ---
 UID: NS:wininet._INTERNET_CACHE_GROUP_INFOA
 title: INTERNET_CACHE_GROUP_INFOA (wininet.h)
-description: Contains the information for a particular cache group.helpviewer_keywords: ["*LPINTERNET_CACHE_GROUP_INFOA","INTERNET_CACHE_GROUP_INFO","INTERNET_CACHE_GROUP_INFO structure [WinINet]","INTERNET_CACHE_GROUP_INFOA","INTERNET_CACHE_GROUP_INFOW","LPINTERNET_CACHE_GROUP_INFO","LPINTERNET_CACHE_GROUP_INFO structure pointer [WinINet]","_inet_internet_cache_group_info_structure","wininet.internet_cache_group_info","wininet/INTERNET_CACHE_GROUP_INFO","wininet/INTERNET_CACHE_GROUP_INFOA","wininet/INTERNET_CACHE_GROUP_INFOW","wininet/LPINTERNET_CACHE_GROUP_INFO"]
+description: Contains the information for a particular cache group.
+helpviewer_keywords: ["*LPINTERNET_CACHE_GROUP_INFOA","INTERNET_CACHE_GROUP_INFO","INTERNET_CACHE_GROUP_INFO structure [WinINet]","INTERNET_CACHE_GROUP_INFOA","INTERNET_CACHE_GROUP_INFOW","LPINTERNET_CACHE_GROUP_INFO","LPINTERNET_CACHE_GROUP_INFO structure pointer [WinINet]","_inet_internet_cache_group_info_structure","wininet.internet_cache_group_info","wininet/INTERNET_CACHE_GROUP_INFO","wininet/INTERNET_CACHE_GROUP_INFOA","wininet/INTERNET_CACHE_GROUP_INFOW","wininet/LPINTERNET_CACHE_GROUP_INFO"]
 old-location: wininet\internet_cache_group_info.htm
 tech.root: wininet
 ms.assetid: d1c30fee-b8a3-472d-91a5-9d081f66b007
@@ -102,6 +103,10 @@ Group name.
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines INTERNET_CACHE_GROUP_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

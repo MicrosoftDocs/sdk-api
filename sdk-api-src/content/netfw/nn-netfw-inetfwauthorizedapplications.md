@@ -1,7 +1,8 @@
 ---
 UID: NN:netfw.INetFwAuthorizedApplications
 title: INetFwAuthorizedApplications (netfw.h)
-description: The INetFwAuthorizedApplications interface provides access to a collection of applications authorized open ports in the firewall.helpviewer_keywords: ["INetFwAuthorizedApplications","INetFwAuthorizedApplications interface [ICS/ICF]","INetFwAuthorizedApplications interface [ICS/ICF]","described","ics.inetfwauthorizedapplications","netfw/INetFwAuthorizedApplications"]
+description: The INetFwAuthorizedApplications interface provides access to a collection of applications authorized open ports in the firewall.
+helpviewer_keywords: ["INetFwAuthorizedApplications","INetFwAuthorizedApplications interface [ICS/ICF]","INetFwAuthorizedApplications interface [ICS/ICF]","described","ics.inetfwauthorizedapplications","netfw/INetFwAuthorizedApplications"]
 old-location: ics\inetfwauthorizedapplications.htm
 tech.root: ics
 ms.assetid: 70ea2cd1-5422-4db1-ab84-9924dab5623d

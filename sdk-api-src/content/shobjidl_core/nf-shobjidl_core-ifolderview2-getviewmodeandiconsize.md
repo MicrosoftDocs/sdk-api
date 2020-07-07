@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetViewModeAndIconSize
 title: IFolderView2::GetViewModeAndIconSize (shobjidl_core.h)
-description: Gets the current view mode and icon size applied to the view.helpviewer_keywords: ["GetViewModeAndIconSize","GetViewModeAndIconSize method [Windows Shell]","GetViewModeAndIconSize method [Windows Shell]","IFolderView2 interface","IFolderView2 interface [Windows Shell]","GetViewModeAndIconSize method","IFolderView2.GetViewModeAndIconSize","IFolderView2::GetViewModeAndIconSize","_shell_IFolderView2_GetViewModeAndIconSize","shell.IFolderView2_GetViewModeAndIconSize","shobjidl_core/IFolderView2::GetViewModeAndIconSize"]
+description: Gets the current view mode and icon size applied to the view.
+helpviewer_keywords: ["GetViewModeAndIconSize","GetViewModeAndIconSize method [Windows Shell]","GetViewModeAndIconSize method [Windows Shell]","IFolderView2 interface","IFolderView2 interface [Windows Shell]","GetViewModeAndIconSize method","IFolderView2.GetViewModeAndIconSize","IFolderView2::GetViewModeAndIconSize","_shell_IFolderView2_GetViewModeAndIconSize","shell.IFolderView2_GetViewModeAndIconSize","shobjidl_core/IFolderView2::GetViewModeAndIconSize"]
 old-location: shell\IFolderView2_GetViewModeAndIconSize.htm
 tech.root: shell
 ms.assetid: 4696d55e-aad7-41f2-b2c0-47d4b507c70c

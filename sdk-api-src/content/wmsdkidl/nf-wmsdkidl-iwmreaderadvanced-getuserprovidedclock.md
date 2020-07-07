@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetUserProvidedClock
 title: IWMReaderAdvanced::GetUserProvidedClock (wmsdkidl.h)
-description: The GetUserProvidedClock method ascertains whether a user-provided clock has been specified.helpviewer_keywords: ["GetUserProvidedClock","GetUserProvidedClock method [windows Media Format]","GetUserProvidedClock method [windows Media Format]","IWMReaderAdvanced interface","IWMReaderAdvanced interface [windows Media Format]","GetUserProvidedClock method","IWMReaderAdvanced.GetUserProvidedClock","IWMReaderAdvanced::GetUserProvidedClock","IWMReaderAdvancedGetUserProvidedClock","wmformat.iwmreaderadvanced_getuserprovidedclock","wmsdkidl/IWMReaderAdvanced::GetUserProvidedClock"]
+description: The GetUserProvidedClock method ascertains whether a user-provided clock has been specified.
+helpviewer_keywords: ["GetUserProvidedClock","GetUserProvidedClock method [windows Media Format]","GetUserProvidedClock method [windows Media Format]","IWMReaderAdvanced interface","IWMReaderAdvanced interface [windows Media Format]","GetUserProvidedClock method","IWMReaderAdvanced.GetUserProvidedClock","IWMReaderAdvanced::GetUserProvidedClock","IWMReaderAdvancedGetUserProvidedClock","wmformat.iwmreaderadvanced_getuserprovidedclock","wmsdkidl/IWMReaderAdvanced::GetUserProvidedClock"]
 old-location: wmformat\iwmreaderadvanced_getuserprovidedclock.htm
 tech.root: wmformat
 ms.assetid: 54eb30ae-4b84-489c-a5e5-e73dee2c5056

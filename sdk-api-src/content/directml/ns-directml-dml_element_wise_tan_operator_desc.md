@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_TAN_OPERATOR_DESC
 title: DML_ELEMENT_WISE_TAN_OPERATOR_DESC
-description: Describes a DirectML trigonometric operator that performs the element-wise tangent function f(x) = tan(x * scale + bias), where the scale and bias terms are optional.helpviewer_keywords: ["DML_ELEMENT_WISE_TAN_OPERATOR_DESC","DML_ELEMENT_WISE_TAN_OPERATOR_DESC structure","direct3d12.dml_element_wise_tan_operator_desc","directml/DML_ELEMENT_WISE_TAN_OPERATOR_DESC"]
+description: Describes a DirectML trigonometric operator that performs the element-wise tangent function f(x) = tan(x * scale + bias), where the scale and bias terms are optional.
+helpviewer_keywords: ["DML_ELEMENT_WISE_TAN_OPERATOR_DESC","DML_ELEMENT_WISE_TAN_OPERATOR_DESC structure","direct3d12.dml_element_wise_tan_operator_desc","directml/DML_ELEMENT_WISE_TAN_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_tan_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 1285051E-780E-4019-98F5-148E9DA0AA11

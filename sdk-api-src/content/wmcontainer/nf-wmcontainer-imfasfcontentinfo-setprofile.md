@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFContentInfo.SetProfile
 title: IMFASFContentInfo::SetProfile (wmcontainer.h)
-description: Uses profile data from a profile object to configure settings in the ContentInfo object.helpviewer_keywords: ["7e7e062d-9507-400a-8cc2-5355c12017f5","IMFASFContentInfo interface [Media Foundation]","SetProfile method","IMFASFContentInfo.SetProfile","IMFASFContentInfo::SetProfile","SetProfile","SetProfile method [Media Foundation]","SetProfile method [Media Foundation]","IMFASFContentInfo interface","mf.imfasfcontentinfo_setprofile","wmcontainer/IMFASFContentInfo::SetProfile"]
+description: Uses profile data from a profile object to configure settings in the ContentInfo object.
+helpviewer_keywords: ["7e7e062d-9507-400a-8cc2-5355c12017f5","IMFASFContentInfo interface [Media Foundation]","SetProfile method","IMFASFContentInfo.SetProfile","IMFASFContentInfo::SetProfile","SetProfile","SetProfile method [Media Foundation]","SetProfile method [Media Foundation]","IMFASFContentInfo interface","mf.imfasfcontentinfo_setprofile","wmcontainer/IMFASFContentInfo::SetProfile"]
 old-location: mf\imfasfcontentinfo_setprofile.htm
 tech.root: medfound
 ms.assetid: 7e7e062d-9507-400a-8cc2-5355c12017f5

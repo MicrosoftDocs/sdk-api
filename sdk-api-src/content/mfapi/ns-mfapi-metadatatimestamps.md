@@ -1,7 +1,8 @@
 ---
 UID: NS:mfapi.tagMetadataTimeStamps
 title: MetadataTimeStamps (mfapi.h)
-description: The MetadataTimeStamps structure describes the blob format for the MF_CAPTURE_METADATA_FACEROITIMESTAMPS attribute.helpviewer_keywords: ["MetadataTimeStamps","MetadataTimeStamps structure [Streaming Media Devices]","mfapi/MetadataTimeStamps","stream.metadatatimestamps"]
+description: The MetadataTimeStamps structure describes the blob format for the MF_CAPTURE_METADATA_FACEROITIMESTAMPS attribute.
+helpviewer_keywords: ["MetadataTimeStamps","MetadataTimeStamps structure [Streaming Media Devices]","mfapi/MetadataTimeStamps","stream.metadatatimestamps"]
 old-location: stream\metadatatimestamps.htm
 tech.root: stream
 ms.assetid: F7E5349B-37F0-4B94-B42B-EAEB04DC1AB5

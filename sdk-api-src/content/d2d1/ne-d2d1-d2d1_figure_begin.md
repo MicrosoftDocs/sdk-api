@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1.D2D1_FIGURE_BEGIN
 title: D2D1_FIGURE_BEGIN (d2d1.h)
-description: Indicates whether a specific ID2D1SimplifiedGeometrySink figure is filled or hollow.helpviewer_keywords: ["D2D1_FIGURE_BEGIN","D2D1_FIGURE_BEGIN enumeration [Direct2D]","D2D1_FIGURE_BEGIN_FILLED","D2D1_FIGURE_BEGIN_HOLLOW","d2d1/D2D1_FIGURE_BEGIN","d2d1/D2D1_FIGURE_BEGIN_FILLED","d2d1/D2D1_FIGURE_BEGIN_HOLLOW","direct2d.D2D1_FIGURE_BEGIN"]
+description: Indicates whether a specific ID2D1SimplifiedGeometrySink figure is filled or hollow.
+helpviewer_keywords: ["D2D1_FIGURE_BEGIN","D2D1_FIGURE_BEGIN enumeration [Direct2D]","D2D1_FIGURE_BEGIN_FILLED","D2D1_FIGURE_BEGIN_HOLLOW","d2d1/D2D1_FIGURE_BEGIN","d2d1/D2D1_FIGURE_BEGIN_FILLED","d2d1/D2D1_FIGURE_BEGIN_HOLLOW","direct2d.D2D1_FIGURE_BEGIN"]
 old-location: direct2d\D2D1_FIGURE_BEGIN.htm
 tech.root: Direct2D
 ms.assetid: c29aa79e-b978-4318-a8e1-5a321cd66327
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Indicates whether a specific <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a> figure is filled or hollow. 
+Indicates whether a specific <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a> figure is filled or hollow. 
 
 
 ## -enum-fields
@@ -59,14 +60,14 @@ Indicates whether a specific <a href="https://docs.microsoft.com/windows/desktop
 
 ### -field D2D1_FIGURE_BEGIN_FILLED
 
-Indicates the figure will be filled by the FillGeometry (<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandsink-fillgeometry">ID2D1CommandSink::FillGeometry</a> 
-          or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1RenderTarget::FillGeometry</a>) method.
+Indicates the figure will be filled by the FillGeometry (<a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1commandsink-fillgeometry">ID2D1CommandSink::FillGeometry</a> 
+          or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1RenderTarget::FillGeometry</a>) method.
 
 
 ### -field D2D1_FIGURE_BEGIN_HOLLOW
 
-Indicates the figure will not be filled by the FillGeometry (<a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nf-d2d1_1-id2d1commandsink-fillgeometry">ID2D1CommandSink::FillGeometry</a> 
-          or <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1RenderTarget::FillGeometry</a>) method and will only consist of an outline. 
+Indicates the figure will not be filled by the FillGeometry (<a href="/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1commandsink-fillgeometry">ID2D1CommandSink::FillGeometry</a> 
+          or <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">ID2D1RenderTarget::FillGeometry</a>) method and will only consist of an outline. 
           Moreover, the bounds of a hollow figure are zero. 
           D2D1_FIGURE_BEGIN_HOLLOW should be used for stroking, or for other geometry operations.
 
@@ -81,15 +82,15 @@ Indicates the figure will not be filled by the FillGeometry (<a href="https://do
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">ID2D1SimplifiedGeometrySink::BeginFigure</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">ID2D1SimplifiedGeometrySink::BeginFigure</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/path-geometries-overview">Path Geometries Overview</a>
+<a href="/windows/win32/Direct2D/path-geometries-overview">Path Geometries Overview</a>
  
 
  

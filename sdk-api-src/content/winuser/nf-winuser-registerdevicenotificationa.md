@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.RegisterDeviceNotificationA
 title: RegisterDeviceNotificationA function (winuser.h)
-description: Registers the device or type of device for which a window will receive notifications.helpviewer_keywords: ["DEVICE_NOTIFY_ALL_INTERFACE_CLASSES","DEVICE_NOTIFY_SERVICE_HANDLE","DEVICE_NOTIFY_WINDOW_HANDLE","RegisterDeviceNotification","RegisterDeviceNotification function","RegisterDeviceNotificationA","RegisterDeviceNotificationW","_win32_registerdevicenotification","base.registerdevicenotification","winuser/RegisterDeviceNotification","winuser/RegisterDeviceNotificationA","winuser/RegisterDeviceNotificationW"]
+description: Registers the device or type of device for which a window will receive notifications.
+helpviewer_keywords: ["DEVICE_NOTIFY_ALL_INTERFACE_CLASSES","DEVICE_NOTIFY_SERVICE_HANDLE","DEVICE_NOTIFY_WINDOW_HANDLE","RegisterDeviceNotification","RegisterDeviceNotification function","RegisterDeviceNotificationA","RegisterDeviceNotificationW","_win32_registerdevicenotification","base.registerdevicenotification","winuser/RegisterDeviceNotification","winuser/RegisterDeviceNotificationA","winuser/RegisterDeviceNotificationW"]
 old-location: base\registerdevicenotification.htm
 tech.root: devio
 ms.assetid: 82094d95-9af3-4222-9c5e-ce2df9bab5e3
@@ -206,6 +207,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines RegisterDeviceNotification as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

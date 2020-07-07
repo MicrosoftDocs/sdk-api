@@ -1,7 +1,8 @@
 ---
 UID: NF:sensorsapi.ISensorManager.GetSensorsByType
 title: ISensorManager::GetSensorsByType (sensorsapi.h)
-description: Retrieves a collection containing all sensors associated with the specified type.helpviewer_keywords: ["GetSensorsByType","GetSensorsByType method","GetSensorsByType method","ISensorManager interface","ISensorManager interface","GetSensorsByType method","ISensorManager.GetSensorsByType","ISensorManager::GetSensorsByType","sensorsapi/ISensorManager::GetSensorsByType","winsensors_com_ref.isensormanager_getsensorsbytype"]
+description: Retrieves a collection containing all sensors associated with the specified type.
+helpviewer_keywords: ["GetSensorsByType","GetSensorsByType method","GetSensorsByType method","ISensorManager interface","ISensorManager interface","GetSensorsByType method","ISensorManager.GetSensorsByType","ISensorManager::GetSensorsByType","sensorsapi/ISensorManager::GetSensorsByType","winsensors_com_ref.isensormanager_getsensorsbytype"]
 old-location: winsensors_com_ref\isensormanager_getsensorsbytype.htm
 tech.root: SensorsAPI
 ms.assetid: f383d7e3-bcd0-457d-a410-9ac225f1d147

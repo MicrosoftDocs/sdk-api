@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_TargetIPAddress
 title: INetSharingPortMappingProps::get_TargetIPAddress (netcon.h)
-description: The get_TargetIPAddress method retrieves the IP address of the target computer for this port mapping.helpviewer_keywords: ["INetSharingPortMappingProps interface [ICS/ICF]","get_TargetIPAddress method","INetSharingPortMappingProps.get_TargetIPAddress","INetSharingPortMappingProps::get_TargetIPAddress","_ics_inetsharingportmappingprops_get_targetipaddress","get_TargetIPAddress","get_TargetIPAddress method [ICS/ICF]","get_TargetIPAddress method [ICS/ICF]","INetSharingPortMappingProps interface","ics.inetsharingportmappingprops_get_targetipaddress","netcon/INetSharingPortMappingProps::get_TargetIPAddress"]
+description: The get_TargetIPAddress method retrieves the IP address of the target computer for this port mapping.
+helpviewer_keywords: ["INetSharingPortMappingProps interface [ICS/ICF]","get_TargetIPAddress method","INetSharingPortMappingProps.get_TargetIPAddress","INetSharingPortMappingProps::get_TargetIPAddress","_ics_inetsharingportmappingprops_get_targetipaddress","get_TargetIPAddress","get_TargetIPAddress method [ICS/ICF]","get_TargetIPAddress method [ICS/ICF]","INetSharingPortMappingProps interface","ics.inetsharingportmappingprops_get_targetipaddress","netcon/INetSharingPortMappingProps::get_TargetIPAddress"]
 old-location: ics\inetsharingportmappingprops_get_targetipaddress.htm
 tech.root: ics
 ms.assetid: af794535-8b36-4306-a220-f4938f0e6ee9

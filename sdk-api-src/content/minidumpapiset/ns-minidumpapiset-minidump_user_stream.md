@@ -1,7 +1,8 @@
 ---
 UID: NS:minidumpapiset._MINIDUMP_USER_STREAM
 title: MINIDUMP_USER_STREAM (minidumpapiset.h)
-description: Contains user-defined information stored in a data stream.helpviewer_keywords: ["*PMINIDUMP_USER_STREAM","MINIDUMP_USER_STREAM","MINIDUMP_USER_STREAM structure","PMINIDUMP_USER_STREAM","PMINIDUMP_USER_STREAM structure pointer","_MINIDUMP_USER_STREAM","_win32_minidump_user_stream_str","base.minidump_user_stream_str","minidumpapiset/MINIDUMP_USER_STREAM","minidumpapiset/PMINIDUMP_USER_STREAM"]
+description: Contains user-defined information stored in a data stream.
+helpviewer_keywords: ["*PMINIDUMP_USER_STREAM","MINIDUMP_USER_STREAM","MINIDUMP_USER_STREAM structure","PMINIDUMP_USER_STREAM","PMINIDUMP_USER_STREAM structure pointer","_MINIDUMP_USER_STREAM","_win32_minidump_user_stream_str","base.minidump_user_stream_str","minidumpapiset/MINIDUMP_USER_STREAM","minidumpapiset/PMINIDUMP_USER_STREAM"]
 old-location: base\minidump_user_stream_str.htm
 tech.root: Debug
 ms.assetid: 43eae98c-fba3-43a4-97e6-8b81874e856e
@@ -91,7 +92,7 @@ In this context, a data stream refers to a block of data within a minidump file.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream_information">MINIDUMP_USER_STREAM_INFORMATION</a>
+<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_user_stream_information">MINIDUMP_USER_STREAM_INFORMATION</a>
 
 
 

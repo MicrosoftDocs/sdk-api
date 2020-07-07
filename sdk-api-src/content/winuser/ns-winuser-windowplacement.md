@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagWINDOWPLACEMENT
 title: WINDOWPLACEMENT (winuser.h)
-description: Contains information about the placement of a window on the screen.helpviewer_keywords: ["*PWINDOWPLACEMENT","LPWINDOWPLACEMENT","LPWINDOWPLACEMENT structure pointer [Windows and Messages]","PWINDOWPLACEMENT","PWINDOWPLACEMENT structure pointer [Windows and Messages]","SW_HIDE","SW_MAXIMIZE","SW_MINIMIZE","SW_RESTORE","SW_SHOW","SW_SHOWMAXIMIZED","SW_SHOWMINIMIZED","SW_SHOWMINNOACTIVE","SW_SHOWNA","SW_SHOWNOACTIVATE","SW_SHOWNORMAL","WINDOWPLACEMENT","WINDOWPLACEMENT structure [Windows and Messages]","WPF_ASYNCWINDOWPLACEMENT","WPF_RESTORETOMAXIMIZED","WPF_SETMINPOSITION","_win32_WINDOWPLACEMENT_str","_win32_windowplacement_str_cpp","winmsg.windowplacement","winui._win32_windowplacement_str","winuser/LPWINDOWPLACEMENT","winuser/PWINDOWPLACEMENT","winuser/WINDOWPLACEMENT"]
+description: Contains information about the placement of a window on the screen.
+helpviewer_keywords: ["*PWINDOWPLACEMENT","LPWINDOWPLACEMENT","LPWINDOWPLACEMENT structure pointer [Windows and Messages]","PWINDOWPLACEMENT","PWINDOWPLACEMENT structure pointer [Windows and Messages]","SW_HIDE","SW_MAXIMIZE","SW_MINIMIZE","SW_RESTORE","SW_SHOW","SW_SHOWMAXIMIZED","SW_SHOWMINIMIZED","SW_SHOWMINNOACTIVE","SW_SHOWNA","SW_SHOWNOACTIVATE","SW_SHOWNORMAL","WINDOWPLACEMENT","WINDOWPLACEMENT structure [Windows and Messages]","WPF_ASYNCWINDOWPLACEMENT","WPF_RESTORETOMAXIMIZED","WPF_SETMINPOSITION","_win32_WINDOWPLACEMENT_str","_win32_windowplacement_str_cpp","winmsg.windowplacement","winui._win32_windowplacement_str","winuser/LPWINDOWPLACEMENT","winuser/PWINDOWPLACEMENT","winuser/WINDOWPLACEMENT"]
 old-location: winmsg\windowplacement.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\windowplacement.htm

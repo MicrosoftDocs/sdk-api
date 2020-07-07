@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.EnumerateExcludedExtensions
 title: ISearchCatalogManager::EnumerateExcludedExtensions (searchapi.h)
-description: Not implemented.helpviewer_keywords: ["EnumerateExcludedExtensions","EnumerateExcludedExtensions method [search]","EnumerateExcludedExtensions method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","EnumerateExcludedExtensions method","ISearchCatalogManager.EnumerateExcludedExtensions","ISearchCatalogManager::EnumerateExcludedExtensions","_search_ISearchCatalogManager_EnumerateExcludedExtensions","search._search_ISearchCatalogManager_EnumerateExcludedExtensions","searchapi/ISearchCatalogManager::EnumerateExcludedExtensions"]
+description: Not implemented.
+helpviewer_keywords: ["EnumerateExcludedExtensions","EnumerateExcludedExtensions method [search]","EnumerateExcludedExtensions method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","EnumerateExcludedExtensions method","ISearchCatalogManager.EnumerateExcludedExtensions","ISearchCatalogManager::EnumerateExcludedExtensions","_search_ISearchCatalogManager_EnumerateExcludedExtensions","search._search_ISearchCatalogManager_EnumerateExcludedExtensions","searchapi/ISearchCatalogManager::EnumerateExcludedExtensions"]
 old-location: search\_search_ISearchCatalogManager_EnumerateExcludedExtensions.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\enumerateexcludedextensions.htm

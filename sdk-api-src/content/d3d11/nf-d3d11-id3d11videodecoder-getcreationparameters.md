@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoDecoder.GetCreationParameters
 title: ID3D11VideoDecoder::GetCreationParameters (d3d11.h)
-description: Gets the parameters that were used to create the decoder.helpviewer_keywords: ["GetCreationParameters","GetCreationParameters method [Media Foundation]","GetCreationParameters method [Media Foundation]","ID3D11VideoDecoder interface","ID3D11VideoDecoder interface [Media Foundation]","GetCreationParameters method","ID3D11VideoDecoder.GetCreationParameters","ID3D11VideoDecoder::GetCreationParameters","d3d11/ID3D11VideoDecoder::GetCreationParameters","mf.id3d11videodecoder_getcreationparameters"]
+description: Gets the parameters that were used to create the decoder.
+helpviewer_keywords: ["GetCreationParameters","GetCreationParameters method [Media Foundation]","GetCreationParameters method [Media Foundation]","ID3D11VideoDecoder interface","ID3D11VideoDecoder interface [Media Foundation]","GetCreationParameters method","ID3D11VideoDecoder.GetCreationParameters","ID3D11VideoDecoder::GetCreationParameters","d3d11/ID3D11VideoDecoder::GetCreationParameters","mf.id3d11videodecoder_getcreationparameters"]
 old-location: mf\id3d11videodecoder_getcreationparameters.htm
 tech.root: medfound
 ms.assetid: 6F104317-19C2-4FCB-8CA7-34FD0C237822

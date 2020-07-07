@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetLineCountW
 title: SetupGetLineCountW function (setupapi.h)
-description: The SetupGetLineCount function returns the number of lines in a specified section of an INF file.helpviewer_keywords: ["SetupGetLineCount","SetupGetLineCount function [Setup API]","SetupGetLineCountA","SetupGetLineCountW","_setupapi_setupgetlinecount","setup.setupgetlinecount","setupapi/SetupGetLineCount","setupapi/SetupGetLineCountA","setupapi/SetupGetLineCountW"]
+description: The SetupGetLineCount function returns the number of lines in a specified section of an INF file.
+helpviewer_keywords: ["SetupGetLineCount","SetupGetLineCount function [Setup API]","SetupGetLineCountA","SetupGetLineCountW","_setupapi_setupgetlinecount","setup.setupgetlinecount","setupapi/SetupGetLineCount","setupapi/SetupGetLineCountA","setupapi/SetupGetLineCountW"]
 old-location: setup\setupgetlinecount.htm
 tech.root: SetupApi
 ms.assetid: 08c98745-ecbd-47b4-9d73-2d6765285bae
@@ -99,4 +100,9 @@ To get extended error information, call
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupGetLineCount as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsGroupMbrRemoveW
 title: RpcNsGroupMbrRemoveW function (rpcnsi.h)
-description: The RpcNsGroupMbrRemove function removes an entry name from a group.helpviewer_keywords: ["RpcNsGroupMbrRemove","RpcNsGroupMbrRemove function [RPC]","RpcNsGroupMbrRemoveA","RpcNsGroupMbrRemoveW","_rpc_rpcnsgroupmbrremove","rpc.rpcnsgroupmbrremove","rpcnsi/RpcNsGroupMbrRemove","rpcnsi/RpcNsGroupMbrRemoveA","rpcnsi/RpcNsGroupMbrRemoveW"]
+description: The RpcNsGroupMbrRemove function removes an entry name from a group.
+helpviewer_keywords: ["RpcNsGroupMbrRemove","RpcNsGroupMbrRemove function [RPC]","RpcNsGroupMbrRemoveA","RpcNsGroupMbrRemoveW","_rpc_rpcnsgroupmbrremove","rpc.rpcnsgroupmbrremove","rpcnsi/RpcNsGroupMbrRemove","rpcnsi/RpcNsGroupMbrRemoveA","rpcnsi/RpcNsGroupMbrRemoveW"]
 old-location: rpc\rpcnsgroupmbrremove.htm
 tech.root: Rpc
 ms.assetid: 0301b570-9a03-4f50-89df-3c15d8de246f
@@ -196,6 +197,10 @@ The
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsGroupMbrRemove as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

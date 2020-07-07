@@ -1,7 +1,8 @@
 ---
 UID: NN:shappmgr.IShellApp
 title: IShellApp (shappmgr.h)
-description: Exposes methods that provide general information about an application to the Add/Remove Programs Application.helpviewer_keywords: ["IShellApp","IShellApp interface [Windows Shell]","IShellApp interface [Windows Shell]","described","inet_IShellApp","shappmgr/IShellApp","shell.IShellApp"]
+description: Exposes methods that provide general information about an application to the Add/Remove Programs Application.
+helpviewer_keywords: ["IShellApp","IShellApp interface [Windows Shell]","IShellApp interface [Windows Shell]","described","inet_IShellApp","shappmgr/IShellApp","shell.IShellApp"]
 old-location: shell\IShellApp.htm
 tech.root: shell
 ms.assetid: 2f56744c-a10e-423f-8b8f-c3257e560310

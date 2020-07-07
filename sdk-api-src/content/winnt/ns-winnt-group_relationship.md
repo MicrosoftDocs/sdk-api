@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._GROUP_RELATIONSHIP
 title: GROUP_RELATIONSHIP (winnt.h)
-description: Represents information about processor groups. This structure is used with the GetLogicalProcessorInformationEx function.helpviewer_keywords: ["*PGROUP_RELATIONSHIP","GROUP_RELATIONSHIP","GROUP_RELATIONSHIP structure","PGROUP_RELATIONSHIP","PGROUP_RELATIONSHIP structure pointer","_GROUP_RELATIONSHIP","base.group_relationship","winnt/GROUP_RELATIONSHIP","winnt/PGROUP_RELATIONSHIP"]
+description: Represents information about processor groups. This structure is used with the GetLogicalProcessorInformationEx function.
+helpviewer_keywords: ["*PGROUP_RELATIONSHIP","GROUP_RELATIONSHIP","GROUP_RELATIONSHIP structure","PGROUP_RELATIONSHIP","PGROUP_RELATIONSHIP structure pointer","_GROUP_RELATIONSHIP","base.group_relationship","winnt/GROUP_RELATIONSHIP","winnt/PGROUP_RELATIONSHIP"]
 old-location: base\group_relationship.htm
 tech.root: ProcThread
 ms.assetid: 3529ddef-04c5-4573-877d-c225da684e38
@@ -90,7 +91,7 @@ An array of <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ns-win
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+<a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
  
 
  

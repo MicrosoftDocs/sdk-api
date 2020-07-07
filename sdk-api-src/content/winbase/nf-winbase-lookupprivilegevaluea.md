@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.LookupPrivilegeValueA
 title: LookupPrivilegeValueA function (winbase.h)
-description: Retrieves the locally unique identifier (LUID) used on a specified system to locally represent the specified privilege name.helpviewer_keywords: ["LookupPrivilegeValue","LookupPrivilegeValue function [Security]","LookupPrivilegeValueA","LookupPrivilegeValueW","_win32_lookupprivilegevalue","security.lookupprivilegevalue","winbase/LookupPrivilegeValue","winbase/LookupPrivilegeValueA","winbase/LookupPrivilegeValueW"]
+description: Retrieves the locally unique identifier (LUID) used on a specified system to locally represent the specified privilege name.
+helpviewer_keywords: ["LookupPrivilegeValue","LookupPrivilegeValue function [Security]","LookupPrivilegeValueA","LookupPrivilegeValueW","_win32_lookupprivilegevalue","security.lookupprivilegevalue","winbase/LookupPrivilegeValue","winbase/LookupPrivilegeValueA","winbase/LookupPrivilegeValueW"]
 old-location: security\lookupprivilegevalue.htm
 tech.root: SecAuthZ
 ms.assetid: 334b8ba8-101d-43a1-a8bf-1c7e0448c272
@@ -109,6 +110,10 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines LookupPrivilegeValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

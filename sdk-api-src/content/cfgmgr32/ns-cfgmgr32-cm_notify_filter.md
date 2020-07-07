@@ -1,7 +1,8 @@
 ---
 UID: NS:cfgmgr32._CM_NOTIFY_FILTER
 title: CM_NOTIFY_FILTER (cfgmgr32.h)
-description: Device notification filter structure.helpviewer_keywords: ["*PCM_NOTIFY_FILTER","CM_NOTIFY_FILTER","CM_NOTIFY_FILTER structure [Device and Driver Installation]","PCM_NOTIFY_FILTER","PCM_NOTIFY_FILTER structure pointer [Device and Driver Installation]","cfgmgr32/CM_NOTIFY_FILTER","cfgmgr32/PCM_NOTIFY_FILTER","devinst.cm_notify_filter"]
+description: Device notification filter structure.
+helpviewer_keywords: ["*PCM_NOTIFY_FILTER","CM_NOTIFY_FILTER","CM_NOTIFY_FILTER structure [Device and Driver Installation]","PCM_NOTIFY_FILTER","PCM_NOTIFY_FILTER structure pointer [Device and Driver Installation]","cfgmgr32/CM_NOTIFY_FILTER","cfgmgr32/PCM_NOTIFY_FILTER","devinst.cm_notify_filter"]
 old-location: devinst\cm_notify_filter.htm
 tech.root: devinst
 ms.assetid: 8B6CC440-7B41-4382-9917-6833031D5E1B

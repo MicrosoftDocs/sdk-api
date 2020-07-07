@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_SHADER_BYTECODE
 title: D3D12_SHADER_BYTECODE (d3d12.h)
-description: Describes shader data.helpviewer_keywords: ["D3D12_SHADER_BYTECODE","D3D12_SHADER_BYTECODE structure","d3d12/D3D12_SHADER_BYTECODE","direct3d12.d3d12_shader_bytecode"]
+description: Describes shader data.
+helpviewer_keywords: ["D3D12_SHADER_BYTECODE","D3D12_SHADER_BYTECODE structure","d3d12/D3D12_SHADER_BYTECODE","direct3d12.d3d12_shader_bytecode"]
 old-location: direct3d12\d3d12_shader_bytecode.htm
 tech.root: direct3d12
 ms.assetid: E2195755-A0C2-4824-A2EB-553F7909847F

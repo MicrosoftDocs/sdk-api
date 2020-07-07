@@ -1,7 +1,8 @@
 ---
 UID: NE:sensorsapi.__MIDL___MIDL_itf_sensorsapi_0000_0000_0002
 title: SensorConnectionType (sensorsapi.h)
-description: Defines types of sensor device connections.helpviewer_keywords: ["SENSOR_CONNECTION_TYPE_PC_ATTACHED","SENSOR_CONNECTION_TYPE_PC_EXTERNAL","SENSOR_CONNECTION_TYPE_PC_INTEGRATED","SensorConnectionType","SensorConnectionType enumeration","sensorsapi/ SENSOR_CONNECTION_TYPE_PC_EXTERNAL","sensorsapi/SENSOR_CONNECTION_TYPE_PC_ATTACHED","sensorsapi/SENSOR_CONNECTION_TYPE_PC_INTEGRATED","sensorsapi/SensorConnectionType","winsensors_com_ref.sensorconnectiontype"]
+description: Defines types of sensor device connections.
+helpviewer_keywords: ["SENSOR_CONNECTION_TYPE_PC_ATTACHED","SENSOR_CONNECTION_TYPE_PC_EXTERNAL","SENSOR_CONNECTION_TYPE_PC_INTEGRATED","SensorConnectionType","SensorConnectionType enumeration","sensorsapi/ SENSOR_CONNECTION_TYPE_PC_EXTERNAL","sensorsapi/SENSOR_CONNECTION_TYPE_PC_ATTACHED","sensorsapi/SENSOR_CONNECTION_TYPE_PC_INTEGRATED","sensorsapi/SensorConnectionType","winsensors_com_ref.sensorconnectiontype"]
 old-location: winsensors_com_ref\sensorconnectiontype.htm
 tech.root: SensorsAPI
 ms.assetid: 3d5cb6ff-0228-44fa-8216-dbffcb2ec834

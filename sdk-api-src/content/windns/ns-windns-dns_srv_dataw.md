@@ -1,7 +1,8 @@
 ---
 UID: NS:windns.__unnamed_struct_30
 title: DNS_SRV_DATAW (windns.h)
-description: The DNS_SRV_DATA structure represents a DNS service (SRV) record as specified in RFC 2782.helpviewer_keywords: ["*PDNS_SRV_DATA","*PDNS_SRV_DATAW","DNS_SRV_DATA","DNS_SRV_DATA structure [DNS]","DNS_SRV_DATAW","PDNS_SRV_DATA","PDNS_SRV_DATA structure pointer [DNS]","_dns_dns_srv_data","dns.dns_srv_data","windns/DNS_SRV_DATA","windns/PDNS_SRV_DATA"]
+description: The DNS_SRV_DATA structure represents a DNS service (SRV) record as specified in RFC 2782.
+helpviewer_keywords: ["*PDNS_SRV_DATA","*PDNS_SRV_DATAW","DNS_SRV_DATA","DNS_SRV_DATA structure [DNS]","DNS_SRV_DATAW","PDNS_SRV_DATA","PDNS_SRV_DATA structure pointer [DNS]","_dns_dns_srv_data","dns.dns_srv_data","windns/DNS_SRV_DATA","windns/PDNS_SRV_DATA"]
 old-location: dns\dns_srv_data.htm
 tech.root: DNS
 ms.assetid: 212db7ac-a5e3-4e58-b1c2-0eb551403dfc
@@ -89,17 +90,21 @@ Reserved for padding. Do not use.
 
 The 
 <b>DNS_SRV_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
+
+
+> [!NOTE]
+> The windns.h header defines DNS_SRV_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

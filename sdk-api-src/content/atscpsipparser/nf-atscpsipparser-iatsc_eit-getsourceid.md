@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_EIT.GetSourceId
 title: IATSC_EIT::GetSourceId (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetSourceId","GetSourceId method [Microsoft TV Technologies]","GetSourceId method [Microsoft TV Technologies]","IATSC_EIT interface","IATSC_EIT interface [Microsoft TV Technologies]","GetSourceId method","IATSC_EIT.GetSourceId","IATSC_EIT::GetSourceId","IATSC_EITGetSourceId","atscpsipparser/IATSC_EIT::GetSourceId","mstv.iatsc_eit_getsourceid"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetSourceId","GetSourceId method [Microsoft TV Technologies]","GetSourceId method [Microsoft TV Technologies]","IATSC_EIT interface","IATSC_EIT interface [Microsoft TV Technologies]","GetSourceId method","IATSC_EIT.GetSourceId","IATSC_EIT::GetSourceId","IATSC_EITGetSourceId","atscpsipparser/IATSC_EIT::GetSourceId","mstv.iatsc_eit_getsourceid"]
 old-location: mstv\iatsc_eit_getsourceid.htm
 tech.root: mstv
 ms.assetid: 2ab6709e-3d96-4388-a9b2-97a2f04a4eae

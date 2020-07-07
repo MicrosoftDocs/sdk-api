@@ -1,7 +1,8 @@
 ---
 UID: NF:ndfapi.NdfExecuteDiagnosis
 title: NdfExecuteDiagnosis function (ndfapi.h)
-description: The NdfExecuteDiagnosis function is used to diagnose the root cause of the incident that has occurred.helpviewer_keywords: ["NdfExecuteDiagnosis","NdfExecuteDiagnosis function [NDF]","ndf.ndfexecutediagnosis","ndfapi/NdfExecuteDiagnosis"]
+description: The NdfExecuteDiagnosis function is used to diagnose the root cause of the incident that has occurred.
+helpviewer_keywords: ["NdfExecuteDiagnosis","NdfExecuteDiagnosis function [NDF]","ndf.ndfexecutediagnosis","ndfapi/NdfExecuteDiagnosis"]
 old-location: ndf\ndfexecutediagnosis.htm
 tech.root: NDF
 ms.assetid: b65f30c3-53d5-4282-8d38-5723772f15fc

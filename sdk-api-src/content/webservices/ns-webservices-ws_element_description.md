@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_ELEMENT_DESCRIPTION
 title: WS_ELEMENT_DESCRIPTION (webservices.h)
-description: Represents a mapping between a C data type and an XML element.helpviewer_keywords: ["WS_ELEMENT_DESCRIPTION","WS_ELEMENT_DESCRIPTION structure [Web Services for Windows]","webservices/WS_ELEMENT_DESCRIPTION","wsw.ws_element_description"]
+description: Represents a mapping between a C data type and an XML element.
+helpviewer_keywords: ["WS_ELEMENT_DESCRIPTION","WS_ELEMENT_DESCRIPTION structure [Web Services for Windows]","webservices/WS_ELEMENT_DESCRIPTION","wsw.ws_element_description"]
 old-location: wsw\ws_element_description.htm
 tech.root: wsw
 ms.assetid: 17035b64-9b2c-40d3-bdce-45e9b132e9f1

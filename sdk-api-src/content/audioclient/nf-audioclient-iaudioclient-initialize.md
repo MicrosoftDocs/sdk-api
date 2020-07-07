@@ -1,7 +1,8 @@
 ---
 UID: NF:audioclient.IAudioClient.Initialize
 title: IAudioClient::Initialize (audioclient.h)
-description: The Initialize method initializes the audio stream.helpviewer_keywords: ["IAudioClient interface [Core Audio]","Initialize method","IAudioClient.Initialize","IAudioClient::Initialize","IAudioClientInitialize","Initialize","Initialize method [Core Audio]","Initialize method [Core Audio]","IAudioClient interface","audioclient/IAudioClient::Initialize","coreaudio.iaudioclient_initialize"]
+description: The Initialize method initializes the audio stream.
+helpviewer_keywords: ["IAudioClient interface [Core Audio]","Initialize method","IAudioClient.Initialize","IAudioClient::Initialize","IAudioClientInitialize","Initialize","Initialize method [Core Audio]","Initialize method [Core Audio]","IAudioClient interface","audioclient/IAudioClient::Initialize","coreaudio.iaudioclient_initialize"]
 old-location: coreaudio\iaudioclient_initialize.htm
 tech.root: CoreAudio
 ms.assetid: eb778503-06f8-4705-9f8d-9a4fd886ae27
@@ -62,7 +63,7 @@ The <b>Initialize</b> method initializes the audio stream.
 
 ### -param ShareMode [in]
 
-The sharing mode for the connection. Through this parameter, the client tells the audio engine whether it wants to share the audio endpoint device with other clients. The client should set this parameter to one of the following <a href="https://docs.microsoft.com/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audclnt_sharemode">AUDCLNT_SHAREMODE</a> enumeration values:
+The sharing mode for the connection. Through this parameter, the client tells the audio engine whether it wants to share the audio endpoint device with other clients. The client should set this parameter to one of the following <a href="/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audclnt_sharemode">AUDCLNT_SHAREMODE</a> enumeration values:
 
 AUDCLNT_SHAREMODE_EXCLUSIVE
 
@@ -81,7 +82,7 @@ The buffer capacity as a time value. This parameter is of type <b>REFERENCE_TIME
 
 ### -param hnsPeriodicity [in]
 
-The device period. This parameter can be nonzero only in exclusive mode. In shared mode, always set this parameter to 0. In exclusive mode, this parameter specifies the requested scheduling period for successive buffer accesses by the audio endpoint device. If the requested device period lies outside the range that is set by the device's minimum period and the system's maximum period, then the method clamps the period to that range. If this parameter is 0, the method sets the device period to its default value. To obtain the default device period, call the <a href="https://docs.microsoft.com/windows/win32/api/audioclient/nf-audioclient-iaudioclient-getdeviceperiod">IAudioClient::GetDevicePeriod</a> method. If the AUDCLNT_STREAMFLAGS_EVENTCALLBACK stream flag is set and  AUDCLNT_SHAREMODE_EXCLUSIVE is set as the  ShareMode, then <i>hnsPeriodicity</i> must be nonzero and equal to <i>hnsBufferDuration</i>.
+The device period. This parameter can be nonzero only in exclusive mode. In shared mode, always set this parameter to 0. In exclusive mode, this parameter specifies the requested scheduling period for successive buffer accesses by the audio endpoint device. If the requested device period lies outside the range that is set by the device's minimum period and the system's maximum period, then the method clamps the period to that range. If this parameter is 0, the method sets the device period to its default value. To obtain the default device period, call the <a href="/windows/win32/api/audioclient/nf-audioclient-iaudioclient-getdeviceperiod">IAudioClient::GetDevicePeriod</a> method. If the AUDCLNT_STREAMFLAGS_EVENTCALLBACK stream flag is set and  AUDCLNT_SHAREMODE_EXCLUSIVE is set as the  ShareMode, then <i>hnsPeriodicity</i> must be nonzero and equal to <i>hnsBufferDuration</i>.
 
 
 ### -param pFormat [in]
@@ -149,7 +150,7 @@ The requested buffer size is not aligned. This code can be returned for a render
 <td width="60%">
 <div class="alert"><b>Note</b>  Applies to Windows 7 and later.</div>
 <div> </div>
-Indicates that the buffer duration value requested by an exclusive-mode client is out of range. The requested duration value for pull mode must not be greater than 500 milliseconds; for push mode the duration value must not be greater than 2 seconds.
+Indicates that the buffer duration value requested by an exclusive-mode client is out of range. The requested duration value for pull mode must not be greater than 5000 milliseconds; for push mode the duration value must not be greater than 2 seconds.
 
 </td>
 </tr>
@@ -209,7 +210,7 @@ The method failed to create the audio endpoint for the render or the capture dev
 <td width="60%">
 <div class="alert"><b>Note</b>  Applies to Windows 7 and later.</div>
 <div> </div>
-Indicates that the device period requested by an exclusive-mode client is greater than 500 milliseconds.
+Indicates that the device period requested by an exclusive-mode client is greater than 5000 milliseconds.
 
 </td>
 </tr>

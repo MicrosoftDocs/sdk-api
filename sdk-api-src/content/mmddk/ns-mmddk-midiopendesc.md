@@ -1,7 +1,8 @@
 ---
 UID: NS:mmddk.midiopendesc_tag
 title: MIDIOPENDESC (mmddk.h)
-description: The MIDIOPENDESC structure is a client-filled structure that provides information about how to open a MIDI device.helpviewer_keywords: ["*LPMIDIOPENDESC","MIDIOPENDESC","MIDIOPENDESC structure [Audio Devices]","aud-prop_47abc723-0254-493a-9bc0-ac9faa73a2e8.xml","audio.midiopendesc","mmddk/MIDIOPENDESC"]
+description: The MIDIOPENDESC structure is a client-filled structure that provides information about how to open a MIDI device.
+helpviewer_keywords: ["*LPMIDIOPENDESC","MIDIOPENDESC","MIDIOPENDESC structure [Audio Devices]","aud-prop_47abc723-0254-493a-9bc0-ac9faa73a2e8.xml","audio.midiopendesc","mmddk/MIDIOPENDESC"]
 old-location: audio\midiopendesc.htm
 tech.root: audio
 ms.assetid: 7aacfd83-0188-4858-91e4-a6ce12a7e46d

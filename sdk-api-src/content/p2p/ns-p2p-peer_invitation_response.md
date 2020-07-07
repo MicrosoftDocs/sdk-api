@@ -1,7 +1,8 @@
 ---
 UID: NS:p2p.peer_invitation_response_tag
 title: PEER_INVITATION_RESPONSE (p2p.h)
-description: The PEER_INVITATION_RESPONSE structure contains a response to an invitation to join a peer collaboration activity.helpviewer_keywords: ["*PPEER_INVITATION_RESPONSE","PCPEER_INVITATION_RESPONSE","PCPEER_INVITATION_RESPONSE structure pointer [Peer Networking]","PEER_INVITATION_RESPONSE","PEER_INVITATION_RESPONSE structure [Peer Networking]","PPEER_INVITATION_RESPONSE","PPEER_INVITATION_RESPONSE structure pointer [Peer Networking]","p2p.peer_invitation_response","p2p/PCPEER_INVITATION_RESPONSE","p2p/PEER_INVITATION_RESPONSE","p2p/PPEER_INVITATION_RESPONSE"]
+description: The PEER_INVITATION_RESPONSE structure contains a response to an invitation to join a peer collaboration activity.
+helpviewer_keywords: ["*PPEER_INVITATION_RESPONSE","PCPEER_INVITATION_RESPONSE","PCPEER_INVITATION_RESPONSE structure pointer [Peer Networking]","PEER_INVITATION_RESPONSE","PEER_INVITATION_RESPONSE structure [Peer Networking]","PPEER_INVITATION_RESPONSE","PPEER_INVITATION_RESPONSE structure pointer [Peer Networking]","p2p.peer_invitation_response","p2p/PCPEER_INVITATION_RESPONSE","p2p/PEER_INVITATION_RESPONSE","p2p/PPEER_INVITATION_RESPONSE"]
 old-location: p2p\peer_invitation_response.htm
 tech.root: P2PSdk
 ms.assetid: 9f77c471-ef05-442f-aeae-afe67319b0ff
@@ -60,7 +61,7 @@ The <b>PEER_INVITATION_RESPONSE</b> structure contains a response to an invitati
 ### -field action
 
 
-[PEER_INVITATION_RESPONSE_TYPE](/windows/win32/api/p2p/ne-p2p-peer_invitation_response_type)a> enumeration value that specifies the action the peer takes in response to the invitation.
+[PEER_INVITATION_RESPONSE_TYPE](/windows/win32/api/p2p/ne-p2p-peer_invitation_response_type) enumeration value that specifies the action the peer takes in response to the invitation.
 
 
 ### -field pwzMessage

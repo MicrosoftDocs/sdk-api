@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1Factory.GetDesktopDpi
 title: ID2D1Factory::GetDesktopDpi (d2d1.h)
-description: Retrieves the current desktop dots per inch (DPI). To refresh this value, call ReloadSystemMetrics.helpviewer_keywords: ["GetDesktopDpi","GetDesktopDpi method [Direct2D]","GetDesktopDpi method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","GetDesktopDpi method","ID2D1Factory.GetDesktopDpi","ID2D1Factory::GetDesktopDpi","d2d1/ID2D1Factory::GetDesktopDpi","direct2d.ID2D1Factory_GetDesktopDpi"]
+description: Retrieves the current desktop dots per inch (DPI). To refresh this value, call ReloadSystemMetrics.
+helpviewer_keywords: ["GetDesktopDpi","GetDesktopDpi method [Direct2D]","GetDesktopDpi method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","GetDesktopDpi method","ID2D1Factory.GetDesktopDpi","ID2D1Factory::GetDesktopDpi","d2d1/ID2D1Factory::GetDesktopDpi","direct2d.ID2D1Factory_GetDesktopDpi"]
 old-location: direct2d\ID2D1Factory_GetDesktopDpi.htm
 tech.root: Direct2D
 ms.assetid: dd46252b-80eb-42c2-a2b4-5c49ef124bd5
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Retrieves the current desktop dots per inch (DPI). To refresh this value, call <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1factory-reloadsystemmetrics">ReloadSystemMetrics</a>.
+Retrieves the current desktop dots per inch (DPI). To refresh this value, call <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1factory-reloadsystemmetrics">ReloadSystemMetrics</a>.
 
 
 ## -parameters
@@ -78,7 +79,7 @@ When this method returns, contains the vertical DPI of the desktop. You must all
 Use this method to obtain the system DPI when setting physical pixel values, such as when you specify the size of a window.
 
 
-#### Examples
+## Examples
 
 The following code uses the <b>GetDesktopDpi</b> method to obtain the system DPI and set the initial size of a window.
 
@@ -112,7 +113,7 @@ The following code uses the <b>GetDesktopDpi</b> method to obtain the system DPI
 ```
 
 
-For more information about enabling high-DPI scenarios, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to--size-a-window-properly-for-high-dpi-displays">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>.
+For more information about enabling high-DPI scenarios, see <a href="/windows/win32/Direct2D/how-to--size-a-window-properly-for-high-dpi-displays">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>.
 
 <div class="code"></div>
 
@@ -123,11 +124,11 @@ For more information about enabling high-DPI scenarios, see <a href="https://doc
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to--size-a-window-properly-for-high-dpi-displays">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>
+<a href="/windows/win32/Direct2D/how-to--size-a-window-properly-for-high-dpi-displays">How to Ensure that Your Application Displays Properly on High-DPI Displays</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
  
 
  

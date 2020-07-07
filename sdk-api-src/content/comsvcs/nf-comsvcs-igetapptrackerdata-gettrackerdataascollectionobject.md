@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IGetAppTrackerData.GetTrackerDataAsCollectionObject
 title: IGetAppTrackerData::GetTrackerDataAsCollectionObject (comsvcs.h)
-description: Retrieves tracking data for all COM+ applications in the form of a collection object.helpviewer_keywords: ["GetTrackerDataAsCollectionObject","GetTrackerDataAsCollectionObject method [COM+]","GetTrackerDataAsCollectionObject method [COM+]","IGetAppTrackerData interface","IGetAppTrackerData interface [COM+]","GetTrackerDataAsCollectionObject method","IGetAppTrackerData.GetTrackerDataAsCollectionObject","IGetAppTrackerData::GetTrackerDataAsCollectionObject","comsvcs/IGetAppTrackerData::GetTrackerDataAsCollectionObject","cos.igetapptrackerdata_gettrackerdataascollectionobject"]
+description: Retrieves tracking data for all COM+ applications in the form of a collection object.
+helpviewer_keywords: ["GetTrackerDataAsCollectionObject","GetTrackerDataAsCollectionObject method [COM+]","GetTrackerDataAsCollectionObject method [COM+]","IGetAppTrackerData interface","IGetAppTrackerData interface [COM+]","GetTrackerDataAsCollectionObject method","IGetAppTrackerData.GetTrackerDataAsCollectionObject","IGetAppTrackerData::GetTrackerDataAsCollectionObject","comsvcs/IGetAppTrackerData::GetTrackerDataAsCollectionObject","cos.igetapptrackerdata_gettrackerdataascollectionobject"]
 old-location: cos\igetapptrackerdata_gettrackerdataascollectionobject.htm
 tech.root: cossdk
 ms.assetid: 215523ad-5f18-4529-8b23-afbd1b738fb5

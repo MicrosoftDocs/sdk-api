@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFPMPClientApp.SetPMPHost
 title: IMFPMPClientApp::SetPMPHost (mfidl.h)
-description: Sets a pointer to the IMFPMPHostApp interface allowing a media source to create objects in the PMP process.helpviewer_keywords: ["IMFPMPClientApp interface [Media Foundation]","SetPMPHost method","IMFPMPClientApp.SetPMPHost","IMFPMPClientApp::SetPMPHost","SetPMPHost","SetPMPHost method [Media Foundation]","SetPMPHost method [Media Foundation]","IMFPMPClientApp interface","mf.imfpmpclientapp_setpmphost","mfidl/IMFPMPClientApp::SetPMPHost"]
+description: Sets a pointer to the IMFPMPHostApp interface allowing a media source to create objects in the PMP process.
+helpviewer_keywords: ["IMFPMPClientApp interface [Media Foundation]","SetPMPHost method","IMFPMPClientApp.SetPMPHost","IMFPMPClientApp::SetPMPHost","SetPMPHost","SetPMPHost method [Media Foundation]","SetPMPHost method [Media Foundation]","IMFPMPClientApp interface","mf.imfpmpclientapp_setpmphost","mfidl/IMFPMPClientApp::SetPMPHost"]
 old-location: mf\imfpmpclientapp_setpmphost.htm
 tech.root: medfound
 ms.assetid: 8809e691-f0cf-4c1f-8409-5e7fbac46b16

@@ -1,7 +1,8 @@
 ---
 UID: NN:wsdhost.IWSDServiceMessaging
 title: IWSDServiceMessaging (wsdhost.h)
-description: Is used by generated stub code to send faults or responses to incoming messages.helpviewer_keywords: ["IWSDServiceMessaging","IWSDServiceMessaging interface","IWSDServiceMessaging interface","described","ncd.iwsdservicemessaging","wsdhost/IWSDServiceMessaging"]
+description: Is used by generated stub code to send faults or responses to incoming messages.
+helpviewer_keywords: ["IWSDServiceMessaging","IWSDServiceMessaging interface","IWSDServiceMessaging interface","described","ncd.iwsdservicemessaging","wsdhost/IWSDServiceMessaging"]
 old-location: ncd\iwsdservicemessaging.htm
 tech.root: WsdApi
 ms.assetid: 06584474-1c55-43db-9c7a-fefea8d16eed

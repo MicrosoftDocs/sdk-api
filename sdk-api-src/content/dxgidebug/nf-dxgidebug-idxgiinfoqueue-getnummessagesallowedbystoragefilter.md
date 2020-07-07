@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.GetNumMessagesAllowedByStorageFilter
 title: IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter (dxgidebug.h)
-description: Gets the number of messages that a storage filter allowed to pass through.helpviewer_keywords: ["GetNumMessagesAllowedByStorageFilter","GetNumMessagesAllowedByStorageFilter method [DXGI]","GetNumMessagesAllowedByStorageFilter method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetNumMessagesAllowedByStorageFilter method","IDXGIInfoQueue.GetNumMessagesAllowedByStorageFilter","IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter","direct3ddxgi.idxgiinfoqueue_getnummessagesallowedbystoragefilter","dxgidebug/IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter"]
+description: Gets the number of messages that a storage filter allowed to pass through.
+helpviewer_keywords: ["GetNumMessagesAllowedByStorageFilter","GetNumMessagesAllowedByStorageFilter method [DXGI]","GetNumMessagesAllowedByStorageFilter method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","GetNumMessagesAllowedByStorageFilter method","IDXGIInfoQueue.GetNumMessagesAllowedByStorageFilter","IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter","direct3ddxgi.idxgiinfoqueue_getnummessagesallowedbystoragefilter","dxgidebug/IDXGIInfoQueue::GetNumMessagesAllowedByStorageFilter"]
 old-location: direct3ddxgi\idxgiinfoqueue_getnummessagesallowedbystoragefilter.htm
 tech.root: direct3ddxgi
 ms.assetid: B838A0D9-6888-46BF-AE18-8C3546535037

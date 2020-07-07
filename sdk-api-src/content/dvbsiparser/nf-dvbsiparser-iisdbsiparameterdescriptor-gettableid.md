@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbSIParameterDescriptor.GetTableId
 title: IIsdbSIParameterDescriptor::GetTableId (dvbsiparser.h)
-description: Gets an identifier for a table descriptor in a service information (SI) parameter descriptor.helpviewer_keywords: ["GetTableId","GetTableId method [Microsoft TV Technologies]","GetTableId method [Microsoft TV Technologies]","IIsdbSIParameterDescriptor interface","IIsdbSIParameterDescriptor interface [Microsoft TV Technologies]","GetTableId method","IIsdbSIParameterDescriptor.GetTableId","IIsdbSIParameterDescriptor::GetTableId","dvbsiparser/IIsdbSIParameterDescriptor::GetTableId","mstv.iisdbsiparameterdescriptor_gettableid"]
+description: Gets an identifier for a table descriptor in a service information (SI) parameter descriptor.
+helpviewer_keywords: ["GetTableId","GetTableId method [Microsoft TV Technologies]","GetTableId method [Microsoft TV Technologies]","IIsdbSIParameterDescriptor interface","IIsdbSIParameterDescriptor interface [Microsoft TV Technologies]","GetTableId method","IIsdbSIParameterDescriptor.GetTableId","IIsdbSIParameterDescriptor::GetTableId","dvbsiparser/IIsdbSIParameterDescriptor::GetTableId","mstv.iisdbsiparameterdescriptor_gettableid"]
 old-location: mstv\iisdbsiparameterdescriptor_gettableid.htm
 tech.root: mstv
 ms.assetid: 43b19e3d-20b0-4356-9c84-f47006635e2c

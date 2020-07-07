@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IMediaSeeking.IsFormatSupported
 title: IMediaSeeking::IsFormatSupported (strmif.h)
-description: The IsFormatSupported method determines whether a specified time format is supported for seek operations.helpviewer_keywords: ["IMediaSeeking interface [DirectShow]","IsFormatSupported method","IMediaSeeking.IsFormatSupported","IMediaSeeking::IsFormatSupported","IMediaSeekingIsFormatSupported","IsFormatSupported","IsFormatSupported method [DirectShow]","IsFormatSupported method [DirectShow]","IMediaSeeking interface","dshow.imediaseeking_isformatsupported","strmif/IMediaSeeking::IsFormatSupported"]
+description: The IsFormatSupported method determines whether a specified time format is supported for seek operations.
+helpviewer_keywords: ["IMediaSeeking interface [DirectShow]","IsFormatSupported method","IMediaSeeking.IsFormatSupported","IMediaSeeking::IsFormatSupported","IMediaSeekingIsFormatSupported","IsFormatSupported","IsFormatSupported method [DirectShow]","IsFormatSupported method [DirectShow]","IMediaSeeking interface","dshow.imediaseeking_isformatsupported","strmif/IMediaSeeking::IsFormatSupported"]
 old-location: dshow\imediaseeking_isformatsupported.htm
 tech.root: DirectShow
 ms.assetid: 443a8dbc-c12a-4d50-9005-1fedf701f6fd

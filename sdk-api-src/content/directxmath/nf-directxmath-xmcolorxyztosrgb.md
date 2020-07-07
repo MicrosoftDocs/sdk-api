@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMColorXYZToSRGB
 title: XMColorXYZToSRGB function (directxmath.h)
-description: Converts XYZ color values to SRGB color values.helpviewer_keywords: ["Use DirectX..XMColorXYZToSRGB","XMColorXYZToSRGB","XMColorXYZToSRGB method [DirectX Math Support APIs]","dxmath.xmcolorxyztosrgb"]
+description: Converts XYZ color values to SRGB color values.
+helpviewer_keywords: ["Use DirectX..XMColorXYZToSRGB","XMColorXYZToSRGB","XMColorXYZToSRGB method [DirectX Math Support APIs]","dxmath.xmcolorxyztosrgb"]
 old-location: dxmath\xmcolorxyztosrgb.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorXYZToSRGB(XMVECTOR)

@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer
 title: IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer (mileffects.h)
-description: Gets a value that indicates whether to use software rendering.helpviewer_keywords: ["GetUseSoftwareRenderer","GetUseSoftwareRenderer method [WPF Bitmap Effects]","GetUseSoftwareRenderer method [WPF Bitmap Effects]","IMILBitmapEffectRenderContextImpl interface","IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects]","GetUseSoftwareRenderer method","IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer","IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer","_wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer","mileffects/IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer","wibe._wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer"]
+description: Gets a value that indicates whether to use software rendering.
+helpviewer_keywords: ["GetUseSoftwareRenderer","GetUseSoftwareRenderer method [WPF Bitmap Effects]","GetUseSoftwareRenderer method [WPF Bitmap Effects]","IMILBitmapEffectRenderContextImpl interface","IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects]","GetUseSoftwareRenderer method","IMILBitmapEffectRenderContextImpl.GetUseSoftwareRenderer","IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer","_wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer","mileffects/IMILBitmapEffectRenderContextImpl::GetUseSoftwareRenderer","wibe._wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_getusesoftwarerenderer.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\getusesoftwarerenderer.htm

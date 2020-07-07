@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkDisp
 title: IInkDisp (msinkaut.h)
-description: .helpviewer_keywords: ["IInkDisp","IInkDisp interface [Tablet PC]","IInkDisp interface [Tablet PC]","described","msinkaut/IInkDisp","tablet.iinkdisp"]
+description: .
+helpviewer_keywords: ["IInkDisp","IInkDisp interface [Tablet PC]","IInkDisp interface [Tablet PC]","described","msinkaut/IInkDisp","tablet.iinkdisp"]
 old-location: tablet\iinkdisp.htm
 tech.root: tablet
 ms.assetid: 85B683AA-D859-4717-8C61-C0EB4BBA5F61
@@ -350,4 +351,4 @@ Gets the collection of strokes that are contained in an object or used to create
 
 ## -see-also
 
-[InkDisp class](https://docs.microsoft.com/windows/win32/tablet/inkdisp-class)
+[InkDisp class](/windows/win32/tablet/inkdisp-class)

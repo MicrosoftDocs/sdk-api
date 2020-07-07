@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ISystemAppEventData.OnDataChanged
 title: ISystemAppEventData::OnDataChanged (comsvcs.h)
-description: Generated when the configuration of a COM+ application instance is changed.helpviewer_keywords: ["ISystemAppEventData interface [COM+]","OnDataChanged method","ISystemAppEventData.OnDataChanged","ISystemAppEventData::OnDataChanged","OnDataChanged","OnDataChanged method [COM+]","OnDataChanged method [COM+]","ISystemAppEventData interface","_dtc_ISystemAppEventData_OnDataChanged","comsvcs/ISystemAppEventData::OnDataChanged","cos.isystemappeventdata_ondatachanged"]
+description: Generated when the configuration of a COM+ application instance is changed.
+helpviewer_keywords: ["ISystemAppEventData interface [COM+]","OnDataChanged method","ISystemAppEventData.OnDataChanged","ISystemAppEventData::OnDataChanged","OnDataChanged","OnDataChanged method [COM+]","OnDataChanged method [COM+]","ISystemAppEventData interface","_dtc_ISystemAppEventData_OnDataChanged","comsvcs/ISystemAppEventData::OnDataChanged","cos.isystemappeventdata_ondatachanged"]
 old-location: cos\isystemappeventdata_ondatachanged.htm
 tech.root: cossdk
 ms.assetid: db30c40e-8dd8-4055-b2c4-71f9d0c2efc4

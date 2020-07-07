@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetKeyboardType
 title: GetKeyboardType function (winuser.h)
-description: Retrieves information about the current keyboard.helpviewer_keywords: ["GetKeyboardType","GetKeyboardType function [Keyboard and Mouse Input]","_win32_getkeyboardtype","base.getkeyboardtype","inputdev.getkeyboardtype","winui.getkeyboardtype","winuser/GetKeyboardType"]
+description: Retrieves information about the current keyboard.
+helpviewer_keywords: ["GetKeyboardType","GetKeyboardType function [Keyboard and Mouse Input]","_win32_getkeyboardtype","base.getkeyboardtype","inputdev.getkeyboardtype","winui.getkeyboardtype","winuser/GetKeyboardType"]
 old-location: inputdev\getkeyboardtype.htm
 tech.root: inputdev
 ms.assetid: 39b9ba8b-0cab-465c-9a58-2b69eea7de76

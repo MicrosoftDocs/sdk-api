@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.CreateViewport
 title: IDirectManipulationManager::CreateViewport (directmanipulation.h)
-description: The factory method that is used to create a new IDirectManipulationViewport object.helpviewer_keywords: ["CreateViewport","CreateViewport method [Direct Manipulation]","CreateViewport method [Direct Manipulation]","IDirectManipulationManager interface","IDirectManipulationManager interface [Direct Manipulation]","CreateViewport method","IDirectManipulationManager.CreateViewport","IDirectManipulationManager::CreateViewport","directmanipulation.idirectmanipulationmanager_createviewport","directmanipulation/IDirectManipulationManager::CreateViewport"]
+description: The factory method that is used to create a new IDirectManipulationViewport object.
+helpviewer_keywords: ["CreateViewport","CreateViewport method [Direct Manipulation]","CreateViewport method [Direct Manipulation]","IDirectManipulationManager interface","IDirectManipulationManager interface [Direct Manipulation]","CreateViewport method","IDirectManipulationManager.CreateViewport","IDirectManipulationManager::CreateViewport","directmanipulation.idirectmanipulationmanager_createviewport","directmanipulation/IDirectManipulationManager::CreateViewport"]
 old-location: directmanipulation\idirectmanipulationmanager_createviewport.htm
 tech.root: directmanipulation
 ms.assetid: 82a0146d-89c1-4672-93a9-e8f406b03d4e

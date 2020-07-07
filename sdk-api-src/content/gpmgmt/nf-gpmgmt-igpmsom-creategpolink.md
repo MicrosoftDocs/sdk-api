@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.CreateGPOLink
 title: IGPMSOM::CreateGPOLink (gpmgmt.h)
-description: Links the specified GPO to the specified position in the list of GPOs that are linked to a particular SOM.helpviewer_keywords: ["CreateGPOLink","CreateGPOLink method [GPMC]","CreateGPOLink method [GPMC]","GPMSOM class","CreateGPOLink method [GPMC]","IGPMSOM interface","GPMSOM class [GPMC]","CreateGPOLink method","IGPMSOM interface [GPMC]","CreateGPOLink method","IGPMSOM.CreateGPOLink","IGPMSOM::CreateGPOLink","_win32_igpmsom_creategpolink","gpmc.igpmsom_creategpolink","gpmgmt/IGPMSOM::CreateGPOLink"]
+description: Links the specified GPO to the specified position in the list of GPOs that are linked to a particular SOM.
+helpviewer_keywords: ["CreateGPOLink","CreateGPOLink method [GPMC]","CreateGPOLink method [GPMC]","GPMSOM class","CreateGPOLink method [GPMC]","IGPMSOM interface","GPMSOM class [GPMC]","CreateGPOLink method","IGPMSOM interface [GPMC]","CreateGPOLink method","IGPMSOM.CreateGPOLink","IGPMSOM::CreateGPOLink","_win32_igpmsom_creategpolink","gpmc.igpmsom_creategpolink","gpmgmt/IGPMSOM::CreateGPOLink"]
 old-location: gpmc\igpmsom_creategpolink.htm
 tech.root: gpmc
 ms.assetid: 2f3d8234-617f-4ce4-846a-476c28251989

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmpservices.IWMPGraphCreation.GraphCreationPostRender
 title: IWMPGraphCreation::GraphCreationPostRender (wmpservices.h)
-description: The GraphCreationPostRender method is called by Windows Media Player after a file has been rendered.helpviewer_keywords: ["GraphCreationPostRender","GraphCreationPostRender method [Windows Media Player]","GraphCreationPostRender method [Windows Media Player]","IWMPGraphCreation interface","IWMPGraphCreation interface [Windows Media Player]","GraphCreationPostRender method","IWMPGraphCreation.GraphCreationPostRender","IWMPGraphCreation::GraphCreationPostRender","IWMPGraphCreationGraphCreationPostRenderdeprecated","wmp.iwmpgraphcreation_graphcreationpostrender","wmpservices/IWMPGraphCreation::GraphCreationPostRender"]
+description: The GraphCreationPostRender method is called by Windows Media Player after a file has been rendered.
+helpviewer_keywords: ["GraphCreationPostRender","GraphCreationPostRender method [Windows Media Player]","GraphCreationPostRender method [Windows Media Player]","IWMPGraphCreation interface","IWMPGraphCreation interface [Windows Media Player]","GraphCreationPostRender method","IWMPGraphCreation.GraphCreationPostRender","IWMPGraphCreation::GraphCreationPostRender","IWMPGraphCreationGraphCreationPostRenderdeprecated","wmp.iwmpgraphcreation_graphcreationpostrender","wmpservices/IWMPGraphCreation::GraphCreationPostRender"]
 old-location: wmp\iwmpgraphcreation_graphcreationpostrender.htm
 tech.root: WMP
 ms.assetid: 243fc72e-ef97-49a6-9a50-05ec338e5faa

@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemServices.PutInstance
 title: IWbemServices::PutInstance (wbemcli.h)
-description: The IWbemServices::PutInstance method creates or updates an instance of an existing class. The instance is written to the WMI repository.helpviewer_keywords: ["IWbemServices interface [Windows Management Instrumentation]","PutInstance method","IWbemServices.PutInstance","IWbemServices::PutInstance","PutInstance","PutInstance method [Windows Management Instrumentation]","PutInstance method [Windows Management Instrumentation]","IWbemServices interface","WBEM_FLAG_CREATE_ONLY","WBEM_FLAG_CREATE_OR_UPDATE","WBEM_FLAG_RETURN_IMMEDIATELY","WBEM_FLAG_UPDATE_ONLY","WBEM_FLAG_USE_AMENDED_QUALIFIERS","_hmm_iwbemservices_putinstance","wbemcli/IWbemServices::PutInstance","wmi.iwbemservices_putinstance"]
+description: The IWbemServices::PutInstance method creates or updates an instance of an existing class. The instance is written to the WMI repository.
+helpviewer_keywords: ["IWbemServices interface [Windows Management Instrumentation]","PutInstance method","IWbemServices.PutInstance","IWbemServices::PutInstance","PutInstance","PutInstance method [Windows Management Instrumentation]","PutInstance method [Windows Management Instrumentation]","IWbemServices interface","WBEM_FLAG_CREATE_ONLY","WBEM_FLAG_CREATE_OR_UPDATE","WBEM_FLAG_RETURN_IMMEDIATELY","WBEM_FLAG_UPDATE_ONLY","WBEM_FLAG_USE_AMENDED_QUALIFIERS","_hmm_iwbemservices_putinstance","wbemcli/IWbemServices::PutInstance","wmi.iwbemservices_putinstance"]
 old-location: wmi\iwbemservices_putinstance.htm
 tech.root: WmiSdk
 ms.assetid: 1e07b328-40f7-4e14-bf53-9a5cebfc23f6

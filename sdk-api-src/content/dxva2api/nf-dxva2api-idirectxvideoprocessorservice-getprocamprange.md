@@ -1,7 +1,8 @@
 ---
 UID: NF:dxva2api.IDirectXVideoProcessorService.GetProcAmpRange
 title: IDirectXVideoProcessorService::GetProcAmpRange (dxva2api.h)
-description: Gets the range of values for a video processor (ProcAmp) setting.helpviewer_keywords: ["GetProcAmpRange","GetProcAmpRange method [Media Foundation]","GetProcAmpRange method [Media Foundation]","IDirectXVideoProcessorService interface","IDirectXVideoProcessorService interface [Media Foundation]","GetProcAmpRange method","IDirectXVideoProcessorService.GetProcAmpRange","IDirectXVideoProcessorService::GetProcAmpRange","b4945e2f-6907-4e02-9719-89c8e0bf1404","dxva2api/IDirectXVideoProcessorService::GetProcAmpRange","mf.idirectxvideoprocessorservice_getprocamprange"]
+description: Gets the range of values for a video processor (ProcAmp) setting.
+helpviewer_keywords: ["GetProcAmpRange","GetProcAmpRange method [Media Foundation]","GetProcAmpRange method [Media Foundation]","IDirectXVideoProcessorService interface","IDirectXVideoProcessorService interface [Media Foundation]","GetProcAmpRange method","IDirectXVideoProcessorService.GetProcAmpRange","IDirectXVideoProcessorService::GetProcAmpRange","b4945e2f-6907-4e02-9719-89c8e0bf1404","dxva2api/IDirectXVideoProcessorService::GetProcAmpRange","mf.idirectxvideoprocessorservice_getprocamprange"]
 old-location: mf\idirectxvideoprocessorservice_getprocamprange.htm
 tech.root: medfound
 ms.assetid: b4945e2f-6907-4e02-9719-89c8e0bf1404

@@ -1,7 +1,8 @@
 ---
 UID: NF:certpoleng.PstMapCertificate
 title: PstMapCertificate function (certpoleng.h)
-description: Retrieves a structure that specifies information that can be used to create a user token associated with the specified certificate.helpviewer_keywords: ["PstMapCertificate","PstMapCertificate function [Security]","certpoleng/PstMapCertificate","security.pstmapcertificate"]
+description: Retrieves a structure that specifies information that can be used to create a user token associated with the specified certificate.
+helpviewer_keywords: ["PstMapCertificate","PstMapCertificate function [Security]","certpoleng/PstMapCertificate","security.pstmapcertificate"]
 old-location: security\pstmapcertificate.htm
 tech.root: SecAuthN
 ms.assetid: b4e7e3b0-97ec-4c59-b2a1-cb83a27df94d

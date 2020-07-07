@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IBroadcastEvent.Fire
 title: IBroadcastEvent::Fire (tuner.h)
-description: The Fire method fires a broadcast event.helpviewer_keywords: ["Fire","Fire method [Microsoft TV Technologies]","Fire method [Microsoft TV Technologies]","IBroadcastEvent interface","IBroadcastEvent interface [Microsoft TV Technologies]","Fire method","IBroadcastEvent.Fire","IBroadcastEvent::Fire","IBroadcastEventFire","mstv.ibroadcastevent_fire","tuner/IBroadcastEvent::Fire"]
+description: The Fire method fires a broadcast event.
+helpviewer_keywords: ["Fire","Fire method [Microsoft TV Technologies]","Fire method [Microsoft TV Technologies]","IBroadcastEvent interface","IBroadcastEvent interface [Microsoft TV Technologies]","Fire method","IBroadcastEvent.Fire","IBroadcastEvent::Fire","IBroadcastEventFire","mstv.ibroadcastevent_fire","tuner/IBroadcastEvent::Fire"]
 old-location: mstv\ibroadcastevent_fire.htm
 tech.root: mstv
 ms.assetid: 974b42d7-bf68-426b-a146-4e520cac3274

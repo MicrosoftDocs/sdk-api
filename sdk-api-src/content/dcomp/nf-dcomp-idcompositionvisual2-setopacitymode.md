@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionVisual2.SetOpacityMode
 title: IDCompositionVisual2::SetOpacityMode (dcomp.h)
-description: Sets the opacity mode for this visual.helpviewer_keywords: ["IDCompositionVisual2 interface [DirectComposition]","SetOpacityMode method","IDCompositionVisual2.SetOpacityMode","IDCompositionVisual2::SetOpacityMode","SetOpacityMode","SetOpacityMode method [DirectComposition]","SetOpacityMode method [DirectComposition]","IDCompositionVisual2 interface","dcomp/IDCompositionVisual2::SetOpacityMode","directcomp.idcompositionvisual2_setopacitymode"]
+description: Sets the opacity mode for this visual.
+helpviewer_keywords: ["IDCompositionVisual2 interface [DirectComposition]","SetOpacityMode method","IDCompositionVisual2.SetOpacityMode","IDCompositionVisual2::SetOpacityMode","SetOpacityMode","SetOpacityMode method [DirectComposition]","SetOpacityMode method [DirectComposition]","IDCompositionVisual2 interface","dcomp/IDCompositionVisual2::SetOpacityMode","directcomp.idcompositionvisual2_setopacitymode"]
 old-location: directcomp\idcompositionvisual2_setopacitymode.htm
 tech.root: directcomp
 ms.assetid: 8802266E-9D31-409E-ACE8-62A3E9E93EA3
@@ -94,7 +95,7 @@ If the <i>opacityMode</i> parameter is anything other than DCOMPOSITION_OPACITY_
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/dcomp/nf-dcomp-idcompositioneffectgroup-setopacity(float)">IDCompositionEffectGroup::SetOpacity</a>
+<a href="/windows/win32/api/dcomp/nf-dcomp-idcompositioneffectgroup-setopacity(float)">IDCompositionEffectGroup::SetOpacity</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.Disconnect
 title: IRpcStubBuffer::Disconnect (objidlbase.h)
-description: Disconnects a server stub from any interface to which it is connected.helpviewer_keywords: ["Disconnect","Disconnect method [COM]","Disconnect method [COM]","IRpcStubBuffer interface","IRpcStubBuffer interface [COM]","Disconnect method","IRpcStubBuffer.Disconnect","IRpcStubBuffer::Disconnect","_com_irpcstubbuffer_disconnect","com.irpcstubbuffer_disconnect","objidlbase/IRpcStubBuffer::Disconnect"]
+description: Disconnects a server stub from any interface to which it is connected.
+helpviewer_keywords: ["Disconnect","Disconnect method [COM]","Disconnect method [COM]","IRpcStubBuffer interface","IRpcStubBuffer interface [COM]","Disconnect method","IRpcStubBuffer.Disconnect","IRpcStubBuffer::Disconnect","_com_irpcstubbuffer_disconnect","com.irpcstubbuffer_disconnect","objidlbase/IRpcStubBuffer::Disconnect"]
 old-location: com\irpcstubbuffer_disconnect.htm
 tech.root: com
 ms.assetid: da0ecd2b-a445-4ecb-a003-ef07fa1d0458

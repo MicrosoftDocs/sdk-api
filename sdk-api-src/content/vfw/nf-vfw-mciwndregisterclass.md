@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndRegisterClass
 title: MCIWndRegisterClass function (vfw.h)
-description: The MCIWndRegisterClass function registers the MCI window class MCIWND_WINDOW_CLASS.helpviewer_keywords: ["MCIWndRegisterClass","MCIWndRegisterClass function [Windows Multimedia]","_win32_MCIWndRegisterClass","multimedia.mciwndregisterclass","vfw/MCIWndRegisterClass"]
+description: The MCIWndRegisterClass function registers the MCI window class MCIWND_WINDOW_CLASS.
+helpviewer_keywords: ["MCIWndRegisterClass","MCIWndRegisterClass function [Windows Multimedia]","_win32_MCIWndRegisterClass","multimedia.mciwndregisterclass","vfw/MCIWndRegisterClass"]
 old-location: multimedia\mciwndregisterclass.htm
 tech.root: Multimedia
 ms.assetid: e5b7964a-ec2b-4fef-912d-f702cb3ee05c

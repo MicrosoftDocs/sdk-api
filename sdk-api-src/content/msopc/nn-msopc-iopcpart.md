@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcPart
 title: IOpcPart (msopc.h)
-description: Represents a part that contains data and is not a Relationships part.helpviewer_keywords: ["IOpcPart","IOpcPart interface [Open Packaging Conventions]","IOpcPart interface [Open Packaging Conventions]","described","msopc/IOpcPart","opc.iopcpart"]
+description: Represents a part that contains data and is not a Relationships part.
+helpviewer_keywords: ["IOpcPart","IOpcPart interface [Open Packaging Conventions]","IOpcPart interface [Open Packaging Conventions]","described","msopc/IOpcPart","opc.iopcpart"]
 old-location: opc\iopcpart.htm
 tech.root: OPC
 ms.assetid: e6a40f30-03d1-4c93-a5e0-563b4c6588b4
@@ -215,7 +216,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_compression_options">OPC_COMPRESSION_OPTIONS</a>
 
 
 

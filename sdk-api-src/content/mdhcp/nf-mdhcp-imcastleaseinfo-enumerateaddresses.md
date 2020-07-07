@@ -1,7 +1,8 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.EnumerateAddresses
 title: IMcastLeaseInfo::EnumerateAddresses (mdhcp.h)
-description: The EnumerateAddresses method obtains the collection of multicast addresses that are the subject of this lease or lease request. This method is primarily for C++ programmers. Visual Basic and other scripting languages use get_Addresses instead.helpviewer_keywords: ["EnumerateAddresses","EnumerateAddresses method [TAPI 2.2]","EnumerateAddresses method [TAPI 2.2]","IMcastLeaseInfo interface","IMcastLeaseInfo interface [TAPI 2.2]","EnumerateAddresses method","IMcastLeaseInfo.EnumerateAddresses","IMcastLeaseInfo::EnumerateAddresses","_tapi3_imcastleaseinfo_enumerateaddresses","mdhcp/IMcastLeaseInfo::EnumerateAddresses","tapi3.imcastleaseinfo_enumerateaddresses"]
+description: The EnumerateAddresses method obtains the collection of multicast addresses that are the subject of this lease or lease request. This method is primarily for C++ programmers. Visual Basic and other scripting languages use get_Addresses instead.
+helpviewer_keywords: ["EnumerateAddresses","EnumerateAddresses method [TAPI 2.2]","EnumerateAddresses method [TAPI 2.2]","IMcastLeaseInfo interface","IMcastLeaseInfo interface [TAPI 2.2]","EnumerateAddresses method","IMcastLeaseInfo.EnumerateAddresses","IMcastLeaseInfo::EnumerateAddresses","_tapi3_imcastleaseinfo_enumerateaddresses","mdhcp/IMcastLeaseInfo::EnumerateAddresses","tapi3.imcastleaseinfo_enumerateaddresses"]
 old-location: tapi3\imcastleaseinfo_enumerateaddresses.htm
 tech.root: Tapi
 ms.assetid: edbfe386-9b3d-4160-916e-6c9ea640cfbc

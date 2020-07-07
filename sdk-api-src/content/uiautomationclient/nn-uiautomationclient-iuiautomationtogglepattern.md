@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationTogglePattern
 title: IUIAutomationTogglePattern (uiautomationclient.h)
-description: Provides access to a control that can cycle through a set of states, and maintain a state after it is set.helpviewer_keywords: ["IUIAutomationTogglePattern","IUIAutomationTogglePattern interface [Windows Accessibility]","IUIAutomationTogglePattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationTogglePattern","uiauto_IUIAutomationTogglePattern","uiautomationclient/IUIAutomationTogglePattern","winauto.uiauto_IUIAutomationTogglePattern"]
+description: Provides access to a control that can cycle through a set of states, and maintain a state after it is set.
+helpviewer_keywords: ["IUIAutomationTogglePattern","IUIAutomationTogglePattern interface [Windows Accessibility]","IUIAutomationTogglePattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationTogglePattern","uiauto_IUIAutomationTogglePattern","uiautomationclient/IUIAutomationTogglePattern","winauto.uiauto_IUIAutomationTogglePattern"]
 old-location: winauto\uiauto_IUIAutomationTogglePattern.htm
 tech.root: WinAuto
 ms.assetid: f2e69387-271f-4f85-85d5-19ba5d231f85

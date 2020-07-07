@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1_1.ID2D1Bitmap1
 title: ID2D1Bitmap1 (d2d1_1.h)
-description: Represents a bitmap that can be used as a surface for an ID2D1DeviceContext or mapped into system memory, and can contain additional color context information.helpviewer_keywords: ["ID2D1Bitmap1","ID2D1Bitmap1 interface [Direct2D]","ID2D1Bitmap1 interface [Direct2D]","described","d2d1_1/ID2D1Bitmap1","direct2d.id2d1bitmap1"]
+description: Represents a bitmap that can be used as a surface for an ID2D1DeviceContext or mapped into system memory, and can contain additional color context information.
+helpviewer_keywords: ["ID2D1Bitmap1","ID2D1Bitmap1 interface [Direct2D]","ID2D1Bitmap1 interface [Direct2D]","described","d2d1_1/ID2D1Bitmap1","direct2d.id2d1bitmap1"]
 old-location: direct2d\id2d1bitmap1.htm
 tech.root: Direct2D
 ms.assetid: 669a9377-248c-4a86-b447-ed117fff43a6

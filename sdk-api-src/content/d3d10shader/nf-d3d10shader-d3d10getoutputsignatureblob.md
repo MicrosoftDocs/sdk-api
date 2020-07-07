@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10shader.D3D10GetOutputSignatureBlob
 title: D3D10GetOutputSignatureBlob function (d3d10shader.h)
-description: Get a buffer that contains shader-output signatures.helpviewer_keywords: ["382beedc-1aca-4e82-21cd-d4d2e0934d38","D3D10GetOutputSignatureBlob","D3D10GetOutputSignatureBlob function [Direct3D 10]","d3d10shader/D3D10GetOutputSignatureBlob","direct3d10.d3d10getoutputsignatureblob"]
+description: Get a buffer that contains shader-output signatures.
+helpviewer_keywords: ["382beedc-1aca-4e82-21cd-d4d2e0934d38","D3D10GetOutputSignatureBlob","D3D10GetOutputSignatureBlob function [Direct3D 10]","d3d10shader/D3D10GetOutputSignatureBlob","direct3d10.d3d10getoutputsignatureblob"]
 old-location: direct3d10\d3d10getoutputsignatureblob.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getoutputsignatureblob.htm

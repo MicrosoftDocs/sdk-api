@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ISharingConfigurationManager.GetSharePermissions
 title: ISharingConfigurationManager::GetSharePermissions (shobjidl_core.h)
-description: Gets the access permissions currently associated with the User or Public folder for the Everyone access control entry (ACE).helpviewer_keywords: ["GetSharePermissions","GetSharePermissions method [Windows Shell]","GetSharePermissions method [Windows Shell]","ISharingConfigurationManager interface","ISharingConfigurationManager interface [Windows Shell]","GetSharePermissions method","ISharingConfigurationManager.GetSharePermissions","ISharingConfigurationManager::GetSharePermissions","_shell_ISharingConfigurationManager_GetSharePermissions","shell.ISharingConfigurationManager_GetSharePermissions","shobjidl_core/ISharingConfigurationManager::GetSharePermissions"]
+description: Gets the access permissions currently associated with the User or Public folder for the Everyone access control entry (ACE).
+helpviewer_keywords: ["GetSharePermissions","GetSharePermissions method [Windows Shell]","GetSharePermissions method [Windows Shell]","ISharingConfigurationManager interface","ISharingConfigurationManager interface [Windows Shell]","GetSharePermissions method","ISharingConfigurationManager.GetSharePermissions","ISharingConfigurationManager::GetSharePermissions","_shell_ISharingConfigurationManager_GetSharePermissions","shell.ISharingConfigurationManager_GetSharePermissions","shobjidl_core/ISharingConfigurationManager::GetSharePermissions"]
 old-location: shell\ISharingConfigurationManager_GetSharePermissions.htm
 tech.root: shell
 ms.assetid: d9ca5acf-2dd1-4fbe-a67f-91578d68b955

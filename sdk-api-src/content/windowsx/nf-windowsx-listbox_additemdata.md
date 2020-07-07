@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ListBox_AddItemData
 title: ListBox_AddItemData macro (windowsx.h)
-description: Adds item data to the list box at the specified location. You can use this macro or send the LB_ADDSTRING message explicitly.helpviewer_keywords: ["ListBox_AddItemData","ListBox_AddItemData macro [Windows Controls]","_win32_ListBox_AddItemData","_win32_ListBox_AddItemData_cpp","controls.ListBox_AddItemData","controls._win32_ListBox_AddItemData","windowsx/ListBox_AddItemData"]
+description: Adds item data to the list box at the specified location. You can use this macro or send the LB_ADDSTRING message explicitly.
+helpviewer_keywords: ["ListBox_AddItemData","ListBox_AddItemData macro [Windows Controls]","_win32_ListBox_AddItemData","_win32_ListBox_AddItemData_cpp","controls.ListBox_AddItemData","controls._win32_ListBox_AddItemData","windowsx/ListBox_AddItemData"]
 old-location: controls\ListBox_AddItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_additemdata.htm

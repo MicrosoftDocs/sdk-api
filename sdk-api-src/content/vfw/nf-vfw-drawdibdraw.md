@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.DrawDibDraw
 title: DrawDibDraw function (vfw.h)
-description: The DrawDibDraw function draws a DIB to the screen.helpviewer_keywords: ["DrawDibDraw","DrawDibDraw function [Windows Multimedia]","_win32_DrawDibDraw","multimedia.drawdibdraw","vfw/DrawDibDraw"]
+description: The DrawDibDraw function draws a DIB to the screen.
+helpviewer_keywords: ["DrawDibDraw","DrawDibDraw function [Windows Multimedia]","_win32_DrawDibDraw","multimedia.drawdibdraw","vfw/DrawDibDraw"]
 old-location: multimedia\drawdibdraw.htm
 tech.root: Multimedia
 ms.assetid: b503fcd8-e928-4b3c-9ff5-96b88c5fb2f4

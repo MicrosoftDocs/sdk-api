@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingprovider.TRACELOGGING_DEFINE_PROVIDER
 title: TRACELOGGING_DEFINE_PROVIDER macro (traceloggingprovider.h)
-description: Allocates storage for a TraceLogging provider and creates a handle to the provider.helpviewer_keywords: ["TRACELOGGING_DEFINE_PROVIDER","TRACELOGGING_DEFINE_PROVIDER macro","tracelogging.TRACELOGGING_DEFINE_PROVIDER","tracelogging.traceloggingprovider","traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER"]
+description: Allocates storage for a TraceLogging provider and creates a handle to the provider.
+helpviewer_keywords: ["TRACELOGGING_DEFINE_PROVIDER","TRACELOGGING_DEFINE_PROVIDER macro","tracelogging.TRACELOGGING_DEFINE_PROVIDER","tracelogging.traceloggingprovider","traceloggingprovider/TRACELOGGING_DEFINE_PROVIDER"]
 old-location: tracelogging\TRACELOGGING_DEFINE_PROVIDER.htm
 tech.root: tracelogging
 ms.assetid: 4515652D-86B0-4274-8523-27292F5F6815
@@ -81,7 +82,7 @@ The GUID of the provider group that this provider is a member of.
 
 
 
-Before using this macro, you need to declare your TraceLogging provider using <a href="https://docs.microsoft.com/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregisterex">TRACELOGGING_DECLARE_PROVIDER</a>. Once the provider is created, it is in the unregistered state. Before it can respond to any write calls, you need to register the provider using  <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister">TraceLoggingRegister</a>.
+Before using this macro, you need to declare your TraceLogging provider using <a href="/windows/win32/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregisterex">TRACELOGGING_DECLARE_PROVIDER</a>. Once the provider is created, it is in the unregistered state. Before it can respond to any write calls, you need to register the provider using  <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingregister">TraceLoggingRegister</a>.
 
 Use the <a href="https://docs.microsoft.com/windows/desktop/api/traceloggingprovider/nf-traceloggingprovider-traceloggingoptiongroup">TraceLoggingOptionGroup</a> macro to  specify the GUID of the provider group that the provider belongs to. A provider can be a member of no
 more than one group. The semantics of group membership are determined by

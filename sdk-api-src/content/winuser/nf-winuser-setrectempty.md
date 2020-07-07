@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetRectEmpty
 title: SetRectEmpty function (winuser.h)
-description: The SetRectEmpty function creates an empty rectangle in which all coordinates are set to zero.helpviewer_keywords: ["SetRectEmpty","SetRectEmpty function [Windows GDI]","_win32_SetRectEmpty","gdi.setrectempty","winuser/SetRectEmpty"]
+description: The SetRectEmpty function creates an empty rectangle in which all coordinates are set to zero.
+helpviewer_keywords: ["SetRectEmpty","SetRectEmpty function [Windows GDI]","_win32_SetRectEmpty","gdi.setrectempty","winuser/SetRectEmpty"]
 old-location: gdi\setrectempty.htm
 tech.root: gdi
 ms.assetid: d3c677ae-e45c-4d54-8521-75954a466a68

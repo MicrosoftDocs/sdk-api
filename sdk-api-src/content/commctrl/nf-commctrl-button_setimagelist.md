@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Button_SetImageList
 title: Button_SetImageList macro (commctrl.h)
-description: Assigns an image list to a button control. You can use this macro or send the BCM_SETIMAGELIST message explicitly.helpviewer_keywords: ["Button_SetImageList","Button_SetImageList macro [Windows Controls]","_win32_Button_SetImageList","_win32_Button_SetImageList_cpp","commctrl/Button_SetImageList","controls.Button_SetImageList","controls._win32_Button_SetImageList"]
+description: Assigns an image list to a button control. You can use this macro or send the BCM_SETIMAGELIST message explicitly.
+helpviewer_keywords: ["Button_SetImageList","Button_SetImageList macro [Windows Controls]","_win32_Button_SetImageList","_win32_Button_SetImageList_cpp","commctrl/Button_SetImageList","controls.Button_SetImageList","controls._win32_Button_SetImageList"]
 old-location: controls\Button_SetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setimagelist.htm

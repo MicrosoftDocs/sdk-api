@@ -1,7 +1,8 @@
 ---
 UID: NS:aclui._EFFPERM_RESULT_LIST
 title: EFFPERM_RESULT_LIST (aclui.h)
-description: Lists the effective permissions.helpviewer_keywords: ["*PEFFPERM_RESULT_LIST","EFFPERM_RESULT_LIST","EFFPERM_RESULT_LIST structure [Security]","PEFFPERM_RESULT_LIST","PEFFPERM_RESULT_LIST structure pointer [Security]","aclui/EFFPERM_RESULT_LIST","aclui/PEFFPERM_RESULT_LIST","security.effperm_result_list"]
+description: Lists the effective permissions.
+helpviewer_keywords: ["*PEFFPERM_RESULT_LIST","EFFPERM_RESULT_LIST","EFFPERM_RESULT_LIST structure [Security]","PEFFPERM_RESULT_LIST","PEFFPERM_RESULT_LIST structure pointer [Security]","aclui/EFFPERM_RESULT_LIST","aclui/PEFFPERM_RESULT_LIST","security.effperm_result_list"]
 old-location: security\effperm_result_list.htm
 tech.root: SecAuthZ
 ms.assetid: D83C5632-F67A-42BA-A146-989EBB3B2763

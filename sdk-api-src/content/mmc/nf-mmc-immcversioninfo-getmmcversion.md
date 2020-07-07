@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IMMCVersionInfo.GetMMCVersion
 title: IMMCVersionInfo::GetMMCVersion (mmc.h)
-description: The GetMMCVersion method retrieves version information for the MMC application.helpviewer_keywords: ["GetMMCVersion","GetMMCVersion method [MMC]","GetMMCVersion method [MMC]","IMMCVersionInfo interface","IMMCVersionInfo interface [MMC]","GetMMCVersion method","IMMCVersionInfo.GetMMCVersion","IMMCVersionInfo::GetMMCVersion","_slate_immcversioninfo_getmmcversion","mmc.immcversioninfo_getmmcversion","mmc/IMMCVersionInfo::GetMMCVersion"]
+description: The GetMMCVersion method retrieves version information for the MMC application.
+helpviewer_keywords: ["GetMMCVersion","GetMMCVersion method [MMC]","GetMMCVersion method [MMC]","IMMCVersionInfo interface","IMMCVersionInfo interface [MMC]","GetMMCVersion method","IMMCVersionInfo.GetMMCVersion","IMMCVersionInfo::GetMMCVersion","_slate_immcversioninfo_getmmcversion","mmc.immcversioninfo_getmmcversion","mmc/IMMCVersionInfo::GetMMCVersion"]
 old-location: mmc\immcversioninfo_getmmcversion.htm
 tech.root: mmc
 ms.assetid: 64b8cdfe-e65e-48c6-bc7a-2349140867a4

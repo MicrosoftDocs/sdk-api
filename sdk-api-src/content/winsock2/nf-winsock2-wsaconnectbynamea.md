@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSAConnectByNameA
 title: WSAConnectByNameA function (winsock2.h)
-description: Establishes a connection to a specified host and port.helpviewer_keywords: ["WSAConnectByName","WSAConnectByName function [Winsock]","WSAConnectByNameA","WSAConnectByNameW","winsock.wsaconnectbyname_2","winsock2/WSAConnectByName","winsock2/WSAConnectByNameA","winsock2/WSAConnectByNameW"]
+description: Establishes a connection to a specified host and port.
+helpviewer_keywords: ["WSAConnectByName","WSAConnectByName function [Winsock]","WSAConnectByNameA","WSAConnectByNameW","winsock.wsaconnectbyname_2","winsock2/WSAConnectByName","winsock2/WSAConnectByNameA","winsock2/WSAConnectByNameW"]
 old-location: winsock\wsaconnectbyname_2.htm
 tech.root: WinSock
 ms.assetid: 6d87699f-03bd-4579-9907-ae3c29b7332b
@@ -361,6 +362,10 @@ int __cdecl wmain(int argc, wchar_t **argv)
 
 
 
+
+
+> [!NOTE]
+> The winsock2.h header defines WSAConnectByName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

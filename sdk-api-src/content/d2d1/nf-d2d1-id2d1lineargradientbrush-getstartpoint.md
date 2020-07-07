@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1LinearGradientBrush.GetStartPoint
 title: ID2D1LinearGradientBrush::GetStartPoint (d2d1.h)
-description: Retrieves the starting coordinates of the linear gradient.helpviewer_keywords: ["GetStartPoint","GetStartPoint method [Direct2D]","GetStartPoint method [Direct2D]","ID2D1LinearGradientBrush interface","ID2D1LinearGradientBrush interface [Direct2D]","GetStartPoint method","ID2D1LinearGradientBrush.GetStartPoint","ID2D1LinearGradientBrush::GetStartPoint","d2d1/ID2D1LinearGradientBrush::GetStartPoint","direct2d.ID2D1LinearGradientBrush_GetStartPoint"]
+description: Retrieves the starting coordinates of the linear gradient.
+helpviewer_keywords: ["GetStartPoint","GetStartPoint method [Direct2D]","GetStartPoint method [Direct2D]","ID2D1LinearGradientBrush interface","ID2D1LinearGradientBrush interface [Direct2D]","GetStartPoint method","ID2D1LinearGradientBrush.GetStartPoint","ID2D1LinearGradientBrush::GetStartPoint","d2d1/ID2D1LinearGradientBrush::GetStartPoint","direct2d.ID2D1LinearGradientBrush_GetStartPoint"]
 old-location: direct2d\ID2D1LinearGradientBrush_GetStartPoint.htm
 tech.root: Direct2D
 ms.assetid: 8b79b265-4bf4-48e7-99c9-64a52d8cb6d0
@@ -63,7 +64,7 @@ Retrieves the starting coordinates of the linear gradient.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The starting two-dimensional coordinates of the linear gradient, in the brush's coordinate space.
 
@@ -84,7 +85,7 @@ The start point and end point are described in the brush's space and are mapped 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a>
  
 
  

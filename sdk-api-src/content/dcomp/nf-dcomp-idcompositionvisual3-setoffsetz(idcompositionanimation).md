@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetOffsetZ(IDCompositionAnimation)
 title: IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the OffsetZ property.helpviewer_keywords: ["IDCompositionVisual3 interface [DirectComposition]","SetOffsetZ method","IDCompositionVisual3.SetOffsetZ","IDCompositionVisual3.SetOffsetZ(IDCompositionAnimation)","IDCompositionVisual3::SetOffsetZ","IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation)","IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation*)","SetOffsetZ","SetOffsetZ method [DirectComposition]","SetOffsetZ method [DirectComposition]","IDCompositionVisual3 interface","dcomp/IDCompositionVisual3::SetOffsetZ","directcomp.idcompositionvisual3_setoffsetz_2"]
+description: Animates the value of the OffsetZ property.
+helpviewer_keywords: ["IDCompositionVisual3 interface [DirectComposition]","SetOffsetZ method","IDCompositionVisual3.SetOffsetZ","IDCompositionVisual3.SetOffsetZ(IDCompositionAnimation)","IDCompositionVisual3::SetOffsetZ","IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation)","IDCompositionVisual3::SetOffsetZ(IDCompositionAnimation*)","SetOffsetZ","SetOffsetZ method [DirectComposition]","SetOffsetZ method [DirectComposition]","IDCompositionVisual3 interface","dcomp/IDCompositionVisual3::SetOffsetZ","directcomp.idcompositionvisual3_setoffsetz_2"]
 old-location: directcomp\idcompositionvisual3_setoffsetz_2.htm
 tech.root: directcomp
 ms.assetid: FDD7CFC9-61A4-41FD-9E91-A8D8606FAC3B

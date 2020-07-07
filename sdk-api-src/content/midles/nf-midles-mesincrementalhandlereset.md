@@ -1,7 +1,8 @@
 ---
 UID: NF:midles.MesIncrementalHandleReset
 title: MesIncrementalHandleReset function (midles.h)
-description: The MesIncrementalHandleReset function re-initializes the handle for incremental serialization.helpviewer_keywords: ["MesIncrementalHandleReset","MesIncrementalHandleReset function [RPC]","_rpc_mesincrementalhandlereset","midles/MesIncrementalHandleReset","rpc.mesincrementalhandlereset"]
+description: The MesIncrementalHandleReset function re-initializes the handle for incremental serialization.
+helpviewer_keywords: ["MesIncrementalHandleReset","MesIncrementalHandleReset function [RPC]","_rpc_mesincrementalhandlereset","midles/MesIncrementalHandleReset","rpc.mesincrementalhandlereset"]
 old-location: rpc\mesincrementalhandlereset.htm
 tech.root: Rpc
 ms.assetid: 13ca3bd0-0527-4d54-84a1-aa6efca88e8d

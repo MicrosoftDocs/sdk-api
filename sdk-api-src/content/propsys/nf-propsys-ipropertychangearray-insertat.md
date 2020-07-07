@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.InsertAt
 title: IPropertyChangeArray::InsertAt (propsys.h)
-description: Inserts a change operation into an array at the specified position.helpviewer_keywords: ["IPropertyChangeArray interface [Windows Properties]","InsertAt method","IPropertyChangeArray.InsertAt","IPropertyChangeArray::InsertAt","InsertAt","InsertAt method [Windows Properties]","InsertAt method [Windows Properties]","IPropertyChangeArray interface","_shell_IPropertyChangeArray_InsertAt","properties.IPropertyChangeArray_InsertAt","propsys/IPropertyChangeArray::InsertAt","shell.IPropertyChangeArray_InsertAt"]
+description: Inserts a change operation into an array at the specified position.
+helpviewer_keywords: ["IPropertyChangeArray interface [Windows Properties]","InsertAt method","IPropertyChangeArray.InsertAt","IPropertyChangeArray::InsertAt","InsertAt","InsertAt method [Windows Properties]","InsertAt method [Windows Properties]","IPropertyChangeArray interface","_shell_IPropertyChangeArray_InsertAt","properties.IPropertyChangeArray_InsertAt","propsys/IPropertyChangeArray::InsertAt","shell.IPropertyChangeArray_InsertAt"]
 old-location: properties\IPropertyChangeArray_InsertAt.htm
 tech.root: properties
 ms.assetid: e50a0642-ff01-4cf7-940e-0241b3dc8604

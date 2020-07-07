@@ -1,7 +1,8 @@
 ---
 UID: NF:mmiscapi.sndOpenSound
 title: sndOpenSound function (mmiscapi.h)
-description: Opens the specified sound event.helpviewer_keywords: ["mmiscapi/sndOpenSound","multimedia.sndopensound","sndOpenSound","sndOpenSound function [Windows Multimedia]"]
+description: Opens the specified sound event.
+helpviewer_keywords: ["mmiscapi/sndOpenSound","multimedia.sndopensound","sndOpenSound","sndOpenSound function [Windows Multimedia]"]
 old-location: multimedia\sndopensound.htm
 tech.root: Multimedia
 ms.assetid: 59871C13-4275-4E69-AFE5-989998C9AB69

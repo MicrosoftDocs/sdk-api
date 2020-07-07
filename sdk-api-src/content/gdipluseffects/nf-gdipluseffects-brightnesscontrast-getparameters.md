@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.BrightnessContrast.GetParameters
 title: BrightnessContrast::GetParameters (gdipluseffects.h)
-description: The BrightnessContrast::GetParameters method gets the current values of the parameters of this BrightnessContrast object.helpviewer_keywords: ["BrightnessContrast class [GDI+]","GetParameters method","BrightnessContrast.GetParameters","BrightnessContrast::GetParameters","GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","BrightnessContrast class","_gdiplus_CLASS_BrightnessContrast_GetParameters_","gdiplus._gdiplus_CLASS_BrightnessContrast_GetParameters_"]
+description: The BrightnessContrast::GetParameters method gets the current values of the parameters of this BrightnessContrast object.
+helpviewer_keywords: ["BrightnessContrast class [GDI+]","GetParameters method","BrightnessContrast.GetParameters","BrightnessContrast::GetParameters","GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","BrightnessContrast class","_gdiplus_CLASS_BrightnessContrast_GetParameters_","gdiplus._gdiplus_CLASS_BrightnessContrast_GetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrastclass\brightnesscontrastmethods\getparameters.htm

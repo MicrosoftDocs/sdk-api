@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IConditionGenerator.RecognizeNamedEntities
 title: IConditionGenerator::RecognizeNamedEntities (structuredquery.h)
-description: Identifies named entities in an input string, and creates a collection containing them.helpviewer_keywords: ["IConditionGenerator interface [search]","RecognizeNamedEntities method","IConditionGenerator.RecognizeNamedEntities","IConditionGenerator::RecognizeNamedEntities","RecognizeNamedEntities","RecognizeNamedEntities method [search]","RecognizeNamedEntities method [search]","IConditionGenerator interface","_search_IConditionGenerator_RecognizeNamedEntities","search._search_IConditionGenerator_RecognizeNamedEntities","structuredquery/IConditionGenerator::RecognizeNamedEntities"]
+description: Identifies named entities in an input string, and creates a collection containing them.
+helpviewer_keywords: ["IConditionGenerator interface [search]","RecognizeNamedEntities method","IConditionGenerator.RecognizeNamedEntities","IConditionGenerator::RecognizeNamedEntities","RecognizeNamedEntities","RecognizeNamedEntities method [search]","RecognizeNamedEntities method [search]","IConditionGenerator interface","_search_IConditionGenerator_RecognizeNamedEntities","search._search_IConditionGenerator_RecognizeNamedEntities","structuredquery/IConditionGenerator::RecognizeNamedEntities"]
 old-location: search\_search_IConditionGenerator_RecognizeNamedEntities.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iconditiongenerator\recognizenamedentities.htm
@@ -120,11 +121,11 @@ Given an input string, a user locale (typically the user's default locale) and a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IFileOpenDialog
 title: IFileOpenDialog (shobjidl_core.h)
-description: Extends the IFileDialog interface by adding methods specific to the open dialog.helpviewer_keywords: ["IFileOpenDialog","IFileOpenDialog interface [Windows Shell]","IFileOpenDialog interface [Windows Shell]","described","shell.IFileOpenDialog","shell_IFileOpenDialog","shobjidl_core/IFileOpenDialog"]
+description: Extends the IFileDialog interface by adding methods specific to the open dialog.
+helpviewer_keywords: ["IFileOpenDialog","IFileOpenDialog interface [Windows Shell]","IFileOpenDialog interface [Windows Shell]","described","shell.IFileOpenDialog","shell_IFileOpenDialog","shobjidl_core/IFileOpenDialog"]
 old-location: shell\IFileOpenDialog.htm
 tech.root: shell
 ms.assetid: f95b7106-18ab-4f7f-8d3f-267ac0293245

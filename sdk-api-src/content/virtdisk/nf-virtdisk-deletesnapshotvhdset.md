@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.DeleteSnapshotVhdSet
 title: DeleteSnapshotVhdSet function (virtdisk.h)
-description: Deletes a snapshot from a VHD Set file.helpviewer_keywords: ["DeleteSnapshotVhdSet","DeleteSnapshotVhdSet function [VHD]","vdssys/DeleteSnapshotVhdSet","vhd.deletesnapshotvhdset","virtdisk/DeleteSnapshotVhdSet"]
+description: Deletes a snapshot from a VHD Set file.
+helpviewer_keywords: ["DeleteSnapshotVhdSet","DeleteSnapshotVhdSet function [VHD]","vdssys/DeleteSnapshotVhdSet","vhd.deletesnapshotvhdset","virtdisk/DeleteSnapshotVhdSet"]
 old-location: vhd\deletesnapshotvhdset.htm
 tech.root: VStor
 ms.assetid: F6A65E00-857A-44CF-A827-747518564DAB
@@ -66,12 +67,12 @@ A handle to the open virtual disk. This must be a VHD Set file.
 
 ### -param Parameters [in]
 
-A pointer to a valid <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ns-virtdisk-delete_snapshot_vhdset_parameters">DELETE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot deletion data.
+A pointer to a valid <a href="/windows/win32/api/virtdisk/ns-virtdisk-delete_snapshot_vhdset_parameters">DELETE_SNAPSHOT_VHDSET_PARAMETERS</a> structure that contains snapshot deletion data.
 
 
 ### -param Flags [in]
 
-Snapshot deletion flags, which must be a valid combination of the <a href="https://docs.microsoft.com/windows/win32/api/virtdisk/ne-virtdisk-delete_snapshot_vhdset_flag">DELETE_SNAPSHOT_VHDSET_FLAG</a> enumeration.
+Snapshot deletion flags, which must be a valid combination of the <a href="/windows/win32/api/virtdisk/ne-virtdisk-delete_snapshot_vhdset_flag">DELETE_SNAPSHOT_VHDSET_FLAG</a> enumeration.
 
 
 ## -returns

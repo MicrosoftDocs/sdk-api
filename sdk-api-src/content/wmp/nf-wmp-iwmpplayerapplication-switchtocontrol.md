@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlayerApplication.switchToControl
 title: IWMPPlayerApplication::switchToControl (wmp.h)
-description: The switchToControl method switches a remoted Windows Media Player control to the docked state.helpviewer_keywords: ["IWMPPlayerApplication interface [Windows Media Player]","switchToControl method","IWMPPlayerApplication.switchToControl","IWMPPlayerApplication::switchToControl","IWMPPlayerApplicationswitchToControl","switchToControl","switchToControl method [Windows Media Player]","switchToControl method [Windows Media Player]","IWMPPlayerApplication interface","wmp.iwmpplayerapplication_switchtocontrol","wmp/IWMPPlayerApplication::switchToControl"]
+description: The switchToControl method switches a remoted Windows Media Player control to the docked state.
+helpviewer_keywords: ["IWMPPlayerApplication interface [Windows Media Player]","switchToControl method","IWMPPlayerApplication.switchToControl","IWMPPlayerApplication::switchToControl","IWMPPlayerApplicationswitchToControl","switchToControl","switchToControl method [Windows Media Player]","switchToControl method [Windows Media Player]","IWMPPlayerApplication interface","wmp.iwmpplayerapplication_switchtocontrol","wmp/IWMPPlayerApplication::switchToControl"]
 old-location: wmp\iwmpplayerapplication_switchtocontrol.htm
 tech.root: WMP
 ms.assetid: 15be3a28-4e51-46bf-bb64-e45e20ae3524

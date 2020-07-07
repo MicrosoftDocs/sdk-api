@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi1_4.IDXGIOutput4
 title: IDXGIOutput4 (dxgi1_4.h)
-description: Represents an adapter output (such as a monitor). The IDXGIOutput4 interface exposes a method to check for overlay color space support.helpviewer_keywords: ["IDXGIOutput4","IDXGIOutput4 interface [DXGI]","IDXGIOutput4 interface [DXGI]","described","direct3ddxgi.idxgioutput4","dxgi1_4/IDXGIOutput4"]
+description: Represents an adapter output (such as a monitor). The IDXGIOutput4 interface exposes a method to check for overlay color space support.
+helpviewer_keywords: ["IDXGIOutput4","IDXGIOutput4 interface [DXGI]","IDXGIOutput4 interface [DXGI]","described","direct3ddxgi.idxgioutput4","dxgi1_4/IDXGIOutput4"]
 old-location: direct3ddxgi\idxgioutput4.htm
 tech.root: direct3ddxgi
 ms.assetid: 6B9B4242-7B10-4022-9105-6903FEAE1161

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHOpenRegStream2A
 title: SHOpenRegStream2A function (shlwapi.h)
-description: Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes SHOpenRegStream.helpviewer_keywords: ["SHOpenRegStream2","SHOpenRegStream2 function [Windows Shell]","SHOpenRegStream2A","SHOpenRegStream2W","STGM_READ","STGM_READWRITE","STGM_WRITE","_win32_SHOpenRegStream2","shell.SHOpenRegStream2","shlwapi/SHOpenRegStream2","shlwapi/SHOpenRegStream2A","shlwapi/SHOpenRegStream2W"]
+description: Opens a registry value and supplies a stream that can be used to read from or write to the value. This function supersedes SHOpenRegStream.
+helpviewer_keywords: ["SHOpenRegStream2","SHOpenRegStream2 function [Windows Shell]","SHOpenRegStream2A","SHOpenRegStream2W","STGM_READ","STGM_READWRITE","STGM_WRITE","_win32_SHOpenRegStream2","shell.SHOpenRegStream2","shlwapi/SHOpenRegStream2","shlwapi/SHOpenRegStream2A","shlwapi/SHOpenRegStream2W"]
 old-location: shell\SHOpenRegStream2.htm
 tech.root: shell
 ms.assetid: 2450dde0-cd02-4d48-be40-467b4b8be240
@@ -127,4 +128,8 @@ Returns an <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-obj
 The calling application is responsible for calling the <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nf-unknwn-iunknown-release">Release</a> method of the returned object when that <a href="https://docs.microsoft.com/windows/desktop/api/objidl/nn-objidl-istream">IStream</a> object is no longer needed.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines SHOpenRegStream2 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

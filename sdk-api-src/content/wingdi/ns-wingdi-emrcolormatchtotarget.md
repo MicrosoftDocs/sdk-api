@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagCOLORMATCHTOTARGET
 title: EMRCOLORMATCHTOTARGET (wingdi.h)
-description: The EMRCOLORMATCHTOTARGET structure contains members for the ColorMatchToTarget enhanced metafile record.helpviewer_keywords: ["*PEMRCOLORMATCHTOTARGET","EMRCOLORMATCHTOTARGET","EMRCOLORMATCHTOTARGET structure [Windows GDI]","PEMRCOLORMATCHTOTARGET","PEMRCOLORMATCHTOTARGET structure pointer [Windows GDI]","_win32_EMRCOLORMATCHTOTARGET_str","gdi.emrcolormatchtotarget","wingdi/EMRCOLORMATCHTOTARGET","wingdi/PEMRCOLORMATCHTOTARGET"]
+description: The EMRCOLORMATCHTOTARGET structure contains members for the ColorMatchToTarget enhanced metafile record.
+helpviewer_keywords: ["*PEMRCOLORMATCHTOTARGET","EMRCOLORMATCHTOTARGET","EMRCOLORMATCHTOTARGET structure [Windows GDI]","PEMRCOLORMATCHTOTARGET","PEMRCOLORMATCHTOTARGET structure pointer [Windows GDI]","_win32_EMRCOLORMATCHTOTARGET_str","gdi.emrcolormatchtotarget","wingdi/EMRCOLORMATCHTOTARGET","wingdi/PEMRCOLORMATCHTOTARGET"]
 old-location: gdi\emrcolormatchtotarget.htm
 tech.root: gdi
 ms.assetid: 9b89b703-b670-40eb-b95f-d07e8731e71b

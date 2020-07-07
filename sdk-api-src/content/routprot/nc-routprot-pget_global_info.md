@@ -1,7 +1,8 @@
 ---
 UID: NC:routprot.PGET_GLOBAL_INFO
 title: PGET_GLOBAL_INFO (routprot.h)
-description: The GetGlobalInfo function retrieves global (as opposed to interface-specific) configuration information kept by the routing protocol.helpviewer_keywords: ["GetGlobalInfo","GetGlobalInfo callback function [RAS]","PGET_GLOBAL_INFO","PGET_GLOBAL_INFO callback","_mpr_getglobalinfo","routprot/GetGlobalInfo","rras.getglobalinfo"]
+description: The GetGlobalInfo function retrieves global (as opposed to interface-specific) configuration information kept by the routing protocol.
+helpviewer_keywords: ["GetGlobalInfo","GetGlobalInfo callback function [RAS]","PGET_GLOBAL_INFO","PGET_GLOBAL_INFO callback","_mpr_getglobalinfo","routprot/GetGlobalInfo","rras.getglobalinfo"]
 old-location: rras\getglobalinfo.htm
 tech.root: RRAS
 ms.assetid: 89d4ca42-8f78-40bd-96f0-ad10181cb2d4

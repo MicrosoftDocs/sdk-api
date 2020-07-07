@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StrFromTimeIntervalW
 title: StrFromTimeIntervalW function (shlwapi.h)
-description: Converts a time interval, specified in milliseconds, to a string.helpviewer_keywords: ["StrFromTimeInterval","StrFromTimeInterval function [Windows Shell]","StrFromTimeIntervalA","StrFromTimeIntervalW","_win32_StrFromTimeInterval","shell.StrFromTimeInterval","shlwapi/StrFromTimeInterval","shlwapi/StrFromTimeIntervalA","shlwapi/StrFromTimeIntervalW"]
+description: Converts a time interval, specified in milliseconds, to a string.
+helpviewer_keywords: ["StrFromTimeInterval","StrFromTimeInterval function [Windows Shell]","StrFromTimeIntervalA","StrFromTimeIntervalW","_win32_StrFromTimeInterval","shell.StrFromTimeInterval","shlwapi/StrFromTimeInterval","shlwapi/StrFromTimeIntervalA","shlwapi/StrFromTimeIntervalW"]
 old-location: shell\StrFromTimeInterval.htm
 tech.root: shell
 ms.assetid: e2a9492f-acfa-4cbd-8426-895e361f0174
@@ -206,4 +207,8 @@ The contents of the TimeString Buffer  1 min
 
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines StrFromTimeInterval as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

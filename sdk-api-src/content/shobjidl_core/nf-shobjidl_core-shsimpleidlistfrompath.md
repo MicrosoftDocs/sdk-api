@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.SHSimpleIDListFromPath
 title: SHSimpleIDListFromPath function (shobjidl_core.h)
-description: Deprecated. Returns a pointer to an ITEMIDLIST structure when passed a path.helpviewer_keywords: ["SHSimpleIDListFromPath","SHSimpleIDListFromPath function [Windows Shell]","_win32_SHSimpleIDListFromPath","shell.SHSimpleIDListFromPath","shobjidl_core/SHSimpleIDListFromPath"]
+description: Deprecated. Returns a pointer to an ITEMIDLIST structure when passed a path.
+helpviewer_keywords: ["SHSimpleIDListFromPath","SHSimpleIDListFromPath function [Windows Shell]","_win32_SHSimpleIDListFromPath","shell.SHSimpleIDListFromPath","shobjidl_core/SHSimpleIDListFromPath"]
 old-location: shell\SHSimpleIDListFromPath.htm
 tech.root: shell
 ms.assetid: 349974c2-4ab9-4eb2-897d-a5934893ed07

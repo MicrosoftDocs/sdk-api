@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageData.PrevPage
 title: IShellImageData::PrevPage (shimgdata.h)
-description: Switches to the previous page of a multipage image. Any associated animations are reset.helpviewer_keywords: ["IShellImageData interface [Windows Shell]","PrevPage method","IShellImageData.PrevPage","IShellImageData::PrevPage","PrevPage","PrevPage method [Windows Shell]","PrevPage method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_PrevPage","shell.IShellImageData_PrevPage","shimgdata/IShellImageData::PrevPage"]
+description: Switches to the previous page of a multipage image. Any associated animations are reset.
+helpviewer_keywords: ["IShellImageData interface [Windows Shell]","PrevPage method","IShellImageData.PrevPage","IShellImageData::PrevPage","PrevPage","PrevPage method [Windows Shell]","PrevPage method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_PrevPage","shell.IShellImageData_PrevPage","shimgdata/IShellImageData::PrevPage"]
 old-location: shell\IShellImageData_PrevPage.htm
 tech.root: shell
 ms.assetid: d3a4f07e-a1c0-4180-a02c-12eaebaaf1d2

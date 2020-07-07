@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcPartSet.DeletePart
 title: IOpcPartSet::DeletePart (msopc.h)
-description: Deletes the IOpcPart interface pointer of a specified part object from the set.helpviewer_keywords: ["DeletePart","DeletePart method [Open Packaging Conventions]","DeletePart method [Open Packaging Conventions]","IOpcPartSet interface","IOpcPartSet interface [Open Packaging Conventions]","DeletePart method","IOpcPartSet.DeletePart","IOpcPartSet::DeletePart","msopc/IOpcPartSet::DeletePart","opc.iopcpartset_deletepart"]
+description: Deletes the IOpcPart interface pointer of a specified part object from the set.
+helpviewer_keywords: ["DeletePart","DeletePart method [Open Packaging Conventions]","DeletePart method [Open Packaging Conventions]","IOpcPartSet interface","IOpcPartSet interface [Open Packaging Conventions]","DeletePart method","IOpcPartSet.DeletePart","IOpcPartSet::DeletePart","msopc/IOpcPartSet::DeletePart","opc.iopcpartset_deletepart"]
 old-location: opc\iopcpartset_deletepart.htm
 tech.root: OPC
 ms.assetid: 2d69530f-7e10-409a-8832-f410d6f9582e

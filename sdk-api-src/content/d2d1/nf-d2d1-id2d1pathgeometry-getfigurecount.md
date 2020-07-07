@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1PathGeometry.GetFigureCount
 title: ID2D1PathGeometry::GetFigureCount (d2d1.h)
-description: Retrieves the number of figures in the path geometry.helpviewer_keywords: ["GetFigureCount","GetFigureCount method [Direct2D]","GetFigureCount method [Direct2D]","ID2D1PathGeometry interface","ID2D1PathGeometry interface [Direct2D]","GetFigureCount method","ID2D1PathGeometry.GetFigureCount","ID2D1PathGeometry::GetFigureCount","d2d1/ID2D1PathGeometry::GetFigureCount","direct2d.ID2D1PathGeometry_GetFigureCount"]
+description: Retrieves the number of figures in the path geometry.
+helpviewer_keywords: ["GetFigureCount","GetFigureCount method [Direct2D]","GetFigureCount method [Direct2D]","ID2D1PathGeometry interface","ID2D1PathGeometry interface [Direct2D]","GetFigureCount method","ID2D1PathGeometry.GetFigureCount","ID2D1PathGeometry::GetFigureCount","d2d1/ID2D1PathGeometry::GetFigureCount","direct2d.ID2D1PathGeometry_GetFigureCount"]
 old-location: direct2d\ID2D1PathGeometry_GetFigureCount.htm
 tech.root: Direct2D
 ms.assetid: f46d28f6-5f46-45eb-85c9-6d3b21fa2cff
@@ -70,7 +71,7 @@ A pointer that receives the number of figures in the path geometry when this met
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 
 
@@ -80,7 +81,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>
  
 
  

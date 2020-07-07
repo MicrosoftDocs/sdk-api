@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.IntPtrToInt8
 title: IntPtrToInt8 function (intsafe.h)
-description: Converts a value of type INT_PTR to a value of type INT8.helpviewer_keywords: ["IntPtrToInt8","IntPtrToInt8 function [Windows Shell]","intsafe/IntPtrToInt8","shell.IntPtrToInt8"]
+description: Converts a value of type INT_PTR to a value of type INT8.
+helpviewer_keywords: ["IntPtrToInt8","IntPtrToInt8 function [Windows Shell]","intsafe/IntPtrToInt8","shell.IntPtrToInt8"]
 old-location: shell\IntPtrToInt8.htm
 tech.root: shell
 ms.assetid: b453eb77-fcf4-4f0b-8662-88e91f73c7b7

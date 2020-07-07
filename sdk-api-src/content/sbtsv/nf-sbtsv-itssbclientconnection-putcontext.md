@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.PutContext
 title: ITsSbClientConnection::PutContext (sbtsv.h)
-description: Can be used by plug-ins to store context information specific to the connection.helpviewer_keywords: ["ITsSbClientConnection interface [Remote Desktop Services]","PutContext method","ITsSbClientConnection.PutContext","ITsSbClientConnection::PutContext","PutContext","PutContext method [Remote Desktop Services]","PutContext method [Remote Desktop Services]","ITsSbClientConnection interface","sbtsv/ITsSbClientConnection::PutContext","termserv.itssbclientconnection_putcontext"]
+description: Can be used by plug-ins to store context information specific to the connection.
+helpviewer_keywords: ["ITsSbClientConnection interface [Remote Desktop Services]","PutContext method","ITsSbClientConnection.PutContext","ITsSbClientConnection::PutContext","PutContext","PutContext method [Remote Desktop Services]","PutContext method [Remote Desktop Services]","ITsSbClientConnection interface","sbtsv/ITsSbClientConnection::PutContext","termserv.itssbclientconnection_putcontext"]
 old-location: termserv\itssbclientconnection_putcontext.htm
 tech.root: TermServ
 ms.assetid: 654714ef-cc86-41e8-8759-bbb66bd61cd2

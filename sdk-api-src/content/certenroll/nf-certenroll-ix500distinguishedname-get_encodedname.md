@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX500DistinguishedName.get_EncodedName
 title: IX500DistinguishedName::get_EncodedName (certenroll.h)
-description: Retrieves a Unicode-encoded distinguished name.helpviewer_keywords: ["EncodedName property [Security]","EncodedName property [Security]","IX500DistinguishedName interface","IX500DistinguishedName interface [Security]","EncodedName property","IX500DistinguishedName.EncodedName","IX500DistinguishedName.get_EncodedName","IX500DistinguishedName::EncodedName","IX500DistinguishedName::get_EncodedName","certenroll/IX500DistinguishedName::EncodedName","certenroll/IX500DistinguishedName::get_EncodedName","get_EncodedName","security.ix500distinguishedname_encodedname_property"]
+description: Retrieves a Unicode-encoded distinguished name.
+helpviewer_keywords: ["EncodedName property [Security]","EncodedName property [Security]","IX500DistinguishedName interface","IX500DistinguishedName interface [Security]","EncodedName property","IX500DistinguishedName.EncodedName","IX500DistinguishedName.get_EncodedName","IX500DistinguishedName::EncodedName","IX500DistinguishedName::get_EncodedName","certenroll/IX500DistinguishedName::EncodedName","certenroll/IX500DistinguishedName::get_EncodedName","get_EncodedName","security.ix500distinguishedname_encodedname_property"]
 old-location: security\ix500distinguishedname_encodedname_property.htm
 tech.root: seccertenroll
 ms.assetid: c3b2966c-5149-462d-908b-f6eca6a0409d

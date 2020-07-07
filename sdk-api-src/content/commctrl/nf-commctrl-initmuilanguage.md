@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.InitMUILanguage
 title: InitMUILanguage function (commctrl.h)
-description: Enables an application to specify a language to be used with the common controls that is different from the system language.helpviewer_keywords: ["InitMUILanguage","InitMUILanguage function [Windows Controls]","_win32_InitMUILanguage","_win32_InitMUILanguage_cpp","commctrl/InitMUILanguage","controls.InitMUILanguage","controls._win32_InitMUILanguage"]
+description: Enables an application to specify a language to be used with the common controls that is different from the system language.
+helpviewer_keywords: ["InitMUILanguage","InitMUILanguage function [Windows Controls]","_win32_InitMUILanguage","_win32_InitMUILanguage_cpp","commctrl/InitMUILanguage","controls.InitMUILanguage","controls._win32_InitMUILanguage"]
 old-location: controls\InitMUILanguage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initmuilanguage.htm

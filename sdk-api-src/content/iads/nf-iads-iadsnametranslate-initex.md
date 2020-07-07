@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsNameTranslate.InitEx
 title: IADsNameTranslate::InitEx (iads.h)
-description: Initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the specified user credential.helpviewer_keywords: ["IADsNameTranslate interface [ADSI]","InitEx method","IADsNameTranslate.InitEx","IADsNameTranslate::InitEx","InitEx","InitEx method [ADSI]","InitEx method [ADSI]","IADsNameTranslate interface","_ds_iadsnametranslate_initex","adsi.iadsnametranslate__initex","adsi.iadsnametranslate_initex","iads/IADsNameTranslate::InitEx"]
+description: Initializes a name translate object by binding to a specified directory server, domain, or global catalog, using the specified user credential.
+helpviewer_keywords: ["IADsNameTranslate interface [ADSI]","InitEx method","IADsNameTranslate.InitEx","IADsNameTranslate::InitEx","InitEx","InitEx method [ADSI]","InitEx method [ADSI]","IADsNameTranslate interface","_ds_iadsnametranslate_initex","adsi.iadsnametranslate__initex","adsi.iadsnametranslate_initex","iads/IADsNameTranslate::InitEx"]
 old-location: adsi\iadsnametranslate_initex.htm
 tech.root: adsi
 ms.assetid: 169e1e0d-26c0-484d-b461-8817d37d17b8
@@ -61,12 +62,12 @@ The <b>IADsNameTranslate::InitEx</b> method initializes the object by setting th
 
 ### -param lnSetType
 
-A type of initialization to be performed. Possible values are defined in  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_inittype_enum">ADS_NAME_INITTYPE_ENUM</a>.
+A type of initialization to be performed. Possible values are defined in  <a href="/windows/win32/api/iads/ne-iads-ads_name_inittype_enum">ADS_NAME_INITTYPE_ENUM</a>.
 
 
 ### -param bstrADsPath
 
-The name of the server or domain, depending on the value of <i>lnInitType</i>. When <b>ADS_NAME_INITTYPE_GC</b> is issued, this parameter is ignored. The global catalog server of the domain of the current machine will be used to carry out the name translate operations. This method will fail if the computer is not part of a domain, as no global catalog will be found in this scenario. For more information, see <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_inittype_enum">ADS_NAME_INITTYPE_ENUM</a>.
+The name of the server or domain, depending on the value of <i>lnInitType</i>. When <b>ADS_NAME_INITTYPE_GC</b> is issued, this parameter is ignored. The global catalog server of the domain of the current machine will be used to carry out the name translate operations. This method will fail if the computer is not part of a domain, as no global catalog will be found in this scenario. For more information, see <a href="/windows/win32/api/iads/ne-iads-ads_name_inittype_enum">ADS_NAME_INITTYPE_ENUM</a>.
 
 
 ### -param bstrUserID
@@ -194,7 +195,7 @@ The following VBScript/ASP code example uses the <b>IADsNameTranslate::InitEx</b
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_name_type_enum">ADS_NAME_TYPE_ENUM</a>
 
 
 

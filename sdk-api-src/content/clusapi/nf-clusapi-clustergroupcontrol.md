@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterGroupControl
 title: ClusterGroupControl function (clusapi.h)
-description: Initiates an operation that affects a group. The operation performed depends on the control code passed to the dwControlCode parameter.helpviewer_keywords: ["ClusterGroupControl","ClusterGroupControl function [Failover Cluster]","_wolf_clustergroupcontrol","clusapi/ClusterGroupControl","mscs.clustergroupcontrol"]
+description: Initiates an operation that affects a group. The operation performed depends on the control code passed to the dwControlCode parameter.
+helpviewer_keywords: ["ClusterGroupControl","ClusterGroupControl function [Failover Cluster]","_wolf_clustergroupcontrol","clusapi/ClusterGroupControl","mscs.clustergroupcontrol"]
 old-location: mscs\clustergroupcontrol.htm
 tech.root: MsCS
 ms.assetid: 72896685-a1db-43d7-a5e3-ba380c0624f2

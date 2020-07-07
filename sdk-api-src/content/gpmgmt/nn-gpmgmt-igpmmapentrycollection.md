@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMMapEntryCollection
 title: IGPMMapEntryCollection (gpmgmt.h)
-description: The IGPMMapEntryCollection interface enables applications to access map entry objects.helpviewer_keywords: ["GPMMapEntryCollection","IGPMMapEntryCollection","IGPMMapEntryCollection interface [GPMC]","IGPMMapEntryCollection interface [GPMC]","described","gpmc.igpmmapentrycollection","gpmgmt/IGPMMapEntryCollection"]
+description: The IGPMMapEntryCollection interface enables applications to access map entry objects.
+helpviewer_keywords: ["GPMMapEntryCollection","IGPMMapEntryCollection","IGPMMapEntryCollection interface [GPMC]","IGPMMapEntryCollection interface [GPMC]","described","gpmc.igpmmapentrycollection","gpmgmt/IGPMMapEntryCollection"]
 old-location: gpmc\igpmmapentrycollection.htm
 tech.root: gpmc
 ms.assetid: a017ff4b-ab3c-4da9-b6c9-b4ccd24230eb

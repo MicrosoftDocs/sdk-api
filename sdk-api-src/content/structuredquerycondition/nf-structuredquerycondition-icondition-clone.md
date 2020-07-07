@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquerycondition.ICondition.Clone
 title: ICondition::Clone (structuredquerycondition.h)
-description: Creates a deep copy of this ICondition object.helpviewer_keywords: ["Clone","Clone method [search]","Clone method [search]","ICondition interface","ICondition interface [search]","Clone method","ICondition.Clone","ICondition::Clone","_search_ICondition_Clone","search._search_ICondition_Clone","structuredquerycondition/ICondition::Clone"]
+description: Creates a deep copy of this ICondition object.
+helpviewer_keywords: ["Clone","Clone method [search]","Clone method [search]","ICondition interface","ICondition interface [search]","Clone method","ICondition.Clone","ICondition::Clone","_search_ICondition_Clone","search._search_ICondition_Clone","structuredquerycondition/ICondition::Clone"]
 old-location: search\_search_ICondition_Clone.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\icondition\clone.htm
@@ -91,11 +92,11 @@ Because there are no methods for modifying an <a href="https://docs.microsoft.co
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_type">CONDITION_TYPE</a>
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.MFCreateASFMediaSink
 title: MFCreateASFMediaSink function (wmcontainer.h)
-description: Creates the ASF media sink.helpviewer_keywords: ["MFCreateASFMediaSink","MFCreateASFMediaSink function [Media Foundation]","d800ac91-f6cc-4f57-9080-4bbafb42d7ed","mf.mfcreateasfmediasink","wmcontainer/MFCreateASFMediaSink"]
+description: Creates the ASF media sink.
+helpviewer_keywords: ["MFCreateASFMediaSink","MFCreateASFMediaSink function [Media Foundation]","d800ac91-f6cc-4f57-9080-4bbafb42d7ed","mf.mfcreateasfmediasink","wmcontainer/MFCreateASFMediaSink"]
 old-location: mf\mfcreateasfmediasink.htm
 tech.root: medfound
 ms.assetid: d800ac91-f6cc-4f57-9080-4bbafb42d7ed

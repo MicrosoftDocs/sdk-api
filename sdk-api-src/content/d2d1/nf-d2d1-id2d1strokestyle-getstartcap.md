@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetStartCap
 title: ID2D1StrokeStyle::GetStartCap (d2d1.h)
-description: Retrieves the type of shape used at the beginning of a stroke.helpviewer_keywords: ["GetStartCap","GetStartCap method [Direct2D]","GetStartCap method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetStartCap method","ID2D1StrokeStyle.GetStartCap","ID2D1StrokeStyle::GetStartCap","d2d1/ID2D1StrokeStyle::GetStartCap","direct2d.ID2D1StrokeStyle_GetStartCap"]
+description: Retrieves the type of shape used at the beginning of a stroke.
+helpviewer_keywords: ["GetStartCap","GetStartCap method [Direct2D]","GetStartCap method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetStartCap method","ID2D1StrokeStyle.GetStartCap","ID2D1StrokeStyle::GetStartCap","d2d1/ID2D1StrokeStyle::GetStartCap","direct2d.ID2D1StrokeStyle_GetStartCap"]
 old-location: direct2d\ID2D1StrokeStyle_GetStartCap.htm
 tech.root: Direct2D
 ms.assetid: 8df80ac7-8dad-418f-bff5-14c39ad38fac
@@ -63,7 +64,7 @@ Retrieves the type of shape used at the beginning of a stroke.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
 
 The type of shape used at the beginning of a stroke.
 
@@ -75,7 +76,7 @@ The type of shape used at the beginning of a stroke.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
  
 
  

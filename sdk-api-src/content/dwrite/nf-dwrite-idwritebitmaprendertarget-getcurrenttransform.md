@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.GetCurrentTransform
 title: IDWriteBitmapRenderTarget::GetCurrentTransform (dwrite.h)
-description: Gets the transform that maps abstract coordinates to DIPs. By default this is the identity transform. Note that this is unrelated to the world transform of the underlying device context.helpviewer_keywords: ["GetCurrentTransform","GetCurrentTransform method [Direct Write]","GetCurrentTransform method [Direct Write]","IDWriteBitmapRenderTarget interface","IDWriteBitmapRenderTarget interface [Direct Write]","GetCurrentTransform method","IDWriteBitmapRenderTarget.GetCurrentTransform","IDWriteBitmapRenderTarget::GetCurrentTransform","directwrite.IDWriteBitmapRenderTarget_GetCurrentTransform","dwrite/IDWriteBitmapRenderTarget::GetCurrentTransform"]
+description: Gets the transform that maps abstract coordinates to DIPs. By default this is the identity transform. Note that this is unrelated to the world transform of the underlying device context.
+helpviewer_keywords: ["GetCurrentTransform","GetCurrentTransform method [Direct Write]","GetCurrentTransform method [Direct Write]","IDWriteBitmapRenderTarget interface","IDWriteBitmapRenderTarget interface [Direct Write]","GetCurrentTransform method","IDWriteBitmapRenderTarget.GetCurrentTransform","IDWriteBitmapRenderTarget::GetCurrentTransform","directwrite.IDWriteBitmapRenderTarget_GetCurrentTransform","dwrite/IDWriteBitmapRenderTarget::GetCurrentTransform"]
 old-location: directwrite\IDWriteBitmapRenderTarget_GetCurrentTransform.htm
 tech.root: DirectWrite
 ms.assetid: 7f84e38e-f0e8-4cf7-bad0-d41f24ce9499

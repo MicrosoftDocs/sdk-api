@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngMulDiv
 title: EngMulDiv function (winddi.h)
-description: The EngMulDiv function multiplies two 32-bit values and then divides the 64-bit result by a third 32-bit value.helpviewer_keywords: ["EngMulDiv","EngMulDiv function [Display Devices]","display.engmuldiv","gdifncs_0d175bf5-b421-43e5-acc5-a11299b0d990.xml","winddi/EngMulDiv"]
+description: The EngMulDiv function multiplies two 32-bit values and then divides the 64-bit result by a third 32-bit value.
+helpviewer_keywords: ["EngMulDiv","EngMulDiv function [Display Devices]","display.engmuldiv","gdifncs_0d175bf5-b421-43e5-acc5-a11299b0d990.xml","winddi/EngMulDiv"]
 old-location: display\engmuldiv.htm
 tech.root: display
 ms.assetid: e1d9d790-4038-445c-a1ea-fe689cb0e694

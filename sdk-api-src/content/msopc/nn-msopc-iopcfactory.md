@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcFactory
 title: IOpcFactory (msopc.h)
-description: Creates Packaging API objects and provides support for saving and loading packages.helpviewer_keywords: ["IOpcFactory","IOpcFactory interface [Open Packaging Conventions]","IOpcFactory interface [Open Packaging Conventions]","described","msopc/IOpcFactory","opc.iopcfactory"]
+description: Creates Packaging API objects and provides support for saving and loading packages.
+helpviewer_keywords: ["IOpcFactory","IOpcFactory interface [Open Packaging Conventions]","IOpcFactory interface [Open Packaging Conventions]","described","msopc/IOpcFactory","opc.iopcfactory"]
 old-location: opc\iopcfactory.htm
 tech.root: OPC
 ms.assetid: 0a265a0a-c109-4afc-a0ad-d3ee31757aa1

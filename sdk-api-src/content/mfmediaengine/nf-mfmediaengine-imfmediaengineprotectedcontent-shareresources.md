@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.ShareResources
 title: IMFMediaEngineProtectedContent::ShareResources (mfmediaengine.h)
-description: Enables the Media Engine to access protected content while in frame-server mode.helpviewer_keywords: ["IMFMediaEngineProtectedContent interface [Media Foundation]","ShareResources method","IMFMediaEngineProtectedContent.ShareResources","IMFMediaEngineProtectedContent::ShareResources","ShareResources","ShareResources method [Media Foundation]","ShareResources method [Media Foundation]","IMFMediaEngineProtectedContent interface","mf.imfmediaengineprotectedcontent_shareresources","mfmediaengine/IMFMediaEngineProtectedContent::ShareResources"]
+description: Enables the Media Engine to access protected content while in frame-server mode.
+helpviewer_keywords: ["IMFMediaEngineProtectedContent interface [Media Foundation]","ShareResources method","IMFMediaEngineProtectedContent.ShareResources","IMFMediaEngineProtectedContent::ShareResources","ShareResources","ShareResources method [Media Foundation]","ShareResources method [Media Foundation]","IMFMediaEngineProtectedContent interface","mf.imfmediaengineprotectedcontent_shareresources","mfmediaengine/IMFMediaEngineProtectedContent::ShareResources"]
 old-location: mf\imfmediaengineprotectedcontent_shareresources.htm
 tech.root: medfound
 ms.assetid: 7C94AEA2-1D72-4C45-9EDF-90593CC60E2C

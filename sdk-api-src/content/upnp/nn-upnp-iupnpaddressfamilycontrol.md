@@ -1,7 +1,8 @@
 ---
 UID: NN:upnp.IUPnPAddressFamilyControl
 title: IUPnPAddressFamilyControl (upnp.h)
-description: The IUPnPAddressFamilyControl interface accesses the address family flag of the Device Finder object.helpviewer_keywords: ["IUPnPAddressFamilyControl","IUPnPAddressFamilyControl interface [UPnP APIs]","IUPnPAddressFamilyControl interface [UPnP APIs]","described","upnp.iupnpaddressfamilycontrol","upnp/IUPnPAddressFamilyControl"]
+description: The IUPnPAddressFamilyControl interface accesses the address family flag of the Device Finder object.
+helpviewer_keywords: ["IUPnPAddressFamilyControl","IUPnPAddressFamilyControl interface [UPnP APIs]","IUPnPAddressFamilyControl interface [UPnP APIs]","described","upnp.iupnpaddressfamilycontrol","upnp/IUPnPAddressFamilyControl"]
 old-location: upnp\iupnpaddressfamilycontrol.htm
 tech.root: upnp
 ms.assetid: fad61b7f-b9da-4a1b-bb5e-ad20bc87fb5c

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRMonitorConfig.GetDefaultMonitor
 title: IVMRMonitorConfig::GetDefaultMonitor (strmif.h)
-description: The GetDefaultMonitor method retrieves the default monitor that all future instances of the VMR will use for video playback.helpviewer_keywords: ["GetDefaultMonitor","GetDefaultMonitor method [DirectShow]","GetDefaultMonitor method [DirectShow]","IVMRMonitorConfig interface","IVMRMonitorConfig interface [DirectShow]","GetDefaultMonitor method","IVMRMonitorConfig.GetDefaultMonitor","IVMRMonitorConfig::GetDefaultMonitor","IVMRMonitorConfigGetDefaultMonitor","dshow.ivmrmonitorconfig_getdefaultmonitor","strmif/IVMRMonitorConfig::GetDefaultMonitor"]
+description: The GetDefaultMonitor method retrieves the default monitor that all future instances of the VMR will use for video playback.
+helpviewer_keywords: ["GetDefaultMonitor","GetDefaultMonitor method [DirectShow]","GetDefaultMonitor method [DirectShow]","IVMRMonitorConfig interface","IVMRMonitorConfig interface [DirectShow]","GetDefaultMonitor method","IVMRMonitorConfig.GetDefaultMonitor","IVMRMonitorConfig::GetDefaultMonitor","IVMRMonitorConfigGetDefaultMonitor","dshow.ivmrmonitorconfig_getdefaultmonitor","strmif/IVMRMonitorConfig::GetDefaultMonitor"]
 old-location: dshow\ivmrmonitorconfig_getdefaultmonitor.htm
 tech.root: DirectShow
 ms.assetid: 354b7f6e-35f8-4824-b5b5-24a37166462b

@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IContactManagerInterop
 title: IContactManagerInterop (shobjidl_core.h)
-description: Enables access to ContactManager methods in an app that manages multiple windows.helpviewer_keywords: ["IContactManagerInterop","IContactManagerInterop interface [Windows Shell]","IContactManagerInterop interface [Windows Shell]","described","shell.IContactManagerInterop","shobjidl_core/IContactManagerInterop"]
+description: Enables access to ContactManager methods in an app that manages multiple windows.
+helpviewer_keywords: ["IContactManagerInterop","IContactManagerInterop interface [Windows Shell]","IContactManagerInterop interface [Windows Shell]","described","shell.IContactManagerInterop","shobjidl_core/IContactManagerInterop"]
 old-location: shell\IContactManagerInterop.htm
 tech.root: shell
 ms.assetid: 8E854BA3-C29E-4911-9D6E-915D1959244C

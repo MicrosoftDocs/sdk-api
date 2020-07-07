@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.DDiscFormat2DataEvents
 title: DDiscFormat2DataEvents (imapi2.h)
-description: Implement this interface to receive notifications of the current write operation.helpviewer_keywords: ["DDiscFormat2DataEvents","DDiscFormat2DataEvents interface [IMAPI]","DDiscFormat2DataEvents interface [IMAPI]","described","imapi.ddiscformat2dataevents","imapi2/DDiscFormat2DataEvents"]
+description: Implement this interface to receive notifications of the current write operation.
+helpviewer_keywords: ["DDiscFormat2DataEvents","DDiscFormat2DataEvents interface [IMAPI]","DDiscFormat2DataEvents interface [IMAPI]","described","imapi.ddiscformat2dataevents","imapi2/DDiscFormat2DataEvents"]
 old-location: imapi\ddiscformat2dataevents.htm
 tech.root: imapi
 ms.assetid: f9f1d976-9ec9-40a5-92b6-d00a7e15d0aa

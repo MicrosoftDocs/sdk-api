@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.PathData.PathData
 title: PathData::PathData (gdiplustypes.h)
-description: Creates a PathData::PathData object. The Count data member is initialized to 0. The Points and Types data members are initialized to NULL.helpviewer_keywords: ["PathData","PathData class [GDI+]","PathData constructor","PathData constructor [GDI+]","PathData constructor [GDI+]","PathData class","PathData.PathData","PathData.PathData()","PathData::PathData","_gdiplus_CLASS_PathData_PathData_","gdiplus._gdiplus_CLASS_PathData_PathData_"]
+description: Creates a PathData::PathData object. The Count data member is initialized to 0. The Points and Types data members are initialized to NULL.
+helpviewer_keywords: ["PathData","PathData class [GDI+]","PathData constructor","PathData constructor [GDI+]","PathData constructor [GDI+]","PathData class","PathData.PathData","PathData.PathData()","PathData::PathData","_gdiplus_CLASS_PathData_PathData_","gdiplus._gdiplus_CLASS_PathData_PathData_"]
 old-location: gdiplus\_gdiplus_CLASS_PathData_PathData_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathdataclass\pathdata_38.htm
@@ -44,57 +45,26 @@ req.product: GDI+ 1.0
 ms.custom: 19H1
 ---
 
-# PathData::PathData
-
-
 ## -description
 
-
-Creates a <b>PathData::PathData</b> object. The <b>Count</b> data member is initialized to 0. The <b>Points</b> and <b>Types</b> data members are initialized to <b>NULL</b>.
-
+Constructs a <b>PathData</b> object. The <b>Count</b> data member is initialized to 0. The <b>Points</b> and <b>Types</b> data members are initialized to <b>NULL</b>.
 
 ## -parameters
 
-
-
-
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-constructing-and-drawing-paths-use">Constructing and Drawing Paths</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-getpathpoints(outpoint_inint)">GetPathPoints Methods</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-getpathtypes">GetPathTypes</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/gdipluspath/nf-gdipluspath-graphicspath-getpointcount">GetPointCount</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pathdata">PathData</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplusenums/ne-gdiplusenums-pathpointtype">PathPointType</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/gdiplus/-gdiplus-paths-about">Paths</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/gdiplustypes/nl-gdiplustypes-pointf">PointF</a>
- 
-
- 
-

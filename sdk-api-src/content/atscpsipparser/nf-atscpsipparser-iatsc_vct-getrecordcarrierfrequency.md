@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordCarrierFrequency
 title: IATSC_VCT::GetRecordCarrierFrequency (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordCarrierFrequency","GetRecordCarrierFrequency method [Microsoft TV Technologies]","GetRecordCarrierFrequency method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordCarrierFrequency method","IATSC_VCT.GetRecordCarrierFrequency","IATSC_VCT::GetRecordCarrierFrequency","IATSC_VCTGetRecordCarrierFrequency","atscpsipparser/IATSC_VCT::GetRecordCarrierFrequency","mstv.iatsc_vct_getrecordcarrierfrequency"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordCarrierFrequency","GetRecordCarrierFrequency method [Microsoft TV Technologies]","GetRecordCarrierFrequency method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordCarrierFrequency method","IATSC_VCT.GetRecordCarrierFrequency","IATSC_VCT::GetRecordCarrierFrequency","IATSC_VCTGetRecordCarrierFrequency","atscpsipparser/IATSC_VCT::GetRecordCarrierFrequency","mstv.iatsc_vct_getrecordcarrierfrequency"]
 old-location: mstv\iatsc_vct_getrecordcarrierfrequency.htm
 tech.root: mstv
 ms.assetid: ff875184-1d91-489d-9941-5d1cd3e9e872

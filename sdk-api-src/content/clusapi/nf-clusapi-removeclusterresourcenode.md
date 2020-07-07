@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.RemoveClusterResourceNode
 title: RemoveClusterResourceNode function (clusapi.h)
-description: Removes a node from the list of nodes that can host a resource.helpviewer_keywords: ["PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE","PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE function [Failover Cluster]","RemoveClusterResourceNode","RemoveClusterResourceNode function [Failover Cluster]","_wolf_removeclusterresourcenode","clusapi/PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE","clusapi/RemoveClusterResourceNode","mscs.removeclusterresourcenode"]
+description: Removes a node from the list of nodes that can host a resource.
+helpviewer_keywords: ["PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE","PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE function [Failover Cluster]","RemoveClusterResourceNode","RemoveClusterResourceNode function [Failover Cluster]","_wolf_removeclusterresourcenode","clusapi/PCLUSAPI_REMOVE_CLUSTER_RESOURCE_NODE","clusapi/RemoveClusterResourceNode","mscs.removeclusterresourcenode"]
 old-location: mscs\removeclusterresourcenode.htm
 tech.root: MsCS
 ms.assetid: 1a5b59b9-5c19-4920-b150-b0b404629fb3

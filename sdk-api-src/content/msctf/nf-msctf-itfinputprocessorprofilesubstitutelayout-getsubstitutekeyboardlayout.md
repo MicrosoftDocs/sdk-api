@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout
 title: ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout (msctf.h)
-description: ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout methodhelpviewer_keywords: ["GetSubstituteKeyboardLayout","GetSubstituteKeyboardLayout method [Text Services Framework]","GetSubstituteKeyboardLayout method [Text Services Framework]","ITfInputProcessorProfileSubstituteLayout interface","ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework]","GetSubstituteKeyboardLayout method","ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout","ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout","textstor/ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout","tsf.getsubstitutekeyboardlayout"]
+description: ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout method
+helpviewer_keywords: ["GetSubstituteKeyboardLayout","GetSubstituteKeyboardLayout method [Text Services Framework]","GetSubstituteKeyboardLayout method [Text Services Framework]","ITfInputProcessorProfileSubstituteLayout interface","ITfInputProcessorProfileSubstituteLayout interface [Text Services Framework]","GetSubstituteKeyboardLayout method","ITfInputProcessorProfileSubstituteLayout.GetSubstituteKeyboardLayout","ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout","textstor/ITfInputProcessorProfileSubstituteLayout::GetSubstituteKeyboardLayout","tsf.getsubstitutekeyboardlayout"]
 old-location: tsf\getsubstitutekeyboardlayout.htm
 tech.root: TSF
 ms.assetid: 9006a76f-11db-4e8c-9133-c335af7fe5ff

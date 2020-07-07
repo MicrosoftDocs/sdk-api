@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagPOINTER_TOUCH_INFO
 title: POINTER_TOUCH_INFO (winuser.h)
-description: Defines basic touch information common to all pointer types.helpviewer_keywords: ["POINTER_TOUCH_INFO","POINTER_TOUCH_INFO structure [Input Messages and Notifications]","_POINTER_TOUCH_INFO","inputmsg.pointer_touch_info_struct","winuser/POINTER_TOUCH_INFO"]
+description: Defines basic touch information common to all pointer types.
+helpviewer_keywords: ["POINTER_TOUCH_INFO","POINTER_TOUCH_INFO structure [Input Messages and Notifications]","_POINTER_TOUCH_INFO","inputmsg.pointer_touch_info_struct","winuser/POINTER_TOUCH_INFO"]
 old-location: inputmsg\pointer_touch_info_struct.htm
 tech.root: InputMsg
 ms.assetid: fee176ba-ad07-3141-ab4d-1b8c335fd102
@@ -86,7 +87,7 @@ Type: <b>RECT</b>
 By default, if the device does not report a contact area, this field defaults to a 0-by-0 rectangle centered around the pointer location.
 
 
-The predicted value is based on the pointer position reported by the digitizer and the motion of the pointer. This correction can compensate for visual lag due to inherent delays in sensing and processing the pointer location on the digitizer. This is applicable to  pointers of type <a href="https://docs.microsoft.com/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>. 
+The predicted value is based on the pointer position reported by the digitizer and the motion of the pointer. This correction can compensate for visual lag due to inherent delays in sensing and processing the pointer location on the digitizer. This is applicable to  pointers of type <a href="/windows/win32/api/winuser/ne-winuser-tagpointer_input_type">PT_TOUCH</a>. 
 
 
 ### -field rcContactRaw

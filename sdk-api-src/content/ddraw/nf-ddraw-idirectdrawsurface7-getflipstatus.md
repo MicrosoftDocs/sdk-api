@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.GetFlipStatus
 title: IDirectDrawSurface7::GetFlipStatus (ddraw.h)
-description: Retrieves status about whether this surface has finished its flipping process.helpviewer_keywords: ["DDGFS_CANFLIP","DDGFS_ISFLIPDONE","GetFlipStatus","GetFlipStatus method [DirectDraw]","GetFlipStatus method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetFlipStatus method","IDirectDrawSurface7.GetFlipStatus","IDirectDrawSurface7::GetFlipStatus","ddraw/IDirectDrawSurface7::GetFlipStatus","directdraw.idirectdrawsurface7_getflipstatus"]
+description: Retrieves status about whether this surface has finished its flipping process.
+helpviewer_keywords: ["DDGFS_CANFLIP","DDGFS_ISFLIPDONE","GetFlipStatus","GetFlipStatus method [DirectDraw]","GetFlipStatus method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","GetFlipStatus method","IDirectDrawSurface7.GetFlipStatus","IDirectDrawSurface7::GetFlipStatus","ddraw/IDirectDrawSurface7::GetFlipStatus","directdraw.idirectdrawsurface7_getflipstatus"]
 old-location: directdraw\idirectdrawsurface7_getflipstatus.htm
 tech.root: directdraw
 ms.assetid: e337bdde-bf63-414a-88a5-507478476667

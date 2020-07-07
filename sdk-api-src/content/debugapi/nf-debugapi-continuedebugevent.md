@@ -1,7 +1,8 @@
 ---
 UID: NF:debugapi.ContinueDebugEvent
 title: ContinueDebugEvent function (debugapi.h)
-description: Enables a debugger to continue a thread that previously reported a debugging event.helpviewer_keywords: ["ContinueDebugEvent","ContinueDebugEvent function","DBG_CONTINUE","DBG_EXCEPTION_NOT_HANDLED","DBG_REPLY_LATER","_win32_continuedebugevent","base.continuedebugevent","debugapi/ContinueDebugEvent"]
+description: Enables a debugger to continue a thread that previously reported a debugging event.
+helpviewer_keywords: ["ContinueDebugEvent","ContinueDebugEvent function","DBG_CONTINUE","DBG_EXCEPTION_NOT_HANDLED","DBG_REPLY_LATER","_win32_continuedebugevent","base.continuedebugevent","debugapi/ContinueDebugEvent"]
 old-location: base\continuedebugevent.htm
 tech.root: Debug
 ms.assetid: d15847d9-7947-4653-b3a2-3da1d1dd7078

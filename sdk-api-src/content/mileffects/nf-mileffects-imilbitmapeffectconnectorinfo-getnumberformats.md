@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnectorInfo.GetNumberFormats
 title: IMILBitmapEffectConnectorInfo::GetNumberFormats (mileffects.h)
-description: Retrieves the number of pixel formats supported by the pin.helpviewer_keywords: ["GetNumberFormats","GetNumberFormats method [WPF Bitmap Effects]","GetNumberFormats method [WPF Bitmap Effects]","IMILBitmapEffectConnectorInfo interface","IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects]","GetNumberFormats method","IMILBitmapEffectConnectorInfo.GetNumberFormats","IMILBitmapEffectConnectorInfo::GetNumberFormats","_wibe_imilbitmapeffectconnectorinfo_getnumberformats","mileffects/IMILBitmapEffectConnectorInfo::GetNumberFormats","wibe._wibe_imilbitmapeffectconnectorinfo_getnumberformats"]
+description: Retrieves the number of pixel formats supported by the pin.
+helpviewer_keywords: ["GetNumberFormats","GetNumberFormats method [WPF Bitmap Effects]","GetNumberFormats method [WPF Bitmap Effects]","IMILBitmapEffectConnectorInfo interface","IMILBitmapEffectConnectorInfo interface [WPF Bitmap Effects]","GetNumberFormats method","IMILBitmapEffectConnectorInfo.GetNumberFormats","IMILBitmapEffectConnectorInfo::GetNumberFormats","_wibe_imilbitmapeffectconnectorinfo_getnumberformats","mileffects/IMILBitmapEffectConnectorInfo::GetNumberFormats","wibe._wibe_imilbitmapeffectconnectorinfo_getnumberformats"]
 old-location: wibe\_wibe_imilbitmapeffectconnectorinfo_getnumberformats.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnectorinfo\getnumberformats.htm

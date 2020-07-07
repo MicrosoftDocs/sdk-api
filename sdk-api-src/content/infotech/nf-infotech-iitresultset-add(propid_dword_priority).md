@@ -1,7 +1,8 @@
 ---
 UID: NF:infotech.IITResultSet.Add(PROPID,DWORD,PRIORITY)
 title: IITResultSet::Add(PROPID,DWORD,PRIORITY) (infotech.h)
-description: Adds a column to the result set.helpviewer_keywords: ["Add","Add method [HTML Help Workshop]","Add method [HTML Help Workshop]","IITResultSet interface","IITResultSet interface [HTML Help Workshop]","Add method","IITResultSet.Add","IITResultSet.Add(PROPID","DWORD","PRIORITY)","IITResultSet::Add","IITResultSet::Add(PROPID","DWORD","PRIORITY)","htmlhelp.iitresultset_add4","infotech/IITResultSet::Add","refIITResultSetAddDWord"]
+description: Adds a column to the result set.
+helpviewer_keywords: ["Add","Add method [HTML Help Workshop]","Add method [HTML Help Workshop]","IITResultSet interface","IITResultSet interface [HTML Help Workshop]","Add method","IITResultSet.Add","IITResultSet.Add(PROPID","DWORD","PRIORITY)","IITResultSet::Add","IITResultSet::Add(PROPID","DWORD","PRIORITY)","htmlhelp.iitresultset_add4","infotech/IITResultSet::Add","refIITResultSetAddDWord"]
 old-location: htmlhelp\iitresultset_add4.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetadddword.htm

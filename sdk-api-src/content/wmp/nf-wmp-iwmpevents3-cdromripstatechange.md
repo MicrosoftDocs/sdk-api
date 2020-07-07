@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPEvents3.CdromRipStateChange
 title: IWMPEvents3::CdromRipStateChange (wmp.h)
-description: The CdromRipStateChange event occurs when a CD ripping operation changes state.helpviewer_keywords: ["CdromRipStateChange","CdromRipStateChange method [Windows Media Player]","CdromRipStateChange method [Windows Media Player]","IWMPEvents3 interface","IWMPEvents3 interface [Windows Media Player]","CdromRipStateChange method","IWMPEvents3.CdromRipStateChange","IWMPEvents3::CdromRipStateChange","IWMPEvents3CdromRipStateChange","wmp.iwmpevents3_iwmpevents3__cdromripstatechange","wmp/IWMPEvents3::CdromRipStateChange"]
+description: The CdromRipStateChange event occurs when a CD ripping operation changes state.
+helpviewer_keywords: ["CdromRipStateChange","CdromRipStateChange method [Windows Media Player]","CdromRipStateChange method [Windows Media Player]","IWMPEvents3 interface","IWMPEvents3 interface [Windows Media Player]","CdromRipStateChange method","IWMPEvents3.CdromRipStateChange","IWMPEvents3::CdromRipStateChange","IWMPEvents3CdromRipStateChange","wmp.iwmpevents3_iwmpevents3__cdromripstatechange","wmp/IWMPEvents3::CdromRipStateChange"]
 old-location: wmp\iwmpevents3_iwmpevents3__cdromripstatechange.htm
 tech.root: WMP
 ms.assetid: 08445295-4fed-412f-84ce-eaf337758472

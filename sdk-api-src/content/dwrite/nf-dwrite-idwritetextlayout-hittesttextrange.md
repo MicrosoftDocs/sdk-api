@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.HitTestTextRange
 title: IDWriteTextLayout::HitTestTextRange (dwrite.h)
-description: The application calls this function to get a set of hit-test metrics corresponding to a range of text positions. One of the main usages is to implement highlight selection of the text string.helpviewer_keywords: ["HitTestTextRange","HitTestTextRange method [Direct Write]","HitTestTextRange method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","HitTestTextRange method","IDWriteTextLayout.HitTestTextRange","IDWriteTextLayout::HitTestTextRange","directwrite.IDWriteTextLayout_HitTestTextRange","dwrite/IDWriteTextLayout::HitTestTextRange"]
+description: The application calls this function to get a set of hit-test metrics corresponding to a range of text positions. One of the main usages is to implement highlight selection of the text string.
+helpviewer_keywords: ["HitTestTextRange","HitTestTextRange method [Direct Write]","HitTestTextRange method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","HitTestTextRange method","IDWriteTextLayout.HitTestTextRange","IDWriteTextLayout::HitTestTextRange","directwrite.IDWriteTextLayout_HitTestTextRange","dwrite/IDWriteTextLayout::HitTestTextRange"]
 old-location: directwrite\IDWriteTextLayout_HitTestTextRange.htm
 tech.root: DirectWrite
 ms.assetid: 970ea72c-d097-42c2-9d93-774387ba7881

@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDraw7.CreateSurface
 title: IDirectDraw7::CreateSurface (ddraw.h)
-description: Creates a DirectDrawSurface object for this DirectDraw object.helpviewer_keywords: ["CreateSurface","CreateSurface method [DirectDraw]","CreateSurface method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","CreateSurface method","IDirectDraw7.CreateSurface","IDirectDraw7::CreateSurface","ddraw/IDirectDraw7::CreateSurface","directdraw.idirectdraw7_createsurface"]
+description: Creates a DirectDrawSurface object for this DirectDraw object.
+helpviewer_keywords: ["CreateSurface","CreateSurface method [DirectDraw]","CreateSurface method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","CreateSurface method","IDirectDraw7.CreateSurface","IDirectDraw7::CreateSurface","ddraw/IDirectDraw7::CreateSurface","directdraw.idirectdraw7_createsurface"]
 old-location: directdraw\idirectdraw7_createsurface.htm
 tech.root: directdraw
 ms.assetid: 4f27e36f-d04f-43ce-9a3d-64c352c8f8d8

@@ -1,7 +1,8 @@
 ---
 UID: NS:mmeapi.tagWAVEOUTCAPSA
 title: WAVEOUTCAPSA (mmeapi.h)
-description: The WAVEOUTCAPS structure describes the capabilities of a waveform-audio output device.helpviewer_keywords: ["*LPWAVEOUTCAPSA","*NPWAVEOUTCAPSA","*PWAVEOUTCAPSA","WAVEOUTCAPS","WAVEOUTCAPS structure [Windows Multimedia]","WAVEOUTCAPSA","_win32_WAVEOUTCAPS_str","mmeapi/WAVEOUTCAPS","multimedia.waveoutcaps","tagWAVEOUTCAPSA","tagWAVEOUTCAPSW","waveoutcaps_tag"]
+description: The WAVEOUTCAPS structure describes the capabilities of a waveform-audio output device.
+helpviewer_keywords: ["*LPWAVEOUTCAPSA","*NPWAVEOUTCAPSA","*PWAVEOUTCAPSA","WAVEOUTCAPS","WAVEOUTCAPS structure [Windows Multimedia]","WAVEOUTCAPSA","_win32_WAVEOUTCAPS_str","mmeapi/WAVEOUTCAPS","multimedia.waveoutcaps","tagWAVEOUTCAPSA","tagWAVEOUTCAPSW","waveoutcaps_tag"]
 old-location: multimedia\waveoutcaps.htm
 tech.root: Multimedia
 ms.assetid: 756f47fa-c0d1-4729-a0f6-096a1212d0a2
@@ -163,10 +164,6 @@ Standard formats that are supported. Can be a combination of the following:
 Number specifying whether the device supports mono (1) or stereo (2) output.
 
 
-#### - wReserved1
-
-Packing.
-
 
 ### -field dwSupport
 
@@ -213,6 +210,10 @@ If a device supports volume changes, the WAVECAPS_VOLUME flag will be set for th
 
 
 
+
+
+> [!NOTE]
+> The mmeapi.h header defines WAVEOUTCAPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

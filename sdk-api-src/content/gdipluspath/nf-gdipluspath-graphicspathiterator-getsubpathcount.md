@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.GetSubpathCount
 title: GraphicsPathIterator::GetSubpathCount (gdipluspath.h)
-description: The GraphicsPathIterator::GetSubpathCount method returns the number of subpaths (also called figures) in the path.helpviewer_keywords: ["GetSubpathCount","GetSubpathCount method [GDI+]","GetSubpathCount method [GDI+]","GraphicsPathIterator class","GraphicsPathIterator class [GDI+]","GetSubpathCount method","GraphicsPathIterator.GetSubpathCount","GraphicsPathIterator::GetSubpathCount","_gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_"]
+description: The GraphicsPathIterator::GetSubpathCount method returns the number of subpaths (also called figures) in the path.
+helpviewer_keywords: ["GetSubpathCount","GetSubpathCount method [GDI+]","GetSubpathCount method [GDI+]","GraphicsPathIterator class","GraphicsPathIterator class [GDI+]","GetSubpathCount method","GraphicsPathIterator.GetSubpathCount","GraphicsPathIterator::GetSubpathCount","_gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_GetSubpathCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\getsubpathcount.htm

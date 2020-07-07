@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_AUX.EnumCapability
 title: IBDA_AUX::EnumCapability (bdaiface.h)
-description: Gets the capabilities of an auxiliary connector, specified by index.helpviewer_keywords: ["EnumCapability","EnumCapability method [Microsoft TV Technologies]","EnumCapability method [Microsoft TV Technologies]","IBDA_AUX interface","IBDA_AUX interface [Microsoft TV Technologies]","EnumCapability method","IBDA_AUX.EnumCapability","IBDA_AUX::EnumCapability","PBDA_AUX_CONNECTOR_TYPE_Composite","PBDA_AUX_CONNECTOR_TYPE_SVideo","bdaiface/IBDA_AUX::EnumCapability","mstv.ibda_aux_enumcapability"]
+description: Gets the capabilities of an auxiliary connector, specified by index.
+helpviewer_keywords: ["EnumCapability","EnumCapability method [Microsoft TV Technologies]","EnumCapability method [Microsoft TV Technologies]","IBDA_AUX interface","IBDA_AUX interface [Microsoft TV Technologies]","EnumCapability method","IBDA_AUX.EnumCapability","IBDA_AUX::EnumCapability","PBDA_AUX_CONNECTOR_TYPE_Composite","PBDA_AUX_CONNECTOR_TYPE_SVideo","bdaiface/IBDA_AUX::EnumCapability","mstv.ibda_aux_enumcapability"]
 old-location: mstv\ibda_aux_enumcapability.htm
 tech.root: mstv
 ms.assetid: 5f04c080-81c9-4aa9-ba54-5e16a538f10a

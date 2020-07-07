@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.IShellFolderBand.SetBandInfoSFB
 title: IShellFolderBand::SetBandInfoSFB (shlobj.h)
-description: Uses the information in a BANDINFOSFB structure to set the band information for a IShellFolderBand object.helpviewer_keywords: ["IShellFolderBand interface [Windows Shell]","SetBandInfoSFB method","IShellFolderBand.SetBandInfoSFB","IShellFolderBand::SetBandInfoSFB","SetBandInfoSFB","SetBandInfoSFB method [Windows Shell]","SetBandInfoSFB method [Windows Shell]","IShellFolderBand interface","_win32_IShellFolderBand_SetBandInfoSFB","shell.IShellFolderBand_SetBandInfoSFB","shlobj/IShellFolderBand::SetBandInfoSFB"]
+description: Uses the information in a BANDINFOSFB structure to set the band information for a IShellFolderBand object.
+helpviewer_keywords: ["IShellFolderBand interface [Windows Shell]","SetBandInfoSFB method","IShellFolderBand.SetBandInfoSFB","IShellFolderBand::SetBandInfoSFB","SetBandInfoSFB","SetBandInfoSFB method [Windows Shell]","SetBandInfoSFB method [Windows Shell]","IShellFolderBand interface","_win32_IShellFolderBand_SetBandInfoSFB","shell.IShellFolderBand_SetBandInfoSFB","shlobj/IShellFolderBand::SetBandInfoSFB"]
 old-location: shell\IShellFolderBand_SetBandInfoSFB.htm
 tech.root: shell
 ms.assetid: 6b1a219f-60a3-4073-8293-2e9e1c6459d9

@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1effects_2.D2D1_WHITELEVELADJUSTMENT_PROP
 title: D2D1_WHITELEVELADJUSTMENT_PROP (d2d1effects_2.h)
-description: Defines constants that identify the top level properties of the White Level Adjustment effect.helpviewer_keywords: ["D2D1_WHITELEVELADJUSTMENT_PROP","D2D1_WHITELEVELADJUSTMENT_PROP enumeration [Direct2D]","D2D1_WHITELEVELADJUSTMENT_PROP_INPUT_WHITE_LEVEL","D2D1_WHITELEVELADJUSTMENT_PROP_OUTPUT_WHITE_LEVEL","d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP","d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP_INPUT_WHITE_LEVEL","d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP_OUTPUT_WHITE_LEVEL","direct2d.d2d1_whiteleveladjustment_prop"]
+description: Defines constants that identify the top level properties of the White Level Adjustment effect.
+helpviewer_keywords: ["D2D1_WHITELEVELADJUSTMENT_PROP","D2D1_WHITELEVELADJUSTMENT_PROP enumeration [Direct2D]","D2D1_WHITELEVELADJUSTMENT_PROP_INPUT_WHITE_LEVEL","D2D1_WHITELEVELADJUSTMENT_PROP_OUTPUT_WHITE_LEVEL","d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP","d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP_INPUT_WHITE_LEVEL","d2d1effects_2/D2D1_WHITELEVELADJUSTMENT_PROP_OUTPUT_WHITE_LEVEL","direct2d.d2d1_whiteleveladjustment_prop"]
 old-location: direct2d\d2d1_whiteleveladjustment_prop.htm
 tech.root: Direct2D
 ms.date: 01/30/2019

@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugDevice
 title: ID3D12DebugDevice (d3d12sdklayers.h)
-description: This interface represents a graphics device for debugging.helpviewer_keywords: ["ID3D12DebugDevice","ID3D12DebugDevice interface","ID3D12DebugDevice interface","described","d3d12sdklayers/ID3D12DebugDevice","direct3d12.id3d12debugdevice"]
+description: This interface represents a graphics device for debugging.
+helpviewer_keywords: ["ID3D12DebugDevice","ID3D12DebugDevice interface","ID3D12DebugDevice interface","described","d3d12sdklayers/ID3D12DebugDevice","direct3d12.id3d12debugdevice"]
 old-location: direct3d12\id3d12debugdevice.htm
 tech.root: direct3d12
 ms.assetid: 6FD77F14-E260-4DBB-8434-664DE1F6DE39

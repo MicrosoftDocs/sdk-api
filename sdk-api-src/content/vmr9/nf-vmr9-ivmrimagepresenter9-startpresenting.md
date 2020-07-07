@@ -1,7 +1,8 @@
 ---
 UID: NF:vmr9.IVMRImagePresenter9.StartPresenting
 title: IVMRImagePresenter9::StartPresenting (vmr9.h)
-description: The StartPresenting method is called just before the video starts playing. The allocator-presenter should perform any necessary configuration in this method.helpviewer_keywords: ["IVMRImagePresenter9 interface [DirectShow]","StartPresenting method","IVMRImagePresenter9.StartPresenting","IVMRImagePresenter9::StartPresenting","IVMRImagePresenter9StartPresenting","StartPresenting","StartPresenting method [DirectShow]","StartPresenting method [DirectShow]","IVMRImagePresenter9 interface","dshow.ivmrimagepresenter9_startpresenting","vmr9/IVMRImagePresenter9::StartPresenting"]
+description: The StartPresenting method is called just before the video starts playing. The allocator-presenter should perform any necessary configuration in this method.
+helpviewer_keywords: ["IVMRImagePresenter9 interface [DirectShow]","StartPresenting method","IVMRImagePresenter9.StartPresenting","IVMRImagePresenter9::StartPresenting","IVMRImagePresenter9StartPresenting","StartPresenting","StartPresenting method [DirectShow]","StartPresenting method [DirectShow]","IVMRImagePresenter9 interface","dshow.ivmrimagepresenter9_startpresenting","vmr9/IVMRImagePresenter9::StartPresenting"]
 old-location: dshow\ivmrimagepresenter9_startpresenting.htm
 tech.root: DirectShow
 ms.assetid: 654ac7eb-d6ea-4b9a-8dfb-7ba7bc7e8429

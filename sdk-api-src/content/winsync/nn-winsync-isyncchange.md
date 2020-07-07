@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.ISyncChange
 title: ISyncChange (winsync.h)
-description: Represents a change to an item.helpviewer_keywords: ["ISyncChange","ISyncChange interface [Windows Sync]","ISyncChange interface [Windows Sync]","described","winsync.isyncchange","winsync/ISyncChange"]
+description: Represents a change to an item.
+helpviewer_keywords: ["ISyncChange","ISyncChange interface [Windows Sync]","ISyncChange interface [Windows Sync]","described","winsync.isyncchange","winsync/ISyncChange"]
 old-location: winsync\isyncchange.htm
 tech.root: winsync
 ms.assetid: 0cd29977-8d02-4a1e-b63f-783cc10021ee

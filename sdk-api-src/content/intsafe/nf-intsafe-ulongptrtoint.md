@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ULongPtrToInt
 title: ULongPtrToInt function (intsafe.h)
-description: Converts a value of type size_t to a value of type INT.helpviewer_keywords: ["SizeTToInt","SizeTToInt function [Windows Shell]","ULongPtrToInt","_shell_SizeTToInt","intsafe/SizeTToInt","shell.SizeTToInt"]
+description: Converts a value of type size_t to a value of type INT.
+helpviewer_keywords: ["SizeTToInt","SizeTToInt function [Windows Shell]","ULongPtrToInt","_shell_SizeTToInt","intsafe/SizeTToInt","shell.SizeTToInt"]
 old-location: shell\SizeTToInt.htm
 tech.root: shell
 ms.assetid: 65f178c1-8029-40c5-af31-03f158d90582

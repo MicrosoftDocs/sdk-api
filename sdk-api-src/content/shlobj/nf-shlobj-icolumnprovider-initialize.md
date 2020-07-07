@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.IColumnProvider.Initialize
 title: IColumnProvider::Initialize (shlobj.h)
-description: Initializes an IColumnProvider interface.helpviewer_keywords: ["IColumnProvider interface [Windows Shell]","Initialize method","IColumnProvider.Initialize","IColumnProvider::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IColumnProvider interface","_win32_IColumnProvider_Initialize","shell.IColumnProvider_Initialize","shlobj/IColumnProvider::Initialize"]
+description: Initializes an IColumnProvider interface.
+helpviewer_keywords: ["IColumnProvider interface [Windows Shell]","Initialize method","IColumnProvider.Initialize","IColumnProvider::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IColumnProvider interface","_win32_IColumnProvider_Initialize","shell.IColumnProvider_Initialize","shlobj/IColumnProvider::Initialize"]
 old-location: shell\IColumnProvider_Initialize.htm
 tech.root: shell
 ms.assetid: 4975042d-549e-4032-9f42-468dc7e3c20e

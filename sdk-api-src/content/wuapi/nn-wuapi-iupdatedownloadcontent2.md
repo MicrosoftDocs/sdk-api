@@ -1,7 +1,8 @@
 ---
 UID: NN:wuapi.IUpdateDownloadContent2
 title: IUpdateDownloadContent2 (wuapi.h)
-description: Represents the download content of an update.helpviewer_keywords: ["IUpdateDownloadContent2","IUpdateDownloadContent2 interface [Windows Update Agent]","IUpdateDownloadContent2 interface [Windows Update Agent]","described","wua.iupdatedownloadcontent2","wuapi/IUpdateDownloadContent2"]
+description: Represents the download content of an update.
+helpviewer_keywords: ["IUpdateDownloadContent2","IUpdateDownloadContent2 interface [Windows Update Agent]","IUpdateDownloadContent2 interface [Windows Update Agent]","described","wua.iupdatedownloadcontent2","wuapi/IUpdateDownloadContent2"]
 old-location: wua\iupdatedownloadcontent2.htm
 tech.root: Wua_Sdk
 ms.assetid: adf2e5df-42ca-41dc-aa84-60302c36a494

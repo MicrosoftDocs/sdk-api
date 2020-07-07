@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsDecodeUrl
 title: WsDecodeUrl function (webservices.h)
-description: Evaluates the components of an URL to determine its &#0034;scheme&#0034;.helpviewer_keywords: ["DWsDecodeUrl","WsDecodeUrl","WsDecodeUrl function [Web Services for Windows]","webservices/WsDecodeUrl","wsw.wsdecodeurl"]
+description: Evaluates the components of an URL to determine its &#0034;scheme&#0034;.
+helpviewer_keywords: ["DWsDecodeUrl","WsDecodeUrl","WsDecodeUrl function [Web Services for Windows]","webservices/WsDecodeUrl","wsw.wsdecodeurl"]
 old-location: wsw\wsdecodeurl.htm
 tech.root: wsw
 ms.assetid: 67147b71-ca3a-4a17-a4f1-6ba608eca742
@@ -68,7 +69,7 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/webservic
 
 ### -param flags [in]
 
-Determines the URL scheme evaluation method.  See <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_xml_writer_encoding_type">WS_URL_FLAGS</a>.
+Determines the URL scheme evaluation method.  See <a href="/windows/win32/api/webservices/ne-webservices-ws_xml_writer_encoding_type">WS_URL_FLAGS</a>.
                 
 
 

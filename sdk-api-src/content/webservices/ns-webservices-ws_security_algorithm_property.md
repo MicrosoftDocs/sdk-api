@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_SECURITY_ALGORITHM_PROPERTY
 title: WS_SECURITY_ALGORITHM_PROPERTY (webservices.h)
-description: Specifies a cryptographic algorithm setting.helpviewer_keywords: ["WS_SECURITY_ALGORITHM_PROPERTY","WS_SECURITY_ALGORITHM_PROPERTY structure [Web Services for Windows]","webservices/WS_SECURITY_ALGORITHM_PROPERTY","wsw.ws_security_algorithm_property"]
+description: Specifies a cryptographic algorithm setting.
+helpviewer_keywords: ["WS_SECURITY_ALGORITHM_PROPERTY","WS_SECURITY_ALGORITHM_PROPERTY structure [Web Services for Windows]","webservices/WS_SECURITY_ALGORITHM_PROPERTY","wsw.ws_security_algorithm_property"]
 old-location: wsw\ws_security_algorithm_property.htm
 tech.root: wsw
 ms.assetid: 6a0dbe45-65f6-41eb-aa94-5ed0cdd751cf
@@ -60,7 +61,7 @@ Specifies a cryptographic algorithm setting.
 
 ### -field id
 
-Identifies the <a href="https://docs.microsoft.com/windows/win32/api/webservices/ne-webservices-ws_move_to">WS_SECURITY_ALGORITHM_PROPERTY_ID</a>.
+Identifies the <a href="/windows/win32/api/webservices/ne-webservices-ws_move_to">WS_SECURITY_ALGORITHM_PROPERTY_ID</a>.
             
 
 

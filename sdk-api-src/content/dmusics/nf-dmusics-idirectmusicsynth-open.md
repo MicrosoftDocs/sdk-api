@@ -1,7 +1,8 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Open
 title: IDirectMusicSynth::Open (dmusics.h)
-description: The Open method opens a DirectMusic synthesizer &#0034;port&#0034;.helpviewer_keywords: ["IDirectMusicSynth interface [Audio Devices]","Open method","IDirectMusicSynth.Open","IDirectMusicSynth::Open","Open","Open method [Audio Devices]","Open method [Audio Devices]","IDirectMusicSynth interface","audio.idirectmusicsynth_open","audmp-routines_5bb9c701-4377-42fb-91ac-733952708a38.xml","dmusics/IDirectMusicSynth::Open"]
+description: The Open method opens a DirectMusic synthesizer &#0034;port&#0034;.
+helpviewer_keywords: ["IDirectMusicSynth interface [Audio Devices]","Open method","IDirectMusicSynth.Open","IDirectMusicSynth::Open","Open","Open method [Audio Devices]","Open method [Audio Devices]","IDirectMusicSynth interface","audio.idirectmusicsynth_open","audmp-routines_5bb9c701-4377-42fb-91ac-733952708a38.xml","dmusics/IDirectMusicSynth::Open"]
 old-location: audio\idirectmusicsynth_open.htm
 tech.root: audio
 ms.assetid: 15a16b27-7693-4fc6-80ae-e8aedcf879d0

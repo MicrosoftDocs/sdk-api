@@ -1,13 +1,13 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetTableDescriptorByIndex
 title: IDVB_BAT::GetTableDescriptorByIndex (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetTableDescriptorByIndex","GetTableDescriptorByIndex method [Microsoft TV Technologies]","GetTableDescriptorByIndex method [Microsoft TV Technologies]","IDVB_BAT interface","IDVB_BAT interface [Microsoft TV Technologies]","GetTableDescriptorByIndex method","IDVB_BAT.GetTableDescriptorByIndex","IDVB_BAT::GetTableDescriptorByIndex","IDVB_BATGetTableDescriptorByIndex","dvbsiparser/IDVB_BAT::GetTableDescriptorByIndex","mstv.idvb_bat_gettabledescriptorbyindex"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTableDescriptorByIndex","GetTableDescriptorByIndex method [Microsoft TV Technologies]","GetTableDescriptorByIndex method [Microsoft TV Technologies]","IDVB_BAT interface","IDVB_BAT interface [Microsoft TV Technologies]","GetTableDescriptorByIndex method","IDVB_BAT.GetTableDescriptorByIndex","IDVB_BAT::GetTableDescriptorByIndex","IDVB_BATGetTableDescriptorByIndex","dvbsiparser/IDVB_BAT::GetTableDescriptorByIndex","mstv.idvb_bat_gettabledescriptorbyindex"]
 old-location: mstv\idvb_bat_gettabledescriptorbyindex.htm
 tech.root: mstv
 ms.assetid: fa985aea-3822-439e-9a83-916cc1c9ae93
 ms.date: 12/05/2018
 ms.keywords: GetTableDescriptorByIndex, GetTableDescriptorByIndex method [Microsoft TV Technologies], GetTableDescriptorByIndex method [Microsoft TV Technologies],IDVB_BAT interface, IDVB_BAT interface [Microsoft TV Technologies],GetTableDescriptorByIndex method, IDVB_BAT.GetTableDescriptorByIndex, IDVB_BAT::GetTableDescriptorByIndex, IDVB_BATGetTableDescriptorByIndex, dvbsiparser/IDVB_BAT::GetTableDescriptorByIndex, mstv.idvb_bat_gettabledescriptorbyindex
-ms.topic: method
 f1_keywords:
 - dvbsiparser/IDVB_BAT.GetTableDescriptorByIndex
 dev_langs:

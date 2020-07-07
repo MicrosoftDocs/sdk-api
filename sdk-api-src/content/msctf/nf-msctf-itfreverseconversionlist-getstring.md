@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfReverseConversionList.GetString
 title: ITfReverseConversionList::GetString (msctf.h)
-description: Retrieves the keystroke sequence at the specified index.helpviewer_keywords: ["GetString","GetString method [Text Services Framework]","GetString method [Text Services Framework]","ITfReverseConversionList interface","ITfReverseConversionList interface [Text Services Framework]","GetString method","ITfReverseConversionList.GetString","ITfReverseConversionList::GetString","msctf/ITfReverseConversionList::GetString","tsf.itfreverseconversionlist_getstring"]
+description: Retrieves the keystroke sequence at the specified index.
+helpviewer_keywords: ["GetString","GetString method [Text Services Framework]","GetString method [Text Services Framework]","ITfReverseConversionList interface","ITfReverseConversionList interface [Text Services Framework]","GetString method","ITfReverseConversionList.GetString","ITfReverseConversionList::GetString","msctf/ITfReverseConversionList::GetString","tsf.itfreverseconversionlist_getstring"]
 old-location: tsf\itfreverseconversionlist_getstring.htm
 tech.root: TSF
 ms.assetid: 5a8cc79f-d348-4fe8-b005-aeabd6db43c5

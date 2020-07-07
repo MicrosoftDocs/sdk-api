@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0_
 title: FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0 (fwpmtypes.h)
-description: Used to subscribe for change notifications.helpviewer_keywords: ["FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0","FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0 structure [Filtering]","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE","fwp.fwpm_provider_context_subscription0_struct","fwpmtypes/FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0"]
+description: Used to subscribe for change notifications.
+helpviewer_keywords: ["FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0","FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0 structure [Filtering]","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_ADD","FWPM_SUBSCRIPTION_FLAG_NOTIFY_ON_DELETE","fwp.fwpm_provider_context_subscription0_struct","fwpmtypes/FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0"]
 old-location: fwp\fwpm_provider_context_subscription0_struct.htm
 tech.root: fwp
 ms.assetid: 44c01600-7cb6-45f4-a2e1-746f200ee772
@@ -61,7 +62,7 @@ The <b>FWPM_PROVIDER_CONTEXT_SUBSCRIPTION0</b> structure is  used to subscribe f
 
 Notifications are only dispatched for objects that match the template. If the template is <b>NULL</b>, it matches all objects.
 
-See <a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> for more information
+See <a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a> for more information
 
 
 ### -field flags
@@ -116,7 +117,7 @@ Uniquely identifies this session.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
+<a href="/windows/win32/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_enum_template0">FWPM_PROVIDER_CONTEXT_ENUM_TEMPLATE0</a>
 
 
 

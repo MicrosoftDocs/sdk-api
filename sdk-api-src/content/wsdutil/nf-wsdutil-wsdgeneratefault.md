@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdutil.WSDGenerateFault
 title: WSDGenerateFault function (wsdutil.h)
-description: Generates a SOAP fault.helpviewer_keywords: ["DataEncodingUnknown","MustUnderstand","Receiver","Sender","VersionMismatch","WSDGenerateFault","WSDGenerateFault function","ncd.wsdgeneratefault","wsdutil/WSDGenerateFault"]
+description: Generates a SOAP fault.
+helpviewer_keywords: ["DataEncodingUnknown","MustUnderstand","Receiver","Sender","VersionMismatch","WSDGenerateFault","WSDGenerateFault function","ncd.wsdgeneratefault","wsdutil/WSDGenerateFault"]
 old-location: ncd\wsdgeneratefault.htm
 tech.root: WsdApi
 ms.assetid: eebecf71-2572-4e20-ad40-b1a2f811bedf

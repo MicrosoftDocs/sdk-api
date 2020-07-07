@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IChangeConflict.SetResolveActionForChange
 title: IChangeConflict::SetResolveActionForChange (winsync.h)
-description: Sets a conflict resolution action for the conflict.helpviewer_keywords: ["IChangeConflict interface [Windows Sync]","SetResolveActionForChange method","IChangeConflict.SetResolveActionForChange","IChangeConflict::SetResolveActionForChange","SetResolveActionForChange","SetResolveActionForChange method [Windows Sync]","SetResolveActionForChange method [Windows Sync]","IChangeConflict interface","winsync.ichangeconflict_setresolveactionforchange","winsync/IChangeConflict::SetResolveActionForChange"]
+description: Sets a conflict resolution action for the conflict.
+helpviewer_keywords: ["IChangeConflict interface [Windows Sync]","SetResolveActionForChange method","IChangeConflict.SetResolveActionForChange","IChangeConflict::SetResolveActionForChange","SetResolveActionForChange","SetResolveActionForChange method [Windows Sync]","SetResolveActionForChange method [Windows Sync]","IChangeConflict interface","winsync.ichangeconflict_setresolveactionforchange","winsync/IChangeConflict::SetResolveActionForChange"]
 old-location: winsync\ichangeconflict_setresolveactionforchange.htm
 tech.root: winsync
 ms.assetid: f1a26c85-a00d-408e-96ea-5849c6bb99ff
@@ -134,7 +135,7 @@ By setting this action in an event handler for <a href="https://docs.microsoft.c
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_resolve_action">SYNC RESOLVE ACTION Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-sync_resolve_action">SYNC RESOLVE ACTION Enumeration</a>
  
 
  

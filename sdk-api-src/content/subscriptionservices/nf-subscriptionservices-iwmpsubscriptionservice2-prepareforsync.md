@@ -1,7 +1,8 @@
 ---
 UID: NF:subscriptionservices.IWMPSubscriptionService2.prepareForSync
 title: IWMPSubscriptionService2::prepareForSync (subscriptionservices.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPSubscriptionService2 interface [Windows Media Player]","prepareForSync method","IWMPSubscriptionService2.prepareForSync","IWMPSubscriptionService2::prepareForSync","IWMPSubscriptionService2prepareForSync","prepareForSync","prepareForSync method [Windows Media Player]","prepareForSync method [Windows Media Player]","IWMPSubscriptionService2 interface","subscriptionservices/IWMPSubscriptionService2::prepareForSync","wmp.iwmpsubscriptionservice2_prepareforsync"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["IWMPSubscriptionService2 interface [Windows Media Player]","prepareForSync method","IWMPSubscriptionService2.prepareForSync","IWMPSubscriptionService2::prepareForSync","IWMPSubscriptionService2prepareForSync","prepareForSync","prepareForSync method [Windows Media Player]","prepareForSync method [Windows Media Player]","IWMPSubscriptionService2 interface","subscriptionservices/IWMPSubscriptionService2::prepareForSync","wmp.iwmpsubscriptionservice2_prepareforsync"]
 old-location: wmp\iwmpsubscriptionservice2_prepareforsync.htm
 tech.root: WMP
 ms.assetid: 64ab5548-b562-44e4-9798-8f14d3ed653b

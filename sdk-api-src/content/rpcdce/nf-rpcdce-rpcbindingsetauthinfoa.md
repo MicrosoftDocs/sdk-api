@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingSetAuthInfoA
 title: RpcBindingSetAuthInfoA function (rpcdce.h)
-description: The RpcBindingSetAuthInfo function sets a binding handle's authentication and authorization information.helpviewer_keywords: ["RpcBindingSetAuthInfo","RpcBindingSetAuthInfo function [RPC]","RpcBindingSetAuthInfoA","RpcBindingSetAuthInfoW","_rpc_rpcbindingsetauthinfo","rpc.rpcbindingsetauthinfo","rpcdce/RpcBindingSetAuthInfo","rpcdce/RpcBindingSetAuthInfoA","rpcdce/RpcBindingSetAuthInfoW"]
+description: The RpcBindingSetAuthInfo function sets a binding handle's authentication and authorization information.
+helpviewer_keywords: ["RpcBindingSetAuthInfo","RpcBindingSetAuthInfo function [RPC]","RpcBindingSetAuthInfoA","RpcBindingSetAuthInfoW","_rpc_rpcbindingsetauthinfo","rpc.rpcbindingsetauthinfo","rpcdce/RpcBindingSetAuthInfo","rpcdce/RpcBindingSetAuthInfoA","rpcdce/RpcBindingSetAuthInfoW"]
 old-location: rpc\rpcbindingsetauthinfo.htm
 tech.root: Rpc
 ms.assetid: 2db946b6-6a0d-402c-89ef-68c7489aa7ee
@@ -201,6 +202,10 @@ Due to varying requirements of different versions of Microsoft RPC, Microsoft re
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The rpcdce.h header defines RpcBindingSetAuthInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

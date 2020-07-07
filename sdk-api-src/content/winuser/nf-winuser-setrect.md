@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetRect
 title: SetRect function (winuser.h)
-description: The SetRect function sets the coordinates of the specified rectangle. This is equivalent to assigning the left, top, right, and bottom arguments to the appropriate members of the RECT structure.helpviewer_keywords: ["SetRect","SetRect function [Windows GDI]","_win32_SetRect","gdi.setrect","winuser/SetRect"]
+description: The SetRect function sets the coordinates of the specified rectangle. This is equivalent to assigning the left, top, right, and bottom arguments to the appropriate members of the RECT structure.
+helpviewer_keywords: ["SetRect","SetRect function [Windows GDI]","_win32_SetRect","gdi.setrect","winuser/SetRect"]
 old-location: gdi\setrect.htm
 tech.root: gdi
 ms.assetid: 346c573b-eaf7-4ca6-bd36-18074f7eccf5

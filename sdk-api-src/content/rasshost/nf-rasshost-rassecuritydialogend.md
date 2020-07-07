@@ -1,7 +1,8 @@
 ---
 UID: NF:rasshost.RasSecurityDialogEnd
 title: RasSecurityDialogEnd function (rasshost.h)
-description: The RasSecurityDialogEnd function is a third-party RAS security DLL entry point that the RAS server calls to terminate an authentication transaction.helpviewer_keywords: ["RasSecurityDialogEnd","RasSecurityDialogEnd callback","RasSecurityDialogEnd callback function [RAS]","_ras_rassecuritydialogend","rasshost/RasSecurityDialogEnd","rras.rassecuritydialogend"]
+description: The RasSecurityDialogEnd function is a third-party RAS security DLL entry point that the RAS server calls to terminate an authentication transaction.
+helpviewer_keywords: ["RasSecurityDialogEnd","RasSecurityDialogEnd callback","RasSecurityDialogEnd callback function [RAS]","_ras_rassecuritydialogend","rasshost/RasSecurityDialogEnd","rras.rassecuritydialogend"]
 old-location: rras\rassecuritydialogend.htm
 tech.root: RRAS
 ms.assetid: 52274d37-baed-4ab9-8019-123ae7c5b0fc

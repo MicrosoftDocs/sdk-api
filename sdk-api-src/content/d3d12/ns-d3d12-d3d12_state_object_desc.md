@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_STATE_OBJECT_DESC
 title: D3D12_STATE_OBJECT_DESC (d3d12.h)
-description: Description of a state object. Pass this structure into ID3D12Device::CreateStateObject.helpviewer_keywords: ["D3D12_STATE_OBJECT_DESC","D3D12_STATE_OBJECT_DESC structure","PD3D12_STATE_OBJECT_DESC","PD3D12_STATE_OBJECT_DESC structure pointer","d3d12/D3D12_STATE_OBJECT_DESC","d3d12/PD3D12_STATE_OBJECT_DESC","direct3d12.d3d12_state_object_desc"]
+description: Description of a state object. Pass this structure into ID3D12Device::CreateStateObject.
+helpviewer_keywords: ["D3D12_STATE_OBJECT_DESC","D3D12_STATE_OBJECT_DESC structure","PD3D12_STATE_OBJECT_DESC","PD3D12_STATE_OBJECT_DESC structure pointer","d3d12/D3D12_STATE_OBJECT_DESC","d3d12/PD3D12_STATE_OBJECT_DESC","direct3d12.d3d12_state_object_desc"]
 old-location: direct3d12\d3d12_state_object_desc.htm
 tech.root: direct3d12
 ms.assetid: 034B3573-4351-4BB4-AB5C-A15DB679CD00

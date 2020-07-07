@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemLocator.ConnectServer
 title: IWbemLocator::ConnectServer (wbemcli.h)
-description: The IWbemLocator::ConnectServer method creates a connection through DCOM to a WMI namespace on the computer specified in the strNetworkResource parameter.helpviewer_keywords: ["ConnectServer","ConnectServer method [Windows Management Instrumentation]","ConnectServer method [Windows Management Instrumentation]","IWbemLocator interface","ConnectServer method [Windows Management Instrumentation]","WbemAdministrativeLocator object","ConnectServer method [Windows Management Instrumentation]","WbemAuthenticatedLocator object","ConnectServer method [Windows Management Instrumentation]","WbemLocator object","ConnectServer method [Windows Management Instrumentation]","WbemUnauthenticatedLocator object","IWbemLocator interface [Windows Management Instrumentation]","ConnectServer method","IWbemLocator.ConnectServer","IWbemLocator::ConnectServer","WBEM_FLAG_CONNECT_REPOSITORY_ONLY","WBEM_FLAG_CONNECT_USE_MAX_WAIT","WbemAdministrativeLocator object [Windows Management Instrumentation]","ConnectServer method","WbemAuthenticatedLocator object [Windows Management Instrumentation]","ConnectServer method","WbemLocator object [Windows Management Instrumentation]","ConnectServer method","WbemUnauthenticatedLocator object [Windows Management Instrumentation]","ConnectServer method","_hmm_iwbemlocator_connectserver","wbemcli/IWbemLocator::ConnectServer","wmi.iwbemlocator_connectserver"]
+description: The IWbemLocator::ConnectServer method creates a connection through DCOM to a WMI namespace on the computer specified in the strNetworkResource parameter.
+helpviewer_keywords: ["ConnectServer","ConnectServer method [Windows Management Instrumentation]","ConnectServer method [Windows Management Instrumentation]","IWbemLocator interface","ConnectServer method [Windows Management Instrumentation]","WbemAdministrativeLocator object","ConnectServer method [Windows Management Instrumentation]","WbemAuthenticatedLocator object","ConnectServer method [Windows Management Instrumentation]","WbemLocator object","ConnectServer method [Windows Management Instrumentation]","WbemUnauthenticatedLocator object","IWbemLocator interface [Windows Management Instrumentation]","ConnectServer method","IWbemLocator.ConnectServer","IWbemLocator::ConnectServer","WBEM_FLAG_CONNECT_REPOSITORY_ONLY","WBEM_FLAG_CONNECT_USE_MAX_WAIT","WbemAdministrativeLocator object [Windows Management Instrumentation]","ConnectServer method","WbemAuthenticatedLocator object [Windows Management Instrumentation]","ConnectServer method","WbemLocator object [Windows Management Instrumentation]","ConnectServer method","WbemUnauthenticatedLocator object [Windows Management Instrumentation]","ConnectServer method","_hmm_iwbemlocator_connectserver","wbemcli/IWbemLocator::ConnectServer","wmi.iwbemlocator_connectserver"]
 old-location: wmi\iwbemlocator_connectserver.htm
 tech.root: WmiSdk
 ms.assetid: 92222e08-8622-46c3-9465-cd12260a2ca0
@@ -250,7 +251,7 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wbemcli/ne-wbemcli-wbem_connect_options">WBEM_CONNECT_OPTIONS</a>
+<a href="/windows/win32/api/wbemcli/ne-wbemcli-wbem_connect_options">WBEM_CONNECT_OPTIONS</a>
  
 
  

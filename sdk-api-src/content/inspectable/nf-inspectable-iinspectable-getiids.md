@@ -1,7 +1,8 @@
 ---
 UID: NF:inspectable.IInspectable.GetIids
 title: IInspectable::GetIids (inspectable.h)
-description: Gets the interfaces that are implemented by the current Windows Runtime class.helpviewer_keywords: ["GetIids","GetIids method [Windows Runtime]","GetIids method [Windows Runtime]","IInputPaneInterop interface","GetIids method [Windows Runtime]","IInspectable interface","IInputPaneInterop interface [Windows Runtime]","GetIids method","IInputPaneInterop::GetIids","IInspectable interface [Windows Runtime]","GetIids method","IInspectable.GetIids","IInspectable::GetIids","inspectable/IInputPaneInterop::GetIids","inspectable/IInspectable::GetIids","winrt.iinspectable_getiids"]
+description: Gets the interfaces that are implemented by the current Windows Runtime class.
+helpviewer_keywords: ["GetIids","GetIids method [Windows Runtime]","GetIids method [Windows Runtime]","IInputPaneInterop interface","GetIids method [Windows Runtime]","IInspectable interface","IInputPaneInterop interface [Windows Runtime]","GetIids method","IInputPaneInterop::GetIids","IInspectable interface [Windows Runtime]","GetIids method","IInspectable.GetIids","IInspectable::GetIids","inspectable/IInputPaneInterop::GetIids","inspectable/IInspectable::GetIids","winrt.iinspectable_getiids"]
 old-location: winrt\iinspectable_getiids.htm
 tech.root: WinRT
 ms.assetid: 560094E6-3ED2-4BF3-85C7-07736ECBACC8

@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComLTxEvents.OnLtxTransactionAbort
 title: IComLTxEvents::OnLtxTransactionAbort (comsvcs.h)
-description: Generated when a transaction is aborted.helpviewer_keywords: ["IComLTxEvents interface [COM+]","OnLtxTransactionAbort method","IComLTxEvents.OnLtxTransactionAbort","IComLTxEvents::OnLtxTransactionAbort","OnLtxTransactionAbort","OnLtxTransactionAbort method [COM+]","OnLtxTransactionAbort method [COM+]","IComLTxEvents interface","comsvcs/IComLTxEvents::OnLtxTransactionAbort","cos.icomltxevents_onltxtransactionabort"]
+description: Generated when a transaction is aborted.
+helpviewer_keywords: ["IComLTxEvents interface [COM+]","OnLtxTransactionAbort method","IComLTxEvents.OnLtxTransactionAbort","IComLTxEvents::OnLtxTransactionAbort","OnLtxTransactionAbort","OnLtxTransactionAbort method [COM+]","OnLtxTransactionAbort method [COM+]","IComLTxEvents interface","comsvcs/IComLTxEvents::OnLtxTransactionAbort","cos.icomltxevents_onltxtransactionabort"]
 old-location: cos\icomltxevents_onltxtransactionabort.htm
 tech.root: cossdk
 ms.assetid: 49117b74-e84b-497c-ae13-6037e8243e79
@@ -62,7 +63,7 @@ The event ID for this event is EID_LTXABORT.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidLtx [in]

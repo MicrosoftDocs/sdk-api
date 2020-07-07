@@ -1,7 +1,8 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControl.RemoveCapturedItem
 title: ICameraUIControl::RemoveCapturedItem (camerauicontrol.h)
-description: Removes the captured item.helpviewer_keywords: ["ICameraUIControl interface [Windows API]","RemoveCapturedItem method","ICameraUIControl.RemoveCapturedItem","ICameraUIControl::RemoveCapturedItem","RemoveCapturedItem","RemoveCapturedItem method [Windows API]","RemoveCapturedItem method [Windows API]","ICameraUIControl interface","camerauicontrol/ICameraUIControl::RemoveCapturedItem","winprog.icamerauicontrol_removecaptureditem"]
+description: Removes the captured item.
+helpviewer_keywords: ["ICameraUIControl interface [Windows API]","RemoveCapturedItem method","ICameraUIControl.RemoveCapturedItem","ICameraUIControl::RemoveCapturedItem","RemoveCapturedItem","RemoveCapturedItem method [Windows API]","RemoveCapturedItem method [Windows API]","ICameraUIControl interface","camerauicontrol/ICameraUIControl::RemoveCapturedItem","winprog.icamerauicontrol_removecaptureditem"]
 old-location: winprog\icamerauicontrol_removecaptureditem.htm
 tech.root: DevNotes
 ms.assetid: 384b08e4-7683-43e1-b088-38455a0b956f

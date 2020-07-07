@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ICustomDestinationList.GetRemovedDestinations
 title: ICustomDestinationList::GetRemovedDestinations (shobjidl_core.h)
-description: Retrieves the current list of destinations that have been removed by the user from the existing Jump List that this custom Jump List is meant to replace.helpviewer_keywords: ["GetRemovedDestinations","GetRemovedDestinations method [Windows Shell]","GetRemovedDestinations method [Windows Shell]","ICustomDestinationList interface","ICustomDestinationList interface [Windows Shell]","GetRemovedDestinations method","ICustomDestinationList.GetRemovedDestinations","ICustomDestinationList::GetRemovedDestinations","_shell_ICustomDestinationList_GetRemovedDestinations","shell.ICustomDestinationList_GetRemovedDestinations","shobjidl_core/ICustomDestinationList::GetRemovedDestinations"]
+description: Retrieves the current list of destinations that have been removed by the user from the existing Jump List that this custom Jump List is meant to replace.
+helpviewer_keywords: ["GetRemovedDestinations","GetRemovedDestinations method [Windows Shell]","GetRemovedDestinations method [Windows Shell]","ICustomDestinationList interface","ICustomDestinationList interface [Windows Shell]","GetRemovedDestinations method","ICustomDestinationList.GetRemovedDestinations","ICustomDestinationList::GetRemovedDestinations","_shell_ICustomDestinationList_GetRemovedDestinations","shell.ICustomDestinationList_GetRemovedDestinations","shobjidl_core/ICustomDestinationList::GetRemovedDestinations"]
 old-location: shell\ICustomDestinationList_GetRemovedDestinations.htm
 tech.root: shell
 ms.assetid: 705763cf-a97f-430f-bfc3-916e943668ef

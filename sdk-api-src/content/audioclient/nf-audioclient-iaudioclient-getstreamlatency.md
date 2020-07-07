@@ -1,7 +1,8 @@
 ---
 UID: NF:audioclient.IAudioClient.GetStreamLatency
 title: IAudioClient::GetStreamLatency (audioclient.h)
-description: The GetStreamLatency method retrieves the maximum latency for the current stream and can be called any time after the stream has been initialized.helpviewer_keywords: ["GetStreamLatency","GetStreamLatency method [Core Audio]","GetStreamLatency method [Core Audio]","IAudioClient interface","IAudioClient interface [Core Audio]","GetStreamLatency method","IAudioClient.GetStreamLatency","IAudioClient::GetStreamLatency","IAudioClientGetStreamLatency","audioclient/IAudioClient::GetStreamLatency","coreaudio.iaudioclient_getstreamlatency"]
+description: The GetStreamLatency method retrieves the maximum latency for the current stream and can be called any time after the stream has been initialized.
+helpviewer_keywords: ["GetStreamLatency","GetStreamLatency method [Core Audio]","GetStreamLatency method [Core Audio]","IAudioClient interface","IAudioClient interface [Core Audio]","GetStreamLatency method","IAudioClient.GetStreamLatency","IAudioClient::GetStreamLatency","IAudioClientGetStreamLatency","audioclient/IAudioClient::GetStreamLatency","coreaudio.iaudioclient_getstreamlatency"]
 old-location: coreaudio\iaudioclient_getstreamlatency.htm
 tech.root: CoreAudio
 ms.assetid: ccc06e31-e56f-4910-882a-40b1ce0b43aa

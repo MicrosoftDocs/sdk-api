@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsole.SelectScopeItem
 title: IConsole::SelectScopeItem (mmc.h)
-description: Selects the given scope item.helpviewer_keywords: ["IConsole interface [MMC]","SelectScopeItem method","IConsole.SelectScopeItem","IConsole::SelectScopeItem","SelectScopeItem","SelectScopeItem method [MMC]","SelectScopeItem method [MMC]","IConsole interface","mmc.iconsole_selectscopeitem","mmc/IConsole::SelectScopeItem"]
+description: Selects the given scope item.
+helpviewer_keywords: ["IConsole interface [MMC]","SelectScopeItem method","IConsole.SelectScopeItem","IConsole::SelectScopeItem","SelectScopeItem","SelectScopeItem method [MMC]","SelectScopeItem method [MMC]","IConsole interface","mmc.iconsole_selectscopeitem","mmc/IConsole::SelectScopeItem"]
 old-location: mmc\iconsole_selectscopeitem.htm
 tech.root: mmc
 ms.assetid: ADE56DDF-C437-4BF3-A2EC-1E35EE7567F3

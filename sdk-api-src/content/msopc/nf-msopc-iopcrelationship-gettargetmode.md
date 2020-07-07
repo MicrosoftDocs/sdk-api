@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetTargetMode
 title: IOpcRelationship::GetTargetMode (msopc.h)
-description: Gets a value that describes whether the relationship's target is internal or external to the package.helpviewer_keywords: ["GetTargetMode","GetTargetMode method [Open Packaging Conventions]","GetTargetMode method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetTargetMode method","IOpcRelationship.GetTargetMode","IOpcRelationship::GetTargetMode","msopc/IOpcRelationship::GetTargetMode","opc.iopcrelationship_gettargetmode"]
+description: Gets a value that describes whether the relationship's target is internal or external to the package.
+helpviewer_keywords: ["GetTargetMode","GetTargetMode method [Open Packaging Conventions]","GetTargetMode method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetTargetMode method","IOpcRelationship.GetTargetMode","IOpcRelationship::GetTargetMode","msopc/IOpcRelationship::GetTargetMode","opc.iopcrelationship_gettargetmode"]
 old-location: opc\iopcrelationship_gettargetmode.htm
 tech.root: OPC
 ms.assetid: 5fb103c9-cb73-46b3-9102-6811d6673faf
@@ -154,7 +155,7 @@ For more information, see the <a href="https://docs.microsoft.com/previous-versi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_uri_target_mode">OPC_URI_TARGET_MODE</a>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_uri_target_mode">OPC_URI_TARGET_MODE</a>
 
 
 

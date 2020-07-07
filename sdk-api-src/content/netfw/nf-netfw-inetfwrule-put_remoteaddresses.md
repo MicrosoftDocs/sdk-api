@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwRule.put_RemoteAddresses
 title: INetFwRule::put_RemoteAddresses (netfw.h)
-description: Specifies the list of remote addresses for this rule.helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","RemoteAddresses property","INetFwRule.RemoteAddresses","INetFwRule.put_RemoteAddresses","INetFwRule::RemoteAddresses","INetFwRule::get_RemoteAddresses","INetFwRule::put_RemoteAddresses","RemoteAddresses property [ICS/ICF]","RemoteAddresses property [ICS/ICF]","INetFwRule interface","ics.inetfwrule_remoteaddresses","netfw/INetFwRule::RemoteAddresses","netfw/INetFwRule::get_RemoteAddresses","netfw/INetFwRule::put_RemoteAddresses","put_RemoteAddresses"]
+description: Specifies the list of remote addresses for this rule.
+helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","RemoteAddresses property","INetFwRule.RemoteAddresses","INetFwRule.put_RemoteAddresses","INetFwRule::RemoteAddresses","INetFwRule::get_RemoteAddresses","INetFwRule::put_RemoteAddresses","RemoteAddresses property [ICS/ICF]","RemoteAddresses property [ICS/ICF]","INetFwRule interface","ics.inetfwrule_remoteaddresses","netfw/INetFwRule::RemoteAddresses","netfw/INetFwRule::get_RemoteAddresses","netfw/INetFwRule::put_RemoteAddresses","put_RemoteAddresses"]
 old-location: ics\inetfwrule_remoteaddresses.htm
 tech.root: ics
 ms.assetid: 107e8cad-a603-4ac8-aa3c-6a85d47016ef

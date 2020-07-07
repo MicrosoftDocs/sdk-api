@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCdromBurn.getItemInfo
 title: IWMPCdromBurn::getItemInfo (wmp.h)
-description: The getItemInfo method retrieves the value of the specified attribute for the CD.helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","getItemInfo method","IWMPCdromBurn.getItemInfo","IWMPCdromBurn::getItemInfo","IWMPCdromBurngetItemInfo","getItemInfo","getItemInfo method [Windows Media Player]","getItemInfo method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_getiteminfo","wmp/IWMPCdromBurn::getItemInfo"]
+description: The getItemInfo method retrieves the value of the specified attribute for the CD.
+helpviewer_keywords: ["IWMPCdromBurn interface [Windows Media Player]","getItemInfo method","IWMPCdromBurn.getItemInfo","IWMPCdromBurn::getItemInfo","IWMPCdromBurngetItemInfo","getItemInfo","getItemInfo method [Windows Media Player]","getItemInfo method [Windows Media Player]","IWMPCdromBurn interface","wmp.iwmpcdromburn_getiteminfo","wmp/IWMPCdromBurn::getItemInfo"]
 old-location: wmp\iwmpcdromburn_getiteminfo.htm
 tech.root: WMP
 ms.assetid: f54b406f-0441-4ed3-8f8b-6794ab2180d9

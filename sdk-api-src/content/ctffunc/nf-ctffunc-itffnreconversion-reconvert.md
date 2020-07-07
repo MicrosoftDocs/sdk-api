@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.ITfFnReconversion.Reconvert
 title: ITfFnReconversion::Reconvert (ctffunc.h)
-description: ITfFnReconversion::Reconvert methodhelpviewer_keywords: ["ITfFnReconversion interface [Text Services Framework]","Reconvert method","ITfFnReconversion.Reconvert","ITfFnReconversion::Reconvert","Reconvert","Reconvert method [Text Services Framework]","Reconvert method [Text Services Framework]","ITfFnReconversion interface","_tsf_itffnreconversion_reconvert_ref","ctffunc/ITfFnReconversion::Reconvert","tsf.itffnreconversion_reconvert"]
+description: ITfFnReconversion::Reconvert method
+helpviewer_keywords: ["ITfFnReconversion interface [Text Services Framework]","Reconvert method","ITfFnReconversion.Reconvert","ITfFnReconversion::Reconvert","Reconvert","Reconvert method [Text Services Framework]","Reconvert method [Text Services Framework]","ITfFnReconversion interface","_tsf_itffnreconversion_reconvert_ref","ctffunc/ITfFnReconversion::Reconvert","tsf.itffnreconversion_reconvert"]
 old-location: tsf\itffnreconversion_reconvert.htm
 tech.root: TSF
 ms.assetid: 81d0f376-c059-4fcf-b85b-645bc98f957d

@@ -1,7 +1,8 @@
 ---
 UID: NC:winbio.PWINBIO_IDENTIFY_CALLBACK
 title: PWINBIO_IDENTIFY_CALLBACK (winbio.h)
-description: Returns results from the asynchronous WinBioIdentifyWithCallback function.helpviewer_keywords: ["PWINBIO_IDENTIFY_CALLBACK","PWINBIO_IDENTIFY_CALLBACK callback","PWINBIO_IDENTIFY_CALLBACK callback function [Windows Biometric Framework API]","secbiomet.pwinbio_identify_callback","winbio/PWINBIO_IDENTIFY_CALLBACK"]
+description: Returns results from the asynchronous WinBioIdentifyWithCallback function.
+helpviewer_keywords: ["PWINBIO_IDENTIFY_CALLBACK","PWINBIO_IDENTIFY_CALLBACK callback","PWINBIO_IDENTIFY_CALLBACK callback function [Windows Biometric Framework API]","secbiomet.pwinbio_identify_callback","winbio/PWINBIO_IDENTIFY_CALLBACK"]
 old-location: secbiomet\pwinbio_identify_callback.htm
 tech.root: SecBioMet
 ms.assetid: 3AFB7F70-08F3-4861-B341-9D503FE59244

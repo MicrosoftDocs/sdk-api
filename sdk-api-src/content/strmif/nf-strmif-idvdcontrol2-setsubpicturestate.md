@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl2.SetSubpictureState
 title: IDvdControl2::SetSubpictureState (strmif.h)
-description: The SetSubpictureState method turns the subpicture display on or off.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SetSubpictureState method","IDvdControl2.SetSubpictureState","IDvdControl2::SetSubpictureState","IDvdControl2SetSubpictureState","SetSubpictureState","SetSubpictureState method [DirectShow]","SetSubpictureState method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_setsubpicturestate","strmif/IDvdControl2::SetSubpictureState"]
+description: The SetSubpictureState method turns the subpicture display on or off.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SetSubpictureState method","IDvdControl2.SetSubpictureState","IDvdControl2::SetSubpictureState","IDvdControl2SetSubpictureState","SetSubpictureState","SetSubpictureState method [DirectShow]","SetSubpictureState method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_setsubpicturestate","strmif/IDvdControl2::SetSubpictureState"]
 old-location: dshow\idvdcontrol2_setsubpicturestate.htm
 tech.root: DirectShow
 ms.assetid: 2e654bc1-293b-436b-bc33-8a8f269e9aee

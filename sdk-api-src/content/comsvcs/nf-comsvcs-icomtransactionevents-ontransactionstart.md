@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComTransactionEvents.OnTransactionStart
 title: IComTransactionEvents::OnTransactionStart (comsvcs.h)
-description: Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.helpviewer_keywords: ["IComTransactionEvents interface [COM+]","OnTransactionStart method","IComTransactionEvents.OnTransactionStart","IComTransactionEvents::OnTransactionStart","OnTransactionStart","OnTransactionStart method [COM+]","OnTransactionStart method [COM+]","IComTransactionEvents interface","_dtc_IComTransactionEvents_OnTransactionStart","comsvcs/IComTransactionEvents::OnTransactionStart","cos.icomtransactionevents_ontransactionstart"]
+description: Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction starts.
+helpviewer_keywords: ["IComTransactionEvents interface [COM+]","OnTransactionStart method","IComTransactionEvents.OnTransactionStart","IComTransactionEvents::OnTransactionStart","OnTransactionStart","OnTransactionStart method [COM+]","OnTransactionStart method [COM+]","IComTransactionEvents interface","_dtc_IComTransactionEvents_OnTransactionStart","comsvcs/IComTransactionEvents::OnTransactionStart","cos.icomtransactionevents_ontransactionstart"]
 old-location: cos\icomtransactionevents_ontransactionstart.htm
 tech.root: cossdk
 ms.assetid: ef9d7adc-69ed-4582-9ce7-c66c947d48a6
@@ -59,7 +60,7 @@ Generated when a Microsoft Distributed Transaction Coordinator (DTC) transaction
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidTx [in]

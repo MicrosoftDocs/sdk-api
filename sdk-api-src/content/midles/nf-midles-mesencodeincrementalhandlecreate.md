@@ -1,7 +1,8 @@
 ---
 UID: NF:midles.MesEncodeIncrementalHandleCreate
 title: MesEncodeIncrementalHandleCreate function (midles.h)
-description: The MesEncodeIncrementalHandleCreate function creates an encoding and then initializes it for the incremental style of serialization.helpviewer_keywords: ["MesEncodeIncrementalHandleCreate","MesEncodeIncrementalHandleCreate function [RPC]","_rpc_mesencodeincrementalhandlecreate","midles/MesEncodeIncrementalHandleCreate","rpc.mesencodeincrementalhandlecreate"]
+description: The MesEncodeIncrementalHandleCreate function creates an encoding and then initializes it for the incremental style of serialization.
+helpviewer_keywords: ["MesEncodeIncrementalHandleCreate","MesEncodeIncrementalHandleCreate function [RPC]","_rpc_mesencodeincrementalhandlecreate","midles/MesEncodeIncrementalHandleCreate","rpc.mesencodeincrementalhandlecreate"]
 old-location: rpc\mesencodeincrementalhandlecreate.htm
 tech.root: Rpc
 ms.assetid: 54bbe560-08a9-4e41-9121-37aab0c209a9

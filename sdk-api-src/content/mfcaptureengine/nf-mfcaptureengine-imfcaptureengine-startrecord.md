@@ -1,7 +1,8 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.StartRecord
 title: IMFCaptureEngine::StartRecord (mfcaptureengine.h)
-description: Starts recording audio and/or video to a file.helpviewer_keywords: ["IMFCaptureEngine interface [Media Foundation]","StartRecord method","IMFCaptureEngine.StartRecord","IMFCaptureEngine::StartRecord","StartRecord","StartRecord method [Media Foundation]","StartRecord method [Media Foundation]","IMFCaptureEngine interface","mf.imfcaptureengine_startrecord","mfcaptureengine/IMFCaptureEngine::StartRecord"]
+description: Starts recording audio and/or video to a file.
+helpviewer_keywords: ["IMFCaptureEngine interface [Media Foundation]","StartRecord method","IMFCaptureEngine.StartRecord","IMFCaptureEngine::StartRecord","StartRecord","StartRecord method [Media Foundation]","StartRecord method [Media Foundation]","IMFCaptureEngine interface","mf.imfcaptureengine_startrecord","mfcaptureengine/IMFCaptureEngine::StartRecord"]
 old-location: mf\imfcaptureengine_startrecord.htm
 tech.root: medfound
 ms.assetid: 22084409-B2E6-47EF-A59B-A762E9A9191D

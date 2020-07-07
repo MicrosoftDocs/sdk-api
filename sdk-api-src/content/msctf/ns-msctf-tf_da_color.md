@@ -1,7 +1,8 @@
 ---
 UID: NS:msctf.TF_DA_COLOR
 title: TF_DA_COLOR (msctf.h)
-description: The TF_DA_COLOR structure contains color data used in the display attributes for a range of text.helpviewer_keywords: ["TF_DA_COLOR","TF_DA_COLOR structure [Text Services Framework]","_tsf_tf_da_color_ref","msctf/TF_DA_COLOR","tsf.tf_da_color"]
+description: The TF_DA_COLOR structure contains color data used in the display attributes for a range of text.
+helpviewer_keywords: ["TF_DA_COLOR","TF_DA_COLOR structure [Text Services Framework]","_tsf_tf_da_color_ref","msctf/TF_DA_COLOR","tsf.tf_da_color"]
 old-location: tsf\tf_da_color.htm
 tech.root: TSF
 ms.assetid: 0ce8f941-c187-437f-8bad-f882e63b8421
@@ -62,7 +63,7 @@ The <b>TF_DA_COLOR</b> structure contains color data used in the display attribu
 
 ### -field type
 
-Specifies the color type as defined in the <a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_colortype">TF_DA_COLORTYPE</a> enumeration.
+Specifies the color type as defined in the <a href="/windows/win32/api/msctf/ne-msctf-tf_da_colortype">TF_DA_COLORTYPE</a> enumeration.
 
 
 ### -field nIndex
@@ -84,7 +85,7 @@ Specifies the color as an RGB value. This member is used only if <b>type</b> is 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/msctf/ne-msctf-tf_da_colortype">TF_DA_COLORTYPE
+<a href="/windows/win32/api/msctf/ne-msctf-tf_da_colortype">TF_DA_COLORTYPE
       </a>
  
 

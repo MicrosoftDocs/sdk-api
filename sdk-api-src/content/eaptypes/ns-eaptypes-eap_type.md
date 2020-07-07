@@ -1,7 +1,8 @@
 ---
 UID: NS:eaptypes._EAP_TYPE
 title: EAP_TYPE (eaptypes.h)
-description: Contains type and vendor identification information for an EAP method.helpviewer_keywords: ["EAP_TYPE","EAP_TYPE structure [EAPHost]","eaphost.eap_type","eaptypes/EAP_TYPE"]
+description: Contains type and vendor identification information for an EAP method.
+helpviewer_keywords: ["EAP_TYPE","EAP_TYPE structure [EAPHost]","eaphost.eap_type","eaptypes/EAP_TYPE"]
 old-location: eaphost\eap_type.htm
 tech.root: eaphost
 ms.assetid: 383f1e11-2e40-45e6-8c55-a23d1b8eb71f
@@ -79,7 +80,7 @@ The numeric type code for the vendor of this EAP method.
 
 
 
-[Common EAPHost API Structures](https://docs.microsoft.com/windows/win32/eaphost/common-eap-host-api-structures)a>
+[Common EAPHost API Structures](/windows/win32/eaphost/common-eap-host-api-structures)
  
 
  

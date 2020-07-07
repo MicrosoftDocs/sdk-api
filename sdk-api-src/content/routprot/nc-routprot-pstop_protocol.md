@@ -1,7 +1,8 @@
 ---
 UID: NC:routprot.PSTOP_PROTOCOL
 title: PSTOP_PROTOCOL (routprot.h)
-description: The StopProtocol function causes the routing protocol to perform an orderly shutdown.helpviewer_keywords: ["PSTOP_PROTOCOL","PSTOP_PROTOCOL callback","StopProtocol","StopProtocol callback function [RAS]","_mpr_stopprotocol","routprot/StopProtocol","rras.stopprotocol"]
+description: The StopProtocol function causes the routing protocol to perform an orderly shutdown.
+helpviewer_keywords: ["PSTOP_PROTOCOL","PSTOP_PROTOCOL callback","StopProtocol","StopProtocol callback function [RAS]","_mpr_stopprotocol","routprot/StopProtocol","rras.stopprotocol"]
 old-location: rras\stopprotocol.htm
 tech.root: RRAS
 ms.assetid: 8b9459f8-152c-4ec1-9ed0-2b27a56f521d

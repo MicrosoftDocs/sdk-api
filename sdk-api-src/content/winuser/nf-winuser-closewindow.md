@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CloseWindow
 title: CloseWindow function (winuser.h)
-description: Minimizes (but does not destroy) the specified window.helpviewer_keywords: ["CloseWindow","CloseWindow function [Windows and Messages]","_win32_CloseWindow","_win32_closewindow_cpp","winmsg.closewindow","winui._win32_closewindow","winuser/CloseWindow"]
+description: Minimizes (but does not destroy) the specified window.
+helpviewer_keywords: ["CloseWindow","CloseWindow function [Windows and Messages]","_win32_CloseWindow","_win32_closewindow_cpp","winmsg.closewindow","winui._win32_closewindow","winuser/CloseWindow"]
 old-location: winmsg\closewindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\closewindow.htm

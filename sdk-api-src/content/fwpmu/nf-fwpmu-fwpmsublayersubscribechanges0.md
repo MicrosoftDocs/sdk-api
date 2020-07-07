@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerSubscribeChanges0
 title: FwpmSubLayerSubscribeChanges0 function (fwpmu.h)
-description: Is used to request the delivery of notifications regarding changes in a particular sublayer.helpviewer_keywords: ["FwpmSubLayerSubscribeChanges0","FwpmSubLayerSubscribeChanges0 function [Filtering]","fwp.fwpmsublayersubscribechanges0_func","fwpmu/FwpmSubLayerSubscribeChanges0"]
+description: Is used to request the delivery of notifications regarding changes in a particular sublayer.
+helpviewer_keywords: ["FwpmSubLayerSubscribeChanges0","FwpmSubLayerSubscribeChanges0 function [Filtering]","fwp.fwpmsublayersubscribechanges0_func","fwpmu/FwpmSubLayerSubscribeChanges0"]
 old-location: fwp\fwpmsublayersubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: 63b672ab-6625-417a-86ff-7b834d7444cc
@@ -66,7 +67,7 @@ Handle for an open session to the filter engine. Call <a href="https://docs.micr
 
 ### -param subscription [in]
 
-Type: [FWPM_SUBLAYER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0)a>*</b>
+Type: [FWPM_SUBLAYER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0)*</b>
 
 The notifications to be delivered.
 
@@ -172,7 +173,7 @@ The caller needs <a href="https://docs.microsoft.com/windows/desktop/FWP/access-
 
 
 
-[FWPM_SUBLAYER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0)a>
+[FWPM_SUBLAYER_SUBSCRIPTION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_sublayer_subscription0)
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NS:qos2._QOS_FLOW_FUNDAMENTALS
 title: QOS_FLOW_FUNDAMENTALS (qos2.h)
-description: The QOS_FLOW_FUNDAMENTALS structure contains basic information about a flow.helpviewer_keywords: ["*PQOS_FLOW_FUNDAMENTALS","PQOS_FLOW_FUNDAMENTALS","PQOS_FLOW_FUNDAMENTALS structure pointer [QOS]","QOS_FLOW_FUNDAMENTALS","QOS_FLOW_FUNDAMENTALS structure [QOS]","qos.qos_flow_fundamentals","qos2/PQOS_FLOW_FUNDAMENTALS","qos2/QOS_FLOW_FUNDAMENTALS"]
+description: The QOS_FLOW_FUNDAMENTALS structure contains basic information about a flow.
+helpviewer_keywords: ["*PQOS_FLOW_FUNDAMENTALS","PQOS_FLOW_FUNDAMENTALS","PQOS_FLOW_FUNDAMENTALS structure pointer [QOS]","QOS_FLOW_FUNDAMENTALS","QOS_FLOW_FUNDAMENTALS structure [QOS]","qos.qos_flow_fundamentals","qos2/PQOS_FLOW_FUNDAMENTALS","qos2/QOS_FLOW_FUNDAMENTALS"]
 old-location: qos\qos_flow_fundamentals.htm
 tech.root: QOS
 ms.assetid: 3e6cbd5b-8bd3-4f08-9192-35604db5dc3a

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getByAlbum
 title: IWMPMediaCollection::getByAlbum (wmp.h)
-description: The getByAlbum method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items from the specified album.helpviewer_keywords: ["IWMPMediaCollection interface [Windows Media Player]","getByAlbum method","IWMPMediaCollection.getByAlbum","IWMPMediaCollection::getByAlbum","IWMPMediaCollectiongetByAlbum","getByAlbum","getByAlbum method [Windows Media Player]","getByAlbum method [Windows Media Player]","IWMPMediaCollection interface","wmp.iwmpmediacollection_getbyalbum","wmp/IWMPMediaCollection::getByAlbum"]
+description: The getByAlbum method retrieves a pointer to an IWMPPlaylist interface. This interface contains the media items from the specified album.
+helpviewer_keywords: ["IWMPMediaCollection interface [Windows Media Player]","getByAlbum method","IWMPMediaCollection.getByAlbum","IWMPMediaCollection::getByAlbum","IWMPMediaCollectiongetByAlbum","getByAlbum","getByAlbum method [Windows Media Player]","getByAlbum method [Windows Media Player]","IWMPMediaCollection interface","wmp.iwmpmediacollection_getbyalbum","wmp/IWMPMediaCollection::getByAlbum"]
 old-location: wmp\iwmpmediacollection_getbyalbum.htm
 tech.root: WMP
 ms.assetid: 8db2349b-46f4-4863-a409-a85983362046

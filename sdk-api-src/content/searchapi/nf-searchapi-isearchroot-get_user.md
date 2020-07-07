@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_User
 title: ISearchRoot::get_User (searchapi.h)
-description: Not implemented.helpviewer_keywords: ["ISearchRoot interface [search]","get_User method","ISearchRoot.get_User","ISearchRoot::get_User","_search_ISearchRoot_get_User","get_User","get_User method [search]","get_User method [search]","ISearchRoot interface","search._search_ISearchRoot_get_User","searchapi/ISearchRoot::get_User"]
+description: Not implemented.
+helpviewer_keywords: ["ISearchRoot interface [search]","get_User method","ISearchRoot.get_User","ISearchRoot::get_User","_search_ISearchRoot_get_User","get_User","get_User method [search]","get_User method [search]","ISearchRoot interface","search._search_ISearchRoot_get_User","searchapi/ISearchRoot::get_User"]
 old-location: search\_search_ISearchRoot_get_User.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_user.htm
@@ -77,10 +78,5 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-The CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line 
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line 
 options for Crawl Scope Manager (CSM) indexing operations.
-
-
-

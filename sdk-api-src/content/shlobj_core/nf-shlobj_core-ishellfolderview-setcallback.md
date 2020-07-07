@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetCallback
 title: IShellFolderView::SetCallback (shlobj_core.h)
-description: IShellFolderView::SetCallback may be altered or unavailable.helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","SetCallback method","IShellFolderView.SetCallback","IShellFolderView::SetCallback","SetCallback","SetCallback method [Windows Shell]","SetCallback method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_SetCallback","shell.IShellFolderView_SetCallback","shlobj_core/IShellFolderView::SetCallback"]
+description: IShellFolderView::SetCallback may be altered or unavailable.
+helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","SetCallback method","IShellFolderView.SetCallback","IShellFolderView::SetCallback","SetCallback","SetCallback method [Windows Shell]","SetCallback method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_SetCallback","shell.IShellFolderView_SetCallback","shlobj_core/IShellFolderView::SetCallback"]
 old-location: shell\IShellFolderView_SetCallback.htm
 tech.root: shell
 ms.assetid: 3438f4ba-e7f1-46b1-b85d-0e880615bb12

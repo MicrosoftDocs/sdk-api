@@ -1,7 +1,8 @@
 ---
 UID: NE:uiribbon.UI_CONTEXTAVAILABILITY
 title: UI_CONTEXTAVAILABILITY (uiribbon.h)
-description: Specifies values that identify the availability of a contextual tab.helpviewer_keywords: ["UI_CONTEXTAVAILABILITY","UI_CONTEXTAVAILABILITY enumeration [Windows Ribbon]","UI_CONTEXTAVAILABILITY_ACTIVE","UI_CONTEXTAVAILABILITY_AVAILABLE","UI_CONTEXTAVAILABILITY_NOTAVAILABLE","scenicintent_UI_CONTEXTAVAILABILITY","uiribbon/UI_CONTEXTAVAILABILITY","uiribbon/UI_CONTEXTAVAILABILITY_ACTIVE","uiribbon/UI_CONTEXTAVAILABILITY_AVAILABLE","uiribbon/UI_CONTEXTAVAILABILITY_NOTAVAILABLE","windowsribbon.windowsribbon_ui_contextavailability"]
+description: Specifies values that identify the availability of a contextual tab.
+helpviewer_keywords: ["UI_CONTEXTAVAILABILITY","UI_CONTEXTAVAILABILITY enumeration [Windows Ribbon]","UI_CONTEXTAVAILABILITY_ACTIVE","UI_CONTEXTAVAILABILITY_AVAILABLE","UI_CONTEXTAVAILABILITY_NOTAVAILABLE","scenicintent_UI_CONTEXTAVAILABILITY","uiribbon/UI_CONTEXTAVAILABILITY","uiribbon/UI_CONTEXTAVAILABILITY_ACTIVE","uiribbon/UI_CONTEXTAVAILABILITY_AVAILABLE","uiribbon/UI_CONTEXTAVAILABILITY_NOTAVAILABLE","windowsribbon.windowsribbon_ui_contextavailability"]
 old-location: windowsribbon\windowsribbon_ui_contextavailability.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_contextavailability.htm

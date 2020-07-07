@@ -1,7 +1,8 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorDisplayAreaPosition
 title: SetMonitorDisplayAreaPosition function (highlevelmonitorconfigurationapi.h)
-description: Sets the horizontal or vertical position of a monitor's display area.helpviewer_keywords: ["SetMonitorDisplayAreaPosition","SetMonitorDisplayAreaPosition function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorDisplayAreaPosition","monitor.setmonitordisplayareaposition"]
+description: Sets the horizontal or vertical position of a monitor's display area.
+helpviewer_keywords: ["SetMonitorDisplayAreaPosition","SetMonitorDisplayAreaPosition function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorDisplayAreaPosition","monitor.setmonitordisplayareaposition"]
 old-location: monitor\setmonitordisplayareaposition.htm
 tech.root: Monitor
 ms.assetid: ad7604e5-5ede-479b-881e-0a6060182e5b
@@ -67,7 +68,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param ptPositionType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_position_type">MC_POSITION_TYPE</a> enumeration, specifying whether to set the horizontal position or the vertical position.
+A member of the <a href="/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_position_type">MC_POSITION_TYPE</a> enumeration, specifying whether to set the horizontal position or the vertical position.
           
 
 

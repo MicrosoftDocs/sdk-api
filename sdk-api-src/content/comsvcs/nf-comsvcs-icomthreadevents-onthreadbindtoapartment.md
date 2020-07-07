@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComThreadEvents.OnThreadBindToApartment
 title: IComThreadEvents::OnThreadBindToApartment (comsvcs.h)
-description: Generated when an apartment thread is allocated for a single-thread apartment (STA) thread that does not have an apartment thread to run in.helpviewer_keywords: ["IComThreadEvents interface [COM+]","OnThreadBindToApartment method","IComThreadEvents.OnThreadBindToApartment","IComThreadEvents::OnThreadBindToApartment","OnThreadBindToApartment","OnThreadBindToApartment method [COM+]","OnThreadBindToApartment method [COM+]","IComThreadEvents interface","_dtc_IComThreadEvents_OnThreadBindToApartment","comsvcs/IComThreadEvents::OnThreadBindToApartment","cos.icomthreadevents_onthreadbindtoapartment"]
+description: Generated when an apartment thread is allocated for a single-thread apartment (STA) thread that does not have an apartment thread to run in.
+helpviewer_keywords: ["IComThreadEvents interface [COM+]","OnThreadBindToApartment method","IComThreadEvents.OnThreadBindToApartment","IComThreadEvents::OnThreadBindToApartment","OnThreadBindToApartment","OnThreadBindToApartment method [COM+]","OnThreadBindToApartment method [COM+]","IComThreadEvents interface","_dtc_IComThreadEvents_OnThreadBindToApartment","comsvcs/IComThreadEvents::OnThreadBindToApartment","cos.icomthreadevents_onthreadbindtoapartment"]
 old-location: cos\icomthreadevents_onthreadbindtoapartment.htm
 tech.root: cossdk
 ms.assetid: d05c784a-5dcd-4155-baa0-775c499bd936
@@ -60,7 +61,7 @@ Generated when an apartment thread is allocated for a single-thread apartment (S
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param ThreadID [in]

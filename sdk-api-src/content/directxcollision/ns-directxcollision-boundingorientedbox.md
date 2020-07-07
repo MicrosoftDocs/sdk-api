@@ -1,7 +1,8 @@
 ---
 UID: NS:directxcollision.BoundingOrientedBox
 title: BoundingOrientedBox
-description: An oriented bounding box object.helpviewer_keywords: ["BoundingOrientedBox","BoundingOrientedBox structure [DirectX Math Support APIs]","directxcollision/BoundingOrientedBox","dxmath.boundingorientedbox"]
+description: An oriented bounding box object.
+helpviewer_keywords: ["BoundingOrientedBox","BoundingOrientedBox structure [DirectX Math Support APIs]","directxcollision/BoundingOrientedBox","dxmath.boundingorientedbox"]
 old-location: dxmath\boundingorientedbox.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxmath.BoundingOrientedBox

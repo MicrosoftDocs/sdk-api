@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataBlockWriter.AddWriter
 title: IWICMetadataBlockWriter::AddWriter (wincodecsdk.h)
-description: Adds a top-level metadata block by adding a IWICMetadataWriter for it.helpviewer_keywords: ["AddWriter","AddWriter method [Windows Imaging Component]","AddWriter method [Windows Imaging Component]","IWICMetadataBlockWriter interface","IWICMetadataBlockWriter interface [Windows Imaging Component]","AddWriter method","IWICMetadataBlockWriter.AddWriter","IWICMetadataBlockWriter::AddWriter","_wic_codec_iwicmetadatablockwriter_addwriter","wic._wic_codec_iwicmetadatablockwriter_addwriter","wincodecsdk/IWICMetadataBlockWriter::AddWriter"]
+description: Adds a top-level metadata block by adding a IWICMetadataWriter for it.
+helpviewer_keywords: ["AddWriter","AddWriter method [Windows Imaging Component]","AddWriter method [Windows Imaging Component]","IWICMetadataBlockWriter interface","IWICMetadataBlockWriter interface [Windows Imaging Component]","AddWriter method","IWICMetadataBlockWriter.AddWriter","IWICMetadataBlockWriter::AddWriter","_wic_codec_iwicmetadatablockwriter_addwriter","wic._wic_codec_iwicmetadatablockwriter_addwriter","wincodecsdk/IWICMetadataBlockWriter::AddWriter"]
 old-location: wic\_wic_codec_iwicmetadatablockwriter_addwriter.htm
 tech.root: wic
 ms.assetid: 25a0e662-a249-4218-a77e-37b11e0f8536

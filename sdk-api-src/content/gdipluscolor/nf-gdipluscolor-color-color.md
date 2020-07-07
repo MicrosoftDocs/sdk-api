@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluscolor.Color.Color
 title: Color::Color (gdipluscolor.h)
-description: Creates a Color::Color object and initializes it to opaque black. This is the default constructor.helpviewer_keywords: ["Color","Color class [GDI+]","Color constructor","Color constructor [GDI+]","Color constructor [GDI+]","Color class","Color.Color","Color.Color()","Color::Color","_gdiplus_CLASS_Color_Color_","gdiplus._gdiplus_CLASS_Color_Color_"]
+description: Creates a Color::Color object and initializes it to opaque black. This is the default constructor.
+helpviewer_keywords: ["Color","Color class [GDI+]","Color constructor","Color constructor [GDI+]","Color constructor [GDI+]","Color class","Color.Color","Color.Color()","Color::Color","_gdiplus_CLASS_Color_Color_","gdiplus._gdiplus_CLASS_Color_Color_"]
 old-location: gdiplus\_gdiplus_CLASS_Color_Color_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colorconstructors\color_31.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:richole.IRichEditOle.SaveCompleted
 title: IRichEditOle::SaveCompleted (richole.h)
-description: Indicates when the most recent save operation has been completed and that the rich edit control should hold onto a different storage for the object.helpviewer_keywords: ["IRichEditOle interface [Windows Controls]","SaveCompleted method","IRichEditOle.SaveCompleted","IRichEditOle::SaveCompleted","SaveCompleted","SaveCompleted method [Windows Controls]","SaveCompleted method [Windows Controls]","IRichEditOle interface","_win32_IRichEditOle_SaveCompleted","_win32_IRichEditOle_SaveCompleted_cpp","controls.IRichEditOle_SaveCompleted","controls._win32_IRichEditOle_SaveCompleted","richole/IRichEditOle::SaveCompleted"]
+description: Indicates when the most recent save operation has been completed and that the rich edit control should hold onto a different storage for the object.
+helpviewer_keywords: ["IRichEditOle interface [Windows Controls]","SaveCompleted method","IRichEditOle.SaveCompleted","IRichEditOle::SaveCompleted","SaveCompleted","SaveCompleted method [Windows Controls]","SaveCompleted method [Windows Controls]","IRichEditOle interface","_win32_IRichEditOle_SaveCompleted","_win32_IRichEditOle_SaveCompleted_cpp","controls.IRichEditOle_SaveCompleted","controls._win32_IRichEditOle_SaveCompleted","richole/IRichEditOle::SaveCompleted"]
 old-location: controls\IRichEditOle_SaveCompleted.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolesavecompleted.htm

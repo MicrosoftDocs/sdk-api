@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgDocument.SetRoot
 title: ID2D1SvgDocument::SetRoot (d2d1svg.h)
-description: Sets the root element of the document.helpviewer_keywords: ["ID2D1SvgDocument interface [Direct2D]","SetRoot method","ID2D1SvgDocument.SetRoot","ID2D1SvgDocument::SetRoot","SetRoot","SetRoot method [Direct2D]","SetRoot method [Direct2D]","ID2D1SvgDocument interface","d2d1svg/ID2D1SvgDocument::SetRoot","direct2d.id2d1svgdocument_setroot"]
+description: Sets the root element of the document.
+helpviewer_keywords: ["ID2D1SvgDocument interface [Direct2D]","SetRoot method","ID2D1SvgDocument.SetRoot","ID2D1SvgDocument::SetRoot","SetRoot","SetRoot method [Direct2D]","SetRoot method [Direct2D]","ID2D1SvgDocument interface","d2d1svg/ID2D1SvgDocument::SetRoot","direct2d.id2d1svgdocument_setroot"]
 old-location: direct2d\id2d1svgdocument_setroot.htm
 tech.root: Direct2D
 ms.assetid: 076DC8F7-E358-484D-A567-60E80F9D2FC3

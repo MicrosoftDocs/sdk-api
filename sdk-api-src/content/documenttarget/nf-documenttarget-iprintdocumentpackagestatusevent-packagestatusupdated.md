@@ -1,7 +1,8 @@
 ---
 UID: NF:documenttarget.IPrintDocumentPackageStatusEvent.PackageStatusUpdated
 title: IPrintDocumentPackageStatusEvent::PackageStatusUpdated (documenttarget.h)
-description: Updates the status of the package when the print job in progress raises an event, or the job completes.helpviewer_keywords: ["IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging]","PackageStatusUpdated method","IPrintDocumentPackageStatusEvent.PackageStatusUpdated","IPrintDocumentPackageStatusEvent::PackageStatusUpdated","PackageStatusUpdated","PackageStatusUpdated method [XPS Documents and Packaging]","PackageStatusUpdated method [XPS Documents and Packaging]","IPrintDocumentPackageStatusEvent interface","documenttarget/IPrintDocumentPackageStatusEvent::PackageStatusUpdated","xps.iprintdocumentpackagestatusevent_packagestatusupdated"]
+description: Updates the status of the package when the print job in progress raises an event, or the job completes.
+helpviewer_keywords: ["IPrintDocumentPackageStatusEvent interface [XPS Documents and Packaging]","PackageStatusUpdated method","IPrintDocumentPackageStatusEvent.PackageStatusUpdated","IPrintDocumentPackageStatusEvent::PackageStatusUpdated","PackageStatusUpdated","PackageStatusUpdated method [XPS Documents and Packaging]","PackageStatusUpdated method [XPS Documents and Packaging]","IPrintDocumentPackageStatusEvent interface","documenttarget/IPrintDocumentPackageStatusEvent::PackageStatusUpdated","xps.iprintdocumentpackagestatusevent_packagestatusupdated"]
 old-location: xps\iprintdocumentpackagestatusevent_packagestatusupdated.htm
 tech.root: printdocs
 ms.assetid: A672E554-B117-475C-A01E-9FD4EA31621E
@@ -80,7 +81,7 @@ If the <b>PackageStatusUpdated</b> method completes successfully, it returns an 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/documenttarget/ns-documenttarget-printdocumentpackagestatus">PrintDocumentPackageStatus</a>
+<a href="/windows/win32/api/documenttarget/ns-documenttarget-printdocumentpackagestatus">PrintDocumentPackageStatus</a>
  
 
  

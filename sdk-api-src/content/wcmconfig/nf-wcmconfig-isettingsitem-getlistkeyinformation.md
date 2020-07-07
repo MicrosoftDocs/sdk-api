@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetListKeyInformation
 title: ISettingsItem::GetListKeyInformation (wcmconfig.h)
-description: Gets the list information for this item.helpviewer_keywords: ["GetListKeyInformation","GetListKeyInformation method [SMI]","GetListKeyInformation method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetListKeyInformation method","ISettingsItem.GetListKeyInformation","ISettingsItem::GetListKeyInformation","smi.isettingsitem_getlistkeyinformation","wcmconfig/ISettingsItem::GetListKeyInformation"]
+description: Gets the list information for this item.
+helpviewer_keywords: ["GetListKeyInformation","GetListKeyInformation method [SMI]","GetListKeyInformation method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetListKeyInformation method","ISettingsItem.GetListKeyInformation","ISettingsItem::GetListKeyInformation","smi.isettingsitem_getlistkeyinformation","wcmconfig/ISettingsItem::GetListKeyInformation"]
 old-location: smi\isettingsitem_getlistkeyinformation.htm
 tech.root: SMI
 ms.assetid: 34ee8457-34d1-4eff-813b-f59c35c4aa95
@@ -64,7 +65,7 @@ The name of the key.
 
 ### -param DataType [out]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/wcmconfig/ne-wcmconfig-wcmdatatype">WcmDataType</a> value that indicates the data type of the item.
+A <a href="/windows/win32/api/wcmconfig/ne-wcmconfig-wcmdatatype">WcmDataType</a> value that indicates the data type of the item.
 
 
 ## -returns

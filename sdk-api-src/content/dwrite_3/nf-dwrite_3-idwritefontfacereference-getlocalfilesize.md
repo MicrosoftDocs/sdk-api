@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.GetLocalFileSize
 title: IDWriteFontFaceReference::GetLocalFileSize (dwrite_3.h)
-description: Get the local size of the font face in bytes, which will always be less than or equal to GetFullSize. If the locality is remote, this value is zero. If full, this value will equal GetFileSize.helpviewer_keywords: ["GetLocalFileSize","GetLocalFileSize method [Direct Write]","GetLocalFileSize method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","GetLocalFileSize method","IDWriteFontFaceReference.GetLocalFileSize","IDWriteFontFaceReference::GetLocalFileSize","directwrite.idwritefontfacereference_getlocalfilesize","dwrite_3/IDWriteFontFaceReference::GetLocalFileSize"]
+description: Get the local size of the font face in bytes, which will always be less than or equal to GetFullSize. If the locality is remote, this value is zero. If full, this value will equal GetFileSize.
+helpviewer_keywords: ["GetLocalFileSize","GetLocalFileSize method [Direct Write]","GetLocalFileSize method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","GetLocalFileSize method","IDWriteFontFaceReference.GetLocalFileSize","IDWriteFontFaceReference::GetLocalFileSize","directwrite.idwritefontfacereference_getlocalfilesize","dwrite_3/IDWriteFontFaceReference::GetLocalFileSize"]
 old-location: directwrite\idwritefontfacereference_getlocalfilesize.htm
 tech.root: DirectWrite
 ms.assetid: f6dc5cf5-131f-a451-7979-3ae8613577bb

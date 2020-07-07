@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly
 title: IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly (wsmandisp.h)
-description: Returns the value of the enumeration constant EnumerationFlagHierarchyDeepBasePropsOnly for use in the flags parameter of the IWSManSession::Enumerate method.helpviewer_keywords: ["EnumerationFlagHierarchyDeepBasePropsOnly","EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management]","EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","EnumerationFlagHierarchyDeepBasePropsOnly method","IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly","IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly","winrm.iwsmanex_enumerationflaghierarchydeepbasepropsonly","wsmandisp/IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly"]
+description: Returns the value of the enumeration constant EnumerationFlagHierarchyDeepBasePropsOnly for use in the flags parameter of the IWSManSession::Enumerate method.
+helpviewer_keywords: ["EnumerationFlagHierarchyDeepBasePropsOnly","EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management]","EnumerationFlagHierarchyDeepBasePropsOnly method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","EnumerationFlagHierarchyDeepBasePropsOnly method","IWSManEx.EnumerationFlagHierarchyDeepBasePropsOnly","IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly","winrm.iwsmanex_enumerationflaghierarchydeepbasepropsonly","wsmandisp/IWSManEx::EnumerationFlagHierarchyDeepBasePropsOnly"]
 old-location: winrm\iwsmanex_enumerationflaghierarchydeepbasepropsonly.htm
 tech.root: winrm
 ms.assetid: 72528ef3-3e38-4f1f-a686-45c3caa1d9d3

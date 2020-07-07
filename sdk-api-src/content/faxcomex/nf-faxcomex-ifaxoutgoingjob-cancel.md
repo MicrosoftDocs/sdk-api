@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.Cancel
 title: IFaxOutgoingJob::Cancel (faxcomex.h)
-description: The IFaxOutgoingJob::Cancel method cancels the outbound fax job.helpviewer_keywords: ["Cancel","Cancel method [Fax Service]","Cancel method [Fax Service]","IFaxOutgoingJob interface","IFaxOutgoingJob interface [Fax Service]","Cancel method","IFaxOutgoingJob.Cancel","IFaxOutgoingJob::Cancel","_mfax_faxoutgoingjob.cancel","fax._mfax_faxoutgoingjob_cancel","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_cancel_cpp","faxcomex/IFaxOutgoingJob::Cancel"]
+description: The IFaxOutgoingJob::Cancel method cancels the outbound fax job.
+helpviewer_keywords: ["Cancel","Cancel method [Fax Service]","Cancel method [Fax Service]","IFaxOutgoingJob interface","IFaxOutgoingJob interface [Fax Service]","Cancel method","IFaxOutgoingJob.Cancel","IFaxOutgoingJob::Cancel","_mfax_faxoutgoingjob.cancel","fax._mfax_faxoutgoingjob_cancel","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_cancel_cpp","faxcomex/IFaxOutgoingJob::Cancel"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_cancel_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_827g.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.EnumItems
 title: ITfLangBarItemMgr::EnumItems (ctfutb.h)
-description: ITfLangBarItemMgr::EnumItems methodhelpviewer_keywords: ["EnumItems","EnumItems method [Text Services Framework]","EnumItems method [Text Services Framework]","ITfLangBarItemMgr interface","ITfLangBarItemMgr interface [Text Services Framework]","EnumItems method","ITfLangBarItemMgr.EnumItems","ITfLangBarItemMgr::EnumItems","_tsf_itflangbaritemmgr_enumitems_ref","ctfutb/ITfLangBarItemMgr::EnumItems","tsf.itflangbaritemmgr_enumitems"]
+description: ITfLangBarItemMgr::EnumItems method
+helpviewer_keywords: ["EnumItems","EnumItems method [Text Services Framework]","EnumItems method [Text Services Framework]","ITfLangBarItemMgr interface","ITfLangBarItemMgr interface [Text Services Framework]","EnumItems method","ITfLangBarItemMgr.EnumItems","ITfLangBarItemMgr::EnumItems","_tsf_itflangbaritemmgr_enumitems_ref","ctfutb/ITfLangBarItemMgr::EnumItems","tsf.itflangbaritemmgr_enumitems"]
 old-location: tsf\itflangbaritemmgr_enumitems.htm
 tech.root: TSF
 ms.assetid: 90d61009-e0f7-4df6-a23b-1f9f489b15f9

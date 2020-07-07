@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGroupImportDatabase
 title: PeerGroupImportDatabase function (p2p.h)
-description: The PeerGroupImportDatabase function imports a peer group database from a local file.helpviewer_keywords: ["PeerGroupImportDatabase","PeerGroupImportDatabase function [Peer Networking]","p2p.peergroupimportdatabase","p2p/PeerGroupImportDatabase"]
+description: The PeerGroupImportDatabase function imports a peer group database from a local file.
+helpviewer_keywords: ["PeerGroupImportDatabase","PeerGroupImportDatabase function [Peer Networking]","p2p.peergroupimportdatabase","p2p/PeerGroupImportDatabase"]
 old-location: p2p\peergroupimportdatabase.htm
 tech.root: P2PSdk
 ms.assetid: 507b2b51-07d1-4e8d-8ec6-6b7398eadcc0

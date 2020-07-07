@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidInputDevice
 title: IMSVidInputDevice (segment.h)
-description: The IMSVidInputDevice interface represents any input device that is recognized by the Video Control, such as a television tuner card.helpviewer_keywords: ["IMSVidInputDevice","IMSVidInputDevice interface [Microsoft TV Technologies]","IMSVidInputDevice interface [Microsoft TV Technologies]","described","IMSVidInputDeviceInterface","mstv.imsvidinputdevice","segment/IMSVidInputDevice"]
+description: The IMSVidInputDevice interface represents any input device that is recognized by the Video Control, such as a television tuner card.
+helpviewer_keywords: ["IMSVidInputDevice","IMSVidInputDevice interface [Microsoft TV Technologies]","IMSVidInputDevice interface [Microsoft TV Technologies]","described","IMSVidInputDeviceInterface","mstv.imsvidinputdevice","segment/IMSVidInputDevice"]
 old-location: mstv\imsvidinputdevice.htm
 tech.root: mstv
 ms.assetid: 5b413ade-4ab2-45fa-98b2-fd93c8f89a43

@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGlyphsEditor
 title: IXpsOMGlyphsEditor (xpsobjectmodel.h)
-description: Allows batch modification of properties that affect the text content in an IXpsOMGlyphs interface.helpviewer_keywords: ["IXpsOMGlyphsEditor","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","described","xps.ixpsomglyphseditor","xpsobjectmodel/IXpsOMGlyphsEditor"]
+description: Allows batch modification of properties that affect the text content in an IXpsOMGlyphs interface.
+helpviewer_keywords: ["IXpsOMGlyphsEditor","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","IXpsOMGlyphsEditor interface [XPS Documents and Packaging]","described","xps.ixpsomglyphseditor","xpsobjectmodel/IXpsOMGlyphsEditor"]
 old-location: xps\ixpsomglyphseditor.htm
 tech.root: printdocs
 ms.assetid: 5bdf2892-ce6f-4560-b638-e441166fc309
@@ -110,7 +111,7 @@ Gets the number of glyph indices.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphseditor-getglyphindices">GetGlyphIndices</a>
 </td>
 <td align="left" width="63%">
-Gets an array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
+Gets an array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures that describe the specific glyph indices in the font.
             
 
 </td>
@@ -129,7 +130,7 @@ Gets the number of glyph mappings.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphseditor-getglyphmappings">GetGlyphMappings</a>
 </td>
 <td align="left" width="63%">
-Gets an array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures that describe how to map UTF-16 scalar values to entries in the array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindices">GetGlyphIndices</a>.
+Gets an array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures that describe how to map UTF-16 scalar values to entries in the array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures, which is returned by <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphs-getglyphindices">GetGlyphIndices</a>.
             
 
 </td>
@@ -193,7 +194,7 @@ Sets the name of the device font.
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphseditor-setglyphindices">SetGlyphIndices</a>
 </td>
 <td align="left" width="63%">
-Sets an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structure array that describes which glyph indices are  to be used in the font.
+Sets an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structure array that describes which glyph indices are  to be used in the font.
             
 
 </td>
@@ -203,7 +204,7 @@ Sets an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-
 <a href="https://docs.microsoft.com/windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomglyphseditor-setglyphmappings">SetGlyphMappings</a>
 </td>
 <td align="left" width="63%">
-Sets an array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures that describe how to map the UTF-16 scalar values in the <b>UnicodeString</b> property to entries in the array of <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures.
+Sets an array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_mapping">XPS_GLYPH_MAPPING</a> structures that describe how to map the UTF-16 scalar values in the <b>UnicodeString</b> property to entries in the array of <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_glyph_index">XPS_GLYPH_INDEX</a> structures.
 
             
 

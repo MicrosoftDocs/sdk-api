@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IEmailAction.put_Body
 title: IEmailAction::put_Body (taskschd.h)
-description: Gets or sets the body of the email that contains the email message.helpviewer_keywords: ["Body property [Task Scheduler]","Body property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","Body property","IEmailAction.Body","IEmailAction.put_Body","IEmailAction::Body","IEmailAction::get_Body","IEmailAction::put_Body","put_Body","taskschd.iemailaction_body","taskschd/IEmailAction::Body","taskschd/IEmailAction::get_Body","taskschd/IEmailAction::put_Body"]
+description: Gets or sets the body of the email that contains the email message.
+helpviewer_keywords: ["Body property [Task Scheduler]","Body property [Task Scheduler]","IEmailAction interface","IEmailAction interface [Task Scheduler]","Body property","IEmailAction.Body","IEmailAction.put_Body","IEmailAction::Body","IEmailAction::get_Body","IEmailAction::put_Body","put_Body","taskschd.iemailaction_body","taskschd/IEmailAction::Body","taskschd/IEmailAction::get_Body","taskschd/IEmailAction::put_Body"]
 old-location: taskschd\iemailaction_body.htm
 tech.root: taskschd
 ms.assetid: c2bc5924-8014-4463-9537-a115266776ee
@@ -51,7 +52,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="https://docs.microsoft.com/powershell/module/3.0/microsoft.powershell.utility/Send-MailMessage">Send-MailMessage</a> cmdlet as a workaround.]
+<p class="CCE_Message">[This interface is no longer supported. Please use IExecAction with the  powershell <a href="/powershell/module/microsoft.powershell.utility/send-mailmessage?view=powershell-7">Send-MailMessage</a> cmdlet as a workaround.]
 
 Gets or sets the body of the email that contains the email message.
 
@@ -76,8 +77,5 @@ When setting this property value, the value can be text that is retrieved from a
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
- 
 
- 
-
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>

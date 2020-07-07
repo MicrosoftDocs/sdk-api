@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetTag
 title: IDvbExtendedEventDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that identifies a Digital Video Broadcast (DVB) extended event descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbExtendedEventDescriptor interface","IDvbExtendedEventDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbExtendedEventDescriptor.GetTag","IDvbExtendedEventDescriptor::GetTag","dvbsiparser/IDvbExtendedEventDescriptor::GetTag","mstv.idvbextendedeventdescriptor_gettag"]
+description: Gets the tag that identifies a Digital Video Broadcast (DVB) extended event descriptor.
+helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbExtendedEventDescriptor interface","IDvbExtendedEventDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbExtendedEventDescriptor.GetTag","IDvbExtendedEventDescriptor::GetTag","dvbsiparser/IDvbExtendedEventDescriptor::GetTag","mstv.idvbextendedeventdescriptor_gettag"]
 old-location: mstv\idvbextendedeventdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 8f6dad8a-fd95-48c3-9bb2-222c5ec958f5

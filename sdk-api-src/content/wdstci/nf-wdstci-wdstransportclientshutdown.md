@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstci.WdsTransportClientShutdown
 title: WdsTransportClientShutdown function (wdstci.h)
-description: Shuts down the multicast client.helpviewer_keywords: ["WdsTransportClientShutdown","WdsTransportClientShutdown function [Windows Deployment Services]","wds.wdstransportclientshutdown","wdstci/WdsTransportClientShutdown"]
+description: Shuts down the multicast client.
+helpviewer_keywords: ["WdsTransportClientShutdown","WdsTransportClientShutdown function [Windows Deployment Services]","wds.wdstransportclientshutdown","wdstci/WdsTransportClientShutdown"]
 old-location: wds\wdstransportclientshutdown.htm
 tech.root: wds
 ms.assetid: 39898f71-9a88-4651-ab23-cd54dc16fb91

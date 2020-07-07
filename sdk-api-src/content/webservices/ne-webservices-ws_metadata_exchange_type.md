@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_93
 title: WS_METADATA_EXCHANGE_TYPE (webservices.h)
-description: Information about enabling and disabling types of metadata exchange.helpviewer_keywords: ["WS_METADATA_EXCHANGE_TYPE","WS_METADATA_EXCHANGE_TYPE enumeration [Web Services for Windows]","WS_METADATA_EXCHANGE_TYPE_HTTP_GET","WS_METADATA_EXCHANGE_TYPE_MEX","WS_METADATA_EXCHANGE_TYPE_NONE","webservices/WS_METADATA_EXCHANGE_TYPE","webservices/WS_METADATA_EXCHANGE_TYPE_HTTP_GET","webservices/WS_METADATA_EXCHANGE_TYPE_MEX","webservices/WS_METADATA_EXCHANGE_TYPE_NONE","wsw.ws_metadata_exchange_type"]
+description: Information about enabling and disabling types of metadata exchange.
+helpviewer_keywords: ["WS_METADATA_EXCHANGE_TYPE","WS_METADATA_EXCHANGE_TYPE enumeration [Web Services for Windows]","WS_METADATA_EXCHANGE_TYPE_HTTP_GET","WS_METADATA_EXCHANGE_TYPE_MEX","WS_METADATA_EXCHANGE_TYPE_NONE","webservices/WS_METADATA_EXCHANGE_TYPE","webservices/WS_METADATA_EXCHANGE_TYPE_HTTP_GET","webservices/WS_METADATA_EXCHANGE_TYPE_MEX","webservices/WS_METADATA_EXCHANGE_TYPE_NONE","wsw.ws_metadata_exchange_type"]
 old-location: wsw\ws_metadata_exchange_type.htm
 tech.root: wsw
 ms.assetid: 35e66c77-db26-4806-9b56-51539b23bb61

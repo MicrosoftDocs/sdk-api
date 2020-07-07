@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IOpenControlPanel
 title: IOpenControlPanel (shobjidl_core.h)
-description: Exposes methods that retrieve the view state of the Control Panel, the path of individual Control Panel items, and that open either the Control Panel itself or an individual Control Panel item.helpviewer_keywords: ["IOpenControlPanel","IOpenControlPanel interface [Windows Shell]","IOpenControlPanel interface [Windows Shell]","described","_shell_IOpenControlPanel","shell.IOpenControlPanel","shobjidl_core/IOpenControlPanel"]
+description: Exposes methods that retrieve the view state of the Control Panel, the path of individual Control Panel items, and that open either the Control Panel itself or an individual Control Panel item.
+helpviewer_keywords: ["IOpenControlPanel","IOpenControlPanel interface [Windows Shell]","IOpenControlPanel interface [Windows Shell]","described","_shell_IOpenControlPanel","shell.IOpenControlPanel","shobjidl_core/IOpenControlPanel"]
 old-location: shell\IOpenControlPanel.htm
 tech.root: shell
 ms.assetid: fbf86553-7aa1-4a0f-9775-5f71f41b1705

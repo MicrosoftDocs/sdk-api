@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2.WndProcBS
 title: IBrowserService2::WndProcBS (shdeprecated.h)
-description: Deprecated. Allows a derived class to call the WinProc function of the base class.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","WndProcBS method","IBrowserService2.WndProcBS","IBrowserService2::WndProcBS","WndProcBS","WndProcBS method [Windows Shell]","WndProcBS method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::WndProcBS","shell.IBrowserService2_WndProcBS","zone_IBrowserService2_WndProcBS"]
+description: Deprecated. Allows a derived class to call the WinProc function of the base class.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","WndProcBS method","IBrowserService2.WndProcBS","IBrowserService2::WndProcBS","WndProcBS","WndProcBS method [Windows Shell]","WndProcBS method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::WndProcBS","shell.IBrowserService2_WndProcBS","zone_IBrowserService2_WndProcBS"]
 old-location: shell\IBrowserService2_WndProcBS.htm
 tech.root: shell
 ms.assetid: d45877ac-2f0b-4130-9197-83f6e366ee19

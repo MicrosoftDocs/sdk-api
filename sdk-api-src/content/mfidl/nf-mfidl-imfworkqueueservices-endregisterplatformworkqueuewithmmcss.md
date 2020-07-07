@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.EndRegisterPlatformWorkQueueWithMMCSS
 title: IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS (mfidl.h)
-description: Completes an asynchronous request to associate a platform work queue with a Multimedia Class Scheduler Service (MMCSS) task.helpviewer_keywords: ["EndRegisterPlatformWorkQueueWithMMCSS","EndRegisterPlatformWorkQueueWithMMCSS method [Media Foundation]","EndRegisterPlatformWorkQueueWithMMCSS method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","EndRegisterPlatformWorkQueueWithMMCSS method","IMFWorkQueueServices.EndRegisterPlatformWorkQueueWithMMCSS","IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS","b9d65d6c-495a-4ca0-b0fd-0a4199e2a7d5","mf.imfworkqueueservices_endregisterplatformworkqueuewithmmcss","mfidl/IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS"]
+description: Completes an asynchronous request to associate a platform work queue with a Multimedia Class Scheduler Service (MMCSS) task.
+helpviewer_keywords: ["EndRegisterPlatformWorkQueueWithMMCSS","EndRegisterPlatformWorkQueueWithMMCSS method [Media Foundation]","EndRegisterPlatformWorkQueueWithMMCSS method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","EndRegisterPlatformWorkQueueWithMMCSS method","IMFWorkQueueServices.EndRegisterPlatformWorkQueueWithMMCSS","IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS","b9d65d6c-495a-4ca0-b0fd-0a4199e2a7d5","mf.imfworkqueueservices_endregisterplatformworkqueuewithmmcss","mfidl/IMFWorkQueueServices::EndRegisterPlatformWorkQueueWithMMCSS"]
 old-location: mf\imfworkqueueservices_endregisterplatformworkqueuewithmmcss.htm
 tech.root: medfound
 ms.assetid: b9d65d6c-495a-4ca0-b0fd-0a4199e2a7d5

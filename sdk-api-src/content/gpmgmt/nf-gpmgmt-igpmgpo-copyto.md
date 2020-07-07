@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.CopyTo
 title: IGPMGPO::CopyTo (gpmgmt.h)
-description: Copies the current Group Policy object (GPO) to the specified domain and then returns a pointer to the copy of the GPO.helpviewer_keywords: ["CopyTo","CopyTo method [GPMC]","CopyTo method [GPMC]","GPMGPO object","CopyTo method [GPMC]","IGPMGPO interface","GPMGPO object [GPMC]","CopyTo method","IGPMGPO interface [GPMC]","CopyTo method","IGPMGPO.CopyTo","IGPMGPO::CopyTo","_win32_igpmgpo_copyto","gpmc.igpmgpo_copyto","gpmgmt/IGPMGPO::CopyTo"]
+description: Copies the current Group Policy object (GPO) to the specified domain and then returns a pointer to the copy of the GPO.
+helpviewer_keywords: ["CopyTo","CopyTo method [GPMC]","CopyTo method [GPMC]","GPMGPO object","CopyTo method [GPMC]","IGPMGPO interface","GPMGPO object [GPMC]","CopyTo method","IGPMGPO interface [GPMC]","CopyTo method","IGPMGPO.CopyTo","IGPMGPO::CopyTo","_win32_igpmgpo_copyto","gpmc.igpmgpo_copyto","gpmgmt/IGPMGPO::CopyTo"]
 old-location: gpmc\igpmgpo_copyto.htm
 tech.root: gpmc
 ms.assetid: 17f4c6b2-6c75-4d4c-88c5-6d9ef2cb7a07

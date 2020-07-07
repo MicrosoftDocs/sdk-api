@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcMgmtStatsVectorFree
 title: RpcMgmtStatsVectorFree function (rpcdce.h)
-description: The RpcMgmtStatsVectorFree function frees a statistics vector.helpviewer_keywords: ["RpcMgmtStatsVectorFree","RpcMgmtStatsVectorFree function [RPC]","_rpc_rpcmgmtstatsvectorfree","rpc.rpcmgmtstatsvectorfree","rpcdce/RpcMgmtStatsVectorFree"]
+description: The RpcMgmtStatsVectorFree function frees a statistics vector.
+helpviewer_keywords: ["RpcMgmtStatsVectorFree","RpcMgmtStatsVectorFree function [RPC]","_rpc_rpcmgmtstatsvectorfree","rpc.rpcmgmtstatsvectorfree","rpcdce/RpcMgmtStatsVectorFree"]
 old-location: rpc\rpcmgmtstatsvectorfree.htm
 tech.root: Rpc
 ms.assetid: 0dc98053-8599-4884-a56a-5889a4480dcb

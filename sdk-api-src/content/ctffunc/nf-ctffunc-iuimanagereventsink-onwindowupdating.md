@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.IUIManagerEventSink.OnWindowUpdating
 title: IUIManagerEventSink::OnWindowUpdating (ctffunc.h)
-description: Called by the TSF before resizing and/or relocating the opened IME UI.helpviewer_keywords: ["IUIManagerEventSink interface [Text Services Framework]","OnWindowUpdating method","IUIManagerEventSink.OnWindowUpdating","IUIManagerEventSink::OnWindowUpdating","OnWindowUpdating","OnWindowUpdating method [Text Services Framework]","OnWindowUpdating method [Text Services Framework]","IUIManagerEventSink interface","ctffunc/IUIManagerEventSink::OnWindowUpdating","tsf.iuimanagereventsink_onwindowupdating"]
+description: Called by the TSF before resizing and/or relocating the opened IME UI.
+helpviewer_keywords: ["IUIManagerEventSink interface [Text Services Framework]","OnWindowUpdating method","IUIManagerEventSink.OnWindowUpdating","IUIManagerEventSink::OnWindowUpdating","OnWindowUpdating","OnWindowUpdating method [Text Services Framework]","OnWindowUpdating method [Text Services Framework]","IUIManagerEventSink interface","ctffunc/IUIManagerEventSink::OnWindowUpdating","tsf.iuimanagereventsink_onwindowupdating"]
 old-location: tsf\iuimanagereventsink_onwindowupdating.htm
 tech.root: TSF
 ms.assetid: BCCE292C-8A74-4DBA-965D-15249E2EA547

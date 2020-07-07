@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IFolderActionCollection.Clear
 title: IFolderActionCollection::Clear (pla.h)
-description: Removes all folder actions from the collection.helpviewer_keywords: ["Clear","Clear method [PLA]","Clear method [PLA]","IFolderActionCollection interface","IFolderActionCollection interface [PLA]","Clear method","IFolderActionCollection.Clear","IFolderActionCollection::Clear","base.ifolderactioncollection_clear","pla.ifolderactioncollection_clear","pla/IFolderActionCollection::Clear"]
+description: Removes all folder actions from the collection.
+helpviewer_keywords: ["Clear","Clear method [PLA]","Clear method [PLA]","IFolderActionCollection interface","IFolderActionCollection interface [PLA]","Clear method","IFolderActionCollection.Clear","IFolderActionCollection::Clear","base.ifolderactioncollection_clear","pla.ifolderactioncollection_clear","pla/IFolderActionCollection::Clear"]
 old-location: pla\ifolderactioncollection_clear.htm
 tech.root: PLA
 ms.assetid: 357934fa-9213-466e-8104-eb9b265a98d3

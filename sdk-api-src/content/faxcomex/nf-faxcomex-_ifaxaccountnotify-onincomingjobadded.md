@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex._IFaxAccountNotify.OnIncomingJobAdded
 title: _IFaxAccountNotify::OnIncomingJobAdded (faxcomex.h)
-description: Called by the fax service when an incoming fax job is added to the job queue for a particular fax account.helpviewer_keywords: ["IFaxAccountNotify.OnIncomingJobAdded","OnIncomingJobAdded","OnIncomingJobAdded method [Fax Service]","OnIncomingJobAdded method [Fax Service]","_IFaxAccountNotify interface","_IFaxAccountNotify interface [Fax Service]","OnIncomingJobAdded method","_IFaxAccountNotify.OnIncomingJobAdded","_IFaxAccountNotify::OnIncomingJobAdded","_mfax_ifaxaccountnotify_onincomingjobadded","fax._mfax_ifaxaccountnotify_onincomingjobadded","faxcomex/_IFaxAccountNotify::OnIncomingJobAdded"]
+description: Called by the fax service when an incoming fax job is added to the job queue for a particular fax account.
+helpviewer_keywords: ["IFaxAccountNotify.OnIncomingJobAdded","OnIncomingJobAdded","OnIncomingJobAdded method [Fax Service]","OnIncomingJobAdded method [Fax Service]","_IFaxAccountNotify interface","_IFaxAccountNotify interface [Fax Service]","OnIncomingJobAdded method","_IFaxAccountNotify.OnIncomingJobAdded","_IFaxAccountNotify::OnIncomingJobAdded","_mfax_ifaxaccountnotify_onincomingjobadded","fax._mfax_ifaxaccountnotify_onincomingjobadded","faxcomex/_IFaxAccountNotify::OnIncomingJobAdded"]
 old-location: fax\_mfax_ifaxaccountnotify_onincomingjobadded.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountnotify\onincomingjobadded.htm
@@ -97,7 +98,7 @@ To implement this functionality in Visual Basic, select and implement the approp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">IFaxAccountNotify</a>
+<a href="/windows/win32/api/faxcomex/nn-faxcomex-_ifaxaccountnotify">IFaxAccountNotify</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._PERBANDINFO
 title: PERBANDINFO (winddi.h)
-description: The PERBANDINFO structure is used as input to a printer graphics DLL's DrvQueryPerBandInfo function.helpviewer_keywords: ["*PPERBANDINFO","PERBANDINFO","PERBANDINFO structure [Display Devices]","PPERBANDINFO","PPERBANDINFO structure pointer [Display Devices]","display.perbandinfo","grstrcts_130088d9-975d-4b22-be85-90e129c64455.xml","winddi/PERBANDINFO","winddi/PPERBANDINFO"]
+description: The PERBANDINFO structure is used as input to a printer graphics DLL's DrvQueryPerBandInfo function.
+helpviewer_keywords: ["*PPERBANDINFO","PERBANDINFO","PERBANDINFO structure [Display Devices]","PPERBANDINFO","PPERBANDINFO structure pointer [Display Devices]","display.perbandinfo","grstrcts_130088d9-975d-4b22-be85-90e129c64455.xml","winddi/PERBANDINFO","winddi/PPERBANDINFO"]
 old-location: display\perbandinfo.htm
 tech.root: display
 ms.assetid: ec02542f-68d1-4d05-a4d1-e475725997ad

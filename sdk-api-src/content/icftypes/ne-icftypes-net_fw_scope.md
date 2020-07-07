@@ -1,7 +1,8 @@
 ---
 UID: NE:icftypes.NET_FW_SCOPE_
 title: NET_FW_SCOPE (icftypes.h)
-description: Specifies the scope of addresses from which a port can listen.helpviewer_keywords: ["NET_FW_SCOPE","NET_FW_SCOPE enumeration [ICS/ICF]","NET_FW_SCOPE_ALL","NET_FW_SCOPE_CUSTOM","NET_FW_SCOPE_LOCAL_SUBNET","NET_FW_SCOPE_MAX","icftypes/NET_FW_SCOPE","icftypes/NET_FW_SCOPE_ALL","icftypes/NET_FW_SCOPE_CUSTOM","icftypes/NET_FW_SCOPE_LOCAL_SUBNET","icftypes/NET_FW_SCOPE_MAX","ics.net_fw_scope"]
+description: Specifies the scope of addresses from which a port can listen.
+helpviewer_keywords: ["NET_FW_SCOPE","NET_FW_SCOPE enumeration [ICS/ICF]","NET_FW_SCOPE_ALL","NET_FW_SCOPE_CUSTOM","NET_FW_SCOPE_LOCAL_SUBNET","NET_FW_SCOPE_MAX","icftypes/NET_FW_SCOPE","icftypes/NET_FW_SCOPE_ALL","icftypes/NET_FW_SCOPE_CUSTOM","icftypes/NET_FW_SCOPE_LOCAL_SUBNET","icftypes/NET_FW_SCOPE_MAX","ics.net_fw_scope"]
 old-location: ics\net_fw_scope.htm
 tech.root: ics
 ms.assetid: 71f52d88-efd3-4037-86bc-7ec1cfa9642f

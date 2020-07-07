@@ -1,7 +1,8 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT
 title: WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT (wsman.h)
-description: Defines the release shell callback for the plug-in.helpviewer_keywords: ["WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT","WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT callback","WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT callback function [Windows Remote Management]","WSManPluginReleaseCommandContext","winrm.wsman_plugin_release_shell_context","wsman/WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT"]
+description: Defines the release shell callback for the plug-in.
+helpviewer_keywords: ["WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT","WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT callback","WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT callback function [Windows Remote Management]","WSManPluginReleaseCommandContext","winrm.wsman_plugin_release_shell_context","wsman/WSMAN_PLUGIN_RELEASE_SHELL_CONTEXT"]
 old-location: winrm\wsman_plugin_release_shell_context.htm
 tech.root: winrm
 ms.assetid: 8cb33e6c-fc64-4aad-88b3-9faeef3809c4

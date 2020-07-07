@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.NhpAllocateAndGetInterfaceInfoFromStack
 title: NhpAllocateAndGetInterfaceInfoFromStack function (iphlpapi.h)
-description: The NhpAllocateAndGetInterfaceInfoFromStack function obtains adapter information about the local computer.helpviewer_keywords: ["NhpAllocateAndGetInterfaceInfoFromStack","NhpAllocateAndGetInterfaceInfoFromStack function [IP Helper]","iphlp.nhpallocateandgetinterfaceinfofromstack","iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack"]
+description: The NhpAllocateAndGetInterfaceInfoFromStack function obtains adapter information about the local computer.
+helpviewer_keywords: ["NhpAllocateAndGetInterfaceInfoFromStack","NhpAllocateAndGetInterfaceInfoFromStack function [IP Helper]","iphlp.nhpallocateandgetinterfaceinfofromstack","iphlpapi/NhpAllocateAndGetInterfaceInfoFromStack"]
 old-location: iphlp\nhpallocateandgetinterfaceinfofromstack.htm
 tech.root: IpHlp
 ms.assetid: a5ba8b28-4c15-4646-91d0-b6ef9e0f1e89

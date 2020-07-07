@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITMultiTrackTerminal.get_MediaTypesInUse
 title: ITMultiTrackTerminal::get_MediaTypesInUse (tapi3if.h)
-description: The get_MediaTypesInUse method returns the media types (bitwise ORed) of all tracks managed currently by the multitrack terminal.helpviewer_keywords: ["ITMultiTrackTerminal interface [TAPI 2.2]","get_MediaTypesInUse method","ITMultiTrackTerminal.get_MediaTypesInUse","ITMultiTrackTerminal::get_MediaTypesInUse","_tapi3_itmultitrackterminal_get_mediatypesinuse","get_MediaTypesInUse","get_MediaTypesInUse method [TAPI 2.2]","get_MediaTypesInUse method [TAPI 2.2]","ITMultiTrackTerminal interface","tapi3.itmultitrackterminal_get_mediatypesinuse","tapi3if/ITMultiTrackTerminal::get_MediaTypesInUse"]
+description: The get_MediaTypesInUse method returns the media types (bitwise ORed) of all tracks managed currently by the multitrack terminal.
+helpviewer_keywords: ["ITMultiTrackTerminal interface [TAPI 2.2]","get_MediaTypesInUse method","ITMultiTrackTerminal.get_MediaTypesInUse","ITMultiTrackTerminal::get_MediaTypesInUse","_tapi3_itmultitrackterminal_get_mediatypesinuse","get_MediaTypesInUse","get_MediaTypesInUse method [TAPI 2.2]","get_MediaTypesInUse method [TAPI 2.2]","ITMultiTrackTerminal interface","tapi3.itmultitrackterminal_get_mediatypesinuse","tapi3if/ITMultiTrackTerminal::get_MediaTypesInUse"]
 old-location: tapi3\itmultitrackterminal_get_mediatypesinuse.htm
 tech.root: Tapi
 ms.assetid: 0c2ebbba-66a4-4ef0-abba-faab129e64e2

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.Reset
 title: ITextPara::Reset (tom.h)
-description: Resets the paragraph formatting to a choice of default values.helpviewer_keywords: ["ITextPara interface [Windows Controls]","Reset method","ITextPara.Reset","ITextPara::Reset","Reset","Reset method [Windows Controls]","Reset method [Windows Controls]","ITextPara interface","_win32_ITextPara_Reset","_win32_ITextPara_Reset_cpp","controls.ITextPara_Reset","controls._win32_ITextPara_Reset","tom/ITextPara::Reset"]
+description: Resets the paragraph formatting to a choice of default values.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","Reset method","ITextPara.Reset","ITextPara::Reset","Reset","Reset method [Windows Controls]","Reset method [Windows Controls]","ITextPara interface","_win32_ITextPara_Reset","_win32_ITextPara_Reset_cpp","controls.ITextPara_Reset","controls._win32_ITextPara_Reset","tom/ITextPara::Reset"]
 old-location: controls\ITextPara_Reset.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparareset.htm
@@ -71,7 +72,7 @@ Type of reset. It can be one of the following possible values.
 <tr>
 <td width="40%"><a id=""></a><dl>
 <dt><b></b></dt>
-<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomDefault</a></dt>
+<dt><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomDefault</a></dt>
 </dl>
 </td>
 <td width="60%">
@@ -82,7 +83,7 @@ Used for paragraph formatting that is defined by the RTF \pard, that is, the par
 <tr>
 <td width="40%"><a id=""></a><dl>
 <dt><b></b></dt>
-<dt><a href="https://docs.microsoft.com/windows/win32/api/tom/ne-tom-tomconstants">tomUndefined</a></dt>
+<dt><a href="/windows/win32/api/tom/ne-tom-tomconstants">tomUndefined</a></dt>
 </dl>
 </td>
 <td width="60%">

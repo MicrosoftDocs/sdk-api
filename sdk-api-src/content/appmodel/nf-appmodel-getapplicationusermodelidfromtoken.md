@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.GetApplicationUserModelIdFromToken
 title: GetApplicationUserModelIdFromToken function (appmodel.h)
-description: Gets the application user model ID for the specified token.helpviewer_keywords: ["GetApplicationUserModelIdFromToken","GetApplicationUserModelIdFromToken function [App packaging and management]","appmodel/GetApplicationUserModelIdFromToken","appxpkg.getapplicationusermodelidfromtoken"]
+description: Gets the application user model ID for the specified token.
+helpviewer_keywords: ["GetApplicationUserModelIdFromToken","GetApplicationUserModelIdFromToken function [App packaging and management]","appmodel/GetApplicationUserModelIdFromToken","appxpkg.getapplicationusermodelidfromtoken"]
 old-location: appxpkg\getapplicationusermodelidfromtoken.htm
 tech.root: appxpkg
 ms.assetid: 80036518-927E-4CD0-B499-8EA472AB7E5A

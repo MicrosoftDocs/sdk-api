@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComCRMEvents.OnCRMRelease
 title: IComCRMEvents::OnCRMRelease (comsvcs.h)
-description: Generated when the CRM clerk is finished and releases its resource locks.helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMRelease method","IComCRMEvents.OnCRMRelease","IComCRMEvents::OnCRMRelease","OnCRMRelease","OnCRMRelease method [COM+]","OnCRMRelease method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMRelease","comsvcs/IComCRMEvents::OnCRMRelease","cos.icomcrmevents_oncrmrelease"]
+description: Generated when the CRM clerk is finished and releases its resource locks.
+helpviewer_keywords: ["IComCRMEvents interface [COM+]","OnCRMRelease method","IComCRMEvents.OnCRMRelease","IComCRMEvents::OnCRMRelease","OnCRMRelease","OnCRMRelease method [COM+]","OnCRMRelease method [COM+]","IComCRMEvents interface","_dtc_IComCRMEvents_OnCRMRelease","comsvcs/IComCRMEvents::OnCRMRelease","cos.icomcrmevents_oncrmrelease"]
 old-location: cos\icomcrmevents_oncrmrelease.htm
 tech.root: cossdk
 ms.assetid: e97b6cbf-1e78-475b-9dc7-baa4c05f1a6b
@@ -59,7 +60,7 @@ Generated when the CRM clerk is finished and releases its resource locks.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidClerkCLSID [in]

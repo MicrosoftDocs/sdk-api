@@ -1,7 +1,8 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.Remove
 title: ISensorCollection::Remove (sensorsapi.h)
-description: Removes a sensor from the collection. The sensor is specified by a pointer to the ISensor interface to be removed.helpviewer_keywords: ["ISensorCollection interface","Remove method","ISensorCollection.Remove","ISensorCollection::Remove","Remove","Remove method","Remove method","ISensorCollection interface","sensorsapi/ISensorCollection::Remove","winsensors_com_ref.isensorcollection_remove"]
+description: Removes a sensor from the collection. The sensor is specified by a pointer to the ISensor interface to be removed.
+helpviewer_keywords: ["ISensorCollection interface","Remove method","ISensorCollection.Remove","ISensorCollection::Remove","Remove","Remove method","Remove method","ISensorCollection interface","sensorsapi/ISensorCollection::Remove","winsensors_com_ref.isensorcollection_remove"]
 old-location: winsensors_com_ref\isensorcollection_remove.htm
 tech.root: SensorsAPI
 ms.assetid: 9e96bae1-9ac8-41fd-99c7-3c025baf674a

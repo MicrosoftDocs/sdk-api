@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.GetCurrentClusterNodeId
 title: GetCurrentClusterNodeId macro (clusapi.h)
-description: Returns the unique identifier of the current cluster node.helpviewer_keywords: ["GetCurrentClusterNodeId","GetCurrentClusterNodeId macro [Failover Cluster]","clusapi/GetCurrentClusterNodeId","mscs.getcurrentclusternodeid"]
+description: Returns the unique identifier of the current cluster node.
+helpviewer_keywords: ["GetCurrentClusterNodeId","GetCurrentClusterNodeId macro [Failover Cluster]","clusapi/GetCurrentClusterNodeId","mscs.getcurrentclusternodeid"]
 old-location: mscs\getcurrentclusternodeid.htm
 tech.root: MsCS
 ms.assetid: 289abaaa-d063-4e99-91e7-441c58f7f75c

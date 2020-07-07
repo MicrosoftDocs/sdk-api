@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPSyncDevice
 title: IWMPSyncDevice (wmp.h)
-description: The IWMPSyncDevice interface represents a device to which Windows Media Player 10 or later can copy digital media files.helpviewer_keywords: ["IWMPSyncDevice","IWMPSyncDevice interface [Windows Media Player]","IWMPSyncDevice interface [Windows Media Player]","described","IWMPSyncDeviceInterface","wmp.iwmpsyncdevice","wmp/IWMPSyncDevice"]
+description: The IWMPSyncDevice interface represents a device to which Windows Media Player 10 or later can copy digital media files.
+helpviewer_keywords: ["IWMPSyncDevice","IWMPSyncDevice interface [Windows Media Player]","IWMPSyncDevice interface [Windows Media Player]","described","IWMPSyncDeviceInterface","wmp.iwmpsyncdevice","wmp/IWMPSyncDevice"]
 old-location: wmp\iwmpsyncdevice.htm
 tech.root: WMP
 ms.assetid: 981648e4-0cb1-4d7a-bd3b-50e1b9a7282c

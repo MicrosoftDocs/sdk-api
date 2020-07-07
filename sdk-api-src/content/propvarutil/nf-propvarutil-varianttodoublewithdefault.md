@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.VariantToDoubleWithDefault
 title: VariantToDoubleWithDefault function (propvarutil.h)
-description: Extracts a DOUBLE value from a VARIANT structure. If no value exists, then the specified default value is returned.helpviewer_keywords: ["VariantToDoubleWithDefault","VariantToDoubleWithDefault function [Windows Properties]","_shell_VariantToDoubleWithDefault","properties.VariantToDoubleWithDefault","propvarutil/VariantToDoubleWithDefault","shell.VariantToDoubleWithDefault"]
+description: Extracts a DOUBLE value from a VARIANT structure. If no value exists, then the specified default value is returned.
+helpviewer_keywords: ["VariantToDoubleWithDefault","VariantToDoubleWithDefault function [Windows Properties]","_shell_VariantToDoubleWithDefault","properties.VariantToDoubleWithDefault","propvarutil/VariantToDoubleWithDefault","shell.VariantToDoubleWithDefault"]
 old-location: properties\VariantToDoubleWithDefault.htm
 tech.root: properties
 ms.assetid: a3e32a30-363d-487e-bdd5-ac2616d6de14

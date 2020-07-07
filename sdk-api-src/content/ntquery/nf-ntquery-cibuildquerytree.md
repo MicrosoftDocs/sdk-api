@@ -1,7 +1,8 @@
 ---
 UID: NF:ntquery.CIBuildQueryTree
 title: CIBuildQueryTree function (ntquery.h)
-description: Builds a query restriction tree for a Command object.helpviewer_keywords: ["CIBuildQueryTree","CIBuildQueryTree function [Indexing Service]","_idxs_CIBuildQueryTree","indexsrv.cibuildquerytree","ntquery/CIBuildQueryTree"]
+description: Builds a query restriction tree for a Command object.
+helpviewer_keywords: ["CIBuildQueryTree","CIBuildQueryTree function [Indexing Service]","_idxs_CIBuildQueryTree","indexsrv.cibuildquerytree","ntquery/CIBuildQueryTree"]
 old-location: indexsrv\cibuildquerytree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_4b6t.htm

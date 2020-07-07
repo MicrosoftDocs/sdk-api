@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngAcquireSemaphore
 title: EngAcquireSemaphore function (winddi.h)
-description: The EngAcquireSemaphore function acquires the resource associated with the semaphore for exclusive access by the calling thread.helpviewer_keywords: ["EngAcquireSemaphore","EngAcquireSemaphore function [Display Devices]","display.engacquiresemaphore","gdifncs_eae93ab5-f0f0-4d4e-a857-50ec8698527b.xml","winddi/EngAcquireSemaphore"]
+description: The EngAcquireSemaphore function acquires the resource associated with the semaphore for exclusive access by the calling thread.
+helpviewer_keywords: ["EngAcquireSemaphore","EngAcquireSemaphore function [Display Devices]","display.engacquiresemaphore","gdifncs_eae93ab5-f0f0-4d4e-a857-50ec8698527b.xml","winddi/EngAcquireSemaphore"]
 old-location: display\engacquiresemaphore.htm
 tech.root: display
 ms.assetid: da13ff30-7817-4ed4-9791-2d205a260259

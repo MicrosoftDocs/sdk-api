@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionShadowEffect.SetRed(IDCompositionAnimation)
 title: IDCompositionShadowEffect::SetRed(IDCompositionAnimation) (dcomp.h)
-description: Sets the red value for the color of the shadow.helpviewer_keywords: ["IDCompositionShadowEffect interface [DirectComposition]","SetRed method","IDCompositionShadowEffect.SetRed","IDCompositionShadowEffect.SetRed(IDCompositionAnimation)","IDCompositionShadowEffect::SetRed","IDCompositionShadowEffect::SetRed(IDCompositionAnimation)","SetRed","SetRed method [DirectComposition]","SetRed method [DirectComposition]","IDCompositionShadowEffect interface","dcomp/IDCompositionShadowEffect::SetRed","directcomp.idcompositionshadoweffect_setred_2"]
+description: Sets the red value for the color of the shadow.
+helpviewer_keywords: ["IDCompositionShadowEffect interface [DirectComposition]","SetRed method","IDCompositionShadowEffect.SetRed","IDCompositionShadowEffect.SetRed(IDCompositionAnimation)","IDCompositionShadowEffect::SetRed","IDCompositionShadowEffect::SetRed(IDCompositionAnimation)","SetRed","SetRed method [DirectComposition]","SetRed method [DirectComposition]","IDCompositionShadowEffect interface","dcomp/IDCompositionShadowEffect::SetRed","directcomp.idcompositionshadoweffect_setred_2"]
 old-location: directcomp\idcompositionshadoweffect_setred_2.htm
 tech.root: directcomp
 ms.assetid: 91440FC9-DCDA-44F1-B227-56A628686272

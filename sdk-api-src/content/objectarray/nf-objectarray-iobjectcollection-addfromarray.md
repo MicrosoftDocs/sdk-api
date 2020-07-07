@@ -1,7 +1,8 @@
 ---
 UID: NF:objectarray.IObjectCollection.AddFromArray
 title: IObjectCollection::AddFromArray (objectarray.h)
-description: Adds the objects contained in an IObjectArray to the collection.helpviewer_keywords: ["AddFromArray","AddFromArray method [Windows Shell]","AddFromArray method [Windows Shell]","IObjectCollection interface","IObjectCollection interface [Windows Shell]","AddFromArray method","IObjectCollection.AddFromArray","IObjectCollection::AddFromArray","_shell_IObjectCollection_AddFromArray","objectarray/IObjectCollection::AddFromArray","shell.IObjectCollection_AddFromArray"]
+description: Adds the objects contained in an IObjectArray to the collection.
+helpviewer_keywords: ["AddFromArray","AddFromArray method [Windows Shell]","AddFromArray method [Windows Shell]","IObjectCollection interface","IObjectCollection interface [Windows Shell]","AddFromArray method","IObjectCollection.AddFromArray","IObjectCollection::AddFromArray","_shell_IObjectCollection_AddFromArray","objectarray/IObjectCollection::AddFromArray","shell.IObjectCollection_AddFromArray"]
 old-location: shell\IObjectCollection_AddFromArray.htm
 tech.root: shell
 ms.assetid: fc51b2e0-a5e0-4440-a279-e94640b5dda7

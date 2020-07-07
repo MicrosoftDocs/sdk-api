@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TaskDialogIndirect
 title: TaskDialogIndirect function (commctrl.h)
-description: The TaskDialogIndirect function creates, displays, and operates a task dialog.helpviewer_keywords: ["TaskDialogIndirect","TaskDialogIndirect function [Windows Controls]","_shell_TaskDialogIndirect","_shell_TaskDialogIndirect_cpp","commctrl/TaskDialogIndirect","controls.TaskDialogIndirect","controls._shell_TaskDialogIndirect"]
+description: The TaskDialogIndirect function creates, displays, and operates a task dialog.
+helpviewer_keywords: ["TaskDialogIndirect","TaskDialogIndirect function [Windows Controls]","_shell_TaskDialogIndirect","_shell_TaskDialogIndirect_cpp","commctrl/TaskDialogIndirect","controls.TaskDialogIndirect","controls._shell_TaskDialogIndirect"]
 old-location: controls\TaskDialogIndirect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\taskdialogs\taskdialogreference\taskdialogfunctions\taskdialogindirect.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.ReadCabinetState
 title: ReadCabinetState function (shlobj_core.h)
-description: ReadCabinetState may be altered or unavailable.helpviewer_keywords: ["ReadCabinetState","ReadCabinetState function [Windows Shell]","_win32_ReadCabinetState","shell.ReadCabinetState","shlobj_core/ReadCabinetState"]
+description: ReadCabinetState may be altered or unavailable.
+helpviewer_keywords: ["ReadCabinetState","ReadCabinetState function [Windows Shell]","_win32_ReadCabinetState","shell.ReadCabinetState","shlobj_core/ReadCabinetState"]
 old-location: shell\ReadCabinetState.htm
 tech.root: shell
 ms.assetid: 0f0c6a10-588f-4c79-b73b-cf0bf9336ffc

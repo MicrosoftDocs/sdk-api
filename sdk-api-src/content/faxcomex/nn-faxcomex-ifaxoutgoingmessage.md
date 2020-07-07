@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxOutgoingMessage
 title: IFaxOutgoingMessage (faxcomex.h)
-description: The IFaxOutgoingMessage interface describes an object that is used by a fax client application to retrieve information about a fax message in the archive of outbound faxes.helpviewer_keywords: ["IFaxOutgoingMessage","IFaxOutgoingMessage interface [Fax Service]","IFaxOutgoingMessage interface [Fax Service]","described","_mfax_faxoutgoingmessage_cpp","fax._mfax_faxoutgoingmessage_cpp","faxcomex/IFaxOutgoingMessage"]
+description: The IFaxOutgoingMessage interface describes an object that is used by a fax client application to retrieve information about a fax message in the archive of outbound faxes.
+helpviewer_keywords: ["IFaxOutgoingMessage","IFaxOutgoingMessage interface [Fax Service]","IFaxOutgoingMessage interface [Fax Service]","described","_mfax_faxoutgoingmessage_cpp","fax._mfax_faxoutgoingmessage_cpp","faxcomex/IFaxOutgoingMessage"]
 old-location: fax\_mfax_faxoutgoingmessage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_8ujp_cpp.htm

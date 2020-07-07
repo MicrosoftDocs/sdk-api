@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiDeleteDeviceInfo
 title: SetupDiDeleteDeviceInfo function (setupapi.h)
-description: The SetupDiDeleteDeviceInfo function deletes a device information element from a device information set. This function does not delete the actual device.helpviewer_keywords: ["SetupDiDeleteDeviceInfo","SetupDiDeleteDeviceInfo function [Device and Driver Installation]","devinst.setupdideletedeviceinfo","di-rtns_9bc5c091-910a-4152-acdf-eae4d86cda05.xml","setupapi/SetupDiDeleteDeviceInfo"]
+description: The SetupDiDeleteDeviceInfo function deletes a device information element from a device information set. This function does not delete the actual device.
+helpviewer_keywords: ["SetupDiDeleteDeviceInfo","SetupDiDeleteDeviceInfo function [Device and Driver Installation]","devinst.setupdideletedeviceinfo","di-rtns_9bc5c091-910a-4152-acdf-eae4d86cda05.xml","setupapi/SetupDiDeleteDeviceInfo"]
 old-location: devinst\setupdideletedeviceinfo.htm
 tech.root: devinst
 ms.assetid: f510c42d-8488-4aad-a3a4-662fc8138d28

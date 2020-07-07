@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzOperation.get_Description
 title: IAzOperation::get_Description (azroles.h)
-description: The Description property of IAzOperation sets or retrieves a comment that describes the operation.helpviewer_keywords: ["AzOperation object [Security]","Description property","Description property [Security]","Description property [Security]","AzOperation object","Description property [Security]","IAzOperation interface","IAzOperation interface [Security]","Description property","IAzOperation.Description","IAzOperation.get_Description","IAzOperation::Description","IAzOperation::get_Description","IAzOperation::put_Description","azroles/IAzOperation::Description","azroles/IAzOperation::get_Description","azroles/IAzOperation::put_Description","get_Description","security.iazoperation_description"]
+description: The Description property of IAzOperation sets or retrieves a comment that describes the operation.
+helpviewer_keywords: ["AzOperation object [Security]","Description property","Description property [Security]","Description property [Security]","AzOperation object","Description property [Security]","IAzOperation interface","IAzOperation interface [Security]","Description property","IAzOperation.Description","IAzOperation.get_Description","IAzOperation::Description","IAzOperation::get_Description","IAzOperation::put_Description","azroles/IAzOperation::Description","azroles/IAzOperation::get_Description","azroles/IAzOperation::put_Description","get_Description","security.iazoperation_description"]
 old-location: security\iazoperation_description.htm
 tech.root: SecAuthZ
 ms.assetid: 9f39032d-7624-43f8-91a4-6e616e691156

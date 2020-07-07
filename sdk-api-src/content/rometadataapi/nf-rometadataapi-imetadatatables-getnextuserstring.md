@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNextUserString
 title: IMetaDataTables::GetNextUserString (rometadataapi.h)
-description: Gets the index of the row that contains the next hard-coded string in the current table column.helpviewer_keywords: ["GetNextUserString","GetNextUserString method [Windows Runtime]","GetNextUserString method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetNextUserString method","IMetaDataTables.GetNextUserString","IMetaDataTables::GetNextUserString","rometadataapi/IMetaDataTables::GetNextUserString","winrt.imetadatatables_getnextuserstring"]
+description: Gets the index of the row that contains the next hard-coded string in the current table column.
+helpviewer_keywords: ["GetNextUserString","GetNextUserString method [Windows Runtime]","GetNextUserString method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetNextUserString method","IMetaDataTables.GetNextUserString","IMetaDataTables::GetNextUserString","rometadataapi/IMetaDataTables::GetNextUserString","winrt.imetadatatables_getnextuserstring"]
 old-location: winrt\imetadatatables_getnextuserstring.htm
 tech.root: WinRT
 ms.assetid: d35a6622-df0a-4949-bc22-9bbd583337d4

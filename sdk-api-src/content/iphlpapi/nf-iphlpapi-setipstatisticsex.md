@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.SetIpStatisticsEx
 title: SetIpStatisticsEx function (iphlpapi.h)
-description: Toggles IP forwarding on or off and sets the default time-to-live (TTL) value for the local computer.helpviewer_keywords: ["AF_INET","AF_INET6","SetIpStatisticsEx","SetIpStatisticsEx function [IP Helper]","iphlp.setipstatisticsex","iphlpapi/SetIpStatisticsEx"]
+description: Toggles IP forwarding on or off and sets the default time-to-live (TTL) value for the local computer.
+helpviewer_keywords: ["AF_INET","AF_INET6","SetIpStatisticsEx","SetIpStatisticsEx function [IP Helper]","iphlp.setipstatisticsex","iphlpapi/SetIpStatisticsEx"]
 old-location: iphlp\setipstatisticsex.htm
 tech.root: IpHlp
 ms.assetid: 13b52016-5bdb-4546-af53-d3ae2708653b

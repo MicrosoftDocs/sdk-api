@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetRootItems
 title: INameSpaceTreeControl::GetRootItems (shobjidl_core.h)
-description: Gets an array of the root items.helpviewer_keywords: ["GetRootItems","GetRootItems method [Windows Shell]","GetRootItems method [Windows Shell]","INameSpaceTreeControl interface","INameSpaceTreeControl interface [Windows Shell]","GetRootItems method","INameSpaceTreeControl.GetRootItems","INameSpaceTreeControl::GetRootItems","_shell_INameSpaceTreeControl_GetRootItems","shell.INameSpaceTreeControl_GetRootItems","shobjidl_core/INameSpaceTreeControl::GetRootItems"]
+description: Gets an array of the root items.
+helpviewer_keywords: ["GetRootItems","GetRootItems method [Windows Shell]","GetRootItems method [Windows Shell]","INameSpaceTreeControl interface","INameSpaceTreeControl interface [Windows Shell]","GetRootItems method","INameSpaceTreeControl.GetRootItems","INameSpaceTreeControl::GetRootItems","_shell_INameSpaceTreeControl_GetRootItems","shell.INameSpaceTreeControl_GetRootItems","shobjidl_core/INameSpaceTreeControl::GetRootItems"]
 old-location: shell\INameSpaceTreeControl_GetRootItems.htm
 tech.root: shell
 ms.assetid: ca957f8c-ac8e-472e-b762-ddc45e20462d

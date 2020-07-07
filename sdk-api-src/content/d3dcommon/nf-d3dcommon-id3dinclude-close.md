@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcommon.ID3DInclude.Close
 title: ID3DInclude::Close (d3dcommon.h)
-description: A user-implemented method for closing a shaderhelpviewer_keywords: ["Close","Close method [Direct3D 11]","Close method [Direct3D 11]","ID3DInclude interface","ID3DInclude interface [Direct3D 11]","Close method","ID3DInclude.Close","ID3DInclude::Close","d3dcommon/ID3DInclude::Close","direct3d11.id3dinclude_close"]
+description: A user-implemented method for closing a shader
+helpviewer_keywords: ["Close","Close method [Direct3D 11]","Close method [Direct3D 11]","ID3DInclude interface","ID3DInclude interface [Direct3D 11]","Close method","ID3DInclude.Close","ID3DInclude::Close","d3dcommon/ID3DInclude::Close","direct3d11.id3dinclude_close"]
 old-location: direct3d11\id3dinclude_close.htm
 tech.root: direct3d11
 ms.assetid: d4513e15-dfe7-4919-a278-d386f25e65e5

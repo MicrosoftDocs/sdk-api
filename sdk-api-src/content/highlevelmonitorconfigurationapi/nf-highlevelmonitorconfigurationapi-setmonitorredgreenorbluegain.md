@@ -1,7 +1,8 @@
 ---
 UID: NF:highlevelmonitorconfigurationapi.SetMonitorRedGreenOrBlueGain
 title: SetMonitorRedGreenOrBlueGain function (highlevelmonitorconfigurationapi.h)
-description: Sets a monitor's red, green, or blue gain value.helpviewer_keywords: ["SetMonitorRedGreenOrBlueGain","SetMonitorRedGreenOrBlueGain function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueGain","monitor.setmonitorredgreenorbluegain"]
+description: Sets a monitor's red, green, or blue gain value.
+helpviewer_keywords: ["SetMonitorRedGreenOrBlueGain","SetMonitorRedGreenOrBlueGain function [Monitor Configuration]","highlevelmonitorconfigurationapi/SetMonitorRedGreenOrBlueGain","monitor.setmonitorredgreenorbluegain"]
 old-location: monitor\setmonitorredgreenorbluegain.htm
 tech.root: Monitor
 ms.assetid: e8814478-1129-421e-999c-f59321db69b9
@@ -65,7 +66,7 @@ Handle to a physical monitor. To get the monitor handle, call <a href="https://d
 
 ### -param gtGainType [in]
 
-A member of the <a href="https://docs.microsoft.com/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_gain_type">MC_GAIN_TYPE</a> enumeration, specifying whether to set the red, green, or blue gain.
+A member of the <a href="/windows/win32/api/highlevelmonitorconfigurationapi/ne-highlevelmonitorconfigurationapi-mc_gain_type">MC_GAIN_TYPE</a> enumeration, specifying whether to set the red, green, or blue gain.
           
 
 

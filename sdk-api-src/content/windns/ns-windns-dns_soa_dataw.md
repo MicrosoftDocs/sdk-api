@@ -1,7 +1,8 @@
 ---
 UID: NS:windns.__unnamed_struct_5
 title: DNS_SOA_DATAW (windns.h)
-description: The DNS_SOA_DATA structure represents a DNS start of authority (SOA) record as specified in section 3.3.13 of RFC 1035.helpviewer_keywords: ["*PDNS_SOA_DATA","*PDNS_SOA_DATAW","DNS_SOA_DATA","DNS_SOA_DATA structure [DNS]","DNS_SOA_DATAW","PDNS_SOA_DATA","PDNS_SOA_DATA structure pointer [DNS]","_dns_dns_soa_data","dns.dns_soa_data","windns/DNS_SOA_DATA","windns/PDNS_SOA_DATA"]
+description: The DNS_SOA_DATA structure represents a DNS start of authority (SOA) record as specified in section 3.3.13 of RFC 1035.
+helpviewer_keywords: ["*PDNS_SOA_DATA","*PDNS_SOA_DATAW","DNS_SOA_DATA","DNS_SOA_DATA structure [DNS]","DNS_SOA_DATAW","PDNS_SOA_DATA","PDNS_SOA_DATA structure pointer [DNS]","_dns_dns_soa_data","dns.dns_soa_data","windns/DNS_SOA_DATA","windns/PDNS_SOA_DATA"]
 old-location: dns\dns_soa_data.htm
 tech.root: DNS
 ms.assetid: 715cbb70-91fe-47ac-a713-1fe0701d4f8c
@@ -99,17 +100,21 @@ The lower limit on the time, in seconds, that a DNS server or caching resolver a
 
 The 
 <b>DNS_SOA_DATA</b> structure is used in conjunction with the 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
 
 
+
+
+> [!NOTE]
+> The windns.h header defines DNS_SOA_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
+<a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IMenuButton.AddButton
 title: IMenuButton::AddButton (mmc.h)
-description: The IMenuButton::AddButton method enables a user to add a button to the MMC menu bar for a particular view.helpviewer_keywords: ["AddButton","AddButton method [MMC]","AddButton method [MMC]","IMenuButton interface","IMenuButton interface [MMC]","AddButton method","IMenuButton.AddButton","IMenuButton::AddButton","_slate_imenubutton_addbutton","mmc.imenubutton_addbutton","mmc/IMenuButton::AddButton"]
+description: The IMenuButton::AddButton method enables a user to add a button to the MMC menu bar for a particular view.
+helpviewer_keywords: ["AddButton","AddButton method [MMC]","AddButton method [MMC]","IMenuButton interface","IMenuButton interface [MMC]","AddButton method","IMenuButton.AddButton","IMenuButton::AddButton","_slate_imenubutton_addbutton","mmc.imenubutton_addbutton","mmc/IMenuButton::AddButton"]
 old-location: mmc\imenubutton_addbutton.htm
 tech.root: mmc
 ms.assetid: 75d19e2a-0d3e-4883-852e-983fcee8166a

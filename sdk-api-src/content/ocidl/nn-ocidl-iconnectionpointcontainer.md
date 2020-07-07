@@ -1,7 +1,8 @@
 ---
 UID: NN:ocidl.IConnectionPointContainer
 title: IConnectionPointContainer (ocidl.h)
-description: Supports connection points for connectable objects.helpviewer_keywords: ["IConnectionPointContainer","IConnectionPointContainer interface [COM]","IConnectionPointContainer interface [COM]","described","_com_iconnectionpointcontainer","com.iconnectionpointcontainer","ocidl/IConnectionPointContainer"]
+description: Supports connection points for connectable objects.
+helpviewer_keywords: ["IConnectionPointContainer","IConnectionPointContainer interface [COM]","IConnectionPointContainer interface [COM]","described","_com_iconnectionpointcontainer","com.iconnectionpointcontainer","ocidl/IConnectionPointContainer"]
 old-location: com\iconnectionpointcontainer.htm
 tech.root: com
 ms.assetid: 5e2be055-7baa-4c42-bd20-b338da296ab0

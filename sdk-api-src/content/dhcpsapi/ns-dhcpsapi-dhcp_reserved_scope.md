@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_RESERVED_SCOPE
 title: DHCP_RESERVED_SCOPE (dhcpsapi.h)
-description: The DHCP_RESERVED_SCOPE structure defines a reserved DHCP scope.helpviewer_keywords: ["*LPDHCP_RESERVED_SCOPE","DHCP_RESERVED_SCOPE","DHCP_RESERVED_SCOPE structure [DHCP]","LPDHCP_RESERVED_SCOPE","LPDHCP_RESERVED_SCOPE structure pointer [DHCP]","dhcp.dhcp_reserved_scope","dhcpsapi/LPDHCP_RESERVED_SCOPE","dhcpsapi/_DHCP_RESERVED_SCOPE"]
+description: The DHCP_RESERVED_SCOPE structure defines a reserved DHCP scope.
+helpviewer_keywords: ["*LPDHCP_RESERVED_SCOPE","DHCP_RESERVED_SCOPE","DHCP_RESERVED_SCOPE structure [DHCP]","LPDHCP_RESERVED_SCOPE","LPDHCP_RESERVED_SCOPE structure pointer [DHCP]","dhcp.dhcp_reserved_scope","dhcpsapi/LPDHCP_RESERVED_SCOPE","dhcpsapi/_DHCP_RESERVED_SCOPE"]
 old-location: dhcp\dhcp_reserved_scope.htm
 tech.root: DHCP
 ms.assetid: e3b8bcc1-9cdc-499f-840a-3545ec9b46f7

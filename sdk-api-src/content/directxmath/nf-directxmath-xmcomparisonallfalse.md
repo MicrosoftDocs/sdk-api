@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMComparisonAllFalse
 title: XMComparisonAllFalse function (directxmath.h)
-description: Tests the comparison value to determine if all of the compared components are false.helpviewer_keywords: ["Use DirectX..XMComparisonAllFalse","XMComparisonAllFalse","XMComparisonAllFalse method [DirectX Math Support APIs]","dxmath.xmcomparisonallfalse"]
+description: Tests the comparison value to determine if all of the compared components are false.
+helpviewer_keywords: ["Use DirectX..XMComparisonAllFalse","XMComparisonAllFalse","XMComparisonAllFalse method [DirectX Math Support APIs]","dxmath.xmcomparisonallfalse"]
 old-location: dxmath\xmcomparisonallfalse.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMComparisonAllFalse(uint32_t)

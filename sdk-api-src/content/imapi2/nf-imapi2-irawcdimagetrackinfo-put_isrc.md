@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.put_ISRC
 title: IRawCDImageTrackInfo::put_ISRC (imapi2.h)
-description: Sets the International Standard Recording Code (ISRC) currently associated with the track. This property value defaults to NULL (or a zero-length string) and may only be set for tracks containing audio data.helpviewer_keywords: ["IRawCDImageTrackInfo interface [IMAPI]","put_ISRC method","IRawCDImageTrackInfo.put_ISRC","IRawCDImageTrackInfo::put_ISRC","imapi.irawcdimagetrackinfo_put_isrc","imapi2/IRawCDImageTrackInfo::put_ISRC","put_ISRC","put_ISRC method [IMAPI]","put_ISRC method [IMAPI]","IRawCDImageTrackInfo interface"]
+description: Sets the International Standard Recording Code (ISRC) currently associated with the track. This property value defaults to NULL (or a zero-length string) and may only be set for tracks containing audio data.
+helpviewer_keywords: ["IRawCDImageTrackInfo interface [IMAPI]","put_ISRC method","IRawCDImageTrackInfo.put_ISRC","IRawCDImageTrackInfo::put_ISRC","imapi.irawcdimagetrackinfo_put_isrc","imapi2/IRawCDImageTrackInfo::put_ISRC","put_ISRC","put_ISRC method [IMAPI]","put_ISRC method [IMAPI]","IRawCDImageTrackInfo interface"]
 old-location: imapi\irawcdimagetrackinfo_put_isrc.htm
 tech.root: imapi
 ms.assetid: c94357dc-9d9f-40a7-8709-51f8d5bc09e5

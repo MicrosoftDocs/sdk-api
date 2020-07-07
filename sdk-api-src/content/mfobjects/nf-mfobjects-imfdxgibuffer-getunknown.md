@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFDXGIBuffer.GetUnknown
 title: IMFDXGIBuffer::GetUnknown (mfobjects.h)
-description: Gets an IUnknown pointer that was previously stored in the media buffer object.helpviewer_keywords: ["GetUnknown","GetUnknown method [Media Foundation]","GetUnknown method [Media Foundation]","IMFDXGIBuffer interface","IMFDXGIBuffer interface [Media Foundation]","GetUnknown method","IMFDXGIBuffer.GetUnknown","IMFDXGIBuffer::GetUnknown","mf.imfdxgibuffer_getunknown","mfobjects/IMFDXGIBuffer::GetUnknown"]
+description: Gets an IUnknown pointer that was previously stored in the media buffer object.
+helpviewer_keywords: ["GetUnknown","GetUnknown method [Media Foundation]","GetUnknown method [Media Foundation]","IMFDXGIBuffer interface","IMFDXGIBuffer interface [Media Foundation]","GetUnknown method","IMFDXGIBuffer.GetUnknown","IMFDXGIBuffer::GetUnknown","mf.imfdxgibuffer_getunknown","mfobjects/IMFDXGIBuffer::GetUnknown"]
 old-location: mf\imfdxgibuffer_getunknown.htm
 tech.root: medfound
 ms.assetid: 6B4A5E79-3A0A-439E-ABE1-F92C3D07FB57

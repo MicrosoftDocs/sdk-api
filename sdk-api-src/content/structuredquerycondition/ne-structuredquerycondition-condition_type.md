@@ -1,7 +1,8 @@
 ---
 UID: NE:structuredquerycondition.tagCONDITION_TYPE
 title: CONDITION_TYPE (structuredquerycondition.h)
-description: Provides a set of flags to be used with the following methods to indicate the type of condition tree node:\_ICondition::GetConditionType, IConditionFactory::MakeAndOr, IConditionFactory2::CreateCompoundFromArray, and IConditionFactory2::CreateCompoundFromObjectArray.helpviewer_keywords: ["CONDITION_TYPE","CONDITION_TYPE enumeration [search]","CT_AND_CONDITION","CT_LEAF_CONDITION","CT_NOT_CONDITION","CT_OR_CONDITION","_search_CONDITION_TYPE","search._search_CONDITION_TYPE","structuredquerycondition/CONDITION_TYPE","structuredquerycondition/CT_AND_CONDITION","structuredquerycondition/CT_LEAF_CONDITION","structuredquerycondition/CT_NOT_CONDITION","structuredquerycondition/CT_OR_CONDITION"]
+description: Provides a set of flags to be used with the following methods to indicate the type of condition tree node:\_ICondition::GetConditionType, IConditionFactory::MakeAndOr, IConditionFactory2::CreateCompoundFromArray, and IConditionFactory2::CreateCompoundFromObjectArray.
+helpviewer_keywords: ["CONDITION_TYPE","CONDITION_TYPE enumeration [search]","CT_AND_CONDITION","CT_LEAF_CONDITION","CT_NOT_CONDITION","CT_OR_CONDITION","_search_CONDITION_TYPE","search._search_CONDITION_TYPE","structuredquerycondition/CONDITION_TYPE","structuredquerycondition/CT_AND_CONDITION","structuredquerycondition/CT_LEAF_CONDITION","structuredquerycondition/CT_NOT_CONDITION","structuredquerycondition/CT_OR_CONDITION"]
 old-location: search\_search_CONDITION_TYPE.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\enums\condition_type.htm
@@ -78,7 +79,7 @@ Indicates a "NOT" comparison of subterms.
 
 ### -field CT_LEAF_CONDITION
 
-Indicates that the node is a comparison between a property and a constant value using a <a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>.
+Indicates that the node is a comparison between a property and a constant value using a <a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>.
 
 
 ## -remarks
@@ -87,7 +88,7 @@ Indicates that the node is a comparison between a property and a constant value 
 
 In Windows 7, this enumeration is defined in structuredquerycondition.idl and structuredquerycondition.h. Prior to Windows 7 this enumeration was declared in structuredquery.h and structuredquery.idl.
 
-The StructuredQuerySample code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
+The <a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample">StructuredQuerySample</a> demonstrates how to read lines from the console, parse them using the system schema, and display the resulting condition trees.
 
 
 
@@ -101,7 +102,7 @@ The StructuredQuerySample code sample, available on <a href="https://code.msdn.m
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
+<a href="/windows/win32/api/structuredquerycondition/ne-structuredquerycondition-condition_operation">CONDITION_OPERATION</a>
 
 
 

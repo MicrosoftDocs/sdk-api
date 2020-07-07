@@ -1,7 +1,8 @@
 ---
 UID: NS:eaphostpeertypes._EAPHOST_AUTH_INFO
 title: EAPHOST_AUTH_INFO (eaphostpeertypes.h)
-description: Describes current authentication information throughout different stages of the EAP authentication process.helpviewer_keywords: ["EAPHOST_AUTH_INFO","EAPHOST_AUTH_INFO structure [EAPHost]","eaphost.eaphost_auth_info","eaphostpeertypes/EAPHOST_AUTH_INFO"]
+description: Describes current authentication information throughout different stages of the EAP authentication process.
+helpviewer_keywords: ["EAPHOST_AUTH_INFO","EAPHOST_AUTH_INFO structure [EAPHost]","eaphost.eaphost_auth_info","eaphostpeertypes/EAPHOST_AUTH_INFO"]
 old-location: eaphost\eaphost_auth_info.htm
 tech.root: eaphost
 ms.assetid: b05a1862-9709-4459-a445-5ea4e00cab88
@@ -59,7 +60,7 @@ ms.custom: 19H1
 
 ### -field status
 
-An <a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphost_auth_status">EAPHOST_AUTH_STATUS</a> enumeration value that specifies the current status of the authentication session.
+An <a href="/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphost_auth_status">EAPHOST_AUTH_STATUS</a> enumeration value that specifies the current status of the authentication session.
 
 
 ### -field dwErrorCode
@@ -77,11 +78,11 @@ A reason code that specifies the reason the error in <b>dwErrorCode</b> was rais
 
 
 
-[EAPHost Supplicant Structures](https://docs.microsoft.com/windows/win32/eaphost/eap-host-supplicant-structures)a>
+[EAPHost Supplicant Structures](/windows/win32/eaphost/eap-host-supplicant-structures)
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams">EapHostPeerAuthParams</a>
+<a href="/windows/win32/api/eaphostpeertypes/ne-eaphostpeertypes-eaphostpeerauthparams">EapHostPeerAuthParams</a>
 
 
 

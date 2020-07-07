@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarDateFromBool
 title: VarDateFromBool function (oleauto.h)
-description: Converts a Boolean value to a date value.helpviewer_keywords: ["VarDateFromBool","VarDateFromBool function [Automation]","_oa96_VarDateFromBool","automat.vardatefrombool","oleauto/VarDateFromBool"]
+description: Converts a Boolean value to a date value.
+helpviewer_keywords: ["VarDateFromBool","VarDateFromBool function [Automation]","_oa96_VarDateFromBool","automat.vardatefrombool","oleauto/VarDateFromBool"]
 old-location: automat\vardatefrombool.htm
 tech.root: automat
 ms.assetid: 8793c2b8-c544-4d80-b9ba-dfea6db56e5d

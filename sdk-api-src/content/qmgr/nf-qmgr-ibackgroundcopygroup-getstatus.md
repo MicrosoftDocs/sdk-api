@@ -1,7 +1,8 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.GetStatus
 title: IBackgroundCopyGroup::GetStatus (qmgr.h)
-description: Use the GetStatus method to retrieve the state of the group.helpviewer_keywords: ["GetStatus","GetStatus method [BITS]","GetStatus method [BITS]","IBackgroundCopyGroup interface","IBackgroundCopyGroup interface [BITS]","GetStatus method","IBackgroundCopyGroup.GetStatus","IBackgroundCopyGroup::GetStatus","QM_STATUS_GROUP_ERROR","QM_STATUS_GROUP_FOREGROUND","QM_STATUS_GROUP_INCOMPLETE","QM_STATUS_GROUP_SUSPENDED","bits.ibackgroundcopygroup_getstatus","qmgr/IBackgroundCopyGroup::GetStatus"]
+description: Use the GetStatus method to retrieve the state of the group.
+helpviewer_keywords: ["GetStatus","GetStatus method [BITS]","GetStatus method [BITS]","IBackgroundCopyGroup interface","IBackgroundCopyGroup interface [BITS]","GetStatus method","IBackgroundCopyGroup.GetStatus","IBackgroundCopyGroup::GetStatus","QM_STATUS_GROUP_ERROR","QM_STATUS_GROUP_FOREGROUND","QM_STATUS_GROUP_INCOMPLETE","QM_STATUS_GROUP_SUSPENDED","bits.ibackgroundcopygroup_getstatus","qmgr/IBackgroundCopyGroup::GetStatus"]
 old-location: bits\ibackgroundcopygroup_getstatus.htm
 tech.root: Bits
 ms.assetid: 9ac76e50-a2cf-4dfb-af7e-803ee483f0f9

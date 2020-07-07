@@ -1,7 +1,8 @@
 ---
 UID: NF:roerrorapi.RoInspectCapturedStackBackTrace
 title: RoInspectCapturedStackBackTrace function
-description: Provides a way to for debuggers to inspect a call stack from a target process.helpviewer_keywords: ["RoInspectCapturedStackBackTrace","RoInspectCapturedStackBackTrace function [Windows Runtime]","roerrorapi/RoInspectCapturedStackBackTrace","winrt.roinspectcapturedstackbacktrace"]
+description: Provides a way to for debuggers to inspect a call stack from a target process.
+helpviewer_keywords: ["RoInspectCapturedStackBackTrace","RoInspectCapturedStackBackTrace function [Windows Runtime]","roerrorapi/RoInspectCapturedStackBackTrace","winrt.roinspectcapturedstackbacktrace"]
 old-location: winrt\roinspectcapturedstackbacktrace.htm
 tech.root: WinRT
 ms.assetid: 2C5B04DD-888B-4400-A01D-CDF9DD870584

@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.LongPtrMult
 title: LongPtrMult function (intsafe.h)
-description: Multiplies two values of type LONG_PTR.helpviewer_keywords: ["LongPtrMult","LongPtrMult function [Windows Shell]","intsafe/LongPtrMult","shell.LongPtrMult"]
+description: Multiplies two values of type LONG_PTR.
+helpviewer_keywords: ["LongPtrMult","LongPtrMult function [Windows Shell]","intsafe/LongPtrMult","shell.LongPtrMult"]
 old-location: shell\LongPtrMult.htm
 tech.root: shell
 ms.assetid: c2b86515-fe03-439a-bfe4-d92750b29279

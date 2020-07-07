@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_1.IDWriteFactory1.GetEudcFontCollection
 title: IDWriteFactory1::GetEudcFontCollection (dwrite_1.h)
-description: Gets a font collection representing the set of EUDC (end-user defined characters) fonts.helpviewer_keywords: ["GetEudcFontCollection","GetEudcFontCollection method [Direct Write]","GetEudcFontCollection method [Direct Write]","IDWriteFactory1 interface","IDWriteFactory1 interface [Direct Write]","GetEudcFontCollection method","IDWriteFactory1.GetEudcFontCollection","IDWriteFactory1::GetEudcFontCollection","directwrite.idwritefactory1_geteudcfontcollection","dwrite_1/IDWriteFactory1::GetEudcFontCollection"]
+description: Gets a font collection representing the set of EUDC (end-user defined characters) fonts.
+helpviewer_keywords: ["GetEudcFontCollection","GetEudcFontCollection method [Direct Write]","GetEudcFontCollection method [Direct Write]","IDWriteFactory1 interface","IDWriteFactory1 interface [Direct Write]","GetEudcFontCollection method","IDWriteFactory1.GetEudcFontCollection","IDWriteFactory1::GetEudcFontCollection","directwrite.idwritefactory1_geteudcfontcollection","dwrite_1/IDWriteFactory1::GetEudcFontCollection"]
 old-location: directwrite\idwritefactory1_geteudcfontcollection.htm
 tech.root: DirectWrite
 ms.assetid: 7A0B476D-6158-4AE1-B66F-8168E4AE7DE4

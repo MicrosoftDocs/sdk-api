@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineGetAgentStatusW
 title: lineGetAgentStatusW function (tapi.h)
-description: The lineGetAgentStatus function obtains the agent-related status on the specified address.helpviewer_keywords: ["_tapi2_linegetagentstatus","lineGetAgentStatus","lineGetAgentStatus function [TAPI 2.2]","lineGetAgentStatusA","lineGetAgentStatusW","tapi/lineGetAgentStatus","tapi/lineGetAgentStatusA","tapi/lineGetAgentStatusW","tapi2.linegetagentstatus"]
+description: The lineGetAgentStatus function obtains the agent-related status on the specified address.
+helpviewer_keywords: ["_tapi2_linegetagentstatus","lineGetAgentStatus","lineGetAgentStatus function [TAPI 2.2]","lineGetAgentStatusA","lineGetAgentStatusW","tapi/lineGetAgentStatus","tapi/lineGetAgentStatusA","tapi/lineGetAgentStatusW","tapi2.linegetagentstatus"]
 old-location: tapi2\linegetagentstatus.htm
 tech.root: Tapi
 ms.assetid: 6736cde5-af38-493d-b09a-a807d9e9a382
@@ -111,4 +112,9 @@ LINEERR_INVALADDRESSID, LINEERR_INVALLINEHANDLE, LINEERR_INVALPOINTER, LINEERR_N
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The tapi.h header defines lineGetAgentStatus as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

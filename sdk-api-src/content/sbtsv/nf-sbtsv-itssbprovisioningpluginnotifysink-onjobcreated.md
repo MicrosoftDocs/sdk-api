@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioningPluginNotifySink.OnJobCreated
 title: ITsSbProvisioningPluginNotifySink::OnJobCreated (sbtsv.h)
-description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a provisioning job is created.helpviewer_keywords: ["ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services]","OnJobCreated method","ITsSbProvisioningPluginNotifySink.OnJobCreated","ITsSbProvisioningPluginNotifySink::OnJobCreated","OnJobCreated","OnJobCreated method [Remote Desktop Services]","OnJobCreated method [Remote Desktop Services]","ITsSbProvisioningPluginNotifySink interface","sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCreated","termserv.itssbprovisioningpluginnotifysink_onjobcreated"]
+description: Notifies Remote Desktop Connection Broker (RD Connection Broker) that a provisioning job is created.
+helpviewer_keywords: ["ITsSbProvisioningPluginNotifySink interface [Remote Desktop Services]","OnJobCreated method","ITsSbProvisioningPluginNotifySink.OnJobCreated","ITsSbProvisioningPluginNotifySink::OnJobCreated","OnJobCreated","OnJobCreated method [Remote Desktop Services]","OnJobCreated method [Remote Desktop Services]","ITsSbProvisioningPluginNotifySink interface","sbtsv/ITsSbProvisioningPluginNotifySink::OnJobCreated","termserv.itssbprovisioningpluginnotifysink_onjobcreated"]
 old-location: termserv\itssbprovisioningpluginnotifysink_onjobcreated.htm
 tech.root: TermServ
 ms.assetid: daab9172-d984-4b47-9f64-59216513aff7

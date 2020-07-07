@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IValueMapItem.put_Description
 title: IValueMapItem::put_Description (pla.h)
-description: Retrieves or sets a description of the item.helpviewer_keywords: ["Description property [PLA]","Description property [PLA]","IValueMapItem interface","IValueMapItem interface [PLA]","Description property","IValueMapItem.Description","IValueMapItem.put_Description","IValueMapItem::Description","IValueMapItem::get_Description","IValueMapItem::put_Description","base.ivaluemapitem_description","pla.ivaluemapitem_description","pla/IValueMapItem::Description","pla/IValueMapItem::get_Description","pla/IValueMapItem::put_Description","put_Description"]
+description: Retrieves or sets a description of the item.
+helpviewer_keywords: ["Description property [PLA]","Description property [PLA]","IValueMapItem interface","IValueMapItem interface [PLA]","Description property","IValueMapItem.Description","IValueMapItem.put_Description","IValueMapItem::Description","IValueMapItem::get_Description","IValueMapItem::put_Description","base.ivaluemapitem_description","pla.ivaluemapitem_description","pla/IValueMapItem::Description","pla/IValueMapItem::get_Description","pla/IValueMapItem::put_Description","put_Description"]
 old-location: pla\ivaluemapitem_description.htm
 tech.root: PLA
 ms.assetid: ee0669f1-6400-4c32-9f5f-82fd69b7cacd

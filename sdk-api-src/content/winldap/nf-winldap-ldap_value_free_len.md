@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_value_free_len
 title: ldap_value_free_len function (winldap.h)
-description: The ldap_value_free_len frees berval structures that were returned by ldap_get_values_len.helpviewer_keywords: ["_ldap_ldap_value_free_len","ldap.ldap__value__free__len","ldap.ldap_value_free_len","ldap_value_free_len","ldap_value_free_len function [LDAP]","winldap/ldap_value_free_len"]
+description: The ldap_value_free_len frees berval structures that were returned by ldap_get_values_len.
+helpviewer_keywords: ["_ldap_ldap_value_free_len","ldap.ldap__value__free__len","ldap.ldap_value_free_len","ldap_value_free_len","ldap_value_free_len function [LDAP]","winldap/ldap_value_free_len"]
 old-location: ldap\ldap_value_free_len.htm
 tech.root: ldap
 ms.assetid: bae95e09-bb3b-4fb3-887f-3cff0a0e6c22
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>ldap_value_free_len</b> frees 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that were returned by 
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures that were returned by 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values_len">ldap_get_values_len</a>.
 
 
@@ -80,7 +81,7 @@ If the function fails, it returns an error code. See
 
 
 
-Call <b>ldap_value_free_len</b> to free <a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values_len">ldap_get_values_len</a>.
+Call <b>ldap_value_free_len</b> to free <a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a> structures returned by <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_get_values_len">ldap_get_values_len</a>.
 
 
 
@@ -98,7 +99,7 @@ Call <b>ldap_value_free_len</b> to free <a href="https://docs.microsoft.com/wind
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldap_berval">berval</a>
 
 
 

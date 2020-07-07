@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ILegacyIAccessibleProvider.GetSelection
 title: ILegacyIAccessibleProvider::GetSelection (uiautomationcore.h)
-description: Retrieves the selected item or items in the control.helpviewer_keywords: ["GetSelection","GetSelection method [Windows Accessibility]","GetSelection method [Windows Accessibility]","ILegacyIAccessibleProvider interface","ILegacyIAccessibleProvider interface [Windows Accessibility]","GetSelection method","ILegacyIAccessibleProvider.GetSelection","ILegacyIAccessibleProvider::GetSelection","uiauto.uiauto_ILegacyIAccessibleProvider_GetSelection","uiauto_ILegacyIAccessibleProvider_GetSelection","uiautomationcore/ILegacyIAccessibleProvider::GetSelection","winauto.uiauto_ILegacyIAccessibleProvider_GetSelection"]
+description: Retrieves the selected item or items in the control.
+helpviewer_keywords: ["GetSelection","GetSelection method [Windows Accessibility]","GetSelection method [Windows Accessibility]","ILegacyIAccessibleProvider interface","ILegacyIAccessibleProvider interface [Windows Accessibility]","GetSelection method","ILegacyIAccessibleProvider.GetSelection","ILegacyIAccessibleProvider::GetSelection","uiauto.uiauto_ILegacyIAccessibleProvider_GetSelection","uiauto_ILegacyIAccessibleProvider_GetSelection","uiautomationcore/ILegacyIAccessibleProvider::GetSelection","winauto.uiauto_ILegacyIAccessibleProvider_GetSelection"]
 old-location: winauto\uiauto_ILegacyIAccessibleProvider_GetSelection.htm
 tech.root: WinAuto
 ms.assetid: 8436e554-2f09-46ed-a32a-0d2612bc60fb
@@ -59,9 +60,9 @@ Retrieves the selected item or items in the control.
 
 ### -param pvarSelectedChildren [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
-Receives a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> containing the selected items.
+Receives a pointer to a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> containing the selected items.
 
 
 ## -returns

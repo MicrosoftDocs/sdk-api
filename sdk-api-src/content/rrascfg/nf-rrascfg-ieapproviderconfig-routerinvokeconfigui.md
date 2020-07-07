@@ -1,7 +1,8 @@
 ---
 UID: NF:rrascfg.IEAPProviderConfig.RouterInvokeConfigUI
 title: IEAPProviderConfig::RouterInvokeConfigUI (rrascfg.h)
-description: The system calls the RouterInvokeConfigUI method to invoke the configuration user interface for EAP authentication between two routers.helpviewer_keywords: ["IEAPProviderConfig interface [EAP]","RouterInvokeConfigUI method","IEAPProviderConfig.RouterInvokeConfigUI","IEAPProviderConfig::RouterInvokeConfigUI","RouterInvokeConfigUI","RouterInvokeConfigUI method [EAP]","RouterInvokeConfigUI method [EAP]","IEAPProviderConfig interface","_eap_ieapproviderconfig_routerinvokeconfigui","eap.ieapproviderconfig_routerinvokeconfigui","rrascfg/IEAPProviderConfig::RouterInvokeConfigUI"]
+description: The system calls the RouterInvokeConfigUI method to invoke the configuration user interface for EAP authentication between two routers.
+helpviewer_keywords: ["IEAPProviderConfig interface [EAP]","RouterInvokeConfigUI method","IEAPProviderConfig.RouterInvokeConfigUI","IEAPProviderConfig::RouterInvokeConfigUI","RouterInvokeConfigUI","RouterInvokeConfigUI method [EAP]","RouterInvokeConfigUI method [EAP]","IEAPProviderConfig interface","_eap_ieapproviderconfig_routerinvokeconfigui","eap.ieapproviderconfig_routerinvokeconfigui","rrascfg/IEAPProviderConfig::RouterInvokeConfigUI"]
 old-location: eap\ieapproviderconfig_routerinvokeconfigui.htm
 tech.root: EAP
 ms.assetid: ba07f5c6-0b76-489f-b787-2965710cd1c5
@@ -165,11 +166,11 @@ An unexpected error occurred.
 
 
 
-[EAP Interfaces](https://docs.microsoft.com/windows/win32/eap/eap-interfaces)a>
+[EAP Interfaces](/windows/win32/eap/eap-interfaces)
 
 
 
-[Extensible Authentication Protocol Reference](https://docs.microsoft.com/windows/win32/eap/extensible-authentication-protocol-reference)a>
+[Extensible Authentication Protocol Reference](/windows/win32/eap/extensible-authentication-protocol-reference)
 
 
 

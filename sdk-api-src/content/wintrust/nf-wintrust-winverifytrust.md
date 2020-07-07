@@ -1,7 +1,8 @@
 ---
 UID: NF:wintrust.WinVerifyTrust
 title: WinVerifyTrust function (wintrust.h)
-description: Performs a trust verification action on a specified object.helpviewer_keywords: ["A valid window handle","DRIVER_ACTION_VERIFY","HTTPSPROV_ACTION","INVALID_HANDLE_VALUE","OFFICESIGN_ACTION_VERIFY","WINTRUST_ACTION_GENERIC_CHAIN_VERIFY","WINTRUST_ACTION_GENERIC_VERIFY_V2","WINTRUST_ACTION_TRUSTPROVIDER_TEST","WinVerifyTrust","WinVerifyTrust function [Security]","Zero","_win32_winverifytrust","security.winverifytrust","wintrust/WinVerifyTrust"]
+description: Performs a trust verification action on a specified object.
+helpviewer_keywords: ["A valid window handle","DRIVER_ACTION_VERIFY","HTTPSPROV_ACTION","INVALID_HANDLE_VALUE","OFFICESIGN_ACTION_VERIFY","WINTRUST_ACTION_GENERIC_CHAIN_VERIFY","WINTRUST_ACTION_GENERIC_VERIFY_V2","WINTRUST_ACTION_TRUSTPROVIDER_TEST","WinVerifyTrust","WinVerifyTrust function [Security]","Zero","_win32_winverifytrust","security.winverifytrust","wintrust/WinVerifyTrust"]
 old-location: security\winverifytrust.htm
 tech.root: SecCrypto
 ms.assetid: b7efac6a-ac9f-477a-aada-63fe32208e6f

@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_PROXY_MESSAGE_CALLBACK
 title: WS_PROXY_MESSAGE_CALLBACK (webservices.h)
-description: Invoked when the headers of the input message are about to be sent, or when output message headers are just received.helpviewer_keywords: ["WS_PROXY_MESSAGE_CALLBACK","WS_PROXY_MESSAGE_CALLBACK callback","WS_PROXY_MESSAGE_CALLBACK callback function [Web Services for Windows]","webservices/WS_PROXY_MESSAGE_CALLBACK","wsw.ws_proxy_message_callback"]
+description: Invoked when the headers of the input message are about to be sent, or when output message headers are just received.
+helpviewer_keywords: ["WS_PROXY_MESSAGE_CALLBACK","WS_PROXY_MESSAGE_CALLBACK callback","WS_PROXY_MESSAGE_CALLBACK callback function [Web Services for Windows]","webservices/WS_PROXY_MESSAGE_CALLBACK","wsw.ws_proxy_message_callback"]
 old-location: wsw\ws_proxy_message_callback.htm
 tech.root: wsw
 ms.assetid: 5590ef4f-38a5-4aeb-9e77-803abb7ef6a7
@@ -74,7 +75,7 @@ The heap associated with the call. This is the heap which is passed to call for 
 
 ### -param *state [in]
 
-The 'state' as specified as part of <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_proxy_message_callback_context">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a> 'state' field.
+The 'state' as specified as part of <a href="/windows/win32/api/webservices/ns-webservices-ws_proxy_message_callback_context">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a> 'state' field.
                 
 
 
@@ -97,7 +98,7 @@ If this callback function succeeds, it returns <b xmlns:loc="http://microsoft.co
 
 
 
-See also, <a href="https://docs.microsoft.com/windows/win32/api/webservices/ns-webservices-ws_proxy_message_callback_context">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a>.
+See also, <a href="/windows/win32/api/webservices/ns-webservices-ws_proxy_message_callback_context">WS_PROXY_MESSAGE_CALLBACK_CONTEXT</a>.
             
 
 

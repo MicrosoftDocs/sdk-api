@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IExtendTaskPad.EnumTasks
 title: IExtendTaskPad::EnumTasks (mmc.h)
-description: The IExtendTaskPad::EnumTasks method enables MMC to get a pointer to the IEnumTASK interface of the object that contains the snap-in's tasks.helpviewer_keywords: ["EnumTasks","EnumTasks method [MMC]","EnumTasks method [MMC]","IExtendTaskPad interface","IExtendTaskPad interface [MMC]","EnumTasks method","IExtendTaskPad.EnumTasks","IExtendTaskPad::EnumTasks","_slate_iextendtaskpad_enumtasks","mmc.iextendtaskpad_enumtasks","mmc/IExtendTaskPad::EnumTasks"]
+description: The IExtendTaskPad::EnumTasks method enables MMC to get a pointer to the IEnumTASK interface of the object that contains the snap-in's tasks.
+helpviewer_keywords: ["EnumTasks","EnumTasks method [MMC]","EnumTasks method [MMC]","IExtendTaskPad interface","IExtendTaskPad interface [MMC]","EnumTasks method","IExtendTaskPad.EnumTasks","IExtendTaskPad::EnumTasks","_slate_iextendtaskpad_enumtasks","mmc.iextendtaskpad_enumtasks","mmc/IExtendTaskPad::EnumTasks"]
 old-location: mmc\iextendtaskpad_enumtasks.htm
 tech.root: mmc
 ms.assetid: 5faced6f-68aa-453e-b5da-99b79e9c8e15

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmpplug.IWMPPluginUI
 title: IWMPPluginUI (wmpplug.h)
-description: The IWMPPluginUI interface manages the connection to Windows Media Player.helpviewer_keywords: ["IWMPPluginUI","IWMPPluginUI interface [Windows Media Player]","IWMPPluginUI interface [Windows Media Player]","described","IWMPPluginUIInterface","wmp.iwmppluginui","wmpplug/IWMPPluginUI"]
+description: The IWMPPluginUI interface manages the connection to Windows Media Player.
+helpviewer_keywords: ["IWMPPluginUI","IWMPPluginUI interface [Windows Media Player]","IWMPPluginUI interface [Windows Media Player]","described","IWMPPluginUIInterface","wmp.iwmppluginui","wmpplug/IWMPPluginUI"]
 old-location: wmp\iwmppluginui.htm
 tech.root: WMP
 ms.assetid: f292a3e6-87bf-4e68-8737-f7d6351c4ff4

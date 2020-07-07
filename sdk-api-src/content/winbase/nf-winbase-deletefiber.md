@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.DeleteFiber
 title: DeleteFiber function (winbase.h)
-description: Deletes an existing fiber.helpviewer_keywords: ["DeleteFiber","DeleteFiber function","_win32_deletefiber","base.deletefiber","winbase/DeleteFiber"]
+description: Deletes an existing fiber.
+helpviewer_keywords: ["DeleteFiber","DeleteFiber function","_win32_deletefiber","base.deletefiber","winbase/DeleteFiber"]
 old-location: base\deletefiber.htm
 tech.root: ProcThread
 ms.assetid: e1a7453a-6878-49dd-831f-1857a489e97f

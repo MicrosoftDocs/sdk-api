@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Bitmap.FromDirectDrawSurface7
 title: Bitmap::FromDirectDrawSurface7 (gdiplusheaders.h)
-description: The Bitmap::FromDirectDrawSurface7 method creates a Bitmap object based on a DirectDraw surface. The Bitmap object maintains a reference to the DirectDraw surface until the Bitmap object is deleted.helpviewer_keywords: ["Bitmap class [GDI+]","FromDirectDrawSurface7 method","Bitmap.FromDirectDrawSurface7","Bitmap::FromDirectDrawSurface7","FromDirectDrawSurface7","FromDirectDrawSurface7 method [GDI+]","FromDirectDrawSurface7 method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_FromDirectDrawSurface7_surface_","gdiplus._gdiplus_CLASS_Bitmap_FromDirectDrawSurface7_surface_"]
+description: The Bitmap::FromDirectDrawSurface7 method creates a Bitmap object based on a DirectDraw surface. The Bitmap object maintains a reference to the DirectDraw surface until the Bitmap object is deleted.
+helpviewer_keywords: ["Bitmap class [GDI+]","FromDirectDrawSurface7 method","Bitmap.FromDirectDrawSurface7","Bitmap::FromDirectDrawSurface7","FromDirectDrawSurface7","FromDirectDrawSurface7 method [GDI+]","FromDirectDrawSurface7 method [GDI+]","Bitmap class","_gdiplus_CLASS_Bitmap_FromDirectDrawSurface7_surface_","gdiplus._gdiplus_CLASS_Bitmap_FromDirectDrawSurface7_surface_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_FromDirectDrawSurface7_surface_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapmethods\fromdirectdrawsurface7.htm

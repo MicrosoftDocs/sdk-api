@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_ESP_DROP_PACKET_STATISTICS0_
 title: IPSEC_ESP_DROP_PACKET_STATISTICS0 (ipsectypes.h)
-description: Stores ESP drop packet statistics.helpviewer_keywords: ["IPSEC_ESP_DROP_PACKET_STATISTICS0","IPSEC_ESP_DROP_PACKET_STATISTICS0 structure [Filtering]","fwp.ipsec_esp_drop_packet_statistics0_struct","ipsectypes/IPSEC_ESP_DROP_PACKET_STATISTICS0"]
+description: Stores ESP drop packet statistics.
+helpviewer_keywords: ["IPSEC_ESP_DROP_PACKET_STATISTICS0","IPSEC_ESP_DROP_PACKET_STATISTICS0 structure [Filtering]","fwp.ipsec_esp_drop_packet_statistics0_struct","ipsectypes/IPSEC_ESP_DROP_PACKET_STATISTICS0"]
 old-location: fwp\ipsec_esp_drop_packet_statistics0_struct.htm
 tech.root: fwp
 ms.assetid: d31ac463-8265-40c6-bd68-9f3ade35eb34

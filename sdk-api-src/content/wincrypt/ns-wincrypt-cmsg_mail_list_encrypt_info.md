@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CMSG_MAIL_LIST_ENCRYPT_INFO
 title: CMSG_MAIL_LIST_ENCRYPT_INFO (wincrypt.h)
-description: Contains encryption information for a mailing list recipient of enveloped data.helpviewer_keywords: ["*PCMSG_MAIL_LIST_ENCRYPT_INFO","CMSG_MAIL_LIST_ENCRYPT_FREE_OBJID_FLAG","CMSG_MAIL_LIST_ENCRYPT_FREE_PARA_FLAG","CMSG_MAIL_LIST_ENCRYPT_INFO","CMSG_MAIL_LIST_ENCRYPT_INFO structure [Security]","PCMSG_MAIL_LIST_ENCRYPT_INFO","PCMSG_MAIL_LIST_ENCRYPT_INFO structure pointer [Security]","security.cmsg_mail_list_encrypt_info","wincrypt/CMSG_MAIL_LIST_ENCRYPT_INFO","wincrypt/PCMSG_MAIL_LIST_ENCRYPT_INFO"]
+description: Contains encryption information for a mailing list recipient of enveloped data.
+helpviewer_keywords: ["*PCMSG_MAIL_LIST_ENCRYPT_INFO","CMSG_MAIL_LIST_ENCRYPT_FREE_OBJID_FLAG","CMSG_MAIL_LIST_ENCRYPT_FREE_PARA_FLAG","CMSG_MAIL_LIST_ENCRYPT_INFO","CMSG_MAIL_LIST_ENCRYPT_INFO structure [Security]","PCMSG_MAIL_LIST_ENCRYPT_INFO","PCMSG_MAIL_LIST_ENCRYPT_INFO structure pointer [Security]","security.cmsg_mail_list_encrypt_info","wincrypt/CMSG_MAIL_LIST_ENCRYPT_INFO","wincrypt/PCMSG_MAIL_LIST_ENCRYPT_INFO"]
 old-location: security\cmsg_mail_list_encrypt_info.htm
 tech.root: SecCrypto
 ms.assetid: 25c4338a-1ea3-4fff-a6bf-f3884a8154d3
@@ -116,7 +117,7 @@ The <b>Parameters</b> <b>pbData</b> member of the <a href="https://docs.microsof
 
 
 
- When called with the <i>dwMsgType</i> parameter set to <b>CMSG_ENVELOPED</b>, the <a href="https://docs.microsoft.com/windows/win32/api/wincrypt/ns-wincrypt-cmsg_mail_list_recipient_encode_info">CryptMsgOpenToEncode</a> function initializes the <b>CMSG_MAIL_LIST_ENCRYPT_INFO</b> structure from the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_mail_list_recipient_encode_info">CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</a> structure. The <b>CryptMsgOpenToEncode</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_mail_list">PFN_CMSG_EXPORT_MAIL_LIST</a> function to update the <b>CMSG_MAIL_LIST_ENCRYPT_INFO</b> structure. If the callback function cannot be found, the <b>CryptMsgOpenToEncode</b> function fills this structure with default key information from the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_content_encrypt_info">CMSG_CONTENT_ENCRYPT_INFO</a> structure.
+ When called with the <i>dwMsgType</i> parameter set to <b>CMSG_ENVELOPED</b>, the <a href="/windows/win32/api/wincrypt/ns-wincrypt-cmsg_mail_list_recipient_encode_info">CryptMsgOpenToEncode</a> function initializes the <b>CMSG_MAIL_LIST_ENCRYPT_INFO</b> structure from the  <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_mail_list_recipient_encode_info">CMSG_MAIL_LIST_RECIPIENT_ENCODE_INFO</a> structure. The <b>CryptMsgOpenToEncode</b> function calls the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nc-wincrypt-pfn_cmsg_export_mail_list">PFN_CMSG_EXPORT_MAIL_LIST</a> function to update the <b>CMSG_MAIL_LIST_ENCRYPT_INFO</b> structure. If the callback function cannot be found, the <b>CryptMsgOpenToEncode</b> function fills this structure with default key information from the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/ns-wincrypt-cmsg_content_encrypt_info">CMSG_CONTENT_ENCRYPT_INFO</a> structure.
 
 The following members of the <b>CMSG_MAIL_LIST_ENCRYPT_INFO</b> structure can be updated by the callback function:<dl>
 <dd><b>EncryptedKey</b></dd>

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.RegisterClassExW
 title: RegisterClassExW function (winuser.h)
-description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function.helpviewer_keywords: ["RegisterClassEx","RegisterClassEx function [Windows and Messages]","RegisterClassExA","RegisterClassExW","_win32_RegisterClassEx","_win32_registerclassex_cpp","winmsg.registerclassex","winui._win32_registerclassex","winuser/RegisterClassEx","winuser/RegisterClassExA","winuser/RegisterClassExW"]
+description: Registers a window class for subsequent use in calls to the CreateWindow or CreateWindowEx function.
+helpviewer_keywords: ["RegisterClassEx","RegisterClassEx function [Windows and Messages]","RegisterClassExA","RegisterClassExW","_win32_RegisterClassEx","_win32_registerclassex_cpp","winmsg.registerclassex","winui._win32_registerclassex","winuser/RegisterClassEx","winuser/RegisterClassExA","winuser/RegisterClassExW"]
 old-location: winmsg\registerclassex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\registerclassex.htm
@@ -108,6 +109,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines RegisterClassEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

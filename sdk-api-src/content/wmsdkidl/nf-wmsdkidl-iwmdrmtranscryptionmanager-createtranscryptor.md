@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMDRMTranscryptionManager.CreateTranscryptor
 title: IWMDRMTranscryptionManager::CreateTranscryptor (wmsdkidl.h)
-description: Creates a DRM transcryptor object.helpviewer_keywords: ["CreateTranscryptor","CreateTranscryptor method [windows Media Format]","CreateTranscryptor method [windows Media Format]","IWMDRMTranscryptionManager interface","IWMDRMTranscryptionManager interface [windows Media Format]","CreateTranscryptor method","IWMDRMTranscryptionManager.CreateTranscryptor","IWMDRMTranscryptionManager::CreateTranscryptor","wmformat.iwmdrmtranscryptionmanager_createtranscryptor","wmsdkidl/IWMDRMTranscryptionManager::CreateTranscryptor"]
+description: Creates a DRM transcryptor object.
+helpviewer_keywords: ["CreateTranscryptor","CreateTranscryptor method [windows Media Format]","CreateTranscryptor method [windows Media Format]","IWMDRMTranscryptionManager interface","IWMDRMTranscryptionManager interface [windows Media Format]","CreateTranscryptor method","IWMDRMTranscryptionManager.CreateTranscryptor","IWMDRMTranscryptionManager::CreateTranscryptor","wmformat.iwmdrmtranscryptionmanager_createtranscryptor","wmsdkidl/IWMDRMTranscryptionManager::CreateTranscryptor"]
 old-location: wmformat\iwmdrmtranscryptionmanager_createtranscryptor.htm
 tech.root: wmformat
 ms.assetid: e4dfa908-9fd2-4968-b4a0-c7b69064d46e

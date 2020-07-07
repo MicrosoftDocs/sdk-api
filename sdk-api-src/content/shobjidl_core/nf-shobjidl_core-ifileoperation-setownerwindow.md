@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetOwnerWindow
 title: IFileOperation::SetOwnerWindow (shobjidl_core.h)
-description: Sets the parent or owner window for progress and dialog windows.helpviewer_keywords: ["IFileOperation interface [Windows Shell]","SetOwnerWindow method","IFileOperation.SetOwnerWindow","IFileOperation::SetOwnerWindow","SetOwnerWindow","SetOwnerWindow method [Windows Shell]","SetOwnerWindow method [Windows Shell]","IFileOperation interface","_shell_IFileOperation_SetOwnerWindow","shell.IFileOperation_SetOwnerWindow","shobjidl_core/IFileOperation::SetOwnerWindow"]
+description: Sets the parent or owner window for progress and dialog windows.
+helpviewer_keywords: ["IFileOperation interface [Windows Shell]","SetOwnerWindow method","IFileOperation.SetOwnerWindow","IFileOperation::SetOwnerWindow","SetOwnerWindow","SetOwnerWindow method [Windows Shell]","SetOwnerWindow method [Windows Shell]","IFileOperation interface","_shell_IFileOperation_SetOwnerWindow","shell.IFileOperation_SetOwnerWindow","shobjidl_core/IFileOperation::SetOwnerWindow"]
 old-location: shell\IFileOperation_SetOwnerWindow.htm
 tech.root: shell
 ms.assetid: ad3276a5-409d-4a49-ac95-2c2a3eb3b864

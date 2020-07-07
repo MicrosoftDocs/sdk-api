@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptSignMessage
 title: CryptSignMessage function (wincrypt.h)
-description: The CryptSignMessage function creates a hash of the specified content, signs the hash, and then encodes both the original message content and the signed hash.helpviewer_keywords: ["CryptSignMessage","CryptSignMessage function [Security]","_crypto2_cryptsignmessage","security.cryptsignmessage","wincrypt/CryptSignMessage"]
+description: The CryptSignMessage function creates a hash of the specified content, signs the hash, and then encodes both the original message content and the signed hash.
+helpviewer_keywords: ["CryptSignMessage","CryptSignMessage function [Security]","_crypto2_cryptsignmessage","security.cryptsignmessage","wincrypt/CryptSignMessage"]
 old-location: security\cryptsignmessage.htm
 tech.root: SecCrypto
 ms.assetid: f14f7c7b-14ac-40a7-9a49-d1a899ecc52a
@@ -70,7 +71,7 @@ A pointer to
 
 ### -param cToBeSigned [in]
 
-Count of the number of array elements in <i>rgpbToBeSigned</i> and <i>rgpbToBeSigned</i>. This parameter must be set to one unless <i>fDetachedSignature</i> is set to <b>TRUE</b>.
+Count of the number of array elements in <i>rgpbToBeSigned</i> and <i>rgcbToBeSigned</i>. This parameter must be set to one unless <i>fDetachedSignature</i> is set to <b>TRUE</b>.
 
 
 ### -param rgpbToBeSigned [in]
@@ -185,7 +186,3 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
-

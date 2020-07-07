@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Class_Property_ExW
 title: CM_Get_Class_Property_ExW function (cfgmgr32.h)
-description: The CM_Get_Class_Property_ExW function retrieves a device property that is set for a device interface class or device setup class.helpviewer_keywords: ["CM_Get_Class_Property_ExW","CM_Get_Class_Property_ExW function [Device and Driver Installation]","cfgmgr32/CM_Get_Class_Property_ExW","devinst.cm_get_class_property_exw"]
+description: The CM_Get_Class_Property_ExW function retrieves a device property that is set for a device interface class or device setup class.
+helpviewer_keywords: ["CM_Get_Class_Property_ExW","CM_Get_Class_Property_ExW function [Device and Driver Installation]","cfgmgr32/CM_Get_Class_Property_ExW","devinst.cm_get_class_property_exw"]
 old-location: devinst\cm_get_class_property_exw.htm
 tech.root: devinst
 ms.assetid: 580E055C-B731-4168-8051-81BD5ACB4EFC

@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLicenseConnection.RequestLicensingCapabilities
 title: IWRdsProtocolLicenseConnection::RequestLicensingCapabilities (wtsprotocol.h)
-description: Requests license capabilities from the client.helpviewer_keywords: ["IWRdsProtocolLicenseConnection interface [Remote Desktop Services]","RequestLicensingCapabilities method","IWRdsProtocolLicenseConnection.RequestLicensingCapabilities","IWRdsProtocolLicenseConnection::RequestLicensingCapabilities","RequestLicensingCapabilities","RequestLicensingCapabilities method [Remote Desktop Services]","RequestLicensingCapabilities method [Remote Desktop Services]","IWRdsProtocolLicenseConnection interface","termserv.iwrdsprotocollicenseconnection_requestlicensingcapabilities","wtsprotocol/IWRdsProtocolLicenseConnection::RequestLicensingCapabilities"]
+description: Requests license capabilities from the client.
+helpviewer_keywords: ["IWRdsProtocolLicenseConnection interface [Remote Desktop Services]","RequestLicensingCapabilities method","IWRdsProtocolLicenseConnection.RequestLicensingCapabilities","IWRdsProtocolLicenseConnection::RequestLicensingCapabilities","RequestLicensingCapabilities","RequestLicensingCapabilities method [Remote Desktop Services]","RequestLicensingCapabilities method [Remote Desktop Services]","IWRdsProtocolLicenseConnection interface","termserv.iwrdsprotocollicenseconnection_requestlicensingcapabilities","wtsprotocol/IWRdsProtocolLicenseConnection::RequestLicensingCapabilities"]
 old-location: termserv\iwrdsprotocollicenseconnection_requestlicensingcapabilities.htm
 tech.root: TermServ
 ms.assetid: a5814a01-9e4b-4510-b6a5-fa6edc6a15ed

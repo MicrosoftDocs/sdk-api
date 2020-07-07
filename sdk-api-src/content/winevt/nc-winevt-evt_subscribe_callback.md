@@ -1,7 +1,8 @@
 ---
 UID: NC:winevt.EVT_SUBSCRIBE_CALLBACK
 title: EVT_SUBSCRIBE_CALLBACK (winevt.h)
-description: Implement this callback if you call the EvtSubscribe function to receive events that match your query.helpviewer_keywords: ["EVT_SUBSCRIBE_CALLBACK","EVT_SUBSCRIBE_CALLBACK callback","EVT_SUBSCRIBE_CALLBACK callback function [EventLog]","wes.evt_subscribe_callback","winevt/EVT_SUBSCRIBE_CALLBACK"]
+description: Implement this callback if you call the EvtSubscribe function to receive events that match your query.
+helpviewer_keywords: ["EVT_SUBSCRIBE_CALLBACK","EVT_SUBSCRIBE_CALLBACK callback","EVT_SUBSCRIBE_CALLBACK callback function [EventLog]","wes.evt_subscribe_callback","winevt/EVT_SUBSCRIBE_CALLBACK"]
 old-location: wes\evt_subscribe_callback.htm
 tech.root: wes
 ms.assetid: 935a787c-fd71-492d-a803-80cb2c9019ea

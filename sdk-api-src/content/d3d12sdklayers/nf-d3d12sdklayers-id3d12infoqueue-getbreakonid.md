@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12InfoQueue.GetBreakOnID
 title: ID3D12InfoQueue::GetBreakOnID (d3d12sdklayers.h)
-description: Get a message identifier to break on when a message with that identifier passes through the storage filter.helpviewer_keywords: ["GetBreakOnID","GetBreakOnID method","GetBreakOnID method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","GetBreakOnID method","ID3D12InfoQueue.GetBreakOnID","ID3D12InfoQueue::GetBreakOnID","d3d12sdklayers/ID3D12InfoQueue::GetBreakOnID","direct3d12.id3d12infoqueue_getbreakonid"]
+description: Get a message identifier to break on when a message with that identifier passes through the storage filter.
+helpviewer_keywords: ["GetBreakOnID","GetBreakOnID method","GetBreakOnID method","ID3D12InfoQueue interface","ID3D12InfoQueue interface","GetBreakOnID method","ID3D12InfoQueue.GetBreakOnID","ID3D12InfoQueue::GetBreakOnID","d3d12sdklayers/ID3D12InfoQueue::GetBreakOnID","direct3d12.id3d12infoqueue_getbreakonid"]
 old-location: direct3d12\id3d12infoqueue_getbreakonid.htm
 tech.root: direct3d12
 ms.assetid: 04763E09-3076-4865-8026-976ED08B61C3

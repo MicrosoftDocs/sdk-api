@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.MapDebugInformation
 title: MapDebugInformation function (dbghelp.h)
-description: Obtains access to the debugging information for an image.helpviewer_keywords: ["MapDebugInformation","MapDebugInformation function","_win32_mapdebuginformation","base.mapdebuginformation","dbghelp/MapDebugInformation"]
+description: Obtains access to the debugging information for an image.
+helpviewer_keywords: ["MapDebugInformation","MapDebugInformation function","_win32_mapdebuginformation","base.mapdebuginformation","dbghelp/MapDebugInformation"]
 old-location: base\mapdebuginformation.htm
 tech.root: Debug
 ms.assetid: 749a2a99-f6c4-4af3-aa0b-8a7bb5c690da

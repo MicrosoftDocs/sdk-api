@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcRevertToSelf
 title: RpcRevertToSelf function (rpcdce.h)
-description: After calling RpcImpersonateClient and completing any tasks that require client impersonation, the server calls RpcRevertToSelf to end impersonation and to reestablish its own security identity.helpviewer_keywords: ["RpcRevertToSelf","RpcRevertToSelf function [RPC]","_rpc_rpcreverttoself","rpc.rpcreverttoself","rpcdce/RpcRevertToSelf"]
+description: After calling RpcImpersonateClient and completing any tasks that require client impersonation, the server calls RpcRevertToSelf to end impersonation and to reestablish its own security identity.
+helpviewer_keywords: ["RpcRevertToSelf","RpcRevertToSelf function [RPC]","_rpc_rpcreverttoself","rpc.rpcreverttoself","rpcdce/RpcRevertToSelf"]
 old-location: rpc\rpcreverttoself.htm
 tech.root: Rpc
 ms.assetid: 07bbf6fa-f1df-4d9c-ae67-e79e2ccc12c8

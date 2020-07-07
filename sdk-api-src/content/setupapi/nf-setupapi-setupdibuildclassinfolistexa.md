@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiBuildClassInfoListExA
 title: SetupDiBuildClassInfoListExA function (setupapi.h)
-description: The SetupDiBuildClassInfoListEx function returns a list of setup class GUIDs that includes every class installed on the local system or a remote system.helpviewer_keywords: ["SetupDiBuildClassInfoListEx","SetupDiBuildClassInfoListEx function [Device and Driver Installation]","SetupDiBuildClassInfoListExA","SetupDiBuildClassInfoListExW","devinst.setupdibuildclassinfolistex","di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml","setupapi/SetupDiBuildClassInfoListEx"]
+description: The SetupDiBuildClassInfoListEx function returns a list of setup class GUIDs that includes every class installed on the local system or a remote system.
+helpviewer_keywords: ["SetupDiBuildClassInfoListEx","SetupDiBuildClassInfoListEx function [Device and Driver Installation]","SetupDiBuildClassInfoListExA","SetupDiBuildClassInfoListExW","devinst.setupdibuildclassinfolistex","di-rtns_beaf3abb-65f5-4b7a-b0a1-5b8eab484eff.xml","setupapi/SetupDiBuildClassInfoListEx"]
 old-location: devinst\setupdibuildclassinfolistex.htm
 tech.root: devinst
 ms.assetid: 32c6c548-79f8-41be-ad9a-5456972a16eb
@@ -125,4 +126,9 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiBuildClassInfoListEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.RemoveProgram
 title: IBDA_ConditionalAccess::RemoveProgram (bdaiface.h)
-description: Currently not implemented.helpviewer_keywords: ["IBDA_ConditionalAccess interface [Microsoft TV Technologies]","RemoveProgram method","IBDA_ConditionalAccess.RemoveProgram","IBDA_ConditionalAccess::RemoveProgram","IBDA_ConditionalAccessRemoveProgram","RemoveProgram","RemoveProgram method [Microsoft TV Technologies]","RemoveProgram method [Microsoft TV Technologies]","IBDA_ConditionalAccess interface","bdaiface/IBDA_ConditionalAccess::RemoveProgram","mstv.ibda_conditionalaccess_removeprogram"]
+description: Currently not implemented.
+helpviewer_keywords: ["IBDA_ConditionalAccess interface [Microsoft TV Technologies]","RemoveProgram method","IBDA_ConditionalAccess.RemoveProgram","IBDA_ConditionalAccess::RemoveProgram","IBDA_ConditionalAccessRemoveProgram","RemoveProgram","RemoveProgram method [Microsoft TV Technologies]","RemoveProgram method [Microsoft TV Technologies]","IBDA_ConditionalAccess interface","bdaiface/IBDA_ConditionalAccess::RemoveProgram","mstv.ibda_conditionalaccess_removeprogram"]
 old-location: mstv\ibda_conditionalaccess_removeprogram.htm
 tech.root: mstv
 ms.assetid: bc0d14e8-f4bc-49fe-b63c-0521f5bb3dbb

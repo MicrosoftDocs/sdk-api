@@ -1,7 +1,8 @@
 ---
 UID: NF:sspi.SspiUnmarshalAuthIdentity
 title: SspiUnmarshalAuthIdentity function (sspi.h)
-description: Deserializes the specified array of byte values into an identity structure.helpviewer_keywords: ["SspiUnmarshalAuthIdentity","SspiUnmarshalAuthIdentity function [Security]","security.sspiunmarshalauthidentity","sspi/SspiUnmarshalAuthIdentity"]
+description: Deserializes the specified array of byte values into an identity structure.
+helpviewer_keywords: ["SspiUnmarshalAuthIdentity","SspiUnmarshalAuthIdentity function [Security]","security.sspiunmarshalauthidentity","sspi/SspiUnmarshalAuthIdentity"]
 old-location: security\sspiunmarshalauthidentity.htm
 tech.root: SecAuthN
 ms.assetid: 89798b37-808a-4174-8362-a2dc4ee1b460

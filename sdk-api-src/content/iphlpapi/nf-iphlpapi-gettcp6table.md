@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetTcp6Table
 title: GetTcp6Table function (iphlpapi.h)
-description: Retrieves the TCP connection table for IPv6.helpviewer_keywords: ["GetTcp6Table","GetTcp6Table function [IP Helper]","iphlp.gettcp6table","iphlpapi/GetTcp6Table"]
+description: Retrieves the TCP connection table for IPv6.
+helpviewer_keywords: ["GetTcp6Table","GetTcp6Table function [IP Helper]","iphlp.gettcp6table","iphlpapi/GetTcp6Table"]
 old-location: iphlp\gettcp6table.htm
 tech.root: IpHlp
 ms.assetid: 77150609-d06d-4492-bbd7-21eecd825bde

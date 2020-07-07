@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetTableInfo
 title: IMetaDataTables::GetTableInfo (rometadataapi.h)
-description: Gets the name, row size, number of rows, number of columns, and key column index of the specified table.helpviewer_keywords: ["GetTableInfo","GetTableInfo method [Windows Runtime]","GetTableInfo method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetTableInfo method","IMetaDataTables.GetTableInfo","IMetaDataTables::GetTableInfo","rometadataapi/IMetaDataTables::GetTableInfo","winrt.imetadatatables_gettableinfo"]
+description: Gets the name, row size, number of rows, number of columns, and key column index of the specified table.
+helpviewer_keywords: ["GetTableInfo","GetTableInfo method [Windows Runtime]","GetTableInfo method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetTableInfo method","IMetaDataTables.GetTableInfo","IMetaDataTables::GetTableInfo","rometadataapi/IMetaDataTables::GetTableInfo","winrt.imetadatatables_gettableinfo"]
 old-location: winrt\imetadatatables_gettableinfo.htm
 tech.root: WinRT
 ms.assetid: a2ba07df-4ccf-4563-b540-821008fc985c

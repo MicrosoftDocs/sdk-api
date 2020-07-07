@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi._CLUS_SHARED_VOLUME_BACKUP_MODE
 title: CLUS_SHARED_VOLUME_BACKUP_MODE (clusapi.h)
-description: Describes the backup mode for CSV.helpviewer_keywords: ["*PCLUS_SHARED_VOLUME_BACKUP_MODE","CLUS_SHARED_VOLUME_BACKUP_MODE","CLUS_SHARED_VOLUME_BACKUP_MODE structure [Failover Cluster]","PCLUS_SHARED_VOLUME_BACKUP_MODE","PCLUS_SHARED_VOLUME_BACKUP_MODE structure pointer [Failover Cluster]","VolumeBackupInProgress","VolumeBackupNone","clusapi/CLUS_SHARED_VOLUME_BACKUP_MODE","clusapi/PCLUS_SHARED_VOLUME_BACKUP_MODE","mscs.clus_shared_volume_backup_mode"]
+description: Describes the backup mode for CSV.
+helpviewer_keywords: ["*PCLUS_SHARED_VOLUME_BACKUP_MODE","CLUS_SHARED_VOLUME_BACKUP_MODE","CLUS_SHARED_VOLUME_BACKUP_MODE structure [Failover Cluster]","PCLUS_SHARED_VOLUME_BACKUP_MODE","PCLUS_SHARED_VOLUME_BACKUP_MODE structure pointer [Failover Cluster]","VolumeBackupInProgress","VolumeBackupNone","clusapi/CLUS_SHARED_VOLUME_BACKUP_MODE","clusapi/PCLUS_SHARED_VOLUME_BACKUP_MODE","mscs.clus_shared_volume_backup_mode"]
 old-location: mscs\clus_shared_volume_backup_mode.htm
 tech.root: MsCS
 ms.assetid: e5ae8cc7-bff8-4293-920e-3a704d1bd7e5

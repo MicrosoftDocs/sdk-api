@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GetSecurityInfo
 title: IGPMGPO::GetSecurityInfo (gpmgmt.h)
-description: Retrieves the set of permissions for the GPO, such as who is granted permission to edit it.helpviewer_keywords: ["GPMGPO class [GPMC]","GetSecurityInfo method","GetSecurityInfo","GetSecurityInfo method [GPMC]","GetSecurityInfo method [GPMC]","GPMGPO class","GetSecurityInfo method [GPMC]","IGPMGPO interface","IGPMGPO interface [GPMC]","GetSecurityInfo method","IGPMGPO.GetSecurityInfo","IGPMGPO::GetSecurityInfo","_win32_igpmgpo_getsecurityinfo","gpmc.igpmgpo_getsecurityinfo","gpmgmt/IGPMGPO::GetSecurityInfo"]
+description: Retrieves the set of permissions for the GPO, such as who is granted permission to edit it.
+helpviewer_keywords: ["GPMGPO class [GPMC]","GetSecurityInfo method","GetSecurityInfo","GetSecurityInfo method [GPMC]","GetSecurityInfo method [GPMC]","GPMGPO class","GetSecurityInfo method [GPMC]","IGPMGPO interface","IGPMGPO interface [GPMC]","GetSecurityInfo method","IGPMGPO.GetSecurityInfo","IGPMGPO::GetSecurityInfo","_win32_igpmgpo_getsecurityinfo","gpmc.igpmgpo_getsecurityinfo","gpmgmt/IGPMGPO::GetSecurityInfo"]
 old-location: gpmc\igpmgpo_getsecurityinfo.htm
 tech.root: gpmc
 ms.assetid: 104e96e6-60c5-4cc1-9728-7c0ea9715a58

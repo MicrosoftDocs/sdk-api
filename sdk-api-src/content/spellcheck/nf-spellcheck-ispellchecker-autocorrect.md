@@ -1,7 +1,8 @@
 ---
 UID: NF:spellcheck.ISpellChecker.AutoCorrect
 title: ISpellChecker::AutoCorrect (spellcheck.h)
-description: Causes occurrences of one word to be replaced by another.helpviewer_keywords: ["AutoCorrect","AutoCorrect method [Internationalization for Windows Applications]","AutoCorrect method [Internationalization for Windows Applications]","ISpellChecker interface","ISpellChecker interface [Internationalization for Windows Applications]","AutoCorrect method","ISpellChecker.AutoCorrect","ISpellChecker::AutoCorrect","intl.ispellchecker_autocorrect","spellcheck/ISpellChecker::AutoCorrect"]
+description: Causes occurrences of one word to be replaced by another.
+helpviewer_keywords: ["AutoCorrect","AutoCorrect method [Internationalization for Windows Applications]","AutoCorrect method [Internationalization for Windows Applications]","ISpellChecker interface","ISpellChecker interface [Internationalization for Windows Applications]","AutoCorrect method","ISpellChecker.AutoCorrect","ISpellChecker::AutoCorrect","intl.ispellchecker_autocorrect","spellcheck/ISpellChecker::AutoCorrect"]
 old-location: intl\ispellchecker_autocorrect.htm
 tech.root: Intl
 ms.assetid: 7c0d24dc-cec2-4304-bfbc-096fa4d0e8d0

@@ -1,7 +1,8 @@
 ---
 UID: NN:wsmandisp.IWSMan
 title: IWSMan (wsmandisp.h)
-description: Provides methods and properties used to create a session, represented by a Session object.helpviewer_keywords: ["IWSMan","IWSMan interface [Windows Remote Management]","IWSMan interface [Windows Remote Management]","described","winrm.iwsman","wsmandisp/IWSMan"]
+description: Provides methods and properties used to create a session, represented by a Session object.
+helpviewer_keywords: ["IWSMan","IWSMan interface [Windows Remote Management]","IWSMan interface [Windows Remote Management]","described","winrm.iwsman","wsmandisp/IWSMan"]
 old-location: winrm\iwsman.htm
 tech.root: winrm
 ms.assetid: 4e5acfa6-9883-4716-ac69-92161c926c66

@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ITypeLib.IsName
 title: ITypeLib::IsName (oaidl.h)
-description: Indicates whether a passed-in string contains the name of a type or member described in the library.helpviewer_keywords: ["ITypeLib interface [Automation]","IsName method","ITypeLib.IsName","ITypeLib::IsName","IsName","IsName method [Automation]","IsName method [Automation]","ITypeLib interface","_oa96_ITypeLib_IsName","automat.itypelib_isname","oaidl/ITypeLib::IsName"]
+description: Indicates whether a passed-in string contains the name of a type or member described in the library.
+helpviewer_keywords: ["ITypeLib interface [Automation]","IsName method","ITypeLib.IsName","ITypeLib::IsName","IsName","IsName method [Automation]","IsName method [Automation]","ITypeLib interface","_oa96_ITypeLib_IsName","automat.itypelib_isname","oaidl/ITypeLib::IsName"]
 old-location: automat\itypelib_isname.htm
 tech.root: automat
 ms.assetid: c9cd5cc8-f65f-43de-9dd4-c617b56ecadf

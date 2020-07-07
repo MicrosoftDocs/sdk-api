@@ -1,7 +1,8 @@
 ---
 UID: NF:dsadmin.IDsAdminCreateObj.CreateModal
 title: IDsAdminCreateObj::CreateModal (dsadmin.h)
-description: The IDsAdminCreateObj::CreateModal method displays the object creation wizard and returns the newly created object. The IDsAdminCreateObj::Initialize method must be called before IDsAdminCreateObj::CreateModal can be called.helpviewer_keywords: ["CreateModal","CreateModal method [Active Directory]","CreateModal method [Active Directory]","IDsAdminCreateObj interface","IDsAdminCreateObj interface [Active Directory]","CreateModal method","IDsAdminCreateObj.CreateModal","IDsAdminCreateObj::CreateModal","_glines_idsadmincreateobj_createmodal","ad.idsadmincreateobj__createmodal","ad.idsadmincreateobj_createmodal","dsadmin/IDsAdminCreateObj::CreateModal"]
+description: The IDsAdminCreateObj::CreateModal method displays the object creation wizard and returns the newly created object. The IDsAdminCreateObj::Initialize method must be called before IDsAdminCreateObj::CreateModal can be called.
+helpviewer_keywords: ["CreateModal","CreateModal method [Active Directory]","CreateModal method [Active Directory]","IDsAdminCreateObj interface","IDsAdminCreateObj interface [Active Directory]","CreateModal method","IDsAdminCreateObj.CreateModal","IDsAdminCreateObj::CreateModal","_glines_idsadmincreateobj_createmodal","ad.idsadmincreateobj__createmodal","ad.idsadmincreateobj_createmodal","dsadmin/IDsAdminCreateObj::CreateModal"]
 old-location: ad\idsadmincreateobj_createmodal.htm
 tech.root: ad
 ms.assetid: 8c157dd8-b569-4171-bd23-b9bce80dbc21

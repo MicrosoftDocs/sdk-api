@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.SetDestinationAddresses
 title: INetworkCostManager::SetDestinationAddresses (netlistmgr.h)
-description: SetDestinationAddresses method registers specified destination IPv4/IPv6 addresses to receive cost or data plan status change notifications.helpviewer_keywords: ["INetworkCostManager interface [Network Awareness]","SetDestinationAddresses method","INetworkCostManager.SetDestinationAddresses","INetworkCostManager::SetDestinationAddresses","SetDestinationAddresses","SetDestinationAddresses method [Network Awareness]","SetDestinationAddresses method [Network Awareness]","INetworkCostManager interface","netlistmgr/INetworkCostManager::SetDestinationAddresses","nla.inetworkcostmanager_setdestinationaddresses"]
+description: SetDestinationAddresses method registers specified destination IPv4/IPv6 addresses to receive cost or data plan status change notifications.
+helpviewer_keywords: ["INetworkCostManager interface [Network Awareness]","SetDestinationAddresses method","INetworkCostManager.SetDestinationAddresses","INetworkCostManager::SetDestinationAddresses","SetDestinationAddresses","SetDestinationAddresses method [Network Awareness]","SetDestinationAddresses method [Network Awareness]","INetworkCostManager interface","netlistmgr/INetworkCostManager::SetDestinationAddresses","nla.inetworkcostmanager_setdestinationaddresses"]
 old-location: nla\inetworkcostmanager_setdestinationaddresses.htm
 tech.root: nla
 ms.assetid: D4CA45C5-0AF1-443A-9134-BB82268ABFD5

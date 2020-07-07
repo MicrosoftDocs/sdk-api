@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecapi._KERB_TICKET_PROFILE
 title: KERB_TICKET_PROFILE (ntsecapi.h)
-description: The KERB_TICKET_PROFILE structure contains information about an interactive logon profile. This structure is returned by LsaLogonUser.helpviewer_keywords: ["*PKERB_TICKET_PROFILE","KERB_TICKET_PROFILE","KERB_TICKET_PROFILE structure [Security]","PKERB_TICKET_PROFILE","PKERB_TICKET_PROFILE structure pointer [Security]","_lsa_kerb_ticket_profile","ntsecapi/KERB_TICKET_PROFILE","ntsecapi/PKERB_TICKET_PROFILE","security.kerb_ticket_profile"]
+description: The KERB_TICKET_PROFILE structure contains information about an interactive logon profile. This structure is returned by LsaLogonUser.
+helpviewer_keywords: ["*PKERB_TICKET_PROFILE","KERB_TICKET_PROFILE","KERB_TICKET_PROFILE structure [Security]","PKERB_TICKET_PROFILE","PKERB_TICKET_PROFILE structure pointer [Security]","_lsa_kerb_ticket_profile","ntsecapi/KERB_TICKET_PROFILE","ntsecapi/PKERB_TICKET_PROFILE","security.kerb_ticket_profile"]
 old-location: security\kerb_ticket_profile.htm
 tech.root: SecAuthN
 ms.assetid: 9db0f9ac-b469-4e62-a735-ca3c56086009

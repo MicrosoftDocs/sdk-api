@@ -1,7 +1,8 @@
 ---
 UID: NF:lmjoin.NetRenameMachineInDomain
 title: NetRenameMachineInDomain function (lmjoin.h)
-description: The NetRenameMachineInDomain function changes the name of a computer in a domain.helpviewer_keywords: ["NetRenameMachineInDomain","NetRenameMachineInDomain function [Network Management]","_win32_netrenamemachineindomain","lmjoin/NetRenameMachineInDomain","netmgmt.netrenamemachineindomain"]
+description: The NetRenameMachineInDomain function changes the name of a computer in a domain.
+helpviewer_keywords: ["NetRenameMachineInDomain","NetRenameMachineInDomain function [Network Management]","_win32_netrenamemachineindomain","lmjoin/NetRenameMachineInDomain","netmgmt.netrenamemachineindomain"]
 old-location: netmgmt\netrenamemachineindomain.htm
 tech.root: NetMgmt
 ms.assetid: 1f7ddaa1-a349-49a6-856d-a2fde2f1dc3b

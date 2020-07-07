@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagHIGHCONTRASTA
 title: HIGHCONTRASTA (winuser.h)
-description: Contains information about the high contrast accessibility feature.helpviewer_keywords: ["*LPHIGHCONTRASTA","HCF_AVAILABLE","HCF_CONFIRMHOTKEY","HCF_HIGHCONTRASTON","HCF_HOTKEYACTIVE","HCF_HOTKEYAVAILABLE","HCF_HOTKEYSOUND","HCF_INDICATOR","HIGHCONTRAST","HIGHCONTRAST structure [Windows Accessibility]","HIGHCONTRASTA","LPHIGHCONTRAST","LPHIGHCONTRAST structure pointer [Windows Accessibility]","_win32_HIGHCONTRAST_str","msaa.highcontrast","tagACCESSTIMEOUTA","tagACCESSTIMEOUTW","winauto.highcontrast","winuser/HIGHCONTRAST","winuser/LPHIGHCONTRAST"]
+description: Contains information about the high contrast accessibility feature.
+helpviewer_keywords: ["*LPHIGHCONTRASTA","HCF_AVAILABLE","HCF_CONFIRMHOTKEY","HCF_HIGHCONTRASTON","HCF_HOTKEYACTIVE","HCF_HOTKEYAVAILABLE","HCF_HOTKEYSOUND","HCF_INDICATOR","HIGHCONTRAST","HIGHCONTRAST structure [Windows Accessibility]","HIGHCONTRASTA","LPHIGHCONTRAST","LPHIGHCONTRAST structure pointer [Windows Accessibility]","_win32_HIGHCONTRAST_str","msaa.highcontrast","tagACCESSTIMEOUTA","tagACCESSTIMEOUTW","winauto.highcontrast","winuser/HIGHCONTRAST","winuser/LPHIGHCONTRAST"]
 old-location: winauto\highcontrast.htm
 tech.root: WinAuto
 ms.assetid: 0d8ac624-919a-427a-8374-e256eedc6777
@@ -139,6 +140,21 @@ The hot key associated with the high contrast feature can be enabled. An applica
 </td>
 </tr>
 <tr>
+<td width="40%"><a id="HCF_OPTION_NOTHEMECHANGE"></a><a id="hcf_option_nothemechange"></a><dl>
+<dt><b>HCF_OPTION_NOTHEMECHANGE</b></dt>
+<dt>0x00001000</dt>
+</dl>
+</td>
+<td width="60%">
+<p>Passing HIGHCONTRASTSTRUCTURE in calls to SystemParametersInfoA can cause theme change effects even if the theme isn't being changed. For example, the WM_THEMECHANGED message is sent to Windows even if the only change is to HCF_HOTKEYSOUND.</p>
+<p>To prevent this, include the HCF_OPTION_NOTHEMECHANGE flag in the call to SystemParametersInfo.</p>
+</td>
+> [!NOTE]
+> The HCF_OPTION_NOTHEMECHANGE flag should not be used when toggling the high contrast mode (HCF_HIGHCONTRASTON).
+
+</td>
+</tr>
+<tr>
 <td width="40%"><a id="HCF_OPTION_NOFLAGNAME"></a><a id="hcf_option_noflagname"></a><dl>
 <dt><b>No flag name supported</b></dt>
 <dt>0x00001000</dt>
@@ -151,6 +167,7 @@ The hot key associated with the high contrast feature can be enabled. An applica
 > [!NOTE]
 > This flag should not be used when toggling the high contrast mode (HCF_HIGHCONTRASTON).
 </td>
+</tr>
 </table>
 
 ### -field lpszDefaultScheme
@@ -162,6 +179,10 @@ Points to a string that contains the name of the color scheme that will be set t
 ## -remarks
 
 An application uses this structure when calling the[SystemParametersInfoA function](nf-winuser-systemparametersinfoa.md) with the <b>SPI_GETHIGHCONTRAST</b> or <b>SPI_SETHIGHCONTRAST</b> value. When using <b>SPI_GETHIGHCONTRAST</b>, an application must specify the <b>cbSize</b> member of the <b>HIGHCONTRAST</b> structure; the <b>SystemParametersInfo</b> function fills the remaining members. An application must specify all structure members when using the <b>SPI_SETHIGHCONTRAST</b> value.
+
+
+> [!NOTE]
+> The winuser.h header defines HIGHCONTRAST as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

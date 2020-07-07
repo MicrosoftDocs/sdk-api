@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetDIBitsToDevice
 title: SetDIBitsToDevice function (wingdi.h)
-description: The SetDIBitsToDevice function sets the pixels in the specified rectangle on the device that is associated with the destination device context using color data from a DIB, JPEG, or PNG image.helpviewer_keywords: ["DIB_PAL_COLORS","DIB_RGB_COLORS","SetDIBitsToDevice","SetDIBitsToDevice function [Windows GDI]","_win32_SetDIBitsToDevice","gdi.setdibitstodevice","wingdi/SetDIBitsToDevice"]
+description: The SetDIBitsToDevice function sets the pixels in the specified rectangle on the device that is associated with the destination device context using color data from a DIB, JPEG, or PNG image.
+helpviewer_keywords: ["DIB_PAL_COLORS","DIB_RGB_COLORS","SetDIBitsToDevice","SetDIBitsToDevice function [Windows GDI]","_win32_SetDIBitsToDevice","gdi.setdibitstodevice","wingdi/SetDIBitsToDevice"]
 old-location: gdi\setdibitstodevice.htm
 tech.root: gdi
 ms.assetid: 41225400-12e3-47ba-8b88-ac1d5b0fa90f

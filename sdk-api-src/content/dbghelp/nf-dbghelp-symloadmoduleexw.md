@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymLoadModuleExW
 title: SymLoadModuleExW function (dbghelp.h)
-description: Loads the symbol table for the specified module.helpviewer_keywords: ["SLMFLAG_NO_SYMBOLS","SLMFLAG_VIRTUAL","SymLoadModuleEx","SymLoadModuleEx function","SymLoadModuleExW","_win32_symloadmoduleex","base.symloadmoduleex","dbghelp/SymLoadModuleEx","dbghelp/SymLoadModuleExW"]
+description: Loads the symbol table for the specified module.
+helpviewer_keywords: ["SLMFLAG_NO_SYMBOLS","SLMFLAG_VIRTUAL","SymLoadModuleEx","SymLoadModuleEx function","SymLoadModuleExW","_win32_symloadmoduleex","base.symloadmoduleex","dbghelp/SymLoadModuleEx","dbghelp/SymLoadModuleExW"]
 old-location: base\symloadmoduleex.htm
 tech.root: Debug
 ms.assetid: 4a880090-f063-4d03-8fd5-a57ccba262c8
@@ -172,6 +173,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymLoadModuleEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

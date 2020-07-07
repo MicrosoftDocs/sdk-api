@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_19
 title: GenTspec (lpmapi.h)
-description: The GenTspec structure stores generic Tspec information.helpviewer_keywords: ["GenTspec","GenTspec structure [QOS]","lpmapi/GenTspec","qos.gentspec"]
+description: The GenTspec structure stores generic Tspec information.
+helpviewer_keywords: ["GenTspec","GenTspec structure [QOS]","lpmapi/GenTspec","qos.gentspec"]
 old-location: qos\gentspec.htm
 tech.root: QOS
 ms.assetid: cefd94ed-ed54-471d-97fc-d523cedd71d6

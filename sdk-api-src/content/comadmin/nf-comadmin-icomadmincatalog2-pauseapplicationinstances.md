@@ -1,7 +1,8 @@
 ---
 UID: NF:comadmin.ICOMAdminCatalog2.PauseApplicationInstances
 title: ICOMAdminCatalog2::PauseApplicationInstances (comadmin.h)
-description: Pauses the specified application server processes.helpviewer_keywords: ["ICOMAdminCatalog2 interface [COM+]","PauseApplicationInstances method","ICOMAdminCatalog2.PauseApplicationInstances","ICOMAdminCatalog2::PauseApplicationInstances","PauseApplicationInstances","PauseApplicationInstances method [COM+]","PauseApplicationInstances method [COM+]","ICOMAdminCatalog2 interface","_cos_icomadmincatalog2_PauseApplicationInstances","comadmin/ICOMAdminCatalog2::PauseApplicationInstances","cos.icomadmincatalog2_pauseapplicationinstances"]
+description: Pauses the specified application server processes.
+helpviewer_keywords: ["ICOMAdminCatalog2 interface [COM+]","PauseApplicationInstances method","ICOMAdminCatalog2.PauseApplicationInstances","ICOMAdminCatalog2::PauseApplicationInstances","PauseApplicationInstances","PauseApplicationInstances method [COM+]","PauseApplicationInstances method [COM+]","ICOMAdminCatalog2 interface","_cos_icomadmincatalog2_PauseApplicationInstances","comadmin/ICOMAdminCatalog2::PauseApplicationInstances","cos.icomadmincatalog2_pauseapplicationinstances"]
 old-location: cos\icomadmincatalog2_pauseapplicationinstances.htm
 tech.root: cossdk
 ms.assetid: 59771a5d-894b-46de-9874-ece4aca7232f

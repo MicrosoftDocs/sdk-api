@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ListBox_DeleteString
 title: ListBox_DeleteString macro (windowsx.h)
-description: Deletes the item at the specified location in a list box. You can use this macro or send the LB_DELETESTRING message explicitly.helpviewer_keywords: ["ListBox_DeleteString","ListBox_DeleteString macro [Windows Controls]","_win32_ListBox_DeleteString","_win32_ListBox_DeleteString_cpp","controls.ListBox_DeleteString","controls._win32_ListBox_DeleteString","windowsx/ListBox_DeleteString"]
+description: Deletes the item at the specified location in a list box. You can use this macro or send the LB_DELETESTRING message explicitly.
+helpviewer_keywords: ["ListBox_DeleteString","ListBox_DeleteString macro [Windows Controls]","_win32_ListBox_DeleteString","_win32_ListBox_DeleteString_cpp","controls.ListBox_DeleteString","controls._win32_ListBox_DeleteString","windowsx/ListBox_DeleteString"]
 old-location: controls\ListBox_DeleteString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_deletestring.htm

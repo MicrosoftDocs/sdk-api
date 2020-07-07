@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagDESIGNVECTOR
 title: DESIGNVECTOR (wingdi.h)
-description: The DESIGNVECTOR structure is used by an application to specify values for the axes of a multiple master font.helpviewer_keywords: ["*LPDESIGNVECTOR","*PDESIGNVECTOR","DESIGNVECTOR","DESIGNVECTOR structure [Windows GDI]","PDESIGNVECTOR","PDESIGNVECTOR structure pointer [Windows GDI]","_win32_DESIGNVECTOR_str","gdi.designvector","wingdi/DESIGNVECTOR","wingdi/PDESIGNVECTOR"]
+description: The DESIGNVECTOR structure is used by an application to specify values for the axes of a multiple master font.
+helpviewer_keywords: ["*LPDESIGNVECTOR","*PDESIGNVECTOR","DESIGNVECTOR","DESIGNVECTOR structure [Windows GDI]","PDESIGNVECTOR","PDESIGNVECTOR structure pointer [Windows GDI]","_win32_DESIGNVECTOR_str","gdi.designvector","wingdi/DESIGNVECTOR","wingdi/PDESIGNVECTOR"]
 old-location: gdi\designvector.htm
 tech.root: gdi
 ms.assetid: aeff9901-2405-44aa-ba46-8d784afd6b76

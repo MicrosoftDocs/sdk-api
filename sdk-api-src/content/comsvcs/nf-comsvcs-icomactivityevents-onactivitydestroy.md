@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComActivityEvents.OnActivityDestroy
 title: IComActivityEvents::OnActivityDestroy (comsvcs.h)
-description: Generated when an activity is finished.helpviewer_keywords: ["IComActivityEvents interface [COM+]","OnActivityDestroy method","IComActivityEvents.OnActivityDestroy","IComActivityEvents::OnActivityDestroy","OnActivityDestroy","OnActivityDestroy method [COM+]","OnActivityDestroy method [COM+]","IComActivityEvents interface","_dtc_IComActivityEvents_OnActivityDestroy","comsvcs/IComActivityEvents::OnActivityDestroy","cos.icomactivityevents_onactivitydestroy"]
+description: Generated when an activity is finished.
+helpviewer_keywords: ["IComActivityEvents interface [COM+]","OnActivityDestroy method","IComActivityEvents.OnActivityDestroy","IComActivityEvents::OnActivityDestroy","OnActivityDestroy","OnActivityDestroy method [COM+]","OnActivityDestroy method [COM+]","IComActivityEvents interface","_dtc_IComActivityEvents_OnActivityDestroy","comsvcs/IComActivityEvents::OnActivityDestroy","cos.icomactivityevents_onactivitydestroy"]
 old-location: cos\icomactivityevents_onactivitydestroy.htm
 tech.root: cossdk
 ms.assetid: af69bcf7-a925-42e2-a7a8-4ebf745955b9
@@ -59,7 +60,7 @@ Generated when an activity is finished.
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidActivity [in]

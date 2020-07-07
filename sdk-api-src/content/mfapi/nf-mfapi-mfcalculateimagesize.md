@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCalculateImageSize
 title: MFCalculateImageSize function (mfapi.h)
-description: Retrieves the image size, in bytes, for an uncompressed video format.helpviewer_keywords: ["039ee3cd-2221-4405-ba7f-233a93a0271b","MFCalculateImageSize","MFCalculateImageSize function [Media Foundation]","mf.mfcalculateimagesize","mfapi/MFCalculateImageSize"]
+description: Retrieves the image size, in bytes, for an uncompressed video format.
+helpviewer_keywords: ["039ee3cd-2221-4405-ba7f-233a93a0271b","MFCalculateImageSize","MFCalculateImageSize function [Media Foundation]","mf.mfcalculateimagesize","mfapi/MFCalculateImageSize"]
 old-location: mf\mfcalculateimagesize.htm
 tech.root: medfound
 ms.assetid: 039ee3cd-2221-4405-ba7f-233a93a0271b

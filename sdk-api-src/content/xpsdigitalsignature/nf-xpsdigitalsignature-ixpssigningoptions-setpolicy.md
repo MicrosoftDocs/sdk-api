@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.SetPolicy
 title: IXpsSigningOptions::SetPolicy (xpsdigitalsignature.h)
-description: Sets the XPS_SIGN_POLICY value that represents the signing policy.helpviewer_keywords: ["IXpsSigningOptions interface [XPS Documents and Packaging]","SetPolicy method","IXpsSigningOptions.SetPolicy","IXpsSigningOptions::SetPolicy","SetPolicy","SetPolicy method [XPS Documents and Packaging]","SetPolicy method [XPS Documents and Packaging]","IXpsSigningOptions interface","xps.ixpssigningoptions_setpolicy","xpsdigitalsignature/IXpsSigningOptions::SetPolicy"]
+description: Sets the XPS_SIGN_POLICY value that represents the signing policy.
+helpviewer_keywords: ["IXpsSigningOptions interface [XPS Documents and Packaging]","SetPolicy method","IXpsSigningOptions.SetPolicy","IXpsSigningOptions::SetPolicy","SetPolicy","SetPolicy method [XPS Documents and Packaging]","SetPolicy method [XPS Documents and Packaging]","IXpsSigningOptions interface","xps.ixpssigningoptions_setpolicy","xpsdigitalsignature/IXpsSigningOptions::SetPolicy"]
 old-location: xps\ixpssigningoptions_setpolicy.htm
 tech.root: printdocs
 ms.assetid: 6e1738b3-f1ce-407e-bbaa-7f4c57e30028
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy.
+Sets the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Sets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignatu
 
 ### -param policy [in]
 
-The logical <b>OR</b> of  the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> values to be set as the signing policy.
+The logical <b>OR</b> of  the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> values to be set as the signing policy.
 
 
 ## -returns
@@ -75,7 +76,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-If an <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value is set and it does not have a  corresponding part in the package being signed, only the  relationship type will be signed.
+If an <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value is set and it does not have a  corresponding part in the package being signed, only the  relationship type will be signed.
 
 
 
@@ -97,7 +98,7 @@ If an <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
+<a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
  
 
  

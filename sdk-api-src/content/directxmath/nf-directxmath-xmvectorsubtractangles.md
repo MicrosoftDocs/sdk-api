@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorSubtractAngles
 title: XMVectorSubtractAngles function (directxmath.h)
-description: Subtracts two vectors representing angles.helpviewer_keywords: ["Use DirectX..XMVectorSubtractAngles","XMVectorSubtractAngles","XMVectorSubtractAngles method [DirectX Math Support APIs]","dxmath.xmvectorsubtractangles"]
+description: Subtracts two vectors representing angles.
+helpviewer_keywords: ["Use DirectX..XMVectorSubtractAngles","XMVectorSubtractAngles","XMVectorSubtractAngles method [DirectX Math Support APIs]","dxmath.xmvectorsubtractangles"]
 old-location: dxmath\xmvectorsubtractangles.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorSubtractAngles(XMVECTOR,XMVECTOR)

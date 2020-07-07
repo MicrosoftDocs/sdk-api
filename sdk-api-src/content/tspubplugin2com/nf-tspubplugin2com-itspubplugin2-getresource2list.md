@@ -1,7 +1,8 @@
 ---
 UID: NF:tspubplugin2com.ItsPubPlugin2.GetResource2List
 title: ItsPubPlugin2::GetResource2List (tspubplugin2com.h)
-description: Retrieves a list of resources assigned to the specified user.helpviewer_keywords: ["GetResource2List","GetResource2List method [Remote Desktop Services]","GetResource2List method [Remote Desktop Services]","ItsPubPlugin2 interface","ItsPubPlugin2 interface [Remote Desktop Services]","GetResource2List method","ItsPubPlugin2.GetResource2List","ItsPubPlugin2::GetResource2List","termserv.itspubplugin2_getresource2list","tspubplugin2com/ItsPubPlugin2::GetResource2List"]
+description: Retrieves a list of resources assigned to the specified user.
+helpviewer_keywords: ["GetResource2List","GetResource2List method [Remote Desktop Services]","GetResource2List method [Remote Desktop Services]","ItsPubPlugin2 interface","ItsPubPlugin2 interface [Remote Desktop Services]","GetResource2List method","ItsPubPlugin2.GetResource2List","ItsPubPlugin2::GetResource2List","termserv.itspubplugin2_getresource2list","tspubplugin2com/ItsPubPlugin2::GetResource2List"]
 old-location: termserv\itspubplugin2_getresource2list.htm
 tech.root: TermServ
 ms.assetid: 58b30088-be32-4aa0-88a4-459df52db7af
@@ -73,7 +74,7 @@ The address of a <b>LONG</b> variable that receives the number of elements in th
 
 ### -param resourceList [out]
 
-The address of an array of <a href="https://docs.microsoft.com/windows/win32/api/tspubplugin2com/ns-tspubplugin2com-pluginresource2">pluginResource2</a> structures that contains the resources for the specified user. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function to allocate this memory. The caller is responsible for freeing this memory.
+The address of an array of <a href="/windows/win32/api/tspubplugin2com/ns-tspubplugin2com-pluginresource2">pluginResource2</a> structures that contains the resources for the specified user. You must use the <a href="https://docs.microsoft.com/windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc">CoTaskMemAlloc</a> function to allocate this memory. The caller is responsible for freeing this memory.
 
 
 ## -returns

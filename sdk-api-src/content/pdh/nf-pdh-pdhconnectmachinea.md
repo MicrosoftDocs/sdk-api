@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhConnectMachineA
 title: PdhConnectMachineA function (pdh.h)
-description: Connects to the specified computer.helpviewer_keywords: ["PdhConnectMachine","PdhConnectMachine function [Perf]","PdhConnectMachineA","PdhConnectMachineW","_win32_pdhconnectmachine","base.pdhconnectmachine","pdh/PdhConnectMachine","pdh/PdhConnectMachineA","pdh/PdhConnectMachineW","perf.pdhconnectmachine"]
+description: Connects to the specified computer.
+helpviewer_keywords: ["PdhConnectMachine","PdhConnectMachine function [Perf]","PdhConnectMachineA","PdhConnectMachineW","_win32_pdhconnectmachine","base.pdhconnectmachine","pdh/PdhConnectMachine","pdh/PdhConnectMachineA","pdh/PdhConnectMachineW","perf.pdhconnectmachine"]
 old-location: perf\pdhconnectmachine.htm
 tech.root: perfctrs
 ms.assetid: 8f8b4651-b550-4b34-bb2f-d2497c56b572
@@ -117,10 +118,14 @@ Unable to allocate a dynamic memory block. Occurs when there is a serious memory
 
 Typically, applications do not call this function and instead the connection is made when the application adds the counter to the query.
 
-However, you can use this function if you want to include more than the local computer in the <b>Select counters from computer</b> list on the <b>Browse Counters</b> dialog box. For details, see the <a href="https://docs.microsoft.com/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure.
+However, you can use this function if you want to include more than the local computer in the <b>Select counters from computer</b> list on the <b>Browse Counters</b> dialog box. For details, see the <a href="/windows/win32/api/pdh/ns-pdh-pdh_browse_dlg_config_a">PDH_BROWSE_DLG_CONFIG</a> structure.
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhConnectMachine as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleCache.EnumCache
 title: IOleCache::EnumCache (oleidl.h)
-description: Creates an enumerator that can be used to enumerate the current cache connections.helpviewer_keywords: ["EnumCache","EnumCache method [COM]","EnumCache method [COM]","IOleCache interface","IOleCache interface [COM]","EnumCache method","IOleCache.EnumCache","IOleCache::EnumCache","_ole_iolecache_enumcache","com.iolecache_enumcache","oleidl/IOleCache::EnumCache"]
+description: Creates an enumerator that can be used to enumerate the current cache connections.
+helpviewer_keywords: ["EnumCache","EnumCache method [COM]","EnumCache method [COM]","IOleCache interface","IOleCache interface [COM]","EnumCache method","IOleCache.EnumCache","IOleCache::EnumCache","_ole_iolecache_enumcache","com.iolecache_enumcache","oleidl/IOleCache::EnumCache"]
 old-location: com\iolecache_enumcache.htm
 tech.root: com
 ms.assetid: a8d99926-8fb9-4624-8025-483101cb9311

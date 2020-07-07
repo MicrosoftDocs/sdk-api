@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMStoreHalf2
 title: XMStoreHalf2 function (directxpackedvector.h)
-description: Stores an XMVECTOR in an XMHALF2.helpviewer_keywords: ["DirectX::PackedVector.XMStoreHalf2","XMStoreHalf2","XMStoreHalf2 method [DirectX Math Support APIs]","dxmath.xmstorehalf2"]
+description: Stores an XMVECTOR in an XMHALF2.
+helpviewer_keywords: ["DirectX::PackedVector.XMStoreHalf2","XMStoreHalf2","XMStoreHalf2 method [DirectX Math Support APIs]","dxmath.xmstorehalf2"]
 old-location: dxmath\xmstorehalf2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreHalf2(XMHALF2@,XMVECTOR)

@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusstringformat.StringFormat.StringFormat(const StringFormat &)
+UID: NF:gdiplusstringformat.StringFormat.StringFormat(constStringFormat&)
 title: StringFormat::StringFormat(const StringFormat &) (gdiplusstringformat.h)
-description: Creates a StringFormat object from another StringFormat object.helpviewer_keywords: ["StringFormat","StringFormat class [GDI+]","StringFormat constructor","StringFormat constructor [GDI+]","StringFormat constructor [GDI+]","StringFormat class","StringFormat.StringFormat","StringFormat.StringFormat(const StringFormat &)","StringFormat.StringFormat(const StringFormat*)","StringFormat::StringFormat","StringFormat::StringFormat(const StringFormat &)","_gdiplus_CLASS_StringFormat_StringFormat_format_","gdiplus._gdiplus_CLASS_StringFormat_StringFormat_format_"]
+description: Creates a StringFormat object from another StringFormat object.
+helpviewer_keywords: ["StringFormat","StringFormat class [GDI+]","StringFormat constructor","StringFormat constructor [GDI+]","StringFormat constructor [GDI+]","StringFormat class","StringFormat.StringFormat","StringFormat.StringFormat(const StringFormat &)","StringFormat.StringFormat(const StringFormat*)","StringFormat::StringFormat","StringFormat::StringFormat(const StringFormat &)","_gdiplus_CLASS_StringFormat_StringFormat_format_","gdiplus._gdiplus_CLASS_StringFormat_StringFormat_format_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_StringFormat_format_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors\stringformat_50format.htm

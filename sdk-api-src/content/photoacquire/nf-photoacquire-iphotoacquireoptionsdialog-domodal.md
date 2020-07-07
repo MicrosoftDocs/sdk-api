@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireOptionsDialog.DoModal
 title: IPhotoAcquireOptionsDialog::DoModal (photoacquire.h)
-description: The DoModal method creates and displays the options dialog box as a modal dialog box.helpviewer_keywords: ["DoModal","DoModal method [Picture Acquisition]","DoModal method [Picture Acquisition]","IPhotoAcquireOptionsDialog interface","IPhotoAcquireOptionsDialog interface [Picture Acquisition]","DoModal method","IPhotoAcquireOptionsDialog.DoModal","IPhotoAcquireOptionsDialog::DoModal","IPhotoAcquireOptionsDialogDoModal","photoacquire/IPhotoAcquireOptionsDialog::DoModal","picacq.iphotoacquireoptionsdialog_domodal"]
+description: The DoModal method creates and displays the options dialog box as a modal dialog box.
+helpviewer_keywords: ["DoModal","DoModal method [Picture Acquisition]","DoModal method [Picture Acquisition]","IPhotoAcquireOptionsDialog interface","IPhotoAcquireOptionsDialog interface [Picture Acquisition]","DoModal method","IPhotoAcquireOptionsDialog.DoModal","IPhotoAcquireOptionsDialog::DoModal","IPhotoAcquireOptionsDialogDoModal","photoacquire/IPhotoAcquireOptionsDialog::DoModal","picacq.iphotoacquireoptionsdialog_domodal"]
 old-location: picacq\iphotoacquireoptionsdialog_domodal.htm
 tech.root: acquisition
 ms.assetid: fbceebc3-10dd-4028-9672-1976a459cafe

@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IVMRWindowlessControl
 title: IVMRWindowlessControl (strmif.h)
-description: The IVMRWindowlessControl interface controls how the Video Mixing Renderer Filter 7 (VMR-7) renders a video stream within a container window.helpviewer_keywords: ["IVMRWindowlessControl","IVMRWindowlessControl interface [DirectShow]","IVMRWindowlessControl interface [DirectShow]","described","IVMRWindowlessControlInterface","dshow.ivmrwindowlesscontrol","strmif/IVMRWindowlessControl"]
+description: The IVMRWindowlessControl interface controls how the Video Mixing Renderer Filter 7 (VMR-7) renders a video stream within a container window.
+helpviewer_keywords: ["IVMRWindowlessControl","IVMRWindowlessControl interface [DirectShow]","IVMRWindowlessControl interface [DirectShow]","described","IVMRWindowlessControlInterface","dshow.ivmrwindowlesscontrol","strmif/IVMRWindowlessControl"]
 old-location: dshow\ivmrwindowlesscontrol.htm
 tech.root: DirectShow
 ms.assetid: c21c5611-f376-4899-9914-c14a18af3810
@@ -53,9 +54,7 @@ ms.custom: 19H1
 
 The <code>IVMRWindowlessControl</code> interface controls how the <a href="https://docs.microsoft.com/windows/desktop/DirectShow/video-mixing-renderer-filter-7">Video Mixing Renderer Filter 7</a> (VMR-7) renders a video stream within a container window. Applications must first put the VMR-7 into windowless mode before using this interface.
 
-For the VMR-9, use the <a href="https://docs.microsoft.com/windows/desktop/api/vmr9/nn-vmr9-ivmrwindowlesscontrol9">IVMRWindowlessControl9</a> interface.
-
-
+For the VMR-9, use the IVMRWindowlessControl9 interface.
 
 
 ## -inheritance

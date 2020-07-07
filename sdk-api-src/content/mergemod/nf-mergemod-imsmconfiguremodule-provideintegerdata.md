@@ -1,7 +1,8 @@
 ---
 UID: NF:mergemod.IMsmConfigureModule.ProvideIntegerData
 title: IMsmConfigureModule::ProvideIntegerData (mergemod.h)
-description: The ProvideIntegerData method retrieves integer data from the client tool. For more information, see the ProvideIntegerData method of the ConfigureModule object.helpviewer_keywords: ["IMsmConfigureModule interface","ProvideIntegerData method","IMsmConfigureModule.ProvideIntegerData","IMsmConfigureModule::ProvideIntegerData","ProvideIntegerData","ProvideIntegerData method","ProvideIntegerData method","IMsmConfigureModule interface","_msi_provideintegerdata_function","mergemod/IMsmConfigureModule::ProvideIntegerData","setup.imsmconfiguremodule_provideintegerdata"]
+description: The ProvideIntegerData method retrieves integer data from the client tool. For more information, see the ProvideIntegerData method of the ConfigureModule object.
+helpviewer_keywords: ["IMsmConfigureModule interface","ProvideIntegerData method","IMsmConfigureModule.ProvideIntegerData","IMsmConfigureModule::ProvideIntegerData","ProvideIntegerData","ProvideIntegerData method","ProvideIntegerData method","IMsmConfigureModule interface","_msi_provideintegerdata_function","mergemod/IMsmConfigureModule::ProvideIntegerData","setup.imsmconfiguremodule_provideintegerdata"]
 old-location: setup\imsmconfiguremodule_provideintegerdata.htm
 tech.root: Msi
 ms.assetid: 2d03ce35-2ded-4f65-a73f-2546d67b0454

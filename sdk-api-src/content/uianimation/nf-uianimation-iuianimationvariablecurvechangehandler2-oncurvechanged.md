@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableCurveChangeHandler2.OnCurveChanged
 title: IUIAnimationVariableCurveChangeHandler2::OnCurveChanged (uianimation.h)
-description: Handles events that occur when the animation curve of an animation variable changes.helpviewer_keywords: ["IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation]","OnCurveChanged method","IUIAnimationVariableCurveChangeHandler2.OnCurveChanged","IUIAnimationVariableCurveChangeHandler2::OnCurveChanged","OnCurveChanged","OnCurveChanged method [Windows Animation]","OnCurveChanged method [Windows Animation]","IUIAnimationVariableCurveChangeHandler2 interface","uianimation.iuianimationvariablecurvechangehandler2_oncurvechanged","uianimation/IUIAnimationVariableCurveChangeHandler2::OnCurveChanged"]
+description: Handles events that occur when the animation curve of an animation variable changes.
+helpviewer_keywords: ["IUIAnimationVariableCurveChangeHandler2 interface [Windows Animation]","OnCurveChanged method","IUIAnimationVariableCurveChangeHandler2.OnCurveChanged","IUIAnimationVariableCurveChangeHandler2::OnCurveChanged","OnCurveChanged","OnCurveChanged method [Windows Animation]","OnCurveChanged method [Windows Animation]","IUIAnimationVariableCurveChangeHandler2 interface","uianimation.iuianimationvariablecurvechangehandler2_oncurvechanged","uianimation/IUIAnimationVariableCurveChangeHandler2::OnCurveChanged"]
 old-location: uianimation\iuianimationvariablecurvechangehandler2_oncurvechanged.htm
 tech.root: UIAnimation
 ms.assetid: CD0F59F7-9383-4602-8A97-356AEAB0FD82

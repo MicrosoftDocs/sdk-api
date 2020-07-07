@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_1.ID3D11VideoContext1.VideoProcessorSetOutputColorSpace1
 title: ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1 (d3d11_1.h)
-description: Sets the color space information for the video processor output surface.helpviewer_keywords: ["ID3D11VideoContext1 interface [Media Foundation]","VideoProcessorSetOutputColorSpace1 method","ID3D11VideoContext1.VideoProcessorSetOutputColorSpace1","ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1","VideoProcessorSetOutputColorSpace1","VideoProcessorSetOutputColorSpace1 method [Media Foundation]","VideoProcessorSetOutputColorSpace1 method [Media Foundation]","ID3D11VideoContext1 interface","d3d11_1/ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1","mf.id3d11videocontext1_videoprocessorsetoutputcolorspace1"]
+description: Sets the color space information for the video processor output surface.
+helpviewer_keywords: ["ID3D11VideoContext1 interface [Media Foundation]","VideoProcessorSetOutputColorSpace1 method","ID3D11VideoContext1.VideoProcessorSetOutputColorSpace1","ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1","VideoProcessorSetOutputColorSpace1","VideoProcessorSetOutputColorSpace1 method [Media Foundation]","VideoProcessorSetOutputColorSpace1 method [Media Foundation]","ID3D11VideoContext1 interface","d3d11_1/ID3D11VideoContext1::VideoProcessorSetOutputColorSpace1","mf.id3d11videocontext1_videoprocessorsetoutputcolorspace1"]
 old-location: mf\id3d11videocontext1_videoprocessorsetoutputcolorspace1.htm
 tech.root: medfound
 ms.assetid: 8DDD17AD-997F-406F-B337-E2256F67FC66

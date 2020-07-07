@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointLastBufferControl.IsLastBufferControlSupported
 title: IAudioEndpointLastBufferControl::IsLastBufferControlSupported (audioengineendpoint.h)
-description: Indicates if last buffer control is supported.helpviewer_keywords: ["IAudioEndpointLastBufferControl interface [Core Audio]","IsLastBufferControlSupported method","IAudioEndpointLastBufferControl.IsLastBufferControlSupported","IAudioEndpointLastBufferControl::IsLastBufferControlSupported","IsLastBufferControlSupported","IsLastBufferControlSupported method [Core Audio]","IsLastBufferControlSupported method [Core Audio]","IAudioEndpointLastBufferControl interface","audioengineendpoint/IAudioEndpointLastBufferControl::IsLastBufferControlSupported","coreaudio.iaudioendpointlastbuffercontrol_islastbuffercontrolsupported"]
+description: Indicates if last buffer control is supported.
+helpviewer_keywords: ["IAudioEndpointLastBufferControl interface [Core Audio]","IsLastBufferControlSupported method","IAudioEndpointLastBufferControl.IsLastBufferControlSupported","IAudioEndpointLastBufferControl::IsLastBufferControlSupported","IsLastBufferControlSupported","IsLastBufferControlSupported method [Core Audio]","IsLastBufferControlSupported method [Core Audio]","IAudioEndpointLastBufferControl interface","audioengineendpoint/IAudioEndpointLastBufferControl::IsLastBufferControlSupported","coreaudio.iaudioendpointlastbuffercontrol_islastbuffercontrolsupported"]
 old-location: coreaudio\iaudioendpointlastbuffercontrol_islastbuffercontrolsupported.htm
 tech.root: CoreAudio
 ms.assetid: 9ee7095a-957f-429d-b19d-df90246f8608

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertGetStoreProperty
 title: CertGetStoreProperty function (wincrypt.h)
-description: Retrieves a store property.helpviewer_keywords: ["CertGetStoreProperty","CertGetStoreProperty function [Security]","_crypto2_certgetstoreproperty","security.certgetstoreproperty","wincrypt/CertGetStoreProperty"]
+description: Retrieves a store property.
+helpviewer_keywords: ["CertGetStoreProperty","CertGetStoreProperty function [Security]","_crypto2_certgetstoreproperty","security.certgetstoreproperty","wincrypt/CertGetStoreProperty"]
 old-location: security\certgetstoreproperty.htm
 tech.root: SecCrypto
 ms.assetid: 0df4f18b-3b0f-498e-90a5-74d686af83e0

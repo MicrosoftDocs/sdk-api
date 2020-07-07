@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10shader.D3D10CompileShader
 title: D3D10CompileShader function (d3d10shader.h)
-description: Compile an HLSL shader.helpviewer_keywords: ["8461622f-7f35-e519-3be6-83d985b2cece","D3D10CompileShader","D3D10CompileShader function [Direct3D 10]","d3d10shader/D3D10CompileShader","direct3d10.d3d10compileshader"]
+description: Compile an HLSL shader.
+helpviewer_keywords: ["8461622f-7f35-e519-3be6-83d985b2cece","D3D10CompileShader","D3D10CompileShader function [Direct3D 10]","d3d10shader/D3D10CompileShader","direct3d10.d3d10compileshader"]
 old-location: direct3d10\d3d10compileshader.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10compileshader.htm

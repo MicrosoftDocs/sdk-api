@@ -1,7 +1,8 @@
 ---
 UID: NE:wtsapi32._WTS_CONFIG_SOURCE
 title: WTS_CONFIG_SOURCE (wtsapi32.h)
-description: Specifies the source of configuration information returned by the WTSQueryUserConfig function.helpviewer_keywords: ["WTSUserConfigSourceSAM","WTS_CONFIG_SOURCE","WTS_CONFIG_SOURCE enumeration [Remote Desktop Services]","termserv.wts_config_source","wtsapi32/WTSUserConfigSourceSAM","wtsapi32/WTS_CONFIG_SOURCE"]
+description: Specifies the source of configuration information returned by the WTSQueryUserConfig function.
+helpviewer_keywords: ["WTSUserConfigSourceSAM","WTS_CONFIG_SOURCE","WTS_CONFIG_SOURCE enumeration [Remote Desktop Services]","termserv.wts_config_source","wtsapi32/WTSUserConfigSourceSAM","wtsapi32/WTS_CONFIG_SOURCE"]
 old-location: termserv\wts_config_source.htm
 tech.root: TermServ
 ms.assetid: 2e1f45d9-dc89-4848-9ba5-e6d54b2a7737

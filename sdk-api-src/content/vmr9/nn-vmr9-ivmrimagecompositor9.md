@@ -1,7 +1,8 @@
 ---
 UID: NN:vmr9.IVMRImageCompositor9
 title: IVMRImageCompositor9 (vmr9.h)
-description: The IVMRImageCompositor9 interface is implemented by the default compositor for the Video Mixing Renderer Filter 9 (VMR-9).helpviewer_keywords: ["IVMRImageCompositor9","IVMRImageCompositor9 interface [DirectShow]","IVMRImageCompositor9 interface [DirectShow]","described","IVMRImageCompositor9Interface","dshow.ivmrimagecompositor9","vmr9/IVMRImageCompositor9"]
+description: The IVMRImageCompositor9 interface is implemented by the default compositor for the Video Mixing Renderer Filter 9 (VMR-9).
+helpviewer_keywords: ["IVMRImageCompositor9","IVMRImageCompositor9 interface [DirectShow]","IVMRImageCompositor9 interface [DirectShow]","described","IVMRImageCompositor9Interface","dshow.ivmrimagecompositor9","vmr9/IVMRImageCompositor9"]
 old-location: dshow\ivmrimagecompositor9.htm
 tech.root: DirectShow
 ms.assetid: 19fda7f2-000f-47d0-a7c7-d8421de418a2

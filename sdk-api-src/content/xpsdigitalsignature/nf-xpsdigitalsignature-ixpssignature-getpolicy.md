@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetPolicy
 title: IXpsSignature::GetPolicy (xpsdigitalsignature.h)
-description: Gets the XPS_SIGN_POLICY value that represents the signing policy used when the signature is created.helpviewer_keywords: ["GetPolicy","GetPolicy method [XPS Documents and Packaging]","GetPolicy method [XPS Documents and Packaging]","IXpsSignature interface","IXpsSignature interface [XPS Documents and Packaging]","GetPolicy method","IXpsSignature.GetPolicy","IXpsSignature::GetPolicy","xps.ixpssignature_getpolicy","xpsdigitalsignature/IXpsSignature::GetPolicy"]
+description: Gets the XPS_SIGN_POLICY value that represents the signing policy used when the signature is created.
+helpviewer_keywords: ["GetPolicy","GetPolicy method [XPS Documents and Packaging]","GetPolicy method [XPS Documents and Packaging]","IXpsSignature interface","IXpsSignature interface [XPS Documents and Packaging]","GetPolicy method","IXpsSignature.GetPolicy","IXpsSignature::GetPolicy","xps.ixpssignature_getpolicy","xpsdigitalsignature/IXpsSignature::GetPolicy"]
 old-location: xps\ixpssignature_getpolicy.htm
 tech.root: printdocs
 ms.assetid: 632e5e53-1677-4b55-9085-0def97531a5d
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
+Gets the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> value that represents the signing policy used when the signature is created.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Gets the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignatu
 
 ### -param policy [out, retval]
 
-The logical <b>OR</b> of the <a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> values that represent the signing policy.
+The logical <b>OR</b> of the <a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a> values that represent the signing policy.
 
 
 ## -returns
@@ -149,7 +150,7 @@ This method deduces the signature policy by examining the list of signed parts a
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
+<a href="/windows/win32/api/xpsdigitalsignature/ne-xpsdigitalsignature-xps_sign_policy">XPS_SIGN_POLICY</a>
  
 
  

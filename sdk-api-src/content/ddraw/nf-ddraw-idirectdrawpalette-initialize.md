@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawPalette.Initialize
 title: IDirectDrawPalette::Initialize (ddraw.h)
-description: Initializes the DirectDrawPalette object.helpviewer_keywords: ["IDirectDrawPalette interface [DirectDraw]","Initialize method","IDirectDrawPalette.Initialize","IDirectDrawPalette::Initialize","Initialize","Initialize method [DirectDraw]","Initialize method [DirectDraw]","IDirectDrawPalette interface","ddraw/IDirectDrawPalette::Initialize","directdraw.idirectdrawpalette_initialize"]
+description: Initializes the DirectDrawPalette object.
+helpviewer_keywords: ["IDirectDrawPalette interface [DirectDraw]","Initialize method","IDirectDrawPalette.Initialize","IDirectDrawPalette::Initialize","Initialize","Initialize method [DirectDraw]","Initialize method [DirectDraw]","IDirectDrawPalette interface","ddraw/IDirectDrawPalette::Initialize","directdraw.idirectdrawpalette_initialize"]
 old-location: directdraw\idirectdrawpalette_initialize.htm
 tech.root: directdraw
 ms.assetid: e0ad7ea1-759d-48e9-8d15-6601d9b15588

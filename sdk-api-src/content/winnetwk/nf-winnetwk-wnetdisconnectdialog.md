@@ -1,7 +1,8 @@
 ---
 UID: NF:winnetwk.WNetDisconnectDialog
 title: WNetDisconnectDialog function (winnetwk.h)
-description: The WNetDisconnectDialog function starts a general browsing dialog box for disconnecting from network resources. The function requires a handle to the owner window for the dialog box.helpviewer_keywords: ["RESOURCETYPE_DISK","WNetDisconnectDialog","WNetDisconnectDialog function [Windows Networking (WNet)]","_win32_wnetdisconnectdialog","winnetwk/WNetDisconnectDialog","wnet.wnetdisconnectdialog"]
+description: The WNetDisconnectDialog function starts a general browsing dialog box for disconnecting from network resources. The function requires a handle to the owner window for the dialog box.
+helpviewer_keywords: ["RESOURCETYPE_DISK","WNetDisconnectDialog","WNetDisconnectDialog function [Windows Networking (WNet)]","_win32_wnetdisconnectdialog","winnetwk/WNetDisconnectDialog","wnet.wnetdisconnectdialog"]
 old-location: wnet\wnetdisconnectdialog.htm
 tech.root: WNet
 ms.assetid: 76e0f38a-e057-4496-9c2f-7ea73d19bd76

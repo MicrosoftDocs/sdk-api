@@ -1,7 +1,8 @@
 ---
 UID: NS:wincred._CREDENTIAL_ATTRIBUTEA
 title: CREDENTIAL_ATTRIBUTEA (wincred.h)
-description: The CREDENTIAL_ATTRIBUTE structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute.helpviewer_keywords: ["*PCREDENTIAL_ATTRIBUTEA","CREDENTIAL_ATTRIBUTE","CREDENTIAL_ATTRIBUTE structure [Security]","CREDENTIAL_ATTRIBUTEA","PCREDENTIAL_ATTRIBUTE","PCREDENTIAL_ATTRIBUTE structure pointer [Security]","_cred_credential_attribute","security.credential_attribute","wincred/CREDENTIAL_ATTRIBUTE","wincred/PCREDENTIAL_ATTRIBUTE"]
+description: The CREDENTIAL_ATTRIBUTE structure contains an application-defined attribute of the credential. An attribute is a keyword-value pair. It is up to the application to define the meaning of the attribute.
+helpviewer_keywords: ["*PCREDENTIAL_ATTRIBUTEA","CREDENTIAL_ATTRIBUTE","CREDENTIAL_ATTRIBUTE structure [Security]","CREDENTIAL_ATTRIBUTEA","PCREDENTIAL_ATTRIBUTE","PCREDENTIAL_ATTRIBUTE structure pointer [Security]","_cred_credential_attribute","security.credential_attribute","wincred/CREDENTIAL_ATTRIBUTE","wincred/PCREDENTIAL_ATTRIBUTE"]
 old-location: security\credential_attribute.htm
 tech.root: SecAuthN
 ms.assetid: eb46766c-5f05-4e4a-9550-173347f156d9
@@ -85,4 +86,9 @@ Data associated with the attribute. By convention, if <b>Value</b> is a text str
 
 
 Credentials are expected to be portable. The application should take care to ensure that the data in value is portable. It is the responsibility of the application to define the byte-endian and alignment of the data in <b>Value</b>.
+
+## -remarks
+
+> [!NOTE]
+> The wincred.h header defines CREDENTIAL_ATTRIBUTE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

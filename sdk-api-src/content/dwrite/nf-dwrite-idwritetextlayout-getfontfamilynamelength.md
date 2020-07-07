@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.GetFontFamilyNameLength
 title: IDWriteTextLayout::GetFontFamilyNameLength (dwrite.h)
-description: Get the length of the font family name at the current position.helpviewer_keywords: ["GetFontFamilyNameLength","GetFontFamilyNameLength method [Direct Write]","GetFontFamilyNameLength method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetFontFamilyNameLength method","IDWriteTextLayout.GetFontFamilyNameLength","IDWriteTextLayout::GetFontFamilyNameLength","directwrite.IDWriteTextLayout_GetFontFamilyNameLength","dwrite/IDWriteTextLayout::GetFontFamilyNameLength"]
+description: Get the length of the font family name at the current position.
+helpviewer_keywords: ["GetFontFamilyNameLength","GetFontFamilyNameLength method [Direct Write]","GetFontFamilyNameLength method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","GetFontFamilyNameLength method","IDWriteTextLayout.GetFontFamilyNameLength","IDWriteTextLayout::GetFontFamilyNameLength","directwrite.IDWriteTextLayout_GetFontFamilyNameLength","dwrite/IDWriteTextLayout::GetFontFamilyNameLength"]
 old-location: directwrite\IDWriteTextLayout_GetFontFamilyNameLength.htm
 tech.root: DirectWrite
 ms.assetid: e3b3d111-04a7-409b-98dd-b0fc3947f24b

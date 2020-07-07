@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._DEVICE_DATA_SET_RANGE
 title: DEVICE_DATA_SET_RANGE
-description: Provides data set range information for use with the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.helpviewer_keywords: ["*PDEVICE_DATA_SET_RANGE","*PDEVICE_DSM_RANGE","DEVICE_DATA_SET_RANGE","DEVICE_DATA_SET_RANGE structure","DEVICE_DSM_RANGE","PDEVICE_DATA_SET_RANGE","PDEVICE_DATA_SET_RANGE structure pointer","base.device_data_set_range","winioctl/DEVICE_DATA_SET_RANGE","winioctl/PDEVICE_DATA_SET_RANGE"]
+description: Provides data set range information for use with the IOCTL_STORAGE_MANAGE_DATA_SET_ATTRIBUTES control code.
+helpviewer_keywords: ["*PDEVICE_DATA_SET_RANGE","*PDEVICE_DSM_RANGE","DEVICE_DATA_SET_RANGE","DEVICE_DATA_SET_RANGE structure","DEVICE_DSM_RANGE","PDEVICE_DATA_SET_RANGE","PDEVICE_DATA_SET_RANGE structure pointer","base.device_data_set_range","winioctl/DEVICE_DATA_SET_RANGE","winioctl/PDEVICE_DATA_SET_RANGE"]
 old-location: base\device_data_set_range.htm
 tech.root: devio
 ms.assetid: 5eea412e-ea16-4f47-ac69-46b543069eae
@@ -74,7 +75,7 @@ Length of the data set range, in bytes. Must be a multiple of disk logical secto
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
+<a href="/windows/win32/api/winioctl/ns-winioctl-device_manage_data_set_attributes">DEVICE_MANAGE_DATA_SET_ATTRIBUTES</a>
 
 
 

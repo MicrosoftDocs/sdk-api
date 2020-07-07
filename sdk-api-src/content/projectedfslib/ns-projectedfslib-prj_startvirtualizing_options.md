@@ -1,7 +1,8 @@
 ---
 UID: NS:projectedfslib.PRJ_STARTVIRTUALIZING_OPTIONS
 title: PRJ_STARTVIRTUALIZING_OPTIONS (projectedfslib.h)
-description: Options to provide when starting a virtualization instance.helpviewer_keywords: ["PRJ_STARTVIRTUALIZING_OPTIONS","PRJ_STARTVIRTUALIZING_OPTIONS structure","ProjFS.prj_startvirtualizing_options","projectedfslib/PRJ_STARTVIRTUALIZING_OPTIONS"]
+description: Options to provide when starting a virtualization instance.
+helpviewer_keywords: ["PRJ_STARTVIRTUALIZING_OPTIONS","PRJ_STARTVIRTUALIZING_OPTIONS structure","ProjFS.prj_startvirtualizing_options","projectedfslib/PRJ_STARTVIRTUALIZING_OPTIONS"]
 old-location: projfs\prj_startvirtualizing_options.htm
 tech.root: ProjFS
 ms.assetid: 5FF20B04-29A6-4310-ACD6-35E189B87C9E

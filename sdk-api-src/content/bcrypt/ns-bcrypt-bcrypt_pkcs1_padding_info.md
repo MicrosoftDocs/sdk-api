@@ -1,7 +1,8 @@
 ---
 UID: NS:bcrypt._BCRYPT_PKCS1_PADDING_INFO
 title: BCRYPT_PKCS1_PADDING_INFO (bcrypt.h)
-description: Used to provide options for the PKCShelpviewer_keywords: ["BCRYPT_PKCS1_PADDING_INFO","BCRYPT_PKCS1_PADDING_INFO structure [Security]","bcrypt/BCRYPT_PKCS1_PADDING_INFO","security.bcrypt_pkcs1_padding_info"]
+description: Used to provide options for the PKCS
+helpviewer_keywords: ["BCRYPT_PKCS1_PADDING_INFO","BCRYPT_PKCS1_PADDING_INFO structure [Security]","bcrypt/BCRYPT_PKCS1_PADDING_INFO","security.bcrypt_pkcs1_padding_info"]
 old-location: security\bcrypt_pkcs1_padding_info.htm
 tech.root: SecCNG
 ms.assetid: 920fa461-5b7e-4429-972d-e7c83fb62c64

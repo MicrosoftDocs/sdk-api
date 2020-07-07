@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1DrawTransform
 title: ID2D1DrawTransform (d2d1effectauthor.h)
-description: A specialized implementation of the Shantzis calculations to a transform implemented on the GPU.helpviewer_keywords: ["ID2D1DrawTransform","ID2D1DrawTransform interface [Direct2D]","ID2D1DrawTransform interface [Direct2D]","described","d2d1effectauthor/ID2D1DrawTransform","direct2d.id2d1drawtransform"]
+description: A specialized implementation of the Shantzis calculations to a transform implemented on the GPU.
+helpviewer_keywords: ["ID2D1DrawTransform","ID2D1DrawTransform interface [Direct2D]","ID2D1DrawTransform interface [Direct2D]","described","d2d1effectauthor/ID2D1DrawTransform","direct2d.id2d1drawtransform"]
 old-location: direct2d\id2d1drawtransform.htm
 tech.root: Direct2D
 ms.assetid: 90C49A9A-9297-44E6-9AB8-01C6847CA3F8

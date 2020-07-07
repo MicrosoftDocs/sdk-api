@@ -1,7 +1,8 @@
 ---
 UID: NE:searchapi.__MIDL___MIDL_itf_searchapi_0000_0023_0001
 title: ROWSETEVENT_ITEMSTATE (searchapi.h)
-description: Describes whether an item that matches the search criteria of a rowset is currently in that rowset.helpviewer_keywords: ["ROWSETEVENT_ITEMSTATE","ROWSETEVENT_ITEMSTATE enumeration [search]","ROWSETEVENT_ITEMSTATE_INROWSET","ROWSETEVENT_ITEMSTATE_NOTINROWSET","ROWSETEVENT_ITEMSTATE_UNKNOWN","_search_ROWSETEVENT_ITEMSTATE","search._search_ROWSETEVENT_ITEMSTATE","searchapi/ROWSETEVENT_ITEMSTATE","searchapi/ROWSETEVENT_ITEMSTATE_INROWSET","searchapi/ROWSETEVENT_ITEMSTATE_NOTINROWSET","searchapi/ROWSETEVENT_ITEMSTATE_UNKNOWN"]
+description: Describes whether an item that matches the search criteria of a rowset is currently in that rowset.
+helpviewer_keywords: ["ROWSETEVENT_ITEMSTATE","ROWSETEVENT_ITEMSTATE enumeration [search]","ROWSETEVENT_ITEMSTATE_INROWSET","ROWSETEVENT_ITEMSTATE_NOTINROWSET","ROWSETEVENT_ITEMSTATE_UNKNOWN","_search_ROWSETEVENT_ITEMSTATE","search._search_ROWSETEVENT_ITEMSTATE","searchapi/ROWSETEVENT_ITEMSTATE","searchapi/ROWSETEVENT_ITEMSTATE_INROWSET","searchapi/ROWSETEVENT_ITEMSTATE_NOTINROWSET","searchapi/ROWSETEVENT_ITEMSTATE_UNKNOWN"]
 old-location: search\_search_ROWSETEVENT_ITEMSTATE.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\rowsetevent_itemstate.htm
@@ -81,7 +82,7 @@ The item may be in the rowset.
 
 This enumeration is used by <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetevents">IRowsetEvents</a> to describe the state of rows in a rowset held by a client.
 
-The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to prioritize indexing events.
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
 
 
 
@@ -107,15 +108,15 @@ The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

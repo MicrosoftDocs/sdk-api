@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarUI2FromDec
 title: VarUI2FromDec function (oleauto.h)
-description: Converts a decimal value to an unsigned short value.helpviewer_keywords: ["VarUI2FromDec","VarUI2FromDec function [Automation]","_oa96_VarUI2FromDec","automat.varui2fromdec","oleauto/VarUI2FromDec"]
+description: Converts a decimal value to an unsigned short value.
+helpviewer_keywords: ["VarUI2FromDec","VarUI2FromDec function [Automation]","_oa96_VarUI2FromDec","automat.varui2fromdec","oleauto/VarUI2FromDec"]
 old-location: automat\varui2fromdec.htm
 tech.root: automat
 ms.assetid: 39c288e8-b82a-4591-92b3-093f41b8e2cb

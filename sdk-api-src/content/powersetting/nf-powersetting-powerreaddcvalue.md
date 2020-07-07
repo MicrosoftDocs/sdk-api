@@ -1,7 +1,8 @@
 ---
 UID: NF:powersetting.PowerReadDCValue
 title: PowerReadDCValue function (powersetting.h)
-description: Retrieves the DC power value for the specified power setting.helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadDCValue","PowerReadDCValue function","base.powerreaddcvalue","powersetting/PowerReadDCValue","powrprof/PowerReadDCValue"]
+description: Retrieves the DC power value for the specified power setting.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerReadDCValue","PowerReadDCValue function","base.powerreaddcvalue","powersetting/PowerReadDCValue","powrprof/PowerReadDCValue"]
 old-location: base\powerreaddcvalue.htm
 tech.root: power
 ms.assetid: c439c478-e882-41bf-a95a-82d36382174b

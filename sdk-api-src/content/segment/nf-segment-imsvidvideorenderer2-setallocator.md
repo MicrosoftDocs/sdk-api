@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.SetAllocator
 title: IMSVidVideoRenderer2::SetAllocator (segment.h)
-description: The SetAllocator method specifies an allocator-presenter for the VMR. Applications can use this method to provide their own custom allocator-presenter objects.helpviewer_keywords: ["IMSVidVideoRenderer2 interface [Microsoft TV Technologies]","SetAllocator method","IMSVidVideoRenderer2.SetAllocator","IMSVidVideoRenderer2::SetAllocator","SetAllocator","SetAllocator method [Microsoft TV Technologies]","SetAllocator method [Microsoft TV Technologies]","IMSVidVideoRenderer2 interface","mstv.imsvidvideorenderer2_setallocator","segment/IMSVidVideoRenderer2::SetAllocator"]
+description: The SetAllocator method specifies an allocator-presenter for the VMR. Applications can use this method to provide their own custom allocator-presenter objects.
+helpviewer_keywords: ["IMSVidVideoRenderer2 interface [Microsoft TV Technologies]","SetAllocator method","IMSVidVideoRenderer2.SetAllocator","IMSVidVideoRenderer2::SetAllocator","SetAllocator","SetAllocator method [Microsoft TV Technologies]","SetAllocator method [Microsoft TV Technologies]","IMSVidVideoRenderer2 interface","mstv.imsvidvideorenderer2_setallocator","segment/IMSVidVideoRenderer2::SetAllocator"]
 old-location: mstv\imsvidvideorenderer2_setallocator.htm
 tech.root: mstv
 ms.assetid: c73edfea-bafd-4640-9be6-45e5a2bb81ef

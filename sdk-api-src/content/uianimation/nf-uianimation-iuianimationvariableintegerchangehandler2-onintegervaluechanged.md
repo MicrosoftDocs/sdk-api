@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged
 title: IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged (uianimation.h)
-description: Handles events that occur when the integer value of an animation variable changes in the specified dimension.helpviewer_keywords: ["IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation]","OnIntegerValueChanged method","IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged","IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged","OnIntegerValueChanged","OnIntegerValueChanged method [Windows Animation]","OnIntegerValueChanged method [Windows Animation]","IUIAnimationVariableIntegerChangeHandler2 interface","uianimation.iuianimationvariableintegerchangehandler2_onintegervaluechanged","uianimation/IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged"]
+description: Handles events that occur when the integer value of an animation variable changes in the specified dimension.
+helpviewer_keywords: ["IUIAnimationVariableIntegerChangeHandler2 interface [Windows Animation]","OnIntegerValueChanged method","IUIAnimationVariableIntegerChangeHandler2.OnIntegerValueChanged","IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged","OnIntegerValueChanged","OnIntegerValueChanged method [Windows Animation]","OnIntegerValueChanged method [Windows Animation]","IUIAnimationVariableIntegerChangeHandler2 interface","uianimation.iuianimationvariableintegerchangehandler2_onintegervaluechanged","uianimation/IUIAnimationVariableIntegerChangeHandler2::OnIntegerValueChanged"]
 old-location: uianimation\iuianimationvariableintegerchangehandler2_onintegervaluechanged.htm
 tech.root: UIAnimation
 ms.assetid: 76889784-BF1B-475B-8D84-201BEE6F0594
@@ -165,7 +166,7 @@ By default, a call made in a callback method to any other animation method resul
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_rounding_mode">UI_ANIMATION_ROUNDING_MODE</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_rounding_mode">UI_ANIMATION_ROUNDING_MODE</a>
  
 
  

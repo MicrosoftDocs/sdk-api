@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecapi._KERB_INTERACTIVE_LOGON
 title: KERB_INTERACTIVE_LOGON (ntsecapi.h)
-description: Contains information about an interactive logon session.helpviewer_keywords: ["*PKERB_INTERACTIVE_LOGON","KERB_INTERACTIVE_LOGON","KERB_INTERACTIVE_LOGON structure [Security]","PKERB_INTERACTIVE_LOGON","PKERB_INTERACTIVE_LOGON structure pointer [Security]","_lsa_kerb_interactive_logon","ntsecapi/KERB_INTERACTIVE_LOGON","ntsecapi/PKERB_INTERACTIVE_LOGON","security.kerb_interactive_logon"]
+description: Contains information about an interactive logon session.
+helpviewer_keywords: ["*PKERB_INTERACTIVE_LOGON","KERB_INTERACTIVE_LOGON","KERB_INTERACTIVE_LOGON structure [Security]","PKERB_INTERACTIVE_LOGON","PKERB_INTERACTIVE_LOGON structure pointer [Security]","_lsa_kerb_interactive_logon","ntsecapi/KERB_INTERACTIVE_LOGON","ntsecapi/PKERB_INTERACTIVE_LOGON","security.kerb_interactive_logon"]
 old-location: security\kerb_interactive_logon.htm
 tech.root: SecAuthN
 ms.assetid: 96aec0cc-b3e1-4b4b-aa0e-ecf05b9fabbe

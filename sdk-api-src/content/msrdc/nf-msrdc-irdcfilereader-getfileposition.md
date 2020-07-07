@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IRdcFileReader.GetFilePosition
 title: IRdcFileReader::GetFilePosition (msrdc.h)
-description: Returns the current file position.helpviewer_keywords: ["GetFilePosition","GetFilePosition method [Remote Differential Compression]","GetFilePosition method [Remote Differential Compression]","IRdcFileReader interface","IRdcFileReader interface [Remote Differential Compression]","GetFilePosition method","IRdcFileReader.GetFilePosition","IRdcFileReader::GetFilePosition","fs.irdcfilereader_getfileposition","msrdc/IRdcFileReader::GetFilePosition","rdc.irdcfilereader_getfileposition"]
+description: Returns the current file position.
+helpviewer_keywords: ["GetFilePosition","GetFilePosition method [Remote Differential Compression]","GetFilePosition method [Remote Differential Compression]","IRdcFileReader interface","IRdcFileReader interface [Remote Differential Compression]","GetFilePosition method","IRdcFileReader.GetFilePosition","IRdcFileReader::GetFilePosition","fs.irdcfilereader_getfileposition","msrdc/IRdcFileReader::GetFilePosition","rdc.irdcfilereader_getfileposition"]
 old-location: rdc\irdcfilereader_getfileposition.htm
 tech.root: rdc
 ms.assetid: 3cef6883-29d2-4970-9a96-3500b58449d2

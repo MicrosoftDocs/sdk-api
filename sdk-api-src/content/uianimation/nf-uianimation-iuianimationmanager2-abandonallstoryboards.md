@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationManager2.AbandonAllStoryboards
 title: IUIAnimationManager2::AbandonAllStoryboards (uianimation.h)
-description: Abandons all active storyboards.helpviewer_keywords: ["AbandonAllStoryboards","AbandonAllStoryboards method [Windows Animation]","AbandonAllStoryboards method [Windows Animation]","IUIAnimationManager2 interface","IUIAnimationManager2 interface [Windows Animation]","AbandonAllStoryboards method","IUIAnimationManager2.AbandonAllStoryboards","IUIAnimationManager2::AbandonAllStoryboards","uianimation.iuianimationmanager2_abandonallstoryboards","uianimation/IUIAnimationManager2::AbandonAllStoryboards"]
+description: Abandons all active storyboards.
+helpviewer_keywords: ["AbandonAllStoryboards","AbandonAllStoryboards method [Windows Animation]","AbandonAllStoryboards method [Windows Animation]","IUIAnimationManager2 interface","IUIAnimationManager2 interface [Windows Animation]","AbandonAllStoryboards method","IUIAnimationManager2.AbandonAllStoryboards","IUIAnimationManager2::AbandonAllStoryboards","uianimation.iuianimationmanager2_abandonallstoryboards","uianimation/IUIAnimationManager2::AbandonAllStoryboards"]
 old-location: uianimation\iuianimationmanager2_abandonallstoryboards.htm
 tech.root: UIAnimation
 ms.assetid: E8DC71C0-CA68-4FD8-81CE-68450BF4EBA7
@@ -76,8 +77,8 @@ Calling this method is equivalent to calling the <a href="https://docs.microsoft
          
          
 
-A storyboard is considered active if a call to the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-getstatus">IUIAnimationStoryboard::GetStatus</a> method returns <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_PLAYING</a> 
-         or <a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_SCHEDULED</a>.
+A storyboard is considered active if a call to the <a href="https://docs.microsoft.com/windows/desktop/api/uianimation/nf-uianimation-iuianimationstoryboard-getstatus">IUIAnimationStoryboard::GetStatus</a> method returns <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_PLAYING</a> 
+         or <a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_SCHEDULED</a>.
 
 
 
@@ -99,7 +100,7 @@ A storyboard is considered active if a call to the <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
+<a href="/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status">UI_ANIMATION_STORYBOARD_STATUS</a>
  
 
  

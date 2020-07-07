@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.SetBaseCap
 title: CustomLineCap::SetBaseCap (gdiplusheaders.h)
-description: The CustomLineCap::SetBaseCap method sets the LineCap that appears as part of this CustomLineCap at the end of a line.helpviewer_keywords: ["CustomLineCap class [GDI+]","SetBaseCap method","CustomLineCap.SetBaseCap","CustomLineCap::SetBaseCap","SetBaseCap","SetBaseCap method [GDI+]","SetBaseCap method [GDI+]","CustomLineCap class","_gdiplus_CLASS_CustomLineCap_SetBaseCap_baseCap_","gdiplus._gdiplus_CLASS_CustomLineCap_SetBaseCap_baseCap_"]
+description: The CustomLineCap::SetBaseCap method sets the LineCap that appears as part of this CustomLineCap at the end of a line.
+helpviewer_keywords: ["CustomLineCap class [GDI+]","SetBaseCap method","CustomLineCap.SetBaseCap","CustomLineCap::SetBaseCap","SetBaseCap","SetBaseCap method [GDI+]","SetBaseCap method [GDI+]","CustomLineCap class","_gdiplus_CLASS_CustomLineCap_SetBaseCap_baseCap_","gdiplus._gdiplus_CLASS_CustomLineCap_SetBaseCap_baseCap_"]
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_SetBaseCap_baseCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\setbasecap.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineDialA
 title: lineDialA function (tapi.h)
-description: The lineDial function dials the specified dialable number on the specified call.helpviewer_keywords: ["_tapi2_linedial","lineDial","lineDial function [TAPI 2.2]","lineDialA","lineDialW","tapi/lineDial","tapi/lineDialA","tapi/lineDialW","tapi2.linedial"]
+description: The lineDial function dials the specified dialable number on the specified call.
+helpviewer_keywords: ["_tapi2_linedial","lineDial","lineDial function [TAPI 2.2]","lineDialA","lineDialW","tapi/lineDial","tapi/lineDialA","tapi/lineDialW","tapi2.linedial"]
 old-location: tapi2\linedial.htm
 tech.root: Tapi
 ms.assetid: 111e6c11-67a7-4aab-81dd-f1b4316887e7
@@ -119,6 +120,10 @@ If a null destination string, or an empty string terminated with a semicolon (";
 
 
 
+
+> [!NOTE]
+> The tapi.h header defines lineDial as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -132,7 +137,7 @@ If a null destination string, or an empty string terminated with a semicolon (";
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/tapi/address-ovr">Dialable Addresses</a>
+<a href="/windows/win32/tapi/address-ovr">Dialable Addresses</a>
 
 
 

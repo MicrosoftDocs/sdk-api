@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IATSCLocator.put_PhysicalChannel
 title: IATSCLocator::put_PhysicalChannel (tuner.h)
-description: The put_PhysicalChannel method sets the physical channel.helpviewer_keywords: ["IATSCLocator interface [Microsoft TV Technologies]","put_PhysicalChannel method","IATSCLocator.put_PhysicalChannel","IATSCLocator::put_PhysicalChannel","IATSCLocatorput_PhysicalChannel","mstv.iatsclocator_put_physicalchannel","put_PhysicalChannel","put_PhysicalChannel method [Microsoft TV Technologies]","put_PhysicalChannel method [Microsoft TV Technologies]","IATSCLocator interface","tuner/IATSCLocator::put_PhysicalChannel"]
+description: The put_PhysicalChannel method sets the physical channel.
+helpviewer_keywords: ["IATSCLocator interface [Microsoft TV Technologies]","put_PhysicalChannel method","IATSCLocator.put_PhysicalChannel","IATSCLocator::put_PhysicalChannel","IATSCLocatorput_PhysicalChannel","mstv.iatsclocator_put_physicalchannel","put_PhysicalChannel","put_PhysicalChannel method [Microsoft TV Technologies]","put_PhysicalChannel method [Microsoft TV Technologies]","IATSCLocator interface","tuner/IATSCLocator::put_PhysicalChannel"]
 old-location: mstv\iatsclocator_put_physicalchannel.htm
 tech.root: mstv
 ms.assetid: 0699e4ef-7ebb-4515-9894-1592f07607ed

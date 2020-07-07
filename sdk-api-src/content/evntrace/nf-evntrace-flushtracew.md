@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.FlushTraceW
 title: FlushTraceW function (evntrace.h)
-description: The FlushTrace function causes an event tracing session to immediately deliver buffered events for the specified session.helpviewer_keywords: ["FlushTrace","FlushTrace function [ETW]","FlushTraceA","FlushTraceW","_evt_flushtrace","base.flushtrace","etw.flushtrace","evntrace/FlushTrace","evntrace/FlushTraceA","evntrace/FlushTraceW"]
+description: The FlushTrace function causes an event tracing session to immediately deliver buffered events for the specified session.
+helpviewer_keywords: ["FlushTrace","FlushTrace function [ETW]","FlushTraceA","FlushTraceW","_evt_flushtrace","base.flushtrace","etw.flushtrace","evntrace/FlushTrace","evntrace/FlushTraceA","evntrace/FlushTraceW"]
 old-location: etw\flushtrace.htm
 tech.root: ETW
 ms.assetid: bc7d0dac-93d9-4614-9cb6-fee99765eb39
@@ -169,6 +170,10 @@ Note that it is not safe to flush buffers from DllMain.
 
 
 
+
+
+> [!NOTE]
+> The evntrace.h header defines FlushTrace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

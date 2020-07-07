@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.GetDashPatternCount
 title: Pen::GetDashPatternCount (gdipluspen.h)
-description: The Pen::GetDashPatternCount method gets the number of elements in a dash pattern array.helpviewer_keywords: ["GetDashPatternCount","GetDashPatternCount method [GDI+]","GetDashPatternCount method [GDI+]","Pen class","Pen class [GDI+]","GetDashPatternCount method","Pen.GetDashPatternCount","Pen::GetDashPatternCount","_gdiplus_CLASS_Pen_GetDashPatternCount_","gdiplus._gdiplus_CLASS_Pen_GetDashPatternCount_"]
+description: The Pen::GetDashPatternCount method gets the number of elements in a dash pattern array.
+helpviewer_keywords: ["GetDashPatternCount","GetDashPatternCount method [GDI+]","GetDashPatternCount method [GDI+]","Pen class","Pen class [GDI+]","GetDashPatternCount method","Pen.GetDashPatternCount","Pen::GetDashPatternCount","_gdiplus_CLASS_Pen_GetDashPatternCount_","gdiplus._gdiplus_CLASS_Pen_GetDashPatternCount_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetDashPatternCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getdashpatterncount.htm

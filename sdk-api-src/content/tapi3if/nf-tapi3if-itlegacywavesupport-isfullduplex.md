@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITLegacyWaveSupport.IsFullDuplex
 title: ITLegacyWaveSupport::IsFullDuplex (tapi3if.h)
-description: The IsFullDuplex method gets an indicator of whether the address supports wave devices.helpviewer_keywords: ["ITLegacyWaveSupport interface [TAPI 2.2]","IsFullDuplex method","ITLegacyWaveSupport.IsFullDuplex","ITLegacyWaveSupport::IsFullDuplex","IsFullDuplex","IsFullDuplex method [TAPI 2.2]","IsFullDuplex method [TAPI 2.2]","ITLegacyWaveSupport interface","_tapi3_itlegacywavesupport_isfullduplex","tapi3.itlegacywavesupport_isfullduplex","tapi3if/ITLegacyWaveSupport::IsFullDuplex"]
+description: The IsFullDuplex method gets an indicator of whether the address supports wave devices.
+helpviewer_keywords: ["ITLegacyWaveSupport interface [TAPI 2.2]","IsFullDuplex method","ITLegacyWaveSupport.IsFullDuplex","ITLegacyWaveSupport::IsFullDuplex","IsFullDuplex","IsFullDuplex method [TAPI 2.2]","IsFullDuplex method [TAPI 2.2]","ITLegacyWaveSupport interface","_tapi3_itlegacywavesupport_isfullduplex","tapi3.itlegacywavesupport_isfullduplex","tapi3if/ITLegacyWaveSupport::IsFullDuplex"]
 old-location: tapi3\itlegacywavesupport_isfullduplex.htm
 tech.root: Tapi
 ms.assetid: 117586d7-8214-4fc8-9c7d-08865582cc2a

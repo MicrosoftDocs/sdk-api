@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeStartLineCap
 title: IXpsOMPath::GetStrokeStartLineCap (xpsobjectmodel.h)
-description: Gets the style of the line cap at the start of the stroke line.helpviewer_keywords: ["GetStrokeStartLineCap","GetStrokeStartLineCap method [XPS Documents and Packaging]","GetStrokeStartLineCap method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeStartLineCap method","IXpsOMPath.GetStrokeStartLineCap","IXpsOMPath::GetStrokeStartLineCap","xps.ixpsompath_getstrokestartlinecap","xpsobjectmodel/IXpsOMPath::GetStrokeStartLineCap"]
+description: Gets the style of the line cap at the start of the stroke line.
+helpviewer_keywords: ["GetStrokeStartLineCap","GetStrokeStartLineCap method [XPS Documents and Packaging]","GetStrokeStartLineCap method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeStartLineCap method","IXpsOMPath.GetStrokeStartLineCap","IXpsOMPath::GetStrokeStartLineCap","xps.ixpsompath_getstrokestartlinecap","xpsobjectmodel/IXpsOMPath::GetStrokeStartLineCap"]
 old-location: xps\ixpsompath_getstrokestartlinecap.htm
 tech.root: printdocs
 ms.assetid: 66286aca-3b94-4ded-9180-1e07599986db
@@ -59,7 +60,7 @@ Gets the style of the  line cap at the start of the stroke line.
 
 ### -param strokeStartLineCap [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value that indicates the style of the  line cap at the start of the stroke line.
+The <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a> value that indicates the style of the  line cap at the start of the stroke line.
 
 
 ## -returns
@@ -105,7 +106,7 @@ The method succeeded.
 
 
 
-For more information about the shapes of line caps, see <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>.
+For more information about the shapes of line caps, see <a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>.
 
 
 
@@ -127,7 +128,7 @@ For more information about the shapes of line caps, see <a href="https://docs.mi
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>
+<a href="/windows/win32/api/xpsobjectmodel/ne-xpsobjectmodel-xps_line_cap">XPS_LINE_CAP</a>
  
 
  

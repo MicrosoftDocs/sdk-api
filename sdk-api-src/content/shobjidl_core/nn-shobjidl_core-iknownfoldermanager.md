@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IKnownFolderManager
 title: IKnownFolderManager (shobjidl_core.h)
-description: Exposes methods that create, enumerate or manage existing known folders.helpviewer_keywords: ["IKnownFolderManager","IKnownFolderManager interface [Windows Shell]","IKnownFolderManager interface [Windows Shell]","described","_shell_IKnownFolderManager","shell.IKnownFolderManager","shobjidl_core/IKnownFolderManager"]
+description: Exposes methods that create, enumerate or manage existing known folders.
+helpviewer_keywords: ["IKnownFolderManager","IKnownFolderManager interface [Windows Shell]","IKnownFolderManager interface [Windows Shell]","described","_shell_IKnownFolderManager","shell.IKnownFolderManager","shobjidl_core/IKnownFolderManager"]
 old-location: shell\IKnownFolderManager.htm
 tech.root: shell
 ms.assetid: ba7dbef7-2732-49e8-b573-a3b731bdc633

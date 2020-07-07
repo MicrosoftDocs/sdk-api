@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_29
 title: WS_ENDPOINT_ADDRESS_EXTENSION_TYPE (webservices.h)
-description: This identifies a type of extension within the extensions field of the WS_ENDPOINT_ADDRESS.helpviewer_keywords: ["WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS","WS_ENDPOINT_ADDRESS_EXTENSION_TYPE","WS_ENDPOINT_ADDRESS_EXTENSION_TYPE enumeration [Web Services for Windows]","webservices/WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS","webservices/WS_ENDPOINT_ADDRESS_EXTENSION_TYPE","wsw.ws_endpoint_address_extension_type"]
+description: This identifies a type of extension within the extensions field of the WS_ENDPOINT_ADDRESS.
+helpviewer_keywords: ["WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS","WS_ENDPOINT_ADDRESS_EXTENSION_TYPE","WS_ENDPOINT_ADDRESS_EXTENSION_TYPE enumeration [Web Services for Windows]","webservices/WS_ENDPOINT_ADDRESS_EXTENSION_METADATA_ADDRESS","webservices/WS_ENDPOINT_ADDRESS_EXTENSION_TYPE","wsw.ws_endpoint_address_extension_type"]
 old-location: wsw\ws_endpoint_address_extension_type.htm
 tech.root: wsw
 ms.assetid: c35c39ff-497e-46d4-9dd7-2187a78f710e

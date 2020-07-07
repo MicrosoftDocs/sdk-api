@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_SAML_AUTHENTICATOR
 title: WS_SAML_AUTHENTICATOR (webservices.h)
-description: The abstract base type for all SAML authenticators used on the server side to validate incoming SAML tokens.helpviewer_keywords: ["WS_SAML_AUTHENTICATOR","WS_SAML_AUTHENTICATOR structure [Web Services for Windows]","webservices/WS_SAML_AUTHENTICATOR","wsw.ws_saml_authenticator"]
+description: The abstract base type for all SAML authenticators used on the server side to validate incoming SAML tokens.
+helpviewer_keywords: ["WS_SAML_AUTHENTICATOR","WS_SAML_AUTHENTICATOR structure [Web Services for Windows]","webservices/WS_SAML_AUTHENTICATOR","wsw.ws_saml_authenticator"]
 old-location: wsw\ws_saml_authenticator.htm
 tech.root: wsw
 ms.assetid: 3e67670f-3fde-4a2d-8c55-f4a3f5bef5f0

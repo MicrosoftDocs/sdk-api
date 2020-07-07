@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaNodeFromFocus
 title: UiaNodeFromFocus function (uiautomationcoreapi.h)
-description: Retrieves the UI Automation node for the UI element that currently has input focus.helpviewer_keywords: ["UiaNodeFromFocus","UiaNodeFromFocus function [Windows Accessibility]","uiauto.uiauto_UiaNodeFromFocusFunction","uiauto_UiaNodeFromFocusFunction","uiautomationcoreapi/UiaNodeFromFocus","winauto.uiauto_UiaNodeFromFocusFunction"]
+description: Retrieves the UI Automation node for the UI element that currently has input focus.
+helpviewer_keywords: ["UiaNodeFromFocus","UiaNodeFromFocus function [Windows Accessibility]","uiauto.uiauto_UiaNodeFromFocusFunction","uiauto_UiaNodeFromFocusFunction","uiautomationcoreapi/UiaNodeFromFocus","winauto.uiauto_UiaNodeFromFocusFunction"]
 old-location: winauto\uiauto_UiaNodeFromFocusFunction.htm
 tech.root: WinAuto
 ms.assetid: 6ea47aee-1f9f-40e1-8c55-a1813203575e
@@ -66,9 +67,9 @@ The address of a <a href="https://docs.microsoft.com/windows/desktop/api/uiautom
 
 ### -param ppRequestedData [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
-The address of a variable that receives a pointer to a <a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains 				the requested information.
+The address of a variable that receives a pointer to a <a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a> that contains 				the requested information.
 				This parameter is passed uninitialized.
 
 

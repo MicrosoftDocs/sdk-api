@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.Serialize
 title: ISyncChangeBatchBase::Serialize (winsync.h)
-description: Serializes the change batch to an array of bytes.helpviewer_keywords: ["ISyncChangeBatchBase interface [Windows Sync]","Serialize method","ISyncChangeBatchBase.Serialize","ISyncChangeBatchBase::Serialize","Serialize","Serialize method [Windows Sync]","Serialize method [Windows Sync]","ISyncChangeBatchBase interface","winsync.isyncchangebatchbase_serialize","winsync/ISyncChangeBatchBase::Serialize"]
+description: Serializes the change batch to an array of bytes.
+helpviewer_keywords: ["ISyncChangeBatchBase interface [Windows Sync]","Serialize method","ISyncChangeBatchBase.Serialize","ISyncChangeBatchBase::Serialize","Serialize","Serialize method [Windows Sync]","Serialize method [Windows Sync]","ISyncChangeBatchBase interface","winsync.isyncchangebatchbase_serialize","winsync/ISyncChangeBatchBase::Serialize"]
 old-location: winsync\isyncchangebatchbase_serialize.htm
 tech.root: winsync
 ms.assetid: 785a763c-99a2-45d1-b42b-9673aedc5c5d
@@ -145,7 +146,7 @@ The last group added to the batch was not ended.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SyncSerializationVersion Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SyncSerializationVersion Enumeration</a>
  
 
  

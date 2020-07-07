@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMLoadInt4A
 title: XMLoadInt4A function (directxmath.h)
-description: Loads 16-byte aligned data into an XMVECTOR, without type checking.helpviewer_keywords: ["Use DirectX..XMLoadInt4A","XMLoadInt4A","XMLoadInt4A method [DirectX Math Support APIs]","dxmath.xmloadint4a"]
+description: Loads 16-byte aligned data into an XMVECTOR, without type checking.
+helpviewer_keywords: ["Use DirectX..XMLoadInt4A","XMLoadInt4A","XMLoadInt4A method [DirectX Math Support APIs]","dxmath.xmloadint4a"]
 old-location: dxmath\xmloadint4a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt4A(const VOID)

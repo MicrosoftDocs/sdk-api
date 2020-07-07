@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.D2D1Tan
 title: D2D1Tan function (d2d1_1.h)
-description: Returns the tangent of an angle.helpviewer_keywords: ["D2D1Tan","D2D1Tan function [Direct2D]","d2d1_1/D2D1Tan","direct2d.d2d1tan"]
+description: Returns the tangent of an angle.
+helpviewer_keywords: ["D2D1Tan","D2D1Tan function [Direct2D]","d2d1_1/D2D1Tan","direct2d.d2d1tan"]
 old-location: direct2d\d2d1tan.htm
 tech.root: Direct2D
 ms.assetid: 2BC66DEA-5C40-4EBA-8CDB-B48036E8A85F

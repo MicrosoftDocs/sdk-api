@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.UnlockFile
 title: UnlockFile function (fileapi.h)
-description: Unlocks a region in an open file.helpviewer_keywords: ["UnlockFile","UnlockFile function [Files]","_win32_unlockfile","base.unlockfile","fileapi/UnlockFile","fs.unlockfile","winbase/UnlockFile"]
+description: Unlocks a region in an open file.
+helpviewer_keywords: ["UnlockFile","UnlockFile function [Files]","_win32_unlockfile","base.unlockfile","fileapi/UnlockFile","fs.unlockfile","winbase/UnlockFile"]
 old-location: fs\unlockfile.htm
 tech.root: FileIO
 ms.assetid: 6a930f83-3918-4688-ac60-d1de6857f479

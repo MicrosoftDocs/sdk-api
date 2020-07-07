@@ -1,6 +1,8 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
 title: D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
+description: Describes the allocation size of a video decoder heap.
+tech.root: mf
 ms.date: 4/26/2019
 ms.keywords: D3D12_FEATURE_DATA_VIDEO_PROCESSOR_SIZE
 f1_keywords:
@@ -40,6 +42,8 @@ Describes the allocation size of a video decoder heap.
 ## -struct-fields
 
 ### -field NodeMask
+
+For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the device's physical adapter) to which the command queue applies. Each bit in the mask corresponds to a single node. Only 1 bit may be set.
 
 ### -field pOutputStreamDesc
 

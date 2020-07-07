@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetCustomAttributeByName
 title: IMetaDataImport::GetCustomAttributeByName (rometadataapi.h)
-description: Gets the custom attribute, given its name and owner.helpviewer_keywords: ["GetCustomAttributeByName","GetCustomAttributeByName method [Windows Runtime]","GetCustomAttributeByName method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetCustomAttributeByName method","IMetaDataImport.GetCustomAttributeByName","IMetaDataImport::GetCustomAttributeByName","rometadataapi/IMetaDataImport::GetCustomAttributeByName","winrt.imetadataimport_getcustomattributebyname"]
+description: Gets the custom attribute, given its name and owner.
+helpviewer_keywords: ["GetCustomAttributeByName","GetCustomAttributeByName method [Windows Runtime]","GetCustomAttributeByName method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetCustomAttributeByName method","IMetaDataImport.GetCustomAttributeByName","IMetaDataImport::GetCustomAttributeByName","rometadataapi/IMetaDataImport::GetCustomAttributeByName","winrt.imetadataimport_getcustomattributebyname"]
 old-location: winrt\imetadataimport_getcustomattributebyname.htm
 tech.root: WinRT
 ms.assetid: e2771a90-4ac3-4c5a-869a-e18d1a4c6b3e

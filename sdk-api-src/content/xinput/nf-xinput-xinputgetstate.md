@@ -1,7 +1,8 @@
 ---
 UID: NF:xinput.XInputGetState
 title: XInputGetState function (xinput.h)
-description: Retrieves the current state of the specified controller.helpviewer_keywords: ["XInputGetState","XInputGetState function [XInput Game Controller APIs]","xinput.xinputgetstate","xinput/XInputGetState"]
+description: Retrieves the current state of the specified controller.
+helpviewer_keywords: ["XInputGetState","XInputGetState function [XInput Game Controller APIs]","xinput.xinputgetstate","xinput/XInputGetState"]
 old-location: xinput\xinputgetstate.htm
 tech.root: xinput
 ms.assetid: M:Microsoft.directx_sdk.reference.XInputGetState(DWORD,XINPUT_STATE*@)

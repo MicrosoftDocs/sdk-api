@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.DDiscFormat2TrackAtOnceEvents
 title: DDiscFormat2TrackAtOnceEvents (imapi2.h)
-description: Implement this interface to receive notifications of the current track-writing operation.helpviewer_keywords: ["DDiscFormat2TrackAtOnceEvents","DDiscFormat2TrackAtOnceEvents interface [IMAPI]","DDiscFormat2TrackAtOnceEvents interface [IMAPI]","described","imapi.ddiscformat2trackatonceevents","imapi2/DDiscFormat2TrackAtOnceEvents"]
+description: Implement this interface to receive notifications of the current track-writing operation.
+helpviewer_keywords: ["DDiscFormat2TrackAtOnceEvents","DDiscFormat2TrackAtOnceEvents interface [IMAPI]","DDiscFormat2TrackAtOnceEvents interface [IMAPI]","described","imapi.ddiscformat2trackatonceevents","imapi2/DDiscFormat2TrackAtOnceEvents"]
 old-location: imapi\ddiscformat2trackatonceevents.htm
 tech.root: imapi
 ms.assetid: 15d88768-f6e9-4d0a-a132-08f89fb3c34f

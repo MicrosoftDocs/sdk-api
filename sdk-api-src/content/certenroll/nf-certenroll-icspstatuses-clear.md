@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ICspStatuses.Clear
 title: ICspStatuses::Clear (certenroll.h)
-description: Removes all ICspStatus objects from the collection.helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ICspStatuses interface","ICspStatuses interface [Security]","Clear method","ICspStatuses.Clear","ICspStatuses::Clear","certenroll/ICspStatuses::Clear","security.icspstatuses_clear_method"]
+description: Removes all ICspStatus objects from the collection.
+helpviewer_keywords: ["Clear","Clear method [Security]","Clear method [Security]","ICspStatuses interface","ICspStatuses interface [Security]","Clear method","ICspStatuses.Clear","ICspStatuses::Clear","certenroll/ICspStatuses::Clear","security.icspstatuses_clear_method"]
 old-location: security\icspstatuses_clear_method.htm
 tech.root: seccertenroll
 ms.assetid: 6a959d88-3ee6-4233-8fc7-23c60b24c14e

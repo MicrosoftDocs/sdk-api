@@ -1,7 +1,8 @@
 ---
 UID: NE:sessdirpublictypes._TARGET_TYPE
 title: TARGET_TYPE (sessdirpublictypes.h)
-description: Indicates whether a target belongs to a pool or farm.helpviewer_keywords: ["FARM","NONFARM","TARGET_TYPE","TARGET_TYPE enumeration [Remote Desktop Services]","UNKNOWN","sessdirpublictypes/FARM","sessdirpublictypes/NONFARM","sessdirpublictypes/TARGET_TYPE","sessdirpublictypes/UNKNOWN","termserv.target_type"]
+description: Indicates whether a target belongs to a pool or farm.
+helpviewer_keywords: ["FARM","NONFARM","TARGET_TYPE","TARGET_TYPE enumeration [Remote Desktop Services]","UNKNOWN","sessdirpublictypes/FARM","sessdirpublictypes/NONFARM","sessdirpublictypes/TARGET_TYPE","sessdirpublictypes/UNKNOWN","termserv.target_type"]
 old-location: termserv\target_type.htm
 tech.root: TermServ
 ms.assetid: 4ad44a75-0975-4933-a914-a64a82fcae6c

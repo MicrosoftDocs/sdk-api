@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IFillLockBytes.SetFillSize
 title: IFillLockBytes::SetFillSize (objidl.h)
-description: The SetFillSize method sets the expected size of the byte array.helpviewer_keywords: ["IFillLockBytes interface [Structured Storage]","SetFillSize method","IFillLockBytes.SetFillSize","IFillLockBytes::SetFillSize","SetFillSize","SetFillSize method [Structured Storage]","SetFillSize method [Structured Storage]","IFillLockBytes interface","_stg_ifilllockbytes_setfillsize","objidl/IFillLockBytes::SetFillSize","stg.ifilllockbytes_setfillsize"]
+description: The SetFillSize method sets the expected size of the byte array.
+helpviewer_keywords: ["IFillLockBytes interface [Structured Storage]","SetFillSize method","IFillLockBytes.SetFillSize","IFillLockBytes::SetFillSize","SetFillSize","SetFillSize method [Structured Storage]","SetFillSize method [Structured Storage]","IFillLockBytes interface","_stg_ifilllockbytes_setfillsize","objidl/IFillLockBytes::SetFillSize","stg.ifilllockbytes_setfillsize"]
 old-location: stg\ifilllockbytes_setfillsize.htm
 tech.root: Stg
 ms.assetid: 1336079e-02d2-4799-a58f-d097ec80c03b

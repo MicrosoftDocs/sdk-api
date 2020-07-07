@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateCommandList
 title: ID2D1DeviceContext::CreateCommandList (d2d1_1.h)
-description: Creates a ID2D1CommandList object.helpviewer_keywords: ["CreateCommandList","CreateCommandList method [Direct2D]","CreateCommandList method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","CreateCommandList method","ID2D1DeviceContext.CreateCommandList","ID2D1DeviceContext::CreateCommandList","d2d1_1/ID2D1DeviceContext::CreateCommandList","direct2d.id2d1devicecontext_createcommandlist"]
+description: Creates a ID2D1CommandList object.
+helpviewer_keywords: ["CreateCommandList","CreateCommandList method [Direct2D]","CreateCommandList method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","CreateCommandList method","ID2D1DeviceContext.CreateCommandList","ID2D1DeviceContext::CreateCommandList","d2d1_1/ID2D1DeviceContext::CreateCommandList","direct2d.id2d1devicecontext_createcommandlist"]
 old-location: direct2d\id2d1devicecontext_createcommandlist.htm
 tech.root: Direct2D
 ms.assetid: f34710dc-7845-457f-9b27-51ae937d9f74

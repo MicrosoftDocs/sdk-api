@@ -1,7 +1,8 @@
 ---
 UID: NF:richole.IRichEditOleCallback.GetDragDropEffect
 title: IRichEditOleCallback::GetDragDropEffect (richole.h)
-description: Allows the client to specify the effects of a drop operation.helpviewer_keywords: ["GetDragDropEffect","GetDragDropEffect method [Windows Controls]","GetDragDropEffect method [Windows Controls]","IRichEditOleCallback interface","IRichEditOleCallback interface [Windows Controls]","GetDragDropEffect method","IRichEditOleCallback.GetDragDropEffect","IRichEditOleCallback::GetDragDropEffect","_win32_IRichEditOleCallback_GetDragDropEffect","_win32_IRichEditOleCallback_GetDragDropEffect_cpp","controls.IRichEditOleCallback_GetDragDropEffect","controls._win32_IRichEditOleCallback_GetDragDropEffect","richole/IRichEditOleCallback::GetDragDropEffect"]
+description: Allows the client to specify the effects of a drop operation.
+helpviewer_keywords: ["GetDragDropEffect","GetDragDropEffect method [Windows Controls]","GetDragDropEffect method [Windows Controls]","IRichEditOleCallback interface","IRichEditOleCallback interface [Windows Controls]","GetDragDropEffect method","IRichEditOleCallback.GetDragDropEffect","IRichEditOleCallback::GetDragDropEffect","_win32_IRichEditOleCallback_GetDragDropEffect","_win32_IRichEditOleCallback_GetDragDropEffect_cpp","controls.IRichEditOleCallback_GetDragDropEffect","controls._win32_IRichEditOleCallback_GetDragDropEffect","richole/IRichEditOleCallback::GetDragDropEffect"]
 old-location: controls\IRichEditOleCallback_GetDragDropEffect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackgetdragdropeffect.htm

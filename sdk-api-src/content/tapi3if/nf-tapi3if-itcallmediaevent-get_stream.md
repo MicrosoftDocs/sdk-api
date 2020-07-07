@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITCallMediaEvent.get_Stream
 title: ITCallMediaEvent::get_Stream (tapi3if.h)
-description: The get_Stream method gets a pointer to the ITStream interface associated with the call media event.helpviewer_keywords: ["ITCallMediaEvent interface [TAPI 2.2]","get_Stream method","ITCallMediaEvent.get_Stream","ITCallMediaEvent::get_Stream","_tapi3_itcallmediaevent_get_stream","get_Stream","get_Stream method [TAPI 2.2]","get_Stream method [TAPI 2.2]","ITCallMediaEvent interface","tapi3.itcallmediaevent_get_stream","tapi3if/ITCallMediaEvent::get_Stream"]
+description: The get_Stream method gets a pointer to the ITStream interface associated with the call media event.
+helpviewer_keywords: ["ITCallMediaEvent interface [TAPI 2.2]","get_Stream method","ITCallMediaEvent.get_Stream","ITCallMediaEvent::get_Stream","_tapi3_itcallmediaevent_get_stream","get_Stream","get_Stream method [TAPI 2.2]","get_Stream method [TAPI 2.2]","ITCallMediaEvent interface","tapi3.itcallmediaevent_get_stream","tapi3if/ITCallMediaEvent::get_Stream"]
 old-location: tapi3\itcallmediaevent_get_stream.htm
 tech.root: Tapi
 ms.assetid: 2afcb8ee-1f8c-41d0-8a8f-f34ebf09d224

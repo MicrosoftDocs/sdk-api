@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiIsProductElevatedW
 title: MsiIsProductElevatedW function (msi.h)
-description: The MsiIsProductElevated function returns whether or not the product is managed.helpviewer_keywords: ["MsiIsProductElevated","MsiIsProductElevated function","MsiIsProductElevatedA","MsiIsProductElevatedW","_msi_msiisproductelevated","msi/MsiIsProductElevated","msi/MsiIsProductElevatedA","msi/MsiIsProductElevatedW","setup.msiisproductelevated"]
+description: The MsiIsProductElevated function returns whether or not the product is managed.
+helpviewer_keywords: ["MsiIsProductElevated","MsiIsProductElevated function","MsiIsProductElevatedA","MsiIsProductElevatedW","_msi_msiisproductelevated","msi/MsiIsProductElevated","msi/MsiIsProductElevatedA","msi/MsiIsProductElevatedW","setup.msiisproductelevated"]
 old-location: setup\msiisproductelevated.htm
 tech.root: Msi
 ms.assetid: 1bf6616c-3d5a-45c9-ab69-c0bb41b3e067
@@ -165,4 +166,9 @@ The function is not available for a specific platform.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The msi.h header defines MsiIsProductElevated as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

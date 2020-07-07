@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HTTPAPI_GREATER_VERSION
 title: HTTPAPI_GREATER_VERSION macro (http.h)
-description: Returns a non-zero value if an HTTPAPI_VERSION structure is greater than a specified major/minor version combination, or zero otherwise.helpviewer_keywords: ["HTTPAPI_GREATER_VERSION","HTTPAPI_GREATER_VERSION macro [HTTP]","http.httpapi_greater_version","http/HTTPAPI_GREATER_VERSION"]
+description: Returns a non-zero value if an HTTPAPI_VERSION structure is greater than a specified major/minor version combination, or zero otherwise.
+helpviewer_keywords: ["HTTPAPI_GREATER_VERSION","HTTPAPI_GREATER_VERSION macro [HTTP]","http.httpapi_greater_version","http/HTTPAPI_GREATER_VERSION"]
 old-location: http\httpapi_greater_version.htm
 tech.root: http
 ms.assetid: e70500dd-e750-437c-8652-280f9cc9de1d

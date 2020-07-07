@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFMediaSourceEx.GetStreamAttributes
 title: IMFMediaSourceEx::GetStreamAttributes (mfidl.h)
-description: Gets an attribute store for a stream on the media source.helpviewer_keywords: ["GetStreamAttributes","GetStreamAttributes method [Media Foundation]","GetStreamAttributes method [Media Foundation]","IMFMediaSourceEx interface","IMFMediaSourceEx interface [Media Foundation]","GetStreamAttributes method","IMFMediaSourceEx.GetStreamAttributes","IMFMediaSourceEx::GetStreamAttributes","mf.imfmediasourceex_getstreamattributes","mfidl/IMFMediaSourceEx::GetStreamAttributes"]
+description: Gets an attribute store for a stream on the media source.
+helpviewer_keywords: ["GetStreamAttributes","GetStreamAttributes method [Media Foundation]","GetStreamAttributes method [Media Foundation]","IMFMediaSourceEx interface","IMFMediaSourceEx interface [Media Foundation]","GetStreamAttributes method","IMFMediaSourceEx.GetStreamAttributes","IMFMediaSourceEx::GetStreamAttributes","mf.imfmediasourceex_getstreamattributes","mfidl/IMFMediaSourceEx::GetStreamAttributes"]
 old-location: mf\imfmediasourceex_getstreamattributes.htm
 tech.root: medfound
 ms.assetid: 360B64E6-4936-4E40-A0EB-7E9EBAF1203E

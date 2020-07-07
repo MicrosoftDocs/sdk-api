@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12video.ID3D12VideoProcessCommandList.SetPredication
 title: ID3D12VideoProcessCommandList::SetPredication
-description: Specifies that subsequent commands should not be performed if the predicate value passes the specified operation.helpviewer_keywords: ["ID3D12VideoProcessCommandList::SetPredication","SetPredication","ID3D12VideoProcessCommandList.SetPredication","ID3D12VideoProcessCommandList::SetPredication","ID3D12VideoProcessCommandList.SetPredication"]
+description: Specifies that subsequent commands should not be performed if the predicate value passes the specified operation.
+helpviewer_keywords: ["ID3D12VideoProcessCommandList::SetPredication","SetPredication","ID3D12VideoProcessCommandList.SetPredication","ID3D12VideoProcessCommandList::SetPredication","ID3D12VideoProcessCommandList.SetPredication"]
 tech.root: mf
 ms.assetid: 0ac39382-e939-4f20-b99d-0b3d9eac1ddc
 ms.date: 05/28/2019

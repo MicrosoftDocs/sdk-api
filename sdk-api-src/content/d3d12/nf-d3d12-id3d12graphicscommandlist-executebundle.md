@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ExecuteBundle
 title: ID3D12GraphicsCommandList::ExecuteBundle (d3d12.h)
-description: Executes a bundle.helpviewer_keywords: ["ExecuteBundle","ExecuteBundle method","ExecuteBundle method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","ExecuteBundle method","ID3D12GraphicsCommandList.ExecuteBundle","ID3D12GraphicsCommandList::ExecuteBundle","d3d12/ID3D12GraphicsCommandList::ExecuteBundle","direct3d12.id3d12graphicscommandlist_executebundle"]
+description: Executes a bundle.
+helpviewer_keywords: ["ExecuteBundle","ExecuteBundle method","ExecuteBundle method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","ExecuteBundle method","ID3D12GraphicsCommandList.ExecuteBundle","ID3D12GraphicsCommandList::ExecuteBundle","d3d12/ID3D12GraphicsCommandList::ExecuteBundle","direct3d12.id3d12graphicscommandlist_executebundle"]
 old-location: direct3d12\id3d12graphicscommandlist_executebundle.htm
 tech.root: direct3d12
 ms.assetid: B8AE4448-041D-47F6-9F0F-AE74FFEF6E41

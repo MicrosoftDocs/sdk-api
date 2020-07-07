@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymGetSymbolFileW
 title: SymGetSymbolFileW function (dbghelp.h)
-description: Locates a symbol file in the specified symbol path.helpviewer_keywords: ["SymGetSymbolFile","SymGetSymbolFile function","SymGetSymbolFileW","base.symgetsymbolfile","dbghelp/SymGetSymbolFile","dbghelp/SymGetSymbolFileW","sfDbg","sfImage","sfMpd","sfPdb"]
+description: Locates a symbol file in the specified symbol path.
+helpviewer_keywords: ["SymGetSymbolFile","SymGetSymbolFile function","SymGetSymbolFileW","base.symgetsymbolfile","dbghelp/SymGetSymbolFile","dbghelp/SymGetSymbolFileW","sfDbg","sfImage","sfMpd","sfPdb"]
 old-location: base\symgetsymbolfile.htm
 tech.root: Debug
 ms.assetid: 8e78e0ef-e68c-4270-8c63-9513f3069ed0
@@ -176,6 +177,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymGetSymbolFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

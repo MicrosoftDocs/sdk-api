@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcFactory.CreateDigitalSignatureManager
 title: IOpcFactory::CreateDigitalSignatureManager (msopc.h)
-description: Creates a digital signature manager object for a package object.helpviewer_keywords: ["CreateDigitalSignatureManager","CreateDigitalSignatureManager method [Open Packaging Conventions]","CreateDigitalSignatureManager method [Open Packaging Conventions]","IOpcFactory interface","IOpcFactory interface [Open Packaging Conventions]","CreateDigitalSignatureManager method","IOpcFactory.CreateDigitalSignatureManager","IOpcFactory::CreateDigitalSignatureManager","msopc/IOpcFactory::CreateDigitalSignatureManager","opc.iopcfactory_createdigitalsignaturemanager"]
+description: Creates a digital signature manager object for a package object.
+helpviewer_keywords: ["CreateDigitalSignatureManager","CreateDigitalSignatureManager method [Open Packaging Conventions]","CreateDigitalSignatureManager method [Open Packaging Conventions]","IOpcFactory interface","IOpcFactory interface [Open Packaging Conventions]","CreateDigitalSignatureManager method","IOpcFactory.CreateDigitalSignatureManager","IOpcFactory::CreateDigitalSignatureManager","msopc/IOpcFactory::CreateDigitalSignatureManager","opc.iopcfactory_createdigitalsignaturemanager"]
 old-location: opc\iopcfactory_createdigitalsignaturemanager.htm
 tech.root: OPC
 ms.assetid: ec0fe8b6-e968-4bcb-b468-bbf72ffce675

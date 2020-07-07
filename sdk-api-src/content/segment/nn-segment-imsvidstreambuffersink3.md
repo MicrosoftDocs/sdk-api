@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSink3
 title: IMSVidStreamBufferSink3 (segment.h)
-description: The IMSVidStreamBufferSink3 interface represents the Stream Buffer Sink filter within the Video Control.helpviewer_keywords: ["IMSVidStreamBufferSink3","IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","described","IMSVidStreamBufferSink3Interface","mstv.imsvidstreambuffersink3","segment/IMSVidStreamBufferSink3"]
+description: The IMSVidStreamBufferSink3 interface represents the Stream Buffer Sink filter within the Video Control.
+helpviewer_keywords: ["IMSVidStreamBufferSink3","IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","described","IMSVidStreamBufferSink3Interface","mstv.imsvidstreambuffersink3","segment/IMSVidStreamBufferSink3"]
 old-location: mstv\imsvidstreambuffersink3.htm
 tech.root: mstv
 ms.assetid: 5768936b-9c0a-4177-82da-cc6ebe62ea67

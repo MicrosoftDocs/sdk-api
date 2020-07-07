@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagMOUSEHOOKSTRUCTEX
 title: MOUSEHOOKSTRUCTEX (winuser.h)
-description: Contains information about a mouse event passed to a WH_MOUSE hook procedure, MouseProc. This is an extension of the MOUSEHOOKSTRUCT structure that includes information about wheel movement or the use of the X button.helpviewer_keywords: ["*LPMOUSEHOOKSTRUCTEX","*PMOUSEHOOKSTRUCTEX","LPMOUSEHOOKSTRUCTEX","LPMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages]","MOUSEHOOKSTRUCTEX","MOUSEHOOKSTRUCTEX structure [Windows and Messages]","PMOUSEHOOKSTRUCTEX","PMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages]","XBUTTON1","XBUTTON2","_win32_MOUSEHOOKSTRUCTEX_str","_win32_mousehookstructex_str_cpp","winmsg.mousehookstructex","winui._win32_mousehookstructex_str","winuser/LPMOUSEHOOKSTRUCTEX","winuser/MOUSEHOOKSTRUCTEX","winuser/PMOUSEHOOKSTRUCTEX"]
+description: Contains information about a mouse event passed to a WH_MOUSE hook procedure, MouseProc. This is an extension of the MOUSEHOOKSTRUCT structure that includes information about wheel movement or the use of the X button.
+helpviewer_keywords: ["*LPMOUSEHOOKSTRUCTEX","*PMOUSEHOOKSTRUCTEX","LPMOUSEHOOKSTRUCTEX","LPMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages]","MOUSEHOOKSTRUCTEX","MOUSEHOOKSTRUCTEX structure [Windows and Messages]","PMOUSEHOOKSTRUCTEX","PMOUSEHOOKSTRUCTEX structure pointer [Windows and Messages]","XBUTTON1","XBUTTON2","_win32_MOUSEHOOKSTRUCTEX_str","_win32_mousehookstructex_str_cpp","winmsg.mousehookstructex","winui._win32_mousehookstructex_str","winuser/LPMOUSEHOOKSTRUCTEX","winuser/MOUSEHOOKSTRUCTEX","winuser/PMOUSEHOOKSTRUCTEX"]
 old-location: winmsg\mousehookstructex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\mousehookstructex.htm

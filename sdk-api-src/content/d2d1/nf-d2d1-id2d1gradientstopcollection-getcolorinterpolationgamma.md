@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1GradientStopCollection.GetColorInterpolationGamma
 title: ID2D1GradientStopCollection::GetColorInterpolationGamma (d2d1.h)
-description: Indicates the gamma space in which the gradient stops are interpolated.helpviewer_keywords: ["GetColorInterpolationGamma","GetColorInterpolationGamma method [Direct2D]","GetColorInterpolationGamma method [Direct2D]","ID2D1GradientStopCollection interface","ID2D1GradientStopCollection interface [Direct2D]","GetColorInterpolationGamma method","ID2D1GradientStopCollection.GetColorInterpolationGamma","ID2D1GradientStopCollection::GetColorInterpolationGamma","d2d1/ID2D1GradientStopCollection::GetColorInterpolationGamma","direct2d.ID2D1GradientStopCollection_GetColorInterpolationGamma"]
+description: Indicates the gamma space in which the gradient stops are interpolated.
+helpviewer_keywords: ["GetColorInterpolationGamma","GetColorInterpolationGamma method [Direct2D]","GetColorInterpolationGamma method [Direct2D]","ID2D1GradientStopCollection interface","ID2D1GradientStopCollection interface [Direct2D]","GetColorInterpolationGamma method","ID2D1GradientStopCollection.GetColorInterpolationGamma","ID2D1GradientStopCollection::GetColorInterpolationGamma","d2d1/ID2D1GradientStopCollection::GetColorInterpolationGamma","direct2d.ID2D1GradientStopCollection_GetColorInterpolationGamma"]
 old-location: direct2d\ID2D1GradientStopCollection_GetColorInterpolationGamma.htm
 tech.root: Direct2D
 ms.assetid: d07f4dcc-7656-44ca-87cc-d59cb62eb36a
@@ -63,7 +64,7 @@ Indicates the gamma space in which the gradient stops are interpolated.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_gamma">D2D1_GAMMA</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_gamma">D2D1_GAMMA</a></b>
 
 The gamma space in which the gradient stops are interpolated. 
 
@@ -75,7 +76,7 @@ The gamma space in which the gradient stops are interpolated.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a>
  
 
  

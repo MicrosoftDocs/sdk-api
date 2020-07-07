@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcompiler.D3DCreateBlob
 title: D3DCreateBlob function (d3dcompiler.h)
-description: Creates a buffer.helpviewer_keywords: ["D3DCreateBlob","D3DCreateBlob function [HLSL]","d3dcompiler/D3DCreateBlob","direct3dhlsl.d3dcreateblob"]
+description: Creates a buffer.
+helpviewer_keywords: ["D3DCreateBlob","D3DCreateBlob function [HLSL]","d3dcompiler/D3DCreateBlob","direct3dhlsl.d3dcreateblob"]
 old-location: direct3dhlsl\d3dcreateblob.htm
 tech.root: direct3dhlsl
 ms.assetid: 9cad9bff-1641-4fb1-a7c9-c3e31089d7f7

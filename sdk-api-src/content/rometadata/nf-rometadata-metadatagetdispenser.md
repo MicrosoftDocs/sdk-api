@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadata.MetaDataGetDispenser
 title: MetaDataGetDispenser function (rometadata.h)
-description: Creates a dispenser class.helpviewer_keywords: ["MetaDataGetDispenser","MetaDataGetDispenser function [Windows Runtime]","rometadata/MetaDataGetDispenser","winrt.metadatagetdispenser"]
+description: Creates a dispenser class.
+helpviewer_keywords: ["MetaDataGetDispenser","MetaDataGetDispenser function [Windows Runtime]","rometadata/MetaDataGetDispenser","winrt.metadatagetdispenser"]
 old-location: winrt\metadatagetdispenser.htm
 tech.root: WinRT
 ms.assetid: F540CD4F-BDFB-44F8-B3A8-BFDA9199F2B9

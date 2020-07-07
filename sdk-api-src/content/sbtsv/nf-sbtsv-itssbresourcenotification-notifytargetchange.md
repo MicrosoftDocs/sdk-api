@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbResourceNotification.NotifyTargetChange
 title: ITsSbResourceNotification::NotifyTargetChange (sbtsv.h)
-description: Notifies registered plug-ins about state changes in a target object.helpviewer_keywords: ["ITsSbResourceNotification interface [Remote Desktop Services]","NotifyTargetChange method","ITsSbResourceNotification.NotifyTargetChange","ITsSbResourceNotification::NotifyTargetChange","NotifyTargetChange","NotifyTargetChange method [Remote Desktop Services]","NotifyTargetChange method [Remote Desktop Services]","ITsSbResourceNotification interface","sbtsv/ITsSbResourceNotification::NotifyTargetChange","termserv.itssbresourcenotification_notifytargetchange"]
+description: Notifies registered plug-ins about state changes in a target object.
+helpviewer_keywords: ["ITsSbResourceNotification interface [Remote Desktop Services]","NotifyTargetChange method","ITsSbResourceNotification.NotifyTargetChange","ITsSbResourceNotification::NotifyTargetChange","NotifyTargetChange","NotifyTargetChange method [Remote Desktop Services]","NotifyTargetChange method [Remote Desktop Services]","ITsSbResourceNotification interface","sbtsv/ITsSbResourceNotification::NotifyTargetChange","termserv.itssbresourcenotification_notifytargetchange"]
 old-location: termserv\itssbresourcenotification_notifytargetchange.htm
 tech.root: TermServ
 ms.assetid: d075c7ae-fe86-4547-a980-2b82ea3498c6
@@ -59,7 +60,7 @@ Notifies registered plug-ins about state changes in a target object.
 
 ### -param TargetChangeType [in]
 
-A value of the <a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-target_change_type">TARGET_CHANGE_TYPE</a> enumeration that specifies the type of change that occurred in a target.
+A value of the <a href="/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-target_change_type">TARGET_CHANGE_TYPE</a> enumeration that specifies the type of change that occurred in a target.
 
 
 ### -param pTarget [in]
@@ -98,7 +99,7 @@ RD Connection Broker calls the <b>NotifyTargetChange</b> method to notify regis
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-target_change_type">TARGET_CHANGE_TYPE</a>
+<a href="/windows/win32/api/sessdirpublictypes/ne-sessdirpublictypes-target_change_type">TARGET_CHANGE_TYPE</a>
  
 
  

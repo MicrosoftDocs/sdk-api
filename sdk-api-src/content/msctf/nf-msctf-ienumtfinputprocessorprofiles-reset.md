@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Reset
 title: IEnumTfInputProcessorProfiles::Reset (msctf.h)
-description: The IEnumTfInputProcessorProfiles::Reset method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.helpviewer_keywords: ["IEnumTfInputProcessorProfiles interface [Text Services Framework]","Reset method","IEnumTfInputProcessorProfiles.Reset","IEnumTfInputProcessorProfiles::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfInputProcessorProfiles interface","msctf/IEnumTfInputProcessorProfiles::Reset","tsf.ienumtfinputprocessorprofiles_reset"]
+description: The IEnumTfInputProcessorProfiles::Reset method resets the enumerator object by moving the current position to the beginning of the enumeration sequence.
+helpviewer_keywords: ["IEnumTfInputProcessorProfiles interface [Text Services Framework]","Reset method","IEnumTfInputProcessorProfiles.Reset","IEnumTfInputProcessorProfiles::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumTfInputProcessorProfiles interface","msctf/IEnumTfInputProcessorProfiles::Reset","tsf.ienumtfinputprocessorprofiles_reset"]
 old-location: tsf\ienumtfinputprocessorprofiles_reset.htm
 tech.root: TSF
 ms.assetid: ffb78b29-8d05-4622-a026-69af0d86c9c2

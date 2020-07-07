@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IScanningTuner.SeekDown
 title: IScanningTuner::SeekDown (tuner.h)
-description: The SeekDown method changes the channel to the next lower channel with valid programming.helpviewer_keywords: ["IScanningTuner interface [Microsoft TV Technologies]","SeekDown method","IScanningTuner.SeekDown","IScanningTuner::SeekDown","IScanningTunerSeekDown","SeekDown","SeekDown method [Microsoft TV Technologies]","SeekDown method [Microsoft TV Technologies]","IScanningTuner interface","mstv.iscanningtuner_seekdown","tuner/IScanningTuner::SeekDown"]
+description: The SeekDown method changes the channel to the next lower channel with valid programming.
+helpviewer_keywords: ["IScanningTuner interface [Microsoft TV Technologies]","SeekDown method","IScanningTuner.SeekDown","IScanningTuner::SeekDown","IScanningTunerSeekDown","SeekDown","SeekDown method [Microsoft TV Technologies]","SeekDown method [Microsoft TV Technologies]","IScanningTuner interface","mstv.iscanningtuner_seekdown","tuner/IScanningTuner::SeekDown"]
 old-location: mstv\iscanningtuner_seekdown.htm
 tech.root: mstv
 ms.assetid: ef78bae1-238f-4774-ab9a-b3681ba53656

@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.GetNetworkType
 title: IBDA_NetworkProvider::GetNetworkType (bdaiface.h)
-description: The GetNetworkType method retrieves the network type.helpviewer_keywords: ["GetNetworkType","GetNetworkType method [Microsoft TV Technologies]","GetNetworkType method [Microsoft TV Technologies]","IBDA_NetworkProvider interface","IBDA_NetworkProvider interface [Microsoft TV Technologies]","GetNetworkType method","IBDA_NetworkProvider.GetNetworkType","IBDA_NetworkProvider::GetNetworkType","IBDA_NetworkProviderGetNetworkType","bdaiface/IBDA_NetworkProvider::GetNetworkType","mstv.ibda_networkprovider_getnetworktype"]
+description: The GetNetworkType method retrieves the network type.
+helpviewer_keywords: ["GetNetworkType","GetNetworkType method [Microsoft TV Technologies]","GetNetworkType method [Microsoft TV Technologies]","IBDA_NetworkProvider interface","IBDA_NetworkProvider interface [Microsoft TV Technologies]","GetNetworkType method","IBDA_NetworkProvider.GetNetworkType","IBDA_NetworkProvider::GetNetworkType","IBDA_NetworkProviderGetNetworkType","bdaiface/IBDA_NetworkProvider::GetNetworkType","mstv.ibda_networkprovider_getnetworktype"]
 old-location: mstv\ibda_networkprovider_getnetworktype.htm
 tech.root: mstv
 ms.assetid: 38d9f099-b639-41fe-b0fd-82f056622de0

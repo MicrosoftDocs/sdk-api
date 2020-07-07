@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core._SHGDNF
 title: _SHGDNF (shobjidl_core.h)
-description: Defines the values used with the IShellFolder::GetDisplayNameOf and IShellFolder::SetNameOf methods to specify the type of file or folder names used by those methods.helpviewer_keywords: ["SHGDNF","SHGDNF enumeration [Windows Shell]","SHGDN_FORADDRESSBAR","SHGDN_FOREDITING","SHGDN_FORPARSING","SHGDN_INFOLDER","SHGDN_NORMAL","_SHGDNF","_win32_SHGNO","shell.SHGNO","shobjidl_core/SHGDNF","shobjidl_core/SHGDN_FORADDRESSBAR","shobjidl_core/SHGDN_FOREDITING","shobjidl_core/SHGDN_FORPARSING","shobjidl_core/SHGDN_INFOLDER","shobjidl_core/SHGDN_NORMAL"]
+description: Defines the values used with the IShellFolder::GetDisplayNameOf and IShellFolder::SetNameOf methods to specify the type of file or folder names used by those methods.
+helpviewer_keywords: ["SHGDNF","SHGDNF enumeration [Windows Shell]","SHGDN_FORADDRESSBAR","SHGDN_FOREDITING","SHGDN_FORPARSING","SHGDN_INFOLDER","SHGDN_NORMAL","_SHGDNF","_win32_SHGNO","shell.SHGNO","shobjidl_core/SHGDNF","shobjidl_core/SHGDN_FORADDRESSBAR","shobjidl_core/SHGDN_FOREDITING","shobjidl_core/SHGDN_FORPARSING","shobjidl_core/SHGDN_INFOLDER","shobjidl_core/SHGDN_NORMAL"]
 old-location: shell\SHGNO.htm
 tech.root: shell
 ms.assetid: 5d87609d-bcbf-4a4f-a97e-017ee8a9879e
@@ -68,7 +69,7 @@ When not combined with another flag, return the parent-relative name that identi
 
 The name is relative to the folder from which the request was made. This is the name display to the user when used in the context of the folder. For example, it is used in the view and in the address bar path segment for the folder. This name should not include disambiguation information—for instance "<b>username</b>" instead of "<b>username</b> (on <i>Machine</i>)" for a particular user's folder.
 
-Use this flag in combinations with <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FORPARSING</a> and <a href="https://docs.microsoft.com/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FOREDITING</a>.
+Use this flag in combinations with <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FORPARSING</a> and <a href="/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shgdnf">SHGDN_FOREDITING</a>.
 
 
 ### -field SHGDN_FOREDITING

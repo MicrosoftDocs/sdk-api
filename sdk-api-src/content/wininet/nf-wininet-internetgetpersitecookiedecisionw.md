@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetGetPerSiteCookieDecisionW
 title: InternetGetPerSiteCookieDecisionW function (wininet.h)
-description: Retrieves a decision on cookies for a given domain.helpviewer_keywords: ["InternetGetPerSiteCookieDecision","InternetGetPerSiteCookieDecision function [WinINet]","InternetGetPerSiteCookieDecisionA","InternetGetPerSiteCookieDecisionW","wininet.internetgetpersitecookiedecision","wininet/InternetGetPerSiteCookieDecision","wininet/InternetGetPerSiteCookieDecisionA","wininet/InternetGetPerSiteCookieDecisionW"]
+description: Retrieves a decision on cookies for a given domain.
+helpviewer_keywords: ["InternetGetPerSiteCookieDecision","InternetGetPerSiteCookieDecision function [WinINet]","InternetGetPerSiteCookieDecisionA","InternetGetPerSiteCookieDecisionW","wininet.internetgetpersitecookiedecision","wininet/InternetGetPerSiteCookieDecision","wininet/InternetGetPerSiteCookieDecisionA","wininet/InternetGetPerSiteCookieDecisionW"]
 old-location: wininet\internetgetpersitecookiedecision.htm
 tech.root: wininet
 ms.assetid: 04fa4c33-077c-4b16-8170-c3770783c98a
@@ -66,7 +67,7 @@ An <b>LPCTSTR</b> that points to a string containing a domain.
 
 ### -param pResult [out]
 
-A pointer to an <b>unsigned long</b> that contains one of the <a href="https://docs.microsoft.com/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration values.
+A pointer to an <b>unsigned long</b> that contains one of the <a href="/windows/win32/api/wininet/ne-wininet-internet_scheme">InternetCookieState</a> enumeration values.
 
 
 
@@ -96,6 +97,10 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines InternetGetPerSiteCookieDecision as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

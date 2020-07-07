@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced2.GetInputSetting
 title: IWMWriterAdvanced2::GetInputSetting (wmsdkidl.h)
-description: The GetInputSetting method retrieves a setting for a particular input by name.helpviewer_keywords: ["GetInputSetting","GetInputSetting method [windows Media Format]","GetInputSetting method [windows Media Format]","IWMWriterAdvanced2 interface","IWMWriterAdvanced2 interface [windows Media Format]","GetInputSetting method","IWMWriterAdvanced2.GetInputSetting","IWMWriterAdvanced2::GetInputSetting","IWMWriterAdvanced2GetInputSetting","wmformat.iwmwriteradvanced2_getinputsetting","wmsdkidl/IWMWriterAdvanced2::GetInputSetting"]
+description: The GetInputSetting method retrieves a setting for a particular input by name.
+helpviewer_keywords: ["GetInputSetting","GetInputSetting method [windows Media Format]","GetInputSetting method [windows Media Format]","IWMWriterAdvanced2 interface","IWMWriterAdvanced2 interface [windows Media Format]","GetInputSetting method","IWMWriterAdvanced2.GetInputSetting","IWMWriterAdvanced2::GetInputSetting","IWMWriterAdvanced2GetInputSetting","wmformat.iwmwriteradvanced2_getinputsetting","wmsdkidl/IWMWriterAdvanced2::GetInputSetting"]
 old-location: wmformat\iwmwriteradvanced2_getinputsetting.htm
 tech.root: wmformat
 ms.assetid: 3aea0bc6-94e7-41ab-aec3-7366f183bb01

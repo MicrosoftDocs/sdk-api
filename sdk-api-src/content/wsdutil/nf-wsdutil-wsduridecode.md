@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdutil.WSDUriDecode
 title: WSDUriDecode function (wsdutil.h)
-description: Decodes a URI according to the rules in RFC2396.helpviewer_keywords: ["WSDUriDecode","WSDUriDecode function","ncd.wsduridecode","wsdutil/WSDUriDecode"]
+description: Decodes a URI according to the rules in RFC2396.
+helpviewer_keywords: ["WSDUriDecode","WSDUriDecode function","ncd.wsduridecode","wsdutil/WSDUriDecode"]
 old-location: ncd\wsduridecode.htm
 tech.root: WsdApi
 ms.assetid: 30232a4c-f7bb-4a22-b148-2576a259808a

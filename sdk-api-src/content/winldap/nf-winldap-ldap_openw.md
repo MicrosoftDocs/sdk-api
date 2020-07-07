@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_openW
 title: ldap_openW function (winldap.h)
-description: ldap_open is not recommended for use.helpviewer_keywords: ["_ldap_ldap_open","ldap.ldap__open","ldap.ldap_open","ldap_open","ldap_open function [LDAP]","ldap_openA","ldap_openW","winldap/ldap_open","winldap/ldap_openA","winldap/ldap_openW"]
+description: ldap_open is not recommended for use.
+helpviewer_keywords: ["_ldap_ldap_open","ldap.ldap__open","ldap.ldap_open","ldap_open","ldap_open function [LDAP]","ldap_openA","ldap_openW","winldap/ldap_open","winldap/ldap_openA","winldap/ldap_openW"]
 old-location: ldap\ldap_open.htm
 tech.root: ldap
 ms.assetid: ebd7303d-e98d-454d-9964-d774d5c2a756
@@ -105,6 +106,10 @@ Multithreading: Calls to <b>ldap_open</b> are thread-safe.
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines ldap_open as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPISharingSession.Pause
 title: IRDPSRAPISharingSession::Pause (rdpencomapi.h)
-description: Pauses the graphics stream that is sent to all viewers from the sharer until IRDPSRAPISharingSession::Resume is called.helpviewer_keywords: ["IRDPSRAPISharingSession interface [RDP]","Pause method","IRDPSRAPISharingSession.Pause","IRDPSRAPISharingSession2 interface [RDP]","Pause method","IRDPSRAPISharingSession2::Pause","IRDPSRAPISharingSession::Pause","Pause","Pause method [RDP]","Pause method [RDP]","IRDPSRAPISharingSession interface","Pause method [RDP]","IRDPSRAPISharingSession2 interface","rdp.irdpsrapisharingsession_pause","rdpencomapi/IRDPSRAPISharingSession2::Pause","rdpencomapi/IRDPSRAPISharingSession::Pause"]
+description: Pauses the graphics stream that is sent to all viewers from the sharer until IRDPSRAPISharingSession::Resume is called.
+helpviewer_keywords: ["IRDPSRAPISharingSession interface [RDP]","Pause method","IRDPSRAPISharingSession.Pause","IRDPSRAPISharingSession2 interface [RDP]","Pause method","IRDPSRAPISharingSession2::Pause","IRDPSRAPISharingSession::Pause","Pause","Pause method [RDP]","Pause method [RDP]","IRDPSRAPISharingSession interface","Pause method [RDP]","IRDPSRAPISharingSession2 interface","rdp.irdpsrapisharingsession_pause","rdpencomapi/IRDPSRAPISharingSession2::Pause","rdpencomapi/IRDPSRAPISharingSession::Pause"]
 old-location: rdp\irdpsrapisharingsession_pause.htm
 tech.root: rdp
 ms.assetid: 1ea0e8c4-39ef-4261-af7b-d27d6052c17d

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.LoadCursorA
 title: LoadCursorA function (winuser.h)
-description: Loads the specified cursor resource from the executable (.EXE) file associated with an application instance.helpviewer_keywords: ["IDC_APPSTARTING","IDC_ARROW","IDC_CROSS","IDC_HAND","IDC_HELP","IDC_IBEAM","IDC_ICON","IDC_NO","IDC_SIZE","IDC_SIZEALL","IDC_SIZENESW","IDC_SIZENS","IDC_SIZENWSE","IDC_SIZEWE","IDC_UPARROW","IDC_WAIT","LoadCursor","LoadCursor function [Menus and Other Resources]","LoadCursorA","LoadCursorW","_win32_LoadCursor","_win32_loadcursor_cpp","menurc.loadcursor","winui._win32_loadcursor","winuser/LoadCursor","winuser/LoadCursorA","winuser/LoadCursorW"]
+description: Loads the specified cursor resource from the executable (.EXE) file associated with an application instance.
+helpviewer_keywords: ["IDC_APPSTARTING","IDC_ARROW","IDC_CROSS","IDC_HAND","IDC_HELP","IDC_IBEAM","IDC_ICON","IDC_NO","IDC_SIZE","IDC_SIZEALL","IDC_SIZENESW","IDC_SIZENS","IDC_SIZENWSE","IDC_SIZEWE","IDC_UPARROW","IDC_WAIT","LoadCursor","LoadCursor function [Menus and Other Resources]","LoadCursorA","LoadCursorW","_win32_LoadCursor","_win32_loadcursor_cpp","menurc.loadcursor","winui._win32_loadcursor","winuser/LoadCursor","winuser/LoadCursorA","winuser/LoadCursorW"]
 old-location: menurc\loadcursor.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\loadcursor.htm
@@ -297,6 +298,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines LoadCursor as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

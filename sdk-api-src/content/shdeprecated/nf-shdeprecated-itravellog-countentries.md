@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.ITravelLog.CountEntries
 title: ITravelLog::CountEntries (shdeprecated.h)
-description: Deprecated. Generates the number of entries in the travel log.helpviewer_keywords: ["CountEntries","CountEntries method [Windows Shell]","CountEntries method [Windows Shell]","ITravelLog interface","ITravelLog interface [Windows Shell]","CountEntries method","ITravelLog.CountEntries","ITravelLog::CountEntries","shdeprecated/ITravelLog::CountEntries","shell.ITravelLog_CountEntries","zone_ITravelLog_CountEntries"]
+description: Deprecated. Generates the number of entries in the travel log.
+helpviewer_keywords: ["CountEntries","CountEntries method [Windows Shell]","CountEntries method [Windows Shell]","ITravelLog interface","ITravelLog interface [Windows Shell]","CountEntries method","ITravelLog.CountEntries","ITravelLog::CountEntries","shdeprecated/ITravelLog::CountEntries","shell.ITravelLog_CountEntries","zone_ITravelLog_CountEntries"]
 old-location: shell\ITravelLog_CountEntries.htm
 tech.root: shell
 ms.assetid: 490f7350-6c67-4c79-a100-af266b269472

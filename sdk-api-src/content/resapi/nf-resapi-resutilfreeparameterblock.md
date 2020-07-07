@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilFreeParameterBlock
 title: ResUtilFreeParameterBlock function (resapi.h)
-description: Deallocates memory that has been allocated for a parameter block by ResUtilDupParameterBlock.helpviewer_keywords: ["PRESUTIL_FREE_PARAMETER_BLOCK","PRESUTIL_FREE_PARAMETER_BLOCK function [Failover Cluster]","ResUtilFreeParameterBlock","ResUtilFreeParameterBlock function [Failover Cluster]","_wolf_resutilfreeparameterblock","mscs.resutilfreeparameterblock","resapi/PRESUTIL_FREE_PARAMETER_BLOCK","resapi/ResUtilFreeParameterBlock"]
+description: Deallocates memory that has been allocated for a parameter block by ResUtilDupParameterBlock.
+helpviewer_keywords: ["PRESUTIL_FREE_PARAMETER_BLOCK","PRESUTIL_FREE_PARAMETER_BLOCK function [Failover Cluster]","ResUtilFreeParameterBlock","ResUtilFreeParameterBlock function [Failover Cluster]","_wolf_resutilfreeparameterblock","mscs.resutilfreeparameterblock","resapi/PRESUTIL_FREE_PARAMETER_BLOCK","resapi/ResUtilFreeParameterBlock"]
 old-location: mscs\resutilfreeparameterblock.htm
 tech.root: MsCS
 ms.assetid: 2e884794-dbb7-47a8-8843-e9c030ce515d

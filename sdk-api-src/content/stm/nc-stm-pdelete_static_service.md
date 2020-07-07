@@ -1,7 +1,8 @@
 ---
 UID: NC:stm.PDELETE_STATIC_SERVICE
 title: PDELETE_STATIC_SERVICE (stm.h)
-description: The DeleteStaticService function deletes a static service from the table.helpviewer_keywords: ["DeleteStaticService","DeleteStaticService callback function [RAS]","PDELETE_STATIC_SERVICE","PDELETE_STATIC_SERVICE callback","_mpr_deletestaticservice","rras.deletestaticservice","stm/DeleteStaticService"]
+description: The DeleteStaticService function deletes a static service from the table.
+helpviewer_keywords: ["DeleteStaticService","DeleteStaticService callback function [RAS]","PDELETE_STATIC_SERVICE","PDELETE_STATIC_SERVICE callback","_mpr_deletestaticservice","rras.deletestaticservice","stm/DeleteStaticService"]
 old-location: rras\deletestaticservice.htm
 tech.root: RRAS
 ms.assetid: 230ddff5-7fd1-4e4e-b4bb-49c427a3f9c7

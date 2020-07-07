@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_GEMM_OPERATOR_DESC
 title: DML_GEMM_OPERATOR_DESC
-description: Describes a DirectML operator that performs a general matrix multiplication function on the input, y = alpha * transposeA(A) * transposeB(B) + beta * C .helpviewer_keywords: ["DML_GEMM_OPERATOR_DESC","DML_GEMM_OPERATOR_DESC structure","direct3d12.dml_gemm_operator_desc","directml/DML_GEMM_OPERATOR_DESC"]
+description: Describes a DirectML operator that performs a general matrix multiplication function on the input, y = alpha * transposeA(A) * transposeB(B) + beta * C .
+helpviewer_keywords: ["DML_GEMM_OPERATOR_DESC","DML_GEMM_OPERATOR_DESC structure","direct3d12.dml_gemm_operator_desc","directml/DML_GEMM_OPERATOR_DESC"]
 old-location: direct3d12\dml_gemm_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: 11482420-678E-4914-90F0-9F952BC09FF7

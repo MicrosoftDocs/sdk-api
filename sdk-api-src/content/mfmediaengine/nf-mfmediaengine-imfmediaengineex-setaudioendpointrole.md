@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.SetAudioEndpointRole
 title: IMFMediaEngineEx::SetAudioEndpointRole (mfmediaengine.h)
-description: Sets the audio device endpoint used for the next call to SetSource or Load.helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","SetAudioEndpointRole method","IMFMediaEngineEx.SetAudioEndpointRole","IMFMediaEngineEx::SetAudioEndpointRole","SetAudioEndpointRole","SetAudioEndpointRole method [Media Foundation]","SetAudioEndpointRole method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_setaudioendpointrole","mfmediaengine/IMFMediaEngineEx::SetAudioEndpointRole"]
+description: Sets the audio device endpoint used for the next call to SetSource or Load.
+helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","SetAudioEndpointRole method","IMFMediaEngineEx.SetAudioEndpointRole","IMFMediaEngineEx::SetAudioEndpointRole","SetAudioEndpointRole","SetAudioEndpointRole method [Media Foundation]","SetAudioEndpointRole method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_setaudioendpointrole","mfmediaengine/IMFMediaEngineEx::SetAudioEndpointRole"]
 old-location: mf\imfmediaengineex_setaudioendpointrole.htm
 tech.root: medfound
 ms.assetid: 00fd78ce-e046-40a0-8bad-f4a1e1f517bb
@@ -75,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-For information on audio endpoint roles, see <a href="https://docs.microsoft.com/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">ERole  enumeration</a>.
+For information on audio endpoint roles, see <a href="/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole">ERole  enumeration</a>.
 
 
 

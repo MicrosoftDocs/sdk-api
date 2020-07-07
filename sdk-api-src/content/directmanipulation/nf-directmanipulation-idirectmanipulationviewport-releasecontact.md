@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ReleaseContact
 title: IDirectManipulationViewport::ReleaseContact (directmanipulation.h)
-description: Removes a contact that is associated with a viewport.helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","ReleaseContact method","IDirectManipulationViewport.ReleaseContact","IDirectManipulationViewport::ReleaseContact","ReleaseContact","ReleaseContact method [Direct Manipulation]","ReleaseContact method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_releasecontact","directmanipulation/IDirectManipulationViewport::ReleaseContact"]
+description: Removes a contact that is associated with a viewport.
+helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","ReleaseContact method","IDirectManipulationViewport.ReleaseContact","IDirectManipulationViewport::ReleaseContact","ReleaseContact","ReleaseContact method [Direct Manipulation]","ReleaseContact method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_releasecontact","directmanipulation/IDirectManipulationViewport::ReleaseContact"]
 old-location: directmanipulation\idirectmanipulationviewport_releasecontact.htm
 tech.root: directmanipulation
 ms.assetid: fbb5cfba-4722-4470-aad5-2d192825244b

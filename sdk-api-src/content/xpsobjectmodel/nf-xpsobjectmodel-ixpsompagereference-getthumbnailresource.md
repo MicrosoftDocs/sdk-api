@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPageReference.GetThumbnailResource
 title: IXpsOMPageReference::GetThumbnailResource (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMImageResource interface of the thumbnail image resource that is associated with the page.helpviewer_keywords: ["GetThumbnailResource","GetThumbnailResource method [XPS Documents and Packaging]","GetThumbnailResource method [XPS Documents and Packaging]","IXpsOMPageReference interface","IXpsOMPageReference interface [XPS Documents and Packaging]","GetThumbnailResource method","IXpsOMPageReference.GetThumbnailResource","IXpsOMPageReference::GetThumbnailResource","xps.ixpsompagereference_getthumbnailresource","xpsobjectmodel/IXpsOMPageReference::GetThumbnailResource"]
+description: Gets a pointer to the IXpsOMImageResource interface of the thumbnail image resource that is associated with the page.
+helpviewer_keywords: ["GetThumbnailResource","GetThumbnailResource method [XPS Documents and Packaging]","GetThumbnailResource method [XPS Documents and Packaging]","IXpsOMPageReference interface","IXpsOMPageReference interface [XPS Documents and Packaging]","GetThumbnailResource method","IXpsOMPageReference.GetThumbnailResource","IXpsOMPageReference::GetThumbnailResource","xps.ixpsompagereference_getthumbnailresource","xpsobjectmodel/IXpsOMPageReference::GetThumbnailResource"]
 old-location: xps\ixpsompagereference_getthumbnailresource.htm
 tech.root: printdocs
 ms.assetid: ec9cc698-892f-4216-b491-cabdfa60deaa

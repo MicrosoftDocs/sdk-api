@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12.D3D12_HEAP_FLAGS
 title: D3D12_HEAP_FLAGS (d3d12.h)
-description: Specifies heap options, such as whether the heap can contain textures, and whether resources are shared across adapters.helpviewer_keywords: ["D3D12_HEAP_FLAGS","D3D12_HEAP_FLAGS enumeration","D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES","D3D12_HEAP_FLAG_ALLOW_DISPLAY","D3D12_HEAP_FLAG_ALLOW_ONLY_BUFFERS","D3D12_HEAP_FLAG_ALLOW_ONLY_NON_RT_DS_TEXTURES","D3D12_HEAP_FLAG_ALLOW_ONLY_RT_DS_TEXTURES","D3D12_HEAP_FLAG_ALLOW_WRITE_WATCH","D3D12_HEAP_FLAG_DENY_BUFFERS","D3D12_HEAP_FLAG_DENY_NON_RT_DS_TEXTURES","D3D12_HEAP_FLAG_DENY_RT_DS_TEXTURES","D3D12_HEAP_FLAG_HARDWARE_PROTECTED","D3D12_HEAP_FLAG_NONE","D3D12_HEAP_FLAG_SHARED","D3D12_HEAP_FLAG_SHARED_CROSS_ADAPTER","d3d12/D3D12_HEAP_FLAGS","d3d12/D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES","d3d12/D3D12_HEAP_FLAG_ALLOW_DISPLAY","d3d12/D3D12_HEAP_FLAG_ALLOW_ONLY_BUFFERS","d3d12/D3D12_HEAP_FLAG_ALLOW_ONLY_NON_RT_DS_TEXTURES","d3d12/D3D12_HEAP_FLAG_ALLOW_ONLY_RT_DS_TEXTURES","d3d12/D3D12_HEAP_FLAG_ALLOW_WRITE_WATCH","d3d12/D3D12_HEAP_FLAG_DENY_BUFFERS","d3d12/D3D12_HEAP_FLAG_DENY_NON_RT_DS_TEXTURES","d3d12/D3D12_HEAP_FLAG_DENY_RT_DS_TEXTURES","d3d12/D3D12_HEAP_FLAG_HARDWARE_PROTECTED","d3d12/D3D12_HEAP_FLAG_NONE","d3d12/D3D12_HEAP_FLAG_SHARED","d3d12/D3D12_HEAP_FLAG_SHARED_CROSS_ADAPTER","direct3d12.d3d12_heap_flags"]
+description: Specifies heap options, such as whether the heap can contain textures, and whether resources are shared across adapters.
+helpviewer_keywords: ["D3D12_HEAP_FLAGS","D3D12_HEAP_FLAGS enumeration","D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES","D3D12_HEAP_FLAG_ALLOW_DISPLAY","D3D12_HEAP_FLAG_ALLOW_ONLY_BUFFERS","D3D12_HEAP_FLAG_ALLOW_ONLY_NON_RT_DS_TEXTURES","D3D12_HEAP_FLAG_ALLOW_ONLY_RT_DS_TEXTURES","D3D12_HEAP_FLAG_ALLOW_WRITE_WATCH","D3D12_HEAP_FLAG_DENY_BUFFERS","D3D12_HEAP_FLAG_DENY_NON_RT_DS_TEXTURES","D3D12_HEAP_FLAG_DENY_RT_DS_TEXTURES","D3D12_HEAP_FLAG_HARDWARE_PROTECTED","D3D12_HEAP_FLAG_NONE","D3D12_HEAP_FLAG_SHARED","D3D12_HEAP_FLAG_SHARED_CROSS_ADAPTER","d3d12/D3D12_HEAP_FLAGS","d3d12/D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES","d3d12/D3D12_HEAP_FLAG_ALLOW_DISPLAY","d3d12/D3D12_HEAP_FLAG_ALLOW_ONLY_BUFFERS","d3d12/D3D12_HEAP_FLAG_ALLOW_ONLY_NON_RT_DS_TEXTURES","d3d12/D3D12_HEAP_FLAG_ALLOW_ONLY_RT_DS_TEXTURES","d3d12/D3D12_HEAP_FLAG_ALLOW_WRITE_WATCH","d3d12/D3D12_HEAP_FLAG_DENY_BUFFERS","d3d12/D3D12_HEAP_FLAG_DENY_NON_RT_DS_TEXTURES","d3d12/D3D12_HEAP_FLAG_DENY_RT_DS_TEXTURES","d3d12/D3D12_HEAP_FLAG_HARDWARE_PROTECTED","d3d12/D3D12_HEAP_FLAG_NONE","d3d12/D3D12_HEAP_FLAG_SHARED","d3d12/D3D12_HEAP_FLAG_SHARED_CROSS_ADAPTER","direct3d12.d3d12_heap_flags"]
 old-location: direct3d12\d3d12_heap_flags.htm
 tech.root: direct3d12
 ms.assetid: C3C1B611-714C-49DB-8034-9C9B7D6772E4
@@ -43,109 +44,77 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# D3D12_HEAP_FLAGS enumeration
-
-
 ## -description
 
-
 Specifies heap options, such as whether the heap can contain textures, and whether resources are shared across adapters.
-        
-
 
 ## -enum-fields
-
-
-
 
 ### -field D3D12_HEAP_FLAG_NONE
 
 No options are specified.
-          
-
 
 ### -field D3D12_HEAP_FLAG_SHARED
 
 The heap is shared. Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/shared-heaps">Shared Heaps</a>.
 
-
 ### -field D3D12_HEAP_FLAG_DENY_BUFFERS
 
 The heap isn't allowed to contain buffers.
-          
-
 
 ### -field D3D12_HEAP_FLAG_ALLOW_DISPLAY
 
 The heap is allowed to contain swap-chain surfaces.
-           
-
 
 ### -field D3D12_HEAP_FLAG_SHARED_CROSS_ADAPTER
 
 The heap is allowed to share resources across adapters. Refer to <a href="https://docs.microsoft.com/windows/desktop/direct3d12/shared-heaps">Shared Heaps</a>.
-          
-
 
 ### -field D3D12_HEAP_FLAG_DENY_RT_DS_TEXTURES
 
 The heap is not allowed to store Render Target (RT) and/or Depth-Stencil (DS) textures.
-          
-
 
 ### -field D3D12_HEAP_FLAG_DENY_NON_RT_DS_TEXTURES
 
 The heap is not allowed to contain resources with D3D12_RESOURCE_DIMENSION_TEXTURE1D, D3D12_RESOURCE_DIMENSION_TEXTURE2D, or D3D12_RESOURCE_DIMENSION_TEXTURE3D  unless either D3D12_RESOURCE_FLAG_ALLOW_RENDER_TARGET or D3D12_RESOURCE_FLAG_ALLOW_DEPTH_STENCIL are present. Refer to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_dimension">D3D12_RESOURCE_DIMENSION</a> and <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_flags">D3D12_RESOURCE_FLAGS</a>.
 
-
 ### -field D3D12_HEAP_FLAG_HARDWARE_PROTECTED
 
 Unsupported. Do not use.
 
-
 ### -field D3D12_HEAP_FLAG_ALLOW_WRITE_WATCH
 
-The heap supports MEM_WRITE_WATCH functionality, which causes the system to track the pages that are written to in the commited memory region. This flag can't be combined with the D3D12_HEAP_TYPE_DEFAULT or D3D12_CPU_PAGE_PROPERTY_UNKNOWN flags.
-	  Applications are discouraged from using this flag themselves because it prevents tools from using this functionality.
-
+The heap supports MEM_WRITE_WATCH functionality, which causes the system to track the pages that are written to in the commited memory region. This flag can't be combined with the D3D12_HEAP_TYPE_DEFAULT or D3D12_CPU_PAGE_PROPERTY_UNKNOWN flags. Applications are discouraged from using this flag themselves because it prevents tools from using this functionality.
 
 ### -field D3D12_HEAP_FLAG_ALLOW_SHADER_ATOMICS
 
+Ensures that atomic operations will be atomic on this heap's memory, according to components able to see the memory.
+
+Creating a heap with this flag will fail under either of these conditions.
+- The heap type is **D3D12_HEAP_TYPE_DEFAULT**, and the heap can be visible on multiple nodes, but the device does *not* support [**D3D12_CROSS_NODE_SHARING_TIER_3**](/windows/win32/api/d3d12/ne-d3d12-d3d12_cross_node_sharing_tier).
+- The heap is CPU-visible, but the heap type is *not* **D3D12_HEAP_TYPE_CUSTOM**.
+
+Note that heaps with this flag might be a limited resource on some systems.
 
 ### -field D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES
 
-The heap is allowed to store all types of buffers and/or textures.
-            This is an alias; for more details, see "Aliases" in the Remarks section.
-          
-
+The heap is allowed to store all types of buffers and/or textures. This is an alias; for more details, see "Aliases" in the Remarks section.
 
 ### -field D3D12_HEAP_FLAG_ALLOW_ONLY_BUFFERS
 
-The heap is only allowed to store buffers.
-            This is an alias; for more details, see "Aliases" in the Remarks section.
-          
-
+The heap is only allowed to store buffers. This is an alias; for more details, see "Aliases" in the Remarks section.
 
 ### -field D3D12_HEAP_FLAG_ALLOW_ONLY_NON_RT_DS_TEXTURES
 
-The heap is only allowed to store non-RT, non-DS textures.
-            This is an alias; for more details, see "Aliases" in the Remarks section.
-          
-
+The heap is only allowed to store non-RT, non-DS textures. This is an alias; for more details, see "Aliases" in the Remarks section.
 
 ### -field D3D12_HEAP_FLAG_ALLOW_ONLY_RT_DS_TEXTURES
 
-The heap is only allowed to store RT and/or DS textures.
-            This is an alias; for more details, see "Aliases" in the Remarks section.
-          
-
+The heap is only allowed to store RT and/or DS textures. This is an alias; for more details, see "Aliases" in the Remarks section.
 
 ## -remarks
 
-
-
 This enum is used by the following API items:
-        
 
 <ul>
 <li>
@@ -161,9 +130,7 @@ This enum is used by the following API items:
 The following heap flags must be used with <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createheap">ID3D12Device::CreateHeap</a>,
           but will be set automatically for implicit heaps created by <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device-createcommittedresource">ID3D12Device::CreateCommittedResource</a>.
         
-
 Adapters that only support <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_heap_tier">heap tier 1</a> must set two out of the three following flags.
-        
 
 <table>
 <tr>
@@ -200,15 +167,12 @@ Adapters that only support <a href="https://docs.microsoft.com/windows/desktop/a
             </td>
 </tr>
 </table>
- 
 
 <h3><a id="Aliases"></a><a id="aliases"></a><a id="ALIASES"></a>Aliases</h3>
 Adapters that support <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_heap_tier">heap tier 2</a> or greater are additionally allowed to set none of the above flags.
           Aliases for these flags are available for applications that prefer thinking only of which resources are supported.
-        
 
 The following aliases exist, so be careful when doing bit-manipulations:
-        
 
 <ul>
 <li>D3D12_HEAP_FLAG_ALLOW_ALL_BUFFERS_AND_TEXTURES = 0 and is only supported on <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_heap_tier">heap tier 2</a> and greater.
@@ -242,23 +206,10 @@ Additional restrictions to the  <a href="https://docs.microsoft.com/windows/desk
 flags.</li>
 </ul>
 
-
-
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/cd3dx12-heap-desc">CD3DX12_HEAP_DESC</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/descriptor-heaps">Descriptor Heaps</a>
- 
-
- 
-

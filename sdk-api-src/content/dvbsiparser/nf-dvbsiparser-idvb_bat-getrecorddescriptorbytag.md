@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_BAT.GetRecordDescriptorByTag
 title: IDVB_BAT::GetRecordDescriptorByTag (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordDescriptorByTag","GetRecordDescriptorByTag method [Microsoft TV Technologies]","GetRecordDescriptorByTag method [Microsoft TV Technologies]","IDVB_BAT interface","IDVB_BAT interface [Microsoft TV Technologies]","GetRecordDescriptorByTag method","IDVB_BAT.GetRecordDescriptorByTag","IDVB_BAT::GetRecordDescriptorByTag","IDVB_BATGetRecordDescriptorByTag","dvbsiparser/IDVB_BAT::GetRecordDescriptorByTag","mstv.idvb_bat_getrecorddescriptorbytag"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordDescriptorByTag","GetRecordDescriptorByTag method [Microsoft TV Technologies]","GetRecordDescriptorByTag method [Microsoft TV Technologies]","IDVB_BAT interface","IDVB_BAT interface [Microsoft TV Technologies]","GetRecordDescriptorByTag method","IDVB_BAT.GetRecordDescriptorByTag","IDVB_BAT::GetRecordDescriptorByTag","IDVB_BATGetRecordDescriptorByTag","dvbsiparser/IDVB_BAT::GetRecordDescriptorByTag","mstv.idvb_bat_getrecorddescriptorbytag"]
 old-location: mstv\idvb_bat_getrecorddescriptorbytag.htm
 tech.root: mstv
 ms.assetid: 48818e59-6bf0-4f54-8b53-e61fa8b349b3

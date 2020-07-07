@@ -1,7 +1,8 @@
 ---
-UID: NF:d2d1.ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F)
+UID: NF:d2d1.ID2D1Brush.SetTransform(constD2D1_MATRIX_3X2_F)
 title: ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F) (d2d1.h)
-description: Sets the transformation applied to the brush.helpviewer_keywords: ["ID2D1Brush interface [Direct2D]","SetTransform method","ID2D1Brush.SetTransform","ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F)","ID2D1Brush::SetTransform","ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)","ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F*)","SetTransform","SetTransform method [Direct2D]","SetTransform method [Direct2D]","ID2D1Brush interface","d2d1/ID2D1Brush::SetTransform","direct2d.ID2D1Brush_SetTransform_ptr_D2D_MATRIX_3X2_F"]
+description: Sets the transformation applied to the brush.
+helpviewer_keywords: ["ID2D1Brush interface [Direct2D]","SetTransform method","ID2D1Brush.SetTransform","ID2D1Brush.SetTransform(const D2D1_MATRIX_3X2_F)","ID2D1Brush::SetTransform","ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F)","ID2D1Brush::SetTransform(const D2D1_MATRIX_3X2_F*)","SetTransform","SetTransform method [Direct2D]","SetTransform method [Direct2D]","ID2D1Brush interface","d2d1/ID2D1Brush::SetTransform","direct2d.ID2D1Brush_SetTransform_ptr_D2D_MATRIX_3X2_F"]
 old-location: direct2d\ID2D1Brush_SetTransform_ptr_D2D_MATRIX_3X2_F.htm
 tech.root: Direct2D
 ms.assetid: ef9fdd4f-6338-498e-bbed-5fc676fc53b3
@@ -59,7 +60,7 @@ Sets the transformation applied to the brush.
 
 ### -param transform [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The transformation to apply to this brush. 
 
@@ -69,11 +70,11 @@ The transformation to apply to this brush.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
+<a href="/windows/win32/Direct2D/direct2d-brushes-overview">Brushes Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1brush">ID2D1Brush</a>
  
 
  

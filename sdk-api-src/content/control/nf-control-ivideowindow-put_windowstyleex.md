@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IVideoWindow.put_WindowStyleEx
 title: IVideoWindow::put_WindowStyleEx (control.h)
-description: The put_WindowStyleEx method sets the extended window styles on the video window.helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_WindowStyleEx method","IVideoWindow.put_WindowStyleEx","IVideoWindow::put_WindowStyleEx","IVideoWindowput_WindowStyleEx","control/IVideoWindow::put_WindowStyleEx","dshow.ivideowindow_put_windowstyleex","put_WindowStyleEx","put_WindowStyleEx method [DirectShow]","put_WindowStyleEx method [DirectShow]","IVideoWindow interface"]
+description: The put_WindowStyleEx method sets the extended window styles on the video window.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_WindowStyleEx method","IVideoWindow.put_WindowStyleEx","IVideoWindow::put_WindowStyleEx","IVideoWindowput_WindowStyleEx","control/IVideoWindow::put_WindowStyleEx","dshow.ivideowindow_put_windowstyleex","put_WindowStyleEx","put_WindowStyleEx method [DirectShow]","put_WindowStyleEx method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_windowstyleex.htm
 tech.root: DirectShow
 ms.assetid: 19d56e9d-6f6d-46aa-b46f-a62302b41d2f

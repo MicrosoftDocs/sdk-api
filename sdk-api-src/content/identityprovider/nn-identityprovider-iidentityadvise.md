@@ -1,7 +1,8 @@
 ---
 UID: NN:identityprovider.IIdentityAdvise
 title: IIdentityAdvise (identityprovider.h)
-description: Allows an identity provider to notify a calling application when an identity is updated.helpviewer_keywords: ["IIdentityAdvise","IIdentityAdvise interface [Security]","IIdentityAdvise interface [Security]","described","identityprovider/IIdentityAdvise","identitystore/IIdentityAdvise","security.iidentityadvise"]
+description: Allows an identity provider to notify a calling application when an identity is updated.
+helpviewer_keywords: ["IIdentityAdvise","IIdentityAdvise interface [Security]","IIdentityAdvise interface [Security]","described","identityprovider/IIdentityAdvise","identitystore/IIdentityAdvise","security.iidentityadvise"]
 old-location: security\iidentityadvise.htm
 tech.root: SecAuthN
 ms.assetid: fa348d46-bcd2-4009-89d6-11e738d4a82b

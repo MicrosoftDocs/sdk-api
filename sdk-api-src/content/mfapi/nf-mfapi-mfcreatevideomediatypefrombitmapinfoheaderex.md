@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateVideoMediaTypeFromBitMapInfoHeaderEx
 title: MFCreateVideoMediaTypeFromBitMapInfoHeaderEx function (mfapi.h)
-description: Creates a video media type from a BITMAPINFOHEADER structure.helpviewer_keywords: ["MFCreateVideoMediaTypeFromBitMapInfoHeaderEx","MFCreateVideoMediaTypeFromBitMapInfoHeaderEx function [Media Foundation]","mf.mfcreatevideomediatypefrombitmapinfoheaderex","mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeaderEx"]
+description: Creates a video media type from a BITMAPINFOHEADER structure.
+helpviewer_keywords: ["MFCreateVideoMediaTypeFromBitMapInfoHeaderEx","MFCreateVideoMediaTypeFromBitMapInfoHeaderEx function [Media Foundation]","mf.mfcreatevideomediatypefrombitmapinfoheaderex","mfapi/MFCreateVideoMediaTypeFromBitMapInfoHeaderEx"]
 old-location: mf\mfcreatevideomediatypefrombitmapinfoheaderex.htm
 tech.root: medfound
 ms.assetid: 27160995-e934-4050-a231-d69d4f75dfce

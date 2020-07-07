@@ -1,7 +1,8 @@
 ---
 UID: NF:dxva2api.IDirectXVideoDecoderService.GetDecoderRenderTargets
 title: IDirectXVideoDecoderService::GetDecoderRenderTargets (dxva2api.h)
-description: Retrieves the supported render targets for a specified decoder device.helpviewer_keywords: ["GetDecoderRenderTargets","GetDecoderRenderTargets method [Media Foundation]","GetDecoderRenderTargets method [Media Foundation]","IDirectXVideoDecoderService interface","IDirectXVideoDecoderService interface [Media Foundation]","GetDecoderRenderTargets method","IDirectXVideoDecoderService.GetDecoderRenderTargets","IDirectXVideoDecoderService::GetDecoderRenderTargets","cde04894-9042-4916-b195-60d84d0f87ec","dxva2api/IDirectXVideoDecoderService::GetDecoderRenderTargets","mf.idirectxvideodecoderservice_getdecoderrendertargets"]
+description: Retrieves the supported render targets for a specified decoder device.
+helpviewer_keywords: ["GetDecoderRenderTargets","GetDecoderRenderTargets method [Media Foundation]","GetDecoderRenderTargets method [Media Foundation]","IDirectXVideoDecoderService interface","IDirectXVideoDecoderService interface [Media Foundation]","GetDecoderRenderTargets method","IDirectXVideoDecoderService.GetDecoderRenderTargets","IDirectXVideoDecoderService::GetDecoderRenderTargets","cde04894-9042-4916-b195-60d84d0f87ec","dxva2api/IDirectXVideoDecoderService::GetDecoderRenderTargets","mf.idirectxvideodecoderservice_getdecoderrendertargets"]
 old-location: mf\idirectxvideodecoderservice_getdecoderrendertargets.htm
 tech.root: medfound
 ms.assetid: cde04894-9042-4916-b195-60d84d0f87ec

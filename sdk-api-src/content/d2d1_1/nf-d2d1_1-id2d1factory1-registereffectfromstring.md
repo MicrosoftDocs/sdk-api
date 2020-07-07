@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.RegisterEffectFromString
 title: ID2D1Factory1::RegisterEffectFromString (d2d1_1.h)
-description: Registers an effect within the factory instance with the property XML specified as a string.helpviewer_keywords: ["ID2D1Factory1 interface [Direct2D]","RegisterEffectFromString method","ID2D1Factory1.RegisterEffectFromString","ID2D1Factory1::RegisterEffectFromString","RegisterEffectFromString","RegisterEffectFromString method [Direct2D]","RegisterEffectFromString method [Direct2D]","ID2D1Factory1 interface","d2d1_1/ID2D1Factory1::RegisterEffectFromString","direct2d.id2d1factory1_registereffect"]
+description: Registers an effect within the factory instance with the property XML specified as a string.
+helpviewer_keywords: ["ID2D1Factory1 interface [Direct2D]","RegisterEffectFromString method","ID2D1Factory1.RegisterEffectFromString","ID2D1Factory1::RegisterEffectFromString","RegisterEffectFromString","RegisterEffectFromString method [Direct2D]","RegisterEffectFromString method [Direct2D]","ID2D1Factory1 interface","d2d1_1/ID2D1Factory1::RegisterEffectFromString","direct2d.id2d1factory1_registereffect"]
 old-location: direct2d\id2d1factory1_registereffect.htm
 tech.root: Direct2D
 ms.assetid: 9988aad6-0487-4f48-a05c-1dfb944f6ce7

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.SetLastLineWrapping
 title: IDWriteTextFormat1::SetLastLineWrapping (dwrite_2.h)
-description: Sets the wrapping mode of the last line.helpviewer_keywords: ["IDWriteTextFormat1 interface [Direct Write]","SetLastLineWrapping method","IDWriteTextFormat1.SetLastLineWrapping","IDWriteTextFormat1::SetLastLineWrapping","SetLastLineWrapping","SetLastLineWrapping method [Direct Write]","SetLastLineWrapping method [Direct Write]","IDWriteTextFormat1 interface","directwrite.idwritetextformat1_setwraponlastline","dwrite_2/IDWriteTextFormat1::SetLastLineWrapping"]
+description: Sets the wrapping mode of the last line.
+helpviewer_keywords: ["IDWriteTextFormat1 interface [Direct Write]","SetLastLineWrapping method","IDWriteTextFormat1.SetLastLineWrapping","IDWriteTextFormat1::SetLastLineWrapping","SetLastLineWrapping","SetLastLineWrapping method [Direct Write]","SetLastLineWrapping method [Direct Write]","IDWriteTextFormat1 interface","directwrite.idwritetextformat1_setwraponlastline","dwrite_2/IDWriteTextFormat1::SetLastLineWrapping"]
 old-location: directwrite\idwritetextformat1_setwraponlastline.htm
 tech.root: DirectWrite
 ms.assetid: 2A842924-B925-4F16-A1A0-997142233AA9

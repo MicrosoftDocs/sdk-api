@@ -1,7 +1,8 @@
 ---
 UID: NS:lmshare._SHARE_INFO_503
 title: SHARE_INFO_503 (lmshare.h)
-description: Contains information about the shared resource. It is identical to the SHARE_INFO_502 structure, except that it also contains the server name.helpviewer_keywords: ["*LPSHARE_INFO_503","*PSHARE_INFO_503","ACCESS_ALL","ACCESS_ATRIB","ACCESS_CREATE","ACCESS_DELETE","ACCESS_EXEC","ACCESS_PERM","ACCESS_READ","ACCESS_WRITE","LPSHARE_INFO_503","LPSHARE_INFO_503 structure pointer [Files]","PSHARE_INFO_503","PSHARE_INFO_503 structure pointer [Files]","SHARE_INFO_503","SHARE_INFO_503 structure [Files]","STYPE_DEVICE","STYPE_DISKTREE","STYPE_IPC","STYPE_PRINTQ","STYPE_SPECIAL","STYPE_TEMPORARY","fs.share_info_503","fs.share_info_503_str","lmshare/LPSHARE_INFO_503","lmshare/PSHARE_INFO_503","lmshare/SHARE_INFO_503"]
+description: Contains information about the shared resource. It is identical to the SHARE_INFO_502 structure, except that it also contains the server name.
+helpviewer_keywords: ["*LPSHARE_INFO_503","*PSHARE_INFO_503","ACCESS_ALL","ACCESS_ATRIB","ACCESS_CREATE","ACCESS_DELETE","ACCESS_EXEC","ACCESS_PERM","ACCESS_READ","ACCESS_WRITE","LPSHARE_INFO_503","LPSHARE_INFO_503 structure pointer [Files]","PSHARE_INFO_503","PSHARE_INFO_503 structure pointer [Files]","SHARE_INFO_503","SHARE_INFO_503 structure [Files]","STYPE_DEVICE","STYPE_DISKTREE","STYPE_IPC","STYPE_PRINTQ","STYPE_SPECIAL","STYPE_TEMPORARY","fs.share_info_503","fs.share_info_503_str","lmshare/LPSHARE_INFO_503","lmshare/PSHARE_INFO_503","lmshare/SHARE_INFO_503"]
 old-location: fs\share_info_503_str.htm
 tech.root: NetShare
 ms.assetid: 12650bc0-f67d-464e-8386-a0fd53cdc749

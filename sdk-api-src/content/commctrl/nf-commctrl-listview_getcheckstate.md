@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetCheckState
 title: ListView_GetCheckState macro (commctrl.h)
-description: Determines if an item in a list-view control is selected. This should be used only for list-view controls that have the LVS_EX_CHECKBOXES style.helpviewer_keywords: ["ListView_GetCheckState","ListView_GetCheckState macro [Windows Controls]","_win32_ListView_GetCheckState","_win32_ListView_GetCheckState_cpp","commctrl/ListView_GetCheckState","controls.ListView_GetCheckState","controls._win32_ListView_GetCheckState"]
+description: Determines if an item in a list-view control is selected. This should be used only for list-view controls that have the LVS_EX_CHECKBOXES style.
+helpviewer_keywords: ["ListView_GetCheckState","ListView_GetCheckState macro [Windows Controls]","_win32_ListView_GetCheckState","_win32_ListView_GetCheckState_cpp","commctrl/ListView_GetCheckState","controls.ListView_GetCheckState","controls._win32_ListView_GetCheckState"]
 old-location: controls\ListView_GetCheckState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getcheckstate.htm

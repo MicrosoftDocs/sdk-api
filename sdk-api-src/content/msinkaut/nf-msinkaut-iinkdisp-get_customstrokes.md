@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkDisp.get_CustomStrokes
 title: IInkDisp::get_CustomStrokes (msinkaut.h)
-description: Gets the collection of custom strokes to be persisted with the ink.helpviewer_keywords: ["33425e5b-2ba0-4026-ab19-33579e7bb9f5","CustomStrokes property [Tablet PC]","CustomStrokes property [Tablet PC]","IInkDisp interface","IInkDisp interface [Tablet PC]","CustomStrokes property","IInkDisp.CustomStrokes","IInkDisp.get_CustomStrokes","IInkDisp::CustomStrokes","IInkDisp::get_CustomStrokes","InkDisp.get_CustomStrokes","get_CustomStrokes","msinkaut/IInkDisp::CustomStrokes","msinkaut/IInkDisp::get_CustomStrokes","tablet.inkdisp_customstrokes"]
+description: Gets the collection of custom strokes to be persisted with the ink.
+helpviewer_keywords: ["33425e5b-2ba0-4026-ab19-33579e7bb9f5","CustomStrokes property [Tablet PC]","CustomStrokes property [Tablet PC]","IInkDisp interface","IInkDisp interface [Tablet PC]","CustomStrokes property","IInkDisp.CustomStrokes","IInkDisp.get_CustomStrokes","IInkDisp::CustomStrokes","IInkDisp::get_CustomStrokes","InkDisp.get_CustomStrokes","get_CustomStrokes","msinkaut/IInkDisp::CustomStrokes","msinkaut/IInkDisp::get_CustomStrokes","tablet.inkdisp_customstrokes"]
 old-location: tablet\inkdisp_customstrokes.htm
 tech.root: tablet
 ms.assetid: 33425e5b-2ba0-4026-ab19-33579e7bb9f5

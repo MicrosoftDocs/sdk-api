@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IDVBSLocator.put_WestPosition
 title: IDVBSLocator::put_WestPosition (tuner.h)
-description: The put_WestPosition method sets the longitudinal position as west longitude or east longitude.helpviewer_keywords: ["IDVBSLocator interface [Microsoft TV Technologies]","put_WestPosition method","IDVBSLocator.put_WestPosition","IDVBSLocator::put_WestPosition","IDVBSLocatorput_WestPosition","mstv.idvbslocator_put_westposition","put_WestPosition","put_WestPosition method [Microsoft TV Technologies]","put_WestPosition method [Microsoft TV Technologies]","IDVBSLocator interface","tuner/IDVBSLocator::put_WestPosition"]
+description: The put_WestPosition method sets the longitudinal position as west longitude or east longitude.
+helpviewer_keywords: ["IDVBSLocator interface [Microsoft TV Technologies]","put_WestPosition method","IDVBSLocator.put_WestPosition","IDVBSLocator::put_WestPosition","IDVBSLocatorput_WestPosition","mstv.idvbslocator_put_westposition","put_WestPosition","put_WestPosition method [Microsoft TV Technologies]","put_WestPosition method [Microsoft TV Technologies]","IDVBSLocator interface","tuner/IDVBSLocator::put_WestPosition"]
 old-location: mstv\idvbslocator_put_westposition.htm
 tech.root: mstv
 ms.assetid: 567aa90e-6179-477a-813d-13e99b16bbc2

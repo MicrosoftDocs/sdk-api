@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IBindCtx.RevokeObjectParam
 title: IBindCtx::RevokeObjectParam (objidl.h)
-description: Removes the specified key and its associated pointer from the bind context's string-keyed table of objects. The key must have previously been inserted into the table with a call to RegisterObjectParam.helpviewer_keywords: ["IBindCtx interface [COM]","RevokeObjectParam method","IBindCtx.RevokeObjectParam","IBindCtx::RevokeObjectParam","RevokeObjectParam","RevokeObjectParam method [COM]","RevokeObjectParam method [COM]","IBindCtx interface","_com_ibindctx_revokeobjectparam","com.ibindctx_revokeobjectparam","objidl/IBindCtx::RevokeObjectParam"]
+description: Removes the specified key and its associated pointer from the bind context's string-keyed table of objects. The key must have previously been inserted into the table with a call to RegisterObjectParam.
+helpviewer_keywords: ["IBindCtx interface [COM]","RevokeObjectParam method","IBindCtx.RevokeObjectParam","IBindCtx::RevokeObjectParam","RevokeObjectParam","RevokeObjectParam method [COM]","RevokeObjectParam method [COM]","IBindCtx interface","_com_ibindctx_revokeobjectparam","com.ibindctx_revokeobjectparam","objidl/IBindCtx::RevokeObjectParam"]
 old-location: com\ibindctx_revokeobjectparam.htm
 tech.root: com
 ms.assetid: e7dbf9c8-0ecf-4076-8bec-4da457c60cee

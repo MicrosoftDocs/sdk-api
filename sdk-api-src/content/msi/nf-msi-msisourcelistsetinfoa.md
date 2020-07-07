@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListSetInfoA
 title: MsiSourceListSetInfoA function (msi.h)
-description: Sets information about the source list for a product or patch in a specific context.helpviewer_keywords: ["INSTALLPROPERTY_DISKPROMPT","INSTALLPROPERTY_LASTUSEDSOURCE","INSTALLPROPERTY_MEDIAPACKAGEPATH","INSTALLPROPERTY_PACKAGENAME","MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListSetInfo","MsiSourceListSetInfo function","MsiSourceListSetInfoA","MsiSourceListSetInfoW","NULL","User SID","msi/MsiSourceListSetInfo","msi/MsiSourceListSetInfoA","msi/MsiSourceListSetInfoW","setup.msisourcelistsetinfo"]
+description: Sets information about the source list for a product or patch in a specific context.
+helpviewer_keywords: ["INSTALLPROPERTY_DISKPROMPT","INSTALLPROPERTY_LASTUSEDSOURCE","INSTALLPROPERTY_MEDIAPACKAGEPATH","INSTALLPROPERTY_PACKAGENAME","MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListSetInfo","MsiSourceListSetInfo function","MsiSourceListSetInfoA","MsiSourceListSetInfoW","NULL","User SID","msi/MsiSourceListSetInfo","msi/MsiSourceListSetInfoA","msi/MsiSourceListSetInfoW","setup.msisourcelistsetinfo"]
 old-location: setup\msisourcelistsetinfo.htm
 tech.root: Msi
 ms.assetid: c449bb2e-2ced-4cde-9111-d3c10db669e1
@@ -390,6 +391,10 @@ An exception to the above rule is setting "LastUsedSource" to one of the registe
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListSetInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

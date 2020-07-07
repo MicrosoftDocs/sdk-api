@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsPropertyList.PutPropertyItem
 title: IADsPropertyList::PutPropertyItem (iads.h)
-description: Updates the values for an item in the property list.helpviewer_keywords: ["IADsPropertyList interface [ADSI]","PutPropertyItem method","IADsPropertyList.PutPropertyItem","IADsPropertyList::PutPropertyItem","PutPropertyItem","PutPropertyItem method [ADSI]","PutPropertyItem method [ADSI]","IADsPropertyList interface","_ds_iadspropertylist_putpropertyitem","adsi.iadspropertylist__putpropertyitem","adsi.iadspropertylist_putpropertyitem","iads/IADsPropertyList::PutPropertyItem"]
+description: Updates the values for an item in the property list.
+helpviewer_keywords: ["IADsPropertyList interface [ADSI]","PutPropertyItem method","IADsPropertyList.PutPropertyItem","IADsPropertyList::PutPropertyItem","PutPropertyItem","PutPropertyItem method [ADSI]","PutPropertyItem method [ADSI]","IADsPropertyList interface","_ds_iadspropertylist_putpropertyitem","adsi.iadspropertylist__putpropertyitem","adsi.iadspropertylist_putpropertyitem","iads/IADsPropertyList::PutPropertyItem"]
 old-location: adsi\iadspropertylist_putpropertyitem.htm
 tech.root: adsi
 ms.assetid: 16af5cbf-3b87-467e-8e72-0110bcf95295
@@ -75,7 +76,7 @@ This method supports the standard HRESULT return values, including S_OK. For mor
 
 
 
-The  <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyentry-property-methods">IADsPropertyEntry::put_ControlCode</a> should be set to the desired modify / add / delete operation by using the proper  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_property_operation_enum">ADS_PROPERTY_OPERATION_ENUM</a> value. After <b>PutPropertyItem</b> has been called, you must call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> to persist any changes in the directory store. The property values are not committed until the <b>IADs::SetInfo</b> method is called.
+The  <a href="https://docs.microsoft.com/windows/desktop/ADSI/iadspropertyentry-property-methods">IADsPropertyEntry::put_ControlCode</a> should be set to the desired modify / add / delete operation by using the proper  <a href="/windows/win32/api/iads/ne-iads-ads_property_operation_enum">ADS_PROPERTY_OPERATION_ENUM</a> value. After <b>PutPropertyItem</b> has been called, you must call  <a href="https://docs.microsoft.com/windows/desktop/api/iads/nf-iads-iads-setinfo">IADs::SetInfo</a> to persist any changes in the directory store. The property values are not committed until the <b>IADs::SetInfo</b> method is called.
 
 
 #### Examples

@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsPathname.Retrieve
 title: IADsPathname::Retrieve (iads.h)
-description: The IADsPathname::Retrieve method retrieves the path of the object with different format types.helpviewer_keywords: ["IADsPathname interface [ADSI]","Retrieve method","IADsPathname.Retrieve","IADsPathname::Retrieve","Retrieve","Retrieve method [ADSI]","Retrieve method [ADSI]","IADsPathname interface","_ds_iadspathname_retrieve","adsi.iadspathname__retrieve","adsi.iadspathname_retrieve","iads/IADsPathname::Retrieve"]
+description: The IADsPathname::Retrieve method retrieves the path of the object with different format types.
+helpviewer_keywords: ["IADsPathname interface [ADSI]","Retrieve method","IADsPathname.Retrieve","IADsPathname::Retrieve","Retrieve","Retrieve method [ADSI]","Retrieve method [ADSI]","IADsPathname interface","_ds_iadspathname_retrieve","adsi.iadspathname__retrieve","adsi.iadspathname_retrieve","iads/IADsPathname::Retrieve"]
 old-location: adsi\iadspathname_retrieve.htm
 tech.root: adsi
 ms.assetid: c34f2a5e-5faf-45bf-acc6-8db5fc8bf5fa
@@ -59,7 +60,7 @@ The <b>IADsPathname::Retrieve</b> method retrieves the path of the object with d
 
 ### -param lnFormatType [in]
 
-Specifies the format that the path should be retrieved in. This can be one of the values specified in the <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> enumeration.
+Specifies the format that the path should be retrieved in. This can be one of the values specified in the <a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a> enumeration.
 
 
 ### -param pbstrADsPath [out]
@@ -87,7 +88,7 @@ For more information and other return values, see  <a href="https://docs.microso
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_format_enum">ADS_FORMAT_ENUM</a>
 
 
 

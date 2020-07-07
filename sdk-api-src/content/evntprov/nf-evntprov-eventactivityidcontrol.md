@@ -1,7 +1,8 @@
 ---
 UID: NF:evntprov.EventActivityIdControl
 title: EventActivityIdControl function (evntprov.h)
-description: Creates, queries, and sets the current activity identifier used by the EventWriteTransfer function.helpviewer_keywords: ["EVENT_ACTIVITY_CTRL_CREATE_ID","EVENT_ACTIVITY_CTRL_CREATE_SET_ID","EVENT_ACTIVITY_CTRL_GET_ID","EVENT_ACTIVITY_CTRL_GET_SET_ID","EVENT_ACTIVITY_CTRL_SET_ID","EventActivityIdControl","EventActivityIdControl function [ETW]","base.eventactivityidcontrol_func","etw.eventactivityidcontrol_func","evntprov/EventActivityIdControl"]
+description: Creates, queries, and sets the current activity identifier used by the EventWriteTransfer function.
+helpviewer_keywords: ["EVENT_ACTIVITY_CTRL_CREATE_ID","EVENT_ACTIVITY_CTRL_CREATE_SET_ID","EVENT_ACTIVITY_CTRL_GET_ID","EVENT_ACTIVITY_CTRL_GET_SET_ID","EVENT_ACTIVITY_CTRL_SET_ID","EventActivityIdControl","EventActivityIdControl function [ETW]","base.eventactivityidcontrol_func","etw.eventactivityidcontrol_func","evntprov/EventActivityIdControl"]
 old-location: etw\eventactivityidcontrol_func.htm
 tech.root: ETW
 ms.assetid: 1c412909-bdff-4181-9750-f3444fda4c8f

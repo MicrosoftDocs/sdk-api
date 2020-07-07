@@ -24,6 +24,7 @@ To develop Microsoft Media Foundation, you need these headers:
  * [ksopmapi.h](../ksopmapi/index.md)
  * [mfapi.h](../mfapi/index.md)
  * [mfcaptureengine.h](../mfcaptureengine/index.md)
+ * [mfcontentdecryptionmodule.h](../mfcontentdecryptionmodule/index.md)
  * [mfidl.h](../mfidl/index.md)
  * [mfmediacapture.h](../mfmediacapture/index.md)
  * [mfmediaengine.h](../mfmediaengine/index.md)

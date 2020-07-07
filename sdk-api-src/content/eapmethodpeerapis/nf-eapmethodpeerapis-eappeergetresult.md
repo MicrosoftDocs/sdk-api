@@ -1,7 +1,8 @@
 ---
 UID: NF:eapmethodpeerapis.EapPeerGetResult
 title: EapPeerGetResult function (eapmethodpeerapis.h)
-description: Obtains the result of an authentication session from the EAP method.helpviewer_keywords: ["EapPeerGetResult","EapPeerGetResult function [EAPHost]","eaphost.eappeergetresult","eapmethodpeerapis/EapPeerGetResult"]
+description: Obtains the result of an authentication session from the EAP method.
+helpviewer_keywords: ["EapPeerGetResult","EapPeerGetResult function [EAPHost]","eaphost.eappeergetresult","eapmethodpeerapis/EapPeerGetResult"]
 old-location: eaphost\eappeergetresult.htm
 tech.root: eaphost
 ms.assetid: fc73cf5f-68c5-403b-8bf1-6befa2c4f5d8
@@ -66,12 +67,12 @@ A pointer to an <b>EAP_SESSION_HANDLE</b> structure that contains the unique han
 
 ### -param reason [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresultreason">EapPeerMethodResultReason</a> structure that specifies the reason code for the authentication result returned in <i>ppResult</i>.
+A <a href="/windows/win32/api/eapauthenticatoractiondefine/ne-eapauthenticatoractiondefine-eappeermethodresultreason">EapPeerMethodResultReason</a> structure that specifies the reason code for the authentication result returned in <i>ppResult</i>.
 
 
 ### -param ppResult [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/eapmethodpeerapis/ns-eapmethodpeerapis-eappeermethodresult">EapPeerMethodResult</a> structure that contains the authentication results.
+A pointer to a <a href="/windows/win32/api/eapmethodpeerapis/ns-eapmethodpeerapis-eappeermethodresult">EapPeerMethodResult</a> structure that contains the authentication results.
 
 
 ### -param ppEapError [out]
@@ -93,7 +94,7 @@ This call is performed by a peer-based EAPHost using a function pointer to this 
 
 
 
-[EAPHost Peer Method Run-Time Functions](https://docs.microsoft.com/windows/win32/eaphost/eaphost-peer-method-run-time-functions)a>
+[EAPHost Peer Method Run-Time Functions](/windows/win32/eaphost/eaphost-peer-method-run-time-functions)
  
 
  

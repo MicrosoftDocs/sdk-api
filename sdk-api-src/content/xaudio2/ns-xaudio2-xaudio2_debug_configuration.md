@@ -1,7 +1,8 @@
 ---
 UID: NS:xaudio2.XAUDIO2_DEBUG_CONFIGURATION
 title: XAUDIO2_DEBUG_CONFIGURATION (xaudio2.h)
-description: Contains the new global debug configuration for XAudio2. Used with the SetDebugConfiguration function.helpviewer_keywords: ["XAUDIO2_DEBUG_CONFIGURATION","XAUDIO2_DEBUG_CONFIGURATION structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_debug_configuration","xaudio2/XAUDIO2_DEBUG_CONFIGURATION"]
+description: Contains the new global debug configuration for XAudio2. Used with the SetDebugConfiguration function.
+helpviewer_keywords: ["XAUDIO2_DEBUG_CONFIGURATION","XAUDIO2_DEBUG_CONFIGURATION structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_debug_configuration","xaudio2/XAUDIO2_DEBUG_CONFIGURATION"]
 old-location: xaudio2\xaudio2_debug_configuration.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_DEBUG_CONFIGURATION

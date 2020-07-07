@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmGetDestInfo
 title: RtmGetDestInfo function (rtmv2.h)
-description: The RtmGetDestInfo function returns information about a destination.helpviewer_keywords: ["RtmGetDestInfo","RtmGetDestInfo function [RAS]","_rtmv2ref_rtmgetdestinfo","rras.rtmgetdestinfo","rtmv2/RtmGetDestInfo"]
+description: The RtmGetDestInfo function returns information about a destination.
+helpviewer_keywords: ["RtmGetDestInfo","RtmGetDestInfo function [RAS]","_rtmv2ref_rtmgetdestinfo","rras.rtmgetdestinfo","rtmv2/RtmGetDestInfo"]
 old-location: rras\rtmgetdestinfo.htm
 tech.root: RRAS
 ms.assetid: bf6525ea-5f32-41d3-b436-920e7369b926

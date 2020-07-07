@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IRowsetPrioritization.GetScopeStatistics
 title: IRowsetPrioritization::GetScopeStatistics (searchapi.h)
-description: Gets information describing the scope specified by this query.helpviewer_keywords: ["GetScopeStatistics","GetScopeStatistics method [search]","GetScopeStatistics method [search]","IRowsetPrioritization interface","IRowsetPrioritization interface [search]","GetScopeStatistics method","IRowsetPrioritization.GetScopeStatistics","IRowsetPrioritization::GetScopeStatistics","_search_IRowsetPrioritization_GetScopeStatistics","search._search_IRowsetPrioritization_GetScopeStatistics","searchapi/IRowsetPrioritization::GetScopeStatistics"]
+description: Gets information describing the scope specified by this query.
+helpviewer_keywords: ["GetScopeStatistics","GetScopeStatistics method [search]","GetScopeStatistics method [search]","IRowsetPrioritization interface","IRowsetPrioritization interface [search]","GetScopeStatistics method","IRowsetPrioritization.GetScopeStatistics","IRowsetPrioritization::GetScopeStatistics","_search_IRowsetPrioritization_GetScopeStatistics","search._search_IRowsetPrioritization_GetScopeStatistics","searchapi/IRowsetPrioritization::GetScopeStatistics"]
 old-location: search\_search_IRowsetPrioritization_GetScopeStatistics.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\ifaces\querying\irowsetprioritization\getscopestatistics.htm
@@ -100,10 +101,7 @@ Returns S_OK if successful, <b>HRESULT_FROM_WIN32(ERROR_PATH_NOT_FOUND)</b> if t
 
 The <b>GetScopeStatistics</b> event can be used to get the number of indexed items in the scope, the number of outstanding docs to be added in the scope, and the number of docs that need to be re-indexed within this scope.
 
-The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to prioritize indexing events.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
 
 ## -see-also
 
@@ -126,19 +124,19 @@ The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-tagprioritize_flags">PRIORITIZE_FLAGS</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

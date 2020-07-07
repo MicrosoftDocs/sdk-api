@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_4.ID3D11VideoContext3.DecoderBeginFrame1
 title: ID3D11VideoContext3::DecoderBeginFrame1
-description: Starts a decoding operation to decode a video frame.helpviewer_keywords: ["ID3D11VideoContext3::DecoderBeginFrame1"]
+description: Starts a decoding operation to decode a video frame.
+helpviewer_keywords: ["ID3D11VideoContext3::DecoderBeginFrame1"]
 ms.date: 4/26/2019
 ms.keywords: ID3D11VideoContext3::DecoderBeginFrame1
 f1_keywords:
@@ -46,11 +47,11 @@ Starts a decoding operation to decode a video frame.
 
 ### -param pDecoder
 
-A pointer to the [ID3D11VideoDecoder](https://docs.microsoft.com/windows/win32/api/d3d11/nn-d3d11-id3d11videodecoder) interface. To get this pointer, call [ID3D11VideoDevice::CreateVideoDecoder](https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder)
+A pointer to the [ID3D11VideoDecoder](/windows/win32/api/d3d11/nn-d3d11-id3d11videodecoder) interface. To get this pointer, call [ID3D11VideoDevice::CreateVideoDecoder](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoder)
 
 ### -param pView
 
-A pointer to a [ID3D11VideoDecoderOutputView](https://docs.microsoft.com/windows/win32/api/d3d11/nn-d3d11-id3d11videodecoderoutputview) interface. This interface describes the resource that will receive the decoded frame. To get this pointer, call [ID3D11VideoDevice::CreateVideoDecoderOutputView](https://docs.microsoft.com/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoderoutputview
+A pointer to a [ID3D11VideoDecoderOutputView](/windows/win32/api/d3d11/nn-d3d11-id3d11videodecoderoutputview) interface. This interface describes the resource that will receive the decoded frame. To get this pointer, call [ID3D11VideoDevice::CreateVideoDecoderOutputView](/windows/win32/api/d3d11/nf-d3d11-id3d11videodevice-createvideodecoderoutputview
 ).
 
 ### -param ContentKeySize
@@ -79,7 +80,7 @@ Returns **S\_OK** if successful.
 
 ## -remarks
 
-The following [D3D11_RESOURCE_MISC](https://docs.microsoft.com/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) flags are allowed when allocating resources for video decode histograms.
+The following [D3D11_RESOURCE_MISC](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag) flags are allowed when allocating resources for video decode histograms.
 
 - D3D11_RESOURCE_MISC_SHARED
 - D3D11_RESOURCE_MISC_DRAWINDIRECT_ARGS

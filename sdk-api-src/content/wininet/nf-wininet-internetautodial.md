@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetAutodial
 title: InternetAutodial function (wininet.h)
-description: Causes the modem to automatically dial the default Internet connection.helpviewer_keywords: ["INTERNET_AUTODIAL_FAILIFSECURITYCHECK","INTERNET_AUTODIAL_FORCE_ONLINE","INTERNET_AUTODIAL_FORCE_UNATTENDED","INTERNET_AUTODIAL_OVERRIDE_NET_PRESENT","InternetAutodial","InternetAutodial function [WinINet]","_inet_internetautodial_function","wininet.internetautodial","winineti/InternetAutodial"]
+description: Causes the modem to automatically dial the default Internet connection.
+helpviewer_keywords: ["INTERNET_AUTODIAL_FAILIFSECURITYCHECK","INTERNET_AUTODIAL_FORCE_ONLINE","INTERNET_AUTODIAL_FORCE_UNATTENDED","INTERNET_AUTODIAL_OVERRIDE_NET_PRESENT","InternetAutodial","InternetAutodial function [WinINet]","_inet_internetautodial_function","wininet.internetautodial","winineti/InternetAutodial"]
 old-location: wininet\internetautodial.htm
 tech.root: wininet
 ms.assetid: 843875a8-6c83-4259-8e46-a04f786eb230

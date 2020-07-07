@@ -1,7 +1,8 @@
 ---
 UID: NF:fltuser.FilterLoad
 title: FilterLoad function (fltuser.h)
-description: The FilterLoad function dynamically loads a minifilter driver into the system.helpviewer_keywords: ["FilterLoad","FilterLoad function [Installable File System Drivers]","FltWin32ApiRef_273c18c5-9474-4605-80a1-1bc4cb9e4e7b.xml","fltuser/FilterLoad","ifsk.filterload"]
+description: The FilterLoad function dynamically loads a minifilter driver into the system.
+helpviewer_keywords: ["FilterLoad","FilterLoad function [Installable File System Drivers]","FltWin32ApiRef_273c18c5-9474-4605-80a1-1bc4cb9e4e7b.xml","fltuser/FilterLoad","ifsk.filterload"]
 old-location: ifsk\filterload.htm
 tech.root: ifsk
 ms.assetid: 248e05e6-570a-45fc-8b63-16625ffda1dd

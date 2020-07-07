@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterGroupEnum
 title: ClusterGroupEnum function (clusapi.h)
-description: Enumerates the resources in a group or the nodes that are the preferred owners of a group, returning the name of the resource or node with each call.helpviewer_keywords: ["CLUSTER_GROUP_ENUM_CONTAINS","CLUSTER_GROUP_ENUM_NODES","ClusterGroupEnum","ClusterGroupEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_GROUP_ENUM","PCLUSAPI_CLUSTER_GROUP_ENUM function [Failover Cluster]","_wolf_clustergroupenum","clusapi/ClusterGroupEnum","clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM","mscs.clustergroupenum"]
+description: Enumerates the resources in a group or the nodes that are the preferred owners of a group, returning the name of the resource or node with each call.
+helpviewer_keywords: ["CLUSTER_GROUP_ENUM_CONTAINS","CLUSTER_GROUP_ENUM_NODES","ClusterGroupEnum","ClusterGroupEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_GROUP_ENUM","PCLUSAPI_CLUSTER_GROUP_ENUM function [Failover Cluster]","_wolf_clustergroupenum","clusapi/ClusterGroupEnum","clusapi/PCLUSAPI_CLUSTER_GROUP_ENUM","mscs.clustergroupenum"]
 old-location: mscs\clustergroupenum.htm
 tech.root: MsCS
 ms.assetid: fffcae88-8df0-487f-9f6d-bc3560283ef1

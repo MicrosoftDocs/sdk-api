@@ -1,7 +1,8 @@
 ---
 UID: NS:ipmib._MIB_IPNETTABLE
 title: MIB_IPNETTABLE (ipmib.h)
-description: Contains a table of Address Resolution Protocol (ARP) entries for IPv4 addresses.helpviewer_keywords: ["*PMIB_IPNETTABLE","MIB_IPNETTABLE","MIB_IPNETTABLE structure [MIB]","PMIB_IPNETTABLE","PMIB_IPNETTABLE structure pointer [MIB]","_mpr_mib_ipnettable","ipmib/MIB_IPNETTABLE","ipmib/PMIB_IPNETTABLE","iprtrmib/MIB_IPNETTABLE","iprtrmib/PMIB_IPNETTABLE","mib.mib_ipnettable","rras.mib_ipnettable"]
+description: Contains a table of Address Resolution Protocol (ARP) entries for IPv4 addresses.
+helpviewer_keywords: ["*PMIB_IPNETTABLE","MIB_IPNETTABLE","MIB_IPNETTABLE structure [MIB]","PMIB_IPNETTABLE","PMIB_IPNETTABLE structure pointer [MIB]","_mpr_mib_ipnettable","ipmib/MIB_IPNETTABLE","ipmib/PMIB_IPNETTABLE","iprtrmib/MIB_IPNETTABLE","iprtrmib/PMIB_IPNETTABLE","mib.mib_ipnettable","rras.mib_ipnettable"]
 old-location: mib\mib_ipnettable.htm
 tech.root: MIB
 ms.assetid: 1cac1c19-bc42-4aee-b9d0-d007b8798eeb

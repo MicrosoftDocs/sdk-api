@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ResumeClusterNodeEx
 title: ResumeClusterNodeEx function (clusapi.h)
-description: Initiates the specified failback operation, and then requests that a paused node resumes cluster activity.helpviewer_keywords: ["PCLUSAPI_RESUME_CLUSTER_NODE_EX","PCLUSAPI_RESUME_CLUSTER_NODE_EX function [Failover Cluster]","ResumeClusterNodeEx","ResumeClusterNodeEx function [Failover Cluster]","clusapi/PCLUSAPI_RESUME_CLUSTER_NODE_EX","clusapi/ResumeClusterNodeEx","mscs.resumeclusternodeex"]
+description: Initiates the specified failback operation, and then requests that a paused node resumes cluster activity.
+helpviewer_keywords: ["PCLUSAPI_RESUME_CLUSTER_NODE_EX","PCLUSAPI_RESUME_CLUSTER_NODE_EX function [Failover Cluster]","ResumeClusterNodeEx","ResumeClusterNodeEx function [Failover Cluster]","clusapi/PCLUSAPI_RESUME_CLUSTER_NODE_EX","clusapi/ResumeClusterNodeEx","mscs.resumeclusternodeex"]
 old-location: mscs\resumeclusternodeex.htm
 tech.root: MsCS
 ms.assetid: 6111AA77-8542-4183-98B2-A505889B0B87

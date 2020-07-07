@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptString_pLogAttr
 title: ScriptString_pLogAttr function (usp10.h)
-description: Returns a pointer to a logical attributes buffer for an analyzed string.helpviewer_keywords: ["ScriptString_pLogAttr","ScriptString_pLogAttr function [Internationalization for Windows Applications]","_win32_ScriptString_pLogAttr","intl.scriptstring_plogattr","usp10/ScriptString_pLogAttr"]
+description: Returns a pointer to a logical attributes buffer for an analyzed string.
+helpviewer_keywords: ["ScriptString_pLogAttr","ScriptString_pLogAttr function [Internationalization for Windows Applications]","_win32_ScriptString_pLogAttr","intl.scriptstring_plogattr","usp10/ScriptString_pLogAttr"]
 old-location: intl\scriptstring_plogattr.htm
 tech.root: Intl
 ms.assetid: ff898c79-2d37-4c0b-af83-2322ab7cf656
@@ -69,7 +70,7 @@ A <a href="https://docs.microsoft.com/windows/desktop/Intl/script-string-analysi
 
 
 
-Returns a pointer to a buffer containing <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> structures defining logical attributes if successful. The function returns <b>NULL</b> if it does not succeed.
+Returns a pointer to a buffer containing <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> structures defining logical attributes if successful. The function returns <b>NULL</b> if it does not succeed.
 
 
 
@@ -82,7 +83,7 @@ The pointer returned by this function is valid only until the application passes
 
 The logical attribute buffer contains at least the number of integers indicated by the <i>ssa</i> parameter of <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstring_pcoutchars">ScriptString_pcOutChars</a>.
 
-When scanning the <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> array for a word break point, the application should look backward for the values of the <b>fWordStop</b> and <b>fWhiteSpace</b> members. <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a> just calls <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a> on each run, and <b>ScriptBreak</b> never sets <b>fWordBreak</b> on the first character of a run, because it has no information that the previous run ended in white space.
+When scanning the <a href="/windows/win32/api/usp10/ns-usp10-script_logattr">SCRIPT_LOGATTR</a> array for a word break point, the application should look backward for the values of the <b>fWordStop</b> and <b>fWhiteSpace</b> members. <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptstringanalyse">ScriptStringAnalyse</a> just calls <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptbreak">ScriptBreak</a> on each run, and <b>ScriptBreak</b> never sets <b>fWordBreak</b> on the first character of a run, because it has no information that the previous run ended in white space.
 
 <div class="alert"><b>Important</b>  Starting with Windows 8: To maintain the ability to run on Windows 7, a module that uses Uniscribe must specify Usp10.lib before gdi32.lib in its library list.</div>
 <div> </div>

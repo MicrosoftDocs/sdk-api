@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothAuthenticateDeviceEx
 title: BluetoothAuthenticateDeviceEx function (bluetoothapis.h)
-description: The BluetoothAuthenticateDeviceEx function sends an authentication request to a remote Bluetooth device.helpviewer_keywords: ["BluetoothAuthenticateDeviceEx","BluetoothAuthenticateDeviceEx function [Bluetooth]","bluetooth.bluetoothauthenticatedeviceex","bluetoothapis/BluetoothAuthenticateDeviceEx"]
+description: The BluetoothAuthenticateDeviceEx function sends an authentication request to a remote Bluetooth device.
+helpviewer_keywords: ["BluetoothAuthenticateDeviceEx","BluetoothAuthenticateDeviceEx function [Bluetooth]","bluetooth.bluetoothauthenticatedeviceex","bluetoothapis/BluetoothAuthenticateDeviceEx"]
 old-location: bluetooth\bluetoothauthenticatedeviceex.htm
 tech.root: bluetooth
 ms.assetid: 948bf14c-9661-4fe9-b082-009afd867baf
@@ -72,7 +73,7 @@ succeed.
 
 ### -param pbtdiInout [in, out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure describing the device          being authenticated.
+A pointer to a <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure describing the device          being authenticated.
 
 
 ### -param pbtOobData [in, optional]
@@ -86,7 +87,7 @@ If not <b>NULL</b>, no UI is displayed.
 
 ### -param authenticationRequirement [in]
 
-An <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>value that specifies the protection required for authentication.
+An <a href="/windows/win32/api/bluetoothapis/ne-bluetoothapis-bluetooth_authentication_requirements">BLUETOOTH_AUTHENTICATION_REQUIREMENTS</a>value that specifies the protection required for authentication.
 
 
 ## -returns
@@ -143,7 +144,7 @@ The device in pbtdi is already been marked as authenticated.
 
 
 
-The <a href="https://docs.microsoft.com/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure specified by <i>pbtdilInOut</i> must contain the address of a device to authenticate.  If the value of <i>pbtOobData</i> is not <b>NULL</b>, an attempt  will be made to authenticate the remote device with the provided out-of-band data.
+The <a href="/windows/win32/api/bluetoothapis/ns-bluetoothapis-bluetooth_device_info_struct">BLUETOOTH_DEVICE_INFO</a> structure specified by <i>pbtdilInOut</i> must contain the address of a device to authenticate.  If the value of <i>pbtOobData</i> is not <b>NULL</b>, an attempt  will be made to authenticate the remote device with the provided out-of-band data.
 
 For all other types of  authentication, the caller should register an authentication callback using <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothregisterforauthenticationex">BluetoothRegisterForAuthenticationEx</a> and then respond to the relevant authentication method using <a href="https://docs.microsoft.com/windows/desktop/api/bluetoothapis/nf-bluetoothapis-bluetoothsendauthenticationresponseex">BluetoothSendAuthenticationResponseEx</a>.
 

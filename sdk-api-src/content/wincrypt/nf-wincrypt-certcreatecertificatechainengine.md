@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertCreateCertificateChainEngine
 title: CertCreateCertificateChainEngine function (wincrypt.h)
-description: The CertCreateCertificateChainEngine function creates a new, nondefault chain engine for an application.helpviewer_keywords: ["CertCreateCertificateChainEngine","CertCreateCertificateChainEngine function [Security]","_crypto2_certcreatecertificatechainengine","security.certcreatecertificatechainengine","wincrypt/CertCreateCertificateChainEngine"]
+description: The CertCreateCertificateChainEngine function creates a new, nondefault chain engine for an application.
+helpviewer_keywords: ["CertCreateCertificateChainEngine","CertCreateCertificateChainEngine function [Security]","_crypto2_certcreatecertificatechainengine","security.certcreatecertificatechainengine","wincrypt/CertCreateCertificateChainEngine"]
 old-location: security\certcreatecertificatechainengine.htm
 tech.root: SecCrypto
 ms.assetid: e173016a-d3d7-42e0-aad8-e738abaf1df9

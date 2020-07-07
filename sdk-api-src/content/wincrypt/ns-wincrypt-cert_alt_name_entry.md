@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_ALT_NAME_ENTRY
 title: CERT_ALT_NAME_ENTRY (wincrypt.h)
-description: Contains an alternative name in one of a variety of name forms.helpviewer_keywords: ["*PCERT_ALT_NAME_ENTRY","CERT_ALT_NAME_ENTRY","CERT_ALT_NAME_ENTRY structure [Security]","PCERT_ALT_NAME_ENTRY","PCERT_ALT_NAME_ENTRY structure pointer [Security]","_crypto2_cert_alt_name_entry","security.cert_alt_name_entry","wincrypt/CERT_ALT_NAME_ENTRY","wincrypt/PCERT_ALT_NAME_ENTRY"]
+description: Contains an alternative name in one of a variety of name forms.
+helpviewer_keywords: ["*PCERT_ALT_NAME_ENTRY","CERT_ALT_NAME_ENTRY","CERT_ALT_NAME_ENTRY structure [Security]","PCERT_ALT_NAME_ENTRY","PCERT_ALT_NAME_ENTRY structure pointer [Security]","_crypto2_cert_alt_name_entry","security.cert_alt_name_entry","wincrypt/CERT_ALT_NAME_ENTRY","wincrypt/PCERT_ALT_NAME_ENTRY"]
 old-location: security\cert_alt_name_entry.htm
 tech.root: SecCrypto
 ms.assetid: 1353ef56-cae7-43f2-a31f-2bb3b502450e

@@ -1,7 +1,8 @@
 ---
 UID: NS:winldap.ldapcontrolW
 title: LDAPControlW (winldap.h)
-description: Represents both client-side and server controls.helpviewer_keywords: ["*PLDAPControlW","LDAPControl","LDAPControl structure [LDAP]","LDAPControlA","LDAPControlW","PLDAPControl","PLDAPControl structure pointer [LDAP]","_ldap_ldapcontrol","ldap.ldapcontrol","winldap/LDAPControl","winldap/LDAPControlA","winldap/LDAPControlW","winldap/PLDAPControl"]
+description: Represents both client-side and server controls.
+helpviewer_keywords: ["*PLDAPControlW","LDAPControl","LDAPControl structure [LDAP]","LDAPControlA","LDAPControlW","PLDAPControl","PLDAPControl structure pointer [LDAP]","_ldap_ldapcontrol","ldap.ldapcontrol","winldap/LDAPControl","winldap/LDAPControlA","winldap/LDAPControlW","winldap/PLDAPControl"]
 old-location: ldap\ldapcontrol.htm
 tech.root: ldap
 ms.assetid: c0b4d712-021d-46f3-8bda-aaf660ec1acc
@@ -83,26 +84,26 @@ Effective with LDAP 3, you can extend LDAP operations through the use of control
 The <b>ldctl_iscritical</b> member enables an extended operation to succeed when the server or client does not support the control. If the value of this field is zero, the server and/or client ignores the control if it is not supported and carries out the operation. If the value is nonzero the operation is carried out only if the control is recognized by the server and/or client.
 
 For more information, and a list of the supported LDAP extended controls and their descriptions, see 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>.
+
+<a href="/previous-versions/windows/desktop/ldap/extended-controls">Extended Controls</a>.
 
 
 
+> [!NOTE]
+> The winldap.h header defines LDAPControl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
+
+<a href="/previous-versions/windows/desktop/ldap/data-structures">Data Structures</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
+<a href="/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
 
 
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>
- 
-
- 
-
+<a href="/previous-versions/windows/desktop/ldap/using-controls">Using Controls</a>

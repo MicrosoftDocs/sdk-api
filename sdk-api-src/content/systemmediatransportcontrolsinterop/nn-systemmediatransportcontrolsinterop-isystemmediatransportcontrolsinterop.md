@@ -1,7 +1,8 @@
 ---
 UID: NN:systemmediatransportcontrolsinterop.ISystemMediaTransportControlsInterop
 title: ISystemMediaTransportControlsInterop (systemmediatransportcontrolsinterop.h)
-description: Allows an app to get an instance of the ISystemMediaTransportControls interface.helpviewer_keywords: ["ISystemMediaTransportControlsInterop","ISystemMediaTransportControlsInterop interface","ISystemMediaTransportControlsInterop interface","described","mediatransport.isystemmediatransportcontrolsinterop","systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop"]
+description: Allows an app to get an instance of the ISystemMediaTransportControls interface.
+helpviewer_keywords: ["ISystemMediaTransportControlsInterop","ISystemMediaTransportControlsInterop interface","ISystemMediaTransportControlsInterop interface","described","mediatransport.isystemmediatransportcontrolsinterop","systemmediatransportcontrolsinterop/ISystemMediaTransportControlsInterop"]
 old-location: mediatransport\isystemmediatransportcontrolsinterop.htm
 tech.root: mediatransport
 ms.assetid: 451A65AD-BF03-47F3-B2F1-30484A1B14F3

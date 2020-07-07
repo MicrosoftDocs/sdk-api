@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegLoadMUIStringA
 title: RegLoadMUIStringA function (winreg.h)
-description: Loads the specified string from the specified key and subkey.helpviewer_keywords: ["REG_MUI_STRING_TRUNCATE","RegLoadMUIString","RegLoadMUIString function","RegLoadMUIStringA","RegLoadMUIStringW","base.regloadmuistring","winreg/RegLoadMUIString","winreg/RegLoadMUIStringA","winreg/RegLoadMUIStringW"]
+description: Loads the specified string from the specified key and subkey.
+helpviewer_keywords: ["REG_MUI_STRING_TRUNCATE","RegLoadMUIString","RegLoadMUIString function","RegLoadMUIStringA","RegLoadMUIStringW","base.regloadmuistring","winreg/RegLoadMUIString","winreg/RegLoadMUIStringA","winreg/RegLoadMUIStringW"]
 old-location: base\regloadmuistring.htm
 tech.root: SysInfo
 ms.assetid: 76ffc77f-a1bc-4e01-858f-4a76563a2bbc
@@ -167,6 +168,10 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegLoadMUIString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

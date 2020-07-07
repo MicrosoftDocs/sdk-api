@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssComponent.GetBackupMetadata
 title: IVssComponent::GetBackupMetadata (vswriter.h)
-description: The GetBackupMetadata method retrieves private, writer-specific backup metadata that might have been set during a PrepareForBackup event by CVssWriter::OnPrepareBackup using IVssComponent::SetBackupMetadata.helpviewer_keywords: ["GetBackupMetadata","GetBackupMetadata method [VSS]","GetBackupMetadata method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetBackupMetadata method","IVssComponent.GetBackupMetadata","IVssComponent::GetBackupMetadata","_win32_ivsscomponent_getbackupmetadata","base.ivsscomponent_getbackupmetadata","vswriter/IVssComponent::GetBackupMetadata"]
+description: The GetBackupMetadata method retrieves private, writer-specific backup metadata that might have been set during a PrepareForBackup event by CVssWriter::OnPrepareBackup using IVssComponent::SetBackupMetadata.
+helpviewer_keywords: ["GetBackupMetadata","GetBackupMetadata method [VSS]","GetBackupMetadata method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetBackupMetadata method","IVssComponent.GetBackupMetadata","IVssComponent::GetBackupMetadata","_win32_ivsscomponent_getbackupmetadata","base.ivsscomponent_getbackupmetadata","vswriter/IVssComponent::GetBackupMetadata"]
 old-location: base\ivsscomponent_getbackupmetadata.htm
 tech.root: VSS
 ms.assetid: 638b8909-0aef-4066-ade7-4ee6d96b309e

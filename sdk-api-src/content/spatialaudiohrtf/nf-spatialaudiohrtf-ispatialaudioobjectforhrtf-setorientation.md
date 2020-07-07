@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiohrtf.ISpatialAudioObjectForHrtf.SetOrientation
 title: ISpatialAudioObjectForHrtf::SetOrientation (spatialaudiohrtf.h)
-description: Sets the orientation in 3D space, relative to the listener's frame of reference, from which the ISpatialAudioObjectForHrtf audio data will be rendered.helpviewer_keywords: ["ISpatialAudioObjectForHrtf interface [Core Audio]","SetOrientation method","ISpatialAudioObjectForHrtf.SetOrientation","ISpatialAudioObjectForHrtf::SetOrientation","SetOrientation","SetOrientation method [Core Audio]","SetOrientation method [Core Audio]","ISpatialAudioObjectForHrtf interface","coreaudio.ispatialaudioobjectforhrtf_setorientation","spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetOrientation"]
+description: Sets the orientation in 3D space, relative to the listener's frame of reference, from which the ISpatialAudioObjectForHrtf audio data will be rendered.
+helpviewer_keywords: ["ISpatialAudioObjectForHrtf interface [Core Audio]","SetOrientation method","ISpatialAudioObjectForHrtf.SetOrientation","ISpatialAudioObjectForHrtf::SetOrientation","SetOrientation","SetOrientation method [Core Audio]","SetOrientation method [Core Audio]","ISpatialAudioObjectForHrtf interface","coreaudio.ispatialaudioobjectforhrtf_setorientation","spatialaudiohrtf/ISpatialAudioObjectForHrtf::SetOrientation"]
 old-location: coreaudio\ispatialaudioobjectforhrtf_setorientation.htm
 tech.root: CoreAudio
 ms.assetid: 2B88643A-C81A-4F11-BFD0-EEF4C65861C8

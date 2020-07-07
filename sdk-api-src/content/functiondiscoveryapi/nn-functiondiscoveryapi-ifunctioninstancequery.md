@@ -1,7 +1,8 @@
 ---
 UID: NN:functiondiscoveryapi.IFunctionInstanceQuery
 title: IFunctionInstanceQuery (functiondiscoveryapi.h)
-description: Implements the asynchronous query for a function instance based on category and subcategory.helpviewer_keywords: ["IFunctionInstanceQuery","IFunctionInstanceQuery interface","IFunctionInstanceQuery interface","described","functiondiscoveryapi/IFunctionInstanceQuery","ncd.ifunctioninstancequery"]
+description: Implements the asynchronous query for a function instance based on category and subcategory.
+helpviewer_keywords: ["IFunctionInstanceQuery","IFunctionInstanceQuery interface","IFunctionInstanceQuery interface","described","functiondiscoveryapi/IFunctionInstanceQuery","ncd.ifunctioninstancequery"]
 old-location: ncd\ifunctioninstancequery.htm
 tech.root: FunDisc
 ms.assetid: 03343d85-c0db-436d-bedc-c001b1886173

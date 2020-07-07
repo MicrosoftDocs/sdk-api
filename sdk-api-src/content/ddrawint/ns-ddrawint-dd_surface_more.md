@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_SURFACE_MORE
 title: DD_SURFACE_MORE (ddrawint.h)
-description: The DD_SURFACE_MORE structure contains additional local data for each individual DirectDrawSurface object.helpviewer_keywords: ["*PDD_SURFACE_MORE","DD_SURFACE_MORE","DD_SURFACE_MORE structure [Display Devices]","PDD_SURFACE_MORE","PDD_SURFACE_MORE structure pointer [Display Devices]","ddrawint/DD_SURFACE_MORE","ddrawint/PDD_SURFACE_MORE","ddstrcts_b86749f9-edbf-4e8b-ae17-27840ad4e5d5.xml","display.dd_surface_more"]
+description: The DD_SURFACE_MORE structure contains additional local data for each individual DirectDrawSurface object.
+helpviewer_keywords: ["*PDD_SURFACE_MORE","DD_SURFACE_MORE","DD_SURFACE_MORE structure [Display Devices]","PDD_SURFACE_MORE","PDD_SURFACE_MORE structure pointer [Display Devices]","ddrawint/DD_SURFACE_MORE","ddrawint/PDD_SURFACE_MORE","ddstrcts_b86749f9-edbf-4e8b-ae17-27840ad4e5d5.xml","display.dd_surface_more"]
 old-location: display\dd_surface_more.htm
 tech.root: display
 ms.assetid: 4b000d0f-4ff1-4155-92be-b56793978b1f

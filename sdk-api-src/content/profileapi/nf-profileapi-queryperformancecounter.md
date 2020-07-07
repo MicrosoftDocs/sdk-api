@@ -1,7 +1,8 @@
 ---
 UID: NF:profileapi.QueryPerformanceCounter
 title: QueryPerformanceCounter function
-description: Retrieves the current value of the performance counter, which is a high resolution (&lt;1us) time stamp that can be used for time-interval measurements.helpviewer_keywords: ["QueryPerformanceCounter","QueryPerformanceCounter function [Windows and Messages]","_win32_QueryPerformanceCounter","_win32_queryperformancecounter_cpp","base.queryperformancecounter","profileapi/QueryPerformanceCounter","winmsg.queryperformancecounter","winui._win32_queryperformancecounter"]
+description: Retrieves the current value of the performance counter, which is a high resolution (&lt;1us) time stamp that can be used for time-interval measurements.
+helpviewer_keywords: ["QueryPerformanceCounter","QueryPerformanceCounter function [Windows and Messages]","_win32_QueryPerformanceCounter","_win32_queryperformancecounter_cpp","base.queryperformancecounter","profileapi/QueryPerformanceCounter","winmsg.queryperformancecounter","winui._win32_queryperformancecounter"]
 old-location: base\queryperformancecounter.htm
 tech.root: SysInfo
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\queryperformancecounter.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetCoalescableTimer
 title: SetCoalescableTimer function (winuser.h)
-description: Creates a timer with the specified time-out value and coalescing tolerance delay.helpviewer_keywords: ["Any other value","SetCoalescableTimer","SetCoalescableTimer function [Windows and Messages]","TIMERV_DEFAULT_COALESCING","TIMERV_NO_COALESCING","winmsg.setcoalescabletimer","winuser/SetCoalescableTimer"]
+description: Creates a timer with the specified time-out value and coalescing tolerance delay.
+helpviewer_keywords: ["Any other value","SetCoalescableTimer","SetCoalescableTimer function [Windows and Messages]","TIMERV_DEFAULT_COALESCING","TIMERV_NO_COALESCING","winmsg.setcoalescabletimer","winuser/SetCoalescableTimer"]
 old-location: winmsg\setcoalescabletimer.htm
 tech.root: winmsg
 ms.assetid: 39303811-972f-4131-deea-cebf84c50867
@@ -146,7 +147,7 @@ Applications should set this value to the system default (<b>TIMERV_DEFAULT_COAL
 
 If the sum of <i>uElapse</i> and <i>uToleranceDelay</i> exceeds <b>USER_TIMER_MAXIMUM</b> (0x7FFFFFFF), an ERROR_INVALID_PARAMETER exception occurs.
 
-See <a href="https://go.microsoft.com/fwlink/p/?linkid=246618">Windows Timer Coalescing</a> for more details and best practices.
+See <a href="http://download.microsoft.com/download/9/C/5/9C5B2167-8017-4BAE-9FDE-D599BAC8184A/TimerCoal.docx">Windows Timer Coalescing</a> for more details and best practices.
 
 </td>
 </tr>

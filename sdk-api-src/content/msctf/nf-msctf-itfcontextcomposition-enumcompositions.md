@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContextComposition.EnumCompositions
 title: ITfContextComposition::EnumCompositions (msctf.h)
-description: ITfContextComposition::EnumCompositions methodhelpviewer_keywords: ["EnumCompositions","EnumCompositions method [Text Services Framework]","EnumCompositions method [Text Services Framework]","ITfContextComposition interface","ITfContextComposition interface [Text Services Framework]","EnumCompositions method","ITfContextComposition.EnumCompositions","ITfContextComposition::EnumCompositions","_tsf_itfcontextcomposition_enumcompositions_ref","msctf/ITfContextComposition::EnumCompositions","tsf.itfcontextcomposition_enumcompositions"]
+description: ITfContextComposition::EnumCompositions method
+helpviewer_keywords: ["EnumCompositions","EnumCompositions method [Text Services Framework]","EnumCompositions method [Text Services Framework]","ITfContextComposition interface","ITfContextComposition interface [Text Services Framework]","EnumCompositions method","ITfContextComposition.EnumCompositions","ITfContextComposition::EnumCompositions","_tsf_itfcontextcomposition_enumcompositions_ref","msctf/ITfContextComposition::EnumCompositions","tsf.itfcontextcomposition_enumcompositions"]
 old-location: tsf\itfcontextcomposition_enumcompositions.htm
 tech.root: TSF
 ms.assetid: 230daf27-2655-4d67-b183-cd0f0c855298

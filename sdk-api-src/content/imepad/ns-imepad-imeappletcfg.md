@@ -1,7 +1,8 @@
 ---
 UID: NS:imepad.tagAPPLETCFG
 title: IMEAPPLETCFG (imepad.h)
-description: Used to specify and set applet configuration in IImePad.helpviewer_keywords: ["*LPIMEAPPLETCFG","IMEAPPLETCFG","IMEAPPLETCFG structure [Internationalization for Windows Applications]","IPACFG_CATEGORY","IPACFG_HELP","IPACFG_LANG","IPACFG_NONE","IPACFG_PROPERTY","IPACFG_TITLE","IPACFG_TITLEFONTFACE","PIMEAPPLETCFG","PIMEAPPLETCFG structure pointer [Internationalization for Windows Applications]","imepad/IMEAPPLETCFG","imepad/PIMEAPPLETCFG","intl.imeappletcfg"]
+description: Used to specify and set applet configuration in IImePad.
+helpviewer_keywords: ["*LPIMEAPPLETCFG","IMEAPPLETCFG","IMEAPPLETCFG structure [Internationalization for Windows Applications]","IPACFG_CATEGORY","IPACFG_HELP","IPACFG_LANG","IPACFG_NONE","IPACFG_PROPERTY","IPACFG_TITLE","IPACFG_TITLEFONTFACE","PIMEAPPLETCFG","PIMEAPPLETCFG structure pointer [Internationalization for Windows Applications]","imepad/IMEAPPLETCFG","imepad/PIMEAPPLETCFG","intl.imeappletcfg"]
 old-location: intl\imeappletcfg.htm
 tech.root: Intl
 ms.assetid: 2680231A-0A9C-4723-8E7D-73184C209050

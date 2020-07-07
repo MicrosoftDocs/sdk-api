@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetWeight
 title: ITextFont::GetWeight (tom.h)
-description: Gets the font weight for the characters in a range.helpviewer_keywords: ["GetWeight","GetWeight method [Windows Controls]","GetWeight method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetWeight method","ITextFont.GetWeight","ITextFont::GetWeight","_win32_ITextFont_GetWeight","_win32_ITextFont_GetWeight_cpp","controls.ITextFont_GetWeight","controls._win32_ITextFont_GetWeight","tom/ITextFont::GetWeight"]
+description: Gets the font weight for the characters in a range.
+helpviewer_keywords: ["GetWeight","GetWeight method [Windows Controls]","GetWeight method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetWeight method","ITextFont.GetWeight","ITextFont::GetWeight","_win32_ITextFont_GetWeight","_win32_ITextFont_GetWeight_cpp","controls.ITextFont_GetWeight","controls._win32_ITextFont_GetWeight","tom/ITextFont::GetWeight"]
 old-location: controls\ITextFont_GetWeight.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getweight.htm

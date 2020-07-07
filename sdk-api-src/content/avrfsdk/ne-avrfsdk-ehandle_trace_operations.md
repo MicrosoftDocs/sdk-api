@@ -1,7 +1,8 @@
 ---
 UID: NE:avrfsdk.eHANDLE_TRACE_OPERATIONS
 title: eHANDLE_TRACE_OPERATIONS (avrfsdk.h)
-description: Identifies the type of handle operation that has occurred.helpviewer_keywords: ["OperationDbBADREF","OperationDbCLOSE","OperationDbOPEN","OperationDbUnused","avrfsdk/OperationDbBADREF","avrfsdk/OperationDbCLOSE","avrfsdk/OperationDbOPEN","avrfsdk/OperationDbUnused","avrfsdk/eHANDLE_TRACE_OPERATIONS","base.ehandle_trace_operations","eHANDLE_TRACE_OPERATIONS","eHANDLE_TRACE_OPERATIONS enumeration [Windows API]","winprog.ehandle_trace_operations"]
+description: Identifies the type of handle operation that has occurred.
+helpviewer_keywords: ["OperationDbBADREF","OperationDbCLOSE","OperationDbOPEN","OperationDbUnused","avrfsdk/OperationDbBADREF","avrfsdk/OperationDbCLOSE","avrfsdk/OperationDbOPEN","avrfsdk/OperationDbUnused","avrfsdk/eHANDLE_TRACE_OPERATIONS","base.ehandle_trace_operations","eHANDLE_TRACE_OPERATIONS","eHANDLE_TRACE_OPERATIONS enumeration [Windows API]","winprog.ehandle_trace_operations"]
 old-location: winprog\ehandle_trace_operations.htm
 tech.root: DevNotes
 ms.assetid: bcaaa52a-8eb1-4ad7-9ee5-97cca91a2238

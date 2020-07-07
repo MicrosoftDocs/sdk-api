@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.AddKeyframeAfterTransition
 title: IUIAnimationStoryboard::AddKeyframeAfterTransition (uianimation.h)
-description: Adds a keyframe at the end of the specified transition.helpviewer_keywords: ["AddKeyframeAfterTransition","AddKeyframeAfterTransition method [Windows Animation]","AddKeyframeAfterTransition method [Windows Animation]","IUIAnimationStoryboard interface","IUIAnimationStoryboard interface [Windows Animation]","AddKeyframeAfterTransition method","IUIAnimationStoryboard.AddKeyframeAfterTransition","IUIAnimationStoryboard::AddKeyframeAfterTransition","uianimation.iuianimationstoryboard_addkeyframeaftertransition","uianimation/IUIAnimationStoryboard::AddKeyframeAfterTransition"]
+description: Adds a keyframe at the end of the specified transition.
+helpviewer_keywords: ["AddKeyframeAfterTransition","AddKeyframeAfterTransition method [Windows Animation]","AddKeyframeAfterTransition method [Windows Animation]","IUIAnimationStoryboard interface","IUIAnimationStoryboard interface [Windows Animation]","AddKeyframeAfterTransition method","IUIAnimationStoryboard.AddKeyframeAfterTransition","IUIAnimationStoryboard::AddKeyframeAfterTransition","uianimation.iuianimationstoryboard_addkeyframeaftertransition","uianimation/IUIAnimationStoryboard::AddKeyframeAfterTransition"]
 old-location: uianimation\iuianimationstoryboard_addkeyframeaftertransition.htm
 tech.root: UIAnimation
 ms.assetid: 055206d8-ea9e-4013-89ee-2929bfeb2731
@@ -137,7 +138,7 @@ A keyframe represents a moment in time within a storyboard and can be used to sp
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/uianimation/ns-uianimation-__midl___midl_itf_uianimation_0000_0002_0003">UI_ANIMATION_KEYFRAME</a>
+<a href="/windows/win32/api/uianimation/ns-uianimation-__midl___midl_itf_uianimation_0000_0002_0003">UI_ANIMATION_KEYFRAME</a>
  
 
  

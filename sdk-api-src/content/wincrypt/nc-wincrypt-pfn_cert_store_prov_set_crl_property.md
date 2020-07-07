@@ -1,7 +1,8 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_SET_CRL_PROPERTY
 title: PFN_CERT_STORE_PROV_SET_CRL_PROPERTY (wincrypt.h)
-description: An application-defined callback function that is called by CertSetCRLContextProperty before setting the CRL's property.helpviewer_keywords: ["CertStoreProvSetCRLPropertyCallback","PFN_CERT_STORE_PROV_SET_CRL_PROPERTY","PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback","PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback function [Security]","_crypto2_certstoreprovsetcrlpropertycallback","security.certstoreprovsetcrlpropertycallback","wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY"]
+description: An application-defined callback function that is called by CertSetCRLContextProperty before setting the CRL's property.
+helpviewer_keywords: ["CertStoreProvSetCRLPropertyCallback","PFN_CERT_STORE_PROV_SET_CRL_PROPERTY","PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback","PFN_CERT_STORE_PROV_SET_CRL_PROPERTY callback function [Security]","_crypto2_certstoreprovsetcrlpropertycallback","security.certstoreprovsetcrlpropertycallback","wincrypt/PFN_CERT_STORE_PROV_SET_CRL_PROPERTY"]
 old-location: security\certstoreprovsetcrlpropertycallback.htm
 tech.root: SecCrypto
 ms.assetid: 98ad9b24-8d7d-4fbe-8fd8-089f1ddfbff0

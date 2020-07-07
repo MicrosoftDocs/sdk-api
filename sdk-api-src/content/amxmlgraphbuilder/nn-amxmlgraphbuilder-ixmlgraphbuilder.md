@@ -1,7 +1,8 @@
 ---
 UID: NN:amxmlgraphbuilder.IXMLGraphBuilder
 title: IXMLGraphBuilder (amxmlgraphbuilder.h)
-description: The IXMLGraphBuilder interface is used to persist a DirectShow filter graph using an XML file format.Note  Support for this interface was removed in Windows 7. New applications should not use this interface. .helpviewer_keywords: ["IXMLGraphBuilder","IXMLGraphBuilder interface [DirectShow]","IXMLGraphBuilder interface [DirectShow]","described","IXMLGraphBuilderInterface","amxmlgraphbuilder/IXMLGraphBuilder","dshow.ixmlgraphbuilder"]
+description: The IXMLGraphBuilder interface is used to persist a DirectShow filter graph using an XML file format.Note  Support for this interface was removed in Windows 7. New applications should not use this interface. .
+helpviewer_keywords: ["IXMLGraphBuilder","IXMLGraphBuilder interface [DirectShow]","IXMLGraphBuilder interface [DirectShow]","described","IXMLGraphBuilderInterface","amxmlgraphbuilder/IXMLGraphBuilder","dshow.ixmlgraphbuilder"]
 old-location: dshow\ixmlgraphbuilder.htm
 tech.root: DirectShow
 ms.assetid: c30a8b33-7783-4987-aa65-ccba476ea937

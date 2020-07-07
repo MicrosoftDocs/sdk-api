@@ -1,7 +1,8 @@
 ---
 UID: NL:textserv.ITextHost2
 title: ITextHost2 (textserv.h)
-description: The ITextHost2 interface extends the ITextHost interface.helpviewer_keywords: ["ITextHost2","ITextHost2 interface [Windows Controls]","ITextHost2 interface [Windows Controls]","described","controls.itexthost2","textserv/ITextHost2"]
+description: The ITextHost2 interface extends the ITextHost interface.
+helpviewer_keywords: ["ITextHost2","ITextHost2 interface [Windows Controls]","ITextHost2 interface [Windows Controls]","described","controls.itexthost2","textserv/ITextHost2"]
 old-location: controls\itexthost2.htm
 tech.root: Controls
 ms.assetid: A715E70C-E8BB-4796-BDA6-90B745EC7761

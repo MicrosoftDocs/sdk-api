@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.SetOutputByteStream
 title: IMFTranscodeSinkInfoProvider::SetOutputByteStream (mfidl.h)
-description: Sets an output byte stream for the transcode media sink.helpviewer_keywords: ["IMFTranscodeSinkInfoProvider interface [Media Foundation]","SetOutputByteStream method","IMFTranscodeSinkInfoProvider.SetOutputByteStream","IMFTranscodeSinkInfoProvider::SetOutputByteStream","SetOutputByteStream","SetOutputByteStream method [Media Foundation]","SetOutputByteStream method [Media Foundation]","IMFTranscodeSinkInfoProvider interface","mf.imftranscodesinkinfoprovider_setoutputbytestream","mfidl/IMFTranscodeSinkInfoProvider::SetOutputByteStream"]
+description: Sets an output byte stream for the transcode media sink.
+helpviewer_keywords: ["IMFTranscodeSinkInfoProvider interface [Media Foundation]","SetOutputByteStream method","IMFTranscodeSinkInfoProvider.SetOutputByteStream","IMFTranscodeSinkInfoProvider::SetOutputByteStream","SetOutputByteStream","SetOutputByteStream method [Media Foundation]","SetOutputByteStream method [Media Foundation]","IMFTranscodeSinkInfoProvider interface","mf.imftranscodesinkinfoprovider_setoutputbytestream","mfidl/IMFTranscodeSinkInfoProvider::SetOutputByteStream"]
 old-location: mf\imftranscodesinkinfoprovider_setoutputbytestream.htm
 tech.root: medfound
 ms.assetid: 234bed82-a148-4313-a8cb-eefe2061b7ed

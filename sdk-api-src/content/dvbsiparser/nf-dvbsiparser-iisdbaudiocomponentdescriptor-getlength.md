@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbAudioComponentDescriptor.GetLength
 title: IIsdbAudioComponentDescriptor::GetLength (dvbsiparser.h)
-description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) audio component descriptor, in bytes.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","GetLength method","IIsdbAudioComponentDescriptor.GetLength","IIsdbAudioComponentDescriptor::GetLength","dvbsiparser/IIsdbAudioComponentDescriptor::GetLength","mstv.iisdbaudiocomponentdescriptor_getlength"]
+description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) audio component descriptor, in bytes.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IIsdbAudioComponentDescriptor interface","IIsdbAudioComponentDescriptor interface [Microsoft TV Technologies]","GetLength method","IIsdbAudioComponentDescriptor.GetLength","IIsdbAudioComponentDescriptor::GetLength","dvbsiparser/IIsdbAudioComponentDescriptor::GetLength","mstv.iisdbaudiocomponentdescriptor_getlength"]
 old-location: mstv\iisdbaudiocomponentdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: a3e2f0f8-7e06-43fd-94c2-da54ea5a761b

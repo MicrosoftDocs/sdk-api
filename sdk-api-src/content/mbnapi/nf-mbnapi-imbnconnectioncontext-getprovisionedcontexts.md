@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnConnectionContext.GetProvisionedContexts
 title: IMbnConnectionContext::GetProvisionedContexts (mbnapi.h)
-description: Gets a list of connection contexts.helpviewer_keywords: ["GetProvisionedContexts","GetProvisionedContexts method [Microsoft Broadband Networks]","GetProvisionedContexts method [Microsoft Broadband Networks]","IMbnConnectionContext interface","IMbnConnectionContext interface [Microsoft Broadband Networks]","GetProvisionedContexts method","IMbnConnectionContext.GetProvisionedContexts","IMbnConnectionContext::GetProvisionedContexts","mbn.imbnconnectioncontext_getprovisionedcontexts","mbnapi/IMbnConnectionContext::GetProvisionedContexts"]
+description: Gets a list of connection contexts.
+helpviewer_keywords: ["GetProvisionedContexts","GetProvisionedContexts method [Microsoft Broadband Networks]","GetProvisionedContexts method [Microsoft Broadband Networks]","IMbnConnectionContext interface","IMbnConnectionContext interface [Microsoft Broadband Networks]","GetProvisionedContexts method","IMbnConnectionContext.GetProvisionedContexts","IMbnConnectionContext::GetProvisionedContexts","mbn.imbnconnectioncontext_getprovisionedcontexts","mbnapi/IMbnConnectionContext::GetProvisionedContexts"]
 old-location: mbn\imbnconnectioncontext_getprovisionedcontexts.htm
 tech.root: mbn
 ms.assetid: eceba2a8-baff-436f-b561-d9e130df5702

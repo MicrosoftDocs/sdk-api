@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._STROBJ
 title: STROBJ (winddi.h)
-description: The STROBJ class, or text string object, contains an enumeration of glyph handles and positions for the device driver.helpviewer_keywords: ["STROBJ","STROBJ structure [Display Devices]","display.strobj","grstrcts_fcaba370-f9bd-40e8-819a-c5277d6d89b6.xml","winddi/STROBJ"]
+description: The STROBJ class, or text string object, contains an enumeration of glyph handles and positions for the device driver.
+helpviewer_keywords: ["STROBJ","STROBJ structure [Display Devices]","display.strobj","grstrcts_fcaba370-f9bd-40e8-819a-c5277d6d89b6.xml","winddi/STROBJ"]
 old-location: display\strobj.htm
 tech.root: display
 ms.assetid: efe53cb8-39b9-4931-bac2-9c61efd9d457

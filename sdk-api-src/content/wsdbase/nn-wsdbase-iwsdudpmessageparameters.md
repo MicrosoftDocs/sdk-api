@@ -1,7 +1,8 @@
 ---
 UID: NN:wsdbase.IWSDUdpMessageParameters
 title: IWSDUdpMessageParameters (wsdbase.h)
-description: Use this interface to specify how often WSD repeats the message transmission.helpviewer_keywords: ["IWSDUdpMessageParameters","IWSDUdpMessageParameters interface","IWSDUdpMessageParameters interface","described","ncd.iwsdudpmessageparameters","wsdbase/IWSDUdpMessageParameters"]
+description: Use this interface to specify how often WSD repeats the message transmission.
+helpviewer_keywords: ["IWSDUdpMessageParameters","IWSDUdpMessageParameters interface","IWSDUdpMessageParameters interface","described","ncd.iwsdudpmessageparameters","wsdbase/IWSDUdpMessageParameters"]
 old-location: ncd\iwsdudpmessageparameters.htm
 tech.root: WsdApi
 ms.assetid: 3af6e0ff-c0b9-47af-b018-37567f614adc

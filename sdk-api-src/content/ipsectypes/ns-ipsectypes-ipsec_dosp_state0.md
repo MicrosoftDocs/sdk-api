@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_DOSP_STATE0_
 title: IPSEC_DOSP_STATE0 (ipsectypes.h)
-description: Used to store state information for IPsec DoS Protection.helpviewer_keywords: ["IPSEC_DOSP_STATE0","IPSEC_DOSP_STATE0 structure [Filtering]","fwp.ipsec_dosp_state0","ipsectypes/IPSEC_DOSP_STATE0"]
+description: Used to store state information for IPsec DoS Protection.
+helpviewer_keywords: ["IPSEC_DOSP_STATE0","IPSEC_DOSP_STATE0 structure [Filtering]","fwp.ipsec_dosp_state0","ipsectypes/IPSEC_DOSP_STATE0"]
 old-location: fwp\ipsec_dosp_state0.htm
 tech.root: fwp
 ms.assetid: e3653c19-0e0b-4026-a32d-509c4bb71008

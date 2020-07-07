@@ -1,7 +1,8 @@
 ---
 UID: NF:appcompatapi.ApphelpCheckShellObject
 title: ApphelpCheckShellObject function (appcompatapi.h)
-description: Enables applications to detect bad extension objects and either block them from running or fix them.helpviewer_keywords: ["ApphelpCheckShellObject","ApphelpCheckShellObject function [Windows API]","appcompatapi/ApphelpCheckShellObject","winprog.apphelpcheckshellobject"]
+description: Enables applications to detect bad extension objects and either block them from running or fix them.
+helpviewer_keywords: ["ApphelpCheckShellObject","ApphelpCheckShellObject function [Windows API]","appcompatapi/ApphelpCheckShellObject","winprog.apphelpcheckshellobject"]
 old-location: winprog\apphelpcheckshellobject.htm
 tech.root: DevNotes
 ms.assetid: e1e44cb1-ecfe-4a58-a29c-4a401f064a04

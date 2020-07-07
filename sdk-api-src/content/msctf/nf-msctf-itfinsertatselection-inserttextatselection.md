@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfInsertAtSelection.InsertTextAtSelection
 title: ITfInsertAtSelection::InsertTextAtSelection (msctf.h)
-description: ITfInsertAtSelection::InsertTextAtSelection methodhelpviewer_keywords: ["ITfInsertAtSelection interface [Text Services Framework]","InsertTextAtSelection method","ITfInsertAtSelection.InsertTextAtSelection","ITfInsertAtSelection::InsertTextAtSelection","InsertTextAtSelection","InsertTextAtSelection method [Text Services Framework]","InsertTextAtSelection method [Text Services Framework]","ITfInsertAtSelection interface","TF_IAS_NOQUERY","TF_IAS_NO_DEFAULT_COMPOSITION","TF_IAS_QUERYONLY","_tsf_itfinsertatselection_inserttextatselection_ref","msctf/ITfInsertAtSelection::InsertTextAtSelection","tsf.itfinsertatselection_inserttextatselection"]
+description: ITfInsertAtSelection::InsertTextAtSelection method
+helpviewer_keywords: ["ITfInsertAtSelection interface [Text Services Framework]","InsertTextAtSelection method","ITfInsertAtSelection.InsertTextAtSelection","ITfInsertAtSelection::InsertTextAtSelection","InsertTextAtSelection","InsertTextAtSelection method [Text Services Framework]","InsertTextAtSelection method [Text Services Framework]","ITfInsertAtSelection interface","TF_IAS_NOQUERY","TF_IAS_NO_DEFAULT_COMPOSITION","TF_IAS_QUERYONLY","_tsf_itfinsertatselection_inserttextatselection_ref","msctf/ITfInsertAtSelection::InsertTextAtSelection","tsf.itfinsertatselection_inserttextatselection"]
 old-location: tsf\itfinsertatselection_inserttextatselection.htm
 tech.root: TSF
 ms.assetid: 1373fe9b-6c51-4514-a7da-c1f872d9b1ce

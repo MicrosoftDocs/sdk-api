@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.SetDashStyle
 title: Pen::SetDashStyle (gdipluspen.h)
-description: The Pen::SetDashStyle method sets the dash style for this Pen object.helpviewer_keywords: ["Pen class [GDI+]","SetDashStyle method","Pen.SetDashStyle","Pen::SetDashStyle","SetDashStyle","SetDashStyle method [GDI+]","SetDashStyle method [GDI+]","Pen class","_gdiplus_CLASS_Pen_SetDashStyle_dashStyle_","gdiplus._gdiplus_CLASS_Pen_SetDashStyle_dashStyle_"]
+description: The Pen::SetDashStyle method sets the dash style for this Pen object.
+helpviewer_keywords: ["Pen class [GDI+]","SetDashStyle method","Pen.SetDashStyle","Pen::SetDashStyle","SetDashStyle","SetDashStyle method [GDI+]","SetDashStyle method [GDI+]","Pen class","_gdiplus_CLASS_Pen_SetDashStyle_dashStyle_","gdiplus._gdiplus_CLASS_Pen_SetDashStyle_dashStyle_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_SetDashStyle_dashStyle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\setdashstyle.htm

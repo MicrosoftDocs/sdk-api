@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetLocaleName
 title: IDWriteTextFormat::GetLocaleName (dwrite.h)
-description: Gets a copy of the locale name.helpviewer_keywords: ["GetLocaleName","GetLocaleName method [Direct Write]","GetLocaleName method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetLocaleName method","IDWriteTextFormat.GetLocaleName","IDWriteTextFormat::GetLocaleName","directwrite.IDWriteTextFormat_GetLocaleName","dwrite/IDWriteTextFormat::GetLocaleName"]
+description: Gets a copy of the locale name.
+helpviewer_keywords: ["GetLocaleName","GetLocaleName method [Direct Write]","GetLocaleName method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetLocaleName method","IDWriteTextFormat.GetLocaleName","IDWriteTextFormat::GetLocaleName","directwrite.IDWriteTextFormat_GetLocaleName","dwrite/IDWriteTextFormat::GetLocaleName"]
 old-location: directwrite\IDWriteTextFormat_GetLocaleName.htm
 tech.root: DirectWrite
 ms.assetid: 89b35622-0898-4fc5-9871-b75244e4dba6

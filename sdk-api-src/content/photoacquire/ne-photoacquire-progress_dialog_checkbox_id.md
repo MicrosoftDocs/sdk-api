@@ -1,7 +1,8 @@
 ---
 UID: NE:photoacquire.tagPROGRESS_DIALOG_CHECKBOX_ID
 title: PROGRESS_DIALOG_CHECKBOX_ID (photoacquire.h)
-description: The PROGRESS_DIALOG_CHECKBOX_ID enumeration type indicates the check box on the IPhotoProgressDialog object.helpviewer_keywords: ["PROGRESS_DIALOG_CHECKBOX_ID","PROGRESS_DIALOG_CHECKBOX_ID enumeration [Picture Acquisition]","PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT","enumeration [Picture Acquisition]","photoacquire/PROGRESS_DIALOG_CHECKBOX_ID","photoacquire/PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT","picacq.progress_dialog_checkbox_id"]
+description: The PROGRESS_DIALOG_CHECKBOX_ID enumeration type indicates the check box on the IPhotoProgressDialog object.
+helpviewer_keywords: ["PROGRESS_DIALOG_CHECKBOX_ID","PROGRESS_DIALOG_CHECKBOX_ID enumeration [Picture Acquisition]","PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT","enumeration [Picture Acquisition]","photoacquire/PROGRESS_DIALOG_CHECKBOX_ID","photoacquire/PROGRESS_DIALOG_CHECKBOX_ID_DEFAULT","picacq.progress_dialog_checkbox_id"]
 old-location: picacq\progress_dialog_checkbox_id.htm
 tech.root: acquisition
 ms.assetid: f6a66b39-e530-4c14-ab21-123aacfbd035

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingBox.Transform
 title: BoundingBox::Transform
-description: Transforms the BoundingBox.helpviewer_keywords: ["BoundingBox::Transform"]
+description: Transforms the BoundingBox.
+helpviewer_keywords: ["BoundingBox::Transform"]
 ms.date: 04/22/19
 ms.keywords: BoundingBox::Transform
 f1_keywords:

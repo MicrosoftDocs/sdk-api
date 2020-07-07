@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMWriterAdvanced
 title: IWMWriterAdvanced (wmsdkidl.h)
-description: The IWMWriterAdvanced interface provides advanced writing functionality.This interface exists for every instance of the writer object. To obtain a pointer to this interface, call QueryInterface on the writer object.helpviewer_keywords: ["IWMWriterAdvanced","IWMWriterAdvanced interface [windows Media Format]","IWMWriterAdvanced interface [windows Media Format]","described","IWMWriterAdvancedInterface","wmformat.iwmwriteradvanced","wmsdkidl/IWMWriterAdvanced"]
+description: The IWMWriterAdvanced interface provides advanced writing functionality.This interface exists for every instance of the writer object. To obtain a pointer to this interface, call QueryInterface on the writer object.
+helpviewer_keywords: ["IWMWriterAdvanced","IWMWriterAdvanced interface [windows Media Format]","IWMWriterAdvanced interface [windows Media Format]","described","IWMWriterAdvancedInterface","wmformat.iwmwriteradvanced","wmsdkidl/IWMWriterAdvanced"]
 old-location: wmformat\iwmwriteradvanced.htm
 tech.root: wmformat
 ms.assetid: 082cd277-157d-42a4-bf37-e47d16f90c7a

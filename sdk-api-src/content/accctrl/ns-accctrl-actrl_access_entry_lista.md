@@ -1,7 +1,8 @@
 ---
 UID: NS:accctrl._ACTRL_ACCESS_ENTRY_LISTA
 title: ACTRL_ACCESS_ENTRY_LISTA (accctrl.h)
-description: Contains a list of access entries.helpviewer_keywords: ["*PACTRL_ACCESS_ENTRY_LISTA","ACTRL_ACCESS_ENTRY_LIST","ACTRL_ACCESS_ENTRY_LIST structure [COM]","ACTRL_ACCESS_ENTRY_LISTA","ACTRL_ACCESS_ENTRY_LISTW","PACTRL_ACCESS_ENTRY_LIST","PACTRL_ACCESS_ENTRY_LIST structure pointer [COM]","_ACTRL_ACCESS_ENTRY_LISTA","_ACTRL_ACCESS_ENTRY_LISTW","accctrl/ACTRL_ACCESS_ENTRY_LIST","accctrl/ACTRL_ACCESS_ENTRY_LISTA","accctrl/ACTRL_ACCESS_ENTRY_LISTW","accctrl/PACTRL_ACCESS_ENTRY_LIST","com.actrl_access_entry_list"]
+description: Contains a list of access entries.
+helpviewer_keywords: ["*PACTRL_ACCESS_ENTRY_LISTA","ACTRL_ACCESS_ENTRY_LIST","ACTRL_ACCESS_ENTRY_LIST structure [COM]","ACTRL_ACCESS_ENTRY_LISTA","ACTRL_ACCESS_ENTRY_LISTW","PACTRL_ACCESS_ENTRY_LIST","PACTRL_ACCESS_ENTRY_LIST structure pointer [COM]","_ACTRL_ACCESS_ENTRY_LISTA","_ACTRL_ACCESS_ENTRY_LISTW","accctrl/ACTRL_ACCESS_ENTRY_LIST","accctrl/ACTRL_ACCESS_ENTRY_LISTA","accctrl/ACTRL_ACCESS_ENTRY_LISTW","accctrl/PACTRL_ACCESS_ENTRY_LIST","com.actrl_access_entry_list"]
 old-location: com\actrl_access_entry_list.htm
 tech.root: com
 ms.assetid: d0e71756-0247-4c6b-b8b5-a343121b7406
@@ -92,6 +93,10 @@ To create a null access list, set the <b>pAccessEntryList</b> member of the <a h
 
 
 
+
+
+> [!NOTE]
+> The accctrl.h header defines ACTRL_ACCESS_ENTRY_LIST as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

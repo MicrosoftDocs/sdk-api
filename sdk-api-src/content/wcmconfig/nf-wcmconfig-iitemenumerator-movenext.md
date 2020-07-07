@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.IItemEnumerator.MoveNext
 title: IItemEnumerator::MoveNext (wcmconfig.h)
-description: Moves the current position to the next item in the enumerator if available.helpviewer_keywords: ["IItemEnumerator interface [SMI]","MoveNext method","IItemEnumerator.MoveNext","IItemEnumerator::MoveNext","MoveNext","MoveNext method [SMI]","MoveNext method [SMI]","IItemEnumerator interface","smi.iitemenumerator_movenext","wcmconfig/IItemEnumerator::MoveNext"]
+description: Moves the current position to the next item in the enumerator if available.
+helpviewer_keywords: ["IItemEnumerator interface [SMI]","MoveNext method","IItemEnumerator.MoveNext","IItemEnumerator::MoveNext","MoveNext","MoveNext method [SMI]","MoveNext method [SMI]","IItemEnumerator interface","smi.iitemenumerator_movenext","wcmconfig/IItemEnumerator::MoveNext"]
 old-location: smi\iitemenumerator_movenext.htm
 tech.root: SMI
 ms.assetid: bdec3ee4-e66a-4e93-9109-c5721d06eb63

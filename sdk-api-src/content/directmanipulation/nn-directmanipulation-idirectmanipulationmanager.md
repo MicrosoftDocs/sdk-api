@@ -1,7 +1,8 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationManager
 title: IDirectManipulationManager (directmanipulation.h)
-description: Provides access to all the Direct Manipulation features and APIs available to the client application.helpviewer_keywords: ["IDirectManipulationManager","IDirectManipulationManager interface [Direct Manipulation]","IDirectManipulationManager interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationmanager","directmanipulation/IDirectManipulationManager"]
+description: Provides access to all the Direct Manipulation features and APIs available to the client application.
+helpviewer_keywords: ["IDirectManipulationManager","IDirectManipulationManager interface [Direct Manipulation]","IDirectManipulationManager interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationmanager","directmanipulation/IDirectManipulationManager"]
 old-location: directmanipulation\idirectmanipulationmanager.htm
 tech.root: directmanipulation
 ms.assetid: d730a446-984e-4be0-aa7f-6d3dc93b2e34

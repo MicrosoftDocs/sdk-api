@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.UIntPtrSub
 title: UIntPtrSub function (intsafe.h)
-description: Subtracts one value of type UINT_PTR from another.helpviewer_keywords: ["UIntPtrSub","UIntPtrSub function [Windows Shell]","_shell_UIntPtrSub","intsafe/UIntPtrSub","shell.UIntPtrSub"]
+description: Subtracts one value of type UINT_PTR from another.
+helpviewer_keywords: ["UIntPtrSub","UIntPtrSub function [Windows Shell]","_shell_UIntPtrSub","intsafe/UIntPtrSub","shell.UIntPtrSub"]
 old-location: shell\UIntPtrSub.htm
 tech.root: shell
 ms.assetid: 629bc700-ca64-4849-bdad-59e67857ff8d

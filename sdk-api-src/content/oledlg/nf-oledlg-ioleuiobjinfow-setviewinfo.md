@@ -1,7 +1,8 @@
 ---
 UID: NF:oledlg.IOleUIObjInfoW.SetViewInfo
 title: IOleUIObjInfoW::SetViewInfo (oledlg.h)
-description: Sets the view information associated with the object.helpviewer_keywords: ["IOleUIObjInfo interface [COM]","SetViewInfo method","IOleUIObjInfo::SetViewInfo","IOleUIObjInfoA interface [COM]","SetViewInfo method","IOleUIObjInfoA::SetViewInfo","IOleUIObjInfoW interface [COM]","SetViewInfo method","IOleUIObjInfoW.SetViewInfo","IOleUIObjInfoW::SetViewInfo","SetViewInfo","SetViewInfo method [COM]","SetViewInfo method [COM]","IOleUIObjInfo interface","SetViewInfo method [COM]","IOleUIObjInfoA interface","SetViewInfo method [COM]","IOleUIObjInfoW interface","_ole_IOleUIObjInfo_SetViewInfo","com.ioleuiobjinfo_setviewinfo","oledlg/IOleUIObjInfo::SetViewInfo","oledlg/IOleUIObjInfoA::SetViewInfo","oledlg/IOleUIObjInfoW::SetViewInfo"]
+description: Sets the view information associated with the object.
+helpviewer_keywords: ["IOleUIObjInfo interface [COM]","SetViewInfo method","IOleUIObjInfo::SetViewInfo","IOleUIObjInfoA interface [COM]","SetViewInfo method","IOleUIObjInfoA::SetViewInfo","IOleUIObjInfoW interface [COM]","SetViewInfo method","IOleUIObjInfoW.SetViewInfo","IOleUIObjInfoW::SetViewInfo","SetViewInfo","SetViewInfo method [COM]","SetViewInfo method [COM]","IOleUIObjInfo interface","SetViewInfo method [COM]","IOleUIObjInfoA interface","SetViewInfo method [COM]","IOleUIObjInfoW interface","_ole_IOleUIObjInfo_SetViewInfo","com.ioleuiobjinfo_setviewinfo","oledlg/IOleUIObjInfo::SetViewInfo","oledlg/IOleUIObjInfoA::SetViewInfo","oledlg/IOleUIObjInfoW::SetViewInfo"]
 old-location: com\ioleuiobjinfo_setviewinfo.htm
 tech.root: com
 ms.assetid: 83d88f33-448f-4b8f-9c82-b6aaa4e8ff4a

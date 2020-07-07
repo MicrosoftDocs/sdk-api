@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITCallStateEvent.get_State
 title: ITCallStateEvent::get_State (tapi3if.h)
-description: The get_State method gets information on the new call state.helpviewer_keywords: ["ITCallStateEvent interface [TAPI 2.2]","get_State method","ITCallStateEvent.get_State","ITCallStateEvent::get_State","_tapi3_itcallstateevent_get_state","get_State","get_State method [TAPI 2.2]","get_State method [TAPI 2.2]","ITCallStateEvent interface","tapi3.itcallstateevent_get_state","tapi3if/ITCallStateEvent::get_State"]
+description: The get_State method gets information on the new call state.
+helpviewer_keywords: ["ITCallStateEvent interface [TAPI 2.2]","get_State method","ITCallStateEvent.get_State","ITCallStateEvent::get_State","_tapi3_itcallstateevent_get_state","get_State","get_State method [TAPI 2.2]","get_State method [TAPI 2.2]","ITCallStateEvent interface","tapi3.itcallstateevent_get_state","tapi3if/ITCallStateEvent::get_State"]
 old-location: tapi3\itcallstateevent_get_state.htm
 tech.root: Tapi
 ms.assetid: 45e46b99-c65f-4296-9537-7fb7a4210727

@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.IsVisible(IN REAL,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.IsVisible(INREAL,INREAL)
 title: Graphics::IsVisible(IN REAL,IN REAL) (gdiplusgraphics.h)
-description: The Graphics::IsVisible method determines whether the specified point is inside the visible clipping region of this Graphics object.helpviewer_keywords: ["Graphics class [GDI+]","IsVisible method","Graphics.IsVisible","Graphics.IsVisible(IN REAL","IN REAL)","Graphics.IsVisible(REAL","REAL)","Graphics::IsVisible","Graphics::IsVisible(IN REAL","IN REAL)","IsVisible","IsVisible method [GDI+]","IsVisible method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_IsVisible_REAL_x_REAL_y_","gdiplus._gdiplus_CLASS_Graphics_IsVisible_REAL_x_REAL_y_"]
+description: The Graphics::IsVisible method determines whether the specified point is inside the visible clipping region of this Graphics object.
+helpviewer_keywords: ["Graphics class [GDI+]","IsVisible method","Graphics.IsVisible","Graphics.IsVisible(IN REAL","IN REAL)","Graphics.IsVisible(REAL","REAL)","Graphics::IsVisible","Graphics::IsVisible(IN REAL","IN REAL)","IsVisible","IsVisible method [GDI+]","IsVisible method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_IsVisible_REAL_x_REAL_y_","gdiplus._gdiplus_CLASS_Graphics_IsVisible_REAL_x_REAL_y_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IsVisible_REAL_x_REAL_y_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsisvisiblemethods\isvisible_14realx_realy.htm

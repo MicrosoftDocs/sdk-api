@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetPrivateProfileSectionNamesW
 title: GetPrivateProfileSectionNamesW function (winbase.h)
-description: Retrieves the names of all sections in an initialization file.helpviewer_keywords: ["GetPrivateProfileSectionNames","GetPrivateProfileSectionNames function","GetPrivateProfileSectionNamesA","GetPrivateProfileSectionNamesW","_win32_getprivateprofilesectionnames","base.getprivateprofilesectionnames","winbase/GetPrivateProfileSectionNames","winbase/GetPrivateProfileSectionNamesA","winbase/GetPrivateProfileSectionNamesW"]
+description: Retrieves the names of all sections in an initialization file.
+helpviewer_keywords: ["GetPrivateProfileSectionNames","GetPrivateProfileSectionNames function","GetPrivateProfileSectionNamesA","GetPrivateProfileSectionNamesW","_win32_getprivateprofilesectionnames","base.getprivateprofilesectionnames","winbase/GetPrivateProfileSectionNames","winbase/GetPrivateProfileSectionNamesA","winbase/GetPrivateProfileSectionNamesW"]
 old-location: base\getprivateprofilesectionnames.htm
 tech.root: SysInfo
 ms.assetid: f5d8593d-d086-4a28-b067-be3806ba78c3
@@ -117,6 +118,10 @@ When looking at values in the registry that specify other registry locations, th
 </ul>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines GetPrivateProfileSectionNames as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

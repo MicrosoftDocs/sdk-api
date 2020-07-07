@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Multiply
 title: Matrix::Multiply (gdiplusmatrix.h)
-description: The Matrix::Multiply method updates this matrix with the product of itself and another matrix.helpviewer_keywords: ["Matrix class [GDI+]","Multiply method","Matrix.Multiply","Matrix::Multiply","Multiply","Multiply method [GDI+]","Multiply method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_Multiply_matrix_order_","gdiplus._gdiplus_CLASS_Matrix_Multiply_matrix_order_"]
+description: The Matrix::Multiply method updates this matrix with the product of itself and another matrix.
+helpviewer_keywords: ["Matrix class [GDI+]","Multiply method","Matrix.Multiply","Matrix::Multiply","Multiply","Multiply method [GDI+]","Multiply method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_Multiply_matrix_order_","gdiplus._gdiplus_CLASS_Matrix_Multiply_matrix_order_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Multiply_matrix_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\multiply.htm

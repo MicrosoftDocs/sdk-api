@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.wvnsprintfW
 title: wvnsprintfW function (shlwapi.h)
-description: Takes a list of arguments and returns the values of the arguments as a printf-style formatted string.helpviewer_keywords: ["_win32_wvnsprintf","shell.wvnsprintf","shlwapi/wvnsprintf","shlwapi/wvnsprintfA","shlwapi/wvnsprintfW","wvnsprintf","wvnsprintf function [Windows Shell]","wvnsprintfA","wvnsprintfW"]
+description: Takes a list of arguments and returns the values of the arguments as a printf-style formatted string.
+helpviewer_keywords: ["_win32_wvnsprintf","shell.wvnsprintf","shlwapi/wvnsprintf","shlwapi/wvnsprintfA","shlwapi/wvnsprintfW","wvnsprintf","wvnsprintf function [Windows Shell]","wvnsprintfA","wvnsprintfW"]
 old-location: shell\wvnsprintf.htm
 tech.root: shell
 ms.assetid: a2aaaa05-d61e-41e3-8e49-7c0da1a661f0
@@ -106,4 +107,8 @@ Returns the number of characters written to the buffer, excluding any terminatin
 <b>Security Warning:  </b>Using this function incorrectly can compromise the security of your application. The copied string is not guaranteed to be null-terminated. Consider using one of the following alternatives. <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfa">StringCbPrintf</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbprintfexa">StringCbPrintfEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfa">StringCbVPrintf</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbvprintfexa">StringCbVPrintfEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfa">StringCchPrintf</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchprintfexa">StringCchPrintfEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfa">StringCchVPrintf</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchvprintfexa">StringCchVPrintfEx</a>. You should review <a href="https://docs.microsoft.com/windows/desktop/shell/sec-shell">Security Considerations: Microsoft Windows Shell</a> before continuing.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines wvnsprintf as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

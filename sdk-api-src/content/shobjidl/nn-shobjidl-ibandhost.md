@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.IBandHost
 title: IBandHost (shobjidl.h)
-description: Exposes methods that create and destroy bands and specifiy their availability.helpviewer_keywords: ["IBandHost","IBandHost interface [Windows Shell]","IBandHost interface [Windows Shell]","described","_shell_IBandHost","shell.IBandHost","shobjidl/IBandHost"]
+description: Exposes methods that create and destroy bands and specifiy their availability.
+helpviewer_keywords: ["IBandHost","IBandHost interface [Windows Shell]","IBandHost interface [Windows Shell]","described","_shell_IBandHost","shell.IBandHost","shobjidl/IBandHost"]
 old-location: shell\IBandHost.htm
 tech.root: shell
 ms.assetid: 8d9fe92a-812e-4fa0-954b-37aa48b52008

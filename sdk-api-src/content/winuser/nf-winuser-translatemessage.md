@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.TranslateMessage
 title: TranslateMessage function (winuser.h)
-description: Translates virtual-key messages into character messages. The character messages are posted to the calling thread's message queue, to be read the next time the thread calls the GetMessage or PeekMessage function.helpviewer_keywords: ["TranslateMessage","TranslateMessage function [Windows and Messages]","_win32_TranslateMessage","_win32_translatemessage_cpp","winmsg.translatemessage","winui._win32_translatemessage","winuser/TranslateMessage"]
+description: Translates virtual-key messages into character messages. The character messages are posted to the calling thread's message queue, to be read the next time the thread calls the GetMessage or PeekMessage function.
+helpviewer_keywords: ["TranslateMessage","TranslateMessage function [Windows and Messages]","_win32_TranslateMessage","_win32_translatemessage_cpp","winmsg.translatemessage","winui._win32_translatemessage","winuser/TranslateMessage"]
 old-location: winmsg\translatemessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\translatemessage.htm

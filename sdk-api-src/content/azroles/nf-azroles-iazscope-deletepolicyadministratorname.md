@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzScope.DeletePolicyAdministratorName
 title: IAzScope::DeletePolicyAdministratorName (azroles.h)
-description: The DeletePolicyAdministratorName method of IAzScope removes the specified account name from the list of principals that act as policy administrators.helpviewer_keywords: ["AzScope object [Security]","DeletePolicyAdministratorName method","DeletePolicyAdministratorName","DeletePolicyAdministratorName method [Security]","DeletePolicyAdministratorName method [Security]","AzScope object","DeletePolicyAdministratorName method [Security]","IAzScope interface","IAzScope interface [Security]","DeletePolicyAdministratorName method","IAzScope.DeletePolicyAdministratorName","IAzScope::DeletePolicyAdministratorName","azroles/IAzScope::DeletePolicyAdministratorName","security.iazscope_deletepolicyadministratorname"]
+description: The DeletePolicyAdministratorName method of IAzScope removes the specified account name from the list of principals that act as policy administrators.
+helpviewer_keywords: ["AzScope object [Security]","DeletePolicyAdministratorName method","DeletePolicyAdministratorName","DeletePolicyAdministratorName method [Security]","DeletePolicyAdministratorName method [Security]","AzScope object","DeletePolicyAdministratorName method [Security]","IAzScope interface","IAzScope interface [Security]","DeletePolicyAdministratorName method","IAzScope.DeletePolicyAdministratorName","IAzScope::DeletePolicyAdministratorName","azroles/IAzScope::DeletePolicyAdministratorName","security.iazscope_deletepolicyadministratorname"]
 old-location: security\iazscope_deletepolicyadministratorname.htm
 tech.root: SecAuthZ
 ms.assetid: 6314e1d5-e5ea-42c4-9457-dad5d6f57897

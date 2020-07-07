@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBuffer.GetUpdating
 title: IMFSourceBuffer::GetUpdating (mfmediaengine.h)
-description: Gets a value that indicates if Append, AppendByteStream, or Remove is in process.helpviewer_keywords: ["GetUpdating","GetUpdating method [Media Foundation]","GetUpdating method [Media Foundation]","IMFSourceBuffer interface","IMFSourceBuffer interface [Media Foundation]","GetUpdating method","IMFSourceBuffer.GetUpdating","IMFSourceBuffer::GetUpdating","mf.imfsourcebuffer_getupdating","mfmediaengine/IMFSourceBuffer::GetUpdating"]
+description: Gets a value that indicates if Append, AppendByteStream, or Remove is in process.
+helpviewer_keywords: ["GetUpdating","GetUpdating method [Media Foundation]","GetUpdating method [Media Foundation]","IMFSourceBuffer interface","IMFSourceBuffer interface [Media Foundation]","GetUpdating method","IMFSourceBuffer.GetUpdating","IMFSourceBuffer::GetUpdating","mf.imfsourcebuffer_getupdating","mfmediaengine/IMFSourceBuffer::GetUpdating"]
 old-location: mf\imfsourcebuffer_getupdating.htm
 tech.root: medfound
 ms.assetid: f1c810d1-05dd-4931-b063-fb86c6bedae3

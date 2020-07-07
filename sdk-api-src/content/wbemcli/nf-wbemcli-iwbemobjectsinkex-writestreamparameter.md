@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemObjectSinkEx.WriteStreamParameter
 title: IWbemObjectSinkEx::WriteStreamParameter (wbemcli.h)
-description: TBDhelpviewer_keywords: ["IWbemObjectSinkEx interface [Windows Management Instrumentation]","WriteStreamParameter method","IWbemObjectSinkEx.WriteStreamParameter","IWbemObjectSinkEx::WriteStreamParameter","WriteStreamParameter","WriteStreamParameter method [Windows Management Instrumentation]","WriteStreamParameter method [Windows Management Instrumentation]","IWbemObjectSinkEx interface","wbemcli/IWbemObjectSinkEx::WriteStreamParameter","wmi.iwbemobjectsinkex_writestreamparameter"]
+description: TBD
+helpviewer_keywords: ["IWbemObjectSinkEx interface [Windows Management Instrumentation]","WriteStreamParameter method","IWbemObjectSinkEx.WriteStreamParameter","IWbemObjectSinkEx::WriteStreamParameter","WriteStreamParameter","WriteStreamParameter method [Windows Management Instrumentation]","WriteStreamParameter method [Windows Management Instrumentation]","IWbemObjectSinkEx interface","wbemcli/IWbemObjectSinkEx::WriteStreamParameter","wmi.iwbemobjectsinkex_writestreamparameter"]
 old-location: wmi\iwbemobjectsinkex_writestreamparameter.htm
 tech.root: WmiSdk
 ms.assetid: 609ed388-3d6a-49ba-91ae-78a34bddd100

@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.put_DisableGaplessAudio
 title: IRawCDImageCreator::put_DisableGaplessAudio (imapi2.h)
-description: Sets the value that specifies if &#0034;Gapless Audio&#0034; recording is disabled. This property defaults to a value of VARIANT_FALSE, which disables the use of &#0034;gapless&#0034; recording between consecutive audio tracks.helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","put_DisableGaplessAudio method","IRawCDImageCreator.put_DisableGaplessAudio","IRawCDImageCreator::put_DisableGaplessAudio","imapi.irawcdimagecreator_put_disablegaplessaudio","imapi2/IRawCDImageCreator::put_DisableGaplessAudio","put_DisableGaplessAudio","put_DisableGaplessAudio method [IMAPI]","put_DisableGaplessAudio method [IMAPI]","IRawCDImageCreator interface"]
+description: Sets the value that specifies if &#0034;Gapless Audio&#0034; recording is disabled. This property defaults to a value of VARIANT_FALSE, which disables the use of &#0034;gapless&#0034; recording between consecutive audio tracks.
+helpviewer_keywords: ["IRawCDImageCreator interface [IMAPI]","put_DisableGaplessAudio method","IRawCDImageCreator.put_DisableGaplessAudio","IRawCDImageCreator::put_DisableGaplessAudio","imapi.irawcdimagecreator_put_disablegaplessaudio","imapi2/IRawCDImageCreator::put_DisableGaplessAudio","put_DisableGaplessAudio","put_DisableGaplessAudio method [IMAPI]","put_DisableGaplessAudio method [IMAPI]","IRawCDImageCreator interface"]
 old-location: imapi\irawcdimagecreator_put_disablegaplessaudio.htm
 tech.root: imapi
 ms.assetid: c9e17ed7-f51a-4b28-82db-36cad1aedd39

@@ -1,7 +1,8 @@
 ---
 UID: NE:evntrace._ETW_PROCESS_HANDLE_INFO_TYPE
 title: ETW_PROCESS_HANDLE_INFO_TYPE (evntrace.h)
-description: Specifies what kind of operation will be done on a handle.helpviewer_keywords: ["ETW_PROCESS_HANDLE_INFO_TYPE","ETW_PROCESS_HANDLE_INFO_TYPE enumeration [ETW]","EtwQueryPartitionInformation","EtwQueryProcessHandleInfoMax","etw.etw_process_handle_info_type","evntrace/ETW_PROCESS_HANDLE_INFO_TYPE","evntrace/EtwQueryPartitionInformation","evntrace/EtwQueryProcessHandleInfoMax"]
+description: Specifies what kind of operation will be done on a handle.
+helpviewer_keywords: ["ETW_PROCESS_HANDLE_INFO_TYPE","ETW_PROCESS_HANDLE_INFO_TYPE enumeration [ETW]","EtwQueryPartitionInformation","EtwQueryProcessHandleInfoMax","etw.etw_process_handle_info_type","evntrace/ETW_PROCESS_HANDLE_INFO_TYPE","evntrace/EtwQueryPartitionInformation","evntrace/EtwQueryProcessHandleInfoMax"]
 old-location: etw\etw_process_handle_info_type.htm
 tech.root: ETW
 ms.assetid: 92932E4C-0A06-4CDE-B14B-BF53226E133B

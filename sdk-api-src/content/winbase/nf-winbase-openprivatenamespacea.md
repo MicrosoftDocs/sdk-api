@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.OpenPrivateNamespaceA
 title: OpenPrivateNamespaceA function (winbase.h)
-description: Opens a private namespace.helpviewer_keywords: ["OpenPrivateNamespace","OpenPrivateNamespace function","OpenPrivateNamespaceA","OpenPrivateNamespaceW","base.openprivatenamespace","winbase/OpenPrivateNamespace","winbase/OpenPrivateNamespaceA","winbase/OpenPrivateNamespaceW"]
+description: Opens a private namespace.
+helpviewer_keywords: ["OpenPrivateNamespace","OpenPrivateNamespace function","OpenPrivateNamespaceA","OpenPrivateNamespaceW","base.openprivatenamespace","winbase/OpenPrivateNamespace","winbase/OpenPrivateNamespaceA","winbase/OpenPrivateNamespaceW"]
 old-location: base\openprivatenamespace.htm
 tech.root: Sync
 ms.assetid: 268b4932-2553-4883-8a26-002997fbc59e
@@ -71,7 +72,7 @@ A descriptor that defines how the namespace is to be isolated. The <a href="http
 
 ### -param lpAliasPrefix [in]
 
-The prefix for the namespace. To create an object in this namespace, specify the object name as <i>prefix</i>\<i>objectname</i>.
+The prefix for the namespace. To create an object in this namespace, specify the object name as _prefix_\\_objectname_.
 
 
 ## -returns
@@ -111,6 +112,3 @@ To compile an application that uses this function, define <b>_WIN32_WINNT</b> as
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/object-namespaces">Object Namespaces</a>
  
-
- 
-

@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICPngSrgbProperties
 title: WICPngSrgbProperties (wincodec.h)
-description: Specifies the Portable Network Graphics (PNG) sRGB chunk metadata properties.helpviewer_keywords: ["WICPngSrgbProperties","WICPngSrgbProperties enumeration [Windows Imaging Component]","WICPngSrgbRenderingIntent","_wic_codec_wicpngsrgbproperties","wic._wic_codec_wicpngsrgbproperties","wincodec/WICPngSrgbProperties","wincodec/WICPngSrgbRenderingIntent"]
+description: Specifies the Portable Network Graphics (PNG) sRGB chunk metadata properties.
+helpviewer_keywords: ["WICPngSrgbProperties","WICPngSrgbProperties enumeration [Windows Imaging Component]","WICPngSrgbRenderingIntent","_wic_codec_wicpngsrgbproperties","wic._wic_codec_wicpngsrgbproperties","wincodec/WICPngSrgbProperties","wincodec/WICPngSrgbRenderingIntent"]
 old-location: wic\_wic_codec_wicpngsrgbproperties.htm
 tech.root: wic
 ms.assetid: ec9bbdb7-9ce2-44bd-bd84-842394ce4c5f

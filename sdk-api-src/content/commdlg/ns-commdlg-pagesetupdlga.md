@@ -1,7 +1,8 @@
 ---
 UID: NS:commdlg.tagPSDA
 title: PAGESETUPDLGA (commdlg.h)
-description: Contains information the PageSetupDlg function uses to initialize the Page Setup dialog box. After the user closes the dialog box, the system returns information about the user-defined page parameters in this structure.helpviewer_keywords: ["*LPPAGESETUPDLGA","LPPAGESETUPDLG","LPPAGESETUPDLG structure pointer [Dialog Boxes]","PAGESETUPDLG","PAGESETUPDLG structure [Dialog Boxes]","PAGESETUPDLGA","PAGESETUPDLGW","PSD_DEFAULTMINMARGINS","PSD_DISABLEMARGINS","PSD_DISABLEORIENTATION","PSD_DISABLEPAGEPAINTING","PSD_DISABLEPAPER","PSD_DISABLEPRINTER","PSD_ENABLEPAGEPAINTHOOK","PSD_ENABLEPAGESETUPHOOK","PSD_ENABLEPAGESETUPTEMPLATE","PSD_ENABLEPAGESETUPTEMPLATEHANDLE","PSD_INHUNDREDTHSOFMILLIMETERS","PSD_INTHOUSANDTHSOFINCHES","PSD_INWININIINTLMEASURE","PSD_MARGINS","PSD_MINMARGINS","PSD_NONETWORKBUTTON","PSD_NOWARNING","PSD_RETURNDEFAULT","PSD_SHOWHELP","_win32_PAGESETUPDLG_str","_win32_pagesetupdlg_str_cpp","commdlg/LPPAGESETUPDLG","commdlg/PAGESETUPDLG","commdlg/PAGESETUPDLGA","commdlg/PAGESETUPDLGW","dlgbox.pagesetupdlg_str","tagPSDA","tagPSDW","winui._win32_pagesetupdlg_str"]
+description: Contains information the PageSetupDlg function uses to initialize the Page Setup dialog box. After the user closes the dialog box, the system returns information about the user-defined page parameters in this structure.
+helpviewer_keywords: ["*LPPAGESETUPDLGA","LPPAGESETUPDLG","LPPAGESETUPDLG structure pointer [Dialog Boxes]","PAGESETUPDLG","PAGESETUPDLG structure [Dialog Boxes]","PAGESETUPDLGA","PAGESETUPDLGW","PSD_DEFAULTMINMARGINS","PSD_DISABLEMARGINS","PSD_DISABLEORIENTATION","PSD_DISABLEPAGEPAINTING","PSD_DISABLEPAPER","PSD_DISABLEPRINTER","PSD_ENABLEPAGEPAINTHOOK","PSD_ENABLEPAGESETUPHOOK","PSD_ENABLEPAGESETUPTEMPLATE","PSD_ENABLEPAGESETUPTEMPLATEHANDLE","PSD_INHUNDREDTHSOFMILLIMETERS","PSD_INTHOUSANDTHSOFINCHES","PSD_INWININIINTLMEASURE","PSD_MARGINS","PSD_MINMARGINS","PSD_NONETWORKBUTTON","PSD_NOWARNING","PSD_RETURNDEFAULT","PSD_SHOWHELP","_win32_PAGESETUPDLG_str","_win32_pagesetupdlg_str_cpp","commdlg/LPPAGESETUPDLG","commdlg/PAGESETUPDLG","commdlg/PAGESETUPDLGA","commdlg/PAGESETUPDLGW","dlgbox.pagesetupdlg_str","tagPSDA","tagPSDW","winui._win32_pagesetupdlg_str"]
 old-location: dlgbox\pagesetupdlg_str.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxstructures\pagesetupdlg.htm
@@ -77,7 +78,7 @@ A handle to the window that owns the dialog box. This member can be any valid wi
 
 Type: <b>HGLOBAL</b>
 
-A handle to a global memory object that contains a <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. On input, if a handle is specified, the values in the corresponding <b>DEVMODE</b> structure are used to initialize the controls in the dialog box. On output, the dialog box sets <b>hDevMode</b> to a global memory handle to a <b>DEVMODE</b> structure that contains values specifying the user's selections. If the user's selections are not available, the dialog box sets <b>hDevMode</b> to <b>NULL</b>. 
+A handle to a global memory object that contains a <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure. On input, if a handle is specified, the values in the corresponding <b>DEVMODE</b> structure are used to initialize the controls in the dialog box. On output, the dialog box sets <b>hDevMode</b> to a global memory handle to a <b>DEVMODE</b> structure that contains values specifying the user's selections. If the user's selections are not available, the dialog box sets <b>hDevMode</b> to <b>NULL</b>. 
 
 
 ### -field hDevNames
@@ -297,7 +298,7 @@ Prevents the system from displaying a warning message when there is no default p
 </td>
 <td width="60%">
 
-<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> does not display the dialog box. Instead, it sets the <b>hDevNames</b> and <b>hDevMode</b> members to handles to <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structures that are initialized for the system default printer. <b>PageSetupDlg</b> returns an error if either <b>hDevNames</b> or 	<b>hDevMode</b> is not <b>NULL</b>.
+<a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms646937(v=vs.85)">PageSetupDlg</a> does not display the dialog box. Instead, it sets the <b>hDevNames</b> and <b>hDevMode</b> members to handles to <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> and <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structures that are initialized for the system default printer. <b>PageSetupDlg</b> returns an error if either <b>hDevNames</b> or 	<b>hDevMode</b> is not <b>NULL</b>.
 
 </td>
 </tr>
@@ -386,10 +387,14 @@ If the <b>PSD_ENABLEPAGESETUPTEMPLATEHANDLE</b> flag is set in the <b>Flags</b> 
 If the <b>PSD_INHUNDREDTHSOFMILLIMETERS</b> and <b>PSD_INTHOUSANDTHSOFINCHES</b> flags are not specified, the system queries the <b>LOCALE_IMEASURE</b> value of the default user locale to determine the unit of measure (either hundredths of millimeters or thousandths of inches) for the margin widths and paper size. 
 
 If both <b>hDevNames</b> and <b>hDevMode</b> have valid handles and the printer name specified by the 
-				<b>wDeviceOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure is not the same as the name specified by the <b>dmDeviceName</b> member of the <a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure, the system uses the name specified by <b>wDeviceOffset</b> by default. 
+				<b>wDeviceOffset</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/commdlg/ns-commdlg-devnames">DEVNAMES</a> structure is not the same as the name specified by the <b>dmDeviceName</b> member of the <a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a> structure, the system uses the name specified by <b>wDeviceOffset</b> by default. 
 
 
 
+
+
+> [!NOTE]
+> The commdlg.h header defines PAGESETUPDLG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
@@ -404,7 +409,7 @@ If both <b>hDevNames</b> and <b>hDevMode</b> have valid handles and the printer 
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
+<a href="/windows/win32/api/wingdi/ns-wingdi-devmodea">DEVMODE</a>
 
 
 

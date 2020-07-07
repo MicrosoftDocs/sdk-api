@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetOffsetY(float)
 title: IDCompositionVisual::SetOffsetY (dcomp.h)
-description: Changes the value of the OffsetY property of this visual.helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","SetOffsetY method","IDCompositionVisual.SetOffsetY","IDCompositionVisual::SetOffsetY","IDCompositionVisual::SetOffsetY(float)","SetOffsetY","SetOffsetY method [DirectComposition]","SetOffsetY method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::SetOffsetY","directcomp.idcompositionvisual_setoffsety_float"]
+description: Changes the value of the OffsetY property of this visual.
+helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","SetOffsetY method","IDCompositionVisual.SetOffsetY","IDCompositionVisual::SetOffsetY","IDCompositionVisual::SetOffsetY(float)","SetOffsetY","SetOffsetY method [DirectComposition]","SetOffsetY method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::SetOffsetY","directcomp.idcompositionvisual_setoffsety_float"]
 old-location: directcomp\idcompositionvisual_setoffsety_float.htm
 tech.root: directcomp
 ms.assetid: 7FF2433A-1741-4177-85C8-F5AE0D920EB4

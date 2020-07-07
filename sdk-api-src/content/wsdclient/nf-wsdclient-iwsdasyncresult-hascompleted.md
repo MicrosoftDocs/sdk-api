@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdclient.IWSDAsyncResult.HasCompleted
 title: IWSDAsyncResult::HasCompleted (wsdclient.h)
-description: Indicates whether the operation has completed.helpviewer_keywords: ["HasCompleted","HasCompleted method","HasCompleted method","IWSDAsyncResult interface","IWSDAsyncResult interface","HasCompleted method","IWSDAsyncResult.HasCompleted","IWSDAsyncResult::HasCompleted","ncd.iwsdasyncresult_hascompleted_method","wsdclient/IWSDAsyncResult::HasCompleted"]
+description: Indicates whether the operation has completed.
+helpviewer_keywords: ["HasCompleted","HasCompleted method","HasCompleted method","IWSDAsyncResult interface","IWSDAsyncResult interface","HasCompleted method","IWSDAsyncResult.HasCompleted","IWSDAsyncResult::HasCompleted","ncd.iwsdasyncresult_hascompleted_method","wsdclient/IWSDAsyncResult::HasCompleted"]
 old-location: ncd\iwsdasyncresult_hascompleted_method.htm
 tech.root: WsdApi
 ms.assetid: 67944519-c6cc-4dc8-9035-4e6ee84e1277

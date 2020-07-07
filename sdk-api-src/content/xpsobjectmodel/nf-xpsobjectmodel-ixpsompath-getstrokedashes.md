@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeDashes
 title: IXpsOMPath::GetStrokeDashes (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMDashCollection interface that contains the XPS_DASH structures that define the dash pattern of the stroke.helpviewer_keywords: ["GetStrokeDashes","GetStrokeDashes method [XPS Documents and Packaging]","GetStrokeDashes method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeDashes method","IXpsOMPath.GetStrokeDashes","IXpsOMPath::GetStrokeDashes","xps.ixpsompath_getstrokedashes","xpsobjectmodel/IXpsOMPath::GetStrokeDashes"]
+description: Gets a pointer to the IXpsOMDashCollection interface that contains the XPS_DASH structures that define the dash pattern of the stroke.
+helpviewer_keywords: ["GetStrokeDashes","GetStrokeDashes method [XPS Documents and Packaging]","GetStrokeDashes method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeDashes method","IXpsOMPath.GetStrokeDashes","IXpsOMPath::GetStrokeDashes","xps.ixpsompath_getstrokedashes","xpsobjectmodel/IXpsOMPath::GetStrokeDashes"]
 old-location: xps\ixpsompath_getstrokedashes.htm
 tech.root: printdocs
 ms.assetid: 60c76c8f-1434-4347-9639-a886d6ae133c
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Gets a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">IXpsOMDashCollection</a> interface that contains the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures that  define the dash pattern of the stroke.
+Gets a pointer to the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">IXpsOMDashCollection</a> interface that contains the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures that  define the dash pattern of the stroke.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Gets a pointer to the <a href="https://docs.microsoft.com/windows/win32/api/xpso
 
 ### -param strokeDashes [out, retval]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">IXpsOMDashCollection</a> interface that contains the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures that  define the dash pattern of the stroke.
+A pointer to the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">IXpsOMDashCollection</a> interface that contains the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structures that  define the dash pattern of the stroke.
 
 
 ## -returns
@@ -122,7 +123,7 @@ The method succeeded.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
  
 
  

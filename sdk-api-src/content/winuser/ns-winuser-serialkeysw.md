@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagSERIALKEYSW
 title: SERIALKEYSW (winuser.h)
-description: Contains information about the SerialKeys accessibility feature, which interprets data from a communication aid attached to a serial port as commands causing the system to simulate keyboard and mouse input.helpviewer_keywords: ["*LPSERIALKEYSW","LPSERIALKEYS","LPSERIALKEYS structure pointer [Windows Accessibility]","SERIALKEYS","SERIALKEYS structure [Windows Accessibility]","SERIALKEYSW","SERKF_AVAILABLE","SERKF_INDICATOR","SERKF_SERIALKEYSON","_win32_SERIALKEYS_str","msaa.serialkeys","tagSERIALKEYSA","tagSERIALKEYSW","winauto.serialkeys","winuser/LPSERIALKEYS","winuser/SERIALKEYS"]
+description: Contains information about the SerialKeys accessibility feature, which interprets data from a communication aid attached to a serial port as commands causing the system to simulate keyboard and mouse input.
+helpviewer_keywords: ["*LPSERIALKEYSW","LPSERIALKEYS","LPSERIALKEYS structure pointer [Windows Accessibility]","SERIALKEYS","SERIALKEYS structure [Windows Accessibility]","SERIALKEYSW","SERKF_AVAILABLE","SERKF_INDICATOR","SERKF_SERIALKEYSON","_win32_SERIALKEYS_str","msaa.serialkeys","tagSERIALKEYSA","tagSERIALKEYSW","winauto.serialkeys","winuser/LPSERIALKEYS","winuser/SERIALKEYS"]
 old-location: winauto\serialkeys.htm
 tech.root: WinAuto
 ms.assetid: 934446ab-b6bc-49f9-ab26-34eb3dc88f05
@@ -203,6 +204,10 @@ An application uses this structure when calling the <a href="https://docs.micros
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines SERIALKEYS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

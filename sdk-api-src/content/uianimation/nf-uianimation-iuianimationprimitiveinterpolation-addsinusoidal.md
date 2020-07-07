@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationPrimitiveInterpolation.AddSinusoidal
 title: IUIAnimationPrimitiveInterpolation::AddSinusoidal (uianimation.h)
-description: Adds a sinusoidal segment that describes the shape of a transition curve to the animation function.helpviewer_keywords: ["AddSinusoidal","AddSinusoidal method [Windows Animation]","AddSinusoidal method [Windows Animation]","IUIAnimationPrimitiveInterpolation interface","IUIAnimationPrimitiveInterpolation interface [Windows Animation]","AddSinusoidal method","IUIAnimationPrimitiveInterpolation.AddSinusoidal","IUIAnimationPrimitiveInterpolation::AddSinusoidal","uianimation.iuianimationprimitiveinterpolation_addsinusoidal","uianimation/IUIAnimationPrimitiveInterpolation::AddSinusoidal"]
+description: Adds a sinusoidal segment that describes the shape of a transition curve to the animation function.
+helpviewer_keywords: ["AddSinusoidal","AddSinusoidal method [Windows Animation]","AddSinusoidal method [Windows Animation]","IUIAnimationPrimitiveInterpolation interface","IUIAnimationPrimitiveInterpolation interface [Windows Animation]","AddSinusoidal method","IUIAnimationPrimitiveInterpolation.AddSinusoidal","IUIAnimationPrimitiveInterpolation::AddSinusoidal","uianimation.iuianimationprimitiveinterpolation_addsinusoidal","uianimation/IUIAnimationPrimitiveInterpolation::AddSinusoidal"]
 old-location: uianimation\iuianimationprimitiveinterpolation_addsinusoidal.htm
 tech.root: UIAnimation
 ms.assetid: AF2BD96D-45A2-415B-A1BD-320C43F50360

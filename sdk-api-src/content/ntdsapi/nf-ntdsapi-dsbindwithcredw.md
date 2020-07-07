@@ -1,7 +1,8 @@
 ---
 UID: NF:ntdsapi.DsBindWithCredW
 title: DsBindWithCredW function (ntdsapi.h)
-description: Binds to a domain controller using the specified credentials.helpviewer_keywords: ["DsBindWithCred","DsBindWithCred function [Active Directory]","DsBindWithCredA","DsBindWithCredW","_glines_dsbindwithcred","ad.dsbindwithcred","ntdsapi/DsBindWithCred","ntdsapi/DsBindWithCredA","ntdsapi/DsBindWithCredW"]
+description: Binds to a domain controller using the specified credentials.
+helpviewer_keywords: ["DsBindWithCred","DsBindWithCred function [Active Directory]","DsBindWithCredA","DsBindWithCredW","_glines_dsbindwithcred","ad.dsbindwithcred","ntdsapi/DsBindWithCred","ntdsapi/DsBindWithCredA","ntdsapi/DsBindWithCredW"]
 old-location: ad\dsbindwithcred.htm
 tech.root: ad
 ms.assetid: 708e3874-852c-4a57-bf4b-edaf98818fe5
@@ -135,4 +136,9 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Windows or RPC error code otherw
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The ntdsapi.h header defines DsBindWithCred as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

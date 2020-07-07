@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetCAT
 title: IAtscPsipParser::GetCAT (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetCAT","GetCAT method [Microsoft TV Technologies]","GetCAT method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetCAT method","IAtscPsipParser.GetCAT","IAtscPsipParser::GetCAT","IAtscPsipParserGetCAT","atscpsipparser/IAtscPsipParser::GetCAT","mstv.iatscpsipparser_getcat"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetCAT","GetCAT method [Microsoft TV Technologies]","GetCAT method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetCAT method","IAtscPsipParser.GetCAT","IAtscPsipParser::GetCAT","IAtscPsipParserGetCAT","atscpsipparser/IAtscPsipParser::GetCAT","mstv.iatscpsipparser_getcat"]
 old-location: mstv\iatscpsipparser_getcat.htm
 tech.root: mstv
 ms.assetid: 9da30d7d-4536-4753-9687-b2c16b560f2d

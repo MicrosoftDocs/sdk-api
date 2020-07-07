@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTEXDVW
 title: ENUMLOGFONTEXDVW (wingdi.h)
-description: The ENUMLOGFONTEXDV structure contains the information used to create a font.helpviewer_keywords: ["*LPENUMLOGFONTEXDVW","*PENUMLOGFONTEXDVW","ENUMLOGFONTEXDV","ENUMLOGFONTEXDV structure [Windows GDI]","ENUMLOGFONTEXDVA","ENUMLOGFONTEXDVW","PENUMLOGFONTEXDV","PENUMLOGFONTEXDV structure pointer [Windows GDI]","_win32_ENUMLOGFONTEXDV_str","gdi.enumlogfontexdv","wingdi/ENUMLOGFONTEXDV","wingdi/ENUMLOGFONTEXDVA","wingdi/ENUMLOGFONTEXDVW","wingdi/PENUMLOGFONTEXDV"]
+description: The ENUMLOGFONTEXDV structure contains the information used to create a font.
+helpviewer_keywords: ["*LPENUMLOGFONTEXDVW","*PENUMLOGFONTEXDVW","ENUMLOGFONTEXDV","ENUMLOGFONTEXDV structure [Windows GDI]","ENUMLOGFONTEXDVA","ENUMLOGFONTEXDVW","PENUMLOGFONTEXDV","PENUMLOGFONTEXDV structure pointer [Windows GDI]","_win32_ENUMLOGFONTEXDV_str","gdi.enumlogfontexdv","wingdi/ENUMLOGFONTEXDV","wingdi/ENUMLOGFONTEXDVA","wingdi/ENUMLOGFONTEXDVW","wingdi/PENUMLOGFONTEXDV"]
 old-location: gdi\enumlogfontexdv.htm
 tech.root: gdi
 ms.assetid: 8d483f52-250e-4c4f-83cf-ff952bb84fd3
@@ -82,6 +83,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enu
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines ENUMLOGFONTEXDV as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.GetSize
 title: IDWriteBitmapRenderTarget::GetSize (dwrite.h)
-description: Gets the dimensions of the target bitmap.helpviewer_keywords: ["GetSize","GetSize method [Direct Write]","GetSize method [Direct Write]","IDWriteBitmapRenderTarget interface","IDWriteBitmapRenderTarget interface [Direct Write]","GetSize method","IDWriteBitmapRenderTarget.GetSize","IDWriteBitmapRenderTarget::GetSize","directwrite.IDWriteBitmapRenderTarget_GetSize","dwrite/IDWriteBitmapRenderTarget::GetSize"]
+description: Gets the dimensions of the target bitmap.
+helpviewer_keywords: ["GetSize","GetSize method [Direct Write]","GetSize method [Direct Write]","IDWriteBitmapRenderTarget interface","IDWriteBitmapRenderTarget interface [Direct Write]","GetSize method","IDWriteBitmapRenderTarget.GetSize","IDWriteBitmapRenderTarget::GetSize","directwrite.IDWriteBitmapRenderTarget_GetSize","dwrite/IDWriteBitmapRenderTarget::GetSize"]
 old-location: directwrite\IDWriteBitmapRenderTarget_GetSize.htm
 tech.root: DirectWrite
 ms.assetid: 1b73854c-674a-408a-8967-e72808ee296e

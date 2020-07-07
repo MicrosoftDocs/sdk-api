@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarity.Append
 title: ISimilarity::Append (msrdc.h)
-description: Adds the file ID and similarity data information to the tables in the similarity file.helpviewer_keywords: ["Append","Append method [Remote Differential Compression]","Append method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","Append method","ISimilarity.Append","ISimilarity::Append","fs.isimilarity_append","msrdc/ISimilarity::Append","rdc.isimilarity_append"]
+description: Adds the file ID and similarity data information to the tables in the similarity file.
+helpviewer_keywords: ["Append","Append method [Remote Differential Compression]","Append method [Remote Differential Compression]","ISimilarity interface","ISimilarity interface [Remote Differential Compression]","Append method","ISimilarity.Append","ISimilarity::Append","fs.isimilarity_append","msrdc/ISimilarity::Append","rdc.isimilarity_append"]
 old-location: rdc\isimilarity_append.htm
 tech.root: rdc
 ms.assetid: f8896d9e-ca6a-404f-b80f-ef739ec97b53
@@ -59,12 +60,12 @@ Adds the file ID and similarity data information to the tables in the similarity
 
 ### -param similarityFileId [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similarityfileid">SimilarityFileId</a> structure to be added to the similarity file ID table.
+A pointer to the <a href="/windows/win32/api/msrdc/ns-msrdc-similarityfileid">SimilarityFileId</a> structure to be added to the similarity file ID table.
 
 
 ### -param similarityData [in]
 
-A pointer to the <a href="https://docs.microsoft.com/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to be added to the similarity traits table.
+A pointer to the <a href="/windows/win32/api/msrdc/ns-msrdc-similaritydata">SimilarityData</a> structure to be added to the similarity traits table.
 
 
 ## -returns

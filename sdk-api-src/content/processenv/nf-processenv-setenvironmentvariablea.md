@@ -1,7 +1,8 @@
 ---
 UID: NF:processenv.SetEnvironmentVariableA
 title: SetEnvironmentVariableA function (processenv.h)
-description: Sets the contents of the specified environment variable for the current process.helpviewer_keywords: ["SetEnvironmentVariable","SetEnvironmentVariable function","SetEnvironmentVariableA","SetEnvironmentVariableW","_win32_setenvironmentvariable","base.setenvironmentvariable","processenv/SetEnvironmentVariable","processenv/SetEnvironmentVariableA","processenv/SetEnvironmentVariableW","winbase/SetEnvironmentVariable","winbase/SetEnvironmentVariableA","winbase/SetEnvironmentVariableW"]
+description: Sets the contents of the specified environment variable for the current process.
+helpviewer_keywords: ["SetEnvironmentVariable","SetEnvironmentVariable function","SetEnvironmentVariableA","SetEnvironmentVariableW","_win32_setenvironmentvariable","base.setenvironmentvariable","processenv/SetEnvironmentVariable","processenv/SetEnvironmentVariableA","processenv/SetEnvironmentVariableW","winbase/SetEnvironmentVariable","winbase/SetEnvironmentVariableA","winbase/SetEnvironmentVariableW"]
 old-location: base\setenvironmentvariable.htm
 tech.root: ProcThread
 ms.assetid: 95bd6fa5-886d-41dc-a5c3-ede86dbfa15d
@@ -106,6 +107,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The processenv.h header defines SetEnvironmentVariable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

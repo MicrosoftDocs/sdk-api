@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataresolution.RoParseTypeName
 title: RoParseTypeName function (rometadataresolution.h)
-description: Parses a type name and existing type parameters, in the case of parameterized types.helpviewer_keywords: ["RoParseTypeName","RoParseTypeName function [Windows Runtime]","rometadataresolution/RoParseTypeName","winrt.roparsetypename"]
+description: Parses a type name and existing type parameters, in the case of parameterized types.
+helpviewer_keywords: ["RoParseTypeName","RoParseTypeName function [Windows Runtime]","rometadataresolution/RoParseTypeName","winrt.roparsetypename"]
 old-location: winrt\roparsetypename.htm
 tech.root: WinRT
 ms.assetid: AF007D43-7BAC-4753-9D2B-8F397B4A464A

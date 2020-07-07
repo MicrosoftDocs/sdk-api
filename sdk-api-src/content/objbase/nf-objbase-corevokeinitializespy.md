@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.CoRevokeInitializeSpy
 title: CoRevokeInitializeSpy function (objbase.h)
-description: Revokes a registered implementation of the IInitializeSpy interface.helpviewer_keywords: ["CoRevokeInitializeSpy","CoRevokeInitializeSpy function [COM]","_com_CoRevokeInitializeSpy","com.corevokeinitializespy","objbase/CoRevokeInitializeSpy"]
+description: Revokes a registered implementation of the IInitializeSpy interface.
+helpviewer_keywords: ["CoRevokeInitializeSpy","CoRevokeInitializeSpy function [COM]","_com_CoRevokeInitializeSpy","com.corevokeinitializespy","objbase/CoRevokeInitializeSpy"]
 old-location: com\corevokeinitializespy.htm
 tech.root: com
 ms.assetid: 24b0bedd-421a-4215-8edc-9fdce53e3b44
@@ -64,7 +65,7 @@ Revokes a registered implementation of the <a href="https://docs.microsoft.com/w
 
 ### -param uliCookie [in]
 
-A <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> cookie identifying the registration.
+A <a href="/windows/win32/api/winnt/ns-winnt-ularge_integer~r1">ULARGE_INTEGER</a> cookie identifying the registration.
 
 
 ## -returns

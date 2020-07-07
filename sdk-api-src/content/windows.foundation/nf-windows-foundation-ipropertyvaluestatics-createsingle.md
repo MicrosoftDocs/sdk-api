@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateSingle
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified 32-bit floating point value.helpviewer_keywords: ["CreateSingle","CreateSingle method [Windows Runtime]","CreateSingle method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateSingle method","IPropertyValueStatics.CreateSingle","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateSingle","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateSingle","winrt.ipropertyvaluefactory_createsingle","winrt.ipropertyvaluestatics_createsingle"]
+description: Creates a new IPropertyValue object that contains the specified 32-bit floating point value.
+helpviewer_keywords: ["CreateSingle","CreateSingle method [Windows Runtime]","CreateSingle method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateSingle method","IPropertyValueStatics.CreateSingle","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateSingle","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateSingle","winrt.ipropertyvaluefactory_createsingle","winrt.ipropertyvaluestatics_createsingle"]
 old-location: winrt\ipropertyvaluestatics_createsingle.htm
 tech.root: WinRT
 ms.assetid: A74F66F8-3F02-4CD0-86BC-FBEC340466C4

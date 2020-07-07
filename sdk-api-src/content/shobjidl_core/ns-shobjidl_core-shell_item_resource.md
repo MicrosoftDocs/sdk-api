@@ -1,7 +1,8 @@
 ---
 UID: NS:shobjidl_core.SHELL_ITEM_RESOURCE
 title: SHELL_ITEM_RESOURCE (shobjidl_core.h)
-description: Defines Shell item resource.helpviewer_keywords: ["SHELL_ITEM_RESOURCE","SHELL_ITEM_RESOURCE structure [Windows Shell]","_shell_SHELL_ITEM_RESOURCE","shell.SHELL_ITEM_RESOURCE","shobjidl_core/SHELL_ITEM_RESOURCE"]
+description: Defines Shell item resource.
+helpviewer_keywords: ["SHELL_ITEM_RESOURCE","SHELL_ITEM_RESOURCE structure [Windows Shell]","_shell_SHELL_ITEM_RESOURCE","shell.SHELL_ITEM_RESOURCE","shobjidl_core/SHELL_ITEM_RESOURCE"]
 old-location: shell\SHELL_ITEM_RESOURCE.htm
 tech.root: shell
 ms.assetid: 92ca56a2-e2c3-4651-aa29-115eb07119e9

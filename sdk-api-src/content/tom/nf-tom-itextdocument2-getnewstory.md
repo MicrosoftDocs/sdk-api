@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument2.GetNewStory
 title: ITextDocument2::GetNewStory (tom.h)
-description: Gets a new story.helpviewer_keywords: ["GetNewStory","GetNewStory method [Windows Controls]","GetNewStory method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","GetNewStory method","ITextDocument2.GetNewStory","ITextDocument2::GetNewStory","controls.itextdocument2_getnewstory","tom/ITextDocument2::GetNewStory"]
+description: Gets a new story.
+helpviewer_keywords: ["GetNewStory","GetNewStory method [Windows Controls]","GetNewStory method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","GetNewStory method","ITextDocument2.GetNewStory","ITextDocument2::GetNewStory","controls.itextdocument2_getnewstory","tom/ITextDocument2::GetNewStory"]
 old-location: controls\itextdocument2_getnewstory.htm
 tech.root: Controls
 ms.assetid: 4d6ef859-150b-41e7-be58-b9c87c61f7d8

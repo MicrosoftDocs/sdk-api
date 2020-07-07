@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarDecDiv
 title: VarDecDiv function (oleauto.h)
-description: Divides two variants of type decimal.helpviewer_keywords: ["VarDecDiv","VarDecDiv function [Automation]","_oa96_VarDecDiv","automat.vardecdiv","oleauto/VarDecDiv"]
+description: Divides two variants of type decimal.
+helpviewer_keywords: ["VarDecDiv","VarDecDiv function [Automation]","_oa96_VarDecDiv","automat.vardecdiv","oleauto/VarDecDiv"]
 old-location: automat\vardecdiv.htm
 tech.root: automat
 ms.assetid: 75affc6f-08b4-4ca4-98a8-24cf28272c0a

@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IBasicAudio.get_Balance
 title: IBasicAudio::get_Balance (control.h)
-description: The get_Balance method retrieves the balance for the audio signal.helpviewer_keywords: ["IBasicAudio interface [DirectShow]","get_Balance method","IBasicAudio.get_Balance","IBasicAudio::get_Balance","IBasicAudioget_Balance","control/IBasicAudio::get_Balance","dshow.ibasicaudio_get_balance","get_Balance","get_Balance method [DirectShow]","get_Balance method [DirectShow]","IBasicAudio interface"]
+description: The get_Balance method retrieves the balance for the audio signal.
+helpviewer_keywords: ["IBasicAudio interface [DirectShow]","get_Balance method","IBasicAudio.get_Balance","IBasicAudio::get_Balance","IBasicAudioget_Balance","control/IBasicAudio::get_Balance","dshow.ibasicaudio_get_balance","get_Balance","get_Balance method [DirectShow]","get_Balance method [DirectShow]","IBasicAudio interface"]
 old-location: dshow\ibasicaudio_get_balance.htm
 tech.root: DirectShow
 ms.assetid: bb9796c5-0dd2-496a-b5b4-a6614d7770c1

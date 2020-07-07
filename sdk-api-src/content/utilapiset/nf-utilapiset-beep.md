@@ -1,7 +1,8 @@
 ---
 UID: NF:utilapiset.Beep
 title: Beep function (utilapiset.h)
-description: Generates simple tones on the speaker.helpviewer_keywords: ["Beep","Beep function","_win32_beep","base.beep","utilapiset/Beep"]
+description: Generates simple tones on the speaker.
+helpviewer_keywords: ["Beep","Beep function","_win32_beep","base.beep","utilapiset/Beep"]
 old-location: base\beep.htm
 tech.root: Debug
 ms.assetid: ea74fe2a-759e-4466-bef4-6061643ddd26

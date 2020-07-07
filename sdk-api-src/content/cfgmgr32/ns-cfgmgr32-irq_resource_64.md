@@ -1,7 +1,8 @@
 ---
 UID: NS:cfgmgr32.IRQ_Resource_64_s
 title: IRQ_RESOURCE_64 (cfgmgr32.h)
-description: The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance.helpviewer_keywords: ["*PIRQ_RESOURCE_64","IRQ_RESOURCE","IRQ_RESOURCE structure [Device and Driver Installation]","IRQ_RESOURCE_64","PIRQ_RESOURCE","PIRQ_RESOURCE structure pointer [Device and Driver Installation]","cfgmgr32/IRQ_RESOURCE","cfgmgr32/PIRQ_RESOURCE","cfgmgrst_7eed527c-01ea-417a-b408-3239701cd988.xml","devinst.irq_resource"]
+description: The IRQ_RESOURCE structure is used for specifying either a resource list or a resource requirements list that describes IRQ line usage for a device instance.
+helpviewer_keywords: ["*PIRQ_RESOURCE_64","IRQ_RESOURCE","IRQ_RESOURCE structure [Device and Driver Installation]","IRQ_RESOURCE_64","PIRQ_RESOURCE","PIRQ_RESOURCE structure pointer [Device and Driver Installation]","cfgmgr32/IRQ_RESOURCE","cfgmgr32/PIRQ_RESOURCE","cfgmgrst_7eed527c-01ea-417a-b408-3239701cd988.xml","devinst.irq_resource"]
 old-location: devinst\irq_resource.htm
 tech.root: devinst
 ms.assetid: 448298d1-2583-47d5-b393-e6c8e59da64e
@@ -59,7 +60,7 @@ The IRQ_RESOURCE structure is used for specifying either a resource list or a re
 
 ### -field IRQ_Header
 
-An [IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)a> structure.
+An [IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32) structure.
 
 
 ### -field IRQ_Data
@@ -76,7 +77,7 @@ Zero.
 
 #### For a resource requirements list:
 
-An [IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)a> array.
+An [IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range) array.
 
 
 ##### - IRQ_Data.For a resource list:
@@ -86,7 +87,7 @@ Zero.
 
 ##### - IRQ_Data.For a resource requirements list:
 
-An [IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)a> array.
+An [IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range) array.
 
 
 ## -see-also
@@ -94,11 +95,11 @@ An [IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr
 
 
 
-[IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)a>
+[IRQ_DES](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_des_32)
 
 
 
-[IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)a>
+[IRQ_RANGE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-irq_range)
  
 
  

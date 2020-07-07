@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509AttributeOSVersion
 title: IX509AttributeOSVersion (certenroll.h)
-description: Represents an attribute that contains version information about the client operating system on which the certificate request was generated.helpviewer_keywords: ["IX509AttributeOSVersion","IX509AttributeOSVersion interface [Security]","IX509AttributeOSVersion interface [Security]","described","certenroll/IX509AttributeOSVersion","security.ix509attributeosversion"]
+description: Represents an attribute that contains version information about the client operating system on which the certificate request was generated.
+helpviewer_keywords: ["IX509AttributeOSVersion","IX509AttributeOSVersion interface [Security]","IX509AttributeOSVersion interface [Security]","described","certenroll/IX509AttributeOSVersion","security.ix509attributeosversion"]
 old-location: security\ix509attributeosversion.htm
 tech.root: seccertenroll
 ms.assetid: 2ae84d47-2bda-4954-9165-902634d09da9

@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.KeyDown
 title: ITfKeystrokeMgr::KeyDown (msctf.h)
-description: ITfKeystrokeMgr::KeyDown methodhelpviewer_keywords: ["ITfKeystrokeMgr interface [Text Services Framework]","KeyDown method","ITfKeystrokeMgr.KeyDown","ITfKeystrokeMgr::KeyDown","KeyDown","KeyDown method [Text Services Framework]","KeyDown method [Text Services Framework]","ITfKeystrokeMgr interface","_tsf_itfkeystrokemgr_keydown_ref","msctf/ITfKeystrokeMgr::KeyDown","tsf.itfkeystrokemgr_keydown"]
+description: ITfKeystrokeMgr::KeyDown method
+helpviewer_keywords: ["ITfKeystrokeMgr interface [Text Services Framework]","KeyDown method","ITfKeystrokeMgr.KeyDown","ITfKeystrokeMgr::KeyDown","KeyDown","KeyDown method [Text Services Framework]","KeyDown method [Text Services Framework]","ITfKeystrokeMgr interface","_tsf_itfkeystrokemgr_keydown_ref","msctf/ITfKeystrokeMgr::KeyDown","tsf.itfkeystrokemgr_keydown"]
 old-location: tsf\itfkeystrokemgr_keydown.htm
 tech.root: TSF
 ms.assetid: 6eb4ad91-9431-4dec-b6cb-e58707318095

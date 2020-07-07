@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IServiceThreadPoolConfig
 title: IServiceThreadPoolConfig (comsvcs.h)
-description: Configures the thread pool of the activity object that is returned by calling CoCreateActivity.helpviewer_keywords: ["IServiceThreadPoolConfig","IServiceThreadPoolConfig interface [COM+]","IServiceThreadPoolConfig interface [COM+]","described","_cos_IServiceThreadPoolConfig","comsvcs/IServiceThreadPoolConfig","cos.iservicethreadpoolconfig"]
+description: Configures the thread pool of the activity object that is returned by calling CoCreateActivity.
+helpviewer_keywords: ["IServiceThreadPoolConfig","IServiceThreadPoolConfig interface [COM+]","IServiceThreadPoolConfig interface [COM+]","described","_cos_IServiceThreadPoolConfig","comsvcs/IServiceThreadPoolConfig","cos.iservicethreadpoolconfig"]
 old-location: cos\iservicethreadpoolconfig.htm
 tech.root: cossdk
 ms.assetid: 89c04fef-c6a0-4d73-a25a-a70b4b0f0bcf

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFontFile.GetLoader
 title: IDWriteFontFile::GetLoader (dwrite.h)
-description: Obtains the file loader associated with a font file object.helpviewer_keywords: ["GetLoader","GetLoader method [Direct Write]","GetLoader method [Direct Write]","IDWriteFontFile interface","IDWriteFontFile interface [Direct Write]","GetLoader method","IDWriteFontFile.GetLoader","IDWriteFontFile::GetLoader","directwrite.IDWriteFontFile_GetLoader","dwrite/IDWriteFontFile::GetLoader"]
+description: Obtains the file loader associated with a font file object.
+helpviewer_keywords: ["GetLoader","GetLoader method [Direct Write]","GetLoader method [Direct Write]","IDWriteFontFile interface","IDWriteFontFile interface [Direct Write]","GetLoader method","IDWriteFontFile.GetLoader","IDWriteFontFile::GetLoader","directwrite.IDWriteFontFile_GetLoader","dwrite/IDWriteFontFile::GetLoader"]
 old-location: directwrite\IDWriteFontFile_GetLoader.htm
 tech.root: DirectWrite
 ms.assetid: 60f13a03-2063-4f74-8bfe-217b6c1682ff

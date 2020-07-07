@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1TessellationSink.Close
 title: ID2D1TessellationSink::Close (d2d1.h)
-description: Closes the sink and returns its error status.helpviewer_keywords: ["Close","Close method [Direct2D]","Close method [Direct2D]","ID2D1TessellationSink interface","ID2D1TessellationSink interface [Direct2D]","Close method","ID2D1TessellationSink.Close","ID2D1TessellationSink::Close","d2d1/ID2D1TessellationSink::Close","direct2d.ID2D1TessellationSink_Close"]
+description: Closes the sink and returns its error status.
+helpviewer_keywords: ["Close","Close method [Direct2D]","Close method [Direct2D]","ID2D1TessellationSink interface","ID2D1TessellationSink interface [Direct2D]","Close method","ID2D1TessellationSink.Close","ID2D1TessellationSink::Close","d2d1/ID2D1TessellationSink::Close","direct2d.ID2D1TessellationSink_Close"]
 old-location: direct2d\ID2D1TessellationSink_Close.htm
 tech.root: Direct2D
 ms.assetid: 42630fca-1f57-4b1e-be9d-7636a792a1bf
@@ -65,7 +66,7 @@ Closes the sink and returns its error status.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 
 
@@ -75,7 +76,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a>
  
 
  

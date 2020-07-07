@@ -1,7 +1,8 @@
 ---
 UID: NN:oaidl.IRecordInfo
 title: IRecordInfo (oaidl.h)
-description: Describes the structure of a particular UDT.helpviewer_keywords: ["IRecordInfo","IRecordInfo interface [Automation]","IRecordInfo interface [Automation]","described","_oa96_IRecordInfo_Interface","automat.irecordinfo","oaidl/IRecordInfo"]
+description: Describes the structure of a particular UDT.
+helpviewer_keywords: ["IRecordInfo","IRecordInfo interface [Automation]","IRecordInfo interface [Automation]","described","_oa96_IRecordInfo_Interface","automat.irecordinfo","oaidl/IRecordInfo"]
 old-location: automat\irecordinfo.htm
 tech.root: automat
 ms.assetid: 065ebfa8-bfac-4c75-a3f9-9dc0409ea454

@@ -1,7 +1,8 @@
 ---
 UID: NF:inkpresenterdesktop.IInkPresenterDesktop.OnHighContrastChanged
 title: IInkPresenterDesktop::OnHighContrastChanged (inkpresenterdesktop.h)
-description: Specifies a high contrast change handler. This handler is notified of changes to the high contrast system settings.helpviewer_keywords: ["IInkPresenterDesktop interface","OnHighContrastChanged method","IInkPresenterDesktop.OnHighContrastChanged","IInkPresenterDesktop::OnHighContrastChanged","InkPresenterDesktop.iinkpresenterdesktop_onhighcontrastchanged","OnHighContrastChanged","OnHighContrastChanged method","OnHighContrastChanged method","IInkPresenterDesktop interface","inkpresenterdesktop/IInkPresenterDesktop::OnHighContrastChanged","input_ink.iinkpresenterdesktop_onhighcontrastchanged"]
+description: Specifies a high contrast change handler. This handler is notified of changes to the high contrast system settings.
+helpviewer_keywords: ["IInkPresenterDesktop interface","OnHighContrastChanged method","IInkPresenterDesktop.OnHighContrastChanged","IInkPresenterDesktop::OnHighContrastChanged","InkPresenterDesktop.iinkpresenterdesktop_onhighcontrastchanged","OnHighContrastChanged","OnHighContrastChanged method","OnHighContrastChanged method","IInkPresenterDesktop interface","inkpresenterdesktop/IInkPresenterDesktop::OnHighContrastChanged","input_ink.iinkpresenterdesktop_onhighcontrastchanged"]
 old-location: input_ink\iinkpresenterdesktop_onhighcontrastchanged.htm
 tech.root: input_ink
 ms.assetid: f231fbb7-685b-49db-80c5-dee367ff7f5b
@@ -81,7 +82,7 @@ If this method succeeds, it returns <b>S_OK</b>. Otherwise, it returns an <b>HRE
 
 
 
-<a href="https://go.microsoft.com/fwlink/p/?LinkID=620308">Ink sample</a>
+<a href="https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/Ink">Ink sample</a>
 
 
 

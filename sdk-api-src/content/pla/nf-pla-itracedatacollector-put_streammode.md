@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.ITraceDataCollector.put_StreamMode
 title: ITraceDataCollector::put_StreamMode (pla.h)
-description: Retrieves or sets the logging mode of the trace session.helpviewer_keywords: ["ITraceDataCollector interface [PLA]","StreamMode property","ITraceDataCollector.StreamMode","ITraceDataCollector.put_StreamMode","ITraceDataCollector::StreamMode","ITraceDataCollector::get_StreamMode","ITraceDataCollector::put_StreamMode","StreamMode property [PLA]","StreamMode property [PLA]","ITraceDataCollector interface","base.itracedatacollector_streammode","pla.itracedatacollector_streammode","pla/ITraceDataCollector::StreamMode","pla/ITraceDataCollector::get_StreamMode","pla/ITraceDataCollector::put_StreamMode","put_StreamMode"]
+description: Retrieves or sets the logging mode of the trace session.
+helpviewer_keywords: ["ITraceDataCollector interface [PLA]","StreamMode property","ITraceDataCollector.StreamMode","ITraceDataCollector.put_StreamMode","ITraceDataCollector::StreamMode","ITraceDataCollector::get_StreamMode","ITraceDataCollector::put_StreamMode","StreamMode property [PLA]","StreamMode property [PLA]","ITraceDataCollector interface","base.itracedatacollector_streammode","pla.itracedatacollector_streammode","pla/ITraceDataCollector::StreamMode","pla/ITraceDataCollector::get_StreamMode","pla/ITraceDataCollector::put_StreamMode","put_StreamMode"]
 old-location: pla\itracedatacollector_streammode.htm
 tech.root: PLA
 ms.assetid: eeca98e2-8da1-44e5-8d43-00b52f51bcae
@@ -68,7 +69,7 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/pla/ne-pla-streammode">StreamMode</a>
+<a href="/windows/win32/api/pla/ne-pla-streammode">StreamMode</a>
  
 
  

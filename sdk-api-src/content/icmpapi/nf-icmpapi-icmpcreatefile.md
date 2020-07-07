@@ -1,7 +1,8 @@
 ---
 UID: NF:icmpapi.IcmpCreateFile
 title: IcmpCreateFile function (icmpapi.h)
-description: The IcmpCreateFile function opens a handle on which IPv4 ICMP echo requests can be issued.helpviewer_keywords: ["IcmpCreateFile","IcmpCreateFile function [IP Helper]","_iphlp_icmpcreatefile","icmpapi/IcmpCreateFile","iphlp.icmpcreatefile"]
+description: The IcmpCreateFile function opens a handle on which IPv4 ICMP echo requests can be issued.
+helpviewer_keywords: ["IcmpCreateFile","IcmpCreateFile function [IP Helper]","_iphlp_icmpcreatefile","icmpapi/IcmpCreateFile","iphlp.icmpcreatefile"]
 old-location: iphlp\icmpcreatefile.htm
 tech.root: IpHlp
 ms.assetid: b435b38b-df86-4991-9772-c712c9ea606f

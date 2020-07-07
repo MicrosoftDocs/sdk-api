@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetDeviceInterfaceDetailA
 title: SetupDiGetDeviceInterfaceDetailA function (setupapi.h)
-description: The SetupDiGetDeviceInterfaceDetail function returns details about a device interface.helpviewer_keywords: ["SetupDiGetDeviceInterfaceDetail","SetupDiGetDeviceInterfaceDetail function [Device and Driver Installation]","SetupDiGetDeviceInterfaceDetailA","SetupDiGetDeviceInterfaceDetailW","devinst.setupdigetdeviceinterfacedetail","di-rtns_5203864c-0bc7-4a59-bdb3-ddda0dbbbf98.xml","setupapi/SetupDiGetDeviceInterfaceDetail"]
+description: The SetupDiGetDeviceInterfaceDetail function returns details about a device interface.
+helpviewer_keywords: ["SetupDiGetDeviceInterfaceDetail","SetupDiGetDeviceInterfaceDetail function [Device and Driver Installation]","SetupDiGetDeviceInterfaceDetailA","SetupDiGetDeviceInterfaceDetailW","devinst.setupdigetdeviceinterfacedetail","di-rtns_5203864c-0bc7-4a59-bdb3-ddda0dbbbf98.xml","setupapi/SetupDiGetDeviceInterfaceDetail"]
 old-location: devinst\setupdigetdeviceinterfacedetail.htm
 tech.root: devinst
 ms.assetid: fb4963f1-0ed4-483d-9f39-dcbac493bf1d
@@ -70,7 +71,7 @@ A pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/setupapi
 
 ### -param DeviceInterfaceDetailData [out, optional]
 
-A pointer to an <a href="https://docs.microsoft.com/windows/win32/api/setupapi/ns-setupapi-sp_device_interface_detail_data_a">SP_DEVICE_INTERFACE_DETAIL_DATA</a> structure to receive information about the specified interface. This parameter is optional and can be <b>NULL</b>. This parameter must be <b>NULL</b> if <i>DeviceInterfaceDetailSize</i> is zero. If this parameter is specified, the caller must set <i>DeviceInterfaceDetailData</i><b>.cbSize</b> to <b>sizeof</b>(SP_DEVICE_INTERFACE_DETAIL_DATA) before calling this function. The <b>cbSize</b> member always contains the size of the fixed part of the data structure, not a size reflecting the variable-length string at the end.
+A pointer to an <a href="/windows/win32/api/setupapi/ns-setupapi-sp_device_interface_detail_data_a">SP_DEVICE_INTERFACE_DETAIL_DATA</a> structure to receive information about the specified interface. This parameter is optional and can be <b>NULL</b>. This parameter must be <b>NULL</b> if <i>DeviceInterfaceDetailSize</i> is zero. If this parameter is specified, the caller must set <i>DeviceInterfaceDetailData</i><b>.cbSize</b> to <b>sizeof</b>(SP_DEVICE_INTERFACE_DETAIL_DATA) before calling this function. The <b>cbSize</b> member always contains the size of the fixed part of the data structure, not a size reflecting the variable-length string at the end.
 
 
 ### -param DeviceInterfaceDetailDataSize [in]
@@ -121,6 +122,10 @@ The interface detail returned by this function consists of a device path that ca
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetDeviceInterfaceDetail as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Reset
 title: IEnumChangeUnitExceptions::Reset (winsync.h)
-description: Resets the enumerator to the beginning of the change unit exception set.helpviewer_keywords: ["IEnumChangeUnitExceptions interface [Windows Sync]","Reset method","IEnumChangeUnitExceptions.Reset","IEnumChangeUnitExceptions::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","IEnumChangeUnitExceptions interface","winsync.ienumchangeunitexceptions_reset","winsync/IEnumChangeUnitExceptions::Reset"]
+description: Resets the enumerator to the beginning of the change unit exception set.
+helpviewer_keywords: ["IEnumChangeUnitExceptions interface [Windows Sync]","Reset method","IEnumChangeUnitExceptions.Reset","IEnumChangeUnitExceptions::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","IEnumChangeUnitExceptions interface","winsync.ienumchangeunitexceptions_reset","winsync/IEnumChangeUnitExceptions::Reset"]
 old-location: winsync\ienumchangeunitexceptions_reset.htm
 tech.root: winsync
 ms.assetid: 7c9a98e2-c976-42cb-ada3-ee33c11adae8

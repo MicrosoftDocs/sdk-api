@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSignatureRelationshipReference.GetSourceUri
 title: IOpcSignatureRelationshipReference::GetSourceUri (msopc.h)
-description: Gets the source URI of the relationships that are stored in the referenced&#160;Relationships part.helpviewer_keywords: ["GetSourceUri","GetSourceUri method [Open Packaging Conventions]","GetSourceUri method [Open Packaging Conventions]","IOpcSignatureRelationshipReference interface","IOpcSignatureRelationshipReference interface [Open Packaging Conventions]","GetSourceUri method","IOpcSignatureRelationshipReference.GetSourceUri","IOpcSignatureRelationshipReference::GetSourceUri","msopc/IOpcSignatureRelationshipReference::GetSourceUri","opc.iopcsignaturerelationshipreference_getsourceuri"]
+description: Gets the source URI of the relationships that are stored in the referenced&#160;Relationships part.
+helpviewer_keywords: ["GetSourceUri","GetSourceUri method [Open Packaging Conventions]","GetSourceUri method [Open Packaging Conventions]","IOpcSignatureRelationshipReference interface","IOpcSignatureRelationshipReference interface [Open Packaging Conventions]","GetSourceUri method","IOpcSignatureRelationshipReference.GetSourceUri","IOpcSignatureRelationshipReference::GetSourceUri","msopc/IOpcSignatureRelationshipReference::GetSourceUri","opc.iopcsignaturerelationshipreference_getsourceuri"]
 old-location: opc\iopcsignaturerelationshipreference_getsourceuri.htm
 tech.root: OPC
 ms.assetid: d08cfbf0-0917-4ca4-85be-5ca62d7029d0

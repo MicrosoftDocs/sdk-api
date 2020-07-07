@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationDragDropBehavior.SetConfiguration
 title: IDirectManipulationDragDropBehavior::SetConfiguration (directmanipulation.h)
-description: Sets the configuration of the drag-drop interaction for the viewport this behavior is attached to.helpviewer_keywords: ["IDirectManipulationDragDropBehavior interface [Direct Manipulation]","SetConfiguration method","IDirectManipulationDragDropBehavior.SetConfiguration","IDirectManipulationDragDropBehavior::SetConfiguration","SetConfiguration","SetConfiguration method [Direct Manipulation]","SetConfiguration method [Direct Manipulation]","IDirectManipulationDragDropBehavior interface","directmanipulation.idirectmanipulationdragdropbehavior_setconfiguration","directmanipulation/IDirectManipulationDragDropBehavior::SetConfiguration"]
+description: Sets the configuration of the drag-drop interaction for the viewport this behavior is attached to.
+helpviewer_keywords: ["IDirectManipulationDragDropBehavior interface [Direct Manipulation]","SetConfiguration method","IDirectManipulationDragDropBehavior.SetConfiguration","IDirectManipulationDragDropBehavior::SetConfiguration","SetConfiguration","SetConfiguration method [Direct Manipulation]","SetConfiguration method [Direct Manipulation]","IDirectManipulationDragDropBehavior interface","directmanipulation.idirectmanipulationdragdropbehavior_setconfiguration","directmanipulation/IDirectManipulationDragDropBehavior::SetConfiguration"]
 old-location: directmanipulation\idirectmanipulationdragdropbehavior_setconfiguration.htm
 tech.root: directmanipulation
 ms.assetid: 972EF04E-B14C-4EF9-B40A-EAF0458F2947

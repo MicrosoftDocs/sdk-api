@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.GetRadiusY
 title: ID2D1RadialGradientBrush::GetRadiusY (d2d1.h)
-description: Retrieves the y-radius of the gradient ellipse.helpviewer_keywords: ["GetRadiusY","GetRadiusY method [Direct2D]","GetRadiusY method [Direct2D]","ID2D1RadialGradientBrush interface","ID2D1RadialGradientBrush interface [Direct2D]","GetRadiusY method","ID2D1RadialGradientBrush.GetRadiusY","ID2D1RadialGradientBrush::GetRadiusY","d2d1/ID2D1RadialGradientBrush::GetRadiusY","direct2d.ID2D1RadialGradientBrush_GetRadiusY"]
+description: Retrieves the y-radius of the gradient ellipse.
+helpviewer_keywords: ["GetRadiusY","GetRadiusY method [Direct2D]","GetRadiusY method [Direct2D]","ID2D1RadialGradientBrush interface","ID2D1RadialGradientBrush interface [Direct2D]","GetRadiusY method","ID2D1RadialGradientBrush.GetRadiusY","ID2D1RadialGradientBrush::GetRadiusY","d2d1/ID2D1RadialGradientBrush::GetRadiusY","direct2d.ID2D1RadialGradientBrush_GetRadiusY"]
 old-location: direct2d\ID2D1RadialGradientBrush_GetRadiusY.htm
 tech.root: Direct2D
 ms.assetid: f7f89bfc-d89e-4a2c-b8c6-eb6fa1392118
@@ -75,7 +76,7 @@ The y-radius of the gradient ellipse. This value is expressed in the brush's coo
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>
  
 
  

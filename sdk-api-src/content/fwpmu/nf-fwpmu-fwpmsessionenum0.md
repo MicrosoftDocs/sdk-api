@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmSessionEnum0
 title: FwpmSessionEnum0 function (fwpmu.h)
-description: Returns the next page of results from the session enumerator.helpviewer_keywords: ["FwpmSessionEnum0","FwpmSessionEnum0 function [Filtering]","fwp.fwpmsessionenum0_func","fwpmu/FwpmSessionEnum0"]
+description: Returns the next page of results from the session enumerator.
+helpviewer_keywords: ["FwpmSessionEnum0","FwpmSessionEnum0 function [Filtering]","fwp.fwpmsessionenum0_func","fwpmu/FwpmSessionEnum0"]
 old-location: fwp\fwpmsessionenum0_func.htm
 tech.root: fwp
 ms.assetid: fb67d74a-dd96-434c-b218-a34ca6043cb1
@@ -80,7 +81,7 @@ The number of session entries requested.
 
 ### -param entries [out]
 
-Type: [FWPM_SESSION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)a>***</b>
+Type: [FWPM_SESSION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)***</b>
 
 Addresses of the enumeration entries.
 
@@ -167,7 +168,7 @@ A subsequent call using the same enumeration handle will return the next set of 
 
 
 
-[FWPM_SESSION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)a>
+[FWPM_SESSION0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_session0)
 
 
 

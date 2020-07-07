@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlayerServices.setTaskPane
 title: IWMPPlayerServices::setTaskPane (wmp.h)
-description: The setTaskPane method displays the specified task pane in the full mode of Windows Media Player.helpviewer_keywords: ["IWMPPlayerServices interface [Windows Media Player]","setTaskPane method","IWMPPlayerServices.setTaskPane","IWMPPlayerServices::setTaskPane","IWMPPlayerServicessetTaskPane","setTaskPane","setTaskPane method [Windows Media Player]","setTaskPane method [Windows Media Player]","IWMPPlayerServices interface","wmp.iwmpplayerservices_settaskpane","wmp/IWMPPlayerServices::setTaskPane"]
+description: The setTaskPane method displays the specified task pane in the full mode of Windows Media Player.
+helpviewer_keywords: ["IWMPPlayerServices interface [Windows Media Player]","setTaskPane method","IWMPPlayerServices.setTaskPane","IWMPPlayerServices::setTaskPane","IWMPPlayerServicessetTaskPane","setTaskPane","setTaskPane method [Windows Media Player]","setTaskPane method [Windows Media Player]","IWMPPlayerServices interface","wmp.iwmpplayerservices_settaskpane","wmp/IWMPPlayerServices::setTaskPane"]
 old-location: wmp\iwmpplayerservices_settaskpane.htm
 tech.root: WMP
 ms.assetid: 4b34ec95-d9a3-4135-b369-39955199ac00

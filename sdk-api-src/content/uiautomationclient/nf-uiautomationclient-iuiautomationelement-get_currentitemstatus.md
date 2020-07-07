@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentItemStatus
 title: IUIAutomationElement::get_CurrentItemStatus (uiautomationclient.h)
-description: Retrieves the description of the status of an item in an element.helpviewer_keywords: ["CurrentItemStatus property [Windows Accessibility]","CurrentItemStatus property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentItemStatus property","IUIAutomationElement.CurrentItemStatus","IUIAutomationElement.get_CurrentItemStatus","IUIAutomationElement::CurrentItemStatus","IUIAutomationElement::get_CurrentItemStatus","get_CurrentItemStatus","uiauto.uiauto_IUIAutomationElement_CurrentItemStatus","uiauto_IUIAutomationElement_CurrentItemStatus","uiautomationclient/IUIAutomationElement::CurrentItemStatus","uiautomationclient/IUIAutomationElement::get_CurrentItemStatus","winauto.uiauto_IUIAutomationElement_CurrentItemStatus"]
+description: Retrieves the description of the status of an item in an element.
+helpviewer_keywords: ["CurrentItemStatus property [Windows Accessibility]","CurrentItemStatus property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentItemStatus property","IUIAutomationElement.CurrentItemStatus","IUIAutomationElement.get_CurrentItemStatus","IUIAutomationElement::CurrentItemStatus","IUIAutomationElement::get_CurrentItemStatus","get_CurrentItemStatus","uiauto.uiauto_IUIAutomationElement_CurrentItemStatus","uiauto_IUIAutomationElement_CurrentItemStatus","uiautomationclient/IUIAutomationElement::CurrentItemStatus","uiautomationclient/IUIAutomationElement::get_CurrentItemStatus","winauto.uiauto_IUIAutomationElement_CurrentItemStatus"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentItemStatus.htm
 tech.root: WinAuto
 ms.assetid: a0bac87a-96ad-4b5a-9179-3149580cb18c

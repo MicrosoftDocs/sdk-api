@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV4FailoverGetClientInfo
 title: DhcpV4FailoverGetClientInfo function (dhcpsapi.h)
-description: Retrieves the DHCPv4 client lease information.helpviewer_keywords: ["DhcpV4FailoverGetClientInfo","DhcpV4FailoverGetClientInfo function [DHCP]","dhcp.dhcpv4failovergetclientinfo","dhcpsapi/DhcpV4FailoverGetClientInfo"]
+description: Retrieves the DHCPv4 client lease information.
+helpviewer_keywords: ["DhcpV4FailoverGetClientInfo","DhcpV4FailoverGetClientInfo function [DHCP]","dhcp.dhcpv4failovergetclientinfo","dhcpsapi/DhcpV4FailoverGetClientInfo"]
 old-location: dhcp\dhcpv4failovergetclientinfo.htm
 tech.root: DHCP
 ms.assetid: 125665d1-5af6-4d8f-b7fe-cdbff6a7b415
@@ -64,7 +65,7 @@ Pointer to a null-terminated Unicode string that represents the IP address or ho
 
 ### -param SearchInfo [in]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that defines the key used to search the DHCPv4 client lease record on the server. 
+Pointer to a <a href="/windows/win32/api/dhcpsapi/ns-dhcpsapi-dhcp_search_info">DHCP_SEARCH_INFO</a> structure that defines the key used to search the DHCPv4 client lease record on the server. 
 If the <b>SearchType</b> member of <i>SearchInfo</i> is <b>DhcpClientName</b> and there are multiple lease records with the same client name, the server will return client information for the client with the lowest numerical IP address.
 
 

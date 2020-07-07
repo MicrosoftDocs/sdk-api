@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_RENDERMOCOMPDATA
 title: DD_RENDERMOCOMPDATA (ddrawint.h)
-description: The DD_RENDERMOCOMPDATA structure contains the information required to render a frame.helpviewer_keywords: ["*PDD_RENDERMOCOMPDATA","DD_RENDERMOCOMPDATA","DD_RENDERMOCOMPDATA structure [Display Devices]","ddrawint/DD_RENDERMOCOMPDATA","ddstrcts_ac8e2378-be85-4257-a664-d757ec914561.xml","display.dd_rendermocompdata"]
+description: The DD_RENDERMOCOMPDATA structure contains the information required to render a frame.
+helpviewer_keywords: ["*PDD_RENDERMOCOMPDATA","DD_RENDERMOCOMPDATA","DD_RENDERMOCOMPDATA structure [Display Devices]","ddrawint/DD_RENDERMOCOMPDATA","ddstrcts_ac8e2378-be85-4257-a664-d757ec914561.xml","display.dd_rendermocompdata"]
 old-location: display\dd_rendermocompdata.htm
 tech.root: display
 ms.assetid: a890707f-b773-4b66-8817-68efdb8d47f8

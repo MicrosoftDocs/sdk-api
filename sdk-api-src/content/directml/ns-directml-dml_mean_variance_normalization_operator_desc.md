@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC
 title: DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC
-description: Describes a DirectML operator that performs a mean variance normalization function on the input tensor.helpviewer_keywords: ["DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC","DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC structure","direct3d12.dml_mean_variance_normalization_operator_desc","directml/DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC"]
+description: Describes a DirectML operator that performs a mean variance normalization function on the input tensor.
+helpviewer_keywords: ["DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC","DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC structure","direct3d12.dml_mean_variance_normalization_operator_desc","directml/DML_MEAN_VARIANCE_NORMALIZATION_OPERATOR_DESC"]
 old-location: direct3d12\dml_mean_variance_normalization_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: AF70005F-BDBB-45C9-9066-70A574D5BC0E

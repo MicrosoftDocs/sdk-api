@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmFormatTagEnumW
 title: acmFormatTagEnumW function (msacm.h)
-description: The acmFormatTagEnum function enumerates waveform-audio format tags available from an ACM driver. This function continues enumerating until there are no more suitable format tags or the callback function returns FALSE.helpviewer_keywords: ["_win32_acmFormatTagEnum","acmFormatTagEnum","acmFormatTagEnum function [Windows Multimedia]","acmFormatTagEnumA","acmFormatTagEnumW","msacm/acmFormatTagEnum","msacm/acmFormatTagEnumA","msacm/acmFormatTagEnumW","multimedia.acmformattagenum"]
+description: The acmFormatTagEnum function enumerates waveform-audio format tags available from an ACM driver. This function continues enumerating until there are no more suitable format tags or the callback function returns FALSE.
+helpviewer_keywords: ["_win32_acmFormatTagEnum","acmFormatTagEnum","acmFormatTagEnum function [Windows Multimedia]","acmFormatTagEnumA","acmFormatTagEnumW","msacm/acmFormatTagEnum","msacm/acmFormatTagEnumA","msacm/acmFormatTagEnumW","multimedia.acmformattagenum"]
 old-location: multimedia\acmformattagenum.htm
 tech.root: Multimedia
 ms.assetid: 1693a7ee-1d9b-494e-8d28-b5e9279951e1
@@ -70,7 +71,7 @@ Handle to the ACM driver to query for waveform-audio format tag details. If this
 
 ### -param paftd
 
-Pointer to the [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails)a> structure that is to receive the format tag details passed to the function specified in <i>fnCallback</i>. This structure must have the <b>cbStruct</b> member of the <b>ACMFORMATTAGDETAILS</b> structure initialized.
+Pointer to the [ACMFORMATTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmformattagdetails) structure that is to receive the format tag details passed to the function specified in <i>fnCallback</i>. This structure must have the <b>cbStruct</b> member of the <b>ACMFORMATTAGDETAILS</b> structure initialized.
 
 
 ### -param fnCallback
@@ -146,6 +147,10 @@ This function will return MMSYSERR_NOERROR (zero) if no suitable ACM drivers are
 
 
 
+
+
+> [!NOTE]
+> The msacm.h header defines acmFormatTagEnum as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

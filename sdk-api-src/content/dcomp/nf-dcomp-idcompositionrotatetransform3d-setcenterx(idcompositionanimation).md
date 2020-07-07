@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionRotateTransform3D.SetCenterX(IDCompositionAnimation)
 title: IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.helpviewer_keywords: ["IDCompositionRotateTransform3D interface [DirectComposition]","SetCenterX method","IDCompositionRotateTransform3D.SetCenterX","IDCompositionRotateTransform3D.SetCenterX(IDCompositionAnimation)","IDCompositionRotateTransform3D::SetCenterX","IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation)","IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation*)","SetCenterX","SetCenterX method [DirectComposition]","SetCenterX method [DirectComposition]","IDCompositionRotateTransform3D interface","dcomp/IDCompositionRotateTransform3D::SetCenterX","directcomp.idcompositionrotatetransform3d_setcenterx_idcompositionanimation"]
+description: Animates the value of the CenterX property of a 3D rotation transform. The CenterX property specifies the x-coordinate of the point about which the rotation is performed. The default value is zero.
+helpviewer_keywords: ["IDCompositionRotateTransform3D interface [DirectComposition]","SetCenterX method","IDCompositionRotateTransform3D.SetCenterX","IDCompositionRotateTransform3D.SetCenterX(IDCompositionAnimation)","IDCompositionRotateTransform3D::SetCenterX","IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation)","IDCompositionRotateTransform3D::SetCenterX(IDCompositionAnimation*)","SetCenterX","SetCenterX method [DirectComposition]","SetCenterX method [DirectComposition]","IDCompositionRotateTransform3D interface","dcomp/IDCompositionRotateTransform3D::SetCenterX","directcomp.idcompositionrotatetransform3d_setcenterx_idcompositionanimation"]
 old-location: directcomp\idcompositionrotatetransform3d_setcenterx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: F6421969-EE66-4A28-9236-697DE4D4EC5C
@@ -98,11 +99,11 @@ This method fails if <i>animation</i> is an invalid pointer or if it was not cre
 
 
 
-[IDCompositionRotateTransform3D::SetCenterY](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcentery(idcompositionanimation))a>
+[IDCompositionRotateTransform3D::SetCenterY](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcentery(idcompositionanimation))
 
 
 
-[IDCompositionRotateTransform3D::SetCenterZ](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterz(idcompositionanimation))a>
+[IDCompositionRotateTransform3D::SetCenterZ](/windows/win32/api/dcomp/nf-dcomp-idcompositionrotatetransform3d-setcenterz(idcompositionanimation))
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11_4.D3D11_FEATURE_DATA_D3D11_OPTIONS4
 title: D3D11_FEATURE_DATA_D3D11_OPTIONS4 (d3d11_4.h)
-description: Describes Direct3D 11.4 feature options in the current graphics driver.helpviewer_keywords: ["D3D11_FEATURE_DATA_D3D11_OPTIONS4","D3D11_FEATURE_DATA_D3D11_OPTIONS4 structure [Direct3D 11]","d3d11_4/D3D11_FEATURE_DATA_D3D11_OPTIONS4","direct3d11.d3d11_feature_data_d3d11_options4"]
+description: Describes Direct3D 11.4 feature options in the current graphics driver.
+helpviewer_keywords: ["D3D11_FEATURE_DATA_D3D11_OPTIONS4","D3D11_FEATURE_DATA_D3D11_OPTIONS4 structure [Direct3D 11]","d3d11_4/D3D11_FEATURE_DATA_D3D11_OPTIONS4","direct3d11.d3d11_feature_data_d3d11_options4"]
 old-location: direct3d11\d3d11_feature_data_d3d11_options4.htm
 tech.root: direct3d11
 ms.assetid: BC0DD66C-3452-440D-87EA-1504EFF89E3F

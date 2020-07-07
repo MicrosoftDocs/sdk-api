@@ -1,7 +1,8 @@
 ---
 UID: NF:winsxs.IAssemblyCache.UninstallAssembly
 title: IAssemblyCache::UninstallAssembly (winsxs.h)
-description: The UnistallAssembly method removes an application reference to an assembly from the side-by-side store.helpviewer_keywords: ["IASSEMBLYCACHE_UNINSTALL_DISPOSITION_ALREADY_UNINSTALLED","IASSEMBLYCACHE_UNINSTALL_DISPOSITION_DELETE_PENDING","IASSEMBLYCACHE_UNINSTALL_DISPOSITION_HAS_INSTALL_REFERENCES","IASSEMBLYCACHE_UNINSTALL_DISPOSITION_REFERENCE_NOT_FOUND","IASSEMBLYCACHE_UNINSTALL_DISPOSITION_STILL_IN_USE","IASSEMBLYCACHE_UNINSTALL_DISPOSITION_UNINSTALLED","IAssemblyCache interface [Side-by-side Assemblies]","UninstallAssembly method","IAssemblyCache.UninstallAssembly","IAssemblyCache::UninstallAssembly","UninstallAssembly","UninstallAssembly method [Side-by-side Assemblies]","UninstallAssembly method [Side-by-side Assemblies]","IAssemblyCache interface","setup.iassemblycache_uninstallassembly","winsxs/IAssemblyCache::UninstallAssembly"]
+description: The UnistallAssembly method removes an application reference to an assembly from the side-by-side store.
+helpviewer_keywords: ["IASSEMBLYCACHE_UNINSTALL_DISPOSITION_ALREADY_UNINSTALLED","IASSEMBLYCACHE_UNINSTALL_DISPOSITION_DELETE_PENDING","IASSEMBLYCACHE_UNINSTALL_DISPOSITION_HAS_INSTALL_REFERENCES","IASSEMBLYCACHE_UNINSTALL_DISPOSITION_REFERENCE_NOT_FOUND","IASSEMBLYCACHE_UNINSTALL_DISPOSITION_STILL_IN_USE","IASSEMBLYCACHE_UNINSTALL_DISPOSITION_UNINSTALLED","IAssemblyCache interface [Side-by-side Assemblies]","UninstallAssembly method","IAssemblyCache.UninstallAssembly","IAssemblyCache::UninstallAssembly","UninstallAssembly","UninstallAssembly method [Side-by-side Assemblies]","UninstallAssembly method [Side-by-side Assemblies]","IAssemblyCache interface","setup.iassemblycache_uninstallassembly","winsxs/IAssemblyCache::UninstallAssembly"]
 old-location: setup\iassemblycache_uninstallassembly.htm
 tech.root: SbsCs
 ms.assetid: b492e93c-73f2-4d68-ae1a-c82e9ec36a72
@@ -69,7 +70,7 @@ A pointer to a null-terminated string value that contains the fully-specified st
 
 ### -param pRefData [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/winsxs/ns-winsxs-fusion_install_reference">FUSION_INSTALL_REFERENCE</a> structure that describes the application that holds the reference to the assembly being removed. If this value is null, no  references to the assembly by applications  are left in the side-by-side store and the assembly's files are removed.
+A pointer to a <a href="/windows/win32/api/winsxs/ns-winsxs-fusion_install_reference">FUSION_INSTALL_REFERENCE</a> structure that describes the application that holds the reference to the assembly being removed. If this value is null, no  references to the assembly by applications  are left in the side-by-side store and the assembly's files are removed.
 
 <div class="alert"><b>Note</b>  The characters \, /, :, ;, *, &lt;, &gt;, and | are invalid in the reference ID.</div>
 <div> </div>

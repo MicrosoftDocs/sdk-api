@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._LINEATTRS
 title: LINEATTRS (winddi.h)
-description: The LINEATTRS structure is used by a driver's line-drawing functions to determine line attributes.helpviewer_keywords: ["*PLINEATTRS","LINEATTRS","LINEATTRS structure [Display Devices]","PLINEATTRS","PLINEATTRS structure pointer [Display Devices]","display.lineattrs","grstrcts_2e75edb5-bba8-4f62-b7f4-e3af44794eb2.xml","winddi/LINEATTRS","winddi/PLINEATTRS"]
+description: The LINEATTRS structure is used by a driver's line-drawing functions to determine line attributes.
+helpviewer_keywords: ["*PLINEATTRS","LINEATTRS","LINEATTRS structure [Display Devices]","PLINEATTRS","PLINEATTRS structure pointer [Display Devices]","display.lineattrs","grstrcts_2e75edb5-bba8-4f62-b7f4-e3af44794eb2.xml","winddi/LINEATTRS","winddi/PLINEATTRS"]
 old-location: display\lineattrs.htm
 tech.root: display
 ms.assetid: 40fcd6e2-7ed4-433f-ab8b-cc75a305adb9

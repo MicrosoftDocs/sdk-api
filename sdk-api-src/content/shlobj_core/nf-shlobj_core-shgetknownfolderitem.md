@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetKnownFolderItem
 title: SHGetKnownFolderItem function (shlobj_core.h)
-description: Retrieves an IShellItem object that represents a known folder.helpviewer_keywords: ["SHGetKnownFolderItem","SHGetKnownFolderItem function [Windows Shell]","_shell_SHGetKnownFolderItem","shell.SHGetKnownFolderItem","shlobj_core/SHGetKnownFolderItem"]
+description: Retrieves an IShellItem object that represents a known folder.
+helpviewer_keywords: ["SHGetKnownFolderItem","SHGetKnownFolderItem function [Windows Shell]","_shell_SHGetKnownFolderItem","shell.SHGetKnownFolderItem","shlobj_core/SHGetKnownFolderItem"]
 old-location: shell\SHGetKnownFolderItem.htm
 tech.root: shell
 ms.assetid: d0880a8c-20dd-47cc-b6c5-23dedb32d453

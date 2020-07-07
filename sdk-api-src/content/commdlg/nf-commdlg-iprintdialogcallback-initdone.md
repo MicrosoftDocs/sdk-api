@@ -1,7 +1,8 @@
 ---
 UID: NF:commdlg.IPrintDialogCallback.InitDone
 title: IPrintDialogCallback::InitDone (commdlg.h)
-description: Called by PrintDlgEx when the system has finished initializing the General page of the Print Property Sheet.helpviewer_keywords: ["IPrintDialogCallback interface [Dialog Boxes]","InitDone method","IPrintDialogCallback.InitDone","IPrintDialogCallback::InitDone","InitDone","InitDone method [Dialog Boxes]","InitDone method [Dialog Boxes]","IPrintDialogCallback interface","_win32_IPrintDialogCallback_InitDone","_win32_iprintdialogcallback_initdone_cpp","commdlg/IPrintDialogCallback::InitDone","dlgbox.iprintdialogcallback_initdone","winui._win32_iprintdialogcallback_initdone"]
+description: Called by PrintDlgEx when the system has finished initializing the General page of the Print Property Sheet.
+helpviewer_keywords: ["IPrintDialogCallback interface [Dialog Boxes]","InitDone method","IPrintDialogCallback.InitDone","IPrintDialogCallback::InitDone","InitDone","InitDone method [Dialog Boxes]","InitDone method [Dialog Boxes]","IPrintDialogCallback interface","_win32_IPrintDialogCallback_InitDone","_win32_iprintdialogcallback_initdone_cpp","commdlg/IPrintDialogCallback::InitDone","dlgbox.iprintdialogcallback_initdone","winui._win32_iprintdialogcallback_initdone"]
 old-location: dlgbox\iprintdialogcallback_initdone.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogcallback\iprintdialogcallbackinitdone.htm

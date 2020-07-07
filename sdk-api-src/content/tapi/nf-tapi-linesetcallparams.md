@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineSetCallParams
 title: lineSetCallParams function (tapi.h)
-description: The lineSetCallParams function allows an application to change bearer mode and/or the rate parameters of an existing call.helpviewer_keywords: ["_tapi2_linesetcallparams","lineSetCallParams","lineSetCallParams function [TAPI 2.2]","tapi/lineSetCallParams","tapi2.linesetcallparams"]
+description: The lineSetCallParams function allows an application to change bearer mode and/or the rate parameters of an existing call.
+helpviewer_keywords: ["_tapi2_linesetcallparams","lineSetCallParams","lineSetCallParams function [TAPI 2.2]","tapi/lineSetCallParams","tapi2.linesetcallparams"]
 old-location: tapi2\linesetcallparams.htm
 tech.root: Tapi
 ms.assetid: c8088116-2bfc-420f-a83a-d00c7947b6e7

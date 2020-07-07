@@ -1,7 +1,8 @@
 ---
 UID: NF:clfsw32.DeleteLogByHandle
 title: DeleteLogByHandle function (clfsw32.h)
-description: Marks the specified log for deletion. The log is actually deleted when all handles, marshaling areas, and read contexts to the log are closed. If the log is a physical log, its underlying containers are deleted.helpviewer_keywords: ["DeleteLogByHandle","DeleteLogByHandle function [Files]","clfsw32/DeleteLogByHandle","fs.deletelogbyhandle"]
+description: Marks the specified log for deletion. The log is actually deleted when all handles, marshaling areas, and read contexts to the log are closed. If the log is a physical log, its underlying containers are deleted.
+helpviewer_keywords: ["DeleteLogByHandle","DeleteLogByHandle function [Files]","clfsw32/DeleteLogByHandle","fs.deletelogbyhandle"]
 old-location: fs\deletelogbyhandle.htm
 tech.root: Clfs
 ms.assetid: 2426058f-312c-4946-ac12-52e55a3307b5

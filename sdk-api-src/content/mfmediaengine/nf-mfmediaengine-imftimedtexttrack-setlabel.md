@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextTrack.SetLabel
 title: IMFTimedTextTrack::SetLabel (mfmediaengine.h)
-description: Sets the label of a timed-text track.helpviewer_keywords: ["IMFTimedTextTrack interface [Media Foundation]","SetLabel method","IMFTimedTextTrack.SetLabel","IMFTimedTextTrack::SetLabel","SetLabel","SetLabel method [Media Foundation]","SetLabel method [Media Foundation]","IMFTimedTextTrack interface","mf.imftimedtexttrack_setlabel","mfmediaengine/IMFTimedTextTrack::SetLabel"]
+description: Sets the label of a timed-text track.
+helpviewer_keywords: ["IMFTimedTextTrack interface [Media Foundation]","SetLabel method","IMFTimedTextTrack.SetLabel","IMFTimedTextTrack::SetLabel","SetLabel","SetLabel method [Media Foundation]","SetLabel method [Media Foundation]","IMFTimedTextTrack interface","mf.imftimedtexttrack_setlabel","mfmediaengine/IMFTimedTextTrack::SetLabel"]
 old-location: mf\imftimedtexttrack_setlabel.htm
 tech.root: medfound
 ms.assetid: 751CBF14-C445-4F2A-96F6-CB6159FAA1EE

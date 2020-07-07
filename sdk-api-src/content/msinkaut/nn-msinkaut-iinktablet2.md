@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkTablet2
 title: IInkTablet2 (msinkaut.h)
-description: Extends the IInkTablet interface.helpviewer_keywords: ["IInkTablet2","IInkTablet2 interface [Tablet PC]","IInkTablet2 interface [Tablet PC]","described","c912689c-9a85-41a0-87d8-68332ea762a7","msinkaut/IInkTablet2","tablet.iinktablet2"]
+description: Extends the IInkTablet interface.
+helpviewer_keywords: ["IInkTablet2","IInkTablet2 interface [Tablet PC]","IInkTablet2 interface [Tablet PC]","described","c912689c-9a85-41a0-87d8-68332ea762a7","msinkaut/IInkTablet2","tablet.iinktablet2"]
 old-location: tablet\iinktablet2.htm
 tech.root: tablet
 ms.assetid: c912689c-9a85-41a0-87d8-68332ea762a7

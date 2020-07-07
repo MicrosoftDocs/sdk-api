@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpGetDefaultProxyConfiguration
 title: WinHttpGetDefaultProxyConfiguration function (winhttp.h)
-description: Retrieves the default WinHTTP proxy configuration from the registry.helpviewer_keywords: ["WinHttpGetDefaultProxyConfiguration","WinHttpGetDefaultProxyConfiguration function [WinHTTP]","http.winhttpgetdefaultproxyconfiguration","winhttp.winhttpgetdefaultproxyconfiguration_function","winhttp/WinHttpGetDefaultProxyConfiguration"]
+description: Retrieves the default WinHTTP proxy configuration from the registry.
+helpviewer_keywords: ["WinHttpGetDefaultProxyConfiguration","WinHttpGetDefaultProxyConfiguration function [WinHTTP]","http.winhttpgetdefaultproxyconfiguration","winhttp.winhttpgetdefaultproxyconfiguration_function","winhttp/WinHttpGetDefaultProxyConfiguration"]
 old-location: http\winhttpgetdefaultproxyconfiguration.htm
 tech.root: WinHttp
 ms.assetid: e8038b4b-b9d0-481a-a49c-26201d72bc7a
@@ -60,7 +61,7 @@ The <b>WinHttpGetDefaultProxyConfiguration</b> function retrieves the default Wi
 ### -param pProxyInfo [in, out]
 
 A pointer to a variable of type 
-<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info">WINHTTP_PROXY_INFO</a> that receives the default proxy configuration.
+<a href="/windows/win32/api/winhttp/ns-winhttp-winhttp_proxy_info">WINHTTP_PROXY_INFO</a> that receives the default proxy configuration.
 
 
 ## -returns

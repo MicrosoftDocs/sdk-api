@@ -1,7 +1,8 @@
 ---
 UID: NS:tapi3.__MIDL___MIDL_itf_tapi3_0000_0018_0005
 title: MSP_EVENT_INFO (tapi3.h)
-description: The MSP_EVENT_INFO structure defines the type of event returned by the GetEvent method.helpviewer_keywords: ["MSP_EVENT_INFO","MSP_EVENT_INFO structure [TAPI 2.2]","__MIDL___MIDL_itf_tapi3_0000_0018_0005","_tapi3_msp_event_info","msp/MSP_EVENT_INFO","tapi3.msp_event_info"]
+description: The MSP_EVENT_INFO structure defines the type of event returned by the GetEvent method.
+helpviewer_keywords: ["MSP_EVENT_INFO","MSP_EVENT_INFO structure [TAPI 2.2]","__MIDL___MIDL_itf_tapi3_0000_0018_0005","_tapi3_msp_event_info","msp/MSP_EVENT_INFO","tapi3.msp_event_info"]
 old-location: tapi3\msp_event_info.htm
 tech.root: Tapi
 ms.assetid: 5286fbe6-3553-42f1-82e6-5bb6f75f3305
@@ -82,7 +83,7 @@ Struct returned if MSP event is ME_ADDRESS_EVENT.
 ### -field MSP_ADDRESS_EVENT_INFO.Type
 
 Describes the 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ne-msp-msp_address_event">msp address event</a> of the event that has occurred.
+<a href="/windows/win32/api/msp/ne-msp-msp_address_event">msp address event</a> of the event that has occurred.
 
 
 ### -field MSP_ADDRESS_EVENT_INFO.pTerminal
@@ -99,7 +100,7 @@ Struct returned if MSP event is ME_CALL_EVENT.
 ### -field MSP_CALL_EVENT_INFO.Type
 
 Indicates type of 
-<a href="https://docs.microsoft.com/windows/win32/api/msp/ne-msp-msp_call_event">MSP_CALL_EVENT</a> that has occurred.
+<a href="/windows/win32/api/msp/ne-msp-msp_call_event">MSP_CALL_EVENT</a> that has occurred.
 
 
 ### -field MSP_CALL_EVENT_INFO.Cause

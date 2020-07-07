@@ -1,7 +1,8 @@
 ---
 UID: NC:resapi.PBEGIN_RESTYPECALL_AS_USER_ROUTINE
 title: PBEGIN_RESTYPECALL_AS_USER_ROUTINE (resapi.h)
-description: The PBEGIN_RESTYPECALL_AS_USER_ROUTINE type defines a pointer to this callback function.helpviewer_keywords: ["BeginResourceTypeControlAsUser","BeginResourceTypeControlAsUser callback","BeginResourceTypeControlAsUser callback function [Failover Cluster]","PBEGIN_RESTYPECALL_AS_USER_ROUTINE","PBEGIN_RESTYPECALL_AS_USER_ROUTINE callback function [Failover Cluster]","mscs.beginresourcetypecontrolasuser","resapi/BeginResourceTypeControlAsUser","resapi/PBEGIN_RESTYPECALL_AS_USER_ROUTINE"]
+description: The PBEGIN_RESTYPECALL_AS_USER_ROUTINE type defines a pointer to this callback function.
+helpviewer_keywords: ["BeginResourceTypeControlAsUser","BeginResourceTypeControlAsUser callback","BeginResourceTypeControlAsUser callback function [Failover Cluster]","PBEGIN_RESTYPECALL_AS_USER_ROUTINE","PBEGIN_RESTYPECALL_AS_USER_ROUTINE callback function [Failover Cluster]","mscs.beginresourcetypecontrolasuser","resapi/BeginResourceTypeControlAsUser","resapi/PBEGIN_RESTYPECALL_AS_USER_ROUTINE"]
 old-location: mscs\beginresourcetypecontrolasuser.htm
 tech.root: MsCS
 ms.assetid: 0A95F509-0B07-4E6C-B200-FCF11A0A95F0

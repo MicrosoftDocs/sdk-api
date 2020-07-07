@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.HasInverseTransform
 title: IMILBitmapEffectPrimitive::HasInverseTransform (mileffects.h)
-description: Determines whether the effect has an inverse transform.helpviewer_keywords: ["HasInverseTransform","HasInverseTransform method [WPF Bitmap Effects]","HasInverseTransform method [WPF Bitmap Effects]","IMILBitmapEffectPrimitive interface","IMILBitmapEffectPrimitive interface [WPF Bitmap Effects]","HasInverseTransform method","IMILBitmapEffectPrimitive.HasInverseTransform","IMILBitmapEffectPrimitive::HasInverseTransform","_wibe_imilbitmapeffectprimitive_hasinversetransform","mileffects/IMILBitmapEffectPrimitive::HasInverseTransform","wibe._wibe_imilbitmapeffectprimitive_hasinversetransform"]
+description: Determines whether the effect has an inverse transform.
+helpviewer_keywords: ["HasInverseTransform","HasInverseTransform method [WPF Bitmap Effects]","HasInverseTransform method [WPF Bitmap Effects]","IMILBitmapEffectPrimitive interface","IMILBitmapEffectPrimitive interface [WPF Bitmap Effects]","HasInverseTransform method","IMILBitmapEffectPrimitive.HasInverseTransform","IMILBitmapEffectPrimitive::HasInverseTransform","_wibe_imilbitmapeffectprimitive_hasinversetransform","mileffects/IMILBitmapEffectPrimitive::HasInverseTransform","wibe._wibe_imilbitmapeffectprimitive_hasinversetransform"]
 old-location: wibe\_wibe_imilbitmapeffectprimitive_hasinversetransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\hasinversetransform.htm

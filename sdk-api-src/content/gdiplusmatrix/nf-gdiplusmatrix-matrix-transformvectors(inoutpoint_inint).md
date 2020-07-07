@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusmatrix.Matrix.TransformVectors(IN OUT Point,IN INT)
+UID: NF:gdiplusmatrix.Matrix.TransformVectors(INOUTPoint,ININT)
 title: Matrix::TransformVectors(IN OUT Point,IN INT) (gdiplusmatrix.h)
-description: The Matrix::TransformVectors method multiplies each vector in an array by this matrix.helpviewer_keywords: ["Matrix class [GDI+]","TransformVectors method","Matrix.TransformVectors","Matrix.TransformVectors(IN OUT Point","IN INT)","Matrix.TransformVectors(Point*","INT)","Matrix::TransformVectors","Matrix::TransformVectors(IN OUT Point","IN INT)","TransformVectors","TransformVectors method [GDI+]","TransformVectors method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_TransformVectors_Point_pts_INT_count_","gdiplus._gdiplus_CLASS_Matrix_TransformVectors_Point_pts_INT_count_"]
+description: The Matrix::TransformVectors method multiplies each vector in an array by this matrix.
+helpviewer_keywords: ["Matrix class [GDI+]","TransformVectors method","Matrix.TransformVectors","Matrix.TransformVectors(IN OUT Point","IN INT)","Matrix.TransformVectors(Point*","INT)","Matrix::TransformVectors","Matrix::TransformVectors(IN OUT Point","IN INT)","TransformVectors","TransformVectors method [GDI+]","TransformVectors method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_TransformVectors_Point_pts_INT_count_","gdiplus._gdiplus_CLASS_Matrix_TransformVectors_Point_pts_INT_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformVectors_Point_pts_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformvectorsmethods\transformvectors.htm

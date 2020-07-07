@@ -1,7 +1,8 @@
 ---
 UID: NF:ntdsapi.DsQuerySitesByCostW
 title: DsQuerySitesByCostW function (ntdsapi.h)
-description: Gets the communication cost between one site and one or more other sites.helpviewer_keywords: ["DsQuerySitesByCost","DsQuerySitesByCost function [Active Directory]","DsQuerySitesByCostA","DsQuerySitesByCostW","ad.dsquerysitesbycost","ntdsapi/DsQuerySitesByCost","ntdsapi/DsQuerySitesByCostA","ntdsapi/DsQuerySitesByCostW"]
+description: Gets the communication cost between one site and one or more other sites.
+helpviewer_keywords: ["DsQuerySitesByCost","DsQuerySitesByCost function [Active Directory]","DsQuerySitesByCostA","DsQuerySitesByCostW","ad.dsquerysitesbycost","ntdsapi/DsQuerySitesByCost","ntdsapi/DsQuerySitesByCostA","ntdsapi/DsQuerySitesByCostW"]
 old-location: ad\dsquerysitesbycost.htm
 tech.root: ad
 ms.assetid: 7a4cbd1c-8445-4882-8559-d44b6e5693e7
@@ -109,6 +110,10 @@ The cost values obtained by this function are only used to compare and have no m
 
 
 
+
+
+> [!NOTE]
+> The ntdsapi.h header defines DsQuerySitesByCost as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

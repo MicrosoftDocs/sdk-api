@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmetaheader.MetafileHeader.GetDpiX
 title: MetafileHeader::GetDpiX (gdiplusmetaheader.h)
-description: The MetafileHeader::GetDpiX method gets the horizontal dots per inch of the associated metafile.helpviewer_keywords: ["GetDpiX","GetDpiX method [GDI+]","GetDpiX method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetDpiX method","MetafileHeader.GetDpiX","MetafileHeader::GetDpiX","_gdiplus_CLASS_MetafileHeader_GetDpiX_","gdiplus._gdiplus_CLASS_MetafileHeader_GetDpiX_"]
+description: The MetafileHeader::GetDpiX method gets the horizontal dots per inch of the associated metafile.
+helpviewer_keywords: ["GetDpiX","GetDpiX method [GDI+]","GetDpiX method [GDI+]","MetafileHeader class","MetafileHeader class [GDI+]","GetDpiX method","MetafileHeader.GetDpiX","MetafileHeader::GetDpiX","_gdiplus_CLASS_MetafileHeader_GetDpiX_","gdiplus._gdiplus_CLASS_MetafileHeader_GetDpiX_"]
 old-location: gdiplus\_gdiplus_CLASS_MetafileHeader_GetDpiX_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileheaderclass\metafileheadermethods\getdpix_56.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:netcon.IEnumNetSharingEveryConnection
 title: IEnumNetSharingEveryConnection (netcon.h)
-description: The IEnumNetSharingEveryConnection interface provides methods for enumerating all the connections in the Connections folder.helpviewer_keywords: ["IEnumNetSharingEveryConnection","IEnumNetSharingEveryConnection interface [ICS/ICF]","IEnumNetSharingEveryConnection interface [ICS/ICF]","described","_ics_ienumnetsharingeveryconnection","ics.ienumnetsharingeveryconnection","netcon/IEnumNetSharingEveryConnection"]
+description: The IEnumNetSharingEveryConnection interface provides methods for enumerating all the connections in the Connections folder.
+helpviewer_keywords: ["IEnumNetSharingEveryConnection","IEnumNetSharingEveryConnection interface [ICS/ICF]","IEnumNetSharingEveryConnection interface [ICS/ICF]","described","_ics_ienumnetsharingeveryconnection","ics.ienumnetsharingeveryconnection","netcon/IEnumNetSharingEveryConnection"]
 old-location: ics\ienumnetsharingeveryconnection.htm
 tech.root: ics
 ms.assetid: d3be8047-e0d5-44b7-97d9-536bc4aa11c5

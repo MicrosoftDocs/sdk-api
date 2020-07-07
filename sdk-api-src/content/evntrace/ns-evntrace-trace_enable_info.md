@@ -1,7 +1,8 @@
 ---
 UID: NS:evntrace._TRACE_ENABLE_INFO
 title: TRACE_ENABLE_INFO (evntrace.h)
-description: Defines the session and the information that the session used to enable the provider.helpviewer_keywords: ["*PTRACE_ENABLE_INFO","PTRACE_ENABLE_INFO","PTRACE_ENABLE_INFO structure pointer [ETW]","TRACE_ENABLE_INFO","TRACE_ENABLE_INFO structure [ETW]","_TRACE_ENABLE_INFO","etw.trace_enable_info","evntrace/PTRACE_ENABLE_INFO","evntrace/TRACE_ENABLE_INFO"]
+description: Defines the session and the information that the session used to enable the provider.
+helpviewer_keywords: ["*PTRACE_ENABLE_INFO","PTRACE_ENABLE_INFO","PTRACE_ENABLE_INFO structure pointer [ETW]","TRACE_ENABLE_INFO","TRACE_ENABLE_INFO structure [ETW]","_TRACE_ENABLE_INFO","etw.trace_enable_info","evntrace/PTRACE_ENABLE_INFO","evntrace/TRACE_ENABLE_INFO"]
 old-location: etw\trace_enable_info.htm
 tech.root: ETW
 ms.assetid: 999dd102-5937-4b1e-b841-623dddaa0df9

@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite.IDWriteGdiInterop
 title: IDWriteGdiInterop (dwrite.h)
-description: Provides interoperability with GDI, such as methods to convert a font face to a LOGFONT structure, or to convert a GDI font description into a font face. It is also used to create bitmap render target objects.helpviewer_keywords: ["IDWriteGdiInterop","IDWriteGdiInterop interface [Direct Write]","IDWriteGdiInterop interface [Direct Write]","described","directwrite.IDWriteGdiInterop","dwrite/IDWriteGdiInterop"]
+description: Provides interoperability with GDI, such as methods to convert a font face to a LOGFONT structure, or to convert a GDI font description into a font face. It is also used to create bitmap render target objects.
+helpviewer_keywords: ["IDWriteGdiInterop","IDWriteGdiInterop interface [Direct Write]","IDWriteGdiInterop interface [Direct Write]","described","directwrite.IDWriteGdiInterop","dwrite/IDWriteGdiInterop"]
 old-location: directwrite\IDWriteGdiInterop.htm
 tech.root: DirectWrite
 ms.assetid: 79472021-ee12-45dd-a943-3908c9e06cde

@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanGetInterfaceCapability
 title: WlanGetInterfaceCapability function (wlanapi.h)
-description: Retrieves the capabilities of an interface.helpviewer_keywords: ["WlanGetInterfaceCapability","WlanGetInterfaceCapability function [NativeWIFI]","nwifi.wlangetinterfacecapability","wlanapi/WlanGetInterfaceCapability"]
+description: Retrieves the capabilities of an interface.
+helpviewer_keywords: ["WlanGetInterfaceCapability","WlanGetInterfaceCapability function [NativeWIFI]","nwifi.wlangetinterfacecapability","wlanapi/WlanGetInterfaceCapability"]
 old-location: nwifi\wlangetinterfacecapability.htm
 tech.root: NativeWiFi
 ms.assetid: 09f8273a-5259-44fa-b55e-af3282735c0b

@@ -1,7 +1,8 @@
 ---
 UID: NF:casetup.ICertSrvSetup.InitializeDefaults
 title: ICertSrvSetup::InitializeDefaults (casetup.h)
-description: Initializes a CCertSrvSetup object with default values to enable installation of the Certification Authority role.helpviewer_keywords: ["ICertSrvSetup interface [Security]","InitializeDefaults method","ICertSrvSetup.InitializeDefaults","ICertSrvSetup::InitializeDefaults","InitializeDefaults","InitializeDefaults method [Security]","InitializeDefaults method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::InitializeDefaults","security.icertsrvsetup_initializedefaults"]
+description: Initializes a CCertSrvSetup object with default values to enable installation of the Certification Authority role.
+helpviewer_keywords: ["ICertSrvSetup interface [Security]","InitializeDefaults method","ICertSrvSetup.InitializeDefaults","ICertSrvSetup::InitializeDefaults","InitializeDefaults","InitializeDefaults method [Security]","InitializeDefaults method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::InitializeDefaults","security.icertsrvsetup_initializedefaults"]
 old-location: security\icertsrvsetup_initializedefaults.htm
 tech.root: SecCrypto
 ms.assetid: dff7e2e2-291a-4ea9-858a-8d98d96f79ac
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>InitializeDefaults</b> method initializes a <b>CCertSrvSetup</b> object with default values to enable installation of the Certification Authority role. To install a CA role, this method must be called before using the <b>CCertSrvSetup</b> object. For information about default values, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
+The <b>InitializeDefaults</b> method initializes a <b>CCertSrvSetup</b> object with default values to enable installation of the Certification Authority role. To install a CA role, this method must be called before using the <b>CCertSrvSetup</b> object. For information about default values, see <a href="/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
 
 
 ## -parameters

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Region.GetRegionScansCount
 title: Region::GetRegionScansCount (gdiplusheaders.h)
-description: The Region::GetRegionScansCount method gets the number of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.helpviewer_keywords: ["GetRegionScansCount","GetRegionScansCount method [GDI+]","GetRegionScansCount method [GDI+]","Region class","Region class [GDI+]","GetRegionScansCount method","Region.GetRegionScansCount","Region::GetRegionScansCount","_gdiplus_CLASS_Region_GetRegionScansCount_matrix_","gdiplus._gdiplus_CLASS_Region_GetRegionScansCount_matrix_"]
+description: The Region::GetRegionScansCount method gets the number of rectangles that approximate this region. The region is transformed by a specified matrix before the rectangles are calculated.
+helpviewer_keywords: ["GetRegionScansCount","GetRegionScansCount method [GDI+]","GetRegionScansCount method [GDI+]","Region class","Region class [GDI+]","GetRegionScansCount method","Region.GetRegionScansCount","Region::GetRegionScansCount","_gdiplus_CLASS_Region_GetRegionScansCount_matrix_","gdiplus._gdiplus_CLASS_Region_GetRegionScansCount_matrix_"]
 old-location: gdiplus\_gdiplus_CLASS_Region_GetRegionScansCount_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\getregionscanscount.htm

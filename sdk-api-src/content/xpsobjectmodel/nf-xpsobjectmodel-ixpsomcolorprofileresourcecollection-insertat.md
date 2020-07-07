@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.InsertAt
 title: IXpsOMColorProfileResourceCollection::InsertAt (xpsobjectmodel.h)
-description: Inserts an IXpsOMColorProfileResource interface pointer at a specified location in the collection.helpviewer_keywords: ["IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMColorProfileResourceCollection.InsertAt","IXpsOMColorProfileResourceCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMColorProfileResourceCollection interface","xps.ixpsomcolorprofileresourcecollection_insertat","xpsobjectmodel/IXpsOMColorProfileResourceCollection::InsertAt"]
+description: Inserts an IXpsOMColorProfileResource interface pointer at a specified location in the collection.
+helpviewer_keywords: ["IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMColorProfileResourceCollection.InsertAt","IXpsOMColorProfileResourceCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMColorProfileResourceCollection interface","xps.ixpsomcolorprofileresourcecollection_insertat","xpsobjectmodel/IXpsOMColorProfileResourceCollection::InsertAt"]
 old-location: xps\ixpsomcolorprofileresourcecollection_insertat.htm
 tech.root: printdocs
 ms.assetid: 1576e48f-f238-42d5-b028-4ee3cd1b7287

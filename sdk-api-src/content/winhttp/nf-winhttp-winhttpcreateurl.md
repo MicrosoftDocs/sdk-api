@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpCreateUrl
 title: WinHttpCreateUrl function (winhttp.h)
-description: Creates a URL from component parts such as the host name and path.helpviewer_keywords: ["ICU_ESCAPE","ICU_REJECT_USERPWD","WinHttpCreateUrl","WinHttpCreateUrl function [WinHTTP]","http.winhttpcreateurl","winhttp.winhttpcreateurl_function","winhttp/WinHttpCreateUrl"]
+description: Creates a URL from component parts such as the host name and path.
+helpviewer_keywords: ["ICU_ESCAPE","ICU_REJECT_USERPWD","WinHttpCreateUrl","WinHttpCreateUrl function [WinHTTP]","http.winhttpcreateurl","winhttp.winhttpcreateurl_function","winhttp/WinHttpCreateUrl"]
 old-location: http\winhttpcreateurl.htm
 tech.root: WinHttp
 ms.assetid: 3f0403ea-479a-4764-ae65-d9bbd9233a50
@@ -60,7 +61,7 @@ The <b>WinHttpCreateUrl</b> function creates a URL from component parts such as 
 ### -param lpUrlComponents [in]
 
 Pointer to a 
-<a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure that contains the components from which to create the URL.
+<a href="/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure that contains the components from which to create the URL.
 
 
 ### -param dwFlags [in]
@@ -78,7 +79,7 @@ Flags that control the operation of this function. This parameter can be one of 
 </dl>
 </td>
 <td width="60%">
-Converts all unsafe characters to their corresponding escape sequences in the path string pointed to by the <b>lpszUrlPath</b> member and in <b>lpszExtraInfo</b> the extra-information string pointed to by the member of the <a href="https://docs.microsoft.com/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure pointed to by the <i>lpUrlComponents</i> parameter.
+Converts all unsafe characters to their corresponding escape sequences in the path string pointed to by the <b>lpszUrlPath</b> member and in <b>lpszExtraInfo</b> the extra-information string pointed to by the member of the <a href="/windows/win32/api/winhttp/ns-winhttp-url_components">URL_COMPONENTS</a> structure pointed to by the <i>lpUrlComponents</i> parameter.
 
 
 

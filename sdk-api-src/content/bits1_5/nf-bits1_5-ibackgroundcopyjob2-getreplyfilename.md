@@ -1,7 +1,8 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.GetReplyFileName
 title: IBackgroundCopyJob2::GetReplyFileName
-description: Retrieves the name of the file that contains the reply data from the server application. Call this method only if the job type is BG_JOB_TYPE_UPLOAD_REPLY.helpviewer_keywords: ["GetReplyFileName","GetReplyFileName method [BITS]","GetReplyFileName method [BITS]","IBackgroundCopyJob2 interface","IBackgroundCopyJob2 interface [BITS]","GetReplyFileName method","IBackgroundCopyJob2.GetReplyFileName","IBackgroundCopyJob2::GetReplyFileName","_drz_ibackgroundcopyjob2_getreplyfilename","bits.ibackgroundcopyjob2_getreplyfilename","bits1_5/IBackgroundCopyJob2::GetReplyFileName"]
+description: Retrieves the name of the file that contains the reply data from the server application. Call this method only if the job type is BG_JOB_TYPE_UPLOAD_REPLY.
+helpviewer_keywords: ["GetReplyFileName","GetReplyFileName method [BITS]","GetReplyFileName method [BITS]","IBackgroundCopyJob2 interface","IBackgroundCopyJob2 interface [BITS]","GetReplyFileName method","IBackgroundCopyJob2.GetReplyFileName","IBackgroundCopyJob2::GetReplyFileName","_drz_ibackgroundcopyjob2_getreplyfilename","bits.ibackgroundcopyjob2_getreplyfilename","bits1_5/IBackgroundCopyJob2::GetReplyFileName"]
 old-location: bits\ibackgroundcopyjob2_getreplyfilename.htm
 tech.root: Bits
 ms.assetid: 57f9245c-c1ae-4027-8e84-4926fa4861c3

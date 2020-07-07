@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegQueryMultipleValuesW
 title: RegQueryMultipleValuesW function (winreg.h)
-description: Retrieves the type and data for a list of value names associated with an open registry key.helpviewer_keywords: ["RegQueryMultipleValues","RegQueryMultipleValues function","RegQueryMultipleValuesA","RegQueryMultipleValuesW","_win32_regquerymultiplevalues","base.regquerymultiplevalues","winreg/RegQueryMultipleValues","winreg/RegQueryMultipleValuesA","winreg/RegQueryMultipleValuesW"]
+description: Retrieves the type and data for a list of value names associated with an open registry key.
+helpviewer_keywords: ["RegQueryMultipleValues","RegQueryMultipleValues function","RegQueryMultipleValuesA","RegQueryMultipleValuesW","_win32_regquerymultiplevalues","base.regquerymultiplevalues","winreg/RegQueryMultipleValues","winreg/RegQueryMultipleValuesA","winreg/RegQueryMultipleValuesW"]
 old-location: base\regquerymultiplevalues.htm
 tech.root: SysInfo
 ms.assetid: e718534a-6e68-40f5-9cdd-170ce9b5e6e5
@@ -87,7 +88,7 @@ This handle is returned by the
 ### -param val_list [out]
 
 A pointer to an array of 
-[VALENT](/windows/win32/api/winreg/ns-winreg-valenta)a> structures that describe one or more value entries. On input, the <b>ve_valuename</b> member of each structure must contain a pointer to the name of a value to retrieve. The function fails if any of the specified values do not exist in the specified key. 
+[VALENT](/windows/win32/api/winreg/ns-winreg-valenta) structures that describe one or more value entries. On input, the <b>ve_valuename</b> member of each structure must contain a pointer to the name of a value to retrieve. The function fails if any of the specified values do not exist in the specified key. 
 
 
 
@@ -182,6 +183,10 @@ If the target key is a dynamic key, its provider must provide all the values in 
 
 
 
+
+> [!NOTE]
+> The winreg.h header defines RegQueryMultipleValues as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -195,7 +200,7 @@ If the target key is a dynamic key, its provider must provide all the values in 
 
 
 
-[VALENT](/windows/win32/api/winreg/ns-winreg-valenta)a>
+[VALENT](/windows/win32/api/winreg/ns-winreg-valenta)
  
 
  

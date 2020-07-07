@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1Layer.GetSize
 title: ID2D1Layer::GetSize (d2d1.h)
-description: Gets the size of the layer in device-independent pixels.helpviewer_keywords: ["GetSize","GetSize method [Direct2D]","GetSize method [Direct2D]","ID2D1Layer interface","ID2D1Layer interface [Direct2D]","GetSize method","ID2D1Layer.GetSize","ID2D1Layer::GetSize","d2d1/ID2D1Layer::GetSize","direct2d.ID2D1Layer_GetSize"]
+description: Gets the size of the layer in device-independent pixels.
+helpviewer_keywords: ["GetSize","GetSize method [Direct2D]","GetSize method [Direct2D]","ID2D1Layer interface","ID2D1Layer interface [Direct2D]","GetSize method","ID2D1Layer.GetSize","ID2D1Layer::GetSize","d2d1/ID2D1Layer::GetSize","direct2d.ID2D1Layer_GetSize"]
 old-location: direct2d\ID2D1Layer_GetSize.htm
 tech.root: Direct2D
 ms.assetid: e9bf2990-6bd8-4247-9339-4ee652e21743
@@ -63,7 +64,7 @@ Gets the size of the layer in device-independent pixels.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
 
 The size of the layer in device-independent pixels.
 
@@ -75,7 +76,7 @@ The size of the layer in device-independent pixels.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1layer">ID2D1Layer</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1layer">ID2D1Layer</a>
  
 
  

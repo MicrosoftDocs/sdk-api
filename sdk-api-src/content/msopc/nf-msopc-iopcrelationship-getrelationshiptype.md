@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetRelationshipType
 title: IOpcRelationship::GetRelationshipType (msopc.h)
-description: Gets the relationship type.helpviewer_keywords: ["GetRelationshipType","GetRelationshipType method [Open Packaging Conventions]","GetRelationshipType method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetRelationshipType method","IOpcRelationship.GetRelationshipType","IOpcRelationship::GetRelationshipType","msopc/IOpcRelationship::GetRelationshipType","opc.iopcrelationship_getrelationshiptype"]
+description: Gets the relationship type.
+helpviewer_keywords: ["GetRelationshipType","GetRelationshipType method [Open Packaging Conventions]","GetRelationshipType method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetRelationshipType method","IOpcRelationship.GetRelationshipType","IOpcRelationship::GetRelationshipType","msopc/IOpcRelationship::GetRelationshipType","opc.iopcrelationship_getrelationshiptype"]
 old-location: opc\iopcrelationship_getrelationshiptype.htm
 tech.root: OPC
 ms.assetid: da832c8e-99e1-452a-90eb-97580f00f003

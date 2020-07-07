@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncSessionState.OnProgress
 title: ISyncSessionState::OnProgress (winsync.h)
-description: Reports synchronization progress to the application.helpviewer_keywords: ["ISyncSessionState interface [Windows Sync]","OnProgress method","ISyncSessionState.OnProgress","ISyncSessionState::OnProgress","OnProgress","OnProgress method [Windows Sync]","OnProgress method [Windows Sync]","ISyncSessionState interface","winsync.isyncsessionstate_onprogress","winsync/ISyncSessionState::OnProgress"]
+description: Reports synchronization progress to the application.
+helpviewer_keywords: ["ISyncSessionState interface [Windows Sync]","OnProgress method","ISyncSessionState.OnProgress","ISyncSessionState::OnProgress","OnProgress","OnProgress method [Windows Sync]","OnProgress method [Windows Sync]","ISyncSessionState interface","winsync.isyncsessionstate_onprogress","winsync/ISyncSessionState::OnProgress"]
 old-location: winsync\isyncsessionstate_onprogress.htm
 tech.root: winsync
 ms.assetid: a2983f9c-ed2d-47b4-bec7-b00dc4d75f3f
@@ -138,11 +139,11 @@ This method can be used to report custom progress to the application. When a pro
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_progress_stage">SYNC_PROGRESS STAGE Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-sync_progress_stage">SYNC_PROGRESS STAGE Enumeration</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_provider_role">SYNC_PROVIDER ROLE Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-sync_provider_role">SYNC_PROVIDER ROLE Enumeration</a>
  
 
  

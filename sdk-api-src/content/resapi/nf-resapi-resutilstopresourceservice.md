@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilStopResourceService
 title: ResUtilStopResourceService function (resapi.h)
-description: Stops a named service. The PRESUTIL_STOP_RESOURCE_SERVICE type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_STOP_RESOURCE_SERVICE","PRESUTIL_STOP_RESOURCE_SERVICE function [Failover Cluster]","ResUtilStopResourceService","ResUtilStopResourceService function [Failover Cluster]","_wolf_resutilstopresourceservice","mscs.resutilstopresourceservice","resapi/PRESUTIL_STOP_RESOURCE_SERVICE","resapi/ResUtilStopResourceService"]
+description: Stops a named service. The PRESUTIL_STOP_RESOURCE_SERVICE type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_STOP_RESOURCE_SERVICE","PRESUTIL_STOP_RESOURCE_SERVICE function [Failover Cluster]","ResUtilStopResourceService","ResUtilStopResourceService function [Failover Cluster]","_wolf_resutilstopresourceservice","mscs.resutilstopresourceservice","resapi/PRESUTIL_STOP_RESOURCE_SERVICE","resapi/ResUtilStopResourceService"]
 old-location: mscs\resutilstopresourceservice.htm
 tech.root: MsCS
 ms.assetid: 25e8417d-d314-4987-bdb2-7740793e4ac2

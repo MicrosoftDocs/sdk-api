@@ -1,7 +1,8 @@
 ---
 UID: NF:amvideo.PALETTE_ENTRIES
 title: PALETTE_ENTRIES macro (amvideo.h)
-description: The PALETTE_ENTRIES macro retrieves the maximum number of colors in the palette of a specified bitmap.helpviewer_keywords: ["PALETTE_ENTRIES","PALETTE_ENTRIES macro [DirectShow]","amvideo/PALETTE_ENTRIES","dshow.palette_entries"]
+description: The PALETTE_ENTRIES macro retrieves the maximum number of colors in the palette of a specified bitmap.
+helpviewer_keywords: ["PALETTE_ENTRIES","PALETTE_ENTRIES macro [DirectShow]","amvideo/PALETTE_ENTRIES","dshow.palette_entries"]
 old-location: dshow\palette_entries.htm
 tech.root: DirectShow
 ms.assetid: 7923b767-2b38-4aa8-bbc2-21d0254bdbd9

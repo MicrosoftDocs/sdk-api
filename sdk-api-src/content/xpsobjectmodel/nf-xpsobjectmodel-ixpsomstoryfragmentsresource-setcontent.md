@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMStoryFragmentsResource.SetContent
 title: IXpsOMStoryFragmentsResource::SetContent (xpsobjectmodel.h)
-description: Sets the read-only stream to be associated with this resource.helpviewer_keywords: ["IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMStoryFragmentsResource.SetContent","IXpsOMStoryFragmentsResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMStoryFragmentsResource interface","xps.ixpsomstoryfragmentsresource_setcontent","xpsobjectmodel/IXpsOMStoryFragmentsResource::SetContent"]
+description: Sets the read-only stream to be associated with this resource.
+helpviewer_keywords: ["IXpsOMStoryFragmentsResource interface [XPS Documents and Packaging]","SetContent method","IXpsOMStoryFragmentsResource.SetContent","IXpsOMStoryFragmentsResource::SetContent","SetContent","SetContent method [XPS Documents and Packaging]","SetContent method [XPS Documents and Packaging]","IXpsOMStoryFragmentsResource interface","xps.ixpsomstoryfragmentsresource_setcontent","xpsobjectmodel/IXpsOMStoryFragmentsResource::SetContent"]
 old-location: xps\ixpsomstoryfragmentsresource_setcontent.htm
 tech.root: printdocs
 ms.assetid: 861d9688-932b-4830-b52b-acd505524608

@@ -1,7 +1,8 @@
 ---
-UID: NF:directxmath.XMVECTORF32.operator XMVECTOR
+UID: NF:directxmath.XMVECTORF32.operator-cast-XMVECTOR
 title: XMVECTORF32::operator XMVECTOR
-description: Returns the instance of XMVECTOR implementing the current instance of XMVECTORF32.helpviewer_keywords: ["XMVECTORF32::operator XMVECTOR"]
+description: Returns the instance of XMVECTOR implementing the current instance of XMVECTORF32.
+helpviewer_keywords: ["XMVECTORF32::operator XMVECTOR"]
 ms.assetid: 94dd9676-f570-45bf-a3ff-b8fc4449a7db
 ms.date: 05/13/2019
 ms.keywords: XMVECTORF32::operator XMVECTOR

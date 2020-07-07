@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IComSecurityEvents.OnAuthenticate
 title: IComSecurityEvents::OnAuthenticate (comsvcs.h)
-description: Generated when a method call level authentication succeeds.helpviewer_keywords: ["IComSecurityEvents interface [COM+]","OnAuthenticate method","IComSecurityEvents.OnAuthenticate","IComSecurityEvents::OnAuthenticate","OnAuthenticate","OnAuthenticate method [COM+]","OnAuthenticate method [COM+]","IComSecurityEvents interface","_dtc_IComSecurityEvents_OnAuthenticate","comsvcs/IComSecurityEvents::OnAuthenticate","cos.icomsecurityevents_onauthenticate"]
+description: Generated when a method call level authentication succeeds.
+helpviewer_keywords: ["IComSecurityEvents interface [COM+]","OnAuthenticate method","IComSecurityEvents.OnAuthenticate","IComSecurityEvents::OnAuthenticate","OnAuthenticate","OnAuthenticate method [COM+]","OnAuthenticate method [COM+]","IComSecurityEvents interface","_dtc_IComSecurityEvents_OnAuthenticate","comsvcs/IComSecurityEvents::OnAuthenticate","cos.icomsecurityevents_onauthenticate"]
 old-location: cos\icomsecurityevents_onauthenticate.htm
 tech.root: cossdk
 ms.assetid: 4be635c6-9601-419d-933e-555b2ae6b73d
@@ -59,7 +60,7 @@ Generated when a method call level authentication succeeds. When you set an auth
 
 ### -param pInfo [in]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
+A pointer to a <a href="/windows/win32/api/comsvcs/ns-comsvcs-comsvcseventinfo">COMSVCSEVENTINFO</a> structure.
 
 
 ### -param guidActivity [in]

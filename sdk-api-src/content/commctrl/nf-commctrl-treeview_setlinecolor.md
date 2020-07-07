@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_SetLineColor
 title: TreeView_SetLineColor macro (commctrl.h)
-description: Sets the current line color. You can also use the TVM_SETLINECOLOR message directly.helpviewer_keywords: ["TreeView_SetLineColor","TreeView_SetLineColor macro [Windows Controls]","_win32_TreeView_SetLineColor","_win32_TreeView_SetLineColor_cpp","commctrl/TreeView_SetLineColor","controls.TreeView_SetLineColor","controls._win32_TreeView_SetLineColor"]
+description: Sets the current line color. You can also use the TVM_SETLINECOLOR message directly.
+helpviewer_keywords: ["TreeView_SetLineColor","TreeView_SetLineColor macro [Windows Controls]","_win32_TreeView_SetLineColor","_win32_TreeView_SetLineColor_cpp","commctrl/TreeView_SetLineColor","controls.TreeView_SetLineColor","controls._win32_TreeView_SetLineColor"]
 old-location: controls\TreeView_SetLineColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setlinecolor.htm

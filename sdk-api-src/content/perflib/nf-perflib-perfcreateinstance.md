@@ -1,7 +1,8 @@
 ---
 UID: NF:perflib.PerfCreateInstance
 title: PerfCreateInstance function (perflib.h)
-description: Creates an instance of the specified counter set.helpviewer_keywords: ["PerfCreateInstance","PerfCreateInstance function [Perf]","base.perfcreateinstance","perf.perfcreateinstance","perflib/PerfCreateInstance"]
+description: Creates an instance of the specified counter set.
+helpviewer_keywords: ["PerfCreateInstance","PerfCreateInstance function [Perf]","base.perfcreateinstance","perf.perfcreateinstance","perflib/PerfCreateInstance"]
 old-location: perf\perfcreateinstance.htm
 tech.root: perfctrs
 ms.assetid: 73be8588-2c87-4c27-933d-62b8605ed9a3

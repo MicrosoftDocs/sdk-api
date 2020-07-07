@@ -1,7 +1,8 @@
 ---
 UID: NS:mfplay.MFP_ACQUIRE_USER_CREDENTIAL_EVENT
 title: MFP_ACQUIRE_USER_CREDENTIAL_EVENT (mfplay.h)
-description: Event structure for the MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL event.helpviewer_keywords: ["MFP_ACQUIRE_USER_CREDENTIAL_EVENT","MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure [Media Foundation]","mf.mfp_acquire_user_credential_event","mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT"]
+description: Event structure for the MFP_EVENT_TYPE_ACQUIRE_USER_CREDENTIAL event.
+helpviewer_keywords: ["MFP_ACQUIRE_USER_CREDENTIAL_EVENT","MFP_ACQUIRE_USER_CREDENTIAL_EVENT structure [Media Foundation]","mf.mfp_acquire_user_credential_event","mfplay/MFP_ACQUIRE_USER_CREDENTIAL_EVENT"]
 old-location: mf\mfp_acquire_user_credential_event.htm
 tech.root: medfound
 ms.assetid: 61767b81-8641-43d5-b272-148d52517727
@@ -116,7 +117,7 @@ The number of retries. This member is set to zero on the first attempt, and incr
 
 ### -field flags
 
-Bitwise <b>OR</b> of zero or more flags from the <a href="https://docs.microsoft.com/windows/win32/api/mfplay/ne-mfplay-_mfp_credential_flags">_MFP_CREDENTIAL_FLAGS</a> enumeration.
+Bitwise <b>OR</b> of zero or more flags from the <a href="/windows/win32/api/mfplay/ne-mfplay-_mfp_credential_flags">_MFP_CREDENTIAL_FLAGS</a> enumeration.
 
 
 ### -field pCredential

@@ -1,7 +1,8 @@
 ---
 UID: NC:msacm.ACMFORMATENUMCBA
 title: ACMFORMATENUMCBA (msacm.h)
-description: The acmFormatEnumCallback function specifies a callback function used with the acmFormatEnum function. The acmFormatEnumCallback name is a placeholder for the application-defined function name.helpviewer_keywords: ["ACMFORMATENUMCB","ACMFORMATENUMCB callback","ACMFORMATENUMCB callback function [Windows Multimedia]","ACMFORMATENUMCBA","ACMFORMATENUMCBW","_win32_acmFormatEnumCallback","acmFormatEnumCallback","msacm/ACMFORMATENUMCB","msacm/ACMFORMATENUMCBA","msacm/ACMFORMATENUMCBW","multimedia.acmformatenumcallback"]
+description: The acmFormatEnumCallback function specifies a callback function used with the acmFormatEnum function. The acmFormatEnumCallback name is a placeholder for the application-defined function name.
+helpviewer_keywords: ["ACMFORMATENUMCB","ACMFORMATENUMCB callback","ACMFORMATENUMCB callback function [Windows Multimedia]","ACMFORMATENUMCBA","ACMFORMATENUMCBW","_win32_acmFormatEnumCallback","acmFormatEnumCallback","msacm/ACMFORMATENUMCB","msacm/ACMFORMATENUMCBA","msacm/ACMFORMATENUMCBW","multimedia.acmformatenumcallback"]
 old-location: multimedia\acmformatenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 58775258-c42c-4d59-8922-c478b5bdf0d7
@@ -69,7 +70,7 @@ Handle to the ACM driver identifier.
 
 ### -param pafd
 
-Pointer to an [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails)a> structure that contains the enumerated format details for a format tag.
+Pointer to an [ACMFORMATDETAILS](/windows/win32/api/msacm/nf-msacm-acmformatdetails) structure that contains the enumerated format details for a format tag.
 
 
 ### -param dwInstance
@@ -79,7 +80,7 @@ Application-defined value specified in the <a href="https://docs.microsoft.com/w
 
 ### -param fdwSupport
 
-Driver support flags specific to the driver identified by [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure, but they are specific to the format that is being enumerated. This parameter can be a combination of the following values and indicates which operations the driver supports for the format tag.
+Driver support flags specific to the driver identified by [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure, but they are specific to the format that is being enumerated. This parameter can be a combination of the following values and indicates which operations the driver supports for the format tag.
 
 <table>
 <tr>
@@ -131,6 +132,10 @@ The following functions should not be called from within the callback function: 
 
 
 
+
+
+> [!NOTE]
+> The msacm.h header defines ACMFORMATENUMCB as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

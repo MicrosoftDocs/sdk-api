@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagLOGPEN
 title: LOGPEN (wingdi.h)
-description: The LOGPEN structure defines the style, width, and color of a pen. The CreatePenIndirect function uses the LOGPEN structure.helpviewer_keywords: ["*LPLOGPEN","*NPLOGPEN","*PLOGPEN","LOGPEN","LOGPEN structure [Windows GDI]","PLOGPEN","PLOGPEN structure pointer [Windows GDI]","_win32_LOGPEN_str","gdi.logpen","wingdi/LOGPEN","wingdi/PLOGPEN"]
+description: The LOGPEN structure defines the style, width, and color of a pen. The CreatePenIndirect function uses the LOGPEN structure.
+helpviewer_keywords: ["*LPLOGPEN","*NPLOGPEN","*PLOGPEN","LOGPEN","LOGPEN structure [Windows GDI]","PLOGPEN","PLOGPEN structure pointer [Windows GDI]","_win32_LOGPEN_str","gdi.logpen","wingdi/LOGPEN","wingdi/PLOGPEN"]
 old-location: gdi\logpen.htm
 tech.root: gdi
 ms.assetid: 0e098b5a-e249-43ad-a6d8-2509b6562453

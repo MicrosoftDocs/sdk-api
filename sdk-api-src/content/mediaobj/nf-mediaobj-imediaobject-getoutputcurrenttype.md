@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputCurrentType
 title: IMediaObject::GetOutputCurrentType (mediaobj.h)
-description: The GetOutputCurrentType method retrieves the media type that was set for an output stream, if any.helpviewer_keywords: ["GetOutputCurrentType","GetOutputCurrentType method [DirectShow]","GetOutputCurrentType method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetOutputCurrentType method","IMediaObject.GetOutputCurrentType","IMediaObject::GetOutputCurrentType","IMediaObjectGetOutputCurrentType","dshow.imediaobject_getoutputcurrenttype","mediaobj/IMediaObject::GetOutputCurrentType"]
+description: The GetOutputCurrentType method retrieves the media type that was set for an output stream, if any.
+helpviewer_keywords: ["GetOutputCurrentType","GetOutputCurrentType method [DirectShow]","GetOutputCurrentType method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetOutputCurrentType method","IMediaObject.GetOutputCurrentType","IMediaObject::GetOutputCurrentType","IMediaObjectGetOutputCurrentType","dshow.imediaobject_getoutputcurrenttype","mediaobj/IMediaObject::GetOutputCurrentType"]
 old-location: dshow\imediaobject_getoutputcurrenttype.htm
 tech.root: DirectShow
 ms.assetid: f5ebcf96-d008-448e-852b-39bdf1f39c4b

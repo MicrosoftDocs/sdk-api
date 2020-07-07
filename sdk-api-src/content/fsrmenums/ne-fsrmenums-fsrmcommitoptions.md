@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmCommitOptions
 title: FsrmCommitOptions (fsrmenums.h)
-description: Defines the options for committing a collection of objects.helpviewer_keywords: ["FsrmCommitOptions","FsrmCommitOptions enumeration [File Server Resource Manager]","FsrmCommitOptions_Asynchronous","FsrmCommitOptions_None","fs.fsrmcommitoptions","fsrm.fsrmcommitoptions","fsrmenums/FsrmCommitOptions","fsrmenums/FsrmCommitOptions_Asynchronous","fsrmenums/FsrmCommitOptions_None"]
+description: Defines the options for committing a collection of objects.
+helpviewer_keywords: ["FsrmCommitOptions","FsrmCommitOptions enumeration [File Server Resource Manager]","FsrmCommitOptions_Asynchronous","FsrmCommitOptions_None","fs.fsrmcommitoptions","fsrm.fsrmcommitoptions","fsrmenums/FsrmCommitOptions","fsrmenums/FsrmCommitOptions_Asynchronous","fsrmenums/FsrmCommitOptions_None"]
 old-location: fsrm\fsrmcommitoptions.htm
 tech.root: fsrm
 ms.assetid: eb362bd8-c11f-404e-be54-0e16007494a7

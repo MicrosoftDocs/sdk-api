@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPITransportStream.AllocBuffer
 title: IRDPSRAPITransportStream::AllocBuffer (rdpencomapi.h)
-description: Called by the Remote Desktop Protocol (RDP) stack to allocate a stream buffer.helpviewer_keywords: ["AllocBuffer","AllocBuffer method [RDP]","AllocBuffer method [RDP]","IRDPSRAPITransportStream interface","IRDPSRAPITransportStream interface [RDP]","AllocBuffer method","IRDPSRAPITransportStream.AllocBuffer","IRDPSRAPITransportStream::AllocBuffer","rdp.irdpsrapitransportstream_allocbuffer","rdpencomapi/IRDPSRAPITransportStream::AllocBuffer"]
+description: Called by the Remote Desktop Protocol (RDP) stack to allocate a stream buffer.
+helpviewer_keywords: ["AllocBuffer","AllocBuffer method [RDP]","AllocBuffer method [RDP]","IRDPSRAPITransportStream interface","IRDPSRAPITransportStream interface [RDP]","AllocBuffer method","IRDPSRAPITransportStream.AllocBuffer","IRDPSRAPITransportStream::AllocBuffer","rdp.irdpsrapitransportstream_allocbuffer","rdpencomapi/IRDPSRAPITransportStream::AllocBuffer"]
 old-location: rdp\irdpsrapitransportstream_allocbuffer.htm
 tech.root: rdp
 ms.assetid: 5e53aedb-d3a2-4468-9df9-f058485d7bc4

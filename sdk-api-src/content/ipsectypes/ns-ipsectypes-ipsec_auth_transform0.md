@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_AUTH_TRANSFORM0_
 title: IPSEC_AUTH_TRANSFORM0 (ipsectypes.h)
-description: Specifies hash specific information for an SA transform.helpviewer_keywords: ["IPSEC_AUTH_TRANSFORM0","IPSEC_AUTH_TRANSFORM0 structure [Filtering]","IPSEC_AUTH_TRANSFORM_ID_GCM_AES_128","IPSEC_AUTH_TRANSFORM_ID_GCM_AES_192","IPSEC_AUTH_TRANSFORM_ID_GCM_AES_256","IPSEC_AUTH_TRANSFORM_ID_HMAC_MD5_96","IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96","IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_256_128","fwp.ipsec_auth_transform0_struct","ipsectypes/IPSEC_AUTH_TRANSFORM0"]
+description: Specifies hash specific information for an SA transform.
+helpviewer_keywords: ["IPSEC_AUTH_TRANSFORM0","IPSEC_AUTH_TRANSFORM0 structure [Filtering]","IPSEC_AUTH_TRANSFORM_ID_GCM_AES_128","IPSEC_AUTH_TRANSFORM_ID_GCM_AES_192","IPSEC_AUTH_TRANSFORM_ID_GCM_AES_256","IPSEC_AUTH_TRANSFORM_ID_HMAC_MD5_96","IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96","IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_256_128","fwp.ipsec_auth_transform0_struct","ipsectypes/IPSEC_AUTH_TRANSFORM0"]
 old-location: fwp\ipsec_auth_transform0_struct.htm
 tech.root: fwp
 ms.assetid: 26464393-7dc4-4a94-af46-25148c61bdb5
@@ -59,7 +60,7 @@ The <b>IPSEC_AUTH_TRANSFORM0</b> structure specifies hash specific information f
 
 ### -field authTransformId
 
-The identifier of the hash algorithm as specified by [IPSEC_AUTH_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform_id0)a>.
+The identifier of the hash algorithm as specified by [IPSEC_AUTH_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform_id0).
 
 Possible values:
 
@@ -169,7 +170,7 @@ Unused parameter, always set this to <b>NULL</b>.
 
 
 
-[IPSEC_AUTH_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform_id0)a>
+[IPSEC_AUTH_TRANSFORM_ID0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_auth_transform_id0)
 
 
 

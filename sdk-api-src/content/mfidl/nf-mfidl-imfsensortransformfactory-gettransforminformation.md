@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSensorTransformFactory.GetTransformInformation
 title: IMFSensorTransformFactory::GetTransformInformation (mfidl.h)
-description: Called by the media pipeline to get information about a transform provided by the sensor transform.helpviewer_keywords: ["GetTransformInformation","GetTransformInformation method [Media Foundation]","GetTransformInformation method [Media Foundation]","IMFSensorTransformFactory interface","IMFSensorTransformFactory interface [Media Foundation]","GetTransformInformation method","IMFSensorTransformFactory.GetTransformInformation","IMFSensorTransformFactory::GetTransformInformation","mf.imfsensortransformfactory_gettransforminformation","mfidl/IMFSensorTransformFactory::GetTransformInformation"]
+description: Called by the media pipeline to get information about a transform provided by the sensor transform.
+helpviewer_keywords: ["GetTransformInformation","GetTransformInformation method [Media Foundation]","GetTransformInformation method [Media Foundation]","IMFSensorTransformFactory interface","IMFSensorTransformFactory interface [Media Foundation]","GetTransformInformation method","IMFSensorTransformFactory.GetTransformInformation","IMFSensorTransformFactory::GetTransformInformation","mf.imfsensortransformfactory_gettransforminformation","mfidl/IMFSensorTransformFactory::GetTransformInformation"]
 old-location: mf\imfsensortransformfactory_gettransforminformation.htm
 tech.root: medfound
 ms.assetid: A83B0A75-60CF-49AA-9386-70A30189C009

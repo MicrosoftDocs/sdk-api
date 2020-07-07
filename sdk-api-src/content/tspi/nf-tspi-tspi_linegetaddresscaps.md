@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineGetAddressCaps
 title: TSPI_lineGetAddressCaps function (tspi.h)
-description: The TSPI_lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities.helpviewer_keywords: ["TSPI_lineGetAddressCaps","TSPI_lineGetAddressCaps function [TAPI 2.2]","_tspi_tspi_linegetaddresscaps","tspi.tspi_linegetaddresscaps","tspi/TSPI_lineGetAddressCaps"]
+description: The TSPI_lineGetAddressCaps function queries the specified address on the specified line device to determine its telephony capabilities.
+helpviewer_keywords: ["TSPI_lineGetAddressCaps","TSPI_lineGetAddressCaps function [TAPI 2.2]","_tspi_tspi_linegetaddresscaps","tspi.tspi_linegetaddresscaps","tspi/TSPI_lineGetAddressCaps"]
 old-location: tspi\tspi_linegetaddresscaps.htm
 tech.root: Tapi
 ms.assetid: b8d52a94-2666-4f92-80e0-c9a1e04d1e79

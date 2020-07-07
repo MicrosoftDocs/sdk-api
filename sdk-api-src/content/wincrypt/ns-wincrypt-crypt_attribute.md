@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CRYPT_ATTRIBUTE
 title: CRYPT_ATTRIBUTE (wincrypt.h)
-description: The CRYPT_ATTRIBUTE structure specifies an attribute that has one or more values.helpviewer_keywords: ["*PCRYPT_ATTRIBUTE","CRYPT_ATTRIBUTE","CRYPT_ATTRIBUTE structure [Security]","PCRYPT_ATTRIBUTE","PCRYPT_ATTRIBUTE structure pointer [Security]","_crypto2_crypt_attribute","security.crypt_attribute","wincrypt/CRYPT_ATTRIBUTE","wincrypt/PCRYPT_ATTRIBUTE"]
+description: The CRYPT_ATTRIBUTE structure specifies an attribute that has one or more values.
+helpviewer_keywords: ["*PCRYPT_ATTRIBUTE","CRYPT_ATTRIBUTE","CRYPT_ATTRIBUTE structure [Security]","PCRYPT_ATTRIBUTE","PCRYPT_ATTRIBUTE structure pointer [Security]","_crypto2_crypt_attribute","security.crypt_attribute","wincrypt/CRYPT_ATTRIBUTE","wincrypt/PCRYPT_ATTRIBUTE"]
 old-location: security\crypt_attribute.htm
 tech.root: SecCrypto
 ms.assetid: cdbaf38d-ddbe-4be0-afbc-f8bd76ef4847

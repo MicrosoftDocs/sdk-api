@@ -1,7 +1,8 @@
 ---
 UID: NE:searchapi.tagPRIORITIZE_FLAGS
 title: tagPRIORITIZE_FLAGS (searchapi.h)
-description: Used by PrioritizeMatchingURLs to specify how to process items the indexer has previously failed to index.helpviewer_keywords: ["PRIORITIZE_FLAGS","PRIORITIZE_FLAGS enumeration [search]","PRIORITIZE_FLAG_IGNOREFAILURECOUNT","PRIORITIZE_FLAG_RETRYFAILEDITEMS","_search_PRIORITIZE_FLAGS","search._search_PRIORITIZE_FLAGS","searchapi/PRIORITIZE_FLAGS","searchapi/PRIORITIZE_FLAG_IGNOREFAILURECOUNT","searchapi/PRIORITIZE_FLAG_RETRYFAILEDITEMS","tagPRIORITIZE_FLAGS"]
+description: Used by PrioritizeMatchingURLs to specify how to process items the indexer has previously failed to index.
+helpviewer_keywords: ["PRIORITIZE_FLAGS","PRIORITIZE_FLAGS enumeration [search]","PRIORITIZE_FLAG_IGNOREFAILURECOUNT","PRIORITIZE_FLAG_RETRYFAILEDITEMS","_search_PRIORITIZE_FLAGS","search._search_PRIORITIZE_FLAGS","searchapi/PRIORITIZE_FLAGS","searchapi/PRIORITIZE_FLAG_IGNOREFAILURECOUNT","searchapi/PRIORITIZE_FLAG_RETRYFAILEDITEMS","tagPRIORITIZE_FLAGS"]
 old-location: search\_search_PRIORITIZE_FLAGS.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\enums\prioritize_flags.htm
@@ -84,15 +85,15 @@ Indicates that the indexer should continue to reattempt indexing items regardles
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-priority_level">PRIORITY_LEVEL</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_itemstate">ROWSETEVENT_ITEMSTATE</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
+<a href="/windows/win32/api/searchapi/ne-searchapi-rowsetevent_type">ROWSETEVENT_TYPE</a>
 
 
 

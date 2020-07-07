@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetSize
 title: ID2D1RenderTarget::GetSize (d2d1.h)
-description: Returns the size of the render target in device-independent pixels.helpviewer_keywords: ["GetSize","GetSize method [Direct2D]","GetSize method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetSize method","ID2D1RenderTarget.GetSize","ID2D1RenderTarget::GetSize","d2d1/ID2D1RenderTarget::GetSize","direct2d.ID2D1RenderTarget_GetSize"]
+description: Returns the size of the render target in device-independent pixels.
+helpviewer_keywords: ["GetSize","GetSize method [Direct2D]","GetSize method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetSize method","ID2D1RenderTarget.GetSize","ID2D1RenderTarget::GetSize","d2d1/ID2D1RenderTarget::GetSize","direct2d.ID2D1RenderTarget_GetSize"]
 old-location: direct2d\ID2D1RenderTarget_GetSize.htm
 tech.root: Direct2D
 ms.assetid: a46ec1c6-b0ff-4822-ab92-0b0a2ab564ba
@@ -63,7 +64,7 @@ Returns the size of the render target in device-independent pixels.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-size-f">D2D1_SIZE_F</a></b>
 
 The current size of the render target in device-independent pixels.
 
@@ -75,7 +76,7 @@ The current size of the render target in device-independent pixels.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

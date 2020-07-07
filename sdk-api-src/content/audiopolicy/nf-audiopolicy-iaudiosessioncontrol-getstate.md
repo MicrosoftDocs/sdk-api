@@ -1,7 +1,8 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.GetState
 title: IAudioSessionControl::GetState (audiopolicy.h)
-description: The GetState method retrieves the current state of the audio session.helpviewer_keywords: ["GetState","GetState method [Core Audio]","GetState method [Core Audio]","IAudioSessionControl interface","IAudioSessionControl interface [Core Audio]","GetState method","IAudioSessionControl.GetState","IAudioSessionControl::GetState","IAudioSessionControlGetState","audiopolicy/IAudioSessionControl::GetState","coreaudio.iaudiosessioncontrol_getstate"]
+description: The GetState method retrieves the current state of the audio session.
+helpviewer_keywords: ["GetState","GetState method [Core Audio]","GetState method [Core Audio]","IAudioSessionControl interface","IAudioSessionControl interface [Core Audio]","GetState method","IAudioSessionControl.GetState","IAudioSessionControl::GetState","IAudioSessionControlGetState","audiopolicy/IAudioSessionControl::GetState","coreaudio.iaudiosessioncontrol_getstate"]
 old-location: coreaudio\iaudiosessioncontrol_getstate.htm
 tech.root: CoreAudio
 ms.assetid: 9c0188a1-7982-40f0-9040-bda00473160c
@@ -62,7 +63,7 @@ The <b>GetState</b> method retrieves the current state of the audio session.
 
 ### -param pRetVal [out]
 
-Pointer to a variable into which the method writes the current session state. The state must be one of the following <a href="https://docs.microsoft.com/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audiosessionstate">AudioSessionState</a> enumeration values:
+Pointer to a variable into which the method writes the current session state. The state must be one of the following <a href="/windows/win32/api/audiosessiontypes/ne-audiosessiontypes-audiosessionstate">AudioSessionState</a> enumeration values:
 
 AudioSessionStateActive
 

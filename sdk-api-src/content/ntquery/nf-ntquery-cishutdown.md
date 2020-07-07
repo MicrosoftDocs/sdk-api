@@ -1,7 +1,8 @@
 ---
 UID: NF:ntquery.CIShutdown
 title: CIShutdown function (ntquery.h)
-description: Shuts down the content indexer and closes all open catalogs.helpviewer_keywords: ["CIShutdown","CIShutdown function [Windows Shell]","_shell_CIShutdown","ntquery/CIShutdown","shell.CIShutdown"]
+description: Shuts down the content indexer and closes all open catalogs.
+helpviewer_keywords: ["CIShutdown","CIShutdown function [Windows Shell]","_shell_CIShutdown","ntquery/CIShutdown","shell.CIShutdown"]
 old-location: shell\CIShutdown.htm
 tech.root: shell
 ms.assetid: 16c932a6-8def-4ff9-b531-03ebd011086a

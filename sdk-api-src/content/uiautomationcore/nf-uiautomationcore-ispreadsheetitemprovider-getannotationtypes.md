@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ISpreadsheetItemProvider.GetAnnotationTypes
 title: ISpreadsheetItemProvider::GetAnnotationTypes (uiautomationcore.h)
-description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.helpviewer_keywords: ["GetAnnotationTypes","GetAnnotationTypes method [Windows Accessibility]","GetAnnotationTypes method [Windows Accessibility]","ISpreadsheetItemProvider interface","ISpreadsheetItemProvider interface [Windows Accessibility]","GetAnnotationTypes method","ISpreadsheetItemProvider.GetAnnotationTypes","ISpreadsheetItemProvider::GetAnnotationTypes","uiautomationcore/ISpreadsheetItemProvider::GetAnnotationTypes","winauto.uiauto_ISpreadsheetItemProvider_GetAnnotationTypes"]
+description: Retrieves an array of annotation type identifiers indicating the types of annotations that are associated with this spreadsheet cell.
+helpviewer_keywords: ["GetAnnotationTypes","GetAnnotationTypes method [Windows Accessibility]","GetAnnotationTypes method [Windows Accessibility]","ISpreadsheetItemProvider interface","ISpreadsheetItemProvider interface [Windows Accessibility]","GetAnnotationTypes method","ISpreadsheetItemProvider.GetAnnotationTypes","ISpreadsheetItemProvider::GetAnnotationTypes","uiautomationcore/ISpreadsheetItemProvider::GetAnnotationTypes","winauto.uiauto_ISpreadsheetItemProvider_GetAnnotationTypes"]
 old-location: winauto\uiauto_ISpreadsheetItemProvider_GetAnnotationTypes.htm
 tech.root: WinAuto
 ms.assetid: 95DD80C7-AD98-42D5-BB2E-05ACA02F878A
@@ -59,7 +60,7 @@ Retrieves an array of annotation type identifiers indicating the types of annota
 
 ### -param pRetVal [out, retval]
 
-Type: <b><a href="https://docs.microsoft.com/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
+Type: <b><a href="/windows/win32/api/oaidl/ns-oaidl-safearray">SAFEARRAY</a>**</b>
 
 Receives an array of annotation type identifiers, one for each type of annotation associated with the spreadsheet cell. For a list of possible values, see <a href="https://docs.microsoft.com/windows/desktop/WinAuto/uiauto-annotation-type-identifiers">Annotation Type Identifiers</a>.
 

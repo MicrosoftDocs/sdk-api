@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi.CLUSPROP_PARTITION_INFO_EX
 title: CLUSPROP_PARTITION_INFO_EX (clusapi.h)
-description: The CLUSPROP_PARTITION_INFO_EX structure contains information relevant to storage class resources.helpviewer_keywords: ["*PCLUSPROP_PARTITION_INFO_EX","CLUSPROP_PARTITION_INFO_EX","CLUSPROP_PARTITION_INFO_EX structure [Failover Cluster]","PCLUSPROP_PARTITION_INFO_EX","PCLUSPROP_PARTITION_INFO_EX structure pointer [Failover Cluster]","clusapi/CLUSPROP_PARTITION_INFO_EX","clusapi/PCLUSPROP_PARTITION_INFO_EX","mscs.clusprop_partition_info_ex"]
+description: The CLUSPROP_PARTITION_INFO_EX structure contains information relevant to storage class resources.
+helpviewer_keywords: ["*PCLUSPROP_PARTITION_INFO_EX","CLUSPROP_PARTITION_INFO_EX","CLUSPROP_PARTITION_INFO_EX structure [Failover Cluster]","PCLUSPROP_PARTITION_INFO_EX","PCLUSPROP_PARTITION_INFO_EX structure pointer [Failover Cluster]","clusapi/CLUSPROP_PARTITION_INFO_EX","clusapi/PCLUSPROP_PARTITION_INFO_EX","mscs.clusprop_partition_info_ex"]
 old-location: mscs\clusprop_partition_info_ex.htm
 tech.root: MsCS
 ms.assetid: b1343a04-b8bd-469a-a620-985eeb89401c

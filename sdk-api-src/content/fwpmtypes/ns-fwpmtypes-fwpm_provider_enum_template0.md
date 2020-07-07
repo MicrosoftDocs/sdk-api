@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_PROVIDER_ENUM_TEMPLATE0_
 title: FWPM_PROVIDER_ENUM_TEMPLATE0 (fwpmtypes.h)
-description: Used for enumerating providers.helpviewer_keywords: ["FWPM_PROVIDER_ENUM_TEMPLATE0","FWPM_PROVIDER_ENUM_TEMPLATE0 structure [Filtering]","fwp.fwpm_provider_enum_template0_struct","fwpmtypes/FWPM_PROVIDER_ENUM_TEMPLATE0"]
+description: Used for enumerating providers.
+helpviewer_keywords: ["FWPM_PROVIDER_ENUM_TEMPLATE0","FWPM_PROVIDER_ENUM_TEMPLATE0 structure [Filtering]","fwp.fwpm_provider_enum_template0_struct","fwpmtypes/FWPM_PROVIDER_ENUM_TEMPLATE0"]
 old-location: fwp\fwpm_provider_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 9369becc-f766-444a-8056-a3c3bc610553

@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxContentGroupFilesEnumerator
 title: IAppxContentGroupFilesEnumerator (appxpackaging.h)
-description: Enumerates files in content groups from a content group map.helpviewer_keywords: ["IAppxContentGroupFilesEnumerator","IAppxContentGroupFilesEnumerator interface [App packaging and management]","IAppxContentGroupFilesEnumerator interface [App packaging and management]","described","appxpackaging/IAppxContentGroupFilesEnumerator","appxpkg.iappxcontentgroupfilesenumerator_"]
+description: Enumerates files in content groups from a content group map.
+helpviewer_keywords: ["IAppxContentGroupFilesEnumerator","IAppxContentGroupFilesEnumerator interface [App packaging and management]","IAppxContentGroupFilesEnumerator interface [App packaging and management]","described","appxpackaging/IAppxContentGroupFilesEnumerator","appxpkg.iappxcontentgroupfilesenumerator_"]
 old-location: appxpkg\iappxcontentgroupfilesenumerator_.htm
 tech.root: appxpkg
 ms.assetid: 42F1E3DE-B2A3-42DE-8FBE-BEE02D546ABA

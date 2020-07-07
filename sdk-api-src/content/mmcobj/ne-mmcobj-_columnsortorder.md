@@ -1,7 +1,8 @@
 ---
 UID: NE:mmcobj.ColumnSortOrder
 title: _ColumnSortOrder (mmcobj.h)
-description: Used by IResultsViewer::SortOrderProperty to indicate or set how a query is to be sorted.helpviewer_keywords: ["AscItems","COLUMNSORTORDER","ColumnSortOrder","ColumnSortOrder enumeration [Legacy Windows Environment Features]","DescItems","_ColumnSortOrder","lwef.search_2x_columnsortorder","mmcobj/AscItems","mmcobj/ColumnSortOrder","mmcobj/DescItems","search.search_2x_columnsortorder","search_2x_ColumnSortOrder"]
+description: Used by IResultsViewer::SortOrderProperty to indicate or set how a query is to be sorted.
+helpviewer_keywords: ["AscItems","COLUMNSORTORDER","ColumnSortOrder","ColumnSortOrder enumeration [Legacy Windows Environment Features]","DescItems","_ColumnSortOrder","lwef.search_2x_columnsortorder","mmcobj/AscItems","mmcobj/ColumnSortOrder","mmcobj/DescItems","search.search_2x_columnsortorder","search_2x_ColumnSortOrder"]
 old-location: lwef\search_2x_columnsortorder.htm
 tech.root: lwef
 ms.assetid: VS|search|~\search\wds2x\reference\enum\columnsortorder.htm
@@ -62,19 +63,12 @@ Used by <a href="https://docs.microsoft.com/windows/desktop/lwef/-search-2x-ires
 
 
 ### -field SortOrder_Ascending
-
-
-### -field SortOrder_Descending
-
-
-
-
-#### - AscItems
-
 Indicates that the sort order is ascending.
 
-
-#### - DescItems
-
+### -field SortOrder_Descending
 Indicates that the sort order is descending.
+
+
+
+
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_INPUT_ELEMENT_DESC
 title: D3D12_INPUT_ELEMENT_DESC (d3d12.h)
-description: Describes a single element for the input-assembler stage of the graphics pipeline.helpviewer_keywords: ["D3D12_INPUT_ELEMENT_DESC","D3D12_INPUT_ELEMENT_DESC structure","d3d12/D3D12_INPUT_ELEMENT_DESC","direct3d12.d3d12_input_element_desc"]
+description: Describes a single element for the input-assembler stage of the graphics pipeline.
+helpviewer_keywords: ["D3D12_INPUT_ELEMENT_DESC","D3D12_INPUT_ELEMENT_DESC structure","d3d12/D3D12_INPUT_ELEMENT_DESC","direct3d12.d3d12_input_element_desc"]
 old-location: direct3d12\d3d12_input_element_desc.htm
 tech.root: direct3d12
 ms.assetid: FDE49FD5-9F7D-4A57-9AE9-F167AF39B06C
@@ -81,7 +82,7 @@ An integer value that identifies the input-assembler. For more info, see <a href
 
 ### -field AlignedByteOffset
 
-Optional. Offset, in bytes, between each element. Use D3D12_APPEND_ALIGNED_ELEMENT (0xffffffff) for convenience to define the current element directly 
+Optional. Offset, in bytes, to this element from the start of the vertex. Use D3D12_APPEND_ALIGNED_ELEMENT (0xffffffff) for convenience to define the current element directly 
         after the previous one, including any packing if necessary.
 
 

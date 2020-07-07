@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_SERVICE_MESSAGE_RECEIVE_CALLBACK
 title: WS_SERVICE_MESSAGE_RECEIVE_CALLBACK (webservices.h)
-description: Invoked when a WS_MESSAGE is received on an endpoint configured with a WS_SERVICE_CONTRACT which has defaultMessageHandlerCallback set.helpviewer_keywords: ["WS_SERVICE_MESSAGE_RECEIVE_CALLBACK","WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback","WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback function [Web Services for Windows]","webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK","wsw.ws_service_message_receive_callback"]
+description: Invoked when a WS_MESSAGE is received on an endpoint configured with a WS_SERVICE_CONTRACT which has defaultMessageHandlerCallback set.
+helpviewer_keywords: ["WS_SERVICE_MESSAGE_RECEIVE_CALLBACK","WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback","WS_SERVICE_MESSAGE_RECEIVE_CALLBACK callback function [Web Services for Windows]","webservices/WS_SERVICE_MESSAGE_RECEIVE_CALLBACK","wsw.ws_service_message_receive_callback"]
 old-location: wsw\ws_service_message_receive_callback.htm
 tech.root: wsw
 ms.assetid: 2fcd8905-7002-41b8-b947-14d53c889c21

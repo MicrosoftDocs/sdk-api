@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpResetAutoProxy
 title: WinHttpResetAutoProxy function (winhttp.h)
-description: Resets the auto-proxy.helpviewer_keywords: ["WINHTTP_RESET_ALL","WINHTTP_RESET_NOTIFY_NETWORK_CHANGED","WINHTTP_RESET_OUT_OF_PROC","WINHTTP_RESET_SCRIPT_CACHE","WINHTTP_RESET_STATE","WINHTTP_RESET_SWPAD_ALL","WINHTTP_RESET_SWPAD_CURRENT_NETWORK","WinHttpResetAutoProxy","WinHttpResetAutoProxy function [WinHTTP]","http.winhttpresetautoproxy","winhttp/WinHttpResetAutoProxy"]
+description: Resets the auto-proxy.
+helpviewer_keywords: ["WINHTTP_RESET_ALL","WINHTTP_RESET_NOTIFY_NETWORK_CHANGED","WINHTTP_RESET_OUT_OF_PROC","WINHTTP_RESET_SCRIPT_CACHE","WINHTTP_RESET_STATE","WINHTTP_RESET_SWPAD_ALL","WINHTTP_RESET_SWPAD_CURRENT_NETWORK","WinHttpResetAutoProxy","WinHttpResetAutoProxy function [WinHTTP]","http.winhttpresetautoproxy","winhttp/WinHttpResetAutoProxy"]
 old-location: http\winhttpresetautoproxy.htm
 tech.root: WinHttp
 ms.assetid: 08b4ea41-4349-4746-a98e-93ba1db20d0e

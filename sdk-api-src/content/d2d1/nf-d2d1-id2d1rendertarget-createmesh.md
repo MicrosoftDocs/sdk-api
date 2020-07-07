@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.CreateMesh
 title: ID2D1RenderTarget::CreateMesh (d2d1.h)
-description: Create a mesh that uses triangles to describe a shape.helpviewer_keywords: ["CreateMesh","CreateMesh method [Direct2D]","CreateMesh method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateMesh method","ID2D1RenderTarget.CreateMesh","ID2D1RenderTarget::CreateMesh","d2d1/ID2D1RenderTarget::CreateMesh","direct2d.ID2D1RenderTarget_CreateMesh"]
+description: Create a mesh that uses triangles to describe a shape.
+helpviewer_keywords: ["CreateMesh","CreateMesh method [Direct2D]","CreateMesh method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateMesh method","ID2D1RenderTarget.CreateMesh","ID2D1RenderTarget::CreateMesh","d2d1/ID2D1RenderTarget::CreateMesh","direct2d.ID2D1RenderTarget_CreateMesh"]
 old-location: direct2d\ID2D1RenderTarget_CreateMesh.htm
 tech.root: Direct2D
 ms.assetid: 6c0036d8-1f91-4d90-a301-b58bde8da974
@@ -59,7 +60,7 @@ Create a mesh that uses triangles to describe a shape.
 
 ### -param mesh [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1mesh">ID2D1Mesh</a>**</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1mesh">ID2D1Mesh</a>**</b>
 
 When this method returns, contains a pointer to a pointer to the new mesh.
 
@@ -70,7 +71,7 @@ When this method returns, contains a pointer to a pointer to the new mesh.
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 
 
@@ -79,7 +80,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-To populate a mesh, use its <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1mesh-open">Open</a> method to obtain an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a>. To draw the mesh, use the render target's <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillmesh">FillMesh</a> method.
+To populate a mesh, use its <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1mesh-open">Open</a> method to obtain an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1tessellationsink">ID2D1TessellationSink</a>. To draw the mesh, use the render target's <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillmesh">FillMesh</a> method.
 
 
 
@@ -89,7 +90,7 @@ To populate a mesh, use its <a href="https://docs.microsoft.com/windows/desktop/
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

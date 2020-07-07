@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateGeometryFigure
 title: IXpsOMObjectFactory::CreateGeometryFigure (xpsobjectmodel.h)
-description: Creates an IXpsOMGeometryFigure interface, which specifies a portion of an object that is defined by an IXpsOMGeometry interface.helpviewer_keywords: ["CreateGeometryFigure","CreateGeometryFigure method [XPS Documents and Packaging]","CreateGeometryFigure method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateGeometryFigure method","IXpsOMObjectFactory.CreateGeometryFigure","IXpsOMObjectFactory::CreateGeometryFigure","xps.ixpsomobjectfactory_creategeometryfigure","xpsobjectmodel/IXpsOMObjectFactory::CreateGeometryFigure"]
+description: Creates an IXpsOMGeometryFigure interface, which specifies a portion of an object that is defined by an IXpsOMGeometry interface.
+helpviewer_keywords: ["CreateGeometryFigure","CreateGeometryFigure method [XPS Documents and Packaging]","CreateGeometryFigure method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateGeometryFigure method","IXpsOMObjectFactory.CreateGeometryFigure","IXpsOMObjectFactory::CreateGeometryFigure","xps.ixpsomobjectfactory_creategeometryfigure","xpsobjectmodel/IXpsOMObjectFactory::CreateGeometryFigure"]
 old-location: xps\ixpsomobjectfactory_creategeometryfigure.htm
 tech.root: printdocs
 ms.assetid: d9138dbc-5a9e-4653-bab2-71f6d716eba6
@@ -109,7 +110,7 @@ The method succeeded.
 </dl>
 </td>
 <td width="60%">
-One of the fields in the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure that is passed in <i>startPoint</i> contains a  value that is not valid.
+One of the fields in the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a> structure that is passed in <i>startPoint</i> contains a  value that is not valid.
 
 
 </td>
@@ -192,7 +193,7 @@ else
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_point">XPS_POINT</a>
  
 
  

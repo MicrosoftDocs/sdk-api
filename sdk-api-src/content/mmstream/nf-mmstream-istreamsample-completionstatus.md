@@ -1,7 +1,8 @@
 ---
 UID: NF:mmstream.IStreamSample.CompletionStatus
 title: IStreamSample::CompletionStatus (mmstream.h)
-description: Note  This interface is deprecated. New applications should not use it. Retrieves the status of the current sample's latest asynchronous update. If the update isn't complete, you can force it to complete.helpviewer_keywords: ["CompletionStatus","CompletionStatus method [DirectShow]","CompletionStatus method [DirectShow]","IStreamSample interface","IStreamSample interface [DirectShow]","CompletionStatus method","IStreamSample.CompletionStatus","IStreamSample::CompletionStatus","IStreamSampleCompletionStatus","dshow.istreamsample_completionstatus","mmstream/IStreamSample::CompletionStatus"]
+description: Note  This interface is deprecated. New applications should not use it. Retrieves the status of the current sample's latest asynchronous update. If the update isn't complete, you can force it to complete.
+helpviewer_keywords: ["CompletionStatus","CompletionStatus method [DirectShow]","CompletionStatus method [DirectShow]","IStreamSample interface","IStreamSample interface [DirectShow]","CompletionStatus method","IStreamSample.CompletionStatus","IStreamSample::CompletionStatus","IStreamSampleCompletionStatus","dshow.istreamsample_completionstatus","mmstream/IStreamSample::CompletionStatus"]
 old-location: dshow\istreamsample_completionstatus.htm
 tech.root: DirectShow
 ms.assetid: bfc3fd16-20b1-4581-abb0-66781aa3d584

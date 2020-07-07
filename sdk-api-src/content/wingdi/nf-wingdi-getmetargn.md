@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetMetaRgn
 title: GetMetaRgn function (wingdi.h)
-description: The GetMetaRgn function retrieves the current metaregion for the specified device context.helpviewer_keywords: ["GetMetaRgn","GetMetaRgn function [Windows GDI]","_win32_GetMetaRgn","gdi.getmetargn","wingdi/GetMetaRgn"]
+description: The GetMetaRgn function retrieves the current metaregion for the specified device context.
+helpviewer_keywords: ["GetMetaRgn","GetMetaRgn function [Windows GDI]","_win32_GetMetaRgn","gdi.getmetargn","wingdi/GetMetaRgn"]
 old-location: gdi\getmetargn.htm
 tech.root: gdi
 ms.assetid: 9c2741cf-30e4-4100-bae9-ad99a7ae37f1

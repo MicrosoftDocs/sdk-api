@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptGetFontAlternateGlyphs
 title: ScriptGetFontAlternateGlyphs function (usp10.h)
-description: Retrieves a list of alternate glyphs for a specified character that can be accessed through a specified OpenType feature.helpviewer_keywords: ["ScriptGetFontAlternateGlyphs","ScriptGetFontAlternateGlyphs function [Internationalization for Windows Applications]","_win32_ScriptGetFontAlternateGlyphs","intl.scriptgetfontalternateglyphs","usp10/ScriptGetFontAlternateGlyphs"]
+description: Retrieves a list of alternate glyphs for a specified character that can be accessed through a specified OpenType feature.
+helpviewer_keywords: ["ScriptGetFontAlternateGlyphs","ScriptGetFontAlternateGlyphs function [Internationalization for Windows Applications]","_win32_ScriptGetFontAlternateGlyphs","intl.scriptgetfontalternateglyphs","usp10/ScriptGetFontAlternateGlyphs"]
 old-location: intl\scriptgetfontalternateglyphs.htm
 tech.root: Intl
 ms.assetid: 2b64a14f-ad55-46df-a7a6-7f05fcb2c875
@@ -72,7 +73,7 @@ Pointer to a <a href="https://docs.microsoft.com/windows/desktop/Intl/script-cac
 
 ### -param psa [in, optional]
 
-Pointer to a <a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the array of alternate glyphs can be created with the correct scope.
+Pointer to a <a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a> structure obtained from a previous call to <a href="https://docs.microsoft.com/windows/desktop/api/usp10/nf-usp10-scriptitemizeopentype">ScriptItemizeOpenType</a>. This parameter identifies the shaping engine, so that the array of alternate glyphs can be created with the correct scope.
 
 Alternatively, the application can set this parameter to <b>NULL</b> to receive unfiltered results.
 
@@ -155,7 +156,7 @@ For shaping fonts with Uniscribe, <a href="https://docs.microsoft.com/windows/de
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
+<a href="/windows/win32/api/usp10/ns-usp10-script_analysis">SCRIPT_ANALYSIS</a>
 
 
 

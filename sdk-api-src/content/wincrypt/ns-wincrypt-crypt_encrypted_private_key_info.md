@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CRYPT_ENCRYPTED_PRIVATE_KEY_INFO
 title: CRYPT_ENCRYPTED_PRIVATE_KEY_INFO (wincrypt.h)
-description: Contains the information in a PKCShelpviewer_keywords: ["*PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO","CRYPT_ENCRYPTED_PRIVATE_KEY_INFO","CRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure [Security]","PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO","PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure pointer [Security]","security.crypt_encrypted_private_key_info","wincrypt/CRYPT_ENCRYPTED_PRIVATE_KEY_INFO","wincrypt/PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO"]
+description: Contains the information in a PKCS
+helpviewer_keywords: ["*PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO","CRYPT_ENCRYPTED_PRIVATE_KEY_INFO","CRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure [Security]","PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO","PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO structure pointer [Security]","security.crypt_encrypted_private_key_info","wincrypt/CRYPT_ENCRYPTED_PRIVATE_KEY_INFO","wincrypt/PCRYPT_ENCRYPTED_PRIVATE_KEY_INFO"]
 old-location: security\crypt_encrypted_private_key_info.htm
 tech.root: SecCrypto
 ms.assetid: 5e80d6d1-2e38-4a2d-90df-e6e4000cd626

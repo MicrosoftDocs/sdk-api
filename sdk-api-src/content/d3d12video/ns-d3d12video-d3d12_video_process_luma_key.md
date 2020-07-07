@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_PROCESS_LUMA_KEY
 title: D3D12_VIDEO_PROCESS_LUMA_KEY
-description: Specifies the settings used for luma keying.helpviewer_keywords: ["D3D12_VIDEO_PROCESS_LUMA_KEY","D3D12_VIDEO_PROCESS_LUMA_KEY",""]
+description: Specifies the settings used for luma keying.
+helpviewer_keywords: ["D3D12_VIDEO_PROCESS_LUMA_KEY","D3D12_VIDEO_PROCESS_LUMA_KEY",""]
 tech.root: mf
 ms.assetid: c5183fec-5f5d-4a26-a35c-5ea60e7e1fe0
 ms.date: 05/28/2019

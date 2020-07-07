@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdutil.WSDXMLCleanupElement
 title: WSDXMLCleanupElement function (wsdutil.h)
-description: Frees memory associated with an XML element.helpviewer_keywords: ["WSDXMLCleanupElement","WSDXMLCleanupElement function","ncd.wsdxmlcleanupelement","wsdutil/WSDXMLCleanupElement"]
+description: Frees memory associated with an XML element.
+helpviewer_keywords: ["WSDXMLCleanupElement","WSDXMLCleanupElement function","ncd.wsdxmlcleanupelement","wsdutil/WSDXMLCleanupElement"]
 old-location: ncd\wsdxmlcleanupelement.htm
 tech.root: WsdApi
 ms.assetid: 5a421c9a-32c2-4eaf-84b9-6077afe9b82a

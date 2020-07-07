@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegSetValueExA
 title: RegSetValueExA function (winreg.h)
-description: Sets the data and type of a specified value under a registry key.helpviewer_keywords: ["RegSetValueEx","RegSetValueEx function","RegSetValueExA","RegSetValueExW","_win32_regsetvalueex","base.regsetvalueex","winreg/RegSetValueEx","winreg/RegSetValueExA","winreg/RegSetValueExW"]
+description: Sets the data and type of a specified value under a registry key.
+helpviewer_keywords: ["RegSetValueEx","RegSetValueEx function","RegSetValueExA","RegSetValueExW","_win32_regsetvalueex","base.regsetvalueex","winreg/RegSetValueEx","winreg/RegSetValueExA","winreg/RegSetValueExW"]
 old-location: base\regsetvalueex.htm
 tech.root: SysInfo
 ms.assetid: 29b0e27c-4999-4e92-bd8b-bba74920bccc
@@ -156,6 +157,10 @@ Note that operations that access certain registry keys are redirected. For more 
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegSetValueEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

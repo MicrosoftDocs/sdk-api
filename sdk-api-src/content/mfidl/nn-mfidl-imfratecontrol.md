@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFRateControl
 title: IMFRateControl (mfidl.h)
-description: Gets or sets the playback rate.helpviewer_keywords: ["54303c32-b260-4364-9130-a592694f2816","IMFRateControl","IMFRateControl interface [Media Foundation]","IMFRateControl interface [Media Foundation]","described","mf.imfratecontrol","mfidl/IMFRateControl"]
+description: Gets or sets the playback rate.
+helpviewer_keywords: ["54303c32-b260-4364-9130-a592694f2816","IMFRateControl","IMFRateControl interface [Media Foundation]","IMFRateControl interface [Media Foundation]","described","mf.imfratecontrol","mfidl/IMFRateControl"]
 old-location: mf\imfratecontrol.htm
 tech.root: medfound
 ms.assetid: 54303c32-b260-4364-9130-a592694f2816

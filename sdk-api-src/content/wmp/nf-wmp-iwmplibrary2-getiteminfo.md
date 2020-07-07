@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPLibrary2.getItemInfo
 title: IWMPLibrary2::getItemInfo (wmp.h)
-description: The getItemInfo method retrieves the value of the LibraryID attribute.helpviewer_keywords: ["IWMPLibrary2 interface [Windows Media Player]","getItemInfo method","IWMPLibrary2.getItemInfo","IWMPLibrary2::getItemInfo","getItemInfo","getItemInfo method [Windows Media Player]","getItemInfo method [Windows Media Player]","IWMPLibrary2 interface","wmp.iwmplibrary2_getiteminfo","wmp/IWMPLibrary2::getItemInfo"]
+description: The getItemInfo method retrieves the value of the LibraryID attribute.
+helpviewer_keywords: ["IWMPLibrary2 interface [Windows Media Player]","getItemInfo method","IWMPLibrary2.getItemInfo","IWMPLibrary2::getItemInfo","getItemInfo","getItemInfo method [Windows Media Player]","getItemInfo method [Windows Media Player]","IWMPLibrary2 interface","wmp.iwmplibrary2_getiteminfo","wmp/IWMPLibrary2::getItemInfo"]
 old-location: wmp\iwmplibrary2_getiteminfo.htm
 tech.root: WMP
 ms.assetid: 38de9e72-b942-4c09-be9e-ff9f345c778d

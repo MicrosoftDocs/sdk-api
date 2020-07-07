@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmReleaseDestInfo
 title: RtmReleaseDestInfo function (rtmv2.h)
-description: The RtmReleaseDestInfo function releases a destination structure.helpviewer_keywords: ["RtmReleaseDestInfo","RtmReleaseDestInfo function [RAS]","_rtmv2ref_rtmreleasedestinfo","rras.rtmreleasedestinfo","rtmv2/RtmReleaseDestInfo"]
+description: The RtmReleaseDestInfo function releases a destination structure.
+helpviewer_keywords: ["RtmReleaseDestInfo","RtmReleaseDestInfo function [RAS]","_rtmv2ref_rtmreleasedestinfo","rras.rtmreleasedestinfo","rtmv2/RtmReleaseDestInfo"]
 old-location: rras\rtmreleasedestinfo.htm
 tech.root: RRAS
 ms.assetid: 43992abd-7e52-4d1b-b693-f437f5ba77cb

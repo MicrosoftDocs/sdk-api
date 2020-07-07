@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncSessionState2.GetSessionErrorStatus
 title: ISyncSessionState2::GetSessionErrorStatus (winsync.h)
-description: Gets the error value that indicates why the synchronization session failed.helpviewer_keywords: ["GetSessionErrorStatus","GetSessionErrorStatus method [Windows Sync]","GetSessionErrorStatus method [Windows Sync]","ISyncSessionState2 interface","ISyncSessionState2 interface [Windows Sync]","GetSessionErrorStatus method","ISyncSessionState2.GetSessionErrorStatus","ISyncSessionState2::GetSessionErrorStatus","winsync.isyncsessionstate2_getsessionerrorstatus","winsync/ISyncSessionState2::GetSessionErrorStatus"]
+description: Gets the error value that indicates why the synchronization session failed.
+helpviewer_keywords: ["GetSessionErrorStatus","GetSessionErrorStatus method [Windows Sync]","GetSessionErrorStatus method [Windows Sync]","ISyncSessionState2 interface","ISyncSessionState2 interface [Windows Sync]","GetSessionErrorStatus method","ISyncSessionState2.GetSessionErrorStatus","ISyncSessionState2::GetSessionErrorStatus","winsync.isyncsessionstate2_getsessionerrorstatus","winsync/ISyncSessionState2::GetSessionErrorStatus"]
 old-location: winsync\isyncsessionstate2_getsessionerrorstatus.htm
 tech.root: winsync
 ms.assetid: 74b263c0-ef6a-4159-9ea2-301b7064331d

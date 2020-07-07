@@ -1,7 +1,8 @@
 ---
 UID: NS:lmdfs._DFS_INFO_7
 title: DFS_INFO_7 (lmdfs.h)
-description: Contains information about a DFS namespace. This structure contains the version GUID for the metadata for the namespace.helpviewer_keywords: ["*LPDFS_INFO_7","*PDFS_INFO_7","DFS_INFO_7","DFS_INFO_7 structure [Distributed File System]","LPDFS_INFO_7","LPDFS_INFO_7 structure pointer [Distributed File System]","PDFS_INFO_7","PDFS_INFO_7 structure pointer [Distributed File System]","dfs.dfs_info_7","fs.dfs_info_7","lmdfs/DFS_INFO_7","lmdfs/LPDFS_INFO_7","lmdfs/PDFS_INFO_7","netmgmt.dfs_info_7"]
+description: Contains information about a DFS namespace. This structure contains the version GUID for the metadata for the namespace.
+helpviewer_keywords: ["*LPDFS_INFO_7","*PDFS_INFO_7","DFS_INFO_7","DFS_INFO_7 structure [Distributed File System]","LPDFS_INFO_7","LPDFS_INFO_7 structure pointer [Distributed File System]","PDFS_INFO_7","PDFS_INFO_7 structure pointer [Distributed File System]","dfs.dfs_info_7","fs.dfs_info_7","lmdfs/DFS_INFO_7","lmdfs/LPDFS_INFO_7","lmdfs/PDFS_INFO_7","netmgmt.dfs_info_7"]
 old-location: dfs\dfs_info_7.htm
 tech.root: Dfs
 ms.assetid: 03bcd93d-e3ec-49aa-be6c-399922f67c28

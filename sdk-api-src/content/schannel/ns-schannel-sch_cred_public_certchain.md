@@ -1,7 +1,8 @@
 ---
 UID: NS:schannel._SCH_CRED_PUBLIC_CERTCHAIN
 title: SCH_CRED_PUBLIC_CERTCHAIN (schannel.h)
-description: The SCH_CRED_PUBLIC_CERTCHAIN structure contains a single certificate. A certification chain can be built from this certificate.helpviewer_keywords: ["*PSCH_CRED_PUBLIC_CERTCHAIN","PSCH_CRED_PUBLIC_CERTCHAIN","PSCH_CRED_PUBLIC_CERTCHAIN structure pointer [Security]","SCH_CRED_PUBLIC_CERTCHAIN","SCH_CRED_PUBLIC_CERTCHAIN structure [Security]","_ssp_sch_cred_public_certchain","schannel/PSCH_CRED_PUBLIC_CERTCHAIN","schannel/SCH_CRED_PUBLIC_CERTCHAIN","security.sch_cred_public_certchain"]
+description: The SCH_CRED_PUBLIC_CERTCHAIN structure contains a single certificate. A certification chain can be built from this certificate.
+helpviewer_keywords: ["*PSCH_CRED_PUBLIC_CERTCHAIN","PSCH_CRED_PUBLIC_CERTCHAIN","PSCH_CRED_PUBLIC_CERTCHAIN structure pointer [Security]","SCH_CRED_PUBLIC_CERTCHAIN","SCH_CRED_PUBLIC_CERTCHAIN structure [Security]","_ssp_sch_cred_public_certchain","schannel/PSCH_CRED_PUBLIC_CERTCHAIN","schannel/SCH_CRED_PUBLIC_CERTCHAIN","security.sch_cred_public_certchain"]
 old-location: security\sch_cred_public_certchain.htm
 tech.root: SecAuthN
 ms.assetid: b6019f43-df94-4d30-9acf-a94772901e6e
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[The <b>SCH_CRED_PUBLIC_CERTCHAIN</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="https://docs.microsoft.com/windows/desktop/api/schannel/ns-schannel-schannel_cred">SCHANNEL_CRED</a> structure.]
+<p class="CCE_Message">[The <b>SCH_CRED_PUBLIC_CERTCHAIN</b> structure is available for use in the operating systems specified in the Requirements section. It may be altered or unavailable in subsequent versions. Instead, use the <a href="../schannel/ns-schannel-sch_credentials.md">SCH_CREDENTIALS</a> structure.]
 
 The <b>SCH_CRED_PUBLIC_CERTCHAIN</b> structure contains a single certificate. A certification chain can be built from this certificate.
 

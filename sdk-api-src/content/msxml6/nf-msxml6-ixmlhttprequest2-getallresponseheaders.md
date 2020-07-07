@@ -1,7 +1,8 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.GetAllResponseHeaders
 title: IXMLHTTPRequest2::GetAllResponseHeaders (msxml6.h)
-description: Retrieves the values of all the HTTP response headers.helpviewer_keywords: ["GetAllResponseHeaders","GetAllResponseHeaders method [XMLHttpRequest2]","GetAllResponseHeaders method [XMLHttpRequest2]","IXMLHTTPRequest2 interface","IXMLHTTPRequest2 interface [XMLHttpRequest2]","GetAllResponseHeaders method","IXMLHTTPRequest2.GetAllResponseHeaders","IXMLHTTPRequest2::GetAllResponseHeaders","ixhr2.ixmlhttprequest2_getallresponseheaders","msxml6/IXMLHTTPRequest2::GetAllResponseHeaders"]
+description: Retrieves the values of all the HTTP response headers.
+helpviewer_keywords: ["GetAllResponseHeaders","GetAllResponseHeaders method [XMLHttpRequest2]","GetAllResponseHeaders method [XMLHttpRequest2]","IXMLHTTPRequest2 interface","IXMLHTTPRequest2 interface [XMLHttpRequest2]","GetAllResponseHeaders method","IXMLHTTPRequest2.GetAllResponseHeaders","IXMLHTTPRequest2::GetAllResponseHeaders","ixhr2.ixmlhttprequest2_getallresponseheaders","msxml6/IXMLHTTPRequest2::GetAllResponseHeaders"]
 old-location: ixhr2\ixmlhttprequest2_getallresponseheaders.htm
 tech.root: ixhr2
 ms.assetid: 6452812B-0E0F-4140-8E3C-25592A9C6C48

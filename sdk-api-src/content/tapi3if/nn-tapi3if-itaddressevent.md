@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITAddressEvent
 title: ITAddressEvent (tapi3if.h)
-description: The ITAddressEvent interface contains methods that retrieve the description of address events.helpviewer_keywords: ["ITAddressEvent","ITAddressEvent interface [TAPI 2.2]","ITAddressEvent interface [TAPI 2.2]","described","_tapi3_itaddressevent","tapi3.itaddressevent","tapi3if/ITAddressEvent"]
+description: The ITAddressEvent interface contains methods that retrieve the description of address events.
+helpviewer_keywords: ["ITAddressEvent","ITAddressEvent interface [TAPI 2.2]","ITAddressEvent interface [TAPI 2.2]","described","_tapi3_itaddressevent","tapi3.itaddressevent","tapi3if/ITAddressEvent"]
 old-location: tapi3\itaddressevent.htm
 tech.root: Tapi
 ms.assetid: 340d938a-a107-4317-af65-3dca98102767

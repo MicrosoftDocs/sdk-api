@@ -1,7 +1,8 @@
 ---
 UID: NC:msacm.ACMFILTERENUMCBW
 title: ACMFILTERENUMCBW (msacm.h)
-description: The acmFilterEnumCallback function specifies a callback function used with the acmFilterEnum function. The acmFilterEnumCallback name is a placeholder for an application-defined function name.helpviewer_keywords: ["ACMFILTERENUMCB","ACMFILTERENUMCB callback","ACMFILTERENUMCB callback function [Windows Multimedia]","ACMFILTERENUMCBA","ACMFILTERENUMCBW","_win32_acmFilterEnumCallback","acmFilterEnumCallback","msacm/ACMFILTERENUMCB","msacm/ACMFILTERENUMCBA","msacm/ACMFILTERENUMCBW","multimedia.acmfilterenumcallback"]
+description: The acmFilterEnumCallback function specifies a callback function used with the acmFilterEnum function. The acmFilterEnumCallback name is a placeholder for an application-defined function name.
+helpviewer_keywords: ["ACMFILTERENUMCB","ACMFILTERENUMCB callback","ACMFILTERENUMCB callback function [Windows Multimedia]","ACMFILTERENUMCBA","ACMFILTERENUMCBW","_win32_acmFilterEnumCallback","acmFilterEnumCallback","msacm/ACMFILTERENUMCB","msacm/ACMFILTERENUMCBA","msacm/ACMFILTERENUMCBW","multimedia.acmfilterenumcallback"]
 old-location: multimedia\acmfilterenumcallback.htm
 tech.root: Multimedia
 ms.assetid: 8d2eb1eb-97a3-4001-bec0-7bb9b107d38e
@@ -69,7 +70,7 @@ Handle to the ACM driver identifier.
 
 ### -param pafd
 
-Pointer to an [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails)a> structure that contains the enumerated filter details for a filter tag.
+Pointer to an [ACMFILTERDETAILS](/windows/win32/api/msacm/nf-msacm-acmfilterdetails) structure that contains the enumerated filter details for a filter tag.
 
 
 ### -param dwInstance
@@ -79,7 +80,7 @@ Application-defined value specified in <a href="https://docs.microsoft.com/windo
 
 ### -param fdwSupport
 
-Driver-support flags specific to the driver identified by [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure, but they are specific to the filter that is being enumerated. This parameter can be a combination of the following values and identifies which operations the driver supports for the filter tag.
+Driver-support flags specific to the driver identified by [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure, but they are specific to the filter that is being enumerated. This parameter can be a combination of the following values and identifies which operations the driver supports for the filter tag.
 
 <table>
 <tr>
@@ -131,6 +132,10 @@ The following functions should not be called from within the callback function: 
 
 
 
+
+
+> [!NOTE]
+> The msacm.h header defines ACMFILTERENUMCB as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

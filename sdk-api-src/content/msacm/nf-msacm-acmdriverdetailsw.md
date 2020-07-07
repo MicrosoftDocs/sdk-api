@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmDriverDetailsW
 title: acmDriverDetailsW function (msacm.h)
-description: The acmDriverDetails function queries a specified ACM driver to determine its capabilities.helpviewer_keywords: ["_win32_acmDriverDetails","acmDriverDetails","acmDriverDetails function [Windows Multimedia]","acmDriverDetailsA","acmDriverDetailsW","msacm/acmDriverDetails","msacm/acmDriverDetailsA","msacm/acmDriverDetailsW","multimedia.acmdriverdetails"]
+description: The acmDriverDetails function queries a specified ACM driver to determine its capabilities.
+helpviewer_keywords: ["_win32_acmDriverDetails","acmDriverDetails","acmDriverDetails function [Windows Multimedia]","acmDriverDetailsA","acmDriverDetailsW","msacm/acmDriverDetails","msacm/acmDriverDetailsA","msacm/acmDriverDetailsW","multimedia.acmdriverdetails"]
 old-location: multimedia\acmdriverdetails.htm
 tech.root: Multimedia
 ms.assetid: f8fcce73-1cac-463d-8e2d-1372d6b64614
@@ -70,7 +71,7 @@ Handle to the driver identifier of an installed ACM driver. Disabled drivers can
 
 ### -param padd
 
-Pointer to an [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure that will receive the driver details. The <b>cbStruct</b> member must be initialized to the size, in bytes, of the structure.
+Pointer to an [ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure that will receive the driver details. The <b>cbStruct</b> member must be initialized to the size, in bytes, of the structure.
 
 
 ### -param fdwDetails
@@ -141,4 +142,9 @@ At least one parameter is invalid.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The msacm.h header defines ACMDRIVERDETAILS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

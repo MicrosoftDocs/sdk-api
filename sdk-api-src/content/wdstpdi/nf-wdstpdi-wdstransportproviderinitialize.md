@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderInitialize
 title: WdsTransportProviderInitialize function (wdstpdi.h)
-description: Initializes a content provider.helpviewer_keywords: ["WdsTransportProviderInitialize","WdsTransportProviderInitialize callback","WdsTransportProviderInitialize callback function [Windows Deployment Services]","wds.wdstransportproviderinitialize","wdstpdi/WdsTransportProviderInitialize"]
+description: Initializes a content provider.
+helpviewer_keywords: ["WdsTransportProviderInitialize","WdsTransportProviderInitialize callback","WdsTransportProviderInitialize callback function [Windows Deployment Services]","wds.wdstransportproviderinitialize","wdstpdi/WdsTransportProviderInitialize"]
 old-location: wds\wdstransportproviderinitialize.htm
 tech.root: wds
 ms.assetid: b7592e8d-6d7d-426a-8520-7b9cc5810d5a

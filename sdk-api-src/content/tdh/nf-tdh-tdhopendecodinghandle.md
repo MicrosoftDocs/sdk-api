@@ -1,7 +1,8 @@
 ---
 UID: NF:tdh.TdhOpenDecodingHandle
 title: TdhOpenDecodingHandle function (tdh.h)
-description: Opens a decoding handle.helpviewer_keywords: ["TdhOpenDecodingHandle","TdhOpenDecodingHandle function [ETW]","etw.tdhopendecodinghandle","tdh/TdhOpenDecodingHandle"]
+description: Opens a decoding handle.
+helpviewer_keywords: ["TdhOpenDecodingHandle","TdhOpenDecodingHandle function [ETW]","etw.tdhopendecodinghandle","tdh/TdhOpenDecodingHandle"]
 old-location: etw\tdhopendecodinghandle.htm
 tech.root: ETW
 ms.assetid: ea437d31-a688-4602-8453-f891e83af9ea

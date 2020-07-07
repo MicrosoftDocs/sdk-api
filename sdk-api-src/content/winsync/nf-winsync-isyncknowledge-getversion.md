@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge.GetVersion
 title: ISyncKnowledge::GetVersion (winsync.h)
-description: Gets the version of this knowledge structure.helpviewer_keywords: ["GetVersion","GetVersion method [Windows Sync]","GetVersion method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","GetVersion method","ISyncKnowledge.GetVersion","ISyncKnowledge::GetVersion","winsync.isyncknowledge_getversion","winsync/ISyncKnowledge::GetVersion"]
+description: Gets the version of this knowledge structure.
+helpviewer_keywords: ["GetVersion","GetVersion method [Windows Sync]","GetVersion method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","GetVersion method","ISyncKnowledge.GetVersion","ISyncKnowledge::GetVersion","winsync.isyncknowledge_getversion","winsync/ISyncKnowledge::GetVersion"]
 old-location: winsync\isyncknowledge_getversion.htm
 tech.root: winsync
 ms.assetid: b54114f1-aa54-493d-b449-0b9161004ffa
@@ -59,7 +60,7 @@ Gets the version of this knowledge structure.
 
 ### -param pdwVersion [out]
 
-Returns the version of this knowledge structure. is one of the values in the <a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SYNC_SERIALIZATION_VERSION</a> enumeration.
+Returns the version of this knowledge structure. is one of the values in the <a href="/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SYNC_SERIALIZATION_VERSION</a> enumeration.
 
 
 ## -returns
@@ -119,7 +120,7 @@ This value is the version of the knowledge structure itself. When the internal k
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SYNC_SERIALIZATION_VERSION Enumeration</a>
+<a href="/windows/win32/api/winsync/ne-winsync-sync_serialization_version">SYNC_SERIALIZATION_VERSION Enumeration</a>
  
 
  

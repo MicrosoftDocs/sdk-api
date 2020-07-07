@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrm.IFsrmCollection.WaitForCompletion
 title: IFsrmCollection::WaitForCompletion (fsrm.h)
-description: Limits the time that an asynchronous collection can take to collect the objects.helpviewer_keywords: ["IFsrmCollection interface [File Server Resource Manager]","WaitForCompletion method","IFsrmCollection.WaitForCompletion","IFsrmCollection::WaitForCompletion","WaitForCompletion","WaitForCompletion method [File Server Resource Manager]","WaitForCompletion method [File Server Resource Manager]","IFsrmCollection interface","fs.ifsrmcollection_waitforcompletion","fsrm.ifsrmcollection_waitforcompletion","fsrm/IFsrmCollection::WaitForCompletion"]
+description: Limits the time that an asynchronous collection can take to collect the objects.
+helpviewer_keywords: ["IFsrmCollection interface [File Server Resource Manager]","WaitForCompletion method","IFsrmCollection.WaitForCompletion","IFsrmCollection::WaitForCompletion","WaitForCompletion","WaitForCompletion method [File Server Resource Manager]","WaitForCompletion method [File Server Resource Manager]","IFsrmCollection interface","fs.ifsrmcollection_waitforcompletion","fsrm.ifsrmcollection_waitforcompletion","fsrm/IFsrmCollection::WaitForCompletion"]
 old-location: fsrm\ifsrmcollection_waitforcompletion.htm
 tech.root: fsrm
 ms.assetid: 83b9feb5-5f10-4c27-be3e-b267a0356aa2

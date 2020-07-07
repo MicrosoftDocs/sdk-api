@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITTAPIObjectEvent.get_Event
 title: ITTAPIObjectEvent::get_Event (tapi3if.h)
-description: The get_Event method gets information concerning an asynchronous event notification. The application uses TAPIOBJECT_EVENT to determine what type of event is being signaled.helpviewer_keywords: ["ITTAPIObjectEvent interface [TAPI 2.2]","get_Event method","ITTAPIObjectEvent.get_Event","ITTAPIObjectEvent::get_Event","_tapi3_ittapiobjectevent_get_event","get_Event","get_Event method [TAPI 2.2]","get_Event method [TAPI 2.2]","ITTAPIObjectEvent interface","tapi3.ittapiobjectevent_get_event","tapi3if/ITTAPIObjectEvent::get_Event"]
+description: The get_Event method gets information concerning an asynchronous event notification. The application uses TAPIOBJECT_EVENT to determine what type of event is being signaled.
+helpviewer_keywords: ["ITTAPIObjectEvent interface [TAPI 2.2]","get_Event method","ITTAPIObjectEvent.get_Event","ITTAPIObjectEvent::get_Event","_tapi3_ittapiobjectevent_get_event","get_Event","get_Event method [TAPI 2.2]","get_Event method [TAPI 2.2]","ITTAPIObjectEvent interface","tapi3.ittapiobjectevent_get_event","tapi3if/ITTAPIObjectEvent::get_Event"]
 old-location: tapi3\ittapiobjectevent_get_event.htm
 tech.root: Tapi
 ms.assetid: 5ae4362f-6987-461e-928f-9478e37e0380

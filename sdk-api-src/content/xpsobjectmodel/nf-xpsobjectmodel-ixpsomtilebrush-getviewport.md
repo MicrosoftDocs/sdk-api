@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMTileBrush.GetViewport
 title: IXpsOMTileBrush::GetViewport (xpsobjectmodel.h)
-description: Gets the portion of the destination geometry that is covered by a single tile.helpviewer_keywords: ["GetViewport","GetViewport method [XPS Documents and Packaging]","GetViewport method [XPS Documents and Packaging]","IXpsOMTileBrush interface","IXpsOMTileBrush interface [XPS Documents and Packaging]","GetViewport method","IXpsOMTileBrush.GetViewport","IXpsOMTileBrush::GetViewport","xps.ixpsomtilebrush_getviewport","xpsobjectmodel/IXpsOMTileBrush::GetViewport"]
+description: Gets the portion of the destination geometry that is covered by a single tile.
+helpviewer_keywords: ["GetViewport","GetViewport method [XPS Documents and Packaging]","GetViewport method [XPS Documents and Packaging]","IXpsOMTileBrush interface","IXpsOMTileBrush interface [XPS Documents and Packaging]","GetViewport method","IXpsOMTileBrush.GetViewport","IXpsOMTileBrush::GetViewport","xps.ixpsomtilebrush_getviewport","xpsobjectmodel/IXpsOMTileBrush::GetViewport"]
 old-location: xps\ixpsomtilebrush_getviewport.htm
 tech.root: printdocs
 ms.assetid: 98da8f16-2bfa-45f6-9de1-417e7fb5d1dc
@@ -59,7 +60,7 @@ Gets the portion of  the destination geometry that is covered by a single tile.
 
 ### -param viewport [out, retval]
 
-The <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that describes the portion of the destination geometry  that is covered by a single tile.
+The <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a> structure that describes the portion of the destination geometry  that is covered by a single tile.
 
 
 ## -returns
@@ -124,7 +125,7 @@ The viewport is the portion of the output area where the first tile is drawn. In
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_rect">XPS_RECT</a>
  
 
  

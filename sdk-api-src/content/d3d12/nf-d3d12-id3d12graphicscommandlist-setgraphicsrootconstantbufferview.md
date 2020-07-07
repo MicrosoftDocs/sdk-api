@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView
 title: ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView (d3d12.h)
-description: Sets a CPU descriptor handle for the constant buffer in the graphics root signature.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetGraphicsRootConstantBufferView method","ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView","ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView","SetGraphicsRootConstantBufferView","SetGraphicsRootConstantBufferView method","SetGraphicsRootConstantBufferView method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView","direct3d12.id3d12graphicscommandlist_setgraphicsrootconstantbufferview"]
+description: Sets a CPU descriptor handle for the constant buffer in the graphics root signature.
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","SetGraphicsRootConstantBufferView method","ID3D12GraphicsCommandList.SetGraphicsRootConstantBufferView","ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView","SetGraphicsRootConstantBufferView","SetGraphicsRootConstantBufferView method","SetGraphicsRootConstantBufferView method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::SetGraphicsRootConstantBufferView","direct3d12.id3d12graphicscommandlist_setgraphicsrootconstantbufferview"]
 old-location: direct3d12\id3d12graphicscommandlist_setgraphicsrootconstantbufferview.htm
 tech.root: direct3d12
 ms.assetid: 59F6E33A-9BD8-4ED3-8CA7-235E2A0C2686

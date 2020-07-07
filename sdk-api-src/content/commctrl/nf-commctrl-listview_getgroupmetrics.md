@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetGroupMetrics
 title: ListView_GetGroupMetrics macro (commctrl.h)
-description: Gets information about the display of groups. You can use this macro or send the LVM_GETGROUPMETRICS message explicitly.helpviewer_keywords: ["ListView_GetGroupMetrics","ListView_GetGroupMetrics macro [Windows Controls]","_win32_ListView_GetGroupMetrics","_win32_ListView_GetGroupMetrics_cpp","commctrl/ListView_GetGroupMetrics","controls.ListView_GetGroupMetrics","controls._win32_ListView_GetGroupMetrics"]
+description: Gets information about the display of groups. You can use this macro or send the LVM_GETGROUPMETRICS message explicitly.
+helpviewer_keywords: ["ListView_GetGroupMetrics","ListView_GetGroupMetrics macro [Windows Controls]","_win32_ListView_GetGroupMetrics","_win32_ListView_GetGroupMetrics_cpp","commctrl/ListView_GetGroupMetrics","controls.ListView_GetGroupMetrics","controls._win32_ListView_GetGroupMetrics"]
 old-location: controls\ListView_GetGroupMetrics.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupmetrics.htm

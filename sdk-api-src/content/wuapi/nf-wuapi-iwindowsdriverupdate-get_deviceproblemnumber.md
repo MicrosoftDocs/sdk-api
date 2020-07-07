@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IWindowsDriverUpdate.get_DeviceProblemNumber
 title: IWindowsDriverUpdate::get_DeviceProblemNumber (wuapi.h)
-description: Gets the problem number of the matching device for the Windows driver update.helpviewer_keywords: ["DeviceProblemNumber property [Windows Update Agent]","DeviceProblemNumber property [Windows Update Agent]","IWindowsDriverUpdate interface","IWindowsDriverUpdate interface [Windows Update Agent]","DeviceProblemNumber property","IWindowsDriverUpdate.DeviceProblemNumber","IWindowsDriverUpdate.get_DeviceProblemNumber","IWindowsDriverUpdate::DeviceProblemNumber","IWindowsDriverUpdate::get_DeviceProblemNumber","get_DeviceProblemNumber","wua.iwindowsdriverupdate_deviceproblemnumber","wuapi/IWindowsDriverUpdate::DeviceProblemNumber","wuapi/IWindowsDriverUpdate::get_DeviceProblemNumber"]
+description: Gets the problem number of the matching device for the Windows driver update.
+helpviewer_keywords: ["DeviceProblemNumber property [Windows Update Agent]","DeviceProblemNumber property [Windows Update Agent]","IWindowsDriverUpdate interface","IWindowsDriverUpdate interface [Windows Update Agent]","DeviceProblemNumber property","IWindowsDriverUpdate.DeviceProblemNumber","IWindowsDriverUpdate.get_DeviceProblemNumber","IWindowsDriverUpdate::DeviceProblemNumber","IWindowsDriverUpdate::get_DeviceProblemNumber","get_DeviceProblemNumber","wua.iwindowsdriverupdate_deviceproblemnumber","wuapi/IWindowsDriverUpdate::DeviceProblemNumber","wuapi/IWindowsDriverUpdate::get_DeviceProblemNumber"]
 old-location: wua\iwindowsdriverupdate_deviceproblemnumber.htm
 tech.root: Wua_Sdk
 ms.assetid: eef5a246-ee27-424d-81eb-39f59668d6e5

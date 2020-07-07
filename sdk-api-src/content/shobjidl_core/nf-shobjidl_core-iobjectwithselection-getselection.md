@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IObjectWithSelection.GetSelection
 title: IObjectWithSelection::GetSelection (shobjidl_core.h)
-description: Gets the Shell item array that contains the selected items.helpviewer_keywords: ["GetSelection","GetSelection method [Windows Shell]","GetSelection method [Windows Shell]","IObjectWithSelection interface","IObjectWithSelection interface [Windows Shell]","GetSelection method","IObjectWithSelection.GetSelection","IObjectWithSelection::GetSelection","_shell_IObjectWithSelection_GetSelection","shell.IObjectWithSelection_GetSelection","shobjidl_core/IObjectWithSelection::GetSelection"]
+description: Gets the Shell item array that contains the selected items.
+helpviewer_keywords: ["GetSelection","GetSelection method [Windows Shell]","GetSelection method [Windows Shell]","IObjectWithSelection interface","IObjectWithSelection interface [Windows Shell]","GetSelection method","IObjectWithSelection.GetSelection","IObjectWithSelection::GetSelection","_shell_IObjectWithSelection_GetSelection","shell.IObjectWithSelection_GetSelection","shobjidl_core/IObjectWithSelection::GetSelection"]
 old-location: shell\IObjectWithSelection_GetSelection.htm
 tech.root: shell
 ms.assetid: cc0c2c79-a475-4384-8255-809dc8bdb869

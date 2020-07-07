@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsPrintJobOperations.Pause
 title: IADsPrintJobOperations::Pause (iads.h)
-description: The IADsPrintJobOperations::Pause method halts the processing of the current print job. Call the IADsPrintJobOperations::Resume method to continue the processing.helpviewer_keywords: ["IADsPrintJobOperations interface [ADSI]","Pause method","IADsPrintJobOperations.Pause","IADsPrintJobOperations::Pause","Pause","Pause method [ADSI]","Pause method [ADSI]","IADsPrintJobOperations interface","_ds_iadsprintjoboperations_pause","adsi.iadsprintjoboperations__pause","adsi.iadsprintjoboperations_pause","iads/IADsPrintJobOperations::Pause"]
+description: The IADsPrintJobOperations::Pause method halts the processing of the current print job. Call the IADsPrintJobOperations::Resume method to continue the processing.
+helpviewer_keywords: ["IADsPrintJobOperations interface [ADSI]","Pause method","IADsPrintJobOperations.Pause","IADsPrintJobOperations::Pause","Pause","Pause method [ADSI]","Pause method [ADSI]","IADsPrintJobOperations interface","_ds_iadsprintjoboperations_pause","adsi.iadsprintjoboperations__pause","adsi.iadsprintjoboperations_pause","iads/IADsPrintJobOperations::Pause"]
 old-location: adsi\iadsprintjoboperations_pause.htm
 tech.root: adsi
 ms.assetid: 8e1e5c1b-7a06-4781-9be5-71d170987e24

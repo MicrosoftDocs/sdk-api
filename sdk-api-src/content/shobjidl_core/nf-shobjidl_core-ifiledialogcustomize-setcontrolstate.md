@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetControlState
 title: IFileDialogCustomize::SetControlState (shobjidl_core.h)
-description: Sets the current visibility and enabled states of a given control.helpviewer_keywords: ["IFileDialogCustomize interface [Windows Shell]","SetControlState method","IFileDialogCustomize.SetControlState","IFileDialogCustomize::SetControlState","SetControlState","SetControlState method [Windows Shell]","SetControlState method [Windows Shell]","IFileDialogCustomize interface","shell.IFileDialogCustomize_SetControlState","shell_IFileDialogCustomize_SetControlState","shobjidl_core/IFileDialogCustomize::SetControlState"]
+description: Sets the current visibility and enabled states of a given control.
+helpviewer_keywords: ["IFileDialogCustomize interface [Windows Shell]","SetControlState method","IFileDialogCustomize.SetControlState","IFileDialogCustomize::SetControlState","SetControlState","SetControlState method [Windows Shell]","SetControlState method [Windows Shell]","IFileDialogCustomize interface","shell.IFileDialogCustomize_SetControlState","shell_IFileDialogCustomize_SetControlState","shobjidl_core/IFileDialogCustomize::SetControlState"]
 old-location: shell\IFileDialogCustomize_SetControlState.htm
 tech.root: shell
 ms.assetid: 53b9a65d-2219-45d0-9367-b9ea3e87cd70

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRenderer.PixelToInkSpace
 title: IInkRenderer::PixelToInkSpace (msinkaut.h)
-description: Converts a location in pixel space coordinates to be a location in ink space coordinates.helpviewer_keywords: ["IInkRenderer interface [Tablet PC]","PixelToInkSpace method","IInkRenderer.PixelToInkSpace","IInkRenderer::PixelToInkSpace","PixelToInkSpace","PixelToInkSpace method [Tablet PC]","PixelToInkSpace method [Tablet PC]","IInkRenderer interface","fb881fe0-0be3-4e23-ac50-e421e2dc7845","msinkaut/IInkRenderer::PixelToInkSpace","tablet.inkrenderer_pixeltoinkspace"]
+description: Converts a location in pixel space coordinates to be a location in ink space coordinates.
+helpviewer_keywords: ["IInkRenderer interface [Tablet PC]","PixelToInkSpace method","IInkRenderer.PixelToInkSpace","IInkRenderer::PixelToInkSpace","PixelToInkSpace","PixelToInkSpace method [Tablet PC]","PixelToInkSpace method [Tablet PC]","IInkRenderer interface","fb881fe0-0be3-4e23-ac50-e421e2dc7845","msinkaut/IInkRenderer::PixelToInkSpace","tablet.inkrenderer_pixeltoinkspace"]
 old-location: tablet\inkrenderer_pixeltoinkspace.htm
 tech.root: tablet
 ms.assetid: fb881fe0-0be3-4e23-ac50-e421e2dc7845

@@ -1,7 +1,8 @@
 ---
 UID: NC:fwpmu.FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0
 title: FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 (fwpmu.h)
-description: Is used to add custom behavior to the provider context change notification process.helpviewer_keywords: ["FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0","FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 callback","FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 callback function [Filtering]","fwp.fwpm_provider_context_change_callback0_func","fwpmu/FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0"]
+description: Is used to add custom behavior to the provider context change notification process.
+helpviewer_keywords: ["FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0","FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 callback","FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0 callback function [Filtering]","fwp.fwpm_provider_context_change_callback0_func","fwpmu/FWPM_PROVIDER_CONTEXT_CHANGE_CALLBACK0"]
 old-location: fwp\fwpm_provider_context_change_callback0_func.htm
 tech.root: fwp
 ms.assetid: 21628bab-ee4d-40e8-8042-97d5462c1013
@@ -66,7 +67,7 @@ Optional context pointer. It contains the value of the <i>context</i> parameter 
 
 ### -param *change [in]
 
-Type: [FWPM_PROVIDER_CONTEXT_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_change0)a>*</b>
+Type: [FWPM_PROVIDER_CONTEXT_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_change0)*</b>
 
 The change notification information.
 
@@ -87,7 +88,7 @@ Call <a href="https://docs.microsoft.com/windows/desktop/api/fwpmu/nf-fwpmu-fwpm
 
 
 
-[FWPM_PROVIDER_CONTEXT_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_change0)a>
+[FWPM_PROVIDER_CONTEXT_CHANGE0](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ns-fwpmtypes-fwpm_provider_context_change0)
 
 
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleInPlaceFrame.SetStatusText
 title: IOleInPlaceFrame::SetStatusText (oleidl.h)
-description: Sets and displays status text about the in-place object in the container's frame window status line.helpviewer_keywords: ["IOleInPlaceFrame interface [COM]","SetStatusText method","IOleInPlaceFrame.SetStatusText","IOleInPlaceFrame::SetStatusText","SetStatusText","SetStatusText method [COM]","SetStatusText method [COM]","IOleInPlaceFrame interface","_ole_ioleinplaceframe_setstatustext","com.ioleinplaceframe_setstatustext","oleidl/IOleInPlaceFrame::SetStatusText"]
+description: Sets and displays status text about the in-place object in the container's frame window status line.
+helpviewer_keywords: ["IOleInPlaceFrame interface [COM]","SetStatusText method","IOleInPlaceFrame.SetStatusText","IOleInPlaceFrame::SetStatusText","SetStatusText","SetStatusText method [COM]","SetStatusText method [COM]","IOleInPlaceFrame interface","_ole_ioleinplaceframe_setstatustext","com.ioleinplaceframe_setstatustext","oleidl/IOleInPlaceFrame::SetStatusText"]
 old-location: com\ioleinplaceframe_setstatustext.htm
 tech.root: com
 ms.assetid: e857bdbe-5510-4e35-ba73-d52b239e5b77
@@ -133,7 +134,7 @@ You should call <b>IOleInPlaceFrame::SetStatusText</b> when you need to ask the 
 When switching between menus owned by the container and the in-place active object, the status bar text is not reflected properly if the object does not call the container's <b>IOleInPlaceFrame::SetStatusText</b> method. For example, if, during an in-place session, the user were to select the <b>File</b> menu, the status bar would reflect the action that would occur if the user selected this menu. If the user then selects the <b>Edit</b> menu (which is owned by the in-place object), the status bar text would not change unless the <b>IOleInPlaceFrame::SetStatusText</b> happened to be called. This is because there is no way for the container to recognize that one of the object's menus has been made active because all the messages that the container would trap are now going to the object.
 
 <h3><a id="Notes_to_Implementers"></a><a id="notes_to_implementers"></a><a id="NOTES_TO_IMPLEMENTERS"></a>Notes to Implementers</h3>
-To avoid potential problems, all objects being activated in place should process the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuselect">WM_MENUSELECT</a> message and call <b>IOleInPlaceFrame::SetStatusText</b>â€”even if the object does not usually provide status information (in which case the object can just pass a <b>NULL</b> string for the requested status text).
+To avoid potential problems, all objects being activated in place should process the <a href="https://docs.microsoft.com/windows/desktop/menurc/wm-menuselect">WM_MENUSELECT</a> message and call <b>IOleInPlaceFrame::SetStatusText</b>, even if the object does not usually provide status information (in which case the object can just pass a <b>NULL</b> string for the requested status text).
 
 <div class="alert"><b>Note</b>  While executing <b>IOleInPlaceFrame::SetStatusText</b>, do not make calls to the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a> or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/fax/-mfax-faxaccountincomingarchive-getmessage-vb">GetMessage</a> functions, or a dialog box. Doing so may cause the system to deadlock. There are further restrictions on which OLE interface methods and functions can be called from within <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleinplaceuiwindow-getborder">IOleInPlaceUIWindow::GetBorder</a>.</div>
 <div> </div>
@@ -154,7 +155,3 @@ To avoid potential problems, all objects being activated in place should process
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-peekmessagea">PeekMessage</a>
- 
-
- 
-

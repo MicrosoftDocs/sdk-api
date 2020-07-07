@@ -1,7 +1,8 @@
 ---
 UID: NF:docobj.IContinueCallback.FContinuePrinting
 title: IContinueCallback::FContinuePrinting (docobj.h)
-description: Indicates whether a lengthy printing operation should continue.helpviewer_keywords: ["FContinuePrinting","FContinuePrinting method [COM]","FContinuePrinting method [COM]","IContinueCallback interface","IContinueCallback interface [COM]","FContinuePrinting method","IContinueCallback.FContinuePrinting","IContinueCallback::FContinuePrinting","_com_icontinuecallback_fcontinueprinting","com.icontinuecallback_fcontinueprinting","docobj/IContinueCallback::FContinuePrinting"]
+description: Indicates whether a lengthy printing operation should continue.
+helpviewer_keywords: ["FContinuePrinting","FContinuePrinting method [COM]","FContinuePrinting method [COM]","IContinueCallback interface","IContinueCallback interface [COM]","FContinuePrinting method","IContinueCallback.FContinuePrinting","IContinueCallback::FContinuePrinting","_com_icontinuecallback_fcontinueprinting","com.icontinuecallback_fcontinueprinting","docobj/IContinueCallback::FContinuePrinting"]
 old-location: com\icontinuecallback_fcontinueprinting.htm
 tech.root: com
 ms.assetid: 9031809a-8e5b-48d9-8af9-4a1a07532406

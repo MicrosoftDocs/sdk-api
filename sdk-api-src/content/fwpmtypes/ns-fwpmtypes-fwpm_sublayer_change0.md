@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_SUBLAYER_CHANGE0_
 title: FWPM_SUBLAYER_CHANGE0 (fwpmtypes.h)
-description: Change notification dispatched to subscribers.helpviewer_keywords: ["FWPM_SUBLAYER_CHANGE0","FWPM_SUBLAYER_CHANGE0 structure [Filtering]","fwp.fwpm_sublayer_change0_struct","fwpmtypes/FWPM_SUBLAYER_CHANGE0"]
+description: Change notification dispatched to subscribers.
+helpviewer_keywords: ["FWPM_SUBLAYER_CHANGE0","FWPM_SUBLAYER_CHANGE0 structure [Filtering]","fwp.fwpm_sublayer_change0_struct","fwpmtypes/FWPM_SUBLAYER_CHANGE0"]
 old-location: fwp\fwpm_sublayer_change0_struct.htm
 tech.root: fwp
 ms.assetid: f01593aa-e7b1-42f1-b523-2f9e6d6b631b
@@ -59,7 +60,7 @@ The <b>FWPM_SUBLAYER_CHANGE0</b> structure specifies a change notification dispa
 
 ### -field changeType
 
-Type of change as specified by [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>.
+Type of change as specified by [FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type).
 
 
 ### -field subLayerKey
@@ -81,7 +82,7 @@ GUID of the sublayer that changed.
 
 
 
-[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)a>
+[FWPM_CHANGE_TYPE](https://docs.microsoft.com/windows/desktop/api/fwpmtypes/ne-fwpmtypes-fwpm_change_type)
 
 
 

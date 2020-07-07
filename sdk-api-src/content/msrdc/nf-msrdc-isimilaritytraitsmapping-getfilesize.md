@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.ISimilarityTraitsMapping.GetFileSize
 title: ISimilarityTraitsMapping::GetFileSize (msrdc.h)
-description: Returns the size of a similarity traits table file.helpviewer_keywords: ["GetFileSize","GetFileSize method [Remote Differential Compression]","GetFileSize method [Remote Differential Compression]","ISimilarityTraitsMapping interface","ISimilarityTraitsMapping interface [Remote Differential Compression]","GetFileSize method","ISimilarityTraitsMapping.GetFileSize","ISimilarityTraitsMapping::GetFileSize","fs.isimilaritytraitsmapping_getfilesize","msrdc/ISimilarityTraitsMapping::GetFileSize","rdc.isimilaritytraitsmapping_getfilesize"]
+description: Returns the size of a similarity traits table file.
+helpviewer_keywords: ["GetFileSize","GetFileSize method [Remote Differential Compression]","GetFileSize method [Remote Differential Compression]","ISimilarityTraitsMapping interface","ISimilarityTraitsMapping interface [Remote Differential Compression]","GetFileSize method","ISimilarityTraitsMapping.GetFileSize","ISimilarityTraitsMapping::GetFileSize","fs.isimilaritytraitsmapping_getfilesize","msrdc/ISimilarityTraitsMapping::GetFileSize","rdc.isimilaritytraitsmapping_getfilesize"]
 old-location: rdc\isimilaritytraitsmapping_getfilesize.htm
 tech.root: rdc
 ms.assetid: 920b9c77-ca45-42ff-801f-cbe1ab3eab2c

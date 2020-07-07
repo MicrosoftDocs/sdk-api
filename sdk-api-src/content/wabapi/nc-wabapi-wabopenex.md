@@ -1,7 +1,8 @@
 ---
 UID: NC:wabapi.WABOpenEx
 title: WABOpenEx (wabapi.h)
-description: WABOpenEx is no longer available for use as of Windows Vista.helpviewer_keywords: ["WABOpenEx","WABOpenEx callback","WABOpenEx callback function [Windows Address Book]","_wab_WABOpenEx","wab._wab_WABOpenEx","wabapi/WABOpenEx"]
+description: WABOpenEx is no longer available for use as of Windows Vista.
+helpviewer_keywords: ["WABOpenEx","WABOpenEx callback","WABOpenEx callback function [Windows Address Book]","_wab_WABOpenEx","wab._wab_WABOpenEx","wabapi/WABOpenEx"]
 old-location: wab\_wab_WABOpenEx.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\functions\wabopenex.htm

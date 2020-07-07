@@ -1,7 +1,8 @@
 ---
 UID: NF:tssbx.IWTSSBPlugin.WTSSBX_GetUserExternalSession
 title: IWTSSBPlugin::WTSSBX_GetUserExternalSession (tssbx.h)
-description: Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a WTSSBX_MACHINE_CONNECT_INFO structure that contains information about the resource.helpviewer_keywords: ["IWTSSBPlugin interface [Remote Desktop Services]","WTSSBX_GetUserExternalSession method","IWTSSBPlugin.WTSSBX_GetUserExternalSession","IWTSSBPlugin::WTSSBX_GetUserExternalSession","WTSSBX_GetUserExternalSession","WTSSBX_GetUserExternalSession method [Remote Desktop Services]","WTSSBX_GetUserExternalSession method [Remote Desktop Services]","IWTSSBPlugin interface","termserv.iwtssbplugin_wtssbx_getuserexternalsession","tssbx/IWTSSBPlugin::WTSSBX_GetUserExternalSession"]
+description: Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a WTSSBX_MACHINE_CONNECT_INFO structure that contains information about the resource.
+helpviewer_keywords: ["IWTSSBPlugin interface [Remote Desktop Services]","WTSSBX_GetUserExternalSession method","IWTSSBPlugin.WTSSBX_GetUserExternalSession","IWTSSBPlugin::WTSSBX_GetUserExternalSession","WTSSBX_GetUserExternalSession","WTSSBX_GetUserExternalSession method [Remote Desktop Services]","WTSSBX_GetUserExternalSession method [Remote Desktop Services]","IWTSSBPlugin interface","termserv.iwtssbplugin_wtssbx_getuserexternalsession","tssbx/IWTSSBPlugin::WTSSBX_GetUserExternalSession"]
 old-location: termserv\iwtssbplugin_wtssbx_getuserexternalsession.htm
 tech.root: TermServ
 ms.assetid: 989cd7bc-932f-4a33-91c8-e66fac7195ad
@@ -53,7 +54,7 @@ ms.custom: 19H1
     not supported  after Windows Server 2008 R2. Starting with Windows Server 2012 please use the 
     <a href="https://docs.microsoft.com/windows/desktop/api/sbtsv/nn-sbtsv-itssbplugin">ITsSbPlugin</a> interface.]
 
-Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_connect_info">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the resource.
+Redirects an incoming connection to a computing resource, such as a virtual machine, a blade server, or even the user's own corporate desktop by providing a <a href="/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_connect_info">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the resource.
 
 
 ## -parameters
@@ -88,7 +89,7 @@ A pointer to the session ID of the session to which the plug-in is redirecting t
 
 ### -param pMachineConnectInfo [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_connect_info">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the computer to which the plug-in  is directing the incoming connection.
+A pointer to a <a href="/windows/win32/api/tssbx/ns-tssbx-wtssbx_machine_connect_info">WTSSBX_MACHINE_CONNECT_INFO</a> structure that contains information about the computer to which the plug-in  is directing the incoming connection.
 
 
 ## -returns

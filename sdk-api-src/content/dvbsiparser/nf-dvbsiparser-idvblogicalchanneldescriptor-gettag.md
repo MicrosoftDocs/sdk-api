@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannelDescriptor.GetTag
 title: IDvbLogicalChannelDescriptor::GetTag (dvbsiparser.h)
-description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.  .helpviewer_keywords: ["GetTag","GetTag method [DirectShow]","GetTag method [DirectShow]","IDvbLogicalChannelDescriptor interface","IDvbLogicalChannelDescriptor interface [DirectShow]","GetTag method","IDvbLogicalChannelDescriptor.GetTag","IDvbLogicalChannelDescriptor::GetTag","IDvbLogicalChannelDescriptorGetTag","dvbsiparser/IDvbLogicalChannelDescriptor::GetTag","mstv.idvblogicalchanneldescriptor_gettag"]
+description: Note  This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.  .
+helpviewer_keywords: ["GetTag","GetTag method [DirectShow]","GetTag method [DirectShow]","IDvbLogicalChannelDescriptor interface","IDvbLogicalChannelDescriptor interface [DirectShow]","GetTag method","IDvbLogicalChannelDescriptor.GetTag","IDvbLogicalChannelDescriptor::GetTag","IDvbLogicalChannelDescriptorGetTag","dvbsiparser/IDvbLogicalChannelDescriptor::GetTag","mstv.idvblogicalchanneldescriptor_gettag"]
 old-location: mstv\idvblogicalchanneldescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: fce4b74e-e7bb-419d-bd5a-849c2d050ee9

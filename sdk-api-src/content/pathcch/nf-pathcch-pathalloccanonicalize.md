@@ -1,7 +1,8 @@
 ---
 UID: NF:pathcch.PathAllocCanonicalize
 title: PathAllocCanonicalize function (pathcch.h)
-description: Converts a path string into a canonical form.This function differs from PathCchCanonicalize and PathCchCanonicalizeEx in that it returns the result on the heap.helpviewer_keywords: ["PATHCCH_ALLOW_LONG_PATHS","PATHCCH_DO_NOT_NORMALIZE_SEGMENTS","PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH","PATHCCH_ENSURE_TRAILING_SLASH","PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS","PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS","PATHCCH_NONE","PathAllocCanonicalize","PathAllocCanonicalize function [Windows Shell]","pathcch/PathAllocCanonicalize","shell.PathAllocCanonicalize"]
+description: Converts a path string into a canonical form.This function differs from PathCchCanonicalize and PathCchCanonicalizeEx in that it returns the result on the heap.
+helpviewer_keywords: ["PATHCCH_ALLOW_LONG_PATHS","PATHCCH_DO_NOT_NORMALIZE_SEGMENTS","PATHCCH_ENSURE_IS_EXTENDED_LENGTH_PATH","PATHCCH_ENSURE_TRAILING_SLASH","PATHCCH_FORCE_DISABLE_LONG_NAME_PROCESS","PATHCCH_FORCE_ENABLE_LONG_NAME_PROCESS","PATHCCH_NONE","PathAllocCanonicalize","PathAllocCanonicalize function [Windows Shell]","pathcch/PathAllocCanonicalize","shell.PathAllocCanonicalize"]
 old-location: shell\PathAllocCanonicalize.htm
 tech.root: shell
 ms.assetid: 3179fe78-a969-4ee2-a50b-5f4f7d4dad71
@@ -47,7 +48,6 @@ ms.custom: 19H1
 
 # PathAllocCanonicalize function
 
-
 ## -description
 
 Converts a path string into a canonical form.
@@ -58,14 +58,11 @@ This function differs from <a href="https://docs.microsoft.com/windows/desktop/a
 
 <div class="alert"><b>Note</b> This function, <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalize">PathCchCanonicalize</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/pathcch/nf-pathcch-pathcchcanonicalizeex">PathCchCanonicalizeEx</a>, should be used in place of <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-pathcanonicalizea">PathCanonicalize</a>.</div>
 
-
 ## -parameters
-
 
 ### -param pszPathIn [in]
 
 A pointer to a buffer that contains the original string. This value cannot be <b>NULL</b>.
-
 
 ### -param dwFlags [in]
 
@@ -151,16 +148,13 @@ One or more of the following flags:
 </tr>
 </table>
 
-
 ### -param ppszPathOut [out]
 
 The address of a pointer to a buffer that, when this function returns successfully, receives the canonicalized path string. It is the responsibility of the caller to free this resource, when it is no longer needed, by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-localfree">LocalFree</a> function. This value cannot be <b>NULL</b>.
 
-
 ## -returns
 
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
-
 
 ## -remarks
 
@@ -171,3 +165,5 @@ This function supports these alternate path forms:
 <li>\\?\\UNC\</li>
 <li>\\?\Volume{guid}\</li>
 </ul>
+
+This function does not convert forward slashes (`/`) into back slashes (`\`). With untrusted input, this function by itself, cannot be used to convert paths into a form that can be compared with other paths for sub-path or identity. Callers that need that ability should convert forward to back slashes before using this function.

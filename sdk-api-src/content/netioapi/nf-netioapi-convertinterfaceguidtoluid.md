@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.ConvertInterfaceGuidToLuid
 title: ConvertInterfaceGuidToLuid function (netioapi.h)
-description: Converts a globally unique identifier (GUID) for a network interface to the locally unique identifier (LUID) for the interface.helpviewer_keywords: ["ConvertInterfaceGuidToLuid","ConvertInterfaceGuidToLuid function [IP Helper]","iphlp.convertinterfaceguidtoluid","netioapi/ConvertInterfaceGuidToLuid"]
+description: Converts a globally unique identifier (GUID) for a network interface to the locally unique identifier (LUID) for the interface.
+helpviewer_keywords: ["ConvertInterfaceGuidToLuid","ConvertInterfaceGuidToLuid function [IP Helper]","iphlp.convertinterfaceguidtoluid","netioapi/ConvertInterfaceGuidToLuid"]
 old-location: iphlp\convertinterfaceguidtoluid.htm
 tech.root: IpHlp
 ms.assetid: cae669dc-899b-4485-b70a-5f58207a07df

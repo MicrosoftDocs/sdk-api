@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_OperationOptions_EnableChannel
 title: MI_OperationOptions_EnableChannel function (mi.h)
-description: Uses MI_Context_WriteMessage to enable logging to the specified channel.helpviewer_keywords: ["MI_OperationOptions_EnableChannel","MI_OperationOptions_EnableChannel function [Windows Management Infrastructure (MI)]","MI_WRITEMESSAGE_CHANNEL_DEBUG","MI_WRITEMESSAGE_CHANNEL_VERBOSE","MI_WRITEMESSAGE_CHANNEL_WARNING","mi/MI_OperationOptions_EnableChannel","wmi_v2.mi_operationoptions_enablechannel"]
+description: Uses MI_Context_WriteMessage to enable logging to the specified channel.
+helpviewer_keywords: ["MI_OperationOptions_EnableChannel","MI_OperationOptions_EnableChannel function [Windows Management Infrastructure (MI)]","MI_WRITEMESSAGE_CHANNEL_DEBUG","MI_WRITEMESSAGE_CHANNEL_VERBOSE","MI_WRITEMESSAGE_CHANNEL_WARNING","mi/MI_OperationOptions_EnableChannel","wmi_v2.mi_operationoptions_enablechannel"]
 old-location: wmi_v2\mi_operationoptions_enablechannel.htm
 tech.root: wmi_v2
 ms.assetid: 1ccd296d-c15e-476b-80a2-bdec2b38c7c2

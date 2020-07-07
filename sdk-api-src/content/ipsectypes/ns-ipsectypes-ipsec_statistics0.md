@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_STATISTICS0_
 title: IPSEC_STATISTICS0 (ipsectypes.h)
-description: Is the top-level of the IPsec statistics structures.helpviewer_keywords: ["IPSEC_STATISTICS0","IPSEC_STATISTICS0 structure [Filtering]","fwp.ipsec_statistics0_struct","ipsectypes/IPSEC_STATISTICS0"]
+description: Is the top-level of the IPsec statistics structures.
+helpviewer_keywords: ["IPSEC_STATISTICS0","IPSEC_STATISTICS0 structure [Filtering]","fwp.ipsec_statistics0_struct","ipsectypes/IPSEC_STATISTICS0"]
 old-location: fwp\ipsec_statistics0_struct.htm
 tech.root: fwp
 ms.assetid: 05873d6d-9e0c-4d3e-9b4d-7831e29e2942
@@ -50,7 +51,7 @@ ms.custom: 19H1
 
 
 The <b>IPSEC_STATISTICS0</b> structure is the  top-level of the IPsec statistics structures.
-[IPSEC_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics1)a> is available.</div><div> </div>
+[IPSEC_STATISTICS1](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_statistics1) is available.</div><div> </div>
 
 ## -struct-fields
 
@@ -60,37 +61,37 @@ The <b>IPSEC_STATISTICS0</b> structure is the  top-level of the IPsec statistics
 ### -field aggregateSaStatistics
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_sa_statistics0">IPSEC_AGGREGATE_SA_STATISTICS0</a> structure containing IPsec aggregate SA statistics.
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_sa_statistics0">IPSEC_AGGREGATE_SA_STATISTICS0</a> structure containing IPsec aggregate SA statistics.
 
 
 ### -field espDropPacketStatistics
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_esp_drop_packet_statistics0">IPSEC_ESP_DROP_PACKET_STATISTICS0</a> structure containing IPsec ESP drop packet statistics.
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_esp_drop_packet_statistics0">IPSEC_ESP_DROP_PACKET_STATISTICS0</a> structure containing IPsec ESP drop packet statistics.
 
 
 ### -field ahDropPacketStatistics
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_ah_drop_packet_statistics0">IPSEC_AH_DROP_PACKET_STATISTICS0</a> structure containing IPsec AH drop packet statistics.
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_ah_drop_packet_statistics0">IPSEC_AH_DROP_PACKET_STATISTICS0</a> structure containing IPsec AH drop packet statistics.
 
 
 ### -field aggregateDropPacketStatistics
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_drop_packet_statistics0">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0</a> structure containing IPsec aggregate drop packet statistics.
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_drop_packet_statistics0">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0</a> structure containing IPsec aggregate drop packet statistics.
 
 
 ### -field inboundTrafficStatistics
 
 
-[IPSEC_TRAFFIC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics0)a> structure containing IPsec inbound traffic statistics.
+[IPSEC_TRAFFIC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics0) structure containing IPsec inbound traffic statistics.
 
 
 ### -field outboundTrafficStatistics
 
 
-[IPSEC_TRAFFIC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics0)a> structure containing IPsec outbound traffic statistics.
+[IPSEC_TRAFFIC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics0) structure containing IPsec outbound traffic statistics.
 
 
 ## -see-also
@@ -98,23 +99,23 @@ The <b>IPSEC_STATISTICS0</b> structure is the  top-level of the IPsec statistics
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_drop_packet_statistics0">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0</a>
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_drop_packet_statistics0">IPSEC_AGGREGATE_DROP_PACKET_STATISTICS0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_sa_statistics0">IPSEC_AGGREGATE_SA_STATISTICS0</a>
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_aggregate_sa_statistics0">IPSEC_AGGREGATE_SA_STATISTICS0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_ah_drop_packet_statistics0">IPSEC_AH_DROP_PACKET_STATISTICS0</a>
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_ah_drop_packet_statistics0">IPSEC_AH_DROP_PACKET_STATISTICS0</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_esp_drop_packet_statistics0">IPSEC_ESP_DROP_PACKET_STATISTICS0</a>
+<a href="/windows/win32/api/ipsectypes/ns-ipsectypes-ipsec_esp_drop_packet_statistics0">IPSEC_ESP_DROP_PACKET_STATISTICS0</a>
 
 
 
-[IPSEC_TRAFFIC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics0)a>
+[IPSEC_TRAFFIC_STATISTICS0](https://docs.microsoft.com/windows/desktop/api/ipsectypes/ns-ipsectypes-ipsec_traffic_statistics0)
 
 
 

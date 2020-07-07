@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_SUBJECT_NAME_CERT_CREDENTIAL
 title: WS_SUBJECT_NAME_CERT_CREDENTIAL (webservices.h)
-description: The type for specifying a certificate credential using the certificate's subject name, store location and store name. The specified credential is loaded when the containing channel or listener is opened.helpviewer_keywords: ["WS_SUBJECT_NAME_CERT_CREDENTIAL","WS_SUBJECT_NAME_CERT_CREDENTIAL structure [Web Services for Windows]","webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL","wsw.ws_subject_name_cert_credential"]
+description: The type for specifying a certificate credential using the certificate's subject name, store location and store name. The specified credential is loaded when the containing channel or listener is opened.
+helpviewer_keywords: ["WS_SUBJECT_NAME_CERT_CREDENTIAL","WS_SUBJECT_NAME_CERT_CREDENTIAL structure [Web Services for Windows]","webservices/WS_SUBJECT_NAME_CERT_CREDENTIAL","wsw.ws_subject_name_cert_credential"]
 old-location: wsw\ws_subject_name_cert_credential.htm
 tech.root: wsw
 ms.assetid: d146d12f-4a1a-44b4-9e08-9f660554fcbb

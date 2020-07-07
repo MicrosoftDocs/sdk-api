@@ -1,7 +1,8 @@
 ---
 UID: NN:vds.IVdsPack2
 title: IVdsPack2 (vds.h)
-description: Provides a method to create aligned volumes on a pack.helpviewer_keywords: ["IVdsPack2","IVdsPack2 interface","IVdsPack2 interface","described","base.ivdspack2","vds/IVdsPack2"]
+description: Provides a method to create aligned volumes on a pack.
+helpviewer_keywords: ["IVdsPack2","IVdsPack2 interface","IVdsPack2 interface","described","base.ivdspack2","vds/IVdsPack2"]
 old-location: base\ivdspack2.htm
 tech.root: VDS
 ms.assetid: b0124293-693d-412a-a97f-d0dae05a3bfc

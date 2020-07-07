@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPartResources.GetRemoteDictionaryResources
 title: IXpsOMPartResources::GetRemoteDictionaryResources (xpsobjectmodel.h)
-description: Gets the IXpsOMRemoteDictionaryResourceCollection interface that contains the remote resource dictionaries that are used in the XPS document.helpviewer_keywords: ["GetRemoteDictionaryResources","GetRemoteDictionaryResources method [XPS Documents and Packaging]","GetRemoteDictionaryResources method [XPS Documents and Packaging]","IXpsOMPartResources interface","IXpsOMPartResources interface [XPS Documents and Packaging]","GetRemoteDictionaryResources method","IXpsOMPartResources.GetRemoteDictionaryResources","IXpsOMPartResources::GetRemoteDictionaryResources","xps.ixpsompartresources_getremotedictionaryresources","xpsobjectmodel/IXpsOMPartResources::GetRemoteDictionaryResources"]
+description: Gets the IXpsOMRemoteDictionaryResourceCollection interface that contains the remote resource dictionaries that are used in the XPS document.
+helpviewer_keywords: ["GetRemoteDictionaryResources","GetRemoteDictionaryResources method [XPS Documents and Packaging]","GetRemoteDictionaryResources method [XPS Documents and Packaging]","IXpsOMPartResources interface","IXpsOMPartResources interface [XPS Documents and Packaging]","GetRemoteDictionaryResources method","IXpsOMPartResources.GetRemoteDictionaryResources","IXpsOMPartResources::GetRemoteDictionaryResources","xps.ixpsompartresources_getremotedictionaryresources","xpsobjectmodel/IXpsOMPartResources::GetRemoteDictionaryResources"]
 old-location: xps\ixpsompartresources_getremotedictionaryresources.htm
 tech.root: printdocs
 ms.assetid: cb12fe80-9e94-4797-adf5-a1986512bf57

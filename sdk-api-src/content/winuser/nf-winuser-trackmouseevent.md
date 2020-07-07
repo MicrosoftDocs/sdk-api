@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.TrackMouseEvent
 title: TrackMouseEvent function (winuser.h)
-description: Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time.helpviewer_keywords: ["TrackMouseEvent","TrackMouseEvent function [Keyboard and Mouse Input]","_win32_TrackMouseEvent","_win32_trackmouseevent_cpp","inputdev.trackmouseevent","winui._win32_trackmouseevent","winuser/TrackMouseEvent"]
+description: Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time.
+helpviewer_keywords: ["TrackMouseEvent","TrackMouseEvent function [Keyboard and Mouse Input]","_win32_TrackMouseEvent","_win32_trackmouseevent_cpp","inputdev.trackmouseevent","winui._win32_trackmouseevent","winuser/TrackMouseEvent"]
 old-location: inputdev\trackmouseevent.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\trackmouseevent.htm
@@ -53,7 +54,7 @@ ms.custom: 19H1
 
 
 Posts messages when the mouse pointer leaves a window or hovers over a window for a specified amount of time.
-<div class="alert"><b>Note</b>  The <a href="https://docs.microsoft.com/windows/win32/api/commctrl/nf-commctrl-_trackmouseevent">_TrackMouseEvent</a> function calls <b>TrackMouseEvent</b> if it exists, otherwise <b>_TrackMouseEvent</b> emulates <b>TrackMouseEvent</b>. </div><div> </div>
+<div class="alert"><b>Note</b>  The <a href="/windows/win32/api/commctrl/nf-commctrl-_trackmouseevent">_TrackMouseEvent</a> function calls <b>TrackMouseEvent</b> if it exists, otherwise <b>_TrackMouseEvent</b> emulates <b>TrackMouseEvent</b>. </div><div> </div>
 
 ## -parameters
 
@@ -147,7 +148,7 @@ The function can post the following messages.
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/commctrl/nf-commctrl-_trackmouseevent">_TrackMouseEvent</a>
+<a href="/windows/win32/api/commctrl/nf-commctrl-_trackmouseevent">_TrackMouseEvent</a>
  
 
  

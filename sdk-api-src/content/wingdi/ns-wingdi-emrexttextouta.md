@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMREXTTEXTOUTA
 title: EMREXTTEXTOUTA (wingdi.h)
-description: The EMREXTTEXTOUTA and EMREXTTEXTOUTW structures contain members for the ExtTextOut, TextOut, or DrawText enhanced metafile records.helpviewer_keywords: ["*PEMREXTTEXTOUTA","*PEMREXTTEXTOUTW","EMREXTTEXTOUTA","EMREXTTEXTOUTA structure [Windows GDI]","EMREXTTEXTOUTA","EMREXTTEXTOUTW","EMREXTTEXTOUTA","EMREXTTEXTOUTW structure [Windows GDI]","EMREXTTEXTOUTW","EMREXTTEXTOUTW structure [Windows GDI]","PEMREXTTEXTOUTA","PEMREXTTEXTOUTA structure pointer [Windows GDI]","PEMREXTTEXTOUTW","PEMREXTTEXTOUTW structure pointer [Windows GDI]","_win32_EMREXTTEXTOUTA_str","gdi.emrexttextouta__emrexttextoutw","wingdi/EMREXTTEXTOUTA","EMREXTTEXTOUTW","wingdi/EMREXTTEXTOUTW","wingdi/PEMREXTTEXTOUTA","wingdi/PEMREXTTEXTOUTW"]
+description: The EMREXTTEXTOUTA and EMREXTTEXTOUTW structures contain members for the ExtTextOut, TextOut, or DrawText enhanced metafile records.
+helpviewer_keywords: ["*PEMREXTTEXTOUTA","*PEMREXTTEXTOUTW","EMREXTTEXTOUTA","EMREXTTEXTOUTA structure [Windows GDI]","EMREXTTEXTOUTA","EMREXTTEXTOUTW","EMREXTTEXTOUTA","EMREXTTEXTOUTW structure [Windows GDI]","EMREXTTEXTOUTW","EMREXTTEXTOUTW structure [Windows GDI]","PEMREXTTEXTOUTA","PEMREXTTEXTOUTA structure pointer [Windows GDI]","PEMREXTTEXTOUTW","PEMREXTTEXTOUTW structure pointer [Windows GDI]","_win32_EMREXTTEXTOUTA_str","gdi.emrexttextouta__emrexttextoutw","wingdi/EMREXTTEXTOUTA","EMREXTTEXTOUTW","wingdi/EMREXTTEXTOUTW","wingdi/PEMREXTTEXTOUTA","wingdi/PEMREXTTEXTOUTW"]
 old-location: gdi\emrexttextouta__emrexttextoutw.htm
 tech.root: gdi
 ms.assetid: 1d9b0b32-6a51-481a-9589-3de832d746d7

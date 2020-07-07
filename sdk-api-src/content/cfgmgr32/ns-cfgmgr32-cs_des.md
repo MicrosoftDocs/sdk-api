@@ -1,7 +1,8 @@
 ---
 UID: NS:cfgmgr32.CS_Des_s
 title: CS_DES (cfgmgr32.h)
-description: The CS_DES structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see Hardware Resources.helpviewer_keywords: ["*PCS_DES","CS_DES","CS_DES structure [Device and Driver Installation]","PCS_DES","PCS_DES structure pointer [Device and Driver Installation]","cfgmgr32/CS_DES","cfgmgr32/PCS_DES","cfgmgrst_b22826b5-3488-4667-831a-24b848f2dd74.xml","devinst.cs_des"]
+description: The CS_DES structure is used for specifying a resource list that describes device class-specific resource usage for a device instance. For more information about resource lists, see Hardware Resources.
+helpviewer_keywords: ["*PCS_DES","CS_DES","CS_DES structure [Device and Driver Installation]","PCS_DES","PCS_DES structure pointer [Device and Driver Installation]","cfgmgr32/CS_DES","cfgmgr32/PCS_DES","cfgmgrst_b22826b5-3488-4667-831a-24b848f2dd74.xml","devinst.cs_des"]
 old-location: devinst\cs_des.htm
 tech.root: devinst
 ms.assetid: 16b47fe9-cb84-453d-b515-bfdba254f947
@@ -107,7 +108,7 @@ The class-specific signature identified by <b>CSD_SignatureLength</b> and <b>CSD
 
 
 
-[CS_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource)a>
+[CS_RESOURCE](https://docs.microsoft.com/windows/desktop/api/cfgmgr32/ns-cfgmgr32-cs_resource)
  
 
  

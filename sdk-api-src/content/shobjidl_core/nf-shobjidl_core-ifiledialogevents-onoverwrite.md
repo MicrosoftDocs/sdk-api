@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnOverwrite
 title: IFileDialogEvents::OnOverwrite (shobjidl_core.h)
-description: Called from the save dialog when the user chooses to overwrite a file.helpviewer_keywords: ["IFileDialogEvents interface [Windows Shell]","OnOverwrite method","IFileDialogEvents.OnOverwrite","IFileDialogEvents::OnOverwrite","OnOverwrite","OnOverwrite method [Windows Shell]","OnOverwrite method [Windows Shell]","IFileDialogEvents interface","shell.IFileDialogEvents_OnOverwrite","shell_IFileDialogEvents_OnOverwrite","shobjidl_core/IFileDialogEvents::OnOverwrite"]
+description: Called from the save dialog when the user chooses to overwrite a file.
+helpviewer_keywords: ["IFileDialogEvents interface [Windows Shell]","OnOverwrite method","IFileDialogEvents.OnOverwrite","IFileDialogEvents::OnOverwrite","OnOverwrite","OnOverwrite method [Windows Shell]","OnOverwrite method [Windows Shell]","IFileDialogEvents interface","shell.IFileDialogEvents_OnOverwrite","shell_IFileDialogEvents_OnOverwrite","shobjidl_core/IFileDialogEvents::OnOverwrite"]
 old-location: shell\IFileDialogEvents_OnOverwrite.htm
 tech.root: shell
 ms.assetid: 825dcbed-3248-4d2e-bf5f-5d51f8f0529b

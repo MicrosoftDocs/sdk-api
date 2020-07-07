@@ -1,7 +1,8 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0004
 title: DataCollectorSetStatus (pla.h)
-description: Defines the running status of the data collector set.helpviewer_keywords: ["DataCollectorSetStatus","DataCollectorSetStatus enumeration [PLA]","base.datacollectorsetstatus","pla.datacollectorsetstatus","pla/DataCollectorSetStatus","pla/plaCompiling","pla/plaPending","pla/plaRunning","pla/plaStopped","pla/plaUndefined","plaCompiling","plaPending","plaRunning","plaStopped","plaUndefined"]
+description: Defines the running status of the data collector set.
+helpviewer_keywords: ["DataCollectorSetStatus","DataCollectorSetStatus enumeration [PLA]","base.datacollectorsetstatus","pla.datacollectorsetstatus","pla/DataCollectorSetStatus","pla/plaCompiling","pla/plaPending","pla/plaRunning","pla/plaStopped","pla/plaUndefined","plaCompiling","plaPending","plaRunning","plaStopped","plaUndefined"]
 old-location: pla\datacollectorsetstatus.htm
 tech.root: PLA
 ms.assetid: 7cccb588-c530-46dc-99e8-84e763cb0a8b

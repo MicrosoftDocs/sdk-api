@@ -1,7 +1,8 @@
 ---
 UID: NF:xenroll.IEnroll2.SetHStoreMy
 title: IEnroll2::SetHStoreMy (xenroll.h)
-description: The SetHStoreMy method specifies the handle to use for the MY store. This method was first defined in the IEnroll2 interface.helpviewer_keywords: ["IEnroll interface [Security]","SetHStoreMy method","IEnroll2 interface [Security]","SetHStoreMy method","IEnroll2.SetHStoreMy","IEnroll2::SetHStoreMy","IEnroll::SetHStoreMy","SetHStoreMy","SetHStoreMy method [Security]","SetHStoreMy method [Security]","IEnroll interface","SetHStoreMy method [Security]","IEnroll2 interface","security.ienroll4_sethstoremy","xenroll/IEnroll2::SetHStoreMy","xenroll/IEnroll::SetHStoreMy"]
+description: The SetHStoreMy method specifies the handle to use for the MY store. This method was first defined in the IEnroll2 interface.
+helpviewer_keywords: ["IEnroll interface [Security]","SetHStoreMy method","IEnroll2 interface [Security]","SetHStoreMy method","IEnroll2.SetHStoreMy","IEnroll2::SetHStoreMy","IEnroll::SetHStoreMy","SetHStoreMy","SetHStoreMy method [Security]","SetHStoreMy method [Security]","IEnroll interface","SetHStoreMy method [Security]","IEnroll2 interface","security.ienroll4_sethstoremy","xenroll/IEnroll2::SetHStoreMy","xenroll/IEnroll::SetHStoreMy"]
 old-location: security\ienroll4_sethstoremy.htm
 tech.root: SecCrypto
 ms.assetid: 669c8fe4-def3-41c5-82fc-95c26f3950c8

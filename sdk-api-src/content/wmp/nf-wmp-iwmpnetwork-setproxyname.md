@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyName
 title: IWMPNetwork::setProxyName (wmp.h)
-description: The setProxyName method specifies the name of the proxy server to use.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","setProxyName method","IWMPNetwork.setProxyName","IWMPNetwork::setProxyName","IWMPNetworksetProxyName","setProxyName","setProxyName method [Windows Media Player]","setProxyName method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_setproxyname","wmp/IWMPNetwork::setProxyName"]
+description: The setProxyName method specifies the name of the proxy server to use.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","setProxyName method","IWMPNetwork.setProxyName","IWMPNetwork::setProxyName","IWMPNetworksetProxyName","setProxyName","setProxyName method [Windows Media Player]","setProxyName method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_setproxyname","wmp/IWMPNetwork::setProxyName"]
 old-location: wmp\iwmpnetwork_setproxyname.htm
 tech.root: WMP
 ms.assetid: 6f484f5b-195c-496d-932e-3e1fdbf873d8

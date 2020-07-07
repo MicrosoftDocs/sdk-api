@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncCallback.OnChange
 title: ISyncCallback::OnChange (winsync.h)
-description: Occurs before a change is applied.helpviewer_keywords: ["ISyncCallback interface [Windows Sync]","OnChange method","ISyncCallback.OnChange","ISyncCallback::OnChange","OnChange","OnChange method [Windows Sync]","OnChange method [Windows Sync]","ISyncCallback interface","winsync.isynccallback_onchange","winsync/ISyncCallback::OnChange"]
+description: Occurs before a change is applied.
+helpviewer_keywords: ["ISyncCallback interface [Windows Sync]","OnChange method","ISyncCallback.OnChange","ISyncCallback::OnChange","OnChange","OnChange method [Windows Sync]","OnChange method [Windows Sync]","ISyncCallback interface","winsync.isynccallback_onchange","winsync/ISyncCallback::OnChange"]
 old-location: winsync\isynccallback_onchange.htm
 tech.root: winsync
 ms.assetid: 16bcc448-8acc-4349-a5d1-0c0764afe2ec

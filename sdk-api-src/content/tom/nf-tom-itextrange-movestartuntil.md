@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.MoveStartUntil
 title: ITextRange::MoveStartUntil (tom.h)
-description: Moves the start position of the range the position of the first character found that is in the set of characters specified by Cset, provided that the character is found within Count characters of the start position.helpviewer_keywords: ["ITextRange interface [Windows Controls]","MoveStartUntil method","ITextRange.MoveStartUntil","ITextRange::MoveStartUntil","MoveStartUntil","MoveStartUntil method [Windows Controls]","MoveStartUntil method [Windows Controls]","ITextRange interface","_win32_ITextRange_MoveStartUntil","_win32_ITextRange_MoveStartUntil_cpp","controls.ITextRange_MoveStartUntil","controls._win32_ITextRange_MoveStartUntil","tom/ITextRange::MoveStartUntil"]
+description: Moves the start position of the range the position of the first character found that is in the set of characters specified by Cset, provided that the character is found within Count characters of the start position.
+helpviewer_keywords: ["ITextRange interface [Windows Controls]","MoveStartUntil method","ITextRange.MoveStartUntil","ITextRange::MoveStartUntil","MoveStartUntil","MoveStartUntil method [Windows Controls]","MoveStartUntil method [Windows Controls]","ITextRange interface","_win32_ITextRange_MoveStartUntil","_win32_ITextRange_MoveStartUntil_cpp","controls.ITextRange_MoveStartUntil","controls._win32_ITextRange_MoveStartUntil","tom/ITextRange::MoveStartUntil"]
 old-location: controls\ITextRange_MoveStartUntil.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\movestartuntil.htm

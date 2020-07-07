@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymNextW
 title: SymNextW function (dbghelp.h)
-description: Retrieves symbol information for the next symbol.helpviewer_keywords: ["SymNext","SymNext function","SymNextW","base.symnext","dbghelp/SymNext","dbghelp/SymNextW"]
+description: Retrieves symbol information for the next symbol.
+helpviewer_keywords: ["SymNext","SymNext function","SymNextW","base.symnext","dbghelp/SymNext","dbghelp/SymNextW"]
 old-location: base\symnext.htm
 tech.root: Debug
 ms.assetid: ffd2d416-7149-4a4c-a1d5-7a7f3bdf5dc4
@@ -103,6 +104,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymNext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

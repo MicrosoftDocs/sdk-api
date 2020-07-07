@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit._charformat
 title: CHARFORMATA (richedit.h)
-description: Contains information about character formatting in a rich edit control.helpviewer_keywords: ["CFE_AUTOCOLOR","CFE_BOLD","CFE_DISABLED","CFE_ITALIC","CFE_PROTECTED","CFE_STRIKEOUT","CFE_UNDERLINE","CFM_ALL","CFM_BOLD","CFM_CHARSET","CFM_COLOR","CFM_EFFECTS","CFM_FACE","CFM_ITALIC","CFM_OFFSET","CFM_PROTECTED","CFM_SIZE","CFM_STRIKEOUT","CFM_UNDERLINE.","CHARFORMAT","CHARFORMAT structure [Windows Controls]","CHARFORMATA","CHARFORMATW","_win32_CHARFORMAT_str","_win32_CHARFORMAT_str_cpp","controls.CHARFORMAT","controls._win32_CHARFORMAT_str","richedit/CHARFORMAT","richedit/CHARFORMATA","richedit/CHARFORMATW"]
+description: Contains information about character formatting in a rich edit control.
+helpviewer_keywords: ["CFE_AUTOCOLOR","CFE_BOLD","CFE_DISABLED","CFE_ITALIC","CFE_PROTECTED","CFE_STRIKEOUT","CFE_UNDERLINE","CFM_ALL","CFM_BOLD","CFM_CHARSET","CFM_COLOR","CFM_EFFECTS","CFM_FACE","CFM_ITALIC","CFM_OFFSET","CFM_PROTECTED","CFM_SIZE","CFM_STRIKEOUT","CFM_UNDERLINE.","CHARFORMAT","CHARFORMAT structure [Windows Controls]","CHARFORMATA","CHARFORMATW","_win32_CHARFORMAT_str","_win32_CHARFORMAT_str_cpp","controls.CHARFORMAT","controls._win32_CHARFORMAT_str","richedit/CHARFORMAT","richedit/CHARFORMATA","richedit/CHARFORMATW"]
 old-location: controls\CHARFORMAT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\charformat.htm
@@ -341,6 +342,10 @@ To turn off a formatting attribute, set the appropriate value in <b>dwMask</b> b
 
 
 
+
+
+> [!NOTE]
+> The richedit.h header defines CHARFORMAT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

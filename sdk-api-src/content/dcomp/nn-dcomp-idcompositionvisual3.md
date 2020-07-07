@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionVisual3
 title: IDCompositionVisual3 (dcomp.h)
-description: Represents one DirectComposition visual in a visual tree.helpviewer_keywords: ["IDCompositionVisual3","IDCompositionVisual3 interface [DirectComposition]","IDCompositionVisual3 interface [DirectComposition]","described","dcomp/IDCompositionVisual3","directcomp.idcompositionvisual3"]
+description: Represents one DirectComposition visual in a visual tree.
+helpviewer_keywords: ["IDCompositionVisual3","IDCompositionVisual3 interface [DirectComposition]","IDCompositionVisual3 interface [DirectComposition]","described","dcomp/IDCompositionVisual3","directcomp.idcompositionvisual3"]
 old-location: directcomp\idcompositionvisual3.htm
 tech.root: directcomp
 ms.assetid: c7bf4e6f-119b-2122-1103-d6ab240121c9
@@ -45,12 +46,9 @@ ms.custom: 19H1
 
 # IDCompositionVisual3 interface
 
-
 ## -description
 
-
 Represents one DirectComposition visual in a visual tree.
-
 
 ## -inheritance
 
@@ -99,8 +97,6 @@ Sets the depth mode property associated with this visual.
 <td align="left" width="63%">Overloaded. Sets the Transform property of this visual. The Transform  property specifies a 3D transform used to modify the coordinate system of this visual.
   The property can specify either a  4-by-4 transform matrix or a transform object.
 
-
-
 </td>
 </tr>
 <tr data="declared;">
@@ -123,22 +119,8 @@ Changes the value of the visual's Visible property.
 </tr>
 </table> 
 
-
 ## -see-also
 
-
-
-
-<a href="https://code.msdn.microsoft.com/windowsdesktop/DirectComposition-Backface-a2271f33">DirectComposition Backface and D2D Batching</a>
-
-
+<a href="https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/DCompV2BackfaceandD2DBatching">DirectComposition Backface and D2D Batching</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/dcomp/nn-dcomp-idcompositionvisual2">IDCompositionVisual2</a>
-
-
-
-<b>Sample</b>
- 
-
- 
-

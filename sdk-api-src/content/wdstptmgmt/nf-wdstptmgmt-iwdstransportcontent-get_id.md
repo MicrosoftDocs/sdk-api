@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.get_Id
 title: IWdsTransportContent::get_Id (wdstptmgmt.h)
-description: Receives a unique content ID that identifies this content object on the server.helpviewer_keywords: ["IWdsTransportContent interface [Windows Deployment Services]","Id property","IWdsTransportContent.Id","IWdsTransportContent.get_Id","IWdsTransportContent::Id","IWdsTransportContent::get_Id","Id property [Windows Deployment Services]","Id property [Windows Deployment Services]","IWdsTransportContent interface","get_Id","wds.iwdstransportcontent_id","wdstptmgmt/IWdsTransportContent::Id","wdstptmgmt/IWdsTransportContent::get_Id"]
+description: Receives a unique content ID that identifies this content object on the server.
+helpviewer_keywords: ["IWdsTransportContent interface [Windows Deployment Services]","Id property","IWdsTransportContent.Id","IWdsTransportContent.get_Id","IWdsTransportContent::Id","IWdsTransportContent::get_Id","Id property [Windows Deployment Services]","Id property [Windows Deployment Services]","IWdsTransportContent interface","get_Id","wds.iwdstransportcontent_id","wdstptmgmt/IWdsTransportContent::Id","wdstptmgmt/IWdsTransportContent::get_Id"]
 old-location: wds\iwdstransportcontent_id.htm
 tech.root: wds
 ms.assetid: 16164368-7c46-4d6e-8259-f98ae7f65244

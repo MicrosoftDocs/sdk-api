@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerCollabGetAppLaunchInfo
 title: PeerCollabGetAppLaunchInfo function (p2p.h)
-description: Obtains the peer application launch information, including the contact name, the peer endpoint, and the invitation request.helpviewer_keywords: ["PeerCollabGetAppLaunchInfo","PeerCollabGetAppLaunchInfo function [Peer Networking]","p2p.peercollabgetapplaunchinfo","p2p/PeerCollabGetAppLaunchInfo"]
+description: Obtains the peer application launch information, including the contact name, the peer endpoint, and the invitation request.
+helpviewer_keywords: ["PeerCollabGetAppLaunchInfo","PeerCollabGetAppLaunchInfo function [Peer Networking]","p2p.peercollabgetapplaunchinfo","p2p/PeerCollabGetAppLaunchInfo"]
 old-location: p2p\peercollabgetapplaunchinfo.htm
 tech.root: P2PSdk
 ms.assetid: 266a7d80-b4bc-42f2-ba76-a69cab9e2c12

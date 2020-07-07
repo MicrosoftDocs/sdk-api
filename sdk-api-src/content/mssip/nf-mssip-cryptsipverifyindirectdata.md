@@ -1,7 +1,8 @@
 ---
 UID: NF:mssip.CryptSIPVerifyIndirectData
 title: CryptSIPVerifyIndirectData function (mssip.h)
-description: Validates the indirect hashed data against the supplied subject.helpviewer_keywords: ["CryptSIPVerifyIndirectData","CryptSIPVerifyIndirectData function [Security]","mssip/CryptSIPVerifyIndirectData","security.cryptsipverifyindirectdata"]
+description: Validates the indirect hashed data against the supplied subject.
+helpviewer_keywords: ["CryptSIPVerifyIndirectData","CryptSIPVerifyIndirectData function [Security]","mssip/CryptSIPVerifyIndirectData","security.cryptsipverifyindirectdata"]
 old-location: security\cryptsipverifyindirectdata.htm
 tech.root: SecCrypto
 ms.assetid: 137b8858-a31f-4ef6-96bd-c5e26ae7b3e8
@@ -59,12 +60,12 @@ The <b>CryptSIPVerifyIndirectData</b> function validates the indirect hashed dat
 
 ### -param pSubjectInfo [in]
 
-A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo)a> structure that contains information about the message subject.
+A pointer to a [SIP_SUBJECTINFO](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_subjectinfo) structure that contains information about the message subject.
 
 
 ### -param pIndirectData [in]
 
-A pointer to a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data)a> structure that contains information about the hashed subject information.
+A pointer to a [SIP_INDIRECT_DATA](https://docs.microsoft.com/windows/desktop/api/mssip/ns-mssip-sip_indirect_data) structure that contains information about the hashed subject information.
 
 
 ## -returns

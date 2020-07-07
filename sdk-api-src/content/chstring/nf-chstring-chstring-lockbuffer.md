@@ -1,7 +1,8 @@
 ---
 UID: NF:chstring.CHString.LockBuffer
 title: CHString::LockBuffer (chstring.h)
-description: The LockBuffer method locks a string in the buffer.helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","LockBuffer method","CHString.LockBuffer","CHString::LockBuffer","LockBuffer","LockBuffer method [Windows Management Instrumentation]","LockBuffer method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_lockbuffer","chstring/CHString::LockBuffer","wmi.chstring_lockbuffer"]
+description: The LockBuffer method locks a string in the buffer.
+helpviewer_keywords: ["CHString interface [Windows Management Instrumentation]","LockBuffer method","CHString.LockBuffer","CHString::LockBuffer","LockBuffer","LockBuffer method [Windows Management Instrumentation]","LockBuffer method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_lockbuffer","chstring/CHString::LockBuffer","wmi.chstring_lockbuffer"]
 old-location: wmi\chstring_lockbuffer.htm
 tech.root: WmiSdk
 ms.assetid: 820a3ff5-4f99-40b0-8a9d-e5c22fea7ddb

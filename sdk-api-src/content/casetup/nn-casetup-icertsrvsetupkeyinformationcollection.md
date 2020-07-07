@@ -1,7 +1,8 @@
 ---
 UID: NN:casetup.ICertSrvSetupKeyInformationCollection
 title: ICertSrvSetupKeyInformationCollection (casetup.h)
-description: Defines functionality to populate and enumerate a collection of ICertSrvSetupKeyInformation objects.helpviewer_keywords: ["ICertSrvSetupKeyInformationCollection","ICertSrvSetupKeyInformationCollection interface [Security]","ICertSrvSetupKeyInformationCollection interface [Security]","described","casetup/ICertSrvSetupKeyInformationCollection","security.icertsrvsetupkeyinformationcollection"]
+description: Defines functionality to populate and enumerate a collection of ICertSrvSetupKeyInformation objects.
+helpviewer_keywords: ["ICertSrvSetupKeyInformationCollection","ICertSrvSetupKeyInformationCollection interface [Security]","ICertSrvSetupKeyInformationCollection interface [Security]","described","casetup/ICertSrvSetupKeyInformationCollection","security.icertsrvsetupkeyinformationcollection"]
 old-location: security\icertsrvsetupkeyinformationcollection.htm
 tech.root: SecCrypto
 ms.assetid: d029dd5f-9c19-46fd-aac3-275c624a157b

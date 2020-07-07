@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFByteStream.BeginWrite
 title: IMFByteStream::BeginWrite (mfobjects.h)
-description: Begins an asynchronous write operation to the stream.helpviewer_keywords: ["078a8ffe-7b4f-487e-8655-fe5ea14ba306","BeginWrite","BeginWrite method [Media Foundation]","BeginWrite method [Media Foundation]","IMFByteStream interface","IMFByteStream interface [Media Foundation]","BeginWrite method","IMFByteStream.BeginWrite","IMFByteStream::BeginWrite","mf.imfbytestream_beginwrite","mfobjects/IMFByteStream::BeginWrite"]
+description: Begins an asynchronous write operation to the stream.
+helpviewer_keywords: ["078a8ffe-7b4f-487e-8655-fe5ea14ba306","BeginWrite","BeginWrite method [Media Foundation]","BeginWrite method [Media Foundation]","IMFByteStream interface","IMFByteStream interface [Media Foundation]","BeginWrite method","IMFByteStream.BeginWrite","IMFByteStream::BeginWrite","mf.imfbytestream_beginwrite","mfobjects/IMFByteStream::BeginWrite"]
 old-location: mf\imfbytestream_beginwrite.htm
 tech.root: medfound
 ms.assetid: 078a8ffe-7b4f-487e-8655-fe5ea14ba306

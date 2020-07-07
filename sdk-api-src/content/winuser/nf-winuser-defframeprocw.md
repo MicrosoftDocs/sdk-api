@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.DefFrameProcW
 title: DefFrameProcW function (winuser.h)
-description: Provides default processing for any window messages that the window procedure of a multiple-document interface (MDI) frame window does not process.helpviewer_keywords: ["DefFrameProc","DefFrameProc function [Windows and Messages]","DefFrameProcA","DefFrameProcW","_win32_DefFrameProc","_win32_defframeproc_cpp","winmsg.defframeproc","winui._win32_defframeproc","winuser/DefFrameProc","winuser/DefFrameProcA","winuser/DefFrameProcW"]
+description: Provides default processing for any window messages that the window procedure of a multiple-document interface (MDI) frame window does not process.
+helpviewer_keywords: ["DefFrameProc","DefFrameProc function [Windows and Messages]","DefFrameProcA","DefFrameProcW","_win32_DefFrameProc","_win32_defframeproc_cpp","winmsg.defframeproc","winui._win32_defframeproc","winuser/DefFrameProc","winuser/DefFrameProcA","winuser/DefFrameProcW"]
 old-location: winmsg\defframeproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\multipledocumentinterface\multipledocumentinterfacereference\multipledocumentinterfacefunctions\defframeproc.htm
@@ -147,6 +148,10 @@ When an application's window procedure does not handle a message, it typically p
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines DefFrameProc as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

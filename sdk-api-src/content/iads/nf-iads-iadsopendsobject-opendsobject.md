@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsOpenDSObject.OpenDSObject
 title: IADsOpenDSObject::OpenDSObject (iads.h)
-description: Binds to an ADSI object, using the given credentials, and retrieves an IDispatch pointer to the specified object.helpviewer_keywords: ["IADsOpenDSObject interface [ADSI]","OpenDSObject method","IADsOpenDSObject.OpenDSObject","IADsOpenDSObject::OpenDSObject","OpenDSObject","OpenDSObject method [ADSI]","OpenDSObject method [ADSI]","IADsOpenDSObject interface","_ds_iadsopendsobject_opendsobject","adsi.iadsopendsobject__opendsobject","adsi.iadsopendsobject_opendsobject","iads/IADsOpenDSObject::OpenDSObject"]
+description: Binds to an ADSI object, using the given credentials, and retrieves an IDispatch pointer to the specified object.
+helpviewer_keywords: ["IADsOpenDSObject interface [ADSI]","OpenDSObject method","IADsOpenDSObject.OpenDSObject","IADsOpenDSObject::OpenDSObject","OpenDSObject","OpenDSObject method [ADSI]","OpenDSObject method [ADSI]","IADsOpenDSObject interface","_ds_iadsopendsobject_opendsobject","adsi.iadsopendsobject__opendsobject","adsi.iadsopendsobject_opendsobject","iads/IADsOpenDSObject::OpenDSObject"]
 old-location: adsi\iadsopendsobject_opendsobject.htm
 tech.root: adsi
 ms.assetid: 9984ddb4-58bb-4264-930b-07e6534dc69f
@@ -74,7 +75,7 @@ The null-terminated Unicode string that specifies the password to be used to obt
 
 ### -param lnReserved [in]
 
-Authentication flags used to define the binding options. For more information, see  <a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>.
+Authentication flags used to define the binding options. For more information, see  <a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>.
 
 
 ### -param ppOleDsObj [out]
@@ -255,7 +256,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>
+<a href="/windows/win32/api/iads/ne-iads-ads_authentication_enum">ADS_AUTHENTICATION_ENUM</a>
 
 
 

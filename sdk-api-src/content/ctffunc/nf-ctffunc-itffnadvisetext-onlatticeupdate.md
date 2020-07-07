@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.ITfFnAdviseText.OnLatticeUpdate
 title: ITfFnAdviseText::OnLatticeUpdate (ctffunc.h)
-description: ITfFnAdviseText::OnLatticeUpdate methodhelpviewer_keywords: ["ITfFnAdviseText interface [Text Services Framework]","OnLatticeUpdate method","ITfFnAdviseText.OnLatticeUpdate","ITfFnAdviseText::OnLatticeUpdate","OnLatticeUpdate","OnLatticeUpdate method [Text Services Framework]","OnLatticeUpdate method [Text Services Framework]","ITfFnAdviseText interface","_tsf_itffnadvisetext_onlatticeupdate_ref","ctffunc/ITfFnAdviseText::OnLatticeUpdate","tsf.itffnadvisetext_onlatticeupdate"]
+description: ITfFnAdviseText::OnLatticeUpdate method
+helpviewer_keywords: ["ITfFnAdviseText interface [Text Services Framework]","OnLatticeUpdate method","ITfFnAdviseText.OnLatticeUpdate","ITfFnAdviseText::OnLatticeUpdate","OnLatticeUpdate","OnLatticeUpdate method [Text Services Framework]","OnLatticeUpdate method [Text Services Framework]","ITfFnAdviseText interface","_tsf_itffnadvisetext_onlatticeupdate_ref","ctffunc/ITfFnAdviseText::OnLatticeUpdate","tsf.itffnadvisetext_onlatticeupdate"]
 old-location: tsf\itffnadvisetext_onlatticeupdate.htm
 tech.root: TSF
 ms.assetid: c58f3d2f-ad74-43a7-a8a8-65d65d603611

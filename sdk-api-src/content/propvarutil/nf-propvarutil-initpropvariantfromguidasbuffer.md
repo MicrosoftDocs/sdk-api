@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromGUIDAsBuffer
 title: InitPropVariantFromGUIDAsBuffer function (propvarutil.h)
-description: Initializes a PROPVARIANT structure based on a GUID. The structure is initialized as VT_VECTOR | VT_UI1.helpviewer_keywords: ["InitPropVariantFromGUIDAsBuffer","InitPropVariantFromGUIDAsBuffer function [Windows Properties]","properties.InitPropVariantFromGUIDAsBuffer","propvarutil/InitPropVariantFromGUIDAsBuffer","shell.InitPropVariantFromGUIDAsBuffer","shell_InitPropVariantFromGUIDAsBuffer"]
+description: Initializes a PROPVARIANT structure based on a GUID. The structure is initialized as VT_VECTOR | VT_UI1.
+helpviewer_keywords: ["InitPropVariantFromGUIDAsBuffer","InitPropVariantFromGUIDAsBuffer function [Windows Properties]","properties.InitPropVariantFromGUIDAsBuffer","propvarutil/InitPropVariantFromGUIDAsBuffer","shell.InitPropVariantFromGUIDAsBuffer","shell_InitPropVariantFromGUIDAsBuffer"]
 old-location: properties\InitPropVariantFromGUIDAsBuffer.htm
 tech.root: properties
 ms.assetid: 9ff3ec09-3314-4830-b970-b33f5a53d66c

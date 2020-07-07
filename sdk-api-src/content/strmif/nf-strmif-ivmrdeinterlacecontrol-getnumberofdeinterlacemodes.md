@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes
 title: IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes (strmif.h)
-description: The GetNumberOfDeinterlaceModes method retrieves the deinterlacing modes available to the VMR for the specified video format.helpviewer_keywords: ["GetNumberOfDeinterlaceModes","GetNumberOfDeinterlaceModes method [DirectShow]","GetNumberOfDeinterlaceModes method [DirectShow]","IVMRDeinterlaceControl interface","IVMRDeinterlaceControl interface [DirectShow]","GetNumberOfDeinterlaceModes method","IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes","IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes","IVMRDeinterlaceControlGetNumberOfDeinterlaceModes","dshow.ivmrdeinterlacecontrol_getnumberofdeinterlacemodes","strmif/IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes"]
+description: The GetNumberOfDeinterlaceModes method retrieves the deinterlacing modes available to the VMR for the specified video format.
+helpviewer_keywords: ["GetNumberOfDeinterlaceModes","GetNumberOfDeinterlaceModes method [DirectShow]","GetNumberOfDeinterlaceModes method [DirectShow]","IVMRDeinterlaceControl interface","IVMRDeinterlaceControl interface [DirectShow]","GetNumberOfDeinterlaceModes method","IVMRDeinterlaceControl.GetNumberOfDeinterlaceModes","IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes","IVMRDeinterlaceControlGetNumberOfDeinterlaceModes","dshow.ivmrdeinterlacecontrol_getnumberofdeinterlacemodes","strmif/IVMRDeinterlaceControl::GetNumberOfDeinterlaceModes"]
 old-location: dshow\ivmrdeinterlacecontrol_getnumberofdeinterlacemodes.htm
 tech.root: DirectShow
 ms.assetid: 0e6abb00-95fb-453d-9427-178058b217b8

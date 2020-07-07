@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.MonthCal_SetRange
 title: MonthCal_SetRange macro (commctrl.h)
-description: Sets the minimum and maximum allowable dates for a month calendar control. You can use this macro or send the MCM_SETRANGE message explicitly.helpviewer_keywords: ["GDTR_MAX","GDTR_MIN","MonthCal_SetRange","MonthCal_SetRange macro [Windows Controls]","_win32_MonthCal_SetRange","_win32_MonthCal_SetRange_cpp","commctrl/MonthCal_SetRange","controls.MonthCal_SetRange","controls._win32_MonthCal_SetRange"]
+description: Sets the minimum and maximum allowable dates for a month calendar control. You can use this macro or send the MCM_SETRANGE message explicitly.
+helpviewer_keywords: ["GDTR_MAX","GDTR_MIN","MonthCal_SetRange","MonthCal_SetRange macro [Windows Controls]","_win32_MonthCal_SetRange","_win32_MonthCal_SetRange_cpp","commctrl/MonthCal_SetRange","controls.MonthCal_SetRange","controls._win32_MonthCal_SetRange"]
 old-location: controls\MonthCal_SetRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\monthcal\macros\monthcal_setrange.htm

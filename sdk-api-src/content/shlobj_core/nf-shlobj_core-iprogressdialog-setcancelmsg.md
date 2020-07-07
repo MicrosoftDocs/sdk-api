@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.SetCancelMsg
 title: IProgressDialog::SetCancelMsg (shlobj_core.h)
-description: Sets a message to be displayed if the user cancels the operation.helpviewer_keywords: ["IProgressDialog interface [Windows Shell]","SetCancelMsg method","IProgressDialog.SetCancelMsg","IProgressDialog::SetCancelMsg","SetCancelMsg","SetCancelMsg method [Windows Shell]","SetCancelMsg method [Windows Shell]","IProgressDialog interface","_win32_IProgressDialog_SetCancelMsg","shell.IProgressDialog_SetCancelMsg","shlobj_core/IProgressDialog::SetCancelMsg"]
+description: Sets a message to be displayed if the user cancels the operation.
+helpviewer_keywords: ["IProgressDialog interface [Windows Shell]","SetCancelMsg method","IProgressDialog.SetCancelMsg","IProgressDialog::SetCancelMsg","SetCancelMsg","SetCancelMsg method [Windows Shell]","SetCancelMsg method [Windows Shell]","IProgressDialog interface","_win32_IProgressDialog_SetCancelMsg","shell.IProgressDialog_SetCancelMsg","shlobj_core/IProgressDialog::SetCancelMsg"]
 old-location: shell\IProgressDialog_SetCancelMsg.htm
 tech.root: shell
 ms.assetid: 520e11c0-f356-45e1-a300-cc14e88eb42e

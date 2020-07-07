@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReader.Close
 title: IWMReader::Close (wmsdkidl.h)
-description: The Close method deletes all outputs on the reader and releases the file resources.helpviewer_keywords: ["Close","Close method [windows Media Format]","Close method [windows Media Format]","IWMReader interface","IWMReader interface [windows Media Format]","Close method","IWMReader.Close","IWMReader::Close","IWMReaderClose","wmformat.iwmreader_close","wmsdkidl/IWMReader::Close"]
+description: The Close method deletes all outputs on the reader and releases the file resources.
+helpviewer_keywords: ["Close","Close method [windows Media Format]","Close method [windows Media Format]","IWMReader interface","IWMReader interface [windows Media Format]","Close method","IWMReader.Close","IWMReader::Close","IWMReaderClose","wmformat.iwmreader_close","wmsdkidl/IWMReader::Close"]
 old-location: wmformat\iwmreader_close.htm
 tech.root: wmformat
 ms.assetid: 3f320a0c-8586-4fc2-bd70-06ddda435cb5

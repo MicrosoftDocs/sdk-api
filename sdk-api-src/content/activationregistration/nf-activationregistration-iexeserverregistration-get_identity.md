@@ -1,7 +1,8 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_Identity
 title: IExeServerRegistration::get_Identity (activationregistration.h)
-description: Gets the identity of the out-of-process server.helpviewer_keywords: ["IExeServerRegistration interface [Windows Runtime]","get_Identity method","IExeServerRegistration.get_Identity","IExeServerRegistration::get_Identity","activationregistration/IExeServerRegistration::get_Identity","get_Identity","get_Identity method [Windows Runtime]","get_Identity method [Windows Runtime]","IExeServerRegistration interface","winrt.iexeserverregistration_identity"]
+description: Gets the identity of the out-of-process server.
+helpviewer_keywords: ["IExeServerRegistration interface [Windows Runtime]","get_Identity method","IExeServerRegistration.get_Identity","IExeServerRegistration::get_Identity","activationregistration/IExeServerRegistration::get_Identity","get_Identity","get_Identity method [Windows Runtime]","get_Identity method [Windows Runtime]","IExeServerRegistration interface","winrt.iexeserverregistration_identity"]
 old-location: winrt\iexeserverregistration_identity.htm
 tech.root: WinRT
 ms.assetid: DA667D7C-323B-412D-AF9E-03402223292A

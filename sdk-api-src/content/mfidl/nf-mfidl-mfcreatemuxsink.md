@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreateMuxSink
 title: MFCreateMuxSink function (mfidl.h)
-description: Creates a generic media sink that wraps a multiplexer Microsoft Media Foundation transform (MFT).helpviewer_keywords: ["MFCreateMuxSink","MFCreateMuxSink function [Media Foundation]","mf.mfcreatemuxsink","mfidl/MFCreateMuxSink"]
+description: Creates a generic media sink that wraps a multiplexer Microsoft Media Foundation transform (MFT).
+helpviewer_keywords: ["MFCreateMuxSink","MFCreateMuxSink function [Media Foundation]","mf.mfcreatemuxsink","mfidl/MFCreateMuxSink"]
 old-location: mf\mfcreatemuxsink.htm
 tech.root: medfound
 ms.assetid: 31A8790B-4C71-4D0D-B686-27B345745872

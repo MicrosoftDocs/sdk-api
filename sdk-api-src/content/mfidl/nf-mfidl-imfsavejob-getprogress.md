@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSaveJob.GetProgress
 title: IMFSaveJob::GetProgress (mfidl.h)
-description: Retrieves the percentage of content saved to the provided byte stream.helpviewer_keywords: ["8782333c-796c-4401-9575-c78e95887015","GetProgress","GetProgress method [Media Foundation]","GetProgress method [Media Foundation]","IMFSaveJob interface","IMFSaveJob interface [Media Foundation]","GetProgress method","IMFSaveJob.GetProgress","IMFSaveJob::GetProgress","mf.imfsavejob_getprogress","mfidl/IMFSaveJob::GetProgress"]
+description: Retrieves the percentage of content saved to the provided byte stream.
+helpviewer_keywords: ["8782333c-796c-4401-9575-c78e95887015","GetProgress","GetProgress method [Media Foundation]","GetProgress method [Media Foundation]","IMFSaveJob interface","IMFSaveJob interface [Media Foundation]","GetProgress method","IMFSaveJob.GetProgress","IMFSaveJob::GetProgress","mf.imfsavejob_getprogress","mfidl/IMFSaveJob::GetProgress"]
 old-location: mf\imfsavejob_getprogress.htm
 tech.root: medfound
 ms.assetid: 8782333c-796c-4401-9575-c78e95887015

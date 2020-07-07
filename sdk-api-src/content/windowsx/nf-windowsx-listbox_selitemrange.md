@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ListBox_SelItemRange
 title: ListBox_SelItemRange macro (windowsx.h)
-description: Selects or deselects one or more consecutive items in a multiple-selection list box. You can use this macro or send the LB_SELITEMRANGE message explicitly.helpviewer_keywords: ["ListBox_SelItemRange","ListBox_SelItemRange macro [Windows Controls]","_win32_ListBox_SelItemRange","_win32_ListBox_SelItemRange_cpp","controls.ListBox_SelItemRange","controls._win32_ListBox_SelItemRange","windowsx/ListBox_SelItemRange"]
+description: Selects or deselects one or more consecutive items in a multiple-selection list box. You can use this macro or send the LB_SELITEMRANGE message explicitly.
+helpviewer_keywords: ["ListBox_SelItemRange","ListBox_SelItemRange macro [Windows Controls]","_win32_ListBox_SelItemRange","_win32_ListBox_SelItemRange_cpp","controls.ListBox_SelItemRange","controls._win32_ListBox_SelItemRange","windowsx/ListBox_SelItemRange"]
 old-location: controls\ListBox_SelItemRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\listbox_selitemrange.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceService.Cancel
 title: IPortableDeviceService::Cancel (portabledeviceapi.h)
-description: Cancels a pending operation on this interface.helpviewer_keywords: ["Cancel","Cancel method [Windows Portable Devices SDK]","Cancel method [Windows Portable Devices SDK]","IPortableDeviceService interface","IPortableDeviceService interface [Windows Portable Devices SDK]","Cancel method","IPortableDeviceService.Cancel","IPortableDeviceService::Cancel","portabledeviceapi/IPortableDeviceService::Cancel","wpdsdk.iportabledeviceservice_cancel"]
+description: Cancels a pending operation on this interface.
+helpviewer_keywords: ["Cancel","Cancel method [Windows Portable Devices SDK]","Cancel method [Windows Portable Devices SDK]","IPortableDeviceService interface","IPortableDeviceService interface [Windows Portable Devices SDK]","Cancel method","IPortableDeviceService.Cancel","IPortableDeviceService::Cancel","portabledeviceapi/IPortableDeviceService::Cancel","wpdsdk.iportabledeviceservice_cancel"]
 old-location: wpdsdk\iportabledeviceservice_cancel.htm
 tech.root: wpd_sdk
 ms.assetid: 1fb07c56-4e7a-4c20-8e1e-65d8a2c719ab

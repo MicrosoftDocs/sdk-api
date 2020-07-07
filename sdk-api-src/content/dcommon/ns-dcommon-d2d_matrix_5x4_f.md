@@ -1,7 +1,8 @@
 ---
 UID: NS:dcommon.D2D_MATRIX_5X4_F
 title: D2D_MATRIX_5X4_F (dcommon.h)
-description: Describes a 5-by-4 floating point matrix.helpviewer_keywords: ["D2D_MATRIX_5X4_F","D2D_MATRIX_5X4_F structure [Direct2D]","dcommon/D2D_MATRIX_5X4_F","direct2d.d2d_matrix_5x4_f"]
+description: Describes a 5-by-4 floating point matrix.
+helpviewer_keywords: ["D2D_MATRIX_5X4_F","D2D_MATRIX_5X4_F structure [Direct2D]","dcommon/D2D_MATRIX_5X4_F","direct2d.d2d_matrix_5x4_f"]
 old-location: direct2d\d2d_matrix_5x4_f.htm
 tech.root: Direct2D
 ms.assetid: E7161468-82F4-4DAC-B376-FFB96293F634

@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingLevel
 title: TraceLoggingLevel macro (traceloggingprovider.h)
-description: Wrapper macro for setting the event's level.helpviewer_keywords: ["TraceLoggingLevel","TraceLoggingLevel macro","tracelogging.tracelogginglevel","traceloggingprovider/TraceLoggingLevel"]
+description: Wrapper macro for setting the event's level.
+helpviewer_keywords: ["TraceLoggingLevel","TraceLoggingLevel macro","tracelogging.tracelogginglevel","traceloggingprovider/TraceLoggingLevel"]
 old-location: tracelogging\tracelogginglevel.htm
 tech.root: tracelogging
 ms.assetid: 280EEFC4-EC84-4FAA-B14B-CBC5F0E0EA5D

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMatrixPerspectiveFovLH
 title: XMMatrixPerspectiveFovLH function (directxmath.h)
-description: Builds a left-handed perspective projection matrix based on a field of view.helpviewer_keywords: ["Use DirectX..XMMatrixPerspectiveFovLH","XMMatrixPerspectiveFovLH","XMMatrixPerspectiveFovLH method [DirectX Math Support APIs]","dxmath.xmmatrixperspectivefovlh"]
+description: Builds a left-handed perspective projection matrix based on a field of view.
+helpviewer_keywords: ["Use DirectX..XMMatrixPerspectiveFovLH","XMMatrixPerspectiveFovLH","XMMatrixPerspectiveFovLH method [DirectX Math Support APIs]","dxmath.xmmatrixperspectivefovlh"]
 old-location: dxmath\xmmatrixperspectivefovlh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixPerspectiveFovLH(float,float,float,float)

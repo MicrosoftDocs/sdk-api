@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelector.GetSelectorType
 title: IOpcRelationshipSelector::GetSelectorType (msopc.h)
-description: Gets a value that describes how relationships are selected to be referenced for signing.helpviewer_keywords: ["GetSelectorType","GetSelectorType method [Open Packaging Conventions]","GetSelectorType method [Open Packaging Conventions]","IOpcRelationshipSelector interface","IOpcRelationshipSelector interface [Open Packaging Conventions]","GetSelectorType method","IOpcRelationshipSelector.GetSelectorType","IOpcRelationshipSelector::GetSelectorType","msopc/IOpcRelationshipSelector::GetSelectorType","opc.iopcrelationshipselector_getselectortype"]
+description: Gets a value that describes how relationships are selected to be referenced for signing.
+helpviewer_keywords: ["GetSelectorType","GetSelectorType method [Open Packaging Conventions]","GetSelectorType method [Open Packaging Conventions]","IOpcRelationshipSelector interface","IOpcRelationshipSelector interface [Open Packaging Conventions]","GetSelectorType method","IOpcRelationshipSelector.GetSelectorType","IOpcRelationshipSelector::GetSelectorType","msopc/IOpcRelationshipSelector::GetSelectorType","opc.iopcrelationshipselector_getselectortype"]
 old-location: opc\iopcrelationshipselector_getselectortype.htm
 tech.root: OPC
 ms.assetid: 583f56e5-c374-4f79-badd-35eb5eecef70
@@ -105,10 +106,10 @@ The <i>selector</i> parameter is <b>NULL</b>.
 
 
 
-The following table shows how <a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a> values map to the relationship type and relationship identifier properties.<table>
+The following table shows how <a href="/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a> values map to the relationship type and relationship identifier properties.<table>
 <tr>
 <th>
-<a href="https://docs.microsoft.com/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a>  Value</th>
+<a href="/windows/win32/api/msopc/ne-msopc-opc_relationship_selector">OPC_RELATIONSHIP_SELECTOR</a>  Value</th>
 <th>Relationship Property</th>
 <th>Description</th>
 </tr>

@@ -1,7 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetLogicalProcessorInformationEx
 title: GetLogicalProcessorInformationEx function (sysinfoapi.h)
-description: Retrieves information about the relationships of logical processors and related hardware.helpviewer_keywords: ["GetLogicalProcessorInformationEx","GetLogicalProcessorInformationEx function","RelationAll","RelationCache","RelationGroup","RelationNumaNode","RelationProcessorCore","RelationProcessorPackage","base.getlogicalprocessorinformationex","sysinfoapi/GetLogicalProcessorInformationEx"]
+description: Retrieves information about the relationships of logical processors and related hardware.
+helpviewer_keywords: ["GetLogicalProcessorInformationEx","GetLogicalProcessorInformationEx function","RelationAll","RelationCache","RelationGroup","RelationNumaNode","RelationProcessorCore","RelationProcessorPackage","base.getlogicalprocessorinformationex","sysinfoapi/GetLogicalProcessorInformationEx"]
 old-location: base\getlogicalprocessorinformationex.htm
 tech.root: ProcThread
 ms.assetid: dfc4f444-4651-4a02-b8f6-f30d9278eae2
@@ -146,7 +147,7 @@ Retrieves information about logical processors for all relationship types (cache
 
 ### -param Buffer [out, optional]
 
-A pointer to a buffer that receives  an array of <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a> structures. If the function fails, the contents of this buffer are undefined.
+A pointer to a buffer that receives  an array of <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a> structures. If the function fails, the contents of this buffer are undefined.
 
 
 ### -param ReturnedLength [in, out]
@@ -158,7 +159,7 @@ On input, specifies the length of the buffer pointed to by  <i>Buffer</i>, in by
 
 
 
-If the function succeeds, the return value is TRUE and at least one <a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a> structure is written to the output buffer.
+If the function succeeds, the return value is TRUE and at least one <a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a> structure is written to the output buffer.
 
 If the function fails, the return value is FALSE. To get extended error information, call 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
@@ -184,7 +185,7 @@ To compile an application that uses this function, set _WIN32_WINNT &gt;= 0x0601
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
+<a href="/windows/win32/api/winnt/ns-winnt-system_logical_processor_information_ex">SYSTEM_LOGICAL_PROCESSOR_INFORMATION_EX</a>
  
 
  

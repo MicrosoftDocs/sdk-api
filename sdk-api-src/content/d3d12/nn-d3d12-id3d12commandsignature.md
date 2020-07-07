@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12.ID3D12CommandSignature
 title: ID3D12CommandSignature (d3d12.h)
-description: A command signature object enables apps to specify indirect drawing, including the buffer format, command type and resource bindings to be used.helpviewer_keywords: ["ID3D12CommandSignature","ID3D12CommandSignature interface","ID3D12CommandSignature interface","described","d3d12/ID3D12CommandSignature","direct3d12.id3d12commandsignature"]
+description: A command signature object enables apps to specify indirect drawing, including the buffer format, command type and resource bindings to be used.
+helpviewer_keywords: ["ID3D12CommandSignature","ID3D12CommandSignature interface","ID3D12CommandSignature interface","described","d3d12/ID3D12CommandSignature","direct3d12.id3d12commandsignature"]
 old-location: direct3d12\id3d12commandsignature.htm
 tech.root: direct3d12
 ms.assetid: 57EC15D0-9056-4AFC-86EF-3658DEA8AF40

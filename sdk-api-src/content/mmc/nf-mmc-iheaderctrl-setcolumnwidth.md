@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IHeaderCtrl.SetColumnWidth
 title: IHeaderCtrl::SetColumnWidth (mmc.h)
-description: Sets the width, in pixels, of a specific column.helpviewer_keywords: ["IHeaderCtrl interface [MMC]","SetColumnWidth method","IHeaderCtrl.SetColumnWidth","IHeaderCtrl::SetColumnWidth","MMCLV_AUTO","SetColumnWidth","SetColumnWidth method [MMC]","SetColumnWidth method [MMC]","IHeaderCtrl interface","mmc.iheaderctrl_setcolumnwidth","mmc/IHeaderCtrl::SetColumnWidth"]
+description: Sets the width, in pixels, of a specific column.
+helpviewer_keywords: ["IHeaderCtrl interface [MMC]","SetColumnWidth method","IHeaderCtrl.SetColumnWidth","IHeaderCtrl::SetColumnWidth","MMCLV_AUTO","SetColumnWidth","SetColumnWidth method [MMC]","SetColumnWidth method [MMC]","IHeaderCtrl interface","mmc.iheaderctrl_setcolumnwidth","mmc/IHeaderCtrl::SetColumnWidth"]
 old-location: mmc\iheaderctrl_setcolumnwidth.htm
 tech.root: mmc
 ms.assetid: E704FF35-3859-4313-B42D-77A114AA6E78

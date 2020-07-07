@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.SetProcessPreferredUILanguages
 title: SetProcessPreferredUILanguages function (winnls.h)
-description: Sets the process preferred UI languages for the application process. For more information, see User Interface Language Management.helpviewer_keywords: ["MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","SetProcessPreferredUILanguages","SetProcessPreferredUILanguages function [Internationalization for Windows Applications]","intl.setprocesspreferreduilanguages","winnls/SetProcessPreferredUILanguages"]
+description: Sets the process preferred UI languages for the application process. For more information, see User Interface Language Management.
+helpviewer_keywords: ["MUI_LANGUAGE_ID","MUI_LANGUAGE_NAME","SetProcessPreferredUILanguages","SetProcessPreferredUILanguages function [Internationalization for Windows Applications]","intl.setprocesspreferreduilanguages","winnls/SetProcessPreferredUILanguages"]
 old-location: intl\setprocesspreferreduilanguages.htm
 tech.root: Intl
 ms.assetid: 81f65561-886d-4c29-aca6-ea69bc865ea0

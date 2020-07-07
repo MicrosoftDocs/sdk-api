@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IPBDAAttributesDescriptor.GetTag
 title: IPBDAAttributesDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that uniquely identifies an attributes descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IPBDAAttributesDescriptor interface","IPBDAAttributesDescriptor interface [Microsoft TV Technologies]","GetTag method","IPBDAAttributesDescriptor.GetTag","IPBDAAttributesDescriptor::GetTag","dvbsiparser/IPBDAAttributesDescriptor::GetTag","mstv.ipbdaattributesdescriptor_gettag"]
+description: Gets the tag that uniquely identifies an attributes descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.
+helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IPBDAAttributesDescriptor interface","IPBDAAttributesDescriptor interface [Microsoft TV Technologies]","GetTag method","IPBDAAttributesDescriptor.GetTag","IPBDAAttributesDescriptor::GetTag","dvbsiparser/IPBDAAttributesDescriptor::GetTag","mstv.ipbdaattributesdescriptor_gettag"]
 old-location: mstv\ipbdaattributesdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 397e76b6-83f2-4d0c-87a0-0575aa746020

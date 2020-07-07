@@ -1,7 +1,8 @@
 ---
 UID: NF:vmr9.IVMRFilterConfig9.GetNumberOfStreams
 title: IVMRFilterConfig9::GetNumberOfStreams (vmr9.h)
-description: The GetNumberOfStreams method retrieves the number of input streams being mixed.helpviewer_keywords: ["GetNumberOfStreams","GetNumberOfStreams method [DirectShow]","GetNumberOfStreams method [DirectShow]","IVMRFilterConfig9 interface","IVMRFilterConfig9 interface [DirectShow]","GetNumberOfStreams method","IVMRFilterConfig9.GetNumberOfStreams","IVMRFilterConfig9::GetNumberOfStreams","IVMRFilterConfig9GetNumberOfStreams","dshow.ivmrfilterconfig9_getnumberofstreams","vmr9/IVMRFilterConfig9::GetNumberOfStreams"]
+description: The GetNumberOfStreams method retrieves the number of input streams being mixed.
+helpviewer_keywords: ["GetNumberOfStreams","GetNumberOfStreams method [DirectShow]","GetNumberOfStreams method [DirectShow]","IVMRFilterConfig9 interface","IVMRFilterConfig9 interface [DirectShow]","GetNumberOfStreams method","IVMRFilterConfig9.GetNumberOfStreams","IVMRFilterConfig9::GetNumberOfStreams","IVMRFilterConfig9GetNumberOfStreams","dshow.ivmrfilterconfig9_getnumberofstreams","vmr9/IVMRFilterConfig9::GetNumberOfStreams"]
 old-location: dshow\ivmrfilterconfig9_getnumberofstreams.htm
 tech.root: DirectShow
 ms.assetid: 34b26c3a-ac5d-479e-ac9d-c782cd5dded8

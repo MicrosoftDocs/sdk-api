@@ -1,7 +1,8 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0016
 title: DSMCC_FILTER_OPTIONS (mpeg2structs.h)
-description: The DSMCC_FILTER_OPTIONS structure specifies additional filtering criteria for the DSM-CC portions of the section header.helpviewer_keywords: ["DSMCC_FILTER_OPTIONS","DSMCC_FILTER_OPTIONS structure [Microsoft TV Technologies]","mpeg2structs/DSMCC_FILTER_OPTIONS","mstv.dsmcc_filter_options"]
+description: The DSMCC_FILTER_OPTIONS structure specifies additional filtering criteria for the DSM-CC portions of the section header.
+helpviewer_keywords: ["DSMCC_FILTER_OPTIONS","DSMCC_FILTER_OPTIONS structure [Microsoft TV Technologies]","mpeg2structs/DSMCC_FILTER_OPTIONS","mstv.dsmcc_filter_options"]
 old-location: mstv\dsmcc_filter_options.htm
 tech.root: mstv
 ms.assetid: a8be6d69-1b41-49f0-8588-624b8de98678

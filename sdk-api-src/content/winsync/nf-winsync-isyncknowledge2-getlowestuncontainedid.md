@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetLowestUncontainedId
 title: ISyncKnowledge2::GetLowestUncontainedId (winsync.h)
-description: Returns the lowest item ID that is not contained in this knowledge and that is contained in the specified knowledge.helpviewer_keywords: ["GetLowestUncontainedId","GetLowestUncontainedId method [Windows Sync]","GetLowestUncontainedId method [Windows Sync]","ISyncKnowledge2 interface","ISyncKnowledge2 interface [Windows Sync]","GetLowestUncontainedId method","ISyncKnowledge2.GetLowestUncontainedId","ISyncKnowledge2::GetLowestUncontainedId","winsync.isyncknowledge2_getlowestuncontainedid","winsync/ISyncKnowledge2::GetLowestUncontainedId"]
+description: Returns the lowest item ID that is not contained in this knowledge and that is contained in the specified knowledge.
+helpviewer_keywords: ["GetLowestUncontainedId","GetLowestUncontainedId method [Windows Sync]","GetLowestUncontainedId method [Windows Sync]","ISyncKnowledge2 interface","ISyncKnowledge2 interface [Windows Sync]","GetLowestUncontainedId method","ISyncKnowledge2.GetLowestUncontainedId","ISyncKnowledge2::GetLowestUncontainedId","winsync.isyncknowledge2_getlowestuncontainedid","winsync/ISyncKnowledge2::GetLowestUncontainedId"]
 old-location: winsync\isyncknowledge2_getlowestuncontainedid.htm
 tech.root: winsync
 ms.assetid: 06a1a380-3fe8-4c99-be97-d84b6be9838d

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_DEPTH_STENCILOP_DESC
 title: D3D12_DEPTH_STENCILOP_DESC (d3d12.h)
-description: Describes stencil operations that can be performed based on the results of stencil test.helpviewer_keywords: ["D3D12_DEPTH_STENCILOP_DESC","D3D12_DEPTH_STENCILOP_DESC structure","d3d12/D3D12_DEPTH_STENCILOP_DESC","direct3d12.d3d12_depth_stencilop_desc"]
+description: Describes stencil operations that can be performed based on the results of stencil test.
+helpviewer_keywords: ["D3D12_DEPTH_STENCILOP_DESC","D3D12_DEPTH_STENCILOP_DESC structure","d3d12/D3D12_DEPTH_STENCILOP_DESC","direct3d12.d3d12_depth_stencilop_desc"]
 old-location: direct3d12\d3d12_depth_stencilop_desc.htm
 tech.root: direct3d12
 ms.assetid: 1E72B486-98E1-4140-80E3-6DF95ECA82DB

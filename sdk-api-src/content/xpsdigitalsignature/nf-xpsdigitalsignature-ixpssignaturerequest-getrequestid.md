@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.GetRequestId
 title: IXpsSignatureRequest::GetRequestId (xpsdigitalsignature.h)
-description: Gets the unique identifier of the signature request.helpviewer_keywords: ["GetRequestId","GetRequestId method [XPS Documents and Packaging]","GetRequestId method [XPS Documents and Packaging]","IXpsSignatureRequest interface","IXpsSignatureRequest interface [XPS Documents and Packaging]","GetRequestId method","IXpsSignatureRequest.GetRequestId","IXpsSignatureRequest::GetRequestId","xps.ixpssignaturerequest_getrequestid","xpsdigitalsignature/IXpsSignatureRequest::GetRequestId"]
+description: Gets the unique identifier of the signature request.
+helpviewer_keywords: ["GetRequestId","GetRequestId method [XPS Documents and Packaging]","GetRequestId method [XPS Documents and Packaging]","IXpsSignatureRequest interface","IXpsSignatureRequest interface [XPS Documents and Packaging]","GetRequestId method","IXpsSignatureRequest.GetRequestId","IXpsSignatureRequest::GetRequestId","xps.ixpssignaturerequest_getrequestid","xpsdigitalsignature/IXpsSignatureRequest::GetRequestId"]
 old-location: xps\ixpssignaturerequest_getrequestid.htm
 tech.root: printdocs
 ms.assetid: abca5fdf-258b-4ce8-8b29-eae9a6d17cd7

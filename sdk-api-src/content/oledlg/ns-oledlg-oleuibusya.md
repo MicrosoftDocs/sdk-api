@@ -1,7 +1,8 @@
 ---
 UID: NS:oledlg.tagOLEUIBUSYA
 title: OLEUIBUSYA (oledlg.h)
-description: Contains information that the OLE User Interface Library uses to initialize the Busy dialog box, and space for the library to return information when the dialog box is dismissed.helpviewer_keywords: ["*LPOLEUIBUSYA","*POLEUIBUSYA","BZ_DISABLECANCELBUTTON","BZ_DISABLERETRYBUTTON","BZ_DISABLESWITCHTOBUTTON","BZ_NOTRESPONDINGDIALOG","LPOLEUIBUSY","LPOLEUIBUSY structure pointer [COM]","OLEUIBUSY","OLEUIBUSY structure [COM]","OLEUIBUSYA","OLEUIBUSYW","POLEUIBUSY","POLEUIBUSY structure pointer [COM]","_ole_OLEUIBUSY_str","com.oleuibusy_struct","oledlg/LPOLEUIBUSY","oledlg/OLEUIBUSY","oledlg/OLEUIBUSYA","oledlg/OLEUIBUSYW","oledlg/POLEUIBUSY"]
+description: Contains information that the OLE User Interface Library uses to initialize the Busy dialog box, and space for the library to return information when the dialog box is dismissed.
+helpviewer_keywords: ["*LPOLEUIBUSYA","*POLEUIBUSYA","BZ_DISABLECANCELBUTTON","BZ_DISABLERETRYBUTTON","BZ_DISABLESWITCHTOBUTTON","BZ_NOTRESPONDINGDIALOG","LPOLEUIBUSY","LPOLEUIBUSY structure pointer [COM]","OLEUIBUSY","OLEUIBUSY structure [COM]","OLEUIBUSYA","OLEUIBUSYW","POLEUIBUSY","POLEUIBUSY structure pointer [COM]","_ole_OLEUIBUSY_str","com.oleuibusy_struct","oledlg/LPOLEUIBUSY","oledlg/OLEUIBUSY","oledlg/OLEUIBUSYA","oledlg/OLEUIBUSYW","oledlg/POLEUIBUSY"]
 old-location: com\oleuibusy_struct.htm
 tech.root: com
 ms.assetid: 53c30da9-36f3-40f0-8176-15df1a34bdb8
@@ -172,4 +173,9 @@ Pointer to the dialog box's <b>HWND</b>.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The oledlg.h header defines OLEUIBUSY as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

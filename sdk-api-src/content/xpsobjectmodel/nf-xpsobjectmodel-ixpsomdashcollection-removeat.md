@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDashCollection.RemoveAt
 title: IXpsOMDashCollection::RemoveAt (xpsobjectmodel.h)
-description: Removes and frees an XPS_DASH structure from a specified location in the collection.helpviewer_keywords: ["IXpsOMDashCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMDashCollection.RemoveAt","IXpsOMDashCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMDashCollection interface","xps.ixpsomdashcollection_removeat","xpsobjectmodel/IXpsOMDashCollection::RemoveAt"]
+description: Removes and frees an XPS_DASH structure from a specified location in the collection.
+helpviewer_keywords: ["IXpsOMDashCollection interface [XPS Documents and Packaging]","RemoveAt method","IXpsOMDashCollection.RemoveAt","IXpsOMDashCollection::RemoveAt","RemoveAt","RemoveAt method [XPS Documents and Packaging]","RemoveAt method [XPS Documents and Packaging]","IXpsOMDashCollection interface","xps.ixpsomdashcollection_removeat","xpsobjectmodel/IXpsOMDashCollection::RemoveAt"]
 old-location: xps\ixpsomdashcollection_removeat.htm
 tech.root: printdocs
 ms.assetid: 5ccce0d4-c764-4da4-9d7c-463921a92a6a
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Removes and frees an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure from a specified location in the collection.
+Removes and frees an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure from a specified location in the collection.
 
 
 ## -parameters
@@ -59,7 +60,7 @@ Removes and frees an <a href="https://docs.microsoft.com/windows/win32/api/xpsob
 
 ### -param index [in]
 
-The zero-based index in the collection from which  an <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure is to be removed and freed.
+The zero-based index in the collection from which  an <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure is to be removed and freed.
 
 
 ## -returns
@@ -75,7 +76,7 @@ If the method succeeds, it returns S_OK; otherwise, it returns an <b>HRESULT</b>
 
 
 
-This method removes and frees  the <a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure  referenced by the pointer at  the location specified by <i>index</i>. After freeing the structure, this method compacts the collection by   reducing by 1 the index of each pointer subsequent to <i>index</i>.
+This method removes and frees  the <a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a> structure  referenced by the pointer at  the location specified by <i>index</i>. After freeing the structure, this method compacts the collection by   reducing by 1 the index of each pointer subsequent to <i>index</i>.
 
 The figure that follows illustrates how the collection is changed by the <b>RemoveAt</b> method.
 
@@ -96,7 +97,7 @@ The figure that follows illustrates how the collection is changed by the <b>Remo
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
+<a href="/windows/win32/api/xpsobjectmodel/ns-xpsobjectmodel-xps_dash">XPS_DASH</a>
  
 
  

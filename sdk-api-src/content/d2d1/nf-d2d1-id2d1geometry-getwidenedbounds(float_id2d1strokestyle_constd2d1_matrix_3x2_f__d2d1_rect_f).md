@@ -1,7 +1,8 @@
 ---
-UID: NF:d2d1.ID2D1Geometry.GetWidenedBounds(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,D2D1_RECT_F)
+UID: NF:d2d1.ID2D1Geometry.GetWidenedBounds(FLOAT,ID2D1StrokeStyle,constD2D1_MATRIX_3X2_F&,D2D1_RECT_F)
 title: ID2D1Geometry::GetWidenedBounds(FLOAT,ID2D1StrokeStyle,const D2D1_MATRIX_3X2_F &,D2D1_RECT_F) (d2d1.h)
-description: Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.helpviewer_keywords: ["GetWidenedBounds","GetWidenedBounds method [Direct2D]","GetWidenedBounds method [Direct2D]","ID2D1Geometry interface","ID2D1Geometry interface [Direct2D]","GetWidenedBounds method","ID2D1Geometry.GetWidenedBounds","ID2D1Geometry.GetWidenedBounds(FLOAT","ID2D1StrokeStyle","const D2D1_MATRIX_3X2_F &","D2D1_RECT_F)","ID2D1Geometry::GetWidenedBounds","ID2D1Geometry::GetWidenedBounds(FLOAT","ID2D1StrokeStyle","const D2D1_MATRIX_3X2_F &","D2D1_RECT_F)","d2d1/ID2D1Geometry::GetWidenedBounds","direct2d.ID2D1Geometry_GetWidenedBounds_FLOAT_ptr_ID2D1StrokeStyle_ref_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F"]
+description: Gets the bounds of the geometry after it has been widened by the specified stroke width and style and transformed by the specified matrix.
+helpviewer_keywords: ["GetWidenedBounds","GetWidenedBounds method [Direct2D]","GetWidenedBounds method [Direct2D]","ID2D1Geometry interface","ID2D1Geometry interface [Direct2D]","GetWidenedBounds method","ID2D1Geometry.GetWidenedBounds","ID2D1Geometry.GetWidenedBounds(FLOAT","ID2D1StrokeStyle","const D2D1_MATRIX_3X2_F &","D2D1_RECT_F)","ID2D1Geometry::GetWidenedBounds","ID2D1Geometry::GetWidenedBounds(FLOAT","ID2D1StrokeStyle","const D2D1_MATRIX_3X2_F &","D2D1_RECT_F)","d2d1/ID2D1Geometry::GetWidenedBounds","direct2d.ID2D1Geometry_GetWidenedBounds_FLOAT_ptr_ID2D1StrokeStyle_ref_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F"]
 old-location: direct2d\ID2D1Geometry_GetWidenedBounds_FLOAT_ptr_ID2D1StrokeStyle_ref_D2D_MATRIX_3X2_F_ptr_D2D_RECT_F.htm
 tech.root: Direct2D
 ms.assetid: 02f27bcd-8d00-4ae7-a498-98052254b56d
@@ -66,7 +67,7 @@ The amount by which to widen the geometry by stroking its outline.
 
 ### -param strokeStyle [in, optional]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>*</b>
 
 The style of the stroke that widens the geometry.
 
@@ -74,14 +75,14 @@ The style of the stroke that widens the geometry.
 
 ### -param worldTransform [ref]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
+Type: <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a></b>
 
 A transform to apply to the geometry after the geometry is transformed and after the geometry has been stroked.
 
 
 ### -param bounds [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 When this method returns, contains the bounds of the widened geometry. You must allocate storage for this parameter.
 
@@ -92,7 +93,7 @@ When this method returns, contains the bounds of the widened geometry. You must 
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 
 
@@ -102,7 +103,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometry">ID2D1Geometry</a>
  
 
  

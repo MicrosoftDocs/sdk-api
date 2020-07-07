@@ -1,7 +1,8 @@
 ---
 UID: NF:wdsclientapi.WdsCliRegisterTrace
 title: WdsCliRegisterTrace function (wdsclientapi.h)
-description: Registers a callback function that will receive debugging messages.helpviewer_keywords: ["WdsCliRegisterTrace","WdsCliRegisterTrace function [Windows Deployment Services]","wds.wdscliregistertrace","wdsclientapi/WdsCliRegisterTrace"]
+description: Registers a callback function that will receive debugging messages.
+helpviewer_keywords: ["WdsCliRegisterTrace","WdsCliRegisterTrace function [Windows Deployment Services]","wds.wdscliregistertrace","wdsclientapi/WdsCliRegisterTrace"]
 old-location: wds\wdscliregistertrace.htm
 tech.root: wds
 ms.assetid: 1bdb1e47-fbbb-4952-9339-accdfe40bd18

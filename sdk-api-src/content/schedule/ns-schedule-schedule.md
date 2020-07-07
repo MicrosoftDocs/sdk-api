@@ -1,7 +1,8 @@
 ---
 UID: NS:schedule._SCHEDULE
 title: SCHEDULE (schedule.h)
-description: Used with the DsReplicaAdd and DsReplicaModify functions to contain replication schedule data for a replication source.helpviewer_keywords: ["*PSCHEDULE","PSCHEDULE","PSCHEDULE structure pointer [Active Directory]","SCHEDULE","SCHEDULE structure [Active Directory]","ad.schedule","schedule/PSCHEDULE","schedule/SCHEDULE"]
+description: Used with the DsReplicaAdd and DsReplicaModify functions to contain replication schedule data for a replication source.
+helpviewer_keywords: ["*PSCHEDULE","PSCHEDULE","PSCHEDULE structure pointer [Active Directory]","SCHEDULE","SCHEDULE structure [Active Directory]","ad.schedule","schedule/PSCHEDULE","schedule/SCHEDULE"]
 old-location: ad\schedule.htm
 tech.root: ad
 ms.assetid: d86890db-b34a-415a-820a-6d4790914218

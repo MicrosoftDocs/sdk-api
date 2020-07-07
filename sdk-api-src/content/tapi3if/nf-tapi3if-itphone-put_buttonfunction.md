@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITPhone.put_ButtonFunction
 title: ITPhone::put_ButtonFunction (tapi3if.h)
-description: The put_ButtonFunction method sets the button function.helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","put_ButtonFunction method","ITPhone.put_ButtonFunction","ITPhone::put_ButtonFunction","_tapi3_itphone_put_buttonfunction","put_ButtonFunction","put_ButtonFunction method [TAPI 2.2]","put_ButtonFunction method [TAPI 2.2]","ITPhone interface","tapi3.itphone_put_buttonfunction","tapi3if/ITPhone::put_ButtonFunction"]
+description: The put_ButtonFunction method sets the button function.
+helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","put_ButtonFunction method","ITPhone.put_ButtonFunction","ITPhone::put_ButtonFunction","_tapi3_itphone_put_buttonfunction","put_ButtonFunction","put_ButtonFunction method [TAPI 2.2]","put_ButtonFunction method [TAPI 2.2]","ITPhone interface","tapi3.itphone_put_buttonfunction","tapi3if/ITPhone::put_ButtonFunction"]
 old-location: tapi3\itphone_put_buttonfunction.htm
 tech.root: Tapi
 ms.assetid: 8002ab8a-a15d-4a1f-b0c3-7a15c61cb6c4

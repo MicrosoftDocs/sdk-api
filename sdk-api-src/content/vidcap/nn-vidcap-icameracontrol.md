@@ -1,7 +1,8 @@
 ---
 UID: NN:vidcap.ICameraControl
 title: ICameraControl (vidcap.h)
-description: The ICameraControl interface controls the camera settings on a capture device.This interface may be exposed by one or more nodes in a capture filter.helpviewer_keywords: ["ICameraControl","ICameraControl interface [DirectShow]","ICameraControl interface [DirectShow]","described","ICameraControlInterface","dshow.icameracontrol","vidcap/ICameraControl"]
+description: The ICameraControl interface controls the camera settings on a capture device.This interface may be exposed by one or more nodes in a capture filter.
+helpviewer_keywords: ["ICameraControl","ICameraControl interface [DirectShow]","ICameraControl interface [DirectShow]","described","ICameraControlInterface","dshow.icameracontrol","vidcap/ICameraControl"]
 old-location: dshow\icameracontrol.htm
 tech.root: DirectShow
 ms.assetid: 7046f96d-a613-4056-84dd-be022efdda4f

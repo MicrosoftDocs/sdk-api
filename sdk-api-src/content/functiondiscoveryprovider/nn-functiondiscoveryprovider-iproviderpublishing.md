@@ -1,7 +1,8 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderPublishing
 title: IProviderPublishing (functiondiscoveryprovider.h)
-description: Is implemented by a discovery provider to enable a client program to add and remove function instances.helpviewer_keywords: ["IProviderPublishing","IProviderPublishing interface","IProviderPublishing interface","described","functiondiscoveryprovider/IProviderPublishing","ncd.iproviderpublishing"]
+description: Is implemented by a discovery provider to enable a client program to add and remove function instances.
+helpviewer_keywords: ["IProviderPublishing","IProviderPublishing interface","IProviderPublishing interface","described","functiondiscoveryprovider/IProviderPublishing","ncd.iproviderpublishing"]
 old-location: ncd\iproviderpublishing.htm
 tech.root: FunDisc
 ms.assetid: 7647db1b-88c8-44f3-b2af-a61dad4790f6

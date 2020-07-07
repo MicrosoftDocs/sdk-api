@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidPlayback.put_Rate
 title: IMSVidPlayback::put_Rate (segment.h)
-description: The put_Rate method sets the playback rate.helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","put_Rate method","IMSVidPlayback.put_Rate","IMSVidPlayback::put_Rate","IMSVidPlaybackput_Rate","mstv.imsvidplayback_put_rate","put_Rate","put_Rate method [Microsoft TV Technologies]","put_Rate method [Microsoft TV Technologies]","IMSVidPlayback interface","segment/IMSVidPlayback::put_Rate"]
+description: The put_Rate method sets the playback rate.
+helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","put_Rate method","IMSVidPlayback.put_Rate","IMSVidPlayback::put_Rate","IMSVidPlaybackput_Rate","mstv.imsvidplayback_put_rate","put_Rate","put_Rate method [Microsoft TV Technologies]","put_Rate method [Microsoft TV Technologies]","IMSVidPlayback interface","segment/IMSVidPlayback::put_Rate"]
 old-location: mstv\imsvidplayback_put_rate.htm
 tech.root: mstv
 ms.assetid: a3542d7c-6333-4832-a24a-0b778ea83a4c

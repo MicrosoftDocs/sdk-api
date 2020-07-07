@@ -1,7 +1,8 @@
 ---
 UID: NF:ddpbackup.IDedupReadFileCallback.ReadBackupFile
 title: IDedupReadFileCallback::ReadBackupFile (ddpbackup.h)
-description: Reads data from a Data Deduplication store metadata or container file located in the backup store.helpviewer_keywords: ["IDedupReadFileCallback interface [Data Deduplication API]","ReadBackupFile method","IDedupReadFileCallback.ReadBackupFile","IDedupReadFileCallback::ReadBackupFile","ReadBackupFile","ReadBackupFile method [Data Deduplication API]","ReadBackupFile method [Data Deduplication API]","IDedupReadFileCallback interface","ddpbackup/IDedupReadFileCallback::ReadBackupFile","dedup.idedupreadfilecallback_readbackupfile"]
+description: Reads data from a Data Deduplication store metadata or container file located in the backup store.
+helpviewer_keywords: ["IDedupReadFileCallback interface [Data Deduplication API]","ReadBackupFile method","IDedupReadFileCallback.ReadBackupFile","IDedupReadFileCallback::ReadBackupFile","ReadBackupFile","ReadBackupFile method [Data Deduplication API]","ReadBackupFile method [Data Deduplication API]","IDedupReadFileCallback interface","ddpbackup/IDedupReadFileCallback::ReadBackupFile","dedup.idedupreadfilecallback_readbackupfile"]
 old-location: dedup\idedupreadfilecallback_readbackupfile.htm
 tech.root: dedup
 ms.assetid: 9A85B32B-7430-46AC-A9BF-2896651F40AF

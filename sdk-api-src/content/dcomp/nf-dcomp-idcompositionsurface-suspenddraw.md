@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.SuspendDraw
 title: IDCompositionSurface::SuspendDraw (dcomp.h)
-description: Suspends the drawing on this Microsoft DirectComposition surface object.helpviewer_keywords: ["IDCompositionSurface interface [DirectComposition]","SuspendDraw method","IDCompositionSurface.SuspendDraw","IDCompositionSurface::SuspendDraw","SuspendDraw","SuspendDraw method [DirectComposition]","SuspendDraw method [DirectComposition]","IDCompositionSurface interface","dcomp/IDCompositionSurface::SuspendDraw","directcomp.idcompositionsurface_suspenddraw"]
+description: Suspends the drawing on this Microsoft DirectComposition surface object.
+helpviewer_keywords: ["IDCompositionSurface interface [DirectComposition]","SuspendDraw method","IDCompositionSurface.SuspendDraw","IDCompositionSurface::SuspendDraw","SuspendDraw","SuspendDraw method [DirectComposition]","SuspendDraw method [DirectComposition]","IDCompositionSurface interface","dcomp/IDCompositionSurface::SuspendDraw","directcomp.idcompositionsurface_suspenddraw"]
 old-location: directcomp\idcompositionsurface_suspenddraw.htm
 tech.root: directcomp
 ms.assetid: B3CD2007-502C-48EF-989E-4C690B2B65D8

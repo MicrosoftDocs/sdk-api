@@ -1,7 +1,8 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetParentCAInformation
 title: ICertSrvSetup::SetParentCAInformation (casetup.h)
-description: Sets the parent certification authority (CA) information for a subordinate CA configuration.helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetParentCAInformation method","ICertSrvSetup.SetParentCAInformation","ICertSrvSetup::SetParentCAInformation","SetParentCAInformation","SetParentCAInformation method [Security]","SetParentCAInformation method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetParentCAInformation","security.icertsrvsetup_setparentcainformation"]
+description: Sets the parent certification authority (CA) information for a subordinate CA configuration.
+helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetParentCAInformation method","ICertSrvSetup.SetParentCAInformation","ICertSrvSetup::SetParentCAInformation","SetParentCAInformation","SetParentCAInformation method [Security]","SetParentCAInformation method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetParentCAInformation","security.icertsrvsetup_setparentcainformation"]
 old-location: security\icertsrvsetup_setparentcainformation.htm
 tech.root: SecCrypto
 ms.assetid: 73c4782d-579d-48d7-b999-f15a2443bbca
@@ -69,7 +70,7 @@ A string that contains a valid configuration for the parent CA. The string must 
 The <b>SetParentCAInformation</b> method pings the parent CA computer to verify that it is available on the network.
 
 Upon success, <b>SetParentCAInformation</b> sets the ENUM_SETUPPROP_PARENTCAMACHINE and ENUM_SETUPPROP_PARENTCANAME properties for the subordinate CA configuration.
-For more information about setup properties, see <a href="https://docs.microsoft.com/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
+For more information about setup properties, see <a href="/windows/win32/api/casetup/ne-casetup-casetupproperty">CASetupProperty</a>.
 
 
 

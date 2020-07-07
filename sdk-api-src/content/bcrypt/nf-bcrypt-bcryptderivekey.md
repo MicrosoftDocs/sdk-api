@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptDeriveKey
 title: BCryptDeriveKey function (bcrypt.h)
-description: Derives a key from a secret agreement value.helpviewer_keywords: ["BCRYPT_KDF_HASH","BCRYPT_KDF_HMAC","BCRYPT_KDF_SP80056A_CONCAT","BCRYPT_KDF_TLS_PRF","BCryptDeriveKey","BCryptDeriveKey function [Security]","KDF_USE_SECRET_AS_HMAC_KEY_FLAG","bcrypt/BCryptDeriveKey","security.bcryptderivekey"]
+description: Derives a key from a secret agreement value.
+helpviewer_keywords: ["BCRYPT_KDF_HASH","BCRYPT_KDF_HMAC","BCRYPT_KDF_SP80056A_CONCAT","BCRYPT_KDF_TLS_PRF","BCryptDeriveKey","BCryptDeriveKey function [Security]","KDF_USE_SECRET_AS_HMAC_KEY_FLAG","bcrypt/BCryptDeriveKey","security.bcryptderivekey"]
 old-location: security\bcryptderivekey.htm
 tech.root: SecCNG
 ms.assetid: 33c3cbf7-6c08-42ed-ac3f-feb71f3a9cbf
@@ -50,7 +51,9 @@ ms.custom: 19H1
 ## -description
 
 
-The <b>BCryptDeriveKey</b> function derives a key from a secret agreement value.
+The <b>BCryptDeriveKey</b> function derives a key from a secret agreement value. 
+
+For key derivation from a given secret, see <a href="https://docs.microsoft.com/windows/win32/api/bcrypt/nf-bcrypt-bcryptkeyderivation">BCryptKeyDerivation</a>.
 
 
 ## -parameters
@@ -440,6 +443,15 @@ The call to the KDF is made as shown in the following pseudocode.
 	   KDF_SUPPPRIVINFO)</code></pre>
 <b>Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
 
+#### BCRYPT_KDF_RAW_SECRET (L"TRUNCATE")
+
+Returns the little-endian representation of the raw secret without any modification.
+
+If the <i>cbDerivedKey</i> parameter is less than the size of the derived key, this function will only copy the specified number of bytes to the <i>pbDerivedKey</i> buffer. If the <i>cbDerivedKey</i> parameter is greater than the size of the derived key, this function will copy the key to the <i>pbDerivedKey</i> buffer and set the variable pointed to by the <i>pcbResult</i> to the actual number of bytes copied.
+
+<b>Windows 8, Windows Server 2008, Windows Vista, Windows Server 2003 and Windows XP:  </b>This value is not supported.
+
+
 
 ### -param pParameterList [in, optional]
 
@@ -587,6 +599,10 @@ Value: {0x04, 0x05, 0x20, 0x21, 0x22, 0x23}, length 6
 Type: KDF_SECRET_APPEND
 Value: {0x01, 0x10, 0x11, 0x12}, length 4
 </code></pre>
+
+If the <i>pwszKDF</i> parameter is set to <b>BCRYPT_KDF_RAW_SECRET</b>, The returned secret (unlike the other <i>pwszKDF</i> values) will be encoded in little-endian format. It is important to take note of this when using the raw secret in any other CNG functions, as most of them take in big-endian encoded inputs.
+
+
 Depending on what processor modes a provider supports, <b>BCryptDeriveKey</b> can be called either from user mode or kernel mode. Kernel mode callers can execute either at <b>PASSIVE_LEVEL</b> <a href="https://docs.microsoft.com/windows/desktop/SecGloss/i-gly">IRQL</a> or <b>DISPATCH_LEVEL</b> IRQL. If the current IRQL level is <b>DISPATCH_LEVEL</b>, the handle provided in the <i>hSharedSecret</i> parameter must be located in nonpaged (or locked) memory and must be derived from an algorithm handle returned by a provider that was opened by using the <b>BCRYPT_PROV_DISPATCH</b> flag.
 
 To call this function in kernel mode, use Cng.lib, which is part of the Driver Development Kit (DDK). <b>Windows Server 2008 and Windows Vista:  </b>To call this function in kernel mode, use Ksecdd.lib.
@@ -603,6 +619,3 @@ To call this function in kernel mode, use Cng.lib, which is part of the Driver D
 
 <a href="https://docs.microsoft.com/windows/desktop/api/bcrypt/nf-bcrypt-bcryptsecretagreement">BCryptSecretAgreement</a>
  
-
- 
-

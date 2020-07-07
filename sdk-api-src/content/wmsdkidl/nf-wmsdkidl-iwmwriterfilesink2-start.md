@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.Start
 title: IWMWriterFileSink2::Start (wmsdkidl.h)
-description: The Start method starts recording at the specified time.helpviewer_keywords: ["IWMWriterFileSink2 interface [windows Media Format]","Start method","IWMWriterFileSink2.Start","IWMWriterFileSink2::Start","IWMWriterFileSink2Start","Start","Start method [windows Media Format]","Start method [windows Media Format]","IWMWriterFileSink2 interface","wmformat.iwmwriterfilesink2_start","wmsdkidl/IWMWriterFileSink2::Start"]
+description: The Start method starts recording at the specified time.
+helpviewer_keywords: ["IWMWriterFileSink2 interface [windows Media Format]","Start method","IWMWriterFileSink2.Start","IWMWriterFileSink2::Start","IWMWriterFileSink2Start","Start","Start method [windows Media Format]","Start method [windows Media Format]","IWMWriterFileSink2 interface","wmformat.iwmwriterfilesink2_start","wmsdkidl/IWMWriterFileSink2::Start"]
 old-location: wmformat\iwmwriterfilesink2_start.htm
 tech.root: wmformat
 ms.assetid: b4bfddbb-9156-42bf-b8d5-424fff9f4b64

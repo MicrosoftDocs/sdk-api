@@ -1,7 +1,8 @@
 ---
 UID: NN:vds.IVdsHbaPort
 title: IVdsHbaPort (vds.h)
-description: Provides methods to query and interact with HBA ports on the local system.helpviewer_keywords: ["IVdsHbaPort","IVdsHbaPort interface [VDS]","IVdsHbaPort interface [VDS]","described","base.ivdshbaport","vds/IVdsHbaPort"]
+description: Provides methods to query and interact with HBA ports on the local system.
+helpviewer_keywords: ["IVdsHbaPort","IVdsHbaPort interface [VDS]","IVdsHbaPort interface [VDS]","described","base.ivdshbaport","vds/IVdsHbaPort"]
 old-location: base\ivdshbaport.htm
 tech.root: VDS
 ms.assetid: beb6ae5c-b70a-4dbc-b16f-1b398a569f15

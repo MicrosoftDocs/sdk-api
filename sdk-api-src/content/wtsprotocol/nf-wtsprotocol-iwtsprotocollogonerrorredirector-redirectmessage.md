@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolLogonErrorRedirector.RedirectMessage
 title: IWTSProtocolLogonErrorRedirector::RedirectMessage (wtsprotocol.h)
-description: IWTSProtocolLogonErrorRedirector::RedirectMessage is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectMessage.helpviewer_keywords: ["IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services]","RedirectMessage method","IWTSProtocolLogonErrorRedirector.RedirectMessage","IWTSProtocolLogonErrorRedirector::RedirectMessage","RedirectMessage","RedirectMessage method [Remote Desktop Services]","RedirectMessage method [Remote Desktop Services]","IWTSProtocolLogonErrorRedirector interface","termserv.iwtsprotocollogonerrorredirector_redirectmessage","wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectMessage"]
+description: IWTSProtocolLogonErrorRedirector::RedirectMessage is no longer available. Instead, use IWRdsProtocolLogonErrorRedirector::RedirectMessage.
+helpviewer_keywords: ["IWTSProtocolLogonErrorRedirector interface [Remote Desktop Services]","RedirectMessage method","IWTSProtocolLogonErrorRedirector.RedirectMessage","IWTSProtocolLogonErrorRedirector::RedirectMessage","RedirectMessage","RedirectMessage method [Remote Desktop Services]","RedirectMessage method [Remote Desktop Services]","IWTSProtocolLogonErrorRedirector interface","termserv.iwtsprotocollogonerrorredirector_redirectmessage","wtsprotocol/IWTSProtocolLogonErrorRedirector::RedirectMessage"]
 old-location: termserv\iwtsprotocollogonerrorredirector_redirectmessage.htm
 tech.root: TermServ
 ms.assetid: 8db3657c-f64f-4e38-832e-5808557f479d
@@ -76,7 +77,7 @@ An integer that contains the message box type. For more information, see the <b>
 
 ### -param pResponse [out]
 
-A pointer to a <a href="https://docs.microsoft.com/windows/win32/api/wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that specifies to the Remote Desktop Services service the preferred response for redirecting the logon message.
+A pointer to a <a href="/windows/win32/api/wtsdefs/ne-wtsdefs-wts_logon_error_redirector_response">WTS_LOGON_ERROR_REDIRECTOR_RESPONSE</a> enumeration that specifies to the Remote Desktop Services service the preferred response for redirecting the logon message.
 
 
 ## -returns

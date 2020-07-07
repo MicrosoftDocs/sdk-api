@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapLock.GetStride
 title: IWICBitmapLock::GetStride (wincodec.h)
-description: Provides access to the stride value for the memory.helpviewer_keywords: ["GetStride","GetStride method [Windows Imaging Component]","GetStride method [Windows Imaging Component]","IWICBitmapLock interface","IWICBitmapLock interface [Windows Imaging Component]","GetStride method","IWICBitmapLock.GetStride","IWICBitmapLock::GetStride","_wic_codec_iwicbitmaplock_getstride","wic._wic_codec_iwicbitmaplock_getstride","wincodec/IWICBitmapLock::GetStride"]
+description: Provides access to the stride value for the memory.
+helpviewer_keywords: ["GetStride","GetStride method [Windows Imaging Component]","GetStride method [Windows Imaging Component]","IWICBitmapLock interface","IWICBitmapLock interface [Windows Imaging Component]","GetStride method","IWICBitmapLock.GetStride","IWICBitmapLock::GetStride","_wic_codec_iwicbitmaplock_getstride","wic._wic_codec_iwicbitmaplock_getstride","wincodec/IWICBitmapLock::GetStride"]
 old-location: wic\_wic_codec_iwicbitmaplock_getstride.htm
 tech.root: wic
 ms.assetid: f4bde79d-29a1-46bf-b7e4-91c39c2f0690

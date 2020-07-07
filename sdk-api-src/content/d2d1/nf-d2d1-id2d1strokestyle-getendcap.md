@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetEndCap
 title: ID2D1StrokeStyle::GetEndCap (d2d1.h)
-description: Retrieves the type of shape used at the end of a stroke.helpviewer_keywords: ["GetEndCap","GetEndCap method [Direct2D]","GetEndCap method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetEndCap method","ID2D1StrokeStyle.GetEndCap","ID2D1StrokeStyle::GetEndCap","d2d1/ID2D1StrokeStyle::GetEndCap","direct2d.ID2D1StrokeStyle_GetEndCap"]
+description: Retrieves the type of shape used at the end of a stroke.
+helpviewer_keywords: ["GetEndCap","GetEndCap method [Direct2D]","GetEndCap method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetEndCap method","ID2D1StrokeStyle.GetEndCap","ID2D1StrokeStyle::GetEndCap","d2d1/ID2D1StrokeStyle::GetEndCap","direct2d.ID2D1StrokeStyle_GetEndCap"]
 old-location: direct2d\ID2D1StrokeStyle_GetEndCap.htm
 tech.root: Direct2D
 ms.assetid: 06cf4629-9fa8-471a-9f92-94bdfb18c2d1
@@ -63,7 +64,7 @@ Retrieves the type of shape used at the end of a stroke.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_cap_style">D2D1_CAP_STYLE</a></b>
 
 The type of shape used at the end of a stroke.
 
@@ -75,7 +76,7 @@ The type of shape used at the end of a stroke.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle">ID2D1StrokeStyle</a>
  
 
  

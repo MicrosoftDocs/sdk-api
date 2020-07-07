@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITAddressCapabilities
 title: ITAddressCapabilities (tapi3if.h)
-description: The ITAddressCapabilities interface is used to obtain information about an address's capabilities. It is on the Address object, and an application can access it by calling QueryInterface on the Address object.helpviewer_keywords: ["ITAddressCapabilities","ITAddressCapabilities interface [TAPI 2.2]","ITAddressCapabilities interface [TAPI 2.2]","described","_tapi3_itaddresscapabilities","tapi3.itaddresscapabilities","tapi3if/ITAddressCapabilities"]
+description: The ITAddressCapabilities interface is used to obtain information about an address's capabilities. It is on the Address object, and an application can access it by calling QueryInterface on the Address object.
+helpviewer_keywords: ["ITAddressCapabilities","ITAddressCapabilities interface [TAPI 2.2]","ITAddressCapabilities interface [TAPI 2.2]","described","_tapi3_itaddresscapabilities","tapi3.itaddresscapabilities","tapi3if/ITAddressCapabilities"]
 old-location: tapi3\itaddresscapabilities.htm
 tech.root: Tapi
 ms.assetid: 36f452ce-9171-41da-b003-4c7df17790da

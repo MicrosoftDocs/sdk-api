@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmFilterTagDetailsA
 title: acmFilterTagDetailsA function (msacm.h)
-description: The acmFilterTagDetails function queries the ACM for details about a specific waveform-audio filter tag.helpviewer_keywords: ["_win32_acmFilterTagDetails","acmFilterTagDetails","acmFilterTagDetails function [Windows Multimedia]","acmFilterTagDetailsA","acmFilterTagDetailsW","msacm/acmFilterTagDetails","msacm/acmFilterTagDetailsA","msacm/acmFilterTagDetailsW","multimedia.acmfiltertagdetails"]
+description: The acmFilterTagDetails function queries the ACM for details about a specific waveform-audio filter tag.
+helpviewer_keywords: ["_win32_acmFilterTagDetails","acmFilterTagDetails","acmFilterTagDetails function [Windows Multimedia]","acmFilterTagDetailsA","acmFilterTagDetailsW","msacm/acmFilterTagDetails","msacm/acmFilterTagDetailsA","msacm/acmFilterTagDetailsW","multimedia.acmfiltertagdetails"]
 old-location: multimedia\acmfiltertagdetails.htm
 tech.root: Multimedia
 ms.assetid: 6b1fd113-5753-4a45-974c-ecf3f5d27866
@@ -70,7 +71,7 @@ Handle to the ACM driver to query for waveform-audio filter tag details. If this
 
 ### -param paftd
 
-Pointer to the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)a> structure that is to receive the filter tag details.
+Pointer to the [ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails) structure that is to receive the filter tag details.
 
 
 ### -param fdwDetails
@@ -86,11 +87,11 @@ Flags for getting the details. The following values are defined.
 </tr>
 <tr>
 <td>ACM_FILTERTAGDETAILSF_FILTERTAG</td>
-[ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails)a> structure. The filter tag details will be returned in the structure pointed to by <i>paftd</i>. If an application specifies an ACM driver handle for <i>had</i>, details on the filter tag will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
+[ACMFILTERTAGDETAILS](/windows/win32/api/msacm/nf-msacm-acmfiltertagdetails) structure. The filter tag details will be returned in the structure pointed to by <i>paftd</i>. If an application specifies an ACM driver handle for <i>had</i>, details on the filter tag will be returned for that driver. If an application specifies <b>NULL</b> for <i>had</i>, the ACM finds the first acceptable driver to return the details.</td>
 </tr>
 <tr>
 <td>ACM_FILTERTAGDETAILSF_INDEX</td>
-[ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails)a> structure for an ACM driver. An application must specify a driver handle for <i>had</i> when retrieving filter tag details with this flag.</td>
+[ACMDRIVERDETAILS](/windows/win32/api/msacm/nf-msacm-acmdriverdetails) structure for an ACM driver. An application must specify a driver handle for <i>had</i> when retrieving filter tag details with this flag.</td>
 </tr>
 <tr>
 <td>ACM_FILTERTAGDETAILSF_LARGESTSIZE</td>
@@ -174,4 +175,9 @@ At least one parameter is invalid.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The msacm.h header defines ACMFILTERTAGDETAILS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IAuxInTuningSpace~r1
 title: IAuxInTuningSpace
-description: TBDhelpviewer_keywords: ["- IAuxInTuningSpace"]
+description: TBD
+helpviewer_keywords: ["- IAuxInTuningSpace"]
 tech.root: 
 ms.assetid: a3d17004-bf99-4dfa-acf5-cb826aad7d49
 ms.date: 11/14/2019

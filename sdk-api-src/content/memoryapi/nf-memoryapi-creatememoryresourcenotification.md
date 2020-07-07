@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.CreateMemoryResourceNotification
 title: CreateMemoryResourceNotification function (memoryapi.h)
-description: Creates a memory resource notification object.helpviewer_keywords: ["CreateMemoryResourceNotification","CreateMemoryResourceNotification function","HighMemoryResourceNotification","LowMemoryResourceNotification","_win32_creatememoryresourcenotification","base.creatememoryresourcenotification","winbase/CreateMemoryResourceNotification"]
+description: Creates a memory resource notification object.
+helpviewer_keywords: ["CreateMemoryResourceNotification","CreateMemoryResourceNotification function","HighMemoryResourceNotification","LowMemoryResourceNotification","_win32_creatememoryresourcenotification","base.creatememoryresourcenotification","winbase/CreateMemoryResourceNotification"]
 old-location: base\creatememoryresourcenotification.htm
 tech.root: Memory
 ms.assetid: e4d794ca-4abb-4933-bd07-793e78c52881

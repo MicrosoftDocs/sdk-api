@@ -1,7 +1,8 @@
 ---
 UID: NN:inputpanelconfiguration.IInputPanelInvocationConfiguration
 title: IInputPanelInvocationConfiguration (inputpanelconfiguration.h)
-description: Enables Windows Store apps to opt out of the automatic invocation behavior.helpviewer_keywords: ["IInputPanelInvocationConfiguration","IInputPanelInvocationConfiguration interface [Windows Shell]","IInputPanelInvocationConfiguration interface [Windows Shell]","described","inputpanelconfiguration/IInputPanelInvocationConfiguration","shell.iinputpanelinvocationconfiguration"]
+description: Enables Windows Store apps to opt out of the automatic invocation behavior.
+helpviewer_keywords: ["IInputPanelInvocationConfiguration","IInputPanelInvocationConfiguration interface [Windows Shell]","IInputPanelInvocationConfiguration interface [Windows Shell]","described","inputpanelconfiguration/IInputPanelInvocationConfiguration","shell.iinputpanelinvocationconfiguration"]
 old-location: shell\iinputpanelinvocationconfiguration.htm
 tech.root: shell
 ms.assetid: 452F46B6-3B71-4818-A528-B2A215EC9E87

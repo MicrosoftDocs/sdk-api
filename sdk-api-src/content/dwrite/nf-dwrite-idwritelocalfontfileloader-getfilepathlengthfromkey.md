@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteLocalFontFileLoader.GetFilePathLengthFromKey
 title: IDWriteLocalFontFileLoader::GetFilePathLengthFromKey (dwrite.h)
-description: Obtains the length of the absolute file path from the font file reference key.helpviewer_keywords: ["GetFilePathLengthFromKey","GetFilePathLengthFromKey method [Direct Write]","GetFilePathLengthFromKey method [Direct Write]","IDWriteLocalFontFileLoader interface","IDWriteLocalFontFileLoader interface [Direct Write]","GetFilePathLengthFromKey method","IDWriteLocalFontFileLoader.GetFilePathLengthFromKey","IDWriteLocalFontFileLoader::GetFilePathLengthFromKey","directwrite.idwritelocalfontfileloader_getfilepathlengthfromkey","dwrite/IDWriteLocalFontFileLoader::GetFilePathLengthFromKey"]
+description: Obtains the length of the absolute file path from the font file reference key.
+helpviewer_keywords: ["GetFilePathLengthFromKey","GetFilePathLengthFromKey method [Direct Write]","GetFilePathLengthFromKey method [Direct Write]","IDWriteLocalFontFileLoader interface","IDWriteLocalFontFileLoader interface [Direct Write]","GetFilePathLengthFromKey method","IDWriteLocalFontFileLoader.GetFilePathLengthFromKey","IDWriteLocalFontFileLoader::GetFilePathLengthFromKey","directwrite.idwritelocalfontfileloader_getfilepathlengthfromkey","dwrite/IDWriteLocalFontFileLoader::GetFilePathLengthFromKey"]
 old-location: directwrite\idwritelocalfontfileloader_getfilepathlengthfromkey.htm
 tech.root: DirectWrite
 ms.assetid: bdd84d75-5a7a-448a-a52c-0f5997ab07b9

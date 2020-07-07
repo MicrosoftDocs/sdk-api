@@ -1,7 +1,8 @@
 ---
 UID: NN:tsvirtualchannels.IWTSPluginServiceProvider
 title: IWTSPluginServiceProvider (tsvirtualchannels.h)
-description: Provides a way for Dynamic Virtual Channel plug-ins to query various Remote Desktop Client services.helpviewer_keywords: ["IWTSPluginServiceProvider","IWTSPluginServiceProvider interface [Remote Desktop Services]","IWTSPluginServiceProvider interface [Remote Desktop Services]","described","termserv.iwtspluginserviceprovider","tsvirtualchannels/IWTSPluginServiceProvider"]
+description: Provides a way for Dynamic Virtual Channel plug-ins to query various Remote Desktop Client services.
+helpviewer_keywords: ["IWTSPluginServiceProvider","IWTSPluginServiceProvider interface [Remote Desktop Services]","IWTSPluginServiceProvider interface [Remote Desktop Services]","described","termserv.iwtspluginserviceprovider","tsvirtualchannels/IWTSPluginServiceProvider"]
 old-location: termserv\iwtspluginserviceprovider.htm
 tech.root: TermServ
 ms.assetid: 8baf8d8b-95a0-46bd-81ea-e99a7db45cdc

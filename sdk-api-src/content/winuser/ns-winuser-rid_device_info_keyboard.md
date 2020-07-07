@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagRID_DEVICE_INFO_KEYBOARD
 title: RID_DEVICE_INFO_KEYBOARD (winuser.h)
-description: Defines the raw input data coming from the specified keyboard.helpviewer_keywords: ["*PRID_DEVICE_INFO_KEYBOARD","PRID_DEVICE_INFO_KEYBOARD","PRID_DEVICE_INFO_KEYBOARD structure pointer [Keyboard and Mouse Input]","RID_DEVICE_INFO_KEYBOARD","RID_DEVICE_INFO_KEYBOARD structure [Keyboard and Mouse Input]","_win32_RID_DEVICE_INFO_KEYBOARD_str","_win32_rid_device_info_keyboard_str_cpp","inputdev.rid_device_info_keyboard","winui._win32_rid_device_info_keyboard_str","winuser/PRID_DEVICE_INFO_KEYBOARD","winuser/RID_DEVICE_INFO_KEYBOARD"]
+description: Defines the raw input data coming from the specified keyboard.
+helpviewer_keywords: ["*PRID_DEVICE_INFO_KEYBOARD","PRID_DEVICE_INFO_KEYBOARD","PRID_DEVICE_INFO_KEYBOARD structure pointer [Keyboard and Mouse Input]","RID_DEVICE_INFO_KEYBOARD","RID_DEVICE_INFO_KEYBOARD structure [Keyboard and Mouse Input]","_win32_RID_DEVICE_INFO_KEYBOARD_str","_win32_rid_device_info_keyboard_str_cpp","inputdev.rid_device_info_keyboard","winui._win32_rid_device_info_keyboard_str","winuser/PRID_DEVICE_INFO_KEYBOARD","winuser/RID_DEVICE_INFO_KEYBOARD"]
 old-location: inputdev\rid_device_info_keyboard.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rid_device_info_keyboard.htm
@@ -45,38 +46,29 @@ ms.custom: 19H1
 
 # RID_DEVICE_INFO_KEYBOARD structure
 
-
 ## -description
-
 
 Defines the raw input data coming from the specified keyboard. 
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwType
 
 Type: <b>DWORD</b>
 
-The type of the keyboard. 
-
+The type of the keyboard. See the Remarks section.
 
 ### -field dwSubType
 
 Type: <b>DWORD</b>
 
-The subtype of the keyboard. 
-
+The subtype of the keyboard. See the Remarks section.
 
 ### -field dwKeyboardMode
 
 Type: <b>DWORD</b>
 
-The  scan code mode. 
-
+The scan code mode. See the Remarks section.
 
 ### -field dwNumberOfFunctionKeys
 
@@ -84,49 +76,31 @@ Type: <b>DWORD</b>
 
 The number of function keys on the keyboard.
 
-
 ### -field dwNumberOfIndicators
 
 Type: <b>DWORD</b>
 
 The number of LED indicators on the keyboard.
 
-
 ### -field dwNumberOfKeysTotal
 
 Type: <b>DWORD</b>
 
-The total number of keys on the keyboard. 
+The total number of keys on the keyboard.
 
+### -remarks
 
-## -remarks
-
-
-
-For the keyboard, the Usage Page is 1 and the Usage is 6. 
-
-
-
+For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in *kbd.h*, *ntdd8042.h* and *ntddkbd.h* headers in Windows SDK, and the [Keyboard Layout Samples](https://docs.microsoft.com/samples/microsoft/windows-driver-samples/keyboard-layout-samples/). 
 
 ## -see-also
 
+**Conceptual**
 
+[RID_DEVICE_INFO](ns-winuser-rid_device_info.md)
 
+[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
 
-<b>Conceptual</b>
+**Reference**
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
-
-
-
-<b>Reference</b>
- 
-
- 
-
+[KEYBOARD_ATTRIBUTES structure](https://docs.microsoft.com/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_attributes)
+ 

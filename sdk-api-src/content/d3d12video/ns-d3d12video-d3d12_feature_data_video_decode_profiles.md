@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES
 title: D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES
-description: Retrieves the list of supported profiles.helpviewer_keywords: ["D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES","D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES",""]
+description: Retrieves the list of supported profiles.
+helpviewer_keywords: ["D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES","D3D12_FEATURE_DATA_VIDEO_DECODE_PROFILES",""]
 tech.root: mf
 ms.assetid: a6721430-bde7-473f-87de-8257bf621a8e
 ms.date: 05/28/2019
@@ -45,7 +46,7 @@ Provides data for calls to [ID3D12VideoDevice::CheckFeatureSupport](nf-d3d12vide
 
 ### -field NodeIndex
  
-In multi-adapter operation, identifies the physical adapter of the device this operation applies to.
+For single GPU operation, set this to zero. If there are multiple GPU nodes, set a bit to identify the node (the device's physical adapter) to which the command queue applies. Each bit in the mask corresponds to a single node. Only 1 bit may be set.
 
 ### -field ProfileCount
 

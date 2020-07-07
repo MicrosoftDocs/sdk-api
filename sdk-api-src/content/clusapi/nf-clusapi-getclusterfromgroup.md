@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.GetClusterFromGroup
 title: GetClusterFromGroup function (clusapi.h)
-description: Returns a handle to the cluster associated with a group.helpviewer_keywords: ["GetClusterFromGroup","GetClusterFromGroup function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_FROM_GROUP","PCLUSAPI_GET_CLUSTER_FROM_GROUP function [Failover Cluster]","_wolf_getclusterfromgroup","clusapi/GetClusterFromGroup","clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP","mscs.getclusterfromgroup"]
+description: Returns a handle to the cluster associated with a group.
+helpviewer_keywords: ["GetClusterFromGroup","GetClusterFromGroup function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_FROM_GROUP","PCLUSAPI_GET_CLUSTER_FROM_GROUP function [Failover Cluster]","_wolf_getclusterfromgroup","clusapi/GetClusterFromGroup","clusapi/PCLUSAPI_GET_CLUSTER_FROM_GROUP","mscs.getclusterfromgroup"]
 old-location: mscs\getclusterfromgroup.htm
 tech.root: MsCS
 ms.assetid: 43e1a74f-3320-4b1a-a946-6485d380dda1

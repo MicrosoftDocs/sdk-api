@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IUrlAccessor2.IsDocument
 title: IUrlAccessor2::IsDocument (searchapi.h)
-description: Ascertains whether an item URL is a document or directory.helpviewer_keywords: ["IUrlAccessor2 interface [search]","IsDocument method","IUrlAccessor2.IsDocument","IUrlAccessor2::IsDocument","IUrlAccessor4 interface [search]","IsDocument method","IUrlAccessor4::IsDocument","IsDocument","IsDocument method [search]","IsDocument method [search]","IUrlAccessor2 interface","IsDocument method [search]","IUrlAccessor4 interface","_search_IUrlAccessor2_IsDocument","search._search_IUrlAccessor2_IsDocument","searchapi/IUrlAccessor2::IsDocument","searchapi/IUrlAccessor4::IsDocument"]
+description: Ascertains whether an item URL is a document or directory.
+helpviewer_keywords: ["IUrlAccessor2 interface [search]","IsDocument method","IUrlAccessor2.IsDocument","IUrlAccessor2::IsDocument","IUrlAccessor4 interface [search]","IsDocument method","IUrlAccessor4::IsDocument","IsDocument","IsDocument method [search]","IsDocument method [search]","IUrlAccessor2 interface","IsDocument method [search]","IUrlAccessor4 interface","_search_IUrlAccessor2_IsDocument","search._search_IUrlAccessor2_IsDocument","searchapi/IUrlAccessor2::IsDocument","searchapi/IUrlAccessor4::IsDocument"]
 old-location: search\_search_IUrlAccessor2_IsDocument.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor2\isdocument.htm

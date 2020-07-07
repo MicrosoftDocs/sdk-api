@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationcore.IGridItemProvider
 title: IGridItemProvider (uiautomationcore.h)
-description: Provides access to individual child controls of containers that implement IGridProvider.helpviewer_keywords: ["IGridItemProvider","IGridItemProvider interface [Windows Accessibility]","IGridItemProvider interface [Windows Accessibility]","described","uiauto.uiauto_IGridItemProvider","uiauto_IGridItemProvider","uiautomationcore/IGridItemProvider","winauto.uiauto_IGridItemProvider"]
+description: Provides access to individual child controls of containers that implement IGridProvider.
+helpviewer_keywords: ["IGridItemProvider","IGridItemProvider interface [Windows Accessibility]","IGridItemProvider interface [Windows Accessibility]","described","uiauto.uiauto_IGridItemProvider","uiauto_IGridItemProvider","uiautomationcore/IGridItemProvider","winauto.uiauto_IGridItemProvider"]
 old-location: winauto\uiauto_IGridItemProvider.htm
 tech.root: WinAuto
 ms.assetid: 334a10f1-8bfc-4935-9eee-6176a3e8a4f1

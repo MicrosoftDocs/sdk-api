@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IDecimateVideoImage
 title: IDecimateVideoImage (strmif.h)
-description: The IDecimateVideoImage interface specifies decimation on a decoder filter.helpviewer_keywords: ["IDecimateVideoImage","IDecimateVideoImage interface [DirectShow]","IDecimateVideoImage interface [DirectShow]","described","IDecimateVideoImageInterface","dshow.idecimatevideoimage","strmif/IDecimateVideoImage"]
+description: The IDecimateVideoImage interface specifies decimation on a decoder filter.
+helpviewer_keywords: ["IDecimateVideoImage","IDecimateVideoImage interface [DirectShow]","IDecimateVideoImage interface [DirectShow]","described","IDecimateVideoImageInterface","dshow.idecimatevideoimage","strmif/IDecimateVideoImage"]
 old-location: dshow\idecimatevideoimage.htm
 tech.root: DirectShow
 ms.assetid: 0d338d41-546f-41da-bc1f-b1dd74b399ef

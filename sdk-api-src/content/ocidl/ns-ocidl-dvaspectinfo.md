@@ -1,7 +1,8 @@
 ---
 UID: NS:ocidl.tagAspectInfo
 title: DVASPECTINFO (ocidl.h)
-description: Contains information that is used by the IViewObject::Draw method to optimize rendering of an inactive object by making more efficient use of the GDI.helpviewer_keywords: ["DVASPECTINFO","DVASPECTINFO structure [COM]","_ole_DVASPECTINFO","com.dvaspectinfo","ocidl/DVASPECTINFO"]
+description: Contains information that is used by the IViewObject::Draw method to optimize rendering of an inactive object by making more efficient use of the GDI.
+helpviewer_keywords: ["DVASPECTINFO","DVASPECTINFO structure [COM]","_ole_DVASPECTINFO","com.dvaspectinfo","ocidl/DVASPECTINFO"]
 old-location: com\dvaspectinfo.htm
 tech.root: com
 ms.assetid: c9375b9d-c822-4322-ba6f-967792257672
@@ -64,7 +65,7 @@ The size of the structure, in bytes.
 
 ### -field dwFlags
 
-A value taken from the <a href="https://docs.microsoft.com/windows/win32/api/ocidl/ne-ocidl-dvaspectinfoflag">DVASPECTINFOFLAG</a> enumeration.
+A value taken from the <a href="/windows/win32/api/ocidl/ne-ocidl-dvaspectinfoflag">DVASPECTINFOFLAG</a> enumeration.
 
 
 
@@ -73,7 +74,7 @@ A value taken from the <a href="https://docs.microsoft.com/windows/win32/api/oci
 
 
 
-<a href="https://docs.microsoft.com/windows/win32/api/ocidl/ne-ocidl-dvaspectinfoflag">DVASPECTINFOFLAG</a>
+<a href="/windows/win32/api/ocidl/ne-ocidl-dvaspectinfoflag">DVASPECTINFOFLAG</a>
 
 
 

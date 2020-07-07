@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.waveInGetDevCaps
 title: waveInGetDevCaps function (mmeapi.h)
-description: The waveInGetDevCaps function retrieves the capabilities of a given waveform-audio input device.helpviewer_keywords: ["_win32_waveInGetDevCaps","mmeapi/waveInGetDevCaps","multimedia.waveingetdevcaps","waveInGetDevCaps","waveInGetDevCaps function [Windows Multimedia]"]
+description: The waveInGetDevCaps function retrieves the capabilities of a given waveform-audio input device.
+helpviewer_keywords: ["_win32_waveInGetDevCaps","mmeapi/waveInGetDevCaps","multimedia.waveingetdevcaps","waveInGetDevCaps","waveInGetDevCaps function [Windows Multimedia]"]
 old-location: multimedia\waveingetdevcaps.htm
 tech.root: Multimedia
 ms.assetid: f8d4edc7-99b6-488d-974b-6fb8f0080f77

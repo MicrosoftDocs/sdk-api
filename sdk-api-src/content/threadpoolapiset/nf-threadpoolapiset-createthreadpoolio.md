@@ -1,7 +1,8 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolIo
 title: CreateThreadpoolIo function (threadpoolapiset.h)
-description: Creates a new I/O completion object.helpviewer_keywords: ["CreateThreadpoolIo","CreateThreadpoolIo function","base.createthreadpoolio","threadpoolapiset/CreateThreadpoolIo","winbase/CreateThreadpoolIo"]
+description: Creates a new I/O completion object.
+helpviewer_keywords: ["CreateThreadpoolIo","CreateThreadpoolIo function","base.createthreadpoolio","threadpoolapiset/CreateThreadpoolIo","winbase/CreateThreadpoolIo"]
 old-location: base\createthreadpoolio.htm
 tech.root: ProcThread
 ms.assetid: 621f4747-50fa-4538-bd6a-dbe4dbb05dd1

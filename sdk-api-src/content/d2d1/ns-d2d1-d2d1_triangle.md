@@ -1,7 +1,8 @@
 ---
 UID: NS:d2d1.D2D1_TRIANGLE
 title: D2D1_TRIANGLE (d2d1.h)
-description: Contains the three vertices that describe a triangle.helpviewer_keywords: ["D2D1_TRIANGLE","D2D1_TRIANGLE structure [Direct2D]","d2d1/D2D1_TRIANGLE","direct2d.D2D1_TRIANGLE"]
+description: Contains the three vertices that describe a triangle.
+helpviewer_keywords: ["D2D1_TRIANGLE","D2D1_TRIANGLE structure [Direct2D]","d2d1/D2D1_TRIANGLE","direct2d.D2D1_TRIANGLE"]
 old-location: direct2d\D2D1_TRIANGLE.htm
 tech.root: Direct2D
 ms.assetid: 6978bfff-05ca-44b6-8694-c4741f7987f6
@@ -59,21 +60,21 @@ Contains the three vertices that describe a triangle.
 
 ### -field point1
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The first vertex of a triangle.
 
 
 ### -field point2
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The second vertex of a triangle.
 
 
 ### -field point3
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The third vertex of a triangle.
 

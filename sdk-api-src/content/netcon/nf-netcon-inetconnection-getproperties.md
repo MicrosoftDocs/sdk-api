@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.INetConnection.GetProperties
 title: INetConnection::GetProperties (netcon.h)
-description: The GetProperties method retrieves a structure that contains the properties for this network connection.helpviewer_keywords: ["GetProperties","GetProperties method [ICS/ICF]","GetProperties method [ICS/ICF]","INetConnection interface","INetConnection interface [ICS/ICF]","GetProperties method","INetConnection.GetProperties","INetConnection::GetProperties","_ics_inetconnection_getproperties","ics.inetconnection_getproperties","netcon/INetConnection::GetProperties"]
+description: The GetProperties method retrieves a structure that contains the properties for this network connection.
+helpviewer_keywords: ["GetProperties","GetProperties method [ICS/ICF]","GetProperties method [ICS/ICF]","INetConnection interface","INetConnection interface [ICS/ICF]","GetProperties method","INetConnection.GetProperties","INetConnection::GetProperties","_ics_inetconnection_getproperties","ics.inetconnection_getproperties","netcon/INetConnection::GetProperties"]
 old-location: ics\inetconnection_getproperties.htm
 tech.root: ics
 ms.assetid: ab27a7fd-061f-4ea2-8ce8-23d59957a46f

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMLicenseRevocationAgent.GetLRBChallenge
 title: IWMLicenseRevocationAgent::GetLRBChallenge (wmsdkidl.h)
-description: The GetLRBChallenge method generates a response to a license revocation challenge message. Your application must send the response to the license server.helpviewer_keywords: ["GetLRBChallenge","GetLRBChallenge method [windows Media Format]","GetLRBChallenge method [windows Media Format]","IWMLicenseRevocationAgent interface","IWMLicenseRevocationAgent interface [windows Media Format]","GetLRBChallenge method","IWMLicenseRevocationAgent.GetLRBChallenge","IWMLicenseRevocationAgent::GetLRBChallenge","IWMLicenseRevocationAgentGetLRBChallenge","wmformat.iwmlicenserevocationagent_getlrbchallenge","wmsdkidl/IWMLicenseRevocationAgent::GetLRBChallenge"]
+description: The GetLRBChallenge method generates a response to a license revocation challenge message. Your application must send the response to the license server.
+helpviewer_keywords: ["GetLRBChallenge","GetLRBChallenge method [windows Media Format]","GetLRBChallenge method [windows Media Format]","IWMLicenseRevocationAgent interface","IWMLicenseRevocationAgent interface [windows Media Format]","GetLRBChallenge method","IWMLicenseRevocationAgent.GetLRBChallenge","IWMLicenseRevocationAgent::GetLRBChallenge","IWMLicenseRevocationAgentGetLRBChallenge","wmformat.iwmlicenserevocationagent_getlrbchallenge","wmsdkidl/IWMLicenseRevocationAgent::GetLRBChallenge"]
 old-location: wmformat\iwmlicenserevocationagent_getlrbchallenge.htm
 tech.root: wmformat
 ms.assetid: 9006f6c5-f9e7-4d00-a7c2-bbdfcfdd85e7

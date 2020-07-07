@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMSearchCriteria.Add
 title: IGPMSearchCriteria::Add (gpmgmt.h)
-description: Adds a criterion for search operations.helpviewer_keywords: ["Add","Add method [GPMC]","Add method [GPMC]","IGPMSearchCriteria interface","IGPMSearchCriteria interface [GPMC]","Add method","IGPMSearchCriteria.Add","IGPMSearchCriteria::Add","_win32_igpmsearchcriteria_add","gpmc.igpmsearchcriteria_add","gpmgmt/IGPMSearchCriteria::Add"]
+description: Adds a criterion for search operations.
+helpviewer_keywords: ["Add","Add method [GPMC]","Add method [GPMC]","IGPMSearchCriteria interface","IGPMSearchCriteria interface [GPMC]","Add method","IGPMSearchCriteria.Add","IGPMSearchCriteria::Add","_win32_igpmsearchcriteria_add","gpmc.igpmsearchcriteria_add","gpmgmt/IGPMSearchCriteria::Add"]
 old-location: gpmc\igpmsearchcriteria_add.htm
 tech.root: gpmc
 ms.assetid: 8d3f62df-6de1-4871-903f-05ac234db17f

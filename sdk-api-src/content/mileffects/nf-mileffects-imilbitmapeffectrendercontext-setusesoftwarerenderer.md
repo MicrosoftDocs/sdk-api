@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetUseSoftwareRenderer
 title: IMILBitmapEffectRenderContext::SetUseSoftwareRenderer (mileffects.h)
-description: Sets a value to indicate whether to use software rendering.helpviewer_keywords: ["IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","SetUseSoftwareRenderer method","IMILBitmapEffectRenderContext.SetUseSoftwareRenderer","IMILBitmapEffectRenderContext::SetUseSoftwareRenderer","SetUseSoftwareRenderer","SetUseSoftwareRenderer method [WPF Bitmap Effects]","SetUseSoftwareRenderer method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","_wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer","mileffects/IMILBitmapEffectRenderContext::SetUseSoftwareRenderer","wibe._wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer"]
+description: Sets a value to indicate whether to use software rendering.
+helpviewer_keywords: ["IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","SetUseSoftwareRenderer method","IMILBitmapEffectRenderContext.SetUseSoftwareRenderer","IMILBitmapEffectRenderContext::SetUseSoftwareRenderer","SetUseSoftwareRenderer","SetUseSoftwareRenderer method [WPF Bitmap Effects]","SetUseSoftwareRenderer method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","_wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer","mileffects/IMILBitmapEffectRenderContext::SetUseSoftwareRenderer","wibe._wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setusesoftwarerenderer.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setusesoftwarerenderer.htm

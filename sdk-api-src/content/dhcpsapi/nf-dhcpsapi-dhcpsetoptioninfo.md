@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpSetOptionInfo
 title: DhcpSetOptionInfo function (dhcpsapi.h)
-description: Modifies the option definition of the specified option for the default user class and vendor class at the default option level.helpviewer_keywords: ["DhcpSetOptionInfo","DhcpSetOptionInfo function [DHCP]","dhcp.dhcpsetoptioninfo","dhcpsapi/DhcpSetOptionInfo"]
+description: Modifies the option definition of the specified option for the default user class and vendor class at the default option level.
+helpviewer_keywords: ["DhcpSetOptionInfo","DhcpSetOptionInfo function [DHCP]","dhcp.dhcpsetoptioninfo","dhcpsapi/DhcpSetOptionInfo"]
 old-location: dhcp\dhcpsetoptioninfo.htm
 tech.root: DHCP
 ms.assetid: 97cfe347-f4ca-4512-a33a-4da4532c4290

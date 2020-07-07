@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpappcontainerclient.IRemoteDesktopClient
 title: IRemoteDesktopClient (rdpappcontainerclient.h)
-description: Provides methods and properties used to configure and use the Remote Desktop Protocol (RDP) app container client control.helpviewer_keywords: ["IRemoteDesktopClient","IRemoteDesktopClient interface [Remote Desktop Services]","IRemoteDesktopClient interface [Remote Desktop Services]","described","rdpappcontainerclient/IRemoteDesktopClient","termserv.iremotedesktopclient"]
+description: Provides methods and properties used to configure and use the Remote Desktop Protocol (RDP) app container client control.
+helpviewer_keywords: ["IRemoteDesktopClient","IRemoteDesktopClient interface [Remote Desktop Services]","IRemoteDesktopClient interface [Remote Desktop Services]","described","rdpappcontainerclient/IRemoteDesktopClient","termserv.iremotedesktopclient"]
 old-location: termserv\iremotedesktopclient.htm
 tech.root: TermServ
 ms.assetid: 4b4c1080-3ea1-4557-92d6-45a80a788071

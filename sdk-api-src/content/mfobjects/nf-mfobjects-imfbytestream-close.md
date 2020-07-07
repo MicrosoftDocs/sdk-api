@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFByteStream.Close
 title: IMFByteStream::Close (mfobjects.h)
-description: Closes the stream and releases any resources associated with the stream, such as sockets or file handles. This method also cancels any pending asynchronous I/O requests.helpviewer_keywords: ["Close","Close method [Media Foundation]","Close method [Media Foundation]","IMFByteStream interface","IMFByteStream interface [Media Foundation]","Close method","IMFByteStream.Close","IMFByteStream::Close","d5f704ab-fa3f-4a53-9b97-eb48a75e481b","mf.imfbytestream_close","mfobjects/IMFByteStream::Close"]
+description: Closes the stream and releases any resources associated with the stream, such as sockets or file handles. This method also cancels any pending asynchronous I/O requests.
+helpviewer_keywords: ["Close","Close method [Media Foundation]","Close method [Media Foundation]","IMFByteStream interface","IMFByteStream interface [Media Foundation]","Close method","IMFByteStream.Close","IMFByteStream::Close","d5f704ab-fa3f-4a53-9b97-eb48a75e481b","mf.imfbytestream_close","mfobjects/IMFByteStream::Close"]
 old-location: mf\imfbytestream_close.htm
 tech.root: medfound
 ms.assetid: d5f704ab-fa3f-4a53-9b97-eb48a75e481b

@@ -1,7 +1,8 @@
 ---
 UID: NN:contentpartner.IWMPContentContainer
 title: IWMPContentContainer (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPContentContainer","IWMPContentContainer interface [Windows Media Player]","IWMPContentContainer interface [Windows Media Player]","described","IWMPContentContainerInterface","contentpartner/IWMPContentContainer","wmp.iwmpcontentcontainer"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["IWMPContentContainer","IWMPContentContainer interface [Windows Media Player]","IWMPContentContainer interface [Windows Media Player]","described","IWMPContentContainerInterface","contentpartner/IWMPContentContainer","wmp.iwmpcontentcontainer"]
 old-location: wmp\iwmpcontentcontainer.htm
 tech.root: WMP
 ms.assetid: 32a68af3-9270-4ac1-b133-a2770220dfcb
