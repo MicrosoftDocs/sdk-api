@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.ImportNtmsDatabase
 title: ImportNtmsDatabase function (ntmsapi.h)
-description: The ImportNtmsDatabase function causes RSM to import the database files from the database Export directory at the next restart of the RSM.helpviewer_keywords: ["ImportNtmsDatabase","ImportNtmsDatabase function [Files]","_zaw_importntmsdatabase","base.importntmsdatabase","fs.importntmsdatabase","ntmsapi/ImportNtmsDatabase"]
+description: The ImportNtmsDatabase function causes RSM to import the database files from the database Export directory at the next restart of the RSM.
+helpviewer_keywords: ["ImportNtmsDatabase","ImportNtmsDatabase function [Files]","_zaw_importntmsdatabase","base.importntmsdatabase","fs.importntmsdatabase","ntmsapi/ImportNtmsDatabase"]
 old-location: fs\importntmsdatabase.htm
 tech.root: Rsm
 ms.assetid: 9bb41109-6548-4d22-92c8-0d8ed960f119

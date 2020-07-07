@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ICrmMonitorClerks.ProgIdCompensator
 title: ICrmMonitorClerks::ProgIdCompensator (comsvcs.h)
-description: Retrieves the ProgId of the CRM Compensator for the specified index.helpviewer_keywords: ["ICrmMonitorClerks interface [COM+]","ProgIdCompensator method","ICrmMonitorClerks.ProgIdCompensator","ICrmMonitorClerks::ProgIdCompensator","ProgIdCompensator","ProgIdCompensator method [COM+]","ProgIdCompensator method [COM+]","ICrmMonitorClerks interface","_dtc_ICrmMonitorClerks_ProgIdCompensator","comsvcs/ICrmMonitorClerks::ProgIdCompensator","cos.icrmmonitorclerks_progidcompensator"]
+description: Retrieves the ProgId of the CRM Compensator for the specified index.
+helpviewer_keywords: ["ICrmMonitorClerks interface [COM+]","ProgIdCompensator method","ICrmMonitorClerks.ProgIdCompensator","ICrmMonitorClerks::ProgIdCompensator","ProgIdCompensator","ProgIdCompensator method [COM+]","ProgIdCompensator method [COM+]","ICrmMonitorClerks interface","_dtc_ICrmMonitorClerks_ProgIdCompensator","comsvcs/ICrmMonitorClerks::ProgIdCompensator","cos.icrmmonitorclerks_progidcompensator"]
 old-location: cos\icrmmonitorclerks_progidcompensator.htm
 tech.root: cossdk
 ms.assetid: c174908b-293e-4481-b35d-455ee4f52eea

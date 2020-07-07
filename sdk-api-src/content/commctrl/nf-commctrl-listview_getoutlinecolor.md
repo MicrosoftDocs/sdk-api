@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetOutlineColor
 title: ListView_GetOutlineColor macro (commctrl.h)
-description: Gets the color of the border of a list-view control if the LVS_EX_BORDERSELECT extended window style is set. You can use this macro or send the LVM_GETOUTLINECOLOR message explicitly.helpviewer_keywords: ["ListView_GetOutlineColor","ListView_GetOutlineColor macro [Windows Controls]","_win32_ListView_GetOutlineColor","_win32_ListView_GetOutlineColor_cpp","commctrl/ListView_GetOutlineColor","controls.ListView_GetOutlineColor","controls._win32_ListView_GetOutlineColor"]
+description: Gets the color of the border of a list-view control if the LVS_EX_BORDERSELECT extended window style is set. You can use this macro or send the LVM_GETOUTLINECOLOR message explicitly.
+helpviewer_keywords: ["ListView_GetOutlineColor","ListView_GetOutlineColor macro [Windows Controls]","_win32_ListView_GetOutlineColor","_win32_ListView_GetOutlineColor_cpp","commctrl/ListView_GetOutlineColor","controls.ListView_GetOutlineColor","controls._win32_ListView_GetOutlineColor"]
 old-location: controls\ListView_GetOutlineColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getoutlinecolor.htm

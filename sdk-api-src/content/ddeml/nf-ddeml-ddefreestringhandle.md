@@ -1,7 +1,8 @@
 ---
 UID: NF:ddeml.DdeFreeStringHandle
 title: DdeFreeStringHandle function (ddeml.h)
-description: Frees a string handle in the calling application.helpviewer_keywords: ["DdeFreeStringHandle","DdeFreeStringHandle function [Data Exchange]","_win32_DdeFreeStringHandle","_win32_ddefreestringhandle_cpp","dataxchg.ddefreestringhandle","ddeml/DdeFreeStringHandle","winui._win32_ddefreestringhandle"]
+description: Frees a string handle in the calling application.
+helpviewer_keywords: ["DdeFreeStringHandle","DdeFreeStringHandle function [Data Exchange]","_win32_DdeFreeStringHandle","_win32_ddefreestringhandle_cpp","dataxchg.ddefreestringhandle","ddeml/DdeFreeStringHandle","winui._win32_ddefreestringhandle"]
 old-location: dataxchg\ddefreestringhandle.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddefreestringhandle.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.CreateTypeLib
 title: CreateTypeLib function (oleauto.h)
-description: Provides access to a new object instance that supports the ICreateTypeLib interface.helpviewer_keywords: ["CreateTypeLib","CreateTypeLib function [Automation]","_oa96_CreateTypeLib","automat.createtypelib","oleauto/CreateTypeLib"]
+description: Provides access to a new object instance that supports the ICreateTypeLib interface.
+helpviewer_keywords: ["CreateTypeLib","CreateTypeLib function [Automation]","_oa96_CreateTypeLib","automat.createtypelib","oleauto/CreateTypeLib"]
 old-location: automat\createtypelib.htm
 tech.root: automat
 ms.assetid: c7a94d5b-7ac5-4b7c-8aed-ead23de9ea75

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSolidColorBrush.GetColor
 title: IXpsOMSolidColorBrush::GetColor (xpsobjectmodel.h)
-description: Gets the color value and color profile of the brush.helpviewer_keywords: ["GetColor","GetColor method [XPS Documents and Packaging]","GetColor method [XPS Documents and Packaging]","IXpsOMSolidColorBrush interface","IXpsOMSolidColorBrush interface [XPS Documents and Packaging]","GetColor method","IXpsOMSolidColorBrush.GetColor","IXpsOMSolidColorBrush::GetColor","xps.ixpsomsolidcolorbrush_getcolor","xpsobjectmodel/IXpsOMSolidColorBrush::GetColor"]
+description: Gets the color value and color profile of the brush.
+helpviewer_keywords: ["GetColor","GetColor method [XPS Documents and Packaging]","GetColor method [XPS Documents and Packaging]","IXpsOMSolidColorBrush interface","IXpsOMSolidColorBrush interface [XPS Documents and Packaging]","GetColor method","IXpsOMSolidColorBrush.GetColor","IXpsOMSolidColorBrush::GetColor","xps.ixpsomsolidcolorbrush_getcolor","xpsobjectmodel/IXpsOMSolidColorBrush::GetColor"]
 old-location: xps\ixpsomsolidcolorbrush_getcolor.htm
 tech.root: printdocs
 ms.assetid: 07201e3d-af2f-4b85-ac03-2911c33f348b

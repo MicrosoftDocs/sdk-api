@@ -1,7 +1,8 @@
 ---
 UID: NN:wpcapi.IWPCSettings
 title: IWPCSettings (wpcapi.h)
-description: Accesses general settings for the user.helpviewer_keywords: ["IWPCSettings","IWPCSettings interface","IWPCSettings interface","described","parcon.iwpcsettings","wpcapi/IWPCSettings"]
+description: Accesses general settings for the user.
+helpviewer_keywords: ["IWPCSettings","IWPCSettings interface","IWPCSettings interface","described","parcon.iwpcsettings","wpcapi/IWPCSettings"]
 old-location: parcon\iwpcsettings.htm
 tech.root: parcon
 ms.assetid: 92ae8611-fbb4-470e-8a48-395defaef904

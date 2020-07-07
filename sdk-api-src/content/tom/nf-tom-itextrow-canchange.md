@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRow.CanChange
 title: ITextRow::CanChange (tom.h)
-description: Determines whether changes can be made to this row.helpviewer_keywords: ["CanChange","CanChange method [Windows Controls]","CanChange method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","CanChange method","ITextRow.CanChange","ITextRow::CanChange","controls.itextrow_canchange","tom/ITextRow::CanChange"]
+description: Determines whether changes can be made to this row.
+helpviewer_keywords: ["CanChange","CanChange method [Windows Controls]","CanChange method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","CanChange method","ITextRow.CanChange","ITextRow::CanChange","controls.itextrow_canchange","tom/ITextRow::CanChange"]
 old-location: controls\itextrow_canchange.htm
 tech.root: Controls
 ms.assetid: 721f3841-a50b-4569-b988-71a9fb96f16f

@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_WAITFORVPORTSYNCDATA
 title: DD_WAITFORVPORTSYNCDATA (ddrawint.h)
-description: The DD_WAITFORVPORTSYNCDATA structure contains the information required for the driver to synchronize the video port extensions (VPE) object.helpviewer_keywords: ["*PDD_WAITFORVPORTSYNCDATA","DD_WAITFORVPORTSYNCDATA","DD_WAITFORVPORTSYNCDATA structure [Display Devices]","ddrawint/DD_WAITFORVPORTSYNCDATA","ddstrcts_2a571554-4047-4ffd-88d0-cdea5bfeff63.xml","display.dd_waitforvportsyncdata"]
+description: The DD_WAITFORVPORTSYNCDATA structure contains the information required for the driver to synchronize the video port extensions (VPE) object.
+helpviewer_keywords: ["*PDD_WAITFORVPORTSYNCDATA","DD_WAITFORVPORTSYNCDATA","DD_WAITFORVPORTSYNCDATA structure [Display Devices]","ddrawint/DD_WAITFORVPORTSYNCDATA","ddstrcts_2a571554-4047-4ffd-88d0-cdea5bfeff63.xml","display.dd_waitforvportsyncdata"]
 old-location: display\dd_waitforvportsyncdata.htm
 tech.root: display
 ms.assetid: 903c697e-4fa5-472e-ab5b-7864a326f323

@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITriggerCollection.Clear
 title: ITriggerCollection::Clear (taskschd.h)
-description: Clears all triggers from the collection.helpviewer_keywords: ["Clear","Clear method [Task Scheduler]","Clear method [Task Scheduler]","ITriggerCollection interface","ITriggerCollection interface [Task Scheduler]","Clear method","ITriggerCollection.Clear","ITriggerCollection::Clear","taskschd.itriggercollection_clear","taskschd/ITriggerCollection::Clear"]
+description: Clears all triggers from the collection.
+helpviewer_keywords: ["Clear","Clear method [Task Scheduler]","Clear method [Task Scheduler]","ITriggerCollection interface","ITriggerCollection interface [Task Scheduler]","Clear method","ITriggerCollection.Clear","ITriggerCollection::Clear","taskschd.itriggercollection_clear","taskschd/ITriggerCollection::Clear"]
 old-location: taskschd\itriggercollection_clear.htm
 tech.root: taskschd
 ms.assetid: 9a15ed27-a381-4b5c-9725-3a55ce86d666

@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1effects.D2D1_CROP_PROP
 title: D2D1_CROP_PROP (d2d1effects.h)
-description: Identifiers for properties of the Crop effect.helpviewer_keywords: ["D2D1_CROP_PROP","D2D1_CROP_PROP enumeration [Direct2D]","D2D1_CROP_PROP_BORDER_MODE","D2D1_CROP_PROP_RECT","d2d1effects/D2D1_CROP_PROP","d2d1effects/D2D1_CROP_PROP_BORDER_MODE","d2d1effects/D2D1_CROP_PROP_RECT","direct2d.d2d1_crop_prop"]
+description: Identifiers for properties of the Crop effect.
+helpviewer_keywords: ["D2D1_CROP_PROP","D2D1_CROP_PROP enumeration [Direct2D]","D2D1_CROP_PROP_BORDER_MODE","D2D1_CROP_PROP_RECT","d2d1effects/D2D1_CROP_PROP","d2d1effects/D2D1_CROP_PROP_BORDER_MODE","d2d1effects/D2D1_CROP_PROP_RECT","direct2d.d2d1_crop_prop"]
 old-location: direct2d\d2d1_crop_prop.htm
 tech.root: Direct2D
 ms.assetid: E9C00E8A-AD1E-475C-9B81-A5EB995669C6

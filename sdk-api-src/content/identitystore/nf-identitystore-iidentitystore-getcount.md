@@ -1,7 +1,8 @@
 ---
 UID: NF:identitystore.IIdentityStore.GetCount
 title: IIdentityStore::GetCount (identitystore.h)
-description: Gets the number of identity providers registered on the system.helpviewer_keywords: ["GetCount","GetCount method [Security]","GetCount method [Security]","IIdentityStore interface","IIdentityStore interface [Security]","GetCount method","IIdentityStore.GetCount","IIdentityStore::GetCount","identitystore/IIdentityStore::GetCount","security.iidentitystore_getcount"]
+description: Gets the number of identity providers registered on the system.
+helpviewer_keywords: ["GetCount","GetCount method [Security]","GetCount method [Security]","IIdentityStore interface","IIdentityStore interface [Security]","GetCount method","IIdentityStore.GetCount","IIdentityStore::GetCount","identitystore/IIdentityStore::GetCount","security.iidentitystore_getcount"]
 old-location: security\iidentitystore_getcount.htm
 tech.root: SecAuthN
 ms.assetid: f7f30ab9-f55d-44fa-9098-c6bf865125f8

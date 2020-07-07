@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10.ID3D10Device.RSGetScissorRects
 title: ID3D10Device::RSGetScissorRects (d3d10.h)
-description: Get the array of scissor rectangles bound to the rasterizer stage.helpviewer_keywords: ["6718274a-41d0-5a45-3471-07f2693cff9f","ID3D10Device interface [Direct3D 10]","RSGetScissorRects method","ID3D10Device.RSGetScissorRects","ID3D10Device::RSGetScissorRects","RSGetScissorRects","RSGetScissorRects method [Direct3D 10]","RSGetScissorRects method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::RSGetScissorRects","direct3d10.id3d10device_rsgetscissorrects"]
+description: Get the array of scissor rectangles bound to the rasterizer stage.
+helpviewer_keywords: ["6718274a-41d0-5a45-3471-07f2693cff9f","ID3D10Device interface [Direct3D 10]","RSGetScissorRects method","ID3D10Device.RSGetScissorRects","ID3D10Device::RSGetScissorRects","RSGetScissorRects","RSGetScissorRects method [Direct3D 10]","RSGetScissorRects method [Direct3D 10]","ID3D10Device interface","d3d10/ID3D10Device::RSGetScissorRects","direct3d10.id3d10device_rsgetscissorrects"]
 old-location: direct3d10\id3d10device_rsgetscissorrects.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_rsgetscissorrects.htm

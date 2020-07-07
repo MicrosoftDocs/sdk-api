@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxServer.get_MinorBuild
 title: IFaxServer::get_MinorBuild (faxcomex.h)
-description: The IFaxServer::get_MinorBuild property is a value that specifies the minor part of the build number for the fax service.helpviewer_keywords: ["IFaxServer interface [Fax Service]","MinorBuild property","IFaxServer.MinorBuild","IFaxServer.get_MinorBuild","IFaxServer::MinorBuild","IFaxServer::get_MinorBuild","MinorBuild property [Fax Service]","MinorBuild property [Fax Service]","IFaxServer interface","_mfax_faxserver.minorbuild","fax._mfax_faxserver_cpp_mfax_faxserver_minorbuild_cpp","fax._mfax_faxserver_minorbuild","faxcomex/IFaxServer::MinorBuild","faxcomex/IFaxServer::get_MinorBuild","get_MinorBuild"]
+description: The IFaxServer::get_MinorBuild property is a value that specifies the minor part of the build number for the fax service.
+helpviewer_keywords: ["IFaxServer interface [Fax Service]","MinorBuild property","IFaxServer.MinorBuild","IFaxServer.get_MinorBuild","IFaxServer::MinorBuild","IFaxServer::get_MinorBuild","MinorBuild property [Fax Service]","MinorBuild property [Fax Service]","IFaxServer interface","_mfax_faxserver.minorbuild","fax._mfax_faxserver_cpp_mfax_faxserver_minorbuild_cpp","fax._mfax_faxserver_minorbuild","faxcomex/IFaxServer::MinorBuild","faxcomex/IFaxServer::get_MinorBuild","get_MinorBuild"]
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_minorbuild_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_2vdw.htm

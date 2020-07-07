@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSALookupServiceBeginW
 title: WSALookupServiceBeginW function (winsock2.h)
-description: The WSALookupServiceBegin function initiates a client query that is constrained by the information contained within a WSAQUERYSET structure.helpviewer_keywords: ["LUP_CONTAINERS","LUP_DEEP","LUP_FLUSHCACHE","LUP_FLUSHPREVIOUS","LUP_NEAREST","LUP_NOCONTAINERS","LUP_RES_SERVICE","LUP_RETURN_ADDR","LUP_RETURN_ALIASES","LUP_RETURN_ALL","LUP_RETURN_BLOB","LUP_RETURN_COMMENT","LUP_RETURN_NAME","LUP_RETURN_QUERY_STRING","LUP_RETURN_TYPE","LUP_RETURN_VERSION","WSALookupServiceBegin","WSALookupServiceBegin function [Winsock]","WSALookupServiceBeginA","WSALookupServiceBeginW","_win32_wsalookupservicebegin_2","winsock.wsalookupservicebegin_2","winsock2/WSALookupServiceBegin","winsock2/WSALookupServiceBeginA","winsock2/WSALookupServiceBeginW"]
+description: The WSALookupServiceBegin function initiates a client query that is constrained by the information contained within a WSAQUERYSET structure.
+helpviewer_keywords: ["LUP_CONTAINERS","LUP_DEEP","LUP_FLUSHCACHE","LUP_FLUSHPREVIOUS","LUP_NEAREST","LUP_NOCONTAINERS","LUP_RES_SERVICE","LUP_RETURN_ADDR","LUP_RETURN_ALIASES","LUP_RETURN_ALL","LUP_RETURN_BLOB","LUP_RETURN_COMMENT","LUP_RETURN_NAME","LUP_RETURN_QUERY_STRING","LUP_RETURN_TYPE","LUP_RETURN_VERSION","WSALookupServiceBegin","WSALookupServiceBegin function [Winsock]","WSALookupServiceBeginA","WSALookupServiceBeginW","_win32_wsalookupservicebegin_2","winsock.wsalookupservicebegin_2","winsock2/WSALookupServiceBegin","winsock2/WSALookupServiceBeginA","winsock2/WSALookupServiceBeginW"]
 old-location: winsock\wsalookupservicebegin_2.htm
 tech.root: WinSock
 ms.assetid: 448309ef-b9dd-4960-8016-d26691df59ec
@@ -470,6 +471,10 @@ See the Important note that follows.
 
 
 
+
+
+> [!NOTE]
+> The winsock2.h header defines WSALookupServiceBegin as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

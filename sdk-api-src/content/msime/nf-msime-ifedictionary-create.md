@@ -1,7 +1,8 @@
 ---
 UID: NF:msime.IFEDictionary.Create
 title: IFEDictionary::Create (msime.h)
-description: Creates a new dictionary file.helpviewer_keywords: ["Create","Create method [Internationalization for Windows Applications]","Create method [Internationalization for Windows Applications]","IFEDictionary interface","IFEDictionary interface [Internationalization for Windows Applications]","Create method","IFEDictionary.Create","IFEDictionary::Create","intl.ifedictionary_create","msime/IFEDictionary::Create"]
+description: Creates a new dictionary file.
+helpviewer_keywords: ["Create","Create method [Internationalization for Windows Applications]","Create method [Internationalization for Windows Applications]","IFEDictionary interface","IFEDictionary interface [Internationalization for Windows Applications]","Create method","IFEDictionary.Create","IFEDictionary::Create","intl.ifedictionary_create","msime/IFEDictionary::Create"]
 old-location: intl\ifedictionary_create.htm
 tech.root: Intl
 ms.assetid: 218DEE1C-945A-4CD8-BAD5-12F904FAB2DD

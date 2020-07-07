@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12.ID3D12StateObject
 title: ID3D12StateObject (d3d12.h)
-description: Represents a variable amount of configuration state, including shaders, that an application manages as a single unit and which is given to a driver atomically to process, such as compile or optimize.helpviewer_keywords: ["ID3D12StateObject","ID3D12StateObject interface","ID3D12StateObject interface","described","d3d12/ID3D12StateObject","direct3d12.id3d12stateobject"]
+description: Represents a variable amount of configuration state, including shaders, that an application manages as a single unit and which is given to a driver atomically to process, such as compile or optimize.
+helpviewer_keywords: ["ID3D12StateObject","ID3D12StateObject interface","ID3D12StateObject interface","described","d3d12/ID3D12StateObject","direct3d12.id3d12stateobject"]
 old-location: direct3d12\id3d12stateobject.htm
 tech.root: direct3d12
 ms.assetid: 5BE94583-31DC-4469-9049-7768D64F7F41
@@ -49,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Represents a variable amount of configuration state, including shaders, that an application manages as a single unit and which is given to a driver atomically to process, such as compile or optimize. Create a state object by calling <a href="https://msdn.microsoft.com/library/Mt830410(v=VS.85).aspx">ID3D12Device::CreateStateObject</a>. 
+Represents a variable amount of configuration state, including shaders, that an application manages as a single unit and which is given to a driver atomically to process, such as compile or optimize. Create a state object by calling <a href="https://docs.microsoft.com/windows/win32/api/d3d12/nf-d3d12-id3d12device5-createstateobject">ID3D12Device5::CreateStateObject</a>. 
 
 
 ## -see-also

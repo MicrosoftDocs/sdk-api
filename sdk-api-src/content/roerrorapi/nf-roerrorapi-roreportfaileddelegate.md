@@ -1,7 +1,8 @@
 ---
 UID: NF:roerrorapi.RoReportFailedDelegate
 title: RoReportFailedDelegate function
-description: Triggers the Global Error Handler when a delegate failure occurs.helpviewer_keywords: ["RoReportFailedDelegate","RoReportFailedDelegate function [Windows Runtime]","roerrorapi/RoReportFailedDelegate","winrt.roreportfaileddelegate"]
+description: Triggers the Global Error Handler when a delegate failure occurs.
+helpviewer_keywords: ["RoReportFailedDelegate","RoReportFailedDelegate function [Windows Runtime]","roerrorapi/RoReportFailedDelegate","winrt.roreportfaileddelegate"]
 old-location: winrt\roreportfaileddelegate.htm
 tech.root: WinRT
 ms.assetid: 0A35A174-9020-438E-94CF-3A790D158144

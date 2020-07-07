@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.AbortSystemShutdownW
 title: AbortSystemShutdownW function (winreg.h)
-description: Stops a system shutdown that has been initiated.helpviewer_keywords: ["AbortSystemShutdown","AbortSystemShutdown function","AbortSystemShutdownA","AbortSystemShutdownW","_win32_abortsystemshutdown","base.abortsystemshutdown","winreg/AbortSystemShutdown","winreg/AbortSystemShutdownA","winreg/AbortSystemShutdownW"]
+description: Stops a system shutdown that has been initiated.
+helpviewer_keywords: ["AbortSystemShutdown","AbortSystemShutdown function","AbortSystemShutdownA","AbortSystemShutdownW","_win32_abortsystemshutdown","base.abortsystemshutdown","winreg/AbortSystemShutdown","winreg/AbortSystemShutdownA","winreg/AbortSystemShutdownW"]
 old-location: base\abortsystemshutdown.htm
 tech.root: Shutdown
 ms.assetid: 41212640-6a06-4d2f-9b0e-5b2d77d561b0
@@ -108,6 +109,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines AbortSystemShutdown as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

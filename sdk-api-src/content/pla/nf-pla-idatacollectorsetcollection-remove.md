@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.Remove
 title: IDataCollectorSetCollection::Remove (pla.h)
-description: Removes a data collector set from the collection.helpviewer_keywords: ["IDataCollectorSetCollection interface [PLA]","Remove method","IDataCollectorSetCollection.Remove","IDataCollectorSetCollection::Remove","Remove","Remove method [PLA]","Remove method [PLA]","IDataCollectorSetCollection interface","base.idatacollectorsetcollection_remove","pla.idatacollectorsetcollection_remove","pla/IDataCollectorSetCollection::Remove"]
+description: Removes a data collector set from the collection.
+helpviewer_keywords: ["IDataCollectorSetCollection interface [PLA]","Remove method","IDataCollectorSetCollection.Remove","IDataCollectorSetCollection::Remove","Remove","Remove method [PLA]","Remove method [PLA]","IDataCollectorSetCollection interface","base.idatacollectorsetcollection_remove","pla.idatacollectorsetcollection_remove","pla/IDataCollectorSetCollection::Remove"]
 old-location: pla\idatacollectorsetcollection_remove.htm
 tech.root: PLA
 ms.assetid: 6200dac0-8817-4d59-9456-67921bcf15ae

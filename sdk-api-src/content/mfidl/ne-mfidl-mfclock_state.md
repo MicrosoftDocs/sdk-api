@@ -1,7 +1,8 @@
 ---
 UID: NE:mfidl._MFCLOCK_STATE
 title: MFCLOCK_STATE (mfidl.h)
-description: Defines the state of a clock.helpviewer_keywords: ["90e04807-c3be-4f38-a508-9dfe62700869","MFCLOCK_STATE","MFCLOCK_STATE enumeration [Media Foundation]","MFCLOCK_STATE_INVALID","MFCLOCK_STATE_PAUSED","MFCLOCK_STATE_RUNNING","MFCLOCK_STATE_STOPPED","MF_CLOCK_STATE","MF_CLOCK_STATE enumeration [Media Foundation]","mf.mfclock_state","mfidl/MFCLOCK_STATE","mfidl/MFCLOCK_STATE_INVALID","mfidl/MFCLOCK_STATE_PAUSED","mfidl/MFCLOCK_STATE_RUNNING","mfidl/MFCLOCK_STATE_STOPPED"]
+description: Defines the state of a clock.
+helpviewer_keywords: ["90e04807-c3be-4f38-a508-9dfe62700869","MFCLOCK_STATE","MFCLOCK_STATE enumeration [Media Foundation]","MFCLOCK_STATE_INVALID","MFCLOCK_STATE_PAUSED","MFCLOCK_STATE_RUNNING","MFCLOCK_STATE_STOPPED","MF_CLOCK_STATE","MF_CLOCK_STATE enumeration [Media Foundation]","mf.mfclock_state","mfidl/MFCLOCK_STATE","mfidl/MFCLOCK_STATE_INVALID","mfidl/MFCLOCK_STATE_PAUSED","mfidl/MFCLOCK_STATE_RUNNING","mfidl/MFCLOCK_STATE_STOPPED"]
 old-location: mf\mfclock_state.htm
 tech.root: medfound
 ms.assetid: 90e04807-c3be-4f38-a508-9dfe62700869

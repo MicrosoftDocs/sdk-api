@@ -1,7 +1,8 @@
 ---
 UID: NS:winldap.ldapapiinfoA
 title: LDAPAPIInfoA (winldap.h)
-description: Retrieves data about the API and implementations used.helpviewer_keywords: ["LDAPAPIInfo","LDAPAPIInfo structure [LDAP]","LDAPAPIInfoA","LDAPAPIInfoW","ldap.ldapapiinfo","winldap/LDAPAPIInfo","winldap/LDAPAPIInfoA","winldap/LDAPAPIInfoW"]
+description: Retrieves data about the API and implementations used.
+helpviewer_keywords: ["LDAPAPIInfo","LDAPAPIInfo structure [LDAP]","LDAPAPIInfoA","LDAPAPIInfoW","ldap.ldapapiinfo","winldap/LDAPAPIInfo","winldap/LDAPAPIInfoA","winldap/LDAPAPIInfoW"]
 old-location: ldap\ldapapiinfo.htm
 tech.root: ldap
 ms.assetid: 9175224c-82f0-4f22-9975-b1d7a332c3df
@@ -97,6 +98,10 @@ A pointer to this structure is passed with the <a href="https://docs.microsoft.c
 
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines LDAPAPIInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

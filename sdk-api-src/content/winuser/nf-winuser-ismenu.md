@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IsMenu
 title: IsMenu function (winuser.h)
-description: Determines whether a handle is a menu handle.helpviewer_keywords: ["IsMenu","IsMenu function [Menus and Other Resources]","_win32_IsMenu","_win32_ismenu_cpp","menurc.ismenu","winui._win32_ismenu","winuser/IsMenu"]
+description: Determines whether a handle is a menu handle.
+helpviewer_keywords: ["IsMenu","IsMenu function [Menus and Other Resources]","_win32_IsMenu","_win32_ismenu_cpp","menurc.ismenu","winui._win32_ismenu","winuser/IsMenu"]
 old-location: menurc\ismenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\ismenu.htm

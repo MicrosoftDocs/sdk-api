@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFGetAttributesAsBlob
 title: MFGetAttributesAsBlob function (mfapi.h)
-description: Converts the contents of an attribute store to a byte array.helpviewer_keywords: ["1a3bd860-1022-481f-8615-5a73c16dd77b","MFGetAttributesAsBlob","MFGetAttributesAsBlob function [Media Foundation]","mf.mfgetattributesasblob","mfapi/MFGetAttributesAsBlob"]
+description: Converts the contents of an attribute store to a byte array.
+helpviewer_keywords: ["1a3bd860-1022-481f-8615-5a73c16dd77b","MFGetAttributesAsBlob","MFGetAttributesAsBlob function [Media Foundation]","mf.mfgetattributesasblob","mfapi/MFGetAttributesAsBlob"]
 old-location: mf\mfgetattributesasblob.htm
 tech.root: medfound
 ms.assetid: 1a3bd860-1022-481f-8615-5a73c16dd77b

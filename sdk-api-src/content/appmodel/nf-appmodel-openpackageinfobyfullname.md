@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.OpenPackageInfoByFullName
 title: OpenPackageInfoByFullName function (appmodel.h)
-description: Opens the package information of the specified package.helpviewer_keywords: ["OpenPackageInfoByFullName","OpenPackageInfoByFullName function [App packaging and management]","appmodel/OpenPackageInfoByFullName","appxpkg.openpackageinfobyfullname"]
+description: Opens the package information of the specified package.
+helpviewer_keywords: ["OpenPackageInfoByFullName","OpenPackageInfoByFullName function [App packaging and management]","appmodel/OpenPackageInfoByFullName","appxpkg.openpackageinfobyfullname"]
 old-location: appxpkg\openpackageinfobyfullname.htm
 tech.root: appxpkg
 ms.assetid: 9ECFC757-1CB3-43A1-BA45-9AF72CAB240E

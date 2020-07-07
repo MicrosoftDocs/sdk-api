@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMStoreColor
 title: XMStoreColor function (directxpackedvector.h)
-description: Stores an XMVECTOR in an XMCOLOR.helpviewer_keywords: ["DirectX::PackedVector.XMStoreColor","XMStoreColor","XMStoreColor method [DirectX Math Support APIs]","dxmath.xmstorecolor"]
+description: Stores an XMVECTOR in an XMCOLOR.
+helpviewer_keywords: ["DirectX::PackedVector.XMStoreColor","XMStoreColor","XMStoreColor method [DirectX Math Support APIs]","dxmath.xmstorecolor"]
 old-location: dxmath\xmstorecolor.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreColor(XMCOLOR@,XMVECTOR)

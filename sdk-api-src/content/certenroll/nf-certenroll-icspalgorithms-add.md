@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ICspAlgorithms.Add
 title: ICspAlgorithms::Add (certenroll.h)
-description: Adds an ICspAlgorithm object to the collection.helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICspAlgorithms interface","ICspAlgorithms interface [Security]","Add method","ICspAlgorithms.Add","ICspAlgorithms::Add","certenroll/ICspAlgorithms::Add","security.icspalgorithms_add_method"]
+description: Adds an ICspAlgorithm object to the collection.
+helpviewer_keywords: ["Add","Add method [Security]","Add method [Security]","ICspAlgorithms interface","ICspAlgorithms interface [Security]","Add method","ICspAlgorithms.Add","ICspAlgorithms::Add","certenroll/ICspAlgorithms::Add","security.icspalgorithms_add_method"]
 old-location: security\icspalgorithms_add_method.htm
 tech.root: seccertenroll
 ms.assetid: 53cd408e-752c-4256-839c-e09055487c39

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.WSDCreateUdpMessageParameters
 title: WSDCreateUdpMessageParameters function (wsdbase.h)
-description: Retrieves a pointer to the IWSDUdpMessageParameters interface.helpviewer_keywords: ["WSDCreateUdpMessageParameters","WSDCreateUdpMessageParameters function","ncd.wsdcreateudpmessageparameters","wsdbase/WSDCreateUdpMessageParameters"]
+description: Retrieves a pointer to the IWSDUdpMessageParameters interface.
+helpviewer_keywords: ["WSDCreateUdpMessageParameters","WSDCreateUdpMessageParameters function","ncd.wsdcreateudpmessageparameters","wsdbase/WSDCreateUdpMessageParameters"]
 old-location: ncd\wsdcreateudpmessageparameters.htm
 tech.root: WsdApi
 ms.assetid: a183a5f8-edd9-4881-84d4-b23701c40f36

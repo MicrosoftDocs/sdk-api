@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.SHChangeNotifyRegisterThread
 title: SHChangeNotifyRegisterThread function (shlobj.h)
-description: Enables asynchronous register and deregister of a thread.helpviewer_keywords: ["SHChangeNotifyRegisterThread","SHChangeNotifyRegisterThread function [Windows Shell]","_shell_SHChangeNotifyRegisterThread","shell.SHChangeNotifyRegisterThread","shlobj/SHChangeNotifyRegisterThread"]
+description: Enables asynchronous register and deregister of a thread.
+helpviewer_keywords: ["SHChangeNotifyRegisterThread","SHChangeNotifyRegisterThread function [Windows Shell]","_shell_SHChangeNotifyRegisterThread","shell.SHChangeNotifyRegisterThread","shlobj/SHChangeNotifyRegisterThread"]
 old-location: shell\SHChangeNotifyRegisterThread.htm
 tech.root: shell
 ms.assetid: 170afefc-b4de-4661-9c12-1341656b0fdb

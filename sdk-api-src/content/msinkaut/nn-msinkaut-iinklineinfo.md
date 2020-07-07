@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkLineInfo
 title: IInkLineInfo (msinkaut.h)
-description: The IInkLineInfo interface provides access to the display properties and recognition result list of a text ink object (tInk).helpviewer_keywords: ["58774f49-6af2-4b81-bbd5-709eb694af2d","IInkLineInfo","IInkLineInfo interface [Tablet PC]","IInkLineInfo interface [Tablet PC]","described","msinkaut/IInkLineInfo","tablet.iinklineinfo"]
+description: The IInkLineInfo interface provides access to the display properties and recognition result list of a text ink object (tInk).
+helpviewer_keywords: ["58774f49-6af2-4b81-bbd5-709eb694af2d","IInkLineInfo","IInkLineInfo interface [Tablet PC]","IInkLineInfo interface [Tablet PC]","described","msinkaut/IInkLineInfo","tablet.iinklineinfo"]
 old-location: tablet\iinklineinfo.htm
 tech.root: tablet
 ms.assetid: 58774f49-6af2-4b81-bbd5-709eb694af2d

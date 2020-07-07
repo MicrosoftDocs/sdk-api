@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyDefinition.put_Type
 title: IFsrmPropertyDefinition::put_Type (fsrmpipeline.h)
-description: The type of data that the property contains.helpviewer_keywords: ["IFsrmPropertyDefinition interface [File Server Resource Manager]","Type property","IFsrmPropertyDefinition.Type","IFsrmPropertyDefinition.put_Type","IFsrmPropertyDefinition::Type","IFsrmPropertyDefinition::get_Type","IFsrmPropertyDefinition::put_Type","Type property [File Server Resource Manager]","Type property [File Server Resource Manager]","IFsrmPropertyDefinition interface","fs.ifsrmpropertydefinition_type","fsrm.ifsrmpropertydefinition_type","fsrmpipeline/IFsrmPropertyDefinition::Type","fsrmpipeline/IFsrmPropertyDefinition::get_Type","fsrmpipeline/IFsrmPropertyDefinition::put_Type","put_Type"]
+description: The type of data that the property contains.
+helpviewer_keywords: ["IFsrmPropertyDefinition interface [File Server Resource Manager]","Type property","IFsrmPropertyDefinition.Type","IFsrmPropertyDefinition.put_Type","IFsrmPropertyDefinition::Type","IFsrmPropertyDefinition::get_Type","IFsrmPropertyDefinition::put_Type","Type property [File Server Resource Manager]","Type property [File Server Resource Manager]","IFsrmPropertyDefinition interface","fs.ifsrmpropertydefinition_type","fsrm.ifsrmpropertydefinition_type","fsrmpipeline/IFsrmPropertyDefinition::Type","fsrmpipeline/IFsrmPropertyDefinition::get_Type","fsrmpipeline/IFsrmPropertyDefinition::put_Type","put_Type"]
 old-location: fsrm\ifsrmpropertydefinition_type.htm
 tech.root: fsrm
 ms.assetid: 3e770876-05a3-4b8c-901d-84ee40112c2f

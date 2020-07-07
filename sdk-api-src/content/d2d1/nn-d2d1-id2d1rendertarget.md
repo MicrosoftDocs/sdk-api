@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1.ID2D1RenderTarget
 title: ID2D1RenderTarget (d2d1.h)
-description: Represents an object that can receive drawing commands. Interfaces that inherit from ID2D1RenderTarget render the drawing commands they receive in different ways.helpviewer_keywords: ["ID2D1RenderTarget","ID2D1RenderTarget interface [Direct2D]","ID2D1RenderTarget interface [Direct2D]","described","d2d1/ID2D1RenderTarget","direct2d.ID2D1RenderTarget"]
+description: Represents an object that can receive drawing commands. Interfaces that inherit from ID2D1RenderTarget render the drawing commands they receive in different ways.
+helpviewer_keywords: ["ID2D1RenderTarget","ID2D1RenderTarget interface [Direct2D]","ID2D1RenderTarget interface [Direct2D]","described","d2d1/ID2D1RenderTarget","direct2d.ID2D1RenderTarget"]
 old-location: direct2d\ID2D1RenderTarget.htm
 tech.root: Direct2D
 ms.assetid: 40629be9-5840-4bde-b369-56bbfd791775
@@ -54,9 +55,9 @@ Represents an object that can receive drawing commands. Interfaces that inherit 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1RenderTarget</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1RenderTarget</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID2D1RenderTarget</b> interface inherits from <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>. <b>ID2D1RenderTarget</b> also has these types of members:
 <ul>
-<li><a href="https://docs.microsoft.com/">Methods</a></li>
+<li><a href="/">Methods</a></li>
 </ul>
 
 ## -members
@@ -69,7 +70,7 @@ The <b>ID2D1RenderTarget</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw">BeginDraw</a>
 </td>
 <td align="left" width="63%">
 Initiates drawing on this render target. 
@@ -78,7 +79,7 @@ Initiates drawing on this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-clear">Clear</a>
+<a href="/windows/win32/Direct2D/id2d1rendertarget-clear">Clear</a>
 </td>
 <td align="left" width="63%">Overloaded. Clears the drawing area to the specified color.
 
@@ -86,7 +87,7 @@ Initiates drawing on this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-createbitmap">CreateBitmap</a>
+<a href="/windows/win32/Direct2D/id2d1rendertarget-createbitmap">CreateBitmap</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a Direct2D bitmap.
 
@@ -94,17 +95,17 @@ Initiates drawing on this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-createbitmapbrush">CreateBitmapBrush</a>
+<a href="/windows/win32/Direct2D/id2d1rendertarget-createbitmapbrush">CreateBitmapBrush</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> from the specified bitmap.
+<td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush">ID2D1BitmapBrush</a> from the specified bitmap.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-createbitmapfromwicbitmap">CreateBitmapFromWicBitmap</a>
+<a href="/windows/win32/Direct2D/id2d1rendertarget-createbitmapfromwicbitmap">CreateBitmapFromWicBitmap</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> by copying the specified Microsoft Windows Imaging Component (WIC)  bitmap.
+<td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> by copying the specified Microsoft Windows Imaging Component (WIC)  bitmap.
 
 </td>
 </tr>
@@ -118,15 +119,15 @@ Initiates drawing on this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-creategradientstopcollection">CreateGradientStopCollection</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-creategradientstopcollection">CreateGradientStopCollection</a>
 </td>
-<td align="left" width="63%">Overloaded.      Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a> from the specified array of <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> structures. 
+<td align="left" width="63%">Overloaded.      Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection">ID2D1GradientStopCollection</a> from the specified array of <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_gradient_stop">D2D1_GRADIENT_STOP</a> structures. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createlayer">CreateLayer</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-createlayer">CreateLayer</a>
 </td>
 <td align="left" width="63%">Overloaded. Creates a layer resource that can be used with this render target and its compatible render targets. 
 
@@ -134,15 +135,15 @@ Initiates drawing on this render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createlineargradientbrush">CreateLinearGradientBrush</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-createlineargradientbrush">CreateLinearGradientBrush</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a> object for painting areas with a linear gradient.
+<td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a> object for painting areas with a linear gradient.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createmesh">CreateMesh</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createmesh">CreateMesh</a>
 </td>
 <td align="left" width="63%">
 Create a mesh that uses triangles to describe a shape.
@@ -151,40 +152,40 @@ Create a mesh that uses triangles to describe a shape.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createradialgradientbrush">CreateRadialGradientBrush</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-createradialgradientbrush">CreateRadialGradientBrush</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a> object that can be used to paint areas with a radial gradient.
+<td align="left" width="63%">Overloaded. Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a> object that can be used to paint areas with a radial gradient.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap">CreateSharedBitmap</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsharedbitmap">CreateSharedBitmap</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> whose data is shared with another resource.
+Creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a> whose data is shared with another resource.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createsolidcolorbrush">CreateSolidColorBrush</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-createsolidcolorbrush">CreateSolidColorBrush</a>
 </td>
-<td align="left" width="63%">Overloaded. Creates a new <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a> that can be used to paint areas with a solid color.
+<td align="left" width="63%">Overloaded. Creates a new <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush">ID2D1SolidColorBrush</a> that can be used to paint areas with a solid color.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-drawbitmap">DrawBitmap</a>
+<a href="/windows/win32/Direct2D/id2d1rendertarget-drawbitmap">DrawBitmap</a>
 </td>
-<td align="left" width="63%">Overloaded. Draws the specified <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>.
+<td align="left" width="63%">Overloaded. Draws the specified <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-drawellipse">DrawEllipse</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-drawellipse">DrawEllipse</a>
 </td>
 <td align="left" width="63%">Overloaded. Draws the outline of an ellipse with the specified dimensions and stroke.
 
@@ -192,7 +193,7 @@ Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry">DrawGeometry</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawgeometry">DrawGeometry</a>
 </td>
 <td align="left" width="63%">
 Draws the outline of the specified geometry using the specified stroke style.
@@ -201,7 +202,7 @@ Draws the outline of the specified geometry using the specified stroke style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun">DrawGlyphRun</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun">DrawGlyphRun</a>
 </td>
 <td align="left" width="63%">
 Draws the specified glyphs.
@@ -210,7 +211,7 @@ Draws the specified glyphs.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawline">DrawLine</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawline">DrawLine</a>
 </td>
 <td align="left" width="63%">
 Draws a line between the specified points using the specified stroke style.
@@ -219,7 +220,7 @@ Draws a line between the specified points using the specified stroke style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-drawrectangle">DrawRectangle</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-drawrectangle">DrawRectangle</a>
 </td>
 <td align="left" width="63%">Overloaded. Draws the outline of a rectangle that has the specified dimensions and stroke style.
     
@@ -228,7 +229,7 @@ Draws a line between the specified points using the specified stroke style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-drawroundedrectangle">DrawRoundedRectangle</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-drawroundedrectangle">DrawRoundedRectangle</a>
 </td>
 <td align="left" width="63%">Overloaded. Draws the outline of the specified rounded rectangle using the specified stroke style.
 
@@ -236,24 +237,24 @@ Draws a line between the specified points using the specified stroke style.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-drawtext">DrawText</a>
+<a href="/windows/win32/Direct2D/id2d1rendertarget-drawtext">DrawText</a>
 </td>
-<td align="left" width="63%">Overloaded. Draws the specified text using the format information provided by an <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> object.
+<td align="left" width="63%">Overloaded. Draws the specified text using the format information provided by an <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextformat">IDWriteTextFormat</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout">DrawTextLayout</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout">DrawTextLayout</a>
 </td>
 <td align="left" width="63%">
-Draws the formatted text described by the specified <a href="https://docs.microsoft.com/windows/desktop/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> object.
+Draws the formatted text described by the specified <a href="/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout">IDWriteTextLayout</a> object.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a>
 </td>
 <td align="left" width="63%">
 Ends drawing operations  on the render target and indicates the current error state and associated tags. 
@@ -262,7 +263,7 @@ Ends drawing operations  on the render target and indicates the current error st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-fillellipse">FillEllipse</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-fillellipse">FillEllipse</a>
 </td>
 <td align="left" width="63%">Overloaded. Paints the interior of the specified ellipse.
 
@@ -270,7 +271,7 @@ Ends drawing operations  on the render target and indicates the current error st
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">FillGeometry</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry">FillGeometry</a>
 </td>
 <td align="left" width="63%">
 Paints the interior of the specified geometry.
@@ -279,7 +280,7 @@ Paints the interior of the specified geometry.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillmesh">FillMesh</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillmesh">FillMesh</a>
 </td>
 <td align="left" width="63%">
 Paints the interior of the specified mesh.
@@ -288,7 +289,7 @@ Paints the interior of the specified mesh.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-fillopacitymask">FillOpacityMask</a>
+<a href="/windows/win32/Direct2D/id2d1rendertarget-fillopacitymask">FillOpacityMask</a>
 </td>
 <td align="left" width="63%">Overloaded. Applies the opacity mask described by the specified bitmap to a brush and uses that brush to paint a region of the render target.   
 
@@ -296,7 +297,7 @@ Paints the interior of the specified mesh.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-fillrectangle">FillRectangle</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-fillrectangle">FillRectangle</a>
 </td>
 <td align="left" width="63%">Overloaded. Paints the interior of the specified rectangle.
 
@@ -304,7 +305,7 @@ Paints the interior of the specified mesh.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-fillroundedrectangle">FillRoundedRectangle</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-fillroundedrectangle">FillRoundedRectangle</a>
 </td>
 <td align="left" width="63%">Overloaded. Paints the interior of the specified rounded rectangle.
 
@@ -312,7 +313,7 @@ Paints the interior of the specified mesh.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-flush">Flush</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush">Flush</a>
 </td>
 <td align="left" width="63%">
 Executes all pending drawing commands.
@@ -321,7 +322,7 @@ Executes all pending drawing commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getantialiasmode">GetAntialiasMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-getantialiasmode">GetAntialiasMode</a>
 </td>
 <td align="left" width="63%">
 Retrieves the current antialiasing mode for nontext drawing operations.
@@ -330,7 +331,7 @@ Retrieves the current antialiasing mode for nontext drawing operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getdpi">GetDpi</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-getdpi">GetDpi</a>
 </td>
 <td align="left" width="63%">
 Return the render target's dots per inch (DPI).
@@ -339,7 +340,7 @@ Return the render target's dots per inch (DPI).
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getmaximumbitmapsize">GetMaximumBitmapSize</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-getmaximumbitmapsize">GetMaximumBitmapSize</a>
 </td>
 <td align="left" width="63%">
 Gets the maximum size, in device-dependent units (pixels), of  any one bitmap dimension supported by the render target.
@@ -348,7 +349,7 @@ Gets the maximum size, in device-dependent units (pixels), of  any one bitmap di
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelformat">GetPixelFormat</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelformat">GetPixelFormat</a>
 </td>
 <td align="left" width="63%">
 Retrieves the pixel format and alpha mode of the render target.
@@ -357,7 +358,7 @@ Retrieves the pixel format and alpha mode of the render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelsize">GetPixelSize</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-getpixelsize">GetPixelSize</a>
 </td>
 <td align="left" width="63%">
 Returns the size of the render target in device pixels.
@@ -366,7 +367,7 @@ Returns the size of the render target in device pixels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-getsize">GetSize</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-getsize">GetSize</a>
 </td>
 <td align="left" width="63%">
 Returns the size of the render target in device-independent pixels.
@@ -375,7 +376,7 @@ Returns the size of the render target in device-independent pixels.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-gettags">GetTags</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-gettags">GetTags</a>
 </td>
 <td align="left" width="63%">
 Gets the label for subsequent drawing operations.
@@ -384,7 +385,7 @@ Gets the label for subsequent drawing operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-gettextantialiasmode">GetTextAntialiasMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-gettextantialiasmode">GetTextAntialiasMode</a>
 </td>
 <td align="left" width="63%">
 Gets the current antialiasing mode for text and glyph drawing operations.
@@ -393,7 +394,7 @@ Gets the current antialiasing mode for text and glyph drawing operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-gettextrenderingparams">GetTextRenderingParams</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-gettextrenderingparams">GetTextRenderingParams</a>
 </td>
 <td align="left" width="63%">
 Retrieves the render target's current text rendering options.
@@ -402,7 +403,7 @@ Retrieves the render target's current text rendering options.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-gettransform">GetTransform</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-gettransform">GetTransform</a>
 </td>
 <td align="left" width="63%">
 Gets the current transform of the render target.
@@ -411,7 +412,7 @@ Gets the current transform of the render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-issupported(constd2d1_render_target_properties_)">IsSupported</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-issupported(constd2d1_render_target_properties_)">IsSupported</a>
 </td>
 <td align="left" width="63%">
 Indicates whether the render target supports the specified properties.
@@ -420,7 +421,7 @@ Indicates whether the render target supports the specified properties.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-popaxisalignedclip">PopAxisAlignedClip</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-popaxisalignedclip">PopAxisAlignedClip</a>
 </td>
 <td align="left" width="63%">
 Removes the last axis-aligned clip from the render target. After this method is called, the clip is no longer applied to subsequent drawing operations.
@@ -429,16 +430,16 @@ Removes the last axis-aligned clip from the render target. After this method is 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a>
 </td>
 <td align="left" width="63%">
-Stops redirecting drawing operations to the layer that is specified by the last <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a> call. 
+Stops redirecting drawing operations to the layer that is specified by the last <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)">PushLayer</a> call. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-pushaxisalignedclip">PushAxisAlignedClip</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-pushaxisalignedclip">PushAxisAlignedClip</a>
 </td>
 <td align="left" width="63%">Overloaded. Specifies a rectangle to which all subsequent drawing operations are clipped.
 
@@ -446,33 +447,33 @@ Stops redirecting drawing operations to the layer that is specified by the last 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-pushlayer">PushLayer</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-pushlayer">PushLayer</a>
 </td>
-<td align="left" width="63%">Overloaded. Adds the specified layer to the render target so that it receives all subsequent drawing operations until <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a> is called. 
+<td align="left" width="63%">Overloaded. Adds the specified layer to the render target so that it receives all subsequent drawing operations until <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer">PopLayer</a> is called. 
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-restoredrawingstate">RestoreDrawingState</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-restoredrawingstate">RestoreDrawingState</a>
 </td>
 <td align="left" width="63%">
-Sets the render target's drawing state to that of the specified <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>.
+Sets the render target's drawing state to that of the specified <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-savedrawingstate">SaveDrawingState</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-savedrawingstate">SaveDrawingState</a>
 </td>
 <td align="left" width="63%">
-Saves the current drawing state to the specified <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>.
+Saves the current drawing state to the specified <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1drawingstateblock">ID2D1DrawingStateBlock</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode">SetAntialiasMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-setantialiasmode">SetAntialiasMode</a>
 </td>
 <td align="left" width="63%">
 Sets the antialiasing mode of the render target. The antialiasing mode applies to all subsequent drawing operations, excluding text and glyph drawing operations.
@@ -481,7 +482,7 @@ Sets the antialiasing mode of the render target. The antialiasing mode applies t
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-setdpi">SetDpi</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-setdpi">SetDpi</a>
 </td>
 <td align="left" width="63%">
 Sets the dots per inch (DPI) of the render target. 
@@ -490,7 +491,7 @@ Sets the dots per inch (DPI) of the render target.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settags">SetTags</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settags">SetTags</a>
 </td>
 <td align="left" width="63%">
 Specifies a label for subsequent drawing operations.  
@@ -499,7 +500,7 @@ Specifies a label for subsequent drawing operations.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a>
 </td>
 <td align="left" width="63%">
 Specifies the antialiasing mode to use for subsequent text and glyph drawing operations.
@@ -508,7 +509,7 @@ Specifies the antialiasing mode to use for subsequent text and glyph drawing ope
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextrenderingparams">SetTextRenderingParams</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextrenderingparams">SetTextRenderingParams</a>
 </td>
 <td align="left" width="63%">
 Specifies text rendering options to be applied to all subsequent text and glyph drawing operations.
@@ -517,7 +518,7 @@ Specifies text rendering options to be applied to all subsequent text and glyph 
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/id2d1rendertarget-settransform">SetTransform</a>
+<a href="/windows/win32/Direct2D/id2d1rendertarget-settransform">SetTransform</a>
 </td>
 <td align="left" width="63%">Overloaded. Applies the specified transform to the render target, replacing the existing transformation. All subsequent drawing operations occur in the transformed space.
 
@@ -530,7 +531,7 @@ Specifies text rendering options to be applied to all subsequent text and glyph 
 
 
 
-Your application should create render targets once and hold onto them for the life of the application or until the render target's  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> method returns the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, you need to recreate the render target (and any resources it created). 
+Your application should create render targets once and hold onto them for the life of the application or until the render target's  <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> method returns the <a href="/windows/win32/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, you need to recreate the render target (and any resources it created). 
 
 
 
@@ -540,15 +541,15 @@ Your application should create render targets once and hold onto them for the li
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/the-direct2d-api">Direct2D API Overview</a>
+<a href="/windows/win32/Direct2D/the-direct2d-api">Direct2D API Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/getting-started-with-direct2d-nav">Getting Started</a>
+<a href="/windows/win32/Direct2D/getting-started-with-direct2d-nav">Getting Started</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1resource">ID2D1Resource</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:winml.IWinMLEvaluationContext.GetValueByName
 title: IWinMLEvaluationContext::GetValueByName (winml.h)
-description: Returns the input/output description for the specific binding name.helpviewer_keywords: ["GetValueByName","GetValueByName method","GetValueByName method","IWinMLEvaluationContext interface","IWinMLEvaluationContext interface","GetValueByName method","IWinMLEvaluationContext.GetValueByName","IWinMLEvaluationContext::GetValueByName","MachineLearning.iwinmlevaluationcontext_getvaluebyname","winml/IWinMLEvaluationContext::GetValueByName"]
+description: Returns the input/output description for the specific binding name.
+helpviewer_keywords: ["GetValueByName","GetValueByName method","GetValueByName method","IWinMLEvaluationContext interface","IWinMLEvaluationContext interface","GetValueByName method","IWinMLEvaluationContext.GetValueByName","IWinMLEvaluationContext::GetValueByName","MachineLearning.iwinmlevaluationcontext_getvaluebyname","winml/IWinMLEvaluationContext::GetValueByName"]
 old-location: machinelearning\iwinmlevaluationcontext_getvaluebyname.htm
 tech.root: MachineLearning
 ms.assetid: 750A799F-A5A7-48D2-958B-D03423C0CE09

@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12.D3D12_HIT_GROUP_TYPE
 title: D3D12_HIT_GROUP_TYPE (d3d12.h)
-description: Specifies the type of a raytracing hit group state subobject. Use a value from this enumeration with the D3D12_HIT_GROUP_DESC structure.helpviewer_keywords: ["D3D12_HIT_GROUP_TYPE","D3D12_HIT_GROUP_TYPE enumeration","D3D12_HIT_GROUP_TYPE_PROCEDURAL_PRIMITIVE","D3D12_HIT_GROUP_TYPE_TRIANGLES","d3d12/D3D12_HIT_GROUP_TYPE","d3d12/D3D12_HIT_GROUP_TYPE_PROCEDURAL_PRIMITIVE","d3d12/D3D12_HIT_GROUP_TYPE_TRIANGLES","direct3d12.d3d12_hit_group_type"]
+description: Specifies the type of a raytracing hit group state subobject. Use a value from this enumeration with the D3D12_HIT_GROUP_DESC structure.
+helpviewer_keywords: ["D3D12_HIT_GROUP_TYPE","D3D12_HIT_GROUP_TYPE enumeration","D3D12_HIT_GROUP_TYPE_PROCEDURAL_PRIMITIVE","D3D12_HIT_GROUP_TYPE_TRIANGLES","d3d12/D3D12_HIT_GROUP_TYPE","d3d12/D3D12_HIT_GROUP_TYPE_PROCEDURAL_PRIMITIVE","d3d12/D3D12_HIT_GROUP_TYPE_TRIANGLES","direct3d12.d3d12_hit_group_type"]
 old-location: direct3d12\d3d12_hit_group_type.htm
 tech.root: direct3d12
 ms.assetid: F7C77720-CAAE-49E4-929B-E1A0BF9FFC1A

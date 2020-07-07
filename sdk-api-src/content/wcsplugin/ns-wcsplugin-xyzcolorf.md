@@ -1,7 +1,8 @@
 ---
 UID: NS:wcsplugin._XYZColorF
 title: XYZColorF (wcsplugin.h)
-description: TBD.helpviewer_keywords: ["XYZColorF","XYZColorF structure [Windows Color System]","wcs.xyzcolorf","wcsplugin/XYZColorF"]
+description: TBD.
+helpviewer_keywords: ["XYZColorF","XYZColorF structure [Windows Color System]","wcs.xyzcolorf","wcsplugin/XYZColorF"]
 old-location: wcs\xyzcolorf.htm
 tech.root: WCS
 ms.assetid: 841c0d86-c27a-4a64-b956-02abc435e108

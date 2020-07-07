@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarR8FromI8
 title: VarR8FromI8 function (oleauto.h)
-description: Converts an 8-byte integer value to a double value.helpviewer_keywords: ["VarR8FromI8","VarR8FromI8 function [Automation]","_oa96_VarR8FromI8","automat.varr8fromi8","oleauto/VarR8FromI8"]
+description: Converts an 8-byte integer value to a double value.
+helpviewer_keywords: ["VarR8FromI8","VarR8FromI8 function [Automation]","_oa96_VarR8FromI8","automat.varr8fromi8","oleauto/VarR8FromI8"]
 old-location: automat\varr8fromi8.htm
 tech.root: automat
 ms.assetid: eeb68518-0038-43ef-991e-d6bf6a8db5b0

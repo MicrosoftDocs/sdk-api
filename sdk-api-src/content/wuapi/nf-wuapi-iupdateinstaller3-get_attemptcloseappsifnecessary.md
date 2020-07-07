@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateInstaller3.get_AttemptCloseAppsIfNecessary
 title: IUpdateInstaller3::get_AttemptCloseAppsIfNecessary (wuapi.h)
-description: Gets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.helpviewer_keywords: ["IUpdateInstaller3 interface [Windows Update Agent]","get_AttemptCloseAppsIfNecessary method","IUpdateInstaller3.get_AttemptCloseAppsIfNecessary","IUpdateInstaller3::get_AttemptCloseAppsIfNecessary","get_AttemptCloseAppsIfNecessary","get_AttemptCloseAppsIfNecessary method [Windows Update Agent]","get_AttemptCloseAppsIfNecessary method [Windows Update Agent]","IUpdateInstaller3 interface","wua.iupdateinstaller3_get_attemptcloseappsifnecessary","wuapi/IUpdateInstaller3::get_AttemptCloseAppsIfNecessary"]
+description: Gets a value indicating whether the update installer will attempt to close applications, blocking immediate installation of updates.
+helpviewer_keywords: ["IUpdateInstaller3 interface [Windows Update Agent]","get_AttemptCloseAppsIfNecessary method","IUpdateInstaller3.get_AttemptCloseAppsIfNecessary","IUpdateInstaller3::get_AttemptCloseAppsIfNecessary","get_AttemptCloseAppsIfNecessary","get_AttemptCloseAppsIfNecessary method [Windows Update Agent]","get_AttemptCloseAppsIfNecessary method [Windows Update Agent]","IUpdateInstaller3 interface","wua.iupdateinstaller3_get_attemptcloseappsifnecessary","wuapi/IUpdateInstaller3::get_AttemptCloseAppsIfNecessary"]
 old-location: wua\iupdateinstaller3_get_attemptcloseappsifnecessary.htm
 tech.root: Wua_Sdk
 ms.assetid: ACC9EBDD-E050-41B7-82EF-186094750DCA

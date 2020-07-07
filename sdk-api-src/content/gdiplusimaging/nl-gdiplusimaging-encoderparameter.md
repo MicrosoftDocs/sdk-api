@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplusimaging.EncoderParameter
 title: EncoderParameter (gdiplusimaging.h)
-description: An EncoderParameter object holds a parameter that can be passed to an image encoder. An EncoderParameter object can also be used to receive a list of possible values supported by a particular parameter of a particular image encoder.helpviewer_keywords: ["EncoderParameter","EncoderParameter class [GDI+]","EncoderParameter class [GDI+]","described","_gdiplus_CLASS_EncoderParameter_Class","gdiplus._gdiplus_CLASS_EncoderParameter_Class","gdiplusimaging/EncoderParameter"]
+description: An EncoderParameter object holds a parameter that can be passed to an image encoder. An EncoderParameter object can also be used to receive a list of possible values supported by a particular parameter of a particular image encoder.
+helpviewer_keywords: ["EncoderParameter","EncoderParameter class [GDI+]","EncoderParameter class [GDI+]","described","_gdiplus_CLASS_EncoderParameter_Class","gdiplus._gdiplus_CLASS_EncoderParameter_Class","gdiplusimaging/EncoderParameter"]
 old-location: gdiplus\_gdiplus_CLASS_EncoderParameter_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\encoderparameter.htm

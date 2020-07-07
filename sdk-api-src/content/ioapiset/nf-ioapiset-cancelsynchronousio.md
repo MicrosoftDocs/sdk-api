@@ -1,7 +1,8 @@
 ---
 UID: NF:ioapiset.CancelSynchronousIo
 title: CancelSynchronousIo function (ioapiset.h)
-description: Marks pending synchronous I/O operations that are issued by the specified thread as canceled.helpviewer_keywords: ["CancelSynchronousIo","CancelSynchronousIo function [Files]","fs.cancelsynchronousio_func","ioapiset/CancelSynchronousIo","winbase/CancelSynchronousIo"]
+description: Marks pending synchronous I/O operations that are issued by the specified thread as canceled.
+helpviewer_keywords: ["CancelSynchronousIo","CancelSynchronousIo function [Files]","fs.cancelsynchronousio_func","ioapiset/CancelSynchronousIo","winbase/CancelSynchronousIo"]
 old-location: fs\cancelsynchronousio_func.htm
 tech.root: FileIO
 ms.assetid: f362c8b2-2193-443e-bb69-78f8b4147117

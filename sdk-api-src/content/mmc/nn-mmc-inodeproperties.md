@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.INodeProperties
 title: INodeProperties (mmc.h)
-description: The INodeProperties interface retrieves text-only properties for a node.helpviewer_keywords: ["INodeProperties","INodeProperties interface [MMC]","INodeProperties interface [MMC]","described","_slate_inodeproperties","mmc.inodeproperties","mmc/INodeProperties"]
+description: The INodeProperties interface retrieves text-only properties for a node.
+helpviewer_keywords: ["INodeProperties","INodeProperties interface [MMC]","INodeProperties interface [MMC]","described","_slate_inodeproperties","mmc.inodeproperties","mmc/INodeProperties"]
 old-location: mmc\inodeproperties.htm
 tech.root: mmc
 ms.assetid: 5ef78fb9-704e-4c1d-ada8-c257a0944c94

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextStory.SetText
 title: ITextStory::SetText (tom.h)
-description: Replaces the text in a story with the specified text.helpviewer_keywords: ["ITextStory interface [Windows Controls]","SetText method","ITextStory.SetText","ITextStory::SetText","SetText","SetText method [Windows Controls]","SetText method [Windows Controls]","ITextStory interface","controls.itextstory_settext","tom/ITextStory::SetText","tomCheckTextLimit","tomMathCFCheck","tomUnhide","tomUnicodeBiDi","tomUnlink"]
+description: Replaces the text in a story with the specified text.
+helpviewer_keywords: ["ITextStory interface [Windows Controls]","SetText method","ITextStory.SetText","ITextStory::SetText","SetText","SetText method [Windows Controls]","SetText method [Windows Controls]","ITextStory interface","controls.itextstory_settext","tom/ITextStory::SetText","tomCheckTextLimit","tomMathCFCheck","tomUnhide","tomUnicodeBiDi","tomUnlink"]
 old-location: controls\itextstory_settext.htm
 tech.root: Controls
 ms.assetid: 9efd45ed-00f7-47e1-90e7-82a420e79bdf

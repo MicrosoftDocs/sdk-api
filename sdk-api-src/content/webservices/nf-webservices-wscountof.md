@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsCountOf
 title: WsCountOf macro (webservices.h)
-description: Returns the number of elements a specified array.helpviewer_keywords: ["WsCountOf","WsCountOf macro [Web Services for Windows]","webservices/WsCountOf","wsw.wscountof"]
+description: Returns the number of elements a specified array.
+helpviewer_keywords: ["WsCountOf","WsCountOf macro [Web Services for Windows]","webservices/WsCountOf","wsw.wscountof"]
 old-location: wsw\wscountof.htm
 tech.root: wsw
 ms.assetid: 3087fa5e-46fc-4580-999c-f80a2b8555f6

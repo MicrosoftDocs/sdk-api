@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchLanguageSupport.LoadStemmer
 title: ISearchLanguageSupport::LoadStemmer (searchapi.h)
-description: Retrieves an interface to the word stemmer registered for the specified language code identifier (LCID).helpviewer_keywords: ["ISearchLanguageSupport interface [search]","LoadStemmer method","ISearchLanguageSupport.LoadStemmer","ISearchLanguageSupport::LoadStemmer","LoadStemmer","LoadStemmer method [search]","LoadStemmer method [search]","ISearchLanguageSupport interface","_search_ISearchLanguageSupport_LoadStemmer","search._search_ISearchLanguageSupport_LoadStemmer","searchapi/ISearchLanguageSupport::LoadStemmer"]
+description: Retrieves an interface to the word stemmer registered for the specified language code identifier (LCID).
+helpviewer_keywords: ["ISearchLanguageSupport interface [search]","LoadStemmer method","ISearchLanguageSupport.LoadStemmer","ISearchLanguageSupport::LoadStemmer","LoadStemmer","LoadStemmer method [search]","LoadStemmer method [search]","ISearchLanguageSupport interface","_search_ISearchLanguageSupport_LoadStemmer","search._search_ISearchLanguageSupport_LoadStemmer","searchapi/ISearchLanguageSupport::LoadStemmer"]
 old-location: search\_search_ISearchLanguageSupport_LoadStemmer.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\isearchlanguagesupport\loadstemmer.htm

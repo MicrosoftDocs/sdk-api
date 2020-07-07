@@ -1,7 +1,8 @@
 ---
 UID: NS:vmr9._VMR9NormalizedRect
 title: VMR9NormalizedRect (vmr9.h)
-description: The VMR9NormalizedRect structure is used with the VMR-9 filter in mixing operations to specify or retrieve the location of a video rectangle in composition space.helpviewer_keywords: ["VMR9NormalizedRect","VMR9NormalizedRect structure [DirectShow]","VMR9NormalizedRectStructure","dshow.vmr9normalizedrect","vmr9/VMR9NormalizedRect"]
+description: The VMR9NormalizedRect structure is used with the VMR-9 filter in mixing operations to specify or retrieve the location of a video rectangle in composition space.
+helpviewer_keywords: ["VMR9NormalizedRect","VMR9NormalizedRect structure [DirectShow]","VMR9NormalizedRectStructure","dshow.vmr9normalizedrect","vmr9/VMR9NormalizedRect"]
 old-location: dshow\vmr9normalizedrect.htm
 tech.root: DirectShow
 ms.assetid: 226b685c-92da-45c3-b99a-6c1e732f8dc6

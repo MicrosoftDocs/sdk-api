@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleAdviseHolder.SendOnRename
 title: IOleAdviseHolder::SendOnRename (oleidl.h)
-description: Sends notification to all advisory sinks currently registered with the advise holder that the name of object has changed.helpviewer_keywords: ["IOleAdviseHolder interface [COM]","SendOnRename method","IOleAdviseHolder.SendOnRename","IOleAdviseHolder::SendOnRename","SendOnRename","SendOnRename method [COM]","SendOnRename method [COM]","IOleAdviseHolder interface","_ole_ioleadviseholder_sendonrename","com.ioleadviseholder_sendonrename","oleidl/IOleAdviseHolder::SendOnRename"]
+description: Sends notification to all advisory sinks currently registered with the advise holder that the name of object has changed.
+helpviewer_keywords: ["IOleAdviseHolder interface [COM]","SendOnRename method","IOleAdviseHolder.SendOnRename","IOleAdviseHolder::SendOnRename","SendOnRename","SendOnRename method [COM]","SendOnRename method [COM]","IOleAdviseHolder interface","_ole_ioleadviseholder_sendonrename","com.ioleadviseholder_sendonrename","oleidl/IOleAdviseHolder::SendOnRename"]
 old-location: com\ioleadviseholder_sendonrename.htm
 tech.root: com
 ms.assetid: 64e44cab-b618-49af-bf0e-966b9eaa198a

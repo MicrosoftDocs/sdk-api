@@ -1,7 +1,8 @@
 ---
 UID: NF:dwmapi.DwmSetPresentParameters
 title: DwmSetPresentParameters function (dwmapi.h)
-description: Sets the present parameters for frame composition. DwmSetPresentParameters is no longer supported. Starting with Windows 8.1, calls to DwmSetPresentParameters always return E_NOTIMPL.helpviewer_keywords: ["DwmSetPresentParameters","DwmSetPresentParameters function [Desktop Window Manager]","_udwm_dwmsetpresentparameters","_udwm_dwmsetpresentparameters_cpp","dwm.dwmsetpresentparameters","dwmapi/DwmSetPresentParameters","winui._udwm_dwmsetpresentparameters"]
+description: Sets the present parameters for frame composition. DwmSetPresentParameters is no longer supported. Starting with Windows 8.1, calls to DwmSetPresentParameters always return E_NOTIMPL.
+helpviewer_keywords: ["DwmSetPresentParameters","DwmSetPresentParameters function [Desktop Window Manager]","_udwm_dwmsetpresentparameters","_udwm_dwmsetpresentparameters_cpp","dwm.dwmsetpresentparameters","dwmapi/DwmSetPresentParameters","winui._udwm_dwmsetpresentparameters"]
 old-location: dwm\dwmsetpresentparameters.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmsetpresentparameters.htm

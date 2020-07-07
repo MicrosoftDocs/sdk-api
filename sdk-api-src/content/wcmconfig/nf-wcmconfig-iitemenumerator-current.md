@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.IItemEnumerator.Current
 title: IItemEnumerator::Current (wcmconfig.h)
-description: Retrieves an item from the current position of the enumerator.helpviewer_keywords: ["Current","Current method [SMI]","Current method [SMI]","IItemEnumerator interface","IItemEnumerator interface [SMI]","Current method","IItemEnumerator.Current","IItemEnumerator::Current","smi.iitemenumerator_current","wcmconfig/IItemEnumerator::Current"]
+description: Retrieves an item from the current position of the enumerator.
+helpviewer_keywords: ["Current","Current method [SMI]","Current method [SMI]","IItemEnumerator interface","IItemEnumerator interface [SMI]","Current method","IItemEnumerator.Current","IItemEnumerator::Current","smi.iitemenumerator_current","wcmconfig/IItemEnumerator::Current"]
 old-location: smi\iitemenumerator_current.htm
 tech.root: SMI
 ms.assetid: 0f117274-672f-40da-a4c6-88dd6aa01cf7

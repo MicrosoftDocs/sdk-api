@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.MultipleViewPattern_GetViewName
 title: MultipleViewPattern_GetViewName function (uiautomationcoreapi.h)
-description: Retrieves the name of a control-specific view.helpviewer_keywords: ["MultipleViewPattern_GetViewName","MultipleViewPattern_GetViewName function [Windows Accessibility]","uiauto.uiauto_MultipleViewPattern_GetViewNameConPat","uiauto_MultipleViewPattern_GetViewNameConPat","uiautomationcoreapi/MultipleViewPattern_GetViewName","winauto.uiauto_MultipleViewPattern_GetViewNameConPat"]
+description: Retrieves the name of a control-specific view.
+helpviewer_keywords: ["MultipleViewPattern_GetViewName","MultipleViewPattern_GetViewName function [Windows Accessibility]","uiauto.uiauto_MultipleViewPattern_GetViewNameConPat","uiauto_MultipleViewPattern_GetViewNameConPat","uiautomationcoreapi/MultipleViewPattern_GetViewName","winauto.uiauto_MultipleViewPattern_GetViewNameConPat"]
 old-location: winauto\uiauto_MultipleViewPattern_GetViewNameConPat.htm
 tech.root: WinAuto
 ms.assetid: 950d9649-0565-4e1b-bdc7-49d1df7bbcd4

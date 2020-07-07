@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICComponentInfo
 title: IWICComponentInfo (wincodec.h)
-description: Exposes methods that provide component information.helpviewer_keywords: ["IWICComponentInfo","IWICComponentInfo interface [Windows Imaging Component]","IWICComponentInfo interface [Windows Imaging Component]","described","_wic_codec_iwiccomponentinfo","wic._wic_codec_iwiccomponentinfo","wincodec/IWICComponentInfo"]
+description: Exposes methods that provide component information.
+helpviewer_keywords: ["IWICComponentInfo","IWICComponentInfo interface [Windows Imaging Component]","IWICComponentInfo interface [Windows Imaging Component]","described","_wic_codec_iwiccomponentinfo","wic._wic_codec_iwiccomponentinfo","wincodec/IWICComponentInfo"]
 old-location: wic\_wic_codec_iwiccomponentinfo.htm
 tech.root: wic
 ms.assetid: a31267ed-60cd-4de9-9fed-26bb390b29e6

@@ -1,7 +1,8 @@
 ---
 UID: NE:cfapi.CF_SET_PIN_FLAGS
 title: CF_SET_PIN_FLAGS (cfapi.h)
-description: The placeholder pin flags.helpviewer_keywords: ["CF_SET_PIN_FLAGS","CF_SET_PIN_FLAGS enumeration","CF_SET_PIN_FLAG_NONE","CF_SET_PIN_FLAG_RECURSE","CF_SET_PIN_FLAG_RECURSE_ONLY","CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR","cfapi/CF_SET_PIN_FLAGS","cfapi/CF_SET_PIN_FLAG_NONE","cfapi/CF_SET_PIN_FLAG_RECURSE","cfapi/CF_SET_PIN_FLAG_RECURSE_ONLY","cfapi/CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR","cloudApi.cf_set_pin_flags"]
+description: The placeholder pin flags.
+helpviewer_keywords: ["CF_SET_PIN_FLAGS","CF_SET_PIN_FLAGS enumeration","CF_SET_PIN_FLAG_NONE","CF_SET_PIN_FLAG_RECURSE","CF_SET_PIN_FLAG_RECURSE_ONLY","CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR","cfapi/CF_SET_PIN_FLAGS","cfapi/CF_SET_PIN_FLAG_NONE","cfapi/CF_SET_PIN_FLAG_RECURSE","cfapi/CF_SET_PIN_FLAG_RECURSE_ONLY","cfapi/CF_SET_PIN_FLAG_RECURSE_STOP_ON_ERROR","cloudApi.cf_set_pin_flags"]
 old-location: cloudapi\cf_set_pin_flags.htm
 tech.root: cfApi
 ms.assetid: 6766931E-B2D4-4166-9B6E-E6D8F57E57B3

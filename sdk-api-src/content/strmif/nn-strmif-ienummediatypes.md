@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IEnumMediaTypes
 title: IEnumMediaTypes (strmif.h)
-description: The IEnumMediaTypes interface enumerates a pin's preferred media types.helpviewer_keywords: ["IEnumMediaTypes","IEnumMediaTypes interface [DirectShow]","IEnumMediaTypes interface [DirectShow]","described","IEnumMediaTypesInterface","dshow.ienummediatypes","strmif/IEnumMediaTypes"]
+description: The IEnumMediaTypes interface enumerates a pin's preferred media types.
+helpviewer_keywords: ["IEnumMediaTypes","IEnumMediaTypes interface [DirectShow]","IEnumMediaTypes interface [DirectShow]","described","IEnumMediaTypesInterface","dshow.ienummediatypes","strmif/IEnumMediaTypes"]
 old-location: dshow\ienummediatypes.htm
 tech.root: DirectShow
 ms.assetid: e0021e27-0e08-4d07-9610-08a9b945ae34

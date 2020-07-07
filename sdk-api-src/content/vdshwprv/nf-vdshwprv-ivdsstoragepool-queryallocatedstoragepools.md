@@ -1,7 +1,8 @@
 ---
 UID: NF:vdshwprv.IVdsStoragePool.QueryAllocatedStoragePools
 title: IVdsStoragePool::QueryAllocatedStoragePools (vdshwprv.h)
-description: Returns an object that enumerates the allocated storage pools that are managed by the provider.helpviewer_keywords: ["IVdsStoragePool interface","QueryAllocatedStoragePools method","IVdsStoragePool.QueryAllocatedStoragePools","IVdsStoragePool::QueryAllocatedStoragePools","QueryAllocatedStoragePools","QueryAllocatedStoragePools method","QueryAllocatedStoragePools method","IVdsStoragePool interface","base.ivdsstoragepool_queryallocatedstoragepools","vds/IVdsStoragePool::QueryAllocatedStoragePools","vdshwprv/IVdsStoragePool::QueryAllocatedStoragePools"]
+description: Returns an object that enumerates the allocated storage pools that are managed by the provider.
+helpviewer_keywords: ["IVdsStoragePool interface","QueryAllocatedStoragePools method","IVdsStoragePool.QueryAllocatedStoragePools","IVdsStoragePool::QueryAllocatedStoragePools","QueryAllocatedStoragePools","QueryAllocatedStoragePools method","QueryAllocatedStoragePools method","IVdsStoragePool interface","base.ivdsstoragepool_queryallocatedstoragepools","vds/IVdsStoragePool::QueryAllocatedStoragePools","vdshwprv/IVdsStoragePool::QueryAllocatedStoragePools"]
 old-location: base\ivdsstoragepool_queryallocatedstoragepools.htm
 tech.root: VDS
 ms.assetid: 7b6c447a-35e1-48ff-951c-b13ff5584c76

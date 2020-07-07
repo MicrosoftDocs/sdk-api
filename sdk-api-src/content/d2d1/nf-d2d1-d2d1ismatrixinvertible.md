@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.D2D1IsMatrixInvertible
 title: D2D1IsMatrixInvertible function (d2d1.h)
-description: Indicates whether the specified matrix is invertible.helpviewer_keywords: ["D2D1IsMatrixInvertible","D2D1IsMatrixInvertible function [Direct2D]","d2d1/D2D1IsMatrixInvertible","direct2d.d2d1ismatrixinvertible"]
+description: Indicates whether the specified matrix is invertible.
+helpviewer_keywords: ["D2D1IsMatrixInvertible","D2D1IsMatrixInvertible function [Direct2D]","d2d1/D2D1IsMatrixInvertible","direct2d.d2d1ismatrixinvertible"]
 old-location: direct2d\d2d1ismatrixinvertible.htm
 tech.root: Direct2D
 ms.assetid: c8ba9c60-dfc4-4872-81e0-e68dfd13f00e
@@ -59,7 +60,7 @@ Indicates whether the specified matrix is invertible.
 
 ### -param matrix [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
+Type: <b>const <a href="/windows/win32/Direct2D/d2d1-matrix-3x2-f">D2D1_MATRIX_3X2_F</a>*</b>
 
 The matrix to test.
 

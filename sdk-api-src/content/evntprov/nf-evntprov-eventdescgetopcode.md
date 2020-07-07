@@ -1,7 +1,8 @@
 ---
 UID: NF:evntprov.EventDescGetOpcode
 title: EventDescGetOpcode function (evntprov.h)
-description: Retrieves the operation code from the event descriptor.helpviewer_keywords: ["EventDescGetOpcode","EventDescGetOpcode function [ETW]","base.eventdescgetopcode_func","etw.eventdescgetopcode_func","evntprov/EventDescGetOpcode"]
+description: Retrieves the operation code from the event descriptor.
+helpviewer_keywords: ["EventDescGetOpcode","EventDescGetOpcode function [ETW]","base.eventdescgetopcode_func","etw.eventdescgetopcode_func","evntprov/EventDescGetOpcode"]
 old-location: etw\eventdescgetopcode_func.htm
 tech.root: ETW
 ms.assetid: cdca1dd8-da75-408c-9b57-0ac2bfe387b4

@@ -1,7 +1,8 @@
 ---
 UID: NF:wofapi.WofSetFileDataLocation
 title: WofSetFileDataLocation function (wofapi.h)
-description: Used to change a file from being backed by a physical file to one backed by a system data provider.helpviewer_keywords: ["WofSetFileDataLocation","WofSetFileDataLocation function [Files]","fs.wofsetfiledatalocation","wofapi/WofSetFileDataLocation"]
+description: Used to change a file from being backed by a physical file to one backed by a system data provider.
+helpviewer_keywords: ["WofSetFileDataLocation","WofSetFileDataLocation function [Files]","fs.wofsetfiledatalocation","wofapi/WofSetFileDataLocation"]
 old-location: fs\wofsetfiledatalocation.htm
 tech.root: FileIO
 ms.assetid: E5BDD684-46AC-40C0-89FC-DFABBB6AB72C

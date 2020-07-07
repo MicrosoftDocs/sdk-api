@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IShellService.SetOwner
 title: IShellService::SetOwner (shdeprecated.h)
-description: Deprecated. Declares an owner reference to the service object.helpviewer_keywords: ["IShellService interface [Windows Shell]","SetOwner method","IShellService.SetOwner","IShellService::SetOwner","SetOwner","SetOwner method [Windows Shell]","SetOwner method [Windows Shell]","IShellService interface","shdeprecated/IShellService::SetOwner","shell.IShellService_SetOwner","zone_IShellService_SetOwner"]
+description: Deprecated. Declares an owner reference to the service object.
+helpviewer_keywords: ["IShellService interface [Windows Shell]","SetOwner method","IShellService.SetOwner","IShellService::SetOwner","SetOwner","SetOwner method [Windows Shell]","SetOwner method [Windows Shell]","IShellService interface","shdeprecated/IShellService::SetOwner","shell.IShellService_SetOwner","zone_IShellService_SetOwner"]
 old-location: shell\IShellService_SetOwner.htm
 tech.root: shell
 ms.assetid: ef3865b2-b651-4072-86f2-2996fce061a4

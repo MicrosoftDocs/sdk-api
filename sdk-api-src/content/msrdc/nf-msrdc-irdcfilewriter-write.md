@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IRdcFileWriter.Write
 title: IRdcFileWriter::Write (msrdc.h)
-description: Write bytes to a file starting at a given offset.helpviewer_keywords: ["IRdcFileWriter interface [Remote Differential Compression]","Write method","IRdcFileWriter.Write","IRdcFileWriter::Write","Write","Write method [Remote Differential Compression]","Write method [Remote Differential Compression]","IRdcFileWriter interface","fs.irdcfilewriter_write","msrdc/IRdcFileWriter::Write","rdc.irdcfilewriter_write"]
+description: Write bytes to a file starting at a given offset.
+helpviewer_keywords: ["IRdcFileWriter interface [Remote Differential Compression]","Write method","IRdcFileWriter.Write","IRdcFileWriter::Write","Write","Write method [Remote Differential Compression]","Write method [Remote Differential Compression]","IRdcFileWriter interface","fs.irdcfilewriter_write","msrdc/IRdcFileWriter::Write","rdc.irdcfilewriter_write"]
 old-location: rdc\irdcfilewriter_write.htm
 tech.root: rdc
 ms.assetid: be7f3f2c-017a-4ca5-9652-a9b091c168be

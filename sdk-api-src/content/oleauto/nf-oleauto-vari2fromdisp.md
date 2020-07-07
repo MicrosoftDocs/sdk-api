@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarI2FromDisp
 title: VarI2FromDisp function (oleauto.h)
-description: Converts the default property of an IDispatch instance to a short value.helpviewer_keywords: ["VarI2FromDisp","VarI2FromDisp function [Automation]","_oa96_VarI2FromDisp","automat.vari2fromdisp","oleauto/VarI2FromDisp"]
+description: Converts the default property of an IDispatch instance to a short value.
+helpviewer_keywords: ["VarI2FromDisp","VarI2FromDisp function [Automation]","_oa96_VarI2FromDisp","automat.vari2fromdisp","oleauto/VarI2FromDisp"]
 old-location: automat\vari2fromdisp.htm
 tech.root: automat
 ms.assetid: 37c3084d-828a-42b4-92c3-d4c89336cac7

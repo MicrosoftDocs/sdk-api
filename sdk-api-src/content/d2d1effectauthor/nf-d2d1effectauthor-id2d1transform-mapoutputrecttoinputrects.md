@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1Transform.MapOutputRectToInputRects
 title: ID2D1Transform::MapOutputRectToInputRects (d2d1effectauthor.h)
-description: Allows a transform to state how it would map a rectangle requested on its output to a set of sample rectangles on its input.helpviewer_keywords: ["ID2D1Transform interface [Direct2D]","MapOutputRectToInputRects method","ID2D1Transform.MapOutputRectToInputRects","ID2D1Transform::MapOutputRectToInputRects","MapOutputRectToInputRects","MapOutputRectToInputRects method [Direct2D]","MapOutputRectToInputRects method [Direct2D]","ID2D1Transform interface","d2d1effectauthor/ID2D1Transform::MapOutputRectToInputRects","direct2d.id2d1transform_mapoutputrecttoinputrects"]
+description: Allows a transform to state how it would map a rectangle requested on its output to a set of sample rectangles on its input.
+helpviewer_keywords: ["ID2D1Transform interface [Direct2D]","MapOutputRectToInputRects method","ID2D1Transform.MapOutputRectToInputRects","ID2D1Transform::MapOutputRectToInputRects","MapOutputRectToInputRects","MapOutputRectToInputRects method [Direct2D]","MapOutputRectToInputRects method [Direct2D]","ID2D1Transform interface","d2d1effectauthor/ID2D1Transform::MapOutputRectToInputRects","direct2d.id2d1transform_mapoutputrecttoinputrects"]
 old-location: direct2d\id2d1transform_mapoutputrecttoinputrects.htm
 tech.root: Direct2D
 ms.assetid: EE098F67-B5A7-41C1-886A-2C7779B5E05C

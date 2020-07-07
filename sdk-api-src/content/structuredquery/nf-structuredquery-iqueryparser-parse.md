@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IQueryParser.Parse
 title: IQueryParser::Parse (structuredquery.h)
-description: Parses an input string that contains Structured Query keywords and/or contents to produce an IQuerySolution object.helpviewer_keywords: ["IQueryParser interface [search]","Parse method","IQueryParser.Parse","IQueryParser::Parse","Parse","Parse method [search]","Parse method [search]","IQueryParser interface","_search_IQueryParser_Parse","search._search_IQueryParser_Parse","structuredquery/IQueryParser::Parse"]
+description: Parses an input string that contains Structured Query keywords and/or contents to produce an IQuerySolution object.
+helpviewer_keywords: ["IQueryParser interface [search]","Parse method","IQueryParser.Parse","IQueryParser::Parse","Parse","Parse method [search]","Parse method [search]","IQueryParser interface","_search_IQueryParser_Parse","search._search_IQueryParser_Parse","structuredquery/IQueryParser::Parse"]
 old-location: search\_search_IQueryParser_Parse.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\parse.htm

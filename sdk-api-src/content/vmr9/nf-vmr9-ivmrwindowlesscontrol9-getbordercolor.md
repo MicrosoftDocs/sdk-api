@@ -1,7 +1,8 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetBorderColor
 title: IVMRWindowlessControl9::GetBorderColor (vmr9.h)
-description: The GetBorderColor method retrieves the current border color used by the VMR.helpviewer_keywords: ["GetBorderColor","GetBorderColor method [DirectShow]","GetBorderColor method [DirectShow]","IVMRWindowlessControl9 interface","IVMRWindowlessControl9 interface [DirectShow]","GetBorderColor method","IVMRWindowlessControl9.GetBorderColor","IVMRWindowlessControl9::GetBorderColor","IVMRWindowlessControl9GetBorderColor","dshow.ivmrwindowlesscontrol9_getbordercolor","vmr9/IVMRWindowlessControl9::GetBorderColor"]
+description: The GetBorderColor method retrieves the current border color used by the VMR.
+helpviewer_keywords: ["GetBorderColor","GetBorderColor method [DirectShow]","GetBorderColor method [DirectShow]","IVMRWindowlessControl9 interface","IVMRWindowlessControl9 interface [DirectShow]","GetBorderColor method","IVMRWindowlessControl9.GetBorderColor","IVMRWindowlessControl9::GetBorderColor","IVMRWindowlessControl9GetBorderColor","dshow.ivmrwindowlesscontrol9_getbordercolor","vmr9/IVMRWindowlessControl9::GetBorderColor"]
 old-location: dshow\ivmrwindowlesscontrol9_getbordercolor.htm
 tech.root: DirectShow
 ms.assetid: 314e6977-fe6d-40b2-a566-0e894f3d881c

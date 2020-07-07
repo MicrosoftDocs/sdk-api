@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetworkConnection.GetNetwork
 title: INetworkConnection::GetNetwork (netlistmgr.h)
-description: The GetNetwork method returns the network associated with the connection.helpviewer_keywords: ["GetNetwork","GetNetwork method [Network Awareness]","GetNetwork method [Network Awareness]","INetworkConnection interface","INetworkConnection interface [Network Awareness]","GetNetwork method","INetworkConnection.GetNetwork","INetworkConnection::GetNetwork","netlistmgr/INetworkConnection::GetNetwork","nla.inetworkconnection_getnetwork"]
+description: The GetNetwork method returns the network associated with the connection.
+helpviewer_keywords: ["GetNetwork","GetNetwork method [Network Awareness]","GetNetwork method [Network Awareness]","INetworkConnection interface","INetworkConnection interface [Network Awareness]","GetNetwork method","INetworkConnection.GetNetwork","INetworkConnection::GetNetwork","netlistmgr/INetworkConnection::GetNetwork","nla.inetworkconnection_getnetwork"]
 old-location: nla\inetworkconnection_getnetwork.htm
 tech.root: nla
 ms.assetid: 7de83422-58f6-40fc-b26f-074cec550247

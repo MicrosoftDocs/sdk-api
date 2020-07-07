@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._MSA_INFO_0
 title: MSA_INFO_0 (lmaccess.h)
-description: Specifies information about a managed service account.helpviewer_keywords: ["*LPMSA_INFO_0","*PMSA_INFO_0","MSA_INFO_0","MSA_INFO_0 structure [Security]","PMSA_INFO_0","PMSA_INFO_0 structure pointer [Security]","lmaccess/MSA_INFO_0","lmaccess/PMSA_INFO_0","security.msa_info_0"]
+description: Specifies information about a managed service account.
+helpviewer_keywords: ["*LPMSA_INFO_0","*PMSA_INFO_0","MSA_INFO_0","MSA_INFO_0 structure [Security]","PMSA_INFO_0","PMSA_INFO_0 structure pointer [Security]","lmaccess/MSA_INFO_0","lmaccess/PMSA_INFO_0","security.msa_info_0"]
 old-location: security\msa_info_0.htm
 tech.root: SecMgmt
 ms.assetid: 21e04ee8-98c9-4c78-9564-e07f5edaf847

@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.ICGetStateSize
 title: ICGetStateSize macro (vfw.h)
-description: The ICGetStateSize macro queries a video compression driver to determine the amount of memory required to retrieve the configuration information. You can use this macro or explicitly call the ICM_GETSTATE message.helpviewer_keywords: ["ICGetStateSize","ICGetStateSize macro [Windows Multimedia]","_win32_ICGetStateSize","multimedia.icgetstatesize","vfw/ICGetStateSize"]
+description: The ICGetStateSize macro queries a video compression driver to determine the amount of memory required to retrieve the configuration information. You can use this macro or explicitly call the ICM_GETSTATE message.
+helpviewer_keywords: ["ICGetStateSize","ICGetStateSize macro [Windows Multimedia]","_win32_ICGetStateSize","multimedia.icgetstatesize","vfw/ICGetStateSize"]
 old-location: multimedia\icgetstatesize.htm
 tech.root: Multimedia
 ms.assetid: 386761e8-9234-4541-b593-ce8e323714bf

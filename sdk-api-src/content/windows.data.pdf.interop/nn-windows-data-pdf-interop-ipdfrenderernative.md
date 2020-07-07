@@ -1,7 +1,8 @@
 ---
 UID: NN:windows.data.pdf.interop.IPdfRendererNative
 title: IPdfRendererNative (windows.data.pdf.interop.h)
-description: Represents a high-performance API for displaying a single page of a Portable Document Format (PDF) file.helpviewer_keywords: ["IPdfRendererNative","IPdfRendererNative interface [Windows Runtime]","IPdfRendererNative interface [Windows Runtime]","described","windows/IPdfRendererNative","winrt.ipdfrenderernative"]
+description: Represents a high-performance API for displaying a single page of a Portable Document Format (PDF) file.
+helpviewer_keywords: ["IPdfRendererNative","IPdfRendererNative interface [Windows Runtime]","IPdfRendererNative interface [Windows Runtime]","described","windows/IPdfRendererNative","winrt.ipdfrenderernative"]
 old-location: winrt\ipdfrenderernative.htm
 tech.root: WinRT
 ms.assetid: 96a00afb-e957-4e49-8f30-d6a3d639680f

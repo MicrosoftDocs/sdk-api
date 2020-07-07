@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateMediaEvent
 title: MFCreateMediaEvent function (mfapi.h)
-description: Creates a media event object.helpviewer_keywords: ["64da695e-5f56-4f23-9a06-0b0c358e3cc3","MFCreateMediaEvent","MFCreateMediaEvent function [Media Foundation]","mf.mfcreatemediaevent","mfapi/MFCreateMediaEvent"]
+description: Creates a media event object.
+helpviewer_keywords: ["64da695e-5f56-4f23-9a06-0b0c358e3cc3","MFCreateMediaEvent","MFCreateMediaEvent function [Media Foundation]","mf.mfcreatemediaevent","mfapi/MFCreateMediaEvent"]
 old-location: mf\mfcreatemediaevent.htm
 tech.root: medfound
 ms.assetid: 64da695e-5f56-4f23-9a06-0b0c358e3cc3

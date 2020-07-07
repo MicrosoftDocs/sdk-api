@@ -1,7 +1,8 @@
 ---
 UID: NN:upnp.IUPnPDeviceDocumentAccess
 title: IUPnPDeviceDocumentAccess (upnp.h)
-description: The IUPnPDeviceDocumentAccess interface enables an application to obtain the URL of the device description document.helpviewer_keywords: ["IUPnPDeviceDocumentAccess","IUPnPDeviceDocumentAccess interface [UPnP APIs]","IUPnPDeviceDocumentAccess interface [UPnP APIs]","described","_upnp_iupnpdevicedocumentaccess","upnp.iupnpdevicedocumentaccess","upnp/IUPnPDeviceDocumentAccess"]
+description: The IUPnPDeviceDocumentAccess interface enables an application to obtain the URL of the device description document.
+helpviewer_keywords: ["IUPnPDeviceDocumentAccess","IUPnPDeviceDocumentAccess interface [UPnP APIs]","IUPnPDeviceDocumentAccess interface [UPnP APIs]","described","_upnp_iupnpdevicedocumentaccess","upnp.iupnpdevicedocumentaccess","upnp/IUPnPDeviceDocumentAccess"]
 old-location: upnp\iupnpdevicedocumentaccess.htm
 tech.root: upnp
 ms.assetid: 6d71425e-3e33-44e0-845a-4bcd05939d24

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetPixelFormat
 title: ID2D1RenderTarget::GetPixelFormat (d2d1.h)
-description: Retrieves the pixel format and alpha mode of the render target.helpviewer_keywords: ["GetPixelFormat","GetPixelFormat method [Direct2D]","GetPixelFormat method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetPixelFormat method","ID2D1RenderTarget.GetPixelFormat","ID2D1RenderTarget::GetPixelFormat","d2d1/ID2D1RenderTarget::GetPixelFormat","direct2d.ID2D1RenderTarget_GetPixelFormat"]
+description: Retrieves the pixel format and alpha mode of the render target.
+helpviewer_keywords: ["GetPixelFormat","GetPixelFormat method [Direct2D]","GetPixelFormat method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetPixelFormat method","ID2D1RenderTarget.GetPixelFormat","ID2D1RenderTarget::GetPixelFormat","d2d1/ID2D1RenderTarget::GetPixelFormat","direct2d.ID2D1RenderTarget_GetPixelFormat"]
 old-location: direct2d\ID2D1RenderTarget_GetPixelFormat.htm
 tech.root: Direct2D
 ms.assetid: 2dcd9af4-78d7-4271-9113-a91b4bb8145e
@@ -63,7 +64,7 @@ Retrieves the pixel format and alpha mode of the render target.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ns-dcommon-d2d1_pixel_format">D2D1_PIXEL_FORMAT</a></b>
+Type: <b><a href="/windows/win32/api/dcommon/ns-dcommon-d2d1_pixel_format">D2D1_PIXEL_FORMAT</a></b>
 
 The pixel format and alpha mode of the render target.
 
@@ -75,7 +76,7 @@ The pixel format and alpha mode of the render target.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
  
 
  

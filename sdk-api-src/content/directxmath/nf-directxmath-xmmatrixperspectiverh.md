@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMatrixPerspectiveRH
 title: XMMatrixPerspectiveRH function (directxmath.h)
-description: Builds a right-handed perspective projection matrix.helpviewer_keywords: ["Use DirectX..XMMatrixPerspectiveRH","XMMatrixPerspectiveRH","XMMatrixPerspectiveRH method [DirectX Math Support APIs]","dxmath.xmmatrixperspectiverh"]
+description: Builds a right-handed perspective projection matrix.
+helpviewer_keywords: ["Use DirectX..XMMatrixPerspectiveRH","XMMatrixPerspectiveRH","XMMatrixPerspectiveRH method [DirectX Math Support APIs]","dxmath.xmmatrixperspectiverh"]
 old-location: dxmath\xmmatrixperspectiverh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixPerspectiveRH(float,float,float,float)

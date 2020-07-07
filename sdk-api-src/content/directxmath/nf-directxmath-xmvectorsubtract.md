@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorSubtract
 title: XMVectorSubtract function (directxmath.h)
-description: Computes the difference of two vectors.helpviewer_keywords: ["Use DirectX..XMVectorSubtract","XMVectorSubtract","XMVectorSubtract method [DirectX Math Support APIs]","dxmath.xmvectorsubtract"]
+description: Computes the difference of two vectors.
+helpviewer_keywords: ["Use DirectX..XMVectorSubtract","XMVectorSubtract","XMVectorSubtract method [DirectX Math Support APIs]","dxmath.xmvectorsubtract"]
 old-location: dxmath\xmvectorsubtract.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorSubtract(XMVECTOR,XMVECTOR)

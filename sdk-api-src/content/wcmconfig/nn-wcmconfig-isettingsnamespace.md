@@ -1,7 +1,8 @@
 ---
 UID: NN:wcmconfig.ISettingsNamespace
 title: ISettingsNamespace (wcmconfig.h)
-description: Performs operations to set, retrieve, and validate settings, and save changes for a namespace instance.helpviewer_keywords: ["ISettingsNamespace","ISettingsNamespace interface [SMI]","ISettingsNamespace interface [SMI]","described","smi.isettingsnamespace","wcmconfig/ISettingsNamespace"]
+description: Performs operations to set, retrieve, and validate settings, and save changes for a namespace instance.
+helpviewer_keywords: ["ISettingsNamespace","ISettingsNamespace interface [SMI]","ISettingsNamespace interface [SMI]","described","smi.isettingsnamespace","wcmconfig/ISettingsNamespace"]
 old-location: smi\isettingsnamespace.htm
 tech.root: SMI
 ms.assetid: a5d7b9ff-eb6f-40be-b246-17189cad92be

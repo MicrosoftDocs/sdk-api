@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.lpminitinfo
 title: LPM_INIT_INFO (lpmapi.h)
-description: The LPM_INIT_INFO structure contains local policy module initialization information.helpviewer_keywords: ["LPM_INIT_INFO","LPM_INIT_INFO structure [QOS]","lpmapi/LPM_INIT_INFO","qos.lpm_init_info"]
+description: The LPM_INIT_INFO structure contains local policy module initialization information.
+helpviewer_keywords: ["LPM_INIT_INFO","LPM_INIT_INFO structure [QOS]","lpmapi/LPM_INIT_INFO","qos.lpm_init_info"]
 old-location: qos\lpm_init_info.htm
 tech.root: QOS
 ms.assetid: 7eab2cf0-97e6-4298-99c3-09ce8c09fb87

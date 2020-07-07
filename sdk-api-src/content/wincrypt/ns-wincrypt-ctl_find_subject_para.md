@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CTL_FIND_SUBJECT_PARA
 title: CTL_FIND_SUBJECT_PARA (wincrypt.h)
-description: Contains data used by CertFindCTLInStore with a dwFindType parameter of CTL_FIND_SUBJECT to find a Certificate Trust List (CTL).helpviewer_keywords: ["*PCTL_FIND_SUBJECT_PARA","CTL_FIND_SUBJECT_PARA","CTL_FIND_SUBJECT_PARA structure [Security]","PCTL_FIND_SUBJECT_PARA","PCTL_FIND_SUBJECT_PARA structure pointer [Security]","_crypto2_ctl_find_subject_para","security.ctl_find_subject_para","wincrypt/CTL_FIND_SUBJECT_PARA","wincrypt/PCTL_FIND_SUBJECT_PARA"]
+description: Contains data used by CertFindCTLInStore with a dwFindType parameter of CTL_FIND_SUBJECT to find a Certificate Trust List (CTL).
+helpviewer_keywords: ["*PCTL_FIND_SUBJECT_PARA","CTL_FIND_SUBJECT_PARA","CTL_FIND_SUBJECT_PARA structure [Security]","PCTL_FIND_SUBJECT_PARA","PCTL_FIND_SUBJECT_PARA structure pointer [Security]","_crypto2_ctl_find_subject_para","security.ctl_find_subject_para","wincrypt/CTL_FIND_SUBJECT_PARA","wincrypt/PCTL_FIND_SUBJECT_PARA"]
 old-location: security\ctl_find_subject_para.htm
 tech.root: SecCrypto
 ms.assetid: b3a63010-9025-4a86-aa48-bfb6e800a07a

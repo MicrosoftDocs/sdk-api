@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteBitmapRenderTarget.GetPixelsPerDip
 title: IDWriteBitmapRenderTarget::GetPixelsPerDip (dwrite.h)
-description: Gets the number of bitmap pixels per DIP.helpviewer_keywords: ["GetPixelsPerDip","GetPixelsPerDip method [Direct Write]","GetPixelsPerDip method [Direct Write]","IDWriteBitmapRenderTarget interface","IDWriteBitmapRenderTarget interface [Direct Write]","GetPixelsPerDip method","IDWriteBitmapRenderTarget.GetPixelsPerDip","IDWriteBitmapRenderTarget::GetPixelsPerDip","directwrite.IDWriteBitmapRenderTarget_GetPixelsPerDip","dwrite/IDWriteBitmapRenderTarget::GetPixelsPerDip"]
+description: Gets the number of bitmap pixels per DIP.
+helpviewer_keywords: ["GetPixelsPerDip","GetPixelsPerDip method [Direct Write]","GetPixelsPerDip method [Direct Write]","IDWriteBitmapRenderTarget interface","IDWriteBitmapRenderTarget interface [Direct Write]","GetPixelsPerDip method","IDWriteBitmapRenderTarget.GetPixelsPerDip","IDWriteBitmapRenderTarget::GetPixelsPerDip","directwrite.IDWriteBitmapRenderTarget_GetPixelsPerDip","dwrite/IDWriteBitmapRenderTarget::GetPixelsPerDip"]
 old-location: directwrite\IDWriteBitmapRenderTarget_GetPixelsPerDip.htm
 tech.root: DirectWrite
 ms.assetid: 4bf0488d-cc2e-4a95-8d95-f0bd8e5029d6

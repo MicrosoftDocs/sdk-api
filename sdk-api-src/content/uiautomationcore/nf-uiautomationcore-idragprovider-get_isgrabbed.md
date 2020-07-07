@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IDragProvider.get_IsGrabbed
 title: IDragProvider::get_IsGrabbed (uiautomationcore.h)
-description: Indicates whether the element has been grabbed as part of a drag-and-drop operation.helpviewer_keywords: ["IDragProvider interface [Windows Accessibility]","IsGrabbed property","IDragProvider.IsGrabbed","IDragProvider.get_IsGrabbed","IDragProvider::IsGrabbed","IDragProvider::get_IsGrabbed","IsGrabbed property [Windows Accessibility]","IsGrabbed property [Windows Accessibility]","IDragProvider interface","get_IsGrabbed","uiautomationcore/IDragProvider::IsGrabbed","uiautomationcore/IDragProvider::get_IsGrabbed","winauto.uiauto_idragprovider_isgrabbed"]
+description: Indicates whether the element has been grabbed as part of a drag-and-drop operation.
+helpviewer_keywords: ["IDragProvider interface [Windows Accessibility]","IsGrabbed property","IDragProvider.IsGrabbed","IDragProvider.get_IsGrabbed","IDragProvider::IsGrabbed","IDragProvider::get_IsGrabbed","IsGrabbed property [Windows Accessibility]","IsGrabbed property [Windows Accessibility]","IDragProvider interface","get_IsGrabbed","uiautomationcore/IDragProvider::IsGrabbed","uiautomationcore/IDragProvider::get_IsGrabbed","winauto.uiauto_idragprovider_isgrabbed"]
 old-location: winauto\uiauto_idragprovider_isgrabbed.htm
 tech.root: WinAuto
 ms.assetid: E2A472A0-F9CE-4778-96DD-60B00D53EEA6

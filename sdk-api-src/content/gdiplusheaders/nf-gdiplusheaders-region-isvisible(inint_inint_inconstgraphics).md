@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusheaders.Region.IsVisible(IN INT,IN INT,IN const Graphics)
+UID: NF:gdiplusheaders.Region.IsVisible(ININT,ININT,INconstGraphics)
 title: Region::IsVisible
-description: The Region::IsVisible method determines whether a point is inside this region.helpviewer_keywords: ["Region::IsVisible"]
+description: The Region::IsVisible method determines whether a point is inside this region.
+helpviewer_keywords: ["Region::IsVisible"]
 ms.assetid: 6e7059c0-2029-4178-961a-88738894ee83
 ms.date: 05/20/2019
 ms.keywords: Region::IsVisible

@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get__DataAnalysisFilter
 title: IMSVidStreamBufferSink3::get__DataAnalysisFilter (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","get__DataAnalysisFilter method","IMSVidStreamBufferSink3.get__DataAnalysisFilter","IMSVidStreamBufferSink3::get__DataAnalysisFilter","IMSVidStreamBufferSink3get__DataAnalysisFilter","get__DataAnalysisFilter","get__DataAnalysisFilter method [Microsoft TV Technologies]","get__DataAnalysisFilter method [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface","mstv.imsvidstreambuffersink3_get__dataanalysisfilter","segment/IMSVidStreamBufferSink3::get__DataAnalysisFilter"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","get__DataAnalysisFilter method","IMSVidStreamBufferSink3.get__DataAnalysisFilter","IMSVidStreamBufferSink3::get__DataAnalysisFilter","IMSVidStreamBufferSink3get__DataAnalysisFilter","get__DataAnalysisFilter","get__DataAnalysisFilter method [Microsoft TV Technologies]","get__DataAnalysisFilter method [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface","mstv.imsvidstreambuffersink3_get__dataanalysisfilter","segment/IMSVidStreamBufferSink3::get__DataAnalysisFilter"]
 old-location: mstv\imsvidstreambuffersink3_get__dataanalysisfilter.htm
 tech.root: mstv
 ms.assetid: 6ca6bef1-807c-4dfb-bb9e-ef90af70e981

@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.SetDefaultQuotaThreshold
 title: IDiskQuotaControl::SetDefaultQuotaThreshold (dskquota.h)
-description: Modifies the default warning threshold.helpviewer_keywords: ["IDiskQuotaControl interface [Files]","SetDefaultQuotaThreshold method","IDiskQuotaControl.SetDefaultQuotaThreshold","IDiskQuotaControl::SetDefaultQuotaThreshold","SetDefaultQuotaThreshold","SetDefaultQuotaThreshold method [Files]","SetDefaultQuotaThreshold method [Files]","IDiskQuotaControl interface","_win32_idiskquotacontrol_setdefaultquotathreshold","base.idiskquotacontrol_setdefaultquotathreshold","dskquota/IDiskQuotaControl::SetDefaultQuotaThreshold","fs.idiskquotacontrol_setdefaultquotathreshold"]
+description: Modifies the default warning threshold.
+helpviewer_keywords: ["IDiskQuotaControl interface [Files]","SetDefaultQuotaThreshold method","IDiskQuotaControl.SetDefaultQuotaThreshold","IDiskQuotaControl::SetDefaultQuotaThreshold","SetDefaultQuotaThreshold","SetDefaultQuotaThreshold method [Files]","SetDefaultQuotaThreshold method [Files]","IDiskQuotaControl interface","_win32_idiskquotacontrol_setdefaultquotathreshold","base.idiskquotacontrol_setdefaultquotathreshold","dskquota/IDiskQuotaControl::SetDefaultQuotaThreshold","fs.idiskquotacontrol_setdefaultquotathreshold"]
 old-location: fs\idiskquotacontrol_setdefaultquotathreshold.htm
 tech.root: FileIO
 ms.assetid: a935798b-91dc-4a36-aa31-7bde68b45778

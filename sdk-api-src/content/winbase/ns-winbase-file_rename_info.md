@@ -1,7 +1,8 @@
 ---
 UID: NS:winbase._FILE_RENAME_INFO
 title: FILE_RENAME_INFO (winbase.h)
-description: Contains the name to which the file should be renamed.helpviewer_keywords: ["*PFILE_RENAME_INFO","FILE_RENAME_INFO","FILE_RENAME_INFO structure [Files]","PFILE_RENAME_INFO","PFILE_RENAME_INFO structure pointer [Files]","fileextd/FILE_RENAME_INFO","fileextd/PFILE_RENAME_INFO","fs.file_rename_info","winbase/FILE_RENAME_INFO","winbase/PFILE_RENAME_INFO"]
+description: Contains the name to which the file should be renamed.
+helpviewer_keywords: ["*PFILE_RENAME_INFO","FILE_RENAME_INFO","FILE_RENAME_INFO structure [Files]","PFILE_RENAME_INFO","PFILE_RENAME_INFO structure pointer [Files]","fileextd/FILE_RENAME_INFO","fileextd/PFILE_RENAME_INFO","fs.file_rename_info","winbase/FILE_RENAME_INFO","winbase/PFILE_RENAME_INFO"]
 old-location: fs\file_rename_info.htm
 tech.root: FileIO
 ms.assetid: f4de0130-66fd-4847-bb6f-3f16fe17ca6e

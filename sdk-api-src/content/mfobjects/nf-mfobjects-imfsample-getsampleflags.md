@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFSample.GetSampleFlags
 title: IMFSample::GetSampleFlags (mfobjects.h)
-description: Retrieves flags associated with the sample.Currently no flags are defined.helpviewer_keywords: ["98e3ed97-cefc-40c2-acda-8b3da74d0d03","GetSampleFlags","GetSampleFlags method [Media Foundation]","GetSampleFlags method [Media Foundation]","IMFSample interface","IMFSample interface [Media Foundation]","GetSampleFlags method","IMFSample.GetSampleFlags","IMFSample::GetSampleFlags","mf.imfsample_getsampleflags","mfobjects/IMFSample::GetSampleFlags"]
+description: Retrieves flags associated with the sample.Currently no flags are defined.
+helpviewer_keywords: ["98e3ed97-cefc-40c2-acda-8b3da74d0d03","GetSampleFlags","GetSampleFlags method [Media Foundation]","GetSampleFlags method [Media Foundation]","IMFSample interface","IMFSample interface [Media Foundation]","GetSampleFlags method","IMFSample.GetSampleFlags","IMFSample::GetSampleFlags","mf.imfsample_getsampleflags","mfobjects/IMFSample::GetSampleFlags"]
 old-location: mf\imfsample_getsampleflags.htm
 tech.root: medfound
 ms.assetid: 98e3ed97-cefc-40c2-acda-8b3da74d0d03

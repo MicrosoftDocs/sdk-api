@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationEventHandlerGroup
 title: IUIAutomationEventHandlerGroup (uiautomationclient.h)
-description: Exposes methods for adding one or more events to a collection for bulk registration through the CreateEventHandlerGroup and AddEventHandlerGroup methods defined in IUIAutomation6.helpviewer_keywords: ["IUIAutomationEventHandlerGroup","IUIAutomationEventHandlerGroup interface [Windows Accessibility]","IUIAutomationEventHandlerGroup interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationEventHandlerGroup","winauto.uiauto_IUIAutomationEventHandlerGroup"]
+description: Exposes methods for adding one or more events to a collection for bulk registration through the CreateEventHandlerGroup and AddEventHandlerGroup methods defined in IUIAutomation6.
+helpviewer_keywords: ["IUIAutomationEventHandlerGroup","IUIAutomationEventHandlerGroup interface [Windows Accessibility]","IUIAutomationEventHandlerGroup interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationEventHandlerGroup","winauto.uiauto_IUIAutomationEventHandlerGroup"]
 old-location: winauto\uiauto_IUIAutomationEventHandlerGroup.htm
 tech.root: WinAuto
 ms.assetid: 4D92FFD9-1E83-4DE3-B20C-5203E4D7E3A2

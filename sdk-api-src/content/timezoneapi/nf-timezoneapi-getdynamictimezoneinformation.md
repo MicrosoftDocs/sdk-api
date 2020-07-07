@@ -1,7 +1,8 @@
 ---
 UID: NF:timezoneapi.GetDynamicTimeZoneInformation
 title: GetDynamicTimeZoneInformation function (timezoneapi.h)
-description: Retrieves the current time zone and dynamic daylight saving time settings. These settings control the translations between Coordinated Universal Time (UTC) and local time.helpviewer_keywords: ["GetDynamicTimeZoneInformation","GetDynamicTimeZoneInformation function","base.getdynamictimezoneinformation","timezoneapi/GetDynamicTimeZoneInformation"]
+description: Retrieves the current time zone and dynamic daylight saving time settings. These settings control the translations between Coordinated Universal Time (UTC) and local time.
+helpviewer_keywords: ["GetDynamicTimeZoneInformation","GetDynamicTimeZoneInformation function","base.getdynamictimezoneinformation","timezoneapi/GetDynamicTimeZoneInformation"]
 old-location: base\getdynamictimezoneinformation.htm
 tech.root: SysInfo
 ms.assetid: 9f96f779-7e4f-4a50-a9dc-f3bc86c76ece

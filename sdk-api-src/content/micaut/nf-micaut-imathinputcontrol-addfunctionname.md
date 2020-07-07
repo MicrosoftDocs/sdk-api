@@ -1,7 +1,8 @@
 ---
 UID: NF:micaut.IMathInputControl.AddFunctionName
 title: IMathInputControl::AddFunctionName (micaut.h)
-description: Adds a new function-name definition to the list of custom math functions that the recognizer accepts.helpviewer_keywords: ["AddFunctionName","AddFunctionName method [Tablet PC]","AddFunctionName method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","AddFunctionName method","IMathInputControl.AddFunctionName","IMathInputControl::AddFunctionName","micaut/IMathInputControl::AddFunctionName","tablet.imathinputcontrol_addfunctionname"]
+description: Adds a new function-name definition to the list of custom math functions that the recognizer accepts.
+helpviewer_keywords: ["AddFunctionName","AddFunctionName method [Tablet PC]","AddFunctionName method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","AddFunctionName method","IMathInputControl.AddFunctionName","IMathInputControl::AddFunctionName","micaut/IMathInputControl::AddFunctionName","tablet.imathinputcontrol_addfunctionname"]
 old-location: tablet\imathinputcontrol_addfunctionname.htm
 tech.root: tablet
 ms.assetid: eb1c9172-b520-4f6e-ae15-52634aa30007

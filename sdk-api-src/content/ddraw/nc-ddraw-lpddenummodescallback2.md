@@ -1,7 +1,8 @@
 ---
 UID: NC:ddraw.LPDDENUMMODESCALLBACK2
 title: LPDDENUMMODESCALLBACK2 (ddraw.h)
-description: The EnumModesCallback2 function is an application-defined callback function for the IDirectDraw7::EnumDisplayModes method.helpviewer_keywords: ["EnumModesCallback2","EnumModesCallback2 callback function [DirectDraw]","LPDDENUMMODESCALLBACK2","LPDDENUMMODESCALLBACK2 callback","ddraw/EnumModesCallback2","directdraw.enummodescallback2"]
+description: The EnumModesCallback2 function is an application-defined callback function for the IDirectDraw7::EnumDisplayModes method.
+helpviewer_keywords: ["EnumModesCallback2","EnumModesCallback2 callback function [DirectDraw]","LPDDENUMMODESCALLBACK2","LPDDENUMMODESCALLBACK2 callback","ddraw/EnumModesCallback2","directdraw.enummodescallback2"]
 old-location: directdraw\enummodescallback2.htm
 tech.root: directdraw
 ms.assetid: 53185A9A-EBA3-4443-8E76-AC85E69B39F2

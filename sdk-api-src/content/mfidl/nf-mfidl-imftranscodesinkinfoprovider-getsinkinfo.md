@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFTranscodeSinkInfoProvider.GetSinkInfo
 title: IMFTranscodeSinkInfoProvider::GetSinkInfo (mfidl.h)
-description: Gets the media types for the audio and video streams specified in the transcode profile.helpviewer_keywords: ["GetSinkInfo","GetSinkInfo method [Media Foundation]","GetSinkInfo method [Media Foundation]","IMFTranscodeSinkInfoProvider interface","IMFTranscodeSinkInfoProvider interface [Media Foundation]","GetSinkInfo method","IMFTranscodeSinkInfoProvider.GetSinkInfo","IMFTranscodeSinkInfoProvider::GetSinkInfo","mf.imftranscodesinkinfoprovider_getsinkinfo","mfidl/IMFTranscodeSinkInfoProvider::GetSinkInfo"]
+description: Gets the media types for the audio and video streams specified in the transcode profile.
+helpviewer_keywords: ["GetSinkInfo","GetSinkInfo method [Media Foundation]","GetSinkInfo method [Media Foundation]","IMFTranscodeSinkInfoProvider interface","IMFTranscodeSinkInfoProvider interface [Media Foundation]","GetSinkInfo method","IMFTranscodeSinkInfoProvider.GetSinkInfo","IMFTranscodeSinkInfoProvider::GetSinkInfo","mf.imftranscodesinkinfoprovider_getsinkinfo","mfidl/IMFTranscodeSinkInfoProvider::GetSinkInfo"]
 old-location: mf\imftranscodesinkinfoprovider_getsinkinfo.htm
 tech.root: medfound
 ms.assetid: d880e13a-879e-4882-a69d-f1920225e478

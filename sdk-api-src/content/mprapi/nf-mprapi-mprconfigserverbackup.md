@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigServerBackup
 title: MprConfigServerBackup function (mprapi.h)
-description: The MprConfigServerBackup function creates a backup of the router-manager, interface, and phone-book configuration for the router.helpviewer_keywords: ["MprConfigServerBackup","MprConfigServerBackup function [RAS]","_mpr_mprconfigserverbackup","mprapi/MprConfigServerBackup","rras.mprconfigserverbackup"]
+description: The MprConfigServerBackup function creates a backup of the router-manager, interface, and phone-book configuration for the router.
+helpviewer_keywords: ["MprConfigServerBackup","MprConfigServerBackup function [RAS]","_mpr_mprconfigserverbackup","mprapi/MprConfigServerBackup","rras.mprconfigserverbackup"]
 old-location: rras\mprconfigserverbackup.htm
 tech.root: RRAS
 ms.assetid: 7e318742-78ba-4eb4-818b-939688e79d54

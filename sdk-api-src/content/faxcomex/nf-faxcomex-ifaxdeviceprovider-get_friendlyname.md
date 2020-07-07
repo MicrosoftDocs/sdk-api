@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_FriendlyName
 title: IFaxDeviceProvider::get_FriendlyName (faxcomex.h)
-description: The IFaxDeviceProvider::get_FriendlyName property is a null-terminated string that contains the user-friendly name for the fax service provider (FSP). This string is suitable for display to users.helpviewer_keywords: ["FriendlyName property [Fax Service]","FriendlyName property [Fax Service]","IFaxDeviceProvider interface","IFaxDeviceProvider interface [Fax Service]","FriendlyName property","IFaxDeviceProvider.FriendlyName","IFaxDeviceProvider.get_FriendlyName","IFaxDeviceProvider::FriendlyName","IFaxDeviceProvider::get_FriendlyName","_mfax_faxdeviceprovider.friendlyname","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_friendlyname_cpp","fax._mfax_faxdeviceprovider_friendlyname","faxcomex/IFaxDeviceProvider::FriendlyName","faxcomex/IFaxDeviceProvider::get_FriendlyName","get_FriendlyName"]
+description: The IFaxDeviceProvider::get_FriendlyName property is a null-terminated string that contains the user-friendly name for the fax service provider (FSP). This string is suitable for display to users.
+helpviewer_keywords: ["FriendlyName property [Fax Service]","FriendlyName property [Fax Service]","IFaxDeviceProvider interface","IFaxDeviceProvider interface [Fax Service]","FriendlyName property","IFaxDeviceProvider.FriendlyName","IFaxDeviceProvider.get_FriendlyName","IFaxDeviceProvider::FriendlyName","IFaxDeviceProvider::get_FriendlyName","_mfax_faxdeviceprovider.friendlyname","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_friendlyname_cpp","fax._mfax_faxdeviceprovider_friendlyname","faxcomex/IFaxDeviceProvider::FriendlyName","faxcomex/IFaxDeviceProvider::get_FriendlyName","get_FriendlyName"]
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_friendlyname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7t7p.htm

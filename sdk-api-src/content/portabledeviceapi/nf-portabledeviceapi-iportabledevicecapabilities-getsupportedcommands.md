@@ -1,7 +1,8 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceCapabilities.GetSupportedCommands
 title: IPortableDeviceCapabilities::GetSupportedCommands (portabledeviceapi.h)
-description: The GetSupportedCommands method retrieves a list of all the supported commands for this device.helpviewer_keywords: ["GetSupportedCommands","GetSupportedCommands method [Windows Portable Devices SDK]","GetSupportedCommands method [Windows Portable Devices SDK]","IPortableDeviceCapabilities interface","IPortableDeviceCapabilities interface [Windows Portable Devices SDK]","GetSupportedCommands method","IPortableDeviceCapabilities.GetSupportedCommands","IPortableDeviceCapabilities::GetSupportedCommands","IPortableDeviceCapabilitiesGetSupportedCommands","portabledeviceapi/IPortableDeviceCapabilities::GetSupportedCommands","wpdsdk.iportabledevicecapabilities_getsupportedcommands"]
+description: The GetSupportedCommands method retrieves a list of all the supported commands for this device.
+helpviewer_keywords: ["GetSupportedCommands","GetSupportedCommands method [Windows Portable Devices SDK]","GetSupportedCommands method [Windows Portable Devices SDK]","IPortableDeviceCapabilities interface","IPortableDeviceCapabilities interface [Windows Portable Devices SDK]","GetSupportedCommands method","IPortableDeviceCapabilities.GetSupportedCommands","IPortableDeviceCapabilities::GetSupportedCommands","IPortableDeviceCapabilitiesGetSupportedCommands","portabledeviceapi/IPortableDeviceCapabilities::GetSupportedCommands","wpdsdk.iportabledevicecapabilities_getsupportedcommands"]
 old-location: wpdsdk\iportabledevicecapabilities_getsupportedcommands.htm
 tech.root: wpd_sdk
 ms.assetid: 974b16c7-27a0-40a6-8941-e93293a69b48

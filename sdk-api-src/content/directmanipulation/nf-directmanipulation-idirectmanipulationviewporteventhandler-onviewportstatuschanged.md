@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewportEventHandler.OnViewportStatusChanged
 title: IDirectManipulationViewportEventHandler::OnViewportStatusChanged (directmanipulation.h)
-description: Called when the status of a viewport changes.helpviewer_keywords: ["IDirectManipulationViewportEventHandler interface [Direct Manipulation]","OnViewportStatusChanged method","IDirectManipulationViewportEventHandler.OnViewportStatusChanged","IDirectManipulationViewportEventHandler::OnViewportStatusChanged","OnViewportStatusChanged","OnViewportStatusChanged method [Direct Manipulation]","OnViewportStatusChanged method [Direct Manipulation]","IDirectManipulationViewportEventHandler interface","directmanipulation.idirectmanipulationviewporteventhandler_onviewportstatuschanged","directmanipulation/IDirectManipulationViewportEventHandler::OnViewportStatusChanged"]
+description: Called when the status of a viewport changes.
+helpviewer_keywords: ["IDirectManipulationViewportEventHandler interface [Direct Manipulation]","OnViewportStatusChanged method","IDirectManipulationViewportEventHandler.OnViewportStatusChanged","IDirectManipulationViewportEventHandler::OnViewportStatusChanged","OnViewportStatusChanged","OnViewportStatusChanged method [Direct Manipulation]","OnViewportStatusChanged method [Direct Manipulation]","IDirectManipulationViewportEventHandler interface","directmanipulation.idirectmanipulationviewporteventhandler_onviewportstatuschanged","directmanipulation/IDirectManipulationViewportEventHandler::OnViewportStatusChanged"]
 old-location: directmanipulation\idirectmanipulationviewporteventhandler_onviewportstatuschanged.htm
 tech.root: directmanipulation
 ms.assetid: 7fe7106d-1b13-4a3e-8841-550e0ef55f95

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRectangle.SetRectangle
 title: IInkRectangle::SetRectangle (msinkaut.h)
-description: Sets the elements of the InkRectangle object in a single call.helpviewer_keywords: ["689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf","IInkRectangle interface [Tablet PC]","SetRectangle method","IInkRectangle.SetRectangle","IInkRectangle::SetRectangle","SetRectangle","SetRectangle method [Tablet PC]","SetRectangle method [Tablet PC]","IInkRectangle interface","msinkaut/IInkRectangle::SetRectangle","tablet.inkrectangle_setrectangle"]
+description: Sets the elements of the InkRectangle object in a single call.
+helpviewer_keywords: ["689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf","IInkRectangle interface [Tablet PC]","SetRectangle method","IInkRectangle.SetRectangle","IInkRectangle::SetRectangle","SetRectangle","SetRectangle method [Tablet PC]","SetRectangle method [Tablet PC]","IInkRectangle interface","msinkaut/IInkRectangle::SetRectangle","tablet.inkrectangle_setrectangle"]
 old-location: tablet\inkrectangle_setrectangle.htm
 tech.root: tablet
 ms.assetid: 689ef8ea-3fa6-4fea-a4d8-2c59d23db9cf

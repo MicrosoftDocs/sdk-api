@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateDecoderFromStream
 title: IWICImagingFactory::CreateDecoderFromStream (wincodec.h)
-description: Creates a new instance of the IWICBitmapDecoder class based on the given IStream.helpviewer_keywords: ["CreateDecoderFromStream","CreateDecoderFromStream method [Windows Imaging Component]","CreateDecoderFromStream method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateDecoderFromStream method","IWICImagingFactory.CreateDecoderFromStream","IWICImagingFactory::CreateDecoderFromStream","_wic_codec_iwicimagingfactory_createdecoderfromstream","wic._wic_codec_iwicimagingfactory_createdecoderfromstream","wincodec/IWICImagingFactory::CreateDecoderFromStream"]
+description: Creates a new instance of the IWICBitmapDecoder class based on the given IStream.
+helpviewer_keywords: ["CreateDecoderFromStream","CreateDecoderFromStream method [Windows Imaging Component]","CreateDecoderFromStream method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateDecoderFromStream method","IWICImagingFactory.CreateDecoderFromStream","IWICImagingFactory::CreateDecoderFromStream","_wic_codec_iwicimagingfactory_createdecoderfromstream","wic._wic_codec_iwicimagingfactory_createdecoderfromstream","wincodec/IWICImagingFactory::CreateDecoderFromStream"]
 old-location: wic\_wic_codec_iwicimagingfactory_createdecoderfromstream.htm
 tech.root: wic
 ms.assetid: b9328715-54a0-4c9a-9977-3252068b7e4b

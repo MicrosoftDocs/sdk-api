@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfSource
 title: ITfSource (msctf.h)
-description: The ITfSource interface is implemented by the TSF manager. It is used by applications and text services to install and uninstall advise sinks.helpviewer_keywords: ["ITfSource","ITfSource interface [Text Services Framework]","ITfSource interface [Text Services Framework]","described","_tsf_itfsource_ref","msctf/ITfSource","tsf.itfsource"]
+description: The ITfSource interface is implemented by the TSF manager. It is used by applications and text services to install and uninstall advise sinks.
+helpviewer_keywords: ["ITfSource","ITfSource interface [Text Services Framework]","ITfSource interface [Text Services Framework]","described","_tsf_itfsource_ref","msctf/ITfSource","tsf.itfsource"]
 old-location: tsf\itfsource.htm
 tech.root: TSF
 ms.assetid: 2ff77f09-1b4c-4115-9bb4-4040097d1f90

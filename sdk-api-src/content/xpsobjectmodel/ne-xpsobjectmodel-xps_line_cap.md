@@ -1,7 +1,8 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0005
 title: XPS_LINE_CAP (xpsobjectmodel.h)
-description: Specifies the shapes of line segment caps.helpviewer_keywords: ["XPS_LINE_CAP","XPS_LINE_CAP enumeration [XPS Documents and Packaging]","XPS_LINE_CAP_FLAT","XPS_LINE_CAP_ROUND","XPS_LINE_CAP_SQUARE","XPS_LINE_CAP_TRIANGLE","xps.xps_line_cap","xpsobjectmodel/XPS_LINE_CAP","xpsobjectmodel/XPS_LINE_CAP_FLAT","xpsobjectmodel/XPS_LINE_CAP_ROUND","xpsobjectmodel/XPS_LINE_CAP_SQUARE","xpsobjectmodel/XPS_LINE_CAP_TRIANGLE"]
+description: Specifies the shapes of line segment caps.
+helpviewer_keywords: ["XPS_LINE_CAP","XPS_LINE_CAP enumeration [XPS Documents and Packaging]","XPS_LINE_CAP_FLAT","XPS_LINE_CAP_ROUND","XPS_LINE_CAP_SQUARE","XPS_LINE_CAP_TRIANGLE","xps.xps_line_cap","xpsobjectmodel/XPS_LINE_CAP","xpsobjectmodel/XPS_LINE_CAP_FLAT","xpsobjectmodel/XPS_LINE_CAP_ROUND","xpsobjectmodel/XPS_LINE_CAP_SQUARE","xpsobjectmodel/XPS_LINE_CAP_TRIANGLE"]
 old-location: xps\xps_line_cap.htm
 tech.root: printdocs
 ms.assetid: 63ee8c2d-e7c5-4453-9555-25896dc13870

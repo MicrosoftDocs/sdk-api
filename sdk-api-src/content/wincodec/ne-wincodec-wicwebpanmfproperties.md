@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICWebpAnmfProperties
 title: WICWebpAnmfProperties (wincodec.h)
-description: Specifies the animation frame properties of a WebP image.helpviewer_keywords: ["WICWebpAnmfFrameDuration","WICWebpAnmfProperties","WICWebpAnmfProperties enumeration [Windows Imaging Component]","wic.wicwebpanmfproperties","wincodec/WICWebpAnmfFrameDuration","wincodec/WICWebpAnmfProperties"]
+description: Specifies the animation frame properties of a WebP image.
+helpviewer_keywords: ["WICWebpAnmfFrameDuration","WICWebpAnmfProperties","WICWebpAnmfProperties enumeration [Windows Imaging Component]","wic.wicwebpanmfproperties","wincodec/WICWebpAnmfFrameDuration","wincodec/WICWebpAnmfProperties"]
 old-location: wic\wicwebpanmfproperties.htm
 tech.root: wic
 ms.assetid: 41C771FD-29FB-431B-B905-37C6A59C0677

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_HIT_GROUP_DESC
 title: D3D12_HIT_GROUP_DESC (d3d12.h)
-description: Describes a raytracing hit group state subobject that can be included in a state object.helpviewer_keywords: ["D3D12_HIT_GROUP_DESC","D3D12_HIT_GROUP_DESC structure","PD3D12_HIT_GROUP_DESC","PD3D12_HIT_GROUP_DESC structure pointer","d3d12/D3D12_HIT_GROUP_DESC","d3d12/PD3D12_HIT_GROUP_DESC","direct3d12.d3d12_hit_group_desc"]
+description: Describes a raytracing hit group state subobject that can be included in a state object.
+helpviewer_keywords: ["D3D12_HIT_GROUP_DESC","D3D12_HIT_GROUP_DESC structure","PD3D12_HIT_GROUP_DESC","PD3D12_HIT_GROUP_DESC structure pointer","d3d12/D3D12_HIT_GROUP_DESC","d3d12/PD3D12_HIT_GROUP_DESC","direct3d12.d3d12_hit_group_desc"]
 old-location: direct3d12\d3d12_hit_group_desc.htm
 tech.root: direct3d12
 ms.assetid: 6ADE3175-F133-4C45-8D53-E6A3220B00B0

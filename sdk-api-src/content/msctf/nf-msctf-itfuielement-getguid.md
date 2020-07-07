@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfUIElement.GetGUID
 title: ITfUIElement::GetGUID (msctf.h)
-description: The ITfUIElement::GetGUID method returns the unique id of this UI element.helpviewer_keywords: ["GetGUID","GetGUID method [Text Services Framework]","GetGUID method [Text Services Framework]","ITfUIElement interface","ITfUIElement interface [Text Services Framework]","GetGUID method","ITfUIElement.GetGUID","ITfUIElement::GetGUID","msctf/ITfUIElement::GetGUID","tsf.itfuielement_getguid"]
+description: The ITfUIElement::GetGUID method returns the unique id of this UI element.
+helpviewer_keywords: ["GetGUID","GetGUID method [Text Services Framework]","GetGUID method [Text Services Framework]","ITfUIElement interface","ITfUIElement interface [Text Services Framework]","GetGUID method","ITfUIElement.GetGUID","ITfUIElement::GetGUID","msctf/ITfUIElement::GetGUID","tsf.itfuielement_getguid"]
 old-location: tsf\itfuielement_getguid.htm
 tech.root: TSF
 ms.assetid: 0456761e-58fc-4cda-a576-829dd2c1235f

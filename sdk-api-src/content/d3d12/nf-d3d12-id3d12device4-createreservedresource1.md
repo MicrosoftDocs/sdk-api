@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device4.CreateReservedResource1
 title: ID3D12Device4::CreateReservedResource1
-description: Creates a resource (optionally for a protected session) that is reserved, and not yet mapped to any pages in a heap.helpviewer_keywords: ["ID3D12Device4 interface","CreateReservedResource1 method","ID3D12Device4.CreateReservedResource1","ID3D12Device4::CreateReservedResource1","CreateReservedResource1","CreateReservedResource1 method","CreateReservedResource1 method","ID3D12Device4 interface","direct3d12.id3d12device4_createreservedresource1","d3d12/ID3D12Device4::CreateReservedResource1"]
+description: Creates a resource (optionally for a protected session) that is reserved, and not yet mapped to any pages in a heap.
+helpviewer_keywords: ["ID3D12Device4 interface","CreateReservedResource1 method","ID3D12Device4.CreateReservedResource1","ID3D12Device4::CreateReservedResource1","CreateReservedResource1","CreateReservedResource1 method","CreateReservedResource1 method","ID3D12Device4 interface","direct3d12.id3d12device4_createreservedresource1","d3d12/ID3D12Device4::CreateReservedResource1"]
 tech.root: direct3d12
 ms.date: 10/15/2019
 ms.keywords: ID3D12Device4 interface,CreateReservedResource1 method, ID3D12Device4.CreateReservedResource1, ID3D12Device4::CreateReservedResource1, CreateReservedResource1, CreateReservedResource1 method, CreateReservedResource1 method,ID3D12Device4 interface, direct3d12.id3d12device4_createreservedresource1, d3d12/ID3D12Device4::CreateReservedResource1

@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_PropertySet_Delete
 title: MI_PropertySet_Delete function (mi.h)
-description: Deletes the specified property list that was constructed on the heap.helpviewer_keywords: ["MI_PropertySet_Delete","MI_PropertySet_Delete function [Windows Management Infrastructure (MI)]","mi/MI_PropertySet_Delete","wmi_v2.mi_propertyset_delete"]
+description: Deletes the specified property list that was constructed on the heap.
+helpviewer_keywords: ["MI_PropertySet_Delete","MI_PropertySet_Delete function [Windows Management Infrastructure (MI)]","mi/MI_PropertySet_Delete","wmi_v2.mi_propertyset_delete"]
 old-location: wmi_v2\mi_propertyset_delete.htm
 tech.root: wmi_v2
 ms.assetid: 8ab75a67-0b0e-443b-87b1-ca33f44dde9b

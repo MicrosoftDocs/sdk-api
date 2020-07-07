@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMInputMediaProps.GetGroupName
 title: IWMInputMediaProps::GetGroupName (wmsdkidl.h)
-description: The GetGroupName method is not implemented, and returns an empty string.helpviewer_keywords: ["GetGroupName","GetGroupName method [windows Media Format]","GetGroupName method [windows Media Format]","IWMInputMediaProps interface","IWMInputMediaProps interface [windows Media Format]","GetGroupName method","IWMInputMediaProps.GetGroupName","IWMInputMediaProps::GetGroupName","IWMInputMediaPropsGetGroupName","wmformat.iwminputmediaprops_getgroupname","wmsdkidl/IWMInputMediaProps::GetGroupName"]
+description: The GetGroupName method is not implemented, and returns an empty string.
+helpviewer_keywords: ["GetGroupName","GetGroupName method [windows Media Format]","GetGroupName method [windows Media Format]","IWMInputMediaProps interface","IWMInputMediaProps interface [windows Media Format]","GetGroupName method","IWMInputMediaProps.GetGroupName","IWMInputMediaProps::GetGroupName","IWMInputMediaPropsGetGroupName","wmformat.iwminputmediaprops_getgroupname","wmsdkidl/IWMInputMediaProps::GetGroupName"]
 old-location: wmformat\iwminputmediaprops_getgroupname.htm
 tech.root: wmformat
 ms.assetid: 795cd065-62f1-4346-b2ff-f77ec4306d64

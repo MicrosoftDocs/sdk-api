@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.SSIZETMult
 title: SSIZETMult function (intsafe.h)
-description: Multiplies one SSIZE_T value by another.helpviewer_keywords: ["SSIZETMult","SSIZETMult function [Windows Shell]","intsafe/SSIZETMult","shell.SSIZETMult"]
+description: Multiplies one SSIZE_T value by another.
+helpviewer_keywords: ["SSIZETMult","SSIZETMult function [Windows Shell]","intsafe/SSIZETMult","shell.SSIZETMult"]
 old-location: shell\SSIZETMult.htm
 tech.root: shell
 ms.assetid: 9b698951-dd9d-427c-9f95-63392ef0f0d4

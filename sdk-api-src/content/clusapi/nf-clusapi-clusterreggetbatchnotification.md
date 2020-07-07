@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegGetBatchNotification
 title: ClusterRegGetBatchNotification function (clusapi.h)
-description: Fetches the batch notification.helpviewer_keywords: ["ClusterRegGetBatchNotification","ClusterRegGetBatchNotification function [Failover Cluster]","PCLUSTER_REG_GET_BATCH_NOTIFICATION","PCLUSTER_REG_GET_BATCH_NOTIFICATION function [Failover Cluster]","clusapi/ClusterRegGetBatchNotification","clusapi/PCLUSTER_REG_GET_BATCH_NOTIFICATION","mscs.clusterreggetbatchnotification"]
+description: Fetches the batch notification.
+helpviewer_keywords: ["ClusterRegGetBatchNotification","ClusterRegGetBatchNotification function [Failover Cluster]","PCLUSTER_REG_GET_BATCH_NOTIFICATION","PCLUSTER_REG_GET_BATCH_NOTIFICATION function [Failover Cluster]","clusapi/ClusterRegGetBatchNotification","clusapi/PCLUSTER_REG_GET_BATCH_NOTIFICATION","mscs.clusterreggetbatchnotification"]
 old-location: mscs\clusterreggetbatchnotification.htm
 tech.root: MsCS
 ms.assetid: 4cc6925f-cf91-449b-8f9d-fcf48b4df896

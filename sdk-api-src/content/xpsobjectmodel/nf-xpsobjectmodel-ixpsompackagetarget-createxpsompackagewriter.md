@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackageTarget.CreateXpsOMPackageWriter
 title: IXpsOMPackageTarget::CreateXpsOMPackageWriter (xpsobjectmodel.h)
-description: Create an IXpsOMPackageWriter interface for use with a print job that the StartXpsPrintJob1 function created.helpviewer_keywords: ["CreateXpsOMPackageWriter","CreateXpsOMPackageWriter method [XPS Documents and Packaging]","CreateXpsOMPackageWriter method [XPS Documents and Packaging]","IXpsOMPackageTarget interface","IXpsOMPackageTarget interface [XPS Documents and Packaging]","CreateXpsOMPackageWriter method","IXpsOMPackageTarget.CreateXpsOMPackageWriter","IXpsOMPackageTarget::CreateXpsOMPackageWriter","xps.ixpsompackagetarget_createxpsompackagewriter","xpsobjectmodel/IXpsOMPackageTarget::CreateXpsOMPackageWriter"]
+description: Create an IXpsOMPackageWriter interface for use with a print job that the StartXpsPrintJob1 function created.
+helpviewer_keywords: ["CreateXpsOMPackageWriter","CreateXpsOMPackageWriter method [XPS Documents and Packaging]","CreateXpsOMPackageWriter method [XPS Documents and Packaging]","IXpsOMPackageTarget interface","IXpsOMPackageTarget interface [XPS Documents and Packaging]","CreateXpsOMPackageWriter method","IXpsOMPackageTarget.CreateXpsOMPackageWriter","IXpsOMPackageTarget::CreateXpsOMPackageWriter","xps.ixpsompackagetarget_createxpsompackagewriter","xpsobjectmodel/IXpsOMPackageTarget::CreateXpsOMPackageWriter"]
 old-location: xps\ixpsompackagetarget_createxpsompackagewriter.htm
 tech.root: printdocs
 ms.assetid: 6AD4BEB8-86B7-4085-9B84-D723982933FE

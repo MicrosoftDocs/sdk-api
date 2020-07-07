@@ -1,7 +1,8 @@
 ---
 UID: NS:qosobjs._QOS_DIFFSERV
 title: QOS_DIFFSERV (qosobjs.h)
-description: The QOS_DIFFSERV traffic control object is used to specify filters for the packet scheduler when it operates in Differentiated Services Mode.helpviewer_keywords: ["*LPQOS_DIFFSERV","LPQOS_DIFFSERV","LPQOS_DIFFSERV structure pointer [QOS]","QOS_DIFFSERV","QOS_DIFFSERV structure [QOS]","_gqos_qos_diffserv","qos.qos_diffserv","qosobjs/LPQOS_DIFFSERV","qosobjs/QOS_DIFFSERV"]
+description: The QOS_DIFFSERV traffic control object is used to specify filters for the packet scheduler when it operates in Differentiated Services Mode.
+helpviewer_keywords: ["*LPQOS_DIFFSERV","LPQOS_DIFFSERV","LPQOS_DIFFSERV structure pointer [QOS]","QOS_DIFFSERV","QOS_DIFFSERV structure [QOS]","_gqos_qos_diffserv","qos.qos_diffserv","qosobjs/LPQOS_DIFFSERV","qosobjs/QOS_DIFFSERV"]
 old-location: qos\qos_diffserv.htm
 tech.root: QOS
 ms.assetid: 3d1035dc-0e46-46f4-abb3-26100356b60d

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusstringformat.StringFormat.GetTabStopCount
 title: StringFormat::GetTabStopCount (gdiplusstringformat.h)
-description: The StringFormat::GetTabStopCount method gets the number of tab-stop offsets in this StringFormat object.helpviewer_keywords: ["GetTabStopCount","GetTabStopCount method [GDI+]","GetTabStopCount method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetTabStopCount method","StringFormat.GetTabStopCount","StringFormat::GetTabStopCount","_gdiplus_CLASS_StringFormat_GetTabStopCount_","gdiplus._gdiplus_CLASS_StringFormat_GetTabStopCount_"]
+description: The StringFormat::GetTabStopCount method gets the number of tab-stop offsets in this StringFormat object.
+helpviewer_keywords: ["GetTabStopCount","GetTabStopCount method [GDI+]","GetTabStopCount method [GDI+]","StringFormat class","StringFormat class [GDI+]","GetTabStopCount method","StringFormat.GetTabStopCount","StringFormat::GetTabStopCount","_gdiplus_CLASS_StringFormat_GetTabStopCount_","gdiplus._gdiplus_CLASS_StringFormat_GetTabStopCount_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_GetTabStopCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatmethods\gettabstopcount.htm

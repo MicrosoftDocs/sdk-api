@@ -1,7 +1,8 @@
 ---
 UID: NF:syncregistration.IRegisteredSyncProvider.Init
 title: IRegisteredSyncProvider::Init (syncregistration.h)
-description: Initializes the synchronization provider before it is ready for a synchronization session.helpviewer_keywords: ["IRegisteredSyncProvider interface [Windows Sync]","Init method","IRegisteredSyncProvider.Init","IRegisteredSyncProvider::Init","Init","Init method [Windows Sync]","Init method [Windows Sync]","IRegisteredSyncProvider interface","syncregistration/IRegisteredSyncProvider::Init","winsync.iregisteredsyncprovider_init"]
+description: Initializes the synchronization provider before it is ready for a synchronization session.
+helpviewer_keywords: ["IRegisteredSyncProvider interface [Windows Sync]","Init method","IRegisteredSyncProvider.Init","IRegisteredSyncProvider::Init","Init","Init method [Windows Sync]","Init method [Windows Sync]","IRegisteredSyncProvider interface","syncregistration/IRegisteredSyncProvider::Init","winsync.iregisteredsyncprovider_init"]
 old-location: winsync\iregisteredsyncprovider_init.htm
 tech.root: winsync
 ms.assetid: 1f022a6b-8f8c-4def-9ca9-dc06ec80f020

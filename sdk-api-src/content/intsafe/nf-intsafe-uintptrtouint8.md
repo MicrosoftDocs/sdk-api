@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.UIntPtrToUInt8
 title: UIntPtrToUInt8 function (intsafe.h)
-description: Converts a value of type UINT_PTR to a value of type UINT8.helpviewer_keywords: ["UIntPtrToUInt8","UIntPtrToUInt8 function [Windows Shell]","intsafe/UIntPtrToUInt8","shell.UIntPtrToUInt8"]
+description: Converts a value of type UINT_PTR to a value of type UINT8.
+helpviewer_keywords: ["UIntPtrToUInt8","UIntPtrToUInt8 function [Windows Shell]","intsafe/UIntPtrToUInt8","shell.UIntPtrToUInt8"]
 old-location: shell\UIntPtrToUInt8.htm
 tech.root: shell
 ms.assetid: 5490bca2-52c8-4e98-a2ac-137aa7c423de

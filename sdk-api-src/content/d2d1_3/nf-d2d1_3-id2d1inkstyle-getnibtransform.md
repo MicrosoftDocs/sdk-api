@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1InkStyle.GetNibTransform
 title: ID2D1InkStyle::GetNibTransform (d2d1_3.h)
-description: Retrieves the transform to be applied to this style's nib shape.helpviewer_keywords: ["GetNibTransform","GetNibTransform method [Direct2D]","GetNibTransform method [Direct2D]","ID2D1InkStyle interface","ID2D1InkStyle interface [Direct2D]","GetNibTransform method","ID2D1InkStyle.GetNibTransform","ID2D1InkStyle::GetNibTransform","d2d1_3/ID2D1InkStyle::GetNibTransform","direct2d.id2d1inkstyle_getnibtransform"]
+description: Retrieves the transform to be applied to this style's nib shape.
+helpviewer_keywords: ["GetNibTransform","GetNibTransform method [Direct2D]","GetNibTransform method [Direct2D]","ID2D1InkStyle interface","ID2D1InkStyle interface [Direct2D]","GetNibTransform method","ID2D1InkStyle.GetNibTransform","ID2D1InkStyle::GetNibTransform","d2d1_3/ID2D1InkStyle::GetNibTransform","direct2d.id2d1inkstyle_getnibtransform"]
 old-location: direct2d\id2d1inkstyle_getnibtransform.htm
 tech.root: Direct2D
 ms.assetid: A5ABCA78-BBA3-48EE-8A5E-BACDD2CDED37

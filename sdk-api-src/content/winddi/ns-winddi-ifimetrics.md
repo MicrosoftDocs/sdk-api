@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._IFIMETRICS
 title: IFIMETRICS (winddi.h)
-description: The IFIMETRICS structure defines information for a given typeface that GDI can use.helpviewer_keywords: ["*PIFIMETRICS","IFIMETRICS","IFIMETRICS structure [Display Devices]","PIFIMETRICS","PIFIMETRICS structure pointer [Display Devices]","display.ifimetrics","grstrcts_85d0a649-0d14-4b17-ab47-c35d61ce507e.xml","winddi/IFIMETRICS","winddi/PIFIMETRICS"]
+description: The IFIMETRICS structure defines information for a given typeface that GDI can use.
+helpviewer_keywords: ["*PIFIMETRICS","IFIMETRICS","IFIMETRICS structure [Display Devices]","PIFIMETRICS","PIFIMETRICS structure pointer [Display Devices]","display.ifimetrics","grstrcts_85d0a649-0d14-4b17-ab47-c35d61ce507e.xml","winddi/IFIMETRICS","winddi/PIFIMETRICS"]
 old-location: display\ifimetrics.htm
 tech.root: display
 ms.assetid: fd2606ed-ec61-430a-aaad-38a4c3a207b6

@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IWebProxy.PromptForCredentials
 title: IWebProxy::PromptForCredentials (wuapi.h)
-description: Prompts the user for the password to use for proxy authentication.helpviewer_keywords: ["IWebProxy interface [Windows Update Agent]","PromptForCredentials method","IWebProxy.PromptForCredentials","IWebProxy::PromptForCredentials","PromptForCredentials","PromptForCredentials method [Windows Update Agent]","PromptForCredentials method [Windows Update Agent]","IWebProxy interface","wua.iwebproxy_promptforcredentials","wuapi/IWebProxy::PromptForCredentials"]
+description: Prompts the user for the password to use for proxy authentication.
+helpviewer_keywords: ["IWebProxy interface [Windows Update Agent]","PromptForCredentials method","IWebProxy.PromptForCredentials","IWebProxy::PromptForCredentials","PromptForCredentials","PromptForCredentials method [Windows Update Agent]","PromptForCredentials method [Windows Update Agent]","IWebProxy interface","wua.iwebproxy_promptforcredentials","wuapi/IWebProxy::PromptForCredentials"]
 old-location: wua\iwebproxy_promptforcredentials.htm
 tech.root: Wua_Sdk
 ms.assetid: 2eeb4418-d9fe-41b8-97c9-cafe18aab528

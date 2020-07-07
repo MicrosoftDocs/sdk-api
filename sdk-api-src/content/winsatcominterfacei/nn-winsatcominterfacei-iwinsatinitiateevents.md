@@ -1,7 +1,8 @@
 ---
 UID: NN:winsatcominterfacei.IWinSATInitiateEvents
 title: IWinSATInitiateEvents (winsatcominterfacei.h)
-description: Implement this interface to receive notifications when an assessment is complete or making progress.helpviewer_keywords: ["IWinSATInitiateEvents","IWinSATInitiateEvents interface [WinSAT]","IWinSATInitiateEvents interface [WinSAT]","described","winsat.iwinsatinitiateevents","winsatcominterfacei/IWinSATInitiateEvents"]
+description: Implement this interface to receive notifications when an assessment is complete or making progress.
+helpviewer_keywords: ["IWinSATInitiateEvents","IWinSATInitiateEvents interface [WinSAT]","IWinSATInitiateEvents interface [WinSAT]","described","winsat.iwinsatinitiateevents","winsatcominterfacei/IWinSATInitiateEvents"]
 old-location: winsat\iwinsatinitiateevents.htm
 tech.root: WinSAT
 ms.assetid: f6ab3284-a76f-4148-ae40-04aa782ea9a7

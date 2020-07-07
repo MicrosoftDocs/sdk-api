@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpGetProxyResult
 title: WinHttpGetProxyResult function (winhttp.h)
-description: The WinHttpGetProxyResult function retrieves the results of a call to WinHttpGetProxyForUrlEx.helpviewer_keywords: ["WinHttpGetProxyResult","WinHttpGetProxyResult function [WinHTTP]","http.winhttpgetproxyresult","winhttp/WinHttpGetProxyResult"]
+description: The WinHttpGetProxyResult function retrieves the results of a call to WinHttpGetProxyForUrlEx.
+helpviewer_keywords: ["WinHttpGetProxyResult","WinHttpGetProxyResult function [WinHTTP]","http.winhttpgetproxyresult","winhttp/WinHttpGetProxyResult"]
 old-location: http\winhttpgetproxyresult.htm
 tech.root: WinHttp
 ms.assetid: f594e588-b3da-4afb-a5f9-552759bca148

@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_DECODE_STATUS
 title: D3D12_VIDEO_DECODE_STATUS
-description: Specifes the status of a video decode operation.helpviewer_keywords: ["D3D12_VIDEO_DECODE_STATUS","D3D12_VIDEO_DECODE_STATUS",""]
+description: Specifes the status of a video decode operation.
+helpviewer_keywords: ["D3D12_VIDEO_DECODE_STATUS","D3D12_VIDEO_DECODE_STATUS",""]
 tech.root: mf
 ms.assetid: 4ed97807-90ca-4709-a635-004ecf8f235d
 ms.date: 05/28/2019

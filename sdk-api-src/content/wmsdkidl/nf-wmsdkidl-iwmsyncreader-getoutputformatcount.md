@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader.GetOutputFormatCount
 title: IWMSyncReader::GetOutputFormatCount (wmsdkidl.h)
-description: The GetOutputFormatCount method is used to determine all possible format types supported by this output on the synchronous reader.helpviewer_keywords: ["GetOutputFormatCount","GetOutputFormatCount method [windows Media Format]","GetOutputFormatCount method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetOutputFormatCount method","IWMSyncReader.GetOutputFormatCount","IWMSyncReader::GetOutputFormatCount","IWMSyncReaderGetOutputFormatCount","wmformat.iwmsyncreader_getoutputformatcount","wmsdkidl/IWMSyncReader::GetOutputFormatCount"]
+description: The GetOutputFormatCount method is used to determine all possible format types supported by this output on the synchronous reader.
+helpviewer_keywords: ["GetOutputFormatCount","GetOutputFormatCount method [windows Media Format]","GetOutputFormatCount method [windows Media Format]","IWMSyncReader interface","IWMSyncReader interface [windows Media Format]","GetOutputFormatCount method","IWMSyncReader.GetOutputFormatCount","IWMSyncReader::GetOutputFormatCount","IWMSyncReaderGetOutputFormatCount","wmformat.iwmsyncreader_getoutputformatcount","wmsdkidl/IWMSyncReader::GetOutputFormatCount"]
 old-location: wmformat\iwmsyncreader_getoutputformatcount.htm
 tech.root: wmformat
 ms.assetid: 66f66784-791b-4f1b-8ba2-300a4521ce03

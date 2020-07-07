@@ -1,7 +1,8 @@
 ---
 UID: NN:audioenginebaseapo.IAudioSystemEffects2
 title: IAudioSystemEffects2 (audioenginebaseapo.h)
-description: The IAudioSystemEffects2 interface was introduced with Windows 8.1 for retrieving information about the processing objects in a given mode.helpviewer_keywords: ["IAudioSystemEffects2","IAudioSystemEffects2 interface [Audio Devices]","IAudioSystemEffects2 interface [Audio Devices]","described","audio.iaudiosystemeffects2","audioenginebaseapo/IAudioSystemEffects2"]
+description: The IAudioSystemEffects2 interface was introduced with Windows 8.1 for retrieving information about the processing objects in a given mode.
+helpviewer_keywords: ["IAudioSystemEffects2","IAudioSystemEffects2 interface [Audio Devices]","IAudioSystemEffects2 interface [Audio Devices]","described","audio.iaudiosystemeffects2","audioenginebaseapo/IAudioSystemEffects2"]
 old-location: audio\iaudiosystemeffects2.htm
 tech.root: audio
 ms.assetid: 5989BAFB-6B2D-4186-9A8D-96C8974E0D18

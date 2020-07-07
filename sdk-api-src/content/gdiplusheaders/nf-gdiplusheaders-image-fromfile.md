@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.FromFile
 title: Image::FromFile (gdiplusheaders.h)
-description: The Image::FromFile method creates an Image object based on a file.helpviewer_keywords: ["FromFile","FromFile method [GDI+]","FromFile method [GDI+]","Image class","Image class [GDI+]","FromFile method","Image.FromFile","Image::FromFile","_gdiplus_CLASS_Image_FromFile_filename_useEmbeddedColorManagement_","gdiplus._gdiplus_CLASS_Image_FromFile_filename_useEmbeddedColorManagement_"]
+description: The Image::FromFile method creates an Image object based on a file.
+helpviewer_keywords: ["FromFile","FromFile method [GDI+]","FromFile method [GDI+]","Image class","Image class [GDI+]","FromFile method","Image.FromFile","Image::FromFile","_gdiplus_CLASS_Image_FromFile_filename_useEmbeddedColorManagement_","gdiplus._gdiplus_CLASS_Image_FromFile_filename_useEmbeddedColorManagement_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_FromFile_filename_useEmbeddedColorManagement_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\fromfile_75filename_useembeddedcolormanagement.htm

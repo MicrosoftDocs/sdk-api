@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.CreateResultImage
 title: IRawCDImageCreator::CreateResultImage (imapi2.h)
-description: Creates the final IStream object based on the current settings.helpviewer_keywords: ["CreateResultImage","CreateResultImage method [IMAPI]","CreateResultImage method [IMAPI]","IRawCDImageCreator interface","IRawCDImageCreator interface [IMAPI]","CreateResultImage method","IRawCDImageCreator.CreateResultImage","IRawCDImageCreator::CreateResultImage","imapi.irawcdimagecreator_createresultimage","imapi2/IRawCDImageCreator::CreateResultImage"]
+description: Creates the final IStream object based on the current settings.
+helpviewer_keywords: ["CreateResultImage","CreateResultImage method [IMAPI]","CreateResultImage method [IMAPI]","IRawCDImageCreator interface","IRawCDImageCreator interface [IMAPI]","CreateResultImage method","IRawCDImageCreator.CreateResultImage","IRawCDImageCreator::CreateResultImage","imapi.irawcdimagecreator_createresultimage","imapi2/IRawCDImageCreator::CreateResultImage"]
 old-location: imapi\irawcdimagecreator_createresultimage.htm
 tech.root: imapi
 ms.assetid: a83293f6-d5a1-49e2-884b-2b185516109d

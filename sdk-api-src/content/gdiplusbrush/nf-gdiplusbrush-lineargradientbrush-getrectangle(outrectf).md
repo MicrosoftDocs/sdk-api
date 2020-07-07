@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusbrush.LinearGradientBrush.GetRectangle(OUT RectF)
+UID: NF:gdiplusbrush.LinearGradientBrush.GetRectangle(OUTRectF)
 title: LinearGradientBrush::GetRectangle (gdiplusbrush.h)
-description: This topic lists the GetRectangle methods of the LinearGradientBrush class. For a complete list of methods for the LinearGradientBrush class, see LinearGradientBrush Methods.helpviewer_keywords: ["GetRectangle","GetRectangle methods [GDI+]","LinearGradientBrush.GetRectangle","LinearGradientBrush::GetRectangle","_gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods","gdiplusbrush/GetRectangle"]
+description: This topic lists the GetRectangle methods of the LinearGradientBrush class. For a complete list of methods for the LinearGradientBrush class, see LinearGradientBrush Methods.
+helpviewer_keywords: ["GetRectangle","GetRectangle methods [GDI+]","LinearGradientBrush.GetRectangle","LinearGradientBrush::GetRectangle","_gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods","gdiplusbrush/GetRectangle"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetRectangle_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\lineargradientbrushgetrectanglemethods.htm

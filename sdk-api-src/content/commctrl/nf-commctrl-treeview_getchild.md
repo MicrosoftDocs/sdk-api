@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_GetChild
 title: TreeView_GetChild macro (commctrl.h)
-description: Retrieves the first child item of the specified tree-view item. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_CHILD flag.helpviewer_keywords: ["TreeView_GetChild","TreeView_GetChild macro [Windows Controls]","_win32_TreeView_GetChild","_win32_TreeView_GetChild_cpp","commctrl/TreeView_GetChild","controls.TreeView_GetChild","controls._win32_TreeView_GetChild"]
+description: Retrieves the first child item of the specified tree-view item. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_CHILD flag.
+helpviewer_keywords: ["TreeView_GetChild","TreeView_GetChild macro [Windows Controls]","_win32_TreeView_GetChild","_win32_TreeView_GetChild_cpp","commctrl/TreeView_GetChild","controls.TreeView_GetChild","controls._win32_TreeView_GetChild"]
 old-location: controls\TreeView_GetChild.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getchild.htm

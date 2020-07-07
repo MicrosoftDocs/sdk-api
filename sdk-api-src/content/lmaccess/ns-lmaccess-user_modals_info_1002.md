@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_1002
 title: USER_MODALS_INFO_1002 (lmaccess.h)
-description: The USER_MODALS_INFO_1002 structure contains the maximum duration for passwords in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.helpviewer_keywords: ["*LPUSER_MODALS_INFO_1002","*PUSER_MODALS_INFO_1002","LPUSER_MODALS_INFO_1002","LPUSER_MODALS_INFO_1002 structure pointer [Network Management]","PUSER_MODALS_INFO_1002","PUSER_MODALS_INFO_1002 structure pointer [Network Management]","USER_MODALS_INFO_1002","USER_MODALS_INFO_1002 structure [Network Management]","_win32_user_modals_info_1002_str","lmaccess/LPUSER_MODALS_INFO_1002","lmaccess/PUSER_MODALS_INFO_1002","lmaccess/USER_MODALS_INFO_1002","netmgmt.user_modals_info_1002_str"]
+description: The USER_MODALS_INFO_1002 structure contains the maximum duration for passwords in the security database, which is the security accounts manager (SAM) database or, in the case of domain controllers, the Active Directory.
+helpviewer_keywords: ["*LPUSER_MODALS_INFO_1002","*PUSER_MODALS_INFO_1002","LPUSER_MODALS_INFO_1002","LPUSER_MODALS_INFO_1002 structure pointer [Network Management]","PUSER_MODALS_INFO_1002","PUSER_MODALS_INFO_1002 structure pointer [Network Management]","USER_MODALS_INFO_1002","USER_MODALS_INFO_1002 structure [Network Management]","_win32_user_modals_info_1002_str","lmaccess/LPUSER_MODALS_INFO_1002","lmaccess/PUSER_MODALS_INFO_1002","lmaccess/USER_MODALS_INFO_1002","netmgmt.user_modals_info_1002_str"]
 old-location: netmgmt\user_modals_info_1002_str.htm
 tech.root: NetMgmt
 ms.assetid: d4899deb-6250-4cdc-9820-56d24e3acfc1

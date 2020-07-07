@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.SetHyphenation
 title: ITextPara::SetHyphenation (tom.h)
-description: Controls hyphenation for the paragraphs in the range.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetHyphenation method","ITextPara.SetHyphenation","ITextPara::SetHyphenation","SetHyphenation","SetHyphenation method [Windows Controls]","SetHyphenation method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetHyphenation","_win32_ITextPara_SetHyphenation_cpp","controls.ITextPara_SetHyphenation","controls._win32_ITextPara_SetHyphenation","tom/ITextPara::SetHyphenation"]
+description: Controls hyphenation for the paragraphs in the range.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetHyphenation method","ITextPara.SetHyphenation","ITextPara::SetHyphenation","SetHyphenation","SetHyphenation method [Windows Controls]","SetHyphenation method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetHyphenation","_win32_ITextPara_SetHyphenation_cpp","controls.ITextPara_SetHyphenation","controls._win32_ITextPara_SetHyphenation","tom/ITextPara::SetHyphenation"]
 old-location: controls\ITextPara_SetHyphenation.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\sethyphenation.htm

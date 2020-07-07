@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_COLORCONTROLDATA
 title: DD_COLORCONTROLDATA (ddrawint.h)
-description: The DD_COLORCONTROLDATA structure contains the color control information for the specified overlay.helpviewer_keywords: ["*PDD_COLORCONTROLDATA","DD_COLORCONTROLDATA","DD_COLORCONTROLDATA structure [Display Devices]","ddrawint/DD_COLORCONTROLDATA","ddstrcts_5bc6386d-437a-4fa7-b9ac-def03150b340.xml","display.dd_colorcontroldata"]
+description: The DD_COLORCONTROLDATA structure contains the color control information for the specified overlay.
+helpviewer_keywords: ["*PDD_COLORCONTROLDATA","DD_COLORCONTROLDATA","DD_COLORCONTROLDATA structure [Display Devices]","ddrawint/DD_COLORCONTROLDATA","ddstrcts_5bc6386d-437a-4fa7-b9ac-def03150b340.xml","display.dd_colorcontroldata"]
 old-location: display\dd_colorcontroldata.htm
 tech.root: display
 ms.assetid: 7c983faa-de9d-4a04-ac8d-d37fb182a662

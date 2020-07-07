@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IEnumerableView.SetEnumReadyCallback
 title: IEnumerableView::SetEnumReadyCallback (shobjidl.h)
-description: Sets a callback on the view that is notified when the initial view enumeration is complete.helpviewer_keywords: ["IEnumerableView interface [Windows Shell]","SetEnumReadyCallback method","IEnumerableView.SetEnumReadyCallback","IEnumerableView::SetEnumReadyCallback","SetEnumReadyCallback","SetEnumReadyCallback method [Windows Shell]","SetEnumReadyCallback method [Windows Shell]","IEnumerableView interface","_shell_IEnumerableView_SetEnumReadyCallback","shell.IEnumerableView_SetEnumReadyCallback","shobjidl/IEnumerableView::SetEnumReadyCallback"]
+description: Sets a callback on the view that is notified when the initial view enumeration is complete.
+helpviewer_keywords: ["IEnumerableView interface [Windows Shell]","SetEnumReadyCallback method","IEnumerableView.SetEnumReadyCallback","IEnumerableView::SetEnumReadyCallback","SetEnumReadyCallback","SetEnumReadyCallback method [Windows Shell]","SetEnumReadyCallback method [Windows Shell]","IEnumerableView interface","_shell_IEnumerableView_SetEnumReadyCallback","shell.IEnumerableView_SetEnumReadyCallback","shobjidl/IEnumerableView::SetEnumReadyCallback"]
 old-location: shell\IEnumerableView_SetEnumReadyCallback.htm
 tech.root: shell
 ms.assetid: af824c16-5bbf-4c75-88d0-b76519152360

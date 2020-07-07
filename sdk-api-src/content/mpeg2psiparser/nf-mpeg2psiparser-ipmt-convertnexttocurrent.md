@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.ConvertNextToCurrent
 title: IPMT::ConvertNextToCurrent (mpeg2psiparser.h)
-description: The ConvertNextToCurrent method converts a next table to a current table.helpviewer_keywords: ["ConvertNextToCurrent","ConvertNextToCurrent method [Microsoft TV Technologies]","ConvertNextToCurrent method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","ConvertNextToCurrent method","IPMT.ConvertNextToCurrent","IPMT::ConvertNextToCurrent","IPMTConvertNextToCurrent","mpeg2psiparser/IPMT::ConvertNextToCurrent","mstv.ipmt_convertnexttocurrent"]
+description: The ConvertNextToCurrent method converts a next table to a current table.
+helpviewer_keywords: ["ConvertNextToCurrent","ConvertNextToCurrent method [Microsoft TV Technologies]","ConvertNextToCurrent method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","ConvertNextToCurrent method","IPMT.ConvertNextToCurrent","IPMT::ConvertNextToCurrent","IPMTConvertNextToCurrent","mpeg2psiparser/IPMT::ConvertNextToCurrent","mstv.ipmt_convertnexttocurrent"]
 old-location: mstv\ipmt_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: cc3eb6f3-c539-42c4-847a-5d1e80c53255

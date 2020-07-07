@@ -1,7 +1,8 @@
 ---
 UID: NF:bits1_5.IBackgroundCopyJob2.SetNotifyCmdLine
 title: IBackgroundCopyJob2::SetNotifyCmdLine
-description: Specifies a program to execute if the job enters the BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSFERRED state. BITS executes the program in the context of the user who called this method.helpviewer_keywords: ["IBackgroundCopyJob2 interface [BITS]","SetNotifyCmdLine method","IBackgroundCopyJob2.SetNotifyCmdLine","IBackgroundCopyJob2::SetNotifyCmdLine","SetNotifyCmdLine","SetNotifyCmdLine method [BITS]","SetNotifyCmdLine method [BITS]","IBackgroundCopyJob2 interface","_drz_ibackgroundcopyjob2_setnotifycmdline","bits.ibackgroundcopyjob2_setnotifycmdline","bits1_5/IBackgroundCopyJob2::SetNotifyCmdLine"]
+description: Specifies a program to execute if the job enters the BG_JOB_STATE_ERROR or BG_JOB_STATE_TRANSFERRED state. BITS executes the program in the context of the user who called this method.
+helpviewer_keywords: ["IBackgroundCopyJob2 interface [BITS]","SetNotifyCmdLine method","IBackgroundCopyJob2.SetNotifyCmdLine","IBackgroundCopyJob2::SetNotifyCmdLine","SetNotifyCmdLine","SetNotifyCmdLine method [BITS]","SetNotifyCmdLine method [BITS]","IBackgroundCopyJob2 interface","_drz_ibackgroundcopyjob2_setnotifycmdline","bits.ibackgroundcopyjob2_setnotifycmdline","bits1_5/IBackgroundCopyJob2::SetNotifyCmdLine"]
 old-location: bits\ibackgroundcopyjob2_setnotifycmdline.htm
 tech.root: Bits
 ms.assetid: 61b99d01-ca0f-4a89-b7ca-77d23c21a9ad

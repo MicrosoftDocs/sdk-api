@@ -1,7 +1,8 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioClient
 title: ISpatialAudioClient (spatialaudioclient.h)
-description: The ISpatialAudioClient interface enables a client to create audio streams that emit audio from a position in 3D space.helpviewer_keywords: ["ISpatialAudioClient","ISpatialAudioClient interface [Core Audio]","ISpatialAudioClient interface [Core Audio]","described","coreaudio.ispatialaudioclient","spatialaudioclient/ISpatialAudioClient"]
+description: The ISpatialAudioClient interface enables a client to create audio streams that emit audio from a position in 3D space.
+helpviewer_keywords: ["ISpatialAudioClient","ISpatialAudioClient interface [Core Audio]","ISpatialAudioClient interface [Core Audio]","described","coreaudio.ispatialaudioclient","spatialaudioclient/ISpatialAudioClient"]
 old-location: coreaudio\ispatialaudioclient.htm
 tech.root: CoreAudio
 ms.assetid: 950778D4-79FE-4222-951F-5A456A633124

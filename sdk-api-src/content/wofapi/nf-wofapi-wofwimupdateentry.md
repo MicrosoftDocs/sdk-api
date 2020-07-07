@@ -1,7 +1,8 @@
 ---
 UID: NF:wofapi.WofWimUpdateEntry
 title: WofWimUpdateEntry function (wofapi.h)
-description: Updates a WIM entry to point to a different WIM file location.helpviewer_keywords: ["WofWimUpdateEntry","WofWimUpdateEntry function [Files]","fs.wofwimupdateentry","wofapi/WofWimUpdateEntry"]
+description: Updates a WIM entry to point to a different WIM file location.
+helpviewer_keywords: ["WofWimUpdateEntry","WofWimUpdateEntry function [Files]","fs.wofwimupdateentry","wofapi/WofWimUpdateEntry"]
 old-location: fs\wofwimupdateentry.htm
 tech.root: FileIO
 ms.assetid: 91CAE0F4-C0DB-40CE-BED9-C27E4856D4A0

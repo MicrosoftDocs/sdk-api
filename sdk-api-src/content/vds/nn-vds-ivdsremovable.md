@@ -1,7 +1,8 @@
 ---
 UID: NN:vds.IVdsRemovable
 title: IVdsRemovable (vds.h)
-description: Provides methods to query and eject a removable disk, such as a CD-ROM.helpviewer_keywords: ["IVdsRemovable","IVdsRemovable interface [VDS]","IVdsRemovable interface [VDS]","described","base.ivdsremovable","vds/IVdsRemovable"]
+description: Provides methods to query and eject a removable disk, such as a CD-ROM.
+helpviewer_keywords: ["IVdsRemovable","IVdsRemovable interface [VDS]","IVdsRemovable interface [VDS]","described","base.ivdsremovable","vds/IVdsRemovable"]
 old-location: base\ivdsremovable.htm
 tech.root: VDS
 ms.assetid: 86dcd76a-0de0-42f4-9360-87cf7ca4ebf6

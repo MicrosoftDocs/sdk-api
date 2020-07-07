@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPDeviceFinder.CreateAsyncFind
 title: IUPnPDeviceFinder::CreateAsyncFind (upnp.h)
-description: The CreateAsyncFind method creates an asynchronous search operation.helpviewer_keywords: ["CreateAsyncFind","CreateAsyncFind method [UPnP APIs]","CreateAsyncFind method [UPnP APIs]","IUPnPDeviceFinder interface","IUPnPDeviceFinder interface [UPnP APIs]","CreateAsyncFind method","IUPnPDeviceFinder.CreateAsyncFind","IUPnPDeviceFinder::CreateAsyncFind","_upnp_iupnpdevicefinder_createasyncfind","upnp.iupnpdevicefinder_createasyncfind","upnp/IUPnPDeviceFinder::CreateAsyncFind"]
+description: The CreateAsyncFind method creates an asynchronous search operation.
+helpviewer_keywords: ["CreateAsyncFind","CreateAsyncFind method [UPnP APIs]","CreateAsyncFind method [UPnP APIs]","IUPnPDeviceFinder interface","IUPnPDeviceFinder interface [UPnP APIs]","CreateAsyncFind method","IUPnPDeviceFinder.CreateAsyncFind","IUPnPDeviceFinder::CreateAsyncFind","_upnp_iupnpdevicefinder_createasyncfind","upnp.iupnpdevicefinder_createasyncfind","upnp/IUPnPDeviceFinder::CreateAsyncFind"]
 old-location: upnp\iupnpdevicefinder_createasyncfind.htm
 tech.root: upnp
 ms.assetid: 4461b53f-b630-4b4a-bc68-0cc48ef70594

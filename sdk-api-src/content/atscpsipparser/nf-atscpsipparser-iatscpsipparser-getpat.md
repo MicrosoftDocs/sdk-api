@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetPAT
 title: IAtscPsipParser::GetPAT (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetPAT","GetPAT method [Microsoft TV Technologies]","GetPAT method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetPAT method","IAtscPsipParser.GetPAT","IAtscPsipParser::GetPAT","IAtscPsipParserGetPAT","atscpsipparser/IAtscPsipParser::GetPAT","mstv.iatscpsipparser_getpat"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetPAT","GetPAT method [Microsoft TV Technologies]","GetPAT method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetPAT method","IAtscPsipParser.GetPAT","IAtscPsipParser::GetPAT","IAtscPsipParserGetPAT","atscpsipparser/IAtscPsipParser::GetPAT","mstv.iatscpsipparser_getpat"]
 old-location: mstv\iatscpsipparser_getpat.htm
 tech.root: mstv
 ms.assetid: 7cfa9ec0-a802-4dbe-9997-d0eaac2b71c9

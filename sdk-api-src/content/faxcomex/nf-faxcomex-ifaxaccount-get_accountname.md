@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxAccount.get_AccountName
 title: IFaxAccount::get_AccountName (faxcomex.h)
-description: Retrieves the name of a particular fax account on the server.helpviewer_keywords: ["AccountName property [Fax Service]","AccountName property [Fax Service]","IFaxAccount interface","IFaxAccount interface [Fax Service]","AccountName property","IFaxAccount.AccountName","IFaxAccount.get_AccountName","IFaxAccount::AccountName","IFaxAccount::get_AccountName","_mfax_faxaccount.accountname","fax._mfax_faxaccount_accountname","fax._mfax_faxaccount_cpp_mfax_faxaccount_accountname_cpp","faxcomex/IFaxAccount::AccountName","faxcomex/IFaxAccount::get_AccountName","get_AccountName"]
+description: Retrieves the name of a particular fax account on the server.
+helpviewer_keywords: ["AccountName property [Fax Service]","AccountName property [Fax Service]","IFaxAccount interface","IFaxAccount interface [Fax Service]","AccountName property","IFaxAccount.AccountName","IFaxAccount.get_AccountName","IFaxAccount::AccountName","IFaxAccount::get_AccountName","_mfax_faxaccount.accountname","fax._mfax_faxaccount_accountname","fax._mfax_faxaccount_cpp_mfax_faxaccount_accountname_cpp","faxcomex/IFaxAccount::AccountName","faxcomex/IFaxAccount::get_AccountName","get_AccountName"]
 old-location: fax\_mfax_faxaccount_cpp_mfax_faxaccount_accountname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\accountname.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmUpdateAndUnlockRoute
 title: RtmUpdateAndUnlockRoute function (rtmv2.h)
-description: The RtmUpdateAndUnlockRoute function updates the position of the route in the set of routes for a destination, and adjusts the best route information for the destination.helpviewer_keywords: ["RtmUpdateAndUnlockRoute","RtmUpdateAndUnlockRoute function [RAS]","_rtmv2ref_rtmupdateandunlockroute","rras.rtmupdateandunlockroute","rtmv2/RtmUpdateAndUnlockRoute"]
+description: The RtmUpdateAndUnlockRoute function updates the position of the route in the set of routes for a destination, and adjusts the best route information for the destination.
+helpviewer_keywords: ["RtmUpdateAndUnlockRoute","RtmUpdateAndUnlockRoute function [RAS]","_rtmv2ref_rtmupdateandunlockroute","rras.rtmupdateandunlockroute","rtmv2/RtmUpdateAndUnlockRoute"]
 old-location: rras\rtmupdateandunlockroute.htm
 tech.root: RRAS
 ms.assetid: 917e3e90-b06b-410d-8456-d76e2baa76f8

@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_QC_STATEMENT
 title: CERT_QC_STATEMENT (wincrypt.h)
-description: Represents a single statement in a sequence of one or more statements for inclusion in a Qualified Certificate (QC) statements extension.helpviewer_keywords: ["*PCERT_QC_STATEMENT","CERT_QC_STATEMENT","CERT_QC_STATEMENT structure [Security]","PCERT_QC_STATEMENT","PCERT_QC_STATEMENT structure pointer [Security]","security.cert_qc_statement","szOID_QC_EU_COMPLIANCE","szOID_QC_SSCD","wincrypt/CERT_QC_STATEMENT","wincrypt/PCERT_QC_STATEMENT"]
+description: Represents a single statement in a sequence of one or more statements for inclusion in a Qualified Certificate (QC) statements extension.
+helpviewer_keywords: ["*PCERT_QC_STATEMENT","CERT_QC_STATEMENT","CERT_QC_STATEMENT structure [Security]","PCERT_QC_STATEMENT","PCERT_QC_STATEMENT structure pointer [Security]","security.cert_qc_statement","szOID_QC_EU_COMPLIANCE","szOID_QC_SSCD","wincrypt/CERT_QC_STATEMENT","wincrypt/PCERT_QC_STATEMENT"]
 old-location: security\cert_qc_statement.htm
 tech.root: SecCrypto
 ms.assetid: e163da81-d854-4f56-8eef-2788f1b566ba

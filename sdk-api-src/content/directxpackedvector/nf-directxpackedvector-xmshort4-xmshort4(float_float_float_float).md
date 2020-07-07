@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMSHORT4.XMSHORT4(float,float,float,float)
 title: XMSHORT4::XMSHORT4(float,float,float,float) (directxpackedvector.h)
-description: Initializes a new instance of XMSHORT4 from four float arguments.helpviewer_keywords: ["XMSHORT4","XMSHORT4 constructor [DirectX Math Support APIs]","XMSHORT4 constructor [DirectX Math Support APIs]","XMSHORT4 structure","XMSHORT4 structure [DirectX Math Support APIs]","XMSHORT4 constructor","XMSHORT4.XMSHORT4","XMSHORT4.XMSHORT4(float","float","float","float)","XMSHORT4::XMSHORT4","XMSHORT4::XMSHORT4(float","float","float","float)","dxmath.xmshort4_ctor_4"]
+description: Initializes a new instance of XMSHORT4 from four float arguments.
+helpviewer_keywords: ["XMSHORT4","XMSHORT4 constructor [DirectX Math Support APIs]","XMSHORT4 constructor [DirectX Math Support APIs]","XMSHORT4 structure","XMSHORT4 structure [DirectX Math Support APIs]","XMSHORT4 constructor","XMSHORT4.XMSHORT4","XMSHORT4.XMSHORT4(float","float","float","float)","XMSHORT4::XMSHORT4","XMSHORT4::XMSHORT4(float","float","float","float)","dxmath.xmshort4_ctor_4"]
 old-location: dxmath\xmshort4_ctor_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORT4.#ctor(float,float,float,float)

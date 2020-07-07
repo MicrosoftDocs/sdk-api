@@ -1,7 +1,8 @@
 ---
 UID: NS:authz._AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE
 title: AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE (authz.h)
-description: Specifies a fully qualified binary name value associated with a security attribute.helpviewer_keywords: ["*PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE","AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE","AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure [Security]","PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE","PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure pointer [Security]","authz/AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE","authz/PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE","security.authz_security_attribute_fqbn_value"]
+description: Specifies a fully qualified binary name value associated with a security attribute.
+helpviewer_keywords: ["*PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE","AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE","AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure [Security]","PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE","PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE structure pointer [Security]","authz/AUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE","authz/PAUTHZ_SECURITY_ATTRIBUTE_FQBN_VALUE","security.authz_security_attribute_fqbn_value"]
 old-location: security\authz_security_attribute_fqbn_value.htm
 tech.root: SecAuthZ
 ms.assetid: 05b4bf7d-a0d9-473c-b215-9cf566b2a996

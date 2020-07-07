@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetMinimumRetryDelay
 title: IBackgroundCopyJob::SetMinimumRetryDelay (bits.h)
-description: Sets the minimum length of time that BITS waits after encountering a transient error condition before trying to transfer the file.helpviewer_keywords: ["IBackgroundCopyJob interface [BITS]","SetMinimumRetryDelay method","IBackgroundCopyJob.SetMinimumRetryDelay","IBackgroundCopyJob::SetMinimumRetryDelay","SetMinimumRetryDelay","SetMinimumRetryDelay method [BITS]","SetMinimumRetryDelay method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_setminimumretrydelay","bits.ibackgroundcopyjob_setminimumretrydelay","bits/IBackgroundCopyJob::SetMinimumRetryDelay"]
+description: Sets the minimum length of time that BITS waits after encountering a transient error condition before trying to transfer the file.
+helpviewer_keywords: ["IBackgroundCopyJob interface [BITS]","SetMinimumRetryDelay method","IBackgroundCopyJob.SetMinimumRetryDelay","IBackgroundCopyJob::SetMinimumRetryDelay","SetMinimumRetryDelay","SetMinimumRetryDelay method [BITS]","SetMinimumRetryDelay method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_setminimumretrydelay","bits.ibackgroundcopyjob_setminimumretrydelay","bits/IBackgroundCopyJob::SetMinimumRetryDelay"]
 old-location: bits\ibackgroundcopyjob_setminimumretrydelay.htm
 tech.root: Bits
 ms.assetid: 52d2b7a1-6f68-424e-9c0b-a9f8df4a5ad6

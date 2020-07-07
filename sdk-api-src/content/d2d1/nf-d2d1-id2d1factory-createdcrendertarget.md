@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1Factory.CreateDCRenderTarget
 title: ID2D1Factory::CreateDCRenderTarget (d2d1.h)
-description: Creates a render target that draws to a Windows Graphics Device Interface (GDI) device context.helpviewer_keywords: ["CreateDCRenderTarget","CreateDCRenderTarget method [Direct2D]","CreateDCRenderTarget method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateDCRenderTarget method","ID2D1Factory.CreateDCRenderTarget","ID2D1Factory::CreateDCRenderTarget","d2d1/ID2D1Factory::CreateDCRenderTarget","direct2d.ID2D1Factory_CreateDCRenderTarget"]
+description: Creates a render target that draws to a Windows Graphics Device Interface (GDI) device context.
+helpviewer_keywords: ["CreateDCRenderTarget","CreateDCRenderTarget method [Direct2D]","CreateDCRenderTarget method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateDCRenderTarget method","ID2D1Factory.CreateDCRenderTarget","ID2D1Factory::CreateDCRenderTarget","d2d1/ID2D1Factory::CreateDCRenderTarget","direct2d.ID2D1Factory_CreateDCRenderTarget"]
 old-location: direct2d\ID2D1Factory_CreateDCRenderTarget.htm
 tech.root: Direct2D
 ms.assetid: de062068-d2b5-4576-a475-a0e2c9840506
@@ -59,16 +60,16 @@ Creates a render target that draws to a Windows Graphics Device Interface (GDI) 
 
 ### -param renderTargetProperties [in]
 
-Type: <b>const <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a>*</b>
+Type: <b>const <a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a>*</b>
 
-The rendering mode, pixel format, remoting options, DPI information, and the minimum DirectX support required for hardware rendering.  To enable the device context (DC) render target to work with GDI, set the DXGI format to <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_B8G8R8A8_UNORM</a> and the alpha mode to <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE_PREMULTIPLIED</a> or <b>D2D1_ALPHA_MODE_IGNORE</b>. For more information about pixel formats, see  <a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>.
+The rendering mode, pixel format, remoting options, DPI information, and the minimum DirectX support required for hardware rendering.  To enable the device context (DC) render target to work with GDI, set the DXGI format to <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_B8G8R8A8_UNORM</a> and the alpha mode to <a href="/windows/win32/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE_PREMULTIPLIED</a> or <b>D2D1_ALPHA_MODE_IGNORE</b>. For more information about pixel formats, see  <a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>.
 
 
 ### -param dcRenderTarget [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a>**</b>
+Type: <b><a href="/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a>**</b>
 
-When this method returns, <i>dcRenderTarget</i> contains the address of the pointer to the  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a> created by the method.
+When this method returns, <i>dcRenderTarget</i> contains the address of the pointer to the  <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a> created by the method.
 
 
 ## -returns
@@ -77,7 +78,7 @@ When this method returns, <i>dcRenderTarget</i> contains the address of the poin
 
 Type: <b><a href="/windows/win32/com/structure-of-com-error-codes">HRESULT</a></b>
 
-If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
+If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an [**HRESULT**](/windows/desktop/com/structure-of-com-error-codes) error code.
 
 
 
@@ -86,14 +87,14 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 
 
-Before you can render with a DC render target, you must use the render target's <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1dcrendertarget-binddc">BindDC</a> method to associate it with a GDI DC.  Do this for each different DC and whenever there is a change in the size of the area you want to draw to.
+Before you can render with a DC render target, you must use the render target's <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1dcrendertarget-binddc">BindDC</a> method to associate it with a GDI DC.  Do this for each different DC and whenever there is a change in the size of the area you want to draw to.
 
-To enable the DC render target to work with GDI, set the render target's DXGI format to <a href="https://docs.microsoft.com/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_B8G8R8A8_UNORM</a> and alpha mode to <a href="https://docs.microsoft.com/windows/desktop/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE_PREMULTIPLIED</a> or <b>D2D1_ALPHA_MODE_IGNORE</b>.
+To enable the DC render target to work with GDI, set the render target's DXGI format to <a href="/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format">DXGI_FORMAT_B8G8R8A8_UNORM</a> and alpha mode to <a href="/windows/win32/api/dcommon/ne-dcommon-d2d1_alpha_mode">D2D1_ALPHA_MODE_PREMULTIPLIED</a> or <b>D2D1_ALPHA_MODE_IGNORE</b>.
 
-Your application should create render targets once and hold on to them for the life of the application or until the render target's  <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> method returns the <a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, recreate the render target (and any resources it created).
+Your application should create render targets once and hold on to them for the life of the application or until the render target's  <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-enddraw">EndDraw</a> method returns the <a href="/windows/win32/Direct2D/direct2d-error-codes">D2DERR_RECREATE_TARGET</a>  error. When you receive this error, recreate the render target (and any resources it created).
 
 
-#### Examples
+## Examples
 
 The following code creates a DC render target.
 
@@ -116,9 +117,9 @@ hr = m_pD2DFactory->CreateDCRenderTarget(&props, &m_pDCRT);
 ```
 
 
-In the preceding code, <i>m_pD2DFactory</i> is a  pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>, and <i>m_pDCRT</i> is a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a>. 
+In the preceding code, <i>m_pD2DFactory</i> is a  pointer to an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>, and <i>m_pDCRT</i> is a pointer to an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a>. 
 
-The next code example binds a DC to the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a>.
+The next code example binds a DC to the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget">ID2D1DCRenderTarget</a>.
 
 
 ```cpp
@@ -148,15 +149,15 @@ hr = m_pDCRT->BindDC(ps.hdc, &rc);
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/direct2d-and-gdi-interoperation-overview">Direct2D and GDI Interoperation Overview</a>
+<a href="/windows/win32/Direct2D/direct2d-and-gdi-interoperation-overview">Direct2D and GDI Interoperation Overview</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1factory">ID2D1Factory</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>
+<a href="/windows/win32/Direct2D/supported-pixel-formats-and-alpha-modes">Supported Pixel  Formats and Alpha Modes</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManEnumerator.ReadItem
 title: IWSManEnumerator::ReadItem (wsmandisp.h)
-description: Retrieves an item from the resource and returns an XML representation of the item.helpviewer_keywords: ["IWSManEnumerator interface [Windows Remote Management]","ReadItem method","IWSManEnumerator.ReadItem","IWSManEnumerator::ReadItem","ReadItem","ReadItem method [Windows Remote Management]","ReadItem method [Windows Remote Management]","IWSManEnumerator interface","winrm.iwsmanenumerator_readitem","wsmandisp/IWSManEnumerator::ReadItem"]
+description: Retrieves an item from the resource and returns an XML representation of the item.
+helpviewer_keywords: ["IWSManEnumerator interface [Windows Remote Management]","ReadItem method","IWSManEnumerator.ReadItem","IWSManEnumerator::ReadItem","ReadItem","ReadItem method [Windows Remote Management]","ReadItem method [Windows Remote Management]","IWSManEnumerator interface","winrm.iwsmanenumerator_readitem","wsmandisp/IWSManEnumerator::ReadItem"]
 old-location: winrm\iwsmanenumerator_readitem.htm
 tech.root: winrm
 ms.assetid: 6b181a4b-347c-4874-969c-9ca7d36ec788

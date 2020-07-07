@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Roll
 title: ICameraControl::get_Roll (vidcap.h)
-description: .helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_Roll method","ICameraControl.get_Roll","ICameraControl::get_Roll","ICameraControlget_Roll","dshow.icameracontrol_get_roll","get_Roll","get_Roll method [DirectShow]","get_Roll method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_Roll"]
+description: .
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_Roll method","ICameraControl.get_Roll","ICameraControl::get_Roll","ICameraControlget_Roll","dshow.icameracontrol_get_roll","get_Roll","get_Roll method [DirectShow]","get_Roll method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_Roll"]
 old-location: dshow\icameracontrol_get_roll.htm
 tech.root: DirectShow
 ms.assetid: cebe99e1-9bcc-4826-8b15-b4d6757ec5b4

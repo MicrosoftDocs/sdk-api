@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsControllerPort.Reset
 title: IVdsControllerPort::Reset (vds.h)
-description: Reinitializes the controller port.helpviewer_keywords: ["IVdsControllerPort interface [VDS]","Reset method","IVdsControllerPort.Reset","IVdsControllerPort::Reset","Reset","Reset method [VDS]","Reset method [VDS]","IVdsControllerPort interface","base.ivdscontrollerport_reset","vds/IVdsControllerPort::Reset","vdshwprv/IVdsControllerPort::Reset"]
+description: Reinitializes the controller port.
+helpviewer_keywords: ["IVdsControllerPort interface [VDS]","Reset method","IVdsControllerPort.Reset","IVdsControllerPort::Reset","Reset","Reset method [VDS]","Reset method [VDS]","IVdsControllerPort interface","base.ivdscontrollerport_reset","vds/IVdsControllerPort::Reset","vdshwprv/IVdsControllerPort::Reset"]
 old-location: base\ivdscontrollerport_reset.htm
 tech.root: VDS
 ms.assetid: e298ef9d-8abb-450b-97d3-e97d64f0e734

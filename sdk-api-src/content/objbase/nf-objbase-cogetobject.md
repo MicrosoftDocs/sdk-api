@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.CoGetObject
 title: CoGetObject function (objbase.h)
-description: Converts a display name into a moniker that identifies the object named, and then binds to the object identified by the moniker.helpviewer_keywords: ["CoGetObject","CoGetObject function [COM]","_com_CoGetObject","com.cogetobject","objbase/CoGetObject"]
+description: Converts a display name into a moniker that identifies the object named, and then binds to the object identified by the moniker.
+helpviewer_keywords: ["CoGetObject","CoGetObject function [COM]","_com_CoGetObject","com.cogetobject","objbase/CoGetObject"]
 old-location: com\cogetobject.htm
 tech.root: com
 ms.assetid: 0f5c9ef5-3918-4f93-bfd1-1017029b3dc1

@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSourceEvent.RatingsChanged
 title: IMSVidStreamBufferSourceEvent::RatingsChanged (segment.h)
-description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies]","RatingsChanged method","IMSVidStreamBufferSourceEvent.RatingsChanged","IMSVidStreamBufferSourceEvent::RatingsChanged","IMSVidStreamBufferSourceEventRatingsChanged","RatingsChanged","RatingsChanged method [Microsoft TV Technologies]","RatingsChanged method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent interface","mstv.imsvidstreambuffersourceevent_ratingschanged","segment/IMSVidStreamBufferSourceEvent::RatingsChanged"]
+description: This topic applies to Windows XP Service Pack 1 or later.
+helpviewer_keywords: ["IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies]","RatingsChanged method","IMSVidStreamBufferSourceEvent.RatingsChanged","IMSVidStreamBufferSourceEvent::RatingsChanged","IMSVidStreamBufferSourceEventRatingsChanged","RatingsChanged","RatingsChanged method [Microsoft TV Technologies]","RatingsChanged method [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent interface","mstv.imsvidstreambuffersourceevent_ratingschanged","segment/IMSVidStreamBufferSourceEvent::RatingsChanged"]
 old-location: mstv\imsvidstreambuffersourceevent_ratingschanged.htm
 tech.root: mstv
 ms.assetid: 0754fb90-3f68-4f10-ab9b-74f7f7aeb047

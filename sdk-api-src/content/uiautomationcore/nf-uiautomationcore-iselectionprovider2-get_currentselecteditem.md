@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ISelectionProvider2.get_CurrentSelectedItem
 title: ISelectionProvider2::get_CurrentSelectedItem (uiautomationcore.h)
-description: Gets the currently selected item.helpviewer_keywords: ["CurrentSelectedItem property [Windows Accessibility]","CurrentSelectedItem property [Windows Accessibility]","ISelectionProvider2 interface","ISelectionProvider2 interface [Windows Accessibility]","CurrentSelectedItem property","ISelectionProvider2.CurrentSelectedItem","ISelectionProvider2.get_CurrentSelectedItem","ISelectionProvider2::CurrentSelectedItem","ISelectionProvider2::get_CurrentSelectedItem","get_CurrentSelectedItem","uiautomationcore/ISelectionProvider2::CurrentSelectedItem","uiautomationcore/ISelectionProvider2::get_CurrentSelectedItem","winauto.uiauto_ISelectionProvider2_CurrentSelectedItem"]
+description: Gets the currently selected item.
+helpviewer_keywords: ["CurrentSelectedItem property [Windows Accessibility]","CurrentSelectedItem property [Windows Accessibility]","ISelectionProvider2 interface","ISelectionProvider2 interface [Windows Accessibility]","CurrentSelectedItem property","ISelectionProvider2.CurrentSelectedItem","ISelectionProvider2.get_CurrentSelectedItem","ISelectionProvider2::CurrentSelectedItem","ISelectionProvider2::get_CurrentSelectedItem","get_CurrentSelectedItem","uiautomationcore/ISelectionProvider2::CurrentSelectedItem","uiautomationcore/ISelectionProvider2::get_CurrentSelectedItem","winauto.uiauto_ISelectionProvider2_CurrentSelectedItem"]
 old-location: winauto\uiauto_ISelectionProvider2_CurrentSelectedItem.htm
 tech.root: WinAuto
 ms.assetid: 57742C23-0A71-4199-B4B7-E4D841D9AAEB

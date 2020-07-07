@@ -1,7 +1,8 @@
 ---
 UID: NS:d2d1svg.D2D1_SVG_PRESERVE_ASPECT_RATIO
 title: D2D1_SVG_PRESERVE_ASPECT_RATIO (d2d1svg.h)
-description: Represents all SVG preserveAspectRatio settings.helpviewer_keywords: ["D2D1_SVG_PRESERVE_ASPECT_RATIO","D2D1_SVG_PRESERVE_ASPECT_RATIO structure [Direct2D]","d2d1svg/D2D1_SVG_PRESERVE_ASPECT_RATIO","direct2d.d2d1_svg_preserve_aspect_ratio"]
+description: Represents all SVG preserveAspectRatio settings.
+helpviewer_keywords: ["D2D1_SVG_PRESERVE_ASPECT_RATIO","D2D1_SVG_PRESERVE_ASPECT_RATIO structure [Direct2D]","d2d1svg/D2D1_SVG_PRESERVE_ASPECT_RATIO","direct2d.d2d1_svg_preserve_aspect_ratio"]
 old-location: direct2d\d2d1_svg_preserve_aspect_ratio.htm
 tech.root: Direct2D
 ms.assetid: 3DA4DEBF-ACCE-4F43-9C75-DF32A2F88ACD

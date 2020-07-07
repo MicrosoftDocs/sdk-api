@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHwndPropServer
 title: IAccPropServices::SetHwndPropServer (oleacc.h)
-description: This method wraps SetPropServer, providing a convenient entry point for callers who are annotating HWND-based accessible elements.helpviewer_keywords: ["IAccPropServices interface [Windows Accessibility]","SetHwndPropServer method","IAccPropServices.SetHwndPropServer","IAccPropServices::SetHwndPropServer","SetHwndPropServer","SetHwndPropServer method [Windows Accessibility]","SetHwndPropServer method [Windows Accessibility]","IAccPropServices interface","_msaa_IAccPropServices_SetHwndPropServer","msaa.iaccpropservices_iaccpropservices__sethwndpropserver","oleacc/IAccPropServices::SetHwndPropServer","winauto.iaccpropservices_iaccpropservices__sethwndpropserver"]
+description: This method wraps SetPropServer, providing a convenient entry point for callers who are annotating HWND-based accessible elements.
+helpviewer_keywords: ["IAccPropServices interface [Windows Accessibility]","SetHwndPropServer method","IAccPropServices.SetHwndPropServer","IAccPropServices::SetHwndPropServer","SetHwndPropServer","SetHwndPropServer method [Windows Accessibility]","SetHwndPropServer method [Windows Accessibility]","IAccPropServices interface","_msaa_IAccPropServices_SetHwndPropServer","msaa.iaccpropservices_iaccpropservices__sethwndpropserver","oleacc/IAccPropServices::SetHwndPropServer","winauto.iaccpropservices_iaccpropservices__sethwndpropserver"]
 old-location: winauto\iaccpropservices_iaccpropservices__sethwndpropserver.htm
 tech.root: WinAuto
 ms.assetid: 05dbdf97-9b1a-439f-b3a1-b517733ec0a8

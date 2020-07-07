@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngPaint
 title: EngPaint function (winddi.h)
-description: The EngPaint function causes GDI to paint a specified region.helpviewer_keywords: ["EngPaint","EngPaint function [Display Devices]","display.engpaint","gdifncs_fdbafee3-278d-4d69-bd16-535e92436a1d.xml","winddi/EngPaint"]
+description: The EngPaint function causes GDI to paint a specified region.
+helpviewer_keywords: ["EngPaint","EngPaint function [Display Devices]","display.engpaint","gdifncs_fdbafee3-278d-4d69-bd16-535e92436a1d.xml","winddi/EngPaint"]
 old-location: display\engpaint.htm
 tech.root: display
 ms.assetid: 9bfa2e7b-06c7-427a-9283-54b9c6cdac30

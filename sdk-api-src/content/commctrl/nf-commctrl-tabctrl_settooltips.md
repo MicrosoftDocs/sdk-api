@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TabCtrl_SetToolTips
 title: TabCtrl_SetToolTips macro (commctrl.h)
-description: Assigns a tooltip control to a tab control. You can use this macro or send the TCM_SETTOOLTIPS message explicitly.helpviewer_keywords: ["TabCtrl_SetToolTips","TabCtrl_SetToolTips macro [Windows Controls]","_win32_TabCtrl_SetToolTips","_win32_TabCtrl_SetToolTips_cpp","commctrl/TabCtrl_SetToolTips","controls.TabCtrl_SetToolTips","controls._win32_TabCtrl_SetToolTips"]
+description: Assigns a tooltip control to a tab control. You can use this macro or send the TCM_SETTOOLTIPS message explicitly.
+helpviewer_keywords: ["TabCtrl_SetToolTips","TabCtrl_SetToolTips macro [Windows Controls]","_win32_TabCtrl_SetToolTips","_win32_TabCtrl_SetToolTips_cpp","commctrl/TabCtrl_SetToolTips","controls.TabCtrl_SetToolTips","controls._win32_TabCtrl_SetToolTips"]
 old-location: controls\TabCtrl_SetToolTips.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_settooltips.htm

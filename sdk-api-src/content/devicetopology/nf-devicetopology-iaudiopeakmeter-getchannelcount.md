@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IAudioPeakMeter.GetChannelCount
 title: IAudioPeakMeter::GetChannelCount (devicetopology.h)
-description: The GetChannelCount method gets the number of channels in the audio stream.helpviewer_keywords: ["GetChannelCount","GetChannelCount method [Core Audio]","GetChannelCount method [Core Audio]","IAudioPeakMeter interface","IAudioPeakMeter interface [Core Audio]","GetChannelCount method","IAudioPeakMeter.GetChannelCount","IAudioPeakMeter::GetChannelCount","IAudioPeakMeterGetChannelCount","coreaudio.iaudiopeakmeter_getchannelcount","devicetopology/IAudioPeakMeter::GetChannelCount"]
+description: The GetChannelCount method gets the number of channels in the audio stream.
+helpviewer_keywords: ["GetChannelCount","GetChannelCount method [Core Audio]","GetChannelCount method [Core Audio]","IAudioPeakMeter interface","IAudioPeakMeter interface [Core Audio]","GetChannelCount method","IAudioPeakMeter.GetChannelCount","IAudioPeakMeter::GetChannelCount","IAudioPeakMeterGetChannelCount","coreaudio.iaudiopeakmeter_getchannelcount","devicetopology/IAudioPeakMeter::GetChannelCount"]
 old-location: coreaudio\iaudiopeakmeter_getchannelcount.htm
 tech.root: CoreAudio
 ms.assetid: 699b3689-1c3f-434e-97c5-3c5930683ad1

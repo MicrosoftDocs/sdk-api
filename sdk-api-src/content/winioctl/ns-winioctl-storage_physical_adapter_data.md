@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._STORAGE_PHYSICAL_ADAPTER_DATA
 title: STORAGE_PHYSICAL_ADAPTER_DATA
-description: Describes a physical storage adapter.helpviewer_keywords: ["*PSTORAGE_PHYSICAL_ADAPTER_DATA","PSTORAGE_PHYSICAL_ADAPTER_DATA","PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Files]","STORAGE_PHYSICAL_ADAPTER_DATA","STORAGE_PHYSICAL_ADAPTER_DATA structure [Files]","fs.storage_physical_adapter_data","winioctl/PSTORAGE_PHYSICAL_ADAPTER_DATA","winioctl/STORAGE_PHYSICAL_ADAPTER_DATA"]
+description: Describes a physical storage adapter.
+helpviewer_keywords: ["*PSTORAGE_PHYSICAL_ADAPTER_DATA","PSTORAGE_PHYSICAL_ADAPTER_DATA","PSTORAGE_PHYSICAL_ADAPTER_DATA structure pointer [Files]","STORAGE_PHYSICAL_ADAPTER_DATA","STORAGE_PHYSICAL_ADAPTER_DATA structure [Files]","fs.storage_physical_adapter_data","winioctl/PSTORAGE_PHYSICAL_ADAPTER_DATA","winioctl/STORAGE_PHYSICAL_ADAPTER_DATA"]
 old-location: fs\storage_physical_adapter_data.htm
 tech.root: FileIO
 ms.assetid: 8CC7CF43-61C8-4561-BA9C-473878818858

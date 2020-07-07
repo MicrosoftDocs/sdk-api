@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Button_SetSplitInfo
 title: Button_SetSplitInfo macro (commctrl.h)
-description: Sets information for a specified split button control. Use this macro or send the BCM_SETSPLITINFO message explicitly.helpviewer_keywords: ["Button_SetSplitInfo","Button_SetSplitInfo macro [Windows Controls]","_shell_Button_SetSplitInfo","_shell_Button_SetSplitInfo_cpp","commctrl/Button_SetSplitInfo","controls.Button_SetSplitInfo","controls._shell_Button_SetSplitInfo"]
+description: Sets information for a specified split button control. Use this macro or send the BCM_SETSPLITINFO message explicitly.
+helpviewer_keywords: ["Button_SetSplitInfo","Button_SetSplitInfo macro [Windows Controls]","_shell_Button_SetSplitInfo","_shell_Button_SetSplitInfo_cpp","commctrl/Button_SetSplitInfo","controls.Button_SetSplitInfo","controls._shell_Button_SetSplitInfo"]
 old-location: controls\Button_SetSplitInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setsplitinfo.htm

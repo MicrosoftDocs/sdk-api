@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IIsdbSiParser2
 title: IIsdbSiParser2 (dvbsiparser.h)
-description: Implements methods that retrieve program specific information (PSI) tables and service information tables from an Integrated Services Digital Broadcast (ISDB) transport stream.helpviewer_keywords: ["IIsdbSiParser2","IIsdbSiParser2 interface [Microsoft TV Technologies]","IIsdbSiParser2 interface [Microsoft TV Technologies]","described","dvbsiparser/IIsdbSiParser2","mstv.iisdbsiparser2"]
+description: Implements methods that retrieve program specific information (PSI) tables and service information tables from an Integrated Services Digital Broadcast (ISDB) transport stream.
+helpviewer_keywords: ["IIsdbSiParser2","IIsdbSiParser2 interface [Microsoft TV Technologies]","IIsdbSiParser2 interface [Microsoft TV Technologies]","described","dvbsiparser/IIsdbSiParser2","mstv.iisdbsiparser2"]
 old-location: mstv\iisdbsiparser2.htm
 tech.root: mstv
 ms.assetid: d8dfc713-aaa4-46b1-8eca-2e132a9d705f

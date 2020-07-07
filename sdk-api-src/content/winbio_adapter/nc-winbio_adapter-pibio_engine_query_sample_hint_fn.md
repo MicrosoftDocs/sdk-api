@@ -1,7 +1,8 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN
 title: PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN (winbio_adapter.h)
-description: Retrieves the number of correct samples required by the engine adapter to construct an enrollment template.helpviewer_keywords: ["EngineAdapterQuerySampleHint","EngineAdapterQuerySampleHint callback function [Windows Biometric Framework API]","PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN","PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN callback","secbiomet.engineadapterquerysamplehint","winbio_adapter/EngineAdapterQuerySampleHint"]
+description: Retrieves the number of correct samples required by the engine adapter to construct an enrollment template.
+helpviewer_keywords: ["EngineAdapterQuerySampleHint","EngineAdapterQuerySampleHint callback function [Windows Biometric Framework API]","PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN","PIBIO_ENGINE_QUERY_SAMPLE_HINT_FN callback","secbiomet.engineadapterquerysamplehint","winbio_adapter/EngineAdapterQuerySampleHint"]
 old-location: secbiomet\engineadapterquerysamplehint.htm
 tech.root: SecBioMet
 ms.assetid: 9208cd3e-205d-4ef0-8f67-292385dea9a2

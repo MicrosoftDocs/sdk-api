@@ -1,7 +1,8 @@
 ---
 UID: NS:hrtfapoapi.HrtfOrientation
 title: HrtfOrientation (hrtfapoapi.h)
-description: Indicates the orientation of an HRTF directivity object.helpviewer_keywords: ["HrtfOrientation","HrtfOrientation structure [XAudio2 Audio Mixing APIs]","PHrtfOrientation","PHrtfOrientation structure pointer [XAudio2 Audio Mixing APIs]","hrtfapoapi/HrtfOrientation","hrtfapoapi/PHrtfOrientation","xaudio2.hrtforientation"]
+description: Indicates the orientation of an HRTF directivity object.
+helpviewer_keywords: ["HrtfOrientation","HrtfOrientation structure [XAudio2 Audio Mixing APIs]","PHrtfOrientation","PHrtfOrientation structure pointer [XAudio2 Audio Mixing APIs]","hrtfapoapi/HrtfOrientation","hrtfapoapi/PHrtfOrientation","xaudio2.hrtforientation"]
 old-location: xaudio2\hrtforientation.htm
 tech.root: xaudio2
 ms.assetid: 759EC69D-1E5A-4CB1-86B0-8612BF4C3B5E

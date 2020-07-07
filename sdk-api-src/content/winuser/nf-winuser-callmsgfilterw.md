@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CallMsgFilterW
 title: CallMsgFilterW function (winuser.h)
-description: Passes the specified message and hook code to the hook procedures associated with the WH_SYSMSGFILTER and WH_MSGFILTER hooks.helpviewer_keywords: ["CallMsgFilter","CallMsgFilter function [Windows and Messages]","CallMsgFilterA","CallMsgFilterW","_win32_CallMsgFilter","_win32_callmsgfilter_cpp","winmsg.callmsgfilter","winui._win32_callmsgfilter","winuser/CallMsgFilter","winuser/CallMsgFilterA","winuser/CallMsgFilterW"]
+description: Passes the specified message and hook code to the hook procedures associated with the WH_SYSMSGFILTER and WH_MSGFILTER hooks.
+helpviewer_keywords: ["CallMsgFilter","CallMsgFilter function [Windows and Messages]","CallMsgFilterA","CallMsgFilterW","_win32_CallMsgFilter","_win32_callmsgfilter_cpp","winmsg.callmsgfilter","winui._win32_callmsgfilter","winuser/CallMsgFilter","winuser/CallMsgFilterA","winuser/CallMsgFilterW"]
 old-location: winmsg\callmsgfilter.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookfunctions\callmsgfilter.htm
@@ -106,6 +107,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/a
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CallMsgFilter as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

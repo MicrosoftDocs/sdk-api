@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IViewExtensionCallback.AddView
 title: IViewExtensionCallback::AddView (mmc.h)
-description: Adds a view to the result pane.helpviewer_keywords: ["AddView","AddView method [MMC]","AddView method [MMC]","IViewExtensionCallback interface","IViewExtensionCallback interface [MMC]","AddView method","IViewExtensionCallback.AddView","IViewExtensionCallback::AddView","_slate_iviewextensioncallback_addview","mmc.iviewextensioncallback_addview","mmc/IViewExtensionCallback::AddView"]
+description: Adds a view to the result pane.
+helpviewer_keywords: ["AddView","AddView method [MMC]","AddView method [MMC]","IViewExtensionCallback interface","IViewExtensionCallback interface [MMC]","AddView method","IViewExtensionCallback.AddView","IViewExtensionCallback::AddView","_slate_iviewextensioncallback_addview","mmc.iviewextensioncallback_addview","mmc/IViewExtensionCallback::AddView"]
 old-location: mmc\iviewextensioncallback_addview.htm
 tech.root: mmc
 ms.assetid: 3e794787-d328-4cbf-822e-8846fed81a57

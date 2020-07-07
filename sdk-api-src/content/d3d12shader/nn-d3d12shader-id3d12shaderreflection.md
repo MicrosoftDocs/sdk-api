@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12shader.ID3D12ShaderReflection
 title: ID3D12ShaderReflection (d3d12shader.h)
-description: A shader-reflection interface accesses shader information.helpviewer_keywords: ["ID3D12ShaderReflection","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","described","d3d12shader/ID3D12ShaderReflection","direct3d12.id3d12shaderreflection"]
+description: A shader-reflection interface accesses shader information.
+helpviewer_keywords: ["ID3D12ShaderReflection","ID3D12ShaderReflection interface","ID3D12ShaderReflection interface","described","d3d12shader/ID3D12ShaderReflection","direct3d12.id3d12shaderreflection"]
 old-location: direct3d12\id3d12shaderreflection.htm
 tech.root: direct3d12
 ms.assetid: 145F2CCB-C076-42BE-8AF4-74349CDF6B02
@@ -43,15 +44,9 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# ID3D12ShaderReflection interface
-
-
 ## -description
 
-
 A shader-reflection interface accesses shader information.
-        
-
 
 ## -inheritance
 
@@ -263,26 +258,13 @@ Indicates whether a shader is a sample frequency shader.
 
 ## -remarks
 
+An <b>ID3D12ShaderReflection</b> interface can be retrieved for a shader by using <a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dreflect">D3DReflect</a>.
 
-
-An <b>ID3D12ShaderReflection</b> interface can be retrieved for a shader by using 
-				<a href="https://docs.microsoft.com/windows/desktop/direct3dhlsl/d3dreflect">D3DReflect</a>.  
-          
-
-
-
+> [!NOTE]
+> This function from `d3dcompiler.dll` supports Shader Model 2 - 5.1. For Shader Model 6 shader reflection, see `dxcompiler.dll` and  [Using dxc.exe and dxcompiler.dll](https://github.com/microsoft/DirectXShaderCompiler/wiki/Using-dxc.exe-and-dxcompiler.dll).
 
 ## -see-also
 
-
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/direct3d12/d3d12-graphics-reference-shader-interfaces">Shader Interfaces</a>
- 
-
- 
-

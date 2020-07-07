@@ -1,7 +1,8 @@
 ---
-UID: NF:wbemtime.WBEMTime.operator-sub(const WBEMTimeSpan &)
+UID: NF:wbemtime.WBEMTime.operator-sub(constWBEMTimeSpan&)
 title: WBEMTime::operator-sub(const WBEMTimeSpan &) (wbemtime.h)
-description: This overload of the WBEMTime class subtraction operator (&#8211;) subtracts a time span from an object's time to produce a new time object that contains the resulting time.helpviewer_keywords: ["??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z","WBEMTime interface [Windows Management Instrumentation]","operator- method","WBEMTime.operator-","WBEMTime.operator-sub(const WBEMTimeSpan &)","WBEMTime::operator-","WBEMTime::operator-(const WBEMTimeSpan&)","WBEMTime::operator-sub(const WBEMTimeSpan &)","operator-","operator- method [Windows Management Instrumentation]","operator- method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator-","wmi.wbemtime_operator_minus_const_wbemtimespan__"]
+description: This overload of the WBEMTime class subtraction operator (&#8211;) subtracts a time span from an object's time to produce a new time object that contains the resulting time.
+helpviewer_keywords: ["??GWBEMTime@@QBE?AV0@ABVWBEMTimeSpan@@@Z","WBEMTime interface [Windows Management Instrumentation]","operator- method","WBEMTime.operator-","WBEMTime.operator-sub(const WBEMTimeSpan &)","WBEMTime::operator-","WBEMTime::operator-(const WBEMTimeSpan&)","WBEMTime::operator-sub(const WBEMTimeSpan &)","operator-","operator- method [Windows Management Instrumentation]","operator- method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator-","wmi.wbemtime_operator_minus_const_wbemtimespan__"]
 old-location: wmi\wbemtime_operator_minus_const_wbemtimespan__.htm
 tech.root: WmiSdk
 ms.assetid: d96efdf3-1020-4145-92ad-bbde5704639e

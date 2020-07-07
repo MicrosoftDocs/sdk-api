@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.EnumerateTraceGuidsEx
 title: EnumerateTraceGuidsEx function (evntrace.h)
-description: Use this function to retrieve information about trace providers that are registered on the computer.helpviewer_keywords: ["EnumerateTraceGuidsEx","EnumerateTraceGuidsEx function [ETW]","base.enumeratetraceguidsex","etw.enumeratetraceguidsex","evntrace/EnumerateTraceGuidsEx"]
+description: Use this function to retrieve information about trace providers that are registered on the computer.
+helpviewer_keywords: ["EnumerateTraceGuidsEx","EnumerateTraceGuidsEx function [ETW]","base.enumeratetraceguidsex","etw.enumeratetraceguidsex","evntrace/EnumerateTraceGuidsEx"]
 old-location: etw\enumeratetraceguidsex.htm
 tech.root: ETW
 ms.assetid: 9d70fe21-1750-4d60-a825-2004f7d666c7

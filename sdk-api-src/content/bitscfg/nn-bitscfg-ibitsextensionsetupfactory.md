@@ -1,7 +1,8 @@
 ---
 UID: NN:bitscfg.IBITSExtensionSetupFactory
 title: IBITSExtensionSetupFactory (bitscfg.h)
-description: Use the IBITSExtensionSetupFactory interface to get a pointer to the IBITSExtensionSetup interface.helpviewer_keywords: ["IBITSExtensionSetupFactory","IBITSExtensionSetupFactory interface [BITS]","IBITSExtensionSetupFactory interface [BITS]","described","_drz_ibitsextensionsetupfactory","bits.ibitsextensionsetupfactory","bitscfg/IBITSExtensionSetupFactory"]
+description: Use the IBITSExtensionSetupFactory interface to get a pointer to the IBITSExtensionSetup interface.
+helpviewer_keywords: ["IBITSExtensionSetupFactory","IBITSExtensionSetupFactory interface [BITS]","IBITSExtensionSetupFactory interface [BITS]","described","_drz_ibitsextensionsetupfactory","bits.ibitsextensionsetupfactory","bitscfg/IBITSExtensionSetupFactory"]
 old-location: bits\ibitsextensionsetupfactory.htm
 tech.root: Bits
 ms.assetid: 0105d525-c841-4e0e-bd4a-2a1bcdb0dc4a

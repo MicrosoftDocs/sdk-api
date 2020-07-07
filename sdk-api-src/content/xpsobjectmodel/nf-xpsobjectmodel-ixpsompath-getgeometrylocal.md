@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetGeometryLocal
 title: IXpsOMPath::GetGeometryLocal (xpsobjectmodel.h)
-description: Gets the local, unshared geometry of the resolved fill area for this path.helpviewer_keywords: ["GetGeometryLocal","GetGeometryLocal method [XPS Documents and Packaging]","GetGeometryLocal method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetGeometryLocal method","IXpsOMPath.GetGeometryLocal","IXpsOMPath::GetGeometryLocal","xps.ixpsompath_getgeometrylocal","xpsobjectmodel/IXpsOMPath::GetGeometryLocal"]
+description: Gets the local, unshared geometry of the resolved fill area for this path.
+helpviewer_keywords: ["GetGeometryLocal","GetGeometryLocal method [XPS Documents and Packaging]","GetGeometryLocal method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetGeometryLocal method","IXpsOMPath.GetGeometryLocal","IXpsOMPath::GetGeometryLocal","xps.ixpsompath_getgeometrylocal","xpsobjectmodel/IXpsOMPath::GetGeometryLocal"]
 old-location: xps\ixpsompath_getgeometrylocal.htm
 tech.root: printdocs
 ms.assetid: a8902191-7646-4c97-843f-9467ed12f621

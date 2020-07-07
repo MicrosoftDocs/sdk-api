@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.Reset
 title: ISearchCatalogManager::Reset (searchapi.h)
-description: Resets the underlying catalog by rebuilding the databases and performing a full indexing.helpviewer_keywords: ["ISearchCatalogManager interface [search]","Reset method","ISearchCatalogManager.Reset","ISearchCatalogManager::Reset","Reset","Reset method [search]","Reset method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_Reset","search._search_ISearchCatalogManager_Reset","searchapi/ISearchCatalogManager::Reset"]
+description: Resets the underlying catalog by rebuilding the databases and performing a full indexing.
+helpviewer_keywords: ["ISearchCatalogManager interface [search]","Reset method","ISearchCatalogManager.Reset","ISearchCatalogManager::Reset","Reset","Reset method [search]","Reset method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_Reset","search._search_ISearchCatalogManager_Reset","searchapi/ISearchCatalogManager::Reset"]
 old-location: search\_search_ISearchCatalogManager_Reset.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reset.htm

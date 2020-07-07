@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_ROOT_DESCRIPTOR_TABLE
 title: D3D12_ROOT_DESCRIPTOR_TABLE (d3d12.h)
-description: Describes the root signature 1.0 layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap.helpviewer_keywords: ["D3D12_ROOT_DESCRIPTOR_TABLE","D3D12_ROOT_DESCRIPTOR_TABLE structure","d3d12/D3D12_ROOT_DESCRIPTOR_TABLE","direct3d12.d3d12_descriptor_table_layout","direct3d12.d3d12_root_descriptor_table"]
+description: Describes the root signature 1.0 layout of a descriptor table as a collection of descriptor ranges that appear one after the other in a descriptor heap.
+helpviewer_keywords: ["D3D12_ROOT_DESCRIPTOR_TABLE","D3D12_ROOT_DESCRIPTOR_TABLE structure","d3d12/D3D12_ROOT_DESCRIPTOR_TABLE","direct3d12.d3d12_descriptor_table_layout","direct3d12.d3d12_root_descriptor_table"]
 old-location: direct3d12\d3d12_root_descriptor_table.htm
 tech.root: direct3d12
 ms.assetid: 5A0A04AB-2053-40E0-9CD5-E344BFE9001E

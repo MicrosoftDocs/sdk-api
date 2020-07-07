@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11.ID3D11RasterizerState
 title: ID3D11RasterizerState (d3d11.h)
-description: The rasterizer-state interface holds a description for rasterizer state that you can bind to the rasterizer stage.helpviewer_keywords: ["6b2716ca-7676-6b26-071d-20ec80705737","ID3D11RasterizerState","ID3D11RasterizerState interface [Direct3D 11]","ID3D11RasterizerState interface [Direct3D 11]","described","d3d11/ID3D11RasterizerState","direct3d11.id3d11rasterizerstate"]
+description: The rasterizer-state interface holds a description for rasterizer state that you can bind to the rasterizer stage.
+helpviewer_keywords: ["6b2716ca-7676-6b26-071d-20ec80705737","ID3D11RasterizerState","ID3D11RasterizerState interface [Direct3D 11]","ID3D11RasterizerState interface [Direct3D 11]","described","d3d11/ID3D11RasterizerState","direct3d11.id3d11rasterizerstate"]
 old-location: direct3d11\id3d11rasterizerstate.htm
 tech.root: direct3d11
 ms.assetid: fbe6d2b9-375e-4390-9d34-36acef0a5aa2

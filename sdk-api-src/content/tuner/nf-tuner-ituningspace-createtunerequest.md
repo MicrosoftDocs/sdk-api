@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.ITuningSpace.CreateTuneRequest
 title: ITuningSpace::CreateTuneRequest (tuner.h)
-description: The CreateTuneRequest method creates an empty (uninitialized) tune request.helpviewer_keywords: ["CreateTuneRequest","CreateTuneRequest method [Microsoft TV Technologies]","CreateTuneRequest method [Microsoft TV Technologies]","ITuningSpace interface","ITuningSpace interface [Microsoft TV Technologies]","CreateTuneRequest method","ITuningSpace.CreateTuneRequest","ITuningSpace::CreateTuneRequest","ITuningSpaceCreateTuneRequest","mstv.ituningspace_createtunerequest","tuner/ITuningSpace::CreateTuneRequest"]
+description: The CreateTuneRequest method creates an empty (uninitialized) tune request.
+helpviewer_keywords: ["CreateTuneRequest","CreateTuneRequest method [Microsoft TV Technologies]","CreateTuneRequest method [Microsoft TV Technologies]","ITuningSpace interface","ITuningSpace interface [Microsoft TV Technologies]","CreateTuneRequest method","ITuningSpace.CreateTuneRequest","ITuningSpace::CreateTuneRequest","ITuningSpaceCreateTuneRequest","mstv.ituningspace_createtunerequest","tuner/ITuningSpace::CreateTuneRequest"]
 old-location: mstv\ituningspace_createtunerequest.htm
 tech.root: mstv
 ms.assetid: 513d4d3e-47df-4a12-80ce-9fc1400af176

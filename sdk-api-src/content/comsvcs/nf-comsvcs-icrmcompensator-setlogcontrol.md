@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.SetLogControl
 title: ICrmCompensator::SetLogControl (comsvcs.h)
-description: Delivers an ICrmLogControl interface to the CRM Compensator so that it can write further log records during transaction completion.helpviewer_keywords: ["ICrmCompensator interface [COM+]","SetLogControl method","ICrmCompensator.SetLogControl","ICrmCompensator::SetLogControl","SetLogControl","SetLogControl method [COM+]","SetLogControl method [COM+]","ICrmCompensator interface","_dtc_ICrmCompensator_SetLogControl","comsvcs/ICrmCompensator::SetLogControl","cos.icrmcompensator_setlogcontrol"]
+description: Delivers an ICrmLogControl interface to the CRM Compensator so that it can write further log records during transaction completion.
+helpviewer_keywords: ["ICrmCompensator interface [COM+]","SetLogControl method","ICrmCompensator.SetLogControl","ICrmCompensator::SetLogControl","SetLogControl","SetLogControl method [COM+]","SetLogControl method [COM+]","ICrmCompensator interface","_dtc_ICrmCompensator_SetLogControl","comsvcs/ICrmCompensator::SetLogControl","cos.icrmcompensator_setlogcontrol"]
 old-location: cos\icrmcompensator_setlogcontrol.htm
 tech.root: cossdk
 ms.assetid: a68e49c7-a0d3-4c37-b438-864578e4a680

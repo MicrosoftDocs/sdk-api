@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureManager.GetSignatureOriginPartName
 title: IXpsSignatureManager::GetSignatureOriginPartName (xpsdigitalsignature.h)
-description: Gets the part name of the signature origin part.helpviewer_keywords: ["GetSignatureOriginPartName","GetSignatureOriginPartName method [XPS Documents and Packaging]","GetSignatureOriginPartName method [XPS Documents and Packaging]","IXpsSignatureManager interface","IXpsSignatureManager interface [XPS Documents and Packaging]","GetSignatureOriginPartName method","IXpsSignatureManager.GetSignatureOriginPartName","IXpsSignatureManager::GetSignatureOriginPartName","xps.ixpssignaturemanager_getsignatureoriginpartname","xpsdigitalsignature/IXpsSignatureManager::GetSignatureOriginPartName"]
+description: Gets the part name of the signature origin part.
+helpviewer_keywords: ["GetSignatureOriginPartName","GetSignatureOriginPartName method [XPS Documents and Packaging]","GetSignatureOriginPartName method [XPS Documents and Packaging]","IXpsSignatureManager interface","IXpsSignatureManager interface [XPS Documents and Packaging]","GetSignatureOriginPartName method","IXpsSignatureManager.GetSignatureOriginPartName","IXpsSignatureManager::GetSignatureOriginPartName","xps.ixpssignaturemanager_getsignatureoriginpartname","xpsdigitalsignature/IXpsSignatureManager::GetSignatureOriginPartName"]
 old-location: xps\ixpssignaturemanager_getsignatureoriginpartname.htm
 tech.root: printdocs
 ms.assetid: 0d70e6bc-1101-40fa-b91c-69facc3ca195

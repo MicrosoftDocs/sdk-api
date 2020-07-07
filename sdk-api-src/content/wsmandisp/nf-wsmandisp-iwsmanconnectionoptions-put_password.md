@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManConnectionOptions.put_Password
 title: IWSManConnectionOptions::put_Password (wsmandisp.h)
-description: Sets the password of a local or a domain account on the remote computer.helpviewer_keywords: ["IWSManConnectionOptions interface [Windows Remote Management]","Password property","IWSManConnectionOptions.Password","IWSManConnectionOptions.put_Password","IWSManConnectionOptions::Password","IWSManConnectionOptions::put_Password","Password property [Windows Remote Management]","Password property [Windows Remote Management]","IWSManConnectionOptions interface","put_Password","winrm.iwsmanconnectionoptions_password","wsmandisp/IWSManConnectionOptions::Password","wsmandisp/IWSManConnectionOptions::put_Password"]
+description: Sets the password of a local or a domain account on the remote computer.
+helpviewer_keywords: ["IWSManConnectionOptions interface [Windows Remote Management]","Password property","IWSManConnectionOptions.Password","IWSManConnectionOptions.put_Password","IWSManConnectionOptions::Password","IWSManConnectionOptions::put_Password","Password property [Windows Remote Management]","Password property [Windows Remote Management]","IWSManConnectionOptions interface","put_Password","winrm.iwsmanconnectionoptions_password","wsmandisp/IWSManConnectionOptions::Password","wsmandisp/IWSManConnectionOptions::put_Password"]
 old-location: winrm\iwsmanconnectionoptions_password.htm
 tech.root: winrm
 ms.assetid: 864279c0-1bb5-43dc-9636-35619199beb4

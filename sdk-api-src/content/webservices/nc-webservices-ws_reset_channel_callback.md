@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_RESET_CHANNEL_CALLBACK
 title: WS_RESET_CHANNEL_CALLBACK (webservices.h)
-description: Handles the WsResetChannel call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_RESET_CHANNEL_CALLBACK","WS_RESET_CHANNEL_CALLBACK callback","WS_RESET_CHANNEL_CALLBACK callback function [Web Services for Windows]","webservices/WS_RESET_CHANNEL_CALLBACK","wsw.ws_reset_channel_callback"]
+description: Handles the WsResetChannel call for a WS_CUSTOM_CHANNEL_BINDING.
+helpviewer_keywords: ["WS_RESET_CHANNEL_CALLBACK","WS_RESET_CHANNEL_CALLBACK callback","WS_RESET_CHANNEL_CALLBACK callback function [Web Services for Windows]","webservices/WS_RESET_CHANNEL_CALLBACK","wsw.ws_reset_channel_callback"]
 old-location: wsw\ws_reset_channel_callback.htm
 tech.root: wsw
 ms.assetid: 3f3b4995-72ca-4e93-87de-89996f9c43cb

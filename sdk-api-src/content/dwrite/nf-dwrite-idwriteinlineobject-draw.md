@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteInlineObject.Draw
 title: IDWriteInlineObject::Draw (dwrite.h)
-description: The application implemented rendering callback (IDWriteTextRenderer::DrawInlineObject) can use this to draw the inline object without needing to cast or query the object type. The text layout does not call this method directly.helpviewer_keywords: ["Draw","Draw method [Direct Write]","Draw method [Direct Write]","IDWriteInlineObject interface","IDWriteInlineObject interface [Direct Write]","Draw method","IDWriteInlineObject.Draw","IDWriteInlineObject::Draw","directwrite.IDWriteInlineObject_Draw","dwrite/IDWriteInlineObject::Draw"]
+description: The application implemented rendering callback (IDWriteTextRenderer::DrawInlineObject) can use this to draw the inline object without needing to cast or query the object type. The text layout does not call this method directly.
+helpviewer_keywords: ["Draw","Draw method [Direct Write]","Draw method [Direct Write]","IDWriteInlineObject interface","IDWriteInlineObject interface [Direct Write]","Draw method","IDWriteInlineObject.Draw","IDWriteInlineObject::Draw","directwrite.IDWriteInlineObject_Draw","dwrite/IDWriteInlineObject::Draw"]
 old-location: directwrite\IDWriteInlineObject_Draw.htm
 tech.root: DirectWrite
 ms.assetid: cbaa3341-e43a-4d3f-89c7-dda758a63e7d

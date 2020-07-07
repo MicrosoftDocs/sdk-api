@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfo.GetPackageType
 title: IAppxBundleManifestPackageInfo::GetPackageType (appxpackaging.h)
-description: Retrieves the type of package that is represented by the package info.helpviewer_keywords: ["GetPackageType","GetPackageType method [App packaging and management]","GetPackageType method [App packaging and management]","IAppxBundleManifestPackageInfo interface","IAppxBundleManifestPackageInfo interface [App packaging and management]","GetPackageType method","IAppxBundleManifestPackageInfo.GetPackageType","IAppxBundleManifestPackageInfo::GetPackageType","appxpackaging/IAppxBundleManifestPackageInfo::GetPackageType","appxpkg.iappxbundlemanifestpackageinfo_getpackagetype"]
+description: Retrieves the type of package that is represented by the package info.
+helpviewer_keywords: ["GetPackageType","GetPackageType method [App packaging and management]","GetPackageType method [App packaging and management]","IAppxBundleManifestPackageInfo interface","IAppxBundleManifestPackageInfo interface [App packaging and management]","GetPackageType method","IAppxBundleManifestPackageInfo.GetPackageType","IAppxBundleManifestPackageInfo::GetPackageType","appxpackaging/IAppxBundleManifestPackageInfo::GetPackageType","appxpkg.iappxbundlemanifestpackageinfo_getpackagetype"]
 old-location: appxpkg\iappxbundlemanifestpackageinfo_getpackagetype.htm
 tech.root: appxpkg
 ms.assetid: 965E48E3-7C60-4299-85F4-07CB879E7B39

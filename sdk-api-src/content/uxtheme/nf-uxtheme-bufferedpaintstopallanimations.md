@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.BufferedPaintStopAllAnimations
 title: BufferedPaintStopAllAnimations function (uxtheme.h)
-description: Stops all buffered animations for the given window.helpviewer_keywords: ["BufferedPaintStopAllAnimations","BufferedPaintStopAllAnimations function [Windows Controls]","_shell_BufferedPaintStopAllAnimations","_shell_BufferedPaintStopAllAnimations_cpp","controls.BufferedPaintStopAllAnimations","controls._shell_BufferedPaintStopAllAnimations","uxtheme/BufferedPaintStopAllAnimations"]
+description: Stops all buffered animations for the given window.
+helpviewer_keywords: ["BufferedPaintStopAllAnimations","BufferedPaintStopAllAnimations function [Windows Controls]","_shell_BufferedPaintStopAllAnimations","_shell_BufferedPaintStopAllAnimations_cpp","controls.BufferedPaintStopAllAnimations","controls._shell_BufferedPaintStopAllAnimations","uxtheme/BufferedPaintStopAllAnimations"]
 old-location: controls\BufferedPaintStopAllAnimations.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\bufferedpaintstopallanimations.htm

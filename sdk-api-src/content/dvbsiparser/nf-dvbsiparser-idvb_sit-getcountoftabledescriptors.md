@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_SIT.GetCountOfTableDescriptors
 title: IDVB_SIT::GetCountOfTableDescriptors (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetCountOfTableDescriptors","GetCountOfTableDescriptors method [Microsoft TV Technologies]","GetCountOfTableDescriptors method [Microsoft TV Technologies]","IDVB_SIT interface","IDVB_SIT interface [Microsoft TV Technologies]","GetCountOfTableDescriptors method","IDVB_SIT.GetCountOfTableDescriptors","IDVB_SIT::GetCountOfTableDescriptors","IDVB_SITGetCountOfTableDescriptors","dvbsiparser/IDVB_SIT::GetCountOfTableDescriptors","mstv.idvb_sit_getcountoftabledescriptors"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetCountOfTableDescriptors","GetCountOfTableDescriptors method [Microsoft TV Technologies]","GetCountOfTableDescriptors method [Microsoft TV Technologies]","IDVB_SIT interface","IDVB_SIT interface [Microsoft TV Technologies]","GetCountOfTableDescriptors method","IDVB_SIT.GetCountOfTableDescriptors","IDVB_SIT::GetCountOfTableDescriptors","IDVB_SITGetCountOfTableDescriptors","dvbsiparser/IDVB_SIT::GetCountOfTableDescriptors","mstv.idvb_sit_getcountoftabledescriptors"]
 old-location: mstv\idvb_sit_getcountoftabledescriptors.htm
 tech.root: mstv
 ms.assetid: 7fe03fe0-f12e-43cb-b340-26fffdf2d873

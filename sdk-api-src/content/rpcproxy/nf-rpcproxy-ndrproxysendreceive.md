@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcproxy.NdrProxySendReceive
 title: NdrProxySendReceive function (rpcproxy.h)
-description: The NdrProxySendReceive function sends a message to the server then waits for a reply.helpviewer_keywords: ["NdrProxySendReceive","NdrProxySendReceive function [RPC]","rpc.ndrproxysendreceive","rpcproxy/NdrProxySendReceive"]
+description: The NdrProxySendReceive function sends a message to the server then waits for a reply.
+helpviewer_keywords: ["NdrProxySendReceive","NdrProxySendReceive function [RPC]","rpc.ndrproxysendreceive","rpcproxy/NdrProxySendReceive"]
 old-location: rpc\ndrproxysendreceive.htm
 tech.root: Rpc
 ms.assetid: a80c3271-bed3-4757-97e1-2bf212eaeafd

@@ -1,7 +1,8 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_DATA_BLOB
 title: CRYPT_XML_DATA_BLOB (cryptxml.h)
-description: Contains XML encoded data.helpviewer_keywords: ["*PCRYPT_XML_DATA_BLOB","CRYPT_XML_DATA_BLOB","CRYPT_XML_DATA_BLOB structure [Security]","PCRYPT_XML_DATA_BLOB","PCRYPT_XML_DATA_BLOB structure pointer [Security]","cryptxml/CRYPT_XML_DATA_BLOB","cryptxml/PCRYPT_XML_DATA_BLOB","security.crypt_xml_data_blob"]
+description: Contains XML encoded data.
+helpviewer_keywords: ["*PCRYPT_XML_DATA_BLOB","CRYPT_XML_DATA_BLOB","CRYPT_XML_DATA_BLOB structure [Security]","PCRYPT_XML_DATA_BLOB","PCRYPT_XML_DATA_BLOB structure pointer [Security]","cryptxml/CRYPT_XML_DATA_BLOB","cryptxml/PCRYPT_XML_DATA_BLOB","security.crypt_xml_data_blob"]
 old-location: security\crypt_xml_data_blob.htm
 tech.root: SecCrypto
 ms.assetid: dc7e23d6-923c-40d2-9cf7-9a529c0634ce

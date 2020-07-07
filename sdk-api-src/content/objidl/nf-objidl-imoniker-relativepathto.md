@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IMoniker.RelativePathTo
 title: IMoniker::RelativePathTo (objidl.h)
-description: Creates a relative moniker between this moniker and the specified moniker.helpviewer_keywords: ["IMoniker interface [COM]","RelativePathTo method","IMoniker.RelativePathTo","IMoniker::RelativePathTo","RelativePathTo","RelativePathTo method [COM]","RelativePathTo method [COM]","IMoniker interface","_com_imoniker_relativepathto","com.imoniker_relativepathto","objidl/IMoniker::RelativePathTo"]
+description: Creates a relative moniker between this moniker and the specified moniker.
+helpviewer_keywords: ["IMoniker interface [COM]","RelativePathTo method","IMoniker.RelativePathTo","IMoniker::RelativePathTo","RelativePathTo","RelativePathTo method [COM]","RelativePathTo method [COM]","IMoniker interface","_com_imoniker_relativepathto","com.imoniker_relativepathto","objidl/IMoniker::RelativePathTo"]
 old-location: com\imoniker_relativepathto.htm
 tech.root: com
 ms.assetid: 92e2e7d7-043e-4e95-8540-5a895b5a54f9

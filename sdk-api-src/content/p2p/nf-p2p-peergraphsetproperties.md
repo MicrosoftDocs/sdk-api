@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphSetProperties
 title: PeerGraphSetProperties function (p2p.h)
-description: The PeerGraphSetProperties function sets the peer graph properties.helpviewer_keywords: ["PeerGraphSetProperties","PeerGraphSetProperties function [Peer Networking]","p2p.peergraphsetproperties","p2p/PeerGraphSetProperties"]
+description: The PeerGraphSetProperties function sets the peer graph properties.
+helpviewer_keywords: ["PeerGraphSetProperties","PeerGraphSetProperties function [Peer Networking]","p2p.peergraphsetproperties","p2p/PeerGraphSetProperties"]
 old-location: p2p\peergraphsetproperties.htm
 tech.root: P2PSdk
 ms.assetid: a9cdf715-bbef-4b5b-96b9-b7c1e35c76ec

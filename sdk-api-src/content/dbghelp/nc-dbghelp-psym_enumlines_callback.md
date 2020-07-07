@@ -1,7 +1,8 @@
 ---
 UID: NC:dbghelp.PSYM_ENUMLINES_CALLBACK
 title: PSYM_ENUMLINES_CALLBACK (dbghelp.h)
-description: An application-defined callback function used with the SymEnumLines and SymEnumSourceLines functions.helpviewer_keywords: ["PSYM_ENUMLINES_CALLBACK","PSYM_ENUMLINES_CALLBACKW","SymEnumLinesProc","SymEnumLinesProc callback","SymEnumLinesProc callback function","base.symenumlinesproc","dbghelp/SymEnumLinesProc"]
+description: An application-defined callback function used with the SymEnumLines and SymEnumSourceLines functions.
+helpviewer_keywords: ["PSYM_ENUMLINES_CALLBACK","PSYM_ENUMLINES_CALLBACKW","SymEnumLinesProc","SymEnumLinesProc callback","SymEnumLinesProc callback function","base.symenumlinesproc","dbghelp/SymEnumLinesProc"]
 old-location: base\symenumlinesproc.htm
 tech.root: Debug
 ms.assetid: 7379dd04-72a4-45b6-b02a-d3e8a5aaf0d7

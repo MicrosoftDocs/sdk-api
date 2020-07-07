@@ -1,13 +1,13 @@
 ---
 UID: NF:tom.ITextRow.SetCellIndex
 title: ITextRow::SetCellIndex (tom.h)
-description: Sets the index of the active cell.helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetCellIndex method","ITextRow.SetCellIndex","ITextRow::SetCellIndex","SetCellIndex","SetCellIndex method [Windows Controls]","SetCellIndex method [Windows Controls]","ITextRow interface","controls.itextrow_setcellindex","tom/ITextRow::SetCellIndex"]
+description: Sets the index of the active cell.
+helpviewer_keywords: ["ITextRow interface [Windows Controls]","SetCellIndex method","ITextRow.SetCellIndex","ITextRow::SetCellIndex","SetCellIndex","SetCellIndex method [Windows Controls]","SetCellIndex method [Windows Controls]","ITextRow interface","controls.itextrow_setcellindex","tom/ITextRow::SetCellIndex"]
 old-location: controls\itextrow_setcellindex.htm
 tech.root: Controls
 ms.assetid: 4b31ed10-f153-4614-ba96-95271fe4b218
 ms.date: 12/05/2018
 ms.keywords: ITextRow interface [Windows Controls],SetCellIndex method, ITextRow.SetCellIndex, ITextRow::SetCellIndex, SetCellIndex, SetCellIndex method [Windows Controls], SetCellIndex method [Windows Controls],ITextRow interface, controls.itextrow_setcellindex, tom/ITextRow::SetCellIndex
-ms.topic: method
 f1_keywords:
 - tom/ITextRow.SetCellIndex
 dev_langs:

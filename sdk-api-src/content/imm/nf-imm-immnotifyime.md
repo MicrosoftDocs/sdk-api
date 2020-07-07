@@ -1,7 +1,8 @@
 ---
 UID: NF:imm.ImmNotifyIME
 title: ImmNotifyIME function (imm.h)
-description: Notifies the IME about changes to the status of the input context.helpviewer_keywords: ["CPS_CANCEL","CPS_COMPLETE","CPS_CONVERT","CPS_REVERT","ImmNotifyIME","ImmNotifyIME function [Internationalization for Windows Applications]","NI_CHANGECANDIDATELIST","NI_CLOSECANDIDATE","NI_COMPOSITIONSTR","NI_IMEMENUSELECTED","NI_OPENCANDIDATE","NI_SELECTCANDIDATESTR","NI_SETCANDIDATE_PAGESIZE","NI_SETCANDIDATE_PAGESTART","_win32_ImmNotifyIME","imm/ImmNotifyIME","intl.immnotifyime"]
+description: Notifies the IME about changes to the status of the input context.
+helpviewer_keywords: ["CPS_CANCEL","CPS_COMPLETE","CPS_CONVERT","CPS_REVERT","ImmNotifyIME","ImmNotifyIME function [Internationalization for Windows Applications]","NI_CHANGECANDIDATELIST","NI_CLOSECANDIDATE","NI_COMPOSITIONSTR","NI_IMEMENUSELECTED","NI_OPENCANDIDATE","NI_SELECTCANDIDATESTR","NI_SETCANDIDATE_PAGESIZE","NI_SETCANDIDATE_PAGESTART","_win32_ImmNotifyIME","imm/ImmNotifyIME","intl.immnotifyime"]
 old-location: intl\immnotifyime.htm
 tech.root: Intl
 ms.assetid: 3ac1a32d-89a2-45e4-9dcb-b2aea5195489

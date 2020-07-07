@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector2Cross
 title: XMVector2Cross function (directxmath.h)
-description: Computes the 2D cross product.helpviewer_keywords: ["Use DirectX..XMVector2Cross","XMVector2Cross","XMVector2Cross method [DirectX Math Support APIs]","dxmath.xmvector2cross"]
+description: Computes the 2D cross product.
+helpviewer_keywords: ["Use DirectX..XMVector2Cross","XMVector2Cross","XMVector2Cross method [DirectX Math Support APIs]","dxmath.xmvector2cross"]
 old-location: dxmath\xmvector2cross.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Cross(XMVECTOR,XMVECTOR)

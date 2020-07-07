@@ -1,7 +1,8 @@
 ---
 UID: NE:ipsectypes.IPSEC_FAILURE_POINT_
 title: IPSEC_FAILURE_POINT (ipsectypes.h)
-description: At what point IPsec has failed.helpviewer_keywords: ["IPSEC_FAILURE_ME","IPSEC_FAILURE_NONE","IPSEC_FAILURE_PEER","IPSEC_FAILURE_POINT","IPSEC_FAILURE_POINT enumeration [Filtering]","IPSEC_FAILURE_POINT_MAX","fwp.ipsec_failure_point","ipsectypes/IPSEC_FAILURE_ME","ipsectypes/IPSEC_FAILURE_NONE","ipsectypes/IPSEC_FAILURE_PEER","ipsectypes/IPSEC_FAILURE_POINT","ipsectypes/IPSEC_FAILURE_POINT_MAX"]
+description: At what point IPsec has failed.
+helpviewer_keywords: ["IPSEC_FAILURE_ME","IPSEC_FAILURE_NONE","IPSEC_FAILURE_PEER","IPSEC_FAILURE_POINT","IPSEC_FAILURE_POINT enumeration [Filtering]","IPSEC_FAILURE_POINT_MAX","fwp.ipsec_failure_point","ipsectypes/IPSEC_FAILURE_ME","ipsectypes/IPSEC_FAILURE_NONE","ipsectypes/IPSEC_FAILURE_PEER","ipsectypes/IPSEC_FAILURE_POINT","ipsectypes/IPSEC_FAILURE_POINT_MAX"]
 old-location: fwp\ipsec_failure_point.htm
 tech.root: fwp
 ms.assetid: 750a5643-1157-4d15-9564-127756cd08cd

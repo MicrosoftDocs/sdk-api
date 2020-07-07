@@ -1,7 +1,8 @@
 ---
 UID: NS:ntdsapi._DS_REPL_NEIGHBORSW
 title: DS_REPL_NEIGHBORSW (ntdsapi.h)
-description: The DS_REPL_NEIGHBORS structure is used with the DsReplicaGetInfo and DsReplicaGetInfo2 functions to provide inbound replication state data for naming context and source server pairs.helpviewer_keywords: ["DS_REPL_NEIGHBORS","DS_REPL_NEIGHBORS structure [Active Directory]","DS_REPL_NEIGHBORSW","_DS_REPL_NEIGHBORSW","_glines_ds_repl_neighbors","ad.ds__repl__neighbors","ad.ds_repl_neighbors","ntdsapi/DS_REPL_NEIGHBORS"]
+description: The DS_REPL_NEIGHBORS structure is used with the DsReplicaGetInfo and DsReplicaGetInfo2 functions to provide inbound replication state data for naming context and source server pairs.
+helpviewer_keywords: ["DS_REPL_NEIGHBORS","DS_REPL_NEIGHBORS structure [Active Directory]","DS_REPL_NEIGHBORSW","_DS_REPL_NEIGHBORSW","_glines_ds_repl_neighbors","ad.ds__repl__neighbors","ad.ds_repl_neighbors","ntdsapi/DS_REPL_NEIGHBORS"]
 old-location: ad\ds_repl_neighbors.htm
 tech.root: ad
 ms.assetid: 1307399b-de29-43ec-97b4-05cd70c1a92d

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GlobalAddAtomExA
 title: GlobalAddAtomExA function (winbase.h)
-description: Adds a character string to the global atom table and returns a unique value (an atom) identifying the string.helpviewer_keywords: ["GlobalAddAtomEx","GlobalAddAtomEx function [Data Exchange]","GlobalAddAtomExA","GlobalAddAtomExW","dataxchg.globaladdatomex","winbase/GlobalAddAtomEx","winbase/GlobalAddAtomExA","winbase/GlobalAddAtomExW"]
+description: Adds a character string to the global atom table and returns a unique value (an atom) identifying the string.
+helpviewer_keywords: ["GlobalAddAtomEx","GlobalAddAtomEx function [Data Exchange]","GlobalAddAtomExA","GlobalAddAtomExW","dataxchg.globaladdatomex","winbase/GlobalAddAtomEx","winbase/GlobalAddAtomExA","winbase/GlobalAddAtomExW"]
 old-location: dataxchg\globaladdatomex.htm
 tech.root: dataxchg
 ms.assetid: C5D982F5-94A9-4B08-AE07-8F40E4128123
@@ -89,4 +90,9 @@ If the function fails, the return value is zero. To get extended error informati
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winbase.h header defines GlobalAddAtomEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

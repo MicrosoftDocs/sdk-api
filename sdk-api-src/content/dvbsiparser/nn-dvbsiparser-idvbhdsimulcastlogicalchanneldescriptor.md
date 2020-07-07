@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IDvbHDSimulcastLogicalChannelDescriptor
 title: IDvbHDSimulcastLogicalChannelDescriptor (dvbsiparser.h)
-description: Implements the IDvbLogicalChannelDescriptor interface for Digital Video Broadcast (DVB) streams based on Motion Picture Experts Group Version 4 Advanced Video Coding (MPEG-4AVC) that support high-definition (HD) simulcasting.helpviewer_keywords: ["IDvbHDSimulcastLogicalChannelDescriptor","IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies]","IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbHDSimulcastLogicalChannelDescriptor","mstv.idvbhdsimulcastlogicalchanneldescriptor"]
+description: Implements the IDvbLogicalChannelDescriptor interface for Digital Video Broadcast (DVB) streams based on Motion Picture Experts Group Version 4 Advanced Video Coding (MPEG-4AVC) that support high-definition (HD) simulcasting.
+helpviewer_keywords: ["IDvbHDSimulcastLogicalChannelDescriptor","IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies]","IDvbHDSimulcastLogicalChannelDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbHDSimulcastLogicalChannelDescriptor","mstv.idvbhdsimulcastlogicalchanneldescriptor"]
 old-location: mstv\idvbhdsimulcastlogicalchanneldescriptor.htm
 tech.root: mstv
 ms.assetid: 39ba28a6-0798-4049-82f6-1969822f4933

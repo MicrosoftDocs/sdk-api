@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10effect._D3D10_PASS_SHADER_DESC
 title: D3D10_PASS_SHADER_DESC (d3d10effect.h)
-description: Describes an effect variable that contains a shader.helpviewer_keywords: ["D3D10_PASS_SHADER_DESC","D3D10_PASS_SHADER_DESC structure [Direct3D 10]","d3d10effect/D3D10_PASS_SHADER_DESC","d6701cbf-a851-873f-5e5e-7ef5dd77bdb1","direct3d10.d3d10_pass_shader_desc"]
+description: Describes an effect variable that contains a shader.
+helpviewer_keywords: ["D3D10_PASS_SHADER_DESC","D3D10_PASS_SHADER_DESC structure [Direct3D 10]","d3d10effect/D3D10_PASS_SHADER_DESC","d6701cbf-a851-873f-5e5e-7ef5dd77bdb1","direct3d10.d3d10_pass_shader_desc"]
 old-location: direct3d10\d3d10_pass_shader_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_pass_shader_desc.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:sspi.ApplyControlToken
 title: ApplyControlToken function (sspi.h)
-description: Provides a way to apply a control token to a security context.helpviewer_keywords: ["ApplyControlToken","ApplyControlToken function [Security]","_ssp_applycontroltoken","security.applycontroltoken","sspi/ApplyControlToken"]
+description: Provides a way to apply a control token to a security context.
+helpviewer_keywords: ["ApplyControlToken","ApplyControlToken function [Security]","_ssp_applycontroltoken","security.applycontroltoken","sspi/ApplyControlToken"]
 old-location: security\applycontroltoken.htm
 tech.root: SecAuthN
 ms.assetid: 5ce13a05-874c-4e1a-9be8-aed98609791e

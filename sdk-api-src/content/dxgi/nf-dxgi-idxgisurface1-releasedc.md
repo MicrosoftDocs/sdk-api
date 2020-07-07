@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGISurface1.ReleaseDC
 title: IDXGISurface1::ReleaseDC (dxgi.h)
-description: Releases the GDI device context (DC) that is associated with the current surface and allows you to use Direct3D to render.helpviewer_keywords: ["07f8f820-f0ad-bbd6-94a3-383d2e895e69","IDXGISurface1 interface [DXGI]","ReleaseDC method","IDXGISurface1.ReleaseDC","IDXGISurface1::ReleaseDC","ReleaseDC","ReleaseDC method [DXGI]","ReleaseDC method [DXGI]","IDXGISurface1 interface","direct3ddxgi.idxgisurface1_releasedc","dxgi/IDXGISurface1::ReleaseDC"]
+description: Releases the GDI device context (DC) that is associated with the current surface and allows you to use Direct3D to render.
+helpviewer_keywords: ["07f8f820-f0ad-bbd6-94a3-383d2e895e69","IDXGISurface1 interface [DXGI]","ReleaseDC method","IDXGISurface1.ReleaseDC","IDXGISurface1::ReleaseDC","ReleaseDC","ReleaseDC method [DXGI]","ReleaseDC method [DXGI]","IDXGISurface1 interface","direct3ddxgi.idxgisurface1_releasedc","dxgi/IDXGISurface1::ReleaseDC"]
 old-location: direct3ddxgi\idxgisurface1_releasedc.htm
 tech.root: direct3ddxgi
 ms.assetid: 2c3a0cf3-c970-4908-a960-ba261756bd5f

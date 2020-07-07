@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarFormat
 title: VarFormat function (oleauto.h)
-description: Formats a variant into string form by parsing a format string.helpviewer_keywords: ["VarFormat","VarFormat function [Automation]","_oa96_VarFormat","automat.varformat","oleauto/VarFormat"]
+description: Formats a variant into string form by parsing a format string.
+helpviewer_keywords: ["VarFormat","VarFormat function [Automation]","_oa96_VarFormat","automat.varformat","oleauto/VarFormat"]
 old-location: automat\varformat.htm
 tech.root: automat
 ms.assetid: 2e1b4fd1-a86b-4933-8934-5d725168a2cd

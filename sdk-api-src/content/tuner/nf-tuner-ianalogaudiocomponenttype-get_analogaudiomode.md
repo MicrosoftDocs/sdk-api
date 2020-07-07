@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IAnalogAudioComponentType.get_AnalogAudioMode
 title: IAnalogAudioComponentType::get_AnalogAudioMode (tuner.h)
-description: The get_AnalogAudioMode method retrieves the analog audio mode.helpviewer_keywords: ["IAnalogAudioComponentType interface [Microsoft TV Technologies]","get_AnalogAudioMode method","IAnalogAudioComponentType.get_AnalogAudioMode","IAnalogAudioComponentType::get_AnalogAudioMode","IAnalogAudioComponentTypeget_AnalogAudioMode","get_AnalogAudioMode","get_AnalogAudioMode method [Microsoft TV Technologies]","get_AnalogAudioMode method [Microsoft TV Technologies]","IAnalogAudioComponentType interface","mstv.ianalogaudiocomponenttype_get_analogaudiomode","tuner/IAnalogAudioComponentType::get_AnalogAudioMode"]
+description: The get_AnalogAudioMode method retrieves the analog audio mode.
+helpviewer_keywords: ["IAnalogAudioComponentType interface [Microsoft TV Technologies]","get_AnalogAudioMode method","IAnalogAudioComponentType.get_AnalogAudioMode","IAnalogAudioComponentType::get_AnalogAudioMode","IAnalogAudioComponentTypeget_AnalogAudioMode","get_AnalogAudioMode","get_AnalogAudioMode method [Microsoft TV Technologies]","get_AnalogAudioMode method [Microsoft TV Technologies]","IAnalogAudioComponentType interface","mstv.ianalogaudiocomponenttype_get_analogaudiomode","tuner/IAnalogAudioComponentType::get_AnalogAudioMode"]
 old-location: mstv\ianalogaudiocomponenttype_get_analogaudiomode.htm
 tech.root: mstv
 ms.assetid: 63c5f2a0-5524-4df0-bc0d-fcd7c6b36167

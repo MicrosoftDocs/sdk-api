@@ -1,7 +1,8 @@
 ---
 UID: NF:avrt.AvRtLeaveThreadOrderingGroup
 title: AvRtLeaveThreadOrderingGroup function (avrt.h)
-description: Enables client threads to leave a thread ordering group.helpviewer_keywords: ["AvRtLeaveThreadOrderingGroup","AvRtLeaveThreadOrderingGroup function","avrt/AvRtLeaveThreadOrderingGroup","base.avrtleavethreadorderinggroup"]
+description: Enables client threads to leave a thread ordering group.
+helpviewer_keywords: ["AvRtLeaveThreadOrderingGroup","AvRtLeaveThreadOrderingGroup function","avrt/AvRtLeaveThreadOrderingGroup","base.avrtleavethreadorderinggroup"]
 old-location: base\avrtleavethreadorderinggroup.htm
 tech.root: ProcThread
 ms.assetid: b618c312-0a43-4815-ad32-8820c658dc0b

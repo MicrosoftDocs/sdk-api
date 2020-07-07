@@ -1,7 +1,8 @@
 ---
 UID: NN:adhoc.IEnumDot11AdHocNetworks
 title: IEnumDot11AdHocNetworks (adhoc.h)
-description: Represents the collection of currently visible 802.11 ad hoc networks.helpviewer_keywords: ["IEnumDot11AdHocNetworks","IEnumDot11AdHocNetworks interface [NativeWIFI]","IEnumDot11AdHocNetworks interface [NativeWIFI]","described","adhoc/IEnumDot11AdHocNetworks","nwifi.ienumdot11adhocnetworks"]
+description: Represents the collection of currently visible 802.11 ad hoc networks.
+helpviewer_keywords: ["IEnumDot11AdHocNetworks","IEnumDot11AdHocNetworks interface [NativeWIFI]","IEnumDot11AdHocNetworks interface [NativeWIFI]","described","adhoc/IEnumDot11AdHocNetworks","nwifi.ienumdot11adhocnetworks"]
 old-location: nwifi\ienumdot11adhocnetworks.htm
 tech.root: NativeWiFi
 ms.assetid: 5818e921-86bc-4f96-9ecd-3cb9c9a1a488

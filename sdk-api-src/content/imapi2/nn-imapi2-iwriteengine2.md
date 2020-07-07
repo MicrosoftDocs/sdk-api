@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IWriteEngine2
 title: IWriteEngine2 (imapi2.h)
-description: Use this interface to write a data stream to a device.helpviewer_keywords: ["IWriteEngine2","IWriteEngine2 interface [IMAPI]","IWriteEngine2 interface [IMAPI]","described","imapi.iwriteengine2","imapi2/IWriteEngine2"]
+description: Use this interface to write a data stream to a device.
+helpviewer_keywords: ["IWriteEngine2","IWriteEngine2 interface [IMAPI]","IWriteEngine2 interface [IMAPI]","described","imapi.iwriteengine2","imapi2/IWriteEngine2"]
 old-location: imapi\iwriteengine2.htm
 tech.root: imapi
 ms.assetid: 89e7526f-2b9b-4f37-b537-5046a0ac283d

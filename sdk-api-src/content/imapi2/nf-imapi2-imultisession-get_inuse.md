@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IMultisession.get_InUse
 title: IMultisession::get_InUse (imapi2.h)
-description: Determines if this multi-session interface is the one you should use on the current media.helpviewer_keywords: ["IMultisession interface [IMAPI]","get_InUse method","IMultisession.get_InUse","IMultisession::get_InUse","get_InUse","get_InUse method [IMAPI]","get_InUse method [IMAPI]","IMultisession interface","imapi.imultisession_get_inuse","imapi2/IMultisession::get_InUse"]
+description: Determines if this multi-session interface is the one you should use on the current media.
+helpviewer_keywords: ["IMultisession interface [IMAPI]","get_InUse method","IMultisession.get_InUse","IMultisession::get_InUse","get_InUse","get_InUse method [IMAPI]","get_InUse method [IMAPI]","IMultisession interface","imapi.imultisession_get_inuse","imapi2/IMultisession::get_InUse"]
 old-location: imapi\imultisession_get_inuse.htm
 tech.root: imapi
 ms.assetid: 35ebf336-0d67-422c-b6f7-2fd6ee3e7226

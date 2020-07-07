@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.GetForeground
 title: ITfKeystrokeMgr::GetForeground (msctf.h)
-description: ITfKeystrokeMgr::GetForeground methodhelpviewer_keywords: ["GetForeground","GetForeground method [Text Services Framework]","GetForeground method [Text Services Framework]","ITfKeystrokeMgr interface","ITfKeystrokeMgr interface [Text Services Framework]","GetForeground method","ITfKeystrokeMgr.GetForeground","ITfKeystrokeMgr::GetForeground","_tsf_itfkeystrokemgr_getforeground_ref","msctf/ITfKeystrokeMgr::GetForeground","tsf.itfkeystrokemgr_getforeground"]
+description: ITfKeystrokeMgr::GetForeground method
+helpviewer_keywords: ["GetForeground","GetForeground method [Text Services Framework]","GetForeground method [Text Services Framework]","ITfKeystrokeMgr interface","ITfKeystrokeMgr interface [Text Services Framework]","GetForeground method","ITfKeystrokeMgr.GetForeground","ITfKeystrokeMgr::GetForeground","_tsf_itfkeystrokemgr_getforeground_ref","msctf/ITfKeystrokeMgr::GetForeground","tsf.itfkeystrokemgr_getforeground"]
 old-location: tsf\itfkeystrokemgr_getforeground.htm
 tech.root: TSF
 ms.assetid: c447c4cb-47e3-4bc7-8eba-6e102762c69b

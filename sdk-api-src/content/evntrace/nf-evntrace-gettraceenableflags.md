@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.GetTraceEnableFlags
 title: GetTraceEnableFlags function (evntrace.h)
-description: The GetTraceEnableFlags function retrieves the enable flags passed by the controller to indicate which category of events to trace.Providers can only call this function from their ControlCallback function.helpviewer_keywords: ["GetTraceEnableFlags","GetTraceEnableFlags function [ETW]","_evt_gettraceenableflags","base.gettraceenableflags","etw.gettraceenableflags","evntrace/GetTraceEnableFlags"]
+description: The GetTraceEnableFlags function retrieves the enable flags passed by the controller to indicate which category of events to trace.Providers can only call this function from their ControlCallback function.
+helpviewer_keywords: ["GetTraceEnableFlags","GetTraceEnableFlags function [ETW]","_evt_gettraceenableflags","base.gettraceenableflags","etw.gettraceenableflags","evntrace/GetTraceEnableFlags"]
 old-location: etw\gettraceenableflags.htm
 tech.root: ETW
 ms.assetid: e5c0f2bf-34da-4555-9556-4c79ee9a73ab

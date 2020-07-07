@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IsMouseInPointerEnabled
 title: IsMouseInPointerEnabled function (winuser.h)
-description: Indicates whether EnableMouseInPointer is set for the mouse to act as a pointer input device and send WM_POINTER messages.helpviewer_keywords: ["IsMouseInPointerEnabled","IsMouseInPointerEnabled function [Keyboard and Mouse Input]","inputdev.ismouseinpointerenabled","inputmsg.ismouseinpointerenabled","winuser/IsMouseInPointerEnabled"]
+description: Indicates whether EnableMouseInPointer is set for the mouse to act as a pointer input device and send WM_POINTER messages.
+helpviewer_keywords: ["IsMouseInPointerEnabled","IsMouseInPointerEnabled function [Keyboard and Mouse Input]","inputdev.ismouseinpointerenabled","inputmsg.ismouseinpointerenabled","winuser/IsMouseInPointerEnabled"]
 old-location: inputmsg\ismouseinpointerenabled.htm
 tech.root: InputMsg
 ms.assetid: 5D493066-2425-4610-8489-575BF25C8C16

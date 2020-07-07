@@ -1,7 +1,8 @@
 ---
 UID: NS:vds._VDS_MOUNT_POINT_NOTIFICATION
 title: VDS_MOUNT_POINT_NOTIFICATION (vds.h)
-description: Represents notification information that was returned by the basic or dynamic software provider because a drive letter or volume GUID path changed.helpviewer_keywords: ["VDS_MOUNT_POINT_NOTIFICATION","VDS_MOUNT_POINT_NOTIFICATION structure [VDS]","VDS_NF_MOUNT_POINTS_CHANGE","base.vds_mount_point_notification","vds/_VDS_MOUNT_POINT_NOTIFICATION","vdshwprv/_VDS_MOUNT_POINT_NOTIFICATION"]
+description: Represents notification information that was returned by the basic or dynamic software provider because a drive letter or volume GUID path changed.
+helpviewer_keywords: ["VDS_MOUNT_POINT_NOTIFICATION","VDS_MOUNT_POINT_NOTIFICATION structure [VDS]","VDS_NF_MOUNT_POINTS_CHANGE","base.vds_mount_point_notification","vds/_VDS_MOUNT_POINT_NOTIFICATION","vdshwprv/_VDS_MOUNT_POINT_NOTIFICATION"]
 old-location: base\vds_mount_point_notification.htm
 tech.root: VDS
 ms.assetid: 6e49437e-8fc7-4fc5-a227-b326a1ea9967

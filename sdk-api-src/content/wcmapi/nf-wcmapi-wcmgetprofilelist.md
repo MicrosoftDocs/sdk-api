@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmapi.WcmGetProfileList
 title: WcmGetProfileList function (wcmapi.h)
-description: Retrieves a list of profiles in preferred order.helpviewer_keywords: ["WcmGetProfileList","WcmGetProfileList function [Windows Connection Manager]","wcm.wcmgetprofilelist","wcmapi/WcmGetProfileList"]
+description: Retrieves a list of profiles in preferred order.
+helpviewer_keywords: ["WcmGetProfileList","WcmGetProfileList function [Windows Connection Manager]","wcm.wcmgetprofilelist","wcmapi/WcmGetProfileList"]
 old-location: wcm\wcmgetprofilelist.htm
 tech.root: wcm
 ms.assetid: ceef4e74-3c67-4267-a82a-9912c039f41c

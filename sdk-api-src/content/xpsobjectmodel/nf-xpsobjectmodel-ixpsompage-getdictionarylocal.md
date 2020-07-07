@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetDictionaryLocal
 title: IXpsOMPage::GetDictionaryLocal (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMDictionary interface of the local, unshared dictionary that is associated with this page.helpviewer_keywords: ["GetDictionaryLocal","GetDictionaryLocal method [XPS Documents and Packaging]","GetDictionaryLocal method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetDictionaryLocal method","IXpsOMPage.GetDictionaryLocal","IXpsOMPage::GetDictionaryLocal","xps.ixpsompage_getdictionarylocal","xpsobjectmodel/IXpsOMPage::GetDictionaryLocal"]
+description: Gets a pointer to the IXpsOMDictionary interface of the local, unshared dictionary that is associated with this page.
+helpviewer_keywords: ["GetDictionaryLocal","GetDictionaryLocal method [XPS Documents and Packaging]","GetDictionaryLocal method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetDictionaryLocal method","IXpsOMPage.GetDictionaryLocal","IXpsOMPage::GetDictionaryLocal","xps.ixpsompage_getdictionarylocal","xpsobjectmodel/IXpsOMPage::GetDictionaryLocal"]
 old-location: xps\ixpsompage_getdictionarylocal.htm
 tech.root: printdocs
 ms.assetid: 1eece7d5-2f2d-4fae-a2f4-8e52236f57c4

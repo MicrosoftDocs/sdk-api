@@ -1,7 +1,8 @@
 ---
 UID: NE:gdiplusenums.ImageType
 title: ImageType (gdiplusenums.h)
-description: The ImageType enumeration indicates whether an image is a bitmap or a metafile. The Image::GetType method returns an element of this enumeration.helpviewer_keywords: ["ImageType","ImageType enumeration [GDI+]","ImageTypeBitmap","ImageTypeMetafile","ImageTypeUnknown","_gdiplus_ENUM_ImageType","gdiplus._gdiplus_ENUM_ImageType","gdiplusenums/ImageType","gdiplusenums/ImageTypeBitmap","gdiplusenums/ImageTypeMetafile","gdiplusenums/ImageTypeUnknown"]
+description: The ImageType enumeration indicates whether an image is a bitmap or a metafile. The Image::GetType method returns an element of this enumeration.
+helpviewer_keywords: ["ImageType","ImageType enumeration [GDI+]","ImageTypeBitmap","ImageTypeMetafile","ImageTypeUnknown","_gdiplus_ENUM_ImageType","gdiplus._gdiplus_ENUM_ImageType","gdiplusenums/ImageType","gdiplusenums/ImageTypeBitmap","gdiplusenums/ImageTypeMetafile","gdiplusenums/ImageTypeUnknown"]
 old-location: gdiplus\_gdiplus_ENUM_ImageType.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\imagetype.htm

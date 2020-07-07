@@ -65,15 +65,7 @@ The starting address of the memory range.
 
 ### -field DataSize
 
- 
-
-
-
-
-#### - Memory
-
-A 
-<a href="/windows/win32/api/minidumpapiset/ns-minidumpapiset-minidump_location_descriptor">MINIDUMP_LOCATION_DESCRIPTOR</a> structure.
+The size of the memory range.
 
 
 ## -remarks

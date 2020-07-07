@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_IPV4Filter.PutMulticastList
 title: IBDA_IPV4Filter::PutMulticastList (bdaiface.h)
-description: The PutMulticastList method sets the list of multicast addresses on the Network Provider.helpviewer_keywords: ["IBDA_IPV4Filter interface [Microsoft TV Technologies]","PutMulticastList method","IBDA_IPV4Filter.PutMulticastList","IBDA_IPV4Filter::PutMulticastList","IBDA_IPV4FilterPutMulticastList","PutMulticastList","PutMulticastList method [Microsoft TV Technologies]","PutMulticastList method [Microsoft TV Technologies]","IBDA_IPV4Filter interface","bdaiface/IBDA_IPV4Filter::PutMulticastList","mstv.ibda_ipv4filter_putmulticastlist"]
+description: The PutMulticastList method sets the list of multicast addresses on the Network Provider.
+helpviewer_keywords: ["IBDA_IPV4Filter interface [Microsoft TV Technologies]","PutMulticastList method","IBDA_IPV4Filter.PutMulticastList","IBDA_IPV4Filter::PutMulticastList","IBDA_IPV4FilterPutMulticastList","PutMulticastList","PutMulticastList method [Microsoft TV Technologies]","PutMulticastList method [Microsoft TV Technologies]","IBDA_IPV4Filter interface","bdaiface/IBDA_IPV4Filter::PutMulticastList","mstv.ibda_ipv4filter_putmulticastlist"]
 old-location: mstv\ibda_ipv4filter_putmulticastlist.htm
 tech.root: mstv
 ms.assetid: 06b93c7d-662e-408b-94e3-137287160898

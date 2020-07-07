@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IDockingWindowSite.GetBorderDW
 title: IDockingWindowSite::GetBorderDW (shlobj_core.h)
-description: Gets the border space allocated for the specified IDockingWindow object.helpviewer_keywords: ["GetBorderDW","GetBorderDW method [Windows Shell]","GetBorderDW method [Windows Shell]","IDockingWindowSite interface","IDockingWindowSite interface [Windows Shell]","GetBorderDW method","IDockingWindowSite.GetBorderDW","IDockingWindowSite::GetBorderDW","_win32_IDockingWindowSite_GetBorderDW","shell.IDockingWindowSite_GetBorderDW","shlobj_core/IDockingWindowSite::GetBorderDW"]
+description: Gets the border space allocated for the specified IDockingWindow object.
+helpviewer_keywords: ["GetBorderDW","GetBorderDW method [Windows Shell]","GetBorderDW method [Windows Shell]","IDockingWindowSite interface","IDockingWindowSite interface [Windows Shell]","GetBorderDW method","IDockingWindowSite.GetBorderDW","IDockingWindowSite::GetBorderDW","_win32_IDockingWindowSite_GetBorderDW","shell.IDockingWindowSite_GetBorderDW","shlobj_core/IDockingWindowSite::GetBorderDW"]
 old-location: shell\IDockingWindowSite_GetBorderDW.htm
 tech.root: shell
 ms.assetid: b1c30a49-8d87-4855-acc0-5f33eabe5e8a

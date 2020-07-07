@@ -1,7 +1,8 @@
 ---
 UID: NF:msctfmonitorapi.UninitLocalMsCtfMonitor
 title: UninitLocalMsCtfMonitor function (msctfmonitorapi.h)
-description: The UninitLocalMsCtfMonitor function uninitializes TextServicesFramework on the current desktop.helpviewer_keywords: ["UninitLocalMsCtfMonitor","UninitLocalMsCtfMonitor function [Text Services Framework]","msctfmonitorapi/UninitLocalMsCtfMonitor","tsf.UninitLocalMsCtfMonitor"]
+description: The UninitLocalMsCtfMonitor function uninitializes TextServicesFramework on the current desktop.
+helpviewer_keywords: ["UninitLocalMsCtfMonitor","UninitLocalMsCtfMonitor function [Text Services Framework]","msctfmonitorapi/UninitLocalMsCtfMonitor","tsf.UninitLocalMsCtfMonitor"]
 old-location: tsf\UninitLocalMsCtfMonitor.htm
 tech.root: TSF
 ms.assetid: 73c8b170-da76-4710-b307-61c42954997a

@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsDNWithString
 title: IADsDNWithString (iads.h)
-description: The IADsDNWithString interface provides methods for an ADSI client to associate a distinguished name (DN) to a string value.helpviewer_keywords: ["DNWithString","IADsDNWithString","IADsDNWithString interface [ADSI]","IADsDNWithString interface [ADSI]","described","_ds_iadsdnwithstring","adsi.iadsdnwithstring","iads/IADsDNWithString"]
+description: The IADsDNWithString interface provides methods for an ADSI client to associate a distinguished name (DN) to a string value.
+helpviewer_keywords: ["DNWithString","IADsDNWithString","IADsDNWithString interface [ADSI]","IADsDNWithString interface [ADSI]","described","_ds_iadsdnwithstring","adsi.iadsdnwithstring","iads/IADsDNWithString"]
 old-location: adsi\iadsdnwithstring.htm
 tech.root: adsi
 ms.assetid: 112985e7-6e96-42fb-a4cb-916296d4a524

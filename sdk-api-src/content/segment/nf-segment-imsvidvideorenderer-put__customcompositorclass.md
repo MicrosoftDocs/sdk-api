@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put__CustomCompositorClass
 title: IMSVidVideoRenderer::put__CustomCompositorClass (segment.h)
-description: The put__CustomCompositorClass method specifies the class identifier (CLSID) of a custom image compositor, as a GUID.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","put__CustomCompositorClass method","IMSVidVideoRenderer.put__CustomCompositorClass","IMSVidVideoRenderer::put__CustomCompositorClass","IMSVidVideoRendererput__CustomCompositorClass","mstv.imsvidvideorenderer_put__customcompositorclass","put__CustomCompositorClass","put__CustomCompositorClass method [Microsoft TV Technologies]","put__CustomCompositorClass method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","segment/IMSVidVideoRenderer::put__CustomCompositorClass"]
+description: The put__CustomCompositorClass method specifies the class identifier (CLSID) of a custom image compositor, as a GUID.
+helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","put__CustomCompositorClass method","IMSVidVideoRenderer.put__CustomCompositorClass","IMSVidVideoRenderer::put__CustomCompositorClass","IMSVidVideoRendererput__CustomCompositorClass","mstv.imsvidvideorenderer_put__customcompositorclass","put__CustomCompositorClass","put__CustomCompositorClass method [Microsoft TV Technologies]","put__CustomCompositorClass method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","segment/IMSVidVideoRenderer::put__CustomCompositorClass"]
 old-location: mstv\imsvidvideorenderer_put__customcompositorclass.htm
 tech.root: mstv
 ms.assetid: 031af4a5-6eed-44c9-9b0c-f472d709db66

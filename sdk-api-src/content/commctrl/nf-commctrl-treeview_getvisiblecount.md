@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_GetVisibleCount
 title: TreeView_GetVisibleCount macro (commctrl.h)
-description: Obtains the number of items that can be fully visible in the client window of a tree-view control. You can use this macro or send the TVM_GETVISIBLECOUNT message explicitly.helpviewer_keywords: ["TreeView_GetVisibleCount","TreeView_GetVisibleCount macro [Windows Controls]","_win32_TreeView_GetVisibleCount","_win32_TreeView_GetVisibleCount_cpp","commctrl/TreeView_GetVisibleCount","controls.TreeView_GetVisibleCount","controls._win32_TreeView_GetVisibleCount"]
+description: Obtains the number of items that can be fully visible in the client window of a tree-view control. You can use this macro or send the TVM_GETVISIBLECOUNT message explicitly.
+helpviewer_keywords: ["TreeView_GetVisibleCount","TreeView_GetVisibleCount macro [Windows Controls]","_win32_TreeView_GetVisibleCount","_win32_TreeView_GetVisibleCount_cpp","commctrl/TreeView_GetVisibleCount","controls.TreeView_GetVisibleCount","controls._win32_TreeView_GetVisibleCount"]
 old-location: controls\TreeView_GetVisibleCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getvisiblecount.htm

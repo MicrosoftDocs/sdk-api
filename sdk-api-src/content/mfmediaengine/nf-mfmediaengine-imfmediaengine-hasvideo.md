@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.HasVideo
 title: IMFMediaEngine::HasVideo (mfmediaengine.h)
-description: Queries whether the current media resource contains a video stream.helpviewer_keywords: ["HasVideo","HasVideo method [Media Foundation]","HasVideo method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","HasVideo method","IMFMediaEngine.HasVideo","IMFMediaEngine::HasVideo","mf.imfmediaengine_hasvideo","mfmediaengine/IMFMediaEngine::HasVideo"]
+description: Queries whether the current media resource contains a video stream.
+helpviewer_keywords: ["HasVideo","HasVideo method [Media Foundation]","HasVideo method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","HasVideo method","IMFMediaEngine.HasVideo","IMFMediaEngine::HasVideo","mf.imfmediaengine_hasvideo","mfmediaengine/IMFMediaEngine::HasVideo"]
 old-location: mf\imfmediaengine_hasvideo.htm
 tech.root: medfound
 ms.assetid: 30B7F4DC-B3EB-421B-998B-E098F04D4B33

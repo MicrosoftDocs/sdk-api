@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.GetBandwidthSharingCount
 title: IWMProfile3::GetBandwidthSharingCount (wmsdkidl.h)
-description: The GetBandwidthSharingCount method retrieves the total number of bandwidth sharing objects that have been added to the profile.helpviewer_keywords: ["GetBandwidthSharingCount","GetBandwidthSharingCount method [windows Media Format]","GetBandwidthSharingCount method [windows Media Format]","IWMProfile3 interface","IWMProfile3 interface [windows Media Format]","GetBandwidthSharingCount method","IWMProfile3.GetBandwidthSharingCount","IWMProfile3::GetBandwidthSharingCount","IWMProfile3GetBandwidthSharingCount","wmformat.iwmprofile3_getbandwidthsharingcount","wmsdkidl/IWMProfile3::GetBandwidthSharingCount"]
+description: The GetBandwidthSharingCount method retrieves the total number of bandwidth sharing objects that have been added to the profile.
+helpviewer_keywords: ["GetBandwidthSharingCount","GetBandwidthSharingCount method [windows Media Format]","GetBandwidthSharingCount method [windows Media Format]","IWMProfile3 interface","IWMProfile3 interface [windows Media Format]","GetBandwidthSharingCount method","IWMProfile3.GetBandwidthSharingCount","IWMProfile3::GetBandwidthSharingCount","IWMProfile3GetBandwidthSharingCount","wmformat.iwmprofile3_getbandwidthsharingcount","wmsdkidl/IWMProfile3::GetBandwidthSharingCount"]
 old-location: wmformat\iwmprofile3_getbandwidthsharingcount.htm
 tech.root: wmformat
 ms.assetid: 7f5a11a7-d81a-4ca1-8b0f-1d561f736523

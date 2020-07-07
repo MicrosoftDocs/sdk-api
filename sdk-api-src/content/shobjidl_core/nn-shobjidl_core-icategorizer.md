@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.ICategorizer
 title: ICategorizer (shobjidl_core.h)
-description: Exposes methods that are used to obtain information about item identifier lists.helpviewer_keywords: ["ICategorizer","ICategorizer interface [Windows Shell]","ICategorizer interface [Windows Shell]","described","inet_ICategorizer","shell.ICategorizer","shobjidl_core/ICategorizer"]
+description: Exposes methods that are used to obtain information about item identifier lists.
+helpviewer_keywords: ["ICategorizer","ICategorizer interface [Windows Shell]","ICategorizer interface [Windows Shell]","described","inet_ICategorizer","shell.ICategorizer","shobjidl_core/ICategorizer"]
 old-location: shell\ICategorizer.htm
 tech.root: shell
 ms.assetid: 59c80328-0f82-4289-b55d-045f0cd3dc81

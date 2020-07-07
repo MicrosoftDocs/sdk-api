@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont2.SetAutoLigatures
 title: ITextFont2::SetAutoLigatures (tom.h)
-description: Sets whether support for automatic ligatures is active.helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetAutoLigatures method","ITextFont2.SetAutoLigatures","ITextFont2::SetAutoLigatures","SetAutoLigatures","SetAutoLigatures method [Windows Controls]","SetAutoLigatures method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setautoligatures","tom/ITextFont2::SetAutoLigatures"]
+description: Sets whether support for automatic ligatures is active.
+helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetAutoLigatures method","ITextFont2.SetAutoLigatures","ITextFont2::SetAutoLigatures","SetAutoLigatures","SetAutoLigatures method [Windows Controls]","SetAutoLigatures method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setautoligatures","tom/ITextFont2::SetAutoLigatures"]
 old-location: controls\itextfont2_setautoligatures.htm
 tech.root: Controls
 ms.assetid: f40fecfe-3c3b-46f0-9edf-ba48236e50e7

@@ -1,7 +1,8 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo.GetLanguageException
 title: ILanguageExceptionErrorInfo::GetLanguageException (restrictederrorinfo.h)
-description: Gets the stored IUnknown object from the error object.helpviewer_keywords: ["GetLanguageException","GetLanguageException method [Windows Runtime]","GetLanguageException method [Windows Runtime]","ILanguageExceptionErrorInfo interface","ILanguageExceptionErrorInfo interface [Windows Runtime]","GetLanguageException method","ILanguageExceptionErrorInfo.GetLanguageException","ILanguageExceptionErrorInfo::GetLanguageException","restrictederrorinfo/ILanguageExceptionErrorInfo::GetLanguageException","winrt.ilanguageexceptionerrorinfo_getlanguageexception"]
+description: Gets the stored IUnknown object from the error object.
+helpviewer_keywords: ["GetLanguageException","GetLanguageException method [Windows Runtime]","GetLanguageException method [Windows Runtime]","ILanguageExceptionErrorInfo interface","ILanguageExceptionErrorInfo interface [Windows Runtime]","GetLanguageException method","ILanguageExceptionErrorInfo.GetLanguageException","ILanguageExceptionErrorInfo::GetLanguageException","restrictederrorinfo/ILanguageExceptionErrorInfo::GetLanguageException","winrt.ilanguageexceptionerrorinfo_getlanguageexception"]
 old-location: winrt\ilanguageexceptionerrorinfo_getlanguageexception.htm
 tech.root: WinRT
 ms.assetid: 94B34741-88AA-4AD4-B1F4-30A7AE5AFCC8

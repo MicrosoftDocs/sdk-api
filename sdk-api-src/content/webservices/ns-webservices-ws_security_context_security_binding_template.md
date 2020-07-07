@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE
 title: WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE (webservices.h)
-description: The security binding template for specifying the use of an application supplied security context security binding.helpviewer_keywords: ["WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE","WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows]","webservices/WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE","wsw.ws_security_context_security_binding_template"]
+description: The security binding template for specifying the use of an application supplied security context security binding.
+helpviewer_keywords: ["WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE","WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE structure [Web Services for Windows]","webservices/WS_SECURITY_CONTEXT_SECURITY_BINDING_TEMPLATE","wsw.ws_security_context_security_binding_template"]
 old-location: wsw\ws_security_context_security_binding_template.htm
 tech.root: wsw
 ms.assetid: 09b6be85-ec60-4ba9-857f-fffc1f5fb368

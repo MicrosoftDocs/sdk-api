@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchManager.get_BypassList
 title: ISearchManager::get_BypassList (searchapi.h)
-description: Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling ISearchManager::SetProxy.helpviewer_keywords: ["ISearchManager interface [search]","get_BypassList method","ISearchManager.get_BypassList","ISearchManager::get_BypassList","_search_ISearchManager_get_BypassList","get_BypassList","get_BypassList method [search]","get_BypassList method [search]","ISearchManager interface","search._search_ISearchManager_get_BypassList","searchapi/ISearchManager::get_BypassList"]
+description: Gets a proxy bypass list from the indexer. This list is used to determine which items or URLs are local and do not need to go through the proxy server. This list is set by calling ISearchManager::SetProxy.
+helpviewer_keywords: ["ISearchManager interface [search]","get_BypassList method","ISearchManager.get_BypassList","ISearchManager::get_BypassList","_search_ISearchManager_get_BypassList","get_BypassList","get_BypassList method [search]","get_BypassList method [search]","ISearchManager interface","search._search_ISearchManager_get_BypassList","searchapi/ISearchManager::get_BypassList"]
 old-location: search\_search_ISearchManager_get_BypassList.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_bypasslist.htm
@@ -79,9 +80,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-The ReindexMatchingUrls code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

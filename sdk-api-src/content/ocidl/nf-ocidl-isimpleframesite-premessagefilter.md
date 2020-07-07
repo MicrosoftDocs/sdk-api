@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.ISimpleFrameSite.PreMessageFilter
 title: ISimpleFrameSite::PreMessageFilter (ocidl.h)
-description: Provides a site with the opportunity to process a message that is received by a control's own window before the control itself does any processing.helpviewer_keywords: ["ISimpleFrameSite interface [COM]","PreMessageFilter method","ISimpleFrameSite.PreMessageFilter","ISimpleFrameSite::PreMessageFilter","PreMessageFilter","PreMessageFilter method [COM]","PreMessageFilter method [COM]","ISimpleFrameSite interface","_ctrl_isimpleframesite_premessagefilter","com.isimpleframesite_premessagefilter","ocidl/ISimpleFrameSite::PreMessageFilter"]
+description: Provides a site with the opportunity to process a message that is received by a control's own window before the control itself does any processing.
+helpviewer_keywords: ["ISimpleFrameSite interface [COM]","PreMessageFilter method","ISimpleFrameSite.PreMessageFilter","ISimpleFrameSite::PreMessageFilter","PreMessageFilter","PreMessageFilter method [COM]","PreMessageFilter method [COM]","ISimpleFrameSite interface","_ctrl_isimpleframesite_premessagefilter","com.isimpleframesite_premessagefilter","ocidl/ISimpleFrameSite::PreMessageFilter"]
 old-location: com\isimpleframesite_premessagefilter.htm
 tech.root: com
 ms.assetid: f308ea77-12e7-450b-8b0f-252f1d240388

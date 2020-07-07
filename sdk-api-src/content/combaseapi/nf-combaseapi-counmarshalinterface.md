@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoUnmarshalInterface
 title: CoUnmarshalInterface function (combaseapi.h)
-description: Initializes a newly created proxy using data written into the stream by a previous call to the CoMarshalInterface function, and returns an interface pointer to that proxy.helpviewer_keywords: ["CoUnmarshalInterface","CoUnmarshalInterface function [COM]","_com_CoUnmarshalInterface","com.counmarshalinterface","combaseapi/CoUnmarshalInterface"]
+description: Initializes a newly created proxy using data written into the stream by a previous call to the CoMarshalInterface function, and returns an interface pointer to that proxy.
+helpviewer_keywords: ["CoUnmarshalInterface","CoUnmarshalInterface function [COM]","_com_CoUnmarshalInterface","com.counmarshalinterface","combaseapi/CoUnmarshalInterface"]
 old-location: com\counmarshalinterface.htm
 tech.root: com
 ms.assetid: d0eac0da-2f41-40c4-b756-31bc22752c17

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Treble
 title: IAMAudioInputMixer::get_Treble (strmif.h)
-description: The get_Treble method retrieves the treble equalization.helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Treble method","IAMAudioInputMixer.get_Treble","IAMAudioInputMixer::get_Treble","IAMAudioInputMixerget_Treble","dshow.iamaudioinputmixer_get_treble","get_Treble","get_Treble method [DirectShow]","get_Treble method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_Treble"]
+description: The get_Treble method retrieves the treble equalization.
+helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Treble method","IAMAudioInputMixer.get_Treble","IAMAudioInputMixer::get_Treble","IAMAudioInputMixerget_Treble","dshow.iamaudioinputmixer_get_treble","get_Treble","get_Treble method [DirectShow]","get_Treble method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_Treble"]
 old-location: dshow\iamaudioinputmixer_get_treble.htm
 tech.root: DirectShow
 ms.assetid: 6876e121-cb04-49f9-aee4-27759f93529b

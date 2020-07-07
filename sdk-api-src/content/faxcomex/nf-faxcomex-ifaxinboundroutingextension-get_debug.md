@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingExtension.get_Debug
 title: IFaxInboundRoutingExtension::get_Debug (faxcomex.h)
-description: The IFaxInboundRoutingExtension::get_Debug property is a Boolean value that indicates whether the fax routing extension DLL was created in a debug environment.helpviewer_keywords: ["Debug property [Fax Service]","Debug property [Fax Service]","IFaxInboundRoutingExtension interface","IFaxInboundRoutingExtension interface [Fax Service]","Debug property","IFaxInboundRoutingExtension.Debug","IFaxInboundRoutingExtension.get_Debug","IFaxInboundRoutingExtension::Debug","IFaxInboundRoutingExtension::get_Debug","_mfax_faxinboundroutingextension.debug","fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_debug_cpp","fax._mfax_faxinboundroutingextension_debug","faxcomex/IFaxInboundRoutingExtension::Debug","faxcomex/IFaxInboundRoutingExtension::get_Debug","get_Debug"]
+description: The IFaxInboundRoutingExtension::get_Debug property is a Boolean value that indicates whether the fax routing extension DLL was created in a debug environment.
+helpviewer_keywords: ["Debug property [Fax Service]","Debug property [Fax Service]","IFaxInboundRoutingExtension interface","IFaxInboundRoutingExtension interface [Fax Service]","Debug property","IFaxInboundRoutingExtension.Debug","IFaxInboundRoutingExtension.get_Debug","IFaxInboundRoutingExtension::Debug","IFaxInboundRoutingExtension::get_Debug","_mfax_faxinboundroutingextension.debug","fax._mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_debug_cpp","fax._mfax_faxinboundroutingextension_debug","faxcomex/IFaxInboundRoutingExtension::Debug","faxcomex/IFaxInboundRoutingExtension::get_Debug","get_Debug"]
 old-location: fax\_mfax_faxinboundroutingextension_cpp_mfax_faxinboundroutingextension_debug_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6qav.htm

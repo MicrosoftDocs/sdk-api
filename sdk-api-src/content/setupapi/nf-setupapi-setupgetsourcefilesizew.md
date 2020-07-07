@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetSourceFileSizeW
 title: SetupGetSourceFileSizeW function (setupapi.h)
-description: The SetupGetSourceFileSize function reads the uncompressed size of a source file listed in an INF file.helpviewer_keywords: ["SetupGetSourceFileSize","SetupGetSourceFileSize function [Setup API]","SetupGetSourceFileSizeA","SetupGetSourceFileSizeW","_setupapi_setupgetsourcefilesize","setup.setupgetsourcefilesize","setupapi/SetupGetSourceFileSize","setupapi/SetupGetSourceFileSizeA","setupapi/SetupGetSourceFileSizeW"]
+description: The SetupGetSourceFileSize function reads the uncompressed size of a source file listed in an INF file.
+helpviewer_keywords: ["SetupGetSourceFileSize","SetupGetSourceFileSize function [Setup API]","SetupGetSourceFileSizeA","SetupGetSourceFileSizeW","_setupapi_setupgetsourcefilesize","setup.setupgetsourcefilesize","setupapi/SetupGetSourceFileSize","setupapi/SetupGetSourceFileSizeA","setupapi/SetupGetSourceFileSizeW"]
 old-location: setup\setupgetsourcefilesize.htm
 tech.root: SetupApi
 ms.assetid: f1db8ad5-b133-410e-9843-38b09e2ef5e7
@@ -112,6 +113,10 @@ One and only one of the optional parameters, <i>InfContext</i>, <i>FileName</i>,
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupGetSourceFileSize as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

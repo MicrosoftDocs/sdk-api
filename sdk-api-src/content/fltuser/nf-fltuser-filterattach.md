@@ -1,7 +1,8 @@
 ---
 UID: NF:fltuser.FilterAttach
 title: FilterAttach function (fltuser.h)
-description: The FilterAttach function attaches a new minifilter instance to the given volume.helpviewer_keywords: ["FilterAttach","FilterAttach function [Installable File System Drivers]","FltWin32ApiRef_023a1285-b933-438f-b493-33e6c7d74e56.xml","fltuser/FilterAttach","ifsk.filterattach"]
+description: The FilterAttach function attaches a new minifilter instance to the given volume.
+helpviewer_keywords: ["FilterAttach","FilterAttach function [Installable File System Drivers]","FltWin32ApiRef_023a1285-b933-438f-b493-33e6c7d74e56.xml","fltuser/FilterAttach","ifsk.filterattach"]
 old-location: ifsk\filterattach.htm
 tech.root: ifsk
 ms.assetid: 8f52fdd5-dfea-42c1-85ed-7431015eece8

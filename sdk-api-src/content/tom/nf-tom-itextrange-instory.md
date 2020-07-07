@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.InStory
 title: ITextRange::InStory (tom.h)
-description: Determines whether this range's story is the same as a specified range's story.helpviewer_keywords: ["ITextRange interface [Windows Controls]","InStory method","ITextRange.InStory","ITextRange::InStory","InStory","InStory method [Windows Controls]","InStory method [Windows Controls]","ITextRange interface","_win32_ITextRange_InStory","_win32_ITextRange_InStory_cpp","controls.ITextRange_InStory","controls._win32_ITextRange_InStory","tom/ITextRange::InStory"]
+description: Determines whether this range's story is the same as a specified range's story.
+helpviewer_keywords: ["ITextRange interface [Windows Controls]","InStory method","ITextRange.InStory","ITextRange::InStory","InStory","InStory method [Windows Controls]","InStory method [Windows Controls]","ITextRange interface","_win32_ITextRange_InStory","_win32_ITextRange_InStory_cpp","controls.ITextRange_InStory","controls._win32_ITextRange_InStory","tom/ITextRange::InStory"]
 old-location: controls\ITextRange_InStory.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\instory.htm

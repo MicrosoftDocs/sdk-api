@@ -1,7 +1,8 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.OpenRemoteMachineGPO
 title: IGroupPolicyObject::OpenRemoteMachineGPO (gpedit.h)
-description: The OpenRemoteMachineGPO method opens the default GPO for the specified remote computer and optionally loads the registry information.helpviewer_keywords: ["GPO_OPEN_LOAD_REGISTRY","GPO_OPEN_READ_ONLY","IGroupPolicyObject interface [Group Policy]","OpenRemoteMachineGPO method","IGroupPolicyObject.OpenRemoteMachineGPO","IGroupPolicyObject::OpenRemoteMachineGPO","OpenRemoteMachineGPO","OpenRemoteMachineGPO method [Group Policy]","OpenRemoteMachineGPO method [Group Policy]","IGroupPolicyObject interface","_win32_igrouppolicyobject_openremotemachinegpo","gpedit/IGroupPolicyObject::OpenRemoteMachineGPO","policy.igrouppolicyobject_openremotemachinegpo"]
+description: The OpenRemoteMachineGPO method opens the default GPO for the specified remote computer and optionally loads the registry information.
+helpviewer_keywords: ["GPO_OPEN_LOAD_REGISTRY","GPO_OPEN_READ_ONLY","IGroupPolicyObject interface [Group Policy]","OpenRemoteMachineGPO method","IGroupPolicyObject.OpenRemoteMachineGPO","IGroupPolicyObject::OpenRemoteMachineGPO","OpenRemoteMachineGPO","OpenRemoteMachineGPO method [Group Policy]","OpenRemoteMachineGPO method [Group Policy]","IGroupPolicyObject interface","_win32_igrouppolicyobject_openremotemachinegpo","gpedit/IGroupPolicyObject::OpenRemoteMachineGPO","policy.igrouppolicyobject_openremotemachinegpo"]
 old-location: policy\igrouppolicyobject_openremotemachinegpo.htm
 tech.root: Policy
 ms.assetid: ac124b48-7eb6-473b-a96b-de9b1a903f28

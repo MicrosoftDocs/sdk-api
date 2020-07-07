@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Deserializer_Class_GetClassName
 title: MI_Deserializer_Class_GetClassName function (mi.h)
-description: Gets the class name from a serialized class buffer.helpviewer_keywords: ["MI_Deserializer_Class_GetClassName","MI_Deserializer_Class_GetClassName function [Windows Management Infrastructure (MI)]","mi/MI_Deserializer_Class_GetClassName","wmi_v2.mi_deserializer_class_getclassname"]
+description: Gets the class name from a serialized class buffer.
+helpviewer_keywords: ["MI_Deserializer_Class_GetClassName","MI_Deserializer_Class_GetClassName function [Windows Management Infrastructure (MI)]","mi/MI_Deserializer_Class_GetClassName","wmi_v2.mi_deserializer_class_getclassname"]
 old-location: wmi_v2\mi_deserializer_class_getclassname.htm
 tech.root: wmi_v2
 ms.assetid: a4dc8992-ccdf-4883-a37d-83cb6d8da53a

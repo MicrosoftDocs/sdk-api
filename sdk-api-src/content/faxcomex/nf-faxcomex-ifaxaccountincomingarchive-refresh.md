@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxAccountIncomingArchive.Refresh
 title: IFaxAccountIncomingArchive::Refresh (faxcomex.h)
-description: Refreshes FaxAccountIncomingArchive object information for a particular fax account from the fax server.helpviewer_keywords: ["IFaxAccountIncomingArchive interface [Fax Service]","Refresh method","IFaxAccountIncomingArchive.Refresh","IFaxAccountIncomingArchive::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxAccountIncomingArchive interface","_mfax_faxaccountincomingarchive.refresh","fax._mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_refresh_cpp","fax._mfax_faxaccountincomingarchive_refresh","faxcomex/IFaxAccountIncomingArchive::Refresh"]
+description: Refreshes FaxAccountIncomingArchive object information for a particular fax account from the fax server.
+helpviewer_keywords: ["IFaxAccountIncomingArchive interface [Fax Service]","Refresh method","IFaxAccountIncomingArchive.Refresh","IFaxAccountIncomingArchive::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxAccountIncomingArchive interface","_mfax_faxaccountincomingarchive.refresh","fax._mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_refresh_cpp","fax._mfax_faxaccountincomingarchive_refresh","faxcomex/IFaxAccountIncomingArchive::Refresh"]
 old-location: fax\_mfax_faxaccountincomingarchive_cpp_mfax_faxaccountincomingarchive_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountincomingarchive\refresh.htm

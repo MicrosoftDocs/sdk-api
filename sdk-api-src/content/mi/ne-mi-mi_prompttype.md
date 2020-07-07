@@ -1,7 +1,8 @@
 ---
 UID: NE:mi._MI_PromptType
 title: MI_PromptType (mi.h)
-description: Defines prompt types for the CIM extensions.helpviewer_keywords: ["MI_PROMPTTYPE_CRITICAL","MI_PROMPTTYPE_NORMAL","MI_PromptType","MI_PromptType enumeration [Windows Management Infrastructure (MI)]","mi/MI_PROMPTTYPE_CRITICAL","mi/MI_PROMPTTYPE_NORMAL","mi/MI_PromptType","wmi._mi_prompttype","wmi_v2.mi_prompttype"]
+description: Defines prompt types for the CIM extensions.
+helpviewer_keywords: ["MI_PROMPTTYPE_CRITICAL","MI_PROMPTTYPE_NORMAL","MI_PromptType","MI_PromptType enumeration [Windows Management Infrastructure (MI)]","mi/MI_PROMPTTYPE_CRITICAL","mi/MI_PROMPTTYPE_NORMAL","mi/MI_PromptType","wmi._mi_prompttype","wmi_v2.mi_prompttype"]
 old-location: wmi_v2\mi_prompttype.htm
 tech.root: wmi_v2
 ms.assetid: 183f40ed-214f-4468-8036-7753ae18575b

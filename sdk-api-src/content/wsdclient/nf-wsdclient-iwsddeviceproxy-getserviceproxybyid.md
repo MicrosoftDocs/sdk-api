@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdclient.IWSDDeviceProxy.GetServiceProxyById
 title: IWSDDeviceProxy::GetServiceProxyById (wsdclient.h)
-description: Retrieves a generic IWSDServiceProxy service proxy by service ID.helpviewer_keywords: ["GetServiceProxyById","GetServiceProxyById method","GetServiceProxyById method","IWSDDeviceProxy interface","IWSDDeviceProxy interface","GetServiceProxyById method","IWSDDeviceProxy.GetServiceProxyById","IWSDDeviceProxy::GetServiceProxyById","ncd.iwsddeviceproxy_getserviceproxybyid_method","wsdclient/IWSDDeviceProxy::GetServiceProxyById"]
+description: Retrieves a generic IWSDServiceProxy service proxy by service ID.
+helpviewer_keywords: ["GetServiceProxyById","GetServiceProxyById method","GetServiceProxyById method","IWSDDeviceProxy interface","IWSDDeviceProxy interface","GetServiceProxyById method","IWSDDeviceProxy.GetServiceProxyById","IWSDDeviceProxy::GetServiceProxyById","ncd.iwsddeviceproxy_getserviceproxybyid_method","wsdclient/IWSDDeviceProxy::GetServiceProxyById"]
 old-location: ncd\iwsddeviceproxy_getserviceproxybyid_method.htm
 tech.root: WsdApi
 ms.assetid: c1c07b78-16f6-4595-8de3-0c6591096496

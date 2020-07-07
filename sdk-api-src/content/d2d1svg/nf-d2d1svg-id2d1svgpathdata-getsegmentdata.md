@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgPathData.GetSegmentData
 title: ID2D1SvgPathData::GetSegmentData (d2d1svg.h)
-description: Gets data from the segment data array.helpviewer_keywords: ["GetSegmentData","GetSegmentData method [Direct2D]","GetSegmentData method [Direct2D]","ID2D1SvgPathData interface","ID2D1SvgPathData interface [Direct2D]","GetSegmentData method","ID2D1SvgPathData.GetSegmentData","ID2D1SvgPathData::GetSegmentData","d2d1svg/ID2D1SvgPathData::GetSegmentData","direct2d.id2d1svgpathdata_getsegmentdata"]
+description: Gets data from the segment data array.
+helpviewer_keywords: ["GetSegmentData","GetSegmentData method [Direct2D]","GetSegmentData method [Direct2D]","ID2D1SvgPathData interface","ID2D1SvgPathData interface [Direct2D]","GetSegmentData method","ID2D1SvgPathData.GetSegmentData","ID2D1SvgPathData::GetSegmentData","d2d1svg/ID2D1SvgPathData::GetSegmentData","direct2d.id2d1svgpathdata_getsegmentdata"]
 old-location: direct2d\id2d1svgpathdata_getsegmentdata.htm
 tech.root: Direct2D
 ms.assetid: D935BCEB-D7B8-4245-AD1C-25BAE63F8944

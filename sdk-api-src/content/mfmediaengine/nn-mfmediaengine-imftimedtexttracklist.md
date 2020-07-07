@@ -1,7 +1,8 @@
 ---
 UID: NN:mfmediaengine.IMFTimedTextTrackList
 title: IMFTimedTextTrackList (mfmediaengine.h)
-description: Represents a list of timed-text tracks.helpviewer_keywords: ["IMFTimedTextTrackList","IMFTimedTextTrackList interface [Media Foundation]","IMFTimedTextTrackList interface [Media Foundation]","described","mf.imftimedtexttracklist","mfmediaengine/IMFTimedTextTrackList"]
+description: Represents a list of timed-text tracks.
+helpviewer_keywords: ["IMFTimedTextTrackList","IMFTimedTextTrackList interface [Media Foundation]","IMFTimedTextTrackList interface [Media Foundation]","described","mf.imftimedtexttracklist","mfmediaengine/IMFTimedTextTrackList"]
 old-location: mf\imftimedtexttracklist.htm
 tech.root: medfound
 ms.assetid: EA94A81E-3B1D-4723-B00F-B216991E19E5

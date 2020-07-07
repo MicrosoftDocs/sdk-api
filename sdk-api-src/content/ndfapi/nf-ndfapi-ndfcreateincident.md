@@ -1,7 +1,8 @@
 ---
 UID: NF:ndfapi.NdfCreateIncident
 title: NdfCreateIncident function (ndfapi.h)
-description: To test the NDF functionality incorporated into their application.helpviewer_keywords: ["NdfCreateIncident","NdfCreateIncident function [NDF]","ndf.ndfcreateincident","ndfapi/NdfCreateIncident"]
+description: To test the NDF functionality incorporated into their application.
+helpviewer_keywords: ["NdfCreateIncident","NdfCreateIncident function [NDF]","ndf.ndfcreateincident","ndfapi/NdfCreateIncident"]
 old-location: ndf\ndfcreateincident.htm
 tech.root: NDF
 ms.assetid: 8570a0e2-f02f-4812-a5c8-13b6e5feee6f

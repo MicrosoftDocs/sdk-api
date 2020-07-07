@@ -1,7 +1,8 @@
 ---
 UID: NN:wsmandisp.IWSManSession
 title: IWSManSession (wsmandisp.h)
-description: Defines operations and session settings.helpviewer_keywords: ["IWSManSession","IWSManSession interface [Windows Remote Management]","IWSManSession interface [Windows Remote Management]","described","winrm.iwsmansession","wsmandisp/IWSManSession"]
+description: Defines operations and session settings.
+helpviewer_keywords: ["IWSManSession","IWSManSession interface [Windows Remote Management]","IWSManSession interface [Windows Remote Management]","described","winrm.iwsmansession","wsmandisp/IWSManSession"]
 old-location: winrm\iwsmansession.htm
 tech.root: winrm
 ms.assetid: 3e016080-339f-4bda-bfd2-f912e090981f

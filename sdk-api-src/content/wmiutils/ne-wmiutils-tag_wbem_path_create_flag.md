@@ -1,7 +1,8 @@
 ---
 UID: NE:wmiutils.tag_WBEM_PATH_CREATE_FLAG
 title: tag_WBEM_PATH_CREATE_FLAG (wmiutils.h)
-description: Contains flags specifying the type of paths accepted.helpviewer_keywords: ["WBEMPATH_CREATE_ACCEPT_ABSOLUTE","WBEMPATH_CREATE_ACCEPT_ALL","WBEMPATH_CREATE_ACCEPT_RELATIVE","WBEMPATH_TREAT_SINGLE_IDENT_AS_NS","tag_WBEM_PATH_CREATE_FLAG","tag_WBEM_PATH_CREATE_FLAG enumeration [Windows Management Instrumentation]","wmi.tag_wbem_path_create_flag","wmiutils/WBEMPATH_CREATE_ACCEPT_ABSOLUTE","wmiutils/WBEMPATH_CREATE_ACCEPT_ALL","wmiutils/WBEMPATH_CREATE_ACCEPT_RELATIVE","wmiutils/WBEMPATH_TREAT_SINGLE_IDENT_AS_NS","wmiutils/tag_WBEM_PATH_CREATE_FLAG"]
+description: Contains flags specifying the type of paths accepted.
+helpviewer_keywords: ["WBEMPATH_CREATE_ACCEPT_ABSOLUTE","WBEMPATH_CREATE_ACCEPT_ALL","WBEMPATH_CREATE_ACCEPT_RELATIVE","WBEMPATH_TREAT_SINGLE_IDENT_AS_NS","tag_WBEM_PATH_CREATE_FLAG","tag_WBEM_PATH_CREATE_FLAG enumeration [Windows Management Instrumentation]","wmi.tag_wbem_path_create_flag","wmiutils/WBEMPATH_CREATE_ACCEPT_ABSOLUTE","wmiutils/WBEMPATH_CREATE_ACCEPT_ALL","wmiutils/WBEMPATH_CREATE_ACCEPT_RELATIVE","wmiutils/WBEMPATH_TREAT_SINGLE_IDENT_AS_NS","wmiutils/tag_WBEM_PATH_CREATE_FLAG"]
 old-location: wmi\tag_wbem_path_create_flag.htm
 tech.root: WmiSdk
 ms.assetid: d03d3e75-8e51-4cb8-a587-184dc89cc427

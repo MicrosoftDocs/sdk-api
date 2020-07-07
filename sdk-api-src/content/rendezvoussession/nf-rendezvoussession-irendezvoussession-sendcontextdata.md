@@ -1,7 +1,8 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.SendContextData
 title: IRendezvousSession::SendContextData (rendezvoussession.h)
-description: Sends the context data to the remote RendezvousApplication.helpviewer_keywords: ["IRendezvousSession interface [Remote Assistance]","SendContextData method","IRendezvousSession.SendContextData","IRendezvousSession::SendContextData","SendContextData","SendContextData method [Remote Assistance]","SendContextData method [Remote Assistance]","IRendezvousSession interface","remoteassist.remoteassist_IRendezvousSession_SendContextData","remoteassist_IRendezvousSession_SendContextData","rendezvoussession/IRendezvousSession::SendContextData"]
+description: Sends the context data to the remote RendezvousApplication.
+helpviewer_keywords: ["IRendezvousSession interface [Remote Assistance]","SendContextData method","IRendezvousSession.SendContextData","IRendezvousSession::SendContextData","SendContextData","SendContextData method [Remote Assistance]","SendContextData method [Remote Assistance]","IRendezvousSession interface","remoteassist.remoteassist_IRendezvousSession_SendContextData","remoteassist_IRendezvousSession_SendContextData","rendezvoussession/IRendezvousSession::SendContextData"]
 old-location: remoteassist\remoteassist_IRendezvousSession_SendContextData.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\sendcontextdata.htm

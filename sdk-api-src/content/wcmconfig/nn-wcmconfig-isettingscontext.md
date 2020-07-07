@@ -1,7 +1,8 @@
 ---
 UID: NN:wcmconfig.ISettingsContext
 title: ISettingsContext (wcmconfig.h)
-description: An interface to a backing store that is used to store setting changes made through the other SMI APIs, and provides operations to serialize to and deserialize from a representation.helpviewer_keywords: ["ISettingsContext","ISettingsContext interface [SMI]","ISettingsContext interface [SMI]","described","smi.isettingscontext","wcmconfig/ISettingsContext"]
+description: An interface to a backing store that is used to store setting changes made through the other SMI APIs, and provides operations to serialize to and deserialize from a representation.
+helpviewer_keywords: ["ISettingsContext","ISettingsContext interface [SMI]","ISettingsContext interface [SMI]","described","smi.isettingscontext","wcmconfig/ISettingsContext"]
 old-location: smi\isettingscontext.htm
 tech.root: SMI
 ms.assetid: 29f43c3f-57bf-4208-a0bf-9b4414795a59

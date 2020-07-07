@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.DateTime_GetIdealSize
 title: DateTime_GetIdealSize macro (commctrl.h)
-description: Gets the size needed to display the control without clipping. Use this macro or send the DTM_GETIDEALSIZE message explicitly.helpviewer_keywords: ["DateTime_GetIdealSize","DateTime_GetIdealSize macro [Windows Controls]","_shell_DateTime_GetIdealSize","_shell_DateTime_GetIdealSize_cpp","commctrl/DateTime_GetIdealSize","controls.DateTime_GetIdealSize","controls._shell_DateTime_GetIdealSize"]
+description: Gets the size needed to display the control without clipping. Use this macro or send the DTM_GETIDEALSIZE message explicitly.
+helpviewer_keywords: ["DateTime_GetIdealSize","DateTime_GetIdealSize macro [Windows Controls]","_shell_DateTime_GetIdealSize","_shell_DateTime_GetIdealSize_cpp","commctrl/DateTime_GetIdealSize","controls.DateTime_GetIdealSize","controls._shell_DateTime_GetIdealSize"]
 old-location: controls\DateTime_GetIdealSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\macros\datetime_getidealsize.htm

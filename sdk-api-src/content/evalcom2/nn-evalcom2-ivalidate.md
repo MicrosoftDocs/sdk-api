@@ -1,7 +1,8 @@
 ---
 UID: NN:evalcom2.IValidate
 title: IValidate (evalcom2.h)
-description: The IValidate interface enables authoring tools to validate a Windows Installer package against a set of Internal Consistency Evaluators.helpviewer_keywords: ["IValidate","IValidate interface","IValidate interface","described","evalcom2/IValidate","setup.ivalidate"]
+description: The IValidate interface enables authoring tools to validate a Windows Installer package against a set of Internal Consistency Evaluators.
+helpviewer_keywords: ["IValidate","IValidate interface","IValidate interface","described","evalcom2/IValidate","setup.ivalidate"]
 old-location: setup\ivalidate.htm
 tech.root: Msi
 ms.assetid: b7c686f8-ed6a-44d6-ab76-f6d6c7d154a0

@@ -1,7 +1,8 @@
 ---
 UID: NC:projectedfslib.PRJ_START_DIRECTORY_ENUMERATION_CB
 title: PRJ_START_DIRECTORY_ENUMERATION_CB (projectedfslib.h)
-description: Informs the provider that a directory enumeration is starting.helpviewer_keywords: ["PRJ_START_DIRECTORY_ENUMERATION_CB","PRJ_START_DIRECTORY_ENUMERATION_CB callback","PRJ_START_DIRECTORY_ENUMERATION_CB callback function","ProjFS.prj_start_directory_enumeration_cb","projectedfslib/PRJ_START_DIRECTORY_ENUMERATION_CB"]
+description: Informs the provider that a directory enumeration is starting.
+helpviewer_keywords: ["PRJ_START_DIRECTORY_ENUMERATION_CB","PRJ_START_DIRECTORY_ENUMERATION_CB callback","PRJ_START_DIRECTORY_ENUMERATION_CB callback function","ProjFS.prj_start_directory_enumeration_cb","projectedfslib/PRJ_START_DIRECTORY_ENUMERATION_CB"]
 old-location: projfs\prj_start_directory_enumeration_cb.htm
 tech.root: ProjFS
 ms.assetid: 09F284D4-BF39-42C9-A89B-DDC8201362EE

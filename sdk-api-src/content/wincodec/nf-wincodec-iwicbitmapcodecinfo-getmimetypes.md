@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.GetMimeTypes
 title: IWICBitmapCodecInfo::GetMimeTypes (wincodec.h)
-description: Retrieves a comma delimited sequence of mime types associated with the codec.helpviewer_keywords: ["GetMimeTypes","GetMimeTypes method [Windows Imaging Component]","GetMimeTypes method [Windows Imaging Component]","IWICBitmapCodecInfo interface","IWICBitmapCodecInfo interface [Windows Imaging Component]","GetMimeTypes method","IWICBitmapCodecInfo.GetMimeTypes","IWICBitmapCodecInfo::GetMimeTypes","_wic_codec_iwicbitmapcodecinfo_getmimetypes","wic._wic_codec_iwicbitmapcodecinfo_getmimetypes","wincodec/IWICBitmapCodecInfo::GetMimeTypes"]
+description: Retrieves a comma delimited sequence of mime types associated with the codec.
+helpviewer_keywords: ["GetMimeTypes","GetMimeTypes method [Windows Imaging Component]","GetMimeTypes method [Windows Imaging Component]","IWICBitmapCodecInfo interface","IWICBitmapCodecInfo interface [Windows Imaging Component]","GetMimeTypes method","IWICBitmapCodecInfo.GetMimeTypes","IWICBitmapCodecInfo::GetMimeTypes","_wic_codec_iwicbitmapcodecinfo_getmimetypes","wic._wic_codec_iwicbitmapcodecinfo_getmimetypes","wincodec/IWICBitmapCodecInfo::GetMimeTypes"]
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_getmimetypes.htm
 tech.root: wic
 ms.assetid: fbca8068-a57d-402b-85e1-0dd284824efa

@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.ILockBytes.LockRegion
 title: ILockBytes::LockRegion (objidl.h)
-description: The LockRegion method restricts access to a specified range of bytes in the byte array.helpviewer_keywords: ["ILockBytes interface [Structured Storage]","LockRegion method","ILockBytes.LockRegion","ILockBytes::LockRegion","LockRegion","LockRegion method [Structured Storage]","LockRegion method [Structured Storage]","ILockBytes interface","_stg_ilockbytes_lockregion","objidl/ILockBytes::LockRegion","stg.ilockbytes_lockregion"]
+description: The LockRegion method restricts access to a specified range of bytes in the byte array.
+helpviewer_keywords: ["ILockBytes interface [Structured Storage]","LockRegion method","ILockBytes.LockRegion","ILockBytes::LockRegion","LockRegion","LockRegion method [Structured Storage]","LockRegion method [Structured Storage]","ILockBytes interface","_stg_ilockbytes_lockregion","objidl/ILockBytes::LockRegion","stg.ilockbytes_lockregion"]
 old-location: stg\ilockbytes_lockregion.htm
 tech.root: Stg
 ms.assetid: cea59e2a-99d8-472d-8e4f-2e2474789c20

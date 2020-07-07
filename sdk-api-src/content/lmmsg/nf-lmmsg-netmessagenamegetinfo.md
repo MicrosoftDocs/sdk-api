@@ -1,7 +1,8 @@
 ---
 UID: NF:lmmsg.NetMessageNameGetInfo
 title: NetMessageNameGetInfo function (lmmsg.h)
-description: The NetMessageNameGetInfo function retrieves information about a particular message alias in the message name table. The function requires that the messenger service be started.helpviewer_keywords: ["0","1","NetMessageNameGetInfo","NetMessageNameGetInfo function [Network Management]","_win32_netmessagenamegetinfo","lmmsg/NetMessageNameGetInfo","netmgmt.netmessagenamegetinfo"]
+description: The NetMessageNameGetInfo function retrieves information about a particular message alias in the message name table. The function requires that the messenger service be started.
+helpviewer_keywords: ["0","1","NetMessageNameGetInfo","NetMessageNameGetInfo function [Network Management]","_win32_netmessagenamegetinfo","lmmsg/NetMessageNameGetInfo","netmgmt.netmessagenamegetinfo"]
 old-location: netmgmt\netmessagenamegetinfo.htm
 tech.root: NetMgmt
 ms.assetid: 72129865-2aee-41d5-8a89-53bb815a7f63

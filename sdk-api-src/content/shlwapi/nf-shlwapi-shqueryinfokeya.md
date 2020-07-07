@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHQueryInfoKeyA
 title: SHQueryInfoKeyA function (shlwapi.h)
-description: Retrieves information about a specified registry key.helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHQueryInfoKey","SHQueryInfoKey function [Windows Shell]","SHQueryInfoKeyA","SHQueryInfoKeyW","_win32_SHQueryInfoKey","shell.SHQueryInfoKey","shlwapi/SHQueryInfoKey","shlwapi/SHQueryInfoKeyA","shlwapi/SHQueryInfoKeyW"]
+description: Retrieves information about a specified registry key.
+helpviewer_keywords: ["HKEY_CLASSES_ROOT","HKEY_CURRENT_CONFIG","HKEY_CURRENT_USER","HKEY_LOCAL_MACHINE","HKEY_PERFORMANCE_DATA","HKEY_USERS","SHQueryInfoKey","SHQueryInfoKey function [Windows Shell]","SHQueryInfoKeyA","SHQueryInfoKeyW","_win32_SHQueryInfoKey","shell.SHQueryInfoKey","shlwapi/SHQueryInfoKey","shlwapi/SHQueryInfoKeyA","shlwapi/SHQueryInfoKeyW"]
 old-location: shell\SHQueryInfoKey.htm
 tech.root: shell
 ms.assetid: dea535e7-5e61-4587-aa22-b1d62b76943a
@@ -132,4 +133,9 @@ Type: <b>LSTATUS</b>
 Returns ERROR_SUCCESS if successful, or a nonzero error code defined in Winerror.h otherwise. You can use the <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to retrieve a textual description of the error.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines SHQueryInfoKey as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

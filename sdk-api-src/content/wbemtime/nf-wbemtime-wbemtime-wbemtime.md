@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemtime.WBEMTime.WBEMTime
 title: WBEMTime::WBEMTime (wbemtime.h)
-description: The WBEMTime class constructor facilitates conversions between various Windows and ANSI C run-time time formats.helpviewer_keywords: ["WBEMTime","WBEMTime.WBEMTime","WBEMTime::WBEMTime","WBEMTime::WBEMTime constructors [Windows Management Instrumentation]","wbemtime/WBEMTime::WBEMTime","wmi.wbemtime_wbemtime"]
+description: The WBEMTime class constructor facilitates conversions between various Windows and ANSI C run-time time formats.
+helpviewer_keywords: ["WBEMTime","WBEMTime.WBEMTime","WBEMTime::WBEMTime","WBEMTime::WBEMTime constructors [Windows Management Instrumentation]","wbemtime/WBEMTime::WBEMTime","wmi.wbemtime_wbemtime"]
 old-location: wmi\wbemtime_wbemtime.htm
 tech.root: WmiSdk
 ms.assetid: 8b0ce221-2186-4aed-a474-00f88cef6350

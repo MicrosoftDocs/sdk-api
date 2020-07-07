@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509Enrollment2
 title: IX509Enrollment2 (certenroll.h)
-description: The IX509Enrollment2 interface enables you to enroll in a certificate hierarchy and install a certificate response.helpviewer_keywords: ["IX509Enrollment2","IX509Enrollment2 interface [Security]","IX509Enrollment2 interface [Security]","described","certenroll/IX509Enrollment2","security.ix509enrollment2"]
+description: The IX509Enrollment2 interface enables you to enroll in a certificate hierarchy and install a certificate response.
+helpviewer_keywords: ["IX509Enrollment2","IX509Enrollment2 interface [Security]","IX509Enrollment2 interface [Security]","described","certenroll/IX509Enrollment2","security.ix509enrollment2"]
 old-location: security\ix509enrollment2.htm
 tech.root: seccertenroll
 ms.assetid: 8e262b4b-de6a-417e-9ade-0b451bd4c09a

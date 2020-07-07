@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetLength
 title: IDvbTerrestrialDeliverySystemDescriptor::GetLength (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbTerrestrialDeliverySystemDescriptor.GetLength","IDvbTerrestrialDeliverySystemDescriptor::GetLength","IDvbTerrestrialDeliverySystemDescriptorGetLength","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetLength","mstv.idvbterrestrialdeliverysystemdescriptor_getlength"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetLength method","IDvbTerrestrialDeliverySystemDescriptor.GetLength","IDvbTerrestrialDeliverySystemDescriptor::GetLength","IDvbTerrestrialDeliverySystemDescriptorGetLength","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetLength","mstv.idvbterrestrialdeliverysystemdescriptor_getlength"]
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: 14677ccd-fe8a-4d0f-9229-891bb0b5c35a

@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerHostNameToPeerName
 title: PeerHostNameToPeerName function (p2p.h)
-description: Decodes a host name returned by PeerNameToPeerHostName into the peer name string it represents.helpviewer_keywords: ["PeerHostNameToPeerName","PeerHostNameToPeerName function [Peer Networking]","p2p.peerhostnametopeername","p2p/PeerHostNameToPeerName"]
+description: Decodes a host name returned by PeerNameToPeerHostName into the peer name string it represents.
+helpviewer_keywords: ["PeerHostNameToPeerName","PeerHostNameToPeerName function [Peer Networking]","p2p.peerhostnametopeername","p2p/PeerHostNameToPeerName"]
 old-location: p2p\peerhostnametopeername.htm
 tech.root: P2PSdk
 ms.assetid: 3150d37e-84a3-4386-b38c-b37f7d6642cc

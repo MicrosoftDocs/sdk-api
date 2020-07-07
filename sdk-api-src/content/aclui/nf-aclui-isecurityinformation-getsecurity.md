@@ -1,7 +1,8 @@
 ---
 UID: NF:aclui.ISecurityInformation.GetSecurity
 title: ISecurityInformation::GetSecurity (aclui.h)
-description: The GetSecurity method requests a security descriptor for the securable object whose security descriptor is being edited. The access control editor calls this method to retrieve the object's current or default security descriptor.helpviewer_keywords: ["DACL_SECURITY_INFORMATION","GROUP_SECURITY_INFORMATION","GetSecurity","GetSecurity method [Security]","GetSecurity method [Security]","ISecurityInformation interface","ISecurityInformation interface [Security]","GetSecurity method","ISecurityInformation.GetSecurity","ISecurityInformation::GetSecurity","OWNER_SECURITY_INFORMATION","SACL_SECURITY_INFORMATION","_win32_isecurityinformation_getsecurity","aclui/ISecurityInformation::GetSecurity","security.isecurityinformation_getsecurity"]
+description: The GetSecurity method requests a security descriptor for the securable object whose security descriptor is being edited. The access control editor calls this method to retrieve the object's current or default security descriptor.
+helpviewer_keywords: ["DACL_SECURITY_INFORMATION","GROUP_SECURITY_INFORMATION","GetSecurity","GetSecurity method [Security]","GetSecurity method [Security]","ISecurityInformation interface","ISecurityInformation interface [Security]","GetSecurity method","ISecurityInformation.GetSecurity","ISecurityInformation::GetSecurity","OWNER_SECURITY_INFORMATION","SACL_SECURITY_INFORMATION","_win32_isecurityinformation_getsecurity","aclui/ISecurityInformation::GetSecurity","security.isecurityinformation_getsecurity"]
 old-location: security\isecurityinformation_getsecurity.htm
 tech.root: SecAuthZ
 ms.assetid: 4c9e05fd-0b58-4d6d-b33e-067d9e8e2915

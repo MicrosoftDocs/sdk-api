@@ -1,7 +1,8 @@
 ---
 UID: NS:mmeapi.tagAUXCAPSA
 title: AUXCAPSA (mmeapi.h)
-description: The AUXCAPS structure describes the capabilities of an auxiliary output device.helpviewer_keywords: ["*LPAUXCAPSA","*NPAUXCAPSA","*PAUXCAPSA","AUXCAPS","AUXCAPS structure [Windows Multimedia]","AUXCAPSA","AUXCAPSW","AUXCAPS_AUXIN","AUXCAPS_CDAUDIO","AUXCAPS_LRVOLUME","AUXCAPS_VOLUME","_win32_AUXCAPS_str","auxcaps_tag","mmeapi/AUXCAPS","multimedia.auxcaps"]
+description: The AUXCAPS structure describes the capabilities of an auxiliary output device.
+helpviewer_keywords: ["*LPAUXCAPSA","*NPAUXCAPSA","*PAUXCAPSA","AUXCAPS","AUXCAPS structure [Windows Multimedia]","AUXCAPSA","AUXCAPSW","AUXCAPS_AUXIN","AUXCAPS_CDAUDIO","AUXCAPS_LRVOLUME","AUXCAPS_VOLUME","_win32_AUXCAPS_str","auxcaps_tag","mmeapi/AUXCAPS","multimedia.auxcaps"]
 old-location: multimedia\auxcaps.htm
 tech.root: Multimedia
 ms.assetid: 5b94a468-88b2-40a4-b28d-49f262e62749
@@ -114,10 +115,6 @@ Audio output from an internal CD-ROM drive.
  
 
 
-#### - wReserved1
-
-Padding.
-
 
 ### -field dwSupport
 
@@ -152,4 +149,9 @@ Supports volume control.
  
 
 If a device supports volume changes, the AUXCAPS_VOLUME flag will be set. If a device supports separate volume changes on the left and right channels, both AUXCAPS_VOLUME and the AUXCAPS_LRVOLUME will be set.
+
+## -remarks
+
+> [!NOTE]
+> The mmeapi.h header defines AUXCAPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

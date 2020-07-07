@@ -1,7 +1,8 @@
 ---
 UID: NE:codecapi.eAVEncAdaptiveMode
 title: eAVEncAdaptiveMode (codecapi.h)
-description: Specifies the adaptive encoding mode for a video encoder.helpviewer_keywords: ["codecapi/eAVEncAdaptiveMode","codecapi/eAVEncAdaptiveMode_FrameRate","codecapi/eAVEncAdaptiveMode_None","codecapi/eAVEncAdaptiveMode_Resolution","eAVEncAdaptiveMode","eAVEncAdaptiveMode enumeration [Media Foundation]","eAVEncAdaptiveMode_FrameRate","eAVEncAdaptiveMode_None","eAVEncAdaptiveMode_Resolution","mf.eavencadaptivemode"]
+description: Specifies the adaptive encoding mode for a video encoder.
+helpviewer_keywords: ["codecapi/eAVEncAdaptiveMode","codecapi/eAVEncAdaptiveMode_FrameRate","codecapi/eAVEncAdaptiveMode_None","codecapi/eAVEncAdaptiveMode_Resolution","eAVEncAdaptiveMode","eAVEncAdaptiveMode enumeration [Media Foundation]","eAVEncAdaptiveMode_FrameRate","eAVEncAdaptiveMode_None","eAVEncAdaptiveMode_Resolution","mf.eavencadaptivemode"]
 old-location: mf\eavencadaptivemode.htm
 tech.root: medfound
 ms.assetid: 5810E336-35F0-4109-9155-368C638AF987

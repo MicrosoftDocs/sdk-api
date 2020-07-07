@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSource.get_Start
 title: IMSVidStreamBufferSource::get_Start (segment.h)
-description: The get_Start method retrieves the start time.helpviewer_keywords: ["IMSVidStreamBufferSource interface [Microsoft TV Technologies]","get_Start method","IMSVidStreamBufferSource.get_Start","IMSVidStreamBufferSource::get_Start","IMSVidStreamBufferSourceget_Start","get_Start","get_Start method [Microsoft TV Technologies]","get_Start method [Microsoft TV Technologies]","IMSVidStreamBufferSource interface","mstv.imsvidstreambuffersource_get_start","segment/IMSVidStreamBufferSource::get_Start"]
+description: The get_Start method retrieves the start time.
+helpviewer_keywords: ["IMSVidStreamBufferSource interface [Microsoft TV Technologies]","get_Start method","IMSVidStreamBufferSource.get_Start","IMSVidStreamBufferSource::get_Start","IMSVidStreamBufferSourceget_Start","get_Start","get_Start method [Microsoft TV Technologies]","get_Start method [Microsoft TV Technologies]","IMSVidStreamBufferSource interface","mstv.imsvidstreambuffersource_get_start","segment/IMSVidStreamBufferSource::get_Start"]
 old-location: mstv\imsvidstreambuffersource_get_start.htm
 tech.root: mstv
 ms.assetid: 4c6ad8b7-93d9-46de-b84a-a4575f3e6183

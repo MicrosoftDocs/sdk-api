@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIClipboardUseEvents
 title: IRDPSRAPIClipboardUseEvents (rdpencomapi.h)
-description: Implement this interface on the sharer side to track or control use of the clipboard. If you do not enable clipboard sharing, this interface has no effect. You need to set a value for the SetClipboardRedirectCallback property described in Property.helpviewer_keywords: ["IRDPSRAPIClipboardUseEvents","IRDPSRAPIClipboardUseEvents interface [RDP]","IRDPSRAPIClipboardUseEvents interface [RDP]","described","rdp.irdpsrapiclipboarduseevents","rdpencomapi/IRDPSRAPIClipboardUseEvents"]
+description: Implement this interface on the sharer side to track or control use of the clipboard. If you do not enable clipboard sharing, this interface has no effect. You need to set a value for the SetClipboardRedirectCallback property described in Property.
+helpviewer_keywords: ["IRDPSRAPIClipboardUseEvents","IRDPSRAPIClipboardUseEvents interface [RDP]","IRDPSRAPIClipboardUseEvents interface [RDP]","described","rdp.irdpsrapiclipboarduseevents","rdpencomapi/IRDPSRAPIClipboardUseEvents"]
 old-location: rdp\irdpsrapiclipboarduseevents.htm
 tech.root: rdp
 ms.assetid: 76ea520c-64c2-4096-ab21-9714b98b5dac

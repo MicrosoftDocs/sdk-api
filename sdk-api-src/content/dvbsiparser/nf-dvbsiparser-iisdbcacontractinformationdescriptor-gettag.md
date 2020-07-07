@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetTag
 title: IIsdbCAContractInformationDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) conditional access (CA)contract information descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbCAContractInformationDescriptor interface","IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbCAContractInformationDescriptor.GetTag","IIsdbCAContractInformationDescriptor::GetTag","dvbsiparser/IIsdbCAContractInformationDescriptor::GetTag","mstv.iisdbcacontractinformationdescriptor_gettag"]
+description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) conditional access (CA)contract information descriptor.
+helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbCAContractInformationDescriptor interface","IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbCAContractInformationDescriptor.GetTag","IIsdbCAContractInformationDescriptor::GetTag","dvbsiparser/IIsdbCAContractInformationDescriptor::GetTag","mstv.iisdbcacontractinformationdescriptor_gettag"]
 old-location: mstv\iisdbcacontractinformationdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: f64110eb-1f96-421c-8f32-3d82a5ed4378

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgStrokeDashArray.RemoveDashesAtEnd
 title: ID2D1SvgStrokeDashArray::RemoveDashesAtEnd (d2d1svg.h)
-description: Removes dashes from the end of the array.helpviewer_keywords: ["ID2D1SvgStrokeDashArray interface [Direct2D]","RemoveDashesAtEnd method","ID2D1SvgStrokeDashArray.RemoveDashesAtEnd","ID2D1SvgStrokeDashArray::RemoveDashesAtEnd","RemoveDashesAtEnd","RemoveDashesAtEnd method [Direct2D]","RemoveDashesAtEnd method [Direct2D]","ID2D1SvgStrokeDashArray interface","d2d1svg/ID2D1SvgStrokeDashArray::RemoveDashesAtEnd","direct2d.id2d1svgstrokedasharray_removedashesatend"]
+description: Removes dashes from the end of the array.
+helpviewer_keywords: ["ID2D1SvgStrokeDashArray interface [Direct2D]","RemoveDashesAtEnd method","ID2D1SvgStrokeDashArray.RemoveDashesAtEnd","ID2D1SvgStrokeDashArray::RemoveDashesAtEnd","RemoveDashesAtEnd","RemoveDashesAtEnd method [Direct2D]","RemoveDashesAtEnd method [Direct2D]","ID2D1SvgStrokeDashArray interface","d2d1svg/ID2D1SvgStrokeDashArray::RemoveDashesAtEnd","direct2d.id2d1svgstrokedasharray_removedashesatend"]
 old-location: direct2d\id2d1svgstrokedasharray_removedashesatend.htm
 tech.root: Direct2D
 ms.assetid: BF695850-55E2-420E-84B2-075174C0EB8B

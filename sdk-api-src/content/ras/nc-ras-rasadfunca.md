@@ -1,7 +1,8 @@
 ---
 UID: NC:ras.RASADFUNCA
 title: RASADFUNCA (ras.h)
-description: The RASADFunc function is an application-defined callback function that is used to provide a customized user interface for autodialing.helpviewer_keywords: ["RASADFunc","RASADFunc callback","RASADFunc callback function [RAS]","RASADFuncA","RASADFuncW","_ras_rasadfunc","ras/RASADFunc","ras/RASADFuncA","ras/RASADFuncW","rras.rasadfunc"]
+description: The RASADFunc function is an application-defined callback function that is used to provide a customized user interface for autodialing.
+helpviewer_keywords: ["RASADFunc","RASADFunc callback","RASADFunc callback function [RAS]","RASADFuncA","RASADFuncW","_ras_rasadfunc","ras/RASADFunc","ras/RASADFuncA","ras/RASADFuncW","rras.rasadfunc"]
 old-location: rras\rasadfunc.htm
 tech.root: RRAS
 ms.assetid: e014624a-1ee1-4de3-ba59-cd090b3fa711
@@ -140,6 +141,10 @@ The AutoDial DLL must provide both a <b>RASADFUNCA</b> (ANSI) and a <b>RASADFUNC
 
 
 
+
+
+> [!NOTE]
+> The ras.h header defines RASADFUNC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

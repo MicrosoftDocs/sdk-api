@@ -1,7 +1,8 @@
 ---
 UID: NF:sysinfoapi.GetSystemWindowsDirectoryA
 title: GetSystemWindowsDirectoryA function (sysinfoapi.h)
-description: Retrieves the path of the shared Windows directory on a multi-user system.helpviewer_keywords: ["GetSystemWindowsDirectory","GetSystemWindowsDirectory function","GetSystemWindowsDirectoryA","GetSystemWindowsDirectoryW","_win32_getsystemwindowsdirectory","base.getsystemwindowsdirectory","sysinfoapi/GetSystemWindowsDirectory","sysinfoapi/GetSystemWindowsDirectoryA","sysinfoapi/GetSystemWindowsDirectoryW"]
+description: Retrieves the path of the shared Windows directory on a multi-user system.
+helpviewer_keywords: ["GetSystemWindowsDirectory","GetSystemWindowsDirectory function","GetSystemWindowsDirectoryA","GetSystemWindowsDirectoryW","_win32_getsystemwindowsdirectory","base.getsystemwindowsdirectory","sysinfoapi/GetSystemWindowsDirectory","sysinfoapi/GetSystemWindowsDirectoryA","sysinfoapi/GetSystemWindowsDirectoryW"]
 old-location: base\getsystemwindowsdirectory.htm
 tech.root: SysInfo
 ms.assetid: 4f0955fb-8fa3-4102-b2a5-44ce5cbd2e35
@@ -108,6 +109,10 @@ With Terminal Services, the
 
 
 
+
+
+> [!NOTE]
+> The sysinfoapi.h header defines GetSystemWindowsDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

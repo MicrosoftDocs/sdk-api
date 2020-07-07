@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.RealDriveType
 title: RealDriveType function (shlobj_core.h)
-description: RealDriveType may be altered or unavailable.helpviewer_keywords: ["RealDriveType","RealDriveType function [Windows Shell]","_win32_RealDriveType","shell.RealDriveType","shlobj_core/RealDriveType"]
+description: RealDriveType may be altered or unavailable.
+helpviewer_keywords: ["RealDriveType","RealDriveType function [Windows Shell]","_win32_RealDriveType","shell.RealDriveType","shlobj_core/RealDriveType"]
 old-location: shell\RealDriveType.htm
 tech.root: shell
 ms.assetid: c4e55b50-637a-446f-aa9c-7d8c71d8071c

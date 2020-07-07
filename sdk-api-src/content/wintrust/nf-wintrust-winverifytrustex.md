@@ -1,7 +1,8 @@
 ---
 UID: NF:wintrust.WinVerifyTrustEx
 title: WinVerifyTrustEx function (wintrust.h)
-description: Performs a trust verification action on a specified object and takes a pointer to a WINTRUST_DATA structure.helpviewer_keywords: ["A valid window handle","DRIVER_ACTION_VERIFY","HTTPSPROV_ACTION","INVALID_HANDLE_VALUE","OFFICESIGN_ACTION_VERIFY","WINTRUST_ACTION_GENERIC_CERT_VERIFY","WINTRUST_ACTION_GENERIC_CHAIN_VERIFY","WINTRUST_ACTION_GENERIC_VERIFY_V2","WINTRUST_ACTION_TRUSTPROVIDER_TEST","WinVerifyTrustEx","WinVerifyTrustEx function [Security]","Zero","security.winverifytrustex","wintrust/WinVerifyTrustEx"]
+description: Performs a trust verification action on a specified object and takes a pointer to a WINTRUST_DATA structure.
+helpviewer_keywords: ["A valid window handle","DRIVER_ACTION_VERIFY","HTTPSPROV_ACTION","INVALID_HANDLE_VALUE","OFFICESIGN_ACTION_VERIFY","WINTRUST_ACTION_GENERIC_CERT_VERIFY","WINTRUST_ACTION_GENERIC_CHAIN_VERIFY","WINTRUST_ACTION_GENERIC_VERIFY_V2","WINTRUST_ACTION_TRUSTPROVIDER_TEST","WinVerifyTrustEx","WinVerifyTrustEx function [Security]","Zero","security.winverifytrustex","wintrust/WinVerifyTrustEx"]
 old-location: security\winverifytrustex.htm
 tech.root: SecCrypto
 ms.assetid: 209c9953-a4a5-4ff0-961f-92e97ccce23d

@@ -1,7 +1,8 @@
 ---
 UID: NN:netlistmgr.INetworkListManager
 title: INetworkListManager (netlistmgr.h)
-description: The INetworkListManager interface provides a set of methods to perform network list management functions.helpviewer_keywords: ["INetworkListManager","INetworkListManager interface [Network Awareness]","INetworkListManager interface [Network Awareness]","described","netlistmgr/INetworkListManager","nla.inetworklistmanager"]
+description: The INetworkListManager interface provides a set of methods to perform network list management functions.
+helpviewer_keywords: ["INetworkListManager","INetworkListManager interface [Network Awareness]","INetworkListManager interface [Network Awareness]","described","netlistmgr/INetworkListManager","nla.inetworklistmanager"]
 old-location: nla\inetworklistmanager.htm
 tech.root: nla
 ms.assetid: a9f76b6a-ea15-47b7-a4ef-14ea60b7810d

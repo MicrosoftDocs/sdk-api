@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemServices.PutInstanceAsync
 title: IWbemServices::PutInstanceAsync (wbemcli.h)
-description: The IWbemServices::PutInstanceAsync method asynchronously creates or updates an instance of an existing class. Update confirmation or error reporting is provided through the IWbemObjectSink interface implemented by the caller.helpviewer_keywords: ["IWbemServices interface [Windows Management Instrumentation]","PutInstanceAsync method","IWbemServices.PutInstanceAsync","IWbemServices::PutInstanceAsync","PutInstanceAsync","PutInstanceAsync method [Windows Management Instrumentation]","PutInstanceAsync method [Windows Management Instrumentation]","IWbemServices interface","WBEM_FLAG_CREATE_ONLY","WBEM_FLAG_CREATE_OR_UPDATE","WBEM_FLAG_SEND_STATUS","WBEM_FLAG_UPDATE_ONLY","WBEM_FLAG_USE_AMENDED_QUALIFIERS","_hmm_iwbemservices_putinstanceasync","wbemcli/IWbemServices::PutInstanceAsync","wmi.iwbemservices_putinstanceasync"]
+description: The IWbemServices::PutInstanceAsync method asynchronously creates or updates an instance of an existing class. Update confirmation or error reporting is provided through the IWbemObjectSink interface implemented by the caller.
+helpviewer_keywords: ["IWbemServices interface [Windows Management Instrumentation]","PutInstanceAsync method","IWbemServices.PutInstanceAsync","IWbemServices::PutInstanceAsync","PutInstanceAsync","PutInstanceAsync method [Windows Management Instrumentation]","PutInstanceAsync method [Windows Management Instrumentation]","IWbemServices interface","WBEM_FLAG_CREATE_ONLY","WBEM_FLAG_CREATE_OR_UPDATE","WBEM_FLAG_SEND_STATUS","WBEM_FLAG_UPDATE_ONLY","WBEM_FLAG_USE_AMENDED_QUALIFIERS","_hmm_iwbemservices_putinstanceasync","wbemcli/IWbemServices::PutInstanceAsync","wmi.iwbemservices_putinstanceasync"]
 old-location: wmi\iwbemservices_putinstanceasync.htm
 tech.root: WmiSdk
 ms.assetid: fef3eb72-74ba-49cd-b992-292405d29917

@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsapi32.WTSVirtualChannelWrite
 title: WTSVirtualChannelWrite function (wtsapi32.h)
-description: Writes data to the server end of a virtual channel.helpviewer_keywords: ["WTSVirtualChannelWrite","WTSVirtualChannelWrite function [Remote Desktop Services]","_win32_wtsvirtualchannelwrite","termserv.wtsvirtualchannelwrite","wtsapi32/WTSVirtualChannelWrite"]
+description: Writes data to the server end of a virtual channel.
+helpviewer_keywords: ["WTSVirtualChannelWrite","WTSVirtualChannelWrite function [Remote Desktop Services]","_win32_wtsvirtualchannelwrite","termserv.wtsvirtualchannelwrite","wtsapi32/WTSVirtualChannelWrite"]
 old-location: termserv\wtsvirtualchannelwrite.htm
 tech.root: TermServ
 ms.assetid: cb999de8-74a1-4491-bffb-dc4d74a1fea3

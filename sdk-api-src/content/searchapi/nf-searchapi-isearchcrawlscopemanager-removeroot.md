@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RemoveRoot
 title: ISearchCrawlScopeManager::RemoveRoot (searchapi.h)
-description: Removes a search root from the search engine.helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","RemoveRoot method","ISearchCrawlScopeManager.RemoveRoot","ISearchCrawlScopeManager::RemoveRoot","RemoveRoot","RemoveRoot method [search]","RemoveRoot method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_RemoveRoot","search._search_ISearchCrawlScopeManager_RemoveRoot","searchapi/ISearchCrawlScopeManager::RemoveRoot"]
+description: Removes a search root from the search engine.
+helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","RemoveRoot method","ISearchCrawlScopeManager.RemoveRoot","ISearchCrawlScopeManager::RemoveRoot","RemoveRoot","RemoveRoot method [search]","RemoveRoot method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_RemoveRoot","search._search_ISearchCrawlScopeManager_RemoveRoot","searchapi/ISearchCrawlScopeManager::RemoveRoot"]
 old-location: search\_search_ISearchCrawlScopeManager_RemoveRoot.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removeroot.htm
@@ -79,9 +80,4 @@ Returns S_OK if successful; S_FALSE if the root is not found.
 
 ## -remarks
 
-
-
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

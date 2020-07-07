@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogEvents.OnTypeChange
 title: IFileDialogEvents::OnTypeChange (shobjidl_core.h)
-description: Called when the dialog is opened to notify the application of the initial chosen filetype.helpviewer_keywords: ["IFileDialogEvents interface [Windows Shell]","OnTypeChange method","IFileDialogEvents.OnTypeChange","IFileDialogEvents::OnTypeChange","OnTypeChange","OnTypeChange method [Windows Shell]","OnTypeChange method [Windows Shell]","IFileDialogEvents interface","shell.IFileDialogEvents_OnTypeChange","shell_IFileDialogEvents_OnTypeChange","shobjidl_core/IFileDialogEvents::OnTypeChange"]
+description: Called when the dialog is opened to notify the application of the initial chosen filetype.
+helpviewer_keywords: ["IFileDialogEvents interface [Windows Shell]","OnTypeChange method","IFileDialogEvents.OnTypeChange","IFileDialogEvents::OnTypeChange","OnTypeChange","OnTypeChange method [Windows Shell]","OnTypeChange method [Windows Shell]","IFileDialogEvents interface","shell.IFileDialogEvents_OnTypeChange","shell_IFileDialogEvents_OnTypeChange","shobjidl_core/IFileDialogEvents::OnTypeChange"]
 old-location: shell\IFileDialogEvents_OnTypeChange.htm
 tech.root: shell
 ms.assetid: d57e7b57-520d-40d6-8bac-ebf245ad7484

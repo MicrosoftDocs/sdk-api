@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj_core._IDA
 title: CIDA (shlobj_core.h)
-description: Used with the CFSTR_SHELLIDLIST clipboard format to transfer the pointer to an item identifier list (PIDL) of one or more Shell namespace objects.helpviewer_keywords: ["*LPIDA","CIDA","CIDA structure [Windows Shell]","LPIDA","LPIDA structure pointer [Windows Shell]","_IDA","_win32_CIDA","shell.CIDA","shlobj_core/CIDA","shlobj_core/LPIDA"]
+description: Used with the CFSTR_SHELLIDLIST clipboard format to transfer the pointer to an item identifier list (PIDL) of one or more Shell namespace objects.
+helpviewer_keywords: ["*LPIDA","CIDA","CIDA structure [Windows Shell]","LPIDA","LPIDA structure pointer [Windows Shell]","_IDA","_win32_CIDA","shell.CIDA","shlobj_core/CIDA","shlobj_core/LPIDA"]
 old-location: shell\CIDA.htm
 tech.root: shell
 ms.assetid: 30caf91d-8f3c-48ea-ad64-47f919f33f1d

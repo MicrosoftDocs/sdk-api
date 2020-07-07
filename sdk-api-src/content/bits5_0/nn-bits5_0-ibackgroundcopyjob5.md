@@ -1,7 +1,8 @@
 ---
 UID: NN:bits5_0.IBackgroundCopyJob5
 title: IBackgroundCopyJob5 (bits5_0.h)
-description: Use this interface to query or set several optional behaviors of a job.helpviewer_keywords: ["IBackgroundCopyJob5","IBackgroundCopyJob5 interface [BITS]","IBackgroundCopyJob5 interface [BITS]","described","bits.bits5_functions","bits.ibackgroundcopyjob5","bits5_0/IBackgroundCopyJob5"]
+description: Use this interface to query or set several optional behaviors of a job.
+helpviewer_keywords: ["IBackgroundCopyJob5","IBackgroundCopyJob5 interface [BITS]","IBackgroundCopyJob5 interface [BITS]","described","bits.bits5_functions","bits.ibackgroundcopyjob5","bits5_0/IBackgroundCopyJob5"]
 old-location: bits\bits5_functions.htm
 tech.root: Bits
 ms.assetid: 97481F9D-1F7B-473A-B288-A52E527478A0

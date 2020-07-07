@@ -1,7 +1,8 @@
 ---
 UID: NS:hrtfapoapi.HrtfDirectivityCardioid
 title: HrtfDirectivityCardioid (hrtfapoapi.h)
-description: Describes a cardioid directivity pattern.helpviewer_keywords: ["HrtfDirectivityCardioid","HrtfDirectivityCardioid structure [XAudio2 Audio Mixing APIs]","PHrtfDirectivityCardioid","PHrtfDirectivityCardioid structure pointer [XAudio2 Audio Mixing APIs]","hrtfapoapi/HrtfDirectivityCardioid","hrtfapoapi/PHrtfDirectivityCardioid","xaudio2.hrtfdirectivitycardioid"]
+description: Describes a cardioid directivity pattern.
+helpviewer_keywords: ["HrtfDirectivityCardioid","HrtfDirectivityCardioid structure [XAudio2 Audio Mixing APIs]","PHrtfDirectivityCardioid","PHrtfDirectivityCardioid structure pointer [XAudio2 Audio Mixing APIs]","hrtfapoapi/HrtfDirectivityCardioid","hrtfapoapi/PHrtfDirectivityCardioid","xaudio2.hrtfdirectivitycardioid"]
 old-location: xaudio2\hrtfdirectivitycardioid.htm
 tech.root: xaudio2
 ms.assetid: 0705BB4C-01FE-434A-889B-F0D24D06DEF3

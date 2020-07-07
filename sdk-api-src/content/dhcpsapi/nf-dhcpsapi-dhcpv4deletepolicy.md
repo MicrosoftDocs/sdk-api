@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV4DeletePolicy
 title: DhcpV4DeletePolicy function (dhcpsapi.h)
-description: Deletes an existing policy from the DHCP Server.helpviewer_keywords: ["DhcpV4DeletePolicy","DhcpV4DeletePolicy function [DHCP]","dhcp.dhcpv4deletepolicy","dhcpsapi/DhcpV4DeletePolicy"]
+description: Deletes an existing policy from the DHCP Server.
+helpviewer_keywords: ["DhcpV4DeletePolicy","DhcpV4DeletePolicy function [DHCP]","dhcp.dhcpv4deletepolicy","dhcpsapi/DhcpV4DeletePolicy"]
 old-location: dhcp\dhcpv4deletepolicy.htm
 tech.root: DHCP
 ms.assetid: 94e6ad23-3e38-4ee2-bc3a-8d7ff1b21eca

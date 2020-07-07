@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.FreePropVariantArray
 title: FreePropVariantArray function (combaseapi.h)
-description: The FreePropVariantArray function calls PropVariantClear on each of the PROPVARIANT structures in the rgvars array to make the value zero for each of the members of the array.helpviewer_keywords: ["FreePropVariantArray","FreePropVariantArray function [Structured Storage]","_stg_freepropvariantarray","combaseapi/FreePropVariantArray","stg.freepropvariantarray"]
+description: The FreePropVariantArray function calls PropVariantClear on each of the PROPVARIANT structures in the rgvars array to make the value zero for each of the members of the array.
+helpviewer_keywords: ["FreePropVariantArray","FreePropVariantArray function [Structured Storage]","_stg_freepropvariantarray","combaseapi/FreePropVariantArray","stg.freepropvariantarray"]
 old-location: stg\freepropvariantarray.htm
 tech.root: Stg
 ms.assetid: 2eefb57e-9311-46e1-9eed-e25aa3b5afaa

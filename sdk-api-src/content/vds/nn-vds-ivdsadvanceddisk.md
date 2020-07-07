@@ -1,7 +1,8 @@
 ---
 UID: NN:vds.IVdsAdvancedDisk
 title: IVdsAdvancedDisk (vds.h)
-description: Creates and deletes partitions, and modifies partition attributes.helpviewer_keywords: ["IVdsAdvancedDisk","IVdsAdvancedDisk interface [VDS]","IVdsAdvancedDisk interface [VDS]","described","base.ivdsadvanceddisk","vds/IVdsAdvancedDisk"]
+description: Creates and deletes partitions, and modifies partition attributes.
+helpviewer_keywords: ["IVdsAdvancedDisk","IVdsAdvancedDisk interface [VDS]","IVdsAdvancedDisk interface [VDS]","described","base.ivdsadvanceddisk","vds/IVdsAdvancedDisk"]
 old-location: base\ivdsadvanceddisk.htm
 tech.root: VDS
 ms.assetid: 6b5e1bff-e7e8-4403-99ff-6dc97d113f37

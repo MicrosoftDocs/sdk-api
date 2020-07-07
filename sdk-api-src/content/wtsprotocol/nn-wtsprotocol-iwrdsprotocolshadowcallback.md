@@ -1,7 +1,8 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolShadowCallback
 title: IWRdsProtocolShadowCallback (wtsprotocol.h)
-description: Exposes methods called by the protocol to notify the Remote Desktop Services service to start or stop the target side of a shadow.helpviewer_keywords: ["IWRdsProtocolShadowCallback","IWRdsProtocolShadowCallback interface [Remote Desktop Services]","IWRdsProtocolShadowCallback interface [Remote Desktop Services]","described","termserv.iwrdsprotocolshadowcallback","wtsprotocol/IWRdsProtocolShadowCallback"]
+description: Exposes methods called by the protocol to notify the Remote Desktop Services service to start or stop the target side of a shadow.
+helpviewer_keywords: ["IWRdsProtocolShadowCallback","IWRdsProtocolShadowCallback interface [Remote Desktop Services]","IWRdsProtocolShadowCallback interface [Remote Desktop Services]","described","termserv.iwrdsprotocolshadowcallback","wtsprotocol/IWRdsProtocolShadowCallback"]
 old-location: termserv\iwrdsprotocolshadowcallback.htm
 tech.root: TermServ
 ms.assetid: 47727d33-df3d-49da-bc82-a4ed5ce0a381

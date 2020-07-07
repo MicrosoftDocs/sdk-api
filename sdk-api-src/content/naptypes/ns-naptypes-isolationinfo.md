@@ -1,7 +1,8 @@
 ---
 UID: NS:naptypes.tagIsolationInfo
 title: IsolationInfo (naptypes.h)
-description: Defines the isolation status of the machine or the connection.helpviewer_keywords: ["IsolationInfo","IsolationInfo structure [NAP]","nap.isolationinfo_struct","naptypes/IsolationInfo"]
+description: Defines the isolation status of the machine or the connection.
+helpviewer_keywords: ["IsolationInfo","IsolationInfo structure [NAP]","nap.isolationinfo_struct","naptypes/IsolationInfo"]
 old-location: nap\isolationinfo_struct.htm
 tech.root: NAP
 ms.assetid: ab5e54ab-de5d-489d-bff7-3be4f3973e7a

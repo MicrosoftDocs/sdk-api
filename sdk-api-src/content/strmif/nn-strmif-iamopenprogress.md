@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IAMOpenProgress
 title: IAMOpenProgress (strmif.h)
-description: The IAMOpenProgress interface reports the progress of a file-open operation and enables the application to cancel the operation.Filters that open files over a network can expose this interface.helpviewer_keywords: ["IAMOpenProgress","IAMOpenProgress interface [DirectShow]","IAMOpenProgress interface [DirectShow]","described","IAMOpenProgressInterface","dshow.iamopenprogress","strmif/IAMOpenProgress"]
+description: The IAMOpenProgress interface reports the progress of a file-open operation and enables the application to cancel the operation.Filters that open files over a network can expose this interface.
+helpviewer_keywords: ["IAMOpenProgress","IAMOpenProgress interface [DirectShow]","IAMOpenProgress interface [DirectShow]","described","IAMOpenProgressInterface","dshow.iamopenprogress","strmif/IAMOpenProgress"]
 old-location: dshow\iamopenprogress.htm
 tech.root: DirectShow
 ms.assetid: 31021c83-ee83-49c3-a089-31184756fb0d

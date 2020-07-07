@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.GetCount
 title: IPropertyChangeArray::GetCount (propsys.h)
-description: Gets the number of change operations in the array.helpviewer_keywords: ["GetCount","GetCount method [Windows Properties]","GetCount method [Windows Properties]","IPropertyChangeArray interface","IPropertyChangeArray interface [Windows Properties]","GetCount method","IPropertyChangeArray.GetCount","IPropertyChangeArray::GetCount","_shell_IPropertyChangeArray_GetCount","properties.IPropertyChangeArray_GetCount","propsys/IPropertyChangeArray::GetCount","shell.IPropertyChangeArray_GetCount"]
+description: Gets the number of change operations in the array.
+helpviewer_keywords: ["GetCount","GetCount method [Windows Properties]","GetCount method [Windows Properties]","IPropertyChangeArray interface","IPropertyChangeArray interface [Windows Properties]","GetCount method","IPropertyChangeArray.GetCount","IPropertyChangeArray::GetCount","_shell_IPropertyChangeArray_GetCount","properties.IPropertyChangeArray_GetCount","propsys/IPropertyChangeArray::GetCount","shell.IPropertyChangeArray_GetCount"]
 old-location: properties\IPropertyChangeArray_GetCount.htm
 tech.root: properties
 ms.assetid: b87db827-2eb1-4463-aa6a-10591b200adf

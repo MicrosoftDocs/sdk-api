@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSaveJob.EndSave
 title: IMFSaveJob::EndSave (mfidl.h)
-description: Completes the operation started by IMFSaveJob::BeginSave.helpviewer_keywords: ["9d63d7b5-4454-4301-b467-eea82bace6ff","EndSave","EndSave method [Media Foundation]","EndSave method [Media Foundation]","IMFSaveJob interface","IMFSaveJob interface [Media Foundation]","EndSave method","IMFSaveJob.EndSave","IMFSaveJob::EndSave","mf.imfsavejob_endsave","mfidl/IMFSaveJob::EndSave"]
+description: Completes the operation started by IMFSaveJob::BeginSave.
+helpviewer_keywords: ["9d63d7b5-4454-4301-b467-eea82bace6ff","EndSave","EndSave method [Media Foundation]","EndSave method [Media Foundation]","IMFSaveJob interface","IMFSaveJob interface [Media Foundation]","EndSave method","IMFSaveJob.EndSave","IMFSaveJob::EndSave","mf.imfsavejob_endsave","mfidl/IMFSaveJob::EndSave"]
 old-location: mf\imfsavejob_endsave.htm
 tech.root: medfound
 ms.assetid: 9d63d7b5-4454-4301-b467-eea82bace6ff

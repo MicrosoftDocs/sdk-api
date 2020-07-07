@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetCreator
 title: IScheduledWorkItem::SetCreator (mstask.h)
-description: Sets the name of the work item's creator.helpviewer_keywords: ["IScheduledWorkItem interface [Task Scheduler]","SetCreator method","IScheduledWorkItem.SetCreator","IScheduledWorkItem::SetCreator","SetCreator","SetCreator method [Task Scheduler]","SetCreator method [Task Scheduler]","IScheduledWorkItem interface","_msb_ischeduledworkitem_setcreator","mstask/IScheduledWorkItem::SetCreator","taskschd.ischeduledworkitem_setcreator"]
+description: Sets the name of the work item's creator.
+helpviewer_keywords: ["IScheduledWorkItem interface [Task Scheduler]","SetCreator method","IScheduledWorkItem.SetCreator","IScheduledWorkItem::SetCreator","SetCreator","SetCreator method [Task Scheduler]","SetCreator method [Task Scheduler]","IScheduledWorkItem interface","_msb_ischeduledworkitem_setcreator","mstask/IScheduledWorkItem::SetCreator","taskschd.ischeduledworkitem_setcreator"]
 old-location: taskschd\ischeduledworkitem_setcreator.htm
 tech.root: taskschd
 ms.assetid: e15c6aba-79f7-407f-81d1-b7ec404c68f9

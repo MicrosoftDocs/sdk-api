@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.TpSetCallbackPriority
 title: TpSetCallbackPriority function (winnt.h)
-description: Specifies the priority of a callback function relative to other work items in the same thread pool.helpviewer_keywords: ["TP_CALLBACK_PRIORITY_HIGH","TP_CALLBACK_PRIORITY_LOW","TP_CALLBACK_PRIORITY_NORMAL","TpSetCallbackPriority","TpSetCallbackPriority function","base.tpsetcallbackpriority","winnt/TpSetCallbackPriority"]
+description: Specifies the priority of a callback function relative to other work items in the same thread pool.
+helpviewer_keywords: ["TP_CALLBACK_PRIORITY_HIGH","TP_CALLBACK_PRIORITY_LOW","TP_CALLBACK_PRIORITY_NORMAL","TpSetCallbackPriority","TpSetCallbackPriority function","base.tpsetcallbackpriority","winnt/TpSetCallbackPriority"]
 old-location: base\tpsetcallbackpriority.htm
 tech.root: ProcThread
 ms.assetid: 3A2DA8CA-D5F2-442A-B152-11AB28681B5B

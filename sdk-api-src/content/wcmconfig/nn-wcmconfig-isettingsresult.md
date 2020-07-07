@@ -1,7 +1,8 @@
 ---
 UID: NN:wcmconfig.ISettingsResult
 title: ISettingsResult (wcmconfig.h)
-description: Retrieves the code and description for errors and warnings returned by various operations.helpviewer_keywords: ["ISettingsResult","ISettingsResult interface [SMI]","ISettingsResult interface [SMI]","described","smi.isettingsresult","wcmconfig/ISettingsResult"]
+description: Retrieves the code and description for errors and warnings returned by various operations.
+helpviewer_keywords: ["ISettingsResult","ISettingsResult interface [SMI]","ISettingsResult interface [SMI]","described","smi.isettingsresult","wcmconfig/ISettingsResult"]
 old-location: smi\isettingsresult.htm
 tech.root: SMI
 ms.assetid: 0bbfd39a-0292-4d8e-ae31-f45aebd326a7

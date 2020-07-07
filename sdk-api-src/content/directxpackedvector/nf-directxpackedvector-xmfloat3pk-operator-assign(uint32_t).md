@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3PK.operator-assign(uint32_t)
 title: XMFLOAT3PK::operator-assign(uint32_t) (directxpackedvector.h)
-description: This operator assigns the vector component data packed in an instance of uint32_t to the current instance of XMFLOAT3PK.helpviewer_keywords: ["XMFLOAT3PK structure [DirectX Math Support APIs]","operator = method","XMFLOAT3PK.operator =(const uint32_t)","XMFLOAT3PK.operator-assign(uint32_t)","XMFLOAT3PK.operator=","XMFLOAT3PK::operator-assign(uint32_t)","XMFLOAT3PK::operator=","dxmath.xmfloat3pk_operator_eq_2","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMFLOAT3PK structure","operator="]
+description: This operator assigns the vector component data packed in an instance of uint32_t to the current instance of XMFLOAT3PK.
+helpviewer_keywords: ["XMFLOAT3PK structure [DirectX Math Support APIs]","operator = method","XMFLOAT3PK.operator =(const uint32_t)","XMFLOAT3PK.operator-assign(uint32_t)","XMFLOAT3PK.operator=","XMFLOAT3PK::operator-assign(uint32_t)","XMFLOAT3PK::operator=","dxmath.xmfloat3pk_operator_eq_2","operator = method [DirectX Math Support APIs]","operator = method [DirectX Math Support APIs]","XMFLOAT3PK structure","operator="]
 old-location: dxmath\xmfloat3pk_operator_eq_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3PK.operator = (const uint32_t)

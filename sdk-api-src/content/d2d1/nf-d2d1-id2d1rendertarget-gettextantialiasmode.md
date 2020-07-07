@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.GetTextAntialiasMode
 title: ID2D1RenderTarget::GetTextAntialiasMode (d2d1.h)
-description: Gets the current antialiasing mode for text and glyph drawing operations.helpviewer_keywords: ["GetTextAntialiasMode","GetTextAntialiasMode method [Direct2D]","GetTextAntialiasMode method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetTextAntialiasMode method","ID2D1RenderTarget.GetTextAntialiasMode","ID2D1RenderTarget::GetTextAntialiasMode","d2d1/ID2D1RenderTarget::GetTextAntialiasMode","direct2d.ID2D1RenderTarget_GetTextAntialiasMode"]
+description: Gets the current antialiasing mode for text and glyph drawing operations.
+helpviewer_keywords: ["GetTextAntialiasMode","GetTextAntialiasMode method [Direct2D]","GetTextAntialiasMode method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","GetTextAntialiasMode method","ID2D1RenderTarget.GetTextAntialiasMode","ID2D1RenderTarget::GetTextAntialiasMode","d2d1/ID2D1RenderTarget::GetTextAntialiasMode","direct2d.ID2D1RenderTarget_GetTextAntialiasMode"]
 old-location: direct2d\ID2D1RenderTarget_GetTextAntialiasMode.htm
 tech.root: Direct2D
 ms.assetid: c9d4ecd9-816d-43b2-adcf-25ac595279f4
@@ -63,7 +64,7 @@ Gets the current antialiasing mode for text and glyph drawing operations.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_text_antialias_mode">D2D1_TEXT_ANTIALIAS_MODE</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_text_antialias_mode">D2D1_TEXT_ANTIALIAS_MODE</a></b>
 
 The current antialiasing mode for text and glyph drawing operations. 
 
@@ -75,11 +76,11 @@ The current antialiasing mode for text and glyph drawing operations.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rendertarget">ID2D1RenderTarget</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-settextantialiasmode">SetTextAntialiasMode</a>
  
 
  

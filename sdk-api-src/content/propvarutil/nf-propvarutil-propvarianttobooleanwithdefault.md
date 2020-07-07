@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantToBooleanWithDefault
 title: PropVariantToBooleanWithDefault function (propvarutil.h)
-description: Extracts the Boolean property value of a PROPVARIANT structure. If no value exists, then the specified default value is returned.helpviewer_keywords: ["PropVariantToBooleanWithDefault","PropVariantToBooleanWithDefault function [Windows Properties]","properties.PropVariantToBooleanWithDefault","propvarutil/PropVariantToBooleanWithDefault","shell.PropVariantToBooleanWithDefault","shell_PropVariantToBooleanWithDefault"]
+description: Extracts the Boolean property value of a PROPVARIANT structure. If no value exists, then the specified default value is returned.
+helpviewer_keywords: ["PropVariantToBooleanWithDefault","PropVariantToBooleanWithDefault function [Windows Properties]","properties.PropVariantToBooleanWithDefault","propvarutil/PropVariantToBooleanWithDefault","shell.PropVariantToBooleanWithDefault","shell_PropVariantToBooleanWithDefault"]
 old-location: properties\PropVariantToBooleanWithDefault.htm
 tech.root: properties
 ms.assetid: 223767a7-a4de-4e7e-ad8b-2a6bdcea0a47

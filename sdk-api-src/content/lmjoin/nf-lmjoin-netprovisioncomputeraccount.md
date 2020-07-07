@@ -1,7 +1,8 @@
 ---
 UID: NF:lmjoin.NetProvisionComputerAccount
 title: NetProvisionComputerAccount function (lmjoin.h)
-description: Provisions a computer account for later use in an offline domain join operation.helpviewer_keywords: ["NETSETUP_PROVISION_DOWNLEVEL_PRIV_SUPPORT","NETSETUP_PROVISION_REUSE_ACCOUNT","NETSETUP_PROVISION_ROOT_CA_CERTS","NETSETUP_PROVISION_SKIP_ACCOUNT_SEARCH","NETSETUP_PROVISION_USE_DEFAULT_PASSWORD","NetProvisionComputerAccount","NetProvisionComputerAccount function [Network Management]","Offline Domain Join","lmjoin/NetProvisionComputerAccount","netmgmt.netprovisioncomputeraccount"]
+description: Provisions a computer account for later use in an offline domain join operation.
+helpviewer_keywords: ["NETSETUP_PROVISION_DOWNLEVEL_PRIV_SUPPORT","NETSETUP_PROVISION_REUSE_ACCOUNT","NETSETUP_PROVISION_ROOT_CA_CERTS","NETSETUP_PROVISION_SKIP_ACCOUNT_SEARCH","NETSETUP_PROVISION_USE_DEFAULT_PASSWORD","NetProvisionComputerAccount","NetProvisionComputerAccount function [Network Management]","Offline Domain Join","lmjoin/NetProvisionComputerAccount","netmgmt.netprovisioncomputeraccount"]
 old-location: netmgmt\netprovisioncomputeraccount.htm
 tech.root: NetMgmt
 ms.assetid: 4c854258-b84d-4ef3-a6da-ce0a9540ffd5

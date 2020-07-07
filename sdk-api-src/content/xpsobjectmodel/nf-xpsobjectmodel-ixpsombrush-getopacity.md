@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMBrush.GetOpacity
 title: IXpsOMBrush::GetOpacity (xpsobjectmodel.h)
-description: Gets the opacity of the brush.helpviewer_keywords: ["GetOpacity","GetOpacity method [XPS Documents and Packaging]","GetOpacity method [XPS Documents and Packaging]","IXpsOMBrush interface","IXpsOMBrush interface [XPS Documents and Packaging]","GetOpacity method","IXpsOMBrush.GetOpacity","IXpsOMBrush::GetOpacity","xps.ixpsombrush_getopacity","xpsobjectmodel/IXpsOMBrush::GetOpacity"]
+description: Gets the opacity of the brush.
+helpviewer_keywords: ["GetOpacity","GetOpacity method [XPS Documents and Packaging]","GetOpacity method [XPS Documents and Packaging]","IXpsOMBrush interface","IXpsOMBrush interface [XPS Documents and Packaging]","GetOpacity method","IXpsOMBrush.GetOpacity","IXpsOMBrush::GetOpacity","xps.ixpsombrush_getopacity","xpsobjectmodel/IXpsOMBrush::GetOpacity"]
 old-location: xps\ixpsombrush_getopacity.htm
 tech.root: printdocs
 ms.assetid: 53819ce0-4b81-4720-8c1d-6e9031b228c9

@@ -1,7 +1,8 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.get_ErrorCode
 title: IAsyncInfo::get_ErrorCode (asyncinfo.h)
-description: Retrieves the termination status of the asynchronous operation.helpviewer_keywords: ["ErrorCode property [Windows Runtime]","ErrorCode property [Windows Runtime]","IAsyncInfo interface","IAsyncInfo interface [Windows Runtime]","ErrorCode property","IAsyncInfo.ErrorCode","IAsyncInfo.get_ErrorCode","IAsyncInfo::ErrorCode","IAsyncInfo::get_ErrorCode","asyncinfo/IAsyncInfo::ErrorCode","asyncinfo/IAsyncInfo::get_ErrorCode","get_ErrorCode","winrt.iasyncinfo_errorcode"]
+description: Retrieves the termination status of the asynchronous operation.
+helpviewer_keywords: ["ErrorCode property [Windows Runtime]","ErrorCode property [Windows Runtime]","IAsyncInfo interface","IAsyncInfo interface [Windows Runtime]","ErrorCode property","IAsyncInfo.ErrorCode","IAsyncInfo.get_ErrorCode","IAsyncInfo::ErrorCode","IAsyncInfo::get_ErrorCode","asyncinfo/IAsyncInfo::ErrorCode","asyncinfo/IAsyncInfo::get_ErrorCode","get_ErrorCode","winrt.iasyncinfo_errorcode"]
 old-location: winrt\iasyncinfo_errorcode.htm
 tech.root: WinRT
 ms.assetid: 1de13cb9-3f1f-44b5-984f-8e7ccb31cec9

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IMediaSample.GetTime
 title: IMediaSample::GetTime (strmif.h)
-description: The GetTime method retrieves the stream times at which this sample should begin and finish.helpviewer_keywords: ["GetTime","GetTime method [DirectShow]","GetTime method [DirectShow]","IMediaSample interface","IMediaSample interface [DirectShow]","GetTime method","IMediaSample.GetTime","IMediaSample::GetTime","IMediaSampleGetTime","dshow.imediasample_gettime","strmif/IMediaSample::GetTime"]
+description: The GetTime method retrieves the stream times at which this sample should begin and finish.
+helpviewer_keywords: ["GetTime","GetTime method [DirectShow]","GetTime method [DirectShow]","IMediaSample interface","IMediaSample interface [DirectShow]","GetTime method","IMediaSample.GetTime","IMediaSample::GetTime","IMediaSampleGetTime","dshow.imediasample_gettime","strmif/IMediaSample::GetTime"]
 old-location: dshow\imediasample_gettime.htm
 tech.root: DirectShow
 ms.assetid: f5e95ef3-a101-41c4-8947-f099fcd2490e

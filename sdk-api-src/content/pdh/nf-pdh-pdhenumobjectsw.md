@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhEnumObjectsW
 title: PdhEnumObjectsW function (pdh.h)
-description: Returns a list of objects available on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectsH function.helpviewer_keywords: ["FALSE","PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PdhEnumObjects","PdhEnumObjects function [Perf]","PdhEnumObjectsA","PdhEnumObjectsW","TRUE","_win32_pdhenumobjects","base.pdhenumobjects","pdh/PdhEnumObjects","pdh/PdhEnumObjectsA","pdh/PdhEnumObjectsW","perf.pdhenumobjects"]
+description: Returns a list of objects available on the specified computer or in the specified log file. To use handles to data sources, use the PdhEnumObjectsH function.
+helpviewer_keywords: ["FALSE","PERF_DETAIL_ADVANCED","PERF_DETAIL_EXPERT","PERF_DETAIL_NOVICE","PERF_DETAIL_WIZARD","PdhEnumObjects","PdhEnumObjects function [Perf]","PdhEnumObjectsA","PdhEnumObjectsW","TRUE","_win32_pdhenumobjects","base.pdhenumobjects","pdh/PdhEnumObjects","pdh/PdhEnumObjectsA","pdh/PdhEnumObjectsW","perf.pdhenumobjects"]
 old-location: perf\pdhenumobjects.htm
 tech.root: perfctrs
 ms.assetid: dfa4b10f-5134-4620-a6b0-0fa2c13a33ec
@@ -259,6 +260,10 @@ You should call this function twice, the first time to get the required buffer s
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhEnumObjects as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

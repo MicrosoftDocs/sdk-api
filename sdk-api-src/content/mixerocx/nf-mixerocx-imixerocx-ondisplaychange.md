@@ -1,7 +1,8 @@
 ---
 UID: NF:mixerocx.IMixerOCX.OnDisplayChange
 title: IMixerOCX::OnDisplayChange (mixerocx.h)
-description: The OnDisplayChange method informs the Overlay Mixer that the monitor's display settings have changed. (Not implemented.).helpviewer_keywords: ["IMixerOCX interface [DirectShow]","OnDisplayChange method","IMixerOCX.OnDisplayChange","IMixerOCX::OnDisplayChange","IMixerOCXOnDisplayChange","OnDisplayChange","OnDisplayChange method [DirectShow]","OnDisplayChange method [DirectShow]","IMixerOCX interface","dshow.imixerocx_ondisplaychange","mixerocx/IMixerOCX::OnDisplayChange"]
+description: The OnDisplayChange method informs the Overlay Mixer that the monitor's display settings have changed. (Not implemented.).
+helpviewer_keywords: ["IMixerOCX interface [DirectShow]","OnDisplayChange method","IMixerOCX.OnDisplayChange","IMixerOCX::OnDisplayChange","IMixerOCXOnDisplayChange","OnDisplayChange","OnDisplayChange method [DirectShow]","OnDisplayChange method [DirectShow]","IMixerOCX interface","dshow.imixerocx_ondisplaychange","mixerocx/IMixerOCX::OnDisplayChange"]
 old-location: dshow\imixerocx_ondisplaychange.htm
 tech.root: DirectShow
 ms.assetid: 5d082ab6-6195-417b-ad0d-b8e97561b268

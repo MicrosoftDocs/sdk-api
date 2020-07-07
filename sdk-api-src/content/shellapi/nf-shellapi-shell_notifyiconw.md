@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.Shell_NotifyIconW
 title: Shell_NotifyIconW function (shellapi.h)
-description: Sends a message to the taskbar's status area.helpviewer_keywords: ["NIM_ADD","NIM_DELETE","NIM_MODIFY","NIM_SETFOCUS","NIM_SETVERSION","Shell_NotifyIcon","Shell_NotifyIcon function [Windows Shell]","Shell_NotifyIconA","Shell_NotifyIconW","_win32_Shell_NotifyIcon","shell.Shell_NotifyIcon","shellapi/Shell_NotifyIcon","shellapi/Shell_NotifyIconA","shellapi/Shell_NotifyIconW"]
+description: Sends a message to the taskbar's status area.
+helpviewer_keywords: ["NIM_ADD","NIM_DELETE","NIM_MODIFY","NIM_SETFOCUS","NIM_SETVERSION","Shell_NotifyIcon","Shell_NotifyIcon function [Windows Shell]","Shell_NotifyIconA","Shell_NotifyIconW","_win32_Shell_NotifyIcon","shell.Shell_NotifyIcon","shellapi/Shell_NotifyIcon","shellapi/Shell_NotifyIconA","shellapi/Shell_NotifyIconW"]
 old-location: shell\Shell_NotifyIcon.htm
 tech.root: shell
 ms.assetid: a316bc29-5f19-4a04-a32b-f4caeea0c029
@@ -187,6 +188,10 @@ As of Windows XP Service Pack 2 (SP2), a custom icon can be displayed in the n
 
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines Shell_NotifyIcon as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

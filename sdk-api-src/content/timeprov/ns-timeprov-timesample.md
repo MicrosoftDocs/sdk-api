@@ -1,7 +1,8 @@
 ---
 UID: NS:timeprov.TimeSample
 title: TimeSample (timeprov.h)
-description: Represents a time sample.helpviewer_keywords: ["TSF_Authenticated","TSF_Hardware","TimeSample","TimeSample structure","_win32_timesample_str","base.timesample_str","timeprov/TimeSample"]
+description: Represents a time sample.
+helpviewer_keywords: ["TSF_Authenticated","TSF_Hardware","TimeSample","TimeSample structure","_win32_timesample_str","base.timesample_str","timeprov/TimeSample"]
 old-location: base\timesample_str.htm
 tech.root: SysInfo
 ms.assetid: 020a6502-3357-4800-8fc4-0d73ae42aa51

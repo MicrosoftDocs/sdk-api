@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.ITraceDataCollector.get_SessionId
 title: ITraceDataCollector::get_SessionId (pla.h)
-description: Retrieves the session identifier.helpviewer_keywords: ["ITraceDataCollector interface [PLA]","SessionId property","ITraceDataCollector.SessionId","ITraceDataCollector.get_SessionId","ITraceDataCollector::SessionId","ITraceDataCollector::get_SessionId","SessionId property [PLA]","SessionId property [PLA]","ITraceDataCollector interface","base.itracedatacollector_sessionid","get_SessionId","pla.itracedatacollector_sessionid","pla/ITraceDataCollector::SessionId","pla/ITraceDataCollector::get_SessionId"]
+description: Retrieves the session identifier.
+helpviewer_keywords: ["ITraceDataCollector interface [PLA]","SessionId property","ITraceDataCollector.SessionId","ITraceDataCollector.get_SessionId","ITraceDataCollector::SessionId","ITraceDataCollector::get_SessionId","SessionId property [PLA]","SessionId property [PLA]","ITraceDataCollector interface","base.itracedatacollector_sessionid","get_SessionId","pla.itracedatacollector_sessionid","pla/ITraceDataCollector::SessionId","pla/ITraceDataCollector::get_SessionId"]
 old-location: pla\itracedatacollector_sessionid.htm
 tech.root: PLA
 ms.assetid: bcbe5dba-6d45-4b0a-a66a-68ce03b493bf

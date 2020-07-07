@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase._lread
 title: _lread function (winbase.h)
-description: The _lread function reads data from the specified file. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the ReadFile function.helpviewer_keywords: ["_lread","_lread function [Windows API]","winbase/_lread","winprog._lread"]
+description: The _lread function reads data from the specified file. This function is provided for compatibility with 16-bit versions of Windows. Win32-based applications should use the ReadFile function.
+helpviewer_keywords: ["_lread","_lread function [Windows API]","winbase/_lread","winprog._lread"]
 old-location: winprog\_lread.htm
 tech.root: DevNotes
 ms.assetid: A5374B2B-12EC-4130-8D21-1801D1D72524

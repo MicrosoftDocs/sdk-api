@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite.IDWriteTypography
 title: IDWriteTypography (dwrite.h)
-description: Represents a font typography setting.helpviewer_keywords: ["IDWriteTypography","IDWriteTypography interface [Direct Write]","IDWriteTypography interface [Direct Write]","described","directwrite.IDWriteTypography","dwrite/IDWriteTypography"]
+description: Represents a font typography setting.
+helpviewer_keywords: ["IDWriteTypography","IDWriteTypography interface [Direct Write]","IDWriteTypography interface [Direct Write]","described","directwrite.IDWriteTypography","dwrite/IDWriteTypography"]
 old-location: directwrite\IDWriteTypography.htm
 tech.root: DirectWrite
 ms.assetid: 061f42db-e9df-4d8c-981f-68d440dfc4c2

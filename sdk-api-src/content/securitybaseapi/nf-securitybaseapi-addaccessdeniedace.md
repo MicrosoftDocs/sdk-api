@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.AddAccessDeniedAce
 title: AddAccessDeniedAce function (securitybaseapi.h)
-description: Adds an access-denied access control entry (ACE) to an access control list (ACL). The access is denied to a specified security identifier (SID).helpviewer_keywords: ["AddAccessDeniedAce","AddAccessDeniedAce function [Security]","_win32_addaccessdeniedace","security.addaccessdeniedace","securitybaseapi/AddAccessDeniedAce"]
+description: Adds an access-denied access control entry (ACE) to an access control list (ACL). The access is denied to a specified security identifier (SID).
+helpviewer_keywords: ["AddAccessDeniedAce","AddAccessDeniedAce function [Security]","_win32_addaccessdeniedace","security.addaccessdeniedace","securitybaseapi/AddAccessDeniedAce"]
 old-location: security\addaccessdeniedace.htm
 tech.root: SecAuthZ
 ms.assetid: 5b4c4164-48f4-4cd5-b60e-554f2498d547

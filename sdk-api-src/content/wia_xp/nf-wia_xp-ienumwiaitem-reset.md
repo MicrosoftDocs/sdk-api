@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Reset
 title: IEnumWiaItem::Reset (wia_xp.h)
-description: The IEnumWiaItem::Reset method is used by applications to restart the enumeration of item information.helpviewer_keywords: ["IEnumWiaItem interface [WIA]","Reset method","IEnumWiaItem.Reset","IEnumWiaItem::Reset","Reset","Reset method [WIA]","Reset method [WIA]","IEnumWiaItem interface","_wia_IEnumWiaItem_Reset","wia._wia_IEnumWiaItem_Reset","wia_xp/IEnumWiaItem::Reset"]
+description: The IEnumWiaItem::Reset method is used by applications to restart the enumeration of item information.
+helpviewer_keywords: ["IEnumWiaItem interface [WIA]","Reset method","IEnumWiaItem.Reset","IEnumWiaItem::Reset","Reset","Reset method [WIA]","Reset method [WIA]","IEnumWiaItem interface","_wia_IEnumWiaItem_Reset","wia._wia_IEnumWiaItem_Reset","wia_xp/IEnumWiaItem::Reset"]
 old-location: wia\_wia_IEnumWiaItem_Reset.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwiaitem\reset.htm

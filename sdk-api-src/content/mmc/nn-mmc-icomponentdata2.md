@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IComponentData2
 title: IComponentData2 (mmc.h)
-description: The IComponentData2 interface supersedes the IComponentData interface.helpviewer_keywords: ["IComponentData2","IComponentData2 interface [MMC]","IComponentData2 interface [MMC]","described","_slate_icomponentdata2","mmc.icomponentdata2","mmc/IComponentData2"]
+description: The IComponentData2 interface supersedes the IComponentData interface.
+helpviewer_keywords: ["IComponentData2","IComponentData2 interface [MMC]","IComponentData2 interface [MMC]","described","_slate_icomponentdata2","mmc.icomponentdata2","mmc/IComponentData2"]
 old-location: mmc\icomponentdata2.htm
 tech.root: mmc
 ms.assetid: 75510d73-3d5e-4d4c-a38c-c560a41a0baa

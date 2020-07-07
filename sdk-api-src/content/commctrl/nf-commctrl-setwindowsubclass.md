@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.SetWindowSubclass
 title: SetWindowSubclass function (commctrl.h)
-description: Installs or updates a window subclass callback.helpviewer_keywords: ["SetWindowSubclass","SetWindowSubclass function [Windows Shell]","commctrl/SetWindowSubclass","inet_SetWindowSubclass","shell.SetWindowSubclass"]
+description: Installs or updates a window subclass callback.
+helpviewer_keywords: ["SetWindowSubclass","SetWindowSubclass function [Windows Shell]","commctrl/SetWindowSubclass","inet_SetWindowSubclass","shell.SetWindowSubclass"]
 old-location: shell\SetWindowSubclass.htm
 tech.root: shell
 ms.assetid: 0b11144d-eb4e-462c-96d3-38c4bac48f2a

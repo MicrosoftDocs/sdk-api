@@ -1,7 +1,8 @@
 ---
 UID: NF:fci.FNFCIDELETE
 title: FNFCIDELETE macro (fci.h)
-description: The FNFCIDELETE macro provides the declaration for the application-defined callback function to delete a file in the FCI context.helpviewer_keywords: ["FNFCIDELETE","FNFCIDELETE macro [Windows API]","fci/FNFCIDELETE","winprog.fnfcidelete"]
+description: The FNFCIDELETE macro provides the declaration for the application-defined callback function to delete a file in the FCI context.
+helpviewer_keywords: ["FNFCIDELETE","FNFCIDELETE macro [Windows API]","fci/FNFCIDELETE","winprog.fnfcidelete"]
 old-location: winprog\fnfcidelete.htm
 tech.root: DevNotes
 ms.assetid: 5c85ad86-2794-4f7c-8c10-18fea3519b11

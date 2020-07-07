@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IRawCDImageCreator.AddTrack
 title: IRawCDImageCreator::AddTrack (imapi2.h)
-description: Accepts the provided IStream object and saves the interface pointer as the next track in the image.helpviewer_keywords: ["AddTrack","AddTrack method [IMAPI]","AddTrack method [IMAPI]","IRawCDImageCreator interface","IRawCDImageCreator interface [IMAPI]","AddTrack method","IRawCDImageCreator.AddTrack","IRawCDImageCreator::AddTrack","imapi.irawcdimagecreator_addtrack","imapi2/IRawCDImageCreator::AddTrack"]
+description: Accepts the provided IStream object and saves the interface pointer as the next track in the image.
+helpviewer_keywords: ["AddTrack","AddTrack method [IMAPI]","AddTrack method [IMAPI]","IRawCDImageCreator interface","IRawCDImageCreator interface [IMAPI]","AddTrack method","IRawCDImageCreator.AddTrack","IRawCDImageCreator::AddTrack","imapi.irawcdimagecreator_addtrack","imapi2/IRawCDImageCreator::AddTrack"]
 old-location: imapi\irawcdimagecreator_addtrack.htm
 tech.root: imapi
 ms.assetid: 913393e8-6d60-4b1a-b482-32225860f714

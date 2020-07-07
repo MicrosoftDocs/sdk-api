@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IMTSCall.OnCall
 title: IMTSCall::OnCall (comsvcs.h)
-description: Triggers the execution of the batch work implemented in this method.helpviewer_keywords: ["IMTSCall interface [COM+]","OnCall method","IMTSCall.OnCall","IMTSCall::OnCall","OnCall","OnCall method [COM+]","OnCall method [COM+]","IMTSCall interface","_cos_IMTSCall_OnCall","comsvcs/IMTSCall::OnCall","cos.imtscall_oncall"]
+description: Triggers the execution of the batch work implemented in this method.
+helpviewer_keywords: ["IMTSCall interface [COM+]","OnCall method","IMTSCall.OnCall","IMTSCall::OnCall","OnCall","OnCall method [COM+]","OnCall method [COM+]","IMTSCall interface","_cos_IMTSCall_OnCall","comsvcs/IMTSCall::OnCall","cos.imtscall_oncall"]
 old-location: cos\imtscall_oncall.htm
 tech.root: cossdk
 ms.assetid: 410ed66e-db55-41e6-8f09-df4fe3aad3f2

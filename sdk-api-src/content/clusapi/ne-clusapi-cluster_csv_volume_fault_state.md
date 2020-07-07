@@ -1,7 +1,8 @@
 ---
 UID: NE:clusapi._CLUSTER_CSV_VOLUME_FAULT_STATE
 title: CLUSTER_CSV_VOLUME_FAULT_STATE (clusapi.h)
-description: Defines the various fault states for a cluster shared volume (CSV).helpviewer_keywords: ["*PCLUSTER_CSV_VOLUME_FAULT_STATE","CLUSTER_CSV_VOLUME_FAULT_STATE","CLUSTER_CSV_VOLUME_FAULT_STATE enumeration [Failover Cluster]","PCLUSTER_CSV_VOLUME_FAULT_STATE","PCLUSTER_CSV_VOLUME_FAULT_STATE enumeration pointer [Failover Cluster]","VolumeStateDismounted","VolumeStateInMaintenance","VolumeStateNoAccess","VolumeStateNoDirectIO","VolumeStateNoFaults","clusapi/CLUSTER_CSV_VOLUME_FAULT_STATE","clusapi/PCLUSTER_CSV_VOLUME_FAULT_STATE","clusapi/VolumeStateDismounted","clusapi/VolumeStateInMaintenance","clusapi/VolumeStateNoAccess","clusapi/VolumeStateNoDirectIO","clusapi/VolumeStateNoFaults","mscs.cluster_csv_volume_fault_state"]
+description: Defines the various fault states for a cluster shared volume (CSV).
+helpviewer_keywords: ["*PCLUSTER_CSV_VOLUME_FAULT_STATE","CLUSTER_CSV_VOLUME_FAULT_STATE","CLUSTER_CSV_VOLUME_FAULT_STATE enumeration [Failover Cluster]","PCLUSTER_CSV_VOLUME_FAULT_STATE","PCLUSTER_CSV_VOLUME_FAULT_STATE enumeration pointer [Failover Cluster]","VolumeStateDismounted","VolumeStateInMaintenance","VolumeStateNoAccess","VolumeStateNoDirectIO","VolumeStateNoFaults","clusapi/CLUSTER_CSV_VOLUME_FAULT_STATE","clusapi/PCLUSTER_CSV_VOLUME_FAULT_STATE","clusapi/VolumeStateDismounted","clusapi/VolumeStateInMaintenance","clusapi/VolumeStateNoAccess","clusapi/VolumeStateNoDirectIO","clusapi/VolumeStateNoFaults","mscs.cluster_csv_volume_fault_state"]
 old-location: mscs\cluster_csv_volume_fault_state.htm
 tech.root: MsCS
 ms.assetid: D3F065E5-3304-4B4E-BD85-04CAC050B001

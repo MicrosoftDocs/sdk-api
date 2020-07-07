@@ -1,7 +1,8 @@
 ---
 UID: NE:xpsobjectmodel.__MIDL___MIDL_itf_xpsobjectmodel_0000_0000_0009
 title: XPS_COLOR_TYPE (xpsobjectmodel.h)
-description: Describes the color type used by the XPS_COLOR structure.helpviewer_keywords: ["XPS_COLOR_TYPE","XPS_COLOR_TYPE enumeration [XPS Documents and Packaging]","XPS_COLOR_TYPE_CONTEXT","XPS_COLOR_TYPE_SCRGB","XPS_COLOR_TYPE_SRGB","xps.xps_color_type","xpsobjectmodel/XPS_COLOR_TYPE","xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT","xpsobjectmodel/XPS_COLOR_TYPE_SCRGB","xpsobjectmodel/XPS_COLOR_TYPE_SRGB"]
+description: Describes the color type used by the XPS_COLOR structure.
+helpviewer_keywords: ["XPS_COLOR_TYPE","XPS_COLOR_TYPE enumeration [XPS Documents and Packaging]","XPS_COLOR_TYPE_CONTEXT","XPS_COLOR_TYPE_SCRGB","XPS_COLOR_TYPE_SRGB","xps.xps_color_type","xpsobjectmodel/XPS_COLOR_TYPE","xpsobjectmodel/XPS_COLOR_TYPE_CONTEXT","xpsobjectmodel/XPS_COLOR_TYPE_SCRGB","xpsobjectmodel/XPS_COLOR_TYPE_SRGB"]
 old-location: xps\xps_color_type.htm
 tech.root: printdocs
 ms.assetid: 995576a6-ccca-4c0d-8346-2155801a2fbc

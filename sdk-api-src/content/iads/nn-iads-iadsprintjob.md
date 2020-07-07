@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsPrintJob
 title: IADsPrintJob (iads.h)
-description: The IADsPrintJob interface is a dual interface that inherits from IADs.helpviewer_keywords: ["IADsPrintJob","IADsPrintJob interface [ADSI]","IADsPrintJob interface [ADSI]","described","_ds_iadsprintjob","adsi.iadsprintjob","iads/IADsPrintJob"]
+description: The IADsPrintJob interface is a dual interface that inherits from IADs.
+helpviewer_keywords: ["IADsPrintJob","IADsPrintJob interface [ADSI]","IADsPrintJob interface [ADSI]","described","_ds_iadsprintjob","adsi.iadsprintjob","iads/IADsPrintJob"]
 old-location: adsi\iadsprintjob.htm
 tech.root: adsi
 ms.assetid: 82d61e39-4dbb-41c9-85d5-6f4e7ab7f66b

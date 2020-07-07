@@ -1,7 +1,8 @@
 ---
 UID: NS:amva._tag_AMVABeginFrameInfo
 title: AMVABeginFrameInfo (amva.h)
-description: The AMVABeginFrameInfo structure contains information for the IAMVideoAccelerator::BeginFrame method.helpviewer_keywords: ["*LPAMVABeginFrameInfo","AMVABeginFrameInfo","AMVABeginFrameInfo structure [DirectShow]","AMVABeginFrameInfoStructure","LPAMVABeginFrameInfo","LPAMVABeginFrameInfo structure pointer [DirectShow]","amva/AMVABeginFrameInfo","amva/LPAMVABeginFrameInfo","dshow.amvabeginframeinfo"]
+description: The AMVABeginFrameInfo structure contains information for the IAMVideoAccelerator::BeginFrame method.
+helpviewer_keywords: ["*LPAMVABeginFrameInfo","AMVABeginFrameInfo","AMVABeginFrameInfo structure [DirectShow]","AMVABeginFrameInfoStructure","LPAMVABeginFrameInfo","LPAMVABeginFrameInfo structure pointer [DirectShow]","amva/AMVABeginFrameInfo","amva/LPAMVABeginFrameInfo","dshow.amvabeginframeinfo"]
 old-location: dshow\amvabeginframeinfo.htm
 tech.root: DirectShow
 ms.assetid: 49af9094-86d5-4c11-b871-41f9984e0faf

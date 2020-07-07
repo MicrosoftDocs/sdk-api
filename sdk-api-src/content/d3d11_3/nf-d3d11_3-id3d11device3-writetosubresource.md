@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.WriteToSubresource
 title: ID3D11Device3::WriteToSubresource (d3d11_3.h)
-description: Copies data into a D3D11_USAGE_DEFAULTtexture which was mapped using ID3D11DeviceContext3::Mapwhile providing a NULL D3D11_MAPPED_SUBRESOURCEparameter.helpviewer_keywords: ["ID3D11Device3 interface [Direct3D 11]","WriteToSubresource method","ID3D11Device3.WriteToSubresource","ID3D11Device3::WriteToSubresource","WriteToSubresource","WriteToSubresource method [Direct3D 11]","WriteToSubresource method [Direct3D 11]","ID3D11Device3 interface","d3d11_3/ID3D11Device3::WriteToSubresource","direct3d11.id3d11device3_writetosubresource"]
+description: Copies data into a D3D11_USAGE_DEFAULTtexture which was mapped using ID3D11DeviceContext3::Mapwhile providing a NULL D3D11_MAPPED_SUBRESOURCEparameter.
+helpviewer_keywords: ["ID3D11Device3 interface [Direct3D 11]","WriteToSubresource method","ID3D11Device3.WriteToSubresource","ID3D11Device3::WriteToSubresource","WriteToSubresource","WriteToSubresource method [Direct3D 11]","WriteToSubresource method [Direct3D 11]","ID3D11Device3 interface","d3d11_3/ID3D11Device3::WriteToSubresource","direct3d11.id3d11device3_writetosubresource"]
 old-location: direct3d11\id3d11device3_writetosubresource.htm
 tech.root: direct3d11
 ms.assetid: DCA4A88D-3DCA-41D5-AE52-061A605A9CBF

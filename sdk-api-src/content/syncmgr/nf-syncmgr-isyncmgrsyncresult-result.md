@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrSyncResult.Result
 title: ISyncMgrSyncResult::Result (syncmgr.h)
-description: Gets the result of a StartHandlerSync or StartItemSync call.helpviewer_keywords: ["ISyncMgrSyncResult interface [Windows Shell]","Result method","ISyncMgrSyncResult.Result","ISyncMgrSyncResult::Result","Result","Result method [Windows Shell]","Result method [Windows Shell]","ISyncMgrSyncResult interface","_shell_ISyncMgrSyncResult_Result","shell.ISyncMgrSyncResult_Result","syncmgr/ISyncMgrSyncResult::Result"]
+description: Gets the result of a StartHandlerSync or StartItemSync call.
+helpviewer_keywords: ["ISyncMgrSyncResult interface [Windows Shell]","Result method","ISyncMgrSyncResult.Result","ISyncMgrSyncResult::Result","Result","Result method [Windows Shell]","Result method [Windows Shell]","ISyncMgrSyncResult interface","_shell_ISyncMgrSyncResult_Result","shell.ISyncMgrSyncResult_Result","syncmgr/ISyncMgrSyncResult::Result"]
 old-location: shell\ISyncMgrSyncResult_Result.htm
 tech.root: shell
 ms.assetid: 8ba7de05-0703-4bab-bf64-ae84f42fad69

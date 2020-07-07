@@ -1,7 +1,8 @@
 ---
 UID: NE:strmif.tagVideoProcAmpProperty
 title: VideoProcAmpProperty (strmif.h)
-description: The VideoProcAmpProperty enumeration specifies video properties on a video capture device.helpviewer_keywords: ["VideoProcAmpProperty","VideoProcAmpProperty enumeration [DirectShow]","VideoProcAmpPropertyEnumeration","VideoProcAmp_BacklightCompensation","VideoProcAmp_Brightness","VideoProcAmp_ColorEnable","VideoProcAmp_Contrast","VideoProcAmp_Gain","VideoProcAmp_Gamma","VideoProcAmp_Hue","VideoProcAmp_Saturation","VideoProcAmp_Sharpness","VideoProcAmp_WhiteBalance","dshow.videoprocampproperty","strmif/VideoProcAmpProperty","strmif/VideoProcAmp_BacklightCompensation","strmif/VideoProcAmp_Brightness","strmif/VideoProcAmp_ColorEnable","strmif/VideoProcAmp_Contrast","strmif/VideoProcAmp_Gain","strmif/VideoProcAmp_Gamma","strmif/VideoProcAmp_Hue","strmif/VideoProcAmp_Saturation","strmif/VideoProcAmp_Sharpness","strmif/VideoProcAmp_WhiteBalance"]
+description: The VideoProcAmpProperty enumeration specifies video properties on a video capture device.
+helpviewer_keywords: ["VideoProcAmpProperty","VideoProcAmpProperty enumeration [DirectShow]","VideoProcAmpPropertyEnumeration","VideoProcAmp_BacklightCompensation","VideoProcAmp_Brightness","VideoProcAmp_ColorEnable","VideoProcAmp_Contrast","VideoProcAmp_Gain","VideoProcAmp_Gamma","VideoProcAmp_Hue","VideoProcAmp_Saturation","VideoProcAmp_Sharpness","VideoProcAmp_WhiteBalance","dshow.videoprocampproperty","strmif/VideoProcAmpProperty","strmif/VideoProcAmp_BacklightCompensation","strmif/VideoProcAmp_Brightness","strmif/VideoProcAmp_ColorEnable","strmif/VideoProcAmp_Contrast","strmif/VideoProcAmp_Gain","strmif/VideoProcAmp_Gamma","strmif/VideoProcAmp_Hue","strmif/VideoProcAmp_Saturation","strmif/VideoProcAmp_Sharpness","strmif/VideoProcAmp_WhiteBalance"]
 old-location: dshow\videoprocampproperty.htm
 tech.root: DirectShow
 ms.assetid: 113e3896-4920-41a3-9ce2-a26c34af4896

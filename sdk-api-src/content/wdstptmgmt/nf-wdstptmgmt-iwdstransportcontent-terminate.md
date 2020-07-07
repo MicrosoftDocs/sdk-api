@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContent.Terminate
 title: IWdsTransportContent::Terminate (wdstptmgmt.h)
-description: Terminates the transmission of this content by terminating all active sessions under the content and disconnecting any clients that are joined to them.helpviewer_keywords: ["IWdsTransportContent interface [Windows Deployment Services]","Terminate method","IWdsTransportContent.Terminate","IWdsTransportContent::Terminate","Terminate","Terminate method [Windows Deployment Services]","Terminate method [Windows Deployment Services]","IWdsTransportContent interface","wds.iwdstransportcontent_terminate","wdstptmgmt/IWdsTransportContent::Terminate"]
+description: Terminates the transmission of this content by terminating all active sessions under the content and disconnecting any clients that are joined to them.
+helpviewer_keywords: ["IWdsTransportContent interface [Windows Deployment Services]","Terminate method","IWdsTransportContent.Terminate","IWdsTransportContent::Terminate","Terminate","Terminate method [Windows Deployment Services]","Terminate method [Windows Deployment Services]","IWdsTransportContent interface","wds.iwdstransportcontent_terminate","wdstptmgmt/IWdsTransportContent::Terminate"]
 old-location: wds\iwdstransportcontent_terminate.htm
 tech.root: wds
 ms.assetid: bcc4359f-0536-4cd4-a937-37d4e69ab497

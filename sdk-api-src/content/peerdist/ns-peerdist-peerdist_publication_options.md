@@ -1,7 +1,8 @@
 ---
 UID: NS:peerdist.peerdist_publication_options_tag
 title: PEERDIST_PUBLICATION_OPTIONS (peerdist.h)
-description: PEERDIST_PUBLICATION_OPTIONS structure contains publication options, including the API version information and possible option flags.helpviewer_keywords: ["*PPEERDIST_PUBLICATION_OPTIONS","PEERDIST_PUBLICATION_OPTIONS","PEERDIST_PUBLICATION_OPTIONS structure [Peer Networking]","PPEERDIST_PUBLICATION_OPTIONS","PPEERDIST_PUBLICATION_OPTIONS structure pointer [Peer Networking]","p2p.peerdist_publication_options","peerdist/PEERDIST_PUBLICATION_OPTIONS","peerdist/PPEERDIST_PUBLICATION_OPTIONS"]
+description: PEERDIST_PUBLICATION_OPTIONS structure contains publication options, including the API version information and possible option flags.
+helpviewer_keywords: ["*PPEERDIST_PUBLICATION_OPTIONS","PEERDIST_PUBLICATION_OPTIONS","PEERDIST_PUBLICATION_OPTIONS structure [Peer Networking]","PPEERDIST_PUBLICATION_OPTIONS","PPEERDIST_PUBLICATION_OPTIONS structure pointer [Peer Networking]","p2p.peerdist_publication_options","peerdist/PEERDIST_PUBLICATION_OPTIONS","peerdist/PPEERDIST_PUBLICATION_OPTIONS"]
 old-location: p2p\peerdist_publication_options.htm
 tech.root: P2PSdk
 ms.assetid: 990b6551-eaf6-47f7-bc35-ea91820f917b

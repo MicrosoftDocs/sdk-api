@@ -1,7 +1,8 @@
 ---
 UID: NE:codecapi.eAVDSPLoudnessEqualization
 title: eAVDSPLoudnessEqualization (codecapi.h)
-description: Specifies whether loudness equalization is enabled in an audio decoder or digital signal processor (DSP).helpviewer_keywords: ["codecapi/eAVDSPLoudnessEqualization","codecapi/eAVDSPLoudnessEqualization_AUTO","codecapi/eAVDSPLoudnessEqualization_OFF","codecapi/eAVDSPLoudnessEqualization_ON","dshow.eavdsploudnessequalization","eAVDSPLoudnessEqualization","eAVDSPLoudnessEqualization enumeration [DirectShow]","eAVDSPLoudnessEqualization_AUTO","eAVDSPLoudnessEqualization_OFF","eAVDSPLoudnessEqualization_ON"]
+description: Specifies whether loudness equalization is enabled in an audio decoder or digital signal processor (DSP).
+helpviewer_keywords: ["codecapi/eAVDSPLoudnessEqualization","codecapi/eAVDSPLoudnessEqualization_AUTO","codecapi/eAVDSPLoudnessEqualization_OFF","codecapi/eAVDSPLoudnessEqualization_ON","dshow.eavdsploudnessequalization","eAVDSPLoudnessEqualization","eAVDSPLoudnessEqualization enumeration [DirectShow]","eAVDSPLoudnessEqualization_AUTO","eAVDSPLoudnessEqualization_OFF","eAVDSPLoudnessEqualization_ON"]
 old-location: dshow\eavdsploudnessequalization.htm
 tech.root: DirectShow
 ms.assetid: bb46653e-d17d-4899-8a0b-cee8c4d68993

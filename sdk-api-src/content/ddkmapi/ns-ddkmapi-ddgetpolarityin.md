@@ -1,7 +1,8 @@
 ---
 UID: NS:ddkmapi._DDGETPOLARITYIN
 title: DDGETPOLARITYIN (ddkmapi.h)
-description: The DDGETPOLARITYIN structure contains the Microsoft DirectDraw and video port extensions (VPE) object handles.helpviewer_keywords: ["*LPDDGETPOLARITYIN","DDGETPOLARITYIN","DDGETPOLARITYIN structure [Display Devices]","LPDDGETPOLARITYIN","LPDDGETPOLARITYIN structure pointer [Display Devices]","ddkmapi/DDGETPOLARITYIN","ddkmapi/LPDDGETPOLARITYIN","ddstrcts_d84baddb-b5f0-4b66-86fd-504dbf05608c.xml","display.ddgetpolarityin"]
+description: The DDGETPOLARITYIN structure contains the Microsoft DirectDraw and video port extensions (VPE) object handles.
+helpviewer_keywords: ["*LPDDGETPOLARITYIN","DDGETPOLARITYIN","DDGETPOLARITYIN structure [Display Devices]","LPDDGETPOLARITYIN","LPDDGETPOLARITYIN structure pointer [Display Devices]","ddkmapi/DDGETPOLARITYIN","ddkmapi/LPDDGETPOLARITYIN","ddstrcts_d84baddb-b5f0-4b66-86fd-504dbf05608c.xml","display.ddgetpolarityin"]
 old-location: display\ddgetpolarityin.htm
 tech.root: display
 ms.assetid: 8ef7a1b7-1111-440d-8318-46d2135142e2

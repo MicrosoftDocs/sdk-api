@@ -1,7 +1,8 @@
 ---
 UID: NS:ddkmapi._DDCAPBUFFINFO
 title: DDCAPBUFFINFO (ddkmapi.h)
-description: The DDCAPBUFFINFO structure contains the capture information.helpviewer_keywords: ["*LPDDCAPBUFFINFO","DDCAPBUFFINFO","DDCAPBUFFINFO structure [Display Devices]","LPDDCAPBUFFINFO","LPDDCAPBUFFINFO structure pointer [Display Devices]","ddkmapi/DDCAPBUFFINFO","ddkmapi/LPDDCAPBUFFINFO","ddstrcts_c1b7049e-f505-419f-ba3e-53625521dae2.xml","display.ddcapbuffinfo"]
+description: The DDCAPBUFFINFO structure contains the capture information.
+helpviewer_keywords: ["*LPDDCAPBUFFINFO","DDCAPBUFFINFO","DDCAPBUFFINFO structure [Display Devices]","LPDDCAPBUFFINFO","LPDDCAPBUFFINFO structure pointer [Display Devices]","ddkmapi/DDCAPBUFFINFO","ddkmapi/LPDDCAPBUFFINFO","ddstrcts_c1b7049e-f505-419f-ba3e-53625521dae2.xml","display.ddcapbuffinfo"]
 old-location: display\ddcapbuffinfo.htm
 tech.root: display
 ms.assetid: 8286c433-2183-4751-be8a-30cb9cd9146d

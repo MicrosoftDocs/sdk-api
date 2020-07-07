@@ -1,7 +1,8 @@
 ---
 UID: NF:perflib.PerfQueryCounterInfo
 title: PerfQueryCounterInfo function (perflib.h)
-description: Gets the counter specifications in the specified query.helpviewer_keywords: ["PerfQueryCounterInfo","PerfQueryCounterInfo function [Perf]","perf.perfquerycounterinfo","perflib/PerfQueryCounterInfo"]
+description: Gets the counter specifications in the specified query.
+helpviewer_keywords: ["PerfQueryCounterInfo","PerfQueryCounterInfo function [Perf]","perf.perfquerycounterinfo","perflib/PerfQueryCounterInfo"]
 old-location: perf\perfquerycounterinfo.htm
 tech.root: perfctrs
 ms.assetid: 42CAB98C-4525-499D-BA11-731A666E112D

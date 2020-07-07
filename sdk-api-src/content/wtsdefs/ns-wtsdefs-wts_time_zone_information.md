@@ -1,7 +1,8 @@
 ---
 UID: NS:wtsdefs._WTS_TIME_ZONE_INFORMATION
 title: WTS_TIME_ZONE_INFORMATION (wtsdefs.h)
-description: Contains client time zone information.helpviewer_keywords: ["*PWTS_TIME_ZONE_INFORMATION","PWRDS_TIME_ZONE_INFORMATION","PWRDS_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services]","PWTS_TIME_ZONE_INFORMATION","PWTS_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services]","WRDS_TIME_ZONE_INFORMATION","WRDS_TIME_ZONE_INFORMATION structure [Remote Desktop Services]","WTS_TIME_ZONE_INFORMATION","WTS_TIME_ZONE_INFORMATION structure [Remote Desktop Services]","termserv.wts_time_zone_information","wtsdefs/PWRDS_TIME_ZONE_INFORMATION","wtsdefs/PWTS_TIME_ZONE_INFORMATION","wtsdefs/WRDS_TIME_ZONE_INFORMATION","wtsdefs/WTS_TIME_ZONE_INFORMATION"]
+description: Contains client time zone information.
+helpviewer_keywords: ["*PWTS_TIME_ZONE_INFORMATION","PWRDS_TIME_ZONE_INFORMATION","PWRDS_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services]","PWTS_TIME_ZONE_INFORMATION","PWTS_TIME_ZONE_INFORMATION structure pointer [Remote Desktop Services]","WRDS_TIME_ZONE_INFORMATION","WRDS_TIME_ZONE_INFORMATION structure [Remote Desktop Services]","WTS_TIME_ZONE_INFORMATION","WTS_TIME_ZONE_INFORMATION structure [Remote Desktop Services]","termserv.wts_time_zone_information","wtsdefs/PWRDS_TIME_ZONE_INFORMATION","wtsdefs/PWTS_TIME_ZONE_INFORMATION","wtsdefs/WRDS_TIME_ZONE_INFORMATION","wtsdefs/WTS_TIME_ZONE_INFORMATION"]
 old-location: termserv\wts_time_zone_information.htm
 tech.root: TermServ
 ms.assetid: 7d0e75b1-0a9b-47b1-8bf7-192966e3d19a

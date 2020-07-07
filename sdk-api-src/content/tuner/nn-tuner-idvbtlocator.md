@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IDVBTLocator
 title: IDVBTLocator (tuner.h)
-description: The IDVBTLocator interface is implemented on the DVBTLocator object.helpviewer_keywords: ["IDVBTLocator","IDVBTLocator interface [Microsoft TV Technologies]","IDVBTLocator interface [Microsoft TV Technologies]","described","IDVBTLocatorInterface","mstv.idvbtlocator","tuner/IDVBTLocator"]
+description: The IDVBTLocator interface is implemented on the DVBTLocator object.
+helpviewer_keywords: ["IDVBTLocator","IDVBTLocator interface [Microsoft TV Technologies]","IDVBTLocator interface [Microsoft TV Technologies]","described","IDVBTLocatorInterface","mstv.idvbtlocator","tuner/IDVBTLocator"]
 old-location: mstv\idvbtlocator.htm
 tech.root: mstv
 ms.assetid: f5a95a68-fee0-404c-b9c6-6b808977f8d2

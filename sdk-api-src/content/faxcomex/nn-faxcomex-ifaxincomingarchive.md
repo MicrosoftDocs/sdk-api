@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxIncomingArchive
 title: IFaxIncomingArchive (faxcomex.h)
-description: The IFaxIncomingArchive interface is used by a fax client application to access and configure the archive of inbound fax messages received successfully by the fax service.helpviewer_keywords: ["IFaxIncomingArchive","IFaxIncomingArchive interface [Fax Service]","IFaxIncomingArchive interface [Fax Service]","described","_mfax_faxincomingarchive_cpp","fax._mfax_faxincomingarchive_cpp","faxcomex/IFaxIncomingArchive"]
+description: The IFaxIncomingArchive interface is used by a fax client application to access and configure the archive of inbound fax messages received successfully by the fax service.
+helpviewer_keywords: ["IFaxIncomingArchive","IFaxIncomingArchive interface [Fax Service]","IFaxIncomingArchive interface [Fax Service]","described","_mfax_faxincomingarchive_cpp","fax._mfax_faxincomingarchive_cpp","faxcomex/IFaxIncomingArchive"]
 old-location: fax\_mfax_faxincomingarchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_96jp_cpp.htm

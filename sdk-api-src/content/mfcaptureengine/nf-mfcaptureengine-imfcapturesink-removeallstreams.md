@@ -1,7 +1,8 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSink.RemoveAllStreams
 title: IMFCaptureSink::RemoveAllStreams (mfcaptureengine.h)
-description: Removes all streams from the capture sink.helpviewer_keywords: ["IMFCaptureSink interface [Media Foundation]","RemoveAllStreams method","IMFCaptureSink.RemoveAllStreams","IMFCaptureSink::RemoveAllStreams","RemoveAllStreams","RemoveAllStreams method [Media Foundation]","RemoveAllStreams method [Media Foundation]","IMFCaptureSink interface","mf.imfcapturesink_removeallstreams","mfcaptureengine/IMFCaptureSink::RemoveAllStreams"]
+description: Removes all streams from the capture sink.
+helpviewer_keywords: ["IMFCaptureSink interface [Media Foundation]","RemoveAllStreams method","IMFCaptureSink.RemoveAllStreams","IMFCaptureSink::RemoveAllStreams","RemoveAllStreams","RemoveAllStreams method [Media Foundation]","RemoveAllStreams method [Media Foundation]","IMFCaptureSink interface","mf.imfcapturesink_removeallstreams","mfcaptureengine/IMFCaptureSink::RemoveAllStreams"]
 old-location: mf\imfcapturesink_removeallstreams.htm
 tech.root: medfound
 ms.assetid: 7E05D04F-BDE8-4053-A7C4-B74AC5FA76B7

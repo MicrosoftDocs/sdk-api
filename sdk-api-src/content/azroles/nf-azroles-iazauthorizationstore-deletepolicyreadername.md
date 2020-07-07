@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.DeletePolicyReaderName
 title: IAzAuthorizationStore::DeletePolicyReaderName (azroles.h)
-description: Removes the specified account name from the list of principals that act as policy readers.helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeletePolicyReaderName method","DeletePolicyReaderName","DeletePolicyReaderName method [Security]","DeletePolicyReaderName method [Security]","AzAuthorizationStore object","DeletePolicyReaderName method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DeletePolicyReaderName method","IAzAuthorizationStore.DeletePolicyReaderName","IAzAuthorizationStore::DeletePolicyReaderName","azroles/IAzAuthorizationStore::DeletePolicyReaderName","security.azauthorizationstore_deletepolicyreadername"]
+description: Removes the specified account name from the list of principals that act as policy readers.
+helpviewer_keywords: ["AzAuthorizationStore object [Security]","DeletePolicyReaderName method","DeletePolicyReaderName","DeletePolicyReaderName method [Security]","DeletePolicyReaderName method [Security]","AzAuthorizationStore object","DeletePolicyReaderName method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","DeletePolicyReaderName method","IAzAuthorizationStore.DeletePolicyReaderName","IAzAuthorizationStore::DeletePolicyReaderName","azroles/IAzAuthorizationStore::DeletePolicyReaderName","security.azauthorizationstore_deletepolicyreadername"]
 old-location: security\azauthorizationstore_deletepolicyreadername.htm
 tech.root: SecAuthZ
 ms.assetid: b3375c24-82c3-43fd-a063-8c8079324641

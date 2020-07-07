@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.phoneGetData
 title: phoneGetData function (tapi.h)
-description: The phoneGetData function uploads the information from the specified location in the open phone device to the specified buffer.helpviewer_keywords: ["_tapi2_phonegetdata","phoneGetData","phoneGetData function [TAPI 2.2]","tapi/phoneGetData","tapi2.phonegetdata"]
+description: The phoneGetData function uploads the information from the specified location in the open phone device to the specified buffer.
+helpviewer_keywords: ["_tapi2_phonegetdata","phoneGetData","phoneGetData function [TAPI 2.2]","tapi/phoneGetData","tapi2.phonegetdata"]
 old-location: tapi2\phonegetdata.htm
 tech.root: Tapi
 ms.assetid: 9ad2f99e-73b3-4e4c-a6cd-49ca0fe775ca

@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.ITuningSpace.put__NetworkType
 title: ITuningSpace::put__NetworkType (tuner.h)
-description: The put_NetworkType method specifies the network type of the tuning space.helpviewer_keywords: ["ITuningSpace interface [Microsoft TV Technologies]","put__NetworkType method","ITuningSpace.put__NetworkType","ITuningSpace::put__NetworkType","ITuningSpaceput__NetworkType","mstv.ituningspace_put__networktype","put__NetworkType","put__NetworkType method [Microsoft TV Technologies]","put__NetworkType method [Microsoft TV Technologies]","ITuningSpace interface","tuner/ITuningSpace::put__NetworkType"]
+description: The put_NetworkType method specifies the network type of the tuning space.
+helpviewer_keywords: ["ITuningSpace interface [Microsoft TV Technologies]","put__NetworkType method","ITuningSpace.put__NetworkType","ITuningSpace::put__NetworkType","ITuningSpaceput__NetworkType","mstv.ituningspace_put__networktype","put__NetworkType","put__NetworkType method [Microsoft TV Technologies]","put__NetworkType method [Microsoft TV Technologies]","ITuningSpace interface","tuner/ITuningSpace::put__NetworkType"]
 old-location: mstv\ituningspace_put__networktype.htm
 tech.root: mstv
 ms.assetid: 02e4ec53-e527-4cd2-a424-66c2f3fe4e43

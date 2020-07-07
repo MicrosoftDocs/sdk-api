@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagCOMBOBOXEXITEMW
 title: COMBOBOXEXITEMW (commctrl.h)
-description: Contains information about an item in a ComboBoxEx control.helpviewer_keywords: ["*PCOMBOBOXEXITEMW","CBEIF_DI_SETITEM","CBEIF_IMAGE","CBEIF_INDENT","CBEIF_LPARAM","CBEIF_OVERLAY","CBEIF_SELECTEDIMAGE","CBEIF_TEXT","COMBOBOXEXITEM","COMBOBOXEXITEM structure [Windows Controls]","COMBOBOXEXITEMA","COMBOBOXEXITEMW","PCOMBOBOXEXITEM","PCOMBOBOXEXITEM structure pointer [Windows Controls]","_win32_COMBOBOXEXITEM","_win32_COMBOBOXEXITEM_cpp","commctrl/COMBOBOXEXITEM","commctrl/COMBOBOXEXITEMA","commctrl/COMBOBOXEXITEMW","commctrl/PCOMBOBOXEXITEM","controls.COMBOBOXEXITEM","controls._win32_COMBOBOXEXITEM"]
+description: Contains information about an item in a ComboBoxEx control.
+helpviewer_keywords: ["*PCOMBOBOXEXITEMW","CBEIF_DI_SETITEM","CBEIF_IMAGE","CBEIF_INDENT","CBEIF_LPARAM","CBEIF_OVERLAY","CBEIF_SELECTEDIMAGE","CBEIF_TEXT","COMBOBOXEXITEM","COMBOBOXEXITEM structure [Windows Controls]","COMBOBOXEXITEMA","COMBOBOXEXITEMW","PCOMBOBOXEXITEM","PCOMBOBOXEXITEM structure pointer [Windows Controls]","_win32_COMBOBOXEXITEM","_win32_COMBOBOXEXITEM_cpp","commctrl/COMBOBOXEXITEM","commctrl/COMBOBOXEXITEMA","commctrl/COMBOBOXEXITEMW","commctrl/PCOMBOBOXEXITEM","controls.COMBOBOXEXITEM","controls._win32_COMBOBOXEXITEM"]
 old-location: controls\COMBOBOXEXITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboex\structures\comboboxexitem.htm
@@ -205,4 +206,9 @@ The number of indent spaces to display for the item. Each indentation equals 10 
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 A value specific to the item. 
+
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines COMBOBOXEXITEM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

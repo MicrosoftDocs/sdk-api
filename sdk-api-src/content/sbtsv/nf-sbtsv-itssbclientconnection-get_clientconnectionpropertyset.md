@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_ClientConnectionPropertySet
 title: ITsSbClientConnection::get_ClientConnectionPropertySet (sbtsv.h)
-description: Retrieves an object that contains properties associated with the client connection.helpviewer_keywords: ["ClientConnectionPropertySet property [Remote Desktop Services]","ClientConnectionPropertySet property [Remote Desktop Services]","ITsSbClientConnection interface","ITsSbClientConnection interface [Remote Desktop Services]","ClientConnectionPropertySet property","ITsSbClientConnection.ClientConnectionPropertySet","ITsSbClientConnection.get_ClientConnectionPropertySet","ITsSbClientConnection::ClientConnectionPropertySet","ITsSbClientConnection::get_ClientConnectionPropertySet","get_ClientConnectionPropertySet","sbtsv/ITsSbClientConnection::ClientConnectionPropertySet","sbtsv/ITsSbClientConnection::get_ClientConnectionPropertySet","termserv.itssbclientconnection_clientconnectionpropertyset"]
+description: Retrieves an object that contains properties associated with the client connection.
+helpviewer_keywords: ["ClientConnectionPropertySet property [Remote Desktop Services]","ClientConnectionPropertySet property [Remote Desktop Services]","ITsSbClientConnection interface","ITsSbClientConnection interface [Remote Desktop Services]","ClientConnectionPropertySet property","ITsSbClientConnection.ClientConnectionPropertySet","ITsSbClientConnection.get_ClientConnectionPropertySet","ITsSbClientConnection::ClientConnectionPropertySet","ITsSbClientConnection::get_ClientConnectionPropertySet","get_ClientConnectionPropertySet","sbtsv/ITsSbClientConnection::ClientConnectionPropertySet","sbtsv/ITsSbClientConnection::get_ClientConnectionPropertySet","termserv.itssbclientconnection_clientconnectionpropertyset"]
 old-location: termserv\itssbclientconnection_clientconnectionpropertyset.htm
 tech.root: TermServ
 ms.assetid: 488c5b71-7139-4744-93bf-484d05457d0f

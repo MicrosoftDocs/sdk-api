@@ -1,7 +1,8 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceServiceManager.GetDeviceForService
 title: IPortableDeviceServiceManager::GetDeviceForService (portabledeviceapi.h)
-description: Retrieves the device associated with the specified service.helpviewer_keywords: ["GetDeviceForService","GetDeviceForService method [Windows Portable Devices SDK]","GetDeviceForService method [Windows Portable Devices SDK]","IPortableDeviceServiceManager interface","IPortableDeviceServiceManager interface [Windows Portable Devices SDK]","GetDeviceForService method","IPortableDeviceServiceManager.GetDeviceForService","IPortableDeviceServiceManager::GetDeviceForService","portabledeviceapi/IPortableDeviceServiceManager::GetDeviceForService","wpdsdk.iportabledeviceservicemanager_getdeviceforservice"]
+description: Retrieves the device associated with the specified service.
+helpviewer_keywords: ["GetDeviceForService","GetDeviceForService method [Windows Portable Devices SDK]","GetDeviceForService method [Windows Portable Devices SDK]","IPortableDeviceServiceManager interface","IPortableDeviceServiceManager interface [Windows Portable Devices SDK]","GetDeviceForService method","IPortableDeviceServiceManager.GetDeviceForService","IPortableDeviceServiceManager::GetDeviceForService","portabledeviceapi/IPortableDeviceServiceManager::GetDeviceForService","wpdsdk.iportabledeviceservicemanager_getdeviceforservice"]
 old-location: wpdsdk\iportabledeviceservicemanager_getdeviceforservice.htm
 tech.root: wpd_sdk
 ms.assetid: 2cdb03fb-8cb2-4eee-af90-3aec0a055fc5

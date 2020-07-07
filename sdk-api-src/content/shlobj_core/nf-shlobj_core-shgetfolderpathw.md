@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetFolderPathW
 title: SHGetFolderPathW function (shlobj_core.h)
-description: Deprecated.helpviewer_keywords: ["SHGFP_TYPE_CURRENT","SHGFP_TYPE_DEFAULT","SHGetFolderPath","SHGetFolderPath function [Windows Shell]","SHGetFolderPathA","SHGetFolderPathW","_win32_SHGetFolderPath","_win32_SHGetFolderPath_cpp","shell.SHGetFolderPath","shlobj_core/SHGetFolderPath","shlobj_core/SHGetFolderPathA","shlobj_core/SHGetFolderPathW"]
+description: Deprecated.
+helpviewer_keywords: ["SHGFP_TYPE_CURRENT","SHGFP_TYPE_DEFAULT","SHGetFolderPath","SHGetFolderPath function [Windows Shell]","SHGetFolderPathA","SHGetFolderPathW","_win32_SHGetFolderPath","_win32_SHGetFolderPath_cpp","shell.SHGetFolderPath","shlobj_core/SHGetFolderPath","shlobj_core/SHGetFolderPathA","shlobj_core/SHGetFolderPathW"]
 old-location: shell\SHGetFolderPath.htm
 tech.root: shell
 ms.assetid: a240abc0-e0a6-4f95-8e74-7dc410970212
@@ -240,6 +241,10 @@ if(SUCCEEDED(SHGetFolderPath(NULL,
 
 
 
+
+
+> [!NOTE]
+> The shlobj_core.h header defines SHGetFolderPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:netlistmgr.INetworkConnection
 title: INetworkConnection (netlistmgr.h)
-description: The INetworkConnection interface represents a single network connection.helpviewer_keywords: ["INetworkConnection","INetworkConnection interface [Network Awareness]","INetworkConnection interface [Network Awareness]","described","netlistmgr/INetworkConnection","nla.inetworkconnection"]
+description: The INetworkConnection interface represents a single network connection.
+helpviewer_keywords: ["INetworkConnection","INetworkConnection interface [Network Awareness]","INetworkConnection interface [Network Awareness]","described","netlistmgr/INetworkConnection","nla.inetworkconnection"]
 old-location: nla\inetworkconnection.htm
 tech.root: nla
 ms.assetid: 666761b5-0146-438d-9986-ecce3b45b5ff

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarI8FromR4
 title: VarI8FromR4 function (oleauto.h)
-description: Converts a float value to an 8-byte integer value.helpviewer_keywords: ["VarI8FromR4","VarI8FromR4 function [Automation]","_oa96_VarI8FromR4","automat.vari8fromr4","oleauto/VarI8FromR4"]
+description: Converts a float value to an 8-byte integer value.
+helpviewer_keywords: ["VarI8FromR4","VarI8FromR4 function [Automation]","_oa96_VarI8FromR4","automat.vari8fromr4","oleauto/VarI8FromR4"]
 old-location: automat\vari8fromr4.htm
 tech.root: automat
 ms.assetid: 5cc6c28b-8fa5-4452-8932-fcbe28536618

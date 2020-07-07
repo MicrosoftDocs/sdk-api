@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.IntAdd
 title: IntAdd function (intsafe.h)
-description: Adds two values of type INT.helpviewer_keywords: ["IntAdd","IntAdd function [Windows Shell]","intsafe/IntAdd","shell.IntAdd"]
+description: Adds two values of type INT.
+helpviewer_keywords: ["IntAdd","IntAdd function [Windows Shell]","intsafe/IntAdd","shell.IntAdd"]
 old-location: shell\IntAdd.htm
 tech.root: shell
 ms.assetid: 0ae27240-2923-4caf-955a-0b10bd9e2515

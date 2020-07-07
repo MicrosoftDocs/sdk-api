@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderRefreshSettings
 title: WdsTransportProviderRefreshSettings function (wdstpdi.h)
-description: Instructs the transport provider to reread any relevant settings.helpviewer_keywords: ["WdsTransportProviderRefreshSettings","WdsTransportProviderRefreshSettings callback","WdsTransportProviderRefreshSettings callback function [Windows Deployment Services]","wds.wdstransportproviderrefreshsettings","wdstpdi/WdsTransportProviderRefreshSettings"]
+description: Instructs the transport provider to reread any relevant settings.
+helpviewer_keywords: ["WdsTransportProviderRefreshSettings","WdsTransportProviderRefreshSettings callback","WdsTransportProviderRefreshSettings callback function [Windows Deployment Services]","wds.wdstransportproviderrefreshsettings","wdstpdi/WdsTransportProviderRefreshSettings"]
 old-location: wds\wdstransportproviderrefreshsettings.htm
 tech.root: wds
 ms.assetid: b5fc2340-6820-4b11-b96b-dcf3186f0786

@@ -1,7 +1,8 @@
 ---
 UID: NN:msrdc.ISimilarityTraitsMapping
 title: ISimilarityTraitsMapping (msrdc.h)
-description: Provides methods that an RDC application can implement for creating and manipulating a file mapping object for a similarity traits table file.helpviewer_keywords: ["ISimilarityTraitsMapping","ISimilarityTraitsMapping interface [Remote Differential Compression]","ISimilarityTraitsMapping interface [Remote Differential Compression]","described","fs.isimilaritytraitsmapping","msrdc/ISimilarityTraitsMapping","rdc.isimilaritytraitsmapping"]
+description: Provides methods that an RDC application can implement for creating and manipulating a file mapping object for a similarity traits table file.
+helpviewer_keywords: ["ISimilarityTraitsMapping","ISimilarityTraitsMapping interface [Remote Differential Compression]","ISimilarityTraitsMapping interface [Remote Differential Compression]","described","fs.isimilaritytraitsmapping","msrdc/ISimilarityTraitsMapping","rdc.isimilaritytraitsmapping"]
 old-location: rdc\isimilaritytraitsmapping.htm
 tech.root: rdc
 ms.assetid: 1ddc599b-5a9b-4807-9005-00793f9a6ed4

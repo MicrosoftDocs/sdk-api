@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFTrustedInput
 title: IMFTrustedInput (mfidl.h)
-description: Implemented by components that provide input trust authorities (ITAs). This interface is used to get the ITA for each of the component's streams.helpviewer_keywords: ["59a9def7-69a6-4f80-bb5e-1cb372ff6eab","IMFTrustedInput","IMFTrustedInput interface [Media Foundation]","IMFTrustedInput interface [Media Foundation]","described","mf.imftrustedinput","mfidl/IMFTrustedInput"]
+description: Implemented by components that provide input trust authorities (ITAs). This interface is used to get the ITA for each of the component's streams.
+helpviewer_keywords: ["59a9def7-69a6-4f80-bb5e-1cb372ff6eab","IMFTrustedInput","IMFTrustedInput interface [Media Foundation]","IMFTrustedInput interface [Media Foundation]","described","mf.imftrustedinput","mfidl/IMFTrustedInput"]
 old-location: mf\imftrustedinput.htm
 tech.root: medfound
 ms.assetid: 59a9def7-69a6-4f80-bb5e-1cb372ff6eab

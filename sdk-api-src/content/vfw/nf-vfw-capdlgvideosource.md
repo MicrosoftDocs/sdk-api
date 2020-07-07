@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.capDlgVideoSource
 title: capDlgVideoSource macro (vfw.h)
-description: The capDlgVideoSource macro displays a dialog box in which the user can control the video source.helpviewer_keywords: ["_win32_capDlgVideoSource","capDlgVideoSource","capDlgVideoSource macro [Windows Multimedia]","multimedia.capdlgvideosource","vfw/capDlgVideoSource"]
+description: The capDlgVideoSource macro displays a dialog box in which the user can control the video source.
+helpviewer_keywords: ["_win32_capDlgVideoSource","capDlgVideoSource","capDlgVideoSource macro [Windows Multimedia]","multimedia.capdlgvideosource","vfw/capDlgVideoSource"]
 old-location: multimedia\capdlgvideosource.htm
 tech.root: Multimedia
 ms.assetid: 9913a9e0-13ee-4f4b-9e8b-0f2549e4ded3

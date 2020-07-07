@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecLeakyBucket.SetBufferFullnessBits
 title: IWMCodecLeakyBucket::SetBufferFullnessBits (wmcodecdsp.h)
-description: Not implemented in this release.helpviewer_keywords: ["IWMCodecLeakyBucket interface [Media Foundation]","SetBufferFullnessBits method","IWMCodecLeakyBucket.SetBufferFullnessBits","IWMCodecLeakyBucket::SetBufferFullnessBits","SetBufferFullnessBits","SetBufferFullnessBits method [Media Foundation]","SetBufferFullnessBits method [Media Foundation]","IWMCodecLeakyBucket interface","codecapi.iwmcodecleakybucketsetbufferfullnessbits","mf.iwmcodecleakybucketsetbufferfullnessbits","wmcodecdsp/IWMCodecLeakyBucket::SetBufferFullnessBits"]
+description: Not implemented in this release.
+helpviewer_keywords: ["IWMCodecLeakyBucket interface [Media Foundation]","SetBufferFullnessBits method","IWMCodecLeakyBucket.SetBufferFullnessBits","IWMCodecLeakyBucket::SetBufferFullnessBits","SetBufferFullnessBits","SetBufferFullnessBits method [Media Foundation]","SetBufferFullnessBits method [Media Foundation]","IWMCodecLeakyBucket interface","codecapi.iwmcodecleakybucketsetbufferfullnessbits","mf.iwmcodecleakybucketsetbufferfullnessbits","wmcodecdsp/IWMCodecLeakyBucket::SetBufferFullnessBits"]
 old-location: mf\iwmcodecleakybucketsetbufferfullnessbits.htm
 tech.root: medfound
 ms.assetid: e82badb3-64a8-40f0-9c51-bb2539f242f2

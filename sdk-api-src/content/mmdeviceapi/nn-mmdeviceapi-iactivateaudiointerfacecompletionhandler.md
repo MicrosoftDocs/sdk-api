@@ -1,7 +1,8 @@
 ---
 UID: NN:mmdeviceapi.IActivateAudioInterfaceCompletionHandler
 title: IActivateAudioInterfaceCompletionHandler (mmdeviceapi.h)
-description: Provides a callback to indicate that activation of a WASAPI interface is complete.helpviewer_keywords: ["IActivateAudioInterfaceCompletionHandler","IActivateAudioInterfaceCompletionHandler interface [Core Audio]","IActivateAudioInterfaceCompletionHandler interface [Core Audio]","described","coreaudio.iactivateaudiointerfacecompletionhandler","mmdeviceapi/IActivateAudioInterfaceCompletionHandler"]
+description: Provides a callback to indicate that activation of a WASAPI interface is complete.
+helpviewer_keywords: ["IActivateAudioInterfaceCompletionHandler","IActivateAudioInterfaceCompletionHandler interface [Core Audio]","IActivateAudioInterfaceCompletionHandler interface [Core Audio]","described","coreaudio.iactivateaudiointerfacecompletionhandler","mmdeviceapi/IActivateAudioInterfaceCompletionHandler"]
 old-location: coreaudio\iactivateaudiointerfacecompletionhandler.htm
 tech.root: CoreAudio
 ms.assetid: 04ff7cbb-fd33-40d9-9c11-4f716c6423b0

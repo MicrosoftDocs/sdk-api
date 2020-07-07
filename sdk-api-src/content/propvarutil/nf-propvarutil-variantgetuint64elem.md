@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.VariantGetUInt64Elem
 title: VariantGetUInt64Elem function (propvarutil.h)
-description: Extracts a single unsigned Int64 element from a variant structure.helpviewer_keywords: ["VariantGetUInt64Elem","VariantGetUInt64Elem function [Windows Properties]","_shell_VariantGetUInt64Elem","properties.VariantGetUInt64Elem","propvarutil/VariantGetUInt64Elem","shell.VariantGetUInt64Elem"]
+description: Extracts a single unsigned Int64 element from a variant structure.
+helpviewer_keywords: ["VariantGetUInt64Elem","VariantGetUInt64Elem function [Windows Properties]","_shell_VariantGetUInt64Elem","properties.VariantGetUInt64Elem","propvarutil/VariantGetUInt64Elem","shell.VariantGetUInt64Elem"]
 old-location: properties\VariantGetUInt64Elem.htm
 tech.root: properties
 ms.assetid: 7fd3c87b-5511-4dbc-b99e-65656a96303e

@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcPart.GetContentType
 title: IOpcPart::GetContentType (msopc.h)
-description: Gets the media type of part content.helpviewer_keywords: ["GetContentType","GetContentType method [Open Packaging Conventions]","GetContentType method [Open Packaging Conventions]","IOpcPart interface","IOpcPart interface [Open Packaging Conventions]","GetContentType method","IOpcPart.GetContentType","IOpcPart::GetContentType","msopc/IOpcPart::GetContentType","opc.iopcpart_getcontenttype"]
+description: Gets the media type of part content.
+helpviewer_keywords: ["GetContentType","GetContentType method [Open Packaging Conventions]","GetContentType method [Open Packaging Conventions]","IOpcPart interface","IOpcPart interface [Open Packaging Conventions]","GetContentType method","IOpcPart.GetContentType","IOpcPart::GetContentType","msopc/IOpcPart::GetContentType","opc.iopcpart_getcontenttype"]
 old-location: opc\iopcpart_getcontenttype.htm
 tech.root: OPC
 ms.assetid: fe0d6ba3-8c62-4269-86ff-669609529933

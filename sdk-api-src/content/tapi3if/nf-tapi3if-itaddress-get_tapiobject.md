@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITAddress.get_TAPIObject
 title: ITAddress::get_TAPIObject (tapi3if.h)
-description: The get_TAPIObject method gets a pointer to the TAPI object that owns this address.helpviewer_keywords: ["ITAddress interface [TAPI 2.2]","get_TAPIObject method","ITAddress.get_TAPIObject","ITAddress::get_TAPIObject","_tapi3_itaddress_get_tapiobject","get_TAPIObject","get_TAPIObject method [TAPI 2.2]","get_TAPIObject method [TAPI 2.2]","ITAddress interface","tapi3.itaddress_get_tapiobject","tapi3if/ITAddress::get_TAPIObject"]
+description: The get_TAPIObject method gets a pointer to the TAPI object that owns this address.
+helpviewer_keywords: ["ITAddress interface [TAPI 2.2]","get_TAPIObject method","ITAddress.get_TAPIObject","ITAddress::get_TAPIObject","_tapi3_itaddress_get_tapiobject","get_TAPIObject","get_TAPIObject method [TAPI 2.2]","get_TAPIObject method [TAPI 2.2]","ITAddress interface","tapi3.itaddress_get_tapiobject","tapi3if/ITAddress::get_TAPIObject"]
 old-location: tapi3\itaddress_get_tapiobject.htm
 tech.root: Tapi
 ms.assetid: 37064bef-d5c0-44b9-a7eb-ae922b175f91

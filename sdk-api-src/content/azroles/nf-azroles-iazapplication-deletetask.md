@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteTask
 title: IAzApplication::DeleteTask (azroles.h)
-description: Removes the IAzTask object with the specified name from the IAzApplication object.helpviewer_keywords: ["AzApplication object [Security]","DeleteTask method","DeleteTask","DeleteTask method [Security]","DeleteTask method [Security]","AzApplication object","DeleteTask method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeleteTask method","IAzApplication.DeleteTask","IAzApplication::DeleteTask","azroles/IAzApplication::DeleteTask","security.iazapplication_deletetask"]
+description: Removes the IAzTask object with the specified name from the IAzApplication object.
+helpviewer_keywords: ["AzApplication object [Security]","DeleteTask method","DeleteTask","DeleteTask method [Security]","DeleteTask method [Security]","AzApplication object","DeleteTask method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeleteTask method","IAzApplication.DeleteTask","IAzApplication::DeleteTask","azroles/IAzApplication::DeleteTask","security.iazapplication_deletetask"]
 old-location: security\iazapplication_deletetask.htm
 tech.root: SecAuthZ
 ms.assetid: b97015d7-00c3-445c-a445-07c52ef6ff29

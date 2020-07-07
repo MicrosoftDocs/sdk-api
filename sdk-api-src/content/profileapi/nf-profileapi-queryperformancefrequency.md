@@ -1,7 +1,8 @@
 ---
 UID: NF:profileapi.QueryPerformanceFrequency
 title: QueryPerformanceFrequency function
-description: Retrieves the frequency of the performance counter.helpviewer_keywords: ["QueryPerformanceFrequency","QueryPerformanceFrequency function [Windows and Messages]","_win32_QueryPerformanceFrequency","_win32_queryperformancefrequency_cpp","base.queryperformancefrequency","profileapi/QueryPerformanceFrequency","winmsg.queryperformancefrequency","winui._win32_queryperformancefrequency"]
+description: Retrieves the frequency of the performance counter.
+helpviewer_keywords: ["QueryPerformanceFrequency","QueryPerformanceFrequency function [Windows and Messages]","_win32_QueryPerformanceFrequency","_win32_queryperformancefrequency_cpp","base.queryperformancefrequency","profileapi/QueryPerformanceFrequency","winmsg.queryperformancefrequency","winui._win32_queryperformancefrequency"]
 old-location: base\queryperformancefrequency.htm
 tech.root: SysInfo
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\queryperformancefrequency.htm

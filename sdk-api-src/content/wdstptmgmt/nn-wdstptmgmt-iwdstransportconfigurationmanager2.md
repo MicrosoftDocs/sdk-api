@@ -1,7 +1,8 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportConfigurationManager2
 title: IWdsTransportConfigurationManager2 (wdstptmgmt.h)
-description: This interface inherits from the IWdsTransportConfigurationManager interface and extends it with configuration settings, such as multicast session policy, that are available beginning with Windows Server 2008 R2.helpviewer_keywords: ["IWdsTransportConfigurationManager2","IWdsTransportConfigurationManager2 interface [Windows Deployment Services]","IWdsTransportConfigurationManager2 interface [Windows Deployment Services]","described","wds.iwdstransportconfigurationmanager2","wdstptmgmt/IWdsTransportConfigurationManager2"]
+description: This interface inherits from the IWdsTransportConfigurationManager interface and extends it with configuration settings, such as multicast session policy, that are available beginning with Windows Server 2008 R2.
+helpviewer_keywords: ["IWdsTransportConfigurationManager2","IWdsTransportConfigurationManager2 interface [Windows Deployment Services]","IWdsTransportConfigurationManager2 interface [Windows Deployment Services]","described","wds.iwdstransportconfigurationmanager2","wdstptmgmt/IWdsTransportConfigurationManager2"]
 old-location: wds\iwdstransportconfigurationmanager2.htm
 tech.root: wds
 ms.assetid: 93e22735-83a4-4037-abea-b72277f8b857

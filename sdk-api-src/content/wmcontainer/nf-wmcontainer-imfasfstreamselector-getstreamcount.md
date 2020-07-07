@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetStreamCount
 title: IMFASFStreamSelector::GetStreamCount (wmcontainer.h)
-description: Retrieves the number of streams that are in the Advanced Systems Format (ASF) content.helpviewer_keywords: ["GetStreamCount","GetStreamCount method [Media Foundation]","GetStreamCount method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetStreamCount method","IMFASFStreamSelector.GetStreamCount","IMFASFStreamSelector::GetStreamCount","e1e80c32-bfd4-4404-9ccc-05b5077b83a6","mf.imfasfstreamselector_getstreamcount","wmcontainer/IMFASFStreamSelector::GetStreamCount"]
+description: Retrieves the number of streams that are in the Advanced Systems Format (ASF) content.
+helpviewer_keywords: ["GetStreamCount","GetStreamCount method [Media Foundation]","GetStreamCount method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetStreamCount method","IMFASFStreamSelector.GetStreamCount","IMFASFStreamSelector::GetStreamCount","e1e80c32-bfd4-4404-9ccc-05b5077b83a6","mf.imfasfstreamselector_getstreamcount","wmcontainer/IMFASFStreamSelector::GetStreamCount"]
 old-location: mf\imfasfstreamselector_getstreamcount.htm
 tech.root: medfound
 ms.assetid: e1e80c32-bfd4-4404-9ccc-05b5077b83a6

@@ -1,7 +1,8 @@
 ---
 UID: NF:npapi.NPDirectoryNotify
 title: NPDirectoryNotify function (npapi.h)
-description: Notifies the network provider of certain directory operations.helpviewer_keywords: ["NPDirectoryNotify","NPDirectoryNotify function [Security]","WNDN_MKDIR","WNDN_MVDIR","WNDN_RMDIR","_mnp_npdirectorynotify","npapi/NPDirectoryNotify","security.npdirectorynotify"]
+description: Notifies the network provider of certain directory operations.
+helpviewer_keywords: ["NPDirectoryNotify","NPDirectoryNotify function [Security]","WNDN_MKDIR","WNDN_MVDIR","WNDN_RMDIR","_mnp_npdirectorynotify","npapi/NPDirectoryNotify","security.npdirectorynotify"]
 old-location: security\npdirectorynotify.htm
 tech.root: SecAuthN
 ms.assetid: e76642b1-4af1-46f4-92c0-f10ff57dd808

@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSignaturePartReferenceEnumerator.Clone
 title: IOpcSignaturePartReferenceEnumerator::Clone (msopc.h)
-description: Creates a copy of the current IOpcSignaturePartReferenceEnumerator interface pointer and all its descendants.helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcSignaturePartReferenceEnumerator interface","IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions]","Clone method","IOpcSignaturePartReferenceEnumerator.Clone","IOpcSignaturePartReferenceEnumerator::Clone","msopc/IOpcSignaturePartReferenceEnumerator::Clone","opc.iopcsignaturepartreferenceenumerator_clone"]
+description: Creates a copy of the current IOpcSignaturePartReferenceEnumerator interface pointer and all its descendants.
+helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcSignaturePartReferenceEnumerator interface","IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions]","Clone method","IOpcSignaturePartReferenceEnumerator.Clone","IOpcSignaturePartReferenceEnumerator::Clone","msopc/IOpcSignaturePartReferenceEnumerator::Clone","opc.iopcsignaturepartreferenceenumerator_clone"]
 old-location: opc\iopcsignaturepartreferenceenumerator_clone.htm
 tech.root: OPC
 ms.assetid: fc36f6bd-54b6-4d6d-a957-d0ea8a19d36c

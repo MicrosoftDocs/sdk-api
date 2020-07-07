@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIStreamPrevKeyFrameTime
 title: AVIStreamPrevKeyFrameTime macro (vfw.h)
-description: The AVIStreamPrevKeyFrameTime macro returns the time of the previous key frame in the stream, starting at a given time.helpviewer_keywords: ["AVIStreamPrevKeyFrameTime","AVIStreamPrevKeyFrameTime macro [Windows Multimedia]","_win32_AVIStreamPrevKeyFrameTime","multimedia.avistreamprevkeyframetime","vfw/AVIStreamPrevKeyFrameTime"]
+description: The AVIStreamPrevKeyFrameTime macro returns the time of the previous key frame in the stream, starting at a given time.
+helpviewer_keywords: ["AVIStreamPrevKeyFrameTime","AVIStreamPrevKeyFrameTime macro [Windows Multimedia]","_win32_AVIStreamPrevKeyFrameTime","multimedia.avistreamprevkeyframetime","vfw/AVIStreamPrevKeyFrameTime"]
 old-location: multimedia\avistreamprevkeyframetime.htm
 tech.root: Multimedia
 ms.assetid: 0da49be2-b017-4d41-b9da-3c1310fa0289

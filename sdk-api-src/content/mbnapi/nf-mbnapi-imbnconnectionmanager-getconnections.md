@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnConnectionManager.GetConnections
 title: IMbnConnectionManager::GetConnections (mbnapi.h)
-description: Gets a list of available connections.helpviewer_keywords: ["GetConnections","GetConnections method [Microsoft Broadband Networks]","GetConnections method [Microsoft Broadband Networks]","IMbnConnectionManager interface","IMbnConnectionManager interface [Microsoft Broadband Networks]","GetConnections method","IMbnConnectionManager.GetConnections","IMbnConnectionManager::GetConnections","mbn.imbnconnectionmanager_getconnections","mbnapi/IMbnConnectionManager::GetConnections"]
+description: Gets a list of available connections.
+helpviewer_keywords: ["GetConnections","GetConnections method [Microsoft Broadband Networks]","GetConnections method [Microsoft Broadband Networks]","IMbnConnectionManager interface","IMbnConnectionManager interface [Microsoft Broadband Networks]","GetConnections method","IMbnConnectionManager.GetConnections","IMbnConnectionManager::GetConnections","mbn.imbnconnectionmanager_getconnections","mbnapi/IMbnConnectionManager::GetConnections"]
 old-location: mbn\imbnconnectionmanager_getconnections.htm
 tech.root: mbn
 ms.assetid: 5f4fd3b2-ed24-403a-ae5a-31821a2c7033

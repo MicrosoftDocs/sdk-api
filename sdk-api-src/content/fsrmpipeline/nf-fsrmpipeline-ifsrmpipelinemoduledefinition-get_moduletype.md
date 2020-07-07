@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleDefinition.get_ModuleType
 title: IFsrmPipelineModuleDefinition::get_ModuleType (fsrmpipeline.h)
-description: The type of module.helpviewer_keywords: ["IFsrmPipelineModuleDefinition interface [File Server Resource Manager]","ModuleType property","IFsrmPipelineModuleDefinition.ModuleType","IFsrmPipelineModuleDefinition.get_ModuleType","IFsrmPipelineModuleDefinition::ModuleType","IFsrmPipelineModuleDefinition::get_ModuleType","ModuleType property [File Server Resource Manager]","ModuleType property [File Server Resource Manager]","IFsrmPipelineModuleDefinition interface","fs.ifsrmpipelinemoduledefinition_moduletype","fsrm.ifsrmpipelinemoduledefinition_moduletype","fsrmpipeline/IFsrmPipelineModuleDefinition::ModuleType","fsrmpipeline/IFsrmPipelineModuleDefinition::get_ModuleType","get_ModuleType"]
+description: The type of module.
+helpviewer_keywords: ["IFsrmPipelineModuleDefinition interface [File Server Resource Manager]","ModuleType property","IFsrmPipelineModuleDefinition.ModuleType","IFsrmPipelineModuleDefinition.get_ModuleType","IFsrmPipelineModuleDefinition::ModuleType","IFsrmPipelineModuleDefinition::get_ModuleType","ModuleType property [File Server Resource Manager]","ModuleType property [File Server Resource Manager]","IFsrmPipelineModuleDefinition interface","fs.ifsrmpipelinemoduledefinition_moduletype","fsrm.ifsrmpipelinemoduledefinition_moduletype","fsrmpipeline/IFsrmPipelineModuleDefinition::ModuleType","fsrmpipeline/IFsrmPipelineModuleDefinition::get_ModuleType","get_ModuleType"]
 old-location: fsrm\ifsrmpipelinemoduledefinition_moduletype.htm
 tech.root: fsrm
 ms.assetid: 8cf3069d-8ad1-455b-baea-29c30cef1672

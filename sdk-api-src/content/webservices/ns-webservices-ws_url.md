@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_URL
 title: WS_URL (webservices.h)
-description: The abstract base type for all URL schemes used with WsDecodeUrl and WsEncodeUrl APIs.helpviewer_keywords: ["WS_URL","WS_URL structure [Web Services for Windows]","webservices/WS_URL","wsw.ws_url"]
+description: The abstract base type for all URL schemes used with WsDecodeUrl and WsEncodeUrl APIs.
+helpviewer_keywords: ["WS_URL","WS_URL structure [Web Services for Windows]","webservices/WS_URL","wsw.ws_url"]
 old-location: wsw\ws_url.htm
 tech.root: wsw
 ms.assetid: efc67b64-cedf-4cd9-83b3-047f6c38c6ea

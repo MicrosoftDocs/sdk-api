@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitPropVariantVectorFromPropVariant
 title: InitPropVariantVectorFromPropVariant function (propvarutil.h)
-description: Initializes a vector element in a PROPVARIANT structure with a value stored in another PROPVARIANT.helpviewer_keywords: ["InitPropVariantVectorFromPropVariant","InitPropVariantVectorFromPropVariant function [Windows Properties]","properties.InitPropVariantVectorFromPropVariant","propvarutil/InitPropVariantVectorFromPropVariant","shell.InitPropVariantVectorFromPropVariant","shell_InitPropVariantVectorFromPropVariant"]
+description: Initializes a vector element in a PROPVARIANT structure with a value stored in another PROPVARIANT.
+helpviewer_keywords: ["InitPropVariantVectorFromPropVariant","InitPropVariantVectorFromPropVariant function [Windows Properties]","properties.InitPropVariantVectorFromPropVariant","propvarutil/InitPropVariantVectorFromPropVariant","shell.InitPropVariantVectorFromPropVariant","shell_InitPropVariantVectorFromPropVariant"]
 old-location: properties\InitPropVariantVectorFromPropVariant.htm
 tech.root: properties
 ms.assetid: 579f80af-38e0-4d3a-9307-5aa5e3fd6770

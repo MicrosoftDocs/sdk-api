@@ -1,7 +1,8 @@
 ---
 UID: NE:directml.DML_BINDING_TYPE
 title: DML_BINDING_TYPE
-description: Defines constants that specify the nature of the resource(s) referred to by a binding description (a DML_BINDING_DESC structure).helpviewer_keywords: ["DML_BINDING_TYPE","DML_BINDING_TYPE enumeration","DML_BINDING_TYPE_BUFFER","DML_BINDING_TYPE_BUFFER_ARRAY","DML_BINDING_TYPE_NONE","direct3d12.dml_binding_type","directml/DML_BINDING_TYPE","directml/DML_BINDING_TYPE_BUFFER","directml/DML_BINDING_TYPE_BUFFER_ARRAY","directml/DML_BINDING_TYPE_NONE"]
+description: Defines constants that specify the nature of the resource(s) referred to by a binding description (a DML_BINDING_DESC structure).
+helpviewer_keywords: ["DML_BINDING_TYPE","DML_BINDING_TYPE enumeration","DML_BINDING_TYPE_BUFFER","DML_BINDING_TYPE_BUFFER_ARRAY","DML_BINDING_TYPE_NONE","direct3d12.dml_binding_type","directml/DML_BINDING_TYPE","directml/DML_BINDING_TYPE_BUFFER","directml/DML_BINDING_TYPE_BUFFER_ARRAY","directml/DML_BINDING_TYPE_NONE"]
 old-location: direct3d12\dml_binding_type.htm
 tech.root: direct3d12
 ms.assetid: 9FAE821A-9853-41E3-9F11-A4B88498BA68

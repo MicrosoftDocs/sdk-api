@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetTag
 title: IDvbTerrestrialDeliverySystemDescriptor::GetTag (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbTerrestrialDeliverySystemDescriptor.GetTag","IDvbTerrestrialDeliverySystemDescriptor::GetTag","IDvbTerrestrialDeliverySystemDescriptorGetTag","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetTag","mstv.idvbterrestrialdeliverysystemdescriptor_gettag"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetTag method","IDvbTerrestrialDeliverySystemDescriptor.GetTag","IDvbTerrestrialDeliverySystemDescriptor::GetTag","IDvbTerrestrialDeliverySystemDescriptorGetTag","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetTag","mstv.idvbterrestrialdeliverysystemdescriptor_gettag"]
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: a4076176-6e24-4469-b2f3-52c1e8f388bb

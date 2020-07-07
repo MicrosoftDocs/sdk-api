@@ -1,7 +1,8 @@
 ---
 UID: NE:filter.tagIFILTER_INIT
 title: IFILTER_INIT (filter.h)
-description: Flags that control the filtering process.helpviewer_keywords: ["IFILTER_INIT","IFILTER_INIT enumeration [Indexing Service]","IFILTER_INIT_APPLY_CRAWL_ATTRIBUTES","IFILTER_INIT_APPLY_INDEX_ATTRIBUTES","IFILTER_INIT_APPLY_OTHER_ATTRIBUTES","IFILTER_INIT_CANON_HYPHENS","IFILTER_INIT_CANON_PARAGRAPHS","IFILTER_INIT_CANON_SPACES","IFILTER_INIT_DISABLE_EMBEDDED","IFILTER_INIT_EMIT_FORMATTING","IFILTER_INIT_FILTER_AGGRESSIVE_BREAK","IFILTER_INIT_FILTER_OWNED_VALUE_OK","IFILTER_INIT_HARD_LINE_BREAKS","IFILTER_INIT_INDEXING_ONLY","IFILTER_INIT_SEARCH_LINKS","_idxs_IFILTER_INIT_enum","filter/IFILTER_INIT","filter/IFILTER_INIT_APPLY_CRAWL_ATTRIBUTES","filter/IFILTER_INIT_APPLY_INDEX_ATTRIBUTES","filter/IFILTER_INIT_APPLY_OTHER_ATTRIBUTES","filter/IFILTER_INIT_CANON_HYPHENS","filter/IFILTER_INIT_CANON_PARAGRAPHS","filter/IFILTER_INIT_CANON_SPACES","filter/IFILTER_INIT_DISABLE_EMBEDDED","filter/IFILTER_INIT_EMIT_FORMATTING","filter/IFILTER_INIT_FILTER_AGGRESSIVE_BREAK","filter/IFILTER_INIT_FILTER_OWNED_VALUE_OK","filter/IFILTER_INIT_HARD_LINE_BREAKS","filter/IFILTER_INIT_INDEXING_ONLY","filter/IFILTER_INIT_SEARCH_LINKS","indexsrv.ifilter_init_enum","tagIFILTER_INIT"]
+description: Flags that control the filtering process.
+helpviewer_keywords: ["IFILTER_INIT","IFILTER_INIT enumeration [Indexing Service]","IFILTER_INIT_APPLY_CRAWL_ATTRIBUTES","IFILTER_INIT_APPLY_INDEX_ATTRIBUTES","IFILTER_INIT_APPLY_OTHER_ATTRIBUTES","IFILTER_INIT_CANON_HYPHENS","IFILTER_INIT_CANON_PARAGRAPHS","IFILTER_INIT_CANON_SPACES","IFILTER_INIT_DISABLE_EMBEDDED","IFILTER_INIT_EMIT_FORMATTING","IFILTER_INIT_FILTER_AGGRESSIVE_BREAK","IFILTER_INIT_FILTER_OWNED_VALUE_OK","IFILTER_INIT_HARD_LINE_BREAKS","IFILTER_INIT_INDEXING_ONLY","IFILTER_INIT_SEARCH_LINKS","_idxs_IFILTER_INIT_enum","filter/IFILTER_INIT","filter/IFILTER_INIT_APPLY_CRAWL_ATTRIBUTES","filter/IFILTER_INIT_APPLY_INDEX_ATTRIBUTES","filter/IFILTER_INIT_APPLY_OTHER_ATTRIBUTES","filter/IFILTER_INIT_CANON_HYPHENS","filter/IFILTER_INIT_CANON_PARAGRAPHS","filter/IFILTER_INIT_CANON_SPACES","filter/IFILTER_INIT_DISABLE_EMBEDDED","filter/IFILTER_INIT_EMIT_FORMATTING","filter/IFILTER_INIT_FILTER_AGGRESSIVE_BREAK","filter/IFILTER_INIT_FILTER_OWNED_VALUE_OK","filter/IFILTER_INIT_HARD_LINE_BREAKS","filter/IFILTER_INIT_INDEXING_ONLY","filter/IFILTER_INIT_SEARCH_LINKS","indexsrv.ifilter_init_enum","tagIFILTER_INIT"]
 old-location: indexsrv\ifilter_init_enum.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9dm5.htm
@@ -48,7 +49,7 @@ ms.custom: 19H1
 ## -description
 
 
-<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href=" https://go.microsoft.com/fwlink/p/?linkid=258445">Microsoft Search Server Express</a> for server side search.]
+<p class="CCE_Message">[Indexing Service is no longer supported as of Windows XP and is unavailable for use as of Windows 8. Instead, use <a href="https://docs.microsoft.com/windows/desktop/search/-search-3x-wds-overview">Windows Search</a> for client side search and  <a href=" http://www.microsoft.com/en-us/download/details.aspx?id=18914">Microsoft Search Server Express</a> for server side search.]
 
 Flags that control the filtering process.
 

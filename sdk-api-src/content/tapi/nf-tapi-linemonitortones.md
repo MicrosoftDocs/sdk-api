@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineMonitorTones
 title: lineMonitorTones function (tapi.h)
-description: The lineMonitorTones function enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the application.helpviewer_keywords: ["_tapi2_linemonitortones","lineMonitorTones","lineMonitorTones function [TAPI 2.2]","tapi/lineMonitorTones","tapi2.linemonitortones"]
+description: The lineMonitorTones function enables and disables the detection of inband tones on the call. Each time a specified tone is detected, a message is sent to the application.
+helpviewer_keywords: ["_tapi2_linemonitortones","lineMonitorTones","lineMonitorTones function [TAPI 2.2]","tapi/lineMonitorTones","tapi2.linemonitortones"]
 old-location: tapi2\linemonitortones.htm
 tech.root: Tapi
 ms.assetid: 47fe21f2-7896-4ccf-8c26-33430b2081ac

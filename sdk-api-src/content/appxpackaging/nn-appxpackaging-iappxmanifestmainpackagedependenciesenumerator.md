@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxManifestMainPackageDependenciesEnumerator
 title: IAppxManifestMainPackageDependenciesEnumerator (appxpackaging.h)
-description: Enumerates &lt;MainPackageDependency&gt; elements from an app manifest.helpviewer_keywords: ["IAppxManifestMainPackageDependenciesEnumerator","IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management]","IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management]","described","appxpackaging/IAppxManifestMainPackageDependenciesEnumerator","appxpkg.iappxmanifestmainpackagedependenciesenumerator"]
+description: Enumerates &lt;MainPackageDependency&gt; elements from an app manifest.
+helpviewer_keywords: ["IAppxManifestMainPackageDependenciesEnumerator","IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management]","IAppxManifestMainPackageDependenciesEnumerator interface [App packaging and management]","described","appxpackaging/IAppxManifestMainPackageDependenciesEnumerator","appxpkg.iappxmanifestmainpackagedependenciesenumerator"]
 old-location: appxpkg\iappxmanifestmainpackagedependenciesenumerator.htm
 tech.root: appxpkg
 ms.assetid: EB511040-5011-4B79-AFEE-DFF42E11025B

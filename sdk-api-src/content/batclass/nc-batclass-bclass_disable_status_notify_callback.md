@@ -1,7 +1,8 @@
 ---
 UID: NC:batclass.BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK
 title: BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK (batclass.h)
-description: BatteryMiniDisableStatusNotify disables status notification for a battery device.helpviewer_keywords: ["BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK","BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK callback","BatteryMiniDisableStatusNotify","BatteryMiniDisableStatusNotify callback function [Battery Devices]","bat-mini_2e5f13bc-0046-486c-a1f9-be94bf309559.xml","batclass/BatteryMiniDisableStatusNotify","battery.batteryminidisablestatusnotify"]
+description: BatteryMiniDisableStatusNotify disables status notification for a battery device.
+helpviewer_keywords: ["BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK","BCLASS_DISABLE_STATUS_NOTIFY_CALLBACK callback","BatteryMiniDisableStatusNotify","BatteryMiniDisableStatusNotify callback function [Battery Devices]","bat-mini_2e5f13bc-0046-486c-a1f9-be94bf309559.xml","batclass/BatteryMiniDisableStatusNotify","battery.batteryminidisablestatusnotify"]
 old-location: battery\batteryminidisablestatusnotify.htm
 tech.root: battery
 ms.assetid: 5120205f-0d55-4391-a560-3089fbe11d82

@@ -1,13 +1,13 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.GetAttributeByIndex
 title: IWMRegisteredDevice::GetAttributeByIndex (wmsdkidl.h)
-description: The GetAttributeByIndex method retrieves an attribute associated with the device. This method uses the attribute index to specify the attribute to retrieve.helpviewer_keywords: ["GetAttributeByIndex","GetAttributeByIndex method [windows Media Format]","GetAttributeByIndex method [windows Media Format]","IWMRegisteredDevice interface","IWMRegisteredDevice interface [windows Media Format]","GetAttributeByIndex method","IWMRegisteredDevice.GetAttributeByIndex","IWMRegisteredDevice::GetAttributeByIndex","IWMRegisteredDeviceGetAttributeByIndex","wmformat.iwmregistereddevice_getattributebyindex","wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex"]
+description: The GetAttributeByIndex method retrieves an attribute associated with the device. This method uses the attribute index to specify the attribute to retrieve.
+helpviewer_keywords: ["GetAttributeByIndex","GetAttributeByIndex method [windows Media Format]","GetAttributeByIndex method [windows Media Format]","IWMRegisteredDevice interface","IWMRegisteredDevice interface [windows Media Format]","GetAttributeByIndex method","IWMRegisteredDevice.GetAttributeByIndex","IWMRegisteredDevice::GetAttributeByIndex","IWMRegisteredDeviceGetAttributeByIndex","wmformat.iwmregistereddevice_getattributebyindex","wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex"]
 old-location: wmformat\iwmregistereddevice_getattributebyindex.htm
 tech.root: wmformat
 ms.assetid: 02a582d4-329e-47e3-9dbe-dba8a3e4b4b3
 ms.date: 12/05/2018
 ms.keywords: GetAttributeByIndex, GetAttributeByIndex method [windows Media Format], GetAttributeByIndex method [windows Media Format],IWMRegisteredDevice interface, IWMRegisteredDevice interface [windows Media Format],GetAttributeByIndex method, IWMRegisteredDevice.GetAttributeByIndex, IWMRegisteredDevice::GetAttributeByIndex, IWMRegisteredDeviceGetAttributeByIndex, wmformat.iwmregistereddevice_getattributebyindex, wmsdkidl/IWMRegisteredDevice::GetAttributeByIndex
-ms.topic: method
 f1_keywords:
 - wmsdkidl/IWMRegisteredDevice.GetAttributeByIndex
 dev_langs:

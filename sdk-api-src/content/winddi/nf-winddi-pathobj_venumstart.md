@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.PATHOBJ_vEnumStart
 title: PATHOBJ_vEnumStart function (winddi.h)
-description: The PATHOBJ_vEnumStart function notifies a given PATHOBJ structure that the driver will be calling PATHOBJ_bEnum to enumerate lines and/or curves in the path.helpviewer_keywords: ["PATHOBJ_vEnumStart","PATHOBJ_vEnumStart function [Display Devices]","display.pathobj_venumstart","gdifncs_93ed4330-ebfd-4ba1-b095-99beb3146452.xml","winddi/PATHOBJ_vEnumStart"]
+description: The PATHOBJ_vEnumStart function notifies a given PATHOBJ structure that the driver will be calling PATHOBJ_bEnum to enumerate lines and/or curves in the path.
+helpviewer_keywords: ["PATHOBJ_vEnumStart","PATHOBJ_vEnumStart function [Display Devices]","display.pathobj_venumstart","gdifncs_93ed4330-ebfd-4ba1-b095-99beb3146452.xml","winddi/PATHOBJ_vEnumStart"]
 old-location: display\pathobj_venumstart.htm
 tech.root: display
 ms.assetid: b83e6f87-be79-4743-bc52-b9310853c4f5

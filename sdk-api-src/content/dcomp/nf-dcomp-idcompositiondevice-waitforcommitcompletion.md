@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.WaitForCommitCompletion
 title: IDCompositionDevice::WaitForCommitCompletion (dcomp.h)
-description: Waits for the composition engine to finish processing the previous call to the IDCompositionDevice::Commit method.helpviewer_keywords: ["IDCompositionDevice interface [DirectComposition]","WaitForCommitCompletion method","IDCompositionDevice.WaitForCommitCompletion","IDCompositionDevice::WaitForCommitCompletion","WaitForCommitCompletion","WaitForCommitCompletion method [DirectComposition]","WaitForCommitCompletion method [DirectComposition]","IDCompositionDevice interface","dcomp/IDCompositionDevice::WaitForCommitCompletion","directcomp.idcompositiondevice_waitforcommitcompletion"]
+description: Waits for the composition engine to finish processing the previous call to the IDCompositionDevice::Commit method.
+helpviewer_keywords: ["IDCompositionDevice interface [DirectComposition]","WaitForCommitCompletion method","IDCompositionDevice.WaitForCommitCompletion","IDCompositionDevice::WaitForCommitCompletion","WaitForCommitCompletion","WaitForCommitCompletion method [DirectComposition]","WaitForCommitCompletion method [DirectComposition]","IDCompositionDevice interface","dcomp/IDCompositionDevice::WaitForCommitCompletion","directcomp.idcompositiondevice_waitforcommitcompletion"]
 old-location: directcomp\idcompositiondevice_waitforcommitcompletion.htm
 tech.root: directcomp
 ms.assetid: C921AC68-492C-4E29-876C-8857D5475B1D

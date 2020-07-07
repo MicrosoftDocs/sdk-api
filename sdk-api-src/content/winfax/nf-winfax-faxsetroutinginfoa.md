@@ -1,7 +1,8 @@
 ---
 UID: NF:winfax.FaxSetRoutingInfoA
 title: FaxSetRoutingInfoA function (winfax.h)
-description: A fax management application calls the FaxSetRoutingInfo function to modify the routing information for a fax routing method that is associated with a specific fax device.helpviewer_keywords: ["FaxSetRoutingInfo","FaxSetRoutingInfo function [Fax Service]","FaxSetRoutingInfoA","FaxSetRoutingInfoW","_mfax_faxsetroutinginfo","fax._mfax_faxsetroutinginfo","winfax/FaxSetRoutingInfo","winfax/FaxSetRoutingInfoA","winfax/FaxSetRoutingInfoW"]
+description: A fax management application calls the FaxSetRoutingInfo function to modify the routing information for a fax routing method that is associated with a specific fax device.
+helpviewer_keywords: ["FaxSetRoutingInfo","FaxSetRoutingInfo function [Fax Service]","FaxSetRoutingInfoA","FaxSetRoutingInfoW","_mfax_faxsetroutinginfo","fax._mfax_faxsetroutinginfo","winfax/FaxSetRoutingInfo","winfax/FaxSetRoutingInfoA","winfax/FaxSetRoutingInfoW"]
 old-location: fax\_mfax_faxsetroutinginfo.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_66i7.htm
@@ -160,6 +161,10 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 
+
+
+> [!NOTE]
+> The winfax.h header defines FaxSetRoutingInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

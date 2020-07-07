@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetBinaryTypeA
 title: GetBinaryTypeA function (winbase.h)
-description: Determines whether a file is an executable (.exe) file, and if so, which subsystem runs the executable file.helpviewer_keywords: ["GetBinaryType","GetBinaryType function [Files]","GetBinaryTypeA","GetBinaryTypeW","SCS_32BIT_BINARY","SCS_64BIT_BINARY","SCS_DOS_BINARY","SCS_OS216_BINARY","SCS_PIF_BINARY","SCS_POSIX_BINARY","SCS_WOW_BINARY","_win32_getbinarytype","base.getbinarytype","fs.getbinarytype","winbase/GetBinaryType","winbase/GetBinaryTypeA","winbase/GetBinaryTypeW"]
+description: Determines whether a file is an executable (.exe) file, and if so, which subsystem runs the executable file.
+helpviewer_keywords: ["GetBinaryType","GetBinaryType function [Files]","GetBinaryTypeA","GetBinaryTypeW","SCS_32BIT_BINARY","SCS_64BIT_BINARY","SCS_DOS_BINARY","SCS_OS216_BINARY","SCS_PIF_BINARY","SCS_POSIX_BINARY","SCS_WOW_BINARY","_win32_getbinarytype","base.getbinarytype","fs.getbinarytype","winbase/GetBinaryType","winbase/GetBinaryTypeA","winbase/GetBinaryTypeW"]
 old-location: fs\getbinarytype.htm
 tech.root: FileIO
 ms.assetid: ec937372-ee99-4505-a5dd-7c111405cbc6
@@ -253,6 +254,10 @@ Yes
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines GetBinaryType as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfileManager.GetConnectionProfile
 title: IMbnConnectionProfileManager::GetConnectionProfile (mbnapi.h)
-description: Gets a specific connection profile associated with the given Mobile Broadband device.helpviewer_keywords: ["GetConnectionProfile","GetConnectionProfile method [Microsoft Broadband Networks]","GetConnectionProfile method [Microsoft Broadband Networks]","IMbnConnectionProfileManager interface","IMbnConnectionProfileManager interface [Microsoft Broadband Networks]","GetConnectionProfile method","IMbnConnectionProfileManager.GetConnectionProfile","IMbnConnectionProfileManager::GetConnectionProfile","mbn.imbnconnectionprofilemanager_getconnectionprofile","mbnapi/IMbnConnectionProfileManager::GetConnectionProfile"]
+description: Gets a specific connection profile associated with the given Mobile Broadband device.
+helpviewer_keywords: ["GetConnectionProfile","GetConnectionProfile method [Microsoft Broadband Networks]","GetConnectionProfile method [Microsoft Broadband Networks]","IMbnConnectionProfileManager interface","IMbnConnectionProfileManager interface [Microsoft Broadband Networks]","GetConnectionProfile method","IMbnConnectionProfileManager.GetConnectionProfile","IMbnConnectionProfileManager::GetConnectionProfile","mbn.imbnconnectionprofilemanager_getconnectionprofile","mbnapi/IMbnConnectionProfileManager::GetConnectionProfile"]
 old-location: mbn\imbnconnectionprofilemanager_getconnectionprofile.htm
 tech.root: mbn
 ms.assetid: 24658f8b-a34f-4821-9fac-bd5c8810725f

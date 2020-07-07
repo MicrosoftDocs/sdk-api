@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DSA_InsertItem
 title: DSA_InsertItem function (dpa_dsa.h)
-description: Inserts a new item into a dynamic structure array (DSA). If necessary, the DSA expands to accommodate the new item.helpviewer_keywords: ["DSA_InsertItem","DSA_InsertItem function [Windows Controls]","_win32_DSA_InsertItem","_win32_DSA_InsertItem_cpp","controls.DSA_InsertItem","controls._win32_DSA_InsertItem","dpa_dsa/DSA_InsertItem"]
+description: Inserts a new item into a dynamic structure array (DSA). If necessary, the DSA expands to accommodate the new item.
+helpviewer_keywords: ["DSA_InsertItem","DSA_InsertItem function [Windows Controls]","_win32_DSA_InsertItem","_win32_DSA_InsertItem_cpp","controls.DSA_InsertItem","controls._win32_DSA_InsertItem","dpa_dsa/DSA_InsertItem"]
 old-location: controls\DSA_InsertItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dsa_insertitem.htm

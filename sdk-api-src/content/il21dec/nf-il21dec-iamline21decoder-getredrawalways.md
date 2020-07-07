@@ -1,7 +1,8 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.GetRedrawAlways
 title: IAMLine21Decoder::GetRedrawAlways (il21dec.h)
-description: The GetRedrawAlways method indicates whether the Line 21 Decoder filter redraws the entire output bitmap for each sample.helpviewer_keywords: ["GetRedrawAlways","GetRedrawAlways method [DirectShow]","GetRedrawAlways method [DirectShow]","IAMLine21Decoder interface","IAMLine21Decoder interface [DirectShow]","GetRedrawAlways method","IAMLine21Decoder.GetRedrawAlways","IAMLine21Decoder::GetRedrawAlways","IAMLine21DecoderGetRedrawAlways","dshow.iamline21decoder_getredrawalways","il21dec/IAMLine21Decoder::GetRedrawAlways"]
+description: The GetRedrawAlways method indicates whether the Line 21 Decoder filter redraws the entire output bitmap for each sample.
+helpviewer_keywords: ["GetRedrawAlways","GetRedrawAlways method [DirectShow]","GetRedrawAlways method [DirectShow]","IAMLine21Decoder interface","IAMLine21Decoder interface [DirectShow]","GetRedrawAlways method","IAMLine21Decoder.GetRedrawAlways","IAMLine21Decoder::GetRedrawAlways","IAMLine21DecoderGetRedrawAlways","dshow.iamline21decoder_getredrawalways","il21dec/IAMLine21Decoder::GetRedrawAlways"]
 old-location: dshow\iamline21decoder_getredrawalways.htm
 tech.root: DirectShow
 ms.assetid: 9ab65d23-816d-4c6f-a0bc-b3334babdc23

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.GenerateSQLFromUserQuery
 title: ISearchQueryHelper::GenerateSQLFromUserQuery (searchapi.h)
-description: Generates a Structured Query Language (SQL) query based on a client-supplied query string expressed in either Advanced Query Syntax (AQS) or Natural Query Syntax (NQS).helpviewer_keywords: ["GenerateSQLFromUserQuery","GenerateSQLFromUserQuery method [search]","GenerateSQLFromUserQuery method [search]","ISearchQueryHelper interface","ISearchQueryHelper interface [search]","GenerateSQLFromUserQuery method","ISearchQueryHelper.GenerateSQLFromUserQuery","ISearchQueryHelper::GenerateSQLFromUserQuery","_search_ISearchQueryHelper_GenerateSQLFromUserQuery","search._search_ISearchQueryHelper_GenerateSQLFromUserQuery","searchapi/ISearchQueryHelper::GenerateSQLFromUserQuery"]
+description: Generates a Structured Query Language (SQL) query based on a client-supplied query string expressed in either Advanced Query Syntax (AQS) or Natural Query Syntax (NQS).
+helpviewer_keywords: ["GenerateSQLFromUserQuery","GenerateSQLFromUserQuery method [search]","GenerateSQLFromUserQuery method [search]","ISearchQueryHelper interface","ISearchQueryHelper interface [search]","GenerateSQLFromUserQuery method","ISearchQueryHelper.GenerateSQLFromUserQuery","ISearchQueryHelper::GenerateSQLFromUserQuery","_search_ISearchQueryHelper_GenerateSQLFromUserQuery","search._search_ISearchQueryHelper_GenerateSQLFromUserQuery","searchapi/ISearchQueryHelper::GenerateSQLFromUserQuery"]
 old-location: search\_search_ISearchQueryHelper_GenerateSQLFromUserQuery.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\generatesqlfromuserquery.htm
@@ -95,10 +96,7 @@ The SQL generation uses the settings specified in <a href="https://docs.microsof
 
 <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> uses regional locale settings. However, <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a> does not use the regional locale settings. As a result, there are inconsistencies in the SQL returned from <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> and <b>ISearchQueryHelper</b> for region specific settings such as  date formats. For example, if you set the locale for date/time to something other than the system locale, such as en-CA if the system locale is en-US, and enter <code>Toybox -m -i "date:3/7/2008" -Y -s</code>, the SQL returned will differ. The SQL from <b>ISearchQueryHelper::GenerateSQLFromUserQuery</b> will have parsed 3/7/2008 according to en-CA (seeking items dated 3rd of July, 2008) while the SQL from <b>ISearchQueryHelper</b> will have parsed 3/7/2008 according to en-US (seeking items dated 7th of March, 2008).
 
-The DSearch code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
-
-
-
+Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-dsearch">DSearch code sample</a> to see how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
 
 ## -see-also
 

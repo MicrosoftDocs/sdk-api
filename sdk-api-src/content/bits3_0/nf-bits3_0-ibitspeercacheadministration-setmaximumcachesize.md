@@ -1,7 +1,8 @@
 ---
 UID: NF:bits3_0.IBitsPeerCacheAdministration.SetMaximumCacheSize
 title: IBitsPeerCacheAdministration::SetMaximumCacheSize (bits3_0.h)
-description: Specifies the maximum size of the cache.helpviewer_keywords: ["IBitsPeerCacheAdministration interface [BITS]","SetMaximumCacheSize method","IBitsPeerCacheAdministration.SetMaximumCacheSize","IBitsPeerCacheAdministration::SetMaximumCacheSize","SetMaximumCacheSize","SetMaximumCacheSize method [BITS]","SetMaximumCacheSize method [BITS]","IBitsPeerCacheAdministration interface","bits.ibitspeercacheadministration_setmaximumcachesize","bits3_0/IBitsPeerCacheAdministration::SetMaximumCacheSize"]
+description: Specifies the maximum size of the cache.
+helpviewer_keywords: ["IBitsPeerCacheAdministration interface [BITS]","SetMaximumCacheSize method","IBitsPeerCacheAdministration.SetMaximumCacheSize","IBitsPeerCacheAdministration::SetMaximumCacheSize","SetMaximumCacheSize","SetMaximumCacheSize method [BITS]","SetMaximumCacheSize method [BITS]","IBitsPeerCacheAdministration interface","bits.ibitspeercacheadministration_setmaximumcachesize","bits3_0/IBitsPeerCacheAdministration::SetMaximumCacheSize"]
 old-location: bits\ibitspeercacheadministration_setmaximumcachesize.htm
 tech.root: Bits
 ms.assetid: 064376cf-8865-45a1-a63a-1096bc0d58ce

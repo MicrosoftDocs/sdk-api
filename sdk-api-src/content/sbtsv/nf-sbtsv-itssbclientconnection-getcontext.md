@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.GetContext
 title: ITsSbClientConnection::GetContext (sbtsv.h)
-description: Retrieves context information that was stored by a plug-in by using the PutContext method.helpviewer_keywords: ["GetContext","GetContext method [Remote Desktop Services]","GetContext method [Remote Desktop Services]","ITsSbClientConnection interface","ITsSbClientConnection interface [Remote Desktop Services]","GetContext method","ITsSbClientConnection.GetContext","ITsSbClientConnection::GetContext","sbtsv/ITsSbClientConnection::GetContext","termserv.itssbclientconnection_getcontext"]
+description: Retrieves context information that was stored by a plug-in by using the PutContext method.
+helpviewer_keywords: ["GetContext","GetContext method [Remote Desktop Services]","GetContext method [Remote Desktop Services]","ITsSbClientConnection interface","ITsSbClientConnection interface [Remote Desktop Services]","GetContext method","ITsSbClientConnection.GetContext","ITsSbClientConnection::GetContext","sbtsv/ITsSbClientConnection::GetContext","termserv.itssbclientconnection_getcontext"]
 old-location: termserv\itssbclientconnection_getcontext.htm
 tech.root: TermServ
 ms.assetid: dd4938b5-aa33-4eca-851c-fdef75ecc815

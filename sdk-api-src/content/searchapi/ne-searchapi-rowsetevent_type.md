@@ -90,10 +90,7 @@ The <b>ROWSETEVENT_TYPE_SCOPESTATISTICS</b> event gives you the same information
 <li>This event is guaranteed to raise a "bounce zero" state (zero items remaining to be added, zero modifies remaining), provided that a non-zero event has been raised.</li>
 <li>The indexer may process items without sending this event, if the queue empties before the statistics event frequency.</li>
 </ul>
-The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to prioritize indexing events.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
 
 ## -see-also
 

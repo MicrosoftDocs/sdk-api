@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IConsolePower
 title: IConsolePower (mmc.h)
-description: The IConsolePower interface controls the execution state and idle timers on operating systems that support power management.helpviewer_keywords: ["ConsolePower","IConsolePower","IConsolePower interface [MMC]","IConsolePower interface [MMC]","described","_slate_iconsolepower","mmc.iconsolepower","mmc/IConsolePower"]
+description: The IConsolePower interface controls the execution state and idle timers on operating systems that support power management.
+helpviewer_keywords: ["ConsolePower","IConsolePower","IConsolePower interface [MMC]","IConsolePower interface [MMC]","described","_slate_iconsolepower","mmc.iconsolepower","mmc/IConsolePower"]
 old-location: mmc\iconsolepower.htm
 tech.root: mmc
 ms.assetid: d34e8da0-2689-4514-be10-4c11008432b3

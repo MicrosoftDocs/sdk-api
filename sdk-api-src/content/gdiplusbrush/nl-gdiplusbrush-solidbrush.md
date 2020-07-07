@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplusbrush.SolidBrush
 title: SolidBrush (gdiplusbrush.h)
-description: The SolidBrush class defines a solid color Brush object. A Brush object is used to fill in shapes similar to the way a paint brush can paint the inside of a shape. This class inherits from the Brush abstract base class.helpviewer_keywords: ["SolidBrush","SolidBrush class [GDI+]","SolidBrush class [GDI+]","described","_gdiplus_CLASS_SolidBrush_Class","gdiplus._gdiplus_CLASS_SolidBrush_Class","gdiplusbrush/SolidBrush"]
+description: The SolidBrush class defines a solid color Brush object. A Brush object is used to fill in shapes similar to the way a paint brush can paint the inside of a shape. This class inherits from the Brush abstract base class.
+helpviewer_keywords: ["SolidBrush","SolidBrush class [GDI+]","SolidBrush class [GDI+]","described","_gdiplus_CLASS_SolidBrush_Class","gdiplus._gdiplus_CLASS_SolidBrush_Class","gdiplusbrush/SolidBrush"]
 old-location: gdiplus\_gdiplus_CLASS_SolidBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\solidbrush.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagLAYERPLANEDESCRIPTOR
 title: LAYERPLANEDESCRIPTOR (wingdi.h)
-description: The LAYERPLANEDESCRIPTOR structure describes the pixel format of a drawing surface.helpviewer_keywords: ["*LPLAYERPLANEDESCRIPTOR","*PLAYERPLANEDESCRIPTOR","LAYERPLANEDESCRIPTOR","LAYERPLANEDESCRIPTOR structure [OpenGL]","PLAYERPLANEDESCRIPTOR","PLAYERPLANEDESCRIPTOR structure pointer [OpenGL]","_ogl_LAYERPLANEDESCRIPTOR","opengl.layerplanedescriptor","wingdi/LAYERPLANEDESCRIPTOR","wingdi/PLAYERPLANEDESCRIPTOR"]
+description: The LAYERPLANEDESCRIPTOR structure describes the pixel format of a drawing surface.
+helpviewer_keywords: ["*LPLAYERPLANEDESCRIPTOR","*PLAYERPLANEDESCRIPTOR","LAYERPLANEDESCRIPTOR","LAYERPLANEDESCRIPTOR structure [OpenGL]","PLAYERPLANEDESCRIPTOR","PLAYERPLANEDESCRIPTOR structure pointer [OpenGL]","_ogl_LAYERPLANEDESCRIPTOR","opengl.layerplanedescriptor","wingdi/LAYERPLANEDESCRIPTOR","wingdi/PLAYERPLANEDESCRIPTOR"]
 old-location: opengl\layerplanedescriptor.htm
 tech.root: OpenGL
 ms.assetid: fdb0322d-503f-4c17-b438-f764d60da7f6

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IMediaSeeking.GetAvailable
 title: IMediaSeeking::GetAvailable (strmif.h)
-description: The GetAvailable method retrieves the range of times in which seeking is efficient.helpviewer_keywords: ["GetAvailable","GetAvailable method [DirectShow]","GetAvailable method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","GetAvailable method","IMediaSeeking.GetAvailable","IMediaSeeking::GetAvailable","IMediaSeekingGetAvailable","dshow.imediaseeking_getavailable","strmif/IMediaSeeking::GetAvailable"]
+description: The GetAvailable method retrieves the range of times in which seeking is efficient.
+helpviewer_keywords: ["GetAvailable","GetAvailable method [DirectShow]","GetAvailable method [DirectShow]","IMediaSeeking interface","IMediaSeeking interface [DirectShow]","GetAvailable method","IMediaSeeking.GetAvailable","IMediaSeeking::GetAvailable","IMediaSeekingGetAvailable","dshow.imediaseeking_getavailable","strmif/IMediaSeeking::GetAvailable"]
 old-location: dshow\imediaseeking_getavailable.htm
 tech.root: DirectShow
 ms.assetid: 8c4114e5-ff82-421a-a7fb-9382d4182388

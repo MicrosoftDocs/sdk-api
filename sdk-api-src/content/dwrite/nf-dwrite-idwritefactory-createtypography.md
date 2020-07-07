@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateTypography
 title: IDWriteFactory::CreateTypography (dwrite.h)
-description: Creates a typography object for use in a text layout.helpviewer_keywords: ["CreateTypography","CreateTypography method [Direct Write]","CreateTypography method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateTypography method","IDWriteFactory.CreateTypography","IDWriteFactory::CreateTypography","directwrite.IDWriteFactory_CreateTypography","dwrite/IDWriteFactory::CreateTypography"]
+description: Creates a typography object for use in a text layout.
+helpviewer_keywords: ["CreateTypography","CreateTypography method [Direct Write]","CreateTypography method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateTypography method","IDWriteFactory.CreateTypography","IDWriteFactory::CreateTypography","directwrite.IDWriteFactory_CreateTypography","dwrite/IDWriteFactory::CreateTypography"]
 old-location: directwrite\IDWriteFactory_CreateTypography.htm
 tech.root: DirectWrite
 ms.assetid: ef6d8289-3a8a-4ec1-89a8-b1b52e311d63

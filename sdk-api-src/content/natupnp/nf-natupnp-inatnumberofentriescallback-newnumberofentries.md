@@ -1,7 +1,8 @@
 ---
 UID: NF:natupnp.INATNumberOfEntriesCallback.NewNumberOfEntries
 title: INATNumberOfEntriesCallback::NewNumberOfEntries (natupnp.h)
-description: The system calls the NewNumberOfEntries method if the total number of NAT port mappings changes.helpviewer_keywords: ["INATNumberOfEntriesCallback interface [ICS/ICF]","NewNumberOfEntries method","INATNumberOfEntriesCallback.NewNumberOfEntries","INATNumberOfEntriesCallback::NewNumberOfEntries","NewNumberOfEntries","NewNumberOfEntries method [ICS/ICF]","NewNumberOfEntries method [ICS/ICF]","INATNumberOfEntriesCallback interface","_ics_inatnumberofentriescallback_newnumberofentries","ics.inatnumberofentriescallback_newnumberofentries","natupnp/INATNumberOfEntriesCallback::NewNumberOfEntries"]
+description: The system calls the NewNumberOfEntries method if the total number of NAT port mappings changes.
+helpviewer_keywords: ["INATNumberOfEntriesCallback interface [ICS/ICF]","NewNumberOfEntries method","INATNumberOfEntriesCallback.NewNumberOfEntries","INATNumberOfEntriesCallback::NewNumberOfEntries","NewNumberOfEntries","NewNumberOfEntries method [ICS/ICF]","NewNumberOfEntries method [ICS/ICF]","INATNumberOfEntriesCallback interface","_ics_inatnumberofentriescallback_newnumberofentries","ics.inatnumberofentriescallback_newnumberofentries","natupnp/INATNumberOfEntriesCallback::NewNumberOfEntries"]
 old-location: ics\inatnumberofentriescallback_newnumberofentries.htm
 tech.root: ics
 ms.assetid: 55998538-ddce-4a83-8d21-387f3c1f3b6a

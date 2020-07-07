@@ -1,7 +1,8 @@
 ---
 UID: NF:shappmgr.IShellApp.GetSlowAppInfo
 title: IShellApp::GetSlowAppInfo (shappmgr.h)
-description: Returns information to the application that originates from a slow source. This method is not applicable to published applications.helpviewer_keywords: ["GetSlowAppInfo","GetSlowAppInfo method [Windows Shell]","GetSlowAppInfo method [Windows Shell]","IShellApp interface","IShellApp interface [Windows Shell]","GetSlowAppInfo method","IShellApp.GetSlowAppInfo","IShellApp::GetSlowAppInfo","inet_IShellApp_GetSlowAppInfo","shappmgr/IShellApp::GetSlowAppInfo","shell.IShellApp_GetSlowAppInfo"]
+description: Returns information to the application that originates from a slow source. This method is not applicable to published applications.
+helpviewer_keywords: ["GetSlowAppInfo","GetSlowAppInfo method [Windows Shell]","GetSlowAppInfo method [Windows Shell]","IShellApp interface","IShellApp interface [Windows Shell]","GetSlowAppInfo method","IShellApp.GetSlowAppInfo","IShellApp::GetSlowAppInfo","inet_IShellApp_GetSlowAppInfo","shappmgr/IShellApp::GetSlowAppInfo","shell.IShellApp_GetSlowAppInfo"]
 old-location: shell\IShellApp_GetSlowAppInfo.htm
 tech.root: shell
 ms.assetid: 02f8e527-1c3c-4a2e-bf55-4f33c6a7b822

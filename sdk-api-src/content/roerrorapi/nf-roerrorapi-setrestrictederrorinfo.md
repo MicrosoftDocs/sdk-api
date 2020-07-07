@@ -1,7 +1,8 @@
 ---
 UID: NF:roerrorapi.SetRestrictedErrorInfo
 title: SetRestrictedErrorInfo function
-description: Sets the restricted error information object for the current thread.helpviewer_keywords: ["SetRestrictedErrorInfo","SetRestrictedErrorInfo function [Windows Runtime]","roerrorapi/SetRestrictedErrorInfo","winrt.setrestrictederrorinfo"]
+description: Sets the restricted error information object for the current thread.
+helpviewer_keywords: ["SetRestrictedErrorInfo","SetRestrictedErrorInfo function [Windows Runtime]","roerrorapi/SetRestrictedErrorInfo","winrt.setrestrictederrorinfo"]
 old-location: winrt\setrestrictederrorinfo.htm
 tech.root: WinRT
 ms.assetid: 3F4A62EF-ECD3-45FA-836D-77C510C43C5E

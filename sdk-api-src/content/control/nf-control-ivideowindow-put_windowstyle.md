@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IVideoWindow.put_WindowStyle
 title: IVideoWindow::put_WindowStyle (control.h)
-description: The put_WindowStyle method sets the window styles on the video window.helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_WindowStyle method","IVideoWindow.put_WindowStyle","IVideoWindow::put_WindowStyle","IVideoWindowput_WindowStyle","control/IVideoWindow::put_WindowStyle","dshow.ivideowindow_put_windowstyle","put_WindowStyle","put_WindowStyle method [DirectShow]","put_WindowStyle method [DirectShow]","IVideoWindow interface"]
+description: The put_WindowStyle method sets the window styles on the video window.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_WindowStyle method","IVideoWindow.put_WindowStyle","IVideoWindow::put_WindowStyle","IVideoWindowput_WindowStyle","control/IVideoWindow::put_WindowStyle","dshow.ivideowindow_put_windowstyle","put_WindowStyle","put_WindowStyle method [DirectShow]","put_WindowStyle method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_windowstyle.htm
 tech.root: DirectShow
 ms.assetid: cd1422d1-16a3-4aae-aadb-772a06173ba3

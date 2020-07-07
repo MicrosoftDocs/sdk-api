@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITMediaSupport.get_MediaTypes
 title: ITMediaSupport::get_MediaTypes (tapi3if.h)
-description: The get_MediaTypes method gets the media type or types supported on the current address.helpviewer_keywords: ["ITMediaSupport interface [TAPI 2.2]","get_MediaTypes method","ITMediaSupport.get_MediaTypes","ITMediaSupport::get_MediaTypes","_tapi3_itmediasupport_get_mediatypes","get_MediaTypes","get_MediaTypes method [TAPI 2.2]","get_MediaTypes method [TAPI 2.2]","ITMediaSupport interface","tapi3.itmediasupport_get_mediatypes","tapi3if/ITMediaSupport::get_MediaTypes"]
+description: The get_MediaTypes method gets the media type or types supported on the current address.
+helpviewer_keywords: ["ITMediaSupport interface [TAPI 2.2]","get_MediaTypes method","ITMediaSupport.get_MediaTypes","ITMediaSupport::get_MediaTypes","_tapi3_itmediasupport_get_mediatypes","get_MediaTypes","get_MediaTypes method [TAPI 2.2]","get_MediaTypes method [TAPI 2.2]","ITMediaSupport interface","tapi3.itmediasupport_get_mediatypes","tapi3if/ITMediaSupport::get_MediaTypes"]
 old-location: tapi3\itmediasupport_get_mediatypes.htm
 tech.root: Tapi
 ms.assetid: 8fc3d82e-6d6f-4442-9232-87f8d7605870

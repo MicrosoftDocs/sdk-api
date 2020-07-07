@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmReport.GetFilter
 title: IFsrmReport::GetFilter (fsrmreports.h)
-description: Retrieves the value of the specified report filter.helpviewer_keywords: ["GetFilter","GetFilter method [File Server Resource Manager]","GetFilter method [File Server Resource Manager]","IFsrmReport interface","IFsrmReport interface [File Server Resource Manager]","GetFilter method","IFsrmReport.GetFilter","IFsrmReport::GetFilter","fs.ifsrmreport_getfilter","fsrm.ifsrmreport_getfilter","fsrmreports/IFsrmReport::GetFilter"]
+description: Retrieves the value of the specified report filter.
+helpviewer_keywords: ["GetFilter","GetFilter method [File Server Resource Manager]","GetFilter method [File Server Resource Manager]","IFsrmReport interface","IFsrmReport interface [File Server Resource Manager]","GetFilter method","IFsrmReport.GetFilter","IFsrmReport::GetFilter","fs.ifsrmreport_getfilter","fsrm.ifsrmreport_getfilter","fsrmreports/IFsrmReport::GetFilter"]
 old-location: fsrm\ifsrmreport_getfilter.htm
 tech.root: fsrm
 ms.assetid: 991b0009-7ed9-4d75-af03-1b76aa8be70c

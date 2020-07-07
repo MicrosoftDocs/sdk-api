@@ -1,7 +1,8 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectConnector
 title: IMILBitmapEffectConnector (mileffects.h)
-description: Exposes methods that define an effect output pin.helpviewer_keywords: ["IMILBitmapEffectConnector","IMILBitmapEffectConnector interface [WPF Bitmap Effects]","IMILBitmapEffectConnector interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectconnector","mileffects/IMILBitmapEffectConnector","wibe._wibe_imilbitmapeffectconnector"]
+description: Exposes methods that define an effect output pin.
+helpviewer_keywords: ["IMILBitmapEffectConnector","IMILBitmapEffectConnector interface [WPF Bitmap Effects]","IMILBitmapEffectConnector interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectconnector","mileffects/IMILBitmapEffectConnector","wibe._wibe_imilbitmapeffectconnector"]
 old-location: wibe\_wibe_imilbitmapeffectconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnector\imilbitmapeffectconnector.htm

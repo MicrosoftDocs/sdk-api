@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExplorerCommand.GetCanonicalName
 title: IExplorerCommand::GetCanonicalName (shobjidl_core.h)
-description: Gets the GUID of an Windows Explorer command.helpviewer_keywords: ["GetCanonicalName","GetCanonicalName method [Windows Shell]","GetCanonicalName method [Windows Shell]","IExplorerCommand interface","IExplorerCommand interface [Windows Shell]","GetCanonicalName method","IExplorerCommand.GetCanonicalName","IExplorerCommand::GetCanonicalName","_shell_IExplorerCommand_GetCanonicalName","shell.IExplorerCommand_GetCanonicalName","shobjidl_core/IExplorerCommand::GetCanonicalName"]
+description: Gets the GUID of an Windows Explorer command.
+helpviewer_keywords: ["GetCanonicalName","GetCanonicalName method [Windows Shell]","GetCanonicalName method [Windows Shell]","IExplorerCommand interface","IExplorerCommand interface [Windows Shell]","GetCanonicalName method","IExplorerCommand.GetCanonicalName","IExplorerCommand::GetCanonicalName","_shell_IExplorerCommand_GetCanonicalName","shell.IExplorerCommand_GetCanonicalName","shobjidl_core/IExplorerCommand::GetCanonicalName"]
 old-location: shell\IExplorerCommand_GetCanonicalName.htm
 tech.root: shell
 ms.assetid: c0f2fc66-98f5-404f-9d82-0290ed235ac0

@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.PolylineTo
 title: PolylineTo function (wingdi.h)
-description: The PolylineTo function draws one or more straight lines.helpviewer_keywords: ["PolylineTo","PolylineTo function [Windows GDI]","_win32_PolylineTo","gdi.polylineto","wingdi/PolylineTo"]
+description: The PolylineTo function draws one or more straight lines.
+helpviewer_keywords: ["PolylineTo","PolylineTo function [Windows GDI]","_win32_PolylineTo","gdi.polylineto","wingdi/PolylineTo"]
 old-location: gdi\polylineto.htm
 tech.root: gdi
 ms.assetid: 76020742-b651-4244-82c3-13034573c306

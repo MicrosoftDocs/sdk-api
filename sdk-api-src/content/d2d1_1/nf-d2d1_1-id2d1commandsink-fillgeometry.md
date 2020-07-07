@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandSink.FillGeometry
 title: ID2D1CommandSink::FillGeometry (d2d1_1.h)
-description: Indicates to the command sink a geometry to be filled.helpviewer_keywords: ["FillGeometry","FillGeometry method [Direct2D]","FillGeometry method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","FillGeometry method","ID2D1CommandSink.FillGeometry","ID2D1CommandSink::FillGeometry","d2d1_1/ID2D1CommandSink::FillGeometry","direct2d.id2d1commandsink_fillgeometry"]
+description: Indicates to the command sink a geometry to be filled.
+helpviewer_keywords: ["FillGeometry","FillGeometry method [Direct2D]","FillGeometry method [Direct2D]","ID2D1CommandSink interface","ID2D1CommandSink interface [Direct2D]","FillGeometry method","ID2D1CommandSink.FillGeometry","ID2D1CommandSink::FillGeometry","d2d1_1/ID2D1CommandSink::FillGeometry","direct2d.id2d1commandsink_fillgeometry"]
 old-location: direct2d\id2d1commandsink_fillgeometry.htm
 tech.root: Direct2D
 ms.assetid: 04e93b19-f3a7-4196-bce0-e656d48116ef

@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_GET_CERT_CALLBACK
 title: WS_GET_CERT_CALLBACK (webservices.h)
-description: Provides a certificate to the security runtime.helpviewer_keywords: ["WS_GET_CERT_CALLBACK","WS_GET_CERT_CALLBACK callback","WS_GET_CERT_CALLBACK callback function [Web Services for Windows]","webservices/WS_GET_CERT_CALLBACK","wsw.ws_get_cert_callback"]
+description: Provides a certificate to the security runtime.
+helpviewer_keywords: ["WS_GET_CERT_CALLBACK","WS_GET_CERT_CALLBACK callback","WS_GET_CERT_CALLBACK callback function [Web Services for Windows]","webservices/WS_GET_CERT_CALLBACK","wsw.ws_get_cert_callback"]
 old-location: wsw\ws_get_cert_callback.htm
 tech.root: wsw
 ms.assetid: 36e787ff-f6bc-4814-be3f-a64f3edc2326

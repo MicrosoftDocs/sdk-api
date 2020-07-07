@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.InitOnceBeginInitialize
 title: InitOnceBeginInitialize function (synchapi.h)
-description: Begins one-time initialization.helpviewer_keywords: ["INIT_ONCE_ASYNC","INIT_ONCE_CHECK_ONLY","InitOnceBeginInitialize","InitOnceBeginInitialize function","base.initoncebegininitialize","synchapi/InitOnceBeginInitialize","winbase/InitOnceBeginInitialize"]
+description: Begins one-time initialization.
+helpviewer_keywords: ["INIT_ONCE_ASYNC","INIT_ONCE_CHECK_ONLY","InitOnceBeginInitialize","InitOnceBeginInitialize function","base.initoncebegininitialize","synchapi/InitOnceBeginInitialize","winbase/InitOnceBeginInitialize"]
 old-location: base\initoncebegininitialize.htm
 tech.root: Sync
 ms.assetid: f342e85c-ac81-4470-89ce-a9d0fc5e8f89
@@ -106,75 +107,43 @@ This function call does not begin initialization. The return value indicates whe
 
 If the function succeeds, this parameter indicates the current initialization status. 
 
-If this parameter is <b>TRUE</b> and <i>dwFlags</i> contains <b>INIT_ONCE_CHECK_ONLY</b>, the initialization is pending and the context data is invalid.
+If this parameter is **TRUE** and *dwFlags* contains **INIT_ONCE_CHECK_ONLY**, the initialization is pending and the context data is invalid.
 
-If this parameter is <b>FALSE</b>, initialization has already completed and the caller can retrieve the context data from the <i>lpContext</i> parameter.
+If this parameter is **FALSE**, initialization has already completed and the caller can retrieve the context data from the *lpContext* parameter.
 
-If this parameter is <b>TRUE</b> and <i>dwFlags</i> does not contain <b>INIT_ONCE_CHECK_ONLY</b>, initialization has been started and the caller can perform the initialization tasks.
+If this parameter is **TRUE** and *dwFlags* does not contain **INIT_ONCE_CHECK_ONLY**, initialization has been started and the caller can perform the initialization tasks.
 
 
 ### -param lpContext [out, optional]
 
-An optional parameter that receives the data stored with the one-time initialization structure upon success. The low-order <b>INIT_ONCE_CTX_RESERVED_BITS</b> bits of the data are always zero.
+An optional parameter that receives the data stored with the one-time initialization structure upon success. The low-order **INIT_ONCE_CTX_RESERVED_BITS** bits of the data are always zero.
 
 
 ## -returns
 
+If **INIT_ONCE_CHECK_ONLY** is not specified and the function succeeds, the return value is <b>TRUE</b>.
 
+If **INIT_ONCE_CHECK_ONLY** is specified and initialization has completed, the return value is <b>TRUE</b>.
 
-If <b>INIT_ONCE_CHECK_ONLY</b> is not specified and the function succeeds, the return value is <b>TRUE</b>.
+Otherwise, the return value is **FALSE**. 
 
-If <b>INIT_ONCE_CHECK_ONLY</b> is specified and initialization has completed, the return value is <b>TRUE</b>.
-
-Otherwise, the return value is <b>FALSE</b>. To get extended error information, call 
-<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
-
-
+To get extended error information, call [GetLastError](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror).
 
 ## -remarks
 
+This function can be used for either synchronous or asynchronous one-time initialization. For asynchronous one-time initialization, use the **INIT_ONCE_ASYNC** flag. To specify a callback function to execute during synchronous one-time initialization, see the [InitOnceExecuteOnce](/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce) function.
 
+If this function succeeds, the thread can create a synchronization object and specify in the *lpContext* parameter of the [InitOnceComplete](/windows/desktop/api/synchapi/nf-synchapi-initoncecomplete) function.
 
-This function can be used for either synchronous or asynchronous one-time initialization. For asynchronous one-time initialization, use the <b>INIT_ONCE_ASYNC</b> flag. To specify a callback function to execute during synchronous one-time initialization, see the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce">InitOnceExecuteOnce</a> function.
-
-If this function succeeds, the thread can create a synchronization object and specify in the <i>lpContext</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initoncecomplete">InitOnceComplete</a> function.
-
-To compile an application that uses this function, define <b>_WIN32_WINNT</b> as 0x0600 or later. For more information, see 
-<a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
+To compile an application that uses this function, define **\_WIN32_WINNT** as 0x0600 or later. For more information, see [Using the Windows Headers](/windows/desktop/WinProg/using-the-windows-headers).
 
 A one-time initialization object cannot be moved or copied. The process must not modify the initialization object, and must instead treat it as logically opaque. Only use the one-time initialization functions to manage one-time initialization objects.
 
 
 #### Examples
 
-For an example that uses 
-this function, see 
-<a href="https://docs.microsoft.com/windows/desktop/Sync/using-one-time-initialization">Using One-Time Initialization</a>.
-
-<div class="code"></div>
-
-
+For an example that uses this function, see [Using One-Time Initialization](/windows/desktop/Sync/using-one-time-initialization)
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initoncecomplete">InitOnceComplete</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce">InitOnceExecuteOnce</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Sync/one-time-initialization">One-Time Initialization</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
-
+[InitOnceComplete](/windows/desktop/api/synchapi/nf-synchapi-initoncecomplete), [InitOnceExecuteOnce](/windows/desktop/api/synchapi/nf-synchapi-initonceexecuteonce), [One-Time Initialization](/windows/desktop/Sync/one-time-initialization), [Synchronization Functions](/windows/desktop/Sync/synchronization-functions)

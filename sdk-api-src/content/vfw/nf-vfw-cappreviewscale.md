@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.capPreviewScale
 title: capPreviewScale macro (vfw.h)
-description: The capPreviewScale macro enables or disables scaling of the preview video images.helpviewer_keywords: ["_win32_capPreviewScale","capPreviewScale","capPreviewScale macro [Windows Multimedia]","multimedia.cappreviewscale","vfw/capPreviewScale"]
+description: The capPreviewScale macro enables or disables scaling of the preview video images.
+helpviewer_keywords: ["_win32_capPreviewScale","capPreviewScale","capPreviewScale macro [Windows Multimedia]","multimedia.cappreviewscale","vfw/capPreviewScale"]
 old-location: multimedia\cappreviewscale.htm
 tech.root: Multimedia
 ms.assetid: 32f432a7-76be-4b75-8863-bc67cdcda781

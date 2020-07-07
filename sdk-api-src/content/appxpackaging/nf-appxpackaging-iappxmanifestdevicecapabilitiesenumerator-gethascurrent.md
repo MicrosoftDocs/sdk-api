@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxManifestDeviceCapabilitiesEnumerator.GetHasCurrent
 title: IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent (appxpackaging.h)
-description: Determines whether there is a device capability at the current position of the enumerator.helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxManifestDeviceCapabilitiesEnumerator interface","IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxManifestDeviceCapabilitiesEnumerator.GetHasCurrent","IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent","appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent","appxpkg.iappxmanifestdevicecapabilitiesenumerator_gethascurrent"]
+description: Determines whether there is a device capability at the current position of the enumerator.
+helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxManifestDeviceCapabilitiesEnumerator interface","IAppxManifestDeviceCapabilitiesEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxManifestDeviceCapabilitiesEnumerator.GetHasCurrent","IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent","appxpackaging/IAppxManifestDeviceCapabilitiesEnumerator::GetHasCurrent","appxpkg.iappxmanifestdevicecapabilitiesenumerator_gethascurrent"]
 old-location: appxpkg\iappxmanifestdevicecapabilitiesenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: 52E0C961-F947-4F66-B3A0-21AB0F64C4B4

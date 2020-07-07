@@ -1,7 +1,8 @@
 ---
 UID: NE:ntsecapi._POLICY_DOMAIN_INFORMATION_CLASS
 title: POLICY_DOMAIN_INFORMATION_CLASS (ntsecapi.h)
-description: Defines the type of policy domain information.helpviewer_keywords: ["*PPOLICY_DOMAIN_INFORMATION_CLASS","POLICY_DOMAIN_INFORMATION_CLASS","POLICY_DOMAIN_INFORMATION_CLASS enumeration [Security]","PPOLICY_DOMAIN_INFORMATION_CLASS","PPOLICY_DOMAIN_INFORMATION_CLASS enumeration pointer [Security]","PolicyDomainEfsInformation","PolicyDomainKerberosTicketInformation","ntsecapi/POLICY_DOMAIN_INFORMATION_CLASS","ntsecapi/PPOLICY_DOMAIN_INFORMATION_CLASS","ntsecapi/PolicyDomainEfsInformation","ntsecapi/PolicyDomainKerberosTicketInformation","security.policy_domain_information_class"]
+description: Defines the type of policy domain information.
+helpviewer_keywords: ["*PPOLICY_DOMAIN_INFORMATION_CLASS","POLICY_DOMAIN_INFORMATION_CLASS","POLICY_DOMAIN_INFORMATION_CLASS enumeration [Security]","PPOLICY_DOMAIN_INFORMATION_CLASS","PPOLICY_DOMAIN_INFORMATION_CLASS enumeration pointer [Security]","PolicyDomainEfsInformation","PolicyDomainKerberosTicketInformation","ntsecapi/POLICY_DOMAIN_INFORMATION_CLASS","ntsecapi/PPOLICY_DOMAIN_INFORMATION_CLASS","ntsecapi/PolicyDomainEfsInformation","ntsecapi/PolicyDomainKerberosTicketInformation","security.policy_domain_information_class"]
 old-location: security\policy_domain_information_class.htm
 tech.root: SecAuthN
 ms.assetid: b208c479-a262-4120-824f-677ead1ef61a

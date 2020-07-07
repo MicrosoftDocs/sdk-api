@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IFileDialogControlEvents.OnItemSelected
 title: IFileDialogControlEvents::OnItemSelected (shobjidl.h)
-description: Called when an item is selected in a combo box, when a user clicks an option button (also known as a radio button), or an item is chosen from the Tools menu.helpviewer_keywords: ["IFileDialogControlEvents interface [Windows Shell]","OnItemSelected method","IFileDialogControlEvents.OnItemSelected","IFileDialogControlEvents::OnItemSelected","OnItemSelected","OnItemSelected method [Windows Shell]","OnItemSelected method [Windows Shell]","IFileDialogControlEvents interface","shell.IFileDialogControlEvents_OnItemSelected","shell_IFileDialogControlEvents_OnItemSelected","shobjidl/IFileDialogControlEvents::OnItemSelected"]
+description: Called when an item is selected in a combo box, when a user clicks an option button (also known as a radio button), or an item is chosen from the Tools menu.
+helpviewer_keywords: ["IFileDialogControlEvents interface [Windows Shell]","OnItemSelected method","IFileDialogControlEvents.OnItemSelected","IFileDialogControlEvents::OnItemSelected","OnItemSelected","OnItemSelected method [Windows Shell]","OnItemSelected method [Windows Shell]","IFileDialogControlEvents interface","shell.IFileDialogControlEvents_OnItemSelected","shell_IFileDialogControlEvents_OnItemSelected","shobjidl/IFileDialogControlEvents::OnItemSelected"]
 old-location: shell\IFileDialogControlEvents_OnItemSelected.htm
 tech.root: shell
 ms.assetid: 4c96d0b7-74d1-4f87-946d-beeaad517d91

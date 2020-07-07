@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.EndDraw
 title: IDCompositionSurface::EndDraw (dcomp.h)
-description: Marks the end of drawing on this Microsoft DirectComposition surface object.helpviewer_keywords: ["EndDraw","EndDraw method [DirectComposition]","EndDraw method [DirectComposition]","IDCompositionSurface interface","IDCompositionSurface interface [DirectComposition]","EndDraw method","IDCompositionSurface.EndDraw","IDCompositionSurface::EndDraw","dcomp/IDCompositionSurface::EndDraw","directcomp.idcompositionsurface_enddraw"]
+description: Marks the end of drawing on this Microsoft DirectComposition surface object.
+helpviewer_keywords: ["EndDraw","EndDraw method [DirectComposition]","EndDraw method [DirectComposition]","IDCompositionSurface interface","IDCompositionSurface interface [DirectComposition]","EndDraw method","IDCompositionSurface.EndDraw","IDCompositionSurface::EndDraw","dcomp/IDCompositionSurface::EndDraw","directcomp.idcompositionsurface_enddraw"]
 old-location: directcomp\idcompositionsurface_enddraw.htm
 tech.root: directcomp
 ms.assetid: 127195F7-6000-4D8C-B850-3E4D40BC4082

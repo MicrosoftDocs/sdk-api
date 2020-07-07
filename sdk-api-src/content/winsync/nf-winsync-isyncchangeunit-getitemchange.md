@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChangeUnit.GetItemChange
 title: ISyncChangeUnit::GetItemChange (winsync.h)
-description: Gets the item change that contains this change unit change.helpviewer_keywords: ["GetItemChange","GetItemChange method [Windows Sync]","GetItemChange method [Windows Sync]","ISyncChangeUnit interface","ISyncChangeUnit interface [Windows Sync]","GetItemChange method","ISyncChangeUnit.GetItemChange","ISyncChangeUnit::GetItemChange","winsync.isyncchangeunit_getitemchange","winsync/ISyncChangeUnit::GetItemChange"]
+description: Gets the item change that contains this change unit change.
+helpviewer_keywords: ["GetItemChange","GetItemChange method [Windows Sync]","GetItemChange method [Windows Sync]","ISyncChangeUnit interface","ISyncChangeUnit interface [Windows Sync]","GetItemChange method","ISyncChangeUnit.GetItemChange","ISyncChangeUnit::GetItemChange","winsync.isyncchangeunit_getitemchange","winsync/ISyncChangeUnit::GetItemChange"]
 old-location: winsync\isyncchangeunit_getitemchange.htm
 tech.root: winsync
 ms.assetid: d28b4eb0-ddd2-4abf-9183-4d39b728923b

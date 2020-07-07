@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1.D2D1_RENDER_TARGET_USAGE
 title: D2D1_RENDER_TARGET_USAGE (d2d1.h)
-description: Describes how a render target is remoted and whether it should be GDI-compatible. This enumeration allows a bitwise combination of its member values.helpviewer_keywords: ["D2D1_RENDER_TARGET_USAGE","D2D1_RENDER_TARGET_USAGE enumeration [Direct2D]","D2D1_RENDER_TARGET_USAGE_FORCE_BITMAP_REMOTING","D2D1_RENDER_TARGET_USAGE_GDI_COMPATIBLE","D2D1_RENDER_TARGET_USAGE_NONE","d2d1/D2D1_RENDER_TARGET_USAGE","d2d1/D2D1_RENDER_TARGET_USAGE_FORCE_BITMAP_REMOTING","d2d1/D2D1_RENDER_TARGET_USAGE_GDI_COMPATIBLE","d2d1/D2D1_RENDER_TARGET_USAGE_NONE","direct2d.D2D1_RENDER_TARGET_USAGE"]
+description: Describes how a render target is remoted and whether it should be GDI-compatible. This enumeration allows a bitwise combination of its member values.
+helpviewer_keywords: ["D2D1_RENDER_TARGET_USAGE","D2D1_RENDER_TARGET_USAGE enumeration [Direct2D]","D2D1_RENDER_TARGET_USAGE_FORCE_BITMAP_REMOTING","D2D1_RENDER_TARGET_USAGE_GDI_COMPATIBLE","D2D1_RENDER_TARGET_USAGE_NONE","d2d1/D2D1_RENDER_TARGET_USAGE","d2d1/D2D1_RENDER_TARGET_USAGE_FORCE_BITMAP_REMOTING","d2d1/D2D1_RENDER_TARGET_USAGE_GDI_COMPATIBLE","d2d1/D2D1_RENDER_TARGET_USAGE_NONE","direct2d.D2D1_RENDER_TARGET_USAGE"]
 old-location: direct2d\D2D1_RENDER_TARGET_USAGE.htm
 tech.root: Direct2D
 ms.assetid: 12d717c4-5f81-4bbf-a693-042e51913081
@@ -82,7 +83,7 @@ The render target can be used efficiently with GDI.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a>
+<a href="/windows/win32/api/d2d1/ns-d2d1-d2d1_render_target_properties">D2D1_RENDER_TARGET_PROPERTIES</a>
  
 
  

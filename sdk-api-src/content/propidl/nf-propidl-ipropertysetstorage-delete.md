@@ -1,7 +1,8 @@
 ---
 UID: NF:propidl.IPropertySetStorage.Delete
 title: IPropertySetStorage::Delete (propidl.h)
-description: The Delete method deletes one of the property sets contained in the property set storage object.helpviewer_keywords: ["Delete","Delete method [Structured Storage]","Delete method [Structured Storage]","IPropertySetStorage interface","IPropertySetStorage [Strctd Stg]","Delete","IPropertySetStorage interface [Structured Storage]","Delete method","IPropertySetStorage.Delete","IPropertySetStorage::Delete","_stg_ipropertysetstorage_delete","propidl/IPropertySetStorage::Delete","stg.ipropertysetstorage_delete"]
+description: The Delete method deletes one of the property sets contained in the property set storage object.
+helpviewer_keywords: ["Delete","Delete method [Structured Storage]","Delete method [Structured Storage]","IPropertySetStorage interface","IPropertySetStorage [Strctd Stg]","Delete","IPropertySetStorage interface [Structured Storage]","Delete method","IPropertySetStorage.Delete","IPropertySetStorage::Delete","_stg_ipropertysetstorage_delete","propidl/IPropertySetStorage::Delete","stg.ipropertysetstorage_delete"]
 old-location: stg\ipropertysetstorage_delete.htm
 tech.root: Stg
 ms.assetid: 5c65942f-b73b-48e5-a59e-4424708a084a

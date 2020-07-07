@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StrToIntA
 title: StrToIntA function (shlwapi.h)
-description: Converts a string that represents a decimal value to an integer. The StrToLong macro is identical to this function.helpviewer_keywords: ["StrToInt","StrToInt function [Windows Shell]","StrToIntA","StrToIntW","_win32_StrToInt","shell.StrToInt","shlwapi/StrToInt","shlwapi/StrToIntA","shlwapi/StrToIntW"]
+description: Converts a string that represents a decimal value to an integer. The StrToLong macro is identical to this function.
+helpviewer_keywords: ["StrToInt","StrToInt function [Windows Shell]","StrToIntA","StrToIntW","_win32_StrToInt","shell.StrToInt","shlwapi/StrToInt","shlwapi/StrToIntA","shlwapi/StrToIntW"]
 old-location: shell\StrToInt.htm
 tech.root: shell
 ms.assetid: 74313e56-a820-4d02-91f4-f629d2fc72d4
@@ -95,6 +96,10 @@ If the string pointed to by <i>pszSrc</i> contains an invalid character, that ch
 
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines StrToInt as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

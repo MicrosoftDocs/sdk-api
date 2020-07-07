@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnConnection.GetConnectionState
 title: IMbnConnection::GetConnectionState (mbnapi.h)
-description: Gets the current connection state of the device.helpviewer_keywords: ["GetConnectionState","GetConnectionState method [Microsoft Broadband Networks]","GetConnectionState method [Microsoft Broadband Networks]","IMbnConnection interface","IMbnConnection interface [Microsoft Broadband Networks]","GetConnectionState method","IMbnConnection.GetConnectionState","IMbnConnection::GetConnectionState","mbn.imbnconnection_getconnectionstate","mbnapi/IMbnConnection::GetConnectionState"]
+description: Gets the current connection state of the device.
+helpviewer_keywords: ["GetConnectionState","GetConnectionState method [Microsoft Broadband Networks]","GetConnectionState method [Microsoft Broadband Networks]","IMbnConnection interface","IMbnConnection interface [Microsoft Broadband Networks]","GetConnectionState method","IMbnConnection.GetConnectionState","IMbnConnection::GetConnectionState","mbn.imbnconnection_getconnectionstate","mbnapi/IMbnConnection::GetConnectionState"]
 old-location: mbn\imbnconnection_getconnectionstate.htm
 tech.root: mbn
 ms.assetid: 85f3e0bb-c694-4870-b423-cb4ac7a0477d

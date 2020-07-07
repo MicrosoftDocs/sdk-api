@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpappcontainerclient.IRemoteDesktopClient.get_Actions
 title: IRemoteDesktopClient::get_Actions (rdpappcontainerclient.h)
-description: Retrieves the actions object for the Remote Desktop Protocol (RDP) app container client.helpviewer_keywords: ["Actions property [Remote Desktop Services]","Actions property [Remote Desktop Services]","IRemoteDesktopClient interface","IRemoteDesktopClient interface [Remote Desktop Services]","Actions property","IRemoteDesktopClient.Actions","IRemoteDesktopClient.get_Actions","IRemoteDesktopClient::Actions","IRemoteDesktopClient::get_Actions","get_Actions","rdpappcontainerclient/IRemoteDesktopClient::Actions","rdpappcontainerclient/IRemoteDesktopClient::get_Actions","termserv.iremotedesktopclient_actions"]
+description: Retrieves the actions object for the Remote Desktop Protocol (RDP) app container client.
+helpviewer_keywords: ["Actions property [Remote Desktop Services]","Actions property [Remote Desktop Services]","IRemoteDesktopClient interface","IRemoteDesktopClient interface [Remote Desktop Services]","Actions property","IRemoteDesktopClient.Actions","IRemoteDesktopClient.get_Actions","IRemoteDesktopClient::Actions","IRemoteDesktopClient::get_Actions","get_Actions","rdpappcontainerclient/IRemoteDesktopClient::Actions","rdpappcontainerclient/IRemoteDesktopClient::get_Actions","termserv.iremotedesktopclient_actions"]
 old-location: termserv\iremotedesktopclient_actions.htm
 tech.root: TermServ
 ms.assetid: 54ff5568-046e-42de-9b7c-b8c8c9be815c

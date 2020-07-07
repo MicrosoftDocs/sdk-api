@@ -1,7 +1,8 @@
 ---
 UID: NF:wsman.WSManDisconnectShell
 title: WSManDisconnectShell function (wsman.h)
-description: Disconnects the network connection of an active shell and its associated commands.helpviewer_keywords: ["WSManDisconnectShell","WSManDisconnectShell function [Windows Remote Management]","winrm.wsmandisconnectshell","wsman/WSManDisconnectShell"]
+description: Disconnects the network connection of an active shell and its associated commands.
+helpviewer_keywords: ["WSManDisconnectShell","WSManDisconnectShell function [Windows Remote Management]","winrm.wsmandisconnectshell","wsman/WSManDisconnectShell"]
 old-location: winrm\wsmandisconnectshell.htm
 tech.root: winrm
 ms.assetid: 018F6E37-477B-4823-8597-CF80367EEB88

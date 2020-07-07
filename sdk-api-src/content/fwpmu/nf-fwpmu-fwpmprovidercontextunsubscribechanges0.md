@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextUnsubscribeChanges0
 title: FwpmProviderContextUnsubscribeChanges0 function (fwpmu.h)
-description: Is used to cancel a provider context change subscription and stop receiving change notifications.helpviewer_keywords: ["FwpmProviderContextUnsubscribeChanges0","FwpmProviderContextUnsubscribeChanges0 function [Filtering]","fwp.fwpmprovidercontextunsubscribechanges0_func","fwpmu/FwpmProviderContextUnsubscribeChanges0"]
+description: Is used to cancel a provider context change subscription and stop receiving change notifications.
+helpviewer_keywords: ["FwpmProviderContextUnsubscribeChanges0","FwpmProviderContextUnsubscribeChanges0 function [Filtering]","fwp.fwpmprovidercontextunsubscribechanges0_func","fwpmu/FwpmProviderContextUnsubscribeChanges0"]
 old-location: fwp\fwpmprovidercontextunsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: 15c24c24-4aba-4570-aad2-56f8748c03e7

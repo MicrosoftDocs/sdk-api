@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RectangleGeometry.GetRect
 title: ID2D1RectangleGeometry::GetRect (d2d1.h)
-description: Retrieves the rectangle that describes the rectangle geometry's dimensions.helpviewer_keywords: ["GetRect","GetRect method [Direct2D]","GetRect method [Direct2D]","ID2D1RectangleGeometry interface","ID2D1RectangleGeometry interface [Direct2D]","GetRect method","ID2D1RectangleGeometry.GetRect","ID2D1RectangleGeometry::GetRect","d2d1/ID2D1RectangleGeometry::GetRect","direct2d.ID2D1RectangleGeometry_GetRect"]
+description: Retrieves the rectangle that describes the rectangle geometry's dimensions.
+helpviewer_keywords: ["GetRect","GetRect method [Direct2D]","GetRect method [Direct2D]","ID2D1RectangleGeometry interface","ID2D1RectangleGeometry interface [Direct2D]","GetRect method","ID2D1RectangleGeometry.GetRect","ID2D1RectangleGeometry::GetRect","d2d1/ID2D1RectangleGeometry::GetRect","direct2d.ID2D1RectangleGeometry_GetRect"]
 old-location: direct2d\ID2D1RectangleGeometry_GetRect.htm
 tech.root: Direct2D
 ms.assetid: 9c9858d0-abb0-4ab5-8e7f-e613b256bbd7
@@ -59,7 +60,7 @@ Retrieves the rectangle that describes the rectangle geometry's dimensions.
 
 ### -param rect [out]
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-rect-f">D2D1_RECT_F</a>*</b>
 
 Contains a pointer to a rectangle that describes the rectangle geometry's dimensions when this method returns. You must allocate storage for this parameter. 
 
@@ -69,7 +70,7 @@ Contains a pointer to a rectangle that describes the rectangle geometry's dimens
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry">ID2D1RectangleGeometry</a>
  
 
  

@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoMarshalInterface
 title: CoMarshalInterface function (combaseapi.h)
-description: Writes into a stream the data required to initialize a proxy object in some client process.helpviewer_keywords: ["CoMarshalInterface","CoMarshalInterface function [COM]","_com_CoMarshalInterface","com.comarshalinterface","combaseapi/CoMarshalInterface"]
+description: Writes into a stream the data required to initialize a proxy object in some client process.
+helpviewer_keywords: ["CoMarshalInterface","CoMarshalInterface function [COM]","_com_CoMarshalInterface","com.comarshalinterface","combaseapi/CoMarshalInterface"]
 old-location: com\comarshalinterface.htm
 tech.root: com
 ms.assetid: 04ca1217-eac1-43e2-b736-8d7522ce8592

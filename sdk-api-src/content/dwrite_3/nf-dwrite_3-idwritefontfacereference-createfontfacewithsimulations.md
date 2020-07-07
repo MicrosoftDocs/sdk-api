@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFaceReference.CreateFontFaceWithSimulations
 title: IDWriteFontFaceReference::CreateFontFaceWithSimulations (dwrite_3.h)
-description: Creates a font face with alternate font simulations, for example, to explicitly simulate a bold font face out of a regular variant.helpviewer_keywords: ["CreateFontFaceWithSimulations","CreateFontFaceWithSimulations method [Direct Write]","CreateFontFaceWithSimulations method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","CreateFontFaceWithSimulations method","IDWriteFontFaceReference.CreateFontFaceWithSimulations","IDWriteFontFaceReference::CreateFontFaceWithSimulations","directwrite.idwritefontfacereference_createfontfacewithsimulations","dwrite_3/IDWriteFontFaceReference::CreateFontFaceWithSimulations"]
+description: Creates a font face with alternate font simulations, for example, to explicitly simulate a bold font face out of a regular variant.
+helpviewer_keywords: ["CreateFontFaceWithSimulations","CreateFontFaceWithSimulations method [Direct Write]","CreateFontFaceWithSimulations method [Direct Write]","IDWriteFontFaceReference interface","IDWriteFontFaceReference interface [Direct Write]","CreateFontFaceWithSimulations method","IDWriteFontFaceReference.CreateFontFaceWithSimulations","IDWriteFontFaceReference::CreateFontFaceWithSimulations","directwrite.idwritefontfacereference_createfontfacewithsimulations","dwrite_3/IDWriteFontFaceReference::CreateFontFaceWithSimulations"]
 old-location: directwrite\idwritefontfacereference_createfontfacewithsimulations.htm
 tech.root: DirectWrite
 ms.assetid: 99b6fb24-2f66-8132-b66e-ca711bb0c7e0

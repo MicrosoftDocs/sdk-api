@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetContentType
 title: IXpsOMCoreProperties::SetContentType (xpsobjectmodel.h)
-description: Sets the contentType property.helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetContentType method","IXpsOMCoreProperties.SetContentType","IXpsOMCoreProperties::SetContentType","SetContentType","SetContentType method [XPS Documents and Packaging]","SetContentType method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setcontenttype","xpsobjectmodel/IXpsOMCoreProperties::SetContentType"]
+description: Sets the contentType property.
+helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetContentType method","IXpsOMCoreProperties.SetContentType","IXpsOMCoreProperties::SetContentType","SetContentType","SetContentType method [XPS Documents and Packaging]","SetContentType method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setcontenttype","xpsobjectmodel/IXpsOMCoreProperties::SetContentType"]
 old-location: xps\ixpsomcoreproperties_setcontenttype.htm
 tech.root: printdocs
 ms.assetid: 97ddb1a2-67b2-4891-86b6-bdd38e609229

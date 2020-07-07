@@ -1,7 +1,8 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.Refresh
 title: IMSVidCtl::Refresh (msvidctl.h)
-description: The Refresh method immediately updates the Video Control's appearance.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","Refresh method","IMSVidCtl.Refresh","IMSVidCtl::Refresh","IMSVidCtlRefresh","Refresh","Refresh method [Microsoft TV Technologies]","Refresh method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_refresh","msvidctl/IMSVidCtl::Refresh"]
+description: The Refresh method immediately updates the Video Control's appearance.
+helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","Refresh method","IMSVidCtl.Refresh","IMSVidCtl::Refresh","IMSVidCtlRefresh","Refresh","Refresh method [Microsoft TV Technologies]","Refresh method [Microsoft TV Technologies]","IMSVidCtl interface","mstv.imsvidctl_refresh","msvidctl/IMSVidCtl::Refresh"]
 old-location: mstv\imsvidctl_refresh.htm
 tech.root: mstv
 ms.assetid: 7413049e-3ce4-46e9-ab49-fbdb0455c6b6

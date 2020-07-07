@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat3.SetFontAxisValues
 title: IDWriteTextFormat3::SetFontAxisValues
-description: Sets values for the font axes of the format.helpviewer_keywords: ["IDWriteTextFormat3 interface [Direct Write]","SetFontAxisValues method","IDWriteTextFormat3.SetFontAxisValues","IDWriteTextFormat3::SetFontAxisValues","SetFontAxisValues","SetFontAxisValues method [Direct Write]","SetFontAxisValues method [Direct Write]","IDWriteTextFormat3 interface","directwrite.idwritetextformat3_setfontaxisvalues","dwrite_3/IDWriteTextFormat3::SetFontAxisValues"]
+description: Sets values for the font axes of the format.
+helpviewer_keywords: ["IDWriteTextFormat3 interface [Direct Write]","SetFontAxisValues method","IDWriteTextFormat3.SetFontAxisValues","IDWriteTextFormat3::SetFontAxisValues","SetFontAxisValues","SetFontAxisValues method [Direct Write]","SetFontAxisValues method [Direct Write]","IDWriteTextFormat3 interface","directwrite.idwritetextformat3_setfontaxisvalues","dwrite_3/IDWriteTextFormat3::SetFontAxisValues"]
 tech.root: DirectWrite
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],SetFontAxisValues method, IDWriteTextFormat3.SetFontAxisValues, IDWriteTextFormat3::SetFontAxisValues, SetFontAxisValues, SetFontAxisValues method [Direct Write], SetFontAxisValues method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_setfontaxisvalues, dwrite_3/IDWriteTextFormat3::SetFontAxisValues

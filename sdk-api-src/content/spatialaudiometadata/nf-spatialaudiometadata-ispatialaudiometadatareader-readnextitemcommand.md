@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataReader.ReadNextItemCommand
 title: ISpatialAudioMetadataReader::ReadNextItemCommand (spatialaudiometadata.h)
-description: Reads metadata commands and value data for the current item.helpviewer_keywords: ["ISpatialAudioMetadataReader interface [Core Audio]","ReadNextItemCommand method","ISpatialAudioMetadataReader.ReadNextItemCommand","ISpatialAudioMetadataReader::ReadNextItemCommand","ReadNextItemCommand","ReadNextItemCommand method [Core Audio]","ReadNextItemCommand method [Core Audio]","ISpatialAudioMetadataReader interface","coreaudio.ispatialaudiometadatareader_readnextitemcommand","spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItemCommand"]
+description: Reads metadata commands and value data for the current item.
+helpviewer_keywords: ["ISpatialAudioMetadataReader interface [Core Audio]","ReadNextItemCommand method","ISpatialAudioMetadataReader.ReadNextItemCommand","ISpatialAudioMetadataReader::ReadNextItemCommand","ReadNextItemCommand","ReadNextItemCommand method [Core Audio]","ReadNextItemCommand method [Core Audio]","ISpatialAudioMetadataReader interface","coreaudio.ispatialaudiometadatareader_readnextitemcommand","spatialaudiometadata/ISpatialAudioMetadataReader::ReadNextItemCommand"]
 old-location: coreaudio\ispatialaudiometadatareader_readnextitemcommand.htm
 tech.root: CoreAudio
 ms.assetid: 9B58546A-FBE3-47CD-8E5F-63D0C5608F00

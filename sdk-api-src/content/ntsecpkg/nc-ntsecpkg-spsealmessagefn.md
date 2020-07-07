@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.SpSealMessageFn
 title: SpSealMessageFn (ntsecpkg.h)
-description: Encrypts a message exchanged between a client and server.helpviewer_keywords: ["SpSealMessage","SpSealMessageFn","SpSealMessageFn callback","SpSealMessageFn callback function [Security]","TBD","_ssp_spsealmessage","ntsecpkg/SpSealMessageFn","security.spsealmessage"]
+description: Encrypts a message exchanged between a client and server.
+helpviewer_keywords: ["SpSealMessage","SpSealMessageFn","SpSealMessageFn callback","SpSealMessageFn callback function [Security]","TBD","_ssp_spsealmessage","ntsecpkg/SpSealMessageFn","security.spsealmessage"]
 old-location: security\spsealmessage.htm
 tech.root: SecAuthN
 ms.assetid: 400bc3e7-e9a1-4267-b4de-44d79dceb9e5

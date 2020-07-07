@@ -1,7 +1,8 @@
 ---
 UID: NS:dcommon.D2D_RECT_U
 title: D2D_RECT_U (dcommon.h)
-description: Represents a rectangle defined by the upper-left corner pair of coordinates (left,top) and the lower-right corner pair of coordinates (right, bottom). These coordinates are expressed as a 32-bit integer values.helpviewer_keywords: ["D2D1_RECT_U","D2D_RECT_U","D2D_RECT_U structure [Direct2D]","dcommon/D2D_RECT_U","direct2d.D2D_RECT_U"]
+description: Represents a rectangle defined by the upper-left corner pair of coordinates (left,top) and the lower-right corner pair of coordinates (right, bottom). These coordinates are expressed as a 32-bit integer values.
+helpviewer_keywords: ["D2D1_RECT_U","D2D_RECT_U","D2D_RECT_U structure [Direct2D]","dcommon/D2D_RECT_U","direct2d.D2D_RECT_U"]
 old-location: direct2d\D2D_RECT_U.htm
 tech.root: Direct2D
 ms.assetid: 7eeec8ac-ba56-4e80-b980-813a3e958e09

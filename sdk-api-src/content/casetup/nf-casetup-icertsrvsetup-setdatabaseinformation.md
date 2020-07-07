@@ -1,7 +1,8 @@
 ---
 UID: NF:casetup.ICertSrvSetup.SetDatabaseInformation
 title: ICertSrvSetup::SetDatabaseInformation (casetup.h)
-description: Sets the database related information for the certification authority (CA) role.helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetDatabaseInformation method","ICertSrvSetup.SetDatabaseInformation","ICertSrvSetup::SetDatabaseInformation","SetDatabaseInformation","SetDatabaseInformation method [Security]","SetDatabaseInformation method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetDatabaseInformation","security.icertsrvsetup_setdatabaseinformation"]
+description: Sets the database related information for the certification authority (CA) role.
+helpviewer_keywords: ["ICertSrvSetup interface [Security]","SetDatabaseInformation method","ICertSrvSetup.SetDatabaseInformation","ICertSrvSetup::SetDatabaseInformation","SetDatabaseInformation","SetDatabaseInformation method [Security]","SetDatabaseInformation method [Security]","ICertSrvSetup interface","casetup/ICertSrvSetup::SetDatabaseInformation","security.icertsrvsetup_setdatabaseinformation"]
 old-location: security\icertsrvsetup_setdatabaseinformation.htm
 tech.root: SecCrypto
 ms.assetid: ae690d59-21fe-4429-8e80-ee2ce19a7090

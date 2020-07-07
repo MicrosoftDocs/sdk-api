@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptionFactory2.CreateEncryptedPackageWriter
 title: IAppxEncryptionFactory2::CreateEncryptedPackageWriter (appxpackaging.h)
-description: Creates a new instance of an IAppxEncryptedPackageWriter.helpviewer_keywords: ["CreateEncryptedPackageWriter","CreateEncryptedPackageWriter method [App packaging and management]","CreateEncryptedPackageWriter method [App packaging and management]","IAppxEncryptionFactory2 interface","IAppxEncryptionFactory2 interface [App packaging and management]","CreateEncryptedPackageWriter method","IAppxEncryptionFactory2.CreateEncryptedPackageWriter","IAppxEncryptionFactory2::CreateEncryptedPackageWriter","appxpackaging/IAppxEncryptionFactory2::CreateEncryptedPackageWriter","appxpkg.iappxencryptionfactory2_createencryptedpackagewriter"]
+description: Creates a new instance of an IAppxEncryptedPackageWriter.
+helpviewer_keywords: ["CreateEncryptedPackageWriter","CreateEncryptedPackageWriter method [App packaging and management]","CreateEncryptedPackageWriter method [App packaging and management]","IAppxEncryptionFactory2 interface","IAppxEncryptionFactory2 interface [App packaging and management]","CreateEncryptedPackageWriter method","IAppxEncryptionFactory2.CreateEncryptedPackageWriter","IAppxEncryptionFactory2::CreateEncryptedPackageWriter","appxpackaging/IAppxEncryptionFactory2::CreateEncryptedPackageWriter","appxpkg.iappxencryptionfactory2_createencryptedpackagewriter"]
 old-location: appxpkg\iappxencryptionfactory2_createencryptedpackagewriter.htm
 tech.root: appxpkg
 ms.assetid: 70C3B332-7FB5-49CD-B0E2-43FD44AFF813

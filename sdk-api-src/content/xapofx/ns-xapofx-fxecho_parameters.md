@@ -1,7 +1,8 @@
 ---
 UID: NS:xapofx.FXECHO_PARAMETERS
 title: FXECHO_PARAMETERS (xapofx.h)
-description: Parameters for use with the FXECHO XAPOFX.helpviewer_keywords: ["FXECHO_PARAMETERS","FXECHO_PARAMETERS structure [XAudio2 Audio Mixing APIs]","xapofx/FXECHO_PARAMETERS","xaudio2.fxecho_parameters"]
+description: Parameters for use with the FXECHO XAPOFX.
+helpviewer_keywords: ["FXECHO_PARAMETERS","FXECHO_PARAMETERS structure [XAudio2 Audio Mixing APIs]","xapofx/FXECHO_PARAMETERS","xaudio2.fxecho_parameters"]
 old-location: xaudio2\fxecho_parameters.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xapofx.FXECHO_PARAMETERS

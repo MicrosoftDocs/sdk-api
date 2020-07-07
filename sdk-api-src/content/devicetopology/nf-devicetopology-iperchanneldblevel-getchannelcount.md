@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IPerChannelDbLevel.GetChannelCount
 title: IPerChannelDbLevel::GetChannelCount (devicetopology.h)
-description: The GetChannelCount method gets the number of channels in the audio stream.helpviewer_keywords: ["GetChannelCount","GetChannelCount method [Core Audio]","GetChannelCount method [Core Audio]","IPerChannelDbLevel interface","IPerChannelDbLevel interface [Core Audio]","GetChannelCount method","IPerChannelDbLevel.GetChannelCount","IPerChannelDbLevel::GetChannelCount","IPerChannelDbLevelGetChannelCount","coreaudio.iperchanneldblevel_getchannelcount","devicetopology/IPerChannelDbLevel::GetChannelCount"]
+description: The GetChannelCount method gets the number of channels in the audio stream.
+helpviewer_keywords: ["GetChannelCount","GetChannelCount method [Core Audio]","GetChannelCount method [Core Audio]","IPerChannelDbLevel interface","IPerChannelDbLevel interface [Core Audio]","GetChannelCount method","IPerChannelDbLevel.GetChannelCount","IPerChannelDbLevel::GetChannelCount","IPerChannelDbLevelGetChannelCount","coreaudio.iperchanneldblevel_getchannelcount","devicetopology/IPerChannelDbLevel::GetChannelCount"]
 old-location: coreaudio\iperchanneldblevel_getchannelcount.htm
 tech.root: CoreAudio
 ms.assetid: f8c6c0fd-fe29-467a-936e-f83c6d951bdd

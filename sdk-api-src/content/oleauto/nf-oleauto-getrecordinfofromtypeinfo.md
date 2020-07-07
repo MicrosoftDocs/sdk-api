@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.GetRecordInfoFromTypeInfo
 title: GetRecordInfoFromTypeInfo function (oleauto.h)
-description: Returns a pointer to the IRecordInfo interface of the UDT by passing its type information.helpviewer_keywords: ["GetRecordInfoFromTypeInfo","GetRecordInfoFromTypeInfo function [Automation]","_oa96_GetRecordInfoFromTypeInfo","automat.getrecordinfofromtypeinfo","oleauto/GetRecordInfoFromTypeInfo"]
+description: Returns a pointer to the IRecordInfo interface of the UDT by passing its type information.
+helpviewer_keywords: ["GetRecordInfoFromTypeInfo","GetRecordInfoFromTypeInfo function [Automation]","_oa96_GetRecordInfoFromTypeInfo","automat.getrecordinfofromtypeinfo","oleauto/GetRecordInfoFromTypeInfo"]
 old-location: automat\getrecordinfofromtypeinfo.htm
 tech.root: automat
 ms.assetid: 9bf2803f-7a6c-4574-80d2-4069f5b81057

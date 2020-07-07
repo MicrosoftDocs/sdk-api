@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilDupParameterBlock
 title: ResUtilDupParameterBlock function (resapi.h)
-description: Performs a member-wise copy of the data from one parameter block to another.helpviewer_keywords: ["PRESUTIL_DUP_PARAMETER_BLOCK","PRESUTIL_DUP_PARAMETER_BLOCK function [Failover Cluster]","ResUtilDupParameterBlock","ResUtilDupParameterBlock function [Failover Cluster]","_wolf_resutildupparameterblock","mscs.resutildupparameterblock","resapi/PRESUTIL_DUP_PARAMETER_BLOCK","resapi/ResUtilDupParameterBlock"]
+description: Performs a member-wise copy of the data from one parameter block to another.
+helpviewer_keywords: ["PRESUTIL_DUP_PARAMETER_BLOCK","PRESUTIL_DUP_PARAMETER_BLOCK function [Failover Cluster]","ResUtilDupParameterBlock","ResUtilDupParameterBlock function [Failover Cluster]","_wolf_resutildupparameterblock","mscs.resutildupparameterblock","resapi/PRESUTIL_DUP_PARAMETER_BLOCK","resapi/ResUtilDupParameterBlock"]
 old-location: mscs\resutildupparameterblock.htm
 tech.root: MsCS
 ms.assetid: b05b5afe-7d4b-4a21-9f28-88d6effaf5af

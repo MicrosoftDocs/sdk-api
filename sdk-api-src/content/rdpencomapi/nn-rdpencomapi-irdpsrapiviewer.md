@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIViewer
 title: IRDPSRAPIViewer (rdpencomapi.h)
-description: The ActiveX interface that is used on the viewer side.helpviewer_keywords: ["IRDPSRAPIViewer","IRDPSRAPIViewer interface [RDP]","IRDPSRAPIViewer interface [RDP]","described","rdp.irdpsrapiviewer","rdpencomapi/IRDPSRAPIViewer"]
+description: The ActiveX interface that is used on the viewer side.
+helpviewer_keywords: ["IRDPSRAPIViewer","IRDPSRAPIViewer interface [RDP]","IRDPSRAPIViewer interface [RDP]","described","rdp.irdpsrapiviewer","rdpencomapi/IRDPSRAPIViewer"]
 old-location: rdp\irdpsrapiviewer.htm
 tech.root: rdp
 ms.assetid: 6bafe380-2ef4-4e93-a6cd-143798437615

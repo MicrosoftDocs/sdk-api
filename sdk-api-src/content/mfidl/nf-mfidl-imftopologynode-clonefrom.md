@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.CloneFrom
 title: IMFTopologyNode::CloneFrom (mfidl.h)
-description: Copies the data from another topology node into this node.helpviewer_keywords: ["90322fbc-e3de-4801-b10b-63ce538fc83f","CloneFrom","CloneFrom method [Media Foundation]","CloneFrom method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","CloneFrom method","IMFTopologyNode.CloneFrom","IMFTopologyNode::CloneFrom","mf.imftopologynode_clonefrom","mfidl/IMFTopologyNode::CloneFrom"]
+description: Copies the data from another topology node into this node.
+helpviewer_keywords: ["90322fbc-e3de-4801-b10b-63ce538fc83f","CloneFrom","CloneFrom method [Media Foundation]","CloneFrom method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","CloneFrom method","IMFTopologyNode.CloneFrom","IMFTopologyNode::CloneFrom","mf.imftopologynode_clonefrom","mfidl/IMFTopologyNode::CloneFrom"]
 old-location: mf\imftopologynode_clonefrom.htm
 tech.root: medfound
 ms.assetid: 90322fbc-e3de-4801-b10b-63ce538fc83f

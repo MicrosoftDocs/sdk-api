@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpQueryAuthSchemes
 title: WinHttpQueryAuthSchemes function (winhttp.h)
-description: The WinHttpQueryAuthSchemes function returns the authorization schemes that are supported by the server.helpviewer_keywords: ["WINHTTP_AUTH_SCHEME_BASIC","WINHTTP_AUTH_SCHEME_DIGEST","WINHTTP_AUTH_SCHEME_NEGOTIATE","WINHTTP_AUTH_SCHEME_NTLM","WINHTTP_AUTH_SCHEME_PASSPORT","WINHTTP_AUTH_TARGET_PROXY","WINHTTP_AUTH_TARGET_SERVER","WinHttpQueryAuthSchemes","WinHttpQueryAuthSchemes function [WinHTTP]","http.winhttpqueryauthschemes","winhttp.winhttpqueryauthschemes_function","winhttp/WinHttpQueryAuthSchemes"]
+description: The WinHttpQueryAuthSchemes function returns the authorization schemes that are supported by the server.
+helpviewer_keywords: ["WINHTTP_AUTH_SCHEME_BASIC","WINHTTP_AUTH_SCHEME_DIGEST","WINHTTP_AUTH_SCHEME_NEGOTIATE","WINHTTP_AUTH_SCHEME_NTLM","WINHTTP_AUTH_SCHEME_PASSPORT","WINHTTP_AUTH_TARGET_PROXY","WINHTTP_AUTH_TARGET_SERVER","WinHttpQueryAuthSchemes","WinHttpQueryAuthSchemes function [WinHTTP]","http.winhttpqueryauthschemes","winhttp.winhttpqueryauthschemes_function","winhttp/WinHttpQueryAuthSchemes"]
 old-location: http\winhttpqueryauthschemes.htm
 tech.root: WinHttp
 ms.assetid: 37fb9342-c5c2-46a3-a8b0-83060aa997e2

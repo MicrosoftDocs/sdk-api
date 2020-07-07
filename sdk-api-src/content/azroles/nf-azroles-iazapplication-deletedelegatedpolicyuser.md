@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteDelegatedPolicyUser
 title: IAzApplication::DeleteDelegatedPolicyUser (azroles.h)
-description: The IAzApplication::DeleteDelegatedPolicyUser method removes the specified security identifier in text form from the list of principals that act as delegated policy users.helpviewer_keywords: ["AzApplication object [Security]","DeleteDelegatedPolicyUser method","DeleteDelegatedPolicyUser","DeleteDelegatedPolicyUser method [Security]","DeleteDelegatedPolicyUser method [Security]","AzApplication object","DeleteDelegatedPolicyUser method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeleteDelegatedPolicyUser method","IAzApplication.DeleteDelegatedPolicyUser","IAzApplication::DeleteDelegatedPolicyUser","azroles/IAzApplication::DeleteDelegatedPolicyUser","security.iazapplication_deletedelegatedpolicyuser"]
+description: The IAzApplication::DeleteDelegatedPolicyUser method removes the specified security identifier in text form from the list of principals that act as delegated policy users.
+helpviewer_keywords: ["AzApplication object [Security]","DeleteDelegatedPolicyUser method","DeleteDelegatedPolicyUser","DeleteDelegatedPolicyUser method [Security]","DeleteDelegatedPolicyUser method [Security]","AzApplication object","DeleteDelegatedPolicyUser method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeleteDelegatedPolicyUser method","IAzApplication.DeleteDelegatedPolicyUser","IAzApplication::DeleteDelegatedPolicyUser","azroles/IAzApplication::DeleteDelegatedPolicyUser","security.iazapplication_deletedelegatedpolicyuser"]
 old-location: security\iazapplication_deletedelegatedpolicyuser.htm
 tech.root: SecAuthZ
 ms.assetid: 92e7f4fa-ff86-4ef5-8b87-086dd73966d1

@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_HTTP_URL
 title: WS_HTTP_URL (webservices.h)
-description: The URL subtype for specifying an HTTP URL.helpviewer_keywords: ["WS_HTTP_URL","WS_HTTP_URL structure [Web Services for Windows]","webservices/WS_HTTP_URL","wsw.ws_http_url"]
+description: The URL subtype for specifying an HTTP URL.
+helpviewer_keywords: ["WS_HTTP_URL","WS_HTTP_URL structure [Web Services for Windows]","webservices/WS_HTTP_URL","wsw.ws_http_url"]
 old-location: wsw\ws_http_url.htm
 tech.root: wsw
 ms.assetid: 36f4dda6-d46a-44cd-b4cd-597fa3298870

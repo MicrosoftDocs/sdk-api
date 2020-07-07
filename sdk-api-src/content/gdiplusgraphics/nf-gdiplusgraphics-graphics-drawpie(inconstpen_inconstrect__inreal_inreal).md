@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.DrawPie(INconstPen,INconstRect&,INREAL,INREAL)
 title: Graphics::DrawPie(IN const Pen,IN const Rect &,IN REAL,IN REAL) (gdiplusgraphics.h)
-description: The Graphics::DrawPie method draws a pie.helpviewer_keywords: ["DrawPie","DrawPie method [GDI+]","DrawPie method [GDI+]","Graphics class","Graphics class [GDI+]","DrawPie method","Graphics.DrawPie","Graphics.DrawPie(IN const Pen","IN const Rect &","IN REAL","IN REAL)","Graphics.DrawPie(const Pen*","const Rect&","REAL","REAL)","Graphics::DrawPie","Graphics::DrawPie(IN const Pen","IN const Rect &","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_DrawPie_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_","gdiplus._gdiplus_CLASS_Graphics_DrawPie_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_"]
+description: The Graphics::DrawPie method draws a pie.
+helpviewer_keywords: ["DrawPie","DrawPie method [GDI+]","DrawPie method [GDI+]","Graphics class","Graphics class [GDI+]","DrawPie method","Graphics.DrawPie","Graphics.DrawPie(IN const Pen","IN const Rect &","IN REAL","IN REAL)","Graphics.DrawPie(const Pen*","const Rect&","REAL","REAL)","Graphics::DrawPie","Graphics::DrawPie(IN const Pen","IN const Rect &","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_DrawPie_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_","gdiplus._gdiplus_CLASS_Graphics_DrawPie_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawPie_Pen_pen_Rect_rect_REAL_startAngle_REAL_sweepAngle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawpiemethods\drawpie.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IComObjectPoolEvents
 title: IComObjectPoolEvents (comsvcs.h)
-description: Notifies the subscriber when a new object is added to the pool.helpviewer_keywords: ["IComObjectPoolEvents","IComObjectPoolEvents interface [COM+]","IComObjectPoolEvents interface [COM+]","described","_dtc_IComObjectPoolEvents","comsvcs/IComObjectPoolEvents","cos.icomobjectpoolevents"]
+description: Notifies the subscriber when a new object is added to the pool.
+helpviewer_keywords: ["IComObjectPoolEvents","IComObjectPoolEvents interface [COM+]","IComObjectPoolEvents interface [COM+]","described","_dtc_IComObjectPoolEvents","comsvcs/IComObjectPoolEvents","cos.icomobjectpoolevents"]
 old-location: cos\icomobjectpoolevents.htm
 tech.root: cossdk
 ms.assetid: a830b40b-a1b1-464e-b532-91cebd4e5d2f

@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired
 title: IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired (tuner.h)
-description: Gets a flag from a LicenseRenewalResult event that indicates whether the client should check the entitlement token from the license. The client can call the IBDA_ConditionalAccessEx::CheckEntitlementToken method to validate the entitlement token.helpviewer_keywords: ["IESLicenseRenewalResultEvent interface [DirectShow]","IsCheckEntitlementCallRequired method","IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired","IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired","IsCheckEntitlementCallRequired","IsCheckEntitlementCallRequired method [DirectShow]","IsCheckEntitlementCallRequired method [DirectShow]","IESLicenseRenewalResultEvent interface","mstv.ieslicenserenewalresultevent_ischeckentitlementcallrequired","tuner/IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired"]
+description: Gets a flag from a LicenseRenewalResult event that indicates whether the client should check the entitlement token from the license. The client can call the IBDA_ConditionalAccessEx::CheckEntitlementToken method to validate the entitlement token.
+helpviewer_keywords: ["IESLicenseRenewalResultEvent interface [DirectShow]","IsCheckEntitlementCallRequired method","IESLicenseRenewalResultEvent.IsCheckEntitlementCallRequired","IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired","IsCheckEntitlementCallRequired","IsCheckEntitlementCallRequired method [DirectShow]","IsCheckEntitlementCallRequired method [DirectShow]","IESLicenseRenewalResultEvent interface","mstv.ieslicenserenewalresultevent_ischeckentitlementcallrequired","tuner/IESLicenseRenewalResultEvent::IsCheckEntitlementCallRequired"]
 old-location: mstv\ieslicenserenewalresultevent_ischeckentitlementcallrequired.htm
 tech.root: mstv
 ms.assetid: e19375c6-5999-43e9-9d91-3237b900cb07

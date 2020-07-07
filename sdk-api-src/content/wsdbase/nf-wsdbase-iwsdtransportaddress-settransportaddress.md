@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDTransportAddress.SetTransportAddress
 title: IWSDTransportAddress::SetTransportAddress (wsdbase.h)
-description: Sets the string representation of the transport address.helpviewer_keywords: ["IWSDTransportAddress interface","SetTransportAddress method","IWSDTransportAddress.SetTransportAddress","IWSDTransportAddress::SetTransportAddress","SetTransportAddress","SetTransportAddress method","SetTransportAddress method","IWSDTransportAddress interface","ncd.iwsdtransportaddress_settransportaddress","wsdbase/IWSDTransportAddress::SetTransportAddress"]
+description: Sets the string representation of the transport address.
+helpviewer_keywords: ["IWSDTransportAddress interface","SetTransportAddress method","IWSDTransportAddress.SetTransportAddress","IWSDTransportAddress::SetTransportAddress","SetTransportAddress","SetTransportAddress method","SetTransportAddress method","IWSDTransportAddress interface","ncd.iwsdtransportaddress_settransportaddress","wsdbase/IWSDTransportAddress::SetTransportAddress"]
 old-location: ncd\iwsdtransportaddress_settransportaddress.htm
 tech.root: WsdApi
 ms.assetid: ea87b7d8-71c0-4cb6-b28b-7ac8f2417886

@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemServices.DeleteInstance
 title: IWbemServices::DeleteInstance (wbemcli.h)
-description: The IWbemServices::DeleteInstance method deletes an instance of an existing class in the current namespace.helpviewer_keywords: ["DeleteInstance","DeleteInstance method [Windows Management Instrumentation]","DeleteInstance method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","DeleteInstance method","IWbemServices.DeleteInstance","IWbemServices::DeleteInstance","WBEM_FLAG_RETURN_IMMEDIATELY","_hmm_iwbemservices_deleteinstance","wbemcli/IWbemServices::DeleteInstance","wmi.iwbemservices_deleteinstance"]
+description: The IWbemServices::DeleteInstance method deletes an instance of an existing class in the current namespace.
+helpviewer_keywords: ["DeleteInstance","DeleteInstance method [Windows Management Instrumentation]","DeleteInstance method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","DeleteInstance method","IWbemServices.DeleteInstance","IWbemServices::DeleteInstance","WBEM_FLAG_RETURN_IMMEDIATELY","_hmm_iwbemservices_deleteinstance","wbemcli/IWbemServices::DeleteInstance","wmi.iwbemservices_deleteinstance"]
 old-location: wmi\iwbemservices_deleteinstance.htm
 tech.root: WmiSdk
 ms.assetid: f6dfeb1d-1730-4df4-adf7-f27dd9edc54d

@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IDMOQualityControl.GetStatus
 title: IDMOQualityControl::GetStatus (mediaobj.h)
-description: The GetStatus method determines whether quality control is active.helpviewer_keywords: ["GetStatus","GetStatus method [DirectShow]","GetStatus method [DirectShow]","IDMOQualityControl interface","IDMOQualityControl interface [DirectShow]","GetStatus method","IDMOQualityControl.GetStatus","IDMOQualityControl::GetStatus","IDMOQualityControlGetStatus","dshow.idmoqualitycontrol_getstatus","mediaobj/IDMOQualityControl::GetStatus"]
+description: The GetStatus method determines whether quality control is active.
+helpviewer_keywords: ["GetStatus","GetStatus method [DirectShow]","GetStatus method [DirectShow]","IDMOQualityControl interface","IDMOQualityControl interface [DirectShow]","GetStatus method","IDMOQualityControl.GetStatus","IDMOQualityControl::GetStatus","IDMOQualityControlGetStatus","dshow.idmoqualitycontrol_getstatus","mediaobj/IDMOQualityControl::GetStatus"]
 old-location: dshow\idmoqualitycontrol_getstatus.htm
 tech.root: DirectShow
 ms.assetid: 5c45874f-5546-40cc-a113-bea92bd9784b

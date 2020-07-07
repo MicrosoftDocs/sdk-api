@@ -1,7 +1,8 @@
 ---
 UID: NE:dxgi.DXGI_SWAP_EFFECT
 title: DXGI_SWAP_EFFECT (dxgi.h)
-description: Options for handling pixels in a display surface after calling IDXGISwapChain1::Present1.helpviewer_keywords: ["DXGI_SWAP_EFFECT","DXGI_SWAP_EFFECT enumeration [DXGI]","DXGI_SWAP_EFFECT_DISCARD","DXGI_SWAP_EFFECT_FLIP_DISCARD","DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL","DXGI_SWAP_EFFECT_SEQUENTIAL","c9248b7c-731f-95e1-6c64-22fdef69d697","direct3ddxgi.DXGI_SWAP_EFFECT","dxgi/DXGI_SWAP_EFFECT","dxgi/DXGI_SWAP_EFFECT_DISCARD","dxgi/DXGI_SWAP_EFFECT_FLIP_DISCARD","dxgi/DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL","dxgi/DXGI_SWAP_EFFECT_SEQUENTIAL"]
+description: Options for handling pixels in a display surface after calling IDXGISwapChain1::Present1.
+helpviewer_keywords: ["DXGI_SWAP_EFFECT","DXGI_SWAP_EFFECT enumeration [DXGI]","DXGI_SWAP_EFFECT_DISCARD","DXGI_SWAP_EFFECT_FLIP_DISCARD","DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL","DXGI_SWAP_EFFECT_SEQUENTIAL","c9248b7c-731f-95e1-6c64-22fdef69d697","direct3ddxgi.DXGI_SWAP_EFFECT","dxgi/DXGI_SWAP_EFFECT","dxgi/DXGI_SWAP_EFFECT_DISCARD","dxgi/DXGI_SWAP_EFFECT_FLIP_DISCARD","dxgi/DXGI_SWAP_EFFECT_FLIP_SEQUENTIAL","dxgi/DXGI_SWAP_EFFECT_SEQUENTIAL"]
 old-location: direct3ddxgi\DXGI_SWAP_EFFECT.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\dxgi_swap_effect.htm

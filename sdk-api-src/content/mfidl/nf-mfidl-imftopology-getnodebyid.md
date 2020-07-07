@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFTopology.GetNodeByID
 title: IMFTopology::GetNodeByID (mfidl.h)
-description: Gets a node in the topology, specified by node identifier.helpviewer_keywords: ["34c8326f-bd34-4bf6-9171-a1ed3191b85e","GetNodeByID","GetNodeByID method [Media Foundation]","GetNodeByID method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","GetNodeByID method","IMFTopology.GetNodeByID","IMFTopology::GetNodeByID","mf.imftopology_getnodebyid","mfidl/IMFTopology::GetNodeByID"]
+description: Gets a node in the topology, specified by node identifier.
+helpviewer_keywords: ["34c8326f-bd34-4bf6-9171-a1ed3191b85e","GetNodeByID","GetNodeByID method [Media Foundation]","GetNodeByID method [Media Foundation]","IMFTopology interface","IMFTopology interface [Media Foundation]","GetNodeByID method","IMFTopology.GetNodeByID","IMFTopology::GetNodeByID","mf.imftopology_getnodebyid","mfidl/IMFTopology::GetNodeByID"]
 old-location: mf\imftopology_getnodebyid.htm
 tech.root: medfound
 ms.assetid: 34c8326f-bd34-4bf6-9171-a1ed3191b85e

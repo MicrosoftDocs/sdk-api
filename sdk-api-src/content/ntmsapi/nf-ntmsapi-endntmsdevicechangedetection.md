@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.EndNtmsDeviceChangeDetection
 title: EndNtmsDeviceChangeDetection function (ntmsapi.h)
-description: The EndNtmsDeviceChangeDetection function ends device change detection for any target devices specified using the SetNtmsDeviceChangeDetection function and closes the change detection handle.helpviewer_keywords: ["EndNtmsDeviceChangeDetection","EndNtmsDeviceChangeDetection function [Files]","_zaw_endntmsdevicechangedetection","base.endntmsdevicechangedetection","fs.endntmsdevicechangedetection","ntmsapi/EndNtmsDeviceChangeDetection"]
+description: The EndNtmsDeviceChangeDetection function ends device change detection for any target devices specified using the SetNtmsDeviceChangeDetection function and closes the change detection handle.
+helpviewer_keywords: ["EndNtmsDeviceChangeDetection","EndNtmsDeviceChangeDetection function [Files]","_zaw_endntmsdevicechangedetection","base.endntmsdevicechangedetection","fs.endntmsdevicechangedetection","ntmsapi/EndNtmsDeviceChangeDetection"]
 old-location: fs\endntmsdevicechangedetection.htm
 tech.root: Rsm
 ms.assetid: cb8dc379-30a1-43b0-b5a7-c6bc59b3e9ac

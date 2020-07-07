@@ -1,7 +1,8 @@
 ---
 UID: NF:winstring.WindowsReplaceString
 title: WindowsReplaceString function (winstring.h)
-description: Replaces all occurrences of a set of characters in the specified string with another set of characters to create a new string.helpviewer_keywords: ["WindowsReplaceString","WindowsReplaceString function [Windows Runtime]","winrt.windowsreplacestring","winstring/WindowsReplaceString"]
+description: Replaces all occurrences of a set of characters in the specified string with another set of characters to create a new string.
+helpviewer_keywords: ["WindowsReplaceString","WindowsReplaceString function [Windows Runtime]","winrt.windowsreplacestring","winstring/WindowsReplaceString"]
 old-location: winrt\windowsreplacestring.htm
 tech.root: WinRT
 ms.assetid: 9675A3EA-12F9-4EE9-93D1-1138FEEB7CA4
@@ -46,52 +47,38 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# WindowsReplaceString function
-
-
 ## -description
-
 
 Replaces all occurrences of a set of characters in the specified string with another set of characters to create a new string.
 
-
 ## -parameters
 
+### -param string
 
-
-
-### -param string [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The original string.
 
+### -param stringReplaced
 
-### -param stringReplaced [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The string to be replaced.
 
+### -param stringReplaceWith
 
-### -param stringReplaceWith [in]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a></b>
+Type: [in] **[HSTRING](/windows/win32/winrt/hstring)**
 
 The string to replace all occurrences of <i>stringReplaced</i>. 
 If this parameter is <b>NULL</b>, all instances of <i>stringReplaced</i> are removed.
 
+### -param newString
 
-### -param newString [out]
-
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinRT/hstring">HSTRING</a>*</b>
+Type: [out] <b>[**HSTRING**](/windows/win32/winrt/hstring)*</b>
 
 A string that is equivalent to the original, except that all instances of <i>stringReplaced</i> are replaced with <i>stringReplaceWith</i>.
 
-
 ## -returns
-
-
 
 Type: <b>HRESULT</b>
 
@@ -136,27 +123,11 @@ Failed to allocate the new string.
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-Each call to the <b>WindowsReplaceString</b> function must be matched with a corresponding call to <a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>.
-
-
-
+Each call to the <b>WindowsReplaceString</b> function must be matched with a corresponding call to <a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>.
 
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>
- 
-
- 
-
+<a href="/windows/desktop/api/winstring/nf-winstring-windowsdeletestring">WindowsDeleteString</a>

@@ -1,7 +1,8 @@
 ---
 UID: NF:winevt.EvtGetObjectArraySize
 title: EvtGetObjectArraySize function (winevt.h)
-description: Gets the number of elements in the array of objects.helpviewer_keywords: ["EvtGetObjectArraySize","EvtGetObjectArraySize function [EventLog]","wes.evtgetobjectarraysize","winevt/EvtGetObjectArraySize"]
+description: Gets the number of elements in the array of objects.
+helpviewer_keywords: ["EvtGetObjectArraySize","EvtGetObjectArraySize function [EventLog]","wes.evtgetobjectarraysize","winevt/EvtGetObjectArraySize"]
 old-location: wes\evtgetobjectarraysize.htm
 tech.root: wes
 ms.assetid: fc4043ac-48eb-400b-8cf6-b83cbbb2765c

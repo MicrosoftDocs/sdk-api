@@ -1,7 +1,8 @@
 ---
 UID: NI:winioctl.IOCTL_DISK_GET_DRIVE_LAYOUT_EX
 title: IOCTL_DISK_GET_DRIVE_LAYOUT_EX
-description: Retrieves extended information for each entry in the partition tables for a disk.helpviewer_keywords: ["IOCTL_DISK_GET_DRIVE_LAYOUT_EX","IOCTL_DISK_GET_DRIVE_LAYOUT_EX control","IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Files]","_win32_ioctl_disk_get_drive_layout_ex","base.ioctl_disk_get_drive_layout_ex","fs.ioctl_disk_get_drive_layout_ex","winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT_EX"]
+description: Retrieves extended information for each entry in the partition tables for a disk.
+helpviewer_keywords: ["IOCTL_DISK_GET_DRIVE_LAYOUT_EX","IOCTL_DISK_GET_DRIVE_LAYOUT_EX control","IOCTL_DISK_GET_DRIVE_LAYOUT_EX control code [Files]","_win32_ioctl_disk_get_drive_layout_ex","base.ioctl_disk_get_drive_layout_ex","fs.ioctl_disk_get_drive_layout_ex","winioctl/IOCTL_DISK_GET_DRIVE_LAYOUT_EX"]
 old-location: fs\ioctl_disk_get_drive_layout_ex.htm
 tech.root: FileIO
 ms.assetid: 21507182-5a33-4e58-b5ed-3724feefa4ed
@@ -52,14 +53,14 @@ To perform this operation, call the [**DeviceIoControl**](../ioapiset/nf-ioapise
 
 ```cpp
 BOOL DeviceIoControl(
-  (HANDLE) hDevice,              // handle to device
-  IOCTL_DISK_GET_DRIVE_LAYOUT_EX, //dwIoControlCode
-  NULL,                          //lpInBuffer
-  0,                             // nInBufferSize
-  (LPVOID) lpOutBuffer,          // output buffer
-  (DWORD) nOutBufferSize,        // size of output buffer
-  (LPDWORD) lpBytesReturned,     // number of bytes returned
-  (LPOVERLAPPED) lpOverlapped    // OVERLAPPED structure
+  (HANDLE) hDevice,                 // handle to device
+  IOCTL_DISK_GET_DRIVE_LAYOUT_EX,   // dwIoControlCode
+  NULL,                             // lpInBuffer
+  0,                                // nInBufferSize
+  (LPVOID) lpOutBuffer,             // output buffer
+  (DWORD) nOutBufferSize,           // size of output buffer
+  (LPDWORD) lpBytesReturned,        // number of bytes returned
+  (LPOVERLAPPED) lpOverlapped       // OVERLAPPED structure
 );
 ```
 
@@ -115,4 +116,7 @@ This operation retrieves information for each primary partition as well as each 
 
 ## -see-also
 
-[DRIVE_LAYOUT_INFORMATION_EX](ns-winioctl-drive_layout_information_ex.md), [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md), [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes), [IOCTL_DISK_SET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_set_drive_layout_ex.md)
+* [DRIVE_LAYOUT_INFORMATION_EX](ns-winioctl-drive_layout_information_ex.md)
+* [DeviceIoControl](../ioapiset/nf-ioapiset-deviceiocontrol.md)
+* [Disk Management Control Codes](/windows/win32/FileIO/disk-management-control-codes)
+* [IOCTL_DISK_SET_DRIVE_LAYOUT_EX](ni-winioctl-ioctl_disk_set_drive_layout_ex.md)

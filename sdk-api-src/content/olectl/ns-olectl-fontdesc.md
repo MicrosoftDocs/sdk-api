@@ -1,7 +1,8 @@
 ---
 UID: NS:olectl.tagFONTDESC
 title: FONTDESC (olectl.h)
-description: Contains parameters used to create a font object through the OleCreateFontIndirect function.helpviewer_keywords: ["*LPFONTDESC","FONTDESC","FONTDESC structure [COM]","LPFONTDESC","LPFONTDESC structure pointer [COM]","_ctrl_FONTDESC","com.fontdesc","olectl/FONTDESC","olectl/LPFONTDESC"]
+description: Contains parameters used to create a font object through the OleCreateFontIndirect function.
+helpviewer_keywords: ["*LPFONTDESC","FONTDESC","FONTDESC structure [COM]","LPFONTDESC","LPFONTDESC structure pointer [COM]","_ctrl_FONTDESC","com.fontdesc","olectl/FONTDESC","olectl/LPFONTDESC"]
 old-location: com\fontdesc.htm
 tech.root: com
 ms.assetid: c677b0ba-fd52-40e8-b7c3-b80a01c9fb26
@@ -71,8 +72,7 @@ cySize
 
 ### -field cySize
 
-Initial point size of the font. Use the <b>int64</b> member of the <a href="https://msdn.microsoft.com/library/ms221223.aspx">CY</a> structure and scale your font size (in points) by 10000.
-
+Initial point size of the font. Use the <b>int64</b> member of the <a href="https://docs.microsoft.com/en-us/windows/win32/api/wtypes/ns-wtypes-cy~r1">CY</a> structure and scale your font size (in points) by 10000.
 
 ### -field sWeight
 
@@ -106,6 +106,3 @@ Initial strikethrough state of the font.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/olectl/nf-olectl-olecreatefontindirect">OleCreateFontIndirect</a>
  
-
- 
-

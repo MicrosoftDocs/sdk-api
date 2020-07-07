@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxAccount
 title: IFaxAccount (faxcomex.h)
-description: Represents a fax account on the fax server.helpviewer_keywords: ["IFaxAccount","IFaxAccount interface [Fax Service]","IFaxAccount interface [Fax Service]","described","_mfax_faxaccount_cpp","fax._mfax_faxaccount_cpp","faxcomex/IFaxAccount"]
+description: Represents a fax account on the fax server.
+helpviewer_keywords: ["IFaxAccount","IFaxAccount interface [Fax Service]","IFaxAccount interface [Fax Service]","described","_mfax_faxaccount_cpp","fax._mfax_faxaccount_cpp","faxcomex/IFaxAccount"]
 old-location: fax\_mfax_faxaccount_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccount\faxinta_n_ifaxaccount.htm

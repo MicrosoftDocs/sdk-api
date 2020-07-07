@@ -1,7 +1,8 @@
 ---
 UID: NE:shcore.__unnamed_enum_0
 title: BSOS_OPTIONS (shcore.h)
-description: Specifies the behavior of a RandomAccessStream that encapsulates a Component Object Model (COM) IStream.helpviewer_keywords: ["BSOS_DEFAULT","BSOS_OPTIONS","BSOS_OPTIONS enumeration [Windows Runtime]","BSOS_PREFERDESTINATIONSTREAM","shcore/BSOS_DEFAULT","shcore/BSOS_OPTIONS","shcore/BSOS_PREFERDESTINATIONSTREAM","winrt.bsos_options"]
+description: Specifies the behavior of a RandomAccessStream that encapsulates a Component Object Model (COM) IStream.
+helpviewer_keywords: ["BSOS_DEFAULT","BSOS_OPTIONS","BSOS_OPTIONS enumeration [Windows Runtime]","BSOS_PREFERDESTINATIONSTREAM","shcore/BSOS_DEFAULT","shcore/BSOS_OPTIONS","shcore/BSOS_PREFERDESTINATIONSTREAM","winrt.bsos_options"]
 old-location: winrt\bsos_options.htm
 tech.root: WinRT
 ms.assetid: C51D945B-37C6-44CB-BF80-5FA62EE1F477

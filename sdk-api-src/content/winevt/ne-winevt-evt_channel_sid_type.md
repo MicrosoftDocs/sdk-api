@@ -1,7 +1,8 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_SID_TYPE
 title: EVT_CHANNEL_SID_TYPE (winevt.h)
-description: Defines the values that determine whether the event includes the security identifier (SID) of the principal that logged the event.helpviewer_keywords: ["EVT_CHANNEL_SID_TYPE","EVT_CHANNEL_SID_TYPE enumeration [EventLog]","EvtChannelSidTypeNone","EvtChannelSidTypePublishing","wes.evt_channel_sid_type","winevt/EVT_CHANNEL_SID_TYPE","winevt/EvtChannelSidTypeNone","winevt/EvtChannelSidTypePublishing"]
+description: Defines the values that determine whether the event includes the security identifier (SID) of the principal that logged the event.
+helpviewer_keywords: ["EVT_CHANNEL_SID_TYPE","EVT_CHANNEL_SID_TYPE enumeration [EventLog]","EvtChannelSidTypeNone","EvtChannelSidTypePublishing","wes.evt_channel_sid_type","winevt/EVT_CHANNEL_SID_TYPE","winevt/EvtChannelSidTypeNone","winevt/EvtChannelSidTypePublishing"]
 old-location: wes\evt_channel_sid_type.htm
 tech.root: wes
 ms.assetid: 7eadae8f-71b4-44de-ba66-0e460fee496c

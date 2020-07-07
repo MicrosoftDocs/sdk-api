@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssWMComponent.FreeComponentInfo
 title: IVssWMComponent::FreeComponentInfo (vsbackup.h)
-description: The FreeComponentInfo method deallocates system resources devoted to the specified component information.helpviewer_keywords: ["FreeComponentInfo","FreeComponentInfo method [VSS]","FreeComponentInfo method [VSS]","IVssWMComponent interface","IVssWMComponent interface [VSS]","FreeComponentInfo method","IVssWMComponent.FreeComponentInfo","IVssWMComponent::FreeComponentInfo","_win32_ivsswmcomponent_freecomponentinfo","base.ivsswmcomponent_freecomponentinfo","vsbackup/IVssWMComponent::FreeComponentInfo"]
+description: The FreeComponentInfo method deallocates system resources devoted to the specified component information.
+helpviewer_keywords: ["FreeComponentInfo","FreeComponentInfo method [VSS]","FreeComponentInfo method [VSS]","IVssWMComponent interface","IVssWMComponent interface [VSS]","FreeComponentInfo method","IVssWMComponent.FreeComponentInfo","IVssWMComponent::FreeComponentInfo","_win32_ivsswmcomponent_freecomponentinfo","base.ivsswmcomponent_freecomponentinfo","vsbackup/IVssWMComponent::FreeComponentInfo"]
 old-location: base\ivsswmcomponent_freecomponentinfo.htm
 tech.root: VSS
 ms.assetid: 3f0c4634-2b1c-4a9b-9c13-ace38e03a7ce

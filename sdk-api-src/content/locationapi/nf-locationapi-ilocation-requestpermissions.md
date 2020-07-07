@@ -1,7 +1,8 @@
 ---
 UID: NF:locationapi.ILocation.RequestPermissions
 title: ILocation::RequestPermissions (locationapi.h)
-description: Opens a system dialog box to request user permission to enable location devices.helpviewer_keywords: ["ILocation interface [WinLocation]","RequestPermissions method","ILocation.RequestPermissions","ILocation::RequestPermissions","RequestPermissions","RequestPermissions method [WinLocation]","RequestPermissions method [WinLocation]","ILocation interface","WinLocation_COM_Ref.ilocation_requestpermissions","locationapi/ILocation::RequestPermissions"]
+description: Opens a system dialog box to request user permission to enable location devices.
+helpviewer_keywords: ["ILocation interface [WinLocation]","RequestPermissions method","ILocation.RequestPermissions","ILocation::RequestPermissions","RequestPermissions","RequestPermissions method [WinLocation]","RequestPermissions method [WinLocation]","ILocation interface","WinLocation_COM_Ref.ilocation_requestpermissions","locationapi/ILocation::RequestPermissions"]
 old-location: winlocation_com_ref\ilocation_requestpermissions.htm
 tech.root: locationapi
 ms.assetid: eef60203-8705-4f68-be30-c9e7938e5596

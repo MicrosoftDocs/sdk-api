@@ -1,7 +1,8 @@
 ---
 UID: NE:webservices.__unnamed_enum_21
 title: WS_HTTP_PROXY_SETTING_MODE (webservices.h)
-description: Proxy setting indicates HTTP proxy setting for the channel with binding WS_HTTP_CHANNEL_BINDING. This is specified as part of WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE channel property.helpviewer_keywords: ["WS_HTTP_PROXY_SETTING_MODE","WS_HTTP_PROXY_SETTING_MODE enumeration [Web Services for Windows]","WS_HTTP_PROXY_SETTING_MODE_AUTO","WS_HTTP_PROXY_SETTING_MODE_CUSTOM","WS_HTTP_PROXY_SETTING_MODE_NONE","webservices/WS_HTTP_PROXY_SETTING_MODE","webservices/WS_HTTP_PROXY_SETTING_MODE_AUTO","webservices/WS_HTTP_PROXY_SETTING_MODE_CUSTOM","webservices/WS_HTTP_PROXY_SETTING_MODE_NONE","wsw.ws_http_proxy_setting_mode"]
+description: Proxy setting indicates HTTP proxy setting for the channel with binding WS_HTTP_CHANNEL_BINDING. This is specified as part of WS_CHANNEL_PROPERTY_HTTP_PROXY_SETTING_MODE channel property.
+helpviewer_keywords: ["WS_HTTP_PROXY_SETTING_MODE","WS_HTTP_PROXY_SETTING_MODE enumeration [Web Services for Windows]","WS_HTTP_PROXY_SETTING_MODE_AUTO","WS_HTTP_PROXY_SETTING_MODE_CUSTOM","WS_HTTP_PROXY_SETTING_MODE_NONE","webservices/WS_HTTP_PROXY_SETTING_MODE","webservices/WS_HTTP_PROXY_SETTING_MODE_AUTO","webservices/WS_HTTP_PROXY_SETTING_MODE_CUSTOM","webservices/WS_HTTP_PROXY_SETTING_MODE_NONE","wsw.ws_http_proxy_setting_mode"]
 old-location: wsw\ws_http_proxy_setting_mode.htm
 tech.root: wsw
 ms.assetid: 06c2b4e7-59d7-487e-b286-109695124a4d

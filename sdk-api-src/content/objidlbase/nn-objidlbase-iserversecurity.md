@@ -1,7 +1,8 @@
 ---
 UID: NN:objidlbase.IServerSecurity
 title: IServerSecurity (objidlbase.h)
-description: Used by a server to help authenticate the client and to manage impersonation of the client.helpviewer_keywords: ["IServerSecurity","IServerSecurity interface [COM]","IServerSecurity interface [COM]","described","_com_iserversecurity","com.iserversecurity","objidlbase/IServerSecurity"]
+description: Used by a server to help authenticate the client and to manage impersonation of the client.
+helpviewer_keywords: ["IServerSecurity","IServerSecurity interface [COM]","IServerSecurity interface [COM]","described","_com_iserversecurity","com.iserversecurity","objidlbase/IServerSecurity"]
 old-location: com\iserversecurity.htm
 tech.root: com
 ms.assetid: aacef77c-7185-44ed-aa1a-465c6100a431

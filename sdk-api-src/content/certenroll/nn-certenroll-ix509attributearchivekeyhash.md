@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509AttributeArchiveKeyHash
 title: IX509AttributeArchiveKeyHash (certenroll.h)
-description: Represents an attribute that contains a SHA-1 hash of the encrypted private key to be archived by a certification authority.helpviewer_keywords: ["IX509AttributeArchiveKeyHash","IX509AttributeArchiveKeyHash interface [Security]","IX509AttributeArchiveKeyHash interface [Security]","described","certenroll/IX509AttributeArchiveKeyHash","security.ix509attributearchivekeyhash"]
+description: Represents an attribute that contains a SHA-1 hash of the encrypted private key to be archived by a certification authority.
+helpviewer_keywords: ["IX509AttributeArchiveKeyHash","IX509AttributeArchiveKeyHash interface [Security]","IX509AttributeArchiveKeyHash interface [Security]","described","certenroll/IX509AttributeArchiveKeyHash","security.ix509attributearchivekeyhash"]
 old-location: security\ix509attributearchivekeyhash.htm
 tech.root: seccertenroll
 ms.assetid: 52c92629-4c9e-4996-80a2-30e2212b3009

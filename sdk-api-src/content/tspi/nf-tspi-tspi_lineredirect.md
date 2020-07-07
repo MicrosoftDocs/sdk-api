@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineRedirect
 title: TSPI_lineRedirect function (tspi.h)
-description: The TSPI_lineRedirect function redirects the specified offering call to the specified destination address.helpviewer_keywords: ["TSPI_lineRedirect","TSPI_lineRedirect function [TAPI 2.2]","_tspi_tspi_lineredirect","tspi.tspi_lineredirect","tspi/TSPI_lineRedirect"]
+description: The TSPI_lineRedirect function redirects the specified offering call to the specified destination address.
+helpviewer_keywords: ["TSPI_lineRedirect","TSPI_lineRedirect function [TAPI 2.2]","_tspi_tspi_lineredirect","tspi.tspi_lineredirect","tspi/TSPI_lineRedirect"]
 old-location: tspi\tspi_lineredirect.htm
 tech.root: Tapi
 ms.assetid: 835fce4a-69c4-4a7e-846f-f05df4a24b96

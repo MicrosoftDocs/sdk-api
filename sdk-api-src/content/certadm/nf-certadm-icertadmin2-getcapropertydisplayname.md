@@ -1,7 +1,8 @@
 ---
 UID: NF:certadm.ICertAdmin2.GetCAPropertyDisplayName
 title: ICertAdmin2::GetCAPropertyDisplayName (certadm.h)
-description: The ICertAdmin2::GetCAPropertyDisplayName method retrieves the property display name for a certification authority (CA) property.helpviewer_keywords: ["CCertAdmin object [Security]","GetCAPropertyDisplayName method","GetCAPropertyDisplayName","GetCAPropertyDisplayName method [Security]","GetCAPropertyDisplayName method [Security]","CCertAdmin object","GetCAPropertyDisplayName method [Security]","ICertAdmin2 interface","ICertAdmin2 interface [Security]","GetCAPropertyDisplayName method","ICertAdmin2.GetCAPropertyDisplayName","ICertAdmin2::GetCAPropertyDisplayName","_certsrv_icertadmin2_getcapropertydisplayname","certadm/ICertAdmin2::GetCAPropertyDisplayName","security.icertadmin2_getcapropertydisplayname"]
+description: The ICertAdmin2::GetCAPropertyDisplayName method retrieves the property display name for a certification authority (CA) property.
+helpviewer_keywords: ["CCertAdmin object [Security]","GetCAPropertyDisplayName method","GetCAPropertyDisplayName","GetCAPropertyDisplayName method [Security]","GetCAPropertyDisplayName method [Security]","CCertAdmin object","GetCAPropertyDisplayName method [Security]","ICertAdmin2 interface","ICertAdmin2 interface [Security]","GetCAPropertyDisplayName method","ICertAdmin2.GetCAPropertyDisplayName","ICertAdmin2::GetCAPropertyDisplayName","_certsrv_icertadmin2_getcapropertydisplayname","certadm/ICertAdmin2::GetCAPropertyDisplayName","security.icertadmin2_getcapropertydisplayname"]
 old-location: security\icertadmin2_getcapropertydisplayname.htm
 tech.root: SecCrypto
 ms.assetid: 8f879b94-d15a-48e6-9e71-a24c1c39c618

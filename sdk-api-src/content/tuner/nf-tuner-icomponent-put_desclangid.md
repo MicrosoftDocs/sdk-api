@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IComponent.put_DescLangID
 title: IComponent::put_DescLangID (tuner.h)
-description: The put_DescLangID method sets the language for presentation of the description.helpviewer_keywords: ["IComponent interface [Microsoft TV Technologies]","put_DescLangID method","IComponent.put_DescLangID","IComponent::put_DescLangID","IComponentput_DescLangID","mstv.icomponent_put_desclangid","put_DescLangID","put_DescLangID method [Microsoft TV Technologies]","put_DescLangID method [Microsoft TV Technologies]","IComponent interface","tuner/IComponent::put_DescLangID"]
+description: The put_DescLangID method sets the language for presentation of the description.
+helpviewer_keywords: ["IComponent interface [Microsoft TV Technologies]","put_DescLangID method","IComponent.put_DescLangID","IComponent::put_DescLangID","IComponentput_DescLangID","mstv.icomponent_put_desclangid","put_DescLangID","put_DescLangID method [Microsoft TV Technologies]","put_DescLangID method [Microsoft TV Technologies]","IComponent interface","tuner/IComponent::put_DescLangID"]
 old-location: mstv\icomponent_put_desclangid.htm
 tech.root: mstv
 ms.assetid: 0f914835-e097-4a02-80fe-371154c9d95a

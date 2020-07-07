@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.OpenProcess
 title: OpenProcess function (processthreadsapi.h)
-description: Opens an existing local process object.helpviewer_keywords: ["OpenProcess","OpenProcess function","_win32_openprocess","base.openprocess","processthreadsapi/OpenProcess","winbase/OpenProcess"]
+description: Opens an existing local process object.
+helpviewer_keywords: ["OpenProcess","OpenProcess function","_win32_openprocess","base.openprocess","processthreadsapi/OpenProcess","winbase/OpenProcess"]
 old-location: base\openprocess.htm
 tech.root: ProcThread
 ms.assetid: 8f695c38-19c4-49e4-97de-8b64ea536cb1

@@ -1,7 +1,8 @@
 ---
 UID: NF:imagehlp.ImageGetCertificateData
 title: ImageGetCertificateData function (imagehlp.h)
-description: Retrieves a complete certificate from a file.helpviewer_keywords: ["ImageGetCertificateData","ImageGetCertificateData function","_win32_imagegetcertificatedata","base.imagegetcertificatedata","imagehlp/ImageGetCertificateData"]
+description: Retrieves a complete certificate from a file.
+helpviewer_keywords: ["ImageGetCertificateData","ImageGetCertificateData function","_win32_imagegetcertificatedata","base.imagegetcertificatedata","imagehlp/ImageGetCertificateData"]
 old-location: base\imagegetcertificatedata.htm
 tech.root: Debug
 ms.assetid: ca4cf3a3-9324-4784-a6d8-44692f4840eb

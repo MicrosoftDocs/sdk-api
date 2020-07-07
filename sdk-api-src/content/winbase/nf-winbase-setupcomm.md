@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.SetupComm
 title: SetupComm function (winbase.h)
-description: Initializes the communications parameters for a specified communications device.helpviewer_keywords: ["SetupComm","SetupComm function","_win32_setupcomm","base.setupcomm","winbase/SetupComm"]
+description: Initializes the communications parameters for a specified communications device.
+helpviewer_keywords: ["SetupComm","SetupComm function","_win32_setupcomm","base.setupcomm","winbase/SetupComm"]
 old-location: base\setupcomm.htm
 tech.root: devio
 ms.assetid: 7b42fdad-5847-4036-957e-2f71ad982d9f

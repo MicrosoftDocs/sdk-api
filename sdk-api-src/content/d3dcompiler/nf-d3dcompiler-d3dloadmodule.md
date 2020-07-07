@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcompiler.D3DLoadModule
 title: D3DLoadModule function (d3dcompiler.h)
-description: Creates a shader module interface from source data for the shader module.helpviewer_keywords: ["D3DLoadModule","D3DLoadModule function [HLSL]","d3dcompiler/D3DLoadModule","direct3dhlsl.d3dloadmodule"]
+description: Creates a shader module interface from source data for the shader module.
+helpviewer_keywords: ["D3DLoadModule","D3DLoadModule function [HLSL]","d3dcompiler/D3DLoadModule","direct3dhlsl.d3dloadmodule"]
 old-location: direct3dhlsl\d3dloadmodule.htm
 tech.root: direct3dhlsl
 ms.assetid: 698AADA6-0A88-44AD-9F15-F085BFE52CA1

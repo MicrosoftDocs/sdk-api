@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetVisibleColumns
 title: ISearchFolderItemFactory::SetVisibleColumns (shobjidl_core.h)
-description: Creates a new column list whose columns are all visible, given an array of PROPERTYKEY structures. The default is based on FolderTypeID.helpviewer_keywords: ["ISearchFolderItemFactory interface [Windows Shell]","SetVisibleColumns method","ISearchFolderItemFactory.SetVisibleColumns","ISearchFolderItemFactory::SetVisibleColumns","SetVisibleColumns","SetVisibleColumns method [Windows Shell]","SetVisibleColumns method [Windows Shell]","ISearchFolderItemFactory interface","_shell_ISearchFolderItemFactory_SetVisibleColumns","shell.ISearchFolderItemFactory_SetVisibleColumns","shobjidl_core/ISearchFolderItemFactory::SetVisibleColumns"]
+description: Creates a new column list whose columns are all visible, given an array of PROPERTYKEY structures. The default is based on FolderTypeID.
+helpviewer_keywords: ["ISearchFolderItemFactory interface [Windows Shell]","SetVisibleColumns method","ISearchFolderItemFactory.SetVisibleColumns","ISearchFolderItemFactory::SetVisibleColumns","SetVisibleColumns","SetVisibleColumns method [Windows Shell]","SetVisibleColumns method [Windows Shell]","ISearchFolderItemFactory interface","_shell_ISearchFolderItemFactory_SetVisibleColumns","shell.ISearchFolderItemFactory_SetVisibleColumns","shobjidl_core/ISearchFolderItemFactory::SetVisibleColumns"]
 old-location: shell\ISearchFolderItemFactory_SetVisibleColumns.htm
 tech.root: shell
 ms.assetid: be18218e-a117-4256-936e-3a5eb36c3654

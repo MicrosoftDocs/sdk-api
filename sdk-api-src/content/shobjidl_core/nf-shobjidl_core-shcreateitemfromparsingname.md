@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemFromParsingName
 title: SHCreateItemFromParsingName function (shobjidl_core.h)
-description: Creates and initializes a Shell item object from a parsing name.helpviewer_keywords: ["SHCreateItemFromParsingName","SHCreateItemFromParsingName function [Windows Shell]","_shell_SHCreateItemFromParsingName","shell.SHCreateItemFromParsingName","shobjidl_core/SHCreateItemFromParsingName"]
+description: Creates and initializes a Shell item object from a parsing name.
+helpviewer_keywords: ["SHCreateItemFromParsingName","SHCreateItemFromParsingName function [Windows Shell]","_shell_SHCreateItemFromParsingName","shell.SHCreateItemFromParsingName","shobjidl_core/SHCreateItemFromParsingName"]
 old-location: shell\SHCreateItemFromParsingName.htm
 tech.root: shell
 ms.assetid: 81e48318-b6a4-4b1a-8b78-21c00b9dc485

@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.PATHOBJ_bPolyBezierTo
 title: PATHOBJ_bPolyBezierTo function (winddi.h)
-description: The PATHOBJ_bPolyBezierTo function draws Bezier curves on a path.helpviewer_keywords: ["PATHOBJ_bPolyBezierTo","PATHOBJ_bPolyBezierTo function [Display Devices]","display.pathobj_bpolybezierto","gdifncs_787796de-11ca-457d-8084-8eb0af187eef.xml","winddi/PATHOBJ_bPolyBezierTo"]
+description: The PATHOBJ_bPolyBezierTo function draws Bezier curves on a path.
+helpviewer_keywords: ["PATHOBJ_bPolyBezierTo","PATHOBJ_bPolyBezierTo function [Display Devices]","display.pathobj_bpolybezierto","gdifncs_787796de-11ca-457d-8084-8eb0af187eef.xml","winddi/PATHOBJ_bPolyBezierTo"]
 old-location: display\pathobj_bpolybezierto.htm
 tech.root: display
 ms.assetid: 0937c816-b205-4c5d-b4b6-74c3e7fdb0ce

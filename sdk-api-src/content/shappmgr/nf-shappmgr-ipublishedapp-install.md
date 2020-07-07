@@ -1,7 +1,8 @@
 ---
 UID: NF:shappmgr.IPublishedApp.Install
 title: IPublishedApp::Install (shappmgr.h)
-description: Installs an application published by an application publisher. This method is invoked when the user selects Add or Add Later in Add/Remove Programs in Control Panel.helpviewer_keywords: ["IPublishedApp interface [Windows Shell]","Install method","IPublishedApp.Install","IPublishedApp::Install","Install","Install method [Windows Shell]","Install method [Windows Shell]","IPublishedApp interface","inet_IPublishedApp_Install","shappmgr/IPublishedApp::Install","shell.IPublishedApp_Install"]
+description: Installs an application published by an application publisher. This method is invoked when the user selects Add or Add Later in Add/Remove Programs in Control Panel.
+helpviewer_keywords: ["IPublishedApp interface [Windows Shell]","Install method","IPublishedApp.Install","IPublishedApp::Install","Install","Install method [Windows Shell]","Install method [Windows Shell]","IPublishedApp interface","inet_IPublishedApp_Install","shappmgr/IPublishedApp::Install","shell.IPublishedApp_Install"]
 old-location: shell\IPublishedApp_Install.htm
 tech.root: shell
 ms.assetid: 6d8c5720-b48f-4268-810c-c04b14d20d73

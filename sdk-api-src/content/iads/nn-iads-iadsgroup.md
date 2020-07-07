@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsGroup
 title: IADsGroup (iads.h)
-description: Manages group membership data in a directory service.helpviewer_keywords: ["IADsGroup","IADsGroup interface [ADSI]","IADsGroup interface [ADSI]","described","_ds_iadsgroup","adsi.iadsgroup","iads/IADsGroup"]
+description: Manages group membership data in a directory service.
+helpviewer_keywords: ["IADsGroup","IADsGroup interface [ADSI]","IADsGroup interface [ADSI]","described","_ds_iadsgroup","adsi.iadsgroup","iads/IADsGroup"]
 old-location: adsi\iadsgroup.htm
 tech.root: adsi
 ms.assetid: dbf0c424-e906-4a72-a369-81bf96275bbc

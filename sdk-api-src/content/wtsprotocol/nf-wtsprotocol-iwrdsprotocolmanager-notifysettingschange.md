@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.NotifySettingsChange
 title: IWRdsProtocolManager::NotifySettingsChange (wtsprotocol.h)
-description: Notifies the protocol provider of changes in the settings within the Remote Desktop Services service.helpviewer_keywords: ["IWRdsProtocolManager interface [Remote Desktop Services]","NotifySettingsChange method","IWRdsProtocolManager.NotifySettingsChange","IWRdsProtocolManager::NotifySettingsChange","NotifySettingsChange","NotifySettingsChange method [Remote Desktop Services]","NotifySettingsChange method [Remote Desktop Services]","IWRdsProtocolManager interface","termserv.iwrdsprotocolmanager_notifysettingschange","wtsprotocol/IWRdsProtocolManager::NotifySettingsChange"]
+description: Notifies the protocol provider of changes in the settings within the Remote Desktop Services service.
+helpviewer_keywords: ["IWRdsProtocolManager interface [Remote Desktop Services]","NotifySettingsChange method","IWRdsProtocolManager.NotifySettingsChange","IWRdsProtocolManager::NotifySettingsChange","NotifySettingsChange","NotifySettingsChange method [Remote Desktop Services]","NotifySettingsChange method [Remote Desktop Services]","IWRdsProtocolManager interface","termserv.iwrdsprotocolmanager_notifysettingschange","wtsprotocol/IWRdsProtocolManager::NotifySettingsChange"]
 old-location: termserv\iwrdsprotocolmanager_notifysettingschange.htm
 tech.root: TermServ
 ms.assetid: 80292d9b-fced-4726-8f83-5ba355df06a2

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IPinConnection.DynamicQueryAccept
 title: IPinConnection::DynamicQueryAccept (strmif.h)
-description: The DynamicQueryAccept method queries whether the pin can accept the specified media type while the graph is running with the current connection to this pin.helpviewer_keywords: ["DynamicQueryAccept","DynamicQueryAccept method [DirectShow]","DynamicQueryAccept method [DirectShow]","IPinConnection interface","IPinConnection interface [DirectShow]","DynamicQueryAccept method","IPinConnection.DynamicQueryAccept","IPinConnection::DynamicQueryAccept","IPinConnectionDynamicQueryAccept","dshow.ipinconnection_dynamicqueryaccept","strmif/IPinConnection::DynamicQueryAccept"]
+description: The DynamicQueryAccept method queries whether the pin can accept the specified media type while the graph is running with the current connection to this pin.
+helpviewer_keywords: ["DynamicQueryAccept","DynamicQueryAccept method [DirectShow]","DynamicQueryAccept method [DirectShow]","IPinConnection interface","IPinConnection interface [DirectShow]","DynamicQueryAccept method","IPinConnection.DynamicQueryAccept","IPinConnection::DynamicQueryAccept","IPinConnectionDynamicQueryAccept","dshow.ipinconnection_dynamicqueryaccept","strmif/IPinConnection::DynamicQueryAccept"]
 old-location: dshow\ipinconnection_dynamicqueryaccept.htm
 tech.root: DirectShow
 ms.assetid: 86a4f18c-4bd0-45d2-bb5a-b0f41cd0ab43

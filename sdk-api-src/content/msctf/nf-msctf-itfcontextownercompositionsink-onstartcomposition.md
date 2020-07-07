@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnStartComposition
 title: ITfContextOwnerCompositionSink::OnStartComposition (msctf.h)
-description: ITfContextOwnerCompositionSink::OnStartComposition methodhelpviewer_keywords: ["ITfContextOwnerCompositionSink interface [Text Services Framework]","OnStartComposition method","ITfContextOwnerCompositionSink.OnStartComposition","ITfContextOwnerCompositionSink::OnStartComposition","OnStartComposition","OnStartComposition method [Text Services Framework]","OnStartComposition method [Text Services Framework]","ITfContextOwnerCompositionSink interface","_tsf_itfcontextownercompositionsink_onstartcomposition_ref","msctf/ITfContextOwnerCompositionSink::OnStartComposition","tsf.itfcontextownercompositionsink_onstartcomposition"]
+description: ITfContextOwnerCompositionSink::OnStartComposition method
+helpviewer_keywords: ["ITfContextOwnerCompositionSink interface [Text Services Framework]","OnStartComposition method","ITfContextOwnerCompositionSink.OnStartComposition","ITfContextOwnerCompositionSink::OnStartComposition","OnStartComposition","OnStartComposition method [Text Services Framework]","OnStartComposition method [Text Services Framework]","ITfContextOwnerCompositionSink interface","_tsf_itfcontextownercompositionsink_onstartcomposition_ref","msctf/ITfContextOwnerCompositionSink::OnStartComposition","tsf.itfcontextownercompositionsink_onstartcomposition"]
 old-location: tsf\itfcontextownercompositionsink_onstartcomposition.htm
 tech.root: TSF
 ms.assetid: 18356eda-42b1-4b29-8fd8-cff4a3f6d234

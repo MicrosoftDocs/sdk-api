@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlCustomDraw.PrePaint
 title: INameSpaceTreeControlCustomDraw::PrePaint (shobjidl.h)
-description: Called before the namespace tree control is drawn.helpviewer_keywords: ["INameSpaceTreeControlCustomDraw interface [Windows Shell]","PrePaint method","INameSpaceTreeControlCustomDraw.PrePaint","INameSpaceTreeControlCustomDraw::PrePaint","PrePaint","PrePaint method [Windows Shell]","PrePaint method [Windows Shell]","INameSpaceTreeControlCustomDraw interface","_shell_INameSpaceTreeControlCustomDraw_PrePaint","shell.INameSpaceTreeControlCustomDraw_PrePaint","shobjidl/INameSpaceTreeControlCustomDraw::PrePaint"]
+description: Called before the namespace tree control is drawn.
+helpviewer_keywords: ["INameSpaceTreeControlCustomDraw interface [Windows Shell]","PrePaint method","INameSpaceTreeControlCustomDraw.PrePaint","INameSpaceTreeControlCustomDraw::PrePaint","PrePaint","PrePaint method [Windows Shell]","PrePaint method [Windows Shell]","INameSpaceTreeControlCustomDraw interface","_shell_INameSpaceTreeControlCustomDraw_PrePaint","shell.INameSpaceTreeControlCustomDraw_PrePaint","shobjidl/INameSpaceTreeControlCustomDraw::PrePaint"]
 old-location: shell\INameSpaceTreeControlCustomDraw_PrePaint.htm
 tech.root: shell
 ms.assetid: 3d9c0616-90f2-435c-a663-9ffe4adab8a0

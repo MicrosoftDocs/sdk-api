@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemContext.SetValue
 title: IWbemContext::SetValue (wbemcli.h)
-description: The IWbemContext::SetValue method creates or overwrites a named context value.helpviewer_keywords: ["IWbemContext interface [Windows Management Instrumentation]","SetValue method","IWbemContext.SetValue","IWbemContext::SetValue","SetValue","SetValue method [Windows Management Instrumentation]","SetValue method [Windows Management Instrumentation]","IWbemContext interface","_hmm_iwbemcontext_setvalue","wbemcli/IWbemContext::SetValue","wmi.iwbemcontext_setvalue"]
+description: The IWbemContext::SetValue method creates or overwrites a named context value.
+helpviewer_keywords: ["IWbemContext interface [Windows Management Instrumentation]","SetValue method","IWbemContext.SetValue","IWbemContext::SetValue","SetValue","SetValue method [Windows Management Instrumentation]","SetValue method [Windows Management Instrumentation]","IWbemContext interface","_hmm_iwbemcontext_setvalue","wbemcli/IWbemContext::SetValue","wmi.iwbemcontext_setvalue"]
 old-location: wmi\iwbemcontext_setvalue.htm
 tech.root: WmiSdk
 ms.assetid: 074d5ac7-aa86-44d8-99f9-959ef99a8004

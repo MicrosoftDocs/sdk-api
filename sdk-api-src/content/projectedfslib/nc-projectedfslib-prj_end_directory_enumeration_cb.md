@@ -1,7 +1,8 @@
 ---
 UID: NC:projectedfslib.PRJ_END_DIRECTORY_ENUMERATION_CB
 title: PRJ_END_DIRECTORY_ENUMERATION_CB (projectedfslib.h)
-description: Informs the provider that a directory enumeration is over.helpviewer_keywords: ["PRJ_END_DIRECTORY_ENUMERATION_CB","PRJ_END_DIRECTORY_ENUMERATION_CB callback","PRJ_END_DIRECTORY_ENUMERATION_CB callback function","ProjFS.prj_end_directory_enumeration_cb","projectedfslib/PRJ_END_DIRECTORY_ENUMERATION_CB"]
+description: Informs the provider that a directory enumeration is over.
+helpviewer_keywords: ["PRJ_END_DIRECTORY_ENUMERATION_CB","PRJ_END_DIRECTORY_ENUMERATION_CB callback","PRJ_END_DIRECTORY_ENUMERATION_CB callback function","ProjFS.prj_end_directory_enumeration_cb","projectedfslib/PRJ_END_DIRECTORY_ENUMERATION_CB"]
 old-location: projfs\prj_end_directory_enumeration_cb.htm
 tech.root: ProjFS
 ms.assetid: E9DA86AC-E884-4DB3-977D-6D8EDA2A8E12

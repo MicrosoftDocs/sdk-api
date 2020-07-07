@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothSdpGetAttributeValue
 title: BluetoothSdpGetAttributeValue function (bluetoothapis.h)
-description: The BluetoothSdpGetAttributeValue function retrieves the attribute value for an attribute identifier.helpviewer_keywords: ["BluetoothSdpGetAttributeValue","BluetoothSdpGetAttributeValue function [Bluetooth]","bluetooth.bluetoothsdpgetattributevalue","bluetoothapis/BluetoothSdpGetAttributeValue"]
+description: The BluetoothSdpGetAttributeValue function retrieves the attribute value for an attribute identifier.
+helpviewer_keywords: ["BluetoothSdpGetAttributeValue","BluetoothSdpGetAttributeValue function [Bluetooth]","bluetooth.bluetoothsdpgetattributevalue","bluetoothapis/BluetoothSdpGetAttributeValue"]
 old-location: bluetooth\bluetoothsdpgetattributevalue.htm
 tech.root: bluetooth
 ms.assetid: 79368265-3d01-4bfd-ba71-930696e0bc08

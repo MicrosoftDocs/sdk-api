@@ -1,7 +1,8 @@
 ---
 UID: NE:p2p.peer_graph_property_flags_tag
 title: PEER_GRAPH_PROPERTY_FLAGS (p2p.h)
-description: The PEER_GRAPH_PROPERTY_FLAGS enumeration specifies properties of a peer graph.helpviewer_keywords: ["PEER_GRAPH_PROPERTY_DEFER_EXPIRATION","PEER_GRAPH_PROPERTY_FLAGS","PEER_GRAPH_PROPERTY_FLAGS enumeration [Peer Networking]","PEER_GRAPH_PROPERTY_HEARTBEATS","p2p.peer_graph_property_flags","p2p/PEER_GRAPH_PROPERTY_DEFER_EXPIRATION","p2p/PEER_GRAPH_PROPERTY_FLAGS","p2p/PEER_GRAPH_PROPERTY_HEARTBEATS"]
+description: The PEER_GRAPH_PROPERTY_FLAGS enumeration specifies properties of a peer graph.
+helpviewer_keywords: ["PEER_GRAPH_PROPERTY_DEFER_EXPIRATION","PEER_GRAPH_PROPERTY_FLAGS","PEER_GRAPH_PROPERTY_FLAGS enumeration [Peer Networking]","PEER_GRAPH_PROPERTY_HEARTBEATS","p2p.peer_graph_property_flags","p2p/PEER_GRAPH_PROPERTY_DEFER_EXPIRATION","p2p/PEER_GRAPH_PROPERTY_FLAGS","p2p/PEER_GRAPH_PROPERTY_HEARTBEATS"]
 old-location: p2p\peer_graph_property_flags.htm
 tech.root: P2PSdk
 ms.assetid: 0e4f273f-7b6f-4aac-8fee-c0295479ee78

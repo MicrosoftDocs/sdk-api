@@ -1,7 +1,8 @@
 ---
 UID: NF:prsht.CreatePropertySheetPageW
 title: CreatePropertySheetPageW function (prsht.h)
-description: Creates a new page for a property sheet.helpviewer_keywords: ["CreatePropertySheetPage","CreatePropertySheetPage function [Windows Controls]","CreatePropertySheetPageA","CreatePropertySheetPageW","_win32_CreatePropertySheetPage","_win32_CreatePropertySheetPage_cpp","controls.CreatePropertySheetPage","controls._win32_CreatePropertySheetPage","prsht/CreatePropertySheetPage","prsht/CreatePropertySheetPageA","prsht/CreatePropertySheetPageW"]
+description: Creates a new page for a property sheet.
+helpviewer_keywords: ["CreatePropertySheetPage","CreatePropertySheetPage function [Windows Controls]","CreatePropertySheetPageA","CreatePropertySheetPageW","_win32_CreatePropertySheetPage","_win32_CreatePropertySheetPage_cpp","controls.CreatePropertySheetPage","controls._win32_CreatePropertySheetPage","prsht/CreatePropertySheetPage","prsht/CreatePropertySheetPageA","prsht/CreatePropertySheetPageW"]
 old-location: controls\CreatePropertySheetPage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\createpropertysheetpage.htm
@@ -88,4 +89,8 @@ An application uses the <a href="https://docs.microsoft.com/windows/desktop/api/
 Windows 95: The system can support a maximum of 16,364 window handles.
 
 
+
+
+> [!NOTE]
+> The prsht.h header defines CreatePropertySheetPage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

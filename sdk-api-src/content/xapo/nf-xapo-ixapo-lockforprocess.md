@@ -1,7 +1,8 @@
 ---
 UID: NF:xapo.IXAPO.LockForProcess
 title: IXAPO::LockForProcess (xapo.h)
-description: Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before Process is called on the realtime thread.helpviewer_keywords: ["IXAPO interface [XAudio2 Audio Mixing APIs]","LockForProcess method","IXAPO.LockForProcess","IXAPO::LockForProcess","LockForProcess","LockForProcess method [XAudio2 Audio Mixing APIs]","LockForProcess method [XAudio2 Audio Mixing APIs]","IXAPO interface","xapo/IXAPO::LockForProcess","xaudio2.ixapo_interface_lockforprocess"]
+description: Called by XAudio2 to lock the input and output configurations of an XAPO allowing it to do any final initialization before Process is called on the realtime thread.
+helpviewer_keywords: ["IXAPO interface [XAudio2 Audio Mixing APIs]","LockForProcess method","IXAPO.LockForProcess","IXAPO::LockForProcess","LockForProcess","LockForProcess method [XAudio2 Audio Mixing APIs]","LockForProcess method [XAudio2 Audio Mixing APIs]","IXAPO interface","xapo/IXAPO::LockForProcess","xaudio2.ixapo_interface_lockforprocess"]
 old-location: xaudio2\ixapo_interface_lockforprocess.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.LockForProcess(UINT32,const XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS,UINT32,const XAPO_LOCKFORPROCESS_BUFFER_PARAMETERS)

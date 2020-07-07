@@ -40,7 +40,8 @@ tech.root: winrt
 
 ## -description
 
-Contains core methods for obtaining tokens from web account providers.<br/><br/>
+Provides Win32 apps with access to certain functions of [WebAuthenticationCoreManager](/uwp/api/windows.security.authentication.web.core.webauthenticationcoremanager)
+that are otherwise available only to UWP apps.
 
 ## -remarks
 

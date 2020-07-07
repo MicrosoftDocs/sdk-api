@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarUI2FromStr
 title: VarUI2FromStr function (oleauto.h)
-description: Converts an OLECHAR string to an unsigned short value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_DATEVALUEONLY","VAR_TIMEVALUEONLY","VarUI2FromStr","VarUI2FromStr function [Automation]","_oa96_VarUI2FromStr","automat.varui2fromstr","oleauto/VarUI2FromStr"]
+description: Converts an OLECHAR string to an unsigned short value.
+helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_DATEVALUEONLY","VAR_TIMEVALUEONLY","VarUI2FromStr","VarUI2FromStr function [Automation]","_oa96_VarUI2FromStr","automat.varui2fromstr","oleauto/VarUI2FromStr"]
 old-location: automat\varui2fromstr.htm
 tech.root: automat
 ms.assetid: f709e66e-dc37-4a24-8792-e991626dfaf5

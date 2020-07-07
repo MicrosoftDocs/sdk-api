@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.put_Recorder
 title: IDiscFormat2TrackAtOnce::put_Recorder (imapi2.h)
-description: Sets the recording device to use for the write operation.helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","put_Recorder method","IDiscFormat2TrackAtOnce.put_Recorder","IDiscFormat2TrackAtOnce::put_Recorder","imapi.idiscformat2trackatonce_put_recorder","imapi2/IDiscFormat2TrackAtOnce::put_Recorder","put_Recorder","put_Recorder method [IMAPI]","put_Recorder method [IMAPI]","IDiscFormat2TrackAtOnce interface"]
+description: Sets the recording device to use for the write operation.
+helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","put_Recorder method","IDiscFormat2TrackAtOnce.put_Recorder","IDiscFormat2TrackAtOnce::put_Recorder","imapi.idiscformat2trackatonce_put_recorder","imapi2/IDiscFormat2TrackAtOnce::put_Recorder","put_Recorder","put_Recorder method [IMAPI]","put_Recorder method [IMAPI]","IDiscFormat2TrackAtOnce interface"]
 old-location: imapi\idiscformat2trackatonce_put_recorder.htm
 tech.root: imapi
 ms.assetid: 6d67b076-0c3f-4d1f-aa19-8e22dd98f331

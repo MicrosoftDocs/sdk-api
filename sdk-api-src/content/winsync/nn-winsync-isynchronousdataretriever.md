@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.ISynchronousDataRetriever
 title: ISynchronousDataRetriever (winsync.h)
-description: Represents the mechanism by which the destination provider retrieves item data from the source provider.helpviewer_keywords: ["ISynchronousDataRetriever","ISynchronousDataRetriever interface [Windows Sync]","ISynchronousDataRetriever interface [Windows Sync]","described","winsync.isynchronousdataretriever","winsync/ISynchronousDataRetriever"]
+description: Represents the mechanism by which the destination provider retrieves item data from the source provider.
+helpviewer_keywords: ["ISynchronousDataRetriever","ISynchronousDataRetriever interface [Windows Sync]","ISynchronousDataRetriever interface [Windows Sync]","described","winsync.isynchronousdataretriever","winsync/ISynchronousDataRetriever"]
 old-location: winsync\isynchronousdataretriever.htm
 tech.root: winsync
 ms.assetid: d59a5198-5878-4a48-b6c4-042afc36054d

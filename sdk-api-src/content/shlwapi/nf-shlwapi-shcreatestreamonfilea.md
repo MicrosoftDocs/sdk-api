@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHCreateStreamOnFileA
 title: SHCreateStreamOnFileA function (shlwapi.h)
-description: SHCreateStreamOnFile may be altered or unavailable. Instead, use SHCreateStreamOnFileEx.helpviewer_keywords: ["SHCreateStreamOnFile","SHCreateStreamOnFile function [Windows Shell]","SHCreateStreamOnFileA","SHCreateStreamOnFileW","_win32_SHCreateStreamOnFile","shell.SHCreateStreamOnFile","shlwapi/SHCreateStreamOnFile","shlwapi/SHCreateStreamOnFileA","shlwapi/SHCreateStreamOnFileW"]
+description: SHCreateStreamOnFile may be altered or unavailable. Instead, use SHCreateStreamOnFileEx.
+helpviewer_keywords: ["SHCreateStreamOnFile","SHCreateStreamOnFile function [Windows Shell]","SHCreateStreamOnFileA","SHCreateStreamOnFileW","_win32_SHCreateStreamOnFile","shell.SHCreateStreamOnFile","shlwapi/SHCreateStreamOnFile","shlwapi/SHCreateStreamOnFileA","shlwapi/SHCreateStreamOnFileW"]
 old-location: shell\SHCreateStreamOnFile.htm
 tech.root: shell
 ms.assetid: 9b1fd6c4-d7b0-40b9-bc9f-ea062a1079c1
@@ -105,4 +106,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 <a href="https://docs.microsoft.com/windows/desktop/api/shlwapi/nf-shlwapi-shcreatestreamonfileex">SHCreateStreamOnFileEx</a> fully supports all <a href="https://docs.microsoft.com/windows/desktop/Stg/stgm-constants">STGM</a> modes and allows the caller to specify file attributes if creating a new file.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines SHCreateStreamOnFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

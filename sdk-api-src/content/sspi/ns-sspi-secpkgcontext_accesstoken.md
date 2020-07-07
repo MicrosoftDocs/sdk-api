@@ -1,7 +1,8 @@
 ---
 UID: NS:sspi._SecPkgContext_AccessToken
 title: SecPkgContext_AccessToken (sspi.h)
-description: Returns a handle to the access token for the current security context.helpviewer_keywords: ["*PSecPkgContext_AccessToken","PSecPkgContext_AccessToken","PSecPkgContext_AccessToken structure pointer [Security]","SecPkgContext_AccessToken","SecPkgContext_AccessToken structure [Security]","security.secpkgcontext_accesstoken","sspi/PSecPkgContext_AccessToken","sspi/SecPkgContext_AccessToken"]
+description: Returns a handle to the access token for the current security context.
+helpviewer_keywords: ["*PSecPkgContext_AccessToken","PSecPkgContext_AccessToken","PSecPkgContext_AccessToken structure pointer [Security]","SecPkgContext_AccessToken","SecPkgContext_AccessToken structure [Security]","security.secpkgcontext_accesstoken","sspi/PSecPkgContext_AccessToken","sspi/SecPkgContext_AccessToken"]
 old-location: security\secpkgcontext_accesstoken.htm
 tech.root: SecAuthN
 ms.assetid: 4dc11cbd-7f28-4cb9-aaea-6e5a89ac91f0

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.BackupRead
 title: BackupRead function (winbase.h)
-description: Back up a file or directory, including the security information.helpviewer_keywords: ["BackupRead","BackupRead function [Backup]","_win32_backupread","backup.backupread","base.backupread","winbase/BackupRead"]
+description: Back up a file or directory, including the security information.
+helpviewer_keywords: ["BackupRead","BackupRead function [Backup]","_win32_backupread","backup.backupread","base.backupread","winbase/BackupRead"]
 old-location: backup\backupread.htm
 tech.root: Backup
 ms.assetid: 47d13662-af70-4c76-9fb6-3835e329ae5f

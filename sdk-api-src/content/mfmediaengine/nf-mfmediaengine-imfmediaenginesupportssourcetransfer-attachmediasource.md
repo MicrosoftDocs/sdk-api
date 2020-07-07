@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSupportsSourceTransfer.AttachMediaSource
 title: IMFMediaEngineSupportsSourceTransfer::AttachMediaSource (mfmediaengine.h)
-description: Attaches the media source.helpviewer_keywords: ["AttachMediaSource","AttachMediaSource method [Media Foundation]","AttachMediaSource method [Media Foundation]","IMFMediaEngineSupportsSourceTransfer interface","IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","AttachMediaSource method","IMFMediaEngineSupportsSourceTransfer.AttachMediaSource","IMFMediaEngineSupportsSourceTransfer::AttachMediaSource","mf.imfmediaenginesupportssourcetransfer_attachmediasource","mfmediaengine/IMFMediaEngineSupportsSourceTransfer::AttachMediaSource"]
+description: Attaches the media source.
+helpviewer_keywords: ["AttachMediaSource","AttachMediaSource method [Media Foundation]","AttachMediaSource method [Media Foundation]","IMFMediaEngineSupportsSourceTransfer interface","IMFMediaEngineSupportsSourceTransfer interface [Media Foundation]","AttachMediaSource method","IMFMediaEngineSupportsSourceTransfer.AttachMediaSource","IMFMediaEngineSupportsSourceTransfer::AttachMediaSource","mf.imfmediaenginesupportssourcetransfer_attachmediasource","mfmediaengine/IMFMediaEngineSupportsSourceTransfer::AttachMediaSource"]
 old-location: mf\imfmediaenginesupportssourcetransfer_attachmediasource.htm
 tech.root: medfound
 ms.assetid: db7c17cf-020d-4317-801e-35539e25df49

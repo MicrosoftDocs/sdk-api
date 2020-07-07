@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard2.AddTransitionBetweenKeyframes
 title: IUIAnimationStoryboard2::AddTransitionBetweenKeyframes (uianimation.h)
-description: Adds a transition between two keyframes.helpviewer_keywords: ["AddTransitionBetweenKeyframes","AddTransitionBetweenKeyframes method [Windows Animation]","AddTransitionBetweenKeyframes method [Windows Animation]","IUIAnimationStoryboard2 interface","IUIAnimationStoryboard2 interface [Windows Animation]","AddTransitionBetweenKeyframes method","IUIAnimationStoryboard2.AddTransitionBetweenKeyframes","IUIAnimationStoryboard2::AddTransitionBetweenKeyframes","uianimation.iuianimationstoryboard2_addtransitionbetweenkeyframes","uianimation/IUIAnimationStoryboard2::AddTransitionBetweenKeyframes"]
+description: Adds a transition between two keyframes.
+helpviewer_keywords: ["AddTransitionBetweenKeyframes","AddTransitionBetweenKeyframes method [Windows Animation]","AddTransitionBetweenKeyframes method [Windows Animation]","IUIAnimationStoryboard2 interface","IUIAnimationStoryboard2 interface [Windows Animation]","AddTransitionBetweenKeyframes method","IUIAnimationStoryboard2.AddTransitionBetweenKeyframes","IUIAnimationStoryboard2::AddTransitionBetweenKeyframes","uianimation.iuianimationstoryboard2_addtransitionbetweenkeyframes","uianimation/IUIAnimationStoryboard2::AddTransitionBetweenKeyframes"]
 old-location: uianimation\iuianimationstoryboard2_addtransitionbetweenkeyframes.htm
 tech.root: UIAnimation
 ms.assetid: 55AEA5EA-7D9E-4669-8315-7A6F4428EDF9

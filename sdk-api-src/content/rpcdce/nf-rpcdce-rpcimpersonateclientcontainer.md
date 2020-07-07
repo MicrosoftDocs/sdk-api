@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcImpersonateClientContainer
 title: RpcImpersonateClientContainer function (rpcdce.h)
-description: RpcImpersonateClientContainer may be altered or unavailable.helpviewer_keywords: ["RpcImpersonateClientContainer","RpcImpersonateClientContainer function [RPC]","rpc.rpcimpersonateclientcontainer","rpcdce/RpcImpersonateClientContainer"]
+description: RpcImpersonateClientContainer may be altered or unavailable.
+helpviewer_keywords: ["RpcImpersonateClientContainer","RpcImpersonateClientContainer function [RPC]","rpc.rpcimpersonateclientcontainer","rpcdce/RpcImpersonateClientContainer"]
 old-location: rpc\rpcimpersonateclientcontainer.htm
 tech.root: Rpc
 ms.assetid: C81E71C9-C044-487E-BFD7-859775E877F0

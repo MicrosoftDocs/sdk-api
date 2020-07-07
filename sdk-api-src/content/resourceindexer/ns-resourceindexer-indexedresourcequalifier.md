@@ -1,7 +1,8 @@
 ---
 UID: NS:resourceindexer.__unnamed_struct_0
 title: IndexedResourceQualifier (resourceindexer.h)
-description: Represents the context under which a resource is appropriate.helpviewer_keywords: ["IndexedResourceQualifier","IndexedResourceQualifier structure [Menus and Other Resources]","menurc.indexedresourcequalifier","resourceindexer/IndexedResourceQualifier"]
+description: Represents the context under which a resource is appropriate.
+helpviewer_keywords: ["IndexedResourceQualifier","IndexedResourceQualifier structure [Menus and Other Resources]","menurc.indexedresourcequalifier","resourceindexer/IndexedResourceQualifier"]
 old-location: menurc\indexedresourcequalifier.htm
 tech.root: menurc
 ms.assetid: A6F253AD-0756-4996-AC6C-5B09C55DE22E

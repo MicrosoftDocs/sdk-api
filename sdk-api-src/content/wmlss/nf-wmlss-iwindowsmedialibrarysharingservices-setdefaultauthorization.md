@@ -1,7 +1,8 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.setDefaultAuthorization
 title: IWindowsMediaLibrarySharingServices::setDefaultAuthorization (wmlss.h)
-description: The setDefaultAuthorization method enables or disables access to all users' media libraries by a specified set of devices.helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","setDefaultAuthorization method","IWindowsMediaLibrarySharingServices.setDefaultAuthorization","IWindowsMediaLibrarySharingServices::setDefaultAuthorization","setDefaultAuthorization","setDefaultAuthorization method [Windows Media Library Sharing Services]","setDefaultAuthorization method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSsetDefaultAuthorization","wmlss/IWindowsMediaLibrarySharingServices::setDefaultAuthorization"]
+description: The setDefaultAuthorization method enables or disables access to all users' media libraries by a specified set of devices.
+helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","setDefaultAuthorization method","IWindowsMediaLibrarySharingServices.setDefaultAuthorization","IWindowsMediaLibrarySharingServices::setDefaultAuthorization","setDefaultAuthorization","setDefaultAuthorization method [Windows Media Library Sharing Services]","setDefaultAuthorization method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSsetDefaultAuthorization","wmlss/IWindowsMediaLibrarySharingServices::setDefaultAuthorization"]
 old-location: wmlss\IWMLSSsetDefaultAuthorization.htm
 tech.root: WMLSS
 ms.assetid: 7885f571-6b93-47d8-82ab-d998851f1304

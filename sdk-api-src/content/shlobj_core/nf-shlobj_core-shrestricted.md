@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHRestricted
 title: SHRestricted function (shlobj_core.h)
-description: SHRestricted may be altered or unavailable.helpviewer_keywords: ["SHRestricted","SHRestricted function [Windows Shell]","_win32_SHRestricted","shell.SHRestricted","shlobj_core/SHRestricted"]
+description: SHRestricted may be altered or unavailable.
+helpviewer_keywords: ["SHRestricted","SHRestricted function [Windows Shell]","_win32_SHRestricted","shell.SHRestricted","shlobj_core/SHRestricted"]
 old-location: shell\SHRestricted.htm
 tech.root: shell
 ms.assetid: 94adf343-3879-455a-9770-70460cf383ca

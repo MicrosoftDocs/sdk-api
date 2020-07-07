@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsContainer
 title: IADsContainer (iads.h)
-description: The IADsContainer interface enables an ADSI container object to create, delete, and manage contained ADSI objects. Container objects represent hierarchical directory trees, such as in a file system, and to organize the directory hierarchy.helpviewer_keywords: ["IADsContainer","IADsContainer interface [ADSI]","IADsContainer interface [ADSI]","described","_ds_iadscontainer","adsi.iadscontainer","iads/IADsContainer"]
+description: The IADsContainer interface enables an ADSI container object to create, delete, and manage contained ADSI objects. Container objects represent hierarchical directory trees, such as in a file system, and to organize the directory hierarchy.
+helpviewer_keywords: ["IADsContainer","IADsContainer interface [ADSI]","IADsContainer interface [ADSI]","described","_ds_iadscontainer","adsi.iadscontainer","iads/IADsContainer"]
 old-location: adsi\iadscontainer.htm
 tech.root: adsi
 ms.assetid: 6c1d6c7c-e003-47f9-adfa-4a753fb3e9b2

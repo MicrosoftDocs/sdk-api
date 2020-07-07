@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.SetApplicationViewMinWidth
 title: IApplicationDesignModeSettings2::SetApplicationViewMinWidth (shobjidl_core.h)
-description: Sets the desired minimum width of the application design mode window.helpviewer_keywords: ["AVMW_320","AVMW_500","AVMW_DEFAULT","IApplicationDesignModeSettings2 interface [Windows Shell]","SetApplicationViewMinWidth method","IApplicationDesignModeSettings2.SetApplicationViewMinWidth","IApplicationDesignModeSettings2::SetApplicationViewMinWidth","SetApplicationViewMinWidth","SetApplicationViewMinWidth method [Windows Shell]","SetApplicationViewMinWidth method [Windows Shell]","IApplicationDesignModeSettings2 interface","shell.IApplicationDesignModeSettings2_SetApplicationViewMinWidth","shobjidl_core/IApplicationDesignModeSettings2::SetApplicationViewMinWidth"]
+description: Sets the desired minimum width of the application design mode window.
+helpviewer_keywords: ["AVMW_320","AVMW_500","AVMW_DEFAULT","IApplicationDesignModeSettings2 interface [Windows Shell]","SetApplicationViewMinWidth method","IApplicationDesignModeSettings2.SetApplicationViewMinWidth","IApplicationDesignModeSettings2::SetApplicationViewMinWidth","SetApplicationViewMinWidth","SetApplicationViewMinWidth method [Windows Shell]","SetApplicationViewMinWidth method [Windows Shell]","IApplicationDesignModeSettings2 interface","shell.IApplicationDesignModeSettings2_SetApplicationViewMinWidth","shobjidl_core/IApplicationDesignModeSettings2::SetApplicationViewMinWidth"]
 old-location: shell\IApplicationDesignModeSettings2_SetApplicationViewMinWidth.htm
 tech.root: shell
 ms.assetid: 6132E0B9-E2B9-4768-909A-9D93A3F3A11C

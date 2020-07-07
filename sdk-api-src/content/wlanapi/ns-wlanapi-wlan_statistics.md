@@ -1,7 +1,8 @@
 ---
 UID: NS:wlanapi.WLAN_STATISTICS
 title: WLAN_STATISTICS (wlanapi.h)
-description: Assorted statistics about an interface.helpviewer_keywords: ["*PWLAN_STATISTICS","PWLAN_STATISTICS","PWLAN_STATISTICS structure pointer [NativeWIFI]","WLAN_STATISTICS","WLAN_STATISTICS structure [NativeWIFI]","nwifi.wlan_statistics","wlanapi/PWLAN_STATISTICS","wlanapi/WLAN_STATISTICS"]
+description: Assorted statistics about an interface.
+helpviewer_keywords: ["*PWLAN_STATISTICS","PWLAN_STATISTICS","PWLAN_STATISTICS structure pointer [NativeWIFI]","WLAN_STATISTICS","WLAN_STATISTICS structure [NativeWIFI]","nwifi.wlan_statistics","wlanapi/PWLAN_STATISTICS","wlanapi/WLAN_STATISTICS"]
 old-location: nwifi\wlan_statistics.htm
 tech.root: NativeWiFi
 ms.assetid: d66d89f1-bb12-4c2e-8c7a-a4eba008955d

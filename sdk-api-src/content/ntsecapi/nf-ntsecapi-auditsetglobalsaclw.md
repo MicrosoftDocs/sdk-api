@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.AuditSetGlobalSaclW
 title: AuditSetGlobalSaclW function (ntsecapi.h)
-description: Sets a global system access control list (SACL) that delegates access to the audit messages.helpviewer_keywords: ["AuditSetGlobalSacl","AuditSetGlobalSacl function [Security]","AuditSetGlobalSaclA","AuditSetGlobalSaclW","ntsecapi/AuditSetGlobalSacl","ntsecapi/AuditSetGlobalSaclA","ntsecapi/AuditSetGlobalSaclW","security.auditsetglobalsacl"]
+description: Sets a global system access control list (SACL) that delegates access to the audit messages.
+helpviewer_keywords: ["AuditSetGlobalSacl","AuditSetGlobalSacl function [Security]","AuditSetGlobalSaclA","AuditSetGlobalSaclW","ntsecapi/AuditSetGlobalSacl","ntsecapi/AuditSetGlobalSaclA","ntsecapi/AuditSetGlobalSaclW","security.auditsetglobalsacl"]
 old-location: security\auditsetglobalsacl.htm
 tech.root: SecAuthZ
 ms.assetid: 48A41E3F-DDB0-431F-BCF0-E2452FEA57FA
@@ -122,4 +123,8 @@ One or more parameters are invalid.
 To successfully call this function, the caller must have <b>SeSecurityPrivilege</b>.
 
 
+
+
+> [!NOTE]
+> The ntsecapi.h header defines AuditSetGlobalSacl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

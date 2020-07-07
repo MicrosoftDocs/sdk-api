@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_SERVICE_CONFIG_SSL_SET
 title: HTTP_SERVICE_CONFIG_SSL_SET (http.h)
-description: Used to add a new record to the SSL store or retrieve an existing record from it.helpviewer_keywords: ["*PHTTP_SERVICE_CONFIG_SSL_SET","HTTP_SERVICE_CONFIG_SSL_SET","HTTP_SERVICE_CONFIG_SSL_SET structure [HTTP]","PHTTP_SERVICE_CONFIG_SSL_SET","PHTTP_SERVICE_CONFIG_SSL_SET structure pointer [HTTP]","_http_http_service_config_ssl_set","http.http_service_config_ssl_set","http/HTTP_SERVICE_CONFIG_SSL_SET","http/PHTTP_SERVICE_CONFIG_SSL_SET"]
+description: Used to add a new record to the SSL store or retrieve an existing record from it.
+helpviewer_keywords: ["*PHTTP_SERVICE_CONFIG_SSL_SET","HTTP_SERVICE_CONFIG_SSL_SET","HTTP_SERVICE_CONFIG_SSL_SET structure [HTTP]","PHTTP_SERVICE_CONFIG_SSL_SET","PHTTP_SERVICE_CONFIG_SSL_SET structure pointer [HTTP]","_http_http_service_config_ssl_set","http.http_service_config_ssl_set","http/HTTP_SERVICE_CONFIG_SSL_SET","http/PHTTP_SERVICE_CONFIG_SSL_SET"]
 old-location: http\http_service_config_ssl_set.htm
 tech.root: http
 ms.assetid: 23adda0b-907d-4804-9c12-e549af4f18c4

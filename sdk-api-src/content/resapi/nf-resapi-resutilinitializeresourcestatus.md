@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilInitializeResourceStatus
 title: ResUtilInitializeResourceStatus macro (resapi.h)
-description: Initializes a RESOURCE_STATUS structure.helpviewer_keywords: ["ResUtilInitializeResourceStatus","ResUtilInitializeResourceStatus macro [Failover Cluster]","_wolf_resutilinitializeresourcestatus","mscs.resutilinitializeresourcestatus","resapi/ResUtilInitializeResourceStatus"]
+description: Initializes a RESOURCE_STATUS structure.
+helpviewer_keywords: ["ResUtilInitializeResourceStatus","ResUtilInitializeResourceStatus macro [Failover Cluster]","_wolf_resutilinitializeresourcestatus","mscs.resutilinitializeresourcestatus","resapi/ResUtilInitializeResourceStatus"]
 old-location: mscs\resutilinitializeresourcestatus.htm
 tech.root: MsCS
 ms.assetid: e4a887b0-619d-42e0-a828-6a8c8d8c6f47

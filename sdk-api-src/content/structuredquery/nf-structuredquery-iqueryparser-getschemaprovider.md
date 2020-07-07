@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IQueryParser.GetSchemaProvider
 title: IQueryParser::GetSchemaProvider (structuredquery.h)
-description: Retrieves a schema provider for browsing the currently loaded schema.helpviewer_keywords: ["GetSchemaProvider","GetSchemaProvider method [search]","GetSchemaProvider method [search]","IQueryParser interface","IQueryParser interface [search]","GetSchemaProvider method","IQueryParser.GetSchemaProvider","IQueryParser::GetSchemaProvider","_search_IQueryParser_GetSchemaProvider","search._search_IQueryParser_GetSchemaProvider","structuredquery/IQueryParser::GetSchemaProvider"]
+description: Retrieves a schema provider for browsing the currently loaded schema.
+helpviewer_keywords: ["GetSchemaProvider","GetSchemaProvider method [search]","GetSchemaProvider method [search]","IQueryParser interface","IQueryParser interface [search]","GetSchemaProvider method","IQueryParser.GetSchemaProvider","IQueryParser::GetSchemaProvider","_search_IQueryParser_GetSchemaProvider","search._search_IQueryParser_GetSchemaProvider","structuredquery/IQueryParser::GetSchemaProvider"]
 old-location: search\_search_IQueryParser_GetSchemaProvider.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\iqueryparser\getschemaprovider.htm

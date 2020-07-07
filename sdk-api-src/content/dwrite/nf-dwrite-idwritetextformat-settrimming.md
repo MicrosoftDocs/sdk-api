@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetTrimming
 title: IDWriteTextFormat::SetTrimming (dwrite.h)
-description: Sets trimming options for text overflowing the layout width.helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetTrimming method","IDWriteTextFormat.SetTrimming","IDWriteTextFormat::SetTrimming","SetTrimming","SetTrimming method [Direct Write]","SetTrimming method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetTrimming","dwrite/IDWriteTextFormat::SetTrimming"]
+description: Sets trimming options for text overflowing the layout width.
+helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetTrimming method","IDWriteTextFormat.SetTrimming","IDWriteTextFormat::SetTrimming","SetTrimming","SetTrimming method [Direct Write]","SetTrimming method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetTrimming","dwrite/IDWriteTextFormat::SetTrimming"]
 old-location: directwrite\IDWriteTextFormat_SetTrimming.htm
 tech.root: DirectWrite
 ms.assetid: 737eab93-2761-4a59-81e8-ef827be30325

@@ -1,7 +1,8 @@
 ---
 UID: NF:winsafer.SaferRecordEventLogEntry
 title: SaferRecordEventLogEntry function (winsafer.h)
-description: Saves messages to an event log.helpviewer_keywords: ["SaferRecordEventLogEntry","SaferRecordEventLogEntry function [Security]","_mnp_saferrecordeventlogentry","security.saferrecordeventlogentry","winsafer/SaferRecordEventLogEntry"]
+description: Saves messages to an event log.
+helpviewer_keywords: ["SaferRecordEventLogEntry","SaferRecordEventLogEntry function [Security]","_mnp_saferrecordeventlogentry","security.saferrecordeventlogentry","winsafer/SaferRecordEventLogEntry"]
 old-location: security\saferrecordeventlogentry.htm
 tech.root: SecMgmt
 ms.assetid: 7eb48f80-3a57-46ec-aca1-6ff8c1c514c6

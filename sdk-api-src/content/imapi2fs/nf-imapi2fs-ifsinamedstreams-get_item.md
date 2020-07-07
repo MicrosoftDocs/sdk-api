@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFsiNamedStreams.get_Item
 title: IFsiNamedStreams::get_Item (imapi2fs.h)
-description: Retrieves a single named stream associated with a file in the file system image.helpviewer_keywords: ["IFsiNamedStreams interface [IMAPI]","get_Item method","IFsiNamedStreams.get_Item","IFsiNamedStreams::get_Item","get_Item","get_Item method [IMAPI]","get_Item method [IMAPI]","IFsiNamedStreams interface","imapi.ifsinamedstreams_get_item","imapi2fs/IFsiNamedStreams::get_Item"]
+description: Retrieves a single named stream associated with a file in the file system image.
+helpviewer_keywords: ["IFsiNamedStreams interface [IMAPI]","get_Item method","IFsiNamedStreams.get_Item","IFsiNamedStreams::get_Item","get_Item","get_Item method [IMAPI]","get_Item method [IMAPI]","IFsiNamedStreams interface","imapi.ifsinamedstreams_get_item","imapi2fs/IFsiNamedStreams::get_Item"]
 old-location: imapi\ifsinamedstreams_get_item.htm
 tech.root: imapi
 ms.assetid: e5ab97cc-cc5a-4fc5-b79a-f1e0a8647c77

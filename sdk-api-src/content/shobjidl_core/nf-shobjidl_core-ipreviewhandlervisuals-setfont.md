@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandlerVisuals.SetFont
 title: IPreviewHandlerVisuals::SetFont (shobjidl_core.h)
-description: Sets the font attributes to be used for text within the preview handler.helpviewer_keywords: ["IPreviewHandlerVisuals interface [Windows Shell]","SetFont method","IPreviewHandlerVisuals.SetFont","IPreviewHandlerVisuals::SetFont","SetFont","SetFont method [Windows Shell]","SetFont method [Windows Shell]","IPreviewHandlerVisuals interface","_shell_IPreviewHandlerVisuals_SetFont","shell.IPreviewHandlerVisuals_SetFont","shobjidl_core/IPreviewHandlerVisuals::SetFont"]
+description: Sets the font attributes to be used for text within the preview handler.
+helpviewer_keywords: ["IPreviewHandlerVisuals interface [Windows Shell]","SetFont method","IPreviewHandlerVisuals.SetFont","IPreviewHandlerVisuals::SetFont","SetFont","SetFont method [Windows Shell]","SetFont method [Windows Shell]","IPreviewHandlerVisuals interface","_shell_IPreviewHandlerVisuals_SetFont","shell.IPreviewHandlerVisuals_SetFont","shobjidl_core/IPreviewHandlerVisuals::SetFont"]
 old-location: shell\IPreviewHandlerVisuals_SetFont.htm
 tech.root: shell
 ms.assetid: f329e2ad-ec79-4542-b7ef-ff38bda6e8cc

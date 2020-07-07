@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.AddConfiguration
 title: IDirectManipulationViewport::AddConfiguration (directmanipulation.h)
-description: Adds an interaction configuration for the viewport.helpviewer_keywords: ["AddConfiguration","AddConfiguration method [Direct Manipulation]","AddConfiguration method [Direct Manipulation]","IDirectManipulationViewport interface","IDirectManipulationViewport interface [Direct Manipulation]","AddConfiguration method","IDirectManipulationViewport.AddConfiguration","IDirectManipulationViewport::AddConfiguration","directmanipulation.idirectmanipulationviewport_addconfiguration","directmanipulation/IDirectManipulationViewport::AddConfiguration"]
+description: Adds an interaction configuration for the viewport.
+helpviewer_keywords: ["AddConfiguration","AddConfiguration method [Direct Manipulation]","AddConfiguration method [Direct Manipulation]","IDirectManipulationViewport interface","IDirectManipulationViewport interface [Direct Manipulation]","AddConfiguration method","IDirectManipulationViewport.AddConfiguration","IDirectManipulationViewport::AddConfiguration","directmanipulation.idirectmanipulationviewport_addconfiguration","directmanipulation/IDirectManipulationViewport::AddConfiguration"]
 old-location: directmanipulation\idirectmanipulationviewport_addconfiguration.htm
 tech.root: directmanipulation
 ms.assetid: 908f67ef-3606-4636-88aa-4e95d80a9c7a

@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwRemoteAdminSettings.get_IpVersion
 title: INetFwRemoteAdminSettings::get_IpVersion (netfw.h)
-description: Specifies the IP version.helpviewer_keywords: ["INetFwRemoteAdminSettings interface [ICS/ICF]","IpVersion property","INetFwRemoteAdminSettings.IpVersion","INetFwRemoteAdminSettings.get_IpVersion","INetFwRemoteAdminSettings::IpVersion","INetFwRemoteAdminSettings::get_IpVersion","INetFwRemoteAdminSettings::put_IpVersion","IpVersion property [ICS/ICF]","IpVersion property [ICS/ICF]","INetFwRemoteAdminSettings interface","get_IpVersion","ics.inetfwremoteadminsettings_ipversion","netfw/INetFwRemoteAdminSettings::IpVersion","netfw/INetFwRemoteAdminSettings::get_IpVersion","netfw/INetFwRemoteAdminSettings::put_IpVersion"]
+description: Specifies the IP version.
+helpviewer_keywords: ["INetFwRemoteAdminSettings interface [ICS/ICF]","IpVersion property","INetFwRemoteAdminSettings.IpVersion","INetFwRemoteAdminSettings.get_IpVersion","INetFwRemoteAdminSettings::IpVersion","INetFwRemoteAdminSettings::get_IpVersion","INetFwRemoteAdminSettings::put_IpVersion","IpVersion property [ICS/ICF]","IpVersion property [ICS/ICF]","INetFwRemoteAdminSettings interface","get_IpVersion","ics.inetfwremoteadminsettings_ipversion","netfw/INetFwRemoteAdminSettings::IpVersion","netfw/INetFwRemoteAdminSettings::get_IpVersion","netfw/INetFwRemoteAdminSettings::put_IpVersion"]
 old-location: ics\inetfwremoteadminsettings_ipversion.htm
 tech.root: ics
 ms.assetid: 55303549-84d7-42d1-b722-a281acd50648

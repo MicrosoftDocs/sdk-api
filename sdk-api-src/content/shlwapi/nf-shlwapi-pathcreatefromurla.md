@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathCreateFromUrlA
 title: PathCreateFromUrlA function (shlwapi.h)
-description: Converts a file URL to a Microsoft MS-DOS path.helpviewer_keywords: ["PathCreateFromUrl","PathCreateFromUrl function [Windows Shell]","PathCreateFromUrlA","PathCreateFromUrlW","_win32_PathCreateFromUrl","shell.PathCreateFromUrl","shlwapi/PathCreateFromUrl","shlwapi/PathCreateFromUrlA","shlwapi/PathCreateFromUrlW"]
+description: Converts a file URL to a Microsoft MS-DOS path.
+helpviewer_keywords: ["PathCreateFromUrl","PathCreateFromUrl function [Windows Shell]","PathCreateFromUrlA","PathCreateFromUrlW","_win32_PathCreateFromUrl","shell.PathCreateFromUrl","shlwapi/PathCreateFromUrl","shlwapi/PathCreateFromUrlA","shlwapi/PathCreateFromUrlW"]
 old-location: shell\PathCreateFromUrl.htm
 tech.root: shell
 ms.assetid: f4136c80-a309-4551-be73-f2f24ecd4675
@@ -100,4 +101,9 @@ Type: <b>HRESULT</b>
 If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10n">S_OK</b>. Otherwise, it returns an <b xmlns:loc="http://microsoft.com/wdcml/l10n">HRESULT</b> error code.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines PathCreateFromUrl as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

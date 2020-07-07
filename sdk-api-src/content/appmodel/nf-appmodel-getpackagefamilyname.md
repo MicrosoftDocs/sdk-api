@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.GetPackageFamilyName
 title: GetPackageFamilyName function (appmodel.h)
-description: Gets the package family name for the specified process.helpviewer_keywords: ["GetPackageFamilyName","GetPackageFamilyName function [App packaging and management]","appmodel/GetPackageFamilyName","appxpkg.getpackagefamilyname"]
+description: Gets the package family name for the specified process.
+helpviewer_keywords: ["GetPackageFamilyName","GetPackageFamilyName function [App packaging and management]","appmodel/GetPackageFamilyName","appxpkg.getpackagefamilyname"]
 old-location: appxpkg\getpackagefamilyname.htm
 tech.root: appxpkg
 ms.assetid: AC239898-9924-4193-9072-7A7EEC2D03E9

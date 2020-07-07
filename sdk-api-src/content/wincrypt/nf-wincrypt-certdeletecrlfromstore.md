@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertDeleteCRLFromStore
 title: CertDeleteCRLFromStore function (wincrypt.h)
-description: The CertDeleteCRLFromStore function deletes the specified certificate revocation list (CRL) context from the certificate store.helpviewer_keywords: ["CertDeleteCRLFromStore","CertDeleteCRLFromStore function [Security]","_crypto2_certdeletecrlfromstore","security.certdeletecrlfromstore","wincrypt/CertDeleteCRLFromStore"]
+description: The CertDeleteCRLFromStore function deletes the specified certificate revocation list (CRL) context from the certificate store.
+helpviewer_keywords: ["CertDeleteCRLFromStore","CertDeleteCRLFromStore function [Security]","_crypto2_certdeletecrlfromstore","security.certdeletecrlfromstore","wincrypt/CertDeleteCRLFromStore"]
 old-location: security\certdeletecrlfromstore.htm
 tech.root: SecCrypto
 ms.assetid: eb542c25-8d2b-4427-8f2a-719b472613a5

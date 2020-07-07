@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Inverted
 title: IInkCursor::get_Inverted (msinkaut.h)
-description: Gets a value that indicates whether the cursor is the inverted end of the pen.helpviewer_keywords: ["83cc33ba-0887-4f04-8eaf-325fcf90b8fe","IInkCursor interface [Tablet PC]","Inverted property","IInkCursor.Inverted","IInkCursor.get_Inverted","IInkCursor::Inverted","IInkCursor::get_Inverted","Inverted property [Tablet PC]","Inverted property [Tablet PC]","IInkCursor interface","get_Inverted","msinkaut/IInkCursor::Inverted","msinkaut/IInkCursor::get_Inverted","tablet.iinkcursor_inverted"]
+description: Gets a value that indicates whether the cursor is the inverted end of the pen.
+helpviewer_keywords: ["83cc33ba-0887-4f04-8eaf-325fcf90b8fe","IInkCursor interface [Tablet PC]","Inverted property","IInkCursor.Inverted","IInkCursor.get_Inverted","IInkCursor::Inverted","IInkCursor::get_Inverted","Inverted property [Tablet PC]","Inverted property [Tablet PC]","IInkCursor interface","get_Inverted","msinkaut/IInkCursor::Inverted","msinkaut/IInkCursor::get_Inverted","tablet.iinkcursor_inverted"]
 old-location: tablet\iinkcursor_inverted.htm
 tech.root: tablet
 ms.assetid: 83cc33ba-0887-4f04-8eaf-325fcf90b8fe

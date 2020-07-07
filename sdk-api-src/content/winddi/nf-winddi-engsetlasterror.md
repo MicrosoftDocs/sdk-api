@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngSetLastError
 title: EngSetLastError function (winddi.h)
-description: The EngSetLastError function causes GDI to report an error code, which can be retrieved by an application.helpviewer_keywords: ["EngSetLastError","EngSetLastError function [Display Devices]","display.engsetlasterror","gdifncs_696ff78e-c48b-4727-b2dd-d1b2e06ea90f.xml","winddi/EngSetLastError"]
+description: The EngSetLastError function causes GDI to report an error code, which can be retrieved by an application.
+helpviewer_keywords: ["EngSetLastError","EngSetLastError function [Display Devices]","display.engsetlasterror","gdifncs_696ff78e-c48b-4727-b2dd-d1b2e06ea90f.xml","winddi/EngSetLastError"]
 old-location: display\engsetlasterror.htm
 tech.root: display
 ms.assetid: 8887eed8-c60d-4217-92bf-f770be071c49

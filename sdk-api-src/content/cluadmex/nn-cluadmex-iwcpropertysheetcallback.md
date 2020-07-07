@@ -1,7 +1,8 @@
 ---
 UID: NN:cluadmex.IWCPropertySheetCallback
 title: IWCPropertySheetCallback (cluadmex.h)
-description: The IWCPropertySheetCallback interface is called by a Failover Cluster Administrator extension to add property pages to a Failover Cluster Administrator property sheet.helpviewer_keywords: ["IWCPropertySheetCallback","IWCPropertySheetCallback interface [Failover Cluster]","IWCPropertySheetCallback interface [Failover Cluster]","described","_wolf_iwcpropertysheetcallback","cluadmex/IWCPropertySheetCallback","mscs.iwcpropertysheetcallback"]
+description: The IWCPropertySheetCallback interface is called by a Failover Cluster Administrator extension to add property pages to a Failover Cluster Administrator property sheet.
+helpviewer_keywords: ["IWCPropertySheetCallback","IWCPropertySheetCallback interface [Failover Cluster]","IWCPropertySheetCallback interface [Failover Cluster]","described","_wolf_iwcpropertysheetcallback","cluadmex/IWCPropertySheetCallback","mscs.iwcpropertysheetcallback"]
 old-location: mscs\iwcpropertysheetcallback.htm
 tech.root: MsCS
 ms.assetid: f90f9eb3-5568-4db1-8ff8-fda2d3bea952

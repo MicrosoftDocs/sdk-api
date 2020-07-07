@@ -1,7 +1,8 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetDeviceSignature
 title: IDot11AdHocInterface::GetDeviceSignature (adhoc.h)
-description: Gets the signature of the NIC.helpviewer_keywords: ["GetDeviceSignature","GetDeviceSignature method [NativeWIFI]","GetDeviceSignature method [NativeWIFI]","IDot11AdHocInterface interface","IDot11AdHocInterface interface [NativeWIFI]","GetDeviceSignature method","IDot11AdHocInterface.GetDeviceSignature","IDot11AdHocInterface::GetDeviceSignature","adhoc/IDot11AdHocInterface::GetDeviceSignature","nwifi.idot11adhocinterface_getdevicesignature"]
+description: Gets the signature of the NIC.
+helpviewer_keywords: ["GetDeviceSignature","GetDeviceSignature method [NativeWIFI]","GetDeviceSignature method [NativeWIFI]","IDot11AdHocInterface interface","IDot11AdHocInterface interface [NativeWIFI]","GetDeviceSignature method","IDot11AdHocInterface.GetDeviceSignature","IDot11AdHocInterface::GetDeviceSignature","adhoc/IDot11AdHocInterface::GetDeviceSignature","nwifi.idot11adhocinterface_getdevicesignature"]
 old-location: nwifi\idot11adhocinterface_getdevicesignature.htm
 tech.root: NativeWiFi
 ms.assetid: d65fe0ae-ce7b-4d9e-af5b-d9aaeb909e21

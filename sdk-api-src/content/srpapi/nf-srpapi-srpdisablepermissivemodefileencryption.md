@@ -1,7 +1,8 @@
 ---
 UID: NF:srpapi.SrpDisablePermissiveModeFileEncryption
 title: SrpDisablePermissiveModeFileEncryption function (srpapi.h)
-description: Disables permissive mode for file encryption on the current thread.helpviewer_keywords: ["EDP.srpdisablepermissivemodefileencryption_","SrpDisablePermissiveModeFileEncryption","SrpDisablePermissiveModeFileEncryption","SrpDisablePermissiveModeFileEncryption function","srpapi/SrpDisablePermissiveModeFileEncryption"]
+description: Disables permissive mode for file encryption on the current thread.
+helpviewer_keywords: ["EDP.srpdisablepermissivemodefileencryption_","SrpDisablePermissiveModeFileEncryption","SrpDisablePermissiveModeFileEncryption","SrpDisablePermissiveModeFileEncryption function","srpapi/SrpDisablePermissiveModeFileEncryption"]
 old-location: edp\srpdisablepermissivemodefileencryption_.htm
 tech.root: EDP
 ms.assetid: CB75BAFE-EB2A-43F2-8689-34E798C3B9F5

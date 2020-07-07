@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxPackageReader.GetFootprintFile
 title: IAppxPackageReader::GetFootprintFile (appxpackaging.h)
-description: Retrieves a footprint file from the package.helpviewer_keywords: ["GetFootprintFile","GetFootprintFile method [App packaging and management]","GetFootprintFile method [App packaging and management]","IAppxPackageReader interface","IAppxPackageReader interface [App packaging and management]","GetFootprintFile method","IAppxPackageReader.GetFootprintFile","IAppxPackageReader::GetFootprintFile","appxpackaging/IAppxPackageReader::GetFootprintFile","appxpkg.iappxpackagereader_getfootprintfile"]
+description: Retrieves a footprint file from the package.
+helpviewer_keywords: ["GetFootprintFile","GetFootprintFile method [App packaging and management]","GetFootprintFile method [App packaging and management]","IAppxPackageReader interface","IAppxPackageReader interface [App packaging and management]","GetFootprintFile method","IAppxPackageReader.GetFootprintFile","IAppxPackageReader::GetFootprintFile","appxpackaging/IAppxPackageReader::GetFootprintFile","appxpkg.iappxpackagereader_getfootprintfile"]
 old-location: appxpkg\iappxpackagereader_getfootprintfile.htm
 tech.root: appxpkg
 ms.assetid: 8CCF9135-308F-4BDC-A67F-1E3ED2ACF565

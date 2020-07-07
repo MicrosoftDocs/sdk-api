@@ -1,7 +1,8 @@
 ---
 UID: NF:uiribbon.IUIEventLogger.OnUIEvent
 title: IUIEventLogger::OnUIEvent (uiribbon.h)
-description: Receives notifications that a ribbon event has occurred.helpviewer_keywords: ["IUIEventLogger interface [Windows Ribbon]","OnUIEvent method","IUIEventLogger.OnUIEvent","IUIEventLogger::OnUIEvent","OnUIEvent","OnUIEvent method [Windows Ribbon]","OnUIEvent method [Windows Ribbon]","IUIEventLogger interface","uiribbon/IUIEventLogger::OnUIEvent","windowsribbon.onuievent"]
+description: Receives notifications that a ribbon event has occurred.
+helpviewer_keywords: ["IUIEventLogger interface [Windows Ribbon]","OnUIEvent method","IUIEventLogger.OnUIEvent","IUIEventLogger::OnUIEvent","OnUIEvent","OnUIEvent method [Windows Ribbon]","OnUIEvent method [Windows Ribbon]","IUIEventLogger interface","uiribbon/IUIEventLogger::OnUIEvent","windowsribbon.onuievent"]
 old-location: windowsribbon\onuievent.htm
 tech.root: windowsribbon
 ms.assetid: 1BE6F914-C57D-4A8F-A286-C47BFD48B310

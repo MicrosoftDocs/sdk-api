@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateAttributes
 title: MFCreateAttributes function (mfapi.h)
-description: Creates an empty attribute store.helpviewer_keywords: ["MFCreateAttributes","MFCreateAttributes function [Media Foundation]","a79b1edd-5ca1-4550-a6ce-58073155affd","mf.mfcreateattributes","mfapi/MFCreateAttributes"]
+description: Creates an empty attribute store.
+helpviewer_keywords: ["MFCreateAttributes","MFCreateAttributes function [Media Foundation]","a79b1edd-5ca1-4550-a6ce-58073155affd","mf.mfcreateattributes","mfapi/MFCreateAttributes"]
 old-location: mf\mfcreateattributes.htm
 tech.root: medfound
 ms.assetid: a79b1edd-5ca1-4550-a6ce-58073155affd

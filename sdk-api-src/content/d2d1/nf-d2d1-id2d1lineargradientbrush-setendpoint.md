@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1LinearGradientBrush.SetEndPoint
 title: ID2D1LinearGradientBrush::SetEndPoint (d2d1.h)
-description: Sets the ending coordinates of the linear gradient in the brush's coordinate space.helpviewer_keywords: ["ID2D1LinearGradientBrush interface [Direct2D]","SetEndPoint method","ID2D1LinearGradientBrush.SetEndPoint","ID2D1LinearGradientBrush::SetEndPoint","SetEndPoint","SetEndPoint method [Direct2D]","SetEndPoint method [Direct2D]","ID2D1LinearGradientBrush interface","d2d1/ID2D1LinearGradientBrush::SetEndPoint","direct2d.ID2D1LinearGradientBrush_SetEndPoint"]
+description: Sets the ending coordinates of the linear gradient in the brush's coordinate space.
+helpviewer_keywords: ["ID2D1LinearGradientBrush interface [Direct2D]","SetEndPoint method","ID2D1LinearGradientBrush.SetEndPoint","ID2D1LinearGradientBrush::SetEndPoint","SetEndPoint","SetEndPoint method [Direct2D]","SetEndPoint method [Direct2D]","ID2D1LinearGradientBrush interface","d2d1/ID2D1LinearGradientBrush::SetEndPoint","direct2d.ID2D1LinearGradientBrush_SetEndPoint"]
 old-location: direct2d\ID2D1LinearGradientBrush_SetEndPoint.htm
 tech.root: Direct2D
 ms.assetid: b4d64f42-6038-442e-8666-0555a3e4ed75
@@ -59,7 +60,7 @@ Sets the ending coordinates of the linear gradient in the brush's coordinate spa
 
 ### -param endPoint
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The ending two-dimensional coordinates of the linear gradient, in the brush's coordinate space.
 
@@ -78,7 +79,7 @@ The start point and end point are described in the brush's space and are mapped 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1lineargradientbrush">ID2D1LinearGradientBrush</a>
  
 
  

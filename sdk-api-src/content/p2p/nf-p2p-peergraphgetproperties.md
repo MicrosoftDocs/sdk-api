@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphGetProperties
 title: PeerGraphGetProperties function (p2p.h)
-description: The PeerGraphGetProperties function retrieves the current peer graph properties.helpviewer_keywords: ["PeerGraphGetProperties","PeerGraphGetProperties function [Peer Networking]","p2p.peergraphgetproperties","p2p/PeerGraphGetProperties"]
+description: The PeerGraphGetProperties function retrieves the current peer graph properties.
+helpviewer_keywords: ["PeerGraphGetProperties","PeerGraphGetProperties function [Peer Networking]","p2p.peergraphgetproperties","p2p/PeerGraphGetProperties"]
 old-location: p2p\peergraphgetproperties.htm
 tech.root: P2PSdk
 ms.assetid: f62fadf8-8cc2-4597-93b0-e076258ccd6a

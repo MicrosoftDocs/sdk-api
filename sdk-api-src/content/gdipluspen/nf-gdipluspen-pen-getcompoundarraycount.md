@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.GetCompoundArrayCount
 title: Pen::GetCompoundArrayCount (gdipluspen.h)
-description: The Pen::GetCompoundArrayCount method gets the number of elements in a compound array.helpviewer_keywords: ["GetCompoundArrayCount","GetCompoundArrayCount method [GDI+]","GetCompoundArrayCount method [GDI+]","Pen class","Pen class [GDI+]","GetCompoundArrayCount method","Pen.GetCompoundArrayCount","Pen::GetCompoundArrayCount","_gdiplus_CLASS_Pen_GetCompoundArrayCount_","gdiplus._gdiplus_CLASS_Pen_GetCompoundArrayCount_"]
+description: The Pen::GetCompoundArrayCount method gets the number of elements in a compound array.
+helpviewer_keywords: ["GetCompoundArrayCount","GetCompoundArrayCount method [GDI+]","GetCompoundArrayCount method [GDI+]","Pen class","Pen class [GDI+]","GetCompoundArrayCount method","Pen.GetCompoundArrayCount","Pen::GetCompoundArrayCount","_gdiplus_CLASS_Pen_GetCompoundArrayCount_","gdiplus._gdiplus_CLASS_Pen_GetCompoundArrayCount_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetCompoundArrayCount_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getcompoundarraycount.htm

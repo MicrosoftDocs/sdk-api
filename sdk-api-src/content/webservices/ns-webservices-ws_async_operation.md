@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_ASYNC_OPERATION
 title: WS_ASYNC_OPERATION (webservices.h)
-description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations.helpviewer_keywords: ["WS_ASYNC_OPERATION","WS_ASYNC_OPERATION structure [Web Services for Windows]","webservices/WS_ASYNC_OPERATION","wsw.ws_async_operation"]
+description: Used with the WsAsyncExecute to specify the next function to invoke in a series of async operations.
+helpviewer_keywords: ["WS_ASYNC_OPERATION","WS_ASYNC_OPERATION structure [Web Services for Windows]","webservices/WS_ASYNC_OPERATION","wsw.ws_async_operation"]
 old-location: wsw\ws_async_operation.htm
 tech.root: wsw
 ms.assetid: 7a6311f0-4beb-4827-b754-68ef4bde093c

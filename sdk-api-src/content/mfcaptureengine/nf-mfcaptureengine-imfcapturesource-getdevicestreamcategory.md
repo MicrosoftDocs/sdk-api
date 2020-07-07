@@ -1,7 +1,8 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureSource.GetDeviceStreamCategory
 title: IMFCaptureSource::GetDeviceStreamCategory (mfcaptureengine.h)
-description: Gets the stream category for the specified source stream index.helpviewer_keywords: ["GetDeviceStreamCategory","GetDeviceStreamCategory method [Media Foundation]","GetDeviceStreamCategory method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","GetDeviceStreamCategory method","IMFCaptureSource.GetDeviceStreamCategory","IMFCaptureSource::GetDeviceStreamCategory","mf.imfcapturesource_getdevicestreamcategory","mfcaptureengine/IMFCaptureSource::GetDeviceStreamCategory"]
+description: Gets the stream category for the specified source stream index.
+helpviewer_keywords: ["GetDeviceStreamCategory","GetDeviceStreamCategory method [Media Foundation]","GetDeviceStreamCategory method [Media Foundation]","IMFCaptureSource interface","IMFCaptureSource interface [Media Foundation]","GetDeviceStreamCategory method","IMFCaptureSource.GetDeviceStreamCategory","IMFCaptureSource::GetDeviceStreamCategory","mf.imfcapturesource_getdevicestreamcategory","mfcaptureengine/IMFCaptureSource::GetDeviceStreamCategory"]
 old-location: mf\imfcapturesource_getdevicestreamcategory.htm
 tech.root: medfound
 ms.assetid: f3caa002-8676-44d3-9696-da5b0db09d9e

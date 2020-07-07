@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_OperationOptions_DisableChannel
 title: MI_OperationOptions_DisableChannel function (mi.h)
-description: Uses MI_Context_WriteMessage to disable logging to the specified channel.helpviewer_keywords: ["MI_OperationOptions_DisableChannel","MI_OperationOptions_DisableChannel function [Windows Management Infrastructure (MI)]","MI_WRITEMESSAGE_CHANNEL_DEBUG","MI_WRITEMESSAGE_CHANNEL_VERBOSE","MI_WRITEMESSAGE_CHANNEL_WARNING","mi/MI_OperationOptions_DisableChannel","wmi_v2.mi_operationoptions_disablechannel"]
+description: Uses MI_Context_WriteMessage to disable logging to the specified channel.
+helpviewer_keywords: ["MI_OperationOptions_DisableChannel","MI_OperationOptions_DisableChannel function [Windows Management Infrastructure (MI)]","MI_WRITEMESSAGE_CHANNEL_DEBUG","MI_WRITEMESSAGE_CHANNEL_VERBOSE","MI_WRITEMESSAGE_CHANNEL_WARNING","mi/MI_OperationOptions_DisableChannel","wmi_v2.mi_operationoptions_disablechannel"]
 old-location: wmi_v2\mi_operationoptions_disablechannel.htm
 tech.root: wmi_v2
 ms.assetid: fed7893b-16cb-4c51-a8dc-68440f358712

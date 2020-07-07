@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_0
 title: RsvpObjHdr (lpmapi.h)
-description: The RsvpObjHdr structure provides an object header for an RSVP message.helpviewer_keywords: ["RsvpObjHdr","RsvpObjHdr structure [QOS]","lpmapi/RsvpObjHdr","qos.rsvpobjhdr"]
+description: The RsvpObjHdr structure provides an object header for an RSVP message.
+helpviewer_keywords: ["RsvpObjHdr","RsvpObjHdr structure [QOS]","lpmapi/RsvpObjHdr","qos.rsvpobjhdr"]
 old-location: qos\rsvpobjhdr.htm
 tech.root: QOS
 ms.assetid: 90a237c0-0e62-4f27-927a-e3f3c1ac629e

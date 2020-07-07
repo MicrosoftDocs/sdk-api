@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsReadQualifiedName
 title: WsReadQualifiedName function (webservices.h)
-description: Reads a qualified name and separates it into its prefix, localName and namespace based on the current namespace scope of the XML_READER.helpviewer_keywords: ["WsReadQualifiedName","WsReadQualifiedName function [Web Services for Windows]","webservices/WsReadQualifiedName","wsw.wsreadqualifiedname"]
+description: Reads a qualified name and separates it into its prefix, localName and namespace based on the current namespace scope of the XML_READER.
+helpviewer_keywords: ["WsReadQualifiedName","WsReadQualifiedName function [Web Services for Windows]","webservices/WsReadQualifiedName","wsw.wsreadqualifiedname"]
 old-location: wsw\wsreadqualifiedname.htm
 tech.root: wsw
 ms.assetid: bc49fb89-72ba-435a-ac50-303f16d36da2

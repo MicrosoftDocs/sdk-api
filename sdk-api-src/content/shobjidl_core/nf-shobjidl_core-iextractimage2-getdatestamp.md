@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExtractImage2.GetDateStamp
 title: IExtractImage2::GetDateStamp (shobjidl_core.h)
-description: Requests the date the image was last modified. This method allows the Shell to determine whether cached images are out-of-date.helpviewer_keywords: ["GetDateStamp","GetDateStamp method [Windows Shell]","GetDateStamp method [Windows Shell]","IExtractImage2 interface","IExtractImage2 interface [Windows Shell]","GetDateStamp method","IExtractImage2.GetDateStamp","IExtractImage2::GetDateStamp","_win32_IExtractImage2_GetDateStamp","shell.IExtractImage2_GetDateStamp","shobjidl_core/IExtractImage2::GetDateStamp"]
+description: Requests the date the image was last modified. This method allows the Shell to determine whether cached images are out-of-date.
+helpviewer_keywords: ["GetDateStamp","GetDateStamp method [Windows Shell]","GetDateStamp method [Windows Shell]","IExtractImage2 interface","IExtractImage2 interface [Windows Shell]","GetDateStamp method","IExtractImage2.GetDateStamp","IExtractImage2::GetDateStamp","_win32_IExtractImage2_GetDateStamp","shell.IExtractImage2_GetDateStamp","shobjidl_core/IExtractImage2::GetDateStamp"]
 old-location: shell\IExtractImage2_GetDateStamp.htm
 tech.root: shell
 ms.assetid: dca5fe16-bf83-4426-af2a-9a205f4ebd57

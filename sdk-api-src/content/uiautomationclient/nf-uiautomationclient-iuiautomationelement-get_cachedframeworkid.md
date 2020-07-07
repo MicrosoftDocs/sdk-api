@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CachedFrameworkId
 title: IUIAutomationElement::get_CachedFrameworkId (uiautomationclient.h)
-description: Retrieves the cached name of the underlying UI framework associated with the element.helpviewer_keywords: ["CachedFrameworkId property [Windows Accessibility]","CachedFrameworkId property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedFrameworkId property","IUIAutomationElement.CachedFrameworkId","IUIAutomationElement.get_CachedFrameworkId","IUIAutomationElement::CachedFrameworkId","IUIAutomationElement::get_CachedFrameworkId","get_CachedFrameworkId","uiauto.uiauto_IUIAutomationElement_CachedFrameworkId","uiauto_IUIAutomationElement_CachedFrameworkId","uiautomationclient/IUIAutomationElement::CachedFrameworkId","uiautomationclient/IUIAutomationElement::get_CachedFrameworkId","winauto.uiauto_IUIAutomationElement_CachedFrameworkId"]
+description: Retrieves the cached name of the underlying UI framework associated with the element.
+helpviewer_keywords: ["CachedFrameworkId property [Windows Accessibility]","CachedFrameworkId property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CachedFrameworkId property","IUIAutomationElement.CachedFrameworkId","IUIAutomationElement.get_CachedFrameworkId","IUIAutomationElement::CachedFrameworkId","IUIAutomationElement::get_CachedFrameworkId","get_CachedFrameworkId","uiauto.uiauto_IUIAutomationElement_CachedFrameworkId","uiauto_IUIAutomationElement_CachedFrameworkId","uiautomationclient/IUIAutomationElement::CachedFrameworkId","uiautomationclient/IUIAutomationElement::get_CachedFrameworkId","winauto.uiauto_IUIAutomationElement_CachedFrameworkId"]
 old-location: winauto\uiauto_IUIAutomationElement_CachedFrameworkId.htm
 tech.root: WinAuto
 ms.assetid: da793d93-276b-47ea-a78f-bbdd83f1bc07

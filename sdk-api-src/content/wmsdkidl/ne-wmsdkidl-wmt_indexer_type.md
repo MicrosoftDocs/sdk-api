@@ -1,7 +1,8 @@
 ---
 UID: NE:wmsdkidl.tagWMT_INDEXER_TYPE
 title: WMT_INDEXER_TYPE (wmsdkidl.h)
-description: The WMT_INDEXER_TYPE enumeration type defines the types of indexing supported by the indexer.helpviewer_keywords: ["WMT_INDEXER_TYPE","WMT_INDEXER_TYPE enumeration [windows Media Format]","WMT_IT_FRAME_NUMBERS","WMT_IT_PRESENTATION_TIME","WMT_IT_TIMECODE","wmformat.wmt_indexer_type","wmsdkidl/WMT_INDEXER_TYPE","wmsdkidl/WMT_IT_FRAME_NUMBERS","wmsdkidl/WMT_IT_PRESENTATION_TIME","wmsdkidl/WMT_IT_TIMECODE"]
+description: The WMT_INDEXER_TYPE enumeration type defines the types of indexing supported by the indexer.
+helpviewer_keywords: ["WMT_INDEXER_TYPE","WMT_INDEXER_TYPE enumeration [windows Media Format]","WMT_IT_FRAME_NUMBERS","WMT_IT_PRESENTATION_TIME","WMT_IT_TIMECODE","wmformat.wmt_indexer_type","wmsdkidl/WMT_INDEXER_TYPE","wmsdkidl/WMT_IT_FRAME_NUMBERS","wmsdkidl/WMT_IT_PRESENTATION_TIME","wmsdkidl/WMT_IT_TIMECODE"]
 old-location: wmformat\wmt_indexer_type.htm
 tech.root: wmformat
 ms.assetid: 1b80511c-175f-4d05-8ce6-d048a9e77223

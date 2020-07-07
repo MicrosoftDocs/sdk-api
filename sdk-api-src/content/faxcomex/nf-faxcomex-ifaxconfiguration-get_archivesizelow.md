@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxConfiguration.get_ArchiveSizeLow
 title: IFaxConfiguration::get_ArchiveSizeLow (faxcomex.h)
-description: The value that specifies the low-order 32-bit value (in bytes) for the size of the fax message archive.helpviewer_keywords: ["ArchiveSizeLow property [Fax Service]","ArchiveSizeLow property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","ArchiveSizeLow property","IFaxConfiguration.ArchiveSizeLow","IFaxConfiguration.get_ArchiveSizeLow","IFaxConfiguration::ArchiveSizeLow","IFaxConfiguration::get_ArchiveSizeLow","fax._mfax_ifaxconfiguration_archivesizelow","faxcomex/IFaxConfiguration::ArchiveSizeLow","faxcomex/IFaxConfiguration::get_ArchiveSizeLow","get_ArchiveSizeLow"]
+description: The value that specifies the low-order 32-bit value (in bytes) for the size of the fax message archive.
+helpviewer_keywords: ["ArchiveSizeLow property [Fax Service]","ArchiveSizeLow property [Fax Service]","IFaxConfiguration interface","IFaxConfiguration interface [Fax Service]","ArchiveSizeLow property","IFaxConfiguration.ArchiveSizeLow","IFaxConfiguration.get_ArchiveSizeLow","IFaxConfiguration::ArchiveSizeLow","IFaxConfiguration::get_ArchiveSizeLow","fax._mfax_ifaxconfiguration_archivesizelow","faxcomex/IFaxConfiguration::ArchiveSizeLow","faxcomex/IFaxConfiguration::get_ArchiveSizeLow","get_ArchiveSizeLow"]
 old-location: fax\_mfax_ifaxconfiguration_archivesizelow.htm
 tech.root: Fax
 ms.assetid: e10cde26-deec-47b8-bc69-0b785087ab74

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetSelectorLength
 title: IIsdbDataContentDescriptor::GetSelectorLength (dvbsiparser.h)
-description: Gets the length of the selector part of an Integrated Services Digital Broadcasting (ISDB) data content descriptor, in bytes.helpviewer_keywords: ["GetSelectorLength","GetSelectorLength method [Microsoft TV Technologies]","GetSelectorLength method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetSelectorLength method","IIsdbDataContentDescriptor.GetSelectorLength","IIsdbDataContentDescriptor::GetSelectorLength","dvbsiparser/IIsdbDataContentDescriptor::GetSelectorLength","mstv.iisdbdatacontentdescriptor_getselectorlength"]
+description: Gets the length of the selector part of an Integrated Services Digital Broadcasting (ISDB) data content descriptor, in bytes.
+helpviewer_keywords: ["GetSelectorLength","GetSelectorLength method [Microsoft TV Technologies]","GetSelectorLength method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetSelectorLength method","IIsdbDataContentDescriptor.GetSelectorLength","IIsdbDataContentDescriptor::GetSelectorLength","dvbsiparser/IIsdbDataContentDescriptor::GetSelectorLength","mstv.iisdbdatacontentdescriptor_getselectorlength"]
 old-location: mstv\iisdbdatacontentdescriptor_getselectorlength.htm
 tech.root: mstv
 ms.assetid: 485ac963-e85a-41cc-adcd-93590b327061

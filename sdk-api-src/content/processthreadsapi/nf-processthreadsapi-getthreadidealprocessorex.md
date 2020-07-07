@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.GetThreadIdealProcessorEx
 title: GetThreadIdealProcessorEx function (processthreadsapi.h)
-description: Retrieves the processor number of the ideal processor for the specified thread.helpviewer_keywords: ["GetThreadIdealProcessorEx","GetThreadIdealProcessorEx function","base.getthreadidealprocessorex","processthreadsapi/GetThreadIdealProcessorEx","winbase/GetThreadIdealProcessorEx"]
+description: Retrieves the processor number of the ideal processor for the specified thread.
+helpviewer_keywords: ["GetThreadIdealProcessorEx","GetThreadIdealProcessorEx function","base.getthreadidealprocessorex","processthreadsapi/GetThreadIdealProcessorEx","winbase/GetThreadIdealProcessorEx"]
 old-location: base\getthreadidealprocessorex.htm
 tech.root: ProcThread
 ms.assetid: 4fbe1b85-352f-4576-9056-5ba1b0b85874

@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMSHORT2
 title: XMSHORT2 (directxpackedvector.h)
-description: Describes a 2D vector consisting of 16-bit signed and normalized integer components.helpviewer_keywords: ["XMSHORT2","XMSHORT2 structure [DirectX Math Support APIs]","directxpackedvector/XMSHORT2","dxmath.xmshort2"]
+description: Describes a 2D vector consisting of 16-bit signed and normalized integer components.
+helpviewer_keywords: ["XMSHORT2","XMSHORT2 structure [DirectX Math Support APIs]","directxpackedvector/XMSHORT2","dxmath.xmshort2"]
 old-location: dxmath\xmshort2.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMSHORT2

@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.GetIpInterfaceTable
 title: GetIpInterfaceTable function (netioapi.h)
-description: Retrieves the IP interface entries on the local computer.helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","GetIpInterfaceTable","GetIpInterfaceTable function [IP Helper]","iphlp.getipinterfacetable","netioapi/GetIpInterfaceTable"]
+description: Retrieves the IP interface entries on the local computer.
+helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","GetIpInterfaceTable","GetIpInterfaceTable function [IP Helper]","iphlp.getipinterfacetable","netioapi/GetIpInterfaceTable"]
 old-location: iphlp\getipinterfacetable.htm
 tech.root: IpHlp
 ms.assetid: 09f2bbff-3281-41ae-878f-61c5afa20ec5

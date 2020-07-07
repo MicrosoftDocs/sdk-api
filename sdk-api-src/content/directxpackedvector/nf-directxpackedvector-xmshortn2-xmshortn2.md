@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMSHORTN2.XMSHORTN2
 title: XMSHORTN2::XMSHORTN2 (directxpackedvector.h)
-description: Default constructor for XMSHORTN2.helpviewer_keywords: ["XMSHORTN2","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 structure","XMSHORTN2 structure [DirectX Math Support APIs]","XMSHORTN2 constructor","XMSHORTN2.XMSHORTN2","XMSHORTN2.XMSHORTN2()","XMSHORTN2::XMSHORTN2","dxmath.xmshortn2_ctor_1"]
+description: Default constructor for XMSHORTN2.
+helpviewer_keywords: ["XMSHORTN2","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 structure","XMSHORTN2 structure [DirectX Math Support APIs]","XMSHORTN2 constructor","XMSHORTN2.XMSHORTN2","XMSHORTN2.XMSHORTN2()","XMSHORTN2::XMSHORTN2","dxmath.xmshortn2_ctor_1"]
 old-location: dxmath\xmshortn2_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORTN2.#ctor

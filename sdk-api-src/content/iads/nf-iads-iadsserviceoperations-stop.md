@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsServiceOperations.Stop
 title: IADsServiceOperations::Stop (iads.h)
-description: The IADsServiceOperations::Stop method stops a currently active network service.helpviewer_keywords: ["IADsServiceOperations interface [ADSI]","Stop method","IADsServiceOperations.Stop","IADsServiceOperations::Stop","Stop","Stop method [ADSI]","Stop method [ADSI]","IADsServiceOperations interface","_ds_iadsserviceoperations_stop","adsi.iadsserviceoperations__stop","adsi.iadsserviceoperations_stop","iads/IADsServiceOperations::Stop"]
+description: The IADsServiceOperations::Stop method stops a currently active network service.
+helpviewer_keywords: ["IADsServiceOperations interface [ADSI]","Stop method","IADsServiceOperations.Stop","IADsServiceOperations::Stop","Stop","Stop method [ADSI]","Stop method [ADSI]","IADsServiceOperations interface","_ds_iadsserviceoperations_stop","adsi.iadsserviceoperations__stop","adsi.iadsserviceoperations_stop","iads/IADsServiceOperations::Stop"]
 old-location: adsi\iadsserviceoperations_stop.htm
 tech.root: adsi
 ms.assetid: 5e3b6c3e-0621-4760-8751-15f084b3aaa6

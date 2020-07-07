@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.LongPtrToInt8
 title: LongPtrToInt8 function (intsafe.h)
-description: Converts a value of type LONG_PTR to a value of type INT8.helpviewer_keywords: ["LongPtrToInt8","LongPtrToInt8 function [Windows Shell]","intsafe/LongPtrToInt8","shell.LongPtrToInt8"]
+description: Converts a value of type LONG_PTR to a value of type INT8.
+helpviewer_keywords: ["LongPtrToInt8","LongPtrToInt8 function [Windows Shell]","intsafe/LongPtrToInt8","shell.LongPtrToInt8"]
 old-location: shell\LongPtrToInt8.htm
 tech.root: shell
 ms.assetid: 38ef67b9-362f-4776-9b4c-6ca40e1efe0b

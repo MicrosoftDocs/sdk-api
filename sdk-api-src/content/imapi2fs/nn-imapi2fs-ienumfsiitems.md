@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2fs.IEnumFsiItems
 title: IEnumFsiItems (imapi2fs.h)
-description: Use this interface to enumerate the child directory and file items for a FsiDirectoryItem object.helpviewer_keywords: ["IEnumFsiItems","IEnumFsiItems interface [IMAPI]","IEnumFsiItems interface [IMAPI]","described","imapi.ienumfsiitems","imapi2fs/IEnumFsiItems"]
+description: Use this interface to enumerate the child directory and file items for a FsiDirectoryItem object.
+helpviewer_keywords: ["IEnumFsiItems","IEnumFsiItems interface [IMAPI]","IEnumFsiItems interface [IMAPI]","described","imapi.ienumfsiitems","imapi2fs/IEnumFsiItems"]
 old-location: imapi\ienumfsiitems.htm
 tech.root: imapi
 ms.assetid: f3186af1-4056-4cb5-aac4-5253ee6dbc01

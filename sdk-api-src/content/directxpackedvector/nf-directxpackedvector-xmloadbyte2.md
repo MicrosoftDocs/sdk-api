@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMLoadByte2
 title: XMLoadByte2 function (directxpackedvector.h)
-description: Loads an XMBYTE2 into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMLoadByte2","XMLoadByte2","XMLoadByte2 method [DirectX Math Support APIs]","dxmath.xmloadbyte2"]
+description: Loads an XMBYTE2 into an XMVECTOR.
+helpviewer_keywords: ["DirectX::PackedVector.XMLoadByte2","XMLoadByte2","XMLoadByte2 method [DirectX Math Support APIs]","dxmath.xmloadbyte2"]
 old-location: dxmath\xmloadbyte2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadByte2(const XMBYTE2)

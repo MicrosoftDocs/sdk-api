@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingInqObject
 title: RpcBindingInqObject function (rpcdce.h)
-description: The RpcBindingInqObject function returns the object UUID from a binding handle.helpviewer_keywords: ["RpcBindingInqObject","RpcBindingInqObject function [RPC]","_rpc_rpcbindinginqobject","rpc.rpcbindinginqobject","rpcdce/RpcBindingInqObject"]
+description: The RpcBindingInqObject function returns the object UUID from a binding handle.
+helpviewer_keywords: ["RpcBindingInqObject","RpcBindingInqObject function [RPC]","_rpc_rpcbindinginqobject","rpc.rpcbindinginqobject","rpcdce/RpcBindingInqObject"]
 old-location: rpc\rpcbindinginqobject.htm
 tech.root: Rpc
 ms.assetid: e2d489f9-d976-4dc3-8a91-dfc04f547165

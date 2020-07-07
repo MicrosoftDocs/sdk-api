@@ -1,7 +1,8 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.GetPropertyAttributes
 title: IPortableDeviceProperties::GetPropertyAttributes (portabledeviceapi.h)
-description: The GetPropertyAttributes method retrieves attributes of a specified object property on a device.helpviewer_keywords: ["GetPropertyAttributes","GetPropertyAttributes method [Windows Portable Devices SDK]","GetPropertyAttributes method [Windows Portable Devices SDK]","IPortableDeviceProperties interface","IPortableDeviceProperties interface [Windows Portable Devices SDK]","GetPropertyAttributes method","IPortableDeviceProperties.GetPropertyAttributes","IPortableDeviceProperties::GetPropertyAttributes","IPortableDevicePropertiesGetPropertyAttributes","portabledeviceapi/IPortableDeviceProperties::GetPropertyAttributes","wpdsdk.iportabledeviceproperties_getpropertyattributes"]
+description: The GetPropertyAttributes method retrieves attributes of a specified object property on a device.
+helpviewer_keywords: ["GetPropertyAttributes","GetPropertyAttributes method [Windows Portable Devices SDK]","GetPropertyAttributes method [Windows Portable Devices SDK]","IPortableDeviceProperties interface","IPortableDeviceProperties interface [Windows Portable Devices SDK]","GetPropertyAttributes method","IPortableDeviceProperties.GetPropertyAttributes","IPortableDeviceProperties::GetPropertyAttributes","IPortableDevicePropertiesGetPropertyAttributes","portabledeviceapi/IPortableDeviceProperties::GetPropertyAttributes","wpdsdk.iportabledeviceproperties_getpropertyattributes"]
 old-location: wpdsdk\iportabledeviceproperties_getpropertyattributes.htm
 tech.root: wpd_sdk
 ms.assetid: bb2206ff-e1d4-4bc5-819b-b008a293c43d

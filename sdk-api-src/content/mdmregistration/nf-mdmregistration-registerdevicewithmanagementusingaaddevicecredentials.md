@@ -4,7 +4,8 @@ title: RegisterDeviceWithManagementUsingAADDeviceCredentials
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: Registers a device with a MDM service, using Azure Active Directory (AAD) device credentials.helpviewer_keywords: ["RegisterDeviceWithManagementUsingAADDeviceCredentials"]
+description: Registers a device with a MDM service, using Azure Active Directory (AAD) device credentials.
+helpviewer_keywords: ["RegisterDeviceWithManagementUsingAADDeviceCredentials"]
 tech.root: MDMReg
 req.assembly: 
 req.construct-type: function

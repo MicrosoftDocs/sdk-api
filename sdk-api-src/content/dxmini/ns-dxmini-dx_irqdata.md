@@ -1,7 +1,8 @@
 ---
 UID: NS:dxmini._DX_IRQDATA
 title: DX_IRQDATA (dxmini.h)
-description: The DX_IRQDATA structure contains the IRQ information supplied by the driver.helpviewer_keywords: ["*PDX_IRQDATA","DX_IRQDATA","DX_IRQDATA structure [Display Devices]","PDX_IRQDATA","PDX_IRQDATA structure pointer [Display Devices]","ddstrcts_abf413a4-709e-4458-930c-93f21c368892.xml","display.dx_irqdata","dxmini/DX_IRQDATA","dxmini/PDX_IRQDATA"]
+description: The DX_IRQDATA structure contains the IRQ information supplied by the driver.
+helpviewer_keywords: ["*PDX_IRQDATA","DX_IRQDATA","DX_IRQDATA structure [Display Devices]","PDX_IRQDATA","PDX_IRQDATA structure pointer [Display Devices]","ddstrcts_abf413a4-709e-4458-930c-93f21c368892.xml","display.dx_irqdata","dxmini/DX_IRQDATA","dxmini/PDX_IRQDATA"]
 old-location: display\dx_irqdata.htm
 tech.root: display
 ms.assetid: 258cfaa3-8de2-45d9-b61b-683cf41c127f

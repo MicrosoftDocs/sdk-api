@@ -164,6 +164,25 @@ The routine that opens the handle should enforce all access checks for the objec
 </tr>
 <tr>
 <td>
+OBJ_DONT_REPARSE
+
+</td>
+<td>
+If this flag is set, no reparse points will be followed when parsing the name of the associated object. If any reparses are encountered the attempt will fail and return an <b>STATUS_REPARSE_POINT_ENCOUNTERED</b> result. This can be used to determine if there are any reparse points in the object's path, in security scenarios.
+
+</td>
+</tr>
+<tr>
+<td>
+OBJ_IGNORE_IMPERSONATED_DEVICEMAP
+
+</td>
+<td>
+A device map is a mapping between DOS device names and devices in the system, and is used when resolving DOS names. Separate device maps exists for each user in the system, and users can manage their own device maps. Typically during impersonation, the impersonated user's device map would be used. However, when this flag is set, the process user's device map is used instead.  
+</td>
+</tr>
+<tr>
+<td>
 OBJ_VALID_ATTRIBUTES
 
 </td>
@@ -173,7 +192,6 @@ Reserved.
 </td>
 </tr>
 </table>
-Â 
 
 
 ### -field SecurityDescriptor
@@ -243,9 +261,9 @@ Driver routines that run in a process context other than that of the system proc
 
 
 <a href="https://docs.microsoft.com/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-ntcreatefile">ZwCreateFile</a>
-Â 
+ 
 
-Â 
+ 
 
 
 f1_keywords: 

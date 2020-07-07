@@ -1,7 +1,8 @@
 ---
 UID: NN:oleidl.IOleItemContainer
 title: IOleItemContainer (oleidl.h)
-description: Used by item monikers when they are bound to the objects they identify.helpviewer_keywords: ["IOleItemContainer","IOleItemContainer interface [COM]","IOleItemContainer interface [COM]","described","_com_ioleitemcontainer","com.ioleitemcontainer","oleidl/IOleItemContainer"]
+description: Used by item monikers when they are bound to the objects they identify.
+helpviewer_keywords: ["IOleItemContainer","IOleItemContainer interface [COM]","IOleItemContainer interface [COM]","described","_com_ioleitemcontainer","com.ioleitemcontainer","oleidl/IOleItemContainer"]
 old-location: com\ioleitemcontainer.htm
 tech.root: com
 ms.assetid: fe306a36-da24-4b1e-ab42-359d37962d36

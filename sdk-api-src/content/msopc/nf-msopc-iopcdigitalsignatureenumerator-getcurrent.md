@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureEnumerator.GetCurrent
 title: IOpcDigitalSignatureEnumerator::GetCurrent (msopc.h)
-description: Gets the IOpcDigitalSignature interface pointer at the current position of the enumerator.helpviewer_keywords: ["GetCurrent","GetCurrent method [Open Packaging Conventions]","GetCurrent method [Open Packaging Conventions]","IOpcDigitalSignatureEnumerator interface","IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions]","GetCurrent method","IOpcDigitalSignatureEnumerator.GetCurrent","IOpcDigitalSignatureEnumerator::GetCurrent","msopc/IOpcDigitalSignatureEnumerator::GetCurrent","opc.iopcdigitalsignatureenumerator_getcurrent"]
+description: Gets the IOpcDigitalSignature interface pointer at the current position of the enumerator.
+helpviewer_keywords: ["GetCurrent","GetCurrent method [Open Packaging Conventions]","GetCurrent method [Open Packaging Conventions]","IOpcDigitalSignatureEnumerator interface","IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions]","GetCurrent method","IOpcDigitalSignatureEnumerator.GetCurrent","IOpcDigitalSignatureEnumerator::GetCurrent","msopc/IOpcDigitalSignatureEnumerator::GetCurrent","opc.iopcdigitalsignatureenumerator_getcurrent"]
 old-location: opc\iopcdigitalsignatureenumerator_getcurrent.htm
 tech.root: OPC
 ms.assetid: 2e211822-9fd8-424c-bd0c-c5c81f9abc0b
@@ -187,7 +188,7 @@ A Signature part does not contain the signature markup for exactly one signature
 </dl>
 </td>
 <td width="60%">
-The signature markup in a Signature part does not conform to the schema specified in the <i>OPC</i> or <a href="https://www.w3.org/TR/xmldsig-core/">XML-Signature Syntax and Processing</a> (https://go.microsoft.com/fwlink/p/?linkid=132847).
+The signature markup in a Signature part does not conform to the schema specified in the <i>OPC</i> or <a href="https://www.w3.org/TR/xmldsig-core/">XML-Signature Syntax and Processing</a> (http://www.w3.org/TR/xmldsig-core/).
 
 </td>
 </tr>

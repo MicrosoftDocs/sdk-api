@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.get_ProxyFactoryMapping
 title: IUIAutomation::get_ProxyFactoryMapping (uiautomationclient.h)
-description: Retrieves an object that represents the mapping of Window classnames and associated data to individual proxy factories.helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","ProxyFactoryMapping property","IUIAutomation.ProxyFactoryMapping","IUIAutomation.get_ProxyFactoryMapping","IUIAutomation::ProxyFactoryMapping","IUIAutomation::get_ProxyFactoryMapping","ProxyFactoryMapping property [Windows Accessibility]","ProxyFactoryMapping property [Windows Accessibility]","IUIAutomation interface","get_ProxyFactoryMapping","uiauto.uiauto_IUIAutomation_ProxyFactoryMapping","uiauto_IUIAutomation_ProxyFactoryMapping","uiautomationclient/IUIAutomation::ProxyFactoryMapping","uiautomationclient/IUIAutomation::get_ProxyFactoryMapping","winauto.uiauto_IUIAutomation_ProxyFactoryMapping"]
+description: Retrieves an object that represents the mapping of Window classnames and associated data to individual proxy factories.
+helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","ProxyFactoryMapping property","IUIAutomation.ProxyFactoryMapping","IUIAutomation.get_ProxyFactoryMapping","IUIAutomation::ProxyFactoryMapping","IUIAutomation::get_ProxyFactoryMapping","ProxyFactoryMapping property [Windows Accessibility]","ProxyFactoryMapping property [Windows Accessibility]","IUIAutomation interface","get_ProxyFactoryMapping","uiauto.uiauto_IUIAutomation_ProxyFactoryMapping","uiauto_IUIAutomation_ProxyFactoryMapping","uiautomationclient/IUIAutomation::ProxyFactoryMapping","uiautomationclient/IUIAutomation::get_ProxyFactoryMapping","winauto.uiauto_IUIAutomation_ProxyFactoryMapping"]
 old-location: winauto\uiauto_IUIAutomation_ProxyFactoryMapping.htm
 tech.root: WinAuto
 ms.assetid: cf1aae6e-3f83-4b4e-9e5c-a57db6cfa9ce

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetAbort
 title: Graphics::SetAbort (gdiplusgraphics.h)
-description: Not used in Windows GDI+ versions 1.0 and 1.1.helpviewer_keywords: ["Graphics class [GDI+]","SetAbort method","Graphics.SetAbort","Graphics::SetAbort","SetAbort","SetAbort method [GDI+]","SetAbort method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetAbort_","gdiplus._gdiplus_CLASS_Graphics_SetAbort_"]
+description: Not used in Windows GDI+ versions 1.0 and 1.1.
+helpviewer_keywords: ["Graphics class [GDI+]","SetAbort method","Graphics.SetAbort","Graphics::SetAbort","SetAbort","SetAbort method [GDI+]","SetAbort method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetAbort_","gdiplus._gdiplus_CLASS_Graphics_SetAbort_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetAbort_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawimagemethods\setabort.htm

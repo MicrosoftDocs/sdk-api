@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetRecordComponentTag
 title: IIsdbCAContractInformationDescriptor::GetRecordComponentTag (dvbsiparser.h)
-description: Gets the broadcaster-defined tag that identifies a component record from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.helpviewer_keywords: ["GetRecordComponentTag","GetRecordComponentTag method [Microsoft TV Technologies]","GetRecordComponentTag method [Microsoft TV Technologies]","IIsdbCAContractInformationDescriptor interface","IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies]","GetRecordComponentTag method","IIsdbCAContractInformationDescriptor.GetRecordComponentTag","IIsdbCAContractInformationDescriptor::GetRecordComponentTag","dvbsiparser/IIsdbCAContractInformationDescriptor::GetRecordComponentTag","mstv.iisdbcacontractinformationdescriptor_getrecordcomponenttag"]
+description: Gets the broadcaster-defined tag that identifies a component record from an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
+helpviewer_keywords: ["GetRecordComponentTag","GetRecordComponentTag method [Microsoft TV Technologies]","GetRecordComponentTag method [Microsoft TV Technologies]","IIsdbCAContractInformationDescriptor interface","IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies]","GetRecordComponentTag method","IIsdbCAContractInformationDescriptor.GetRecordComponentTag","IIsdbCAContractInformationDescriptor::GetRecordComponentTag","dvbsiparser/IIsdbCAContractInformationDescriptor::GetRecordComponentTag","mstv.iisdbcacontractinformationdescriptor_getrecordcomponenttag"]
 old-location: mstv\iisdbcacontractinformationdescriptor_getrecordcomponenttag.htm
 tech.root: mstv
 ms.assetid: cd032a24-228a-47e3-97f4-1046b426c587

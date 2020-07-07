@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMStorage4.SetReferences
 title: IWMDMStorage4::SetReferences (mswmdm.h)
-description: The SetReferences method sets the references contained in a storage that has references (such as a playlist or album), overwriting any previously existing references held by the storage.helpviewer_keywords: ["IWMDMStorage4 interface [windows Media Device Manager]","SetReferences method","IWMDMStorage4.SetReferences","IWMDMStorage4::SetReferences","IWMDMStorage4SetReferences","SetReferences","SetReferences method [windows Media Device Manager]","SetReferences method [windows Media Device Manager]","IWMDMStorage4 interface","mswmdm/IWMDMStorage4::SetReferences","wmdm.iwmdmstorage4_setreferences"]
+description: The SetReferences method sets the references contained in a storage that has references (such as a playlist or album), overwriting any previously existing references held by the storage.
+helpviewer_keywords: ["IWMDMStorage4 interface [windows Media Device Manager]","SetReferences method","IWMDMStorage4.SetReferences","IWMDMStorage4::SetReferences","IWMDMStorage4SetReferences","SetReferences","SetReferences method [windows Media Device Manager]","SetReferences method [windows Media Device Manager]","IWMDMStorage4 interface","mswmdm/IWMDMStorage4::SetReferences","wmdm.iwmdmstorage4_setreferences"]
 old-location: wmdm\iwmdmstorage4_setreferences.htm
 tech.root: WMDM
 ms.assetid: f61b8c4e-6ea1-49a3-8b61-c3ea8bfe2714

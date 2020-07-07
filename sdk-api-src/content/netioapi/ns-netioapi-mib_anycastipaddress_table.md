@@ -1,7 +1,8 @@
 ---
 UID: NS:netioapi._MIB_ANYCASTIPADDRESS_TABLE
 title: MIB_ANYCASTIPADDRESS_TABLE (netioapi.h)
-description: Contains a table of anycast IP address entries.helpviewer_keywords: ["*PMIB_ANYCASTIPADDRESS_TABLE","MIB_ANYCASTIPADDRESS_TABLE","MIB_ANYCASTIPADDRESS_TABLE structure [MIB]","PMIB_ANYCASTIPADDRESS_TABLE","PMIB_ANYCASTIPADDRESS_TABLE structure pointer [MIB]","_MIB_ANYCASTIPADDRESS_TABLE","mib.mib_anycastipaddress_table","netioapi/MIB_ANYCASTIPADDRESS_TABLE","netioapi/PMIB_ANYCASTIPADDRESS_TABLE"]
+description: Contains a table of anycast IP address entries.
+helpviewer_keywords: ["*PMIB_ANYCASTIPADDRESS_TABLE","MIB_ANYCASTIPADDRESS_TABLE","MIB_ANYCASTIPADDRESS_TABLE structure [MIB]","PMIB_ANYCASTIPADDRESS_TABLE","PMIB_ANYCASTIPADDRESS_TABLE structure pointer [MIB]","_MIB_ANYCASTIPADDRESS_TABLE","mib.mib_anycastipaddress_table","netioapi/MIB_ANYCASTIPADDRESS_TABLE","netioapi/PMIB_ANYCASTIPADDRESS_TABLE"]
 old-location: mib\mib_anycastipaddress_table.htm
 tech.root: MIB
 ms.assetid: 46b99759-eb9a-4f91-a6b6-40e6e9f55038

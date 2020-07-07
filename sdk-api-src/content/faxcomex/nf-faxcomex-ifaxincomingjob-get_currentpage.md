@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_CurrentPage
 title: IFaxIncomingJob::get_CurrentPage (faxcomex.h)
-description: The CurrentPage property is a number that identifies the page that the fax service is actively receiving on an inbound fax job.helpviewer_keywords: ["CurrentPage property [Fax Service]","CurrentPage property [Fax Service]","IFaxIncomingJob interface","IFaxIncomingJob interface [Fax Service]","CurrentPage property","IFaxIncomingJob.CurrentPage","IFaxIncomingJob.get_CurrentPage","IFaxIncomingJob::CurrentPage","IFaxIncomingJob::get_CurrentPage","_mfax_faxincomingjob.currentpage","fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_currentpage_cpp","fax._mfax_faxincomingjob_currentpage","faxcomex/IFaxIncomingJob::CurrentPage","faxcomex/IFaxIncomingJob::get_CurrentPage","get_CurrentPage"]
+description: The CurrentPage property is a number that identifies the page that the fax service is actively receiving on an inbound fax job.
+helpviewer_keywords: ["CurrentPage property [Fax Service]","CurrentPage property [Fax Service]","IFaxIncomingJob interface","IFaxIncomingJob interface [Fax Service]","CurrentPage property","IFaxIncomingJob.CurrentPage","IFaxIncomingJob.get_CurrentPage","IFaxIncomingJob::CurrentPage","IFaxIncomingJob::get_CurrentPage","_mfax_faxincomingjob.currentpage","fax._mfax_faxincomingjob_cpp_mfax_faxincomingjob_currentpage_cpp","fax._mfax_faxincomingjob_currentpage","faxcomex/IFaxIncomingJob::CurrentPage","faxcomex/IFaxIncomingJob::get_CurrentPage","get_CurrentPage"]
 old-location: fax\_mfax_faxincomingjob_cpp_mfax_faxincomingjob_currentpage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_4zad.htm

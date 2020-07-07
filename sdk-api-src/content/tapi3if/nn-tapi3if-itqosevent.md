@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITQOSEvent
 title: ITQOSEvent (tapi3if.h)
-description: The ITQOSEvent interface contains methods that retrieve the description of quality of service (QOS) events.helpviewer_keywords: ["ITQOSEvent","ITQOSEvent interface [TAPI 2.2]","ITQOSEvent interface [TAPI 2.2]","described","_tapi3_itqosevent","tapi3.itqosevent","tapi3if/ITQOSEvent"]
+description: The ITQOSEvent interface contains methods that retrieve the description of quality of service (QOS) events.
+helpviewer_keywords: ["ITQOSEvent","ITQOSEvent interface [TAPI 2.2]","ITQOSEvent interface [TAPI 2.2]","described","_tapi3_itqosevent","tapi3.itqosevent","tapi3if/ITQOSEvent"]
 old-location: tapi3\itqosevent.htm
 tech.root: Tapi
 ms.assetid: 6e3a8aef-bd76-4047-9018-801a3cab2c62

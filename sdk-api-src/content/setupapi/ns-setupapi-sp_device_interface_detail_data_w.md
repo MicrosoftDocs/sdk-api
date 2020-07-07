@@ -1,7 +1,8 @@
 ---
 UID: NS:setupapi._SP_DEVICE_INTERFACE_DETAIL_DATA_W
 title: SP_DEVICE_INTERFACE_DETAIL_DATA_W (setupapi.h)
-description: An SP_DEVICE_INTERFACE_DETAIL_DATA structure contains the path for a device interface.helpviewer_keywords: ["*PSP_DEVICE_INTERFACE_DETAIL_DATA_W","PSP_DEVICE_INTERFACE_DETAIL_DATA","PSP_DEVICE_INTERFACE_DETAIL_DATA structure pointer [Device and Driver Installation]","SP_DEVICE_INTERFACE_DETAIL_DATA","SP_DEVICE_INTERFACE_DETAIL_DATA structure [Device and Driver Installation]","SP_DEVICE_INTERFACE_DETAIL_DATA_W","SP_INTERFACE_DEVICE_DETAIL_DATA","SP_INTERFACE_DEVICE_DETAIL_DATA_W","devinst.sp_device_interface_detail_data","di-struct_fbf4856e-f570-4024-b4eb-6ac7555d65ca.xml","setupapi/PSP_DEVICE_INTERFACE_DETAIL_DATA","setupapi/SP_DEVICE_INTERFACE_DETAIL_DATA"]
+description: An SP_DEVICE_INTERFACE_DETAIL_DATA structure contains the path for a device interface.
+helpviewer_keywords: ["*PSP_DEVICE_INTERFACE_DETAIL_DATA_W","PSP_DEVICE_INTERFACE_DETAIL_DATA","PSP_DEVICE_INTERFACE_DETAIL_DATA structure pointer [Device and Driver Installation]","SP_DEVICE_INTERFACE_DETAIL_DATA","SP_DEVICE_INTERFACE_DETAIL_DATA structure [Device and Driver Installation]","SP_DEVICE_INTERFACE_DETAIL_DATA_W","SP_INTERFACE_DEVICE_DETAIL_DATA","SP_INTERFACE_DEVICE_DETAIL_DATA_W","devinst.sp_device_interface_detail_data","di-struct_fbf4856e-f570-4024-b4eb-6ac7555d65ca.xml","setupapi/PSP_DEVICE_INTERFACE_DETAIL_DATA","setupapi/SP_DEVICE_INTERFACE_DETAIL_DATA"]
 old-location: devinst\sp_device_interface_detail_data.htm
 tech.root: devinst
 ms.assetid: 9dd44297-6e51-425d-a355-f2ea78757bf7
@@ -78,6 +79,10 @@ An SP_DEVICE_INTERFACE_DETAIL_DATA structure identifies the path for a device in
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SP_DEVICE_INTERFACE_DETAIL_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

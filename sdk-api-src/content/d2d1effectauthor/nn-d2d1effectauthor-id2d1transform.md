@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1Transform
 title: ID2D1Transform (d2d1effectauthor.h)
-description: Represents the base interface for all of the transforms implemented by the transform author.helpviewer_keywords: ["ID2D1Transform","ID2D1Transform interface [Direct2D]","ID2D1Transform interface [Direct2D]","described","d2d1effectauthor/ID2D1Transform","direct2d.id2d1transform"]
+description: Represents the base interface for all of the transforms implemented by the transform author.
+helpviewer_keywords: ["ID2D1Transform","ID2D1Transform interface [Direct2D]","ID2D1Transform interface [Direct2D]","described","d2d1effectauthor/ID2D1Transform","direct2d.id2d1transform"]
 old-location: direct2d\id2d1transform.htm
 tech.root: Direct2D
 ms.assetid: 8A0CD795-A6D8-4817-9676-58C11DDAAEBD

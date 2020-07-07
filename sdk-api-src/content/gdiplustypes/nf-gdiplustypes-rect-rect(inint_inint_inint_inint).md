@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplustypes.Rect.Rect(IN INT,IN INT,IN INT,IN INT)
+UID: NF:gdiplustypes.Rect.Rect(ININT,ININT,ININT,ININT)
 title: Rect::Rect(IN INT,IN INT,IN INT,IN INT) (gdiplustypes.h)
-description: Creates a Rect object by using four integers to initialize the X, Y, Width, and Height data members.helpviewer_keywords: ["Rect","Rect class [GDI+]","Rect constructor","Rect constructor [GDI+]","Rect constructor [GDI+]","Rect class","Rect.Rect","Rect.Rect(IN INT","IN INT","IN INT","IN INT)","Rect.Rect(INT","INT","INT","INT)","Rect::Rect","Rect::Rect(IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_Rect_Rect_x_y_width_height_","gdiplus._gdiplus_CLASS_Rect_Rect_x_y_width_height_"]
+description: Creates a Rect object by using four integers to initialize the X, Y, Width, and Height data members.
+helpviewer_keywords: ["Rect","Rect class [GDI+]","Rect constructor","Rect constructor [GDI+]","Rect constructor [GDI+]","Rect class","Rect.Rect","Rect.Rect(IN INT","IN INT","IN INT","IN INT)","Rect.Rect(INT","INT","INT","INT)","Rect::Rect","Rect::Rect(IN INT","IN INT","IN INT","IN INT)","_gdiplus_CLASS_Rect_Rect_x_y_width_height_","gdiplus._gdiplus_CLASS_Rect_Rect_x_y_width_height_"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_x_y_width_height_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstructors\rect_73x_y_width_height.htm

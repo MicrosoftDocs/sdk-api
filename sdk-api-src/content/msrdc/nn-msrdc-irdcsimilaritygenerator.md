@@ -1,7 +1,8 @@
 ---
 UID: NN:msrdc.IRdcSimilarityGenerator
 title: IRdcSimilarityGenerator (msrdc.h)
-description: Defines methods for enabling the signature generator to generate similarity data and for retrieving the similarity data after it is generated.helpviewer_keywords: ["IRdcSimilarityGenerator","IRdcSimilarityGenerator interface [Remote Differential Compression]","IRdcSimilarityGenerator interface [Remote Differential Compression]","described","fs.irdcsimilaritygenerator","msrdc/IRdcSimilarityGenerator","rdc.irdcsimilaritygenerator"]
+description: Defines methods for enabling the signature generator to generate similarity data and for retrieving the similarity data after it is generated.
+helpviewer_keywords: ["IRdcSimilarityGenerator","IRdcSimilarityGenerator interface [Remote Differential Compression]","IRdcSimilarityGenerator interface [Remote Differential Compression]","described","fs.irdcsimilaritygenerator","msrdc/IRdcSimilarityGenerator","rdc.irdcsimilaritygenerator"]
 old-location: rdc\irdcsimilaritygenerator.htm
 tech.root: rdc
 ms.assetid: 60133763-9678-4927-9d3a-3e431310b601

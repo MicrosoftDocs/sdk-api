@@ -1,7 +1,8 @@
 ---
 UID: NF:uiribbon.IUICollection.Clear
 title: IUICollection::Clear (uiribbon.h)
-description: Deletes all items from the IUICollection.helpviewer_keywords: ["Clear","Clear method [Windows Ribbon]","Clear method [Windows Ribbon]","IUICollection interface","IUICollection interface [Windows Ribbon]","Clear method","IUICollection.Clear","IUICollection::Clear","scenicintent_IUICollection_Clear","uiribbon/IUICollection::Clear","windowsribbon.windowsribbon_iuicollection_clear"]
+description: Deletes all items from the IUICollection.
+helpviewer_keywords: ["Clear","Clear method [Windows Ribbon]","Clear method [Windows Ribbon]","IUICollection interface","IUICollection interface [Windows Ribbon]","Clear method","IUICollection.Clear","IUICollection::Clear","scenicintent_IUICollection_Clear","uiribbon/IUICollection::Clear","windowsribbon.windowsribbon_iuicollection_clear"]
 old-location: windowsribbon\windowsribbon_iuicollection_clear.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\clear.htm

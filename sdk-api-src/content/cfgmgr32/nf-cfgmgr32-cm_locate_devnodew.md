@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Locate_DevNodeW
 title: CM_Locate_DevNodeW function (cfgmgr32.h)
-description: The CM_Locate_DevNode function obtains a device instance handle to the device node that is associated with a specified device instance ID on the local machine.helpviewer_keywords: ["CM_Locate_DevNode","CM_Locate_DevNode function [Device and Driver Installation]","CM_Locate_DevNodeA","CM_Locate_DevNodeW","cfgmgr32/CM_Locate_DevNode","cfgmgr32/CM_Locate_DevNodeA","cfgmgr32/CM_Locate_DevNodeW","cfgmgrfn_70e99ef3-9630-4088-8fcb-f6c7123f2cb5.xml","devinst.cm_locate_devnode"]
+description: The CM_Locate_DevNode function obtains a device instance handle to the device node that is associated with a specified device instance ID on the local machine.
+helpviewer_keywords: ["CM_Locate_DevNode","CM_Locate_DevNode function [Device and Driver Installation]","CM_Locate_DevNodeA","CM_Locate_DevNodeW","cfgmgr32/CM_Locate_DevNode","cfgmgr32/CM_Locate_DevNodeA","cfgmgr32/CM_Locate_DevNodeW","cfgmgrfn_70e99ef3-9630-4088-8fcb-f6c7123f2cb5.xml","devinst.cm_locate_devnode"]
 old-location: devinst\cm_locate_devnode.htm
 tech.root: devinst
 ms.assetid: b0bb2510-44be-4598-96ea-9b8fdcc7f7c6
@@ -139,6 +140,10 @@ For information about using device instance handles that are bound to the local 
 
 
 
+
+
+> [!NOTE]
+> The cfgmgr32.h header defines CM_Locate_DevNode as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

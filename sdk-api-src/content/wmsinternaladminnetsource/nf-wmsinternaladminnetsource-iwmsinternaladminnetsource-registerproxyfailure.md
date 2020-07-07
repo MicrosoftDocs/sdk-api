@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsinternaladminnetsource.IWMSInternalAdminNetSource.RegisterProxyFailure
 title: IWMSInternalAdminNetSource::RegisterProxyFailure (wmsinternaladminnetsource.h)
-description: Registers a proxy failure.helpviewer_keywords: ["IWMSInternalAdminNetSource interface [windows Media Format]","RegisterProxyFailure method","IWMSInternalAdminNetSource.RegisterProxyFailure","IWMSInternalAdminNetSource::RegisterProxyFailure","RegisterProxyFailure","RegisterProxyFailure method [windows Media Format]","RegisterProxyFailure method [windows Media Format]","IWMSInternalAdminNetSource interface","wmformat.iwmsinternaladminnetsource_registerproxyfailure","wmsinternaladminnetsource/IWMSInternalAdminNetSource::RegisterProxyFailure"]
+description: Registers a proxy failure.
+helpviewer_keywords: ["IWMSInternalAdminNetSource interface [windows Media Format]","RegisterProxyFailure method","IWMSInternalAdminNetSource.RegisterProxyFailure","IWMSInternalAdminNetSource::RegisterProxyFailure","RegisterProxyFailure","RegisterProxyFailure method [windows Media Format]","RegisterProxyFailure method [windows Media Format]","IWMSInternalAdminNetSource interface","wmformat.iwmsinternaladminnetsource_registerproxyfailure","wmsinternaladminnetsource/IWMSInternalAdminNetSource::RegisterProxyFailure"]
 old-location: wmformat\iwmsinternaladminnetsource_registerproxyfailure.htm
 tech.root: wmformat
 ms.assetid: 50a41a98-2827-425e-91fc-5196996abe98

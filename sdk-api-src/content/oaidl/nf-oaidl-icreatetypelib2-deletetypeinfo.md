@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeLib2.DeleteTypeInfo
 title: ICreateTypeLib2::DeleteTypeInfo (oaidl.h)
-description: Deletes a specified type information from the type library.helpviewer_keywords: ["DeleteTypeInfo","DeleteTypeInfo method [Automation]","DeleteTypeInfo method [Automation]","ICreateTypeLib2 interface","ICreateTypeLib2 interface [Automation]","DeleteTypeInfo method","ICreateTypeLib2.DeleteTypeInfo","ICreateTypeLib2::DeleteTypeInfo","_oa96_ICreateTypeLib2_DeleteTypeInfo","automat.icreatetypelib2_deletetypeinfo","oaidl/ICreateTypeLib2::DeleteTypeInfo"]
+description: Deletes a specified type information from the type library.
+helpviewer_keywords: ["DeleteTypeInfo","DeleteTypeInfo method [Automation]","DeleteTypeInfo method [Automation]","ICreateTypeLib2 interface","ICreateTypeLib2 interface [Automation]","DeleteTypeInfo method","ICreateTypeLib2.DeleteTypeInfo","ICreateTypeLib2::DeleteTypeInfo","_oa96_ICreateTypeLib2_DeleteTypeInfo","automat.icreatetypelib2_deletetypeinfo","oaidl/ICreateTypeLib2::DeleteTypeInfo"]
 old-location: automat\icreatetypelib2_deletetypeinfo.htm
 tech.root: automat
 ms.assetid: 0a233830-631b-4a6d-8fce-eb8f47714e9c

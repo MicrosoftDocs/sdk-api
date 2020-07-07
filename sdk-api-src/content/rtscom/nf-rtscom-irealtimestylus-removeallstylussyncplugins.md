@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.RemoveAllStylusSyncPlugins
 title: IRealTimeStylus::RemoveAllStylusSyncPlugins (rtscom.h)
-description: Removes all of the plug-ins from the synchronous plug-in collection.helpviewer_keywords: ["6d6aa14b-f1f5-460a-b37a-5187022ad301","IRealTimeStylus interface [Tablet PC]","RemoveAllStylusSyncPlugins method","IRealTimeStylus.RemoveAllStylusSyncPlugins","IRealTimeStylus::RemoveAllStylusSyncPlugins","RemoveAllStylusSyncPlugins","RemoveAllStylusSyncPlugins method [Tablet PC]","RemoveAllStylusSyncPlugins method [Tablet PC]","IRealTimeStylus interface","rtscom/IRealTimeStylus::RemoveAllStylusSyncPlugins","tablet.irealtimestylus_removeallstylussyncplugins"]
+description: Removes all of the plug-ins from the synchronous plug-in collection.
+helpviewer_keywords: ["6d6aa14b-f1f5-460a-b37a-5187022ad301","IRealTimeStylus interface [Tablet PC]","RemoveAllStylusSyncPlugins method","IRealTimeStylus.RemoveAllStylusSyncPlugins","IRealTimeStylus::RemoveAllStylusSyncPlugins","RemoveAllStylusSyncPlugins","RemoveAllStylusSyncPlugins method [Tablet PC]","RemoveAllStylusSyncPlugins method [Tablet PC]","IRealTimeStylus interface","rtscom/IRealTimeStylus::RemoveAllStylusSyncPlugins","tablet.irealtimestylus_removeallstylussyncplugins"]
 old-location: tablet\irealtimestylus_removeallstylussyncplugins.htm
 tech.root: tablet
 ms.assetid: 6d6aa14b-f1f5-460a-b37a-5187022ad301

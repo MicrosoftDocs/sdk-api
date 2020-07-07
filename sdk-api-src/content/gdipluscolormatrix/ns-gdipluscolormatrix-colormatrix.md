@@ -1,7 +1,8 @@
 ---
 UID: NS:gdipluscolormatrix.ColorMatrix
 title: ColorMatrix (gdipluscolormatrix.h)
-description: The ColorMatrix structure contains a 5&#215;5 matrix of real numbers. Several methods of the ImageAttributes class adjust image colors by using a color matrix.helpviewer_keywords: ["ColorMatrix","ColorMatrix structure [GDI+]","_gdiplus_STRUC_ColorMatrix","gdiplus._gdiplus_STRUC_ColorMatrix","gdipluscolormatrix/ColorMatrix"]
+description: The ColorMatrix structure contains a 5&#215;5 matrix of real numbers. Several methods of the ImageAttributes class adjust image colors by using a color matrix.
+helpviewer_keywords: ["ColorMatrix","ColorMatrix structure [GDI+]","_gdiplus_STRUC_ColorMatrix","gdiplus._gdiplus_STRUC_ColorMatrix","gdipluscolormatrix/ColorMatrix"]
 old-location: gdiplus\_gdiplus_STRUC_ColorMatrix.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\structures\colormatrix.htm

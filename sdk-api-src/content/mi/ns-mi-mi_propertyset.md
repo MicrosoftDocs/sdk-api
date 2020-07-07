@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_PropertySet
 title: MI_PropertySet (mi.h)
-description: Implements a set of property names.helpviewer_keywords: ["MI_PropertySet","MI_PropertySet structure [Windows Management Infrastructure (MI)]","mi/MI_PropertySet","wmi._mi_propertyset","wmi_v2.mi_propertyset"]
+description: Implements a set of property names.
+helpviewer_keywords: ["MI_PropertySet","MI_PropertySet structure [Windows Management Infrastructure (MI)]","mi/MI_PropertySet","wmi._mi_propertyset","wmi_v2.mi_propertyset"]
 old-location: wmi_v2\mi_propertyset.htm
 tech.root: wmi_v2
 ms.assetid: 7c9e41b0-818e-46aa-8900-5006904f78d5

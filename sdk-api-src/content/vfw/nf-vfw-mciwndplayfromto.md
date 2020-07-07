@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndPlayFromTo
 title: MCIWndPlayFromTo macro (vfw.h)
-description: The MCIWndPlayFromTo macro plays a portion of content between specified starting and ending locations.helpviewer_keywords: ["MCIWndPlayFromTo","MCIWndPlayFromTo macro [Windows Multimedia]","_win32_MCIWndPlayFromTo","multimedia.mciwndplayfromto","vfw/MCIWndPlayFromTo"]
+description: The MCIWndPlayFromTo macro plays a portion of content between specified starting and ending locations.
+helpviewer_keywords: ["MCIWndPlayFromTo","MCIWndPlayFromTo macro [Windows Multimedia]","_win32_MCIWndPlayFromTo","multimedia.mciwndplayfromto","vfw/MCIWndPlayFromTo"]
 old-location: multimedia\mciwndplayfromto.htm
 tech.root: Multimedia
 ms.assetid: a592c28c-322f-4fd1-90e9-632703bf40c1

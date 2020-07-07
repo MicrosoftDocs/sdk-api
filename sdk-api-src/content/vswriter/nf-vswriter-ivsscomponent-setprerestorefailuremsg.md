@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssComponent.SetPreRestoreFailureMsg
 title: IVssComponent::SetPreRestoreFailureMsg (vswriter.h)
-description: The SetPreRestoreFailureMsg method is used to create a message describing a failure in processing a PreRestore event.helpviewer_keywords: ["IVssComponent interface [VSS]","SetPreRestoreFailureMsg method","IVssComponent.SetPreRestoreFailureMsg","IVssComponent::SetPreRestoreFailureMsg","SetPreRestoreFailureMsg","SetPreRestoreFailureMsg method [VSS]","SetPreRestoreFailureMsg method [VSS]","IVssComponent interface","_win32_ivsscomponent_setprerestorefailuremsg","base.ivsscomponent_setprerestorefailuremsg","vswriter/IVssComponent::SetPreRestoreFailureMsg"]
+description: The SetPreRestoreFailureMsg method is used to create a message describing a failure in processing a PreRestore event.
+helpviewer_keywords: ["IVssComponent interface [VSS]","SetPreRestoreFailureMsg method","IVssComponent.SetPreRestoreFailureMsg","IVssComponent::SetPreRestoreFailureMsg","SetPreRestoreFailureMsg","SetPreRestoreFailureMsg method [VSS]","SetPreRestoreFailureMsg method [VSS]","IVssComponent interface","_win32_ivsscomponent_setprerestorefailuremsg","base.ivsscomponent_setprerestorefailuremsg","vswriter/IVssComponent::SetPreRestoreFailureMsg"]
 old-location: base\ivsscomponent_setprerestorefailuremsg.htm
 tech.root: VSS
 ms.assetid: 5b273cba-9878-4494-81ef-af1367f1e0a5

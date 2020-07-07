@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.AuthenticateClientToSession
 title: IWTSProtocolConnection::AuthenticateClientToSession (wtsprotocol.h)
-description: IWTSProtocolConnection::AuthenticateClientToSession is no longer available. Instead, use IWRdsProtocolConnection::AuthenticateClientToSession.helpviewer_keywords: ["AuthenticateClientToSession","AuthenticateClientToSession method [Remote Desktop Services]","AuthenticateClientToSession method [Remote Desktop Services]","IWTSProtocolConnection interface","IWTSProtocolConnection interface [Remote Desktop Services]","AuthenticateClientToSession method","IWTSProtocolConnection.AuthenticateClientToSession","IWTSProtocolConnection::AuthenticateClientToSession","termserv.iwtsprotocolconnection_authenticateclienttosession","wtsprotocol/IWTSProtocolConnection::AuthenticateClientToSession"]
+description: IWTSProtocolConnection::AuthenticateClientToSession is no longer available. Instead, use IWRdsProtocolConnection::AuthenticateClientToSession.
+helpviewer_keywords: ["AuthenticateClientToSession","AuthenticateClientToSession method [Remote Desktop Services]","AuthenticateClientToSession method [Remote Desktop Services]","IWTSProtocolConnection interface","IWTSProtocolConnection interface [Remote Desktop Services]","AuthenticateClientToSession method","IWTSProtocolConnection.AuthenticateClientToSession","IWTSProtocolConnection::AuthenticateClientToSession","termserv.iwtsprotocolconnection_authenticateclienttosession","wtsprotocol/IWTSProtocolConnection::AuthenticateClientToSession"]
 old-location: termserv\iwtsprotocolconnection_authenticateclienttosession.htm
 tech.root: TermServ
 ms.assetid: 541bf463-9a4a-4237-8a61-1288ab1540cc

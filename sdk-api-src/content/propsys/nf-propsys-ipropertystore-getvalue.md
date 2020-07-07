@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyStore.GetValue
 title: IPropertyStore::GetValue (propsys.h)
-description: This method retrieves the data for a specific property.helpviewer_keywords: ["GetValue","GetValue (IPropertyStore)","GetValue method [Audio Devices]","GetValue method [Audio Devices]","IPropertyStore interface","IPropertyStore interface [Audio Devices]","GetValue method","IPropertyStore.GetValue","IPropertyStore::GetValue","audio.ipropertystore_getvalue","audio_syseffects_r_5540088b-f979-440e-93b8-feb9db17001c.xml","propsys/IPropertyStore::GetValue"]
+description: This method retrieves the data for a specific property.
+helpviewer_keywords: ["GetValue","GetValue (IPropertyStore)","GetValue method [Audio Devices]","GetValue method [Audio Devices]","IPropertyStore interface","IPropertyStore interface [Audio Devices]","GetValue method","IPropertyStore.GetValue","IPropertyStore::GetValue","audio.ipropertystore_getvalue","audio_syseffects_r_5540088b-f979-440e-93b8-feb9db17001c.xml","propsys/IPropertyStore::GetValue"]
 old-location: audio\ipropertystore_getvalue.htm
 tech.root: audio
 ms.assetid: 11204335-0f00-4af8-8787-93e91248e5bd

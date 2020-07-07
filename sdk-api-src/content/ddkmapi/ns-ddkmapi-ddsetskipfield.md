@@ -1,7 +1,8 @@
 ---
 UID: NS:ddkmapi._DDSETSKIPFIELD
 title: DDSETSKIPFIELD (ddkmapi.h)
-description: The DDSETSKIPFIELD structure contains the start field information.helpviewer_keywords: ["*LPDDSETSKIPFIELD","DDSETSKIPFIELD","DDSETSKIPFIELD structure [Display Devices]","LPDDSETSKIPFIELD","LPDDSETSKIPFIELD structure pointer [Display Devices]","ddkmapi/DDSETSKIPFIELD","ddkmapi/LPDDSETSKIPFIELD","ddstrcts_a0567a56-5d6e-4154-86ff-90463ed2c554.xml","display.ddsetskipfield"]
+description: The DDSETSKIPFIELD structure contains the start field information.
+helpviewer_keywords: ["*LPDDSETSKIPFIELD","DDSETSKIPFIELD","DDSETSKIPFIELD structure [Display Devices]","LPDDSETSKIPFIELD","LPDDSETSKIPFIELD structure pointer [Display Devices]","ddkmapi/DDSETSKIPFIELD","ddkmapi/LPDDSETSKIPFIELD","ddstrcts_a0567a56-5d6e-4154-86ff-90463ed2c554.xml","display.ddsetskipfield"]
 old-location: display\ddsetskipfield.htm
 tech.root: display
 ms.assetid: 146aa32d-5268-41b3-b98c-18223002ea65

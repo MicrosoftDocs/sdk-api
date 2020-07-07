@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdInfo.GetCurrentSubpictureAttributes
 title: IDvdInfo::GetCurrentSubpictureAttributes (strmif.h)
-description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the attributes for the current subpicture stream in the current title or menu.helpviewer_keywords: ["GetCurrentSubpictureAttributes","GetCurrentSubpictureAttributes method [DirectShow]","GetCurrentSubpictureAttributes method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentSubpictureAttributes method","IDvdInfo.GetCurrentSubpictureAttributes","IDvdInfo::GetCurrentSubpictureAttributes","IDvdInfoGetCurrentSubpictureAttributes","dshow.idvdinfo_getcurrentsubpictureattributes","strmif/IDvdInfo::GetCurrentSubpictureAttributes"]
+description: Note  The IDvdInfo interface is deprecated. Use IDvdInfo2 instead. Retrieves the attributes for the current subpicture stream in the current title or menu.
+helpviewer_keywords: ["GetCurrentSubpictureAttributes","GetCurrentSubpictureAttributes method [DirectShow]","GetCurrentSubpictureAttributes method [DirectShow]","IDvdInfo interface","IDvdInfo interface [DirectShow]","GetCurrentSubpictureAttributes method","IDvdInfo.GetCurrentSubpictureAttributes","IDvdInfo::GetCurrentSubpictureAttributes","IDvdInfoGetCurrentSubpictureAttributes","dshow.idvdinfo_getcurrentsubpictureattributes","strmif/IDvdInfo::GetCurrentSubpictureAttributes"]
 old-location: dshow\idvdinfo_getcurrentsubpictureattributes.htm
 tech.root: DirectShow
 ms.assetid: 9beb31e3-b3ff-4c7a-922f-9f1e9725ddde

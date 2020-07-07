@@ -1,7 +1,8 @@
 ---
 UID: NF:sspi.AcquireCredentialsHandleA
 title: AcquireCredentialsHandleA function (sspi.h)
-description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.helpviewer_keywords: ["AcquireCredentialsHandle","AcquireCredentialsHandle (CredSSP)","AcquireCredentialsHandle function [Security]","AcquireCredentialsHandleA","AcquireCredentialsHandleW","SECPKG_CRED_INBOUND","SECPKG_CRED_OUTBOUND","security.acquirecredentialshandle__credssp_","sspi/AcquireCredentialsHandle","sspi/AcquireCredentialsHandleA","sspi/AcquireCredentialsHandleW"]
+description: The AcquireCredentialsHandle (CredSSP) function acquires a handle to preexisting credentials of a security principal.
+helpviewer_keywords: ["AcquireCredentialsHandle","AcquireCredentialsHandle (CredSSP)","AcquireCredentialsHandle function [Security]","AcquireCredentialsHandleA","AcquireCredentialsHandleW","SECPKG_CRED_INBOUND","SECPKG_CRED_OUTBOUND","security.acquirecredentialshandle__credssp_","sspi/AcquireCredentialsHandle","sspi/AcquireCredentialsHandleA","sspi/AcquireCredentialsHandleW"]
 old-location: security\acquirecredentialshandle__credssp_.htm
 tech.root: SecAuthN
 ms.assetid: 3b73decf-75d4-4bc4-b7ca-5f16aaadff29
@@ -100,7 +101,7 @@ Validate an incoming server credential. Inbound credentials might be validated b
 <tr>
 <td width="40%"><a id="SECPKG_CRED_OUTBOUND"></a><a id="secpkg_cred_outbound"></a><dl>
 <dt><b>SECPKG_CRED_OUTBOUND</b></dt>
-<dt>0x0</dt>
+<dt>0x2</dt>
 </dl>
 </td>
 <td width="60%">
@@ -251,6 +252,10 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 
+
+> [!NOTE]
+> The sspi.h header defines AcquireCredentialsHandle as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -269,7 +274,3 @@ When you have finished using the returned credentials, free the memory used by t
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecAuthN/authentication-functions">SSPI Functions</a>
- 
-
- 
-

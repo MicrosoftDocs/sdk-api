@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IDockingWindowSite.SetBorderSpaceDW
 title: IDockingWindowSite::SetBorderSpaceDW (shlobj_core.h)
-description: Allocates and reserves border space for an IDockingWindow object.helpviewer_keywords: ["IDockingWindowSite interface [Windows Shell]","SetBorderSpaceDW method","IDockingWindowSite.SetBorderSpaceDW","IDockingWindowSite::SetBorderSpaceDW","SetBorderSpaceDW","SetBorderSpaceDW method [Windows Shell]","SetBorderSpaceDW method [Windows Shell]","IDockingWindowSite interface","_win32_IDockingWindowSite_SetBorderSpaceDW","shell.IDockingWindowSite_SetBorderSpaceDW","shlobj_core/IDockingWindowSite::SetBorderSpaceDW"]
+description: Allocates and reserves border space for an IDockingWindow object.
+helpviewer_keywords: ["IDockingWindowSite interface [Windows Shell]","SetBorderSpaceDW method","IDockingWindowSite.SetBorderSpaceDW","IDockingWindowSite::SetBorderSpaceDW","SetBorderSpaceDW","SetBorderSpaceDW method [Windows Shell]","SetBorderSpaceDW method [Windows Shell]","IDockingWindowSite interface","_win32_IDockingWindowSite_SetBorderSpaceDW","shell.IDockingWindowSite_SetBorderSpaceDW","shlobj_core/IDockingWindowSite::SetBorderSpaceDW"]
 old-location: shell\IDockingWindowSite_SetBorderSpaceDW.htm
 tech.root: shell
 ms.assetid: 8c79c983-8a5d-4b52-848d-c85c4e4f86ec

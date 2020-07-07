@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineConfigProvider
 title: lineConfigProvider function (tapi.h)
-description: The lineConfigProvider function causes a service provider to display its configuration dialog box.helpviewer_keywords: ["_tapi2_lineconfigprovider","lineConfigProvider","lineConfigProvider function [TAPI 2.2]","tapi/lineConfigProvider","tapi2.lineconfigprovider"]
+description: The lineConfigProvider function causes a service provider to display its configuration dialog box.
+helpviewer_keywords: ["_tapi2_lineconfigprovider","lineConfigProvider","lineConfigProvider function [TAPI 2.2]","tapi/lineConfigProvider","tapi2.lineconfigprovider"]
 old-location: tapi2\lineconfigprovider.htm
 tech.root: Tapi
 ms.assetid: 3149b353-6380-4fa9-a6ef-cf4566aaff58

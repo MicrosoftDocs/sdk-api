@@ -1,7 +1,8 @@
 ---
 UID: NF:scesvc.ISceSvcAttachmentPersistInfo.IsDirty
 title: ISceSvcAttachmentPersistInfo::IsDirty (scesvc.h)
-description: The IsDirty method returns a value indicating whether data in the attachment snap-in has been modified since it was last saved.helpviewer_keywords: ["ISceSvcAttachmentPersistInfo interface [Security]","IsDirty method","ISceSvcAttachmentPersistInfo.IsDirty","ISceSvcAttachmentPersistInfo::IsDirty","IsDirty","IsDirty method [Security]","IsDirty method [Security]","ISceSvcAttachmentPersistInfo interface","_config_iscesvcattachmentpersistinfo_isdirty","scesvc/ISceSvcAttachmentPersistInfo::IsDirty","security.iscesvcattachmentpersistinfo_isdirty"]
+description: The IsDirty method returns a value indicating whether data in the attachment snap-in has been modified since it was last saved.
+helpviewer_keywords: ["ISceSvcAttachmentPersistInfo interface [Security]","IsDirty method","ISceSvcAttachmentPersistInfo.IsDirty","ISceSvcAttachmentPersistInfo::IsDirty","IsDirty","IsDirty method [Security]","IsDirty method [Security]","ISceSvcAttachmentPersistInfo interface","_config_iscesvcattachmentpersistinfo_isdirty","scesvc/ISceSvcAttachmentPersistInfo::IsDirty","security.iscesvcattachmentpersistinfo_isdirty"]
 old-location: security\iscesvcattachmentpersistinfo_isdirty.htm
 tech.root: SecMgmt
 ms.assetid: b430e598-e16c-47fc-8f19-fbcfc6b71337

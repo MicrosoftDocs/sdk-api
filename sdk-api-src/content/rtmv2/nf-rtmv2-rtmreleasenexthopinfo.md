@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmReleaseNextHopInfo
 title: RtmReleaseNextHopInfo function (rtmv2.h)
-description: The RtmReleaseNextHopInfo function releases a next-hop structure.helpviewer_keywords: ["RtmReleaseNextHopInfo","RtmReleaseNextHopInfo function [RAS]","_rtmv2ref_rtmreleasenexthopinfo","rras.rtmreleasenexthopinfo","rtmv2/RtmReleaseNextHopInfo"]
+description: The RtmReleaseNextHopInfo function releases a next-hop structure.
+helpviewer_keywords: ["RtmReleaseNextHopInfo","RtmReleaseNextHopInfo function [RAS]","_rtmv2ref_rtmreleasenexthopinfo","rras.rtmreleasenexthopinfo","rtmv2/RtmReleaseNextHopInfo"]
 old-location: rras\rtmreleasenexthopinfo.htm
 tech.root: RRAS
 ms.assetid: 1c5a9b72-8605-4c54-bc44-b7a1a4e1b367

@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SelectObject
 title: SelectObject function (wingdi.h)
-description: The SelectObject function selects an object into the specified device context (DC). The new object replaces the previous object of the same type.helpviewer_keywords: ["Bitmap","Brush","Font","Pen","Region","SelectObject","SelectObject function [Windows GDI]","_win32_SelectObject","gdi.selectobject","wingdi/SelectObject"]
+description: The SelectObject function selects an object into the specified device context (DC). The new object replaces the previous object of the same type.
+helpviewer_keywords: ["Bitmap","Brush","Font","Pen","Region","SelectObject","SelectObject function [Windows GDI]","_win32_SelectObject","gdi.selectobject","wingdi/SelectObject"]
 old-location: gdi\selectobject.htm
 tech.root: gdi
 ms.assetid: a89b875e-923d-4048-bc61-8dea132cc56d

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.IEnumSubStream.Next
 title: IEnumSubStream::Next (tapi3if.h)
-description: The Next method gets the next specified number of elements in the enumeration sequence.helpviewer_keywords: ["IEnumSubStream interface [TAPI 2.2]","Next method","IEnumSubStream.Next","IEnumSubStream::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumSubStream interface","_tapi3_ienumsubstream_next","tapi3.ienumsubstream_next","tapi3if/IEnumSubStream::Next"]
+description: The Next method gets the next specified number of elements in the enumeration sequence.
+helpviewer_keywords: ["IEnumSubStream interface [TAPI 2.2]","Next method","IEnumSubStream.Next","IEnumSubStream::Next","Next","Next method [TAPI 2.2]","Next method [TAPI 2.2]","IEnumSubStream interface","_tapi3_ienumsubstream_next","tapi3.ienumsubstream_next","tapi3if/IEnumSubStream::Next"]
 old-location: tapi3\ienumsubstream_next.htm
 tech.root: Tapi
 ms.assetid: fa8c4017-09ac-44e9-a7fa-922d0588d92a

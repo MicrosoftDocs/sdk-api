@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StrNCatW
 title: StrNCatW function (shlwapi.h)
-description: Appends a specified number of characters from the beginning of one string to the end of another.helpviewer_keywords: ["StrNCat","StrNCat function [Windows Shell]","StrNCatA","StrNCatW","_win32_StrNCat","shell.StrNCat","shlwapi/StrNCat","shlwapi/StrNCatA","shlwapi/StrNCatW"]
+description: Appends a specified number of characters from the beginning of one string to the end of another.
+helpviewer_keywords: ["StrNCat","StrNCat function [Windows Shell]","StrNCatA","StrNCatW","_win32_StrNCat","shell.StrNCat","shlwapi/StrNCat","shlwapi/StrNCatA","shlwapi/StrNCatW"]
 old-location: shell\StrNCat.htm
 tech.root: shell
 ms.assetid: 28099350-5759-4595-8353-3452c5cf6ca8
@@ -100,4 +101,8 @@ Returns a pointer to <i>psz1</i>, which holds the combined string.
 <b>Security Warning:  </b>Using this function incorrectly can compromise the security of your application. The first argument, <i>psz1</i>, must be large enough to hold <i>psz2</i> and the closing '\0', otherwise a buffer overrun may occur. Buffer overruns may lead to a denial of service attack against the application if an access violation occurs. In the worst case, a buffer overrun may allow an attacker to inject executable code into your process, especially if <i>psz1</i> is a stack-based buffer. Be aware that the last argument, <i>cchMax</i>, is the number of characters to copy into <i>psz1</i>, not necessarily the size of the <i>psz1</i> in bytes. Consider using one of the following alternatives. <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcata">StringCbCat</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatexa">StringCbCatEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatna">StringCbCatN</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcbcatnexa">StringCbCatNEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcata">StringCchCat</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatexa">StringCchCatEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatna">StringCchCatN</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/strsafe/nf-strsafe-stringcchcatnexa">StringCchCatNEx</a>. You should review <a href="https://docs.microsoft.com/windows/desktop/shell/sec-shell">Security Considerations: Microsoft Windows Shell</a> before continuing.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines StrNCat as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

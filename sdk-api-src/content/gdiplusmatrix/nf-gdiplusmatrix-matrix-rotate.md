@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Rotate
 title: Matrix::Rotate (gdiplusmatrix.h)
-description: The Matrix::Rotate method updates this matrix with the product of itself and a rotation matrix.helpviewer_keywords: ["Matrix class [GDI+]","Rotate method","Matrix.Rotate","Matrix::Rotate","Rotate","Rotate method [GDI+]","Rotate method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_Rotate_angle_order_","gdiplus._gdiplus_CLASS_Matrix_Rotate_angle_order_"]
+description: The Matrix::Rotate method updates this matrix with the product of itself and a rotation matrix.
+helpviewer_keywords: ["Matrix class [GDI+]","Rotate method","Matrix.Rotate","Matrix::Rotate","Rotate","Rotate method [GDI+]","Rotate method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_Rotate_angle_order_","gdiplus._gdiplus_CLASS_Matrix_Rotate_angle_order_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Rotate_angle_order_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\rotate.htm

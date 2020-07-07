@@ -1,7 +1,8 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectRenderContext
 title: IMILBitmapEffectRenderContext (mileffects.h)
-description: Exposes methods that define a IMILBitmapEffectRenderContext object.helpviewer_keywords: ["IMILBitmapEffectRenderContext","IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectrendercontext","mileffects/IMILBitmapEffectRenderContext","wibe._wibe_imilbitmapeffectrendercontext"]
+description: Exposes methods that define a IMILBitmapEffectRenderContext object.
+helpviewer_keywords: ["IMILBitmapEffectRenderContext","IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectrendercontext","mileffects/IMILBitmapEffectRenderContext","wibe._wibe_imilbitmapeffectrendercontext"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontext.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\imilbitmapeffectrendercontext.htm

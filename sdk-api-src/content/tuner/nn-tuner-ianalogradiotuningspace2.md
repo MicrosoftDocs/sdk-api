@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IAnalogRadioTuningSpace2
 title: IAnalogRadioTuningSpace2 (tuner.h)
-description: This topic applies to Windows XP Media Center Edition 2004 and later.helpviewer_keywords: ["IAnalogRadioTuningSpace2","IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies]","IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies]","described","IAnalogRadioTuningSpace2Interface","mstv.ianalogradiotuningspace2","tuner/IAnalogRadioTuningSpace2"]
+description: This topic applies to Windows XP Media Center Edition 2004 and later.
+helpviewer_keywords: ["IAnalogRadioTuningSpace2","IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies]","IAnalogRadioTuningSpace2 interface [Microsoft TV Technologies]","described","IAnalogRadioTuningSpace2Interface","mstv.ianalogradiotuningspace2","tuner/IAnalogRadioTuningSpace2"]
 old-location: mstv\ianalogradiotuningspace2.htm
 tech.root: mstv
 ms.assetid: 66e631cb-2ae8-40b0-8ec8-3a02764284bf

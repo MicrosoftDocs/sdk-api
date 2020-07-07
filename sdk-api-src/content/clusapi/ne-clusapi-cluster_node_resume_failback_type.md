@@ -1,7 +1,8 @@
 ---
 UID: NE:clusapi.CLUSTER_NODE_RESUME_FAILBACK_TYPE
 title: CLUSTER_NODE_RESUME_FAILBACK_TYPE (clusapi.h)
-description: Specifies the failback type to use when a cluster node in a paused state is resumed by the ResumeClusterNodeEx function.helpviewer_keywords: ["CLUSTER_NODE_RESUME_FAILBACK_TYPE","CLUSTER_NODE_RESUME_FAILBACK_TYPE enumeration [Failover Cluster]","ClusterNodeResumeFailbackTypeCount","DoNotFailbackGroups","FailbackGroupsImmediately","FailbackGroupsPerPolicy","clusapi/CLUSTER_NODE_RESUME_FAILBACK_TYPE","clusapi/ClusterNodeResumeFailbackTypeCount","clusapi/DoNotFailbackGroups","clusapi/FailbackGroupsImmediately","clusapi/FailbackGroupsPerPolicy","mscs.cluster_node_resume_failback_type"]
+description: Specifies the failback type to use when a cluster node in a paused state is resumed by the ResumeClusterNodeEx function.
+helpviewer_keywords: ["CLUSTER_NODE_RESUME_FAILBACK_TYPE","CLUSTER_NODE_RESUME_FAILBACK_TYPE enumeration [Failover Cluster]","ClusterNodeResumeFailbackTypeCount","DoNotFailbackGroups","FailbackGroupsImmediately","FailbackGroupsPerPolicy","clusapi/CLUSTER_NODE_RESUME_FAILBACK_TYPE","clusapi/ClusterNodeResumeFailbackTypeCount","clusapi/DoNotFailbackGroups","clusapi/FailbackGroupsImmediately","clusapi/FailbackGroupsPerPolicy","mscs.cluster_node_resume_failback_type"]
 old-location: mscs\cluster_node_resume_failback_type.htm
 tech.root: MsCS
 ms.assetid: 26A002F6-A933-450B-84FF-F2BC8B301B6B

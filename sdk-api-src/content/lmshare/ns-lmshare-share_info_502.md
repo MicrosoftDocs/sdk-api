@@ -1,7 +1,8 @@
 ---
 UID: NS:lmshare._SHARE_INFO_502
 title: SHARE_INFO_502 (lmshare.h)
-description: Contains information about the shared resource, including name of the resource, type and permissions, number of connections, and other pertinent information.helpviewer_keywords: ["*LPSHARE_INFO_502","*PSHARE_INFO_502","ACCESS_ALL","ACCESS_ATRIB","ACCESS_CREATE","ACCESS_DELETE","ACCESS_EXEC","ACCESS_PERM","ACCESS_READ","ACCESS_WRITE","LPSHARE_INFO_502","LPSHARE_INFO_502 structure pointer [Files]","PSHARE_INFO_502","PSHARE_INFO_502 structure pointer [Files]","SHARE_INFO_502","SHARE_INFO_502 structure [Files]","STYPE_DEVICE","STYPE_DISKTREE","STYPE_IPC","STYPE_PRINTQ","STYPE_SPECIAL","STYPE_TEMPORARY","_win32_share_info_502_str","fs.share_info_502_str","lmshare/LPSHARE_INFO_502","lmshare/PSHARE_INFO_502","lmshare/SHARE_INFO_502","netmgmt.share_info_502_str"]
+description: Contains information about the shared resource, including name of the resource, type and permissions, number of connections, and other pertinent information.
+helpviewer_keywords: ["*LPSHARE_INFO_502","*PSHARE_INFO_502","ACCESS_ALL","ACCESS_ATRIB","ACCESS_CREATE","ACCESS_DELETE","ACCESS_EXEC","ACCESS_PERM","ACCESS_READ","ACCESS_WRITE","LPSHARE_INFO_502","LPSHARE_INFO_502 structure pointer [Files]","PSHARE_INFO_502","PSHARE_INFO_502 structure pointer [Files]","SHARE_INFO_502","SHARE_INFO_502 structure [Files]","STYPE_DEVICE","STYPE_DISKTREE","STYPE_IPC","STYPE_PRINTQ","STYPE_SPECIAL","STYPE_TEMPORARY","_win32_share_info_502_str","fs.share_info_502_str","lmshare/LPSHARE_INFO_502","lmshare/PSHARE_INFO_502","lmshare/SHARE_INFO_502","netmgmt.share_info_502_str"]
 old-location: fs\share_info_502_str.htm
 tech.root: NetShare
 ms.assetid: 306e6704-2068-42da-bcc4-c0772c719ee8

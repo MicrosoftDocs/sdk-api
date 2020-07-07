@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationcore.ISpreadsheetProvider
 title: ISpreadsheetProvider (uiautomationcore.h)
-description: Provides access to items (cells) in a spreadsheet.helpviewer_keywords: ["ISpreadsheetProvider","ISpreadsheetProvider interface [Windows Accessibility]","ISpreadsheetProvider interface [Windows Accessibility]","described","uiautomationcore/ISpreadsheetProvider","winauto.uiauto_ISpreadsheetProvider"]
+description: Provides access to items (cells) in a spreadsheet.
+helpviewer_keywords: ["ISpreadsheetProvider","ISpreadsheetProvider interface [Windows Accessibility]","ISpreadsheetProvider interface [Windows Accessibility]","described","uiautomationcore/ISpreadsheetProvider","winauto.uiauto_ISpreadsheetProvider"]
 old-location: winauto\uiauto_ISpreadsheetProvider.htm
 tech.root: WinAuto
 ms.assetid: 5D27761C-41F3-4908-B116-3ED9A379EA51

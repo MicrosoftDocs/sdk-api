@@ -1,7 +1,8 @@
 ---
 UID: NC:cchannel.VIRTUALCHANNELOPEN
 title: VIRTUALCHANNELOPEN (cchannel.h)
-description: Opens the client end of a virtual channel.helpviewer_keywords: ["VirtualChannelOpen","VirtualChannelOpen callback","VirtualChannelOpen callback function [Remote Desktop Services]","_win32_virtualchannelopen","cchannel/VirtualChannelOpen","termserv.virtualchannelopen"]
+description: Opens the client end of a virtual channel.
+helpviewer_keywords: ["VirtualChannelOpen","VirtualChannelOpen callback","VirtualChannelOpen callback function [Remote Desktop Services]","_win32_virtualchannelopen","cchannel/VirtualChannelOpen","termserv.virtualchannelopen"]
 old-location: termserv\virtualchannelopen.htm
 tech.root: TermServ
 ms.assetid: 4ec75f9d-dbdf-499d-80a9-25fc6e9c5cb9

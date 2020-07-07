@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionVisual.SetContent
 title: IDCompositionVisual::SetContent (dcomp.h)
-description: Sets the Content property of this visual to the specified bitmap or window wrapper.helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","SetContent method","IDCompositionVisual.SetContent","IDCompositionVisual::SetContent","SetContent","SetContent method [DirectComposition]","SetContent method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::SetContent","directcomp.idcompositionvisual_setcontent"]
+description: Sets the Content property of this visual to the specified bitmap or window wrapper.
+helpviewer_keywords: ["IDCompositionVisual interface [DirectComposition]","SetContent method","IDCompositionVisual.SetContent","IDCompositionVisual::SetContent","SetContent","SetContent method [DirectComposition]","SetContent method [DirectComposition]","IDCompositionVisual interface","dcomp/IDCompositionVisual::SetContent","directcomp.idcompositionvisual_setcontent"]
 old-location: directcomp\idcompositionvisual_setcontent.htm
 tech.root: directcomp
 ms.assetid: 894E6E30-6C28-476D-9AE5-D0664A69E03C

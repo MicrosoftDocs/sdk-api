@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFVideoSampleAllocator.SetDirectXManager
 title: IMFVideoSampleAllocator::SetDirectXManager (mfidl.h)
-description: Specifies the Direct3D device manager for the video media sink to use.helpviewer_keywords: ["IMFVideoSampleAllocator interface [Media Foundation]","SetDirectXManager method","IMFVideoSampleAllocator.SetDirectXManager","IMFVideoSampleAllocator::SetDirectXManager","SetDirectXManager","SetDirectXManager method [Media Foundation]","SetDirectXManager method [Media Foundation]","IMFVideoSampleAllocator interface","bad810c9-f5b1-42dc-9c7a-3306f3de2846","mf.imfvideosampleallocator_setdirectxmanager","mfidl/IMFVideoSampleAllocator::SetDirectXManager"]
+description: Specifies the Direct3D device manager for the video media sink to use.
+helpviewer_keywords: ["IMFVideoSampleAllocator interface [Media Foundation]","SetDirectXManager method","IMFVideoSampleAllocator.SetDirectXManager","IMFVideoSampleAllocator::SetDirectXManager","SetDirectXManager","SetDirectXManager method [Media Foundation]","SetDirectXManager method [Media Foundation]","IMFVideoSampleAllocator interface","bad810c9-f5b1-42dc-9c7a-3306f3de2846","mf.imfvideosampleallocator_setdirectxmanager","mfidl/IMFVideoSampleAllocator::SetDirectXManager"]
 old-location: mf\imfvideosampleallocator_setdirectxmanager.htm
 tech.root: medfound
 ms.assetid: bad810c9-f5b1-42dc-9c7a-3306f3de2846

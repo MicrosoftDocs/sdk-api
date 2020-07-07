@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.DrawDibStart
 title: DrawDibStart function (vfw.h)
-description: The DrawDibStart function prepares a DrawDib DC for streaming playback.helpviewer_keywords: ["DrawDibStart","DrawDibStart function [Windows Multimedia]","_win32_DrawDibStart","multimedia.drawdibstart","vfw/DrawDibStart"]
+description: The DrawDibStart function prepares a DrawDib DC for streaming playback.
+helpviewer_keywords: ["DrawDibStart","DrawDibStart function [Windows Multimedia]","_win32_DrawDibStart","multimedia.drawdibstart","vfw/DrawDibStart"]
 old-location: multimedia\drawdibstart.htm
 tech.root: Multimedia
 ms.assetid: 2c992a4f-3308-4f0a-a1cf-40515e28ae33

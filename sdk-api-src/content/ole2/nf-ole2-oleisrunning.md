@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleIsRunning
 title: OleIsRunning function (ole2.h)
-description: Determines whether a compound document object is currently in the running state.helpviewer_keywords: ["OleIsRunning","OleIsRunning function [COM]","_ole_OleIsRunning","com.oleisrunning","ole2/OleIsRunning"]
+description: Determines whether a compound document object is currently in the running state.
+helpviewer_keywords: ["OleIsRunning","OleIsRunning function [COM]","_ole_OleIsRunning","com.oleisrunning","ole2/OleIsRunning"]
 old-location: com\oleisrunning.htm
 tech.root: com
 ms.assetid: 9392666f-c269-4667-aeac-67c68bcc5f06

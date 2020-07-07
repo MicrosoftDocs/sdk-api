@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetWhitePoint
 title: IDCompositionBrightnessEffect::SetWhitePoint (dcomp.h)
-description: Sets the upper portion of the brightness transfer curve.helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetWhitePoint method","IDCompositionBrightnessEffect.SetWhitePoint","IDCompositionBrightnessEffect::SetWhitePoint","SetWhitePoint","SetWhitePoint method [DirectComposition]","SetWhitePoint method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetWhitePoint","directcomp.idcompositionbrightnesseffect_setwhitepoint"]
+description: Sets the upper portion of the brightness transfer curve.
+helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetWhitePoint method","IDCompositionBrightnessEffect.SetWhitePoint","IDCompositionBrightnessEffect::SetWhitePoint","SetWhitePoint","SetWhitePoint method [DirectComposition]","SetWhitePoint method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetWhitePoint","directcomp.idcompositionbrightnesseffect_setwhitepoint"]
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepoint.htm
 tech.root: directcomp
 ms.assetid: C06DFD2A-9B97-4254-BFB5-058FB0ED3F83

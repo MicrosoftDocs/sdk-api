@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertNameToStrA
 title: CertNameToStrA function (wincrypt.h)
-description: Converts an encoded name in a CERT_NAME_BLOB structure to a null-terminated character string.helpviewer_keywords: ["CERT_NAME_STR_CRLF_FLAG","CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG","CERT_NAME_STR_ENABLE_PUNYCODE_FLAG","CERT_NAME_STR_NO_PLUS_FLAG","CERT_NAME_STR_NO_QUOTING_FLAG","CERT_NAME_STR_REVERSE_FLAG","CERT_NAME_STR_SEMICOLON_FLAG","CERT_OID_NAME_STR","CERT_SIMPLE_NAME_STR","CERT_X500_NAME_STR","CertNameToStr","CertNameToStr function [Security]","CertNameToStrA","CertNameToStrW","X509_ASN_ENCODING","_crypto2_certnametostr","security.certnametostr","wincrypt/CertNameToStr","wincrypt/CertNameToStrA","wincrypt/CertNameToStrW"]
+description: Converts an encoded name in a CERT_NAME_BLOB structure to a null-terminated character string.
+helpviewer_keywords: ["CERT_NAME_STR_CRLF_FLAG","CERT_NAME_STR_DISABLE_IE4_UTF8_FLAG","CERT_NAME_STR_ENABLE_PUNYCODE_FLAG","CERT_NAME_STR_NO_PLUS_FLAG","CERT_NAME_STR_NO_QUOTING_FLAG","CERT_NAME_STR_REVERSE_FLAG","CERT_NAME_STR_SEMICOLON_FLAG","CERT_OID_NAME_STR","CERT_SIMPLE_NAME_STR","CERT_X500_NAME_STR","CertNameToStr","CertNameToStr function [Security]","CertNameToStrA","CertNameToStrW","X509_ASN_ENCODING","_crypto2_certnametostr","security.certnametostr","wincrypt/CertNameToStr","wincrypt/CertNameToStrA","wincrypt/CertNameToStrW"]
 old-location: security\certnametostr.htm
 tech.root: SecCrypto
 ms.assetid: b3d96de8-5cbc-4ccb-b759-6757520bbda3
@@ -297,7 +298,7 @@ The string representation follows the distinguished name specifications in <a hr
 <li>Strings that contain consecutive spaces are not enclosed within quotation marks.</li>
 <li>Relative Distinguished Name (RDN) values of type <b>CERT_RDN_ENCODED_BLOB</b> or <b>CERT_RDN_OCTET_STRING</b> are formatted in hexadecimal.</li>
 <li>If an OID does not have a corresponding X.500 name, the “OID” prefix is used before OID.</li>
-<li>RDN values are enclosed with double quotation marks (instead of “\”) if they contain  leading white space, trailing white space, or one of the following characters:<ul>
+<li>RDN values are enclosed with double quotation marks (instead of "\") if they contain  leading white space, trailing white space, or one of the following characters:<ul>
 <li>Comma (,)</li>
 <li>Plus sign (+)</li>
 <li>Equal sign (=)</li>
@@ -309,7 +310,7 @@ The string representation follows the distinguished name specifications in <a hr
 <li>Semicolon (;)</li>
 </ul>
 </li>
-<li>The X.500 key name  for stateOrProvinceName (2.5.4.8) OID is “S”. This value is different from the RFC 1779 X.500 key name (“S”).</li>
+<li>The X.500 key name  for stateOrProvinceName (2.5.4.8) OID is "S". This value is different from the RFC 1779 X.500 key name ("ST").</li>
 </ul>
 In addition, the following X.500 key names are not mentioned in RFC 1779, but may be returned by this API:
 
@@ -381,6 +382,10 @@ For an example that uses this function, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The wincrypt.h header defines CertNameToStr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

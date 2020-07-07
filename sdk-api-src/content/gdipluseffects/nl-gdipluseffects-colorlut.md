@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluseffects.ColorLUT
 title: ColorLUT (gdipluseffects.h)
-description: A ColorLUTParams structure has four members, each being a lookup table for a particular color channel:\_alpha, red, green, or blue.helpviewer_keywords: ["ColorLUT","ColorLUT class [GDI+]","ColorLUT class [GDI+]","described","_gdiplus_CLASS_ColorLUT_Class","gdiplus._gdiplus_CLASS_ColorLUT_Class","gdipluseffects/ColorLUT"]
+description: A ColorLUTParams structure has four members, each being a lookup table for a particular color channel:\_alpha, red, green, or blue.
+helpviewer_keywords: ["ColorLUT","ColorLUT class [GDI+]","ColorLUT class [GDI+]","described","_gdiplus_CLASS_ColorLUT_Class","gdiplus._gdiplus_CLASS_ColorLUT_Class","gdipluseffects/ColorLUT"]
 old-location: gdiplus\_gdiplus_CLASS_ColorLUT_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorlut.htm

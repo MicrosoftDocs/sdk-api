@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPViewerInputSink
 title: IRDPViewerInputSink (rdpencomapi.h)
-description: Sends mouse and keyboard events, and supports touch input.helpviewer_keywords: ["IRDPViewerInputSink","IRDPViewerInputSink class [RDP]","IRDPViewerInputSink class [RDP]","described","rdp.irdpviewerinputsink","rdpencomapi/IRDPViewerInputSink"]
+description: Sends mouse and keyboard events, and supports touch input.
+helpviewer_keywords: ["IRDPViewerInputSink","IRDPViewerInputSink class [RDP]","IRDPViewerInputSink class [RDP]","described","rdp.irdpviewerinputsink","rdpencomapi/IRDPViewerInputSink"]
 old-location: rdp\irdpviewerinputsink.htm
 tech.root: rdp
 ms.assetid: 364EC709-C41C-4ADD-8E7D-6A635E5BCCDA

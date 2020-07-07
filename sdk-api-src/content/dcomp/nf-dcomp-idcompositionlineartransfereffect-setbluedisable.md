@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionLinearTransferEffect.SetBlueDisable
 title: IDCompositionLinearTransferEffect::SetBlueDisable (dcomp.h)
-description: Specifies whether to apply the transfer function to the blue channel.helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetBlueDisable method","IDCompositionLinearTransferEffect.SetBlueDisable","IDCompositionLinearTransferEffect::SetBlueDisable","SetBlueDisable","SetBlueDisable method [DirectComposition]","SetBlueDisable method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetBlueDisable","directcomp.idcompositionlineartransfereffect_setbluedisable"]
+description: Specifies whether to apply the transfer function to the blue channel.
+helpviewer_keywords: ["IDCompositionLinearTransferEffect interface [DirectComposition]","SetBlueDisable method","IDCompositionLinearTransferEffect.SetBlueDisable","IDCompositionLinearTransferEffect::SetBlueDisable","SetBlueDisable","SetBlueDisable method [DirectComposition]","SetBlueDisable method [DirectComposition]","IDCompositionLinearTransferEffect interface","dcomp/IDCompositionLinearTransferEffect::SetBlueDisable","directcomp.idcompositionlineartransfereffect_setbluedisable"]
 old-location: directcomp\idcompositionlineartransfereffect_setbluedisable.htm
 tech.root: directcomp
 ms.assetid: DE87E53B-4469-4B30-8397-6A0712DE8A6C

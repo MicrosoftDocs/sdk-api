@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.SpGetContextTokenFn
 title: SpGetContextTokenFn (ntsecpkg.h)
-description: Obtains the token to impersonate.helpviewer_keywords: ["SpGetContextToken","SpGetContextToken callback function [Security]","SpGetContextTokenFn","SpGetContextTokenFn callback","_ssp_spgetcontexttoken","ntsecpkg/SpGetContextToken","security.spgetcontexttoken"]
+description: Obtains the token to impersonate.
+helpviewer_keywords: ["SpGetContextToken","SpGetContextToken callback function [Security]","SpGetContextTokenFn","SpGetContextTokenFn callback","_ssp_spgetcontexttoken","ntsecpkg/SpGetContextToken","security.spgetcontexttoken"]
 old-location: security\spgetcontexttoken.htm
 tech.root: SecAuthN
 ms.assetid: d2e6b57d-751d-4f07-b05b-6d3aabd60650

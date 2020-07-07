@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_CHANNEL_BIND_INFO
 title: HTTP_CHANNEL_BIND_INFO (http.h)
-description: HTTP_CHANNEL_BIND_INFO.helpviewer_keywords: ["*PHTTP_CHANNEL_BIND_INFO","HTTP_CHANNEL_BIND_INFO","HTTP_CHANNEL_BIND_INFO structure [HTTP]","PHTTP_CHANNEL_BIND_INFO","PHTTP_CHANNEL_BIND_INFO structure pointer [HTTP]","http.http_channel_bind_info","http/HTTP_CHANNEL_BIND_INFO","http/PHTTP_CHANNEL_BIND_INFO"]
+description: HTTP_CHANNEL_BIND_INFO.
+helpviewer_keywords: ["*PHTTP_CHANNEL_BIND_INFO","HTTP_CHANNEL_BIND_INFO","HTTP_CHANNEL_BIND_INFO structure [HTTP]","PHTTP_CHANNEL_BIND_INFO","PHTTP_CHANNEL_BIND_INFO structure pointer [HTTP]","http.http_channel_bind_info","http/HTTP_CHANNEL_BIND_INFO","http/PHTTP_CHANNEL_BIND_INFO"]
 old-location: http\http_channel_bind_info.htm
 tech.root: http
 ms.assetid: 60428e66-9c08-418b-99e1-6824c638f2be

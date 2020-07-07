@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IAMTimecodeDisplay
 title: IAMTimecodeDisplay (strmif.h)
-description: The IAMTimecodeDisplay interface controls an external SMPTE/MIDI timecode display device.DirectShow currently does not provide any filters that implement this interface.helpviewer_keywords: ["IAMTimecodeDisplay","IAMTimecodeDisplay interface [DirectShow]","IAMTimecodeDisplay interface [DirectShow]","described","IAMTimecodeDisplayInterface","dshow.iamtimecodedisplay","strmif/IAMTimecodeDisplay"]
+description: The IAMTimecodeDisplay interface controls an external SMPTE/MIDI timecode display device.DirectShow currently does not provide any filters that implement this interface.
+helpviewer_keywords: ["IAMTimecodeDisplay","IAMTimecodeDisplay interface [DirectShow]","IAMTimecodeDisplay interface [DirectShow]","described","IAMTimecodeDisplayInterface","dshow.iamtimecodedisplay","strmif/IAMTimecodeDisplay"]
 old-location: dshow\iamtimecodedisplay.htm
 tech.root: DirectShow
 ms.assetid: 2edfc260-5bb6-475d-b8af-252e7c7a8552

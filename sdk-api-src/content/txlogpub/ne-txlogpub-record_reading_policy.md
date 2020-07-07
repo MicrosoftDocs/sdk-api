@@ -1,7 +1,8 @@
 ---
 UID: NE:txlogpub.RECORD_READING_POLICY
 title: RECORD_READING_POLICY (txlogpub.h)
-description: Specifies a hint about the order in which records are to be read from a log.helpviewer_keywords: ["RECORD_READING_POLICY","RECORD_READING_POLICY enumeration [COM]","RECORD_READING_POLICY_BACKWARD","RECORD_READING_POLICY_FORWARD","RECORD_READING_POLICY_RANDOM","_com_RECORD_READING_POLICY","com.record_reading_policy","txlogpub/RECORD_READING_POLICY","txlogpub/RECORD_READING_POLICY_BACKWARD","txlogpub/RECORD_READING_POLICY_FORWARD","txlogpub/RECORD_READING_POLICY_RANDOM"]
+description: Specifies a hint about the order in which records are to be read from a log.
+helpviewer_keywords: ["RECORD_READING_POLICY","RECORD_READING_POLICY enumeration [COM]","RECORD_READING_POLICY_BACKWARD","RECORD_READING_POLICY_FORWARD","RECORD_READING_POLICY_RANDOM","_com_RECORD_READING_POLICY","com.record_reading_policy","txlogpub/RECORD_READING_POLICY","txlogpub/RECORD_READING_POLICY_BACKWARD","txlogpub/RECORD_READING_POLICY_FORWARD","txlogpub/RECORD_READING_POLICY_RANDOM"]
 old-location: com\record_reading_policy.htm
 tech.root: com
 ms.assetid: 79ffd37a-ffeb-46f8-8743-aa3e85648e34

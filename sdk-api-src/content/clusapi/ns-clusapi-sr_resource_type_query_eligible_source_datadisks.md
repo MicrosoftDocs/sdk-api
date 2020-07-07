@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi._SR_RESOURCE_TYPE_ELIGIBLE_SOURCE_DATADISKS
 title: SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS (clusapi.h)
-description: Describes a set of retrieved data disks that can be used as source sites for replication.helpviewer_keywords: ["*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS","PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS","PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS structure pointer [Failover Cluster]","SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS","SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS structure [Failover Cluster]","clusapi/PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS","clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS","mscs.sr_resource_type_query_eligible_source_datadisks"]
+description: Describes a set of retrieved data disks that can be used as source sites for replication.
+helpviewer_keywords: ["*PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS","PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS","PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS structure pointer [Failover Cluster]","SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS","SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS structure [Failover Cluster]","clusapi/PSR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS","clusapi/SR_RESOURCE_TYPE_QUERY_ELIGIBLE_SOURCE_DATADISKS","mscs.sr_resource_type_query_eligible_source_datadisks"]
 old-location: mscs\sr_resource_type_query_eligible_source_datadisks.htm
 tech.root: MsCS
 ms.assetid: DA64413A-0FCB-4D25-A6D0-58C1E978455E

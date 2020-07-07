@@ -1,7 +1,8 @@
 ---
 UID: NF:stringapiset.CompareStringOrdinal
 title: CompareStringOrdinal function (stringapiset.h)
-description: Compares two Unicode strings to test binary equivalence.helpviewer_keywords: ["CompareStringOrdinal","CompareStringOrdinal function [Internationalization for Windows Applications]","_win32_CompareStringOrdinal","intl.comparestringordinal","stringapiset/CompareStringOrdinal"]
+description: Compares two Unicode strings to test binary equivalence.
+helpviewer_keywords: ["CompareStringOrdinal","CompareStringOrdinal function [Internationalization for Windows Applications]","_win32_CompareStringOrdinal","intl.comparestringordinal","stringapiset/CompareStringOrdinal"]
 old-location: intl\comparestringordinal.htm
 tech.root: Intl
 ms.assetid: 6a457076-7992-4912-8ac5-2258f9651a8c

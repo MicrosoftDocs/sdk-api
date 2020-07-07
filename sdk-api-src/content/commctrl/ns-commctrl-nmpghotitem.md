@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMPGHOTITEM
 title: NMPGHOTITEM (commctrl.h)
-description: Contains information used with the PGN_HOTITEMCHANGE notification code.helpviewer_keywords: ["*LPNMPGHOTITEM","LPNMPGHOTITEM","LPNMPGHOTITEM structure pointer [Windows Controls]","NMPGHOTITEM","NMPGHOTITEM structure [Windows Controls]","commctrl/LPNMPGHOTITEM","commctrl/NMPGHOTITEM","controls.NMPGHOTITEM","controls.inet_NMPGHOTITEM","inet_NMPGHOTITEM","inet_NMPGHOTITEM_cpp"]
+description: Contains information used with the PGN_HOTITEMCHANGE notification code.
+helpviewer_keywords: ["*LPNMPGHOTITEM","LPNMPGHOTITEM","LPNMPGHOTITEM structure pointer [Windows Controls]","NMPGHOTITEM","NMPGHOTITEM structure [Windows Controls]","commctrl/LPNMPGHOTITEM","commctrl/NMPGHOTITEM","controls.NMPGHOTITEM","controls.inet_NMPGHOTITEM","inet_NMPGHOTITEM","inet_NMPGHOTITEM_cpp"]
 old-location: controls\NMPGHOTITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\structures\nmpghotitem.htm

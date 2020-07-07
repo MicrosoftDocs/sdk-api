@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.SHFreeNameMappings
 title: SHFreeNameMappings function (shellapi.h)
-description: Frees a file name mapping object that was retrieved by the SHFileOperation function.helpviewer_keywords: ["SHFreeNameMappings","SHFreeNameMappings function [Windows Shell]","_win32_SHFreeNameMappings","shell.SHFreeNameMappings","shellapi/SHFreeNameMappings"]
+description: Frees a file name mapping object that was retrieved by the SHFileOperation function.
+helpviewer_keywords: ["SHFreeNameMappings","SHFreeNameMappings function [Windows Shell]","_win32_SHFreeNameMappings","shell.SHFreeNameMappings","shellapi/SHFreeNameMappings"]
 old-location: shell\SHFreeNameMappings.htm
 tech.root: shell
 ms.assetid: 4552b2e0-9257-48f8-84cc-003217f1696f

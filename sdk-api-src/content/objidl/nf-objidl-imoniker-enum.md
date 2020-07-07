@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IMoniker.Enum
 title: IMoniker::Enum (objidl.h)
-description: Retrieves a pointer to an enumerator for the components of a composite moniker.helpviewer_keywords: ["Enum","Enum method [COM]","Enum method [COM]","IMoniker interface","IMoniker interface [COM]","Enum method","IMoniker.Enum","IMoniker::Enum","_com_imoniker_enum","com.imoniker_enum","objidl/IMoniker::Enum"]
+description: Retrieves a pointer to an enumerator for the components of a composite moniker.
+helpviewer_keywords: ["Enum","Enum method [COM]","Enum method [COM]","IMoniker interface","IMoniker interface [COM]","Enum method","IMoniker.Enum","IMoniker::Enum","_com_imoniker_enum","com.imoniker_enum","objidl/IMoniker::Enum"]
 old-location: com\imoniker_enum.htm
 tech.root: com
 ms.assetid: 7e2e4d92-d5dd-4294-944e-8b1e88901ee1

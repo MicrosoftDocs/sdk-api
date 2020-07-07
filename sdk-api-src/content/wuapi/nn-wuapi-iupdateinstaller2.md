@@ -1,7 +1,8 @@
 ---
 UID: NN:wuapi.IUpdateInstaller2
 title: IUpdateInstaller2 (wuapi.h)
-description: Installs or uninstalls updates on a computer.helpviewer_keywords: ["IUpdateInstaller2","IUpdateInstaller2 interface [Windows Update Agent]","IUpdateInstaller2 interface [Windows Update Agent]","described","wua.iupdateinstaller2","wuapi/IUpdateInstaller2"]
+description: Installs or uninstalls updates on a computer.
+helpviewer_keywords: ["IUpdateInstaller2","IUpdateInstaller2 interface [Windows Update Agent]","IUpdateInstaller2 interface [Windows Update Agent]","described","wua.iupdateinstaller2","wuapi/IUpdateInstaller2"]
 old-location: wua\iupdateinstaller2.htm
 tech.root: Wua_Sdk
 ms.assetid: 89edc91d-59a1-4e23-9adb-fc3027e2e898

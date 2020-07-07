@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock.bind
 title: bind function (winsock.h)
-description: The bind function associates a local address with a socket.helpviewer_keywords: ["_win32_bind_2","bind","bind function [Winsock]","winsock.bind_2","winsock/bind"]
+description: The bind function associates a local address with a socket.
+helpviewer_keywords: ["_win32_bind_2","bind","bind function [Winsock]","winsock.bind_2","winsock/bind"]
 old-location: winsock\bind_2.htm
 tech.root: WinSock
 ms.assetid: 3a651daa-7404-4ef7-8cff-0d3dff41a8e8
@@ -43,40 +44,25 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# bind function
-
-
 ## -description
 
-
-The 
-<b>bind</b> function associates a local address with a socket.
-
+The <b>bind</b> function associates a local address with a socket.
 
 ## -parameters
-
-
-
 
 ### -param s [in]
 
 A descriptor identifying an unbound socket.
 
-
 ### -param addr
 
 A pointer to a <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure of the local address to assign to the bound socket .
-
 
 ### -param namelen [in]
 
 The length, in bytes, of the value pointed to by the <i>name</i> parameter.
 
-
-
 ## -returns
-
-
 
 If no error occurs, 
 <b>bind</b> returns zero. Otherwise, it returns SOCKET_ERROR, and a specific error code can be retrieved by calling 
@@ -194,10 +180,7 @@ This error is returned of the socket <i>s</i> is already bound to an address.
 </dl>
 </td>
 <td width="60%">
-An operation on a socket could not be performed because the system lacked sufficient buffer space or because a queue was full.
-
-This error is returned of not enough buffers are available or there are too many connections.
-
+Typically, <b>WSAENOBUFS</b> is an indication that there aren't enough ephemeral ports to allocate for the bind.
 </td>
 </tr>
 <tr>
@@ -214,17 +197,10 @@ This error is returned if the descriptor in the <i>s</i> parameter is not a sock
 </td>
 </tr>
 </table>
- 
-
-
-
 
 ## -remarks
 
-
-
-The 
-<b>bind</b> function is required on an unconnected socket before subsequent calls to the 
+The <b>bind</b> function is required on an unconnected socket before subsequent calls to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-listen">listen</a> function. It is normally used to bind to either connection-oriented (stream) or connectionless (datagram) sockets. The 
 <b>bind</b> function may also be used to bind to a raw socket (the socket was created by calling the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>function with the <i>type</i> parameter set to SOCK_RAW). The 
 <b>bind</b> function may also be used on an unconnected socket before subsequent calls to the 
@@ -234,7 +210,6 @@ When a socket is created with a call to the
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a> function, it exists in a namespace (address family), but it has no name assigned to it. Use the 
 <b>bind</b> function to establish the local association of the socket by assigning a local name to an unnamed socket.
 
-
 A name consists of three parts when using the Internet address family:
 
 <ul>
@@ -242,7 +217,6 @@ A name consists of three parts when using the Internet address family:
 <li>A host address.</li>
 <li>A port number that identifies the application.</li>
 </ul>
-
 
 In Windows Sockets 2, the <i>name</i> parameter is not strictly interpreted as a pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/WinSock/sockaddr-2">sockaddr</a> structure. It is cast this way for Windows Sockets 1.1 compatibility. Service providers are free to regard it as a pointer to a block of memory of size <i>namelen</i>. The first 2 bytes in this block (corresponding to the <b>sa_family</b> member of the <b>sockaddr</b> structure, the <b>sin_family</b> member of the <b>sockaddr_in</b> structure, or the <b>sin6_family</b> member of the <b>sockaddr_in6</b> structure) must contain the address family that was used to create the socket. Otherwise, an error WSAEFAULT occurs.
@@ -263,7 +237,6 @@ The application can use
 <b>getsockname</b> cannot necessarily supply the address until the socket is connected, since several addresses can be valid if the host is multihomed. Binding to a specific port number other than port 0 is discouraged for client applications, since there is a danger of conflicting with another socket already using that port number on the local computer.<div class="alert"><b>Note</b>  When using <b>bind</b> with the SO_EXCLUSIVEADDRUSE or SO_REUSEADDR socket option, the socket option must be set prior to executing <b>bind</b> to have any affect. For more information, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a> and <a href="https://docs.microsoft.com/windows/desktop/WinSock/using-so-reuseaddr-and-so-exclusiveaddruse">Using SO_REUSEADDR and SO_EXCLUSIVEADDRUSE</a>.</div>
 <div> </div>
 
-
 For multicast operations, the preferred method is to call the <b>bind</b> function to associate a socket with a local IP address  and then join the multicast group. Although this order of operations is not mandatory, it is strongly recommended. So a multicast application would first select an IPv4 or IPv6  address on the local computer, the wildcard IPv4 address (<b>INADDR_ANY</b>), or the wildcard IPv6 address (<b>in6addr_any</b>). The the multicast application would then call the <b>bind</b> function with this address in the in the <b>sa_data</b> member of the <i>name</i> parameter to associate the local IP address with the socket. If a wildcard address was specified, then Windows will select the local IP address to use. After the <b>bind</b> function completes, an application would then join the multicast group of interest. For more information on how to join a multicast group, see the section on <a href="https://docs.microsoft.com/windows/desktop/WinSock/multicast-programming">Multicast Programming</a>. This socket can then be used to receive multicast packets from the multicast group using the <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recv">recv</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-recvfrom">recvfrom</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecv">WSARecv</a>, <a href="https://docs.microsoft.com/windows/desktop/api/mswsock/nf-mswsock-wsarecvex">WSARecvEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsarecvfrom">WSARecvFrom</a>, or <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms741687(v=vs.85)">WSARecvMsg</a> functions. 
 
 The <b>bind</b> function is not normally required  for send operations to  a multicast group. The <a href="https://docs.microsoft.com/windows/desktop/api/winsock/nf-winsock-sendto">sendto</a>,<a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendmsg">WSASendMsg</a>, and  <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasendto">WSASendTo</a> functions implicitly bind the socket to the wildcard address if the socket is not already bound.  The <b>bind</b> function is required before the use of the <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-send">send</a>  or <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-wsasend">WSASend</a> functions which do not perform an implicit bind and are allowed only on connected sockets, which means the socket must have already been bound for it to be connected. The <b>bind</b> function might be used before send operations using the <b>sendto</b>,<b>WSASendMsg</b>, or <b>WSASendTo</b> functions if an application wanted to select a specific local  IP address on a local computer with multiple network interfaces and local IP addresses. Otherwise an implicit bind to the wildcard address using the <b>sendto</b>,<b>WSASendMsg</b> , or <b>WSASendTo</b> functions might result in a different local IP address being used for send operations.
@@ -282,16 +255,13 @@ The <b>bind</b> function is not normally required  for send operations to  a mul
 <li>If the service name is of the form "LSAP-SELxxx," where xxx is a decimal integer in the range 1-127, the address indicates a specific LSAP-SEL xxx rather than a service name. Service names such as these allow server applications to accept incoming connections directed to a specific LSAP-SEL, without first performing an ISA service name query to get the associated LSAP-SEL. One example of this service name type is a non-Windows device that does not support IAS.</li>
 </ul>
 
-
 <b>Windows Phone 8:</b> This function is supported for Windows Phone Store apps on Windows Phone 8 and later.
 
 <b>Windows 8.1</b> and <b>Windows Server 2012 R2</b>: This function is supported for Windows Store apps on Windows 8.1, Windows Server 2012 R2, and later.
 
-
 #### Examples
 
 The following example demonstrates the use of the <b>bind</b> function. For another example that uses the <b>bind</b> function, see <a href="https://docs.microsoft.com/windows/desktop/WinSock/getting-started-with-winsock">Getting Started With Winsock</a>.
-
 
 ```cpp
 #ifndef UNICODE
@@ -359,13 +329,7 @@ int main()
     WSACleanup();
     return 0;
 }
-
-
 ```
-
-
-
-
 
 ## -see-also
 
@@ -425,7 +389,3 @@ int main()
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winsock2/nf-winsock2-socket">socket</a>
- 
-
- 
-

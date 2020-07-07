@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagLOCALESIGNATURE
 title: LOCALESIGNATURE (wingdi.h)
-description: Contains extended font signature information, including two code page bitfields (CPBs) that define the default and supported character sets and code pages. This structure is typically used to represent the relationships between font coverage and locales.helpviewer_keywords: ["*LPLOCALESIGNATURE","*PLOCALESIGNATURE","LOCALESIGNATURE","LOCALESIGNATURE structure [Internationalization for Windows Applications]","PLOCALESIGNATURE","PLOCALESIGNATURE structure pointer [Internationalization for Windows Applications]","_win32_LOCALESIGNATURE_str","intl.localesignature","wingdi/LOCALESIGNATURE","wingdi/PLOCALESIGNATURE"]
+description: Contains extended font signature information, including two code page bitfields (CPBs) that define the default and supported character sets and code pages. This structure is typically used to represent the relationships between font coverage and locales.
+helpviewer_keywords: ["*LPLOCALESIGNATURE","*PLOCALESIGNATURE","LOCALESIGNATURE","LOCALESIGNATURE structure [Internationalization for Windows Applications]","PLOCALESIGNATURE","PLOCALESIGNATURE structure pointer [Internationalization for Windows Applications]","_win32_LOCALESIGNATURE_str","intl.localesignature","wingdi/LOCALESIGNATURE","wingdi/PLOCALESIGNATURE"]
 old-location: intl\localesignature.htm
 tech.root: Intl
 ms.assetid: 54510d73-f2a2-4176-8080-cdf855e99217

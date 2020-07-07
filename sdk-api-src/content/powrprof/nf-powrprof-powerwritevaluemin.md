@@ -1,7 +1,8 @@
 ---
 UID: NF:powrprof.PowerWriteValueMin
 title: PowerWriteValueMin function (powrprof.h)
-description: Sets the minimum value for the specified power setting.helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteValueMin","PowerWriteValueMin function","base.powerwritevaluemin","powrprof/PowerWriteValueMin"]
+description: Sets the minimum value for the specified power setting.
+helpviewer_keywords: ["GUID_BATTERY_SUBGROUP","GUID_DISK_SUBGROUP","GUID_PCIEXPRESS_SETTINGS_SUBGROUP","GUID_PROCESSOR_SETTINGS_SUBGROUP","GUID_SLEEP_SUBGROUP","GUID_SYSTEM_BUTTON_SUBGROUP","GUID_VIDEO_SUBGROUP","NO_SUBGROUP_GUID","PowerWriteValueMin","PowerWriteValueMin function","base.powerwritevaluemin","powrprof/PowerWriteValueMin"]
 old-location: base\powerwritevaluemin.htm
 tech.root: power
 ms.assetid: a50861f7-4236-4692-839a-071081e09ccf

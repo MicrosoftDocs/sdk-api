@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode
 title: IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode (imapi2.h)
-description: Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD.helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_DisableConsumerDvdCompatibilityMode method","IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode","IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode","get_DisableConsumerDvdCompatibilityMode","get_DisableConsumerDvdCompatibilityMode method [IMAPI]","get_DisableConsumerDvdCompatibilityMode method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_disableconsumerdvdcompatibilitymode","imapi2/IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode"]
+description: Determines if a DVD recording session includes tasks that can increase the chance that a device can play the DVD.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_DisableConsumerDvdCompatibilityMode method","IDiscFormat2Data.get_DisableConsumerDvdCompatibilityMode","IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode","get_DisableConsumerDvdCompatibilityMode","get_DisableConsumerDvdCompatibilityMode method [IMAPI]","get_DisableConsumerDvdCompatibilityMode method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_disableconsumerdvdcompatibilitymode","imapi2/IDiscFormat2Data::get_DisableConsumerDvdCompatibilityMode"]
 old-location: imapi\idiscformat2data_get_disableconsumerdvdcompatibilitymode.htm
 tech.root: imapi
 ms.assetid: dc88f657-0ec1-488d-8110-055de06c2d58

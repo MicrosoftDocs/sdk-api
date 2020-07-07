@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManEx.EnumerationFlagReturnObject
 title: IWSManEx::EnumerationFlagReturnObject (wsmandisp.h)
-description: Returns the value of the enumeration constant EnumerationFlagReturnObject for use in the flags parameter of the IWSManSession::Enumerate method.helpviewer_keywords: ["EnumerationFlagReturnObject","EnumerationFlagReturnObject method [Windows Remote Management]","EnumerationFlagReturnObject method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","EnumerationFlagReturnObject method","IWSManEx.EnumerationFlagReturnObject","IWSManEx::EnumerationFlagReturnObject","winrm.iwsmanex_enumerationflagreturnobject","wsmandisp/IWSManEx::EnumerationFlagReturnObject"]
+description: Returns the value of the enumeration constant EnumerationFlagReturnObject for use in the flags parameter of the IWSManSession::Enumerate method.
+helpviewer_keywords: ["EnumerationFlagReturnObject","EnumerationFlagReturnObject method [Windows Remote Management]","EnumerationFlagReturnObject method [Windows Remote Management]","IWSManEx interface","IWSManEx interface [Windows Remote Management]","EnumerationFlagReturnObject method","IWSManEx.EnumerationFlagReturnObject","IWSManEx::EnumerationFlagReturnObject","winrm.iwsmanex_enumerationflagreturnobject","wsmandisp/IWSManEx::EnumerationFlagReturnObject"]
 old-location: winrm\iwsmanex_enumerationflagreturnobject.htm
 tech.root: winrm
 ms.assetid: 19993342-a805-4d92-ac80-40f568b53800

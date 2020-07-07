@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDeviceIds.get_Item
 title: IFaxDeviceIds::get_Item (faxcomex.h)
-description: The IFaxDeviceIds::get_Item method represents a device ID from the FaxDeviceIds collection.helpviewer_keywords: ["IFaxDeviceIds interface [Fax Service]","get_Item method","IFaxDeviceIds.get_Item","IFaxDeviceIds::get_Item","_mfax_faxdeviceids.item_cpp","fax._mfax_faxdeviceids_item_cpp","faxcomex/IFaxDeviceIds::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxDeviceIds interface"]
+description: The IFaxDeviceIds::get_Item method represents a device ID from the FaxDeviceIds collection.
+helpviewer_keywords: ["IFaxDeviceIds interface [Fax Service]","get_Item method","IFaxDeviceIds.get_Item","IFaxDeviceIds::get_Item","_mfax_faxdeviceids.item_cpp","fax._mfax_faxdeviceids_item_cpp","faxcomex/IFaxDeviceIds::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxDeviceIds interface"]
 old-location: fax\_mfax_faxdeviceids_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0xt9_cpp.htm

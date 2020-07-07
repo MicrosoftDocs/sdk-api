@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectImpl.Initialize
 title: ID2D1EffectImpl::Initialize (d2d1effectauthor.h)
-description: The effect can use this method to do one time initialization tasks.helpviewer_keywords: ["ID2D1EffectImpl interface [Direct2D]","Initialize method","ID2D1EffectImpl.Initialize","ID2D1EffectImpl::Initialize","Initialize","Initialize method [Direct2D]","Initialize method [Direct2D]","ID2D1EffectImpl interface","d2d1effectauthor/ID2D1EffectImpl::Initialize","direct2d.id2d1effectimpl_initialize"]
+description: The effect can use this method to do one time initialization tasks.
+helpviewer_keywords: ["ID2D1EffectImpl interface [Direct2D]","Initialize method","ID2D1EffectImpl.Initialize","ID2D1EffectImpl::Initialize","Initialize","Initialize method [Direct2D]","Initialize method [Direct2D]","ID2D1EffectImpl interface","d2d1effectauthor/ID2D1EffectImpl::Initialize","direct2d.id2d1effectimpl_initialize"]
 old-location: direct2d\id2d1effectimpl_initialize.htm
 tech.root: Direct2D
 ms.assetid: BC5A6B97-6BA8-4C97-9F8B-D87EBCD80A98

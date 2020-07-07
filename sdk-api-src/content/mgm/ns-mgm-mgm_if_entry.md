@@ -1,7 +1,8 @@
 ---
 UID: NS:mgm._MGM_IF_ENTRY
 title: MGM_IF_ENTRY (mgm.h)
-description: The MGM_IF_ENTRY structure describes a router interface.helpviewer_keywords: ["*PMGM_IF_ENTRY","MGM_IF_ENTRY","MGM_IF_ENTRY structure [RAS]","PMGM_IF_ENTRY","PMGM_IF_ENTRY structure pointer [RAS]","_mpr_mgm_if_entry_str","mgm/MGM_IF_ENTRY","mgm/PMGM_IF_ENTRY","rras.mgm_if_entry_str"]
+description: The MGM_IF_ENTRY structure describes a router interface.
+helpviewer_keywords: ["*PMGM_IF_ENTRY","MGM_IF_ENTRY","MGM_IF_ENTRY structure [RAS]","PMGM_IF_ENTRY","PMGM_IF_ENTRY structure pointer [RAS]","_mpr_mgm_if_entry_str","mgm/MGM_IF_ENTRY","mgm/PMGM_IF_ENTRY","rras.mgm_if_entry_str"]
 old-location: rras\mgm_if_entry_str.htm
 tech.root: RRAS
 ms.assetid: df3d18fe-1f73-47fd-aab8-818f83c7fcb9

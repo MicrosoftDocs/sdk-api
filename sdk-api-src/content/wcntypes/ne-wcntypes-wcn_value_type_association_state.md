@@ -1,7 +1,8 @@
 ---
 UID: NE:wcntypes.tagWCN_VALUE_TYPE_ASSOCIATION_STATE
 title: WCN_VALUE_TYPE_ASSOCIATION_STATE (wcntypes.h)
-description: WCN_VALUE_TYPE_ASSOCIATION_STATE enumeration defines the possible association states of a wireless station during a Discovery request.helpviewer_keywords: ["WCN_VALUE_AS_ASSOCIATION_FAILURE","WCN_VALUE_AS_CONFIGURATION_FAILURE","WCN_VALUE_AS_CONNECTION_SUCCESS","WCN_VALUE_AS_IP_FAILURE","WCN_VALUE_AS_NOT_ASSOCIATED","WCN_VALUE_TYPE_ASSOCIATION_STATE","WCN_VALUE_TYPE_ASSOCIATION_STATE enumeration [Windows Connect Now]","wcn.wcn_value_type_association_state","wcntypes/WCN_VALUE_AS_ASSOCIATION_FAILURE","wcntypes/WCN_VALUE_AS_CONFIGURATION_FAILURE","wcntypes/WCN_VALUE_AS_CONNECTION_SUCCESS","wcntypes/WCN_VALUE_AS_IP_FAILURE","wcntypes/WCN_VALUE_AS_NOT_ASSOCIATED","wcntypes/WCN_VALUE_TYPE_ASSOCIATION_STATE"]
+description: WCN_VALUE_TYPE_ASSOCIATION_STATE enumeration defines the possible association states of a wireless station during a Discovery request.
+helpviewer_keywords: ["WCN_VALUE_AS_ASSOCIATION_FAILURE","WCN_VALUE_AS_CONFIGURATION_FAILURE","WCN_VALUE_AS_CONNECTION_SUCCESS","WCN_VALUE_AS_IP_FAILURE","WCN_VALUE_AS_NOT_ASSOCIATED","WCN_VALUE_TYPE_ASSOCIATION_STATE","WCN_VALUE_TYPE_ASSOCIATION_STATE enumeration [Windows Connect Now]","wcn.wcn_value_type_association_state","wcntypes/WCN_VALUE_AS_ASSOCIATION_FAILURE","wcntypes/WCN_VALUE_AS_CONFIGURATION_FAILURE","wcntypes/WCN_VALUE_AS_CONNECTION_SUCCESS","wcntypes/WCN_VALUE_AS_IP_FAILURE","wcntypes/WCN_VALUE_AS_NOT_ASSOCIATED","wcntypes/WCN_VALUE_TYPE_ASSOCIATION_STATE"]
 old-location: wcn\wcn_value_type_association_state.htm
 tech.root: wcn
 ms.assetid: 0e225d34-d58e-49ae-8642-7070e3906fb3

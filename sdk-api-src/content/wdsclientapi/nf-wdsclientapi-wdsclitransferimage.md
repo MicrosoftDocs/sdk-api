@@ -1,7 +1,8 @@
 ---
 UID: NF:wdsclientapi.WdsCliTransferImage
 title: WdsCliTransferImage function (wdsclientapi.h)
-description: Transfers an image from a WDS server to the WDS client.helpviewer_keywords: ["WDS_CLI_TRANSFER_ASYNCHRONOUS","WdsCliTransferImage","WdsCliTransferImage function [Windows Deployment Services]","wds.wdsclitransferimage","wdsclientapi/WdsCliTransferImage"]
+description: Transfers an image from a WDS server to the WDS client.
+helpviewer_keywords: ["WDS_CLI_TRANSFER_ASYNCHRONOUS","WdsCliTransferImage","WdsCliTransferImage function [Windows Deployment Services]","wds.wdsclitransferimage","wdsclientapi/WdsCliTransferImage"]
 old-location: wds\wdsclitransferimage.htm
 tech.root: wds
 ms.assetid: 43590cee-20d5-47da-8e35-fa4fda1da175

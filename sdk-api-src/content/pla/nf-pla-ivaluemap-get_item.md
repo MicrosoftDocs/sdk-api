@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IValueMap.get_Item
 title: IValueMap::get_Item (pla.h)
-description: Retrieves the requested item from the collection.helpviewer_keywords: ["IValueMap interface [PLA]","Item property","IValueMap.Item","IValueMap.get_Item","IValueMap::Item","IValueMap::get_Item","Item property [PLA]","Item property [PLA]","IValueMap interface","base.ivaluemap_item","get_Item","pla.ivaluemap_item","pla/IValueMap::Item","pla/IValueMap::get_Item"]
+description: Retrieves the requested item from the collection.
+helpviewer_keywords: ["IValueMap interface [PLA]","Item property","IValueMap.Item","IValueMap.get_Item","IValueMap::Item","IValueMap::get_Item","Item property [PLA]","Item property [PLA]","IValueMap interface","base.ivaluemap_item","get_Item","pla.ivaluemap_item","pla/IValueMap::Item","pla/IValueMap::get_Item"]
 old-location: pla\ivaluemap_item.htm
 tech.root: PLA
 ms.assetid: a01f134d-9700-4826-9040-d5d6340241de

@@ -1,7 +1,8 @@
 ---
 UID: NF:mmdeviceapi.IMMDevice.GetId
 title: IMMDevice::GetId (mmdeviceapi.h)
-description: The GetId method retrieves an endpoint ID string that identifies the audio endpoint device.helpviewer_keywords: ["GetId","GetId method [Core Audio]","GetId method [Core Audio]","IMMDevice interface","IMMDevice interface [Core Audio]","GetId method","IMMDevice.GetId","IMMDevice::GetId","IMMDeviceGetId","coreaudio.immdevice_getid","mmdeviceapi/IMMDevice::GetId"]
+description: The GetId method retrieves an endpoint ID string that identifies the audio endpoint device.
+helpviewer_keywords: ["GetId","GetId method [Core Audio]","GetId method [Core Audio]","IMMDevice interface","IMMDevice interface [Core Audio]","GetId method","IMMDevice.GetId","IMMDevice::GetId","IMMDeviceGetId","coreaudio.immdevice_getid","mmdeviceapi/IMMDevice::GetId"]
 old-location: coreaudio\immdevice_getid.htm
 tech.root: CoreAudio
 ms.assetid: b2f56713-856c-408e-8993-1d13e234dc89

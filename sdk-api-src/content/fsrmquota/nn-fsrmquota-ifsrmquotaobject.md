@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaObject
 title: IFsrmQuotaObject (fsrmquota.h)
-description: Base class for the quota and automatic quota interfaces.helpviewer_keywords: ["IFsrmQuotaObject","IFsrmQuotaObject interface [File Server Resource Manager]","IFsrmQuotaObject interface [File Server Resource Manager]","described","fs.ifsrmquotaobject","fsrm.ifsrmquotaobject","fsrm/IFsrmQuotaObject"]
+description: Base class for the quota and automatic quota interfaces.
+helpviewer_keywords: ["IFsrmQuotaObject","IFsrmQuotaObject interface [File Server Resource Manager]","IFsrmQuotaObject interface [File Server Resource Manager]","described","fs.ifsrmquotaobject","fsrm.ifsrmquotaobject","fsrm/IFsrmQuotaObject"]
 old-location: fsrm\ifsrmquotaobject.htm
 tech.root: fsrm
 ms.assetid: 80c01faf-717e-4375-8772-c61f04a7d7f3

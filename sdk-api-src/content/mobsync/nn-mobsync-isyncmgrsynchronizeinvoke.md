@@ -1,7 +1,8 @@
 ---
 UID: NN:mobsync.ISyncMgrSynchronizeInvoke
 title: ISyncMgrSynchronizeInvoke (mobsync.h)
-description: Exposes methods that enable a registered application to invoke the synchronization manager to update items.helpviewer_keywords: ["ISyncMgrSynchronizeInvoke","ISyncMgrSynchronizeInvoke interface [Windows Shell]","ISyncMgrSynchronizeInvoke interface [Windows Shell]","described","mobsync/ISyncMgrSynchronizeInvoke","shell.syncmgr_isyncmgrsynchronizeinvoke","syncmgr.isyncmgrsynchronizeinvoke"]
+description: Exposes methods that enable a registered application to invoke the synchronization manager to update items.
+helpviewer_keywords: ["ISyncMgrSynchronizeInvoke","ISyncMgrSynchronizeInvoke interface [Windows Shell]","ISyncMgrSynchronizeInvoke interface [Windows Shell]","described","mobsync/ISyncMgrSynchronizeInvoke","shell.syncmgr_isyncmgrsynchronizeinvoke","syncmgr.isyncmgrsynchronizeinvoke"]
 old-location: shell\syncmgr_isyncmgrsynchronizeinvoke.htm
 tech.root: shell
 ms.assetid: 993fd482-39e0-4966-ba71-eed7e4b54f72

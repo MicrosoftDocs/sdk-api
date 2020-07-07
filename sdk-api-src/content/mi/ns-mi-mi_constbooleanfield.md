@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_ConstBooleanField
 title: MI_ConstBooleanField (mi.h)
-description: Represents a property inside an MI_Instance structure.helpviewer_keywords: ["MI_ConstBooleanField","MI_ConstBooleanField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstBooleanField","wmi._mi_constbooleanfield","wmi_v2.mi_constbooleanfield"]
+description: Represents a property inside an MI_Instance structure.
+helpviewer_keywords: ["MI_ConstBooleanField","MI_ConstBooleanField structure [Windows Management Infrastructure (MI)]","MI_FLAG_ADOPT","MI_FLAG_BORROW","MI_FLAG_NOT_MODIFIED","MI_FLAG_NULL","mi/MI_ConstBooleanField","wmi._mi_constbooleanfield","wmi_v2.mi_constbooleanfield"]
 old-location: wmi_v2\mi_constbooleanfield.htm
 tech.root: wmi_v2
 ms.assetid: bc03e921-e1e5-43ee-b4cb-5bc3881243d0

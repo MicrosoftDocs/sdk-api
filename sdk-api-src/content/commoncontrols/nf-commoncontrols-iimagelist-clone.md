@@ -1,7 +1,8 @@
 ---
 UID: NF:commoncontrols.IImageList.Clone
 title: IImageList::Clone (commoncontrols.h)
-description: Clones an existing image list.helpviewer_keywords: ["Clone","Clone method [Windows Controls]","Clone method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","Clone method","IImageList.Clone","IImageList::Clone","comctl_IImageList_Clone","comctl_IImageList_Clone_cpp","commoncontrols/IImageList::Clone","controls.IImageList_Clone","controls.comctl_IImageList_Clone"]
+description: Clones an existing image list.
+helpviewer_keywords: ["Clone","Clone method [Windows Controls]","Clone method [Windows Controls]","IImageList interface","IImageList interface [Windows Controls]","Clone method","IImageList.Clone","IImageList::Clone","comctl_IImageList_Clone","comctl_IImageList_Clone_cpp","commoncontrols/IImageList::Clone","controls.IImageList_Clone","controls.comctl_IImageList_Clone"]
 old-location: controls\IImageList_Clone.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist\clone.htm

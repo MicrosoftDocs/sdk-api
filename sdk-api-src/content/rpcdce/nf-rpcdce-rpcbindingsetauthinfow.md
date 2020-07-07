@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingSetAuthInfoW
 title: RpcBindingSetAuthInfoW function (rpcdce.h)
-description: The RpcBindingSetAuthInfo function sets a binding handle's authentication and authorization information.helpviewer_keywords: ["RpcBindingSetAuthInfo","RpcBindingSetAuthInfo function [RPC]","RpcBindingSetAuthInfoA","RpcBindingSetAuthInfoW","_rpc_rpcbindingsetauthinfo","rpc.rpcbindingsetauthinfo","rpcdce/RpcBindingSetAuthInfo","rpcdce/RpcBindingSetAuthInfoA","rpcdce/RpcBindingSetAuthInfoW"]
+description: The RpcBindingSetAuthInfo function sets a binding handle's authentication and authorization information.
+helpviewer_keywords: ["RpcBindingSetAuthInfo","RpcBindingSetAuthInfo function [RPC]","RpcBindingSetAuthInfoA","RpcBindingSetAuthInfoW","_rpc_rpcbindingsetauthinfo","rpc.rpcbindingsetauthinfo","rpcdce/RpcBindingSetAuthInfo","rpcdce/RpcBindingSetAuthInfoA","rpcdce/RpcBindingSetAuthInfoW"]
 old-location: rpc\rpcbindingsetauthinfo.htm
 tech.root: Rpc
 ms.assetid: 2db946b6-6a0d-402c-89ef-68c7489aa7ee
@@ -95,9 +96,6 @@ If RPC_C_AUTHN_DEFAULT is specified, the RPC run-time library uses the RPC_C_AUT
 Handle to the structure containing the client's authentication and authorization credentials appropriate for the selected authentication and authorization service.When using the RPC_C_AUTHN_WINNT authentication service <i>AuthIdentity</i> should be a pointer to a 
 <a href="https://docs.microsoft.com/windows/desktop/api/rpcdce/ns-rpcdce-sec_winnt_auth_identity_a">SEC_WINNT_AUTH_IDENTITY</a> structure (defined in Rpcdce.h). Kerberos and Negotiate authentication services also use the 
 <b>SEC_WINNT_AUTH_IDENTITY</b> structure. 
-
-
-
 
 When you select the RPC_C_AUTHN_GSS_SCHANNEL authentication service, the <i>AuthIdentity</i> parameter should be a pointer to an <b>SCHANNEL_CRED</b> structure (defined in Schannel.h). Specify a null value to use the security login context for the current address space. Pass the value RPC_C_NO_CREDENTIALS to use an anonymous log-in context.
 
@@ -201,6 +199,10 @@ Due to varying requirements of different versions of Microsoft RPC, Microsoft re
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The rpcdce.h header defines RpcBindingSetAuthInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_DIRECTDRAW_GLOBAL
 title: DD_DIRECTDRAW_GLOBAL (ddrawint.h)
-description: The DD_DIRECTDRAW_GLOBAL structure contains driver information that describes the driver's device.helpviewer_keywords: ["*PDD_DIRECTDRAW_GLOBAL","DD_DIRECTDRAW_GLOBAL","DD_DIRECTDRAW_GLOBAL structure [Display Devices]","ddrawint/DD_DIRECTDRAW_GLOBAL","ddstrcts_d176c3e5-1e8b-4ff6-ba62-2fcfc42a9e5b.xml","display.dd_directdraw_global"]
+description: The DD_DIRECTDRAW_GLOBAL structure contains driver information that describes the driver's device.
+helpviewer_keywords: ["*PDD_DIRECTDRAW_GLOBAL","DD_DIRECTDRAW_GLOBAL","DD_DIRECTDRAW_GLOBAL structure [Display Devices]","ddrawint/DD_DIRECTDRAW_GLOBAL","ddstrcts_d176c3e5-1e8b-4ff6-ba62-2fcfc42a9e5b.xml","display.dd_directdraw_global"]
 old-location: display\dd_directdraw_global.htm
 tech.root: display
 ms.assetid: a59f064b-48cf-4491-82cd-84f59467af87

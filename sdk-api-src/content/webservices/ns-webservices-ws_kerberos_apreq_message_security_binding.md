@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING
 title: WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING (webservices.h)
-description: The security binding subtype for specifying the use of the Kerberos AP_REQ ticket as a direct (i.e., without establishing a session) security token with WS-Security.helpviewer_keywords: ["WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING","WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING structure [Web Services for Windows]","webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING","wsw.ws_kerberos_apreq_message_security_binding"]
+description: The security binding subtype for specifying the use of the Kerberos AP_REQ ticket as a direct (i.e., without establishing a session) security token with WS-Security.
+helpviewer_keywords: ["WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING","WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING structure [Web Services for Windows]","webservices/WS_KERBEROS_APREQ_MESSAGE_SECURITY_BINDING","wsw.ws_kerberos_apreq_message_security_binding"]
 old-location: wsw\ws_kerberos_apreq_message_security_binding.htm
 tech.root: wsw
 ms.assetid: 03127248-f5cc-44da-9c3d-abf016dd6bb2

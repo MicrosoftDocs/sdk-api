@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.AddAlternativeLocationMapping
 title: IVssBackupComponents::AddAlternativeLocationMapping (vsbackup.h)
-description: The AddAlternativeLocationMapping method is used by a requester to indicate that an alternate location mapping was used to restore all the members of a file set in a given component.helpviewer_keywords: ["AddAlternativeLocationMapping","AddAlternativeLocationMapping method [VSS]","AddAlternativeLocationMapping method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","AddAlternativeLocationMapping method","IVssBackupComponents.AddAlternativeLocationMapping","IVssBackupComponents::AddAlternativeLocationMapping","_win32_ivssbackupcomponents_addalternativelocationmapping","base.ivssbackupcomponents_addalternativelocationmapping","vsbackup/IVssBackupComponents::AddAlternativeLocationMapping"]
+description: The AddAlternativeLocationMapping method is used by a requester to indicate that an alternate location mapping was used to restore all the members of a file set in a given component.
+helpviewer_keywords: ["AddAlternativeLocationMapping","AddAlternativeLocationMapping method [VSS]","AddAlternativeLocationMapping method [VSS]","IVssBackupComponents interface","IVssBackupComponents interface [VSS]","AddAlternativeLocationMapping method","IVssBackupComponents.AddAlternativeLocationMapping","IVssBackupComponents::AddAlternativeLocationMapping","_win32_ivssbackupcomponents_addalternativelocationmapping","base.ivssbackupcomponents_addalternativelocationmapping","vsbackup/IVssBackupComponents::AddAlternativeLocationMapping"]
 old-location: base\ivssbackupcomponents_addalternativelocationmapping.htm
 tech.root: VSS
 ms.assetid: 349ec124-f3f5-4142-8600-8d9f508c9bb2

@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.ISCPSecureExchange2
 title: ISCPSecureExchange2 (mswmdm.h)
-description: The ISCPSecureExchange2 interface extends ISCPSecureExchange by providing a new version of the TransferContainerData method.helpviewer_keywords: ["ISCPSecureExchange2","ISCPSecureExchange2 interface [windows Media Device Manager]","ISCPSecureExchange2 interface [windows Media Device Manager]","described","ISCPSecureExchange2Interface","mswmdm/ISCPSecureExchange2","wmdm.iscpsecureexchange2"]
+description: The ISCPSecureExchange2 interface extends ISCPSecureExchange by providing a new version of the TransferContainerData method.
+helpviewer_keywords: ["ISCPSecureExchange2","ISCPSecureExchange2 interface [windows Media Device Manager]","ISCPSecureExchange2 interface [windows Media Device Manager]","described","ISCPSecureExchange2Interface","mswmdm/ISCPSecureExchange2","wmdm.iscpsecureexchange2"]
 old-location: wmdm\iscpsecureexchange2.htm
 tech.root: WMDM
 ms.assetid: 815fd9b9-2186-40e2-8d72-e6bf91fd45c9

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d9.IDirect3DDevice9Video.CreateAuthenticatedChannel
 title: IDirect3DDevice9Video::CreateAuthenticatedChannel (d3d9.h)
-description: Creates a channel to communicate with the Direct3D device or the graphics driver.helpviewer_keywords: ["CreateAuthenticatedChannel","CreateAuthenticatedChannel method [Media Foundation]","CreateAuthenticatedChannel method [Media Foundation]","IDirect3DDevice9Video interface","IDirect3DDevice9Video interface [Media Foundation]","CreateAuthenticatedChannel method","IDirect3DDevice9Video.CreateAuthenticatedChannel","IDirect3DDevice9Video::CreateAuthenticatedChannel","d3d9/IDirect3DDevice9Video::CreateAuthenticatedChannel","mf.idirect3ddevice9video_createauthenticatedchannel"]
+description: Creates a channel to communicate with the Direct3D device or the graphics driver.
+helpviewer_keywords: ["CreateAuthenticatedChannel","CreateAuthenticatedChannel method [Media Foundation]","CreateAuthenticatedChannel method [Media Foundation]","IDirect3DDevice9Video interface","IDirect3DDevice9Video interface [Media Foundation]","CreateAuthenticatedChannel method","IDirect3DDevice9Video.CreateAuthenticatedChannel","IDirect3DDevice9Video::CreateAuthenticatedChannel","d3d9/IDirect3DDevice9Video::CreateAuthenticatedChannel","mf.idirect3ddevice9video_createauthenticatedchannel"]
 old-location: mf\idirect3ddevice9video_createauthenticatedchannel.htm
 tech.root: medfound
 ms.assetid: e0dcfc3f-ede3-4917-8806-6bd343154cf8

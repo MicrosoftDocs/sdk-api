@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.MsgWaitForMultipleObjects
 title: MsgWaitForMultipleObjects function (winuser.h)
-description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses. The objects can include input event objects.helpviewer_keywords: ["MsgWaitForMultipleObjects","MsgWaitForMultipleObjects function","QS_ALLEVENTS","QS_ALLINPUT","QS_ALLPOSTMESSAGE","QS_HOTKEY","QS_INPUT","QS_KEY","QS_MOUSE","QS_MOUSEBUTTON","QS_MOUSEMOVE","QS_PAINT","QS_POSTMESSAGE","QS_RAWINPUT","QS_SENDMESSAGE","QS_TIMER","_win32_msgwaitformultipleobjects","base.msgwaitformultipleobjects","winuser/MsgWaitForMultipleObjects"]
+description: Waits until one or all of the specified objects are in the signaled state or the time-out interval elapses. The objects can include input event objects.
+helpviewer_keywords: ["MsgWaitForMultipleObjects","MsgWaitForMultipleObjects function","QS_ALLEVENTS","QS_ALLINPUT","QS_ALLPOSTMESSAGE","QS_HOTKEY","QS_INPUT","QS_KEY","QS_MOUSE","QS_MOUSEBUTTON","QS_MOUSEMOVE","QS_PAINT","QS_POSTMESSAGE","QS_RAWINPUT","QS_SENDMESSAGE","QS_TIMER","_win32_msgwaitformultipleobjects","base.msgwaitformultipleobjects","winuser/MsgWaitForMultipleObjects"]
 old-location: base\msgwaitformultipleobjects.htm
 tech.root: Sync
 ms.assetid: 0629f1b3-6805-43a7-9aeb-4f80939ec62c
@@ -95,6 +96,9 @@ If this parameter is <b>TRUE</b>, the function returns when the states of all ob
 
 The time-out interval, in milliseconds. If a nonzero value is specified, the function waits until the specified objects are signaled or the interval elapses. If <i>dwMilliseconds</i> is zero, the function does not enter a wait state if the specified objects are not signaled; it always returns immediately. If <i>dwMilliseconds</i> is <b>INFINITE</b>, the function will return only when the specified objects are signaled.
 
+<b>Windows XP, Windows Server 2003, Windows Vista, Windows 7, Windows Server 2008 and Windows Server 2008 R2:  </b>The <i>dwMilliseconds</i> value does include time spent in low-power states. For example, the timeout does keep counting down while the computer is asleep.
+
+<b>Windows 8, Windows Server 2012, Windows 8.1, Windows Server 2012 R2, Windows 10 and Windows Server 2016:  </b>The <i>dwMilliseconds</i> value does not include time spent in low-power states. For example, the timeout does not keep counting down while the computer is asleep.
 
 ### -param dwWakeMask [in]
 

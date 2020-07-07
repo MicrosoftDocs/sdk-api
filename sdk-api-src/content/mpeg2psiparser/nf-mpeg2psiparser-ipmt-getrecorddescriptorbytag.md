@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.IPMT.GetRecordDescriptorByTag
 title: IPMT::GetRecordDescriptorByTag (mpeg2psiparser.h)
-description: The GetRecordDescriptorByTag method searches a record in the PMT for a descriptor with a specified descriptor tag.helpviewer_keywords: ["GetRecordDescriptorByTag","GetRecordDescriptorByTag method [Microsoft TV Technologies]","GetRecordDescriptorByTag method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","GetRecordDescriptorByTag method","IPMT.GetRecordDescriptorByTag","IPMT::GetRecordDescriptorByTag","IPMTGetRecordDescriptorByTag","mpeg2psiparser/IPMT::GetRecordDescriptorByTag","mstv.ipmt_getrecorddescriptorbytag"]
+description: The GetRecordDescriptorByTag method searches a record in the PMT for a descriptor with a specified descriptor tag.
+helpviewer_keywords: ["GetRecordDescriptorByTag","GetRecordDescriptorByTag method [Microsoft TV Technologies]","GetRecordDescriptorByTag method [Microsoft TV Technologies]","IPMT interface","IPMT interface [Microsoft TV Technologies]","GetRecordDescriptorByTag method","IPMT.GetRecordDescriptorByTag","IPMT::GetRecordDescriptorByTag","IPMTGetRecordDescriptorByTag","mpeg2psiparser/IPMT::GetRecordDescriptorByTag","mstv.ipmt_getrecorddescriptorbytag"]
 old-location: mstv\ipmt_getrecorddescriptorbytag.htm
 tech.root: mstv
 ms.assetid: 7ed3dd22-331a-419a-ab30-5645e259e36a

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetTapeParameters
 title: GetTapeParameters function (winbase.h)
-description: Retrieves information that describes the tape or the tape drive.helpviewer_keywords: ["GET_TAPE_DRIVE_INFORMATION","GET_TAPE_MEDIA_INFORMATION","GetTapeParameters","GetTapeParameters function [Backup]","_win32_gettapeparameters","backup.gettapeparameters","base.gettapeparameters","winbase/GetTapeParameters"]
+description: Retrieves information that describes the tape or the tape drive.
+helpviewer_keywords: ["GET_TAPE_DRIVE_INFORMATION","GET_TAPE_MEDIA_INFORMATION","GetTapeParameters","GetTapeParameters function [Backup]","_win32_gettapeparameters","backup.gettapeparameters","base.gettapeparameters","winbase/GetTapeParameters"]
 old-location: backup\gettapeparameters.htm
 tech.root: Backup
 ms.assetid: 87e59e29-e174-4462-b692-512c3380eb4d

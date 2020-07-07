@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner2.get_TunerModes
 title: IMSVidAnalogTuner2::get_TunerModes (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IMSVidAnalogTuner2 interface [Microsoft TV Technologies]","get_TunerModes method","IMSVidAnalogTuner2.get_TunerModes","IMSVidAnalogTuner2::get_TunerModes","IMSVidAnalogTuner2getTunerModes","get_TunerModes","get_TunerModes method [Microsoft TV Technologies]","get_TunerModes method [Microsoft TV Technologies]","IMSVidAnalogTuner2 interface","mstv.imsvidanalogtuner2_get_tunermodes","segment/IMSVidAnalogTuner2::get_TunerModes"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IMSVidAnalogTuner2 interface [Microsoft TV Technologies]","get_TunerModes method","IMSVidAnalogTuner2.get_TunerModes","IMSVidAnalogTuner2::get_TunerModes","IMSVidAnalogTuner2getTunerModes","get_TunerModes","get_TunerModes method [Microsoft TV Technologies]","get_TunerModes method [Microsoft TV Technologies]","IMSVidAnalogTuner2 interface","mstv.imsvidanalogtuner2_get_tunermodes","segment/IMSVidAnalogTuner2::get_TunerModes"]
 old-location: mstv\imsvidanalogtuner2_get_tunermodes.htm
 tech.root: mstv
 ms.assetid: dc5652d4-aa1d-480e-a5f4-05ed9d9b1887

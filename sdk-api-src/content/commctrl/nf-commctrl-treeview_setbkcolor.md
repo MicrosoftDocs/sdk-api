@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_SetBkColor
 title: TreeView_SetBkColor macro (commctrl.h)
-description: Sets the background color of the control. You can use this macro or send the TVM_SETBKCOLOR message explicitly.helpviewer_keywords: ["TreeView_SetBkColor","TreeView_SetBkColor macro [Windows Controls]","_win32_TreeView_SetBkColor","_win32_TreeView_SetBkColor_cpp","commctrl/TreeView_SetBkColor","controls.TreeView_SetBkColor","controls._win32_TreeView_SetBkColor"]
+description: Sets the background color of the control. You can use this macro or send the TVM_SETBKCOLOR message explicitly.
+helpviewer_keywords: ["TreeView_SetBkColor","TreeView_SetBkColor macro [Windows Controls]","_win32_TreeView_SetBkColor","_win32_TreeView_SetBkColor_cpp","commctrl/TreeView_SetBkColor","controls.TreeView_SetBkColor","controls._win32_TreeView_SetBkColor"]
 old-location: controls\TreeView_SetBkColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setbkcolor.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkvalidate.WMIsAvailableOffline
 title: WMIsAvailableOffline function (wmsdkvalidate.h)
-description: The WMIsAvailableOffline function verifies that an ASF file can be played from a cached copy.helpviewer_keywords: ["WMIsAvailableOffline","WMIsAvailableOffline function [windows Media Format]","wmformat.wmisavailableoffline","wmsdkvalidate/WMIsAvailableOffline"]
+description: The WMIsAvailableOffline function verifies that an ASF file can be played from a cached copy.
+helpviewer_keywords: ["WMIsAvailableOffline","WMIsAvailableOffline function [windows Media Format]","wmformat.wmisavailableoffline","wmsdkvalidate/WMIsAvailableOffline"]
 old-location: wmformat\wmisavailableoffline.htm
 tech.root: wmformat
 ms.assetid: caa700ba-143e-454b-9016-6e79c0a83271

@@ -1,7 +1,8 @@
 ---
 UID: NF:inspectable.HSTRING_UserSize64
 title: HSTRING_UserSize64 function (inspectable.h)
-description: Calculates the wire size of the HSTRING object, and gets its handle and data.helpviewer_keywords: ["HSTRING_UserSize64","HSTRING_UserSize64 function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserSize64","winrt.hstring_usersize64"]
+description: Calculates the wire size of the HSTRING object, and gets its handle and data.
+helpviewer_keywords: ["HSTRING_UserSize64","HSTRING_UserSize64 function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserSize64","winrt.hstring_usersize64"]
 old-location: winrt\hstring_usersize64.htm
 tech.root: WinRT
 ms.assetid: 38ACC82C-959C-4E15-ABEF-0B92EE712E87

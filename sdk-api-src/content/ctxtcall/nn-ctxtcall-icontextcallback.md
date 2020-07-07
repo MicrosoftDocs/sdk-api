@@ -1,7 +1,8 @@
 ---
 UID: NN:ctxtcall.IContextCallback
 title: IContextCallback (ctxtcall.h)
-description: Provides a mechanism to execute a function inside a specific COM+ object context.helpviewer_keywords: ["IContextCallback","IContextCallback interface [COM]","IContextCallback interface [COM]","described","_com_icontextcallback","com.icontextcallback","ctxtcall/IContextCallback"]
+description: Provides a mechanism to execute a function inside a specific COM+ object context.
+helpviewer_keywords: ["IContextCallback","IContextCallback interface [COM]","IContextCallback interface [COM]","described","_com_icontextcallback","com.icontextcallback","ctxtcall/IContextCallback"]
 old-location: com\icontextcallback.htm
 tech.root: com
 ms.assetid: 47af7b80-3419-4a40-8932-a5a27f297dc9

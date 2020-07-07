@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.GetCurrentPropertyValueEx
 title: IUIAutomationElement::GetCurrentPropertyValueEx (uiautomationclient.h)
-description: Retrieves a property value for this UI Automation element, optionally ignoring any default value.helpviewer_keywords: ["GetCurrentPropertyValueEx","GetCurrentPropertyValueEx method [Windows Accessibility]","GetCurrentPropertyValueEx method [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","GetCurrentPropertyValueEx method","IUIAutomationElement.GetCurrentPropertyValueEx","IUIAutomationElement::GetCurrentPropertyValueEx","uiauto.uiauto_IUIAutomationElement_GetCurrentPropertyValueEx","uiauto_IUIAutomationElement_GetCurrentPropertyValueEx","uiautomationclient/IUIAutomationElement::GetCurrentPropertyValueEx","winauto.uiauto_IUIAutomationElement_GetCurrentPropertyValueEx"]
+description: Retrieves a property value for this UI Automation element, optionally ignoring any default value.
+helpviewer_keywords: ["GetCurrentPropertyValueEx","GetCurrentPropertyValueEx method [Windows Accessibility]","GetCurrentPropertyValueEx method [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","GetCurrentPropertyValueEx method","IUIAutomationElement.GetCurrentPropertyValueEx","IUIAutomationElement::GetCurrentPropertyValueEx","uiauto.uiauto_IUIAutomationElement_GetCurrentPropertyValueEx","uiauto_IUIAutomationElement_GetCurrentPropertyValueEx","uiautomationclient/IUIAutomationElement::GetCurrentPropertyValueEx","winauto.uiauto_IUIAutomationElement_GetCurrentPropertyValueEx"]
 old-location: winauto\uiauto_IUIAutomationElement_GetCurrentPropertyValueEx.htm
 tech.root: WinAuto
 ms.assetid: 3adbd380-4500-4701-bfc3-dc03d51e5155

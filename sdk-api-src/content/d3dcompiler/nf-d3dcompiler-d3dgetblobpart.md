@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcompiler.D3DGetBlobPart
 title: D3DGetBlobPart function (d3dcompiler.h)
-description: Retrieves a specific part from a compilation result.helpviewer_keywords: ["D3DGetBlobPart","D3DGetBlobPart function [HLSL]","d3dcompiler/D3DGetBlobPart","direct3dhlsl.d3dgetblobpart"]
+description: Retrieves a specific part from a compilation result.
+helpviewer_keywords: ["D3DGetBlobPart","D3DGetBlobPart function [HLSL]","d3dcompiler/D3DGetBlobPart","direct3dhlsl.d3dgetblobpart"]
 old-location: direct3dhlsl\d3dgetblobpart.htm
 tech.root: direct3dhlsl
 ms.assetid: cf9cea53-e7a3-4473-bfdf-0cdeb8370974

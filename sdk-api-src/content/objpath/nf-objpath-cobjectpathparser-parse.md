@@ -1,7 +1,8 @@
 ---
 UID: NF:objpath.CObjectPathParser.Parse
 title: CObjectPathParser::Parse (objpath.h)
-description: Parses a string that contains a WMI path into a structure the contains the path parts, such as the server, namespace, class, key that identifies an instance, and others. Use of this object is not recommended. Instead, use the IWbemPath COM interface.helpviewer_keywords: ["?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z","?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z","CObjectPathParser interface [Windows Management Instrumentation]","Parse method","CObjectPathParser.Parse","CObjectPathParser::Parse","Parse","Parse method [Windows Management Instrumentation]","Parse method [Windows Management Instrumentation]","CObjectPathParser interface","objpath/CObjectPathParser::Parse","wmi.cobjectpathparser_parse"]
+description: Parses a string that contains a WMI path into a structure the contains the path parts, such as the server, namespace, class, key that identifies an instance, and others. Use of this object is not recommended. Instead, use the IWbemPath COM interface.
+helpviewer_keywords: ["?Parse@CObjectPathParser@@QAEHPBGPAPAUParsedObjectPath@@@Z","?Parse@CObjectPathParser@@QEAAHPEBGPEAPEAUParsedObjectPath@@@Z","CObjectPathParser interface [Windows Management Instrumentation]","Parse method","CObjectPathParser.Parse","CObjectPathParser::Parse","Parse","Parse method [Windows Management Instrumentation]","Parse method [Windows Management Instrumentation]","CObjectPathParser interface","objpath/CObjectPathParser::Parse","wmi.cobjectpathparser_parse"]
 old-location: wmi\cobjectpathparser_parse.htm
 tech.root: WmiSdk
 ms.assetid: c39dbef5-9050-487a-8e06-17087753330d

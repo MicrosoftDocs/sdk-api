@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmStorageModuleCaps
 title: FsrmStorageModuleCaps (fsrmenums.h)
-description: Flags that define the capabilities of the storage module.helpviewer_keywords: ["FsrmStorageModuleCaps","FsrmStorageModuleCaps enumeration [File Server Resource Manager]","FsrmStorageModuleCaps_CanGet","FsrmStorageModuleCaps_CanHandleDirectories","FsrmStorageModuleCaps_CanHandleFiles","FsrmStorageModuleCaps_CanSet","FsrmStorageModuleCaps_Unknown","fs.fsrmstoragemodulecaps","fsrm.fsrmstoragemodulecaps","fsrmenums/FsrmStorageModuleCaps","fsrmenums/FsrmStorageModuleCaps_CanGet","fsrmenums/FsrmStorageModuleCaps_CanHandleDirectories","fsrmenums/FsrmStorageModuleCaps_CanHandleFiles","fsrmenums/FsrmStorageModuleCaps_CanSet","fsrmenums/FsrmStorageModuleCaps_Unknown"]
+description: Flags that define the capabilities of the storage module.
+helpviewer_keywords: ["FsrmStorageModuleCaps","FsrmStorageModuleCaps enumeration [File Server Resource Manager]","FsrmStorageModuleCaps_CanGet","FsrmStorageModuleCaps_CanHandleDirectories","FsrmStorageModuleCaps_CanHandleFiles","FsrmStorageModuleCaps_CanSet","FsrmStorageModuleCaps_Unknown","fs.fsrmstoragemodulecaps","fsrm.fsrmstoragemodulecaps","fsrmenums/FsrmStorageModuleCaps","fsrmenums/FsrmStorageModuleCaps_CanGet","fsrmenums/FsrmStorageModuleCaps_CanHandleDirectories","fsrmenums/FsrmStorageModuleCaps_CanHandleFiles","fsrmenums/FsrmStorageModuleCaps_CanSet","fsrmenums/FsrmStorageModuleCaps_Unknown"]
 old-location: fsrm\fsrmstoragemodulecaps.htm
 tech.root: fsrm
 ms.assetid: 15d9bddc-fe6c-40c9-ba12-587c57c0bfcf

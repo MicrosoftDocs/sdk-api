@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1Bitmap.GetPixelSize
 title: ID2D1Bitmap::GetPixelSize (d2d1.h)
-description: Returns the size, in device-dependent units (pixels), of the bitmap.helpviewer_keywords: ["GetPixelSize","GetPixelSize method [Direct2D]","GetPixelSize method [Direct2D]","ID2D1Bitmap interface","ID2D1Bitmap interface [Direct2D]","GetPixelSize method","ID2D1Bitmap.GetPixelSize","ID2D1Bitmap::GetPixelSize","d2d1/ID2D1Bitmap::GetPixelSize","direct2d.ID2D1Bitmap_GetPixelSize"]
+description: Returns the size, in device-dependent units (pixels), of the bitmap.
+helpviewer_keywords: ["GetPixelSize","GetPixelSize method [Direct2D]","GetPixelSize method [Direct2D]","ID2D1Bitmap interface","ID2D1Bitmap interface [Direct2D]","GetPixelSize method","ID2D1Bitmap.GetPixelSize","ID2D1Bitmap::GetPixelSize","d2d1/ID2D1Bitmap::GetPixelSize","direct2d.ID2D1Bitmap_GetPixelSize"]
 old-location: direct2d\ID2D1Bitmap_GetPixelSize.htm
 tech.root: Direct2D
 ms.assetid: 0d51408a-2648-4984-bbc0-9846d5161c77
@@ -63,7 +64,7 @@ Returns the size, in device-dependent units (pixels), of the bitmap.
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-size-u">D2D1_SIZE_U</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-size-u">D2D1_SIZE_U</a></b>
 
 The size, in pixels, of the bitmap.
 
@@ -75,11 +76,11 @@ The size, in pixels, of the bitmap.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap">ID2D1Bitmap</a>
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1bitmap-getsize">ID2D1Bitmap::GetSize</a>
+<a href="/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-getsize">ID2D1Bitmap::GetSize</a>
  
 
  

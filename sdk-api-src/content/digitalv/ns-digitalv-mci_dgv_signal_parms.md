@@ -1,7 +1,8 @@
 ---
 UID: NS:digitalv.__unnamed_struct_27
 title: MCI_DGV_SIGNAL_PARMS (digitalv.h)
-description: The MCI_DGV_SIGNAL_PARMS structure contains parameters for the MCI_SIGNAL command for digital-video devices.helpviewer_keywords: ["*LPMCI_DGV_SIGNAL_PARMS","MCI_DGV_SIGNAL_PARMS","MCI_DGV_SIGNAL_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_SIGNAL_PARMS_str","digitalv/MCI_DGV_SIGNAL_PARMS","multimedia.mci_dgv_signal_parms"]
+description: The MCI_DGV_SIGNAL_PARMS structure contains parameters for the MCI_SIGNAL command for digital-video devices.
+helpviewer_keywords: ["*LPMCI_DGV_SIGNAL_PARMS","MCI_DGV_SIGNAL_PARMS","MCI_DGV_SIGNAL_PARMS structure [Windows Multimedia]","_win32_MCI_DGV_SIGNAL_PARMS_str","digitalv/MCI_DGV_SIGNAL_PARMS","multimedia.mci_dgv_signal_parms"]
 old-location: multimedia\mci_dgv_signal_parms.htm
 tech.root: Multimedia
 ms.assetid: 01076be3-6eaa-4fa3-a676-1698a9c08271

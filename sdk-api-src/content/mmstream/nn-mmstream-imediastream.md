@@ -1,7 +1,8 @@
 ---
 UID: NN:mmstream.IMediaStream
 title: IMediaStream (mmstream.h)
-description: Note  This interface is deprecated.helpviewer_keywords: ["IMediaStream","IMediaStream interface [DirectShow]","IMediaStream interface [DirectShow]","described","IMediaStreamInterface","dshow.imediastream","mmstream/IMediaStream"]
+description: Note  This interface is deprecated.
+helpviewer_keywords: ["IMediaStream","IMediaStream interface [DirectShow]","IMediaStream interface [DirectShow]","described","IMediaStreamInterface","dshow.imediastream","mmstream/IMediaStream"]
 old-location: dshow\imediastream.htm
 tech.root: DirectShow
 ms.assetid: 97f5dfdc-5941-4b58-a618-1c7e9f6665e1

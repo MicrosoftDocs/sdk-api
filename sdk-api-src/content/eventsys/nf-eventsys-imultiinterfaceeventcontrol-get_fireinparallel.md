@@ -1,7 +1,8 @@
 ---
 UID: NF:eventsys.IMultiInterfaceEventControl.get_FireInParallel
 title: IMultiInterfaceEventControl::get_FireInParallel (eventsys.h)
-description: Indicates whether events can be delivered to two or more subscribers in parallel.helpviewer_keywords: ["FireInParallel property [COM+]","FireInParallel property [COM+]","IMultiInterfaceEventControl interface","IMultiInterfaceEventControl interface [COM+]","FireInParallel property","IMultiInterfaceEventControl.FireInParallel","IMultiInterfaceEventControl.get_FireInParallel","IMultiInterfaceEventControl::FireInParallel","IMultiInterfaceEventControl::get_FireInParallel","IMultiInterfaceEventControl::put_FireInParallel","cos.imultiinterfaceeventcontrol_fireinparallel","eventsys/IMultiInterfaceEventControl::FireInParallel","eventsys/IMultiInterfaceEventControl::get_FireInParallel","eventsys/IMultiInterfaceEventControl::put_FireInParallel","get_FireInParallel"]
+description: Indicates whether events can be delivered to two or more subscribers in parallel.
+helpviewer_keywords: ["FireInParallel property [COM+]","FireInParallel property [COM+]","IMultiInterfaceEventControl interface","IMultiInterfaceEventControl interface [COM+]","FireInParallel property","IMultiInterfaceEventControl.FireInParallel","IMultiInterfaceEventControl.get_FireInParallel","IMultiInterfaceEventControl::FireInParallel","IMultiInterfaceEventControl::get_FireInParallel","IMultiInterfaceEventControl::put_FireInParallel","cos.imultiinterfaceeventcontrol_fireinparallel","eventsys/IMultiInterfaceEventControl::FireInParallel","eventsys/IMultiInterfaceEventControl::get_FireInParallel","eventsys/IMultiInterfaceEventControl::put_FireInParallel","get_FireInParallel"]
 old-location: cos\imultiinterfaceeventcontrol_fireinparallel.htm
 tech.root: cossdk
 ms.assetid: c26cce66-e713-42f7-9716-385b59085977

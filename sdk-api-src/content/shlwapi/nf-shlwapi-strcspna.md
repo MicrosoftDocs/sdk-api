@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StrCSpnA
 title: StrCSpnA function (shlwapi.h)
-description: Searches a string for the first occurrence of any of a group of characters. The search method is case-sensitive, and the terminating NULL character is included within the search pattern match.helpviewer_keywords: ["StrCSpn","StrCSpn function [Windows Shell]","StrCSpnA","StrCSpnW","_win32_StrCSpn","shell.StrCSpn","shlwapi/StrCSpn","shlwapi/StrCSpnA","shlwapi/StrCSpnW"]
+description: Searches a string for the first occurrence of any of a group of characters. The search method is case-sensitive, and the terminating NULL character is included within the search pattern match.
+helpviewer_keywords: ["StrCSpn","StrCSpn function [Windows Shell]","StrCSpnA","StrCSpnW","_win32_StrCSpn","shell.StrCSpn","shlwapi/StrCSpn","shlwapi/StrCSpnA","shlwapi/StrCSpnW"]
 old-location: shell\StrCSpn.htm
 tech.root: shell
 ms.assetid: 24e9ec52-a5d7-4220-8e71-f850b53c49dd
@@ -96,4 +97,8 @@ Returns the index of the first occurrence in <i>pszStr</i> of any character from
 The return value of this function is equal to the length of the initial substring in <i>pszStr</i> that does not include any characters from <i>pszSet</i>.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines StrCSpn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

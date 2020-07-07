@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl._WMT_FILESINK_DATA_UNIT
 title: WMT_FILESINK_DATA_UNIT (wmsdkidl.h)
-description: The WMT_FILESINK_DATA_UNIT structure is used by IWMWriterFileSink3::OnDataUnitEx to deliver information about a packet.helpviewer_keywords: ["WMT_FILESINK_DATA_UNIT","WMT_FILESINK_DATA_UNIT structure [windows Media Format]","wmformat.wmt_filesink_data_unit","wmsdkidl/WMT_FILESINK_DATA_UNIT"]
+description: The WMT_FILESINK_DATA_UNIT structure is used by IWMWriterFileSink3::OnDataUnitEx to deliver information about a packet.
+helpviewer_keywords: ["WMT_FILESINK_DATA_UNIT","WMT_FILESINK_DATA_UNIT structure [windows Media Format]","wmformat.wmt_filesink_data_unit","wmsdkidl/WMT_FILESINK_DATA_UNIT"]
 old-location: wmformat\wmt_filesink_data_unit.htm
 tech.root: wmformat
 ms.assetid: e1deb01f-9f53-4ede-a3e1-13d6dc79adb5

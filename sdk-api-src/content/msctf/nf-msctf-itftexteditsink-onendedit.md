@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfTextEditSink.OnEndEdit
 title: ITfTextEditSink::OnEndEdit (msctf.h)
-description: ITfTextEditSink::OnEndEdit methodhelpviewer_keywords: ["ITfTextEditSink interface [Text Services Framework]","OnEndEdit method","ITfTextEditSink.OnEndEdit","ITfTextEditSink::OnEndEdit","OnEndEdit","OnEndEdit method [Text Services Framework]","OnEndEdit method [Text Services Framework]","ITfTextEditSink interface","_tsf_itftexteditsink_onendedit_ref","msctf/ITfTextEditSink::OnEndEdit","tsf.itftexteditsink_onendedit"]
+description: ITfTextEditSink::OnEndEdit method
+helpviewer_keywords: ["ITfTextEditSink interface [Text Services Framework]","OnEndEdit method","ITfTextEditSink.OnEndEdit","ITfTextEditSink::OnEndEdit","OnEndEdit","OnEndEdit method [Text Services Framework]","OnEndEdit method [Text Services Framework]","ITfTextEditSink interface","_tsf_itftexteditsink_onendedit_ref","msctf/ITfTextEditSink::OnEndEdit","tsf.itftexteditsink_onendedit"]
 old-location: tsf\itftexteditsink_onendedit.htm
 tech.root: TSF
 ms.assetid: 7763a879-a558-463d-837b-e38e6f84b9f7

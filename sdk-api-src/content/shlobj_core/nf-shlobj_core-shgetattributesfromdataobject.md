@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetAttributesFromDataObject
 title: SHGetAttributesFromDataObject function (shlobj_core.h)
-description: SHGetAttributesFromDataObject may be altered or unavailable.helpviewer_keywords: ["SHGetAttributesFromDataObject","SHGetAttributesFromDataObject function [Windows Shell]","_win32_SHGetAttributesFromDataObject","shell.SHGetAttributesFromDataObject","shlobj_core/SHGetAttributesFromDataObject"]
+description: SHGetAttributesFromDataObject may be altered or unavailable.
+helpviewer_keywords: ["SHGetAttributesFromDataObject","SHGetAttributesFromDataObject function [Windows Shell]","_win32_SHGetAttributesFromDataObject","shell.SHGetAttributesFromDataObject","shlobj_core/SHGetAttributesFromDataObject"]
 old-location: shell\SHGetAttributesFromDataObject.htm
 tech.root: shell
 ms.assetid: bdc583ef-a5b6-4665-949c-50f79ace39dc

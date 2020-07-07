@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IDvbExtendedEventDescriptor
 title: IDvbExtendedEventDescriptor (dvbsiparser.h)
-description: Implements methods that get data from a Digital Video Broadcast (DVB) extended event descriptor.helpviewer_keywords: ["IDvbExtendedEventDescriptor","IDvbExtendedEventDescriptor interface [Microsoft TV Technologies]","IDvbExtendedEventDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbExtendedEventDescriptor","mstv.idvbextendedeventdescriptor"]
+description: Implements methods that get data from a Digital Video Broadcast (DVB) extended event descriptor.
+helpviewer_keywords: ["IDvbExtendedEventDescriptor","IDvbExtendedEventDescriptor interface [Microsoft TV Technologies]","IDvbExtendedEventDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbExtendedEventDescriptor","mstv.idvbextendedeventdescriptor"]
 old-location: mstv\idvbextendedeventdescriptor.htm
 tech.root: mstv
 ms.assetid: db100f17-f7b8-4252-8090-44567ab9dcbe

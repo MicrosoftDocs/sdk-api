@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12shader._D3D12_SHADER_INPUT_BIND_DESC
 title: D3D12_SHADER_INPUT_BIND_DESC (d3d12shader.h)
-description: Describes how a shader resource is bound to a shader input.helpviewer_keywords: ["D3D12_SHADER_INPUT_BIND_DESC","D3D12_SHADER_INPUT_BIND_DESC structure","d3d12shader/D3D12_SHADER_INPUT_BIND_DESC","direct3d12.d3d12_shader_input_bind_desc"]
+description: Describes how a shader resource is bound to a shader input.
+helpviewer_keywords: ["D3D12_SHADER_INPUT_BIND_DESC","D3D12_SHADER_INPUT_BIND_DESC structure","d3d12shader/D3D12_SHADER_INPUT_BIND_DESC","direct3d12.d3d12_shader_input_bind_desc"]
 old-location: direct3d12\d3d12_shader_input_bind_desc.htm
 tech.root: direct3d12
 ms.assetid: 4179C417-388D-4A20-8878-D074E20A706F

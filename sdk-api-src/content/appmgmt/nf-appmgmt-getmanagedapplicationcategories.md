@@ -1,7 +1,8 @@
 ---
 UID: NF:appmgmt.GetManagedApplicationCategories
 title: GetManagedApplicationCategories function (appmgmt.h)
-description: The GetManagedApplicationCategories function gets a list of application categories for a domain. The list is the same for all users in the domain.helpviewer_keywords: ["GetManagedApplicationCategories","GetManagedApplicationCategories function [Group Policy]","appmgmt/GetManagedApplicationCategories","policy.getmanagedapplicationcategories"]
+description: The GetManagedApplicationCategories function gets a list of application categories for a domain. The list is the same for all users in the domain.
+helpviewer_keywords: ["GetManagedApplicationCategories","GetManagedApplicationCategories function [Group Policy]","appmgmt/GetManagedApplicationCategories","policy.getmanagedapplicationcategories"]
 old-location: policy\getmanagedapplicationcategories.htm
 tech.root: Policy
 ms.assetid: 10824852-7810-483a-91b3-2d9cc3d21934

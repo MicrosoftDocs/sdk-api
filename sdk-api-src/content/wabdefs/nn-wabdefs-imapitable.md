@@ -1,7 +1,8 @@
 ---
 UID: NN:wabdefs.IMAPITable
 title: IMAPITable (wabdefs.h)
-description: Do not use. This interface is used for content tables of Windows Address Book (WAB) containers and distribution lists.helpviewer_keywords: ["IMAPITable","IMAPITable interface [Windows Address Book]","IMAPITable interface [Windows Address Book]","described","_wab_IMAPITable","wab._wab_IMAPITable","wabdefs/IMAPITable"]
+description: Do not use. This interface is used for content tables of Windows Address Book (WAB) containers and distribution lists.
+helpviewer_keywords: ["IMAPITable","IMAPITable interface [Windows Address Book]","IMAPITable interface [Windows Address Book]","described","_wab_IMAPITable","wab._wab_IMAPITable","wabdefs/IMAPITable"]
 old-location: wab\_wab_IMAPITable.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\imapitable\imapitable.htm

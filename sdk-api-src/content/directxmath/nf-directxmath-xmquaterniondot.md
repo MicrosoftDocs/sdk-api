@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMQuaternionDot
 title: XMQuaternionDot function (directxmath.h)
-description: Computes the dot product of two quaternions.helpviewer_keywords: ["Use DirectX..XMQuaternionDot","XMQuaternionDot","XMQuaternionDot method [DirectX Math Support APIs]","dxmath.xmquaterniondot"]
+description: Computes the dot product of two quaternions.
+helpviewer_keywords: ["Use DirectX..XMQuaternionDot","XMQuaternionDot","XMQuaternionDot method [DirectX Math Support APIs]","dxmath.xmquaterniondot"]
 old-location: dxmath\xmquaterniondot.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionDot(XMVECTOR,XMVECTOR)

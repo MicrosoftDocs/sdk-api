@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathBuildRootW
 title: PathBuildRootW function (shlwapi.h)
-description: Creates a root path from a given drive number.helpviewer_keywords: ["PathBuildRoot","PathBuildRoot function [Windows Shell]","PathBuildRootA","PathBuildRootW","_win32_PathBuildRoot","shell.PathBuildRoot","shlwapi/PathBuildRoot","shlwapi/PathBuildRootA","shlwapi/PathBuildRootW"]
+description: Creates a root path from a given drive number.
+helpviewer_keywords: ["PathBuildRoot","PathBuildRoot function [Windows Shell]","PathBuildRootA","PathBuildRootW","_win32_PathBuildRoot","shell.PathBuildRoot","shlwapi/PathBuildRoot","shlwapi/PathBuildRootA","shlwapi/PathBuildRootW"]
 old-location: shell\PathBuildRoot.htm
 tech.root: shell
 ms.assetid: 0a6895bd-54cf-499c-9057-f2d721bce5d9
@@ -82,4 +83,9 @@ Type: <b>LPTSTR</b>
 Returns the address of the constructed root path. If the call fails for any reason (for example, an invalid drive number), <i>szRoot</i> is returned unchanged.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines PathBuildRoot as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

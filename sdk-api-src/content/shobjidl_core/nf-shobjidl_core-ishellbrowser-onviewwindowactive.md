@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.OnViewWindowActive
 title: IShellBrowser::OnViewWindowActive (shobjidl_core.h)
-description: Called by the Shell view when the view window or one of its child windows gets the focus or becomes active.helpviewer_keywords: ["IShellBrowser interface [Windows Shell]","OnViewWindowActive method","IShellBrowser.OnViewWindowActive","IShellBrowser::OnViewWindowActive","OnViewWindowActive","OnViewWindowActive method [Windows Shell]","OnViewWindowActive method [Windows Shell]","IShellBrowser interface","_win32_IShellBrowser_OnViewWindowActive","shell.IShellBrowser_OnViewWindowActive","shobjidl_core/IShellBrowser::OnViewWindowActive"]
+description: Called by the Shell view when the view window or one of its child windows gets the focus or becomes active.
+helpviewer_keywords: ["IShellBrowser interface [Windows Shell]","OnViewWindowActive method","IShellBrowser.OnViewWindowActive","IShellBrowser::OnViewWindowActive","OnViewWindowActive","OnViewWindowActive method [Windows Shell]","OnViewWindowActive method [Windows Shell]","IShellBrowser interface","_win32_IShellBrowser_OnViewWindowActive","shell.IShellBrowser_OnViewWindowActive","shobjidl_core/IShellBrowser::OnViewWindowActive"]
 old-location: shell\IShellBrowser_OnViewWindowActive.htm
 tech.root: shell
 ms.assetid: bd320262-f383-453b-9028-4e93f0b3761a

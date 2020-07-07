@@ -1,7 +1,8 @@
 ---
 UID: NF:coml2api.StgIsStorageFile
 title: StgIsStorageFile function (coml2api.h)
-description: The StgIsStorageFile function indicates whether a particular disk file contains a storage object.helpviewer_keywords: ["StgIsStorageFile","StgIsStorageFile function [Structured Storage]","_stg_stgisstoragefile","coml2api/StgIsStorageFile","stg.stgisstoragefile"]
+description: The StgIsStorageFile function indicates whether a particular disk file contains a storage object.
+helpviewer_keywords: ["StgIsStorageFile","StgIsStorageFile function [Structured Storage]","_stg_stgisstoragefile","coml2api/StgIsStorageFile","stg.stgisstoragefile"]
 old-location: stg\stgisstoragefile.htm
 tech.root: Stg
 ms.assetid: 6a0d2da5-4d5c-4da7-9ea6-3b52cd6673fc

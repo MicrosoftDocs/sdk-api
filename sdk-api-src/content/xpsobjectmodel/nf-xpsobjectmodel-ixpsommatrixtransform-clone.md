@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMMatrixTransform.Clone
 title: IXpsOMMatrixTransform::Clone (xpsobjectmodel.h)
-description: Makes a deep copy of the interface.helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMMatrixTransform interface","IXpsOMMatrixTransform interface [XPS Documents and Packaging]","Clone method","IXpsOMMatrixTransform.Clone","IXpsOMMatrixTransform::Clone","xps.ixpsommatrixtransform_clone","xpsobjectmodel/IXpsOMMatrixTransform::Clone"]
+description: Makes a deep copy of the interface.
+helpviewer_keywords: ["Clone","Clone method [XPS Documents and Packaging]","Clone method [XPS Documents and Packaging]","IXpsOMMatrixTransform interface","IXpsOMMatrixTransform interface [XPS Documents and Packaging]","Clone method","IXpsOMMatrixTransform.Clone","IXpsOMMatrixTransform::Clone","xps.ixpsommatrixtransform_clone","xpsobjectmodel/IXpsOMMatrixTransform::Clone"]
 old-location: xps\ixpsommatrixtransform_clone.htm
 tech.root: printdocs
 ms.assetid: 088e758c-5839-4560-955c-98c8a1ee99ae

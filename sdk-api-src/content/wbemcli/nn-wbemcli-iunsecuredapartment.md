@@ -1,7 +1,8 @@
 ---
 UID: NN:wbemcli.IUnsecuredApartment
 title: IUnsecuredApartment (wbemcli.h)
-description: The IUnsecuredApartment interface is used to simplify the process of making asynchronous calls from a client process.helpviewer_keywords: ["IUnsecuredApartment","IUnsecuredApartment interface [Windows Management Instrumentation]","IUnsecuredApartment interface [Windows Management Instrumentation]","described","UnsecuredApartment","_hmm_iunsecuredapartment","wbemcli/IUnsecuredApartment","wmi.iunsecuredapartment"]
+description: The IUnsecuredApartment interface is used to simplify the process of making asynchronous calls from a client process.
+helpviewer_keywords: ["IUnsecuredApartment","IUnsecuredApartment interface [Windows Management Instrumentation]","IUnsecuredApartment interface [Windows Management Instrumentation]","described","UnsecuredApartment","_hmm_iunsecuredapartment","wbemcli/IUnsecuredApartment","wmi.iunsecuredapartment"]
 old-location: wmi\iunsecuredapartment.htm
 tech.root: WmiSdk
 ms.assetid: 6293d8e3-cc5b-4401-8fdc-86f5d03720ea

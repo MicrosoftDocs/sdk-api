@@ -1,7 +1,8 @@
 ---
 UID: NN:windows.graphics.imaging.interop.ISoftwareBitmapNativeFactory
 title: ISoftwareBitmapNativeFactory (windows.graphics.imaging.interop.h)
-description: Creates instances of ISoftwareBitmapNative.helpviewer_keywords: ["ISoftwareBitmapNativeFactory","ISoftwareBitmapNativeFactory interface [Windows Runtime]","ISoftwareBitmapNativeFactory interface [Windows Runtime]","described","windows/ISoftwareBitmapNativeFactory","winrt.isoftwarebitmapnativefactory"]
+description: Creates instances of ISoftwareBitmapNative.
+helpviewer_keywords: ["ISoftwareBitmapNativeFactory","ISoftwareBitmapNativeFactory interface [Windows Runtime]","ISoftwareBitmapNativeFactory interface [Windows Runtime]","described","windows/ISoftwareBitmapNativeFactory","winrt.isoftwarebitmapnativefactory"]
 old-location: winrt\isoftwarebitmapnativefactory.htm
 tech.root: WinRT
 ms.assetid: 613BFE81-AC55-4786-B6BD-0FFB7506D7F1

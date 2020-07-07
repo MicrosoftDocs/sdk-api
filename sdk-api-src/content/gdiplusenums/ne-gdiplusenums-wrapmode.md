@@ -1,7 +1,8 @@
 ---
 UID: NE:gdiplusenums.WrapMode
 title: WrapMode (gdiplusenums.h)
-description: The WrapMode enumeration specifies how repeated copies of an image are used to tile an area.helpviewer_keywords: ["WrapMode","WrapMode enumeration [GDI+]","WrapModeClamp","WrapModeTile","WrapModeTileFlipX","WrapModeTileFlipXY","WrapModeTileFlipY","_gdiplus_ENUM_WrapMode","gdiplus._gdiplus_ENUM_WrapMode","gdiplusenums/WrapMode","gdiplusenums/WrapModeClamp","gdiplusenums/WrapModeTile","gdiplusenums/WrapModeTileFlipX","gdiplusenums/WrapModeTileFlipXY","gdiplusenums/WrapModeTileFlipY"]
+description: The WrapMode enumeration specifies how repeated copies of an image are used to tile an area.
+helpviewer_keywords: ["WrapMode","WrapMode enumeration [GDI+]","WrapModeClamp","WrapModeTile","WrapModeTileFlipX","WrapModeTileFlipXY","WrapModeTileFlipY","_gdiplus_ENUM_WrapMode","gdiplus._gdiplus_ENUM_WrapMode","gdiplusenums/WrapMode","gdiplusenums/WrapModeClamp","gdiplusenums/WrapModeTile","gdiplusenums/WrapModeTileFlipX","gdiplusenums/WrapModeTileFlipXY","gdiplusenums/WrapModeTileFlipY"]
 old-location: gdiplus\_gdiplus_ENUM_WrapMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\wrapmode.htm

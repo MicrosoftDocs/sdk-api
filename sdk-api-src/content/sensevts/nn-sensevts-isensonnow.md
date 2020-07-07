@@ -1,7 +1,8 @@
 ---
 UID: NN:sensevts.ISensOnNow
 title: ISensOnNow (sensevts.h)
-description: The ISensOnNow interface handles AC and battery power events fired by the System Event Notification Service (SENS).helpviewer_keywords: ["ISensOnNow","ISensOnNow interface [SENS]","ISensOnNow interface [SENS]","described","_zaw_isensonnow","sens.isensonnow","sensevts/ISensOnNow","syncmgr.isensonnow"]
+description: The ISensOnNow interface handles AC and battery power events fired by the System Event Notification Service (SENS).
+helpviewer_keywords: ["ISensOnNow","ISensOnNow interface [SENS]","ISensOnNow interface [SENS]","described","_zaw_isensonnow","sens.isensonnow","sensevts/ISensOnNow","syncmgr.isensonnow"]
 old-location: sens\isensonnow.htm
 tech.root: Sens
 ms.assetid: 39d483be-8dbd-41f9-9804-af9dc4535c05

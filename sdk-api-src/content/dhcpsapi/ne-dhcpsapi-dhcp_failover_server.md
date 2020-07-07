@@ -1,7 +1,8 @@
 ---
 UID: NE:dhcpsapi._DHCP_FAILOVER_SERVER
 title: DHCP_FAILOVER_SERVER (dhcpsapi.h)
-description: The DHCP_FAILOVER_SERVER enumeration defines whether the DHCP server is the primary or secondary server in a DHCPv4 failover relationship.helpviewer_keywords: ["*LPDHCP_FAILOVER_SERVER","DHCP_FAILOVER_SERVER","DHCP_FAILOVER_SERVER enumeration [DHCP]","LPDHCP_FAILOVER_SERVER","LPDHCP_FAILOVER_SERVER enumeration pointer [DHCP]","PrimaryServer","SecondaryServer","dhcp.dhcp_failover_server","dhcpsapi/DHCP_FAILOVER_SERVER","dhcpsapi/LPDHCP_FAILOVER_SERVER","dhcpsapi/PrimaryServer","dhcpsapi/SecondaryServer"]
+description: The DHCP_FAILOVER_SERVER enumeration defines whether the DHCP server is the primary or secondary server in a DHCPv4 failover relationship.
+helpviewer_keywords: ["*LPDHCP_FAILOVER_SERVER","DHCP_FAILOVER_SERVER","DHCP_FAILOVER_SERVER enumeration [DHCP]","LPDHCP_FAILOVER_SERVER","LPDHCP_FAILOVER_SERVER enumeration pointer [DHCP]","PrimaryServer","SecondaryServer","dhcp.dhcp_failover_server","dhcpsapi/DHCP_FAILOVER_SERVER","dhcpsapi/LPDHCP_FAILOVER_SERVER","dhcpsapi/PrimaryServer","dhcpsapi/SecondaryServer"]
 old-location: dhcp\dhcp_failover_server.htm
 tech.root: DHCP
 ms.assetid: a75a1132-3c49-44f1-a1f6-c98991ebb8c4

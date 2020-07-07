@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1GeometryGroup.GetSourceGeometryCount
 title: ID2D1GeometryGroup::GetSourceGeometryCount (d2d1.h)
-description: Indicates the number of geometry objects in the geometry group.helpviewer_keywords: ["GetSourceGeometryCount","GetSourceGeometryCount method [Direct2D]","GetSourceGeometryCount method [Direct2D]","ID2D1GeometryGroup interface","ID2D1GeometryGroup interface [Direct2D]","GetSourceGeometryCount method","ID2D1GeometryGroup.GetSourceGeometryCount","ID2D1GeometryGroup::GetSourceGeometryCount","d2d1/ID2D1GeometryGroup::GetSourceGeometryCount","direct2d.ID2D1GeometryGroup_GetSourceGeometryCount"]
+description: Indicates the number of geometry objects in the geometry group.
+helpviewer_keywords: ["GetSourceGeometryCount","GetSourceGeometryCount method [Direct2D]","GetSourceGeometryCount method [Direct2D]","ID2D1GeometryGroup interface","ID2D1GeometryGroup interface [Direct2D]","GetSourceGeometryCount method","ID2D1GeometryGroup.GetSourceGeometryCount","ID2D1GeometryGroup::GetSourceGeometryCount","d2d1/ID2D1GeometryGroup::GetSourceGeometryCount","direct2d.ID2D1GeometryGroup_GetSourceGeometryCount"]
 old-location: direct2d\ID2D1GeometryGroup_GetSourceGeometryCount.htm
 tech.root: Direct2D
 ms.assetid: d5338e38-98b7-4e17-933c-f806bd030f88
@@ -65,7 +66,7 @@ Indicates the number of geometry objects in the geometry group.
 
 Type: <b>UINT32</b>
 
-The number of geometries in the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a>.
+The number of geometries in the <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a>.
 
 
 
@@ -75,7 +76,7 @@ The number of geometries in the <a href="https://docs.microsoft.com/windows/desk
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1geometrygroup">ID2D1GeometryGroup</a>
  
 
  

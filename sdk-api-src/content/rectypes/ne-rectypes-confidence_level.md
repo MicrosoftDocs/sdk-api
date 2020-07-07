@@ -1,7 +1,8 @@
 ---
 UID: NE:rectypes.enumCONFIDENCE_LEVEL
 title: CONFIDENCE_LEVEL (rectypes.h)
-description: Indicates the level of confidence the recognizer has in the recognition result.helpviewer_keywords: ["94167a91-7d72-40c9-bce4-29babdb5bff9","CFL_INTERMEDIATE","CFL_POOR","CFL_STRONG","CONFIDENCE_LEVEL","CONFIDENCE_LEVEL enumeration [Tablet PC]","rectypes/CFL_INTERMEDIATE","rectypes/CFL_POOR","rectypes/CFL_STRONG","rectypes/CONFIDENCE_LEVEL","tablet.confidence_level"]
+description: Indicates the level of confidence the recognizer has in the recognition result.
+helpviewer_keywords: ["94167a91-7d72-40c9-bce4-29babdb5bff9","CFL_INTERMEDIATE","CFL_POOR","CFL_STRONG","CONFIDENCE_LEVEL","CONFIDENCE_LEVEL enumeration [Tablet PC]","rectypes/CFL_INTERMEDIATE","rectypes/CFL_POOR","rectypes/CFL_STRONG","rectypes/CONFIDENCE_LEVEL","tablet.confidence_level"]
 old-location: tablet\confidence_level.htm
 tech.root: tablet
 ms.assetid: 94167a91-7d72-40c9-bce4-29babdb5bff9

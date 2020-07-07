@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_err2stringW
 title: ldap_err2stringW function (winldap.h)
-description: Converts a numeric LDAP error code into a null-terminated character string that describes the error.helpviewer_keywords: ["_ldap_ldap_err2string","ldap.ldap__err2string","ldap.ldap_err2string","ldap_err2string","ldap_err2string function [LDAP]","ldap_err2stringA","ldap_err2stringW","winldap/ldap_err2string","winldap/ldap_err2stringA","winldap/ldap_err2stringW"]
+description: Converts a numeric LDAP error code into a null-terminated character string that describes the error.
+helpviewer_keywords: ["_ldap_ldap_err2string","ldap.ldap__err2string","ldap.ldap_err2string","ldap_err2string","ldap_err2string function [LDAP]","ldap_err2stringA","ldap_err2stringW","winldap/ldap_err2string","winldap/ldap_err2stringA","winldap/ldap_err2stringW"]
 old-location: ldap\ldap_err2string.htm
 tech.root: ldap
 ms.assetid: ebdccc79-e9c7-4a25-a1ab-01ba2b6f2d59
@@ -85,6 +86,10 @@ The return value is a static pointer to the character string. Do not free this s
 
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines ldap_err2string as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

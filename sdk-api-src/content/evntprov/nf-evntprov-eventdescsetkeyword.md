@@ -1,7 +1,8 @@
 ---
 UID: NF:evntprov.EventDescSetKeyword
 title: EventDescSetKeyword function (evntprov.h)
-description: Sets the Keyword member of the event descriptor.helpviewer_keywords: ["EventDescSetKeyword","EventDescSetKeyword function [ETW]","base.eventdescsetkeyword_func","etw.eventdescsetkeyword_func","evntprov/EventDescSetKeyword"]
+description: Sets the Keyword member of the event descriptor.
+helpviewer_keywords: ["EventDescSetKeyword","EventDescSetKeyword function [ETW]","base.eventdescsetkeyword_func","etw.eventdescsetkeyword_func","evntprov/EventDescSetKeyword"]
 old-location: etw\eventdescsetkeyword_func.htm
 tech.root: ETW
 ms.assetid: b1870a89-2e15-42b6-8441-82e6f9165540

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetGroupCount
 title: ListView_GetGroupCount macro (commctrl.h)
-description: Gets the number of groups. You can use this macro or send the LVM_GETGROUPCOUNT message explicitly.helpviewer_keywords: ["ListView_GetGroupCount","ListView_GetGroupCount macro [Windows Controls]","_shell_ListView_GetGroupCount","_shell_ListView_GetGroupCount_cpp","commctrl/ListView_GetGroupCount","controls.ListView_GetGroupCount","controls._shell_ListView_GetGroupCount"]
+description: Gets the number of groups. You can use this macro or send the LVM_GETGROUPCOUNT message explicitly.
+helpviewer_keywords: ["ListView_GetGroupCount","ListView_GetGroupCount macro [Windows Controls]","_shell_ListView_GetGroupCount","_shell_ListView_GetGroupCount_cpp","commctrl/ListView_GetGroupCount","controls.ListView_GetGroupCount","controls._shell_ListView_GetGroupCount"]
 old-location: controls\ListView_GetGroupCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getgroupcount.htm

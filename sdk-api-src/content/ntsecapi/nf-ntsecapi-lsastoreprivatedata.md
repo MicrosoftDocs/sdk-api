@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaStorePrivateData
 title: LsaStorePrivateData function (ntsecapi.h)
-description: Do not use the LSA private data functions. Instead, use the CryptProtectData and CryptUnprotectData functions.helpviewer_keywords: ["LsaStorePrivateData","LsaStorePrivateData function [Security]","_lsa_lsastoreprivatedata","ntsecapi/LsaStorePrivateData","security.lsastoreprivatedata"]
+description: Do not use the LSA private data functions. Instead, use the CryptProtectData and CryptUnprotectData functions.
+helpviewer_keywords: ["LsaStorePrivateData","LsaStorePrivateData function [Security]","_lsa_lsastoreprivatedata","ntsecapi/LsaStorePrivateData","security.lsastoreprivatedata"]
 old-location: security\lsastoreprivatedata.htm
 tech.root: SecMgmt
 ms.assetid: 95d6cf30-fd08-473e-b0b3-3f7ca5e85357

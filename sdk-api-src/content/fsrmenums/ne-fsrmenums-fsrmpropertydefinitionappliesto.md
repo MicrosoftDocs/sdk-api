@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyDefinitionAppliesTo
 title: FsrmPropertyDefinitionAppliesTo (fsrmenums.h)
-description: Flags that indicate what a FSRM classification property can be applied to.helpviewer_keywords: ["FsrmPropertyDefinitionAppliesTo","FsrmPropertyDefinitionAppliesTo enumeration [File Server Resource Manager]","FsrmPropertyDefinitionAppliesTo_Files","FsrmPropertyDefinitionAppliesTo_Folders","fs.fsrmpropertydefinitionappliesto","fsrm.fsrmpropertydefinitionappliesto","fsrmenums/FsrmPropertyDefinitionAppliesTo","fsrmenums/FsrmPropertyDefinitionAppliesTo_Files","fsrmenums/FsrmPropertyDefinitionAppliesTo_Folders"]
+description: Flags that indicate what a FSRM classification property can be applied to.
+helpviewer_keywords: ["FsrmPropertyDefinitionAppliesTo","FsrmPropertyDefinitionAppliesTo enumeration [File Server Resource Manager]","FsrmPropertyDefinitionAppliesTo_Files","FsrmPropertyDefinitionAppliesTo_Folders","fs.fsrmpropertydefinitionappliesto","fsrm.fsrmpropertydefinitionappliesto","fsrmenums/FsrmPropertyDefinitionAppliesTo","fsrmenums/FsrmPropertyDefinitionAppliesTo_Files","fsrmenums/FsrmPropertyDefinitionAppliesTo_Folders"]
 old-location: fsrm\fsrmpropertydefinitionappliesto.htm
 tech.root: fsrm
 ms.assetid: deca10b5-fd5f-446f-ab88-1731402a550c

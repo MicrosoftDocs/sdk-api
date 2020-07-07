@@ -1,7 +1,8 @@
 ---
 UID: NN:dsadmin.IDsAdminNewObjPrimarySite
 title: IDsAdminNewObjPrimarySite (dsadmin.h)
-description: The IDsAdminNewObjPrimarySite interface is implemented by the system and is used by a primary object creation extension to create a new temporary object in Active Directory Domain Services and then commit the object to persistent memory.helpviewer_keywords: ["IDsAdminNewObjPrimarySite","IDsAdminNewObjPrimarySite interface [Active Directory]","IDsAdminNewObjPrimarySite interface [Active Directory]","described","_glines_idsadminnewobjprimarysite","ad.idsadminnewobjprimarysite","dsadmin/IDsAdminNewObjPrimarySite"]
+description: The IDsAdminNewObjPrimarySite interface is implemented by the system and is used by a primary object creation extension to create a new temporary object in Active Directory Domain Services and then commit the object to persistent memory.
+helpviewer_keywords: ["IDsAdminNewObjPrimarySite","IDsAdminNewObjPrimarySite interface [Active Directory]","IDsAdminNewObjPrimarySite interface [Active Directory]","described","_glines_idsadminnewobjprimarysite","ad.idsadminnewobjprimarysite","dsadmin/IDsAdminNewObjPrimarySite"]
 old-location: ad\idsadminnewobjprimarysite.htm
 tech.root: ad
 ms.assetid: cb46cb8f-28ae-44d0-b1de-dc6c090f8fc6

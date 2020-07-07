@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbClientConnection.get_UserSidString
 title: ITsSbClientConnection::get_UserSidString (sbtsv.h)
-description: User SID as a string.helpviewer_keywords: ["ITsSbClientConnection interface [Remote Desktop Services]","UserSidString property","ITsSbClientConnection.UserSidString","ITsSbClientConnection.get_UserSidString","ITsSbClientConnection::UserSidString","ITsSbClientConnection::get_UserSidString","UserSidString property [Remote Desktop Services]","UserSidString property [Remote Desktop Services]","ITsSbClientConnection interface","get_UserSidString","sbtsv/ITsSbClientConnection::UserSidString","sbtsv/ITsSbClientConnection::get_UserSidString","termserv.itssbclientconnection_usersidstring"]
+description: User SID as a string.
+helpviewer_keywords: ["ITsSbClientConnection interface [Remote Desktop Services]","UserSidString property","ITsSbClientConnection.UserSidString","ITsSbClientConnection.get_UserSidString","ITsSbClientConnection::UserSidString","ITsSbClientConnection::get_UserSidString","UserSidString property [Remote Desktop Services]","UserSidString property [Remote Desktop Services]","ITsSbClientConnection interface","get_UserSidString","sbtsv/ITsSbClientConnection::UserSidString","sbtsv/ITsSbClientConnection::get_UserSidString","termserv.itssbclientconnection_usersidstring"]
 old-location: termserv\itssbclientconnection_usersidstring.htm
 tech.root: TermServ
 ms.assetid: b04eeeca-de53-4b29-a5e8-15018ac11dc5

@@ -1,7 +1,8 @@
 ---
 UID: NN:syncregistration.ISyncProviderInfo
 title: ISyncProviderInfo (syncregistration.h)
-description: Represents the information and properties needed to create an instance of a synchronization provider.helpviewer_keywords: ["ISyncProviderInfo","ISyncProviderInfo interface [Windows Sync]","ISyncProviderInfo interface [Windows Sync]","described","syncregistration/ISyncProviderInfo","winsync.isyncproviderinfo"]
+description: Represents the information and properties needed to create an instance of a synchronization provider.
+helpviewer_keywords: ["ISyncProviderInfo","ISyncProviderInfo interface [Windows Sync]","ISyncProviderInfo interface [Windows Sync]","described","syncregistration/ISyncProviderInfo","winsync.isyncproviderinfo"]
 old-location: winsync\isyncproviderinfo.htm
 tech.root: winsync
 ms.assetid: fe50e34c-6499-4c1e-b891-7b4f797510f2

@@ -1,7 +1,8 @@
 ---
 UID: NE:clusapi._MAINTENANCE_MODE_TYPE_ENUM
 title: MAINTENANCE_MODE_TYPE_ENUM (clusapi.h)
-description: Defines the possible states that a storage class resource can be placed in when marked for maintenance.helpviewer_keywords: ["*PMAINTENANCE_MODE_TYPE_ENUM","MAINTENANCE_MODE_TYPE_ENUM","MAINTENANCE_MODE_TYPE_ENUM enumeration [Failover Cluster]","MaintenanceModeTypeDisableIsAliveCheck","MaintenanceModeTypeOfflineResource","MaintenanceModeTypeUnclusterResource","PMAINTENANCE_MODE_TYPE_ENUM","PMAINTENANCE_MODE_TYPE_ENUM enumeration pointer [Failover Cluster]","clusapi/MAINTENANCE_MODE_TYPE_ENUM","clusapi/MaintenanceModeTypeDisableIsAliveCheck","clusapi/MaintenanceModeTypeOfflineResource","clusapi/MaintenanceModeTypeUnclusterResource","clusapi/PMAINTENANCE_MODE_TYPE_ENUM","mscs.maintenance_mode_type_enum"]
+description: Defines the possible states that a storage class resource can be placed in when marked for maintenance.
+helpviewer_keywords: ["*PMAINTENANCE_MODE_TYPE_ENUM","MAINTENANCE_MODE_TYPE_ENUM","MAINTENANCE_MODE_TYPE_ENUM enumeration [Failover Cluster]","MaintenanceModeTypeDisableIsAliveCheck","MaintenanceModeTypeOfflineResource","MaintenanceModeTypeUnclusterResource","PMAINTENANCE_MODE_TYPE_ENUM","PMAINTENANCE_MODE_TYPE_ENUM enumeration pointer [Failover Cluster]","clusapi/MAINTENANCE_MODE_TYPE_ENUM","clusapi/MaintenanceModeTypeDisableIsAliveCheck","clusapi/MaintenanceModeTypeOfflineResource","clusapi/MaintenanceModeTypeUnclusterResource","clusapi/PMAINTENANCE_MODE_TYPE_ENUM","mscs.maintenance_mode_type_enum"]
 old-location: mscs\maintenance_mode_type_enum.htm
 tech.root: MsCS
 ms.assetid: b71f6a3b-4c9d-49f9-b60f-ee4c4fb6b169

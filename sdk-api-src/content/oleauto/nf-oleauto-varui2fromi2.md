@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarUI2FromI2
 title: VarUI2FromI2 function (oleauto.h)
-description: Converts a short value to an unsigned short value.helpviewer_keywords: ["VarUI2FromI2","VarUI2FromI2 function [Automation]","_oa96_VarUI2FromI2","automat.varui2fromi2","oleauto/VarUI2FromI2"]
+description: Converts a short value to an unsigned short value.
+helpviewer_keywords: ["VarUI2FromI2","VarUI2FromI2 function [Automation]","_oa96_VarUI2FromI2","automat.varui2fromi2","oleauto/VarUI2FromI2"]
 old-location: automat\varui2fromi2.htm
 tech.root: automat
 ms.assetid: 77aa2f18-515a-4239-bfab-3de571d16e51

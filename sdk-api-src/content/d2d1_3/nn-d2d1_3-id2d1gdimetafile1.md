@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1_3.ID2D1GdiMetafile1
 title: ID2D1GdiMetafile1 (d2d1_3.h)
-description: This interface performs all the same functions as the existing ID2D1GdiMetafile interface. It also enables accessing the metafile DPI and bounds.helpviewer_keywords: ["ID2D1GdiMetafile1","ID2D1GdiMetafile1 interface [Direct2D]","ID2D1GdiMetafile1 interface [Direct2D]","described","d2d1_3/ID2D1GdiMetafile1","direct2d.id2d1gdimetafile1"]
+description: This interface performs all the same functions as the existing ID2D1GdiMetafile interface. It also enables accessing the metafile DPI and bounds.
+helpviewer_keywords: ["ID2D1GdiMetafile1","ID2D1GdiMetafile1 interface [Direct2D]","ID2D1GdiMetafile1 interface [Direct2D]","described","d2d1_3/ID2D1GdiMetafile1","direct2d.id2d1gdimetafile1"]
 old-location: direct2d\id2d1gdimetafile1.htm
 tech.root: Direct2D
 ms.assetid: 7a05abd6-ea75-8496-85c3-efa1e307482d

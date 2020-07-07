@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.IntToUShort
 title: IntToUShort function (intsafe.h)
-description: Converts a value of type INT to a value of type USHORT.helpviewer_keywords: ["IntToUShort","IntToUShort function [Windows Shell]","IntToWord","_shell_IntToUShort","intsafe/IntToUShort","shell.IntToUShort"]
+description: Converts a value of type INT to a value of type USHORT.
+helpviewer_keywords: ["IntToUShort","IntToUShort function [Windows Shell]","IntToWord","_shell_IntToUShort","intsafe/IntToUShort","shell.IntToUShort"]
 old-location: shell\IntToUShort.htm
 tech.root: shell
 ms.assetid: 7e350beb-3cf4-44e1-a9fe-6864bb82d679

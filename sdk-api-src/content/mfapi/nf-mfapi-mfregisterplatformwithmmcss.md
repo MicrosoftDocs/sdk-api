@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFRegisterPlatformWithMMCSS
 title: MFRegisterPlatformWithMMCSS function (mfapi.h)
-description: Registers the standard Microsoft Media Foundation platform work queues with the Multimedia Class Scheduler Service (MMCSS).helpviewer_keywords: ["MFRegisterPlatformWithMMCSS","MFRegisterPlatformWithMMCSS function [Media Foundation]","mf.mfregisterplatformwithmmcss","mfapi/MFRegisterPlatformWithMMCSS","mfplat/MFRegisterPlatformWithMMCSS"]
+description: Registers the standard Microsoft Media Foundation platform work queues with the Multimedia Class Scheduler Service (MMCSS).
+helpviewer_keywords: ["MFRegisterPlatformWithMMCSS","MFRegisterPlatformWithMMCSS function [Media Foundation]","mf.mfregisterplatformwithmmcss","mfapi/MFRegisterPlatformWithMMCSS","mfplat/MFRegisterPlatformWithMMCSS"]
 old-location: mf\mfregisterplatformwithmmcss.htm
 tech.root: medfound
 ms.assetid: 8F99849B-5363-4EEF-BCB8-C69A5309AF34

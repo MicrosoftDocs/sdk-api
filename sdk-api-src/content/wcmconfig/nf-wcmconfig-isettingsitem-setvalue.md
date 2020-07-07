@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.SetValue
 title: ISettingsItem::SetValue (wcmconfig.h)
-description: Sets the value of an item.helpviewer_keywords: ["ISettingsItem interface [SMI]","SetValue method","ISettingsItem.SetValue","ISettingsItem::SetValue","SetValue","SetValue method [SMI]","SetValue method [SMI]","ISettingsItem interface","smi.isettingsitem_setvalue","wcmconfig/ISettingsItem::SetValue"]
+description: Sets the value of an item.
+helpviewer_keywords: ["ISettingsItem interface [SMI]","SetValue method","ISettingsItem.SetValue","ISettingsItem::SetValue","SetValue","SetValue method [SMI]","SetValue method [SMI]","ISettingsItem interface","smi.isettingsitem_setvalue","wcmconfig/ISettingsItem::SetValue"]
 old-location: smi\isettingsitem_setvalue.htm
 tech.root: SMI
 ms.assetid: 52b7e852-b389-47ec-a9d0-e4ce2e95f1f8

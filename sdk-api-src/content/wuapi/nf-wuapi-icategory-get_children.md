@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.ICategory.get_Children
 title: ICategory::get_Children (wuapi.h)
-description: Gets an interface collection that contains the child categories of this category.helpviewer_keywords: ["Children property [Windows Update Agent]","Children property [Windows Update Agent]","ICategory interface","ICategory interface [Windows Update Agent]","Children property","ICategory.Children","ICategory.get_Children","ICategory::Children","ICategory::get_Children","get_Children","wua.icategory_children","wuapi/ICategory::Children","wuapi/ICategory::get_Children"]
+description: Gets an interface collection that contains the child categories of this category.
+helpviewer_keywords: ["Children property [Windows Update Agent]","Children property [Windows Update Agent]","ICategory interface","ICategory interface [Windows Update Agent]","Children property","ICategory.Children","ICategory.get_Children","ICategory::Children","ICategory::get_Children","get_Children","wua.icategory_children","wuapi/ICategory::Children","wuapi/ICategory::get_Children"]
 old-location: wua\icategory_children.htm
 tech.root: Wua_Sdk
 ms.assetid: 98c49741-cd7b-43fd-bc9c-f70899506ef2

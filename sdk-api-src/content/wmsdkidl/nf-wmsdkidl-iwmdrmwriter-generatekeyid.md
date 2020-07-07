@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMDRMWriter.GenerateKeyID
 title: IWMDRMWriter::GenerateKeyID (wmsdkidl.h)
-description: The GenerateKeyID method generates a DRM key ID.helpviewer_keywords: ["GenerateKeyID","GenerateKeyID method [windows Media Format]","GenerateKeyID method [windows Media Format]","IWMDRMWriter interface","IWMDRMWriter interface [windows Media Format]","GenerateKeyID method","IWMDRMWriter.GenerateKeyID","IWMDRMWriter::GenerateKeyID","IWMDRMWriterGenerateKeyID","wmformat.iwmdrmwriter_generatekeyid","wmsdkidl/IWMDRMWriter::GenerateKeyID"]
+description: The GenerateKeyID method generates a DRM key ID.
+helpviewer_keywords: ["GenerateKeyID","GenerateKeyID method [windows Media Format]","GenerateKeyID method [windows Media Format]","IWMDRMWriter interface","IWMDRMWriter interface [windows Media Format]","GenerateKeyID method","IWMDRMWriter.GenerateKeyID","IWMDRMWriter::GenerateKeyID","IWMDRMWriterGenerateKeyID","wmformat.iwmdrmwriter_generatekeyid","wmsdkidl/IWMDRMWriter::GenerateKeyID"]
 old-location: wmformat\iwmdrmwriter_generatekeyid.htm
 tech.root: wmformat
 ms.assetid: 11eff02d-af0a-4047-80fd-d92be2f40d86

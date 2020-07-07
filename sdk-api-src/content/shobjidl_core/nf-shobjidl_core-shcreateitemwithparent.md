@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.SHCreateItemWithParent
 title: SHCreateItemWithParent function (shobjidl_core.h)
-description: Create a Shell item, given a parent folder and a child item ID.helpviewer_keywords: ["SHCreateItemWithParent","SHCreateItemWithParent function [Windows Shell]","_shell_SHCreateItemWithParent","shell.SHCreateItemWithParent","shobjidl_core/SHCreateItemWithParent"]
+description: Create a Shell item, given a parent folder and a child item ID.
+helpviewer_keywords: ["SHCreateItemWithParent","SHCreateItemWithParent function [Windows Shell]","_shell_SHCreateItemWithParent","shell.SHCreateItemWithParent","shobjidl_core/SHCreateItemWithParent"]
 old-location: shell\SHCreateItemWithParent.htm
 tech.root: shell
 ms.assetid: 8fb84a20-d8f2-4c7c-bfb1-a22791b8636a

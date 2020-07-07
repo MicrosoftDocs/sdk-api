@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetIfTable
 title: GetIfTable function (iphlpapi.h)
-description: The GetIfTable function retrieves the MIB-II interface table.helpviewer_keywords: ["GetIfTable","GetIfTable function [IP Helper]","_iphlp_getiftable","iphlp.getiftable","iphlpapi/GetIfTable"]
+description: The GetIfTable function retrieves the MIB-II interface table.
+helpviewer_keywords: ["GetIfTable","GetIfTable function [IP Helper]","_iphlp_getiftable","iphlp.getiftable","iphlpapi/GetIfTable"]
 old-location: iphlp\getiftable.htm
 tech.root: IpHlp
 ms.assetid: 6a46c1df-b274-415e-b842-fc1adf6fa206

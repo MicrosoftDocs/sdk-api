@@ -1,7 +1,8 @@
 ---
 UID: NN:syncmgr.IEnumSyncMgrConflict
 title: IEnumSyncMgrConflict (syncmgr.h)
-description: Exposes conflict enumeration methods.helpviewer_keywords: ["IEnumSyncMgrConflict","IEnumSyncMgrConflict interface [Windows Shell]","IEnumSyncMgrConflict interface [Windows Shell]","described","_shell_IEnumSyncMgrConflict","shell.IEnumSyncMgrConflict","syncmgr/IEnumSyncMgrConflict"]
+description: Exposes conflict enumeration methods.
+helpviewer_keywords: ["IEnumSyncMgrConflict","IEnumSyncMgrConflict interface [Windows Shell]","IEnumSyncMgrConflict interface [Windows Shell]","described","_shell_IEnumSyncMgrConflict","shell.IEnumSyncMgrConflict","syncmgr/IEnumSyncMgrConflict"]
 old-location: shell\IEnumSyncMgrConflict.htm
 tech.root: shell
 ms.assetid: 627f39be-5c9d-49a1-af73-210cdbb7940a

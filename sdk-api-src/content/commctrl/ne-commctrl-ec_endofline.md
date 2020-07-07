@@ -1,7 +1,8 @@
 ---
 UID: NE:commctrl.EC_ENDOFLINE
 title: EC_ENDOFLINE (commctrl.h)
-description: Indicates the end of line character used by an edit control.helpviewer_keywords: ["EC_ENDOFLINE","EC_ENDOFLINE enumeration [Windows Controls]","EC_ENDOFLINE_CR","EC_ENDOFLINE_CRLF","EC_ENDOFLINE_DETECTFROMCONTENT","EC_ENDOFLINE_LF","commctrl/EC_ENDOFLINE","commctrl/EC_ENDOFLINE_CR","commctrl/EC_ENDOFLINE_CRLF","commctrl/EC_ENDOFLINE_DETECTFROMCONTENT","commctrl/EC_ENDOFLINE_LF","controls.ec_endofline"]
+description: Indicates the end of line character used by an edit control.
+helpviewer_keywords: ["EC_ENDOFLINE","EC_ENDOFLINE enumeration [Windows Controls]","EC_ENDOFLINE_CR","EC_ENDOFLINE_CRLF","EC_ENDOFLINE_DETECTFROMCONTENT","EC_ENDOFLINE_LF","commctrl/EC_ENDOFLINE","commctrl/EC_ENDOFLINE_CR","commctrl/EC_ENDOFLINE_CRLF","commctrl/EC_ENDOFLINE_DETECTFROMCONTENT","commctrl/EC_ENDOFLINE_LF","controls.ec_endofline"]
 old-location: controls\ec_endofline.htm
 tech.root: Controls
 ms.assetid: 8F84EFE4-E562-46D4-AEC8-2782C9EC31F7

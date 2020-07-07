@@ -1,13 +1,13 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGlyphs.SetFontFaceIndex
 title: IXpsOMGlyphs::SetFontFaceIndex (xpsobjectmodel.h)
-description: Sets the index of the font face to be used.helpviewer_keywords: ["IXpsOMGlyphs interface [XPS Documents and Packaging]","SetFontFaceIndex method","IXpsOMGlyphs.SetFontFaceIndex","IXpsOMGlyphs::SetFontFaceIndex","SetFontFaceIndex","SetFontFaceIndex method [XPS Documents and Packaging]","SetFontFaceIndex method [XPS Documents and Packaging]","IXpsOMGlyphs interface","xps.ixpsomglyphs_setfontfaceindex","xpsobjectmodel/IXpsOMGlyphs::SetFontFaceIndex"]
+description: Sets the index of the font face to be used.
+helpviewer_keywords: ["IXpsOMGlyphs interface [XPS Documents and Packaging]","SetFontFaceIndex method","IXpsOMGlyphs.SetFontFaceIndex","IXpsOMGlyphs::SetFontFaceIndex","SetFontFaceIndex","SetFontFaceIndex method [XPS Documents and Packaging]","SetFontFaceIndex method [XPS Documents and Packaging]","IXpsOMGlyphs interface","xps.ixpsomglyphs_setfontfaceindex","xpsobjectmodel/IXpsOMGlyphs::SetFontFaceIndex"]
 old-location: xps\ixpsomglyphs_setfontfaceindex.htm
 tech.root: printdocs
 ms.assetid: 9430474d-b874-47c7-b916-089280da8873
 ms.date: 12/05/2018
 ms.keywords: IXpsOMGlyphs interface [XPS Documents and Packaging],SetFontFaceIndex method, IXpsOMGlyphs.SetFontFaceIndex, IXpsOMGlyphs::SetFontFaceIndex, SetFontFaceIndex, SetFontFaceIndex method [XPS Documents and Packaging], SetFontFaceIndex method [XPS Documents and Packaging],IXpsOMGlyphs interface, xps.ixpsomglyphs_setfontfaceindex, xpsobjectmodel/IXpsOMGlyphs::SetFontFaceIndex
-ms.topic: method
 f1_keywords:
 - xpsobjectmodel/IXpsOMGlyphs.SetFontFaceIndex
 dev_langs:

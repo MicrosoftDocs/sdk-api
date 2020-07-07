@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.ActivateActCtx
 title: ActivateActCtx function (winbase.h)
-description: The ActivateActCtx function activates the specified activation context.helpviewer_keywords: ["ActivateActCtx","ActivateActCtx function [Side-by-side Assemblies]","_win32_activateactctx","setup.activateactctx","winbase/ActivateActCtx"]
+description: The ActivateActCtx function activates the specified activation context.
+helpviewer_keywords: ["ActivateActCtx","ActivateActCtx function [Side-by-side Assemblies]","_win32_activateactctx","setup.activateactctx","winbase/ActivateActCtx"]
 old-location: setup\activateactctx.htm
 tech.root: SbsCs
 ms.assetid: 03381d95-1b5d-4b70-8c86-937ab9b2672d

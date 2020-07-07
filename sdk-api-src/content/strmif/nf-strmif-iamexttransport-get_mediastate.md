@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMExtTransport.get_MediaState
 title: IAMExtTransport::get_MediaState (strmif.h)
-description: The get_MediaState method retrieves the current state of the media.helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","get_MediaState method","IAMExtTransport.get_MediaState","IAMExtTransport::get_MediaState","IAMExtTransportget_MediaState","dshow.iamexttransport_get_mediastate","get_MediaState","get_MediaState method [DirectShow]","get_MediaState method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::get_MediaState"]
+description: The get_MediaState method retrieves the current state of the media.
+helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","get_MediaState method","IAMExtTransport.get_MediaState","IAMExtTransport::get_MediaState","IAMExtTransportget_MediaState","dshow.iamexttransport_get_mediastate","get_MediaState","get_MediaState method [DirectShow]","get_MediaState method [DirectShow]","IAMExtTransport interface","strmif/IAMExtTransport::get_MediaState"]
 old-location: dshow\iamexttransport_get_mediastate.htm
 tech.root: DirectShow
 ms.assetid: 806356c7-796e-459f-8d5f-82c6b744bf07

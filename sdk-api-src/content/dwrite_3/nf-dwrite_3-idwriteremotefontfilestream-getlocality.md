@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.GetLocality
 title: IDWriteRemoteFontFileStream::GetLocality (dwrite_3.h)
-description: Gets the current locality of the file.helpviewer_keywords: ["GetLocality","GetLocality method [Direct Write]","GetLocality method [Direct Write]","IDWriteRemoteFontFileStream interface","IDWriteRemoteFontFileStream interface [Direct Write]","GetLocality method","IDWriteRemoteFontFileStream.GetLocality","IDWriteRemoteFontFileStream::GetLocality","directwrite.idwriteremotefontfilestream_getlocality","dwrite_3/IDWriteRemoteFontFileStream::GetLocality"]
+description: Gets the current locality of the file.
+helpviewer_keywords: ["GetLocality","GetLocality method [Direct Write]","GetLocality method [Direct Write]","IDWriteRemoteFontFileStream interface","IDWriteRemoteFontFileStream interface [Direct Write]","GetLocality method","IDWriteRemoteFontFileStream.GetLocality","IDWriteRemoteFontFileStream::GetLocality","directwrite.idwriteremotefontfilestream_getlocality","dwrite_3/IDWriteRemoteFontFileStream::GetLocality"]
 old-location: directwrite\idwriteremotefontfilestream_getlocality.htm
 tech.root: DirectWrite
 ms.assetid: 395AC591-3D63-4990-98A7-FA154B6A000F

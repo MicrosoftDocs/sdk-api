@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.ISyncChangeBatchBase
 title: ISyncChangeBatchBase (winsync.h)
-description: Represents metadata for a set of changes.helpviewer_keywords: ["ISyncChangeBatchBase","ISyncChangeBatchBase interface [Windows Sync]","ISyncChangeBatchBase interface [Windows Sync]","described","winsync.isyncchangebatchbase","winsync/ISyncChangeBatchBase"]
+description: Represents metadata for a set of changes.
+helpviewer_keywords: ["ISyncChangeBatchBase","ISyncChangeBatchBase interface [Windows Sync]","ISyncChangeBatchBase interface [Windows Sync]","described","winsync.isyncchangebatchbase","winsync/ISyncChangeBatchBase"]
 old-location: winsync\isyncchangebatchbase.htm
 tech.root: winsync
 ms.assetid: 14ca01a1-04eb-4282-adf0-e775d6ff0801

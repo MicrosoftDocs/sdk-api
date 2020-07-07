@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchManager.GetCatalog
 title: ISearchManager::GetCatalog (searchapi.h)
-description: Retrieves a catalog by name and creates a new ISearchCatalogManager object for that catalog.helpviewer_keywords: ["GetCatalog","GetCatalog method [search]","GetCatalog method [search]","ISearchManager interface","ISearchManager interface [search]","GetCatalog method","ISearchManager.GetCatalog","ISearchManager::GetCatalog","_search_ISearchManager_GetCatalog","search._search_ISearchManager_GetCatalog","searchapi/ISearchManager::GetCatalog"]
+description: Retrieves a catalog by name and creates a new ISearchCatalogManager object for that catalog.
+helpviewer_keywords: ["GetCatalog","GetCatalog method [search]","GetCatalog method [search]","ISearchManager interface","ISearchManager interface [search]","GetCatalog method","ISearchManager.GetCatalog","ISearchManager::GetCatalog","_search_ISearchManager_GetCatalog","search._search_ISearchManager_GetCatalog","searchapi/ISearchManager::GetCatalog"]
 old-location: search\_search_ISearchManager_GetCatalog.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getcatalog.htm
@@ -86,11 +87,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
 Currently Microsoft Windows Desktop Search (WDS) 3.0 supports only one catalog and it is named SystemIndex.
 
-The ReindexMatchingUrls code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndGetDevice
 title: MCIWndGetDevice macro (vfw.h)
-description: The MCIWndGetDevice macro retrieves the name of the current MCI device. You can use this macro or explicitly send the MCIWNDM_GETDEVICE message.helpviewer_keywords: ["MCIWndGetDevice","MCIWndGetDevice macro [Windows Multimedia]","_win32_MCIWndGetDevice","multimedia.mciwndgetdevice","vfw/MCIWndGetDevice"]
+description: The MCIWndGetDevice macro retrieves the name of the current MCI device. You can use this macro or explicitly send the MCIWNDM_GETDEVICE message.
+helpviewer_keywords: ["MCIWndGetDevice","MCIWndGetDevice macro [Windows Multimedia]","_win32_MCIWndGetDevice","multimedia.mciwndgetdevice","vfw/MCIWndGetDevice"]
 old-location: multimedia\mciwndgetdevice.htm
 tech.root: Multimedia
 ms.assetid: 0e918cf0-e9aa-402a-9db6-f9a39c718962

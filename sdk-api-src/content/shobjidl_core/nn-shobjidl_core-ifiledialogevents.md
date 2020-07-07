@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IFileDialogEvents
 title: IFileDialogEvents (shobjidl_core.h)
-description: Exposes methods that allow notification of events within a common file dialog.helpviewer_keywords: ["IFileDialogEvents","IFileDialogEvents interface [Windows Shell]","IFileDialogEvents interface [Windows Shell]","described","shell.IFileDialogEvents","shell_IFileDialogEvents","shobjidl_core/IFileDialogEvents"]
+description: Exposes methods that allow notification of events within a common file dialog.
+helpviewer_keywords: ["IFileDialogEvents","IFileDialogEvents interface [Windows Shell]","IFileDialogEvents interface [Windows Shell]","described","shell.IFileDialogEvents","shell_IFileDialogEvents","shobjidl_core/IFileDialogEvents"]
 old-location: shell\IFileDialogEvents.htm
 tech.root: shell
 ms.assetid: c55107a3-ae0a-4b46-80a3-8a731b47976c

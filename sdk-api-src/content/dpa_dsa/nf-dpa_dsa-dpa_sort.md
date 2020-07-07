@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DPA_Sort
 title: DPA_Sort function (dpa_dsa.h)
-description: Sorts the items in a Dynamic Pointer Array (DPA).helpviewer_keywords: ["DPA_Sort","DPA_Sort function [Windows Controls]","_win32_DPA_Sort","_win32_DPA_Sort_cpp","controls.DPA_Sort","controls._win32_DPA_Sort","dpa_dsa/DPA_Sort"]
+description: Sorts the items in a Dynamic Pointer Array (DPA).
+helpviewer_keywords: ["DPA_Sort","DPA_Sort function [Windows Controls]","_win32_DPA_Sort","_win32_DPA_Sort_cpp","controls.DPA_Sort","controls._win32_DPA_Sort","dpa_dsa/DPA_Sort"]
 old-location: controls\DPA_Sort.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_sort.htm

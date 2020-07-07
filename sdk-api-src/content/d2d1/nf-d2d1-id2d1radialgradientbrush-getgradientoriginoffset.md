@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.GetGradientOriginOffset
 title: ID2D1RadialGradientBrush::GetGradientOriginOffset (d2d1.h)
-description: Retrieves the offset of the gradient origin relative to the gradient ellipse's center.helpviewer_keywords: ["GetGradientOriginOffset","GetGradientOriginOffset method [Direct2D]","GetGradientOriginOffset method [Direct2D]","ID2D1RadialGradientBrush interface","ID2D1RadialGradientBrush interface [Direct2D]","GetGradientOriginOffset method","ID2D1RadialGradientBrush.GetGradientOriginOffset","ID2D1RadialGradientBrush::GetGradientOriginOffset","d2d1/ID2D1RadialGradientBrush::GetGradientOriginOffset","direct2d.ID2D1RadialGradientBrush_GetGradientOriginOffset"]
+description: Retrieves the offset of the gradient origin relative to the gradient ellipse's center.
+helpviewer_keywords: ["GetGradientOriginOffset","GetGradientOriginOffset method [Direct2D]","GetGradientOriginOffset method [Direct2D]","ID2D1RadialGradientBrush interface","ID2D1RadialGradientBrush interface [Direct2D]","GetGradientOriginOffset method","ID2D1RadialGradientBrush.GetGradientOriginOffset","ID2D1RadialGradientBrush::GetGradientOriginOffset","d2d1/ID2D1RadialGradientBrush::GetGradientOriginOffset","direct2d.ID2D1RadialGradientBrush_GetGradientOriginOffset"]
 old-location: direct2d\ID2D1RadialGradientBrush_GetGradientOriginOffset.htm
 tech.root: Direct2D
 ms.assetid: 535041d0-bb68-41cc-ab43-cb03fb1907a7
@@ -63,7 +64,7 @@ Retrieves the offset of the gradient origin relative to the gradient ellipse's c
 
 
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
+Type: <b><a href="/windows/win32/Direct2D/d2d1-point-2f">D2D1_POINT_2F</a></b>
 
 The offset of the gradient origin from the center of the gradient ellipse. This value is expressed in the brush's coordinate space.
 
@@ -75,7 +76,7 @@ The offset of the gradient origin from the center of the gradient ellipse. This 
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1radialgradientbrush">ID2D1RadialGradientBrush</a>
  
 
  

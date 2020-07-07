@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.Contains
 title: BoundingFrustum::Contains
-description: Tests whether the BoundingFrustum contains the specified point.helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","Contains method","BoundingFrustum.Contains","BoundingFrustum.Contains(XMVECTOR)","BoundingFrustum::Contains","Contains","Contains method [DirectX Math Support APIs]","Contains method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_contains_6"]
+description: Tests whether the BoundingFrustum contains the specified point.
+helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","Contains method","BoundingFrustum.Contains","BoundingFrustum.Contains(XMVECTOR)","BoundingFrustum::Contains","Contains","Contains method [DirectX Math Support APIs]","Contains method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_contains_6"]
 old-location: dxmath\boundingfrustum_contains_6.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.Contains(XMVECTOR)

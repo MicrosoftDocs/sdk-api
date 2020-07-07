@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IEnumFullIDList.Next
 title: IEnumFullIDList::Next (shobjidl_core.h)
-description: Retrieves a specified number of IDLIST_ABSOLUTE items.helpviewer_keywords: ["IEnumFullIDList interface [Windows Shell]","Next method","IEnumFullIDList.Next","IEnumFullIDList::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumFullIDList interface","_shell_IEnumFullIDList_Next","shell.IEnumFullIDList_Next","shobjidl_core/IEnumFullIDList::Next"]
+description: Retrieves a specified number of IDLIST_ABSOLUTE items.
+helpviewer_keywords: ["IEnumFullIDList interface [Windows Shell]","Next method","IEnumFullIDList.Next","IEnumFullIDList::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumFullIDList interface","_shell_IEnumFullIDList_Next","shell.IEnumFullIDList_Next","shobjidl_core/IEnumFullIDList::Next"]
 old-location: shell\IEnumFullIDList_Next.htm
 tech.root: shell
 ms.assetid: 023f8935-0382-404e-b1bf-737824cf0f34

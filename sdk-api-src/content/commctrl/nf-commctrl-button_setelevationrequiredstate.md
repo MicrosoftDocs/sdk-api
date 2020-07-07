@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Button_SetElevationRequiredState
 title: Button_SetElevationRequiredState macro (commctrl.h)
-description: Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the BCM_SETSHIELD message explicitly.helpviewer_keywords: ["Button_SetElevationRequiredState","Button_SetElevationRequiredState macro [Windows Controls]","_shell_Button_SetElevationRequiredState","_shell_Button_SetElevationRequiredState_cpp","commctrl/Button_SetElevationRequiredState","controls.Button_SetElevationRequiredState","controls._shell_Button_SetElevationRequiredState"]
+description: Sets the elevation required state for a specified button or command link to display an elevated icon. Use this macro or send the BCM_SETSHIELD message explicitly.
+helpviewer_keywords: ["Button_SetElevationRequiredState","Button_SetElevationRequiredState macro [Windows Controls]","_shell_Button_SetElevationRequiredState","_shell_Button_SetElevationRequiredState_cpp","commctrl/Button_SetElevationRequiredState","controls.Button_SetElevationRequiredState","controls._shell_Button_SetElevationRequiredState"]
 old-location: controls\Button_SetElevationRequiredState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_setelevationrequiredstate.htm

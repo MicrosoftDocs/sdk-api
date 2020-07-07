@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMCUSTOMTEXT
 title: NMCUSTOMTEXT (commctrl.h)
-description: Contains information used with custom text notification.helpviewer_keywords: ["*LPNMCUSTOMTEXT","LPNMCUSTOMTEXT","LPNMCUSTOMTEXT structure pointer [Windows Controls]","NMCUSTOMTEXT","NMCUSTOMTEXT structure [Windows Controls]","_shell_NMCUSTOMTEXT","_shell_NMCUSTOMTEXT_cpp","commctrl/LPNMCUSTOMTEXT","commctrl/NMCUSTOMTEXT","controls.NMCUSTOMTEXT","controls._shell_NMCUSTOMTEXT"]
+description: Contains information used with custom text notification.
+helpviewer_keywords: ["*LPNMCUSTOMTEXT","LPNMCUSTOMTEXT","LPNMCUSTOMTEXT structure pointer [Windows Controls]","NMCUSTOMTEXT","NMCUSTOMTEXT structure [Windows Controls]","_shell_NMCUSTOMTEXT","_shell_NMCUSTOMTEXT_cpp","commctrl/LPNMCUSTOMTEXT","commctrl/NMCUSTOMTEXT","controls.NMCUSTOMTEXT","controls._shell_NMCUSTOMTEXT"]
 old-location: controls\NMCUSTOMTEXT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmcustomtext.htm

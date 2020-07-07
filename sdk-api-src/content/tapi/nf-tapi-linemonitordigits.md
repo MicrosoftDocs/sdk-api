@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineMonitorDigits
 title: lineMonitorDigits function (tapi.h)
-description: The lineMonitorDigits function enables and disables the unbuffered detection of digits received on the call. Each time a digit of the specified digit mode is detected, a message is sent to the application indicating which digit has been detected.helpviewer_keywords: ["_tapi2_linemonitordigits","lineMonitorDigits","lineMonitorDigits function [TAPI 2.2]","tapi/lineMonitorDigits","tapi2.linemonitordigits"]
+description: The lineMonitorDigits function enables and disables the unbuffered detection of digits received on the call. Each time a digit of the specified digit mode is detected, a message is sent to the application indicating which digit has been detected.
+helpviewer_keywords: ["_tapi2_linemonitordigits","lineMonitorDigits","lineMonitorDigits function [TAPI 2.2]","tapi/lineMonitorDigits","tapi2.linemonitordigits"]
 old-location: tapi2\linemonitordigits.htm
 tech.root: Tapi
 ms.assetid: 7987761f-429c-4a6f-876b-eafe4274907a

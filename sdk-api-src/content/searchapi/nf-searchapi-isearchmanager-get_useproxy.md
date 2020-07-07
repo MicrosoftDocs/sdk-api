@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchManager.get_UseProxy
 title: ISearchManager::get_UseProxy (searchapi.h)
-description: Retrieves the proxy server to be used.helpviewer_keywords: ["ISearchManager interface [search]","get_UseProxy method","ISearchManager.get_UseProxy","ISearchManager::get_UseProxy","_search_ISearchManager_get_UseProxy","get_UseProxy","get_UseProxy method [search]","get_UseProxy method [search]","ISearchManager interface","search._search_ISearchManager_get_UseProxy","searchapi/ISearchManager::get_UseProxy"]
+description: Retrieves the proxy server to be used.
+helpviewer_keywords: ["ISearchManager interface [search]","get_UseProxy method","ISearchManager.get_UseProxy","ISearchManager::get_UseProxy","_search_ISearchManager_get_UseProxy","get_UseProxy","get_UseProxy method [search]","get_UseProxy method [search]","ISearchManager interface","search._search_ISearchManager_get_UseProxy","searchapi/ISearchManager::get_UseProxy"]
 old-location: search\_search_ISearchManager_get_UseProxy.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_useproxy.htm
@@ -79,9 +80,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-The ReindexMatchingUrls code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

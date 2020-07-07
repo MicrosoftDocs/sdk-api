@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionVisual3.SetVisible
 title: IDCompositionVisual3::SetVisible (dcomp.h)
-description: Changes the value of the visual's Visible property.helpviewer_keywords: ["IDCompositionVisual3 interface [DirectComposition]","SetVisible method","IDCompositionVisual3.SetVisible","IDCompositionVisual3::SetVisible","SetVisible","SetVisible method [DirectComposition]","SetVisible method [DirectComposition]","IDCompositionVisual3 interface","dcomp/IDCompositionVisual3::SetVisible","directcomp.idcompositionvisual3_setvisible"]
+description: Changes the value of the visual's Visible property.
+helpviewer_keywords: ["IDCompositionVisual3 interface [DirectComposition]","SetVisible method","IDCompositionVisual3.SetVisible","IDCompositionVisual3::SetVisible","SetVisible","SetVisible method [DirectComposition]","SetVisible method [DirectComposition]","IDCompositionVisual3 interface","dcomp/IDCompositionVisual3::SetVisible","directcomp.idcompositionvisual3_setvisible"]
 old-location: directcomp\idcompositionvisual3_setvisible.htm
 tech.root: directcomp
 ms.assetid: 2D1BE2C4-2F7D-42C7-BB01-93366382B843

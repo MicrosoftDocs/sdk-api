@@ -1,7 +1,8 @@
 ---
 UID: NS:gpedit.tag_GPOBROWSEINFO
 title: GPOBROWSEINFO (gpedit.h)
-description: The GPOBROWSEINFO structure contains information that the BrowseForGPO function uses to initialize a GPO browser dialog box. After the user closes the dialog box, the system returns information about the user's actions in this structure.helpviewer_keywords: ["*LPGPOBROWSEINFO","GPHintDomain","GPHintMachine","GPHintOrganizationalUnit","GPHintSite","GPHintUnknown","GPOBROWSEINFO","GPOBROWSEINFO structure [Group Policy]","GPOTypeDS","GPOTypeLocal","GPOTypeRemote","GPO_BROWSE_DISABLE_NEW","GPO_BROWSE_INITTOALL","GPO_BROWSE_NOCOMPUTERS","GPO_BROWSE_NODSGPOS","GPO_BROWSE_OPENBUTTON","LPGPOBROWSEINFO","LPGPOBROWSEINFO structure pointer [Group Policy]","_win32_gpobrowseinfo_str","gpedit/GPOBROWSEINFO","gpedit/LPGPOBROWSEINFO","policy.gpobrowseinfo_str"]
+description: The GPOBROWSEINFO structure contains information that the BrowseForGPO function uses to initialize a GPO browser dialog box. After the user closes the dialog box, the system returns information about the user's actions in this structure.
+helpviewer_keywords: ["*LPGPOBROWSEINFO","GPHintDomain","GPHintMachine","GPHintOrganizationalUnit","GPHintSite","GPHintUnknown","GPOBROWSEINFO","GPOBROWSEINFO structure [Group Policy]","GPOTypeDS","GPOTypeLocal","GPOTypeRemote","GPO_BROWSE_DISABLE_NEW","GPO_BROWSE_INITTOALL","GPO_BROWSE_NOCOMPUTERS","GPO_BROWSE_NODSGPOS","GPO_BROWSE_OPENBUTTON","LPGPOBROWSEINFO","LPGPOBROWSEINFO structure pointer [Group Policy]","_win32_gpobrowseinfo_str","gpedit/GPOBROWSEINFO","gpedit/LPGPOBROWSEINFO","policy.gpobrowseinfo_str"]
 old-location: policy\gpobrowseinfo_str.htm
 tech.root: Policy
 ms.assetid: a0d038f2-66f1-4a79-b9e7-189cb57b80a9

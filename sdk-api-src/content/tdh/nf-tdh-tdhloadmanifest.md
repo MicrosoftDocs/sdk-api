@@ -1,7 +1,8 @@
 ---
 UID: NF:tdh.TdhLoadManifest
 title: TdhLoadManifest function (tdh.h)
-description: Loads the manifest used to decode a log file.helpviewer_keywords: ["TdhLoadManifest","TdhLoadManifest function [ETW]","etw.tdhloadmanifest","tdh/TdhLoadManifest"]
+description: Loads the manifest used to decode a log file.
+helpviewer_keywords: ["TdhLoadManifest","TdhLoadManifest function [ETW]","etw.tdhloadmanifest","tdh/TdhLoadManifest"]
 old-location: etw\tdhloadmanifest.htm
 tech.root: ETW
 ms.assetid: 85dfcf73-ea3a-47e2-ad1a-3891b3917ecf

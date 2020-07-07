@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.LoadTypeLib
 title: LoadTypeLib function (oleauto.h)
-description: Loads and registers a type library.helpviewer_keywords: ["LoadTypeLib","LoadTypeLib function [Automation]","_oa96_LoadTypeLib","automat.loadtypelib","oleauto/LoadTypeLib"]
+description: Loads and registers a type library.
+helpviewer_keywords: ["LoadTypeLib","LoadTypeLib function [Automation]","_oa96_LoadTypeLib","automat.loadtypelib","oleauto/LoadTypeLib"]
 old-location: automat\loadtypelib.htm
 tech.root: automat
 ms.assetid: 155b48e5-5438-409e-9342-630a6a500f60

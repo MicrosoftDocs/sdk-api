@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_1.IDWriteTextAnalyzer1.GetTextComplexity
 title: IDWriteTextAnalyzer1::GetTextComplexity (dwrite_1.h)
-description: Determines the complexity of text, and whether you need to call IDWriteTextAnalyzer::GetGlyphs for full script shaping.helpviewer_keywords: ["GetTextComplexity","GetTextComplexity method [Direct Write]","GetTextComplexity method [Direct Write]","IDWriteTextAnalyzer1 interface","IDWriteTextAnalyzer1 interface [Direct Write]","GetTextComplexity method","IDWriteTextAnalyzer1.GetTextComplexity","IDWriteTextAnalyzer1::GetTextComplexity","directwrite.idwritetextanalyzer1_gettextcomplexity","dwrite_1/IDWriteTextAnalyzer1::GetTextComplexity"]
+description: Determines the complexity of text, and whether you need to call IDWriteTextAnalyzer::GetGlyphs for full script shaping.
+helpviewer_keywords: ["GetTextComplexity","GetTextComplexity method [Direct Write]","GetTextComplexity method [Direct Write]","IDWriteTextAnalyzer1 interface","IDWriteTextAnalyzer1 interface [Direct Write]","GetTextComplexity method","IDWriteTextAnalyzer1.GetTextComplexity","IDWriteTextAnalyzer1::GetTextComplexity","directwrite.idwritetextanalyzer1_gettextcomplexity","dwrite_1/IDWriteTextAnalyzer1::GetTextComplexity"]
 old-location: directwrite\idwritetextanalyzer1_gettextcomplexity.htm
 tech.root: DirectWrite
 ms.assetid: EC9364F7-4A00-4DEE-B51A-F26FBBA5683F

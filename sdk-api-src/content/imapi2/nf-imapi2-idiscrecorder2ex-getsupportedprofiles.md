@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.GetSupportedProfiles
 title: IDiscRecorder2Ex::GetSupportedProfiles (imapi2.h)
-description: Retrieves the supported profiles or the current profiles of the device.helpviewer_keywords: ["GetSupportedProfiles","GetSupportedProfiles method [IMAPI]","GetSupportedProfiles method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetSupportedProfiles method","IDiscRecorder2Ex.GetSupportedProfiles","IDiscRecorder2Ex::GetSupportedProfiles","imapi.idiscrecorder2ex_getsupportedprofiles","imapi2/IDiscRecorder2Ex::GetSupportedProfiles"]
+description: Retrieves the supported profiles or the current profiles of the device.
+helpviewer_keywords: ["GetSupportedProfiles","GetSupportedProfiles method [IMAPI]","GetSupportedProfiles method [IMAPI]","IDiscRecorder2Ex interface","IDiscRecorder2Ex interface [IMAPI]","GetSupportedProfiles method","IDiscRecorder2Ex.GetSupportedProfiles","IDiscRecorder2Ex::GetSupportedProfiles","imapi.idiscrecorder2ex_getsupportedprofiles","imapi2/IDiscRecorder2Ex::GetSupportedProfiles"]
 old-location: imapi\idiscrecorder2ex_getsupportedprofiles.htm
 tech.root: imapi
 ms.assetid: 1295d536-8531-4470-a8b4-1e589736e0b1

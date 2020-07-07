@@ -1,7 +1,8 @@
 ---
 UID: NF:inked.IInkEdit.get_Hwnd
 title: IInkEdit::get_Hwnd (inked.h)
-description: Gets a handle to the InkEdit control.helpviewer_keywords: ["Hwnd property [Tablet PC]","Hwnd property [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","Hwnd property","IInkEdit.Hwnd","IInkEdit.get_Hwnd","IInkEdit::Hwnd","IInkEdit::get_Hwnd","InkEdit.get_Hwnd","get_Hwnd","inked/IInkEdit::Hwnd","inked/IInkEdit::get_Hwnd","put_Hwnd","tablet.inkedit_hwnd"]
+description: Gets a handle to the InkEdit control.
+helpviewer_keywords: ["Hwnd property [Tablet PC]","Hwnd property [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","Hwnd property","IInkEdit.Hwnd","IInkEdit.get_Hwnd","IInkEdit::Hwnd","IInkEdit::get_Hwnd","InkEdit.get_Hwnd","get_Hwnd","inked/IInkEdit::Hwnd","inked/IInkEdit::get_Hwnd","put_Hwnd","tablet.inkedit_hwnd"]
 old-location: tablet\inkedit_hwnd.htm
 tech.root: tablet
 ms.assetid: e2f01318-5073-43d2-9d26-91aeef5d7070

@@ -1,7 +1,8 @@
 ---
 UID: NE:certenroll.EnrollmentPolicyServerPropertyFlags
 title: EnrollmentPolicyServerPropertyFlags (certenroll.h)
-description: Specifies the default policy server.helpviewer_keywords: ["DefaultNone","DefaultPolicyServer","EnrollmentPolicyServerPropertyFlags","EnrollmentPolicyServerPropertyFlags enumeration [Security]","certenroll/DefaultNone","certenroll/DefaultPolicyServer","certenroll/EnrollmentPolicyServerPropertyFlags","security.enrollmentpolicyserverpropertyflags"]
+description: Specifies the default policy server.
+helpviewer_keywords: ["DefaultNone","DefaultPolicyServer","EnrollmentPolicyServerPropertyFlags","EnrollmentPolicyServerPropertyFlags enumeration [Security]","certenroll/DefaultNone","certenroll/DefaultPolicyServer","certenroll/EnrollmentPolicyServerPropertyFlags","security.enrollmentpolicyserverpropertyflags"]
 old-location: security\enrollmentpolicyserverpropertyflags.htm
 tech.root: seccertenroll
 ms.assetid: 531502ac-8e89-46ee-a426-86e22a9dbe8d

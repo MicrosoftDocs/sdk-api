@@ -1,7 +1,8 @@
 ---
 UID: NF:oobenotification.RegisterWaitUntilOOBECompleted
 title: RegisterWaitUntilOOBECompleted function (oobenotification.h)
-description: Registers a callback to be called once OOBE (Windows Welcome) has been completed.helpviewer_keywords: ["RegisterWaitUntilOOBECompleted","RegisterWaitUntilOOBECompleted function","oobenotification/RegisterWaitUntilOOBECompleted","windowssetupandmigration.registerwaituntiloobecompleted"]
+description: Registers a callback to be called once OOBE (Windows Welcome) has been completed.
+helpviewer_keywords: ["RegisterWaitUntilOOBECompleted","RegisterWaitUntilOOBECompleted function","oobenotification/RegisterWaitUntilOOBECompleted","windowssetupandmigration.registerwaituntiloobecompleted"]
 old-location: windowssetupandmigration\registerwaituntiloobecompleted.htm
 tech.root: WNF
 ms.assetid: D1581B09-06A7-483F-929D-1AF93832942D

@@ -1,7 +1,8 @@
 ---
 UID: NE:mbnapi.MBN_RADIO
 title: MBN_RADIO (mbnapi.h)
-description: The MBN_RADIO enumerated type indicates whether the device radio is on or off.helpviewer_keywords: ["MBN_RADIO","MBN_RADIO enumeration [Microsoft Broadband Networks]","MBN_RADIO_OFF","MBN_RADIO_ON","mbn.mbn_radio","mbnapi/MBN_RADIO","mbnapi/MBN_RADIO_OFF","mbnapi/MBN_RADIO_ON"]
+description: The MBN_RADIO enumerated type indicates whether the device radio is on or off.
+helpviewer_keywords: ["MBN_RADIO","MBN_RADIO enumeration [Microsoft Broadband Networks]","MBN_RADIO_OFF","MBN_RADIO_ON","mbn.mbn_radio","mbnapi/MBN_RADIO","mbnapi/MBN_RADIO_OFF","mbnapi/MBN_RADIO_ON"]
 old-location: mbn\mbn_radio.htm
 tech.root: mbn
 ms.assetid: 4655b909-7c30-4781-8171-7d7ba0e934ec

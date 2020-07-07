@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzApplicationGroup2.RoleAssignments
 title: IAzApplicationGroup2::RoleAssignments (azroles.h)
-description: Gets a collection of IAzRoleAssignment objects associated with this application group.helpviewer_keywords: ["IAzApplicationGroup2 interface [Security]","RoleAssignments property","IAzApplicationGroup2.RoleAssignments","IAzApplicationGroup2::RoleAssignments","IAzApplicationGroup2::get_RoleAssignments","RoleAssignments","RoleAssignments property [Security]","RoleAssignments property [Security]","IAzApplicationGroup2 interface","azroles/IAzApplicationGroup2::RoleAssignments","azroles/IAzApplicationGroup2::get_RoleAssignments","security.iazapplicationgroup2_roleassignments_method"]
+description: Gets a collection of IAzRoleAssignment objects associated with this application group.
+helpviewer_keywords: ["IAzApplicationGroup2 interface [Security]","RoleAssignments property","IAzApplicationGroup2.RoleAssignments","IAzApplicationGroup2::RoleAssignments","IAzApplicationGroup2::get_RoleAssignments","RoleAssignments","RoleAssignments property [Security]","RoleAssignments property [Security]","IAzApplicationGroup2 interface","azroles/IAzApplicationGroup2::RoleAssignments","azroles/IAzApplicationGroup2::get_RoleAssignments","security.iazapplicationgroup2_roleassignments_method"]
 old-location: security\iazapplicationgroup2_roleassignments_method.htm
 tech.root: SecAuthZ
 ms.assetid: 4996fb10-7b46-48e4-8028-a24ae4072bec

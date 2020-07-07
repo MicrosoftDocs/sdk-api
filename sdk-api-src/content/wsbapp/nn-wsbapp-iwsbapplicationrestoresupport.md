@@ -1,7 +1,8 @@
 ---
 UID: NN:wsbapp.IWsbApplicationRestoreSupport
 title: IWsbApplicationRestoreSupport (wsbapp.h)
-description: Defines methods for performing application-specific restore tasks.helpviewer_keywords: ["IWsbApplicationRestoreSupport","IWsbApplicationRestoreSupport interface [Windows Server Backup]","IWsbApplicationRestoreSupport interface [Windows Server Backup]","described","wsb.iwsbapplicationrestoresupport","wsbapp/IWsbApplicationRestoreSupport"]
+description: Defines methods for performing application-specific restore tasks.
+helpviewer_keywords: ["IWsbApplicationRestoreSupport","IWsbApplicationRestoreSupport interface [Windows Server Backup]","IWsbApplicationRestoreSupport interface [Windows Server Backup]","described","wsb.iwsbapplicationrestoresupport","wsbapp/IWsbApplicationRestoreSupport"]
 old-location: wsb\iwsbapplicationrestoresupport.htm
 tech.root: wsb
 ms.assetid: 694f9b4d-0ca8-4dbe-829c-6ac18c9aa140

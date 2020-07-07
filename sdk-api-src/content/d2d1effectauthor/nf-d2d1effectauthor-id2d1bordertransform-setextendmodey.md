@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BorderTransform.SetExtendModeY
 title: ID2D1BorderTransform::SetExtendModeY (d2d1effectauthor.h)
-description: Sets the extend mode in the y direction.helpviewer_keywords: ["ID2D1BorderTransform interface [Direct2D]","SetExtendModeY method","ID2D1BorderTransform.SetExtendModeY","ID2D1BorderTransform::SetExtendModeY","SetExtendModeY","SetExtendModeY method [Direct2D]","SetExtendModeY method [Direct2D]","ID2D1BorderTransform interface","d2d1effectauthor/ID2D1BorderTransform::SetExtendModeY","direct2d.id2d1bordertransform_setextendmodey"]
+description: Sets the extend mode in the y direction.
+helpviewer_keywords: ["ID2D1BorderTransform interface [Direct2D]","SetExtendModeY method","ID2D1BorderTransform.SetExtendModeY","ID2D1BorderTransform::SetExtendModeY","SetExtendModeY","SetExtendModeY method [Direct2D]","SetExtendModeY method [Direct2D]","ID2D1BorderTransform interface","d2d1effectauthor/ID2D1BorderTransform::SetExtendModeY","direct2d.id2d1bordertransform_setextendmodey"]
 old-location: direct2d\id2d1bordertransform_setextendmodey.htm
 tech.root: Direct2D
 ms.assetid: 0D29121A-A6FE-49A6-96DE-FB707ACD15B2

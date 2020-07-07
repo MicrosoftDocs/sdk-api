@@ -1,7 +1,8 @@
 ---
 UID: NS:directxmath.XMFLOAT4X3
 title: XMFLOAT4X3 (directxmath.h)
-description: A 4*3 floating point matrix.helpviewer_keywords: ["XMFLOAT4X3","XMFLOAT4X3 structure [DirectX Math Support APIs]","directxmath/XMFLOAT4X3","dxmath.xmfloat4x3"]
+description: A 4*3 floating point matrix.
+helpviewer_keywords: ["XMFLOAT4X3","XMFLOAT4X3 structure [DirectX Math Support APIs]","directxmath/XMFLOAT4X3","dxmath.xmfloat4x3"]
 old-location: dxmath\xmfloat4x3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT4X3

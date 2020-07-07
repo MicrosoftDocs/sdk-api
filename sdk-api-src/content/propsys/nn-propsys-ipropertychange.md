@@ -1,7 +1,8 @@
 ---
 UID: NN:propsys.IPropertyChange
 title: IPropertyChange (propsys.h)
-description: Exposes a method that encapsulates a change to a single property.helpviewer_keywords: ["IPropertyChange","IPropertyChange interface [Windows Properties]","IPropertyChange interface [Windows Properties]","described","_shell_IPropertyChange","properties.IPropertyChange","propsys/IPropertyChange","shell.IPropertyChange"]
+description: Exposes a method that encapsulates a change to a single property.
+helpviewer_keywords: ["IPropertyChange","IPropertyChange interface [Windows Properties]","IPropertyChange interface [Windows Properties]","described","_shell_IPropertyChange","properties.IPropertyChange","propsys/IPropertyChange","shell.IPropertyChange"]
 old-location: properties\IPropertyChange.htm
 tech.root: properties
 ms.assetid: 7bdc31d8-ba03-4010-8aa1-89701ebbf8cd

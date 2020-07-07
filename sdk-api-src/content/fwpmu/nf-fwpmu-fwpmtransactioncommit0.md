@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmTransactionCommit0
 title: FwpmTransactionCommit0 function (fwpmu.h)
-description: Commits the current transaction within the current session.helpviewer_keywords: ["FwpmTransactionCommit0","FwpmTransactionCommit0 function [Filtering]","fwp.fwpmtransactioncommit0_func","fwpmu/FwpmTransactionCommit0"]
+description: Commits the current transaction within the current session.
+helpviewer_keywords: ["FwpmTransactionCommit0","FwpmTransactionCommit0 function [Filtering]","fwp.fwpmtransactioncommit0_func","fwpmu/FwpmTransactionCommit0"]
 old-location: fwp\fwpmtransactioncommit0_func.htm
 tech.root: fwp
 ms.assetid: 3bde803c-f416-4096-98c5-1c56e4a86b94

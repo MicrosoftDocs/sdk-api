@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnBeforeStateImageChange
 title: INameSpaceTreeControlEvents::OnBeforeStateImageChange (shobjidl.h)
-description: Called before the state icon of the given IShellItem is changed.helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnBeforeStateImageChange method","INameSpaceTreeControlEvents.OnBeforeStateImageChange","INameSpaceTreeControlEvents::OnBeforeStateImageChange","OnBeforeStateImageChange","OnBeforeStateImageChange method [Windows Shell]","OnBeforeStateImageChange method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnBeforeStateImageChange","shell.INameSpaceTreeControlEvents_OnBeforeStateImageChange","shobjidl/INameSpaceTreeControlEvents::OnBeforeStateImageChange"]
+description: Called before the state icon of the given IShellItem is changed.
+helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnBeforeStateImageChange method","INameSpaceTreeControlEvents.OnBeforeStateImageChange","INameSpaceTreeControlEvents::OnBeforeStateImageChange","OnBeforeStateImageChange","OnBeforeStateImageChange method [Windows Shell]","OnBeforeStateImageChange method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnBeforeStateImageChange","shell.INameSpaceTreeControlEvents_OnBeforeStateImageChange","shobjidl/INameSpaceTreeControlEvents::OnBeforeStateImageChange"]
 old-location: shell\INameSpaceTreeControlEvents_OnBeforeStateImageChange.htm
 tech.root: shell
 ms.assetid: c26296ae-f11c-4fe9-a74c-c97472dbcb1e

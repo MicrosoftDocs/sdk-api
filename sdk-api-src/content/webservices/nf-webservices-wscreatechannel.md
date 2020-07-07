@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsCreateChannel
 title: WsCreateChannel function (webservices.h)
-description: Creates a channel for message exchange with an endpoint.helpviewer_keywords: ["WsCreateChannel","WsCreateChannel function [Web Services for Windows]","webservices/WsCreateChannel","wsw.wscreatechannel"]
+description: Creates a channel for message exchange with an endpoint.
+helpviewer_keywords: ["WsCreateChannel","WsCreateChannel function [Web Services for Windows]","webservices/WsCreateChannel","wsw.wscreatechannel"]
 old-location: wsw\wscreatechannel.htm
 tech.root: wsw
 ms.assetid: 4bef6f97-06f1-442a-8b84-869776f0541d

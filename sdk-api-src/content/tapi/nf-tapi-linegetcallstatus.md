@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineGetCallStatus
 title: lineGetCallStatus function (tapi.h)
-description: The lineGetCallStatus function returns the current status of the specified call.helpviewer_keywords: ["_tapi2_linegetcallstatus","lineGetCallStatus","lineGetCallStatus function [TAPI 2.2]","tapi/lineGetCallStatus","tapi2.linegetcallstatus"]
+description: The lineGetCallStatus function returns the current status of the specified call.
+helpviewer_keywords: ["_tapi2_linegetcallstatus","lineGetCallStatus","lineGetCallStatus function [TAPI 2.2]","tapi/lineGetCallStatus","tapi2.linegetcallstatus"]
 old-location: tapi2\linegetcallstatus.htm
 tech.root: Tapi
 ms.assetid: 88bcd211-0993-4703-b43f-4e0b93e3eb7e

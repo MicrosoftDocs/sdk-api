@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoProcessorEnumerator.GetVideoProcessorRateConversionCaps
 title: ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps (d3d11.h)
-description: Returns a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.helpviewer_keywords: ["GetVideoProcessorRateConversionCaps","GetVideoProcessorRateConversionCaps method [Media Foundation]","GetVideoProcessorRateConversionCaps method [Media Foundation]","ID3D11VideoProcessorEnumerator interface","ID3D11VideoProcessorEnumerator interface [Media Foundation]","GetVideoProcessorRateConversionCaps method","ID3D11VideoProcessorEnumerator.GetVideoProcessorRateConversionCaps","ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps","d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps","mf.id3d11videoprocessorenumerator_getvideoprocessorrateconversioncaps"]
+description: Returns a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
+helpviewer_keywords: ["GetVideoProcessorRateConversionCaps","GetVideoProcessorRateConversionCaps method [Media Foundation]","GetVideoProcessorRateConversionCaps method [Media Foundation]","ID3D11VideoProcessorEnumerator interface","ID3D11VideoProcessorEnumerator interface [Media Foundation]","GetVideoProcessorRateConversionCaps method","ID3D11VideoProcessorEnumerator.GetVideoProcessorRateConversionCaps","ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps","d3d11/ID3D11VideoProcessorEnumerator::GetVideoProcessorRateConversionCaps","mf.id3d11videoprocessorenumerator_getvideoprocessorrateconversioncaps"]
 old-location: mf\id3d11videoprocessorenumerator_getvideoprocessorrateconversioncaps.htm
 tech.root: medfound
 ms.assetid: 2DB74CB9-C6B3-477A-9EF9-6E2EC1DE37D6

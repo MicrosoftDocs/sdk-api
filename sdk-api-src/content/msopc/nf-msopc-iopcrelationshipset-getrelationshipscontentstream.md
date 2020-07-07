@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcRelationshipSet.GetRelationshipsContentStream
 title: IOpcRelationshipSet::GetRelationshipsContentStream (msopc.h)
-description: Gets a read-only stream that contains the part content of the Relationships part represented by the set.helpviewer_keywords: ["GetRelationshipsContentStream","GetRelationshipsContentStream method [Open Packaging Conventions]","GetRelationshipsContentStream method [Open Packaging Conventions]","IOpcRelationshipSet interface","IOpcRelationshipSet interface [Open Packaging Conventions]","GetRelationshipsContentStream method","IOpcRelationshipSet.GetRelationshipsContentStream","IOpcRelationshipSet::GetRelationshipsContentStream","msopc/IOpcRelationshipSet::GetRelationshipsContentStream","opc.iopcrelationshipset_getrelationshipscontentstream"]
+description: Gets a read-only stream that contains the part content of the Relationships part represented by the set.
+helpviewer_keywords: ["GetRelationshipsContentStream","GetRelationshipsContentStream method [Open Packaging Conventions]","GetRelationshipsContentStream method [Open Packaging Conventions]","IOpcRelationshipSet interface","IOpcRelationshipSet interface [Open Packaging Conventions]","GetRelationshipsContentStream method","IOpcRelationshipSet.GetRelationshipsContentStream","IOpcRelationshipSet::GetRelationshipsContentStream","msopc/IOpcRelationshipSet::GetRelationshipsContentStream","opc.iopcrelationshipset_getrelationshipscontentstream"]
 old-location: opc\iopcrelationshipset_getrelationshipscontentstream.htm
 tech.root: OPC
 ms.assetid: 648e5bd1-25cc-48df-8120-ca1756eff8f7
@@ -131,7 +132,7 @@ An <b>HRESULT</b> error code from the <a href="https://docs.microsoft.com/previo
 
 Calling this method will parse and validate all the relationships in the relationships markup. If the Relationships part contains invalid relationships markup, the markup cannot be retrieved by this method.
 
-For more information about markup compatibility and packages, see Part 5: Markup Compatibility in <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a> (https://go.microsoft.com/fwlink/p/?linkid=123375).
+For more information about markup compatibility and packages, see Part 5: Markup Compatibility in <a href="https://www.ecma-international.org/publications/standards/Ecma-376.htm">ECMA-376 OpenXML</a> (http://www.ecma-international.org/publications/standards/Ecma-376.htm).
 
 
 #### Thread Safety

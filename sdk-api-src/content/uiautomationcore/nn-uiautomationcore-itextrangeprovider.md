@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationcore.ITextRangeProvider
 title: ITextRangeProvider (uiautomationcore.h)
-description: Provides access to a span of continuous text in a text container that implements ITextProvider or ITextProvider2.helpviewer_keywords: ["ITextRangeProvider","ITextRangeProvider interface [Windows Accessibility]","ITextRangeProvider interface [Windows Accessibility]","described","uiauto.uiauto_ITextRangeProvider","uiauto_ITextRangeProvider","uiautomationcore/ITextRangeProvider","winauto.uiauto_ITextRangeProvider"]
+description: Provides access to a span of continuous text in a text container that implements ITextProvider or ITextProvider2.
+helpviewer_keywords: ["ITextRangeProvider","ITextRangeProvider interface [Windows Accessibility]","ITextRangeProvider interface [Windows Accessibility]","described","uiauto.uiauto_ITextRangeProvider","uiauto_ITextRangeProvider","uiautomationcore/ITextRangeProvider","winauto.uiauto_ITextRangeProvider"]
 old-location: winauto\uiauto_ITextRangeProvider.htm
 tech.root: WinAuto
 ms.assetid: dd14e608-1d21-4527-8b82-dba64ed04fda

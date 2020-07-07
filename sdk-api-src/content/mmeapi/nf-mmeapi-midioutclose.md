@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.midiOutClose
 title: midiOutClose function (mmeapi.h)
-description: The midiOutClose function closes the specified MIDI output device.helpviewer_keywords: ["_win32_midiOutClose","midiOutClose","midiOutClose function [Windows Multimedia]","mmeapi/midiOutClose","multimedia.midioutclose"]
+description: The midiOutClose function closes the specified MIDI output device.
+helpviewer_keywords: ["_win32_midiOutClose","midiOutClose","midiOutClose function [Windows Multimedia]","mmeapi/midiOutClose","multimedia.midioutclose"]
 old-location: multimedia\midioutclose.htm
 tech.root: Multimedia
 ms.assetid: 4f23295c-1c2c-4060-9c19-b3f0ed5bf44c

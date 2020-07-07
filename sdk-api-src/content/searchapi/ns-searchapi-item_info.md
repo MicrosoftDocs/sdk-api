@@ -1,7 +1,8 @@
 ---
 UID: NS:searchapi._ITEM_INFO
 title: ITEM_INFO (searchapi.h)
-description: Contains information passed to the IUrlAccessor object about the current item; for example, the application name and catalog name.helpviewer_keywords: ["ITEM_INFO","ITEM_INFO structure [search]","_search_ITEM_INFO","search._search_ITEM_INFO","searchapi/ITEM_INFO"]
+description: Contains information passed to the IUrlAccessor object about the current item; for example, the application name and catalog name.
+helpviewer_keywords: ["ITEM_INFO","ITEM_INFO structure [search]","_search_ITEM_INFO","search._search_ITEM_INFO","searchapi/ITEM_INFO"]
 old-location: search\_search_ITEM_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\item_info.htm

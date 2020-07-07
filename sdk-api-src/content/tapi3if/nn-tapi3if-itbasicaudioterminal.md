@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITBasicAudioTerminal
 title: ITBasicAudioTerminal (tapi3if.h)
-description: The ITBasicAudioTerminal interface provides methods that allow an application to control basic sound characteristics of terminal.helpviewer_keywords: ["ITBasicAudioTerminal","ITBasicAudioTerminal interface [TAPI 2.2]","ITBasicAudioTerminal interface [TAPI 2.2]","described","_tapi3_itbasicaudioterminal","tapi3.itbasicaudioterminal","tapi3if/ITBasicAudioTerminal"]
+description: The ITBasicAudioTerminal interface provides methods that allow an application to control basic sound characteristics of terminal.
+helpviewer_keywords: ["ITBasicAudioTerminal","ITBasicAudioTerminal interface [TAPI 2.2]","ITBasicAudioTerminal interface [TAPI 2.2]","described","_tapi3_itbasicaudioterminal","tapi3.itbasicaudioterminal","tapi3if/ITBasicAudioTerminal"]
 old-location: tapi3\itbasicaudioterminal.htm
 tech.root: Tapi
 ms.assetid: 3e676a16-f3ce-433c-9941-8cdccdb01efd

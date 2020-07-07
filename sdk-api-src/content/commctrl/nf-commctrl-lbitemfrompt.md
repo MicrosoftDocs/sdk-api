@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.LBItemFromPt
 title: LBItemFromPt function (commctrl.h)
-description: Retrieves the index of the item at the specified point in a list box.helpviewer_keywords: ["LBItemFromPt","LBItemFromPt function [Windows Controls]","_win32_LBItemFromPt","_win32_LBItemFromPt_cpp","commctrl/LBItemFromPt","controls.LBItemFromPt","controls._win32_LBItemFromPt"]
+description: Retrieves the index of the item at the specified point in a list box.
+helpviewer_keywords: ["LBItemFromPt","LBItemFromPt function [Windows Controls]","_win32_LBItemFromPt","_win32_LBItemFromPt_cpp","commctrl/LBItemFromPt","controls.LBItemFromPt","controls._win32_LBItemFromPt"]
 old-location: controls\LBItemFromPt.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\lbitemfrompt.htm

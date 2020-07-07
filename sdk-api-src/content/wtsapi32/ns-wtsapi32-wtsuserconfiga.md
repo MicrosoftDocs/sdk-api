@@ -1,7 +1,8 @@
 ---
 UID: NS:wtsapi32._WTSUSERCONFIGA
 title: WTSUSERCONFIGA (wtsapi32.h)
-description: Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server.helpviewer_keywords: ["*PWTSUSERCONFIGA","PWTSUSERCONFIG","PWTSUSERCONFIG structure pointer [Remote Desktop Services]","WTSUSERCONFIG","WTSUSERCONFIG structure [Remote Desktop Services]","WTSUSERCONFIGA","WTSUSERCONFIGW","termserv.wtsuserconfig","wtsapi32/PWTSUSERCONFIG","wtsapi32/WTSUSERCONFIG","wtsapi32/WTSUSERCONFIGA","wtsapi32/WTSUSERCONFIGW"]
+description: Contains configuration information for a user on a domain controller or Remote Desktop Session Host (RD Session Host) server.
+helpviewer_keywords: ["*PWTSUSERCONFIGA","PWTSUSERCONFIG","PWTSUSERCONFIG structure pointer [Remote Desktop Services]","WTSUSERCONFIG","WTSUSERCONFIG structure [Remote Desktop Services]","WTSUSERCONFIGA","WTSUSERCONFIGW","termserv.wtsuserconfig","wtsapi32/PWTSUSERCONFIG","wtsapi32/WTSUSERCONFIG","wtsapi32/WTSUSERCONFIGA","wtsapi32/WTSUSERCONFIGW"]
 old-location: termserv\wtsuserconfig.htm
 tech.root: TermServ
 ms.assetid: 73788ea3-1ba7-4749-983d-4ca6e4f76acb
@@ -283,4 +284,9 @@ A null-terminated string that contains the drive name (a drive letter followed b
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The wtsapi32.h header defines WTSUSERCONFIG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

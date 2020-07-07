@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IFeedClockVector.GetUpdateCount
 title: IFeedClockVector::GetUpdateCount (winsync.h)
-description: Gets the number of updates that have been made to the FeedSync item.helpviewer_keywords: ["GetUpdateCount","GetUpdateCount method [Windows Sync]","GetUpdateCount method [Windows Sync]","IFeedClockVector interface","IFeedClockVector interface [Windows Sync]","GetUpdateCount method","IFeedClockVector.GetUpdateCount","IFeedClockVector::GetUpdateCount","winsync.ifeedclockvector_getupdatecount","winsync/IFeedClockVector::GetUpdateCount"]
+description: Gets the number of updates that have been made to the FeedSync item.
+helpviewer_keywords: ["GetUpdateCount","GetUpdateCount method [Windows Sync]","GetUpdateCount method [Windows Sync]","IFeedClockVector interface","IFeedClockVector interface [Windows Sync]","GetUpdateCount method","IFeedClockVector.GetUpdateCount","IFeedClockVector::GetUpdateCount","winsync.ifeedclockvector_getupdatecount","winsync/IFeedClockVector::GetUpdateCount"]
 old-location: winsync\ifeedclockvector_getupdatecount.htm
 tech.root: winsync
 ms.assetid: a8cf6b0f-2049-4047-b72d-34530ae82605

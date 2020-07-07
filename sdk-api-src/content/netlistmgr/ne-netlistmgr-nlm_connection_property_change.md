@@ -1,7 +1,8 @@
 ---
 UID: NE:netlistmgr.NLM_CONNECTION_PROPERTY_CHANGE
 title: NLM_CONNECTION_PROPERTY_CHANGE (netlistmgr.h)
-description: The NLM_CONNECTION PROPERTY_CHANGE enumeration is a set of flags that define changes made to the properties of a network connection.helpviewer_keywords: ["NLM_CONNECTION_PROPERTY_CHANGE","NLM_CONNECTION_PROPERTY_CHANGE enumeration [Network Awareness]","NLM_CONNECTION_PROPERTY_CHANGE_AUTHENTICATION","netlistmgr/NLM_CONNECTION_PROPERTY_CHANGE","netlistmgr/NLM_CONNECTION_PROPERTY_CHANGE_AUTHENTICATION","nla.nlm_connection_property_change"]
+description: The NLM_CONNECTION PROPERTY_CHANGE enumeration is a set of flags that define changes made to the properties of a network connection.
+helpviewer_keywords: ["NLM_CONNECTION_PROPERTY_CHANGE","NLM_CONNECTION_PROPERTY_CHANGE enumeration [Network Awareness]","NLM_CONNECTION_PROPERTY_CHANGE_AUTHENTICATION","netlistmgr/NLM_CONNECTION_PROPERTY_CHANGE","netlistmgr/NLM_CONNECTION_PROPERTY_CHANGE_AUTHENTICATION","nla.nlm_connection_property_change"]
 old-location: nla\nlm_connection_property_change.htm
 tech.root: nla
 ms.assetid: 75cc1876-e6e0-4c39-a0af-5c47e7501c98

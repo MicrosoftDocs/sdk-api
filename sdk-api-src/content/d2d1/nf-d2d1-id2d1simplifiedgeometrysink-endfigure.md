@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1SimplifiedGeometrySink.EndFigure
 title: ID2D1SimplifiedGeometrySink::EndFigure (d2d1.h)
-description: Ends the current figure; optionally, closes it.helpviewer_keywords: ["EndFigure","EndFigure method [Direct2D]","EndFigure method [Direct2D]","ID2D1SimplifiedGeometrySink interface","ID2D1SimplifiedGeometrySink interface [Direct2D]","EndFigure method","ID2D1SimplifiedGeometrySink.EndFigure","ID2D1SimplifiedGeometrySink::EndFigure","d2d1/ID2D1SimplifiedGeometrySink::EndFigure","direct2d.ID2D1SimplifiedGeometrySink_EndFigure"]
+description: Ends the current figure; optionally, closes it.
+helpviewer_keywords: ["EndFigure","EndFigure method [Direct2D]","EndFigure method [Direct2D]","ID2D1SimplifiedGeometrySink interface","ID2D1SimplifiedGeometrySink interface [Direct2D]","EndFigure method","ID2D1SimplifiedGeometrySink.EndFigure","ID2D1SimplifiedGeometrySink::EndFigure","d2d1/ID2D1SimplifiedGeometrySink::EndFigure","direct2d.ID2D1SimplifiedGeometrySink_EndFigure"]
 old-location: direct2d\ID2D1SimplifiedGeometrySink_EndFigure.htm
 tech.root: Direct2D
 ms.assetid: 31f6aeba-2e81-4b8d-b734-0c501eae331f
@@ -59,21 +60,21 @@ Ends the current figure; optionally, closes it.
 
 ### -param figureEnd
 
-Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/d2d1/ne-d2d1-d2d1_figure_end">D2D1_FIGURE_END</a></b>
+Type: <b><a href="/windows/win32/api/d2d1/ne-d2d1-d2d1_figure_end">D2D1_FIGURE_END</a></b>
 
-A value that indicates whether the current figure is closed. If the figure is closed, a line is drawn between the current point and the start point specified by <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">BeginFigure</a>.
+A value that indicates whether the current figure is closed. If the figure is closed, a line is drawn between the current point and the start point specified by <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">BeginFigure</a>.
 
 
 ## -remarks
 
 
 
-Calling this method without a matching call to <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">BeginFigure</a>  places the geometry sink in an error state; subsequent calls are ignored, and the overall failure will be returned when the <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-close">Close</a> method is called.
+Calling this method without a matching call to <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-beginfigure">BeginFigure</a>  places the geometry sink in an error state; subsequent calls are ignored, and the overall failure will be returned when the <a href="/windows/win32/api/d2d1/nf-d2d1-id2d1simplifiedgeometrysink-close">Close</a> method is called.
 
 
-#### Examples
+## Examples
 
-The following example creates an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>, retrieves a sink, uses it to define an hourglass shape, and then calls <b>EndFigure</b> with the D2D1_FIGURE_END_CLOSED value to end the creation of the hourglass. For the complete example, see <a href="https://docs.microsoft.com/windows/desktop/Direct2D/how-to-draw-and-fill-a-complex-shape">How to Draw and Fill a Complex Shape</a>.
+The following example creates an <a href="/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry">ID2D1PathGeometry</a>, retrieves a sink, uses it to define an hourglass shape, and then calls <b>EndFigure</b> with the D2D1_FIGURE_END_CLOSED value to end the creation of the hourglass. For the complete example, see <a href="/windows/win32/Direct2D/how-to-draw-and-fill-a-complex-shape">How to Draw and Fill a Complex Shape</a>.
 
 
 ```cpp
@@ -138,7 +139,7 @@ if (SUCCEEDED(hr))
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>
+<a href="/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink">ID2D1SimplifiedGeometrySink</a>
  
 
  

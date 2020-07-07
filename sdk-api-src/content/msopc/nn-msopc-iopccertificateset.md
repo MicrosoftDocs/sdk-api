@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcCertificateSet
 title: IOpcCertificateSet (msopc.h)
-description: An unordered set of certificates to be used with a signature.helpviewer_keywords: ["IOpcCertificateSet","IOpcCertificateSet interface [Open Packaging Conventions]","IOpcCertificateSet interface [Open Packaging Conventions]","described","msopc/IOpcCertificateSet","opc.iopccertificateset"]
+description: An unordered set of certificates to be used with a signature.
+helpviewer_keywords: ["IOpcCertificateSet","IOpcCertificateSet interface [Open Packaging Conventions]","IOpcCertificateSet interface [Open Packaging Conventions]","described","msopc/IOpcCertificateSet","opc.iopccertificateset"]
 old-location: opc\iopccertificateset.htm
 tech.root: OPC
 ms.assetid: 0ac56b41-a120-4a9b-9bfa-afba1ba0f3b4

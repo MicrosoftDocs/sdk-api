@@ -1,7 +1,8 @@
 ---
 UID: NN:dshowasf.IAMWMBufferPass
 title: IAMWMBufferPass (dshowasf.h)
-description: The IAMWMBufferPass interface is implemented on the output pins of the WM ASF Reader and the input pins of the WM ASF Writer.helpviewer_keywords: ["IAMWMBufferPass","IAMWMBufferPass interface [windows Media Format]","IAMWMBufferPass interface [windows Media Format]","described","IAMWMBufferPassInterface","dshowasf/IAMWMBufferPass","wmformat.iamwmbufferpass"]
+description: The IAMWMBufferPass interface is implemented on the output pins of the WM ASF Reader and the input pins of the WM ASF Writer.
+helpviewer_keywords: ["IAMWMBufferPass","IAMWMBufferPass interface [windows Media Format]","IAMWMBufferPass interface [windows Media Format]","described","IAMWMBufferPassInterface","dshowasf/IAMWMBufferPass","wmformat.iamwmbufferpass"]
 old-location: wmformat\iamwmbufferpass.htm
 tech.root: wmformat
 ms.assetid: aa7513d4-9341-4ddf-ac82-54eb0c6eb5f4

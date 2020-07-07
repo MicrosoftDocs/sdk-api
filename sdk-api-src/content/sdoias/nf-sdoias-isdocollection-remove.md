@@ -1,7 +1,8 @@
 ---
 UID: NF:sdoias.ISdoCollection.Remove
 title: ISdoCollection::Remove (sdoias.h)
-description: The Remove method removes the specified item from the collection.helpviewer_keywords: ["ISdoCollection interface [Network Policy Server]","Remove method","ISdoCollection.Remove","ISdoCollection::Remove","Remove","Remove method [Network Policy Server]","Remove method [Network Policy Server]","ISdoCollection interface","_sdo_isdocollection_remove","nps.SDO_isdocollection_remove","sdo.isdocollection_remove","sdoias/ISdoCollection::Remove"]
+description: The Remove method removes the specified item from the collection.
+helpviewer_keywords: ["ISdoCollection interface [Network Policy Server]","Remove method","ISdoCollection.Remove","ISdoCollection::Remove","Remove","Remove method [Network Policy Server]","Remove method [Network Policy Server]","ISdoCollection interface","_sdo_isdocollection_remove","nps.SDO_isdocollection_remove","sdo.isdocollection_remove","sdoias/ISdoCollection::Remove"]
 old-location: nps\SDO_isdocollection_remove.htm
 tech.root: Nps
 ms.assetid: f390377d-b78e-4548-9602-c0eb363765c7

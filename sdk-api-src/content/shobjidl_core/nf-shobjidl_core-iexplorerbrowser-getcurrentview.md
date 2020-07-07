@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.GetCurrentView
 title: IExplorerBrowser::GetCurrentView (shobjidl_core.h)
-description: Gets an interface for the current view of the browser.helpviewer_keywords: ["GetCurrentView","GetCurrentView method [Windows Shell]","GetCurrentView method [Windows Shell]","IExplorerBrowser interface","IExplorerBrowser interface [Windows Shell]","GetCurrentView method","IExplorerBrowser.GetCurrentView","IExplorerBrowser::GetCurrentView","_shell_IExplorerBrowser_GetCurrentView","shell.IExplorerBrowser_GetCurrentView","shobjidl_core/IExplorerBrowser::GetCurrentView"]
+description: Gets an interface for the current view of the browser.
+helpviewer_keywords: ["GetCurrentView","GetCurrentView method [Windows Shell]","GetCurrentView method [Windows Shell]","IExplorerBrowser interface","IExplorerBrowser interface [Windows Shell]","GetCurrentView method","IExplorerBrowser.GetCurrentView","IExplorerBrowser::GetCurrentView","_shell_IExplorerBrowser_GetCurrentView","shell.IExplorerBrowser_GetCurrentView","shobjidl_core/IExplorerBrowser::GetCurrentView"]
 old-location: shell\IExplorerBrowser_GetCurrentView.htm
 tech.root: shell
 ms.assetid: e7c05a67-f739-487d-872a-3598b790d5c9

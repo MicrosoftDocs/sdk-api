@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICColorContext.GetProfileBytes
 title: IWICColorContext::GetProfileBytes (wincodec.h)
-description: Retrieves the color context profile.helpviewer_keywords: ["GetProfileBytes","GetProfileBytes method [Windows Imaging Component]","GetProfileBytes method [Windows Imaging Component]","IWICColorContext interface","IWICColorContext interface [Windows Imaging Component]","GetProfileBytes method","IWICColorContext.GetProfileBytes","IWICColorContext::GetProfileBytes","_wic_codec_iwiccolorcontext_getprofilebytes","wic._wic_codec_iwiccolorcontext_getprofilebytes","wincodec/IWICColorContext::GetProfileBytes"]
+description: Retrieves the color context profile.
+helpviewer_keywords: ["GetProfileBytes","GetProfileBytes method [Windows Imaging Component]","GetProfileBytes method [Windows Imaging Component]","IWICColorContext interface","IWICColorContext interface [Windows Imaging Component]","GetProfileBytes method","IWICColorContext.GetProfileBytes","IWICColorContext::GetProfileBytes","_wic_codec_iwiccolorcontext_getprofilebytes","wic._wic_codec_iwiccolorcontext_getprofilebytes","wincodec/IWICColorContext::GetProfileBytes"]
 old-location: wic\_wic_codec_iwiccolorcontext_getprofilebytes.htm
 tech.root: wic
 ms.assetid: 59427a49-ef68-4680-b6d8-4ffa2a1913b8

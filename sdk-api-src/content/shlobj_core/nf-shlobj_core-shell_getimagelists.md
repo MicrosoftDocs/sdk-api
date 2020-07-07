@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.Shell_GetImageLists
 title: Shell_GetImageLists function (shlobj_core.h)
-description: Retrieves system image lists for large and small icons.helpviewer_keywords: ["Shell_GetImageLists","Shell_GetImageLists function [Windows Shell]","_win32_Shell_GetImageLists","shell.Shell_GetImageLists","shlobj_core/Shell_GetImageLists"]
+description: Retrieves system image lists for large and small icons.
+helpviewer_keywords: ["Shell_GetImageLists","Shell_GetImageLists function [Windows Shell]","_win32_Shell_GetImageLists","shell.Shell_GetImageLists","shlobj_core/Shell_GetImageLists"]
 old-location: shell\Shell_GetImageLists.htm
 tech.root: shell
 ms.assetid: c3b73616-849c-4149-b04d-a7d389ebf700

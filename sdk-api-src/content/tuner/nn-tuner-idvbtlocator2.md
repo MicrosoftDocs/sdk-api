@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IDVBTLocator2
 title: IDVBTLocator2 (tuner.h)
-description: Gets or sets tuning information for a Digital Video Broadcast - Second Generation Terrestrial (DVB-T2) network.helpviewer_keywords: ["IDVBTLocator2","IDVBTLocator2 interface [Microsoft TV Technologies]","IDVBTLocator2 interface [Microsoft TV Technologies]","described","mstv.idvbtlocator2","tuner/IDVBTLocator2"]
+description: Gets or sets tuning information for a Digital Video Broadcast - Second Generation Terrestrial (DVB-T2) network.
+helpviewer_keywords: ["IDVBTLocator2","IDVBTLocator2 interface [Microsoft TV Technologies]","IDVBTLocator2 interface [Microsoft TV Technologies]","described","mstv.idvbtlocator2","tuner/IDVBTLocator2"]
 old-location: mstv\idvbtlocator2.htm
 tech.root: mstv
 ms.assetid: 3a0add24-74bb-4645-8ea2-ec14ecfa8fb5

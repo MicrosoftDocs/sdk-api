@@ -1,7 +1,8 @@
 ---
 UID: NN:msvidctl.IMSVidCtl
 title: IMSVidCtl (msvidctl.h)
-description: The IMSVidCtl interface is the main interface for the Video Control.helpviewer_keywords: ["IMSVidCtl","IMSVidCtl interface [Microsoft TV Technologies]","IMSVidCtl interface [Microsoft TV Technologies]","described","IMSVidCtlInterface","mstv.imsvidctl","msvidctl/IMSVidCtl"]
+description: The IMSVidCtl interface is the main interface for the Video Control.
+helpviewer_keywords: ["IMSVidCtl","IMSVidCtl interface [Microsoft TV Technologies]","IMSVidCtl interface [Microsoft TV Technologies]","described","IMSVidCtlInterface","mstv.imsvidctl","msvidctl/IMSVidCtl"]
 old-location: mstv\imsvidctl.htm
 tech.root: mstv
 ms.assetid: e3ea10ea-bfb4-4c35-9933-5ad0367fd9ee

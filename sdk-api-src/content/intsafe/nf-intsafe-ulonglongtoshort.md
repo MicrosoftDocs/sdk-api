@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ULongLongToShort
 title: ULongLongToShort function (intsafe.h)
-description: Converts a value of type ULONGLONG to a value of type SHORT.helpviewer_keywords: ["ULongLongToShort","ULongLongToShort function [Windows Shell]","intsafe/ULongLongToShort","shell.ULongLongToShort"]
+description: Converts a value of type ULONGLONG to a value of type SHORT.
+helpviewer_keywords: ["ULongLongToShort","ULongLongToShort function [Windows Shell]","intsafe/ULongLongToShort","shell.ULongLongToShort"]
 old-location: shell\ULongLongToShort.htm
 tech.root: shell
 ms.assetid: 499af7eb-0429-4197-af05-40e9aaa877a8

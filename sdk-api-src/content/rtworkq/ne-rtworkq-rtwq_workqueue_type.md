@@ -1,7 +1,8 @@
 ---
 UID: NE:rtworkq.__unnamed_enum_0
 title: RTWQ_WORKQUEUE_TYPE (rtworkq.h)
-description: Specifies the type of work queue for the RtwqAllocateWorkQueue function to create.helpviewer_keywords: ["RTWQ_MULTITHREADED_WORKQUEUE","RTWQ_STANDARD_WORKQUEUE","RTWQ_WINDOW_WORKQUEUE","RTWQ_WORKQUEUE_TYPE","RTWQ_WORKQUEUE_TYPE enumeration","base.rtwq_workqueue_type","rtworkq/RTWQ_MULTITHREADED_WORKQUEUE","rtworkq/RTWQ_STANDARD_WORKQUEUE","rtworkq/RTWQ_WINDOW_WORKQUEUE","rtworkq/RTWQ_WORKQUEUE_TYPE"]
+description: Specifies the type of work queue for the RtwqAllocateWorkQueue function to create.
+helpviewer_keywords: ["RTWQ_MULTITHREADED_WORKQUEUE","RTWQ_STANDARD_WORKQUEUE","RTWQ_WINDOW_WORKQUEUE","RTWQ_WORKQUEUE_TYPE","RTWQ_WORKQUEUE_TYPE enumeration","base.rtwq_workqueue_type","rtworkq/RTWQ_MULTITHREADED_WORKQUEUE","rtworkq/RTWQ_STANDARD_WORKQUEUE","rtworkq/RTWQ_WINDOW_WORKQUEUE","rtworkq/RTWQ_WORKQUEUE_TYPE"]
 old-location: base\rtwq_workqueue_type.htm
 tech.root: ProcThread
 ms.assetid: 4aab85f3-855e-4fbf-9d25-209214bdd73b

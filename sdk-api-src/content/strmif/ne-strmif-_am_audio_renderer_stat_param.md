@@ -1,7 +1,8 @@
 ---
 UID: NE:strmif._AM_AUDIO_RENDERER_STAT_PARAM
 title: "_AM_AUDIO_RENDERER_STAT_PARAM (strmif.h)"
-description: The _AM_AUDIO_RENDERER_STAT_PARAM enumeration specifies which performance information to retrieve from the audio renderer.helpviewer_keywords: ["AM_AUDREND_STAT_PARAM_BREAK_COUNT","AM_AUDREND_STAT_PARAM_BUFFERFULLNESS","AM_AUDREND_STAT_PARAM_DISCONTINUITIES","AM_AUDREND_STAT_PARAM_JITTER","AM_AUDREND_STAT_PARAM_LAST_BUFFER_DUR","AM_AUDREND_STAT_PARAM_SILENCE_DUR","AM_AUDREND_STAT_PARAM_SLAVE_ACCUMERROR","AM_AUDREND_STAT_PARAM_SLAVE_DROPWRITE_DUR","AM_AUDREND_STAT_PARAM_SLAVE_HIGHLOWERROR","AM_AUDREND_STAT_PARAM_SLAVE_LASTHIGHLOWERROR","AM_AUDREND_STAT_PARAM_SLAVE_MODE","AM_AUDREND_STAT_PARAM_SLAVE_RATE","_AM_AUDIO_RENDERER_STAT_PARAM","_AM_AUDIO_RENDERER_STAT_PARAM enumeration [DirectShow]","_AM_AUDIO_RENDERER_STAT_PARAMEnumeration","dshow._am_audio_renderer_stat_param","strmif/AM_AUDREND_STAT_PARAM_BREAK_COUNT","strmif/AM_AUDREND_STAT_PARAM_BUFFERFULLNESS","strmif/AM_AUDREND_STAT_PARAM_DISCONTINUITIES","strmif/AM_AUDREND_STAT_PARAM_JITTER","strmif/AM_AUDREND_STAT_PARAM_LAST_BUFFER_DUR","strmif/AM_AUDREND_STAT_PARAM_SILENCE_DUR","strmif/AM_AUDREND_STAT_PARAM_SLAVE_ACCUMERROR","strmif/AM_AUDREND_STAT_PARAM_SLAVE_DROPWRITE_DUR","strmif/AM_AUDREND_STAT_PARAM_SLAVE_HIGHLOWERROR","strmif/AM_AUDREND_STAT_PARAM_SLAVE_LASTHIGHLOWERROR","strmif/AM_AUDREND_STAT_PARAM_SLAVE_MODE","strmif/AM_AUDREND_STAT_PARAM_SLAVE_RATE","strmif/_AM_AUDIO_RENDERER_STAT_PARAM"]
+description: The _AM_AUDIO_RENDERER_STAT_PARAM enumeration specifies which performance information to retrieve from the audio renderer.
+helpviewer_keywords: ["AM_AUDREND_STAT_PARAM_BREAK_COUNT","AM_AUDREND_STAT_PARAM_BUFFERFULLNESS","AM_AUDREND_STAT_PARAM_DISCONTINUITIES","AM_AUDREND_STAT_PARAM_JITTER","AM_AUDREND_STAT_PARAM_LAST_BUFFER_DUR","AM_AUDREND_STAT_PARAM_SILENCE_DUR","AM_AUDREND_STAT_PARAM_SLAVE_ACCUMERROR","AM_AUDREND_STAT_PARAM_SLAVE_DROPWRITE_DUR","AM_AUDREND_STAT_PARAM_SLAVE_HIGHLOWERROR","AM_AUDREND_STAT_PARAM_SLAVE_LASTHIGHLOWERROR","AM_AUDREND_STAT_PARAM_SLAVE_MODE","AM_AUDREND_STAT_PARAM_SLAVE_RATE","_AM_AUDIO_RENDERER_STAT_PARAM","_AM_AUDIO_RENDERER_STAT_PARAM enumeration [DirectShow]","_AM_AUDIO_RENDERER_STAT_PARAMEnumeration","dshow._am_audio_renderer_stat_param","strmif/AM_AUDREND_STAT_PARAM_BREAK_COUNT","strmif/AM_AUDREND_STAT_PARAM_BUFFERFULLNESS","strmif/AM_AUDREND_STAT_PARAM_DISCONTINUITIES","strmif/AM_AUDREND_STAT_PARAM_JITTER","strmif/AM_AUDREND_STAT_PARAM_LAST_BUFFER_DUR","strmif/AM_AUDREND_STAT_PARAM_SILENCE_DUR","strmif/AM_AUDREND_STAT_PARAM_SLAVE_ACCUMERROR","strmif/AM_AUDREND_STAT_PARAM_SLAVE_DROPWRITE_DUR","strmif/AM_AUDREND_STAT_PARAM_SLAVE_HIGHLOWERROR","strmif/AM_AUDREND_STAT_PARAM_SLAVE_LASTHIGHLOWERROR","strmif/AM_AUDREND_STAT_PARAM_SLAVE_MODE","strmif/AM_AUDREND_STAT_PARAM_SLAVE_RATE","strmif/_AM_AUDIO_RENDERER_STAT_PARAM"]
 old-location: dshow\_am_audio_renderer_stat_param.htm
 tech.root: DirectShow
 ms.assetid: ae090ab0-22e2-4407-8c16-feaa4fa20774
@@ -55,6 +56,10 @@ The <b>_AM_AUDIO_RENDERER_STAT_PARAM</b> enumeration specifies which performance
 
 
 This enumeration type is used in the <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nf-strmif-iamaudiorendererstats-getstatparam">IAMAudioRendererStats::GetStatParam</a> method. Each enumeration member defines the meaning of the values that are returned in the <i>pdwParam1</i> and <i>pdwParam2</i> parameters of <b>GetStatParam</b>.
+
+> [!NOTE]
+> Bias-free Communication
+Microsoft supports a diverse and inclusionary environment.  Within this document, there are references to the word 'slave.' Microsoft's [Style Guide for Bias-Free Communications](https://docs.microsoft.com/style-guide/bias-free-communication) recognizes this as an exclusionary word.  This wording is used as it is currently the wording used within the software. For consistency, this document contains this word. When this word is removed from the software, we will correct this document to be in alignment.
 
 
 ## -enum-fields
@@ -172,6 +177,3 @@ Not implemented.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudiorendererstats">IAMAudioRendererStats Interface</a>
  
-
- 
-

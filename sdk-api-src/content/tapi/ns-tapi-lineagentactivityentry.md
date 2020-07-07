@@ -1,7 +1,8 @@
 ---
 UID: NS:tapi.lineagentactivityentry_tag
 title: LINEAGENTACTIVITYENTRY (tapi.h)
-description: The LINEAGENTACTIVITYENTRY structure describes a single ACD agent activity. The LINEAGENTACTIVITYLIST structure can contain an array of LINEAGENTACTIVITYENTRY structures.helpviewer_keywords: ["*LPLINEAGENTACTIVITYENTRY","LINEAGENTACTIVITYENTRY","LINEAGENTACTIVITYENTRY structure [TAPI 2.2]","LPLINEAGENTACTIVITYENTRY","LPLINEAGENTACTIVITYENTRY structure pointer [TAPI 2.2]","_tapi2_lineagentactivityentry_str","tapi/LINEAGENTACTIVITYENTRY","tapi/LPLINEAGENTACTIVITYENTRY","tapi2.lineagentactivityentry_str"]
+description: The LINEAGENTACTIVITYENTRY structure describes a single ACD agent activity. The LINEAGENTACTIVITYLIST structure can contain an array of LINEAGENTACTIVITYENTRY structures.
+helpviewer_keywords: ["*LPLINEAGENTACTIVITYENTRY","LINEAGENTACTIVITYENTRY","LINEAGENTACTIVITYENTRY structure [TAPI 2.2]","LPLINEAGENTACTIVITYENTRY","LPLINEAGENTACTIVITYENTRY structure pointer [TAPI 2.2]","_tapi2_lineagentactivityentry_str","tapi/LINEAGENTACTIVITYENTRY","tapi/LPLINEAGENTACTIVITYENTRY","tapi2.lineagentactivityentry_str"]
 old-location: tapi2\lineagentactivityentry_str.htm
 tech.root: Tapi
 ms.assetid: e4f869a9-608c-4119-863b-b29e8b0d9680

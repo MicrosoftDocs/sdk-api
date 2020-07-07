@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12PipelineState.GetCachedBlob
 title: ID3D12PipelineState::GetCachedBlob (d3d12.h)
-description: Gets the cached blob representing the pipeline state.helpviewer_keywords: ["GetCachedBlob","GetCachedBlob method","GetCachedBlob method","ID3D12PipelineState interface","ID3D12PipelineState interface","GetCachedBlob method","ID3D12PipelineState.GetCachedBlob","ID3D12PipelineState::GetCachedBlob","d3d12/ID3D12PipelineState::GetCachedBlob","direct3d12.id3d12pipelinestate_getcachedblob"]
+description: Gets the cached blob representing the pipeline state.
+helpviewer_keywords: ["GetCachedBlob","GetCachedBlob method","GetCachedBlob method","ID3D12PipelineState interface","ID3D12PipelineState interface","GetCachedBlob method","ID3D12PipelineState.GetCachedBlob","ID3D12PipelineState::GetCachedBlob","d3d12/ID3D12PipelineState::GetCachedBlob","direct3d12.id3d12pipelinestate_getcachedblob"]
 old-location: direct3d12\id3d12pipelinestate_getcachedblob.htm
 tech.root: direct3d12
 ms.assetid: 318FCFEE-74A7-4546-989E-9AF674D2B853

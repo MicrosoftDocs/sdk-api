@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateShadowEffect
 title: IDCompositionDevice3::CreateShadowEffect (dcomp.h)
-description: Creates an instance of IDCompositionShadowEffect.helpviewer_keywords: ["CreateShadowEffect","CreateShadowEffect method [DirectComposition]","CreateShadowEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateShadowEffect method","IDCompositionDevice3.CreateShadowEffect","IDCompositionDevice3::CreateShadowEffect","dcomp/IDCompositionDevice3::CreateShadowEffect","directcomp.idcompositiondevice3_createshadoweffect"]
+description: Creates an instance of IDCompositionShadowEffect.
+helpviewer_keywords: ["CreateShadowEffect","CreateShadowEffect method [DirectComposition]","CreateShadowEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateShadowEffect method","IDCompositionDevice3.CreateShadowEffect","IDCompositionDevice3::CreateShadowEffect","dcomp/IDCompositionDevice3::CreateShadowEffect","directcomp.idcompositiondevice3_createshadoweffect"]
 old-location: directcomp\idcompositiondevice3_createshadoweffect.htm
 tech.root: directcomp
 ms.assetid: C0A2B599-F061-4312-BDBC-96DF724F02D8

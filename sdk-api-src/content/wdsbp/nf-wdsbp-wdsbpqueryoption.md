@@ -1,7 +1,8 @@
 ---
 UID: NF:wdsbp.WdsBpQueryOption
 title: WdsBpQueryOption function (wdsbp.h)
-description: Returns the value of an option from the parsed packet.helpviewer_keywords: ["WdsBpQueryOption","WdsBpQueryOption function [Windows Deployment Services]","wds.wdsbpqueryoption","wdsbp/WdsBpQueryOption"]
+description: Returns the value of an option from the parsed packet.
+helpviewer_keywords: ["WdsBpQueryOption","WdsBpQueryOption function [Windows Deployment Services]","wds.wdsbpqueryoption","wdsbp/WdsBpQueryOption"]
 old-location: wds\wdsbpqueryoption.htm
 tech.root: wds
 ms.assetid: 98c0d220-db20-4aba-9df0-e50f3b947da2

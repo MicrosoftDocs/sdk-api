@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.TlsGetValue
 title: TlsGetValue function (processthreadsapi.h)
-description: Retrieves the value in the calling thread's thread local storage (TLS) slot for the specified TLS index. Each thread of a process has its own slot for each TLS index.helpviewer_keywords: ["TlsGetValue","TlsGetValue function","_win32_tlsgetvalue","base.tlsgetvalue","processthreadsapi/TlsGetValue","winbase/TlsGetValue"]
+description: Retrieves the value in the calling thread's thread local storage (TLS) slot for the specified TLS index. Each thread of a process has its own slot for each TLS index.
+helpviewer_keywords: ["TlsGetValue","TlsGetValue function","_win32_tlsgetvalue","base.tlsgetvalue","processthreadsapi/TlsGetValue","winbase/TlsGetValue"]
 old-location: base\tlsgetvalue.htm
 tech.root: ProcThread
 ms.assetid: 82bd5ff6-ff0b-42b7-9ece-e9e8531eb5fb

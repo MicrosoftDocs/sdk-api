@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetPhysicalCursorPos
 title: GetPhysicalCursorPos function (winuser.h)
-description: Retrieves the position of the cursor in physical coordinates.helpviewer_keywords: ["GetPhysicalCursorPos","GetPhysicalCursorPos function [Menus and Other Resources]","_win32_GetPhysicalCursorPos","_win32_getphysicalcursorpos_cpp","menurc.getphysicalcursorpos","winui._win32_getphysicalcursorpos","winuser/GetPhysicalCursorPos"]
+description: Retrieves the position of the cursor in physical coordinates.
+helpviewer_keywords: ["GetPhysicalCursorPos","GetPhysicalCursorPos function [Menus and Other Resources]","_win32_GetPhysicalCursorPos","_win32_getphysicalcursorpos_cpp","menurc.getphysicalcursorpos","winui._win32_getphysicalcursorpos","winuser/GetPhysicalCursorPos"]
 old-location: menurc\getphysicalcursorpos.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\getphysicalcursorpos.htm

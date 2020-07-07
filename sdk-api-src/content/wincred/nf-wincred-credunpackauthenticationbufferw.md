@@ -1,7 +1,8 @@
 ---
 UID: NF:wincred.CredUnPackAuthenticationBufferW
 title: CredUnPackAuthenticationBufferW function (wincred.h)
-description: Converts an authentication buffer returned by a call to the CredUIPromptForWindowsCredentials function into a string user name and password.helpviewer_keywords: ["CredUnPackAuthenticationBuffer","CredUnPackAuthenticationBuffer function [Security]","CredUnPackAuthenticationBufferA","CredUnPackAuthenticationBufferW","security.credunpackauthenticationbuffer","wincred/CredUnPackAuthenticationBuffer","wincred/CredUnPackAuthenticationBufferA","wincred/CredUnPackAuthenticationBufferW"]
+description: Converts an authentication buffer returned by a call to the CredUIPromptForWindowsCredentials function into a string user name and password.
+helpviewer_keywords: ["CredUnPackAuthenticationBuffer","CredUnPackAuthenticationBuffer function [Security]","CredUnPackAuthenticationBufferA","CredUnPackAuthenticationBufferW","security.credunpackauthenticationbuffer","wincred/CredUnPackAuthenticationBuffer","wincred/CredUnPackAuthenticationBufferA","wincred/CredUnPackAuthenticationBufferW"]
 old-location: security\credunpackauthenticationbuffer.htm
 tech.root: SecAuthN
 ms.assetid: c87f0b11-59c2-4450-ad63-398cdb15016f
@@ -98,9 +99,9 @@ A pointer to a null-terminated string that receives the user name.
 This string can be a marshaled credential. See Remarks.
 
 
-### -param pcchMaxUserName
+### -param pcchMaxUserName [in, out]
 
-TBD
+A pointer to a <b>DWORD</b> value that specifies the size, in characters, of the <i>pszUserName</i> buffer. On output, if the buffer is not of sufficient size, specifies the required size, in characters, of the  <i>pszUserName</i> buffer. The size includes terminating null character.
 
 
 ### -param pszDomainName [out]
@@ -195,4 +196,8 @@ If the authentication buffer <i>pAuthBuffer</i> represents a nonpassword credent
 
 
 
+
+
+> [!NOTE]
+> The wincred.h header defines CredUnPackAuthenticationBuffer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

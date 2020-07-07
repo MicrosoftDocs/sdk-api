@@ -1,7 +1,8 @@
 ---
 UID: NC:stm.PGET_SERVICE_COUNT
 title: PGET_SERVICE_COUNT (stm.h)
-description: The GetServiceCount function returns the number of services in the table.helpviewer_keywords: ["GetServiceCount","GetServiceCount callback function [RAS]","PGET_SERVICE_COUNT","PGET_SERVICE_COUNT callback","_mpr_getservicecount","rras.getservicecount","stm/GetServiceCount"]
+description: The GetServiceCount function returns the number of services in the table.
+helpviewer_keywords: ["GetServiceCount","GetServiceCount callback function [RAS]","PGET_SERVICE_COUNT","PGET_SERVICE_COUNT callback","_mpr_getservicecount","rras.getservicecount","stm/GetServiceCount"]
 old-location: rras\getservicecount.htm
 tech.root: RRAS
 ms.assetid: 44ba90c0-a019-4aca-92e2-1e795cbd335d

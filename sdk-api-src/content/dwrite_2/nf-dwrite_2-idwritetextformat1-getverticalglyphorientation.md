@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.GetVerticalGlyphOrientation
 title: IDWriteTextFormat1::GetVerticalGlyphOrientation (dwrite_2.h)
-description: Get the preferred orientation of glyphs when using a vertical reading direction.helpviewer_keywords: ["GetVerticalGlyphOrientation","GetVerticalGlyphOrientation method [Direct Write]","GetVerticalGlyphOrientation method [Direct Write]","IDWriteTextFormat1 interface","IDWriteTextFormat1 interface [Direct Write]","GetVerticalGlyphOrientation method","IDWriteTextFormat1.GetVerticalGlyphOrientation","IDWriteTextFormat1::GetVerticalGlyphOrientation","directwrite.idwritetextformat1_getverticalglyphorientation","dwrite_2/IDWriteTextFormat1::GetVerticalGlyphOrientation"]
+description: Get the preferred orientation of glyphs when using a vertical reading direction.
+helpviewer_keywords: ["GetVerticalGlyphOrientation","GetVerticalGlyphOrientation method [Direct Write]","GetVerticalGlyphOrientation method [Direct Write]","IDWriteTextFormat1 interface","IDWriteTextFormat1 interface [Direct Write]","GetVerticalGlyphOrientation method","IDWriteTextFormat1.GetVerticalGlyphOrientation","IDWriteTextFormat1::GetVerticalGlyphOrientation","directwrite.idwritetextformat1_getverticalglyphorientation","dwrite_2/IDWriteTextFormat1::GetVerticalGlyphOrientation"]
 old-location: directwrite\idwritetextformat1_getverticalglyphorientation.htm
 tech.root: DirectWrite
 ms.assetid: 0ceebd85-0d57-fd38-a847-0048c2d82b22

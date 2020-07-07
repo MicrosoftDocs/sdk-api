@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationScrollItemPattern.ScrollIntoView
 title: IUIAutomationScrollItemPattern::ScrollIntoView (uiautomationclient.h)
-description: Scrolls the content area of a container object to display the UI Automation element within the visible region (viewport) of the container.helpviewer_keywords: ["IUIAutomationScrollItemPattern interface [Windows Accessibility]","ScrollIntoView method","IUIAutomationScrollItemPattern.ScrollIntoView","IUIAutomationScrollItemPattern::ScrollIntoView","ScrollIntoView","ScrollIntoView method [Windows Accessibility]","ScrollIntoView method [Windows Accessibility]","IUIAutomationScrollItemPattern interface","uiauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView","uiauto_IUIAutomationScrollItemPattern_ScrollIntoView","uiautomationclient/IUIAutomationScrollItemPattern::ScrollIntoView","winauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView"]
+description: Scrolls the content area of a container object to display the UI Automation element within the visible region (viewport) of the container.
+helpviewer_keywords: ["IUIAutomationScrollItemPattern interface [Windows Accessibility]","ScrollIntoView method","IUIAutomationScrollItemPattern.ScrollIntoView","IUIAutomationScrollItemPattern::ScrollIntoView","ScrollIntoView","ScrollIntoView method [Windows Accessibility]","ScrollIntoView method [Windows Accessibility]","IUIAutomationScrollItemPattern interface","uiauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView","uiauto_IUIAutomationScrollItemPattern_ScrollIntoView","uiautomationclient/IUIAutomationScrollItemPattern::ScrollIntoView","winauto.uiauto_IUIAutomationScrollItemPattern_ScrollIntoView"]
 old-location: winauto\uiauto_IUIAutomationScrollItemPattern_ScrollIntoView.htm
 tech.root: WinAuto
 ms.assetid: 66991918-dd06-400a-902d-887ff226de16

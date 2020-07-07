@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfQueryEmbedded.QueryInsertEmbedded
 title: ITfQueryEmbedded::QueryInsertEmbedded (msctf.h)
-description: ITfQueryEmbedded::QueryInsertEmbedded methodhelpviewer_keywords: ["ITfQueryEmbedded interface [Text Services Framework]","QueryInsertEmbedded method","ITfQueryEmbedded.QueryInsertEmbedded","ITfQueryEmbedded::QueryInsertEmbedded","QueryInsertEmbedded","QueryInsertEmbedded method [Text Services Framework]","QueryInsertEmbedded method [Text Services Framework]","ITfQueryEmbedded interface","_tsf_itfqueryembedded_queryinsertembedded_ref","msctf/ITfQueryEmbedded::QueryInsertEmbedded","tsf.itfqueryembedded_queryinsertembedded"]
+description: ITfQueryEmbedded::QueryInsertEmbedded method
+helpviewer_keywords: ["ITfQueryEmbedded interface [Text Services Framework]","QueryInsertEmbedded method","ITfQueryEmbedded.QueryInsertEmbedded","ITfQueryEmbedded::QueryInsertEmbedded","QueryInsertEmbedded","QueryInsertEmbedded method [Text Services Framework]","QueryInsertEmbedded method [Text Services Framework]","ITfQueryEmbedded interface","_tsf_itfqueryembedded_queryinsertembedded_ref","msctf/ITfQueryEmbedded::QueryInsertEmbedded","tsf.itfqueryembedded_queryinsertembedded"]
 old-location: tsf\itfqueryembedded_queryinsertembedded.htm
 tech.root: TSF
 ms.assetid: 52f9465f-725e-493b-89ee-1b3db3cef696

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.DefRawInputProc
 title: DefRawInputProc function (winuser.h)
-description: Calls the default raw input procedure to provide default processing for any raw input messages that an application does not process.helpviewer_keywords: ["DefRawInputProc","DefRawInputProc function [Keyboard and Mouse Input]","_win32_DefRawInputProc","_win32_defrawinputproc_cpp","inputdev.defrawinputproc","winui._win32_defrawinputproc","winuser/DefRawInputProc"]
+description: Verifies that the size of the RAWINPUTHEADER structure is correct.
+helpviewer_keywords: ["DefRawInputProc","DefRawInputProc function [Keyboard and Mouse Input]","_win32_DefRawInputProc","_win32_defrawinputproc_cpp","inputdev.defrawinputproc","winui._win32_defrawinputproc","winuser/DefRawInputProc"]
 old-location: inputdev\defrawinputproc.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputfunctions\defrawinputproc.htm
@@ -49,7 +50,9 @@ ms.custom: 19H1
 ## -description
 
 
-Calls the default raw input procedure to provide default processing for any raw input messages that an application does not process. This function ensures that every message is processed. <b>DefRawInputProc</b> is called with the same parameters received by the window procedure. 
+Unlike <a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-defwindowproca">DefWindowProcA</a> and <a href="https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-defwindowprocw">DefWindowProcW</a>, this function doesn't do any processing.
+
+<b>DefRawInputProc</b> only checks whether <b>cbSizeHeader</b>'s value corresponds to the expected size of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinputheader">RAWINPUTHEADER</a>.
 
 
 ## -parameters
@@ -61,15 +64,14 @@ Calls the default raw input procedure to provide default processing for any raw 
 
 Type: <b>PRAWINPUT*</b>
 
-An array of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures. 
+Ignored. 
 
 
 ### -param nInput [in]
 
 Type: <b>INT</b>
 
-The number of <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> structures pointed to by 
-					<i>paRawInput</i>. 
+Ignored. 
 
 
 ### -param cbSizeHeader [in]
@@ -85,7 +87,7 @@ The size, in bytes, of the <a href="https://docs.microsoft.com/windows/desktop/a
 
 Type: <b>LRESULT</b>
 
-If successful, the function returns <b>S_OK</b>. Otherwise it returns an error value.
+If successful, the function returns <b>0</b>. Otherwise it returns <b>-1</b>.
 
 
 
@@ -108,11 +110,3 @@ If successful, the function returns <b>S_OK</b>. Otherwise it returns an error v
 
 
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
-
-
-
-<b>Reference</b>
- 
-
- 
-

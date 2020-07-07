@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.MMCPropertyHelp
 title: MMCPropertyHelp function (mmc.h)
-description: Displays the specified HTML Help topic in the merged MMC HTML Help file for a property page.helpviewer_keywords: ["MMCPropertyHelp","MMCPropertyHelp callback","MMCPropertyHelp callback function [MMC]","_slate_mmcpropertyhelp","mmc.mmcpropertyhelp","mmc/MMCPropertyHelp"]
+description: Displays the specified HTML Help topic in the merged MMC HTML Help file for a property page.
+helpviewer_keywords: ["MMCPropertyHelp","MMCPropertyHelp callback","MMCPropertyHelp callback function [MMC]","_slate_mmcpropertyhelp","mmc.mmcpropertyhelp","mmc/MMCPropertyHelp"]
 old-location: mmc\mmcpropertyhelp.htm
 tech.root: mmc
 ms.assetid: c3b0fa86-dff4-4c35-9b08-633448db18be

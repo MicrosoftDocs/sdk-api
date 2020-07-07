@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.GetStringScripts
 title: GetStringScripts function (winnls.h)
-description: Provides a list of scripts used in the specified Unicode string.helpviewer_keywords: ["GSS_ALLOW_INHERITED_COMMON","GetStringScripts","GetStringScripts function [Internationalization for Windows Applications]","_win32_GetStringScripts","intl.getstringscripts","winnls/GetStringScripts"]
+description: Provides a list of scripts used in the specified Unicode string.
+helpviewer_keywords: ["GSS_ALLOW_INHERITED_COMMON","GetStringScripts","GetStringScripts function [Internationalization for Windows Applications]","_win32_GetStringScripts","intl.getstringscripts","winnls/GetStringScripts"]
 old-location: intl\getstringscripts.htm
 tech.root: Intl
 ms.assetid: 82885feb-5d9b-49ea-bcbe-c71597584c59

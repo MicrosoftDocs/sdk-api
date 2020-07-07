@@ -1,7 +1,8 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_START_CAPTURE_FN
 title: PIBIO_SENSOR_START_CAPTURE_FN (winbio_adapter.h)
-description: Begins an asynchronous biometric capture.helpviewer_keywords: ["PIBIO_SENSOR_START_CAPTURE_FN","PIBIO_SENSOR_START_CAPTURE_FN callback","SensorAdapterStartCapture","SensorAdapterStartCapture callback function [Windows Biometric Framework API]","secbiomet.sensoradapterstartcapture","winbio_adapter/SensorAdapterStartCapture"]
+description: Begins an asynchronous biometric capture.
+helpviewer_keywords: ["PIBIO_SENSOR_START_CAPTURE_FN","PIBIO_SENSOR_START_CAPTURE_FN callback","SensorAdapterStartCapture","SensorAdapterStartCapture callback function [Windows Biometric Framework API]","secbiomet.sensoradapterstartcapture","winbio_adapter/SensorAdapterStartCapture"]
 old-location: secbiomet\sensoradapterstartcapture.htm
 tech.root: SecBioMet
 ms.assetid: 79922878-f5d3-4400-8c4f-2636323d7dcf

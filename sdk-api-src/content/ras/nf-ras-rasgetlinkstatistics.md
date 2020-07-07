@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasGetLinkStatistics
 title: RasGetLinkStatistics function (ras.h)
-description: The RasGetLinkStatistics function retrieves accumulated statistics for the specified link in a RAS multilink connection.helpviewer_keywords: ["RasGetLinkStatistics","RasGetLinkStatistics function [RAS]","_ras_rasgetlinkstatistics","ras/RasGetLinkStatistics","rras.rasgetlinkstatistics"]
+description: The RasGetLinkStatistics function retrieves accumulated statistics for the specified link in a RAS multilink connection.
+helpviewer_keywords: ["RasGetLinkStatistics","RasGetLinkStatistics function [RAS]","_ras_rasgetlinkstatistics","ras/RasGetLinkStatistics","rras.rasgetlinkstatistics"]
 old-location: rras\rasgetlinkstatistics.htm
 tech.root: RRAS
 ms.assetid: 825a80c9-8023-4b7f-a303-f1eaa650e1d8

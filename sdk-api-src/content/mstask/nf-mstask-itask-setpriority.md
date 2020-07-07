@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.ITask.SetPriority
 title: ITask::SetPriority (mstask.h)
-description: This method sets the priority for the task.helpviewer_keywords: ["ITask interface [Task Scheduler]","SetPriority method","ITask.SetPriority","ITask::SetPriority","SetPriority","SetPriority method [Task Scheduler]","SetPriority method [Task Scheduler]","ITask interface","_msb_itask_setpriority","mstask/ITask::SetPriority","taskschd.itask_setpriority"]
+description: This method sets the priority for the task.
+helpviewer_keywords: ["ITask interface [Task Scheduler]","SetPriority method","ITask.SetPriority","ITask::SetPriority","SetPriority","SetPriority method [Task Scheduler]","SetPriority method [Task Scheduler]","ITask interface","_msb_itask_setpriority","mstask/ITask::SetPriority","taskschd.itask_setpriority"]
 old-location: taskschd\itask_setpriority.htm
 tech.root: taskschd
 ms.assetid: f72e5fb8-761e-41bd-be64-b886ebc2c1e5

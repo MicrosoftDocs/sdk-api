@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.AcquireTargetLock
 title: ITsSbResourcePluginStore::AcquireTargetLock (sbtsv.h)
-description: Locks a target.helpviewer_keywords: ["AcquireTargetLock","AcquireTargetLock method [Remote Desktop Services]","AcquireTargetLock method [Remote Desktop Services]","ITsSbResourcePluginStore interface","ITsSbResourcePluginStore interface [Remote Desktop Services]","AcquireTargetLock method","ITsSbResourcePluginStore.AcquireTargetLock","ITsSbResourcePluginStore::AcquireTargetLock","sbtsv/ITsSbResourcePluginStore::AcquireTargetLock","termserv.itssbresourcepluginstore_acquiretargetlock"]
+description: Locks a target.
+helpviewer_keywords: ["AcquireTargetLock","AcquireTargetLock method [Remote Desktop Services]","AcquireTargetLock method [Remote Desktop Services]","ITsSbResourcePluginStore interface","ITsSbResourcePluginStore interface [Remote Desktop Services]","AcquireTargetLock method","ITsSbResourcePluginStore.AcquireTargetLock","ITsSbResourcePluginStore::AcquireTargetLock","sbtsv/ITsSbResourcePluginStore::AcquireTargetLock","termserv.itssbresourcepluginstore_acquiretargetlock"]
 old-location: termserv\itssbresourcepluginstore_acquiretargetlock.htm
 tech.root: TermServ
 ms.assetid: ee6f22cf-c111-4a11-ab84-b52904a148b6

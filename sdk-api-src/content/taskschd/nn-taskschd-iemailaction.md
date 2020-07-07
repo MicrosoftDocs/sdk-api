@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IEmailAction
 title: IEmailAction (taskschd.h)
-description: Represents an action that sends an email message.helpviewer_keywords: ["IEmailAction","IEmailAction interface [Task Scheduler]","IEmailAction interface [Task Scheduler]","described","taskschd.iemailaction","taskschd/IEmailAction"]
+description: Represents an action that sends an email message.
+helpviewer_keywords: ["IEmailAction","IEmailAction interface [Task Scheduler]","IEmailAction interface [Task Scheduler]","described","taskschd.iemailaction","taskschd/IEmailAction"]
 old-location: taskschd\iemailaction.htm
 tech.root: taskschd
 ms.assetid: 2f08fd42-233a-40ee-96d0-f0ac8b25b847

@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.CreateFileGroup
 title: IFsrmFileGroupManager::CreateFileGroup (fsrmscreen.h)
-description: Creates a file group object.helpviewer_keywords: ["CreateFileGroup","CreateFileGroup method [File Server Resource Manager]","CreateFileGroup method [File Server Resource Manager]","FsrmFileGroupManager class","CreateFileGroup method [File Server Resource Manager]","IFsrmFileGroupManager interface","FsrmFileGroupManager class [File Server Resource Manager]","CreateFileGroup method","IFsrmFileGroupManager interface [File Server Resource Manager]","CreateFileGroup method","IFsrmFileGroupManager.CreateFileGroup","IFsrmFileGroupManager::CreateFileGroup","fs.ifsrmfilegroupmanager_createfilegroup","fsrm.ifsrmfilegroupmanager_createfilegroup","fsrmscreen/IFsrmFileGroupManager::CreateFileGroup"]
+description: Creates a file group object.
+helpviewer_keywords: ["CreateFileGroup","CreateFileGroup method [File Server Resource Manager]","CreateFileGroup method [File Server Resource Manager]","FsrmFileGroupManager class","CreateFileGroup method [File Server Resource Manager]","IFsrmFileGroupManager interface","FsrmFileGroupManager class [File Server Resource Manager]","CreateFileGroup method","IFsrmFileGroupManager interface [File Server Resource Manager]","CreateFileGroup method","IFsrmFileGroupManager.CreateFileGroup","IFsrmFileGroupManager::CreateFileGroup","fs.ifsrmfilegroupmanager_createfilegroup","fsrm.ifsrmfilegroupmanager_createfilegroup","fsrmscreen/IFsrmFileGroupManager::CreateFileGroup"]
 old-location: fsrm\ifsrmfilegroupmanager_createfilegroup.htm
 tech.root: fsrm
 ms.assetid: 7e2c3672-fbb9-4da5-9e20-25c66213843c

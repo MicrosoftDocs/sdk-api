@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_LSTM_OPERATOR_DESC
 title: DML_LSTM_OPERATOR_DESC
-description: Describes a DirectML deep learning operator that performs a one-layer long short term memory (LSTM) function on the input.helpviewer_keywords: ["DML_LSTM_OPERATOR_DESC","DML_LSTM_OPERATOR_DESC structure","direct3d12.dml_lstm_operator_desc","directml/DML_LSTM_OPERATOR_DESC"]
+description: Describes a DirectML deep learning operator that performs a one-layer long short term memory (LSTM) function on the input.
+helpviewer_keywords: ["DML_LSTM_OPERATOR_DESC","DML_LSTM_OPERATOR_DESC structure","direct3d12.dml_lstm_operator_desc","directml/DML_LSTM_OPERATOR_DESC"]
 old-location: direct3d12\dml_lstm_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: B2225A27-EB5B-46BC-A224-6A07D869C001
@@ -48,7 +49,8 @@ ms.custom: 19H1
 Describes a DirectML deep learning operator that performs a one-layer long short term memory (LSTM) function on the input. This operator uses multiple gates to perform this layer. These gates are performed multiple times in a loop, dictated by the sequence length dimension and the *SequenceLengthsTensor* argument.
 
 ### Equation for the forward direction
-```cpp
+
+```
 for (t = 0; t < seq_length; t++)
 {
     $i_t = f(clip(X_t*W_i^T + H_{t-1} * R_i^T + P_i \bigodot C_{t-1} + W_{bi} + R_{bi}))$
@@ -66,7 +68,8 @@ for (t = 0; t < seq_length; t++)
 ```
 
 ### Equation for the backward direction
-```cpp
+
+```
 for (t = seq_length - 1; t >= 0; t--)
 {
     $i_t = f(clip(X_t*W_{Bi}^T + H_{t-1} * R_{Bi}^T + P_i \bigodot C_{t-1} + W_{Bbi} + R_{Bbi}))$

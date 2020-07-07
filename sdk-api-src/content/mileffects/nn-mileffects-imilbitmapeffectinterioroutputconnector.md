@@ -1,7 +1,8 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectInteriorOutputConnector
 title: IMILBitmapEffectInteriorOutputConnector (mileffects.h)
-description: Exposes methods that define an interior output connector.helpviewer_keywords: ["IMILBitmapEffectInteriorOutputConnector","IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects]","IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectinterioroutputconnector","mileffects/IMILBitmapEffectInteriorOutputConnector","wibe._wibe_imilbitmapeffectinterioroutputconnector"]
+description: Exposes methods that define an interior output connector.
+helpviewer_keywords: ["IMILBitmapEffectInteriorOutputConnector","IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects]","IMILBitmapEffectInteriorOutputConnector interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectinterioroutputconnector","mileffects/IMILBitmapEffectInteriorOutputConnector","wibe._wibe_imilbitmapeffectinterioroutputconnector"]
 old-location: wibe\_wibe_imilbitmapeffectinterioroutputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectinterioroutputconnector\imilbitmapeffectinterioroutputconnector.htm

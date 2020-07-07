@@ -1,7 +1,8 @@
 ---
 UID: NN:dcomp.IDCompositionRotateTransform
 title: IDCompositionRotateTransform (dcomp.h)
-description: Represents a 2D transformation that affects the rotation of a visual around the z-axis. The coordinate system is rotated around the specified center point.helpviewer_keywords: ["IDCompositionRotateTransform","IDCompositionRotateTransform interface [DirectComposition]","IDCompositionRotateTransform interface [DirectComposition]","described","dcomp/IDCompositionRotateTransform","directcomp.idcompositionrotatetransform"]
+description: Represents a 2D transformation that affects the rotation of a visual around the z-axis. The coordinate system is rotated around the specified center point.
+helpviewer_keywords: ["IDCompositionRotateTransform","IDCompositionRotateTransform interface [DirectComposition]","IDCompositionRotateTransform interface [DirectComposition]","described","dcomp/IDCompositionRotateTransform","directcomp.idcompositionrotatetransform"]
 old-location: directcomp\idcompositionrotatetransform.htm
 tech.root: directcomp
 ms.assetid: 6c92bd6b-4479-45c2-986c-0a6c91248361

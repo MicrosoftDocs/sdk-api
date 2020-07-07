@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.GetContentIDsInLibrary
 title: IWMPContentPartnerCallback::GetContentIDsInLibrary (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["GetContentIDsInLibrary","GetContentIDsInLibrary method [Windows Media Player]","GetContentIDsInLibrary method [Windows Media Player]","IWMPContentPartnerCallback interface","IWMPContentPartnerCallback interface [Windows Media Player]","GetContentIDsInLibrary method","IWMPContentPartnerCallback.GetContentIDsInLibrary","IWMPContentPartnerCallback::GetContentIDsInLibrary","IWMPContentPartnerCallbackGetContentIDsInLibrary","contentpartner/IWMPContentPartnerCallback::GetContentIDsInLibrary","wmp.iwmpcontentpartnercallback_getcontentidsinlibrary"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["GetContentIDsInLibrary","GetContentIDsInLibrary method [Windows Media Player]","GetContentIDsInLibrary method [Windows Media Player]","IWMPContentPartnerCallback interface","IWMPContentPartnerCallback interface [Windows Media Player]","GetContentIDsInLibrary method","IWMPContentPartnerCallback.GetContentIDsInLibrary","IWMPContentPartnerCallback::GetContentIDsInLibrary","IWMPContentPartnerCallbackGetContentIDsInLibrary","contentpartner/IWMPContentPartnerCallback::GetContentIDsInLibrary","wmp.iwmpcontentpartnercallback_getcontentidsinlibrary"]
 old-location: wmp\iwmpcontentpartnercallback_getcontentidsinlibrary.htm
 tech.root: WMP
 ms.assetid: c8fbac82-77dc-4316-860d-cdf53e8bb9a7

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.ChrCmpIW
 title: ChrCmpIW function (shlwapi.h)
-description: Performs a comparison between two characters. The comparison is not case-sensitive.helpviewer_keywords: ["ChrCmpI","ChrCmpI function [Windows Shell]","ChrCmpIA","ChrCmpIW","_win32_ChrCmpI","shell.ChrCmpI","shlwapi/ChrCmpI","shlwapi/ChrCmpIA","shlwapi/ChrCmpIW"]
+description: Performs a comparison between two characters. The comparison is not case-sensitive.
+helpviewer_keywords: ["ChrCmpI","ChrCmpI function [Windows Shell]","ChrCmpIA","ChrCmpIW","_win32_ChrCmpI","shell.ChrCmpI","shlwapi/ChrCmpI","shlwapi/ChrCmpIA","shlwapi/ChrCmpIW"]
 old-location: shell\ChrCmpI.htm
 tech.root: shell
 ms.assetid: ae2f3cbf-c65b-41a4-8d59-39d6fadf40ca
@@ -82,4 +83,9 @@ Type: <b>BOOL</b>
 Returns zero if the two characters are the same, or nonzero otherwise.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines ChrCmpI as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

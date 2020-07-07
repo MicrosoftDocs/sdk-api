@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.get_Name
 title: ISearchCatalogManager::get_Name (searchapi.h)
-description: Gets the name of the current catalog.helpviewer_keywords: ["ISearchCatalogManager interface [search]","get_Name method","ISearchCatalogManager.get_Name","ISearchCatalogManager::get_Name","_search_ISearchCatalogManager_get_Name","get_Name","get_Name method [search]","get_Name method [search]","ISearchCatalogManager interface","search._search_ISearchCatalogManager_get_Name","searchapi/ISearchCatalogManager::get_Name"]
+description: Gets the name of the current catalog.
+helpviewer_keywords: ["ISearchCatalogManager interface [search]","get_Name method","ISearchCatalogManager.get_Name","ISearchCatalogManager::get_Name","_search_ISearchCatalogManager_get_Name","get_Name","get_Name method [search]","get_Name method [search]","ISearchCatalogManager interface","search._search_ISearchCatalogManager_get_Name","searchapi/ISearchCatalogManager::get_Name"]
 old-location: search\_search_ISearchCatalogManager_get_Name.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\get_name.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetEffectState
 title: IXAudio2Voice::GetEffectState (xaudio2.h)
-description: Returns the running state of the effect at a specified position in the effect chain of the voice.helpviewer_keywords: ["GetEffectState","GetEffectState method [XAudio2 Audio Mixing APIs]","GetEffectState method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","GetEffectState method","IXAudio2Voice.GetEffectState","IXAudio2Voice::GetEffectState","xaudio2.ixaudio2voice_interface_geteffectstate","xaudio2/IXAudio2Voice::GetEffectState"]
+description: Returns the running state of the effect at a specified position in the effect chain of the voice.
+helpviewer_keywords: ["GetEffectState","GetEffectState method [XAudio2 Audio Mixing APIs]","GetEffectState method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","GetEffectState method","IXAudio2Voice.GetEffectState","IXAudio2Voice::GetEffectState","xaudio2.ixaudio2voice_interface_geteffectstate","xaudio2/IXAudio2Voice::GetEffectState"]
 old-location: xaudio2\ixaudio2voice_interface_geteffectstate.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetEffectState(UINT32,BOOL@)

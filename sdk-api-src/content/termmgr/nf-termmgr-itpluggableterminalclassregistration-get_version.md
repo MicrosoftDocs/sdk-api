@@ -1,7 +1,8 @@
 ---
 UID: NF:termmgr.ITPluggableTerminalClassRegistration.get_Version
 title: ITPluggableTerminalClassRegistration::get_Version (termmgr.h)
-description: The get_Version method gets the terminal version.helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_Version method","ITPluggableTerminalClassRegistration.get_Version","ITPluggableTerminalClassRegistration::get_Version","_tapi3_itpluggableterminalclassregistration_get_version","get_Version","get_Version method [TAPI 2.2]","get_Version method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_version","termmgr/ITPluggableTerminalClassRegistration::get_Version"]
+description: The get_Version method gets the terminal version.
+helpviewer_keywords: ["ITPluggableTerminalClassRegistration interface [TAPI 2.2]","get_Version method","ITPluggableTerminalClassRegistration.get_Version","ITPluggableTerminalClassRegistration::get_Version","_tapi3_itpluggableterminalclassregistration_get_version","get_Version","get_Version method [TAPI 2.2]","get_Version method [TAPI 2.2]","ITPluggableTerminalClassRegistration interface","tapi3.itpluggableterminalclassregistration_get_version","termmgr/ITPluggableTerminalClassRegistration::get_Version"]
 old-location: tapi3\itpluggableterminalclassregistration_get_version.htm
 tech.root: Tapi
 ms.assetid: 2ce4345b-7d8e-4142-a4ee-df1e8b613a25

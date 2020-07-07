@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.IEnumClockVector
 title: IEnumClockVector (winsync.h)
-description: Enumerates the clock vector elements that are stored in a clock vector.helpviewer_keywords: ["IEnumClockVector","IEnumClockVector interface [Windows Sync]","IEnumClockVector interface [Windows Sync]","described","winsync.ienumclockvector","winsync/IEnumClockVector"]
+description: Enumerates the clock vector elements that are stored in a clock vector.
+helpviewer_keywords: ["IEnumClockVector","IEnumClockVector interface [Windows Sync]","IEnumClockVector interface [Windows Sync]","described","winsync.ienumclockvector","winsync/IEnumClockVector"]
 old-location: winsync\ienumclockvector.htm
 tech.root: winsync
 ms.assetid: cf191502-dc51-44a7-a82f-a0e38537574f

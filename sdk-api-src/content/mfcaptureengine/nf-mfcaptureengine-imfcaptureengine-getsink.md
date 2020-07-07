@@ -1,7 +1,8 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngine.GetSink
 title: IMFCaptureEngine::GetSink (mfcaptureengine.h)
-description: Gets a pointer to one of the capture sink objects.helpviewer_keywords: ["GetSink","GetSink method [Media Foundation]","GetSink method [Media Foundation]","IMFCaptureEngine interface","IMFCaptureEngine interface [Media Foundation]","GetSink method","IMFCaptureEngine.GetSink","IMFCaptureEngine::GetSink","mf.imfcaptureengine_getsink","mfcaptureengine/IMFCaptureEngine::GetSink"]
+description: Gets a pointer to one of the capture sink objects.
+helpviewer_keywords: ["GetSink","GetSink method [Media Foundation]","GetSink method [Media Foundation]","IMFCaptureEngine interface","IMFCaptureEngine interface [Media Foundation]","GetSink method","IMFCaptureEngine.GetSink","IMFCaptureEngine::GetSink","mf.imfcaptureengine_getsink","mfcaptureengine/IMFCaptureEngine::GetSink"]
 old-location: mf\imfcaptureengine_getsink.htm
 tech.root: medfound
 ms.assetid: 7DAF5EA3-BA65-4CF9-B7BA-B427A48BF3BC

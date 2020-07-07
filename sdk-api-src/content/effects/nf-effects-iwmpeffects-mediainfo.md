@@ -1,7 +1,8 @@
 ---
 UID: NF:effects.IWMPEffects.MediaInfo
 title: IWMPEffects::MediaInfo (effects.h)
-description: The MediaInfo method sends channel and sample rate data to the visualization.helpviewer_keywords: ["EffectsMediaInfo","IWMPEffects interface [Windows Media Player]","MediaInfo method","IWMPEffects.MediaInfo","IWMPEffects::MediaInfo","MediaInfo","MediaInfo method [Windows Media Player]","MediaInfo method [Windows Media Player]","IWMPEffects interface","effects/IWMPEffects::MediaInfo","wmp.iwmpeffects_mediainfo"]
+description: The MediaInfo method sends channel and sample rate data to the visualization.
+helpviewer_keywords: ["EffectsMediaInfo","IWMPEffects interface [Windows Media Player]","MediaInfo method","IWMPEffects.MediaInfo","IWMPEffects::MediaInfo","MediaInfo","MediaInfo method [Windows Media Player]","MediaInfo method [Windows Media Player]","IWMPEffects interface","effects/IWMPEffects::MediaInfo","wmp.iwmpeffects_mediainfo"]
 old-location: wmp\iwmpeffects_mediainfo.htm
 tech.root: WMP
 ms.assetid: 1267cb11-1b45-4f38-ad3c-02213405ed66

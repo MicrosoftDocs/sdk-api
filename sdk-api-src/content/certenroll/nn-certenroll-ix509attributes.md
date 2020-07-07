@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509Attributes
 title: IX509Attributes (certenroll.h)
-description: The IX509Attributes interface defines the following methods and properties that enable you to manage a collection of IX509Attribute objects.helpviewer_keywords: ["IX509Attributes","IX509Attributes interface [Security]","IX509Attributes interface [Security]","described","certenroll/IX509Attributes","security.ix509attributes"]
+description: The IX509Attributes interface defines the following methods and properties that enable you to manage a collection of IX509Attribute objects.
+helpviewer_keywords: ["IX509Attributes","IX509Attributes interface [Security]","IX509Attributes interface [Security]","described","certenroll/IX509Attributes","security.ix509attributes"]
 old-location: security\ix509attributes.htm
 tech.root: seccertenroll
 ms.assetid: dd891506-f25b-4aa5-b739-0d66d5a5f395

@@ -1,7 +1,8 @@
 ---
 UID: NE:gdiplusenums.Unit
 title: Unit (gdiplusenums.h)
-description: The Unit enumeration specifies the unit of measure for a given data type.helpviewer_keywords: ["Unit","Unit enumeration [GDI+]","UnitDisplay","UnitDocument","UnitInch","UnitMillimeter","UnitPixel","UnitPoint","UnitWorld","_gdiplus_ENUM_Unit","gdiplus._gdiplus_ENUM_Unit","gdiplusenums/Unit","gdiplusenums/UnitDisplay","gdiplusenums/UnitDocument","gdiplusenums/UnitInch","gdiplusenums/UnitMillimeter","gdiplusenums/UnitPixel","gdiplusenums/UnitPoint","gdiplusenums/UnitWorld"]
+description: The Unit enumeration specifies the unit of measure for a given data type.
+helpviewer_keywords: ["Unit","Unit enumeration [GDI+]","UnitDisplay","UnitDocument","UnitInch","UnitMillimeter","UnitPixel","UnitPoint","UnitWorld","_gdiplus_ENUM_Unit","gdiplus._gdiplus_ENUM_Unit","gdiplusenums/Unit","gdiplusenums/UnitDisplay","gdiplusenums/UnitDocument","gdiplusenums/UnitInch","gdiplusenums/UnitMillimeter","gdiplusenums/UnitPixel","gdiplusenums/UnitPoint","gdiplusenums/UnitWorld"]
 old-location: gdiplus\_gdiplus_ENUM_Unit.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\unit.htm

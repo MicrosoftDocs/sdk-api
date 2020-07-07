@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetCreated
 title: IXpsOMCoreProperties::SetCreated (xpsobjectmodel.h)
-description: Sets the created property.helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetCreated method","IXpsOMCoreProperties.SetCreated","IXpsOMCoreProperties::SetCreated","SetCreated","SetCreated method [XPS Documents and Packaging]","SetCreated method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setcreated","xpsobjectmodel/IXpsOMCoreProperties::SetCreated"]
+description: Sets the created property.
+helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetCreated method","IXpsOMCoreProperties.SetCreated","IXpsOMCoreProperties::SetCreated","SetCreated","SetCreated method [XPS Documents and Packaging]","SetCreated method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setcreated","xpsobjectmodel/IXpsOMCoreProperties::SetCreated"]
 old-location: xps\ixpsomcoreproperties_setcreated.htm
 tech.root: printdocs
 ms.assetid: 1a71d338-a34e-40df-ade0-130cd8e0a176

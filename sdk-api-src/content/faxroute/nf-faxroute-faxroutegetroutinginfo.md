@@ -1,7 +1,8 @@
 ---
 UID: NF:faxroute.FaxRouteGetRoutingInfo
 title: FaxRouteGetRoutingInfo function (faxroute.h)
-description: The FaxRouteGetRoutingInfo function queries the fax routing extension DLL to obtain routing configuration data for a specific fax device. Each fax routing extension DLL must export the FaxRouteGetRoutingInfo function.helpviewer_keywords: ["FaxRouteGetRoutingInfo","FaxRouteGetRoutingInfo function [Fax Service]","_mfax_faxroutegetroutinginfo","fax._mfax_faxroutegetroutinginfo","faxroute/FaxRouteGetRoutingInfo"]
+description: The FaxRouteGetRoutingInfo function queries the fax routing extension DLL to obtain routing configuration data for a specific fax device. Each fax routing extension DLL must export the FaxRouteGetRoutingInfo function.
+helpviewer_keywords: ["FaxRouteGetRoutingInfo","FaxRouteGetRoutingInfo function [Fax Service]","_mfax_faxroutegetroutinginfo","fax._mfax_faxroutegetroutinginfo","faxroute/FaxRouteGetRoutingInfo"]
 old-location: fax\_mfax_faxroutegetroutinginfo.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3t2n.htm

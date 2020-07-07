@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextSelection.EndKey
 title: ITextSelection::EndKey (tom.h)
-description: Mimics the functionality of the End key.helpviewer_keywords: ["EndKey","EndKey method [Windows Controls]","EndKey method [Windows Controls]","ITextSelection interface","ITextSelection interface [Windows Controls]","EndKey method","ITextSelection.EndKey","ITextSelection::EndKey","_win32_ITextSelection_EndKey","_win32_ITextSelection_EndKey_cpp","controls.ITextSelection_EndKey","controls._win32_ITextSelection_EndKey","tom/ITextSelection::EndKey","tomColumn","tomLine","tomRow","tomStory"]
+description: Mimics the functionality of the End key.
+helpviewer_keywords: ["EndKey","EndKey method [Windows Controls]","EndKey method [Windows Controls]","ITextSelection interface","ITextSelection interface [Windows Controls]","EndKey method","ITextSelection.EndKey","ITextSelection::EndKey","_win32_ITextSelection_EndKey","_win32_ITextSelection_EndKey_cpp","controls.ITextSelection_EndKey","controls._win32_ITextSelection_EndKey","tom/ITextSelection::EndKey","tomColumn","tomLine","tomRow","tomStory"]
 old-location: controls\ITextSelection_EndKey.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endkey.htm

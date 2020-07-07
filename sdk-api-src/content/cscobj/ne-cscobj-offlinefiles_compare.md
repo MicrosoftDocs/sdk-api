@@ -1,7 +1,8 @@
 ---
 UID: NE:cscobj.tagOFFLINEFILES_COMPARE
 title: OFFLINEFILES_COMPARE (cscobj.h)
-description: Specifies the type of comparison to perform in the IOfflineFilesItemFilter::GetTimeFilter method.helpviewer_keywords: ["OFFLINEFILES_COMPARE","OFFLINEFILES_COMPARE enumeration [Offline Files]","OFFLINEFILES_COMPARE_EQ","OFFLINEFILES_COMPARE_GT","OFFLINEFILES_COMPARE_GTE","OFFLINEFILES_COMPARE_LT","OFFLINEFILES_COMPARE_LTE","OFFLINEFILES_COMPARE_NEQ","cscobj/OFFLINEFILES_COMPARE","cscobj/OFFLINEFILES_COMPARE_EQ","cscobj/OFFLINEFILES_COMPARE_GT","cscobj/OFFLINEFILES_COMPARE_GTE","cscobj/OFFLINEFILES_COMPARE_LT","cscobj/OFFLINEFILES_COMPARE_LTE","cscobj/OFFLINEFILES_COMPARE_NEQ","of.offlinefiles_compare"]
+description: Specifies the type of comparison to perform in the IOfflineFilesItemFilter::GetTimeFilter method.
+helpviewer_keywords: ["OFFLINEFILES_COMPARE","OFFLINEFILES_COMPARE enumeration [Offline Files]","OFFLINEFILES_COMPARE_EQ","OFFLINEFILES_COMPARE_GT","OFFLINEFILES_COMPARE_GTE","OFFLINEFILES_COMPARE_LT","OFFLINEFILES_COMPARE_LTE","OFFLINEFILES_COMPARE_NEQ","cscobj/OFFLINEFILES_COMPARE","cscobj/OFFLINEFILES_COMPARE_EQ","cscobj/OFFLINEFILES_COMPARE_GT","cscobj/OFFLINEFILES_COMPARE_GTE","cscobj/OFFLINEFILES_COMPARE_LT","cscobj/OFFLINEFILES_COMPARE_LTE","cscobj/OFFLINEFILES_COMPARE_NEQ","of.offlinefiles_compare"]
 old-location: of\offlinefiles_compare.htm
 tech.root: offlinefiles
 ms.assetid: 17972c96-4ce1-43c0-bb6d-730787f0f93a

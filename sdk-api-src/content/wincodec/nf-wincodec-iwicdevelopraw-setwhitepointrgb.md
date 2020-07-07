@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.SetWhitePointRGB
 title: IWICDevelopRaw::SetWhitePointRGB (wincodec.h)
-description: Sets the white point RGB values.helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","SetWhitePointRGB method","IWICDevelopRaw.SetWhitePointRGB","IWICDevelopRaw::SetWhitePointRGB","SetWhitePointRGB","SetWhitePointRGB method [Windows Imaging Component]","SetWhitePointRGB method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_setwhitepointrgb","wic._wic_codec_iwicdevelopraw_setwhitepointrgb","wincodec/IWICDevelopRaw::SetWhitePointRGB"]
+description: Sets the white point RGB values.
+helpviewer_keywords: ["IWICDevelopRaw interface [Windows Imaging Component]","SetWhitePointRGB method","IWICDevelopRaw.SetWhitePointRGB","IWICDevelopRaw::SetWhitePointRGB","SetWhitePointRGB","SetWhitePointRGB method [Windows Imaging Component]","SetWhitePointRGB method [Windows Imaging Component]","IWICDevelopRaw interface","_wic_codec_iwicdevelopraw_setwhitepointrgb","wic._wic_codec_iwicdevelopraw_setwhitepointrgb","wincodec/IWICDevelopRaw::SetWhitePointRGB"]
 old-location: wic\_wic_codec_iwicdevelopraw_setwhitepointrgb.htm
 tech.root: wic
 ms.assetid: 7059959f-dcd6-46a6-a95c-1dd9610f865c

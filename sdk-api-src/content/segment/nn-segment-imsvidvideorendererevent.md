@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidVideoRendererEvent
 title: IMSVidVideoRendererEvent (segment.h)
-description: This topic applies to Windows XP or later.helpviewer_keywords: ["IMSVidVideoRendererEvent","IMSVidVideoRendererEvent interface [Microsoft TV Technologies]","IMSVidVideoRendererEvent interface [Microsoft TV Technologies]","described","IMSVidVideoRendererEventInterface","mstv.imsvidvideorendererevent","segment/IMSVidVideoRendererEvent"]
+description: This topic applies to Windows XP or later.
+helpviewer_keywords: ["IMSVidVideoRendererEvent","IMSVidVideoRendererEvent interface [Microsoft TV Technologies]","IMSVidVideoRendererEvent interface [Microsoft TV Technologies]","described","IMSVidVideoRendererEventInterface","mstv.imsvidvideorendererevent","segment/IMSVidVideoRendererEvent"]
 old-location: mstv\imsvidvideorendererevent.htm
 tech.root: mstv
 ms.assetid: ff451fa3-a755-4969-bccc-3a014865e7a9

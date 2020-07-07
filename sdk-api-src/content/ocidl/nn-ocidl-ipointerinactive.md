@@ -1,7 +1,8 @@
 ---
 UID: NN:ocidl.IPointerInactive
 title: IPointerInactive (ocidl.h)
-description: Enables an object to remain inactive most of the time, yet still participate in interaction with the mouse, including drag and drop.helpviewer_keywords: ["IPointerInactive","IPointerInactive interface [COM]","IPointerInactive interface [COM]","described","_ctrl_ipointerinactive","com.ipointerinactive","ocidl/IPointerInactive"]
+description: Enables an object to remain inactive most of the time, yet still participate in interaction with the mouse, including drag and drop.
+helpviewer_keywords: ["IPointerInactive","IPointerInactive interface [COM]","IPointerInactive interface [COM]","described","_ctrl_ipointerinactive","com.ipointerinactive","ocidl/IPointerInactive"]
 old-location: com\ipointerinactive.htm
 tech.root: com
 ms.assetid: dc08d512-6994-419a-a460-6274ce74e40f

@@ -1,7 +1,8 @@
 ---
 UID: NF:callobj.ICallInterceptor.RegisterSink
 title: ICallInterceptor::RegisterSink (callobj.h)
-description: Registers an event sink for receiving notifications of method calls.helpviewer_keywords: ["ICallInterceptor interface [COM]","RegisterSink method","ICallInterceptor.RegisterSink","ICallInterceptor::RegisterSink","RegisterSink","RegisterSink method [COM]","RegisterSink method [COM]","ICallInterceptor interface","_com_icallinterceptor_registersink","callobj/ICallInterceptor::RegisterSink","com.icallinterceptor_registersink"]
+description: Registers an event sink for receiving notifications of method calls.
+helpviewer_keywords: ["ICallInterceptor interface [COM]","RegisterSink method","ICallInterceptor.RegisterSink","ICallInterceptor::RegisterSink","RegisterSink","RegisterSink method [COM]","RegisterSink method [COM]","ICallInterceptor interface","_com_icallinterceptor_registersink","callobj/ICallInterceptor::RegisterSink","com.icallinterceptor_registersink"]
 old-location: com\icallinterceptor_registersink.htm
 tech.root: com
 ms.assetid: 07de2e42-0490-4801-8951-6e71ffb8ed93

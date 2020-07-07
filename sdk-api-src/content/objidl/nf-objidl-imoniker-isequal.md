@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IMoniker.IsEqual
 title: IMoniker::IsEqual (objidl.h)
-description: Determines whether this moniker is identical to the specified moniker.helpviewer_keywords: ["IMoniker interface [COM]","IsEqual method","IMoniker.IsEqual","IMoniker::IsEqual","IsEqual","IsEqual method [COM]","IsEqual method [COM]","IMoniker interface","_com_imoniker_isequal","com.imoniker_isequal","objidl/IMoniker::IsEqual"]
+description: Determines whether this moniker is identical to the specified moniker.
+helpviewer_keywords: ["IMoniker interface [COM]","IsEqual method","IMoniker.IsEqual","IMoniker::IsEqual","IsEqual","IsEqual method [COM]","IsEqual method [COM]","IMoniker interface","_com_imoniker_isequal","com.imoniker_isequal","objidl/IMoniker::IsEqual"]
 old-location: com\imoniker_isequal.htm
 tech.root: com
 ms.assetid: 0092e93e-d87d-4b3e-b8e1-40eeaf04c43b

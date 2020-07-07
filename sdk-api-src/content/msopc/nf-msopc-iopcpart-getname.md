@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcPart.GetName
 title: IOpcPart::GetName (msopc.h)
-description: Gets a part URI object that represents the part name.helpviewer_keywords: ["GetName","GetName method [Open Packaging Conventions]","GetName method [Open Packaging Conventions]","IOpcPart interface","IOpcPart interface [Open Packaging Conventions]","GetName method","IOpcPart.GetName","IOpcPart::GetName","msopc/IOpcPart::GetName","opc.iopcpart_getname"]
+description: Gets a part URI object that represents the part name.
+helpviewer_keywords: ["GetName","GetName method [Open Packaging Conventions]","GetName method [Open Packaging Conventions]","IOpcPart interface","IOpcPart interface [Open Packaging Conventions]","GetName method","IOpcPart.GetName","IOpcPart::GetName","msopc/IOpcPart::GetName","opc.iopcpart_getname"]
 old-location: opc\iopcpart_getname.htm
 tech.root: OPC
 ms.assetid: 83fed005-c061-4f1d-8b2b-73397e0b7a92

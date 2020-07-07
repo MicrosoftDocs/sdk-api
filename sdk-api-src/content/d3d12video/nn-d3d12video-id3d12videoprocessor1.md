@@ -1,6 +1,8 @@
 ---
 UID: NN:d3d12video.ID3D12VideoProcessor1
 title: ID3D12VideoProcessor1
+description: Inherits from ID3D12VideoProcessor and provides support for protected resources.
+tech.root: mf
 ms.date: 8/19/2019
 ms.keywords: ID3D12VideoProcessor1
 f1_keywords:
@@ -33,7 +35,7 @@ api_name:
 
 ## -inheritance
 
-**ID3D12VideoProcessor** interits from [ID3D12VideoProcessor1](nn-d3d12video-id3d12videoprocessor).
+**ID3D12VideoProcessor1** inherits from [ID3D12VideoProcessor](nn-d3d12video-id3d12videoprocessor) and provides support for protected resources.
 
 ## -description
 

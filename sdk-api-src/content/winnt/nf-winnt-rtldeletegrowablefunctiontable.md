@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.RtlDeleteGrowableFunctionTable
 title: RtlDeleteGrowableFunctionTable function (winnt.h)
-description: Informs the system that a previously reported dynamic function table is no longer in use.helpviewer_keywords: ["RtlDeleteGrowableFunctionTable","RtlDeleteGrowableFunctionTable function","base.rtldeletegrowablefunctiontable","winnt/RtlDeleteGrowableFunctionTable"]
+description: Informs the system that a previously reported dynamic function table is no longer in use.
+helpviewer_keywords: ["RtlDeleteGrowableFunctionTable","RtlDeleteGrowableFunctionTable function","base.rtldeletegrowablefunctiontable","winnt/RtlDeleteGrowableFunctionTable"]
 old-location: base\rtldeletegrowablefunctiontable.htm
 tech.root: Debug
 ms.assetid: 2ae4eef2-5cdc-4ebf-9285-ef6a1a4e9197

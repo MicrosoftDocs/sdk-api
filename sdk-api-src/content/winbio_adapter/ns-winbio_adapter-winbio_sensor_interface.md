@@ -1,7 +1,8 @@
 ---
 UID: NS:winbio_adapter._WINBIO_SENSOR_INTERFACE
 title: WINBIO_SENSOR_INTERFACE (winbio_adapter.h)
-description: Contains pointers to your custom sensor adapter functions.helpviewer_keywords: ["*PWINBIO_SENSOR_INTERFACE","PWINBIO_SENSOR_INTERFACE","PWINBIO_SENSOR_INTERFACE structure pointer [Windows Biometric Framework API]","WINBIO_SENSOR_INTERFACE","WINBIO_SENSOR_INTERFACE structure [Windows Biometric Framework API]","secbiomet.winbio_sensor_interface","winbio_adapter/PWINBIO_SENSOR_INTERFACE","winbio_adapter/WINBIO_SENSOR_INTERFACE"]
+description: Contains pointers to your custom sensor adapter functions.
+helpviewer_keywords: ["*PWINBIO_SENSOR_INTERFACE","PWINBIO_SENSOR_INTERFACE","PWINBIO_SENSOR_INTERFACE structure pointer [Windows Biometric Framework API]","WINBIO_SENSOR_INTERFACE","WINBIO_SENSOR_INTERFACE structure [Windows Biometric Framework API]","secbiomet.winbio_sensor_interface","winbio_adapter/PWINBIO_SENSOR_INTERFACE","winbio_adapter/WINBIO_SENSOR_INTERFACE"]
 old-location: secbiomet\winbio_sensor_interface.htm
 tech.root: SecBioMet
 ms.assetid: ab5a7146-936f-4ee5-9864-4f5a3b774724

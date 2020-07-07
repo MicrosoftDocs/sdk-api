@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcproxy.NdrProxyFreeBuffer
 title: NdrProxyFreeBuffer function (rpcproxy.h)
-description: The NdrProxyFreeBuffer function frees an RPC buffer.helpviewer_keywords: ["NdrProxyFreeBuffer","NdrProxyFreeBuffer function [RPC]","rpc.ndrproxyfreebuffer","rpcproxy/NdrProxyFreeBuffer"]
+description: The NdrProxyFreeBuffer function frees an RPC buffer.
+helpviewer_keywords: ["NdrProxyFreeBuffer","NdrProxyFreeBuffer function [RPC]","rpc.ndrproxyfreebuffer","rpcproxy/NdrProxyFreeBuffer"]
 old-location: rpc\ndrproxyfreebuffer.htm
 tech.root: Rpc
 ms.assetid: 6abc3f93-6eef-4363-aa1a-1ecfffb9d934

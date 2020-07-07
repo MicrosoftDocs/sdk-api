@@ -1,7 +1,8 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceCollection.GetCount
 title: IMMDeviceCollection::GetCount (mmdeviceapi.h)
-description: The GetCount method retrieves a count of the devices in the device collection.helpviewer_keywords: ["GetCount","GetCount method [Core Audio]","GetCount method [Core Audio]","IMMDeviceCollection interface","IMMDeviceCollection interface [Core Audio]","GetCount method","IMMDeviceCollection.GetCount","IMMDeviceCollection::GetCount","IMMDeviceCollectionGetCount","coreaudio.immdevicecollection_getcount","mmdeviceapi/IMMDeviceCollection::GetCount"]
+description: The GetCount method retrieves a count of the devices in the device collection.
+helpviewer_keywords: ["GetCount","GetCount method [Core Audio]","GetCount method [Core Audio]","IMMDeviceCollection interface","IMMDeviceCollection interface [Core Audio]","GetCount method","IMMDeviceCollection.GetCount","IMMDeviceCollection::GetCount","IMMDeviceCollectionGetCount","coreaudio.immdevicecollection_getcount","mmdeviceapi/IMMDeviceCollection::GetCount"]
 old-location: coreaudio\immdevicecollection_getcount.htm
 tech.root: CoreAudio
 ms.assetid: 236a611b-98ab-437c-9e36-8c8a7c32ffbc

@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireItem.GetProperty
 title: IPhotoAcquireItem::GetProperty (photoacquire.h)
-description: The GetProperty method retrieves the value of a property of an item.helpviewer_keywords: ["GetProperty","GetProperty method [Picture Acquisition]","GetProperty method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","GetProperty method","IPhotoAcquireItem.GetProperty","IPhotoAcquireItem::GetProperty","IPhotoAcquireItemGetProperty","photoacquire/IPhotoAcquireItem::GetProperty","picacq.iphotoacquireitem_getproperty"]
+description: The GetProperty method retrieves the value of a property of an item.
+helpviewer_keywords: ["GetProperty","GetProperty method [Picture Acquisition]","GetProperty method [Picture Acquisition]","IPhotoAcquireItem interface","IPhotoAcquireItem interface [Picture Acquisition]","GetProperty method","IPhotoAcquireItem.GetProperty","IPhotoAcquireItem::GetProperty","IPhotoAcquireItemGetProperty","photoacquire/IPhotoAcquireItem::GetProperty","picacq.iphotoacquireitem_getproperty"]
 old-location: picacq\iphotoacquireitem_getproperty.htm
 tech.root: acquisition
 ms.assetid: 47ee6a23-5a0b-4f45-b278-9ebbeebf4fbb

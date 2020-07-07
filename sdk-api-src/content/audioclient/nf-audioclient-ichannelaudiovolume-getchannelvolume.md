@@ -1,7 +1,8 @@
 ---
 UID: NF:audioclient.IChannelAudioVolume.GetChannelVolume
 title: IChannelAudioVolume::GetChannelVolume (audioclient.h)
-description: The GetChannelVolume method retrieves the volume level for the specified channel in the audio session.helpviewer_keywords: ["GetChannelVolume","GetChannelVolume method [Core Audio]","GetChannelVolume method [Core Audio]","IChannelAudioVolume interface","IChannelAudioVolume interface [Core Audio]","GetChannelVolume method","IChannelAudioVolume.GetChannelVolume","IChannelAudioVolume::GetChannelVolume","IChannelAudioVolumeGetChannelVolume","audioclient/IChannelAudioVolume::GetChannelVolume","coreaudio.ichannelaudiovolume_getchannelvolume"]
+description: The GetChannelVolume method retrieves the volume level for the specified channel in the audio session.
+helpviewer_keywords: ["GetChannelVolume","GetChannelVolume method [Core Audio]","GetChannelVolume method [Core Audio]","IChannelAudioVolume interface","IChannelAudioVolume interface [Core Audio]","GetChannelVolume method","IChannelAudioVolume.GetChannelVolume","IChannelAudioVolume::GetChannelVolume","IChannelAudioVolumeGetChannelVolume","audioclient/IChannelAudioVolume::GetChannelVolume","coreaudio.ichannelaudiovolume_getchannelvolume"]
 old-location: coreaudio\ichannelaudiovolume_getchannelvolume.htm
 tech.root: CoreAudio
 ms.assetid: adc871ff-fb77-4d72-b33b-a2773bed2569

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IVisualProperties.SetColor
 title: IVisualProperties::SetColor (shobjidl.h)
-description: Sets the color, as specified.helpviewer_keywords: ["IVisualProperties interface [Windows Shell]","SetColor method","IVisualProperties.SetColor","IVisualProperties::SetColor","SetColor","SetColor method [Windows Shell]","SetColor method [Windows Shell]","IVisualProperties interface","_shell_IVisualProperties_SetColor","shell.IVisualProperties_SetColor","shobjidl/IVisualProperties::SetColor"]
+description: Sets the color, as specified.
+helpviewer_keywords: ["IVisualProperties interface [Windows Shell]","SetColor method","IVisualProperties.SetColor","IVisualProperties::SetColor","SetColor","SetColor method [Windows Shell]","SetColor method [Windows Shell]","IVisualProperties interface","_shell_IVisualProperties_SetColor","shell.IVisualProperties_SetColor","shobjidl/IVisualProperties::SetColor"]
 old-location: shell\IVisualProperties_SetColor.htm
 tech.root: shell
 ms.assetid: 24e351af-687d-454a-9f0a-e7c07175dbd3

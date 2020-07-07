@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsO
 title: IADsO (iads.h)
-description: The IADsO interface is a dual interface that inherits from IADs.helpviewer_keywords: ["IADsO","IADsO interface [ADSI]","IADsO interface [ADSI]","described","_ds_iadso","adsi.iadso","iads/IADsO"]
+description: The IADsO interface is a dual interface that inherits from IADs.
+helpviewer_keywords: ["IADsO","IADsO interface [ADSI]","IADsO interface [ADSI]","described","_ds_iadso","adsi.iadso","iads/IADsO"]
 old-location: adsi\iadso.htm
 tech.root: adsi
 ms.assetid: 223021ff-58ef-4762-a64a-056ccab2696c

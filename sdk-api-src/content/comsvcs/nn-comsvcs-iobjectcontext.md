@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IObjectContext
 title: IObjectContext (comsvcs.h)
-description: Provides access to the current object's context. An object's context is primarily used when working with transactions or dealing with the security of an object.helpviewer_keywords: ["IObjectContext","IObjectContext interface [COM+]","IObjectContext interface [COM+]","described","_cos_IObjectContext","comsvcs/IObjectContext","cos.iobjectcontext"]
+description: Provides access to the current object's context. An object's context is primarily used when working with transactions or dealing with the security of an object.
+helpviewer_keywords: ["IObjectContext","IObjectContext interface [COM+]","IObjectContext interface [COM+]","described","_cos_IObjectContext","comsvcs/IObjectContext","cos.iobjectcontext"]
 old-location: cos\iobjectcontext.htm
 tech.root: cossdk
 ms.assetid: 9395bc9a-dfe5-428a-839f-1c4ad090f636

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.Rect.Rect
 title: Rect::Rect (gdiplustypes.h)
-description: Creates a Rect object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor.helpviewer_keywords: ["Rect","Rect class [GDI+]","Rect constructor","Rect constructor [GDI+]","Rect constructor [GDI+]","Rect class","Rect.Rect","Rect.Rect()","Rect::Rect","_gdiplus_CLASS_Rect_Rect_","gdiplus._gdiplus_CLASS_Rect_Rect_"]
+description: Creates a Rect object whose x-coordinate, y-coordinate, width, and height are all zero. This is the default constructor.
+helpviewer_keywords: ["Rect","Rect class [GDI+]","Rect constructor","Rect constructor [GDI+]","Rect constructor [GDI+]","Rect class","Rect.Rect","Rect.Rect()","Rect::Rect","_gdiplus_CLASS_Rect_Rect_","gdiplus._gdiplus_CLASS_Rect_Rect_"]
 old-location: gdiplus\_gdiplus_CLASS_Rect_Rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectclass\rectconstructors\rect_36.htm

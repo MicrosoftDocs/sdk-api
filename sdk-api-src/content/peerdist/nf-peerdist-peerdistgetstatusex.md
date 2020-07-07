@@ -1,7 +1,8 @@
 ---
 UID: NF:peerdist.PeerDistGetStatusEx
 title: PeerDistGetStatusEx function (peerdist.h)
-description: PeerDistGetStatusEx function returns the current status and capabilities of the Peer Distribution service.helpviewer_keywords: ["PeerDistGetStatusEx","PeerDistGetStatusEx function [Peer Networking]","p2p.peerdistgetstatusex","peerdist/PeerDistGetStatusEx"]
+description: PeerDistGetStatusEx function returns the current status and capabilities of the Peer Distribution service.
+helpviewer_keywords: ["PeerDistGetStatusEx","PeerDistGetStatusEx function [Peer Networking]","p2p.peerdistgetstatusex","peerdist/PeerDistGetStatusEx"]
 old-location: p2p\peerdistgetstatusex.htm
 tech.root: P2PSdk
 ms.assetid: 7D8D3B84-F353-4820-B035-5F289085BE7E

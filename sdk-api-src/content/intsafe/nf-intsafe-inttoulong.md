@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.IntToULong
 title: IntToULong function (intsafe.h)
-description: Converts a value of type INT to a value of type ULONG.helpviewer_keywords: ["IntToDWord","IntToULong","IntToULong function [Windows Shell]","_shell_IntToULong","intsafe/IntToULong","shell.IntToULong"]
+description: Converts a value of type INT to a value of type ULONG.
+helpviewer_keywords: ["IntToDWord","IntToULong","IntToULong function [Windows Shell]","_shell_IntToULong","intsafe/IntToULong","shell.IntToULong"]
 old-location: shell\IntToULong.htm
 tech.root: shell
 ms.assetid: 060915cf-d7a2-48ef-b2b6-303f2cc86c94

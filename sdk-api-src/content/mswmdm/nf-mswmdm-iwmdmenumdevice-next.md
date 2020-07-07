@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMEnumDevice.Next
 title: IWMDMEnumDevice::Next (mswmdm.h)
-description: The Next method returns a pointer to the next device, represented by an IWMDMDevice interface.helpviewer_keywords: ["IWMDMEnumDevice interface [windows Media Device Manager]","Next method","IWMDMEnumDevice.Next","IWMDMEnumDevice::Next","IWMDMEnumDeviceNext","Next","Next method [windows Media Device Manager]","Next method [windows Media Device Manager]","IWMDMEnumDevice interface","mswmdm/IWMDMEnumDevice::Next","wmdm.iwmdmenumdevice_next"]
+description: The Next method returns a pointer to the next device, represented by an IWMDMDevice interface.
+helpviewer_keywords: ["IWMDMEnumDevice interface [windows Media Device Manager]","Next method","IWMDMEnumDevice.Next","IWMDMEnumDevice::Next","IWMDMEnumDeviceNext","Next","Next method [windows Media Device Manager]","Next method [windows Media Device Manager]","IWMDMEnumDevice interface","mswmdm/IWMDMEnumDevice::Next","wmdm.iwmdmenumdevice_next"]
 old-location: wmdm\iwmdmenumdevice_next.htm
 tech.root: WMDM
 ms.assetid: 75a5961f-2c61-4e10-a570-7ebfabb97367
