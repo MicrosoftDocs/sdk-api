@@ -1,5 +1,5 @@
 ---
-UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0109_0003
+UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0110_0003
 title: MFSensorDeviceMode (mfidl.h)
 description: Specifies the sharing mode of an IMFSensorDevice.
 helpviewer_keywords: ["MFSensorDeviceMode","MFSensorDeviceMode enumeration [Media Foundation]","MFSensorDeviceMode_Controller","MFSensorDeviceMode_Shared","mf.mfsensordevicemode","mfidl/MFSensorDeviceMode","mfidl/MFSensorDeviceMode_Controller","mfidl/MFSensorDeviceMode_Shared"]
