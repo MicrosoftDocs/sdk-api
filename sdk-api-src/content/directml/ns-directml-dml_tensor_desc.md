@@ -66,7 +66,7 @@ A generic container for a DirectML tensor description.
 
 Type: [**DML_TENSOR_TYPE**](/windows/desktop/api/directml/ne-directml-dml_tensor_type)
 
-The type of the tensor description. See <a href="https://msdn.microsoft.com/954549FD-70C4-42D7-99C9-8AE33304CDBE">DML_TENSOR_TYPE</a> for the available types.
+The type of the tensor description. See <a href="https://docs.microsoft.com/windows/win32/api/directml/ne-directml-dml_tensor_type">DML_TENSOR_TYPE</a> for the available types.
 
 
 ### -field Desc
