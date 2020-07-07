@@ -290,7 +290,7 @@ The address of a <b>BOOL</b> variable that receives a value that indicates wheth
 </ul>
 If this variable receives <b>FALSE</b>, the calling application must not release the handle returned in the <i>phCryptProvOrNCryptKey</i> variable. The handle will be released on the last free action of the <a href="https://docs.microsoft.com/windows/desktop/SecGloss/c-gly">certificate context</a>.
 
-If this variable receives <b>TRUE</b>, the caller is responsible for releasing the handle returned in the <i>phCryptProvOrNCryptKey</i> variable. If the <i>pdwKeySpec</i> variable receives the <b>CERT_NCRYPT_KEY_SPEC</b> flag, the handle must be released by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function; otherwise, the handle is released by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function.
+If this variable receives <b>TRUE</b>, the caller is responsible for releasing the handle returned in the <i>phCryptProvOrNCryptKey</i> variable. If the <i>pdwKeySpec</i> variable receives the <b>CERT_NCRYPT_KEY_SPEC</b> value, the handle must be released by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/ncrypt/nf-ncrypt-ncryptfreeobject">NCryptFreeObject</a> function; otherwise, the handle is released by passing it to the <a href="https://docs.microsoft.com/windows/desktop/api/wincrypt/nf-wincrypt-cryptreleasecontext">CryptReleaseContext</a> function.
 
 
 ## -returns
@@ -370,5 +370,4 @@ For an example that uses this function, see <a href="https://docs.microsoft.com/
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Key Generation and Exchange Functions</a>
  
 
- 
 
