@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.DirectDrawCreate
 title: DirectDrawCreate function (ddraw.h)
-description: Creates an instance of a DirectDraw object.helpviewer_keywords: ["DDCREATE_EMULATIONONLY","DDCREATE_HARDWAREONLY","DirectDrawCreate","DirectDrawCreate function [DirectDraw]","ddraw/DirectDrawCreate","directdraw.directdrawcreate"]
+description: Creates an instance of a DirectDraw object.
+helpviewer_keywords: ["DDCREATE_EMULATIONONLY","DDCREATE_HARDWAREONLY","DirectDrawCreate","DirectDrawCreate function [DirectDraw]","ddraw/DirectDrawCreate","directdraw.directdrawcreate"]
 old-location: directdraw\directdrawcreate.htm
 tech.root: directdraw
 ms.assetid: bad18493-417f-499d-a9a8-719d094be62a

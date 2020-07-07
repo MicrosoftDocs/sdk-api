@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.CheckTokenCapability
 title: CheckTokenCapability function (securitybaseapi.h)
-description: Checks the capabilities of a given token.helpviewer_keywords: ["CheckTokenCapability","CheckTokenCapability function [Security]","security.checktokencapability","securitybaseapi/CheckTokenCapability"]
+description: Checks the capabilities of a given token.
+helpviewer_keywords: ["CheckTokenCapability","CheckTokenCapability function [Security]","security.checktokencapability","securitybaseapi/CheckTokenCapability"]
 old-location: security\checktokencapability.htm
 tech.root: SecAuthZ
 ms.assetid: 436A5110-B79E-4E64-92E8-1C9E713D0948

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetRecordCAUnitCAUnitId
 title: IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId (dvbsiparser.h)
-description: Gets a conditional access unit identifier from a specified component group record in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.helpviewer_keywords: ["GetRecordCAUnitCAUnitId","GetRecordCAUnitCAUnitId method [Microsoft TV Technologies]","GetRecordCAUnitCAUnitId method [Microsoft TV Technologies]","IIsdbComponentGroupDescriptor interface","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","GetRecordCAUnitCAUnitId method","IIsdbComponentGroupDescriptor.GetRecordCAUnitCAUnitId","IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId","dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId","mstv.iisdbcomponentgroupdescriptor_getrecordcaunitcaunitid"]
+description: Gets a conditional access unit identifier from a specified component group record in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
+helpviewer_keywords: ["GetRecordCAUnitCAUnitId","GetRecordCAUnitCAUnitId method [Microsoft TV Technologies]","GetRecordCAUnitCAUnitId method [Microsoft TV Technologies]","IIsdbComponentGroupDescriptor interface","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","GetRecordCAUnitCAUnitId method","IIsdbComponentGroupDescriptor.GetRecordCAUnitCAUnitId","IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId","dvbsiparser/IIsdbComponentGroupDescriptor::GetRecordCAUnitCAUnitId","mstv.iisdbcomponentgroupdescriptor_getrecordcaunitcaunitid"]
 old-location: mstv\iisdbcomponentgroupdescriptor_getrecordcaunitcaunitid.htm
 tech.root: mstv
 ms.assetid: 97aa98b7-d676-44ad-be93-e58d996a8a6a

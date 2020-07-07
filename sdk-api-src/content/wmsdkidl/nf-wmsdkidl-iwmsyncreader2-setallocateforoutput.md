@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMSyncReader2.SetAllocateForOutput
 title: IWMSyncReader2::SetAllocateForOutput (wmsdkidl.h)
-description: The SetAllocateForOutput method sets a sample allocation callback interface for allocating output samples.helpviewer_keywords: ["IWMSyncReader2 interface [windows Media Format]","SetAllocateForOutput method","IWMSyncReader2.SetAllocateForOutput","IWMSyncReader2::SetAllocateForOutput","IWMSyncReader2SetAllocateForOutput","SetAllocateForOutput","SetAllocateForOutput method [windows Media Format]","SetAllocateForOutput method [windows Media Format]","IWMSyncReader2 interface","wmformat.iwmsyncreader2_setallocateforoutput","wmsdkidl/IWMSyncReader2::SetAllocateForOutput"]
+description: The SetAllocateForOutput method sets a sample allocation callback interface for allocating output samples.
+helpviewer_keywords: ["IWMSyncReader2 interface [windows Media Format]","SetAllocateForOutput method","IWMSyncReader2.SetAllocateForOutput","IWMSyncReader2::SetAllocateForOutput","IWMSyncReader2SetAllocateForOutput","SetAllocateForOutput","SetAllocateForOutput method [windows Media Format]","SetAllocateForOutput method [windows Media Format]","IWMSyncReader2 interface","wmformat.iwmsyncreader2_setallocateforoutput","wmsdkidl/IWMSyncReader2::SetAllocateForOutput"]
 old-location: wmformat\iwmsyncreader2_setallocateforoutput.htm
 tech.root: wmformat
 ms.assetid: 2f0c754e-f09c-472f-8f40-3fcd0fb29c48

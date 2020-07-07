@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IDefaultFolderMenuInitialize
 title: IDefaultFolderMenuInitialize (shobjidl_core.h)
-description: Provides methods used to get and set shortcut menu information. This information is the same as that provided to SHCreateDefaultContextMenu through the DEFCONTEXTMENU structure.helpviewer_keywords: ["IDefaultFolderMenuInitialize","IDefaultFolderMenuInitialize interface [Windows Shell]","IDefaultFolderMenuInitialize interface [Windows Shell]","described","shell.IDefaultFolderMenuInitialize","shobjidl_core/IDefaultFolderMenuInitialize"]
+description: Provides methods used to get and set shortcut menu information. This information is the same as that provided to SHCreateDefaultContextMenu through the DEFCONTEXTMENU structure.
+helpviewer_keywords: ["IDefaultFolderMenuInitialize","IDefaultFolderMenuInitialize interface [Windows Shell]","IDefaultFolderMenuInitialize interface [Windows Shell]","described","shell.IDefaultFolderMenuInitialize","shobjidl_core/IDefaultFolderMenuInitialize"]
 old-location: shell\IDefaultFolderMenuInitialize.htm
 tech.root: shell
 ms.assetid: 23C75435-E43D-4451-8F03-AE051BC1B66D

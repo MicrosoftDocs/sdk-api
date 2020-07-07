@@ -1,7 +1,8 @@
 ---
 UID: NC:commctrl.SUBCLASSPROC
 title: SUBCLASSPROC (commctrl.h)
-description: Defines the prototype for the callback function used by RemoveWindowSubclass and SetWindowSubclass.helpviewer_keywords: ["SUBCLASSPROC","SUBCLASSPROC callback","SUBCLASSPROC callback function [Windows Shell]","commctrl/SUBCLASSPROC","inet_SUBCLASSPROC_Function","shell.SUBCLASSPROC_Function"]
+description: Defines the prototype for the callback function used by RemoveWindowSubclass and SetWindowSubclass.
+helpviewer_keywords: ["SUBCLASSPROC","SUBCLASSPROC callback","SUBCLASSPROC callback function [Windows Shell]","commctrl/SUBCLASSPROC","inet_SUBCLASSPROC_Function","shell.SUBCLASSPROC_Function"]
 old-location: shell\SUBCLASSPROC_Function.htm
 tech.root: shell
 ms.assetid: 44e4cbe0-8252-4bcc-885e-d8af856e8ad7

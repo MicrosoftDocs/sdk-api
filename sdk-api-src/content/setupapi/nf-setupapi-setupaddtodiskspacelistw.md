@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupAddToDiskSpaceListW
 title: SetupAddToDiskSpaceListW function (setupapi.h)
-description: The SetupAddToDiskSpaceList function adds a single delete or copy operation to a disk-space list. To add all the file operations in a section of an INF file, use either SetupAddSectionToDiskSpaceList, or SetupAddInstallSectionToDiskSpaceList.helpviewer_keywords: ["FILEOP_COPY.","FILEOP_DELETE","SetupAddToDiskSpaceList","SetupAddToDiskSpaceList function [Setup API]","SetupAddToDiskSpaceListA","SetupAddToDiskSpaceListW","_setupapi_setupaddtodiskspacelist","setup.setupaddtodiskspacelist","setupapi/SetupAddToDiskSpaceList","setupapi/SetupAddToDiskSpaceListA","setupapi/SetupAddToDiskSpaceListW"]
+description: The SetupAddToDiskSpaceList function adds a single delete or copy operation to a disk-space list. To add all the file operations in a section of an INF file, use either SetupAddSectionToDiskSpaceList, or SetupAddInstallSectionToDiskSpaceList.
+helpviewer_keywords: ["FILEOP_COPY.","FILEOP_DELETE","SetupAddToDiskSpaceList","SetupAddToDiskSpaceList function [Setup API]","SetupAddToDiskSpaceListA","SetupAddToDiskSpaceListW","_setupapi_setupaddtodiskspacelist","setup.setupaddtodiskspacelist","setupapi/SetupAddToDiskSpaceList","setupapi/SetupAddToDiskSpaceListA","setupapi/SetupAddToDiskSpaceListW"]
 old-location: setup\setupaddtodiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: f1bb7096-b4a6-450b-9552-9a3dc4c71f24
@@ -152,4 +153,9 @@ If the function fails, the return value is zero. To get extended error informati
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupAddToDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

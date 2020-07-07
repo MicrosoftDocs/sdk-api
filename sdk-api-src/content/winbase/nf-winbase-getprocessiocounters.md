@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetProcessIoCounters
 title: GetProcessIoCounters function (winbase.h)
-description: Retrieves accounting information for all I/O operations performed by the specified process.helpviewer_keywords: ["GetProcessIoCounters","GetProcessIoCounters function","_win32_getprocessiocounters","base.getprocessiocounters","winbase/GetProcessIoCounters"]
+description: Retrieves accounting information for all I/O operations performed by the specified process.
+helpviewer_keywords: ["GetProcessIoCounters","GetProcessIoCounters function","_win32_getprocessiocounters","base.getprocessiocounters","winbase/GetProcessIoCounters"]
 old-location: base\getprocessiocounters.htm
 tech.root: ProcThread
 ms.assetid: e6973c1b-86bc-4fd1-aff6-26e87f8013c4

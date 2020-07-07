@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutboundRoutingRule.Save
 title: IFaxOutboundRoutingRule::Save (faxcomex.h)
-description: The IFaxOutboundRoutingRule::Save method saves the FaxOutboundRoutingRule object data.helpviewer_keywords: ["IFaxOutboundRoutingRule interface [Fax Service]","Save method","IFaxOutboundRoutingRule.Save","IFaxOutboundRoutingRule::Save","Save","Save method [Fax Service]","Save method [Fax Service]","IFaxOutboundRoutingRule interface","_mfax_faxoutboundroutingrule.save","fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_save_cpp","fax._mfax_faxoutboundroutingrule_save","faxcomex/IFaxOutboundRoutingRule::Save"]
+description: The IFaxOutboundRoutingRule::Save method saves the FaxOutboundRoutingRule object data.
+helpviewer_keywords: ["IFaxOutboundRoutingRule interface [Fax Service]","Save method","IFaxOutboundRoutingRule.Save","IFaxOutboundRoutingRule::Save","Save","Save method [Fax Service]","Save method [Fax Service]","IFaxOutboundRoutingRule interface","_mfax_faxoutboundroutingrule.save","fax._mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_save_cpp","fax._mfax_faxoutboundroutingrule_save","faxcomex/IFaxOutboundRoutingRule::Save"]
 old-location: fax\_mfax_faxoutboundroutingrule_cpp_mfax_faxoutboundroutingrule_save_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_0qn9.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:drt.DrtGetSearchPathSize
 title: DrtGetSearchPathSize function (drt.h)
-description: DrtGetSearchPathSize function returns the size of the search path, which represents the number of nodes utilized in the search operation.helpviewer_keywords: ["DrtGetSearchPathSize","DrtGetSearchPathSize function [Peer Networking]","drt/DrtGetSearchPathSize","p2p.drtgetsearchpathsize"]
+description: DrtGetSearchPathSize function returns the size of the search path, which represents the number of nodes utilized in the search operation.
+helpviewer_keywords: ["DrtGetSearchPathSize","DrtGetSearchPathSize function [Peer Networking]","drt/DrtGetSearchPathSize","p2p.drtgetsearchpathsize"]
 old-location: p2p\drtgetsearchpathsize.htm
 tech.root: P2PSdk
 ms.assetid: dadd5f2a-2584-4046-8cdf-4d6ea97cc878

@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.getRange_Saturation
 title: IVideoProcAmp::getRange_Saturation (vidcap.h)
-description: The getRange_Saturation method returns the range of saturation settings supported by the camera.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","getRange_Saturation method","IVideoProcAmp.getRange_Saturation","IVideoProcAmp::getRange_Saturation","IVideoProcAmpgetRange_Saturation","dshow.ivideoprocamp_getrange_saturation","getRange_Saturation","getRange_Saturation method [DirectShow]","getRange_Saturation method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::getRange_Saturation"]
+description: The getRange_Saturation method returns the range of saturation settings supported by the camera.
+helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","getRange_Saturation method","IVideoProcAmp.getRange_Saturation","IVideoProcAmp::getRange_Saturation","IVideoProcAmpgetRange_Saturation","dshow.ivideoprocamp_getrange_saturation","getRange_Saturation","getRange_Saturation method [DirectShow]","getRange_Saturation method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::getRange_Saturation"]
 old-location: dshow\ivideoprocamp_getrange_saturation.htm
 tech.root: DirectShow
 ms.assetid: 7c3d99a4-fc23-4d5e-907e-72272599a684

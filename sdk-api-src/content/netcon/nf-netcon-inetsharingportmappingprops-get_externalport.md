@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.INetSharingPortMappingProps.get_ExternalPort
 title: INetSharingPortMappingProps::get_ExternalPort (netcon.h)
-description: The get_ExternalPort method retrieves the external port associated with this port mapping.helpviewer_keywords: ["INetSharingPortMappingProps interface [ICS/ICF]","get_ExternalPort method","INetSharingPortMappingProps.get_ExternalPort","INetSharingPortMappingProps::get_ExternalPort","_ics_inetsharingportmappingprops_get_port","get_ExternalPort","get_ExternalPort method [ICS/ICF]","get_ExternalPort method [ICS/ICF]","INetSharingPortMappingProps interface","ics.inetsharingportmappingprops_get_externalport","ics.inetsharingportmappingprops_get_port","netcon/INetSharingPortMappingProps::get_ExternalPort"]
+description: The get_ExternalPort method retrieves the external port associated with this port mapping.
+helpviewer_keywords: ["INetSharingPortMappingProps interface [ICS/ICF]","get_ExternalPort method","INetSharingPortMappingProps.get_ExternalPort","INetSharingPortMappingProps::get_ExternalPort","_ics_inetsharingportmappingprops_get_port","get_ExternalPort","get_ExternalPort method [ICS/ICF]","get_ExternalPort method [ICS/ICF]","INetSharingPortMappingProps interface","ics.inetsharingportmappingprops_get_externalport","ics.inetsharingportmappingprops_get_port","netcon/INetSharingPortMappingProps::get_ExternalPort"]
 old-location: ics\inetsharingportmappingprops_get_externalport.htm
 tech.root: ics
 ms.assetid: d1cf6a3f-c6d2-4514-89e6-af58be22dabb

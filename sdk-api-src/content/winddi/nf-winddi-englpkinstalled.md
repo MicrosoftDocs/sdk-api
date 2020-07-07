@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngLpkInstalled
 title: EngLpkInstalled function (winddi.h)
-description: The EngLpkInstalled function determines whether the language pack is installed on the system.helpviewer_keywords: ["EngLpkInstalled","EngLpkInstalled function [Display Devices]","display.englpkinstalled","gdifncs_75e34695-7344-475a-95c3-eeec27db1d34.xml","winddi/EngLpkInstalled"]
+description: The EngLpkInstalled function determines whether the language pack is installed on the system.
+helpviewer_keywords: ["EngLpkInstalled","EngLpkInstalled function [Display Devices]","display.englpkinstalled","gdifncs_75e34695-7344-475a-95c3-eeec27db1d34.xml","winddi/EngLpkInstalled"]
 old-location: display\englpkinstalled.htm
 tech.root: display
 ms.assetid: be604527-0c9b-4065-9362-08b71e5a86be

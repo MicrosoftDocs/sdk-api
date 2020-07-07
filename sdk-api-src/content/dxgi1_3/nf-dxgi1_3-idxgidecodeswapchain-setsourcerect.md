@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetSourceRect
 title: IDXGIDecodeSwapChain::SetSourceRect (dxgi1_3.h)
-description: Sets the rectangle that defines the source region for the video processing blit operation.helpviewer_keywords: ["IDXGIDecodeSwapChain interface [DXGI]","SetSourceRect method","IDXGIDecodeSwapChain.SetSourceRect","IDXGIDecodeSwapChain::SetSourceRect","SetSourceRect","SetSourceRect method [DXGI]","SetSourceRect method [DXGI]","IDXGIDecodeSwapChain interface","direct3ddxgi.idxgidecodeswapchain_setsourcerect","dxgi1_3/IDXGIDecodeSwapChain::SetSourceRect"]
+description: Sets the rectangle that defines the source region for the video processing blit operation.
+helpviewer_keywords: ["IDXGIDecodeSwapChain interface [DXGI]","SetSourceRect method","IDXGIDecodeSwapChain.SetSourceRect","IDXGIDecodeSwapChain::SetSourceRect","SetSourceRect","SetSourceRect method [DXGI]","SetSourceRect method [DXGI]","IDXGIDecodeSwapChain interface","direct3ddxgi.idxgidecodeswapchain_setsourcerect","dxgi1_3/IDXGIDecodeSwapChain::SetSourceRect"]
 old-location: direct3ddxgi\idxgidecodeswapchain_setsourcerect.htm
 tech.root: direct3ddxgi
 ms.assetid: E614D9C2-9AAC-4ADC-9B7B-99C47975DA07

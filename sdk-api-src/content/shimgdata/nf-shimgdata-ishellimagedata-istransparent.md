@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageData.IsTransparent
 title: IShellImageData::IsTransparent (shimgdata.h)
-description: Determines whether the image is transparent.helpviewer_keywords: ["IShellImageData interface [Windows Shell]","IsTransparent method","IShellImageData.IsTransparent","IShellImageData::IsTransparent","IsTransparent","IsTransparent method [Windows Shell]","IsTransparent method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_IsTransparent","shell.IShellImageData_IsTransparent","shimgdata/IShellImageData::IsTransparent"]
+description: Determines whether the image is transparent.
+helpviewer_keywords: ["IShellImageData interface [Windows Shell]","IsTransparent method","IShellImageData.IsTransparent","IShellImageData::IsTransparent","IsTransparent","IsTransparent method [Windows Shell]","IsTransparent method [Windows Shell]","IShellImageData interface","_shell_IShellImageData_IsTransparent","shell.IShellImageData_IsTransparent","shimgdata/IShellImageData::IsTransparent"]
 old-location: shell\IShellImageData_IsTransparent.htm
 tech.root: shell
 ms.assetid: 613d2c01-47d5-41c3-8dba-5b1e1feabdf3

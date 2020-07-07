@@ -1,7 +1,8 @@
 ---
 UID: NS:qosobjs._QOS_TCP_TRAFFIC
 title: QOS_TCP_TRAFFIC (qosobjs.h)
-description: The QOS_TCP_TRAFFIC structure is used to indicate that IP Precedence and UserPriority mappings for a given flow must be set to system defaults for TCP traffic.helpviewer_keywords: ["*LPQOS_TCP_TRAFFIC","*LPQOS_TCP_TRAFFIC structure [QOS]","QOS_TCP_TRAFFIC","QOS_TCP_TRAFFIC structure [QOS]","qos.qos_tcp_traffic","qosobjs/*LPQOS_TCP_TRAFFIC","qosobjs/QOS_TCP_TRAFFIC"]
+description: The QOS_TCP_TRAFFIC structure is used to indicate that IP Precedence and UserPriority mappings for a given flow must be set to system defaults for TCP traffic.
+helpviewer_keywords: ["*LPQOS_TCP_TRAFFIC","*LPQOS_TCP_TRAFFIC structure [QOS]","QOS_TCP_TRAFFIC","QOS_TCP_TRAFFIC structure [QOS]","qos.qos_tcp_traffic","qosobjs/*LPQOS_TCP_TRAFFIC","qosobjs/QOS_TCP_TRAFFIC"]
 old-location: qos\qos_tcp_traffic.htm
 tech.root: QOS
 ms.assetid: e71b0414-d449-42af-9d28-d2ae9fa1b6ea

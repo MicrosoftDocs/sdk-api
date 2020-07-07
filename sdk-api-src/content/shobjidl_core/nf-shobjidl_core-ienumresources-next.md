@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IEnumResources.Next
 title: IEnumResources::Next (shobjidl_core.h)
-description: Gets the next SHELL_ITEM_RESOURCE structure.helpviewer_keywords: ["IEnumResources interface [Windows Shell]","Next method","IEnumResources.Next","IEnumResources::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumResources interface","_shell_IEnumResources_Next","shell.IEnumResources_Next","shobjidl_core/IEnumResources::Next"]
+description: Gets the next SHELL_ITEM_RESOURCE structure.
+helpviewer_keywords: ["IEnumResources interface [Windows Shell]","Next method","IEnumResources.Next","IEnumResources::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumResources interface","_shell_IEnumResources_Next","shell.IEnumResources_Next","shobjidl_core/IEnumResources::Next"]
 old-location: shell\IEnumResources_Next.htm
 tech.root: shell
 ms.assetid: b5d0d754-4252-476a-b3af-0ba257eab339

@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfDisplayAttributeNotifySink
 title: ITfDisplayAttributeNotifySink (msctf.h)
-description: The ITfDisplayAttributeNotifySink interface is implemented by an application to receive a notification when display attribute information is updated.helpviewer_keywords: ["ITfDisplayAttributeNotifySink","ITfDisplayAttributeNotifySink interface [Text Services Framework]","ITfDisplayAttributeNotifySink interface [Text Services Framework]","described","_tsf_itfdisplayattributenotifysink_ref","msctf/ITfDisplayAttributeNotifySink","tsf.itfdisplayattributenotifysink"]
+description: The ITfDisplayAttributeNotifySink interface is implemented by an application to receive a notification when display attribute information is updated.
+helpviewer_keywords: ["ITfDisplayAttributeNotifySink","ITfDisplayAttributeNotifySink interface [Text Services Framework]","ITfDisplayAttributeNotifySink interface [Text Services Framework]","described","_tsf_itfdisplayattributenotifysink_ref","msctf/ITfDisplayAttributeNotifySink","tsf.itfdisplayattributenotifysink"]
 old-location: tsf\itfdisplayattributenotifysink.htm
 tech.root: TSF
 ms.assetid: c21ff404-af42-488a-90f0-d3f02277c557

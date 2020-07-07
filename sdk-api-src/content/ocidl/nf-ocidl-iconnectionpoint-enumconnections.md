@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IConnectionPoint.EnumConnections
 title: IConnectionPoint::EnumConnections (ocidl.h)
-description: Creates an enumerator object to iterate through the current connections for this connection point.helpviewer_keywords: ["EnumConnections","EnumConnections method [COM]","EnumConnections method [COM]","IConnectionPoint interface","IConnectionPoint interface [COM]","EnumConnections method","IConnectionPoint.EnumConnections","IConnectionPoint::EnumConnections","_com_iconnectionpoint_enumconnections","com.iconnectionpoint_enumconnections","ocidl/IConnectionPoint::EnumConnections"]
+description: Creates an enumerator object to iterate through the current connections for this connection point.
+helpviewer_keywords: ["EnumConnections","EnumConnections method [COM]","EnumConnections method [COM]","IConnectionPoint interface","IConnectionPoint interface [COM]","EnumConnections method","IConnectionPoint.EnumConnections","IConnectionPoint::EnumConnections","_com_iconnectionpoint_enumconnections","com.iconnectionpoint_enumconnections","ocidl/IConnectionPoint::EnumConnections"]
 old-location: com\iconnectionpoint_enumconnections.htm
 tech.root: com
 ms.assetid: 424aab99-990e-4b45-9b58-ac22b2cee87c

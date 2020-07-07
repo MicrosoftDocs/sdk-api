@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxManifestOptionalPackageInfo.GetMainPackageName
 title: IAppxManifestOptionalPackageInfo::GetMainPackageName (appxpackaging.h)
-description: Gets the main package name from the optional package.helpviewer_keywords: ["GetMainPackageName","GetMainPackageName method [App packaging and management]","GetMainPackageName method [App packaging and management]","IAppxManifestOptionalPackageInfo interface","IAppxManifestOptionalPackageInfo interface [App packaging and management]","GetMainPackageName method","IAppxManifestOptionalPackageInfo.GetMainPackageName","IAppxManifestOptionalPackageInfo::GetMainPackageName","appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName","appxpkg.iappxmanifestoptionalpackageinfo_getmainpackagename"]
+description: Gets the main package name from the optional package.
+helpviewer_keywords: ["GetMainPackageName","GetMainPackageName method [App packaging and management]","GetMainPackageName method [App packaging and management]","IAppxManifestOptionalPackageInfo interface","IAppxManifestOptionalPackageInfo interface [App packaging and management]","GetMainPackageName method","IAppxManifestOptionalPackageInfo.GetMainPackageName","IAppxManifestOptionalPackageInfo::GetMainPackageName","appxpackaging/IAppxManifestOptionalPackageInfo::GetMainPackageName","appxpkg.iappxmanifestoptionalpackageinfo_getmainpackagename"]
 old-location: appxpkg\iappxmanifestoptionalpackageinfo_getmainpackagename.htm
 tech.root: appxpkg
 ms.assetid: 95CD6739-06B2-4862-8313-4133AFBFD583

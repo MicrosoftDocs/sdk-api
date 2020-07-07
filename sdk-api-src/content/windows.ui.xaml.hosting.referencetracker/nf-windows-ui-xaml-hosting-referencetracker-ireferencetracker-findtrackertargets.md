@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTracker.FindTrackerTargets
 title: IReferenceTracker::xaml (windows.ui.xaml.hosting.referencetracker.h)
-description: Finds out what reference tracker targets are reachable from a reference tracker source; must be called by a garbage collector between calls to ReferenceTrackingStarted and FindTrackerTargetsCompleted.helpviewer_keywords: ["FindTrackerTargets","FindTrackerTargets method [Windows Runtime]","FindTrackerTargets method [Windows Runtime]","IReferenceTracker interface","IReferenceTracker interface [Windows Runtime]","FindTrackerTargets method","IReferenceTracker.FindTrackerTargets","IReferenceTracker.xaml","IReferenceTracker::FindTrackerTargets","IReferenceTracker::xaml","windows/IReferenceTracker::FindTrackerTargets","winrt.ireferencetracker_findtrackertargets"]
+description: Finds out what reference tracker targets are reachable from a reference tracker source; must be called by a garbage collector between calls to ReferenceTrackingStarted and FindTrackerTargetsCompleted.
+helpviewer_keywords: ["FindTrackerTargets","FindTrackerTargets method [Windows Runtime]","FindTrackerTargets method [Windows Runtime]","IReferenceTracker interface","IReferenceTracker interface [Windows Runtime]","FindTrackerTargets method","IReferenceTracker.FindTrackerTargets","IReferenceTracker.xaml","IReferenceTracker::FindTrackerTargets","IReferenceTracker::xaml","windows/IReferenceTracker::FindTrackerTargets","winrt.ireferencetracker_findtrackertargets"]
 old-location: winrt\ireferencetracker_findtrackertargets.htm
 tech.root: WinRT
 ms.assetid: ede8da3a-cef8-4741-950d-4303870ab10e

@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IPart.GetSubType
 title: IPart::GetSubType (devicetopology.h)
-description: The GetSubType method gets the part subtype of this part.helpviewer_keywords: ["GetSubType","GetSubType method [Core Audio]","GetSubType method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetSubType method","IPart.GetSubType","IPart::GetSubType","IPartGetSubType","coreaudio.ipart_getsubtype","devicetopology/IPart::GetSubType"]
+description: The GetSubType method gets the part subtype of this part.
+helpviewer_keywords: ["GetSubType","GetSubType method [Core Audio]","GetSubType method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetSubType method","IPart.GetSubType","IPart::GetSubType","IPartGetSubType","coreaudio.ipart_getsubtype","devicetopology/IPart::GetSubType"]
 old-location: coreaudio\ipart_getsubtype.htm
 tech.root: CoreAudio
 ms.assetid: 456aaafb-1e68-4a3a-b27b-c6f6f89dc17b

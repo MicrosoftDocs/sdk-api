@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpSetClientInfoV4
 title: DhcpSetClientInfoV4 function (dhcpsapi.h)
-description: Sets information on a client whose IP address lease is administrated by the DHCP server. This function extends the functionality provided by DhcpSetClientInfo by allowing the caller to specify the client type (DHCP or BOOTP).helpviewer_keywords: ["DhcpSetClientInfoV4","DhcpSetClientInfoV4 function [DHCP]","dhcp.dhcpsetclientinfov4","dhcpsapi/DhcpSetClientInfoV4"]
+description: Sets information on a client whose IP address lease is administrated by the DHCP server. This function extends the functionality provided by DhcpSetClientInfo by allowing the caller to specify the client type (DHCP or BOOTP).
+helpviewer_keywords: ["DhcpSetClientInfoV4","DhcpSetClientInfoV4 function [DHCP]","dhcp.dhcpsetclientinfov4","dhcpsapi/DhcpSetClientInfoV4"]
 old-location: dhcp\dhcpsetclientinfov4.htm
 tech.root: DHCP
 ms.assetid: f7e1aa86-634e-48a7-ae2a-9c23277ed946

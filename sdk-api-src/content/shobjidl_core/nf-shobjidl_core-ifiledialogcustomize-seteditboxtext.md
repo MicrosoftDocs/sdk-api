@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.SetEditBoxText
 title: IFileDialogCustomize::SetEditBoxText (shobjidl_core.h)
-description: Sets the text in an edit box control found in the dialog.helpviewer_keywords: ["IFileDialogCustomize interface [Windows Shell]","SetEditBoxText method","IFileDialogCustomize.SetEditBoxText","IFileDialogCustomize::SetEditBoxText","SetEditBoxText","SetEditBoxText method [Windows Shell]","SetEditBoxText method [Windows Shell]","IFileDialogCustomize interface","shell.IFileDialogCustomize_SetEditBoxText","shell_IFileDialogCustomize_SetEditBoxText","shobjidl_core/IFileDialogCustomize::SetEditBoxText"]
+description: Sets the text in an edit box control found in the dialog.
+helpviewer_keywords: ["IFileDialogCustomize interface [Windows Shell]","SetEditBoxText method","IFileDialogCustomize.SetEditBoxText","IFileDialogCustomize::SetEditBoxText","SetEditBoxText","SetEditBoxText method [Windows Shell]","SetEditBoxText method [Windows Shell]","IFileDialogCustomize interface","shell.IFileDialogCustomize_SetEditBoxText","shell_IFileDialogCustomize_SetEditBoxText","shobjidl_core/IFileDialogCustomize::SetEditBoxText"]
 old-location: shell\IFileDialogCustomize_SetEditBoxText.htm
 tech.root: shell
 ms.assetid: e235e82e-65db-4919-bf71-c454673d07fb

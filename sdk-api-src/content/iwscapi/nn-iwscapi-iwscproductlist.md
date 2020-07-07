@@ -1,7 +1,8 @@
 ---
 UID: NN:iwscapi.IWSCProductList
 title: IWSCProductList (iwscapi.h)
-description: Provides methods to collect product information for the selected type of providers installed on the computer.helpviewer_keywords: ["IWSCProductList","IWSCProductList interface [Windows API]","IWSCProductList interface [Windows API]","described","iwscapi/IWSCProductList","winprog.iwscproductlist"]
+description: Provides methods to collect product information for the selected type of providers installed on the computer.
+helpviewer_keywords: ["IWSCProductList","IWSCProductList interface [Windows API]","IWSCProductList interface [Windows API]","described","iwscapi/IWSCProductList","winprog.iwscproductlist"]
 old-location: winprog\iwscproductlist.htm
 tech.root: DevNotes
 ms.assetid: 81BC78F1-6F95-49D3-8EDD-EB7E13119A86

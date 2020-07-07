@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval
 title: IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval (dvbsiparser.h)
-description: Gets the guard interval from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.helpviewer_keywords: ["GetGuardInterval","GetGuardInterval method [Microsoft TV Technologies]","GetGuardInterval method [Microsoft TV Technologies]","IIsdbTerrestrialDeliverySystemDescriptor interface","IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetGuardInterval method","IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval","IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval","dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval","mstv.iisdbterrestrialdeliverysystemdescriptor_getguardinterval"]
+description: Gets the guard interval from an Integrated Services Digital Broadcasting (ISDB) terrestrial delivery system descriptor.
+helpviewer_keywords: ["GetGuardInterval","GetGuardInterval method [Microsoft TV Technologies]","GetGuardInterval method [Microsoft TV Technologies]","IIsdbTerrestrialDeliverySystemDescriptor interface","IIsdbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetGuardInterval method","IIsdbTerrestrialDeliverySystemDescriptor.GetGuardInterval","IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval","dvbsiparser/IIsdbTerrestrialDeliverySystemDescriptor::GetGuardInterval","mstv.iisdbterrestrialdeliverysystemdescriptor_getguardinterval"]
 old-location: mstv\iisdbterrestrialdeliverysystemdescriptor_getguardinterval.htm
 tech.root: mstv
 ms.assetid: f1016fd4-bcd9-4678-b59c-c6c8207f242d

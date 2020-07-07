@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.ITaskbarList3
 title: ITaskbarList3 (shobjidl_core.h)
-description: Extends ITaskbarList2 by exposing methods that support the unified launching and switching taskbar button functionality added in Windows 7.helpviewer_keywords: ["ITaskbarList3","ITaskbarList3 interface [Windows Shell]","ITaskbarList3 interface [Windows Shell]","described","_shell_ITaskbarList3","shell.ITaskbarList3","shobjidl_core/ITaskbarList3"]
+description: Extends ITaskbarList2 by exposing methods that support the unified launching and switching taskbar button functionality added in Windows 7.
+helpviewer_keywords: ["ITaskbarList3","ITaskbarList3 interface [Windows Shell]","ITaskbarList3 interface [Windows Shell]","described","_shell_ITaskbarList3","shell.ITaskbarList3","shobjidl_core/ITaskbarList3"]
 old-location: shell\ITaskbarList3.htm
 tech.root: shell
 ms.assetid: a5eb4e5a-df17-4aca-96fb-d8475e266b92

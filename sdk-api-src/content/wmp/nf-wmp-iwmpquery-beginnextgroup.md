@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPQuery.beginNextGroup
 title: IWMPQuery::beginNextGroup (wmp.h)
-description: The beginNextGroup method begins a new condition group.helpviewer_keywords: ["IWMPQuery interface [Windows Media Player]","beginNextGroup method","IWMPQuery.beginNextGroup","IWMPQuery::beginNextGroup","IWMPQuerybeginNextGroup","beginNextGroup","beginNextGroup method [Windows Media Player]","beginNextGroup method [Windows Media Player]","IWMPQuery interface","wmp.iwmpquery_beginnextgroup","wmp/IWMPQuery::beginNextGroup"]
+description: The beginNextGroup method begins a new condition group.
+helpviewer_keywords: ["IWMPQuery interface [Windows Media Player]","beginNextGroup method","IWMPQuery.beginNextGroup","IWMPQuery::beginNextGroup","IWMPQuerybeginNextGroup","beginNextGroup","beginNextGroup method [Windows Media Player]","beginNextGroup method [Windows Media Player]","IWMPQuery interface","wmp.iwmpquery_beginnextgroup","wmp/IWMPQuery::beginNextGroup"]
 old-location: wmp\iwmpquery_beginnextgroup.htm
 tech.root: WMP
 ms.assetid: c81a8125-2cfa-40e2-afc5-672c2866b880

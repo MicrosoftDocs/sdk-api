@@ -1,7 +1,8 @@
 ---
 UID: NS:naptypes.tagResultCodes
 title: ResultCodes (naptypes.h)
-description: Defines a list of result codes.helpviewer_keywords: ["ResultCodes","ResultCodes structure [NAP]","nap.resultcodes_struct","naptypes/ResultCodes"]
+description: Defines a list of result codes.
+helpviewer_keywords: ["ResultCodes","ResultCodes structure [NAP]","nap.resultcodes_struct","naptypes/ResultCodes"]
 old-location: nap\resultcodes_struct.htm
 tech.root: NAP
 ms.assetid: 9d608f0a-9841-48e6-8856-2d8c1afc3e5d

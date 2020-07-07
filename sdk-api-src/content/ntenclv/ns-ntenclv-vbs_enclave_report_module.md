@@ -1,7 +1,8 @@
 ---
 UID: NS:ntenclv.VBS_ENCLAVE_REPORT_MODULE
 title: VBS_ENCLAVE_REPORT_MODULE (ntenclv.h)
-description: Describes a module loaded for the enclave.helpviewer_keywords: ["VBS_ENCLAVE_REPORT_MODULE","VBS_ENCLAVE_REPORT_MODULE structure","base.vbs_enclave_report_module","ntenclv/VBS_ENCLAVE_REPORT_MODULE"]
+description: Describes a module loaded for the enclave.
+helpviewer_keywords: ["VBS_ENCLAVE_REPORT_MODULE","VBS_ENCLAVE_REPORT_MODULE structure","base.vbs_enclave_report_module","ntenclv/VBS_ENCLAVE_REPORT_MODULE"]
 old-location: base\vbs_enclave_report_module.htm
 tech.root: Memory
 ms.assetid: FB72B01D-B3FE-4FD7-8766-B209C6BC105E

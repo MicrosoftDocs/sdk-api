@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_MORESURFACECAPS
 title: DD_MORESURFACECAPS (ddrawint.h)
-description: The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in DDCORECAPS.helpviewer_keywords: ["*PDD_MORESURFACECAPS","DD_MORESURFACECAPS","DD_MORESURFACECAPS structure [Display Devices]","ddrawint/DD_MORESURFACECAPS","ddstrcts_e28f85ae-f428-4e7c-b142-9892afa24323.xml","display.dd_moresurfacecaps"]
+description: The DD_MORESURFACECAPS structure defines more driver surface capabilities in addition to those described in DDCORECAPS.
+helpviewer_keywords: ["*PDD_MORESURFACECAPS","DD_MORESURFACECAPS","DD_MORESURFACECAPS structure [Display Devices]","ddrawint/DD_MORESURFACECAPS","ddstrcts_e28f85ae-f428-4e7c-b142-9892afa24323.xml","display.dd_moresurfacecaps"]
 old-location: display\dd_moresurfacecaps.htm
 tech.root: display
 ms.assetid: 25cc9058-0c37-4768-a177-345cdae4ee5f

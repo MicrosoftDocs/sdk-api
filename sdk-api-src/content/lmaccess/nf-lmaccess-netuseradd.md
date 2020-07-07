@@ -1,7 +1,8 @@
 ---
 UID: NF:lmaccess.NetUserAdd
 title: NetUserAdd function (lmaccess.h)
-description: The NetUserAdd function adds a user account and assigns a password and privilege level.helpviewer_keywords: ["1","2","3","4","NetUserAdd","NetUserAdd function [Network Management]","_win32_netuseradd","lmaccess/NetUserAdd","netmgmt.netuseradd"]
+description: The NetUserAdd function adds a user account and assigns a password and privilege level.
+helpviewer_keywords: ["1","2","3","4","NetUserAdd","NetUserAdd function [Network Management]","_win32_netuseradd","lmaccess/NetUserAdd","netmgmt.netuseradd"]
 old-location: netmgmt\netuseradd.htm
 tech.root: NetMgmt
 ms.assetid: b5ca5f76-d40b-4abf-925a-0de54fc476e4

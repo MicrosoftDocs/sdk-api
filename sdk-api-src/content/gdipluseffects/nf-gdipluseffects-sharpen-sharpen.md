@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.Sharpen.Sharpen
 title: Sharpen::Sharpen (gdipluseffects.h)
-description: Creates a Sharpen object.helpviewer_keywords: ["Sharpen","Sharpen class [GDI+]","Sharpen constructor","Sharpen constructor [GDI+]","Sharpen constructor [GDI+]","Sharpen class","Sharpen.Sharpen","Sharpen::Sharpen","_gdiplus_CLASS_Sharpen_Sharpen_","gdiplus._gdiplus_CLASS_Sharpen_Sharpen_"]
+description: Creates a Sharpen object.
+helpviewer_keywords: ["Sharpen","Sharpen class [GDI+]","Sharpen constructor","Sharpen constructor [GDI+]","Sharpen constructor [GDI+]","Sharpen class","Sharpen.Sharpen","Sharpen::Sharpen","_gdiplus_CLASS_Sharpen_Sharpen_","gdiplus._gdiplus_CLASS_Sharpen_Sharpen_"]
 old-location: gdiplus\_gdiplus_CLASS_Sharpen_Sharpen_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\sharpenclass\sharpenconstructors\sharpen.htm

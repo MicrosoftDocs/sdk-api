@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.SendARP
 title: SendARP function (iphlpapi.h)
-description: The SendARP function sends an Address Resolution Protocol (ARP) request to obtain the physical address that corresponds to the specified destination IPv4 address.helpviewer_keywords: ["SendARP","SendARP function [IP Helper]","_iphlp_sendarp","iphlp.sendarp","iphlpapi/SendARP"]
+description: The SendARP function sends an Address Resolution Protocol (ARP) request to obtain the physical address that corresponds to the specified destination IPv4 address.
+helpviewer_keywords: ["SendARP","SendARP function [IP Helper]","_iphlp_sendarp","iphlp.sendarp","iphlpapi/SendARP"]
 old-location: iphlp\sendarp.htm
 tech.root: IpHlp
 ms.assetid: 5cbaf45a-a64e-49fd-a920-01759b5c4f81

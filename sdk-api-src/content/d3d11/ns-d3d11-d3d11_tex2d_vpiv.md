@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_TEX2D_VPIV
 title: D3D11_TEX2D_VPIV (d3d11.h)
-description: Identifies the texture resource for a video processor input view.helpviewer_keywords: ["D3D11_TEX2D_VPIV","D3D11_TEX2D_VPIV structure [Media Foundation]","d3d11/D3D11_TEX2D_VPIV","mf.d3d11_tex2d_vpiv"]
+description: Identifies the texture resource for a video processor input view.
+helpviewer_keywords: ["D3D11_TEX2D_VPIV","D3D11_TEX2D_VPIV structure [Media Foundation]","d3d11/D3D11_TEX2D_VPIV","mf.d3d11_tex2d_vpiv"]
 old-location: mf\d3d11_tex2d_vpiv.htm
 tech.root: medfound
 ms.assetid: F174DF16-6E2F-4AE1-80D9-7565F96DE03A

@@ -1,7 +1,8 @@
 ---
 UID: NN:audioclient.IAudioRenderClient
 title: IAudioRenderClient (audioclient.h)
-description: The IAudioRenderClient interface enables a client to write output data to a rendering endpoint buffer.helpviewer_keywords: ["IAudioRenderClient","IAudioRenderClient interface [Core Audio]","IAudioRenderClient interface [Core Audio]","described","audioclient/IAudioRenderClient","coreaudio.iaudiorenderclient"]
+description: The IAudioRenderClient interface enables a client to write output data to a rendering endpoint buffer.
+helpviewer_keywords: ["IAudioRenderClient","IAudioRenderClient interface [Core Audio]","IAudioRenderClient interface [Core Audio]","described","audioclient/IAudioRenderClient","coreaudio.iaudiorenderclient"]
 old-location: coreaudio\iaudiorenderclient.htm
 tech.root: CoreAudio
 ms.assetid: e3e18e1e-1a09-4072-add6-36d2a6428a74

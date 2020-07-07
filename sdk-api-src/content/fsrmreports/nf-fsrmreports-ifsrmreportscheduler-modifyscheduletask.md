@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmReportScheduler.ModifyScheduleTask
 title: IFsrmReportScheduler::ModifyScheduleTask (fsrmreports.h)
-description: Modifies a task that is used to trigger a report job.helpviewer_keywords: ["FsrmReportScheduler class [File Server Resource Manager]","ModifyScheduleTask method","IFsrmReportScheduler interface [File Server Resource Manager]","ModifyScheduleTask method","IFsrmReportScheduler.ModifyScheduleTask","IFsrmReportScheduler::ModifyScheduleTask","ModifyScheduleTask","ModifyScheduleTask method [File Server Resource Manager]","ModifyScheduleTask method [File Server Resource Manager]","FsrmReportScheduler class","ModifyScheduleTask method [File Server Resource Manager]","IFsrmReportScheduler interface","fs.ifsrmreportscheduler_modifyscheduletask","fsrm.ifsrmreportscheduler_modifyscheduletask","fsrmreports/IFsrmReportScheduler::ModifyScheduleTask"]
+description: Modifies a task that is used to trigger a report job.
+helpviewer_keywords: ["FsrmReportScheduler class [File Server Resource Manager]","ModifyScheduleTask method","IFsrmReportScheduler interface [File Server Resource Manager]","ModifyScheduleTask method","IFsrmReportScheduler.ModifyScheduleTask","IFsrmReportScheduler::ModifyScheduleTask","ModifyScheduleTask","ModifyScheduleTask method [File Server Resource Manager]","ModifyScheduleTask method [File Server Resource Manager]","FsrmReportScheduler class","ModifyScheduleTask method [File Server Resource Manager]","IFsrmReportScheduler interface","fs.ifsrmreportscheduler_modifyscheduletask","fsrm.ifsrmreportscheduler_modifyscheduletask","fsrmreports/IFsrmReportScheduler::ModifyScheduleTask"]
 old-location: fsrm\ifsrmreportscheduler_modifyscheduletask.htm
 tech.root: fsrm
 ms.assetid: ca950e00-d391-4a03-8ff9-2ddef3a17038

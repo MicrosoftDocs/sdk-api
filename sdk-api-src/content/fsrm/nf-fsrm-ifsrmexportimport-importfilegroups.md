@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrm.IFsrmExportImport.ImportFileGroups
 title: IFsrmExportImport::ImportFileGroups (fsrm.h)
-description: Imports one or more file groups from the specified file.helpviewer_keywords: ["FsrmExportImport class [File Server Resource Manager]","ImportFileGroups method","IFsrmExportImport interface [File Server Resource Manager]","ImportFileGroups method","IFsrmExportImport.ImportFileGroups","IFsrmExportImport::ImportFileGroups","ImportFileGroups","ImportFileGroups method [File Server Resource Manager]","ImportFileGroups method [File Server Resource Manager]","FsrmExportImport class","ImportFileGroups method [File Server Resource Manager]","IFsrmExportImport interface","fs.ifsrmexportimport_importfilegroups","fsrm.ifsrmexportimport_importfilegroups","fsrm/IFsrmExportImport::ImportFileGroups"]
+description: Imports one or more file groups from the specified file.
+helpviewer_keywords: ["FsrmExportImport class [File Server Resource Manager]","ImportFileGroups method","IFsrmExportImport interface [File Server Resource Manager]","ImportFileGroups method","IFsrmExportImport.ImportFileGroups","IFsrmExportImport::ImportFileGroups","ImportFileGroups","ImportFileGroups method [File Server Resource Manager]","ImportFileGroups method [File Server Resource Manager]","FsrmExportImport class","ImportFileGroups method [File Server Resource Manager]","IFsrmExportImport interface","fs.ifsrmexportimport_importfilegroups","fsrm.ifsrmexportimport_importfilegroups","fsrm/IFsrmExportImport::ImportFileGroups"]
 old-location: fsrm\ifsrmexportimport_importfilegroups.htm
 tech.root: fsrm
 ms.assetid: d8d18971-ba3e-4e20-83ff-1290bc453b90

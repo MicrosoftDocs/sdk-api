@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxInboundRoutingExtension
 title: IFaxInboundRoutingExtension (faxcomex.h)
-description: The IFaxInboundRoutingExtension interface defines a configuration object used by a fax client application to retrieve information about a fax routing extension registered with the fax service.helpviewer_keywords: ["IFaxInboundRoutingExtension","IFaxInboundRoutingExtension interface [Fax Service]","IFaxInboundRoutingExtension interface [Fax Service]","described","_mfax_faxinboundroutingextension_cpp","fax._mfax_faxinboundroutingextension_cpp","faxcomex/IFaxInboundRoutingExtension"]
+description: The IFaxInboundRoutingExtension interface defines a configuration object used by a fax client application to retrieve information about a fax routing extension registered with the fax service.
+helpviewer_keywords: ["IFaxInboundRoutingExtension","IFaxInboundRoutingExtension interface [Fax Service]","IFaxInboundRoutingExtension interface [Fax Service]","described","_mfax_faxinboundroutingextension_cpp","fax._mfax_faxinboundroutingextension_cpp","faxcomex/IFaxInboundRoutingExtension"]
 old-location: fax\_mfax_faxinboundroutingextension_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_0t66_cpp.htm

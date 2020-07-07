@@ -1,7 +1,8 @@
 ---
 UID: NF:termmgr.ITTerminalManager.GetDynamicTerminalClasses
 title: ITTerminalManager::GetDynamicTerminalClasses (termmgr.h)
-description: The GetDynamicTerminalClasses method gets a list of terminal classes for a set of media types.helpviewer_keywords: ["GetDynamicTerminalClasses","GetDynamicTerminalClasses method [TAPI 2.2]","GetDynamicTerminalClasses method [TAPI 2.2]","ITTerminalManager interface","ITTerminalManager interface [TAPI 2.2]","GetDynamicTerminalClasses method","ITTerminalManager.GetDynamicTerminalClasses","ITTerminalManager::GetDynamicTerminalClasses","_tapi3_itterminalmanager_getdynamicterminalclasses","tapi3.itterminalmanager_getdynamicterminalclasses","termmgr/ITTerminalManager::GetDynamicTerminalClasses"]
+description: The GetDynamicTerminalClasses method gets a list of terminal classes for a set of media types.
+helpviewer_keywords: ["GetDynamicTerminalClasses","GetDynamicTerminalClasses method [TAPI 2.2]","GetDynamicTerminalClasses method [TAPI 2.2]","ITTerminalManager interface","ITTerminalManager interface [TAPI 2.2]","GetDynamicTerminalClasses method","ITTerminalManager.GetDynamicTerminalClasses","ITTerminalManager::GetDynamicTerminalClasses","_tapi3_itterminalmanager_getdynamicterminalclasses","tapi3.itterminalmanager_getdynamicterminalclasses","termmgr/ITTerminalManager::GetDynamicTerminalClasses"]
 old-location: tapi3\itterminalmanager_getdynamicterminalclasses.htm
 tech.root: Tapi
 ms.assetid: 6e0ae94c-eab9-4ca2-a982-a5673f73130e

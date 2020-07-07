@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroup.GetInteriorOutputConnector
 title: IMILBitmapEffectGroup::GetInteriorOutputConnector (mileffects.h)
-description: Retrieves the output connector for an effect at the given index.helpviewer_keywords: ["GetInteriorOutputConnector","GetInteriorOutputConnector method [WPF Bitmap Effects]","GetInteriorOutputConnector method [WPF Bitmap Effects]","IMILBitmapEffectGroup interface","IMILBitmapEffectGroup interface [WPF Bitmap Effects]","GetInteriorOutputConnector method","IMILBitmapEffectGroup.GetInteriorOutputConnector","IMILBitmapEffectGroup::GetInteriorOutputConnector","_wibe_imilbitmapeffectgroup_getinterioroutputconnector","mileffects/IMILBitmapEffectGroup::GetInteriorOutputConnector","wibe._wibe_imilbitmapeffectgroup_getinterioroutputconnector"]
+description: Retrieves the output connector for an effect at the given index.
+helpviewer_keywords: ["GetInteriorOutputConnector","GetInteriorOutputConnector method [WPF Bitmap Effects]","GetInteriorOutputConnector method [WPF Bitmap Effects]","IMILBitmapEffectGroup interface","IMILBitmapEffectGroup interface [WPF Bitmap Effects]","GetInteriorOutputConnector method","IMILBitmapEffectGroup.GetInteriorOutputConnector","IMILBitmapEffectGroup::GetInteriorOutputConnector","_wibe_imilbitmapeffectgroup_getinterioroutputconnector","mileffects/IMILBitmapEffectGroup::GetInteriorOutputConnector","wibe._wibe_imilbitmapeffectgroup_getinterioroutputconnector"]
 old-location: wibe\_wibe_imilbitmapeffectgroup_getinterioroutputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroup\getinterioroutputconnector.htm

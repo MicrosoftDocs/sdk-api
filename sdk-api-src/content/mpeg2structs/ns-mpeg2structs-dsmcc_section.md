@@ -1,7 +1,8 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0011
 title: DSMCC_SECTION (mpeg2structs.h)
-description: The DSMCC_SECTION structure represents a DSM-CC section header. If a section contains a DSM-CC header, you can cast a SECTION pointer to a DSMCC_SECTION pointer. For more information, see the Remarks section in the SECTION reference.helpviewer_keywords: ["*PDSMCC_SECTION","DSMCC_SECTION","DSMCC_SECTION structure [Microsoft TV Technologies]","PDSMCC_SECTION","PDSMCC_SECTION structure pointer [Microsoft TV Technologies]","mpeg2structs/DSMCC_SECTION","mpeg2structs/PDSMCC_SECTION","mstv.dsmcc_section"]
+description: The DSMCC_SECTION structure represents a DSM-CC section header. If a section contains a DSM-CC header, you can cast a SECTION pointer to a DSMCC_SECTION pointer. For more information, see the Remarks section in the SECTION reference.
+helpviewer_keywords: ["*PDSMCC_SECTION","DSMCC_SECTION","DSMCC_SECTION structure [Microsoft TV Technologies]","PDSMCC_SECTION","PDSMCC_SECTION structure pointer [Microsoft TV Technologies]","mpeg2structs/DSMCC_SECTION","mpeg2structs/PDSMCC_SECTION","mstv.dsmcc_section"]
 old-location: mstv\dsmcc_section.htm
 tech.root: mstv
 ms.assetid: b043f63c-cee0-4167-9b11-09b747f63b8d

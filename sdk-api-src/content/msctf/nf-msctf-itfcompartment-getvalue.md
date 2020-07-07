@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCompartment.GetValue
 title: ITfCompartment::GetValue (msctf.h)
-description: ITfCompartment::GetValue methodhelpviewer_keywords: ["GetValue","GetValue method [Text Services Framework]","GetValue method [Text Services Framework]","ITfCompartment interface","ITfCompartment interface [Text Services Framework]","GetValue method","ITfCompartment.GetValue","ITfCompartment::GetValue","_tsf_itfcompartment_getvalue_ref","msctf/ITfCompartment::GetValue","tsf.itfcompartment_getvalue"]
+description: ITfCompartment::GetValue method
+helpviewer_keywords: ["GetValue","GetValue method [Text Services Framework]","GetValue method [Text Services Framework]","ITfCompartment interface","ITfCompartment interface [Text Services Framework]","GetValue method","ITfCompartment.GetValue","ITfCompartment::GetValue","_tsf_itfcompartment_getvalue_ref","msctf/ITfCompartment::GetValue","tsf.itfcompartment_getvalue"]
 old-location: tsf\itfcompartment_getvalue.htm
 tech.root: TSF
 ms.assetid: 31a9efbd-ebde-4877-a387-ebaccd97d732

@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ICrmMonitorLogRecords.GetLogRecordVariants
 title: ICrmMonitorLogRecords::GetLogRecordVariants (comsvcs.h)
-description: Retrieves a structured log record given its numeric index.helpviewer_keywords: ["GetLogRecordVariants","GetLogRecordVariants method [COM+]","GetLogRecordVariants method [COM+]","ICrmMonitorLogRecords interface","ICrmMonitorLogRecords interface [COM+]","GetLogRecordVariants method","ICrmMonitorLogRecords.GetLogRecordVariants","ICrmMonitorLogRecords::GetLogRecordVariants","_dtc_ICrmMonitorLogRecords_GetLogRecordVariants","comsvcs/ICrmMonitorLogRecords::GetLogRecordVariants","cos.icrmmonitorlogrecords_getlogrecordvariants"]
+description: Retrieves a structured log record given its numeric index.
+helpviewer_keywords: ["GetLogRecordVariants","GetLogRecordVariants method [COM+]","GetLogRecordVariants method [COM+]","ICrmMonitorLogRecords interface","ICrmMonitorLogRecords interface [COM+]","GetLogRecordVariants method","ICrmMonitorLogRecords.GetLogRecordVariants","ICrmMonitorLogRecords::GetLogRecordVariants","_dtc_ICrmMonitorLogRecords_GetLogRecordVariants","comsvcs/ICrmMonitorLogRecords::GetLogRecordVariants","cos.icrmmonitorlogrecords_getlogrecordvariants"]
 old-location: cos\icrmmonitorlogrecords_getlogrecordvariants.htm
 tech.root: cossdk
 ms.assetid: 4f020d2d-ea2d-48c2-ab79-7b412e77b39f

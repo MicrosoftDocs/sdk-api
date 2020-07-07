@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.CoRegisterMessageFilter
 title: CoRegisterMessageFilter function (objbase.h)
-description: Registers with OLE the instance of an IMessageFilter interface, which is to be used for handling concurrency issues on the current thread.helpviewer_keywords: ["CoRegisterMessageFilter","CoRegisterMessageFilter function [COM]","_com_CoRegisterMessageFilter","com.coregistermessagefilter","objbase/CoRegisterMessageFilter"]
+description: Registers with OLE the instance of an IMessageFilter interface, which is to be used for handling concurrency issues on the current thread.
+helpviewer_keywords: ["CoRegisterMessageFilter","CoRegisterMessageFilter function [COM]","_com_CoRegisterMessageFilter","com.coregistermessagefilter","objbase/CoRegisterMessageFilter"]
 old-location: com\coregistermessagefilter.htm
 tech.root: com
 ms.assetid: caa5b277-ddbd-4ba9-892d-590d953b8433

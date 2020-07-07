@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITLegacyAddressMediaControl.GetID
 title: ITLegacyAddressMediaControl::GetID (tapi3if.h)
-description: The GetID method returns a device identifier for the specified device class associated with the current address.helpviewer_keywords: ["GetID","GetID method [TAPI 2.2]","GetID method [TAPI 2.2]","ITLegacyAddressMediaControl interface","ITLegacyAddressMediaControl interface [TAPI 2.2]","GetID method","ITLegacyAddressMediaControl.GetID","ITLegacyAddressMediaControl::GetID","_tapi3_itlegacyaddressmediacontrol_getid","tapi3.itlegacyaddressmediacontrol_getid","tapi3if/ITLegacyAddressMediaControl::GetID"]
+description: The GetID method returns a device identifier for the specified device class associated with the current address.
+helpviewer_keywords: ["GetID","GetID method [TAPI 2.2]","GetID method [TAPI 2.2]","ITLegacyAddressMediaControl interface","ITLegacyAddressMediaControl interface [TAPI 2.2]","GetID method","ITLegacyAddressMediaControl.GetID","ITLegacyAddressMediaControl::GetID","_tapi3_itlegacyaddressmediacontrol_getid","tapi3.itlegacyaddressmediacontrol_getid","tapi3if/ITLegacyAddressMediaControl::GetID"]
 old-location: tapi3\itlegacyaddressmediacontrol_getid.htm
 tech.root: Tapi
 ms.assetid: f4fdde49-0867-4967-b975-f43bd9f6adc4

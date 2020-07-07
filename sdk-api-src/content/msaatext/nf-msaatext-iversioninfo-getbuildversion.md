@@ -1,7 +1,8 @@
 ---
 UID: NF:msaatext.IVersionInfo.GetBuildVersion
 title: IVersionInfo::GetBuildVersion (msaatext.h)
-description: Clients call IVersionInfo::GetBuildVersion to retrieve build information for a specified component.helpviewer_keywords: ["GetBuildVersion","GetBuildVersion method [Windows Accessibility]","GetBuildVersion method [Windows Accessibility]","IVersionInfo interface","IVersionInfo interface [Windows Accessibility]","GetBuildVersion method","IVersionInfo.GetBuildVersion","IVersionInfo::GetBuildVersion","_msaa_IVersionInfo_GetBuildVersion","msaa.iversioninfo_iversioninfo__getbuildversion","msaatext/IVersionInfo::GetBuildVersion","winauto.iversioninfo_iversioninfo__getbuildversion"]
+description: Clients call IVersionInfo::GetBuildVersion to retrieve build information for a specified component.
+helpviewer_keywords: ["GetBuildVersion","GetBuildVersion method [Windows Accessibility]","GetBuildVersion method [Windows Accessibility]","IVersionInfo interface","IVersionInfo interface [Windows Accessibility]","GetBuildVersion method","IVersionInfo.GetBuildVersion","IVersionInfo::GetBuildVersion","_msaa_IVersionInfo_GetBuildVersion","msaa.iversioninfo_iversioninfo__getbuildversion","msaatext/IVersionInfo::GetBuildVersion","winauto.iversioninfo_iversioninfo__getbuildversion"]
 old-location: winauto\iversioninfo_iversioninfo__getbuildversion.htm
 tech.root: WinAuto
 ms.assetid: ae54ad59-665c-494c-8054-3f19aec9968f

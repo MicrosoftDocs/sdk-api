@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi._devicemodeW
 title: DEVMODEW (wingdi.h)
-description: The DEVMODEW structure is used for specifying characteristics of display and print devices in the Unicode (wide) character set.helpviewer_keywords: ["*LPDEVMODEW","*NPDEVMODEW","*PDEVMODEW","DEVMODE","DEVMODEW","DEVMODEW structure [Display Devices]","LPDEVMODEW","LPDEVMODEW structure pointer [Display Devices]","NPDEVMODEW","NPDEVMODEW structure pointer [Display Devices]","PDEVMODEW","PDEVMODEW structure pointer [Display Devices]","display.devmodew","grstrcts_79d0f44a-67f8-432b-ad2c-a1a3ef18da95.xml","wingdi/DEVMODEW","wingdi/LPDEVMODEW","wingdi/NPDEVMODEW","wingdi/PDEVMODEW"]
+description: The DEVMODEW structure is used for specifying characteristics of display and print devices in the Unicode (wide) character set.
+helpviewer_keywords: ["*LPDEVMODEW","*NPDEVMODEW","*PDEVMODEW","DEVMODE","DEVMODEW","DEVMODEW structure [Display Devices]","LPDEVMODEW","LPDEVMODEW structure pointer [Display Devices]","NPDEVMODEW","NPDEVMODEW structure pointer [Display Devices]","PDEVMODEW","PDEVMODEW structure pointer [Display Devices]","display.devmodew","grstrcts_79d0f44a-67f8-432b-ad2c-a1a3ef18da95.xml","wingdi/DEVMODEW","wingdi/LPDEVMODEW","wingdi/NPDEVMODEW","wingdi/PDEVMODEW"]
 old-location: display\devmodew.htm
 tech.root: display
 ms.assetid: b2369876-9a79-40c8-8d27-c8b9d8e68e6b
@@ -520,6 +521,10 @@ Also for Windows XP, several members of the DEVMODEW structure were moved to dif
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines DEVMODE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

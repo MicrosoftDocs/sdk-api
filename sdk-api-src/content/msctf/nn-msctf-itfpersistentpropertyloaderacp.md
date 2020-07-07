@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfPersistentPropertyLoaderACP
 title: ITfPersistentPropertyLoaderACP (msctf.h)
-description: The ITfPersistentPropertyLoaderACP interface is implemented by an application and used by the TSF manager to load properties asynchronously.helpviewer_keywords: ["ITfPersistentPropertyLoaderACP","ITfPersistentPropertyLoaderACP interface [Text Services Framework]","ITfPersistentPropertyLoaderACP interface [Text Services Framework]","described","_tsf_itfpersistentpropertyloaderacp_ref","msctf/ITfPersistentPropertyLoaderACP","tsf.itfpersistentpropertyloaderacp"]
+description: The ITfPersistentPropertyLoaderACP interface is implemented by an application and used by the TSF manager to load properties asynchronously.
+helpviewer_keywords: ["ITfPersistentPropertyLoaderACP","ITfPersistentPropertyLoaderACP interface [Text Services Framework]","ITfPersistentPropertyLoaderACP interface [Text Services Framework]","described","_tsf_itfpersistentpropertyloaderacp_ref","msctf/ITfPersistentPropertyLoaderACP","tsf.itfpersistentpropertyloaderacp"]
 old-location: tsf\itfpersistentpropertyloaderacp.htm
 tech.root: TSF
 ms.assetid: 7d7af737-6241-43a9-946e-6a03a423b20f

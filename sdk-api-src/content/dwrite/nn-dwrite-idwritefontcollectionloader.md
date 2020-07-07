@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite.IDWriteFontCollectionLoader
 title: IDWriteFontCollectionLoader (dwrite.h)
-description: Used to construct a collection of fonts given a particular type of key.helpviewer_keywords: ["IDWriteFontCollectionLoader","IDWriteFontCollectionLoader interface [Direct Write]","IDWriteFontCollectionLoader interface [Direct Write]","described","directwrite.IDWriteFontCollectionLoader","dwrite/IDWriteFontCollectionLoader"]
+description: Used to construct a collection of fonts given a particular type of key.
+helpviewer_keywords: ["IDWriteFontCollectionLoader","IDWriteFontCollectionLoader interface [Direct Write]","IDWriteFontCollectionLoader interface [Direct Write]","described","directwrite.IDWriteFontCollectionLoader","dwrite/IDWriteFontCollectionLoader"]
 old-location: directwrite\IDWriteFontCollectionLoader.htm
 tech.root: DirectWrite
 ms.assetid: 898645ce-4bd5-4491-a31c-f60a17578872

@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.BRUSHOBJ_ulGetBrushColor
 title: BRUSHOBJ_ulGetBrushColor function (winddi.h)
-description: The BRUSHOBJ_ulGetBrushColor function returns the RGB color of the specified solid brush.helpviewer_keywords: ["BRUSHOBJ_ulGetBrushColor","BRUSHOBJ_ulGetBrushColor function [Display Devices]","display.brushobj_ulgetbrushcolor","gdifncs_d103f229-9c90-4dbc-ba0b-e909a8371cd8.xml","winddi/BRUSHOBJ_ulGetBrushColor"]
+description: The BRUSHOBJ_ulGetBrushColor function returns the RGB color of the specified solid brush.
+helpviewer_keywords: ["BRUSHOBJ_ulGetBrushColor","BRUSHOBJ_ulGetBrushColor function [Display Devices]","display.brushobj_ulgetbrushcolor","gdifncs_d103f229-9c90-4dbc-ba0b-e909a8371cd8.xml","winddi/BRUSHOBJ_ulGetBrushColor"]
 old-location: display\brushobj_ulgetbrushcolor.htm
 tech.root: display
 ms.assetid: 815844d7-930f-46c3-9403-c61cb2c8a992

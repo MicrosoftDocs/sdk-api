@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextStrings.Add
 title: ITextStrings::Add (tom.h)
-description: Adds a string to the end of the collection.helpviewer_keywords: ["Add","Add method [Windows Controls]","Add method [Windows Controls]","ITextStrings interface","ITextStrings interface [Windows Controls]","Add method","ITextStrings.Add","ITextStrings::Add","controls.itextstrings_add","tom/ITextStrings::Add"]
+description: Adds a string to the end of the collection.
+helpviewer_keywords: ["Add","Add method [Windows Controls]","Add method [Windows Controls]","ITextStrings interface","ITextStrings interface [Windows Controls]","Add method","ITextStrings.Add","ITextStrings::Add","controls.itextstrings_add","tom/ITextStrings::Add"]
 old-location: controls\itextstrings_add.htm
 tech.root: Controls
 ms.assetid: 59630068-e3c7-4c3b-bd89-f1127759f979

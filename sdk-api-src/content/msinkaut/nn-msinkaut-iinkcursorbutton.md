@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkCursorButton
 title: IInkCursorButton (msinkaut.h)
-description: Represents general information about a button on a tablet pointing and selecting device.helpviewer_keywords: ["06b91ab0-b2fb-4a09-8a2b-615da87ec4a2","IInkCursorButton","IInkCursorButton interface [Tablet PC]","IInkCursorButton interface [Tablet PC]","described","msinkaut/IInkCursorButton","tablet.iinkcursorbutton"]
+description: Represents general information about a button on a tablet pointing and selecting device.
+helpviewer_keywords: ["06b91ab0-b2fb-4a09-8a2b-615da87ec4a2","IInkCursorButton","IInkCursorButton interface [Tablet PC]","IInkCursorButton interface [Tablet PC]","described","msinkaut/IInkCursorButton","tablet.iinkcursorbutton"]
 old-location: tablet\iinkcursorbutton.htm
 tech.root: tablet
 ms.assetid: 06b91ab0-b2fb-4a09-8a2b-615da87ec4a2

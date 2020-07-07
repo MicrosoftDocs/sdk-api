@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_CREATE_CHANNEL_CALLBACK
 title: WS_CREATE_CHANNEL_CALLBACK (webservices.h)
-description: Handles the WsCreateChannel call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_CREATE_CHANNEL_CALLBACK","WS_CREATE_CHANNEL_CALLBACK callback","WS_CREATE_CHANNEL_CALLBACK callback function [Web Services for Windows]","webservices/WS_CREATE_CHANNEL_CALLBACK","wsw.ws_create_channel_callback"]
+description: Handles the WsCreateChannel call for a WS_CUSTOM_CHANNEL_BINDING.
+helpviewer_keywords: ["WS_CREATE_CHANNEL_CALLBACK","WS_CREATE_CHANNEL_CALLBACK callback","WS_CREATE_CHANNEL_CALLBACK callback function [Web Services for Windows]","webservices/WS_CREATE_CHANNEL_CALLBACK","wsw.ws_create_channel_callback"]
 old-location: wsw\ws_create_channel_callback.htm
 tech.root: wsw
 ms.assetid: 440114f9-2258-4c33-93cd-7185ccf36f76

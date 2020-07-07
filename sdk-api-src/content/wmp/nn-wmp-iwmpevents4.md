@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPEvents4
 title: IWMPEvents4 (wmp.h)
-description: The IWMPEvents4 interface provides access to an event originating from the Windows Media Player 12 control so that an application that has this control embedded in it can respond to the event.helpviewer_keywords: ["IWMPEvents4","IWMPEvents4 interface [Windows Media Player]","IWMPEvents4 interface [Windows Media Player]","described","wmp.iwmpevents4","wmp/IWMPEvents4"]
+description: The IWMPEvents4 interface provides access to an event originating from the Windows Media Player 12 control so that an application that has this control embedded in it can respond to the event.
+helpviewer_keywords: ["IWMPEvents4","IWMPEvents4 interface [Windows Media Player]","IWMPEvents4 interface [Windows Media Player]","described","wmp.iwmpevents4","wmp/IWMPEvents4"]
 old-location: wmp\iwmpevents4.htm
 tech.root: WMP
 ms.assetid: b846ef23-1206-4a0b-866f-558b99b73f1d

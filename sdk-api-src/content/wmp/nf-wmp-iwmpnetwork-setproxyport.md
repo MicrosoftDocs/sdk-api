@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyPort
 title: IWMPNetwork::setProxyPort (wmp.h)
-description: The setProxyPort method specifies the proxy port to use.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","setProxyPort method","IWMPNetwork.setProxyPort","IWMPNetwork::setProxyPort","IWMPNetworksetProxyPort","setProxyPort","setProxyPort method [Windows Media Player]","setProxyPort method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_setproxyport","wmp/IWMPNetwork::setProxyPort"]
+description: The setProxyPort method specifies the proxy port to use.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","setProxyPort method","IWMPNetwork.setProxyPort","IWMPNetwork::setProxyPort","IWMPNetworksetProxyPort","setProxyPort","setProxyPort method [Windows Media Player]","setProxyPort method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_setproxyport","wmp/IWMPNetwork::setProxyPort"]
 old-location: wmp\iwmpnetwork_setproxyport.htm
 tech.root: WMP
 ms.assetid: 36b7290d-c359-45bb-b77b-46b696e9edcf

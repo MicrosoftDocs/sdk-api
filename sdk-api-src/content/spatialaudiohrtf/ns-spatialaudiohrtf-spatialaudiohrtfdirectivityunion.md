@@ -1,7 +1,8 @@
 ---
 UID: NS:spatialaudiohrtf.SpatialAudioHrtfDirectivityUnion
 title: SpatialAudioHrtfDirectivityUnion (spatialaudiohrtf.h)
-description: Defines a spatial audio directivity model for an ISpatialAudioObjectForHrtf.helpviewer_keywords: ["SpatialAudioHrtfDirectivityUnion","SpatialAudioHrtfDirectivityUnion union [Core Audio]","coreaudio.spatialaudiohrtfdirectivityunion","spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion"]
+description: Defines a spatial audio directivity model for an ISpatialAudioObjectForHrtf.
+helpviewer_keywords: ["SpatialAudioHrtfDirectivityUnion","SpatialAudioHrtfDirectivityUnion union [Core Audio]","coreaudio.spatialaudiohrtfdirectivityunion","spatialaudiohrtf/SpatialAudioHrtfDirectivityUnion"]
 old-location: coreaudio\spatialaudiohrtfdirectivityunion.htm
 tech.root: CoreAudio
 ms.assetid: BBBE4B0B-59C2-44E0-9BB4-B10CE5CE12E3

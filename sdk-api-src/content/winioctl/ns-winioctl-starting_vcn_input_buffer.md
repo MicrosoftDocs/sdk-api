@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl.__unnamed_struct_7
 title: STARTING_VCN_INPUT_BUFFER
-description: Contains the starting VCN to the FSCTL_GET_RETRIEVAL_POINTERS control code.helpviewer_keywords: ["*PSTARTING_VCN_INPUT_BUFFER","PSTARTING_VCN_INPUT_BUFFER","PSTARTING_VCN_INPUT_BUFFER structure pointer [Files]","STARTING_VCN_INPUT_BUFFER","STARTING_VCN_INPUT_BUFFER structure [Files]","_win32_starting_vcn_input_buffer_str","base.starting_vcn_input_buffer_str","fs.starting_vcn_input_buffer_str","winioctl/PSTARTING_VCN_INPUT_BUFFER","winioctl/STARTING_VCN_INPUT_BUFFER"]
+description: Contains the starting VCN to the FSCTL_GET_RETRIEVAL_POINTERS control code.
+helpviewer_keywords: ["*PSTARTING_VCN_INPUT_BUFFER","PSTARTING_VCN_INPUT_BUFFER","PSTARTING_VCN_INPUT_BUFFER structure pointer [Files]","STARTING_VCN_INPUT_BUFFER","STARTING_VCN_INPUT_BUFFER structure [Files]","_win32_starting_vcn_input_buffer_str","base.starting_vcn_input_buffer_str","fs.starting_vcn_input_buffer_str","winioctl/PSTARTING_VCN_INPUT_BUFFER","winioctl/STARTING_VCN_INPUT_BUFFER"]
 old-location: fs\starting_vcn_input_buffer_str.htm
 tech.root: FileIO
 ms.assetid: b07668f9-b984-41cc-9545-8f4f9bff3682

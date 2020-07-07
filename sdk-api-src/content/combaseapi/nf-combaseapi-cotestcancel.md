@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoTestCancel
 title: CoTestCancel function (combaseapi.h)
-description: Determines whether the call being executed on the server has been canceled by the client.helpviewer_keywords: ["CoTestCancel","CoTestCancel function [COM]","_com_CoTestCancel","com.cotestcancel","combaseapi/CoTestCancel"]
+description: Determines whether the call being executed on the server has been canceled by the client.
+helpviewer_keywords: ["CoTestCancel","CoTestCancel function [COM]","_com_CoTestCancel","com.cotestcancel","combaseapi/CoTestCancel"]
 old-location: com\cotestcancel.htm
 tech.root: com
 ms.assetid: 9432621a-be31-4b8b-83b6-069539ba06b4

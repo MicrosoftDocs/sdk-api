@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryTermExpansion
 title: ISearchQueryHelper::put_QueryTermExpansion (searchapi.h)
-description: Sets a value that specifies how query terms are to be expanded.helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QueryTermExpansion method","ISearchQueryHelper.put_QueryTermExpansion","ISearchQueryHelper::put_QueryTermExpansion","_search_ISearchQueryHelper_put_QueryTermExpansion","put_QueryTermExpansion","put_QueryTermExpansion method [search]","put_QueryTermExpansion method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QueryTermExpansion","searchapi/ISearchQueryHelper::put_QueryTermExpansion"]
+description: Sets a value that specifies how query terms are to be expanded.
+helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QueryTermExpansion method","ISearchQueryHelper.put_QueryTermExpansion","ISearchQueryHelper::put_QueryTermExpansion","_search_ISearchQueryHelper_put_QueryTermExpansion","put_QueryTermExpansion","put_QueryTermExpansion method [search]","put_QueryTermExpansion method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QueryTermExpansion","searchapi/ISearchQueryHelper::put_QueryTermExpansion"]
 old-location: search\_search_ISearchQueryHelper_put_QueryTermExpansion.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querytermexpansion.htm
@@ -77,16 +78,11 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
 The <b>ISearchQueryHelper::put_QueryTermExpansion</b> method allows for expansion of some query terms with wildcard characters, similar to regular expression expansion. 
 
 While the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/ne-searchapi-search_term_expansion">SEARCH_TERM_EXPANSION</a> enumerated type lets you specify stem expansion, Windows Search does not currently support its use with the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a> interface.
 
-The DSearch code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
-
-
-
+Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-dsearch">DSearch code sample</a> to see how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
 
 ## -see-also
 

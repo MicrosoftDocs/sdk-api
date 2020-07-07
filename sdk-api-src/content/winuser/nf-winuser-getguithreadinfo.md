@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetGUIThreadInfo
 title: GetGUIThreadInfo function (winuser.h)
-description: Retrieves information about the active window or a specified GUI thread.helpviewer_keywords: ["GetGUIThreadInfo","GetGUIThreadInfo function [Windows and Messages]","_win32_GetGUIThreadInfo","_win32_getguithreadinfo_cpp","winmsg.getguithreadinfo","winui._win32_getguithreadinfo","winuser/GetGUIThreadInfo"]
+description: Retrieves information about the active window or a specified GUI thread.
+helpviewer_keywords: ["GetGUIThreadInfo","GetGUIThreadInfo function [Windows and Messages]","_win32_GetGUIThreadInfo","_win32_getguithreadinfo_cpp","winmsg.getguithreadinfo","winui._win32_getguithreadinfo","winuser/GetGUIThreadInfo"]
 old-location: winmsg\getguithreadinfo.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\getguithreadinfo.htm

@@ -1,7 +1,8 @@
 ---
 UID: NE:vds._VDS_PACK_FLAG
 title: VDS_PACK_FLAG (vds.h)
-description: Defines the set of valid flags for a pack object.helpviewer_keywords: ["VDS_PACK_FLAG","VDS_PACK_FLAG enumeration [VDS]","VDS_PKF_CORRUPTED","VDS_PKF_FOREIGN","VDS_PKF_NOQUORUM","VDS_PKF_ONLINE_ERROR","VDS_PKF_POLICY","base.vds_pack_flag","vds/VDS_PACK_FLAG","vds/VDS_PKF_CORRUPTED","vds/VDS_PKF_FOREIGN","vds/VDS_PKF_NOQUORUM","vds/VDS_PKF_ONLINE_ERROR","vds/VDS_PKF_POLICY"]
+description: Defines the set of valid flags for a pack object.
+helpviewer_keywords: ["VDS_PACK_FLAG","VDS_PACK_FLAG enumeration [VDS]","VDS_PKF_CORRUPTED","VDS_PKF_FOREIGN","VDS_PKF_NOQUORUM","VDS_PKF_ONLINE_ERROR","VDS_PKF_POLICY","base.vds_pack_flag","vds/VDS_PACK_FLAG","vds/VDS_PKF_CORRUPTED","vds/VDS_PKF_FOREIGN","vds/VDS_PKF_NOQUORUM","vds/VDS_PKF_ONLINE_ERROR","vds/VDS_PKF_POLICY"]
 old-location: base\vds_pack_flag.htm
 tech.root: VDS
 ms.assetid: 65b7e65d-5d20-49ff-af35-bd3529f5c858

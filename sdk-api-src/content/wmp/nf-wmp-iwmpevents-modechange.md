@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPEvents.ModeChange
 title: IWMPEvents::ModeChange (wmp.h)
-description: The ModeChange event occurs when a mode of the player is changed.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","ModeChange method","IWMPEvents.ModeChange","IWMPEvents::ModeChange","IWMPEventsModeChange","ModeChange","ModeChange method [Windows Media Player]","ModeChange method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__modechange","wmp/IWMPEvents::ModeChange"]
+description: The ModeChange event occurs when a mode of the player is changed.
+helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","ModeChange method","IWMPEvents.ModeChange","IWMPEvents::ModeChange","IWMPEventsModeChange","ModeChange","ModeChange method [Windows Media Player]","ModeChange method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__modechange","wmp/IWMPEvents::ModeChange"]
 old-location: wmp\iwmpevents_iwmpevents__modechange.htm
 tech.root: WMP
 ms.assetid: 64761f19-914a-4ab5-aeb9-12c0aefc8113

@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IDigitalLocator~r1
 title: IDigitalLocator
-description: TBDhelpviewer_keywords: ["- IDigitalLocator"]
+description: TBD
+helpviewer_keywords: ["- IDigitalLocator"]
 tech.root: 
 ms.assetid: 1ed191c2-c0c0-4c8b-b9a1-6bc0fe128d38
 ms.date: 11/14/2019

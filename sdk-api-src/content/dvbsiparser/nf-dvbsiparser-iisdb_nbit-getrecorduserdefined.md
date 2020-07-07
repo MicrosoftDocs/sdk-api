@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordUserDefined
 title: IISDB_NBIT::GetRecordUserDefined (dvbsiparser.h)
-description: Gets the user_defined field from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).helpviewer_keywords: ["GetRecordUserDefined","GetRecordUserDefined method [Microsoft TV Technologies]","GetRecordUserDefined method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetRecordUserDefined method","IISDB_NBIT.GetRecordUserDefined","IISDB_NBIT::GetRecordUserDefined","dvbsiparser/IISDB_NBIT::GetRecordUserDefined","mstv.iisdb_nbit_getrecorduserdefined"]
+description: Gets the user_defined field from an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
+helpviewer_keywords: ["GetRecordUserDefined","GetRecordUserDefined method [Microsoft TV Technologies]","GetRecordUserDefined method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetRecordUserDefined method","IISDB_NBIT.GetRecordUserDefined","IISDB_NBIT::GetRecordUserDefined","dvbsiparser/IISDB_NBIT::GetRecordUserDefined","mstv.iisdb_nbit_getrecorduserdefined"]
 old-location: mstv\iisdb_nbit_getrecorduserdefined.htm
 tech.root: mstv
 ms.assetid: 36786614-7b7e-4d76-9610-c969ad68f9d8

@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge.MapRemoteToLocal
 title: ISyncKnowledge::MapRemoteToLocal (winsync.h)
-description: Converts a knowledge object from another replica into one that is compatible with the replica that owns this knowledge.helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","MapRemoteToLocal method","ISyncKnowledge.MapRemoteToLocal","ISyncKnowledge::MapRemoteToLocal","MapRemoteToLocal","MapRemoteToLocal method [Windows Sync]","MapRemoteToLocal method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_mapremotetolocal","winsync/ISyncKnowledge::MapRemoteToLocal"]
+description: Converts a knowledge object from another replica into one that is compatible with the replica that owns this knowledge.
+helpviewer_keywords: ["ISyncKnowledge interface [Windows Sync]","MapRemoteToLocal method","ISyncKnowledge.MapRemoteToLocal","ISyncKnowledge::MapRemoteToLocal","MapRemoteToLocal","MapRemoteToLocal method [Windows Sync]","MapRemoteToLocal method [Windows Sync]","ISyncKnowledge interface","winsync.isyncknowledge_mapremotetolocal","winsync/ISyncKnowledge::MapRemoteToLocal"]
 old-location: winsync\isyncknowledge_mapremotetolocal.htm
 tech.root: winsync
 ms.assetid: 9325ff3e-4f8e-4a18-bc95-57af30ccd437

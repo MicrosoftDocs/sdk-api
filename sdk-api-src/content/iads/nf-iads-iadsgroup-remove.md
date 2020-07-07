@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsGroup.Remove
 title: IADsGroup::Remove (iads.h)
-description: The IADsGroup::Remove method removes the specified user object from this group. The operation does not remove the group object itself even when there is no member remaining in the group.helpviewer_keywords: ["IADsGroup interface [ADSI]","Remove method","IADsGroup.Remove","IADsGroup::Remove","Remove","Remove method [ADSI]","Remove method [ADSI]","IADsGroup interface","_ds_iadsgroup_remove","adsi.iadsgroup__remove","adsi.iadsgroup_remove","iads/IADsGroup::Remove"]
+description: The IADsGroup::Remove method removes the specified user object from this group. The operation does not remove the group object itself even when there is no member remaining in the group.
+helpviewer_keywords: ["IADsGroup interface [ADSI]","Remove method","IADsGroup.Remove","IADsGroup::Remove","Remove","Remove method [ADSI]","Remove method [ADSI]","IADsGroup interface","_ds_iadsgroup_remove","adsi.iadsgroup__remove","adsi.iadsgroup_remove","iads/IADsGroup::Remove"]
 old-location: adsi\iadsgroup_remove.htm
 tech.root: adsi
 ms.assetid: bf309f0a-1ef5-4123-91c5-ae232ddd6340

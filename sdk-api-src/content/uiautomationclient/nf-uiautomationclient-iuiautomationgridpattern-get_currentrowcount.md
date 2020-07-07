@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationGridPattern.get_CurrentRowCount
 title: IUIAutomationGridPattern::get_CurrentRowCount (uiautomationclient.h)
-description: Retrieves the number of rows in the grid.helpviewer_keywords: ["CurrentRowCount property [Windows Accessibility]","CurrentRowCount property [Windows Accessibility]","IUIAutomationGridPattern interface","IUIAutomationGridPattern interface [Windows Accessibility]","CurrentRowCount property","IUIAutomationGridPattern.CurrentRowCount","IUIAutomationGridPattern.get_CurrentRowCount","IUIAutomationGridPattern::CurrentRowCount","IUIAutomationGridPattern::get_CurrentRowCount","get_CurrentRowCount","uiauto.uiauto_IUIAutomationGridPattern_CurrentRowCount","uiauto_IUIAutomationGridPattern_CurrentRowCount","uiautomationclient/IUIAutomationGridPattern::CurrentRowCount","uiautomationclient/IUIAutomationGridPattern::get_CurrentRowCount","winauto.uiauto_IUIAutomationGridPattern_CurrentRowCount"]
+description: Retrieves the number of rows in the grid.
+helpviewer_keywords: ["CurrentRowCount property [Windows Accessibility]","CurrentRowCount property [Windows Accessibility]","IUIAutomationGridPattern interface","IUIAutomationGridPattern interface [Windows Accessibility]","CurrentRowCount property","IUIAutomationGridPattern.CurrentRowCount","IUIAutomationGridPattern.get_CurrentRowCount","IUIAutomationGridPattern::CurrentRowCount","IUIAutomationGridPattern::get_CurrentRowCount","get_CurrentRowCount","uiauto.uiauto_IUIAutomationGridPattern_CurrentRowCount","uiauto_IUIAutomationGridPattern_CurrentRowCount","uiautomationclient/IUIAutomationGridPattern::CurrentRowCount","uiautomationclient/IUIAutomationGridPattern::get_CurrentRowCount","winauto.uiauto_IUIAutomationGridPattern_CurrentRowCount"]
 old-location: winauto\uiauto_IUIAutomationGridPattern_CurrentRowCount.htm
 tech.root: WinAuto
 ms.assetid: 6ca5c2f0-f183-4cc9-9446-08da834ba903

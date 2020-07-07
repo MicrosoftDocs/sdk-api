@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.SHShowManageLibraryUI
 title: SHShowManageLibraryUI function (shobjidl_core.h)
-description: Shows the library management dialog box, which enables users to manage the library folders and default save location.helpviewer_keywords: ["SHShowManageLibraryUI","SHShowManageLibraryUI function [Windows Shell]","_shell_SHShowManageLibraryUI","shell.SHShowManageLibraryUI","shobjidl_core/SHShowManageLibraryUI"]
+description: Shows the library management dialog box, which enables users to manage the library folders and default save location.
+helpviewer_keywords: ["SHShowManageLibraryUI","SHShowManageLibraryUI function [Windows Shell]","_shell_SHShowManageLibraryUI","shell.SHShowManageLibraryUI","shobjidl_core/SHShowManageLibraryUI"]
 old-location: shell\SHShowManageLibraryUI.htm
 tech.root: shell
 ms.assetid: 1ac911bb-28d6-4cb6-a66a-1a0c8a4bd6a1

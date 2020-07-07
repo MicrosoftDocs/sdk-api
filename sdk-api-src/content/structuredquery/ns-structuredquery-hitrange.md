@@ -1,7 +1,8 @@
 ---
 UID: NS:structuredquery.tagHITRANGE
 title: HITRANGE (structuredquery.h)
-description: Identifies the range of matching data when query search conditions match indexed data.helpviewer_keywords: ["HITRANGE","HITRANGE structure [search]","_search_HITRANGE","search._search_HITRANGE","structuredquery/HITRANGE"]
+description: Identifies the range of matching data when query search conditions match indexed data.
+helpviewer_keywords: ["HITRANGE","HITRANGE structure [search]","_search_HITRANGE","search._search_HITRANGE","structuredquery/HITRANGE"]
 old-location: search\_search_HITRANGE.htm
 tech.root: search
 ms.assetid: VS|SEARCH|~\search\wds3x\reference\structures\hitrange.htm

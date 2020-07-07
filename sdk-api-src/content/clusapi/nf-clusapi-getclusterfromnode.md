@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.GetClusterFromNode
 title: GetClusterFromNode function (clusapi.h)
-description: Returns a handle to the cluster associated with a node.helpviewer_keywords: ["GetClusterFromNode","GetClusterFromNode function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_FROM_NODE","PCLUSAPI_GET_CLUSTER_FROM_NODE function [Failover Cluster]","_wolf_getclusterfromnode","clusapi/GetClusterFromNode","clusapi/PCLUSAPI_GET_CLUSTER_FROM_NODE","mscs.getclusterfromnode"]
+description: Returns a handle to the cluster associated with a node.
+helpviewer_keywords: ["GetClusterFromNode","GetClusterFromNode function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_FROM_NODE","PCLUSAPI_GET_CLUSTER_FROM_NODE function [Failover Cluster]","_wolf_getclusterfromnode","clusapi/GetClusterFromNode","clusapi/PCLUSAPI_GET_CLUSTER_FROM_NODE","mscs.getclusterfromnode"]
 old-location: mscs\getclusterfromnode.htm
 tech.root: MsCS
 ms.assetid: 8cc0f881-fbf2-452c-a044-58939f4e01ea

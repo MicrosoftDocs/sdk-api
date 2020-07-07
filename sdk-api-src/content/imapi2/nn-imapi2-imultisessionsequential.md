@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IMultisessionSequential
 title: IMultisessionSequential (imapi2.h)
-description: Use this interface to retrieve information about the previous import session on a sequentially recorded media, if the media contains a previous session.helpviewer_keywords: ["IMultisessionSequential","IMultisessionSequential interface [IMAPI]","IMultisessionSequential interface [IMAPI]","described","imapi.imultisessionsequential","imapi2/IMultisessionSequential"]
+description: Use this interface to retrieve information about the previous import session on a sequentially recorded media, if the media contains a previous session.
+helpviewer_keywords: ["IMultisessionSequential","IMultisessionSequential interface [IMAPI]","IMultisessionSequential interface [IMAPI]","described","imapi.imultisessionsequential","imapi2/IMultisessionSequential"]
 old-location: imapi\imultisessionsequential.htm
 tech.root: imapi
 ms.assetid: b8124597-e75a-4f95-a25c-8cf59f452548

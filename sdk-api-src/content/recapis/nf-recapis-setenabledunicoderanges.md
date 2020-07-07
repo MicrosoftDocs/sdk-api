@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.SetEnabledUnicodeRanges
 title: SetEnabledUnicodeRanges function (recapis.h)
-description: Enables one or more Unicode point ranges on the context.helpviewer_keywords: ["68c7c06b-eab1-419d-ad58-22cbd4c3065e","SetEnabledUnicodeRanges","SetEnabledUnicodeRanges function [Tablet PC]","recapis/SetEnabledUnicodeRanges","tablet.setenabledunicoderanges"]
+description: Enables one or more Unicode point ranges on the context.
+helpviewer_keywords: ["68c7c06b-eab1-419d-ad58-22cbd4c3065e","SetEnabledUnicodeRanges","SetEnabledUnicodeRanges function [Tablet PC]","recapis/SetEnabledUnicodeRanges","tablet.setenabledunicoderanges"]
 old-location: tablet\setenabledunicoderanges.htm
 tech.root: tablet
 ms.assetid: 68c7c06b-eab1-419d-ad58-22cbd4c3065e

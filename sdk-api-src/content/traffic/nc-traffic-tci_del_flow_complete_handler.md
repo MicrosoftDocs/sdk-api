@@ -1,7 +1,8 @@
 ---
 UID: NC:traffic.TCI_DEL_FLOW_COMPLETE_HANDLER
 title: TCI_DEL_FLOW_COMPLETE_HANDLER (traffic.h)
-description: The ClDeleteFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcDeleteFlow function.helpviewer_keywords: ["ClDeleteFlowComplete","ClDeleteFlowComplete callback","ClDeleteFlowComplete callback function [QOS]","TCI_DEL_FLOW_COMPLETE_HANDLER","TCI_DEL_FLOW_COMPLETE_HANDLER callback function [QOS]","_gqos_cldeleteflowcomplete","qos.cldeleteflowcomplete","traffic/ClDeleteFlowComplete"]
+description: The ClDeleteFlowComplete function is used by traffic control to notify the client of the completion of its previous call to the TcDeleteFlow function.
+helpviewer_keywords: ["ClDeleteFlowComplete","ClDeleteFlowComplete callback","ClDeleteFlowComplete callback function [QOS]","TCI_DEL_FLOW_COMPLETE_HANDLER","TCI_DEL_FLOW_COMPLETE_HANDLER callback function [QOS]","_gqos_cldeleteflowcomplete","qos.cldeleteflowcomplete","traffic/ClDeleteFlowComplete"]
 old-location: qos\cldeleteflowcomplete.htm
 tech.root: QOS
 ms.assetid: b31bd6e5-2b72-407d-a77e-ff9cee8de238

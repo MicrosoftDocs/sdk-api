@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmCalloutDeleteById0
 title: FwpmCalloutDeleteById0 function (fwpmu.h)
-description: Removes a callout object from the system.helpviewer_keywords: ["FwpmCalloutDeleteById0","FwpmCalloutDeleteById0 function [Filtering]","fwp.fwpmcalloutdeletebyid0_func","fwpmu/FwpmCalloutDeleteById0"]
+description: Removes a callout object from the system.
+helpviewer_keywords: ["FwpmCalloutDeleteById0","FwpmCalloutDeleteById0 function [Filtering]","fwp.fwpmcalloutdeletebyid0_func","fwpmu/FwpmCalloutDeleteById0"]
 old-location: fwp\fwpmcalloutdeletebyid0_func.htm
 tech.root: fwp
 ms.assetid: fcd591c3-0d3d-48af-933f-ebf02a447b41

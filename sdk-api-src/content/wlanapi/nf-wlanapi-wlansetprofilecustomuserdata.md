@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanSetProfileCustomUserData
 title: WlanSetProfileCustomUserData function (wlanapi.h)
-description: Sets the custom user data associated with a profile.helpviewer_keywords: ["WlanSetProfileCustomUserData","WlanSetProfileCustomUserData function [NativeWIFI]","nwifi.wlansetuserdata","wlanapi/WlanSetProfileCustomUserData"]
+description: Sets the custom user data associated with a profile.
+helpviewer_keywords: ["WlanSetProfileCustomUserData","WlanSetProfileCustomUserData function [NativeWIFI]","nwifi.wlansetuserdata","wlanapi/WlanSetProfileCustomUserData"]
 old-location: nwifi\wlansetuserdata.htm
 tech.root: NativeWiFi
 ms.assetid: 3b37ff29-4c9b-42c8-b00a-a9dfca1d3fed

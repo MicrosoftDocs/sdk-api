@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleQueryLinkFromData
 title: OleQueryLinkFromData function (ole2.h)
-description: Determines whether an OLE linked object (rather than an OLE embedded object) can be created from a clipboard data object.helpviewer_keywords: ["OleQueryLinkFromData","OleQueryLinkFromData function [COM]","_ole_OleQueryLinkFromData","com.olequerylinkfromdata","ole2/OleQueryLinkFromData"]
+description: Determines whether an OLE linked object (rather than an OLE embedded object) can be created from a clipboard data object.
+helpviewer_keywords: ["OleQueryLinkFromData","OleQueryLinkFromData function [COM]","_ole_OleQueryLinkFromData","com.olequerylinkfromdata","ole2/OleQueryLinkFromData"]
 old-location: com\olequerylinkfromdata.htm
 tech.root: com
 ms.assetid: 9ebdcd7f-06c1-4464-a66c-4d134a6b5d36

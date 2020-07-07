@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetModified
 title: IXpsOMCoreProperties::SetModified (xpsobjectmodel.h)
-description: Sets the modified property.helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetModified method","IXpsOMCoreProperties.SetModified","IXpsOMCoreProperties::SetModified","SetModified","SetModified method [XPS Documents and Packaging]","SetModified method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setmodified","xpsobjectmodel/IXpsOMCoreProperties::SetModified"]
+description: Sets the modified property.
+helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetModified method","IXpsOMCoreProperties.SetModified","IXpsOMCoreProperties::SetModified","SetModified","SetModified method [XPS Documents and Packaging]","SetModified method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setmodified","xpsobjectmodel/IXpsOMCoreProperties::SetModified"]
 old-location: xps\ixpsomcoreproperties_setmodified.htm
 tech.root: printdocs
 ms.assetid: 172f49b9-850d-46f0-bed1-678a070a7ae8

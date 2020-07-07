@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFProfile.GetStream
 title: IMFASFProfile::GetStream (wmcontainer.h)
-description: Retrieves a stream from the profile by stream index, and/or retrieves the stream number for a stream index.helpviewer_keywords: ["918f6534-811e-42f6-9836-1c77816007fa","GetStream","GetStream method [Media Foundation]","GetStream method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","GetStream method","IMFASFProfile.GetStream","IMFASFProfile::GetStream","mf.imfasfprofile_getstream","wmcontainer/IMFASFProfile::GetStream"]
+description: Retrieves a stream from the profile by stream index, and/or retrieves the stream number for a stream index.
+helpviewer_keywords: ["918f6534-811e-42f6-9836-1c77816007fa","GetStream","GetStream method [Media Foundation]","GetStream method [Media Foundation]","IMFASFProfile interface","IMFASFProfile interface [Media Foundation]","GetStream method","IMFASFProfile.GetStream","IMFASFProfile::GetStream","mf.imfasfprofile_getstream","wmcontainer/IMFASFProfile::GetStream"]
 old-location: mf\imfasfprofile_getstream.htm
 tech.root: medfound
 ms.assetid: 918f6534-811e-42f6-9836-1c77816007fa

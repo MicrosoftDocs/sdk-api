@@ -1,7 +1,8 @@
 ---
 UID: NF:powrprof.ReadGlobalPwrPolicy
 title: ReadGlobalPwrPolicy function (powrprof.h)
-description: Retrieves the current global power policy settings.helpviewer_keywords: ["ReadGlobalPwrPolicy","ReadGlobalPwrPolicy function","_win32_readglobalpwrpolicy","base.readglobalpwrpolicy","powrprof/ReadGlobalPwrPolicy"]
+description: Retrieves the current global power policy settings.
+helpviewer_keywords: ["ReadGlobalPwrPolicy","ReadGlobalPwrPolicy function","_win32_readglobalpwrpolicy","base.readglobalpwrpolicy","powrprof/ReadGlobalPwrPolicy"]
 old-location: base\readglobalpwrpolicy.htm
 tech.root: power
 ms.assetid: 65da3d9f-b688-4d41-9da0-05159297d169

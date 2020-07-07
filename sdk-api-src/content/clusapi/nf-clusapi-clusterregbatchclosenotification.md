@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegBatchCloseNotification
 title: ClusterRegBatchCloseNotification function (clusapi.h)
-description: Frees the memory associated with the batch notification.helpviewer_keywords: ["ClusterRegBatchCloseNotification","ClusterRegBatchCloseNotification function [Failover Cluster]","PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION","clusapi/ClusterRegBatchCloseNotification","mscs.clusterregbatchclosenotification"]
+description: Frees the memory associated with the batch notification.
+helpviewer_keywords: ["ClusterRegBatchCloseNotification","ClusterRegBatchCloseNotification function [Failover Cluster]","PCLUSTER_REG_BATCH_CLOSE_NOTIFICATION","clusapi/ClusterRegBatchCloseNotification","mscs.clusterregbatchclosenotification"]
 old-location: mscs\clusterregbatchclosenotification.htm
 tech.root: MsCS
 ms.assetid: d7a127ba-6e97-46ac-8510-2da355359c50

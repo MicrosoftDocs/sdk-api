@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.ISignerCertificates
 title: ISignerCertificates (certenroll.h)
-description: The ISignerCertificates interface defines the following methods and properties to manage a collection of ISignerCertificate objects.helpviewer_keywords: ["ISignerCertificates","ISignerCertificates interface [Security]","ISignerCertificates interface [Security]","described","certenroll/ISignerCertificates","security.isignercertificates"]
+description: The ISignerCertificates interface defines the following methods and properties to manage a collection of ISignerCertificate objects.
+helpviewer_keywords: ["ISignerCertificates","ISignerCertificates interface [Security]","ISignerCertificates interface [Security]","described","certenroll/ISignerCertificates","security.isignercertificates"]
 old-location: security\isignercertificates.htm
 tech.root: seccertenroll
 ms.assetid: 420d6550-514a-4fea-987b-6deecbc9b717

@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordSourceId
 title: IATSC_VCT::GetRecordSourceId (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordSourceId","GetRecordSourceId method [Microsoft TV Technologies]","GetRecordSourceId method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordSourceId method","IATSC_VCT.GetRecordSourceId","IATSC_VCT::GetRecordSourceId","IATSC_VCTGetRecordSourceId","atscpsipparser/IATSC_VCT::GetRecordSourceId","mstv.iatsc_vct_getrecordsourceid"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordSourceId","GetRecordSourceId method [Microsoft TV Technologies]","GetRecordSourceId method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordSourceId method","IATSC_VCT.GetRecordSourceId","IATSC_VCT::GetRecordSourceId","IATSC_VCTGetRecordSourceId","atscpsipparser/IATSC_VCT::GetRecordSourceId","mstv.iatsc_vct_getrecordsourceid"]
 old-location: mstv\iatsc_vct_getrecordsourceid.htm
 tech.root: mstv
 ms.assetid: c5edc529-ca54-4f18-8859-b7eb168bff0a

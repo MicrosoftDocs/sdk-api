@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.CanBuySilent
 title: IWMPContentPartner::CanBuySilent (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["CanBuySilent","CanBuySilent method [Windows Media Player]","CanBuySilent method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","CanBuySilent method","IWMPContentPartner.CanBuySilent","IWMPContentPartner::CanBuySilent","IWMPContentPartnerCanBuySilent","contentpartner/IWMPContentPartner::CanBuySilent","wmp.iwmpcontentpartner_canbuysilent"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["CanBuySilent","CanBuySilent method [Windows Media Player]","CanBuySilent method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","CanBuySilent method","IWMPContentPartner.CanBuySilent","IWMPContentPartner::CanBuySilent","IWMPContentPartnerCanBuySilent","contentpartner/IWMPContentPartner::CanBuySilent","wmp.iwmpcontentpartner_canbuysilent"]
 old-location: wmp\iwmpcontentpartner_canbuysilent.htm
 tech.root: WMP
 ms.assetid: 1faec369-199e-48d4-9c0a-6cbad39a7073

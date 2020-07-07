@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetRootElementBuildCache
 title: IUIAutomation::GetRootElementBuildCache (uiautomationclient.h)
-description: Retrieves the UI Automation element that represents the desktop, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.helpviewer_keywords: ["GetRootElementBuildCache","GetRootElementBuildCache method [Windows Accessibility]","GetRootElementBuildCache method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","GetRootElementBuildCache method","IUIAutomation.GetRootElementBuildCache","IUIAutomation::GetRootElementBuildCache","uiauto.uiauto_IUIAutomation_GetRootElementBuildCache","uiauto_IUIAutomation_GetRootElementBuildCache","uiautomationclient/IUIAutomation::GetRootElementBuildCache","winauto.uiauto_IUIAutomation_GetRootElementBuildCache"]
+description: Retrieves the UI Automation element that represents the desktop, prefetches the requested properties and control patterns, and stores the prefetched items in the cache.
+helpviewer_keywords: ["GetRootElementBuildCache","GetRootElementBuildCache method [Windows Accessibility]","GetRootElementBuildCache method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","GetRootElementBuildCache method","IUIAutomation.GetRootElementBuildCache","IUIAutomation::GetRootElementBuildCache","uiauto.uiauto_IUIAutomation_GetRootElementBuildCache","uiauto_IUIAutomation_GetRootElementBuildCache","uiautomationclient/IUIAutomation::GetRootElementBuildCache","winauto.uiauto_IUIAutomation_GetRootElementBuildCache"]
 old-location: winauto\uiauto_IUIAutomation_GetRootElementBuildCache.htm
 tech.root: WinAuto
 ms.assetid: 0d2c0592-d29a-4e70-978e-55690aed82cb

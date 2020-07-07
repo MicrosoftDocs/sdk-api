@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.PrivateExtractIconsA
 title: PrivateExtractIconsA function (winuser.h)
-description: Creates an array of handles to icons that are extracted from a specified file.helpviewer_keywords: ["PrivateExtractIcons","PrivateExtractIcons function [Menus and Other Resources]","PrivateExtractIconsA","PrivateExtractIconsW","_win32_PrivateExtractIcons","_win32_privateextracticons_cpp","menurc.privateextracticons","winui._win32_privateextracticons","winuser/PrivateExtractIcons","winuser/PrivateExtractIconsA","winuser/PrivateExtractIconsW"]
+description: Creates an array of handles to icons that are extracted from a specified file.
+helpviewer_keywords: ["PrivateExtractIcons","PrivateExtractIcons function [Menus and Other Resources]","PrivateExtractIconsA","PrivateExtractIconsW","_win32_PrivateExtractIcons","_win32_privateextracticons_cpp","menurc.privateextracticons","winui._win32_privateextracticons","winuser/PrivateExtractIcons","winuser/PrivateExtractIconsA","winuser/PrivateExtractIconsW"]
 old-location: menurc\privateextracticons.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\icons\iconreference\iconfunctions\privateextracticons.htm
@@ -168,6 +169,10 @@ This function was not included in the SDK headers and libraries until Windows X
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines PrivateExtractIcons as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

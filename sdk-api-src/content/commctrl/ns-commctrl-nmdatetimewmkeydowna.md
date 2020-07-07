@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEWMKEYDOWNA
 title: NMDATETIMEWMKEYDOWNA (commctrl.h)
-description: Carries information used to describe and handle a DTN_WMKEYDOWN notification code.helpviewer_keywords: ["*LPNMDATETIMEWMKEYDOWNA","LPNMDATETIMEWMKEYDOWN","LPNMDATETIMEWMKEYDOWN structure pointer [Windows Controls]","NMDATETIMEWMKEYDOWN","NMDATETIMEWMKEYDOWN structure [Windows Controls]","NMDATETIMEWMKEYDOWNA","NMDATETIMEWMKEYDOWNW","_win32_NMDATETIMEWMKEYDOWN","_win32_NMDATETIMEWMKEYDOWN_cpp","commctrl/LPNMDATETIMEWMKEYDOWN","commctrl/NMDATETIMEWMKEYDOWN","commctrl/NMDATETIMEWMKEYDOWNA","commctrl/NMDATETIMEWMKEYDOWNW","controls.NMDATETIMEWMKEYDOWN","controls._win32_NMDATETIMEWMKEYDOWN"]
+description: Carries information used to describe and handle a DTN_WMKEYDOWN notification code.
+helpviewer_keywords: ["*LPNMDATETIMEWMKEYDOWNA","LPNMDATETIMEWMKEYDOWN","LPNMDATETIMEWMKEYDOWN structure pointer [Windows Controls]","NMDATETIMEWMKEYDOWN","NMDATETIMEWMKEYDOWN structure [Windows Controls]","NMDATETIMEWMKEYDOWNA","NMDATETIMEWMKEYDOWNW","_win32_NMDATETIMEWMKEYDOWN","_win32_NMDATETIMEWMKEYDOWN_cpp","commctrl/LPNMDATETIMEWMKEYDOWN","commctrl/NMDATETIMEWMKEYDOWN","commctrl/NMDATETIMEWMKEYDOWNA","commctrl/NMDATETIMEWMKEYDOWNW","controls.NMDATETIMEWMKEYDOWN","controls._win32_NMDATETIMEWMKEYDOWN"]
 old-location: controls\NMDATETIMEWMKEYDOWN.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimewmkeydown.htm
@@ -85,4 +86,9 @@ A zero-terminated substring, taken from the format string, that defines the call
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a></b>
 
 A <a href="https://docs.microsoft.com/windows/desktop/api/minwinbase/ns-minwinbase-systemtime">SYSTEMTIME</a> structure containing the current date and time from the DTP control. The owner of the control must modify the time information based on the user's keystroke. 
+
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines NMDATETIMEWMKEYDOWN as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

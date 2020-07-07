@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WIC8BIMIptcProperties
 title: WIC8BIMIptcProperties (wincodec.h)
-description: Specifies the identifiers of the metadata items in an 8BIM IPTC block.helpviewer_keywords: ["WIC8BIMEmbeddedIPTC","WIC8BIMIptcPString","WIC8BIMIptcProperties","WIC8BIMIptcProperties enumeration [Windows Imaging Component]","_wic_codec_wic8bimiptcproperties","wic._wic_codec_wic8bimiptcproperties","wincodec/WIC8BIMEmbeddedIPTC","wincodec/WIC8BIMIptcPString","wincodec/WIC8BIMIptcProperties"]
+description: Specifies the identifiers of the metadata items in an 8BIM IPTC block.
+helpviewer_keywords: ["WIC8BIMEmbeddedIPTC","WIC8BIMIptcPString","WIC8BIMIptcProperties","WIC8BIMIptcProperties enumeration [Windows Imaging Component]","_wic_codec_wic8bimiptcproperties","wic._wic_codec_wic8bimiptcproperties","wincodec/WIC8BIMEmbeddedIPTC","wincodec/WIC8BIMIptcPString","wincodec/WIC8BIMIptcProperties"]
 old-location: wic\_wic_codec_wic8bimiptcproperties.htm
 tech.root: wic
 ms.assetid: c752790c-6392-4406-b006-8f5da9f4e23d

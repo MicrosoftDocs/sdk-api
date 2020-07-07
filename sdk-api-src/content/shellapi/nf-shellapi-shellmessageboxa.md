@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.ShellMessageBoxA
 title: ShellMessageBoxA function (shellapi.h)
-description: ShellMessageBox may be altered or unavailable.helpviewer_keywords: ["ShellMessageBox","ShellMessageBox function [Windows Shell]","ShellMessageBoxA","ShellMessageBoxW","_win32_ShellMessageBox","shell.ShellMessageBox","shellapi/ShellMessageBox","shellapi/ShellMessageBoxA","shellapi/ShellMessageBoxW"]
+description: ShellMessageBox may be altered or unavailable.
+helpviewer_keywords: ["ShellMessageBox","ShellMessageBox function [Windows Shell]","ShellMessageBoxA","ShellMessageBoxW","_win32_ShellMessageBox","shell.ShellMessageBox","shellapi/ShellMessageBox","shellapi/ShellMessageBoxA","shellapi/ShellMessageBoxW"]
 old-location: shell\ShellMessageBox.htm
 tech.root: shell
 ms.assetid: 7cbaeae3-3473-4568-90ab-63efef049af3
@@ -135,4 +136,9 @@ If the function fails, the return value is zero. To get extended error informati
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The shellapi.h header defines ShellMessageBox as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

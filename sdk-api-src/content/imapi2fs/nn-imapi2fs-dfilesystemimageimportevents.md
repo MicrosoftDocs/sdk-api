@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2fs.DFileSystemImageImportEvents
 title: DFileSystemImageImportEvents (imapi2fs.h)
-description: Use this interface to receives notifications regarding the current file system import operation.helpviewer_keywords: ["DFileSystemImageImportEvents","DFileSystemImageImportEvents interface [IMAPI]","DFileSystemImageImportEvents interface [IMAPI]","described","imapi.dfilesystemimageimportevents","imapi2fs/DFileSystemImageImportEvents"]
+description: Use this interface to receives notifications regarding the current file system import operation.
+helpviewer_keywords: ["DFileSystemImageImportEvents","DFileSystemImageImportEvents interface [IMAPI]","DFileSystemImageImportEvents interface [IMAPI]","described","imapi.dfilesystemimageimportevents","imapi2fs/DFileSystemImageImportEvents"]
 old-location: imapi\dfilesystemimageimportevents.htm
 tech.root: imapi
 ms.assetid: 972ab985-17c5-4458-a7f4-59ac25c0dca4

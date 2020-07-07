@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.EndOf
 title: ITextRange::EndOf (tom.h)
-description: Moves this range's ends to the end of the last overlapping Unit in the range.helpviewer_keywords: ["EndOf","EndOf method [Windows Controls]","EndOf method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","EndOf method","ITextRange.EndOf","ITextRange::EndOf","_win32_ITextRange_EndOf","_win32_ITextRange_EndOf_cpp","controls.ITextRange_EndOf","controls._win32_ITextRange_EndOf","tom/ITextRange::EndOf"]
+description: Moves this range's ends to the end of the last overlapping Unit in the range.
+helpviewer_keywords: ["EndOf","EndOf method [Windows Controls]","EndOf method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","EndOf method","ITextRange.EndOf","ITextRange::EndOf","_win32_ITextRange_EndOf","_win32_ITextRange_EndOf_cpp","controls.ITextRange_EndOf","controls._win32_ITextRange_EndOf","tom/ITextRange::EndOf"]
 old-location: controls\ITextRange_EndOf.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\endof.htm

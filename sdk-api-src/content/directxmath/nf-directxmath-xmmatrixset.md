@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMatrixSet
 title: XMMatrixSet function (directxmath.h)
-description: Creates a matrix with float values.helpviewer_keywords: ["Use DirectX..XMMatrixSet","XMMatrixSet","XMMatrixSet method [DirectX Math Support APIs]","dxmath.xmmatrixset"]
+description: Creates a matrix with float values.
+helpviewer_keywords: ["Use DirectX..XMMatrixSet","XMMatrixSet","XMMatrixSet method [DirectX Math Support APIs]","dxmath.xmmatrixset"]
 old-location: dxmath\xmmatrixset.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixSet(float,float,float,float,float,float,float,float,float,float,float,float,float,float,float,float)

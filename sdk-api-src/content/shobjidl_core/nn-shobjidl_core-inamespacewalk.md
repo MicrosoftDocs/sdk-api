@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.INamespaceWalk
 title: INamespaceWalk (shobjidl_core.h)
-description: Exposes methods that walk a namespace from a given root node. The depth of the walk is specified and an optional array is returned containing the IDs of all nodes walked.helpviewer_keywords: ["INamespaceWalk","INamespaceWalk interface [Windows Shell]","INamespaceWalk interface [Windows Shell]","described","_win32_INamespaceWalk","shell.INamespaceWalk","shobjidl_core/INamespaceWalk"]
+description: Exposes methods that walk a namespace from a given root node. The depth of the walk is specified and an optional array is returned containing the IDs of all nodes walked.
+helpviewer_keywords: ["INamespaceWalk","INamespaceWalk interface [Windows Shell]","INamespaceWalk interface [Windows Shell]","described","_win32_INamespaceWalk","shell.INamespaceWalk","shobjidl_core/INamespaceWalk"]
 old-location: shell\INamespaceWalk.htm
 tech.root: shell
 ms.assetid: 164732ae-1c72-465c-a16b-a8eeaa9cc185

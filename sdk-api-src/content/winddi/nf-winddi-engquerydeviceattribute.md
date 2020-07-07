@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngQueryDeviceAttribute
 title: EngQueryDeviceAttribute function (winddi.h)
-description: The EngQueryDeviceAttribute function allows the driver to query the system about particular attributes of the device.helpviewer_keywords: ["EngQueryDeviceAttribute","EngQueryDeviceAttribute function [Display Devices]","display.engquerydeviceattribute","gdifncs_1f76b3e8-f265-4959-a7f0-4bc433936be7.xml","winddi/EngQueryDeviceAttribute"]
+description: The EngQueryDeviceAttribute function allows the driver to query the system about particular attributes of the device.
+helpviewer_keywords: ["EngQueryDeviceAttribute","EngQueryDeviceAttribute function [Display Devices]","display.engquerydeviceattribute","gdifncs_1f76b3e8-f265-4959-a7f0-4bc433936be7.xml","winddi/EngQueryDeviceAttribute"]
 old-location: display\engquerydeviceattribute.htm
 tech.root: display
 ms.assetid: 767d0d78-c17f-461b-8ca6-04a00dc456de

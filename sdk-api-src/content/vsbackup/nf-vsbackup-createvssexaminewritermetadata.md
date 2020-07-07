@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.CreateVssExamineWriterMetadata
 title: CreateVssExamineWriterMetadata function (vsbackup.h)
-description: The CreateVssExamineWriterMetadata function creates an IVssExamineWriterMetadata object.helpviewer_keywords: ["CreateVssExamineWriterMetadata","CreateVssExamineWriterMetadata function [VSS]","CreateVssExamineWriterMetadataInternal","_win32_createvssexaminewritermetadata","base.createvssexaminewritermetadata","vsbackup/CreateVssExamineWriterMetadata","vsbackup/CreateVssExamineWriterMetadataInternal"]
+description: The CreateVssExamineWriterMetadata function creates an IVssExamineWriterMetadata object.
+helpviewer_keywords: ["CreateVssExamineWriterMetadata","CreateVssExamineWriterMetadata function [VSS]","CreateVssExamineWriterMetadataInternal","_win32_createvssexaminewritermetadata","base.createvssexaminewritermetadata","vsbackup/CreateVssExamineWriterMetadata","vsbackup/CreateVssExamineWriterMetadataInternal"]
 old-location: base\createvssexaminewritermetadata.htm
 tech.root: VSS
 ms.assetid: cb322541-d8c0-4a2e-9ce5-453d19ac3fd1

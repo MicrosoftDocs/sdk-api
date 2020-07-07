@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymSetScopeFromAddr
 title: SymSetScopeFromAddr function (dbghelp.h)
-description: Sets the local scope to the symbol that matches the specified address.helpviewer_keywords: ["SymSetScopeFromAddr","SymSetScopeFromAddr function","base.symsetscopefromaddr","dbghelp/SymSetScopeFromAddr"]
+description: Sets the local scope to the symbol that matches the specified address.
+helpviewer_keywords: ["SymSetScopeFromAddr","SymSetScopeFromAddr function","base.symsetscopefromaddr","dbghelp/SymSetScopeFromAddr"]
 old-location: base\symsetscopefromaddr.htm
 tech.root: Debug
 ms.assetid: 7f7bcf12-8d8d-4dea-8191-4f7b24be1b5a

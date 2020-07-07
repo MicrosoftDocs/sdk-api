@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpRemoveUrl
 title: HttpRemoveUrl function (http.h)
-description: Causes the system to stop routing requests that match a specified UrlPrefix string to a specified request queue.helpviewer_keywords: ["HttpRemoveUrl","HttpRemoveUrl function [HTTP]","_http_httpremoveurl","http.httpremoveurl","http/HttpRemoveUrl"]
+description: Causes the system to stop routing requests that match a specified UrlPrefix string to a specified request queue.
+helpviewer_keywords: ["HttpRemoveUrl","HttpRemoveUrl function [HTTP]","_http_httpremoveurl","http.httpremoveurl","http/HttpRemoveUrl"]
 old-location: http\httpremoveurl.htm
 tech.root: http
 ms.assetid: 21740d08-c280-44c1-8efb-1d21b4006039

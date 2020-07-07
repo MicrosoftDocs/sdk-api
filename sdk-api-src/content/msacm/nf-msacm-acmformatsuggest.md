@@ -1,7 +1,8 @@
 ---
 UID: NF:msacm.acmFormatSuggest
 title: acmFormatSuggest function (msacm.h)
-description: The acmFormatSuggest function queries the ACM or a specified ACM driver to suggest a destination format for the supplied source format.helpviewer_keywords: ["_win32_acmFormatSuggest","acmFormatSuggest","acmFormatSuggest function [Windows Multimedia]","msacm/acmFormatSuggest","multimedia.acmformatsuggest"]
+description: The acmFormatSuggest function queries the ACM or a specified ACM driver to suggest a destination format for the supplied source format.
+helpviewer_keywords: ["_win32_acmFormatSuggest","acmFormatSuggest","acmFormatSuggest function [Windows Multimedia]","msacm/acmFormatSuggest","multimedia.acmformatsuggest"]
 old-location: multimedia\acmformatsuggest.htm
 tech.root: Multimedia
 ms.assetid: c7618d7e-e41e-4513-9511-2133ef5a1582

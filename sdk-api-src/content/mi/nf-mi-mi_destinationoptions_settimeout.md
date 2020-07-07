@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetTimeout
 title: MI_DestinationOptions_SetTimeout function (mi.h)
-description: Sets the default options timeout value.helpviewer_keywords: ["MI_DestinationOptions_SetTimeout","MI_DestinationOptions_SetTimeout function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_SetTimeout","wmi_v2.mi_destinationoptions_settimeout"]
+description: Sets the default options timeout value.
+helpviewer_keywords: ["MI_DestinationOptions_SetTimeout","MI_DestinationOptions_SetTimeout function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_SetTimeout","wmi_v2.mi_destinationoptions_settimeout"]
 old-location: wmi_v2\mi_destinationoptions_settimeout.htm
 tech.root: wmi_v2
 ms.assetid: 81309b13-657c-45fc-b4fd-21bfb28247a2

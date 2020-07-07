@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.Edit_GetSel
 title: Edit_GetSel macro (windowsx.h)
-description: Gets the starting and ending character positions of the current selection in an edit or rich edit control. You can use this macro or send the EM_GETSEL message explicitly.helpviewer_keywords: ["Edit_GetSel","Edit_GetSel macro [Windows Controls]","_win32_Edit_GetSel","_win32_Edit_GetSel_cpp","controls.Edit_GetSel","controls._win32_Edit_GetSel","windowsx/Edit_GetSel"]
+description: Gets the starting and ending character positions of the current selection in an edit or rich edit control. You can use this macro or send the EM_GETSEL message explicitly.
+helpviewer_keywords: ["Edit_GetSel","Edit_GetSel macro [Windows Controls]","_win32_Edit_GetSel","_win32_Edit_GetSel_cpp","controls.Edit_GetSel","controls._win32_Edit_GetSel","windowsx/Edit_GetSel"]
 old-location: controls\Edit_GetSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\editcontrols\editcontrolreference\editcontrolmacros\edit_getsel.htm

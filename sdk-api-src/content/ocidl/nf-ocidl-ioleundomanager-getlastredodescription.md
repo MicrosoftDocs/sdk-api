@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleUndoManager.GetLastRedoDescription
 title: IOleUndoManager::GetLastRedoDescription (ocidl.h)
-description: Retrieves the description for the top-level undo unit that is on top of the redo stack.helpviewer_keywords: ["GetLastRedoDescription","GetLastRedoDescription method [COM]","GetLastRedoDescription method [COM]","IOleUndoManager interface","IOleUndoManager interface [COM]","GetLastRedoDescription method","IOleUndoManager.GetLastRedoDescription","IOleUndoManager::GetLastRedoDescription","_ole_ioleundomanager_getlastredodescription","com.ioleundomanager_getlastredodescription","ocidl/IOleUndoManager::GetLastRedoDescription"]
+description: Retrieves the description for the top-level undo unit that is on top of the redo stack.
+helpviewer_keywords: ["GetLastRedoDescription","GetLastRedoDescription method [COM]","GetLastRedoDescription method [COM]","IOleUndoManager interface","IOleUndoManager interface [COM]","GetLastRedoDescription method","IOleUndoManager.GetLastRedoDescription","IOleUndoManager::GetLastRedoDescription","_ole_ioleundomanager_getlastredodescription","com.ioleundomanager_getlastredodescription","ocidl/IOleUndoManager::GetLastRedoDescription"]
 old-location: com\ioleundomanager_getlastredodescription.htm
 tech.root: com
 ms.assetid: b3d514cf-1d1f-4b5b-89f6-d0e03aa794cc

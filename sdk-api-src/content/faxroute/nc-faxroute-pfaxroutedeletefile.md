@@ -1,7 +1,8 @@
 ---
 UID: NC:faxroute.PFAXROUTEDELETEFILE
 title: PFAXROUTEDELETEFILE (faxroute.h)
-description: A fax routing method calls the FaxRouteDeleteFile callback function to delete a file from the fax file list associated with a received fax document.helpviewer_keywords: ["FaxRouteDeleteFile","FaxRouteDeleteFile callback function [Fax Service]","PFAXROUTEDELETEFILE","PFAXROUTEDELETEFILE callback","_mfax_faxroutedeletefile","fax._mfax_faxroutedeletefile","faxroute/FaxRouteDeleteFile"]
+description: A fax routing method calls the FaxRouteDeleteFile callback function to delete a file from the fax file list associated with a received fax document.
+helpviewer_keywords: ["FaxRouteDeleteFile","FaxRouteDeleteFile callback function [Fax Service]","PFAXROUTEDELETEFILE","PFAXROUTEDELETEFILE callback","_mfax_faxroutedeletefile","fax._mfax_faxroutedeletefile","faxroute/FaxRouteDeleteFile"]
 old-location: fax\_mfax_faxroutedeletefile.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_3691.htm

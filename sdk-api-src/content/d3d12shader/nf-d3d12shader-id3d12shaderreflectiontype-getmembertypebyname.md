@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12shader.ID3D12ShaderReflectionType.GetMemberTypeByName
 title: ID3D12ShaderReflectionType::GetMemberTypeByName (d3d12shader.h)
-description: Gets a shader-reflection-variable type by name.helpviewer_keywords: ["GetMemberTypeByName","GetMemberTypeByName method","GetMemberTypeByName method","ID3D12ShaderReflectionType interface","ID3D12ShaderReflectionType interface","GetMemberTypeByName method","ID3D12ShaderReflectionType.GetMemberTypeByName","ID3D12ShaderReflectionType::GetMemberTypeByName","d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByName","direct3d12.id3d12shaderreflectiontype_getmembertypebyname"]
+description: Gets a shader-reflection-variable type by name.
+helpviewer_keywords: ["GetMemberTypeByName","GetMemberTypeByName method","GetMemberTypeByName method","ID3D12ShaderReflectionType interface","ID3D12ShaderReflectionType interface","GetMemberTypeByName method","ID3D12ShaderReflectionType.GetMemberTypeByName","ID3D12ShaderReflectionType::GetMemberTypeByName","d3d12shader/ID3D12ShaderReflectionType::GetMemberTypeByName","direct3d12.id3d12shaderreflectiontype_getmembertypebyname"]
 old-location: direct3d12\id3d12shaderreflectiontype_getmembertypebyname.htm
 tech.root: direct3d12
 ms.assetid: 1A05A112-3975-4424-AED7-55F9CFBF8771

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.StartProgressDialog
 title: IProgressDialog::StartProgressDialog (shlobj_core.h)
-description: Starts the progress dialog box.helpviewer_keywords: ["IProgressDialog interface [Windows Shell]","StartProgressDialog method","IProgressDialog.StartProgressDialog","IProgressDialog::StartProgressDialog","PROGDLG_AUTOTIME","PROGDLG_MARQUEEPROGRESS","PROGDLG_MODAL","PROGDLG_NOCANCEL","PROGDLG_NOMINIMIZE","PROGDLG_NOPROGRESSBAR","PROGDLG_NORMAL","PROGDLG_NOTIME","StartProgressDialog","StartProgressDialog method [Windows Shell]","StartProgressDialog method [Windows Shell]","IProgressDialog interface","_win32_IProgressDialog_StartProgressDialog","shell.IProgressDialog_StartProgressDialog","shlobj_core/IProgressDialog::StartProgressDialog"]
+description: Starts the progress dialog box.
+helpviewer_keywords: ["IProgressDialog interface [Windows Shell]","StartProgressDialog method","IProgressDialog.StartProgressDialog","IProgressDialog::StartProgressDialog","PROGDLG_AUTOTIME","PROGDLG_MARQUEEPROGRESS","PROGDLG_MODAL","PROGDLG_NOCANCEL","PROGDLG_NOMINIMIZE","PROGDLG_NOPROGRESSBAR","PROGDLG_NORMAL","PROGDLG_NOTIME","StartProgressDialog","StartProgressDialog method [Windows Shell]","StartProgressDialog method [Windows Shell]","IProgressDialog interface","_win32_IProgressDialog_StartProgressDialog","shell.IProgressDialog_StartProgressDialog","shlobj_core/IProgressDialog::StartProgressDialog"]
 old-location: shell\IProgressDialog_StartProgressDialog.htm
 tech.root: shell
 ms.assetid: 0cafe878-c95f-416e-8291-51d9a5a17a71

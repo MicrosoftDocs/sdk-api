@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetTopWindow
 title: GetTopWindow function (winuser.h)
-description: Examines the Z order of the child windows associated with the specified parent window and retrieves a handle to the child window at the top of the Z order.helpviewer_keywords: ["GetTopWindow","GetTopWindow function [Windows and Messages]","_win32_GetTopWindow","_win32_gettopwindow_cpp","winmsg.gettopwindow","winui._win32_gettopwindow","winuser/GetTopWindow"]
+description: Examines the Z order of the child windows associated with the specified parent window and retrieves a handle to the child window at the top of the Z order.
+helpviewer_keywords: ["GetTopWindow","GetTopWindow function [Windows and Messages]","_win32_GetTopWindow","_win32_gettopwindow_cpp","winmsg.gettopwindow","winui._win32_gettopwindow","winuser/GetTopWindow"]
 old-location: winmsg\gettopwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\gettopwindow.htm

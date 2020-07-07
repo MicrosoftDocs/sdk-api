@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxManifestPackageId.GetPackageFullName
 title: IAppxManifestPackageId::GetPackageFullName (appxpackaging.h)
-description: Gets the package full name.helpviewer_keywords: ["GetPackageFullName","GetPackageFullName method [App packaging and management]","GetPackageFullName method [App packaging and management]","IAppxManifestPackageId interface","IAppxManifestPackageId interface [App packaging and management]","GetPackageFullName method","IAppxManifestPackageId.GetPackageFullName","IAppxManifestPackageId::GetPackageFullName","appxpackaging/IAppxManifestPackageId::GetPackageFullName","appxpkg.iappxmanifestpackageid_getpackagefullname"]
+description: Gets the package full name.
+helpviewer_keywords: ["GetPackageFullName","GetPackageFullName method [App packaging and management]","GetPackageFullName method [App packaging and management]","IAppxManifestPackageId interface","IAppxManifestPackageId interface [App packaging and management]","GetPackageFullName method","IAppxManifestPackageId.GetPackageFullName","IAppxManifestPackageId::GetPackageFullName","appxpackaging/IAppxManifestPackageId::GetPackageFullName","appxpkg.iappxmanifestpackageid_getpackagefullname"]
 old-location: appxpkg\iappxmanifestpackageid_getpackagefullname.htm
 tech.root: appxpkg
 ms.assetid: 514D2E04-5CA5-4F45-A6D8-96866588EECF

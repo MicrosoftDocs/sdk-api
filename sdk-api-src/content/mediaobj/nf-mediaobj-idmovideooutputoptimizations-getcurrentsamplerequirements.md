@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IDMOVideoOutputOptimizations.GetCurrentSampleRequirements
 title: IDMOVideoOutputOptimizations::GetCurrentSampleRequirements (mediaobj.h)
-description: The GetCurrentSampleRequirements method retrieves the optimization features required to process the next sample, given the features already agreed to by the application.helpviewer_keywords: ["GetCurrentSampleRequirements","GetCurrentSampleRequirements method [DirectShow]","GetCurrentSampleRequirements method [DirectShow]","IDMOVideoOutputOptimizations interface","IDMOVideoOutputOptimizations interface [DirectShow]","GetCurrentSampleRequirements method","IDMOVideoOutputOptimizations.GetCurrentSampleRequirements","IDMOVideoOutputOptimizations::GetCurrentSampleRequirements","IDMOVideoOutputOptimizationsGetCurrentSampleRequirements","dshow.idmovideooutputoptimizations_getcurrentsamplerequirements","mediaobj/IDMOVideoOutputOptimizations::GetCurrentSampleRequirements"]
+description: The GetCurrentSampleRequirements method retrieves the optimization features required to process the next sample, given the features already agreed to by the application.
+helpviewer_keywords: ["GetCurrentSampleRequirements","GetCurrentSampleRequirements method [DirectShow]","GetCurrentSampleRequirements method [DirectShow]","IDMOVideoOutputOptimizations interface","IDMOVideoOutputOptimizations interface [DirectShow]","GetCurrentSampleRequirements method","IDMOVideoOutputOptimizations.GetCurrentSampleRequirements","IDMOVideoOutputOptimizations::GetCurrentSampleRequirements","IDMOVideoOutputOptimizationsGetCurrentSampleRequirements","dshow.idmovideooutputoptimizations_getcurrentsamplerequirements","mediaobj/IDMOVideoOutputOptimizations::GetCurrentSampleRequirements"]
 old-location: dshow\idmovideooutputoptimizations_getcurrentsamplerequirements.htm
 tech.root: DirectShow
 ms.assetid: 95acde54-2bdb-4a80-b078-d98945604c7e

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeAccessible.OnGetAccessibilityRole
 title: INameSpaceTreeAccessible::OnGetAccessibilityRole (shobjidl.h)
-description: Gets the accessibility role for a Shell item.helpviewer_keywords: ["INameSpaceTreeAccessible interface [Windows Shell]","OnGetAccessibilityRole method","INameSpaceTreeAccessible.OnGetAccessibilityRole","INameSpaceTreeAccessible::OnGetAccessibilityRole","OnGetAccessibilityRole","OnGetAccessibilityRole method [Windows Shell]","OnGetAccessibilityRole method [Windows Shell]","INameSpaceTreeAccessible interface","_shell_INameSpaceTreeAccessible_OnGetAccessibilityRole","shell.INameSpaceTreeAccessible_OnGetAccessibilityRole","shobjidl/INameSpaceTreeAccessible::OnGetAccessibilityRole"]
+description: Gets the accessibility role for a Shell item.
+helpviewer_keywords: ["INameSpaceTreeAccessible interface [Windows Shell]","OnGetAccessibilityRole method","INameSpaceTreeAccessible.OnGetAccessibilityRole","INameSpaceTreeAccessible::OnGetAccessibilityRole","OnGetAccessibilityRole","OnGetAccessibilityRole method [Windows Shell]","OnGetAccessibilityRole method [Windows Shell]","INameSpaceTreeAccessible interface","_shell_INameSpaceTreeAccessible_OnGetAccessibilityRole","shell.INameSpaceTreeAccessible_OnGetAccessibilityRole","shobjidl/INameSpaceTreeAccessible::OnGetAccessibilityRole"]
 old-location: shell\INameSpaceTreeAccessible_OnGetAccessibilityRole.htm
 tech.root: shell
 ms.assetid: 9de27a09-dc11-46a6-a233-696ccf35aa87

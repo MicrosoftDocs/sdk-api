@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Set_Device_Interface_PropertyW
 title: CM_Set_Device_Interface_PropertyW function (cfgmgr32.h)
-description: The CM_Set_Device_Interface_Property function sets a device property of a device interface.helpviewer_keywords: ["CM_Set_Device_Interface_Property","CM_Set_Device_Interface_Property function [Device and Driver Installation]","CM_Set_Device_Interface_PropertyW","cfgmgr32/CM_Set_Device_Interface_Property","cfgmgr32/CM_Set_Device_Interface_PropertyW","devinst.cm_set_device_interface_property"]
+description: The CM_Set_Device_Interface_Property function sets a device property of a device interface.
+helpviewer_keywords: ["CM_Set_Device_Interface_Property","CM_Set_Device_Interface_Property function [Device and Driver Installation]","CM_Set_Device_Interface_PropertyW","cfgmgr32/CM_Set_Device_Interface_Property","cfgmgr32/CM_Set_Device_Interface_PropertyW","devinst.cm_set_device_interface_property"]
 old-location: devinst\cm_set_device_interface_property.htm
 tech.root: devinst
 ms.assetid: EB009652-2B20-43C2-A373-AB17F1FBC1B2

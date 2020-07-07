@@ -1,7 +1,8 @@
 ---
 UID: NF:userenv.RsopAccessCheckByType
 title: RsopAccessCheckByType function (userenv.h)
-description: The RSoPAccessCheckByType function determines whether a security descriptor grants a specified set of access rights to the client identified by an RSOPTOKEN.helpviewer_keywords: ["RSoPAccessCheckByType","RSoPAccessCheckByType function [Group Policy]","RsopAccessCheckByType","_win32_rsopaccesscheckbytype","policy.rsopaccesscheckbytype","userenv/RSoPAccessCheckByType"]
+description: The RSoPAccessCheckByType function determines whether a security descriptor grants a specified set of access rights to the client identified by an RSOPTOKEN.
+helpviewer_keywords: ["RSoPAccessCheckByType","RSoPAccessCheckByType function [Group Policy]","RsopAccessCheckByType","_win32_rsopaccesscheckbytype","policy.rsopaccesscheckbytype","userenv/RSoPAccessCheckByType"]
 old-location: policy\rsopaccesscheckbytype.htm
 tech.root: Policy
 ms.assetid: d63734a0-1a88-4669-828e-de467606fc14

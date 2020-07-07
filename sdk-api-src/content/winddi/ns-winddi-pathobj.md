@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._PATHOBJ
 title: PATHOBJ (winddi.h)
-description: The PATHOBJ structure is used to describe a set of lines and Bezier curves that are to be stroked or filled.helpviewer_keywords: ["PATHOBJ","PATHOBJ structure [Display Devices]","display.pathobj","grstrcts_e8c946a6-f07c-4cc2-8440-d4f3af979612.xml","winddi/PATHOBJ"]
+description: The PATHOBJ structure is used to describe a set of lines and Bezier curves that are to be stroked or filled.
+helpviewer_keywords: ["PATHOBJ","PATHOBJ structure [Display Devices]","display.pathobj","grstrcts_e8c946a6-f07c-4cc2-8440-d4f3af979612.xml","winddi/PATHOBJ"]
 old-location: display\pathobj.htm
 tech.root: display
 ms.assetid: ceccca92-3312-49b4-b0f6-a3d0cd4bbef5

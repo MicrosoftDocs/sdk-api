@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymInitializeW
 title: SymInitializeW function (dbghelp.h)
-description: Initializes the symbol handler for a process.helpviewer_keywords: ["SymInitialize","SymInitialize function","SymInitializeW","_win32_syminitialize","base.syminitialize","dbghelp/SymInitialize","dbghelp/SymInitializeW"]
+description: Initializes the symbol handler for a process.
+helpviewer_keywords: ["SymInitialize","SymInitialize function","SymInitializeW","_win32_syminitialize","base.syminitialize","dbghelp/SymInitialize","dbghelp/SymInitializeW"]
 old-location: base\syminitialize.htm
 tech.root: Debug
 ms.assetid: fb1c98cb-6cd0-4218-aea4-384c24c66395
@@ -133,6 +134,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymInitialize as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

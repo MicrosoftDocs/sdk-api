@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1svg.ID2D1SvgAttribute
 title: ID2D1SvgAttribute (d2d1svg.h)
-description: Interface describing an SVG attribute.helpviewer_keywords: ["ID2D1SvgAttribute","ID2D1SvgAttribute interface [Direct2D]","ID2D1SvgAttribute interface [Direct2D]","described","d2d1svg/ID2D1SvgAttribute","direct2d.id2d1svgattribute"]
+description: Interface describing an SVG attribute.
+helpviewer_keywords: ["ID2D1SvgAttribute","ID2D1SvgAttribute interface [Direct2D]","ID2D1SvgAttribute interface [Direct2D]","described","d2d1svg/ID2D1SvgAttribute","direct2d.id2d1svgattribute"]
 old-location: direct2d\id2d1svgattribute.htm
 tech.root: Direct2D
 ms.assetid: 7B11D05C-6CD5-4609-B76A-719B92437314

@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupGetNonInteractiveMode
 title: SetupGetNonInteractiveMode function (setupapi.h)
-description: The SetupGetNonInteractiveMode function returns the value of a SetupAPI non-interactive flag that indicates whether the caller's process can interact with a user through user interface components, such as dialog boxes.helpviewer_keywords: ["SetupGetNonInteractiveMode","SetupGetNonInteractiveMode function [Device and Driver Installation]","devinst.setupgetnoninteractivemode","setup-ref_c292cd64-d95d-4e1a-a28b-183ad013bbd3.xml","setupapi/SetupGetNonInteractiveMode"]
+description: The SetupGetNonInteractiveMode function returns the value of a SetupAPI non-interactive flag that indicates whether the caller's process can interact with a user through user interface components, such as dialog boxes.
+helpviewer_keywords: ["SetupGetNonInteractiveMode","SetupGetNonInteractiveMode function [Device and Driver Installation]","devinst.setupgetnoninteractivemode","setup-ref_c292cd64-d95d-4e1a-a28b-183ad013bbd3.xml","setupapi/SetupGetNonInteractiveMode"]
 old-location: devinst\setupgetnoninteractivemode.htm
 tech.root: devinst
 ms.assetid: 0978851d-18a6-47a3-8ac9-0c03c469cbef

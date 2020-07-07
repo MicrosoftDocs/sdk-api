@@ -1,7 +1,8 @@
 ---
 UID: NE:vds._VDS_QUERY_PROVIDER_FLAG
 title: VDS_QUERY_PROVIDER_FLAG (vds.h)
-description: Defines the set of valid flags for provider query operations. Callers can query for hardware providers, software providers, or both.helpviewer_keywords: ["VDS_QUERY_HARDWARE_PROVIDERS","VDS_QUERY_PROVIDER_FLAG","VDS_QUERY_PROVIDER_FLAG enumeration [VDS]","VDS_QUERY_SOFTWARE_PROVIDERS","VDS_QUERY_VIRTUALDISK_PROVIDERS","base.vds_query_provider_flag","vds/VDS_QUERY_HARDWARE_PROVIDERS","vds/VDS_QUERY_PROVIDER_FLAG","vds/VDS_QUERY_SOFTWARE_PROVIDERS","vds/VDS_QUERY_VIRTUALDISK_PROVIDERS","vdshwprv/VDS_QUERY_HARDWARE_PROVIDERS","vdshwprv/VDS_QUERY_PROVIDER_FLAG","vdshwprv/VDS_QUERY_SOFTWARE_PROVIDERS","vdshwprv/VDS_QUERY_VIRTUALDISK_PROVIDERS"]
+description: Defines the set of valid flags for provider query operations. Callers can query for hardware providers, software providers, or both.
+helpviewer_keywords: ["VDS_QUERY_HARDWARE_PROVIDERS","VDS_QUERY_PROVIDER_FLAG","VDS_QUERY_PROVIDER_FLAG enumeration [VDS]","VDS_QUERY_SOFTWARE_PROVIDERS","VDS_QUERY_VIRTUALDISK_PROVIDERS","base.vds_query_provider_flag","vds/VDS_QUERY_HARDWARE_PROVIDERS","vds/VDS_QUERY_PROVIDER_FLAG","vds/VDS_QUERY_SOFTWARE_PROVIDERS","vds/VDS_QUERY_VIRTUALDISK_PROVIDERS","vdshwprv/VDS_QUERY_HARDWARE_PROVIDERS","vdshwprv/VDS_QUERY_PROVIDER_FLAG","vdshwprv/VDS_QUERY_SOFTWARE_PROVIDERS","vdshwprv/VDS_QUERY_VIRTUALDISK_PROVIDERS"]
 old-location: base\vds_query_provider_flag.htm
 tech.root: VDS
 ms.assetid: 849b3cbc-a1ed-438a-8fda-ada096fb8375

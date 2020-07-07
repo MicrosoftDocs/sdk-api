@@ -1,7 +1,8 @@
 ---
 UID: NS:winevt._EVT_RPC_LOGIN
 title: EVT_RPC_LOGIN (winevt.h)
-description: Contains the information used to connect to a remote computer.helpviewer_keywords: ["EVT_RPC_LOGIN","EVT_RPC_LOGIN structure [EventLog]","wes.evt_rpc_login","winevt/_EVT_RPC_LOGIN"]
+description: Contains the information used to connect to a remote computer.
+helpviewer_keywords: ["EVT_RPC_LOGIN","EVT_RPC_LOGIN structure [EventLog]","wes.evt_rpc_login","winevt/_EVT_RPC_LOGIN"]
 old-location: wes\evt_rpc_login.htm
 tech.root: wes
 ms.assetid: 38f74619-1643-461f-b04b-c15567c06ca8

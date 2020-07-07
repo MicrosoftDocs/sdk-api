@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChangeBatchAdvanced.GetFilterInfo
 title: ISyncChangeBatchAdvanced::GetFilterInfo (winsync.h)
-description: Gets the ISyncFilterInfo that was specified when the change batch was created.helpviewer_keywords: ["GetFilterInfo","GetFilterInfo method [Windows Sync]","GetFilterInfo method [Windows Sync]","ISyncChangeBatchAdvanced interface","ISyncChangeBatchAdvanced interface [Windows Sync]","GetFilterInfo method","ISyncChangeBatchAdvanced.GetFilterInfo","ISyncChangeBatchAdvanced::GetFilterInfo","winsync.isyncchangebatchadvanced_getfilterinfo","winsync/ISyncChangeBatchAdvanced::GetFilterInfo"]
+description: Gets the ISyncFilterInfo that was specified when the change batch was created.
+helpviewer_keywords: ["GetFilterInfo","GetFilterInfo method [Windows Sync]","GetFilterInfo method [Windows Sync]","ISyncChangeBatchAdvanced interface","ISyncChangeBatchAdvanced interface [Windows Sync]","GetFilterInfo method","ISyncChangeBatchAdvanced.GetFilterInfo","ISyncChangeBatchAdvanced::GetFilterInfo","winsync.isyncchangebatchadvanced_getfilterinfo","winsync/ISyncChangeBatchAdvanced::GetFilterInfo"]
 old-location: winsync\isyncchangebatchadvanced_getfilterinfo.htm
 tech.root: winsync
 ms.assetid: f630f806-cc5a-408e-bd84-49555ebb41c1

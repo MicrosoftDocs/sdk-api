@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMTuner.Logon
 title: IAMTuner::Logon (strmif.h)
-description: The Logon method logs a user onto the system.helpviewer_keywords: ["IAMTuner interface [DirectShow]","Logon method","IAMTuner.Logon","IAMTuner::Logon","IAMTunerLogon","Logon","Logon method [DirectShow]","Logon method [DirectShow]","IAMTuner interface","dshow.iamtuner_logon","strmif/IAMTuner::Logon"]
+description: The Logon method logs a user onto the system.
+helpviewer_keywords: ["IAMTuner interface [DirectShow]","Logon method","IAMTuner.Logon","IAMTuner::Logon","IAMTunerLogon","Logon","Logon method [DirectShow]","Logon method [DirectShow]","IAMTuner interface","dshow.iamtuner_logon","strmif/IAMTuner::Logon"]
 old-location: dshow\iamtuner_logon.htm
 tech.root: DirectShow
 ms.assetid: b4a5a927-254c-44cd-b17d-e1f47b3f62a7

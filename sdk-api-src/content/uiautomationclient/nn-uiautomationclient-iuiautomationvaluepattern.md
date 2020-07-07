@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationValuePattern
 title: IUIAutomationValuePattern (uiautomationclient.h)
-description: Provides access to a control that contains a value that does not span a range and that can be represented as a string.helpviewer_keywords: ["IUIAutomationValuePattern","IUIAutomationValuePattern interface [Windows Accessibility]","IUIAutomationValuePattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationValuePattern","uiauto_IUIAutomationValuePattern","uiautomationclient/IUIAutomationValuePattern","winauto.uiauto_IUIAutomationValuePattern"]
+description: Provides access to a control that contains a value that does not span a range and that can be represented as a string.
+helpviewer_keywords: ["IUIAutomationValuePattern","IUIAutomationValuePattern interface [Windows Accessibility]","IUIAutomationValuePattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationValuePattern","uiauto_IUIAutomationValuePattern","uiautomationclient/IUIAutomationValuePattern","winauto.uiauto_IUIAutomationValuePattern"]
 old-location: winauto\uiauto_IUIAutomationValuePattern.htm
 tech.root: WinAuto
 ms.assetid: 07277405-1172-42e5-af51-8e2c1ea06894

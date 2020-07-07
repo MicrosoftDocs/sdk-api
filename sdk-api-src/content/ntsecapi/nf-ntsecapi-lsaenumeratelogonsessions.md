@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaEnumerateLogonSessions
 title: LsaEnumerateLogonSessions function (ntsecapi.h)
-description: Retrieves the set of existing logon session identifiers (LUIDs) and the number of sessions.helpviewer_keywords: ["LsaEnumerateLogonSessions","LsaEnumerateLogonSessions function [Security]","_lsa_lsaenumeratelogonsessions","ntsecapi/LsaEnumerateLogonSessions","security.lsaenumeratelogonsessions"]
+description: Retrieves the set of existing logon session identifiers (LUIDs) and the number of sessions.
+helpviewer_keywords: ["LsaEnumerateLogonSessions","LsaEnumerateLogonSessions function [Security]","_lsa_lsaenumeratelogonsessions","ntsecapi/LsaEnumerateLogonSessions","security.lsaenumeratelogonsessions"]
 old-location: security\lsaenumeratelogonsessions.htm
 tech.root: SecAuthN
 ms.assetid: ddf3b9ec-dea7-4333-9ffe-142811048c83

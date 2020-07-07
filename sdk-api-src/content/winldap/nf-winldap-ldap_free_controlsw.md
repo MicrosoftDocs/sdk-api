@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_free_controlsW
 title: ldap_free_controlsW function (winldap.h)
-description: Obsolete function which frees an array of LDAPControl structures.helpviewer_keywords: ["_ldap_ldap_free_controls","ldap.ldap__free__controls","ldap.ldap_free_controls","ldap_free_controls","ldap_free_controls function [LDAP]","ldap_free_controlsA","ldap_free_controlsW","winldap/ldap_free_controls","winldap/ldap_free_controlsA","winldap/ldap_free_controlsW"]
+description: Obsolete function which frees an array of LDAPControl structures.
+helpviewer_keywords: ["_ldap_ldap_free_controls","ldap.ldap__free__controls","ldap.ldap_free_controls","ldap_free_controls","ldap_free_controls function [LDAP]","ldap_free_controlsA","ldap_free_controlsW","winldap/ldap_free_controls","winldap/ldap_free_controlsA","winldap/ldap_free_controlsW"]
 old-location: ldap\ldap_free_controls.htm
 tech.root: ldap
 ms.assetid: 0c663189-5aa7-4dad-b265-c9af873bf576
@@ -79,4 +80,9 @@ If the function fails, an error code is returned. For more information, see
        <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/return-values">Return Values</a>.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The winldap.h header defines ldap_free_controls as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationManager.ProcessInput
 title: IDirectManipulationManager::ProcessInput (directmanipulation.h)
-description: Passes keyboard and mouse messages to the manipulation manager on the app's UI thread.helpviewer_keywords: ["IDirectManipulationManager interface [Direct Manipulation]","ProcessInput method","IDirectManipulationManager.ProcessInput","IDirectManipulationManager::ProcessInput","ProcessInput","ProcessInput method [Direct Manipulation]","ProcessInput method [Direct Manipulation]","IDirectManipulationManager interface","directmanipulation.idirectmanipulationmanager_processinput","directmanipulation/IDirectManipulationManager::ProcessInput"]
+description: Passes keyboard and mouse messages to the manipulation manager on the app's UI thread.
+helpviewer_keywords: ["IDirectManipulationManager interface [Direct Manipulation]","ProcessInput method","IDirectManipulationManager.ProcessInput","IDirectManipulationManager::ProcessInput","ProcessInput","ProcessInput method [Direct Manipulation]","ProcessInput method [Direct Manipulation]","IDirectManipulationManager interface","directmanipulation.idirectmanipulationmanager_processinput","directmanipulation/IDirectManipulationManager::ProcessInput"]
 old-location: directmanipulation\idirectmanipulationmanager_processinput.htm
 tech.root: directmanipulation
 ms.assetid: ed7fa19b-acfe-4d5d-bd71-a77e5016fe68

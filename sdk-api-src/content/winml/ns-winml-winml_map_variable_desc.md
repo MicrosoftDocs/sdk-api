@@ -1,7 +1,8 @@
 ---
 UID: NS:winml.WINML_MAP_VARIABLE_DESC
 title: WINML_MAP_VARIABLE_DESC (winml.h)
-description: Contains description properties of the map variable.helpviewer_keywords: ["MachineLearning.winml_map_variable_desc","PWINML_MAP_VARIABLE_DESC","PWINML_MAP_VARIABLE_DESC structure pointer","WINML_MAP_VARIABLE_DESC","WINML_MAP_VARIABLE_DESC structure","winml/PWINML_MAP_VARIABLE_DESC","winml/WINML_MAP_VARIABLE_DESC"]
+description: Contains description properties of the map variable.
+helpviewer_keywords: ["MachineLearning.winml_map_variable_desc","PWINML_MAP_VARIABLE_DESC","PWINML_MAP_VARIABLE_DESC structure pointer","WINML_MAP_VARIABLE_DESC","WINML_MAP_VARIABLE_DESC structure","winml/PWINML_MAP_VARIABLE_DESC","winml/WINML_MAP_VARIABLE_DESC"]
 old-location: machinelearning\winml_map_variable_desc.htm
 tech.root: MachineLearning
 ms.assetid: 897AA848-EE56-47BF-8CCC-95B6F91D7EE5

@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilter.SetSecurityInfo
 title: IGPMWMIFilter::SetSecurityInfo (gpmgmt.h)
-description: Sets the list of permissions for the current WMI filter to that specified by the object.helpviewer_keywords: ["GPMWMIFilter object [GPMC]","SetSecurityInfo method","IGPMWMIFilter interface [GPMC]","SetSecurityInfo method","IGPMWMIFilter.SetSecurityInfo","IGPMWMIFilter::SetSecurityInfo","SetSecurityInfo","SetSecurityInfo method [GPMC]","SetSecurityInfo method [GPMC]","GPMWMIFilter object","SetSecurityInfo method [GPMC]","IGPMWMIFilter interface","_win32_igpmwmifilter_setsecurityinfo","gpmc.igpmwmifilter_setsecurityinfo","gpmgmt/IGPMWMIFilter::SetSecurityInfo"]
+description: Sets the list of permissions for the current WMI filter to that specified by the object.
+helpviewer_keywords: ["GPMWMIFilter object [GPMC]","SetSecurityInfo method","IGPMWMIFilter interface [GPMC]","SetSecurityInfo method","IGPMWMIFilter.SetSecurityInfo","IGPMWMIFilter::SetSecurityInfo","SetSecurityInfo","SetSecurityInfo method [GPMC]","SetSecurityInfo method [GPMC]","GPMWMIFilter object","SetSecurityInfo method [GPMC]","IGPMWMIFilter interface","_win32_igpmwmifilter_setsecurityinfo","gpmc.igpmwmifilter_setsecurityinfo","gpmgmt/IGPMWMIFilter::SetSecurityInfo"]
 old-location: gpmc\igpmwmifilter_setsecurityinfo.htm
 tech.root: gpmc
 ms.assetid: e03af7ce-dec8-4390-9880-6f5ff050ca0c

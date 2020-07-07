@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManEx.SessionFlagSkipCNCheck
 title: IWSManEx::SessionFlagSkipCNCheck (wsmandisp.h)
-description: Returns the value of the authentication flag WSManFlagSkipCNCheck for use in the flags parameter of IWSMan::CreateSession.helpviewer_keywords: ["IWSManEx interface [Windows Remote Management]","SessionFlagSkipCNCheck method","IWSManEx.SessionFlagSkipCNCheck","IWSManEx::SessionFlagSkipCNCheck","SessionFlagSkipCNCheck","SessionFlagSkipCNCheck method [Windows Remote Management]","SessionFlagSkipCNCheck method [Windows Remote Management]","IWSManEx interface","winrm.iwsmanex_sessionflagskipcncheck","wsmandisp/IWSManEx::SessionFlagSkipCNCheck"]
+description: Returns the value of the authentication flag WSManFlagSkipCNCheck for use in the flags parameter of IWSMan::CreateSession.
+helpviewer_keywords: ["IWSManEx interface [Windows Remote Management]","SessionFlagSkipCNCheck method","IWSManEx.SessionFlagSkipCNCheck","IWSManEx::SessionFlagSkipCNCheck","SessionFlagSkipCNCheck","SessionFlagSkipCNCheck method [Windows Remote Management]","SessionFlagSkipCNCheck method [Windows Remote Management]","IWSManEx interface","winrm.iwsmanex_sessionflagskipcncheck","wsmandisp/IWSManEx::SessionFlagSkipCNCheck"]
 old-location: winrm\iwsmanex_sessionflagskipcncheck.htm
 tech.root: winrm
 ms.assetid: cf364e3a-e532-48cf-9b88-fdc661e70ffa

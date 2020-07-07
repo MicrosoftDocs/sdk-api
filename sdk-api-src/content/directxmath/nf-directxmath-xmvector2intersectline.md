@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector2IntersectLine
 title: XMVector2IntersectLine function (directxmath.h)
-description: Finds the intersection of two lines.helpviewer_keywords: ["Use DirectX..XMVector2IntersectLine","XMVector2IntersectLine","XMVector2IntersectLine method [DirectX Math Support APIs]","dxmath.xmvector2intersectline"]
+description: Finds the intersection of two lines.
+helpviewer_keywords: ["Use DirectX..XMVector2IntersectLine","XMVector2IntersectLine","XMVector2IntersectLine method [DirectX Math Support APIs]","dxmath.xmvector2intersectline"]
 old-location: dxmath\xmvector2intersectline.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2IntersectLine(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)

@@ -1,7 +1,8 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.AddBeziers(IN const PointF,IN INT)
+UID: NF:gdipluspath.GraphicsPath.AddBeziers(INconstPointF,ININT)
 title: GraphicsPath::AddBeziers
-description: The GraphicsPath::AddBeziers method adds a sequence of connected Bezier splines to the current figure of this path.helpviewer_keywords: ["GraphicsPath::AddBeziers"]
+description: The GraphicsPath::AddBeziers method adds a sequence of connected Bezier splines to the current figure of this path.
+helpviewer_keywords: ["GraphicsPath::AddBeziers"]
 ms.assetid: 62a632ff-1282-46e4-a130-809e4bb51c97
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::AddBeziers

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IViewObject2.GetExtent
 title: IViewObject2::GetExtent (oleidl.h)
-description: Retrieves the size that the specified view object will be drawn on the specified target device.helpviewer_keywords: ["GetExtent","GetExtent method [COM]","GetExtent method [COM]","IViewObject2 interface","IViewObject2 interface [COM]","GetExtent method","IViewObject2.GetExtent","IViewObject2::GetExtent","_ole_iviewobject2_getextent","com.iviewobject2_getextent","oleidl/IViewObject2::GetExtent"]
+description: Retrieves the size that the specified view object will be drawn on the specified target device.
+helpviewer_keywords: ["GetExtent","GetExtent method [COM]","GetExtent method [COM]","IViewObject2 interface","IViewObject2 interface [COM]","GetExtent method","IViewObject2.GetExtent","IViewObject2::GetExtent","_ole_iviewobject2_getextent","com.iviewobject2_getextent","oleidl/IViewObject2::GetExtent"]
 old-location: com\iviewobject2_getextent.htm
 tech.root: com
 ms.assetid: 66eedee0-58b5-4676-93db-599ed19a02b6

@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d11.D3D11_QUERY_MISC_FLAG
 title: D3D11_QUERY_MISC_FLAG (d3d11.h)
-description: Flags that describe miscellaneous query behavior.helpviewer_keywords: ["D3D11_QUERY_MISC_FLAG","D3D11_QUERY_MISC_FLAG enumeration [Direct3D 11]","D3D11_QUERY_MISC_PREDICATEHINT","d3d11/D3D11_QUERY_MISC_FLAG","d3d11/D3D11_QUERY_MISC_PREDICATEHINT","direct3d11.d3d11_query_misc_flag","f27525ae-a29c-15ac-7fd8-0d7cafc87209"]
+description: Flags that describe miscellaneous query behavior.
+helpviewer_keywords: ["D3D11_QUERY_MISC_FLAG","D3D11_QUERY_MISC_FLAG enumeration [Direct3D 11]","D3D11_QUERY_MISC_PREDICATEHINT","d3d11/D3D11_QUERY_MISC_FLAG","d3d11/D3D11_QUERY_MISC_PREDICATEHINT","direct3d11.d3d11_query_misc_flag","f27525ae-a29c-15ac-7fd8-0d7cafc87209"]
 old-location: direct3d11\d3d11_query_misc_flag.htm
 tech.root: direct3d11
 ms.assetid: a49a04f9-5804-43fb-b12d-f703721f4d30

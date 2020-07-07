@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplication.put_RemoteAddresses
 title: INetFwAuthorizedApplication::put_RemoteAddresses (netfw.h)
-description: Specifies a set of the remote addresses from which the application can listen for traffic.helpviewer_keywords: ["INetFwAuthorizedApplication interface [ICS/ICF]","RemoteAddresses property","INetFwAuthorizedApplication.RemoteAddresses","INetFwAuthorizedApplication.put_RemoteAddresses","INetFwAuthorizedApplication::RemoteAddresses","INetFwAuthorizedApplication::get_RemoteAddresses","INetFwAuthorizedApplication::put_RemoteAddresses","RemoteAddresses property [ICS/ICF]","RemoteAddresses property [ICS/ICF]","INetFwAuthorizedApplication interface","ics.inetfwauthorizedapplication_remoteaddresses","netfw/INetFwAuthorizedApplication::RemoteAddresses","netfw/INetFwAuthorizedApplication::get_RemoteAddresses","netfw/INetFwAuthorizedApplication::put_RemoteAddresses","put_RemoteAddresses"]
+description: Specifies a set of the remote addresses from which the application can listen for traffic.
+helpviewer_keywords: ["INetFwAuthorizedApplication interface [ICS/ICF]","RemoteAddresses property","INetFwAuthorizedApplication.RemoteAddresses","INetFwAuthorizedApplication.put_RemoteAddresses","INetFwAuthorizedApplication::RemoteAddresses","INetFwAuthorizedApplication::get_RemoteAddresses","INetFwAuthorizedApplication::put_RemoteAddresses","RemoteAddresses property [ICS/ICF]","RemoteAddresses property [ICS/ICF]","INetFwAuthorizedApplication interface","ics.inetfwauthorizedapplication_remoteaddresses","netfw/INetFwAuthorizedApplication::RemoteAddresses","netfw/INetFwAuthorizedApplication::get_RemoteAddresses","netfw/INetFwAuthorizedApplication::put_RemoteAddresses","put_RemoteAddresses"]
 old-location: ics\inetfwauthorizedapplication_remoteaddresses.htm
 tech.root: ics
 ms.assetid: 56e51590-8cde-4c7d-8034-bc13f16f2617

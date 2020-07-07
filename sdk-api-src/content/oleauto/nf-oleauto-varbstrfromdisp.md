@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarBstrFromDisp
 title: VarBstrFromDisp function (oleauto.h)
-description: Converts the default property of an IDispatch instance to a BSTR value.helpviewer_keywords: ["VarBstrFromDisp","VarBstrFromDisp function [Automation]","_oa96_VarBstrFromDisp","automat.varbstrfromdisp","oleauto/VarBstrFromDisp"]
+description: Converts the default property of an IDispatch instance to a BSTR value.
+helpviewer_keywords: ["VarBstrFromDisp","VarBstrFromDisp function [Automation]","_oa96_VarBstrFromDisp","automat.varbstrfromdisp","oleauto/VarBstrFromDisp"]
 old-location: automat\varbstrfromdisp.htm
 tech.root: automat
 ms.assetid: 6a59e80b-96d2-47ff-9d23-fab9d67886b4

@@ -1,7 +1,8 @@
 ---
 UID: NF:vmr9.IVMRSurfaceAllocatorNotify9.ChangeD3DDevice
 title: IVMRSurfaceAllocatorNotify9::ChangeD3DDevice (vmr9.h)
-description: The ChangeD3DDevice method notifies the VMR that the Direct3D device has changed.helpviewer_keywords: ["ChangeD3DDevice","ChangeD3DDevice method [DirectShow]","ChangeD3DDevice method [DirectShow]","IVMRSurfaceAllocatorNotify9 interface","IVMRSurfaceAllocatorNotify9 interface [DirectShow]","ChangeD3DDevice method","IVMRSurfaceAllocatorNotify9.ChangeD3DDevice","IVMRSurfaceAllocatorNotify9::ChangeD3DDevice","IVMRSurfaceAllocatorNotify9ChangeD3DDevice","dshow.ivmrsurfaceallocatornotify9_changed3ddevice","vmr9/IVMRSurfaceAllocatorNotify9::ChangeD3DDevice"]
+description: The ChangeD3DDevice method notifies the VMR that the Direct3D device has changed.
+helpviewer_keywords: ["ChangeD3DDevice","ChangeD3DDevice method [DirectShow]","ChangeD3DDevice method [DirectShow]","IVMRSurfaceAllocatorNotify9 interface","IVMRSurfaceAllocatorNotify9 interface [DirectShow]","ChangeD3DDevice method","IVMRSurfaceAllocatorNotify9.ChangeD3DDevice","IVMRSurfaceAllocatorNotify9::ChangeD3DDevice","IVMRSurfaceAllocatorNotify9ChangeD3DDevice","dshow.ivmrsurfaceallocatornotify9_changed3ddevice","vmr9/IVMRSurfaceAllocatorNotify9::ChangeD3DDevice"]
 old-location: dshow\ivmrsurfaceallocatornotify9_changed3ddevice.htm
 tech.root: DirectShow
 ms.assetid: 42199bdf-0cee-4dd0-98bc-66a8334b743b

@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteMemberName
 title: IAzApplicationGroup::DeleteMemberName (azroles.h)
-description: Removes the specified account name from the list of accounts that belong to the application group.helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteMemberName method","DeleteMemberName","DeleteMemberName method [Security]","DeleteMemberName method [Security]","AzApplicationGroup object","DeleteMemberName method [Security]","IAzApplicationGroup interface","IAzApplicationGroup interface [Security]","DeleteMemberName method","IAzApplicationGroup.DeleteMemberName","IAzApplicationGroup::DeleteMemberName","azroles/IAzApplicationGroup::DeleteMemberName","security.iazapplicationgroup_deletemembername"]
+description: Removes the specified account name from the list of accounts that belong to the application group.
+helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteMemberName method","DeleteMemberName","DeleteMemberName method [Security]","DeleteMemberName method [Security]","AzApplicationGroup object","DeleteMemberName method [Security]","IAzApplicationGroup interface","IAzApplicationGroup interface [Security]","DeleteMemberName method","IAzApplicationGroup.DeleteMemberName","IAzApplicationGroup::DeleteMemberName","azroles/IAzApplicationGroup::DeleteMemberName","security.iazapplicationgroup_deletemembername"]
 old-location: security\iazapplicationgroup_deletemembername.htm
 tech.root: SecAuthZ
 ms.assetid: 3b3a8aee-b1ef-464a-9b67-80b703d41d69

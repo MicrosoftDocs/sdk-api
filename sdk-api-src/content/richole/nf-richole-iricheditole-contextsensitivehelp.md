@@ -1,7 +1,8 @@
 ---
 UID: NF:richole.IRichEditOle.ContextSensitiveHelp
 title: IRichEditOle::ContextSensitiveHelp (richole.h)
-description: Indicates if a rich edit control should transition into or out of context-sensitive help mode. A rich edit control calls the IRichEditOle::ContextSensitiveHelp method of any in-place object which is currently active if a state change is occurring.helpviewer_keywords: ["ContextSensitiveHelp","ContextSensitiveHelp method [Windows Controls]","ContextSensitiveHelp method [Windows Controls]","IRichEditOle interface","IRichEditOle interface [Windows Controls]","ContextSensitiveHelp method","IRichEditOle.ContextSensitiveHelp","IRichEditOle::ContextSensitiveHelp","_win32_IRichEditOle_ContextSensitiveHelp","_win32_IRichEditOle_ContextSensitiveHelp_cpp","controls.IRichEditOle_ContextSensitiveHelp","controls._win32_IRichEditOle_ContextSensitiveHelp","richole/IRichEditOle::ContextSensitiveHelp"]
+description: Indicates if a rich edit control should transition into or out of context-sensitive help mode. A rich edit control calls the IRichEditOle::ContextSensitiveHelp method of any in-place object which is currently active if a state change is occurring.
+helpviewer_keywords: ["ContextSensitiveHelp","ContextSensitiveHelp method [Windows Controls]","ContextSensitiveHelp method [Windows Controls]","IRichEditOle interface","IRichEditOle interface [Windows Controls]","ContextSensitiveHelp method","IRichEditOle.ContextSensitiveHelp","IRichEditOle::ContextSensitiveHelp","_win32_IRichEditOle_ContextSensitiveHelp","_win32_IRichEditOle_ContextSensitiveHelp_cpp","controls.IRichEditOle_ContextSensitiveHelp","controls._win32_IRichEditOle_ContextSensitiveHelp","richole/IRichEditOle::ContextSensitiveHelp"]
 old-location: controls\IRichEditOle_ContextSensitiveHelp.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolecontextsensitivehelp.htm

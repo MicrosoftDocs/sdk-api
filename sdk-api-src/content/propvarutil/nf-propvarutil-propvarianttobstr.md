@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantToBSTR
 title: PropVariantToBSTR function (propvarutil.h)
-description: Extracts the BSTR property value of a PROPVARIANT structure.helpviewer_keywords: ["PropVariantToBSTR","PropVariantToBSTR function [Windows Properties]","_shell_PropVariantToBSTR","properties.PropVariantToBSTR","propvarutil/PropVariantToBSTR","shell.PropVariantToBSTR"]
+description: Extracts the BSTR property value of a PROPVARIANT structure.
+helpviewer_keywords: ["PropVariantToBSTR","PropVariantToBSTR function [Windows Properties]","_shell_PropVariantToBSTR","properties.PropVariantToBSTR","propvarutil/PropVariantToBSTR","shell.PropVariantToBSTR"]
 old-location: properties\PropVariantToBSTR.htm
 tech.root: properties
 ms.assetid: a3aec16e-4fe3-4da4-a06d-f58412ac84b9

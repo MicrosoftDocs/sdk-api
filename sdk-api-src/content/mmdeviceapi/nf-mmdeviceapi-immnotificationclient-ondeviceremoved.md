@@ -1,7 +1,8 @@
 ---
 UID: NF:mmdeviceapi.IMMNotificationClient.OnDeviceRemoved
 title: IMMNotificationClient::OnDeviceRemoved (mmdeviceapi.h)
-description: The OnDeviceRemoved method indicates that an audio endpoint device has been removed.helpviewer_keywords: ["IMMNotificationClient interface [Core Audio]","OnDeviceRemoved method","IMMNotificationClient.OnDeviceRemoved","IMMNotificationClient::OnDeviceRemoved","IMMNotificationClientOnDeviceRemoved","OnDeviceRemoved","OnDeviceRemoved method [Core Audio]","OnDeviceRemoved method [Core Audio]","IMMNotificationClient interface","coreaudio.immnotificationclient_ondeviceremoved","mmdeviceapi/IMMNotificationClient::OnDeviceRemoved"]
+description: The OnDeviceRemoved method indicates that an audio endpoint device has been removed.
+helpviewer_keywords: ["IMMNotificationClient interface [Core Audio]","OnDeviceRemoved method","IMMNotificationClient.OnDeviceRemoved","IMMNotificationClient::OnDeviceRemoved","IMMNotificationClientOnDeviceRemoved","OnDeviceRemoved","OnDeviceRemoved method [Core Audio]","OnDeviceRemoved method [Core Audio]","IMMNotificationClient interface","coreaudio.immnotificationclient_ondeviceremoved","mmdeviceapi/IMMNotificationClient::OnDeviceRemoved"]
 old-location: coreaudio\immnotificationclient_ondeviceremoved.htm
 tech.root: CoreAudio
 ms.assetid: 0adacdd2-5fa3-4d27-a299-fa0d41b6d285

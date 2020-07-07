@@ -1,7 +1,8 @@
 ---
 UID: NE:functiondiscoveryapi.tagSystemVisibilityFlags
 title: SystemVisibilityFlags (functiondiscoveryapi.h)
-description: Determines the visibility of the function instance's data.helpviewer_keywords: ["SVF_SYSTEM","SVF_USER","SystemVisibilityFlags","SystemVisibilityFlags enumeration","functiondiscoveryapi/SVF_SYSTEM","functiondiscoveryapi/SVF_USER","functiondiscoveryapi/SystemVisibilityFlags","ncd.systemvisibilityflags_enum"]
+description: Determines the visibility of the function instance's data.
+helpviewer_keywords: ["SVF_SYSTEM","SVF_USER","SystemVisibilityFlags","SystemVisibilityFlags enumeration","functiondiscoveryapi/SVF_SYSTEM","functiondiscoveryapi/SVF_USER","functiondiscoveryapi/SystemVisibilityFlags","ncd.systemvisibilityflags_enum"]
 old-location: ncd\systemvisibilityflags_enum.htm
 tech.root: FunDisc
 ms.assetid: a3388293-150c-417a-a4a6-0d5020e0ae82

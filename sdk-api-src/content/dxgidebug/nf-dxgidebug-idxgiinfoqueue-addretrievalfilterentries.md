@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.AddRetrievalFilterEntries
 title: IDXGIInfoQueue::AddRetrievalFilterEntries (dxgidebug.h)
-description: Adds retrieval filters to the top of the retrieval-filter stack.helpviewer_keywords: ["AddRetrievalFilterEntries","AddRetrievalFilterEntries method [DXGI]","AddRetrievalFilterEntries method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","AddRetrievalFilterEntries method","IDXGIInfoQueue.AddRetrievalFilterEntries","IDXGIInfoQueue::AddRetrievalFilterEntries","direct3ddxgi.idxgiinfoqueue_addretrievalfilterentries","dxgidebug/IDXGIInfoQueue::AddRetrievalFilterEntries"]
+description: Adds retrieval filters to the top of the retrieval-filter stack.
+helpviewer_keywords: ["AddRetrievalFilterEntries","AddRetrievalFilterEntries method [DXGI]","AddRetrievalFilterEntries method [DXGI]","IDXGIInfoQueue interface","IDXGIInfoQueue interface [DXGI]","AddRetrievalFilterEntries method","IDXGIInfoQueue.AddRetrievalFilterEntries","IDXGIInfoQueue::AddRetrievalFilterEntries","direct3ddxgi.idxgiinfoqueue_addretrievalfilterentries","dxgidebug/IDXGIInfoQueue::AddRetrievalFilterEntries"]
 old-location: direct3ddxgi\idxgiinfoqueue_addretrievalfilterentries.htm
 tech.root: direct3ddxgi
 ms.assetid: D93CB421-6684-4E84-B7FF-7911496078CC

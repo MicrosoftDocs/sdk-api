@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetCredentialsPasswordAt
 title: MI_DestinationOptions_GetCredentialsPasswordAt function (mi.h)
-description: Gets a credentials password based on a specified index.helpviewer_keywords: ["MI_DestinationOptions_GetCredentialsPasswordAt","MI_DestinationOptions_GetCredentialsPasswordAt function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetCredentialsPasswordAt","wmi_v2.mi_destinationoptions_getcredentialspasswordat"]
+description: Gets a credentials password based on a specified index.
+helpviewer_keywords: ["MI_DestinationOptions_GetCredentialsPasswordAt","MI_DestinationOptions_GetCredentialsPasswordAt function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetCredentialsPasswordAt","wmi_v2.mi_destinationoptions_getcredentialspasswordat"]
 old-location: wmi_v2\mi_destinationoptions_getcredentialspasswordat.htm
 tech.root: wmi_v2
 ms.assetid: 95ea5856-5b15-4522-9652-a7b52d89055a

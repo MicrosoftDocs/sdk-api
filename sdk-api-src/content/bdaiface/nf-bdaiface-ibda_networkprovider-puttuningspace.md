@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.PutTuningSpace
 title: IBDA_NetworkProvider::PutTuningSpace (bdaiface.h)
-description: The PutTuningSpace method specifies the tuning space.helpviewer_keywords: ["IBDA_NetworkProvider interface [Microsoft TV Technologies]","PutTuningSpace method","IBDA_NetworkProvider.PutTuningSpace","IBDA_NetworkProvider::PutTuningSpace","IBDA_NetworkProviderPutTuningSpace","PutTuningSpace","PutTuningSpace method [Microsoft TV Technologies]","PutTuningSpace method [Microsoft TV Technologies]","IBDA_NetworkProvider interface","bdaiface/IBDA_NetworkProvider::PutTuningSpace","mstv.ibda_networkprovider_puttuningspace"]
+description: The PutTuningSpace method specifies the tuning space.
+helpviewer_keywords: ["IBDA_NetworkProvider interface [Microsoft TV Technologies]","PutTuningSpace method","IBDA_NetworkProvider.PutTuningSpace","IBDA_NetworkProvider::PutTuningSpace","IBDA_NetworkProviderPutTuningSpace","PutTuningSpace","PutTuningSpace method [Microsoft TV Technologies]","PutTuningSpace method [Microsoft TV Technologies]","IBDA_NetworkProvider interface","bdaiface/IBDA_NetworkProvider::PutTuningSpace","mstv.ibda_networkprovider_puttuningspace"]
 old-location: mstv\ibda_networkprovider_puttuningspace.htm
 tech.root: mstv
 ms.assetid: 4541a675-875b-4a6c-8251-e13abdd46b38

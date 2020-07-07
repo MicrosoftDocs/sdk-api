@@ -1,7 +1,8 @@
 ---
 UID: NF:mfreadwrite.IMFReadWriteClassFactory.CreateInstanceFromObject
 title: IMFReadWriteClassFactory::CreateInstanceFromObject (mfreadwrite.h)
-description: Creates an instance of the sink writer or source reader, given an IUnknown pointer.helpviewer_keywords: ["CLSID_MFSinkWriter","CLSID_MFSourceReader","CreateInstanceFromObject","CreateInstanceFromObject method [Media Foundation]","CreateInstanceFromObject method [Media Foundation]","IMFReadWriteClassFactory interface","IMFByteStream","IMFMediaSink","IMFMediaSource","IMFReadWriteClassFactory interface [Media Foundation]","CreateInstanceFromObject method","IMFReadWriteClassFactory.CreateInstanceFromObject","IMFReadWriteClassFactory::CreateInstanceFromObject","mf.imfreadwriteclassfactory_createinstancefromobject","mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromObject"]
+description: Creates an instance of the sink writer or source reader, given an IUnknown pointer.
+helpviewer_keywords: ["CLSID_MFSinkWriter","CLSID_MFSourceReader","CreateInstanceFromObject","CreateInstanceFromObject method [Media Foundation]","CreateInstanceFromObject method [Media Foundation]","IMFReadWriteClassFactory interface","IMFByteStream","IMFMediaSink","IMFMediaSource","IMFReadWriteClassFactory interface [Media Foundation]","CreateInstanceFromObject method","IMFReadWriteClassFactory.CreateInstanceFromObject","IMFReadWriteClassFactory::CreateInstanceFromObject","mf.imfreadwriteclassfactory_createinstancefromobject","mfreadwrite/IMFReadWriteClassFactory::CreateInstanceFromObject"]
 old-location: mf\imfreadwriteclassfactory_createinstancefromobject.htm
 tech.root: medfound
 ms.assetid: 5da582c2-37f9-47ee-b8ea-d21f1323f1df

@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core.FFFP_MODE
 title: FFFP_MODE (shobjidl_core.h)
-description: Describes match criteria. Used by methods of the IKnownFolderManager interface.helpviewer_keywords: ["FFFP_EXACTMATCH","FFFP_MODE","FFFP_MODE enumeration [Windows Shell]","FFFP_NEARESTPARENTMATCH","_shell_FFFP_MODE","shell.FFFP_MODE","shobjidl_core/FFFP_EXACTMATCH","shobjidl_core/FFFP_MODE","shobjidl_core/FFFP_NEARESTPARENTMATCH"]
+description: Describes match criteria. Used by methods of the IKnownFolderManager interface.
+helpviewer_keywords: ["FFFP_EXACTMATCH","FFFP_MODE","FFFP_MODE enumeration [Windows Shell]","FFFP_NEARESTPARENTMATCH","_shell_FFFP_MODE","shell.FFFP_MODE","shobjidl_core/FFFP_EXACTMATCH","shobjidl_core/FFFP_MODE","shobjidl_core/FFFP_NEARESTPARENTMATCH"]
 old-location: shell\FFFP_MODE.htm
 tech.root: shell
 ms.assetid: ffa62c36-6fdf-4644-b90d-9b5cc989de8a

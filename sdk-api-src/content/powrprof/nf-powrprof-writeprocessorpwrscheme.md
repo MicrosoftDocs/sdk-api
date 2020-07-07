@@ -1,7 +1,8 @@
 ---
 UID: NF:powrprof.WriteProcessorPwrScheme
 title: WriteProcessorPwrScheme function (powrprof.h)
-description: Writes processor power policy settings for the specified power scheme.helpviewer_keywords: ["WriteProcessorPwrScheme","WriteProcessorPwrScheme function","_win32_writeprocessorpwrscheme","base.writeprocessorpwrscheme","powrprof/WriteProcessorPwrScheme"]
+description: Writes processor power policy settings for the specified power scheme.
+helpviewer_keywords: ["WriteProcessorPwrScheme","WriteProcessorPwrScheme function","_win32_writeprocessorpwrscheme","base.writeprocessorpwrscheme","powrprof/WriteProcessorPwrScheme"]
 old-location: base\writeprocessorpwrscheme.htm
 tech.root: power
 ms.assetid: 70e18f50-4774-4a7c-8fe0-7fd6a54aaa90

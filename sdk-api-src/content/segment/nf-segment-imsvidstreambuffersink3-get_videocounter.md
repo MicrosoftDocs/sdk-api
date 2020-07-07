@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidStreamBufferSink3.get_VideoCounter
 title: IMSVidStreamBufferSink3::get_VideoCounter (segment.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","get_VideoCounter method","IMSVidStreamBufferSink3.get_VideoCounter","IMSVidStreamBufferSink3::get_VideoCounter","IMSVidStreamBufferSink3get_VideoCounter","get_VideoCounter","get_VideoCounter method [Microsoft TV Technologies]","get_VideoCounter method [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface","mstv.imsvidstreambuffersink3_get_videocounter","segment/IMSVidStreamBufferSink3::get_VideoCounter"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["IMSVidStreamBufferSink3 interface [Microsoft TV Technologies]","get_VideoCounter method","IMSVidStreamBufferSink3.get_VideoCounter","IMSVidStreamBufferSink3::get_VideoCounter","IMSVidStreamBufferSink3get_VideoCounter","get_VideoCounter","get_VideoCounter method [Microsoft TV Technologies]","get_VideoCounter method [Microsoft TV Technologies]","IMSVidStreamBufferSink3 interface","mstv.imsvidstreambuffersink3_get_videocounter","segment/IMSVidStreamBufferSink3::get_VideoCounter"]
 old-location: mstv\imsvidstreambuffersink3_get_videocounter.htm
 tech.root: mstv
 ms.assetid: 0213f84b-7b82-4326-92c9-86459c8c60ba

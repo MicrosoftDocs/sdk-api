@@ -1,7 +1,8 @@
 ---
 UID: NF:ddrawgdi.DdResetVisrgn
 title: DdResetVisrgn function (ddrawgdi.h)
-description: Wrapper for the NtGdiDdResetVisrgn function and enables timely user-mode information on the clipping region for windows on the desktop.helpviewer_keywords: ["DdResetVisrgn","DdResetVisrgn function [Windows API]","GdiEntry6","_dxgkernel_ddresetvisrgn","ddrawgdi/DdResetVisrgn","ddrawgdi/GdiEntry6","winprog._dxgkernel_ddresetvisrgn","winui._dxgkernel_ddresetvisrgn"]
+description: Wrapper for the NtGdiDdResetVisrgn function and enables timely user-mode information on the clipping region for windows on the desktop.
+helpviewer_keywords: ["DdResetVisrgn","DdResetVisrgn function [Windows API]","GdiEntry6","_dxgkernel_ddresetvisrgn","ddrawgdi/DdResetVisrgn","ddrawgdi/GdiEntry6","winprog._dxgkernel_ddresetvisrgn","winui._dxgkernel_ddresetvisrgn"]
 old-location: winprog\_dxgkernel_ddresetvisrgn.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddresetvisrgn.htm

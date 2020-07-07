@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.SetManualStreamSelection
 title: IWMReaderAdvanced::SetManualStreamSelection (wmsdkidl.h)
-description: The SetManualStreamSelection method specifies whether stream selection is to be controlled manually.helpviewer_keywords: ["IWMReaderAdvanced interface [windows Media Format]","SetManualStreamSelection method","IWMReaderAdvanced.SetManualStreamSelection","IWMReaderAdvanced::SetManualStreamSelection","IWMReaderAdvancedSetManualStreamSelection","SetManualStreamSelection","SetManualStreamSelection method [windows Media Format]","SetManualStreamSelection method [windows Media Format]","IWMReaderAdvanced interface","wmformat.iwmreaderadvanced_setmanualstreamselection","wmsdkidl/IWMReaderAdvanced::SetManualStreamSelection"]
+description: The SetManualStreamSelection method specifies whether stream selection is to be controlled manually.
+helpviewer_keywords: ["IWMReaderAdvanced interface [windows Media Format]","SetManualStreamSelection method","IWMReaderAdvanced.SetManualStreamSelection","IWMReaderAdvanced::SetManualStreamSelection","IWMReaderAdvancedSetManualStreamSelection","SetManualStreamSelection","SetManualStreamSelection method [windows Media Format]","SetManualStreamSelection method [windows Media Format]","IWMReaderAdvanced interface","wmformat.iwmreaderadvanced_setmanualstreamselection","wmsdkidl/IWMReaderAdvanced::SetManualStreamSelection"]
 old-location: wmformat\iwmreaderadvanced_setmanualstreamselection.htm
 tech.root: wmformat
 ms.assetid: 6950b26c-1763-4578-ab5c-0ea29d3d77f1

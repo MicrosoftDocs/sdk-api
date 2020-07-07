@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetImplTypeCustData
 title: ICreateTypeInfo2::SetImplTypeCustData (oaidl.h)
-description: Sets a value for custom data for the specified implementation type.helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetImplTypeCustData method","ICreateTypeInfo2.SetImplTypeCustData","ICreateTypeInfo2::SetImplTypeCustData","SetImplTypeCustData","SetImplTypeCustData method [Automation]","SetImplTypeCustData method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetImplTypeCustData","automat.icreatetypeinfo2_setimpltypecustdata","oaidl/ICreateTypeInfo2::SetImplTypeCustData"]
+description: Sets a value for custom data for the specified implementation type.
+helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetImplTypeCustData method","ICreateTypeInfo2.SetImplTypeCustData","ICreateTypeInfo2::SetImplTypeCustData","SetImplTypeCustData","SetImplTypeCustData method [Automation]","SetImplTypeCustData method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetImplTypeCustData","automat.icreatetypeinfo2_setimpltypecustdata","oaidl/ICreateTypeInfo2::SetImplTypeCustData"]
 old-location: automat\icreatetypeinfo2_setimpltypecustdata.htm
 tech.root: automat
 ms.assetid: f9dee7fc-b713-4a68-a8ea-2398a266e728

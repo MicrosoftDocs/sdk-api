@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern2.get_CachedZoomMinimum
 title: IUIAutomationTransformPattern2::get_CachedZoomMinimum (uiautomationclient.h)
-description: Retrieves the cached minimum zoom level of the control's viewport.helpviewer_keywords: ["CachedZoomMinimum property [Windows Accessibility]","CachedZoomMinimum property [Windows Accessibility]","IUIAutomationTransformPattern2 interface","IUIAutomationTransformPattern2 interface [Windows Accessibility]","CachedZoomMinimum property","IUIAutomationTransformPattern2.CachedZoomMinimum","IUIAutomationTransformPattern2.get_CachedZoomMinimum","IUIAutomationTransformPattern2::CachedZoomMinimum","IUIAutomationTransformPattern2::get_CachedZoomMinimum","get_CachedZoomMinimum","uiautomationclient/IUIAutomationTransformPattern2::CachedZoomMinimum","uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomMinimum","winauto.uiauto_iuiautomationtransformpattern2_cachedzoomminimum"]
+description: Retrieves the cached minimum zoom level of the control's viewport.
+helpviewer_keywords: ["CachedZoomMinimum property [Windows Accessibility]","CachedZoomMinimum property [Windows Accessibility]","IUIAutomationTransformPattern2 interface","IUIAutomationTransformPattern2 interface [Windows Accessibility]","CachedZoomMinimum property","IUIAutomationTransformPattern2.CachedZoomMinimum","IUIAutomationTransformPattern2.get_CachedZoomMinimum","IUIAutomationTransformPattern2::CachedZoomMinimum","IUIAutomationTransformPattern2::get_CachedZoomMinimum","get_CachedZoomMinimum","uiautomationclient/IUIAutomationTransformPattern2::CachedZoomMinimum","uiautomationclient/IUIAutomationTransformPattern2::get_CachedZoomMinimum","winauto.uiauto_iuiautomationtransformpattern2_cachedzoomminimum"]
 old-location: winauto\uiauto_iuiautomationtransformpattern2_cachedzoomminimum.htm
 tech.root: WinAuto
 ms.assetid: 26C56849-204A-47B3-8734-7A16F5577357

@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannelManager.get__NewEnum
 title: IRDPSRAPIVirtualChannelManager::get__NewEnum (rdpencomapi.h)
-description: An enumerator interface for the virtual channel collection.helpviewer_keywords: ["IRDPSRAPIVirtualChannelManager interface [RDP]","_NewEnum property","IRDPSRAPIVirtualChannelManager._NewEnum","IRDPSRAPIVirtualChannelManager.get__NewEnum","IRDPSRAPIVirtualChannelManager::_NewEnum","IRDPSRAPIVirtualChannelManager::get__NewEnum","RDPSRAPIVirtualChannelManager object [RDP]","_NewEnum property","_NewEnum property [RDP]","_NewEnum property [RDP]","IRDPSRAPIVirtualChannelManager interface","_NewEnum property [RDP]","RDPSRAPIVirtualChannelManager object","get__NewEnum","rdp.irdpsrapivirtualchannelmanager__newenum","rdpencomapi/IRDPSRAPIVirtualChannelManager::_NewEnum","rdpencomapi/IRDPSRAPIVirtualChannelManager::get__NewEnum"]
+description: An enumerator interface for the virtual channel collection.
+helpviewer_keywords: ["IRDPSRAPIVirtualChannelManager interface [RDP]","_NewEnum property","IRDPSRAPIVirtualChannelManager._NewEnum","IRDPSRAPIVirtualChannelManager.get__NewEnum","IRDPSRAPIVirtualChannelManager::_NewEnum","IRDPSRAPIVirtualChannelManager::get__NewEnum","RDPSRAPIVirtualChannelManager object [RDP]","_NewEnum property","_NewEnum property [RDP]","_NewEnum property [RDP]","IRDPSRAPIVirtualChannelManager interface","_NewEnum property [RDP]","RDPSRAPIVirtualChannelManager object","get__NewEnum","rdp.irdpsrapivirtualchannelmanager__newenum","rdpencomapi/IRDPSRAPIVirtualChannelManager::_NewEnum","rdpencomapi/IRDPSRAPIVirtualChannelManager::get__NewEnum"]
 old-location: rdp\irdpsrapivirtualchannelmanager__newenum.htm
 tech.root: rdp
 ms.assetid: 791a7d27-b4c0-4476-b048-16bfee0eb7f4

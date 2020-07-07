@@ -1,5 +1,5 @@
 ---
-UID: NF:directxmath.XMFLOAT3X4A.XMFLOAT3X4A(const XMFLOAT3X4A &)
+UID: NF:directxmath.XMFLOAT3X4A.XMFLOAT3X4A(constXMFLOAT3X4A&)
 title: XMFLOAT3X4A::XMFLOAT3X4A
 ms.date: 04/22/2020
 description: Copy constructor for **XMFLOAT3X4A**.

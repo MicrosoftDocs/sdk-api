@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IThumbnailHandlerFactory
 title: IThumbnailHandlerFactory (shobjidl_core.h)
-description: Exposes a method for retrieving the thumbnail handler of an item. Implement this interface if you want to specify what extractor is used for a child IDList.helpviewer_keywords: ["IThumbnailHandlerFactory","IThumbnailHandlerFactory interface [Windows Shell]","IThumbnailHandlerFactory interface [Windows Shell]","described","_shell_IThumbnailHandlerFactory","shell.IThumbnailHandlerFactory","shobjidl_core/IThumbnailHandlerFactory"]
+description: Exposes a method for retrieving the thumbnail handler of an item. Implement this interface if you want to specify what extractor is used for a child IDList.
+helpviewer_keywords: ["IThumbnailHandlerFactory","IThumbnailHandlerFactory interface [Windows Shell]","IThumbnailHandlerFactory interface [Windows Shell]","described","_shell_IThumbnailHandlerFactory","shell.IThumbnailHandlerFactory","shobjidl_core/IThumbnailHandlerFactory"]
 old-location: shell\IThumbnailHandlerFactory.htm
 tech.root: shell
 ms.assetid: 83a9f676-ba03-4a0b-abe6-65f70c8babac

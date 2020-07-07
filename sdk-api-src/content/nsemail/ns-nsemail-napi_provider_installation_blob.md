@@ -1,7 +1,8 @@
 ---
 UID: NS:nsemail.napi_provider_installation_blob_tag
 title: NAPI_PROVIDER_INSTALLATION_BLOB (nsemail.h)
-description: Contains the information required to install a namespace provider for the NS_EMAIL namespace.helpviewer_keywords: ["NAPI_PROVIDER_INSTALLATION_BLOB","NAPI_PROVIDER_INSTALLATION_BLOB structure [Winsock]","PNAPI_PROVIDER_INSTALLATION_BLOB","PNAPI_PROVIDER_INSTALLATION_BLOB structure pointer [Winsock]","nsemail/NAPI_PROVIDER_INSTALLATION_BLOB","nsemail/PNAPI_PROVIDER_INSTALLATION_BLOB","winsock.napi_provider_installation_blob"]
+description: Contains the information required to install a namespace provider for the NS_EMAIL namespace.
+helpviewer_keywords: ["NAPI_PROVIDER_INSTALLATION_BLOB","NAPI_PROVIDER_INSTALLATION_BLOB structure [Winsock]","PNAPI_PROVIDER_INSTALLATION_BLOB","PNAPI_PROVIDER_INSTALLATION_BLOB structure pointer [Winsock]","nsemail/NAPI_PROVIDER_INSTALLATION_BLOB","nsemail/PNAPI_PROVIDER_INSTALLATION_BLOB","winsock.napi_provider_installation_blob"]
 old-location: winsock\napi_provider_installation_blob.htm
 tech.root: WinSock
 ms.assetid: 3444ad63-444a-481d-8fe7-f40b2b7d5283

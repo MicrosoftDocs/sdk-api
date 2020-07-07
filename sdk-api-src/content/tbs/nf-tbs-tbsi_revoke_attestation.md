@@ -1,7 +1,8 @@
 ---
 UID: NF:tbs.Tbsi_Revoke_Attestation
 title: Tbsi_Revoke_Attestation function (tbs.h)
-description: Invalidates the PCRs if the ELAM driver detects a policy-violation (a rootkit, for example).helpviewer_keywords: ["Tbsi_Revoke_Attestation","Tbsi_Revoke_Attestation function [TBS]","tbs.tbsi_revoke_attestation","tbs/Tbsi_Revoke_Attestation"]
+description: Invalidates the PCRs if the ELAM driver detects a policy-violation (a rootkit, for example).
+helpviewer_keywords: ["Tbsi_Revoke_Attestation","Tbsi_Revoke_Attestation function [TBS]","tbs.tbsi_revoke_attestation","tbs/Tbsi_Revoke_Attestation"]
 old-location: tbs\tbsi_revoke_attestation.htm
 tech.root: TBS
 ms.assetid: 64B6BC8F-5031-4A31-86FD-DECA6203D6E4

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleObject.Advise
 title: IOleObject::Advise (oleidl.h)
-description: Establishes an advisory connection between a compound document object and the calling object's advise sink, through which the calling object receives notification when the compound document object is renamed, saved, or closed.helpviewer_keywords: ["Advise","Advise method [COM]","Advise method [COM]","IOleObject interface","IOleObject interface [COM]","Advise method","IOleObject.Advise","IOleObject::Advise","_ole_ioleobject_advise","com.ioleobject_advise","oleidl/IOleObject::Advise"]
+description: Establishes an advisory connection between a compound document object and the calling object's advise sink, through which the calling object receives notification when the compound document object is renamed, saved, or closed.
+helpviewer_keywords: ["Advise","Advise method [COM]","Advise method [COM]","IOleObject interface","IOleObject interface [COM]","Advise method","IOleObject.Advise","IOleObject::Advise","_ole_ioleobject_advise","com.ioleobject_advise","oleidl/IOleObject::Advise"]
 old-location: com\ioleobject_advise.htm
 tech.root: com
 ms.assetid: 6a68c9e9-6e06-4def-89a5-18e184e76a26

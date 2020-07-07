@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerNameToPeerHostName
 title: PeerNameToPeerHostName function (p2p.h)
-description: Encodes the supplied peer name as a format that can be used with a subsequent call to the getaddrinfo Windows Sockets function.helpviewer_keywords: ["PeerNameToPeerHostName","PeerNameToPeerHostName function [Peer Networking]","p2p.peernametopeerhostname","p2p/PeerNameToPeerHostName"]
+description: Encodes the supplied peer name as a format that can be used with a subsequent call to the getaddrinfo Windows Sockets function.
+helpviewer_keywords: ["PeerNameToPeerHostName","PeerNameToPeerHostName function [Peer Networking]","p2p.peernametopeerhostname","p2p/PeerNameToPeerHostName"]
 old-location: p2p\peernametopeerhostname.htm
 tech.root: P2PSdk
 ms.assetid: 430ff635-8c45-44d1-bced-d075faf2bd30

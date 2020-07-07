@@ -1,7 +1,8 @@
 ---
 UID: NF:identitystore.IIdentityStore.GetAt
 title: IIdentityStore::GetAt (identitystore.h)
-description: Retrieves an IIdentityProvider interface pointer for the specified identity provider.helpviewer_keywords: ["GetAt","GetAt method [Security]","GetAt method [Security]","IIdentityStore interface","IIdentityStore interface [Security]","GetAt method","IIdentityStore.GetAt","IIdentityStore::GetAt","identitystore/IIdentityStore::GetAt","security.iidentitystore_getat"]
+description: Retrieves an IIdentityProvider interface pointer for the specified identity provider.
+helpviewer_keywords: ["GetAt","GetAt method [Security]","GetAt method [Security]","IIdentityStore interface","IIdentityStore interface [Security]","GetAt method","IIdentityStore.GetAt","IIdentityStore::GetAt","identitystore/IIdentityStore::GetAt","security.iidentitystore_getat"]
 old-location: security\iidentitystore_getat.htm
 tech.root: SecAuthN
 ms.assetid: c62212bf-852b-43fb-9abf-b85f4d15b305

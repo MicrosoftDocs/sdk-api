@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.get_MinChannel
 title: IAnalogTVTuningSpace::get_MinChannel (tuner.h)
-description: The get_MinChannel method gets the lowest channel number for this tuning space.helpviewer_keywords: ["IAnalogTVTuningSpace interface [Microsoft TV Technologies]","get_MinChannel method","IAnalogTVTuningSpace.get_MinChannel","IAnalogTVTuningSpace::get_MinChannel","IAnalogTVTuningSpaceget_MinChannel","get_MinChannel","get_MinChannel method [Microsoft TV Technologies]","get_MinChannel method [Microsoft TV Technologies]","IAnalogTVTuningSpace interface","mstv.ianalogtvtuningspace_get_minchannel","tuner/IAnalogTVTuningSpace::get_MinChannel"]
+description: The get_MinChannel method gets the lowest channel number for this tuning space.
+helpviewer_keywords: ["IAnalogTVTuningSpace interface [Microsoft TV Technologies]","get_MinChannel method","IAnalogTVTuningSpace.get_MinChannel","IAnalogTVTuningSpace::get_MinChannel","IAnalogTVTuningSpaceget_MinChannel","get_MinChannel","get_MinChannel method [Microsoft TV Technologies]","get_MinChannel method [Microsoft TV Technologies]","IAnalogTVTuningSpace interface","mstv.ianalogtvtuningspace_get_minchannel","tuner/IAnalogTVTuningSpace::get_MinChannel"]
 old-location: mstv\ianalogtvtuningspace_get_minchannel.htm
 tech.root: mstv
 ms.assetid: 94c3136f-6d9e-4396-9bbf-828669d57724

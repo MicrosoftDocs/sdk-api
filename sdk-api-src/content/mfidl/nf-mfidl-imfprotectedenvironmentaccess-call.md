@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFProtectedEnvironmentAccess.Call
 title: IMFProtectedEnvironmentAccess::Call (mfidl.h)
-description: Allows content protection systems to access the protected environment.helpviewer_keywords: ["Call","Call method [Media Foundation]","Call method [Media Foundation]","IMFProtectedEnvironmentAccess interface","IMFProtectedEnvironmentAccess interface [Media Foundation]","Call method","IMFProtectedEnvironmentAccess.Call","IMFProtectedEnvironmentAccess::Call","mf.imfprotectedenvironmentaccess_call","mfidl/IMFProtectedEnvironmentAccess::Call"]
+description: Allows content protection systems to access the protected environment.
+helpviewer_keywords: ["Call","Call method [Media Foundation]","Call method [Media Foundation]","IMFProtectedEnvironmentAccess interface","IMFProtectedEnvironmentAccess interface [Media Foundation]","Call method","IMFProtectedEnvironmentAccess.Call","IMFProtectedEnvironmentAccess::Call","mf.imfprotectedenvironmentaccess_call","mfidl/IMFProtectedEnvironmentAccess::Call"]
 old-location: mf\imfprotectedenvironmentaccess_call.htm
 tech.root: medfound
 ms.assetid: 805473c4-a2c9-483a-9a2c-29a9c63dd58c

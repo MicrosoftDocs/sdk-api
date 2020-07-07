@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITAddress
 title: ITAddress (tapi3if.h)
-description: The ITAddress interface is the base interface for the Address object. Applications use this interface to get information about and use the Address object.helpviewer_keywords: ["ITAddress","ITAddress interface [TAPI 2.2]","ITAddress interface [TAPI 2.2]","described","_tapi3_itaddress","tapi3.itaddress","tapi3if/ITAddress"]
+description: The ITAddress interface is the base interface for the Address object. Applications use this interface to get information about and use the Address object.
+helpviewer_keywords: ["ITAddress","ITAddress interface [TAPI 2.2]","ITAddress interface [TAPI 2.2]","described","_tapi3_itaddress","tapi3.itaddress","tapi3if/ITAddress"]
 old-location: tapi3\itaddress.htm
 tech.root: Tapi
 ms.assetid: 93f2e4cf-013e-4064-88d5-69fddd458274

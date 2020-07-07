@@ -1,7 +1,8 @@
 ---
 UID: NF:t2embapi.TTEmbedFont
 title: TTEmbedFont function (t2embapi.h)
-description: Creates a font structure containing the subsetted wide-character (16-bit) font. The current font of the device context (hDC) provides the font information.helpviewer_keywords: ["CHARSET_SYMBOL","CHARSET_UNICODE","EMBED_EDITABLE","EMBED_INSTALLABLE","EMBED_NOEMBEDDING","EMBED_PREVIEWPRINT","TTEMBED_EMBEDEUDC","TTEMBED_RAW","TTEMBED_SUBSET","TTEMBED_TTCOMPRESSED","TTEmbedFont","TTEmbedFont function [Windows GDI]","_win32_TTEmbedFont","gdi.ttembedfont","t2embapi/TTEmbedFont"]
+description: Creates a font structure containing the subsetted wide-character (16-bit) font. The current font of the device context (hDC) provides the font information.
+helpviewer_keywords: ["CHARSET_SYMBOL","CHARSET_UNICODE","EMBED_EDITABLE","EMBED_INSTALLABLE","EMBED_NOEMBEDDING","EMBED_PREVIEWPRINT","TTEMBED_EMBEDEUDC","TTEMBED_RAW","TTEMBED_SUBSET","TTEMBED_TTCOMPRESSED","TTEmbedFont","TTEmbedFont function [Windows GDI]","_win32_TTEmbedFont","gdi.ttembedfont","t2embapi/TTEmbedFont"]
 old-location: gdi\ttembedfont.htm
 tech.root: gdi
 ms.assetid: 32f1df87-b742-4b5a-8c61-07e758c7660b

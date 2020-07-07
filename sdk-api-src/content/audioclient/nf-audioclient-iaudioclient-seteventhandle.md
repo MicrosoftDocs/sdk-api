@@ -1,7 +1,8 @@
 ---
 UID: NF:audioclient.IAudioClient.SetEventHandle
 title: IAudioClient::SetEventHandle (audioclient.h)
-description: The SetEventHandle method sets the event handle that the system signals when an audio buffer is ready to be processed by the client.helpviewer_keywords: ["IAudioClient interface [Core Audio]","SetEventHandle method","IAudioClient.SetEventHandle","IAudioClient::SetEventHandle","IAudioClientSetEventHandle","SetEventHandle","SetEventHandle method [Core Audio]","SetEventHandle method [Core Audio]","IAudioClient interface","audioclient/IAudioClient::SetEventHandle","coreaudio.iaudioclient_seteventhandle"]
+description: The SetEventHandle method sets the event handle that the system signals when an audio buffer is ready to be processed by the client.
+helpviewer_keywords: ["IAudioClient interface [Core Audio]","SetEventHandle method","IAudioClient.SetEventHandle","IAudioClient::SetEventHandle","IAudioClientSetEventHandle","SetEventHandle","SetEventHandle method [Core Audio]","SetEventHandle method [Core Audio]","IAudioClient interface","audioclient/IAudioClient::SetEventHandle","coreaudio.iaudioclient_seteventhandle"]
 old-location: coreaudio\iaudioclient_seteventhandle.htm
 tech.root: CoreAudio
 ms.assetid: 7bca0c00-5157-43bf-98bd-3bfb23abe860

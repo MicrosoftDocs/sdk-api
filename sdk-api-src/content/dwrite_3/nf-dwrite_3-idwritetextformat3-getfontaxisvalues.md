@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteTextFormat3.GetFontAxisValues
 title: IDWriteTextFormat3::GetFontAxisValues
-description: Retrieves the list of font axis values on the format.helpviewer_keywords: ["IDWriteTextFormat3 interface [Direct Write]","GetFontAxisValues method","IDWriteTextFormat3.GetFontAxisValues","IDWriteTextFormat3::GetFontAxisValues","GetFontAxisValues","GetFontAxisValues method [Direct Write]","GetFontAxisValues method [Direct Write]","IDWriteTextFormat3 interface","directwrite.idwritetextformat3_getfontaxisvalues","dwrite_3/IDWriteTextFormat3::GetFontAxisValues"]
+description: Retrieves the list of font axis values on the format.
+helpviewer_keywords: ["IDWriteTextFormat3 interface [Direct Write]","GetFontAxisValues method","IDWriteTextFormat3.GetFontAxisValues","IDWriteTextFormat3::GetFontAxisValues","GetFontAxisValues","GetFontAxisValues method [Direct Write]","GetFontAxisValues method [Direct Write]","IDWriteTextFormat3 interface","directwrite.idwritetextformat3_getfontaxisvalues","dwrite_3/IDWriteTextFormat3::GetFontAxisValues"]
 tech.root: DirectWrite
 ms.date: 09/17/2019
 ms.keywords: IDWriteTextFormat3 interface [Direct Write],GetFontAxisValues method, IDWriteTextFormat3.GetFontAxisValues, IDWriteTextFormat3::GetFontAxisValues, GetFontAxisValues, GetFontAxisValues method [Direct Write], GetFontAxisValues method [Direct Write],IDWriteTextFormat3 interface, directwrite.idwritetextformat3_getfontaxisvalues, dwrite_3/IDWriteTextFormat3::GetFontAxisValues

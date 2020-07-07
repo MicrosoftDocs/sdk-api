@@ -1,7 +1,8 @@
 ---
 UID: NF:ndfapi.NdfRepairIncident
 title: NdfRepairIncident function (ndfapi.h)
-description: Repairs an incident without displaying a user interface.helpviewer_keywords: ["NdfRepairIncident","NdfRepairIncident function [NDF]","ndf.ndfrepairincident","ndfapi/NdfRepairIncident"]
+description: Repairs an incident without displaying a user interface.
+helpviewer_keywords: ["NdfRepairIncident","NdfRepairIncident function [NDF]","ndf.ndfrepairincident","ndfapi/NdfRepairIncident"]
 old-location: ndf\ndfrepairincident.htm
 tech.root: NDF
 ms.assetid: 570e7824-463f-4fc1-bc1a-16a1da31e8a3

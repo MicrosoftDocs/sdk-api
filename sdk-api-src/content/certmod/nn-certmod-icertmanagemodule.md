@@ -1,7 +1,8 @@
 ---
 UID: NN:certmod.ICertManageModule
 title: ICertManageModule (certmod.h)
-description: Provided to retrieve information about a Certificate Services Policy or Exit module.helpviewer_keywords: ["ICertManageModule","ICertManageModule interface [Security]","ICertManageModule interface [Security]","described","_certsrv_icertmanagemodule","certmod/ICertManageModule","security.icertmanagemodule"]
+description: Provided to retrieve information about a Certificate Services Policy or Exit module.
+helpviewer_keywords: ["ICertManageModule","ICertManageModule interface [Security]","ICertManageModule interface [Security]","described","_certsrv_icertmanagemodule","certmod/ICertManageModule","security.icertmanagemodule"]
 old-location: security\icertmanagemodule.htm
 tech.root: SecCrypto
 ms.assetid: 82b7b770-c098-40da-8a4e-8eb0e0b8a645

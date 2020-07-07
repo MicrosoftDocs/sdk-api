@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextPattern2.GetCaretRange
 title: IUIAutomationTextPattern2::GetCaretRange (uiautomationclient.h)
-description: Retrieves a zero-length text range at the location of the caret that belongs to the text-based control.helpviewer_keywords: ["GetCaretRange","GetCaretRange method [Windows Accessibility]","GetCaretRange method [Windows Accessibility]","IUIAutomationTextPattern2 interface","IUIAutomationTextPattern2 interface [Windows Accessibility]","GetCaretRange method","IUIAutomationTextPattern2.GetCaretRange","IUIAutomationTextPattern2::GetCaretRange","uiautomationclient/IUIAutomationTextPattern2::GetCaretRange","winauto.uiauto_IUIAutomationTextPattern2_GetCaretRange"]
+description: Retrieves a zero-length text range at the location of the caret that belongs to the text-based control.
+helpviewer_keywords: ["GetCaretRange","GetCaretRange method [Windows Accessibility]","GetCaretRange method [Windows Accessibility]","IUIAutomationTextPattern2 interface","IUIAutomationTextPattern2 interface [Windows Accessibility]","GetCaretRange method","IUIAutomationTextPattern2.GetCaretRange","IUIAutomationTextPattern2::GetCaretRange","uiautomationclient/IUIAutomationTextPattern2::GetCaretRange","winauto.uiauto_IUIAutomationTextPattern2_GetCaretRange"]
 old-location: winauto\uiauto_IUIAutomationTextPattern2_GetCaretRange.htm
 tech.root: WinAuto
 ms.assetid: EDB53C04-142E-4DCC-8DD7-F7DD4BC6A67F

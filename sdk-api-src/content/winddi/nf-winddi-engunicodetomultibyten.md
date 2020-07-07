@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngUnicodeToMultiByteN
 title: EngUnicodeToMultiByteN function (winddi.h)
-description: The EngUnicodeToMultiByteN function converts the specified Unicode string into an ANSI string using the current ANSI code page.helpviewer_keywords: ["EngUnicodeToMultiByteN","EngUnicodeToMultiByteN function [Display Devices]","display.engunicodetomultibyten","gdifncs_4c6f2a59-787b-48a8-9676-c9a88f4201f4.xml","winddi/EngUnicodeToMultiByteN"]
+description: The EngUnicodeToMultiByteN function converts the specified Unicode string into an ANSI string using the current ANSI code page.
+helpviewer_keywords: ["EngUnicodeToMultiByteN","EngUnicodeToMultiByteN function [Display Devices]","display.engunicodetomultibyten","gdifncs_4c6f2a59-787b-48a8-9676-c9a88f4201f4.xml","winddi/EngUnicodeToMultiByteN"]
 old-location: display\engunicodetomultibyten.htm
 tech.root: display
 ms.assetid: 5c36322f-7a88-4c24-9f98-aaf3d30f3be4

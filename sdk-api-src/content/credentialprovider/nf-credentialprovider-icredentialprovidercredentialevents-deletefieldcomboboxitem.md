@@ -1,7 +1,8 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem
 title: ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem (credentialprovider.h)
-description: Communicates to the Logon UI or Credential UI that an item should be deleted from a combo box and that the UI should be updated.helpviewer_keywords: ["DeleteFieldComboBoxItem","DeleteFieldComboBoxItem method [Windows Shell]","DeleteFieldComboBoxItem method [Windows Shell]","ICredentialProviderCredentialEvents interface","ICredentialProviderCredentialEvents interface [Windows Shell]","DeleteFieldComboBoxItem method","ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem","ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem","_shell_ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem","credentialprovider/ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem","shell.ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem"]
+description: Communicates to the Logon UI or Credential UI that an item should be deleted from a combo box and that the UI should be updated.
+helpviewer_keywords: ["DeleteFieldComboBoxItem","DeleteFieldComboBoxItem method [Windows Shell]","DeleteFieldComboBoxItem method [Windows Shell]","ICredentialProviderCredentialEvents interface","ICredentialProviderCredentialEvents interface [Windows Shell]","DeleteFieldComboBoxItem method","ICredentialProviderCredentialEvents.DeleteFieldComboBoxItem","ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem","_shell_ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem","credentialprovider/ICredentialProviderCredentialEvents::DeleteFieldComboBoxItem","shell.ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem"]
 old-location: shell\ICredentialProviderCredentialEvents_DeleteFieldComboBoxItem.htm
 tech.root: shell
 ms.assetid: 1d871480-4424-4a5b-8650-0211bad8b09a

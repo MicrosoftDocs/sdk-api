@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ICrmCompensator.PrepareRecord
 title: ICrmCompensator::PrepareRecord (comsvcs.h)
-description: Delivers a log record in forward order during the prepare phase.helpviewer_keywords: ["ICrmCompensator interface [COM+]","PrepareRecord method","ICrmCompensator.PrepareRecord","ICrmCompensator::PrepareRecord","PrepareRecord","PrepareRecord method [COM+]","PrepareRecord method [COM+]","ICrmCompensator interface","_dtc_ICrmCompensator_PrepareRecord","comsvcs/ICrmCompensator::PrepareRecord","cos.icrmcompensator_preparerecord"]
+description: Delivers a log record in forward order during the prepare phase.
+helpviewer_keywords: ["ICrmCompensator interface [COM+]","PrepareRecord method","ICrmCompensator.PrepareRecord","ICrmCompensator::PrepareRecord","PrepareRecord","PrepareRecord method [COM+]","PrepareRecord method [COM+]","ICrmCompensator interface","_dtc_ICrmCompensator_PrepareRecord","comsvcs/ICrmCompensator::PrepareRecord","cos.icrmcompensator_preparerecord"]
 old-location: cos\icrmcompensator_preparerecord.htm
 tech.root: cossdk
 ms.assetid: 12b4d0d5-29f3-4fbb-8091-1b7d5ba0adb4

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetSampleCallback
 title: IMFCaptureRecordSink::SetSampleCallback (mfcaptureengine.h)
-description: Sets a callback to receive the recording data for one stream.helpviewer_keywords: ["IMFCaptureRecordSink interface [Media Foundation]","SetSampleCallback method","IMFCaptureRecordSink.SetSampleCallback","IMFCaptureRecordSink::SetSampleCallback","SetSampleCallback","SetSampleCallback method [Media Foundation]","SetSampleCallback method [Media Foundation]","IMFCaptureRecordSink interface","mf.imfcapturerecordsink_setsamplecallback","mfcaptureengine/IMFCaptureRecordSink::SetSampleCallback"]
+description: Sets a callback to receive the recording data for one stream.
+helpviewer_keywords: ["IMFCaptureRecordSink interface [Media Foundation]","SetSampleCallback method","IMFCaptureRecordSink.SetSampleCallback","IMFCaptureRecordSink::SetSampleCallback","SetSampleCallback","SetSampleCallback method [Media Foundation]","SetSampleCallback method [Media Foundation]","IMFCaptureRecordSink interface","mf.imfcapturerecordsink_setsamplecallback","mfcaptureengine/IMFCaptureRecordSink::SetSampleCallback"]
 old-location: mf\imfcapturerecordsink_setsamplecallback.htm
 tech.root: medfound
 ms.assetid: 1D7BB0D1-3F77-4AF3-9624-73EE4D0D0BCE

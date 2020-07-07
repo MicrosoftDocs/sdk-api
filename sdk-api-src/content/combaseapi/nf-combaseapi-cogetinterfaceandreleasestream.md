@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoGetInterfaceAndReleaseStream
 title: CoGetInterfaceAndReleaseStream function (combaseapi.h)
-description: Unmarshals a buffer containing an interface pointer and releases the stream when an interface pointer has been marshaled from another thread to the calling thread.helpviewer_keywords: ["CoGetInterfaceAndReleaseStream","CoGetInterfaceAndReleaseStream function [COM]","_com_CoGetInterfaceAndReleaseStream","com.cogetinterfaceandreleasestream","combaseapi/CoGetInterfaceAndReleaseStream"]
+description: Unmarshals a buffer containing an interface pointer and releases the stream when an interface pointer has been marshaled from another thread to the calling thread.
+helpviewer_keywords: ["CoGetInterfaceAndReleaseStream","CoGetInterfaceAndReleaseStream function [COM]","_com_CoGetInterfaceAndReleaseStream","com.cogetinterfaceandreleasestream","combaseapi/CoGetInterfaceAndReleaseStream"]
 old-location: com\cogetinterfaceandreleasestream.htm
 tech.root: com
 ms.assetid: b529f65f-3208-4594-a772-d1cad3727dc1

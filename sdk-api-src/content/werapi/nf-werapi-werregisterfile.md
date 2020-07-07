@@ -1,7 +1,8 @@
 ---
 UID: NF:werapi.WerRegisterFile
 title: WerRegisterFile function (werapi.h)
-description: Registers a file to be collected when WER creates an error report.helpviewer_keywords: ["WER_FILE_ANONYMOUS_DATA","WER_FILE_DELETE_WHEN_DONE","WerRegFileTypeMax","WerRegFileTypeOther","WerRegFileTypeUserDocument","WerRegisterFile","WerRegisterFile function [Windows Error Reporting]","base.werregisterfile","wer.werregisterfile","werapi/WerRegisterFile"]
+description: Registers a file to be collected when WER creates an error report.
+helpviewer_keywords: ["WER_FILE_ANONYMOUS_DATA","WER_FILE_DELETE_WHEN_DONE","WerRegFileTypeMax","WerRegFileTypeOther","WerRegFileTypeUserDocument","WerRegisterFile","WerRegisterFile function [Windows Error Reporting]","base.werregisterfile","wer.werregisterfile","werapi/WerRegisterFile"]
 old-location: wer\werregisterfile.htm
 tech.root: wer
 ms.assetid: 4b4bb1bb-6782-447a-901f-75702256d907

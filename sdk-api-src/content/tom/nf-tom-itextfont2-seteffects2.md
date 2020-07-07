@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont2.SetEffects2
 title: ITextFont2::SetEffects2 (tom.h)
-description: Sets the additional character format effects.helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetEffects2 method","ITextFont2.SetEffects2","ITextFont2::SetEffects2","SetEffects2","SetEffects2 method [Windows Controls]","SetEffects2 method [Windows Controls]","ITextFont2 interface","controls.itextfont2_seteffects2","tom/ITextFont2::SetEffects2","tomAutoSpaceAlpha","tomAutoSpaceNumeric","tomAutoSpaceParens","tomDoublestrike","tomEmbeddedFont","tomModWidthPairs","tomModWidthSpace","tomOverlapping"]
+description: Sets the additional character format effects.
+helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetEffects2 method","ITextFont2.SetEffects2","ITextFont2::SetEffects2","SetEffects2","SetEffects2 method [Windows Controls]","SetEffects2 method [Windows Controls]","ITextFont2 interface","controls.itextfont2_seteffects2","tom/ITextFont2::SetEffects2","tomAutoSpaceAlpha","tomAutoSpaceNumeric","tomAutoSpaceParens","tomDoublestrike","tomEmbeddedFont","tomModWidthPairs","tomModWidthSpace","tomOverlapping"]
 old-location: controls\itextfont2_seteffects2.htm
 tech.root: Controls
 ms.assetid: fb4bfbe3-1e66-41ed-92e6-8d4f3877bdf0

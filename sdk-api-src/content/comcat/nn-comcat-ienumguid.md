@@ -1,7 +1,8 @@
 ---
 UID: NN:comcat.IEnumGUID
 title: IEnumGUID (comcat.h)
-description: Enables clients to enumerate through a collection of class IDs for COM classes.helpviewer_keywords: ["IEnumGUID","IEnumGUID interface [COM]","IEnumGUID interface [COM]","described","_com_ienumguid","com.ienumguid","comcat/IEnumGUID"]
+description: Enables clients to enumerate through a collection of class IDs for COM classes.
+helpviewer_keywords: ["IEnumGUID","IEnumGUID interface [COM]","IEnumGUID interface [COM]","described","_com_ienumguid","com.ienumguid","comcat/IEnumGUID"]
 old-location: com\ienumguid.htm
 tech.root: com
 ms.assetid: 4f2e0f96-a471-4883-be41-d93806461020

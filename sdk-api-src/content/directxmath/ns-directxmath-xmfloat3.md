@@ -1,7 +1,8 @@
 ---
 UID: NS:directxmath.XMFLOAT3
 title: XMFLOAT3 (directxmath.h)
-description: Describes a 3D vector consisting of three single-precision floating-point values.helpviewer_keywords: ["XMFLOAT3","XMFLOAT3 structure [DirectX Math Support APIs]","directxmath/XMFLOAT3","dxmath.xmfloat3"]
+description: Describes a 3D vector consisting of three single-precision floating-point values.
+helpviewer_keywords: ["XMFLOAT3","XMFLOAT3 structure [DirectX Math Support APIs]","directxmath/XMFLOAT3","dxmath.xmfloat3"]
 old-location: dxmath\xmfloat3.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMFLOAT3

@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMsgCollection.get_Item
 title: IGPMStatusMsgCollection::get_Item (gpmgmt.h)
-description: Given an index, returns a message from the collection.helpviewer_keywords: ["GPMStatusMsgCollection class [GPMC]","Item property","IGPMStatusMsgCollection interface [GPMC]","Item property","IGPMStatusMsgCollection.Item","IGPMStatusMsgCollection.get_Item","IGPMStatusMsgCollection::Item","IGPMStatusMsgCollection::get_Item","Item property [GPMC]","Item property [GPMC]","GPMStatusMsgCollection class","Item property [GPMC]","IGPMStatusMsgCollection interface","_win32_igpmstatusmsgcollection_get_item","get_Item","gpmc.igpmstatusmsgcollection_get_item","gpmgmt/IGPMStatusMsgCollection::Item","gpmgmt/IGPMStatusMsgCollection::get_Item"]
+description: Given an index, returns a message from the collection.
+helpviewer_keywords: ["GPMStatusMsgCollection class [GPMC]","Item property","IGPMStatusMsgCollection interface [GPMC]","Item property","IGPMStatusMsgCollection.Item","IGPMStatusMsgCollection.get_Item","IGPMStatusMsgCollection::Item","IGPMStatusMsgCollection::get_Item","Item property [GPMC]","Item property [GPMC]","GPMStatusMsgCollection class","Item property [GPMC]","IGPMStatusMsgCollection interface","_win32_igpmstatusmsgcollection_get_item","get_Item","gpmc.igpmstatusmsgcollection_get_item","gpmgmt/IGPMStatusMsgCollection::Item","gpmgmt/IGPMStatusMsgCollection::get_Item"]
 old-location: gpmc\igpmstatusmsgcollection_get_item.htm
 tech.root: gpmc
 ms.assetid: 5cef3e5c-7255-4d38-89cc-4726dfaccd1a

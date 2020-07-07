@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IAtscContentAdvisoryDescriptor.GetRatingRegionCount
 title: IAtscContentAdvisoryDescriptor::GetRatingRegionCount (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRatingRegionCount","GetRatingRegionCount method [Microsoft TV Technologies]","GetRatingRegionCount method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetRatingRegionCount method","IAtscContentAdvisoryDescriptor.GetRatingRegionCount","IAtscContentAdvisoryDescriptor::GetRatingRegionCount","IAtscContentAdvisoryDescriptorGetRatingRegionCount","atscpsipparser/IAtscContentAdvisoryDescriptor::GetRatingRegionCount","mstv.iatsccontentadvisorydescriptor_getratingregioncount"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRatingRegionCount","GetRatingRegionCount method [Microsoft TV Technologies]","GetRatingRegionCount method [Microsoft TV Technologies]","IAtscContentAdvisoryDescriptor interface","IAtscContentAdvisoryDescriptor interface [Microsoft TV Technologies]","GetRatingRegionCount method","IAtscContentAdvisoryDescriptor.GetRatingRegionCount","IAtscContentAdvisoryDescriptor::GetRatingRegionCount","IAtscContentAdvisoryDescriptorGetRatingRegionCount","atscpsipparser/IAtscContentAdvisoryDescriptor::GetRatingRegionCount","mstv.iatsccontentadvisorydescriptor_getratingregioncount"]
 old-location: mstv\iatsccontentadvisorydescriptor_getratingregioncount.htm
 tech.root: mstv
 ms.assetid: e9571bdb-5b0b-4798-b4dc-37ccee51a8b3

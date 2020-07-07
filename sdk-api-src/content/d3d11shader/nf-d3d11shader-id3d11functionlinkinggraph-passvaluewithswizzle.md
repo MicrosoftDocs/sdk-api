@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.PassValueWithSwizzle
 title: ID3D11FunctionLinkingGraph::PassValueWithSwizzle (d3d11shader.h)
-description: Passes a value with swizzle from a source linking node to a destination linking node.helpviewer_keywords: ["ID3D11FunctionLinkingGraph interface [Direct3D 11]","PassValueWithSwizzle method","ID3D11FunctionLinkingGraph.PassValueWithSwizzle","ID3D11FunctionLinkingGraph::PassValueWithSwizzle","PassValueWithSwizzle","PassValueWithSwizzle method [Direct3D 11]","PassValueWithSwizzle method [Direct3D 11]","ID3D11FunctionLinkingGraph interface","d3d11shader/ID3D11FunctionLinkingGraph::PassValueWithSwizzle","direct3d11.id3d11functionlinkinggraph_passvaluewithswizzle"]
+description: Passes a value with swizzle from a source linking node to a destination linking node.
+helpviewer_keywords: ["ID3D11FunctionLinkingGraph interface [Direct3D 11]","PassValueWithSwizzle method","ID3D11FunctionLinkingGraph.PassValueWithSwizzle","ID3D11FunctionLinkingGraph::PassValueWithSwizzle","PassValueWithSwizzle","PassValueWithSwizzle method [Direct3D 11]","PassValueWithSwizzle method [Direct3D 11]","ID3D11FunctionLinkingGraph interface","d3d11shader/ID3D11FunctionLinkingGraph::PassValueWithSwizzle","direct3d11.id3d11functionlinkinggraph_passvaluewithswizzle"]
 old-location: direct3d11\id3d11functionlinkinggraph_passvaluewithswizzle.htm
 tech.root: direct3d11
 ms.assetid: 3D74F848-A58D-4FE9-89D3-7F02A8C86A61

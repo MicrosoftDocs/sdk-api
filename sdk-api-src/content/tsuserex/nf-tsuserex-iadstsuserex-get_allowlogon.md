@@ -1,7 +1,8 @@
 ---
 UID: NF:tsuserex.IADsTSUserEx.get_AllowLogon
 title: IADsTSUserEx::get_AllowLogon (tsuserex.h)
-description: A value that specifies whether the user is allowed to log on to the Remote Desktop Session Host (RD Session Host) server.helpviewer_keywords: ["AllowLogon property [Remote Desktop Services]","AllowLogon property [Remote Desktop Services]","IADsTSUserEx interface","IADsTSUserEx interface [Remote Desktop Services]","AllowLogon property","IADsTSUserEx.AllowLogon","IADsTSUserEx.get_AllowLogon","IADsTSUserEx::AllowLogon","IADsTSUserEx::get_AllowLogon","IADsTSUserEx::put_AllowLogon","get_AllowLogon","termserv.iadstsuserex_allowlogon","tsuserex/IADsTSUserEx::AllowLogon","tsuserex/IADsTSUserEx::get_AllowLogon","tsuserex/IADsTSUserEx::put_AllowLogon"]
+description: A value that specifies whether the user is allowed to log on to the Remote Desktop Session Host (RD Session Host) server.
+helpviewer_keywords: ["AllowLogon property [Remote Desktop Services]","AllowLogon property [Remote Desktop Services]","IADsTSUserEx interface","IADsTSUserEx interface [Remote Desktop Services]","AllowLogon property","IADsTSUserEx.AllowLogon","IADsTSUserEx.get_AllowLogon","IADsTSUserEx::AllowLogon","IADsTSUserEx::get_AllowLogon","IADsTSUserEx::put_AllowLogon","get_AllowLogon","termserv.iadstsuserex_allowlogon","tsuserex/IADsTSUserEx::AllowLogon","tsuserex/IADsTSUserEx::get_AllowLogon","tsuserex/IADsTSUserEx::put_AllowLogon"]
 old-location: termserv\iadstsuserex_allowlogon.htm
 tech.root: TermServ
 ms.assetid: 60271637-b25a-4857-896d-109737d2f046

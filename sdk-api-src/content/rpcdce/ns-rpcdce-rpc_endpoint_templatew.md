@@ -1,7 +1,8 @@
 ---
 UID: NS:rpcdce.__unnamed_struct_3
 title: RPC_ENDPOINT_TEMPLATEW (rpcdce.h)
-description: Specifies the properties of an RPC interface group server endpoint, including protocol sequence and name.helpviewer_keywords: ["*PRPC_ENDPOINT_TEMPLATEW","PRPC_ENDPOINT_TEMPLATE","PRPC_ENDPOINT_TEMPLATE structure pointer [RPC]","RPC_ENDPOINT_TEMPLATE","RPC_ENDPOINT_TEMPLATE structure [RPC]","RPC_ENDPOINT_TEMPLATEA","RPC_ENDPOINT_TEMPLATEW","rpc.rpc_endpoint_template","rpcdce/PRPC_ENDPOINT_TEMPLATE","rpcdce/RPC_ENDPOINT_TEMPLATE","rpcdce/RPC_ENDPOINT_TEMPLATEA","rpcdce/RPC_ENDPOINT_TEMPLATEW"]
+description: Specifies the properties of an RPC interface group server endpoint, including protocol sequence and name.
+helpviewer_keywords: ["*PRPC_ENDPOINT_TEMPLATEW","PRPC_ENDPOINT_TEMPLATE","PRPC_ENDPOINT_TEMPLATE structure pointer [RPC]","RPC_ENDPOINT_TEMPLATE","RPC_ENDPOINT_TEMPLATE structure [RPC]","RPC_ENDPOINT_TEMPLATEA","RPC_ENDPOINT_TEMPLATEW","rpc.rpc_endpoint_template","rpcdce/PRPC_ENDPOINT_TEMPLATE","rpcdce/RPC_ENDPOINT_TEMPLATE","rpcdce/RPC_ENDPOINT_TEMPLATEA","rpcdce/RPC_ENDPOINT_TEMPLATEW"]
 old-location: rpc\rpc_endpoint_template.htm
 tech.root: Rpc
 ms.assetid: F1C4A10B-D7DA-4A2A-B166-F814E6926ADD
@@ -96,6 +97,10 @@ An application developer should balance memory footprint versus scalability requ
 
 
 
+
+
+> [!NOTE]
+> The rpcdce.h header defines RPC_ENDPOINT_TEMPLATE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbComponentGroupDescriptor.GetCountOfRecords
 title: IIsdbComponentGroupDescriptor::GetCountOfRecords (dvbsiparser.h)
-description: Gets the number of component records in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IIsdbComponentGroupDescriptor interface","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IIsdbComponentGroupDescriptor.GetCountOfRecords","IIsdbComponentGroupDescriptor::GetCountOfRecords","dvbsiparser/IIsdbComponentGroupDescriptor::GetCountOfRecords","mstv.iisdbcomponentgroupdescriptor_getcountofrecords"]
+description: Gets the number of component records in an Integrated Services Digital Broadcasting (ISDB) component group descriptor.
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IIsdbComponentGroupDescriptor interface","IIsdbComponentGroupDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IIsdbComponentGroupDescriptor.GetCountOfRecords","IIsdbComponentGroupDescriptor::GetCountOfRecords","dvbsiparser/IIsdbComponentGroupDescriptor::GetCountOfRecords","mstv.iisdbcomponentgroupdescriptor_getcountofrecords"]
 old-location: mstv\iisdbcomponentgroupdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: b5b8334c-a3f1-42f7-81c9-d0c461e17f25

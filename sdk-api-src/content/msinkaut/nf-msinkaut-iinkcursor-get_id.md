@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkCursor.get_Id
 title: IInkCursor::get_Id (msinkaut.h)
-description: Gets the identifier of an object.helpviewer_keywords: ["ID property [Tablet PC]","ID property [Tablet PC]","IInkCursor interface","IInkCursor interface [Tablet PC]","ID property","IInkCursor.ID","IInkCursor.get_ID","IInkCursor.get_Id","IInkCursor::ID","IInkCursor::get_ID","IInkCursor::get_Id","get_Id","msinkaut/IInkCursor::ID","msinkaut/IInkCursor::get_ID","tablet.iinkcursor_id"]
+description: Gets the identifier of an object.
+helpviewer_keywords: ["ID property [Tablet PC]","ID property [Tablet PC]","IInkCursor interface","IInkCursor interface [Tablet PC]","ID property","IInkCursor.ID","IInkCursor.get_ID","IInkCursor.get_Id","IInkCursor::ID","IInkCursor::get_ID","IInkCursor::get_Id","get_Id","msinkaut/IInkCursor::ID","msinkaut/IInkCursor::get_ID","tablet.iinkcursor_id"]
 old-location: tablet\iinkcursor_id.htm
 tech.root: tablet
 ms.assetid: e302ef9f-da38-4190-af78-d26f9fc86543

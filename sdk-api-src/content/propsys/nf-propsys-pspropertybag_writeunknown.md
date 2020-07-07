@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteUnknown
 title: PSPropertyBag_WriteUnknown function (propsys.h)
-description: Writes a property of an unknown data value in a property bag.helpviewer_keywords: ["PSPropertyBag_WriteUnknown","PSPropertyBag_WriteUnknown function [Windows Properties]","properties.PSPropertyBag_WriteUnknown","propsys/PSPropertyBag_WriteUnknown","shell.PSPropertyBag_WriteUnknown","shell_PSPropertyBag_WriteUnknown"]
+description: Writes a property of an unknown data value in a property bag.
+helpviewer_keywords: ["PSPropertyBag_WriteUnknown","PSPropertyBag_WriteUnknown function [Windows Properties]","properties.PSPropertyBag_WriteUnknown","propsys/PSPropertyBag_WriteUnknown","shell.PSPropertyBag_WriteUnknown","shell_PSPropertyBag_WriteUnknown"]
 old-location: properties\PSPropertyBag_WriteUnknown.htm
 tech.root: properties
 ms.assetid: D96643E7-9A14-4410-BD2C-A264B74E0590

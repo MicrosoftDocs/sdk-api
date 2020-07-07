@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IRequiredExtensions
 title: IRequiredExtensions (mmc.h)
-description: The IRequiredExtensions interface is introduced in MMC 1.1.helpviewer_keywords: ["IRequiredExtensions","IRequiredExtensions interface [MMC]","IRequiredExtensions interface [MMC]","described","_slate_irequiredextensions","mmc.irequiredextensions","mmc/IRequiredExtensions"]
+description: The IRequiredExtensions interface is introduced in MMC 1.1.
+helpviewer_keywords: ["IRequiredExtensions","IRequiredExtensions interface [MMC]","IRequiredExtensions interface [MMC]","described","_slate_irequiredextensions","mmc.irequiredextensions","mmc/IRequiredExtensions"]
 old-location: mmc\irequiredextensions.htm
 tech.root: mmc
 ms.assetid: 55832db9-30d9-4a5f-bfef-a014b1050f22

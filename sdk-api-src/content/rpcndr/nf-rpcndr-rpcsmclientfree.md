@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.RpcSmClientFree
 title: RpcSmClientFree function (rpcndr.h)
-description: The RpcSmClientFree function frees memory returned from a client stub.helpviewer_keywords: ["RpcSmClientFree","RpcSmClientFree function [RPC]","_rpc_rpcsmclientfree","rpc.rpcsmclientfree","rpcndr/RpcSmClientFree"]
+description: The RpcSmClientFree function frees memory returned from a client stub.
+helpviewer_keywords: ["RpcSmClientFree","RpcSmClientFree function [RPC]","_rpc_rpcsmclientfree","rpc.rpcsmclientfree","rpcndr/RpcSmClientFree"]
 old-location: rpc\rpcsmclientfree.htm
 tech.root: Rpc
 ms.assetid: b3e9a526-7b78-49a6-9550-e3f682cecfb8

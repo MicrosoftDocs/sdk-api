@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_ImageName
 title: IFaxDeviceProvider::get_ImageName (faxcomex.h)
-description: The IFaxDeviceProvider::get_ImageName property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax service provider (FSP).helpviewer_keywords: ["IFaxDeviceProvider interface [Fax Service]","ImageName property","IFaxDeviceProvider.ImageName","IFaxDeviceProvider.get_ImageName","IFaxDeviceProvider::ImageName","IFaxDeviceProvider::get_ImageName","ImageName property [Fax Service]","ImageName property [Fax Service]","IFaxDeviceProvider interface","_mfax_faxdeviceprovider.imagename","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_imagename_cpp","fax._mfax_faxdeviceprovider_imagename","faxcomex/IFaxDeviceProvider::ImageName","faxcomex/IFaxDeviceProvider::get_ImageName","get_ImageName"]
+description: The IFaxDeviceProvider::get_ImageName property is a null-terminated string that contains the executable image name (DLL path and file name) of the fax service provider (FSP).
+helpviewer_keywords: ["IFaxDeviceProvider interface [Fax Service]","ImageName property","IFaxDeviceProvider.ImageName","IFaxDeviceProvider.get_ImageName","IFaxDeviceProvider::ImageName","IFaxDeviceProvider::get_ImageName","ImageName property [Fax Service]","ImageName property [Fax Service]","IFaxDeviceProvider interface","_mfax_faxdeviceprovider.imagename","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_imagename_cpp","fax._mfax_faxdeviceprovider_imagename","faxcomex/IFaxDeviceProvider::ImageName","faxcomex/IFaxDeviceProvider::get_ImageName","get_ImageName"]
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_imagename_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_150l.htm

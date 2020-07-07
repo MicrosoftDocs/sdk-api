@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.EnumerateSelectedCalls
 title: ITAutomatedPhoneControl::EnumerateSelectedCalls (tapi3if.h)
-description: The EnumerateSelectedCalls method retrieves an enumerator object indicating which calls are currently selected on this phone. See ITAutomatedPhoneControl::SelectCall for more information.helpviewer_keywords: ["EnumerateSelectedCalls","EnumerateSelectedCalls method [TAPI 2.2]","EnumerateSelectedCalls method [TAPI 2.2]","ITAutomatedPhoneControl interface","ITAutomatedPhoneControl interface [TAPI 2.2]","EnumerateSelectedCalls method","ITAutomatedPhoneControl.EnumerateSelectedCalls","ITAutomatedPhoneControl::EnumerateSelectedCalls","_tapi3_itautomatedphonecontrol_enumerateselectedcalls","tapi3.itautomatedphonecontrol_enumerateselectedcalls","tapi3if/ITAutomatedPhoneControl::EnumerateSelectedCalls"]
+description: The EnumerateSelectedCalls method retrieves an enumerator object indicating which calls are currently selected on this phone. See ITAutomatedPhoneControl::SelectCall for more information.
+helpviewer_keywords: ["EnumerateSelectedCalls","EnumerateSelectedCalls method [TAPI 2.2]","EnumerateSelectedCalls method [TAPI 2.2]","ITAutomatedPhoneControl interface","ITAutomatedPhoneControl interface [TAPI 2.2]","EnumerateSelectedCalls method","ITAutomatedPhoneControl.EnumerateSelectedCalls","ITAutomatedPhoneControl::EnumerateSelectedCalls","_tapi3_itautomatedphonecontrol_enumerateselectedcalls","tapi3.itautomatedphonecontrol_enumerateselectedcalls","tapi3if/ITAutomatedPhoneControl::EnumerateSelectedCalls"]
 old-location: tapi3\itautomatedphonecontrol_enumerateselectedcalls.htm
 tech.root: Tapi
 ms.assetid: 534d453c-f47c-48e1-af59-bfa452e2d8d8

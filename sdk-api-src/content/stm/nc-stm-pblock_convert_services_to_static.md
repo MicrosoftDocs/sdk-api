@@ -1,7 +1,8 @@
 ---
 UID: NC:stm.PBLOCK_CONVERT_SERVICES_TO_STATIC
 title: PBLOCK_CONVERT_SERVICES_TO_STATIC (stm.h)
-description: The BlockConvertServicesToStatic function converts all services received on a specified interface to static.helpviewer_keywords: ["BlockConvertServicesToStatic","BlockConvertServicesToStatic callback function [RAS]","PBLOCK_CONVERT_SERVICES_TO_STATIC","PBLOCK_CONVERT_SERVICES_TO_STATIC callback","_mpr_blockconvertservicestostatic","rras.blockconvertservicestostatic","stm/BlockConvertServicesToStatic"]
+description: The BlockConvertServicesToStatic function converts all services received on a specified interface to static.
+helpviewer_keywords: ["BlockConvertServicesToStatic","BlockConvertServicesToStatic callback function [RAS]","PBLOCK_CONVERT_SERVICES_TO_STATIC","PBLOCK_CONVERT_SERVICES_TO_STATIC callback","_mpr_blockconvertservicestostatic","rras.blockconvertservicestostatic","stm/BlockConvertServicesToStatic"]
 old-location: rras\blockconvertservicestostatic.htm
 tech.root: RRAS
 ms.assetid: 60d1ee7b-bba3-4dd1-8faf-520a2e3cfad3

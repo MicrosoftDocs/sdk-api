@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509ExtensionAlternativeNames
 title: IX509ExtensionAlternativeNames (certenroll.h)
-description: Enables you to specify one or more alternative name forms for the subject of a certificate. A certification authority processes the extension by binding the names to the certified public key.helpviewer_keywords: ["IX509ExtensionAlternativeNames","IX509ExtensionAlternativeNames interface [Security]","IX509ExtensionAlternativeNames interface [Security]","described","certenroll/IX509ExtensionAlternativeNames","security.ix509extensionalternativenames"]
+description: Enables you to specify one or more alternative name forms for the subject of a certificate. A certification authority processes the extension by binding the names to the certified public key.
+helpviewer_keywords: ["IX509ExtensionAlternativeNames","IX509ExtensionAlternativeNames interface [Security]","IX509ExtensionAlternativeNames interface [Security]","described","certenroll/IX509ExtensionAlternativeNames","security.ix509extensionalternativenames"]
 old-location: security\ix509extensionalternativenames.htm
 tech.root: seccertenroll
 ms.assetid: facfcc85-c1ca-47a1-90a6-10522b15cc65

@@ -1,7 +1,8 @@
 ---
 UID: NF:infotech.IITDatabase.CreateObject
 title: IITDatabase::CreateObject (infotech.h)
-description: Creates an unnamed object you can reference in the future through the *pdwObjInstance parameter.helpviewer_keywords: ["CreateObject","CreateObject method [HTML Help Workshop]","CreateObject method [HTML Help Workshop]","IITDatabase interface","IITDatabase interface [HTML Help Workshop]","CreateObject method","IITDatabase.CreateObject","IITDatabase::CreateObject","htmlhelp.iitdatabase_createobject","infotech/IITDatabase::CreateObject","refIITDatabaseCreateObject"]
+description: Creates an unnamed object you can reference in the future through the *pdwObjInstance parameter.
+helpviewer_keywords: ["CreateObject","CreateObject method [HTML Help Workshop]","CreateObject method [HTML Help Workshop]","IITDatabase interface","IITDatabase interface [HTML Help Workshop]","CreateObject method","IITDatabase.CreateObject","IITDatabase::CreateObject","htmlhelp.iitdatabase_createobject","infotech/IITDatabase::CreateObject","refIITDatabaseCreateObject"]
 old-location: htmlhelp\iitdatabase_createobject.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitdatabasecreateobject.htm

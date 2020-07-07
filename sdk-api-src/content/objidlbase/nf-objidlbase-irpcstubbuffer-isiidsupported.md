@@ -1,7 +1,8 @@
 ---
 UID: NF:objidlbase.IRpcStubBuffer.IsIIDSupported
 title: IRpcStubBuffer::IsIIDSupported (objidlbase.h)
-description: Determines whether a stub is designed to handle the unmarshaling of a particular interface.helpviewer_keywords: ["IRpcStubBuffer interface [COM]","IsIIDSupported method","IRpcStubBuffer.IsIIDSupported","IRpcStubBuffer::IsIIDSupported","IsIIDSupported","IsIIDSupported method [COM]","IsIIDSupported method [COM]","IRpcStubBuffer interface","_com_irpcstubbuffer_isiidsupported","com.irpcstubbuffer_isiidsupported","objidlbase/IRpcStubBuffer::IsIIDSupported"]
+description: Determines whether a stub is designed to handle the unmarshaling of a particular interface.
+helpviewer_keywords: ["IRpcStubBuffer interface [COM]","IsIIDSupported method","IRpcStubBuffer.IsIIDSupported","IRpcStubBuffer::IsIIDSupported","IsIIDSupported","IsIIDSupported method [COM]","IsIIDSupported method [COM]","IRpcStubBuffer interface","_com_irpcstubbuffer_isiidsupported","com.irpcstubbuffer_isiidsupported","objidlbase/IRpcStubBuffer::IsIIDSupported"]
 old-location: com\irpcstubbuffer_isiidsupported.htm
 tech.root: com
 ms.assetid: 7025d343-9171-4d0f-9e93-61365075edc0

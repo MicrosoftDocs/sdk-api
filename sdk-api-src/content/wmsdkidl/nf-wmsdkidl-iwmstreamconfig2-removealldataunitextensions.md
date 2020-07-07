@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig2.RemoveAllDataUnitExtensions
 title: IWMStreamConfig2::RemoveAllDataUnitExtensions (wmsdkidl.h)
-description: The RemoveAllDataUnitExtensions method removes all data unit extension systems that are associated with the stream.helpviewer_keywords: ["IWMStreamConfig2 interface [windows Media Format]","RemoveAllDataUnitExtensions method","IWMStreamConfig2.RemoveAllDataUnitExtensions","IWMStreamConfig2::RemoveAllDataUnitExtensions","IWMStreamConfig2RemoveAllDataUnitExtensions","RemoveAllDataUnitExtensions","RemoveAllDataUnitExtensions method [windows Media Format]","RemoveAllDataUnitExtensions method [windows Media Format]","IWMStreamConfig2 interface","wmformat.iwmstreamconfig2_removealldataunitextensions","wmsdkidl/IWMStreamConfig2::RemoveAllDataUnitExtensions"]
+description: The RemoveAllDataUnitExtensions method removes all data unit extension systems that are associated with the stream.
+helpviewer_keywords: ["IWMStreamConfig2 interface [windows Media Format]","RemoveAllDataUnitExtensions method","IWMStreamConfig2.RemoveAllDataUnitExtensions","IWMStreamConfig2::RemoveAllDataUnitExtensions","IWMStreamConfig2RemoveAllDataUnitExtensions","RemoveAllDataUnitExtensions","RemoveAllDataUnitExtensions method [windows Media Format]","RemoveAllDataUnitExtensions method [windows Media Format]","IWMStreamConfig2 interface","wmformat.iwmstreamconfig2_removealldataunitextensions","wmsdkidl/IWMStreamConfig2::RemoveAllDataUnitExtensions"]
 old-location: wmformat\iwmstreamconfig2_removealldataunitextensions.htm
 tech.root: wmformat
 ms.assetid: 944c1b6c-1d1b-4a44-9b9e-d673c8d60306

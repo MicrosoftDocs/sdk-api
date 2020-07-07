@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.SetExclusive
 title: IWSDUdpAddress::SetExclusive (wsdbase.h)
-description: Controls whether the socket is in exclusive mode.helpviewer_keywords: ["IWSDUdpAddress interface","SetExclusive method","IWSDUdpAddress.SetExclusive","IWSDUdpAddress::SetExclusive","SetExclusive","SetExclusive method","SetExclusive method","IWSDUdpAddress interface","ncd.iwsdudpaddress_setexclusive","wsdbase/IWSDUdpAddress::SetExclusive"]
+description: Controls whether the socket is in exclusive mode.
+helpviewer_keywords: ["IWSDUdpAddress interface","SetExclusive method","IWSDUdpAddress.SetExclusive","IWSDUdpAddress::SetExclusive","SetExclusive","SetExclusive method","SetExclusive method","IWSDUdpAddress interface","ncd.iwsdudpaddress_setexclusive","wsdbase/IWSDUdpAddress::SetExclusive"]
 old-location: ncd\iwsdudpaddress_setexclusive.htm
 tech.root: WsdApi
 ms.assetid: 08c5ee4a-55a4-4d8b-951e-d7faed45f44f

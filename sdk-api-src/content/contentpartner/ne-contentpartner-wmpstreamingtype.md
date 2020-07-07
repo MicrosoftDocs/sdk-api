@@ -1,7 +1,8 @@
 ---
 UID: NE:contentpartner.WMPStreamingType
 title: WMPStreamingType (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPStreamingType enumeration specifies the type of streaming media.helpviewer_keywords: ["WMPStreamingType","WMPStreamingType enumeration [Windows Media Player]","contentpartner/WMPStreamingType","contentpartner/wmpstMusic","contentpartner/wmpstRadio","contentpartner/wmpstUnknown","contentpartner/wmpstVideo","enumeration [Windows Media Player]","wmp.wmpstreamingtype","wmpstMusic","wmpstRadio","wmpstUnknown","wmpstVideo"]
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The WMPStreamingType enumeration specifies the type of streaming media.
+helpviewer_keywords: ["WMPStreamingType","WMPStreamingType enumeration [Windows Media Player]","contentpartner/WMPStreamingType","contentpartner/wmpstMusic","contentpartner/wmpstRadio","contentpartner/wmpstUnknown","contentpartner/wmpstVideo","enumeration [Windows Media Player]","wmp.wmpstreamingtype","wmpstMusic","wmpstRadio","wmpstUnknown","wmpstVideo"]
 old-location: wmp\wmpstreamingtype.htm
 tech.root: WMP
 ms.assetid: 3ac7e8cb-39c7-4437-a2da-6de5cb1efed9

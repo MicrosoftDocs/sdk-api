@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingFree
 title: RpcBindingFree function (rpcdce.h)
-description: The RpcBindingFree function releases binding-handle resources.helpviewer_keywords: ["RpcBindingFree","RpcBindingFree function [RPC]","_rpc_rpcbindingfree","rpc.rpcbindingfree","rpcdce/RpcBindingFree"]
+description: The RpcBindingFree function releases binding-handle resources.
+helpviewer_keywords: ["RpcBindingFree","RpcBindingFree function [RPC]","_rpc_rpcbindingfree","rpc.rpcbindingfree","rpcdce/RpcBindingFree"]
 old-location: rpc\rpcbindingfree.htm
 tech.root: Rpc
 ms.assetid: 0f85e64f-b4a6-4982-8df5-88caa0a312f6

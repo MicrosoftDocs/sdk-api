@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoDevice.CreateVideoProcessorInputView
 title: ID3D11VideoDevice::CreateVideoProcessorInputView (d3d11.h)
-description: Creates a resource view for a video processor, describing the input sample for the video processing operation.helpviewer_keywords: ["CreateVideoProcessorInputView","CreateVideoProcessorInputView method [Media Foundation]","CreateVideoProcessorInputView method [Media Foundation]","ID3D11VideoDevice interface","ID3D11VideoDevice interface [Media Foundation]","CreateVideoProcessorInputView method","ID3D11VideoDevice.CreateVideoProcessorInputView","ID3D11VideoDevice::CreateVideoProcessorInputView","d3d11/ID3D11VideoDevice::CreateVideoProcessorInputView","mf.id3d11videodevice_createvideoprocessorinputview"]
+description: Creates a resource view for a video processor, describing the input sample for the video processing operation.
+helpviewer_keywords: ["CreateVideoProcessorInputView","CreateVideoProcessorInputView method [Media Foundation]","CreateVideoProcessorInputView method [Media Foundation]","ID3D11VideoDevice interface","ID3D11VideoDevice interface [Media Foundation]","CreateVideoProcessorInputView method","ID3D11VideoDevice.CreateVideoProcessorInputView","ID3D11VideoDevice::CreateVideoProcessorInputView","d3d11/ID3D11VideoDevice::CreateVideoProcessorInputView","mf.id3d11videodevice_createvideoprocessorinputview"]
 old-location: mf\id3d11videodevice_createvideoprocessorinputview.htm
 tech.root: medfound
 ms.assetid: 3245D2AF-74A1-4068-A0BC-577FD42B353E

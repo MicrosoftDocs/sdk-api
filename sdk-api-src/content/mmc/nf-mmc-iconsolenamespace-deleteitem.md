@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsoleNameSpace.DeleteItem
 title: IConsoleNameSpace::DeleteItem (mmc.h)
-description: The IConsoleNameSpace2::DeleteItem method IConsoleNameSpaceenables the snap-in to delete a single item from the scope pane.helpviewer_keywords: ["DeleteItem","DeleteItem method [MMC]","DeleteItem method [MMC]","IConsoleNameSpace interface","DeleteItem method [MMC]","IConsoleNameSpace2 interface","IConsoleNameSpace interface [MMC]","DeleteItem method","IConsoleNameSpace.DeleteItem","IConsoleNameSpace2 interface [MMC]","DeleteItem method","IConsoleNameSpace2::DeleteItem","IConsoleNameSpace::DeleteItem","_slate_iconsolenamespace2_deleteitem","mmc.iconsolenamespace2_deleteitem","mmc/IConsoleNameSpace2::DeleteItem","mmc/IConsoleNameSpace::DeleteItem"]
+description: The IConsoleNameSpace2::DeleteItem method IConsoleNameSpaceenables the snap-in to delete a single item from the scope pane.
+helpviewer_keywords: ["DeleteItem","DeleteItem method [MMC]","DeleteItem method [MMC]","IConsoleNameSpace interface","DeleteItem method [MMC]","IConsoleNameSpace2 interface","IConsoleNameSpace interface [MMC]","DeleteItem method","IConsoleNameSpace.DeleteItem","IConsoleNameSpace2 interface [MMC]","DeleteItem method","IConsoleNameSpace2::DeleteItem","IConsoleNameSpace::DeleteItem","_slate_iconsolenamespace2_deleteitem","mmc.iconsolenamespace2_deleteitem","mmc/IConsoleNameSpace2::DeleteItem","mmc/IConsoleNameSpace::DeleteItem"]
 old-location: mmc\iconsolenamespace2_deleteitem.htm
 tech.root: mmc
 ms.assetid: 488a6c26-e064-44a1-9842-6f41ec25887c

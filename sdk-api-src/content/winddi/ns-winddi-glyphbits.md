@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._GLYPHBITS
 title: GLYPHBITS (winddi.h)
-description: The GLYPHBITS structure is used to define a glyph bitmap.helpviewer_keywords: ["GLYPHBITS","GLYPHBITS structure [Display Devices]","display.glyphbits","grstrcts_597a08d2-215a-4bef-8f5b-a90ded3165fc.xml","winddi/GLYPHBITS"]
+description: The GLYPHBITS structure is used to define a glyph bitmap.
+helpviewer_keywords: ["GLYPHBITS","GLYPHBITS structure [Display Devices]","display.glyphbits","grstrcts_597a08d2-215a-4bef-8f5b-a90ded3165fc.xml","winddi/GLYPHBITS"]
 old-location: display\glyphbits.htm
 tech.root: display
 ms.assetid: d7e0b5dd-dd94-4fc2-8c90-0d656a84c46b

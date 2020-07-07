@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.DetermineMinWidth
 title: IDWriteTextLayout::DetermineMinWidth (dwrite.h)
-description: Determines the minimum possible width the layout can be set to without emergency breaking between the characters of whole words occurring.helpviewer_keywords: ["DetermineMinWidth","DetermineMinWidth method [Direct Write]","DetermineMinWidth method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","DetermineMinWidth method","IDWriteTextLayout.DetermineMinWidth","IDWriteTextLayout::DetermineMinWidth","directwrite.idwritetextlayout_determineminwidth","dwrite/IDWriteTextLayout::DetermineMinWidth"]
+description: Determines the minimum possible width the layout can be set to without emergency breaking between the characters of whole words occurring.
+helpviewer_keywords: ["DetermineMinWidth","DetermineMinWidth method [Direct Write]","DetermineMinWidth method [Direct Write]","IDWriteTextLayout interface","IDWriteTextLayout interface [Direct Write]","DetermineMinWidth method","IDWriteTextLayout.DetermineMinWidth","IDWriteTextLayout::DetermineMinWidth","directwrite.idwritetextlayout_determineminwidth","dwrite/IDWriteTextLayout::DetermineMinWidth"]
 old-location: directwrite\idwritetextlayout_determineminwidth.htm
 tech.root: DirectWrite
 ms.assetid: 8efa1471-1b74-46d4-ac6d-fb1839ce2e74

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IDropTargetProvider.get_DropTargetEffects
 title: IDropTargetProvider::get_DropTargetEffects (uiautomationcore.h)
-description: Retrieves an array of localized strings that enumerate the full set of effects that can happen when the user drops a grabbed element on this drop target as part of a drag-and-drop operation.helpviewer_keywords: ["DropTargetEffects property [Windows Accessibility]","DropTargetEffects property [Windows Accessibility]","IDropTargetProvider interface","IDropTargetProvider interface [Windows Accessibility]","DropTargetEffects property","IDropTargetProvider.DropTargetEffects","IDropTargetProvider.get_DropTargetEffects","IDropTargetProvider::DropTargetEffects","IDropTargetProvider::get_DropTargetEffects","get_DropTargetEffects","uiautomationcore/IDropTargetProvider::DropTargetEffects","uiautomationcore/IDropTargetProvider::get_DropTargetEffects","winauto.uiauto_idroptargetprovider_droptargeteffects"]
+description: Retrieves an array of localized strings that enumerate the full set of effects that can happen when the user drops a grabbed element on this drop target as part of a drag-and-drop operation.
+helpviewer_keywords: ["DropTargetEffects property [Windows Accessibility]","DropTargetEffects property [Windows Accessibility]","IDropTargetProvider interface","IDropTargetProvider interface [Windows Accessibility]","DropTargetEffects property","IDropTargetProvider.DropTargetEffects","IDropTargetProvider.get_DropTargetEffects","IDropTargetProvider::DropTargetEffects","IDropTargetProvider::get_DropTargetEffects","get_DropTargetEffects","uiautomationcore/IDropTargetProvider::DropTargetEffects","uiautomationcore/IDropTargetProvider::get_DropTargetEffects","winauto.uiauto_idroptargetprovider_droptargeteffects"]
 old-location: winauto\uiauto_idroptargetprovider_droptargeteffects.htm
 tech.root: WinAuto
 ms.assetid: FF4080DD-CED0-4F3C-9F0C-BB37BA94DC7D

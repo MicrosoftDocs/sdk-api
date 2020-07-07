@@ -1,7 +1,8 @@
 ---
 UID: NF:adshlp.ADsBuildVarArrayInt
 title: ADsBuildVarArrayInt function (adshlp.h)
-description: The ADsBuildVarArrayInt function builds a variant array of integers from an array of DWORD values.helpviewer_keywords: ["ADsBuildVarArrayInt","ADsBuildVarArrayInt function [ADSI]","_ds_adsbuildvararrayint","adshlp/ADsBuildVarArrayInt","adsi.adsbuildvararrayint"]
+description: The ADsBuildVarArrayInt function builds a variant array of integers from an array of DWORD values.
+helpviewer_keywords: ["ADsBuildVarArrayInt","ADsBuildVarArrayInt function [ADSI]","_ds_adsbuildvararrayint","adshlp/ADsBuildVarArrayInt","adsi.adsbuildvararrayint"]
 old-location: adsi\adsbuildvararrayint.htm
 tech.root: adsi
 ms.assetid: 61b8a3c1-b8ea-4909-b2a6-f1ce342f396d

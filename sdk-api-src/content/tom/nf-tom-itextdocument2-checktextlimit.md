@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument2.CheckTextLimit
 title: ITextDocument2::CheckTextLimit (tom.h)
-description: Checks whether the number of characters to be added would exceed the maximum text limit.helpviewer_keywords: ["CheckTextLimit","CheckTextLimit method [Windows Controls]","CheckTextLimit method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","CheckTextLimit method","ITextDocument2.CheckTextLimit","ITextDocument2::CheckTextLimit","controls.itextdocument2_checktextlimit","tom/ITextDocument2::CheckTextLimit"]
+description: Checks whether the number of characters to be added would exceed the maximum text limit.
+helpviewer_keywords: ["CheckTextLimit","CheckTextLimit method [Windows Controls]","CheckTextLimit method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","CheckTextLimit method","ITextDocument2.CheckTextLimit","ITextDocument2::CheckTextLimit","controls.itextdocument2_checktextlimit","tom/ITextDocument2::CheckTextLimit"]
 old-location: controls\itextdocument2_checktextlimit.htm
 tech.root: Controls
 ms.assetid: 2c3aae14-8fa4-47bf-93ae-1d34333f0356

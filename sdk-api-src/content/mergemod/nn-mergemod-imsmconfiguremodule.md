@@ -1,7 +1,8 @@
 ---
 UID: NN:mergemod.IMsmConfigureModule
 title: IMsmConfigureModule (mergemod.h)
-description: The IMsmConfigureModule interface is a callback interface; it enables the client to provide merge configuration information during the merge process.helpviewer_keywords: ["IMsmConfigureModule","IMsmConfigureModule interface","IMsmConfigureModule interface","described","mergemod/IMsmConfigureModule","setup.imsmconfiguremodule_interface"]
+description: The IMsmConfigureModule interface is a callback interface; it enables the client to provide merge configuration information during the merge process.
+helpviewer_keywords: ["IMsmConfigureModule","IMsmConfigureModule interface","IMsmConfigureModule interface","described","mergemod/IMsmConfigureModule","setup.imsmconfiguremodule_interface"]
 old-location: setup\imsmconfiguremodule_interface.htm
 tech.root: Msi
 ms.assetid: 90e09449-6211-4eae-8fd1-446e0187ed6c

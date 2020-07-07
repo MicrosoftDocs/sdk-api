@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetClients
 title: DhcpEnumSubnetClients function (dhcpsapi.h)
-description: The DhcpEnumSubnetClients function returns an enumerated list of clients with served IP addresses in the specified subnet.helpviewer_keywords: ["DhcpEnumSubnetClients","DhcpEnumSubnetClients function [DHCP]","dhcp.dhcpenumsubnetclients","dhcpsapi/DhcpEnumSubnetClients"]
+description: The DhcpEnumSubnetClients function returns an enumerated list of clients with served IP addresses in the specified subnet.
+helpviewer_keywords: ["DhcpEnumSubnetClients","DhcpEnumSubnetClients function [DHCP]","dhcp.dhcpenumsubnetclients","dhcpsapi/DhcpEnumSubnetClients"]
 old-location: dhcp\dhcpenumsubnetclients.htm
 tech.root: DHCP
 ms.assetid: 04ef441e-0638-4ee7-a6a6-a35ab5cf7a44

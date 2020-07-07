@@ -1,7 +1,8 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperties.get_Count
 title: IWindowsMediaLibrarySharingDeviceProperties::get_Count (wmlss.h)
-description: The get_Count method retrieves the number of properties associated with an individual media device.helpviewer_keywords: ["IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services]","get_Count method","IWindowsMediaLibrarySharingDeviceProperties.get_Count","IWindowsMediaLibrarySharingDeviceProperties::get_Count","get_Count","get_Count method [Windows Media Library Sharing Services]","get_Count method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDeviceProperties interface","wmlss.IWMLSDevicePropertiesget_Count","wmlss/IWindowsMediaLibrarySharingDeviceProperties::get_Count"]
+description: The get_Count method retrieves the number of properties associated with an individual media device.
+helpviewer_keywords: ["IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services]","get_Count method","IWindowsMediaLibrarySharingDeviceProperties.get_Count","IWindowsMediaLibrarySharingDeviceProperties::get_Count","get_Count","get_Count method [Windows Media Library Sharing Services]","get_Count method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDeviceProperties interface","wmlss.IWMLSDevicePropertiesget_Count","wmlss/IWindowsMediaLibrarySharingDeviceProperties::get_Count"]
 old-location: wmlss\IWMLSDevicePropertiesget_Count.htm
 tech.root: WMLSS
 ms.assetid: fd0d1031-875d-4081-b23b-fb2cf77c4f13

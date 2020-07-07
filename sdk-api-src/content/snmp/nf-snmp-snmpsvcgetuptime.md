@@ -1,7 +1,8 @@
 ---
 UID: NF:snmp.SnmpSvcGetUptime
 title: SnmpSvcGetUptime function (snmp.h)
-description: The SnmpSvcGetUptime function retrieves the number of centiseconds that the SNMP service has been running. This function is an element of the SNMP Utility API.helpviewer_keywords: ["SnmpSvcGetUptime","SnmpSvcGetUptime function [SNMP]","_snmp_snmpsvcgetuptime","snmp.snmpsvcgetuptime","snmp/SnmpSvcGetUptime"]
+description: The SnmpSvcGetUptime function retrieves the number of centiseconds that the SNMP service has been running. This function is an element of the SNMP Utility API.
+helpviewer_keywords: ["SnmpSvcGetUptime","SnmpSvcGetUptime function [SNMP]","_snmp_snmpsvcgetuptime","snmp.snmpsvcgetuptime","snmp/SnmpSvcGetUptime"]
 old-location: snmp\snmpsvcgetuptime.htm
 tech.root: SNMP
 ms.assetid: 46702e39-3ea2-471c-9281-3cd7dcae9c9c

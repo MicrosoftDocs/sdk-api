@@ -1,7 +1,8 @@
 ---
 UID: NN:netlistmgr.INetworkEvents
 title: INetworkEvents (netlistmgr.h)
-description: INetworkEvents is a notification sink interface that a client implements to get network related events. These APIs are all callback functions that are called automatically when the respective events are raised.helpviewer_keywords: ["INetworkEvents","INetworkEvents interface [Network Awareness]","INetworkEvents interface [Network Awareness]","described","netlistmgr/INetworkEvents","nla.inetworkevents"]
+description: INetworkEvents is a notification sink interface that a client implements to get network related events. These APIs are all callback functions that are called automatically when the respective events are raised.
+helpviewer_keywords: ["INetworkEvents","INetworkEvents interface [Network Awareness]","INetworkEvents interface [Network Awareness]","described","netlistmgr/INetworkEvents","nla.inetworkevents"]
 old-location: nla\inetworkevents.htm
 tech.root: nla
 ms.assetid: 75cc6efb-dd1b-40b6-84fe-5ba7c244cd72

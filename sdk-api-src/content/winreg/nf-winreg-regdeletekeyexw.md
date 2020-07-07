@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegDeleteKeyExW
 title: RegDeleteKeyExW function (winreg.h)
-description: Deletes a subkey and its values from the specified platform-specific view of the registry.helpviewer_keywords: ["KEY_WOW64_32KEY","KEY_WOW64_64KEY","RegDeleteKeyEx","RegDeleteKeyEx function","RegDeleteKeyExA","RegDeleteKeyExW","base.regdeletekeyex","winreg/RegDeleteKeyEx","winreg/RegDeleteKeyExA","winreg/RegDeleteKeyExW"]
+description: Deletes a subkey and its values from the specified platform-specific view of the registry.
+helpviewer_keywords: ["KEY_WOW64_32KEY","KEY_WOW64_64KEY","RegDeleteKeyEx","RegDeleteKeyEx function","RegDeleteKeyExA","RegDeleteKeyExW","base.regdeletekeyex","winreg/RegDeleteKeyEx","winreg/RegDeleteKeyExA","winreg/RegDeleteKeyExW"]
 old-location: base\regdeletekeyex.htm
 tech.root: SysInfo
 ms.assetid: 41fde6a5-647c-4293-92b8-74be54fa4136
@@ -42,6 +43,7 @@ api_location:
 - API-MS-Win-DownLevel-AdvApi32-l1-1-1.dll
 - MinKernelBase.dll
 - api-ms-win-core-registry-l1-1-1.dll
+- kernel32.dll
 api_name:
 - RegDeleteKeyEx
 - RegDeleteKeyExA
@@ -161,8 +163,13 @@ The subkey to be deleted must not have subkeys. To delete a key and all its subk
 
 If the function succeeds, <b>RegDeleteKeyEx</b> removes the specified key from the registry. The entire key, including all of its values, is removed.
 
+> [!NOTE] 
+> On legacy versions of Windows, this API is also exposed by kernel32.dll.
 
 
+
+> [!NOTE]
+> The winreg.h header defines RegDeleteKeyEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFInputTrustAuthority.BindAccess
 title: IMFInputTrustAuthority::BindAccess (mfidl.h)
-description: Notifies the input trust authority (ITA) that a requested action is about to be performed.helpviewer_keywords: ["94e447af-9311-4a2c-9ec5-be371684f79d","BindAccess","BindAccess method [Media Foundation]","BindAccess method [Media Foundation]","IMFInputTrustAuthority interface","IMFInputTrustAuthority interface [Media Foundation]","BindAccess method","IMFInputTrustAuthority.BindAccess","IMFInputTrustAuthority::BindAccess","mf.imfinputtrustauthority_bindaccess","mfidl/IMFInputTrustAuthority::BindAccess"]
+description: Notifies the input trust authority (ITA) that a requested action is about to be performed.
+helpviewer_keywords: ["94e447af-9311-4a2c-9ec5-be371684f79d","BindAccess","BindAccess method [Media Foundation]","BindAccess method [Media Foundation]","IMFInputTrustAuthority interface","IMFInputTrustAuthority interface [Media Foundation]","BindAccess method","IMFInputTrustAuthority.BindAccess","IMFInputTrustAuthority::BindAccess","mf.imfinputtrustauthority_bindaccess","mfidl/IMFInputTrustAuthority::BindAccess"]
 old-location: mf\imfinputtrustauthority_bindaccess.htm
 tech.root: medfound
 ms.assetid: 94e447af-9311-4a2c-9ec5-be371684f79d

@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.TerminateThread
 title: TerminateThread function (processthreadsapi.h)
-description: Terminates a thread.helpviewer_keywords: ["TerminateThread","TerminateThread function","_win32_terminatethread","base.terminatethread","processthreadsapi/TerminateThread","winbase/TerminateThread"]
+description: Terminates a thread.
+helpviewer_keywords: ["TerminateThread","TerminateThread function","_win32_terminatethread","base.terminatethread","processthreadsapi/TerminateThread","winbase/TerminateThread"]
 old-location: base\terminatethread.htm
 tech.root: ProcThread
 ms.assetid: ae1ad0f3-67df-4573-af22-7086f0470361

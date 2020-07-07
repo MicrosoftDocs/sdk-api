@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertSetStoreProperty
 title: CertSetStoreProperty function (wincrypt.h)
-description: The CertSetStoreProperty function sets a store property.helpviewer_keywords: ["CertSetStoreProperty","CertSetStoreProperty function [Security]","_crypto2_certsetstoreproperty","security.certsetstoreproperty","wincrypt/CertSetStoreProperty"]
+description: The CertSetStoreProperty function sets a store property.
+helpviewer_keywords: ["CertSetStoreProperty","CertSetStoreProperty function [Security]","_crypto2_certsetstoreproperty","security.certsetstoreproperty","wincrypt/CertSetStoreProperty"]
 old-location: security\certsetstoreproperty.htm
 tech.root: SecCrypto
 ms.assetid: e043486d-9a6e-46c0-b258-6f8d463bf6fe

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFont.GetInformationalStrings
 title: IDWriteFont::GetInformationalStrings (dwrite.h)
-description: Gets a localized strings collection containing the specified informational strings, indexed by locale name.helpviewer_keywords: ["GetInformationalStrings","GetInformationalStrings method [Direct Write]","GetInformationalStrings method [Direct Write]","IDWriteFont interface","IDWriteFont interface [Direct Write]","GetInformationalStrings method","IDWriteFont.GetInformationalStrings","IDWriteFont::GetInformationalStrings","directwrite.IDWriteFont_GetInformationalStrings","dwrite/IDWriteFont::GetInformationalStrings"]
+description: Gets a localized strings collection containing the specified informational strings, indexed by locale name.
+helpviewer_keywords: ["GetInformationalStrings","GetInformationalStrings method [Direct Write]","GetInformationalStrings method [Direct Write]","IDWriteFont interface","IDWriteFont interface [Direct Write]","GetInformationalStrings method","IDWriteFont.GetInformationalStrings","IDWriteFont::GetInformationalStrings","directwrite.IDWriteFont_GetInformationalStrings","dwrite/IDWriteFont::GetInformationalStrings"]
 old-location: directwrite\IDWriteFont_GetInformationalStrings.htm
 tech.root: DirectWrite
 ms.assetid: a23fec10-4027-45eb-9c29-01df385b24e7

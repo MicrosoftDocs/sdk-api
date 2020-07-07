@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_GetImageCount
 title: ImageList_GetImageCount function (commctrl.h)
-description: Retrieves the number of images in an image list.helpviewer_keywords: ["ImageList_GetImageCount","ImageList_GetImageCount function [Windows Controls]","_win32_ImageList_GetImageCount","_win32_ImageList_GetImageCount_cpp","commctrl/ImageList_GetImageCount","controls.ImageList_GetImageCount","controls._win32_ImageList_GetImageCount"]
+description: Retrieves the number of images in an image list.
+helpviewer_keywords: ["ImageList_GetImageCount","ImageList_GetImageCount function [Windows Controls]","_win32_ImageList_GetImageCount","_win32_ImageList_GetImageCount_cpp","commctrl/ImageList_GetImageCount","controls.ImageList_GetImageCount","controls._win32_ImageList_GetImageCount"]
 old-location: controls\ImageList_GetImageCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_getimagecount.htm

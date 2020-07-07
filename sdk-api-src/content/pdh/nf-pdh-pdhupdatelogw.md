@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhUpdateLogW
 title: PdhUpdateLogW function (pdh.h)
-description: Collects counter data for the current query and writes the data to the log file.helpviewer_keywords: ["PdhUpdateLog","PdhUpdateLog function [Perf]","PdhUpdateLogA","PdhUpdateLogW","_win32_pdhupdatelog","base.pdhupdatelog","pdh/PdhUpdateLog","pdh/PdhUpdateLogA","pdh/PdhUpdateLogW","perf.pdhupdatelog"]
+description: Collects counter data for the current query and writes the data to the log file.
+helpviewer_keywords: ["PdhUpdateLog","PdhUpdateLog function [Perf]","PdhUpdateLogA","PdhUpdateLogW","_win32_pdhupdatelog","base.pdhupdatelog","pdh/PdhUpdateLog","pdh/PdhUpdateLogA","pdh/PdhUpdateLogW","perf.pdhupdatelog"]
 old-location: perf\pdhupdatelog.htm
 tech.root: perfctrs
 ms.assetid: b2052275-6944-41f4-92ac-38967ed270f3
@@ -130,6 +131,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhUpdateLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

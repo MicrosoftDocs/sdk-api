@@ -1,7 +1,8 @@
 ---
 UID: NF:cmnquery.IPersistQuery.ReadString
 title: IPersistQuery::ReadString (cmnquery.h)
-description: Reads a string from the query store.helpviewer_keywords: ["IPersistQuery interface [Active Directory]","ReadString method","IPersistQuery.ReadString","IPersistQuery::ReadString","ReadString","ReadString method [Active Directory]","ReadString method [Active Directory]","IPersistQuery interface","_glines_ipersistquery_readstring","ad.ipersistquery__readstring","ad.ipersistquery_readstring","cmnquery/IPersistQuery::ReadString"]
+description: Reads a string from the query store.
+helpviewer_keywords: ["IPersistQuery interface [Active Directory]","ReadString method","IPersistQuery.ReadString","IPersistQuery::ReadString","ReadString","ReadString method [Active Directory]","ReadString method [Active Directory]","IPersistQuery interface","_glines_ipersistquery_readstring","ad.ipersistquery__readstring","ad.ipersistquery_readstring","cmnquery/IPersistQuery::ReadString"]
 old-location: ad\ipersistquery_readstring.htm
 tech.root: ad
 ms.assetid: 5d96234f-080e-49c6-ae31-c4eb672ecf04

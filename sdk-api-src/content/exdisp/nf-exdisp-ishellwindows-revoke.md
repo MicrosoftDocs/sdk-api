@@ -1,7 +1,8 @@
 ---
 UID: NF:exdisp.IShellWindows.Revoke
 title: IShellWindows::Revoke (exdisp.h)
-description: Revokes a Shell window's registration and removes the window from the Shell windows collection.helpviewer_keywords: ["IShellWindows interface [Windows Shell]","Revoke method","IShellWindows.Revoke","IShellWindows::Revoke","Revoke","Revoke method [Windows Shell]","Revoke method [Windows Shell]","IShellWindows interface","_win32_IShellWindows_Revoke","exdisp/IShellWindows::Revoke","shell.IShellWindows_Revoke"]
+description: Revokes a Shell window's registration and removes the window from the Shell windows collection.
+helpviewer_keywords: ["IShellWindows interface [Windows Shell]","Revoke method","IShellWindows.Revoke","IShellWindows::Revoke","Revoke","Revoke method [Windows Shell]","Revoke method [Windows Shell]","IShellWindows interface","_win32_IShellWindows_Revoke","exdisp/IShellWindows::Revoke","shell.IShellWindows_Revoke"]
 old-location: shell\IShellWindows_Revoke.htm
 tech.root: shell
 ms.assetid: 66ca2569-b763-445b-b5b5-98ef32c64578

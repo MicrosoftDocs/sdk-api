@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.GET_Y_LPARAM
 title: GET_Y_LPARAM macro (windowsx.h)
-description: Retrieves the signed y-coordinate from the given LPARAM value.helpviewer_keywords: ["GET_Y_LPARAM","GET_Y_LPARAM macro [Windows and Messages]","_win32_GET_Y_LPARAM","_win32_get_y_lparam_cpp","windowsx/GET_Y_LPARAM","winmsg.get_y_lparam","winui._win32_get_y_lparam"]
+description: Retrieves the signed y-coordinate from the given LPARAM value.
+helpviewer_keywords: ["GET_Y_LPARAM","GET_Y_LPARAM macro [Windows and Messages]","_win32_GET_Y_LPARAM","_win32_get_y_lparam_cpp","windowsx/GET_Y_LPARAM","winmsg.get_y_lparam","winui._win32_get_y_lparam"]
 old-location: winmsg\get_y_lparam.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\get_y_lparam.htm

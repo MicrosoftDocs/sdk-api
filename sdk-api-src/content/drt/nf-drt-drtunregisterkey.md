@@ -1,7 +1,8 @@
 ---
 UID: NF:drt.DrtUnregisterKey
 title: DrtUnregisterKey function (drt.h)
-description: The DrtUnregisterKey function deregisters a key from the DRT.helpviewer_keywords: ["DrtUnregisterKey","DrtUnregisterKey function [Peer Networking]","drt/DrtUnregisterKey","p2p.drtunregisterkey"]
+description: The DrtUnregisterKey function deregisters a key from the DRT.
+helpviewer_keywords: ["DrtUnregisterKey","DrtUnregisterKey function [Peer Networking]","drt/DrtUnregisterKey","p2p.drtunregisterkey"]
 old-location: p2p\drtunregisterkey.htm
 tech.root: P2PSdk
 ms.assetid: cf8f877b-44a8-4153-bf02-0b0061bc53d2

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleInPlaceActiveObject.OnDocWindowActivate
 title: IOleInPlaceActiveObject::OnDocWindowActivate (oleidl.h)
-description: Notifies the active in-place object when the container's document window is activated or deactivated.helpviewer_keywords: ["IOleInPlaceActiveObject interface [COM]","OnDocWindowActivate method","IOleInPlaceActiveObject.OnDocWindowActivate","IOleInPlaceActiveObject::OnDocWindowActivate","OnDocWindowActivate","OnDocWindowActivate method [COM]","OnDocWindowActivate method [COM]","IOleInPlaceActiveObject interface","_ole_ioleinplaceactiveobject_ondocwindowactivate","com.ioleinplaceactiveobject_ondocwindowactivate","oleidl/IOleInPlaceActiveObject::OnDocWindowActivate"]
+description: Notifies the active in-place object when the container's document window is activated or deactivated.
+helpviewer_keywords: ["IOleInPlaceActiveObject interface [COM]","OnDocWindowActivate method","IOleInPlaceActiveObject.OnDocWindowActivate","IOleInPlaceActiveObject::OnDocWindowActivate","OnDocWindowActivate","OnDocWindowActivate method [COM]","OnDocWindowActivate method [COM]","IOleInPlaceActiveObject interface","_ole_ioleinplaceactiveobject_ondocwindowactivate","com.ioleinplaceactiveobject_ondocwindowactivate","oleidl/IOleInPlaceActiveObject::OnDocWindowActivate"]
 old-location: com\ioleinplaceactiveobject_ondocwindowactivate.htm
 tech.root: com
 ms.assetid: 8333d707-4d34-4a87-9990-b25597ffa9fc

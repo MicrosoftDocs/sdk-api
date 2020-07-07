@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphEnumRecords
 title: PeerGraphEnumRecords function (p2p.h)
-description: The PeerGraphEnumRecords function creates and returns an enumeration handle used to enumerate records of a specific type of record, user, or both. An enumeration provides a snapshot of records at the time an enumeration is performed.helpviewer_keywords: ["PeerGraphEnumRecords","PeerGraphEnumRecords function [Peer Networking]","p2p.peergraphenumrecords","p2p/PeerGraphEnumRecords"]
+description: The PeerGraphEnumRecords function creates and returns an enumeration handle used to enumerate records of a specific type of record, user, or both. An enumeration provides a snapshot of records at the time an enumeration is performed.
+helpviewer_keywords: ["PeerGraphEnumRecords","PeerGraphEnumRecords function [Peer Networking]","p2p.peergraphenumrecords","p2p/PeerGraphEnumRecords"]
 old-location: p2p\peergraphenumrecords.htm
 tech.root: P2PSdk
 ms.assetid: 528c7172-56ed-4e14-991a-69e9fde7b227

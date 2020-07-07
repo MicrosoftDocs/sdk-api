@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.GetShellItem
 title: ISearchFolderItemFactory::GetShellItem (shobjidl_core.h)
-description: Gets the search folder as a IShellItem.helpviewer_keywords: ["GetShellItem","GetShellItem method [Windows Shell]","GetShellItem method [Windows Shell]","ISearchFolderItemFactory interface","ISearchFolderItemFactory interface [Windows Shell]","GetShellItem method","ISearchFolderItemFactory.GetShellItem","ISearchFolderItemFactory::GetShellItem","_shell_ISearchFolderItemFactory_GetShellItem","shell.ISearchFolderItemFactory_GetShellItem","shobjidl_core/ISearchFolderItemFactory::GetShellItem"]
+description: Gets the search folder as a IShellItem.
+helpviewer_keywords: ["GetShellItem","GetShellItem method [Windows Shell]","GetShellItem method [Windows Shell]","ISearchFolderItemFactory interface","ISearchFolderItemFactory interface [Windows Shell]","GetShellItem method","ISearchFolderItemFactory.GetShellItem","ISearchFolderItemFactory::GetShellItem","_shell_ISearchFolderItemFactory_GetShellItem","shell.ISearchFolderItemFactory_GetShellItem","shobjidl_core/ISearchFolderItemFactory::GetShellItem"]
 old-location: shell\ISearchFolderItemFactory_GetShellItem.htm
 tech.root: shell
 ms.assetid: fc5dd159-8a47-479f-b087-bd161093d0a0

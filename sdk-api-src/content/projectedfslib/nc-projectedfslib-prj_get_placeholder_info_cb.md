@@ -1,7 +1,8 @@
 ---
 UID: NC:projectedfslib.PRJ_GET_PLACEHOLDER_INFO_CB
 title: PRJ_GET_PLACEHOLDER_INFO_CB (projectedfslib.h)
-description: Requests information for a file or directory from the provider.helpviewer_keywords: ["PRJ_GET_PLACEHOLDER_INFO_CB","PRJ_GET_PLACEHOLDER_INFO_CB callback","PRJ_GET_PLACEHOLDER_INFO_CB callback function","ProjFS.prj_get_placeholder_info_cb","projectedfslib/PRJ_GET_PLACEHOLDER_INFO_CB"]
+description: Requests information for a file or directory from the provider.
+helpviewer_keywords: ["PRJ_GET_PLACEHOLDER_INFO_CB","PRJ_GET_PLACEHOLDER_INFO_CB callback","PRJ_GET_PLACEHOLDER_INFO_CB callback function","ProjFS.prj_get_placeholder_info_cb","projectedfslib/PRJ_GET_PLACEHOLDER_INFO_CB"]
 old-location: projfs\prj_get_placeholder_info_cb.htm
 tech.root: ProjFS
 ms.assetid: 1BC7C1FA-1BAB-48FB-85C2-34EC3B1B4167

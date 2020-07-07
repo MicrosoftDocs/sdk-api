@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IRelationship.MetaData
 title: IRelationship::MetaData (structuredquery.h)
-description: Retrieves an enumeration of IMetaData objects for this relationship.helpviewer_keywords: ["IRelationship interface [search]","MetaData method","IRelationship.MetaData","IRelationship::MetaData","MetaData","MetaData method [search]","MetaData method [search]","IRelationship interface","_search_IRelationship_MetaData","search._search_IRelationship_MetaData","structuredquery/IRelationship::MetaData"]
+description: Retrieves an enumeration of IMetaData objects for this relationship.
+helpviewer_keywords: ["IRelationship interface [search]","MetaData method","IRelationship.MetaData","IRelationship::MetaData","MetaData","MetaData method [search]","MetaData method [search]","IRelationship interface","_search_IRelationship_MetaData","search._search_IRelationship_MetaData","structuredquery/IRelationship::MetaData"]
 old-location: search\_search_IRelationship_MetaData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\metadata.htm

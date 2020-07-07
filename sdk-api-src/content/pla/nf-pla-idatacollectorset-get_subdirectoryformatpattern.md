@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSet.get_SubdirectoryFormatPattern
 title: IDataCollectorSet::get_SubdirectoryFormatPattern (pla.h)
-description: Retrieves or sets a format pattern to use when decorating the folder name.helpviewer_keywords: ["IDataCollectorSet interface [PLA]","SubdirectoryFormatPattern property","IDataCollectorSet.SubdirectoryFormatPattern","IDataCollectorSet.get_SubdirectoryFormatPattern","IDataCollectorSet::SubdirectoryFormatPattern","IDataCollectorSet::get_SubdirectoryFormatPattern","IDataCollectorSet::put_SubdirectoryFormatPattern","SubdirectoryFormatPattern property [PLA]","SubdirectoryFormatPattern property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_subdirectoryformatpattern","get_SubdirectoryFormatPattern","pla.idatacollectorset_get_subdirectoryformatpattern","pla/IDataCollectorSet::SubdirectoryFormatPattern","pla/IDataCollectorSet::get_SubdirectoryFormatPattern","pla/IDataCollectorSet::put_SubdirectoryFormatPattern"]
+description: Retrieves or sets a format pattern to use when decorating the folder name.
+helpviewer_keywords: ["IDataCollectorSet interface [PLA]","SubdirectoryFormatPattern property","IDataCollectorSet.SubdirectoryFormatPattern","IDataCollectorSet.get_SubdirectoryFormatPattern","IDataCollectorSet::SubdirectoryFormatPattern","IDataCollectorSet::get_SubdirectoryFormatPattern","IDataCollectorSet::put_SubdirectoryFormatPattern","SubdirectoryFormatPattern property [PLA]","SubdirectoryFormatPattern property [PLA]","IDataCollectorSet interface","base.idatacollectorset_get_subdirectoryformatpattern","get_SubdirectoryFormatPattern","pla.idatacollectorset_get_subdirectoryformatpattern","pla/IDataCollectorSet::SubdirectoryFormatPattern","pla/IDataCollectorSet::get_SubdirectoryFormatPattern","pla/IDataCollectorSet::put_SubdirectoryFormatPattern"]
 old-location: pla\idatacollectorset_get_subdirectoryformatpattern.htm
 tech.root: PLA
 ms.assetid: 83b7df10-8b00-4d64-bf71-2c68e037ab3f

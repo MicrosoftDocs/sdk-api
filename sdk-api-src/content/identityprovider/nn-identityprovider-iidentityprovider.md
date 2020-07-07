@@ -1,7 +1,8 @@
 ---
 UID: NN:identityprovider.IIdentityProvider
 title: IIdentityProvider (identityprovider.h)
-description: Represents an identity provider.helpviewer_keywords: ["IIdentityProvider","IIdentityProvider interface [Security]","IIdentityProvider interface [Security]","described","identityprovider/IIdentityProvider","security.iidentityprovider"]
+description: Represents an identity provider.
+helpviewer_keywords: ["IIdentityProvider","IIdentityProvider interface [Security]","IIdentityProvider interface [Security]","described","identityprovider/IIdentityProvider","security.iidentityprovider"]
 old-location: security\iidentityprovider.htm
 tech.root: SecAuthN
 ms.assetid: 0f23e369-1501-4e72-94d1-dadb9dac5be6

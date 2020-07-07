@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMRANGLEARC
 title: EMRANGLEARC (wingdi.h)
-description: The EMRANGLEARC structure contains members for the AngleArc enhanced metafile record.helpviewer_keywords: ["*PEMRANGLEARC","EMRANGLEARC","EMRANGLEARC structure [Windows GDI]","PEMRANGLEARC","PEMRANGLEARC structure pointer [Windows GDI]","_win32_EMRANGLEARC_str","gdi.emranglearc","wingdi/EMRANGLEARC","wingdi/PEMRANGLEARC"]
+description: The EMRANGLEARC structure contains members for the AngleArc enhanced metafile record.
+helpviewer_keywords: ["*PEMRANGLEARC","EMRANGLEARC","EMRANGLEARC structure [Windows GDI]","PEMRANGLEARC","PEMRANGLEARC structure pointer [Windows GDI]","_win32_EMRANGLEARC_str","gdi.emranglearc","wingdi/EMRANGLEARC","wingdi/PEMRANGLEARC"]
 old-location: gdi\emranglearc.htm
 tech.root: gdi
 ms.assetid: 054b84ba-bb5e-4dca-8482-6b958151aedf

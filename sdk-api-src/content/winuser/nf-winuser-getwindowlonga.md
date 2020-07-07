@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetWindowLongA
 title: GetWindowLongA function (winuser.h)
-description: Retrieves information about the specified window.helpviewer_keywords: ["DWL_DLGPROC","DWL_MSGRESULT","DWL_USER","GWL_EXSTYLE","GWL_HINSTANCE","GWL_HWNDPARENT","GWL_ID","GWL_STYLE","GWL_USERDATA","GWL_WNDPROC","GetWindowLong","GetWindowLong function [Windows and Messages]","GetWindowLongA","GetWindowLongW","_win32_GetWindowLong","_win32_getwindowlong_cpp","winmsg.getwindowlong","winui._win32_getwindowlong","winuser/GetWindowLong","winuser/GetWindowLongA","winuser/GetWindowLongW"]
+description: Retrieves information about the specified window.
+helpviewer_keywords: ["DWL_DLGPROC","DWL_MSGRESULT","DWL_USER","GWL_EXSTYLE","GWL_HINSTANCE","GWL_HWNDPARENT","GWL_ID","GWL_STYLE","GWL_USERDATA","GWL_WNDPROC","GetWindowLong","GetWindowLong function [Windows and Messages]","GetWindowLongA","GetWindowLongW","_win32_GetWindowLong","_win32_getwindowlong_cpp","winmsg.getwindowlong","winui._win32_getwindowlong","winuser/GetWindowLong","winuser/GetWindowLongA","winuser/GetWindowLongW"]
 old-location: winmsg\getwindowlong.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getwindowlong.htm
@@ -245,6 +246,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines GetWindowLong as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

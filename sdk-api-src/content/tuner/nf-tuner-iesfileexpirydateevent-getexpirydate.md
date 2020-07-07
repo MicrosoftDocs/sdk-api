@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IESFileExpiryDateEvent.GetExpiryDate
 title: IESFileExpiryDateEvent::GetExpiryDate (tuner.h)
-description: Gets the date from a FileExpiryDate event that indicates when a license for protected content expires.helpviewer_keywords: ["GetExpiryDate","GetExpiryDate method [Microsoft TV Technologies]","GetExpiryDate method [Microsoft TV Technologies]","IESFileExpiryDateEvent interface","IESFileExpiryDateEvent interface [Microsoft TV Technologies]","GetExpiryDate method","IESFileExpiryDateEvent.GetExpiryDate","IESFileExpiryDateEvent::GetExpiryDate","mstv.iesfileexpirydateevent_getexpirydate","tuner/IESFileExpiryDateEvent::GetExpiryDate"]
+description: Gets the date from a FileExpiryDate event that indicates when a license for protected content expires.
+helpviewer_keywords: ["GetExpiryDate","GetExpiryDate method [Microsoft TV Technologies]","GetExpiryDate method [Microsoft TV Technologies]","IESFileExpiryDateEvent interface","IESFileExpiryDateEvent interface [Microsoft TV Technologies]","GetExpiryDate method","IESFileExpiryDateEvent.GetExpiryDate","IESFileExpiryDateEvent::GetExpiryDate","mstv.iesfileexpirydateevent_getexpirydate","tuner/IESFileExpiryDateEvent::GetExpiryDate"]
 old-location: mstv\iesfileexpirydateevent_getexpirydate.htm
 tech.root: mstv
 ms.assetid: 1d89c613-002b-4c90-832f-32bc268752a4

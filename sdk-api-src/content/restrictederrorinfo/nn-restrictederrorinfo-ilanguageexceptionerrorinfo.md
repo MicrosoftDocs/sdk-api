@@ -1,7 +1,8 @@
 ---
 UID: NN:restrictederrorinfo.ILanguageExceptionErrorInfo
 title: ILanguageExceptionErrorInfo (restrictederrorinfo.h)
-description: Enables retrieving the IUnknown pointer stored in the error info with the call to RoOriginateLanguageException.helpviewer_keywords: ["ILanguageExceptionErrorInfo","ILanguageExceptionErrorInfo interface [Windows Runtime]","ILanguageExceptionErrorInfo interface [Windows Runtime]","described","restrictederrorinfo/ILanguageExceptionErrorInfo","winrt.ilanguageexceptionerrorinfo"]
+description: Enables retrieving the IUnknown pointer stored in the error info with the call to RoOriginateLanguageException.
+helpviewer_keywords: ["ILanguageExceptionErrorInfo","ILanguageExceptionErrorInfo interface [Windows Runtime]","ILanguageExceptionErrorInfo interface [Windows Runtime]","described","restrictederrorinfo/ILanguageExceptionErrorInfo","winrt.ilanguageexceptionerrorinfo"]
 old-location: winrt\ilanguageexceptionerrorinfo.htm
 tech.root: WinRT
 ms.assetid: 625C0DAF-8AF6-43EB-BC81-2B3189CF8963

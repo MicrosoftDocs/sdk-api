@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestPackageInfoEnumerator.GetCurrent
 title: IAppxBundleManifestPackageInfoEnumerator::GetCurrent (appxpackaging.h)
-description: Gets the &lt;Package&gt; element at the current position of the enumerator.helpviewer_keywords: ["GetCurrent","GetCurrent method [App packaging and management]","GetCurrent method [App packaging and management]","IAppxBundleManifestPackageInfoEnumerator interface","IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management]","GetCurrent method","IAppxBundleManifestPackageInfoEnumerator.GetCurrent","IAppxBundleManifestPackageInfoEnumerator::GetCurrent","appxpackaging/IAppxBundleManifestPackageInfoEnumerator::GetCurrent","appxpkg.iappxbundlemanifestpackageinfoenumerator_getcurrent"]
+description: Gets the &lt;Package&gt; element at the current position of the enumerator.
+helpviewer_keywords: ["GetCurrent","GetCurrent method [App packaging and management]","GetCurrent method [App packaging and management]","IAppxBundleManifestPackageInfoEnumerator interface","IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management]","GetCurrent method","IAppxBundleManifestPackageInfoEnumerator.GetCurrent","IAppxBundleManifestPackageInfoEnumerator::GetCurrent","appxpackaging/IAppxBundleManifestPackageInfoEnumerator::GetCurrent","appxpkg.iappxbundlemanifestpackageinfoenumerator_getcurrent"]
 old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator_getcurrent.htm
 tech.root: appxpkg
 ms.assetid: 52F525CB-162B-47E9-BF85-B920CBCCD983

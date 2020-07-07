@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IObjectWithProgID
 title: IObjectWithProgID (shobjidl_core.h)
-description: Exposes methods that provide access to the ProgID associated with an object.helpviewer_keywords: ["IObjectWithProgID","IObjectWithProgID interface [Windows Shell]","IObjectWithProgID interface [Windows Shell]","described","_shell_IObjectWithProgID","shell.IObjectWithProgID","shobjidl_core/IObjectWithProgID"]
+description: Exposes methods that provide access to the ProgID associated with an object.
+helpviewer_keywords: ["IObjectWithProgID","IObjectWithProgID interface [Windows Shell]","IObjectWithProgID interface [Windows Shell]","described","_shell_IObjectWithProgID","shell.IObjectWithProgID","shobjidl_core/IObjectWithProgID"]
 old-location: shell\IObjectWithProgID.htm
 tech.root: shell
 ms.assetid: 3b66ba49-ed39-464e-b15a-c72fdff7f5e5

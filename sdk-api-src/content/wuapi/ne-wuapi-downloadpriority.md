@@ -1,7 +1,8 @@
 ---
 UID: NE:wuapi.tagDownloadPriority
 title: DownloadPriority (wuapi.h)
-description: Defines the possible priorities for a download operation.helpviewer_keywords: ["DownloadPriority","DownloadPriority enumeration [Windows Update Agent]","dpHigh","dpLow","dpNormal","wua.downloadpriority","wuapi/DownloadPriority","wuapi/dpHigh","wuapi/dpLow","wuapi/dpNormal"]
+description: Defines the possible priorities for a download operation.
+helpviewer_keywords: ["DownloadPriority","DownloadPriority enumeration [Windows Update Agent]","dpHigh","dpLow","dpNormal","wua.downloadpriority","wuapi/DownloadPriority","wuapi/dpHigh","wuapi/dpLow","wuapi/dpNormal"]
 old-location: wua\downloadpriority.htm
 tech.root: Wua_Sdk
 ms.assetid: 6e70c513-861b-4a7f-a613-09ba2ef64bf1

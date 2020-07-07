@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IHandlerActivationHost
 title: IHandlerActivationHost (shobjidl_core.h)
-description: .helpviewer_keywords: ["IHandlerActivationHost","IHandlerActivationHost interface [Windows Shell]","IHandlerActivationHost interface [Windows Shell]","described","shell.IHandlerActivationHost","shobjidl_core/IHandlerActivationHost"]
+description: .
+helpviewer_keywords: ["IHandlerActivationHost","IHandlerActivationHost interface [Windows Shell]","IHandlerActivationHost interface [Windows Shell]","described","shell.IHandlerActivationHost","shobjidl_core/IHandlerActivationHost"]
 old-location: shell\IHandlerActivationHost.htm
 tech.root: shell
 ms.assetid: 4c60a3f8-48ec-4686-9e27-692f88cd1c55

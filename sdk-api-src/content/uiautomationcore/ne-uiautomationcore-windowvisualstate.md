@@ -1,7 +1,8 @@
 ---
 UID: NE:uiautomationcore.WindowVisualState
 title: WindowVisualState (uiautomationcore.h)
-description: Contains values that specify the visual state of a window.helpviewer_keywords: ["WindowVisualState","WindowVisualState enumeration [Windows Accessibility]","WindowVisualState_Maximized","WindowVisualState_Minimized","WindowVisualState_Normal","uiauto.uiauto_WindowVisualStateEnum","uiauto_WindowVisualStateEnum","uiautomationcore/WindowVisualState","uiautomationcore/WindowVisualState_Maximized","uiautomationcore/WindowVisualState_Minimized","uiautomationcore/WindowVisualState_Normal","winauto.uiauto_WindowVisualStateEnum"]
+description: Contains values that specify the visual state of a window.
+helpviewer_keywords: ["WindowVisualState","WindowVisualState enumeration [Windows Accessibility]","WindowVisualState_Maximized","WindowVisualState_Minimized","WindowVisualState_Normal","uiauto.uiauto_WindowVisualStateEnum","uiauto_WindowVisualStateEnum","uiautomationcore/WindowVisualState","uiautomationcore/WindowVisualState_Maximized","uiautomationcore/WindowVisualState_Minimized","uiautomationcore/WindowVisualState_Normal","winauto.uiauto_WindowVisualStateEnum"]
 old-location: winauto\uiauto_WindowVisualStateEnum.htm
 tech.root: WinAuto
 ms.assetid: 5912551c-2745-434b-98de-bf24212f7eef

@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExA
 title: GetAddrInfoExA function (ws2tcpip.h)
-description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.helpviewer_keywords: ["GetAddrInfoEx","GetAddrInfoEx function [Winsock]","GetAddrInfoExA","GetAddrInfoExW","NS_ALL","NS_BTH","NS_DNS","NS_EMAIL","NS_NETBT","NS_NLA","NS_NTDS","NS_PNRPCLOUD","NS_PNRPNAME","NS_WINS","winsock.getaddrinfoex","ws2tcpip/GetAddrInfoEx","ws2tcpip/GetAddrInfoExA","ws2tcpip/GetAddrInfoExW"]
+description: Provides protocol-independent name resolution with additional parameters to qualify which namespace providers should handle the request.
+helpviewer_keywords: ["GetAddrInfoEx","GetAddrInfoEx function [Winsock]","GetAddrInfoExA","GetAddrInfoExW","NS_ALL","NS_BTH","NS_DNS","NS_EMAIL","NS_NETBT","NS_NLA","NS_NTDS","NS_PNRPCLOUD","NS_PNRPNAME","NS_WINS","winsock.getaddrinfoex","ws2tcpip/GetAddrInfoEx","ws2tcpip/GetAddrInfoExA","ws2tcpip/GetAddrInfoExW"]
 old-location: winsock\getaddrinfoex.htm
 tech.root: WinSock
 ms.assetid: cc4ccb2d-ea5a-48bd-a3ae-f70432ab2c39
@@ -1326,6 +1327,10 @@ If the  <b>AI_DISABLE_IDN_ENCODING</b> is set, this disables the automatic Inter
 
 
 
+
+
+> [!NOTE]
+> The ws2tcpip.h header defines GetAddrInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

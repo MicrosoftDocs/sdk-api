@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d11_1.D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG
 title: D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG (d3d11_1.h)
-description: Describes flags that are used to create a device context state object (ID3DDeviceContextState) with the ID3D11Device1::CreateDeviceContextState method.helpviewer_keywords: ["D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG","D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG enumeration [Direct3D 11]","D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED","d3d11_1/D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG","d3d11_1/D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED","direct3d11.d3d11_1_create_device_context_state_flag"]
+description: Describes flags that are used to create a device context state object (ID3DDeviceContextState) with the ID3D11Device1::CreateDeviceContextState method.
+helpviewer_keywords: ["D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG","D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG enumeration [Direct3D 11]","D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED","d3d11_1/D3D11_1_CREATE_DEVICE_CONTEXT_STATE_FLAG","d3d11_1/D3D11_1_CREATE_DEVICE_CONTEXT_STATE_SINGLETHREADED","direct3d11.d3d11_1_create_device_context_state_flag"]
 old-location: direct3d11\d3d11_1_create_device_context_state_flag.htm
 tech.root: direct3d11
 ms.assetid: 45F1C268-AA8A-44D5-BE9E-0C185738EB69

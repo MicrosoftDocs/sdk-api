@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnectionCallback.DisplayIOCtl
 title: IWTSProtocolConnectionCallback::DisplayIOCtl (wtsprotocol.h)
-description: IWTSProtocolConnectionCallback::DisplayIOCtl is no longer available.helpviewer_keywords: ["DisplayIOCtl","DisplayIOCtl method [Remote Desktop Services]","DisplayIOCtl method [Remote Desktop Services]","IWTSProtocolConnectionCallback interface","IWTSProtocolConnectionCallback interface [Remote Desktop Services]","DisplayIOCtl method","IWTSProtocolConnectionCallback.DisplayIOCtl","IWTSProtocolConnectionCallback::DisplayIOCtl","termserv.iwtsprotocolconnectioncallback_displayioctl","wtsprotocol/IWTSProtocolConnectionCallback::DisplayIOCtl"]
+description: IWTSProtocolConnectionCallback::DisplayIOCtl is no longer available.
+helpviewer_keywords: ["DisplayIOCtl","DisplayIOCtl method [Remote Desktop Services]","DisplayIOCtl method [Remote Desktop Services]","IWTSProtocolConnectionCallback interface","IWTSProtocolConnectionCallback interface [Remote Desktop Services]","DisplayIOCtl method","IWTSProtocolConnectionCallback.DisplayIOCtl","IWTSProtocolConnectionCallback::DisplayIOCtl","termserv.iwtsprotocolconnectioncallback_displayioctl","wtsprotocol/IWTSProtocolConnectionCallback::DisplayIOCtl"]
 old-location: termserv\iwtsprotocolconnectioncallback_displayioctl.htm
 tech.root: TermServ
 ms.assetid: bd2c4dfe-580d-406b-b03b-628583aeef61

@@ -1,7 +1,8 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronizeCallback.EnableModeless
 title: ISyncMgrSynchronizeCallback::EnableModeless (mobsync.h)
-description: Called by the registered application before and after any dialog boxes are displayed from within the PrepareForSync and Synchronize methods.helpviewer_keywords: ["EnableModeless","EnableModeless method [Windows Shell]","EnableModeless method [Windows Shell]","ISyncMgrSynchronizeCallback interface","ISyncMgrSynchronizeCallback interface [Windows Shell]","EnableModeless method","ISyncMgrSynchronizeCallback.EnableModeless","ISyncMgrSynchronizeCallback::EnableModeless","mobsync/ISyncMgrSynchronizeCallback::EnableModeless","shell.syncmgr_isyncmgrsynchronizecallback_enablemodeless","syncmgr.isyncmgrsynchronizecallback_enablemodeless"]
+description: Called by the registered application before and after any dialog boxes are displayed from within the PrepareForSync and Synchronize methods.
+helpviewer_keywords: ["EnableModeless","EnableModeless method [Windows Shell]","EnableModeless method [Windows Shell]","ISyncMgrSynchronizeCallback interface","ISyncMgrSynchronizeCallback interface [Windows Shell]","EnableModeless method","ISyncMgrSynchronizeCallback.EnableModeless","ISyncMgrSynchronizeCallback::EnableModeless","mobsync/ISyncMgrSynchronizeCallback::EnableModeless","shell.syncmgr_isyncmgrsynchronizecallback_enablemodeless","syncmgr.isyncmgrsynchronizecallback_enablemodeless"]
 old-location: shell\syncmgr_isyncmgrsynchronizecallback_enablemodeless.htm
 tech.root: shell
 ms.assetid: 00102220-3734-40f2-ae6c-2807e44e17a1

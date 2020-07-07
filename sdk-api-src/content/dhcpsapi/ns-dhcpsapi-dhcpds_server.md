@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCPDS_SERVER
 title: DHCPDS_SERVER (dhcpsapi.h)
-description: The DHCPDS_SERVER structure defines information on a DHCP server in the context of directory services.helpviewer_keywords: ["*LPDHCPDS_SERVER","*PDHCPDS_SERVER","DHCPDS_SERVER","DHCPDS_SERVER structure [DHCP]","DHCP_SERVER_INFO","DHCP_SERVER_INFO structure [DHCP]","LPDHCPDS_SERVER *PDHCPDS_SERVER","LPDHCPDS_SERVER *PDHCPDS_SERVER structure pointer [DHCP]","LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO","LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO structure pointer [DHCP]","PDHCPDS_SERVER","PDHCPDS_SERVER structure pointer [DHCP]","PDHCP_SERVER_INFO","PDHCP_SERVER_INFO structure pointer [DHCP]","dhcp.dhcpds_server","dhcpsapi/DHCP_SERVER_INFO","dhcpsapi/LPDHCPDS_SERVER *PDHCPDS_SERVER","dhcpsapi/LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO","dhcpsapi/PDHCPDS_SERVER","dhcpsapi/PDHCP_SERVER_INFO","dhcpsapi/_DHCPDS_SERVER"]
+description: The DHCPDS_SERVER structure defines information on a DHCP server in the context of directory services.
+helpviewer_keywords: ["*LPDHCPDS_SERVER","*PDHCPDS_SERVER","DHCPDS_SERVER","DHCPDS_SERVER structure [DHCP]","DHCP_SERVER_INFO","DHCP_SERVER_INFO structure [DHCP]","LPDHCPDS_SERVER *PDHCPDS_SERVER","LPDHCPDS_SERVER *PDHCPDS_SERVER structure pointer [DHCP]","LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO","LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO structure pointer [DHCP]","PDHCPDS_SERVER","PDHCPDS_SERVER structure pointer [DHCP]","PDHCP_SERVER_INFO","PDHCP_SERVER_INFO structure pointer [DHCP]","dhcp.dhcpds_server","dhcpsapi/DHCP_SERVER_INFO","dhcpsapi/LPDHCPDS_SERVER *PDHCPDS_SERVER","dhcpsapi/LPDHCP_SERVER_INFO *PDHCP_SERVER_INFO","dhcpsapi/PDHCPDS_SERVER","dhcpsapi/PDHCP_SERVER_INFO","dhcpsapi/_DHCPDS_SERVER"]
 old-location: dhcp\dhcpds_server.htm
 tech.root: DHCP
 ms.assetid: 12f3fbd3-9b81-4a11-914c-83658c2bce89

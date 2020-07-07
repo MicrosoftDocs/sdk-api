@@ -1,7 +1,8 @@
 ---
 UID: NS:dwrite_3.DWRITE_FONT_PROPERTY
 title: DWRITE_FONT_PROPERTY (dwrite_3.h)
-description: Font property used for filtering font sets and building a font set with explicit properties.helpviewer_keywords: ["DWRITE_FONT_PROPERTY","DWRITE_FONT_PROPERTY structure [Direct Write]","directwrite.dwrite_font_property","dwrite_3/DWRITE_FONT_PROPERTY"]
+description: Font property used for filtering font sets and building a font set with explicit properties.
+helpviewer_keywords: ["DWRITE_FONT_PROPERTY","DWRITE_FONT_PROPERTY structure [Direct Write]","directwrite.dwrite_font_property","dwrite_3/DWRITE_FONT_PROPERTY"]
 old-location: directwrite\dwrite_font_property.htm
 tech.root: DirectWrite
 ms.assetid: C169B175-74FD-423A-8E0A-DC50314D75E6

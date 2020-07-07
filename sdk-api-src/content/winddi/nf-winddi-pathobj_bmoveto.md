@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.PATHOBJ_bMoveTo
 title: PATHOBJ_bMoveTo function (winddi.h)
-description: The PATHOBJ_bMoveTo function sets the current position in a given path.helpviewer_keywords: ["PATHOBJ_bMoveTo","PATHOBJ_bMoveTo function [Display Devices]","display.pathobj_bmoveto","gdifncs_a6917397-5fcb-41fd-8f5a-f6af95ee7bb2.xml","winddi/PATHOBJ_bMoveTo"]
+description: The PATHOBJ_bMoveTo function sets the current position in a given path.
+helpviewer_keywords: ["PATHOBJ_bMoveTo","PATHOBJ_bMoveTo function [Display Devices]","display.pathobj_bmoveto","gdifncs_a6917397-5fcb-41fd-8f5a-f6af95ee7bb2.xml","winddi/PATHOBJ_bMoveTo"]
 old-location: display\pathobj_bmoveto.htm
 tech.root: display
 ms.assetid: b734ce8f-7e7e-4c13-a614-cb6b0dc19ead

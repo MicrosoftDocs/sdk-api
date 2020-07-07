@@ -1,7 +1,8 @@
 ---
 UID: NF:errhandlingapi.AddVectoredContinueHandler
 title: AddVectoredContinueHandler function (errhandlingapi.h)
-description: Registers a vectored continue handler.helpviewer_keywords: ["AddVectoredContinueHandler","AddVectoredContinueHandler function","base.addvectoredcontinuehandler","errhandlingapi/AddVectoredContinueHandler"]
+description: Registers a vectored continue handler.
+helpviewer_keywords: ["AddVectoredContinueHandler","AddVectoredContinueHandler function","base.addvectoredcontinuehandler","errhandlingapi/AddVectoredContinueHandler"]
 old-location: base\addvectoredcontinuehandler.htm
 tech.root: Debug
 ms.assetid: 23ad21a1-a298-45ac-9867-463f0852f292

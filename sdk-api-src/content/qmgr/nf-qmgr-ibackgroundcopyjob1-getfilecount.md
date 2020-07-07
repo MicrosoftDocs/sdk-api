@@ -1,7 +1,8 @@
 ---
 UID: NF:qmgr.IBackgroundCopyJob1.GetFileCount
 title: IBackgroundCopyJob1::GetFileCount (qmgr.h)
-description: Use the GetFileCount method to retrieve the number of files in the job.helpviewer_keywords: ["GetFileCount","GetFileCount method [BITS]","GetFileCount method [BITS]","IBackgroundCopyJob1 interface","IBackgroundCopyJob1 interface [BITS]","GetFileCount method","IBackgroundCopyJob1.GetFileCount","IBackgroundCopyJob1::GetFileCount","bits.ibackgroundcopyjob1_getfilecount","qmgr/IBackgroundCopyJob1::GetFileCount"]
+description: Use the GetFileCount method to retrieve the number of files in the job.
+helpviewer_keywords: ["GetFileCount","GetFileCount method [BITS]","GetFileCount method [BITS]","IBackgroundCopyJob1 interface","IBackgroundCopyJob1 interface [BITS]","GetFileCount method","IBackgroundCopyJob1.GetFileCount","IBackgroundCopyJob1::GetFileCount","bits.ibackgroundcopyjob1_getfilecount","qmgr/IBackgroundCopyJob1::GetFileCount"]
 old-location: bits\ibackgroundcopyjob1_getfilecount.htm
 tech.root: Bits
 ms.assetid: 6aec5e9c-2950-4039-99a4-b1884a9a4673

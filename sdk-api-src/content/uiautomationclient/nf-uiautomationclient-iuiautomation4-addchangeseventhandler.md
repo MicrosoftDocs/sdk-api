@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation4.AddChangesEventHandler
 title: IUIAutomation4::AddChangesEventHandler (uiautomationclient.h)
-description: Registers a method that handles change events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.helpviewer_keywords: ["AddChangesEventHandler","AddChangesEventHandler method [Windows Accessibility]","AddChangesEventHandler method [Windows Accessibility]","IUIAutomation4 interface","IUIAutomation4 interface [Windows Accessibility]","AddChangesEventHandler method","IUIAutomation4.AddChangesEventHandler","IUIAutomation4::AddChangesEventHandler","uiautomationclient/IUIAutomation4::AddChangesEventHandler","winauto.uiauto_IUIAutomation4_AddChangesEventHandler"]
+description: Registers a method that handles change events.Note  Before implementing an event handler, you should be familiar with the threading issues described in Understanding Threading Issues.
+helpviewer_keywords: ["AddChangesEventHandler","AddChangesEventHandler method [Windows Accessibility]","AddChangesEventHandler method [Windows Accessibility]","IUIAutomation4 interface","IUIAutomation4 interface [Windows Accessibility]","AddChangesEventHandler method","IUIAutomation4.AddChangesEventHandler","IUIAutomation4::AddChangesEventHandler","uiautomationclient/IUIAutomation4::AddChangesEventHandler","winauto.uiauto_IUIAutomation4_AddChangesEventHandler"]
 old-location: winauto\uiauto_IUIAutomation4_AddChangesEventHandler.htm
 tech.root: WinAuto
 ms.assetid: E479ACCA-9372-463F-A992-8030E33A2341

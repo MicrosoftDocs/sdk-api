@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcPartUri.IsRelationshipsPartUri
 title: IOpcPartUri::IsRelationshipsPartUri (msopc.h)
-description: Returns a value that indicates whether the current part URI object represents the part name of a Relationships part.helpviewer_keywords: ["IOpcPartUri interface [Open Packaging Conventions]","IsRelationshipsPartUri method","IOpcPartUri.IsRelationshipsPartUri","IOpcPartUri::IsRelationshipsPartUri","IsRelationshipsPartUri","IsRelationshipsPartUri method [Open Packaging Conventions]","IsRelationshipsPartUri method [Open Packaging Conventions]","IOpcPartUri interface","msopc/IOpcPartUri::IsRelationshipsPartUri","opc.iopcparturi_isrelationshipsparturi"]
+description: Returns a value that indicates whether the current part URI object represents the part name of a Relationships part.
+helpviewer_keywords: ["IOpcPartUri interface [Open Packaging Conventions]","IsRelationshipsPartUri method","IOpcPartUri.IsRelationshipsPartUri","IOpcPartUri::IsRelationshipsPartUri","IsRelationshipsPartUri","IsRelationshipsPartUri method [Open Packaging Conventions]","IsRelationshipsPartUri method [Open Packaging Conventions]","IOpcPartUri interface","msopc/IOpcPartUri::IsRelationshipsPartUri","opc.iopcparturi_isrelationshipsparturi"]
 old-location: opc\iopcparturi_isrelationshipsparturi.htm
 tech.root: OPC
 ms.assetid: 11d271ab-247c-4060-b769-45e462b66255

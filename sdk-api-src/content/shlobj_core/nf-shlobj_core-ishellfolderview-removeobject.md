@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.RemoveObject
 title: IShellFolderView::RemoveObject (shlobj_core.h)
-description: RemoveObject may be altered or unavailable.helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","RemoveObject method","IShellFolderView.RemoveObject","IShellFolderView::RemoveObject","RemoveObject","RemoveObject method [Windows Shell]","RemoveObject method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_RemoveObject","shell.IShellFolderView_RemoveObject","shlobj_core/IShellFolderView::RemoveObject"]
+description: RemoveObject may be altered or unavailable.
+helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","RemoveObject method","IShellFolderView.RemoveObject","IShellFolderView::RemoveObject","RemoveObject","RemoveObject method [Windows Shell]","RemoveObject method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_RemoveObject","shell.IShellFolderView_RemoveObject","shlobj_core/IShellFolderView::RemoveObject"]
 old-location: shell\IShellFolderView_RemoveObject.htm
 tech.root: shell
 ms.assetid: 5e96040b-5b6a-4323-a5c4-f30e534ed15a

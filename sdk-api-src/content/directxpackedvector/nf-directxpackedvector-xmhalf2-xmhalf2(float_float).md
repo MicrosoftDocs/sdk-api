@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMHALF2.XMHALF2(float,float)
 title: XMHALF2::XMHALF2(float,float) (directxpackedvector.h)
-description: Initializes a new instance of XMHALF2 from two float arguments.helpviewer_keywords: ["XMHALF2","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 structure","XMHALF2 structure [DirectX Math Support APIs]","XMHALF2 constructor","XMHALF2.XMHALF2","XMHALF2.XMHALF2(float","float)","XMHALF2::XMHALF2","XMHALF2::XMHALF2(float","float)","dxmath.xmhalf2_ctor_4"]
+description: Initializes a new instance of XMHALF2 from two float arguments.
+helpviewer_keywords: ["XMHALF2","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 constructor [DirectX Math Support APIs]","XMHALF2 structure","XMHALF2 structure [DirectX Math Support APIs]","XMHALF2 constructor","XMHALF2.XMHALF2","XMHALF2.XMHALF2(float","float)","XMHALF2::XMHALF2","XMHALF2::XMHALF2(float","float)","dxmath.xmhalf2_ctor_4"]
 old-location: dxmath\xmhalf2_ctor_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMHALF2.#ctor(float,float)

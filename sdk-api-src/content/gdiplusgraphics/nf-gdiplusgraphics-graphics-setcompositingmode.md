@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetCompositingMode
 title: Graphics::SetCompositingMode (gdiplusgraphics.h)
-description: The Graphics::SetCompositingMode method sets the compositing mode of this Graphics object.helpviewer_keywords: ["Graphics class [GDI+]","SetCompositingMode method","Graphics.SetCompositingMode","Graphics::SetCompositingMode","SetCompositingMode","SetCompositingMode method [GDI+]","SetCompositingMode method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_","gdiplus._gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_"]
+description: The Graphics::SetCompositingMode method sets the compositing mode of this Graphics object.
+helpviewer_keywords: ["Graphics class [GDI+]","SetCompositingMode method","Graphics.SetCompositingMode","Graphics::SetCompositingMode","SetCompositingMode","SetCompositingMode method [GDI+]","SetCompositingMode method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_","gdiplus._gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetCompositingMode_compositingMode_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setcompositingmode.htm

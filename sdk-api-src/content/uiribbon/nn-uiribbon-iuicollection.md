@@ -1,7 +1,8 @@
 ---
 UID: NN:uiribbon.IUICollection
 title: IUICollection (uiribbon.h)
-description: The IUICollection interface is implemented by the Ribbon framework.helpviewer_keywords: ["IUICollection","IUICollection interface [Windows Ribbon]","IUICollection interface [Windows Ribbon]","described","scenicintent_IUICollection","uiribbon/IUICollection","windowsribbon.windowsribbon_iuicollection"]
+description: The IUICollection interface is implemented by the Ribbon framework.
+helpviewer_keywords: ["IUICollection","IUICollection interface [Windows Ribbon]","IUICollection interface [Windows Ribbon]","described","scenicintent_IUICollection","uiribbon/IUICollection","windowsribbon.windowsribbon_iuicollection"]
 old-location: windowsribbon\windowsribbon_iuicollection.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\iuicollection.htm

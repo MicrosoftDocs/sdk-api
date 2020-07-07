@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetRenderMode
 title: IWICDevelopRaw::GetRenderMode (wincodec.h)
-description: Gets the current WICRawRenderMode.helpviewer_keywords: ["GetRenderMode","GetRenderMode method [Windows Imaging Component]","GetRenderMode method [Windows Imaging Component]","IWICDevelopRaw interface","IWICDevelopRaw interface [Windows Imaging Component]","GetRenderMode method","IWICDevelopRaw.GetRenderMode","IWICDevelopRaw::GetRenderMode","_wic_codec_iwicdevelopraw_getrendermode","wic._wic_codec_iwicdevelopraw_getrendermode","wincodec/IWICDevelopRaw::GetRenderMode"]
+description: Gets the current WICRawRenderMode.
+helpviewer_keywords: ["GetRenderMode","GetRenderMode method [Windows Imaging Component]","GetRenderMode method [Windows Imaging Component]","IWICDevelopRaw interface","IWICDevelopRaw interface [Windows Imaging Component]","GetRenderMode method","IWICDevelopRaw.GetRenderMode","IWICDevelopRaw::GetRenderMode","_wic_codec_iwicdevelopraw_getrendermode","wic._wic_codec_iwicdevelopraw_getrendermode","wincodec/IWICDevelopRaw::GetRenderMode"]
 old-location: wic\_wic_codec_iwicdevelopraw_getrendermode.htm
 tech.root: wic
 ms.assetid: d8cf4508-6a2c-4d02-b98f-0455a3dc966c

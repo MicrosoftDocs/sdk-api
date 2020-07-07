@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IResourceManager.ReleaseFocus
 title: IResourceManager::ReleaseFocus (strmif.h)
-description: The ReleaseFocus method sets the focus object to NULL in the resource manager if the current focus object is the one specified in this method.helpviewer_keywords: ["IResourceManager interface [DirectShow]","ReleaseFocus method","IResourceManager.ReleaseFocus","IResourceManager::ReleaseFocus","IResourceManagerReleaseFocus","ReleaseFocus","ReleaseFocus method [DirectShow]","ReleaseFocus method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_releasefocus","strmif/IResourceManager::ReleaseFocus"]
+description: The ReleaseFocus method sets the focus object to NULL in the resource manager if the current focus object is the one specified in this method.
+helpviewer_keywords: ["IResourceManager interface [DirectShow]","ReleaseFocus method","IResourceManager.ReleaseFocus","IResourceManager::ReleaseFocus","IResourceManagerReleaseFocus","ReleaseFocus","ReleaseFocus method [DirectShow]","ReleaseFocus method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_releasefocus","strmif/IResourceManager::ReleaseFocus"]
 old-location: dshow\iresourcemanager_releasefocus.htm
 tech.root: DirectShow
 ms.assetid: dfc1b178-eb81-488b-8a4a-f1a454b3d5f4

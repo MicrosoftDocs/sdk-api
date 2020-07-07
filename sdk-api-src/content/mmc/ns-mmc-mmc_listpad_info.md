@@ -1,7 +1,8 @@
 ---
 UID: NS:mmc._MMC_LISTPAD_INFO
 title: MMC_LISTPAD_INFO (mmc.h)
-description: The MMC_LISTPAD_INFO structure is introduced in MMC 1.1.helpviewer_keywords: ["MMC_LISTPAD_INFO","MMC_LISTPAD_INFO structure [MMC]","_slate_mmc_listpad_info","mmc.mmc_listpad_info","mmc/MMC_LISTPAD_INFO"]
+description: The MMC_LISTPAD_INFO structure is introduced in MMC 1.1.
+helpviewer_keywords: ["MMC_LISTPAD_INFO","MMC_LISTPAD_INFO structure [MMC]","_slate_mmc_listpad_info","mmc.mmc_listpad_info","mmc/MMC_LISTPAD_INFO"]
 old-location: mmc\mmc_listpad_info.htm
 tech.root: mmc
 ms.assetid: 53e3cd8f-9d78-4edc-a0bb-3b409857561f

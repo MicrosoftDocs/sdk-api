@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectConnections.GetOutputConnector
 title: IMILBitmapEffectConnections::GetOutputConnector (mileffects.h)
-description: Retrieves the output connector associated with the given pin index.helpviewer_keywords: ["GetOutputConnector","GetOutputConnector method [WPF Bitmap Effects]","GetOutputConnector method [WPF Bitmap Effects]","IMILBitmapEffectConnections interface","IMILBitmapEffectConnections interface [WPF Bitmap Effects]","GetOutputConnector method","IMILBitmapEffectConnections.GetOutputConnector","IMILBitmapEffectConnections::GetOutputConnector","_wibe_imilbitmapeffectconnections_getoutputconnector","mileffects/IMILBitmapEffectConnections::GetOutputConnector","wibe._wibe_imilbitmapeffectconnections_getoutputconnector"]
+description: Retrieves the output connector associated with the given pin index.
+helpviewer_keywords: ["GetOutputConnector","GetOutputConnector method [WPF Bitmap Effects]","GetOutputConnector method [WPF Bitmap Effects]","IMILBitmapEffectConnections interface","IMILBitmapEffectConnections interface [WPF Bitmap Effects]","GetOutputConnector method","IMILBitmapEffectConnections.GetOutputConnector","IMILBitmapEffectConnections::GetOutputConnector","_wibe_imilbitmapeffectconnections_getoutputconnector","mileffects/IMILBitmapEffectConnections::GetOutputConnector","wibe._wibe_imilbitmapeffectconnections_getoutputconnector"]
 old-location: wibe\_wibe_imilbitmapeffectconnections_getoutputconnector.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\getoutputconnector.htm

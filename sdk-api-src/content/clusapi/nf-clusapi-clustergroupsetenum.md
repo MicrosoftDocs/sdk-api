@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterGroupSetEnum
 title: ClusterGroupSetEnum function (clusapi.h)
-description: Returns the next enumerable object.helpviewer_keywords: ["ClusterGroupCollectionEnum","ClusterGroupCollectionEnum function [Failover Cluster]","ClusterGroupSetEnum","clusapi/ClusterGroupCollectionEnum","mscs.clustergroupcollectionenum"]
+description: Returns the next enumerable object.
+helpviewer_keywords: ["ClusterGroupCollectionEnum","ClusterGroupCollectionEnum function [Failover Cluster]","ClusterGroupSetEnum","clusapi/ClusterGroupCollectionEnum","mscs.clustergroupcollectionenum"]
 old-location: mscs\clustergroupcollectionenum.htm
 tech.root: MsCS
 ms.assetid: 926f67bd-2933-4b95-8320-166fe5299d7a

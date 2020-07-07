@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrm.IFsrmCollection.GetById
 title: IFsrmCollection::GetById (fsrm.h)
-description: Retrieves the specified object from the collection.helpviewer_keywords: ["GetById","GetById method [File Server Resource Manager]","GetById method [File Server Resource Manager]","IFsrmCollection interface","IFsrmCollection interface [File Server Resource Manager]","GetById method","IFsrmCollection.GetById","IFsrmCollection::GetById","fs.ifsrmcollection_getbyid","fsrm.ifsrmcollection_getbyid","fsrm/IFsrmCollection::GetById"]
+description: Retrieves the specified object from the collection.
+helpviewer_keywords: ["GetById","GetById method [File Server Resource Manager]","GetById method [File Server Resource Manager]","IFsrmCollection interface","IFsrmCollection interface [File Server Resource Manager]","GetById method","IFsrmCollection.GetById","IFsrmCollection::GetById","fs.ifsrmcollection_getbyid","fsrm.ifsrmcollection_getbyid","fsrm/IFsrmCollection::GetById"]
 old-location: fsrm\ifsrmcollection_getbyid.htm
 tech.root: fsrm
 ms.assetid: 6d6be809-bfe6-46ad-9156-288da834ff13

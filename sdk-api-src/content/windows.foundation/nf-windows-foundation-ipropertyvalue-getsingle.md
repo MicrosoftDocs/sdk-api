@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValue.GetSingle
 title: IPropertyValue::IPropertyValue (windows.foundation.h)
-description: Gets the 32-bit floating point value that is stored in the current IPropertyValue object.helpviewer_keywords: ["GetSingle","GetSingle method [Windows Runtime]","GetSingle method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetSingle method","IPropertyValue.GetSingle","IPropertyValue.IPropertyValue","IPropertyValue::GetSingle","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetSingle","winrt.ipropertyvalue_getsingle"]
+description: Gets the 32-bit floating point value that is stored in the current IPropertyValue object.
+helpviewer_keywords: ["GetSingle","GetSingle method [Windows Runtime]","GetSingle method [Windows Runtime]","IPropertyValue interface","IPropertyValue interface [Windows Runtime]","GetSingle method","IPropertyValue.GetSingle","IPropertyValue.IPropertyValue","IPropertyValue::GetSingle","IPropertyValue::IPropertyValue","windows/IPropertyValue::GetSingle","winrt.ipropertyvalue_getsingle"]
 old-location: winrt\ipropertyvalue_getsingle.htm
 tech.root: WinRT
 ms.assetid: FA04F9A2-C222-451B-A6CE-8324BB51DA23

@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6
 title: DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 (dhcpsapi.h)
-description: Contains data that defines an array of DHCP_SUBNET_ELEMENT_DATA_V6 IPv6 prefix elements.helpviewer_keywords: ["*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6","DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6","DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure [DHCP]","PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6","PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure pointer [DHCP]","dhcp.dhcp_subnet_element_info_array_v6","dhcpsapi/DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6","dhcpsapi/PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6"]
+description: Contains data that defines an array of DHCP_SUBNET_ELEMENT_DATA_V6 IPv6 prefix elements.
+helpviewer_keywords: ["*LPDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6","DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6","DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure [DHCP]","PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6","PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6 structure pointer [DHCP]","dhcp.dhcp_subnet_element_info_array_v6","dhcpsapi/DHCP_SUBNET_ELEMENT_INFO_ARRAY_V6","dhcpsapi/PDHCP_SUBNET_ELEMENT_INFO_ARRAY_V6"]
 old-location: dhcp\dhcp_subnet_element_info_array_v6.htm
 tech.root: DHCP
 ms.assetid: 02e7e633-173d-46ab-b657-4763d367f325

@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2spi.WSCGetProviderPath32
 title: WSCGetProviderPath32 function (ws2spi.h)
-description: Retrieves the DLL path for the specified 32-bit provider.Note  This call is a strictly 32-bit version of WSCGetProviderPath for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .helpviewer_keywords: ["WSCGetProviderPath32","WSCGetProviderPath32 function [Winsock]","winsock.wscgetproviderpath32","ws2spi/WSCGetProviderPath32"]
+description: Retrieves the DLL path for the specified 32-bit provider.Note  This call is a strictly 32-bit version of WSCGetProviderPath for use on 64-bit platforms. It is provided to allow 64-bit processes to access the 32-bit catalogs. .
+helpviewer_keywords: ["WSCGetProviderPath32","WSCGetProviderPath32 function [Winsock]","winsock.wscgetproviderpath32","ws2spi/WSCGetProviderPath32"]
 old-location: winsock\wscgetproviderpath32.htm
 tech.root: WinSock
 ms.assetid: fd4ef7da-344d-4825-93b2-f0cd5622aeac

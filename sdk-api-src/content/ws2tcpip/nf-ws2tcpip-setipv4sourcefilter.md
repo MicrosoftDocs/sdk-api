@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2tcpip.setipv4sourcefilter
 title: setipv4sourcefilter function (ws2tcpip.h)
-description: Sets the multicast filter state for an IPv4 socket.helpviewer_keywords: ["setipv4sourcefilter","setipv4sourcefilter function [Winsock]","winsock.setipv4sourcefilter","ws2tcpip/setipv4sourcefilter"]
+description: Sets the multicast filter state for an IPv4 socket.
+helpviewer_keywords: ["setipv4sourcefilter","setipv4sourcefilter function [Winsock]","winsock.setipv4sourcefilter","ws2tcpip/setipv4sourcefilter"]
 old-location: winsock\setipv4sourcefilter.htm
 tech.root: WinSock
 ms.assetid: C296D050-9195-42B5-8EBE-C6004F2DA855

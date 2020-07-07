@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateDateTimeArray
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified array of DateTime values.helpviewer_keywords: ["CreateDateTimeArray","CreateDateTimeArray method [Windows Runtime]","CreateDateTimeArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateDateTimeArray method","IPropertyValueStatics.CreateDateTimeArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateDateTimeArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateDateTimeArray","winrt.ipropertyvaluefactory_createdatetimearray","winrt.ipropertyvaluestatics_createdatetimearray"]
+description: Creates a new IPropertyValue object that contains the specified array of DateTime values.
+helpviewer_keywords: ["CreateDateTimeArray","CreateDateTimeArray method [Windows Runtime]","CreateDateTimeArray method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateDateTimeArray method","IPropertyValueStatics.CreateDateTimeArray","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateDateTimeArray","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateDateTimeArray","winrt.ipropertyvaluefactory_createdatetimearray","winrt.ipropertyvaluestatics_createdatetimearray"]
 old-location: winrt\ipropertyvaluestatics_createdatetimearray.htm
 tech.root: WinRT
 ms.assetid: 0c0beb76-0089-46b9-bcc5-ed07320859a3

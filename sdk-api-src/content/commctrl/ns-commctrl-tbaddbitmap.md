@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagTBADDBITMAP
 title: TBADDBITMAP (commctrl.h)
-description: Adds a bitmap that contains button images to a toolbar.helpviewer_keywords: ["*LPTBADDBITMAP","IDB_HIST_DISABLED","IDB_HIST_HOT","IDB_HIST_NORMAL","IDB_HIST_PRESSED","IDB_STD_LARGE_COLOR","IDB_STD_SMALL_COLOR","IDB_VIEW_LARGE_COLOR","IDB_VIEW_SMALL_COLOR","LPTBADDBITMAP","LPTBADDBITMAP structure pointer [Windows Controls]","TBADDBITMAP","TBADDBITMAP structure [Windows Controls]","_win32_TBADDBITMAP","_win32_TBADDBITMAP_cpp","commctrl/LPTBADDBITMAP","commctrl/TBADDBITMAP","controls.TBADDBITMAP","controls._win32_TBADDBITMAP"]
+description: Adds a bitmap that contains button images to a toolbar.
+helpviewer_keywords: ["*LPTBADDBITMAP","IDB_HIST_DISABLED","IDB_HIST_HOT","IDB_HIST_NORMAL","IDB_HIST_PRESSED","IDB_STD_LARGE_COLOR","IDB_STD_SMALL_COLOR","IDB_VIEW_LARGE_COLOR","IDB_VIEW_SMALL_COLOR","LPTBADDBITMAP","LPTBADDBITMAP structure pointer [Windows Controls]","TBADDBITMAP","TBADDBITMAP structure [Windows Controls]","_win32_TBADDBITMAP","_win32_TBADDBITMAP_cpp","commctrl/LPTBADDBITMAP","commctrl/TBADDBITMAP","controls.TBADDBITMAP","controls._win32_TBADDBITMAP"]
 old-location: controls\TBADDBITMAP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\toolbar\structures\tbaddbitmap.htm

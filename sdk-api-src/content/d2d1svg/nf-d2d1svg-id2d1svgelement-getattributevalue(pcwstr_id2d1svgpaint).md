@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,ID2D1SvgPaint)
 title: ID2D1SvgElement::GetAttributeValue(PCWSTR,ID2D1SvgPaint) (d2d1svg.h)
-description: Gets an attribute of this element as a paint. This method can be used to get the value of the fill or stroke properties.helpviewer_keywords: ["GetAttributeValue","GetAttributeValue method [Direct2D]","GetAttributeValue method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetAttributeValue method","ID2D1SvgElement.GetAttributeValue","ID2D1SvgElement.GetAttributeValue(PCWSTR","ID2D1SvgPaint)","ID2D1SvgElement::GetAttributeValue","ID2D1SvgElement::GetAttributeValue(PCWSTR","ID2D1SvgPaint)","d2d1svg/ID2D1SvgElement::GetAttributeValue","direct2d.id2d1svgelement_getattributevalue_18"]
+description: Gets an attribute of this element as a paint. This method can be used to get the value of the fill or stroke properties.
+helpviewer_keywords: ["GetAttributeValue","GetAttributeValue method [Direct2D]","GetAttributeValue method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetAttributeValue method","ID2D1SvgElement.GetAttributeValue","ID2D1SvgElement.GetAttributeValue(PCWSTR","ID2D1SvgPaint)","ID2D1SvgElement::GetAttributeValue","ID2D1SvgElement::GetAttributeValue(PCWSTR","ID2D1SvgPaint)","d2d1svg/ID2D1SvgElement::GetAttributeValue","direct2d.id2d1svgelement_getattributevalue_18"]
 old-location: direct2d\id2d1svgelement_getattributevalue_18.htm
 tech.root: Direct2D
 ms.assetid: 9A772DC4-22D9-4383-A3CD-A8C7DE496F05

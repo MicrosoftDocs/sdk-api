@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._PROCESSOR_NUMBER
 title: PROCESSOR_NUMBER (winnt.h)
-description: Represents a logical processor in a processor group.helpviewer_keywords: ["*PPROCESSOR_NUMBER","PPROCESSOR_NUMBER","PPROCESSOR_NUMBER structure pointer","PROCESSOR_NUMBER","PROCESSOR_NUMBER structure","base.processor_number","winnt/PPROCESSOR_NUMBER","winnt/PROCESSOR_NUMBER"]
+description: Represents a logical processor in a processor group.
+helpviewer_keywords: ["*PPROCESSOR_NUMBER","PPROCESSOR_NUMBER","PPROCESSOR_NUMBER structure pointer","PROCESSOR_NUMBER","PROCESSOR_NUMBER structure","base.processor_number","winnt/PPROCESSOR_NUMBER","winnt/PROCESSOR_NUMBER"]
 old-location: base\processor_number.htm
 tech.root: ProcThread
 ms.assetid: 9005c6d4-07a9-4ce0-9ee2-54880d7244c3

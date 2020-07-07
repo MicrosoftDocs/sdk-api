@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICComponentInfo.GetVendorGUID
 title: IWICComponentInfo::GetVendorGUID (wincodec.h)
-description: Retrieves the vendor GUID.helpviewer_keywords: ["GetVendorGUID","GetVendorGUID method [Windows Imaging Component]","GetVendorGUID method [Windows Imaging Component]","IWICComponentInfo interface","IWICComponentInfo interface [Windows Imaging Component]","GetVendorGUID method","IWICComponentInfo.GetVendorGUID","IWICComponentInfo::GetVendorGUID","_wic_codec_iwiccomponentinfo_getvendorguid","wic._wic_codec_iwiccomponentinfo_getvendorguid","wincodec/IWICComponentInfo::GetVendorGUID"]
+description: Retrieves the vendor GUID.
+helpviewer_keywords: ["GetVendorGUID","GetVendorGUID method [Windows Imaging Component]","GetVendorGUID method [Windows Imaging Component]","IWICComponentInfo interface","IWICComponentInfo interface [Windows Imaging Component]","GetVendorGUID method","IWICComponentInfo.GetVendorGUID","IWICComponentInfo::GetVendorGUID","_wic_codec_iwiccomponentinfo_getvendorguid","wic._wic_codec_iwiccomponentinfo_getvendorguid","wincodec/IWICComponentInfo::GetVendorGUID"]
 old-location: wic\_wic_codec_iwiccomponentinfo_getvendorguid.htm
 tech.root: wic
 ms.assetid: e1ef7bac-6845-4e7f-8cb6-bb3270b344d6

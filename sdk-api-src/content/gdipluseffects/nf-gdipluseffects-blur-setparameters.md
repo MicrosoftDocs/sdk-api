@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.Blur.SetParameters
 title: Blur::SetParameters (gdipluseffects.h)
-description: The Blur::SetParameters method sets the parameters of this Blur object.helpviewer_keywords: ["Blur class [GDI+]","SetParameters method","Blur.SetParameters","Blur::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","Blur class","_gdiplus_CLASS_Blur_SetParameters_","gdiplus._gdiplus_CLASS_Blur_SetParameters_"]
+description: The Blur::SetParameters method sets the parameters of this Blur object.
+helpviewer_keywords: ["Blur class [GDI+]","SetParameters method","Blur.SetParameters","Blur::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","Blur class","_gdiplus_CLASS_Blur_SetParameters_","gdiplus._gdiplus_CLASS_Blur_SetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_Blur_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\blurclass\blurmethods\setparameters.htm

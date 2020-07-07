@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ClusterEncrypt
 title: ClusterEncrypt function (resapi.h)
-description: Encrypts Checkpointing data for a Cryptographic Service Provider (CSP).helpviewer_keywords: ["ClusterEncrypt","ClusterEncrypt function [Failover Cluster]","PCLUSTER_ENCRYPT","PCLUSTER_ENCRYPT function [Failover Cluster]","mscs.clusterencrypt","resapi/ClusterEncrypt","resapi/PCLUSTER_ENCRYPT"]
+description: Encrypts Checkpointing data for a Cryptographic Service Provider (CSP).
+helpviewer_keywords: ["ClusterEncrypt","ClusterEncrypt function [Failover Cluster]","PCLUSTER_ENCRYPT","PCLUSTER_ENCRYPT function [Failover Cluster]","mscs.clusterencrypt","resapi/ClusterEncrypt","resapi/PCLUSTER_ENCRYPT"]
 old-location: mscs\clusterencrypt.htm
 tech.root: MsCS
 ms.assetid: 5C15E553-D6C6-47F7-B6DE-E7CA4795CA87

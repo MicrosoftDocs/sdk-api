@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptGetProperty
 title: BCryptGetProperty function (bcrypt.h)
-description: Retrieves the value of a named property for a CNG object.helpviewer_keywords: ["BCryptGetProperty","BCryptGetProperty function [Security]","bcrypt/BCryptGetProperty","security.bcryptgetproperty_func"]
+description: Retrieves the value of a named property for a CNG object.
+helpviewer_keywords: ["BCryptGetProperty","BCryptGetProperty function [Security]","bcrypt/BCryptGetProperty","security.bcryptgetproperty_func"]
 old-location: security\bcryptgetproperty_func.htm
 tech.root: SecCNG
 ms.assetid: 5c62ca3a-843e-41a7-9340-41785fbb15f4

@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetComment
 title: IScheduledWorkItem::GetComment (mstask.h)
-description: Retrieves the comment for the work item.helpviewer_keywords: ["GetComment","GetComment method [Task Scheduler]","GetComment method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetComment method","IScheduledWorkItem.GetComment","IScheduledWorkItem::GetComment","_msb_ischeduledworkitem_getcomment","mstask/IScheduledWorkItem::GetComment","taskschd.ischeduledworkitem_getcomment"]
+description: Retrieves the comment for the work item.
+helpviewer_keywords: ["GetComment","GetComment method [Task Scheduler]","GetComment method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetComment method","IScheduledWorkItem.GetComment","IScheduledWorkItem::GetComment","_msb_ischeduledworkitem_getcomment","mstask/IScheduledWorkItem::GetComment","taskschd.ischeduledworkitem_getcomment"]
 old-location: taskschd\ischeduledworkitem_getcomment.htm
 tech.root: taskschd
 ms.assetid: 49bfd451-8100-40e1-9727-e54c5478b415

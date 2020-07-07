@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetObjectType
 title: GetObjectType function (wingdi.h)
-description: The GetObjectType retrieves the type of the specified object.helpviewer_keywords: ["GetObjectType","GetObjectType function [Windows GDI]","_win32_GetObjectType","gdi.getobjecttype","wingdi/GetObjectType"]
+description: The GetObjectType retrieves the type of the specified object.
+helpviewer_keywords: ["GetObjectType","GetObjectType function [Windows GDI]","_win32_GetObjectType","gdi.getobjecttype","wingdi/GetObjectType"]
 old-location: gdi\getobjecttype.htm
 tech.root: gdi
 ms.assetid: 334a2c95-3bf4-44dc-abce-df3a3a2d37a8

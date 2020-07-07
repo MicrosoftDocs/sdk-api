@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreatePackageReader
 title: IAppxFactory::CreatePackageReader (appxpackaging.h)
-description: Creates a read-only package reader from the contents provided by an IStream. This method does not validate the digital signature.helpviewer_keywords: ["CreatePackageReader","CreatePackageReader method [App packaging and management]","CreatePackageReader method [App packaging and management]","IAppxFactory interface","IAppxFactory interface [App packaging and management]","CreatePackageReader method","IAppxFactory.CreatePackageReader","IAppxFactory::CreatePackageReader","appxpackaging/IAppxFactory::CreatePackageReader","appxpkg.iappxfactory_createpackagereader"]
+description: Creates a read-only package reader from the contents provided by an IStream. This method does not validate the digital signature.
+helpviewer_keywords: ["CreatePackageReader","CreatePackageReader method [App packaging and management]","CreatePackageReader method [App packaging and management]","IAppxFactory interface","IAppxFactory interface [App packaging and management]","CreatePackageReader method","IAppxFactory.CreatePackageReader","IAppxFactory::CreatePackageReader","appxpackaging/IAppxFactory::CreatePackageReader","appxpkg.iappxfactory_createpackagereader"]
 old-location: appxpkg\iappxfactory_createpackagereader.htm
 tech.root: appxpkg
 ms.assetid: 60C9781F-A1EE-4EAA-9CD5-32692F3E063D

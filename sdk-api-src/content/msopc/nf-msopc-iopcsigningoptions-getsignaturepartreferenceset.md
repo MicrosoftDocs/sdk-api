@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetSignaturePartReferenceSet
 title: IOpcSigningOptions::GetSignaturePartReferenceSet (msopc.h)
-description: Gets an IOpcSignaturePartReferenceSet interface.helpviewer_keywords: ["GetSignaturePartReferenceSet","GetSignaturePartReferenceSet method [Open Packaging Conventions]","GetSignaturePartReferenceSet method [Open Packaging Conventions]","IOpcSigningOptions interface","IOpcSigningOptions interface [Open Packaging Conventions]","GetSignaturePartReferenceSet method","IOpcSigningOptions.GetSignaturePartReferenceSet","IOpcSigningOptions::GetSignaturePartReferenceSet","msopc/IOpcSigningOptions::GetSignaturePartReferenceSet","opc.iopcsigningoptions_getsignaturepartreferenceset"]
+description: Gets an IOpcSignaturePartReferenceSet interface.
+helpviewer_keywords: ["GetSignaturePartReferenceSet","GetSignaturePartReferenceSet method [Open Packaging Conventions]","GetSignaturePartReferenceSet method [Open Packaging Conventions]","IOpcSigningOptions interface","IOpcSigningOptions interface [Open Packaging Conventions]","GetSignaturePartReferenceSet method","IOpcSigningOptions.GetSignaturePartReferenceSet","IOpcSigningOptions::GetSignaturePartReferenceSet","msopc/IOpcSigningOptions::GetSignaturePartReferenceSet","opc.iopcsigningoptions_getsignaturepartreferenceset"]
 old-location: opc\iopcsigningoptions_getsignaturepartreferenceset.htm
 tech.root: OPC
 ms.assetid: 60e657c3-41a3-4a05-a084-111429b1add9

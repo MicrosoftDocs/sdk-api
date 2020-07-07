@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcasync.RpcErrorStartEnumeration
 title: RpcErrorStartEnumeration function (rpcasync.h)
-description: The RpcErrorStartEnumeration function begins enumeration of extended error information.helpviewer_keywords: ["RpcErrorStartEnumeration","RpcErrorStartEnumeration function [RPC]","_rpc_rpcerrorstartenumeration","rpc.rpcerrorstartenumeration","rpcasync/RpcErrorStartEnumeration"]
+description: The RpcErrorStartEnumeration function begins enumeration of extended error information.
+helpviewer_keywords: ["RpcErrorStartEnumeration","RpcErrorStartEnumeration function [RPC]","_rpc_rpcerrorstartenumeration","rpc.rpcerrorstartenumeration","rpcasync/RpcErrorStartEnumeration"]
 old-location: rpc\rpcerrorstartenumeration.htm
 tech.root: Rpc
 ms.assetid: 56c61902-4b34-4d92-b352-cd1837754aa3

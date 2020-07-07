@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetCapture
 title: SetCapture function (winuser.h)
-description: Sets the mouse capture to the specified window belonging to the current thread.helpviewer_keywords: ["SetCapture","SetCapture function [Keyboard and Mouse Input]","_win32_SetCapture","_win32_setcapture_cpp","inputdev.setcapture","winui._win32_setcapture","winuser/SetCapture"]
+description: Sets the mouse capture to the specified window belonging to the current thread.
+helpviewer_keywords: ["SetCapture","SetCapture function [Keyboard and Mouse Input]","_win32_SetCapture","_win32_setcapture_cpp","inputdev.setcapture","winui._win32_setcapture","winuser/SetCapture"]
 old-location: inputdev\setcapture.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputfunctions\setcapture.htm

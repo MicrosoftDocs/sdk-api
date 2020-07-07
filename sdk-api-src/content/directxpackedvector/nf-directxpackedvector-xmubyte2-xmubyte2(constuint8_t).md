@@ -1,7 +1,8 @@
 ---
-UID: NF:directxpackedvector.XMUBYTE2.XMUBYTE2(const uint8_t)
+UID: NF:directxpackedvector.XMUBYTE2.XMUBYTE2(constuint8_t)
 title: XMUBYTE2::XMUBYTE2(const uint8_t) (directxpackedvector.h)
-description: Initializes a new instance of **XMUBYTE2** from a two-element int8_t array argument.helpviewer_keywords: ["XMUBYTE2","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 structure","XMUBYTE2 structure [DirectX Math Support APIs]","XMUBYTE2 constructor","XMUBYTE2.XMUBYTE2","XMUBYTE2.XMUBYTE2()","XMUBYTE2.XMUBYTE2(const uint8_t)","XMUBYTE2::XMUBYTE2","XMUBYTE2::XMUBYTE2(const uint8_t)","dxmath.xmubyte2_ctor_1"]
+description: Initializes a new instance of **XMUBYTE2** from a two-element int8_t array argument.
+helpviewer_keywords: ["XMUBYTE2","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 constructor [DirectX Math Support APIs]","XMUBYTE2 structure","XMUBYTE2 structure [DirectX Math Support APIs]","XMUBYTE2 constructor","XMUBYTE2.XMUBYTE2","XMUBYTE2.XMUBYTE2()","XMUBYTE2.XMUBYTE2(const uint8_t)","XMUBYTE2::XMUBYTE2","XMUBYTE2::XMUBYTE2(const uint8_t)","dxmath.xmubyte2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: d7f51876-9fc9-40b7-8b42-ff4ee4c9afa0

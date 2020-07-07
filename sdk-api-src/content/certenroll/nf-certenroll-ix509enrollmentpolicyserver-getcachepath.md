@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509EnrollmentPolicyServer.GetCachePath
 title: IX509EnrollmentPolicyServer::GetCachePath (certenroll.h)
-description: Retrieves the path of the policy cache file on the certificate enrollment policy (CEP) server.helpviewer_keywords: ["GetCachePath","GetCachePath method [Security]","GetCachePath method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetCachePath method","IX509EnrollmentPolicyServer.GetCachePath","IX509EnrollmentPolicyServer::GetCachePath","certenroll/IX509EnrollmentPolicyServer::GetCachePath","security.ix509enrollmentpolicyserver_getcachepath"]
+description: Retrieves the path of the policy cache file on the certificate enrollment policy (CEP) server.
+helpviewer_keywords: ["GetCachePath","GetCachePath method [Security]","GetCachePath method [Security]","IX509EnrollmentPolicyServer interface","IX509EnrollmentPolicyServer interface [Security]","GetCachePath method","IX509EnrollmentPolicyServer.GetCachePath","IX509EnrollmentPolicyServer::GetCachePath","certenroll/IX509EnrollmentPolicyServer::GetCachePath","security.ix509enrollmentpolicyserver_getcachepath"]
 old-location: security\ix509enrollmentpolicyserver_getcachepath.htm
 tech.root: seccertenroll
 ms.assetid: c71c9f97-a312-4260-995b-454de6a38cce

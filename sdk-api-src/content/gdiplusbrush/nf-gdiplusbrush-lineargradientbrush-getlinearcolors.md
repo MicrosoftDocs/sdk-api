@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetLinearColors
 title: LinearGradientBrush::GetLinearColors (gdiplusbrush.h)
-description: The LinearGradientBrush::GetLinearColors method gets the starting color and ending color of this linear gradient brush.helpviewer_keywords: ["GetLinearColors","GetLinearColors method [GDI+]","GetLinearColors method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetLinearColors method","LinearGradientBrush.GetLinearColors","LinearGradientBrush::GetLinearColors","_gdiplus_CLASS_LinearGradientBrush_GetLinearColors_colors_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetLinearColors_colors_"]
+description: The LinearGradientBrush::GetLinearColors method gets the starting color and ending color of this linear gradient brush.
+helpviewer_keywords: ["GetLinearColors","GetLinearColors method [GDI+]","GetLinearColors method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetLinearColors method","LinearGradientBrush.GetLinearColors","LinearGradientBrush::GetLinearColors","_gdiplus_CLASS_LinearGradientBrush_GetLinearColors_colors_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetLinearColors_colors_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetLinearColors_colors_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getlinearcolors.htm

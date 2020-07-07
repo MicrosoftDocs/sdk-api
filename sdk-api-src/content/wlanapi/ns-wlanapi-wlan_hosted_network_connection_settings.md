@@ -1,7 +1,8 @@
 ---
 UID: NS:wlanapi._WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS
 title: WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS (wlanapi.h)
-description: Contains information about the connection settings on the wireless Hosted Network.helpviewer_keywords: ["*PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS","PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS","PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS structure pointer [NativeWIFI]","WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS","WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS structure [NativeWIFI]","nwifi.wlan_hosted_network_connection_settings","wlanapi/PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS","wlanapi/WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS"]
+description: Contains information about the connection settings on the wireless Hosted Network.
+helpviewer_keywords: ["*PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS","PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS","PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS structure pointer [NativeWIFI]","WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS","WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS structure [NativeWIFI]","nwifi.wlan_hosted_network_connection_settings","wlanapi/PWLAN_HOSTED_NETWORK_CONNECTION_SETTINGS","wlanapi/WLAN_HOSTED_NETWORK_CONNECTION_SETTINGS"]
 old-location: nwifi\wlan_hosted_network_connection_settings.htm
 tech.root: NativeWiFi
 ms.assetid: 845eaef2-7ce0-4d7a-8273-8b843b5c95fd

@@ -1,7 +1,8 @@
 ---
 UID: NF:endpointvolume.IAudioMeterInformation.GetChannelsPeakValues
 title: IAudioMeterInformation::GetChannelsPeakValues (endpointvolume.h)
-description: The GetChannelsPeakValues method gets the peak sample values for all the channels in the audio stream.helpviewer_keywords: ["GetChannelsPeakValues","GetChannelsPeakValues method [Core Audio]","GetChannelsPeakValues method [Core Audio]","IAudioMeterInformation interface","IAudioMeterInformation interface [Core Audio]","GetChannelsPeakValues method","IAudioMeterInformation.GetChannelsPeakValues","IAudioMeterInformation::GetChannelsPeakValues","IAudioMeterInformationGetChannelsPeakValues","coreaudio.iaudiometerinformation_getchannelspeakvalues","endpointvolume/IAudioMeterInformation::GetChannelsPeakValues"]
+description: The GetChannelsPeakValues method gets the peak sample values for all the channels in the audio stream.
+helpviewer_keywords: ["GetChannelsPeakValues","GetChannelsPeakValues method [Core Audio]","GetChannelsPeakValues method [Core Audio]","IAudioMeterInformation interface","IAudioMeterInformation interface [Core Audio]","GetChannelsPeakValues method","IAudioMeterInformation.GetChannelsPeakValues","IAudioMeterInformation::GetChannelsPeakValues","IAudioMeterInformationGetChannelsPeakValues","coreaudio.iaudiometerinformation_getchannelspeakvalues","endpointvolume/IAudioMeterInformation::GetChannelsPeakValues"]
 old-location: coreaudio\iaudiometerinformation_getchannelspeakvalues.htm
 tech.root: CoreAudio
 ms.assetid: f5caf927-50c4-48dc-b396-016a1cf88882

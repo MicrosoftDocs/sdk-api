@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device5.GetRaytracingAccelerationStructurePrebuildInfo
 title: ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo (d3d12.h)
-description: Query the driver for resource requirements to build an acceleration structure.helpviewer_keywords: ["GetRaytracingAccelerationStructurePrebuildInfo","GetRaytracingAccelerationStructurePrebuildInfo method","GetRaytracingAccelerationStructurePrebuildInfo method","ID3D12Device5 interface","ID3D12Device5 interface","GetRaytracingAccelerationStructurePrebuildInfo method","ID3D12Device5.GetRaytracingAccelerationStructurePrebuildInfo","ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo","d3d12/ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo","direct3d12.id3d12device5_getraytracingaccelerationstructureprebuildinfo"]
+description: Query the driver for resource requirements to build an acceleration structure.
+helpviewer_keywords: ["GetRaytracingAccelerationStructurePrebuildInfo","GetRaytracingAccelerationStructurePrebuildInfo method","GetRaytracingAccelerationStructurePrebuildInfo method","ID3D12Device5 interface","ID3D12Device5 interface","GetRaytracingAccelerationStructurePrebuildInfo method","ID3D12Device5.GetRaytracingAccelerationStructurePrebuildInfo","ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo","d3d12/ID3D12Device5::GetRaytracingAccelerationStructurePrebuildInfo","direct3d12.id3d12device5_getraytracingaccelerationstructureprebuildinfo"]
 old-location: direct3d12\id3d12device5_getraytracingaccelerationstructureprebuildinfo.htm
 tech.root: direct3d12
 ms.assetid: 6B2CB3E8-06F8-4578-8FF0-566246C983B0

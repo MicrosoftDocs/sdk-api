@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchManager.get_ProxyName
 title: ISearchManager::get_ProxyName (searchapi.h)
-description: Retrieves the proxy name to be used by the protocol handler.helpviewer_keywords: ["ISearchManager interface [search]","get_ProxyName method","ISearchManager.get_ProxyName","ISearchManager::get_ProxyName","_search_ISearchManager_get_ProxyName","get_ProxyName","get_ProxyName method [search]","get_ProxyName method [search]","ISearchManager interface","search._search_ISearchManager_get_ProxyName","searchapi/ISearchManager::get_ProxyName"]
+description: Retrieves the proxy name to be used by the protocol handler.
+helpviewer_keywords: ["ISearchManager interface [search]","get_ProxyName method","ISearchManager.get_ProxyName","ISearchManager::get_ProxyName","_search_ISearchManager_get_ProxyName","get_ProxyName","get_ProxyName method [search]","get_ProxyName method [search]","ISearchManager interface","search._search_ISearchManager_get_ProxyName","searchapi/ISearchManager::get_ProxyName"]
 old-location: search\_search_ISearchManager_get_ProxyName.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\get_proxyname.htm
@@ -79,9 +80,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-The ReindexMatchingUrls code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

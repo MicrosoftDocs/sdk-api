@@ -1,7 +1,8 @@
 ---
 UID: NS:winbase._FILE_ID_BOTH_DIR_INFO
 title: FILE_ID_BOTH_DIR_INFO (winbase.h)
-description: Contains information about files in the specified directory.helpviewer_keywords: ["*PFILE_ID_BOTH_DIR_INFO","FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_COMPRESSED","FILE_ATTRIBUTE_DIRECTORY","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","FILE_ID_BOTH_DIR_INFO","FILE_ID_BOTH_DIR_INFO structure [Files]","PFILE_ID_BOTH_DIR_INFO","PFILE_ID_BOTH_DIR_INFO structure pointer [Files]","fileextd/FILE_ID_BOTH_DIR_INFO","fileextd/PFILE_ID_BOTH_DIR_INFO","fs.file_id_both_dir_info","fs.file_id_both_directory_info","winbase/FILE_ID_BOTH_DIR_INFO","winbase/PFILE_ID_BOTH_DIR_INFO"]
+description: Contains information about files in the specified directory.
+helpviewer_keywords: ["*PFILE_ID_BOTH_DIR_INFO","FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_COMPRESSED","FILE_ATTRIBUTE_DIRECTORY","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","FILE_ID_BOTH_DIR_INFO","FILE_ID_BOTH_DIR_INFO structure [Files]","PFILE_ID_BOTH_DIR_INFO","PFILE_ID_BOTH_DIR_INFO structure pointer [Files]","fileextd/FILE_ID_BOTH_DIR_INFO","fileextd/PFILE_ID_BOTH_DIR_INFO","fs.file_id_both_dir_info","fs.file_id_both_directory_info","winbase/FILE_ID_BOTH_DIR_INFO","winbase/PFILE_ID_BOTH_DIR_INFO"]
 old-location: fs\file_id_both_dir_info.htm
 tech.root: FileIO
 ms.assetid: d7011ea4-e70a-4c03-a715-6144ce0c7029

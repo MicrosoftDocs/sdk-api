@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.CanInPlaceActivate
 title: IOleInPlaceSite::CanInPlaceActivate (oleidl.h)
-description: Determines whether the container can activate the object in place.helpviewer_keywords: ["CanInPlaceActivate","CanInPlaceActivate method [COM]","CanInPlaceActivate method [COM]","IOleInPlaceSite interface","IOleInPlaceSite interface [COM]","CanInPlaceActivate method","IOleInPlaceSite.CanInPlaceActivate","IOleInPlaceSite::CanInPlaceActivate","_ole_ioleinplacesite_caninplaceactivate","com.ioleinplacesite_caninplaceactivate","oleidl/IOleInPlaceSite::CanInPlaceActivate"]
+description: Determines whether the container can activate the object in place.
+helpviewer_keywords: ["CanInPlaceActivate","CanInPlaceActivate method [COM]","CanInPlaceActivate method [COM]","IOleInPlaceSite interface","IOleInPlaceSite interface [COM]","CanInPlaceActivate method","IOleInPlaceSite.CanInPlaceActivate","IOleInPlaceSite::CanInPlaceActivate","_ole_ioleinplacesite_caninplaceactivate","com.ioleinplacesite_caninplaceactivate","oleidl/IOleInPlaceSite::CanInPlaceActivate"]
 old-location: com\ioleinplacesite_caninplaceactivate.htm
 tech.root: com
 ms.assetid: ac960359-7e02-43b6-ac42-0000af15b1a4

@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.ITask.SetMaxRunTime
 title: ITask::SetMaxRunTime (mstask.h)
-description: This method sets the maximum time the task can run, in milliseconds, before terminating.helpviewer_keywords: ["ITask interface [Task Scheduler]","SetMaxRunTime method","ITask.SetMaxRunTime","ITask::SetMaxRunTime","SetMaxRunTime","SetMaxRunTime method [Task Scheduler]","SetMaxRunTime method [Task Scheduler]","ITask interface","_msb_itask_setmaxruntime","mstask/ITask::SetMaxRunTime","taskschd.itask_setmaxruntime"]
+description: This method sets the maximum time the task can run, in milliseconds, before terminating.
+helpviewer_keywords: ["ITask interface [Task Scheduler]","SetMaxRunTime method","ITask.SetMaxRunTime","ITask::SetMaxRunTime","SetMaxRunTime","SetMaxRunTime method [Task Scheduler]","SetMaxRunTime method [Task Scheduler]","ITask interface","_msb_itask_setmaxruntime","mstask/ITask::SetMaxRunTime","taskschd.itask_setmaxruntime"]
 old-location: taskschd\itask_setmaxruntime.htm
 tech.root: taskschd
 ms.assetid: fb9012c6-be41-4ec6-bb1a-73bd7896738f

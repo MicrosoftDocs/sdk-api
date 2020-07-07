@@ -1,7 +1,8 @@
 ---
 UID: NF:upnphost.IUPnPEventSource.Advise
 title: IUPnPEventSource::Advise (upnphost.h)
-description: The Advise method is invoked by the device host to begin receiving events from the hosted service.helpviewer_keywords: ["Advise","Advise method [UPnP APIs]","Advise method [UPnP APIs]","IUPnPEventSource interface","IUPnPEventSource interface [UPnP APIs]","Advise method","IUPnPEventSource.Advise","IUPnPEventSource::Advise","_upnp_iupnpeventsource_advise","upnp.iupnpeventsource_advise","upnphost/IUPnPEventSource::Advise"]
+description: The Advise method is invoked by the device host to begin receiving events from the hosted service.
+helpviewer_keywords: ["Advise","Advise method [UPnP APIs]","Advise method [UPnP APIs]","IUPnPEventSource interface","IUPnPEventSource interface [UPnP APIs]","Advise method","IUPnPEventSource.Advise","IUPnPEventSource::Advise","_upnp_iupnpeventsource_advise","upnp.iupnpeventsource_advise","upnphost/IUPnPEventSource::Advise"]
 old-location: upnp\iupnpeventsource_advise.htm
 tech.root: upnp
 ms.assetid: ec68f4ff-7549-4d48-b347-0320bc55329c

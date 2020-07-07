@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.StopTraceW
 title: StopTraceW function (evntrace.h)
-description: The StopTrace function stops the specified event tracing session. The ControlTrace function supersedes this function.helpviewer_keywords: ["StopTrace","StopTrace function [ETW]","StopTraceA","StopTraceW","_evt_stoptrace","base.stoptrace","etw.stoptrace","evntrace/StopTrace","evntrace/StopTraceA","evntrace/StopTraceW"]
+description: The StopTrace function stops the specified event tracing session. The ControlTrace function supersedes this function.
+helpviewer_keywords: ["StopTrace","StopTrace function [ETW]","StopTraceA","StopTraceW","_evt_stoptrace","base.stoptrace","etw.stoptrace","evntrace/StopTrace","evntrace/StopTraceA","evntrace/StopTraceW"]
 old-location: etw\stoptrace.htm
 tech.root: ETW
 ms.assetid: 604274a1-c4ed-4746-b69a-e18969f969db
@@ -181,6 +182,10 @@ Note that it is not safe to stop a trace session from DllMain.
 
 
 
+
+
+> [!NOTE]
+> The evntrace.h header defines StopTrace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

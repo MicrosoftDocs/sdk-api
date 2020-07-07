@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemServices.ExecMethod
 title: IWbemServices::ExecMethod (wbemcli.h)
-description: Executes a method exported by a CIM object.helpviewer_keywords: ["ExecMethod","ExecMethod method [Windows Management Instrumentation]","ExecMethod method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","ExecMethod method","IWbemServices.ExecMethod","IWbemServices::ExecMethod","_hmm_iwbemservices_execmethod","wbemcli/IWbemServices::ExecMethod","wmi.iwbemservices_execmethod"]
+description: Executes a method exported by a CIM object.
+helpviewer_keywords: ["ExecMethod","ExecMethod method [Windows Management Instrumentation]","ExecMethod method [Windows Management Instrumentation]","IWbemServices interface","IWbemServices interface [Windows Management Instrumentation]","ExecMethod method","IWbemServices.ExecMethod","IWbemServices::ExecMethod","_hmm_iwbemservices_execmethod","wbemcli/IWbemServices::ExecMethod","wmi.iwbemservices_execmethod"]
 old-location: wmi\iwbemservices_execmethod.htm
 tech.root: WmiSdk
 ms.assetid: 9acba1aa-bcca-416a-863c-704d2e72df07

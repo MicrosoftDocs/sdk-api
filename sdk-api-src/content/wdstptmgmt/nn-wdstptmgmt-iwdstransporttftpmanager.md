@@ -1,7 +1,8 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportTftpManager
 title: IWdsTransportTftpManager (wdstptmgmt.h)
-description: This interface provides a method to retrieve all the clients currently connected to the TFTP server.helpviewer_keywords: ["IWdsTransportTftpManager","IWdsTransportTftpManager interface [Windows Deployment Services]","IWdsTransportTftpManager interface [Windows Deployment Services]","described","wds.iwdstransporttftpmanager","wdstptmgmt/IWdsTransportTftpManager"]
+description: This interface provides a method to retrieve all the clients currently connected to the TFTP server.
+helpviewer_keywords: ["IWdsTransportTftpManager","IWdsTransportTftpManager interface [Windows Deployment Services]","IWdsTransportTftpManager interface [Windows Deployment Services]","described","wds.iwdstransporttftpmanager","wdstptmgmt/IWdsTransportTftpManager"]
 old-location: wds\iwdstransporttftpmanager.htm
 tech.root: wds
 ms.assetid: A2DB8313-2855-4B0E-908E-CAE71E88FEF0

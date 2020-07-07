@@ -1,7 +1,8 @@
 ---
 UID: NS:mmreg.tWAVEFORMATEX
 title: WAVEFORMATEX (mmreg.h)
-description: The WAVEFORMATEX structure specifies the data format of a wave audio stream.helpviewer_keywords: ["*LPWAVEFORMATEX","*NPWAVEFORMATEX","*PWAVEFORMATEX","WAVEFORMATEX","WAVEFORMATEX structure [Audio Devices]","aud-prop_f0d9c096-fa87-43d5-812b-de4d08358342.xml","audio.waveformatex","mmreg/WAVEFORMATEX"]
+description: The WAVEFORMATEX structure specifies the data format of a wave audio stream.
+helpviewer_keywords: ["*LPWAVEFORMATEX","*NPWAVEFORMATEX","*PWAVEFORMATEX","WAVEFORMATEX","WAVEFORMATEX structure [Audio Devices]","aud-prop_f0d9c096-fa87-43d5-812b-de4d08358342.xml","audio.waveformatex","mmreg/WAVEFORMATEX"]
 old-location: audio\waveformatex.htm
 tech.root: audio
 ms.assetid: f2f050d6-afe2-4647-932b-1287f4538702

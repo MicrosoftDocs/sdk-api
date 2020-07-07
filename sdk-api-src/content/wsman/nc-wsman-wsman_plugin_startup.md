@@ -1,7 +1,8 @@
 ---
 UID: NC:wsman.WSMAN_PLUGIN_STARTUP
 title: WSMAN_PLUGIN_STARTUP (wsman.h)
-description: Defines the startup callback for the plug-in.helpviewer_keywords: ["WSMAN_PLUGIN_STARTUP","WSMAN_PLUGIN_STARTUP callback","WSMAN_PLUGIN_STARTUP callback function [Windows Remote Management]","WSManPluginStartup","winrm.wsman_plugin_startup","wsman/WSMAN_PLUGIN_STARTUP"]
+description: Defines the startup callback for the plug-in.
+helpviewer_keywords: ["WSMAN_PLUGIN_STARTUP","WSMAN_PLUGIN_STARTUP callback","WSMAN_PLUGIN_STARTUP callback function [Windows Remote Management]","WSManPluginStartup","winrm.wsman_plugin_startup","wsman/WSMAN_PLUGIN_STARTUP"]
 old-location: winrm\wsman_plugin_startup.htm
 tech.root: winrm
 ms.assetid: b3123f52-880b-4d14-a5a2-77c5924de99d

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorExp2
 title: XMVectorExp2 function (directxmath.h)
-description: Computes two raised to the power for each component.helpviewer_keywords: ["Use DirectX..XMVectorExp2","XMVectorExp2","XMVectorExp2 method [DirectX Math Support APIs]","dxmath.xmvectorexp2"]
+description: Computes two raised to the power for each component.
+helpviewer_keywords: ["Use DirectX..XMVectorExp2","XMVectorExp2","XMVectorExp2 method [DirectX Math Support APIs]","dxmath.xmvectorexp2"]
 old-location: dxmath\xmvectorexp2.htm
 tech.root: dxmath
 ms.assetid: 1B04528B-532B-4555-B027-D5EC33DD9843

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMCrossbar.get_CrossbarPinInfo
 title: IAMCrossbar::get_CrossbarPinInfo (strmif.h)
-description: The get_CrossbarPinInfo method retrieves information about a specified pin.helpviewer_keywords: ["FALSE","IAMCrossbar interface [DirectShow]","get_CrossbarPinInfo method","IAMCrossbar.get_CrossbarPinInfo","IAMCrossbar::get_CrossbarPinInfo","IAMCrossbarget_CrossbarPinInfo","TRUE","dshow.iamcrossbar_get_crossbarpininfo","get_CrossbarPinInfo","get_CrossbarPinInfo method [DirectShow]","get_CrossbarPinInfo method [DirectShow]","IAMCrossbar interface","strmif/IAMCrossbar::get_CrossbarPinInfo"]
+description: The get_CrossbarPinInfo method retrieves information about a specified pin.
+helpviewer_keywords: ["FALSE","IAMCrossbar interface [DirectShow]","get_CrossbarPinInfo method","IAMCrossbar.get_CrossbarPinInfo","IAMCrossbar::get_CrossbarPinInfo","IAMCrossbarget_CrossbarPinInfo","TRUE","dshow.iamcrossbar_get_crossbarpininfo","get_CrossbarPinInfo","get_CrossbarPinInfo method [DirectShow]","get_CrossbarPinInfo method [DirectShow]","IAMCrossbar interface","strmif/IAMCrossbar::get_CrossbarPinInfo"]
 old-location: dshow\iamcrossbar_get_crossbarpininfo.htm
 tech.root: DirectShow
 ms.assetid: 29cda12e-a731-4995-8e0c-69dfcda6f158

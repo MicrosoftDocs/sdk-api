@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IDiscFormat2RawCD
 title: IDiscFormat2RawCD (imapi2.h)
-description: Use this interface to write raw images to a disc device using Disc At Once (DAO) mode (also known as uninterrupted recording).helpviewer_keywords: ["IDiscFormat2RawCD","IDiscFormat2RawCD interface [IMAPI]","IDiscFormat2RawCD interface [IMAPI]","described","imapi.idiscformat2rawcd","imapi2/IDiscFormat2RawCD"]
+description: Use this interface to write raw images to a disc device using Disc At Once (DAO) mode (also known as uninterrupted recording).
+helpviewer_keywords: ["IDiscFormat2RawCD","IDiscFormat2RawCD interface [IMAPI]","IDiscFormat2RawCD interface [IMAPI]","described","imapi.idiscformat2rawcd","imapi2/IDiscFormat2RawCD"]
 old-location: imapi\idiscformat2rawcd.htm
 tech.root: imapi
 ms.assetid: 58d9b83c-a528-4b39-b08d-a0fb8c1aece8

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CheckDlgButton
 title: CheckDlgButton function (winuser.h)
-description: Changes the check state of a button control.helpviewer_keywords: ["BST_CHECKED","BST_INDETERMINATE","BST_UNCHECKED","CheckDlgButton","CheckDlgButton function [Windows Controls]","_win32_CheckDlgButton","_win32_CheckDlgButton_cpp","controls.CheckDlgButton","controls._win32_CheckDlgButton","winuser/CheckDlgButton"]
+description: Changes the check state of a button control.
+helpviewer_keywords: ["BST_CHECKED","BST_INDETERMINATE","BST_UNCHECKED","CheckDlgButton","CheckDlgButton function [Windows Controls]","_win32_CheckDlgButton","_win32_CheckDlgButton_cpp","controls.CheckDlgButton","controls._win32_CheckDlgButton","winuser/CheckDlgButton"]
 old-location: controls\CheckDlgButton.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonfunctions\checkdlgbutton.htm

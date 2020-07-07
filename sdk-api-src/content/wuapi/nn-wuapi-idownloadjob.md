@@ -1,7 +1,8 @@
 ---
 UID: NN:wuapi.IDownloadJob
 title: IDownloadJob (wuapi.h)
-description: Contains properties and methods that are available to a download operation.helpviewer_keywords: ["IDownloadJob","IDownloadJob interface [Windows Update Agent]","IDownloadJob interface [Windows Update Agent]","described","wua.idownloadjob","wuapi/IDownloadJob"]
+description: Contains properties and methods that are available to a download operation.
+helpviewer_keywords: ["IDownloadJob","IDownloadJob interface [Windows Update Agent]","IDownloadJob interface [Windows Update Agent]","described","wua.idownloadjob","wuapi/IDownloadJob"]
 old-location: wua\idownloadjob.htm
 tech.root: Wua_Sdk
 ms.assetid: 0157acab-53b6-43f9-a358-81cd5108c531

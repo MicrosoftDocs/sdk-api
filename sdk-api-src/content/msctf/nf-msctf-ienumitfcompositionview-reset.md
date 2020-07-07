@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumITfCompositionView.Reset
 title: IEnumITfCompositionView::Reset (msctf.h)
-description: IEnumITfCompositionView::Reset methodhelpviewer_keywords: ["IEnumITfCompositionView interface [Text Services Framework]","Reset method","IEnumITfCompositionView.Reset","IEnumITfCompositionView::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumITfCompositionView interface","_tsf_ienumitfcompositionview_reset_ref","msctf/IEnumITfCompositionView::Reset","tsf.ienumitfcompositionview_reset"]
+description: IEnumITfCompositionView::Reset method
+helpviewer_keywords: ["IEnumITfCompositionView interface [Text Services Framework]","Reset method","IEnumITfCompositionView.Reset","IEnumITfCompositionView::Reset","Reset","Reset method [Text Services Framework]","Reset method [Text Services Framework]","IEnumITfCompositionView interface","_tsf_ienumitfcompositionview_reset_ref","msctf/IEnumITfCompositionView::Reset","tsf.ienumitfcompositionview_reset"]
 old-location: tsf\ienumitfcompositionview_reset.htm
 tech.root: TSF
 ms.assetid: d0f63b58-fe9c-4c2c-8e70-e7be88030417

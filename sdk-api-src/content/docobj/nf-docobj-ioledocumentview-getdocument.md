@@ -1,7 +1,8 @@
 ---
 UID: NF:docobj.IOleDocumentView.GetDocument
 title: IOleDocumentView::GetDocument (docobj.h)
-description: Obtains the IUnknown interface pointer on the document object that owns this view.helpviewer_keywords: ["GetDocument","GetDocument method [COM]","GetDocument method [COM]","IOleDocumentView interface","IOleDocumentView interface [COM]","GetDocument method","IOleDocumentView.GetDocument","IOleDocumentView::GetDocument","_ole_ioledocumentview_getdocument","com.ioledocumentview_getdocument","docobj/IOleDocumentView::GetDocument"]
+description: Obtains the IUnknown interface pointer on the document object that owns this view.
+helpviewer_keywords: ["GetDocument","GetDocument method [COM]","GetDocument method [COM]","IOleDocumentView interface","IOleDocumentView interface [COM]","GetDocument method","IOleDocumentView.GetDocument","IOleDocumentView::GetDocument","_ole_ioledocumentview_getdocument","com.ioledocumentview_getdocument","docobj/IOleDocumentView::GetDocument"]
 old-location: com\ioledocumentview_getdocument.htm
 tech.root: com
 ms.assetid: 46174e4f-c943-4e70-af68-79363962cdee

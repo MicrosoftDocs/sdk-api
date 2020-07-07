@@ -1,7 +1,8 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyStorage
 title: CItemIDFactory::GetPropertyStorage (shidfact.h)
-description: Gets a read only pointer to the serialized property storage that is used for storing metadata.helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","GetPropertyStorage method","CItemIDFactory.GetPropertyStorage","CItemIDFactory::GetPropertyStorage","GetPropertyStorage","GetPropertyStorage method [Windows Shell]","GetPropertyStorage method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_getpropertystorage","shidfact/CItemIDFactory::GetPropertyStorage"]
+description: Gets a read only pointer to the serialized property storage that is used for storing metadata.
+helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","GetPropertyStorage method","CItemIDFactory.GetPropertyStorage","CItemIDFactory::GetPropertyStorage","GetPropertyStorage","GetPropertyStorage method [Windows Shell]","GetPropertyStorage method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_getpropertystorage","shidfact/CItemIDFactory::GetPropertyStorage"]
 old-location: shell\citemidfactory_getpropertystorage.htm
 tech.root: shell
 ms.assetid: 3A3F0F28-C9E1-4F2E-9A02-C6A48BF3C204

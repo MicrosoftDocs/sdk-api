@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3Orthogonal
 title: XMVector3Orthogonal function (directxmath.h)
-description: Computes a vector perpendicular to a 3D vector.helpviewer_keywords: ["Use DirectX..XMVector3Orthogonal","XMVector3Orthogonal","XMVector3Orthogonal method [DirectX Math Support APIs]","dxmath.xmvector3orthogonal"]
+description: Computes a vector perpendicular to a 3D vector.
+helpviewer_keywords: ["Use DirectX..XMVector3Orthogonal","XMVector3Orthogonal","XMVector3Orthogonal method [DirectX Math Support APIs]","dxmath.xmvector3orthogonal"]
 old-location: dxmath\xmvector3orthogonal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3Orthogonal(XMVECTOR)

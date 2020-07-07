@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.SendBeep
 title: IWTSProtocolConnection::SendBeep (wtsprotocol.h)
-description: IWTSProtocolConnection::SendBeep is no longer available.helpviewer_keywords: ["IWTSProtocolConnection interface [Remote Desktop Services]","SendBeep method","IWTSProtocolConnection.SendBeep","IWTSProtocolConnection::SendBeep","SendBeep","SendBeep method [Remote Desktop Services]","SendBeep method [Remote Desktop Services]","IWTSProtocolConnection interface","termserv.iwtsprotocolconnection_sendbeep","wtsprotocol/IWTSProtocolConnection::SendBeep"]
+description: IWTSProtocolConnection::SendBeep is no longer available.
+helpviewer_keywords: ["IWTSProtocolConnection interface [Remote Desktop Services]","SendBeep method","IWTSProtocolConnection.SendBeep","IWTSProtocolConnection::SendBeep","SendBeep","SendBeep method [Remote Desktop Services]","SendBeep method [Remote Desktop Services]","IWTSProtocolConnection interface","termserv.iwtsprotocolconnection_sendbeep","wtsprotocol/IWTSProtocolConnection::SendBeep"]
 old-location: termserv\iwtsprotocolconnection_sendbeep.htm
 tech.root: TermServ
 ms.assetid: 4665917d-4bc3-4017-9b69-3eb95e70337f

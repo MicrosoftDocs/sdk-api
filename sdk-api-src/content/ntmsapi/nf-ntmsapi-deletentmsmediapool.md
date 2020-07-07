@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsMediaPool
 title: DeleteNtmsMediaPool function (ntmsapi.h)
-description: The DeleteNtmsMediaPool function deletes the specified application media pool.helpviewer_keywords: ["DeleteNtmsMediaPool","DeleteNtmsMediaPool function [Files]","_zaw_deletentmsmediapool","base.deletentmsmediapool","fs.deletentmsmediapool","ntmsapi/DeleteNtmsMediaPool"]
+description: The DeleteNtmsMediaPool function deletes the specified application media pool.
+helpviewer_keywords: ["DeleteNtmsMediaPool","DeleteNtmsMediaPool function [Files]","_zaw_deletentmsmediapool","base.deletentmsmediapool","fs.deletentmsmediapool","ntmsapi/DeleteNtmsMediaPool"]
 old-location: fs\deletentmsmediapool.htm
 tech.root: Rsm
 ms.assetid: 79885083-beb6-4c66-8271-23082994a258

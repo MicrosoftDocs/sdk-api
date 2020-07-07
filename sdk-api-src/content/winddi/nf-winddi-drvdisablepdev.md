@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvDisablePDEV
 title: DrvDisablePDEV function (winddi.h)
-description: The DrvDisablePDEV function is used by GDI to notify a driver that the specified PDEV is no longer needed.helpviewer_keywords: ["DrvDisablePDEV","DrvDisablePDEV function [Display Devices]","ddifncs_ff781393-2fad-482c-a91e-1cf0b722441d.xml","display.drvdisablepdev","winddi/DrvDisablePDEV"]
+description: The DrvDisablePDEV function is used by GDI to notify a driver that the specified PDEV is no longer needed.
+helpviewer_keywords: ["DrvDisablePDEV","DrvDisablePDEV function [Display Devices]","ddifncs_ff781393-2fad-482c-a91e-1cf0b722441d.xml","display.drvdisablepdev","winddi/DrvDisablePDEV"]
 old-location: display\drvdisablepdev.htm
 tech.root: display
 ms.assetid: dff04000-e307-4a1c-80fe-d6666929df76

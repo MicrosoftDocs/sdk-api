@@ -1,7 +1,8 @@
 ---
 UID: NF:callobj.ICallIndirect.GetStackSize
 title: ICallIndirect::GetStackSize (callobj.h)
-description: Retrieves the number of bytes that should be popped from the stack in order to return from an invocation of the method.helpviewer_keywords: ["GetStackSize","GetStackSize method [COM]","GetStackSize method [COM]","ICallIndirect interface","ICallIndirect interface [COM]","GetStackSize method","ICallIndirect.GetStackSize","ICallIndirect::GetStackSize","_com_icallindirect_getstacksize","callobj/ICallIndirect::GetStackSize","com.icallindirect_getstacksize"]
+description: Retrieves the number of bytes that should be popped from the stack in order to return from an invocation of the method.
+helpviewer_keywords: ["GetStackSize","GetStackSize method [COM]","GetStackSize method [COM]","ICallIndirect interface","ICallIndirect interface [COM]","GetStackSize method","ICallIndirect.GetStackSize","ICallIndirect::GetStackSize","_com_icallindirect_getstacksize","callobj/ICallIndirect::GetStackSize","com.icallindirect_getstacksize"]
 old-location: com\icallindirect_getstacksize.htm
 tech.root: com
 ms.assetid: 3251c9b1-e076-4bc3-a995-1b0d275929a0

@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextHost.TxDeactivate
 title: ITextHost::TxDeactivate (textserv.h)
-description: Notifies the text host that the control is now inactive.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxDeactivate method","ITextHost.TxDeactivate","ITextHost::TxDeactivate","TxDeactivate","TxDeactivate method [Windows Controls]","TxDeactivate method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxDeactivate","_win32_ITextHost_TxDeactivate_cpp","controls.ITextHost_TxDeactivate","controls._win32_ITextHost_TxDeactivate","textserv/ITextHost::TxDeactivate"]
+description: Notifies the text host that the control is now inactive.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxDeactivate method","ITextHost.TxDeactivate","ITextHost::TxDeactivate","TxDeactivate","TxDeactivate method [Windows Controls]","TxDeactivate method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxDeactivate","_win32_ITextHost_TxDeactivate_cpp","controls.ITextHost_TxDeactivate","controls._win32_ITextHost_TxDeactivate","textserv/ITextHost::TxDeactivate"]
 old-location: controls\ITextHost_TxDeactivate.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txdeactivate.htm

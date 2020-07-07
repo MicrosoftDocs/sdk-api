@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbLoadBalancing.GetMostSuitableTarget
 title: ITsSbLoadBalancing::GetMostSuitableTarget (sbtsv.h)
-description: Determines the most suitable target to which to direct an incoming client connection.helpviewer_keywords: ["GetMostSuitableTarget","GetMostSuitableTarget method [Remote Desktop Services]","GetMostSuitableTarget method [Remote Desktop Services]","ITsSbLoadBalancing interface","ITsSbLoadBalancing interface [Remote Desktop Services]","GetMostSuitableTarget method","ITsSbLoadBalancing.GetMostSuitableTarget","ITsSbLoadBalancing::GetMostSuitableTarget","sbtsv/ITsSbLoadBalancing::GetMostSuitableTarget","termserv.itssbloadbalancing_getmostsuitabletarget"]
+description: Determines the most suitable target to which to direct an incoming client connection.
+helpviewer_keywords: ["GetMostSuitableTarget","GetMostSuitableTarget method [Remote Desktop Services]","GetMostSuitableTarget method [Remote Desktop Services]","ITsSbLoadBalancing interface","ITsSbLoadBalancing interface [Remote Desktop Services]","GetMostSuitableTarget method","ITsSbLoadBalancing.GetMostSuitableTarget","ITsSbLoadBalancing::GetMostSuitableTarget","sbtsv/ITsSbLoadBalancing::GetMostSuitableTarget","termserv.itssbloadbalancing_getmostsuitabletarget"]
 old-location: termserv\itssbloadbalancing_getmostsuitabletarget.htm
 tech.root: TermServ
 ms.assetid: 4f625f64-3909-4003-938c-7807ec24e59e

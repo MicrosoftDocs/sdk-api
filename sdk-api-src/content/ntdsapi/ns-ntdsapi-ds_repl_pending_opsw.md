@@ -1,7 +1,8 @@
 ---
 UID: NS:ntdsapi._DS_REPL_PENDING_OPSW
 title: DS_REPL_PENDING_OPSW (ntdsapi.h)
-description: Contains an array of DS_REPL_OP structures, which in turn describe the replication tasks currently executing and queued to execute, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 functions.helpviewer_keywords: ["DS_REPL_PENDING_OPS","DS_REPL_PENDING_OPS structure [Active Directory]","DS_REPL_PENDING_OPSW","_DS_REPL_PENDING_OPSW","_glines_ds_repl_pending_ops","ad.ds__repl__pending__ops","ad.ds_repl_pending_ops","ntdsapi/DS_REPL_PENDING_OPS"]
+description: Contains an array of DS_REPL_OP structures, which in turn describe the replication tasks currently executing and queued to execute, as returned by the DsReplicaGetInfo and DsReplicaGetInfo2 functions.
+helpviewer_keywords: ["DS_REPL_PENDING_OPS","DS_REPL_PENDING_OPS structure [Active Directory]","DS_REPL_PENDING_OPSW","_DS_REPL_PENDING_OPSW","_glines_ds_repl_pending_ops","ad.ds__repl__pending__ops","ad.ds_repl_pending_ops","ntdsapi/DS_REPL_PENDING_OPS"]
 old-location: ad\ds_repl_pending_ops.htm
 tech.root: ad
 ms.assetid: 2e4b96cb-fbd6-496b-aff3-cb7d82f1fa39

@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.SelectFont
 title: SelectFont macro (windowsx.h)
-description: The SelectFont macro selects a font object into the specified device context (DC). The new font object replaces the previous font object.helpviewer_keywords: ["SelectFont","SelectFont macro [Windows GDI]","_win32_SelectFont","gdi.selectfont","windowsx/SelectFont"]
+description: The SelectFont macro selects a font object into the specified device context (DC). The new font object replaces the previous font object.
+helpviewer_keywords: ["SelectFont","SelectFont macro [Windows GDI]","_win32_SelectFont","gdi.selectfont","windowsx/SelectFont"]
 old-location: gdi\selectfont.htm
 tech.root: gdi
 ms.assetid: e7c145aa-566d-4754-a4dd-a5e71e188258

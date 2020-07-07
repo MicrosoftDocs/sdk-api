@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPO.Delete
 title: IGPMStarterGPO::Delete (gpmgmt.h)
-description: Deletes the GPO from the current domain's system volume folder(SysVol).helpviewer_keywords: ["Delete","Delete method [GPMC]","Delete method [GPMC]","IGPMStarterGPO interface","IGPMStarterGPO interface [GPMC]","Delete method","IGPMStarterGPO.Delete","IGPMStarterGPO::Delete","gpmc.igpmstartergpo_delete","gpmgmt/IGPMStarterGPO::Delete"]
+description: Deletes the GPO from the current domain's system volume folder(SysVol).
+helpviewer_keywords: ["Delete","Delete method [GPMC]","Delete method [GPMC]","IGPMStarterGPO interface","IGPMStarterGPO interface [GPMC]","Delete method","IGPMStarterGPO.Delete","IGPMStarterGPO::Delete","gpmc.igpmstartergpo_delete","gpmgmt/IGPMStarterGPO::Delete"]
 old-location: gpmc\igpmstartergpo_delete.htm
 tech.root: gpmc
 ms.assetid: 1392326e-68f0-4d55-8a6b-3abbb60b51ee

@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminPortClearStats
 title: MprAdminPortClearStats function (mprapi.h)
-description: The MprAdminPortClearStats function resets the statistics for the specified port.helpviewer_keywords: ["MprAdminPortClearStats","MprAdminPortClearStats function [RAS]","_mpr_mpradminportclearstats","mprapi/MprAdminPortClearStats","rras.mpradminportclearstats"]
+description: The MprAdminPortClearStats function resets the statistics for the specified port.
+helpviewer_keywords: ["MprAdminPortClearStats","MprAdminPortClearStats function [RAS]","_mpr_mpradminportclearstats","mprapi/MprAdminPortClearStats","rras.mpradminportclearstats"]
 old-location: rras\mpradminportclearstats.htm
 tech.root: RRAS
 ms.assetid: dd932134-7954-4e0a-8170-1dea4ce82011

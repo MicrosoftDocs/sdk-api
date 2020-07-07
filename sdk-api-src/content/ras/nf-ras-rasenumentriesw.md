@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasEnumEntriesW
 title: RasEnumEntriesW function (ras.h)
-description: The RasEnumEntries function lists all entry names in a remote access phone book.helpviewer_keywords: ["RasEnumEntries","RasEnumEntries function [RAS]","RasEnumEntriesA","RasEnumEntriesW","_ras_rasenumentries","ras/RasEnumEntries","ras/RasEnumEntriesA","ras/RasEnumEntriesW","rras.rasenumentries"]
+description: The RasEnumEntries function lists all entry names in a remote access phone book.
+helpviewer_keywords: ["RasEnumEntries","RasEnumEntries function [RAS]","RasEnumEntriesA","RasEnumEntriesW","_ras_rasenumentries","ras/RasEnumEntries","ras/RasEnumEntriesA","ras/RasEnumEntriesW","rras.rasenumentries"]
 old-location: rras\rasenumentries.htm
 tech.root: RRAS
 ms.assetid: 9df7402f-c93e-45d4-925a-f2ce9d547bce
@@ -231,6 +232,10 @@ DWORD __cdecl wmain(){
 
 
 
+
+
+> [!NOTE]
+> The ras.h header defines RasEnumEntries as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

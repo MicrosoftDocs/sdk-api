@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.GetSecurityDescriptorLength
 title: GetSecurityDescriptorLength function (securitybaseapi.h)
-description: Returns the length, in bytes, of a structurally valid security descriptor. The length includes the length of all associated structures.helpviewer_keywords: ["GetSecurityDescriptorLength","GetSecurityDescriptorLength function [Security]","_win32_getsecuritydescriptorlength","security.getsecuritydescriptorlength","securitybaseapi/GetSecurityDescriptorLength"]
+description: Returns the length, in bytes, of a structurally valid security descriptor. The length includes the length of all associated structures.
+helpviewer_keywords: ["GetSecurityDescriptorLength","GetSecurityDescriptorLength function [Security]","_win32_getsecuritydescriptorlength","security.getsecuritydescriptorlength","securitybaseapi/GetSecurityDescriptorLength"]
 old-location: security\getsecuritydescriptorlength.htm
 tech.root: SecAuthZ
 ms.assetid: eb331839-ff3e-4f4b-b93b-18da2ea72697

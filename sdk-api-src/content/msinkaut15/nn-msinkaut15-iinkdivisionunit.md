@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut15.IInkDivisionUnit
 title: IInkDivisionUnit (msinkaut15.h)
-description: Represents a single structural element within an IInkDivisionResult object.helpviewer_keywords: ["5c5479e0-7568-40c8-bb75-e2ded3ac86b7","IInkDivisionUnit","IInkDivisionUnit interface [Tablet PC]","IInkDivisionUnit interface [Tablet PC]","described","msinkaut15/IInkDivisionUnit","tablet.iinkdivisionunit"]
+description: Represents a single structural element within an IInkDivisionResult object.
+helpviewer_keywords: ["5c5479e0-7568-40c8-bb75-e2ded3ac86b7","IInkDivisionUnit","IInkDivisionUnit interface [Tablet PC]","IInkDivisionUnit interface [Tablet PC]","described","msinkaut15/IInkDivisionUnit","tablet.iinkdivisionunit"]
 old-location: tablet\iinkdivisionunit.htm
 tech.root: tablet
 ms.assetid: 5c5479e0-7568-40c8-bb75-e2ded3ac86b7

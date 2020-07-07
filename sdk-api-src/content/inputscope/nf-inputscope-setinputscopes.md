@@ -1,7 +1,8 @@
 ---
 UID: NF:inputscope.SetInputScopes
 title: SetInputScopes function (inputscope.h)
-description: Sets a combination of one input scope, multiple input scopes, one phrase list, a regular expression, and/or Speech Recognition Grammar Specification (SRGS) rules for the specified window.helpviewer_keywords: ["SetInputScopes","SetInputScopes function [Text Services Framework]","inputscope/SetInputScopes","tsf.SetInputScopes"]
+description: Sets a combination of one input scope, multiple input scopes, one phrase list, a regular expression, and/or Speech Recognition Grammar Specification (SRGS) rules for the specified window.
+helpviewer_keywords: ["SetInputScopes","SetInputScopes function [Text Services Framework]","inputscope/SetInputScopes","tsf.SetInputScopes"]
 old-location: tsf\SetInputScopes.htm
 tech.root: TSF
 ms.assetid: 28c0be9b-f42c-4ab1-a3af-9c591a5192dd

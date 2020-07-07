@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFNetProxyLocator
 title: IMFNetProxyLocator (mfidl.h)
-description: Determines the proxy to use when connecting to a server.helpviewer_keywords: ["2906b998-f1ca-4c65-b810-cbc360390653","IMFNetProxyLocator","IMFNetProxyLocator interface [Media Foundation]","IMFNetProxyLocator interface [Media Foundation]","described","mf.imfnetproxylocator","mfidl/IMFNetProxyLocator"]
+description: Determines the proxy to use when connecting to a server.
+helpviewer_keywords: ["2906b998-f1ca-4c65-b810-cbc360390653","IMFNetProxyLocator","IMFNetProxyLocator interface [Media Foundation]","IMFNetProxyLocator interface [Media Foundation]","described","mf.imfnetproxylocator","mfidl/IMFNetProxyLocator"]
 old-location: mf\imfnetproxylocator.htm
 tech.root: medfound
 ms.assetid: 2906b998-f1ca-4c65-b810-cbc360390653

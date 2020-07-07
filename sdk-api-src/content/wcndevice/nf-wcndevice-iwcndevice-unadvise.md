@@ -1,7 +1,8 @@
 ---
 UID: NF:wcndevice.IWCNDevice.Unadvise
 title: IWCNDevice::Unadvise (wcndevice.h)
-description: IWCNDevice::Unadvise method removes any callback previously set via IWCNDevice::Connect.helpviewer_keywords: ["IWCNDevice interface [Windows Connect Now]","Unadvise method","IWCNDevice.Unadvise","IWCNDevice::Unadvise","Unadvise","Unadvise method [Windows Connect Now]","Unadvise method [Windows Connect Now]","IWCNDevice interface","wcn.iwcndevice_unadvise","wcndevice/IWCNDevice::Unadvise"]
+description: IWCNDevice::Unadvise method removes any callback previously set via IWCNDevice::Connect.
+helpviewer_keywords: ["IWCNDevice interface [Windows Connect Now]","Unadvise method","IWCNDevice.Unadvise","IWCNDevice::Unadvise","Unadvise","Unadvise method [Windows Connect Now]","Unadvise method [Windows Connect Now]","IWCNDevice interface","wcn.iwcndevice_unadvise","wcndevice/IWCNDevice::Unadvise"]
 old-location: wcn\iwcndevice_unadvise.htm
 tech.root: wcn
 ms.assetid: d76ebc9e-8adc-4640-a377-f69cef43afca

@@ -1,7 +1,8 @@
 ---
 UID: NE:mfapi._MFFrameSourceTypes
 title: MFFrameSourceTypes (mfapi.h)
-description: Describes the type of data provided by a frame source.helpviewer_keywords: ["MFFrameSourceTypes","MFFrameSourceTypes enumeration [Media Foundation]","MFFrameSourceTypes_Color","MFFrameSourceTypes_Custom","MFFrameSourceTypes_Depth","MFFrameSourceTypes_Image","MFFrameSourceTypes_Infrared","_MFFrameSourceTypes","mf.mfframesourcetypes","mfapi/ MFFrameSourceTypes_Image","mfapi/MFFrameSourceTypes","mfapi/MFFrameSourceTypes_Color","mfapi/MFFrameSourceTypes_Custom","mfapi/MFFrameSourceTypes_Depth","mfapi/MFFrameSourceTypes_Infrared"]
+description: Describes the type of data provided by a frame source.
+helpviewer_keywords: ["MFFrameSourceTypes","MFFrameSourceTypes enumeration [Media Foundation]","MFFrameSourceTypes_Color","MFFrameSourceTypes_Custom","MFFrameSourceTypes_Depth","MFFrameSourceTypes_Image","MFFrameSourceTypes_Infrared","_MFFrameSourceTypes","mf.mfframesourcetypes","mfapi/ MFFrameSourceTypes_Image","mfapi/MFFrameSourceTypes","mfapi/MFFrameSourceTypes_Color","mfapi/MFFrameSourceTypes_Custom","mfapi/MFFrameSourceTypes_Depth","mfapi/MFFrameSourceTypes_Infrared"]
 old-location: mf\mfframesourcetypes.htm
 tech.root: medfound
 ms.assetid: F5926479-C41D-4702-8220-6A79859BD0F4

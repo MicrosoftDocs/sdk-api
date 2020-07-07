@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.ITrackShellMenu.SetObscured
 title: ITrackShellMenu::SetObscured (shdeprecated.h)
-description: Coordinates obscured items on a toolbar with items in a menu.helpviewer_keywords: ["ITrackShellMenu interface [Windows Shell]","SetObscured method","ITrackShellMenu.SetObscured","ITrackShellMenu::SetObscured","SMSET_BOTTOM","SMSET_DONTOWN","SMSET_TOP","SetObscured","SetObscured method [Windows Shell]","SetObscured method [Windows Shell]","ITrackShellMenu interface","_shell_ITrackShellMenu_SetObscured","shdeprecated/ITrackShellMenu::SetObscured","shell.ITrackShellMenu_SetObscured"]
+description: Coordinates obscured items on a toolbar with items in a menu.
+helpviewer_keywords: ["ITrackShellMenu interface [Windows Shell]","SetObscured method","ITrackShellMenu.SetObscured","ITrackShellMenu::SetObscured","SMSET_BOTTOM","SMSET_DONTOWN","SMSET_TOP","SetObscured","SetObscured method [Windows Shell]","SetObscured method [Windows Shell]","ITrackShellMenu interface","_shell_ITrackShellMenu_SetObscured","shdeprecated/ITrackShellMenu::SetObscured","shell.ITrackShellMenu_SetObscured"]
 old-location: shell\ITrackShellMenu_SetObscured.htm
 tech.root: shell
 ms.assetid: a8b73bdb-95dd-4ca7-8dc9-3318faf37338

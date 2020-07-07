@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFactory.RegisterFontFileLoader
 title: IDWriteFactory::RegisterFontFileLoader (dwrite.h)
-description: Registers a font file loader with DirectWrite.helpviewer_keywords: ["IDWriteFactory interface [Direct Write]","RegisterFontFileLoader method","IDWriteFactory.RegisterFontFileLoader","IDWriteFactory::RegisterFontFileLoader","RegisterFontFileLoader","RegisterFontFileLoader method [Direct Write]","RegisterFontFileLoader method [Direct Write]","IDWriteFactory interface","directwrite.IDWriteFactory_RegisterFontFileLoader","dwrite/IDWriteFactory::RegisterFontFileLoader"]
+description: Registers a font file loader with DirectWrite.
+helpviewer_keywords: ["IDWriteFactory interface [Direct Write]","RegisterFontFileLoader method","IDWriteFactory.RegisterFontFileLoader","IDWriteFactory::RegisterFontFileLoader","RegisterFontFileLoader","RegisterFontFileLoader method [Direct Write]","RegisterFontFileLoader method [Direct Write]","IDWriteFactory interface","directwrite.IDWriteFactory_RegisterFontFileLoader","dwrite/IDWriteFactory::RegisterFontFileLoader"]
 old-location: directwrite\IDWriteFactory_RegisterFontFileLoader.htm
 tech.root: DirectWrite
 ms.assetid: f5b28c3d-c3ad-4435-92c8-07841e8d160a

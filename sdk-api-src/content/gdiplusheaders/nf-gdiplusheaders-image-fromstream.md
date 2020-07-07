@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.FromStream
 title: Image::FromStream (gdiplusheaders.h)
-description: The Image::FromStream method creates a new Image object based on a stream.helpviewer_keywords: ["FromStream","FromStream method [GDI+]","FromStream method [GDI+]","Image class","Image class [GDI+]","FromStream method","Image.FromStream","Image::FromStream","_gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_","gdiplus._gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_"]
+description: The Image::FromStream method creates a new Image object based on a stream.
+helpviewer_keywords: ["FromStream","FromStream method [GDI+]","FromStream method [GDI+]","Image class","Image class [GDI+]","FromStream method","Image.FromStream","Image::FromStream","_gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_","gdiplus._gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_FromStream_stream_useEmbeddedColorManagement_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\fromstream_58stream_useembeddedcolormanagement.htm

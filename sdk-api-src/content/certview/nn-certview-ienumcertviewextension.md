@@ -1,7 +1,8 @@
 ---
 UID: NN:certview.IEnumCERTVIEWEXTENSION
 title: IEnumCERTVIEWEXTENSION (certview.h)
-description: Represents an extension-enumeration sequence that contains the certificate extension data for the current row of the row-enumeration sequence.helpviewer_keywords: ["IEnumCERTVIEWEXTENSION","IEnumCERTVIEWEXTENSION interface [Security]","IEnumCERTVIEWEXTENSION interface [Security]","described","_certsrv_ienumcertviewextension","certview/IEnumCERTVIEWEXTENSION","security.ienumcertviewextension"]
+description: Represents an extension-enumeration sequence that contains the certificate extension data for the current row of the row-enumeration sequence.
+helpviewer_keywords: ["IEnumCERTVIEWEXTENSION","IEnumCERTVIEWEXTENSION interface [Security]","IEnumCERTVIEWEXTENSION interface [Security]","described","_certsrv_ienumcertviewextension","certview/IEnumCERTVIEWEXTENSION","security.ienumcertviewextension"]
 old-location: security\ienumcertviewextension.htm
 tech.root: SecCrypto
 ms.assetid: d5acff51-06f8-4a6f-aa9e-97ba052b1b34

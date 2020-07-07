@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.Delete
 title: IAzAuthorizationStore::Delete (azroles.h)
-description: Deletes the policy store currently in use by the AzAuthorizationStore object.helpviewer_keywords: ["AzAuthorizationStore object [Security]","Delete method","Delete","Delete method [Security]","Delete method [Security]","AzAuthorizationStore object","Delete method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","Delete method","IAzAuthorizationStore.Delete","IAzAuthorizationStore::Delete","azroles/IAzAuthorizationStore::Delete","security.azauthorizationstore_delete"]
+description: Deletes the policy store currently in use by the AzAuthorizationStore object.
+helpviewer_keywords: ["AzAuthorizationStore object [Security]","Delete method","Delete","Delete method [Security]","Delete method [Security]","AzAuthorizationStore object","Delete method [Security]","IAzAuthorizationStore interface","IAzAuthorizationStore interface [Security]","Delete method","IAzAuthorizationStore.Delete","IAzAuthorizationStore::Delete","azroles/IAzAuthorizationStore::Delete","security.azauthorizationstore_delete"]
 old-location: security\azauthorizationstore_delete.htm
 tech.root: SecAuthZ
 ms.assetid: 8493af39-c5db-4aeb-839f-bc07e2616443

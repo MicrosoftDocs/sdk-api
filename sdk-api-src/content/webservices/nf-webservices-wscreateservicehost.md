@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsCreateServiceHost
 title: WsCreateServiceHost function (webservices.h)
-description: Creates a service host for the specified endpoints.helpviewer_keywords: ["WsCreateServiceHost","WsCreateServiceHost function [Web Services for Windows]","webservices/WsCreateServiceHost","wsw.wscreateservicehost"]
+description: Creates a service host for the specified endpoints.
+helpviewer_keywords: ["WsCreateServiceHost","WsCreateServiceHost function [Web Services for Windows]","webservices/WsCreateServiceHost","wsw.wscreateservicehost"]
 old-location: wsw\wscreateservicehost.htm
 tech.root: wsw
 ms.assetid: 412a262a-1706-4101-b154-1804408a5b9f

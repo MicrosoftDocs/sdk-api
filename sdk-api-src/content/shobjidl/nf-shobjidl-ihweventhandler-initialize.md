@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IHWEventHandler.Initialize
 title: IHWEventHandler::Initialize (shobjidl.h)
-description: Initializes an object that contains an implementation of the IHWEventHandler interface.helpviewer_keywords: ["IHWEventHandler interface [Windows Shell]","Initialize method","IHWEventHandler.Initialize","IHWEventHandler::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IHWEventHandler interface","inet_IHWEventHandler_Initialize","shell.IHWEventHandler_Initialize","shobjidl/IHWEventHandler::Initialize"]
+description: Initializes an object that contains an implementation of the IHWEventHandler interface.
+helpviewer_keywords: ["IHWEventHandler interface [Windows Shell]","Initialize method","IHWEventHandler.Initialize","IHWEventHandler::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IHWEventHandler interface","inet_IHWEventHandler_Initialize","shell.IHWEventHandler_Initialize","shobjidl/IHWEventHandler::Initialize"]
 old-location: shell\IHWEventHandler_Initialize.htm
 tech.root: shell
 ms.assetid: 96eb582a-4f32-4e13-ad01-8b5ffabab582

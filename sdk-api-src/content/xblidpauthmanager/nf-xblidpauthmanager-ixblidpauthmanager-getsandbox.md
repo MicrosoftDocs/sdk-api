@@ -1,7 +1,8 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthManager.GetSandbox
 title: IXblIdpAuthManager::GetSandbox (xblidpauthmanager.h)
-description: Reserved for Microsoft use.helpviewer_keywords: ["GetSandbox","GetSandbox method","GetSandbox method","IXblIdpAuthManager interface","IXblIdpAuthManager interface","GetSandbox method","IXblIdpAuthManager.GetSandbox","IXblIdpAuthManager::GetSandbox","xblidp.ixblidpauthmanager_getsandbox","xblidpauthmanager/IXblIdpAuthManager::GetSandbox"]
+description: Reserved for Microsoft use.
+helpviewer_keywords: ["GetSandbox","GetSandbox method","GetSandbox method","IXblIdpAuthManager interface","IXblIdpAuthManager interface","GetSandbox method","IXblIdpAuthManager.GetSandbox","IXblIdpAuthManager::GetSandbox","xblidp.ixblidpauthmanager_getsandbox","xblidpauthmanager/IXblIdpAuthManager::GetSandbox"]
 old-location: xblidp\ixblidpauthmanager_getsandbox.htm
 tech.root: xblidp
 ms.assetid: 14420127-C5A3-4FC8-98B8-AA8666AFD960

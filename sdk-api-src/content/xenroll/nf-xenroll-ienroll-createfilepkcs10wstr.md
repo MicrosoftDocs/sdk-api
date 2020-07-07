@@ -1,7 +1,8 @@
 ---
 UID: NF:xenroll.IEnroll.createFilePKCS10WStr
 title: IEnroll::createFilePKCS10WStr (xenroll.h)
-description: Creates a base64-encoded PKCShelpviewer_keywords: ["IEnroll interface [Security]","createFilePKCS10WStr method","IEnroll.createFilePKCS10WStr","IEnroll::createFilePKCS10WStr","createFilePKCS10WStr","createFilePKCS10WStr method [Security]","createFilePKCS10WStr method [Security]","IEnroll interface","security.ienroll4_createfilepkcs10wstr","xenroll/IEnroll::createFilePKCS10WStr"]
+description: Creates a base64-encoded PKCS
+helpviewer_keywords: ["IEnroll interface [Security]","createFilePKCS10WStr method","IEnroll.createFilePKCS10WStr","IEnroll::createFilePKCS10WStr","createFilePKCS10WStr","createFilePKCS10WStr method [Security]","createFilePKCS10WStr method [Security]","IEnroll interface","security.ienroll4_createfilepkcs10wstr","xenroll/IEnroll::createFilePKCS10WStr"]
 old-location: security\ienroll4_createfilepkcs10wstr.htm
 tech.root: SecCrypto
 ms.assetid: 5edd54c5-9dfb-44b8-a293-4fe6a8de45e3

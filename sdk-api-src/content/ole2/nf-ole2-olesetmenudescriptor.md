@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleSetMenuDescriptor
 title: OleSetMenuDescriptor function (ole2.h)
-description: Installs or removes OLE dispatching code from the container's frame window.helpviewer_keywords: ["OleSetMenuDescriptor","OleSetMenuDescriptor function [COM]","_ole_OleSetMenuDescriptor","com.olesetmenudescriptor","ole2/OleSetMenuDescriptor"]
+description: Installs or removes OLE dispatching code from the container's frame window.
+helpviewer_keywords: ["OleSetMenuDescriptor","OleSetMenuDescriptor function [COM]","_ole_OleSetMenuDescriptor","com.olesetmenudescriptor","ole2/OleSetMenuDescriptor"]
 old-location: com\olesetmenudescriptor.htm
 tech.root: com
 ms.assetid: c80fe36d-5093-4814-83a9-0c11c5a7cf5f

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetDpiY
 title: Graphics::GetDpiY (gdiplusgraphics.h)
-description: The Graphics::GetDpiY method gets the vertical resolution, in dots per inch, of the display device associated with this Graphics object.helpviewer_keywords: ["GetDpiY","GetDpiY method [GDI+]","GetDpiY method [GDI+]","Graphics class","Graphics class [GDI+]","GetDpiY method","Graphics.GetDpiY","Graphics::GetDpiY","_gdiplus_CLASS_Graphics_GetDpiY_","gdiplus._gdiplus_CLASS_Graphics_GetDpiY_"]
+description: The Graphics::GetDpiY method gets the vertical resolution, in dots per inch, of the display device associated with this Graphics object.
+helpviewer_keywords: ["GetDpiY","GetDpiY method [GDI+]","GetDpiY method [GDI+]","Graphics class","Graphics class [GDI+]","GetDpiY method","Graphics.GetDpiY","Graphics::GetDpiY","_gdiplus_CLASS_Graphics_GetDpiY_","gdiplus._gdiplus_CLASS_Graphics_GetDpiY_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetDpiY_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\getdpiy.htm

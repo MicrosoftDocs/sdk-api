@@ -1,7 +1,8 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamOpenToProtect
 title: NCryptStreamOpenToProtect function (ncryptprotect.h)
-description: Opens a stream object that can be used to encrypt large amounts of data to a given protection descriptor.helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptStreamOpenToProtect","NCryptStreamOpenToProtect function [Security]","ncryptprotect/NCryptStreamOpenToProtect","security.ncryptstreamopentoprotect"]
+description: Opens a stream object that can be used to encrypt large amounts of data to a given protection descriptor.
+helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptStreamOpenToProtect","NCryptStreamOpenToProtect function [Security]","ncryptprotect/NCryptStreamOpenToProtect","security.ncryptstreamopentoprotect"]
 old-location: security\ncryptstreamopentoprotect.htm
 tech.root: SecCNG
 ms.assetid: 7DE74BB1-1B84-4721-BE4A-4D2661E93E00

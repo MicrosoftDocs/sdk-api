@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocumentCollection
 title: IXpsOMDocumentCollection (xpsobjectmodel.h)
-description: A collection of IXpsOMDocument interface pointers.helpviewer_keywords: ["IXpsOMDocumentCollection","IXpsOMDocumentCollection interface [XPS Documents and Packaging]","IXpsOMDocumentCollection interface [XPS Documents and Packaging]","described","xps.ixpsomdocumentcollection","xpsobjectmodel/IXpsOMDocumentCollection"]
+description: A collection of IXpsOMDocument interface pointers.
+helpviewer_keywords: ["IXpsOMDocumentCollection","IXpsOMDocumentCollection interface [XPS Documents and Packaging]","IXpsOMDocumentCollection interface [XPS Documents and Packaging]","described","xps.ixpsomdocumentcollection","xpsobjectmodel/IXpsOMDocumentCollection"]
 old-location: xps\ixpsomdocumentcollection.htm
 tech.root: printdocs
 ms.assetid: 4f3acae9-10a0-47ff-9170-a40abe230580

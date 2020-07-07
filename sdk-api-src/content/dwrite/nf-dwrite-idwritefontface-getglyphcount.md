@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFontFace.GetGlyphCount
 title: IDWriteFontFace::GetGlyphCount (dwrite.h)
-description: Obtains the number of glyphs in the font face.helpviewer_keywords: ["GetGlyphCount","GetGlyphCount method [Direct Write]","GetGlyphCount method [Direct Write]","IDWriteFontFace interface","IDWriteFontFace interface [Direct Write]","GetGlyphCount method","IDWriteFontFace.GetGlyphCount","IDWriteFontFace::GetGlyphCount","directwrite.IDWriteFontFace_GetGlyphCount","dwrite/IDWriteFontFace::GetGlyphCount"]
+description: Obtains the number of glyphs in the font face.
+helpviewer_keywords: ["GetGlyphCount","GetGlyphCount method [Direct Write]","GetGlyphCount method [Direct Write]","IDWriteFontFace interface","IDWriteFontFace interface [Direct Write]","GetGlyphCount method","IDWriteFontFace.GetGlyphCount","IDWriteFontFace::GetGlyphCount","directwrite.IDWriteFontFace_GetGlyphCount","dwrite/IDWriteFontFace::GetGlyphCount"]
 old-location: directwrite\IDWriteFontFace_GetGlyphCount.htm
 tech.root: DirectWrite
 ms.assetid: bd030905-2c97-4d1b-9a77-eb7e52bcd901

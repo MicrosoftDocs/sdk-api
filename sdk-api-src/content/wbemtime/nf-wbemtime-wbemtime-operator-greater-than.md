@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemtime.WBEMTime.operator-greater-than
 title: WBEMTime::operator-greater-than (wbemtime.h)
-description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.helpviewer_keywords: ["??OWBEMTime@@QBEHABV0@@Z","WBEMTime interface [Windows Management Instrumentation]","operator> method","WBEMTime.operator-greater-than","WBEMTime.operator>","WBEMTime::operator-greater-than","WBEMTime::operator>","operator>","operator> method [Windows Management Instrumentation]","operator> method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator>","wmi.wbemtime_comparison_operators_greaterthan"]
+description: The WBEMTime comparison operators (== != &lt; &lt;= &gt; &gt;=) have been overloaded to compare two WBEMTime objects.
+helpviewer_keywords: ["??OWBEMTime@@QBEHABV0@@Z","WBEMTime interface [Windows Management Instrumentation]","operator> method","WBEMTime.operator-greater-than","WBEMTime.operator>","WBEMTime::operator-greater-than","WBEMTime::operator>","operator>","operator> method [Windows Management Instrumentation]","operator> method [Windows Management Instrumentation]","WBEMTime interface","wbemtime/WBEMTime::operator>","wmi.wbemtime_comparison_operators_greaterthan"]
 old-location: wmi\wbemtime_comparison_operators_greaterthan.htm
 tech.root: WmiSdk
 ms.assetid: 4b6f05ce-08e0-4257-8787-cab5b36624c6

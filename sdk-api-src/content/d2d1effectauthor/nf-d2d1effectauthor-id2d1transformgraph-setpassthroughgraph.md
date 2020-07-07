@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.SetPassthroughGraph
 title: ID2D1TransformGraph::SetPassthroughGraph (d2d1effectauthor.h)
-description: Uses the specified input as the effect output.helpviewer_keywords: ["ID2D1TransformGraph interface [Direct2D]","SetPassthroughGraph method","ID2D1TransformGraph.SetPassthroughGraph","ID2D1TransformGraph::SetPassthroughGraph","SetPassthroughGraph","SetPassthroughGraph method [Direct2D]","SetPassthroughGraph method [Direct2D]","ID2D1TransformGraph interface","d2d1effectauthor/ID2D1TransformGraph::SetPassthroughGraph","direct2d.id2d1transformgraph_setpassthroughgraph"]
+description: Uses the specified input as the effect output.
+helpviewer_keywords: ["ID2D1TransformGraph interface [Direct2D]","SetPassthroughGraph method","ID2D1TransformGraph.SetPassthroughGraph","ID2D1TransformGraph::SetPassthroughGraph","SetPassthroughGraph","SetPassthroughGraph method [Direct2D]","SetPassthroughGraph method [Direct2D]","ID2D1TransformGraph interface","d2d1effectauthor/ID2D1TransformGraph::SetPassthroughGraph","direct2d.id2d1transformgraph_setpassthroughgraph"]
 old-location: direct2d\id2d1transformgraph_setpassthroughgraph.htm
 tech.root: Direct2D
 ms.assetid: 719F7C82-31D7-40A0-BD5C-59F97F0002F9

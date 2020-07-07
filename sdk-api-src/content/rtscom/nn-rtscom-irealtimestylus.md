@@ -1,7 +1,8 @@
 ---
 UID: NN:rtscom.IRealTimeStylus
 title: IRealTimeStylus (rtscom.h)
-description: Handles the stylus packet data from a digitizer in real time.helpviewer_keywords: ["IRealTimeStylus","IRealTimeStylus interface [Tablet PC]","IRealTimeStylus interface [Tablet PC]","described","bfd13012-decf-423a-bc1a-39fb9b0eb64e","rtscom/IRealTimeStylus","tablet.irealtimestylus"]
+description: Handles the stylus packet data from a digitizer in real time.
+helpviewer_keywords: ["IRealTimeStylus","IRealTimeStylus interface [Tablet PC]","IRealTimeStylus interface [Tablet PC]","described","bfd13012-decf-423a-bc1a-39fb9b0eb64e","rtscom/IRealTimeStylus","tablet.irealtimestylus"]
 old-location: tablet\irealtimestylus.htm
 tech.root: tablet
 ms.assetid: bfd13012-decf-423a-bc1a-39fb9b0eb64e

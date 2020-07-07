@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IColumnData.GetColumnSortData
 title: IColumnData::GetColumnSortData (mmc.h)
-description: The IColumnData::GetColumnSortData method enables a snap-in to retrieve from memory the sorted column and sorting direction for columns in a column set.helpviewer_keywords: ["GetColumnSortData","GetColumnSortData method [MMC]","GetColumnSortData method [MMC]","IColumnData interface","IColumnData interface [MMC]","GetColumnSortData method","IColumnData.GetColumnSortData","IColumnData::GetColumnSortData","_slate_icolumndata_getcolumnsortdata","mmc.icolumndata_getcolumnsortdata","mmc/IColumnData::GetColumnSortData"]
+description: The IColumnData::GetColumnSortData method enables a snap-in to retrieve from memory the sorted column and sorting direction for columns in a column set.
+helpviewer_keywords: ["GetColumnSortData","GetColumnSortData method [MMC]","GetColumnSortData method [MMC]","IColumnData interface","IColumnData interface [MMC]","GetColumnSortData method","IColumnData.GetColumnSortData","IColumnData::GetColumnSortData","_slate_icolumndata_getcolumnsortdata","mmc.icolumndata_getcolumnsortdata","mmc/IColumnData::GetColumnSortData"]
 old-location: mmc\icolumndata_getcolumnsortdata.htm
 tech.root: mmc
 ms.assetid: cbcc5e61-994e-46e2-b227-398b79cbc557

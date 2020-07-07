@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsWriteCharsUtf8
 title: WsWriteCharsUtf8 function (webservices.h)
-description: Writes a series of characters encoded as UTF-8 to an element or attribute.helpviewer_keywords: ["WsWriteCharsUtf8","WsWriteCharsUtf8 function [Web Services for Windows]","webservices/WsWriteCharsUtf8","wsw.wswritecharsutf8"]
+description: Writes a series of characters encoded as UTF-8 to an element or attribute.
+helpviewer_keywords: ["WsWriteCharsUtf8","WsWriteCharsUtf8 function [Web Services for Windows]","webservices/WsWriteCharsUtf8","wsw.wswritecharsutf8"]
 old-location: wsw\wswritecharsutf8.htm
 tech.root: wsw
 ms.assetid: 53cdaf22-21ed-4e5a-8034-d5a4725b9da3

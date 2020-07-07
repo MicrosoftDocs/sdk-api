@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_CreationTime
 title: IFsrmPropertyBag::get_CreationTime (fsrmpipeline.h)
-description: The date and time that the file was created.helpviewer_keywords: ["CreationTime property [File Server Resource Manager]","CreationTime property [File Server Resource Manager]","IFsrmPropertyBag interface","IFsrmPropertyBag interface [File Server Resource Manager]","CreationTime property","IFsrmPropertyBag.CreationTime","IFsrmPropertyBag.get_CreationTime","IFsrmPropertyBag::CreationTime","IFsrmPropertyBag::get_CreationTime","fs.ifsrmpropertybag_creationtime","fsrm.ifsrmpropertybag_creationtime","fsrmpipeline/IFsrmPropertyBag::CreationTime","fsrmpipeline/IFsrmPropertyBag::get_CreationTime","get_CreationTime"]
+description: The date and time that the file was created.
+helpviewer_keywords: ["CreationTime property [File Server Resource Manager]","CreationTime property [File Server Resource Manager]","IFsrmPropertyBag interface","IFsrmPropertyBag interface [File Server Resource Manager]","CreationTime property","IFsrmPropertyBag.CreationTime","IFsrmPropertyBag.get_CreationTime","IFsrmPropertyBag::CreationTime","IFsrmPropertyBag::get_CreationTime","fs.ifsrmpropertybag_creationtime","fsrm.ifsrmpropertybag_creationtime","fsrmpipeline/IFsrmPropertyBag::CreationTime","fsrmpipeline/IFsrmPropertyBag::get_CreationTime","get_CreationTime"]
 old-location: fsrm\ifsrmpropertybag_creationtime.htm
 tech.root: fsrm
 ms.assetid: 85953042-eeb6-49bd-bde0-f18d4edf108a

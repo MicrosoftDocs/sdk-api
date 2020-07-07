@@ -1,7 +1,8 @@
 ---
 UID: NN:structuredquery.ISchemaProvider
 title: ISchemaProvider (structuredquery.h)
-description: Provides a schema repository that can be browsed.helpviewer_keywords: ["ISchemaProvider","ISchemaProvider interface [search]","ISchemaProvider interface [search]","described","_search_ISchemaProvider","search._search_ISchemaProvider","structuredquery/ISchemaProvider"]
+description: Provides a schema repository that can be browsed.
+helpviewer_keywords: ["ISchemaProvider","ISchemaProvider interface [search]","ISchemaProvider interface [search]","described","_search_ISchemaProvider","search._search_ISchemaProvider","structuredquery/ISchemaProvider"]
 old-location: search\_search_ISchemaProvider.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\ischemaprovider.htm

@@ -1,7 +1,8 @@
 ---
 UID: NE:uiautomationcore.TextPatternRangeEndpoint
 title: TextPatternRangeEndpoint (uiautomationcore.h)
-description: Contains values that specify the endpoints of a text range.helpviewer_keywords: ["TextPatternRangeEndpoint","TextPatternRangeEndpoint enumeration [Windows Accessibility]","TextPatternRangeEndpoint_End","TextPatternRangeEndpoint_Start","uiauto.uiauto_TextPatternRangeEndpointEnum","uiauto_TextPatternRangeEndpointEnum","uiautomationcore/TextPatternRangeEndpoint","uiautomationcore/TextPatternRangeEndpoint_End","uiautomationcore/TextPatternRangeEndpoint_Start","winauto.uiauto_TextPatternRangeEndpointEnum"]
+description: Contains values that specify the endpoints of a text range.
+helpviewer_keywords: ["TextPatternRangeEndpoint","TextPatternRangeEndpoint enumeration [Windows Accessibility]","TextPatternRangeEndpoint_End","TextPatternRangeEndpoint_Start","uiauto.uiauto_TextPatternRangeEndpointEnum","uiauto_TextPatternRangeEndpointEnum","uiautomationcore/TextPatternRangeEndpoint","uiautomationcore/TextPatternRangeEndpoint_End","uiautomationcore/TextPatternRangeEndpoint_Start","winauto.uiauto_TextPatternRangeEndpointEnum"]
 old-location: winauto\uiauto_TextPatternRangeEndpointEnum.htm
 tech.root: WinAuto
 ms.assetid: 4a294376-a401-4380-ba5a-b899548290b7

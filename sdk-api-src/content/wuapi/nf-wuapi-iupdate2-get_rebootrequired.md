@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdate2.get_RebootRequired
 title: IUpdate2::get_RebootRequired (wuapi.h)
-description: Gets a Boolean value that indicates whether a system restart is required on a computer to complete the installation or the uninstallation of an update.helpviewer_keywords: ["IUpdate2 interface [Windows Update Agent]","RebootRequired property","IUpdate2.RebootRequired","IUpdate2.get_RebootRequired","IUpdate2::RebootRequired","IUpdate2::get_RebootRequired","RebootRequired property [Windows Update Agent]","RebootRequired property [Windows Update Agent]","IUpdate2 interface","get_RebootRequired","wua.iupdate2_rebootrequired","wuapi/IUpdate2::RebootRequired","wuapi/IUpdate2::get_RebootRequired"]
+description: Gets a Boolean value that indicates whether a system restart is required on a computer to complete the installation or the uninstallation of an update.
+helpviewer_keywords: ["IUpdate2 interface [Windows Update Agent]","RebootRequired property","IUpdate2.RebootRequired","IUpdate2.get_RebootRequired","IUpdate2::RebootRequired","IUpdate2::get_RebootRequired","RebootRequired property [Windows Update Agent]","RebootRequired property [Windows Update Agent]","IUpdate2 interface","get_RebootRequired","wua.iupdate2_rebootrequired","wuapi/IUpdate2::RebootRequired","wuapi/IUpdate2::get_RebootRequired"]
 old-location: wua\iupdate2_rebootrequired.htm
 tech.root: Wua_Sdk
 ms.assetid: 7e665fd1-20f9-47a0-b78f-e60b51cdac5f

@@ -1,7 +1,8 @@
 ---
 UID: NC:winfax.PFAXCLOSE
 title: PFAXCLOSE (winfax.h)
-description: The FaxClose function closes fax handleshelpviewer_keywords: ["FaxCloseA","FaxCloseW","PFAXCLOSE","PFAXCLOSE callback","PFAXCLOSE callback function [Fax Service]","_mfax_faxclose","fax._mfax_faxclose","winfax/FaxCloseA","winfax/FaxCloseW","winfax/PFAXCLOSE"]
+description: The FaxClose function closes fax handles
+helpviewer_keywords: ["FaxCloseA","FaxCloseW","PFAXCLOSE","PFAXCLOSE callback","PFAXCLOSE callback function [Fax Service]","_mfax_faxclose","fax._mfax_faxclose","winfax/FaxCloseA","winfax/FaxCloseW","winfax/PFAXCLOSE"]
 old-location: fax\_mfax_faxclose.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5h2d.htm

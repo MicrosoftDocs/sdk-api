@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ULongLongToInt
 title: ULongLongToInt function (intsafe.h)
-description: Converts a value of type ULONGLONG to a value of type INT.helpviewer_keywords: ["ULongLongToInt","ULongLongToInt function [Windows Shell]","_shell_ULongLongToInt","intsafe/ULongLongToInt","shell.ULongLongToInt"]
+description: Converts a value of type ULONGLONG to a value of type INT.
+helpviewer_keywords: ["ULongLongToInt","ULongLongToInt function [Windows Shell]","_shell_ULongLongToInt","intsafe/ULongLongToInt","shell.ULongLongToInt"]
 old-location: shell\ULongLongToInt.htm
 tech.root: shell
 ms.assetid: ed9eaef2-6781-4de5-8158-be914dcfd647

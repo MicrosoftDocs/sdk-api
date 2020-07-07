@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetReadFile
 title: InternetReadFile function (wininet.h)
-description: Reads data from a handle opened by the InternetOpenUrl, FtpOpenFile, or HttpOpenRequest function.helpviewer_keywords: ["InternetReadFile","InternetReadFile function [WinINet]","_inet_internetreadfile_function","wininet.internetreadfile","wininet/InternetReadFile"]
+description: Reads data from a handle opened by the InternetOpenUrl, FtpOpenFile, or HttpOpenRequest function.
+helpviewer_keywords: ["InternetReadFile","InternetReadFile function [WinINet]","_inet_internetreadfile_function","wininet.internetreadfile","wininet/InternetReadFile"]
 old-location: wininet\internetreadfile.htm
 tech.root: wininet
 ms.assetid: 1ec0fe70-4749-4251-9c58-44efdab74688

@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpQueryDataAvailable
 title: WinHttpQueryDataAvailable function (winhttp.h)
-description: Returns the amount of data, in bytes, available to be read with WinHttpReadData.helpviewer_keywords: ["WinHttpQueryDataAvailable","WinHttpQueryDataAvailable function [WinHTTP]","http.winhttpquerydataavailable","winhttp.winhttpquerydataavailable_function","winhttp/WinHttpQueryDataAvailable"]
+description: Returns the amount of data, in bytes, available to be read with WinHttpReadData.
+helpviewer_keywords: ["WinHttpQueryDataAvailable","WinHttpQueryDataAvailable function [WinHTTP]","http.winhttpquerydataavailable","winhttp.winhttpquerydataavailable_function","winhttp/WinHttpQueryDataAvailable"]
 old-location: http\winhttpquerydataavailable.htm
 tech.root: WinHttp
 ms.assetid: 041ec571-10ed-48d0-9a99-e0b5d9e08f70

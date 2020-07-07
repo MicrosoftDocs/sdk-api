@@ -1,7 +1,8 @@
 ---
 UID: NS:winhttp.__unnamed_struct_2
 title: URL_COMPONENTS (winhttp.h)
-description: The URL_COMPONENTS structure contains the constituent parts of a URL. This structure is used with the WinHttpCrackUrl and WinHttpCreateUrl functions.helpviewer_keywords: ["*LPURL_COMPONENTS","INTERNET_SCHEME_HTTP","INTERNET_SCHEME_HTTPS","URL_COMPONENTS","URL_COMPONENTS structure [HTTP]","URL_COMPONENTSW","http.url_components","winhttp/URL_COMPONENTS","winhttp_url_components_structure"]
+description: The URL_COMPONENTS structure contains the constituent parts of a URL. This structure is used with the WinHttpCrackUrl and WinHttpCreateUrl functions.
+helpviewer_keywords: ["*LPURL_COMPONENTS","INTERNET_SCHEME_HTTP","INTERNET_SCHEME_HTTPS","URL_COMPONENTS","URL_COMPONENTS structure [HTTP]","URL_COMPONENTSW","http.url_components","winhttp/URL_COMPONENTS","winhttp_url_components_structure"]
 old-location: http\url_components.htm
 tech.root: WinHttp
 ms.assetid: 4d2c6f82-6b61-4a7b-a5d7-560152e25302

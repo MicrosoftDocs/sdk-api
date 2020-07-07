@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IConnectionPoint.GetConnectionPointContainer
 title: IConnectionPoint::GetConnectionPointContainer (ocidl.h)
-description: Retrieves the IConnectionPointContainer interface pointer for the parent connectable object.helpviewer_keywords: ["GetConnectionPointContainer","GetConnectionPointContainer method [COM]","GetConnectionPointContainer method [COM]","IConnectionPoint interface","IConnectionPoint interface [COM]","GetConnectionPointContainer method","IConnectionPoint.GetConnectionPointContainer","IConnectionPoint::GetConnectionPointContainer","_com_iconnectionpoint_getconnectionpointcontainer","com.iconnectionpoint_getconnectionpointcontainer","ocidl/IConnectionPoint::GetConnectionPointContainer"]
+description: Retrieves the IConnectionPointContainer interface pointer for the parent connectable object.
+helpviewer_keywords: ["GetConnectionPointContainer","GetConnectionPointContainer method [COM]","GetConnectionPointContainer method [COM]","IConnectionPoint interface","IConnectionPoint interface [COM]","GetConnectionPointContainer method","IConnectionPoint.GetConnectionPointContainer","IConnectionPoint::GetConnectionPointContainer","_com_iconnectionpoint_getconnectionpointcontainer","com.iconnectionpoint_getconnectionpointcontainer","ocidl/IConnectionPoint::GetConnectionPointContainer"]
 old-location: com\iconnectionpoint_getconnectionpointcontainer.htm
 tech.root: com
 ms.assetid: 12c0c777-27ce-4e6d-8e9a-f6333e4112bf

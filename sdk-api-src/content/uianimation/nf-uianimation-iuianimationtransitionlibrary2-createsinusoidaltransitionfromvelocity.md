@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity
 title: IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity (uianimation.h)
-description: Creates a sinusoidal scalar transition where amplitude is determined by initial velocity.helpviewer_keywords: ["CreateSinusoidalTransitionFromVelocity","CreateSinusoidalTransitionFromVelocity method [Windows Animation]","CreateSinusoidalTransitionFromVelocity method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateSinusoidalTransitionFromVelocity method","IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity","IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity","uianimation.iuianimationtransitionlibrary2_createsinusoidaltransitionfromvelocity","uianimation/IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity"]
+description: Creates a sinusoidal scalar transition where amplitude is determined by initial velocity.
+helpviewer_keywords: ["CreateSinusoidalTransitionFromVelocity","CreateSinusoidalTransitionFromVelocity method [Windows Animation]","CreateSinusoidalTransitionFromVelocity method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateSinusoidalTransitionFromVelocity method","IUIAnimationTransitionLibrary2.CreateSinusoidalTransitionFromVelocity","IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity","uianimation.iuianimationtransitionlibrary2_createsinusoidaltransitionfromvelocity","uianimation/IUIAnimationTransitionLibrary2::CreateSinusoidalTransitionFromVelocity"]
 old-location: uianimation\iuianimationtransitionlibrary2_createsinusoidaltransitionfromvelocity.htm
 tech.root: UIAnimation
 ms.assetid: 833D3482-68BC-45DD-9073-B048E11CB801

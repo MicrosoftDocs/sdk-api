@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMColorModulate
 title: XMColorModulate function (directxmath.h)
-description: Blends two colors by multiplying corresponding components together.helpviewer_keywords: ["Use DirectX..XMColorModulate","XMColorModulate","XMColorModulate method [DirectX Math Support APIs]","dxmath.xmcolormodulate"]
+description: Blends two colors by multiplying corresponding components together.
+helpviewer_keywords: ["Use DirectX..XMColorModulate","XMColorModulate","XMColorModulate method [DirectX Math Support APIs]","dxmath.xmcolormodulate"]
 old-location: dxmath\xmcolormodulate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorModulate(XMVECTOR,XMVECTOR)

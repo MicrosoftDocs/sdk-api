@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GetLineSpacing
 title: FontFamily::GetLineSpacing (gdiplusheaders.h)
-description: The FontFamily::GetLineSpacing method gets the line spacing, in design units, of this font family for the specified style or style combination. The line spacing is the vertical distance between the base lines of two consecutive lines of text.helpviewer_keywords: ["FontFamily class [GDI+]","GetLineSpacing method","FontFamily.GetLineSpacing","FontFamily::GetLineSpacing","GetLineSpacing","GetLineSpacing method [GDI+]","GetLineSpacing method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GetLineSpacing_style_","gdiplus._gdiplus_CLASS_FontFamily_GetLineSpacing_style_"]
+description: The FontFamily::GetLineSpacing method gets the line spacing, in design units, of this font family for the specified style or style combination. The line spacing is the vertical distance between the base lines of two consecutive lines of text.
+helpviewer_keywords: ["FontFamily class [GDI+]","GetLineSpacing method","FontFamily.GetLineSpacing","FontFamily::GetLineSpacing","GetLineSpacing","GetLineSpacing method [GDI+]","GetLineSpacing method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GetLineSpacing_style_","gdiplus._gdiplus_CLASS_FontFamily_GetLineSpacing_style_"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetLineSpacing_style_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getlinespacing.htm

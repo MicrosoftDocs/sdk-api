@@ -1,7 +1,8 @@
 ---
 UID: NN:upnphost.IUPnPEventSink
 title: IUPnPEventSink (upnphost.h)
-description: The IUPnPEventSink interface allows a hosted service to send event notifications to the device host.helpviewer_keywords: ["IUPnPEventSink","IUPnPEventSink interface [UPnP APIs]","IUPnPEventSink interface [UPnP APIs]","described","_upnp_iupnpeventsink","upnp.iupnpeventsink","upnphost/IUPnPEventSink"]
+description: The IUPnPEventSink interface allows a hosted service to send event notifications to the device host.
+helpviewer_keywords: ["IUPnPEventSink","IUPnPEventSink interface [UPnP APIs]","IUPnPEventSink interface [UPnP APIs]","described","_upnp_iupnpeventsink","upnp.iupnpeventsink","upnphost/IUPnPEventSink"]
 old-location: upnp\iupnpeventsink.htm
 tech.root: upnp
 ms.assetid: 431423c9-2873-422d-a28c-c4ef23109114

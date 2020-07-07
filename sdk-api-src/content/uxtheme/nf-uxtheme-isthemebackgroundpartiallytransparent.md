@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.IsThemeBackgroundPartiallyTransparent
 title: IsThemeBackgroundPartiallyTransparent function (uxtheme.h)
-description: Retrieves whether the background specified by the visual style has transparent pieces or alpha-blended pieces.helpviewer_keywords: ["IsThemeBackgroundPartiallyTransparent","IsThemeBackgroundPartiallyTransparent function [Windows Controls]","controls.IsThemeBackgroundPartiallyTransparent","controls.inet_IsThemeBackgroundPartiallyTransparent","inet_IsThemeBackgroundPartiallyTransparent","inet_IsThemeBackgroundPartiallyTransparent_cpp","uxtheme/IsThemeBackgroundPartiallyTransparent"]
+description: Retrieves whether the background specified by the visual style has transparent pieces or alpha-blended pieces.
+helpviewer_keywords: ["IsThemeBackgroundPartiallyTransparent","IsThemeBackgroundPartiallyTransparent function [Windows Controls]","controls.IsThemeBackgroundPartiallyTransparent","controls.inet_IsThemeBackgroundPartiallyTransparent","inet_IsThemeBackgroundPartiallyTransparent","inet_IsThemeBackgroundPartiallyTransparent_cpp","uxtheme/IsThemeBackgroundPartiallyTransparent"]
 old-location: controls\IsThemeBackgroundPartiallyTransparent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemebackgroundpartiallytransparent.htm

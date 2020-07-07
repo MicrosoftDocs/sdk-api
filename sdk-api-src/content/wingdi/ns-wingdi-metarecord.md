@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagMETARECORD
 title: METARECORD (wingdi.h)
-description: The METARECORD structure contains a Windows-format metafile record.helpviewer_keywords: ["*LPMETARECORD","*PMETARECORD","METARECORD","METARECORD structure [Windows GDI]","PMETARECORD","PMETARECORD structure pointer [Windows GDI]","_win32_METARECORD_str","gdi.metarecord","wingdi/METARECORD","wingdi/PMETARECORD"]
+description: The METARECORD structure contains a Windows-format metafile record.
+helpviewer_keywords: ["*LPMETARECORD","*PMETARECORD","METARECORD","METARECORD structure [Windows GDI]","PMETARECORD","PMETARECORD structure pointer [Windows GDI]","_win32_METARECORD_str","gdi.metarecord","wingdi/METARECORD","wingdi/PMETARECORD"]
 old-location: gdi\metarecord.htm
 tech.root: gdi
 ms.assetid: 7c5d6e97-dff1-4c80-a7d3-082413dca469

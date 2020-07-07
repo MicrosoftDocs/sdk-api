@@ -1,7 +1,8 @@
 ---
 UID: NF:timezoneapi.GetDynamicTimeZoneInformationEffectiveYears
 title: GetDynamicTimeZoneInformationEffectiveYears function (timezoneapi.h)
-description: Gets a range, expressed in years, for which a DYNAMIC_TIME_ZONE_INFORMATION has valid entries.helpviewer_keywords: ["GetDynamicTimeZoneInformationEffectiveYears","GetDynamicTimeZoneInformationEffectiveYears function","base.getdynamictimezoneinformationeffectiveyears","timezoneapi/GetDynamicTimeZoneInformationEffectiveYears"]
+description: Gets a range, expressed in years, for which a DYNAMIC_TIME_ZONE_INFORMATION has valid entries.
+helpviewer_keywords: ["GetDynamicTimeZoneInformationEffectiveYears","GetDynamicTimeZoneInformationEffectiveYears function","base.getdynamictimezoneinformationeffectiveyears","timezoneapi/GetDynamicTimeZoneInformationEffectiveYears"]
 old-location: base\getdynamictimezoneinformationeffectiveyears.htm
 tech.root: SysInfo
 ms.assetid: 6705BF71-9FF9-4D1F-B34B-752D9C83C964

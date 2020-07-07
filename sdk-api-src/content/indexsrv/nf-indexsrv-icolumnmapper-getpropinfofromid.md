@@ -1,7 +1,8 @@
 ---
 UID: NF:indexsrv.IColumnMapper.GetPropInfoFromId
 title: IColumnMapper::GetPropInfoFromId (indexsrv.h)
-description: Gets the property information from the DBID.helpviewer_keywords: ["GetPropInfoFromId","GetPropInfoFromId method [search]","GetPropInfoFromId method [search]","IColumnMapper interface","IColumnMapper interface [search]","GetPropInfoFromId method","IColumnMapper.GetPropInfoFromId","IColumnMapper::GetPropInfoFromId","indexsrv/IColumnMapper::GetPropInfoFromId","search.icolumnmapper_getpropinfofromid"]
+description: Gets the property information from the DBID.
+helpviewer_keywords: ["GetPropInfoFromId","GetPropInfoFromId method [search]","GetPropInfoFromId method [search]","IColumnMapper interface","IColumnMapper interface [search]","GetPropInfoFromId method","IColumnMapper.GetPropInfoFromId","IColumnMapper::GetPropInfoFromId","indexsrv/IColumnMapper::GetPropInfoFromId","search.icolumnmapper_getpropinfofromid"]
 old-location: search\icolumnmapper_getpropinfofromid.htm
 tech.root: search
 ms.assetid: 94E7A6B4-0EA9-40F4-B69B-B1A30B0B5229

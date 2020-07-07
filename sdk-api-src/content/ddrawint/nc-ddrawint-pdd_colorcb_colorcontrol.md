@@ -1,7 +1,8 @@
 ---
 UID: NC:ddrawint.PDD_COLORCB_COLORCONTROL
 title: PDD_COLORCB_COLORCONTROL (ddrawint.h)
-description: The DdControlColor callback function controls the luminance and brightness controls of an overlay surface.helpviewer_keywords: ["DdControlColor","DdControlColor callback function [Display Devices]","PDD_COLORCB_COLORCONTROL","PDD_COLORCB_COLORCONTROL callback","ddfncs_c79505e9-282b-469f-ae35-19a9644aecae.xml","ddrawint/DdControlColor","display.ddcontrolcolor"]
+description: The DdControlColor callback function controls the luminance and brightness controls of an overlay surface.
+helpviewer_keywords: ["DdControlColor","DdControlColor callback function [Display Devices]","PDD_COLORCB_COLORCONTROL","PDD_COLORCB_COLORCONTROL callback","ddfncs_c79505e9-282b-469f-ae35-19a9644aecae.xml","ddrawint/DdControlColor","display.ddcontrolcolor"]
 old-location: display\ddcontrolcolor.htm
 tech.root: display
 ms.assetid: 626fdd37-bebb-47b7-9899-7cf0dc2bd1ba

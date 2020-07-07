@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.MAKEWPARAM
 title: MAKEWPARAM macro (winuser.h)
-description: Creates a value for use as a wParam parameter in a message. The macro concatenates the specified values.helpviewer_keywords: ["MAKEWPARAM","MAKEWPARAM macro [Windows and Messages]","_win32_MAKEWPARAM","_win32_makewparam_cpp","winmsg.makewparam","winui._win32_makewparam","winuser/MAKEWPARAM"]
+description: Creates a value for use as a wParam parameter in a message. The macro concatenates the specified values.
+helpviewer_keywords: ["MAKEWPARAM","MAKEWPARAM macro [Windows and Messages]","_win32_MAKEWPARAM","_win32_makewparam_cpp","winmsg.makewparam","winui._win32_makewparam","winuser/MAKEWPARAM"]
 old-location: winmsg\makewparam.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowmacros\makewparam.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectRasterizerVariable.GetRasterizerState
 title: ID3D10EffectRasterizerVariable::GetRasterizerState (d3d10effect.h)
-description: Get a pointer to a rasterizer interface.helpviewer_keywords: ["34eeb6ad-48c0-8ea5-4ad6-2fc879f8d7a1","GetRasterizerState","GetRasterizerState method [Direct3D 10]","GetRasterizerState method [Direct3D 10]","ID3D10EffectRasterizerVariable interface","ID3D10EffectRasterizerVariable interface [Direct3D 10]","GetRasterizerState method","ID3D10EffectRasterizerVariable.GetRasterizerState","ID3D10EffectRasterizerVariable::GetRasterizerState","d3d10effect/ID3D10EffectRasterizerVariable::GetRasterizerState","direct3d10.id3d10effectrasterizervariable_getrasterizerstate"]
+description: Get a pointer to a rasterizer interface.
+helpviewer_keywords: ["34eeb6ad-48c0-8ea5-4ad6-2fc879f8d7a1","GetRasterizerState","GetRasterizerState method [Direct3D 10]","GetRasterizerState method [Direct3D 10]","ID3D10EffectRasterizerVariable interface","ID3D10EffectRasterizerVariable interface [Direct3D 10]","GetRasterizerState method","ID3D10EffectRasterizerVariable.GetRasterizerState","ID3D10EffectRasterizerVariable::GetRasterizerState","d3d10effect/ID3D10EffectRasterizerVariable::GetRasterizerState","direct3d10.id3d10effectrasterizervariable_getrasterizerstate"]
 old-location: direct3d10\id3d10effectrasterizervariable_getrasterizerstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectrasterizervariable_getrasterizerstate.htm

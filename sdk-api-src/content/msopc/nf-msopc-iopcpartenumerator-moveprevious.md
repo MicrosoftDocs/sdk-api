@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcPartEnumerator.MovePrevious
 title: IOpcPartEnumerator::MovePrevious (msopc.h)
-description: Moves the current position of the enumerator to the previous IOpcPart interface pointer.helpviewer_keywords: ["IOpcPartEnumerator interface [Open Packaging Conventions]","MovePrevious method","IOpcPartEnumerator.MovePrevious","IOpcPartEnumerator::MovePrevious","MovePrevious","MovePrevious method [Open Packaging Conventions]","MovePrevious method [Open Packaging Conventions]","IOpcPartEnumerator interface","msopc/IOpcPartEnumerator::MovePrevious","opc.iopcpartenumerator_moveprevious"]
+description: Moves the current position of the enumerator to the previous IOpcPart interface pointer.
+helpviewer_keywords: ["IOpcPartEnumerator interface [Open Packaging Conventions]","MovePrevious method","IOpcPartEnumerator.MovePrevious","IOpcPartEnumerator::MovePrevious","MovePrevious","MovePrevious method [Open Packaging Conventions]","MovePrevious method [Open Packaging Conventions]","IOpcPartEnumerator interface","msopc/IOpcPartEnumerator::MovePrevious","opc.iopcpartenumerator_moveprevious"]
 old-location: opc\iopcpartenumerator_moveprevious.htm
 tech.root: OPC
 ms.assetid: 6405bf6f-da60-463c-9acc-820b586e42e1

@@ -1,7 +1,8 @@
 ---
 UID: NF:icontentprefetchertasktrigger.IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch
 title: IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch (icontentprefetchertasktrigger.h)
-description: Indicates if an app package has registered for the content prefetch background task.helpviewer_keywords: ["IContentPrefetcherTaskTrigger interface [Web Services for Windows]","IsRegisteredForContentPrefetch method","IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch","IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch","IsRegisteredForContentPrefetch","IsRegisteredForContentPrefetch method [Web Services for Windows]","IsRegisteredForContentPrefetch method [Web Services for Windows]","IContentPrefetcherTaskTrigger interface","icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch","wsw.icontentprefetchertasktrigger_isregisteredforcontentprefetch"]
+description: Indicates if an app package has registered for the content prefetch background task.
+helpviewer_keywords: ["IContentPrefetcherTaskTrigger interface [Web Services for Windows]","IsRegisteredForContentPrefetch method","IContentPrefetcherTaskTrigger.IsRegisteredForContentPrefetch","IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch","IsRegisteredForContentPrefetch","IsRegisteredForContentPrefetch method [Web Services for Windows]","IsRegisteredForContentPrefetch method [Web Services for Windows]","IContentPrefetcherTaskTrigger interface","icontentprefetchertasktrigger/IContentPrefetcherTaskTrigger::IsRegisteredForContentPrefetch","wsw.icontentprefetchertasktrigger_isregisteredforcontentprefetch"]
 old-location: wsw\icontentprefetchertasktrigger_isregisteredforcontentprefetch.htm
 tech.root: wsw
 ms.assetid: 6F8A0A9B-CF05-47F9-8486-10DFE720E0DD

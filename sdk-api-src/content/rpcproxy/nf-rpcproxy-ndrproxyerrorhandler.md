@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcproxy.NdrProxyErrorHandler
 title: NdrProxyErrorHandler function (rpcproxy.h)
-description: The NdrProxyErrorHandler function maps an exception into an HRESULT, with RPC facility code.helpviewer_keywords: ["NdrProxyErrorHandler","NdrProxyErrorHandler function [RPC]","rpc.ndrproxyerrorhandler","rpcproxy/NdrProxyErrorHandler"]
+description: The NdrProxyErrorHandler function maps an exception into an HRESULT, with RPC facility code.
+helpviewer_keywords: ["NdrProxyErrorHandler","NdrProxyErrorHandler function [RPC]","rpc.ndrproxyerrorhandler","rpcproxy/NdrProxyErrorHandler"]
 old-location: rpc\ndrproxyerrorhandler.htm
 tech.root: Rpc
 ms.assetid: d453ac8d-5bcb-4565-be95-17b8b45c8d98

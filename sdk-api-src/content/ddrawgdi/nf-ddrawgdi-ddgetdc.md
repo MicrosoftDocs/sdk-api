@@ -1,7 +1,8 @@
 ---
 UID: NF:ddrawgdi.DdGetDC
 title: DdGetDC function (ddrawgdi.h)
-description: Wrapper for the NtGdiDdGetDC function and returns a Windows Graphics Device Interface (GDI)  device context (DC) that represents the Microsoft DirectDraw surface indicated. GdiEntry7 is defined as an alias for this function.helpviewer_keywords: ["DdGetDC","DdGetDC function [Windows API]","GdiEntry7","_dxgkernel_ddgetdc","ddrawgdi/DdGetDC","ddrawgdi/GdiEntry7","winprog._dxgkernel_ddgetdc","winui._dxgkernel_ddgetdc"]
+description: Wrapper for the NtGdiDdGetDC function and returns a Windows Graphics Device Interface (GDI)  device context (DC) that represents the Microsoft DirectDraw surface indicated. GdiEntry7 is defined as an alias for this function.
+helpviewer_keywords: ["DdGetDC","DdGetDC function [Windows API]","GdiEntry7","_dxgkernel_ddgetdc","ddrawgdi/DdGetDC","ddrawgdi/GdiEntry7","winprog._dxgkernel_ddgetdc","winui._dxgkernel_ddgetdc"]
 old-location: winprog\_dxgkernel_ddgetdc.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddgetdc.htm

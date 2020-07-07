@@ -1,7 +1,8 @@
 ---
 UID: NE:msinkaut.SelectionHitResult
 title: SelectionHitResult (msinkaut.h)
-description: Specifies which part of a selection, if any, was hit during a hit test.helpviewer_keywords: ["SHR_E","SHR_N","SHR_NE","SHR_NW","SHR_None","SHR_S","SHR_SE","SHR_SW","SHR_Selection","SHR_W","SelectionHitResult","SelectionHitResult enumeration [Tablet PC]","a93d0121-e271-4656-9cdc-ae05fd19ac8b","msinkaut/SHR_E","msinkaut/SHR_N","msinkaut/SHR_NE","msinkaut/SHR_NW","msinkaut/SHR_None","msinkaut/SHR_S","msinkaut/SHR_SE","msinkaut/SHR_SW","msinkaut/SHR_Selection","msinkaut/SHR_W","msinkaut/SelectionHitResult","tablet.selectionhitresult"]
+description: Specifies which part of a selection, if any, was hit during a hit test.
+helpviewer_keywords: ["SHR_E","SHR_N","SHR_NE","SHR_NW","SHR_None","SHR_S","SHR_SE","SHR_SW","SHR_Selection","SHR_W","SelectionHitResult","SelectionHitResult enumeration [Tablet PC]","a93d0121-e271-4656-9cdc-ae05fd19ac8b","msinkaut/SHR_E","msinkaut/SHR_N","msinkaut/SHR_NE","msinkaut/SHR_NW","msinkaut/SHR_None","msinkaut/SHR_S","msinkaut/SHR_SE","msinkaut/SHR_SW","msinkaut/SHR_Selection","msinkaut/SHR_W","msinkaut/SelectionHitResult","tablet.selectionhitresult"]
 old-location: tablet\selectionhitresult.htm
 tech.root: tablet
 ms.assetid: a93d0121-e271-4656-9cdc-ae05fd19ac8b

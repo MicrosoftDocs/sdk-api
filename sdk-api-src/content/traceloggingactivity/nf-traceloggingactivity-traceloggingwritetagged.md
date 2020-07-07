@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingWriteTagged
 title: TraceLoggingWriteTagged macro (traceloggingactivity.h)
-description: Logs an event with an associated ETW activity id.helpviewer_keywords: ["TraceLoggingWriteTagged","TraceLoggingWriteTagged macro","tracelogging.traceloggingwritetagged","traceloggingactivity/TraceLoggingWriteTagged"]
+description: Logs an event with an associated ETW activity id.
+helpviewer_keywords: ["TraceLoggingWriteTagged","TraceLoggingWriteTagged macro","tracelogging.traceloggingwritetagged","traceloggingactivity/TraceLoggingWriteTagged"]
 old-location: tracelogging\traceloggingwritetagged.htm
 tech.root: tracelogging
 ms.assetid: BBDFC2B1-33C6-4D5F-AA7B-91BB2A757B1E

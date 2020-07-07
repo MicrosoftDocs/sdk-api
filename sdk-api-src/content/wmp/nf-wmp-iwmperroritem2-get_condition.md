@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPErrorItem2.get_condition
 title: IWMPErrorItem2::get_condition (wmp.h)
-description: The get_condition method retrieves a value indicating the condition for the error.helpviewer_keywords: ["IWMPErrorItem2 interface [Windows Media Player]","get_condition method","IWMPErrorItem2.get_condition","IWMPErrorItem2::get_condition","IWMPErrorItem2get_condition","get_condition","get_condition method [Windows Media Player]","get_condition method [Windows Media Player]","IWMPErrorItem2 interface","wmp.iwmperroritem2_get_condition","wmp/IWMPErrorItem2::get_condition"]
+description: The get_condition method retrieves a value indicating the condition for the error.
+helpviewer_keywords: ["IWMPErrorItem2 interface [Windows Media Player]","get_condition method","IWMPErrorItem2.get_condition","IWMPErrorItem2::get_condition","IWMPErrorItem2get_condition","get_condition","get_condition method [Windows Media Player]","get_condition method [Windows Media Player]","IWMPErrorItem2 interface","wmp.iwmperroritem2_get_condition","wmp/IWMPErrorItem2::get_condition"]
 old-location: wmp\iwmperroritem2_get_condition.htm
 tech.root: WMP
 ms.assetid: fe72bb1c-78ac-4a10-9abf-81722139d842

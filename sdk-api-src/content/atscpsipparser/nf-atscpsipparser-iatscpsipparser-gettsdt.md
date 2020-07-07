@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IAtscPsipParser.GetTSDT
 title: IAtscPsipParser::GetTSDT (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetTSDT","GetTSDT method [Microsoft TV Technologies]","GetTSDT method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetTSDT method","IAtscPsipParser.GetTSDT","IAtscPsipParser::GetTSDT","IAtscPsipParserGetTSDT","atscpsipparser/IAtscPsipParser::GetTSDT","mstv.iatscpsipparser_gettsdt"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTSDT","GetTSDT method [Microsoft TV Technologies]","GetTSDT method [Microsoft TV Technologies]","IAtscPsipParser interface","IAtscPsipParser interface [Microsoft TV Technologies]","GetTSDT method","IAtscPsipParser.GetTSDT","IAtscPsipParser::GetTSDT","IAtscPsipParserGetTSDT","atscpsipparser/IAtscPsipParser::GetTSDT","mstv.iatscpsipparser_gettsdt"]
 old-location: mstv\iatscpsipparser_gettsdt.htm
 tech.root: mstv
 ms.assetid: f9c25b9e-615d-4223-baf5-f4df2fc1473a

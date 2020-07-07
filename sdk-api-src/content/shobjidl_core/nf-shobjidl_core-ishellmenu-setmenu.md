@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellMenu.SetMenu
 title: IShellMenu::SetMenu (shobjidl_core.h)
-description: Appends a static menu to the menu band.helpviewer_keywords: ["IShellMenu interface [Windows Shell]","SetMenu method","IShellMenu.SetMenu","IShellMenu::SetMenu","SMSET_BOTTOM","SMSET_DONTOWN","SMSET_TOP","SetMenu","SetMenu method [Windows Shell]","SetMenu method [Windows Shell]","IShellMenu interface","_shell_IShellMenu_SetMenu","shell.IShellMenu_SetMenu","shobjidl_core/IShellMenu::SetMenu"]
+description: Appends a static menu to the menu band.
+helpviewer_keywords: ["IShellMenu interface [Windows Shell]","SetMenu method","IShellMenu.SetMenu","IShellMenu::SetMenu","SMSET_BOTTOM","SMSET_DONTOWN","SMSET_TOP","SetMenu","SetMenu method [Windows Shell]","SetMenu method [Windows Shell]","IShellMenu interface","_shell_IShellMenu_SetMenu","shell.IShellMenu_SetMenu","shobjidl_core/IShellMenu::SetMenu"]
 old-location: shell\IShellMenu_SetMenu.htm
 tech.root: shell
 ms.assetid: afa393eb-05a0-478e-88a2-7c31b4a48930

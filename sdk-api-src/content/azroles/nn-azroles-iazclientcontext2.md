@@ -1,7 +1,8 @@
 ---
 UID: NN:azroles.IAzClientContext2
 title: IAzClientContext2 (azroles.h)
-description: Inherits from the IAzClientContext interface and implements new methods that manipulate the client context.helpviewer_keywords: ["IAzClientContext2","IAzClientContext2 interface [Security]","IAzClientContext2 interface [Security]","described","azroles/IAzClientContext2","security.iazclientcontext2"]
+description: Inherits from the IAzClientContext interface and implements new methods that manipulate the client context.
+helpviewer_keywords: ["IAzClientContext2","IAzClientContext2 interface [Security]","IAzClientContext2 interface [Security]","described","azroles/IAzClientContext2","security.iazclientcontext2"]
 old-location: security\iazclientcontext2.htm
 tech.root: SecAuthZ
 ms.assetid: 8e922370-18e3-481c-93f2-9a56d7898ba7

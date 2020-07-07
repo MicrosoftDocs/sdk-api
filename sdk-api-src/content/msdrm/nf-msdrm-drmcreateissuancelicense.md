@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMCreateIssuanceLicense
 title: DRMCreateIssuanceLicense function (msdrm.h)
-description: Creates an issuance license from scratch, from a template, or from a signed issuance license.helpviewer_keywords: ["DRMCreateIssuanceLicense","DRMCreateIssuanceLicense function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMCreateIssuanceLicense","rm.drmcreateissuancelicense"]
+description: Creates an issuance license from scratch, from a template, or from a signed issuance license.
+helpviewer_keywords: ["DRMCreateIssuanceLicense","DRMCreateIssuanceLicense function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMCreateIssuanceLicense","rm.drmcreateissuancelicense"]
 old-location: rm\drmcreateissuancelicense.htm
 tech.root: AdRms_Sdk
 ms.assetid: db2e9aa6-7021-4805-8fd7-94c8d02776b0

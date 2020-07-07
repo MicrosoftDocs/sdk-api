@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_IsDefault
 title: ISearchScopeRule::get_IsDefault (searchapi.h)
-description: Gets a value that identifies whether this is a default rule.helpviewer_keywords: ["ISearchScopeRule interface [search]","get_IsDefault method","ISearchScopeRule.get_IsDefault","ISearchScopeRule::get_IsDefault","_search_ISearchScopeRule_get_IsDefault","get_IsDefault","get_IsDefault method [search]","get_IsDefault method [search]","ISearchScopeRule interface","search._search_ISearchScopeRule_get_IsDefault","searchapi/ISearchScopeRule::get_IsDefault"]
+description: Gets a value that identifies whether this is a default rule.
+helpviewer_keywords: ["ISearchScopeRule interface [search]","get_IsDefault method","ISearchScopeRule.get_IsDefault","ISearchScopeRule::get_IsDefault","_search_ISearchScopeRule_get_IsDefault","get_IsDefault","get_IsDefault method [search]","get_IsDefault method [search]","ISearchScopeRule interface","search._search_ISearchScopeRule_get_IsDefault","searchapi/ISearchScopeRule::get_IsDefault"]
 old-location: search\_search_ISearchScopeRule_get_IsDefault.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_isdefault.htm
@@ -77,9 +78,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

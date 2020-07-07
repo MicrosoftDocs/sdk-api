@@ -1,7 +1,8 @@
 ---
 UID: NF:adsprop.ADsPropCreateNotifyObj
 title: ADsPropCreateNotifyObj function (adsprop.h)
-description: The ADsPropCreateNotifyObj function is used to create, or obtain, a notification object for use by an Active Directory Domain Services property sheet extension.helpviewer_keywords: ["ADsPropCreateNotifyObj","ADsPropCreateNotifyObj function [Active Directory]","ad.adspropcreatenotifyobj","adsprop/ADsPropCreateNotifyObj"]
+description: The ADsPropCreateNotifyObj function is used to create, or obtain, a notification object for use by an Active Directory Domain Services property sheet extension.
+helpviewer_keywords: ["ADsPropCreateNotifyObj","ADsPropCreateNotifyObj function [Active Directory]","ad.adspropcreatenotifyobj","adsprop/ADsPropCreateNotifyObj"]
 old-location: ad\adspropcreatenotifyobj.htm
 tech.root: ad
 ms.assetid: bfca3801-0d24-4177-8173-b6bf4b854fae

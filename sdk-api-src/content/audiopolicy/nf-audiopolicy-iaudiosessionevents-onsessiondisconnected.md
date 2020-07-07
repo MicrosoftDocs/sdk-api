@@ -1,7 +1,8 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnSessionDisconnected
 title: IAudioSessionEvents::OnSessionDisconnected (audiopolicy.h)
-description: The OnSessionDisconnected method notifies the client that the audio session has been disconnected.helpviewer_keywords: ["IAudioSessionEvents interface [Core Audio]","OnSessionDisconnected method","IAudioSessionEvents.OnSessionDisconnected","IAudioSessionEvents::OnSessionDisconnected","IAudioSessionEventsOnSessionDisconnected","OnSessionDisconnected","OnSessionDisconnected method [Core Audio]","OnSessionDisconnected method [Core Audio]","IAudioSessionEvents interface","audiopolicy/IAudioSessionEvents::OnSessionDisconnected","coreaudio.iaudiosessionevents_onsessiondisconnected"]
+description: The OnSessionDisconnected method notifies the client that the audio session has been disconnected.
+helpviewer_keywords: ["IAudioSessionEvents interface [Core Audio]","OnSessionDisconnected method","IAudioSessionEvents.OnSessionDisconnected","IAudioSessionEvents::OnSessionDisconnected","IAudioSessionEventsOnSessionDisconnected","OnSessionDisconnected","OnSessionDisconnected method [Core Audio]","OnSessionDisconnected method [Core Audio]","IAudioSessionEvents interface","audiopolicy/IAudioSessionEvents::OnSessionDisconnected","coreaudio.iaudiosessionevents_onsessiondisconnected"]
 old-location: coreaudio\iaudiosessionevents_onsessiondisconnected.htm
 tech.root: CoreAudio
 ms.assetid: 9fd653f0-c9d1-4155-9c1e-7e6124b40cca

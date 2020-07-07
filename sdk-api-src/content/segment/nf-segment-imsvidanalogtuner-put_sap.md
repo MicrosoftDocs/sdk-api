@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.put_SAP
 title: IMSVidAnalogTuner::put_SAP (segment.h)
-description: The put_SAP method specifies the tuner's SAP setting to enable secondary audio components.helpviewer_keywords: ["IMSVidAnalogTuner interface [Microsoft TV Technologies]","put_SAP method","IMSVidAnalogTuner.put_SAP","IMSVidAnalogTuner::put_SAP","IMSVidAnalogTunerput_SAP","mstv.imsvidanalogtuner_put_sap","put_SAP","put_SAP method [Microsoft TV Technologies]","put_SAP method [Microsoft TV Technologies]","IMSVidAnalogTuner interface","segment/IMSVidAnalogTuner::put_SAP"]
+description: The put_SAP method specifies the tuner's SAP setting to enable secondary audio components.
+helpviewer_keywords: ["IMSVidAnalogTuner interface [Microsoft TV Technologies]","put_SAP method","IMSVidAnalogTuner.put_SAP","IMSVidAnalogTuner::put_SAP","IMSVidAnalogTunerput_SAP","mstv.imsvidanalogtuner_put_sap","put_SAP","put_SAP method [Microsoft TV Technologies]","put_SAP method [Microsoft TV Technologies]","IMSVidAnalogTuner interface","segment/IMSVidAnalogTuner::put_SAP"]
 old-location: mstv\imsvidanalogtuner_put_sap.htm
 tech.root: mstv
 ms.assetid: e27efb36-de0c-4255-a5d8-6357f283cd12

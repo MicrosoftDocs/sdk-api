@@ -1,7 +1,8 @@
 ---
 UID: NF:batclass.BatteryClassStatusNotify
 title: BatteryClassStatusNotify function (batclass.h)
-description: BatteryClassStatusNotify notifies the battery class driver of changes in battery status.helpviewer_keywords: ["BatteryClassStatusNotify","BatteryClassStatusNotify function [Battery Devices]","bat-rtn_3e9d25d2-bd07-419a-80a5-98fcc08faedd.xml","batclass/BatteryClassStatusNotify","battery.batteryclassstatusnotify"]
+description: BatteryClassStatusNotify notifies the battery class driver of changes in battery status.
+helpviewer_keywords: ["BatteryClassStatusNotify","BatteryClassStatusNotify function [Battery Devices]","bat-rtn_3e9d25d2-bd07-419a-80a5-98fcc08faedd.xml","batclass/BatteryClassStatusNotify","battery.batteryclassstatusnotify"]
 old-location: battery\batteryclassstatusnotify.htm
 tech.root: battery
 ms.assetid: b74466e0-d900-49c6-a92e-d10a994fa948

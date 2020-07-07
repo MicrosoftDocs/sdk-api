@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothleapis.BluetoothGATTGetIncludedServices
 title: BluetoothGATTGetIncludedServices function (bluetoothleapis.h)
-description: Gets all the included services available for a given service.helpviewer_keywords: ["BluetoothGATTGetIncludedServices","BluetoothGATTGetIncludedServices function [Bluetooth Devices]","bltooth.bluetoothgattgetincludedservices","bluetoothleapis/BluetoothGATTGetIncludedServices"]
+description: Gets all the included services available for a given service.
+helpviewer_keywords: ["BluetoothGATTGetIncludedServices","BluetoothGATTGetIncludedServices function [Bluetooth Devices]","bltooth.bluetoothgattgetincludedservices","bluetoothleapis/BluetoothGATTGetIncludedServices"]
 old-location: bltooth\bluetoothgattgetincludedservices.htm
 tech.root: bltooth
 ms.assetid: 72F0E995-88B6-42E0-9B69-429566B5605C

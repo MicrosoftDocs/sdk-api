@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasSetAutodialEnableW
 title: RasSetAutodialEnableW function (ras.h)
-description: The RasSetAutodialEnable function enables or disables the AutoDial feature for a specified TAPI dialing location.helpviewer_keywords: ["RasSetAutodialEnable","RasSetAutodialEnable function [RAS]","RasSetAutodialEnableA","RasSetAutodialEnableW","_ras_rassetautodialenable","ras/RasSetAutodialEnable","ras/RasSetAutodialEnableA","ras/RasSetAutodialEnableW","rras.rassetautodialenable"]
+description: The RasSetAutodialEnable function enables or disables the AutoDial feature for a specified TAPI dialing location.
+helpviewer_keywords: ["RasSetAutodialEnable","RasSetAutodialEnable function [RAS]","RasSetAutodialEnableA","RasSetAutodialEnableW","_ras_rassetautodialenable","ras/RasSetAutodialEnable","ras/RasSetAutodialEnableA","ras/RasSetAutodialEnableW","rras.rassetautodialenable"]
 old-location: rras\rassetautodialenable.htm
 tech.root: RRAS
 ms.assetid: 0d5f7b8e-9bce-4e72-8657-f465ce4008c4
@@ -98,4 +99,9 @@ If the function fails, the return value is a non-zero error code from <a href="h
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The ras.h header defines RasSetAutodialEnable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextStyle.IsExternal
 title: IMFTimedTextStyle::IsExternal (mfmediaengine.h)
-description: Determines whether the timed-text style is external.helpviewer_keywords: ["IMFTimedTextStyle interface [Media Foundation]","IsExternal method","IMFTimedTextStyle.IsExternal","IMFTimedTextStyle::IsExternal","IsExternal","IsExternal method [Media Foundation]","IsExternal method [Media Foundation]","IMFTimedTextStyle interface","mf.imftimedtextstyle_isexternal","mfmediaengine/IMFTimedTextStyle::IsExternal"]
+description: Determines whether the timed-text style is external.
+helpviewer_keywords: ["IMFTimedTextStyle interface [Media Foundation]","IsExternal method","IMFTimedTextStyle.IsExternal","IMFTimedTextStyle::IsExternal","IsExternal","IsExternal method [Media Foundation]","IsExternal method [Media Foundation]","IMFTimedTextStyle interface","mf.imftimedtextstyle_isexternal","mfmediaengine/IMFTimedTextStyle::IsExternal"]
 old-location: mf\imftimedtextstyle_isexternal.htm
 tech.root: medfound
 ms.assetid: D24C7503-F7BB-44F9-B668-538B604F0394

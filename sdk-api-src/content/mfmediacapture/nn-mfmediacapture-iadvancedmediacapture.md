@@ -1,7 +1,8 @@
 ---
 UID: NN:mfmediacapture.IAdvancedMediaCapture
 title: IAdvancedMediaCapture (mfmediacapture.h)
-description: Enables advanced media capture.helpviewer_keywords: ["IAdvancedMediaCapture","IAdvancedMediaCapture interface [Media Foundation]","IAdvancedMediaCapture interface [Media Foundation]","described","mf.iadvancedmediacapture","mfmediacapture/IAdvancedMediaCapture"]
+description: Enables advanced media capture.
+helpviewer_keywords: ["IAdvancedMediaCapture","IAdvancedMediaCapture interface [Media Foundation]","IAdvancedMediaCapture interface [Media Foundation]","described","mf.iadvancedmediacapture","mfmediacapture/IAdvancedMediaCapture"]
 old-location: mf\iadvancedmediacapture.htm
 tech.root: medfound
 ms.assetid: 932b0cbf-c264-4c3b-b143-023dd7f809f1

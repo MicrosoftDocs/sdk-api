@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.VER_SET_CONDITION
 title: VER_SET_CONDITION macro (winnt.h)
-description: Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This macro is used to build the dwlConditionMask parameter of the VerifyVersionInfo function.helpviewer_keywords: ["VER_AND","VER_BUILDNUMBER","VER_EQUAL","VER_GREATER","VER_GREATER_EQUAL","VER_LESS","VER_LESS_EQUAL","VER_MAJORVERSION","VER_MINORVERSION","VER_OR","VER_PLATFORMID","VER_PRODUCT_TYPE","VER_SERVICEPACKMAJOR","VER_SERVICEPACKMINOR","VER_SET_CONDITION","VER_SET_CONDITION macro","VER_SUITENAME","_win32_ver_set_condition","base.ver_set_condition","winnt/VER_SET_CONDITION"]
+description: Sets the bits of a 64-bit value to indicate the comparison operator to use for a specified operating system version attribute. This macro is used to build the dwlConditionMask parameter of the VerifyVersionInfo function.
+helpviewer_keywords: ["VER_AND","VER_BUILDNUMBER","VER_EQUAL","VER_GREATER","VER_GREATER_EQUAL","VER_LESS","VER_LESS_EQUAL","VER_MAJORVERSION","VER_MINORVERSION","VER_OR","VER_PLATFORMID","VER_PRODUCT_TYPE","VER_SERVICEPACKMAJOR","VER_SERVICEPACKMINOR","VER_SET_CONDITION","VER_SET_CONDITION macro","VER_SUITENAME","_win32_ver_set_condition","base.ver_set_condition","winnt/VER_SET_CONDITION"]
 old-location: base\ver_set_condition.htm
 tech.root: SysInfo
 ms.assetid: c93be952-41a8-48c4-b24f-996bf9237727

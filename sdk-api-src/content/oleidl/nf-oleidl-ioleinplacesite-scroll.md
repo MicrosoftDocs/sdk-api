@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.Scroll
 title: IOleInPlaceSite::Scroll (oleidl.h)
-description: Instructs the container to scroll the view of the object by the specified number of pixels.helpviewer_keywords: ["IOleInPlaceSite interface [COM]","Scroll method","IOleInPlaceSite.Scroll","IOleInPlaceSite::Scroll","IOleInPlaceSiteWindowless.Scroll","Scroll","Scroll method [COM]","Scroll method [COM]","IOleInPlaceSite interface","_ole_ioleinplacesite_scroll","com.ioleinplacesite_scroll","oleidl/IOleInPlaceSite::Scroll"]
+description: Instructs the container to scroll the view of the object by the specified number of pixels.
+helpviewer_keywords: ["IOleInPlaceSite interface [COM]","Scroll method","IOleInPlaceSite.Scroll","IOleInPlaceSite::Scroll","IOleInPlaceSiteWindowless.Scroll","Scroll","Scroll method [COM]","Scroll method [COM]","IOleInPlaceSite interface","_ole_ioleinplacesite_scroll","com.ioleinplacesite_scroll","oleidl/IOleInPlaceSite::Scroll"]
 old-location: com\ioleinplacesite_scroll.htm
 tech.root: com
 ms.assetid: a169c4c6-b600-4812-bf71-d7fcd7486ff1

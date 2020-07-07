@@ -1,7 +1,8 @@
 ---
 UID: NF:spellcheck.ISpellingError.get_Length
 title: ISpellingError::get_Length (spellcheck.h)
-description: Gets the length of the erroneous text.helpviewer_keywords: ["ISpellingError interface [Internationalization for Windows Applications]","Length property","ISpellingError.Length","ISpellingError.get_Length","ISpellingError::Length","ISpellingError::get_Length","Length property [Internationalization for Windows Applications]","Length property [Internationalization for Windows Applications]","ISpellingError interface","get_Length","intl.ispellingerror_length","spellcheck/ISpellingError::Length","spellcheck/ISpellingError::get_Length"]
+description: Gets the length of the erroneous text.
+helpviewer_keywords: ["ISpellingError interface [Internationalization for Windows Applications]","Length property","ISpellingError.Length","ISpellingError.get_Length","ISpellingError::Length","ISpellingError::get_Length","Length property [Internationalization for Windows Applications]","Length property [Internationalization for Windows Applications]","ISpellingError interface","get_Length","intl.ispellingerror_length","spellcheck/ISpellingError::Length","spellcheck/ISpellingError::get_Length"]
 old-location: intl\ispellingerror_length.htm
 tech.root: Intl
 ms.assetid: 641f8dbc-2cb2-448a-9382-9512cb91edb0

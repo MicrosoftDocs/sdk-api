@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_SectorCount
 title: IWriteEngine2EventArgs::get_SectorCount (imapi2.h)
-description: Retrieves the number of sectors to write to the device in the current write operation.helpviewer_keywords: ["IWriteEngine2EventArgs interface [IMAPI]","get_SectorCount method","IWriteEngine2EventArgs.get_SectorCount","IWriteEngine2EventArgs::get_SectorCount","get_SectorCount","get_SectorCount method [IMAPI]","get_SectorCount method [IMAPI]","IWriteEngine2EventArgs interface","imapi.iwriteengine2eventargs_get_sectorcount","imapi2/IWriteEngine2EventArgs::get_SectorCount"]
+description: Retrieves the number of sectors to write to the device in the current write operation.
+helpviewer_keywords: ["IWriteEngine2EventArgs interface [IMAPI]","get_SectorCount method","IWriteEngine2EventArgs.get_SectorCount","IWriteEngine2EventArgs::get_SectorCount","get_SectorCount","get_SectorCount method [IMAPI]","get_SectorCount method [IMAPI]","IWriteEngine2EventArgs interface","imapi.iwriteengine2eventargs_get_sectorcount","imapi2/IWriteEngine2EventArgs::get_SectorCount"]
 old-location: imapi\iwriteengine2eventargs_get_sectorcount.htm
 tech.root: imapi
 ms.assetid: b23c81c2-792e-45fc-b862-6daf5b1a6fd1

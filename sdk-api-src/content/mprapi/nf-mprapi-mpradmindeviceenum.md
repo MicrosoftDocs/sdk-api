@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminDeviceEnum
 title: MprAdminDeviceEnum function (mprapi.h)
-description: Function is called to enumerate RAS capable devices installed on the computer that can return their name and type.helpviewer_keywords: ["MprAdminDeviceEnum","MprAdminDeviceEnum function [RAS]","mprapi/MprAdminDeviceEnum","rras.mpradmindeviceenum"]
+description: Function is called to enumerate RAS capable devices installed on the computer that can return their name and type.
+helpviewer_keywords: ["MprAdminDeviceEnum","MprAdminDeviceEnum function [RAS]","mprapi/MprAdminDeviceEnum","rras.mpradmindeviceenum"]
 old-location: rras\mpradmindeviceenum.htm
 tech.root: RRAS
 ms.assetid: 092892fd-1b61-45c6-a05f-83fc193611b9

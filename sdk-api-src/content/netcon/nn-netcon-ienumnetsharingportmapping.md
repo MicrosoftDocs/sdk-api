@@ -1,7 +1,8 @@
 ---
 UID: NN:netcon.IEnumNetSharingPortMapping
 title: IEnumNetSharingPortMapping (netcon.h)
-description: The IEnumNetSharingPortMapping interface provides methods to enumerate the port mappings for a particular connection.helpviewer_keywords: ["IEnumNetSharingPortMapping","IEnumNetSharingPortMapping interface [ICS/ICF]","IEnumNetSharingPortMapping interface [ICS/ICF]","described","_ics_ienumnetsharingportmapping","ics.ienumnetsharingportmapping","netcon/IEnumNetSharingPortMapping"]
+description: The IEnumNetSharingPortMapping interface provides methods to enumerate the port mappings for a particular connection.
+helpviewer_keywords: ["IEnumNetSharingPortMapping","IEnumNetSharingPortMapping interface [ICS/ICF]","IEnumNetSharingPortMapping interface [ICS/ICF]","described","_ics_ienumnetsharingportmapping","ics.ienumnetsharingportmapping","netcon/IEnumNetSharingPortMapping"]
 old-location: ics\ienumnetsharingportmapping.htm
 tech.root: ics
 ms.assetid: 68334bd2-353f-457d-a2c7-1271816f10f5

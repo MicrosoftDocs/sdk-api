@@ -1,7 +1,8 @@
 ---
 UID: NS:nspapi._SERVICE_ADDRESSES
 title: SERVICE_ADDRESSES (nspapi.h)
-description: The SERVICE_ADDRESSES structure contains an array of SERVICE_ADDRESS data structures.helpviewer_keywords: ["*LPSERVICE_ADDRESSES","*PSERVICE_ADDRESSES","SERVICE_ADDRESSES","SERVICE_ADDRESSES structure [Winsock]","_win32_service_addresses_2","nspapi/SERVICE_ADDRESSES","winsock.service_addresses_2"]
+description: The SERVICE_ADDRESSES structure contains an array of SERVICE_ADDRESS data structures.
+helpviewer_keywords: ["*LPSERVICE_ADDRESSES","*PSERVICE_ADDRESSES","SERVICE_ADDRESSES","SERVICE_ADDRESSES structure [Winsock]","_win32_service_addresses_2","nspapi/SERVICE_ADDRESSES","winsock.service_addresses_2"]
 old-location: winsock\service_addresses_2.htm
 tech.root: WinSock
 ms.assetid: 1ed0c634-4f09-49c1-8fbf-9182d6a4bd51

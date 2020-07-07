@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccessEx.CreateDialogRequestNumber
 title: IBDA_ConditionalAccessEx::CreateDialogRequestNumber (bdaiface.h)
-description: Gets a new dialog box request number.helpviewer_keywords: ["CreateDialogRequestNumber","CreateDialogRequestNumber method [Microsoft TV Technologies]","CreateDialogRequestNumber method [Microsoft TV Technologies]","IBDA_ConditionalAccessEx interface","IBDA_ConditionalAccessEx interface [Microsoft TV Technologies]","CreateDialogRequestNumber method","IBDA_ConditionalAccessEx.CreateDialogRequestNumber","IBDA_ConditionalAccessEx::CreateDialogRequestNumber","bdaiface/IBDA_ConditionalAccessEx::CreateDialogRequestNumber","mstv.ibda_conditionalaccessex_createdialogrequestnumber"]
+description: Gets a new dialog box request number.
+helpviewer_keywords: ["CreateDialogRequestNumber","CreateDialogRequestNumber method [Microsoft TV Technologies]","CreateDialogRequestNumber method [Microsoft TV Technologies]","IBDA_ConditionalAccessEx interface","IBDA_ConditionalAccessEx interface [Microsoft TV Technologies]","CreateDialogRequestNumber method","IBDA_ConditionalAccessEx.CreateDialogRequestNumber","IBDA_ConditionalAccessEx::CreateDialogRequestNumber","bdaiface/IBDA_ConditionalAccessEx::CreateDialogRequestNumber","mstv.ibda_conditionalaccessex_createdialogrequestnumber"]
 old-location: mstv\ibda_conditionalaccessex_createdialogrequestnumber.htm
 tech.root: mstv
 ms.assetid: cabe06c8-ead5-4e1d-83c3-e7b96b05fc4a

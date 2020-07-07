@@ -1,7 +1,8 @@
 ---
 UID: NS:strmif.tagDVD_TIMECODE
 title: DVD_TIMECODE (strmif.h)
-description: The DVD_TIMECODE structure contains DVD timecode in hours, minutes, seconds, and frames.helpviewer_keywords: ["DVD_TIMECODE","DVD_TIMECODE structure [DirectShow]","DVD_TIMECODEStructure","dshow.dvd_timecode","strmif/DVD_TIMECODE"]
+description: The DVD_TIMECODE structure contains DVD timecode in hours, minutes, seconds, and frames.
+helpviewer_keywords: ["DVD_TIMECODE","DVD_TIMECODE structure [DirectShow]","DVD_TIMECODEStructure","dshow.dvd_timecode","strmif/DVD_TIMECODE"]
 old-location: dshow\dvd_timecode.htm
 tech.root: DirectShow
 ms.assetid: 7ad0b11e-5bb7-426f-9a2c-fbc34b2f45b4

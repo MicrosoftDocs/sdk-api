@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_EMM.GetSharedEmmMessage
 title: IISDB_EMM::GetSharedEmmMessage (dvbsiparser.h)
-description: Gets a shared message from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.helpviewer_keywords: ["GetSharedEmmMessage","GetSharedEmmMessage method [Microsoft TV Technologies]","GetSharedEmmMessage method [Microsoft TV Technologies]","IISDB_EMM interface","IISDB_EMM interface [Microsoft TV Technologies]","GetSharedEmmMessage method","IISDB_EMM.GetSharedEmmMessage","IISDB_EMM::GetSharedEmmMessage","dvbsiparser/IISDB_EMM::GetSharedEmmMessage","mstv.iisdb_emm_getsharedemmmessage"]
+description: Gets a shared message from an Integrated Services Digital Broadcasting (ISDB) entitlement management message (EMM) table.
+helpviewer_keywords: ["GetSharedEmmMessage","GetSharedEmmMessage method [Microsoft TV Technologies]","GetSharedEmmMessage method [Microsoft TV Technologies]","IISDB_EMM interface","IISDB_EMM interface [Microsoft TV Technologies]","GetSharedEmmMessage method","IISDB_EMM.GetSharedEmmMessage","IISDB_EMM::GetSharedEmmMessage","dvbsiparser/IISDB_EMM::GetSharedEmmMessage","mstv.iisdb_emm_getsharedemmmessage"]
 old-location: mstv\iisdb_emm_getsharedemmmessage.htm
 tech.root: mstv
 ms.assetid: d3ad405c-cdf0-4a37-9495-3f126e6c0688

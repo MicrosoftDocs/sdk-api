@@ -1,7 +1,8 @@
 ---
 UID: NF:bdatif.IEnumTuneRequests.Skip
 title: IEnumTuneRequests::Skip (bdatif.h)
-description: The Skip method skips over the specified number of items in the collection.helpviewer_keywords: ["IEnumTuneRequests interface [Microsoft TV Technologies]","Skip method","IEnumTuneRequests.Skip","IEnumTuneRequests::Skip","IEnumTuneRequestsSkip","Skip","Skip method [Microsoft TV Technologies]","Skip method [Microsoft TV Technologies]","IEnumTuneRequests interface","bdatif/IEnumTuneRequests::Skip","mstv.ienumtunerequests_skip"]
+description: The Skip method skips over the specified number of items in the collection.
+helpviewer_keywords: ["IEnumTuneRequests interface [Microsoft TV Technologies]","Skip method","IEnumTuneRequests.Skip","IEnumTuneRequests::Skip","IEnumTuneRequestsSkip","Skip","Skip method [Microsoft TV Technologies]","Skip method [Microsoft TV Technologies]","IEnumTuneRequests interface","bdatif/IEnumTuneRequests::Skip","mstv.ienumtunerequests_skip"]
 old-location: mstv\ienumtunerequests_skip.htm
 tech.root: mstv
 ms.assetid: 43ed5c7e-2d31-417e-9d87-c3100e5096d0

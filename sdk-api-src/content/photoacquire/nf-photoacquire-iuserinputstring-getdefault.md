@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IUserInputString.GetDefault
 title: IUserInputString::GetDefault (photoacquire.h)
-description: The GetDefault method retrieves the default string used to initialize an edit control (or equivalent).helpviewer_keywords: ["GetDefault","GetDefault method [Picture Acquisition]","GetDefault method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetDefault method","IUserInputString.GetDefault","IUserInputString::GetDefault","IUserInputStringGetDefault","photoacquire/IUserInputString::GetDefault","picacq.iuserinputstring_getdefault"]
+description: The GetDefault method retrieves the default string used to initialize an edit control (or equivalent).
+helpviewer_keywords: ["GetDefault","GetDefault method [Picture Acquisition]","GetDefault method [Picture Acquisition]","IUserInputString interface","IUserInputString interface [Picture Acquisition]","GetDefault method","IUserInputString.GetDefault","IUserInputString::GetDefault","IUserInputStringGetDefault","photoacquire/IUserInputString::GetDefault","picacq.iuserinputstring_getdefault"]
 old-location: picacq\iuserinputstring_getdefault.htm
 tech.root: acquisition
 ms.assetid: d9e967f9-47ed-4b55-a728-fe6432b44efd

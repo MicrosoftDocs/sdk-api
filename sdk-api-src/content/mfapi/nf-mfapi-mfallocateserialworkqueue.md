@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFAllocateSerialWorkQueue
 title: MFAllocateSerialWorkQueue function (mfapi.h)
-description: Creates a work queue that is guaranteed to serialize work items.helpviewer_keywords: ["MFAllocateSerialWorkQueue","MFAllocateSerialWorkQueue function [Media Foundation]","mf.mfallocateserialworkqueue","mfapi/MFAllocateSerialWorkQueue"]
+description: Creates a work queue that is guaranteed to serialize work items.
+helpviewer_keywords: ["MFAllocateSerialWorkQueue","MFAllocateSerialWorkQueue function [Media Foundation]","mf.mfallocateserialworkqueue","mfapi/MFAllocateSerialWorkQueue"]
 old-location: mf\mfallocateserialworkqueue.htm
 tech.root: medfound
 ms.assetid: 45198662-C861-49A5-8962-DC256A671350

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.Clear
 title: ID2D1TransformGraph::Clear (d2d1effectauthor.h)
-description: Clears the transform nodes and all connections from the transform graph.helpviewer_keywords: ["Clear","Clear method [Direct2D]","Clear method [Direct2D]","ID2D1TransformGraph interface","ID2D1TransformGraph interface [Direct2D]","Clear method","ID2D1TransformGraph.Clear","ID2D1TransformGraph::Clear","d2d1effectauthor/ID2D1TransformGraph::Clear","direct2d.id2d1transformgraph_clear"]
+description: Clears the transform nodes and all connections from the transform graph.
+helpviewer_keywords: ["Clear","Clear method [Direct2D]","Clear method [Direct2D]","ID2D1TransformGraph interface","ID2D1TransformGraph interface [Direct2D]","Clear method","ID2D1TransformGraph.Clear","ID2D1TransformGraph::Clear","d2d1effectauthor/ID2D1TransformGraph::Clear","direct2d.id2d1transformgraph_clear"]
 old-location: direct2d\id2d1transformgraph_clear.htm
 tech.root: Direct2D
 ms.assetid: 7223A2FF-2B86-4080-B97E-BAE1C3E7000E

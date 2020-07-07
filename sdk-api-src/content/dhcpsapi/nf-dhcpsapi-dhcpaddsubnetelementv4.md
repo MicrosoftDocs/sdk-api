@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpAddSubnetElementV4
 title: DhcpAddSubnetElementV4 function (dhcpsapi.h)
-description: Adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. This function extends DhcpAddSubnetElement by incorporating subnet elements that consider client type.helpviewer_keywords: ["DhcpAddSubnetElementV4","DhcpAddSubnetElementV4 function [DHCP]","dhcp.dhcpaddsubnetelementv4","dhcpsapi/DhcpAddSubnetElementV4"]
+description: Adds an element describing a feature or aspect of the subnet to the subnet entry in the DHCP database. This function extends DhcpAddSubnetElement by incorporating subnet elements that consider client type.
+helpviewer_keywords: ["DhcpAddSubnetElementV4","DhcpAddSubnetElementV4 function [DHCP]","dhcp.dhcpaddsubnetelementv4","dhcpsapi/DhcpAddSubnetElementV4"]
 old-location: dhcp\dhcpaddsubnetelementv4.htm
 tech.root: DHCP
 ms.assetid: 97ffcafd-a74e-49ed-9e68-043b62a9017a

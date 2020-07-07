@@ -1,7 +1,8 @@
 ---
 UID: NF:vdshwprv.IVdsProviderPrivate.GetObject
 title: IVdsProviderPrivate::GetObject (vdshwprv.h)
-description: Returns the specified object.helpviewer_keywords: ["GetObject","GetObject method [VDS]","GetObject method [VDS]","IVdsProviderPrivate interface","IVdsProviderPrivate interface [VDS]","GetObject method","IVdsProviderPrivate.GetObject","IVdsProviderPrivate::GetObject","base.ivdsproviderprivate_getobject","vdshwprv/IVdsProviderPrivate::GetObject"]
+description: Returns the specified object.
+helpviewer_keywords: ["GetObject","GetObject method [VDS]","GetObject method [VDS]","IVdsProviderPrivate interface","IVdsProviderPrivate interface [VDS]","GetObject method","IVdsProviderPrivate.GetObject","IVdsProviderPrivate::GetObject","base.ivdsproviderprivate_getobject","vdshwprv/IVdsProviderPrivate::GetObject"]
 old-location: base\ivdsproviderprivate_getobject.htm
 tech.root: VDS
 ms.assetid: 3f346255-c5c6-4ca3-9718-0347c3f8294a

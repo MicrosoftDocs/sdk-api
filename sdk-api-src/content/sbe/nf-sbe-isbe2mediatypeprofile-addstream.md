@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.ISBE2MediaTypeProfile.AddStream
 title: ISBE2MediaTypeProfile::AddStream (sbe.h)
-description: Adds a stream to a media type profile.helpviewer_keywords: ["AddStream","AddStream method [Microsoft TV Technologies]","AddStream method [Microsoft TV Technologies]","ISBE2MediaTypeProfile interface","ISBE2MediaTypeProfile interface [Microsoft TV Technologies]","AddStream method","ISBE2MediaTypeProfile.AddStream","ISBE2MediaTypeProfile::AddStream","mstv.isbe2mediatypeprofile_addstream","sbe/ISBE2MediaTypeProfile::AddStream"]
+description: Adds a stream to a media type profile.
+helpviewer_keywords: ["AddStream","AddStream method [Microsoft TV Technologies]","AddStream method [Microsoft TV Technologies]","ISBE2MediaTypeProfile interface","ISBE2MediaTypeProfile interface [Microsoft TV Technologies]","AddStream method","ISBE2MediaTypeProfile.AddStream","ISBE2MediaTypeProfile::AddStream","mstv.isbe2mediatypeprofile_addstream","sbe/ISBE2MediaTypeProfile::AddStream"]
 old-location: mstv\isbe2mediatypeprofile_addstream.htm
 tech.root: mstv
 ms.assetid: f847d4f1-e748-4ed5-bc79-cfff90601379

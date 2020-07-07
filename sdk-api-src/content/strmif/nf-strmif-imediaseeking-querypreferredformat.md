@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IMediaSeeking.QueryPreferredFormat
 title: IMediaSeeking::QueryPreferredFormat (strmif.h)
-description: The QueryPreferredFormat method retrieves the preferred time format for seeking.helpviewer_keywords: ["IMediaSeeking interface [DirectShow]","QueryPreferredFormat method","IMediaSeeking.QueryPreferredFormat","IMediaSeeking::QueryPreferredFormat","IMediaSeekingQueryPreferredFormat","QueryPreferredFormat","QueryPreferredFormat method [DirectShow]","QueryPreferredFormat method [DirectShow]","IMediaSeeking interface","dshow.imediaseeking_querypreferredformat","strmif/IMediaSeeking::QueryPreferredFormat"]
+description: The QueryPreferredFormat method retrieves the preferred time format for seeking.
+helpviewer_keywords: ["IMediaSeeking interface [DirectShow]","QueryPreferredFormat method","IMediaSeeking.QueryPreferredFormat","IMediaSeeking::QueryPreferredFormat","IMediaSeekingQueryPreferredFormat","QueryPreferredFormat","QueryPreferredFormat method [DirectShow]","QueryPreferredFormat method [DirectShow]","IMediaSeeking interface","dshow.imediaseeking_querypreferredformat","strmif/IMediaSeeking::QueryPreferredFormat"]
 old-location: dshow\imediaseeking_querypreferredformat.htm
 tech.root: DirectShow
 ms.assetid: 16fd71d6-c162-493c-9bca-479d59da5031

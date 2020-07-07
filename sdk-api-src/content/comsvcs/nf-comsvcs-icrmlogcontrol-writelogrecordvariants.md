@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ICrmLogControl.WriteLogRecordVariants
 title: ICrmLogControl::WriteLogRecordVariants (comsvcs.h)
-description: The CRM Worker and CRM Compensator use this method to write structured log records to the log.helpviewer_keywords: ["ICrmLogControl interface [COM+]","WriteLogRecordVariants method","ICrmLogControl.WriteLogRecordVariants","ICrmLogControl::WriteLogRecordVariants","WriteLogRecordVariants","WriteLogRecordVariants method [COM+]","WriteLogRecordVariants method [COM+]","ICrmLogControl interface","_dtc_ICrmLogControl_WriteLogRecordVariants","comsvcs/ICrmLogControl::WriteLogRecordVariants","cos.icrmlogcontrol_writelogrecordvariants"]
+description: The CRM Worker and CRM Compensator use this method to write structured log records to the log.
+helpviewer_keywords: ["ICrmLogControl interface [COM+]","WriteLogRecordVariants method","ICrmLogControl.WriteLogRecordVariants","ICrmLogControl::WriteLogRecordVariants","WriteLogRecordVariants","WriteLogRecordVariants method [COM+]","WriteLogRecordVariants method [COM+]","ICrmLogControl interface","_dtc_ICrmLogControl_WriteLogRecordVariants","comsvcs/ICrmLogControl::WriteLogRecordVariants","cos.icrmlogcontrol_writelogrecordvariants"]
 old-location: cos\icrmlogcontrol_writelogrecordvariants.htm
 tech.root: cossdk
 ms.assetid: ebd3943d-0c77-49fe-a53e-bc0c45e13a54

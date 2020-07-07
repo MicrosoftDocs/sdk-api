@@ -1,7 +1,8 @@
 ---
 UID: NN:bdaiface.IBDA_NullTransform
 title: IBDA_NullTransform (bdaiface.h)
-description: The IBDA_NullTransform interface is implemented on all BDA device filters.helpviewer_keywords: ["IBDA_NullTransform","IBDA_NullTransform interface [Microsoft TV Technologies]","IBDA_NullTransform interface [Microsoft TV Technologies]","described","IBDA_NullTransformInterface","bdaiface/IBDA_NullTransform","mstv.ibda_nulltransform"]
+description: The IBDA_NullTransform interface is implemented on all BDA device filters.
+helpviewer_keywords: ["IBDA_NullTransform","IBDA_NullTransform interface [Microsoft TV Technologies]","IBDA_NullTransform interface [Microsoft TV Technologies]","described","IBDA_NullTransformInterface","bdaiface/IBDA_NullTransform","mstv.ibda_nulltransform"]
 old-location: mstv\ibda_nulltransform.htm
 tech.root: mstv
 ms.assetid: f13350cb-5064-405d-aeb6-25f684d0bdbb

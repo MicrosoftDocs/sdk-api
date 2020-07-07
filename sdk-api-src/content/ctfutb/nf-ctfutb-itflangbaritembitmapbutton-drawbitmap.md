@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemBitmapButton.DrawBitmap
 title: ITfLangBarItemBitmapButton::DrawBitmap (ctfutb.h)
-description: ITfLangBarItemBitmapButton::DrawBitmap methodhelpviewer_keywords: ["DrawBitmap","DrawBitmap method [Text Services Framework]","DrawBitmap method [Text Services Framework]","ITfLangBarItemBitmapButton interface","ITfLangBarItemBitmapButton interface [Text Services Framework]","DrawBitmap method","ITfLangBarItemBitmapButton.DrawBitmap","ITfLangBarItemBitmapButton::DrawBitmap","_tsf_itflangbaritembitmapbutton_drawbitmap_ref","ctfutb/ITfLangBarItemBitmapButton::DrawBitmap","tsf.itflangbaritembitmapbutton_drawbitmap"]
+description: ITfLangBarItemBitmapButton::DrawBitmap method
+helpviewer_keywords: ["DrawBitmap","DrawBitmap method [Text Services Framework]","DrawBitmap method [Text Services Framework]","ITfLangBarItemBitmapButton interface","ITfLangBarItemBitmapButton interface [Text Services Framework]","DrawBitmap method","ITfLangBarItemBitmapButton.DrawBitmap","ITfLangBarItemBitmapButton::DrawBitmap","_tsf_itflangbaritembitmapbutton_drawbitmap_ref","ctfutb/ITfLangBarItemBitmapButton::DrawBitmap","tsf.itflangbaritembitmapbutton_drawbitmap"]
 old-location: tsf\itflangbaritembitmapbutton_drawbitmap.htm
 tech.root: TSF
 ms.assetid: 412b2e74-0569-4f72-bc8e-23edec72ea35

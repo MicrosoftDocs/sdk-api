@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.SignalObjectAndWait
 title: SignalObjectAndWait function (synchapi.h)
-description: Signals one object and waits on another object as a single operation.helpviewer_keywords: ["SignalObjectAndWait","SignalObjectAndWait function","_win32_signalobjectandwait","base.signalobjectandwait","synchapi/SignalObjectAndWait"]
+description: Signals one object and waits on another object as a single operation.
+helpviewer_keywords: ["SignalObjectAndWait","SignalObjectAndWait function","_win32_signalobjectandwait","base.signalobjectandwait","synchapi/SignalObjectAndWait"]
 old-location: base\signalobjectandwait.htm
 tech.root: Sync
 ms.assetid: 2b1ce22b-8edb-4685-99f4-4fc38eec202a

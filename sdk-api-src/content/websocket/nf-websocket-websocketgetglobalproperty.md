@@ -1,7 +1,8 @@
 ---
 UID: NF:websocket.WebSocketGetGlobalProperty
 title: WebSocketGetGlobalProperty function (websocket.h)
-description: Gets a single WebSocket property.helpviewer_keywords: ["WebSocketGetGlobalProperty","WebSocketGetGlobalProperty function [Websocket Protocol Component API]","websock.websocketgetglobalproperty","websocket/WebSocketGetGlobalProperty"]
+description: Gets a single WebSocket property.
+helpviewer_keywords: ["WebSocketGetGlobalProperty","WebSocketGetGlobalProperty function [Websocket Protocol Component API]","websock.websocketgetglobalproperty","websocket/WebSocketGetGlobalProperty"]
 old-location: websock\websocketgetglobalproperty.htm
 tech.root: WebSock
 ms.assetid: ca4b76e9-6545-447b-93b2-e9e4054a54ec

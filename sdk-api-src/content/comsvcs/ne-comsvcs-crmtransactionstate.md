@@ -1,7 +1,8 @@
 ---
 UID: NE:comsvcs.tagCrmTransactionState
 title: CrmTransactionState (comsvcs.h)
-description: Represents the current transaction state of the transaction.helpviewer_keywords: ["CrmTransactionState","CrmTransactionState enumeration [COM+]","TxState_Aborted","TxState_Active","TxState_Committed","TxState_Indoubt","_cos_CrmTransactionState","comsvcs/CrmTransactionState","comsvcs/TxState_Aborted","comsvcs/TxState_Active","comsvcs/TxState_Committed","comsvcs/TxState_Indoubt","cos.crmtransactionstate"]
+description: Represents the current transaction state of the transaction.
+helpviewer_keywords: ["CrmTransactionState","CrmTransactionState enumeration [COM+]","TxState_Aborted","TxState_Active","TxState_Committed","TxState_Indoubt","_cos_CrmTransactionState","comsvcs/CrmTransactionState","comsvcs/TxState_Aborted","comsvcs/TxState_Active","comsvcs/TxState_Committed","comsvcs/TxState_Indoubt","cos.crmtransactionstate"]
 old-location: cos\crmtransactionstate.htm
 tech.root: cossdk
 ms.assetid: ae096ba2-3347-4d8c-89af-ee4517554a91

@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplusheaders.FontFamily
 title: FontFamily (gdiplusheaders.h)
-description: This FontFamily class encapsulates a set of fonts that make up a font family. A font family is a group of fonts that have the same typeface but different styles.helpviewer_keywords: ["FontFamily","FontFamily class [GDI+]","FontFamily class [GDI+]","described","_gdiplus_CLASS_FontFamily_Class","gdiplus._gdiplus_CLASS_FontFamily_Class","gdiplusheaders/FontFamily"]
+description: This FontFamily class encapsulates a set of fonts that make up a font family. A font family is a group of fonts that have the same typeface but different styles.
+helpviewer_keywords: ["FontFamily","FontFamily class [GDI+]","FontFamily class [GDI+]","described","_gdiplus_CLASS_FontFamily_Class","gdiplus._gdiplus_CLASS_FontFamily_Class","gdiplusheaders/FontFamily"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamily.htm

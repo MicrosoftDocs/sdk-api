@@ -1,7 +1,8 @@
 ---
 UID: NF:upnphost.IUPnPReregistrar.ReregisterDevice
 title: IUPnPReregistrar::ReregisterDevice (upnphost.h)
-description: The ReregisterDevice method re-registers a device with the device host. The device information is stored by the device host. Then, the device host returns a device identifier and publishes and announces the device on the network.helpviewer_keywords: ["IUPnPReregistrar interface [UPnP APIs]","ReregisterDevice method","IUPnPReregistrar.ReregisterDevice","IUPnPReregistrar::ReregisterDevice","ReregisterDevice","ReregisterDevice method [UPnP APIs]","ReregisterDevice method [UPnP APIs]","IUPnPReregistrar interface","_upnp_iupnpreregistrar_reregisterdevice","upnp.iupnpreregistrar_reregisterdevice","upnphost/IUPnPReregistrar::ReregisterDevice"]
+description: The ReregisterDevice method re-registers a device with the device host. The device information is stored by the device host. Then, the device host returns a device identifier and publishes and announces the device on the network.
+helpviewer_keywords: ["IUPnPReregistrar interface [UPnP APIs]","ReregisterDevice method","IUPnPReregistrar.ReregisterDevice","IUPnPReregistrar::ReregisterDevice","ReregisterDevice","ReregisterDevice method [UPnP APIs]","ReregisterDevice method [UPnP APIs]","IUPnPReregistrar interface","_upnp_iupnpreregistrar_reregisterdevice","upnp.iupnpreregistrar_reregisterdevice","upnphost/IUPnPReregistrar::ReregisterDevice"]
 old-location: upnp\iupnpreregistrar_reregisterdevice.htm
 tech.root: upnp
 ms.assetid: 9f8a0a49-49e4-47b9-93bf-ca32cc80e243

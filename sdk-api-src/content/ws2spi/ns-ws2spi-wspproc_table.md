@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2spi._WSPPROC_TABLE
 title: WSPPROC_TABLE
-description: Contains a table of pointers to service provider functions.helpviewer_keywords: ["_WSPPROC_TABLE","WSPPROC_TABLE"]
+description: Contains a table of pointers to service provider functions.
+helpviewer_keywords: ["_WSPPROC_TABLE","WSPPROC_TABLE"]
 ms.date: 4/26/2019
 ms.keywords: _WSPPROC_TABLE, WSPPROC_TABLE
 targetos: Windows

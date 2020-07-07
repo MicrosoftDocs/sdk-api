@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPEvents.Warning
 title: IWMPEvents::Warning (wmp.h)
-description: The Warning event is reserved for future use.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","Warning method","IWMPEvents.Warning","IWMPEvents::Warning","IWMPEventsWarning","Warning","Warning method [Windows Media Player]","Warning method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__warning","wmp/IWMPEvents::Warning"]
+description: The Warning event is reserved for future use.
+helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","Warning method","IWMPEvents.Warning","IWMPEvents::Warning","IWMPEventsWarning","Warning","Warning method [Windows Media Player]","Warning method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__warning","wmp/IWMPEvents::Warning"]
 old-location: wmp\iwmpevents_iwmpevents__warning.htm
 tech.root: WMP
 ms.assetid: d68a2e17-c9db-4ad7-b7e8-ea7740de2980

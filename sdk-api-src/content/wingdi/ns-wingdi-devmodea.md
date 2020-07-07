@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi._devicemodeA
 title: DEVMODEA (wingdi.h)
-description: The DEVMODE data structure contains information about the initialization and environment of a printer or a display device.helpviewer_keywords: ["*LPDEVMODEA","*NPDEVMODEA","*PDEVMODEA","DEVMODE","DEVMODE structure [Windows GDI]","DEVMODEA","DMBIN_AUTO","DMBIN_CASSETTE","DMBIN_ENVELOPE","DMBIN_ENVMANUAL","DMBIN_FIRST","DMBIN_FORMSOURCE","DMBIN_LARGECAPACITY","DMBIN_LARGEFMT","DMBIN_LAST","DMBIN_LOWER","DMBIN_MANUAL","DMBIN_MIDDLE","DMBIN_ONLYONE","DMBIN_SMALLFMT","DMBIN_TRACTOR","DMBIN_UPPER","DMRES_DRAFT","DMRES_HIGH","DMRES_LOW","DMRES_MEDIUM","LPDEVMODE","LPDEVMODE structure pointer [Windows GDI]","PDEVMODE","PDEVMODE structure pointer [Windows GDI]","_DEVMODEA","_DEVMODEW","_win32_DEVMODE_str","gdi.devmode","wingdi/DEVMODE","wingdi/LPDEVMODE","wingdi/PDEVMODE","wingdi/_DEVMODEA","wingdi/_DEVMODEW"]
+description: The DEVMODE data structure contains information about the initialization and environment of a printer or a display device.
+helpviewer_keywords: ["*LPDEVMODEA","*NPDEVMODEA","*PDEVMODEA","DEVMODE","DEVMODE structure [Windows GDI]","DEVMODEA","DMBIN_AUTO","DMBIN_CASSETTE","DMBIN_ENVELOPE","DMBIN_ENVMANUAL","DMBIN_FIRST","DMBIN_FORMSOURCE","DMBIN_LARGECAPACITY","DMBIN_LARGEFMT","DMBIN_LAST","DMBIN_LOWER","DMBIN_MANUAL","DMBIN_MIDDLE","DMBIN_ONLYONE","DMBIN_SMALLFMT","DMBIN_TRACTOR","DMBIN_UPPER","DMRES_DRAFT","DMRES_HIGH","DMRES_LOW","DMRES_MEDIUM","LPDEVMODE","LPDEVMODE structure pointer [Windows GDI]","PDEVMODE","PDEVMODE structure pointer [Windows GDI]","_DEVMODEA","_DEVMODEW","_win32_DEVMODE_str","gdi.devmode","wingdi/DEVMODE","wingdi/LPDEVMODE","wingdi/PDEVMODE","wingdi/_DEVMODEA","wingdi/_DEVMODEW"]
 old-location: gdi\devmode.htm
 tech.root: printdocs
 ms.assetid: 85741025-9393-42ab-8a6d-27f1ae2c0f1b
@@ -1301,6 +1302,10 @@ A device driver's private data follows the public portion of the <b>DEVMODE</b> 
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines DEVMODE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

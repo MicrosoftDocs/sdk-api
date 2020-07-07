@@ -1,7 +1,8 @@
 ---
 UID: NN:eventsys.IEventProperty
 title: IEventProperty (eventsys.h)
-description: Associates a named event property with its value.helpviewer_keywords: ["IEventProperty","IEventProperty interface [COM]","IEventProperty interface [COM]","described","_com_ieventproperty","com.ieventproperty","eventsys/IEventProperty"]
+description: Associates a named event property with its value.
+helpviewer_keywords: ["IEventProperty","IEventProperty interface [COM]","IEventProperty interface [COM]","described","_com_ieventproperty","com.ieventproperty","eventsys/IEventProperty"]
 old-location: com\ieventproperty.htm
 tech.root: com
 ms.assetid: e1ed7249-7fe3-4f90-b3e1-b79597773d85

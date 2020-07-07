@@ -1,7 +1,8 @@
 ---
 UID: NS:qospol._IDPE_ATTR
 title: IDPE_ATTR (qospol.h)
-description: The IDPE_ATTR structure contains identity policy element attribute information.helpviewer_keywords: ["*LPIDPE_ATTR","*LPIDPE_ATTR structure [QOS]","IDPE_ATTR","IDPE_ATTR structure [QOS]","PE_ATTRIB_TYPE_POLICY_LOCATOR","POLICY_LOCATOR_SUB_TYPE_ASCII_DN","POLICY_LOCATOR_SUB_TYPE_ASCII_DN_ENC","POLICY_LOCATOR_SUB_TYPE_UNICODE_DN","POLICY_LOCATOR_SUB_TYPE_UNICODE_DN_ENC","qos.idpe_attr","qospol/*LPIDPE_ATTR","qospol/IDPE_ATTR"]
+description: The IDPE_ATTR structure contains identity policy element attribute information.
+helpviewer_keywords: ["*LPIDPE_ATTR","*LPIDPE_ATTR structure [QOS]","IDPE_ATTR","IDPE_ATTR structure [QOS]","PE_ATTRIB_TYPE_POLICY_LOCATOR","POLICY_LOCATOR_SUB_TYPE_ASCII_DN","POLICY_LOCATOR_SUB_TYPE_ASCII_DN_ENC","POLICY_LOCATOR_SUB_TYPE_UNICODE_DN","POLICY_LOCATOR_SUB_TYPE_UNICODE_DN_ENC","qos.idpe_attr","qospol/*LPIDPE_ATTR","qospol/IDPE_ATTR"]
 old-location: qos\idpe_attr.htm
 tech.root: QOS
 ms.assetid: 9169cb84-be1c-46f6-b6f8-5babfb4310f3

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSampleGrabberSinkCallback2.OnProcessSampleEx
 title: IMFSampleGrabberSinkCallback2::OnProcessSampleEx (mfidl.h)
-description: Called when the sample-grabber sink receives a new media sample.helpviewer_keywords: ["IMFSampleGrabberSinkCallback2 interface [Media Foundation]","OnProcessSampleEx method","IMFSampleGrabberSinkCallback2.OnProcessSampleEx","IMFSampleGrabberSinkCallback2::OnProcessSampleEx","OnProcessSampleEx","OnProcessSampleEx method [Media Foundation]","OnProcessSampleEx method [Media Foundation]","IMFSampleGrabberSinkCallback2 interface","mf.imfsamplegrabbersinkcallback2_onprocesssampleex","mfidl/IMFSampleGrabberSinkCallback2::OnProcessSampleEx"]
+description: Called when the sample-grabber sink receives a new media sample.
+helpviewer_keywords: ["IMFSampleGrabberSinkCallback2 interface [Media Foundation]","OnProcessSampleEx method","IMFSampleGrabberSinkCallback2.OnProcessSampleEx","IMFSampleGrabberSinkCallback2::OnProcessSampleEx","OnProcessSampleEx","OnProcessSampleEx method [Media Foundation]","OnProcessSampleEx method [Media Foundation]","IMFSampleGrabberSinkCallback2 interface","mf.imfsamplegrabbersinkcallback2_onprocesssampleex","mfidl/IMFSampleGrabberSinkCallback2::OnProcessSampleEx"]
 old-location: mf\imfsamplegrabbersinkcallback2_onprocesssampleex.htm
 tech.root: medfound
 ms.assetid: dc880967-ac97-4835-bbc9-1bd664e42739

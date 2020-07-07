@@ -1,7 +1,8 @@
 ---
 UID: NS:qos2._QOS_FLOWRATE_OUTGOING
 title: QOS_FLOWRATE_OUTGOING (qos2.h)
-description: The QOS_FLOWRATE_OUTGOING structure is used to set flow rate information in the QOSSetFlow function.helpviewer_keywords: ["*PQOS_FLOWRATE_OUTGOING","PQOS_FLOWRATE_OUTGOING","PQOS_FLOWRATE_OUTGOING structure pointer [QOS]","QOS_FLOWRATE_OUTGOING","QOS_FLOWRATE_OUTGOING structure [QOS]","qos.qos_flowrate_outgoing","qos2/PQOS_FLOWRATE_OUTGOING","qos2/QOS_FLOWRATE_OUTGOING"]
+description: The QOS_FLOWRATE_OUTGOING structure is used to set flow rate information in the QOSSetFlow function.
+helpviewer_keywords: ["*PQOS_FLOWRATE_OUTGOING","PQOS_FLOWRATE_OUTGOING","PQOS_FLOWRATE_OUTGOING structure pointer [QOS]","QOS_FLOWRATE_OUTGOING","QOS_FLOWRATE_OUTGOING structure [QOS]","qos.qos_flowrate_outgoing","qos2/PQOS_FLOWRATE_OUTGOING","qos2/QOS_FLOWRATE_OUTGOING"]
 old-location: qos\qos_flowrate_outgoing.htm
 tech.root: QOS
 ms.assetid: 6f0408fa-842c-4c6c-954b-cdc8a77b4bd3

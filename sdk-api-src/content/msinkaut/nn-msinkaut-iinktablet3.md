@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkTablet3
 title: IInkTablet3 (msinkaut.h)
-description: Enables multitouch querying for input.helpviewer_keywords: ["IInkTablet3","IInkTablet3 Interface","IInkTablet3 Interface interface [Tablet PC]","IInkTablet3 Interface interface [Tablet PC]","described","msinkaut/IInkTablet3 Interface","tablet.iinktablet3"]
+description: Enables multitouch querying for input.
+helpviewer_keywords: ["IInkTablet3","IInkTablet3 Interface","IInkTablet3 Interface interface [Tablet PC]","IInkTablet3 Interface interface [Tablet PC]","described","msinkaut/IInkTablet3 Interface","tablet.iinktablet3"]
 old-location: tablet\iinktablet3.htm
 tech.root: tablet
 ms.assetid: 9b275a35-95d8-40fd-b406-d83eb9aa2adf

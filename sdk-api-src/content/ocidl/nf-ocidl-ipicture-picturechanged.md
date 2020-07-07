@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPicture.PictureChanged
 title: IPicture::PictureChanged (ocidl.h)
-description: Notifies the picture object that its picture resource has changed. This method only calls IPropertyNotifySink::OnChanged with DISPID_PICT_HANDLE for any connected sinks.helpviewer_keywords: ["IPicture interface [COM]","PictureChanged method","IPicture.PictureChanged","IPicture::PictureChanged","PictureChanged","PictureChanged method [COM]","PictureChanged method [COM]","IPicture interface","_ctrl_ipicture_picturechanged","com.ipicture_picturechanged","ocidl/IPicture::PictureChanged"]
+description: Notifies the picture object that its picture resource has changed. This method only calls IPropertyNotifySink::OnChanged with DISPID_PICT_HANDLE for any connected sinks.
+helpviewer_keywords: ["IPicture interface [COM]","PictureChanged method","IPicture.PictureChanged","IPicture::PictureChanged","PictureChanged","PictureChanged method [COM]","PictureChanged method [COM]","IPicture interface","_ctrl_ipicture_picturechanged","com.ipicture_picturechanged","ocidl/IPicture::PictureChanged"]
 old-location: com\ipicture_picturechanged.htm
 tech.root: com
 ms.assetid: 60485293-8d5b-4f9f-a529-746ea3371491

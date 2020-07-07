@@ -1,7 +1,8 @@
 ---
 UID: NS:wsdxmldom._WSDXML_ELEMENT
 title: WSDXML_ELEMENT (wsdxmldom.h)
-description: Describes an XML element.helpviewer_keywords: ["WSDXML_ELEMENT","WSDXML_ELEMENT structure","_WSDXML_ELEMENT","ncd.wsdxml_element_struct","wsdxmldom/WSDXML_ELEMENT"]
+description: Describes an XML element.
+helpviewer_keywords: ["WSDXML_ELEMENT","WSDXML_ELEMENT structure","_WSDXML_ELEMENT","ncd.wsdxml_element_struct","wsdxmldom/WSDXML_ELEMENT"]
 old-location: ncd\wsdxml_element_struct.htm
 tech.root: WsdApi
 ms.assetid: 727149b4-31b0-4fd8-b0fa-eb773edb171e

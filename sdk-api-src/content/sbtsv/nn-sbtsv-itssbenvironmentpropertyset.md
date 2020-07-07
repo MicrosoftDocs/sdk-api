@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbEnvironmentPropertySet
 title: ITsSbEnvironmentPropertySet (sbtsv.h)
-description: Can be used to define custom properties of an environment that hosts target computers as appropriate.helpviewer_keywords: ["ITsSbEnvironmentPropertySet","ITsSbEnvironmentPropertySet interface [Remote Desktop Services]","ITsSbEnvironmentPropertySet interface [Remote Desktop Services]","described","sbtsv/ITsSbEnvironmentPropertySet","termserv.itssbenvironmentpropertyset"]
+description: Can be used to define custom properties of an environment that hosts target computers as appropriate.
+helpviewer_keywords: ["ITsSbEnvironmentPropertySet","ITsSbEnvironmentPropertySet interface [Remote Desktop Services]","ITsSbEnvironmentPropertySet interface [Remote Desktop Services]","described","sbtsv/ITsSbEnvironmentPropertySet","termserv.itssbenvironmentpropertyset"]
 old-location: termserv\itssbenvironmentpropertyset.htm
 tech.root: TermServ
 ms.assetid: 613c972d-ab52-495a-a8fd-2827e39e9a4e

@@ -1,7 +1,8 @@
 ---
 UID: NE:cfapi.CF_CALLBACK_VALIDATE_DATA_FLAGS
 title: CF_CALLBACK_VALIDATE_DATA_FLAGS (cfapi.h)
-description: Flags to validate the data of a placeholder file or directory.helpviewer_keywords: ["CF_CALLBACK_VALIDATE_DATA_FLAGS","CF_CALLBACK_VALIDATE_DATA_FLAGS enumeration","CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION","CF_CALLBACK_VALIDATE_DATA_FLAG_NONE","cfapi/ CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION","cfapi/CF_CALLBACK_VALIDATE_DATA_FLAGS","cfapi/CF_CALLBACK_VALIDATE_DATA_FLAG_NONE","cloudApi.cf_callback_validate_data_flags"]
+description: Flags to validate the data of a placeholder file or directory.
+helpviewer_keywords: ["CF_CALLBACK_VALIDATE_DATA_FLAGS","CF_CALLBACK_VALIDATE_DATA_FLAGS enumeration","CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION","CF_CALLBACK_VALIDATE_DATA_FLAG_NONE","cfapi/ CF_CALLBACK_VALIDATE_DATA_FLAG_EXPLICIT_HYDRATION","cfapi/CF_CALLBACK_VALIDATE_DATA_FLAGS","cfapi/CF_CALLBACK_VALIDATE_DATA_FLAG_NONE","cloudApi.cf_callback_validate_data_flags"]
 old-location: cloudapi\cf_callback_validate_data_flags.htm
 tech.root: cfApi
 ms.assetid: D5BEAEAA-318E-4BA5-8DC5-EDD24E2C26EF

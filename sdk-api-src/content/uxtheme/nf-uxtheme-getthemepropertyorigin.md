@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemePropertyOrigin
 title: GetThemePropertyOrigin function (uxtheme.h)
-description: Retrieves the location of the theme property definition for a property.helpviewer_keywords: ["GetThemePropertyOrigin","GetThemePropertyOrigin function [Windows Controls]","controls.GetThemePropertyOrigin","controls.inet_GetThemePropertyOrigin","inet_GetThemePropertyOrigin","inet_GetThemePropertyOrigin_cpp","uxtheme/GetThemePropertyOrigin"]
+description: Retrieves the location of the theme property definition for a property.
+helpviewer_keywords: ["GetThemePropertyOrigin","GetThemePropertyOrigin function [Windows Controls]","controls.GetThemePropertyOrigin","controls.inet_GetThemePropertyOrigin","inet_GetThemePropertyOrigin","inet_GetThemePropertyOrigin_cpp","uxtheme/GetThemePropertyOrigin"]
 old-location: controls\GetThemePropertyOrigin.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemepropertyorigin.htm

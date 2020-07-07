@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarI1FromUI1
 title: VarI1FromUI1 function (oleauto.h)
-description: Converts an unsigned char value to a char value.helpviewer_keywords: ["VarI1FromUI1","VarI1FromUI1 function [Automation]","_oa96_VarI1FromUI1","automat.vari1fromui1","oleauto/VarI1FromUI1"]
+description: Converts an unsigned char value to a char value.
+helpviewer_keywords: ["VarI1FromUI1","VarI1FromUI1 function [Automation]","_oa96_VarI1FromUI1","automat.vari1fromui1","oleauto/VarI1FromUI1"]
 old-location: automat\vari1fromui1.htm
 tech.root: automat
 ms.assetid: 601f26df-abcb-4a2f-8425-ec9fb808d0d9

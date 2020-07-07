@@ -1,7 +1,8 @@
 ---
 UID: NF:eventsys.IEventControl.SetDefaultQuery
 title: IEventControl::SetDefaultQuery (eventsys.h)
-description: Sets the default query to determine subscribers.helpviewer_keywords: ["IEventControl interface [COM+]","SetDefaultQuery method","IEventControl.SetDefaultQuery","IEventControl::SetDefaultQuery","SetDefaultQuery","SetDefaultQuery method [COM+]","SetDefaultQuery method [COM+]","IEventControl interface","_cos_IEventControl_SetDefaultQuery","cos.ieventcontrol_setdefaultquery","eventsys/IEventControl::SetDefaultQuery"]
+description: Sets the default query to determine subscribers.
+helpviewer_keywords: ["IEventControl interface [COM+]","SetDefaultQuery method","IEventControl.SetDefaultQuery","IEventControl::SetDefaultQuery","SetDefaultQuery","SetDefaultQuery method [COM+]","SetDefaultQuery method [COM+]","IEventControl interface","_cos_IEventControl_SetDefaultQuery","cos.ieventcontrol_setdefaultquery","eventsys/IEventControl::SetDefaultQuery"]
 old-location: cos\ieventcontrol_setdefaultquery.htm
 tech.root: cossdk
 ms.assetid: ea0cc4b8-e345-44bc-969e-f35f25b641f9

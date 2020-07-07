@@ -1,7 +1,8 @@
 ---
 UID: NF:scrnsave.DefScreenSaverProc
 title: DefScreenSaverProc function (scrnsave.h)
-description: Provides default processing for any messages that a screen saver application does not process.helpviewer_keywords: ["DefScreenSaverProc","DefScreenSaverProc function [Windows Shell]","_win32_DefScreenSaverProc","scrnsave/DefScreenSaverProc","shell.DefScreenSaverProc"]
+description: Provides default processing for any messages that a screen saver application does not process.
+helpviewer_keywords: ["DefScreenSaverProc","DefScreenSaverProc function [Windows Shell]","_win32_DefScreenSaverProc","scrnsave/DefScreenSaverProc","shell.DefScreenSaverProc"]
 old-location: shell\DefScreenSaverProc.htm
 tech.root: shell
 ms.assetid: eda5c4d4-0484-4c81-a699-5fedea0bd1c2

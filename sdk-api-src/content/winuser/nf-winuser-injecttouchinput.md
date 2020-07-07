@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.InjectTouchInput
 title: InjectTouchInput function (winuser.h)
-description: Simulates touch input.helpviewer_keywords: ["InjectTouchInput","InjectTouchInput function [Windows Touch]","input_touchinjection.injecttouchinput","touch_injection.injecttouchinput","winuser/InjectTouchInput"]
+description: Simulates touch input.
+helpviewer_keywords: ["InjectTouchInput","InjectTouchInput function [Windows Touch]","input_touchinjection.injecttouchinput","touch_injection.injecttouchinput","winuser/InjectTouchInput"]
 old-location: input_touchinjection\injecttouchinput.htm
 tech.root: Input_TouchInjection
 ms.assetid: c3c1425e-2af6-4ecb-a0b2-a456654f7a53

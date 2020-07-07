@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioDeviceEndpoint.GetRTCaps
 title: IAudioDeviceEndpoint::GetRTCaps (audioengineendpoint.h)
-description: Queries whether the audio device is real-time (RT)-capable. This method is not used in Remote Desktop Services implementations of IAudioDeviceEndpoint.helpviewer_keywords: ["GetRTCaps","GetRTCaps method [Remote Desktop Services]","GetRTCaps method [Remote Desktop Services]","IAudioDeviceEndpoint interface","IAudioDeviceEndpoint interface [Remote Desktop Services]","GetRTCaps method","IAudioDeviceEndpoint.GetRTCaps","IAudioDeviceEndpoint::GetRTCaps","audioengineendpoint/IAudioDeviceEndpoint::GetRTCaps","termserv.iaudiodeviceendpoint_getrtcaps"]
+description: Queries whether the audio device is real-time (RT)-capable. This method is not used in Remote Desktop Services implementations of IAudioDeviceEndpoint.
+helpviewer_keywords: ["GetRTCaps","GetRTCaps method [Remote Desktop Services]","GetRTCaps method [Remote Desktop Services]","IAudioDeviceEndpoint interface","IAudioDeviceEndpoint interface [Remote Desktop Services]","GetRTCaps method","IAudioDeviceEndpoint.GetRTCaps","IAudioDeviceEndpoint::GetRTCaps","audioengineendpoint/IAudioDeviceEndpoint::GetRTCaps","termserv.iaudiodeviceendpoint_getrtcaps"]
 old-location: termserv\iaudiodeviceendpoint_getrtcaps.htm
 tech.root: TermServ
 ms.assetid: ba8aa8c2-8d62-477a-b5c0-338c989c57a6

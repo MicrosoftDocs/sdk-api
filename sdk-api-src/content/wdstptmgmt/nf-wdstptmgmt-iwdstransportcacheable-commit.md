@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportCacheable.Commit
 title: IWdsTransportCacheable::Commit (wdstptmgmt.h)
-description: Commits object data members to the underlying data store if the IWdsTransportCacheable::Dirty property has been set. Otherwise, the method returns with no action.helpviewer_keywords: ["Commit","Commit method [Windows Deployment Services]","Commit method [Windows Deployment Services]","IWdsTransportCacheable interface","IWdsTransportCacheable interface [Windows Deployment Services]","Commit method","IWdsTransportCacheable.Commit","IWdsTransportCacheable::Commit","wds.iwdstransportcacheable_commit","wdstptmgmt/IWdsTransportCacheable::Commit"]
+description: Commits object data members to the underlying data store if the IWdsTransportCacheable::Dirty property has been set. Otherwise, the method returns with no action.
+helpviewer_keywords: ["Commit","Commit method [Windows Deployment Services]","Commit method [Windows Deployment Services]","IWdsTransportCacheable interface","IWdsTransportCacheable interface [Windows Deployment Services]","Commit method","IWdsTransportCacheable.Commit","IWdsTransportCacheable::Commit","wds.iwdstransportcacheable_commit","wdstptmgmt/IWdsTransportCacheable::Commit"]
 old-location: wds\iwdstransportcacheable_commit.htm
 tech.root: wds
 ms.assetid: bd651e56-3945-48ca-a490-e20db88eb2fb

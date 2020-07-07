@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.PostRestore
 title: IVssBackupComponents::PostRestore (vsbackup.h)
-description: The PostRestore method will cause VSS to generate a PostRestore event, signaling writers that the current restore operation has finished.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","PostRestore method","IVssBackupComponents.PostRestore","IVssBackupComponents::PostRestore","PostRestore","PostRestore method [VSS]","PostRestore method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_postrestore","base.ivssbackupcomponents_postrestore","vsbackup/IVssBackupComponents::PostRestore"]
+description: The PostRestore method will cause VSS to generate a PostRestore event, signaling writers that the current restore operation has finished.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","PostRestore method","IVssBackupComponents.PostRestore","IVssBackupComponents::PostRestore","PostRestore","PostRestore method [VSS]","PostRestore method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_postrestore","base.ivssbackupcomponents_postrestore","vsbackup/IVssBackupComponents::PostRestore"]
 old-location: base\ivssbackupcomponents_postrestore.htm
 tech.root: VSS
 ms.assetid: 01cf3931-59ef-4572-9f2e-aa210da0ac2d

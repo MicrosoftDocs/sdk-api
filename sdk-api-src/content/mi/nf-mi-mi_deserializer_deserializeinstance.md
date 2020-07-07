@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Deserializer_DeserializeInstance
 title: MI_Deserializer_DeserializeInstance function (mi.h)
-description: Deserializes a serialized buffer into a MI_Instance object.helpviewer_keywords: ["MI_Deserializer_DeserializeInstance","MI_Deserializer_DeserializeInstance function [Windows Management Infrastructure (MI)]","mi/MI_Deserializer_DeserializeInstance","wmi_v2.mi_deserializer_deserializeinstance"]
+description: Deserializes a serialized buffer into a MI_Instance object.
+helpviewer_keywords: ["MI_Deserializer_DeserializeInstance","MI_Deserializer_DeserializeInstance function [Windows Management Infrastructure (MI)]","mi/MI_Deserializer_DeserializeInstance","wmi_v2.mi_deserializer_deserializeinstance"]
 old-location: wmi_v2\mi_deserializer_deserializeinstance.htm
 tech.root: wmi_v2
 ms.assetid: 54b24a50-f700-4369-b6dc-8406000a5b30

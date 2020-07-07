@@ -1,7 +1,8 @@
 ---
 UID: NF:dsgetdc.DsGetDcCloseW
 title: DsGetDcCloseW function (dsgetdc.h)
-description: Closes a domain controller enumeration operation.helpviewer_keywords: ["DsGetDcClose","DsGetDcClose function [Active Directory]","DsGetDcCloseW","ad.dsgetdcclose","dsgetdc/DsGetDcClose","dsgetdc/DsGetDcCloseW"]
+description: Closes a domain controller enumeration operation.
+helpviewer_keywords: ["DsGetDcClose","DsGetDcClose function [Active Directory]","DsGetDcCloseW","ad.dsgetdcclose","dsgetdc/DsGetDcClose","dsgetdc/DsGetDcCloseW"]
 old-location: ad\dsgetdcclose.htm
 tech.root: ad
 ms.assetid: d193e4cd-ad66-4d93-b912-348f17e93a6f

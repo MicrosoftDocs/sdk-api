@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.DDiscFormat2RawCDEvents
 title: DDiscFormat2RawCDEvents (imapi2.h)
-description: Implement this interface to receive notifications of the current raw-image write operation.helpviewer_keywords: ["DDiscFormat2RawCDEvents","DDiscFormat2RawCDEvents interface [IMAPI]","DDiscFormat2RawCDEvents interface [IMAPI]","described","imapi.ddiscformat2rawcdevents","imapi2/DDiscFormat2RawCDEvents"]
+description: Implement this interface to receive notifications of the current raw-image write operation.
+helpviewer_keywords: ["DDiscFormat2RawCDEvents","DDiscFormat2RawCDEvents interface [IMAPI]","DDiscFormat2RawCDEvents interface [IMAPI]","described","imapi.ddiscformat2rawcdevents","imapi2/DDiscFormat2RawCDEvents"]
 old-location: imapi\ddiscformat2rawcdevents.htm
 tech.root: imapi
 ms.assetid: 3a06911e-8a50-4e41-874c-478ad05f6488

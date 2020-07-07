@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRAspectRatioControl.SetAspectRatioMode
 title: IVMRAspectRatioControl::SetAspectRatioMode (strmif.h)
-description: The SetAspectRatioMode method specifies whether the VMR will preserve the aspect ratio of the source video.helpviewer_keywords: ["IVMRAspectRatioControl interface [DirectShow]","SetAspectRatioMode method","IVMRAspectRatioControl.SetAspectRatioMode","IVMRAspectRatioControl::SetAspectRatioMode","IVMRAspectRatioControlSetAspectRatioMode","SetAspectRatioMode","SetAspectRatioMode method [DirectShow]","SetAspectRatioMode method [DirectShow]","IVMRAspectRatioControl interface","dshow.ivmraspectratiocontrol_setaspectratiomode","strmif/IVMRAspectRatioControl::SetAspectRatioMode"]
+description: The SetAspectRatioMode method specifies whether the VMR will preserve the aspect ratio of the source video.
+helpviewer_keywords: ["IVMRAspectRatioControl interface [DirectShow]","SetAspectRatioMode method","IVMRAspectRatioControl.SetAspectRatioMode","IVMRAspectRatioControl::SetAspectRatioMode","IVMRAspectRatioControlSetAspectRatioMode","SetAspectRatioMode","SetAspectRatioMode method [DirectShow]","SetAspectRatioMode method [DirectShow]","IVMRAspectRatioControl interface","dshow.ivmraspectratiocontrol_setaspectratiomode","strmif/IVMRAspectRatioControl::SetAspectRatioMode"]
 old-location: dshow\ivmraspectratiocontrol_setaspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: e73362ea-b153-4d25-b30e-c69274b49bf9

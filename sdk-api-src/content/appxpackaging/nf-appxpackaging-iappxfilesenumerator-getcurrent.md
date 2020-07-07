@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxFilesEnumerator.GetCurrent
 title: IAppxFilesEnumerator::GetCurrent (appxpackaging.h)
-description: Gets the payload file at the current position of the enumerator.helpviewer_keywords: ["GetCurrent","GetCurrent method [App packaging and management]","GetCurrent method [App packaging and management]","IAppxFilesEnumerator interface","IAppxFilesEnumerator interface [App packaging and management]","GetCurrent method","IAppxFilesEnumerator.GetCurrent","IAppxFilesEnumerator::GetCurrent","appxpackaging/IAppxFilesEnumerator::GetCurrent","appxpkg.iappxfilesenumerator_getcurrent"]
+description: Gets the payload file at the current position of the enumerator.
+helpviewer_keywords: ["GetCurrent","GetCurrent method [App packaging and management]","GetCurrent method [App packaging and management]","IAppxFilesEnumerator interface","IAppxFilesEnumerator interface [App packaging and management]","GetCurrent method","IAppxFilesEnumerator.GetCurrent","IAppxFilesEnumerator::GetCurrent","appxpackaging/IAppxFilesEnumerator::GetCurrent","appxpkg.iappxfilesenumerator_getcurrent"]
 old-location: appxpkg\iappxfilesenumerator_getcurrent.htm
 tech.root: appxpkg
 ms.assetid: AFE7534D-862B-47C5-B6C0-633205E39FAB

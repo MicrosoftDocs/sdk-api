@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdxml.IWSDXMLContext.SetNamespaces
 title: IWSDXMLContext::SetNamespaces (wsdxml.h)
-description: Associates custom namespaces with the XML context object.helpviewer_keywords: ["IWSDXMLContext interface","SetNamespaces method","IWSDXMLContext.SetNamespaces","IWSDXMLContext::SetNamespaces","SetNamespaces","SetNamespaces method","SetNamespaces method","IWSDXMLContext interface","ncd.iwsdxmlcontext_setnamespaces_method","wsdxml/IWSDXMLContext::SetNamespaces"]
+description: Associates custom namespaces with the XML context object.
+helpviewer_keywords: ["IWSDXMLContext interface","SetNamespaces method","IWSDXMLContext.SetNamespaces","IWSDXMLContext::SetNamespaces","SetNamespaces","SetNamespaces method","SetNamespaces method","IWSDXMLContext interface","ncd.iwsdxmlcontext_setnamespaces_method","wsdxml/IWSDXMLContext::SetNamespaces"]
 old-location: ncd\iwsdxmlcontext_setnamespaces_method.htm
 tech.root: WsdApi
 ms.assetid: 94ec94d1-e0d8-42cb-993f-6da9c8df1a47

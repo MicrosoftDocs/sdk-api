@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi._IRDPSessionEvents
 title: _IRDPSessionEvents (rdpencomapi.h)
-description: Implement this interface to receive notifications when events occur.helpviewer_keywords: ["_IRDPSessionEvents","_IRDPSessionEvents interface [RDP]","_IRDPSessionEvents interface [RDP]","described","rdp._irdpsessionevents","rdpencomapi/_IRDPSessionEvents"]
+description: Implement this interface to receive notifications when events occur.
+helpviewer_keywords: ["_IRDPSessionEvents","_IRDPSessionEvents interface [RDP]","_IRDPSessionEvents interface [RDP]","described","rdp._irdpsessionevents","rdpencomapi/_IRDPSessionEvents"]
 old-location: rdp\_irdpsessionevents.htm
 tech.root: rdp
 ms.assetid: 89ffdf37-156f-4977-93c4-bf9fe5aec838

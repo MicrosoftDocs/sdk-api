@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.GetNextTable
 title: IDVB_NIT::GetNextTable (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetNextTable","GetNextTable method [Microsoft TV Technologies]","GetNextTable method [Microsoft TV Technologies]","IDVB_NIT interface","IDVB_NIT interface [Microsoft TV Technologies]","GetNextTable method","IDVB_NIT.GetNextTable","IDVB_NIT::GetNextTable","IDVB_NITGetNextTable","dvbsiparser/IDVB_NIT::GetNextTable","mstv.idvb_nit_getnexttable"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetNextTable","GetNextTable method [Microsoft TV Technologies]","GetNextTable method [Microsoft TV Technologies]","IDVB_NIT interface","IDVB_NIT interface [Microsoft TV Technologies]","GetNextTable method","IDVB_NIT.GetNextTable","IDVB_NIT::GetNextTable","IDVB_NITGetNextTable","dvbsiparser/IDVB_NIT::GetNextTable","mstv.idvb_nit_getnexttable"]
 old-location: mstv\idvb_nit_getnexttable.htm
 tech.root: mstv
 ms.assetid: 6073ab66-7011-4983-a11e-1c26a3549423

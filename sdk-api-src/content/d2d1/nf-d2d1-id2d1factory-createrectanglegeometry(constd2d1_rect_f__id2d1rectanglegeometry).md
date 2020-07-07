@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1Factory.CreateRectangleGeometry(const D2D1_RECT_F &,ID2D1RectangleGeometry)
+UID: NF:d2d1.ID2D1Factory.CreateRectangleGeometry(constD2D1_RECT_F&,ID2D1RectangleGeometry)
 title: ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F &,ID2D1RectangleGeometry) (d2d1.h)
 description: Creates an ID2D1RectangleGeometry.
 helpviewer_keywords: ["CreateRectangleGeometry","CreateRectangleGeometry method [Direct2D]","CreateRectangleGeometry method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateRectangleGeometry method","ID2D1Factory.CreateRectangleGeometry","ID2D1Factory.CreateRectangleGeometry(const D2D1_RECT_F &","ID2D1RectangleGeometry)","ID2D1Factory::CreateRectangleGeometry","ID2D1Factory::CreateRectangleGeometry(const D2D1_RECT_F &","ID2D1RectangleGeometry)","d2d1/ID2D1Factory::CreateRectangleGeometry","direct2d.ID2D1Factory_CreateRectangleGeometry_ref_D2D_RECT_F_ptr_ptr_ID2D1RectangleGeometry"]

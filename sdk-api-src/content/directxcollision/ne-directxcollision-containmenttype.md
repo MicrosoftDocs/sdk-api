@@ -1,7 +1,8 @@
 ---
 UID: NE:directxcollision.ContainmentType
 title: ContainmentType
-description: Indicates whether an object contains another object.helpviewer_keywords: ["CONTAINS","ContainmentType","ContainmentType enumeration [DirectX Math Support APIs]","DISJOINT","INTERSECTS","directxcollision/CONTAINS","directxcollision/ContainmentType","directxcollision/DISJOINT","directxcollision/INTERSECTS","dxmath.containmenttype"]
+description: Indicates whether an object contains another object.
+helpviewer_keywords: ["CONTAINS","ContainmentType","ContainmentType enumeration [DirectX Math Support APIs]","DISJOINT","INTERSECTS","directxcollision/CONTAINS","directxcollision/ContainmentType","directxcollision/DISJOINT","directxcollision/INTERSECTS","dxmath.containmenttype"]
 old-location: dxmath\containmenttype.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.directxcollision.ContainmentType

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.ColorBalance.SetParameters
 title: ColorBalance::SetParameters (gdipluseffects.h)
-description: The ColorBalance::SetParameters method sets the parameters of this ColorBalance object.helpviewer_keywords: ["ColorBalance class [GDI+]","SetParameters method","ColorBalance.SetParameters","ColorBalance::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","ColorBalance class","_gdiplus_CLASS_ColorBalance_SetParameters_","gdiplus._gdiplus_CLASS_ColorBalance_SetParameters_"]
+description: The ColorBalance::SetParameters method sets the parameters of this ColorBalance object.
+helpviewer_keywords: ["ColorBalance class [GDI+]","SetParameters method","ColorBalance.SetParameters","ColorBalance::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","ColorBalance class","_gdiplus_CLASS_ColorBalance_SetParameters_","gdiplus._gdiplus_CLASS_ColorBalance_SetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_ColorBalance_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorbalanceclass\colorbalancemethods\setparameters.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_VPORTCOLORDATA
 title: DD_VPORTCOLORDATA (ddrawint.h)
-description: The DD_VPORTCOLORDATA structure contains the video port extensions (VPE) object color control information.helpviewer_keywords: ["*PDD_VPORTCOLORDATA","DD_VPORTCOLORDATA","DD_VPORTCOLORDATA structure [Display Devices]","ddrawint/DD_VPORTCOLORDATA","ddstrcts_8dc16578-631f-406e-94da-510e6f8b1e24.xml","display.dd_vportcolordata"]
+description: The DD_VPORTCOLORDATA structure contains the video port extensions (VPE) object color control information.
+helpviewer_keywords: ["*PDD_VPORTCOLORDATA","DD_VPORTCOLORDATA","DD_VPORTCOLORDATA structure [Display Devices]","ddrawint/DD_VPORTCOLORDATA","ddstrcts_8dc16578-631f-406e-94da-510e6f8b1e24.xml","display.dd_vportcolordata"]
 old-location: display\dd_vportcolordata.htm
 tech.root: display
 ms.assetid: b52bbd7e-2c80-4cfb-b0c5-7900993f4a3a

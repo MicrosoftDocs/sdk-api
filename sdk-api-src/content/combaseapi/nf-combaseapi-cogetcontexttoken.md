@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoGetContextToken
 title: CoGetContextToken function (combaseapi.h)
-description: Returns a pointer to an implementation of IObjContext for the current context.helpviewer_keywords: ["CoGetContextToken","CoGetContextToken function [COM]","_com_CoGetContextToken","com.cogetcontexttoken","combaseapi/CoGetContextToken"]
+description: Returns a pointer to an implementation of IObjContext for the current context.
+helpviewer_keywords: ["CoGetContextToken","CoGetContextToken function [COM]","_com_CoGetContextToken","com.cogetcontexttoken","combaseapi/CoGetContextToken"]
 old-location: com\cogetcontexttoken.htm
 tech.root: com
 ms.assetid: 1218d928-ca3f-4bdc-9a00-ea4c214175a9

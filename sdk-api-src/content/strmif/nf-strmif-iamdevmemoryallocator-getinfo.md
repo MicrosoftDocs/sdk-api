@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMDevMemoryAllocator.GetInfo
 title: IAMDevMemoryAllocator::GetInfo (strmif.h)
-description: Note  The IAMDevMemoryAllocator interface is deprecated. Retrieves information about the memory capabilities.helpviewer_keywords: ["GetInfo","GetInfo method [DirectShow]","GetInfo method [DirectShow]","IAMDevMemoryAllocator interface","IAMDevMemoryAllocator interface [DirectShow]","GetInfo method","IAMDevMemoryAllocator.GetInfo","IAMDevMemoryAllocator::GetInfo","IAMDevMemoryAllocatorGetInfo","dshow.iamdevmemoryallocator_getinfo","strmif/IAMDevMemoryAllocator::GetInfo"]
+description: Note  The IAMDevMemoryAllocator interface is deprecated. Retrieves information about the memory capabilities.
+helpviewer_keywords: ["GetInfo","GetInfo method [DirectShow]","GetInfo method [DirectShow]","IAMDevMemoryAllocator interface","IAMDevMemoryAllocator interface [DirectShow]","GetInfo method","IAMDevMemoryAllocator.GetInfo","IAMDevMemoryAllocator::GetInfo","IAMDevMemoryAllocatorGetInfo","dshow.iamdevmemoryallocator_getinfo","strmif/IAMDevMemoryAllocator::GetInfo"]
 old-location: dshow\iamdevmemoryallocator_getinfo.htm
 tech.root: DirectShow
 ms.assetid: ee3070ed-98df-4f20-a91f-bb3c3492f3d8

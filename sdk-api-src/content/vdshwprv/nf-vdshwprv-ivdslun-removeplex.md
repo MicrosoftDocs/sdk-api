@@ -1,7 +1,8 @@
 ---
 UID: NF:vdshwprv.IVdsLun.RemovePlex
 title: IVdsLun::RemovePlex (vdshwprv.h)
-description: Removes a plex from a LUN.helpviewer_keywords: ["IVdsLun interface [VDS]","RemovePlex method","IVdsLun.RemovePlex","IVdsLun::RemovePlex","RemovePlex","RemovePlex method [VDS]","RemovePlex method [VDS]","IVdsLun interface","base.ivdslun_removeplex","vds/IVdsLun::RemovePlex","vdshwprv/IVdsLun::RemovePlex"]
+description: Removes a plex from a LUN.
+helpviewer_keywords: ["IVdsLun interface [VDS]","RemovePlex method","IVdsLun.RemovePlex","IVdsLun::RemovePlex","RemovePlex","RemovePlex method [VDS]","RemovePlex method [VDS]","IVdsLun interface","base.ivdslun_removeplex","vds/IVdsLun::RemovePlex","vdshwprv/IVdsLun::RemovePlex"]
 old-location: base\ivdslun_removeplex.htm
 tech.root: VDS
 ms.assetid: 9959c2a3-f282-4512-9d3f-da8842d5ee79

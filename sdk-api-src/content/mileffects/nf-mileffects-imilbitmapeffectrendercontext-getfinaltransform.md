@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.GetFinalTransform
 title: IMILBitmapEffectRenderContext::GetFinalTransform (mileffects.h)
-description: Gets the final MILMatrixF transform.helpviewer_keywords: ["GetFinalTransform","GetFinalTransform method [WPF Bitmap Effects]","GetFinalTransform method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","GetFinalTransform method","IMILBitmapEffectRenderContext.GetFinalTransform","IMILBitmapEffectRenderContext::GetFinalTransform","_wibe_imilbitmapeffectrendercontext_getfinaltransform","mileffects/IMILBitmapEffectRenderContext::GetFinalTransform","wibe._wibe_imilbitmapeffectrendercontext_getfinaltransform"]
+description: Gets the final MILMatrixF transform.
+helpviewer_keywords: ["GetFinalTransform","GetFinalTransform method [WPF Bitmap Effects]","GetFinalTransform method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","GetFinalTransform method","IMILBitmapEffectRenderContext.GetFinalTransform","IMILBitmapEffectRenderContext::GetFinalTransform","_wibe_imilbitmapeffectrendercontext_getfinaltransform","mileffects/IMILBitmapEffectRenderContext::GetFinalTransform","wibe._wibe_imilbitmapeffectrendercontext_getfinaltransform"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_getfinaltransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\getfinaltransform.htm

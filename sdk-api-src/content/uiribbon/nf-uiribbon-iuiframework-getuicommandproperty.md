@@ -1,7 +1,8 @@
 ---
 UID: NF:uiribbon.IUIFramework.GetUICommandProperty
 title: IUIFramework::GetUICommandProperty (uiribbon.h)
-description: Retrieves a command property, value, or state.helpviewer_keywords: ["GetUICommandProperty","GetUICommandProperty method [Windows Ribbon]","GetUICommandProperty method [Windows Ribbon]","IUIFramework interface","IUIFramework interface [Windows Ribbon]","GetUICommandProperty method","IUIFramework.GetUICommandProperty","IUIFramework::GetUICommandProperty","scenicintent_IUIFramework_GetUICommandProperty","uiribbon/IUIFramework::GetUICommandProperty","windowsribbon.windowsribbon_iuiframework_getuicommandproperty"]
+description: Retrieves a command property, value, or state.
+helpviewer_keywords: ["GetUICommandProperty","GetUICommandProperty method [Windows Ribbon]","GetUICommandProperty method [Windows Ribbon]","IUIFramework interface","IUIFramework interface [Windows Ribbon]","GetUICommandProperty method","IUIFramework.GetUICommandProperty","IUIFramework::GetUICommandProperty","scenicintent_IUIFramework_GetUICommandProperty","uiribbon/IUIFramework::GetUICommandProperty","windowsribbon.windowsribbon_iuiframework_getuicommandproperty"]
 old-location: windowsribbon\windowsribbon_iuiframework_getuicommandproperty.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuiframework\getuicommandproperty.htm

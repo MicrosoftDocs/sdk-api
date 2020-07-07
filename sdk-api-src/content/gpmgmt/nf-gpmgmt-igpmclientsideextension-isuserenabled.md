@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMClientSideExtension.IsUserEnabled
 title: IGPMClientSideExtension::IsUserEnabled (gpmgmt.h)
-description: Checks whether the client-side extension can be called during the processing of user policy.helpviewer_keywords: ["GPMClientSideExtension object [GPMC]","IsUserEnabled method","IGPMClientSideExtension interface [GPMC]","IsUserEnabled method","IGPMClientSideExtension.IsUserEnabled","IGPMClientSideExtension::IsUserEnabled","IsUserEnabled","IsUserEnabled method [GPMC]","IsUserEnabled method [GPMC]","GPMClientSideExtension object","IsUserEnabled method [GPMC]","IGPMClientSideExtension interface","_win32_igpmclientsideextension_isuserenabled","gpmc.igpmclientsideextension_isuserenabled","gpmgmt/IGPMClientSideExtension::IsUserEnabled"]
+description: Checks whether the client-side extension can be called during the processing of user policy.
+helpviewer_keywords: ["GPMClientSideExtension object [GPMC]","IsUserEnabled method","IGPMClientSideExtension interface [GPMC]","IsUserEnabled method","IGPMClientSideExtension.IsUserEnabled","IGPMClientSideExtension::IsUserEnabled","IsUserEnabled","IsUserEnabled method [GPMC]","IsUserEnabled method [GPMC]","GPMClientSideExtension object","IsUserEnabled method [GPMC]","IGPMClientSideExtension interface","_win32_igpmclientsideextension_isuserenabled","gpmc.igpmclientsideextension_isuserenabled","gpmgmt/IGPMClientSideExtension::IsUserEnabled"]
 old-location: gpmc\igpmclientsideextension_isuserenabled.htm
 tech.root: gpmc
 ms.assetid: 01fba0fa-9639-4033-bbdf-704549524147

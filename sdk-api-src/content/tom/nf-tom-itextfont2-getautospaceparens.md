@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont2.GetAutospaceParens
 title: ITextFont2::GetAutospaceParens (tom.h)
-description: Gets the East Asian &#0034;autospace parentheses&#0034; state.helpviewer_keywords: ["GetAutospaceParens","GetAutospaceParens method [Windows Controls]","GetAutospaceParens method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetAutospaceParens method","ITextFont2.GetAutospaceParens","ITextFont2::GetAutospaceParens","controls.itextfont2_getautospaceparens","tom/ITextFont2::GetAutospaceParens"]
+description: Gets the East Asian &#0034;autospace parentheses&#0034; state.
+helpviewer_keywords: ["GetAutospaceParens","GetAutospaceParens method [Windows Controls]","GetAutospaceParens method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetAutospaceParens method","ITextFont2.GetAutospaceParens","ITextFont2::GetAutospaceParens","controls.itextfont2_getautospaceparens","tom/ITextFont2::GetAutospaceParens"]
 old-location: controls\itextfont2_getautospaceparens.htm
 tech.root: Controls
 ms.assetid: fce60349-cded-4cab-b2e5-4fad02d11195

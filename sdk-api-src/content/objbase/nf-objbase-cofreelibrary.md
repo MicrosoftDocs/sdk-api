@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.CoFreeLibrary
 title: CoFreeLibrary function (objbase.h)
-description: Frees a library that, when loaded, was specified to be freed explicitly.helpviewer_keywords: ["CoFreeLibrary","CoFreeLibrary function [COM]","_com_CoFreeLibrary","com.cofreelibrary","objbase/CoFreeLibrary"]
+description: Frees a library that, when loaded, was specified to be freed explicitly.
+helpviewer_keywords: ["CoFreeLibrary","CoFreeLibrary function [COM]","_com_CoFreeLibrary","com.cofreelibrary","objbase/CoFreeLibrary"]
 old-location: com\cofreelibrary.htm
 tech.root: com
 ms.assetid: 3959e7d9-6220-474e-8f85-76f7f935727f

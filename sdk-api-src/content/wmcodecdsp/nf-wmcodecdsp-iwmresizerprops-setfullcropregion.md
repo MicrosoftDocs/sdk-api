@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IWMResizerProps.SetFullCropRegion
 title: IWMResizerProps::SetFullCropRegion (wmcodecdsp.h)
-description: Sets the source and destination rectangles.helpviewer_keywords: ["IWMResizerProps interface [Media Foundation]","SetFullCropRegion method","IWMResizerProps.SetFullCropRegion","IWMResizerProps::SetFullCropRegion","SetFullCropRegion","SetFullCropRegion method [Media Foundation]","SetFullCropRegion method [Media Foundation]","IWMResizerProps interface","codecapi.iwmresizerpropssetfullcropregion","mf.iwmresizerpropssetfullcropregion","wmcodecdsp/IWMResizerProps::SetFullCropRegion"]
+description: Sets the source and destination rectangles.
+helpviewer_keywords: ["IWMResizerProps interface [Media Foundation]","SetFullCropRegion method","IWMResizerProps.SetFullCropRegion","IWMResizerProps::SetFullCropRegion","SetFullCropRegion","SetFullCropRegion method [Media Foundation]","SetFullCropRegion method [Media Foundation]","IWMResizerProps interface","codecapi.iwmresizerpropssetfullcropregion","mf.iwmresizerpropssetfullcropregion","wmcodecdsp/IWMResizerProps::SetFullCropRegion"]
 old-location: mf\iwmresizerpropssetfullcropregion.htm
 tech.root: medfound
 ms.assetid: 5578b90d-3b18-47a2-b4ae-75a4749f9001

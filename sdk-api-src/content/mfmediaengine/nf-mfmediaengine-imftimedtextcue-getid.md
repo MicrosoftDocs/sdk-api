@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextCue.GetId
 title: IMFTimedTextCue::GetId (mfmediaengine.h)
-description: Gets the identifier of a timed-text cue.helpviewer_keywords: ["GetId","GetId method [Media Foundation]","GetId method [Media Foundation]","IMFTimedTextCue interface","IMFTimedTextCue interface [Media Foundation]","GetId method","IMFTimedTextCue.GetId","IMFTimedTextCue::GetId","mf.imftimedtextcue_getid","mfmediaengine/IMFTimedTextCue::GetId"]
+description: Gets the identifier of a timed-text cue.
+helpviewer_keywords: ["GetId","GetId method [Media Foundation]","GetId method [Media Foundation]","IMFTimedTextCue interface","IMFTimedTextCue interface [Media Foundation]","GetId method","IMFTimedTextCue.GetId","IMFTimedTextCue::GetId","mf.imftimedtextcue_getid","mfmediaengine/IMFTimedTextCue::GetId"]
 old-location: mf\imftimedtextcue_getid.htm
 tech.root: medfound
 ms.assetid: D096B1FA-E92F-4B09-9177-13203FF1704D

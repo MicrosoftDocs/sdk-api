@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnDeviceService
 title: IMbnDeviceService (mbnapi.h)
-description: Allows for communicating with a device service on a particular Mobile Broadband device.helpviewer_keywords: ["IMbnDeviceService","IMbnDeviceService interface [Microsoft Broadband Networks]","IMbnDeviceService interface [Microsoft Broadband Networks]","described","mbn.imbndeviceservice","mbnapi/IMbnDeviceService"]
+description: Allows for communicating with a device service on a particular Mobile Broadband device.
+helpviewer_keywords: ["IMbnDeviceService","IMbnDeviceService interface [Microsoft Broadband Networks]","IMbnDeviceService interface [Microsoft Broadband Networks]","described","mbn.imbndeviceservice","mbnapi/IMbnDeviceService"]
 old-location: mbn\imbndeviceservice.htm
 tech.root: mbn
 ms.assetid: 5C587408-DF03-4123-BA5A-C2CCC378F60A

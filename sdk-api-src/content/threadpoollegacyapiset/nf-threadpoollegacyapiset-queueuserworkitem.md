@@ -1,7 +1,8 @@
 ---
 UID: NF:threadpoollegacyapiset.QueueUserWorkItem
 title: QueueUserWorkItem function (threadpoollegacyapiset.h)
-description: Queues a work item to a worker thread in the thread pool.helpviewer_keywords: ["QueueUserWorkItem","QueueUserWorkItem function","WT_EXECUTEDEFAULT","WT_EXECUTEINIOTHREAD","WT_EXECUTEINPERSISTENTTHREAD","WT_EXECUTELONGFUNCTION","WT_TRANSFER_IMPERSONATION","_win32_queueuserworkitem","base.queueuserworkitem","threadpoollegacyapiset/QueueUserWorkItem","winbase/QueueUserWorkItem"]
+description: Queues a work item to a worker thread in the thread pool.
+helpviewer_keywords: ["QueueUserWorkItem","QueueUserWorkItem function","WT_EXECUTEDEFAULT","WT_EXECUTEINIOTHREAD","WT_EXECUTEINPERSISTENTTHREAD","WT_EXECUTELONGFUNCTION","WT_TRANSFER_IMPERSONATION","_win32_queueuserworkitem","base.queueuserworkitem","threadpoollegacyapiset/QueueUserWorkItem","winbase/QueueUserWorkItem"]
 old-location: base\queueuserworkitem.htm
 tech.root: ProcThread
 ms.assetid: 96f34b51-3784-4bb7-ae40-067f8113ff39
@@ -67,8 +68,7 @@ Queues a work item to a worker thread in the
 A pointer to the application-defined callback function of type <b>LPTHREAD_START_ROUTINE</b> to be executed by the thread in the thread pool. This value represents the starting address of the thread. This callback function must not call the 
 <a href="https://docs.microsoft.com/windows/desktop/api/processthreadsapi/nf-processthreadsapi-terminatethread">TerminateThread</a> function. 
 
-
-
+The return value of the callback function is not used.
 
 For more information, see 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/ms686736(v=vs.85)">ThreadProc</a>.

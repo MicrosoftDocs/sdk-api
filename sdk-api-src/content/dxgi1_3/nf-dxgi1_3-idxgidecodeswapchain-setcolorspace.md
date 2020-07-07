@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.SetColorSpace
 title: IDXGIDecodeSwapChain::SetColorSpace (dxgi1_3.h)
-description: Sets the color space used by the swap chain.helpviewer_keywords: ["IDXGIDecodeSwapChain interface [DXGI]","SetColorSpace method","IDXGIDecodeSwapChain.SetColorSpace","IDXGIDecodeSwapChain::SetColorSpace","SetColorSpace","SetColorSpace method [DXGI]","SetColorSpace method [DXGI]","IDXGIDecodeSwapChain interface","direct3ddxgi.idxgidecodeswapchain_setcolorspace","dxgi1_3/IDXGIDecodeSwapChain::SetColorSpace"]
+description: Sets the color space used by the swap chain.
+helpviewer_keywords: ["IDXGIDecodeSwapChain interface [DXGI]","SetColorSpace method","IDXGIDecodeSwapChain.SetColorSpace","IDXGIDecodeSwapChain::SetColorSpace","SetColorSpace","SetColorSpace method [DXGI]","SetColorSpace method [DXGI]","IDXGIDecodeSwapChain interface","direct3ddxgi.idxgidecodeswapchain_setcolorspace","dxgi1_3/IDXGIDecodeSwapChain::SetColorSpace"]
 old-location: direct3ddxgi\idxgidecodeswapchain_setcolorspace.htm
 tech.root: direct3ddxgi
 ms.assetid: DE0AA2BF-8E98-4CF4-8CC2-760AB4B8776D

@@ -1,7 +1,8 @@
 ---
 UID: NN:ocidl.IFont
 title: IFont (ocidl.h)
-description: Provides a wrapper around a Windows font object.helpviewer_keywords: ["IFont","IFont interface [COM]","IFont interface [COM]","described","_ctrl_ifont","com.ifont","ocidl/IFont"]
+description: Provides a wrapper around a Windows font object.
+helpviewer_keywords: ["IFont","IFont interface [COM]","IFont interface [COM]","described","_ctrl_ifont","com.ifont","ocidl/IFont"]
 old-location: com\ifont.htm
 tech.root: com
 ms.assetid: 3a04d2b7-b2eb-4c6c-8863-1e88321fa382

@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HTTP_SET_VERSION
 title: HTTP_SET_VERSION macro (http.h)
-description: Sets a specified HTTP_VERSION structure to a specified major/minor version combination.helpviewer_keywords: ["HTTP_SET_VERSION","HTTP_SET_VERSION macro [HTTP]","_http_http_set_version","http.http_set_version","http/HTTP_SET_VERSION"]
+description: Sets a specified HTTP_VERSION structure to a specified major/minor version combination.
+helpviewer_keywords: ["HTTP_SET_VERSION","HTTP_SET_VERSION macro [HTTP]","_http_http_set_version","http.http_set_version","http/HTTP_SET_VERSION"]
 old-location: http\http_set_version.htm
 tech.root: http
 ms.assetid: e621ef1c-aa12-400e-ba57-754b8320c419

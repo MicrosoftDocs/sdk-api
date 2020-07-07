@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.ILCreateFromPathA
 title: ILCreateFromPathA function (shlobj_core.h)
-description: Returns the ITEMIDLIST structure associated with a specified file path.helpviewer_keywords: ["ILCreateFromPath","ILCreateFromPath function [Windows Shell]","ILCreateFromPathA","ILCreateFromPathW","_win32_ILCreateFromPathW","shell.ILCreateFromPathW","shlobj_core/ILCreateFromPath","shlobj_core/ILCreateFromPathA","shlobj_core/ILCreateFromPathW"]
+description: Returns the ITEMIDLIST structure associated with a specified file path.
+helpviewer_keywords: ["ILCreateFromPath","ILCreateFromPath function [Windows Shell]","ILCreateFromPathA","ILCreateFromPathW","_win32_ILCreateFromPathW","shell.ILCreateFromPathW","shlobj_core/ILCreateFromPath","shlobj_core/ILCreateFromPathA","shlobj_core/ILCreateFromPathW"]
 old-location: shell\ILCreateFromPathW.htm
 tech.root: shell
 ms.assetid: dee5486c-8be9-46c1-b5a1-e917e7c1e528
@@ -86,4 +87,8 @@ Returns a pointer to an <a href="https://docs.microsoft.com/windows/desktop/api/
 Call <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core/nf-shlobj_core-ilfree">ILFree</a> to release the <a href="https://docs.microsoft.com/windows/desktop/api/shtypes/ns-shtypes-itemidlist">ITEMIDLIST</a> when you are finished with it.
 
 
+
+
+> [!NOTE]
+> The shlobj_core.h header defines ILCreateFromPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

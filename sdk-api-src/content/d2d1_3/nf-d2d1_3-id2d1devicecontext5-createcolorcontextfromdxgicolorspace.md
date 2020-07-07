@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext5.CreateColorContextFromDxgiColorSpace
 title: ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace (d2d1_3.h)
-description: Creates a color context from a DXGI color space type. It is only valid to use this with the Color Management Effect in 'Best' mode.helpviewer_keywords: ["CreateColorContextFromDxgiColorSpace","CreateColorContextFromDxgiColorSpace method [Direct2D]","CreateColorContextFromDxgiColorSpace method [Direct2D]","ID2D1DeviceContext5 interface","ID2D1DeviceContext5 interface [Direct2D]","CreateColorContextFromDxgiColorSpace method","ID2D1DeviceContext5.CreateColorContextFromDxgiColorSpace","ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace","d2d1_3/ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace","direct2d.id2d1devicecontext5_createcolorcontextfromdxgicolorspace"]
+description: Creates a color context from a DXGI color space type. It is only valid to use this with the Color Management Effect in 'Best' mode.
+helpviewer_keywords: ["CreateColorContextFromDxgiColorSpace","CreateColorContextFromDxgiColorSpace method [Direct2D]","CreateColorContextFromDxgiColorSpace method [Direct2D]","ID2D1DeviceContext5 interface","ID2D1DeviceContext5 interface [Direct2D]","CreateColorContextFromDxgiColorSpace method","ID2D1DeviceContext5.CreateColorContextFromDxgiColorSpace","ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace","d2d1_3/ID2D1DeviceContext5::CreateColorContextFromDxgiColorSpace","direct2d.id2d1devicecontext5_createcolorcontextfromdxgicolorspace"]
 old-location: direct2d\id2d1devicecontext5_createcolorcontextfromdxgicolorspace.htm
 tech.root: Direct2D
 ms.assetid: A8C785A1-0C16-4C16-9217-C54F1B911095

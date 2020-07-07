@@ -1,7 +1,8 @@
 ---
 UID: NF:hrtfapoapi.IXAPOHrtfParameters.SetEnvironment
 title: IXAPOHrtfParameters::SetEnvironment (hrtfapoapi.h)
-description: Selects the acoustic environment to simulate.helpviewer_keywords: ["IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs]","SetEnvironment method","IXAPOHrtfParameters.SetEnvironment","IXAPOHrtfParameters::SetEnvironment","SetEnvironment","SetEnvironment method [XAudio2 Audio Mixing APIs]","SetEnvironment method [XAudio2 Audio Mixing APIs]","IXAPOHrtfParameters interface","hrtfapoapi/IXAPOHrtfParameters::SetEnvironment","xaudio2.ixapohrtfparameters_setenvironment"]
+description: Selects the acoustic environment to simulate.
+helpviewer_keywords: ["IXAPOHrtfParameters interface [XAudio2 Audio Mixing APIs]","SetEnvironment method","IXAPOHrtfParameters.SetEnvironment","IXAPOHrtfParameters::SetEnvironment","SetEnvironment","SetEnvironment method [XAudio2 Audio Mixing APIs]","SetEnvironment method [XAudio2 Audio Mixing APIs]","IXAPOHrtfParameters interface","hrtfapoapi/IXAPOHrtfParameters::SetEnvironment","xaudio2.ixapohrtfparameters_setenvironment"]
 old-location: xaudio2\ixapohrtfparameters_setenvironment.htm
 tech.root: xaudio2
 ms.assetid: 1AB999FB-E24C-4CC6-A3B9-D4F61FF31760

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetSubject
 title: IXpsOMCoreProperties::SetSubject (xpsobjectmodel.h)
-description: Sets the subject property.helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetSubject method","IXpsOMCoreProperties.SetSubject","IXpsOMCoreProperties::SetSubject","SetSubject","SetSubject method [XPS Documents and Packaging]","SetSubject method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setsubject","xpsobjectmodel/IXpsOMCoreProperties::SetSubject"]
+description: Sets the subject property.
+helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetSubject method","IXpsOMCoreProperties.SetSubject","IXpsOMCoreProperties::SetSubject","SetSubject","SetSubject method [XPS Documents and Packaging]","SetSubject method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_setsubject","xpsobjectmodel/IXpsOMCoreProperties::SetSubject"]
 old-location: xps\ixpsomcoreproperties_setsubject.htm
 tech.root: printdocs
 ms.assetid: aa194dd0-3293-4c09-84ae-516478862f4c

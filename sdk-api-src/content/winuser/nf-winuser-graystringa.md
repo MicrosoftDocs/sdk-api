@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GrayStringA
 title: GrayStringA function (winuser.h)
-description: The GrayString function draws gray text at the specified location.helpviewer_keywords: ["GrayString","GrayString function [Windows GDI]","GrayStringA","GrayStringW","_win32_GrayString","gdi.graystring","winuser/GrayString","winuser/GrayStringA","winuser/GrayStringW"]
+description: The GrayString function draws gray text at the specified location.
+helpviewer_keywords: ["GrayString","GrayString function [Windows GDI]","GrayStringA","GrayStringW","_win32_GrayString","gdi.graystring","winuser/GrayString","winuser/GrayStringA","winuser/GrayStringW"]
 old-location: gdi\graystring.htm
 tech.root: gdi
 ms.assetid: b14b8c40-f97f-4e41-8d8d-687692acfda9
@@ -125,6 +126,10 @@ Without calling <b>GrayString</b>, an application can draw grayed strings on dev
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines GrayString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFFrameRateToAverageTimePerFrame
 title: MFFrameRateToAverageTimePerFrame function (mfapi.h)
-description: Converts a video frame rate into a frame duration.helpviewer_keywords: ["750f6920-3386-4d50-9d59-73e876b406da","MFFrameRateToAverageTimePerFrame","MFFrameRateToAverageTimePerFrame function [Media Foundation]","mf.mfframeratetoaveragetimeperframe","mfapi/MFFrameRateToAverageTimePerFrame"]
+description: Converts a video frame rate into a frame duration.
+helpviewer_keywords: ["750f6920-3386-4d50-9d59-73e876b406da","MFFrameRateToAverageTimePerFrame","MFFrameRateToAverageTimePerFrame function [Media Foundation]","mf.mfframeratetoaveragetimeperframe","mfapi/MFFrameRateToAverageTimePerFrame"]
 old-location: mf\mfframeratetoaveragetimeperframe.htm
 tech.root: medfound
 ms.assetid: 750f6920-3386-4d50-9d59-73e876b406da

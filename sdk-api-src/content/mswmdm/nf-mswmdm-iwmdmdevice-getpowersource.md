@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetPowerSource
 title: IWMDMDevice::GetPowerSource (mswmdm.h)
-description: The GetPowerSource method retrieves information about the power source and the percentage of power remaining for the device.helpviewer_keywords: ["GetPowerSource","GetPowerSource method [windows Media Device Manager]","GetPowerSource method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetPowerSource method","IWMDMDevice.GetPowerSource","IWMDMDevice::GetPowerSource","IWMDMDeviceGetPowerSource","mswmdm/IWMDMDevice::GetPowerSource","wmdm.iwmdmdevice_getpowersource"]
+description: The GetPowerSource method retrieves information about the power source and the percentage of power remaining for the device.
+helpviewer_keywords: ["GetPowerSource","GetPowerSource method [windows Media Device Manager]","GetPowerSource method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetPowerSource method","IWMDMDevice.GetPowerSource","IWMDMDevice::GetPowerSource","IWMDMDeviceGetPowerSource","mswmdm/IWMDMDevice::GetPowerSource","wmdm.iwmdmdevice_getpowersource"]
 old-location: wmdm\iwmdmdevice_getpowersource.htm
 tech.root: WMDM
 ms.assetid: 0e13ac64-69b7-4c44-8690-8fcef6cb354f

@@ -1,7 +1,8 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_FLIP
 title: PDD_SURFCB_FLIP (ddrawint.h)
-description: The DdFlip callback function causes the surface memory associated with the target surface to become the primary surface, and the current surface to become the nonprimary surface.helpviewer_keywords: ["DdFlip","DdFlip callback function [Display Devices]","PDD_SURFCB_FLIP","PDD_SURFCB_FLIP callback","ddfncs_c7f9b1ea-0c9e-47f3-8fd1-b814d6e6adbd.xml","ddrawint/DdFlip","display.ddflip"]
+description: The DdFlip callback function causes the surface memory associated with the target surface to become the primary surface, and the current surface to become the nonprimary surface.
+helpviewer_keywords: ["DdFlip","DdFlip callback function [Display Devices]","PDD_SURFCB_FLIP","PDD_SURFCB_FLIP callback","ddfncs_c7f9b1ea-0c9e-47f3-8fd1-b814d6e6adbd.xml","ddrawint/DdFlip","display.ddflip"]
 old-location: display\ddflip.htm
 tech.root: display
 ms.assetid: 4ce2e967-7b4a-4065-844d-d8852dec8a8f

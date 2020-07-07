@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IBinaryConverter.StringToString
 title: IBinaryConverter::StringToString (certenroll.h)
-description: Modifies the type of Unicode encoding applied to a string.helpviewer_keywords: ["IBinaryConverter interface [Security]","StringToString method","IBinaryConverter.StringToString","IBinaryConverter::StringToString","StringToString","StringToString method [Security]","StringToString method [Security]","IBinaryConverter interface","certenroll/IBinaryConverter::StringToString","security.ibinaryconverter_stringtostring_method"]
+description: Modifies the type of Unicode encoding applied to a string.
+helpviewer_keywords: ["IBinaryConverter interface [Security]","StringToString method","IBinaryConverter.StringToString","IBinaryConverter::StringToString","StringToString","StringToString method [Security]","StringToString method [Security]","IBinaryConverter interface","certenroll/IBinaryConverter::StringToString","security.ibinaryconverter_stringtostring_method"]
 old-location: security\ibinaryconverter_stringtostring_method.htm
 tech.root: seccertenroll
 ms.assetid: c584a9bd-4ea3-4df7-8a9a-1f70cf07a213

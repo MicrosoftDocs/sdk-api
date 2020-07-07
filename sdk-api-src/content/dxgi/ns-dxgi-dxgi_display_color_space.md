@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgi.DXGI_DISPLAY_COLOR_SPACE
 title: DXGI_DISPLAY_COLOR_SPACE (dxgi.h)
-description: Don't use this structure; it is not supported and it will be removed from the header in a future release.helpviewer_keywords: ["DXGI_DISPLAY_COLOR_SPACE","DXGI_DISPLAY_COLOR_SPACE structure [DXGI]","direct3ddxgi.dxgi_display_color_space","dxgi/DXGI_DISPLAY_COLOR_SPACE"]
+description: Don't use this structure; it is not supported and it will be removed from the header in a future release.
+helpviewer_keywords: ["DXGI_DISPLAY_COLOR_SPACE","DXGI_DISPLAY_COLOR_SPACE structure [DXGI]","direct3ddxgi.dxgi_display_color_space","dxgi/DXGI_DISPLAY_COLOR_SPACE"]
 old-location: direct3ddxgi\dxgi_display_color_space.htm
 tech.root: direct3ddxgi
 ms.assetid: AE549DD8-240C-41F9-9223-728BFCA19DD7

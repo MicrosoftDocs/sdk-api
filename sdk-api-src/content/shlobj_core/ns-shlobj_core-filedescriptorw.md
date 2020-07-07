@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj_core._FILEDESCRIPTORW
 title: FILEDESCRIPTORW (shlobj_core.h)
-description: Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX drag-and-drop operation.helpviewer_keywords: ["*LPFILEDESCRIPTORW","FD_ACCESSTIME","FD_ATTRIBUTES","FD_CLSID","FD_CREATETIME","FD_FILESIZE","FD_LINKUI","FD_PROGRESSUI","FD_SIZEPOINT","FD_UNICODE","FD_WRITESTIME","FILEDESCRIPTOR","FILEDESCRIPTOR structure [Windows Shell]","FILEDESCRIPTORA","FILEDESCRIPTORW","LPFILEDESCRIPTOR","LPFILEDESCRIPTOR structure pointer [Windows Shell]","_FILEDESCRIPTORA","_FILEDESCRIPTORW","_win32_FILEDESCRIPTOR","shell.FILEDESCRIPTOR","shlobj_core/FILEDESCRIPTOR","shlobj_core/LPFILEDESCRIPTOR"]
+description: Describes the properties of a file that is being copied by means of the clipboard during a Microsoft ActiveX drag-and-drop operation.
+helpviewer_keywords: ["*LPFILEDESCRIPTORW","FD_ACCESSTIME","FD_ATTRIBUTES","FD_CLSID","FD_CREATETIME","FD_FILESIZE","FD_LINKUI","FD_PROGRESSUI","FD_SIZEPOINT","FD_UNICODE","FD_WRITESTIME","FILEDESCRIPTOR","FILEDESCRIPTOR structure [Windows Shell]","FILEDESCRIPTORA","FILEDESCRIPTORW","LPFILEDESCRIPTOR","LPFILEDESCRIPTOR structure pointer [Windows Shell]","_FILEDESCRIPTORA","_FILEDESCRIPTORW","_win32_FILEDESCRIPTOR","shell.FILEDESCRIPTOR","shlobj_core/FILEDESCRIPTOR","shlobj_core/LPFILEDESCRIPTOR"]
 old-location: shell\FILEDESCRIPTOR.htm
 tech.root: shell
 ms.assetid: b81a7e52-5bd8-4fa4-bd76-9a58afaceec0
@@ -255,4 +256,8 @@ If the <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFST
 To create a zero-length file, set the <b>FD_FILESIZE</b> flag in the <b>dwFlags</b>, and set <b>nFileSizeHigh</b> and <b>nFileSizeLow</b> to zero. The <a href="https://docs.microsoft.com/windows/desktop/shell/clipboard">CFSTR_FILECONTENTS</a> format should represent the file as either a stream or global memory object (<a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED_ISTREAM</a> or <a href="https://docs.microsoft.com/windows/desktop/api/objidl/ne-objidl-tymed">TYMED_HGLOBAL</a>).
 
 
+
+
+> [!NOTE]
+> The shlobj_core.h header defines FILEDESCRIPTOR as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

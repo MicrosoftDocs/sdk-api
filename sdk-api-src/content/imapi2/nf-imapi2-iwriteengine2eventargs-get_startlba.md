@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_StartLba
 title: IWriteEngine2EventArgs::get_StartLba (imapi2.h)
-description: Retrieves the starting logical block address (LBA) of the current write operation.helpviewer_keywords: ["IWriteEngine2EventArgs interface [IMAPI]","get_StartLba method","IWriteEngine2EventArgs.get_StartLba","IWriteEngine2EventArgs::get_StartLba","get_StartLba","get_StartLba method [IMAPI]","get_StartLba method [IMAPI]","IWriteEngine2EventArgs interface","imapi.iwriteengine2eventargs_get_startlba","imapi2/IWriteEngine2EventArgs::get_StartLba"]
+description: Retrieves the starting logical block address (LBA) of the current write operation.
+helpviewer_keywords: ["IWriteEngine2EventArgs interface [IMAPI]","get_StartLba method","IWriteEngine2EventArgs.get_StartLba","IWriteEngine2EventArgs::get_StartLba","get_StartLba","get_StartLba method [IMAPI]","get_StartLba method [IMAPI]","IWriteEngine2EventArgs interface","imapi.iwriteengine2eventargs_get_startlba","imapi2/IWriteEngine2EventArgs::get_StartLba"]
 old-location: imapi\iwriteengine2eventargs_get_startlba.htm
 tech.root: imapi
 ms.assetid: 1c2d1a1f-04b7-4453-af52-4f96e5536ad2

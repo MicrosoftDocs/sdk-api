@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxEventLogging.Refresh
 title: IFaxEventLogging::Refresh (faxcomex.h)
-description: The IFaxEventLogging::Refresh method refreshes IFaxEventLogging interface information from the fax server.helpviewer_keywords: ["IFaxEventLogging interface [Fax Service]","Refresh method","IFaxEventLogging.Refresh","IFaxEventLogging::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxEventLogging interface","_mfax_faxeventlogging.refresh","fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_refresh_cpp","fax._mfax_faxeventlogging_refresh","faxcomex/IFaxEventLogging::Refresh"]
+description: The IFaxEventLogging::Refresh method refreshes IFaxEventLogging interface information from the fax server.
+helpviewer_keywords: ["IFaxEventLogging interface [Fax Service]","Refresh method","IFaxEventLogging.Refresh","IFaxEventLogging::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxEventLogging interface","_mfax_faxeventlogging.refresh","fax._mfax_faxeventlogging_cpp_mfax_faxeventlogging_refresh_cpp","fax._mfax_faxeventlogging_refresh","faxcomex/IFaxEventLogging::Refresh"]
 old-location: fax\_mfax_faxeventlogging_cpp_mfax_faxeventlogging_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_7ns8.htm

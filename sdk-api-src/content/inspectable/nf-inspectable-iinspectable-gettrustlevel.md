@@ -1,7 +1,8 @@
 ---
 UID: NF:inspectable.IInspectable.GetTrustLevel
 title: IInspectable::GetTrustLevel (inspectable.h)
-description: Gets the trust level of the current Windows Runtime object.helpviewer_keywords: ["GetTrustLevel","GetTrustLevel method [Windows Runtime]","GetTrustLevel method [Windows Runtime]","IInputPaneInterop interface","GetTrustLevel method [Windows Runtime]","IInspectable interface","IInputPaneInterop interface [Windows Runtime]","GetTrustLevel method","IInputPaneInterop::GetTrustLevel","IInspectable interface [Windows Runtime]","GetTrustLevel method","IInspectable.GetTrustLevel","IInspectable::GetTrustLevel","inspectable/IInputPaneInterop::GetTrustLevel","inspectable/IInspectable::GetTrustLevel","winrt.iinspectable_gettrustlevel"]
+description: Gets the trust level of the current Windows Runtime object.
+helpviewer_keywords: ["GetTrustLevel","GetTrustLevel method [Windows Runtime]","GetTrustLevel method [Windows Runtime]","IInputPaneInterop interface","GetTrustLevel method [Windows Runtime]","IInspectable interface","IInputPaneInterop interface [Windows Runtime]","GetTrustLevel method","IInputPaneInterop::GetTrustLevel","IInspectable interface [Windows Runtime]","GetTrustLevel method","IInspectable.GetTrustLevel","IInspectable::GetTrustLevel","inspectable/IInputPaneInterop::GetTrustLevel","inspectable/IInspectable::GetTrustLevel","winrt.iinspectable_gettrustlevel"]
 old-location: winrt\iinspectable_gettrustlevel.htm
 tech.root: WinRT
 ms.assetid: E7E8AFD1-A8B7-4023-9F8B-573E0D2622F6

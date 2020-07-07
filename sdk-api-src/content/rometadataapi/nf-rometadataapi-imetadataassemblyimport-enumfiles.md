@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumFiles
 title: IMetaDataAssemblyImport::EnumFiles (rometadataapi.h)
-description: Enumerates the files referenced in the current assembly manifest.helpviewer_keywords: ["EnumFiles","EnumFiles method [Windows Runtime]","EnumFiles method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","EnumFiles method","IMetaDataAssemblyImport.EnumFiles","IMetaDataAssemblyImport::EnumFiles","rometadataapi/IMetaDataAssemblyImport::EnumFiles","winrt.imetadataassemblyimport_enumfiles"]
+description: Enumerates the files referenced in the current assembly manifest.
+helpviewer_keywords: ["EnumFiles","EnumFiles method [Windows Runtime]","EnumFiles method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","EnumFiles method","IMetaDataAssemblyImport.EnumFiles","IMetaDataAssemblyImport::EnumFiles","rometadataapi/IMetaDataAssemblyImport::EnumFiles","winrt.imetadataassemblyimport_enumfiles"]
 old-location: winrt\imetadataassemblyimport_enumfiles.htm
 tech.root: WinRT
 ms.assetid: 4039432e-bcf1-4460-8be7-9f02c250ecc6

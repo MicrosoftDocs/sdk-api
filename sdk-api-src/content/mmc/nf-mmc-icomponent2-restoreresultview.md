@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IComponent2.RestoreResultView
 title: IComponent2::RestoreResultView (mmc.h)
-description: The RestoreResultView method restores the result view. This method enables a snap-in to restore snap-in-specific details of a result view. For more information, see Restoring Result Views.helpviewer_keywords: ["IComponent2 interface [MMC]","RestoreResultView method","IComponent2.RestoreResultView","IComponent2::RestoreResultView","RestoreResultView","RestoreResultView method [MMC]","RestoreResultView method [MMC]","IComponent2 interface","_slate_icomponent2_restoreresultview","mmc.icomponent2_restoreresultview","mmc/IComponent2::RestoreResultView"]
+description: The RestoreResultView method restores the result view. This method enables a snap-in to restore snap-in-specific details of a result view. For more information, see Restoring Result Views.
+helpviewer_keywords: ["IComponent2 interface [MMC]","RestoreResultView method","IComponent2.RestoreResultView","IComponent2::RestoreResultView","RestoreResultView","RestoreResultView method [MMC]","RestoreResultView method [MMC]","IComponent2 interface","_slate_icomponent2_restoreresultview","mmc.icomponent2_restoreresultview","mmc/IComponent2::RestoreResultView"]
 old-location: mmc\icomponent2_restoreresultview.htm
 tech.root: mmc
 ms.assetid: fe9a71c7-eaa6-4479-8337-0746a784a57f

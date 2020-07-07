@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.lstrcmpA
 title: lstrcmpA function (winbase.h)
-description: Compares two character strings. The comparison is case-sensitive.helpviewer_keywords: ["_win32_lstrcmp","_win32_lstrcmp_cpp","lstrcmp","lstrcmp function [Menus and Other Resources]","lstrcmpA","lstrcmpW","menurc.lstrcmp","winbase/lstrcmp","winbase/lstrcmpA","winbase/lstrcmpW","winui._win32_lstrcmp"]
+description: Compares two character strings. The comparison is case-sensitive.
+helpviewer_keywords: ["_win32_lstrcmp","_win32_lstrcmp_cpp","lstrcmp","lstrcmp function [Menus and Other Resources]","lstrcmpA","lstrcmpW","menurc.lstrcmp","winbase/lstrcmp","winbase/lstrcmpA","winbase/lstrcmpW","winui._win32_lstrcmp"]
 old-location: menurc\lstrcmp.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\lstrcmp.htm
@@ -120,6 +121,10 @@ choice of comparison functions.
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines lstrcmp as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

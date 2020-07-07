@@ -1,7 +1,8 @@
 ---
 UID: NF:restartmanager.RmAddFilter
 title: RmAddFilter function (restartmanager.h)
-description: Modifies the shutdown or restart actions that are applied to an application or service.helpviewer_keywords: ["RmAddFilter","RmAddFilter function [Restart Mgr]","restartmanager/RmAddFilter","rstmgr.rmaddfilter"]
+description: Modifies the shutdown or restart actions that are applied to an application or service.
+helpviewer_keywords: ["RmAddFilter","RmAddFilter function [Restart Mgr]","restartmanager/RmAddFilter","rstmgr.rmaddfilter"]
 old-location: rstmgr\rmaddfilter.htm
 tech.root: rstmgr
 ms.assetid: 63d1d1d2-d7b7-4d6c-99f9-b849229e171f

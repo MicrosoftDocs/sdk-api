@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetIcmpStatistics
 title: GetIcmpStatistics function (iphlpapi.h)
-description: The GetIcmpStatistics function retrieves the Internet Control Message Protocol (ICMP) for IPv4 statistics for the local computer.helpviewer_keywords: ["GetIcmpStatistics","GetIcmpStatistics function [IP Helper]","_iphlp_geticmpstatistics","iphlp.geticmpstatistics","iphlpapi/GetIcmpStatistics"]
+description: The GetIcmpStatistics function retrieves the Internet Control Message Protocol (ICMP) for IPv4 statistics for the local computer.
+helpviewer_keywords: ["GetIcmpStatistics","GetIcmpStatistics function [IP Helper]","_iphlp_geticmpstatistics","iphlp.geticmpstatistics","iphlpapi/GetIcmpStatistics"]
 old-location: iphlp\geticmpstatistics.htm
 tech.root: IpHlp
 ms.assetid: b10ec58b-54fe-4068-beb9-6909ad7cecf7

@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetBlackPointX(float)
 title: IDCompositionBrightnessEffect::SetBlackPointX (dcomp.h)
-description: Sets the x value of the black point.helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetBlackPointX method","IDCompositionBrightnessEffect.SetBlackPointX","IDCompositionBrightnessEffect::SetBlackPointX","IDCompositionBrightnessEffect::SetBlackPointX(float)","SetBlackPointX","SetBlackPointX method [DirectComposition]","SetBlackPointX method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetBlackPointX","directcomp.idcompositionbrightnesseffect_setblackpointx"]
+description: Sets the x value of the black point.
+helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetBlackPointX method","IDCompositionBrightnessEffect.SetBlackPointX","IDCompositionBrightnessEffect::SetBlackPointX","IDCompositionBrightnessEffect::SetBlackPointX(float)","SetBlackPointX","SetBlackPointX method [DirectComposition]","SetBlackPointX method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetBlackPointX","directcomp.idcompositionbrightnesseffect_setblackpointx"]
 old-location: directcomp\idcompositionbrightnesseffect_setblackpointx.htm
 tech.root: directcomp
 ms.assetid: 983AF3B1-628D-4E4C-99C2-C590457F7B8A

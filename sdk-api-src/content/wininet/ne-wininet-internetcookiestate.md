@@ -1,7 +1,8 @@
 ---
 UID: NE:wininet.__unnamed_enum_1
 title: InternetCookieState (wininet.h)
-description: The InternetCookieState enumeration defines the state of the cookie.helpviewer_keywords: ["COOKIE_STATE_ACCEPT","COOKIE_STATE_DOWNGRADE","COOKIE_STATE_LEASH","COOKIE_STATE_MAX","COOKIE_STATE_PROMPT","COOKIE_STATE_REJECT","COOKIE_STATE_UNKNOWN","InternetCookieState","InternetCookieState enumeration [WinINet]","wininet.internetcookiestate","wininet/COOKIE_STATE_ACCEPT","wininet/COOKIE_STATE_DOWNGRADE","wininet/COOKIE_STATE_LEASH","wininet/COOKIE_STATE_MAX","wininet/COOKIE_STATE_PROMPT","wininet/COOKIE_STATE_REJECT","wininet/COOKIE_STATE_UNKNOWN","wininet/InternetCookieState"]
+description: The InternetCookieState enumeration defines the state of the cookie.
+helpviewer_keywords: ["COOKIE_STATE_ACCEPT","COOKIE_STATE_DOWNGRADE","COOKIE_STATE_LEASH","COOKIE_STATE_MAX","COOKIE_STATE_PROMPT","COOKIE_STATE_REJECT","COOKIE_STATE_UNKNOWN","InternetCookieState","InternetCookieState enumeration [WinINet]","wininet.internetcookiestate","wininet/COOKIE_STATE_ACCEPT","wininet/COOKIE_STATE_DOWNGRADE","wininet/COOKIE_STATE_LEASH","wininet/COOKIE_STATE_MAX","wininet/COOKIE_STATE_PROMPT","wininet/COOKIE_STATE_REJECT","wininet/COOKIE_STATE_UNKNOWN","wininet/InternetCookieState"]
 old-location: wininet\internetcookiestate.htm
 tech.root: wininet
 ms.assetid: 3f43f492-3133-4cbd-9ab9-3c9600ef5263

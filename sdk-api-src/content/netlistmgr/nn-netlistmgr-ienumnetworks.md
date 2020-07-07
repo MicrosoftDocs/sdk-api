@@ -1,7 +1,8 @@
 ---
 UID: NN:netlistmgr.IEnumNetworks
 title: IEnumNetworks (netlistmgr.h)
-description: The IEnumNetworks interface is a standard enumerator for networks. It enumerates all networks available on the local machine. This interface can be obtained from the INetworkListManager interface.helpviewer_keywords: ["IEnumNetworks","IEnumNetworks interface [Network Awareness]","IEnumNetworks interface [Network Awareness]","described","netlistmgr/IEnumNetworks","nla.ienumnetworks"]
+description: The IEnumNetworks interface is a standard enumerator for networks. It enumerates all networks available on the local machine. This interface can be obtained from the INetworkListManager interface.
+helpviewer_keywords: ["IEnumNetworks","IEnumNetworks interface [Network Awareness]","IEnumNetworks interface [Network Awareness]","described","netlistmgr/IEnumNetworks","nla.ienumnetworks"]
 old-location: nla\ienumnetworks.htm
 tech.root: nla
 ms.assetid: ce2b65e5-89fe-48c9-aa00-373406891d02

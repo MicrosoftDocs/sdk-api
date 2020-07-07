@@ -1,7 +1,8 @@
 ---
 UID: NF:cfapi.CfConvertToPlaceholder
 title: CfConvertToPlaceholder function (cfapi.h)
-description: Converts a normal file/directory to a placeholder file/directory.helpviewer_keywords: ["CfConvertToPlaceholder","CfConvertToPlaceholder function","cfapi/CfConvertToPlaceholder","cloudApi.cfconverttoplaceholder"]
+description: Converts a normal file/directory to a placeholder file/directory.
+helpviewer_keywords: ["CfConvertToPlaceholder","CfConvertToPlaceholder function","cfapi/CfConvertToPlaceholder","cloudApi.cfconverttoplaceholder"]
 old-location: cloudapi\cfconverttoplaceholder.htm
 tech.root: cfApi
 ms.assetid: FDDE9CB0-E1A2-46D6-94E0-228495675271

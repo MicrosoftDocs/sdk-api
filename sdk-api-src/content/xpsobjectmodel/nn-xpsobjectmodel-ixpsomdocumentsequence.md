@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMDocumentSequence
 title: IXpsOMDocumentSequence (xpsobjectmodel.h)
-description: The root object that has the XPS document content.helpviewer_keywords: ["IXpsOMDocumentSequence","IXpsOMDocumentSequence interface [XPS Documents and Packaging]","IXpsOMDocumentSequence interface [XPS Documents and Packaging]","described","xps.ixpsomdocumentsequence","xpsobjectmodel/IXpsOMDocumentSequence"]
+description: The root object that has the XPS document content.
+helpviewer_keywords: ["IXpsOMDocumentSequence","IXpsOMDocumentSequence interface [XPS Documents and Packaging]","IXpsOMDocumentSequence interface [XPS Documents and Packaging]","described","xps.ixpsomdocumentsequence","xpsobjectmodel/IXpsOMDocumentSequence"]
 old-location: xps\ixpsomdocumentsequence.htm
 tech.root: printdocs
 ms.assetid: 472095a4-ecd8-406a-97c2-1a34b4e5184a

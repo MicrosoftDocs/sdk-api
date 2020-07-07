@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptGetProperties
 title: ScriptGetProperties function (usp10.h)
-description: Retrieves information about the current scripts.helpviewer_keywords: ["ScriptGetProperties","ScriptGetProperties function [Internationalization for Windows Applications]","_win32_ScriptGetProperties","intl.scriptgetproperties","usp10/ScriptGetProperties"]
+description: Retrieves information about the current scripts.
+helpviewer_keywords: ["ScriptGetProperties","ScriptGetProperties function [Internationalization for Windows Applications]","_win32_ScriptGetProperties","intl.scriptgetproperties","usp10/ScriptGetProperties"]
 old-location: intl\scriptgetproperties.htm
 tech.root: Intl
 ms.assetid: 4799829d-8122-4bb4-839c-92f177cfd2da

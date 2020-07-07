@@ -1,7 +1,8 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.SetRequestHeader
 title: IXMLHTTPRequest2::SetRequestHeader (msxml6.h)
-description: Specifies the name of an HTTP header to be sent to the server along with the default request headers.helpviewer_keywords: ["IXMLHTTPRequest2 interface [XMLHttpRequest2]","SetRequestHeader method","IXMLHTTPRequest2.SetRequestHeader","IXMLHTTPRequest2::SetRequestHeader","SetRequestHeader","SetRequestHeader method [XMLHttpRequest2]","SetRequestHeader method [XMLHttpRequest2]","IXMLHTTPRequest2 interface","ixhr2.ixmlhttprequest2_setrequestheader","msxml6/IXMLHTTPRequest2::SetRequestHeader"]
+description: Specifies the name of an HTTP header to be sent to the server along with the default request headers.
+helpviewer_keywords: ["IXMLHTTPRequest2 interface [XMLHttpRequest2]","SetRequestHeader method","IXMLHTTPRequest2.SetRequestHeader","IXMLHTTPRequest2::SetRequestHeader","SetRequestHeader","SetRequestHeader method [XMLHttpRequest2]","SetRequestHeader method [XMLHttpRequest2]","IXMLHTTPRequest2 interface","ixhr2.ixmlhttprequest2_setrequestheader","msxml6/IXMLHTTPRequest2::SetRequestHeader"]
 old-location: ixhr2\ixmlhttprequest2_setrequestheader.htm
 tech.root: ixhr2
 ms.assetid: FBEEB04C-7976-4017-B56C-17815FC01831

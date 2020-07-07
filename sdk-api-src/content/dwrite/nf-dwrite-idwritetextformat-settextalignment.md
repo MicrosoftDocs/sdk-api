@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.SetTextAlignment
 title: IDWriteTextFormat::SetTextAlignment (dwrite.h)
-description: Sets the alignment of text in a paragraph, relative to the leading and trailing edge of a layout box for a IDWriteTextFormat interface.helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetTextAlignment method","IDWriteTextFormat.SetTextAlignment","IDWriteTextFormat::SetTextAlignment","SetTextAlignment","SetTextAlignment method [Direct Write]","SetTextAlignment method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetTextAlignment","dwrite/IDWriteTextFormat::SetTextAlignment"]
+description: Sets the alignment of text in a paragraph, relative to the leading and trailing edge of a layout box for a IDWriteTextFormat interface.
+helpviewer_keywords: ["IDWriteTextFormat interface [Direct Write]","SetTextAlignment method","IDWriteTextFormat.SetTextAlignment","IDWriteTextFormat::SetTextAlignment","SetTextAlignment","SetTextAlignment method [Direct Write]","SetTextAlignment method [Direct Write]","IDWriteTextFormat interface","directwrite.IDWriteTextFormat_SetTextAlignment","dwrite/IDWriteTextFormat::SetTextAlignment"]
 old-location: directwrite\IDWriteTextFormat_SetTextAlignment.htm
 tech.root: DirectWrite
 ms.assetid: 2e7554e3-4e0c-45b1-a874-a3054b0e91dc

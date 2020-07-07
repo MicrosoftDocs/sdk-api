@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IAnalogAudioComponentType
 title: IAnalogAudioComponentType (tuner.h)
-description: The IAnalogAudioComponentType interface provides methods for accessing the analog audio mode.helpviewer_keywords: ["IAnalogAudioComponentType","IAnalogAudioComponentType interface [Microsoft TV Technologies]","IAnalogAudioComponentType interface [Microsoft TV Technologies]","described","IAnalogAudioComponentTypeInterface","mstv.ianalogaudiocomponenttype","tuner/IAnalogAudioComponentType"]
+description: The IAnalogAudioComponentType interface provides methods for accessing the analog audio mode.
+helpviewer_keywords: ["IAnalogAudioComponentType","IAnalogAudioComponentType interface [Microsoft TV Technologies]","IAnalogAudioComponentType interface [Microsoft TV Technologies]","described","IAnalogAudioComponentTypeInterface","mstv.ianalogaudiocomponenttype","tuner/IAnalogAudioComponentType"]
 old-location: mstv\ianalogaudiocomponenttype.htm
 tech.root: mstv
 ms.assetid: bd2256b4-6e9a-4520-8988-d271fb2b84af

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.LookupPrivilegeDisplayNameA
 title: LookupPrivilegeDisplayNameA function (winbase.h)
-description: Retrieves the display name that represents a specified privilege.helpviewer_keywords: ["LookupPrivilegeDisplayName","LookupPrivilegeDisplayName function [Security]","LookupPrivilegeDisplayNameA","LookupPrivilegeDisplayNameW","_win32_lookupprivilegedisplayname","security.lookupprivilegedisplayname","winbase/LookupPrivilegeDisplayName","winbase/LookupPrivilegeDisplayNameA","winbase/LookupPrivilegeDisplayNameW"]
+description: Retrieves the display name that represents a specified privilege.
+helpviewer_keywords: ["LookupPrivilegeDisplayName","LookupPrivilegeDisplayName function [Security]","LookupPrivilegeDisplayNameA","LookupPrivilegeDisplayNameW","_win32_lookupprivilegedisplayname","security.lookupprivilegedisplayname","winbase/LookupPrivilegeDisplayName","winbase/LookupPrivilegeDisplayNameA","winbase/LookupPrivilegeDisplayNameW"]
 old-location: security\lookupprivilegedisplayname.htm
 tech.root: SecAuthZ
 ms.assetid: 1fbb26b6-615e-4883-9f4b-3a1d05d9feaa
@@ -111,6 +112,10 @@ The <b>LookupPrivilegeDisplayName</b> function retrieves display names only for 
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines LookupPrivilegeDisplayName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

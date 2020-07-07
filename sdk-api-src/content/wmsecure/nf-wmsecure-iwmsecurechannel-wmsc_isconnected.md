@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_IsConnected
 title: IWMSecureChannel::WMSC_IsConnected (wmsecure.h)
-description: The WMSC_IsConnected method checks to see if the secure connection is valid.helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_IsConnected method","IWMSecureChannel.WMSC_IsConnected","IWMSecureChannel::WMSC_IsConnected","WMSC_IsConnected","WMSC_IsConnected method [windows Media Format]","WMSC_IsConnected method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_isconnected","wmsecure/IWMSecureChannel::WMSC_IsConnected"]
+description: The WMSC_IsConnected method checks to see if the secure connection is valid.
+helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_IsConnected method","IWMSecureChannel.WMSC_IsConnected","IWMSecureChannel::WMSC_IsConnected","WMSC_IsConnected","WMSC_IsConnected method [windows Media Format]","WMSC_IsConnected method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_isconnected","wmsecure/IWMSecureChannel::WMSC_IsConnected"]
 old-location: wmformat\iwmsecurechannel_wmsc_isconnected.htm
 tech.root: wmformat
 ms.assetid: 162bb01f-ba64-4563-a257-28931190ac96

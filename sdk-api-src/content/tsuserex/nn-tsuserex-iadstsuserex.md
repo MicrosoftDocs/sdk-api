@@ -1,7 +1,8 @@
 ---
 UID: NN:tsuserex.IADsTSUserEx
 title: IADsTSUserEx (tsuserex.h)
-description: Used to examine and configure Remote Desktop Services user properties.helpviewer_keywords: ["IADsTSUserEx","IADsTSUserEx interface [Remote Desktop Services]","IADsTSUserEx interface [Remote Desktop Services]","described","termserv.iadstsuserex","tsuserex/IADsTSUserEx"]
+description: Used to examine and configure Remote Desktop Services user properties.
+helpviewer_keywords: ["IADsTSUserEx","IADsTSUserEx interface [Remote Desktop Services]","IADsTSUserEx interface [Remote Desktop Services]","described","termserv.iadstsuserex","tsuserex/IADsTSUserEx"]
 old-location: termserv\iadstsuserex.htm
 tech.root: TermServ
 ms.assetid: 7af8fe94-15db-49dc-ba4a-b79601205f59

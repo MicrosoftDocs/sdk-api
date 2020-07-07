@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device5.CreateLifetimeTracker
 title: ID3D12Device5::CreateLifetimeTracker
-description: Creates a lifetime tracker associated with an application-defined callback; the callback receives notifications when the lifetime of a tracked object is changed.helpviewer_keywords: ["ID3D12Device5::CreateLifetimeTracker"]
+description: Creates a lifetime tracker associated with an application-defined callback; the callback receives notifications when the lifetime of a tracked object is changed.
+helpviewer_keywords: ["ID3D12Device5::CreateLifetimeTracker"]
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12Device5::CreateLifetimeTracker

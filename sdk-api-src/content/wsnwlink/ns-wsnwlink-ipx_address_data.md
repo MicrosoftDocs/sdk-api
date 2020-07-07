@@ -1,7 +1,8 @@
 ---
 UID: NS:wsnwlink._IPX_ADDRESS_DATA
 title: IPX_ADDRESS_DATA (wsnwlink.h)
-description: The IPX_ADDRESS_DATA structure provides information about a specific adapter to which IPX is bound. Used in conjunction with getsockopt function calls that specify IPX_ADDRESS in the optname parameter.helpviewer_keywords: ["*PIPX_ADDRESS_DATA","IPX_ADDRESS_DATA","IPX_ADDRESS_DATA structure [Winsock]","PIPX_ADDRESS_DATA","PIPX_ADDRESS_DATA structure pointer [Winsock]","_win32_ipx_address_data_2","winsock.ipx_address_data_2","wsnwlink/IPX_ADDRESS_DATA","wsnwlink/PIPX_ADDRESS_DATA"]
+description: The IPX_ADDRESS_DATA structure provides information about a specific adapter to which IPX is bound. Used in conjunction with getsockopt function calls that specify IPX_ADDRESS in the optname parameter.
+helpviewer_keywords: ["*PIPX_ADDRESS_DATA","IPX_ADDRESS_DATA","IPX_ADDRESS_DATA structure [Winsock]","PIPX_ADDRESS_DATA","PIPX_ADDRESS_DATA structure pointer [Winsock]","_win32_ipx_address_data_2","winsock.ipx_address_data_2","wsnwlink/IPX_ADDRESS_DATA","wsnwlink/PIPX_ADDRESS_DATA"]
 old-location: winsock\ipx_address_data_2.htm
 tech.root: WinSock
 ms.assetid: 8e18ee5a-04fd-4efc-8d0c-e4ff04fd9f1b

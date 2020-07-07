@@ -1,7 +1,8 @@
 ---
 UID: NN:wmpservices.IWMPUserEventSink
 title: IWMPUserEventSink (wmpservices.h)
-description: The IWMPUserEventSink interface receives event notifications from a custom video presenter.helpviewer_keywords: ["IWMPUserEventSink","IWMPUserEventSink interface [Windows Media Player]","IWMPUserEventSink interface [Windows Media Player]","described","IWMPUserEventSinkInterface","wmp.iwmpusereventsink","wmpservices/IWMPUserEventSink"]
+description: The IWMPUserEventSink interface receives event notifications from a custom video presenter.
+helpviewer_keywords: ["IWMPUserEventSink","IWMPUserEventSink interface [Windows Media Player]","IWMPUserEventSink interface [Windows Media Player]","described","IWMPUserEventSinkInterface","wmp.iwmpusereventsink","wmpservices/IWMPUserEventSink"]
 old-location: wmp\iwmpusereventsink.htm
 tech.root: WMP
 ms.assetid: b9afa601-543e-4338-a603-2fe4cd56db36

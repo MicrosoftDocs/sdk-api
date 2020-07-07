@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandList.Stream
 title: ID2D1CommandList::Stream (d2d1_1.h)
-description: Streams the contents of the command list to the specified command sink.helpviewer_keywords: ["ID2D1CommandList interface [Direct2D]","Stream method","ID2D1CommandList.Stream","ID2D1CommandList::Stream","Stream","Stream method [Direct2D]","Stream method [Direct2D]","ID2D1CommandList interface","d2d1_1/ID2D1CommandList::Stream","direct2d.id2d1commandlist_stream"]
+description: Streams the contents of the command list to the specified command sink.
+helpviewer_keywords: ["ID2D1CommandList interface [Direct2D]","Stream method","ID2D1CommandList.Stream","ID2D1CommandList::Stream","Stream","Stream method [Direct2D]","Stream method [Direct2D]","ID2D1CommandList interface","d2d1_1/ID2D1CommandList::Stream","direct2d.id2d1commandlist_stream"]
 old-location: direct2d\id2d1commandlist_stream.htm
 tech.root: Direct2D
 ms.assetid: 52e6da86-c7c6-48e7-b0ff-a54770663f14

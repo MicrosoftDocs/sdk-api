@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IRegisteredTask.get_Path
 title: IRegisteredTask::get_Path (taskschd.h)
-description: Gets the path to where the registered task is stored.helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","Path property","IRegisteredTask.Path","IRegisteredTask.get_Path","IRegisteredTask::Path","IRegisteredTask::get_Path","Path property [Task Scheduler]","Path property [Task Scheduler]","IRegisteredTask interface","get_Path","taskschd.iregisteredtask_path","taskschd/IRegisteredTask::Path","taskschd/IRegisteredTask::get_Path"]
+description: Gets the path to where the registered task is stored.
+helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","Path property","IRegisteredTask.Path","IRegisteredTask.get_Path","IRegisteredTask::Path","IRegisteredTask::get_Path","Path property [Task Scheduler]","Path property [Task Scheduler]","IRegisteredTask interface","get_Path","taskschd.iregisteredtask_path","taskschd/IRegisteredTask::Path","taskschd/IRegisteredTask::get_Path"]
 old-location: taskschd\iregisteredtask_path.htm
 tech.root: taskschd
 ms.assetid: cf097dae-d92b-48c8-bc96-8169b94b0763

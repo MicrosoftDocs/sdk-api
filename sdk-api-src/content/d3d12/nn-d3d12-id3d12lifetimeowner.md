@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12.ID3D12LifetimeOwner
 title: ID3D12LifetimeOwner
-description: Represents an application-defined callback used for being notified of lifetime changes of an object.helpviewer_keywords: ["ID3D12LifetimeOwner"]
+description: Represents an application-defined callback used for being notified of lifetime changes of an object.
+helpviewer_keywords: ["ID3D12LifetimeOwner"]
 tech.root: direct3d12
 ms.date: 10/30/2019
 ms.keywords: ID3D12LifetimeOwner

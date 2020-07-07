@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarR4FromBool
 title: VarR4FromBool function (oleauto.h)
-description: Converts a Boolean value to a float value.helpviewer_keywords: ["VarR4FromBool","VarR4FromBool function [Automation]","_oa96_VarR4FromBool","automat.varr4frombool","oleauto/VarR4FromBool"]
+description: Converts a Boolean value to a float value.
+helpviewer_keywords: ["VarR4FromBool","VarR4FromBool function [Automation]","_oa96_VarR4FromBool","automat.varr4frombool","oleauto/VarR4FromBool"]
 old-location: automat\varr4frombool.htm
 tech.root: automat
 ms.assetid: 9070ccdb-8e10-440d-9851-5b596467f7a2

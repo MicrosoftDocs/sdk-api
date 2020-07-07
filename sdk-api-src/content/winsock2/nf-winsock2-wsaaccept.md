@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSAAccept
 title: WSAAccept function (winsock2.h)
-description: The WSAAccept function conditionally accepts a connection based on the return value of a condition function, provides quality of service flow specifications, and allows the transfer of connection data.helpviewer_keywords: ["WSAAccept","WSAAccept function [Winsock]","_win32_wsaaccept_2","winsock.wsaaccept_2","winsock2/WSAAccept"]
+description: The WSAAccept function conditionally accepts a connection based on the return value of a condition function, provides quality of service flow specifications, and allows the transfer of connection data.
+helpviewer_keywords: ["WSAAccept","WSAAccept function [Winsock]","_win32_wsaaccept_2","winsock.wsaaccept_2","winsock2/WSAAccept"]
 old-location: winsock\wsaaccept_2.htm
 tech.root: WinSock
 ms.assetid: f385f63f-49b2-4eb7-8717-ad4cca1a2252

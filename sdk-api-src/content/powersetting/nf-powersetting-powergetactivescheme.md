@@ -1,7 +1,8 @@
 ---
 UID: NF:powersetting.PowerGetActiveScheme
 title: PowerGetActiveScheme function (powersetting.h)
-description: Retrieves the active power scheme and returns a GUID that identifies the scheme.helpviewer_keywords: ["PowerGetActiveScheme","PowerGetActiveScheme function","base.powergetactivescheme","powersetting/PowerGetActiveScheme","powrprof/PowerGetActiveScheme"]
+description: Retrieves the active power scheme and returns a GUID that identifies the scheme.
+helpviewer_keywords: ["PowerGetActiveScheme","PowerGetActiveScheme function","base.powergetactivescheme","powersetting/PowerGetActiveScheme","powrprof/PowerGetActiveScheme"]
 old-location: base\powergetactivescheme.htm
 tech.root: power
 ms.assetid: cd72562c-8987-40c1-89c7-04a95b5f1fd0

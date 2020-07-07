@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationVariable
 title: IUIAnimationVariable (uianimation.h)
-description: Defines an animation variable, which represents a visual element that can be animated.helpviewer_keywords: ["IUIAnimationVariable","IUIAnimationVariable interface [Windows Animation]","IUIAnimationVariable interface [Windows Animation]","described","uianimation.iuianimationvariable","uianimation/IUIAnimationVariable"]
+description: Defines an animation variable, which represents a visual element that can be animated.
+helpviewer_keywords: ["IUIAnimationVariable","IUIAnimationVariable interface [Windows Animation]","IUIAnimationVariable interface [Windows Animation]","described","uianimation.iuianimationvariable","uianimation/IUIAnimationVariable"]
 old-location: uianimation\iuianimationvariable.htm
 tech.root: UIAnimation
 ms.assetid: 1632e62d-6e82-4841-8823-f6b60efc4298

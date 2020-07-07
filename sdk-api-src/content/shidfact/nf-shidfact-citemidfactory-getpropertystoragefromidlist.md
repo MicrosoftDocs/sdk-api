@@ -1,7 +1,8 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetPropertyStorageFromIDList
 title: CItemIDFactory::GetPropertyStorageFromIDList (shidfact.h)
-description: Create an instance of the IPropertyStore based on the serialized property storage associated with the first ItemID.helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","GetPropertyStorageFromIDList method","CItemIDFactory.GetPropertyStorageFromIDList","CItemIDFactory::GetPropertyStorageFromIDList","GetPropertyStorageFromIDList","GetPropertyStorageFromIDList method [Windows Shell]","GetPropertyStorageFromIDList method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_getpropertystoragefromidlist","shidfact/CItemIDFactory::GetPropertyStorageFromIDList"]
+description: Create an instance of the IPropertyStore based on the serialized property storage associated with the first ItemID.
+helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","GetPropertyStorageFromIDList method","CItemIDFactory.GetPropertyStorageFromIDList","CItemIDFactory::GetPropertyStorageFromIDList","GetPropertyStorageFromIDList","GetPropertyStorageFromIDList method [Windows Shell]","GetPropertyStorageFromIDList method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_getpropertystoragefromidlist","shidfact/CItemIDFactory::GetPropertyStorageFromIDList"]
 old-location: shell\citemidfactory_getpropertystoragefromidlist.htm
 tech.root: shell
 ms.assetid: 50E8F4F9-1E7B-4314-9AFB-1CA0795776FE

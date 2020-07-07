@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.FindExportedTypeByName
 title: IMetaDataAssemblyImport::FindExportedTypeByName (rometadataapi.h)
-description: Gets a pointer to an exported type, given its name and enclosing type.helpviewer_keywords: ["FindExportedTypeByName","FindExportedTypeByName method [Windows Runtime]","FindExportedTypeByName method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","FindExportedTypeByName method","IMetaDataAssemblyImport.FindExportedTypeByName","IMetaDataAssemblyImport::FindExportedTypeByName","rometadataapi/IMetaDataAssemblyImport::FindExportedTypeByName","winrt.imetadataassemblyimport_findexportedtypebyname"]
+description: Gets a pointer to an exported type, given its name and enclosing type.
+helpviewer_keywords: ["FindExportedTypeByName","FindExportedTypeByName method [Windows Runtime]","FindExportedTypeByName method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","FindExportedTypeByName method","IMetaDataAssemblyImport.FindExportedTypeByName","IMetaDataAssemblyImport::FindExportedTypeByName","rometadataapi/IMetaDataAssemblyImport::FindExportedTypeByName","winrt.imetadataassemblyimport_findexportedtypebyname"]
 old-location: winrt\imetadataassemblyimport_findexportedtypebyname.htm
 tech.root: WinRT
 ms.assetid: 2b19b41c-fd1b-4284-8455-2b0d69907c99

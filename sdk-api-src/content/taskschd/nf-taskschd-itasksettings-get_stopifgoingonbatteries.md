@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskSettings.get_StopIfGoingOnBatteries
 title: ITaskSettings::get_StopIfGoingOnBatteries (taskschd.h)
-description: Gets or sets a Boolean value that indicates that the task will be stopped if the computer is going onto batteries.helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","StopIfGoingOnBatteries property","ITaskSettings.StopIfGoingOnBatteries","ITaskSettings.get_StopIfGoingOnBatteries","ITaskSettings::StopIfGoingOnBatteries","ITaskSettings::get_StopIfGoingOnBatteries","ITaskSettings::put_StopIfGoingOnBatteries","StopIfGoingOnBatteries property [Task Scheduler]","StopIfGoingOnBatteries property [Task Scheduler]","ITaskSettings interface","get_StopIfGoingOnBatteries","taskschd.itasksettings_stopifgoingonbatteries","taskschd/ITaskSettings::StopIfGoingOnBatteries","taskschd/ITaskSettings::get_StopIfGoingOnBatteries","taskschd/ITaskSettings::put_StopIfGoingOnBatteries"]
+description: Gets or sets a Boolean value that indicates that the task will be stopped if the computer is going onto batteries.
+helpviewer_keywords: ["ITaskSettings interface [Task Scheduler]","StopIfGoingOnBatteries property","ITaskSettings.StopIfGoingOnBatteries","ITaskSettings.get_StopIfGoingOnBatteries","ITaskSettings::StopIfGoingOnBatteries","ITaskSettings::get_StopIfGoingOnBatteries","ITaskSettings::put_StopIfGoingOnBatteries","StopIfGoingOnBatteries property [Task Scheduler]","StopIfGoingOnBatteries property [Task Scheduler]","ITaskSettings interface","get_StopIfGoingOnBatteries","taskschd.itasksettings_stopifgoingonbatteries","taskschd/ITaskSettings::StopIfGoingOnBatteries","taskschd/ITaskSettings::get_StopIfGoingOnBatteries","taskschd/ITaskSettings::put_StopIfGoingOnBatteries"]
 old-location: taskschd\itasksettings_stopifgoingonbatteries.htm
 tech.root: taskschd
 ms.assetid: 84647124-8cb2-47f9-a86c-80bb2a629c88

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.GetAdjustedPalette
 title: ImageAttributes::GetAdjustedPalette (gdiplusimageattributes.h)
-description: The ImageAttributes::GetAdjustedPalette method adjusts the colors in a palette according to the adjustment settings of a specified category.helpviewer_keywords: ["GetAdjustedPalette","GetAdjustedPalette method [GDI+]","GetAdjustedPalette method [GDI+]","ImageAttributes class","ImageAttributes class [GDI+]","GetAdjustedPalette method","ImageAttributes.GetAdjustedPalette","ImageAttributes::GetAdjustedPalette","_gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_","gdiplus._gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_"]
+description: The ImageAttributes::GetAdjustedPalette method adjusts the colors in a palette according to the adjustment settings of a specified category.
+helpviewer_keywords: ["GetAdjustedPalette","GetAdjustedPalette method [GDI+]","GetAdjustedPalette method [GDI+]","ImageAttributes class","ImageAttributes class [GDI+]","GetAdjustedPalette method","ImageAttributes.GetAdjustedPalette","ImageAttributes::GetAdjustedPalette","_gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_","gdiplus._gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_GetAdjustedPalette_colorPalette_colorAdjustType_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\getadjustedpalette.htm

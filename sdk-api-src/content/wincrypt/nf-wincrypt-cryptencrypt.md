@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptEncrypt
 title: CryptEncrypt function (wincrypt.h)
-description: Encrypts data. The algorithm used to encrypt the data is designated by the key held by the CSP module and is referenced by the hKey parameter.helpviewer_keywords: ["CRYPT_OAEP","CryptEncrypt","CryptEncrypt function [Security]","_crypto2_cryptencrypt","security.cryptencrypt","wincrypt/CryptEncrypt"]
+description: Encrypts data. The algorithm used to encrypt the data is designated by the key held by the CSP module and is referenced by the hKey parameter.
+helpviewer_keywords: ["CRYPT_OAEP","CryptEncrypt","CryptEncrypt function [Security]","_crypto2_cryptencrypt","security.cryptencrypt","wincrypt/CryptEncrypt"]
 old-location: security\cryptencrypt.htm
 tech.root: SecCrypto
 ms.assetid: 697c4960-552b-4c3a-95cf-4632af56945b

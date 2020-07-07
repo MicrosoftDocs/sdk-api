@@ -1,7 +1,8 @@
 ---
 UID: NE:mfidl.__MIDL___MIDL_itf_mfidl_0000_0109_0002
 title: MFSensorStreamType (mfidl.h)
-description: Specifies whether a stream associated with an IMFSensorDevice is an input or an output stream.helpviewer_keywords: ["MFSensorStreamType","MFSensorStreamType enumeration [Media Foundation]","MFSensorStreamType_Input","MFSensorStreamType_Output","MFSensorStreamType_Unknown","mf.mfsensorstreamtype","mfidl/MFSensorStreamType","mfidl/MFSensorStreamType_Input","mfidl/MFSensorStreamType_Output","mfidl/MFSensorStreamType_Unknown"]
+description: Specifies whether a stream associated with an IMFSensorDevice is an input or an output stream.
+helpviewer_keywords: ["MFSensorStreamType","MFSensorStreamType enumeration [Media Foundation]","MFSensorStreamType_Input","MFSensorStreamType_Output","MFSensorStreamType_Unknown","mf.mfsensorstreamtype","mfidl/MFSensorStreamType","mfidl/MFSensorStreamType_Input","mfidl/MFSensorStreamType_Output","mfidl/MFSensorStreamType_Unknown"]
 old-location: mf\mfsensorstreamtype.htm
 tech.root: medfound
 ms.assetid: 598AE9EC-3B8D-419A-A6A9-02DCDD459162

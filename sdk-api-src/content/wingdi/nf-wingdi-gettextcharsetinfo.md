@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetTextCharsetInfo
 title: GetTextCharsetInfo function (wingdi.h)
-description: Retrieves information about the character set of the font that is currently selected into a specified device context.helpviewer_keywords: ["GetTextCharsetInfo","GetTextCharsetInfo function [Internationalization for Windows Applications]","_win32_GetTextCharsetInfo","intl.gettextcharsetinfo","wingdi/GetTextCharsetInfo"]
+description: Retrieves information about the character set of the font that is currently selected into a specified device context.
+helpviewer_keywords: ["GetTextCharsetInfo","GetTextCharsetInfo function [Internationalization for Windows Applications]","_win32_GetTextCharsetInfo","intl.gettextcharsetinfo","wingdi/GetTextCharsetInfo"]
 old-location: intl\gettextcharsetinfo.htm
 tech.root: Intl
 ms.assetid: 1c8c114a-b261-457c-b541-4648a8f38ee8

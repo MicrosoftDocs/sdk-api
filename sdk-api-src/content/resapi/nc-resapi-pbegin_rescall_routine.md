@@ -1,7 +1,8 @@
 ---
 UID: NC:resapi.PBEGIN_RESCALL_ROUTINE
 title: PBEGIN_RESCALL_ROUTINE (resapi.h)
-description: Starts a call to a resource control code. The PBEGIN_RESCALL_ROUTINE type defines a pointer to this callback function.helpviewer_keywords: ["BeginResourceControl","BeginResourceControl callback","BeginResourceControl callback function [Failover Cluster]","PBEGIN_RESCALL_ROUTINE","PBEGIN_RESCALL_ROUTINE callback function [Failover Cluster]","mscs.beginresourcecontrol","resapi/BeginResourceControl","resapi/PBEGIN_RESCALL_ROUTINE"]
+description: Starts a call to a resource control code. The PBEGIN_RESCALL_ROUTINE type defines a pointer to this callback function.
+helpviewer_keywords: ["BeginResourceControl","BeginResourceControl callback","BeginResourceControl callback function [Failover Cluster]","PBEGIN_RESCALL_ROUTINE","PBEGIN_RESCALL_ROUTINE callback function [Failover Cluster]","mscs.beginresourcecontrol","resapi/BeginResourceControl","resapi/PBEGIN_RESCALL_ROUTINE"]
 old-location: mscs\beginresourcecontrol.htm
 tech.root: MsCS
 ms.assetid: 1B95607F-658A-469D-8935-DF7E537D1509

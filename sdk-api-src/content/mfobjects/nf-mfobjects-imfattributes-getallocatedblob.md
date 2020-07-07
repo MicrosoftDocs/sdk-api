@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFAttributes.GetAllocatedBlob
 title: IMFAttributes::GetAllocatedBlob (mfobjects.h)
-description: Retrieves a byte array associated with a key. This method allocates the memory for the array.helpviewer_keywords: ["380e0e3a-b5c5-4d31-8793-417262377fef","GetAllocatedBlob","GetAllocatedBlob method [Media Foundation]","GetAllocatedBlob method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetAllocatedBlob method","IMFAttributes.GetAllocatedBlob","IMFAttributes::GetAllocatedBlob","mf.imfattributes_getallocatedblob","mfobjects/IMFAttributes::GetAllocatedBlob"]
+description: Retrieves a byte array associated with a key. This method allocates the memory for the array.
+helpviewer_keywords: ["380e0e3a-b5c5-4d31-8793-417262377fef","GetAllocatedBlob","GetAllocatedBlob method [Media Foundation]","GetAllocatedBlob method [Media Foundation]","IMFAttributes interface","IMFAttributes interface [Media Foundation]","GetAllocatedBlob method","IMFAttributes.GetAllocatedBlob","IMFAttributes::GetAllocatedBlob","mf.imfattributes_getallocatedblob","mfobjects/IMFAttributes::GetAllocatedBlob"]
 old-location: mf\imfattributes_getallocatedblob.htm
 tech.root: medfound
 ms.assetid: 380e0e3a-b5c5-4d31-8793-417262377fef

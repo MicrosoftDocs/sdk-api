@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellItem2.GetPropertyStore
 title: IShellItem2::GetPropertyStore (shobjidl_core.h)
-description: Gets a property store object for specified property store flags.helpviewer_keywords: ["GetPropertyStore","GetPropertyStore method [Windows Shell]","GetPropertyStore method [Windows Shell]","IShellItem2 interface","IShellItem2 interface [Windows Shell]","GetPropertyStore method","IShellItem2.GetPropertyStore","IShellItem2::GetPropertyStore","_shell_IShellItem2_GetPropertyStore","shell.IShellItem2_GetPropertyStore","shobjidl_core/IShellItem2::GetPropertyStore"]
+description: Gets a property store object for specified property store flags.
+helpviewer_keywords: ["GetPropertyStore","GetPropertyStore method [Windows Shell]","GetPropertyStore method [Windows Shell]","IShellItem2 interface","IShellItem2 interface [Windows Shell]","GetPropertyStore method","IShellItem2.GetPropertyStore","IShellItem2::GetPropertyStore","_shell_IShellItem2_GetPropertyStore","shell.IShellItem2_GetPropertyStore","shobjidl_core/IShellItem2::GetPropertyStore"]
 old-location: shell\IShellItem2_GetPropertyStore.htm
 tech.root: shell
 ms.assetid: 706b2551-a9b0-4368-babb-e54cea6d297e

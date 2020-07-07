@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IObjMgr.Append
 title: IObjMgr::Append (shlobj_core.h)
-description: Appends an object to the collection of managed objects.helpviewer_keywords: ["Append","Append method [Windows Shell]","Append method [Windows Shell]","IObjMgr interface","IObjMgr interface [Windows Shell]","Append method","IObjMgr.Append","IObjMgr::Append","_win32_IObjMgr_Append","shell.IObjMgr_Append","shlobj_core/IObjMgr::Append"]
+description: Appends an object to the collection of managed objects.
+helpviewer_keywords: ["Append","Append method [Windows Shell]","Append method [Windows Shell]","IObjMgr interface","IObjMgr interface [Windows Shell]","Append method","IObjMgr.Append","IObjMgr::Append","_win32_IObjMgr_Append","shell.IObjMgr_Append","shlobj_core/IObjMgr::Append"]
 old-location: shell\IObjMgr_Append.htm
 tech.root: shell
 ms.assetid: a616f6d1-c1dc-4c1f-acf7-915cb0f722d6

@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICSectionAccessLevel
 title: WICSectionAccessLevel (wincodec.h)
-description: Specifies the access level of a Windows Graphics Device Interface (GDI) section.helpviewer_keywords: ["WICSectionAccessLevel","WICSectionAccessLevel enumeration [Windows Imaging Component]","WICSectionAccessLevelRead","WICSectionAccessLevelReadWrite","_wic_codec_wicsectionaccesslevel","wic._wic_codec_wicsectionaccesslevel","wincodec/WICSectionAccessLevel","wincodec/WICSectionAccessLevelRead","wincodec/WICSectionAccessLevelReadWrite"]
+description: Specifies the access level of a Windows Graphics Device Interface (GDI) section.
+helpviewer_keywords: ["WICSectionAccessLevel","WICSectionAccessLevel enumeration [Windows Imaging Component]","WICSectionAccessLevelRead","WICSectionAccessLevelReadWrite","_wic_codec_wicsectionaccesslevel","wic._wic_codec_wicsectionaccesslevel","wincodec/WICSectionAccessLevel","wincodec/WICSectionAccessLevelRead","wincodec/WICSectionAccessLevelReadWrite"]
 old-location: wic\_wic_codec_wicsectionaccesslevel.htm
 tech.root: wic
 ms.assetid: 4b08bc8c-d67c-4bc4-a701-2903a971a478

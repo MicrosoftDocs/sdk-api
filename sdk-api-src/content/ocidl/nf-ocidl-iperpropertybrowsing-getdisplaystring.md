@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPerPropertyBrowsing.GetDisplayString
 title: IPerPropertyBrowsing::GetDisplayString (ocidl.h)
-description: Retrieves a text string describing the specified property.helpviewer_keywords: ["GetDisplayString","GetDisplayString method [COM]","GetDisplayString method [COM]","IPerPropertyBrowsing interface","IPerPropertyBrowsing interface [COM]","GetDisplayString method","IPerPropertyBrowsing.GetDisplayString","IPerPropertyBrowsing::GetDisplayString","_ctrl_iperpropertybrowsing_getdisplaystring","com.iperpropertybrowsing_getdisplaystring","ocidl/IPerPropertyBrowsing::GetDisplayString"]
+description: Retrieves a text string describing the specified property.
+helpviewer_keywords: ["GetDisplayString","GetDisplayString method [COM]","GetDisplayString method [COM]","IPerPropertyBrowsing interface","IPerPropertyBrowsing interface [COM]","GetDisplayString method","IPerPropertyBrowsing.GetDisplayString","IPerPropertyBrowsing::GetDisplayString","_ctrl_iperpropertybrowsing_getdisplaystring","com.iperpropertybrowsing_getdisplaystring","ocidl/IPerPropertyBrowsing::GetDisplayString"]
 old-location: com\iperpropertybrowsing_getdisplaystring.htm
 tech.root: com
 ms.assetid: 949d7d12-de59-441d-ac0f-e18f050d005d

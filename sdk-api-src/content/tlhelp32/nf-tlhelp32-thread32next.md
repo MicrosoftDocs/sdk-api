@@ -1,7 +1,8 @@
 ---
 UID: NF:tlhelp32.Thread32Next
 title: Thread32Next function (tlhelp32.h)
-description: Retrieves information about the next thread of any process encountered in the system memory snapshot.helpviewer_keywords: ["Thread32Next","Thread32Next function [ToolHelp]","_win32_thread32next","base.thread32next","tlhelp32/Thread32Next","toolhelp.thread32next"]
+description: Retrieves information about the next thread of any process encountered in the system memory snapshot.
+helpviewer_keywords: ["Thread32Next","Thread32Next function [ToolHelp]","_win32_thread32next","base.thread32next","tlhelp32/Thread32Next","toolhelp.thread32next"]
 old-location: toolhelp\thread32next.htm
 tech.root: ToolHelp
 ms.assetid: 5efe514e-626c-4138-97a0-bdad217c424f

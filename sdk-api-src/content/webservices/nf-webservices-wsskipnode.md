@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsSkipNode
 title: WsSkipNode function (webservices.h)
-description: Advances the reader in the input stream.helpviewer_keywords: ["WsSkipNode","WsSkipNode function [Web Services for Windows]","webservices/WsSkipNode","wsw.wsskipnode"]
+description: Advances the reader in the input stream.
+helpviewer_keywords: ["WsSkipNode","WsSkipNode function [Web Services for Windows]","webservices/WsSkipNode","wsw.wsskipnode"]
 old-location: wsw\wsskipnode.htm
 tech.root: wsw
 ms.assetid: 90eda6f1-dda2-4595-90f5-029768278f5b

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IProfferService.ProfferService
 title: IProfferService::ProfferService (shobjidl_core.h)
-description: Makes a service available to other objects on the same host.helpviewer_keywords: ["IProfferService interface [Windows Shell]","ProfferService method","IProfferService.ProfferService","IProfferService::ProfferService","ProfferService","ProfferService method [Windows Shell]","ProfferService method [Windows Shell]","IProfferService interface","inet_IProfferService_ProfferService","shell.IProfferService_ProfferService","shobjidl_core/IProfferService::ProfferService"]
+description: Makes a service available to other objects on the same host.
+helpviewer_keywords: ["IProfferService interface [Windows Shell]","ProfferService method","IProfferService.ProfferService","IProfferService::ProfferService","ProfferService","ProfferService method [Windows Shell]","ProfferService method [Windows Shell]","IProfferService interface","inet_IProfferService_ProfferService","shell.IProfferService_ProfferService","shobjidl_core/IProfferService::ProfferService"]
 old-location: shell\IProfferService_ProfferService.htm
 tech.root: shell
 ms.assetid: ebd6003d-ac8f-4e5e-9d90-c7e5688bedaa

@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICStream
 title: IWICStream (wincodec.h)
-description: Represents a Windows Imaging Component (WIC) stream for referencing imaging and metadata content.helpviewer_keywords: ["IWICStream","IWICStream interface [Windows Imaging Component]","IWICStream interface [Windows Imaging Component]","described","_wic_codec_iwicstream","wic._wic_codec_iwicstream","wincodec/IWICStream"]
+description: Represents a Windows Imaging Component (WIC) stream for referencing imaging and metadata content.
+helpviewer_keywords: ["IWICStream","IWICStream interface [Windows Imaging Component]","IWICStream interface [Windows Imaging Component]","described","_wic_codec_iwicstream","wic._wic_codec_iwicstream","wincodec/IWICStream"]
 old-location: wic\_wic_codec_iwicstream.htm
 tech.root: wic
 ms.assetid: bc398732-037d-4f48-940f-c70975447972

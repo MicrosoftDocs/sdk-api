@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvStrokeAndFillPath
 title: DrvStrokeAndFillPath function (winddi.h)
-description: The DrvStrokeAndFillPath function strokes (outlines) and fills a path concurrently.helpviewer_keywords: ["DrvStrokeAndFillPath","DrvStrokeAndFillPath function [Display Devices]","ddifncs_ca3b1895-31d0-4c1b-b47c-df61ccef2afa.xml","display.drvstrokeandfillpath","winddi/DrvStrokeAndFillPath"]
+description: The DrvStrokeAndFillPath function strokes (outlines) and fills a path concurrently.
+helpviewer_keywords: ["DrvStrokeAndFillPath","DrvStrokeAndFillPath function [Display Devices]","ddifncs_ca3b1895-31d0-4c1b-b47c-df61ccef2afa.xml","display.drvstrokeandfillpath","winddi/DrvStrokeAndFillPath"]
 old-location: display\drvstrokeandfillpath.htm
 tech.root: display
 ms.assetid: 92a04fe5-146d-4839-a854-1ac50705b447

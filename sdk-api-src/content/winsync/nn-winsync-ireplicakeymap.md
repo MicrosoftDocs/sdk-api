@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.IReplicaKeyMap
 title: IReplicaKeyMap (winsync.h)
-description: Represents a mapping between replica keys and replica IDs.helpviewer_keywords: ["IReplicaKeyMap","IReplicaKeyMap interface [Windows Sync]","IReplicaKeyMap interface [Windows Sync]","described","winsync.ireplicakeymap","winsync/IReplicaKeyMap"]
+description: Represents a mapping between replica keys and replica IDs.
+helpviewer_keywords: ["IReplicaKeyMap","IReplicaKeyMap interface [Windows Sync]","IReplicaKeyMap interface [Windows Sync]","described","winsync.ireplicakeymap","winsync/IReplicaKeyMap"]
 old-location: winsync\ireplicakeymap.htm
 tech.root: winsync
 ms.assetid: 3c195842-316a-4c49-ace4-444fa4a38ad2

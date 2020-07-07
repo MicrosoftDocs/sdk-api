@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj.tagAAMENUFILENAME
 title: AASHELLMENUFILENAME (shlobj.h)
-description: A variable-size structure that contains information about a menu file name.helpviewer_keywords: ["*LPAASHELLMENUFILENAME","AASHELLMENUFILENAME","AASHELLMENUFILENAME structure [Windows Shell]","LPAASHELLMENUFILENAME","LPAASHELLMENUFILENAME structure pointer [Windows Shell]","_win32_AASHELLMENUFILENAME_str","shell.AASHELLMENUFILENAME_str","shlobj/AASHELLMENUFILENAME","shlobj/LPAASHELLMENUFILENAME"]
+description: A variable-size structure that contains information about a menu file name.
+helpviewer_keywords: ["*LPAASHELLMENUFILENAME","AASHELLMENUFILENAME","AASHELLMENUFILENAME structure [Windows Shell]","LPAASHELLMENUFILENAME","LPAASHELLMENUFILENAME structure pointer [Windows Shell]","_win32_AASHELLMENUFILENAME_str","shell.AASHELLMENUFILENAME_str","shlobj/AASHELLMENUFILENAME","shlobj/LPAASHELLMENUFILENAME"]
 old-location: shell\AASHELLMENUFILENAME_str.htm
 tech.root: shell
 ms.assetid: f84e837f-61b0-4df4-9ff7-dc2d3d898d99

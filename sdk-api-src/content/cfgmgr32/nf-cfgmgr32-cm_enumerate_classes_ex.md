@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Enumerate_Classes_Ex
 title: CM_Enumerate_Classes_Ex function (cfgmgr32.h)
-description: The CM_Enumerate_Classes_Ex function, when called repeatedly, enumerates a local or a remote machine's installed device classes, by supplying each class's GUID.helpviewer_keywords: ["CM_Enumerate_Classes_Ex","CM_Enumerate_Classes_Ex function [Device and Driver Installation]","cfgmgr32/CM_Enumerate_Classes_Ex","cfgmgrfn_586eceae-046e-4e4a-8763-e287b039585e.xml","devinst.cm_enumerate_classes_ex"]
+description: The CM_Enumerate_Classes_Ex function, when called repeatedly, enumerates a local or a remote machine's installed device classes, by supplying each class's GUID.
+helpviewer_keywords: ["CM_Enumerate_Classes_Ex","CM_Enumerate_Classes_Ex function [Device and Driver Installation]","cfgmgr32/CM_Enumerate_Classes_Ex","cfgmgrfn_586eceae-046e-4e4a-8763-e287b039585e.xml","devinst.cm_enumerate_classes_ex"]
 old-location: devinst\cm_enumerate_classes_ex.htm
 tech.root: devinst
 ms.assetid: 8dce071c-3f91-42c2-a334-ec1051b6436a

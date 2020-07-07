@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapFrameEncode.GetMetadataQueryWriter
 title: IWICBitmapFrameEncode::GetMetadataQueryWriter (wincodec.h)
-description: Gets the metadata query writer for the encoder frame.helpviewer_keywords: ["GetMetadataQueryWriter","GetMetadataQueryWriter method [Windows Imaging Component]","GetMetadataQueryWriter method [Windows Imaging Component]","IWICBitmapFrameEncode interface","IWICBitmapFrameEncode interface [Windows Imaging Component]","GetMetadataQueryWriter method","IWICBitmapFrameEncode.GetMetadataQueryWriter","IWICBitmapFrameEncode::GetMetadataQueryWriter","_wic_codec_iwicbitmapframeencode_getmetadataquerywriter","wic._wic_codec_iwicbitmapframeencode_getmetadataquerywriter","wincodec/IWICBitmapFrameEncode::GetMetadataQueryWriter"]
+description: Gets the metadata query writer for the encoder frame.
+helpviewer_keywords: ["GetMetadataQueryWriter","GetMetadataQueryWriter method [Windows Imaging Component]","GetMetadataQueryWriter method [Windows Imaging Component]","IWICBitmapFrameEncode interface","IWICBitmapFrameEncode interface [Windows Imaging Component]","GetMetadataQueryWriter method","IWICBitmapFrameEncode.GetMetadataQueryWriter","IWICBitmapFrameEncode::GetMetadataQueryWriter","_wic_codec_iwicbitmapframeencode_getmetadataquerywriter","wic._wic_codec_iwicbitmapframeencode_getmetadataquerywriter","wincodec/IWICBitmapFrameEncode::GetMetadataQueryWriter"]
 old-location: wic\_wic_codec_iwicbitmapframeencode_getmetadataquerywriter.htm
 tech.root: wic
 ms.assetid: 0ff79820-5f44-4262-b97f-df783829e44b

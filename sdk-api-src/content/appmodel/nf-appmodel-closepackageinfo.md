@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.ClosePackageInfo
 title: ClosePackageInfo function (appmodel.h)
-description: Closes a reference to the specified package information.helpviewer_keywords: ["ClosePackageInfo","ClosePackageInfo function [App packaging and management]","appmodel/ClosePackageInfo","appxpkg.closepackageinfo"]
+description: Closes a reference to the specified package information.
+helpviewer_keywords: ["ClosePackageInfo","ClosePackageInfo function [App packaging and management]","appmodel/ClosePackageInfo","appxpkg.closepackageinfo"]
 old-location: appxpkg\closepackageinfo.htm
 tech.root: appxpkg
 ms.assetid: BA84FB47-F241-4120-9441-7E1149F68738

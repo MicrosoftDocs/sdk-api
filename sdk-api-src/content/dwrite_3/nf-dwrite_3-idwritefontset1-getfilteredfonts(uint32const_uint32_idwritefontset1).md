@@ -1,7 +1,8 @@
 ---
-UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFonts(UINT32 const,UINT32,IDWriteFontSet1)
+UID: NF:dwrite_3.IDWriteFontSet1.GetFilteredFonts(UINT32const,UINT32,IDWriteFontSet1)
 title: IDWriteFontSet1::GetFilteredFonts
-description: Retrieves a subset of fonts, filtered by the given indices.helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFilteredFonts method","IDWriteFontSet1.GetFilteredFonts","IDWriteFontSet1::GetFilteredFonts","GetFilteredFonts","GetFilteredFonts method [Direct Write]","GetFilteredFonts method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfilteredfonts","dwrite_3/IDWriteFontSet1::GetFilteredFonts"]
+description: Retrieves a subset of fonts, filtered by the given indices.
+helpviewer_keywords: ["IDWriteFontSet1 interface [Direct Write]","GetFilteredFonts method","IDWriteFontSet1.GetFilteredFonts","IDWriteFontSet1::GetFilteredFonts","GetFilteredFonts","GetFilteredFonts method [Direct Write]","GetFilteredFonts method [Direct Write]","IDWriteFontSet1 interface","directwrite.idwritefontset1_getfilteredfonts","dwrite_3/IDWriteFontSet1::GetFilteredFonts"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSet1 interface [Direct Write],GetFilteredFonts method, IDWriteFontSet1.GetFilteredFonts, IDWriteFontSet1::GetFilteredFonts, GetFilteredFonts, GetFilteredFonts method [Direct Write], GetFilteredFonts method [Direct Write],IDWriteFontSet1 interface, directwrite.idwritefontset1_getfilteredfonts, dwrite_3/IDWriteFontSet1::GetFilteredFonts

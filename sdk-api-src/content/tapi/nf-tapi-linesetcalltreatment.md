@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineSetCallTreatment
 title: lineSetCallTreatment function (tapi.h)
-description: The lineSetCallTreatment function sets the sounds a party on a call that is unanswered or on hold hears. Except for basic parameter validation, it is a straight pass-through by TAPI to the service provider.helpviewer_keywords: ["_tapi2_linesetcalltreatment","lineSetCallTreatment","lineSetCallTreatment function [TAPI 2.2]","tapi/lineSetCallTreatment","tapi2.linesetcalltreatment"]
+description: The lineSetCallTreatment function sets the sounds a party on a call that is unanswered or on hold hears. Except for basic parameter validation, it is a straight pass-through by TAPI to the service provider.
+helpviewer_keywords: ["_tapi2_linesetcalltreatment","lineSetCallTreatment","lineSetCallTreatment function [TAPI 2.2]","tapi/lineSetCallTreatment","tapi2.linesetcalltreatment"]
 old-location: tapi2\linesetcalltreatment.htm
 tech.root: Tapi
 ms.assetid: 0f1a3303-f6c3-4a5f-99bd-35e107c9b0b0

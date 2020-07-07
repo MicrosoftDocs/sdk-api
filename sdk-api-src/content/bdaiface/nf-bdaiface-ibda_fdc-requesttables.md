@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_FDC.RequestTables
 title: IBDA_FDC::RequestTables (bdaiface.h)
-description: Requests MPEG-2 table sections, filtered by table identifier (TID).helpviewer_keywords: ["IBDA_FDC interface [Microsoft TV Technologies]","RequestTables method","IBDA_FDC.RequestTables","IBDA_FDC::RequestTables","RequestTables","RequestTables method [Microsoft TV Technologies]","RequestTables method [Microsoft TV Technologies]","IBDA_FDC interface","bdaiface/IBDA_FDC::RequestTables","mstv.ibda_fdc_requesttables"]
+description: Requests MPEG-2 table sections, filtered by table identifier (TID).
+helpviewer_keywords: ["IBDA_FDC interface [Microsoft TV Technologies]","RequestTables method","IBDA_FDC.RequestTables","IBDA_FDC::RequestTables","RequestTables","RequestTables method [Microsoft TV Technologies]","RequestTables method [Microsoft TV Technologies]","IBDA_FDC interface","bdaiface/IBDA_FDC::RequestTables","mstv.ibda_fdc_requesttables"]
 old-location: mstv\ibda_fdc_requesttables.htm
 tech.root: mstv
 ms.assetid: ff8483d3-6c4c-4786-a99b-bf3575a18fdb

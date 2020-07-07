@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3cc.ITQueue.put_MeasurementPeriod
 title: ITQueue::put_MeasurementPeriod (tapi3cc.h)
-description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information.helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","put_MeasurementPeriod method","ITQueue.put_MeasurementPeriod","ITQueue::put_MeasurementPeriod","_tapi3_itqueue_put_measurementperiod","put_MeasurementPeriod","put_MeasurementPeriod method [TAPI 2.2]","put_MeasurementPeriod method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_put_measurementperiod","tapi3cc/ITQueue::put_MeasurementPeriod"]
+description: The put_MeasurementPeriod method sets the period (in seconds) for which the switch and/or implementation stores and calculates information.
+helpviewer_keywords: ["ITQueue interface [TAPI 2.2]","put_MeasurementPeriod method","ITQueue.put_MeasurementPeriod","ITQueue::put_MeasurementPeriod","_tapi3_itqueue_put_measurementperiod","put_MeasurementPeriod","put_MeasurementPeriod method [TAPI 2.2]","put_MeasurementPeriod method [TAPI 2.2]","ITQueue interface","tapi3.itqueue_put_measurementperiod","tapi3cc/ITQueue::put_MeasurementPeriod"]
 old-location: tapi3\itqueue_put_measurementperiod.htm
 tech.root: Tapi
 ms.assetid: 9e32b2ae-c4e5-4624-b970-673c950dee3b

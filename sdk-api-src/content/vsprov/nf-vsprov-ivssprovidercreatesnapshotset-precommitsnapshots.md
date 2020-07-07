@@ -1,7 +1,8 @@
 ---
 UID: NF:vsprov.IVssProviderCreateSnapshotSet.PreCommitSnapshots
 title: IVssProviderCreateSnapshotSet::PreCommitSnapshots (vsprov.h)
-description: Ensures the provider is ready to quickly commit the prepared LUNs.helpviewer_keywords: ["IVssProviderCreateSnapshotSet interface [VSS]","PreCommitSnapshots method","IVssProviderCreateSnapshotSet.PreCommitSnapshots","IVssProviderCreateSnapshotSet::PreCommitSnapshots","PreCommitSnapshots","PreCommitSnapshots method [VSS]","PreCommitSnapshots method [VSS]","IVssProviderCreateSnapshotSet interface","base.ivssprovidercreatesnapshotset_precommitsnapshots","vsprov/IVssProviderCreateSnapshotSet::PreCommitSnapshots"]
+description: Ensures the provider is ready to quickly commit the prepared LUNs.
+helpviewer_keywords: ["IVssProviderCreateSnapshotSet interface [VSS]","PreCommitSnapshots method","IVssProviderCreateSnapshotSet.PreCommitSnapshots","IVssProviderCreateSnapshotSet::PreCommitSnapshots","PreCommitSnapshots","PreCommitSnapshots method [VSS]","PreCommitSnapshots method [VSS]","IVssProviderCreateSnapshotSet interface","base.ivssprovidercreatesnapshotset_precommitsnapshots","vsprov/IVssProviderCreateSnapshotSet::PreCommitSnapshots"]
 old-location: base\ivssprovidercreatesnapshotset_precommitsnapshots.htm
 tech.root: VSS
 ms.assetid: af1caf80-751d-4b0d-8b35-970800d1dee6

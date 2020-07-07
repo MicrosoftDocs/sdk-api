@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFGetAttributeSize
 title: MFGetAttributeSize function (mfapi.h)
-description: Retrieves an attribute whose value is a size, expressed as a width and height.helpviewer_keywords: ["MFGetAttributeSize","MFGetAttributeSize function [Media Foundation]","c74445b2-a2ec-4c77-a8bf-61a6b54cef75","mf.mfgetattributesize","mfapi/MFGetAttributeSize"]
+description: Retrieves an attribute whose value is a size, expressed as a width and height.
+helpviewer_keywords: ["MFGetAttributeSize","MFGetAttributeSize function [Media Foundation]","c74445b2-a2ec-4c77-a8bf-61a6b54cef75","mf.mfgetattributesize","mfapi/MFGetAttributeSize"]
 old-location: mf\mfgetattributesize.htm
 tech.root: medfound
 ms.assetid: c74445b2-a2ec-4c77-a8bf-61a6b54cef75

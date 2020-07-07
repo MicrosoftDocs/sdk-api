@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplustypes.RectF.Intersect(IN const RectF &)
+UID: NF:gdiplustypes.RectF.Intersect(INconstRectF&)
 title: RectF::Intersect (gdiplustypes.h)
-description: This topic lists the Intersect methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.helpviewer_keywords: ["Intersect","Intersect methods [GDI+]","RectF.Intersect","RectF::Intersect","_gdiplus_CLASS_RectF_Intersect_Methods","gdiplus._gdiplus_CLASS_RectF_Intersect_Methods","gdiplustypes/Intersect"]
+description: This topic lists the Intersect methods of the RectF class. For a complete list of methods for the RectF class, see RectF Methods.
+helpviewer_keywords: ["Intersect","Intersect methods [GDI+]","RectF.Intersect","RectF::Intersect","_gdiplus_CLASS_RectF_Intersect_Methods","gdiplus._gdiplus_CLASS_RectF_Intersect_Methods","gdiplustypes/Intersect"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_Intersect_Methods.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfintersectmethods.htm

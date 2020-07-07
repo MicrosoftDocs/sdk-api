@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdate.get_SecurityBulletinIDs
 title: IUpdate::get_SecurityBulletinIDs (wuapi.h)
-description: Gets a collection of string values that contain the security bulletin IDs that are associated with the update.helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","SecurityBulletinIDs property","IUpdate.SecurityBulletinIDs","IUpdate.get_SecurityBulletinIDs","IUpdate::SecurityBulletinIDs","IUpdate::get_SecurityBulletinIDs","SecurityBulletinIDs property [Windows Update Agent]","SecurityBulletinIDs property [Windows Update Agent]","IUpdate interface","get_SecurityBulletinIDs","wua.iupdate_securitybulletinids","wuapi/IUpdate::SecurityBulletinIDs","wuapi/IUpdate::get_SecurityBulletinIDs"]
+description: Gets a collection of string values that contain the security bulletin IDs that are associated with the update.
+helpviewer_keywords: ["IUpdate interface [Windows Update Agent]","SecurityBulletinIDs property","IUpdate.SecurityBulletinIDs","IUpdate.get_SecurityBulletinIDs","IUpdate::SecurityBulletinIDs","IUpdate::get_SecurityBulletinIDs","SecurityBulletinIDs property [Windows Update Agent]","SecurityBulletinIDs property [Windows Update Agent]","IUpdate interface","get_SecurityBulletinIDs","wua.iupdate_securitybulletinids","wuapi/IUpdate::SecurityBulletinIDs","wuapi/IUpdate::get_SecurityBulletinIDs"]
 old-location: wua\iupdate_securitybulletinids.htm
 tech.root: Wua_Sdk
 ms.assetid: 63de677b-4a0e-4ac6-937f-bf195a0da205

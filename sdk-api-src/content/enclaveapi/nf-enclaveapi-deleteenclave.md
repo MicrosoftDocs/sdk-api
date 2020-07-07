@@ -1,7 +1,8 @@
 ---
 UID: NF:enclaveapi.DeleteEnclave
 title: DeleteEnclave function (enclaveapi.h)
-description: Deletes the specified enclave.helpviewer_keywords: ["DeleteEnclave","DeleteEnclave function","base.deleteenclave","enclaveapi/DeleteEnclave"]
+description: Deletes the specified enclave.
+helpviewer_keywords: ["DeleteEnclave","DeleteEnclave function","base.deleteenclave","enclaveapi/DeleteEnclave"]
 old-location: base\deleteenclave.htm
 tech.root: Memory
 ms.assetid: 04FCD129-3A3B-40EA-AD62-01C674CF2E61

@@ -1,7 +1,8 @@
 ---
 UID: NF:bits3_0.IEnumBitsPeers.Skip
 title: IEnumBitsPeers::Skip (bits3_0.h)
-description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.helpviewer_keywords: ["IEnumBitsPeers interface [BITS]","Skip method","IEnumBitsPeers.Skip","IEnumBitsPeers::Skip","Skip","Skip method [BITS]","Skip method [BITS]","IEnumBitsPeers interface","bits.ienumbitspeers_skip","bits3_0/IEnumBitsPeers::Skip"]
+description: Skips the next specified number of elements in the enumeration sequence. If there are fewer elements left in the sequence than the requested number of elements to skip, it skips past the last element in the sequence.
+helpviewer_keywords: ["IEnumBitsPeers interface [BITS]","Skip method","IEnumBitsPeers.Skip","IEnumBitsPeers::Skip","Skip","Skip method [BITS]","Skip method [BITS]","IEnumBitsPeers interface","bits.ienumbitspeers_skip","bits3_0/IEnumBitsPeers::Skip"]
 old-location: bits\ienumbitspeers_skip.htm
 tech.root: Bits
 ms.assetid: 23a9b424-11a3-4cbf-a867-93026f0725cc

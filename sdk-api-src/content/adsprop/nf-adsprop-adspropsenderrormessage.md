@@ -1,7 +1,8 @@
 ---
 UID: NF:adsprop.ADsPropSendErrorMessage
 title: ADsPropSendErrorMessage function (adsprop.h)
-description: The ADsPropSendErrorMessage function adds an error message to a list of error messages displayed by calling the ADsPropShowErrorDialog function.helpviewer_keywords: ["ADsPropSendErrorMessage","ADsPropSendErrorMessage function [Active Directory]","ad.adspropsenderrormessage","adsprop/ADsPropSendErrorMessage"]
+description: The ADsPropSendErrorMessage function adds an error message to a list of error messages displayed by calling the ADsPropShowErrorDialog function.
+helpviewer_keywords: ["ADsPropSendErrorMessage","ADsPropSendErrorMessage function [Active Directory]","ad.adspropsenderrormessage","adsprop/ADsPropSendErrorMessage"]
 old-location: ad\adspropsenderrormessage.htm
 tech.root: ad
 ms.assetid: a1ca8440-0b18-4439-9143-bd8119f4f6ae

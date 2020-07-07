@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.ErrorAdvise
 title: IPhotoAcquireProgressCB::ErrorAdvise (photoacquire.h)
-description: The ErrorAdvise method provides custom error handling for errors that occur during acquisition. The application provides the implementation of the ErrorAdvise method.helpviewer_keywords: ["ErrorAdvise","ErrorAdvise method [Picture Acquisition]","ErrorAdvise method [Picture Acquisition]","IPhotoAcquireProgressCB interface","IPhotoAcquireProgressCB interface [Picture Acquisition]","ErrorAdvise method","IPhotoAcquireProgressCB.ErrorAdvise","IPhotoAcquireProgressCB::ErrorAdvise","IPhotoAcquireProgressCBErrorAdvise","photoacquire/IPhotoAcquireProgressCB::ErrorAdvise","picacq.iphotoacquireprogresscb_erroradvise"]
+description: The ErrorAdvise method provides custom error handling for errors that occur during acquisition. The application provides the implementation of the ErrorAdvise method.
+helpviewer_keywords: ["ErrorAdvise","ErrorAdvise method [Picture Acquisition]","ErrorAdvise method [Picture Acquisition]","IPhotoAcquireProgressCB interface","IPhotoAcquireProgressCB interface [Picture Acquisition]","ErrorAdvise method","IPhotoAcquireProgressCB.ErrorAdvise","IPhotoAcquireProgressCB::ErrorAdvise","IPhotoAcquireProgressCBErrorAdvise","photoacquire/IPhotoAcquireProgressCB::ErrorAdvise","picacq.iphotoacquireprogresscb_erroradvise"]
 old-location: picacq\iphotoacquireprogresscb_erroradvise.htm
 tech.root: acquisition
 ms.assetid: 60454ae7-9be9-4414-9865-2b874bbe54c1

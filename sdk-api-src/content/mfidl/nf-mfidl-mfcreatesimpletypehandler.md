@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreateSimpleTypeHandler
 title: MFCreateSimpleTypeHandler function (mfidl.h)
-description: Creates a media-type handler that supports a single media type at a time.helpviewer_keywords: ["441bd03d-b314-4f26-ad67-e6997e5edc9d","MFCreateSimpleTypeHandler","MFCreateSimpleTypeHandler function [Media Foundation]","mf.mfcreatesimpletypehandler","mfidl/MFCreateSimpleTypeHandler"]
+description: Creates a media-type handler that supports a single media type at a time.
+helpviewer_keywords: ["441bd03d-b314-4f26-ad67-e6997e5edc9d","MFCreateSimpleTypeHandler","MFCreateSimpleTypeHandler function [Media Foundation]","mf.mfcreatesimpletypehandler","mfidl/MFCreateSimpleTypeHandler"]
 old-location: mf\mfcreatesimpletypehandler.htm
 tech.root: medfound
 ms.assetid: 441bd03d-b314-4f26-ad67-e6997e5edc9d

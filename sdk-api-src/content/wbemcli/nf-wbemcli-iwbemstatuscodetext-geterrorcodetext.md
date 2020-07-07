@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemcli.IWbemStatusCodeText.GetErrorCodeText
 title: IWbemStatusCodeText::GetErrorCodeText (wbemcli.h)
-description: Returns the text string description associated with the error code.helpviewer_keywords: ["GetErrorCodeText","GetErrorCodeText method [Windows Management Instrumentation]","GetErrorCodeText method [Windows Management Instrumentation]","IWbemStatusCodeText interface","IWbemStatusCodeText interface [Windows Management Instrumentation]","GetErrorCodeText method","IWbemStatusCodeText.GetErrorCodeText","IWbemStatusCodeText::GetErrorCodeText","_hmm_iwbemstatuscodetext_geterrorcodetext","wbemcli/IWbemStatusCodeText::GetErrorCodeText","wmi.iwbemstatuscodetext_geterrorcodetext"]
+description: Returns the text string description associated with the error code.
+helpviewer_keywords: ["GetErrorCodeText","GetErrorCodeText method [Windows Management Instrumentation]","GetErrorCodeText method [Windows Management Instrumentation]","IWbemStatusCodeText interface","IWbemStatusCodeText interface [Windows Management Instrumentation]","GetErrorCodeText method","IWbemStatusCodeText.GetErrorCodeText","IWbemStatusCodeText::GetErrorCodeText","_hmm_iwbemstatuscodetext_geterrorcodetext","wbemcli/IWbemStatusCodeText::GetErrorCodeText","wmi.iwbemstatuscodetext_geterrorcodetext"]
 old-location: wmi\iwbemstatuscodetext_geterrorcodetext.htm
 tech.root: WmiSdk
 ms.assetid: f2adc740-f1d9-434e-a7ac-b4830350e862

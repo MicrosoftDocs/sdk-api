@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusheaders.PrivateFontCollection.PrivateFontCollection(const PrivateFontCollection &)
+UID: NF:gdiplusheaders.PrivateFontCollection.PrivateFontCollection(constPrivateFontCollection&)
 title: PrivateFontCollection::PrivateFontCollection(const PrivateFontCollection &) (gdiplusheaders.h)
-description: Creates an empty PrivateFontCollection object.helpviewer_keywords: ["PrivateFontCollection","PrivateFontCollection class [GDI+]","PrivateFontCollection constructor","PrivateFontCollection constructor [GDI+]","PrivateFontCollection constructor [GDI+]","PrivateFontCollection class","PrivateFontCollection.PrivateFontCollection","PrivateFontCollection.PrivateFontCollection(const PrivateFontCollection &)","PrivateFontCollection::PrivateFontCollection","PrivateFontCollection::PrivateFontCollection(const PrivateFontCollection &)","_gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_","gdiplus._gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_"]
+description: Creates an empty PrivateFontCollection object.
+helpviewer_keywords: ["PrivateFontCollection","PrivateFontCollection class [GDI+]","PrivateFontCollection constructor","PrivateFontCollection constructor [GDI+]","PrivateFontCollection constructor [GDI+]","PrivateFontCollection class","PrivateFontCollection.PrivateFontCollection","PrivateFontCollection.PrivateFontCollection(const PrivateFontCollection &)","PrivateFontCollection::PrivateFontCollection","PrivateFontCollection::PrivateFontCollection(const PrivateFontCollection &)","_gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_","gdiplus._gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_"]
 old-location: gdiplus\_gdiplus_CLASS_PrivateFontCollection_PrivateFontCollection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\privatefontcollectionclass\privatefontcollection_12.htm

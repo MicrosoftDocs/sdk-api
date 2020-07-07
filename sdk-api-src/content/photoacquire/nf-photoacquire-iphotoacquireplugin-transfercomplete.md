@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.TransferComplete
 title: IPhotoAcquirePlugin::TransferComplete (photoacquire.h)
-description: Provides extended functionality when a transfer session is completed. The application provides the implementation of the TransferComplete method.helpviewer_keywords: ["IPhotoAcquirePlugin interface [Picture Acquisition]","TransferComplete method","IPhotoAcquirePlugin.TransferComplete","IPhotoAcquirePlugin::TransferComplete","IPhotoAcquirePluginTransferComplete","TransferComplete","TransferComplete method [Picture Acquisition]","TransferComplete method [Picture Acquisition]","IPhotoAcquirePlugin interface","photoacquire/IPhotoAcquirePlugin::TransferComplete","picacq.iphotoacquireplugin_transfercomplete"]
+description: Provides extended functionality when a transfer session is completed. The application provides the implementation of the TransferComplete method.
+helpviewer_keywords: ["IPhotoAcquirePlugin interface [Picture Acquisition]","TransferComplete method","IPhotoAcquirePlugin.TransferComplete","IPhotoAcquirePlugin::TransferComplete","IPhotoAcquirePluginTransferComplete","TransferComplete","TransferComplete method [Picture Acquisition]","TransferComplete method [Picture Acquisition]","IPhotoAcquirePlugin interface","photoacquire/IPhotoAcquirePlugin::TransferComplete","picacq.iphotoacquireplugin_transfercomplete"]
 old-location: picacq\iphotoacquireplugin_transfercomplete.htm
 tech.root: acquisition
 ms.assetid: 915e676a-4aaa-4b10-b913-51b856c61dba

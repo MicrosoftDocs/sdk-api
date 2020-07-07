@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.GetCurrentTime
 title: IMFMediaEngine::GetCurrentTime (mfmediaengine.h)
-description: Gets the current playback position.helpviewer_keywords: ["GetCurrentTime","GetCurrentTime method [Media Foundation]","GetCurrentTime method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetCurrentTime method","IMFMediaEngine.GetCurrentTime","IMFMediaEngine::GetCurrentTime","mf.imfmediaengine_getcurrenttime","mfmediaengine/IMFMediaEngine::GetCurrentTime"]
+description: Gets the current playback position.
+helpviewer_keywords: ["GetCurrentTime","GetCurrentTime method [Media Foundation]","GetCurrentTime method [Media Foundation]","IMFMediaEngine interface","IMFMediaEngine interface [Media Foundation]","GetCurrentTime method","IMFMediaEngine.GetCurrentTime","IMFMediaEngine::GetCurrentTime","mf.imfmediaengine_getcurrenttime","mfmediaengine/IMFMediaEngine::GetCurrentTime"]
 old-location: mf\imfmediaengine_getcurrenttime.htm
 tech.root: medfound
 ms.assetid: 49FA2383-8AEC-4DDF-8998-25987EEC8223

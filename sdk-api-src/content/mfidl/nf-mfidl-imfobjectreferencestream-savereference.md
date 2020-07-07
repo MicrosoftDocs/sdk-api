@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFObjectReferenceStream.SaveReference
 title: IMFObjectReferenceStream::SaveReference (mfidl.h)
-description: Stores the data needed to marshal an interface across a process boundary.helpviewer_keywords: ["776f94c4-d0e9-4fb7-a39c-32c83428bbe3","IMFObjectReferenceStream interface [Media Foundation]","SaveReference method","IMFObjectReferenceStream.SaveReference","IMFObjectReferenceStream::SaveReference","SaveReference","SaveReference method [Media Foundation]","SaveReference method [Media Foundation]","IMFObjectReferenceStream interface","mf.imfobjectreferencestream_savereference","mfidl/IMFObjectReferenceStream::SaveReference"]
+description: Stores the data needed to marshal an interface across a process boundary.
+helpviewer_keywords: ["776f94c4-d0e9-4fb7-a39c-32c83428bbe3","IMFObjectReferenceStream interface [Media Foundation]","SaveReference method","IMFObjectReferenceStream.SaveReference","IMFObjectReferenceStream::SaveReference","SaveReference","SaveReference method [Media Foundation]","SaveReference method [Media Foundation]","IMFObjectReferenceStream interface","mf.imfobjectreferencestream_savereference","mfidl/IMFObjectReferenceStream::SaveReference"]
 old-location: mf\imfobjectreferencestream_savereference.htm
 tech.root: medfound
 ms.assetid: 776f94c4-d0e9-4fb7-a39c-32c83428bbe3

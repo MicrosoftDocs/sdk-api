@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.SetApplicationViewState
 title: IApplicationDesignModeSettings::SetApplicationViewState (shobjidl_core.h)
-description: Sets a spoofed application view state (full-screen landscape, full-screen portrait, filled, or snapped) to be used for a Windows Store app running in design mode.helpviewer_keywords: ["IApplicationDesignModeSettings interface [Windows Shell]","SetApplicationViewState method","IApplicationDesignModeSettings.SetApplicationViewState","IApplicationDesignModeSettings::SetApplicationViewState","SetApplicationViewState","SetApplicationViewState method [Windows Shell]","SetApplicationViewState method [Windows Shell]","IApplicationDesignModeSettings interface","shell.IApplicationDesignModeSettings_SetApplicationViewState","shobjidl_core/IApplicationDesignModeSettings::SetApplicationViewState"]
+description: Sets a spoofed application view state (full-screen landscape, full-screen portrait, filled, or snapped) to be used for a Windows Store app running in design mode.
+helpviewer_keywords: ["IApplicationDesignModeSettings interface [Windows Shell]","SetApplicationViewState method","IApplicationDesignModeSettings.SetApplicationViewState","IApplicationDesignModeSettings::SetApplicationViewState","SetApplicationViewState","SetApplicationViewState method [Windows Shell]","SetApplicationViewState method [Windows Shell]","IApplicationDesignModeSettings interface","shell.IApplicationDesignModeSettings_SetApplicationViewState","shobjidl_core/IApplicationDesignModeSettings::SetApplicationViewState"]
 old-location: shell\IApplicationDesignModeSettings_SetApplicationViewState.htm
 tech.root: shell
 ms.assetid: 37e1845c-a58a-4da3-b259-bbf5bbf5ff6d

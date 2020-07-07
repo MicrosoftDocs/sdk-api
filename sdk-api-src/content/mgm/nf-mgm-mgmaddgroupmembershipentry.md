@@ -1,7 +1,8 @@
 ---
 UID: NF:mgm.MgmAddGroupMembershipEntry
 title: MgmAddGroupMembershipEntry function (mgm.h)
-description: The MgmAddGroupMembershipEntry function notifies the multicast group manager that there are new receivers for the specified groups on the specified interface.helpviewer_keywords: ["MGM_FORWARD_STATE","MGM_JOIN_STATE_FLAG","MgmAddGroupMembershipEntry","MgmAddGroupMembershipEntry function [RAS]","_mpr_mgmaddgroupmembershipentry","mgm/MgmAddGroupMembershipEntry","rras.mgmaddgroupmembershipentry"]
+description: The MgmAddGroupMembershipEntry function notifies the multicast group manager that there are new receivers for the specified groups on the specified interface.
+helpviewer_keywords: ["MGM_FORWARD_STATE","MGM_JOIN_STATE_FLAG","MgmAddGroupMembershipEntry","MgmAddGroupMembershipEntry function [RAS]","_mpr_mgmaddgroupmembershipentry","mgm/MgmAddGroupMembershipEntry","rras.mgmaddgroupmembershipentry"]
 old-location: rras\mgmaddgroupmembershipentry.htm
 tech.root: RRAS
 ms.assetid: b767961e-0935-4662-9f54-d82dfa0e7bd0

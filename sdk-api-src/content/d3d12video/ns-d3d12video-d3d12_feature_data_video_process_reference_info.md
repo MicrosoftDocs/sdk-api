@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12video.D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO
 title: D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO
-description: Retrieves the number of past and future reference frames required for the specified deinterlace mode, filter, rate conversion, or auto processing features.helpviewer_keywords: ["D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO","D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO",""]
+description: Retrieves the number of past and future reference frames required for the specified deinterlace mode, filter, rate conversion, or auto processing features.
+helpviewer_keywords: ["D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO","D3D12_FEATURE_DATA_VIDEO_PROCESS_REFERENCE_INFO",""]
 tech.root: mf
 ms.assetid: 4d1ee0ed-59a3-4a6d-b636-9fb0bd3e5141
 ms.date: 05/28/2019

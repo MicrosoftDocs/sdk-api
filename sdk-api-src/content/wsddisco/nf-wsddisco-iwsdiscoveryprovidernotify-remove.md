@@ -1,7 +1,8 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryProviderNotify.Remove
 title: IWSDiscoveryProviderNotify::Remove (wsddisco.h)
-description: Provides information on a recently departed discovery host (from a Bye message).helpviewer_keywords: ["IWSDiscoveryProviderNotify interface","Remove method","IWSDiscoveryProviderNotify.Remove","IWSDiscoveryProviderNotify::Remove","Remove","Remove method","Remove method","IWSDiscoveryProviderNotify interface","ncd.iwsdiscoveryprovidernotify_remove","wsddisco/IWSDiscoveryProviderNotify::Remove"]
+description: Provides information on a recently departed discovery host (from a Bye message).
+helpviewer_keywords: ["IWSDiscoveryProviderNotify interface","Remove method","IWSDiscoveryProviderNotify.Remove","IWSDiscoveryProviderNotify::Remove","Remove","Remove method","Remove method","IWSDiscoveryProviderNotify interface","ncd.iwsdiscoveryprovidernotify_remove","wsddisco/IWSDiscoveryProviderNotify::Remove"]
 old-location: ncd\iwsdiscoveryprovidernotify_remove.htm
 tech.root: WsdApi
 ms.assetid: 776fc1d5-9dfe-445f-9af6-36faf971bf37

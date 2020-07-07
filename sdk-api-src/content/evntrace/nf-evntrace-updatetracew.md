@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.UpdateTraceW
 title: UpdateTraceW function (evntrace.h)
-description: The UpdateTrace function updates the property setting of the specified event tracing session. The ControlTrace function supersedes this function.helpviewer_keywords: ["UpdateTrace","UpdateTrace function [ETW]","UpdateTraceA","UpdateTraceW","_evt_updatetrace","base.updatetrace","etw.updatetrace","evntrace/UpdateTrace","evntrace/UpdateTraceA","evntrace/UpdateTraceW"]
+description: The UpdateTrace function updates the property setting of the specified event tracing session. The ControlTrace function supersedes this function.
+helpviewer_keywords: ["UpdateTrace","UpdateTrace function [ETW]","UpdateTraceA","UpdateTraceW","_evt_updatetrace","base.updatetrace","etw.updatetrace","evntrace/UpdateTrace","evntrace/UpdateTraceA","evntrace/UpdateTraceW"]
 old-location: etw\updatetrace.htm
 tech.root: ETW
 ms.assetid: 40e6deaf-7363-45eb-80d0-bc3f33760875
@@ -213,6 +214,10 @@ For an example that uses
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The evntrace.h header defines UpdateTrace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

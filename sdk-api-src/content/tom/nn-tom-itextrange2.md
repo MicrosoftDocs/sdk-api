@@ -1,7 +1,8 @@
 ---
 UID: NN:tom.ITextRange2
 title: ITextRange2 (tom.h)
-description: The ITextRange2 interface is derived from ITextRange, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.helpviewer_keywords: ["ITextRange2","ITextRange2 interface [Windows Controls]","ITextRange2 interface [Windows Controls]","described","controls.itextrange2","tom/ITextRange2"]
+description: The ITextRange2 interface is derived from ITextRange, and its objects are powerful editing and data-binding tools that enable a program to select text in a story and then examine or change that text.
+helpviewer_keywords: ["ITextRange2","ITextRange2 interface [Windows Controls]","ITextRange2 interface [Windows Controls]","described","controls.itextrange2","tom/ITextRange2"]
 old-location: controls\itextrange2.htm
 tech.root: Controls
 ms.assetid: 905f0967-8b99-45ed-a1cc-19d49e919a65

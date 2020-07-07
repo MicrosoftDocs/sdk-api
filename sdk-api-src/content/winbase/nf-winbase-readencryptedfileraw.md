@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.ReadEncryptedFileRaw
 title: ReadEncryptedFileRaw function (winbase.h)
-description: Backs up (export) encrypted files.helpviewer_keywords: ["ReadEncryptedFileRaw","ReadEncryptedFileRaw function [Files]","base.readencryptedfileraw","fs.readencryptedfileraw","winbase/ReadEncryptedFileRaw"]
+description: Backs up (export) encrypted files.
+helpviewer_keywords: ["ReadEncryptedFileRaw","ReadEncryptedFileRaw function [Files]","base.readencryptedfileraw","fs.readencryptedfileraw","winbase/ReadEncryptedFileRaw"]
 old-location: fs\readencryptedfileraw.htm
 tech.root: FileIO
 ms.assetid: 15f6f617-969d-4a40-9038-b902a3c2518b

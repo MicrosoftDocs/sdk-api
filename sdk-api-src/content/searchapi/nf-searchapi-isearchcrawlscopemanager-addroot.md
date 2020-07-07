@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.AddRoot
 title: ISearchCrawlScopeManager::AddRoot (searchapi.h)
-description: Adds a new search root to the search engine.helpviewer_keywords: ["AddRoot","AddRoot method [search]","AddRoot method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","AddRoot method","ISearchCrawlScopeManager.AddRoot","ISearchCrawlScopeManager::AddRoot","_search_ISearchCrawlScopeManager_AddRoot","search._search_ISearchCrawlScopeManager_AddRoot","searchapi/ISearchCrawlScopeManager::AddRoot"]
+description: Adds a new search root to the search engine.
+helpviewer_keywords: ["AddRoot","AddRoot method [search]","AddRoot method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","AddRoot method","ISearchCrawlScopeManager.AddRoot","ISearchCrawlScopeManager::AddRoot","_search_ISearchCrawlScopeManager_AddRoot","search._search_ISearchCrawlScopeManager_AddRoot","searchapi/ISearchCrawlScopeManager::AddRoot"]
 old-location: search\_search_ISearchCrawlScopeManager_AddRoot.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\addroot.htm
@@ -79,11 +80,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
 Overrides any existing root definition for the URL.
 
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

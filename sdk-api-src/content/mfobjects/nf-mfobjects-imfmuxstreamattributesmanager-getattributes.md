@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamAttributesManager.GetAttributes
 title: IMFMuxStreamAttributesManager::GetAttributes (mfobjects.h)
-description: Gets the IMFAttributes for the substream with the specified index.helpviewer_keywords: ["GetAttributes","GetAttributes method [Media Foundation]","GetAttributes method [Media Foundation]","IMFMuxStreamAttributesManager interface","IMFMuxStreamAttributesManager interface [Media Foundation]","GetAttributes method","IMFMuxStreamAttributesManager.GetAttributes","IMFMuxStreamAttributesManager::GetAttributes","mf.imfmuxstreamattributesmanager_getattributes","mfobjects/IMFMuxStreamAttributesManager::GetAttributes"]
+description: Gets the IMFAttributes for the substream with the specified index.
+helpviewer_keywords: ["GetAttributes","GetAttributes method [Media Foundation]","GetAttributes method [Media Foundation]","IMFMuxStreamAttributesManager interface","IMFMuxStreamAttributesManager interface [Media Foundation]","GetAttributes method","IMFMuxStreamAttributesManager.GetAttributes","IMFMuxStreamAttributesManager::GetAttributes","mf.imfmuxstreamattributesmanager_getattributes","mfobjects/IMFMuxStreamAttributesManager::GetAttributes"]
 old-location: mf\imfmuxstreamattributesmanager_getattributes.htm
 tech.root: medfound
 ms.assetid: 1C00900F-BD8B-4AF7-82E0-37AC370A90E3

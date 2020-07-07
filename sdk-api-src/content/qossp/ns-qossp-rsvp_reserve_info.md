@@ -1,7 +1,8 @@
 ---
 UID: NS:qossp._RSVP_RESERVE_INFO
 title: RSVP_RESERVE_INFO (qossp.h)
-description: The QOS object RSVP_RESERVE_INFO, through the ProviderSpecific buffer, enables RSVP behavior for a given flow to be specified or modified at a granular level, and enables default RSVP style settings for a flow to be overridden.helpviewer_keywords: ["*LPRSVP_RESERVE_INFO","LPRSVP_RESERVE_INFO","LPRSVP_RESERVE_INFO structure pointer [QOS]","RSVP_DEFAULT_STYLE","RSVP_FIXED_FILTER_STYLE","RSVP_RESERVE_INFO","RSVP_RESERVE_INFO structure [QOS]","RSVP_SHARED_EXPLICIT_STYLE","RSVP_WILDCARD_SYLE","_gqos_rsvp_reserve_info","qos.rsvp_reserve_info","qossp/LPRSVP_RESERVE_INFO","qossp/RSVP_RESERVE_INFO"]
+description: The QOS object RSVP_RESERVE_INFO, through the ProviderSpecific buffer, enables RSVP behavior for a given flow to be specified or modified at a granular level, and enables default RSVP style settings for a flow to be overridden.
+helpviewer_keywords: ["*LPRSVP_RESERVE_INFO","LPRSVP_RESERVE_INFO","LPRSVP_RESERVE_INFO structure pointer [QOS]","RSVP_DEFAULT_STYLE","RSVP_FIXED_FILTER_STYLE","RSVP_RESERVE_INFO","RSVP_RESERVE_INFO structure [QOS]","RSVP_SHARED_EXPLICIT_STYLE","RSVP_WILDCARD_SYLE","_gqos_rsvp_reserve_info","qos.rsvp_reserve_info","qossp/LPRSVP_RESERVE_INFO","qossp/RSVP_RESERVE_INFO"]
 old-location: qos\rsvp_reserve_info.htm
 tech.root: QOS
 ms.assetid: 0f43e544-afe3-40dd-81e1-96ae1f343006

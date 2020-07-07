@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLSetCurrentProductKey
 title: SLSetCurrentProductKey function (slpublic.h)
-description: Sets the current product key to the previously installed product key.helpviewer_keywords: ["SLSetCurrentProductKey","SLSetCurrentProductKey function [Security]","security.slsetcurrentproductkey","slpublic/SLSetCurrentProductKey"]
+description: Sets the current product key to the previously installed product key.
+helpviewer_keywords: ["SLSetCurrentProductKey","SLSetCurrentProductKey function [Security]","security.slsetcurrentproductkey","slpublic/SLSetCurrentProductKey"]
 old-location: security\slsetcurrentproductkey.htm
 tech.root: SecSLApi
 ms.assetid: a6490a89-9280-4b7d-8ea0-afa80c0a03f8

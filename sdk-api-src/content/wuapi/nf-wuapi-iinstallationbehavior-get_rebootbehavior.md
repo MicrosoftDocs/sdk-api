@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IInstallationBehavior.get_RebootBehavior
 title: IInstallationBehavior::get_RebootBehavior (wuapi.h)
-description: Gets an InstallationRebootBehavior enumeration that specifies the restart behavior that occurs when you install or uninstall the update.helpviewer_keywords: ["IInstallationBehavior interface [Windows Update Agent]","RebootBehavior property","IInstallationBehavior.RebootBehavior","IInstallationBehavior.get_RebootBehavior","IInstallationBehavior::RebootBehavior","IInstallationBehavior::get_RebootBehavior","RebootBehavior property [Windows Update Agent]","RebootBehavior property [Windows Update Agent]","IInstallationBehavior interface","get_RebootBehavior","wua.iinstallationbehavior_rebootbehavior","wuapi/IInstallationBehavior::RebootBehavior","wuapi/IInstallationBehavior::get_RebootBehavior"]
+description: Gets an InstallationRebootBehavior enumeration that specifies the restart behavior that occurs when you install or uninstall the update.
+helpviewer_keywords: ["IInstallationBehavior interface [Windows Update Agent]","RebootBehavior property","IInstallationBehavior.RebootBehavior","IInstallationBehavior.get_RebootBehavior","IInstallationBehavior::RebootBehavior","IInstallationBehavior::get_RebootBehavior","RebootBehavior property [Windows Update Agent]","RebootBehavior property [Windows Update Agent]","IInstallationBehavior interface","get_RebootBehavior","wua.iinstallationbehavior_rebootbehavior","wuapi/IInstallationBehavior::RebootBehavior","wuapi/IInstallationBehavior::get_RebootBehavior"]
 old-location: wua\iinstallationbehavior_rebootbehavior.htm
 tech.root: Wua_Sdk
 ms.assetid: 7a26709e-8ce1-405a-902c-a71e892cd590

@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi.CLUS_PARTITION_INFO_EX2
 title: CLUS_PARTITION_INFO_EX2 (clusapi.h)
-description: Describes the disk partition information of a storage class resource.helpviewer_keywords: ["*PCLUS_PARTITION_INFO_EX2","BitLockerDecrypted","BitLockerDecrypting","BitLockerEnabled","BitLockerEncrypted","BitLockerEncrypting","BitLockerFlagsAll","BitLockerPaused","BitLockerStopped","CLUS_PARTITION_INFO_EX2","CLUS_PARTITION_INFO_EX2 structure [Failover Cluster]","PCLUS_PARTITION_INFO_EX2","PCLUS_PARTITION_INFO_EX2 structure pointer [Failover Cluster]","clusapi/CLUS_PARTITION_INFO_EX2","clusapi/PCLUS_PARTITION_INFO_EX2","mscs.clus_partition_info_ex2"]
+description: Describes the disk partition information of a storage class resource.
+helpviewer_keywords: ["*PCLUS_PARTITION_INFO_EX2","BitLockerDecrypted","BitLockerDecrypting","BitLockerEnabled","BitLockerEncrypted","BitLockerEncrypting","BitLockerFlagsAll","BitLockerPaused","BitLockerStopped","CLUS_PARTITION_INFO_EX2","CLUS_PARTITION_INFO_EX2 structure [Failover Cluster]","PCLUS_PARTITION_INFO_EX2","PCLUS_PARTITION_INFO_EX2 structure pointer [Failover Cluster]","clusapi/CLUS_PARTITION_INFO_EX2","clusapi/PCLUS_PARTITION_INFO_EX2","mscs.clus_partition_info_ex2"]
 old-location: mscs\clus_partition_info_ex2.htm
 tech.root: MsCS
 ms.assetid: 1B6690DB-9D23-4D0C-98B7-3066C5452CD1

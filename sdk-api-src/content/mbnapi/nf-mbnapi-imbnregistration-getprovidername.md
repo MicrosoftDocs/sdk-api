@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnRegistration.GetProviderName
 title: IMbnRegistration::GetProviderName (mbnapi.h)
-description: Gets the provider name for the currently registered network.helpviewer_keywords: ["GetProviderName","GetProviderName method [Microsoft Broadband Networks]","GetProviderName method [Microsoft Broadband Networks]","IMbnRegistration interface","IMbnRegistration interface [Microsoft Broadband Networks]","GetProviderName method","IMbnRegistration.GetProviderName","IMbnRegistration::GetProviderName","mbn.imbnregistration_getprovidername","mbnapi/IMbnRegistration::GetProviderName"]
+description: Gets the provider name for the currently registered network.
+helpviewer_keywords: ["GetProviderName","GetProviderName method [Microsoft Broadband Networks]","GetProviderName method [Microsoft Broadband Networks]","IMbnRegistration interface","IMbnRegistration interface [Microsoft Broadband Networks]","GetProviderName method","IMbnRegistration.GetProviderName","IMbnRegistration::GetProviderName","mbn.imbnregistration_getprovidername","mbnapi/IMbnRegistration::GetProviderName"]
 old-location: mbn\imbnregistration_getprovidername.htm
 tech.root: mbn
 ms.assetid: c6cf7cb2-5563-49dc-ac2a-6343ae2395b2

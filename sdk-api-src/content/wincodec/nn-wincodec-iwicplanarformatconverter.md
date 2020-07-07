@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICPlanarFormatConverter
 title: IWICPlanarFormatConverter (wincodec.h)
-description: Allows a format converter to be initialized with a planar source.helpviewer_keywords: ["IWICPlanarFormatConverter","IWICPlanarFormatConverter interface [Windows Imaging Component]","IWICPlanarFormatConverter interface [Windows Imaging Component]","described","wic.iwicplanarformatconverter","wincodec/IWICPlanarFormatConverter"]
+description: Allows a format converter to be initialized with a planar source.
+helpviewer_keywords: ["IWICPlanarFormatConverter","IWICPlanarFormatConverter interface [Windows Imaging Component]","IWICPlanarFormatConverter interface [Windows Imaging Component]","described","wic.iwicplanarformatconverter","wincodec/IWICPlanarFormatConverter"]
 old-location: wic\iwicplanarformatconverter.htm
 tech.root: wic
 ms.assetid: 07258A07-84AA-4DC2-B2E3-14A43AED5617

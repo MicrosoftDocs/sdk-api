@@ -1,7 +1,8 @@
 ---
 UID: NF:playtomanagerinterop.IPlayToManagerInterop.ShowPlayToUIForWindow
 title: IPlayToManagerInterop::ShowPlayToUIForWindow (playtomanagerinterop.h)
-description: Displays the Play To UI for the specified window.helpviewer_keywords: ["IPlayToManagerInterop interface [Windows Runtime]","ShowPlayToUIForWindow method","IPlayToManagerInterop.ShowPlayToUIForWindow","IPlayToManagerInterop::ShowPlayToUIForWindow","ShowPlayToUIForWindow","ShowPlayToUIForWindow method [Windows Runtime]","ShowPlayToUIForWindow method [Windows Runtime]","IPlayToManagerInterop interface","playtomanagerinterop/IPlayToManagerInterop::ShowPlayToUIForWindow","winrt.iplaytomanagerinterop_showplaytouiforwindow"]
+description: Displays the Play To UI for the specified window.
+helpviewer_keywords: ["IPlayToManagerInterop interface [Windows Runtime]","ShowPlayToUIForWindow method","IPlayToManagerInterop.ShowPlayToUIForWindow","IPlayToManagerInterop::ShowPlayToUIForWindow","ShowPlayToUIForWindow","ShowPlayToUIForWindow method [Windows Runtime]","ShowPlayToUIForWindow method [Windows Runtime]","IPlayToManagerInterop interface","playtomanagerinterop/IPlayToManagerInterop::ShowPlayToUIForWindow","winrt.iplaytomanagerinterop_showplaytouiforwindow"]
 old-location: winrt\iplaytomanagerinterop_showplaytouiforwindow.htm
 tech.root: WinRT
 ms.assetid: 106ddd95-06dd-479a-8350-39d791add469

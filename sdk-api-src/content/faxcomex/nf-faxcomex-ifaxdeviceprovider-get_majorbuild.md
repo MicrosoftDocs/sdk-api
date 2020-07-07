@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDeviceProvider.get_MajorBuild
 title: IFaxDeviceProvider::get_MajorBuild (faxcomex.h)
-description: The IFaxDeviceProvider::get_MajorBuild property is a value that specifies the major part of the build number for the fax service provider (FSP)Â DLL.helpviewer_keywords: ["IFaxDeviceProvider interface [Fax Service]","MajorBuild property","IFaxDeviceProvider.MajorBuild","IFaxDeviceProvider.get_MajorBuild","IFaxDeviceProvider::MajorBuild","IFaxDeviceProvider::get_MajorBuild","MajorBuild property [Fax Service]","MajorBuild property [Fax Service]","IFaxDeviceProvider interface","_mfax_faxdeviceprovider.majorbuild","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorbuild_cpp","fax._mfax_faxdeviceprovider_majorbuild","faxcomex/IFaxDeviceProvider::MajorBuild","faxcomex/IFaxDeviceProvider::get_MajorBuild","get_MajorBuild"]
+description: The IFaxDeviceProvider::get_MajorBuild property is a value that specifies the major part of the build number for the fax service provider (FSP)Â DLL.
+helpviewer_keywords: ["IFaxDeviceProvider interface [Fax Service]","MajorBuild property","IFaxDeviceProvider.MajorBuild","IFaxDeviceProvider.get_MajorBuild","IFaxDeviceProvider::MajorBuild","IFaxDeviceProvider::get_MajorBuild","MajorBuild property [Fax Service]","MajorBuild property [Fax Service]","IFaxDeviceProvider interface","_mfax_faxdeviceprovider.majorbuild","fax._mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorbuild_cpp","fax._mfax_faxdeviceprovider_majorbuild","faxcomex/IFaxDeviceProvider::MajorBuild","faxcomex/IFaxDeviceProvider::get_MajorBuild","get_MajorBuild"]
 old-location: fax\_mfax_faxdeviceprovider_cpp_mfax_faxdeviceprovider_majorbuild_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_1z6s.htm

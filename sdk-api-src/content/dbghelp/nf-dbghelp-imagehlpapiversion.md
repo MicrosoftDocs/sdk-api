@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.ImagehlpApiVersion
 title: ImagehlpApiVersion function (dbghelp.h)
-description: Retrieves the version information of the DbgHelp library installed on the system.helpviewer_keywords: ["ImagehlpApiVersion","ImagehlpApiVersion function","_win32_imagehlpapiversion","base.imagehlpapiversion","dbghelp/ImagehlpApiVersion"]
+description: Retrieves the version information of the DbgHelp library installed on the system.
+helpviewer_keywords: ["ImagehlpApiVersion","ImagehlpApiVersion function","_win32_imagehlpapiversion","base.imagehlpapiversion","dbghelp/ImagehlpApiVersion"]
 old-location: base\imagehlpapiversion.htm
 tech.root: Debug
 ms.assetid: 0ad9a047-f2ae-4fbe-8a85-9817a616ef73

@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeFont
 title: GetThemeFont function (uxtheme.h)
-description: Retrieves the value of a font property.helpviewer_keywords: ["GetThemeFont","GetThemeFont function [Windows Controls]","controls.GetThemeFont","controls.inet_GetThemeFont","inet_GetThemeFont","inet_GetThemeFont_cpp","uxtheme/GetThemeFont"]
+description: Retrieves the value of a font property.
+helpviewer_keywords: ["GetThemeFont","GetThemeFont function [Windows Controls]","controls.GetThemeFont","controls.inet_GetThemeFont","inet_GetThemeFont","inet_GetThemeFont_cpp","uxtheme/GetThemeFont"]
 old-location: controls\GetThemeFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemefont.htm

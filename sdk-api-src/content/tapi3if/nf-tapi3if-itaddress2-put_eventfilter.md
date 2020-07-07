@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITAddress2.put_EventFilter
 title: ITAddress2::put_EventFilter (tapi3if.h)
-description: The put_EventFilter method sets an event filter for the current address. If no event filters are set, the application will not be notified of events on this address.helpviewer_keywords: ["ITAddress2 interface [TAPI 2.2]","put_EventFilter method","ITAddress2.put_EventFilter","ITAddress2::put_EventFilter","_tapi3_itaddress2_put_eventfilter","put_EventFilter","put_EventFilter method [TAPI 2.2]","put_EventFilter method [TAPI 2.2]","ITAddress2 interface","tapi3.itaddress2_put_eventfilter","tapi3if/ITAddress2::put_EventFilter"]
+description: The put_EventFilter method sets an event filter for the current address. If no event filters are set, the application will not be notified of events on this address.
+helpviewer_keywords: ["ITAddress2 interface [TAPI 2.2]","put_EventFilter method","ITAddress2.put_EventFilter","ITAddress2::put_EventFilter","_tapi3_itaddress2_put_eventfilter","put_EventFilter","put_EventFilter method [TAPI 2.2]","put_EventFilter method [TAPI 2.2]","ITAddress2 interface","tapi3.itaddress2_put_eventfilter","tapi3if/ITAddress2::put_EventFilter"]
 old-location: tapi3\itaddress2_put_eventfilter.htm
 tech.root: Tapi
 ms.assetid: ca58c796-d843-48c3-9eac-ca126395d448

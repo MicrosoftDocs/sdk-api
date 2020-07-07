@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetCLSID
 title: IUrlAccessor::GetCLSID (searchapi.h)
-description: Gets the CLSID for the document type of the URL item being processed.helpviewer_keywords: ["GetCLSID","GetCLSID method [search]","GetCLSID method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetCLSID method","IUrlAccessor.GetCLSID","IUrlAccessor::GetCLSID","_search_IUrlAccessor_GetCLSID","search._search_IUrlAccessor_GetCLSID","searchapi/IUrlAccessor::GetCLSID"]
+description: Gets the CLSID for the document type of the URL item being processed.
+helpviewer_keywords: ["GetCLSID","GetCLSID method [search]","GetCLSID method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetCLSID method","IUrlAccessor.GetCLSID","IUrlAccessor::GetCLSID","_search_IUrlAccessor_GetCLSID","search._search_IUrlAccessor_GetCLSID","searchapi/IUrlAccessor::GetCLSID"]
 old-location: search\_search_IUrlAccessor_GetCLSID.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getclsid.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:dsclient.IDsDisplaySpecifier.GetFriendlyClassName
 title: IDsDisplaySpecifier::GetFriendlyClassName (dsclient.h)
-description: The IDsDisplaySpecifier::GetFriendlyClassName method retrieves the localized name for an object class.helpviewer_keywords: ["GetFriendlyClassName","GetFriendlyClassName method [Active Directory]","GetFriendlyClassName method [Active Directory]","IDsDisplaySpecifier interface","IDsDisplaySpecifier interface [Active Directory]","GetFriendlyClassName method","IDsDisplaySpecifier.GetFriendlyClassName","IDsDisplaySpecifier::GetFriendlyClassName","_glines_idsdisplayspecifier_getfriendlyclassname","ad.idsdisplayspecifier__getfriendlyclassname","ad.idsdisplayspecifier_getfriendlyclassname","dsclient/IDsDisplaySpecifier::GetFriendlyClassName"]
+description: The IDsDisplaySpecifier::GetFriendlyClassName method retrieves the localized name for an object class.
+helpviewer_keywords: ["GetFriendlyClassName","GetFriendlyClassName method [Active Directory]","GetFriendlyClassName method [Active Directory]","IDsDisplaySpecifier interface","IDsDisplaySpecifier interface [Active Directory]","GetFriendlyClassName method","IDsDisplaySpecifier.GetFriendlyClassName","IDsDisplaySpecifier::GetFriendlyClassName","_glines_idsdisplayspecifier_getfriendlyclassname","ad.idsdisplayspecifier__getfriendlyclassname","ad.idsdisplayspecifier_getfriendlyclassname","dsclient/IDsDisplaySpecifier::GetFriendlyClassName"]
 old-location: ad\idsdisplayspecifier_getfriendlyclassname.htm
 tech.root: ad
 ms.assetid: 192e2a57-6bde-4357-893e-37f466588b55

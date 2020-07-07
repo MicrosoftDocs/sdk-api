@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.ISyncKnowledge
 title: ISyncKnowledge (winsync.h)
-description: Represents knowledge that a replica has about its item store.helpviewer_keywords: ["ISyncKnowledge","ISyncKnowledge interface [Windows Sync]","ISyncKnowledge interface [Windows Sync]","described","winsync.isyncknowledge","winsync/ISyncKnowledge"]
+description: Represents knowledge that a replica has about its item store.
+helpviewer_keywords: ["ISyncKnowledge","ISyncKnowledge interface [Windows Sync]","ISyncKnowledge interface [Windows Sync]","described","winsync.isyncknowledge","winsync/ISyncKnowledge"]
 old-location: winsync\isyncknowledge.htm
 tech.root: winsync
 ms.assetid: cfb08476-7b5d-4953-b723-5160330e57be

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.phoneOpen
 title: phoneOpen function (tapi.h)
-description: The phoneOpen function opens the specified phone device.helpviewer_keywords: ["_tapi2_phoneopen","phoneOpen","phoneOpen function [TAPI 2.2]","tapi/phoneOpen","tapi2.phoneopen"]
+description: The phoneOpen function opens the specified phone device.
+helpviewer_keywords: ["_tapi2_phoneopen","phoneOpen","phoneOpen function [TAPI 2.2]","tapi/phoneOpen","tapi2.phoneopen"]
 old-location: tapi2\phoneopen.htm
 tech.root: Tapi
 ms.assetid: 8fba6d5e-0d8c-488f-a17c-4852b487e300

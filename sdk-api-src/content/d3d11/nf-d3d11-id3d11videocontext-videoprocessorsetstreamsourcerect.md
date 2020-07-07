@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorSetStreamSourceRect
 title: ID3D11VideoContext::VideoProcessorSetStreamSourceRect (d3d11.h)
-description: Sets the source rectangle for an input stream on the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamSourceRect method","ID3D11VideoContext.VideoProcessorSetStreamSourceRect","ID3D11VideoContext::VideoProcessorSetStreamSourceRect","VideoProcessorSetStreamSourceRect","VideoProcessorSetStreamSourceRect method [Media Foundation]","VideoProcessorSetStreamSourceRect method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamSourceRect","mf.id3d11videocontext_videoprocessorsetstreamsourcerect"]
+description: Sets the source rectangle for an input stream on the video processor.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorSetStreamSourceRect method","ID3D11VideoContext.VideoProcessorSetStreamSourceRect","ID3D11VideoContext::VideoProcessorSetStreamSourceRect","VideoProcessorSetStreamSourceRect","VideoProcessorSetStreamSourceRect method [Media Foundation]","VideoProcessorSetStreamSourceRect method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorSetStreamSourceRect","mf.id3d11videocontext_videoprocessorsetstreamsourcerect"]
 old-location: mf\id3d11videocontext_videoprocessorsetstreamsourcerect.htm
 tech.root: medfound
 ms.assetid: A2771C8A-13AB-4AFA-87A1-1390B582342A

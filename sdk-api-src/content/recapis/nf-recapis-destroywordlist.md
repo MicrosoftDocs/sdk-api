@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.DestroyWordList
 title: DestroyWordList function (recapis.h)
-description: Destroys the current word list.helpviewer_keywords: ["380e81a0-1df1-48b8-a582-a52badfc9ca6","DestroyWordList","DestroyWordList function [Tablet PC]","recapis/DestroyWordList","tablet.destroywordlist"]
+description: Destroys the current word list.
+helpviewer_keywords: ["380e81a0-1df1-48b8-a582-a52badfc9ca6","DestroyWordList","DestroyWordList function [Tablet PC]","recapis/DestroyWordList","tablet.destroywordlist"]
 old-location: tablet\destroywordlist.htm
 tech.root: tablet
 ms.assetid: 380e81a0-1df1-48b8-a582-a52badfc9ca6

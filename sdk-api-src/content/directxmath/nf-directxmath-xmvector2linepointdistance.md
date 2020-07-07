@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector2LinePointDistance
 title: XMVector2LinePointDistance function (directxmath.h)
-description: Computes the minimum distance between a line and a point.helpviewer_keywords: ["Use DirectX..XMVector2LinePointDistance","XMVector2LinePointDistance","XMVector2LinePointDistance method [DirectX Math Support APIs]","dxmath.xmvector2linepointdistance"]
+description: Computes the minimum distance between a line and a point.
+helpviewer_keywords: ["Use DirectX..XMVector2LinePointDistance","XMVector2LinePointDistance","XMVector2LinePointDistance method [DirectX Math Support APIs]","dxmath.xmvector2linepointdistance"]
 old-location: dxmath\xmvector2linepointdistance.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2LinePointDistance(XMVECTOR,XMVECTOR,XMVECTOR)

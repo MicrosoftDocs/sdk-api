@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.C_ASSERT
 title: C_ASSERT macro (winnt.h)
-description: Checks assertions at compile time.helpviewer_keywords: ["C_ASSERT","C_ASSERT macro","base.c_assert","winnt/C_ASSERT"]
+description: Checks assertions at compile time.
+helpviewer_keywords: ["C_ASSERT","C_ASSERT macro","base.c_assert","winnt/C_ASSERT"]
 old-location: base\c_assert.htm
 tech.root: Debug
 ms.assetid: 6cae9a14-584c-474c-b34e-7c6e410afcc1

@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.ISurrogateService.ApplicationFree
 title: ISurrogateService::ApplicationFree (objidl.h)
-description: Releases the application.helpviewer_keywords: ["ApplicationFree","ApplicationFree method [COM]","ApplicationFree method [COM]","ISurrogateService interface","ISurrogateService interface [COM]","ApplicationFree method","ISurrogateService.ApplicationFree","ISurrogateService::ApplicationFree","_com_isurrogateservice_applicationfree","com.isurrogateservice_applicationfree","objidl/ISurrogateService::ApplicationFree"]
+description: Releases the application.
+helpviewer_keywords: ["ApplicationFree","ApplicationFree method [COM]","ApplicationFree method [COM]","ISurrogateService interface","ISurrogateService interface [COM]","ApplicationFree method","ISurrogateService.ApplicationFree","ISurrogateService::ApplicationFree","_com_isurrogateservice_applicationfree","com.isurrogateservice_applicationfree","objidl/ISurrogateService::ApplicationFree"]
 old-location: com\isurrogateservice_applicationfree.htm
 tech.root: com
 ms.assetid: 703de030-ac99-4673-8399-695116bf07d5

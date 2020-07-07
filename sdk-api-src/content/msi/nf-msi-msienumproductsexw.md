@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiEnumProductsExW
 title: MsiEnumProductsExW function (msi.h)
-description: Enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts.helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiEnumProductsEx","MsiEnumProductsEx function","MsiEnumProductsExA","MsiEnumProductsExW","NULL","User SID","msi/MsiEnumProductsEx","msi/MsiEnumProductsExA","msi/MsiEnumProductsExW","s-1-1-0","setup.msienumproductsex"]
+description: Enumerates through one or all the instances of products that are currently advertised or installed in the specified contexts.
+helpviewer_keywords: ["MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiEnumProductsEx","MsiEnumProductsEx function","MsiEnumProductsExA","MsiEnumProductsExW","NULL","User SID","msi/MsiEnumProductsEx","msi/MsiEnumProductsExA","msi/MsiEnumProductsExW","s-1-1-0","setup.msienumproductsex"]
 old-location: setup\msienumproductsex.htm
 tech.root: Msi
 ms.assetid: 33daeadc-021f-403e-808b-81a9915ae854
@@ -309,6 +310,10 @@ Use <a href="https://docs.microsoft.com/windows/desktop/api/msi/nf-msi-msigetpro
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiEnumProductsEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

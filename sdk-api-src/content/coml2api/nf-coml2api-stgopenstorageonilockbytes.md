@@ -1,7 +1,8 @@
 ---
 UID: NF:coml2api.StgOpenStorageOnILockBytes
 title: StgOpenStorageOnILockBytes function (coml2api.h)
-description: The StgOpenStorageOnILockBytes function opens an existing storage object that does not reside in a disk file, but instead has an underlying byte array provided by the caller.helpviewer_keywords: ["StgOpenStorageOnILockBytes","StgOpenStorageOnILockBytes function [Structured Storage]","_stg_stgopenstorageonilockbytes","coml2api/StgOpenStorageOnILockBytes","stg.stgopenstorageonilockbytes"]
+description: The StgOpenStorageOnILockBytes function opens an existing storage object that does not reside in a disk file, but instead has an underlying byte array provided by the caller.
+helpviewer_keywords: ["StgOpenStorageOnILockBytes","StgOpenStorageOnILockBytes function [Structured Storage]","_stg_stgopenstorageonilockbytes","coml2api/StgOpenStorageOnILockBytes","stg.stgopenstorageonilockbytes"]
 old-location: stg\stgopenstorageonilockbytes.htm
 tech.root: Stg
 ms.assetid: 7920bd46-0a8f-42e0-9988-59d85edb64e2

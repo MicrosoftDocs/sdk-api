@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.SetIndexByteStreams
 title: IMFASFIndexer::SetIndexByteStreams (wmcontainer.h)
-description: Adds byte streams to be indexed.helpviewer_keywords: ["IMFASFIndexer interface [Media Foundation]","SetIndexByteStreams method","IMFASFIndexer.SetIndexByteStreams","IMFASFIndexer::SetIndexByteStreams","SetIndexByteStreams","SetIndexByteStreams method [Media Foundation]","SetIndexByteStreams method [Media Foundation]","IMFASFIndexer interface","f116baaa-8d9b-4ac0-9263-3bb65d67ee63","mf.imfasfindexer_setindexbytestreams","wmcontainer/IMFASFIndexer::SetIndexByteStreams"]
+description: Adds byte streams to be indexed.
+helpviewer_keywords: ["IMFASFIndexer interface [Media Foundation]","SetIndexByteStreams method","IMFASFIndexer.SetIndexByteStreams","IMFASFIndexer::SetIndexByteStreams","SetIndexByteStreams","SetIndexByteStreams method [Media Foundation]","SetIndexByteStreams method [Media Foundation]","IMFASFIndexer interface","f116baaa-8d9b-4ac0-9263-3bb65d67ee63","mf.imfasfindexer_setindexbytestreams","wmcontainer/IMFASFIndexer::SetIndexByteStreams"]
 old-location: mf\imfasfindexer_setindexbytestreams.htm
 tech.root: medfound
 ms.assetid: f116baaa-8d9b-4ac0-9263-3bb65d67ee63

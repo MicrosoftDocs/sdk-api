@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_ENDMOCOMPFRAMEDATA
 title: DD_ENDMOCOMPFRAMEDATA (ddrawint.h)
-description: The DD_ENDMOCOMPFRAMEDATA structure contains information required to complete a decoded frame.helpviewer_keywords: ["*PDD_ENDMOCOMPFRAMEDATA","DD_ENDMOCOMPFRAMEDATA","DD_ENDMOCOMPFRAMEDATA structure [Display Devices]","ddrawint/DD_ENDMOCOMPFRAMEDATA","ddstrcts_4c526986-eaf4-40ea-890c-e90295ac9ee6.xml","display.dd_endmocompframedata"]
+description: The DD_ENDMOCOMPFRAMEDATA structure contains information required to complete a decoded frame.
+helpviewer_keywords: ["*PDD_ENDMOCOMPFRAMEDATA","DD_ENDMOCOMPFRAMEDATA","DD_ENDMOCOMPFRAMEDATA structure [Display Devices]","ddrawint/DD_ENDMOCOMPFRAMEDATA","ddstrcts_4c526986-eaf4-40ea-890c-e90295ac9ee6.xml","display.dd_endmocompframedata"]
 old-location: display\dd_endmocompframedata.htm
 tech.root: display
 ms.assetid: 4e604940-1c0f-43be-bac7-9936df0c4044

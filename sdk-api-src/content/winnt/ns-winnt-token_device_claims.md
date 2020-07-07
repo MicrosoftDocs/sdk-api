@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._TOKEN_DEVICE_CLAIMS
 title: TOKEN_DEVICE_CLAIMS (winnt.h)
-description: Defines the device claims for the token.helpviewer_keywords: ["*PTOKEN_DEVICE_CLAIMS","PTOKEN_DEVICE_CLAIMS","PTOKEN_DEVICE_CLAIMS structure pointer [Security]","TOKEN_DEVICE_CLAIMS","TOKEN_DEVICE_CLAIMS structure [Security]","_TOKEN_DEVICE_CLAIMS","security.token_device_claims","winnt/PTOKEN_DEVICE_CLAIMS","winnt/TOKEN_DEVICE_CLAIMS"]
+description: Defines the device claims for the token.
+helpviewer_keywords: ["*PTOKEN_DEVICE_CLAIMS","PTOKEN_DEVICE_CLAIMS","PTOKEN_DEVICE_CLAIMS structure pointer [Security]","TOKEN_DEVICE_CLAIMS","TOKEN_DEVICE_CLAIMS structure [Security]","_TOKEN_DEVICE_CLAIMS","security.token_device_claims","winnt/PTOKEN_DEVICE_CLAIMS","winnt/TOKEN_DEVICE_CLAIMS"]
 old-location: security\token_device_claims.htm
 tech.root: SecAuthZ
 ms.assetid: FF20B64C-BD5F-45F5-83F1-B52634BE1065

@@ -1,7 +1,8 @@
 ---
 UID: NS:rtmv2._RTM_DEST_INFO
 title: RTM_DEST_INFO (rtmv2.h)
-description: The RTM_DEST_INFO structure is used to exchange destination information with clients registered with the routing table manager.helpviewer_keywords: ["*PRTM_DEST_INFO","PRTM_DEST_INFO","PRTM_DEST_INFO structure pointer [RAS]","RTM_DEST_INFO","RTM_DEST_INFO structure [RAS]","_rtmv2ref_rtm_dest_info","rras.rtm_dest_info","rtmv2/PRTM_DEST_INFO","rtmv2/RTM_DEST_INFO"]
+description: The RTM_DEST_INFO structure is used to exchange destination information with clients registered with the routing table manager.
+helpviewer_keywords: ["*PRTM_DEST_INFO","PRTM_DEST_INFO","PRTM_DEST_INFO structure pointer [RAS]","RTM_DEST_INFO","RTM_DEST_INFO structure [RAS]","_rtmv2ref_rtm_dest_info","rras.rtm_dest_info","rtmv2/PRTM_DEST_INFO","rtmv2/RTM_DEST_INFO"]
 old-location: rras\rtm_dest_info.htm
 tech.root: RRAS
 ms.assetid: 6712ed2f-c5b4-416b-b345-a3d0c5d26820

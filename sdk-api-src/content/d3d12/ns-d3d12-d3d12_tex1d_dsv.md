@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_TEX1D_DSV
 title: D3D12_TEX1D_DSV (d3d12.h)
-description: Describes the subresource from a 1D texture that is accessible to a depth-stencil view.helpviewer_keywords: ["D3D12_TEX1D_DSV","D3D12_TEX1D_DSV structure","d3d12/D3D12_TEX1D_DSV","direct3d12.d3d12_tex1d_dsv"]
+description: Describes the subresource from a 1D texture that is accessible to a depth-stencil view.
+helpviewer_keywords: ["D3D12_TEX1D_DSV","D3D12_TEX1D_DSV structure","d3d12/D3D12_TEX1D_DSV","direct3d12.d3d12_tex1d_dsv"]
 old-location: direct3d12\d3d12_tex1d_dsv.htm
 tech.root: direct3d12
 ms.assetid: 42136891-8D7B-40CC-B683-77549BE8DE3C

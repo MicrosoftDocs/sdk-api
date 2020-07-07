@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITLocationInfo.get_TollPrefixList
 title: ITLocationInfo::get_TollPrefixList (tapi3if.h)
-description: The get_TollPrefixList method gets the toll prefix list.helpviewer_keywords: ["ITLocationInfo interface [TAPI 2.2]","get_TollPrefixList method","ITLocationInfo.get_TollPrefixList","ITLocationInfo::get_TollPrefixList","_tapi3_itlocationinfo_get_tollprefixlist","get_TollPrefixList","get_TollPrefixList method [TAPI 2.2]","get_TollPrefixList method [TAPI 2.2]","ITLocationInfo interface","tapi3.itlocationinfo_get_tollprefixlist","tapi3if/ITLocationInfo::get_TollPrefixList"]
+description: The get_TollPrefixList method gets the toll prefix list.
+helpviewer_keywords: ["ITLocationInfo interface [TAPI 2.2]","get_TollPrefixList method","ITLocationInfo.get_TollPrefixList","ITLocationInfo::get_TollPrefixList","_tapi3_itlocationinfo_get_tollprefixlist","get_TollPrefixList","get_TollPrefixList method [TAPI 2.2]","get_TollPrefixList method [TAPI 2.2]","ITLocationInfo interface","tapi3.itlocationinfo_get_tollprefixlist","tapi3if/ITLocationInfo::get_TollPrefixList"]
 old-location: tapi3\itlocationinfo_get_tollprefixlist.htm
 tech.root: Tapi
 ms.assetid: 45297e46-b1c8-45b0-bb16-8c5d5666bbd0

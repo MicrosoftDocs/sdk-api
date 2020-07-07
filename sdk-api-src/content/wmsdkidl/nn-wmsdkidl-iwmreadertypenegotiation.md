@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMReaderTypeNegotiation
 title: IWMReaderTypeNegotiation (wmsdkidl.h)
-description: The IWMReaderTypeNegotiation interface provides a single method that can be used to test certain changes to the output properties of a stream.An IWMReaderTypeNegotiation interface exists for every reader object.helpviewer_keywords: ["IWMReaderTypeNegotiation","IWMReaderTypeNegotiation interface [windows Media Format]","IWMReaderTypeNegotiation interface [windows Media Format]","described","IWMReaderTypeNegotiationInterface","wmformat.iwmreadertypenegotiation","wmsdkidl/IWMReaderTypeNegotiation"]
+description: The IWMReaderTypeNegotiation interface provides a single method that can be used to test certain changes to the output properties of a stream.An IWMReaderTypeNegotiation interface exists for every reader object.
+helpviewer_keywords: ["IWMReaderTypeNegotiation","IWMReaderTypeNegotiation interface [windows Media Format]","IWMReaderTypeNegotiation interface [windows Media Format]","described","IWMReaderTypeNegotiationInterface","wmformat.iwmreadertypenegotiation","wmsdkidl/IWMReaderTypeNegotiation"]
 old-location: wmformat\iwmreadertypenegotiation.htm
 tech.root: wmformat
 ms.assetid: 289ca857-5421-47f8-927e-6ca4204a31f9

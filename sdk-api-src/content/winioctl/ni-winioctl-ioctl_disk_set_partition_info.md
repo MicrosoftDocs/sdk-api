@@ -45,12 +45,6 @@ req.redist:
 
 # IOCTL_DISK_SET_PARTITION_INFO IOCTL
 
-
-## -description
-
-
-# IOCTL_DISK_SET_PARTITION_INFO IOCTL
-
 ## -description
 
 > [!NOTE]

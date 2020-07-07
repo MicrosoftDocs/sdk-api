@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.SHGetPropertyStoreFromParsingName
 title: SHGetPropertyStoreFromParsingName function (shobjidl_core.h)
-description: Returns a property store for an item, given a path or parsing name.helpviewer_keywords: ["SHGetPropertyStoreFromParsingName","SHGetPropertyStoreFromParsingName function [Windows Properties]","_shell_SHGetPropertyStoreFromParsingName","properties.SHGetPropertyStoreFromParsingName","shell.SHGetPropertyStoreFromParsingName","shobjidl_core/SHGetPropertyStoreFromParsingName"]
+description: Returns a property store for an item, given a path or parsing name.
+helpviewer_keywords: ["SHGetPropertyStoreFromParsingName","SHGetPropertyStoreFromParsingName function [Windows Properties]","_shell_SHGetPropertyStoreFromParsingName","properties.SHGetPropertyStoreFromParsingName","shell.SHGetPropertyStoreFromParsingName","shobjidl_core/SHGetPropertyStoreFromParsingName"]
 old-location: properties\SHGetPropertyStoreFromParsingName.htm
 tech.root: properties
 ms.assetid: 0d8d2e70-8200-4153-bd52-f7d839fd0909

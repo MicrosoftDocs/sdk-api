@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.NetworkIsolationGetEnterpriseIdAsync
 title: NetworkIsolationGetEnterpriseIdAsync function (netfw.h)
-description: Gets the Enterprise ID based on Network Isolation endpoints in the context of the Windows Information Protection (WIP) or the Windows Defender Application Guard (WDAG) scenarios.helpviewer_keywords: ["NETISO_GEID_DEFAULT","NETISO_GEID_FORCE_TO_CHECK","NETISO_GEID_FOR_NEUTRAL_AWARE","NETISO_GEID_FOR_WDAG","NetworkIsolationGetEnterpriseIdAsync","NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF]","ics.networkisolationgetenterpriseidasync","netfw/NetworkIsolationGetEnterpriseIdAsync"]
+description: Gets the Enterprise ID based on Network Isolation endpoints in the context of the Windows Information Protection (WIP) or the Windows Defender Application Guard (WDAG) scenarios.
+helpviewer_keywords: ["NETISO_GEID_DEFAULT","NETISO_GEID_FORCE_TO_CHECK","NETISO_GEID_FOR_NEUTRAL_AWARE","NETISO_GEID_FOR_WDAG","NetworkIsolationGetEnterpriseIdAsync","NetworkIsolationGetEnterpriseIdAsync function [ICS/ICF]","ics.networkisolationgetenterpriseidasync","netfw/NetworkIsolationGetEnterpriseIdAsync"]
 old-location: ics\networkisolationgetenterpriseidasync.htm
 tech.root: ics
 ms.assetid: 709211F9-FE7A-4C43-AD35-101C4B64ED26

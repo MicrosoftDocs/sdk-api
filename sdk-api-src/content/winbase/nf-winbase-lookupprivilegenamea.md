@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.LookupPrivilegeNameA
 title: LookupPrivilegeNameA function (winbase.h)
-description: Retrieves the name that corresponds to the privilege represented on a specific system by a specified locally unique identifier (LUID).helpviewer_keywords: ["LookupPrivilegeName","LookupPrivilegeName function [Security]","LookupPrivilegeNameA","LookupPrivilegeNameW","_win32_lookupprivilegename","security.lookupprivilegename","winbase/LookupPrivilegeName","winbase/LookupPrivilegeNameA","winbase/LookupPrivilegeNameW"]
+description: Retrieves the name that corresponds to the privilege represented on a specific system by a specified locally unique identifier (LUID).
+helpviewer_keywords: ["LookupPrivilegeName","LookupPrivilegeName function [Security]","LookupPrivilegeNameA","LookupPrivilegeNameW","_win32_lookupprivilegename","security.lookupprivilegename","winbase/LookupPrivilegeName","winbase/LookupPrivilegeNameA","winbase/LookupPrivilegeNameW"]
 old-location: security\lookupprivilegename.htm
 tech.root: SecAuthZ
 ms.assetid: 580fb58f-1470-4389-9f07-8f37403e2bdf
@@ -106,6 +107,10 @@ The <b>LookupPrivilegeName</b> function supports only the privileges specified i
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines LookupPrivilegeName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

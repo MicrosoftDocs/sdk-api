@@ -1,7 +1,8 @@
 ---
 UID: NF:msports.ComDBReleasePort
 title: ComDBReleasePort function (msports.h)
-description: ComDBReleasePort releases a COM port number in the COM port database.helpviewer_keywords: ["ComDBReleasePort","ComDBReleasePort function [Serial Ports]","comdb_dd9f4f27-aea1-4bd8-aa59-ca5aaa05e210.xml","msports/ComDBReleasePort","serports.comdbreleaseport"]
+description: ComDBReleasePort releases a COM port number in the COM port database.
+helpviewer_keywords: ["ComDBReleasePort","ComDBReleasePort function [Serial Ports]","comdb_dd9f4f27-aea1-4bd8-aa59-ca5aaa05e210.xml","msports/ComDBReleasePort","serports.comdbreleaseport"]
 old-location: serports\comdbreleaseport.htm
 tech.root: serports
 ms.assetid: bece99c5-75de-4ab4-be26-14dc8cc1819c

@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagTVKEYDOWN
 title: NMTVKEYDOWN (commctrl.h)
-description: Contains information about a keyboard event in a tree-view control. This structure is used with the TVN_KEYDOWN notification code. The structure is identical to the TV_KEYDOWN structure, but it has been renamed to follow current naming conventions.helpviewer_keywords: ["*LPNMTVKEYDOWN","LPNMTVKEYDOWN","LPNMTVKEYDOWN structure pointer [Windows Controls]","NMTVKEYDOWN","NMTVKEYDOWN structure [Windows Controls]","_win32_NMTVKEYDOWN","_win32_NMTVKEYDOWN_cpp","commctrl/LPNMTVKEYDOWN","commctrl/NMTVKEYDOWN","controls.NMTVKEYDOWN","controls._win32_NMTVKEYDOWN"]
+description: Contains information about a keyboard event in a tree-view control. This structure is used with the TVN_KEYDOWN notification code. The structure is identical to the TV_KEYDOWN structure, but it has been renamed to follow current naming conventions.
+helpviewer_keywords: ["*LPNMTVKEYDOWN","LPNMTVKEYDOWN","LPNMTVKEYDOWN structure pointer [Windows Controls]","NMTVKEYDOWN","NMTVKEYDOWN structure [Windows Controls]","_win32_NMTVKEYDOWN","_win32_NMTVKEYDOWN_cpp","commctrl/LPNMTVKEYDOWN","commctrl/NMTVKEYDOWN","controls.NMTVKEYDOWN","controls._win32_NMTVKEYDOWN"]
 old-location: controls\NMTVKEYDOWN.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvkeydown.htm

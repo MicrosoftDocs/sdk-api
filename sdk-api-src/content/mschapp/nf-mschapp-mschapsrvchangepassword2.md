@@ -1,7 +1,8 @@
 ---
 UID: NF:mschapp.MSChapSrvChangePassword2
 title: MSChapSrvChangePassword2 function (mschapp.h)
-description: The MSChapSrvChangePassword2 function changes the password of a user account while supporting mutual encryption.helpviewer_keywords: ["MSChapSrvChangePassword2","MSChapSrvChangePassword2 function [MS-CHAP]","_mschap_mschapsrvchangepassword2","mschap.mschapsrvchangepassword2","mschapp/MSChapSrvChangePassword2"]
+description: The MSChapSrvChangePassword2 function changes the password of a user account while supporting mutual encryption.
+helpviewer_keywords: ["MSChapSrvChangePassword2","MSChapSrvChangePassword2 function [MS-CHAP]","_mschap_mschapsrvchangepassword2","mschap.mschapsrvchangepassword2","mschapp/MSChapSrvChangePassword2"]
 old-location: mschap\mschapsrvchangepassword2.htm
 tech.root: MsChap
 ms.assetid: 91ea4b98-79e4-4764-a580-a622d1491943

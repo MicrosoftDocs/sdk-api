@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_Picture
 title: IInkPicture::get_Picture (msinkaut.h)
-description: Gets the graphics file to appear on the InkPicture control.helpviewer_keywords: ["IInkPicture interface [Tablet PC]","Picture property","IInkPicture.Picture","IInkPicture.get_Picture","IInkPicture::Picture","IInkPicture::get_Picture","IInkPicture::put_Picture","InkPicture.get_Picture","InkPicture.put_Picture","Picture property [Tablet PC]","Picture property [Tablet PC]","IInkPicture interface","get_Picture","msinkaut/IInkPicture::Picture","msinkaut/IInkPicture::get_Picture","msinkaut/IInkPicture::put_Picture","tablet.inkpicture_picture"]
+description: Gets the graphics file to appear on the InkPicture control.
+helpviewer_keywords: ["IInkPicture interface [Tablet PC]","Picture property","IInkPicture.Picture","IInkPicture.get_Picture","IInkPicture::Picture","IInkPicture::get_Picture","IInkPicture::put_Picture","InkPicture.get_Picture","InkPicture.put_Picture","Picture property [Tablet PC]","Picture property [Tablet PC]","IInkPicture interface","get_Picture","msinkaut/IInkPicture::Picture","msinkaut/IInkPicture::get_Picture","msinkaut/IInkPicture::put_Picture","tablet.inkpicture_picture"]
 old-location: tablet\inkpicture_picture.htm
 tech.root: tablet
 ms.assetid: c07433f2-d32c-4b6f-ad15-6b49dc6f4efa

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector2Normalize
 title: XMVector2Normalize function (directxmath.h)
-description: Returns the normalized version of a 2D vector.helpviewer_keywords: ["Use DirectX..XMVector2Normalize","XMVector2Normalize","XMVector2Normalize method [DirectX Math Support APIs]","dxmath.xmvector2normalize"]
+description: Returns the normalized version of a 2D vector.
+helpviewer_keywords: ["Use DirectX..XMVector2Normalize","XMVector2Normalize","XMVector2Normalize method [DirectX Math Support APIs]","dxmath.xmvector2normalize"]
 old-location: dxmath\xmvector2normalize.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector2Normalize(XMVECTOR)

@@ -1,7 +1,8 @@
 ---
 UID: NS:dpa_dsa._DPASTREAMINFO
 title: DPASTREAMINFO (dpa_dsa.h)
-description: Contains a stream item used by the PFNDPASTREAM callback function.helpviewer_keywords: ["DPASTREAMINFO","DPASTREAMINFO structure [Windows Controls]","_win32_DPASTREAMINFO","_win32_DPASTREAMINFO_cpp","controls.DPASTREAMINFO","controls._win32_DPASTREAMINFO","dpa_dsa/DPASTREAMINFO"]
+description: Contains a stream item used by the PFNDPASTREAM callback function.
+helpviewer_keywords: ["DPASTREAMINFO","DPASTREAMINFO structure [Windows Controls]","_win32_DPASTREAMINFO","_win32_DPASTREAMINFO_cpp","controls.DPASTREAMINFO","controls._win32_DPASTREAMINFO","dpa_dsa/DPASTREAMINFO"]
 old-location: controls\DPASTREAMINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\dpastreaminfo.htm

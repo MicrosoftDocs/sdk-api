@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.WindowPattern_Close
 title: WindowPattern_Close function (uiautomationcoreapi.h)
-description: Closes an open window.helpviewer_keywords: ["WindowPattern_Close","WindowPattern_Close function [Windows Accessibility]","uiauto.uiauto_WindowPattern_CloseConPat","uiauto_WindowPattern_CloseConPat","uiautomationcoreapi/WindowPattern_Close","winauto.uiauto_WindowPattern_CloseConPat"]
+description: Closes an open window.
+helpviewer_keywords: ["WindowPattern_Close","WindowPattern_Close function [Windows Accessibility]","uiauto.uiauto_WindowPattern_CloseConPat","uiauto_WindowPattern_CloseConPat","uiautomationcoreapi/WindowPattern_Close","winauto.uiauto_WindowPattern_CloseConPat"]
 old-location: winauto\uiauto_WindowPattern_CloseConPat.htm
 tech.root: WinAuto
 ms.assetid: 0e19ee38-98f1-4a25-a20d-a580de5f8477

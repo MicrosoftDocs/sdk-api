@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.FindFirstFileTransactedW
 title: FindFirstFileTransactedW function (winbase.h)
-description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation.helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE","FindFirstFileTransacted","FindFirstFileTransacted function [Files]","FindFirstFileTransactedA","FindFirstFileTransactedW","fs.findfirstfiletransacted","winbase/FindFirstFileTransacted","winbase/FindFirstFileTransactedA","winbase/FindFirstFileTransactedW"]
+description: Searches a directory for a file or subdirectory with a name that matches a specific name as a transacted operation.
+helpviewer_keywords: ["FIND_FIRST_EX_CASE_SENSITIVE","FindFirstFileTransacted","FindFirstFileTransacted function [Files]","FindFirstFileTransactedA","FindFirstFileTransactedW","fs.findfirstfiletransacted","winbase/FindFirstFileTransacted","winbase/FindFirstFileTransactedA","winbase/FindFirstFileTransactedW"]
 old-location: fs\findfirstfiletransacted.htm
 tech.root: FileIO
 ms.assetid: d94bf32b-f14b-44b4-824b-ed453d0424ef
@@ -302,6 +303,10 @@ SMB 3.0 does not support TxF.
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines FindFirstFileTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

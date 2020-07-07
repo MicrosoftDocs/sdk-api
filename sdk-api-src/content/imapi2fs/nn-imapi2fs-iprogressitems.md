@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2fs.IProgressItems
 title: IProgressItems (imapi2fs.h)
-description: Use this interface to enumerate the progress items in a result image.helpviewer_keywords: ["IProgressItems","IProgressItems interface [IMAPI]","IProgressItems interface [IMAPI]","described","imapi.iprogressitems","imapi2fs/IProgressItems"]
+description: Use this interface to enumerate the progress items in a result image.
+helpviewer_keywords: ["IProgressItems","IProgressItems interface [IMAPI]","IProgressItems interface [IMAPI]","described","imapi.iprogressitems","imapi2fs/IProgressItems"]
 old-location: imapi\iprogressitems.htm
 tech.root: imapi
 ms.assetid: 40c28e67-8ff3-4330-90a1-7ebccb0023ad

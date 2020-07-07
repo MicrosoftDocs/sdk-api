@@ -1,7 +1,8 @@
 ---
 UID: NF:ntdsapi.DsFreeSpnArrayA
 title: DsFreeSpnArrayA function (ntdsapi.h)
-description: Frees an array returned from the DsGetSpn function.helpviewer_keywords: ["DsFreeSpnArray","DsFreeSpnArray function [Active Directory]","DsFreeSpnArrayA","DsFreeSpnArrayW","_glines_dsfreespnarray","ad.dsfreespnarray","ntdsapi/DsFreeSpnArray","ntdsapi/DsFreeSpnArrayA","ntdsapi/DsFreeSpnArrayW"]
+description: Frees an array returned from the DsGetSpn function.
+helpviewer_keywords: ["DsFreeSpnArray","DsFreeSpnArray function [Active Directory]","DsFreeSpnArrayA","DsFreeSpnArrayW","_glines_dsfreespnarray","ad.dsfreespnarray","ntdsapi/DsFreeSpnArray","ntdsapi/DsFreeSpnArrayA","ntdsapi/DsFreeSpnArrayW"]
 old-location: ad\dsfreespnarray.htm
 tech.root: ad
 ms.assetid: 1c229933-432d-4ded-be3b-3bd339a0abe4
@@ -83,4 +84,9 @@ Pointer to an array returned from <a href="https://docs.microsoft.com/windows/de
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The ntdsapi.h header defines DsFreeSpnArray as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

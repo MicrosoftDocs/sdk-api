@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptHashMessage
 title: CryptHashMessage function (wincrypt.h)
-description: Creates a hash of the message.helpviewer_keywords: ["CryptHashMessage","CryptHashMessage function [Security]","_crypto2_crypthashmessage","security.crypthashmessage","wincrypt/CryptHashMessage"]
+description: Creates a hash of the message.
+helpviewer_keywords: ["CryptHashMessage","CryptHashMessage function [Security]","_crypto2_crypthashmessage","security.crypthashmessage","wincrypt/CryptHashMessage"]
 old-location: security\crypthashmessage.htm
 tech.root: SecCrypto
 ms.assetid: 85a04c01-fd7c-4d87-b6e1-a0f2aea45d16

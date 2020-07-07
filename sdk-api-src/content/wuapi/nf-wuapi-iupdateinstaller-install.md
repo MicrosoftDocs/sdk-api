@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.Install
 title: IUpdateInstaller::Install (wuapi.h)
-description: Starts a synchronous installation of the updates.helpviewer_keywords: ["IUpdateInstaller interface [Windows Update Agent]","Install method","IUpdateInstaller.Install","IUpdateInstaller::Install","Install","Install method [Windows Update Agent]","Install method [Windows Update Agent]","IUpdateInstaller interface","wua.iupdateinstaller_install","wuapi/IUpdateInstaller::Install"]
+description: Starts a synchronous installation of the updates.
+helpviewer_keywords: ["IUpdateInstaller interface [Windows Update Agent]","Install method","IUpdateInstaller.Install","IUpdateInstaller::Install","Install","Install method [Windows Update Agent]","Install method [Windows Update Agent]","IUpdateInstaller interface","wua.iupdateinstaller_install","wuapi/IUpdateInstaller::Install"]
 old-location: wua\iupdateinstaller_install.htm
 tech.root: Wua_Sdk
 ms.assetid: 009fc238-fcc4-4131-b770-9f0d0946e741

@@ -1,7 +1,8 @@
 ---
 UID: NS:evntcons._EVENT_EXTENDED_ITEM_STACK_TRACE32
 title: EVENT_EXTENDED_ITEM_STACK_TRACE32 (evntcons.h)
-description: Defines a call stack on a 32-bit computer.helpviewer_keywords: ["*PEVENT_EXTENDED_ITEM_STACK_TRACE32","EVENT_EXTENDED_ITEM_STACK_TRACE32","EVENT_EXTENDED_ITEM_STACK_TRACE32 structure [ETW]","PEVENT_EXTENDED_ITEM_STACK_TRACE32","PEVENT_EXTENDED_ITEM_STACK_TRACE32 structure pointer [ETW]","etw.event_extended_item_stack_trace32","evntcons/EVENT_EXTENDED_ITEM_STACK_TRACE32","evntcons/PEVENT_EXTENDED_ITEM_STACK_TRACE32"]
+description: Defines a call stack on a 32-bit computer.
+helpviewer_keywords: ["*PEVENT_EXTENDED_ITEM_STACK_TRACE32","EVENT_EXTENDED_ITEM_STACK_TRACE32","EVENT_EXTENDED_ITEM_STACK_TRACE32 structure [ETW]","PEVENT_EXTENDED_ITEM_STACK_TRACE32","PEVENT_EXTENDED_ITEM_STACK_TRACE32 structure pointer [ETW]","etw.event_extended_item_stack_trace32","evntcons/EVENT_EXTENDED_ITEM_STACK_TRACE32","evntcons/PEVENT_EXTENDED_ITEM_STACK_TRACE32"]
 old-location: etw\event_extended_item_stack_trace32.htm
 tech.root: ETW
 ms.assetid: 6898951a-5719-47aa-a219-97f82095686f

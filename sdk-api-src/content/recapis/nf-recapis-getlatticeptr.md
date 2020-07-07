@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.GetLatticePtr
 title: GetLatticePtr function (recapis.h)
-description: Retrieves a pointer to the lattice for the current results.helpviewer_keywords: ["5c483500-c58f-4fd0-903a-a3011727bab8","GetLatticePtr","GetLatticePtr function [Tablet PC]","recapis/GetLatticePtr","tablet.getlatticeptr"]
+description: Retrieves a pointer to the lattice for the current results.
+helpviewer_keywords: ["5c483500-c58f-4fd0-903a-a3011727bab8","GetLatticePtr","GetLatticePtr function [Tablet PC]","recapis/GetLatticePtr","tablet.getlatticeptr"]
 old-location: tablet\getlatticeptr.htm
 tech.root: tablet
 ms.assetid: 5c483500-c58f-4fd0-903a-a3011727bab8

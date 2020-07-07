@@ -1,7 +1,8 @@
 ---
 UID: NF:evntprov.EventDescSetOpcode
 title: EventDescSetOpcode function (evntprov.h)
-description: Sets the Opcode member of the event descriptor.helpviewer_keywords: ["EventDescSetOpcode","EventDescSetOpcode function [ETW]","base.eventdescsetopcode_func","etw.eventdescsetopcode_func","evntprov/EventDescSetOpcode"]
+description: Sets the Opcode member of the event descriptor.
+helpviewer_keywords: ["EventDescSetOpcode","EventDescSetOpcode function [ETW]","base.eventdescsetopcode_func","etw.eventdescsetopcode_func","evntprov/EventDescSetOpcode"]
 old-location: etw\eventdescsetopcode_func.htm
 tech.root: ETW
 ms.assetid: fe16eae0-5bff-4266-9b91-4b714540bde3

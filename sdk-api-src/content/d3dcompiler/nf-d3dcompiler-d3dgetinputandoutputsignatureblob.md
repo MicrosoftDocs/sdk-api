@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcompiler.D3DGetInputAndOutputSignatureBlob
 title: D3DGetInputAndOutputSignatureBlob function (d3dcompiler.h)
-description: Note  D3DGetInputAndOutputSignatureBlob may be altered or unavailable for releases after Windows 8.1. Instead use D3DGetBlobPart with the D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB value.  Gets the input and output signatures from a compilation result.helpviewer_keywords: ["12cc3e6c-b766-e3b2-191f-39df167573bd","D3DGetInputAndOutputSignatureBlob","D3DGetInputAndOutputSignatureBlob function [HLSL]","d3dcompiler/D3DGetInputAndOutputSignatureBlob","direct3dhlsl.d3dgetinputandoutputsignatureblob"]
+description: Note  D3DGetInputAndOutputSignatureBlob may be altered or unavailable for releases after Windows 8.1. Instead use D3DGetBlobPart with the D3D_BLOB_INPUT_AND_OUTPUT_SIGNATURE_BLOB value.  Gets the input and output signatures from a compilation result.
+helpviewer_keywords: ["12cc3e6c-b766-e3b2-191f-39df167573bd","D3DGetInputAndOutputSignatureBlob","D3DGetInputAndOutputSignatureBlob function [HLSL]","d3dcompiler/D3DGetInputAndOutputSignatureBlob","direct3dhlsl.d3dgetinputandoutputsignatureblob"]
 old-location: direct3dhlsl\d3dgetinputandoutputsignatureblob.htm
 tech.root: direct3dhlsl
 ms.assetid: VS|directx_sdk|~\d3dgetinputandoutputsignatureblob.htm

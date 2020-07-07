@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10.ID3D10Device.GetPredication
 title: ID3D10Device::GetPredication (d3d10.h)
-description: Get the rendering predicate state.helpviewer_keywords: ["7e48b41e-557d-8a50-cf4b-b3309c77e0af","GetPredication","GetPredication method [Direct3D 10]","GetPredication method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GetPredication method","ID3D10Device.GetPredication","ID3D10Device::GetPredication","d3d10/ID3D10Device::GetPredication","direct3d10.id3d10device_getpredication"]
+description: Get the rendering predicate state.
+helpviewer_keywords: ["7e48b41e-557d-8a50-cf4b-b3309c77e0af","GetPredication","GetPredication method [Direct3D 10]","GetPredication method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GetPredication method","ID3D10Device.GetPredication","ID3D10Device::GetPredication","d3d10/ID3D10Device::GetPredication","direct3d10.id3d10device_getpredication"]
 old-location: direct3d10\id3d10device_getpredication.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_getpredication.htm

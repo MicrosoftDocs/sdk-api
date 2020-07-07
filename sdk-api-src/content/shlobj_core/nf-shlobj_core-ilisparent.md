@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.ILIsParent
 title: ILIsParent function (shlobj_core.h)
-description: Tests whether an ITEMIDLIST structure is the parent of another ITEMIDLIST structure.helpviewer_keywords: ["ILIsParent","ILIsParent function [Windows Shell]","_win32_ILIsParent","shell.ILIsParent","shlobj_core/ILIsParent"]
+description: Tests whether an ITEMIDLIST structure is the parent of another ITEMIDLIST structure.
+helpviewer_keywords: ["ILIsParent","ILIsParent function [Windows Shell]","_win32_ILIsParent","shell.ILIsParent","shlobj_core/ILIsParent"]
 old-location: shell\ILIsParent.htm
 tech.root: shell
 ms.assetid: 638df20b-aa7e-4557-abda-d36b58853aa1

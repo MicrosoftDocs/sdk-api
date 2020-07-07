@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1svg.ID2D1SvgElement.GetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP)
 title: ID2D1SvgElement::GetAttributeValue(PCWSTR,D2D1_SVG_LINE_CAP) (d2d1svg.h)
-description: Gets an attribute of this element as a line cap value. This method can be used to get the value of the stroke-linecap property.helpviewer_keywords: ["GetAttributeValue","GetAttributeValue method [Direct2D]","GetAttributeValue method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetAttributeValue method","ID2D1SvgElement.GetAttributeValue","ID2D1SvgElement.GetAttributeValue(PCWSTR","D2D1_SVG_LINE_CAP)","ID2D1SvgElement::GetAttributeValue","ID2D1SvgElement::GetAttributeValue(PCWSTR","D2D1_SVG_LINE_CAP)","d2d1svg/ID2D1SvgElement::GetAttributeValue","direct2d.id2d1svgelement_getattributevalue_10"]
+description: Gets an attribute of this element as a line cap value. This method can be used to get the value of the stroke-linecap property.
+helpviewer_keywords: ["GetAttributeValue","GetAttributeValue method [Direct2D]","GetAttributeValue method [Direct2D]","ID2D1SvgElement interface","ID2D1SvgElement interface [Direct2D]","GetAttributeValue method","ID2D1SvgElement.GetAttributeValue","ID2D1SvgElement.GetAttributeValue(PCWSTR","D2D1_SVG_LINE_CAP)","ID2D1SvgElement::GetAttributeValue","ID2D1SvgElement::GetAttributeValue(PCWSTR","D2D1_SVG_LINE_CAP)","d2d1svg/ID2D1SvgElement::GetAttributeValue","direct2d.id2d1svgelement_getattributevalue_10"]
 old-location: direct2d\id2d1svgelement_getattributevalue_10.htm
 tech.root: Direct2D
 ms.assetid: AFA24178-B862-4FA1-99D1-2408E0C1BE52

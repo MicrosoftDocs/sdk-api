@@ -1,7 +1,8 @@
 ---
 UID: NF:certif.ICertServerPolicy.GetCertificateExtension
 title: ICertServerPolicy::GetCertificateExtension (certif.h)
-description: Retrieves a specific certificate extension.helpviewer_keywords: ["CCertServerPolicy object [Security]","GetCertificateExtension method","GetCertificateExtension","GetCertificateExtension method [Security]","GetCertificateExtension method [Security]","CCertServerPolicy object","GetCertificateExtension method [Security]","ICertServerPolicy interface","ICertServerPolicy interface [Security]","GetCertificateExtension method","ICertServerPolicy.GetCertificateExtension","ICertServerPolicy::GetCertificateExtension","PROPTYPE_BINARY","PROPTYPE_DATE","PROPTYPE_LONG","PROPTYPE_STRING","_certsrv_icertserverpolicy_getcertificateextension","certif/ICertServerPolicy::GetCertificateExtension","security.icertserverpolicy_getcertificateextension"]
+description: Retrieves a specific certificate extension.
+helpviewer_keywords: ["CCertServerPolicy object [Security]","GetCertificateExtension method","GetCertificateExtension","GetCertificateExtension method [Security]","GetCertificateExtension method [Security]","CCertServerPolicy object","GetCertificateExtension method [Security]","ICertServerPolicy interface","ICertServerPolicy interface [Security]","GetCertificateExtension method","ICertServerPolicy.GetCertificateExtension","ICertServerPolicy::GetCertificateExtension","PROPTYPE_BINARY","PROPTYPE_DATE","PROPTYPE_LONG","PROPTYPE_STRING","_certsrv_icertserverpolicy_getcertificateextension","certif/ICertServerPolicy::GetCertificateExtension","security.icertserverpolicy_getcertificateextension"]
 old-location: security\icertserverpolicy_getcertificateextension.htm
 tech.root: SecCrypto
 ms.assetid: e2c8e1d5-6ddb-4c8f-8052-f45cd52e2bef

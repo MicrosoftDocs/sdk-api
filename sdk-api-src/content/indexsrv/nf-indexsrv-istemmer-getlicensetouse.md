@@ -1,7 +1,8 @@
 ---
 UID: NF:indexsrv.IStemmer.GetLicenseToUse
 title: IStemmer::GetLicenseToUse (indexsrv.h)
-description: Gets the license information for this IStemmer implementation.helpviewer_keywords: ["GetLicenseToUse","GetLicenseToUse method [search]","GetLicenseToUse method [search]","IStemmer interface","IStemmer interface [search]","GetLicenseToUse method","IStemmer.GetLicenseToUse","IStemmer::GetLicenseToUse","_search_IStemmer_GetLicenseToUse","indexsrv/IStemmer::GetLicenseToUse","search._search_IStemmer_GetLicenseToUse"]
+description: Gets the license information for this IStemmer implementation.
+helpviewer_keywords: ["GetLicenseToUse","GetLicenseToUse method [search]","GetLicenseToUse method [search]","IStemmer interface","IStemmer interface [search]","GetLicenseToUse method","IStemmer.GetLicenseToUse","IStemmer::GetLicenseToUse","_search_IStemmer_GetLicenseToUse","indexsrv/IStemmer::GetLicenseToUse","search._search_IStemmer_GetLicenseToUse"]
 old-location: search\_search_IStemmer_GetLicenseToUse.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\dataaddins\istemmer\getlicensetouse.htm

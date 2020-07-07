@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearOutputChannel
 title: ImageAttributes::ClearOutputChannel (gdiplusimageattributes.h)
-description: The ImageAttributes::ClearOutputChannel method clears the cyan-magenta-yellow-black (CMYK) output channel setting for a specified category.helpviewer_keywords: ["ClearOutputChannel","ClearOutputChannel method [GDI+]","ClearOutputChannel method [GDI+]","ImageAttributes class","ImageAttributes class [GDI+]","ClearOutputChannel method","ImageAttributes.ClearOutputChannel","ImageAttributes::ClearOutputChannel","_gdiplus_CLASS_ImageAttributes_ClearOutputChannel_type_","gdiplus._gdiplus_CLASS_ImageAttributes_ClearOutputChannel_type_"]
+description: The ImageAttributes::ClearOutputChannel method clears the cyan-magenta-yellow-black (CMYK) output channel setting for a specified category.
+helpviewer_keywords: ["ClearOutputChannel","ClearOutputChannel method [GDI+]","ClearOutputChannel method [GDI+]","ImageAttributes class","ImageAttributes class [GDI+]","ClearOutputChannel method","ImageAttributes.ClearOutputChannel","ImageAttributes::ClearOutputChannel","_gdiplus_CLASS_ImageAttributes_ClearOutputChannel_type_","gdiplus._gdiplus_CLASS_ImageAttributes_ClearOutputChannel_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearOutputChannel_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearoutputchannel.htm

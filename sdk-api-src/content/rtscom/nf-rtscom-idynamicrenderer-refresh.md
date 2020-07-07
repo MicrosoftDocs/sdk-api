@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.Refresh
 title: IDynamicRenderer::Refresh (rtscom.h)
-description: Causes the DynamicRenderer Class object to redraw the ink data that is currently rendering.helpviewer_keywords: ["409d4353-fc85-49ff-99a4-d8393a3c0ec4","IDynamicRenderer interface [Tablet PC]","Refresh method","IDynamicRenderer.Refresh","IDynamicRenderer::Refresh","Refresh","Refresh method [Tablet PC]","Refresh method [Tablet PC]","IDynamicRenderer interface","rtscom/IDynamicRenderer::Refresh","tablet.idynamicrenderer_refresh"]
+description: Causes the DynamicRenderer Class object to redraw the ink data that is currently rendering.
+helpviewer_keywords: ["409d4353-fc85-49ff-99a4-d8393a3c0ec4","IDynamicRenderer interface [Tablet PC]","Refresh method","IDynamicRenderer.Refresh","IDynamicRenderer::Refresh","Refresh","Refresh method [Tablet PC]","Refresh method [Tablet PC]","IDynamicRenderer interface","rtscom/IDynamicRenderer::Refresh","tablet.idynamicrenderer_refresh"]
 old-location: tablet\idynamicrenderer_refresh.htm
 tech.root: tablet
 ms.assetid: 409d4353-fc85-49ff-99a4-d8393a3c0ec4

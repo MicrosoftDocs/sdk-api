@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_TEX2D_ARRAY_DSV
 title: D3D12_TEX2D_ARRAY_DSV (d3d12.h)
-description: Describes the subresources from an array of 2D textures that are accessible to a depth-stencil view.helpviewer_keywords: ["D3D12_TEX2D_ARRAY_DSV","D3D12_TEX2D_ARRAY_DSV structure","d3d12/D3D12_TEX2D_ARRAY_DSV","direct3d12.d3d12_tex2d_array_dsv"]
+description: Describes the subresources from an array of 2D textures that are accessible to a depth-stencil view.
+helpviewer_keywords: ["D3D12_TEX2D_ARRAY_DSV","D3D12_TEX2D_ARRAY_DSV structure","d3d12/D3D12_TEX2D_ARRAY_DSV","direct3d12.d3d12_tex2d_array_dsv"]
 old-location: direct3d12\d3d12_tex2d_array_dsv.htm
 tech.root: direct3d12
 ms.assetid: 2B282647-8DCC-4624-8D35-0F63E0F93EE0

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RemoveDefaultScopeRule
 title: ISearchCrawlScopeManager::RemoveDefaultScopeRule (searchapi.h)
-description: Removes a default scope rule from the search engine.helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","RemoveDefaultScopeRule method","ISearchCrawlScopeManager.RemoveDefaultScopeRule","ISearchCrawlScopeManager::RemoveDefaultScopeRule","RemoveDefaultScopeRule","RemoveDefaultScopeRule method [search]","RemoveDefaultScopeRule method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_RemoveDefaultScopeRule","search._search_ISearchCrawlScopeManager_RemoveDefaultScopeRule","searchapi/ISearchCrawlScopeManager::RemoveDefaultScopeRule"]
+description: Removes a default scope rule from the search engine.
+helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","RemoveDefaultScopeRule method","ISearchCrawlScopeManager.RemoveDefaultScopeRule","ISearchCrawlScopeManager::RemoveDefaultScopeRule","RemoveDefaultScopeRule","RemoveDefaultScopeRule method [search]","RemoveDefaultScopeRule method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_RemoveDefaultScopeRule","search._search_ISearchCrawlScopeManager_RemoveDefaultScopeRule","searchapi/ISearchCrawlScopeManager::RemoveDefaultScopeRule"]
 old-location: search\_search_ISearchCrawlScopeManager_RemoveDefaultScopeRule.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\removedefaultscoperule.htm
@@ -77,11 +78,6 @@ Returns S_OK if successful, or an error otherwise.
 
 ## -remarks
 
-
-
 URLs passed in as parameters to <b>ISearchCrawlScopeManager::RemoveDefaultScopeRule</b> are expected to be fully URL-decoded and without URL control codes. For example, file:///c:\My Documents is fully URL-decoded, whereas file:///c:\My%20Documents is not.
 
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

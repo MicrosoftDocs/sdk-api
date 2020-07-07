@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_BASIC_CONSTRAINTS_INFO
 title: CERT_BASIC_CONSTRAINTS_INFO (wincrypt.h)
-description: The CERT_BASIC_CONSTRAINTS_INFO structure contains information that indicates whether the certified subject can act as a certification authority (CA), an end entity, or both.helpviewer_keywords: ["*PCERT_BASIC_CONSTRAINTS_INFO","CERT_BASIC_CONSTRAINTS_INFO","CERT_BASIC_CONSTRAINTS_INFO structure [Security]","PCERT_BASIC_CONSTRAINTS_INFO","PCERT_BASIC_CONSTRAINTS_INFO structure pointer [Security]","_crypto2_cert_basic_constraints_info","security.cert_basic_constraints_info","wincrypt/CERT_BASIC_CONSTRAINTS_INFO","wincrypt/PCERT_BASIC_CONSTRAINTS_INFO"]
+description: The CERT_BASIC_CONSTRAINTS_INFO structure contains information that indicates whether the certified subject can act as a certification authority (CA), an end entity, or both.
+helpviewer_keywords: ["*PCERT_BASIC_CONSTRAINTS_INFO","CERT_BASIC_CONSTRAINTS_INFO","CERT_BASIC_CONSTRAINTS_INFO structure [Security]","PCERT_BASIC_CONSTRAINTS_INFO","PCERT_BASIC_CONSTRAINTS_INFO structure pointer [Security]","_crypto2_cert_basic_constraints_info","security.cert_basic_constraints_info","wincrypt/CERT_BASIC_CONSTRAINTS_INFO","wincrypt/PCERT_BASIC_CONSTRAINTS_INFO"]
 old-location: security\cert_basic_constraints_info.htm
 tech.root: SecCrypto
 ms.assetid: 6603b627-5e5d-48bc-b200-c8dcdd646994

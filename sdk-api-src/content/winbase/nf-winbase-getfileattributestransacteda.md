@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetFileAttributesTransactedA
 title: GetFileAttributesTransactedA function (winbase.h)
-description: Retrieves file system attributes for a specified file or directory as a transacted operation.helpviewer_keywords: ["GetFileAttributesTransacted","GetFileAttributesTransacted function [Files]","GetFileAttributesTransactedA","GetFileAttributesTransactedW","GetFileExInfoStandard","fs.getfileattributestransacted","winbase/GetFileAttributesTransacted","winbase/GetFileAttributesTransactedA","winbase/GetFileAttributesTransactedW"]
+description: Retrieves file system attributes for a specified file or directory as a transacted operation.
+helpviewer_keywords: ["GetFileAttributesTransacted","GetFileAttributesTransacted function [Files]","GetFileAttributesTransactedA","GetFileAttributesTransactedW","GetFileExInfoStandard","fs.getfileattributestransacted","winbase/GetFileAttributesTransacted","winbase/GetFileAttributesTransactedA","winbase/GetFileAttributesTransactedW"]
 old-location: fs\getfileattributestransacted.htm
 tech.root: FileIO
 ms.assetid: dd1435da-93e5-440a-913a-9e40e39b4a01
@@ -230,6 +231,10 @@ If a file is open for modification in a transaction, no other thread can open th
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines GetFileAttributesTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

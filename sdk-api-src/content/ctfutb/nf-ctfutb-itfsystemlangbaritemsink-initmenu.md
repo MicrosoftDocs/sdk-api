@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemSink.InitMenu
 title: ITfSystemLangBarItemSink::InitMenu (ctfutb.h)
-description: ITfSystemLangBarItemSink::InitMenu methodhelpviewer_keywords: ["ITfSystemLangBarItemSink interface [Text Services Framework]","InitMenu method","ITfSystemLangBarItemSink.InitMenu","ITfSystemLangBarItemSink::InitMenu","InitMenu","InitMenu method [Text Services Framework]","InitMenu method [Text Services Framework]","ITfSystemLangBarItemSink interface","_tsf_itfsystemlangbaritemsink_initmenu_ref","ctfutb/ITfSystemLangBarItemSink::InitMenu","tsf.itfsystemlangbaritemsink_initmenu"]
+description: ITfSystemLangBarItemSink::InitMenu method
+helpviewer_keywords: ["ITfSystemLangBarItemSink interface [Text Services Framework]","InitMenu method","ITfSystemLangBarItemSink.InitMenu","ITfSystemLangBarItemSink::InitMenu","InitMenu","InitMenu method [Text Services Framework]","InitMenu method [Text Services Framework]","ITfSystemLangBarItemSink interface","_tsf_itfsystemlangbaritemsink_initmenu_ref","ctfutb/ITfSystemLangBarItemSink::InitMenu","tsf.itfsystemlangbaritemsink_initmenu"]
 old-location: tsf\itfsystemlangbaritemsink_initmenu.htm
 tech.root: TSF
 ms.assetid: 6e8ba0ef-2f0a-4d67-95c1-06fee763bc14

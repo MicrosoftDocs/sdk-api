@@ -1,7 +1,8 @@
 ---
 UID: NF:wmiutils.IWbemPath.GetServer
 title: IWbemPath::GetServer (wmiutils.h)
-description: The IWbemPath::GetServer method retrieves the server portion of the path.helpviewer_keywords: ["GetServer","GetServer method [Windows Management Instrumentation]","GetServer method [Windows Management Instrumentation]","IWbemPath interface","IWbemPath interface [Windows Management Instrumentation]","GetServer method","IWbemPath.GetServer","IWbemPath::GetServer","_hmm_iwbempath_getserver","wmi.iwbempath_getserver","wmiutils/IWbemPath::GetServer"]
+description: The IWbemPath::GetServer method retrieves the server portion of the path.
+helpviewer_keywords: ["GetServer","GetServer method [Windows Management Instrumentation]","GetServer method [Windows Management Instrumentation]","IWbemPath interface","IWbemPath interface [Windows Management Instrumentation]","GetServer method","IWbemPath.GetServer","IWbemPath::GetServer","_hmm_iwbempath_getserver","wmi.iwbempath_getserver","wmiutils/IWbemPath::GetServer"]
 old-location: wmi\iwbempath_getserver.htm
 tech.root: WmiSdk
 ms.assetid: 831d34d8-d586-41cc-a878-7a2b837b84de

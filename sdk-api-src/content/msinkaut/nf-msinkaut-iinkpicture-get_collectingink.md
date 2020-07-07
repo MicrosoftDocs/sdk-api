@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkPicture.get_CollectingInk
 title: IInkPicture::get_CollectingInk (msinkaut.h)
-description: Gets a value that specifies whether ink is currently being drawn on an ink collector (InkCollector, InkOverlay, or InkPicture).helpviewer_keywords: ["CollectingInk property [Tablet PC]","CollectingInk property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","CollectingInk property","IInkPicture.CollectingInk","IInkPicture.get_CollectingInk","IInkPicture::CollectingInk","IInkPicture::get_CollectingInk","InkPicture.get_CollectingInk","get_CollectingInk","msinkaut/IInkPicture::CollectingInk","msinkaut/IInkPicture::get_CollectingInk","tablet.inkpicture_collectingink"]
+description: Gets a value that specifies whether ink is currently being drawn on an ink collector (InkCollector, InkOverlay, or InkPicture).
+helpviewer_keywords: ["CollectingInk property [Tablet PC]","CollectingInk property [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","CollectingInk property","IInkPicture.CollectingInk","IInkPicture.get_CollectingInk","IInkPicture::CollectingInk","IInkPicture::get_CollectingInk","InkPicture.get_CollectingInk","get_CollectingInk","msinkaut/IInkPicture::CollectingInk","msinkaut/IInkPicture::get_CollectingInk","tablet.inkpicture_collectingink"]
 old-location: tablet\inkpicture_collectingink.htm
 tech.root: tablet
 ms.assetid: 19fbe26e-02a4-4d05-a2e8-25d2f8ae1146

@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaUser.GetQuotaThreshold
 title: IDiskQuotaUser::GetQuotaThreshold (dskquota.h)
-description: Retrieves the user's warning threshold value on the volume.helpviewer_keywords: ["GetQuotaThreshold","GetQuotaThreshold method [Files]","GetQuotaThreshold method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaThreshold method","IDiskQuotaUser.GetQuotaThreshold","IDiskQuotaUser::GetQuotaThreshold","_win32_idiskquotauser_getquotathreshold","base.idiskquotauser_getquotathreshold","dskquota/IDiskQuotaUser::GetQuotaThreshold","fs.idiskquotauser_getquotathreshold"]
+description: Retrieves the user's warning threshold value on the volume.
+helpviewer_keywords: ["GetQuotaThreshold","GetQuotaThreshold method [Files]","GetQuotaThreshold method [Files]","IDiskQuotaUser interface","IDiskQuotaUser interface [Files]","GetQuotaThreshold method","IDiskQuotaUser.GetQuotaThreshold","IDiskQuotaUser::GetQuotaThreshold","_win32_idiskquotauser_getquotathreshold","base.idiskquotauser_getquotathreshold","dskquota/IDiskQuotaUser::GetQuotaThreshold","fs.idiskquotauser_getquotathreshold"]
 old-location: fs\idiskquotauser_getquotathreshold.htm
 tech.root: FileIO
 ms.assetid: 58b925f3-b40a-4fab-86c6-725e04e6f721

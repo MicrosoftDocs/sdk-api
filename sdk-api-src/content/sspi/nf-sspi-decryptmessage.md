@@ -1,7 +1,8 @@
 ---
 UID: NF:sspi.DecryptMessage
 title: DecryptMessage function (sspi.h)
-description: Decrypts a message by using Digest.helpviewer_keywords: ["DecryptMessage","DecryptMessage (Digest)","DecryptMessage function [Security]","SECQOP_WRAP_NO_ENCRYPT","SIGN_ONLY","UnsealMessage [Security]","security.decryptmessage__digest_","sspi/DecryptMessage"]
+description: Decrypts a message by using Digest.
+helpviewer_keywords: ["DecryptMessage","DecryptMessage (Digest)","DecryptMessage function [Security]","SECQOP_WRAP_NO_ENCRYPT","SIGN_ONLY","UnsealMessage [Security]","security.decryptmessage__digest_","sspi/DecryptMessage"]
 old-location: security\decryptmessage__digest_.htm
 tech.root: SecAuthN
 ms.assetid: 46d45f59-33fa-434a-b329-20b6257c9a19

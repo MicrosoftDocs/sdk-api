@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantGetElementCount
 title: PropVariantGetElementCount function (propvarutil.h)
-description: Retrieves the element count of a PROPVARIANT structure.helpviewer_keywords: ["PropVariantGetElementCount","PropVariantGetElementCount function [Windows Properties]","_shell_PropVariantGetElementCount","properties.PropVariantGetElementCount","propvarutil/PropVariantGetElementCount","shell.PropVariantGetElementCount"]
+description: Retrieves the element count of a PROPVARIANT structure.
+helpviewer_keywords: ["PropVariantGetElementCount","PropVariantGetElementCount function [Windows Properties]","_shell_PropVariantGetElementCount","properties.PropVariantGetElementCount","propvarutil/PropVariantGetElementCount","shell.PropVariantGetElementCount"]
 old-location: properties\PropVariantGetElementCount.htm
 tech.root: properties
 ms.assetid: 1d02f06e-f90b-40f2-923b-a89d2d4d535c

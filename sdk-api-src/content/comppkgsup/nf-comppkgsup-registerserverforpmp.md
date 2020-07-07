@@ -1,7 +1,8 @@
 ---
 UID: NF:comppkgsup.RegisterServerForPMP
 title: RegisterServerForPMP function (comppkgsup.h)
-description: Registers a COM Server CLSID and a class factory for Protected Media Process (PMP) usage.helpviewer_keywords: ["RegisterServerForPMP","RegisterServerForPMP function [Windows API]","comppkgsup/RegisterServerForPMP","winprog.registerserverforpmp"]
+description: Registers a COM Server CLSID and a class factory for Protected Media Process (PMP) usage.
+helpviewer_keywords: ["RegisterServerForPMP","RegisterServerForPMP function [Windows API]","comppkgsup/RegisterServerForPMP","winprog.registerserverforpmp"]
 old-location: winprog\registerserverforpmp.htm
 tech.root: DevNotes
 ms.assetid: F18A5596-F21E-427B-8281-544DD7CA9E0B

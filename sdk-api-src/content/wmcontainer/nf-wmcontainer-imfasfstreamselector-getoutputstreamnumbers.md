@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamSelector.GetOutputStreamNumbers
 title: IMFASFStreamSelector::GetOutputStreamNumbers (wmcontainer.h)
-description: Retrieves the stream numbers for all of the streams that are associated with an output.helpviewer_keywords: ["4a999e7a-1b2e-4206-874a-ed93b868150b","GetOutputStreamNumbers","GetOutputStreamNumbers method [Media Foundation]","GetOutputStreamNumbers method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetOutputStreamNumbers method","IMFASFStreamSelector.GetOutputStreamNumbers","IMFASFStreamSelector::GetOutputStreamNumbers","mf.imfasfstreamselector_getoutputstreamnumbers","wmcontainer/IMFASFStreamSelector::GetOutputStreamNumbers"]
+description: Retrieves the stream numbers for all of the streams that are associated with an output.
+helpviewer_keywords: ["4a999e7a-1b2e-4206-874a-ed93b868150b","GetOutputStreamNumbers","GetOutputStreamNumbers method [Media Foundation]","GetOutputStreamNumbers method [Media Foundation]","IMFASFStreamSelector interface","IMFASFStreamSelector interface [Media Foundation]","GetOutputStreamNumbers method","IMFASFStreamSelector.GetOutputStreamNumbers","IMFASFStreamSelector::GetOutputStreamNumbers","mf.imfasfstreamselector_getoutputstreamnumbers","wmcontainer/IMFASFStreamSelector::GetOutputStreamNumbers"]
 old-location: mf\imfasfstreamselector_getoutputstreamnumbers.htm
 tech.root: medfound
 ms.assetid: 4a999e7a-1b2e-4206-874a-ed93b868150b

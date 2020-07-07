@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetContentRect
 title: IDirectManipulationContent::GetContentRect (directmanipulation.h)
-description: Retrieves the bounding rectangle of the content, relative to the bounding rectangle of the viewport (if defined).helpviewer_keywords: ["GetContentRect","GetContentRect method [Direct Manipulation]","GetContentRect method [Direct Manipulation]","IDirectManipulationContent interface","IDirectManipulationContent interface [Direct Manipulation]","GetContentRect method","IDirectManipulationContent.GetContentRect","IDirectManipulationContent::GetContentRect","directmanipulation.idirectmanipulationcontent_getcontentrect","directmanipulation/IDirectManipulationContent::GetContentRect"]
+description: Retrieves the bounding rectangle of the content, relative to the bounding rectangle of the viewport (if defined).
+helpviewer_keywords: ["GetContentRect","GetContentRect method [Direct Manipulation]","GetContentRect method [Direct Manipulation]","IDirectManipulationContent interface","IDirectManipulationContent interface [Direct Manipulation]","GetContentRect method","IDirectManipulationContent.GetContentRect","IDirectManipulationContent::GetContentRect","directmanipulation.idirectmanipulationcontent_getcontentrect","directmanipulation/IDirectManipulationContent::GetContentRect"]
 old-location: directmanipulation\idirectmanipulationcontent_getcontentrect.htm
 tech.root: directmanipulation
 ms.assetid: 26a5736e-633e-4451-a339-c5f88913bcf6

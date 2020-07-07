@@ -1,7 +1,8 @@
 ---
 UID: NL:wbemtime.WBEMTimeSpan
 title: WBEMTimeSpan (wbemtime.h)
-description: The WBEMTimeSpan class holds time spans in nanoseconds.helpviewer_keywords: ["WBEMTimeSpan","WBEMTimeSpan class [Windows Management Instrumentation]","WBEMTimeSpan class [Windows Management Instrumentation]","described","_hmm_wbemtimespan","wbemtime/WBEMTimeSpan","wmi.wbemtimespan"]
+description: The WBEMTimeSpan class holds time spans in nanoseconds.
+helpviewer_keywords: ["WBEMTimeSpan","WBEMTimeSpan class [Windows Management Instrumentation]","WBEMTimeSpan class [Windows Management Instrumentation]","described","_hmm_wbemtimespan","wbemtime/WBEMTimeSpan","wmi.wbemtimespan"]
 old-location: wmi\wbemtimespan.htm
 tech.root: WmiSdk
 ms.assetid: bcec87c1-32ba-451b-92bb-80c8a5007adb

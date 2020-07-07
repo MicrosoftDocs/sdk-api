@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpQueryUrlGroupProperty
 title: HttpQueryUrlGroupProperty function (http.h)
-description: Queries a property on the specified URL Group.helpviewer_keywords: ["HttpQueryUrlGroupProperty","HttpQueryUrlGroupProperty function [HTTP]","HttpServerAuthenticationProperty","HttpServerChannelBindProperty","HttpServerQosProperty","HttpServerStateProperty","HttpServerTimeoutsProperty","http.httpqueryurlgroupproperty","http/HttpQueryUrlGroupProperty"]
+description: Queries a property on the specified URL Group.
+helpviewer_keywords: ["HttpQueryUrlGroupProperty","HttpQueryUrlGroupProperty function [HTTP]","HttpServerAuthenticationProperty","HttpServerChannelBindProperty","HttpServerQosProperty","HttpServerStateProperty","HttpServerTimeoutsProperty","http.httpqueryurlgroupproperty","http/HttpQueryUrlGroupProperty"]
 old-location: http\httpqueryurlgroupproperty.htm
 tech.root: http
 ms.assetid: f3e8fde0-5a78-46aa-8c6c-cea957d12356

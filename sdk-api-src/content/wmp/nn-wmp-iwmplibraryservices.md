@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPLibraryServices
 title: IWMPLibraryServices (wmp.h)
-description: The IWMPLibraryServices interface provides methods to enumerate libraries.helpviewer_keywords: ["IWMPLibraryServices","IWMPLibraryServices interface [Windows Media Player]","IWMPLibraryServices interface [Windows Media Player]","described","IWMPLibraryServicesInterface","wmp.iwmplibraryservices","wmp/IWMPLibraryServices"]
+description: The IWMPLibraryServices interface provides methods to enumerate libraries.
+helpviewer_keywords: ["IWMPLibraryServices","IWMPLibraryServices interface [Windows Media Player]","IWMPLibraryServices interface [Windows Media Player]","described","IWMPLibraryServicesInterface","wmp.iwmplibraryservices","wmp/IWMPLibraryServices"]
 old-location: wmp\iwmplibraryservices.htm
 tech.root: WMP
 ms.assetid: 9ed6d02e-15ca-425f-8642-e32a5adfaa55

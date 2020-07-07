@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_set_optionW
 title: ldap_set_optionW function (winldap.h)
-description: Sets options on connection blocks.helpviewer_keywords: ["_ldap_ldap_set_option","ldap.ldap__set__option","ldap.ldap_set_option","ldap_set_option","ldap_set_option function [LDAP]","ldap_set_optionW","winldap/ldap_set_option","winldap/ldap_set_optionW"]
+description: Sets options on connection blocks.
+helpviewer_keywords: ["_ldap_ldap_set_option","ldap.ldap__set__option","ldap.ldap_set_option","ldap_set_option","ldap_set_option function [LDAP]","ldap_set_optionW","winldap/ldap_set_option","winldap/ldap_set_optionW"]
 old-location: ldap\ldap_set_option.htm
 tech.root: ldap
 ms.assetid: b6d6b285-7302-4812-bbcb-0aeb5b53cf23
@@ -115,6 +116,10 @@ Multithreading: Calls to <b>ldap_set_option</b> are unsafe because it affects th
 
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines ldap_set_option as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.CLRES_V1_FUNCTION_TABLE
 title: CLRES_V1_FUNCTION_TABLE macro (resapi.h)
-description: Initializes a function table for version 1.0 of the Resource API.helpviewer_keywords: ["CLRES_V1_FUNCTION_TABLE","CLRES_V1_FUNCTION_TABLE macro [Failover Cluster]","_wolf_clres_v1_function_table","mscs.clres_v1_function_table","resapi/CLRES_V1_FUNCTION_TABLE"]
+description: Initializes a function table for version 1.0 of the Resource API.
+helpviewer_keywords: ["CLRES_V1_FUNCTION_TABLE","CLRES_V1_FUNCTION_TABLE macro [Failover Cluster]","_wolf_clres_v1_function_table","mscs.clres_v1_function_table","resapi/CLRES_V1_FUNCTION_TABLE"]
 old-location: mscs\clres_v1_function_table.htm
 tech.root: MsCS
 ms.assetid: 2c390cbb-3bff-4850-9496-8991c112c233

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.put_Mono
 title: IAMAudioInputMixer::put_Mono (strmif.h)
-description: The put_Mono method combines all channels into a mono signal.helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","put_Mono method","IAMAudioInputMixer.put_Mono","IAMAudioInputMixer::put_Mono","IAMAudioInputMixerput_Mono","dshow.iamaudioinputmixer_put_mono","put_Mono","put_Mono method [DirectShow]","put_Mono method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::put_Mono"]
+description: The put_Mono method combines all channels into a mono signal.
+helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","put_Mono method","IAMAudioInputMixer.put_Mono","IAMAudioInputMixer::put_Mono","IAMAudioInputMixerput_Mono","dshow.iamaudioinputmixer_put_mono","put_Mono","put_Mono method [DirectShow]","put_Mono method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::put_Mono"]
 old-location: dshow\iamaudioinputmixer_put_mono.htm
 tech.root: DirectShow
 ms.assetid: fb45a1ad-b6d8-4129-97f3-a9c99053c0f0

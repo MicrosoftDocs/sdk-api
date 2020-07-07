@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMPluginControl.GetPreferredClsid
 title: IAMPluginControl::GetPreferredClsid (strmif.h)
-description: Searches the preferred list for a class identifier (CLSID) that matches a specified subtype.helpviewer_keywords: ["GetPreferredClsid","GetPreferredClsid method [DirectShow]","GetPreferredClsid method [DirectShow]","IAMPluginControl interface","IAMPluginControl interface [DirectShow]","GetPreferredClsid method","IAMPluginControl.GetPreferredClsid","IAMPluginControl::GetPreferredClsid","dshow.iamplugincontrol_getpreferredclsid","strmif/IAMPluginControl::GetPreferredClsid"]
+description: Searches the preferred list for a class identifier (CLSID) that matches a specified subtype.
+helpviewer_keywords: ["GetPreferredClsid","GetPreferredClsid method [DirectShow]","GetPreferredClsid method [DirectShow]","IAMPluginControl interface","IAMPluginControl interface [DirectShow]","GetPreferredClsid method","IAMPluginControl.GetPreferredClsid","IAMPluginControl::GetPreferredClsid","dshow.iamplugincontrol_getpreferredclsid","strmif/IAMPluginControl::GetPreferredClsid"]
 old-location: dshow\iamplugincontrol_getpreferredclsid.htm
 tech.root: DirectShow
 ms.assetid: 69f55810-9a3a-48cd-8fd2-d091a906d229

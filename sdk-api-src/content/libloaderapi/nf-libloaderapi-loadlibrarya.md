@@ -1,7 +1,8 @@
 ---
 UID: NF:libloaderapi.LoadLibraryA
 title: LoadLibraryA function (libloaderapi.h)
-description: Loads the specified module into the address space of the calling process.helpviewer_keywords: ["LoadLibrary","LoadLibrary function","LoadLibraryA","LoadLibraryW","_win32_loadlibrary","base.loadlibrary","libloaderapi/LoadLibrary","libloaderapi/LoadLibraryA","libloaderapi/LoadLibraryW","winbase/LoadLibrary","winbase/LoadLibraryA","winbase/LoadLibraryW"]
+description: Loads the specified module into the address space of the calling process.
+helpviewer_keywords: ["LoadLibrary","LoadLibrary function","LoadLibraryA","LoadLibraryW","_win32_loadlibrary","base.loadlibrary","libloaderapi/LoadLibrary","libloaderapi/LoadLibraryA","libloaderapi/LoadLibraryW","winbase/LoadLibrary","winbase/LoadLibraryA","winbase/LoadLibraryW"]
 old-location: base\loadlibrary.htm
 tech.root: Dlls
 ms.assetid: d936b4dd-058c-48e1-834b-b47ef6d8ef65
@@ -227,6 +228,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The libloaderapi.h header defines LoadLibrary as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

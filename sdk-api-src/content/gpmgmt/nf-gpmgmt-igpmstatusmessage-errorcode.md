@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMStatusMessage.ErrorCode
 title: IGPMStatusMessage::ErrorCode (gpmgmt.h)
-description: Returns the error that occurred during the GPMC operation.helpviewer_keywords: ["ErrorCode","ErrorCode method [GPMC]","ErrorCode method [GPMC]","GPMStatusMessage class","ErrorCode method [GPMC]","IGPMStatusMessage interface","GPMStatusMessage class [GPMC]","ErrorCode method","IGPMStatusMessage interface [GPMC]","ErrorCode method","IGPMStatusMessage.ErrorCode","IGPMStatusMessage::ErrorCode","_win32_igpmstatusmessage_errorcode","gpmc.igpmstatusmessage_errorcode","gpmgmt/IGPMStatusMessage::ErrorCode"]
+description: Returns the error that occurred during the GPMC operation.
+helpviewer_keywords: ["ErrorCode","ErrorCode method [GPMC]","ErrorCode method [GPMC]","GPMStatusMessage class","ErrorCode method [GPMC]","IGPMStatusMessage interface","GPMStatusMessage class [GPMC]","ErrorCode method","IGPMStatusMessage interface [GPMC]","ErrorCode method","IGPMStatusMessage.ErrorCode","IGPMStatusMessage::ErrorCode","_win32_igpmstatusmessage_errorcode","gpmc.igpmstatusmessage_errorcode","gpmgmt/IGPMStatusMessage::ErrorCode"]
 old-location: gpmc\igpmstatusmessage_errorcode.htm
 tech.root: gpmc
 ms.assetid: 87a50523-1acb-4b58-b867-ec19b0cf960a

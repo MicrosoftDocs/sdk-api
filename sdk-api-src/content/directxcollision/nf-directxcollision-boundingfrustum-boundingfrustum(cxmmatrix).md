@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.BoundingFrustum(CXMMATRIX)
 title: BoundingFrustum::BoundingFrustum(CXMMATRIX)
-description: Creates an instance of BoundingFrustum from a left-handed projection matrix.helpviewer_keywords: ["BoundingFrustum","BoundingFrustum constructor [DirectX Math Support APIs]","BoundingFrustum constructor [DirectX Math Support APIs]","BoundingFrustum interface","BoundingFrustum interface [DirectX Math Support APIs]","BoundingFrustum constructor","BoundingFrustum.BoundingFrustum","BoundingFrustum.BoundingFrustum(CXMMATRIX)","BoundingFrustum.BoundingFrustum(XMMATRIX)","BoundingFrustum::BoundingFrustum","BoundingFrustum::BoundingFrustum(CXMMATRIX)","dxmath.boundingfrustum_ctor_4"]
+description: Creates an instance of BoundingFrustum from a left-handed projection matrix.
+helpviewer_keywords: ["BoundingFrustum","BoundingFrustum constructor [DirectX Math Support APIs]","BoundingFrustum constructor [DirectX Math Support APIs]","BoundingFrustum interface","BoundingFrustum interface [DirectX Math Support APIs]","BoundingFrustum constructor","BoundingFrustum.BoundingFrustum","BoundingFrustum.BoundingFrustum(CXMMATRIX)","BoundingFrustum.BoundingFrustum(XMMATRIX)","BoundingFrustum::BoundingFrustum","BoundingFrustum::BoundingFrustum(CXMMATRIX)","dxmath.boundingfrustum_ctor_4"]
 old-location: dxmath\boundingfrustum_ctor_4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.#ctor(XMMATRIX)

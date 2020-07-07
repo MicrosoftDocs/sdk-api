@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidEVR.put_SuppressEffects
 title: IMSVidEVR::put_SuppressEffects (segment.h)
-description: The put_SuppressEffects method specifies whether the Video Control configures the system for optimal video playback.helpviewer_keywords: ["IMSVidEVR interface [Microsoft TV Technologies]","put_SuppressEffects method","IMSVidEVR.put_SuppressEffects","IMSVidEVR::put_SuppressEffects","IMSVidEVRput_SuppressEffects","mstv.imsvidevr_put_suppresseffects","put_SuppressEffects","put_SuppressEffects method [Microsoft TV Technologies]","put_SuppressEffects method [Microsoft TV Technologies]","IMSVidEVR interface","segment/IMSVidEVR::put_SuppressEffects"]
+description: The put_SuppressEffects method specifies whether the Video Control configures the system for optimal video playback.
+helpviewer_keywords: ["IMSVidEVR interface [Microsoft TV Technologies]","put_SuppressEffects method","IMSVidEVR.put_SuppressEffects","IMSVidEVR::put_SuppressEffects","IMSVidEVRput_SuppressEffects","mstv.imsvidevr_put_suppresseffects","put_SuppressEffects","put_SuppressEffects method [Microsoft TV Technologies]","put_SuppressEffects method [Microsoft TV Technologies]","IMSVidEVR interface","segment/IMSVidEVR::put_SuppressEffects"]
 old-location: mstv\imsvidevr_put_suppresseffects.htm
 tech.root: mstv
 ms.assetid: 399250b6-4f2d-4dbf-b1e8-d32a0673617e

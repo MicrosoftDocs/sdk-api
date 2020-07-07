@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_EndEditLabelNow
 title: TreeView_EndEditLabelNow macro (commctrl.h)
-description: Ends the editing of a tree-view item's label. You can use this macro or send the TVM_ENDEDITLABELNOW message explicitly.helpviewer_keywords: ["TreeView_EndEditLabelNow","TreeView_EndEditLabelNow macro [Windows Controls]","_win32_TreeView_EndEditLabelNow","_win32_TreeView_EndEditLabelNow_cpp","commctrl/TreeView_EndEditLabelNow","controls.TreeView_EndEditLabelNow","controls._win32_TreeView_EndEditLabelNow"]
+description: Ends the editing of a tree-view item's label. You can use this macro or send the TVM_ENDEDITLABELNOW message explicitly.
+helpviewer_keywords: ["TreeView_EndEditLabelNow","TreeView_EndEditLabelNow macro [Windows Controls]","_win32_TreeView_EndEditLabelNow","_win32_TreeView_EndEditLabelNow_cpp","commctrl/TreeView_EndEditLabelNow","controls.TreeView_EndEditLabelNow","controls._win32_TreeView_EndEditLabelNow"]
 old-location: controls\TreeView_EndEditLabelNow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_endeditlabelnow.htm

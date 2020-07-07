@@ -1,7 +1,8 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDeviceProperties.GetProperty
 title: IWindowsMediaLibrarySharingDeviceProperties::GetProperty (wmlss.h)
-description: The GetProperty method retrieves an IWindowsMediaLibrarySharingDeviceProperty interface that represents an indivdual property for a media device.helpviewer_keywords: ["GetProperty","GetProperty method [Windows Media Library Sharing Services]","GetProperty method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDeviceProperties interface","IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services]","GetProperty method","IWindowsMediaLibrarySharingDeviceProperties.GetProperty","IWindowsMediaLibrarySharingDeviceProperties::GetProperty","wmlss.IWMLSDevicePropertiesGetProperty","wmlss/IWindowsMediaLibrarySharingDeviceProperties::GetProperty"]
+description: The GetProperty method retrieves an IWindowsMediaLibrarySharingDeviceProperty interface that represents an indivdual property for a media device.
+helpviewer_keywords: ["GetProperty","GetProperty method [Windows Media Library Sharing Services]","GetProperty method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDeviceProperties interface","IWindowsMediaLibrarySharingDeviceProperties interface [Windows Media Library Sharing Services]","GetProperty method","IWindowsMediaLibrarySharingDeviceProperties.GetProperty","IWindowsMediaLibrarySharingDeviceProperties::GetProperty","wmlss.IWMLSDevicePropertiesGetProperty","wmlss/IWindowsMediaLibrarySharingDeviceProperties::GetProperty"]
 old-location: wmlss\IWMLSDevicePropertiesGetProperty.htm
 tech.root: WMLSS
 ms.assetid: 32ae77a2-d80e-4295-9fd2-83b1ad7e8c73

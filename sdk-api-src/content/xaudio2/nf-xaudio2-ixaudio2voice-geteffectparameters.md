@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetEffectParameters
 title: IXAudio2Voice::GetEffectParameters (xaudio2.h)
-description: Returns the current effect-specific parameters of a given effect in the voice's effect chain.helpviewer_keywords: ["GetEffectParameters","GetEffectParameters method [XAudio2 Audio Mixing APIs]","GetEffectParameters method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","GetEffectParameters method","IXAudio2Voice.GetEffectParameters","IXAudio2Voice::GetEffectParameters","xaudio2.ixaudio2voice_interface_geteffectparameters","xaudio2/IXAudio2Voice::GetEffectParameters"]
+description: Returns the current effect-specific parameters of a given effect in the voice's effect chain.
+helpviewer_keywords: ["GetEffectParameters","GetEffectParameters method [XAudio2 Audio Mixing APIs]","GetEffectParameters method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","GetEffectParameters method","IXAudio2Voice.GetEffectParameters","IXAudio2Voice::GetEffectParameters","xaudio2.ixaudio2voice_interface_geteffectparameters","xaudio2/IXAudio2Voice::GetEffectParameters"]
 old-location: xaudio2\ixaudio2voice_interface_geteffectparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetEffectParameters(UINT32,void@,UINT32@)

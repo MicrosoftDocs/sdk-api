@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionGaussianBlurEffect.SetStandardDeviation(float)
 title: IDCompositionGaussianBlurEffect::SetStandardDeviation(float) (dcomp.h)
-description: Sets the amount of blur to be applied to the image.helpviewer_keywords: ["IDCompositionGaussianBlurEffect interface [DirectComposition]","SetStandardDeviation method","IDCompositionGaussianBlurEffect.SetStandardDeviation","IDCompositionGaussianBlurEffect.SetStandardDeviation(float)","IDCompositionGaussianBlurEffect::SetStandardDeviation","IDCompositionGaussianBlurEffect::SetStandardDeviation(float)","SetStandardDeviation","SetStandardDeviation method [DirectComposition]","SetStandardDeviation method [DirectComposition]","IDCompositionGaussianBlurEffect interface","dcomp/IDCompositionGaussianBlurEffect::SetStandardDeviation","directcomp.idcompositiongaussianblureffect_setstandarddeviation"]
+description: Sets the amount of blur to be applied to the image.
+helpviewer_keywords: ["IDCompositionGaussianBlurEffect interface [DirectComposition]","SetStandardDeviation method","IDCompositionGaussianBlurEffect.SetStandardDeviation","IDCompositionGaussianBlurEffect.SetStandardDeviation(float)","IDCompositionGaussianBlurEffect::SetStandardDeviation","IDCompositionGaussianBlurEffect::SetStandardDeviation(float)","SetStandardDeviation","SetStandardDeviation method [DirectComposition]","SetStandardDeviation method [DirectComposition]","IDCompositionGaussianBlurEffect interface","dcomp/IDCompositionGaussianBlurEffect::SetStandardDeviation","directcomp.idcompositiongaussianblureffect_setstandarddeviation"]
 old-location: directcomp\idcompositiongaussianblureffect_setstandarddeviation.htm
 tech.root: directcomp
 ms.assetid: 8C4BD86D-F15A-4F5C-9411-2C89A74E8370

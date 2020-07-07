@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.CreateSymbolicLinkA
 title: CreateSymbolicLinkA function (winbase.h)
-description: Creates a symbolic link.helpviewer_keywords: ["CreateSymbolicLink","CreateSymbolicLink function [Files]","CreateSymbolicLinkA","CreateSymbolicLinkW","SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE","SYMBOLIC_LINK_FLAG_DIRECTORY","fs.createsymboliclink","winbase/CreateSymbolicLink","winbase/CreateSymbolicLinkA","winbase/CreateSymbolicLinkW"]
+description: Creates a symbolic link.
+helpviewer_keywords: ["CreateSymbolicLink","CreateSymbolicLink function [Files]","CreateSymbolicLinkA","CreateSymbolicLinkW","SYMBOLIC_LINK_FLAG_ALLOW_UNPRIVILEGED_CREATE","SYMBOLIC_LINK_FLAG_DIRECTORY","fs.createsymboliclink","winbase/CreateSymbolicLink","winbase/CreateSymbolicLinkA","winbase/CreateSymbolicLinkW"]
 old-location: fs\createsymboliclink.htm
 tech.root: FileIO
 ms.assetid: 9e7c70b5-ced1-4cd4-b8b9-0ad3385e5437
@@ -248,6 +249,10 @@ CsvFs does not support soft link or any other reparse points.
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines CreateSymbolicLink as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

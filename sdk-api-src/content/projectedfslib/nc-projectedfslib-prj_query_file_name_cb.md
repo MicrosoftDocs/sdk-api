@@ -1,7 +1,8 @@
 ---
 UID: NC:projectedfslib.PRJ_QUERY_FILE_NAME_CB
 title: PRJ_QUERY_FILE_NAME_CB (projectedfslib.h)
-description: Determines whether a given file path exists in the provider's backing store.helpviewer_keywords: ["PRJ_QUERY_FILE_NAME_CB","PRJ_QUERY_FILE_NAME_CB callback","PRJ_QUERY_FILE_NAME_CB callback function","ProjFS.prj_query_file_name_cb","projectedfslib/PRJ_QUERY_FILE_NAME_CB"]
+description: Determines whether a given file path exists in the provider's backing store.
+helpviewer_keywords: ["PRJ_QUERY_FILE_NAME_CB","PRJ_QUERY_FILE_NAME_CB callback","PRJ_QUERY_FILE_NAME_CB callback function","ProjFS.prj_query_file_name_cb","projectedfslib/PRJ_QUERY_FILE_NAME_CB"]
 old-location: projfs\prj_query_file_name_cb.htm
 tech.root: ProjFS
 ms.assetid: 1B218D41-AF24-48C2-9E11-7E0455CE15AC

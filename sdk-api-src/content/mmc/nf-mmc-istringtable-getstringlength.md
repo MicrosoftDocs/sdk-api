@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IStringTable.GetStringLength
 title: IStringTable::GetStringLength (mmc.h)
-description: Enables a snap-in to determine the length of a string in the snap-in's string table.helpviewer_keywords: ["GetStringLength","GetStringLength method [MMC]","GetStringLength method [MMC]","IStringTable interface","IStringTable interface [MMC]","GetStringLength method","IStringTable.GetStringLength","IStringTable::GetStringLength","_slate_istringtable_getstringlength","mmc.istringtable_getstringlength","mmc/IStringTable::GetStringLength"]
+description: Enables a snap-in to determine the length of a string in the snap-in's string table.
+helpviewer_keywords: ["GetStringLength","GetStringLength method [MMC]","GetStringLength method [MMC]","IStringTable interface","IStringTable interface [MMC]","GetStringLength method","IStringTable.GetStringLength","IStringTable::GetStringLength","_slate_istringtable_getstringlength","mmc.istringtable_getstringlength","mmc/IStringTable::GetStringLength"]
 old-location: mmc\istringtable_getstringlength.htm
 tech.root: mmc
 ms.assetid: 1924c4fa-ecbb-4f03-8c93-e2bb3dc8f4e3

@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.SetFileInformationByHandle
 title: SetFileInformationByHandle function (fileapi.h)
-description: Sets the file information for the specified file.helpviewer_keywords: ["SetFileInformationByHandle","SetFileInformationByHandle function [Files]","fileapi/SetFileInformationByHandle","fileextd/SetFileInformationByHandle","fs.setfileinformationbyhandle","winbase/SetFileInformationByHandle"]
+description: Sets the file information for the specified file.
+helpviewer_keywords: ["SetFileInformationByHandle","SetFileInformationByHandle function [Files]","fileapi/SetFileInformationByHandle","fileextd/SetFileInformationByHandle","fs.setfileinformationbyhandle","winbase/SetFileInformationByHandle"]
 old-location: fs\setfileinformationbyhandle.htm
 tech.root: FileIO
 ms.assetid: ea4981e6-a8f1-4977-aca9-b2f53604d449

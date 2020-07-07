@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetTuneXmlFromServiceIdx
 title: IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx (bdaiface.h)
-description: Converts a service identifier into an XML tune request.helpviewer_keywords: ["GetTuneXmlFromServiceIdx","GetTuneXmlFromServiceIdx method [Microsoft TV Technologies]","GetTuneXmlFromServiceIdx method [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","GetTuneXmlFromServiceIdx method","IBDA_GuideDataDeliveryService.GetTuneXmlFromServiceIdx","IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx","bdaiface/IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx","mstv.ibda_guidedatadeliveryservice_gettunexmlfromserviceidx"]
+description: Converts a service identifier into an XML tune request.
+helpviewer_keywords: ["GetTuneXmlFromServiceIdx","GetTuneXmlFromServiceIdx method [Microsoft TV Technologies]","GetTuneXmlFromServiceIdx method [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","GetTuneXmlFromServiceIdx method","IBDA_GuideDataDeliveryService.GetTuneXmlFromServiceIdx","IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx","bdaiface/IBDA_GuideDataDeliveryService::GetTuneXmlFromServiceIdx","mstv.ibda_guidedatadeliveryservice_gettunexmlfromserviceidx"]
 old-location: mstv\ibda_guidedatadeliveryservice_gettunexmlfromserviceidx.htm
 tech.root: mstv
 ms.assetid: 5f429473-6a48-4298-b8f4-61809604ffbd

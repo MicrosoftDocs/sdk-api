@@ -1,7 +1,8 @@
 ---
 UID: NS:restartmanager._RM_UNIQUE_PROCESS
 title: RM_UNIQUE_PROCESS (restartmanager.h)
-description: Uniquely identifies a process by its PID and the time the process began.helpviewer_keywords: ["*PRM_UNIQUE_PROCESS","*PRM_UNIQUE_PROCESS structure [Restart Mgr]","RM_UNIQUE_PROCESS","RM_UNIQUE_PROCESS structure [Restart Mgr]","restartmanager/*PRM_UNIQUE_PROCESS","restartmanager/_RM_UNIQUE_PROCESS","rstmgr.rm_unique_process"]
+description: Uniquely identifies a process by its PID and the time the process began.
+helpviewer_keywords: ["*PRM_UNIQUE_PROCESS","*PRM_UNIQUE_PROCESS structure [Restart Mgr]","RM_UNIQUE_PROCESS","RM_UNIQUE_PROCESS structure [Restart Mgr]","restartmanager/*PRM_UNIQUE_PROCESS","restartmanager/_RM_UNIQUE_PROCESS","rstmgr.rm_unique_process"]
 old-location: rstmgr\rm_unique_process.htm
 tech.root: rstmgr
 ms.assetid: 5e3698c7-1ea8-4f9d-8fae-e69055a000fc

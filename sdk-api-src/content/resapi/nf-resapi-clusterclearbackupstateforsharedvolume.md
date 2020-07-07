@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ClusterClearBackupStateForSharedVolume
 title: ClusterClearBackupStateForSharedVolume function (resapi.h)
-description: Clears the backup state for the cluster shared volume.helpviewer_keywords: ["ClusterClearBackupStateForSharedVolume","ClusterClearBackupStateForSharedVolume function [Failover Cluster]","PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME","PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME function [Failover Cluster]","mscs.clusterclearbackupstateforsharedvolume","resapi/ClusterClearBackupStateForSharedVolume","resapi/PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME"]
+description: Clears the backup state for the cluster shared volume.
+helpviewer_keywords: ["ClusterClearBackupStateForSharedVolume","ClusterClearBackupStateForSharedVolume function [Failover Cluster]","PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME","PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME function [Failover Cluster]","mscs.clusterclearbackupstateforsharedvolume","resapi/ClusterClearBackupStateForSharedVolume","resapi/PCLUSTER_CLEAR_BACKUP_STATE_FOR_SHARED_VOLUME"]
 old-location: mscs\clusterclearbackupstateforsharedvolume.htm
 tech.root: MsCS
 ms.assetid: 54ebfff4-8898-49ed-9a45-07286cda5fb4

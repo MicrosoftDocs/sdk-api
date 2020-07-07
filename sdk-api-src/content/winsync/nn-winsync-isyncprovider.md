@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.ISyncProvider
 title: ISyncProvider (winsync.h)
-description: Represents a synchronization provider that can be used by a synchronization session to synchronize data with another synchronization provider.helpviewer_keywords: ["ISyncProvider","ISyncProvider interface [Windows Sync]","ISyncProvider interface [Windows Sync]","described","winsync.isyncprovider","winsync/ISyncProvider"]
+description: Represents a synchronization provider that can be used by a synchronization session to synchronize data with another synchronization provider.
+helpviewer_keywords: ["ISyncProvider","ISyncProvider interface [Windows Sync]","ISyncProvider interface [Windows Sync]","described","winsync.isyncprovider","winsync/ISyncProvider"]
 old-location: winsync\isyncprovider.htm
 tech.root: winsync
 ms.assetid: 0664267f-90ba-4123-bfe5-7cf748b78c10

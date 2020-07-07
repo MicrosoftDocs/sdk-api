@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFolderFilter.ShouldShow
 title: IFolderFilter::ShouldShow (shobjidl_core.h)
-description: Specifies whether an individual item should be allowed through the filter and which should be blocked.helpviewer_keywords: ["IFolderFilter interface [Windows Shell]","ShouldShow method","IFolderFilter.ShouldShow","IFolderFilter::ShouldShow","ShouldShow","ShouldShow method [Windows Shell]","ShouldShow method [Windows Shell]","IFolderFilter interface","_shell_IFolderFilter_ShouldShow","shell.IFolderFilter_ShouldShow","shobjidl_core/IFolderFilter::ShouldShow"]
+description: Specifies whether an individual item should be allowed through the filter and which should be blocked.
+helpviewer_keywords: ["IFolderFilter interface [Windows Shell]","ShouldShow method","IFolderFilter.ShouldShow","IFolderFilter::ShouldShow","ShouldShow","ShouldShow method [Windows Shell]","ShouldShow method [Windows Shell]","IFolderFilter interface","_shell_IFolderFilter_ShouldShow","shell.IFolderFilter_ShouldShow","shobjidl_core/IFolderFilter::ShouldShow"]
 old-location: shell\IFolderFilter_ShouldShow.htm
 tech.root: shell
 ms.assetid: 60893b97-5b13-4c1f-9fd6-042217d3026f

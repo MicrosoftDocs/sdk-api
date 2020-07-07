@@ -1,7 +1,8 @@
 ---
 UID: NE:gdiplusenums.PenAlignment
 title: PenAlignment (gdiplusenums.h)
-description: The PenAlignment enumeration specifies the alignment of a pen relative to the stroke that is being drawn.helpviewer_keywords: ["PenAlignment","PenAlignment enumeration [GDI+]","PenAlignmentCenter","PenAlignmentInset","_gdiplus_ENUM_PenAlignment","gdiplus._gdiplus_ENUM_PenAlignment","gdiplusenums/PenAlignment","gdiplusenums/PenAlignmentCenter","gdiplusenums/PenAlignmentInset"]
+description: The PenAlignment enumeration specifies the alignment of a pen relative to the stroke that is being drawn.
+helpviewer_keywords: ["PenAlignment","PenAlignment enumeration [GDI+]","PenAlignmentCenter","PenAlignmentInset","_gdiplus_ENUM_PenAlignment","gdiplus._gdiplus_ENUM_PenAlignment","gdiplusenums/PenAlignment","gdiplusenums/PenAlignmentCenter","gdiplusenums/PenAlignmentInset"]
 old-location: gdiplus\_gdiplus_ENUM_PenAlignment.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\penalignment.htm

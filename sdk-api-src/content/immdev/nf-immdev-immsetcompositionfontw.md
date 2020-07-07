@@ -1,7 +1,8 @@
 ---
 UID: NF:immdev.ImmSetCompositionFontW
 title: ImmSetCompositionFontW function (immdev.h)
-description: Sets the logical font to use to display characters in the composition window.helpviewer_keywords: ["ImmSetCompositionFont","ImmSetCompositionFont function [Internationalization for Windows Applications]","ImmSetCompositionFontA","ImmSetCompositionFontW","_win32_ImmSetCompositionFont","imm/ImmSetCompositionFont","imm/ImmSetCompositionFontA","imm/ImmSetCompositionFontW","intl.immsetcompositionfont"]
+description: Sets the logical font to use to display characters in the composition window.
+helpviewer_keywords: ["ImmSetCompositionFont","ImmSetCompositionFont function [Internationalization for Windows Applications]","ImmSetCompositionFontA","ImmSetCompositionFontW","_win32_ImmSetCompositionFont","imm/ImmSetCompositionFont","imm/ImmSetCompositionFontA","imm/ImmSetCompositionFontW","intl.immsetcompositionfont"]
 old-location: intl\immsetcompositionfont.htm
 tech.root: Intl
 ms.assetid: 5a3a9230-0ccf-4a6e-a3e0-7a3c7dbe35cf
@@ -88,6 +89,10 @@ This function causes a <a href="https://docs.microsoft.com/windows/desktop/Intl/
 
 
 
+
+
+> [!NOTE]
+> The immdev.h header defines ImmSetCompositionFont as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:cfapi.CfUnregisterSyncRoot
 title: CfUnregisterSyncRoot function (cfapi.h)
-description: Unregisters a previously registered sync root.helpviewer_keywords: ["CfUnregisterSyncRoot","CfUnregisterSyncRoot function","cfapi/CfUnregisterSyncRoot","cloudApi.cfunregistersyncroot"]
+description: Unregisters a previously registered sync root.
+helpviewer_keywords: ["CfUnregisterSyncRoot","CfUnregisterSyncRoot function","cfapi/CfUnregisterSyncRoot","cloudApi.cfunregistersyncroot"]
 old-location: cloudapi\cfunregistersyncroot.htm
 tech.root: cfApi
 ms.assetid: B4DA85DB-A63A-45EB-9F71-9395AC026A0C

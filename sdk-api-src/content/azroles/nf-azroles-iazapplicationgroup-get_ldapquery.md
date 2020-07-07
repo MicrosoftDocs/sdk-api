@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.get_LdapQuery
 title: IAzApplicationGroup::get_LdapQuery (azroles.h)
-description: Sets or retrieves the Lightweight Directory Access Protocol (LDAP) query used to define membership for an LDAP query application group.helpviewer_keywords: ["AzApplicationGroup object [Security]","LdapQuery property","IAzApplicationGroup interface [Security]","LdapQuery property","IAzApplicationGroup.LdapQuery","IAzApplicationGroup.get_LdapQuery","IAzApplicationGroup::LdapQuery","IAzApplicationGroup::get_LdapQuery","IAzApplicationGroup::put_LdapQuery","LdapQuery property [Security]","LdapQuery property [Security]","AzApplicationGroup object","LdapQuery property [Security]","IAzApplicationGroup interface","azroles/IAzApplicationGroup::LdapQuery","azroles/IAzApplicationGroup::get_LdapQuery","azroles/IAzApplicationGroup::put_LdapQuery","get_LdapQuery","security.iazapplicationgroup_ldapquery"]
+description: Sets or retrieves the Lightweight Directory Access Protocol (LDAP) query used to define membership for an LDAP query application group.
+helpviewer_keywords: ["AzApplicationGroup object [Security]","LdapQuery property","IAzApplicationGroup interface [Security]","LdapQuery property","IAzApplicationGroup.LdapQuery","IAzApplicationGroup.get_LdapQuery","IAzApplicationGroup::LdapQuery","IAzApplicationGroup::get_LdapQuery","IAzApplicationGroup::put_LdapQuery","LdapQuery property [Security]","LdapQuery property [Security]","AzApplicationGroup object","LdapQuery property [Security]","IAzApplicationGroup interface","azroles/IAzApplicationGroup::LdapQuery","azroles/IAzApplicationGroup::get_LdapQuery","azroles/IAzApplicationGroup::put_LdapQuery","get_LdapQuery","security.iazapplicationgroup_ldapquery"]
 old-location: security\iazapplicationgroup_ldapquery.htm
 tech.root: SecAuthZ
 ms.assetid: 963ee516-6dd5-419f-9186-578b7fe9c5bc

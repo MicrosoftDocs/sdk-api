@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFSSLCertificateManager
 title: IMFSSLCertificateManager (mfidl.h)
-description: Implemented by a client and called by Microsoft Media Foundation to get the client Secure Sockets Layer (SSL) certificate requested by the server.helpviewer_keywords: ["IMFSSLCertificateManager","IMFSSLCertificateManager interface [Media Foundation]","IMFSSLCertificateManager interface [Media Foundation]","described","mf.imfsslcertificatemanager","mfidl/IMFSSLCertificateManager"]
+description: Implemented by a client and called by Microsoft Media Foundation to get the client Secure Sockets Layer (SSL) certificate requested by the server.
+helpviewer_keywords: ["IMFSSLCertificateManager","IMFSSLCertificateManager interface [Media Foundation]","IMFSSLCertificateManager interface [Media Foundation]","described","mf.imfsslcertificatemanager","mfidl/IMFSSLCertificateManager"]
 old-location: mf\imfsslcertificatemanager.htm
 tech.root: medfound
 ms.assetid: 62e4227d-6bc9-4011-acee-6278fe388830

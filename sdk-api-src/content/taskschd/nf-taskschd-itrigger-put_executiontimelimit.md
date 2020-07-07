@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITrigger.put_ExecutionTimeLimit
 title: ITrigger::put_ExecutionTimeLimit (taskschd.h)
-description: Gets or sets the maximum amount of time that the task launched by this trigger is allowed to run.helpviewer_keywords: ["ExecutionTimeLimit property [Task Scheduler]","ExecutionTimeLimit property [Task Scheduler]","ITrigger interface","ITrigger interface [Task Scheduler]","ExecutionTimeLimit property","ITrigger.ExecutionTimeLimit","ITrigger.put_ExecutionTimeLimit","ITrigger::ExecutionTimeLimit","ITrigger::get_ExecutionTimeLimit","ITrigger::put_ExecutionTimeLimit","put_ExecutionTimeLimit","taskschd.itrigger_executiontimelimit","taskschd/ITrigger::ExecutionTimeLimit","taskschd/ITrigger::get_ExecutionTimeLimit","taskschd/ITrigger::put_ExecutionTimeLimit"]
+description: Gets or sets the maximum amount of time that the task launched by this trigger is allowed to run.
+helpviewer_keywords: ["ExecutionTimeLimit property [Task Scheduler]","ExecutionTimeLimit property [Task Scheduler]","ITrigger interface","ITrigger interface [Task Scheduler]","ExecutionTimeLimit property","ITrigger.ExecutionTimeLimit","ITrigger.put_ExecutionTimeLimit","ITrigger::ExecutionTimeLimit","ITrigger::get_ExecutionTimeLimit","ITrigger::put_ExecutionTimeLimit","put_ExecutionTimeLimit","taskschd.itrigger_executiontimelimit","taskschd/ITrigger::ExecutionTimeLimit","taskschd/ITrigger::get_ExecutionTimeLimit","taskschd/ITrigger::put_ExecutionTimeLimit"]
 old-location: taskschd\itrigger_executiontimelimit.htm
 tech.root: taskschd
 ms.assetid: cfd0b02b-2040-49c1-88a1-c9663c834450

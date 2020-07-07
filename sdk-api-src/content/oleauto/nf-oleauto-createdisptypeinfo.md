@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.CreateDispTypeInfo
 title: CreateDispTypeInfo function (oleauto.h)
-description: Creates simplified type information for use in an implementation of IDispatch.helpviewer_keywords: ["CreateDispTypeInfo","CreateDispTypeInfo function [Automation]","_oa96_CreateDispTypeInfo","automat.createdisptypeinfo","oleauto/CreateDispTypeInfo"]
+description: Creates simplified type information for use in an implementation of IDispatch.
+helpviewer_keywords: ["CreateDispTypeInfo","CreateDispTypeInfo function [Automation]","_oa96_CreateDispTypeInfo","automat.createdisptypeinfo","oleauto/CreateDispTypeInfo"]
 old-location: automat\createdisptypeinfo.htm
 tech.root: automat
 ms.assetid: 603e00e8-0370-4ebf-b9d2-85e6e58c2b3a

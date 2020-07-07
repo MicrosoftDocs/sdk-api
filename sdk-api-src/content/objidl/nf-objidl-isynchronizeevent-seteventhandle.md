@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.ISynchronizeEvent.SetEventHandle
 title: ISynchronizeEvent::SetEventHandle (objidl.h)
-description: Assigns an event handle to a synchronization object.helpviewer_keywords: ["ISynchronizeEvent interface [COM]","SetEventHandle method","ISynchronizeEvent.SetEventHandle","ISynchronizeEvent::SetEventHandle","SetEventHandle","SetEventHandle method [COM]","SetEventHandle method [COM]","ISynchronizeEvent interface","_com_isynchronizeevent_seteventhandle","com.isynchronizeevent_seteventhandle","objidlbase/ISynchronizeEvent::SetEventHandle"]
+description: Assigns an event handle to a synchronization object.
+helpviewer_keywords: ["ISynchronizeEvent interface [COM]","SetEventHandle method","ISynchronizeEvent.SetEventHandle","ISynchronizeEvent::SetEventHandle","SetEventHandle","SetEventHandle method [COM]","SetEventHandle method [COM]","ISynchronizeEvent interface","_com_isynchronizeevent_seteventhandle","com.isynchronizeevent_seteventhandle","objidlbase/ISynchronizeEvent::SetEventHandle"]
 old-location: com\isynchronizeevent_seteventhandle.htm
 tech.root: com
 ms.assetid: e278930c-4f4d-4ac5-ba1e-a4a84bfcd0ca

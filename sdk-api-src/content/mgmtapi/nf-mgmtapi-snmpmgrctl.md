@@ -1,7 +1,8 @@
 ---
 UID: NF:mgmtapi.SnmpMgrCtl
 title: SnmpMgrCtl function (mgmtapi.h)
-description: The SnmpMgrCtl function sets an operating parameter associated with an SNMP session. This function is an element of the SNMP Management API.helpviewer_keywords: ["SnmpMgrCtl","SnmpMgrCtl function [SNMP]","_snmp_snmpmgrctl","mgmtapi/SnmpMgrCtl","snmp.snmpmgrctl"]
+description: The SnmpMgrCtl function sets an operating parameter associated with an SNMP session. This function is an element of the SNMP Management API.
+helpviewer_keywords: ["SnmpMgrCtl","SnmpMgrCtl function [SNMP]","_snmp_snmpmgrctl","mgmtapi/SnmpMgrCtl","snmp.snmpmgrctl"]
 old-location: snmp\snmpmgrctl.htm
 tech.root: SNMP
 ms.assetid: d777c944-a19f-4465-ae56-b60beaa1191c

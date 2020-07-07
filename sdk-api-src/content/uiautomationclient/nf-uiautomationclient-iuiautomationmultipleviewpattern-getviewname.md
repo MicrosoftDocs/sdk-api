@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationMultipleViewPattern.GetViewName
 title: IUIAutomationMultipleViewPattern::GetViewName (uiautomationclient.h)
-description: Retrieves the name of a control-specific view.helpviewer_keywords: ["GetViewName","GetViewName method [Windows Accessibility]","GetViewName method [Windows Accessibility]","IUIAutomationMultipleViewPattern interface","IUIAutomationMultipleViewPattern interface [Windows Accessibility]","GetViewName method","IUIAutomationMultipleViewPattern.GetViewName","IUIAutomationMultipleViewPattern::GetViewName","uiauto.uiauto_IUIAutomationMultipleViewPattern_GetViewName","uiauto_IUIAutomationMultipleViewPattern_GetViewName","uiautomationclient/IUIAutomationMultipleViewPattern::GetViewName","winauto.uiauto_IUIAutomationMultipleViewPattern_GetViewName"]
+description: Retrieves the name of a control-specific view.
+helpviewer_keywords: ["GetViewName","GetViewName method [Windows Accessibility]","GetViewName method [Windows Accessibility]","IUIAutomationMultipleViewPattern interface","IUIAutomationMultipleViewPattern interface [Windows Accessibility]","GetViewName method","IUIAutomationMultipleViewPattern.GetViewName","IUIAutomationMultipleViewPattern::GetViewName","uiauto.uiauto_IUIAutomationMultipleViewPattern_GetViewName","uiauto_IUIAutomationMultipleViewPattern_GetViewName","uiautomationclient/IUIAutomationMultipleViewPattern::GetViewName","winauto.uiauto_IUIAutomationMultipleViewPattern_GetViewName"]
 old-location: winauto\uiauto_IUIAutomationMultipleViewPattern_GetViewName.htm
 tech.root: WinAuto
 ms.assetid: cad994dc-ee7c-41a3-a878-75a79225b5f8

@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmGetListEnumRoutes
 title: RtmGetListEnumRoutes function (rtmv2.h)
-description: The RtmGetListEnumRoutes function enumerates a set of routes in a specified route list.helpviewer_keywords: ["RtmGetListEnumRoutes","RtmGetListEnumRoutes function [RAS]","_rtmv2ref_rtmgetlistenumroutes","rras.rtmgetlistenumroutes","rtmv2/RtmGetListEnumRoutes"]
+description: The RtmGetListEnumRoutes function enumerates a set of routes in a specified route list.
+helpviewer_keywords: ["RtmGetListEnumRoutes","RtmGetListEnumRoutes function [RAS]","_rtmv2ref_rtmgetlistenumroutes","rras.rtmgetlistenumroutes","rtmv2/RtmGetListEnumRoutes"]
 old-location: rras\rtmgetlistenumroutes.htm
 tech.root: RRAS
 ms.assetid: 9ee40466-63e9-40c4-82bf-45f819d0ae58

@@ -1,7 +1,8 @@
 ---
 UID: NF:inputpaneinterop.IInputPaneInterop.GetForWindow
 title: IInputPaneInterop::GetForWindow (inputpaneinterop.h)
-description: Gets an instance of an InputPane object for the specified window.helpviewer_keywords: ["GetForWindow","GetForWindow method [Windows Runtime]","GetForWindow method [Windows Runtime]","IInputPaneInterop interface","IInputPaneInterop interface [Windows Runtime]","GetForWindow method","IInputPaneInterop.GetForWindow","IInputPaneInterop::GetForWindow","inputpaneinterop/IInputPaneInterop::GetForWindow","winrt.iinputpaneinterop_getforwindow"]
+description: Gets an instance of an InputPane object for the specified window.
+helpviewer_keywords: ["GetForWindow","GetForWindow method [Windows Runtime]","GetForWindow method [Windows Runtime]","IInputPaneInterop interface","IInputPaneInterop interface [Windows Runtime]","GetForWindow method","IInputPaneInterop.GetForWindow","IInputPaneInterop::GetForWindow","inputpaneinterop/IInputPaneInterop::GetForWindow","winrt.iinputpaneinterop_getforwindow"]
 old-location: winrt\iinputpaneinterop_getforwindow.htm
 tech.root: WinRT
 ms.assetid: 98A591F8-B85C-4400-9BA6-1B8F422C067B

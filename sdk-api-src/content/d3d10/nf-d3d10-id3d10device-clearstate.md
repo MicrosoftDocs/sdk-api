@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10.ID3D10Device.ClearState
 title: ID3D10Device::ClearState (d3d10.h)
-description: Restore all default device settings; return the device to the state it was in when it was created.helpviewer_keywords: ["779d4054-49b3-9f94-f49a-3f3d097a65aa","ClearState","ClearState method [Direct3D 10]","ClearState method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","ClearState method","ID3D10Device.ClearState","ID3D10Device::ClearState","d3d10/ID3D10Device::ClearState","direct3d10.id3d10device_clearstate"]
+description: Restore all default device settings; return the device to the state it was in when it was created.
+helpviewer_keywords: ["779d4054-49b3-9f94-f49a-3f3d097a65aa","ClearState","ClearState method [Direct3D 10]","ClearState method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","ClearState method","ID3D10Device.ClearState","ID3D10Device::ClearState","d3d10/ID3D10Device::ClearState","direct3d10.id3d10device_clearstate"]
 old-location: direct3d10\id3d10device_clearstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_clearstate.htm

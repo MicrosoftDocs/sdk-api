@@ -1,7 +1,8 @@
 ---
 UID: NF:xapobase.CXAPOBase.IsLocked
 title: CXAPOBase::IsLocked (xapobase.h)
-description: Queries whether the XAPO is locked.helpviewer_keywords: ["CXAPOBase interface [XAudio2 Audio Mixing APIs]","IsLocked method","CXAPOBase.IsLocked","CXAPOBase::IsLocked","IsLocked","IsLocked method [XAudio2 Audio Mixing APIs]","IsLocked method [XAudio2 Audio Mixing APIs]","CXAPOBase interface","xapobase/CXAPOBase::IsLocked","xaudio2.cxapobase_islocked"]
+description: Queries whether the XAPO is locked.
+helpviewer_keywords: ["CXAPOBase interface [XAudio2 Audio Mixing APIs]","IsLocked method","CXAPOBase.IsLocked","CXAPOBase::IsLocked","IsLocked","IsLocked method [XAudio2 Audio Mixing APIs]","IsLocked method [XAudio2 Audio Mixing APIs]","CXAPOBase interface","xapobase/CXAPOBase::IsLocked","xaudio2.cxapobase_islocked"]
 old-location: xaudio2\cxapobase_islocked.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.cxapobase.CXAPOBase.IsLocked

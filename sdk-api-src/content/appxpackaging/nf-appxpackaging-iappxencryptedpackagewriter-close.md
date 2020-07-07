@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedPackageWriter.Close
 title: IAppxEncryptedPackageWriter::Close (appxpackaging.h)
-description: Closes and finalizes the written package stream.helpviewer_keywords: ["Close","Close method [App packaging and management]","Close method [App packaging and management]","IAppxEncryptedPackageWriter interface","IAppxEncryptedPackageWriter interface [App packaging and management]","Close method","IAppxEncryptedPackageWriter.Close","IAppxEncryptedPackageWriter::Close","appxpackaging/IAppxEncryptedPackageWriter::Close","appxpkg.iappxencryptedpackagewriter_close"]
+description: Closes and finalizes the written package stream.
+helpviewer_keywords: ["Close","Close method [App packaging and management]","Close method [App packaging and management]","IAppxEncryptedPackageWriter interface","IAppxEncryptedPackageWriter interface [App packaging and management]","Close method","IAppxEncryptedPackageWriter.Close","IAppxEncryptedPackageWriter::Close","appxpackaging/IAppxEncryptedPackageWriter::Close","appxpkg.iappxencryptedpackagewriter_close"]
 old-location: appxpkg\iappxencryptedpackagewriter_close.htm
 tech.root: appxpkg
 ms.assetid: 364F643B-23A2-4E5D-8239-54C8C2052C49

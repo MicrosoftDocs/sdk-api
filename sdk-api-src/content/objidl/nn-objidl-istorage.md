@@ -1,7 +1,8 @@
 ---
 UID: NN:objidl.IStorage
 title: IStorage (objidl.h)
-description: The IStorage interface supports the creation and management of structured storage objects.helpviewer_keywords: ["IStorage","IStorage interface [Structured Storage]","IStorage interface [Structured Storage]","described","_stg_istorage","objidl/IStorage","stg.istorage"]
+description: The IStorage interface supports the creation and management of structured storage objects.
+helpviewer_keywords: ["IStorage","IStorage interface [Structured Storage]","IStorage interface [Structured Storage]","described","_stg_istorage","objidl/IStorage","stg.istorage"]
 old-location: stg\istorage.htm
 tech.root: Stg
 ms.assetid: 2f454538-0f40-4811-b908-cd317ef79487

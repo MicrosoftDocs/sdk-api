@@ -1,7 +1,8 @@
 ---
 UID: NN:tsgpolicyengine.ITSGPolicyEngine
 title: ITSGPolicyEngine (tsgpolicyengine.h)
-description: Exposes methods that authorize connections and resources.helpviewer_keywords: ["ITSGPolicyEngine","ITSGPolicyEngine interface [Remote Desktop Services]","ITSGPolicyEngine interface [Remote Desktop Services]","described","termserv.itsgpolicyengine","tsgpolicyengine/ITSGPolicyEngine"]
+description: Exposes methods that authorize connections and resources.
+helpviewer_keywords: ["ITSGPolicyEngine","ITSGPolicyEngine interface [Remote Desktop Services]","ITSGPolicyEngine interface [Remote Desktop Services]","described","termserv.itsgpolicyengine","tsgpolicyengine/ITSGPolicyEngine"]
 old-location: termserv\itsgpolicyengine.htm
 tech.root: TermServ
 ms.assetid: 1972032f-48ac-4a15-98ce-9349fa158a07

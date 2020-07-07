@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.GetOutputFilterParameters
 title: IXAudio2Voice::GetOutputFilterParameters (xaudio2.h)
-description: Returns the filter parameters from one of this voice's sends.helpviewer_keywords: ["GetOutputFilterParameters","GetOutputFilterParameters method [XAudio2 Audio Mixing APIs]","GetOutputFilterParameters method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","GetOutputFilterParameters method","IXAudio2Voice.GetOutputFilterParameters","IXAudio2Voice::GetOutputFilterParameters","xaudio2.ixaudio2voice_interface_getoutputfilterparameters","xaudio2/IXAudio2Voice::GetOutputFilterParameters"]
+description: Returns the filter parameters from one of this voice's sends.
+helpviewer_keywords: ["GetOutputFilterParameters","GetOutputFilterParameters method [XAudio2 Audio Mixing APIs]","GetOutputFilterParameters method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","GetOutputFilterParameters method","IXAudio2Voice.GetOutputFilterParameters","IXAudio2Voice::GetOutputFilterParameters","xaudio2.ixaudio2voice_interface_getoutputfilterparameters","xaudio2/IXAudio2Voice::GetOutputFilterParameters"]
 old-location: xaudio2\ixaudio2voice_interface_getoutputfilterparameters.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.GetOutputFilterParameters(IXAudio2Voice,XAUDIO2_FILTER_PARAMETERS@)

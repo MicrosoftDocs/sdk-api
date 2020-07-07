@@ -1,7 +1,8 @@
 ---
 UID: NE:msapofxproxy.__unnamed_enum_0
 title: KSPROPERTY_AUDIOEFFECTSDISCOVERY (msapofxproxy.h)
-description: The KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration defines a constant that is used by the list of audio processing objects (APOs).helpviewer_keywords: ["KSPROPERTY_AUDIOEFFECTSDISCOVERY","KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration [Audio Devices]","KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST","audio.ksproperty_audioeffectsdiscovery","msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY","msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST"]
+description: The KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration defines a constant that is used by the list of audio processing objects (APOs).
+helpviewer_keywords: ["KSPROPERTY_AUDIOEFFECTSDISCOVERY","KSPROPERTY_AUDIOEFFECTSDISCOVERY enumeration [Audio Devices]","KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST","audio.ksproperty_audioeffectsdiscovery","msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY","msapofxproxy/KSPROPERTY_AUDIOEFFECTSDISCOVERY_EFFECTSLIST"]
 old-location: audio\ksproperty_audioeffectsdiscovery.htm
 tech.root: audio
 ms.assetid: 35151A3F-3F33-4811-B50C-3F1EB197B7D8

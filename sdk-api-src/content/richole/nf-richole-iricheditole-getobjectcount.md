@@ -1,7 +1,8 @@
 ---
 UID: NF:richole.IRichEditOle.GetObjectCount
 title: IRichEditOle::GetObjectCount (richole.h)
-description: Returns the number of objects currently contained in a rich edit control.helpviewer_keywords: ["GetObjectCount","GetObjectCount method [Windows Controls]","GetObjectCount method [Windows Controls]","IRichEditOle interface","IRichEditOle interface [Windows Controls]","GetObjectCount method","IRichEditOle.GetObjectCount","IRichEditOle::GetObjectCount","_win32_IRichEditOle_GetObjectCount","_win32_IRichEditOle_GetObjectCount_cpp","controls.IRichEditOle_GetObjectCount","controls._win32_IRichEditOle_GetObjectCount","richole/IRichEditOle::GetObjectCount"]
+description: Returns the number of objects currently contained in a rich edit control.
+helpviewer_keywords: ["GetObjectCount","GetObjectCount method [Windows Controls]","GetObjectCount method [Windows Controls]","IRichEditOle interface","IRichEditOle interface [Windows Controls]","GetObjectCount method","IRichEditOle.GetObjectCount","IRichEditOle::GetObjectCount","_win32_IRichEditOle_GetObjectCount","_win32_IRichEditOle_GetObjectCount_cpp","controls.IRichEditOle_GetObjectCount","controls._win32_IRichEditOle_GetObjectCount","richole/IRichEditOle::GetObjectCount"]
 old-location: controls\IRichEditOle_GetObjectCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditolegetobjectcount.htm

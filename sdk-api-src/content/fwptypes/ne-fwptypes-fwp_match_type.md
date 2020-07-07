@@ -1,7 +1,8 @@
 ---
 UID: NE:fwptypes.FWP_MATCH_TYPE_
 title: FWP_MATCH_TYPE (fwptypes.h)
-description: Different match types allowed in filter conditions.helpviewer_keywords: ["FWP_MATCH_EQUAL","FWP_MATCH_EQUAL_CASE_INSENSITIVE","FWP_MATCH_FLAGS_ALL_SET","FWP_MATCH_FLAGS_ANY_SET","FWP_MATCH_FLAGS_NONE_SET","FWP_MATCH_GREATER","FWP_MATCH_GREATER_OR_EQUAL","FWP_MATCH_LESS","FWP_MATCH_LESS_OR_EQUAL","FWP_MATCH_NOT_EQUAL","FWP_MATCH_RANGE","FWP_MATCH_TYPE","FWP_MATCH_TYPE enumeration [Filtering]","FWP_MATCH_TYPE_MAX","fwp.fwp_match_type_enum","fwptypes/FWP_MATCH_EQUAL","fwptypes/FWP_MATCH_EQUAL_CASE_INSENSITIVE","fwptypes/FWP_MATCH_FLAGS_ALL_SET","fwptypes/FWP_MATCH_FLAGS_ANY_SET","fwptypes/FWP_MATCH_FLAGS_NONE_SET","fwptypes/FWP_MATCH_GREATER","fwptypes/FWP_MATCH_GREATER_OR_EQUAL","fwptypes/FWP_MATCH_LESS","fwptypes/FWP_MATCH_LESS_OR_EQUAL","fwptypes/FWP_MATCH_NOT_EQUAL","fwptypes/FWP_MATCH_RANGE","fwptypes/FWP_MATCH_TYPE","fwptypes/FWP_MATCH_TYPE_MAX"]
+description: Different match types allowed in filter conditions.
+helpviewer_keywords: ["FWP_MATCH_EQUAL","FWP_MATCH_EQUAL_CASE_INSENSITIVE","FWP_MATCH_FLAGS_ALL_SET","FWP_MATCH_FLAGS_ANY_SET","FWP_MATCH_FLAGS_NONE_SET","FWP_MATCH_GREATER","FWP_MATCH_GREATER_OR_EQUAL","FWP_MATCH_LESS","FWP_MATCH_LESS_OR_EQUAL","FWP_MATCH_NOT_EQUAL","FWP_MATCH_RANGE","FWP_MATCH_TYPE","FWP_MATCH_TYPE enumeration [Filtering]","FWP_MATCH_TYPE_MAX","fwp.fwp_match_type_enum","fwptypes/FWP_MATCH_EQUAL","fwptypes/FWP_MATCH_EQUAL_CASE_INSENSITIVE","fwptypes/FWP_MATCH_FLAGS_ALL_SET","fwptypes/FWP_MATCH_FLAGS_ANY_SET","fwptypes/FWP_MATCH_FLAGS_NONE_SET","fwptypes/FWP_MATCH_GREATER","fwptypes/FWP_MATCH_GREATER_OR_EQUAL","fwptypes/FWP_MATCH_LESS","fwptypes/FWP_MATCH_LESS_OR_EQUAL","fwptypes/FWP_MATCH_NOT_EQUAL","fwptypes/FWP_MATCH_RANGE","fwptypes/FWP_MATCH_TYPE","fwptypes/FWP_MATCH_TYPE_MAX"]
 old-location: fwp\fwp_match_type_enum.htm
 tech.root: fwp
 ms.assetid: a49efb25-990c-459d-90bc-758337c351d5

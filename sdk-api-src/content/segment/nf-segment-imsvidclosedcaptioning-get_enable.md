@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidClosedCaptioning.get_Enable
 title: IMSVidClosedCaptioning::get_Enable (segment.h)
-description: The get_Enable method queries whether closed captioning is enabled.helpviewer_keywords: ["IMSVidClosedCaptioning interface [Microsoft TV Technologies]","get_Enable method","IMSVidClosedCaptioning.get_Enable","IMSVidClosedCaptioning::get_Enable","IMSVidClosedCaptioningget_Enable","get_Enable","get_Enable method [Microsoft TV Technologies]","get_Enable method [Microsoft TV Technologies]","IMSVidClosedCaptioning interface","mstv.imsvidclosedcaptioning_get_enable","segment/IMSVidClosedCaptioning::get_Enable"]
+description: The get_Enable method queries whether closed captioning is enabled.
+helpviewer_keywords: ["IMSVidClosedCaptioning interface [Microsoft TV Technologies]","get_Enable method","IMSVidClosedCaptioning.get_Enable","IMSVidClosedCaptioning::get_Enable","IMSVidClosedCaptioningget_Enable","get_Enable","get_Enable method [Microsoft TV Technologies]","get_Enable method [Microsoft TV Technologies]","IMSVidClosedCaptioning interface","mstv.imsvidclosedcaptioning_get_enable","segment/IMSVidClosedCaptioning::get_Enable"]
 old-location: mstv\imsvidclosedcaptioning_get_enable.htm
 tech.root: mstv
 ms.assetid: 2bb46aa7-fd94-4afa-9bba-769472e014ff

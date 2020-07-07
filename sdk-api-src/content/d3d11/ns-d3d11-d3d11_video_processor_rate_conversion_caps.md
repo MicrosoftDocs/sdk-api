@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS
 title: D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS (d3d11.h)
-description: Defines a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS","D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS","mf.d3d11_video_processor_rate_conversion_caps"]
+description: Defines a group of video processor capabilities that are associated with frame-rate conversion, including deinterlacing and inverse telecine.
+helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS","D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_RATE_CONVERSION_CAPS","mf.d3d11_video_processor_rate_conversion_caps"]
 old-location: mf\d3d11_video_processor_rate_conversion_caps.htm
 tech.root: medfound
 ms.assetid: C8C50AE4-5F4F-42AB-8FBB-37D24C4D6081

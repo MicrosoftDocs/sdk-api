@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount
 title: IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount (mfobjects.h)
-description: Gets the count of registered stream configurations, which define set of substreams that can be included the multiplexed output.helpviewer_keywords: ["GetStreamConfigurationCount","GetStreamConfigurationCount method [Media Foundation]","GetStreamConfigurationCount method [Media Foundation]","IMFMuxStreamMediaTypeManager interface","IMFMuxStreamMediaTypeManager interface [Media Foundation]","GetStreamConfigurationCount method","IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount","IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount","mf.imfmuxstreammediatypemanager_getstreamconfigurationcount","mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount"]
+description: Gets the count of registered stream configurations, which define set of substreams that can be included the multiplexed output.
+helpviewer_keywords: ["GetStreamConfigurationCount","GetStreamConfigurationCount method [Media Foundation]","GetStreamConfigurationCount method [Media Foundation]","IMFMuxStreamMediaTypeManager interface","IMFMuxStreamMediaTypeManager interface [Media Foundation]","GetStreamConfigurationCount method","IMFMuxStreamMediaTypeManager.GetStreamConfigurationCount","IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount","mf.imfmuxstreammediatypemanager_getstreamconfigurationcount","mfobjects/IMFMuxStreamMediaTypeManager::GetStreamConfigurationCount"]
 old-location: mf\imfmuxstreammediatypemanager_getstreamconfigurationcount.htm
 tech.root: medfound
 ms.assetid: 9591BFEC-DD25-41A8-9DA8-7F39158CB442

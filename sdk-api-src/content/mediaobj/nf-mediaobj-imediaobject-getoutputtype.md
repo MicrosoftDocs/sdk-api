@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IMediaObject.GetOutputType
 title: IMediaObject::GetOutputType (mediaobj.h)
-description: The GetOutputType method retrieves a preferred media type for a specified output stream.helpviewer_keywords: ["GetOutputType","GetOutputType method [DirectShow]","GetOutputType method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetOutputType method","IMediaObject.GetOutputType","IMediaObject::GetOutputType","IMediaObjectGetOutputType","dshow.imediaobject_getoutputtype","mediaobj/IMediaObject::GetOutputType"]
+description: The GetOutputType method retrieves a preferred media type for a specified output stream.
+helpviewer_keywords: ["GetOutputType","GetOutputType method [DirectShow]","GetOutputType method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","GetOutputType method","IMediaObject.GetOutputType","IMediaObject::GetOutputType","IMediaObjectGetOutputType","dshow.imediaobject_getoutputtype","mediaobj/IMediaObject::GetOutputType"]
 old-location: dshow\imediaobject_getoutputtype.htm
 tech.root: DirectShow
 ms.assetid: a7652472-4091-4ecf-b623-5c6eb01be44a

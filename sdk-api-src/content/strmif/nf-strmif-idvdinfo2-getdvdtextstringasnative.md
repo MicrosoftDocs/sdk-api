@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDVDTextStringAsNative
 title: IDvdInfo2::GetDVDTextStringAsNative (strmif.h)
-description: The GetDVDTextStringAsNative method retrieves a DVD text string for a specified language, and returns the text string as an array of bytes.helpviewer_keywords: ["GetDVDTextStringAsNative","GetDVDTextStringAsNative method [DirectShow]","GetDVDTextStringAsNative method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDVDTextStringAsNative method","IDvdInfo2.GetDVDTextStringAsNative","IDvdInfo2::GetDVDTextStringAsNative","IDvdInfo2GetDVDTextStringAsNative","dshow.idvdinfo2_getdvdtextstringasnative","strmif/IDvdInfo2::GetDVDTextStringAsNative"]
+description: The GetDVDTextStringAsNative method retrieves a DVD text string for a specified language, and returns the text string as an array of bytes.
+helpviewer_keywords: ["GetDVDTextStringAsNative","GetDVDTextStringAsNative method [DirectShow]","GetDVDTextStringAsNative method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDVDTextStringAsNative method","IDvdInfo2.GetDVDTextStringAsNative","IDvdInfo2::GetDVDTextStringAsNative","IDvdInfo2GetDVDTextStringAsNative","dshow.idvdinfo2_getdvdtextstringasnative","strmif/IDvdInfo2::GetDVDTextStringAsNative"]
 old-location: dshow\idvdinfo2_getdvdtextstringasnative.htm
 tech.root: DirectShow
 ms.assetid: a162b4ad-28f2-49fc-9b32-72538be9ddd5

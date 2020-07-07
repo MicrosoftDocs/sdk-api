@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionSurface.BeginDraw
 title: IDCompositionSurface::BeginDraw (dcomp.h)
-description: Initiates drawing on this Microsoft DirectComposition surface object.helpviewer_keywords: ["BeginDraw","BeginDraw method [DirectComposition]","BeginDraw method [DirectComposition]","IDCompositionSurface interface","IDCompositionSurface interface [DirectComposition]","BeginDraw method","IDCompositionSurface.BeginDraw","IDCompositionSurface::BeginDraw","dcomp/IDCompositionSurface::BeginDraw","directcomp.idcompositionsurface_begindraw"]
+description: Initiates drawing on this Microsoft DirectComposition surface object.
+helpviewer_keywords: ["BeginDraw","BeginDraw method [DirectComposition]","BeginDraw method [DirectComposition]","IDCompositionSurface interface","IDCompositionSurface interface [DirectComposition]","BeginDraw method","IDCompositionSurface.BeginDraw","IDCompositionSurface::BeginDraw","dcomp/IDCompositionSurface::BeginDraw","directcomp.idcompositionsurface_begindraw"]
 old-location: directcomp\idcompositionsurface_begindraw.htm
 tech.root: directcomp
 ms.assetid: 0D7E90A1-90E4-44BE-A4DA-8DA300C81A35

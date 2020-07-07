@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IMonthlyDOWTrigger
 title: IMonthlyDOWTrigger (taskschd.h)
-description: Represents a trigger that starts a task on a monthly day-of-week schedule.helpviewer_keywords: ["IMonthlyDOWTrigger","IMonthlyDOWTrigger interface [Task Scheduler]","IMonthlyDOWTrigger interface [Task Scheduler]","described","monthly DOW trigger [Task Scheduler]","taskschd.imonthlydowtrigger","taskschd/IMonthlyDOWTrigger","triggers [Task Scheduler]","types","monthly DOW"]
+description: Represents a trigger that starts a task on a monthly day-of-week schedule.
+helpviewer_keywords: ["IMonthlyDOWTrigger","IMonthlyDOWTrigger interface [Task Scheduler]","IMonthlyDOWTrigger interface [Task Scheduler]","described","monthly DOW trigger [Task Scheduler]","taskschd.imonthlydowtrigger","taskschd/IMonthlyDOWTrigger","triggers [Task Scheduler]","types","monthly DOW"]
 old-location: taskschd\imonthlydowtrigger.htm
 tech.root: taskschd
 ms.assetid: a950e4a0-1fcc-4213-bdb7-d1e1cf28fe91

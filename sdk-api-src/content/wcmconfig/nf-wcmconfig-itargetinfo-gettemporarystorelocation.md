@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetTemporaryStoreLocation
 title: ITargetInfo::GetTemporaryStoreLocation (wcmconfig.h)
-description: Gets the current temporary store location.helpviewer_keywords: ["GetTemporaryStoreLocation","GetTemporaryStoreLocation method [SMI]","GetTemporaryStoreLocation method [SMI]","ITargetInfo interface","ITargetInfo interface [SMI]","GetTemporaryStoreLocation method","ITargetInfo.GetTemporaryStoreLocation","ITargetInfo::GetTemporaryStoreLocation","smi.itargetinfo_gettemporarystorelocation","wcmconfig/ITargetInfo::GetTemporaryStoreLocation"]
+description: Gets the current temporary store location.
+helpviewer_keywords: ["GetTemporaryStoreLocation","GetTemporaryStoreLocation method [SMI]","GetTemporaryStoreLocation method [SMI]","ITargetInfo interface","ITargetInfo interface [SMI]","GetTemporaryStoreLocation method","ITargetInfo.GetTemporaryStoreLocation","ITargetInfo::GetTemporaryStoreLocation","smi.itargetinfo_gettemporarystorelocation","wcmconfig/ITargetInfo::GetTemporaryStoreLocation"]
 old-location: smi\itargetinfo_gettemporarystorelocation.htm
 tech.root: SMI
 ms.assetid: aebebdee-3a24-4a9b-9ec6-cc411385af41

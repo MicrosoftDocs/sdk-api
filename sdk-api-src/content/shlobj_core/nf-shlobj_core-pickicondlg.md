@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.PickIconDlg
 title: PickIconDlg function (shlobj_core.h)
-description: PickIconDlg may be altered or unavailable.helpviewer_keywords: ["PickIconDlg","PickIconDlg function [Windows Shell]","_win32_PickIconDlg","shell.PickIconDlg","shlobj_core/PickIconDlg"]
+description: PickIconDlg may be altered or unavailable.
+helpviewer_keywords: ["PickIconDlg","PickIconDlg function [Windows Shell]","_win32_PickIconDlg","shell.PickIconDlg","shlobj_core/PickIconDlg"]
 old-location: shell\PickIconDlg.htm
 tech.root: shell
 ms.assetid: 3dfcda10-26d8-495d-8c92-7ff16da098c1

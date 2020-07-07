@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarDateFromUI2
 title: VarDateFromUI2 function (oleauto.h)
-description: Converts an unsigned short value to a date value.helpviewer_keywords: ["VarDateFromUI2","VarDateFromUI2 function [Automation]","_oa96_VarDateFromUI2","automat.vardatefromui2","oleauto/VarDateFromUI2"]
+description: Converts an unsigned short value to a date value.
+helpviewer_keywords: ["VarDateFromUI2","VarDateFromUI2 function [Automation]","_oa96_VarDateFromUI2","automat.vardatefromui2","oleauto/VarDateFromUI2"]
 old-location: automat\vardatefromui2.htm
 tech.root: automat
 ms.assetid: 3a58a100-e41e-45fb-bf76-5ff8853cd42a

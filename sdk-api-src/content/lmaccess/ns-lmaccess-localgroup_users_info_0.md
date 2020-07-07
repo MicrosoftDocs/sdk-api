@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._LOCALGROUP_USERS_INFO_0
 title: LOCALGROUP_USERS_INFO_0 (lmaccess.h)
-description: The LOCALGROUP_USERS_INFO_0 structure contains local group member information.helpviewer_keywords: ["*LPLOCALGROUP_USERS_INFO_0","*PLOCALGROUP_USERS_INFO_0","LOCALGROUP_USERS_INFO_0","LOCALGROUP_USERS_INFO_0 structure [Network Management]","LPLOCALGROUP_USERS_INFO_0","LPLOCALGROUP_USERS_INFO_0 structure pointer [Network Management]","PLOCALGROUP_USERS_INFO_0","PLOCALGROUP_USERS_INFO_0 structure pointer [Network Management]","_win32_localgroup_users_info_0_str","lmaccess/LOCALGROUP_USERS_INFO_0","lmaccess/LPLOCALGROUP_USERS_INFO_0","lmaccess/PLOCALGROUP_USERS_INFO_0","netmgmt.localgroup_users_info_0_str"]
+description: The LOCALGROUP_USERS_INFO_0 structure contains local group member information.
+helpviewer_keywords: ["*LPLOCALGROUP_USERS_INFO_0","*PLOCALGROUP_USERS_INFO_0","LOCALGROUP_USERS_INFO_0","LOCALGROUP_USERS_INFO_0 structure [Network Management]","LPLOCALGROUP_USERS_INFO_0","LPLOCALGROUP_USERS_INFO_0 structure pointer [Network Management]","PLOCALGROUP_USERS_INFO_0","PLOCALGROUP_USERS_INFO_0 structure pointer [Network Management]","_win32_localgroup_users_info_0_str","lmaccess/LOCALGROUP_USERS_INFO_0","lmaccess/LPLOCALGROUP_USERS_INFO_0","lmaccess/PLOCALGROUP_USERS_INFO_0","netmgmt.localgroup_users_info_0_str"]
 old-location: netmgmt\localgroup_users_info_0_str.htm
 tech.root: NetMgmt
 ms.assetid: e9358f19-ec8f-4454-896c-c9fadb848378

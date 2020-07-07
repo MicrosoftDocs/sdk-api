@@ -1,7 +1,8 @@
 ---
 UID: NS:amva._tag_AMVAEndFrameInfo
 title: AMVAEndFrameInfo (amva.h)
-description: The AMVAEndFrameInfo structure contains information for the IAMVideoAccelerator::EndFrame method.helpviewer_keywords: ["*LPAMVAEndFrameInfo","AMVAEndFrameInfo","AMVAEndFrameInfo structure [DirectShow]","AMVAEndFrameInfoStructure","LPAMVAEndFrameInfo","LPAMVAEndFrameInfo structure pointer [DirectShow]","amva/AMVAEndFrameInfo","amva/LPAMVAEndFrameInfo","dshow.amvaendframeinfo"]
+description: The AMVAEndFrameInfo structure contains information for the IAMVideoAccelerator::EndFrame method.
+helpviewer_keywords: ["*LPAMVAEndFrameInfo","AMVAEndFrameInfo","AMVAEndFrameInfo structure [DirectShow]","AMVAEndFrameInfoStructure","LPAMVAEndFrameInfo","LPAMVAEndFrameInfo structure pointer [DirectShow]","amva/AMVAEndFrameInfo","amva/LPAMVAEndFrameInfo","dshow.amvaendframeinfo"]
 old-location: dshow\amvaendframeinfo.htm
 tech.root: DirectShow
 ms.assetid: 7f9308c1-0426-4c0f-97aa-4d946ac2403a

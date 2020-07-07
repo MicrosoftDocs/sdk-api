@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj.__unnamed_struct_3
 title: SHCOLUMNINIT (shlobj.h)
-description: Passes initialization information to IColumnProvider::Initialize.helpviewer_keywords: ["*LPSHCOLUMNINIT","LPSHCOLUMNINFO","LPSHCOLUMNINFO structure pointer [Windows Shell]","SHCOLUMNINIT","SHCOLUMNINIT structure [Windows Shell]","_win32_SHCOLUMNINIT_str","shell.SHCOLUMNINIT_str","shlobj/LPSHCOLUMNINFO","shlobj/SHCOLUMNINIT"]
+description: Passes initialization information to IColumnProvider::Initialize.
+helpviewer_keywords: ["*LPSHCOLUMNINIT","LPSHCOLUMNINFO","LPSHCOLUMNINFO structure pointer [Windows Shell]","SHCOLUMNINIT","SHCOLUMNINIT structure [Windows Shell]","_win32_SHCOLUMNINIT_str","shell.SHCOLUMNINIT_str","shlobj/LPSHCOLUMNINFO","shlobj/SHCOLUMNINIT"]
 old-location: shell\SHCOLUMNINIT_str.htm
 tech.root: shell
 ms.assetid: eebe47c8-b3ee-4316-b578-5404ed8f7920

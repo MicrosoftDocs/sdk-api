@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolConnection.SessionArbitrationEnumeration
 title: IWRdsProtocolConnection::SessionArbitrationEnumeration (wtsprotocol.h)
-description: Called after arbitration to allow the protocol to specify the sessions to be reconnected.helpviewer_keywords: ["IWRdsProtocolConnection interface [Remote Desktop Services]","SessionArbitrationEnumeration method","IWRdsProtocolConnection.SessionArbitrationEnumeration","IWRdsProtocolConnection::SessionArbitrationEnumeration","SessionArbitrationEnumeration","SessionArbitrationEnumeration method [Remote Desktop Services]","SessionArbitrationEnumeration method [Remote Desktop Services]","IWRdsProtocolConnection interface","termserv.iwrdsprotocolconnection_sessionarbitrationenumeration","wtsprotocol/IWRdsProtocolConnection::SessionArbitrationEnumeration"]
+description: Called after arbitration to allow the protocol to specify the sessions to be reconnected.
+helpviewer_keywords: ["IWRdsProtocolConnection interface [Remote Desktop Services]","SessionArbitrationEnumeration method","IWRdsProtocolConnection.SessionArbitrationEnumeration","IWRdsProtocolConnection::SessionArbitrationEnumeration","SessionArbitrationEnumeration","SessionArbitrationEnumeration method [Remote Desktop Services]","SessionArbitrationEnumeration method [Remote Desktop Services]","IWRdsProtocolConnection interface","termserv.iwrdsprotocolconnection_sessionarbitrationenumeration","wtsprotocol/IWRdsProtocolConnection::SessionArbitrationEnumeration"]
 old-location: termserv\iwrdsprotocolconnection_sessionarbitrationenumeration.htm
 tech.root: TermServ
 ms.assetid: d0e93014-1f79-47ac-bf3a-c100eb652751

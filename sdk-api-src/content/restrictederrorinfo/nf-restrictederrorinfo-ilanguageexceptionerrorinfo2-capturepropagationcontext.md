@@ -1,7 +1,8 @@
 ---
 UID: NF:restrictederrorinfo.ILanguageExceptionErrorInfo2.CapturePropagationContext
 title: ILanguageExceptionErrorInfo2::CapturePropagationContext (restrictederrorinfo.h)
-description: Captures the context of an exception across a language boundary and across threads.helpviewer_keywords: ["CapturePropagationContext","CapturePropagationContext method [Windows Runtime]","CapturePropagationContext method [Windows Runtime]","ILanguageExceptionErrorInfo2 interface","ILanguageExceptionErrorInfo2 interface [Windows Runtime]","CapturePropagationContext method","ILanguageExceptionErrorInfo2.CapturePropagationContext","ILanguageExceptionErrorInfo2::CapturePropagationContext","restrictederrorinfo/ILanguageExceptionErrorInfo2::CapturePropagationContext","winrt.ilanguageexceptionerrorinfo2_capturepropagationcontext"]
+description: Captures the context of an exception across a language boundary and across threads.
+helpviewer_keywords: ["CapturePropagationContext","CapturePropagationContext method [Windows Runtime]","CapturePropagationContext method [Windows Runtime]","ILanguageExceptionErrorInfo2 interface","ILanguageExceptionErrorInfo2 interface [Windows Runtime]","CapturePropagationContext method","ILanguageExceptionErrorInfo2.CapturePropagationContext","ILanguageExceptionErrorInfo2::CapturePropagationContext","restrictederrorinfo/ILanguageExceptionErrorInfo2::CapturePropagationContext","winrt.ilanguageexceptionerrorinfo2_capturepropagationcontext"]
 old-location: winrt\ilanguageexceptionerrorinfo2_capturepropagationcontext.htm
 tech.root: WinRT
 ms.assetid: 60026962-4E6C-4906-97D9-46BD2BCA3AC6

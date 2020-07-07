@@ -1,7 +1,8 @@
 ---
 UID: NS:vds._VDS_PORT_PROP
 title: VDS_PORT_PROP (vds.h)
-description: Defines the properties of a port on a controller object.helpviewer_keywords: ["*PVDS_PORT_PROP","VDS_PORT_PROP","VDS_PORT_PROP structure [VDS]","base.vds_port_prop","vds/_VDS_PORT_PROP","vdshwprv/_VDS_PORT_PROP"]
+description: Defines the properties of a port on a controller object.
+helpviewer_keywords: ["*PVDS_PORT_PROP","VDS_PORT_PROP","VDS_PORT_PROP structure [VDS]","base.vds_port_prop","vds/_VDS_PORT_PROP","vdshwprv/_VDS_PORT_PROP"]
 old-location: base\vds_port_prop.htm
 tech.root: VDS
 ms.assetid: 40f81f31-3776-4685-8b79-c047c669b2bb

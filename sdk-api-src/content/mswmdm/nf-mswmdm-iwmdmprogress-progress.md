@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMProgress.Progress
 title: IWMDMProgress::Progress (mswmdm.h)
-description: The Progress method indicates that an operation is still in progress.helpviewer_keywords: ["IWMDMProgress interface [windows Media Device Manager]","Progress method","IWMDMProgress.Progress","IWMDMProgress::Progress","IWMDMProgressProgress","Progress","Progress method [windows Media Device Manager]","Progress method [windows Media Device Manager]","IWMDMProgress interface","mswmdm/IWMDMProgress::Progress","wmdm.iwmdmprogress_progress"]
+description: The Progress method indicates that an operation is still in progress.
+helpviewer_keywords: ["IWMDMProgress interface [windows Media Device Manager]","Progress method","IWMDMProgress.Progress","IWMDMProgress::Progress","IWMDMProgressProgress","Progress","Progress method [windows Media Device Manager]","Progress method [windows Media Device Manager]","IWMDMProgress interface","mswmdm/IWMDMProgress::Progress","wmdm.iwmdmprogress_progress"]
 old-location: wmdm\iwmdmprogress_progress.htm
 tech.root: WMDM
 ms.assetid: e85b6b46-2c42-461f-90b5-71b48bc4a111

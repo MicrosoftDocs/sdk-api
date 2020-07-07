@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphGetItemCount
 title: PeerGraphGetItemCount function (p2p.h)
-description: The PeerGraphGetItemCount function retrieves the number of items in an enumeration.helpviewer_keywords: ["PeerGraphGetItemCount","PeerGraphGetItemCount function [Peer Networking]","p2p.peergraphgetitemcount","p2p/PeerGraphGetItemCount"]
+description: The PeerGraphGetItemCount function retrieves the number of items in an enumeration.
+helpviewer_keywords: ["PeerGraphGetItemCount","PeerGraphGetItemCount function [Peer Networking]","p2p.peergraphgetitemcount","p2p/PeerGraphGetItemCount"]
 old-location: p2p\peergraphgetitemcount.htm
 tech.root: P2PSdk
 ms.assetid: db97b7e0-6f85-4b61-843f-efb4bc93149b

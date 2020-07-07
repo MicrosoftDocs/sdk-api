@@ -1,7 +1,8 @@
 ---
 UID: NS:dwmapi._DWM_TIMING_INFO
 title: DWM_TIMING_INFO (dwmapi.h)
-description: Specifies Desktop Window Manager (DWM) composition timing information. Used by the DwmGetCompositionTimingInfo function.helpviewer_keywords: ["DWM_TIMING_INFO","DWM_TIMING_INFO structure [Desktop Window Manager]","_udwm_dwm_timing_info","_udwm_dwm_timing_info_cpp","dwm.dwm_timing_info","dwmapi/DWM_TIMING_INFO","winui._udwm_dwm_timing_info"]
+description: Specifies Desktop Window Manager (DWM) composition timing information. Used by the DwmGetCompositionTimingInfo function.
+helpviewer_keywords: ["DWM_TIMING_INFO","DWM_TIMING_INFO structure [Desktop Window Manager]","_udwm_dwm_timing_info","_udwm_dwm_timing_info_cpp","dwm.dwm_timing_info","dwmapi/DWM_TIMING_INFO","winui._udwm_dwm_timing_info"]
 old-location: dwm\dwm_timing_info.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\structures\dwm_timing_info.htm

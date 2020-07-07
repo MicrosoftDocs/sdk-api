@@ -1,7 +1,8 @@
 ---
 UID: NS:ntdsapi._DS_REPL_KCC_DSA_FAILUREW_BLOB
 title: DS_REPL_KCC_DSA_FAILUREW_BLOB (ntdsapi.h)
-description: Contains replication state data with respect to a specific inbound replication partner.helpviewer_keywords: ["DS_REPL_KCC_DSA_FAILUREW_BLOB","DS_REPL_KCC_DSA_FAILUREW_BLOB structure [Active Directory]","ad.ds_repl_kcc_dsa_failurew_blob","msDS-ReplConnectionFailures","msDS-ReplLinkFailures","ntdsapi/DS_REPL_KCC_DSA_FAILUREW_BLOB"]
+description: Contains replication state data with respect to a specific inbound replication partner.
+helpviewer_keywords: ["DS_REPL_KCC_DSA_FAILUREW_BLOB","DS_REPL_KCC_DSA_FAILUREW_BLOB structure [Active Directory]","ad.ds_repl_kcc_dsa_failurew_blob","msDS-ReplConnectionFailures","msDS-ReplLinkFailures","ntdsapi/DS_REPL_KCC_DSA_FAILUREW_BLOB"]
 old-location: ad\ds_repl_kcc_dsa_failurew_blob.htm
 tech.root: ad
 ms.assetid: b0df588a-2ef1-4870-b304-c6f9e07322b0

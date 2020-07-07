@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.EnumNotificationActions
 title: IFsrmFileManagementJob::EnumNotificationActions (fsrmreports.h)
-description: Enumerates the actions associated with a notification value.helpviewer_keywords: ["EnumNotificationActions","EnumNotificationActions method [File Server Resource Manager]","EnumNotificationActions method [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","EnumNotificationActions method","IFsrmFileManagementJob.EnumNotificationActions","IFsrmFileManagementJob::EnumNotificationActions","fs.ifsrmfilemanagementjob_enumnotificationactions","fsrm.ifsrmfilemanagementjob_enumnotificationactions","fsrmreports/IFsrmFileManagementJob::EnumNotificationActions"]
+description: Enumerates the actions associated with a notification value.
+helpviewer_keywords: ["EnumNotificationActions","EnumNotificationActions method [File Server Resource Manager]","EnumNotificationActions method [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","EnumNotificationActions method","IFsrmFileManagementJob.EnumNotificationActions","IFsrmFileManagementJob::EnumNotificationActions","fs.ifsrmfilemanagementjob_enumnotificationactions","fsrm.ifsrmfilemanagementjob_enumnotificationactions","fsrmreports/IFsrmFileManagementJob::EnumNotificationActions"]
 old-location: fsrm\ifsrmfilemanagementjob_enumnotificationactions.htm
 tech.root: fsrm
 ms.assetid: cfb58db2-39af-434e-95e2-abbd21f4487a

@@ -1,7 +1,8 @@
 ---
 UID: NN:windowsstoragecom.IOplockBreakingHandler
 title: IOplockBreakingHandler (windowsstoragecom.h)
-description: This interface is not currently implemented.helpviewer_keywords: ["IOplockBreakingHandler","IOplockBreakingHandler interface [Windows Runtime]","IOplockBreakingHandler interface [Windows Runtime]","described","windowsstoragecom/IOplockBreakingHandler","winrt.ioplockbreakinghandler"]
+description: This interface is not currently implemented.
+helpviewer_keywords: ["IOplockBreakingHandler","IOplockBreakingHandler interface [Windows Runtime]","IOplockBreakingHandler interface [Windows Runtime]","described","windowsstoragecom/IOplockBreakingHandler","winrt.ioplockbreakinghandler"]
 old-location: winrt\ioplockbreakinghandler.htm
 tech.root: WinRT
 ms.assetid: 76466E25-C3F1-4170-921E-8BE6B36B6BA3

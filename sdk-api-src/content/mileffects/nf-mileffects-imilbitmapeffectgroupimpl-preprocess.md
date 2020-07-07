@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectGroupImpl.Preprocess
 title: IMILBitmapEffectGroupImpl::Preprocess (mileffects.h)
-description: Pre-process the given render context.helpviewer_keywords: ["IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects]","Preprocess method","IMILBitmapEffectGroupImpl.Preprocess","IMILBitmapEffectGroupImpl::Preprocess","Preprocess","Preprocess method [WPF Bitmap Effects]","Preprocess method [WPF Bitmap Effects]","IMILBitmapEffectGroupImpl interface","_wibe_imilbitmapeffectgroupimpl_preprocess","mileffects/IMILBitmapEffectGroupImpl::Preprocess","wibe._wibe_imilbitmapeffectgroupimpl_preprocess"]
+description: Pre-process the given render context.
+helpviewer_keywords: ["IMILBitmapEffectGroupImpl interface [WPF Bitmap Effects]","Preprocess method","IMILBitmapEffectGroupImpl.Preprocess","IMILBitmapEffectGroupImpl::Preprocess","Preprocess","Preprocess method [WPF Bitmap Effects]","Preprocess method [WPF Bitmap Effects]","IMILBitmapEffectGroupImpl interface","_wibe_imilbitmapeffectgroupimpl_preprocess","mileffects/IMILBitmapEffectGroupImpl::Preprocess","wibe._wibe_imilbitmapeffectgroupimpl_preprocess"]
 old-location: wibe\_wibe_imilbitmapeffectgroupimpl_preprocess.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectgroupimpl\preprocess.htm

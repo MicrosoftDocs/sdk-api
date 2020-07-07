@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPicture.get_Type
 title: IPicture::get_Type (ocidl.h)
-description: Retrieves the current type of the picture contained in the picture object.helpviewer_keywords: ["IPicture interface [COM]","get_Type method","IPicture.get_Type","IPicture::get_Type","_ctrl_ipicture_get_type","com.ipicture_get_type","get_Type","get_Type method [COM]","get_Type method [COM]","IPicture interface","ocidl/IPicture::get_Type"]
+description: Retrieves the current type of the picture contained in the picture object.
+helpviewer_keywords: ["IPicture interface [COM]","get_Type method","IPicture.get_Type","IPicture::get_Type","_ctrl_ipicture_get_type","com.ipicture_get_type","get_Type","get_Type method [COM]","get_Type method [COM]","IPicture interface","ocidl/IPicture::get_Type"]
 old-location: com\ipicture_get_type.htm
 tech.root: com
 ms.assetid: b8c64bff-51a4-4b7d-bec4-56465933e96d

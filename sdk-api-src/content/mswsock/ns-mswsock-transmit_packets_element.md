@@ -1,7 +1,8 @@
 ---
 UID: NS:mswsock._TRANSMIT_PACKETS_ELEMENT
 title: TRANSMIT_PACKETS_ELEMENT (mswsock.h)
-description: Specifies a single data element to be transmitted by the TransmitPackets function.helpviewer_keywords: ["*LPTRANSMIT_PACKETS_ELEMENT","*PTRANSMIT_PACKETS_ELEMENT","TP_ELEMENT_EOP","TP_ELEMENT_FILE","TP_ELEMENT_MEMORY","TRANSMIT_PACKETS_ELEMENT","TRANSMIT_PACKETS_ELEMENT structure [Winsock]","_win32_transmit_packets_element_2","mswsock/TRANSMIT_PACKETS_ELEMENT","winsock.transmit_packets_element_2"]
+description: Specifies a single data element to be transmitted by the TransmitPackets function.
+helpviewer_keywords: ["*LPTRANSMIT_PACKETS_ELEMENT","*PTRANSMIT_PACKETS_ELEMENT","TP_ELEMENT_EOP","TP_ELEMENT_FILE","TP_ELEMENT_MEMORY","TRANSMIT_PACKETS_ELEMENT","TRANSMIT_PACKETS_ELEMENT structure [Winsock]","_win32_transmit_packets_element_2","mswsock/TRANSMIT_PACKETS_ELEMENT","winsock.transmit_packets_element_2"]
 old-location: winsock\transmit_packets_element_2.htm
 tech.root: WinSock
 ms.assetid: cf9f8cd1-284d-4aed-bb43-af02bd012f01

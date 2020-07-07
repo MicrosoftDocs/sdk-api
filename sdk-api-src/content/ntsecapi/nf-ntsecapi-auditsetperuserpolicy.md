@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.AuditSetPerUserPolicy
 title: AuditSetPerUserPolicy function (ntsecapi.h)
-description: Sets per-user audit policy in one or more audit subcategories for the specified principal.helpviewer_keywords: ["AuditSetPerUserPolicy","AuditSetPerUserPolicy function [Security]","ntsecapi/AuditSetPerUserPolicy","security.auditsetperuserpolicy_func"]
+description: Sets per-user audit policy in one or more audit subcategories for the specified principal.
+helpviewer_keywords: ["AuditSetPerUserPolicy","AuditSetPerUserPolicy function [Security]","ntsecapi/AuditSetPerUserPolicy","security.auditsetperuserpolicy_func"]
 old-location: security\auditsetperuserpolicy_func.htm
 tech.root: SecAuthZ
 ms.assetid: a6cef640-5658-4c13-96fb-a664d2a61b57

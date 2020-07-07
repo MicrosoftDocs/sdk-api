@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.INamedEntity.DefaultPhrase
 title: INamedEntity::DefaultPhrase (structuredquery.h)
-description: Retrieves a default phrase to use for this named entity in restatements.helpviewer_keywords: ["DefaultPhrase","DefaultPhrase method [search]","DefaultPhrase method [search]","INamedEntity interface","INamedEntity interface [search]","DefaultPhrase method","INamedEntity.DefaultPhrase","INamedEntity::DefaultPhrase","_search_INamedEntity_DefaultPhrase","search._search_INamedEntity_DefaultPhrase","structuredquery/INamedEntity::DefaultPhrase"]
+description: Retrieves a default phrase to use for this named entity in restatements.
+helpviewer_keywords: ["DefaultPhrase","DefaultPhrase method [search]","DefaultPhrase method [search]","INamedEntity interface","INamedEntity interface [search]","DefaultPhrase method","INamedEntity.DefaultPhrase","INamedEntity::DefaultPhrase","_search_INamedEntity_DefaultPhrase","search._search_INamedEntity_DefaultPhrase","structuredquery/INamedEntity::DefaultPhrase"]
 old-location: search\_search_INamedEntity_DefaultPhrase.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\inamedentity\defaultphrase.htm

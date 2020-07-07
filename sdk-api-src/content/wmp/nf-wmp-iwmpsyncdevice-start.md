@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPSyncDevice.start
 title: IWMPSyncDevice::start (wmp.h)
-description: The start method begins synchronization.helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","start method","IWMPSyncDevice.start","IWMPSyncDevice::start","IWMPSyncDevicestart","start","start method [Windows Media Player]","start method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_start","wmp/IWMPSyncDevice::start"]
+description: The start method begins synchronization.
+helpviewer_keywords: ["IWMPSyncDevice interface [Windows Media Player]","start method","IWMPSyncDevice.start","IWMPSyncDevice::start","IWMPSyncDevicestart","start","start method [Windows Media Player]","start method [Windows Media Player]","IWMPSyncDevice interface","wmp.iwmpsyncdevice_start","wmp/IWMPSyncDevice::start"]
 old-location: wmp\iwmpsyncdevice_start.htm
 tech.root: WMP
 ms.assetid: f12e5abe-3d1b-48ab-8a03-420a40ae8b4f

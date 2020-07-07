@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3TransformNormalStream
 title: XMVector3TransformNormalStream function (directxmath.h)
-description: Transforms a stream of 3D normal vectors by a given matrix.helpviewer_keywords: ["Use DirectX..XMVector3TransformNormalStream","XMVector3TransformNormalStream","XMVector3TransformNormalStream method [DirectX Math Support APIs]","dxmath.xmvector3transformnormalstream"]
+description: Transforms a stream of 3D normal vectors by a given matrix.
+helpviewer_keywords: ["Use DirectX..XMVector3TransformNormalStream","XMVector3TransformNormalStream","XMVector3TransformNormalStream method [DirectX Math Support APIs]","dxmath.xmvector3transformnormalstream"]
 old-location: dxmath\xmvector3transformnormalstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3TransformNormalStream(XMFLOAT3@,size_t,const XMFLOAT3,size_t,size_t,XMMATRIX)

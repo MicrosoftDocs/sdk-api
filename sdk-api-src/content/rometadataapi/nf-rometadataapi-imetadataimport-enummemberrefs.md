@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumMemberRefs
 title: IMetaDataImport::EnumMemberRefs (rometadataapi.h)
-description: Enumerates MemberRef tokens representing members of the specified type.helpviewer_keywords: ["EnumMemberRefs","EnumMemberRefs method [Windows Runtime]","EnumMemberRefs method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumMemberRefs method","IMetaDataImport.EnumMemberRefs","IMetaDataImport::EnumMemberRefs","rometadataapi/IMetaDataImport::EnumMemberRefs","winrt.imetadataimport_enummemberrefs"]
+description: Enumerates MemberRef tokens representing members of the specified type.
+helpviewer_keywords: ["EnumMemberRefs","EnumMemberRefs method [Windows Runtime]","EnumMemberRefs method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumMemberRefs method","IMetaDataImport.EnumMemberRefs","IMetaDataImport::EnumMemberRefs","rometadataapi/IMetaDataImport::EnumMemberRefs","winrt.imetadataimport_enummemberrefs"]
 old-location: winrt\imetadataimport_enummemberrefs.htm
 tech.root: WinRT
 ms.assetid: 900777d4-14fc-4d64-a01c-395f5fafe5e4

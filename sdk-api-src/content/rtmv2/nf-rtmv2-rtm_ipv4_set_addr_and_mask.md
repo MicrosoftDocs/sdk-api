@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RTM_IPV4_SET_ADDR_AND_MASK
 title: RTM_IPV4_SET_ADDR_AND_MASK macro (rtmv2.h)
-description: The RTM_IPV4_SET_ADDR_AND_MASK macro converts an IPv4 address and mask to a generic RTM_NET_ADDRESS structure.helpviewer_keywords: ["RTM_IPV4_SET_ADDR_AND_MASK","RTM_IPV4_SET_ADDR_AND_MASK macro [RAS]","_rtmv2ref_rtm_ipv4_set_addr_and_mask","rras.rtm_ipv4_set_addr_and_mask","rtmv2/RTM_IPV4_SET_ADDR_AND_MASK"]
+description: The RTM_IPV4_SET_ADDR_AND_MASK macro converts an IPv4 address and mask to a generic RTM_NET_ADDRESS structure.
+helpviewer_keywords: ["RTM_IPV4_SET_ADDR_AND_MASK","RTM_IPV4_SET_ADDR_AND_MASK macro [RAS]","_rtmv2ref_rtm_ipv4_set_addr_and_mask","rras.rtm_ipv4_set_addr_and_mask","rtmv2/RTM_IPV4_SET_ADDR_AND_MASK"]
 old-location: rras\rtm_ipv4_set_addr_and_mask.htm
 tech.root: RRAS
 ms.assetid: 23849eed-309a-41b8-b853-1267806166fa

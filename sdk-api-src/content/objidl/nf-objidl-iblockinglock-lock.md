@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IBlockingLock.Lock
 title: IBlockingLock::Lock (objidl.h)
-description: Requests a lock on a shared resource.helpviewer_keywords: ["IBlockingLock interface [COM]","Lock method","IBlockingLock.Lock","IBlockingLock::Lock","Lock","Lock method [COM]","Lock method [COM]","IBlockingLock interface","_com_iblockinglock_lock","com.iblockinglock_lock","objidl/IBlockingLock::Lock"]
+description: Requests a lock on a shared resource.
+helpviewer_keywords: ["IBlockingLock interface [COM]","Lock method","IBlockingLock.Lock","IBlockingLock::Lock","Lock","Lock method [COM]","Lock method [COM]","IBlockingLock interface","_com_iblockinglock_lock","com.iblockinglock_lock","objidl/IBlockingLock::Lock"]
 old-location: com\iblockinglock_lock.htm
 tech.root: com
 ms.assetid: 35657795-2f18-4738-b0b5-8d03e0e4179d

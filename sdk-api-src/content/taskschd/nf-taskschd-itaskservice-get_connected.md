@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskService.get_Connected
 title: ITaskService::get_Connected (taskschd.h)
-description: Gets a Boolean value that indicates if you are connected to the Task Scheduler service.helpviewer_keywords: ["Connected property [Task Scheduler]","Connected property [Task Scheduler]","ITaskService interface","ITaskService interface [Task Scheduler]","Connected property","ITaskService.Connected","ITaskService.get_Connected","ITaskService::Connected","ITaskService::get_Connected","get_Connected","taskschd.itaskservice_connected","taskschd/ITaskService::Connected","taskschd/ITaskService::get_Connected"]
+description: Gets a Boolean value that indicates if you are connected to the Task Scheduler service.
+helpviewer_keywords: ["Connected property [Task Scheduler]","Connected property [Task Scheduler]","ITaskService interface","ITaskService interface [Task Scheduler]","Connected property","ITaskService.Connected","ITaskService.get_Connected","ITaskService::Connected","ITaskService::get_Connected","get_Connected","taskschd.itaskservice_connected","taskschd/ITaskService::Connected","taskschd/ITaskService::get_Connected"]
 old-location: taskschd\itaskservice_connected.htm
 tech.root: taskschd
 ms.assetid: 51450195-f11a-469a-a98f-4d1e00343e41

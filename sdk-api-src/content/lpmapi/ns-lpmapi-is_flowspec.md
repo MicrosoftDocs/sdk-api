@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_29
 title: IS_FLOWSPEC (lpmapi.h)
-description: The IS_FLOWSPEC structure stores an Integrated Services FLOWSPEC object.helpviewer_keywords: ["IS_FLOWSPEC","IS_FLOWSPEC structure [QOS]","lpmapi/IS_FLOWSPEC","qos.is_flowspec"]
+description: The IS_FLOWSPEC structure stores an Integrated Services FLOWSPEC object.
+helpviewer_keywords: ["IS_FLOWSPEC","IS_FLOWSPEC structure [QOS]","lpmapi/IS_FLOWSPEC","qos.is_flowspec"]
 old-location: qos\is_flowspec.htm
 tech.root: QOS
 ms.assetid: 1e0cd196-f53c-4d68-a287-7a98b7215d6d

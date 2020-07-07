@@ -1,7 +1,8 @@
 ---
 UID: NF:ntdsapi.DsBindToISTGW
 title: DsBindToISTGW function (ntdsapi.h)
-description: Binds to the computer that holds the Inter-Site Topology Generator (ISTG) role in the domain of the local computer.helpviewer_keywords: ["DsBindToISTG","DsBindToISTG function [Active Directory]","DsBindToISTGA","DsBindToISTGW","ad.dsbindtoistg","ntdsapi/DsBindToISTG","ntdsapi/DsBindToISTGA","ntdsapi/DsBindToISTGW"]
+description: Binds to the computer that holds the Inter-Site Topology Generator (ISTG) role in the domain of the local computer.
+helpviewer_keywords: ["DsBindToISTG","DsBindToISTG function [Active Directory]","DsBindToISTGA","DsBindToISTGW","ad.dsbindtoistg","ntdsapi/DsBindToISTG","ntdsapi/DsBindToISTGA","ntdsapi/DsBindToISTGW"]
 old-location: ad\dsbindtoistg.htm
 tech.root: ad
 ms.assetid: bd53124c-8578-495d-b540-d4b4c09297c3
@@ -92,4 +93,9 @@ Returns <b>ERROR_SUCCESS</b> if successful or a Win32 or RPC error code otherwis
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The ntdsapi.h header defines DsBindToISTG as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

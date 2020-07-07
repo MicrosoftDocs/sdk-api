@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICPlanarBitmapSourceTransform
 title: IWICPlanarBitmapSourceTransform (wincodec.h)
-description: Provides access to planar Y’CbCr pixel formats where pixel components are stored in separate component planes.helpviewer_keywords: ["IWICPlanarBitmapSourceTransform","IWICPlanarBitmapSourceTransform interface [Windows Imaging Component]","IWICPlanarBitmapSourceTransform interface [Windows Imaging Component]","described","wic.iwicplanarbitmapsourcetransform","wincodec/IWICPlanarBitmapSourceTransform"]
+description: Provides access to planar Y’CbCr pixel formats where pixel components are stored in separate component planes.
+helpviewer_keywords: ["IWICPlanarBitmapSourceTransform","IWICPlanarBitmapSourceTransform interface [Windows Imaging Component]","IWICPlanarBitmapSourceTransform interface [Windows Imaging Component]","described","wic.iwicplanarbitmapsourcetransform","wincodec/IWICPlanarBitmapSourceTransform"]
 old-location: wic\iwicplanarbitmapsourcetransform.htm
 tech.root: wic
 ms.assetid: AA47F10A-C90A-4DAF-973F-2669D7364CB9

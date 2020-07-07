@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetThreadMarshalInterface
 title: ITfLangBarMgr::GetThreadMarshalInterface (ctfutb.h)
-description: ITfLangBarMgr::GetThreadMarshalInterface methodhelpviewer_keywords: ["GetThreadMarshalInterface","GetThreadMarshalInterface method [Text Services Framework]","GetThreadMarshalInterface method [Text Services Framework]","ITfLangBarMgr interface","ITfLangBarMgr interface [Text Services Framework]","GetThreadMarshalInterface method","ITfLangBarMgr.GetThreadMarshalInterface","ITfLangBarMgr::GetThreadMarshalInterface","_tsf_itflangbarmgr_getthreadmarshalinterface_ref","ctfutb/ITfLangBarMgr::GetThreadMarshalInterface","tsf.itflangbarmgr_getthreadmarshalinterface"]
+description: ITfLangBarMgr::GetThreadMarshalInterface method
+helpviewer_keywords: ["GetThreadMarshalInterface","GetThreadMarshalInterface method [Text Services Framework]","GetThreadMarshalInterface method [Text Services Framework]","ITfLangBarMgr interface","ITfLangBarMgr interface [Text Services Framework]","GetThreadMarshalInterface method","ITfLangBarMgr.GetThreadMarshalInterface","ITfLangBarMgr::GetThreadMarshalInterface","_tsf_itflangbarmgr_getthreadmarshalinterface_ref","ctfutb/ITfLangBarMgr::GetThreadMarshalInterface","tsf.itflangbarmgr_getthreadmarshalinterface"]
 old-location: tsf\itflangbarmgr_getthreadmarshalinterface.htm
 tech.root: TSF
 ms.assetid: 9adfc307-ab22-4dfb-a5a8-40d9ad4900ad

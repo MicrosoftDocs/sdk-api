@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.CreateDirectoryItem
 title: IFileSystemImage::CreateDirectoryItem (imapi2fs.h)
-description: Create a directory item with the specified name.helpviewer_keywords: ["CreateDirectoryItem","CreateDirectoryItem method [IMAPI]","CreateDirectoryItem method [IMAPI]","IFileSystemImage interface","IFileSystemImage interface [IMAPI]","CreateDirectoryItem method","IFileSystemImage.CreateDirectoryItem","IFileSystemImage::CreateDirectoryItem","imapi.ifilesystemimage_createdirectoryitem","imapi2fs/IFileSystemImage::CreateDirectoryItem"]
+description: Create a directory item with the specified name.
+helpviewer_keywords: ["CreateDirectoryItem","CreateDirectoryItem method [IMAPI]","CreateDirectoryItem method [IMAPI]","IFileSystemImage interface","IFileSystemImage interface [IMAPI]","CreateDirectoryItem method","IFileSystemImage.CreateDirectoryItem","IFileSystemImage::CreateDirectoryItem","imapi.ifilesystemimage_createdirectoryitem","imapi2fs/IFileSystemImage::CreateDirectoryItem"]
 old-location: imapi\ifilesystemimage_createdirectoryitem.htm
 tech.root: imapi
 ms.assetid: 27eadc99-46b6-40e1-91e0-b5c532536491

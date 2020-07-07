@@ -1,7 +1,8 @@
 ---
 UID: NN:objsel.IDsObjectPicker
 title: IDsObjectPicker (objsel.h)
-description: The IDsObjectPicker interface is used by an application to initialize and display an object picker dialog box. To create an instance of this interface, call CoCreateInstance with the CLSID_DsObjectPicker class identifier as shown below.helpviewer_keywords: ["IDsObjectPicker","IDsObjectPicker interface [Active Directory]","IDsObjectPicker interface [Active Directory]","described","_glines_idsobjectpicker","ad.idsobjectpicker","objsel/IDsObjectPicker"]
+description: The IDsObjectPicker interface is used by an application to initialize and display an object picker dialog box. To create an instance of this interface, call CoCreateInstance with the CLSID_DsObjectPicker class identifier as shown below.
+helpviewer_keywords: ["IDsObjectPicker","IDsObjectPicker interface [Active Directory]","IDsObjectPicker interface [Active Directory]","described","_glines_idsobjectpicker","ad.idsobjectpicker","objsel/IDsObjectPicker"]
 old-location: ad\idsobjectpicker.htm
 tech.root: ad
 ms.assetid: f2f9da7d-7a09-4b49-a750-078a4573e213

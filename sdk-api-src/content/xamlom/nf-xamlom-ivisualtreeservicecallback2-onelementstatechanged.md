@@ -1,7 +1,8 @@
 ---
 UID: NF:xamlom.IVisualTreeServiceCallback2.OnElementStateChanged
 title: IVisualTreeServiceCallback2::OnElementStateChanged (xamlom.h)
-description: Communicates the state of an element in the visual tree when it changes.helpviewer_keywords: ["IVisualTreeServiceCallback2 interface","OnElementStateChanged method","IVisualTreeServiceCallback2.OnElementStateChanged","IVisualTreeServiceCallback2::OnElementStateChanged","OnElementStateChanged","OnElementStateChanged method","OnElementStateChanged method","IVisualTreeServiceCallback2 interface","xaml_diagnostics.ivisualtreeservicecallback2_onelementstatechanged","xamlom/IVisualTreeServiceCallback2::OnElementStateChanged"]
+description: Communicates the state of an element in the visual tree when it changes.
+helpviewer_keywords: ["IVisualTreeServiceCallback2 interface","OnElementStateChanged method","IVisualTreeServiceCallback2.OnElementStateChanged","IVisualTreeServiceCallback2::OnElementStateChanged","OnElementStateChanged","OnElementStateChanged method","OnElementStateChanged method","IVisualTreeServiceCallback2 interface","xaml_diagnostics.ivisualtreeservicecallback2_onelementstatechanged","xamlom/IVisualTreeServiceCallback2::OnElementStateChanged"]
 old-location: xaml_diagnostics\ivisualtreeservicecallback2_onelementstatechanged.htm
 tech.root: xaml_diagnostics
 ms.assetid: A832FDC6-1485-432C-9A87-A3C94D0AF8CA

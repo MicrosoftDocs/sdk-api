@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsdigitalsignature.IXpsSignatureRequest
 title: IXpsSignatureRequest (xpsdigitalsignature.h)
-description: Accesses the components of a signature request.helpviewer_keywords: ["IXpsSignatureRequest","IXpsSignatureRequest interface [XPS Documents and Packaging]","IXpsSignatureRequest interface [XPS Documents and Packaging]","described","xps.ixpssignaturerequest","xpsdigitalsignature/IXpsSignatureRequest"]
+description: Accesses the components of a signature request.
+helpviewer_keywords: ["IXpsSignatureRequest","IXpsSignatureRequest interface [XPS Documents and Packaging]","IXpsSignatureRequest interface [XPS Documents and Packaging]","described","xps.ixpssignaturerequest","xpsdigitalsignature/IXpsSignatureRequest"]
 old-location: xps\ixpssignaturerequest.htm
 tech.root: printdocs
 ms.assetid: 5ece2402-ab0e-4695-b9d7-478a65199ec8

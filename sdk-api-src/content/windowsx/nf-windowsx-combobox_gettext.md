@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ComboBox_GetText
 title: ComboBox_GetText macro (windowsx.h)
-description: Retrieves the text from a combo box control.helpviewer_keywords: ["ComboBox_GetText","ComboBox_GetText macro [Windows Controls]","_win32_ComboBox_GetText","_win32_ComboBox_GetText_cpp","controls.ComboBox_GetText","controls._win32_ComboBox_GetText","windowsx/ComboBox_GetText"]
+description: Retrieves the text from a combo box control.
+helpviewer_keywords: ["ComboBox_GetText","ComboBox_GetText macro [Windows Controls]","_win32_ComboBox_GetText","_win32_ComboBox_GetText_cpp","controls.ComboBox_GetText","controls._win32_ComboBox_GetText","windowsx/ComboBox_GetText"]
 old-location: controls\ComboBox_GetText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxmacros\combobox_gettext.htm

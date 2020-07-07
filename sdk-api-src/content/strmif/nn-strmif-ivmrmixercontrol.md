@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IVMRMixerControl
 title: IVMRMixerControl (strmif.h)
-description: The IVMRMixerControl interface is enables an application to manipulate the incoming video streams on the Video Mixing Renderer Filter 7 (VMR-7).helpviewer_keywords: ["IVMRMixerControl","IVMRMixerControl interface [DirectShow]","IVMRMixerControl interface [DirectShow]","described","IVMRMixerControlInterface","dshow.ivmrmixercontrol","strmif/IVMRMixerControl"]
+description: The IVMRMixerControl interface is enables an application to manipulate the incoming video streams on the Video Mixing Renderer Filter 7 (VMR-7).
+helpviewer_keywords: ["IVMRMixerControl","IVMRMixerControl interface [DirectShow]","IVMRMixerControl interface [DirectShow]","described","IVMRMixerControlInterface","dshow.ivmrmixercontrol","strmif/IVMRMixerControl"]
 old-location: dshow\ivmrmixercontrol.htm
 tech.root: DirectShow
 ms.assetid: 2aefaebc-14e7-4918-9256-c5e9e3449095

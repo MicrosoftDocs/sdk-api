@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluscolor.Color.SetValue
 title: Color::SetValue (gdipluscolor.h)
-description: The Color::SetValue method sets the color of this Color object.helpviewer_keywords: ["Color class [GDI+]","SetValue method","Color.SetValue","Color::SetValue","SetValue","SetValue method [GDI+]","SetValue method [GDI+]","Color class","_gdiplus_CLASS_Color_SetValue_argb_","gdiplus._gdiplus_CLASS_Color_SetValue_argb_"]
+description: The Color::SetValue method sets the color of this Color object.
+helpviewer_keywords: ["Color class [GDI+]","SetValue method","Color.SetValue","Color::SetValue","SetValue","SetValue method [GDI+]","SetValue method [GDI+]","Color class","_gdiplus_CLASS_Color_SetValue_argb_","gdiplus._gdiplus_CLASS_Color_SetValue_argb_"]
 old-location: gdiplus\_gdiplus_CLASS_Color_SetValue_argb_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorclass\colormethods\setvalue.htm

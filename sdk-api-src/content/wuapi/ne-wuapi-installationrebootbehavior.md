@@ -1,7 +1,8 @@
 ---
 UID: NE:wuapi.tagInstallationRebootBehavior
 title: InstallationRebootBehavior (wuapi.h)
-description: Defines the possible restart behaviors for an update.helpviewer_keywords: ["InstallationRebootBehavior","InstallationRebootBehavior [Windows Update Services]","InstallationRebootBehavior enumeration [Windows Update Agent]","irbAlwaysRequiresReboot","irbCanRequestReboot","irbNeverReboots","wua.installationrebootbehavior","wuapi/InstallationRebootBehavior","wuapi/irbAlwaysRequiresReboot","wuapi/irbCanRequestReboot","wuapi/irbNeverReboots"]
+description: Defines the possible restart behaviors for an update.
+helpviewer_keywords: ["InstallationRebootBehavior","InstallationRebootBehavior [Windows Update Services]","InstallationRebootBehavior enumeration [Windows Update Agent]","irbAlwaysRequiresReboot","irbCanRequestReboot","irbNeverReboots","wua.installationrebootbehavior","wuapi/InstallationRebootBehavior","wuapi/irbAlwaysRequiresReboot","wuapi/irbCanRequestReboot","wuapi/irbNeverReboots"]
 old-location: wua\installationrebootbehavior.htm
 tech.root: Wua_Sdk
 ms.assetid: 28c5179a-bdfa-40ca-9cf2-239a9fbf5856

@@ -1,7 +1,8 @@
 ---
 UID: NF:mmiscapi.mmioDescend
 title: mmioDescend function (mmiscapi.h)
-description: The mmioDescend function descends into a chunk of a RIFF file that was opened by using the mmioOpen function. It can also search for a given chunk.helpviewer_keywords: ["_win32_mmioDescend","mmioDescend","mmioDescend function [Windows Multimedia]","mmsystem/mmioDescend","multimedia.mmiodescend"]
+description: The mmioDescend function descends into a chunk of a RIFF file that was opened by using the mmioOpen function. It can also search for a given chunk.
+helpviewer_keywords: ["_win32_mmioDescend","mmioDescend","mmioDescend function [Windows Multimedia]","mmsystem/mmioDescend","multimedia.mmiodescend"]
 old-location: multimedia\mmiodescend.htm
 tech.root: Multimedia
 ms.assetid: 7ec730fc-3286-4b83-88ac-d59bda85a6ae

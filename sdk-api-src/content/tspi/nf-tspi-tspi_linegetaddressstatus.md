@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineGetAddressStatus
 title: TSPI_lineGetAddressStatus function (tspi.h)
-description: The TSPI_lineGetAddressStatus function queries the specified address for its current status.helpviewer_keywords: ["TSPI_lineGetAddressStatus","TSPI_lineGetAddressStatus function [TAPI 2.2]","_tspi_tspi_linegetaddressstatus","tspi.tspi_linegetaddressstatus","tspi/TSPI_lineGetAddressStatus"]
+description: The TSPI_lineGetAddressStatus function queries the specified address for its current status.
+helpviewer_keywords: ["TSPI_lineGetAddressStatus","TSPI_lineGetAddressStatus function [TAPI 2.2]","_tspi_tspi_linegetaddressstatus","tspi.tspi_linegetaddressstatus","tspi/TSPI_lineGetAddressStatus"]
 old-location: tspi\tspi_linegetaddressstatus.htm
 tech.root: Tapi
 ms.assetid: e3afd959-a0cb-4f0a-a700-d50cf7a4c386

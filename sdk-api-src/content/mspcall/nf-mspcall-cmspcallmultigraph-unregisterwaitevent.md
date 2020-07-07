@@ -1,7 +1,8 @@
 ---
 UID: NF:mspcall.CMSPCallMultiGraph.UnregisterWaitEvent
 title: CMSPCallMultiGraph::UnregisterWaitEvent (mspcall.h)
-description: The UnregisterWaitEvent method calls the UnregisterWait function to tell the thread pool to stop waiting on the handle indicated by the wait block at the given index.helpviewer_keywords: ["CMSPCallMultiGraph interface [TAPI 2.2]","UnregisterWaitEvent method","CMSPCallMultiGraph.UnregisterWaitEvent","CMSPCallMultiGraph::UnregisterWaitEvent","UnregisterWaitEvent","UnregisterWaitEvent method [TAPI 2.2]","UnregisterWaitEvent method [TAPI 2.2]","CMSPCallMultiGraph interface","_tapi3_cmspcallmultigraph_unregisterwaitevent","mspcall/CMSPCallMultiGraph::UnregisterWaitEvent","tapi3.cmspcallmultigraph_unregisterwaitevent"]
+description: The UnregisterWaitEvent method calls the UnregisterWait function to tell the thread pool to stop waiting on the handle indicated by the wait block at the given index.
+helpviewer_keywords: ["CMSPCallMultiGraph interface [TAPI 2.2]","UnregisterWaitEvent method","CMSPCallMultiGraph.UnregisterWaitEvent","CMSPCallMultiGraph::UnregisterWaitEvent","UnregisterWaitEvent","UnregisterWaitEvent method [TAPI 2.2]","UnregisterWaitEvent method [TAPI 2.2]","CMSPCallMultiGraph interface","_tapi3_cmspcallmultigraph_unregisterwaitevent","mspcall/CMSPCallMultiGraph::UnregisterWaitEvent","tapi3.cmspcallmultigraph_unregisterwaitevent"]
 old-location: tapi3\cmspcallmultigraph_unregisterwaitevent.htm
 tech.root: Tapi
 ms.assetid: a6d20bb9-fa50-4627-a3de-886cde4b8911

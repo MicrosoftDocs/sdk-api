@@ -1,7 +1,8 @@
 ---
 UID: NS:textstor.TS_RUNINFO
 title: TS_RUNINFO (textstor.h)
-description: The TS_RUNINFO structure specifies the properties of text run data.helpviewer_keywords: ["TS_RUNINFO","TS_RUNINFO structure [Text Services Framework]","_tsf_ts_runinfo_ref","textstor/TS_RUNINFO","tsf.ts_runinfo"]
+description: The TS_RUNINFO structure specifies the properties of text run data.
+helpviewer_keywords: ["TS_RUNINFO","TS_RUNINFO structure [Text Services Framework]","_tsf_ts_runinfo_ref","textstor/TS_RUNINFO","tsf.ts_runinfo"]
 old-location: tsf\ts_runinfo.htm
 tech.root: TSF
 ms.assetid: 601cd6b0-0064-4cd3-99cd-850104a861a5

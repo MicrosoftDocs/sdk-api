@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedTextFormattedText.GetSubformatting
 title: IMFTimedTextFormattedText::GetSubformatting (mfmediaengine.h)
-description: Gets a subformat in the formatted timed-text object.helpviewer_keywords: ["GetSubformatting","GetSubformatting method [Media Foundation]","GetSubformatting method [Media Foundation]","IMFTimedTextFormattedText interface","IMFTimedTextFormattedText interface [Media Foundation]","GetSubformatting method","IMFTimedTextFormattedText.GetSubformatting","IMFTimedTextFormattedText::GetSubformatting","mf.imftimedtextformattedtext_getsubformatting","mfmediaengine/IMFTimedTextFormattedText::GetSubformatting"]
+description: Gets a subformat in the formatted timed-text object.
+helpviewer_keywords: ["GetSubformatting","GetSubformatting method [Media Foundation]","GetSubformatting method [Media Foundation]","IMFTimedTextFormattedText interface","IMFTimedTextFormattedText interface [Media Foundation]","GetSubformatting method","IMFTimedTextFormattedText.GetSubformatting","IMFTimedTextFormattedText::GetSubformatting","mf.imftimedtextformattedtext_getsubformatting","mfmediaengine/IMFTimedTextFormattedText::GetSubformatting"]
 old-location: mf\imftimedtextformattedtext_getsubformatting.htm
 tech.root: medfound
 ms.assetid: EC6F41A4-BB07-419B-BE03-8D82709D9A24

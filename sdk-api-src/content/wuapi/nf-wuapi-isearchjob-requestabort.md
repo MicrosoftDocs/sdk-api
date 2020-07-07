@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.ISearchJob.RequestAbort
 title: ISearchJob::RequestAbort (wuapi.h)
-description: Makes a request to cancel the asynchronous search.helpviewer_keywords: ["ISearchJob interface [Windows Update Agent]","RequestAbort method","ISearchJob.RequestAbort","ISearchJob::RequestAbort","RequestAbort","RequestAbort method [Windows Update Agent]","RequestAbort method [Windows Update Agent]","ISearchJob interface","wua.isearchjob_requestabort","wuapi/ISearchJob::RequestAbort"]
+description: Makes a request to cancel the asynchronous search.
+helpviewer_keywords: ["ISearchJob interface [Windows Update Agent]","RequestAbort method","ISearchJob.RequestAbort","ISearchJob::RequestAbort","RequestAbort","RequestAbort method [Windows Update Agent]","RequestAbort method [Windows Update Agent]","ISearchJob interface","wua.isearchjob_requestabort","wuapi/ISearchJob::RequestAbort"]
 old-location: wua\isearchjob_requestabort.htm
 tech.root: Wua_Sdk
 ms.assetid: ceedfa28-eef3-4707-8e3a-e59ad45dbea7

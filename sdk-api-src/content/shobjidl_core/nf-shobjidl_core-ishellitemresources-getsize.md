@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.GetSize
 title: IShellItemResources::GetSize (shobjidl_core.h)
-description: Gets the source size.helpviewer_keywords: ["GetSize","GetSize method [Windows Shell]","GetSize method [Windows Shell]","IShellItemResources interface","IShellItemResources interface [Windows Shell]","GetSize method","IShellItemResources.GetSize","IShellItemResources::GetSize","_shell_IShellItemResources_GetSize","shell.IShellItemResources_GetSize","shobjidl_core/IShellItemResources::GetSize"]
+description: Gets the source size.
+helpviewer_keywords: ["GetSize","GetSize method [Windows Shell]","GetSize method [Windows Shell]","IShellItemResources interface","IShellItemResources interface [Windows Shell]","GetSize method","IShellItemResources.GetSize","IShellItemResources::GetSize","_shell_IShellItemResources_GetSize","shell.IShellItemResources_GetSize","shobjidl_core/IShellItemResources::GetSize"]
 old-location: shell\IShellItemResources_GetSize.htm
 tech.root: shell
 ms.assetid: 03e5f9cf-ad5d-487d-bdef-75255a0d1620

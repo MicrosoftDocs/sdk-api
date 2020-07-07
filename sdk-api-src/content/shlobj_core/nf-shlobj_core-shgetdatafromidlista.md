@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetDataFromIDListA
 title: SHGetDataFromIDListA function (shlobj_core.h)
-description: Retrieves extended property data from a relative identifier list.helpviewer_keywords: ["SHGDFIL_DESCRIPTIONID","SHGDFIL_FINDDATA","SHGDFIL_NETRESOURCE","SHGetDataFromIDList","SHGetDataFromIDList function [Windows Shell]","SHGetDataFromIDListA","SHGetDataFromIDListW","_win32_SHGetDataFromIDList","shell.SHGetDataFromIDList","shlobj_core/SHGetDataFromIDList","shlobj_core/SHGetDataFromIDListA","shlobj_core/SHGetDataFromIDListW"]
+description: Retrieves extended property data from a relative identifier list.
+helpviewer_keywords: ["SHGDFIL_DESCRIPTIONID","SHGDFIL_FINDDATA","SHGDFIL_NETRESOURCE","SHGetDataFromIDList","SHGetDataFromIDList function [Windows Shell]","SHGetDataFromIDListA","SHGetDataFromIDListW","_win32_SHGetDataFromIDList","shell.SHGetDataFromIDList","shlobj_core/SHGetDataFromIDList","shlobj_core/SHGetDataFromIDListA","shlobj_core/SHGetDataFromIDListW"]
 old-location: shell\SHGetDataFromIDList.htm
 tech.root: shell
 ms.assetid: 11c041bd-22fd-46a4-b75c-cc86ee771241
@@ -137,4 +138,8 @@ This function extracts only information that is present in the pointer to an ite
 E_INVALIDARG is returned if the <i>psf</i>, <i>pidl</i>, <i>pv</i>, or <i>cb</i> parameter does not match the <i>nFormat</i> parameter, or if <i>nFormat</i> is not one of the specific SHGDFIL_ values shown above.
 
 
+
+
+> [!NOTE]
+> The shlobj_core.h header defines SHGetDataFromIDList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

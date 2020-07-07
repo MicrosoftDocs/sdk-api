@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptGetGlyphABCWidth
 title: ScriptGetGlyphABCWidth function (usp10.h)
-description: Retrieves the ABC width of a given glyph.helpviewer_keywords: ["ScriptGetGlyphABCWidth","ScriptGetGlyphABCWidth function [Internationalization for Windows Applications]","_win32_ScriptGetGlyphABCWidth","intl.scriptgetglyphabcwidth","usp10/ScriptGetGlyphABCWidth"]
+description: Retrieves the ABC width of a given glyph.
+helpviewer_keywords: ["ScriptGetGlyphABCWidth","ScriptGetGlyphABCWidth function [Internationalization for Windows Applications]","_win32_ScriptGetGlyphABCWidth","intl.scriptgetglyphabcwidth","usp10/ScriptGetGlyphABCWidth"]
 old-location: intl\scriptgetglyphabcwidth.htm
 tech.root: Intl
 ms.assetid: 71611c9c-f8f6-4064-b153-f31a8cbb7761

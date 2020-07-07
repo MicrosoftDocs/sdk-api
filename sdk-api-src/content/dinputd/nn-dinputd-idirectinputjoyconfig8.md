@@ -1,7 +1,8 @@
 ---
 UID: NN:dinputd.IDirectInputJoyConfig8
 title: IDirectInputJoyConfig8 (dinputd.h)
-description: IDirectInputJoyConfig8 interface contains methods that allow hardware developers who are writing property sheets to write and read information to and from the registry.helpviewer_keywords: ["IDirectInputJoyConfig8","IDirectInputJoyConfig8 interface [Human Input Devices]","IDirectInputJoyConfig8 interface [Human Input Devices]","described","di_ref_75413607-c6c1-4341-892a-7f313a0ed9d5.xml","dinputd/IDirectInputJoyConfig8","hid.idirectinputjoyconfig8"]
+description: IDirectInputJoyConfig8 interface contains methods that allow hardware developers who are writing property sheets to write and read information to and from the registry.
+helpviewer_keywords: ["IDirectInputJoyConfig8","IDirectInputJoyConfig8 interface [Human Input Devices]","IDirectInputJoyConfig8 interface [Human Input Devices]","described","di_ref_75413607-c6c1-4341-892a-7f313a0ed9d5.xml","dinputd/IDirectInputJoyConfig8","hid.idirectinputjoyconfig8"]
 old-location: hid\idirectinputjoyconfig8.htm
 tech.root: hid
 ms.assetid: baae99bf-a826-45d0-bab2-76a5736bd378

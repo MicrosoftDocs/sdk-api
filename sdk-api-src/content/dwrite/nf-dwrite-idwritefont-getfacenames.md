@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFont.GetFaceNames
 title: IDWriteFont::GetFaceNames (dwrite.h)
-description: Gets a localized strings collection containing the face names for the font (such as Regular or Bold), indexed by locale name.helpviewer_keywords: ["GetFaceNames","GetFaceNames method [Direct Write]","GetFaceNames method [Direct Write]","IDWriteFont interface","IDWriteFont interface [Direct Write]","GetFaceNames method","IDWriteFont.GetFaceNames","IDWriteFont::GetFaceNames","directwrite.IDWriteFont_GetFaceNames","dwrite/IDWriteFont::GetFaceNames"]
+description: Gets a localized strings collection containing the face names for the font (such as Regular or Bold), indexed by locale name.
+helpviewer_keywords: ["GetFaceNames","GetFaceNames method [Direct Write]","GetFaceNames method [Direct Write]","IDWriteFont interface","IDWriteFont interface [Direct Write]","GetFaceNames method","IDWriteFont.GetFaceNames","IDWriteFont::GetFaceNames","directwrite.IDWriteFont_GetFaceNames","dwrite/IDWriteFont::GetFaceNames"]
 old-location: directwrite\IDWriteFont_GetFaceNames.htm
 tech.root: DirectWrite
 ms.assetid: 6475610a-68f0-4568-9d47-c83515dfa761

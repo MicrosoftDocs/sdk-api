@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprAddV4PolicyCondition
 title: DhcpHlprAddV4PolicyCondition function (dhcpsapi.h)
-description: Allocates, initializes, and adds a DHCP server policy condition to a DHCP server policy.helpviewer_keywords: ["DhcpHlprAddV4PolicyCondition","DhcpHlprAddV4PolicyCondition function [DHCP]","dhcp.dhcphlpraddv4policycondition","dhcpsapi/DhcpHlprAddV4PolicyCondition"]
+description: Allocates, initializes, and adds a DHCP server policy condition to a DHCP server policy.
+helpviewer_keywords: ["DhcpHlprAddV4PolicyCondition","DhcpHlprAddV4PolicyCondition function [DHCP]","dhcp.dhcphlpraddv4policycondition","dhcpsapi/DhcpHlprAddV4PolicyCondition"]
 old-location: dhcp\dhcphlpraddv4policycondition.htm
 tech.root: DHCP
 ms.assetid: 7c90625c-e6b5-475f-a9ea-0dfd27810f03

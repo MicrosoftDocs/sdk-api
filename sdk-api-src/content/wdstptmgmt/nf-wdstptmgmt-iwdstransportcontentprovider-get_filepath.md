@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContentProvider.get_FilePath
 title: IWdsTransportContentProvider::get_FilePath (wdstptmgmt.h)
-description: Retrieves the path to the content provider’s DLL.helpviewer_keywords: ["FilePath property [Windows Deployment Services]","FilePath property [Windows Deployment Services]","IWdsTransportContentProvider interface","IWdsTransportContentProvider interface [Windows Deployment Services]","FilePath property","IWdsTransportContentProvider.FilePath","IWdsTransportContentProvider.get_FilePath","IWdsTransportContentProvider::FilePath","IWdsTransportContentProvider::get_FilePath","get_FilePath","wds.iwdstransportcontentprovider_filepath","wdstptmgmt/IWdsTransportContentProvider::FilePath","wdstptmgmt/IWdsTransportContentProvider::get_FilePath"]
+description: Retrieves the path to the content provider’s DLL.
+helpviewer_keywords: ["FilePath property [Windows Deployment Services]","FilePath property [Windows Deployment Services]","IWdsTransportContentProvider interface","IWdsTransportContentProvider interface [Windows Deployment Services]","FilePath property","IWdsTransportContentProvider.FilePath","IWdsTransportContentProvider.get_FilePath","IWdsTransportContentProvider::FilePath","IWdsTransportContentProvider::get_FilePath","get_FilePath","wds.iwdstransportcontentprovider_filepath","wdstptmgmt/IWdsTransportContentProvider::FilePath","wdstptmgmt/IWdsTransportContentProvider::get_FilePath"]
 old-location: wds\iwdstransportcontentprovider_filepath.htm
 tech.root: wds
 ms.assetid: 32B434D8-5469-4A5F-A276-12B998760E87

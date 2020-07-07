@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2Voice.SetOutputMatrix
 title: IXAudio2Voice::SetOutputMatrix (xaudio2.h)
-description: Sets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.helpviewer_keywords: ["IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","SetOutputMatrix method","IXAudio2Voice.SetOutputMatrix","IXAudio2Voice::SetOutputMatrix","SetOutputMatrix","SetOutputMatrix method [XAudio2 Audio Mixing APIs]","SetOutputMatrix method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","xaudio2.ixaudio2voice_interface_setoutputmatrix","xaudio2/IXAudio2Voice::SetOutputMatrix"]
+description: Sets the volume level of each channel of the final output for the voice. These channels are mapped to the input channels of a specified destination voice.
+helpviewer_keywords: ["IXAudio2Voice interface [XAudio2 Audio Mixing APIs]","SetOutputMatrix method","IXAudio2Voice.SetOutputMatrix","IXAudio2Voice::SetOutputMatrix","SetOutputMatrix","SetOutputMatrix method [XAudio2 Audio Mixing APIs]","SetOutputMatrix method [XAudio2 Audio Mixing APIs]","IXAudio2Voice interface","xaudio2.ixaudio2voice_interface_setoutputmatrix","xaudio2/IXAudio2Voice::SetOutputMatrix"]
 old-location: xaudio2\ixaudio2voice_interface_setoutputmatrix.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voice.IXAudio2Voice.SetOutputMatrix(IXAudio2Voice,UINT32,UINT32,const float,UINT32)

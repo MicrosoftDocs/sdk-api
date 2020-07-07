@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_SUBNET_ELEMENT_DATA_V6
 title: DHCP_SUBNET_ELEMENT_DATA_V6 (dhcpsapi.h)
-description: Contains definitions for the elements of the IPv6 prefix, such as IPv6 reservation, IPv6 exclusion range, and IPv6 range.helpviewer_keywords: ["*LPDHCP_SUBNET_ELEMENT_DATA_V6","DHCP_SUBNET_ELEMENT_DATA_V6","DHCP_SUBNET_ELEMENT_DATA_V6 structure [DHCP]","PDHCP_SUBNET_ELEMENT_DATA_V6","PDHCP_SUBNET_ELEMENT_DATA_V6 structure pointer [DHCP]","dhcp.dhcp_subnet_element_data_v6","dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V6","dhcpsapi/PDHCP_SUBNET_ELEMENT_DATA_V6"]
+description: Contains definitions for the elements of the IPv6 prefix, such as IPv6 reservation, IPv6 exclusion range, and IPv6 range.
+helpviewer_keywords: ["*LPDHCP_SUBNET_ELEMENT_DATA_V6","DHCP_SUBNET_ELEMENT_DATA_V6","DHCP_SUBNET_ELEMENT_DATA_V6 structure [DHCP]","PDHCP_SUBNET_ELEMENT_DATA_V6","PDHCP_SUBNET_ELEMENT_DATA_V6 structure pointer [DHCP]","dhcp.dhcp_subnet_element_data_v6","dhcpsapi/DHCP_SUBNET_ELEMENT_DATA_V6","dhcpsapi/PDHCP_SUBNET_ELEMENT_DATA_V6"]
 old-location: dhcp\dhcp_subnet_element_data_v6.htm
 tech.root: DHCP
 ms.assetid: de5fa8c5-5cd7-4358-bacd-f27f4b7f3761

@@ -1,7 +1,8 @@
 ---
 UID: NN:ctffunc.ITfFnConfigureRegisterEudc
 title: ITfFnConfigureRegisterEudc (ctffunc.h)
-description: The ITfFnConfigureRegisterEudc interface is implemented by a text service to provide the UI to register the key sequence for the given EUDC.helpviewer_keywords: ["ITfFnConfigureRegisterEudc","ITfFnConfigureRegisterEudc interface [Text Services Framework]","ITfFnConfigureRegisterEudc interface [Text Services Framework]","described","_tsf_itffnconfigureregistereudc_ref","ctffunc/ITfFnConfigureRegisterEudc","tsf.itffnconfigureregistereudc"]
+description: The ITfFnConfigureRegisterEudc interface is implemented by a text service to provide the UI to register the key sequence for the given EUDC.
+helpviewer_keywords: ["ITfFnConfigureRegisterEudc","ITfFnConfigureRegisterEudc interface [Text Services Framework]","ITfFnConfigureRegisterEudc interface [Text Services Framework]","described","_tsf_itffnconfigureregistereudc_ref","ctffunc/ITfFnConfigureRegisterEudc","tsf.itffnconfigureregistereudc"]
 old-location: tsf\itffnconfigureregistereudc.htm
 tech.root: TSF
 ms.assetid: 40bbb994-fece-4c38-8480-2c50011aac64

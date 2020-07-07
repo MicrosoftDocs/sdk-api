@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaLookupNames
 title: LsaLookupNames function (ntsecapi.h)
-description: Retrieves the security identifiers (SIDs) that correspond to an array of user, group, or local group names.helpviewer_keywords: ["LsaLookupNames","LsaLookupNames function [Security]","_lsa_lsalookupnames","ntsecapi/LsaLookupNames","security.lsalookupnames"]
+description: Retrieves the security identifiers (SIDs) that correspond to an array of user, group, or local group names.
+helpviewer_keywords: ["LsaLookupNames","LsaLookupNames function [Security]","_lsa_lsalookupnames","ntsecapi/LsaLookupNames","security.lsalookupnames"]
 old-location: security\lsalookupnames.htm
 tech.root: SecMgmt
 ms.assetid: 867604aa-7a39-4da7-b189-a9183461e9a0

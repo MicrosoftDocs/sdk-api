@@ -1,7 +1,8 @@
 ---
 UID: NC:stm.PGET_NEXT_ORDERED_SERVICE
 title: PGET_NEXT_ORDERED_SERVICE (stm.h)
-description: The GetNextOrderedService function returns the next service from a subset of services in the table. The service returned is the next service after a given input service using the ordering method specified.helpviewer_keywords: ["GetNextOrderedService","GetNextOrderedService callback function [RAS]","PGET_NEXT_ORDERED_SERVICE","PGET_NEXT_ORDERED_SERVICE callback","_mpr_getnextorderedservice","rras.getnextorderedservice","stm/GetNextOrderedService"]
+description: The GetNextOrderedService function returns the next service from a subset of services in the table. The service returned is the next service after a given input service using the ordering method specified.
+helpviewer_keywords: ["GetNextOrderedService","GetNextOrderedService callback function [RAS]","PGET_NEXT_ORDERED_SERVICE","PGET_NEXT_ORDERED_SERVICE callback","_mpr_getnextorderedservice","rras.getnextorderedservice","stm/GetNextOrderedService"]
 old-location: rras\getnextorderedservice.htm
 tech.root: RRAS
 ms.assetid: e25d7086-cfb7-41ea-8f4e-7e4f065830d9

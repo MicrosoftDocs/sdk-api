@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetTextJustification
 title: SetTextJustification function (wingdi.h)
-description: The SetTextJustification function specifies the amount of space the system should add to the break characters in a string of text. The space is added when an application calls the TextOut or ExtTextOut functions.helpviewer_keywords: ["SetTextJustification","SetTextJustification function [Windows GDI]","_win32_SetTextJustification","gdi.settextjustification","wingdi/SetTextJustification"]
+description: The SetTextJustification function specifies the amount of space the system should add to the break characters in a string of text. The space is added when an application calls the TextOut or ExtTextOut functions.
+helpviewer_keywords: ["SetTextJustification","SetTextJustification function [Windows GDI]","_win32_SetTextJustification","gdi.settextjustification","wingdi/SetTextJustification"]
 old-location: gdi\settextjustification.htm
 tech.root: gdi
 ms.assetid: 55fb5a28-b7da-40d8-8e64-4b42c23fa8b1

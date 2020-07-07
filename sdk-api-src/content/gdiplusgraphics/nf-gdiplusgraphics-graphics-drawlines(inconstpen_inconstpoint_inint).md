@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawLines(IN const Pen,IN const Point,IN INT)
+UID: NF:gdiplusgraphics.Graphics.DrawLines(INconstPen,INconstPoint,ININT)
 title: Graphics::DrawLines(IN const Pen,IN const Point,IN INT) (gdiplusgraphics.h)
-description: The Graphics::DrawLines method draws a sequence of connected lines.helpviewer_keywords: ["DrawLines","DrawLines method [GDI+]","DrawLines method [GDI+]","Graphics class","Graphics class [GDI+]","DrawLines method","Graphics.DrawLines","Graphics.DrawLines(IN const Pen","IN const Point","IN INT)","Graphics.DrawLines(const Pen*","const Point*","INT)","Graphics::DrawLines","Graphics::DrawLines(IN const Pen","IN const Point","IN INT)","_gdiplus_CLASS_Graphics_DrawLines_Pen_pen_Point_points_INT_count_","gdiplus._gdiplus_CLASS_Graphics_DrawLines_Pen_pen_Point_points_INT_count_"]
+description: The Graphics::DrawLines method draws a sequence of connected lines.
+helpviewer_keywords: ["DrawLines","DrawLines method [GDI+]","DrawLines method [GDI+]","Graphics class","Graphics class [GDI+]","DrawLines method","Graphics.DrawLines","Graphics.DrawLines(IN const Pen","IN const Point","IN INT)","Graphics.DrawLines(const Pen*","const Point*","INT)","Graphics::DrawLines","Graphics::DrawLines(IN const Pen","IN const Point","IN INT)","_gdiplus_CLASS_Graphics_DrawLines_Pen_pen_Point_points_INT_count_","gdiplus._gdiplus_CLASS_Graphics_DrawLines_Pen_pen_Point_points_INT_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawLines_Pen_pen_Point_points_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawlinesmethods\drawlines.htm

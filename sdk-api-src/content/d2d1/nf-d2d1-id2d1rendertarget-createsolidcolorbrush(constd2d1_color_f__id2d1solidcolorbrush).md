@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1RenderTarget.CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush)
+UID: NF:d2d1.ID2D1RenderTarget.CreateSolidColorBrush(constD2D1_COLOR_F&,ID2D1SolidColorBrush)
 title: ID2D1RenderTarget::CreateSolidColorBrush(const D2D1_COLOR_F &,ID2D1SolidColorBrush) (d2d1.h)
 description: Creates a new ID2D1SolidColorBrush that has the specified color and a base opacity of 1.0f.
 helpviewer_keywords: ["CreateSolidColorBrush","CreateSolidColorBrush method [Direct2D]","CreateSolidColorBrush method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateSolidColorBrush method","ID2D1RenderTarget.CreateSolidColorBrush","ID2D1RenderTarget.CreateSolidColorBrush(const D2D1_COLOR_F &","ID2D1SolidColorBrush)","ID2D1RenderTarget::CreateSolidColorBrush","ID2D1RenderTarget::CreateSolidColorBrush(const D2D1_COLOR_F &","ID2D1SolidColorBrush)","d2d1/ID2D1RenderTarget::CreateSolidColorBrush","direct2d.ID2D1RenderTarget_CreateSolidColorBrush_ref_COLOR_F_ptr_ptr_ID2D1SolidColorBrush"]

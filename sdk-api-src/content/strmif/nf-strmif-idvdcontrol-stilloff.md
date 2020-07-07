@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl.StillOff
 title: IDvdControl::StillOff (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Resumes playback, canceling still mode.helpviewer_keywords: ["IDvdControl interface [DirectShow]","StillOff method","IDvdControl.StillOff","IDvdControl::StillOff","IDvdControlStillOff","StillOff","StillOff method [DirectShow]","StillOff method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_stilloff","strmif/IDvdControl::StillOff"]
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Resumes playback, canceling still mode.
+helpviewer_keywords: ["IDvdControl interface [DirectShow]","StillOff method","IDvdControl.StillOff","IDvdControl::StillOff","IDvdControlStillOff","StillOff","StillOff method [DirectShow]","StillOff method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_stilloff","strmif/IDvdControl::StillOff"]
 old-location: dshow\idvdcontrol_stilloff.htm
 tech.root: DirectShow
 ms.assetid: 0f466728-027e-40d6-b8f8-ed0aad02dd1e

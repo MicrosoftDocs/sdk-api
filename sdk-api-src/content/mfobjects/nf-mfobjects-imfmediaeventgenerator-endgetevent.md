@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFMediaEventGenerator.EndGetEvent
 title: IMFMediaEventGenerator::EndGetEvent (mfobjects.h)
-description: Completes an asynchronous request for the next event in the queue.helpviewer_keywords: ["6b38e984-d818-4f69-af28-8b54153faebb","EndGetEvent","EndGetEvent method [Media Foundation]","EndGetEvent method [Media Foundation]","IMFMediaEventGenerator interface","IMFMediaEventGenerator interface [Media Foundation]","EndGetEvent method","IMFMediaEventGenerator.EndGetEvent","IMFMediaEventGenerator::EndGetEvent","mf.imfmediaeventgenerator_endgetevent","mfobjects/IMFMediaEventGenerator::EndGetEvent"]
+description: Completes an asynchronous request for the next event in the queue.
+helpviewer_keywords: ["6b38e984-d818-4f69-af28-8b54153faebb","EndGetEvent","EndGetEvent method [Media Foundation]","EndGetEvent method [Media Foundation]","IMFMediaEventGenerator interface","IMFMediaEventGenerator interface [Media Foundation]","EndGetEvent method","IMFMediaEventGenerator.EndGetEvent","IMFMediaEventGenerator::EndGetEvent","mf.imfmediaeventgenerator_endgetevent","mfobjects/IMFMediaEventGenerator::EndGetEvent"]
 old-location: mf\imfmediaeventgenerator_endgetevent.htm
 tech.root: medfound
 ms.assetid: 6b38e984-d818-4f69-af28-8b54153faebb

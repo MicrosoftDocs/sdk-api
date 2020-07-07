@@ -1,7 +1,8 @@
 ---
 UID: NF:certmod.ICertManageModule.GetProperty
 title: ICertManageModule::GetProperty (certmod.h)
-description: Retrieves a module's property value.helpviewer_keywords: ["CCertManageModule object [Security]","GetProperty method","Copyright","Description","File Version","GetProperty","GetProperty method [Security]","GetProperty method [Security]","CCertManageModule object","GetProperty method [Security]","ICertManageModule interface","ICertManageModule interface [Security]","GetProperty method","ICertManageModule.GetProperty","ICertManageModule::GetProperty","Name","Product Version","_certsrv_icertmanagemodule_getproperty","certmod/ICertManageModule::GetProperty","security.icertmanagemodule_getproperty"]
+description: Retrieves a module's property value.
+helpviewer_keywords: ["CCertManageModule object [Security]","GetProperty method","Copyright","Description","File Version","GetProperty","GetProperty method [Security]","GetProperty method [Security]","CCertManageModule object","GetProperty method [Security]","ICertManageModule interface","ICertManageModule interface [Security]","GetProperty method","ICertManageModule.GetProperty","ICertManageModule::GetProperty","Name","Product Version","_certsrv_icertmanagemodule_getproperty","certmod/ICertManageModule::GetProperty","security.icertmanagemodule_getproperty"]
 old-location: security\icertmanagemodule_getproperty.htm
 tech.root: SecCrypto
 ms.assetid: f01bfcec-7031-4283-a847-0d59929e4ee5

@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed
 title: IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed (imapi2.h)
-description: Retrieves the drive's current write speed.helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_CurrentWriteSpeed method","IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed","IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed","get_CurrentWriteSpeed","get_CurrentWriteSpeed method [IMAPI]","get_CurrentWriteSpeed method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_currentwritespeed","imapi2/IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed"]
+description: Retrieves the drive's current write speed.
+helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_CurrentWriteSpeed method","IDiscFormat2TrackAtOnce.get_CurrentWriteSpeed","IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed","get_CurrentWriteSpeed","get_CurrentWriteSpeed method [IMAPI]","get_CurrentWriteSpeed method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_currentwritespeed","imapi2/IDiscFormat2TrackAtOnce::get_CurrentWriteSpeed"]
 old-location: imapi\idiscformat2trackatonce_get_currentwritespeed.htm
 tech.root: imapi
 ms.assetid: 8236dc3f-fe94-4dd5-908b-36ed74943ad4

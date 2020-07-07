@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICFormatConverter.CanConvert
 title: IWICFormatConverter::CanConvert (wincodec.h)
-description: Determines if the source pixel format can be converted to the destination pixel format.helpviewer_keywords: ["CanConvert","CanConvert method [Windows Imaging Component]","CanConvert method [Windows Imaging Component]","IWICFormatConverter interface","IWICFormatConverter interface [Windows Imaging Component]","CanConvert method","IWICFormatConverter.CanConvert","IWICFormatConverter::CanConvert","_wic_codec_iwicformatconverter_canconvert","wic._wic_codec_iwicformatconverter_canconvert","wincodec/IWICFormatConverter::CanConvert"]
+description: Determines if the source pixel format can be converted to the destination pixel format.
+helpviewer_keywords: ["CanConvert","CanConvert method [Windows Imaging Component]","CanConvert method [Windows Imaging Component]","IWICFormatConverter interface","IWICFormatConverter interface [Windows Imaging Component]","CanConvert method","IWICFormatConverter.CanConvert","IWICFormatConverter::CanConvert","_wic_codec_iwicformatconverter_canconvert","wic._wic_codec_iwicformatconverter_canconvert","wincodec/IWICFormatConverter::CanConvert"]
 old-location: wic\_wic_codec_iwicformatconverter_canconvert.htm
 tech.root: wic
 ms.assetid: bf813eaf-0899-4df2-bcc2-ba2db1e9af2f

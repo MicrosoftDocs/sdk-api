@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2tcpip.WSASetSocketSecurity
 title: WSASetSocketSecurity function (ws2tcpip.h)
-description: Enables and applies security for a socket.helpviewer_keywords: ["WSASetSocketSecurity","WSASetSocketSecurity function [Winsock]","winsock.wsasetsocketsecurity","ws2tcpip/WSASetSocketSecurity"]
+description: Enables and applies security for a socket.
+helpviewer_keywords: ["WSASetSocketSecurity","WSASetSocketSecurity function [Winsock]","winsock.wsasetsocketsecurity","ws2tcpip/WSASetSocketSecurity"]
 old-location: winsock\wsasetsocketsecurity.htm
 tech.root: WinSock
 ms.assetid: 9efee804-9763-4456-97a3-6eb9a8e30f49

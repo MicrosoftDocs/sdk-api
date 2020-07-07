@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMImageResource
 title: IXpsOMImageResource (xpsobjectmodel.h)
-description: Provides an IStream interface to an image resource.helpviewer_keywords: ["IXpsOMImageResource","IXpsOMImageResource interface [XPS Documents and Packaging]","IXpsOMImageResource interface [XPS Documents and Packaging]","described","xps.ixpsomimageresource","xpsobjectmodel/IXpsOMImageResource"]
+description: Provides an IStream interface to an image resource.
+helpviewer_keywords: ["IXpsOMImageResource","IXpsOMImageResource interface [XPS Documents and Packaging]","IXpsOMImageResource interface [XPS Documents and Packaging]","described","xps.ixpsomimageresource","xpsobjectmodel/IXpsOMImageResource"]
 old-location: xps\ixpsomimageresource.htm
 tech.root: printdocs
 ms.assetid: 89a1530e-fa87-45bf-a1da-c8656ec09ba3

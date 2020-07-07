@@ -1,7 +1,8 @@
 ---
 UID: NS:dbghelp._SOURCEFILEW
 title: SOURCEFILEW (dbghelp.h)
-description: Contains source file information.helpviewer_keywords: ["*PSOURCEFILEW","PSOURCEFILE","PSOURCEFILE structure pointer","SOURCEFILE","SOURCEFILE structure","SOURCEFILEW","_SOURCEFILE","_SOURCEFILEW","base.sourcefile_str","dbghelp/PSOURCEFILE","dbghelp/SOURCEFILE","dbghelp/SOURCEFILEW"]
+description: Contains source file information.
+helpviewer_keywords: ["*PSOURCEFILEW","PSOURCEFILE","PSOURCEFILE structure pointer","SOURCEFILE","SOURCEFILE structure","SOURCEFILEW","_SOURCEFILE","_SOURCEFILEW","base.sourcefile_str","dbghelp/PSOURCEFILE","dbghelp/SOURCEFILE","dbghelp/SOURCEFILEW"]
 old-location: base\sourcefile_str.htm
 tech.root: Debug
 ms.assetid: b41b844d-85d2-4ea3-bdd9-1564898da9e1
@@ -78,4 +79,9 @@ The fully qualified source file name.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The dbghelp.h header defines SOURCEFILE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

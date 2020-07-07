@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMatrixOrthographicLH
 title: XMMatrixOrthographicLH function (directxmath.h)
-description: Builds an orthogonal projection matrix for a left-handed coordinate system.helpviewer_keywords: ["Use DirectX..XMMatrixOrthographicLH","XMMatrixOrthographicLH","XMMatrixOrthographicLH method [DirectX Math Support APIs]","dxmath.xmmatrixorthographiclh"]
+description: Builds an orthogonal projection matrix for a left-handed coordinate system.
+helpviewer_keywords: ["Use DirectX..XMMatrixOrthographicLH","XMMatrixOrthographicLH","XMMatrixOrthographicLH method [DirectX Math Support APIs]","dxmath.xmmatrixorthographiclh"]
 old-location: dxmath\xmmatrixorthographiclh.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixOrthographicLH(float,float,float,float)

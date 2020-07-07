@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IPolicyQualifiers.get_Count
 title: IPolicyQualifiers::get_Count (certenroll.h)
-description: Retrieves the number of objects in the collection.helpviewer_keywords: ["Count property [Security]","Count property [Security]","IPolicyQualifiers interface","IPolicyQualifiers interface [Security]","Count property","IPolicyQualifiers.Count","IPolicyQualifiers.get_Count","IPolicyQualifiers::Count","IPolicyQualifiers::get_Count","certenroll/IPolicyQualifiers::Count","certenroll/IPolicyQualifiers::get_Count","get_Count","security.ipolicyqualifiers_count_property"]
+description: Retrieves the number of objects in the collection.
+helpviewer_keywords: ["Count property [Security]","Count property [Security]","IPolicyQualifiers interface","IPolicyQualifiers interface [Security]","Count property","IPolicyQualifiers.Count","IPolicyQualifiers.get_Count","IPolicyQualifiers::Count","IPolicyQualifiers::get_Count","certenroll/IPolicyQualifiers::Count","certenroll/IPolicyQualifiers::get_Count","get_Count","security.ipolicyqualifiers_count_property"]
 old-location: security\ipolicyqualifiers_count_property.htm
 tech.root: seccertenroll
 ms.assetid: d13f7a1c-5b2b-4a0d-a84e-d5c58f107575

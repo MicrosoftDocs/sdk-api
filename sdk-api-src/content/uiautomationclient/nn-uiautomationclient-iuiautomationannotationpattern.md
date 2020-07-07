@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationAnnotationPattern
 title: IUIAutomationAnnotationPattern (uiautomationclient.h)
-description: Provides access to the properties of an annotation in a document.helpviewer_keywords: ["IUIAutomationAnnotationPattern","IUIAutomationAnnotationPattern interface [Windows Accessibility]","IUIAutomationAnnotationPattern interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationAnnotationPattern","winauto.uiauto_IUIAutomationAnnotationPattern"]
+description: Provides access to the properties of an annotation in a document.
+helpviewer_keywords: ["IUIAutomationAnnotationPattern","IUIAutomationAnnotationPattern interface [Windows Accessibility]","IUIAutomationAnnotationPattern interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationAnnotationPattern","winauto.uiauto_IUIAutomationAnnotationPattern"]
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern.htm
 tech.root: WinAuto
 ms.assetid: 596FC65A-32C8-47F6-A23F-7B02939E26E3

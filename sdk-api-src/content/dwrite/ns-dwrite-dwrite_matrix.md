@@ -1,7 +1,8 @@
 ---
 UID: NS:dwrite.DWRITE_MATRIX
 title: DWRITE_MATRIX (dwrite.h)
-description: The DWRITE_MATRIX structure specifies the graphics transform to be applied to rendered glyphs.helpviewer_keywords: ["DWRITE_MATRIX","DWRITE_MATRIX structure [Direct Write]","directwrite.dwrite_matrix","dwrite/DWRITE_MATRIX"]
+description: The DWRITE_MATRIX structure specifies the graphics transform to be applied to rendered glyphs.
+helpviewer_keywords: ["DWRITE_MATRIX","DWRITE_MATRIX structure [Direct Write]","directwrite.dwrite_matrix","dwrite/DWRITE_MATRIX"]
 old-location: directwrite\dwrite_matrix.htm
 tech.root: DirectWrite
 ms.assetid: fe4bd8ba-fc3b-4a04-8a72-9983d52f4404

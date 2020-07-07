@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetRotation
 title: IDXGISwapChain1::GetRotation (dxgi1_2.h)
-description: Gets the rotation of the back buffers for the swap chain.helpviewer_keywords: ["GetRotation","GetRotation method [DXGI]","GetRotation method [DXGI]","IDXGISwapChain1 interface","IDXGISwapChain1 interface [DXGI]","GetRotation method","IDXGISwapChain1.GetRotation","IDXGISwapChain1::GetRotation","direct3ddxgi.idxgiswapchain1_getrotation","dxgi1_2/IDXGISwapChain1::GetRotation"]
+description: Gets the rotation of the back buffers for the swap chain.
+helpviewer_keywords: ["GetRotation","GetRotation method [DXGI]","GetRotation method [DXGI]","IDXGISwapChain1 interface","IDXGISwapChain1 interface [DXGI]","GetRotation method","IDXGISwapChain1.GetRotation","IDXGISwapChain1::GetRotation","direct3ddxgi.idxgiswapchain1_getrotation","dxgi1_2/IDXGISwapChain1::GetRotation"]
 old-location: direct3ddxgi\idxgiswapchain1_getrotation.htm
 tech.root: direct3ddxgi
 ms.assetid: B4460AF4-20B1-493D-88E4-2ADB304D6D60

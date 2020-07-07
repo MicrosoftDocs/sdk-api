@@ -1,7 +1,8 @@
 ---
 UID: NF:icontact.IContactManager.SetMeContact
 title: IContactManager::SetMeContact (icontact.h)
-description: Sets the local user account concept of 'me' to specified user.helpviewer_keywords: ["IContactManager interface [Windows Contacts]","SetMeContact method","IContactManager.SetMeContact","IContactManager::SetMeContact","SetMeContact","SetMeContact method [Windows Contacts]","SetMeContact method [Windows Contacts]","IContactManager interface","_wincontacts_IContactManager_SetMeContact","icontact/IContactManager::SetMeContact","wincontacts._wincontacts_IContactManager_SetMeContact"]
+description: Sets the local user account concept of 'me' to specified user.
+helpviewer_keywords: ["IContactManager interface [Windows Contacts]","SetMeContact method","IContactManager.SetMeContact","IContactManager::SetMeContact","SetMeContact","SetMeContact method [Windows Contacts]","SetMeContact method [Windows Contacts]","IContactManager interface","_wincontacts_IContactManager_SetMeContact","icontact/IContactManager::SetMeContact","wincontacts._wincontacts_IContactManager_SetMeContact"]
 old-location: wincontacts\_wincontacts_IContactManager_SetMeContact.htm
 tech.root: wincontacts
 ms.assetid: 3922ea46-da14-44ad-a9bf-8a10480722da

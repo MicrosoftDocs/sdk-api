@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._CLIPLINE
 title: CLIPLINE (winddi.h)
-description: The CLIPLINE structure gives the driver access to a portion of a line between two clip regions used for drawing.helpviewer_keywords: ["*PCLIPLINE","CLIPLINE","CLIPLINE structure [Display Devices]","PCLIPLINE","PCLIPLINE structure pointer [Display Devices]","display.clipline","grstrcts_01e6e35a-79ca-4dba-866e-24306b83cb51.xml","winddi/CLIPLINE","winddi/PCLIPLINE"]
+description: The CLIPLINE structure gives the driver access to a portion of a line between two clip regions used for drawing.
+helpviewer_keywords: ["*PCLIPLINE","CLIPLINE","CLIPLINE structure [Display Devices]","PCLIPLINE","PCLIPLINE structure pointer [Display Devices]","display.clipline","grstrcts_01e6e35a-79ca-4dba-866e-24306b83cb51.xml","winddi/CLIPLINE","winddi/PCLIPLINE"]
 old-location: display\clipline.htm
 tech.root: display
 ms.assetid: ec938519-3c0c-4664-9e9a-b7fb338920f5

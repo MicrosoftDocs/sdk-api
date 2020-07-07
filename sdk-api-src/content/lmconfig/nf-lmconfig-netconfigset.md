@@ -1,7 +1,8 @@
 ---
 UID: NF:lmconfig.NetConfigSet
 title: NetConfigSet function (lmconfig.h)
-description: The NetConfigSet function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.helpviewer_keywords: ["NetConfigSet","NetConfigSet function [Network Management]","_win32_netconfigset","lmconfig/NetConfigSet","netmgmt.netconfigset"]
+description: The NetConfigSet function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.
+helpviewer_keywords: ["NetConfigSet","NetConfigSet function [Network Management]","_win32_netconfigset","lmconfig/NetConfigSet","netmgmt.netconfigset"]
 old-location: netmgmt\netconfigset.htm
 tech.root: NetMgmt
 ms.assetid: a3615699-a84b-4be1-85a0-497bf73223e6

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.IsMoveInSameFolder
 title: IFolderView2::IsMoveInSameFolder (shobjidl_core.h)
-description: Checks to see if this view sourced the current drag-and-drop or cut-and-paste operation (used by drop target objects).helpviewer_keywords: ["IFolderView2 interface [Windows Shell]","IsMoveInSameFolder method","IFolderView2.IsMoveInSameFolder","IFolderView2::IsMoveInSameFolder","IsMoveInSameFolder","IsMoveInSameFolder method [Windows Shell]","IsMoveInSameFolder method [Windows Shell]","IFolderView2 interface","_shell_IFolderView2_IsMoveInSameFolder","shell.IFolderView2_IsMoveInSameFolder","shobjidl_core/IFolderView2::IsMoveInSameFolder"]
+description: Checks to see if this view sourced the current drag-and-drop or cut-and-paste operation (used by drop target objects).
+helpviewer_keywords: ["IFolderView2 interface [Windows Shell]","IsMoveInSameFolder method","IFolderView2.IsMoveInSameFolder","IFolderView2::IsMoveInSameFolder","IsMoveInSameFolder","IsMoveInSameFolder method [Windows Shell]","IsMoveInSameFolder method [Windows Shell]","IFolderView2 interface","_shell_IFolderView2_IsMoveInSameFolder","shell.IFolderView2_IsMoveInSameFolder","shobjidl_core/IFolderView2::IsMoveInSameFolder"]
 old-location: shell\IFolderView2_IsMoveInSameFolder.htm
 tech.root: shell
 ms.assetid: 1687a162-f81c-422b-afc2-0b5b8b6951ad

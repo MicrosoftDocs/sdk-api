@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IResourceManager.NotifyRelease
 title: IResourceManager::NotifyRelease (strmif.h)
-description: The NotifyRelease method notifies the resource manager that IResourceConsumer has released a resource.helpviewer_keywords: ["IResourceManager interface [DirectShow]","NotifyRelease method","IResourceManager.NotifyRelease","IResourceManager::NotifyRelease","IResourceManagerNotifyRelease","NotifyRelease","NotifyRelease method [DirectShow]","NotifyRelease method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_notifyrelease","strmif/IResourceManager::NotifyRelease"]
+description: The NotifyRelease method notifies the resource manager that IResourceConsumer has released a resource.
+helpviewer_keywords: ["IResourceManager interface [DirectShow]","NotifyRelease method","IResourceManager.NotifyRelease","IResourceManager::NotifyRelease","IResourceManagerNotifyRelease","NotifyRelease","NotifyRelease method [DirectShow]","NotifyRelease method [DirectShow]","IResourceManager interface","dshow.iresourcemanager_notifyrelease","strmif/IResourceManager::NotifyRelease"]
 old-location: dshow\iresourcemanager_notifyrelease.htm
 tech.root: DirectShow
 ms.assetid: a3779a8d-fe78-4f9b-af6c-7a25e0f07a86

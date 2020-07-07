@@ -1,7 +1,8 @@
 ---
 UID: NS:wsdbase._WSD_SECURITY_SIGNATURE_VALIDATION
 title: WSD_SECURITY_SIGNATURE_VALIDATION (wsdbase.h)
-description: Represents the criteria for matching client compact signatures against messages.helpviewer_keywords: ["*PWSD_SECURITY_SIGNATURE_VALIDATION","WSD_SECURITY_SIGNATURE_VALIDATION","WSD_SECURITY_SIGNATURE_VALIDATION structure","_WSD_SECURITY_SIGNATURE_VALIDATION","ncd.wsd_security_signature_validation","wsdbase/WSD_SECURITY_SIGNATURE_VALIDATION"]
+description: Represents the criteria for matching client compact signatures against messages.
+helpviewer_keywords: ["*PWSD_SECURITY_SIGNATURE_VALIDATION","WSD_SECURITY_SIGNATURE_VALIDATION","WSD_SECURITY_SIGNATURE_VALIDATION structure","_WSD_SECURITY_SIGNATURE_VALIDATION","ncd.wsd_security_signature_validation","wsdbase/WSD_SECURITY_SIGNATURE_VALIDATION"]
 old-location: ncd\wsd_security_signature_validation.htm
 tech.root: WsdApi
 ms.assetid: e2913f85-a5e7-43c9-a23c-81d836c9a259

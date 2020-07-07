@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.ILockBytes.WriteAt
 title: ILockBytes::WriteAt (objidl.h)
-description: The WriteAt method writes the specified number of bytes starting at a specified offset from the beginning of the byte array.helpviewer_keywords: ["ILockBytes interface [Structured Storage]","WriteAt method","ILockBytes.WriteAt","ILockBytes::WriteAt","WriteAt","WriteAt method [Structured Storage]","WriteAt method [Structured Storage]","ILockBytes interface","_stg_ilockbytes_writeat","objidl/ILockBytes::WriteAt","stg.ilockbytes_writeat"]
+description: The WriteAt method writes the specified number of bytes starting at a specified offset from the beginning of the byte array.
+helpviewer_keywords: ["ILockBytes interface [Structured Storage]","WriteAt method","ILockBytes.WriteAt","ILockBytes::WriteAt","WriteAt","WriteAt method [Structured Storage]","WriteAt method [Structured Storage]","ILockBytes interface","_stg_ilockbytes_writeat","objidl/ILockBytes::WriteAt","stg.ilockbytes_writeat"]
 old-location: stg\ilockbytes_writeat.htm
 tech.root: Stg
 ms.assetid: a27af4e1-293d-438a-8068-87275a51fd48

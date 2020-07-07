@@ -1,7 +1,8 @@
 ---
 UID: NF:chstring.CHString.Compare
 title: CHString::Compare (chstring.h)
-description: The Compare method uses the wcscmp function to compare this CHString string with another string.helpviewer_keywords: ["?Compare@CHString@@QBEHPBG@Z","?Compare@CHString@@QEBAHPEBG@Z","CHString interface [Windows Management Instrumentation]","Compare method","CHString.Compare","CHString::Compare","Compare","Compare method [Windows Management Instrumentation]","Compare method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_compare","chstring/CHString::Compare","wmi.chstring_compare"]
+description: The Compare method uses the wcscmp function to compare this CHString string with another string.
+helpviewer_keywords: ["?Compare@CHString@@QBEHPBG@Z","?Compare@CHString@@QEBAHPEBG@Z","CHString interface [Windows Management Instrumentation]","Compare method","CHString.Compare","CHString::Compare","Compare","Compare method [Windows Management Instrumentation]","Compare method [Windows Management Instrumentation]","CHString interface","_hmm_chstring_compare","chstring/CHString::Compare","wmi.chstring_compare"]
 old-location: wmi\chstring_compare.htm
 tech.root: WmiSdk
 ms.assetid: 6e587dd3-b3ae-4afa-9582-b3867d2fb7ef

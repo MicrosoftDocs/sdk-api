@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanEnumInterfaces
 title: WlanEnumInterfaces function (wlanapi.h)
-description: Enumerates all of the wireless LAN interfaces currently enabled on the local computer.helpviewer_keywords: ["WlanEnumInterfaces","WlanEnumInterfaces function [NativeWIFI]","nwifi.wlanenuminterfaces","wlanapi/WlanEnumInterfaces"]
+description: Enumerates all of the wireless LAN interfaces currently enabled on the local computer.
+helpviewer_keywords: ["WlanEnumInterfaces","WlanEnumInterfaces function [NativeWIFI]","nwifi.wlanenuminterfaces","wlanapi/WlanEnumInterfaces"]
 old-location: nwifi\wlanenuminterfaces.htm
 tech.root: NativeWiFi
 ms.assetid: 7f817edf-1b1d-495c-afd9-d97e3ae0caab

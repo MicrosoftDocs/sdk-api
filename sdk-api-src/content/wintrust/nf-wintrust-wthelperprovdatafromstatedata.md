@@ -1,7 +1,8 @@
 ---
 UID: NF:wintrust.WTHelperProvDataFromStateData
 title: WTHelperProvDataFromStateData function (wintrust.h)
-description: Retrieves trust provider information from a specified handle.helpviewer_keywords: ["WTHelperProvDataFromStateData","WTHelperProvDataFromStateData function [Security]","security.wthelperprovdatafromstatedata","wintrust/WTHelperProvDataFromStateData"]
+description: Retrieves trust provider information from a specified handle.
+helpviewer_keywords: ["WTHelperProvDataFromStateData","WTHelperProvDataFromStateData function [Security]","security.wthelperprovdatafromstatedata","wintrust/WTHelperProvDataFromStateData"]
 old-location: security\wthelperprovdatafromstatedata.htm
 tech.root: SecCrypto
 ms.assetid: ca2ca612-2da6-4fe1-8b1e-bc6307eb92af

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.SetPageScale
 title: Graphics::SetPageScale (gdiplusgraphics.h)
-description: The Graphics::SetPageScale method sets the scaling factor for the page transformation of this Graphics object. The page transformation converts page coordinates to device coordinates.helpviewer_keywords: ["Graphics class [GDI+]","SetPageScale method","Graphics.SetPageScale","Graphics::SetPageScale","SetPageScale","SetPageScale method [GDI+]","SetPageScale method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetPageScale_scale_","gdiplus._gdiplus_CLASS_Graphics_SetPageScale_scale_"]
+description: The Graphics::SetPageScale method sets the scaling factor for the page transformation of this Graphics object. The page transformation converts page coordinates to device coordinates.
+helpviewer_keywords: ["Graphics class [GDI+]","SetPageScale method","Graphics.SetPageScale","Graphics::SetPageScale","SetPageScale","SetPageScale method [GDI+]","SetPageScale method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_SetPageScale_scale_","gdiplus._gdiplus_CLASS_Graphics_SetPageScale_scale_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_SetPageScale_scale_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\setpagescale.htm

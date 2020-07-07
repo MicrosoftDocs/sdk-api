@@ -1,7 +1,8 @@
 ---
 UID: NN:medparam.IMediaParamInfo
 title: IMediaParamInfo (medparam.h)
-description: The IMediaParamInfo interface retrieves information about the parameters that an object supports. The set of parameters that an object supports will not change over the lifetime of an application. To set parameter values, use the IMediaParams interface.helpviewer_keywords: ["IMediaParamInfo","IMediaParamInfo interface [DirectShow]","IMediaParamInfo interface [DirectShow]","described","IMediaParamInfoInterface","dshow.imediaparaminfo","medparam/IMediaParamInfo"]
+description: The IMediaParamInfo interface retrieves information about the parameters that an object supports. The set of parameters that an object supports will not change over the lifetime of an application. To set parameter values, use the IMediaParams interface.
+helpviewer_keywords: ["IMediaParamInfo","IMediaParamInfo interface [DirectShow]","IMediaParamInfo interface [DirectShow]","described","IMediaParamInfoInterface","dshow.imediaparaminfo","medparam/IMediaParamInfo"]
 old-location: dshow\imediaparaminfo.htm
 tech.root: DirectShow
 ms.assetid: 80c7da71-7898-4bda-a181-09ad8906532a

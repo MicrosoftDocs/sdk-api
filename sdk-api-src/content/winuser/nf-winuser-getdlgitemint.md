@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetDlgItemInt
 title: GetDlgItemInt function (winuser.h)
-description: Translates the text of a specified control in a dialog box into an integer value.helpviewer_keywords: ["GetDlgItemInt","GetDlgItemInt function [Dialog Boxes]","_win32_GetDlgItemInt","_win32_getdlgitemint_cpp","dlgbox.getdlgitemint","winui._win32_getdlgitemint","winuser/GetDlgItemInt"]
+description: Translates the text of a specified control in a dialog box into an integer value.
+helpviewer_keywords: ["GetDlgItemInt","GetDlgItemInt function [Dialog Boxes]","_win32_GetDlgItemInt","_win32_getdlgitemint_cpp","dlgbox.getdlgitemint","winui._win32_getdlgitemint","winuser/GetDlgItemInt"]
 old-location: dlgbox\getdlgitemint.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\dialogboxes\dialogboxreference\dialogboxfunctions\getdlgitemint.htm

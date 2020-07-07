@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Class_GetClassName
 title: MI_Class_GetClassName function (mi.h)
-description: Gets the class name of the specified class.helpviewer_keywords: ["MI_Class_GetClassName","MI_Class_GetClassName function [Windows Management Infrastructure (MI)]","mi/MI_Class_GetClassName","wmi_v2.mi_class_getclassname"]
+description: Gets the class name of the specified class.
+helpviewer_keywords: ["MI_Class_GetClassName","MI_Class_GetClassName function [Windows Management Infrastructure (MI)]","mi/MI_Class_GetClassName","wmi_v2.mi_class_getclassname"]
 old-location: wmi_v2\mi_class_getclassname.htm
 tech.root: wmi_v2
 ms.assetid: 405639e7-74b0-4cda-9883-f8442976200a

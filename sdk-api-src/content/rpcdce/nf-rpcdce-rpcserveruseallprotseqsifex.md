@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcServerUseAllProtseqsIfEx
 title: RpcServerUseAllProtseqsIfEx function (rpcdce.h)
-description: The RpcServerUseAllProtseqsIfEx function tells the RPC run-time library to use all the specified protocol sequences and endpoints in the interface specification for receiving remote procedure calls.helpviewer_keywords: ["RpcServerUseAllProtseqsIfEx","RpcServerUseAllProtseqsIfEx function [RPC]","_rpc_rpcserveruseallprotseqsifex","rpc.rpcserveruseallprotseqsifex","rpcdce/RpcServerUseAllProtseqsIfEx"]
+description: The RpcServerUseAllProtseqsIfEx function tells the RPC run-time library to use all the specified protocol sequences and endpoints in the interface specification for receiving remote procedure calls.
+helpviewer_keywords: ["RpcServerUseAllProtseqsIfEx","RpcServerUseAllProtseqsIfEx function [RPC]","_rpc_rpcserveruseallprotseqsifex","rpc.rpcserveruseallprotseqsifex","rpcdce/RpcServerUseAllProtseqsIfEx"]
 old-location: rpc\rpcserveruseallprotseqsifex.htm
 tech.root: Rpc
 ms.assetid: 118c931e-29ca-4ffb-aa32-24c6f4289cc8

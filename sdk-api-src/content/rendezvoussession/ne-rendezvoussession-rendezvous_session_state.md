@@ -1,7 +1,8 @@
 ---
 UID: NE:rendezvoussession.__MIDL___MIDL_itf_rendezvoussession_0000_0000_0001
 title: RENDEZVOUS_SESSION_STATE (rendezvoussession.h)
-description: Provides the list of possible state codes of the session invitation.helpviewer_keywords: ["RENDEZVOUS_SESSION_STATE","RENDEZVOUS_SESSION_STATE enumeration [Remote Assistance]","RSS_ACCEPTED","RSS_CANCELLED","RSS_CONNECTED","RSS_DECLINED","RSS_INVITATION","RSS_READY","RSS_TERMINATED","RSS_UNKNOWN","remoteassist.remoteassist_RENDEZVOUS_SESSION_STATE","remoteassist_RENDEZVOUS_SESSION_STATE","rendezvoussession/RENDEZVOUS_SESSION_STATE","rendezvoussession/RSS_ACCEPTED","rendezvoussession/RSS_CANCELLED","rendezvoussession/RSS_CONNECTED","rendezvoussession/RSS_DECLINED","rendezvoussession/RSS_INVITATION","rendezvoussession/RSS_READY","rendezvoussession/RSS_TERMINATED","rendezvoussession/RSS_UNKNOWN"]
+description: Provides the list of possible state codes of the session invitation.
+helpviewer_keywords: ["RENDEZVOUS_SESSION_STATE","RENDEZVOUS_SESSION_STATE enumeration [Remote Assistance]","RSS_ACCEPTED","RSS_CANCELLED","RSS_CONNECTED","RSS_DECLINED","RSS_INVITATION","RSS_READY","RSS_TERMINATED","RSS_UNKNOWN","remoteassist.remoteassist_RENDEZVOUS_SESSION_STATE","remoteassist_RENDEZVOUS_SESSION_STATE","rendezvoussession/RENDEZVOUS_SESSION_STATE","rendezvoussession/RSS_ACCEPTED","rendezvoussession/RSS_CANCELLED","rendezvoussession/RSS_CONNECTED","rendezvoussession/RSS_DECLINED","rendezvoussession/RSS_INVITATION","rendezvoussession/RSS_READY","rendezvoussession/RSS_TERMINATED","rendezvoussession/RSS_UNKNOWN"]
 old-location: remoteassist\remoteassist_RENDEZVOUS_SESSION_STATE.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\enums\rendezvous_session_state.htm

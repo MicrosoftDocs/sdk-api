@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GET_KEYSTATE_LPARAM
 title: GET_KEYSTATE_LPARAM macro (winuser.h)
-description: Retrieves the state of certain virtual keys from the specified LPARAM value.helpviewer_keywords: ["GET_KEYSTATE_LPARAM","GET_KEYSTATE_LPARAM macro [Keyboard and Mouse Input]","_win32_GET_KEYSTATE_LPARAM","_win32_get_keystate_lparam_cpp","inputdev.get_keystate_lparam","winui._win32_get_keystate_lparam","winuser/GET_KEYSTATE_LPARAM"]
+description: Retrieves the state of certain virtual keys from the specified LPARAM value.
+helpviewer_keywords: ["GET_KEYSTATE_LPARAM","GET_KEYSTATE_LPARAM macro [Keyboard and Mouse Input]","_win32_GET_KEYSTATE_LPARAM","_win32_get_keystate_lparam_cpp","inputdev.get_keystate_lparam","winui._win32_get_keystate_lparam","winuser/GET_KEYSTATE_LPARAM"]
 old-location: inputdev\get_keystate_lparam.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\mouseinput\mouseinputreference\mouseinputmacros\get_keystate_lparam.htm

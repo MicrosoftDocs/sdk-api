@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get__MixerBitmap
 title: IMSVidVideoRenderer::get__MixerBitmap (segment.h)
-description: The get__MixerBitmap method retrieves the Video Mixing Renderer's IVMRMixerBitmap interface, which controls how the VMR mixes a static bitmap.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","get__MixerBitmap method","IMSVidVideoRenderer.get__MixerBitmap","IMSVidVideoRenderer::get__MixerBitmap","IMSVidVideoRendererget__MixerBitmap","get__MixerBitmap","get__MixerBitmap method [Microsoft TV Technologies]","get__MixerBitmap method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","mstv.imsvidvideorenderer_get__mixerbitmap","segment/IMSVidVideoRenderer::get__MixerBitmap"]
+description: The get__MixerBitmap method retrieves the Video Mixing Renderer's IVMRMixerBitmap interface, which controls how the VMR mixes a static bitmap.
+helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","get__MixerBitmap method","IMSVidVideoRenderer.get__MixerBitmap","IMSVidVideoRenderer::get__MixerBitmap","IMSVidVideoRendererget__MixerBitmap","get__MixerBitmap","get__MixerBitmap method [Microsoft TV Technologies]","get__MixerBitmap method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","mstv.imsvidvideorenderer_get__mixerbitmap","segment/IMSVidVideoRenderer::get__MixerBitmap"]
 old-location: mstv\imsvidvideorenderer_get__mixerbitmap.htm
 tech.root: mstv
 ms.assetid: 714b8222-ab8b-4ece-8ae5-61bb41a7ed3c

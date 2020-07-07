@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12sdklayers.ID3D12DebugCommandQueue
 title: ID3D12DebugCommandQueue (d3d12sdklayers.h)
-description: Provides methods to monitor and debug a command queue.helpviewer_keywords: ["ID3D12DebugCommandQueue","ID3D12DebugCommandQueue interface","ID3D12DebugCommandQueue interface","described","d3d12sdklayers/ID3D12DebugCommandQueue","direct3d12.id3d12debugcommandqueue"]
+description: Provides methods to monitor and debug a command queue.
+helpviewer_keywords: ["ID3D12DebugCommandQueue","ID3D12DebugCommandQueue interface","ID3D12DebugCommandQueue interface","described","d3d12sdklayers/ID3D12DebugCommandQueue","direct3d12.id3d12debugcommandqueue"]
 old-location: direct3d12\id3d12debugcommandqueue.htm
 tech.root: direct3d12
 ms.assetid: 383F3B25-10C6-464C-AB79-D35F6FD3E879

@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptGetFipsAlgorithmMode
 title: BCryptGetFipsAlgorithmMode function (bcrypt.h)
-description: Determines whether Federal Information Processing Standard (FIPS) compliance is enabled.helpviewer_keywords: ["BCryptGetFipsAlgorithmMode","BCryptGetFipsAlgorithmMode function [Security]","bcrypt/BCryptGetFipsAlgorithmMode","security.bcryptgetfipsalgorithmmode"]
+description: Determines whether Federal Information Processing Standard (FIPS) compliance is enabled.
+helpviewer_keywords: ["BCryptGetFipsAlgorithmMode","BCryptGetFipsAlgorithmMode function [Security]","bcrypt/BCryptGetFipsAlgorithmMode","security.bcryptgetfipsalgorithmmode"]
 old-location: security\bcryptgetfipsalgorithmmode.htm
 tech.root: SecCNG
 ms.assetid: eb7b758d-3466-49fe-8729-a8a059fadcde

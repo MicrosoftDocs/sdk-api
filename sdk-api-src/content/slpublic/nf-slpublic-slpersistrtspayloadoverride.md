@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLPersistRTSPayloadOverride
 title: SLPersistRTSPayloadOverride function (slpublic.h)
-description: Associates information with the specified product for both online and phone activation.helpviewer_keywords: ["SLPersistRTSPayloadOverride","SLPersistRTSPayloadOverride function [Security]","security.slpersistrtspayloadoverride","slpublic/SLPersistRTSPayloadOverride"]
+description: Associates information with the specified product for both online and phone activation.
+helpviewer_keywords: ["SLPersistRTSPayloadOverride","SLPersistRTSPayloadOverride function [Security]","security.slpersistrtspayloadoverride","slpublic/SLPersistRTSPayloadOverride"]
 old-location: security\slpersistrtspayloadoverride.htm
 tech.root: SecSLApi
 ms.assetid: d053c9dc-c719-4e0c-b1e9-58303b51cb26

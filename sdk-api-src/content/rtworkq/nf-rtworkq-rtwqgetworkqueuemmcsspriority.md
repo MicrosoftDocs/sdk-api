@@ -1,7 +1,8 @@
 ---
 UID: NF:rtworkq.RtwqGetWorkQueueMMCSSPriority
 title: RtwqGetWorkQueueMMCSSPriority function (rtworkq.h)
-description: Gets the relative thread priority of a work queue.helpviewer_keywords: ["RtwqGetWorkQueueMMCSSPriority","RtwqGetWorkQueueMMCSSPriority function","base.rtwqgetworkqueuemmcsspriority","rtworkq/RtwqGetWorkQueueMMCSSPriority"]
+description: Gets the relative thread priority of a work queue.
+helpviewer_keywords: ["RtwqGetWorkQueueMMCSSPriority","RtwqGetWorkQueueMMCSSPriority function","base.rtwqgetworkqueuemmcsspriority","rtworkq/RtwqGetWorkQueueMMCSSPriority"]
 old-location: base\rtwqgetworkqueuemmcsspriority.htm
 tech.root: ProcThread
 ms.assetid: c9f18299-bd0a-4c1c-acc0-2cc8bc84aa82

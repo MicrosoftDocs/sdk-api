@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionScaleTransform.SetScaleY(float)
 title: IDCompositionScaleTransform::SetScaleY (dcomp.h)
-description: Changes the value of the ScaleY property of a 2D scale transform.helpviewer_keywords: ["IDCompositionScaleTransform interface [DirectComposition]","SetScaleY method","IDCompositionScaleTransform.SetScaleY","IDCompositionScaleTransform::SetScaleY","IDCompositionScaleTransform::SetScaleY(float)","SetScaleY","SetScaleY method [DirectComposition]","SetScaleY method [DirectComposition]","IDCompositionScaleTransform interface","dcomp/IDCompositionScaleTransform::SetScaleY","directcomp.idcompositionscaletransform_setscaley_float"]
+description: Changes the value of the ScaleY property of a 2D scale transform.
+helpviewer_keywords: ["IDCompositionScaleTransform interface [DirectComposition]","SetScaleY method","IDCompositionScaleTransform.SetScaleY","IDCompositionScaleTransform::SetScaleY","IDCompositionScaleTransform::SetScaleY(float)","SetScaleY","SetScaleY method [DirectComposition]","SetScaleY method [DirectComposition]","IDCompositionScaleTransform interface","dcomp/IDCompositionScaleTransform::SetScaleY","directcomp.idcompositionscaletransform_setscaley_float"]
 old-location: directcomp\idcompositionscaletransform_setscaley_float.htm
 tech.root: directcomp
 ms.assetid: D47D6FA3-D5D2-47BD-8DE0-6E0EE08EE7C4

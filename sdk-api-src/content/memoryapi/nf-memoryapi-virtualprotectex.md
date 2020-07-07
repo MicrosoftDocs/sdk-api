@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.VirtualProtectEx
 title: VirtualProtectEx function (memoryapi.h)
-description: Changes the protection on a region of committed pages in the virtual address space of a specified process.helpviewer_keywords: ["VirtualProtectEx","VirtualProtectEx function","_win32_virtualprotectex","base.virtualprotectex","winbase/VirtualProtectEx"]
+description: Changes the protection on a region of committed pages in the virtual address space of a specified process.
+helpviewer_keywords: ["VirtualProtectEx","VirtualProtectEx function","_win32_virtualprotectex","base.virtualprotectex","winbase/VirtualProtectEx"]
 old-location: base\virtualprotectex.htm
 tech.root: Memory
 ms.assetid: 6afd7ae6-e4c5-483c-a638-c85781674c7b

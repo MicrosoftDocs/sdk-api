@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetTransportStreamId
 title: IPAT::GetTransportStreamId (mpeg2psiparser.h)
-description: The GetTransportStreamId method returns the transport stream identifier (TSID) for the PAT.helpviewer_keywords: ["GetTransportStreamId","GetTransportStreamId method [Microsoft TV Technologies]","GetTransportStreamId method [Microsoft TV Technologies]","IPAT interface","IPAT interface [Microsoft TV Technologies]","GetTransportStreamId method","IPAT.GetTransportStreamId","IPAT::GetTransportStreamId","IPATGetTransportStreamId","mpeg2psiparser/IPAT::GetTransportStreamId","mstv.ipat_gettransportstreamid"]
+description: The GetTransportStreamId method returns the transport stream identifier (TSID) for the PAT.
+helpviewer_keywords: ["GetTransportStreamId","GetTransportStreamId method [Microsoft TV Technologies]","GetTransportStreamId method [Microsoft TV Technologies]","IPAT interface","IPAT interface [Microsoft TV Technologies]","GetTransportStreamId method","IPAT.GetTransportStreamId","IPAT::GetTransportStreamId","IPATGetTransportStreamId","mpeg2psiparser/IPAT::GetTransportStreamId","mstv.ipat_gettransportstreamid"]
 old-location: mstv\ipat_gettransportstreamid.htm
 tech.root: mstv
 ms.assetid: 3a13bb01-47d6-4737-9e66-169def727b5e

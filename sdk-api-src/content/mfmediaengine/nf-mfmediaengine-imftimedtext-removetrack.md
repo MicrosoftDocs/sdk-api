@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFTimedText.RemoveTrack
 title: IMFTimedText::RemoveTrack (mfmediaengine.h)
-description: Removes the timed-text track with the specified identifier.helpviewer_keywords: ["IMFTimedText interface [Media Foundation]","RemoveTrack method","IMFTimedText.RemoveTrack","IMFTimedText::RemoveTrack","RemoveTrack","RemoveTrack method [Media Foundation]","RemoveTrack method [Media Foundation]","IMFTimedText interface","mf.imftimedtext_removetrack","mfmediaengine/IMFTimedText::RemoveTrack"]
+description: Removes the timed-text track with the specified identifier.
+helpviewer_keywords: ["IMFTimedText interface [Media Foundation]","RemoveTrack method","IMFTimedText.RemoveTrack","IMFTimedText::RemoveTrack","RemoveTrack","RemoveTrack method [Media Foundation]","RemoveTrack method [Media Foundation]","IMFTimedText interface","mf.imftimedtext_removetrack","mfmediaengine/IMFTimedText::RemoveTrack"]
 old-location: mf\imftimedtext_removetrack.htm
 tech.root: medfound
 ms.assetid: 34B785F6-0B34-431A-91CD-3C2DCEFEDAA4

@@ -1,7 +1,8 @@
 ---
 UID: NF:lowlevelmonitorconfigurationapi.SetVCPFeature
 title: SetVCPFeature function (lowlevelmonitorconfigurationapi.h)
-description: Sets the value of a Virtual Control Panel (VCP) code for a monitor.helpviewer_keywords: ["SetVCPFeature","SetVCPFeature function [Monitor Configuration]","lowlevelmonitorconfigurationapi/SetVCPFeature","monitor.setvcpfeature"]
+description: Sets the value of a Virtual Control Panel (VCP) code for a monitor.
+helpviewer_keywords: ["SetVCPFeature","SetVCPFeature function [Monitor Configuration]","lowlevelmonitorconfigurationapi/SetVCPFeature","monitor.setvcpfeature"]
 old-location: monitor\setvcpfeature.htm
 tech.root: Monitor
 ms.assetid: 145c393e-dce0-4d50-94c2-61ba580c3d83

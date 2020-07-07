@@ -1,7 +1,8 @@
 ---
 UID: NF:msime.IFEDictionary.GetPosTable
 title: IFEDictionary::GetPosTable (msime.h)
-description: Obtains the public POS (Part of Speech) table.helpviewer_keywords: ["GetPosTable","GetPosTable method [Internationalization for Windows Applications]","GetPosTable method [Internationalization for Windows Applications]","IFEDictionary interface","IFEDictionary interface [Internationalization for Windows Applications]","GetPosTable method","IFEDictionary.GetPosTable","IFEDictionary::GetPosTable","intl.ifedictionary_getpostable","msime/IFEDictionary::GetPosTable"]
+description: Obtains the public POS (Part of Speech) table.
+helpviewer_keywords: ["GetPosTable","GetPosTable method [Internationalization for Windows Applications]","GetPosTable method [Internationalization for Windows Applications]","IFEDictionary interface","IFEDictionary interface [Internationalization for Windows Applications]","GetPosTable method","IFEDictionary.GetPosTable","IFEDictionary::GetPosTable","intl.ifedictionary_getpostable","msime/IFEDictionary::GetPosTable"]
 old-location: intl\ifedictionary_getpostable.htm
 tech.root: Intl
 ms.assetid: 0453B37B-A73A-4CD8-AD09-49B9A65B9FD6

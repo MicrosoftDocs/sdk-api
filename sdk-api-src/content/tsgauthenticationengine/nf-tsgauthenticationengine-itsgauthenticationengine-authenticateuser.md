@@ -1,7 +1,8 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticationEngine.AuthenticateUser
 title: ITSGAuthenticationEngine::AuthenticateUser (tsgauthenticationengine.h)
-description: Authenticates a user.helpviewer_keywords: ["AuthenticateUser","AuthenticateUser method [Remote Desktop Services]","AuthenticateUser method [Remote Desktop Services]","ITSGAuthenticationEngine interface","ITSGAuthenticationEngine interface [Remote Desktop Services]","AuthenticateUser method","ITSGAuthenticationEngine.AuthenticateUser","ITSGAuthenticationEngine::AuthenticateUser","termserv.itsgauthenticationengine_authenticateuser","tsgauthenticationengine/ITSGAuthenticationEngine::AuthenticateUser"]
+description: Authenticates a user.
+helpviewer_keywords: ["AuthenticateUser","AuthenticateUser method [Remote Desktop Services]","AuthenticateUser method [Remote Desktop Services]","ITSGAuthenticationEngine interface","ITSGAuthenticationEngine interface [Remote Desktop Services]","AuthenticateUser method","ITSGAuthenticationEngine.AuthenticateUser","ITSGAuthenticationEngine::AuthenticateUser","termserv.itsgauthenticationengine_authenticateuser","tsgauthenticationengine/ITSGAuthenticationEngine::AuthenticateUser"]
 old-location: termserv\itsgauthenticationengine_authenticateuser.htm
 tech.root: TermServ
 ms.assetid: a378c28f-ecd1-43db-b998-487176f656f5

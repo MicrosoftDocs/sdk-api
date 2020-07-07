@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnInterfaceEvents.OnScanNetworkComplete
 title: IMbnInterfaceEvents::OnScanNetworkComplete (mbnapi.h)
-description: This notification method is called by the Mobile Broadband service to indicate the completion of a network scan.helpviewer_keywords: ["E_MBN_ALREADY_ACTIVE","E_MBN_DEVICE_BUSY","E_MBN_RADIO_POWER_OFF","IMbnInterfaceEvents interface [Microsoft Broadband Networks]","OnScanNetworkComplete method","IMbnInterfaceEvents.OnScanNetworkComplete","IMbnInterfaceEvents::OnScanNetworkComplete","OnScanNetworkComplete","OnScanNetworkComplete method [Microsoft Broadband Networks]","OnScanNetworkComplete method [Microsoft Broadband Networks]","IMbnInterfaceEvents interface","S_OK","mbn.imbninterfaceevents_onscannetworkcomplete","mbnapi/IMbnInterfaceEvents::OnScanNetworkComplete"]
+description: This notification method is called by the Mobile Broadband service to indicate the completion of a network scan.
+helpviewer_keywords: ["E_MBN_ALREADY_ACTIVE","E_MBN_DEVICE_BUSY","E_MBN_RADIO_POWER_OFF","IMbnInterfaceEvents interface [Microsoft Broadband Networks]","OnScanNetworkComplete method","IMbnInterfaceEvents.OnScanNetworkComplete","IMbnInterfaceEvents::OnScanNetworkComplete","OnScanNetworkComplete","OnScanNetworkComplete method [Microsoft Broadband Networks]","OnScanNetworkComplete method [Microsoft Broadband Networks]","IMbnInterfaceEvents interface","S_OK","mbn.imbninterfaceevents_onscannetworkcomplete","mbnapi/IMbnInterfaceEvents::OnScanNetworkComplete"]
 old-location: mbn\imbninterfaceevents_onscannetworkcomplete.htm
 tech.root: mbn
 ms.assetid: 6320c76b-b8a6-44dc-88bb-e20a85d5cfca

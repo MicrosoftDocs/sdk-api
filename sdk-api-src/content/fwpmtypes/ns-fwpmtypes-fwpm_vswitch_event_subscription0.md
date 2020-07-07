@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_VSWITCH_EVENT_SUBSCRIPTION0_
 title: FWPM_VSWITCH_EVENT_SUBSCRIPTION0 (fwpmtypes.h)
-description: Stores information used to subscribe to notifications about a vSwitch event.helpviewer_keywords: ["FWPM_VSWITCH_EVENT_SUBSCRIPTION0","FWPM_VSWITCH_EVENT_SUBSCRIPTION0 structure [Filtering]","fwp.fwpm_vswitch_event_subscription0","fwpmtypes/FWPM_VSWITCH_EVENT_SUBSCRIPTION0"]
+description: Stores information used to subscribe to notifications about a vSwitch event.
+helpviewer_keywords: ["FWPM_VSWITCH_EVENT_SUBSCRIPTION0","FWPM_VSWITCH_EVENT_SUBSCRIPTION0 structure [Filtering]","fwp.fwpm_vswitch_event_subscription0","fwpmtypes/FWPM_VSWITCH_EVENT_SUBSCRIPTION0"]
 old-location: fwp\fwpm_vswitch_event_subscription0.htm
 tech.root: fwp
 ms.assetid: f099d531-ab40-4661-b33f-a805a84fba7e

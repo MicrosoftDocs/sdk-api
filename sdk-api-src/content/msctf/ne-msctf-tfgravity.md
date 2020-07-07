@@ -1,7 +1,8 @@
 ---
 UID: NE:msctf.__MIDL_ITfRange_0001
 title: TfGravity (msctf.h)
-description: Elements of the TfGravity enumeration specify the type of gravity associated with the anchor of an ITfRange object.helpviewer_keywords: ["TF_GRAVITY_BACKWARD","TF_GRAVITY_FORWARD","TfGravity","TfGravity enumeration [Text Services Framework]","_tsf_tfgravity_ref","msctf/TF_GRAVITY_BACKWARD","msctf/TF_GRAVITY_FORWARD","msctf/TfGravity","tsf.tfgravity"]
+description: Elements of the TfGravity enumeration specify the type of gravity associated with the anchor of an ITfRange object.
+helpviewer_keywords: ["TF_GRAVITY_BACKWARD","TF_GRAVITY_FORWARD","TfGravity","TfGravity enumeration [Text Services Framework]","_tsf_tfgravity_ref","msctf/TF_GRAVITY_BACKWARD","msctf/TF_GRAVITY_FORWARD","msctf/TfGravity","tsf.tfgravity"]
 old-location: tsf\tfgravity.htm
 tech.root: TSF
 ms.assetid: 844925e7-4c3e-41e7-b560-586c85530cb4

@@ -1,7 +1,8 @@
 ---
 UID: NF:netsh.RegisterHelper
 title: RegisterHelper function (netsh.h)
-description: Is called from within a helper's exposed InitHelperDll function, and registers the helper with the NetShell context.helpviewer_keywords: ["RegisterHelper","RegisterHelper function [NetShell]","_netsh_registerhelper","netsh/RegisterHelper","netshell.registerhelper"]
+description: Is called from within a helper's exposed InitHelperDll function, and registers the helper with the NetShell context.
+helpviewer_keywords: ["RegisterHelper","RegisterHelper function [NetShell]","_netsh_registerhelper","netsh/RegisterHelper","netshell.registerhelper"]
 old-location: netshell\registerhelper.htm
 tech.root: netshell
 ms.assetid: 9c9ac64a-6edd-4348-80c7-4192726e5108

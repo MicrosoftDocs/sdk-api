@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMMediaProps.SetMediaType
 title: IWMMediaProps::SetMediaType (wmsdkidl.h)
-description: The SetMediaType method specifies the media type.helpviewer_keywords: ["IWMMediaProps interface [windows Media Format]","SetMediaType method","IWMMediaProps.SetMediaType","IWMMediaProps::SetMediaType","IWMMediaPropsSetMediaType","SetMediaType","SetMediaType method [windows Media Format]","SetMediaType method [windows Media Format]","IWMMediaProps interface","wmformat.iwmmediaprops_setmediatype","wmsdkidl/IWMMediaProps::SetMediaType"]
+description: The SetMediaType method specifies the media type.
+helpviewer_keywords: ["IWMMediaProps interface [windows Media Format]","SetMediaType method","IWMMediaProps.SetMediaType","IWMMediaProps::SetMediaType","IWMMediaPropsSetMediaType","SetMediaType","SetMediaType method [windows Media Format]","SetMediaType method [windows Media Format]","IWMMediaProps interface","wmformat.iwmmediaprops_setmediatype","wmsdkidl/IWMMediaProps::SetMediaType"]
 old-location: wmformat\iwmmediaprops_setmediatype.htm
 tech.root: wmformat
 ms.assetid: 7a89bf24-6b76-4645-8f39-f1979029d67e

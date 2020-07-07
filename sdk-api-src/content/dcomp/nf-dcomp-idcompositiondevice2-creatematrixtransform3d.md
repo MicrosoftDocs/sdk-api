@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice2.CreateMatrixTransform3D
 title: IDCompositionDevice2::CreateMatrixTransform3D (dcomp.h)
-description: Creates a 3D 4-by-4 matrix transform object.helpviewer_keywords: ["CreateMatrixTransform3D","CreateMatrixTransform3D method [DirectComposition]","CreateMatrixTransform3D method [DirectComposition]","IDCompositionDevice2 interface","IDCompositionDevice2 interface [DirectComposition]","CreateMatrixTransform3D method","IDCompositionDevice2.CreateMatrixTransform3D","IDCompositionDevice2::CreateMatrixTransform3D","dcomp/IDCompositionDevice2::CreateMatrixTransform3D","directcomp.idcompositiondevice2_creatematrixtransform3d"]
+description: Creates a 3D 4-by-4 matrix transform object.
+helpviewer_keywords: ["CreateMatrixTransform3D","CreateMatrixTransform3D method [DirectComposition]","CreateMatrixTransform3D method [DirectComposition]","IDCompositionDevice2 interface","IDCompositionDevice2 interface [DirectComposition]","CreateMatrixTransform3D method","IDCompositionDevice2.CreateMatrixTransform3D","IDCompositionDevice2::CreateMatrixTransform3D","dcomp/IDCompositionDevice2::CreateMatrixTransform3D","directcomp.idcompositiondevice2_creatematrixtransform3d"]
 old-location: directcomp\idcompositiondevice2_creatematrixtransform3d.htm
 tech.root: directcomp
 ms.assetid: BD187D78-7F53-45E7-AF8C-BEB7F28AFF2A

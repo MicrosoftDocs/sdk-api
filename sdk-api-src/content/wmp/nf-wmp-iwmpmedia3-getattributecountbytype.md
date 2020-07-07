@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPMedia3.getAttributeCountByType
 title: IWMPMedia3::getAttributeCountByType (wmp.h)
-description: The getAttributeCountByType method retrieves the number of attributes associated with the specified attribute type.helpviewer_keywords: ["IWMPMedia3 interface [Windows Media Player]","getAttributeCountByType method","IWMPMedia3.getAttributeCountByType","IWMPMedia3::getAttributeCountByType","IWMPMedia3getAttributeCountByType","getAttributeCountByType","getAttributeCountByType method [Windows Media Player]","getAttributeCountByType method [Windows Media Player]","IWMPMedia3 interface","wmp.iwmpmedia3_getattributecountbytype","wmp/IWMPMedia3::getAttributeCountByType"]
+description: The getAttributeCountByType method retrieves the number of attributes associated with the specified attribute type.
+helpviewer_keywords: ["IWMPMedia3 interface [Windows Media Player]","getAttributeCountByType method","IWMPMedia3.getAttributeCountByType","IWMPMedia3::getAttributeCountByType","IWMPMedia3getAttributeCountByType","getAttributeCountByType","getAttributeCountByType method [Windows Media Player]","getAttributeCountByType method [Windows Media Player]","IWMPMedia3 interface","wmp.iwmpmedia3_getattributecountbytype","wmp/IWMPMedia3::getAttributeCountByType"]
 old-location: wmp\iwmpmedia3_getattributecountbytype.htm
 tech.root: WMP
 ms.assetid: 86f5e67a-408f-4b93-b89a-12f42fd31966

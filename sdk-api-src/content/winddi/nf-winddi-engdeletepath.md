@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngDeletePath
 title: EngDeletePath function (winddi.h)
-description: The EngDeletePath function deletes a path previously allocated by EngCreatePath.helpviewer_keywords: ["EngDeletePath","EngDeletePath function [Display Devices]","display.engdeletepath","gdifncs_aa1e2ccc-cc76-4782-b2ff-9867576c82d1.xml","winddi/EngDeletePath"]
+description: The EngDeletePath function deletes a path previously allocated by EngCreatePath.
+helpviewer_keywords: ["EngDeletePath","EngDeletePath function [Display Devices]","display.engdeletepath","gdifncs_aa1e2ccc-cc76-4782-b2ff-9867576c82d1.xml","winddi/EngDeletePath"]
 old-location: display\engdeletepath.htm
 tech.root: display
 ms.assetid: 65ecf4bc-5180-4b4b-a359-298f385b849e

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITAutomatedPhoneControl.put_AutoVolumeControlStep
 title: ITAutomatedPhoneControl::put_AutoVolumeControlStep (tapi3if.h)
-description: The put_AutoVolumeControlStep method sets the AutoVolumeControlStep property. The property determines the amount that the phone volume is adjusted when the volume button is pressed.helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","put_AutoVolumeControlStep method","ITAutomatedPhoneControl.put_AutoVolumeControlStep","ITAutomatedPhoneControl::put_AutoVolumeControlStep","_tapi3_itautomatedphonecontrol_put_autovolumecontrolstep","put_AutoVolumeControlStep","put_AutoVolumeControlStep method [TAPI 2.2]","put_AutoVolumeControlStep method [TAPI 2.2]","ITAutomatedPhoneControl interface","tapi3.itautomatedphonecontrol_put_autovolumecontrolstep","tapi3if/ITAutomatedPhoneControl::put_AutoVolumeControlStep"]
+description: The put_AutoVolumeControlStep method sets the AutoVolumeControlStep property. The property determines the amount that the phone volume is adjusted when the volume button is pressed.
+helpviewer_keywords: ["ITAutomatedPhoneControl interface [TAPI 2.2]","put_AutoVolumeControlStep method","ITAutomatedPhoneControl.put_AutoVolumeControlStep","ITAutomatedPhoneControl::put_AutoVolumeControlStep","_tapi3_itautomatedphonecontrol_put_autovolumecontrolstep","put_AutoVolumeControlStep","put_AutoVolumeControlStep method [TAPI 2.2]","put_AutoVolumeControlStep method [TAPI 2.2]","ITAutomatedPhoneControl interface","tapi3.itautomatedphonecontrol_put_autovolumecontrolstep","tapi3if/ITAutomatedPhoneControl::put_AutoVolumeControlStep"]
 old-location: tapi3\itautomatedphonecontrol_put_autovolumecontrolstep.htm
 tech.root: Tapi
 ms.assetid: 19766507-7a15-4c45-91bd-4b49ceb177e6

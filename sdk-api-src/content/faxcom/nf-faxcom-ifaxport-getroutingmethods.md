@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxPort.GetRoutingMethods
 title: IFaxPort::GetRoutingMethods (faxcom.h)
-description: The IFaxPort::GetRoutingMethods interface method creates a FaxRoutingMethods object for the parent FaxPort object.helpviewer_keywords: ["GetRoutingMethods","GetRoutingMethods method [Fax Service]","GetRoutingMethods method [Fax Service]","IFaxPort interface","IFaxPort interface [Fax Service]","GetRoutingMethods method","IFaxPort.GetRoutingMethods","IFaxPort::GetRoutingMethods","_mfax_ifaxport_getroutingmethods","fax._mfax_ifaxport_getroutingmethods","fax._mfax_ifaxport_mfax_ifaxport_getroutingmethods_cpp","faxcom/IFaxPort::GetRoutingMethods"]
+description: The IFaxPort::GetRoutingMethods interface method creates a FaxRoutingMethods object for the parent FaxPort object.
+helpviewer_keywords: ["GetRoutingMethods","GetRoutingMethods method [Fax Service]","GetRoutingMethods method [Fax Service]","IFaxPort interface","IFaxPort interface [Fax Service]","GetRoutingMethods method","IFaxPort.GetRoutingMethods","IFaxPort::GetRoutingMethods","_mfax_ifaxport_getroutingmethods","fax._mfax_ifaxport_getroutingmethods","fax._mfax_ifaxport_mfax_ifaxport_getroutingmethods_cpp","faxcom/IFaxPort::GetRoutingMethods"]
 old-location: fax\_mfax_ifaxport_mfax_ifaxport_getroutingmethods_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_619v.htm

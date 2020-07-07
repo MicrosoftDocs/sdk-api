@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.UShortToInt8
 title: UShortToInt8 function (intsafe.h)
-description: Converts a value of type USHORT to a value of type INT8.helpviewer_keywords: ["UShortToInt8","UShortToInt8 function [Windows Shell]","intsafe/UShortToInt8","shell.UShortToInt8"]
+description: Converts a value of type USHORT to a value of type INT8.
+helpviewer_keywords: ["UShortToInt8","UShortToInt8 function [Windows Shell]","intsafe/UShortToInt8","shell.UShortToInt8"]
 old-location: shell\UShortToInt8.htm
 tech.root: shell
 ms.assetid: c4101f7f-dc67-40a9-a12a-344a03ef50f9

@@ -1,7 +1,8 @@
 ---
 UID: NC:ws2spi.LPWSPEVENTSELECT
 title: LPWSPEVENTSELECT
-description: The **LPWSPEventSelect** function specifies an event object to be associated with the supplied set of network events.helpviewer_keywords: ["LPWSPEVENTSELECT"]
+description: The **LPWSPEventSelect** function specifies an event object to be associated with the supplied set of network events.
+helpviewer_keywords: ["LPWSPEVENTSELECT"]
 ms.date: 9/12/2019
 ms.keywords: LPWSPEVENTSELECT
 targetos: Windows

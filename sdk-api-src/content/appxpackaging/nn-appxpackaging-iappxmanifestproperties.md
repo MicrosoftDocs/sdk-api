@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxManifestProperties
 title: IAppxManifestProperties (appxpackaging.h)
-description: Provides read-only access to the properties section of a package manifest.helpviewer_keywords: ["IAppxManifestProperties","IAppxManifestProperties interface [App packaging and management]","IAppxManifestProperties interface [App packaging and management]","described","appxpackaging/IAppxManifestProperties","appxpkg.iappxmanifestproperties"]
+description: Provides read-only access to the properties section of a package manifest.
+helpviewer_keywords: ["IAppxManifestProperties","IAppxManifestProperties interface [App packaging and management]","IAppxManifestProperties interface [App packaging and management]","described","appxpackaging/IAppxManifestProperties","appxpkg.iappxmanifestproperties"]
 old-location: appxpkg\iappxmanifestproperties.htm
 tech.root: appxpkg
 ms.assetid: 5DA0A805-13D3-4977-8EFB-45E8B51AAF60
