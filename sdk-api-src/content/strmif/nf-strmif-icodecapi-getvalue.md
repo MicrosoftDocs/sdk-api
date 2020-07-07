@@ -12,7 +12,7 @@ f1_keywords:
 - strmif/ICodecAPI.GetValue
 dev_langs:
 - c++
-req.header: strmif.h
+req.header: strmif.h | icodecapi.h on UWP apps
 req.include-header: Dshow.h
 req.target-type: Windows
 req.target-min-winverclnt: Windows XP with SP2 [desktop apps \| UWP apps]
