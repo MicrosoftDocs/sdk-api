@@ -1,6 +1,7 @@
 ---
 UID: NF:rpcproxy.ObjectStublessClient3
 title: ObjectStublessClient3
+tech.root: Rpc
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
@@ -25,18 +26,18 @@ req.type-library:
 req.umdf-ver: 
 req.unicode-ansi: 
 topic_type:
- - apiref
+- apiref
 api_type:
 - DllExport
 api_location:
 - rpcproxy.dll
 - api-ms-win-core-com-midlproxystub-l1-1-0.dll
 api_name:
- - ObjectStublessClient3
+- ObjectStublessClient3
 f1_keywords:
- - rpcproxy/ObjectStublessClient3
+- rpcproxy/ObjectStublessClient3
 dev_langs:
- - c++
+- c++
 ---
 
 ## -description
