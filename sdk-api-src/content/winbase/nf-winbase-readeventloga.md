@@ -182,7 +182,7 @@ A pointer to a variable that receives the number of bytes read by the function.
 
 ### -param pnMinNumberOfBytesNeeded [out]
 
-A pointer to a variable that receives the required size of the <i>lpBuffer</i> buffer. This value is valid only this function returns zero and 
+A pointer to a variable that receives the required size of the <i>lpBuffer</i> buffer. This value is valid only if this function returns zero and 
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a> returns <b>ERROR_INSUFFICIENT_BUFFER</b>.
 
 
