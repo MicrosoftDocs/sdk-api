@@ -1,6 +1,7 @@
 ---
 UID: NF:rpcproxy.ObjectStublessClient4
 title: ObjectStublessClient4
+tech.root: Rpc
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
@@ -27,7 +28,7 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
-- DllExport
+- DllExport
 api_location:
 - rpcproxy.dll
 - api-ms-win-core-com-midlproxystub-l1-1-0.dll
