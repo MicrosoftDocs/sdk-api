@@ -78,7 +78,7 @@ The version-information resource returned by the <a href="https://docs.microsoft
 
 Type: <b>LPCTSTR</b>
 
-The version-information value to be retrieved. The string must consist of names separated by backslashes (\) and it must have one of the following forms. 
+The version-information value to be retrieved. The string must consist of names separated by backslashes (\\) and it must have one of the following forms. 
 
 
 
