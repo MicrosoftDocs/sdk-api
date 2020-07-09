@@ -44,32 +44,22 @@ req.redist:
 ms.custom: 19H1
 ---
 
-# DXGI_DECODE_SWAP_CHAIN_DESC structure
-
-
 ## -description
 
-
-Used with <a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nn-dxgi1_3-idxgifactorymedia">IDXGIFactoryMedia</a>::<a href="https://docs.microsoft.com/windows/desktop/api/dxgi1_3/nf-dxgi1_3-idxgifactorymedia-createdecodeswapchainforcompositionsurfacehandle">CreateDecodeSwapChainForCompositionSurfaceHandle</a> to describe a decode swap chain.
-
+Used with [IDXGIFactoryMedia::CreateDecodeSwapChainForCompositionSurfaceHandle](/windows/win32/api/dxgi1_3/nf-dxgi1_3-idxgifactorymedia-createdecodeswapchainforcompositionsurfacehandle) to describe a decode swap chain.
 
 ## -struct-fields
 
+### -field Flags
 
+Type: <b><a href="/windows/win32/WinProg/windows-data-types">UINT</a></b>
 
+Can be 0, or a combination of **DXGI_SWAP_CHAIN_FLAG_FULLSCREEN_VIDEO** and/or **DXGI_SWAP_CHAIN_FLAG_YUV_VIDEO**. Those named values are members of the <a href="/windows/win32/api/dxgi/ne-dxgi-dxgi_swap_chain_flag">DXGI_SWAP_CHAIN_FLAG</a> enumerated type, and you can combine them by using a bitwise OR operation. The resulting value specifies options for decode swap-chain behavior.
 
 ### -field Flags
 
 Additional flags describing the decode swap chain. This field is reserved and must be set to zero.
 
-
 ## -see-also
 
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
- 
-
- 
-
+<a href="/windows/win32/direct3ddxgi/d3d10-graphics-reference-dxgi-structures">DXGI Structures</a>
