@@ -46,72 +46,29 @@ ms.custom: 19H1
 
 # RAWINPUTHEADER structure
 
-
 ## -description
-
 
 Contains the header information that is part of the raw input data. 
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwType
 
 Type: <b>DWORD</b>
 
-The type of raw input. It can be one of the following values. 
+The type of raw input. It can be one of the following values:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="RIM_TYPEHID"></a><a id="rim_typehid"></a><dl>
-<dt><b>RIM_TYPEHID</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-Raw input comes from some device that is not a keyboard or a mouse.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="RIM_TYPEKEYBOARD"></a><a id="rim_typekeyboard"></a><dl>
-<dt><b>RIM_TYPEKEYBOARD</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-Raw input comes from the keyboard.
-
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="RIM_TYPEMOUSE"></a><a id="rim_typemouse"></a><dl>
-<dt><b>RIM_TYPEMOUSE</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-Raw input comes from the mouse.
-
-</td>
-</tr>
-</table>
- 
-
+| Value                   | Meaning                                                             |
+|-------------------------|---------------------------------------------------------------------|
+| **RIM\_TYPEMOUSE** 0    | Raw input comes from the mouse.                                     |
+| **RIM\_TYPEKEYBOARD** 1 | Raw input comes from the keyboard.                                  |
+| **RIM\_TYPEHID** 2      | Raw input comes from some device that is not a keyboard or a mouse. |
 
 ### -field dwSize
 
 Type: <b>DWORD</b>
 
-The size, in bytes, of the entire input packet of data. This includes <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a> plus possible extra input reports in the <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawhid">RAWHID</a> variable length array. 
-
+The size, in bytes, of the entire input packet of data. This includes [RAWINPUT](ns-winuser-rawinput.md) plus possible extra input reports in the [RAWHID](ns-winuser-rawhid.md) variable length array. 
 
 ### -field hDevice
 
@@ -119,55 +76,32 @@ Type: <b>HANDLE</b>
 
 A handle to the device generating the raw input data. 
 
-
 ### -field wParam
 
 Type: <b>WPARAM</b>
 
-The value passed in the 
-					<i>wParam</i> parameter of the <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a> message. 
-
+The value passed in the <i>wParam</i> parameter of the [WM_INPUT](https://docs.microsoft.com/windows/win32/inputdev/wm-input) message. 
 
 ## -remarks
 
-
-
-To get more information on the device, use <b>hDevice</b> in a call to <a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>.
-
-
-
+To get more information on the device, use <b>hDevice</b> in a call to [GetRawInputDeviceInfo](nf-winuser-getrawinputdeviceinfoa.md).
 
 ## -see-also
 
-
-
-
 <b>Conceptual</b>
 
+[GetRawInputDeviceInfo](nf-winuser-getrawinputdeviceinfoa.md)
 
+[RAWINPUT structure](ns-winuser-rawinput.md)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/nf-winuser-getrawinputdeviceinfoa">GetRawInputDeviceInfo</a>
+[RAWKEYBOARD structure](ns-winuser-rawkeyboard.md)
 
+[RAWMOUSE structure](ns-winuser-rawmouse.md)
 
+[RAWHID structure](ns-winuser-rawhid.md)
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawhid">RAWHID</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rawinput">RAWINPUT</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
-
-
+[Raw Input](https://docs.microsoft.com/windows/win32/inputdev/raw-input)
 
 <b>Reference</b>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-input">WM_INPUT</a>
- 
-
- 
-
+[WM_INPUT](https://docs.microsoft.com/windows/win32/inputdev/wm-input)
