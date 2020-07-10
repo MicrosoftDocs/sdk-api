@@ -187,7 +187,7 @@ A handle to the target window. If <b>NULL</b> it follows the keyboard focus.
 
 ## -remarks
 
-If <b>RIDEV_NOLEGACY</b> is set for a mouse or a keyboard, the system does not generate any <a href="https://docs.microsoft.com/windows/win32/inputdev/mouse-input-notifications">legacy message</a> for that device for the application. For example, if the mouse TLC is set with <b>RIDEV_NOLEGACY</b>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-lbuttondown">WM_LBUTTONDOWN</a> and related legacy mouse messages are not generated. Likewise, if the keyboard TLC is set with <b>RIDEV_NOLEGACY</b>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a> and related <a href="https://docs.microsoft.com/windows/win32/inputdev/mouse-input-notifications">legacy keyboard messages</a> are not generated.
+If <b>RIDEV_NOLEGACY</b> is set for a mouse or a keyboard, the system does not generate any legacy message for that device for the application. For example, if the mouse TLC is set with <b>RIDEV_NOLEGACY</b>, **WM_LBUTTONDOWN** and <a href="https://docs.microsoft.com/windows/win32/inputdev/mouse-input-notifications">related legacy mouse messages</a> are not generated. Likewise, if the keyboard TLC is set with <b>RIDEV_NOLEGACY</b>, **WM_KEYDOWN** and <a href="https://docs.microsoft.com/windows/win32/inputdev/keyboard-input-notifications">related legacy keyboard messages</a> are not generated.
 
 If <b>RIDEV_REMOVE</b> is set and the <b>hwndTarget</b> member is not set to <b>NULL</b>, then [RegisterRawInputDevices](nf-winuser-registerrawinputdevices.md) function will fail.
 
