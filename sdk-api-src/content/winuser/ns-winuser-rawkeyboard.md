@@ -100,7 +100,7 @@ For a **MakeCode** value [HID client mapper driver](https://docs.microsoft.com/w
 
 Older PS/2 keyboards actually transmit Scan Code Set 2 values down the wire from the keyboard to the keyboard port. These values are translated to Scan Code Set 1 by the i8042 port chip. Possible values are listed in [Keyboard Scan Code Specification](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc) (see **Scan Code Table**).
 
-<b>KEYBOARD_OVERRUN_MAKE_CODE</b> is a special **MakeCode** value sent on rollover i.e. when keyboard cannot process so many simultaneous key presses.
+<b>KEYBOARD_OVERRUN_MAKE_CODE</b> is a special **MakeCode** value sent when an invalid or unrecognizable combination of keys is pressed or the number of keys pressed exceeds the limit for this keyboard.
 
 ## -see-also
 
