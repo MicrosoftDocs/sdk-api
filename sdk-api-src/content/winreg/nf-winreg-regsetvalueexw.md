@@ -135,15 +135,15 @@ Note that operations that access certain registry keys are redirected. For more 
 
 ## -see-also
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetkeyvaluea">RegSetKeyValue</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetkeyvaluew">RegSetKeyValue</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexw">RegCreateKeyEx</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regflushkey">RegFlushKey</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexw">RegOpenKeyEx</a>
 
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexw">RegQueryValueEx</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
