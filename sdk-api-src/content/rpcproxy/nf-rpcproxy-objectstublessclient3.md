@@ -28,7 +28,7 @@ req.unicode-ansi:
 topic_type:
 - apiref
 api_type:
-- DllExport
+- DllExport
 api_location:
 - rpcproxy.dll
 - api-ms-win-core-com-midlproxystub-l1-1-0.dll
