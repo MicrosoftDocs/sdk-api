@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.RpcSsGetThreadHandle
 title: RpcSsGetThreadHandle function (rpcndr.h)
-description: The RpcSsGetThreadHandle function returns a thread handle for the stub memory&#8211;management environment.
+description: The RpcSsGetThreadHandle function returns a thread handle for the stub memory–management environment.
 helpviewer_keywords: ["RpcSsGetThreadHandle","RpcSsGetThreadHandle function [RPC]","_rpc_rpcssgetthreadhandle","rpc.rpcssgetthreadhandle","rpcndr/RpcSsGetThreadHandle"]
 old-location: rpc\rpcssgetthreadhandle.htm
 tech.root: Rpc

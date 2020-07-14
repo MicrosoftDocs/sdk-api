@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.GetModWidthSpace
 title: ITextFont2::GetModWidthSpace (tom.h)
-description: Gets whether &#0034;increase width of whitespace&#0034; is active.
+description: Gets whether &quot;increase width of whitespace&quot; is active.
 helpviewer_keywords: ["GetModWidthSpace","GetModWidthSpace method [Windows Controls]","GetModWidthSpace method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetModWidthSpace method","ITextFont2.GetModWidthSpace","ITextFont2::GetModWidthSpace","controls.itextfont2_getmodwidthspace","tom/ITextFont2::GetModWidthSpace"]
 old-location: controls\itextfont2_getmodwidthspace.htm
 tech.root: Controls

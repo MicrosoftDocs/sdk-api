@@ -1,7 +1,7 @@
 ---
 UID: NN:cscobj.IOfflineFilesDirtyInfo
 title: IOfflineFilesDirtyInfo (cscobj.h)
-description: Represents information about an unsynchronized (&#0034;dirty&#0034;) file in the Offline Files cache.
+description: Represents information about an unsynchronized (&quot;dirty&quot;) file in the Offline Files cache.
 helpviewer_keywords: ["IOfflineFilesDirtyInfo","IOfflineFilesDirtyInfo interface [Offline Files]","IOfflineFilesDirtyInfo interface [Offline Files]","described","cscobj/IOfflineFilesDirtyInfo","of.iofflinefilesdirtyinfo"]
 old-location: of\iofflinefilesdirtyinfo.htm
 tech.root: offlinefiles

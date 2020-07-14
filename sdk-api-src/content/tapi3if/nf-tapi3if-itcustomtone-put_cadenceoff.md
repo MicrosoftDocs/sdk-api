@@ -1,7 +1,7 @@
 ---
 UID: NF:tapi3if.ITCustomTone.put_CadenceOff
 title: ITCustomTone::put_CadenceOff (tapi3if.h)
-description: The put_CadenceOff method sets the &#0034;off&#0034; duration of the cadence of the custom tone to generate.
+description: The put_CadenceOff method sets the &quot;off&quot; duration of the cadence of the custom tone to generate.
 helpviewer_keywords: ["ITCustomTone interface [TAPI 2.2]","put_CadenceOff method","ITCustomTone.put_CadenceOff","ITCustomTone::put_CadenceOff","_tapi3_itcustomtone_put_cadenceoff","put_CadenceOff","put_CadenceOff method [TAPI 2.2]","put_CadenceOff method [TAPI 2.2]","ITCustomTone interface","tapi3.itcustomtone_put_cadenceoff","tapi3if/ITCustomTone::put_CadenceOff"]
 old-location: tapi3\itcustomtone_put_cadenceoff.htm
 tech.root: Tapi

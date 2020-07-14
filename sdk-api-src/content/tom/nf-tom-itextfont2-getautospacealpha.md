@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.GetAutospaceAlpha
 title: ITextFont2::GetAutospaceAlpha (tom.h)
-description: Gets the East Asian &#0034;autospace alphabetics&#0034; state.
+description: Gets the East Asian &quot;autospace alphabetics&quot; state.
 helpviewer_keywords: ["GetAutospaceAlpha","GetAutospaceAlpha method [Windows Controls]","GetAutospaceAlpha method [Windows Controls]","ITextFont2 interface","ITextFont2 interface [Windows Controls]","GetAutospaceAlpha method","ITextFont2.GetAutospaceAlpha","ITextFont2::GetAutospaceAlpha","controls.itextfont2_getautospacealpha","tom/ITextFont2::GetAutospaceAlpha"]
 old-location: controls\itextfont2_getautospacealpha.htm
 tech.root: Controls

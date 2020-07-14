@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationcore.DockPosition
 title: DockPosition (uiautomationcore.h)
-description: Contains values that specify the location of a docking window represented by the Dock&#32;control pattern.
+description: Contains values that specify the location of a docking window represented by the Dock control pattern.
 helpviewer_keywords: ["DockPosition","DockPosition enumeration [Windows Accessibility]","DockPosition_Bottom","DockPosition_Fill","DockPosition_Left","DockPosition_None","DockPosition_Right","DockPosition_Top","uiauto.uiauto_dock_pos_enum","uiauto_dock_pos_enum","uiautomationcore/DockPosition","uiautomationcore/DockPosition_Bottom","uiautomationcore/DockPosition_Fill","uiautomationcore/DockPosition_Left","uiautomationcore/DockPosition_None","uiautomationcore/DockPosition_Right","uiautomationcore/DockPosition_Top","winauto.uiauto_dock_pos_enum"]
 old-location: winauto\uiauto_dock_pos_enum.htm
 tech.root: WinAuto

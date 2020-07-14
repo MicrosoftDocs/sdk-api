@@ -1,7 +1,7 @@
 ---
 UID: NN:tssbx.IWTSSBPlugin
 title: IWTSSBPlugin (tssbx.h)
-description: Used to extend the capabilities of Terminal Services Session Broker (TS&#160;Session Broker). Implement this interface when you want to provide a plug-in that overrides the redirection logic of TS&#160;Session Broker.
+description: Used to extend the capabilities of Terminal Services Session Broker (TS Session Broker). Implement this interface when you want to provide a plug-in that overrides the redirection logic of TS Session Broker.
 helpviewer_keywords: ["IWTSSBPlugin","IWTSSBPlugin interface [Remote Desktop Services]","IWTSSBPlugin interface [Remote Desktop Services]","described","termserv.iwtssbplugin","tssbx/IWTSSBPlugin"]
 old-location: termserv\iwtssbplugin.htm
 tech.root: TermServ

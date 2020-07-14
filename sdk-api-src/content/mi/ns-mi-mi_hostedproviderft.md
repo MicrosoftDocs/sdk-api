@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_HostedProviderFT
 title: MI_HostedProviderFT (mi.h)
-description: A support structure used in the MI_HostedProvider structure. Use the functions with the name prefix &#0034;MI_HostedProvider_&#0034; to manipulate these structures.
+description: A support structure used in the MI_HostedProvider structure. Use the functions with the name prefix &quot;MI_HostedProvider_&quot; to manipulate these structures.
 helpviewer_keywords: ["MI_HostedProviderFT","MI_HostedProviderFT structure [Windows Management Infrastructure (MI)]","mi/MI_HostedProviderFT","wmi_v2.mi_hostedproviderft"]
 old-location: wmi_v2\mi_hostedproviderft.htm
 tech.root: wmi_v2

@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MonthCal_GetToday
 title: MonthCal_GetToday macro (commctrl.h)
-description: Retrieves the date information for the date specified as &#0034;today&#0034; for a month calendar control. You can use this macro or send the MCM_GETTODAY message explicitly.
+description: Retrieves the date information for the date specified as &quot;today&quot; for a month calendar control. You can use this macro or send the MCM_GETTODAY message explicitly.
 helpviewer_keywords: ["MonthCal_GetToday","MonthCal_GetToday macro [Windows Controls]","_win32_MonthCal_GetToday","_win32_MonthCal_GetToday_cpp","commctrl/MonthCal_GetToday","controls.MonthCal_GetToday","controls._win32_MonthCal_GetToday"]
 old-location: controls\MonthCal_GetToday.htm
 tech.root: Controls

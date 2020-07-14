@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.TreeView_SetCheckState
 title: TreeView_SetCheckState macro (commctrl.h)
-description: Sets the item's state image to &#0034;checked&#0034; or &#0034;unchecked.&#0034; You can also use the TVM_SETITEM message directly.
+description: Sets the item's state image to &quot;checked&quot; or &quot;unchecked.&quot; You can also use the TVM_SETITEM message directly.
 helpviewer_keywords: ["TreeView_SetCheckState","TreeView_SetCheckState macro [Windows Controls]","_win32_TreeView_SetCheckState","_win32_TreeView_SetCheckState_cpp","commctrl/TreeView_SetCheckState","controls.TreeView_SetCheckState","controls._win32_TreeView_SetCheckState"]
 old-location: controls\TreeView_SetCheckState.htm
 tech.root: Controls

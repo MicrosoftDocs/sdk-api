@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchAddExtension
 title: PathCchAddExtension function (pathcch.h)
-description: Adds a file name extension to a path string.This function differs from PathAddExtension in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
+description: Adds a file name extension to a path string.This function differs from PathAddExtension in that it accepts paths with &quot;\\&quot;, &quot;\\?\&quot; and &quot;\\?\UNC\&quot; prefixes.
 helpviewer_keywords: ["PathCchAddExtension","PathCchAddExtension function [Windows Shell]","pathcch/PathCchAddExtension","shell.PathCchAddExtension"]
 old-location: shell\PathCchAddExtension.htm
 tech.root: shell

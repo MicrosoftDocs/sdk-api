@@ -1,7 +1,7 @@
 ---
 UID: NS:dinputd.DIFFDEVICEATTRIBUTES
 title: DIFFDEVICEATTRIBUTES (dinputd.h)
-description: The DIFFDEVICEATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the OEMForceFeedback registry key.
+description: The DIFFDEVICEATTRIBUTES structure describes the information contained in the &quot;Attributes&quot; value of the OEMForceFeedback registry key.
 helpviewer_keywords: ["*LPDIFFDEVICEATTRIBUTES","DIFFDEVICEATTRIBUTES","DIFFDEVICEATTRIBUTES structure [Human Input Devices]","di_ref_64e91043-878c-49d2-9e1a-b16bb5ed22b6.xml","dinputd/DIFFDEVICEATTRIBUTES","hid.diffdeviceattributes"]
 old-location: hid\diffdeviceattributes.htm
 tech.root: hid

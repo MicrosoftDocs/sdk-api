@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.RpcSmEnableAllocate
 title: RpcSmEnableAllocate function (rpcndr.h)
-description: The RpcSmEnableAllocate function establishes the stub memory&#8211;management environment.
+description: The RpcSmEnableAllocate function establishes the stub memory–management environment.
 helpviewer_keywords: ["RpcSmEnableAllocate","RpcSmEnableAllocate function [RPC]","_rpc_rpcsmenableallocate","rpc.rpcsmenableallocate","rpcndr/RpcSmEnableAllocate"]
 old-location: rpc\rpcsmenableallocate.htm
 tech.root: Rpc

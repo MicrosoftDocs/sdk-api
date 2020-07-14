@@ -1,7 +1,7 @@
 ---
 UID: NF:msopc.IOpcRelationship.GetSourceUri
 title: IOpcRelationship::GetSourceUri (msopc.h)
-description: Gets the URI of the relationship&#160;source.
+description: Gets the URI of the relationship source.
 helpviewer_keywords: ["GetSourceUri","GetSourceUri method [Open Packaging Conventions]","GetSourceUri method [Open Packaging Conventions]","IOpcRelationship interface","IOpcRelationship interface [Open Packaging Conventions]","GetSourceUri method","IOpcRelationship.GetSourceUri","IOpcRelationship::GetSourceUri","msopc/IOpcRelationship::GetSourceUri","opc.iopcrelationship_getsourceuri"]
 old-location: opc\iopcrelationship_getsourceuri.htm
 tech.root: OPC

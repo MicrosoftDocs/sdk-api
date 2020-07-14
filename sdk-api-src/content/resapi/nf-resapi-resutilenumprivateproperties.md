@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilEnumPrivateProperties
 title: ResUtilEnumPrivateProperties function (resapi.h)
-description: Retrieves the names of a cluster object's&#32;private properties. The PRESUTIL_ENUM_PRIVATE_PROPERTIES type defines a pointer to this function.
+description: Retrieves the names of a cluster object's private properties. The PRESUTIL_ENUM_PRIVATE_PROPERTIES type defines a pointer to this function.
 helpviewer_keywords: ["PRESUTIL_ENUM_PRIVATE_PROPERTIES","PRESUTIL_ENUM_PRIVATE_PROPERTIES function [Failover Cluster]","ResUtilEnumPrivateProperties","ResUtilEnumPrivateProperties function [Failover Cluster]","_wolf_resutilenumprivateproperties","mscs.resutilenumprivateproperties","resapi/PRESUTIL_ENUM_PRIVATE_PROPERTIES","resapi/ResUtilEnumPrivateProperties"]
 old-location: mscs\resutilenumprivateproperties.htm
 tech.root: MsCS

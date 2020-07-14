@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_FilterFT
 title: MI_FilterFT (mi.h)
-description: A support structure used in the MI_Filter structure. Use the functions with the name prefix &#0034;MI_Filter_&#0034; to manipulate these structures.
+description: A support structure used in the MI_Filter structure. Use the functions with the name prefix &quot;MI_Filter_&quot; to manipulate these structures.
 helpviewer_keywords: ["MI_FilterFT","MI_FilterFT structure [Windows Management Infrastructure (MI)]","mi/MI_FilterFT","wmi_v2.mi_filterft"]
 old-location: wmi_v2\mi_filterft.htm
 tech.root: wmi_v2

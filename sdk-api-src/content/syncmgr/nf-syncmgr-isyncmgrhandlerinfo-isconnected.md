@@ -1,7 +1,7 @@
 ---
 UID: NF:syncmgr.ISyncMgrHandlerInfo.IsConnected
 title: ISyncMgrHandlerInfo::IsConnected (syncmgr.h)
-description: Gets a value that indicates whether the handler&#8212;typically some type of external device&#8212;is connected.
+description: Gets a value that indicates whether the handler—typically some type of external device—is connected.
 helpviewer_keywords: ["ISyncMgrHandlerInfo interface [Windows Shell]","IsConnected method","ISyncMgrHandlerInfo.IsConnected","ISyncMgrHandlerInfo::IsConnected","IsConnected","IsConnected method [Windows Shell]","IsConnected method [Windows Shell]","ISyncMgrHandlerInfo interface","_shell_ISyncMgrHandlerInfo_IsConnected","shell.ISyncMgrHandlerInfo_IsConnected","syncmgr/ISyncMgrHandlerInfo::IsConnected"]
 old-location: shell\ISyncMgrHandlerInfo_IsConnected.htm
 tech.root: shell

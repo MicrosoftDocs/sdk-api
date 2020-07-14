@@ -1,7 +1,7 @@
 ---
 UID: NN:devicetopology.IAudioLoudness
 title: IAudioLoudness (devicetopology.h)
-description: The IAudioLoudness interface provides access to a &#0034;loudness&#0034; compensation control.
+description: The IAudioLoudness interface provides access to a &quot;loudness&quot; compensation control.
 helpviewer_keywords: ["IAudioLoudness","IAudioLoudness interface [Core Audio]","IAudioLoudness interface [Core Audio]","described","coreaudio.iaudioloudness","devicetopology/IAudioLoudness"]
 old-location: coreaudio\iaudioloudness.htm
 tech.root: CoreAudio

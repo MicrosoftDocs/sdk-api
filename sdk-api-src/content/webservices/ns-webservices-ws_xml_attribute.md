@@ -1,7 +1,7 @@
 ---
 UID: NS:webservices._WS_XML_ATTRIBUTE
 title: WS_XML_ATTRIBUTE (webservices.h)
-description: Represents an attribute (for example, &lt;a:purchaseOrder xmlns:a=&#0034;http://tempuri.org&#0034; id=&#0034;5&#0034;&gt;)
+description: Represents an attribute (for example, &lt;a:purchaseOrder xmlns:a=&quot;http://tempuri.org&quot; id=&quot;5&quot;&gt;)
 helpviewer_keywords: ["WS_XML_ATTRIBUTE","WS_XML_ATTRIBUTE structure [Web Services for Windows]","webservices/WS_XML_ATTRIBUTE","wsw.ws_xml_attribute"]
 old-location: wsw\ws_xml_attribute.htm
 tech.root: wsw

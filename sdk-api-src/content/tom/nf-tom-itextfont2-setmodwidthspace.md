@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.SetModWidthSpace
 title: ITextFont2::SetModWidthSpace (tom.h)
-description: Sets whether &#0034;increase width of whitespace&#0034; is active.
+description: Sets whether &quot;increase width of whitespace&quot; is active.
 helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetModWidthSpace method","ITextFont2.SetModWidthSpace","ITextFont2::SetModWidthSpace","SetModWidthSpace","SetModWidthSpace method [Windows Controls]","SetModWidthSpace method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setmodwidthspace","tom/ITextFont2::SetModWidthSpace"]
 old-location: controls\itextfont2_setmodwidthspace.htm
 tech.root: Controls

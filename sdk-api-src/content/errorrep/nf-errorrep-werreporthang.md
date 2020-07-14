@@ -1,7 +1,7 @@
 ---
 UID: NF:errorrep.WerReportHang
 title: WerReportHang function (errorrep.h)
-description: Initiates &#0034;no response&#0034; reporting on the specified window.
+description: Initiates &quot;no response&quot; reporting on the specified window.
 helpviewer_keywords: ["WerReportHang","WerReportHang function [Windows Error Reporting]","errorrep/WerReportHang","wer.werreporthang"]
 old-location: wer\werreporthang.htm
 tech.root: wer

@@ -1,7 +1,7 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderUserArray.GetAccountOptions
 title: ICredentialProviderUserArray::GetAccountOptions (credentialprovider.h)
-description: Retrieves a value that indicates whether the &#0034;Other user&#0034; tile for local or Microsoft accounts is shown in the logon or credential UI.
+description: Retrieves a value that indicates whether the &quot;Other user&quot; tile for local or Microsoft accounts is shown in the logon or credential UI.
 helpviewer_keywords: ["GetAccountOptions","GetAccountOptions method [Windows Shell]","GetAccountOptions method [Windows Shell]","ICredentialProviderUserArray interface","ICredentialProviderUserArray interface [Windows Shell]","GetAccountOptions method","ICredentialProviderUserArray.GetAccountOptions","ICredentialProviderUserArray::GetAccountOptions","credentialprovider/ICredentialProviderUserArray::GetAccountOptions","shell.ICredentialProviderUserArray_GetAccountOptions","shell.ICredentialProviderUserArray_GetUserEnum"]
 old-location: shell\ICredentialProviderUserArray_GetAccountOptions.htm
 tech.root: shell

@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ClassFT
 title: MI_ClassFT (mi.h)
-description: A support structure used in the MI_Class structure. Use the functions with the name prefix &#0034;MI_Class_&#0034; to manipulate these structures.
+description: A support structure used in the MI_Class structure. Use the functions with the name prefix &quot;MI_Class_&quot; to manipulate these structures.
 helpviewer_keywords: ["MI_ClassFT","MI_ClassFT structure [Windows Management Infrastructure (MI)]","mi/MI_ClassFT","wmi_v2.mi_classft"]
 old-location: wmi_v2\mi_classft.htm
 tech.root: wmi_v2

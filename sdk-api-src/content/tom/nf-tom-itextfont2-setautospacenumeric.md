@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.SetAutospaceNumeric
 title: ITextFont2::SetAutospaceNumeric (tom.h)
-description: Sets the East Asian &#0034;autospace numeric&#0034; state.
+description: Sets the East Asian &quot;autospace numeric&quot; state.
 helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetAutospaceNumeric method","ITextFont2.SetAutospaceNumeric","ITextFont2::SetAutospaceNumeric","SetAutospaceNumeric","SetAutospaceNumeric method [Windows Controls]","SetAutospaceNumeric method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setautospacenumeric","tom/ITextFont2::SetAutospaceNumeric"]
 old-location: controls\itextfont2_setautospacenumeric.htm
 tech.root: Controls

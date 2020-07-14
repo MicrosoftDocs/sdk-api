@@ -1,7 +1,7 @@
 ---
 UID: NE:uiautomationcore.ToggleState
 title: ToggleState (uiautomationcore.h)
-description: Contains values that specify the toggle state of a Microsoft UI Automation element that implements the Toggle&#32;control pattern.
+description: Contains values that specify the toggle state of a Microsoft UI Automation element that implements the Toggle control pattern.
 helpviewer_keywords: ["ToggleState","ToggleState enumeration [Windows Accessibility]","ToggleState_Indeterminate","ToggleState_Off","ToggleState_On","uiauto.uiauto_ToggleState","uiauto_ToggleState","uiautomationcore/ToggleState","uiautomationcore/ToggleState_Indeterminate","uiautomationcore/ToggleState_Off","uiautomationcore/ToggleState_On","winauto.uiauto_ToggleState"]
 old-location: winauto\uiauto_ToggleState.htm
 tech.root: WinAuto

@@ -1,7 +1,7 @@
 ---
 UID: NS:dinputd.DIEFFECTATTRIBUTES
 title: DIEFFECTATTRIBUTES (dinputd.h)
-description: The DIEFFECTATTRIBUTES structure describes the information contained in the &#0034;Attributes&#0034; value of the registry key for each effect that is supported by a force-feedback device.
+description: The DIEFFECTATTRIBUTES structure describes the information contained in the &quot;Attributes&quot; value of the registry key for each effect that is supported by a force-feedback device.
 helpviewer_keywords: ["*LPDIEFFECTATTRIBUTES","DIEFFECTATTRIBUTES","DIEFFECTATTRIBUTES structure [Human Input Devices]","di_ref_49296796-41c7-4b8f-8bc5-59bdeb4df29e.xml","dinputd/DIEFFECTATTRIBUTES","hid.dieffectattributes"]
 old-location: hid\dieffectattributes.htm
 tech.root: hid

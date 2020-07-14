@@ -1,7 +1,7 @@
 ---
 UID: NF:p2p.PeerCollabSignin
 title: PeerCollabSignin function (p2p.h)
-description: Signs the peer into a hosted Internet (serverless presence) or subnet (&#0034;People Near Me&#0034;) peer collaboration network presence provider.
+description: Signs the peer into a hosted Internet (serverless presence) or subnet (&quot;People Near Me&quot;) peer collaboration network presence provider.
 helpviewer_keywords: ["PeerCollabSignin","PeerCollabSignin function [Peer Networking]","p2p.peercollabsignin","p2p/PeerCollabSignin"]
 old-location: p2p\peercollabsignin.htm
 tech.root: P2PSdk

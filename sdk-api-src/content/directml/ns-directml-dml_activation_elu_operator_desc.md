@@ -1,7 +1,7 @@
 ---
 UID: NS:directml.DML_ACTIVATION_ELU_OPERATOR_DESC
 title: DML_ACTIVATION_ELU_OPERATOR_DESC
-description: Describes a DirectML operator that performs an exponential linear unit (ELU) activation function on every element in the input, f(x) = if x >= 0 then x else (exp(x) - 1) * alpha.
+description: Describes a DirectML operator that performs an exponential linear unit (ELU) activation function on every element in the input, f(x) = if x &gt;= 0 then x else (exp(x) - 1) * alpha.
 helpviewer_keywords: ["DML_ACTIVATION_ELU_OPERATOR_DESC","DML_ACTIVATION_ELU_OPERATOR_DESC structure","direct3d12.dml_activation_elu_operator_desc","directml/DML_ACTIVATION_ELU_OPERATOR_DESC"]
 old-location: direct3d12\dml_activation_elu_operator_desc.htm
 tech.root: direct3d12

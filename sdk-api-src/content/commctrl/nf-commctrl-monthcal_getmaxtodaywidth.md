@@ -1,7 +1,7 @@
 ---
 UID: NF:commctrl.MonthCal_GetMaxTodayWidth
 title: MonthCal_GetMaxTodayWidth macro (commctrl.h)
-description: Retrieves the maximum width of the &#0034;today&#0034; string in a month calendar control. This includes the label text and the date text. You can use this macro or send the MCM_GETMAXTODAYWIDTH message explicitly.
+description: Retrieves the maximum width of the &quot;today&quot; string in a month calendar control. This includes the label text and the date text. You can use this macro or send the MCM_GETMAXTODAYWIDTH message explicitly.
 helpviewer_keywords: ["MonthCal_GetMaxTodayWidth","MonthCal_GetMaxTodayWidth macro [Windows Controls]","_win32_MonthCal_GetMaxTodayWidth","_win32_MonthCal_GetMaxTodayWidth_cpp","commctrl/MonthCal_GetMaxTodayWidth","controls.MonthCal_GetMaxTodayWidth","controls._win32_MonthCal_GetMaxTodayWidth"]
 old-location: controls\MonthCal_GetMaxTodayWidth.htm
 tech.root: Controls

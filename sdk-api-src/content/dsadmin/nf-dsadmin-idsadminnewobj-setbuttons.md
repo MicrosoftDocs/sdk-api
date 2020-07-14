@@ -1,7 +1,7 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObj.SetButtons
 title: IDsAdminNewObj::SetButtons (dsadmin.h)
-description: The IDsAdminNewObj::SetButtons method enables or disables the &#0034;Next&#0034; command button in the wizard for a specific page.
+description: The IDsAdminNewObj::SetButtons method enables or disables the &quot;Next&quot; command button in the wizard for a specific page.
 helpviewer_keywords: ["IDsAdminNewObj interface [Active Directory]","SetButtons method","IDsAdminNewObj.SetButtons","IDsAdminNewObj::SetButtons","SetButtons","SetButtons method [Active Directory]","SetButtons method [Active Directory]","IDsAdminNewObj interface","_glines_idsadminnewobj_setbuttons","ad.idsadminnewobj__setbuttons","ad.idsadminnewobj_setbuttons","dsadmin/IDsAdminNewObj::SetButtons"]
 old-location: ad\idsadminnewobj_setbuttons.htm
 tech.root: ad

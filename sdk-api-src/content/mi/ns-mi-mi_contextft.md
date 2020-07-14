@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_ContextFT
 title: MI_ContextFT (mi.h)
-description: A support structure used in the MI_Context structure. Use the functions with the name prefix &#0034;MI_Context_&#0034; to manipulate these structures.
+description: A support structure used in the MI_Context structure. Use the functions with the name prefix &quot;MI_Context_&quot; to manipulate these structures.
 helpviewer_keywords: ["MI_ContextFT","MI_ContextFT structure [Windows Management Infrastructure (MI)]","mi/MI_ContextFT","wmi_v2.mi_contextft"]
 old-location: wmi_v2\mi_contextft.htm
 tech.root: wmi_v2

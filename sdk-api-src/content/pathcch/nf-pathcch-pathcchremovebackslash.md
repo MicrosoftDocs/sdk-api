@@ -1,7 +1,7 @@
 ---
 UID: NF:pathcch.PathCchRemoveBackslash
 title: PathCchRemoveBackslash function (pathcch.h)
-description: Removes the trailing backslash from the end of a path string.This function differs from PathRemoveBackslash in that it accepts paths with &#0034;\\&#0034;, &#0034;\\?\&#0034; and &#0034;\\?\UNC\&#0034; prefixes.
+description: Removes the trailing backslash from the end of a path string.This function differs from PathRemoveBackslash in that it accepts paths with &quot;\\&quot;, &quot;\\?\&quot; and &quot;\\?\UNC\&quot; prefixes.
 helpviewer_keywords: ["PathCchRemoveBackslash","PathCchRemoveBackslash function [Windows Shell]","pathcch/PathCchRemoveBackslash","shell.PathCchRemoveBackslash"]
 old-location: shell\PathCchRemoveBackslash.htm
 tech.root: shell

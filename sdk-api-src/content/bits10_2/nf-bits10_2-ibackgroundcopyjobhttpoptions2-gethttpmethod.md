@@ -1,7 +1,7 @@
 ---
 UID: NF:bits10_2.IBackgroundCopyJobHttpOptions2.GetHttpMethod
 title: IBackgroundCopyJobHttpOptions2::GetHttpMethod (bits10_2.h)
-description: Retrieves a wide string containing the HTTP method name for the BITS transfer. By default, download jobs will be &#0034;GET&#0034;, and upload and upload-reply jobs will be &#0034;BITS_POST&#0034;.
+description: Retrieves a wide string containing the HTTP method name for the BITS transfer. By default, download jobs will be &quot;GET&quot;, and upload and upload-reply jobs will be &quot;BITS_POST&quot;.
 helpviewer_keywords: ["GetHttpMethod","GetHttpMethod method [BITS]","GetHttpMethod method [BITS]","IBackgroundCopyJobHttpOptions2 interface","IBackgroundCopyJobHttpOptions2 interface [BITS]","GetHttpMethod method","IBackgroundCopyJobHttpOptions2.GetHttpMethod","IBackgroundCopyJobHttpOptions2::GetHttpMethod","bits.ibackgroundcopyjobhttpoptions2_gethttpmethod","bits10_2/IBackgroundCopyJobHttpOptions2::GetHttpMethod"]
 old-location: bits\ibackgroundcopyjobhttpoptions2_gethttpmethod.htm
 tech.root: Bits

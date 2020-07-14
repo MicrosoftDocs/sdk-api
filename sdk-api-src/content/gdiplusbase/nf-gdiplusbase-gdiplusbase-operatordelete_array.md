@@ -1,7 +1,7 @@
 ---
 UID: NF:gdiplusbase.GdiplusBase.operator-delete[]
 title: GdiplusBase::operator delete[]
-description: The xref rid=&#0034;_gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_&#0034; qualify=&#0034;0&#0034;/&gt; method deallocates memory for an array of Windows GDI+ objects.
+description: The xref rid=&quot;_gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_&quot; qualify=&quot;0&quot;/&gt; method deallocates memory for an array of Windows GDI+ objects.
 helpviewer_keywords: ["GdiplusBase class [GDI+]","operator delete[] method","GdiplusBase.operator delete[]","GdiplusBase::operator delete[]","_gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_","gdiplus._gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_","operator delete[]","operator delete[] method [GDI+]","operator delete[] method [GDI+]","GdiplusBase class"]
 old-location: gdiplus\_gdiplus_CLASS_GdiplusBase_operator_delete_bracket_in_pVoid_.htm
 tech.root: gdiplus

@@ -1,7 +1,7 @@
 ---
 UID: NS:usp10.tag_SCRIPT_ANALYSIS
 title: SCRIPT_ANALYSIS (usp10.h)
-description: Contains a portion of a Unicode string, that is, an &#0034;item&#0034;.
+description: Contains a portion of a Unicode string, that is, an &quot;item&quot;.
 helpviewer_keywords: ["FALSE","SCRIPT_ANALYSIS","SCRIPT_ANALYSIS structure [Internationalization for Windows Applications]","TRUE","_win32_SCRIPT_ANALYSIS_str","intl.script_analysis","usp10/SCRIPT_ANALYSIS"]
 old-location: intl\script_analysis.htm
 tech.root: Intl

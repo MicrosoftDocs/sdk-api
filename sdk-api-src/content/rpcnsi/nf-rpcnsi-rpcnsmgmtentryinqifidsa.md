@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryInqIfIdsA
 title: RpcNsMgmtEntryInqIfIdsA function (rpcnsi.h)
-description: The RpcNsMgmtEntryInqIfIds function returns the list of interfaces exported to a name service&#8211;database entry.
+description: The RpcNsMgmtEntryInqIfIds function returns the list of interfaces exported to a name service–database entry.
 helpviewer_keywords: ["RpcNsMgmtEntryInqIfIds","RpcNsMgmtEntryInqIfIds function [RPC]","RpcNsMgmtEntryInqIfIdsA","RpcNsMgmtEntryInqIfIdsW","_rpc_rpcnsmgmtentryinqifids","rpc.rpcnsmgmtentryinqifids","rpcnsi/RpcNsMgmtEntryInqIfIds","rpcnsi/RpcNsMgmtEntryInqIfIdsA","rpcnsi/RpcNsMgmtEntryInqIfIdsW"]
 old-location: rpc\rpcnsmgmtentryinqifids.htm
 tech.root: Rpc

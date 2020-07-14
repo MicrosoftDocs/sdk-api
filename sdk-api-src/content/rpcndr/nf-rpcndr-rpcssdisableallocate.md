@@ -1,7 +1,7 @@
 ---
 UID: NF:rpcndr.RpcSsDisableAllocate
 title: RpcSsDisableAllocate function (rpcndr.h)
-description: The RpcSsDisableAllocate function frees resources and memory within the stub memory&#8211;management environment.
+description: The RpcSsDisableAllocate function frees resources and memory within the stub memory–management environment.
 helpviewer_keywords: ["RpcSsDisableAllocate","RpcSsDisableAllocate function [RPC]","_rpc_rpcssdisableallocate","rpc.rpcssdisableallocate","rpcndr/RpcSsDisableAllocate"]
 old-location: rpc\rpcssdisableallocate.htm
 tech.root: Rpc

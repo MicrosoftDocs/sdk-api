@@ -1,7 +1,7 @@
 ---
 UID: NF:resapi.ResUtilGetCoreClusterResourcesEx
 title: ResUtilGetCoreClusterResourcesEx function (resapi.h)
-description: Returns handles to the core, &#32;Network Name, IP Address, and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX type defines a pointer to this function.
+description: Returns handles to the core,  Network Name, IP Address, and quorum resources. The PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX type defines a pointer to this function.
 helpviewer_keywords: ["PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX","PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX function [Failover Cluster]","ResUtilGetCoreClusterResourcesEx","ResUtilGetCoreClusterResourcesEx function [Failover Cluster]","mscs.resutilgetcoreclusterresourcesex","resapi/PRESUTIL_GET_CORE_CLUSTER_RESOURCES_EX","resapi/ResUtilGetCoreClusterResourcesEx"]
 old-location: mscs\resutilgetcoreclusterresourcesex.htm
 tech.root: MsCS

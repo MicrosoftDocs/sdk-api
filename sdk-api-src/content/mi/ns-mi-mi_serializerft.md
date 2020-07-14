@@ -1,7 +1,7 @@
 ---
 UID: NS:mi._MI_SerializerFT
 title: MI_SerializerFT (mi.h)
-description: A support structure used in the MI_ClientFT_V1 structure. Use the functions with the name prefix &#0034;MI_Serializer_&#0034; to manipulate these structures.
+description: A support structure used in the MI_ClientFT_V1 structure. Use the functions with the name prefix &quot;MI_Serializer_&quot; to manipulate these structures.
 helpviewer_keywords: ["MI_SerializerFT","MI_SerializerFT structure [Windows Management Infrastructure (MI)]","mi/MI_SerializerFT","wmi_v2.mi_serializerft"]
 old-location: wmi_v2\mi_serializerft.htm
 tech.root: wmi_v2

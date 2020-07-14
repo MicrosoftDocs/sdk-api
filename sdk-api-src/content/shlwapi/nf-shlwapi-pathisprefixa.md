@@ -1,7 +1,7 @@
 ---
 UID: NF:shlwapi.PathIsPrefixA
 title: PathIsPrefixA function (shlwapi.h)
-description: Searches a path to determine if it contains a valid prefix of the type passed by pszPrefix. A prefix is one of these types:\_&#0034;C:\\&#0034;, &#0034;.&#0034;, &#0034;..&#0034;, &#0034;..\\&#0034;.
+description: Searches a path to determine if it contains a valid prefix of the type passed by pszPrefix. A prefix is one of these types:\_&quot;C:\\&quot;, &quot;.&quot;, &quot;..&quot;, &quot;..\\&quot;.
 helpviewer_keywords: ["PathIsPrefix","PathIsPrefix function [Windows Shell]","PathIsPrefixA","PathIsPrefixW","_win32_PathIsPrefix","shell.PathIsPrefix","shlwapi/PathIsPrefix","shlwapi/PathIsPrefixA","shlwapi/PathIsPrefixW"]
 old-location: shell\PathIsPrefix.htm
 tech.root: shell

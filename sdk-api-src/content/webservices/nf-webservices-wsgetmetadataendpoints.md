@@ -1,7 +1,7 @@
 ---
 UID: NF:webservices.WsGetMetadataEndpoints
 title: WsGetMetadataEndpoints function (webservices.h)
-description: Returns the &#0034;Endpoints&#0034; defined within the metadata object documents.
+description: Returns the &quot;Endpoints&quot; defined within the metadata object documents.
 helpviewer_keywords: ["WsGetMetadataEndpoints","WsGetMetadataEndpoints function [Web Services for Windows]","webservices/WsGetMetadataEndpoints","wsw.wsgetmetadataendpoints"]
 old-location: wsw\wsgetmetadataendpoints.htm
 tech.root: wsw

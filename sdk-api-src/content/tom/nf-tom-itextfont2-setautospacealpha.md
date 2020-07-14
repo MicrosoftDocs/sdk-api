@@ -1,7 +1,7 @@
 ---
 UID: NF:tom.ITextFont2.SetAutospaceAlpha
 title: ITextFont2::SetAutospaceAlpha (tom.h)
-description: Sets the East Asian &#0034;autospace alpha&#0034; state.
+description: Sets the East Asian &quot;autospace alpha&quot; state.
 helpviewer_keywords: ["ITextFont2 interface [Windows Controls]","SetAutospaceAlpha method","ITextFont2.SetAutospaceAlpha","ITextFont2::SetAutospaceAlpha","SetAutospaceAlpha","SetAutospaceAlpha method [Windows Controls]","SetAutospaceAlpha method [Windows Controls]","ITextFont2 interface","controls.itextfont2_setautospacealpha","tom/ITextFont2::SetAutospaceAlpha"]
 old-location: controls\itextfont2_setautospacealpha.htm
 tech.root: Controls

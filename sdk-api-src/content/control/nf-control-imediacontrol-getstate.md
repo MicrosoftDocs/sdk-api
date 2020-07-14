@@ -1,7 +1,7 @@
 ---
 UID: NF:control.IMediaControl.GetState
 title: IMediaControl::GetState (control.h)
-description: The GetState method retrieves the state of the filter graph&#8212;paused, running, or stopped.
+description: The GetState method retrieves the state of the filter graph—paused, running, or stopped.
 helpviewer_keywords: ["GetState","GetState method [DirectShow]","GetState method [DirectShow]","IMediaControl interface","IMediaControl interface [DirectShow]","GetState method","IMediaControl.GetState","IMediaControl::GetState","IMediaControlGetState","control/IMediaControl::GetState","dshow.imediacontrol_getstate"]
 old-location: dshow\imediacontrol_getstate.htm
 tech.root: DirectShow

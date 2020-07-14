@@ -1,7 +1,7 @@
 ---
 UID: NN:photoacquire.IUserInputString
 title: IUserInputString (photoacquire.h)
-description: The IUserInputString interface represents the object created when asking the user for a string&#8212;for example, when obtaining the name of a tag.
+description: The IUserInputString interface represents the object created when asking the user for a string—for example, when obtaining the name of a tag.
 helpviewer_keywords: ["IUserInputString","IUserInputString interface [Picture Acquisition]","IUserInputString interface [Picture Acquisition]","described","IUserInputStringInterface","photoacquire/IUserInputString","picacq.iuserinputstring"]
 old-location: picacq\iuserinputstring.htm
 tech.root: acquisition
