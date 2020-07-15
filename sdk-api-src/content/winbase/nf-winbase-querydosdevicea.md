@@ -80,7 +80,7 @@ MS-DOS device names are stored as junctions in the object namespace. The code th
 ### -param lpDeviceName [in, optional]
 
 An MS-DOS device name string specifying the target of the query. The device name cannot have a trailing 
-       backslash; for example, use "C:", not "C:\".
+       backslash; for example, use "C:", not "C:\\".
 
 This parameter can be <b>NULL</b>. In that case, the 
        <b>QueryDosDevice</b> function will store a list of all 
