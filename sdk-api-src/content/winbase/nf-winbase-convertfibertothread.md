@@ -15,7 +15,7 @@ dev_langs:
 req.header: winbase.h
 req.include-header: Windows.h
 req.target-type: Windows
-req.target-min-winverclnt: Windows XP [desktop apps \| UWP apps]
+req.target-min-winverclnt: Windows Vista [desktop apps \| UWP apps]
 req.target-min-winversvr: Windows Server 2003 [desktop apps \| UWP apps]
 req.kmdf-ver: 
 req.umdf-ver: 
@@ -84,7 +84,7 @@ If the function fails, the return value is zero. To get extended error informati
 The function releases the resources allocated by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-convertthreadtofiber">ConvertThreadToFiber</a> function. After calling this function, you cannot call any of the fiber functions from the thread.
 
-To compile an application that uses this function, define _WIN32_WINNT as 0x0400 or later. For more information, see 
+To compile an application that uses this function, define \_WIN32_WINNT as \_WIN32_WINNT_WS03 (0x0502) or later. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/WinProg/using-the-windows-headers">Using the Windows Headers</a>.
 
 
