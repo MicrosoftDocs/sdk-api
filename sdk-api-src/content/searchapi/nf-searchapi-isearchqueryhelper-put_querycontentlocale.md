@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.put_QueryContentLocale
 title: ISearchQueryHelper::put_QueryContentLocale (searchapi.h)
-description: Sets the language code identifier (LCID) of the query.helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QueryContentLocale method","ISearchQueryHelper.put_QueryContentLocale","ISearchQueryHelper::put_QueryContentLocale","_search_ISearchQueryHelper_put_QueryContentLocale","put_QueryContentLocale","put_QueryContentLocale method [search]","put_QueryContentLocale method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QueryContentLocale","searchapi/ISearchQueryHelper::put_QueryContentLocale"]
+description: Sets the language code identifier (LCID) of the query.
+helpviewer_keywords: ["ISearchQueryHelper interface [search]","put_QueryContentLocale method","ISearchQueryHelper.put_QueryContentLocale","ISearchQueryHelper::put_QueryContentLocale","_search_ISearchQueryHelper_put_QueryContentLocale","put_QueryContentLocale","put_QueryContentLocale method [search]","put_QueryContentLocale method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_put_QueryContentLocale","searchapi/ISearchQueryHelper::put_QueryContentLocale"]
 old-location: search\_search_ISearchQueryHelper_put_QueryContentLocale.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\put_querycontentlocale.htm
@@ -85,10 +86,7 @@ When the <a href="https://docs.microsoft.com/windows/desktop/api/filter/nn-filte
 
 The locale is used for word breaking, normalizing, and stemming the string values that are extracted from the query string. If this method is not used (so the content locale is not set), <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-get_querycontentlocale">ISearchQueryHelper::get_QueryContentLocale</a> returns the active input locale.
 
-The DSearch code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
-
-
-
+Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-dsearch">DSearch code sample</a> to see how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
 
 ## -see-also
 

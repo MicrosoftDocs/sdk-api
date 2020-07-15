@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.get_Count
 title: ITuningSpaceContainer::get_Count (tuner.h)
-description: The get_Count method retrieves the number of tuning spaces currently available on the local system.helpviewer_keywords: ["ITuningSpaceContainer interface [Microsoft TV Technologies]","get_Count method","ITuningSpaceContainer.get_Count","ITuningSpaceContainer::get_Count","ITuningSpaceContainerget_Count","get_Count","get_Count method [Microsoft TV Technologies]","get_Count method [Microsoft TV Technologies]","ITuningSpaceContainer interface","mstv.ituningspacecontainer_get_count","tuner/ITuningSpaceContainer::get_Count"]
+description: The get_Count method retrieves the number of tuning spaces currently available on the local system.
+helpviewer_keywords: ["ITuningSpaceContainer interface [Microsoft TV Technologies]","get_Count method","ITuningSpaceContainer.get_Count","ITuningSpaceContainer::get_Count","ITuningSpaceContainerget_Count","get_Count","get_Count method [Microsoft TV Technologies]","get_Count method [Microsoft TV Technologies]","ITuningSpaceContainer interface","mstv.ituningspacecontainer_get_count","tuner/ITuningSpaceContainer::get_Count"]
 old-location: mstv\ituningspacecontainer_get_count.htm
 tech.root: mstv
 ms.assetid: 9dfa7700-fef5-4e97-855b-0670cc380af0

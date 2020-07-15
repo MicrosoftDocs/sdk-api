@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethods.get_Item
 title: IFaxInboundRoutingMethods::get_Item (faxcomex.h)
-description: The IFaxInboundRoutingMethods::get_Item method returns a IFaxInboundRoutingMethod object from the IFaxInboundRoutingMethods collection.helpviewer_keywords: ["IFaxInboundRoutingMethods interface [Fax Service]","get_Item method","IFaxInboundRoutingMethods.get_Item","IFaxInboundRoutingMethods::get_Item","_mfax_faxinboundroutingmethods.item_cpp","fax._mfax_faxinboundroutingmethods_item_cpp","faxcomex/IFaxInboundRoutingMethods::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxInboundRoutingMethods interface"]
+description: The IFaxInboundRoutingMethods::get_Item method returns a IFaxInboundRoutingMethod object from the IFaxInboundRoutingMethods collection.
+helpviewer_keywords: ["IFaxInboundRoutingMethods interface [Fax Service]","get_Item method","IFaxInboundRoutingMethods.get_Item","IFaxInboundRoutingMethods::get_Item","_mfax_faxinboundroutingmethods.item_cpp","fax._mfax_faxinboundroutingmethods_item_cpp","faxcomex/IFaxInboundRoutingMethods::get_Item","get_Item","get_Item method [Fax Service]","get_Item method [Fax Service]","IFaxInboundRoutingMethods interface"]
 old-location: fax\_mfax_faxinboundroutingmethods_item_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_6m5p_cpp.htm

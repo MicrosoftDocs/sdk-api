@@ -1,7 +1,8 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.Cancel
 title: IAsyncInfo::Cancel (asyncinfo.h)
-description: Requests cancellation of the asynchronous operation already in progress.helpviewer_keywords: ["Cancel","Cancel method [Windows Runtime]","Cancel method [Windows Runtime]","IAsyncInfo interface","IAsyncInfo interface [Windows Runtime]","Cancel method","IAsyncInfo.Cancel","IAsyncInfo::Cancel","asyncinfo/IAsyncInfo::Cancel","winrt.iasyncinfo_cancel"]
+description: Requests cancellation of the asynchronous operation already in progress.
+helpviewer_keywords: ["Cancel","Cancel method [Windows Runtime]","Cancel method [Windows Runtime]","IAsyncInfo interface","IAsyncInfo interface [Windows Runtime]","Cancel method","IAsyncInfo.Cancel","IAsyncInfo::Cancel","asyncinfo/IAsyncInfo::Cancel","winrt.iasyncinfo_cancel"]
 old-location: winrt\iasyncinfo_cancel.htm
 tech.root: WinRT
 ms.assetid: f011c6e3-dd8f-4f77-8f06-be2a3fb1e0f0

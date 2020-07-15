@@ -1,7 +1,8 @@
 ---
 UID: NE:tokenbinding.TOKENBINDING_TYPE
 title: TOKENBINDING_TYPE (tokenbinding.h)
-description: Specifies the possible types for a token binding.helpviewer_keywords: ["TOKENBINDING_TYPE","TOKENBINDING_TYPE enumeration [Security]","TOKENBINDING_TYPE_PROVIDED","TOKENBINDING_TYPE_REFERRED","security.tokenbinding_type","tokenbinding/TOKENBINDING_TYPE","tokenbinding/TOKENBINDING_TYPE_PROVIDED","tokenbinding/TOKENBINDING_TYPE_REFERRED"]
+description: Specifies the possible types for a token binding.
+helpviewer_keywords: ["TOKENBINDING_TYPE","TOKENBINDING_TYPE enumeration [Security]","TOKENBINDING_TYPE_PROVIDED","TOKENBINDING_TYPE_REFERRED","security.tokenbinding_type","tokenbinding/TOKENBINDING_TYPE","tokenbinding/TOKENBINDING_TYPE_PROVIDED","tokenbinding/TOKENBINDING_TYPE_REFERRED"]
 old-location: security\tokenbinding_type.htm
 tech.root: SecCNG
 ms.assetid: 7F126B3E-1033-4C0A-AD5F-0FAD951C85C6

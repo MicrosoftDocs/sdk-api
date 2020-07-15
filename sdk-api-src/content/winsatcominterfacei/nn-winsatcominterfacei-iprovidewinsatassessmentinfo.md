@@ -1,7 +1,8 @@
 ---
 UID: NN:winsatcominterfacei.IProvideWinSATAssessmentInfo
 title: IProvideWinSATAssessmentInfo (winsatcominterfacei.h)
-description: Gets summary information for a subcomponent of the assessment, for example, its score.helpviewer_keywords: ["IProvideWinSATAssessmentInfo","IProvideWinSATAssessmentInfo interface [WinSAT]","IProvideWinSATAssessmentInfo interface [WinSAT]","described","winsat.iprovidewinsatassessmentinfo","winsatcominterfacei/IProvideWinSATAssessmentInfo"]
+description: Gets summary information for a subcomponent of the assessment, for example, its score.
+helpviewer_keywords: ["IProvideWinSATAssessmentInfo","IProvideWinSATAssessmentInfo interface [WinSAT]","IProvideWinSATAssessmentInfo interface [WinSAT]","described","winsat.iprovidewinsatassessmentinfo","winsatcominterfacei/IProvideWinSATAssessmentInfo"]
 old-location: winsat\iprovidewinsatassessmentinfo.htm
 tech.root: WinSAT
 ms.assetid: 90036c75-6e9e-4d25-804b-02c423616de1

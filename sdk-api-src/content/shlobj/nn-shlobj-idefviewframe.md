@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj.IDefViewFrame
 title: IDefViewFrame (shlobj.h)
-description: Used only for its IUnknown functionality. It has no methods of its own.helpviewer_keywords: ["IDefViewFrame","IDefViewFrame interface [Windows Shell]","IDefViewFrame interface [Windows Shell]","described","_win32_IDefViewFrame","shell.IDefViewFrame","shlobj/IDefViewFrame"]
+description: Used only for its IUnknown functionality. It has no methods of its own.
+helpviewer_keywords: ["IDefViewFrame","IDefViewFrame interface [Windows Shell]","IDefViewFrame interface [Windows Shell]","described","_win32_IDefViewFrame","shell.IDefViewFrame","shlobj/IDefViewFrame"]
 old-location: shell\IDefViewFrame.htm
 tech.root: shell
 ms.assetid: 59dffa62-a26a-4dfa-95be-6b838a2d2903

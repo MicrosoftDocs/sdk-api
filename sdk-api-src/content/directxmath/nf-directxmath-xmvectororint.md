@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorOrInt
 title: XMVectorOrInt function (directxmath.h)
-description: Computes the logical OR of two vectors, treating each component as an unsigned integer.helpviewer_keywords: ["Use DirectX..XMVectorOrInt","XMVectorOrInt","XMVectorOrInt method [DirectX Math Support APIs]","dxmath.xmvectororint"]
+description: Computes the logical OR of two vectors, treating each component as an unsigned integer.
+helpviewer_keywords: ["Use DirectX..XMVectorOrInt","XMVectorOrInt","XMVectorOrInt method [DirectX Math Support APIs]","dxmath.xmvectororint"]
 old-location: dxmath\xmvectororint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.bit-wise.XMVectorOrInt(XMVECTOR,XMVECTOR)

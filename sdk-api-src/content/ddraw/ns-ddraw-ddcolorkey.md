@@ -1,7 +1,8 @@
 ---
 UID: NS:ddraw._DDCOLORKEY
 title: DDCOLORKEY (ddraw.h)
-description: The DDCOLORKEY structure describes a source color key, destination color key, or color space.helpviewer_keywords: ["*LPDDCOLORKEY","DDCOLORKEY","DDCOLORKEY structure [DirectDraw]","LPDDCOLORKEY","LPDDCOLORKEY structure pointer [DirectDraw]","ddraw/DDCOLORKEY","ddraw/LPDDCOLORKEY","directdraw.ddcolorkey"]
+description: The DDCOLORKEY structure describes a source color key, destination color key, or color space.
+helpviewer_keywords: ["*LPDDCOLORKEY","DDCOLORKEY","DDCOLORKEY structure [DirectDraw]","LPDDCOLORKEY","LPDDCOLORKEY structure pointer [DirectDraw]","ddraw/DDCOLORKEY","ddraw/LPDDCOLORKEY","directdraw.ddcolorkey"]
 old-location: directdraw\ddcolorkey.htm
 tech.root: directdraw
 ms.assetid: c520e649-86f9-4c4a-bb67-22d75aa3c8b0

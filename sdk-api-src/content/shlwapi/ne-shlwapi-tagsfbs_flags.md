@@ -1,7 +1,8 @@
 ---
 UID: NE:shlwapi.tagSFBS_FLAGS
 title: tagSFBS_FLAGS (shlwapi.h)
-description: Specifies how the StrFormatByteSizeEx function should handle rounding of undisplayed digits.helpviewer_keywords: ["SFBS_FLAGS","SFBS_FLAGS enumeration [Windows Shell]","SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT","SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS","_shell_SFBS_FLAGS","shell.SFBS_FLAGS","shlwapi/SFBS_FLAGS","shlwapi/SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT","shlwapi/SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS","tagSFBS_FLAGS"]
+description: Specifies how the StrFormatByteSizeEx function should handle rounding of undisplayed digits.
+helpviewer_keywords: ["SFBS_FLAGS","SFBS_FLAGS enumeration [Windows Shell]","SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT","SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS","_shell_SFBS_FLAGS","shell.SFBS_FLAGS","shlwapi/SFBS_FLAGS","shlwapi/SFBS_FLAGS_ROUND_TO_NEAREST_DISPLAYED_DIGIT","shlwapi/SFBS_FLAGS_TRUNCATE_UNDISPLAYED_DECIMAL_DIGITS","tagSFBS_FLAGS"]
 old-location: shell\SFBS_FLAGS.htm
 tech.root: shell
 ms.assetid: 9b26734b-bda4-4b60-92a3-fe5b3d360dd0

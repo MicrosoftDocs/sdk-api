@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Font.GetStyle
 title: Font::GetStyle (gdiplusheaders.h)
-description: The Font::GetStyle method gets the style of this font's typeface.helpviewer_keywords: ["Font class [GDI+]","GetStyle method","Font.GetStyle","Font::GetStyle","GetStyle","GetStyle method [GDI+]","GetStyle method [GDI+]","Font class","_gdiplus_CLASS_Font_GetStyle_","gdiplus._gdiplus_CLASS_Font_GetStyle_"]
+description: The Font::GetStyle method gets the style of this font's typeface.
+helpviewer_keywords: ["Font class [GDI+]","GetStyle method","Font.GetStyle","Font::GetStyle","GetStyle","GetStyle method [GDI+]","GetStyle method [GDI+]","Font class","_gdiplus_CLASS_Font_GetStyle_","gdiplus._gdiplus_CLASS_Font_GetStyle_"]
 old-location: gdiplus\_gdiplus_CLASS_Font_GetStyle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontclass\fontmethods\getstyle.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportContentProvider.get_InitializationRoutine
 title: IWdsTransportContentProvider::get_InitializationRoutine (wdstptmgmt.h)
-description: Retrieves the name of the method called to initialize the content provider.helpviewer_keywords: ["IWdsTransportContentProvider interface [Windows Deployment Services]","InitializationRoutine property","IWdsTransportContentProvider.InitializationRoutine","IWdsTransportContentProvider.get_InitializationRoutine","IWdsTransportContentProvider::InitializationRoutine","IWdsTransportContentProvider::get_InitializationRoutine","InitializationRoutine property [Windows Deployment Services]","InitializationRoutine property [Windows Deployment Services]","IWdsTransportContentProvider interface","get_InitializationRoutine","wds.iwdstransportcontentprovider_initializationroutine","wdstptmgmt/IWdsTransportContentProvider::InitializationRoutine","wdstptmgmt/IWdsTransportContentProvider::get_InitializationRoutine"]
+description: Retrieves the name of the method called to initialize the content provider.
+helpviewer_keywords: ["IWdsTransportContentProvider interface [Windows Deployment Services]","InitializationRoutine property","IWdsTransportContentProvider.InitializationRoutine","IWdsTransportContentProvider.get_InitializationRoutine","IWdsTransportContentProvider::InitializationRoutine","IWdsTransportContentProvider::get_InitializationRoutine","InitializationRoutine property [Windows Deployment Services]","InitializationRoutine property [Windows Deployment Services]","IWdsTransportContentProvider interface","get_InitializationRoutine","wds.iwdstransportcontentprovider_initializationroutine","wdstptmgmt/IWdsTransportContentProvider::InitializationRoutine","wdstptmgmt/IWdsTransportContentProvider::get_InitializationRoutine"]
 old-location: wds\iwdstransportcontentprovider_initializationroutine.htm
 tech.root: wds
 ms.assetid: 5EB23649-CF1C-424C-ABC1-BEA46F274D7E

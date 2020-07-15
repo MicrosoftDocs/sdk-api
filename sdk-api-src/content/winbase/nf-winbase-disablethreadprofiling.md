@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.DisableThreadProfiling
 title: DisableThreadProfiling function (winbase.h)
-description: Disables thread profiling.helpviewer_keywords: ["DisableThreadProfiling","DisableThreadProfiling function [Hardware Counter Profiling]","hcp.disablethreadprofiling","winbase/DisableThreadProfiling"]
+description: Disables thread profiling.
+helpviewer_keywords: ["DisableThreadProfiling","DisableThreadProfiling function [Hardware Counter Profiling]","hcp.disablethreadprofiling","winbase/DisableThreadProfiling"]
 old-location: hcp\disablethreadprofiling.htm
 tech.root: hcp
 ms.assetid: 650631a6-fd90-46e1-8f2d-84aaaed05bac

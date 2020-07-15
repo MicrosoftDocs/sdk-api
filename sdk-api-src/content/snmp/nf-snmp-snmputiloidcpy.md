@@ -1,7 +1,8 @@
 ---
 UID: NF:snmp.SnmpUtilOidCpy
 title: SnmpUtilOidCpy function (snmp.h)
-description: The SnmpUtilOidCpy function copies the variable pointed to by the pOidSrc parameter to the pOidDst parameter, allocating any necessary memory for the destination's copy. This function is an element of the SNMP Utility API.helpviewer_keywords: ["SnmpUtilOidCpy","SnmpUtilOidCpy function [SNMP]","_snmp_snmputiloidcpy","snmp.snmputiloidcpy","snmp/SnmpUtilOidCpy"]
+description: The SnmpUtilOidCpy function copies the variable pointed to by the pOidSrc parameter to the pOidDst parameter, allocating any necessary memory for the destination's copy. This function is an element of the SNMP Utility API.
+helpviewer_keywords: ["SnmpUtilOidCpy","SnmpUtilOidCpy function [SNMP]","_snmp_snmputiloidcpy","snmp.snmputiloidcpy","snmp/SnmpUtilOidCpy"]
 old-location: snmp\snmputiloidcpy.htm
 tech.root: SNMP
 ms.assetid: 65947bdb-1165-4e5d-b3ca-1c54cd50166e

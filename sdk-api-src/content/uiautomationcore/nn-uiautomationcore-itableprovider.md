@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationcore.ITableProvider
 title: ITableProvider (uiautomationcore.h)
-description: Provides access to controls that act as containers for a collection of child elements.helpviewer_keywords: ["ITableProvider","ITableProvider interface [Windows Accessibility]","ITableProvider interface [Windows Accessibility]","described","uiauto.uiauto_ITableProvider","uiauto_ITableProvider","uiautomationcore/ITableProvider","winauto.uiauto_ITableProvider"]
+description: Provides access to controls that act as containers for a collection of child elements.
+helpviewer_keywords: ["ITableProvider","ITableProvider interface [Windows Accessibility]","ITableProvider interface [Windows Accessibility]","described","uiauto.uiauto_ITableProvider","uiauto_ITableProvider","uiautomationcore/ITableProvider","winauto.uiauto_ITableProvider"]
 old-location: winauto\uiauto_ITableProvider.htm
 tech.root: WinAuto
 ms.assetid: ae6be8be-78ea-4843-924f-2dc5d5286da2

@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_VolumeName
 title: IDiscRecorder2::get_VolumeName (imapi2.h)
-description: Retrieves the unique volume name associated with the device.helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_VolumeName method","IDiscRecorder2.get_VolumeName","IDiscRecorder2::get_VolumeName","get_VolumeName","get_VolumeName method [IMAPI]","get_VolumeName method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_volumename","imapi2/IDiscRecorder2::get_VolumeName"]
+description: Retrieves the unique volume name associated with the device.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_VolumeName method","IDiscRecorder2.get_VolumeName","IDiscRecorder2::get_VolumeName","get_VolumeName","get_VolumeName method [IMAPI]","get_VolumeName method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_volumename","imapi2/IDiscRecorder2::get_VolumeName"]
 old-location: imapi\idiscrecorder2_get_volumename.htm
 tech.root: imapi
 ms.assetid: 953f291d-a1b8-4cad-8ddf-59e251de65f2

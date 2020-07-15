@@ -1,7 +1,8 @@
 ---
 UID: NF:msimeapi.IImePlugInDictDictionaryList.GetDictionariesInUse
 title: IImePlugInDictDictionaryList::GetDictionariesInUse (msimeapi.h)
-description: Obtains the list of Dictionay IDs (GUID) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.helpviewer_keywords: ["GetDictionariesInUse","GetDictionariesInUse method [Internationalization for Windows Applications]","GetDictionariesInUse method [Internationalization for Windows Applications]","IImePlugInDictDictionaryList interface","IImePlugInDictDictionaryList interface [Internationalization for Windows Applications]","GetDictionariesInUse method","IImePlugInDictDictionaryList.GetDictionariesInUse","IImePlugInDictDictionaryList::GetDictionariesInUse","intl.iimeplugindictdictionarylist_getdictionariesinuse","msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse"]
+description: Obtains the list of Dictionay IDs (GUID) of the IME plug-in dictionaries which are in use by IME, with their creation dates and encryption flags.
+helpviewer_keywords: ["GetDictionariesInUse","GetDictionariesInUse method [Internationalization for Windows Applications]","GetDictionariesInUse method [Internationalization for Windows Applications]","IImePlugInDictDictionaryList interface","IImePlugInDictDictionaryList interface [Internationalization for Windows Applications]","GetDictionariesInUse method","IImePlugInDictDictionaryList.GetDictionariesInUse","IImePlugInDictDictionaryList::GetDictionariesInUse","intl.iimeplugindictdictionarylist_getdictionariesinuse","msimeapi/IImePlugInDictDictionaryList::GetDictionariesInUse"]
 old-location: intl\iimeplugindictdictionarylist_getdictionariesinuse.htm
 tech.root: Intl
 ms.assetid: 145F403E-7A7D-4336-96CD-620FA61DFCBF

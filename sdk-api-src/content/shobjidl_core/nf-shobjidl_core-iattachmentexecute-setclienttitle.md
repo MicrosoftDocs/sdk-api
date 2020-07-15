@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IAttachmentExecute.SetClientTitle
 title: IAttachmentExecute::SetClientTitle (shobjidl_core.h)
-description: Specifies and stores the title of the prompt window.helpviewer_keywords: ["IAttachmentExecute interface [Windows Shell]","SetClientTitle method","IAttachmentExecute.SetClientTitle","IAttachmentExecute::SetClientTitle","SetClientTitle","SetClientTitle method [Windows Shell]","SetClientTitle method [Windows Shell]","IAttachmentExecute interface","_win32_IAttachmentExecute_SetClientTitle","shell.IAttachmentExecute_SetClientTitle","shobjidl_core/IAttachmentExecute::SetClientTitle"]
+description: Specifies and stores the title of the prompt window.
+helpviewer_keywords: ["IAttachmentExecute interface [Windows Shell]","SetClientTitle method","IAttachmentExecute.SetClientTitle","IAttachmentExecute::SetClientTitle","SetClientTitle","SetClientTitle method [Windows Shell]","SetClientTitle method [Windows Shell]","IAttachmentExecute interface","_win32_IAttachmentExecute_SetClientTitle","shell.IAttachmentExecute_SetClientTitle","shobjidl_core/IAttachmentExecute::SetClientTitle"]
 old-location: shell\IAttachmentExecute_SetClientTitle.htm
 tech.root: shell
 ms.assetid: 24840acd-c2d1-43d8-99aa-8614e55d6604

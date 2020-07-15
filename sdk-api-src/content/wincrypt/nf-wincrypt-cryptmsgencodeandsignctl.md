@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptMsgEncodeAndSignCTL
 title: CryptMsgEncodeAndSignCTL function (wincrypt.h)
-description: The CryptMsgEncodeAndSignCTL function encodes a CTL and creates a signed message containing the encoded CTL.This function first encodes the CTL pointed to by pCtlInfo and then calls CryptMsgSignCTL to sign the encoded message.helpviewer_keywords: ["CryptMsgEncodeAndSignCTL","CryptMsgEncodeAndSignCTL function [Security]","_crypto2_cryptmsgencodeandsignctl","security.cryptmsgencodeandsignctl","wincrypt/CryptMsgEncodeAndSignCTL"]
+description: The CryptMsgEncodeAndSignCTL function encodes a CTL and creates a signed message containing the encoded CTL.This function first encodes the CTL pointed to by pCtlInfo and then calls CryptMsgSignCTL to sign the encoded message.
+helpviewer_keywords: ["CryptMsgEncodeAndSignCTL","CryptMsgEncodeAndSignCTL function [Security]","_crypto2_cryptmsgencodeandsignctl","security.cryptmsgencodeandsignctl","wincrypt/CryptMsgEncodeAndSignCTL"]
 old-location: security\cryptmsgencodeandsignctl.htm
 tech.root: SecCrypto
 ms.assetid: 5c0e9e2e-a50d-45d0-b51d-065784d1d912

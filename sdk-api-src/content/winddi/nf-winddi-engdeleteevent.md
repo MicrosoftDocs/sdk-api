@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngDeleteEvent
 title: EngDeleteEvent function (winddi.h)
-description: The EngDeleteEvent function deletes the specified event object.helpviewer_keywords: ["EngDeleteEvent","EngDeleteEvent function [Display Devices]","display.engdeleteevent","gdifncs_8a703ede-e100-493c-8ede-82c03361633f.xml","winddi/EngDeleteEvent"]
+description: The EngDeleteEvent function deletes the specified event object.
+helpviewer_keywords: ["EngDeleteEvent","EngDeleteEvent function [Display Devices]","display.engdeleteevent","gdifncs_8a703ede-e100-493c-8ede-82c03361633f.xml","winddi/EngDeleteEvent"]
 old-location: display\engdeleteevent.htm
 tech.root: display
 ms.assetid: b1db14ed-345f-428e-9338-74c7b230e661

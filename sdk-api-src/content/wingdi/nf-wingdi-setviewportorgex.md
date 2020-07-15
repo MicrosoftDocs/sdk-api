@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.SetViewportOrgEx
 title: SetViewportOrgEx function (wingdi.h)
-description: The SetViewportOrgEx function specifies which device point maps to the window origin (0,0).helpviewer_keywords: ["SetViewportOrgEx","SetViewportOrgEx function [Windows GDI]","_win32_SetViewportOrgEx","gdi.setviewportorgex","wingdi/SetViewportOrgEx"]
+description: The SetViewportOrgEx function specifies which device point maps to the window origin (0,0).
+helpviewer_keywords: ["SetViewportOrgEx","SetViewportOrgEx function [Windows GDI]","_win32_SetViewportOrgEx","gdi.setviewportorgex","wingdi/SetViewportOrgEx"]
 old-location: gdi\setviewportorgex.htm
 tech.root: gdi
 ms.assetid: d3b6326e-9fec-42a1-8d2e-d1ad4fcc79a4

@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ITypeLib.GetTypeInfoOfGuid
 title: ITypeLib::GetTypeInfoOfGuid (oaidl.h)
-description: Retrieves the type description that corresponds to the specified GUID.helpviewer_keywords: ["GetTypeInfoOfGuid","GetTypeInfoOfGuid method [Automation]","GetTypeInfoOfGuid method [Automation]","ITypeLib interface","ITypeLib interface [Automation]","GetTypeInfoOfGuid method","ITypeLib.GetTypeInfoOfGuid","ITypeLib::GetTypeInfoOfGuid","_oa96_ITypeLib_GetTypeInfoOfGuid","automat.itypelib_gettypeinfoofguid","oaidl/ITypeLib::GetTypeInfoOfGuid"]
+description: Retrieves the type description that corresponds to the specified GUID.
+helpviewer_keywords: ["GetTypeInfoOfGuid","GetTypeInfoOfGuid method [Automation]","GetTypeInfoOfGuid method [Automation]","ITypeLib interface","ITypeLib interface [Automation]","GetTypeInfoOfGuid method","ITypeLib.GetTypeInfoOfGuid","ITypeLib::GetTypeInfoOfGuid","_oa96_ITypeLib_GetTypeInfoOfGuid","automat.itypelib_gettypeinfoofguid","oaidl/ITypeLib::GetTypeInfoOfGuid"]
 old-location: automat\itypelib_gettypeinfoofguid.htm
 tech.root: automat
 ms.assetid: 58f96322-f1cd-448c-906d-b7faa65ab9a0

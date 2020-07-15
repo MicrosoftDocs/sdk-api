@@ -1,7 +1,8 @@
 ---
 UID: NE:nldef._NL_ROUTE_ORIGIN
 title: NL_ROUTE_ORIGIN (nldef.h)
-description: The NL_ROUTE_ORIGIN enumeration type defines the origin of the IP route.helpviewer_keywords: ["*PNL_ROUTE_ORIGIN","NL_ROUTE_ORIGIN","NL_ROUTE_ORIGIN enumeration [Network Drivers Starting with Windows Vista]","Nlro6to4","NlroDHCP","NlroManual","NlroRouterAdvertisement","NlroWellKnown","PNL_ROUTE_ORIGIN","PNL_ROUTE_ORIGIN enumeration pointer [Network Drivers Starting with Windows Vista]","iphelper_f6fb2f16-6da7-4f32-895e-8dbb6929f81f.xml","netvista.nl_route_origin","nldef/NL_ROUTE_ORIGIN","nldef/Nlro6to4","nldef/NlroDHCP","nldef/NlroManual","nldef/NlroRouterAdvertisement","nldef/NlroWellKnown","nldef/PNL_ROUTE_ORIGIN"]
+description: The NL_ROUTE_ORIGIN enumeration type defines the origin of the IP route.
+helpviewer_keywords: ["*PNL_ROUTE_ORIGIN","NL_ROUTE_ORIGIN","NL_ROUTE_ORIGIN enumeration [Network Drivers Starting with Windows Vista]","Nlro6to4","NlroDHCP","NlroManual","NlroRouterAdvertisement","NlroWellKnown","PNL_ROUTE_ORIGIN","PNL_ROUTE_ORIGIN enumeration pointer [Network Drivers Starting with Windows Vista]","iphelper_f6fb2f16-6da7-4f32-895e-8dbb6929f81f.xml","netvista.nl_route_origin","nldef/NL_ROUTE_ORIGIN","nldef/Nlro6to4","nldef/NlroDHCP","nldef/NlroManual","nldef/NlroRouterAdvertisement","nldef/NlroWellKnown","nldef/PNL_ROUTE_ORIGIN"]
 old-location: netvista\nl_route_origin.htm
 tech.root: NetVista
 ms.assetid: 15f45fe9-5a51-4b4b-ba34-cec2488cd1e0

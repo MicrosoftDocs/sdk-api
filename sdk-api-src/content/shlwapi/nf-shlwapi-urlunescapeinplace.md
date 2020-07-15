@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.UrlUnescapeInPlace
 title: UrlUnescapeInPlace macro (shlwapi.h)
-description: Converts escape sequences back into ordinary characters and overwrites the original string.helpviewer_keywords: ["URL_DONT_UNESCAPE_EXTRA_INFO","UrlUnescapeInPlace","UrlUnescapeInPlace function [Windows Shell]","_win32_UrlUnescapeInPlace","shell.UrlUnescapeInPlace","shlwapi/UrlUnescapeInPlace"]
+description: Converts escape sequences back into ordinary characters and overwrites the original string.
+helpviewer_keywords: ["URL_DONT_UNESCAPE_EXTRA_INFO","UrlUnescapeInPlace","UrlUnescapeInPlace function [Windows Shell]","_win32_UrlUnescapeInPlace","shell.UrlUnescapeInPlace","shlwapi/UrlUnescapeInPlace"]
 old-location: shell\UrlUnescapeInPlace.htm
 tech.root: shell
 ms.assetid: 315215dc-c074-4abb-8bb2-006eff18b88d

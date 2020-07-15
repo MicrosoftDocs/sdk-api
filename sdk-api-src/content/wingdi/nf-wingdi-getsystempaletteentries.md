@@ -124,7 +124,3 @@ An application can determine whether a device supports palette operations by cal
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd162769(v=vs.85)">PALETTEENTRY</a>
- 
-
- 
-

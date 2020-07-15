@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMBackupDirEx
 title: IGPMBackupDirEx (gpmgmt.h)
-description: The IGPMBackupDirEx interface supports methods that allow you to query GPMBackup, GPMBackupCollection, GPMStarterGPOBackup, and GPMStarterGPOBackupCollection objects when you are using the Group Policy Management Console (GPMC) interfaces.helpviewer_keywords: ["GPMBackupDirEx","IGPMBackupDirEx","IGPMBackupDirEx interface [GPMC]","IGPMBackupDirEx interface [GPMC]","described","gpmc.igpmbackupdirex","gpmgmt/IGPMBackupDirEx"]
+description: The IGPMBackupDirEx interface supports methods that allow you to query GPMBackup, GPMBackupCollection, GPMStarterGPOBackup, and GPMStarterGPOBackupCollection objects when you are using the Group Policy Management Console (GPMC) interfaces.
+helpviewer_keywords: ["GPMBackupDirEx","IGPMBackupDirEx","IGPMBackupDirEx interface [GPMC]","IGPMBackupDirEx interface [GPMC]","described","gpmc.igpmbackupdirex","gpmgmt/IGPMBackupDirEx"]
 old-location: gpmc\igpmbackupdirex.htm
 tech.root: gpmc
 ms.assetid: 3008e70c-cc34-45b0-bdfc-17f2e9cd5de0

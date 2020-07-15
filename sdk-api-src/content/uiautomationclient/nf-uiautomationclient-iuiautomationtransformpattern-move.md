@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTransformPattern.Move
 title: IUIAutomationTransformPattern::Move (uiautomationclient.h)
-description: Moves the UI Automation element.helpviewer_keywords: ["IUIAutomationTransformPattern interface [Windows Accessibility]","Move method","IUIAutomationTransformPattern.Move","IUIAutomationTransformPattern::Move","Move","Move method [Windows Accessibility]","Move method [Windows Accessibility]","IUIAutomationTransformPattern interface","uiauto.uiauto_IUIAutomationTransformPattern_Move","uiauto_IUIAutomationTransformPattern_Move","uiautomationclient/IUIAutomationTransformPattern::Move","winauto.uiauto_IUIAutomationTransformPattern_Move"]
+description: Moves the UI Automation element.
+helpviewer_keywords: ["IUIAutomationTransformPattern interface [Windows Accessibility]","Move method","IUIAutomationTransformPattern.Move","IUIAutomationTransformPattern::Move","Move","Move method [Windows Accessibility]","Move method [Windows Accessibility]","IUIAutomationTransformPattern interface","uiauto.uiauto_IUIAutomationTransformPattern_Move","uiauto_IUIAutomationTransformPattern_Move","uiautomationclient/IUIAutomationTransformPattern::Move","winauto.uiauto_IUIAutomationTransformPattern_Move"]
 old-location: winauto\uiauto_IUIAutomationTransformPattern_Move.htm
 tech.root: WinAuto
 ms.assetid: 6529de7b-cb7d-4e18-b274-bc6bf003f912

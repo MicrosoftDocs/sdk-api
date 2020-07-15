@@ -1,7 +1,8 @@
 ---
 UID: NF:instance.CInstance.GetDOUBLE
 title: CInstance::GetDOUBLE (instance.h)
-description: The GetDOUBLE method retrieves a DOUBLE property.helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","GetDOUBLE method","CInstance.GetDOUBLE","CInstance::GetDOUBLE","GetDOUBLE","GetDOUBLE method [Windows Management Instrumentation]","GetDOUBLE method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_getdouble","instance/CInstance::GetDOUBLE","wmi.cinstance_getdouble"]
+description: The GetDOUBLE method retrieves a DOUBLE property.
+helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","GetDOUBLE method","CInstance.GetDOUBLE","CInstance::GetDOUBLE","GetDOUBLE","GetDOUBLE method [Windows Management Instrumentation]","GetDOUBLE method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_getdouble","instance/CInstance::GetDOUBLE","wmi.cinstance_getdouble"]
 old-location: wmi\cinstance_getdouble.htm
 tech.root: WmiSdk
 ms.assetid: 39360e69-0d54-4b1f-8de8-0abf81e9238b

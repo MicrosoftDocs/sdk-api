@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPMedia3
 title: IWMPMedia3 (wmp.h)
-description: The IWMPMedia3 interface provides methods that supplement the IWMPMedia2 interface.helpviewer_keywords: ["IWMPMedia3","IWMPMedia3 interface [Windows Media Player]","IWMPMedia3 interface [Windows Media Player]","described","IWMPMedia3Interface","wmp.iwmpmedia3","wmp/IWMPMedia3"]
+description: The IWMPMedia3 interface provides methods that supplement the IWMPMedia2 interface.
+helpviewer_keywords: ["IWMPMedia3","IWMPMedia3 interface [Windows Media Player]","IWMPMedia3 interface [Windows Media Player]","described","IWMPMedia3Interface","wmp.iwmpmedia3","wmp/IWMPMedia3"]
 old-location: wmp\iwmpmedia3.htm
 tech.root: WMP
 ms.assetid: 664a3148-3c78-41b0-85ba-9c2b3ac821d9

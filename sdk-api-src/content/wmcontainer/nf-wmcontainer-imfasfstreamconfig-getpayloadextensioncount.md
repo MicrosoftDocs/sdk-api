@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFStreamConfig.GetPayloadExtensionCount
 title: IMFASFStreamConfig::GetPayloadExtensionCount (wmcontainer.h)
-description: Retrieves the number of payload extensions that are configured for the stream.helpviewer_keywords: ["3b1cb5a9-e39c-4f16-abc1-45ab516a4b80","GetPayloadExtensionCount","GetPayloadExtensionCount method [Media Foundation]","GetPayloadExtensionCount method [Media Foundation]","IMFASFStreamConfig interface","IMFASFStreamConfig interface [Media Foundation]","GetPayloadExtensionCount method","IMFASFStreamConfig.GetPayloadExtensionCount","IMFASFStreamConfig::GetPayloadExtensionCount","mf.imfasfstreamconfig_getpayloadextensioncount","wmcontainer/IMFASFStreamConfig::GetPayloadExtensionCount"]
+description: Retrieves the number of payload extensions that are configured for the stream.
+helpviewer_keywords: ["3b1cb5a9-e39c-4f16-abc1-45ab516a4b80","GetPayloadExtensionCount","GetPayloadExtensionCount method [Media Foundation]","GetPayloadExtensionCount method [Media Foundation]","IMFASFStreamConfig interface","IMFASFStreamConfig interface [Media Foundation]","GetPayloadExtensionCount method","IMFASFStreamConfig.GetPayloadExtensionCount","IMFASFStreamConfig::GetPayloadExtensionCount","mf.imfasfstreamconfig_getpayloadextensioncount","wmcontainer/IMFASFStreamConfig::GetPayloadExtensionCount"]
 old-location: mf\imfasfstreamconfig_getpayloadextensioncount.htm
 tech.root: medfound
 ms.assetid: 3b1cb5a9-e39c-4f16-abc1-45ab516a4b80

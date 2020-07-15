@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ISecurityCallContext.get_Item
 title: ISecurityCallContext::get_Item (comsvcs.h)
-description: Retrieves a specified property in the security call context collection.helpviewer_keywords: ["ISecurityCallContext interface [COM+]","get_Item method","ISecurityCallContext.get_Item","ISecurityCallContext::get_Item","_cos_ISecurityCallContext_get_Item","comsvcs/ISecurityCallContext::get_Item","cos.isecuritycallcontext_get_item","get_Item","get_Item method [COM+]","get_Item method [COM+]","ISecurityCallContext interface"]
+description: Retrieves a specified property in the security call context collection.
+helpviewer_keywords: ["ISecurityCallContext interface [COM+]","get_Item method","ISecurityCallContext.get_Item","ISecurityCallContext::get_Item","_cos_ISecurityCallContext_get_Item","comsvcs/ISecurityCallContext::get_Item","cos.isecuritycallcontext_get_item","get_Item","get_Item method [COM+]","get_Item method [COM+]","ISecurityCallContext interface"]
 old-location: cos\isecuritycallcontext_get_item.htm
 tech.root: cossdk
 ms.assetid: e6561b89-8af6-46cc-aeab-2b007d48fe26

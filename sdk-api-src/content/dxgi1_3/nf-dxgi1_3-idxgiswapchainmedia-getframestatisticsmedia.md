@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_3.IDXGISwapChainMedia.GetFrameStatisticsMedia
 title: IDXGISwapChainMedia::GetFrameStatisticsMedia (dxgi1_3.h)
-description: Queries the system for a DXGI_FRAME_STATISTICS_MEDIA structure that indicates whether a custom refresh rate is currently approved by the system.helpviewer_keywords: ["GetFrameStatisticsMedia","GetFrameStatisticsMedia method [DXGI]","GetFrameStatisticsMedia method [DXGI]","IDXGISwapChainMedia interface","IDXGISwapChainMedia interface [DXGI]","GetFrameStatisticsMedia method","IDXGISwapChainMedia.GetFrameStatisticsMedia","IDXGISwapChainMedia::GetFrameStatisticsMedia","direct3ddxgi.idxgiswapchainmedia_getframestatisticsmedia","dxgi1_3/IDXGISwapChainMedia::GetFrameStatisticsMedia"]
+description: Queries the system for a DXGI_FRAME_STATISTICS_MEDIA structure that indicates whether a custom refresh rate is currently approved by the system.
+helpviewer_keywords: ["GetFrameStatisticsMedia","GetFrameStatisticsMedia method [DXGI]","GetFrameStatisticsMedia method [DXGI]","IDXGISwapChainMedia interface","IDXGISwapChainMedia interface [DXGI]","GetFrameStatisticsMedia method","IDXGISwapChainMedia.GetFrameStatisticsMedia","IDXGISwapChainMedia::GetFrameStatisticsMedia","direct3ddxgi.idxgiswapchainmedia_getframestatisticsmedia","dxgi1_3/IDXGISwapChainMedia::GetFrameStatisticsMedia"]
 old-location: direct3ddxgi\idxgiswapchainmedia_getframestatisticsmedia.htm
 tech.root: direct3ddxgi
 ms.assetid: AC29C389-832A-4A73-A5D8-7687B1D02256

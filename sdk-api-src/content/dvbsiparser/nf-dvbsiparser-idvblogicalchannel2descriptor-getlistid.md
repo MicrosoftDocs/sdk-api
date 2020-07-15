@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbLogicalChannel2Descriptor.GetListId
 title: IDvbLogicalChannel2Descriptor::GetListId (dvbsiparser.h)
-description: Gets the identifier for a channel list from a Digital Video Broadcast (DVB) logical channel descriptor.helpviewer_keywords: ["GetListId","GetListId method [Microsoft TV Technologies]","GetListId method [Microsoft TV Technologies]","IDvbLogicalChannel2Descriptor interface","IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies]","GetListId method","IDvbLogicalChannel2Descriptor.GetListId","IDvbLogicalChannel2Descriptor::GetListId","dvbsiparser/IDvbLogicalChannel2Descriptor::GetListId","mstv.idvblogicalchannel2descriptor_getlistid"]
+description: Gets the identifier for a channel list from a Digital Video Broadcast (DVB) logical channel descriptor.
+helpviewer_keywords: ["GetListId","GetListId method [Microsoft TV Technologies]","GetListId method [Microsoft TV Technologies]","IDvbLogicalChannel2Descriptor interface","IDvbLogicalChannel2Descriptor interface [Microsoft TV Technologies]","GetListId method","IDvbLogicalChannel2Descriptor.GetListId","IDvbLogicalChannel2Descriptor::GetListId","dvbsiparser/IDvbLogicalChannel2Descriptor::GetListId","mstv.idvblogicalchannel2descriptor_getlistid"]
 old-location: mstv\idvblogicalchannel2descriptor_getlistid.htm
 tech.root: mstv
 ms.assetid: 39f97d38-d588-43d0-8aea-6ef4e1b3440b

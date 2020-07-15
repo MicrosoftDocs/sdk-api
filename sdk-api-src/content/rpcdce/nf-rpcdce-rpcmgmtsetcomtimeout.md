@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcMgmtSetComTimeout
 title: RpcMgmtSetComTimeout function (rpcdce.h)
-description: The RpcMgmtSetComTimeout function sets the binding-communications time-out value in a binding handle.helpviewer_keywords: ["RpcMgmtSetComTimeout","RpcMgmtSetComTimeout function [RPC]","_rpc_rpcmgmtsetcomtimeout","rpc.rpcmgmtsetcomtimeout","rpcdce/RpcMgmtSetComTimeout"]
+description: The RpcMgmtSetComTimeout function sets the binding-communications time-out value in a binding handle.
+helpviewer_keywords: ["RpcMgmtSetComTimeout","RpcMgmtSetComTimeout function [RPC]","_rpc_rpcmgmtsetcomtimeout","rpc.rpcmgmtsetcomtimeout","rpcdce/RpcMgmtSetComTimeout"]
 old-location: rpc\rpcmgmtsetcomtimeout.htm
 tech.root: Rpc
 ms.assetid: 3ea6fe6a-2064-4f53-852a-041281b62bbd

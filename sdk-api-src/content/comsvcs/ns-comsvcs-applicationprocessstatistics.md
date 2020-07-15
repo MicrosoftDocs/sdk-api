@@ -1,7 +1,8 @@
 ---
 UID: NS:comsvcs._ApplicationProcessStatistics
 title: ApplicationProcessStatistics (comsvcs.h)
-description: Represents statistical information about a process hosting COM+ applications.helpviewer_keywords: ["ApplicationProcessStatistics","ApplicationProcessStatistics structure [COM+]","comsvcs/ApplicationProcessStatistics","cos.applicationprocessstatistics"]
+description: Represents statistical information about a process hosting COM+ applications.
+helpviewer_keywords: ["ApplicationProcessStatistics","ApplicationProcessStatistics structure [COM+]","comsvcs/ApplicationProcessStatistics","cos.applicationprocessstatistics"]
 old-location: cos\applicationprocessstatistics.htm
 tech.root: cossdk
 ms.assetid: 7ce16cef-baa4-491c-89e7-f6283e1a646f

@@ -1,7 +1,8 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetHint
 title: IGPEInformation::GetHint (gpedit.h)
-description: The GetHint method retrieves the type of Active Directory object to which this GPO can be linked.helpviewer_keywords: ["GPHintDomain","GPHintMachine","GPHintOrganizationalUnit","GPHintSite","GPHintUnknown","GetHint","GetHint method [Group Policy]","GetHint method [Group Policy]","IGPEInformation interface","IGPEInformation interface [Group Policy]","GetHint method","IGPEInformation.GetHint","IGPEInformation::GetHint","_win32_igpeinformation_gethint","gpedit/IGPEInformation::GetHint","policy.igpeinformation_gethint"]
+description: The GetHint method retrieves the type of Active Directory object to which this GPO can be linked.
+helpviewer_keywords: ["GPHintDomain","GPHintMachine","GPHintOrganizationalUnit","GPHintSite","GPHintUnknown","GetHint","GetHint method [Group Policy]","GetHint method [Group Policy]","IGPEInformation interface","IGPEInformation interface [Group Policy]","GetHint method","IGPEInformation.GetHint","IGPEInformation::GetHint","_win32_igpeinformation_gethint","gpedit/IGPEInformation::GetHint","policy.igpeinformation_gethint"]
 old-location: policy\igpeinformation_gethint.htm
 tech.root: Policy
 ms.assetid: 4e63c6b7-ae4f-4789-bfcc-8a066fb6ad02

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSecureChannel.SetupSession
 title: IMFSecureChannel::SetupSession (mfidl.h)
-description: Passes the encrypted session key to the client.helpviewer_keywords: ["IMFSecureChannel interface [Media Foundation]","SetupSession method","IMFSecureChannel.SetupSession","IMFSecureChannel::SetupSession","SetupSession","SetupSession method [Media Foundation]","SetupSession method [Media Foundation]","IMFSecureChannel interface","a4d38056-ea6a-441e-8b77-39ffd316cb5a","mf.imfsecurechannel_setupsession","mfidl/IMFSecureChannel::SetupSession"]
+description: Passes the encrypted session key to the client.
+helpviewer_keywords: ["IMFSecureChannel interface [Media Foundation]","SetupSession method","IMFSecureChannel.SetupSession","IMFSecureChannel::SetupSession","SetupSession","SetupSession method [Media Foundation]","SetupSession method [Media Foundation]","IMFSecureChannel interface","a4d38056-ea6a-441e-8b77-39ffd316cb5a","mf.imfsecurechannel_setupsession","mfidl/IMFSecureChannel::SetupSession"]
 old-location: mf\imfsecurechannel_setupsession.htm
 tech.root: medfound
 ms.assetid: a4d38056-ea6a-441e-8b77-39ffd316cb5a

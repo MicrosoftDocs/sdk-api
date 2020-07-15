@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleObject.GetUserClassID
 title: IOleObject::GetUserClassID (oleidl.h)
-description: Retrieves an object's class identifier, the CLSID corresponding to the string identifying the object to an end user.helpviewer_keywords: ["GetUserClassID","GetUserClassID method [COM]","GetUserClassID method [COM]","IOleObject interface","IOleObject interface [COM]","GetUserClassID method","IOleObject.GetUserClassID","IOleObject::GetUserClassID","_ole_ioleobject_getuserclassid","com.ioleobject_getuserclassid","oleidl/IOleObject::GetUserClassID"]
+description: Retrieves an object's class identifier, the CLSID corresponding to the string identifying the object to an end user.
+helpviewer_keywords: ["GetUserClassID","GetUserClassID method [COM]","GetUserClassID method [COM]","IOleObject interface","IOleObject interface [COM]","GetUserClassID method","IOleObject.GetUserClassID","IOleObject::GetUserClassID","_ole_ioleobject_getuserclassid","com.ioleobject_getuserclassid","oleidl/IOleObject::GetUserClassID"]
 old-location: com\ioleobject_getuserclassid.htm
 tech.root: com
 ms.assetid: 4b3c0292-0476-4f56-abd2-2f3a82195c67

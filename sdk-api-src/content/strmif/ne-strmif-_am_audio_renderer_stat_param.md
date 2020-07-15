@@ -177,6 +177,3 @@ Not implemented.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/strmif/nn-strmif-iamaudiorendererstats">IAMAudioRendererStats Interface</a>
  
-
- 
-

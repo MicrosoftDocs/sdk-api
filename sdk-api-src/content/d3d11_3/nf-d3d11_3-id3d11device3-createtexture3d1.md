@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.CreateTexture3D1
 title: ID3D11Device3::CreateTexture3D1 (d3d11_3.h)
-description: Creates a 3D texture.helpviewer_keywords: ["CreateTexture3D1","CreateTexture3D1 method [Direct3D 11]","CreateTexture3D1 method [Direct3D 11]","ID3D11Device3 interface","ID3D11Device3 interface [Direct3D 11]","CreateTexture3D1 method","ID3D11Device3.CreateTexture3D1","ID3D11Device3::CreateTexture3D1","d3d11_3/ID3D11Device3::CreateTexture3D1","direct3d11.id3d11device3_createtexture3d1"]
+description: Creates a 3D texture.
+helpviewer_keywords: ["CreateTexture3D1","CreateTexture3D1 method [Direct3D 11]","CreateTexture3D1 method [Direct3D 11]","ID3D11Device3 interface","ID3D11Device3 interface [Direct3D 11]","CreateTexture3D1 method","ID3D11Device3.CreateTexture3D1","ID3D11Device3::CreateTexture3D1","d3d11_3/ID3D11Device3::CreateTexture3D1","direct3d11.id3d11device3_createtexture3d1"]
 old-location: direct3d11\id3d11device3_createtexture3d1.htm
 tech.root: direct3d11
 ms.assetid: EE72AEEF-DBAB-4838-AB91-138EB532BD81

@@ -1,7 +1,8 @@
 ---
 UID: NS:mstcpip._INET_PORT_RANGE
 title: INET_PORT_RANGE (mstcpip.h)
-description: Provides input data used by the SIO_ACQUIRE_PORT_RESERVATION IOCTL to acquire a runtime reservation for a block of TCP or UDP ports.helpviewer_keywords: ["*PINET_PORT_RANGE","*PINET_PORT_RESERVATION","INET_PORT_RANGE","INET_PORT_RANGE structure [Winsock]","INET_PORT_RESERVATION","PINET_PORT_RANGE","PINET_PORT_RANGE structure pointer [Winsock]","mstcpip/INET_PORT_RANGE","mstcpip/PINET_PORT_RANGE","winsock.inet_port_range"]
+description: Provides input data used by the SIO_ACQUIRE_PORT_RESERVATION IOCTL to acquire a runtime reservation for a block of TCP or UDP ports.
+helpviewer_keywords: ["*PINET_PORT_RANGE","*PINET_PORT_RESERVATION","INET_PORT_RANGE","INET_PORT_RANGE structure [Winsock]","INET_PORT_RESERVATION","PINET_PORT_RANGE","PINET_PORT_RANGE structure pointer [Winsock]","mstcpip/INET_PORT_RANGE","mstcpip/PINET_PORT_RANGE","winsock.inet_port_range"]
 old-location: winsock\inet_port_range.htm
 tech.root: WinSock
 ms.assetid: FE6946CF-61B6-422C-B9B8-5045EFAB705F

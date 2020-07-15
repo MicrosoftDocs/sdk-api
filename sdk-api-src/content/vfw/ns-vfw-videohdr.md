@@ -1,7 +1,8 @@
 ---
 UID: NS:vfw.videohdr_tag
 title: VIDEOHDR (vfw.h)
-description: The VIDEOHDR structure is used by the capVideoStreamCallback function.helpviewer_keywords: ["*LPVIDEOHDR","*PVIDEOHDR","LPVIDEOHDR","LPVIDEOHDR structure pointer [Windows Multimedia]","PVIDEOHDR","PVIDEOHDR structure pointer [Windows Multimedia]","VIDEOHDR","VIDEOHDR structure [Windows Multimedia]","_win32_VIDEOHDR_str","multimedia.videohdr","vfw/LPVIDEOHDR","vfw/PVIDEOHDR","vfw/VIDEOHDR"]
+description: The VIDEOHDR structure is used by the capVideoStreamCallback function.
+helpviewer_keywords: ["*LPVIDEOHDR","*PVIDEOHDR","LPVIDEOHDR","LPVIDEOHDR structure pointer [Windows Multimedia]","PVIDEOHDR","PVIDEOHDR structure pointer [Windows Multimedia]","VIDEOHDR","VIDEOHDR structure [Windows Multimedia]","_win32_VIDEOHDR_str","multimedia.videohdr","vfw/LPVIDEOHDR","vfw/PVIDEOHDR","vfw/VIDEOHDR"]
 old-location: multimedia\videohdr.htm
 tech.root: Multimedia
 ms.assetid: 81e4dded-7ba1-40cf-bc16-20524b70a28d

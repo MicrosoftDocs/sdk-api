@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzOperation.Submit
 title: IAzOperation::Submit (azroles.h)
-description: Persists changes made to the IAzOperation object.helpviewer_keywords: ["AzOperation object [Security]","Submit method","IAzOperation interface [Security]","Submit method","IAzOperation.Submit","IAzOperation::Submit","Submit","Submit method [Security]","Submit method [Security]","AzOperation object","Submit method [Security]","IAzOperation interface","azroles/IAzOperation::Submit","security.iazoperation_submit"]
+description: Persists changes made to the IAzOperation object.
+helpviewer_keywords: ["AzOperation object [Security]","Submit method","IAzOperation interface [Security]","Submit method","IAzOperation.Submit","IAzOperation::Submit","Submit","Submit method [Security]","Submit method [Security]","AzOperation object","Submit method [Security]","IAzOperation interface","azroles/IAzOperation::Submit","security.iazoperation_submit"]
 old-location: security\iazoperation_submit.htm
 tech.root: SecAuthZ
 ms.assetid: f6265bfa-c856-47db-a688-f5de25ef7157

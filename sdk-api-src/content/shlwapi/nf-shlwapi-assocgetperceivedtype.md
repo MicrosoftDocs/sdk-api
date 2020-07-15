@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.AssocGetPerceivedType
 title: AssocGetPerceivedType function (shlwapi.h)
-description: Retrieves a file's perceived type based on its extension.helpviewer_keywords: ["AssocGetPerceivedType","AssocGetPerceivedType function [Windows Shell]","PERCEIVEDFLAG_GDIPLUS","PERCEIVEDFLAG_HARDCODED","PERCEIVEDFLAG_NATIVESUPPORT","PERCEIVEDFLAG_SOFTCODED","PERCEIVEDFLAG_UNDEFINED","PERCEIVEDFLAG_WMSDK","PERCEIVEDFLAG_ZIPFOLDER","_shell_AssocGetPerceivedType","shell.AssocGetPerceivedType","shlwapi/AssocGetPerceivedType"]
+description: Retrieves a file's perceived type based on its extension.
+helpviewer_keywords: ["AssocGetPerceivedType","AssocGetPerceivedType function [Windows Shell]","PERCEIVEDFLAG_GDIPLUS","PERCEIVEDFLAG_HARDCODED","PERCEIVEDFLAG_NATIVESUPPORT","PERCEIVEDFLAG_SOFTCODED","PERCEIVEDFLAG_UNDEFINED","PERCEIVEDFLAG_WMSDK","PERCEIVEDFLAG_ZIPFOLDER","_shell_AssocGetPerceivedType","shell.AssocGetPerceivedType","shlwapi/AssocGetPerceivedType"]
 old-location: shell\AssocGetPerceivedType.htm
 tech.root: shell
 ms.assetid: d37f1574-b261-43bf-9712-05a569ab4246

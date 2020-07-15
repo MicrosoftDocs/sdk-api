@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.Clone
 title: IOpcCertificateEnumerator::Clone (msopc.h)
-description: Creates a copy of the current IOpcCertificateEnumerator interface pointer and all its descendants.helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcCertificateEnumerator interface","IOpcCertificateEnumerator interface [Open Packaging Conventions]","Clone method","IOpcCertificateEnumerator.Clone","IOpcCertificateEnumerator::Clone","msopc/IOpcCertificateEnumerator::Clone","opc.iopccertificateenumerator_clone"]
+description: Creates a copy of the current IOpcCertificateEnumerator interface pointer and all its descendants.
+helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcCertificateEnumerator interface","IOpcCertificateEnumerator interface [Open Packaging Conventions]","Clone method","IOpcCertificateEnumerator.Clone","IOpcCertificateEnumerator::Clone","msopc/IOpcCertificateEnumerator::Clone","opc.iopccertificateenumerator_clone"]
 old-location: opc\iopccertificateenumerator_clone.htm
 tech.root: OPC
 ms.assetid: 4cf4bed8-4a6f-48f4-b72f-a13efc127b2a

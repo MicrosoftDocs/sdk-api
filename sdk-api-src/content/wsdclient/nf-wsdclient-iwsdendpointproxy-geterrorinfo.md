@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.GetErrorInfo
 title: IWSDEndpointProxy::GetErrorInfo (wsdclient.h)
-description: Retrieves information on the last error.helpviewer_keywords: ["GetErrorInfo","GetErrorInfo method","GetErrorInfo method","IWSDEndpointProxy interface","IWSDEndpointProxy interface","GetErrorInfo method","IWSDEndpointProxy.GetErrorInfo","IWSDEndpointProxy::GetErrorInfo","ncd.iwsdendpointproxy_geterrorinfo","wsdclient/IWSDEndpointProxy::GetErrorInfo"]
+description: Retrieves information on the last error.
+helpviewer_keywords: ["GetErrorInfo","GetErrorInfo method","GetErrorInfo method","IWSDEndpointProxy interface","IWSDEndpointProxy interface","GetErrorInfo method","IWSDEndpointProxy.GetErrorInfo","IWSDEndpointProxy::GetErrorInfo","ncd.iwsdendpointproxy_geterrorinfo","wsdclient/IWSDEndpointProxy::GetErrorInfo"]
 old-location: ncd\iwsdendpointproxy_geterrorinfo.htm
 tech.root: WsdApi
 ms.assetid: 950f5634-1cc5-4981-9053-e9090374cc5e

@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IAudioPeakMeter.GetLevel
 title: IAudioPeakMeter::GetLevel (devicetopology.h)
-description: The GetLevel method gets the peak level that the peak meter recorded for the specified channel since the peak level for that channel was previously read.helpviewer_keywords: ["GetLevel","GetLevel method [Core Audio]","GetLevel method [Core Audio]","IAudioPeakMeter interface","IAudioPeakMeter interface [Core Audio]","GetLevel method","IAudioPeakMeter.GetLevel","IAudioPeakMeter::GetLevel","IAudioPeakMeterGetLevel","coreaudio.iaudiopeakmeter_getlevel","devicetopology/IAudioPeakMeter::GetLevel"]
+description: The GetLevel method gets the peak level that the peak meter recorded for the specified channel since the peak level for that channel was previously read.
+helpviewer_keywords: ["GetLevel","GetLevel method [Core Audio]","GetLevel method [Core Audio]","IAudioPeakMeter interface","IAudioPeakMeter interface [Core Audio]","GetLevel method","IAudioPeakMeter.GetLevel","IAudioPeakMeter::GetLevel","IAudioPeakMeterGetLevel","coreaudio.iaudiopeakmeter_getlevel","devicetopology/IAudioPeakMeter::GetLevel"]
 old-location: coreaudio\iaudiopeakmeter_getlevel.htm
 tech.root: CoreAudio
 ms.assetid: c5d7d941-b001-49a9-b421-a999f90ddb22

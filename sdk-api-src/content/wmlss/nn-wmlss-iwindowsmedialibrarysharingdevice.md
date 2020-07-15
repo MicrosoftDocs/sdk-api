@@ -1,7 +1,8 @@
 ---
 UID: NN:wmlss.IWindowsMediaLibrarySharingDevice
 title: IWindowsMediaLibrarySharingDevice (wmlss.h)
-description: The IWindowsMediaLibrarySharingDevice interface defines methods that provide access to an individual media device on the home network.helpviewer_keywords: ["IWindowsMediaLibrarySharingDevice","IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services]","described","wmlss.IWindowsMediaLibrarySharingDeviceInterface","wmlss/IWindowsMediaLibrarySharingDevice"]
+description: The IWindowsMediaLibrarySharingDevice interface defines methods that provide access to an individual media device on the home network.
+helpviewer_keywords: ["IWindowsMediaLibrarySharingDevice","IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services]","described","wmlss.IWindowsMediaLibrarySharingDeviceInterface","wmlss/IWindowsMediaLibrarySharingDevice"]
 old-location: wmlss\IWindowsMediaLibrarySharingDeviceInterface.htm
 tech.root: WMLSS
 ms.assetid: 33fe649b-a688-435c-a019-9c308935532e

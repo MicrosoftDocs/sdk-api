@@ -1,7 +1,8 @@
 ---
 UID: NF:magnification.MagGetImageScalingCallback
 title: MagGetImageScalingCallback function (magnification.h)
-description: Retrieves the registered callback function that implements a custom transform for image scaling.helpviewer_keywords: ["MagGetImageScalingCallback","MagGetImageScalingCallback function [Magnification API]","magapi.magapi_MagGetImageScalingCallback","magapi_MagGetImageScalingCallback","magnification/MagGetImageScalingCallback"]
+description: Retrieves the registered callback function that implements a custom transform for image scaling.
+helpviewer_keywords: ["MagGetImageScalingCallback","MagGetImageScalingCallback function [Magnification API]","magapi.magapi_MagGetImageScalingCallback","magapi_MagGetImageScalingCallback","magnification/MagGetImageScalingCallback"]
 old-location: magapi\magapi_MagGetImageScalingCallback.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetimagescalingcallback.htm

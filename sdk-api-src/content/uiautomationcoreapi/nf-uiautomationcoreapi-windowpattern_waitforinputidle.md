@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.WindowPattern_WaitForInputIdle
 title: WindowPattern_WaitForInputIdle function (uiautomationcoreapi.h)
-description: Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first.helpviewer_keywords: ["WindowPattern_WaitForInputIdle","WindowPattern_WaitForInputIdle function [Windows Accessibility]","uiauto.uiauto_WindowPattern_WaitForInputIdleConPat","uiauto_WindowPattern_WaitForInputIdleConPat","uiautomationcoreapi/WindowPattern_WaitForInputIdle","winauto.uiauto_WindowPattern_WaitForInputIdleConPat"]
+description: Causes the calling code to block for the specified time or until the associated process enters an idle state, whichever completes first.
+helpviewer_keywords: ["WindowPattern_WaitForInputIdle","WindowPattern_WaitForInputIdle function [Windows Accessibility]","uiauto.uiauto_WindowPattern_WaitForInputIdleConPat","uiauto_WindowPattern_WaitForInputIdleConPat","uiautomationcoreapi/WindowPattern_WaitForInputIdle","winauto.uiauto_WindowPattern_WaitForInputIdleConPat"]
 old-location: winauto\uiauto_WindowPattern_WaitForInputIdleConPat.htm
 tech.root: WinAuto
 ms.assetid: c2a319bd-9698-4671-b3d9-bcfd07c15aef

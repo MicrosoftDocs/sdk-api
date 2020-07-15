@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.CreateBrushIndirect
 title: CreateBrushIndirect function (wingdi.h)
-description: The CreateBrushIndirect function creates a logical brush that has the specified style, color, and pattern.helpviewer_keywords: ["CreateBrushIndirect","CreateBrushIndirect function [Windows GDI]","_win32_CreateBrushIndirect","gdi.createbrushindirect","wingdi/CreateBrushIndirect"]
+description: The CreateBrushIndirect function creates a logical brush that has the specified style, color, and pattern.
+helpviewer_keywords: ["CreateBrushIndirect","CreateBrushIndirect function [Windows GDI]","_win32_CreateBrushIndirect","gdi.createbrushindirect","wingdi/CreateBrushIndirect"]
 old-location: gdi\createbrushindirect.htm
 tech.root: gdi
 ms.assetid: 75f94ad1-ca25-4ad1-9e8c-ad1a4b8475a7

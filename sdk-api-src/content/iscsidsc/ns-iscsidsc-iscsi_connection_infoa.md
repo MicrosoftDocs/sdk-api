@@ -1,7 +1,8 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_16
 title: ISCSI_CONNECTION_INFOA (iscsidsc.h)
-description: ISCSI_CONNECTION_INFO structure contains information about a connection.helpviewer_keywords: ["*PISCSI_CONNECTION_INFOA","ISCSI_CONNECTION_INFO","ISCSI_CONNECTION_INFO structure [iSCSI Discovery Library API]","ISCSI_CONNECTION_INFOA","ISCSI_CONNECTION_INFOW","PISCSI_CONNECTION_INFO","PISCSI_CONNECTION_INFO structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_connection_info","iscsidsc/ISCSI_CONNECTION_INFO","iscsidsc/ISCSI_CONNECTION_INFOA","iscsidsc/ISCSI_CONNECTION_INFOW","iscsidsc/PISCSI_CONNECTION_INFO"]
+description: ISCSI_CONNECTION_INFO structure contains information about a connection.
+helpviewer_keywords: ["*PISCSI_CONNECTION_INFOA","ISCSI_CONNECTION_INFO","ISCSI_CONNECTION_INFO structure [iSCSI Discovery Library API]","ISCSI_CONNECTION_INFOA","ISCSI_CONNECTION_INFOW","PISCSI_CONNECTION_INFO","PISCSI_CONNECTION_INFO structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_connection_info","iscsidsc/ISCSI_CONNECTION_INFO","iscsidsc/ISCSI_CONNECTION_INFOA","iscsidsc/ISCSI_CONNECTION_INFOW","iscsidsc/PISCSI_CONNECTION_INFO"]
 old-location: iscsidisc\iscsi_connection_info.htm
 tech.root: iSCSIDisc
 ms.assetid: 4bfe2f36-2e68-4093-9660-b0140baeea80
@@ -98,4 +99,9 @@ The connection identifier for the connection.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The iscsidsc.h header defines ISCSI_CONNECTION_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

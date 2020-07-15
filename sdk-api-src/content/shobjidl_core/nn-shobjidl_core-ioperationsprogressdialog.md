@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IOperationsProgressDialog
 title: IOperationsProgressDialog (shobjidl_core.h)
-description: Exposes methods to get, set, and query a progress dialog.helpviewer_keywords: ["IOperationsProgressDialog","IOperationsProgressDialog interface [Windows Shell]","IOperationsProgressDialog interface [Windows Shell]","described","_shell_IOperationsProgressDialog","shell.IOperationsProgressDialog","shobjidl_core/IOperationsProgressDialog"]
+description: Exposes methods to get, set, and query a progress dialog.
+helpviewer_keywords: ["IOperationsProgressDialog","IOperationsProgressDialog interface [Windows Shell]","IOperationsProgressDialog interface [Windows Shell]","described","_shell_IOperationsProgressDialog","shell.IOperationsProgressDialog","shobjidl_core/IOperationsProgressDialog"]
 old-location: shell\IOperationsProgressDialog.htm
 tech.root: shell
 ms.assetid: 0d95f407-0e09-441d-b9e2-665995ea1362

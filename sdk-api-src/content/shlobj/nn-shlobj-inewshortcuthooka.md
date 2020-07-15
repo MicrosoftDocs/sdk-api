@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj.INewShortcutHookA
 title: INewShortcutHookA (shlobj.h)
-description: Exposes methods to create a new Internet shortcut.helpviewer_keywords: ["INewShortcutHook","INewShortcutHook interface [Windows Shell]","INewShortcutHook interface [Windows Shell]","described","INewShortcutHookA","INewShortcutHookW","_win32_INewShortcutHook","shell.INewShortcutHook","shlobj/INewShortcutHook"]
+description: Exposes methods to create a new Internet shortcut.
+helpviewer_keywords: ["INewShortcutHook","INewShortcutHook interface [Windows Shell]","INewShortcutHook interface [Windows Shell]","described","INewShortcutHookA","INewShortcutHookW","_win32_INewShortcutHook","shell.INewShortcutHook","shlobj/INewShortcutHook"]
 old-location: shell\INewShortcutHook.htm
 tech.root: shell
 ms.assetid: 5a097e96-178a-44bd-9d3d-ed53338b97d5
@@ -135,4 +136,8 @@ You use <b>INewShortcutHook</b> when creating a new Internet shortcut. The metho
 <b>INewShortcutHook</b> is derived from <a href="https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a>. The listed methods are specific to <b>INewShortcutHook</b>.
 
 
+
+
+> [!NOTE]
+> The shlobj.h header defines INewShortcutHook as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

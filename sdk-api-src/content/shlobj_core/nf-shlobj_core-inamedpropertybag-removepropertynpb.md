@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.INamedPropertyBag.RemovePropertyNPB
 title: INamedPropertyBag::RemovePropertyNPB (shlobj_core.h)
-description: Removes a property from a named property bag.helpviewer_keywords: ["INamedPropertyBag interface [Windows Shell]","RemovePropertyNPB method","INamedPropertyBag.RemovePropertyNPB","INamedPropertyBag::RemovePropertyNPB","RemovePropertyNPB","RemovePropertyNPB method [Windows Shell]","RemovePropertyNPB method [Windows Shell]","INamedPropertyBag interface","_shell_INamedPropertyBag_RemovePropertyNPB","shell.INamedPropertyBag_RemovePropertyNPB","shlobj_core/INamedPropertyBag::RemovePropertyNPB"]
+description: Removes a property from a named property bag.
+helpviewer_keywords: ["INamedPropertyBag interface [Windows Shell]","RemovePropertyNPB method","INamedPropertyBag.RemovePropertyNPB","INamedPropertyBag::RemovePropertyNPB","RemovePropertyNPB","RemovePropertyNPB method [Windows Shell]","RemovePropertyNPB method [Windows Shell]","INamedPropertyBag interface","_shell_INamedPropertyBag_RemovePropertyNPB","shell.INamedPropertyBag_RemovePropertyNPB","shlobj_core/INamedPropertyBag::RemovePropertyNPB"]
 old-location: shell\INamedPropertyBag_RemovePropertyNPB.htm
 tech.root: shell
 ms.assetid: 632bab32-c546-4f8f-b064-877e853c215c

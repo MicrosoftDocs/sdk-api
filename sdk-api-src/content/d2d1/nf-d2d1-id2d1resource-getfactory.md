@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1Resource.GetFactory
 title: ID2D1Resource::GetFactory (d2d1.h)
-description: Retrieves the factory associated with this resource.helpviewer_keywords: ["GetFactory","GetFactory method [Direct2D]","GetFactory method [Direct2D]","ID2D1Resource interface","ID2D1Resource interface [Direct2D]","GetFactory method","ID2D1Resource.GetFactory","ID2D1Resource::GetFactory","d2d1/ID2D1Resource::GetFactory","direct2d.ID2D1Resource_GetFactory"]
+description: Retrieves the factory associated with this resource.
+helpviewer_keywords: ["GetFactory","GetFactory method [Direct2D]","GetFactory method [Direct2D]","ID2D1Resource interface","ID2D1Resource interface [Direct2D]","GetFactory method","ID2D1Resource.GetFactory","ID2D1Resource::GetFactory","d2d1/ID2D1Resource::GetFactory","direct2d.ID2D1Resource_GetFactory"]
 old-location: direct2d\ID2D1Resource_GetFactory.htm
 tech.root: Direct2D
 ms.assetid: 93afc187-d1ef-46f8-98b0-efe31345ae98

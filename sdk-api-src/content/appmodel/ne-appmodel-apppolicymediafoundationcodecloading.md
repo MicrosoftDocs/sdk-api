@@ -1,7 +1,8 @@
 ---
 UID: NE:appmodel.AppPolicyMediaFoundationCodecLoading
 title: AppPolicyMediaFoundationCodecLoading (appmodel.h)
-description: The AppPolicyMediaFoundationCodecLoading enumeration indicates whether a process’s policy allows it to load non-Windows (third-party) plugins.helpviewer_keywords: ["AppPolicyMediaFoundationCodecLoading","AppPolicyMediaFoundationCodecLoading enumeration [App packaging and management]","AppPolicyMediaFoundationCodecLoading_All","AppPolicyMediaFoundationCodecLoading_InboxOnly","appmodel/AppPolicyMediaFoundationCodecLoading","appmodel/AppPolicyMediaFoundationCodecLoading_All","appmodel/AppPolicyMediaFoundationCodecLoading_InboxOnly","appxpkg.apppolicymediafoundationcodecloading"]
+description: The AppPolicyMediaFoundationCodecLoading enumeration indicates whether a process’s policy allows it to load non-Windows (third-party) plugins.
+helpviewer_keywords: ["AppPolicyMediaFoundationCodecLoading","AppPolicyMediaFoundationCodecLoading enumeration [App packaging and management]","AppPolicyMediaFoundationCodecLoading_All","AppPolicyMediaFoundationCodecLoading_InboxOnly","appmodel/AppPolicyMediaFoundationCodecLoading","appmodel/AppPolicyMediaFoundationCodecLoading_All","appmodel/AppPolicyMediaFoundationCodecLoading_InboxOnly","appxpkg.apppolicymediafoundationcodecloading"]
 old-location: appxpkg\apppolicymediafoundationcodecloading.htm
 tech.root: appxpkg
 ms.assetid: 23572AF3-DD47-41A7-9C55-A4E36BB55541

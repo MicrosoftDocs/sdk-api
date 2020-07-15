@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IsWindowVisible
 title: IsWindowVisible function (winuser.h)
-description: Determines the visibility state of the specified window.helpviewer_keywords: ["IsWindowVisible","IsWindowVisible function [Windows and Messages]","_win32_IsWindowVisible","_win32_iswindowvisible_cpp","winmsg.iswindowvisible","winui._win32_iswindowvisible","winuser/IsWindowVisible"]
+description: Determines the visibility state of the specified window.
+helpviewer_keywords: ["IsWindowVisible","IsWindowVisible function [Windows and Messages]","_win32_IsWindowVisible","_win32_iswindowvisible_cpp","winmsg.iswindowvisible","winui._win32_iswindowvisible","winuser/IsWindowVisible"]
 old-location: winmsg\iswindowvisible.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iswindowvisible.htm

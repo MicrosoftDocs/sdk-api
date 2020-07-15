@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterNodeEnumEx
 title: ClusterNodeEnumEx function (clusapi.h)
-description: Retrieves the specified cluster node from a CLUSTER_ENUM_ITEM enumeration.helpviewer_keywords: ["ClusterNodeEnumEx","ClusterNodeEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_NODE_ENUM_EX","PCLUSAPI_CLUSTER_NODE_ENUM_EX function [Failover Cluster]","clusapi/ClusterNodeEnumEx","clusapi/PCLUSAPI_CLUSTER_NODE_ENUM_EX","mscs.clusternodeenumex"]
+description: Retrieves the specified cluster node from a CLUSTER_ENUM_ITEM enumeration.
+helpviewer_keywords: ["ClusterNodeEnumEx","ClusterNodeEnumEx function [Failover Cluster]","PCLUSAPI_CLUSTER_NODE_ENUM_EX","PCLUSAPI_CLUSTER_NODE_ENUM_EX function [Failover Cluster]","clusapi/ClusterNodeEnumEx","clusapi/PCLUSAPI_CLUSTER_NODE_ENUM_EX","mscs.clusternodeenumex"]
 old-location: mscs\clusternodeenumex.htm
 tech.root: MsCS
 ms.assetid: 1F3DFD5C-978B-4943-B4D8-81A7F9D7A3AF

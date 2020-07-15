@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.AccessibleObjectFromWindow
 title: AccessibleObjectFromWindow function (oleacc.h)
-description: Retrieves the address of the specified interface for the object associated with the specified window.helpviewer_keywords: ["AccessibleObjectFromWindow","AccessibleObjectFromWindow function [Windows Accessibility]","_msaa_AccessibleObjectFromWindow","msaa.accessibleobjectfromwindow","oleacc/AccessibleObjectFromWindow","winauto.accessibleobjectfromwindow"]
+description: Retrieves the address of the specified interface for the object associated with the specified window.
+helpviewer_keywords: ["AccessibleObjectFromWindow","AccessibleObjectFromWindow function [Windows Accessibility]","_msaa_AccessibleObjectFromWindow","msaa.accessibleobjectfromwindow","oleacc/AccessibleObjectFromWindow","winauto.accessibleobjectfromwindow"]
 old-location: winauto\accessibleobjectfromwindow.htm
 tech.root: WinAuto
 ms.assetid: 297ac50f-2a58-477b-ba57-5d1416c191b3

@@ -1,7 +1,8 @@
 ---
 UID: NF:xenroll.ICEnroll4.addCertTypeToRequestEx
 title: ICEnroll4::addCertTypeToRequestEx (xenroll.h)
-description: Adds a certificate template (or &#0034;certificate type&#0034;) to a request.helpviewer_keywords: ["CEnroll object [Security]","addCertTypeToRequestEx method","ICEnroll4 interface [Security]","addCertTypeToRequestEx method","ICEnroll4.addCertTypeToRequestEx","ICEnroll4::addCertTypeToRequestEx","XECT_EXTENSION_V1","XECT_EXTENSION_V2","_xen_icenroll4_addcerttypetorequestex","addCertTypeToRequestEx","addCertTypeToRequestEx method [Security]","addCertTypeToRequestEx method [Security]","CEnroll object","addCertTypeToRequestEx method [Security]","ICEnroll4 interface","security.icenroll4_addcerttypetorequestex","xenroll/ICEnroll4::addCertTypeToRequestEx"]
+description: Adds a certificate template (or &quot;certificate type&quot;) to a request.
+helpviewer_keywords: ["CEnroll object [Security]","addCertTypeToRequestEx method","ICEnroll4 interface [Security]","addCertTypeToRequestEx method","ICEnroll4.addCertTypeToRequestEx","ICEnroll4::addCertTypeToRequestEx","XECT_EXTENSION_V1","XECT_EXTENSION_V2","_xen_icenroll4_addcerttypetorequestex","addCertTypeToRequestEx","addCertTypeToRequestEx method [Security]","addCertTypeToRequestEx method [Security]","CEnroll object","addCertTypeToRequestEx method [Security]","ICEnroll4 interface","security.icenroll4_addcerttypetorequestex","xenroll/ICEnroll4::addCertTypeToRequestEx"]
 old-location: security\icenroll4_addcerttypetorequestex.htm
 tech.root: SecCrypto
 ms.assetid: bde35e01-8b26-44f7-828e-e8313a2b5a12

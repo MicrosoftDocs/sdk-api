@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFCollection.InsertElementAt
 title: IMFCollection::InsertElementAt (mfobjects.h)
-description: Adds an object at the specified index in the collection.helpviewer_keywords: ["IMFCollection interface [Media Foundation]","InsertElementAt method","IMFCollection.InsertElementAt","IMFCollection::InsertElementAt","InsertElementAt","InsertElementAt method [Media Foundation]","InsertElementAt method [Media Foundation]","IMFCollection interface","d8f64bf8-eb5b-4673-91be-796f4ea8dce0","mf.imfcollection_insertelementat","mfobjects/IMFCollection::InsertElementAt"]
+description: Adds an object at the specified index in the collection.
+helpviewer_keywords: ["IMFCollection interface [Media Foundation]","InsertElementAt method","IMFCollection.InsertElementAt","IMFCollection::InsertElementAt","InsertElementAt","InsertElementAt method [Media Foundation]","InsertElementAt method [Media Foundation]","IMFCollection interface","d8f64bf8-eb5b-4673-91be-796f4ea8dce0","mf.imfcollection_insertelementat","mfobjects/IMFCollection::InsertElementAt"]
 old-location: mf\imfcollection_insertelementat.htm
 tech.root: medfound
 ms.assetid: d8f64bf8-eb5b-4673-91be-796f4ea8dce0

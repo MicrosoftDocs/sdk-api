@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateFastMetadataEncoderFromFrameDecode
 title: IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode (wincodec.h)
-description: Creates a new instance of the fast metadata encoder based on the given image frame.helpviewer_keywords: ["CreateFastMetadataEncoderFromFrameDecode","CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component]","CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateFastMetadataEncoderFromFrameDecode method","IWICImagingFactory.CreateFastMetadataEncoderFromFrameDecode","IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode","_wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode","wic._wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode","wincodec/IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode"]
+description: Creates a new instance of the fast metadata encoder based on the given image frame.
+helpviewer_keywords: ["CreateFastMetadataEncoderFromFrameDecode","CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component]","CreateFastMetadataEncoderFromFrameDecode method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateFastMetadataEncoderFromFrameDecode method","IWICImagingFactory.CreateFastMetadataEncoderFromFrameDecode","IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode","_wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode","wic._wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode","wincodec/IWICImagingFactory::CreateFastMetadataEncoderFromFrameDecode"]
 old-location: wic\_wic_codec_iwicimagingfactory_createfastmetadataencoderfromframedecode.htm
 tech.root: wic
 ms.assetid: 076cfd22-f744-4152-a1c0-1e0f17ac764d

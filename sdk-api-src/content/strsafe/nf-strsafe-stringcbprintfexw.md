@@ -1,7 +1,8 @@
 ---
 UID: NF:strsafe.StringCbPrintfExW
 title: StringCbPrintfExW function (strsafe.h)
-description: Writes formatted data to the specified string.helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbPrintfEx","StringCbPrintfEx function [Menus and Other Resources]","StringCbPrintfExA","StringCbPrintfExW","_shell_StringCbPrintfEx","_shell_stringcbprintfex_cpp","menurc.stringcbprintfex","strsafe/StringCbPrintfEx","strsafe/StringCbPrintfExA","strsafe/StringCbPrintfExW","winui._shell_stringcbprintfex"]
+description: Writes formatted data to the specified string.
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbPrintfEx","StringCbPrintfEx function [Menus and Other Resources]","StringCbPrintfExA","StringCbPrintfExW","_shell_StringCbPrintfEx","_shell_stringcbprintfex_cpp","menurc.stringcbprintfex","strsafe/StringCbPrintfEx","strsafe/StringCbPrintfExA","strsafe/StringCbPrintfExW","winui._shell_stringcbprintfex"]
 old-location: menurc\stringcbprintfex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbprintfex.htm
@@ -274,6 +275,10 @@ Neither <i>pszFormat</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>
 
 
 
+
+
+> [!NOTE]
+> The strsafe.h header defines StringCbPrintfEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

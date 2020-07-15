@@ -1,7 +1,7 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationOrCondition.GetChildren
 title: IUIAutomationOrCondition::GetChildren (uiautomationclient.h)
-description: Retrieves the conditions that make up this &#0034;or&#0034; condition.
+description: Retrieves the conditions that make up this &quot;or&quot; condition.
 helpviewer_keywords: ["GetChildren","GetChildren method [Windows Accessibility]","GetChildren method [Windows Accessibility]","IUIAutomationOrCondition interface","IUIAutomationOrCondition interface [Windows Accessibility]","GetChildren method","IUIAutomationOrCondition.GetChildren","IUIAutomationOrCondition::GetChildren","uiauto.uiauto_IUIAutomationOrCondition_GetChildren","uiauto_IUIAutomationOrCondition_GetChildren","uiautomationclient/IUIAutomationOrCondition::GetChildren","winauto.uiauto_IUIAutomationOrCondition_GetChildren"]
 old-location: winauto\uiauto_IUIAutomationOrCondition_GetChildren.htm
 tech.root: WinAuto

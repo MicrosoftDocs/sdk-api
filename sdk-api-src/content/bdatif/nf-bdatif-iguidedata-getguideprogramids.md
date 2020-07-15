@@ -1,7 +1,8 @@
 ---
 UID: NF:bdatif.IGuideData.GetGuideProgramIDs
 title: IGuideData::GetGuideProgramIDs (bdatif.h)
-description: The GetGuideProgramIDs method returns a list of unique identifiers for all of the programs contained in all transport streams.helpviewer_keywords: ["GetGuideProgramIDs","GetGuideProgramIDs method [Microsoft TV Technologies]","GetGuideProgramIDs method [Microsoft TV Technologies]","IGuideData interface","IGuideData interface [Microsoft TV Technologies]","GetGuideProgramIDs method","IGuideData.GetGuideProgramIDs","IGuideData::GetGuideProgramIDs","IGuideDataGetGuideProgramIDs","bdatif/IGuideData::GetGuideProgramIDs","mstv.iguidedata_getguideprogramids"]
+description: The GetGuideProgramIDs method returns a list of unique identifiers for all of the programs contained in all transport streams.
+helpviewer_keywords: ["GetGuideProgramIDs","GetGuideProgramIDs method [Microsoft TV Technologies]","GetGuideProgramIDs method [Microsoft TV Technologies]","IGuideData interface","IGuideData interface [Microsoft TV Technologies]","GetGuideProgramIDs method","IGuideData.GetGuideProgramIDs","IGuideData::GetGuideProgramIDs","IGuideDataGetGuideProgramIDs","bdatif/IGuideData::GetGuideProgramIDs","mstv.iguidedata_getguideprogramids"]
 old-location: mstv\iguidedata_getguideprogramids.htm
 tech.root: mstv
 ms.assetid: d182057a-096b-4286-8174-a3ce25c1c86f

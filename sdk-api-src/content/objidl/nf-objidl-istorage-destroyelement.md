@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IStorage.DestroyElement
 title: IStorage::DestroyElement (objidl.h)
-description: Removes the specified storage or stream from this storage object.helpviewer_keywords: ["DestroyElement","DestroyElement method [Structured Storage]","DestroyElement method [Structured Storage]","IStorage interface","IStorage interface [Structured Storage]","DestroyElement method","IStorage.DestroyElement","IStorage::DestroyElement","_stg_istorage_destroyelement","objidl/IStorage::DestroyElement","stg.istorage_destroyelement"]
+description: Removes the specified storage or stream from this storage object.
+helpviewer_keywords: ["DestroyElement","DestroyElement method [Structured Storage]","DestroyElement method [Structured Storage]","IStorage interface","IStorage interface [Structured Storage]","DestroyElement method","IStorage.DestroyElement","IStorage::DestroyElement","_stg_istorage_destroyelement","objidl/IStorage::DestroyElement","stg.istorage_destroyelement"]
 old-location: stg\istorage_destroyelement.htm
 tech.root: Stg
 ms.assetid: 70ad7f8c-15ea-42f1-ac18-006bc6ad5e81

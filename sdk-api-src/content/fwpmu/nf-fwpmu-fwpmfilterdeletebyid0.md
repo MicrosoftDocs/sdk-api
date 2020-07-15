@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmFilterDeleteById0
 title: FwpmFilterDeleteById0 function (fwpmu.h)
-description: Removes a filter object from the system.helpviewer_keywords: ["FwpmFilterDeleteById0","FwpmFilterDeleteById0 function [Filtering]","fwp.fwpmfilterdeletebyid0_func","fwpmu/FwpmFilterDeleteById0"]
+description: Removes a filter object from the system.
+helpviewer_keywords: ["FwpmFilterDeleteById0","FwpmFilterDeleteById0 function [Filtering]","fwp.fwpmfilterdeletebyid0_func","fwpmu/FwpmFilterDeleteById0"]
 old-location: fwp\fwpmfilterdeletebyid0_func.htm
 tech.root: fwp
 ms.assetid: a1b10a05-27e9-49f3-8e1c-30650007a9ef

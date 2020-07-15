@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSGetPropertyFromPropertyStorage
 title: PSGetPropertyFromPropertyStorage function (propsys.h)
-description: Gets the value of a property as stored in serialized property storage.helpviewer_keywords: ["PSGetPropertyFromPropertyStorage","PSGetPropertyFromPropertyStorage function [Windows Properties]","_shell_PSGetPropertyFromPropertyStorage","properties.PSGetPropertyFromPropertyStorage","propsys/PSGetPropertyFromPropertyStorage","shell.PSGetPropertyFromPropertyStorage"]
+description: Gets the value of a property as stored in serialized property storage.
+helpviewer_keywords: ["PSGetPropertyFromPropertyStorage","PSGetPropertyFromPropertyStorage function [Windows Properties]","_shell_PSGetPropertyFromPropertyStorage","properties.PSGetPropertyFromPropertyStorage","propsys/PSGetPropertyFromPropertyStorage","shell.PSGetPropertyFromPropertyStorage"]
 old-location: properties\PSGetPropertyFromPropertyStorage.htm
 tech.root: properties
 ms.assetid: c649d25d-7971-4804-a5a2-3fd6860659b4

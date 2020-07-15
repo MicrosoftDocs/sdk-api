@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertUnregisterPhysicalStore
 title: CertUnregisterPhysicalStore function (wincrypt.h)
-description: The CertUnregisterPhysicalStore function removes a physical store from a specified system store collection. CertUnregisterPhysicalStore can also be used to delete the physical store.helpviewer_keywords: ["CERT_STORE_DELETE_FLAG","CERT_SYSTEM_STORE_RELOCATE_FLAG","CertUnregisterPhysicalStore","CertUnregisterPhysicalStore function [Security]","_crypto2_certunregisterphysicalstore","security.certunregisterphysicalstore","wincrypt/CertUnregisterPhysicalStore"]
+description: The CertUnregisterPhysicalStore function removes a physical store from a specified system store collection. CertUnregisterPhysicalStore can also be used to delete the physical store.
+helpviewer_keywords: ["CERT_STORE_DELETE_FLAG","CERT_SYSTEM_STORE_RELOCATE_FLAG","CertUnregisterPhysicalStore","CertUnregisterPhysicalStore function [Security]","_crypto2_certunregisterphysicalstore","security.certunregisterphysicalstore","wincrypt/CertUnregisterPhysicalStore"]
 old-location: security\certunregisterphysicalstore.htm
 tech.root: SecCrypto
 ms.assetid: 06480a2f-5a94-4cf5-9774-ceb9499e1d44

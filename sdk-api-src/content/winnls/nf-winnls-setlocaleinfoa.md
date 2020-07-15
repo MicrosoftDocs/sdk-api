@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.SetLocaleInfoA
 title: SetLocaleInfoA function (winnls.h)
-description: Sets an item of information in the user override portion of the current locale. This function does not set the system defaults.helpviewer_keywords: ["SetLocaleInfo","SetLocaleInfo function [Internationalization for Windows Applications]","SetLocaleInfoA","SetLocaleInfoW","_win32_SetLocaleInfo","intl.setlocaleinfo","winnls/SetLocaleInfo","winnls/SetLocaleInfoA","winnls/SetLocaleInfoW"]
+description: Sets an item of information in the user override portion of the current locale. This function does not set the system defaults.
+helpviewer_keywords: ["SetLocaleInfo","SetLocaleInfo function [Internationalization for Windows Applications]","SetLocaleInfoA","SetLocaleInfoW","_win32_SetLocaleInfo","intl.setlocaleinfo","winnls/SetLocaleInfo","winnls/SetLocaleInfoA","winnls/SetLocaleInfoW"]
 old-location: intl\setlocaleinfo.htm
 tech.root: Intl
 ms.assetid: 96e031cb-0d9f-4556-b9b3-3451d8f80da5
@@ -139,6 +140,10 @@ As of Windows Vista, the <a href="https://docs.microsoft.com/windows/desktop/In
 
 
 
+
+
+> [!NOTE]
+> The winnls.h header defines SetLocaleInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_2.IDWriteColorGlyphRunEnumerator.GetCurrentRun
 title: IDWriteColorGlyphRunEnumerator::GetCurrentRun (dwrite_2.h)
-description: Returns the current glyph run of the enumerator.helpviewer_keywords: ["GetCurrentRun","GetCurrentRun method [Direct Write]","GetCurrentRun method [Direct Write]","IDWriteColorGlyphRunEnumerator interface","IDWriteColorGlyphRunEnumerator interface [Direct Write]","GetCurrentRun method","IDWriteColorGlyphRunEnumerator.GetCurrentRun","IDWriteColorGlyphRunEnumerator::GetCurrentRun","directwrite.idwritecolorglyphrunenumerator_getcurrentrun","dwrite_2/IDWriteColorGlyphRunEnumerator::GetCurrentRun"]
+description: Returns the current glyph run of the enumerator.
+helpviewer_keywords: ["GetCurrentRun","GetCurrentRun method [Direct Write]","GetCurrentRun method [Direct Write]","IDWriteColorGlyphRunEnumerator interface","IDWriteColorGlyphRunEnumerator interface [Direct Write]","GetCurrentRun method","IDWriteColorGlyphRunEnumerator.GetCurrentRun","IDWriteColorGlyphRunEnumerator::GetCurrentRun","directwrite.idwritecolorglyphrunenumerator_getcurrentrun","dwrite_2/IDWriteColorGlyphRunEnumerator::GetCurrentRun"]
 old-location: directwrite\idwritecolorglyphrunenumerator_getcurrentrun.htm
 tech.root: DirectWrite
 ms.assetid: F4D89E35-3846-41F0-A724-3648DC9D487E

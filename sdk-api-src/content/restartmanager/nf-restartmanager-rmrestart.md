@@ -1,7 +1,8 @@
 ---
 UID: NF:restartmanager.RmRestart
 title: RmRestart function (restartmanager.h)
-description: Restarts applications and services that have been shut down by the RmShutdown function and that have been registered to be restarted using the RegisterApplicationRestart function.helpviewer_keywords: ["RmRestart","RmRestart function [Restart Mgr]","restartmanager/RmRestart","rstmgr.rmrestart"]
+description: Restarts applications and services that have been shut down by the RmShutdown function and that have been registered to be restarted using the RegisterApplicationRestart function.
+helpviewer_keywords: ["RmRestart","RmRestart function [Restart Mgr]","restartmanager/RmRestart","rstmgr.rmrestart"]
 old-location: rstmgr\rmrestart.htm
 tech.root: rstmgr
 ms.assetid: e0939b31-0233-40d2-96cf-bbabe9488a12

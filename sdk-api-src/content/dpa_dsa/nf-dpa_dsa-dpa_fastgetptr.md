@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DPA_FastGetPtr
 title: DPA_FastGetPtr macro (dpa_dsa.h)
-description: Gets the value of the specified pointer in the dynamic pointer array (DPA).helpviewer_keywords: ["DPA_FastGetPtr","DPA_FastGetPtr macro [Windows Controls]","_shell_DPA_FastGetPtr","_shell_DPA_FastGetPtr_cpp","controls.DPA_FastGetPtr","controls._shell_DPA_FastGetPtr","dpa_dsa/DPA_FastGetPtr"]
+description: Gets the value of the specified pointer in the dynamic pointer array (DPA).
+helpviewer_keywords: ["DPA_FastGetPtr","DPA_FastGetPtr macro [Windows Controls]","_shell_DPA_FastGetPtr","_shell_DPA_FastGetPtr_cpp","controls.DPA_FastGetPtr","controls._shell_DPA_FastGetPtr","dpa_dsa/DPA_FastGetPtr"]
 old-location: controls\DPA_FastGetPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\dpa_fastgetptr.htm

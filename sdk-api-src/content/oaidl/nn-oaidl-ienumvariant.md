@@ -1,7 +1,8 @@
 ---
 UID: NN:oaidl.IEnumVARIANT
 title: IEnumVARIANT (oaidl.h)
-description: Provides a method for enumerating a collection of variants, including heterogeneous collections of objects and intrinsic types.helpviewer_keywords: ["IEnumVARIANT","IEnumVARIANT interface [Automation]","IEnumVARIANT interface [Automation]","described","_oa96_IEnumVARIANT_Interface","automat.ienumvariant","oaidl/IEnumVARIANT"]
+description: Provides a method for enumerating a collection of variants, including heterogeneous collections of objects and intrinsic types.
+helpviewer_keywords: ["IEnumVARIANT","IEnumVARIANT interface [Automation]","IEnumVARIANT interface [Automation]","described","_oa96_IEnumVARIANT_Interface","automat.ienumvariant","oaidl/IEnumVARIANT"]
 old-location: automat\ienumvariant.htm
 tech.root: automat
 ms.assetid: 139e3c93-faef-4003-9079-e0e94494db3e

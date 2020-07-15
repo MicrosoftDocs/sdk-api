@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetOutputSetting
 title: IWMReaderAdvanced2::GetOutputSetting (wmsdkidl.h)
-description: The GetOutputSetting method retrieves a setting for a particular output by name.helpviewer_keywords: ["GetOutputSetting","GetOutputSetting method [windows Media Format]","GetOutputSetting method [windows Media Format]","IWMReaderAdvanced2 interface","IWMReaderAdvanced2 interface [windows Media Format]","GetOutputSetting method","IWMReaderAdvanced2.GetOutputSetting","IWMReaderAdvanced2::GetOutputSetting","IWMReaderAdvanced2GetOutputSetting","wmformat.iwmreaderadvanced2_getoutputsetting","wmsdkidl/IWMReaderAdvanced2::GetOutputSetting"]
+description: The GetOutputSetting method retrieves a setting for a particular output by name.
+helpviewer_keywords: ["GetOutputSetting","GetOutputSetting method [windows Media Format]","GetOutputSetting method [windows Media Format]","IWMReaderAdvanced2 interface","IWMReaderAdvanced2 interface [windows Media Format]","GetOutputSetting method","IWMReaderAdvanced2.GetOutputSetting","IWMReaderAdvanced2::GetOutputSetting","IWMReaderAdvanced2GetOutputSetting","wmformat.iwmreaderadvanced2_getoutputsetting","wmsdkidl/IWMReaderAdvanced2::GetOutputSetting"]
 old-location: wmformat\iwmreaderadvanced2_getoutputsetting.htm
 tech.root: wmformat
 ms.assetid: a46da973-8f2f-48b8-9a74-d54e67f68a83

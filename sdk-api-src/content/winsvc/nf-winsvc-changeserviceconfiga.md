@@ -1,7 +1,8 @@
 ---
 UID: NF:winsvc.ChangeServiceConfigA
 title: ChangeServiceConfigA function (winsvc.h)
-description: Changes the configuration parameters of a service.helpviewer_keywords: ["ChangeServiceConfig","ChangeServiceConfig function","ChangeServiceConfigA","ChangeServiceConfigW","SERVICE_AUTO_START","SERVICE_BOOT_START","SERVICE_DEMAND_START","SERVICE_DISABLED","SERVICE_ERROR_CRITICAL","SERVICE_ERROR_IGNORE","SERVICE_ERROR_NORMAL","SERVICE_ERROR_SEVERE","SERVICE_FILE_SYSTEM_DRIVER","SERVICE_INTERACTIVE_PROCESS","SERVICE_KERNEL_DRIVER","SERVICE_SYSTEM_START","SERVICE_WIN32_OWN_PROCESS","SERVICE_WIN32_SHARE_PROCESS","_win32_changeserviceconfig","base.changeserviceconfig","winsvc/ChangeServiceConfig","winsvc/ChangeServiceConfigA","winsvc/ChangeServiceConfigW"]
+description: Changes the configuration parameters of a service.
+helpviewer_keywords: ["ChangeServiceConfig","ChangeServiceConfig function","ChangeServiceConfigA","ChangeServiceConfigW","SERVICE_AUTO_START","SERVICE_BOOT_START","SERVICE_DEMAND_START","SERVICE_DISABLED","SERVICE_ERROR_CRITICAL","SERVICE_ERROR_IGNORE","SERVICE_ERROR_NORMAL","SERVICE_ERROR_SEVERE","SERVICE_FILE_SYSTEM_DRIVER","SERVICE_INTERACTIVE_PROCESS","SERVICE_KERNEL_DRIVER","SERVICE_SYSTEM_START","SERVICE_WIN32_OWN_PROCESS","SERVICE_WIN32_SHARE_PROCESS","_win32_changeserviceconfig","base.changeserviceconfig","winsvc/ChangeServiceConfig","winsvc/ChangeServiceConfigA","winsvc/ChangeServiceConfigW"]
 old-location: base\changeserviceconfig.htm
 tech.root: Services
 ms.assetid: add8a99b-aced-4341-9790-86efac76df6b
@@ -499,6 +500,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winsvc.h header defines ChangeServiceConfig as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

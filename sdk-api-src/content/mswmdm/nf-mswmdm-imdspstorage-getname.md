@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPStorage.GetName
 title: IMDSPStorage::GetName (mswmdm.h)
-description: The GetName method retrieves the display name of the storage object.helpviewer_keywords: ["GetName","GetName method [windows Media Device Manager]","GetName method [windows Media Device Manager]","IMDSPStorage interface","IMDSPStorage interface [windows Media Device Manager]","GetName method","IMDSPStorage.GetName","IMDSPStorage::GetName","IMDSPStorageGetName","mswmdm/IMDSPStorage::GetName","wmdm.imdspstorage_getname"]
+description: The GetName method retrieves the display name of the storage object.
+helpviewer_keywords: ["GetName","GetName method [windows Media Device Manager]","GetName method [windows Media Device Manager]","IMDSPStorage interface","IMDSPStorage interface [windows Media Device Manager]","GetName method","IMDSPStorage.GetName","IMDSPStorage::GetName","IMDSPStorageGetName","mswmdm/IMDSPStorage::GetName","wmdm.imdspstorage_getname"]
 old-location: wmdm\imdspstorage_getname.htm
 tech.root: WMDM
 ms.assetid: 6172f222-8b92-4da5-8001-b79431c26518

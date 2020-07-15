@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.SetColorMatrices
 title: ImageAttributes::SetColorMatrices (gdiplusimageattributes.h)
-description: The ImageAttributes::SetColorMatrices method sets the color-adjustment matrix and the grayscale-adjustment matrix for a specified category.helpviewer_keywords: ["ImageAttributes class [GDI+]","SetColorMatrices method","ImageAttributes.SetColorMatrices","ImageAttributes::SetColorMatrices","SetColorMatrices","SetColorMatrices method [GDI+]","SetColorMatrices method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetColorMatrices_colorMatrix_grayMatrix_mode_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetColorMatrices_colorMatrix_grayMatrix_mode_type_"]
+description: The ImageAttributes::SetColorMatrices method sets the color-adjustment matrix and the grayscale-adjustment matrix for a specified category.
+helpviewer_keywords: ["ImageAttributes class [GDI+]","SetColorMatrices method","ImageAttributes.SetColorMatrices","ImageAttributes::SetColorMatrices","SetColorMatrices","SetColorMatrices method [GDI+]","SetColorMatrices method [GDI+]","ImageAttributes class","_gdiplus_CLASS_ImageAttributes_SetColorMatrices_colorMatrix_grayMatrix_mode_type_","gdiplus._gdiplus_CLASS_ImageAttributes_SetColorMatrices_colorMatrix_grayMatrix_mode_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_SetColorMatrices_colorMatrix_grayMatrix_mode_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\setcolormatrices.htm

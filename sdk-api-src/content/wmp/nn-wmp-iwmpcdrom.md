@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPCdrom
 title: IWMPCdrom (wmp.h)
-description: The IWMPCdrom interface provides a way to access a CD or DVD in its drive.helpviewer_keywords: ["IWMPCdrom","IWMPCdrom interface [Windows Media Player]","IWMPCdrom interface [Windows Media Player]","described","IWMPCdromInterface","wmp.iwmpcdrom","wmp/IWMPCdrom"]
+description: The IWMPCdrom interface provides a way to access a CD or DVD in its drive.
+helpviewer_keywords: ["IWMPCdrom","IWMPCdrom interface [Windows Media Player]","IWMPCdrom interface [Windows Media Player]","described","IWMPCdromInterface","wmp.iwmpcdrom","wmp/IWMPCdrom"]
 old-location: wmp\iwmpcdrom.htm
 tech.root: WMP
 ms.assetid: 323a6841-ffbd-4bbb-ac04-1d121cf5bd06

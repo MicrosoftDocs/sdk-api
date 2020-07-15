@@ -1,7 +1,8 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetTransferSize
 title: WdsCliGetTransferSize function (wdsclientapi.h)
-description: Returns the size of the current file transfer.helpviewer_keywords: ["WdsCliGetTransferSize","WdsCliGetTransferSize function [Windows Deployment Services]","wds.wdscligettransfersize","wdsclientapi/WdsCliGetTransferSize"]
+description: Returns the size of the current file transfer.
+helpviewer_keywords: ["WdsCliGetTransferSize","WdsCliGetTransferSize function [Windows Deployment Services]","wds.wdscligettransfersize","wdsclientapi/WdsCliGetTransferSize"]
 old-location: wds\wdscligettransfersize.htm
 tech.root: wds
 ms.assetid: 411ef76f-8075-4d1a-8ec1-faa399e073a4

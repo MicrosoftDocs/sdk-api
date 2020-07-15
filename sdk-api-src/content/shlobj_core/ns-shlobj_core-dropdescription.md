@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_8
 title: DROPDESCRIPTION (shlobj_core.h)
-description: Describes the image and accompanying text for a drop object.helpviewer_keywords: ["DROPDESCRIPTION","DROPDESCRIPTION structure [Windows Shell]","_shell_DROPDESCRIPTION","shell.DROPDESCRIPTION","shlobj_core/DROPDESCRIPTION"]
+description: Describes the image and accompanying text for a drop object.
+helpviewer_keywords: ["DROPDESCRIPTION","DROPDESCRIPTION structure [Windows Shell]","_shell_DROPDESCRIPTION","shell.DROPDESCRIPTION","shlobj_core/DROPDESCRIPTION"]
 old-location: shell\DROPDESCRIPTION.htm
 tech.root: shell
 ms.assetid: 78757001-cac8-412d-a6c3-74bae6eb3ad8

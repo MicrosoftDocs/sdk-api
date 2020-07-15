@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingactivity.TraceLoggingWriteStart
 title: TraceLoggingWriteStart macro (traceloggingactivity.h)
-description: Starts an activity and logs the start event.helpviewer_keywords: ["TraceLoggingWriteStart","TraceLoggingWriteStart macro","tracelogging.traceloggingwritestart","traceloggingactivity/TraceLoggingWriteStart"]
+description: Starts an activity and logs the start event.
+helpviewer_keywords: ["TraceLoggingWriteStart","TraceLoggingWriteStart macro","tracelogging.traceloggingwritestart","traceloggingactivity/TraceLoggingWriteStart"]
 old-location: tracelogging\traceloggingwritestart.htm
 tech.root: tracelogging
 ms.assetid: E5B9347E-50A7-49BE-BDD5-DCED39371234

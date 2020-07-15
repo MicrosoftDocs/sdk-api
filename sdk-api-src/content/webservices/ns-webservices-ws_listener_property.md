@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_LISTENER_PROPERTY
 title: WS_LISTENER_PROPERTY (webservices.h)
-description: Specifies a listener specific setting.helpviewer_keywords: ["WS_LISTENER_PROPERTY","WS_LISTENER_PROPERTY structure [Web Services for Windows]","webservices/WS_LISTENER_PROPERTY","wsw.ws_listener_property"]
+description: Specifies a listener specific setting.
+helpviewer_keywords: ["WS_LISTENER_PROPERTY","WS_LISTENER_PROPERTY structure [Web Services for Windows]","webservices/WS_LISTENER_PROPERTY","wsw.ws_listener_property"]
 old-location: wsw\ws_listener_property.htm
 tech.root: wsw
 ms.assetid: 52e4a5d3-e584-40d1-b71f-b4ef61104883

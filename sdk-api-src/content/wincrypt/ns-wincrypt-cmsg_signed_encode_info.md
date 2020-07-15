@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CMSG_SIGNED_ENCODE_INFO
 title: CMSG_SIGNED_ENCODE_INFO (wincrypt.h)
-description: Contains information to be passed to CryptMsgOpenToEncode if dwMsgType is CMSG_SIGNED.helpviewer_keywords: ["*PCMSG_SIGNED_ENCODE_INFO","CMSG_SIGNED_ENCODE_INFO","CMSG_SIGNED_ENCODE_INFO structure [Security]","_crypto2_cmsg_signed_encode_info","security.cmsg_signed_encode_info","wincrypt/CMSG_SIGNED_ENCODE_INFO"]
+description: Contains information to be passed to CryptMsgOpenToEncode if dwMsgType is CMSG_SIGNED.
+helpviewer_keywords: ["*PCMSG_SIGNED_ENCODE_INFO","CMSG_SIGNED_ENCODE_INFO","CMSG_SIGNED_ENCODE_INFO structure [Security]","_crypto2_cmsg_signed_encode_info","security.cmsg_signed_encode_info","wincrypt/CMSG_SIGNED_ENCODE_INFO"]
 old-location: security\cmsg_signed_encode_info.htm
 tech.root: SecCrypto
 ms.assetid: 93138744-8316-461b-908a-1eab47e83f63

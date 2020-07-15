@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.ColorCurve.ColorCurve
 title: ColorCurve::ColorCurve (gdipluseffects.h)
-description: Creates a ColorCurve object.helpviewer_keywords: ["ColorCurve","ColorCurve class [GDI+]","ColorCurve constructor","ColorCurve constructor [GDI+]","ColorCurve constructor [GDI+]","ColorCurve class","ColorCurve.ColorCurve","ColorCurve::ColorCurve","_gdiplus_CLASS_ColorCurve_ColorCurve_","gdiplus._gdiplus_CLASS_ColorCurve_ColorCurve_"]
+description: Creates a ColorCurve object.
+helpviewer_keywords: ["ColorCurve","ColorCurve class [GDI+]","ColorCurve constructor","ColorCurve constructor [GDI+]","ColorCurve constructor [GDI+]","ColorCurve class","ColorCurve.ColorCurve","ColorCurve::ColorCurve","_gdiplus_CLASS_ColorCurve_ColorCurve_","gdiplus._gdiplus_CLASS_ColorCurve_ColorCurve_"]
 old-location: gdiplus\_gdiplus_CLASS_ColorCurve_ColorCurve_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colorcurveclass\colorcurveconstructors\colorcurve.htm

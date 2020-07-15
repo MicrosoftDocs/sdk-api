@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplustypes.RectF.Intersect(OUT RectF &,IN const RectF &,IN const RectF &)
+UID: NF:gdiplustypes.RectF.Intersect(OUTRectF&,INconstRectF&,INconstRectF&)
 title: RectF::Intersect(OUT RectF &,IN const RectF &,IN const RectF &) (gdiplustypes.h)
-description: The RectF::Intersect method determines the intersection of two rectangles and stores the result in a RectF object.helpviewer_keywords: ["Intersect","Intersect method [GDI+]","Intersect method [GDI+]","RectF class","RectF class [GDI+]","Intersect method","RectF.Intersect","RectF.Intersect(OUT RectF &","IN const RectF &","IN const RectF &)","RectF.Intersect(RectF&","const RectF&","const RectF&)","RectF::Intersect","RectF::Intersect(OUT RectF &","IN const RectF &","IN const RectF &)","_gdiplus_CLASS_RectF_Intersect_c_a_b_","gdiplus._gdiplus_CLASS_RectF_Intersect_c_a_b_"]
+description: The RectF::Intersect method determines the intersection of two rectangles and stores the result in a RectF object.
+helpviewer_keywords: ["Intersect","Intersect method [GDI+]","Intersect method [GDI+]","RectF class","RectF class [GDI+]","Intersect method","RectF.Intersect","RectF.Intersect(OUT RectF &","IN const RectF &","IN const RectF &)","RectF.Intersect(RectF&","const RectF&","const RectF&)","RectF::Intersect","RectF::Intersect(OUT RectF &","IN const RectF &","IN const RectF &)","_gdiplus_CLASS_RectF_Intersect_c_a_b_","gdiplus._gdiplus_CLASS_RectF_Intersect_c_a_b_"]
 old-location: gdiplus\_gdiplus_CLASS_RectF_Intersect_c_a_b_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\rectfclass\rectfmethods\rectfintersectmethods\intersect_1c_a_b.htm

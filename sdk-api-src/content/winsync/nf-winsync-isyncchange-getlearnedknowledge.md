@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChange.GetLearnedKnowledge
 title: ISyncChange::GetLearnedKnowledge (winsync.h)
-description: Gets the knowledge that a replica will learn when this change is applied to its item store.helpviewer_keywords: ["GetLearnedKnowledge","GetLearnedKnowledge method [Windows Sync]","GetLearnedKnowledge method [Windows Sync]","ISyncChange interface","ISyncChange interface [Windows Sync]","GetLearnedKnowledge method","ISyncChange.GetLearnedKnowledge","ISyncChange::GetLearnedKnowledge","winsync.isyncchange_getlearnedknowledge","winsync/ISyncChange::GetLearnedKnowledge"]
+description: Gets the knowledge that a replica will learn when this change is applied to its item store.
+helpviewer_keywords: ["GetLearnedKnowledge","GetLearnedKnowledge method [Windows Sync]","GetLearnedKnowledge method [Windows Sync]","ISyncChange interface","ISyncChange interface [Windows Sync]","GetLearnedKnowledge method","ISyncChange.GetLearnedKnowledge","ISyncChange::GetLearnedKnowledge","winsync.isyncchange_getlearnedknowledge","winsync/ISyncChange::GetLearnedKnowledge"]
 old-location: winsync\isyncchange_getlearnedknowledge.htm
 tech.root: winsync
 ms.assetid: 7a9ba0b8-160e-4ab3-8686-d3d12e4f4ecc

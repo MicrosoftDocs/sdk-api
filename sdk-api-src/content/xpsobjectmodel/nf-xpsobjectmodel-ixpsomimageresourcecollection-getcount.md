@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageResourceCollection.GetCount
 title: IXpsOMImageResourceCollection::GetCount (xpsobjectmodel.h)
-description: Gets the number of IXpsOMImageResource interface pointers in the collection.helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMImageResourceCollection interface","IXpsOMImageResourceCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMImageResourceCollection.GetCount","IXpsOMImageResourceCollection::GetCount","xps.ixpsomimageresourcecollection_getcount","xpsobjectmodel/IXpsOMImageResourceCollection::GetCount"]
+description: Gets the number of IXpsOMImageResource interface pointers in the collection.
+helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMImageResourceCollection interface","IXpsOMImageResourceCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMImageResourceCollection.GetCount","IXpsOMImageResourceCollection::GetCount","xps.ixpsomimageresourcecollection_getcount","xpsobjectmodel/IXpsOMImageResourceCollection::GetCount"]
 old-location: xps\ixpsomimageresourcecollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 9a5e5bfa-6c37-4008-a5be-6a7ed59631df

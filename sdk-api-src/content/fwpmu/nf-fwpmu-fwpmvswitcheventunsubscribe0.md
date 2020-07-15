@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmvSwitchEventUnsubscribe0
 title: FwpmvSwitchEventUnsubscribe0 function (fwpmu.h)
-description: Is used to cancel a vSwitch event subscription and stop receiving notifications.helpviewer_keywords: ["FwpmvSwitchEventUnsubscribe0","FwpmvSwitchEventUnsubscribe0 function [Filtering]","fwp.fwpmvswitcheventunsubscribe0","fwpmu/FwpmvSwitchEventUnsubscribe0"]
+description: Is used to cancel a vSwitch event subscription and stop receiving notifications.
+helpviewer_keywords: ["FwpmvSwitchEventUnsubscribe0","FwpmvSwitchEventUnsubscribe0 function [Filtering]","fwp.fwpmvswitcheventunsubscribe0","fwpmu/FwpmvSwitchEventUnsubscribe0"]
 old-location: fwp\fwpmvswitcheventunsubscribe0.htm
 tech.root: fwp
 ms.assetid: adc258b4-c4ee-4ff8-8174-42c58377ea32

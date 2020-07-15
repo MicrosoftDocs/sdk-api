@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_OperationOptions_GetOption
 title: MI_OperationOptions_GetOption function (mi.h)
-description: Gets a previously added option value based on the option name.helpviewer_keywords: ["MI_OperationOptions_GetOption","MI_OperationOptions_GetOption function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetOption","wmi_v2.mi_operationoptions_getoption"]
+description: Gets a previously added option value based on the option name.
+helpviewer_keywords: ["MI_OperationOptions_GetOption","MI_OperationOptions_GetOption function [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions_GetOption","wmi_v2.mi_operationoptions_getoption"]
 old-location: wmi_v2\mi_operationoptions_getoption.htm
 tech.root: wmi_v2
 ms.assetid: bff6d5ee-9f13-4b54-8f33-4f73ce553c25

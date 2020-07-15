@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.SetVarCustData
 title: ICreateTypeInfo2::SetVarCustData (oaidl.h)
-description: Sets a value for custom data for the specified variable.helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetVarCustData method","ICreateTypeInfo2.SetVarCustData","ICreateTypeInfo2::SetVarCustData","SetVarCustData","SetVarCustData method [Automation]","SetVarCustData method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetVarCustData","automat.icreatetypeinfo2_setvarcustdata","oaidl/ICreateTypeInfo2::SetVarCustData"]
+description: Sets a value for custom data for the specified variable.
+helpviewer_keywords: ["ICreateTypeInfo2 interface [Automation]","SetVarCustData method","ICreateTypeInfo2.SetVarCustData","ICreateTypeInfo2::SetVarCustData","SetVarCustData","SetVarCustData method [Automation]","SetVarCustData method [Automation]","ICreateTypeInfo2 interface","_oa96_ICreateTypeInfo2_SetVarCustData","automat.icreatetypeinfo2_setvarcustdata","oaidl/ICreateTypeInfo2::SetVarCustData"]
 old-location: automat\icreatetypeinfo2_setvarcustdata.htm
 tech.root: automat
 ms.assetid: 7055ad6b-89d8-47d9-bdfa-26b323e53133

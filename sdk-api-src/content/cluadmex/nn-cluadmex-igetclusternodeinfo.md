@@ -1,7 +1,8 @@
 ---
 UID: NN:cluadmex.IGetClusterNodeInfo
 title: IGetClusterNodeInfo (cluadmex.h)
-description: The IGetClusterNodeInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a node.helpviewer_keywords: ["IGetClusterNodeInfo","IGetClusterNodeInfo interface [Failover Cluster]","IGetClusterNodeInfo interface [Failover Cluster]","described","_wolf_igetclusternodeinfo","cluadmex/IGetClusterNodeInfo","mscs.igetclusternodeinfo"]
+description: The IGetClusterNodeInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a node.
+helpviewer_keywords: ["IGetClusterNodeInfo","IGetClusterNodeInfo interface [Failover Cluster]","IGetClusterNodeInfo interface [Failover Cluster]","described","_wolf_igetclusternodeinfo","cluadmex/IGetClusterNodeInfo","mscs.igetclusternodeinfo"]
 old-location: mscs\igetclusternodeinfo.htm
 tech.root: MsCS
 ms.assetid: 97c90830-1f6d-4f8f-ba0a-fee39aef5c1d

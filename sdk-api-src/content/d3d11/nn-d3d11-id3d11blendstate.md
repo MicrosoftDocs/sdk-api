@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11.ID3D11BlendState
 title: ID3D11BlendState (d3d11.h)
-description: The blend-state interface holds a description for blending state that you can bind to the output-merger stage.helpviewer_keywords: ["888911a9-f093-b7b1-a4c3-e9f05bd39107","ID3D11BlendState","ID3D11BlendState interface [Direct3D 11]","ID3D11BlendState interface [Direct3D 11]","described","d3d11/ID3D11BlendState","direct3d11.id3d11blendstate"]
+description: The blend-state interface holds a description for blending state that you can bind to the output-merger stage.
+helpviewer_keywords: ["888911a9-f093-b7b1-a4c3-e9f05bd39107","ID3D11BlendState","ID3D11BlendState interface [Direct3D 11]","ID3D11BlendState interface [Direct3D 11]","described","d3d11/ID3D11BlendState","direct3d11.id3d11blendstate"]
 old-location: direct3d11\id3d11blendstate.htm
 tech.root: direct3d11
 ms.assetid: ccb39c89-eba7-473c-8358-dc3513da4be7

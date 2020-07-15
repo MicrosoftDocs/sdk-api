@@ -1,7 +1,8 @@
 ---
 UID: NS:vfw._AVISTREAMINFOA
 title: AVISTREAMINFOA (vfw.h)
-description: The AVISTREAMINFO structure contains information for a single stream.helpviewer_keywords: ["*LPAVISTREAMINFOA","AVISTREAMINFO","AVISTREAMINFO structure [Windows Multimedia]","AVISTREAMINFOA","AVISTREAMINFOW","AVISTREAMINFO_DISABLED","AVISTREAMINFO_FORMATCHANGES","multimedia.avistreaminfo_COLLISION869","multimedia.avistreaminfo_struct","streamtypeAUDIO","streamtypeMIDI","streamtypeTEXT","streamtypeVIDEO","vfw/AVISTREAMINFO"]
+description: The AVISTREAMINFO structure contains information for a single stream.
+helpviewer_keywords: ["*LPAVISTREAMINFOA","AVISTREAMINFO","AVISTREAMINFO structure [Windows Multimedia]","AVISTREAMINFOA","AVISTREAMINFOW","AVISTREAMINFO_DISABLED","AVISTREAMINFO_FORMATCHANGES","multimedia.avistreaminfo_COLLISION869","multimedia.avistreaminfo_struct","streamtypeAUDIO","streamtypeMIDI","streamtypeTEXT","streamtypeVIDEO","vfw/AVISTREAMINFO"]
 old-location: multimedia\avistreaminfo_struct.htm
 tech.root: Multimedia
 ms.assetid: dca6d9ca-a825-4bd0-a19d-0655d775fdfb
@@ -263,4 +264,9 @@ Null-terminated string containing a description of the stream.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The vfw.h header defines AVISTREAMINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

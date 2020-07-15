@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsVolume2.GetProperties2
 title: IVdsVolume2::GetProperties2 (vds.h)
-description: Returns property information for the current volume. This method is identical to the IVdsVolume::GetProperties method, except that it returns a VDS_VOLUME_PROP2 structure instead of a VDS_VOLUME_PROP structure.helpviewer_keywords: ["GetProperties2","GetProperties2 method","GetProperties2 method","IVdsVolume2 interface","IVdsVolume2 interface","GetProperties2 method","IVdsVolume2.GetProperties2","IVdsVolume2::GetProperties2","base.ivdsvolume2_getproperties2","vds/IVdsVolume2::GetProperties2"]
+description: Returns property information for the current volume. This method is identical to the IVdsVolume::GetProperties method, except that it returns a VDS_VOLUME_PROP2 structure instead of a VDS_VOLUME_PROP structure.
+helpviewer_keywords: ["GetProperties2","GetProperties2 method","GetProperties2 method","IVdsVolume2 interface","IVdsVolume2 interface","GetProperties2 method","IVdsVolume2.GetProperties2","IVdsVolume2::GetProperties2","base.ivdsvolume2_getproperties2","vds/IVdsVolume2::GetProperties2"]
 old-location: base\ivdsvolume2_getproperties2.htm
 tech.root: VDS
 ms.assetid: 9580ceb2-6b2f-4313-a140-f6fa6a366960

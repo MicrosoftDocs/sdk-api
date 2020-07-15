@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireDeviceSelectionDialog.SetTitle
 title: IPhotoAcquireDeviceSelectionDialog::SetTitle (photoacquire.h)
-description: The SetTitle method sets the title of the device selection dialog box.helpviewer_keywords: ["IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition]","SetTitle method","IPhotoAcquireDeviceSelectionDialog.SetTitle","IPhotoAcquireDeviceSelectionDialog::SetTitle","IPhotoAcquireDeviceSelectionDialogSetTitle","SetTitle","SetTitle method [Picture Acquisition]","SetTitle method [Picture Acquisition]","IPhotoAcquireDeviceSelectionDialog interface","photoacquire/IPhotoAcquireDeviceSelectionDialog::SetTitle","picacq.iphotoacquiredeviceselectiondialog_settitle"]
+description: The SetTitle method sets the title of the device selection dialog box.
+helpviewer_keywords: ["IPhotoAcquireDeviceSelectionDialog interface [Picture Acquisition]","SetTitle method","IPhotoAcquireDeviceSelectionDialog.SetTitle","IPhotoAcquireDeviceSelectionDialog::SetTitle","IPhotoAcquireDeviceSelectionDialogSetTitle","SetTitle","SetTitle method [Picture Acquisition]","SetTitle method [Picture Acquisition]","IPhotoAcquireDeviceSelectionDialog interface","photoacquire/IPhotoAcquireDeviceSelectionDialog::SetTitle","picacq.iphotoacquiredeviceselectiondialog_settitle"]
 old-location: picacq\iphotoacquiredeviceselectiondialog_settitle.htm
 tech.root: acquisition
 ms.assetid: e8338978-3232-41b2-87ee-11eee3e90fc6

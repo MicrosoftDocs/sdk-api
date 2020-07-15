@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegCloseKey
 title: ClusterRegCloseKey function (clusapi.h)
-description: Releases the handle of a cluster database key.helpviewer_keywords: ["ClusterRegCloseKey","ClusterRegCloseKey function [Failover Cluster]","_wolf_clusterregclosekey","clusapi/ClusterRegCloseKey","mscs.clusterregclosekey"]
+description: Releases the handle of a cluster database key.
+helpviewer_keywords: ["ClusterRegCloseKey","ClusterRegCloseKey function [Failover Cluster]","_wolf_clusterregclosekey","clusapi/ClusterRegCloseKey","mscs.clusterregclosekey"]
 old-location: mscs\clusterregclosekey.htm
 tech.root: MsCS
 ms.assetid: 2216ac42-6beb-4ceb-bd15-12bb2886bc6a

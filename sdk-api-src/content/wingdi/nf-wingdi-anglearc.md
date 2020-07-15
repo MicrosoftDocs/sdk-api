@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.AngleArc
 title: AngleArc function (wingdi.h)
-description: The AngleArc function draws a line segment and an arc.helpviewer_keywords: ["AngleArc","AngleArc function [Windows GDI]","_win32_AngleArc","gdi.anglearc","wingdi/AngleArc"]
+description: The AngleArc function draws a line segment and an arc.
+helpviewer_keywords: ["AngleArc","AngleArc function [Windows GDI]","_win32_AngleArc","gdi.anglearc","wingdi/AngleArc"]
 old-location: gdi\anglearc.htm
 tech.root: gdi
 ms.assetid: 65c38da1-ab7d-4e80-83e3-ba1db66f8fd9

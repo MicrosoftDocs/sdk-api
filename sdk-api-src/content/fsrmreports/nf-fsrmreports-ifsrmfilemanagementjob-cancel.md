@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.Cancel
 title: IFsrmFileManagementJob::Cancel (fsrmreports.h)
-description: Cancels the job if it is running.helpviewer_keywords: ["Cancel","Cancel method [File Server Resource Manager]","Cancel method [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","Cancel method","IFsrmFileManagementJob.Cancel","IFsrmFileManagementJob::Cancel","fs.ifsrmfilemanagementjob_cancel","fsrm.ifsrmfilemanagementjob_cancel","fsrmreports/IFsrmFileManagementJob::Cancel"]
+description: Cancels the job if it is running.
+helpviewer_keywords: ["Cancel","Cancel method [File Server Resource Manager]","Cancel method [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","Cancel method","IFsrmFileManagementJob.Cancel","IFsrmFileManagementJob::Cancel","fs.ifsrmfilemanagementjob_cancel","fsrm.ifsrmfilemanagementjob_cancel","fsrmreports/IFsrmFileManagementJob::Cancel"]
 old-location: fsrm\ifsrmfilemanagementjob_cancel.htm
 tech.root: fsrm
 ms.assetid: 3abb6673-fdd8-4828-ba7a-7666208dc8f0

@@ -78,8 +78,6 @@ When setting this property value, the value can be text that is retrieved from a
 
 
 
-<a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
- 
 
- 
+<a href="/windows/desktop/api/taskschd/nn-taskschd-iemailaction">IEmailAction</a>
 

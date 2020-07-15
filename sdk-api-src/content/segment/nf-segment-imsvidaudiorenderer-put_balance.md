@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidAudioRenderer.put_Balance
 title: IMSVidAudioRenderer::put_Balance (segment.h)
-description: The put_Balance method specifies the audio renderer's balance level.helpviewer_keywords: ["IMSVidAudioRenderer interface [Microsoft TV Technologies]","put_Balance method","IMSVidAudioRenderer.put_Balance","IMSVidAudioRenderer::put_Balance","IMSVidAudioRendererput_Balance","mstv.imsvidaudiorenderer_put_balance","put_Balance","put_Balance method [Microsoft TV Technologies]","put_Balance method [Microsoft TV Technologies]","IMSVidAudioRenderer interface","segment/IMSVidAudioRenderer::put_Balance"]
+description: The put_Balance method specifies the audio renderer's balance level.
+helpviewer_keywords: ["IMSVidAudioRenderer interface [Microsoft TV Technologies]","put_Balance method","IMSVidAudioRenderer.put_Balance","IMSVidAudioRenderer::put_Balance","IMSVidAudioRendererput_Balance","mstv.imsvidaudiorenderer_put_balance","put_Balance","put_Balance method [Microsoft TV Technologies]","put_Balance method [Microsoft TV Technologies]","IMSVidAudioRenderer interface","segment/IMSVidAudioRenderer::put_Balance"]
 old-location: mstv\imsvidaudiorenderer_put_balance.htm
 tech.root: mstv
 ms.assetid: 25a9231a-d34a-4657-be0a-fcc979d1745d

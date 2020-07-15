@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsoleVerb.GetDefaultVerb
 title: IConsoleVerb::GetDefaultVerb (mmc.h)
-description: The GetDefaultVerb method gets the snap-in's default verb.helpviewer_keywords: ["GetDefaultVerb","GetDefaultVerb method [MMC]","GetDefaultVerb method [MMC]","IConsoleVerb interface","IConsoleVerb interface [MMC]","GetDefaultVerb method","IConsoleVerb.GetDefaultVerb","IConsoleVerb::GetDefaultVerb","_slate_iconsoleverb_getdefaultverb","mmc.iconsoleverb_getdefaultverb","mmc/IConsoleVerb::GetDefaultVerb"]
+description: The GetDefaultVerb method gets the snap-in's default verb.
+helpviewer_keywords: ["GetDefaultVerb","GetDefaultVerb method [MMC]","GetDefaultVerb method [MMC]","IConsoleVerb interface","IConsoleVerb interface [MMC]","GetDefaultVerb method","IConsoleVerb.GetDefaultVerb","IConsoleVerb::GetDefaultVerb","_slate_iconsoleverb_getdefaultverb","mmc.iconsoleverb_getdefaultverb","mmc/IConsoleVerb::GetDefaultVerb"]
 old-location: mmc\iconsoleverb_getdefaultverb.htm
 tech.root: mmc
 ms.assetid: e30f3690-361b-4aee-97e7-014e2e8ee6a4

@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.Multiply128
 title: Multiply128 function (winnt.h)
-description: Multiplies two 64-bit integers to produce a 128-bit integer.helpviewer_keywords: ["Multiply128","Multiply128 function [Windows API]","winnt/Multiply128","winprog.multiply128"]
+description: Multiplies two 64-bit integers to produce a 128-bit integer.
+helpviewer_keywords: ["Multiply128","Multiply128 function [Windows API]","winnt/Multiply128","winprog.multiply128"]
 old-location: winprog\multiply128.htm
 tech.root: WinProg
 ms.assetid: EB398E5B-1EE8-4BFA-889A-A46094F82B9F

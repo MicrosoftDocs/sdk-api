@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkStrokeDisp.GetPoints
 title: IInkStrokeDisp::GetPoints (msinkaut.h)
-description: Retrieves the points that make up a stroke.helpviewer_keywords: ["76378521-15d1-48a0-ae9f-8362faf60c9f","GetPoints","GetPoints method [Tablet PC]","GetPoints method [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","GetPoints method","IInkStrokeDisp.GetPoints","IInkStrokeDisp::GetPoints","msinkaut/IInkStrokeDisp::GetPoints","tablet.iinkstrokedisp_getpoints"]
+description: Retrieves the points that make up a stroke.
+helpviewer_keywords: ["76378521-15d1-48a0-ae9f-8362faf60c9f","GetPoints","GetPoints method [Tablet PC]","GetPoints method [Tablet PC]","IInkStrokeDisp interface","IInkStrokeDisp interface [Tablet PC]","GetPoints method","IInkStrokeDisp.GetPoints","IInkStrokeDisp::GetPoints","msinkaut/IInkStrokeDisp::GetPoints","tablet.iinkstrokedisp_getpoints"]
 old-location: tablet\iinkstrokedisp_getpoints.htm
 tech.root: tablet
 ms.assetid: 76378521-15d1-48a0-ae9f-8362faf60c9f

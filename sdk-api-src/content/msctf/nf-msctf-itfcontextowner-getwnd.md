@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetWnd
 title: ITfContextOwner::GetWnd (msctf.h)
-description: The ITfContextOwner::GetWnd method returns the handle to a window that corresponds to the current document.helpviewer_keywords: ["GetWnd","GetWnd method [Text Services Framework]","GetWnd method [Text Services Framework]","ITfContextOwner interface","ITfContextOwner interface [Text Services Framework]","GetWnd method","ITfContextOwner.GetWnd","ITfContextOwner::GetWnd","_tsf_itfcontextowner_getwnd_ref","msctf/ITfContextOwner::GetWnd","tsf.itfcontextowner_getwnd"]
+description: The ITfContextOwner::GetWnd method returns the handle to a window that corresponds to the current document.
+helpviewer_keywords: ["GetWnd","GetWnd method [Text Services Framework]","GetWnd method [Text Services Framework]","ITfContextOwner interface","ITfContextOwner interface [Text Services Framework]","GetWnd method","ITfContextOwner.GetWnd","ITfContextOwner::GetWnd","_tsf_itfcontextowner_getwnd_ref","msctf/ITfContextOwner::GetWnd","tsf.itfcontextowner_getwnd"]
 old-location: tsf\itfcontextowner_getwnd.htm
 tech.root: TSF
 ms.assetid: 91dfc873-3327-49f4-924a-b013fa90459b

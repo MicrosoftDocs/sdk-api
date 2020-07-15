@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.IEnumPluggableTerminalClassInfo.Skip
 title: IEnumPluggableTerminalClassInfo::Skip (tapi3if.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.helpviewer_keywords: ["IEnumPluggableTerminalClassInfo interface [TAPI 2.2]","Skip method","IEnumPluggableTerminalClassInfo.Skip","IEnumPluggableTerminalClassInfo::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumPluggableTerminalClassInfo interface","_tapi3_ienumpluggableterminalclassinfo_skip","tapi3.ienumpluggableterminalclassinfo_skip","tapi3if/IEnumPluggableTerminalClassInfo::Skip"]
+description: The Skip method skips over the next specified number of elements in the enumeration sequence. This method is hidden from Visual Basic and scripting languages.
+helpviewer_keywords: ["IEnumPluggableTerminalClassInfo interface [TAPI 2.2]","Skip method","IEnumPluggableTerminalClassInfo.Skip","IEnumPluggableTerminalClassInfo::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumPluggableTerminalClassInfo interface","_tapi3_ienumpluggableterminalclassinfo_skip","tapi3.ienumpluggableterminalclassinfo_skip","tapi3if/IEnumPluggableTerminalClassInfo::Skip"]
 old-location: tapi3\ienumpluggableterminalclassinfo_skip.htm
 tech.root: Tapi
 ms.assetid: 19880df4-7c1c-4840-a1c9-c51f2e9fd0fc

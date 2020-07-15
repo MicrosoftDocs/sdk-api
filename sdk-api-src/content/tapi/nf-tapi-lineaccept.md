@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineAccept
 title: lineAccept function (tapi.h)
-description: The lineAccept function accepts the specified offered call. It can optionally send the specified user-user information to the calling party.helpviewer_keywords: ["_tapi2_lineaccept","lineAccept","lineAccept function [TAPI 2.2]","tapi/lineAccept","tapi2.lineaccept"]
+description: The lineAccept function accepts the specified offered call. It can optionally send the specified user-user information to the calling party.
+helpviewer_keywords: ["_tapi2_lineaccept","lineAccept","lineAccept function [TAPI 2.2]","tapi/lineAccept","tapi2.lineaccept"]
 old-location: tapi2\lineaccept.htm
 tech.root: Tapi
 ms.assetid: 185f129a-ba8c-496b-ab1a-ba22e5928c54

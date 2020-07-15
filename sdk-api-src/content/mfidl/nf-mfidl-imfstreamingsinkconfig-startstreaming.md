@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFStreamingSinkConfig.StartStreaming
 title: IMFStreamingSinkConfig::StartStreaming (mfidl.h)
-description: Called by the streaming media client before the Media Session starts streaming to specify the byte offset or the time offset.helpviewer_keywords: ["FALSE","IMFStreamingSinkConfig interface [Media Foundation]","StartStreaming method","IMFStreamingSinkConfig.StartStreaming","IMFStreamingSinkConfig::StartStreaming","StartStreaming","StartStreaming method [Media Foundation]","StartStreaming method [Media Foundation]","IMFStreamingSinkConfig interface","TRUE","mf.imfstreamingsinkconfig_startstreaming","mfidl/IMFStreamingSinkConfig::StartStreaming"]
+description: Called by the streaming media client before the Media Session starts streaming to specify the byte offset or the time offset.
+helpviewer_keywords: ["FALSE","IMFStreamingSinkConfig interface [Media Foundation]","StartStreaming method","IMFStreamingSinkConfig.StartStreaming","IMFStreamingSinkConfig::StartStreaming","StartStreaming","StartStreaming method [Media Foundation]","StartStreaming method [Media Foundation]","IMFStreamingSinkConfig interface","TRUE","mf.imfstreamingsinkconfig_startstreaming","mfidl/IMFStreamingSinkConfig::StartStreaming"]
 old-location: mf\imfstreamingsinkconfig_startstreaming.htm
 tech.root: medfound
 ms.assetid: 22a75b19-9949-48fe-8844-511b11fbf20b

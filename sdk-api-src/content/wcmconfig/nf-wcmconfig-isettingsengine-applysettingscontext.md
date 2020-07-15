@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsEngine.ApplySettingsContext
 title: ISettingsEngine::ApplySettingsContext (wcmconfig.h)
-description: Applies a settings context.helpviewer_keywords: ["ApplySettingsContext","ApplySettingsContext method [SMI]","ApplySettingsContext method [SMI]","ISettingsEngine interface","ISettingsEngine interface [SMI]","ApplySettingsContext method","ISettingsEngine.ApplySettingsContext","ISettingsEngine::ApplySettingsContext","smi.isettingsengine_applysettingscontext","wcmconfig/ISettingsEngine::ApplySettingsContext"]
+description: Applies a settings context.
+helpviewer_keywords: ["ApplySettingsContext","ApplySettingsContext method [SMI]","ApplySettingsContext method [SMI]","ISettingsEngine interface","ISettingsEngine interface [SMI]","ApplySettingsContext method","ISettingsEngine.ApplySettingsContext","ISettingsEngine::ApplySettingsContext","smi.isettingsengine_applysettingscontext","wcmconfig/ISettingsEngine::ApplySettingsContext"]
 old-location: smi\isettingsengine_applysettingscontext.htm
 tech.root: SMI
 ms.assetid: 459a97fb-e5fb-42a5-998d-84631fec2e6f

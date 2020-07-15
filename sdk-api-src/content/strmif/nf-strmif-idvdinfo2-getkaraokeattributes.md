@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetKaraokeAttributes
 title: IDvdInfo2::GetKaraokeAttributes (strmif.h)
-description: The GetKaraokeAttributes method retrieves the karaoke attributes of the specified audio stream in the current title or menu.helpviewer_keywords: ["GetKaraokeAttributes","GetKaraokeAttributes method [DirectShow]","GetKaraokeAttributes method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetKaraokeAttributes method","IDvdInfo2.GetKaraokeAttributes","IDvdInfo2::GetKaraokeAttributes","IDvdInfo2GetKaraokeAttributes","dshow.idvdinfo2_getkaraokeattributes","strmif/IDvdInfo2::GetKaraokeAttributes"]
+description: The GetKaraokeAttributes method retrieves the karaoke attributes of the specified audio stream in the current title or menu.
+helpviewer_keywords: ["GetKaraokeAttributes","GetKaraokeAttributes method [DirectShow]","GetKaraokeAttributes method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetKaraokeAttributes method","IDvdInfo2.GetKaraokeAttributes","IDvdInfo2::GetKaraokeAttributes","IDvdInfo2GetKaraokeAttributes","dshow.idvdinfo2_getkaraokeattributes","strmif/IDvdInfo2::GetKaraokeAttributes"]
 old-location: dshow\idvdinfo2_getkaraokeattributes.htm
 tech.root: DirectShow
 ms.assetid: c69ea1e0-8d8a-4cd3-86a4-a2d481160a2e

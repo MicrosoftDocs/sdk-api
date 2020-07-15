@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscMaster2.get_IsSupportedEnvironment
 title: IDiscMaster2::get_IsSupportedEnvironment (imapi2.h)
-description: Retrieves a value that determines if the environment contains one or more optical devices and the execution context has permission to access the devices.helpviewer_keywords: ["IDiscMaster2 interface [IMAPI]","get_IsSupportedEnvironment method","IDiscMaster2.get_IsSupportedEnvironment","IDiscMaster2::get_IsSupportedEnvironment","get_IsSupportedEnvironment","get_IsSupportedEnvironment method [IMAPI]","get_IsSupportedEnvironment method [IMAPI]","IDiscMaster2 interface","imapi.idiscmaster2_get_issupportedenvironment","imapi2/IDiscMaster2::get_IsSupportedEnvironment"]
+description: Retrieves a value that determines if the environment contains one or more optical devices and the execution context has permission to access the devices.
+helpviewer_keywords: ["IDiscMaster2 interface [IMAPI]","get_IsSupportedEnvironment method","IDiscMaster2.get_IsSupportedEnvironment","IDiscMaster2::get_IsSupportedEnvironment","get_IsSupportedEnvironment","get_IsSupportedEnvironment method [IMAPI]","get_IsSupportedEnvironment method [IMAPI]","IDiscMaster2 interface","imapi.idiscmaster2_get_issupportedenvironment","imapi2/IDiscMaster2::get_IsSupportedEnvironment"]
 old-location: imapi\idiscmaster2_get_issupportedenvironment.htm
 tech.root: imapi
 ms.assetid: abaa4d89-07b2-4e7a-a0c9-8a31abfd9dd0

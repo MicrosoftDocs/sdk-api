@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.GetPriority
 title: IBackgroundCopyJob::GetPriority (bits.h)
-description: Retrieves the priority level for the job. The priority level determines when the job is processed relative to other jobs in the transfer queue.helpviewer_keywords: ["GetPriority","GetPriority method [BITS]","GetPriority method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetPriority method","IBackgroundCopyJob.GetPriority","IBackgroundCopyJob::GetPriority","_drz_ibackgroundcopyjob_getpriority","bits.ibackgroundcopyjob_getpriority","bits/IBackgroundCopyJob::GetPriority"]
+description: Retrieves the priority level for the job. The priority level determines when the job is processed relative to other jobs in the transfer queue.
+helpviewer_keywords: ["GetPriority","GetPriority method [BITS]","GetPriority method [BITS]","IBackgroundCopyJob interface","IBackgroundCopyJob interface [BITS]","GetPriority method","IBackgroundCopyJob.GetPriority","IBackgroundCopyJob::GetPriority","_drz_ibackgroundcopyjob_getpriority","bits.ibackgroundcopyjob_getpriority","bits/IBackgroundCopyJob::GetPriority"]
 old-location: bits\ibackgroundcopyjob_getpriority.htm
 tech.root: Bits
 ms.assetid: 8602ed59-a372-4cb3-bbda-cf1c7afc3669

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsecure.IWMSecureChannel.WMSC_AddSignature
 title: IWMSecureChannel::WMSC_AddSignature (wmsecure.h)
-description: The WMSC_AddSignature method adds signatures that this object will look for when trying to connect. If no signatures are added, then this object will connect to any other object.helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_AddSignature method","IWMSecureChannel.WMSC_AddSignature","IWMSecureChannel::WMSC_AddSignature","WMSC_AddSignature","WMSC_AddSignature method [windows Media Format]","WMSC_AddSignature method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_addsignature","wmsecure/IWMSecureChannel::WMSC_AddSignature"]
+description: The WMSC_AddSignature method adds signatures that this object will look for when trying to connect. If no signatures are added, then this object will connect to any other object.
+helpviewer_keywords: ["IWMSecureChannel interface [windows Media Format]","WMSC_AddSignature method","IWMSecureChannel.WMSC_AddSignature","IWMSecureChannel::WMSC_AddSignature","WMSC_AddSignature","WMSC_AddSignature method [windows Media Format]","WMSC_AddSignature method [windows Media Format]","IWMSecureChannel interface","wmformat.iwmsecurechannel_wmsc_addsignature","wmsecure/IWMSecureChannel::WMSC_AddSignature"]
 old-location: wmformat\iwmsecurechannel_wmsc_addsignature.htm
 tech.root: wmformat
 ms.assetid: 08fa8ec6-8832-4b5d-bb0d-0a7485ca63d3

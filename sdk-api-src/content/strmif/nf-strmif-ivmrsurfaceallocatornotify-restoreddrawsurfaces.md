@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces
 title: IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces (strmif.h)
-description: The RestoreDDrawSurfaces method notifies the VMR that a DirectDraw surface &#0034;loss&#0034; has been detected.helpviewer_keywords: ["IVMRSurfaceAllocatorNotify interface [DirectShow]","RestoreDDrawSurfaces method","IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces","IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces","IVMRSurfaceAllocatorNotifyRestoreDDrawSurfaces","RestoreDDrawSurfaces","RestoreDDrawSurfaces method [DirectShow]","RestoreDDrawSurfaces method [DirectShow]","IVMRSurfaceAllocatorNotify interface","dshow.ivmrsurfaceallocatornotify_restoreddrawsurfaces","strmif/IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces"]
+description: The RestoreDDrawSurfaces method notifies the VMR that a DirectDraw surface &quot;loss&quot; has been detected.
+helpviewer_keywords: ["IVMRSurfaceAllocatorNotify interface [DirectShow]","RestoreDDrawSurfaces method","IVMRSurfaceAllocatorNotify.RestoreDDrawSurfaces","IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces","IVMRSurfaceAllocatorNotifyRestoreDDrawSurfaces","RestoreDDrawSurfaces","RestoreDDrawSurfaces method [DirectShow]","RestoreDDrawSurfaces method [DirectShow]","IVMRSurfaceAllocatorNotify interface","dshow.ivmrsurfaceallocatornotify_restoreddrawsurfaces","strmif/IVMRSurfaceAllocatorNotify::RestoreDDrawSurfaces"]
 old-location: dshow\ivmrsurfaceallocatornotify_restoreddrawsurfaces.htm
 tech.root: DirectShow
 ms.assetid: b62df5fb-6759-4869-a6b3-f78978e1f5e2

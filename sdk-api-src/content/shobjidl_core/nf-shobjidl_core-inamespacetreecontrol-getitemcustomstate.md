@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.GetItemCustomState
 title: INameSpaceTreeControl::GetItemCustomState (shobjidl_core.h)
-description: Gets the state of the checkbox associated with a given Shell item.helpviewer_keywords: ["GetItemCustomState","GetItemCustomState method [Windows Shell]","GetItemCustomState method [Windows Shell]","INameSpaceTreeControl interface","INameSpaceTreeControl interface [Windows Shell]","GetItemCustomState method","INameSpaceTreeControl.GetItemCustomState","INameSpaceTreeControl::GetItemCustomState","_shell_INameSpaceTreeControl_GetItemCustomState","shell.INameSpaceTreeControl_GetItemCustomState","shobjidl_core/INameSpaceTreeControl::GetItemCustomState"]
+description: Gets the state of the checkbox associated with a given Shell item.
+helpviewer_keywords: ["GetItemCustomState","GetItemCustomState method [Windows Shell]","GetItemCustomState method [Windows Shell]","INameSpaceTreeControl interface","INameSpaceTreeControl interface [Windows Shell]","GetItemCustomState method","INameSpaceTreeControl.GetItemCustomState","INameSpaceTreeControl::GetItemCustomState","_shell_INameSpaceTreeControl_GetItemCustomState","shell.INameSpaceTreeControl_GetItemCustomState","shobjidl_core/INameSpaceTreeControl::GetItemCustomState"]
 old-location: shell\INameSpaceTreeControl_GetItemCustomState.htm
 tech.root: shell
 ms.assetid: 16fb3e3a-1686-4bdf-9112-564bb85fb601

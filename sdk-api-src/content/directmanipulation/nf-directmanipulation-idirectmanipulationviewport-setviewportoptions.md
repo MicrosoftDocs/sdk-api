@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetViewportOptions
 title: IDirectManipulationViewport::SetViewportOptions (directmanipulation.h)
-description: Sets how the viewport handles input and output.helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","SetViewportOptions method","IDirectManipulationViewport.SetViewportOptions","IDirectManipulationViewport::SetViewportOptions","SetViewportOptions","SetViewportOptions method [Direct Manipulation]","SetViewportOptions method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_setviewportoptions","directmanipulation/IDirectManipulationViewport::SetViewportOptions"]
+description: Sets how the viewport handles input and output.
+helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","SetViewportOptions method","IDirectManipulationViewport.SetViewportOptions","IDirectManipulationViewport::SetViewportOptions","SetViewportOptions","SetViewportOptions method [Direct Manipulation]","SetViewportOptions method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_setviewportoptions","directmanipulation/IDirectManipulationViewport::SetViewportOptions"]
 old-location: directmanipulation\idirectmanipulationviewport_setviewportoptions.htm
 tech.root: directmanipulation
 ms.assetid: F2B861B9-9E86-4AEE-B86C-03BF37F0988B

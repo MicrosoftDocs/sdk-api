@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRecognizer.get_PreferredPacketDescription
 title: IInkRecognizer::get_PreferredPacketDescription (msinkaut.h)
-description: Gets an array of globally unique identifiers (GUIDs) that represents the preferred packet properties for the recognizer.helpviewer_keywords: ["3486f667-a050-4063-99bf-09865d6edbda","IInkRecognizer interface [Tablet PC]","PreferredPacketDescription property","IInkRecognizer.PreferredPacketDescription","IInkRecognizer.get_PreferredPacketDescription","IInkRecognizer::PreferredPacketDescription","IInkRecognizer::get_PreferredPacketDescription","PreferredPacketDescription property [Tablet PC]","PreferredPacketDescription property [Tablet PC]","IInkRecognizer interface","get_PreferredPacketDescription","msinkaut/IInkRecognizer::PreferredPacketDescription","msinkaut/IInkRecognizer::get_PreferredPacketDescription","tablet.iinkrecognizer_preferredpacketdescription"]
+description: Gets an array of globally unique identifiers (GUIDs) that represents the preferred packet properties for the recognizer.
+helpviewer_keywords: ["3486f667-a050-4063-99bf-09865d6edbda","IInkRecognizer interface [Tablet PC]","PreferredPacketDescription property","IInkRecognizer.PreferredPacketDescription","IInkRecognizer.get_PreferredPacketDescription","IInkRecognizer::PreferredPacketDescription","IInkRecognizer::get_PreferredPacketDescription","PreferredPacketDescription property [Tablet PC]","PreferredPacketDescription property [Tablet PC]","IInkRecognizer interface","get_PreferredPacketDescription","msinkaut/IInkRecognizer::PreferredPacketDescription","msinkaut/IInkRecognizer::get_PreferredPacketDescription","tablet.iinkrecognizer_preferredpacketdescription"]
 old-location: tablet\iinkrecognizer_preferredpacketdescription.htm
 tech.root: tablet
 ms.assetid: 3486f667-a050-4063-99bf-09865d6edbda

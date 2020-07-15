@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIViewer.get_Properties
 title: IRDPSRAPIViewer::get_Properties (rdpencomapi.h)
-description: Returns an object implementing the IRDPSRAPISessionProperties interface.helpviewer_keywords: ["IRDPSRAPIViewer interface [RDP]","Properties property","IRDPSRAPIViewer.Properties","IRDPSRAPIViewer.get_Properties","IRDPSRAPIViewer::Properties","IRDPSRAPIViewer::get_Properties","Properties property [RDP]","Properties property [RDP]","IRDPSRAPIViewer interface","Properties property [RDP]","RDPViewer object","RDPViewer object [RDP]","Properties property","get_Properties","rdp.irdpsrapiviewer_properties","rdpencomapi/IRDPSRAPIViewer::Properties","rdpencomapi/IRDPSRAPIViewer::get_Properties"]
+description: Returns an object implementing the IRDPSRAPISessionProperties interface.
+helpviewer_keywords: ["IRDPSRAPIViewer interface [RDP]","Properties property","IRDPSRAPIViewer.Properties","IRDPSRAPIViewer.get_Properties","IRDPSRAPIViewer::Properties","IRDPSRAPIViewer::get_Properties","Properties property [RDP]","Properties property [RDP]","IRDPSRAPIViewer interface","Properties property [RDP]","RDPViewer object","RDPViewer object [RDP]","Properties property","get_Properties","rdp.irdpsrapiviewer_properties","rdpencomapi/IRDPSRAPIViewer::Properties","rdpencomapi/IRDPSRAPIViewer::get_Properties"]
 old-location: rdp\irdpsrapiviewer_properties.htm
 tech.root: rdp
 ms.assetid: 86930ad8-6389-47b9-9397-0662a0a36f04

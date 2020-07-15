@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_2
 title: RSVP_SESSION (lpmapi.h)
-description: The RSVP_SESSION structure stores information about an RSVP SESSION message.helpviewer_keywords: ["RSVP_SESSION","RSVP_SESSION structure [QOS]","lpmapi/RSVP_SESSION","qos.rsvp_session"]
+description: The RSVP_SESSION structure stores information about an RSVP SESSION message.
+helpviewer_keywords: ["RSVP_SESSION","RSVP_SESSION structure [QOS]","lpmapi/RSVP_SESSION","qos.rsvp_session"]
 old-location: qos\rsvp_session.htm
 tech.root: QOS
 ms.assetid: d6674de9-7d79-40f2-ae45-4410408ba047

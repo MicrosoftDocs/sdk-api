@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceDescriptor.GetServiceNameEmphasized
 title: IDvbServiceDescriptor::GetServiceNameEmphasized (dvbsiparser.h)
-description: Gets the emphasized service name from a Digital Video Broadcast (DVB) service descriptor.helpviewer_keywords: ["GetServiceNameEmphasized","GetServiceNameEmphasized method [Microsoft TV Technologies]","GetServiceNameEmphasized method [Microsoft TV Technologies]","IDvbServiceDescriptor interface","IDvbServiceDescriptor interface [Microsoft TV Technologies]","GetServiceNameEmphasized method","IDvbServiceDescriptor.GetServiceNameEmphasized","IDvbServiceDescriptor::GetServiceNameEmphasized","dvbsiparser/IDvbServiceDescriptor::GetServiceNameEmphasized","mstv.idvbservicedescriptor_getservicenameemphasized"]
+description: Gets the emphasized service name from a Digital Video Broadcast (DVB) service descriptor.
+helpviewer_keywords: ["GetServiceNameEmphasized","GetServiceNameEmphasized method [Microsoft TV Technologies]","GetServiceNameEmphasized method [Microsoft TV Technologies]","IDvbServiceDescriptor interface","IDvbServiceDescriptor interface [Microsoft TV Technologies]","GetServiceNameEmphasized method","IDvbServiceDescriptor.GetServiceNameEmphasized","IDvbServiceDescriptor::GetServiceNameEmphasized","dvbsiparser/IDvbServiceDescriptor::GetServiceNameEmphasized","mstv.idvbservicedescriptor_getservicenameemphasized"]
 old-location: mstv\idvbservicedescriptor_getservicenameemphasized.htm
 tech.root: mstv
 ms.assetid: 232bdf11-b9f5-48cd-8cd5-f03cd589d43e

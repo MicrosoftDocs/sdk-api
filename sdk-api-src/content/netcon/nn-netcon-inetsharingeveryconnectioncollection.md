@@ -1,7 +1,8 @@
 ---
 UID: NN:netcon.INetSharingEveryConnectionCollection
 title: INetSharingEveryConnectionCollection (netcon.h)
-description: The INetSharingEveryConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate all the connections in the connections folder.helpviewer_keywords: ["INetSharingEveryConnectionCollection","INetSharingEveryConnectionCollection interface [ICS/ICF]","INetSharingEveryConnectionCollection interface [ICS/ICF]","described","_ics_inetsharingeveryconnectioncollection","ics.inetsharingeveryconnectioncollection","netcon/INetSharingEveryConnectionCollection"]
+description: The INetSharingEveryConnectionCollection interface makes it possible for scripting languages such as VBScript and JScript to enumerate all the connections in the connections folder.
+helpviewer_keywords: ["INetSharingEveryConnectionCollection","INetSharingEveryConnectionCollection interface [ICS/ICF]","INetSharingEveryConnectionCollection interface [ICS/ICF]","described","_ics_inetsharingeveryconnectioncollection","ics.inetsharingeveryconnectioncollection","netcon/INetSharingEveryConnectionCollection"]
 old-location: ics\inetsharingeveryconnectioncollection.htm
 tech.root: ics
 ms.assetid: a53c15f0-c7f3-49ea-a85d-663ad4b12f6e

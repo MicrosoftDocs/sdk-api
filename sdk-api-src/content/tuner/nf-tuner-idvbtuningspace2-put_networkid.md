@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IDVBTuningSpace2.put_NetworkID
 title: IDVBTuningSpace2::put_NetworkID (tuner.h)
-description: The put_NetworkID method sets the Network ID of the DVB system.helpviewer_keywords: ["IDVBTuningSpace2 interface [Microsoft TV Technologies]","put_NetworkID method","IDVBTuningSpace2.put_NetworkID","IDVBTuningSpace2::put_NetworkID","IDVBTuningSpace2put_NetworkID","mstv.idvbtuningspace2_put_networkid","put_NetworkID","put_NetworkID method [Microsoft TV Technologies]","put_NetworkID method [Microsoft TV Technologies]","IDVBTuningSpace2 interface","tuner/IDVBTuningSpace2::put_NetworkID"]
+description: The put_NetworkID method sets the Network ID of the DVB system.
+helpviewer_keywords: ["IDVBTuningSpace2 interface [Microsoft TV Technologies]","put_NetworkID method","IDVBTuningSpace2.put_NetworkID","IDVBTuningSpace2::put_NetworkID","IDVBTuningSpace2put_NetworkID","mstv.idvbtuningspace2_put_networkid","put_NetworkID","put_NetworkID method [Microsoft TV Technologies]","put_NetworkID method [Microsoft TV Technologies]","IDVBTuningSpace2 interface","tuner/IDVBTuningSpace2::put_NetworkID"]
 old-location: mstv\idvbtuningspace2_put_networkid.htm
 tech.root: mstv
 ms.assetid: 4f307629-710d-4992-b407-311774aa544a

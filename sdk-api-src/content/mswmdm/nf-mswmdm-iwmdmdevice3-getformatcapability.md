@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMDevice3.GetFormatCapability
 title: IWMDMDevice3::GetFormatCapability (mswmdm.h)
-description: The GetFormatCapability method retrieves device support for files of a specified format. The capabilities are expressed as supported properties and their allowed values.helpviewer_keywords: ["GetFormatCapability","GetFormatCapability method [windows Media Device Manager]","GetFormatCapability method [windows Media Device Manager]","IWMDMDevice3 interface","IWMDMDevice3 interface [windows Media Device Manager]","GetFormatCapability method","IWMDMDevice3.GetFormatCapability","IWMDMDevice3::GetFormatCapability","IWMDMDevice3GetFormatCapability","mswmdm/IWMDMDevice3::GetFormatCapability","wmdm.iwmdmdevice3_getformatcapability"]
+description: The GetFormatCapability method retrieves device support for files of a specified format. The capabilities are expressed as supported properties and their allowed values.
+helpviewer_keywords: ["GetFormatCapability","GetFormatCapability method [windows Media Device Manager]","GetFormatCapability method [windows Media Device Manager]","IWMDMDevice3 interface","IWMDMDevice3 interface [windows Media Device Manager]","GetFormatCapability method","IWMDMDevice3.GetFormatCapability","IWMDMDevice3::GetFormatCapability","IWMDMDevice3GetFormatCapability","mswmdm/IWMDMDevice3::GetFormatCapability","wmdm.iwmdmdevice3_getformatcapability"]
 old-location: wmdm\iwmdmdevice3_getformatcapability.htm
 tech.root: WMDM
 ms.assetid: 728df998-748b-4c53-b5a6-3a6ccae0d7e4

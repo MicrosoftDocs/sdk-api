@@ -1,7 +1,8 @@
 ---
 UID: NF:versionhelpers.IsWindowsVersionOrGreater
 title: IsWindowsVersionOrGreater function (versionhelpers.h)
-description: Indicates if the current OS version matches, or is greater than, the provided version information.helpviewer_keywords: ["IsWindowsVersionOrGreater","IsWindowsVersionOrGreater function","base.iswindowsversionorgreater","versionhelpers/IsWindowsVersionOrGreater"]
+description: Indicates if the current OS version matches, or is greater than, the provided version information.
+helpviewer_keywords: ["IsWindowsVersionOrGreater","IsWindowsVersionOrGreater function","base.iswindowsversionorgreater","versionhelpers/IsWindowsVersionOrGreater"]
 old-location: base\iswindowsversionorgreater.htm
 tech.root: SysInfo
 ms.assetid: B28DFEC0-A94E-49F6-9DF0-4EE470EC4AF5
@@ -103,7 +104,7 @@ The major Service Pack version number.
 
 
 
-<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows8point1orgreater">IsWindows8Point10OrGreater</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindows8point1orgreater">IsWindows8Point1OrGreater</a>
 
 
 
@@ -137,6 +138,3 @@ The major Service Pack version number.
 
 <a href="https://docs.microsoft.com/windows/desktop/api/versionhelpers/nf-versionhelpers-iswindowsxpsp3orgreater">IsWindowsXPSP3OrGreater</a>
  
-
- 
-

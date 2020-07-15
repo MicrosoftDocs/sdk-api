@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpServerGetConfigVQ
 title: DhcpServerGetConfigVQ function (dhcpsapi.h)
-description: Retrieves the current DHCP server configuration settings.helpviewer_keywords: ["DhcpServerGetConfigVQ","DhcpServerGetConfigVQ function [DHCP]","dhcp.dhcpservergetconfigvq","dhcpsapi/DhcpServerGetConfigVQ"]
+description: Retrieves the current DHCP server configuration settings.
+helpviewer_keywords: ["DhcpServerGetConfigVQ","DhcpServerGetConfigVQ function [DHCP]","dhcp.dhcpservergetconfigvq","dhcpsapi/DhcpServerGetConfigVQ"]
 old-location: dhcp\dhcpservergetconfigvq.htm
 tech.root: DHCP
 ms.assetid: 77726631-2be0-4ec0-a50f-786e4f3b460a

@@ -1,7 +1,8 @@
 ---
 UID: NN:wpcapi.IWPCGamesSettings
 title: IWPCGamesSettings (wpcapi.h)
-description: Accesses games settings for the user.helpviewer_keywords: ["IWPCGamesSettings","IWPCGamesSettings interface","IWPCGamesSettings interface","described","parcon.iwpcgamessettings","wpcapi/IWPCGamesSettings"]
+description: Accesses games settings for the user.
+helpviewer_keywords: ["IWPCGamesSettings","IWPCGamesSettings interface","IWPCGamesSettings interface","described","parcon.iwpcgamessettings","wpcapi/IWPCGamesSettings"]
 old-location: parcon\iwpcgamessettings.htm
 tech.root: parcon
 ms.assetid: 7509d9ef-d437-406a-8de6-39733499ca0a

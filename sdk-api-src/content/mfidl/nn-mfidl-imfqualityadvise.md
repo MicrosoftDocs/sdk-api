@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFQualityAdvise
 title: IMFQualityAdvise (mfidl.h)
-description: Enables the quality manager to adjust the audio or video quality of a component in the pipeline.helpviewer_keywords: ["20681ce7-e07e-4e34-9238-ec23cc6bfc84","IMFQualityAdvise","IMFQualityAdvise interface [Media Foundation]","IMFQualityAdvise interface [Media Foundation]","described","mf.imfqualityadvise","mfidl/IMFQualityAdvise"]
+description: Enables the quality manager to adjust the audio or video quality of a component in the pipeline.
+helpviewer_keywords: ["20681ce7-e07e-4e34-9238-ec23cc6bfc84","IMFQualityAdvise","IMFQualityAdvise interface [Media Foundation]","IMFQualityAdvise interface [Media Foundation]","described","mf.imfqualityadvise","mfidl/IMFQualityAdvise"]
 old-location: mf\imfqualityadvise.htm
 tech.root: medfound
 ms.assetid: 20681ce7-e07e-4e34-9238-ec23cc6bfc84

@@ -1,7 +1,8 @@
 ---
 UID: NS:xamlom.CollectionElementValue
 title: CollectionElementValue (xamlom.h)
-description: Represents an element in a collection.helpviewer_keywords: ["CollectionElementValue","CollectionElementValue structure","PCollectionElementValue","PCollectionElementValue structure pointer","xaml_diagnostics.collectionelementvalue","xamlom/CollectionElementValue","xamlom/PCollectionElementValue"]
+description: Represents an element in a collection.
+helpviewer_keywords: ["CollectionElementValue","CollectionElementValue structure","PCollectionElementValue","PCollectionElementValue structure pointer","xaml_diagnostics.collectionelementvalue","xamlom/CollectionElementValue","xamlom/PCollectionElementValue"]
 old-location: xaml_diagnostics\collectionelementvalue.htm
 tech.root: xaml_diagnostics
 ms.assetid: 0FE09913-7EAF-4335-AF41-F83FEBCAF12E

@@ -1,7 +1,8 @@
 ---
 UID: NF:winnetwk.WNetConnectionDialog1W
 title: WNetConnectionDialog1W function (winnetwk.h)
-description: The WNetConnectionDialog1 function brings up a general browsing dialog for connecting to network resources. The function requires a CONNECTDLGSTRUCT to establish the dialog box parameters.helpviewer_keywords: ["WNetConnectionDialog1","WNetConnectionDialog1 function [Windows Networking (WNet)]","WNetConnectionDialog1A","WNetConnectionDialog1W","_win32_wnetconnectiondialog1","winnetwk/WNetConnectionDialog1","winnetwk/WNetConnectionDialog1A","winnetwk/WNetConnectionDialog1W","wnet.wnetconnectiondialog1"]
+description: The WNetConnectionDialog1 function brings up a general browsing dialog for connecting to network resources. The function requires a CONNECTDLGSTRUCT to establish the dialog box parameters.
+helpviewer_keywords: ["WNetConnectionDialog1","WNetConnectionDialog1 function [Windows Networking (WNet)]","WNetConnectionDialog1A","WNetConnectionDialog1W","_win32_wnetconnectiondialog1","winnetwk/WNetConnectionDialog1","winnetwk/WNetConnectionDialog1A","winnetwk/WNetConnectionDialog1W","wnet.wnetconnectiondialog1"]
 old-location: wnet\wnetconnectiondialog1.htm
 tech.root: WNet
 ms.assetid: 11390693-0ab3-4f8b-9209-bc0bceb98032
@@ -203,4 +204,9 @@ A network-specific error occurred. Call
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winnetwk.h header defines WNetConnectionDialog1 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

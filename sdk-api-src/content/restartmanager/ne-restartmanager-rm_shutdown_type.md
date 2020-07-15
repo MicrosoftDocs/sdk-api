@@ -1,7 +1,8 @@
 ---
 UID: NE:restartmanager._RM_SHUTDOWN_TYPE
 title: RM_SHUTDOWN_TYPE (restartmanager.h)
-description: Configures the shut down of applications.helpviewer_keywords: ["RM_SHUTDOWN_TYPE","RmForceShutdown","RmShutdownOnlyRegistered","_RM_SHUTDOWN_TYPE","_RM_SHUTDOWN_TYPE enumeration [Restart Mgr]","restartmanager/RmForceShutdown","restartmanager/RmShutdownOnlyRegistered","restartmanager/_RM_SHUTDOWN_TYPE","rstmgr.rm_shutdown_type"]
+description: Configures the shut down of applications.
+helpviewer_keywords: ["RM_SHUTDOWN_TYPE","RmForceShutdown","RmShutdownOnlyRegistered","_RM_SHUTDOWN_TYPE","_RM_SHUTDOWN_TYPE enumeration [Restart Mgr]","restartmanager/RmForceShutdown","restartmanager/RmShutdownOnlyRegistered","restartmanager/_RM_SHUTDOWN_TYPE","rstmgr.rm_shutdown_type"]
 old-location: rstmgr\rm_shutdown_type.htm
 tech.root: rstmgr
 ms.assetid: e75f60a3-535b-4c1f-85ae-37f4c4c71ede

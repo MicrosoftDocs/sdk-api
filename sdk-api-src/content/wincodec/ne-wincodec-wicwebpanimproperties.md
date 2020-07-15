@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICWebpAnimProperties
 title: WICWebpAnimProperties (wincodec.h)
-description: Specifies the animation properties of a WebP image.helpviewer_keywords: ["WICWebpAnimLoopCount","WICWebpAnimProperties","WICWebpAnimProperties enumeration [Windows Imaging Component]","wic.wicwebpanimproperties","wincodec/WICWebpAnimLoopCount","wincodec/WICWebpAnimProperties"]
+description: Specifies the animation properties of a WebP image.
+helpviewer_keywords: ["WICWebpAnimLoopCount","WICWebpAnimProperties","WICWebpAnimProperties enumeration [Windows Imaging Component]","wic.wicwebpanimproperties","wincodec/WICWebpAnimLoopCount","wincodec/WICWebpAnimProperties"]
 old-location: wic\wicwebpanimproperties.htm
 tech.root: wic
 ms.assetid: BECCBE42-5546-4243-A0B4-1240992D42DC

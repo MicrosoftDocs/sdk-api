@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetClassPropertyW
 title: SetupDiGetClassPropertyW function (setupapi.h)
-description: The SetupDiGetClassProperty function retrieves a device property that is set for a device setup class or a device interface class.helpviewer_keywords: ["SetupDiGetClassProperty","SetupDiGetClassProperty function [Device and Driver Installation]","SetupDiGetClassPropertyW","devinst.setupdigetclassproperty","di-rtns_0fff1c27-692b-488f-9cec-373e8f7b7484.xml","setupapi/SetupDiGetClassProperty"]
+description: The SetupDiGetClassProperty function retrieves a device property that is set for a device setup class or a device interface class.
+helpviewer_keywords: ["SetupDiGetClassProperty","SetupDiGetClassProperty function [Device and Driver Installation]","SetupDiGetClassPropertyW","devinst.setupdigetclassproperty","di-rtns_0fff1c27-692b-488f-9cec-373e8f7b7484.xml","setupapi/SetupDiGetClassProperty"]
 old-location: devinst\setupdigetclassproperty.htm
 tech.root: devinst
 ms.assetid: b90473fe-eb8c-463a-971c-422c108dec1d

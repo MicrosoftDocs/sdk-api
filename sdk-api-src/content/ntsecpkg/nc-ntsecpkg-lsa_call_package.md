@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.LSA_CALL_PACKAGE
 title: LSA_CALL_PACKAGE (ntsecpkg.h)
-description: The CallPackage function is used to call another security package to access its services.helpviewer_keywords: ["CallPackage","CallPackage callback function [Security]","LSA_CALL_PACKAGE","LSA_CALL_PACKAGE callback","_ssp_callpackage","ntsecpkg/CallPackage","security.callpackage"]
+description: The CallPackage function is used to call another security package to access its services.
+helpviewer_keywords: ["CallPackage","CallPackage callback function [Security]","LSA_CALL_PACKAGE","LSA_CALL_PACKAGE callback","_ssp_callpackage","ntsecpkg/CallPackage","security.callpackage"]
 old-location: security\callpackage.htm
 tech.root: SecAuthN
 ms.assetid: 770c41ab-df79-4371-9f1d-7bbce8193b5d

@@ -1,7 +1,8 @@
 ---
 UID: NF:amparse.IAMParse.Flush
 title: IAMParse::Flush (amparse.h)
-description: The Flush method clears the current file data to allow for a more rapid switch to a new file.helpviewer_keywords: ["Flush","Flush method [DirectShow]","Flush method [DirectShow]","IAMParse interface","IAMParse interface [DirectShow]","Flush method","IAMParse.Flush","IAMParse::Flush","IAMParseFlush","amparse/IAMParse::Flush","dshow.iamparse_flush"]
+description: The Flush method clears the current file data to allow for a more rapid switch to a new file.
+helpviewer_keywords: ["Flush","Flush method [DirectShow]","Flush method [DirectShow]","IAMParse interface","IAMParse interface [DirectShow]","Flush method","IAMParse.Flush","IAMParse::Flush","IAMParseFlush","amparse/IAMParse::Flush","dshow.iamparse_flush"]
 old-location: dshow\iamparse_flush.htm
 tech.root: DirectShow
 ms.assetid: 8ff33099-3dc4-4f43-8852-4bd6a8877f29

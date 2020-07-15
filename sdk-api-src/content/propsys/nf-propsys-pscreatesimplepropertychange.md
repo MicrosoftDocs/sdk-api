@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSCreateSimplePropertyChange
 title: PSCreateSimplePropertyChange function (propsys.h)
-description: Creates a simple property change.helpviewer_keywords: ["PSCreateSimplePropertyChange","PSCreateSimplePropertyChange function [Windows Properties]","_shell_PSCreateSimplePropertyChange","properties.PSCreateSimplePropertyChange","propsys/PSCreateSimplePropertyChange","shell.PSCreateSimplePropertyChange"]
+description: Creates a simple property change.
+helpviewer_keywords: ["PSCreateSimplePropertyChange","PSCreateSimplePropertyChange function [Windows Properties]","_shell_PSCreateSimplePropertyChange","properties.PSCreateSimplePropertyChange","propsys/PSCreateSimplePropertyChange","shell.PSCreateSimplePropertyChange"]
 old-location: properties\PSCreateSimplePropertyChange.htm
 tech.root: properties
 ms.assetid: d0bec600-47bd-481c-94b2-ffdff4f2c09b

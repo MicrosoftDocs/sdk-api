@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty
 title: IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty (propsys.h)
-description: Retrieves an IPropertyDescription object that represents the related property.helpviewer_keywords: ["GetRelatedProperty","GetRelatedProperty method [Windows Properties]","GetRelatedProperty method [Windows Properties]","IPropertyDescriptionRelatedPropertyInfo interface","IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties]","GetRelatedProperty method","IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty","IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty","_shell_IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty","properties.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty","propsys/IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty","shell.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty"]
+description: Retrieves an IPropertyDescription object that represents the related property.
+helpviewer_keywords: ["GetRelatedProperty","GetRelatedProperty method [Windows Properties]","GetRelatedProperty method [Windows Properties]","IPropertyDescriptionRelatedPropertyInfo interface","IPropertyDescriptionRelatedPropertyInfo interface [Windows Properties]","GetRelatedProperty method","IPropertyDescriptionRelatedPropertyInfo.GetRelatedProperty","IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty","_shell_IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty","properties.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty","propsys/IPropertyDescriptionRelatedPropertyInfo::GetRelatedProperty","shell.IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty"]
 old-location: properties\IPropertyDescriptionRelatedPropertyInfo_GetRelatedProperty.htm
 tech.root: properties
 ms.assetid: 735880dc-4cf2-4f4a-b9fc-f4dddd19415d

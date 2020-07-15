@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCloseContent
 title: WdsTransportProviderCloseContent function (wdstpdi.h)
-description: Closes a content stream specified by a handle.helpviewer_keywords: ["WdsTransportProviderCloseContent","WdsTransportProviderCloseContent callback","WdsTransportProviderCloseContent callback function [Windows Deployment Services]","wds.wdstransportproviderclosecontent","wdstpdi/WdsTransportProviderCloseContent"]
+description: Closes a content stream specified by a handle.
+helpviewer_keywords: ["WdsTransportProviderCloseContent","WdsTransportProviderCloseContent callback","WdsTransportProviderCloseContent callback function [Windows Deployment Services]","wds.wdstransportproviderclosecontent","wdstpdi/WdsTransportProviderCloseContent"]
 old-location: wds\wdstransportproviderclosecontent.htm
 tech.root: wds
 ms.assetid: 358fdf14-b57b-4c07-b0a5-d8f49aa96c21

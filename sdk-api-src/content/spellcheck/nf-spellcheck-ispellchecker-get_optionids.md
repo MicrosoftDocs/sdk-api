@@ -1,7 +1,8 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_OptionIds
 title: ISpellChecker::get_OptionIds (spellcheck.h)
-description: Gets all of the declared option identifiers.helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","OptionIds property","ISpellChecker.OptionIds","ISpellChecker.get_OptionIds","ISpellChecker::OptionIds","ISpellChecker::get_OptionIds","OptionIds property [Internationalization for Windows Applications]","OptionIds property [Internationalization for Windows Applications]","ISpellChecker interface","get_OptionIds","intl.ispellchecker_optionids","spellcheck/ISpellChecker::OptionIds","spellcheck/ISpellChecker::get_OptionIds"]
+description: Gets all of the declared option identifiers.
+helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","OptionIds property","ISpellChecker.OptionIds","ISpellChecker.get_OptionIds","ISpellChecker::OptionIds","ISpellChecker::get_OptionIds","OptionIds property [Internationalization for Windows Applications]","OptionIds property [Internationalization for Windows Applications]","ISpellChecker interface","get_OptionIds","intl.ispellchecker_optionids","spellcheck/ISpellChecker::OptionIds","spellcheck/ISpellChecker::get_OptionIds"]
 old-location: intl\ispellchecker_optionids.htm
 tech.root: Intl
 ms.assetid: 6770acd9-5dc7-4f86-a780-e724646a3d56

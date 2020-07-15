@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12.D3D12_RAYTRACING_TIER
 title: D3D12_RAYTRACING_TIER (d3d12.h)
-description: Specifies the level of ray tracing support on the graphics device.helpviewer_keywords: ["D3D12_RAYTRACING_TIER","D3D12_RAYTRACING_TIER enumeration","D3D12_RAYTRACING_TIER_1_0","D3D12_RAYTRACING_TIER_NOT_SUPPORTED","d3d12/D3D12_RAYTRACING_TIER","d3d12/D3D12_RAYTRACING_TIER_1_0","d3d12/D3D12_RAYTRACING_TIER_NOT_SUPPORTED","direct3d12.d3d12_raytracing_tier"]
+description: Specifies the level of ray tracing support on the graphics device.
+helpviewer_keywords: ["D3D12_RAYTRACING_TIER","D3D12_RAYTRACING_TIER enumeration","D3D12_RAYTRACING_TIER_1_0","D3D12_RAYTRACING_TIER_NOT_SUPPORTED","d3d12/D3D12_RAYTRACING_TIER","d3d12/D3D12_RAYTRACING_TIER_1_0","d3d12/D3D12_RAYTRACING_TIER_NOT_SUPPORTED","direct3d12.d3d12_raytracing_tier"]
 old-location: direct3d12\d3d12_raytracing_tier.htm
 tech.root: direct3d12
 ms.assetid: 1C97DD15-5BAD-4BDC-AE43-4B6A1350B6A0

@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.get_OverScan
 title: IMSVidVideoRenderer::get_OverScan (segment.h)
-description: The get_OverScan method retrieves the amount of clipping to perform on all sides of the video frame, in order to cut off random video noise.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","get_OverScan method","IMSVidVideoRenderer.get_OverScan","IMSVidVideoRenderer::get_OverScan","IMSVidVideoRendererget_OverScan","get_OverScan","get_OverScan method [Microsoft TV Technologies]","get_OverScan method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","mstv.imsvidvideorenderer_get_overscan","segment/IMSVidVideoRenderer::get_OverScan"]
+description: The get_OverScan method retrieves the amount of clipping to perform on all sides of the video frame, in order to cut off random video noise.
+helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","get_OverScan method","IMSVidVideoRenderer.get_OverScan","IMSVidVideoRenderer::get_OverScan","IMSVidVideoRendererget_OverScan","get_OverScan","get_OverScan method [Microsoft TV Technologies]","get_OverScan method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","mstv.imsvidvideorenderer_get_overscan","segment/IMSVidVideoRenderer::get_OverScan"]
 old-location: mstv\imsvidvideorenderer_get_overscan.htm
 tech.root: mstv
 ms.assetid: 2c4946e6-b25c-4e6a-b640-73982c0da871

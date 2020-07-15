@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit._findtextexa
 title: FINDTEXTEXA (richedit.h)
-description: Contains information about text to search for in a rich edit control. This structure is used with the EM_FINDTEXTEX message.helpviewer_keywords: ["FINDTEXTEX","FINDTEXTEX structure [Windows Controls]","FINDTEXTEXA","FINDTEXTEXW","_win32_FINDTEXTEX_str","_win32_FINDTEXTEX_str_cpp","controls.FINDTEXTEX","controls._win32_FINDTEXTEX_str","richedit/FINDTEXTEX","richedit/FINDTEXTEXA","richedit/FINDTEXTEXW"]
+description: Contains information about text to search for in a rich edit control. This structure is used with the EM_FINDTEXTEX message.
+helpviewer_keywords: ["FINDTEXTEX","FINDTEXTEX structure [Windows Controls]","FINDTEXTEXA","FINDTEXTEXW","_win32_FINDTEXTEX_str","_win32_FINDTEXTEX_str_cpp","controls.FINDTEXTEX","controls._win32_FINDTEXTEX_str","richedit/FINDTEXTEX","richedit/FINDTEXTEXA","richedit/FINDTEXTEXW"]
 old-location: controls\FINDTEXTEX.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\findtextex.htm
@@ -97,4 +98,9 @@ The range of characters in which the text was found. If the text was not found, 
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The richedit.h header defines FINDTEXTEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

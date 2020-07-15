@@ -1,7 +1,8 @@
 ---
 UID: NF:dshowasf.IConfigAsfWriter2.SetParam
 title: IConfigAsfWriter2::SetParam (dshowasf.h)
-description: The SetParam method sets the value of the specified filter configuration parameter.helpviewer_keywords: ["IConfigAsfWriter2 interface [DirectShow]","SetParam method","IConfigAsfWriter2.SetParam","IConfigAsfWriter2::SetParam","IConfigAsfWriter2SetParam","SetParam","SetParam method [DirectShow]","SetParam method [DirectShow]","IConfigAsfWriter2 interface","dshow.iconfigasfwriter2_setparam","dshowasf/IConfigAsfWriter2::SetParam"]
+description: The SetParam method sets the value of the specified filter configuration parameter.
+helpviewer_keywords: ["IConfigAsfWriter2 interface [DirectShow]","SetParam method","IConfigAsfWriter2.SetParam","IConfigAsfWriter2::SetParam","IConfigAsfWriter2SetParam","SetParam","SetParam method [DirectShow]","SetParam method [DirectShow]","IConfigAsfWriter2 interface","dshow.iconfigasfwriter2_setparam","dshowasf/IConfigAsfWriter2::SetParam"]
 old-location: dshow\iconfigasfwriter2_setparam.htm
 tech.root: DirectShow
 ms.assetid: 0294837c-0cf2-4a05-bef4-16d13864f759

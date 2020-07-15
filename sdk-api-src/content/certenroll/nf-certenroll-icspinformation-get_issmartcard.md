@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ICspInformation.get_IsSmartCard
 title: ICspInformation::get_IsSmartCard (certenroll.h)
-description: Retrieves a Boolean value that specifies whether the provider is a smart card provider.helpviewer_keywords: ["ICspInformation interface [Security]","IsSmartCard property","ICspInformation.IsSmartCard","ICspInformation.get_IsSmartCard","ICspInformation::IsSmartCard","ICspInformation::get_IsSmartCard","IsSmartCard property [Security]","IsSmartCard property [Security]","ICspInformation interface","certenroll/ICspInformation::IsSmartCard","certenroll/ICspInformation::get_IsSmartCard","get_IsSmartCard","security.icspinformation_issmartcard_property"]
+description: Retrieves a Boolean value that specifies whether the provider is a smart card provider.
+helpviewer_keywords: ["ICspInformation interface [Security]","IsSmartCard property","ICspInformation.IsSmartCard","ICspInformation.get_IsSmartCard","ICspInformation::IsSmartCard","ICspInformation::get_IsSmartCard","IsSmartCard property [Security]","IsSmartCard property [Security]","ICspInformation interface","certenroll/ICspInformation::IsSmartCard","certenroll/ICspInformation::get_IsSmartCard","get_IsSmartCard","security.icspinformation_issmartcard_property"]
 old-location: security\icspinformation_issmartcard_property.htm
 tech.root: seccertenroll
 ms.assetid: cfb88e17-39bb-4b4f-9eb3-3691376f8285

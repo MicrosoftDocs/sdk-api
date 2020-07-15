@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.AdviseKeyEventSink
 title: ITfKeystrokeMgr::AdviseKeyEventSink (msctf.h)
-description: ITfKeystrokeMgr::AdviseKeyEventSink methodhelpviewer_keywords: ["AdviseKeyEventSink","AdviseKeyEventSink method [Text Services Framework]","AdviseKeyEventSink method [Text Services Framework]","ITfKeystrokeMgr interface","ITfKeystrokeMgr interface [Text Services Framework]","AdviseKeyEventSink method","ITfKeystrokeMgr.AdviseKeyEventSink","ITfKeystrokeMgr::AdviseKeyEventSink","_tsf_itfkeystrokemgr_advisekeyeventsink_ref","msctf/ITfKeystrokeMgr::AdviseKeyEventSink","tsf.itfkeystrokemgr_advisekeyeventsink"]
+description: ITfKeystrokeMgr::AdviseKeyEventSink method
+helpviewer_keywords: ["AdviseKeyEventSink","AdviseKeyEventSink method [Text Services Framework]","AdviseKeyEventSink method [Text Services Framework]","ITfKeystrokeMgr interface","ITfKeystrokeMgr interface [Text Services Framework]","AdviseKeyEventSink method","ITfKeystrokeMgr.AdviseKeyEventSink","ITfKeystrokeMgr::AdviseKeyEventSink","_tsf_itfkeystrokemgr_advisekeyeventsink_ref","msctf/ITfKeystrokeMgr::AdviseKeyEventSink","tsf.itfkeystrokemgr_advisekeyeventsink"]
 old-location: tsf\itfkeystrokemgr_advisekeyeventsink.htm
 tech.root: TSF
 ms.assetid: dfda786a-09f5-412c-878d-0ba0cbbdafe0

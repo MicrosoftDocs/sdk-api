@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcCertificateEnumerator.MoveNext
 title: IOpcCertificateEnumerator::MoveNext (msopc.h)
-description: Moves the current position of the enumerator to the next CERT_CONTEXT structure.helpviewer_keywords: ["IOpcCertificateEnumerator interface [Open Packaging Conventions]","MoveNext method","IOpcCertificateEnumerator.MoveNext","IOpcCertificateEnumerator::MoveNext","MoveNext","MoveNext method [Open Packaging Conventions]","MoveNext method [Open Packaging Conventions]","IOpcCertificateEnumerator interface","msopc/IOpcCertificateEnumerator::MoveNext","opc.iopccertificateenumerator_movenext"]
+description: Moves the current position of the enumerator to the next CERT_CONTEXT structure.
+helpviewer_keywords: ["IOpcCertificateEnumerator interface [Open Packaging Conventions]","MoveNext method","IOpcCertificateEnumerator.MoveNext","IOpcCertificateEnumerator::MoveNext","MoveNext","MoveNext method [Open Packaging Conventions]","MoveNext method [Open Packaging Conventions]","IOpcCertificateEnumerator interface","msopc/IOpcCertificateEnumerator::MoveNext","opc.iopccertificateenumerator_movenext"]
 old-location: opc\iopccertificateenumerator_movenext.htm
 tech.root: OPC
 ms.assetid: 81918b97-0d10-4d7c-aaad-fc886d55e664

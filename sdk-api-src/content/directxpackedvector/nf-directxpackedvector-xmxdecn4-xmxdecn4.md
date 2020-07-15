@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMXDECN4.XMXDECN4
 title: XMXDECN4::XMXDECN4 (directxpackedvector.h)
-description: Default constructor for XMXDECN4.helpviewer_keywords: ["XMXDECN4","XMXDECN4 constructor [DirectX Math Support APIs]","XMXDECN4 constructor [DirectX Math Support APIs]","XMXDECN4 structure","XMXDECN4 structure [DirectX Math Support APIs]","XMXDECN4 constructor","XMXDECN4.XMXDECN4","XMXDECN4.XMXDECN4()","XMXDECN4::XMXDECN4","dxmath.xmxdecn4_ctor_1"]
+description: Default constructor for XMXDECN4.
+helpviewer_keywords: ["XMXDECN4","XMXDECN4 constructor [DirectX Math Support APIs]","XMXDECN4 constructor [DirectX Math Support APIs]","XMXDECN4 structure","XMXDECN4 structure [DirectX Math Support APIs]","XMXDECN4 constructor","XMXDECN4.XMXDECN4","XMXDECN4.XMXDECN4()","XMXDECN4::XMXDECN4","dxmath.xmxdecn4_ctor_1"]
 old-location: dxmath\xmxdecn4_ctor_1.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMXDECN4.#ctor

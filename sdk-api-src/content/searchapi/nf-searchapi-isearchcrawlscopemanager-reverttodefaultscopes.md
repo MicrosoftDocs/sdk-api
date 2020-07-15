@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.RevertToDefaultScopes
 title: ISearchCrawlScopeManager::RevertToDefaultScopes (searchapi.h)
-description: Reverts to the default scopes.helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","RevertToDefaultScopes method","ISearchCrawlScopeManager.RevertToDefaultScopes","ISearchCrawlScopeManager::RevertToDefaultScopes","RevertToDefaultScopes","RevertToDefaultScopes method [search]","RevertToDefaultScopes method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_RevertToDefaultScopes","search._search_ISearchCrawlScopeManager_RevertToDefaultScopes","searchapi/ISearchCrawlScopeManager::RevertToDefaultScopes"]
+description: Reverts to the default scopes.
+helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","RevertToDefaultScopes method","ISearchCrawlScopeManager.RevertToDefaultScopes","ISearchCrawlScopeManager::RevertToDefaultScopes","RevertToDefaultScopes","RevertToDefaultScopes method [search]","RevertToDefaultScopes method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_RevertToDefaultScopes","search._search_ISearchCrawlScopeManager_RevertToDefaultScopes","searchapi/ISearchCrawlScopeManager::RevertToDefaultScopes"]
 old-location: search\_search_ISearchCrawlScopeManager_RevertToDefaultScopes.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\reverttodefaultscopes.htm
@@ -72,11 +73,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
 This method removes all user-defined rules and reverts the working set of crawls scope rules to the default rules.
 
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

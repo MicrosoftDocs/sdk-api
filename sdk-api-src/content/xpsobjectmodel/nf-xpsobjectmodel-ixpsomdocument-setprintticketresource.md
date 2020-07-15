@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.SetPrintTicketResource
 title: IXpsOMDocument::SetPrintTicketResource (xpsobjectmodel.h)
-description: Sets the IXpsOMPrintTicketResource interface for the document-level print ticket.helpviewer_keywords: ["IXpsOMDocument interface [XPS Documents and Packaging]","SetPrintTicketResource method","IXpsOMDocument.SetPrintTicketResource","IXpsOMDocument::SetPrintTicketResource","SetPrintTicketResource","SetPrintTicketResource method [XPS Documents and Packaging]","SetPrintTicketResource method [XPS Documents and Packaging]","IXpsOMDocument interface","xps.ixpsomdocument_setprintticketresource","xpsobjectmodel/IXpsOMDocument::SetPrintTicketResource"]
+description: Sets the IXpsOMPrintTicketResource interface for the document-level print ticket.
+helpviewer_keywords: ["IXpsOMDocument interface [XPS Documents and Packaging]","SetPrintTicketResource method","IXpsOMDocument.SetPrintTicketResource","IXpsOMDocument::SetPrintTicketResource","SetPrintTicketResource","SetPrintTicketResource method [XPS Documents and Packaging]","SetPrintTicketResource method [XPS Documents and Packaging]","IXpsOMDocument interface","xps.ixpsomdocument_setprintticketresource","xpsobjectmodel/IXpsOMDocument::SetPrintTicketResource"]
 old-location: xps\ixpsomdocument_setprintticketresource.htm
 tech.root: printdocs
 ms.assetid: 009c2124-c855-4043-9a23-c0313b504853

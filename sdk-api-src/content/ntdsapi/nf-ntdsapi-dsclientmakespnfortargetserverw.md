@@ -1,7 +1,8 @@
 ---
 UID: NF:ntdsapi.DsClientMakeSpnForTargetServerW
 title: DsClientMakeSpnForTargetServerW function (ntdsapi.h)
-description: Constructs a service principal name (SPN) that identifies a specific server to use for authentication.helpviewer_keywords: ["DsClientMakeSpnForTargetServer","DsClientMakeSpnForTargetServer function [Active Directory]","DsClientMakeSpnForTargetServerA","DsClientMakeSpnForTargetServerW","_glines_dsclientmakespnfortargetserver","ad.dsclientmakespnfortargetserver","ntdsapi/DsClientMakeSpnForTargetServer","ntdsapi/DsClientMakeSpnForTargetServerA","ntdsapi/DsClientMakeSpnForTargetServerW"]
+description: Constructs a service principal name (SPN) that identifies a specific server to use for authentication.
+helpviewer_keywords: ["DsClientMakeSpnForTargetServer","DsClientMakeSpnForTargetServer function [Active Directory]","DsClientMakeSpnForTargetServerA","DsClientMakeSpnForTargetServerW","_glines_dsclientmakespnfortargetserver","ad.dsclientmakespnfortargetserver","ntdsapi/DsClientMakeSpnForTargetServer","ntdsapi/DsClientMakeSpnForTargetServerA","ntdsapi/DsClientMakeSpnForTargetServerW"]
 old-location: ad\dsclientmakespnfortargetserver.htm
 tech.root: ad
 ms.assetid: d205e7cc-4879-41a4-baa7-75e7dd177cd0
@@ -105,6 +106,10 @@ The instance name portion (second position) is always set to default. The port a
 
 
 
+
+
+> [!NOTE]
+> The ntdsapi.h header defines DsClientMakeSpnForTargetServer as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

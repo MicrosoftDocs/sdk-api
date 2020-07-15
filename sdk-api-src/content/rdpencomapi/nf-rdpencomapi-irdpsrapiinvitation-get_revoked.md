@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIInvitation.get_Revoked
 title: IRDPSRAPIInvitation::get_Revoked (rdpencomapi.h)
-description: The revoked state of the invitation.helpviewer_keywords: ["IRDPSRAPIInvitation interface [RDP]","Revoked property","IRDPSRAPIInvitation.Revoked","IRDPSRAPIInvitation.get_Revoked","IRDPSRAPIInvitation::Revoked","IRDPSRAPIInvitation::get_Revoked","IRDPSRAPIInvitation::put_Revoked","RDPSRAPIInvitation object [RDP]","Revoked property","Revoked property [RDP]","Revoked property [RDP]","IRDPSRAPIInvitation interface","Revoked property [RDP]","RDPSRAPIInvitation object","get_Revoked","rdp.irdpsrapiinvitation_revoked","rdpencomapi/IRDPSRAPIInvitation::Revoked","rdpencomapi/IRDPSRAPIInvitation::get_Revoked","rdpencomapi/IRDPSRAPIInvitation::put_Revoked"]
+description: The revoked state of the invitation.
+helpviewer_keywords: ["IRDPSRAPIInvitation interface [RDP]","Revoked property","IRDPSRAPIInvitation.Revoked","IRDPSRAPIInvitation.get_Revoked","IRDPSRAPIInvitation::Revoked","IRDPSRAPIInvitation::get_Revoked","IRDPSRAPIInvitation::put_Revoked","RDPSRAPIInvitation object [RDP]","Revoked property","Revoked property [RDP]","Revoked property [RDP]","IRDPSRAPIInvitation interface","Revoked property [RDP]","RDPSRAPIInvitation object","get_Revoked","rdp.irdpsrapiinvitation_revoked","rdpencomapi/IRDPSRAPIInvitation::Revoked","rdpencomapi/IRDPSRAPIInvitation::get_Revoked","rdpencomapi/IRDPSRAPIInvitation::put_Revoked"]
 old-location: rdp\irdpsrapiinvitation_revoked.htm
 tech.root: rdp
 ms.assetid: a5a2d1a4-a51b-4fd4-b79c-3381f296d072

@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IEnumDMO.Next
 title: IEnumDMO::Next (mediaobj.h)
-description: The Next method retrieves a specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumDMO interface [DirectShow]","Next method","IEnumDMO.Next","IEnumDMO::Next","IEnumDMONext","Next","Next method [DirectShow]","Next method [DirectShow]","IEnumDMO interface","dshow.ienumdmo_next","mediaobj/IEnumDMO::Next"]
+description: The Next method retrieves a specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumDMO interface [DirectShow]","Next method","IEnumDMO.Next","IEnumDMO::Next","IEnumDMONext","Next","Next method [DirectShow]","Next method [DirectShow]","IEnumDMO interface","dshow.ienumdmo_next","mediaobj/IEnumDMO::Next"]
 old-location: dshow\ienumdmo_next.htm
 tech.root: DirectShow
 ms.assetid: 5094f2d3-caa7-4085-aebe-306a7b05b591

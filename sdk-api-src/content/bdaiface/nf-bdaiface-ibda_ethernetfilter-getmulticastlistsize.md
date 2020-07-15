@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_EthernetFilter.GetMulticastListSize
 title: IBDA_EthernetFilter::GetMulticastListSize (bdaiface.h)
-description: The GetMulticastListSize method retrieves the number of addresses currently in the list.helpviewer_keywords: ["GetMulticastListSize","GetMulticastListSize method [Microsoft TV Technologies]","GetMulticastListSize method [Microsoft TV Technologies]","IBDA_EthernetFilter interface","IBDA_EthernetFilter interface [Microsoft TV Technologies]","GetMulticastListSize method","IBDA_EthernetFilter.GetMulticastListSize","IBDA_EthernetFilter::GetMulticastListSize","IBDA_EthernetFilterGetMulticastListSize","bdaiface/IBDA_EthernetFilter::GetMulticastListSize","mstv.ibda_ethernetfilter_getmulticastlistsize"]
+description: The GetMulticastListSize method retrieves the number of addresses currently in the list.
+helpviewer_keywords: ["GetMulticastListSize","GetMulticastListSize method [Microsoft TV Technologies]","GetMulticastListSize method [Microsoft TV Technologies]","IBDA_EthernetFilter interface","IBDA_EthernetFilter interface [Microsoft TV Technologies]","GetMulticastListSize method","IBDA_EthernetFilter.GetMulticastListSize","IBDA_EthernetFilter::GetMulticastListSize","IBDA_EthernetFilterGetMulticastListSize","bdaiface/IBDA_EthernetFilter::GetMulticastListSize","mstv.ibda_ethernetfilter_getmulticastlistsize"]
 old-location: mstv\ibda_ethernetfilter_getmulticastlistsize.htm
 tech.root: mstv
 ms.assetid: bc2452ca-53ad-4286-951a-c211f3f82cf3

@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxAccountOutgoingArchive.GetMessages
 title: IFaxAccountOutgoingArchive::GetMessages (faxcomex.h)
-description: Returns a new iterator (archive cursor) for the archive of outbound fax messages for a particular fax account.helpviewer_keywords: ["GetMessages","GetMessages method [Fax Service]","GetMessages method [Fax Service]","IFaxAccountOutgoingArchive interface","IFaxAccountOutgoingArchive interface [Fax Service]","GetMessages method","IFaxAccountOutgoingArchive.GetMessages","IFaxAccountOutgoingArchive::GetMessages","_mfax_faxaccountoutgoingarchive.getmessages","fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_getmessages_cpp","fax._mfax_faxaccountoutgoingarchive_getmessages","faxcomex/IFaxAccountOutgoingArchive::GetMessages"]
+description: Returns a new iterator (archive cursor) for the archive of outbound fax messages for a particular fax account.
+helpviewer_keywords: ["GetMessages","GetMessages method [Fax Service]","GetMessages method [Fax Service]","IFaxAccountOutgoingArchive interface","IFaxAccountOutgoingArchive interface [Fax Service]","GetMessages method","IFaxAccountOutgoingArchive.GetMessages","IFaxAccountOutgoingArchive::GetMessages","_mfax_faxaccountoutgoingarchive.getmessages","fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_getmessages_cpp","fax._mfax_faxaccountoutgoingarchive_getmessages","faxcomex/IFaxAccountOutgoingArchive::GetMessages"]
 old-location: fax\_mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_getmessages_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\getmessages.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecapi._KERB_PURGE_TKT_CACHE_REQUEST
 title: KERB_PURGE_TKT_CACHE_REQUEST (ntsecapi.h)
-description: Contains information used to delete entries from the ticket cache.helpviewer_keywords: ["*PKERB_PURGE_TKT_CACHE_REQUEST","KERB_PURGE_TKT_CACHE_REQUEST","KERB_PURGE_TKT_CACHE_REQUEST structure [Security]","PKERB_PURGE_TKT_CACHE_REQUEST","PKERB_PURGE_TKT_CACHE_REQUEST structure pointer [Security]","_lsa_kerb_purge_tkt_cache_request","ntsecapi/KERB_PURGE_TKT_CACHE_REQUEST","ntsecapi/PKERB_PURGE_TKT_CACHE_REQUEST","security.kerb_purge_tkt_cache_request"]
+description: Contains information used to delete entries from the ticket cache.
+helpviewer_keywords: ["*PKERB_PURGE_TKT_CACHE_REQUEST","KERB_PURGE_TKT_CACHE_REQUEST","KERB_PURGE_TKT_CACHE_REQUEST structure [Security]","PKERB_PURGE_TKT_CACHE_REQUEST","PKERB_PURGE_TKT_CACHE_REQUEST structure pointer [Security]","_lsa_kerb_purge_tkt_cache_request","ntsecapi/KERB_PURGE_TKT_CACHE_REQUEST","ntsecapi/PKERB_PURGE_TKT_CACHE_REQUEST","security.kerb_purge_tkt_cache_request"]
 old-location: security\kerb_purge_tkt_cache_request.htm
 tech.root: SecAuthN
 ms.assetid: 4e5e944a-8163-42de-b534-3b0478d9f334

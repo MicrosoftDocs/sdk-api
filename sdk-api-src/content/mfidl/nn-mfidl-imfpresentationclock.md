@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFPresentationClock
 title: IMFPresentationClock (mfidl.h)
-description: Represents a presentation clock, which is used to schedule when samples are rendered and to synchronize multiple streams.helpviewer_keywords: ["979c4f77-cbee-468c-8f6b-e68442d89025","IMFPresentationClock","IMFPresentationClock interface [Media Foundation]","IMFPresentationClock interface [Media Foundation]","described","mf.imfpresentationclock","mfidl/IMFPresentationClock"]
+description: Represents a presentation clock, which is used to schedule when samples are rendered and to synchronize multiple streams.
+helpviewer_keywords: ["979c4f77-cbee-468c-8f6b-e68442d89025","IMFPresentationClock","IMFPresentationClock interface [Media Foundation]","IMFPresentationClock interface [Media Foundation]","described","mf.imfpresentationclock","mfidl/IMFPresentationClock"]
 old-location: mf\imfpresentationclock.htm
 tech.root: medfound
 ms.assetid: 979c4f77-cbee-468c-8f6b-e68442d89025

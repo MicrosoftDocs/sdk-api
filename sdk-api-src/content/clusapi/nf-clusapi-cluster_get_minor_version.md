@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.CLUSTER_GET_MINOR_VERSION
 title: CLUSTER_GET_MINOR_VERSION macro (clusapi.h)
-description: Extracts the minor version portion of a Cluster service version number.helpviewer_keywords: ["CLUSTER_GET_MINOR_VERSION","CLUSTER_GET_MINOR_VERSION macro [Failover Cluster]","_wolf_cluster_get_minor_version","clusapi/CLUSTER_GET_MINOR_VERSION","mscs.cluster_get_minor_version"]
+description: Extracts the minor version portion of a Cluster service version number.
+helpviewer_keywords: ["CLUSTER_GET_MINOR_VERSION","CLUSTER_GET_MINOR_VERSION macro [Failover Cluster]","_wolf_cluster_get_minor_version","clusapi/CLUSTER_GET_MINOR_VERSION","mscs.cluster_get_minor_version"]
 old-location: mscs\cluster_get_minor_version.htm
 tech.root: MsCS
 ms.assetid: 90caa255-9b04-4b83-a846-78590bfce3a7

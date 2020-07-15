@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.ExpandCollapsePattern_Expand
 title: ExpandCollapsePattern_Expand function (uiautomationcoreapi.h)
-description: Expands a control on the screen so that it shows more information.helpviewer_keywords: ["ExpandCollapsePattern_Expand","ExpandCollapsePattern_Expand function [Windows Accessibility]","uiauto.uiauto_ExpandCollapsePattern_ExpandConPat","uiauto_ExpandCollapsePattern_ExpandConPat","uiautomationcoreapi/ExpandCollapsePattern_Expand","winauto.uiauto_ExpandCollapsePattern_ExpandConPat"]
+description: Expands a control on the screen so that it shows more information.
+helpviewer_keywords: ["ExpandCollapsePattern_Expand","ExpandCollapsePattern_Expand function [Windows Accessibility]","uiauto.uiauto_ExpandCollapsePattern_ExpandConPat","uiauto_ExpandCollapsePattern_ExpandConPat","uiautomationcoreapi/ExpandCollapsePattern_Expand","winauto.uiauto_ExpandCollapsePattern_ExpandConPat"]
 old-location: winauto\uiauto_ExpandCollapsePattern_ExpandConPat.htm
 tech.root: WinAuto
 ms.assetid: 7a5c1a39-e1e1-44e1-a7eb-fd053d305289

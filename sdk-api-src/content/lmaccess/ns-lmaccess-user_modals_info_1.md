@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._USER_MODALS_INFO_1
 title: USER_MODALS_INFO_1 (lmaccess.h)
-description: The USER_MODALS_INFO_1 structure contains logon server and domain controller information.helpviewer_keywords: ["*LPUSER_MODALS_INFO_1","*PUSER_MODALS_INFO_1","LPUSER_MODALS_INFO_1","LPUSER_MODALS_INFO_1 structure pointer [Network Management]","PUSER_MODALS_INFO_1","PUSER_MODALS_INFO_1 structure pointer [Network Management]","UAS_ROLE_BACKUP","UAS_ROLE_MEMBER","UAS_ROLE_PRIMARY","UAS_ROLE_STANDALONE","USER_MODALS_INFO_1","USER_MODALS_INFO_1 structure [Network Management]","_win32_user_modals_info_1_str","lmaccess/LPUSER_MODALS_INFO_1","lmaccess/PUSER_MODALS_INFO_1","lmaccess/USER_MODALS_INFO_1","netmgmt.user_modals_info_1_str"]
+description: The USER_MODALS_INFO_1 structure contains logon server and domain controller information.
+helpviewer_keywords: ["*LPUSER_MODALS_INFO_1","*PUSER_MODALS_INFO_1","LPUSER_MODALS_INFO_1","LPUSER_MODALS_INFO_1 structure pointer [Network Management]","PUSER_MODALS_INFO_1","PUSER_MODALS_INFO_1 structure pointer [Network Management]","UAS_ROLE_BACKUP","UAS_ROLE_MEMBER","UAS_ROLE_PRIMARY","UAS_ROLE_STANDALONE","USER_MODALS_INFO_1","USER_MODALS_INFO_1 structure [Network Management]","_win32_user_modals_info_1_str","lmaccess/LPUSER_MODALS_INFO_1","lmaccess/PUSER_MODALS_INFO_1","lmaccess/USER_MODALS_INFO_1","netmgmt.user_modals_info_1_str"]
 old-location: netmgmt\user_modals_info_1_str.htm
 tech.root: NetMgmt
 ms.assetid: 2cb7f310-c76e-42fd-892c-fead374af16c

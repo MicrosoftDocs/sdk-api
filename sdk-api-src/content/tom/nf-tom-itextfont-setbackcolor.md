@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.SetBackColor
 title: ITextFont::SetBackColor (tom.h)
-description: Sets the background color.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetBackColor method","ITextFont.SetBackColor","ITextFont::SetBackColor","SetBackColor","SetBackColor method [Windows Controls]","SetBackColor method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetBackColor","_win32_ITextFont_SetBackColor_cpp","controls.ITextFont_SetBackColor","controls._win32_ITextFont_SetBackColor","tom/ITextFont::SetBackColor"]
+description: Sets the background color.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetBackColor method","ITextFont.SetBackColor","ITextFont::SetBackColor","SetBackColor","SetBackColor method [Windows Controls]","SetBackColor method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetBackColor","_win32_ITextFont_SetBackColor_cpp","controls.ITextFont_SetBackColor","controls._win32_ITextFont_SetBackColor","tom/ITextFont::SetBackColor"]
 old-location: controls\ITextFont_SetBackColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setbackcolor.htm

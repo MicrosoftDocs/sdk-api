@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables2.GetMetaDataStreamInfo
 title: IMetaDataTables2::GetMetaDataStreamInfo (rometadataapi.h)
-description: Gets the name, size, and contents of the metadata stream at the specified index.helpviewer_keywords: ["GetMetaDataStreamInfo","GetMetaDataStreamInfo method [Windows Runtime]","GetMetaDataStreamInfo method [Windows Runtime]","IMetaDataTables2 interface","IMetaDataTables2 interface [Windows Runtime]","GetMetaDataStreamInfo method","IMetaDataTables2.GetMetaDataStreamInfo","IMetaDataTables2::GetMetaDataStreamInfo","rometadataapi/IMetaDataTables2::GetMetaDataStreamInfo","winrt.imetadatatables2_getmetadatastreaminfo"]
+description: Gets the name, size, and contents of the metadata stream at the specified index.
+helpviewer_keywords: ["GetMetaDataStreamInfo","GetMetaDataStreamInfo method [Windows Runtime]","GetMetaDataStreamInfo method [Windows Runtime]","IMetaDataTables2 interface","IMetaDataTables2 interface [Windows Runtime]","GetMetaDataStreamInfo method","IMetaDataTables2.GetMetaDataStreamInfo","IMetaDataTables2::GetMetaDataStreamInfo","rometadataapi/IMetaDataTables2::GetMetaDataStreamInfo","winrt.imetadatatables2_getmetadatastreaminfo"]
 old-location: winrt\imetadatatables2_getmetadatastreaminfo.htm
 tech.root: WinRT
 ms.assetid: a292a32a-b9c2-46b5-a2c4-074e616d7675

@@ -1,7 +1,8 @@
 ---
 UID: NF:encdec.IDTFilterConfig.GetSecureChannelObject
 title: IDTFilterConfig::GetSecureChannelObject (encdec.h)
-description: The GetSecureChannelObject method retrieves the secure channel object used to decrypt the stream.helpviewer_keywords: ["GetSecureChannelObject","GetSecureChannelObject method [Microsoft TV Technologies]","GetSecureChannelObject method [Microsoft TV Technologies]","IDTFilterConfig interface","IDTFilterConfig interface [Microsoft TV Technologies]","GetSecureChannelObject method","IDTFilterConfig.GetSecureChannelObject","IDTFilterConfig::GetSecureChannelObject","IDTFilterConfigGetSecureChannelObject","encdec/IDTFilterConfig::GetSecureChannelObject","mstv.idtfilterconfig_getsecurechannelobject"]
+description: The GetSecureChannelObject method retrieves the secure channel object used to decrypt the stream.
+helpviewer_keywords: ["GetSecureChannelObject","GetSecureChannelObject method [Microsoft TV Technologies]","GetSecureChannelObject method [Microsoft TV Technologies]","IDTFilterConfig interface","IDTFilterConfig interface [Microsoft TV Technologies]","GetSecureChannelObject method","IDTFilterConfig.GetSecureChannelObject","IDTFilterConfig::GetSecureChannelObject","IDTFilterConfigGetSecureChannelObject","encdec/IDTFilterConfig::GetSecureChannelObject","mstv.idtfilterconfig_getsecurechannelobject"]
 old-location: mstv\idtfilterconfig_getsecurechannelobject.htm
 tech.root: mstv
 ms.assetid: 84057a08-b15f-4738-814d-c016507ac590

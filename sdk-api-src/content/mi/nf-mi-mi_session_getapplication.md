@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Session_GetApplication
 title: MI_Session_GetApplication function (mi.h)
-description: Gets the application handle that was used to create the specified session.helpviewer_keywords: ["MI_Session_GetApplication","MI_Session_GetApplication function [Windows Management Infrastructure (MI)]","mi/MI_Session_GetApplication","wmi_v2.mi_session_getapplication"]
+description: Gets the application handle that was used to create the specified session.
+helpviewer_keywords: ["MI_Session_GetApplication","MI_Session_GetApplication function [Windows Management Infrastructure (MI)]","mi/MI_Session_GetApplication","wmi_v2.mi_session_getapplication"]
 old-location: wmi_v2\mi_session_getapplication.htm
 tech.root: wmi_v2
 ms.assetid: f368a88e-c610-42f4-8324-1bc297edf564

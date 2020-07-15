@@ -1,7 +1,8 @@
 ---
 UID: NS:wsdtypes._WSD_RESOLVE
 title: WSD_RESOLVE (wsdtypes.h)
-description: Represents a Resolve message.helpviewer_keywords: ["WSD_RESOLVE","WSD_RESOLVE structure","ncd.wsd_resolve_struct","wsdtypes/WSD_RESOLVE"]
+description: Represents a Resolve message.
+helpviewer_keywords: ["WSD_RESOLVE","WSD_RESOLVE structure","ncd.wsd_resolve_struct","wsdtypes/WSD_RESOLVE"]
 old-location: ncd\wsd_resolve_struct.htm
 tech.root: WsdApi
 ms.assetid: f969f249-6c1e-4c0c-8da6-ec7069b06e20

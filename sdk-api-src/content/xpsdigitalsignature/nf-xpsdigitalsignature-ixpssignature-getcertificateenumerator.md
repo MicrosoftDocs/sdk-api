@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignature.GetCertificateEnumerator
 title: IXpsSignature::GetCertificateEnumerator (xpsdigitalsignature.h)
-description: Gets a pointer to an IOpcCertificateEnumerator interface, which enumerates the package certificates that are attached to the signature.helpviewer_keywords: ["GetCertificateEnumerator","GetCertificateEnumerator method [XPS Documents and Packaging]","GetCertificateEnumerator method [XPS Documents and Packaging]","IXpsSignature interface","IXpsSignature interface [XPS Documents and Packaging]","GetCertificateEnumerator method","IXpsSignature.GetCertificateEnumerator","IXpsSignature::GetCertificateEnumerator","xps.ixpssignature_getcertificateenumerator","xpsdigitalsignature/IXpsSignature::GetCertificateEnumerator"]
+description: Gets a pointer to an IOpcCertificateEnumerator interface, which enumerates the package certificates that are attached to the signature.
+helpviewer_keywords: ["GetCertificateEnumerator","GetCertificateEnumerator method [XPS Documents and Packaging]","GetCertificateEnumerator method [XPS Documents and Packaging]","IXpsSignature interface","IXpsSignature interface [XPS Documents and Packaging]","GetCertificateEnumerator method","IXpsSignature.GetCertificateEnumerator","IXpsSignature::GetCertificateEnumerator","xps.ixpssignature_getcertificateenumerator","xpsdigitalsignature/IXpsSignature::GetCertificateEnumerator"]
 old-location: xps\ixpssignature_getcertificateenumerator.htm
 tech.root: printdocs
 ms.assetid: e4af0aa3-8420-4297-993c-dda4d4f7cf61

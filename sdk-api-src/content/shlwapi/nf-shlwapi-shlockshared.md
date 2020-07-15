@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHLockShared
 title: SHLockShared function (shlwapi.h)
-description: SHLockShared may be altered or unavailable.helpviewer_keywords: ["SHLockShared","SHLockShared function [Windows Shell]","_win32_SHLockShared","shell.SHLockShared","shlwapi/SHLockShared"]
+description: SHLockShared may be altered or unavailable.
+helpviewer_keywords: ["SHLockShared","SHLockShared function [Windows Shell]","_win32_SHLockShared","shell.SHLockShared","shlwapi/SHLockShared"]
 old-location: shell\SHLockShared.htm
 tech.root: shell
 ms.assetid: 5b948044-6cec-4649-a266-21959154f999

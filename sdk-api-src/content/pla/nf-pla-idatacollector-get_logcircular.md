@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollector.get_LogCircular
 title: IDataCollector::get_LogCircular (pla.h)
-description: Retrieves or sets a value that indicates if PLA should create a circular file.helpviewer_keywords: ["IDataCollector interface [PLA]","LogCircular property","IDataCollector.LogCircular","IDataCollector.get_LogCircular","IDataCollector::LogCircular","IDataCollector::get_LogCircular","IDataCollector::put_LogCircular","LogCircular property [PLA]","LogCircular property [PLA]","IDataCollector interface","base.idatacollector_logcircular","get_LogCircular","pla.idatacollector_logcircular","pla/IDataCollector::LogCircular","pla/IDataCollector::get_LogCircular","pla/IDataCollector::put_LogCircular"]
+description: Retrieves or sets a value that indicates if PLA should create a circular file.
+helpviewer_keywords: ["IDataCollector interface [PLA]","LogCircular property","IDataCollector.LogCircular","IDataCollector.get_LogCircular","IDataCollector::LogCircular","IDataCollector::get_LogCircular","IDataCollector::put_LogCircular","LogCircular property [PLA]","LogCircular property [PLA]","IDataCollector interface","base.idatacollector_logcircular","get_LogCircular","pla.idatacollector_logcircular","pla/IDataCollector::LogCircular","pla/IDataCollector::get_LogCircular","pla/IDataCollector::put_LogCircular"]
 old-location: pla\idatacollector_logcircular.htm
 tech.root: PLA
 ms.assetid: d1b35b02-cfda-42a4-bd1d-d837a91861d6

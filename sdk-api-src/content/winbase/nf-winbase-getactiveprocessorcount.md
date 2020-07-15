@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetActiveProcessorCount
 title: GetActiveProcessorCount function (winbase.h)
-description: Returns the number of active processors in a processor group or in the system.helpviewer_keywords: ["GetActiveProcessorCount","GetActiveProcessorCount function","base.getactiveprocessorcount","winbase/GetActiveProcessorCount"]
+description: Returns the number of active processors in a processor group or in the system.
+helpviewer_keywords: ["GetActiveProcessorCount","GetActiveProcessorCount function","base.getactiveprocessorcount","winbase/GetActiveProcessorCount"]
 old-location: base\getactiveprocessorcount.htm
 tech.root: ProcThread
 ms.assetid: f4ebb0a7-1c05-4478-85e3-80e6327ef8a4

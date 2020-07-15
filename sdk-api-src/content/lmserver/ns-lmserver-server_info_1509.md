@@ -1,7 +1,8 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1509
 title: SERVER_INFO_1509 (lmserver.h)
-description: The SERVER_INFO_1509 structure specifies the maximum raw mode buffer size.helpviewer_keywords: ["*LPSERVER_INFO_1509","*PSERVER_INFO_1509","LPSERVER_INFO_1509","LPSERVER_INFO_1509 structure pointer [Network Management]","PSERVER_INFO_1509","PSERVER_INFO_1509 structure pointer [Network Management]","SERVER_INFO_1509","SERVER_INFO_1509 structure [Network Management]","_win32_server_info_1509_str","lmserver/LPSERVER_INFO_1509","lmserver/PSERVER_INFO_1509","lmserver/SERVER_INFO_1509","netmgmt.server_info_1509_str"]
+description: The SERVER_INFO_1509 structure specifies the maximum raw mode buffer size.
+helpviewer_keywords: ["*LPSERVER_INFO_1509","*PSERVER_INFO_1509","LPSERVER_INFO_1509","LPSERVER_INFO_1509 structure pointer [Network Management]","PSERVER_INFO_1509","PSERVER_INFO_1509 structure pointer [Network Management]","SERVER_INFO_1509","SERVER_INFO_1509 structure [Network Management]","_win32_server_info_1509_str","lmserver/LPSERVER_INFO_1509","lmserver/PSERVER_INFO_1509","lmserver/SERVER_INFO_1509","netmgmt.server_info_1509_str"]
 old-location: netmgmt\server_info_1509_str.htm
 tech.root: NetMgmt
 ms.assetid: a5f8de1f-36f0-4d8f-9a88-53336f6bee48

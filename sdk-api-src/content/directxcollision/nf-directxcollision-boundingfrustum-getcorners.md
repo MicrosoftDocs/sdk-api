@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.GetCorners
 title: BoundingFrustum::GetCorners
-description: Gets the corners making up the BoundingFrustum.helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","GetCorners method","BoundingFrustum.GetCorners","BoundingFrustum::GetCorners","GetCorners","GetCorners method [DirectX Math Support APIs]","GetCorners method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_getcorners"]
+description: Gets the corners making up the BoundingFrustum.
+helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","GetCorners method","BoundingFrustum.GetCorners","BoundingFrustum::GetCorners","GetCorners","GetCorners method [DirectX Math Support APIs]","GetCorners method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_getcorners"]
 old-location: dxmath\boundingfrustum_getcorners.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.GetCorners(XMFLOAT3)

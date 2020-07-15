@@ -1,7 +1,8 @@
 ---
 UID: NS:ddkmapi._DDLOCKOUT
 title: DDLOCKOUT (ddkmapi.h)
-description: The DDLOCKOUT structure contains a description of the surface.helpviewer_keywords: ["*LPDDLOCKOUT","DDLOCKOUT","DDLOCKOUT structure [Display Devices]","LPDDLOCKOUT","LPDDLOCKOUT structure pointer [Display Devices]","ddkmapi/DDLOCKOUT","ddkmapi/LPDDLOCKOUT","ddstrcts_7125d1f6-8fc5-460b-bc11-089053f77b83.xml","display.ddlockout"]
+description: The DDLOCKOUT structure contains a description of the surface.
+helpviewer_keywords: ["*LPDDLOCKOUT","DDLOCKOUT","DDLOCKOUT structure [Display Devices]","LPDDLOCKOUT","LPDDLOCKOUT structure pointer [Display Devices]","ddkmapi/DDLOCKOUT","ddkmapi/LPDDLOCKOUT","ddstrcts_7125d1f6-8fc5-460b-bc11-089053f77b83.xml","display.ddlockout"]
 old-location: display\ddlockout.htm
 tech.root: display
 ms.assetid: b6046c49-828d-4b92-aab7-e872e1905929

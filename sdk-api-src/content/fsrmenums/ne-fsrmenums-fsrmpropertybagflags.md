@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmPropertyBagFlags
 title: FsrmPropertyBagFlags (fsrmenums.h)
-description: Defines flag values that provide additional information about the property bag.helpviewer_keywords: ["FsrmPropertyBagFlags","FsrmPropertyBagFlags enumeration [File Server Resource Manager]","FsrmPropertyBagFlags_FailedClassifyingProperties","FsrmPropertyBagFlags_FailedLoadingProperties","FsrmPropertyBagFlags_FailedSavingProperties","FsrmPropertyBagFlags_UpdatedByClassifier","fs.fsrmpropertybagflags","fsrm.fsrmpropertybagflags","fsrmenums/FsrmPropertyBagFlags","fsrmenums/FsrmPropertyBagFlags_FailedClassifyingProperties","fsrmenums/FsrmPropertyBagFlags_FailedLoadingProperties","fsrmenums/FsrmPropertyBagFlags_FailedSavingProperties","fsrmenums/FsrmPropertyBagFlags_UpdatedByClassifier"]
+description: Defines flag values that provide additional information about the property bag.
+helpviewer_keywords: ["FsrmPropertyBagFlags","FsrmPropertyBagFlags enumeration [File Server Resource Manager]","FsrmPropertyBagFlags_FailedClassifyingProperties","FsrmPropertyBagFlags_FailedLoadingProperties","FsrmPropertyBagFlags_FailedSavingProperties","FsrmPropertyBagFlags_UpdatedByClassifier","fs.fsrmpropertybagflags","fsrm.fsrmpropertybagflags","fsrmenums/FsrmPropertyBagFlags","fsrmenums/FsrmPropertyBagFlags_FailedClassifyingProperties","fsrmenums/FsrmPropertyBagFlags_FailedLoadingProperties","fsrmenums/FsrmPropertyBagFlags_FailedSavingProperties","fsrmenums/FsrmPropertyBagFlags_UpdatedByClassifier"]
 old-location: fsrm\fsrmpropertybagflags.htm
 tech.root: fsrm
 ms.assetid: 5b434ab6-4c15-4960-b5d1-c90da806e9d8

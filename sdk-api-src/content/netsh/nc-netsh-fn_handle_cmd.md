@@ -1,7 +1,8 @@
 ---
 UID: NC:netsh.FN_HANDLE_CMD
 title: FN_HANDLE_CMD (netsh.h)
-description: Is the command function for helpers.helpviewer_keywords: ["FN_HANDLE_CMD","FN_HANDLE_CMD callback","FN_HANDLE_CMD callback function [NetShell]","SampleCommand","_netsh_fn_handle_cmd","netsh/FN_HANDLE_CMD","netshell.fn_handle_cmd"]
+description: Is the command function for helpers.
+helpviewer_keywords: ["FN_HANDLE_CMD","FN_HANDLE_CMD callback","FN_HANDLE_CMD callback function [NetShell]","SampleCommand","_netsh_fn_handle_cmd","netsh/FN_HANDLE_CMD","netshell.fn_handle_cmd"]
 old-location: netshell\fn_handle_cmd.htm
 tech.root: netshell
 ms.assetid: 5058e202-9ad4-4789-97db-3c13b4a1c337

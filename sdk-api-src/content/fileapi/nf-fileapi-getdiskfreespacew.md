@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.GetDiskFreeSpaceW
 title: GetDiskFreeSpaceW function (fileapi.h)
-description: Retrieves information about the specified disk, including the amount of free space on the disk.helpviewer_keywords: ["GetDiskFreeSpace","GetDiskFreeSpace function [Files]","GetDiskFreeSpaceA","GetDiskFreeSpaceW","_win32_getdiskfreespace","base.getdiskfreespace","fileapi/GetDiskFreeSpace","fileapi/GetDiskFreeSpaceA","fileapi/GetDiskFreeSpaceW","fs.getdiskfreespace","winbase/GetDiskFreeSpace","winbase/GetDiskFreeSpaceA","winbase/GetDiskFreeSpaceW"]
+description: Retrieves information about the specified disk, including the amount of free space on the disk.
+helpviewer_keywords: ["GetDiskFreeSpace","GetDiskFreeSpace function [Files]","GetDiskFreeSpaceA","GetDiskFreeSpaceW","_win32_getdiskfreespace","base.getdiskfreespace","fileapi/GetDiskFreeSpace","fileapi/GetDiskFreeSpaceA","fileapi/GetDiskFreeSpaceW","fs.getdiskfreespace","winbase/GetDiskFreeSpace","winbase/GetDiskFreeSpaceA","winbase/GetDiskFreeSpaceW"]
 old-location: fs\getdiskfreespace.htm
 tech.root: FileIO
 ms.assetid: 4fe14c49-3fd6-48b7-92de-a0c867b2e042
@@ -128,6 +129,10 @@ Symbolic link behavior—If the path points to a symbolic link, the operation is
 
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines GetDiskFreeSpace as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

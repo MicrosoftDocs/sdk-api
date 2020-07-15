@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMIsWindowProtected
 title: DRMIsWindowProtected function (msdrm.h)
-description: Indicates whether a window is associated with a protected environment.helpviewer_keywords: ["DRMIsWindowProtected","DRMIsWindowProtected function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMIsWindowProtected","rm.drmiswindowprotected"]
+description: Indicates whether a window is associated with a protected environment.
+helpviewer_keywords: ["DRMIsWindowProtected","DRMIsWindowProtected function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMIsWindowProtected","rm.drmiswindowprotected"]
 old-location: rm\drmiswindowprotected.htm
 tech.root: AdRms_Sdk
 ms.assetid: 5cd4b4fe-6941-441c-ac6c-9ec8d838598c

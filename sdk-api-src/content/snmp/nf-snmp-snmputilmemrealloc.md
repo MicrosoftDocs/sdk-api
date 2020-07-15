@@ -1,7 +1,8 @@
 ---
 UID: NF:snmp.SnmpUtilMemReAlloc
 title: SnmpUtilMemReAlloc function (snmp.h)
-description: The SnmpUtilMemReAlloc function changes the size of the specified memory object. This function is an element of the SNMP Utility API.helpviewer_keywords: ["SnmpUtilMemReAlloc","SnmpUtilMemReAlloc function [SNMP]","_snmp_snmputilmemrealloc","snmp.snmputilmemrealloc","snmp/SnmpUtilMemReAlloc"]
+description: The SnmpUtilMemReAlloc function changes the size of the specified memory object. This function is an element of the SNMP Utility API.
+helpviewer_keywords: ["SnmpUtilMemReAlloc","SnmpUtilMemReAlloc function [SNMP]","_snmp_snmputilmemrealloc","snmp.snmputilmemrealloc","snmp/SnmpUtilMemReAlloc"]
 old-location: snmp\snmputilmemrealloc.htm
 tech.root: SNMP
 ms.assetid: 269b6f57-cdef-476a-bf38-f35535d15999

@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSANtohs
 title: WSANtohs function (winsock2.h)
-description: The WSANtohs function converts a u_short from network byte order to host byte order.helpviewer_keywords: ["WSANtohs","WSANtohs function [Winsock]","_win32_wsantohs_2","winsock.wsantohs_2","winsock2/WSANtohs"]
+description: The WSANtohs function converts a u_short from network byte order to host byte order.
+helpviewer_keywords: ["WSANtohs","WSANtohs function [Winsock]","_win32_wsantohs_2","winsock.wsantohs_2","winsock2/WSANtohs"]
 old-location: winsock\wsantohs_2.htm
 tech.root: WinSock
 ms.assetid: 0a4bc3a9-9919-4dcb-8a37-af37e0243c8f

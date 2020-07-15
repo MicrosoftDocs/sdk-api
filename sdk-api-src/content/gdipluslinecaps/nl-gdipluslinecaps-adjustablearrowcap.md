@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluslinecaps.AdjustableArrowCap
 title: AdjustableArrowCap (gdipluslinecaps.h)
-description: The AdjustableArrowCap class is a subclass of the CustomLineCap. This class builds a line cap that looks like an arrow.helpviewer_keywords: ["AdjustableArrowCap","AdjustableArrowCap class [GDI+]","AdjustableArrowCap class [GDI+]","described","_gdiplus_CLASS_AdjustableArrowCap_Class","gdiplus._gdiplus_CLASS_AdjustableArrowCap_Class","gdipluslinecaps/AdjustableArrowCap"]
+description: The AdjustableArrowCap class is a subclass of the CustomLineCap. This class builds a line cap that looks like an arrow.
+helpviewer_keywords: ["AdjustableArrowCap","AdjustableArrowCap class [GDI+]","AdjustableArrowCap class [GDI+]","described","_gdiplus_CLASS_AdjustableArrowCap_Class","gdiplus._gdiplus_CLASS_AdjustableArrowCap_Class","gdipluslinecaps/AdjustableArrowCap"]
 old-location: gdiplus\_gdiplus_CLASS_AdjustableArrowCap_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\adjustablearrowcap.htm

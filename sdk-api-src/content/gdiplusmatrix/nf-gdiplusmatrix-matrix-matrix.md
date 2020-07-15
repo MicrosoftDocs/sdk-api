@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Matrix
 title: Matrix::Matrix (gdiplusmatrix.h)
-description: Creates and initializes a Matrix::Matrix object that represents the identity matrix.helpviewer_keywords: ["Matrix","Matrix class [GDI+]","Matrix constructor","Matrix constructor [GDI+]","Matrix constructor [GDI+]","Matrix class","Matrix.Matrix","Matrix.Matrix()","Matrix::Matrix","_gdiplus_CLASS_Matrix_Matrix_","gdiplus._gdiplus_CLASS_Matrix_Matrix_"]
+description: Creates and initializes a Matrix::Matrix object that represents the identity matrix.
+helpviewer_keywords: ["Matrix","Matrix class [GDI+]","Matrix constructor","Matrix constructor [GDI+]","Matrix constructor [GDI+]","Matrix class","Matrix.Matrix","Matrix.Matrix()","Matrix::Matrix","_gdiplus_CLASS_Matrix_Matrix_","gdiplus._gdiplus_CLASS_Matrix_Matrix_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_53.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPErrorItem.get_errorContext
 title: IWMPErrorItem::get_errorContext (wmp.h)
-description: The get_errorContext method retrieves a value indicating the context of the error.helpviewer_keywords: ["IWMPErrorItem interface [Windows Media Player]","get_errorContext method","IWMPErrorItem.get_errorContext","IWMPErrorItem::get_errorContext","IWMPErrorItemget_errorContext","get_errorContext","get_errorContext method [Windows Media Player]","get_errorContext method [Windows Media Player]","IWMPErrorItem interface","wmp.iwmperroritem_get_errorcontext","wmp/IWMPErrorItem::get_errorContext"]
+description: The get_errorContext method retrieves a value indicating the context of the error.
+helpviewer_keywords: ["IWMPErrorItem interface [Windows Media Player]","get_errorContext method","IWMPErrorItem.get_errorContext","IWMPErrorItem::get_errorContext","IWMPErrorItemget_errorContext","get_errorContext","get_errorContext method [Windows Media Player]","get_errorContext method [Windows Media Player]","IWMPErrorItem interface","wmp.iwmperroritem_get_errorcontext","wmp/IWMPErrorItem::get_errorContext"]
 old-location: wmp\iwmperroritem_get_errorcontext.htm
 tech.root: WMP
 ms.assetid: 575f14e7-7a5b-4000-9957-253c40b1ef62

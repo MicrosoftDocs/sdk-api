@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.InitializeCriticalSectionEx
 title: InitializeCriticalSectionEx function (synchapi.h)
-description: Initializes a critical section object with a spin count and optional flags.helpviewer_keywords: ["CRITICAL_SECTION_NO_DEBUG_INFO","InitializeCriticalSectionEx","InitializeCriticalSectionEx function","base.initializecriticalsectionex","synchapi/InitializeCriticalSectionEx","winbase/InitializeCriticalSectionEx"]
+description: Initializes a critical section object with a spin count and optional flags.
+helpviewer_keywords: ["CRITICAL_SECTION_NO_DEBUG_INFO","InitializeCriticalSectionEx","InitializeCriticalSectionEx function","base.initializecriticalsectionex","synchapi/InitializeCriticalSectionEx","winbase/InitializeCriticalSectionEx"]
 old-location: base\initializecriticalsectionex.htm
 tech.root: Sync
 ms.assetid: da84b187-0eb7-4363-8e68-8a525586d7d9

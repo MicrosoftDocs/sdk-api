@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IOverlayNotify.OnPaletteChange
 title: IOverlayNotify::OnPaletteChange (strmif.h)
-description: The OnPaletteChange method provides notification that the palette of the window has changed.helpviewer_keywords: ["IOverlayNotify interface [DirectShow]","OnPaletteChange method","IOverlayNotify.OnPaletteChange","IOverlayNotify::OnPaletteChange","IOverlayNotifyOnPaletteChange","OnPaletteChange","OnPaletteChange method [DirectShow]","OnPaletteChange method [DirectShow]","IOverlayNotify interface","dshow.ioverlaynotify_onpalettechange","strmif/IOverlayNotify::OnPaletteChange"]
+description: The OnPaletteChange method provides notification that the palette of the window has changed.
+helpviewer_keywords: ["IOverlayNotify interface [DirectShow]","OnPaletteChange method","IOverlayNotify.OnPaletteChange","IOverlayNotify::OnPaletteChange","IOverlayNotifyOnPaletteChange","OnPaletteChange","OnPaletteChange method [DirectShow]","OnPaletteChange method [DirectShow]","IOverlayNotify interface","dshow.ioverlaynotify_onpalettechange","strmif/IOverlayNotify::OnPaletteChange"]
 old-location: dshow\ioverlaynotify_onpalettechange.htm
 tech.root: DirectShow
 ms.assetid: 128e3834-d561-46d3-b32b-5bfd290f0995

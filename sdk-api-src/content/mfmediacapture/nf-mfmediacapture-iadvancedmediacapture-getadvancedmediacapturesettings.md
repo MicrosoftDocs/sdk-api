@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediacapture.IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings
 title: IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings (mfmediacapture.h)
-description: Gets the advanced media capture settings.helpviewer_keywords: ["GetAdvancedMediaCaptureSettings","GetAdvancedMediaCaptureSettings method [Media Foundation]","GetAdvancedMediaCaptureSettings method [Media Foundation]","IAdvancedMediaCapture interface","IAdvancedMediaCapture interface [Media Foundation]","GetAdvancedMediaCaptureSettings method","IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings","IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings","mf.iadvancedmediacapture_getadvancedmediacapturesettings","mfmediacapture/IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings"]
+description: Gets the advanced media capture settings.
+helpviewer_keywords: ["GetAdvancedMediaCaptureSettings","GetAdvancedMediaCaptureSettings method [Media Foundation]","GetAdvancedMediaCaptureSettings method [Media Foundation]","IAdvancedMediaCapture interface","IAdvancedMediaCapture interface [Media Foundation]","GetAdvancedMediaCaptureSettings method","IAdvancedMediaCapture.GetAdvancedMediaCaptureSettings","IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings","mf.iadvancedmediacapture_getadvancedmediacapturesettings","mfmediacapture/IAdvancedMediaCapture::GetAdvancedMediaCaptureSettings"]
 old-location: mf\iadvancedmediacapture_getadvancedmediacapturesettings.htm
 tech.root: medfound
 ms.assetid: 88c65141-9cc3-4da3-adee-06727152ba8b

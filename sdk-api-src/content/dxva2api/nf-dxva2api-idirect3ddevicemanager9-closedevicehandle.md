@@ -1,7 +1,8 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.CloseDeviceHandle
 title: IDirect3DDeviceManager9::CloseDeviceHandle (dxva2api.h)
-description: Closes a Direct3D device handle.helpviewer_keywords: ["5c074823-d1f4-4db1-87ab-bbdb6d0a7a5a","CloseDeviceHandle","CloseDeviceHandle method [Media Foundation]","CloseDeviceHandle method [Media Foundation]","IDirect3DDeviceManager9 interface","IDirect3DDeviceManager9 interface [Media Foundation]","CloseDeviceHandle method","IDirect3DDeviceManager9.CloseDeviceHandle","IDirect3DDeviceManager9::CloseDeviceHandle","dxva2api/IDirect3DDeviceManager9::CloseDeviceHandle","mf.idirect3ddevicemanager9_closedevicehandle"]
+description: Closes a Direct3D device handle.
+helpviewer_keywords: ["5c074823-d1f4-4db1-87ab-bbdb6d0a7a5a","CloseDeviceHandle","CloseDeviceHandle method [Media Foundation]","CloseDeviceHandle method [Media Foundation]","IDirect3DDeviceManager9 interface","IDirect3DDeviceManager9 interface [Media Foundation]","CloseDeviceHandle method","IDirect3DDeviceManager9.CloseDeviceHandle","IDirect3DDeviceManager9::CloseDeviceHandle","dxva2api/IDirect3DDeviceManager9::CloseDeviceHandle","mf.idirect3ddevicemanager9_closedevicehandle"]
 old-location: mf\idirect3ddevicemanager9_closedevicehandle.htm
 tech.root: medfound
 ms.assetid: 5c074823-d1f4-4db1-87ab-bbdb6d0a7a5a

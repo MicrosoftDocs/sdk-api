@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.GetClusterResourceNetworkName
 title: GetClusterResourceNetworkName function (clusapi.h)
-description: Retrieves the Name private property of the Network Name resource on which a resource is dependent.helpviewer_keywords: ["GetClusterResourceNetworkName","GetClusterResourceNetworkName function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME","PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME function [Failover Cluster]","_wolf_getclusterresourcenetworkname","clusapi/GetClusterResourceNetworkName","clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME","mscs.getclusterresourcenetworkname"]
+description: Retrieves the Name private property of the Network Name resource on which a resource is dependent.
+helpviewer_keywords: ["GetClusterResourceNetworkName","GetClusterResourceNetworkName function [Failover Cluster]","PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME","PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME function [Failover Cluster]","_wolf_getclusterresourcenetworkname","clusapi/GetClusterResourceNetworkName","clusapi/PCLUSAPI_GET_CLUSTER_RESOURCE_NETWORK_NAME","mscs.getclusterresourcenetworkname"]
 old-location: mscs\getclusterresourcenetworkname.htm
 tech.root: MsCS
 ms.assetid: db3cdaa6-d686-48be-be4a-468910813d6d

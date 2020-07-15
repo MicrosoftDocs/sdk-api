@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertVerifyValidityNesting
 title: CertVerifyValidityNesting function (wincrypt.h)
-description: The CertVerifyValidityNesting function verifies that a subject certificate's time validity nests correctly within its issuer's time validity.helpviewer_keywords: ["CertVerifyValidityNesting","CertVerifyValidityNesting function [Security]","_crypto2_certverifyvaliditynesting","security.certverifyvaliditynesting","wincrypt/CertVerifyValidityNesting"]
+description: The CertVerifyValidityNesting function verifies that a subject certificate's time validity nests correctly within its issuer's time validity.
+helpviewer_keywords: ["CertVerifyValidityNesting","CertVerifyValidityNesting function [Security]","_crypto2_certverifyvaliditynesting","security.certverifyvaliditynesting","wincrypt/CertVerifyValidityNesting"]
 old-location: security\certverifyvaliditynesting.htm
 tech.root: SecCrypto
 ms.assetid: dc73a21d-5b55-45c4-80d2-220508d9f762

@@ -1,7 +1,8 @@
 ---
 UID: NF:olectl.OleCreatePictureIndirect
 title: OleCreatePictureIndirect function (olectl.h)
-description: Creates a new picture object initialized according to a PICTDESC structure.helpviewer_keywords: ["OleCreatePictureIndirect","OleCreatePictureIndirect function [COM]","_ole_OleCreatePictureIndirect","com.olecreatepictureindirect","olectl/OleCreatePictureIndirect"]
+description: Creates a new picture object initialized according to a PICTDESC structure.
+helpviewer_keywords: ["OleCreatePictureIndirect","OleCreatePictureIndirect function [COM]","_ole_OleCreatePictureIndirect","com.olecreatepictureindirect","olectl/OleCreatePictureIndirect"]
 old-location: com\olecreatepictureindirect.htm
 tech.root: com
 ms.assetid: fb021348-07d4-4974-a71e-abb1b8d760c4

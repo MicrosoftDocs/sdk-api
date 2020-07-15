@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContextOwnerCompositionSink.OnEndComposition
 title: ITfContextOwnerCompositionSink::OnEndComposition (msctf.h)
-description: ITfContextOwnerCompositionSink::OnEndComposition methodhelpviewer_keywords: ["ITfContextOwnerCompositionSink interface [Text Services Framework]","OnEndComposition method","ITfContextOwnerCompositionSink.OnEndComposition","ITfContextOwnerCompositionSink::OnEndComposition","OnEndComposition","OnEndComposition method [Text Services Framework]","OnEndComposition method [Text Services Framework]","ITfContextOwnerCompositionSink interface","_tsf_itfcontextownercompositionsink_onendcomposition_ref","msctf/ITfContextOwnerCompositionSink::OnEndComposition","tsf.itfcontextownercompositionsink_onendcomposition"]
+description: ITfContextOwnerCompositionSink::OnEndComposition method
+helpviewer_keywords: ["ITfContextOwnerCompositionSink interface [Text Services Framework]","OnEndComposition method","ITfContextOwnerCompositionSink.OnEndComposition","ITfContextOwnerCompositionSink::OnEndComposition","OnEndComposition","OnEndComposition method [Text Services Framework]","OnEndComposition method [Text Services Framework]","ITfContextOwnerCompositionSink interface","_tsf_itfcontextownercompositionsink_onendcomposition_ref","msctf/ITfContextOwnerCompositionSink::OnEndComposition","tsf.itfcontextownercompositionsink_onendcomposition"]
 old-location: tsf\itfcontextownercompositionsink_onendcomposition.htm
 tech.root: TSF
 ms.assetid: 816aaa81-1b51-4e01-b49c-a9cbe2b87735

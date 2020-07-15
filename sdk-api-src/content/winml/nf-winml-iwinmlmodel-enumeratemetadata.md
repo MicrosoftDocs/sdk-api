@@ -1,7 +1,8 @@
 ---
 UID: NF:winml.IWinMLModel.EnumerateMetadata
 title: IWinMLModel::EnumerateMetadata (winml.h)
-description: Gets the metadata of the model.helpviewer_keywords: ["EnumerateMetadata","EnumerateMetadata method","EnumerateMetadata method","IWinMLModel interface","IWinMLModel interface","EnumerateMetadata method","IWinMLModel.EnumerateMetadata","IWinMLModel::EnumerateMetadata","MachineLearning.iwinmlmodel_enumeratemetadata","winml/IWinMLModel::EnumerateMetadata"]
+description: Gets the metadata of the model.
+helpviewer_keywords: ["EnumerateMetadata","EnumerateMetadata method","EnumerateMetadata method","IWinMLModel interface","IWinMLModel interface","EnumerateMetadata method","IWinMLModel.EnumerateMetadata","IWinMLModel::EnumerateMetadata","MachineLearning.iwinmlmodel_enumeratemetadata","winml/IWinMLModel::EnumerateMetadata"]
 old-location: machinelearning\iwinmlmodel_enumeratemetadata.htm
 tech.root: MachineLearning
 ms.assetid: ABB51498-44CE-4B98-89FB-ED8B9B8159ED

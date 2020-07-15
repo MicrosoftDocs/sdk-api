@@ -1,7 +1,8 @@
 ---
 UID: NS:mfapi._MF_FLOAT3
 title: MF_FLOAT3 (mfapi.h)
-description: A vector with three components.helpviewer_keywords: ["MF_FLOAT3","MF_FLOAT3 structure [Media Foundation]","PMF_FLOAT3","PMF_FLOAT3 structure pointer [Media Foundation]","mf.mf_float3","mfapi/MF_FLOAT3","mfapi/PMF_FLOAT3"]
+description: A vector with three components.
+helpviewer_keywords: ["MF_FLOAT3","MF_FLOAT3 structure [Media Foundation]","PMF_FLOAT3","PMF_FLOAT3 structure pointer [Media Foundation]","mf.mf_float3","mfapi/MF_FLOAT3","mfapi/PMF_FLOAT3"]
 old-location: mf\mf_float3.htm
 tech.root: medfound
 ms.assetid: F284993C-A149-4C89-866D-5E46E6AD2CCC

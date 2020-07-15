@@ -1,7 +1,8 @@
 ---
 UID: NS:winldap.l_timeval
 title: LDAP_TIMEVAL (winldap.h)
-description: Used to represent an interval of time.helpviewer_keywords: ["*PLDAP_TIMEVAL","LDAP_TIMEVAL","LDAP_TIMEVAL structure [LDAP]","PLDAP_TIMEVAL","PLDAP_TIMEVAL structure pointer [LDAP]","_ldap_ldap_timeval","ldap.ldap__timeval","ldap.ldap_timeval","winldap/LDAP_TIMEVAL","winldap/PLDAP_TIMEVAL"]
+description: Used to represent an interval of time.
+helpviewer_keywords: ["*PLDAP_TIMEVAL","LDAP_TIMEVAL","LDAP_TIMEVAL structure [LDAP]","PLDAP_TIMEVAL","PLDAP_TIMEVAL structure pointer [LDAP]","_ldap_ldap_timeval","ldap.ldap__timeval","ldap.ldap_timeval","winldap/LDAP_TIMEVAL","winldap/PLDAP_TIMEVAL"]
 old-location: ldap\ldap_timeval.htm
 tech.root: ldap
 ms.assetid: 8e551e7c-7237-4761-92e8-c352c3adda77

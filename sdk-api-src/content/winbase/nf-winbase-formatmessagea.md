@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.FormatMessageA
 title: FormatMessageA function (winbase.h)
-description: Formats a message string.helpviewer_keywords: ["FORMAT_MESSAGE_ALLOCATE_BUFFER","FORMAT_MESSAGE_ARGUMENT_ARRAY","FORMAT_MESSAGE_FROM_HMODULE","FORMAT_MESSAGE_FROM_STRING","FORMAT_MESSAGE_FROM_SYSTEM","FORMAT_MESSAGE_IGNORE_INSERTS","FORMAT_MESSAGE_MAX_WIDTH_MASK","FormatMessage","FormatMessage function","FormatMessageA","FormatMessageW","_win32_formatmessage","base.formatmessage","winbase/FormatMessage","winbase/FormatMessageA","winbase/FormatMessageW"]
+description: Formats a message string.
+helpviewer_keywords: ["FORMAT_MESSAGE_ALLOCATE_BUFFER","FORMAT_MESSAGE_ARGUMENT_ARRAY","FORMAT_MESSAGE_FROM_HMODULE","FORMAT_MESSAGE_FROM_STRING","FORMAT_MESSAGE_FROM_SYSTEM","FORMAT_MESSAGE_IGNORE_INSERTS","FORMAT_MESSAGE_MAX_WIDTH_MASK","FormatMessage","FormatMessage function","FormatMessageA","FormatMessageW","_win32_formatmessage","base.formatmessage","winbase/FormatMessage","winbase/FormatMessageA","winbase/FormatMessageW"]
 old-location: base\formatmessage.htm
 tech.root: Debug
 ms.assetid: b9d61342-4bcf-42e9-96f1-a5993dfb6c0c
@@ -599,6 +600,10 @@ LPWSTR GetFormattedMessage(LPWSTR pMessage, ...)
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines FormatMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

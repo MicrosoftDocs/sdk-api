@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnConnectionProfile.Delete
 title: IMbnConnectionProfile::Delete (mbnapi.h)
-description: Deletes the profile from the system.helpviewer_keywords: ["Delete","Delete method [Microsoft Broadband Networks]","Delete method [Microsoft Broadband Networks]","IMbnConnectionProfile interface","IMbnConnectionProfile interface [Microsoft Broadband Networks]","Delete method","IMbnConnectionProfile.Delete","IMbnConnectionProfile::Delete","mbn.imbnconnectionprofile_delete","mbnapi/IMbnConnectionProfile::Delete"]
+description: Deletes the profile from the system.
+helpviewer_keywords: ["Delete","Delete method [Microsoft Broadband Networks]","Delete method [Microsoft Broadband Networks]","IMbnConnectionProfile interface","IMbnConnectionProfile interface [Microsoft Broadband Networks]","Delete method","IMbnConnectionProfile.Delete","IMbnConnectionProfile::Delete","mbn.imbnconnectionprofile_delete","mbnapi/IMbnConnectionProfile::Delete"]
 old-location: mbn\imbnconnectionprofile_delete.htm
 tech.root: mbn
 ms.assetid: 4de7da76-c873-4a57-a021-17436d1a64a4

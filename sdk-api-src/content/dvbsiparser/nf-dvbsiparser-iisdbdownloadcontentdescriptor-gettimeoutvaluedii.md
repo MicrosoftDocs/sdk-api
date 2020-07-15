@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetTimeOutValueDII
 title: IIsdbDownloadContentDescriptor::GetTimeOutValueDII (dvbsiparser.h)
-description: Gets the value of the time_out_value_DII field from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.helpviewer_keywords: ["GetTimeOutValueDII","GetTimeOutValueDII method [Microsoft TV Technologies]","GetTimeOutValueDII method [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","GetTimeOutValueDII method","IIsdbDownloadContentDescriptor.GetTimeOutValueDII","IIsdbDownloadContentDescriptor::GetTimeOutValueDII","dvbsiparser/IIsdbDownloadContentDescriptor::GetTimeOutValueDII","mstv.iisdbdownloadcontentdescriptor_gettimeoutvaluedii"]
+description: Gets the value of the time_out_value_DII field from an Integrated Services Digital Broadcasting (ISDB) download content descriptor.
+helpviewer_keywords: ["GetTimeOutValueDII","GetTimeOutValueDII method [Microsoft TV Technologies]","GetTimeOutValueDII method [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","GetTimeOutValueDII method","IIsdbDownloadContentDescriptor.GetTimeOutValueDII","IIsdbDownloadContentDescriptor::GetTimeOutValueDII","dvbsiparser/IIsdbDownloadContentDescriptor::GetTimeOutValueDII","mstv.iisdbdownloadcontentdescriptor_gettimeoutvaluedii"]
 old-location: mstv\iisdbdownloadcontentdescriptor_gettimeoutvaluedii.htm
 tech.root: mstv
 ms.assetid: ec1bd153-e637-4046-8d7b-f2868c4909dd

@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnDeviceService.CloseDataSession
 title: IMbnDeviceService::CloseDataSession (mbnapi.h)
-description: Closes the data session to a device service on a Mobile Broadband device.helpviewer_keywords: ["CloseDataSession","CloseDataSession method [Microsoft Broadband Networks]","CloseDataSession method [Microsoft Broadband Networks]","IMbnDeviceService interface","IMbnDeviceService interface [Microsoft Broadband Networks]","CloseDataSession method","IMbnDeviceService.CloseDataSession","IMbnDeviceService::CloseDataSession","mbn.imbndeviceservice_closedatasession","mbnapi/IMbnDeviceService::CloseDataSession"]
+description: Closes the data session to a device service on a Mobile Broadband device.
+helpviewer_keywords: ["CloseDataSession","CloseDataSession method [Microsoft Broadband Networks]","CloseDataSession method [Microsoft Broadband Networks]","IMbnDeviceService interface","IMbnDeviceService interface [Microsoft Broadband Networks]","CloseDataSession method","IMbnDeviceService.CloseDataSession","IMbnDeviceService::CloseDataSession","mbn.imbndeviceservice_closedatasession","mbnapi/IMbnDeviceService::CloseDataSession"]
 old-location: mbn\imbndeviceservice_closedatasession.htm
 tech.root: mbn
 ms.assetid: E00322FC-05DF-4342-A182-E1F4F40FBD60

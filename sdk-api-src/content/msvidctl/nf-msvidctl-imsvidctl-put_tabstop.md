@@ -1,7 +1,8 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_TabStop
 title: IMSVidCtl::put_TabStop (msvidctl.h)
-description: The put_TabStop method specifies whether a user can use the TAB key to give the focus to the Video Control.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","put_TabStop method","IMSVidCtl.put_TabStop","IMSVidCtl::put_TabStop","IMSVidCtlput_TabStop","mstv.imsvidctl_put_tabstop","msvidctl/IMSVidCtl::put_TabStop","put_TabStop","put_TabStop method [Microsoft TV Technologies]","put_TabStop method [Microsoft TV Technologies]","IMSVidCtl interface"]
+description: The put_TabStop method specifies whether a user can use the TAB key to give the focus to the Video Control.
+helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","put_TabStop method","IMSVidCtl.put_TabStop","IMSVidCtl::put_TabStop","IMSVidCtlput_TabStop","mstv.imsvidctl_put_tabstop","msvidctl/IMSVidCtl::put_TabStop","put_TabStop","put_TabStop method [Microsoft TV Technologies]","put_TabStop method [Microsoft TV Technologies]","IMSVidCtl interface"]
 old-location: mstv\imsvidctl_put_tabstop.htm
 tech.root: mstv
 ms.assetid: c0e3d216-ea3f-4db4-80fd-aaf4d520ba1a

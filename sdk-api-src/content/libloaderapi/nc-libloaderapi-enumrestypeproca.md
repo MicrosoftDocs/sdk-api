@@ -1,7 +1,8 @@
 ---
 UID: NC:libloaderapi.ENUMRESTYPEPROCA
 title: ENUMRESTYPEPROCA (libloaderapi.h)
-description: An application-defined callback function used with the EnumResourceTypes and EnumResourceTypesEx functions.helpviewer_keywords: ["EnumResTypeProc","EnumResTypeProc callback","EnumResTypeProc callback function [Menus and Other Resources]","EnumResTypeProcA","EnumResTypeProcW","_win32_EnumResTypeProc","_win32_enumrestypeproc_cpp","libloaderapi/EnumResTypeProc","libloaderapi/EnumResTypeProcA","libloaderapi/EnumResTypeProcW","menurc.enumrestypeproc","winui._win32_enumrestypeproc"]
+description: An application-defined callback function used with the EnumResourceTypes and EnumResourceTypesEx functions.
+helpviewer_keywords: ["EnumResTypeProc","EnumResTypeProc callback","EnumResTypeProc callback function [Menus and Other Resources]","EnumResTypeProcA","EnumResTypeProcW","_win32_EnumResTypeProc","_win32_enumrestypeproc_cpp","libloaderapi/EnumResTypeProc","libloaderapi/EnumResTypeProcA","libloaderapi/EnumResTypeProcW","menurc.enumrestypeproc","winui._win32_enumrestypeproc"]
 old-location: menurc\enumrestypeproc.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumrestypeproc.htm
@@ -110,6 +111,10 @@ If the callback function returns <b>FALSE</b>, then <a href="https://msdn.micros
 
 
 
+
+
+> [!NOTE]
+> The libloaderapi.h header defines ENUMRESTYPEPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

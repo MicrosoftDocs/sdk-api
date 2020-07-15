@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_IsItemVisible
 title: ListView_IsItemVisible macro (commctrl.h)
-description: Indicates whether an item in the list-view control is visible. Use this macro or send the LVM_ISITEMVISIBLE message explicitly.helpviewer_keywords: ["ListView_IsItemVisible","ListView_IsItemVisible macro [Windows Controls]","_shell_ListView_IsItemVisible","_shell_ListView_IsItemVisible_cpp","commctrl/ListView_IsItemVisible","controls.ListView_IsItemVisible","controls._shell_ListView_IsItemVisible"]
+description: Indicates whether an item in the list-view control is visible. Use this macro or send the LVM_ISITEMVISIBLE message explicitly.
+helpviewer_keywords: ["ListView_IsItemVisible","ListView_IsItemVisible macro [Windows Controls]","_shell_ListView_IsItemVisible","_shell_ListView_IsItemVisible_cpp","commctrl/ListView_IsItemVisible","controls.ListView_IsItemVisible","controls._shell_ListView_IsItemVisible"]
 old-location: controls\ListView_IsItemVisible.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_isitemvisible.htm

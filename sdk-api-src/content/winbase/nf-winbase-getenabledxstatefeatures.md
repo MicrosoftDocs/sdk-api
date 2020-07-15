@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetEnabledXStateFeatures
 title: GetEnabledXStateFeatures function (winbase.h)
-description: Gets a mask of enabled XState features on x86 or x64 processors.helpviewer_keywords: ["GetEnabledXStateFeatures","GetEnabledXStateFeatures function","base.getenabledxstatefeatures","winbase/GetEnabledXStateFeatures"]
+description: Gets a mask of enabled XState features on x86 or x64 processors.
+helpviewer_keywords: ["GetEnabledXStateFeatures","GetEnabledXStateFeatures function","base.getenabledxstatefeatures","winbase/GetEnabledXStateFeatures"]
 old-location: base\getenabledxstatefeatures.htm
 tech.root: Debug
 ms.assetid: E7DE090F-F83E-440D-B2A3-BCF160889F2E

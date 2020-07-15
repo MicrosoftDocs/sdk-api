@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetColorKey
 title: IDirectDrawSurface7::SetColorKey (ddraw.h)
-description: Sets the color key value for the DirectDrawSurface object if the hardware supports color keys on a per-surface basis.helpviewer_keywords: ["DDCKEY_COLORSPACE","DDCKEY_DESTBLT","DDCKEY_DESTOVERLAY","DDCKEY_SRCBLT","DDCKEY_SRCOVERLAY","IDirectDrawSurface7 interface [DirectDraw]","SetColorKey method","IDirectDrawSurface7.SetColorKey","IDirectDrawSurface7::SetColorKey","SetColorKey","SetColorKey method [DirectDraw]","SetColorKey method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::SetColorKey","directdraw.idirectdrawsurface7_setcolorkey"]
+description: Sets the color key value for the DirectDrawSurface object if the hardware supports color keys on a per-surface basis.
+helpviewer_keywords: ["DDCKEY_COLORSPACE","DDCKEY_DESTBLT","DDCKEY_DESTOVERLAY","DDCKEY_SRCBLT","DDCKEY_SRCOVERLAY","IDirectDrawSurface7 interface [DirectDraw]","SetColorKey method","IDirectDrawSurface7.SetColorKey","IDirectDrawSurface7::SetColorKey","SetColorKey","SetColorKey method [DirectDraw]","SetColorKey method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::SetColorKey","directdraw.idirectdrawsurface7_setcolorkey"]
 old-location: directdraw\idirectdrawsurface7_setcolorkey.htm
 tech.root: directdraw
 ms.assetid: 36f2510e-d12a-40af-b65c-aa36ce46a942

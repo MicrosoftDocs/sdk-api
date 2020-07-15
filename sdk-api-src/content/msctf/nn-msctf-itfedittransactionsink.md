@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfEditTransactionSink
 title: ITfEditTransactionSink (msctf.h)
-description: The ITfEditTransactionSink interface is implemented by a text service and used by the TSF manager to support edit transactions.helpviewer_keywords: ["ITfEditTransactionSink","ITfEditTransactionSink interface [Text Services Framework]","ITfEditTransactionSink interface [Text Services Framework]","described","_tsf_itfedittransactionsink_ref","msctf/ITfEditTransactionSink","tsf.itfedittransactionsink"]
+description: The ITfEditTransactionSink interface is implemented by a text service and used by the TSF manager to support edit transactions.
+helpviewer_keywords: ["ITfEditTransactionSink","ITfEditTransactionSink interface [Text Services Framework]","ITfEditTransactionSink interface [Text Services Framework]","described","_tsf_itfedittransactionsink_ref","msctf/ITfEditTransactionSink","tsf.itfedittransactionsink"]
 old-location: tsf\itfedittransactionsink.htm
 tech.root: TSF
 ms.assetid: d5393459-8bd6-4daf-830a-aa08d76c6347

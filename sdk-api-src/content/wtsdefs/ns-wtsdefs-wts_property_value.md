@@ -1,7 +1,8 @@
 ---
 UID: NS:wtsdefs.__WTS_PROPERTY_VALUE
 title: WTS_PROPERTY_VALUE (wtsdefs.h)
-description: Contains information about a property value to retrieve from the protocol.helpviewer_keywords: ["*PWTS_PROPERTY_VALUE","PWRDS_PROPERTY_VALUE","PWRDS_PROPERTY_VALUE structure pointer [Remote Desktop Services]","PWTS_PROPERTY_VALUE","PWTS_PROPERTY_VALUE structure pointer [Remote Desktop Services]","VALUE_TYPE_BINARY","VALUE_TYPE_GUID","VALUE_TYPE_STRING","VALUE_TYPE_ULONG","WRDS_PROPERTY_VALUE","WRDS_PROPERTY_VALUE structure [Remote Desktop Services]","WTS_PROPERTY_VALUE","WTS_PROPERTY_VALUE structure [Remote Desktop Services]","termserv.wts_property_value","wtsdefs/PWRDS_PROPERTY_VALUE","wtsdefs/PWTS_PROPERTY_VALUE","wtsdefs/WRDS_PROPERTY_VALUE","wtsdefs/WTS_PROPERTY_VALUE"]
+description: Contains information about a property value to retrieve from the protocol.
+helpviewer_keywords: ["*PWTS_PROPERTY_VALUE","PWRDS_PROPERTY_VALUE","PWRDS_PROPERTY_VALUE structure pointer [Remote Desktop Services]","PWTS_PROPERTY_VALUE","PWTS_PROPERTY_VALUE structure pointer [Remote Desktop Services]","VALUE_TYPE_BINARY","VALUE_TYPE_GUID","VALUE_TYPE_STRING","VALUE_TYPE_ULONG","WRDS_PROPERTY_VALUE","WRDS_PROPERTY_VALUE structure [Remote Desktop Services]","WTS_PROPERTY_VALUE","WTS_PROPERTY_VALUE structure [Remote Desktop Services]","termserv.wts_property_value","wtsdefs/PWRDS_PROPERTY_VALUE","wtsdefs/PWTS_PROPERTY_VALUE","wtsdefs/WRDS_PROPERTY_VALUE","wtsdefs/WTS_PROPERTY_VALUE"]
 old-location: termserv\wts_property_value.htm
 tech.root: TermServ
 ms.assetid: 3a4d18db-ef6a-4a7f-a676-1bc952ecae50

@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.ITuneRequest.get_Components
 title: ITuneRequest::get_Components (tuner.h)
-description: The get_Components method retrieves the components contained in this tune request.helpviewer_keywords: ["ITuneRequest interface [Microsoft TV Technologies]","get_Components method","ITuneRequest.get_Components","ITuneRequest::get_Components","ITuneRequestget_Components","get_Components","get_Components method [Microsoft TV Technologies]","get_Components method [Microsoft TV Technologies]","ITuneRequest interface","mstv.itunerequest_get_components","tuner/ITuneRequest::get_Components"]
+description: The get_Components method retrieves the components contained in this tune request.
+helpviewer_keywords: ["ITuneRequest interface [Microsoft TV Technologies]","get_Components method","ITuneRequest.get_Components","ITuneRequest::get_Components","ITuneRequestget_Components","get_Components","get_Components method [Microsoft TV Technologies]","get_Components method [Microsoft TV Technologies]","ITuneRequest interface","mstv.itunerequest_get_components","tuner/ITuneRequest::get_Components"]
 old-location: mstv\itunerequest_get_components.htm
 tech.root: mstv
 ms.assetid: f15ef4f6-ca36-4d46-93c7-26f1fbcb21cd

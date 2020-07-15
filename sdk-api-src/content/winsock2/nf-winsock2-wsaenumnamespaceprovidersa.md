@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSAEnumNameSpaceProvidersA
 title: WSAEnumNameSpaceProvidersA function (winsock2.h)
-description: The WSAEnumNameSpaceProviders function retrieves information on available namespace providers.helpviewer_keywords: ["WSAEnumNameSpaceProviders","WSAEnumNameSpaceProviders function [Winsock]","WSAEnumNameSpaceProvidersA","WSAEnumNameSpaceProvidersW","_win32_wsaenumnamespaceproviders_2","winsock.wsaenumnamespaceproviders_2","winsock2/WSAEnumNameSpaceProviders","winsock2/WSAEnumNameSpaceProvidersA","winsock2/WSAEnumNameSpaceProvidersW"]
+description: The WSAEnumNameSpaceProviders function retrieves information on available namespace providers.
+helpviewer_keywords: ["WSAEnumNameSpaceProviders","WSAEnumNameSpaceProviders function [Winsock]","WSAEnumNameSpaceProvidersA","WSAEnumNameSpaceProvidersW","_win32_wsaenumnamespaceproviders_2","winsock.wsaenumnamespaceproviders_2","winsock2/WSAEnumNameSpaceProviders","winsock2/WSAEnumNameSpaceProvidersA","winsock2/WSAEnumNameSpaceProvidersW"]
 old-location: winsock\wsaenumnamespaceproviders_2.htm
 tech.root: WinSock
 ms.assetid: f5b6cd42-c5cb-43b6-bb96-fd260217e252
@@ -321,6 +322,10 @@ int wmain()
 
 
 
+
+
+> [!NOTE]
+> The winsock2.h header defines WSAEnumNameSpaceProviders as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1171,7 +1171,7 @@ int __cdecl main(int argc, char **argv)
         printf("Memory allocation failed for IP_ADAPTER_ADDRESSES struct\n");
         exit(1);
     }
-    // Make a second call to GetAdapters Addresses to get the
+    // Make a second call to GetAdaptersAddresses to get the
     // actual data we want
     printf("Memory allocated for GetAdapterAddresses = %d bytes\n", outBufLen);
     printf("Calling GetAdaptersAddresses function with family = ");

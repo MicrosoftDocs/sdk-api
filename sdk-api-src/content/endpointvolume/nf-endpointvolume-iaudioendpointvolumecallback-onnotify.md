@@ -1,7 +1,8 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolumeCallback.OnNotify
 title: IAudioEndpointVolumeCallback::OnNotify (endpointvolume.h)
-description: The OnNotify method notifies the client that the volume level or muting state of the audio endpoint device has changed.helpviewer_keywords: ["IAudioEndpointVolumeCallback interface [Core Audio]","OnNotify method","IAudioEndpointVolumeCallback.OnNotify","IAudioEndpointVolumeCallback::OnNotify","IAudioEndpointVolumeCallbackOnNotify","OnNotify","OnNotify method [Core Audio]","OnNotify method [Core Audio]","IAudioEndpointVolumeCallback interface","coreaudio.iaudioendpointvolumecallback_onnotify","endpointvolume/IAudioEndpointVolumeCallback::OnNotify"]
+description: The OnNotify method notifies the client that the volume level or muting state of the audio endpoint device has changed.
+helpviewer_keywords: ["IAudioEndpointVolumeCallback interface [Core Audio]","OnNotify method","IAudioEndpointVolumeCallback.OnNotify","IAudioEndpointVolumeCallback::OnNotify","IAudioEndpointVolumeCallbackOnNotify","OnNotify","OnNotify method [Core Audio]","OnNotify method [Core Audio]","IAudioEndpointVolumeCallback interface","coreaudio.iaudioendpointvolumecallback_onnotify","endpointvolume/IAudioEndpointVolumeCallback::OnNotify"]
 old-location: coreaudio\iaudioendpointvolumecallback_onnotify.htm
 tech.root: CoreAudio
 ms.assetid: a8ffad44-c621-4335-a312-16e7d6af2c18

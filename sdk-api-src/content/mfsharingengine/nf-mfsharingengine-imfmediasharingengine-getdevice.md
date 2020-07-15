@@ -1,7 +1,8 @@
 ---
 UID: NF:mfsharingengine.IMFMediaSharingEngine.GetDevice
 title: IMFMediaSharingEngine::GetDevice (mfsharingengine.h)
-description: Gets information about the media sharing device.helpviewer_keywords: ["GetDevice","GetDevice method [Media Foundation]","GetDevice method [Media Foundation]","IMFMediaSharingEngine interface","IMFMediaSharingEngine interface [Media Foundation]","GetDevice method","IMFMediaSharingEngine.GetDevice","IMFMediaSharingEngine::GetDevice","mf.imfmediasharingengine_getdevice","mfsharingengine/IMFMediaSharingEngine::GetDevice"]
+description: Gets information about the media sharing device.
+helpviewer_keywords: ["GetDevice","GetDevice method [Media Foundation]","GetDevice method [Media Foundation]","IMFMediaSharingEngine interface","IMFMediaSharingEngine interface [Media Foundation]","GetDevice method","IMFMediaSharingEngine.GetDevice","IMFMediaSharingEngine::GetDevice","mf.imfmediasharingengine_getdevice","mfsharingengine/IMFMediaSharingEngine::GetDevice"]
 old-location: mf\imfmediasharingengine_getdevice.htm
 tech.root: medfound
 ms.assetid: 29E536F3-E886-4DB6-8863-B4C0144FB693

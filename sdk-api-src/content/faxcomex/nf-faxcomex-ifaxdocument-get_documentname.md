@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_DocumentName
 title: IFaxDocument::get_DocumentName (faxcomex.h)
-description: The IFaxDocument::get_DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax document. The value is for display purposes only.helpviewer_keywords: ["DocumentName property [Fax Service]","DocumentName property [Fax Service]","IFaxDocument interface","IFaxDocument interface [Fax Service]","DocumentName property","IFaxDocument.DocumentName","IFaxDocument.get_DocumentName","IFaxDocument.put_DocumentName","IFaxDocument::DocumentName","IFaxDocument::get_DocumentName","IFaxDocument::put_DocumentName","_mfax_faxdocument.documentname","fax._mfax_faxdocument_cpp_mfax_faxdocument_documentname_cpp","fax._mfax_faxdocument_documentname","faxcomex/IFaxDocument::DocumentName","faxcomex/IFaxDocument::get_DocumentName","faxcomex/IFaxDocument::put_DocumentName","get_DocumentName"]
+description: The IFaxDocument::get_DocumentName property is a null-terminated string that contains the user-friendly name to display for the fax document. The value is for display purposes only.
+helpviewer_keywords: ["DocumentName property [Fax Service]","DocumentName property [Fax Service]","IFaxDocument interface","IFaxDocument interface [Fax Service]","DocumentName property","IFaxDocument.DocumentName","IFaxDocument.get_DocumentName","IFaxDocument.put_DocumentName","IFaxDocument::DocumentName","IFaxDocument::get_DocumentName","IFaxDocument::put_DocumentName","_mfax_faxdocument.documentname","fax._mfax_faxdocument_cpp_mfax_faxdocument_documentname_cpp","fax._mfax_faxdocument_documentname","faxcomex/IFaxDocument::DocumentName","faxcomex/IFaxDocument::get_DocumentName","faxcomex/IFaxDocument::put_DocumentName","get_DocumentName"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_documentname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_30kl.htm

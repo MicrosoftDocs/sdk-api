@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.NotifyStreamingStatus
 title: IActiveBasicDevice::streaming (windows.media.streaming.h)
-description: Called by the application to indicate that the device is being used for active streaming.helpviewer_keywords: ["IActiveBasicDevice interface [Media Streaming API]","NotifyStreamingStatus method","IActiveBasicDevice.NotifyStreamingStatus","IActiveBasicDevice.streaming","IActiveBasicDevice::NotifyStreamingStatus","IActiveBasicDevice::streaming","NotifyStreamingStatus","NotifyStreamingStatus method [Media Streaming API]","NotifyStreamingStatus method [Media Streaming API]","IActiveBasicDevice interface","mediastreaming.iactivebasicdevice_notifystreamingstatus","windows/IActiveBasicDevice::NotifyStreamingStatus"]
+description: Called by the application to indicate that the device is being used for active streaming.
+helpviewer_keywords: ["IActiveBasicDevice interface [Media Streaming API]","NotifyStreamingStatus method","IActiveBasicDevice.NotifyStreamingStatus","IActiveBasicDevice.streaming","IActiveBasicDevice::NotifyStreamingStatus","IActiveBasicDevice::streaming","NotifyStreamingStatus","NotifyStreamingStatus method [Media Streaming API]","NotifyStreamingStatus method [Media Streaming API]","IActiveBasicDevice interface","mediastreaming.iactivebasicdevice_notifystreamingstatus","windows/IActiveBasicDevice::NotifyStreamingStatus"]
 old-location: mediastreaming\iactivebasicdevice_notifystreamingstatus.htm
 tech.root: mediastreaming
 ms.assetid: D62E8571-1DE9-4BAB-A291-415FD6E9F9C8

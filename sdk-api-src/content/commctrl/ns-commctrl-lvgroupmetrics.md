@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagLVGROUPMETRICS
 title: LVGROUPMETRICS (commctrl.h)
-description: Contains information about the display of groups in a list-view control.helpviewer_keywords: ["*PLVGROUPMETRICS","LVGROUPMETRICS","LVGROUPMETRICS structure [Windows Controls]","PLVGROUPMETRICS","PLVGROUPMETRICS structure pointer [Windows Controls]","commctrl/LVGROUPMETRICS","commctrl/PLVGROUPMETRICS","controls.LVGROUPMETRICS","controls.inet_LVGROUPMETRICS","inet_LVGROUPMETRICS","inet_LVGROUPMETRICS_cpp"]
+description: Contains information about the display of groups in a list-view control.
+helpviewer_keywords: ["*PLVGROUPMETRICS","LVGROUPMETRICS","LVGROUPMETRICS structure [Windows Controls]","PLVGROUPMETRICS","PLVGROUPMETRICS structure pointer [Windows Controls]","commctrl/LVGROUPMETRICS","commctrl/PLVGROUPMETRICS","controls.LVGROUPMETRICS","controls.inet_LVGROUPMETRICS","inet_LVGROUPMETRICS","inet_LVGROUPMETRICS_cpp"]
 old-location: controls\LVGROUPMETRICS.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvgroupmetrics.htm

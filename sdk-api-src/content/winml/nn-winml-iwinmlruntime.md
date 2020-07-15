@@ -1,7 +1,8 @@
 ---
 UID: NN:winml.IWinMLRuntime
 title: IWinMLRuntime (winml.h)
-description: Represents the runtime to load and evaluate a WinML model.helpviewer_keywords: ["IWinMLRuntime","IWinMLRuntime interface","IWinMLRuntime interface","described","MachineLearning.iwinmlruntime","winml/IWinMLRuntime"]
+description: Represents the runtime to load and evaluate a WinML model.
+helpviewer_keywords: ["IWinMLRuntime","IWinMLRuntime interface","IWinMLRuntime interface","described","MachineLearning.iwinmlruntime","winml/IWinMLRuntime"]
 old-location: machinelearning\iwinmlruntime.htm
 tech.root: MachineLearning
 ms.assetid: C2FD74A1-EE38-46B1-98A8-43557485F92E

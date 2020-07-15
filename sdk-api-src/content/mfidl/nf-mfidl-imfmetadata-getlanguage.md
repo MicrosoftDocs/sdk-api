@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFMetadata.GetLanguage
 title: IMFMetadata::GetLanguage (mfidl.h)
-description: Gets the current language setting.helpviewer_keywords: ["75295c93-a389-42c4-aa56-debc36a5f532","GetLanguage","GetLanguage method [Media Foundation]","GetLanguage method [Media Foundation]","IMFMetadata interface","IMFMetadata interface [Media Foundation]","GetLanguage method","IMFMetadata.GetLanguage","IMFMetadata::GetLanguage","mf.imfmetadata_getlanguage","mfidl/IMFMetadata::GetLanguage"]
+description: Gets the current language setting.
+helpviewer_keywords: ["75295c93-a389-42c4-aa56-debc36a5f532","GetLanguage","GetLanguage method [Media Foundation]","GetLanguage method [Media Foundation]","IMFMetadata interface","IMFMetadata interface [Media Foundation]","GetLanguage method","IMFMetadata.GetLanguage","IMFMetadata::GetLanguage","mf.imfmetadata_getlanguage","mfidl/IMFMetadata::GetLanguage"]
 old-location: mf\imfmetadata_getlanguage.htm
 tech.root: medfound
 ms.assetid: 75295c93-a389-42c4-aa56-debc36a5f532

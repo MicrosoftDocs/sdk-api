@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_WriteBOOL
 title: PSPropertyBag_WriteBOOL function (propsys.h)
-description: Sets the BOOL value of a property in a property bag.helpviewer_keywords: ["PSPropertyBag_WriteBOOL","PSPropertyBag_WriteBOOL function [Windows Properties]","properties.PSPropertyBag_WriteBOOL","propsys/PSPropertyBag_WriteBOOL","shell.PSPropertyBag_WriteBOOL","shell_PSPropertyBag_WriteBOOL"]
+description: Sets the BOOL value of a property in a property bag.
+helpviewer_keywords: ["PSPropertyBag_WriteBOOL","PSPropertyBag_WriteBOOL function [Windows Properties]","properties.PSPropertyBag_WriteBOOL","propsys/PSPropertyBag_WriteBOOL","shell.PSPropertyBag_WriteBOOL","shell_PSPropertyBag_WriteBOOL"]
 old-location: properties\PSPropertyBag_WriteBOOL.htm
 tech.root: properties
 ms.assetid: 3703A7C4-CFDC-4453-AA8F-6A5D6B7D3E66

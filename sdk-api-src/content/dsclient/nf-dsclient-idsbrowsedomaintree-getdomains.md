@@ -1,7 +1,8 @@
 ---
 UID: NF:dsclient.IDsBrowseDomainTree.GetDomains
 title: IDsBrowseDomainTree::GetDomains (dsclient.h)
-description: The IDsBrowseDomainTree::GetDomains method retrieves the trust domains of the current computer. The current computer is set using the IDsBrowseDomainTree::SetComputer method.helpviewer_keywords: ["DBDTF_RETURNEXTERNAL","DBDTF_RETURNFQDN","DBDTF_RETURNINBOUND","DBDTF_RETURNINOUTBOUND","DBDTF_RETURNMIXEDDOMAINS","GetDomains","GetDomains method [Active Directory]","GetDomains method [Active Directory]","IDsBrowseDomainTree interface","IDsBrowseDomainTree interface [Active Directory]","GetDomains method","IDsBrowseDomainTree.GetDomains","IDsBrowseDomainTree::GetDomains","_glines_idsbrowsedomaintree_getdomains","ad.idsbrowsedomaintree__getdomains","ad.idsbrowsedomaintree_getdomains","dsclient/IDsBrowseDomainTree::GetDomains"]
+description: The IDsBrowseDomainTree::GetDomains method retrieves the trust domains of the current computer. The current computer is set using the IDsBrowseDomainTree::SetComputer method.
+helpviewer_keywords: ["DBDTF_RETURNEXTERNAL","DBDTF_RETURNFQDN","DBDTF_RETURNINBOUND","DBDTF_RETURNINOUTBOUND","DBDTF_RETURNMIXEDDOMAINS","GetDomains","GetDomains method [Active Directory]","GetDomains method [Active Directory]","IDsBrowseDomainTree interface","IDsBrowseDomainTree interface [Active Directory]","GetDomains method","IDsBrowseDomainTree.GetDomains","IDsBrowseDomainTree::GetDomains","_glines_idsbrowsedomaintree_getdomains","ad.idsbrowsedomaintree__getdomains","ad.idsbrowsedomaintree_getdomains","dsclient/IDsBrowseDomainTree::GetDomains"]
 old-location: ad\idsbrowsedomaintree_getdomains.htm
 tech.root: ad
 ms.assetid: 42cd38c2-7470-49b5-9b64-d971f2a915c6

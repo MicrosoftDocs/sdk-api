@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpGetServerBindingInfo
 title: DhcpGetServerBindingInfo function (dhcpsapi.h)
-description: The DhcpGetServerBindingInfo function returns endpoint bindings set on the DHCP server.helpviewer_keywords: ["DHCP_ENDPOINT_FLAG_CANT_MODIFY","DhcpGetServerBindingInfo","DhcpGetServerBindingInfo function [DHCP]","dhcp.dhcpgetserverbindinginfo","dhcpsapi/DhcpGetServerBindingInfo"]
+description: The DhcpGetServerBindingInfo function returns endpoint bindings set on the DHCP server.
+helpviewer_keywords: ["DHCP_ENDPOINT_FLAG_CANT_MODIFY","DhcpGetServerBindingInfo","DhcpGetServerBindingInfo function [DHCP]","dhcp.dhcpgetserverbindinginfo","dhcpsapi/DhcpGetServerBindingInfo"]
 old-location: dhcp\dhcpgetserverbindinginfo.htm
 tech.root: DHCP
 ms.assetid: c0f5c9c1-d421-4977-aa26-1b8b7406802d

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleObject.GetClientSite
 title: IOleObject::GetClientSite (oleidl.h)
-description: Retrieves a pointer to an embedded object's client site.helpviewer_keywords: ["GetClientSite","GetClientSite method [COM]","GetClientSite method [COM]","IOleObject interface","IOleObject interface [COM]","GetClientSite method","IOleObject.GetClientSite","IOleObject::GetClientSite","_ole_ioleobject_getclientsite","com.ioleobject_getclientsite","oleidl/IOleObject::GetClientSite"]
+description: Retrieves a pointer to an embedded object's client site.
+helpviewer_keywords: ["GetClientSite","GetClientSite method [COM]","GetClientSite method [COM]","IOleObject interface","IOleObject interface [COM]","GetClientSite method","IOleObject.GetClientSite","IOleObject::GetClientSite","_ole_ioleobject_getclientsite","com.ioleobject_getclientsite","oleidl/IOleObject::GetClientSite"]
 old-location: com\ioleobject_getclientsite.htm
 tech.root: com
 ms.assetid: bf26b989-445c-48d3-b279-29e4cef0ad97

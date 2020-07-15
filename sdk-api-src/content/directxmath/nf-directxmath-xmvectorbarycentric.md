@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorBaryCentric
 title: XMVectorBaryCentric function (directxmath.h)
-description: Returns a point in Barycentric coordinates, using the specified position vectors.helpviewer_keywords: ["Use DirectX..XMVectorBaryCentric","XMVectorBaryCentric","XMVectorBaryCentric method [DirectX Math Support APIs]","dxmath.xmvectorbarycentric"]
+description: Returns a point in Barycentric coordinates, using the specified position vectors.
+helpviewer_keywords: ["Use DirectX..XMVectorBaryCentric","XMVectorBaryCentric","XMVectorBaryCentric method [DirectX Math Support APIs]","dxmath.xmvectorbarycentric"]
 old-location: dxmath\xmvectorbarycentric.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVectorBaryCentric(XMVECTOR,XMVECTOR,XMVECTOR,float,float)

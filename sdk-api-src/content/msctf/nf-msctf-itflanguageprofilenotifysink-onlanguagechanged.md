@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfLanguageProfileNotifySink.OnLanguageChanged
 title: ITfLanguageProfileNotifySink::OnLanguageChanged (msctf.h)
-description: ITfLanguageProfileNotifySink::OnLanguageChanged methodhelpviewer_keywords: ["ITfLanguageProfileNotifySink interface [Text Services Framework]","OnLanguageChanged method","ITfLanguageProfileNotifySink.OnLanguageChanged","ITfLanguageProfileNotifySink::OnLanguageChanged","OnLanguageChanged","OnLanguageChanged method [Text Services Framework]","OnLanguageChanged method [Text Services Framework]","ITfLanguageProfileNotifySink interface","_tsf_itflanguageprofilenotifysink_onlanguagechanged_ref","msctf/ITfLanguageProfileNotifySink::OnLanguageChanged","tsf.itflanguageprofilenotifysink_onlanguagechanged"]
+description: ITfLanguageProfileNotifySink::OnLanguageChanged method
+helpviewer_keywords: ["ITfLanguageProfileNotifySink interface [Text Services Framework]","OnLanguageChanged method","ITfLanguageProfileNotifySink.OnLanguageChanged","ITfLanguageProfileNotifySink::OnLanguageChanged","OnLanguageChanged","OnLanguageChanged method [Text Services Framework]","OnLanguageChanged method [Text Services Framework]","ITfLanguageProfileNotifySink interface","_tsf_itflanguageprofilenotifysink_onlanguagechanged_ref","msctf/ITfLanguageProfileNotifySink::OnLanguageChanged","tsf.itflanguageprofilenotifysink_onlanguagechanged"]
 old-location: tsf\itflanguageprofilenotifysink_onlanguagechanged.htm
 tech.root: TSF
 ms.assetid: 505b3353-90cc-4b78-90af-b0151abc703f

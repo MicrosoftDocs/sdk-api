@@ -1,7 +1,8 @@
 ---
 UID: NE:clusapi._CLUSTER_SHARED_VOLUME_STATE
 title: CLUSTER_SHARED_VOLUME_STATE (clusapi.h)
-description: Defines the states of a cluster shared volume.helpviewer_keywords: ["*PCLUSTER_SHARED_VOLUME_STATE","CLUSTER_SHARED_VOLUME_STATE","CLUSTER_SHARED_VOLUME_STATE enumeration [Failover Cluster]","SharedVolumeStateActive","SharedVolumeStatePaused","SharedVolumeStateUnavailable","clusapi/CLUSTER_SHARED_VOLUME_STATE","clusapi/SharedVolumeStateActive","clusapi/SharedVolumeStatePaused","clusapi/SharedVolumeStateUnavailable","mscs.cluster_shared_volume_state"]
+description: Defines the states of a cluster shared volume.
+helpviewer_keywords: ["*PCLUSTER_SHARED_VOLUME_STATE","CLUSTER_SHARED_VOLUME_STATE","CLUSTER_SHARED_VOLUME_STATE enumeration [Failover Cluster]","SharedVolumeStateActive","SharedVolumeStatePaused","SharedVolumeStateUnavailable","clusapi/CLUSTER_SHARED_VOLUME_STATE","clusapi/SharedVolumeStateActive","clusapi/SharedVolumeStatePaused","clusapi/SharedVolumeStateUnavailable","mscs.cluster_shared_volume_state"]
 old-location: mscs\cluster_shared_volume_state.htm
 tech.root: MsCS
 ms.assetid: B27C110C-939F-42D4-960E-702CA1B141F9

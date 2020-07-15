@@ -1,7 +1,8 @@
 ---
 UID: NF:authz.AuthzSetAppContainerInformation
 title: AuthzSetAppContainerInformation function (authz.h)
-description: Sets the app container and capability information in a current Authz context.helpviewer_keywords: ["AuthzSetAppContainerInformation","AuthzSetAppContainerInformation function [Security]","authz/AuthzSetAppContainerInformation","security.authzsetappcontainerinformation"]
+description: Sets the app container and capability information in a current Authz context.
+helpviewer_keywords: ["AuthzSetAppContainerInformation","AuthzSetAppContainerInformation function [Security]","authz/AuthzSetAppContainerInformation","security.authzsetappcontainerinformation"]
 old-location: security\authzsetappcontainerinformation.htm
 tech.root: SecAuthZ
 ms.assetid: CD01C5E1-2367-4CC1-A495-A295E3C82B46

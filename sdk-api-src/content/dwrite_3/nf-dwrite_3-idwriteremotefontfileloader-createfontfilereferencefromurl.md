@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl
 title: IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl (dwrite_3.h)
-description: Creates a font file reference from a URL if the loader supports this capability.helpviewer_keywords: ["CreateFontFileReferenceFromUrl","CreateFontFileReferenceFromUrl method [Direct Write]","CreateFontFileReferenceFromUrl method [Direct Write]","IDWriteRemoteFontFileLoader interface","IDWriteRemoteFontFileLoader interface [Direct Write]","CreateFontFileReferenceFromUrl method","IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl","IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl","directwrite.idwriteremotefontfileloader_createfontfilereferencefromurl","dwrite_3/IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl"]
+description: Creates a font file reference from a URL if the loader supports this capability.
+helpviewer_keywords: ["CreateFontFileReferenceFromUrl","CreateFontFileReferenceFromUrl method [Direct Write]","CreateFontFileReferenceFromUrl method [Direct Write]","IDWriteRemoteFontFileLoader interface","IDWriteRemoteFontFileLoader interface [Direct Write]","CreateFontFileReferenceFromUrl method","IDWriteRemoteFontFileLoader.CreateFontFileReferenceFromUrl","IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl","directwrite.idwriteremotefontfileloader_createfontfilereferencefromurl","dwrite_3/IDWriteRemoteFontFileLoader::CreateFontFileReferenceFromUrl"]
 old-location: directwrite\idwriteremotefontfileloader_createfontfilereferencefromurl.htm
 tech.root: DirectWrite
 ms.assetid: C8695514-532F-4CAC-9A50-049C81812F15

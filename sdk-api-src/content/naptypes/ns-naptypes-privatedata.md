@@ -1,7 +1,8 @@
 ---
 UID: NS:naptypes.tagPrivateData
 title: PrivateData (naptypes.h)
-description: Is used to store and retrieve opaque data blobs.helpviewer_keywords: ["PrivateData","PrivateData structure [NAP]","nap.privatedata_struct","naptypes/PrivateData"]
+description: Is used to store and retrieve opaque data blobs.
+helpviewer_keywords: ["PrivateData","PrivateData structure [NAP]","nap.privatedata_struct","naptypes/PrivateData"]
 old-location: nap\privatedata_struct.htm
 tech.root: NAP
 ms.assetid: e2859983-3780-464d-b878-e63d974ba386

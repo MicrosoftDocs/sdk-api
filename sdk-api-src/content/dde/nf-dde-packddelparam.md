@@ -1,7 +1,8 @@
 ---
 UID: NF:dde.PackDDElParam
 title: PackDDElParam function (dde.h)
-description: Packs a Dynamic Data Exchange (DDE) lParam value into an internal structure used for sharing DDE data between processes.helpviewer_keywords: ["PackDDElParam","PackDDElParam function [Data Exchange]","_win32_PackDDElParam","_win32_packddelparam_cpp","dataxchg.packddelparam","dde/PackDDElParam","winui._win32_packddelparam"]
+description: Packs a Dynamic Data Exchange (DDE) lParam value into an internal structure used for sharing DDE data between processes.
+helpviewer_keywords: ["PackDDElParam","PackDDElParam function [Data Exchange]","_win32_PackDDElParam","_win32_packddelparam_cpp","dataxchg.packddelparam","dde/PackDDElParam","winui._win32_packddelparam"]
 old-location: dataxchg\packddelparam.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchange\dynamicdataexchangereference\dynamicdataexchangefunctions\packddelparam.htm

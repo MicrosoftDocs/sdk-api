@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.get_Priority
 title: IRDPSRAPIVirtualChannel::get_Priority (rdpencomapi.h)
-description: The channel priority.helpviewer_keywords: ["CHANNEL_PRIORITY_HI","CHANNEL_PRIORITY_LO","CHANNEL_PRIORITY_MED","IRDPSRAPIVirtualChannel interface [RDP]","Priority property","IRDPSRAPIVirtualChannel.Priority","IRDPSRAPIVirtualChannel.get_Priority","IRDPSRAPIVirtualChannel::Priority","IRDPSRAPIVirtualChannel::get_Priority","Priority property [RDP]","Priority property [RDP]","IRDPSRAPIVirtualChannel interface","Priority property [RDP]","RDPSRAPIVirtualChannel object","RDPSRAPIVirtualChannel object [RDP]","Priority property","get_Priority","rdp.irdpsrapivirtualchannel_priority","rdpencomapi/IRDPSRAPIVirtualChannel::Priority","rdpencomapi/IRDPSRAPIVirtualChannel::get_Priority"]
+description: The channel priority.
+helpviewer_keywords: ["CHANNEL_PRIORITY_HI","CHANNEL_PRIORITY_LO","CHANNEL_PRIORITY_MED","IRDPSRAPIVirtualChannel interface [RDP]","Priority property","IRDPSRAPIVirtualChannel.Priority","IRDPSRAPIVirtualChannel.get_Priority","IRDPSRAPIVirtualChannel::Priority","IRDPSRAPIVirtualChannel::get_Priority","Priority property [RDP]","Priority property [RDP]","IRDPSRAPIVirtualChannel interface","Priority property [RDP]","RDPSRAPIVirtualChannel object","RDPSRAPIVirtualChannel object [RDP]","Priority property","get_Priority","rdp.irdpsrapivirtualchannel_priority","rdpencomapi/IRDPSRAPIVirtualChannel::Priority","rdpencomapi/IRDPSRAPIVirtualChannel::get_Priority"]
 old-location: rdp\irdpsrapivirtualchannel_priority.htm
 tech.root: rdp
 ms.assetid: 34addc3d-5541-48c9-a749-256114e0c2aa

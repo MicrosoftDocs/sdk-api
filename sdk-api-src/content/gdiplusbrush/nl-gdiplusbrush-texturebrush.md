@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplusbrush.TextureBrush
 title: TextureBrush (gdiplusbrush.h)
-description: The TextureBrush class defines a Brush object that contains an Image object that is used for the fill. The fill image can be transformed by using the local Matrix object contained in the Brush object.helpviewer_keywords: ["TextureBrush","TextureBrush class [GDI+]","TextureBrush class [GDI+]","described","_gdiplus_CLASS_TextureBrush_Class","gdiplus._gdiplus_CLASS_TextureBrush_Class","gdiplusbrush/TextureBrush"]
+description: The TextureBrush class defines a Brush object that contains an Image object that is used for the fill. The fill image can be transformed by using the local Matrix object contained in the Brush object.
+helpviewer_keywords: ["TextureBrush","TextureBrush class [GDI+]","TextureBrush class [GDI+]","described","_gdiplus_CLASS_TextureBrush_Class","gdiplus._gdiplus_CLASS_TextureBrush_Class","gdiplusbrush/TextureBrush"]
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrush.htm

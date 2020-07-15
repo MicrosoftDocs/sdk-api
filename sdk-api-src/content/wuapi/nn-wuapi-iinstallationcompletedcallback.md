@@ -1,7 +1,8 @@
 ---
 UID: NN:wuapi.IInstallationCompletedCallback
 title: IInstallationCompletedCallback (wuapi.h)
-description: Handles the notification that indicates that an asynchronous installation or uninstallation is complete.helpviewer_keywords: ["IInstallationCompletedCallback","IInstallationCompletedCallback interface [Windows Update Agent]","IInstallationCompletedCallback interface [Windows Update Agent]","described","wua.iinstallationcompletedcallback","wuapi/IInstallationCompletedCallback"]
+description: Handles the notification that indicates that an asynchronous installation or uninstallation is complete.
+helpviewer_keywords: ["IInstallationCompletedCallback","IInstallationCompletedCallback interface [Windows Update Agent]","IInstallationCompletedCallback interface [Windows Update Agent]","described","wua.iinstallationcompletedcallback","wuapi/IInstallationCompletedCallback"]
 old-location: wua\iinstallationcompletedcallback.htm
 tech.root: Wua_Sdk
 ms.assetid: 930d33e1-e407-4306-acc6-1d64c385a41d

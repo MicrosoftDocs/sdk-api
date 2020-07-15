@@ -1,7 +1,8 @@
 ---
 UID: NS:dxmini._DDGETCURRENTAUTOFLIPOUTINFO
 title: DDGETCURRENTAUTOFLIPOUTINFO (dxmini.h)
-description: The DDGETCURRENTAUTOFLIPOUTINFO structure provides the surface information.helpviewer_keywords: ["*PDDGETCURRENTAUTOFLIPOUTINFO","DDGETCURRENTAUTOFLIPOUTINFO","DDGETCURRENTAUTOFLIPOUTINFO structure [Display Devices]","PDDGETCURRENTAUTOFLIPOUTINFO","PDDGETCURRENTAUTOFLIPOUTINFO structure pointer [Display Devices]","Video_Structs_2e52113e-1796-45bf-bd0b-d0e373679f15.xml","display.ddgetcurrentautoflipoutinfo","dxmini/DDGETCURRENTAUTOFLIPOUTINFO","dxmini/PDDGETCURRENTAUTOFLIPOUTINFO"]
+description: The DDGETCURRENTAUTOFLIPOUTINFO structure provides the surface information.
+helpviewer_keywords: ["*PDDGETCURRENTAUTOFLIPOUTINFO","DDGETCURRENTAUTOFLIPOUTINFO","DDGETCURRENTAUTOFLIPOUTINFO structure [Display Devices]","PDDGETCURRENTAUTOFLIPOUTINFO","PDDGETCURRENTAUTOFLIPOUTINFO structure pointer [Display Devices]","Video_Structs_2e52113e-1796-45bf-bd0b-d0e373679f15.xml","display.ddgetcurrentautoflipoutinfo","dxmini/DDGETCURRENTAUTOFLIPOUTINFO","dxmini/PDDGETCURRENTAUTOFLIPOUTINFO"]
 old-location: display\ddgetcurrentautoflipoutinfo.htm
 tech.root: display
 ms.assetid: 2dea32ab-9f4a-4184-9979-1103f1b26730

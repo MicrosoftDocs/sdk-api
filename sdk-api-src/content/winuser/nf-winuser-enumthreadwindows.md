@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.EnumThreadWindows
 title: EnumThreadWindows function (winuser.h)
-description: Enumerates all nonchild windows associated with a thread by passing the handle to each window, in turn, to an application-defined callback function.helpviewer_keywords: ["EnumThreadWindows","EnumThreadWindows function [Windows and Messages]","_win32_EnumThreadWindows","_win32_enumthreadwindows_cpp","winmsg.enumthreadwindows","winui._win32_enumthreadwindows","winuser/EnumThreadWindows"]
+description: Enumerates all nonchild windows associated with a thread by passing the handle to each window, in turn, to an application-defined callback function.
+helpviewer_keywords: ["EnumThreadWindows","EnumThreadWindows function [Windows and Messages]","_win32_EnumThreadWindows","_win32_enumthreadwindows_cpp","winmsg.enumthreadwindows","winui._win32_enumthreadwindows","winuser/EnumThreadWindows"]
 old-location: winmsg\enumthreadwindows.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\enumthreadwindows.htm

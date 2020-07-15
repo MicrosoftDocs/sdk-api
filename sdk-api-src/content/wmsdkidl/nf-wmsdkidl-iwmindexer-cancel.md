@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer.Cancel
 title: IWMIndexer::Cancel (wmsdkidl.h)
-description: The Cancel method cancels the current indexing operation.helpviewer_keywords: ["Cancel","Cancel method [windows Media Format]","Cancel method [windows Media Format]","IWMIndexer interface","IWMIndexer interface [windows Media Format]","Cancel method","IWMIndexer.Cancel","IWMIndexer::Cancel","IWMIndexerCancel","wmformat.iwmindexer_cancel","wmsdkidl/IWMIndexer::Cancel"]
+description: The Cancel method cancels the current indexing operation.
+helpviewer_keywords: ["Cancel","Cancel method [windows Media Format]","Cancel method [windows Media Format]","IWMIndexer interface","IWMIndexer interface [windows Media Format]","Cancel method","IWMIndexer.Cancel","IWMIndexer::Cancel","IWMIndexerCancel","wmformat.iwmindexer_cancel","wmsdkidl/IWMIndexer::Cancel"]
 old-location: wmformat\iwmindexer_cancel.htm
 tech.root: wmformat
 ms.assetid: 8f6061bc-fb11-484a-b5b2-f56827e0fea9

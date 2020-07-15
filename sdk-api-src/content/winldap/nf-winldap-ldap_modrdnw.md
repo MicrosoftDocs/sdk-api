@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_modrdnW
 title: ldap_modrdnW function (winldap.h)
-description: The ldap_modrdn function changes the relative distinguished name of an LDAP entry.helpviewer_keywords: ["_ldap_ldap_modrdn","ldap.ldap__modrdn","ldap.ldap_modrdn","ldap_modrdn","ldap_modrdn function [LDAP]","ldap_modrdnA","ldap_modrdnW","winldap/ldap_modrdn","winldap/ldap_modrdnA","winldap/ldap_modrdnW"]
+description: The ldap_modrdn function changes the relative distinguished name of an LDAP entry.
+helpviewer_keywords: ["_ldap_ldap_modrdn","ldap.ldap__modrdn","ldap.ldap_modrdn","ldap_modrdn","ldap_modrdn function [LDAP]","ldap_modrdnA","ldap_modrdnW","winldap/ldap_modrdn","winldap/ldap_modrdnA","winldap/ldap_modrdnW"]
 old-location: ldap\ldap_modrdn.htm
 tech.root: ldap
 ms.assetid: 7a85eb4d-dcb1-4a5b-a7df-1d726215bde3
@@ -115,6 +116,10 @@ Multithreading: Calls to <b>ldap_modrdn</b> are thread-safe, provided that
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines ldap_modrdn as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

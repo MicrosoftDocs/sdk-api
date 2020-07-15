@@ -1,7 +1,8 @@
 ---
 UID: NS:msime._POSTBL
 title: POSTBL (msime.h)
-description: An entry in the public POS (Part of Speech) table.helpviewer_keywords: ["POSTBL","POSTBL structure [Internationalization for Windows Applications]","PPOSTBL","PPOSTBL structure pointer [Internationalization for Windows Applications]","intl.postbl","msime/POSTBL","msime/PPOSTBL"]
+description: An entry in the public POS (Part of Speech) table.
+helpviewer_keywords: ["POSTBL","POSTBL structure [Internationalization for Windows Applications]","PPOSTBL","PPOSTBL structure pointer [Internationalization for Windows Applications]","intl.postbl","msime/POSTBL","msime/PPOSTBL"]
 old-location: intl\postbl.htm
 tech.root: Intl
 ms.assetid: CA6A4E71-651A-44CA-B47D-79888A36BB12

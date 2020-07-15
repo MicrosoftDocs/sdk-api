@@ -1,7 +1,8 @@
 ---
 UID: NF:certpol.INDESPolicy.Notify
 title: INDESPolicy::Notify (certpol.h)
-description: Notifies the plug-in of the transaction status of the SCEP certificate request.helpviewer_keywords: ["INDESPolicy interface [Security]","Notify method","INDESPolicy.Notify","INDESPolicy::Notify","Notify","Notify method [Security]","Notify method [Security]","INDESPolicy interface","certpol/INDESPolicy::Notify","security.indespolicy_notify"]
+description: Notifies the plug-in of the transaction status of the SCEP certificate request.
+helpviewer_keywords: ["INDESPolicy interface [Security]","Notify method","INDESPolicy.Notify","INDESPolicy::Notify","Notify","Notify method [Security]","Notify method [Security]","INDESPolicy interface","certpol/INDESPolicy::Notify","security.indespolicy_notify"]
 old-location: security\indespolicy_notify.htm
 tech.root: SecCrypto
 ms.assetid: dcb1c006-c709-4879-a9bf-8d441d26db8d

@@ -1,7 +1,8 @@
 ---
 UID: NF:austream.IAudioData.GetFormat
 title: IAudioData::GetFormat (austream.h)
-description: Note  This interface is deprecated. New applications should not use it. The GetFormat method retrieves the current data format.helpviewer_keywords: ["GetFormat","GetFormat method [DirectShow]","GetFormat method [DirectShow]","IAudioData interface","IAudioData interface [DirectShow]","GetFormat method","IAudioData.GetFormat","IAudioData::GetFormat","IAudioDataGetFormat","austream/IAudioData::GetFormat","dshow.iaudiodata_getformat"]
+description: Note  This interface is deprecated. New applications should not use it. The GetFormat method retrieves the current data format.
+helpviewer_keywords: ["GetFormat","GetFormat method [DirectShow]","GetFormat method [DirectShow]","IAudioData interface","IAudioData interface [DirectShow]","GetFormat method","IAudioData.GetFormat","IAudioData::GetFormat","IAudioDataGetFormat","austream/IAudioData::GetFormat","dshow.iaudiodata_getformat"]
 old-location: dshow\iaudiodata_getformat.htm
 tech.root: DirectShow
 ms.assetid: 7b06592d-2b9d-4f5a-bf74-331b07a13f0f

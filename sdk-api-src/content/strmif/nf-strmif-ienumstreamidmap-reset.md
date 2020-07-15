@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IEnumStreamIdMap.Reset
 title: IEnumStreamIdMap::Reset (strmif.h)
-description: The Reset method moves the iterator to the beginning of the collection.helpviewer_keywords: ["IEnumStreamIdMap interface [DirectShow]","Reset method","IEnumStreamIdMap.Reset","IEnumStreamIdMap::Reset","IEnumStreamIdMapReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IEnumStreamIdMap interface","dshow.ienumstreamidmap_reset","strmif/IEnumStreamIdMap::Reset"]
+description: The Reset method moves the iterator to the beginning of the collection.
+helpviewer_keywords: ["IEnumStreamIdMap interface [DirectShow]","Reset method","IEnumStreamIdMap.Reset","IEnumStreamIdMap::Reset","IEnumStreamIdMapReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IEnumStreamIdMap interface","dshow.ienumstreamidmap_reset","strmif/IEnumStreamIdMap::Reset"]
 old-location: dshow\ienumstreamidmap_reset.htm
 tech.root: DirectShow
 ms.assetid: 2e8bc22c-8a13-4a5a-a15d-af4e1ed699bd

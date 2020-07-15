@@ -1,7 +1,8 @@
 ---
 UID: NF:filehc.AssociateFileEx
 title: AssociateFileEx function (filehc.h)
-description: Associates a file with an asnychronous context.helpviewer_keywords: ["AssociateFileEx","AssociateFileEx function [Windows API]","filehc/AssociateFileEx","winprog._associatefileex"]
+description: Associates a file with an asnychronous context.
+helpviewer_keywords: ["AssociateFileEx","AssociateFileEx function [Windows API]","filehc/AssociateFileEx","winprog._associatefileex"]
 old-location: winprog\_associatefileex.htm
 tech.root: DevNotes
 ms.assetid: b7efaa05-e6ac-4fb8-889f-ff6fa0755476

@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement4.get_CurrentAnnotationTypes
 title: IUIAutomationElement4::get_CurrentAnnotationTypes (uiautomationclient.h)
-description: Returns the current list of annotation types associated with this element, such as comment, header, footer, and so on.helpviewer_keywords: ["CurrentAnnotationTypes property [Windows Accessibility]","CurrentAnnotationTypes property [Windows Accessibility]","IUIAutomationElement4 interface","IUIAutomationElement4 interface [Windows Accessibility]","CurrentAnnotationTypes property","IUIAutomationElement4.CurrentAnnotationTypes","IUIAutomationElement4.get_CurrentAnnotationTypes","IUIAutomationElement4::CurrentAnnotationTypes","IUIAutomationElement4::get_CurrentAnnotationTypes","get_CurrentAnnotationTypes","uiautomationclient/IUIAutomationElement4::CurrentAnnotationTypes","uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationTypes","winauto.uiauto_IUIAutomationElement4_CurrentAnnotationTypes"]
+description: Returns the current list of annotation types associated with this element, such as comment, header, footer, and so on.
+helpviewer_keywords: ["CurrentAnnotationTypes property [Windows Accessibility]","CurrentAnnotationTypes property [Windows Accessibility]","IUIAutomationElement4 interface","IUIAutomationElement4 interface [Windows Accessibility]","CurrentAnnotationTypes property","IUIAutomationElement4.CurrentAnnotationTypes","IUIAutomationElement4.get_CurrentAnnotationTypes","IUIAutomationElement4::CurrentAnnotationTypes","IUIAutomationElement4::get_CurrentAnnotationTypes","get_CurrentAnnotationTypes","uiautomationclient/IUIAutomationElement4::CurrentAnnotationTypes","uiautomationclient/IUIAutomationElement4::get_CurrentAnnotationTypes","winauto.uiauto_IUIAutomationElement4_CurrentAnnotationTypes"]
 old-location: winauto\uiauto_IUIAutomationElement4_CurrentAnnotationTypes.htm
 tech.root: WinAuto
 ms.assetid: 665297AC-AD49-44F4-A51C-16D3EC85B431

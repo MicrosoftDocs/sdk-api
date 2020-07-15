@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetNumMessagesAllowedByStorageFilter
 title: ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter (d3d11sdklayers.h)
-description: Get the number of messages that were allowed to pass through a storage filter.helpviewer_keywords: ["GetNumMessagesAllowedByStorageFilter","GetNumMessagesAllowedByStorageFilter method [Direct3D 11]","GetNumMessagesAllowedByStorageFilter method [Direct3D 11]","ID3D11InfoQueue interface","ID3D11InfoQueue interface [Direct3D 11]","GetNumMessagesAllowedByStorageFilter method","ID3D11InfoQueue.GetNumMessagesAllowedByStorageFilter","ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter","b3463b92-b74f-e638-4c8c-f02a25560668","d3d11sdklayers/ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter","direct3d11.id3d11infoqueue_getnummessagesallowedbystoragefilter"]
+description: Get the number of messages that were allowed to pass through a storage filter.
+helpviewer_keywords: ["GetNumMessagesAllowedByStorageFilter","GetNumMessagesAllowedByStorageFilter method [Direct3D 11]","GetNumMessagesAllowedByStorageFilter method [Direct3D 11]","ID3D11InfoQueue interface","ID3D11InfoQueue interface [Direct3D 11]","GetNumMessagesAllowedByStorageFilter method","ID3D11InfoQueue.GetNumMessagesAllowedByStorageFilter","ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter","b3463b92-b74f-e638-4c8c-f02a25560668","d3d11sdklayers/ID3D11InfoQueue::GetNumMessagesAllowedByStorageFilter","direct3d11.id3d11infoqueue_getnummessagesallowedbystoragefilter"]
 old-location: direct3d11\id3d11infoqueue_getnummessagesallowedbystoragefilter.htm
 tech.root: direct3d11
 ms.assetid: 13e9caed-4c26-4b5e-b0c7-c6ef44ed688d

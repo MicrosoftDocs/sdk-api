@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextHost2.TxGetHorzExtent
 title: ITextHost2::TxGetHorzExtent (textserv.h)
-description: Gets the horizontal scroll extent of the text host window.helpviewer_keywords: ["ITextHost2 interface [Windows Controls]","TxGetHorzExtent method","ITextHost2.TxGetHorzExtent","ITextHost2::TxGetHorzExtent","TxGetHorzExtent","TxGetHorzExtent method [Windows Controls]","TxGetHorzExtent method [Windows Controls]","ITextHost2 interface","controls.itexthost2_txgethorzextent","textserv/ITextHost2::TxGetHorzExtent"]
+description: Gets the horizontal scroll extent of the text host window.
+helpviewer_keywords: ["ITextHost2 interface [Windows Controls]","TxGetHorzExtent method","ITextHost2.TxGetHorzExtent","ITextHost2::TxGetHorzExtent","TxGetHorzExtent","TxGetHorzExtent method [Windows Controls]","TxGetHorzExtent method [Windows Controls]","ITextHost2 interface","controls.itexthost2_txgethorzextent","textserv/ITextHost2::TxGetHorzExtent"]
 old-location: controls\itexthost2_txgethorzextent.htm
 tech.root: Controls
 ms.assetid: 86D53FEF-DB50-41F6-AC99-106FC01BCD61

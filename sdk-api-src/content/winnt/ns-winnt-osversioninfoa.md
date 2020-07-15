@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._OSVERSIONINFOA
 title: OSVERSIONINFOA (winnt.h)
-description: Contains operating system version information.helpviewer_keywords: ["*LPOSVERSIONINFOA","*POSVERSIONINFOA","OSVERSIONINFO","OSVERSIONINFO structure","OSVERSIONINFOA","OSVERSIONINFOW","VER_PLATFORM_WIN32_NT","_OSVERSIONINFOA","_OSVERSIONINFOW","_win32_osversioninfo_str","base.osversioninfo_str","winnt/OSVERSIONINFO","winnt/OSVERSIONINFOA","winnt/OSVERSIONINFOW"]
+description: Contains operating system version information.
+helpviewer_keywords: ["*LPOSVERSIONINFOA","*POSVERSIONINFOA","OSVERSIONINFO","OSVERSIONINFO structure","OSVERSIONINFOA","OSVERSIONINFOW","VER_PLATFORM_WIN32_NT","_OSVERSIONINFOA","_OSVERSIONINFOW","_win32_osversioninfo_str","base.osversioninfo_str","winnt/OSVERSIONINFO","winnt/OSVERSIONINFOA","winnt/OSVERSIONINFOW"]
 old-location: base\osversioninfo_str.htm
 tech.root: SysInfo
 ms.assetid: a173df17-dad2-4330-aa66-4ff789fd7cc2
@@ -248,6 +249,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winnt.h header defines OSVERSIONINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

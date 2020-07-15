@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITrigger.get_EndBoundary
 title: ITrigger::get_EndBoundary (taskschd.h)
-description: Gets or sets the date and time when the trigger is deactivated.helpviewer_keywords: ["EndBoundary property [Task Scheduler]","EndBoundary property [Task Scheduler]","ITrigger interface","ITrigger interface [Task Scheduler]","EndBoundary property","ITrigger.EndBoundary","ITrigger.get_EndBoundary","ITrigger::EndBoundary","ITrigger::get_EndBoundary","ITrigger::put_EndBoundary","get_EndBoundary","taskschd.itrigger_endboundary","taskschd/ITrigger::EndBoundary","taskschd/ITrigger::get_EndBoundary","taskschd/ITrigger::put_EndBoundary"]
+description: Gets or sets the date and time when the trigger is deactivated.
+helpviewer_keywords: ["EndBoundary property [Task Scheduler]","EndBoundary property [Task Scheduler]","ITrigger interface","ITrigger interface [Task Scheduler]","EndBoundary property","ITrigger.EndBoundary","ITrigger.get_EndBoundary","ITrigger::EndBoundary","ITrigger::get_EndBoundary","ITrigger::put_EndBoundary","get_EndBoundary","taskschd.itrigger_endboundary","taskschd/ITrigger::EndBoundary","taskschd/ITrigger::get_EndBoundary","taskschd/ITrigger::put_EndBoundary"]
 old-location: taskschd\itrigger_endboundary.htm
 tech.root: taskschd
 ms.assetid: 985316de-eaba-478f-a53f-1bea2a0cc9c6

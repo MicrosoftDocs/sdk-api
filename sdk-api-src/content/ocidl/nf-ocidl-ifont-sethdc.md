@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IFont.SetHdc
 title: IFont::SetHdc (ocidl.h)
-description: Provides a device context to the font that describes the logical mapping mode.helpviewer_keywords: ["IFont interface [COM]","SetHdc method","IFont.SetHdc","IFont::SetHdc","SetHdc","SetHdc method [COM]","SetHdc method [COM]","IFont interface","_ctrl_ifont_sethdc","com.ifont_sethdc","ocidl/IFont::SetHdc"]
+description: Provides a device context to the font that describes the logical mapping mode.
+helpviewer_keywords: ["IFont interface [COM]","SetHdc method","IFont.SetHdc","IFont::SetHdc","SetHdc","SetHdc method [COM]","SetHdc method [COM]","IFont interface","_ctrl_ifont_sethdc","com.ifont_sethdc","ocidl/IFont::SetHdc"]
 old-location: com\ifont_sethdc.htm
 tech.root: com
 ms.assetid: daba0cfa-1628-415a-8161-75f7edfeeca8

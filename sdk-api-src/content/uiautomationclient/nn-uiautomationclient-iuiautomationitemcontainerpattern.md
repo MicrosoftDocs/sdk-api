@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationItemContainerPattern
 title: IUIAutomationItemContainerPattern (uiautomationclient.h)
-description: Exposes a method that retrieves an item from a container, such as a virtual list.helpviewer_keywords: ["IUIAutomationItemContainerPattern","IUIAutomationItemContainerPattern interface [Windows Accessibility]","IUIAutomationItemContainerPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationItemContainerPattern","uiauto_IUIAutomationItemContainerPattern","uiautomationclient/IUIAutomationItemContainerPattern","winauto.uiauto_IUIAutomationItemContainerPattern"]
+description: Exposes a method that retrieves an item from a container, such as a virtual list.
+helpviewer_keywords: ["IUIAutomationItemContainerPattern","IUIAutomationItemContainerPattern interface [Windows Accessibility]","IUIAutomationItemContainerPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationItemContainerPattern","uiauto_IUIAutomationItemContainerPattern","uiautomationclient/IUIAutomationItemContainerPattern","winauto.uiauto_IUIAutomationItemContainerPattern"]
 old-location: winauto\uiauto_IUIAutomationItemContainerPattern.htm
 tech.root: WinAuto
 ms.assetid: 87655c25-d666-4349-9750-566b60b37c56

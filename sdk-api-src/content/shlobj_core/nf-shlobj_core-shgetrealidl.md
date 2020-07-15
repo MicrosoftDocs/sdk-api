@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetRealIDL
 title: SHGetRealIDL function (shlobj_core.h)
-description: SHGetRealIDL may be altered or unavailable.helpviewer_keywords: ["SHGetRealIDL","SHGetRealIDL function [Windows Shell]","_win32_SHGetRealIDL","shell.SHGetRealIDL","shlobj_core/SHGetRealIDL"]
+description: SHGetRealIDL may be altered or unavailable.
+helpviewer_keywords: ["SHGetRealIDL","SHGetRealIDL function [Windows Shell]","_win32_SHGetRealIDL","shell.SHGetRealIDL","shlobj_core/SHGetRealIDL"]
 old-location: shell\SHGetRealIDL.htm
 tech.root: shell
 ms.assetid: 0c0b63c9-7ca7-4f73-be74-9c492f8506fc

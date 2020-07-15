@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitVariantFromDoubleArray
 title: InitVariantFromDoubleArray function (propvarutil.h)
-description: Initializes a VARIANT structure with an array of values of type DOUBLE.helpviewer_keywords: ["InitVariantFromDoubleArray","InitVariantFromDoubleArray function [Windows Properties]","_shell_InitVariantFromDoubleArray","properties.InitVariantFromDoubleArray","propvarutil/InitVariantFromDoubleArray","shell.InitVariantFromDoubleArray"]
+description: Initializes a VARIANT structure with an array of values of type DOUBLE.
+helpviewer_keywords: ["InitVariantFromDoubleArray","InitVariantFromDoubleArray function [Windows Properties]","_shell_InitVariantFromDoubleArray","properties.InitVariantFromDoubleArray","propvarutil/InitVariantFromDoubleArray","shell.InitVariantFromDoubleArray"]
 old-location: properties\InitVariantFromDoubleArray.htm
 tech.root: properties
 ms.assetid: 781b6999-4551-499d-ba37-0a7e05fc6eab

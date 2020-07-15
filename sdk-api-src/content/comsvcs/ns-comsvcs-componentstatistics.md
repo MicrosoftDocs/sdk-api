@@ -1,7 +1,8 @@
 ---
 UID: NS:comsvcs._ComponentStatistics
 title: ComponentStatistics (comsvcs.h)
-description: Represents statistical information about a COM+ component hosted in a particular process.helpviewer_keywords: ["ComponentStatistics","ComponentStatistics structure [COM+]","comsvcs/ComponentStatistics","cos.componentstatistics"]
+description: Represents statistical information about a COM+ component hosted in a particular process.
+helpviewer_keywords: ["ComponentStatistics","ComponentStatistics structure [COM+]","comsvcs/ComponentStatistics","cos.componentstatistics"]
 old-location: cos\componentstatistics.htm
 tech.root: cossdk
 ms.assetid: 26bc5fc4-3e34-41cc-ba11-5c13cf54521f

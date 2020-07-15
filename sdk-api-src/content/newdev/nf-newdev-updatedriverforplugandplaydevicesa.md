@@ -1,7 +1,8 @@
 ---
 UID: NF:newdev.UpdateDriverForPlugAndPlayDevicesA
 title: UpdateDriverForPlugAndPlayDevicesA function (newdev.h)
-description: Given an INF file and a hardware ID, the UpdateDriverForPlugAndPlayDevices function installs updated drivers for devices that match the hardware ID.helpviewer_keywords: ["UpdateDriverForPlugAndPlayDevices","UpdateDriverForPlugAndPlayDevices function [Device and Driver Installation]","UpdateDriverForPlugAndPlayDevicesA","UpdateDriverForPlugAndPlayDevicesW","devinst.updatedriverforplugandplaydevices","di-rtns_a9a559d4-7b81-4bd7-b6a7-f493787a3657.xml","newdev/UpdateDriverForPlugAndPlayDevices"]
+description: Given an INF file and a hardware ID, the UpdateDriverForPlugAndPlayDevices function installs updated drivers for devices that match the hardware ID.
+helpviewer_keywords: ["UpdateDriverForPlugAndPlayDevices","UpdateDriverForPlugAndPlayDevices function [Device and Driver Installation]","UpdateDriverForPlugAndPlayDevicesA","UpdateDriverForPlugAndPlayDevicesW","devinst.updatedriverforplugandplaydevices","di-rtns_a9a559d4-7b81-4bd7-b6a7-f493787a3657.xml","newdev/UpdateDriverForPlugAndPlayDevices"]
 old-location: devinst\updatedriverforplugandplaydevices.htm
 tech.root: devinst
 ms.assetid: dd5022df-5b65-4ed4-ac54-68149df2c851
@@ -221,4 +222,8 @@ If the application must call <b>UpdateDriverForPlugAndPlayDevices</b> several ti
 If the function returns ERROR_IN_WOW64 in a 32-bit application, the application is executing on a 64-bit system, which is not allowed. For more information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/install/device-installations-on-64-bit-systems">Installing Devices on 64-Bit Systems</a>.
 
 
+
+
+> [!NOTE]
+> The newdev.h header defines UpdateDriverForPlugAndPlayDevices as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

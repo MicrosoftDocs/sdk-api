@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IBasicVideo.GetCurrentImage
 title: IBasicVideo::GetCurrentImage (control.h)
-description: The GetCurrentImage method retrieves the current image waiting at the renderer.helpviewer_keywords: ["GetCurrentImage","GetCurrentImage method [DirectShow]","GetCurrentImage method [DirectShow]","IBasicVideo interface","IBasicVideo interface [DirectShow]","GetCurrentImage method","IBasicVideo.GetCurrentImage","IBasicVideo::GetCurrentImage","IBasicVideoGetCurrentImage","control/IBasicVideo::GetCurrentImage","dshow.ibasicvideo_getcurrentimage"]
+description: The GetCurrentImage method retrieves the current image waiting at the renderer.
+helpviewer_keywords: ["GetCurrentImage","GetCurrentImage method [DirectShow]","GetCurrentImage method [DirectShow]","IBasicVideo interface","IBasicVideo interface [DirectShow]","GetCurrentImage method","IBasicVideo.GetCurrentImage","IBasicVideo::GetCurrentImage","IBasicVideoGetCurrentImage","control/IBasicVideo::GetCurrentImage","dshow.ibasicvideo_getcurrentimage"]
 old-location: dshow\ibasicvideo_getcurrentimage.htm
 tech.root: DirectShow
 ms.assetid: 3e7fbf27-3519-4c02-b785-98e29902df65

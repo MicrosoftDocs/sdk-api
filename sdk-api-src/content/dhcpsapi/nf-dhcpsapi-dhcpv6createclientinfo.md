@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpV6CreateClientInfo
 title: DhcpV6CreateClientInfo function (dhcpsapi.h)
-description: Creates a DHCPv6 client lease record in the DHCP server database.helpviewer_keywords: ["DhcpV6CreateClientInfo","DhcpV6CreateClientInfo function [DHCP]","dhcp.dhcpv6createclientinfo","dhcpsapi/DhcpV6CreateClientInfo"]
+description: Creates a DHCPv6 client lease record in the DHCP server database.
+helpviewer_keywords: ["DhcpV6CreateClientInfo","DhcpV6CreateClientInfo function [DHCP]","dhcp.dhcpv6createclientinfo","dhcpsapi/DhcpV6CreateClientInfo"]
 old-location: dhcp\dhcpv6createclientinfo.htm
 tech.root: DHCP
 ms.assetid: 5d49ab90-3c40-4577-8e7e-36d1370d8de9

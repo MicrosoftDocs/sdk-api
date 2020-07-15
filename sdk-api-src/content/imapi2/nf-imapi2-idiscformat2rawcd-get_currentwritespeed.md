@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2RawCD.get_CurrentWriteSpeed
 title: IDiscFormat2RawCD::get_CurrentWriteSpeed (imapi2.h)
-description: Retrieves the drive's current write speed.helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_CurrentWriteSpeed method","IDiscFormat2RawCD.get_CurrentWriteSpeed","IDiscFormat2RawCD::get_CurrentWriteSpeed","get_CurrentWriteSpeed","get_CurrentWriteSpeed method [IMAPI]","get_CurrentWriteSpeed method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_currentwritespeed","imapi2/IDiscFormat2RawCD::get_CurrentWriteSpeed"]
+description: Retrieves the drive's current write speed.
+helpviewer_keywords: ["IDiscFormat2RawCD interface [IMAPI]","get_CurrentWriteSpeed method","IDiscFormat2RawCD.get_CurrentWriteSpeed","IDiscFormat2RawCD::get_CurrentWriteSpeed","get_CurrentWriteSpeed","get_CurrentWriteSpeed method [IMAPI]","get_CurrentWriteSpeed method [IMAPI]","IDiscFormat2RawCD interface","imapi.idiscformat2rawcd_get_currentwritespeed","imapi2/IDiscFormat2RawCD::get_CurrentWriteSpeed"]
 old-location: imapi\idiscformat2rawcd_get_currentwritespeed.htm
 tech.root: imapi
 ms.assetid: f369f719-7db6-4a79-a5fa-d174bf12acbc

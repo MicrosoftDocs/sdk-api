@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnPin.Change
 title: IMbnPin::Change (mbnapi.h)
-description: Changes the PIN.helpviewer_keywords: ["Change","Change method [Microsoft Broadband Networks]","Change method [Microsoft Broadband Networks]","IMbnPin interface","IMbnPin interface [Microsoft Broadband Networks]","Change method","IMbnPin.Change","IMbnPin::Change","mbn.imbnpin_change","mbnapi/IMbnPin::Change"]
+description: Changes the PIN.
+helpviewer_keywords: ["Change","Change method [Microsoft Broadband Networks]","Change method [Microsoft Broadband Networks]","IMbnPin interface","IMbnPin interface [Microsoft Broadband Networks]","Change method","IMbnPin.Change","IMbnPin::Change","mbn.imbnpin_change","mbnapi/IMbnPin::Change"]
 old-location: mbn\imbnpin_change.htm
 tech.root: mbn
 ms.assetid: cf4fac68-65c8-456e-8381-e3f582fc836c

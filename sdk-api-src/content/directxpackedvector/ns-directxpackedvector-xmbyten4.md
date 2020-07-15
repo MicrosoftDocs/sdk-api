@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMBYTEN4
 title: XMBYTEN4 (directxpackedvector.h)
-description: A 3D vector for storing signed, normalized values as signed 8-bits (1 byte) integers.helpviewer_keywords: ["XMBYTEN4","XMBYTEN4 structure [DirectX Math Support APIs]","directxpackedvector/XMBYTEN4","dxmath.xmbyten4"]
+description: A 3D vector for storing signed, normalized values as signed 8-bits (1 byte) integers.
+helpviewer_keywords: ["XMBYTEN4","XMBYTEN4 structure [DirectX Math Support APIs]","directxpackedvector/XMBYTEN4","dxmath.xmbyten4"]
 old-location: dxmath\xmbyten4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMBYTEN4

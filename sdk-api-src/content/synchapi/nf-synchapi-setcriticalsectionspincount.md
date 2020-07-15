@@ -1,7 +1,8 @@
 ---
 UID: NF:synchapi.SetCriticalSectionSpinCount
 title: SetCriticalSectionSpinCount function (synchapi.h)
-description: Sets the spin count for the specified critical section.helpviewer_keywords: ["SetCriticalSectionSpinCount","SetCriticalSectionSpinCount function","_win32_setcriticalsectionspincount","base.setcriticalsectionspincount","synchapi/SetCriticalSectionSpinCount","winbase/SetCriticalSectionSpinCount"]
+description: Sets the spin count for the specified critical section.
+helpviewer_keywords: ["SetCriticalSectionSpinCount","SetCriticalSectionSpinCount function","_win32_setcriticalsectionspincount","base.setcriticalsectionspincount","synchapi/SetCriticalSectionSpinCount","winbase/SetCriticalSectionSpinCount"]
 old-location: base\setcriticalsectionspincount.htm
 tech.root: Sync
 ms.assetid: 4d435c70-2e9b-4923-8726-9c8143dceb15

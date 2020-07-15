@@ -1,7 +1,8 @@
 ---
 UID: NN:d3dcommon.ID3D10Blob
 title: ID3D10Blob (d3dcommon.h)
-description: This interface is used to return arbitrary-length data.helpviewer_keywords: ["ID3D10Blob","ID3D10Blob interface [Direct3D 11]","ID3D10Blob interface [Direct3D 11]","described","d3dcommon/ID3D10Blob","direct3d11.id3d10blob"]
+description: This interface is used to return arbitrary-length data.
+helpviewer_keywords: ["ID3D10Blob","ID3D10Blob interface [Direct3D 11]","ID3D10Blob interface [Direct3D 11]","described","d3dcommon/ID3D10Blob","direct3d11.id3d10blob"]
 old-location: direct3d11\id3d10blob.htm
 tech.root: direct3d11
 ms.assetid: 7E97B8EB-E674-4B90-9B9B-202552DBD95C

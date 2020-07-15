@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_RollOff
 title: IBDA_DigitalDemodulator2::get_RollOff (bdaiface.h)
-description: Gets the demodulator's roll-off factor.helpviewer_keywords: ["IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies]","get_RollOff method","IBDA_DigitalDemodulator2.get_RollOff","IBDA_DigitalDemodulator2::get_RollOff","bdaiface/IBDA_DigitalDemodulator2::get_RollOff","get_RollOff","get_RollOff method [Microsoft TV Technologies]","get_RollOff method [Microsoft TV Technologies]","IBDA_DigitalDemodulator2 interface","mstv.ibda_digitaldemodulator2_get_rolloff"]
+description: Gets the demodulator's roll-off factor.
+helpviewer_keywords: ["IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies]","get_RollOff method","IBDA_DigitalDemodulator2.get_RollOff","IBDA_DigitalDemodulator2::get_RollOff","bdaiface/IBDA_DigitalDemodulator2::get_RollOff","get_RollOff","get_RollOff method [Microsoft TV Technologies]","get_RollOff method [Microsoft TV Technologies]","IBDA_DigitalDemodulator2 interface","mstv.ibda_digitaldemodulator2_get_rolloff"]
 old-location: mstv\ibda_digitaldemodulator2_get_rolloff.htm
 tech.root: mstv
 ms.assetid: 4b1cd08a-50fd-48e9-9e97-8460e6c990c1

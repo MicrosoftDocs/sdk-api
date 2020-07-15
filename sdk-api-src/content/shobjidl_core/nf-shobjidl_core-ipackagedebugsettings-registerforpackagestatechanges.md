@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IPackageDebugSettings.RegisterForPackageStateChanges
 title: IPackageDebugSettings::RegisterForPackageStateChanges (shobjidl_core.h)
-description: Register for package state-change notifications.helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","RegisterForPackageStateChanges method","IPackageDebugSettings.RegisterForPackageStateChanges","IPackageDebugSettings::RegisterForPackageStateChanges","RegisterForPackageStateChanges","RegisterForPackageStateChanges method [Windows Shell]","RegisterForPackageStateChanges method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_RegisterForPackageStateChanges","shobjidl_core/IPackageDebugSettings::RegisterForPackageStateChanges"]
+description: Register for package state-change notifications.
+helpviewer_keywords: ["IPackageDebugSettings interface [Windows Shell]","RegisterForPackageStateChanges method","IPackageDebugSettings.RegisterForPackageStateChanges","IPackageDebugSettings::RegisterForPackageStateChanges","RegisterForPackageStateChanges","RegisterForPackageStateChanges method [Windows Shell]","RegisterForPackageStateChanges method [Windows Shell]","IPackageDebugSettings interface","shell.IPackageDebugSettings_RegisterForPackageStateChanges","shobjidl_core/IPackageDebugSettings::RegisterForPackageStateChanges"]
 old-location: shell\IPackageDebugSettings_RegisterForPackageStateChanges.htm
 tech.root: shell
 ms.assetid: D0E26154-DADB-499D-A434-8211196E2F5F

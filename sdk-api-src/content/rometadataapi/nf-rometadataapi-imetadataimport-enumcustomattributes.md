@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.EnumCustomAttributes
 title: IMetaDataImport::EnumCustomAttributes (rometadataapi.h)
-description: Enumerates custom attribute-definition tokens associated with the specified type or member.helpviewer_keywords: ["EnumCustomAttributes","EnumCustomAttributes method [Windows Runtime]","EnumCustomAttributes method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumCustomAttributes method","IMetaDataImport.EnumCustomAttributes","IMetaDataImport::EnumCustomAttributes","rometadataapi/IMetaDataImport::EnumCustomAttributes","winrt.imetadataimport_enumcustomattributes"]
+description: Enumerates custom attribute-definition tokens associated with the specified type or member.
+helpviewer_keywords: ["EnumCustomAttributes","EnumCustomAttributes method [Windows Runtime]","EnumCustomAttributes method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","EnumCustomAttributes method","IMetaDataImport.EnumCustomAttributes","IMetaDataImport::EnumCustomAttributes","rometadataapi/IMetaDataImport::EnumCustomAttributes","winrt.imetadataimport_enumcustomattributes"]
 old-location: winrt\imetadataimport_enumcustomattributes.htm
 tech.root: WinRT
 ms.assetid: d5ecb71e-a52f-421b-aab9-48efcc77ec2f

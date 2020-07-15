@@ -1,7 +1,8 @@
 ---
 UID: NF:magnification.MagSetWindowSource
 title: MagSetWindowSource function (magnification.h)
-description: Sets the source rectangle for the magnification window.helpviewer_keywords: ["MagSetWindowSource","MagSetWindowSource function [Magnification API]","magapi.magapi_MagSetWindowSource","magapi_MagSetWindowSource","magnification/MagSetWindowSource"]
+description: Sets the source rectangle for the magnification window.
+helpviewer_keywords: ["MagSetWindowSource","MagSetWindowSource function [Magnification API]","magapi.magapi_MagSetWindowSource","magapi_MagSetWindowSource","magnification/MagSetWindowSource"]
 old-location: magapi\magapi_MagSetWindowSource.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetwindowsource.htm

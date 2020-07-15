@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhGetCounterInfoW
 title: PdhGetCounterInfoW function (pdh.h)
-description: Retrieves information about a counter, such as data size, counter type, path, and user-supplied data values.helpviewer_keywords: ["PdhGetCounterInfo","PdhGetCounterInfo function [Perf]","PdhGetCounterInfoA","PdhGetCounterInfoW","_win32_pdhgetcounterinfo","base.pdhgetcounterinfo","pdh/PdhGetCounterInfo","pdh/PdhGetCounterInfoA","pdh/PdhGetCounterInfoW","perf.pdhgetcounterinfo"]
+description: Retrieves information about a counter, such as data size, counter type, path, and user-supplied data values.
+helpviewer_keywords: ["PdhGetCounterInfo","PdhGetCounterInfo function [Perf]","PdhGetCounterInfoA","PdhGetCounterInfoW","_win32_pdhgetcounterinfo","base.pdhgetcounterinfo","pdh/PdhGetCounterInfo","pdh/PdhGetCounterInfoA","pdh/PdhGetCounterInfoW","perf.pdhgetcounterinfo"]
 old-location: perf\pdhgetcounterinfo.htm
 tech.root: perfctrs
 ms.assetid: 12e1a194-5418-4c2a-9853-ef2d2c666893
@@ -145,6 +146,10 @@ You should call this function twice, the first time to get the required buffer s
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhGetCounterInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.IEnumNetSharingEveryConnection.Clone
 title: IEnumNetSharingEveryConnection::Clone (netcon.h)
-description: The Clone method creates a new enumeration interface from this enumeration.helpviewer_keywords: ["Clone","Clone method [ICS/ICF]","Clone method [ICS/ICF]","IEnumNetSharingEveryConnection interface","IEnumNetSharingEveryConnection interface [ICS/ICF]","Clone method","IEnumNetSharingEveryConnection.Clone","IEnumNetSharingEveryConnection::Clone","_ics_ienumnetsharingeveryconnection_clone","ics.ienumnetsharingeveryconnection_clone","netcon/IEnumNetSharingEveryConnection::Clone"]
+description: The Clone method creates a new enumeration interface from this enumeration.
+helpviewer_keywords: ["Clone","Clone method [ICS/ICF]","Clone method [ICS/ICF]","IEnumNetSharingEveryConnection interface","IEnumNetSharingEveryConnection interface [ICS/ICF]","Clone method","IEnumNetSharingEveryConnection.Clone","IEnumNetSharingEveryConnection::Clone","_ics_ienumnetsharingeveryconnection_clone","ics.ienumnetsharingeveryconnection_clone","netcon/IEnumNetSharingEveryConnection::Clone"]
 old-location: ics\ienumnetsharingeveryconnection_clone.htm
 tech.root: ics
 ms.assetid: 7adeec50-23a7-4a20-94a8-adc7767368ed

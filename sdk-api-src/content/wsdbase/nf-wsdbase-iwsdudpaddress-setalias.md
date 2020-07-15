@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDUdpAddress.SetAlias
 title: IWSDUdpAddress::SetAlias (wsdbase.h)
-description: Sets the alias for the discovery address.helpviewer_keywords: ["IWSDUdpAddress interface","SetAlias method","IWSDUdpAddress.SetAlias","IWSDUdpAddress::SetAlias","SetAlias","SetAlias method","SetAlias method","IWSDUdpAddress interface","ncd.iwsdudpaddress_setalias","wsdbase/IWSDUdpAddress::SetAlias"]
+description: Sets the alias for the discovery address.
+helpviewer_keywords: ["IWSDUdpAddress interface","SetAlias method","IWSDUdpAddress.SetAlias","IWSDUdpAddress::SetAlias","SetAlias","SetAlias method","SetAlias method","IWSDUdpAddress interface","ncd.iwsdudpaddress_setalias","wsdbase/IWSDUdpAddress::SetAlias"]
 old-location: ncd\iwsdudpaddress_setalias.htm
 tech.root: WsdApi
 ms.assetid: 2156f271-cad4-4160-8d1f-bc44dc7b0e9f

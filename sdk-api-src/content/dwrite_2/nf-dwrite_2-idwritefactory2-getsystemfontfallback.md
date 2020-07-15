@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_2.IDWriteFactory2.GetSystemFontFallback
 title: IDWriteFactory2::GetSystemFontFallback (dwrite_2.h)
-description: Creates a font fallback object from the system font fallback list.helpviewer_keywords: ["GetSystemFontFallback","GetSystemFontFallback method [Direct Write]","GetSystemFontFallback method [Direct Write]","IDWriteFactory2 interface","IDWriteFactory2 interface [Direct Write]","GetSystemFontFallback method","IDWriteFactory2.GetSystemFontFallback","IDWriteFactory2::GetSystemFontFallback","directwrite.idwritefactory2_getsystemfontfallback","dwrite_2/IDWriteFactory2::GetSystemFontFallback"]
+description: Creates a font fallback object from the system font fallback list.
+helpviewer_keywords: ["GetSystemFontFallback","GetSystemFontFallback method [Direct Write]","GetSystemFontFallback method [Direct Write]","IDWriteFactory2 interface","IDWriteFactory2 interface [Direct Write]","GetSystemFontFallback method","IDWriteFactory2.GetSystemFontFallback","IDWriteFactory2::GetSystemFontFallback","directwrite.idwritefactory2_getsystemfontfallback","dwrite_2/IDWriteFactory2::GetSystemFontFallback"]
 old-location: directwrite\idwritefactory2_getsystemfontfallback.htm
 tech.root: DirectWrite
 ms.assetid: 7F2BDB39-2CB4-4DB7-BBBA-74B0C07E7420

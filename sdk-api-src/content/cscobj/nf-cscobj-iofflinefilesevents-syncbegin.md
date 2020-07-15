@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents.SyncBegin
 title: IOfflineFilesEvents::SyncBegin (cscobj.h)
-description: Reports that the Offline Files cache has begun a synchronization operation.helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","SyncBegin method","IOfflineFilesEvents.SyncBegin","IOfflineFilesEvents::SyncBegin","SyncBegin","SyncBegin method [Offline Files]","SyncBegin method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::SyncBegin","of.iofflinefilesevents_syncbegin"]
+description: Reports that the Offline Files cache has begun a synchronization operation.
+helpviewer_keywords: ["IOfflineFilesEvents interface [Offline Files]","SyncBegin method","IOfflineFilesEvents.SyncBegin","IOfflineFilesEvents::SyncBegin","SyncBegin","SyncBegin method [Offline Files]","SyncBegin method [Offline Files]","IOfflineFilesEvents interface","cscobj/IOfflineFilesEvents::SyncBegin","of.iofflinefilesevents_syncbegin"]
 old-location: of\iofflinefilesevents_syncbegin.htm
 tech.root: offlinefiles
 ms.assetid: ba09be0a-52bc-4715-9756-383954277a31

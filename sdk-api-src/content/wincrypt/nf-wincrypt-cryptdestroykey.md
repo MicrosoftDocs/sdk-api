@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptDestroyKey
 title: CryptDestroyKey function (wincrypt.h)
-description: Releases the handle referenced by the hKey parameter.helpviewer_keywords: ["CryptDestroyKey","CryptDestroyKey function [Security]","_crypto2_cryptdestroykey","security.cryptdestroykey","wincrypt/CryptDestroyKey"]
+description: Releases the handle referenced by the hKey parameter.
+helpviewer_keywords: ["CryptDestroyKey","CryptDestroyKey function [Security]","_crypto2_cryptdestroykey","security.cryptdestroykey","wincrypt/CryptDestroyKey"]
 old-location: security\cryptdestroykey.htm
 tech.root: SecCrypto
 ms.assetid: ed5d8047-c9fd-4765-915f-a6a014004b30

@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IWriteEngine2.get_EndingSectorsPerSecond
 title: IWriteEngine2::get_EndingSectorsPerSecond (imapi2.h)
-description: Retrieves the estimated number of sectors per second that the recording device can write to the media at the end of the writing process.helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","get_EndingSectorsPerSecond method","IWriteEngine2.get_EndingSectorsPerSecond","IWriteEngine2::get_EndingSectorsPerSecond","get_EndingSectorsPerSecond","get_EndingSectorsPerSecond method [IMAPI]","get_EndingSectorsPerSecond method [IMAPI]","IWriteEngine2 interface","imapi.iwriteengine2_get_endingsectorspersecond","imapi2/IWriteEngine2::get_EndingSectorsPerSecond"]
+description: Retrieves the estimated number of sectors per second that the recording device can write to the media at the end of the writing process.
+helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","get_EndingSectorsPerSecond method","IWriteEngine2.get_EndingSectorsPerSecond","IWriteEngine2::get_EndingSectorsPerSecond","get_EndingSectorsPerSecond","get_EndingSectorsPerSecond method [IMAPI]","get_EndingSectorsPerSecond method [IMAPI]","IWriteEngine2 interface","imapi.iwriteengine2_get_endingsectorspersecond","imapi2/IWriteEngine2::get_EndingSectorsPerSecond"]
 old-location: imapi\iwriteengine2_get_endingsectorspersecond.htm
 tech.root: imapi
 ms.assetid: 7e6a5f41-328d-47b3-ba43-900e524cf51a

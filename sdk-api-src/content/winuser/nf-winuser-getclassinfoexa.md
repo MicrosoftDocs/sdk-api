@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetClassInfoExA
 title: GetClassInfoExA function (winuser.h)
-description: Retrieves information about a window class, including a handle to the small icon associated with the window class. The GetClassInfo function does not retrieve a handle to the small icon.helpviewer_keywords: ["GetClassInfoEx","GetClassInfoEx function [Windows and Messages]","GetClassInfoExA","GetClassInfoExW","_win32_GetClassInfoEx","_win32_getclassinfoex_cpp","winmsg.getclassinfoex","winui._win32_getclassinfoex","winuser/GetClassInfoEx","winuser/GetClassInfoExA","winuser/GetClassInfoExW"]
+description: Retrieves information about a window class, including a handle to the small icon associated with the window class. The GetClassInfo function does not retrieve a handle to the small icon.
+helpviewer_keywords: ["GetClassInfoEx","GetClassInfoEx function [Windows and Messages]","GetClassInfoExA","GetClassInfoExW","_win32_GetClassInfoEx","_win32_getclassinfoex_cpp","winmsg.getclassinfoex","winui._win32_getclassinfoex","winuser/GetClassInfoEx","winuser/GetClassInfoExA","winuser/GetClassInfoExW"]
 old-location: winmsg\getclassinfoex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\getclassinfoex.htm
@@ -111,6 +112,10 @@ Class atoms are created using the <a href="https://docs.microsoft.com/windows/de
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines GetClassInfoEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

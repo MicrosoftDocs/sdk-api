@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBundleReader.GetBlockMap
 title: IAppxBundleReader::GetBlockMap (appxpackaging.h)
-description: Retrieves a read-only block map object from the bundle.helpviewer_keywords: ["GetBlockMap","GetBlockMap method [App packaging and management]","GetBlockMap method [App packaging and management]","IAppxBundleReader interface","IAppxBundleReader interface [App packaging and management]","GetBlockMap method","IAppxBundleReader.GetBlockMap","IAppxBundleReader::GetBlockMap","appxpackaging/IAppxBundleReader::GetBlockMap","appxpkg.iappxbundlereader_getblockmap"]
+description: Retrieves a read-only block map object from the bundle.
+helpviewer_keywords: ["GetBlockMap","GetBlockMap method [App packaging and management]","GetBlockMap method [App packaging and management]","IAppxBundleReader interface","IAppxBundleReader interface [App packaging and management]","GetBlockMap method","IAppxBundleReader.GetBlockMap","IAppxBundleReader::GetBlockMap","appxpackaging/IAppxBundleReader::GetBlockMap","appxpkg.iappxbundlereader_getblockmap"]
 old-location: appxpkg\iappxbundlereader_getblockmap.htm
 tech.root: appxpkg
 ms.assetid: 721940C7-0680-4AD0-93BC-20D630EDE228

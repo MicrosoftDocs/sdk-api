@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.RedEyeCorrection.RedEyeCorrection
 title: RedEyeCorrection::RedEyeCorrection (gdipluseffects.h)
-description: Creates a RedEyeCorrection object.helpviewer_keywords: ["RedEyeCorrection","RedEyeCorrection class [GDI+]","RedEyeCorrection constructor","RedEyeCorrection constructor [GDI+]","RedEyeCorrection constructor [GDI+]","RedEyeCorrection class","RedEyeCorrection.RedEyeCorrection","RedEyeCorrection::RedEyeCorrection","_gdiplus_CLASS_RedEyeCorrection_RedEyeCorrection_","gdiplus._gdiplus_CLASS_RedEyeCorrection_RedEyeCorrection_"]
+description: Creates a RedEyeCorrection object.
+helpviewer_keywords: ["RedEyeCorrection","RedEyeCorrection class [GDI+]","RedEyeCorrection constructor","RedEyeCorrection constructor [GDI+]","RedEyeCorrection constructor [GDI+]","RedEyeCorrection class","RedEyeCorrection.RedEyeCorrection","RedEyeCorrection::RedEyeCorrection","_gdiplus_CLASS_RedEyeCorrection_RedEyeCorrection_","gdiplus._gdiplus_CLASS_RedEyeCorrection_RedEyeCorrection_"]
 old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_RedEyeCorrection_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrectionclass\redeyecorrectionconstructors\redeyecorrection.htm

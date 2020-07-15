@@ -1,7 +1,8 @@
 ---
 UID: NC:wincrypt.PFN_CERT_STORE_PROV_CONTROL
 title: PFN_CERT_STORE_PROV_CONTROL (wincrypt.h)
-description: The CertStoreProvControl callback function supports the CertControlStore API. All of the API's parameters are passed straight through to the callback. For details, see CertControlStore.helpviewer_keywords: ["CertStoreProvControl","CertStoreProvControl callback function [Security]","PFN_CERT_STORE_PROV_CONTROL","PFN_CERT_STORE_PROV_CONTROL callback","_crypto2_certstoreprovcontrol","security.certstoreprovcontrol","wincrypt/CertStoreProvControl"]
+description: The CertStoreProvControl callback function supports the CertControlStore API. All of the API's parameters are passed straight through to the callback. For details, see CertControlStore.
+helpviewer_keywords: ["CertStoreProvControl","CertStoreProvControl callback function [Security]","PFN_CERT_STORE_PROV_CONTROL","PFN_CERT_STORE_PROV_CONTROL callback","_crypto2_certstoreprovcontrol","security.certstoreprovcontrol","wincrypt/CertStoreProvControl"]
 old-location: security\certstoreprovcontrol.htm
 tech.root: SecCrypto
 ms.assetid: 0725d562-d04c-4fde-97f4-a294290266ee

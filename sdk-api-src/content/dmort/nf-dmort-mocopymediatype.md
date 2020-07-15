@@ -1,7 +1,8 @@
 ---
 UID: NF:dmort.MoCopyMediaType
 title: MoCopyMediaType function (dmort.h)
-description: The MoCopyMediaType function copies the members of one media type structure into another media type structure.helpviewer_keywords: ["MoCopyMediaType","MoCopyMediaType function [DirectShow]","dmort/MoCopyMediaType","dshow.mocopymediatype"]
+description: The MoCopyMediaType function copies the members of one media type structure into another media type structure.
+helpviewer_keywords: ["MoCopyMediaType","MoCopyMediaType function [DirectShow]","dmort/MoCopyMediaType","dshow.mocopymediatype"]
 old-location: dshow\mocopymediatype.htm
 tech.root: DirectShow
 ms.assetid: 7b6325bf-a996-467e-896d-a6dc41f63fd4

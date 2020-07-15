@@ -1,7 +1,8 @@
 ---
 UID: NF:certadm.IOCSPAdmin.SetSecurity
 title: IOCSPAdmin::SetSecurity (certadm.h)
-description: Updates security descriptor information for an Online Certificate Status Protocol (OCSP) responder server.helpviewer_keywords: ["IOCSPAdmin interface [Security]","SetSecurity method","IOCSPAdmin.SetSecurity","IOCSPAdmin::SetSecurity","SetSecurity","SetSecurity method [Security]","SetSecurity method [Security]","IOCSPAdmin interface","certadm/IOCSPAdmin::SetSecurity","security.iocspadmin_setsecurity"]
+description: Updates security descriptor information for an Online Certificate Status Protocol (OCSP) responder server.
+helpviewer_keywords: ["IOCSPAdmin interface [Security]","SetSecurity method","IOCSPAdmin.SetSecurity","IOCSPAdmin::SetSecurity","SetSecurity","SetSecurity method [Security]","SetSecurity method [Security]","IOCSPAdmin interface","certadm/IOCSPAdmin::SetSecurity","security.iocspadmin_setsecurity"]
 old-location: security\iocspadmin_setsecurity.htm
 tech.root: SecCrypto
 ms.assetid: 7ff94496-4347-4c08-8c71-0c53af902d9d

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12CommandQueue.UpdateTileMappings
 title: ID3D12CommandQueue::UpdateTileMappings (d3d12.h)
-description: Updates mappings of tile locations in reserved resources to memory locations in a resource heap.helpviewer_keywords: ["ID3D12CommandQueue interface","UpdateTileMappings method","ID3D12CommandQueue.UpdateTileMappings","ID3D12CommandQueue::UpdateTileMappings","UpdateTileMappings","UpdateTileMappings method","UpdateTileMappings method","ID3D12CommandQueue interface","d3d12/ID3D12CommandQueue::UpdateTileMappings","direct3d12.id3d12commandqueue_updatetilemappings"]
+description: Updates mappings of tile locations in reserved resources to memory locations in a resource heap.
+helpviewer_keywords: ["ID3D12CommandQueue interface","UpdateTileMappings method","ID3D12CommandQueue.UpdateTileMappings","ID3D12CommandQueue::UpdateTileMappings","UpdateTileMappings","UpdateTileMappings method","UpdateTileMappings method","ID3D12CommandQueue interface","d3d12/ID3D12CommandQueue::UpdateTileMappings","direct3d12.id3d12commandqueue_updatetilemappings"]
 old-location: direct3d12\id3d12commandqueue_updatetilemappings.htm
 tech.root: direct3d12
 ms.assetid: 8A8017E5-AB55-4660-855B-D6F93F69CB52

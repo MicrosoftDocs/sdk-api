@@ -1,7 +1,8 @@
 ---
 UID: NE:vds._VDS_DISK_OFFLINE_REASON
 title: VDS_DISK_OFFLINE_REASON (vds.h)
-description: Defines the set of reasons for a disk to be offline.helpviewer_keywords: ["VDSDiskOfflineReasonCollision","VDSDiskOfflineReasonNone","VDSDiskOfflineReasonPolicy","VDSDiskOfflineReasonRedundantPath","VDSDiskOfflineReasonSnapshot","VDS_DISK_OFFLINE_REASON","VDS_DISK_OFFLINE_REASON enumeration","base.vds_disk_offline_reason","vds/VDSDiskOfflineReasonCollision","vds/VDSDiskOfflineReasonNone","vds/VDSDiskOfflineReasonPolicy","vds/VDSDiskOfflineReasonRedundantPath","vds/VDSDiskOfflineReasonSnapshot","vds/VDS_DISK_OFFLINE_REASON"]
+description: Defines the set of reasons for a disk to be offline.
+helpviewer_keywords: ["VDSDiskOfflineReasonCollision","VDSDiskOfflineReasonNone","VDSDiskOfflineReasonPolicy","VDSDiskOfflineReasonRedundantPath","VDSDiskOfflineReasonSnapshot","VDS_DISK_OFFLINE_REASON","VDS_DISK_OFFLINE_REASON enumeration","base.vds_disk_offline_reason","vds/VDSDiskOfflineReasonCollision","vds/VDSDiskOfflineReasonNone","vds/VDSDiskOfflineReasonPolicy","vds/VDSDiskOfflineReasonRedundantPath","vds/VDSDiskOfflineReasonSnapshot","vds/VDS_DISK_OFFLINE_REASON"]
 old-location: base\vds_disk_offline_reason.htm
 tech.root: VDS
 ms.assetid: 45115cd5-52bb-4cb8-978b-208a2bc3c148

@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngEnumForms
 title: EngEnumForms function (winddi.h)
-description: The EngEnumForms function enumerates the forms supported by the specified printer.helpviewer_keywords: ["EngEnumForms","EngEnumForms function [Display Devices]","display.engenumforms","gdifncs_62f2ba18-75e2-4636-94cf-c4a0b2b63ab1.xml","winddi/EngEnumForms"]
+description: The EngEnumForms function enumerates the forms supported by the specified printer.
+helpviewer_keywords: ["EngEnumForms","EngEnumForms function [Display Devices]","display.engenumforms","gdifncs_62f2ba18-75e2-4636-94cf-c4a0b2b63ab1.xml","winddi/EngEnumForms"]
 old-location: display\engenumforms.htm
 tech.root: display
 ms.assetid: c249bb86-52cf-4c9d-9ea2-7e3a7d14a31a

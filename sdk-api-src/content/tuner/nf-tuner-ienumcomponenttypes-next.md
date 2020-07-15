@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IEnumComponentTypes.Next
 title: IEnumComponentTypes::Next (tuner.h)
-description: The Next method retrieves the next n elements in the collection.helpviewer_keywords: ["IEnumComponentTypes interface [Microsoft TV Technologies]","Next method","IEnumComponentTypes.Next","IEnumComponentTypes::Next","IEnumComponentTypesNext","Next","Next method [Microsoft TV Technologies]","Next method [Microsoft TV Technologies]","IEnumComponentTypes interface","mstv.ienumcomponenttypes_next","tuner/IEnumComponentTypes::Next"]
+description: The Next method retrieves the next n elements in the collection.
+helpviewer_keywords: ["IEnumComponentTypes interface [Microsoft TV Technologies]","Next method","IEnumComponentTypes.Next","IEnumComponentTypes::Next","IEnumComponentTypesNext","Next","Next method [Microsoft TV Technologies]","Next method [Microsoft TV Technologies]","IEnumComponentTypes interface","mstv.ienumcomponenttypes_next","tuner/IEnumComponentTypes::Next"]
 old-location: mstv\ienumcomponenttypes_next.htm
 tech.root: mstv
 ms.assetid: 491e9237-38cd-4c12-b93b-eb398a49d742

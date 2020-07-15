@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgi.IDXGIDeviceSubObject
 title: IDXGIDeviceSubObject (dxgi.h)
-description: Inherited from objects that are tied to the device so that they can retrieve a pointer to it.helpviewer_keywords: ["IDXGIDeviceSubObject","IDXGIDeviceSubObject interface [DXGI]","IDXGIDeviceSubObject interface [DXGI]","described","cafb6d61-7a76-585b-438f-57d6aaa898c1","direct3ddxgi.idxgidevicesubobject","dxgi/IDXGIDeviceSubObject"]
+description: Inherited from objects that are tied to the device so that they can retrieve a pointer to it.
+helpviewer_keywords: ["IDXGIDeviceSubObject","IDXGIDeviceSubObject interface [DXGI]","IDXGIDeviceSubObject interface [DXGI]","described","cafb6d61-7a76-585b-438f-57d6aaa898c1","direct3ddxgi.idxgidevicesubobject","dxgi/IDXGIDeviceSubObject"]
 old-location: direct3ddxgi\idxgidevicesubobject.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgidevicesubobject.htm

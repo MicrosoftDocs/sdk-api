@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.GetResolutionHandler
 title: ISyncMgrConflict::GetResolutionHandler (syncmgr.h)
-description: Gets the resolution handler for the conflict.helpviewer_keywords: ["GetResolutionHandler","GetResolutionHandler method [Windows Shell]","GetResolutionHandler method [Windows Shell]","ISyncMgrConflict interface","ISyncMgrConflict interface [Windows Shell]","GetResolutionHandler method","ISyncMgrConflict.GetResolutionHandler","ISyncMgrConflict::GetResolutionHandler","_shell_ISyncMgrConflict_GetResolutionHandler","shell.ISyncMgrConflict_GetResolutionHandler","syncmgr/ISyncMgrConflict::GetResolutionHandler"]
+description: Gets the resolution handler for the conflict.
+helpviewer_keywords: ["GetResolutionHandler","GetResolutionHandler method [Windows Shell]","GetResolutionHandler method [Windows Shell]","ISyncMgrConflict interface","ISyncMgrConflict interface [Windows Shell]","GetResolutionHandler method","ISyncMgrConflict.GetResolutionHandler","ISyncMgrConflict::GetResolutionHandler","_shell_ISyncMgrConflict_GetResolutionHandler","shell.ISyncMgrConflict_GetResolutionHandler","syncmgr/ISyncMgrConflict::GetResolutionHandler"]
 old-location: shell\ISyncMgrConflict_GetResolutionHandler.htm
 tech.root: shell
 ms.assetid: 9adbc429-098c-4ba9-af62-54f772be83e3

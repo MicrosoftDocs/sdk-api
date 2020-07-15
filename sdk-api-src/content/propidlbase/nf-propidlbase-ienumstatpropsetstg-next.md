@@ -1,7 +1,8 @@
 ---
 UID: NF:propidlbase.IEnumSTATPROPSETSTG.Next
 title: IEnumSTATPROPSETSTG::Next (propidlbase.h)
-description: Retrieves a specified number of STATPROPSETSTG structures that follow subsequently in the enumeration sequence.helpviewer_keywords: ["IEnumSTATPROPSETSTG interface [Structured Storage]","Next method","IEnumSTATPROPSETSTG.Next","IEnumSTATPROPSETSTG::Next","Next","Next method [Structured Storage]","Next method [Structured Storage]","IEnumSTATPROPSETSTG interface","propidlbase/IEnumSTATPROPSETSTG::Next","stg.ienumstatpropsetstg_next"]
+description: Retrieves a specified number of STATPROPSETSTG structures that follow subsequently in the enumeration sequence.
+helpviewer_keywords: ["IEnumSTATPROPSETSTG interface [Structured Storage]","Next method","IEnumSTATPROPSETSTG.Next","IEnumSTATPROPSETSTG::Next","Next","Next method [Structured Storage]","Next method [Structured Storage]","IEnumSTATPROPSETSTG interface","propidlbase/IEnumSTATPROPSETSTG::Next","stg.ienumstatpropsetstg_next"]
 old-location: stg\ienumstatpropsetstg_next.htm
 tech.root: Stg
 ms.assetid: 3af3c518-3db4-4436-b1c1-86587ce8fbf3

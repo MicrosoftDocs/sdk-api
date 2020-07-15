@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509Extensions
 title: IX509Extensions (certenroll.h)
-description: The IX509Extensions interface defines the following methods and properties to manage a collection of IX509Extension objects.helpviewer_keywords: ["IX509Extensions","IX509Extensions interface [Security]","IX509Extensions interface [Security]","described","certenroll/IX509Extensions","security.ix509extensions"]
+description: The IX509Extensions interface defines the following methods and properties to manage a collection of IX509Extension objects.
+helpviewer_keywords: ["IX509Extensions","IX509Extensions interface [Security]","IX509Extensions interface [Security]","described","certenroll/IX509Extensions","security.ix509extensions"]
 old-location: security\ix509extensions.htm
 tech.root: seccertenroll
 ms.assetid: d6bdbcff-1d6b-4813-8269-b75061a42de8

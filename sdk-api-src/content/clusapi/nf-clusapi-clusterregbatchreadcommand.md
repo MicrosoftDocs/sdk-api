@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegBatchReadCommand
 title: ClusterRegBatchReadCommand function (clusapi.h)
-description: Reads a command from a batch notification.helpviewer_keywords: ["ClusterRegBatchReadCommand","ClusterRegBatchReadCommand function [Failover Cluster]","clusapi/ClusterRegBatchReadCommand","mscs.clusterregbatchreadcommand"]
+description: Reads a command from a batch notification.
+helpviewer_keywords: ["ClusterRegBatchReadCommand","ClusterRegBatchReadCommand function [Failover Cluster]","clusapi/ClusterRegBatchReadCommand","mscs.clusterregbatchreadcommand"]
 old-location: mscs\clusterregbatchreadcommand.htm
 tech.root: MsCS
 ms.assetid: a1a7abc5-f306-4664-bb53-e54c6ee1051e

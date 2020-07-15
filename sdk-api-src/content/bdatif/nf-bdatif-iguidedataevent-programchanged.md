@@ -1,7 +1,8 @@
 ---
 UID: NF:bdatif.IGuideDataEvent.ProgramChanged
 title: IGuideDataEvent::ProgramChanged (bdatif.h)
-description: The ProgramChanged method is called when information about one or more programs has changed.helpviewer_keywords: ["IGuideDataEvent interface [Microsoft TV Technologies]","ProgramChanged method","IGuideDataEvent.ProgramChanged","IGuideDataEvent::ProgramChanged","IGuideDataEventProgramChanged","ProgramChanged","ProgramChanged method [Microsoft TV Technologies]","ProgramChanged method [Microsoft TV Technologies]","IGuideDataEvent interface","bdatif/IGuideDataEvent::ProgramChanged","mstv.iguidedataevent_programchanged"]
+description: The ProgramChanged method is called when information about one or more programs has changed.
+helpviewer_keywords: ["IGuideDataEvent interface [Microsoft TV Technologies]","ProgramChanged method","IGuideDataEvent.ProgramChanged","IGuideDataEvent::ProgramChanged","IGuideDataEventProgramChanged","ProgramChanged","ProgramChanged method [Microsoft TV Technologies]","ProgramChanged method [Microsoft TV Technologies]","IGuideDataEvent interface","bdatif/IGuideDataEvent::ProgramChanged","mstv.iguidedataevent_programchanged"]
 old-location: mstv\iguidedataevent_programchanged.htm
 tech.root: mstv
 ms.assetid: 06fcf24b-5d35-4689-9c88-240fe18a46de

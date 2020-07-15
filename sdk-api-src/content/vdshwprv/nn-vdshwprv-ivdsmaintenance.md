@@ -1,7 +1,8 @@
 ---
 UID: NN:vdshwprv.IVdsMaintenance
 title: IVdsMaintenance (vdshwprv.h)
-description: Provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive.helpviewer_keywords: ["IVdsMaintenance","IVdsMaintenance interface [VDS]","IVdsMaintenance interface [VDS]","described","base.ivdsmaintenance","vds/IVdsMaintenance","vdshwprv/IVdsMaintenance"]
+description: Provides methods for performing maintenance operations on a subsystem, controller, LUN, or drive.
+helpviewer_keywords: ["IVdsMaintenance","IVdsMaintenance interface [VDS]","IVdsMaintenance interface [VDS]","described","base.ivdsmaintenance","vds/IVdsMaintenance","vdshwprv/IVdsMaintenance"]
 old-location: base\ivdsmaintenance.htm
 tech.root: VDS
 ms.assetid: 08c01459-151a-4dd8-bea5-412076e39a8a

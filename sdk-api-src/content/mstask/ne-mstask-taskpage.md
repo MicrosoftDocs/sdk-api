@@ -1,7 +1,8 @@
 ---
 UID: NE:mstask._TASKPAGE
 title: TASKPAGE (mstask.h)
-description: Defines the type of task page to be retrieved.helpviewer_keywords: ["TASKPAGE","TASKPAGE enumeration [Task Scheduler]","TASKPAGE_SCHEDULE","TASKPAGE_SETTINGS","TASKPAGE_TASK","_msb_taskpage","mstask/TASKPAGE","mstask/TASKPAGE_SCHEDULE","mstask/TASKPAGE_SETTINGS","mstask/TASKPAGE_TASK","task page [Task Scheduler]","enumerations","TASKPAGE","taskschd.taskpage"]
+description: Defines the type of task page to be retrieved.
+helpviewer_keywords: ["TASKPAGE","TASKPAGE enumeration [Task Scheduler]","TASKPAGE_SCHEDULE","TASKPAGE_SETTINGS","TASKPAGE_TASK","_msb_taskpage","mstask/TASKPAGE","mstask/TASKPAGE_SCHEDULE","mstask/TASKPAGE_SETTINGS","mstask/TASKPAGE_TASK","task page [Task Scheduler]","enumerations","TASKPAGE","taskschd.taskpage"]
 old-location: taskschd\taskpage.htm
 tech.root: taskschd
 ms.assetid: 6c822d4c-9d42-48a2-b378-06670acc39cf

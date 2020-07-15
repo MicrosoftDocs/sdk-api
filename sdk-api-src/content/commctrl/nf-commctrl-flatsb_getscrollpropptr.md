@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.FlatSB_GetScrollPropPtr
 title: FlatSB_GetScrollPropPtr function (commctrl.h)
-description: Gets the properties for a flat scroll bar.helpviewer_keywords: ["FlatSB_GetScrollPropPtr","FlatSB_GetScrollPropPtr function [Windows Controls]","WSB_PROP_CXHSCROLL","WSB_PROP_CXHTHUMB","WSB_PROP_CXVSCROLL","WSB_PROP_CYHSCROLL","WSB_PROP_CYVSCROLL","WSB_PROP_CYVTHUMB","WSB_PROP_HBKGCOLOR","WSB_PROP_HSTYLE","WSB_PROP_PALETTE","WSB_PROP_VBKGCOLOR","WSB_PROP_VSTYLE","WSB_PROP_WINSTYLE","_win32_FlatSB_GetScrollPropPtr","_win32_FlatSB_GetScrollPropPtr_cpp","commctrl/FlatSB_GetScrollPropPtr","controls.FlatSB_GetScrollPropPtr","controls._win32_FlatSB_GetScrollPropPtr"]
+description: Gets the properties for a flat scroll bar.
+helpviewer_keywords: ["FlatSB_GetScrollPropPtr","FlatSB_GetScrollPropPtr function [Windows Controls]","WSB_PROP_CXHSCROLL","WSB_PROP_CXHTHUMB","WSB_PROP_CXVSCROLL","WSB_PROP_CYHSCROLL","WSB_PROP_CYVSCROLL","WSB_PROP_CYVTHUMB","WSB_PROP_HBKGCOLOR","WSB_PROP_HSTYLE","WSB_PROP_PALETTE","WSB_PROP_VBKGCOLOR","WSB_PROP_VSTYLE","WSB_PROP_WINSTYLE","_win32_FlatSB_GetScrollPropPtr","_win32_FlatSB_GetScrollPropPtr_cpp","commctrl/FlatSB_GetScrollPropPtr","controls.FlatSB_GetScrollPropPtr","controls._win32_FlatSB_GetScrollPropPtr"]
 old-location: controls\FlatSB_GetScrollPropPtr.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_getscrollpropptr.htm

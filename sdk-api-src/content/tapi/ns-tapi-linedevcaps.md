@@ -1,7 +1,8 @@
 ---
 UID: NS:tapi.linedevcaps_tag
 title: LINEDEVCAPS (tapi.h)
-description: The LINEDEVCAPS structure describes the capabilities of a line device. The lineGetDevCaps function and the TSPI_lineGetDevCaps function return the LINEDEVCAPS structure.helpviewer_keywords: ["*LPLINEDEVCAPS","LINEDEVCAPS","LINEDEVCAPS structure [TAPI 2.2]","LPLINEDEVCAPS","LPLINEDEVCAPS structure pointer [TAPI 2.2]","_tapi2_linedevcaps_str","tapi/LINEDEVCAPS","tapi/LPLINEDEVCAPS","tapi2.linedevcaps_str"]
+description: The LINEDEVCAPS structure describes the capabilities of a line device. The lineGetDevCaps function and the TSPI_lineGetDevCaps function return the LINEDEVCAPS structure.
+helpviewer_keywords: ["*LPLINEDEVCAPS","LINEDEVCAPS","LINEDEVCAPS structure [TAPI 2.2]","LPLINEDEVCAPS","LPLINEDEVCAPS structure pointer [TAPI 2.2]","_tapi2_linedevcaps_str","tapi/LINEDEVCAPS","tapi/LPLINEDEVCAPS","tapi2.linedevcaps_str"]
 old-location: tapi2\linedevcaps_str.htm
 tech.root: Tapi
 ms.assetid: 83e38453-bb93-4cc5-923f-d0cd2898350a

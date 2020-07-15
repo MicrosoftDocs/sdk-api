@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.SetCachedSinkProtocolInfo
 title: IActiveBasicDevice::streaming (windows.media.streaming.h)
-description: Gets the cached sink protocol info for the device.helpviewer_keywords: ["IActiveBasicDevice interface [Media Streaming API]","SetCachedSinkProtocolInfo method","IActiveBasicDevice.SetCachedSinkProtocolInfo","IActiveBasicDevice.streaming","IActiveBasicDevice::SetCachedSinkProtocolInfo","IActiveBasicDevice::streaming","SetCachedSinkProtocolInfo","SetCachedSinkProtocolInfo method [Media Streaming API]","SetCachedSinkProtocolInfo method [Media Streaming API]","IActiveBasicDevice interface","mediastreaming.iactivebasicdevice_setcachedsinkprotocolinfo","windows/IActiveBasicDevice::SetCachedSinkProtocolInfo"]
+description: Gets the cached sink protocol info for the device.
+helpviewer_keywords: ["IActiveBasicDevice interface [Media Streaming API]","SetCachedSinkProtocolInfo method","IActiveBasicDevice.SetCachedSinkProtocolInfo","IActiveBasicDevice.streaming","IActiveBasicDevice::SetCachedSinkProtocolInfo","IActiveBasicDevice::streaming","SetCachedSinkProtocolInfo","SetCachedSinkProtocolInfo method [Media Streaming API]","SetCachedSinkProtocolInfo method [Media Streaming API]","IActiveBasicDevice interface","mediastreaming.iactivebasicdevice_setcachedsinkprotocolinfo","windows/IActiveBasicDevice::SetCachedSinkProtocolInfo"]
 old-location: mediastreaming\iactivebasicdevice_setcachedsinkprotocolinfo.htm
 tech.root: mediastreaming
 ms.assetid: 210AEE22-0AFD-43B1-8380-8A67D17AB7CB

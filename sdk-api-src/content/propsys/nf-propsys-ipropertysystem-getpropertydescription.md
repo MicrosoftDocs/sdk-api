@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertySystem.GetPropertyDescription
 title: IPropertySystem::GetPropertyDescription (propsys.h)
-description: Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given PROPERTYKEY.helpviewer_keywords: ["GetPropertyDescription","GetPropertyDescription method [Windows Properties]","GetPropertyDescription method [Windows Properties]","IPropertySystem interface","IPropertySystem interface [Windows Properties]","GetPropertyDescription method","IPropertySystem.GetPropertyDescription","IPropertySystem::GetPropertyDescription","properties.IPropertySystem_GetPropertyDescription","propsys/IPropertySystem::GetPropertyDescription","shell.IPropertySystem_GetPropertyDescription","shell_IPropertySystem_GetPropertyDescription"]
+description: Gets an instance of the subsystem object that implements IPropertyDescription, to obtain the property description for a given PROPERTYKEY.
+helpviewer_keywords: ["GetPropertyDescription","GetPropertyDescription method [Windows Properties]","GetPropertyDescription method [Windows Properties]","IPropertySystem interface","IPropertySystem interface [Windows Properties]","GetPropertyDescription method","IPropertySystem.GetPropertyDescription","IPropertySystem::GetPropertyDescription","properties.IPropertySystem_GetPropertyDescription","propsys/IPropertySystem::GetPropertyDescription","shell.IPropertySystem_GetPropertyDescription","shell_IPropertySystem_GetPropertyDescription"]
 old-location: properties\IPropertySystem_GetPropertyDescription.htm
 tech.root: properties
 ms.assetid: c26f6f7e-7ed1-4a97-a9b0-63197ee7b43a

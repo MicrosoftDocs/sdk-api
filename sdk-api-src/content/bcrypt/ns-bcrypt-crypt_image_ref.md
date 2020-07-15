@@ -1,7 +1,8 @@
 ---
 UID: NS:bcrypt._CRYPT_IMAGE_REF
 title: CRYPT_IMAGE_REF (bcrypt.h)
-description: Contains information about a CNG provider module.helpviewer_keywords: ["*PCRYPT_IMAGE_REF","CRYPT_IMAGE_REF","CRYPT_IMAGE_REF structure [Security]","CRYPT_MIN_DEPENDENCIES","CRYPT_PROCESS_ISOLATE","PCRYPT_IMAGE_REF","PCRYPT_IMAGE_REF structure pointer [Security]","bcrypt/CRYPT_IMAGE_REF","bcrypt/PCRYPT_IMAGE_REF","security.crypt_image_ref"]
+description: Contains information about a CNG provider module.
+helpviewer_keywords: ["*PCRYPT_IMAGE_REF","CRYPT_IMAGE_REF","CRYPT_IMAGE_REF structure [Security]","CRYPT_MIN_DEPENDENCIES","CRYPT_PROCESS_ISOLATE","PCRYPT_IMAGE_REF","PCRYPT_IMAGE_REF structure pointer [Security]","bcrypt/CRYPT_IMAGE_REF","bcrypt/PCRYPT_IMAGE_REF","security.crypt_image_ref"]
 old-location: security\crypt_image_ref.htm
 tech.root: SecCNG
 ms.assetid: fb853879-3ee9-45e7-bab6-31f8f8211680

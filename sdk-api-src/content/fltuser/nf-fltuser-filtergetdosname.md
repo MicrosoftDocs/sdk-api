@@ -1,7 +1,8 @@
 ---
 UID: NF:fltuser.FilterGetDosName
 title: FilterGetDosName function (fltuser.h)
-description: The FilterGetDosName function returns the MS-DOS device name that corresponds to the given volume name.helpviewer_keywords: ["FilterGetDosName","FilterGetDosName function [Installable File System Drivers]","FltWin32ApiRef_46945955-c739-4b9c-bbf8-54c451c26716.xml","fltuser/FilterGetDosName","ifsk.filtergetdosname"]
+description: The FilterGetDosName function returns the MS-DOS device name that corresponds to the given volume name.
+helpviewer_keywords: ["FilterGetDosName","FilterGetDosName function [Installable File System Drivers]","FltWin32ApiRef_46945955-c739-4b9c-bbf8-54c451c26716.xml","fltuser/FilterGetDosName","ifsk.filtergetdosname"]
 old-location: ifsk\filtergetdosname.htm
 tech.root: ifsk
 ms.assetid: f7c14e1f-c57f-4780-9936-3a47a4c0ca12

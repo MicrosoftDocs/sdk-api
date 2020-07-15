@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsPostalAddress
 title: IADsPostalAddress (iads.h)
-description: The IADsPostalAddress interface provides methods for an ADSI client to access the Postal Address attribute.helpviewer_keywords: ["IADsPostalAddress","IADsPostalAddress interface [ADSI]","IADsPostalAddress interface [ADSI]","described","_ds_iadspostaladdress","adsi.iadspostaladdress","iads/IADsPostalAddress"]
+description: The IADsPostalAddress interface provides methods for an ADSI client to access the Postal Address attribute.
+helpviewer_keywords: ["IADsPostalAddress","IADsPostalAddress interface [ADSI]","IADsPostalAddress interface [ADSI]","described","_ds_iadspostaladdress","adsi.iadspostaladdress","iads/IADsPostalAddress"]
 old-location: adsi\iadspostaladdress.htm
 tech.root: adsi
 ms.assetid: 53ff56a6-60ee-44a1-b18b-18f17efe2acd

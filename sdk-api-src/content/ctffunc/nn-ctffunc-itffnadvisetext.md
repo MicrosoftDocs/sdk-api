@@ -1,7 +1,8 @@
 ---
 UID: NN:ctffunc.ITfFnAdviseText
 title: ITfFnAdviseText (ctffunc.h)
-description: The ITfFnAdviseText interface is implemented by a text service and used by the TSF manager to supply notifications when the text or lattice element in a context changes.helpviewer_keywords: ["ITfFnAdviseText","ITfFnAdviseText interface [Text Services Framework]","ITfFnAdviseText interface [Text Services Framework]","described","_tsf_itffnadvisetext_ref","ctffunc/ITfFnAdviseText","tsf.itffnadvisetext"]
+description: The ITfFnAdviseText interface is implemented by a text service and used by the TSF manager to supply notifications when the text or lattice element in a context changes.
+helpviewer_keywords: ["ITfFnAdviseText","ITfFnAdviseText interface [Text Services Framework]","ITfFnAdviseText interface [Text Services Framework]","described","_tsf_itffnadvisetext_ref","ctffunc/ITfFnAdviseText","tsf.itffnadvisetext"]
 old-location: tsf\itffnadvisetext.htm
 tech.root: TSF
 ms.assetid: 7cca7f23-48d3-4855-8f3d-e937bbc990d4

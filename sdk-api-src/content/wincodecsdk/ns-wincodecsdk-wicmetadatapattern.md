@@ -1,7 +1,8 @@
 ---
 UID: NS:wincodecsdk.WICMetadataPattern
 title: WICMetadataPattern (wincodecsdk.h)
-description: Represents a metadata pattern.helpviewer_keywords: ["WICMetadataPattern","WICMetadataPattern structure [Windows Imaging Component]","_wic_codec_wicmetadatapattern","wic._wic_codec_wicmetadatapattern","wincodecsdk/WICMetadataPattern"]
+description: Represents a metadata pattern.
+helpviewer_keywords: ["WICMetadataPattern","WICMetadataPattern structure [Windows Imaging Component]","_wic_codec_wicmetadatapattern","wic._wic_codec_wicmetadatapattern","wincodecsdk/WICMetadataPattern"]
 old-location: wic\_wic_codec_wicmetadatapattern.htm
 tech.root: wic
 ms.assetid: cea9e07d-5e55-4320-9744-b5864b58cfd6

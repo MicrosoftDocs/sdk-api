@@ -1,7 +1,8 @@
 ---
 UID: NF:inputscope.SetInputScope
 title: SetInputScope function (inputscope.h)
-description: Sets an input scope for the specified window.helpviewer_keywords: ["SetInputScope","SetInputScope function [Text Services Framework]","inputscope/SetInputScope","tsf.SetInputScope"]
+description: Sets an input scope for the specified window.
+helpviewer_keywords: ["SetInputScope","SetInputScope function [Text Services Framework]","inputscope/SetInputScope","tsf.SetInputScope"]
 old-location: tsf\SetInputScope.htm
 tech.root: TSF
 ms.assetid: 4098525c-8d29-419a-9484-9e70420416bc

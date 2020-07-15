@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_DestinationOptions_SetUILocale
 title: MI_DestinationOptions_SetUILocale function (mi.h)
-description: Sets the default UI locale for operations.helpviewer_keywords: ["MI_DestinationOptions_SetUILocale","MI_DestinationOptions_SetUILocale function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_SetUILocale","wmi_v2.mi_destinationoptions_setuilocale"]
+description: Sets the default UI locale for operations.
+helpviewer_keywords: ["MI_DestinationOptions_SetUILocale","MI_DestinationOptions_SetUILocale function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_SetUILocale","wmi_v2.mi_destinationoptions_setuilocale"]
 old-location: wmi_v2\mi_destinationoptions_setuilocale.htm
 tech.root: wmi_v2
 ms.assetid: a536544c-003b-402e-9d63-d3e30b49cc39

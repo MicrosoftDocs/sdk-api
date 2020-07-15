@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.put_MaxCount
 title: ITuningSpaceContainer::put_MaxCount (tuner.h)
-description: The put_MaxCount method sets the maximum number of tuning spaces allowed on the system.helpviewer_keywords: ["ITuningSpaceContainer interface [Microsoft TV Technologies]","put_MaxCount method","ITuningSpaceContainer.put_MaxCount","ITuningSpaceContainer::put_MaxCount","ITuningSpaceContainerput_MaxCount","mstv.ituningspacecontainer_put_maxcount","put_MaxCount","put_MaxCount method [Microsoft TV Technologies]","put_MaxCount method [Microsoft TV Technologies]","ITuningSpaceContainer interface","tuner/ITuningSpaceContainer::put_MaxCount"]
+description: The put_MaxCount method sets the maximum number of tuning spaces allowed on the system.
+helpviewer_keywords: ["ITuningSpaceContainer interface [Microsoft TV Technologies]","put_MaxCount method","ITuningSpaceContainer.put_MaxCount","ITuningSpaceContainer::put_MaxCount","ITuningSpaceContainerput_MaxCount","mstv.ituningspacecontainer_put_maxcount","put_MaxCount","put_MaxCount method [Microsoft TV Technologies]","put_MaxCount method [Microsoft TV Technologies]","ITuningSpaceContainer interface","tuner/ITuningSpaceContainer::put_MaxCount"]
 old-location: mstv\ituningspacecontainer_put_maxcount.htm
 tech.root: mstv
 ms.assetid: a469557b-c01a-4922-99ad-641c74130cc9

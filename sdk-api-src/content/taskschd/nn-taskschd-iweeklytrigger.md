@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IWeeklyTrigger
 title: IWeeklyTrigger (taskschd.h)
-description: Represents a trigger that starts a task based on a weekly schedule.helpviewer_keywords: ["IWeeklyTrigger","IWeeklyTrigger interface [Task Scheduler]","IWeeklyTrigger interface [Task Scheduler]","described","taskschd.iweeklytrigger","taskschd/IWeeklyTrigger","weekly trigger [Task Scheduler]","interface"]
+description: Represents a trigger that starts a task based on a weekly schedule.
+helpviewer_keywords: ["IWeeklyTrigger","IWeeklyTrigger interface [Task Scheduler]","IWeeklyTrigger interface [Task Scheduler]","described","taskschd.iweeklytrigger","taskschd/IWeeklyTrigger","weekly trigger [Task Scheduler]","interface"]
 old-location: taskschd\iweeklytrigger.htm
 tech.root: taskschd
 ms.assetid: c10b050a-8319-4e21-85aa-0bceb76abaaf

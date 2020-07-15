@@ -1,7 +1,8 @@
 ---
 UID: NE:mmc._MMC_FILTER_TYPE
 title: MMC_FILTER_TYPE (mmc.h)
-description: The MMC_FILTER_TYPE enumeration is introduced in MMC 1.2.helpviewer_keywords: ["MMC_FILTER_NOVALUE","MMC_FILTER_TYPE","MMC_FILTER_TYPE enumeration [MMC]","MMC_INT_FILTER","MMC_STRING_FILTER","_slate_mmc_filter_type","mmc.mmc_filter_type","mmc/MMC_FILTER_NOVALUE","mmc/MMC_FILTER_TYPE","mmc/MMC_INT_FILTER","mmc/MMC_STRING_FILTER"]
+description: The MMC_FILTER_TYPE enumeration is introduced in MMC 1.2.
+helpviewer_keywords: ["MMC_FILTER_NOVALUE","MMC_FILTER_TYPE","MMC_FILTER_TYPE enumeration [MMC]","MMC_INT_FILTER","MMC_STRING_FILTER","_slate_mmc_filter_type","mmc.mmc_filter_type","mmc/MMC_FILTER_NOVALUE","mmc/MMC_FILTER_TYPE","mmc/MMC_INT_FILTER","mmc/MMC_STRING_FILTER"]
 old-location: mmc\mmc_filter_type.htm
 tech.root: mmc
 ms.assetid: 69e6952c-baea-42ac-9700-1f9a4b8d5e67

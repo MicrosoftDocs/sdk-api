@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.WMCreateDeviceRegistration
 title: WMCreateDeviceRegistration function (wmsdkidl.h)
-description: The WMCreateDeviceRegistration function creates a device registration object.helpviewer_keywords: ["WMCreateDeviceRegistration","WMCreateDeviceRegistration function [windows Media Format]","wmformat.wmcreatedeviceregistration","wmsdkidl/WMCreateDeviceRegistration"]
+description: The WMCreateDeviceRegistration function creates a device registration object.
+helpviewer_keywords: ["WMCreateDeviceRegistration","WMCreateDeviceRegistration function [windows Media Format]","wmformat.wmcreatedeviceregistration","wmsdkidl/WMCreateDeviceRegistration"]
 old-location: wmformat\wmcreatedeviceregistration.htm
 tech.root: wmformat
 ms.assetid: 0e318691-07dc-421b-951d-9e65e9160bb0

@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IAlternativeName.get_ObjectId
 title: IAlternativeName::get_ObjectId (certenroll.h)
-description: Retrieves the object identifier (OID), if any, associated with the name.helpviewer_keywords: ["IAlternativeName interface [Security]","ObjectId property","IAlternativeName.ObjectId","IAlternativeName.get_ObjectId","IAlternativeName::ObjectId","IAlternativeName::get_ObjectId","ObjectId property [Security]","ObjectId property [Security]","IAlternativeName interface","certenroll/IAlternativeName::ObjectId","certenroll/IAlternativeName::get_ObjectId","get_ObjectId","security.ialternativename_objectid_property"]
+description: Retrieves the object identifier (OID), if any, associated with the name.
+helpviewer_keywords: ["IAlternativeName interface [Security]","ObjectId property","IAlternativeName.ObjectId","IAlternativeName.get_ObjectId","IAlternativeName::ObjectId","IAlternativeName::get_ObjectId","ObjectId property [Security]","ObjectId property [Security]","IAlternativeName interface","certenroll/IAlternativeName::ObjectId","certenroll/IAlternativeName::get_ObjectId","get_ObjectId","security.ialternativename_objectid_property"]
 old-location: security\ialternativename_objectid_property.htm
 tech.root: seccertenroll
 ms.assetid: be14756b-a7dc-40f4-ae09-b576f85837f6

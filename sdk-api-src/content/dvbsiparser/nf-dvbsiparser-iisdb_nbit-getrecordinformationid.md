@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordInformationId
 title: IISDB_NBIT::GetRecordInformationId (dvbsiparser.h)
-description: an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).helpviewer_keywords: ["GetRecordInformationId","GetRecordInformationId method [Microsoft TV Technologies]","GetRecordInformationId method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetRecordInformationId method","IISDB_NBIT.GetRecordInformationId","IISDB_NBIT::GetRecordInformationId","dvbsiparser/IISDB_NBIT::GetRecordInformationId","mstv.iisdb_nbit_getrecordinformationid"]
+description: an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
+helpviewer_keywords: ["GetRecordInformationId","GetRecordInformationId method [Microsoft TV Technologies]","GetRecordInformationId method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetRecordInformationId method","IISDB_NBIT.GetRecordInformationId","IISDB_NBIT::GetRecordInformationId","dvbsiparser/IISDB_NBIT::GetRecordInformationId","mstv.iisdb_nbit_getrecordinformationid"]
 old-location: mstv\iisdb_nbit_getrecordinformationid.htm
 tech.root: mstv
 ms.assetid: 9535d587-3e37-4d12-9b96-66ff1c2cf6f3

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IsUserAnAdmin
 title: IsUserAnAdmin function (shlobj_core.h)
-description: IsUserAnAdmin may be altered or unavailable.helpviewer_keywords: ["IsUserAnAdmin","IsUserAnAdmin function [Windows Shell]","_win32_IsUserAnAdmin","shell.IsUserAnAdmin","shlobj_core/IsUserAnAdmin"]
+description: IsUserAnAdmin may be altered or unavailable.
+helpviewer_keywords: ["IsUserAnAdmin","IsUserAnAdmin function [Windows Shell]","_win32_IsUserAnAdmin","shell.IsUserAnAdmin","shlobj_core/IsUserAnAdmin"]
 old-location: shell\IsUserAnAdmin.htm
 tech.root: shell
 ms.assetid: fe698d32-32f6-4b2b-ad0c-5d9ec815177f

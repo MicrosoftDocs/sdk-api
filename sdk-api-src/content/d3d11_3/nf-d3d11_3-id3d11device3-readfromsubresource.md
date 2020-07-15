@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_3.ID3D11Device3.ReadFromSubresource
 title: ID3D11Device3::ReadFromSubresource (d3d11_3.h)
-description: Copies data from a D3D11_USAGE_DEFAULTtexture which was mapped using ID3D11DeviceContext3::Mapwhile providing a NULL D3D11_MAPPED_SUBRESOURCEparameter.helpviewer_keywords: ["ID3D11Device3 interface [Direct3D 11]","ReadFromSubresource method","ID3D11Device3.ReadFromSubresource","ID3D11Device3::ReadFromSubresource","ReadFromSubresource","ReadFromSubresource method [Direct3D 11]","ReadFromSubresource method [Direct3D 11]","ID3D11Device3 interface","d3d11_3/ID3D11Device3::ReadFromSubresource","direct3d11.id3d11device3_readfromsubresource"]
+description: Copies data from a D3D11_USAGE_DEFAULTtexture which was mapped using ID3D11DeviceContext3::Mapwhile providing a NULL D3D11_MAPPED_SUBRESOURCEparameter.
+helpviewer_keywords: ["ID3D11Device3 interface [Direct3D 11]","ReadFromSubresource method","ID3D11Device3.ReadFromSubresource","ID3D11Device3::ReadFromSubresource","ReadFromSubresource","ReadFromSubresource method [Direct3D 11]","ReadFromSubresource method [Direct3D 11]","ID3D11Device3 interface","d3d11_3/ID3D11Device3::ReadFromSubresource","direct3d11.id3d11device3_readfromsubresource"]
 old-location: direct3d11\id3d11device3_readfromsubresource.htm
 tech.root: direct3d11
 ms.assetid: 060B9627-3A95-4DBD-B3E6-3989D8D9C79E

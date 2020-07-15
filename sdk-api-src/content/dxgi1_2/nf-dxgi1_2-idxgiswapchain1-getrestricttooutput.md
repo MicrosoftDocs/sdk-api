@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_2.IDXGISwapChain1.GetRestrictToOutput
 title: IDXGISwapChain1::GetRestrictToOutput (dxgi1_2.h)
-description: Gets the output (the display monitor) to which you can restrict the contents of a present operation.helpviewer_keywords: ["GetRestrictToOutput","GetRestrictToOutput method [DXGI]","GetRestrictToOutput method [DXGI]","IDXGISwapChain1 interface","IDXGISwapChain1 interface [DXGI]","GetRestrictToOutput method","IDXGISwapChain1.GetRestrictToOutput","IDXGISwapChain1::GetRestrictToOutput","direct3ddxgi.idxgiswapchain1_getrestricttooutput","dxgi1_2/IDXGISwapChain1::GetRestrictToOutput"]
+description: Gets the output (the display monitor) to which you can restrict the contents of a present operation.
+helpviewer_keywords: ["GetRestrictToOutput","GetRestrictToOutput method [DXGI]","GetRestrictToOutput method [DXGI]","IDXGISwapChain1 interface","IDXGISwapChain1 interface [DXGI]","GetRestrictToOutput method","IDXGISwapChain1.GetRestrictToOutput","IDXGISwapChain1::GetRestrictToOutput","direct3ddxgi.idxgiswapchain1_getrestricttooutput","dxgi1_2/IDXGISwapChain1::GetRestrictToOutput"]
 old-location: direct3ddxgi\idxgiswapchain1_getrestricttooutput.htm
 tech.root: direct3ddxgi
 ms.assetid: 024176FA-BD3B-4410-9342-B8FA2C5B18F6

@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFTrackedSample
 title: IMFTrackedSample (mfidl.h)
-description: Tracks the reference counts on a video media sample.helpviewer_keywords: ["4ad4b14c-94af-4314-8a16-163579dec67f","IMFTrackedSample","IMFTrackedSample interface [Media Foundation]","IMFTrackedSample interface [Media Foundation]","described","mf.imftrackedsample","mfidl/IMFTrackedSample"]
+description: Tracks the reference counts on a video media sample.
+helpviewer_keywords: ["4ad4b14c-94af-4314-8a16-163579dec67f","IMFTrackedSample","IMFTrackedSample interface [Media Foundation]","IMFTrackedSample interface [Media Foundation]","described","mf.imftrackedsample","mfidl/IMFTrackedSample"]
 old-location: mf\imftrackedsample.htm
 tech.root: medfound
 ms.assetid: 4ad4b14c-94af-4314-8a16-163579dec67f

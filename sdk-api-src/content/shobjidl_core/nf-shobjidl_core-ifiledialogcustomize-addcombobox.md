@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.AddComboBox
 title: IFileDialogCustomize::AddComboBox (shobjidl_core.h)
-description: Adds a combo box to the dialog.helpviewer_keywords: ["AddComboBox","AddComboBox method [Windows Shell]","AddComboBox method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","AddComboBox method","IFileDialogCustomize.AddComboBox","IFileDialogCustomize::AddComboBox","shell.IFileDialogCustomize_AddComboBox","shell_IFileDialogCustomize_AddComboBox","shobjidl_core/IFileDialogCustomize::AddComboBox"]
+description: Adds a combo box to the dialog.
+helpviewer_keywords: ["AddComboBox","AddComboBox method [Windows Shell]","AddComboBox method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","AddComboBox method","IFileDialogCustomize.AddComboBox","IFileDialogCustomize::AddComboBox","shell.IFileDialogCustomize_AddComboBox","shell_IFileDialogCustomize_AddComboBox","shobjidl_core/IFileDialogCustomize::AddComboBox"]
 old-location: shell\IFileDialogCustomize_AddComboBox.htm
 tech.root: shell
 ms.assetid: fdb7d682-5182-4bc0-b256-5073bd55c96d

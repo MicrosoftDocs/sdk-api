@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.SetCenter
 title: ID2D1RadialGradientBrush::SetCenter (d2d1.h)
-description: Specifies the center of the gradient ellipse in the brush's coordinate space.helpviewer_keywords: ["ID2D1RadialGradientBrush interface [Direct2D]","SetCenter method","ID2D1RadialGradientBrush.SetCenter","ID2D1RadialGradientBrush::SetCenter","SetCenter","SetCenter method [Direct2D]","SetCenter method [Direct2D]","ID2D1RadialGradientBrush interface","d2d1/ID2D1RadialGradientBrush::SetCenter","direct2d.ID2D1RadialGradientBrush_SetCenter"]
+description: Specifies the center of the gradient ellipse in the brush's coordinate space.
+helpviewer_keywords: ["ID2D1RadialGradientBrush interface [Direct2D]","SetCenter method","ID2D1RadialGradientBrush.SetCenter","ID2D1RadialGradientBrush::SetCenter","SetCenter","SetCenter method [Direct2D]","SetCenter method [Direct2D]","ID2D1RadialGradientBrush interface","d2d1/ID2D1RadialGradientBrush::SetCenter","direct2d.ID2D1RadialGradientBrush_SetCenter"]
 old-location: direct2d\ID2D1RadialGradientBrush_SetCenter.htm
 tech.root: Direct2D
 ms.assetid: f601f3e8-fc93-4076-825c-534f1cf3a8cf

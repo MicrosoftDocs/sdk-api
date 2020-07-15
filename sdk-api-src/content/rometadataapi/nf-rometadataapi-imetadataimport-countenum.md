@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.CountEnum
 title: IMetaDataImport::CountEnum (rometadataapi.h)
-description: Gets the number of elements in the enumeration that was retrieved by the specified enumerator.helpviewer_keywords: ["CountEnum","CountEnum method [Windows Runtime]","CountEnum method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","CountEnum method","IMetaDataImport.CountEnum","IMetaDataImport::CountEnum","rometadataapi/IMetaDataImport::CountEnum","winrt.imetadataimport_countenum"]
+description: Gets the number of elements in the enumeration that was retrieved by the specified enumerator.
+helpviewer_keywords: ["CountEnum","CountEnum method [Windows Runtime]","CountEnum method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","CountEnum method","IMetaDataImport.CountEnum","IMetaDataImport::CountEnum","rometadataapi/IMetaDataImport::CountEnum","winrt.imetadataimport_countenum"]
 old-location: winrt\imetadataimport_countenum.htm
 tech.root: WinRT
 ms.assetid: 67146070-1710-4602-845c-a2a3cd5efdad

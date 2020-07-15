@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StrToIntExW
 title: StrToIntExW function (shlwapi.h)
-description: Converts a string representing a decimal or hexadecimal number to an integer.helpviewer_keywords: ["STIF_DEFAULT","STIF_SUPPORT_HEX","StrToIntEx","StrToIntEx function [Windows Shell]","StrToIntExA","StrToIntExW","_win32_StrToIntEx","shell.StrToIntEx","shlwapi/StrToIntEx","shlwapi/StrToIntExA","shlwapi/StrToIntExW"]
+description: Converts a string representing a decimal or hexadecimal number to an integer.
+helpviewer_keywords: ["STIF_DEFAULT","STIF_SUPPORT_HEX","StrToIntEx","StrToIntEx function [Windows Shell]","StrToIntExA","StrToIntExW","_win32_StrToIntEx","shell.StrToIntEx","shlwapi/StrToIntEx","shlwapi/StrToIntExA","shlwapi/StrToIntExW"]
 old-location: shell\StrToIntEx.htm
 tech.root: shell
 ms.assetid: 2e8286c7-585f-441b-904b-f3b4e8cf95f9
@@ -147,4 +148,8 @@ The optional sign can be the character '-' or '+'; if omitted, the sign is assum
 If the string pointed to by <i>pszString</i> contains an invalid character, that character is considered the end of the string to be converted and the remainder is ignored. For instance, given the invalid hexadecimal string "0x00am123", <b>StrToIntEx</b> only recognizes "0x00a", converts it to the integer value 10, and returns <b>TRUE</b>.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines StrToIntEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

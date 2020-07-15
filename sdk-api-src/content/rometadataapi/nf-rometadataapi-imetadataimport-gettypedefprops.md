@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetTypeDefProps
 title: IMetaDataImport::GetTypeDefProps (rometadataapi.h)
-description: Returns metadata information for the Type represented by the specified TypeDef token.helpviewer_keywords: ["GetTypeDefProps","GetTypeDefProps method [Windows Runtime]","GetTypeDefProps method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetTypeDefProps method","IMetaDataImport.GetTypeDefProps","IMetaDataImport::GetTypeDefProps","rometadataapi/IMetaDataImport::GetTypeDefProps","winrt.imetadataimport_gettypedefprops"]
+description: Returns metadata information for the Type represented by the specified TypeDef token.
+helpviewer_keywords: ["GetTypeDefProps","GetTypeDefProps method [Windows Runtime]","GetTypeDefProps method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetTypeDefProps method","IMetaDataImport.GetTypeDefProps","IMetaDataImport::GetTypeDefProps","rometadataapi/IMetaDataImport::GetTypeDefProps","winrt.imetadataimport_gettypedefprops"]
 old-location: winrt\imetadataimport_gettypedefprops.htm
 tech.root: WinRT
 ms.assetid: 447937af-5edb-4e5e-89a1-13d1a733b3f7

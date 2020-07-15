@@ -1,7 +1,8 @@
 ---
 UID: NF:sdoias.ISdoDictionaryOld.GetAttributeInfo
 title: ISdoDictionaryOld::GetAttributeInfo (sdoias.h)
-description: The GetAttributeInfo retrieves information for the specified attribute.helpviewer_keywords: ["GetAttributeInfo","GetAttributeInfo method [Network Policy Server]","GetAttributeInfo method [Network Policy Server]","ISdoDictionaryOld interface","ISdoDictionaryOld interface [Network Policy Server]","GetAttributeInfo method","ISdoDictionaryOld.GetAttributeInfo","ISdoDictionaryOld::GetAttributeInfo","_sdo_isdodictionaryold_getattributeinfo","nps.SDO_isdodictionaryold_getattributeinfo","sdo.isdodictionaryold_getattributeinfo","sdoias/ISdoDictionaryOld::GetAttributeInfo"]
+description: The GetAttributeInfo retrieves information for the specified attribute.
+helpviewer_keywords: ["GetAttributeInfo","GetAttributeInfo method [Network Policy Server]","GetAttributeInfo method [Network Policy Server]","ISdoDictionaryOld interface","ISdoDictionaryOld interface [Network Policy Server]","GetAttributeInfo method","ISdoDictionaryOld.GetAttributeInfo","ISdoDictionaryOld::GetAttributeInfo","_sdo_isdodictionaryold_getattributeinfo","nps.SDO_isdodictionaryold_getattributeinfo","sdo.isdodictionaryold_getattributeinfo","sdoias/ISdoDictionaryOld::GetAttributeInfo"]
 old-location: nps\SDO_isdodictionaryold_getattributeinfo.htm
 tech.root: Nps
 ms.assetid: 80535d3c-17bb-482b-b5bb-7d747f238b62

@@ -1,7 +1,8 @@
 ---
 UID: NS:strmif._VMRFrequency
 title: VMRFrequency (strmif.h)
-description: The VMRFrequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.helpviewer_keywords: ["VMRFrequency","VMRFrequency structure [DirectShow]","VMRFrequencyStructure","dshow.vmrfrequency","strmif/VMRFrequency"]
+description: The VMRFrequency structure describes the frequency of a video stream. Frequencies are described as ratios. For example, the NTSC frame rate of 29.97 fps is expressed as 30,000:1001.
+helpviewer_keywords: ["VMRFrequency","VMRFrequency structure [DirectShow]","VMRFrequencyStructure","dshow.vmrfrequency","strmif/VMRFrequency"]
 old-location: dshow\vmrfrequency.htm
 tech.root: DirectShow
 ms.assetid: fb4c094a-2760-45b2-b494-a44d5493987f

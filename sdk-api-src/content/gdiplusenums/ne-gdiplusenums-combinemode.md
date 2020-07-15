@@ -1,7 +1,8 @@
 ---
 UID: NE:gdiplusenums.CombineMode
 title: CombineMode (gdiplusenums.h)
-description: The CombineMode enumeration specifies how a new region is combined with an existing region.helpviewer_keywords: ["CombineMode","CombineMode enumeration [GDI+]","CombineModeComplement","CombineModeExclude","CombineModeIntersect","CombineModeReplace","CombineModeUnion","CombineModeXor","_gdiplus_ENUM_CombineMode","gdiplus._gdiplus_ENUM_CombineMode","gdiplusenums/CombineMode","gdiplusenums/CombineModeComplement","gdiplusenums/CombineModeExclude","gdiplusenums/CombineModeIntersect","gdiplusenums/CombineModeReplace","gdiplusenums/CombineModeUnion","gdiplusenums/CombineModeXor"]
+description: The CombineMode enumeration specifies how a new region is combined with an existing region.
+helpviewer_keywords: ["CombineMode","CombineMode enumeration [GDI+]","CombineModeComplement","CombineModeExclude","CombineModeIntersect","CombineModeReplace","CombineModeUnion","CombineModeXor","_gdiplus_ENUM_CombineMode","gdiplus._gdiplus_ENUM_CombineMode","gdiplusenums/CombineMode","gdiplusenums/CombineModeComplement","gdiplusenums/CombineModeExclude","gdiplusenums/CombineModeIntersect","gdiplusenums/CombineModeReplace","gdiplusenums/CombineModeUnion","gdiplusenums/CombineModeXor"]
 old-location: gdiplus\_gdiplus_ENUM_CombineMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\combinemode.htm

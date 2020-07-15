@@ -1,7 +1,8 @@
 ---
 UID: NF:certpol.ICertPolicy.ShutDown
 title: ICertPolicy::ShutDown (certpol.h)
-description: Called by the server engine before the server is terminated.helpviewer_keywords: ["CCertPolicy object [Security]","ShutDown method","ICertPolicy interface [Security]","ShutDown method","ICertPolicy.ShutDown","ICertPolicy2 interface [Security]","ShutDown method","ICertPolicy2::ShutDown","ICertPolicy::ShutDown","ShutDown","ShutDown method [Security]","ShutDown method [Security]","CCertPolicy object","ShutDown method [Security]","ICertPolicy interface","ShutDown method [Security]","ICertPolicy2 interface","_certsrv_icertpolicy_shutdown","certpol/ICertPolicy2::ShutDown","certpol/ICertPolicy::ShutDown","security.icertpolicy2_shutdown"]
+description: Called by the server engine before the server is terminated.
+helpviewer_keywords: ["CCertPolicy object [Security]","ShutDown method","ICertPolicy interface [Security]","ShutDown method","ICertPolicy.ShutDown","ICertPolicy2 interface [Security]","ShutDown method","ICertPolicy2::ShutDown","ICertPolicy::ShutDown","ShutDown","ShutDown method [Security]","ShutDown method [Security]","CCertPolicy object","ShutDown method [Security]","ICertPolicy interface","ShutDown method [Security]","ICertPolicy2 interface","_certsrv_icertpolicy_shutdown","certpol/ICertPolicy2::ShutDown","certpol/ICertPolicy::ShutDown","security.icertpolicy2_shutdown"]
 old-location: security\icertpolicy2_shutdown.htm
 tech.root: SecCrypto
 ms.assetid: 2a796acb-b179-4b6f-8864-9e96f4049389

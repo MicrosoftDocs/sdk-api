@@ -1,7 +1,8 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.IsVisible(IN const Point &,IN const Graphics)
+UID: NF:gdipluspath.GraphicsPath.IsVisible(INconstPoint&,INconstGraphics)
 title: GraphicsPath::IsVisible(IN const Point &,IN const Graphics) (gdipluspath.h)
-description: The GraphicsPath::IsVisible method determines whether a specified point lies in the area that is filled when this path is filled by a specified Graphics object.helpviewer_keywords: ["GraphicsPath class [GDI+]","IsVisible method","GraphicsPath.IsVisible","GraphicsPath.IsVisible(IN const Point &","IN const Graphics)","GraphicsPath.IsVisible(const Point&","const Graphics*)","GraphicsPath::IsVisible","GraphicsPath::IsVisible(IN const Point &","IN const Graphics)","IsVisible","IsVisible method [GDI+]","IsVisible method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_IsVisible_Point_point_Graphics_g_","gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_Point_point_Graphics_g_"]
+description: The GraphicsPath::IsVisible method determines whether a specified point lies in the area that is filled when this path is filled by a specified Graphics object.
+helpviewer_keywords: ["GraphicsPath class [GDI+]","IsVisible method","GraphicsPath.IsVisible","GraphicsPath.IsVisible(IN const Point &","IN const Graphics)","GraphicsPath.IsVisible(const Point&","const Graphics*)","GraphicsPath::IsVisible","GraphicsPath::IsVisible(IN const Point &","IN const Graphics)","IsVisible","IsVisible method [GDI+]","IsVisible method [GDI+]","GraphicsPath class","_gdiplus_CLASS_GraphicsPath_IsVisible_Point_point_Graphics_g_","gdiplus._gdiplus_CLASS_GraphicsPath_IsVisible_Point_point_Graphics_g_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_IsVisible_Point_point_Graphics_g_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\graphicspathisvisiblemethods\isvisible_90pointamppoint_graphicsg.htm

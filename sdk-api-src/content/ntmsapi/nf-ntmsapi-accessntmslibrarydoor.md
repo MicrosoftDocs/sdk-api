@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.AccessNtmsLibraryDoor
 title: AccessNtmsLibraryDoor function (ntmsapi.h)
-description: The AccessNtmsLibraryDoor function unlocks the door of the specified library. If the library is busy, RSM queues the request and returns successfully.helpviewer_keywords: ["AccessNtmsLibraryDoor","AccessNtmsLibraryDoor function [Files]","NTMS_INVENTORY_DEFAULT","NTMS_INVENTORY_FAST","NTMS_INVENTORY_NONE","NTMS_INVENTORY_OMID","_zaw_accessntmslibrarydoor","base.accessntmslibrarydoor","fs.accessntmslibrarydoor","ntmsapi/AccessNtmsLibraryDoor"]
+description: The AccessNtmsLibraryDoor function unlocks the door of the specified library. If the library is busy, RSM queues the request and returns successfully.
+helpviewer_keywords: ["AccessNtmsLibraryDoor","AccessNtmsLibraryDoor function [Files]","NTMS_INVENTORY_DEFAULT","NTMS_INVENTORY_FAST","NTMS_INVENTORY_NONE","NTMS_INVENTORY_OMID","_zaw_accessntmslibrarydoor","base.accessntmslibrarydoor","fs.accessntmslibrarydoor","ntmsapi/AccessNtmsLibraryDoor"]
 old-location: fs\accessntmslibrarydoor.htm
 tech.root: Rsm
 ms.assetid: c7bc4582-4405-4e42-a8bf-e2e8c68bbd7e

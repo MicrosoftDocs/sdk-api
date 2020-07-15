@@ -1,7 +1,8 @@
 ---
 UID: NN:wuapi.IWindowsDriverUpdate3
 title: IWindowsDriverUpdate3 (wuapi.h)
-description: Contains the properties and methods that are available only from a Windows driver update.helpviewer_keywords: ["IWindowsDriverUpdate3","IWindowsDriverUpdate3 interface [Windows Update Agent]","IWindowsDriverUpdate3 interface [Windows Update Agent]","described","wua.iwindowsdriverupdate3","wuapi/IWindowsDriverUpdate3"]
+description: Contains the properties and methods that are available only from a Windows driver update.
+helpviewer_keywords: ["IWindowsDriverUpdate3","IWindowsDriverUpdate3 interface [Windows Update Agent]","IWindowsDriverUpdate3 interface [Windows Update Agent]","described","wua.iwindowsdriverupdate3","wuapi/IWindowsDriverUpdate3"]
 old-location: wua\iwindowsdriverupdate3.htm
 tech.root: Wua_Sdk
 ms.assetid: 85655157-ec0e-455d-a6cf-2431e5a13d91

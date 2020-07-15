@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.InvalidateLayout
 title: IDWriteTextLayout3::InvalidateLayout (dwrite_3.h)
-description: Invalidates the layout, forcing layout to remeasure before calling the metrics or drawing functions. This is useful if the locality of a font changes, and layout should be redrawn, or if the size of a client implemented IDWriteInlineObject changes.helpviewer_keywords: ["IDWriteTextLayout3 interface [Direct Write]","InvalidateLayout method","IDWriteTextLayout3.InvalidateLayout","IDWriteTextLayout3::InvalidateLayout","InvalidateLayout","InvalidateLayout method [Direct Write]","InvalidateLayout method [Direct Write]","IDWriteTextLayout3 interface","directwrite.idwritetextlayout3_invalidatelayout","dwrite_3/IDWriteTextLayout3::InvalidateLayout"]
+description: Invalidates the layout, forcing layout to remeasure before calling the metrics or drawing functions. This is useful if the locality of a font changes, and layout should be redrawn, or if the size of a client implemented IDWriteInlineObject changes.
+helpviewer_keywords: ["IDWriteTextLayout3 interface [Direct Write]","InvalidateLayout method","IDWriteTextLayout3.InvalidateLayout","IDWriteTextLayout3::InvalidateLayout","InvalidateLayout","InvalidateLayout method [Direct Write]","InvalidateLayout method [Direct Write]","IDWriteTextLayout3 interface","directwrite.idwritetextlayout3_invalidatelayout","dwrite_3/IDWriteTextLayout3::InvalidateLayout"]
 old-location: directwrite\idwritetextlayout3_invalidatelayout.htm
 tech.root: DirectWrite
 ms.assetid: 65b42ee1-5b67-1f6d-0e4b-ee60b192e7b7

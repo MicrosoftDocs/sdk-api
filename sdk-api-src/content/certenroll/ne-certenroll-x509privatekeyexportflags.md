@@ -1,7 +1,8 @@
 ---
 UID: NE:certenroll.X509PrivateKeyExportFlags
 title: X509PrivateKeyExportFlags (certenroll.h)
-description: Specifies the export policy for a private key.helpviewer_keywords: ["X509PrivateKeyExportFlags","X509PrivateKeyExportFlags enumeration [Security]","XCN_NCRYPT_ALLOW_ARCHIVING_FLAG","XCN_NCRYPT_ALLOW_EXPORT_FLAG","XCN_NCRYPT_ALLOW_EXPORT_NONE","XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG","XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG","certenroll/X509PrivateKeyExportFlags","certenroll/XCN_NCRYPT_ALLOW_ARCHIVING_FLAG","certenroll/XCN_NCRYPT_ALLOW_EXPORT_FLAG","certenroll/XCN_NCRYPT_ALLOW_EXPORT_NONE","certenroll/XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG","certenroll/XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG","security.x509privatekeyexportflags"]
+description: Specifies the export policy for a private key.
+helpviewer_keywords: ["X509PrivateKeyExportFlags","X509PrivateKeyExportFlags enumeration [Security]","XCN_NCRYPT_ALLOW_ARCHIVING_FLAG","XCN_NCRYPT_ALLOW_EXPORT_FLAG","XCN_NCRYPT_ALLOW_EXPORT_NONE","XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG","XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG","certenroll/X509PrivateKeyExportFlags","certenroll/XCN_NCRYPT_ALLOW_ARCHIVING_FLAG","certenroll/XCN_NCRYPT_ALLOW_EXPORT_FLAG","certenroll/XCN_NCRYPT_ALLOW_EXPORT_NONE","certenroll/XCN_NCRYPT_ALLOW_PLAINTEXT_ARCHIVING_FLAG","certenroll/XCN_NCRYPT_ALLOW_PLAINTEXT_EXPORT_FLAG","security.x509privatekeyexportflags"]
 old-location: security\x509privatekeyexportflags.htm
 tech.root: seccertenroll
 ms.assetid: a50af298-a579-462f-8744-78aa84070360

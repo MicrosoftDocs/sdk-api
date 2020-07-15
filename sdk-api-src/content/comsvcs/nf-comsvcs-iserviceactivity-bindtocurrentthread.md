@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IServiceActivity.BindToCurrentThread
 title: IServiceActivity::BindToCurrentThread (comsvcs.h)
-description: Binds the user-defined batch work to the current thread.helpviewer_keywords: ["BindToCurrentThread","BindToCurrentThread method [COM+]","BindToCurrentThread method [COM+]","IServiceActivity interface","IServiceActivity interface [COM+]","BindToCurrentThread method","IServiceActivity.BindToCurrentThread","IServiceActivity::BindToCurrentThread","_cos_IServiceActivity_BindToCurrentThread","comsvcs/IServiceActivity::BindToCurrentThread","cos.iserviceactivity_bindtocurrentthread"]
+description: Binds the user-defined batch work to the current thread.
+helpviewer_keywords: ["BindToCurrentThread","BindToCurrentThread method [COM+]","BindToCurrentThread method [COM+]","IServiceActivity interface","IServiceActivity interface [COM+]","BindToCurrentThread method","IServiceActivity.BindToCurrentThread","IServiceActivity::BindToCurrentThread","_cos_IServiceActivity_BindToCurrentThread","comsvcs/IServiceActivity::BindToCurrentThread","cos.iserviceactivity_bindtocurrentthread"]
 old-location: cos\iserviceactivity_bindtocurrentthread.htm
 tech.root: cossdk
 ms.assetid: 3d2b57fd-1714-4fdf-859c-9fdfb341dd5d

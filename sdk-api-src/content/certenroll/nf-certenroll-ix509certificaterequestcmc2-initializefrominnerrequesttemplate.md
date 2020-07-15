@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate
 title: IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate (certenroll.h)
-description: Initializes the certificate request from an inner request object and a template.helpviewer_keywords: ["IX509CertificateRequestCmc2 interface [Security]","InitializeFromInnerRequestTemplate method","IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate","IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate","InitializeFromInnerRequestTemplate","InitializeFromInnerRequestTemplate method [Security]","InitializeFromInnerRequestTemplate method [Security]","IX509CertificateRequestCmc2 interface","certenroll/IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate","security.ix509certificaterequestcmc2_initializefrominnerrequesttemplate"]
+description: Initializes the certificate request from an inner request object and a template.
+helpviewer_keywords: ["IX509CertificateRequestCmc2 interface [Security]","InitializeFromInnerRequestTemplate method","IX509CertificateRequestCmc2.InitializeFromInnerRequestTemplate","IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate","InitializeFromInnerRequestTemplate","InitializeFromInnerRequestTemplate method [Security]","InitializeFromInnerRequestTemplate method [Security]","IX509CertificateRequestCmc2 interface","certenroll/IX509CertificateRequestCmc2::InitializeFromInnerRequestTemplate","security.ix509certificaterequestcmc2_initializefrominnerrequesttemplate"]
 old-location: security\ix509certificaterequestcmc2_initializefrominnerrequesttemplate.htm
 tech.root: seccertenroll
 ms.assetid: 12490859-bb4a-49ff-9d92-24bf04ab3999

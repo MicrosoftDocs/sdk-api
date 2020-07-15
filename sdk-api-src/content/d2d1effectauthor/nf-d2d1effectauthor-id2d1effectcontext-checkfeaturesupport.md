@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CheckFeatureSupport
 title: ID2D1EffectContext::CheckFeatureSupport (d2d1effectauthor.h)
-description: This indicates whether an optional capability is supported by the D3D device.helpviewer_keywords: ["CheckFeatureSupport","CheckFeatureSupport method [Direct2D]","CheckFeatureSupport method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CheckFeatureSupport method","ID2D1EffectContext.CheckFeatureSupport","ID2D1EffectContext::CheckFeatureSupport","d2d1effectauthor/ID2D1EffectContext::CheckFeatureSupport","direct2d.id2d1effectcontext_checkfeaturesupport"]
+description: This indicates whether an optional capability is supported by the D3D device.
+helpviewer_keywords: ["CheckFeatureSupport","CheckFeatureSupport method [Direct2D]","CheckFeatureSupport method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CheckFeatureSupport method","ID2D1EffectContext.CheckFeatureSupport","ID2D1EffectContext::CheckFeatureSupport","d2d1effectauthor/ID2D1EffectContext::CheckFeatureSupport","direct2d.id2d1effectcontext_checkfeaturesupport"]
 old-location: direct2d\id2d1effectcontext_checkfeaturesupport.htm
 tech.root: Direct2D
 ms.assetid: 1A97B928-7715-4D4E-AD38-7D01EE243494

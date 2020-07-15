@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindResource
 title: ID3D11ModuleInstance::BindResource (d3d11shader.h)
-description: Rebinds a texture or buffer from source slot to destination slot.helpviewer_keywords: ["BindResource","BindResource method [Direct3D 11]","BindResource method [Direct3D 11]","ID3D11ModuleInstance interface","ID3D11ModuleInstance interface [Direct3D 11]","BindResource method","ID3D11ModuleInstance.BindResource","ID3D11ModuleInstance::BindResource","d3d11shader/ID3D11ModuleInstance::BindResource","direct3d11.id3d11moduleinstance_bindresource"]
+description: Rebinds a texture or buffer from source slot to destination slot.
+helpviewer_keywords: ["BindResource","BindResource method [Direct3D 11]","BindResource method [Direct3D 11]","ID3D11ModuleInstance interface","ID3D11ModuleInstance interface [Direct3D 11]","BindResource method","ID3D11ModuleInstance.BindResource","ID3D11ModuleInstance::BindResource","d3d11shader/ID3D11ModuleInstance::BindResource","direct3d11.id3d11moduleinstance_bindresource"]
 old-location: direct3d11\id3d11moduleinstance_bindresource.htm
 tech.root: direct3d11
 ms.assetid: 7EBF623B-1C04-43C5-A262-62EA125D6631

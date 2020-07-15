@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluspath.PathGradientBrush
 title: PathGradientBrush (gdipluspath.h)
-description: A PathGradientBrush object stores the attributes of a color gradient that you can use to fill the interior of a path with a gradually changing color.helpviewer_keywords: ["PathGradientBrush","PathGradientBrush class [GDI+]","PathGradientBrush class [GDI+]","described","_gdiplus_CLASS_PathGradientBrush_Class","gdiplus._gdiplus_CLASS_PathGradientBrush_Class","gdipluspath/PathGradientBrush"]
+description: A PathGradientBrush object stores the attributes of a color gradient that you can use to fill the interior of a path with a gradually changing color.
+helpviewer_keywords: ["PathGradientBrush","PathGradientBrush class [GDI+]","PathGradientBrush class [GDI+]","described","_gdiplus_CLASS_PathGradientBrush_Class","gdiplus._gdiplus_CLASS_PathGradientBrush_Class","gdipluspath/PathGradientBrush"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrush.htm

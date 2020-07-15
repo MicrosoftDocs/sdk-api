@@ -1,7 +1,8 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetIdealVideoSize
 title: IMFPMediaPlayer::GetIdealVideoSize (mfplay.h)
-description: Gets the range of video sizes that can be displayed without significantly degrading performance or image quality.helpviewer_keywords: ["GetIdealVideoSize","GetIdealVideoSize method [Media Foundation]","GetIdealVideoSize method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetIdealVideoSize method","IMFPMediaPlayer.GetIdealVideoSize","IMFPMediaPlayer::GetIdealVideoSize","mf.imfpmediaplayer_getidealvideosize","mfplay/IMFPMediaPlayer::GetIdealVideoSize"]
+description: Gets the range of video sizes that can be displayed without significantly degrading performance or image quality.
+helpviewer_keywords: ["GetIdealVideoSize","GetIdealVideoSize method [Media Foundation]","GetIdealVideoSize method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetIdealVideoSize method","IMFPMediaPlayer.GetIdealVideoSize","IMFPMediaPlayer::GetIdealVideoSize","mf.imfpmediaplayer_getidealvideosize","mfplay/IMFPMediaPlayer::GetIdealVideoSize"]
 old-location: mf\imfpmediaplayer_getidealvideosize.htm
 tech.root: medfound
 ms.assetid: e6835852-10f0-4453-a22a-a567457bd7c5

@@ -1,7 +1,8 @@
 ---
 UID: NF:realtimeapiset.ConvertAuxiliaryCounterToPerformanceCounter
 title: ConvertAuxiliaryCounterToPerformanceCounter function (realtimeapiset.h)
-description: Converts the specified auxiliary counter value to the corresponding performance counter value; optionally provides the estimated conversion error in nanoseconds due to latencies and maximum possible drift.helpviewer_keywords: ["ConvertAuxiliaryCounterToPerformanceCounter","ConvertAuxiliaryCounterToPerformanceCounter function","base.convertauxiliarycountertoperformancecounter","realtimeapiset/ConvertAuxiliaryCounterToPerformanceCounter"]
+description: Converts the specified auxiliary counter value to the corresponding performance counter value; optionally provides the estimated conversion error in nanoseconds due to latencies and maximum possible drift.
+helpviewer_keywords: ["ConvertAuxiliaryCounterToPerformanceCounter","ConvertAuxiliaryCounterToPerformanceCounter function","base.convertauxiliarycountertoperformancecounter","realtimeapiset/ConvertAuxiliaryCounterToPerformanceCounter"]
 old-location: base\convertauxiliarycountertoperformancecounter.htm
 tech.root: SysInfo
 ms.assetid: 94664D63-D1B0-443B-BB88-C8A8771577A6

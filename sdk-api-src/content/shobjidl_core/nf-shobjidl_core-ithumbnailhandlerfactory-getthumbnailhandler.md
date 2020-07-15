@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IThumbnailHandlerFactory.GetThumbnailHandler
 title: IThumbnailHandlerFactory::GetThumbnailHandler (shobjidl_core.h)
-description: Gets the requested thumbnail handler for the thumbnail of a given item.helpviewer_keywords: ["GetThumbnailHandler","GetThumbnailHandler method [Windows Shell]","GetThumbnailHandler method [Windows Shell]","IThumbnailHandlerFactory interface","IThumbnailHandlerFactory interface [Windows Shell]","GetThumbnailHandler method","IThumbnailHandlerFactory.GetThumbnailHandler","IThumbnailHandlerFactory::GetThumbnailHandler","_shell_IThumbnailHandlerFactory_GetThumbnailHandler","shell.IThumbnailHandlerFactory_GetThumbnailHandler","shobjidl_core/IThumbnailHandlerFactory::GetThumbnailHandler"]
+description: Gets the requested thumbnail handler for the thumbnail of a given item.
+helpviewer_keywords: ["GetThumbnailHandler","GetThumbnailHandler method [Windows Shell]","GetThumbnailHandler method [Windows Shell]","IThumbnailHandlerFactory interface","IThumbnailHandlerFactory interface [Windows Shell]","GetThumbnailHandler method","IThumbnailHandlerFactory.GetThumbnailHandler","IThumbnailHandlerFactory::GetThumbnailHandler","_shell_IThumbnailHandlerFactory_GetThumbnailHandler","shell.IThumbnailHandlerFactory_GetThumbnailHandler","shobjidl_core/IThumbnailHandlerFactory::GetThumbnailHandler"]
 old-location: shell\IThumbnailHandlerFactory_GetThumbnailHandler.htm
 tech.root: shell
 ms.assetid: ddd0caba-079f-4b22-8c89-6ba09adeba60

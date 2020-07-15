@@ -1,7 +1,8 @@
 ---
 UID: NN:cscobj.IOfflineFilesItemContainer
 title: IOfflineFilesItemContainer (cscobj.h)
-description: Used to access item enumeration functionality in the Offline Files cache.helpviewer_keywords: ["IOfflineFilesItemContainer","IOfflineFilesItemContainer interface [Offline Files]","IOfflineFilesItemContainer interface [Offline Files]","described","cscobj/IOfflineFilesItemContainer","of.iofflinefilesitemcontainer"]
+description: Used to access item enumeration functionality in the Offline Files cache.
+helpviewer_keywords: ["IOfflineFilesItemContainer","IOfflineFilesItemContainer interface [Offline Files]","IOfflineFilesItemContainer interface [Offline Files]","described","cscobj/IOfflineFilesItemContainer","of.iofflinefilesitemcontainer"]
 old-location: of\iofflinefilesitemcontainer.htm
 tech.root: offlinefiles
 ms.assetid: 328ad076-cafd-461e-8085-7fca65063fa0

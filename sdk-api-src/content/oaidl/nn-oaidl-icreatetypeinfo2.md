@@ -1,7 +1,8 @@
 ---
 UID: NN:oaidl.ICreateTypeInfo2
 title: ICreateTypeInfo2 (oaidl.h)
-description: Provides the tools for creating and administering the type information defined through the type description.helpviewer_keywords: ["ICreateTypeInfo2","ICreateTypeInfo2 interface [Automation]","ICreateTypeInfo2 interface [Automation]","described","_oa96_ICreateTypeInfo2_Interface","automat.icreatetypeinfo2","oaidl/ICreateTypeInfo2"]
+description: Provides the tools for creating and administering the type information defined through the type description.
+helpviewer_keywords: ["ICreateTypeInfo2","ICreateTypeInfo2 interface [Automation]","ICreateTypeInfo2 interface [Automation]","described","_oa96_ICreateTypeInfo2_Interface","automat.icreatetypeinfo2","oaidl/ICreateTypeInfo2"]
 old-location: automat\icreatetypeinfo2.htm
 tech.root: automat
 ms.assetid: 34dc6f52-6864-4edb-b22d-80eef05d4c8c

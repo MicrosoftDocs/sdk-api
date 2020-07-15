@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContextImpl.UpdateTransform
 title: IMILBitmapEffectRenderContextImpl::UpdateTransform (mileffects.h)
-description: Updates the output transform with the new matrix.helpviewer_keywords: ["IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects]","UpdateTransform method","IMILBitmapEffectRenderContextImpl.UpdateTransform","IMILBitmapEffectRenderContextImpl::UpdateTransform","UpdateTransform","UpdateTransform method [WPF Bitmap Effects]","UpdateTransform method [WPF Bitmap Effects]","IMILBitmapEffectRenderContextImpl interface","_wibe_imilbitmapeffectrendercontextimpl_updatetransform","mileffects/IMILBitmapEffectRenderContextImpl::UpdateTransform","wibe._wibe_imilbitmapeffectrendercontextimpl_updatetransform"]
+description: Updates the output transform with the new matrix.
+helpviewer_keywords: ["IMILBitmapEffectRenderContextImpl interface [WPF Bitmap Effects]","UpdateTransform method","IMILBitmapEffectRenderContextImpl.UpdateTransform","IMILBitmapEffectRenderContextImpl::UpdateTransform","UpdateTransform","UpdateTransform method [WPF Bitmap Effects]","UpdateTransform method [WPF Bitmap Effects]","IMILBitmapEffectRenderContextImpl interface","_wibe_imilbitmapeffectrendercontextimpl_updatetransform","mileffects/IMILBitmapEffectRenderContextImpl::UpdateTransform","wibe._wibe_imilbitmapeffectrendercontextimpl_updatetransform"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontextimpl_updatetransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontextimpl\updatetransform.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsLun.SetMask
 title: IVdsLun::SetMask (vds.h)
-description: Specifies the unmasking list, which is the list of computers to be granted access to the LUN.helpviewer_keywords: ["IVdsLun interface [VDS]","SetMask method","IVdsLun.SetMask","IVdsLun::SetMask","SetMask","SetMask method [VDS]","SetMask method [VDS]","IVdsLun interface","base.ivdslun_setmask","vds/IVdsLun::SetMask","vdshwprv/IVdsLun::SetMask"]
+description: Specifies the unmasking list, which is the list of computers to be granted access to the LUN.
+helpviewer_keywords: ["IVdsLun interface [VDS]","SetMask method","IVdsLun.SetMask","IVdsLun::SetMask","SetMask","SetMask method [VDS]","SetMask method [VDS]","IVdsLun interface","base.ivdslun_setmask","vds/IVdsLun::SetMask","vdshwprv/IVdsLun::SetMask"]
 old-location: base\ivdslun_setmask.htm
 tech.root: VDS
 ms.assetid: b7e841cc-95b4-452f-ac14-d7063fe6a694

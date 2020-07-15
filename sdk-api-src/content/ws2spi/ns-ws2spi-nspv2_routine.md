@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2spi._NSPV2_ROUTINE
 title: NSPV2_ROUTINE (ws2spi.h)
-description: Contains information on the functions implemented by a namespace service provider version-2 (NSPv2) provider.helpviewer_keywords: ["*LPNSPV2_ROUTINE","*PNSPV2_ROUTINE","NSPV2_ROUTINE","NSPV2_ROUTINE structure [Winsock]","PNSPV2_ROUTINE","PNSPV2_ROUTINE structure pointer [Winsock]","winsock.nspv2_routine","ws2spi/NSPV2_ROUTINE","ws2spi/PNSPV2_ROUTINE"]
+description: Contains information on the functions implemented by a namespace service provider version-2 (NSPv2) provider.
+helpviewer_keywords: ["*LPNSPV2_ROUTINE","*PNSPV2_ROUTINE","NSPV2_ROUTINE","NSPV2_ROUTINE structure [Winsock]","PNSPV2_ROUTINE","PNSPV2_ROUTINE structure pointer [Winsock]","winsock.nspv2_routine","ws2spi/NSPV2_ROUTINE","ws2spi/PNSPV2_ROUTINE"]
 old-location: winsock\nspv2_routine.htm
 tech.root: WinSock
 ms.assetid: 22a4ee47-030b-4aee-b9b1-c9e33b3e4fce

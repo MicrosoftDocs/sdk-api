@@ -1,7 +1,8 @@
 ---
 UID: NF:ncryptprotect.NCryptStreamUpdate
 title: NCryptStreamUpdate function (ncryptprotect.h)
-description: Encrypts and decrypts blocks of data.helpviewer_keywords: ["NCryptStreamUpdate","NCryptStreamUpdate function [Security]","ncryptprotect/NCryptStreamUpdate","security.ncryptstreamupdate"]
+description: Encrypts and decrypts blocks of data.
+helpviewer_keywords: ["NCryptStreamUpdate","NCryptStreamUpdate function [Security]","ncryptprotect/NCryptStreamUpdate","security.ncryptstreamupdate"]
 old-location: security\ncryptstreamupdate.htm
 tech.root: SecCNG
 ms.assetid: 417F9267-6055-489C-AF26-BEF5E17CB8B4

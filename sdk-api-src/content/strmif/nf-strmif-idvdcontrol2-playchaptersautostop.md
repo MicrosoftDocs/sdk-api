@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayChaptersAutoStop
 title: IDvdControl2::PlayChaptersAutoStop (strmif.h)
-description: The PlayChaptersAutoStop method plays the number of chapters specified, starting at the specified chapter within the specified title.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","PlayChaptersAutoStop method","IDvdControl2.PlayChaptersAutoStop","IDvdControl2::PlayChaptersAutoStop","IDvdControl2PlayChaptersAutoStop","PlayChaptersAutoStop","PlayChaptersAutoStop method [DirectShow]","PlayChaptersAutoStop method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_playchaptersautostop","strmif/IDvdControl2::PlayChaptersAutoStop"]
+description: The PlayChaptersAutoStop method plays the number of chapters specified, starting at the specified chapter within the specified title.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","PlayChaptersAutoStop method","IDvdControl2.PlayChaptersAutoStop","IDvdControl2::PlayChaptersAutoStop","IDvdControl2PlayChaptersAutoStop","PlayChaptersAutoStop","PlayChaptersAutoStop method [DirectShow]","PlayChaptersAutoStop method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_playchaptersautostop","strmif/IDvdControl2::PlayChaptersAutoStop"]
 old-location: dshow\idvdcontrol2_playchaptersautostop.htm
 tech.root: DirectShow
 ms.assetid: fdf9642b-ac90-4ffc-a813-4a5b22a973dd

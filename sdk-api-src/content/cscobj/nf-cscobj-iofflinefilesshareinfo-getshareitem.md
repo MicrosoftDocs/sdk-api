@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesShareInfo.GetShareItem
 title: IOfflineFilesShareInfo::GetShareItem (cscobj.h)
-description: Finds the cache item representing the closest ancestor share to the item.helpviewer_keywords: ["GetShareItem","GetShareItem method [Offline Files]","GetShareItem method [Offline Files]","IOfflineFilesShareInfo interface","IOfflineFilesShareInfo interface [Offline Files]","GetShareItem method","IOfflineFilesShareInfo.GetShareItem","IOfflineFilesShareInfo::GetShareItem","cscobj/IOfflineFilesShareInfo::GetShareItem","of.iofflinefilesshareinfo_getshareitem"]
+description: Finds the cache item representing the closest ancestor share to the item.
+helpviewer_keywords: ["GetShareItem","GetShareItem method [Offline Files]","GetShareItem method [Offline Files]","IOfflineFilesShareInfo interface","IOfflineFilesShareInfo interface [Offline Files]","GetShareItem method","IOfflineFilesShareInfo.GetShareItem","IOfflineFilesShareInfo::GetShareItem","cscobj/IOfflineFilesShareInfo::GetShareItem","of.iofflinefilesshareinfo_getshareitem"]
 old-location: of\iofflinefilesshareinfo_getshareitem.htm
 tech.root: offlinefiles
 ms.assetid: fd4f92fb-1147-4be4-a61d-04f2f371b6c6

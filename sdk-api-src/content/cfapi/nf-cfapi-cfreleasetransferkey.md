@@ -1,7 +1,8 @@
 ---
 UID: NF:cfapi.CfReleaseTransferKey
 title: CfReleaseTransferKey function (cfapi.h)
-description: Releases a transfer key obtained by CfGetTransferKey.helpviewer_keywords: ["CfReleaseTransferKey","CfReleaseTransferKey function","cfapi/CfReleaseTransferKey","cloudApi.cfreleasetransferkey"]
+description: Releases a transfer key obtained by CfGetTransferKey.
+helpviewer_keywords: ["CfReleaseTransferKey","CfReleaseTransferKey function","cfapi/CfReleaseTransferKey","cloudApi.cfreleasetransferkey"]
 old-location: cloudapi\cfreleasetransferkey.htm
 tech.root: cfApi
 ms.assetid: 53B40C34-EB1F-445B-B1B3-B539C2FADECE

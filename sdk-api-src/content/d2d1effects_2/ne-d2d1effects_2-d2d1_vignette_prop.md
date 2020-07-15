@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1effects_2.D2D1_VIGNETTE_PROP
 title: D2D1_VIGNETTE_PROP (d2d1effects_2.h)
-description: Identifiers for properties of the Vignette effect.helpviewer_keywords: ["D2D1_VIGNETTE_PROP","D2D1_VIGNETTE_PROP enumeration [Direct2D]","D2D1_VIGNETTE_PROP_COLOR","D2D1_VIGNETTE_PROP_STRENGTH","D2D1_VIGNETTE_PROP_TRANSITION_SIZE","d2d1effects_2/D2D1_VIGNETTE_PROP","d2d1effects_2/D2D1_VIGNETTE_PROP_COLOR","d2d1effects_2/D2D1_VIGNETTE_PROP_STRENGTH","d2d1effects_2/D2D1_VIGNETTE_PROP_TRANSITION_SIZE","direct2d.d2d1_vignette_prop"]
+description: Identifiers for properties of the Vignette effect.
+helpviewer_keywords: ["D2D1_VIGNETTE_PROP","D2D1_VIGNETTE_PROP enumeration [Direct2D]","D2D1_VIGNETTE_PROP_COLOR","D2D1_VIGNETTE_PROP_STRENGTH","D2D1_VIGNETTE_PROP_TRANSITION_SIZE","d2d1effects_2/D2D1_VIGNETTE_PROP","d2d1effects_2/D2D1_VIGNETTE_PROP_COLOR","d2d1effects_2/D2D1_VIGNETTE_PROP_STRENGTH","d2d1effects_2/D2D1_VIGNETTE_PROP_TRANSITION_SIZE","direct2d.d2d1_vignette_prop"]
 old-location: direct2d\d2d1_vignette_prop.htm
 tech.root: Direct2D
 ms.assetid: B45EFED7-97CA-41AF-9C36-4ECDCC153183

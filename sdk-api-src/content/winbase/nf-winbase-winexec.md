@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.WinExec
 title: WinExec function (winbase.h)
-description: Runs the specified application.helpviewer_keywords: ["WinExec","WinExec function","_win32_winexec","base.winexec","winbase/WinExec"]
+description: Runs the specified application.
+helpviewer_keywords: ["WinExec","WinExec function","_win32_winexec","base.winexec","winbase/WinExec"]
 old-location: base\winexec.htm
 tech.root: ProcThread
 ms.assetid: 00ac3bd8-59d3-4f7f-8720-e57d05cee056

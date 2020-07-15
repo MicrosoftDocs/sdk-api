@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.LoadImageW
 title: LoadImageW function (winuser.h)
-description: Loads an icon, cursor, animated cursor, or bitmap.helpviewer_keywords: ["IMAGE_BITMAP","IMAGE_CURSOR","IMAGE_ICON","LR_CREATEDIBSECTION","LR_DEFAULTCOLOR","LR_DEFAULTSIZE","LR_LOADFROMFILE","LR_LOADMAP3DCOLORS","LR_LOADTRANSPARENT","LR_MONOCHROME","LR_SHARED","LR_VGACOLOR","LoadImage","LoadImage function [Menus and Other Resources]","LoadImageA","LoadImageW","_win32_LoadImage","_win32_loadimage_cpp","menurc.loadimage","winui._win32_loadimage","winuser/LoadImage","winuser/LoadImageA","winuser/LoadImageW"]
+description: Loads an icon, cursor, animated cursor, or bitmap.
+helpviewer_keywords: ["IMAGE_BITMAP","IMAGE_CURSOR","IMAGE_ICON","LR_CREATEDIBSECTION","LR_DEFAULTCOLOR","LR_DEFAULTSIZE","LR_LOADFROMFILE","LR_LOADMAP3DCOLORS","LR_LOADTRANSPARENT","LR_MONOCHROME","LR_SHARED","LR_VGACOLOR","LoadImage","LoadImage function [Menus and Other Resources]","LoadImageA","LoadImageW","_win32_LoadImage","_win32_loadimage_cpp","menurc.loadimage","winui._win32_loadimage","winuser/LoadImage","winuser/LoadImageA","winuser/LoadImageW"]
 old-location: menurc\loadimage.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadimage.htm
@@ -377,6 +378,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines LoadImage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

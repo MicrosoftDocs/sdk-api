@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIApplication
 title: IRDPSRAPIApplication (rdpencomapi.h)
-description: Groups the sharable windows within a process. Each application object contains a list of window objects. If an application object is shared, all its windows are shared.helpviewer_keywords: ["IRDPSRAPIApplication","IRDPSRAPIApplication interface [RDP]","IRDPSRAPIApplication interface [RDP]","described","rdp.irdpsrapiapplication","rdpencomapi/IRDPSRAPIApplication"]
+description: Groups the sharable windows within a process. Each application object contains a list of window objects. If an application object is shared, all its windows are shared.
+helpviewer_keywords: ["IRDPSRAPIApplication","IRDPSRAPIApplication interface [RDP]","IRDPSRAPIApplication interface [RDP]","described","rdp.irdpsrapiapplication","rdpencomapi/IRDPSRAPIApplication"]
 old-location: rdp\irdpsrapiapplication.htm
 tech.root: rdp
 ms.assetid: 9a934718-1eea-4406-a1da-b7d493f6667e

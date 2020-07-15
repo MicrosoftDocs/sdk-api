@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMWMIFilter.GetQueryList
 title: IGPMWMIFilter::GetQueryList (gpmgmt.h)
-description: Retrieves the query list stored in the WMI filter.helpviewer_keywords: ["GPMWMIFilter class [GPMC]","GetQueryList method","GetQueryList","GetQueryList method [GPMC]","GetQueryList method [GPMC]","GPMWMIFilter class","GetQueryList method [GPMC]","IGPMWMIFilter interface","IGPMWMIFilter interface [GPMC]","GetQueryList method","IGPMWMIFilter.GetQueryList","IGPMWMIFilter::GetQueryList","_win32_igpmwmifilter_getquerylist","gpmc.igpmwmifilter_getquerylist","gpmgmt/IGPMWMIFilter::GetQueryList"]
+description: Retrieves the query list stored in the WMI filter.
+helpviewer_keywords: ["GPMWMIFilter class [GPMC]","GetQueryList method","GetQueryList","GetQueryList method [GPMC]","GetQueryList method [GPMC]","GPMWMIFilter class","GetQueryList method [GPMC]","IGPMWMIFilter interface","IGPMWMIFilter interface [GPMC]","GetQueryList method","IGPMWMIFilter.GetQueryList","IGPMWMIFilter::GetQueryList","_win32_igpmwmifilter_getquerylist","gpmc.igpmwmifilter_getquerylist","gpmgmt/IGPMWMIFilter::GetQueryList"]
 old-location: gpmc\igpmwmifilter_getquerylist.htm
 tech.root: gpmc
 ms.assetid: ea20dc00-fb6d-44dc-81ad-e9aa2040f3ed

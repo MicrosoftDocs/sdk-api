@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl.tagWMVIDEOINFOHEADER
 title: WMVIDEOINFOHEADER (wmsdkidl.h)
-description: The WMVIDEOINFOHEADER structure describes the bitmap and color information for a video image.helpviewer_keywords: ["WMVIDEOINFOHEADER","WMVIDEOINFOHEADER structure [windows Media Format]","wmformat.wmvideoinfoheader","wmsdkidl/WMVIDEOINFOHEADER"]
+description: The WMVIDEOINFOHEADER structure describes the bitmap and color information for a video image.
+helpviewer_keywords: ["WMVIDEOINFOHEADER","WMVIDEOINFOHEADER structure [windows Media Format]","wmformat.wmvideoinfoheader","wmsdkidl/WMVIDEOINFOHEADER"]
 old-location: wmformat\wmvideoinfoheader.htm
 tech.root: wmformat
 ms.assetid: cf079efd-1759-4787-8aeb-85543847ac44

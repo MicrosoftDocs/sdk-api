@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetRecordServiceId
 title: IDvbServiceListDescriptor::GetRecordServiceId (dvbsiparser.h)
-description: Gets the value of the service_id field from a Digital Video Broadcast (DVB) service list descriptor.The service_id field value uniquely identifies the service within the MPEG-2 transport stream.helpviewer_keywords: ["GetRecordServiceId","GetRecordServiceId method [Microsoft TV Technologies]","GetRecordServiceId method [Microsoft TV Technologies]","IDvbServiceListDescriptor interface","IDvbServiceListDescriptor interface [Microsoft TV Technologies]","GetRecordServiceId method","IDvbServiceListDescriptor.GetRecordServiceId","IDvbServiceListDescriptor::GetRecordServiceId","dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceId","mstv.idvbservicelistdescriptor_getrecordserviceid"]
+description: Gets the value of the service_id field from a Digital Video Broadcast (DVB) service list descriptor.The service_id field value uniquely identifies the service within the MPEG-2 transport stream.
+helpviewer_keywords: ["GetRecordServiceId","GetRecordServiceId method [Microsoft TV Technologies]","GetRecordServiceId method [Microsoft TV Technologies]","IDvbServiceListDescriptor interface","IDvbServiceListDescriptor interface [Microsoft TV Technologies]","GetRecordServiceId method","IDvbServiceListDescriptor.GetRecordServiceId","IDvbServiceListDescriptor::GetRecordServiceId","dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceId","mstv.idvbservicelistdescriptor_getrecordserviceid"]
 old-location: mstv\idvbservicelistdescriptor_getrecordserviceid.htm
 tech.root: mstv
 ms.assetid: c98d032a-0a3c-4e27-a5b7-ee594024ac9d

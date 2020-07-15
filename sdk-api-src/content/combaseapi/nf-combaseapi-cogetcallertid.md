@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoGetCallerTID
 title: CoGetCallerTID function (combaseapi.h)
-description: Returns a pointer to a DWORD that contains the apartment ID of the caller's thread.helpviewer_keywords: ["CoGetCallerTID","CoGetCallerTID function [COM]","_com_CoGetCallerTID","com.cogetcallertid","combaseapi/CoGetCallerTID"]
+description: Returns a pointer to a DWORD that contains the apartment ID of the caller's thread.
+helpviewer_keywords: ["CoGetCallerTID","CoGetCallerTID function [COM]","_com_CoGetCallerTID","com.cogetcallertid","combaseapi/CoGetCallerTID"]
 old-location: com\cogetcallertid.htm
 tech.root: com
 ms.assetid: 3a34001b-6286-4103-ae9f-700ea101dc17

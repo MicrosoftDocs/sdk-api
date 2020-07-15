@@ -1,7 +1,8 @@
 ---
 UID: NF:iscsidsc.SetIScsiInitiatorCHAPSharedSecret
 title: SetIScsiInitiatorCHAPSharedSecret function (iscsidsc.h)
-description: The SetIscsiInitiatorCHAPSharedSecret function establishes the default Challenge Handshake Authentication Protocol (CHAP) shared secret for all initiators on the computer.helpviewer_keywords: ["SetIScsiInitiatorCHAPSharedSecret","SetIscsiInitiatorCHAPSharedSecret","SetIscsiInitiatorCHAPSharedSecret function [iSCSI Discovery Library API]","iscsidisc.setiscsiinitiatorchapsharedsecret","iscsidsc/SetIscsiInitiatorCHAPSharedSecret"]
+description: The SetIscsiInitiatorCHAPSharedSecret function establishes the default Challenge Handshake Authentication Protocol (CHAP) shared secret for all initiators on the computer.
+helpviewer_keywords: ["SetIScsiInitiatorCHAPSharedSecret","SetIscsiInitiatorCHAPSharedSecret","SetIscsiInitiatorCHAPSharedSecret function [iSCSI Discovery Library API]","iscsidisc.setiscsiinitiatorchapsharedsecret","iscsidsc/SetIscsiInitiatorCHAPSharedSecret"]
 old-location: iscsidisc\setiscsiinitiatorchapsharedsecret.htm
 tech.root: iSCSIDisc
 ms.assetid: 9b7172a5-3a6e-49ae-8f22-77b088eb1048

@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidPlayback.Run
 title: IMSVidPlayback::Run (segment.h)
-description: The Run method runs the playback device.helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","Run method","IMSVidPlayback.Run","IMSVidPlayback::Run","IMSVidPlaybackRun","Run","Run method [Microsoft TV Technologies]","Run method [Microsoft TV Technologies]","IMSVidPlayback interface","mstv.imsvidplayback_run","segment/IMSVidPlayback::Run"]
+description: The Run method runs the playback device.
+helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","Run method","IMSVidPlayback.Run","IMSVidPlayback::Run","IMSVidPlaybackRun","Run","Run method [Microsoft TV Technologies]","Run method [Microsoft TV Technologies]","IMSVidPlayback interface","mstv.imsvidplayback_run","segment/IMSVidPlayback::Run"]
 old-location: mstv\imsvidplayback_run.htm
 tech.root: mstv
 ms.assetid: 58374819-82dd-4ffe-8cd7-ad51ea0d7207

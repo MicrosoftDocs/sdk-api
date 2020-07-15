@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi.IRedbookDiscMaster.CloseAudioTrack
 title: IRedbookDiscMaster::CloseAudioTrack (imapi.h)
-description: Closes a currently open audio track. All audio tracks must be closed before the IDiscMaster::RecordDisc method can be called.helpviewer_keywords: ["CloseAudioTrack","CloseAudioTrack method [IMAPI]","CloseAudioTrack method [IMAPI]","IRedbookDiscMaster interface","IRedbookDiscMaster interface [IMAPI]","CloseAudioTrack method","IRedbookDiscMaster.CloseAudioTrack","IRedbookDiscMaster::CloseAudioTrack","_win32_iredbookdiscmaster_closeaudiotrack","base.iredbookdiscmaster_closeaudiotrack","imapi.iredbookdiscmaster_closeaudiotrack","imapi/IRedbookDiscMaster::CloseAudioTrack"]
+description: Closes a currently open audio track. All audio tracks must be closed before the IDiscMaster::RecordDisc method can be called.
+helpviewer_keywords: ["CloseAudioTrack","CloseAudioTrack method [IMAPI]","CloseAudioTrack method [IMAPI]","IRedbookDiscMaster interface","IRedbookDiscMaster interface [IMAPI]","CloseAudioTrack method","IRedbookDiscMaster.CloseAudioTrack","IRedbookDiscMaster::CloseAudioTrack","_win32_iredbookdiscmaster_closeaudiotrack","base.iredbookdiscmaster_closeaudiotrack","imapi.iredbookdiscmaster_closeaudiotrack","imapi/IRedbookDiscMaster::CloseAudioTrack"]
 old-location: imapi\iredbookdiscmaster_closeaudiotrack.htm
 tech.root: imapi
 ms.assetid: 01ec0eba-d592-46eb-8029-86cb678b8b34

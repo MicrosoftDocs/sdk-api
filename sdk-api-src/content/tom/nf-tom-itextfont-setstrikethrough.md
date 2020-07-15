@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.SetStrikeThrough
 title: ITextFont::SetStrikeThrough (tom.h)
-description: Sets whether characters are displayed with a horizontal line through the center.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetStrikeThrough method","ITextFont.SetStrikeThrough","ITextFont::SetStrikeThrough","SetStrikeThrough","SetStrikeThrough method [Windows Controls]","SetStrikeThrough method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetStrikeThrough","_win32_ITextFont_SetStrikeThrough_cpp","controls.ITextFont_SetStrikeThrough","controls._win32_ITextFont_SetStrikeThrough","tom/ITextFont::SetStrikeThrough"]
+description: Sets whether characters are displayed with a horizontal line through the center.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetStrikeThrough method","ITextFont.SetStrikeThrough","ITextFont::SetStrikeThrough","SetStrikeThrough","SetStrikeThrough method [Windows Controls]","SetStrikeThrough method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetStrikeThrough","_win32_ITextFont_SetStrikeThrough_cpp","controls.ITextFont_SetStrikeThrough","controls._win32_ITextFont_SetStrikeThrough","tom/ITextFont::SetStrikeThrough"]
 old-location: controls\ITextFont_SetStrikeThrough.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setstrikethrough.htm

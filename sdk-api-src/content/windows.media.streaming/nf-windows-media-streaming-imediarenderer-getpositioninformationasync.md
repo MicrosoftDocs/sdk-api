@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetPositionInformationAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-description: Queries the DMR asynchronously to retrieve position information.helpviewer_keywords: ["GetPositionInformationAsync","GetPositionInformationAsync method [Media Streaming API]","GetPositionInformationAsync method [Media Streaming API]","IMediaRenderer interface","IMediaRenderer interface [Media Streaming API]","GetPositionInformationAsync method","IMediaRenderer.GetPositionInformationAsync","IMediaRenderer.streaming","IMediaRenderer::GetPositionInformationAsync","IMediaRenderer::streaming","mediastreaming.imediarenderer_getpositioninformationasync","windows/IMediaRenderer::GetPositionInformationAsync"]
+description: Queries the DMR asynchronously to retrieve position information.
+helpviewer_keywords: ["GetPositionInformationAsync","GetPositionInformationAsync method [Media Streaming API]","GetPositionInformationAsync method [Media Streaming API]","IMediaRenderer interface","IMediaRenderer interface [Media Streaming API]","GetPositionInformationAsync method","IMediaRenderer.GetPositionInformationAsync","IMediaRenderer.streaming","IMediaRenderer::GetPositionInformationAsync","IMediaRenderer::streaming","mediastreaming.imediarenderer_getpositioninformationasync","windows/IMediaRenderer::GetPositionInformationAsync"]
 old-location: mediastreaming\imediarenderer_getpositioninformationasync.htm
 tech.root: mediastreaming
 ms.assetid: 07011C85-34C5-430A-9551-FFC7C24CCED8

@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineMonitorDigits
 title: TSPI_lineMonitorDigits function (tspi.h)
-description: The TSPI_lineMonitorDigits function enables and disables the unbuffered detection of digits received on the call.helpviewer_keywords: ["TSPI_lineMonitorDigits","TSPI_lineMonitorDigits function [TAPI 2.2]","_tspi_tspi_linemonitordigits","tspi.tspi_linemonitordigits","tspi/TSPI_lineMonitorDigits"]
+description: The TSPI_lineMonitorDigits function enables and disables the unbuffered detection of digits received on the call.
+helpviewer_keywords: ["TSPI_lineMonitorDigits","TSPI_lineMonitorDigits function [TAPI 2.2]","_tspi_tspi_linemonitordigits","tspi.tspi_linemonitordigits","tspi/TSPI_lineMonitorDigits"]
 old-location: tspi\tspi_linemonitordigits.htm
 tech.root: Tapi
 ms.assetid: 3153eb0e-32e9-40bf-b6aa-de594f6edbf6

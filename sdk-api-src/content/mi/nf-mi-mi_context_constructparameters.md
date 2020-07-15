@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Context_ConstructParameters
 title: MI_Context_ConstructParameters function (mi.h)
-description: A provider calls this function to initialize a parameter's instance.helpviewer_keywords: ["MI_Context_ConstructParameters","MI_Context_ConstructParameters function [Windows Management Infrastructure (MI)]","mi/MI_Context_ConstructParameters","wmi.mi_constructparameters","wmi_v2.mi_context_constructparameters"]
+description: A provider calls this function to initialize a parameter's instance.
+helpviewer_keywords: ["MI_Context_ConstructParameters","MI_Context_ConstructParameters function [Windows Management Infrastructure (MI)]","mi/MI_Context_ConstructParameters","wmi.mi_constructparameters","wmi_v2.mi_context_constructparameters"]
 old-location: wmi_v2\mi_context_constructparameters.htm
 tech.root: wmi_v2
 ms.assetid: dd5bea1c-fee0-4ebf-9c4c-a42bf9ba315b

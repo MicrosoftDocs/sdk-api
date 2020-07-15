@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetForeColor
 title: ITextFont::GetForeColor (tom.h)
-description: Gets the foreground, or text, color.helpviewer_keywords: ["GetForeColor","GetForeColor method [Windows Controls]","GetForeColor method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetForeColor method","ITextFont.GetForeColor","ITextFont::GetForeColor","_win32_ITextFont_GetForeColor","_win32_ITextFont_GetForeColor_cpp","controls.ITextFont_GetForeColor","controls._win32_ITextFont_GetForeColor","tom/ITextFont::GetForeColor"]
+description: Gets the foreground, or text, color.
+helpviewer_keywords: ["GetForeColor","GetForeColor method [Windows Controls]","GetForeColor method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetForeColor method","ITextFont.GetForeColor","ITextFont::GetForeColor","_win32_ITextFont_GetForeColor","_win32_ITextFont_GetForeColor_cpp","controls.ITextFont_GetForeColor","controls._win32_ITextFont_GetForeColor","tom/ITextFont::GetForeColor"]
 old-location: controls\ITextFont_GetForeColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getforecolor.htm

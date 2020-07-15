@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmquota.IFsrmQuotaTemplateImported
 title: IFsrmQuotaTemplateImported (fsrmquota.h)
-description: Used to modify and save imported quota templates.helpviewer_keywords: ["IFsrmQuotaTemplateImported","IFsrmQuotaTemplateImported interface [File Server Resource Manager]","IFsrmQuotaTemplateImported interface [File Server Resource Manager]","described","fs.ifsrmquotatemplateimported","fsrm.ifsrmquotatemplateimported","fsrm/IFsrmQuotaTemplateImported"]
+description: Used to modify and save imported quota templates.
+helpviewer_keywords: ["IFsrmQuotaTemplateImported","IFsrmQuotaTemplateImported interface [File Server Resource Manager]","IFsrmQuotaTemplateImported interface [File Server Resource Manager]","described","fs.ifsrmquotatemplateimported","fsrm.ifsrmquotatemplateimported","fsrm/IFsrmQuotaTemplateImported"]
 old-location: fsrm\ifsrmquotatemplateimported.htm
 tech.root: fsrm
 ms.assetid: 0349a772-9862-4131-b3be-96eec8e41b01

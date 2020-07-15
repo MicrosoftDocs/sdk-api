@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CreateWindowExA
 title: CreateWindowExA function (winuser.h)
-description: Creates an overlapped, pop-up, or child window with an extended window style; otherwise, this function is identical to the CreateWindow function.helpviewer_keywords: ["CreateWindowEx","CreateWindowEx function [Windows and Messages]","CreateWindowExA","CreateWindowExW","_win32_CreateWindowEx","_win32_createwindowex_cpp","winmsg.createwindowex","winui._win32_createwindowex","winuser/CreateWindowEx","winuser/CreateWindowExA","winuser/CreateWindowExW"]
+description: Creates an overlapped, pop-up, or child window with an extended window style; otherwise, this function is identical to the CreateWindow function.
+helpviewer_keywords: ["CreateWindowEx","CreateWindowEx function [Windows and Messages]","CreateWindowExA","CreateWindowExW","_win32_CreateWindowEx","_win32_createwindowex_cpp","winmsg.createwindowex","winui._win32_createwindowex","winuser/CreateWindowEx","winuser/CreateWindowExA","winuser/CreateWindowExW"]
 old-location: winmsg\createwindowex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindowex.htm
@@ -286,6 +287,10 @@ The <b>WS_EX_NOACTIVATE</b> value for <i>dwExStyle</i> prevents foreground activ
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CreateWindowEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

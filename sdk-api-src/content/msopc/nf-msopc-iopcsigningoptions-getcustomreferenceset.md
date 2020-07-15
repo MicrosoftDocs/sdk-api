@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.GetCustomReferenceSet
 title: IOpcSigningOptions::GetCustomReferenceSet (msopc.h)
-description: Gets an IOpcSignatureReferenceSet interface pointer.helpviewer_keywords: ["GetCustomReferenceSet","GetCustomReferenceSet method [Open Packaging Conventions]","GetCustomReferenceSet method [Open Packaging Conventions]","IOpcSigningOptions interface","IOpcSigningOptions interface [Open Packaging Conventions]","GetCustomReferenceSet method","IOpcSigningOptions.GetCustomReferenceSet","IOpcSigningOptions::GetCustomReferenceSet","msopc/IOpcSigningOptions::GetCustomReferenceSet","opc.iopcsigningoptions_getcustomreferenceset"]
+description: Gets an IOpcSignatureReferenceSet interface pointer.
+helpviewer_keywords: ["GetCustomReferenceSet","GetCustomReferenceSet method [Open Packaging Conventions]","GetCustomReferenceSet method [Open Packaging Conventions]","IOpcSigningOptions interface","IOpcSigningOptions interface [Open Packaging Conventions]","GetCustomReferenceSet method","IOpcSigningOptions.GetCustomReferenceSet","IOpcSigningOptions::GetCustomReferenceSet","msopc/IOpcSigningOptions::GetCustomReferenceSet","opc.iopcsigningoptions_getcustomreferenceset"]
 old-location: opc\iopcsigningoptions_getcustomreferenceset.htm
 tech.root: OPC
 ms.assetid: 2222772a-e396-4d78-a7e4-a12f19ec689b

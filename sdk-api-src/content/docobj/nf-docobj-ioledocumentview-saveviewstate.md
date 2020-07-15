@@ -1,7 +1,8 @@
 ---
 UID: NF:docobj.IOleDocumentView.SaveViewState
 title: IOleDocumentView::SaveViewState (docobj.h)
-description: Saves the view state into the specified stream.helpviewer_keywords: ["IOleDocumentView interface [COM]","SaveViewState method","IOleDocumentView.SaveViewState","IOleDocumentView::SaveViewState","SaveViewState","SaveViewState method [COM]","SaveViewState method [COM]","IOleDocumentView interface","_ole_ioledocumentview_saveviewstate","com.ioledocumentview_saveviewstate","docobj/IOleDocumentView::SaveViewState"]
+description: Saves the view state into the specified stream.
+helpviewer_keywords: ["IOleDocumentView interface [COM]","SaveViewState method","IOleDocumentView.SaveViewState","IOleDocumentView::SaveViewState","SaveViewState","SaveViewState method [COM]","SaveViewState method [COM]","IOleDocumentView interface","_ole_ioledocumentview_saveviewstate","com.ioledocumentview_saveviewstate","docobj/IOleDocumentView::SaveViewState"]
 old-location: com\ioledocumentview_saveviewstate.htm
 tech.root: com
 ms.assetid: d270b441-d0d5-4dd5-995b-6ca5738747c5

@@ -1,7 +1,8 @@
 ---
 UID: NF:userenv.CreateProfile
 title: CreateProfile function (userenv.h)
-description: Creates a new user profile.helpviewer_keywords: ["CreateProfile","CreateProfile function [Windows Shell]","_shell_CreateProfile","shell.CreateProfile","userenv/CreateProfile"]
+description: Creates a new user profile.
+helpviewer_keywords: ["CreateProfile","CreateProfile function [Windows Shell]","_shell_CreateProfile","shell.CreateProfile","userenv/CreateProfile"]
 old-location: shell\CreateProfile.htm
 tech.root: shell
 ms.assetid: cab9e20b-d94c-42e5-ada9-27194f398bb3

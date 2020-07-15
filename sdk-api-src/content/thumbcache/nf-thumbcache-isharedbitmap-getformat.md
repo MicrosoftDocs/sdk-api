@@ -1,7 +1,8 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.GetFormat
 title: ISharedBitmap::GetFormat (thumbcache.h)
-description: Retrieves the alpha type of the bitmap image.helpviewer_keywords: ["GetFormat","GetFormat method [Windows Shell]","GetFormat method [Windows Shell]","ISharedBitmap interface","ISharedBitmap interface [Windows Shell]","GetFormat method","ISharedBitmap.GetFormat","ISharedBitmap::GetFormat","WTSAT_ARGB","WTSAT_RGB","_shell_ISharedBitmap_GetFormat","shell.ISharedBitmap_GetFormat","thumbcache/ISharedBitmap::GetFormat"]
+description: Retrieves the alpha type of the bitmap image.
+helpviewer_keywords: ["GetFormat","GetFormat method [Windows Shell]","GetFormat method [Windows Shell]","ISharedBitmap interface","ISharedBitmap interface [Windows Shell]","GetFormat method","ISharedBitmap.GetFormat","ISharedBitmap::GetFormat","WTSAT_ARGB","WTSAT_RGB","_shell_ISharedBitmap_GetFormat","shell.ISharedBitmap_GetFormat","thumbcache/ISharedBitmap::GetFormat"]
 old-location: shell\ISharedBitmap_GetFormat.htm
 tech.root: shell
 ms.assetid: 403b8b19-c96f-4205-999f-103025d2b923

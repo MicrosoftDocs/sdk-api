@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHStrDupA
 title: SHStrDupA function (shlwapi.h)
-description: Makes a copy of a string in newly allocated memory.helpviewer_keywords: ["SHStrDup","SHStrDup function [Windows Shell]","SHStrDupA","SHStrDupW","_win32_SHStrDup","shell.SHStrDup","shlwapi/SHStrDup","shlwapi/SHStrDupA","shlwapi/SHStrDupW"]
+description: Makes a copy of a string in newly allocated memory.
+helpviewer_keywords: ["SHStrDup","SHStrDup function [Windows Shell]","SHStrDupA","SHStrDupW","_win32_SHStrDup","shell.SHStrDup","shlwapi/SHStrDup","shlwapi/SHStrDupA","shlwapi/SHStrDupW"]
 old-location: shell\SHStrDup.htm
 tech.root: shell
 ms.assetid: 6f014fb4-7637-48a8-9bec-d3278c46a6d8
@@ -103,6 +104,10 @@ This function uses <a href="https://docs.microsoft.com/windows/desktop/api/comba
 
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines SHStrDup as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmProviderSetSecurityInfoByKey0
 title: FwpmProviderSetSecurityInfoByKey0 function (fwpmu.h)
-description: Sets specified security information in the security descriptor of a provider object.helpviewer_keywords: ["FwpmProviderSetSecurityInfoByKey0","FwpmProviderSetSecurityInfoByKey0 function [Filtering]","fwp.fwpmprovidersetsecurityinfobykey0_func","fwpmu/FwpmProviderSetSecurityInfoByKey0"]
+description: Sets specified security information in the security descriptor of a provider object.
+helpviewer_keywords: ["FwpmProviderSetSecurityInfoByKey0","FwpmProviderSetSecurityInfoByKey0 function [Filtering]","fwp.fwpmprovidersetsecurityinfobykey0_func","fwpmu/FwpmProviderSetSecurityInfoByKey0"]
 old-location: fwp\fwpmprovidersetsecurityinfobykey0_func.htm
 tech.root: fwp
 ms.assetid: 4451ae03-cdff-4b43-84cd-a80d639ba79f

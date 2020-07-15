@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSigningOptions.GetCustomReferences
 title: IXpsSigningOptions::GetCustomReferences (xpsdigitalsignature.h)
-description: Gets a pointer to an IOpcSignatureReferenceSet interface, which contains a set of signature custom references.helpviewer_keywords: ["GetCustomReferences","GetCustomReferences method [XPS Documents and Packaging]","GetCustomReferences method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetCustomReferences method","IXpsSigningOptions.GetCustomReferences","IXpsSigningOptions::GetCustomReferences","xps.ixpssigningoptions_getcustomreferences","xpsdigitalsignature/IXpsSigningOptions::GetCustomReferences"]
+description: Gets a pointer to an IOpcSignatureReferenceSet interface, which contains a set of signature custom references.
+helpviewer_keywords: ["GetCustomReferences","GetCustomReferences method [XPS Documents and Packaging]","GetCustomReferences method [XPS Documents and Packaging]","IXpsSigningOptions interface","IXpsSigningOptions interface [XPS Documents and Packaging]","GetCustomReferences method","IXpsSigningOptions.GetCustomReferences","IXpsSigningOptions::GetCustomReferences","xps.ixpssigningoptions_getcustomreferences","xpsdigitalsignature/IXpsSigningOptions::GetCustomReferences"]
 old-location: xps\ixpssigningoptions_getcustomreferences.htm
 tech.root: printdocs
 ms.assetid: 1a9ab939-4581-40a9-acd3-2afe02c5e201

@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.ILocator.Clone
 title: ILocator::Clone (tuner.h)
-description: The Clone method creates a copy of the Locator.helpviewer_keywords: ["Clone","Clone method [Microsoft TV Technologies]","Clone method [Microsoft TV Technologies]","ILocator interface","ILocator interface [Microsoft TV Technologies]","Clone method","ILocator.Clone","ILocator::Clone","ILocatorClone","mstv.ilocator_clone","tuner/ILocator::Clone"]
+description: The Clone method creates a copy of the Locator.
+helpviewer_keywords: ["Clone","Clone method [Microsoft TV Technologies]","Clone method [Microsoft TV Technologies]","ILocator interface","ILocator interface [Microsoft TV Technologies]","Clone method","ILocator.Clone","ILocator::Clone","ILocatorClone","mstv.ilocator_clone","tuner/ILocator::Clone"]
 old-location: mstv\ilocator_clone.htm
 tech.root: mstv
 ms.assetid: 9a1fd730-80b9-439b-aab2-069710aa3dfa

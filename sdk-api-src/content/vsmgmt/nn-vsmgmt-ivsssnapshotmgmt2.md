@@ -1,7 +1,8 @@
 ---
 UID: NN:vsmgmt.IVssSnapshotMgmt2
 title: IVssSnapshotMgmt2 (vsmgmt.h)
-description: Provides a method to retrieve the minimum size of the shadow copy storage area.helpviewer_keywords: ["IVssSnapshotMgmt2","IVssSnapshotMgmt2 interface [Files]","IVssSnapshotMgmt2 interface [Files]","described","base.ivsssnapshotmgmt2","vsmgmt/IVssSnapshotMgmt2"]
+description: Provides a method to retrieve the minimum size of the shadow copy storage area.
+helpviewer_keywords: ["IVssSnapshotMgmt2","IVssSnapshotMgmt2 interface [Files]","IVssSnapshotMgmt2 interface [Files]","described","base.ivsssnapshotmgmt2","vsmgmt/IVssSnapshotMgmt2"]
 old-location: base\ivsssnapshotmgmt2.htm
 tech.root: VSS
 ms.assetid: 92c8c960-d548-4a44-8b10-b6180c974473

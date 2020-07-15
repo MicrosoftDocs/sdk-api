@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzBizRuleParameters.AddParameter
 title: IAzBizRuleParameters::AddParameter (azroles.h)
-description: Adds a parameter to the list of parameters available to business rule (BizRule) scripts.helpviewer_keywords: ["AddParameter","AddParameter method [Security]","AddParameter method [Security]","IAzBizRuleParameters interface","IAzBizRuleParameters interface [Security]","AddParameter method","IAzBizRuleParameters.AddParameter","IAzBizRuleParameters::AddParameter","azroles/IAzBizRuleParameters::AddParameter","security.iazbizruleparameters_addparameter_method"]
+description: Adds a parameter to the list of parameters available to business rule (BizRule) scripts.
+helpviewer_keywords: ["AddParameter","AddParameter method [Security]","AddParameter method [Security]","IAzBizRuleParameters interface","IAzBizRuleParameters interface [Security]","AddParameter method","IAzBizRuleParameters.AddParameter","IAzBizRuleParameters::AddParameter","azroles/IAzBizRuleParameters::AddParameter","security.iazbizruleparameters_addparameter_method"]
 old-location: security\iazbizruleparameters_addparameter_method.htm
 tech.root: SecAuthZ
 ms.assetid: ea5c45d4-34c8-4d7c-a1b2-8f45574d9449

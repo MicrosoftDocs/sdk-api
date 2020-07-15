@@ -1,7 +1,8 @@
 ---
 UID: NS:mbnapi.MBN_CONTEXT
 title: MBN_CONTEXT (mbnapi.h)
-description: The MBN_CONTEXT structure stores information about the connection context.helpviewer_keywords: ["MBN_CONTEXT","MBN_CONTEXT structure [Microsoft Broadband Networks]","mbn.mbn_context","mbnapi/MBN_CONTEXT"]
+description: The MBN_CONTEXT structure stores information about the connection context.
+helpviewer_keywords: ["MBN_CONTEXT","MBN_CONTEXT structure [Microsoft Broadband Networks]","mbn.mbn_context","mbnapi/MBN_CONTEXT"]
 old-location: mbn\mbn_context.htm
 tech.root: mbn
 ms.assetid: 949b1bb3-8cad-45b4-81b7-1f70a76b6c8c

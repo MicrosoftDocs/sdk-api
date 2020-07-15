@@ -1,7 +1,8 @@
 ---
 UID: NF:snmp.SnmpUtilOidFree
 title: SnmpUtilOidFree function (snmp.h)
-description: The SnmpUtilOidFree function frees the memory allocated for the specified object identifier. This function is an element of the SNMP Utility API.helpviewer_keywords: ["SnmpUtilOidFree","SnmpUtilOidFree function [SNMP]","_snmp_snmputiloidfree","snmp.snmputiloidfree","snmp/SnmpUtilOidFree"]
+description: The SnmpUtilOidFree function frees the memory allocated for the specified object identifier. This function is an element of the SNMP Utility API.
+helpviewer_keywords: ["SnmpUtilOidFree","SnmpUtilOidFree function [SNMP]","_snmp_snmputiloidfree","snmp.snmputiloidfree","snmp/SnmpUtilOidFree"]
 old-location: snmp\snmputiloidfree.htm
 tech.root: SNMP
 ms.assetid: 8fc44fdf-956a-4102-bcbb-4cd17a73828c

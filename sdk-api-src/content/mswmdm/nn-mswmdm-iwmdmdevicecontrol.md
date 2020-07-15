@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IWMDMDeviceControl
 title: IWMDMDeviceControl (mswmdm.h)
-description: The IWMDMDeviceControl interface provides methods for controlling playback on a device.helpviewer_keywords: ["IWMDMDeviceControl","IWMDMDeviceControl interface [windows Media Device Manager]","IWMDMDeviceControl interface [windows Media Device Manager]","described","IWMDMDeviceControlInterface","mswmdm/IWMDMDeviceControl","wmdm.iwmdmdevicecontrol"]
+description: The IWMDMDeviceControl interface provides methods for controlling playback on a device.
+helpviewer_keywords: ["IWMDMDeviceControl","IWMDMDeviceControl interface [windows Media Device Manager]","IWMDMDeviceControl interface [windows Media Device Manager]","described","IWMDMDeviceControlInterface","mswmdm/IWMDMDeviceControl","wmdm.iwmdmdevicecontrol"]
 old-location: wmdm\iwmdmdevicecontrol.htm
 tech.root: WMDM
 ms.assetid: e7b58957-4795-461f-ae3d-fb80e6711c9f

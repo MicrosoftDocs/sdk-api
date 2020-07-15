@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IDVBTuningSpace.get_SystemType
 title: IDVBTuningSpace::get_SystemType (tuner.h)
-description: The get_SystemType method retrieves the system type.helpviewer_keywords: ["IDVBTuningSpace interface [Microsoft TV Technologies]","get_SystemType method","IDVBTuningSpace.get_SystemType","IDVBTuningSpace::get_SystemType","IDVBTuningSpaceget_SystemType","get_SystemType","get_SystemType method [Microsoft TV Technologies]","get_SystemType method [Microsoft TV Technologies]","IDVBTuningSpace interface","mstv.idvbtuningspace_get_systemtype","tuner/IDVBTuningSpace::get_SystemType"]
+description: The get_SystemType method retrieves the system type.
+helpviewer_keywords: ["IDVBTuningSpace interface [Microsoft TV Technologies]","get_SystemType method","IDVBTuningSpace.get_SystemType","IDVBTuningSpace::get_SystemType","IDVBTuningSpaceget_SystemType","get_SystemType","get_SystemType method [Microsoft TV Technologies]","get_SystemType method [Microsoft TV Technologies]","IDVBTuningSpace interface","mstv.idvbtuningspace_get_systemtype","tuner/IDVBTuningSpace::get_SystemType"]
 old-location: mstv\idvbtuningspace_get_systemtype.htm
 tech.root: mstv
 ms.assetid: 4e08d142-6ae3-4da7-ba3c-59fdf07a2f10

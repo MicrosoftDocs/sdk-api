@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICBitmapClipper
 title: IWICBitmapClipper (wincodec.h)
-description: Exposes methods that produce a clipped version of the input bitmap for a specified rectangular region of interest.helpviewer_keywords: ["IWICBitmapClipper","IWICBitmapClipper interface [Windows Imaging Component]","IWICBitmapClipper interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapclipper","wic._wic_codec_iwicbitmapclipper","wincodec/IWICBitmapClipper"]
+description: Exposes methods that produce a clipped version of the input bitmap for a specified rectangular region of interest.
+helpviewer_keywords: ["IWICBitmapClipper","IWICBitmapClipper interface [Windows Imaging Component]","IWICBitmapClipper interface [Windows Imaging Component]","described","_wic_codec_iwicbitmapclipper","wic._wic_codec_iwicbitmapclipper","wincodec/IWICBitmapClipper"]
 old-location: wic\_wic_codec_iwicbitmapclipper.htm
 tech.root: wic
 ms.assetid: a21fb11f-8622-46d6-8612-875ac59d3fbf

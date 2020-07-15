@@ -1,7 +1,8 @@
 ---
 UID: NF:mergemod.IMsmMerge.Merge
 title: IMsmMerge::Merge (mergemod.h)
-description: The Merge method executes a merge of the current database and current module.helpviewer_keywords: ["IMsmMerge interface","Merge method","IMsmMerge.Merge","IMsmMerge::Merge","Merge","Merge method","Merge method","IMsmMerge interface","_msi_merge_function","mergemod/IMsmMerge::Merge","setup.imsmmerge_merge"]
+description: The Merge method executes a merge of the current database and current module.
+helpviewer_keywords: ["IMsmMerge interface","Merge method","IMsmMerge.Merge","IMsmMerge::Merge","Merge","Merge method","Merge method","IMsmMerge interface","_msi_merge_function","mergemod/IMsmMerge::Merge","setup.imsmmerge_merge"]
 old-location: setup\imsmmerge_merge.htm
 tech.root: Msi
 ms.assetid: 3ff1a2a8-accb-43d7-ba38-a89a5d099dc5

@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_CLIPPER_LOCAL
 title: DD_CLIPPER_LOCAL (ddrawint.h)
-description: The DD_CLIPPER_LOCAL structure contains local data for each individual DirectDrawClipper object.helpviewer_keywords: ["*PDD_CLIPPER_LOCAL","DD_CLIPPER_LOCAL","DD_CLIPPER_LOCAL structure [Display Devices]","ddrawint/DD_CLIPPER_LOCAL","ddstrcts_ab07bdb1-e063-4c9b-bb22-87fc5064382e.xml","display.dd_clipper_local"]
+description: The DD_CLIPPER_LOCAL structure contains local data for each individual DirectDrawClipper object.
+helpviewer_keywords: ["*PDD_CLIPPER_LOCAL","DD_CLIPPER_LOCAL","DD_CLIPPER_LOCAL structure [Display Devices]","ddrawint/DD_CLIPPER_LOCAL","ddstrcts_ab07bdb1-e063-4c9b-bb22-87fc5064382e.xml","display.dd_clipper_local"]
 old-location: display\dd_clipper_local.htm
 tech.root: display
 ms.assetid: 5b2a5b8a-87f9-4bb6-a68e-5e74442da192

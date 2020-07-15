@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.SHGetNameFromIDList
 title: SHGetNameFromIDList function (shobjidl_core.h)
-description: Retrieves the display name of an item identified by its IDList.helpviewer_keywords: ["SHGetNameFromIDList","SHGetNameFromIDList function [Windows Shell]","_shell_SHGetNameFromIDList","shell.SHGetNameFromIDList","shobjidl_core/SHGetNameFromIDList"]
+description: Retrieves the display name of an item identified by its IDList.
+helpviewer_keywords: ["SHGetNameFromIDList","SHGetNameFromIDList function [Windows Shell]","_shell_SHGetNameFromIDList","shell.SHGetNameFromIDList","shobjidl_core/SHGetNameFromIDList"]
 old-location: shell\SHGetNameFromIDList.htm
 tech.root: shell
 ms.assetid: d2fc1eeb-bd76-4bd7-9a4f-4142e53f0afb

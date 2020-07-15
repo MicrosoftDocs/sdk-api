@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.ICImageDecompress
 title: ICImageDecompress function (vfw.h)
-description: The ICImageDecompress function decompresses an image without using initialization functions.helpviewer_keywords: ["ICImageDecompress","ICImageDecompress function [Windows Multimedia]","_win32_ICImageDecompress","multimedia.icimagedecompress","vfw/ICImageDecompress"]
+description: The ICImageDecompress function decompresses an image without using initialization functions.
+helpviewer_keywords: ["ICImageDecompress","ICImageDecompress function [Windows Multimedia]","_win32_ICImageDecompress","multimedia.icimagedecompress","vfw/ICImageDecompress"]
 old-location: multimedia\icimagedecompress.htm
 tech.root: Multimedia
 ms.assetid: 8d27f0bd-9db5-482d-9000-75ad04762a67

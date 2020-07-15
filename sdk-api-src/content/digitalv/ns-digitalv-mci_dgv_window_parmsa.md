@@ -1,7 +1,8 @@
 ---
 UID: NS:digitalv.__unnamed_struct_34
 title: MCI_DGV_WINDOW_PARMSA (digitalv.h)
-description: The MCI_DGV_WINDOW_PARMS structure contains parameters for MCI_WINDOW command for digital-video devices.helpviewer_keywords: ["*LPMCI_DGV_WINDOW_PARMSA","MCI_DGV_WINDOW_PARMS","MCI_DGV_WINDOW_PARMS structure [Windows Multimedia]","MCI_DGV_WINDOW_PARMSA","_win32_MCI_DGV_WINDOW_PARMS_str","digitalv/MCI_DGV_WINDOW_PARMS","multimedia.mci_dgv_window_parms"]
+description: The MCI_DGV_WINDOW_PARMS structure contains parameters for MCI_WINDOW command for digital-video devices.
+helpviewer_keywords: ["*LPMCI_DGV_WINDOW_PARMSA","MCI_DGV_WINDOW_PARMS","MCI_DGV_WINDOW_PARMS structure [Windows Multimedia]","MCI_DGV_WINDOW_PARMSA","_win32_MCI_DGV_WINDOW_PARMS_str","digitalv/MCI_DGV_WINDOW_PARMS","multimedia.mci_dgv_window_parms"]
 old-location: multimedia\mci_dgv_window_parms.htm
 tech.root: Multimedia
 ms.assetid: 89c16949-4501-4ca0-87b6-c5f2524879a7
@@ -99,6 +100,10 @@ When assigning data to the members of this structure, set the corresponding flag
 
 
 
+
+
+> [!NOTE]
+> The digitalv.h header defines MCI_DGV_WINDOW_PARMS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

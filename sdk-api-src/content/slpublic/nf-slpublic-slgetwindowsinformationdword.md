@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLGetWindowsInformationDWORD
 title: SLGetWindowsInformationDWORD function (slpublic.h)
-description: Retrieves the DWORD value portion of a name-value pair from the licensing policy of a software component.helpviewer_keywords: ["SLGetWindowsInformationDWORD","SLGetWindowsInformationDWORD function [Security]","security.slgetwindowsinformationdword","slpublic/SLGetWindowsInformationDWORD"]
+description: Retrieves the DWORD value portion of a name-value pair from the licensing policy of a software component.
+helpviewer_keywords: ["SLGetWindowsInformationDWORD","SLGetWindowsInformationDWORD function [Security]","security.slgetwindowsinformationdword","slpublic/SLGetWindowsInformationDWORD"]
 old-location: security\slgetwindowsinformationdword.htm
 tech.root: SecSLApi
 ms.assetid: 27f59d01-93d5-4bf8-aab2-77243431cc0c

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.LoadCursorFromFileA
 title: LoadCursorFromFileA function (winuser.h)
-description: Creates a cursor based on data contained in a file.helpviewer_keywords: ["LoadCursorFromFile","LoadCursorFromFile function [Menus and Other Resources]","LoadCursorFromFileA","LoadCursorFromFileW","_win32_LoadCursorFromFile","_win32_loadcursorfromfile_cpp","menurc.loadcursorfromfile","winui._win32_loadcursorfromfile","winuser/LoadCursorFromFile","winuser/LoadCursorFromFileA","winuser/LoadCursorFromFileW"]
+description: Creates a cursor based on data contained in a file.
+helpviewer_keywords: ["LoadCursorFromFile","LoadCursorFromFile function [Menus and Other Resources]","LoadCursorFromFileA","LoadCursorFromFileW","_win32_LoadCursorFromFile","_win32_loadcursorfromfile_cpp","menurc.loadcursorfromfile","winui._win32_loadcursorfromfile","winuser/LoadCursorFromFile","winuser/LoadCursorFromFileA","winuser/LoadCursorFromFileW"]
 old-location: menurc\loadcursorfromfile.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\cursors\cursorreference\cursorfunctions\loadcursorfromfile.htm
@@ -111,6 +112,10 @@ This API does not participate in DPI virtualization. The output returned is not 
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines LoadCursorFromFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

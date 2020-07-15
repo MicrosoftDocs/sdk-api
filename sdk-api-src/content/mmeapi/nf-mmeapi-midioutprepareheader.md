@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.midiOutPrepareHeader
 title: midiOutPrepareHeader function (mmeapi.h)
-description: The midiOutPrepareHeader function prepares a MIDI system-exclusive or stream buffer for output.helpviewer_keywords: ["_win32_midiOutPrepareHeader","midiOutPrepareHeader","midiOutPrepareHeader function [Windows Multimedia]","mmeapi/midiOutPrepareHeader","multimedia.midioutprepareheader"]
+description: The midiOutPrepareHeader function prepares a MIDI system-exclusive or stream buffer for output.
+helpviewer_keywords: ["_win32_midiOutPrepareHeader","midiOutPrepareHeader","midiOutPrepareHeader function [Windows Multimedia]","mmeapi/midiOutPrepareHeader","multimedia.midioutprepareheader"]
 old-location: multimedia\midioutprepareheader.htm
 tech.root: Multimedia
 ms.assetid: 3e457f08-a885-48f8-97c1-ba1baef97759

@@ -1,7 +1,8 @@
 ---
 UID: NE:dwrite.DWRITE_FACTORY_TYPE
 title: DWRITE_FACTORY_TYPE (dwrite.h)
-description: Specifies the type of DirectWrite factory object.helpviewer_keywords: ["DWRITE_FACTORY_TYPE","DWRITE_FACTORY_TYPE enumeration [Direct Write]","DWRITE_FACTORY_TYPE_ISOLATED","DWRITE_FACTORY_TYPE_SHARED","directwrite.dwrite_factory_type","dwrite/DWRITE_FACTORY_TYPE","dwrite/DWRITE_FACTORY_TYPE_ISOLATED","dwrite/DWRITE_FACTORY_TYPE_SHARED"]
+description: Specifies the type of DirectWrite factory object.
+helpviewer_keywords: ["DWRITE_FACTORY_TYPE","DWRITE_FACTORY_TYPE enumeration [Direct Write]","DWRITE_FACTORY_TYPE_ISOLATED","DWRITE_FACTORY_TYPE_SHARED","directwrite.dwrite_factory_type","dwrite/DWRITE_FACTORY_TYPE","dwrite/DWRITE_FACTORY_TYPE_ISOLATED","dwrite/DWRITE_FACTORY_TYPE_SHARED"]
 old-location: directwrite\dwrite_factory_type.htm
 tech.root: DirectWrite
 ms.assetid: ce51d8cd-3125-49e3-878c-9d4b446e2422

@@ -1,7 +1,8 @@
 ---
 UID: NF:infotech.IITPropList.Clear
 title: IITPropList::Clear (infotech.h)
-description: Clears memory associated with a property list and reinitializes the list.helpviewer_keywords: ["Clear","Clear method [HTML Help Workshop]","Clear method [HTML Help Workshop]","IITPropList interface","IITPropList interface [HTML Help Workshop]","Clear method","IITPropList.Clear","IITPropList::Clear","htmlhelp.iitproplist_clear","infotech/IITPropList::Clear","refIITPropListClear"]
+description: Clears memory associated with a property list and reinitializes the list.
+helpviewer_keywords: ["Clear","Clear method [HTML Help Workshop]","Clear method [HTML Help Workshop]","IITPropList interface","IITPropList interface [HTML Help Workshop]","Clear method","IITPropList.Clear","IITPropList::Clear","htmlhelp.iitproplist_clear","infotech/IITPropList::Clear","refIITPropListClear"]
 old-location: htmlhelp\iitproplist_clear.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistclear.htm

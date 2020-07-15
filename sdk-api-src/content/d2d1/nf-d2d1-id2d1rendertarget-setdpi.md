@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RenderTarget.SetDpi
 title: ID2D1RenderTarget::SetDpi (d2d1.h)
-description: Sets the dots per inch (DPI) of the render target.helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","SetDpi method","ID2D1RenderTarget.SetDpi","ID2D1RenderTarget::SetDpi","SetDpi","SetDpi method [Direct2D]","SetDpi method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::SetDpi","direct2d.ID2D1RenderTarget_SetDpi"]
+description: Sets the dots per inch (DPI) of the render target.
+helpviewer_keywords: ["ID2D1RenderTarget interface [Direct2D]","SetDpi method","ID2D1RenderTarget.SetDpi","ID2D1RenderTarget::SetDpi","SetDpi","SetDpi method [Direct2D]","SetDpi method [Direct2D]","ID2D1RenderTarget interface","d2d1/ID2D1RenderTarget::SetDpi","direct2d.ID2D1RenderTarget_SetDpi"]
 old-location: direct2d\ID2D1RenderTarget_SetDpi.htm
 tech.root: Direct2D
 ms.assetid: 603a838b-4abc-4adf-93a9-ec8535d42ed6

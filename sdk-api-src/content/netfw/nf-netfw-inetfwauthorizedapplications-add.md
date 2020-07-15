@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.Add
 title: INetFwAuthorizedApplications::Add (netfw.h)
-description: The Add method adds a new application to the collection.helpviewer_keywords: ["Add","Add method [ICS/ICF]","Add method [ICS/ICF]","INetFwAuthorizedApplications interface","INetFwAuthorizedApplications interface [ICS/ICF]","Add method","INetFwAuthorizedApplications.Add","INetFwAuthorizedApplications::Add","ics.inetfwauthorizedapplications_add","netfw/INetFwAuthorizedApplications::Add"]
+description: The Add method adds a new application to the collection.
+helpviewer_keywords: ["Add","Add method [ICS/ICF]","Add method [ICS/ICF]","INetFwAuthorizedApplications interface","INetFwAuthorizedApplications interface [ICS/ICF]","Add method","INetFwAuthorizedApplications.Add","INetFwAuthorizedApplications::Add","ics.inetfwauthorizedapplications_add","netfw/INetFwAuthorizedApplications::Add"]
 old-location: ics\inetfwauthorizedapplications_add.htm
 tech.root: ics
 ms.assetid: f69f906d-0d7b-4f45-9bf0-fd1b031e3492

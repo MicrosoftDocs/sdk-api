@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanGetAvailableNetworkList
 title: WlanGetAvailableNetworkList function (wlanapi.h)
-description: Retrieves the list of available networks on a wireless LAN interface.helpviewer_keywords: ["WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_ADHOC_PROFILES","WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_MANUAL_HIDDEN_PROFILES","WlanGetAvailableNetworkList","WlanGetAvailableNetworkList function [NativeWIFI]","nwifi.wlangetavailablenetworklist","nwifi.wlangetvisiblenetworklist","wlanapi/WlanGetAvailableNetworkList"]
+description: Retrieves the list of available networks on a wireless LAN interface.
+helpviewer_keywords: ["WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_ADHOC_PROFILES","WLAN_AVAILABLE_NETWORK_INCLUDE_ALL_MANUAL_HIDDEN_PROFILES","WlanGetAvailableNetworkList","WlanGetAvailableNetworkList function [NativeWIFI]","nwifi.wlangetavailablenetworklist","nwifi.wlangetvisiblenetworklist","wlanapi/WlanGetAvailableNetworkList"]
 old-location: nwifi\wlangetavailablenetworklist.htm
 tech.root: NativeWiFi
 ms.assetid: 27353a1b-2a3c-4c3b-b512-917d010ee8dd

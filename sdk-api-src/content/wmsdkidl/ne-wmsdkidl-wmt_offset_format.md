@@ -1,7 +1,8 @@
 ---
 UID: NE:wmsdkidl.tagWMT_OFFSET_FORMAT
 title: WMT_OFFSET_FORMAT (wmsdkidl.h)
-description: The WMT_OFFSET_FORMAT enumeration type defines the types of offsets used in this SDK.helpviewer_keywords: ["WMT_OFFSET_FORMAT","WMT_OFFSET_FORMAT enumeration [windows Media Format]","WMT_OFFSET_FORMAT_100NS","WMT_OFFSET_FORMAT_100NS_APPROXIMATE","WMT_OFFSET_FORMAT_FRAME_NUMBERS","WMT_OFFSET_FORMAT_PLAYLIST_OFFSET","WMT_OFFSET_FORMAT_TIMECODE","wmformat.wmt_offset_format","wmsdkidl/WMT_OFFSET_FORMAT","wmsdkidl/WMT_OFFSET_FORMAT_100NS","wmsdkidl/WMT_OFFSET_FORMAT_100NS_APPROXIMATE","wmsdkidl/WMT_OFFSET_FORMAT_FRAME_NUMBERS","wmsdkidl/WMT_OFFSET_FORMAT_PLAYLIST_OFFSET","wmsdkidl/WMT_OFFSET_FORMAT_TIMECODE"]
+description: The WMT_OFFSET_FORMAT enumeration type defines the types of offsets used in this SDK.
+helpviewer_keywords: ["WMT_OFFSET_FORMAT","WMT_OFFSET_FORMAT enumeration [windows Media Format]","WMT_OFFSET_FORMAT_100NS","WMT_OFFSET_FORMAT_100NS_APPROXIMATE","WMT_OFFSET_FORMAT_FRAME_NUMBERS","WMT_OFFSET_FORMAT_PLAYLIST_OFFSET","WMT_OFFSET_FORMAT_TIMECODE","wmformat.wmt_offset_format","wmsdkidl/WMT_OFFSET_FORMAT","wmsdkidl/WMT_OFFSET_FORMAT_100NS","wmsdkidl/WMT_OFFSET_FORMAT_100NS_APPROXIMATE","wmsdkidl/WMT_OFFSET_FORMAT_FRAME_NUMBERS","wmsdkidl/WMT_OFFSET_FORMAT_PLAYLIST_OFFSET","wmsdkidl/WMT_OFFSET_FORMAT_TIMECODE"]
 old-location: wmformat\wmt_offset_format.htm
 tech.root: wmformat
 ms.assetid: b4119098-0407-462b-8550-46f8c1312fe0

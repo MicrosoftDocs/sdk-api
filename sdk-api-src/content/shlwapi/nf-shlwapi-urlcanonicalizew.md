@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.UrlCanonicalizeW
 title: UrlCanonicalizeW function (shlwapi.h)
-description: Converts a URL string into canonical form.helpviewer_keywords: ["URL_DONT_SIMPLIFY","URL_ESCAPE_AS_UTF8","URL_ESCAPE_PERCENT","URL_ESCAPE_SPACES_ONLY","URL_ESCAPE_UNSAFE","URL_NO_META","URL_PLUGGABLE_PROTOCOL","URL_UNESCAPE","UrlCanonicalize","UrlCanonicalize function [Windows Shell]","UrlCanonicalizeA","UrlCanonicalizeW","_win32_UrlCanonicalize","shell.UrlCanonicalize","shlwapi/UrlCanonicalize","shlwapi/UrlCanonicalizeA","shlwapi/UrlCanonicalizeW"]
+description: Converts a URL string into canonical form.
+helpviewer_keywords: ["URL_DONT_SIMPLIFY","URL_ESCAPE_AS_UTF8","URL_ESCAPE_PERCENT","URL_ESCAPE_SPACES_ONLY","URL_ESCAPE_UNSAFE","URL_NO_META","URL_PLUGGABLE_PROTOCOL","URL_UNESCAPE","UrlCanonicalize","UrlCanonicalize function [Windows Shell]","UrlCanonicalizeA","UrlCanonicalizeW","_win32_UrlCanonicalize","shell.UrlCanonicalize","shlwapi/UrlCanonicalize","shlwapi/UrlCanonicalizeA","shlwapi/UrlCanonicalizeW"]
 old-location: shell\UrlCanonicalize.htm
 tech.root: shell
 ms.assetid: 70802745-0611-4d37-800e-b50d5ea23426
@@ -206,6 +207,10 @@ If a URL string contains "/../" or "/./", <b>UrlCanonicalize</b> treats the char
 </ul>
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines UrlCanonicalize as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IBasicVideo.SetDefaultSourcePosition
 title: IBasicVideo::SetDefaultSourcePosition (control.h)
-description: The SetDefaultSourcePosition method reverts to the default source rectangle. After this method is called, the video renderer uses the entire video image, without cropping.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","SetDefaultSourcePosition method","IBasicVideo.SetDefaultSourcePosition","IBasicVideo::SetDefaultSourcePosition","IBasicVideoSetDefaultSourcePosition","SetDefaultSourcePosition","SetDefaultSourcePosition method [DirectShow]","SetDefaultSourcePosition method [DirectShow]","IBasicVideo interface","control/IBasicVideo::SetDefaultSourcePosition","dshow.ibasicvideo_setdefaultsourceposition"]
+description: The SetDefaultSourcePosition method reverts to the default source rectangle. After this method is called, the video renderer uses the entire video image, without cropping.
+helpviewer_keywords: ["IBasicVideo interface [DirectShow]","SetDefaultSourcePosition method","IBasicVideo.SetDefaultSourcePosition","IBasicVideo::SetDefaultSourcePosition","IBasicVideoSetDefaultSourcePosition","SetDefaultSourcePosition","SetDefaultSourcePosition method [DirectShow]","SetDefaultSourcePosition method [DirectShow]","IBasicVideo interface","control/IBasicVideo::SetDefaultSourcePosition","dshow.ibasicvideo_setdefaultsourceposition"]
 old-location: dshow\ibasicvideo_setdefaultsourceposition.htm
 tech.root: DirectShow
 ms.assetid: f7b440c0-8f91-4f32-adc6-82fa658125d0

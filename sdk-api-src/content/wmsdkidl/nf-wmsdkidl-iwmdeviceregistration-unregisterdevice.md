@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.UnregisterDevice
 title: IWMDeviceRegistration::UnregisterDevice (wmsdkidl.h)
-description: The UnregisterDevice method removes a device from the device registration database.helpviewer_keywords: ["IWMDeviceRegistration interface [windows Media Format]","UnregisterDevice method","IWMDeviceRegistration.UnregisterDevice","IWMDeviceRegistration::UnregisterDevice","IWMDeviceRegistrationUnregisterDevice","UnregisterDevice","UnregisterDevice method [windows Media Format]","UnregisterDevice method [windows Media Format]","IWMDeviceRegistration interface","wmformat.iwmdeviceregistration_unregisterdevice","wmsdkidl/IWMDeviceRegistration::UnregisterDevice"]
+description: The UnregisterDevice method removes a device from the device registration database.
+helpviewer_keywords: ["IWMDeviceRegistration interface [windows Media Format]","UnregisterDevice method","IWMDeviceRegistration.UnregisterDevice","IWMDeviceRegistration::UnregisterDevice","IWMDeviceRegistrationUnregisterDevice","UnregisterDevice","UnregisterDevice method [windows Media Format]","UnregisterDevice method [windows Media Format]","IWMDeviceRegistration interface","wmformat.iwmdeviceregistration_unregisterdevice","wmsdkidl/IWMDeviceRegistration::UnregisterDevice"]
 old-location: wmformat\iwmdeviceregistration_unregisterdevice.htm
 tech.root: wmformat
 ms.assetid: 5cb1282a-5744-4264-8f73-ecad2854a125

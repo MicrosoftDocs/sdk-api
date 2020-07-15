@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ITransferAdviseSink.UpdateTransferState
 title: ITransferAdviseSink::UpdateTransferState (shobjidl_core.h)
-description: Updates the transfer state.helpviewer_keywords: ["ITransferAdviseSink interface [Windows Shell]","UpdateTransferState method","ITransferAdviseSink.UpdateTransferState","ITransferAdviseSink::UpdateTransferState","TS_INDETERMINATE","TS_NONE","TS_PERFORMING","TS_PREPARING","UpdateTransferState","UpdateTransferState method [Windows Shell]","UpdateTransferState method [Windows Shell]","ITransferAdviseSink interface","_shell_ITransferAdviseSink_UpdateTransferState","shell.ITransferAdviseSink_UpdateTransferState","shobjidl_core/ITransferAdviseSink::UpdateTransferState"]
+description: Updates the transfer state.
+helpviewer_keywords: ["ITransferAdviseSink interface [Windows Shell]","UpdateTransferState method","ITransferAdviseSink.UpdateTransferState","ITransferAdviseSink::UpdateTransferState","TS_INDETERMINATE","TS_NONE","TS_PERFORMING","TS_PREPARING","UpdateTransferState","UpdateTransferState method [Windows Shell]","UpdateTransferState method [Windows Shell]","ITransferAdviseSink interface","_shell_ITransferAdviseSink_UpdateTransferState","shell.ITransferAdviseSink_UpdateTransferState","shobjidl_core/ITransferAdviseSink::UpdateTransferState"]
 old-location: shell\ITransferAdviseSink_UpdateTransferState.htm
 tech.root: shell
 ms.assetid: 37e830b0-a426-4a66-83c3-108f315f50ac

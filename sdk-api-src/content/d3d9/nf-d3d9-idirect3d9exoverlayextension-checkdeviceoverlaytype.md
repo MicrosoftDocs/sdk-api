@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d9.IDirect3D9ExOverlayExtension.CheckDeviceOverlayType
 title: IDirect3D9ExOverlayExtension::CheckDeviceOverlayType (d3d9.h)
-description: Queries the overlay hardware capabilities of a Direct3D device.helpviewer_keywords: ["CheckDeviceOverlayType","CheckDeviceOverlayType method [Media Foundation]","CheckDeviceOverlayType method [Media Foundation]","IDirect3D9ExOverlayExtension interface","IDirect3D9ExOverlayExtension interface [Media Foundation]","CheckDeviceOverlayType method","IDirect3D9ExOverlayExtension.CheckDeviceOverlayType","IDirect3D9ExOverlayExtension::CheckDeviceOverlayType","d3d9/IDirect3D9ExOverlayExtension::CheckDeviceOverlayType","mf.idirect3d9exoverlayextension_checkdeviceoverlaytype"]
+description: Queries the overlay hardware capabilities of a Direct3D device.
+helpviewer_keywords: ["CheckDeviceOverlayType","CheckDeviceOverlayType method [Media Foundation]","CheckDeviceOverlayType method [Media Foundation]","IDirect3D9ExOverlayExtension interface","IDirect3D9ExOverlayExtension interface [Media Foundation]","CheckDeviceOverlayType method","IDirect3D9ExOverlayExtension.CheckDeviceOverlayType","IDirect3D9ExOverlayExtension::CheckDeviceOverlayType","d3d9/IDirect3D9ExOverlayExtension::CheckDeviceOverlayType","mf.idirect3d9exoverlayextension_checkdeviceoverlaytype"]
 old-location: mf\idirect3d9exoverlayextension_checkdeviceoverlaytype.htm
 tech.root: medfound
 ms.assetid: 83880b6f-f8a0-4be4-a400-ea86ca41f9e7

@@ -1,7 +1,8 @@
 ---
 UID: NE:pla.__MIDL___MIDL_itf_pla_0001_0043_0006
 title: StreamMode (pla.h)
-description: Defines where the trace events are delivered.helpviewer_keywords: ["StreamMode","StreamMode enumeration [PLA]","base.streammode","pla.streammode","pla/StreamMode","pla/plaBoth","pla/plaBuffering","pla/plaFile","pla/plaRealTime","plaBoth","plaBuffering","plaFile","plaRealTime"]
+description: Defines where the trace events are delivered.
+helpviewer_keywords: ["StreamMode","StreamMode enumeration [PLA]","base.streammode","pla.streammode","pla/StreamMode","pla/plaBoth","pla/plaBuffering","pla/plaFile","pla/plaRealTime","plaBoth","plaBuffering","plaFile","plaRealTime"]
 old-location: pla\streammode.htm
 tech.root: PLA
 ms.assetid: 38d9e78f-4ac1-4d65-80e7-9b32c5e79604

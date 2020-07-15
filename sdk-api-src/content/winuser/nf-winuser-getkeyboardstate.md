@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetKeyboardState
 title: GetKeyboardState function (winuser.h)
-description: Copies the status of the 256 virtual keys to the specified buffer.helpviewer_keywords: ["GetKeyboardState","GetKeyboardState function [Keyboard and Mouse Input]","_win32_GetKeyboardState","_win32_getkeyboardstate_cpp","inputdev.getkeyboardstate","winui._win32_getkeyboardstate","winuser/GetKeyboardState"]
+description: Copies the status of the 256 virtual keys to the specified buffer.
+helpviewer_keywords: ["GetKeyboardState","GetKeyboardState function [Keyboard and Mouse Input]","_win32_GetKeyboardState","_win32_getkeyboardstate_cpp","inputdev.getkeyboardstate","winui._win32_getkeyboardstate","winuser/GetKeyboardState"]
 old-location: inputdev\getkeyboardstate.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\getkeyboardstate.htm

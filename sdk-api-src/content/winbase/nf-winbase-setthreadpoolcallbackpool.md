@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.SetThreadpoolCallbackPool
 title: SetThreadpoolCallbackPool function (winbase.h)
-description: Sets the thread pool to be used when generating callbacks.helpviewer_keywords: ["SetThreadpoolCallbackPool","SetThreadpoolCallbackPool function","base.setthreadpoolcallbackpool","winbase/SetThreadpoolCallbackPool"]
+description: Sets the thread pool to be used when generating callbacks.
+helpviewer_keywords: ["SetThreadpoolCallbackPool","SetThreadpoolCallbackPool function","base.setthreadpoolcallbackpool","winbase/SetThreadpoolCallbackPool"]
 old-location: base\setthreadpoolcallbackpool.htm
 tech.root: ProcThread
 ms.assetid: 022d83de-ff6c-4bc8-8213-42f403a323e8

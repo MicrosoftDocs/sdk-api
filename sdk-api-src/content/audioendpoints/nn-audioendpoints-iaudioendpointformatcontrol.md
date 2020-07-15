@@ -1,7 +1,8 @@
 ---
 UID: NN:audioendpoints.IAudioEndpointFormatControl
 title: IAudioEndpointFormatControl (audioendpoints.h)
-description: Used for resetting the current audio endpoint device format.helpviewer_keywords: ["IAudioEndpointFormatControl","IAudioEndpointFormatControl interface [Core Audio]","IAudioEndpointFormatControl interface [Core Audio]","described","audioendpoints/IAudioEndpointFormatControl","coreaudio.iaudioendpointformatcontrol"]
+description: Used for resetting the current audio endpoint device format.
+helpviewer_keywords: ["IAudioEndpointFormatControl","IAudioEndpointFormatControl interface [Core Audio]","IAudioEndpointFormatControl interface [Core Audio]","described","audioendpoints/IAudioEndpointFormatControl","coreaudio.iaudioendpointformatcontrol"]
 old-location: coreaudio\iaudioendpointformatcontrol.htm
 tech.root: CoreAudio
 ms.assetid: 7FF7DCF2-0580-4B50-8EA9-87DB9478B1E8

@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetExportedTypeProps
 title: IMetaDataAssemblyImport::GetExportedTypeProps (rometadataapi.h)
-description: Gets the set of properties of the exported type with the specified metadata signature.helpviewer_keywords: ["GetExportedTypeProps","GetExportedTypeProps method [Windows Runtime]","GetExportedTypeProps method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","GetExportedTypeProps method","IMetaDataAssemblyImport.GetExportedTypeProps","IMetaDataAssemblyImport::GetExportedTypeProps","rometadataapi/IMetaDataAssemblyImport::GetExportedTypeProps","winrt.imetadataassemblyimport_getexportedtypeprops"]
+description: Gets the set of properties of the exported type with the specified metadata signature.
+helpviewer_keywords: ["GetExportedTypeProps","GetExportedTypeProps method [Windows Runtime]","GetExportedTypeProps method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","GetExportedTypeProps method","IMetaDataAssemblyImport.GetExportedTypeProps","IMetaDataAssemblyImport::GetExportedTypeProps","rometadataapi/IMetaDataAssemblyImport::GetExportedTypeProps","winrt.imetadataassemblyimport_getexportedtypeprops"]
 old-location: winrt\imetadataassemblyimport_getexportedtypeprops.htm
 tech.root: WinRT
 ms.assetid: bbdd4f9c-f070-463e-91af-4a7c6c6a45d2

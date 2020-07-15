@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IBasicDevice.add_ConnectionStatusChanged
 title: IBasicDevice::streaming (windows.media.streaming.h)
-description: Registers an event handler for the ConnectionStatusChanged event.helpviewer_keywords: ["IBasicDevice interface [Media Streaming API]","add_ConnectionStatusChanged method","IBasicDevice.add_ConnectionStatusChanged","IBasicDevice.streaming","IBasicDevice::add_ConnectionStatusChanged","IBasicDevice::streaming","add_ConnectionStatusChanged","add_ConnectionStatusChanged method [Media Streaming API]","add_ConnectionStatusChanged method [Media Streaming API]","IBasicDevice interface","mediastreaming.ibasicdevice_add_connectionstatuschanged","windows/IBasicDevice::add_ConnectionStatusChanged"]
+description: Registers an event handler for the ConnectionStatusChanged event.
+helpviewer_keywords: ["IBasicDevice interface [Media Streaming API]","add_ConnectionStatusChanged method","IBasicDevice.add_ConnectionStatusChanged","IBasicDevice.streaming","IBasicDevice::add_ConnectionStatusChanged","IBasicDevice::streaming","add_ConnectionStatusChanged","add_ConnectionStatusChanged method [Media Streaming API]","add_ConnectionStatusChanged method [Media Streaming API]","IBasicDevice interface","mediastreaming.ibasicdevice_add_connectionstatuschanged","windows/IBasicDevice::add_ConnectionStatusChanged"]
 old-location: mediastreaming\ibasicdevice_add_connectionstatuschanged.htm
 tech.root: mediastreaming
 ms.assetid: 1A4CCEFE-B6B6-4AFD-9296-EE923B9EF399

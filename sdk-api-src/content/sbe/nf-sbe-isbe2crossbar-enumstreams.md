@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.ISBE2Crossbar.EnumStreams
 title: ISBE2Crossbar::EnumStreams (sbe.h)
-description: Gets an enumeration object for all streams that are discovered in a WTV file. The filter crossbar, which exposes the ISBE2Crossbar interface, manages the mappings between the streams in the WTV file and the filter output pins.helpviewer_keywords: ["EnumStreams","EnumStreams method [Microsoft TV Technologies]","EnumStreams method [Microsoft TV Technologies]","ISBE2Crossbar interface","ISBE2Crossbar interface [Microsoft TV Technologies]","EnumStreams method","ISBE2Crossbar.EnumStreams","ISBE2Crossbar::EnumStreams","mstv.isbe2crossbar_enumstreams","sbe/ISBE2Crossbar::EnumStreams"]
+description: Gets an enumeration object for all streams that are discovered in a WTV file. The filter crossbar, which exposes the ISBE2Crossbar interface, manages the mappings between the streams in the WTV file and the filter output pins.
+helpviewer_keywords: ["EnumStreams","EnumStreams method [Microsoft TV Technologies]","EnumStreams method [Microsoft TV Technologies]","ISBE2Crossbar interface","ISBE2Crossbar interface [Microsoft TV Technologies]","EnumStreams method","ISBE2Crossbar.EnumStreams","ISBE2Crossbar::EnumStreams","mstv.isbe2crossbar_enumstreams","sbe/ISBE2Crossbar::EnumStreams"]
 old-location: mstv\isbe2crossbar_enumstreams.htm
 tech.root: mstv
 ms.assetid: 891dc676-8930-41bc-a0ae-4a080c6d4cd6

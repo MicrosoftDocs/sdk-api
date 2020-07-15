@@ -1,7 +1,8 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_7
 title: ISCSI_TARGET_PORTALA (iscsidsc.h)
-description: ISCSI_TARGET_PORTAL structure contains information about a portal.helpviewer_keywords: ["*PISCSI_TARGET_PORTALA","ISCSI_TARGET_PORTAL","ISCSI_TARGET_PORTAL structure [iSCSI Discovery Library API]","ISCSI_TARGET_PORTALA","ISCSI_TARGET_PORTALW","PISCSI_TARGET_PORTAL","PISCSI_TARGET_PORTAL structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_portal","iscsidsc/ISCSI_TARGET_PORTAL","iscsidsc/ISCSI_TARGET_PORTALA","iscsidsc/ISCSI_TARGET_PORTALW","iscsidsc/PISCSI_TARGET_PORTAL"]
+description: ISCSI_TARGET_PORTAL structure contains information about a portal.
+helpviewer_keywords: ["*PISCSI_TARGET_PORTALA","ISCSI_TARGET_PORTAL","ISCSI_TARGET_PORTAL structure [iSCSI Discovery Library API]","ISCSI_TARGET_PORTALA","ISCSI_TARGET_PORTALW","PISCSI_TARGET_PORTAL","PISCSI_TARGET_PORTAL structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_portal","iscsidsc/ISCSI_TARGET_PORTAL","iscsidsc/ISCSI_TARGET_PORTALA","iscsidsc/ISCSI_TARGET_PORTALW","iscsidsc/PISCSI_TARGET_PORTAL"]
 old-location: iscsidisc\iscsi_target_portal.htm
 tech.root: iSCSIDisc
 ms.assetid: de78c7ec-c2ce-493a-ad29-2ea10e3d7dff
@@ -72,4 +73,9 @@ A string representing the IP address or DNS name of the portal.
 ### -field Socket
 
 The socket number of the portal.
+
+## -remarks
+
+> [!NOTE]
+> The iscsidsc.h header defines ISCSI_TARGET_PORTAL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

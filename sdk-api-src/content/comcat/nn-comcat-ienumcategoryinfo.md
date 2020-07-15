@@ -1,7 +1,8 @@
 ---
 UID: NN:comcat.IEnumCATEGORYINFO
 title: IEnumCATEGORYINFO (comcat.h)
-description: Enumerates component categories registered in the system.helpviewer_keywords: ["IEnumCATEGORYINFO","IEnumCATEGORYINFO interface [COM]","IEnumCATEGORYINFO interface [COM]","described","_com_ienumcategoryinfo","com.ienumcategoryinfo","comcat/IEnumCATEGORYINFO"]
+description: Enumerates component categories registered in the system.
+helpviewer_keywords: ["IEnumCATEGORYINFO","IEnumCATEGORYINFO interface [COM]","IEnumCATEGORYINFO interface [COM]","described","_com_ienumcategoryinfo","com.ienumcategoryinfo","comcat/IEnumCATEGORYINFO"]
 old-location: com\ienumcategoryinfo.htm
 tech.root: com
 ms.assetid: 87469ace-ae34-40e5-aab6-f26a4bc50b54

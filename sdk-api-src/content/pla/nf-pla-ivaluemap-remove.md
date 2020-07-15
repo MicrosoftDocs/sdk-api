@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IValueMap.Remove
 title: IValueMap::Remove (pla.h)
-description: Removes an item from the collection.helpviewer_keywords: ["IValueMap interface [PLA]","Remove method","IValueMap.Remove","IValueMap::Remove","Remove","Remove method [PLA]","Remove method [PLA]","IValueMap interface","base.ivaluemap_remove","pla.ivaluemap_remove","pla/IValueMap::Remove"]
+description: Removes an item from the collection.
+helpviewer_keywords: ["IValueMap interface [PLA]","Remove method","IValueMap.Remove","IValueMap::Remove","Remove","Remove method [PLA]","Remove method [PLA]","IValueMap interface","base.ivaluemap_remove","pla.ivaluemap_remove","pla/IValueMap::Remove"]
 old-location: pla\ivaluemap_remove.htm
 tech.root: PLA
 ms.assetid: dc674243-ec0f-496f-bffb-faf4262a42c7

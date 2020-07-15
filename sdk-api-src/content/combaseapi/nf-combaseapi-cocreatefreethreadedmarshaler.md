@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoCreateFreeThreadedMarshaler
 title: CoCreateFreeThreadedMarshaler function (combaseapi.h)
-description: Creates an aggregatable object capable of context-dependent marshaling.helpviewer_keywords: ["CoCreateFreeThreadedMarshaler","CoCreateFreeThreadedMarshaler function [COM]","_com_CoCreateFreeThreadedMarshaler","com.cocreatefreethreadedmarshaler","combaseapi/CoCreateFreeThreadedMarshaler"]
+description: Creates an aggregatable object capable of context-dependent marshaling.
+helpviewer_keywords: ["CoCreateFreeThreadedMarshaler","CoCreateFreeThreadedMarshaler function [COM]","_com_CoCreateFreeThreadedMarshaler","com.cocreatefreethreadedmarshaler","combaseapi/CoCreateFreeThreadedMarshaler"]
 old-location: com\cocreatefreethreadedmarshaler.htm
 tech.root: com
 ms.assetid: f97a2a39-7291-4a1d-b770-0a34f7f5b60f

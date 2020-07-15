@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantGetInt64Elem
 title: PropVariantGetInt64Elem function (propvarutil.h)
-description: Extracts a single Int64 element from a PROPVARIANT structure of type VT_I8, VT_VECTOR | VT_I8, or VT_ARRAY | VT_I8.helpviewer_keywords: ["PropVariantGetInt64Elem","PropVariantGetInt64Elem function [Windows Properties]","_shell_PropVariantGetInt64Elem","properties.PropVariantGetInt64Elem","propvarutil/PropVariantGetInt64Elem","shell.PropVariantGetInt64Elem"]
+description: Extracts a single Int64 element from a PROPVARIANT structure of type VT_I8, VT_VECTOR | VT_I8, or VT_ARRAY | VT_I8.
+helpviewer_keywords: ["PropVariantGetInt64Elem","PropVariantGetInt64Elem function [Windows Properties]","_shell_PropVariantGetInt64Elem","properties.PropVariantGetInt64Elem","propvarutil/PropVariantGetInt64Elem","shell.PropVariantGetInt64Elem"]
 old-location: properties\PropVariantGetInt64Elem.htm
 tech.root: properties
 ms.assetid: 6dd7212a-587f-4f9e-a2e5-dbd2a9c15a5b

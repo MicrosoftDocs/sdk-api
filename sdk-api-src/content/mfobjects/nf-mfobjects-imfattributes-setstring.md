@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFAttributes.SetString
 title: IMFAttributes::SetString (mfobjects.h)
-description: Associates a wide-character string with a key.helpviewer_keywords: ["51d2a2a0-92cb-49e0-b4a9-7201e9d92322","IMFAttributes interface [Media Foundation]","SetString method","IMFAttributes.SetString","IMFAttributes::SetString","SetString","SetString method [Media Foundation]","SetString method [Media Foundation]","IMFAttributes interface","mf.imfattributes_setstring","mfobjects/IMFAttributes::SetString"]
+description: Associates a wide-character string with a key.
+helpviewer_keywords: ["51d2a2a0-92cb-49e0-b4a9-7201e9d92322","IMFAttributes interface [Media Foundation]","SetString method","IMFAttributes.SetString","IMFAttributes::SetString","SetString","SetString method [Media Foundation]","SetString method [Media Foundation]","IMFAttributes interface","mf.imfattributes_setstring","mfobjects/IMFAttributes::SetString"]
 old-location: mf\imfattributes_setstring.htm
 tech.root: medfound
 ms.assetid: 51d2a2a0-92cb-49e0-b4a9-7201e9d92322

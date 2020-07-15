@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextStory.SetFormattedText
 title: ITextStory::SetFormattedText (tom.h)
-description: Replaces a story’s text with specified formatted text.helpviewer_keywords: ["ITextStory interface [Windows Controls]","SetFormattedText method","ITextStory.SetFormattedText","ITextStory::SetFormattedText","SetFormattedText","SetFormattedText method [Windows Controls]","SetFormattedText method [Windows Controls]","ITextStory interface","controls.itextstory_setformattedtext","tom/ITextStory::SetFormattedText"]
+description: Replaces a story’s text with specified formatted text.
+helpviewer_keywords: ["ITextStory interface [Windows Controls]","SetFormattedText method","ITextStory.SetFormattedText","ITextStory::SetFormattedText","SetFormattedText","SetFormattedText method [Windows Controls]","SetFormattedText method [Windows Controls]","ITextStory interface","controls.itextstory_setformattedtext","tom/ITextStory::SetFormattedText"]
 old-location: controls\itextstory_setformattedtext.htm
 tech.root: Controls
 ms.assetid: ddc77bfe-06de-43e6-9d74-f1b3531c9416

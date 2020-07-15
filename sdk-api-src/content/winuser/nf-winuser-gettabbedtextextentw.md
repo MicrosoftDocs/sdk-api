@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetTabbedTextExtentW
 title: GetTabbedTextExtentW function (winuser.h)
-description: The GetTabbedTextExtent function computes the width and height of a character string.helpviewer_keywords: ["GetTabbedTextExtent","GetTabbedTextExtent function [Windows GDI]","GetTabbedTextExtentA","GetTabbedTextExtentW","_win32_GetTabbedTextExtent","gdi.gettabbedtextextent","winuser/GetTabbedTextExtent","winuser/GetTabbedTextExtentA","winuser/GetTabbedTextExtentW"]
+description: The GetTabbedTextExtent function computes the width and height of a character string.
+helpviewer_keywords: ["GetTabbedTextExtent","GetTabbedTextExtent function [Windows GDI]","GetTabbedTextExtentA","GetTabbedTextExtentW","_win32_GetTabbedTextExtent","gdi.gettabbedtextextent","winuser/GetTabbedTextExtent","winuser/GetTabbedTextExtentA","winuser/GetTabbedTextExtentW"]
 old-location: gdi\gettabbedtextextent.htm
 tech.root: gdi
 ms.assetid: 3444bb8d-4a30-47d4-b211-01f7cba39975
@@ -109,6 +110,10 @@ If <i>nTabPositions</i> is 1, the tab stops are separated by the distance specif
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines GetTabbedTextExtent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

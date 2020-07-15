@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpServerRestoreDatabase
 title: DhcpServerRestoreDatabase function (dhcpsapi.h)
-description: Restores the settings, configuration, and records for a client lease database from a specific backup location (path).helpviewer_keywords: ["DhcpServerRestoreDatabase","DhcpServerRestoreDatabase function [DHCP]","dhcp.dhcpserverrestoredatabase","dhcpsapi/DhcpServerRestoreDatabase"]
+description: Restores the settings, configuration, and records for a client lease database from a specific backup location (path).
+helpviewer_keywords: ["DhcpServerRestoreDatabase","DhcpServerRestoreDatabase function [DHCP]","dhcp.dhcpserverrestoredatabase","dhcpsapi/DhcpServerRestoreDatabase"]
 old-location: dhcp\dhcpserverrestoredatabase.htm
 tech.root: DHCP
 ms.assetid: b7003fcc-bff1-449d-8849-c02932880114

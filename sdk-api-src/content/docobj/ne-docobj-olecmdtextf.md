@@ -1,7 +1,8 @@
 ---
 UID: NE:docobj.OLECMDTEXTF
 title: OLECMDTEXTF (docobj.h)
-description: Specifies the type of information that an object should store in the OLECMDTEXT structure passed in IOleCommandTarget::QueryStatus.helpviewer_keywords: ["OLECMDTEXTF","OLECMDTEXTF enumeration [COM]","OLECMDTEXTF_NAME","OLECMDTEXTF_NONE","OLECMDTEXTF_STATUS","_ole_OLECMDTEXTF","com.olecmdtextf","docobj/OLECMDTEXTF","docobj/OLECMDTEXTF_NAME","docobj/OLECMDTEXTF_NONE","docobj/OLECMDTEXTF_STATUS"]
+description: Specifies the type of information that an object should store in the OLECMDTEXT structure passed in IOleCommandTarget::QueryStatus.
+helpviewer_keywords: ["OLECMDTEXTF","OLECMDTEXTF enumeration [COM]","OLECMDTEXTF_NAME","OLECMDTEXTF_NONE","OLECMDTEXTF_STATUS","_ole_OLECMDTEXTF","com.olecmdtextf","docobj/OLECMDTEXTF","docobj/OLECMDTEXTF_NAME","docobj/OLECMDTEXTF_NONE","docobj/OLECMDTEXTF_STATUS"]
 old-location: com\olecmdtextf.htm
 tech.root: com
 ms.assetid: 8978331a-33b6-4f57-b5a3-aae305c1d872

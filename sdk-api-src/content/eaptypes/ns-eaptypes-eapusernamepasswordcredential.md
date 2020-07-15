@@ -61,6 +61,7 @@ A NULL-terminated Unicode string that contains the username that needs authentic
 
 A NULL-terminated Unicode string that contains the password to verify the user. The password is encrypted using the [CredProtect](/windows/win32/api/wincred/nf-wincred-credprotectw) function. The EAP method must use the [CredUnprotect](/windows/win32/api/wincred/nf-wincred-credunprotecta) function to retrieve the unencrypted password.
 
+
 ## -see-also
 
 <a href="https://docs.microsoft.com/windows/desktop/api/eaptypes/ns-eaptypes-eapcredential">EapCredential</a>

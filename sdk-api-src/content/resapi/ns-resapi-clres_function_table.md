@@ -1,7 +1,8 @@
 ---
 UID: NS:resapi.CLRES_FUNCTION_TABLE
 title: CLRES_FUNCTION_TABLE (resapi.h)
-description: Describes a function table for any version of the Resource API.helpviewer_keywords: ["*PCLRES_FUNCTION_TABLE","CLRES_FUNCTION_TABLE","CLRES_FUNCTION_TABLE structure [Failover Cluster]","CLRES_V1_FUNCTION_SIZE","CLRES_V2_FUNCTION_SIZE","CLRES_V3_FUNCTION_SIZE","CLRES_VERSION_V1_00","CLRES_VERSION_V2_00","CLRES_VERSION_V3_00","PCLRES_FUNCTION_TABLE","PCLRES_FUNCTION_TABLE structure pointer [Failover Cluster]","_wolf_clres_function_table","mscs.clres_function_table","resapi/CLRES_FUNCTION_TABLE","resapi/PCLRES_FUNCTION_TABLE"]
+description: Describes a function table for any version of the Resource API.
+helpviewer_keywords: ["*PCLRES_FUNCTION_TABLE","CLRES_FUNCTION_TABLE","CLRES_FUNCTION_TABLE structure [Failover Cluster]","CLRES_V1_FUNCTION_SIZE","CLRES_V2_FUNCTION_SIZE","CLRES_V3_FUNCTION_SIZE","CLRES_VERSION_V1_00","CLRES_VERSION_V2_00","CLRES_VERSION_V3_00","PCLRES_FUNCTION_TABLE","PCLRES_FUNCTION_TABLE structure pointer [Failover Cluster]","_wolf_clres_function_table","mscs.clres_function_table","resapi/CLRES_FUNCTION_TABLE","resapi/PCLRES_FUNCTION_TABLE"]
 old-location: mscs\clres_function_table.htm
 tech.root: MsCS
 ms.assetid: fa27076f-393c-415a-9301-91cfe770fb3c

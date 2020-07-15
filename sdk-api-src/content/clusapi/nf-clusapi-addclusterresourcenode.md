@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.AddClusterResourceNode
 title: AddClusterResourceNode function (clusapi.h)
-description: Adds a node to the list of possible nodes that a resource can run on.helpviewer_keywords: ["AddClusterResourceNode","AddClusterResourceNode function [Failover Cluster]","PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE","PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE function [Failover Cluster]","_wolf_addclusterresourcenode","clusapi/AddClusterResourceNode","clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE","mscs.addclusterresourcenode"]
+description: Adds a node to the list of possible nodes that a resource can run on.
+helpviewer_keywords: ["AddClusterResourceNode","AddClusterResourceNode function [Failover Cluster]","PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE","PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE function [Failover Cluster]","_wolf_addclusterresourcenode","clusapi/AddClusterResourceNode","clusapi/PCLUSAPI_ADD_CLUSTER_RESOURCE_NODE","mscs.addclusterresourcenode"]
 old-location: mscs\addclusterresourcenode.htm
 tech.root: MsCS
 ms.assetid: d87f9541-7cc6-4dbb-8f1f-e8e36462b01b

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFHeapAlloc
 title: MFHeapAlloc function (mfapi.h)
-description: Allocates a block of memory.helpviewer_keywords: ["3ad97cbf-4065-4807-ad6a-68e84a3601d4","MFHeapAlloc","MFHeapAlloc function [Media Foundation]","mf.mfheapalloc","mfapi/MFHeapAlloc"]
+description: Allocates a block of memory.
+helpviewer_keywords: ["3ad97cbf-4065-4807-ad6a-68e84a3601d4","MFHeapAlloc","MFHeapAlloc function [Media Foundation]","mf.mfheapalloc","mfapi/MFHeapAlloc"]
 old-location: mf\mfheapalloc.htm
 tech.root: medfound
 ms.assetid: 3ad97cbf-4065-4807-ad6a-68e84a3601d4

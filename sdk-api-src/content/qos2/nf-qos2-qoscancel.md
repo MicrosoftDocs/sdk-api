@@ -1,7 +1,8 @@
 ---
 UID: NF:qos2.QOSCancel
 title: QOSCancel function (qos2.h)
-description: Cancels a pending overlapped operation, like QOSSetFlow.helpviewer_keywords: ["QOSCancel","QOSCancel function [QOS]","qos.qoscancel","qos2/QOSCancel"]
+description: Cancels a pending overlapped operation, like QOSSetFlow.
+helpviewer_keywords: ["QOSCancel","QOSCancel function [QOS]","qos.qoscancel","qos2/QOSCancel"]
 old-location: qos\qoscancel.htm
 tech.root: QOS
 ms.assetid: d1f6f32f-d105-40cb-8113-319aa1f63c77

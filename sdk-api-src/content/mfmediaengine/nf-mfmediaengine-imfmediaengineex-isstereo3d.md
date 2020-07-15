@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineEx.IsStereo3D
 title: IMFMediaEngineEx::IsStereo3D (mfmediaengine.h)
-description: Queries whether the media resource contains stereoscopic 3D video.helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","IsStereo3D method","IMFMediaEngineEx.IsStereo3D","IMFMediaEngineEx::IsStereo3D","IsStereo3D","IsStereo3D method [Media Foundation]","IsStereo3D method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_isstereo3d","mfmediaengine/IMFMediaEngineEx::IsStereo3D"]
+description: Queries whether the media resource contains stereoscopic 3D video.
+helpviewer_keywords: ["IMFMediaEngineEx interface [Media Foundation]","IsStereo3D method","IMFMediaEngineEx.IsStereo3D","IMFMediaEngineEx::IsStereo3D","IsStereo3D","IsStereo3D method [Media Foundation]","IsStereo3D method [Media Foundation]","IMFMediaEngineEx interface","mf.imfmediaengineex_isstereo3d","mfmediaengine/IMFMediaEngineEx::IsStereo3D"]
 old-location: mf\imfmediaengineex_isstereo3d.htm
 tech.root: medfound
 ms.assetid: 9E1C2E47-416F-4016-A576-7BE360A66A81

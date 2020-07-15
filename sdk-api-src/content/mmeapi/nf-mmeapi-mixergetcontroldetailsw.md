@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.mixerGetControlDetailsW
 title: mixerGetControlDetailsW function (mmeapi.h)
-description: The mixerGetControlDetails function retrieves details about a single control associated with an audio line.helpviewer_keywords: ["_win32_mixerGetControlDetails","mixerGetControlDetails","mixerGetControlDetails function [Windows Multimedia]","mixerGetControlDetailsA","mixerGetControlDetailsW","mmsystem/mixerGetControlDetails","mmsystem/mixerGetControlDetailsA","mmsystem/mixerGetControlDetailsW","multimedia.mixergetcontroldetails"]
+description: The mixerGetControlDetails function retrieves details about a single control associated with an audio line.
+helpviewer_keywords: ["_win32_mixerGetControlDetails","mixerGetControlDetails","mixerGetControlDetails function [Windows Multimedia]","mixerGetControlDetailsA","mixerGetControlDetailsW","mmsystem/mixerGetControlDetails","mmsystem/mixerGetControlDetailsA","mmsystem/mixerGetControlDetailsW","multimedia.mixergetcontroldetails"]
 old-location: multimedia\mixergetcontroldetails.htm
 tech.root: Multimedia
 ms.assetid: b1fdd9e7-42cf-41fb-99f7-b7da990e5881
@@ -232,6 +233,10 @@ All members of the <a href="https://docs.microsoft.com/windows/desktop/api/mmeap
 
 
 
+
+
+> [!NOTE]
+> The mmeapi.h header defines mixerGetControlDetails as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

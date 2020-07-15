@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellBrowser.InsertMenusSB
 title: IShellBrowser::InsertMenusSB (shobjidl_core.h)
-description: Allows the container to insert its menu groups into the composite menu that is displayed when an extended namespace is being viewed or used.helpviewer_keywords: ["IShellBrowser interface [Windows Shell]","InsertMenusSB method","IShellBrowser.InsertMenusSB","IShellBrowser::InsertMenusSB","InsertMenusSB","InsertMenusSB method [Windows Shell]","InsertMenusSB method [Windows Shell]","IShellBrowser interface","_win32_IShellBrowser_InsertMenusSB","shell.IShellBrowser_InsertMenusSB","shobjidl_core/IShellBrowser::InsertMenusSB"]
+description: Allows the container to insert its menu groups into the composite menu that is displayed when an extended namespace is being viewed or used.
+helpviewer_keywords: ["IShellBrowser interface [Windows Shell]","InsertMenusSB method","IShellBrowser.InsertMenusSB","IShellBrowser::InsertMenusSB","InsertMenusSB","InsertMenusSB method [Windows Shell]","InsertMenusSB method [Windows Shell]","IShellBrowser interface","_win32_IShellBrowser_InsertMenusSB","shell.IShellBrowser_InsertMenusSB","shobjidl_core/IShellBrowser::InsertMenusSB"]
 old-location: shell\IShellBrowser_InsertMenusSB.htm
 tech.root: shell
 ms.assetid: 62cbb593-7459-4a4f-96a2-3ec2287e6a26

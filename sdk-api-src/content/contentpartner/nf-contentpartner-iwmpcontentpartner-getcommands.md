@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.GetCommands
 title: IWMPContentPartner::GetCommands (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetCommands method retrieves context menu commands.helpviewer_keywords: ["GetCommands","GetCommands method [Windows Media Player]","GetCommands method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","GetCommands method","IWMPContentPartner.GetCommands","IWMPContentPartner::GetCommands","IWMPContentPartnerGetCommands","contentpartner/IWMPContentPartner::GetCommands","wmp.iwmpcontentpartner_getcommands"]
+description: Note  This section describes functionality designed for use by online stores. Use of this functionality outside the context of an online store is not supported. The GetCommands method retrieves context menu commands.
+helpviewer_keywords: ["GetCommands","GetCommands method [Windows Media Player]","GetCommands method [Windows Media Player]","IWMPContentPartner interface","IWMPContentPartner interface [Windows Media Player]","GetCommands method","IWMPContentPartner.GetCommands","IWMPContentPartner::GetCommands","IWMPContentPartnerGetCommands","contentpartner/IWMPContentPartner::GetCommands","wmp.iwmpcontentpartner_getcommands"]
 old-location: wmp\iwmpcontentpartner_getcommands.htm
 tech.root: WMP
 ms.assetid: bc6dfd97-50bb-438c-9cd6-3eac91e99cab

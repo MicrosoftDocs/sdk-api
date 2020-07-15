@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationLegacyIAccessiblePattern
 title: IUIAutomationLegacyIAccessiblePattern (uiautomationclient.h)
-description: Exposes methods and properties that enable Microsoft UI Automation clients to retrieve UI information from Microsoft Active Accessibility (MSAA) servers.helpviewer_keywords: ["IUIAutomationLegacyIAccessiblePattern","IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern","uiauto_IUIAutomationLegacyIAccessiblePattern","uiautomationclient/IUIAutomationLegacyIAccessiblePattern","winauto.uiauto_IUIAutomationLegacyIAccessiblePattern"]
+description: Exposes methods and properties that enable Microsoft UI Automation clients to retrieve UI information from Microsoft Active Accessibility (MSAA) servers.
+helpviewer_keywords: ["IUIAutomationLegacyIAccessiblePattern","IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","IUIAutomationLegacyIAccessiblePattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationLegacyIAccessiblePattern","uiauto_IUIAutomationLegacyIAccessiblePattern","uiautomationclient/IUIAutomationLegacyIAccessiblePattern","winauto.uiauto_IUIAutomationLegacyIAccessiblePattern"]
 old-location: winauto\uiauto_IUIAutomationLegacyIAccessiblePattern.htm
 tech.root: WinAuto
 ms.assetid: d6564d14-a739-47bf-9202-0757ac3ba7f8

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdclient.IWSDEndpointProxy.SendTwoWayRequest
 title: IWSDEndpointProxy::SendTwoWayRequest (wsdclient.h)
-description: Sends a two-way request message using a synchronous call pattern.helpviewer_keywords: ["IWSDEndpointProxy interface","SendTwoWayRequest method","IWSDEndpointProxy.SendTwoWayRequest","IWSDEndpointProxy::SendTwoWayRequest","SendTwoWayRequest","SendTwoWayRequest method","SendTwoWayRequest method","IWSDEndpointProxy interface","ncd.iwsdendpointproxy_sendtwowayrequest","wsdclient/IWSDEndpointProxy::SendTwoWayRequest"]
+description: Sends a two-way request message using a synchronous call pattern.
+helpviewer_keywords: ["IWSDEndpointProxy interface","SendTwoWayRequest method","IWSDEndpointProxy.SendTwoWayRequest","IWSDEndpointProxy::SendTwoWayRequest","SendTwoWayRequest","SendTwoWayRequest method","SendTwoWayRequest method","IWSDEndpointProxy interface","ncd.iwsdendpointproxy_sendtwowayrequest","wsdclient/IWSDEndpointProxy::SendTwoWayRequest"]
 old-location: ncd\iwsdendpointproxy_sendtwowayrequest.htm
 tech.root: WsdApi
 ms.assetid: f93ddbf1-d530-4957-87ab-5718ee5f20d9

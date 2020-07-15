@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPNetwork.getProxyExceptionList
 title: IWMPNetwork::getProxyExceptionList (wmp.h)
-description: The getProxyExceptionList method retrieves the proxy exception list.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","getProxyExceptionList method","IWMPNetwork.getProxyExceptionList","IWMPNetwork::getProxyExceptionList","IWMPNetworkgetProxyExceptionList","getProxyExceptionList","getProxyExceptionList method [Windows Media Player]","getProxyExceptionList method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_getproxyexceptionlist","wmp/IWMPNetwork::getProxyExceptionList"]
+description: The getProxyExceptionList method retrieves the proxy exception list.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","getProxyExceptionList method","IWMPNetwork.getProxyExceptionList","IWMPNetwork::getProxyExceptionList","IWMPNetworkgetProxyExceptionList","getProxyExceptionList","getProxyExceptionList method [Windows Media Player]","getProxyExceptionList method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_getproxyexceptionlist","wmp/IWMPNetwork::getProxyExceptionList"]
 old-location: wmp\iwmpnetwork_getproxyexceptionlist.htm
 tech.root: WMP
 ms.assetid: ddd3a6b2-3637-4da1-b3ce-f01364e8b818

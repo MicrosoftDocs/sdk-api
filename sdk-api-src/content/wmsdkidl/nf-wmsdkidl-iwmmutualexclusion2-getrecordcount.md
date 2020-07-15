@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMMutualExclusion2.GetRecordCount
 title: IWMMutualExclusion2::GetRecordCount (wmsdkidl.h)
-description: The GetRecordCount method retrieves the number of records present in the mutual exclusion object.helpviewer_keywords: ["GetRecordCount","GetRecordCount method [windows Media Format]","GetRecordCount method [windows Media Format]","IWMMutualExclusion2 interface","IWMMutualExclusion2 interface [windows Media Format]","GetRecordCount method","IWMMutualExclusion2.GetRecordCount","IWMMutualExclusion2::GetRecordCount","IWMMutualExclusion2GetRecordCount","wmformat.iwmmutualexclusion2_getrecordcount","wmsdkidl/IWMMutualExclusion2::GetRecordCount"]
+description: The GetRecordCount method retrieves the number of records present in the mutual exclusion object.
+helpviewer_keywords: ["GetRecordCount","GetRecordCount method [windows Media Format]","GetRecordCount method [windows Media Format]","IWMMutualExclusion2 interface","IWMMutualExclusion2 interface [windows Media Format]","GetRecordCount method","IWMMutualExclusion2.GetRecordCount","IWMMutualExclusion2::GetRecordCount","IWMMutualExclusion2GetRecordCount","wmformat.iwmmutualexclusion2_getrecordcount","wmsdkidl/IWMMutualExclusion2::GetRecordCount"]
 old-location: wmformat\iwmmutualexclusion2_getrecordcount.htm
 tech.root: wmformat
 ms.assetid: 6e113601-1ac7-42a3-8e46-f1ba67ebb071

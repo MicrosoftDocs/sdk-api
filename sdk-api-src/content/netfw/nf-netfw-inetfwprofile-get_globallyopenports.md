@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwProfile.get_GloballyOpenPorts
 title: INetFwProfile::get_GloballyOpenPorts (netfw.h)
-description: Retrieves the collection of globally open ports of the profile.helpviewer_keywords: ["GloballyOpenPorts property [ICS/ICF]","GloballyOpenPorts property [ICS/ICF]","INetFwProfile interface","INetFwProfile interface [ICS/ICF]","GloballyOpenPorts property","INetFwProfile.GloballyOpenPorts","INetFwProfile.get_GloballyOpenPorts","INetFwProfile::GloballyOpenPorts","INetFwProfile::get_GloballyOpenPorts","get_GloballyOpenPorts","ics.inetfwprofile_globallyopenports","netfw/INetFwProfile::GloballyOpenPorts","netfw/INetFwProfile::get_GloballyOpenPorts"]
+description: Retrieves the collection of globally open ports of the profile.
+helpviewer_keywords: ["GloballyOpenPorts property [ICS/ICF]","GloballyOpenPorts property [ICS/ICF]","INetFwProfile interface","INetFwProfile interface [ICS/ICF]","GloballyOpenPorts property","INetFwProfile.GloballyOpenPorts","INetFwProfile.get_GloballyOpenPorts","INetFwProfile::GloballyOpenPorts","INetFwProfile::get_GloballyOpenPorts","get_GloballyOpenPorts","ics.inetfwprofile_globallyopenports","netfw/INetFwProfile::GloballyOpenPorts","netfw/INetFwProfile::get_GloballyOpenPorts"]
 old-location: ics\inetfwprofile_globallyopenports.htm
 tech.root: ics
 ms.assetid: 9bb27bb1-7185-4b9a-a529-383e052e5016

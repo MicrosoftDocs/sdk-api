@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10.D3D10_TEX2D_ARRAY_SRV
 title: D3D10_TEX2D_ARRAY_SRV (d3d10.h)
-description: Specifies the subresource(s) from an array of 2D textures to use in a shader-resource view.helpviewer_keywords: ["2463e963-bfda-506f-51fc-2523bea8dd70","D3D10_TEX2D_ARRAY_SRV","D3D10_TEX2D_ARRAY_SRV structure [Direct3D 10]","d3d10/D3D10_TEX2D_ARRAY_SRV","direct3d10.d3d10_tex2d_array_srv"]
+description: Specifies the subresource(s) from an array of 2D textures to use in a shader-resource view.
+helpviewer_keywords: ["2463e963-bfda-506f-51fc-2523bea8dd70","D3D10_TEX2D_ARRAY_SRV","D3D10_TEX2D_ARRAY_SRV structure [Direct3D 10]","d3d10/D3D10_TEX2D_ARRAY_SRV","direct3d10.d3d10_tex2d_array_srv"]
 old-location: direct3d10\d3d10_tex2d_array_srv.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_tex2d_array_srv.htm

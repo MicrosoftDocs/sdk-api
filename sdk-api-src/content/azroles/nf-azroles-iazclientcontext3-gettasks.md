@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzClientContext3.GetTasks
 title: IAzClientContext3::GetTasks (azroles.h)
-description: Returns a collection of the tasks, within the specified scope, that the principal represented by the current client context has permission to perform.helpviewer_keywords: ["GetTasks","GetTasks method [Security]","GetTasks method [Security]","IAzClientContext3 interface","IAzClientContext3 interface [Security]","GetTasks method","IAzClientContext3.GetTasks","IAzClientContext3::GetTasks","azroles/IAzClientContext3::GetTasks","security.iazclientcontext3_gettasks_method"]
+description: Returns a collection of the tasks, within the specified scope, that the principal represented by the current client context has permission to perform.
+helpviewer_keywords: ["GetTasks","GetTasks method [Security]","GetTasks method [Security]","IAzClientContext3 interface","IAzClientContext3 interface [Security]","GetTasks method","IAzClientContext3.GetTasks","IAzClientContext3::GetTasks","azroles/IAzClientContext3::GetTasks","security.iazclientcontext3_gettasks_method"]
 old-location: security\iazclientcontext3_gettasks_method.htm
 tech.root: SecAuthZ
 ms.assetid: 285f0e9a-8604-4475-8a73-ed33581f87f4

@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Pages
 title: IFaxOutgoingMessage::get_Pages (faxcomex.h)
-description: The IFaxOutgoingMessage::get_Pages property is a number that indicates the total number of pages in the outbound fax message.helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","Pages property","IFaxOutgoingMessage.Pages","IFaxOutgoingMessage.get_Pages","IFaxOutgoingMessage::Pages","IFaxOutgoingMessage::get_Pages","Pages property [Fax Service]","Pages property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.pages","fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_pages_cpp","fax._mfax_faxoutgoingmessage_pages","faxcomex/IFaxOutgoingMessage::Pages","faxcomex/IFaxOutgoingMessage::get_Pages","get_Pages"]
+description: The IFaxOutgoingMessage::get_Pages property is a number that indicates the total number of pages in the outbound fax message.
+helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","Pages property","IFaxOutgoingMessage.Pages","IFaxOutgoingMessage.get_Pages","IFaxOutgoingMessage::Pages","IFaxOutgoingMessage::get_Pages","Pages property [Fax Service]","Pages property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.pages","fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_pages_cpp","fax._mfax_faxoutgoingmessage_pages","faxcomex/IFaxOutgoingMessage::Pages","faxcomex/IFaxOutgoingMessage::get_Pages","get_Pages"]
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_pages_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_14fn.htm

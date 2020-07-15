@@ -1,7 +1,8 @@
 ---
 UID: NF:ehstorapi.IEnhancedStorageACT2.IsDeviceRemovable
 title: IEnhancedStorageACT2::IsDeviceRemovable (ehstorapi.h)
-description: IEnhancedStorageACT2::IsDeviceRemovable method returns information that indicates if the device associated with the ACT is removable.helpviewer_keywords: ["IEnhancedStorageACT2 interface [Enhanced Storage]","IsDeviceRemovable method","IEnhancedStorageACT2.IsDeviceRemovable","IEnhancedStorageACT2::IsDeviceRemovable","IsDeviceRemovable","IsDeviceRemovable method [Enhanced Storage]","IsDeviceRemovable method [Enhanced Storage]","IEnhancedStorageACT2 interface","ehstorapi/IEnhancedStorageACT2::IsDeviceRemovable","enstor.ienhancedstorageact2_isdeviceremovable"]
+description: IEnhancedStorageACT2::IsDeviceRemovable method returns information that indicates if the device associated with the ACT is removable.
+helpviewer_keywords: ["IEnhancedStorageACT2 interface [Enhanced Storage]","IsDeviceRemovable method","IEnhancedStorageACT2.IsDeviceRemovable","IEnhancedStorageACT2::IsDeviceRemovable","IsDeviceRemovable","IsDeviceRemovable method [Enhanced Storage]","IsDeviceRemovable method [Enhanced Storage]","IEnhancedStorageACT2 interface","ehstorapi/IEnhancedStorageACT2::IsDeviceRemovable","enstor.ienhancedstorageact2_isdeviceremovable"]
 old-location: enstor\ienhancedstorageact2_isdeviceremovable.htm
 tech.root: enstor
 ms.assetid: 1118756d-56d7-4f59-8e2a-2cb970a7a62a

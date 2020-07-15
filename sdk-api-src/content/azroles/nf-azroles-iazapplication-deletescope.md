@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzApplication.DeleteScope
 title: IAzApplication::DeleteScope (azroles.h)
-description: Removes the IAzScope object with the specified name from the IAzApplication object.helpviewer_keywords: ["AzApplication object [Security]","DeleteScope method","DeleteScope","DeleteScope method [Security]","DeleteScope method [Security]","AzApplication object","DeleteScope method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeleteScope method","IAzApplication.DeleteScope","IAzApplication::DeleteScope","azroles/IAzApplication::DeleteScope","security.iazapplication_deletescope"]
+description: Removes the IAzScope object with the specified name from the IAzApplication object.
+helpviewer_keywords: ["AzApplication object [Security]","DeleteScope method","DeleteScope","DeleteScope method [Security]","DeleteScope method [Security]","AzApplication object","DeleteScope method [Security]","IAzApplication interface","IAzApplication interface [Security]","DeleteScope method","IAzApplication.DeleteScope","IAzApplication::DeleteScope","azroles/IAzApplication::DeleteScope","security.iazapplication_deletescope"]
 old-location: security\iazapplication_deletescope.htm
 tech.root: SecAuthZ
 ms.assetid: 2a3c2e18-9264-496a-9bd3-ff9c529a2426

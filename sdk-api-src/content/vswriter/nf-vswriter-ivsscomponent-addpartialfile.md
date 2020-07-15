@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssComponent.AddPartialFile
 title: IVssComponent::AddPartialFile (vswriter.h)
-description: The AddPartialFile method indicates that only portions of a given file are to be backed up and which portions those are.helpviewer_keywords: ["AddPartialFile","AddPartialFile method [VSS]","AddPartialFile method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","AddPartialFile method","IVssComponent.AddPartialFile","IVssComponent::AddPartialFile","_win32_ivsscomponent_addpartialfile","base.ivsscomponent_addpartialfile","vswriter/IVssComponent::AddPartialFile"]
+description: The AddPartialFile method indicates that only portions of a given file are to be backed up and which portions those are.
+helpviewer_keywords: ["AddPartialFile","AddPartialFile method [VSS]","AddPartialFile method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","AddPartialFile method","IVssComponent.AddPartialFile","IVssComponent::AddPartialFile","_win32_ivsscomponent_addpartialfile","base.ivsscomponent_addpartialfile","vswriter/IVssComponent::AddPartialFile"]
 old-location: base\ivsscomponent_addpartialfile.htm
 tech.root: VSS
 ms.assetid: 318dc1ee-e63f-4e79-96b9-8a8bd83facd3

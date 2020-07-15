@@ -1,7 +1,8 @@
 ---
 UID: NF:winml.IWinMLRuntimeFactory.CreateRuntime
 title: IWinMLRuntimeFactory::CreateRuntime (winml.h)
-description: Creates a WinML runtime.helpviewer_keywords: ["CreateRuntime","CreateRuntime method","CreateRuntime method","IWinMLRuntimeFactory interface","IWinMLRuntimeFactory interface","CreateRuntime method","IWinMLRuntimeFactory.CreateRuntime","IWinMLRuntimeFactory::CreateRuntime","MachineLearning.iwinmlruntimefactory_createruntime","winml/IWinMLRuntimeFactory::CreateRuntime"]
+description: Creates a WinML runtime.
+helpviewer_keywords: ["CreateRuntime","CreateRuntime method","CreateRuntime method","IWinMLRuntimeFactory interface","IWinMLRuntimeFactory interface","CreateRuntime method","IWinMLRuntimeFactory.CreateRuntime","IWinMLRuntimeFactory::CreateRuntime","MachineLearning.iwinmlruntimefactory_createruntime","winml/IWinMLRuntimeFactory::CreateRuntime"]
 old-location: machinelearning\iwinmlruntimefactory_createruntime.htm
 tech.root: MachineLearning
 ms.assetid: 06EE4008-597D-4DA8-A7CD-E70784A2ADC3

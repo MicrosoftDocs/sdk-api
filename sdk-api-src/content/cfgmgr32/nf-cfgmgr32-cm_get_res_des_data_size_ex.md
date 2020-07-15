@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Res_Des_Data_Size_Ex
 title: CM_Get_Res_Des_Data_Size_Ex function (cfgmgr32.h)
-description: The CM_Get_Res_Des_Data_Size_Ex function obtains the buffer size required to hold the information contained in a specified resource descriptor on a local or a remote machine.helpviewer_keywords: ["CM_Get_Res_Des_Data_Size_Ex","CM_Get_Res_Des_Data_Size_Ex function [Device and Driver Installation]","cfgmgr32/CM_Get_Res_Des_Data_Size_Ex","cfgmgrfn_5ea04040-e1eb-4e2c-94bf-906e0ea45791.xml","devinst.cm_get_res_des_data_size_ex"]
+description: The CM_Get_Res_Des_Data_Size_Ex function obtains the buffer size required to hold the information contained in a specified resource descriptor on a local or a remote machine.
+helpviewer_keywords: ["CM_Get_Res_Des_Data_Size_Ex","CM_Get_Res_Des_Data_Size_Ex function [Device and Driver Installation]","cfgmgr32/CM_Get_Res_Des_Data_Size_Ex","cfgmgrfn_5ea04040-e1eb-4e2c-94bf-906e0ea45791.xml","devinst.cm_get_res_des_data_size_ex"]
 old-location: devinst\cm_get_res_des_data_size_ex.htm
 tech.root: devinst
 ms.assetid: 59b96655-aea9-4f98-9f6a-1a9093db9c63

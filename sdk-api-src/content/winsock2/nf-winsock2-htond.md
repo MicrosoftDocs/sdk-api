@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.htond
 title: htond function (winsock2.h)
-description: Converts a double from host to TCP/IP network byte order (which is big-endian).helpviewer_keywords: ["htond","htond function [Winsock]","winsock.htond","winsock2/htond"]
+description: Converts a double from host to TCP/IP network byte order (which is big-endian).
+helpviewer_keywords: ["htond","htond function [Winsock]","winsock.htond","winsock2/htond"]
 old-location: winsock\htond.htm
 tech.root: WinSock
 ms.assetid: DEC42B75-F637-4CD5-B42F-4F59D1516BB9

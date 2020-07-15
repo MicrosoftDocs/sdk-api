@@ -1,7 +1,8 @@
 ---
 UID: NS:directml.DML_ELEMENT_WISE_MIN_OPERATOR_DESC
 title: DML_ELEMENT_WISE_MIN_OPERATOR_DESC
-description: Describes a DirectML math reduction operator that performs a minimum function between every element in ATensor and its corresponding element in BTensor, f(a, b) = min(a, b).helpviewer_keywords: ["DML_ELEMENT_WISE_MIN_OPERATOR_DESC","DML_ELEMENT_WISE_MIN_OPERATOR_DESC structure","direct3d12.dml_element_wise_min_operator_desc","directml/DML_ELEMENT_WISE_MIN_OPERATOR_DESC"]
+description: Describes a DirectML math reduction operator that performs a minimum function between every element in ATensor and its corresponding element in BTensor, f(a, b) = min(a, b).
+helpviewer_keywords: ["DML_ELEMENT_WISE_MIN_OPERATOR_DESC","DML_ELEMENT_WISE_MIN_OPERATOR_DESC structure","direct3d12.dml_element_wise_min_operator_desc","directml/DML_ELEMENT_WISE_MIN_OPERATOR_DESC"]
 old-location: direct3d12\dml_element_wise_min_operator_desc.htm
 tech.root: direct3d12
 ms.assetid: C81C713D-F8B1-42F7-B650-27161FE0A950

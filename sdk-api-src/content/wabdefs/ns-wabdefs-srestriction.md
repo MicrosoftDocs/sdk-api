@@ -1,7 +1,8 @@
 ---
 UID: NS:wabdefs._SRestriction
 title: SRestriction (wabdefs.h)
-description: Do not use. Describes a filter for limiting the view of a table to particular rows.helpviewer_keywords: ["*LPSRestriction","RES_AND","RES_BITMASK","RES_COMMENT","RES_COMPAREPROPS","RES_CONTENT","RES_EXIST","RES_NOT","RES_OR","RES_PROPERTY","RES_SIZE","RES_SUBRESTRICTION","SRestriction","SRestriction structure [Windows Address Book]","_wab_SRestriction","wab._wab_SRestriction","wabdefs/SRestriction"]
+description: Do not use. Describes a filter for limiting the view of a table to particular rows.
+helpviewer_keywords: ["*LPSRestriction","RES_AND","RES_BITMASK","RES_COMMENT","RES_COMPAREPROPS","RES_CONTENT","RES_EXIST","RES_NOT","RES_OR","RES_PROPERTY","RES_SIZE","RES_SUBRESTRICTION","SRestriction","SRestriction structure [Windows Address Book]","_wab_SRestriction","wab._wab_SRestriction","wabdefs/SRestriction"]
 old-location: wab\_wab_SRestriction.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srestriction.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:windows.media.streaming.IActiveBasicDeviceStatics
 title: IActiveBasicDeviceStatics (windows.media.streaming.h)
-description: Provides static methods for creating IActiveBasicDevice objects.helpviewer_keywords: ["IActiveBasicDeviceStatics","IActiveBasicDeviceStatics interface [Media Streaming API]","IActiveBasicDeviceStatics interface [Media Streaming API]","described","mediastreaming.iactivebasicdevicestatics","windows/IActiveBasicDeviceStatics"]
+description: Provides static methods for creating IActiveBasicDevice objects.
+helpviewer_keywords: ["IActiveBasicDeviceStatics","IActiveBasicDeviceStatics interface [Media Streaming API]","IActiveBasicDeviceStatics interface [Media Streaming API]","described","mediastreaming.iactivebasicdevicestatics","windows/IActiveBasicDeviceStatics"]
 old-location: mediastreaming\iactivebasicdevicestatics.htm
 tech.root: mediastreaming
 ms.assetid: B4D8BAEF-AD30-4FEC-9527-583E88C8B4C7

@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesEvents2.PolicyChangeDetected
 title: IOfflineFilesEvents2::PolicyChangeDetected (cscobj.h)
-description: Reports that the Offline Files service detected a change in one or more of its setting values that are controlled by Group Policy.helpviewer_keywords: ["IOfflineFilesEvents2 interface [Offline Files]","PolicyChangeDetected method","IOfflineFilesEvents2.PolicyChangeDetected","IOfflineFilesEvents2::PolicyChangeDetected","PolicyChangeDetected","PolicyChangeDetected method [Offline Files]","PolicyChangeDetected method [Offline Files]","IOfflineFilesEvents2 interface","cscobj/IOfflineFilesEvents2::PolicyChangeDetected","of.iofflinefilesevents2_policychangedetected"]
+description: Reports that the Offline Files service detected a change in one or more of its setting values that are controlled by Group Policy.
+helpviewer_keywords: ["IOfflineFilesEvents2 interface [Offline Files]","PolicyChangeDetected method","IOfflineFilesEvents2.PolicyChangeDetected","IOfflineFilesEvents2::PolicyChangeDetected","PolicyChangeDetected","PolicyChangeDetected method [Offline Files]","PolicyChangeDetected method [Offline Files]","IOfflineFilesEvents2 interface","cscobj/IOfflineFilesEvents2::PolicyChangeDetected","of.iofflinefilesevents2_policychangedetected"]
 old-location: of\iofflinefilesevents2_policychangedetected.htm
 tech.root: offlinefiles
 ms.assetid: 1009c67a-09f4-40ea-8aa9-fb42f1ab54ff

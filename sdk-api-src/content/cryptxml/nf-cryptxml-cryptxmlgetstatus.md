@@ -1,7 +1,8 @@
 ---
 UID: NF:cryptxml.CryptXmlGetStatus
 title: CryptXmlGetStatus function (cryptxml.h)
-description: Returns a CRYPT_XML_STATUS structure that contains status information about the object specified by the supplied handle.helpviewer_keywords: ["CryptXmlGetStatus","CryptXmlGetStatus function [Security]","cryptxml/CryptXmlGetStatus","security.cryptxmlgetstatus"]
+description: Returns a CRYPT_XML_STATUS structure that contains status information about the object specified by the supplied handle.
+helpviewer_keywords: ["CryptXmlGetStatus","CryptXmlGetStatus function [Security]","cryptxml/CryptXmlGetStatus","security.cryptxmlgetstatus"]
 old-location: security\cryptxmlgetstatus.htm
 tech.root: SecCrypto
 ms.assetid: 685a87dc-36e9-464a-988e-de907d2dae41

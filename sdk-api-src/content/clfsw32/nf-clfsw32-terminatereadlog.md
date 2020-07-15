@@ -1,7 +1,8 @@
 ---
 UID: NF:clfsw32.TerminateReadLog
 title: TerminateReadLog function (clfsw32.h)
-description: Terminates a read context. This function frees system-allocated resources associated with the specified read context. Do not attempt to read log records after calling this function; you will receive indeterminate results.helpviewer_keywords: ["TerminateReadLog","TerminateReadLog function [Files]","clfsw32/TerminateReadLog","fs.terminatereadlog"]
+description: Terminates a read context. This function frees system-allocated resources associated with the specified read context. Do not attempt to read log records after calling this function; you will receive indeterminate results.
+helpviewer_keywords: ["TerminateReadLog","TerminateReadLog function [Files]","clfsw32/TerminateReadLog","fs.terminatereadlog"]
 old-location: fs\terminatereadlog.htm
 tech.root: Clfs
 ms.assetid: fb0a4c4e-cdb7-4c42-9102-bc76b8b70193

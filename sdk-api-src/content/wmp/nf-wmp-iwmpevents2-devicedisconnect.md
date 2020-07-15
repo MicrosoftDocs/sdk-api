@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPEvents2.DeviceDisconnect
 title: IWMPEvents2::DeviceDisconnect (wmp.h)
-description: The DeviceDisconnect event occurs when the user disconnects a device from the computer.helpviewer_keywords: ["DeviceDisconnect","DeviceDisconnect method [Windows Media Player]","DeviceDisconnect method [Windows Media Player]","IWMPEvents2 interface","IWMPEvents2 interface [Windows Media Player]","DeviceDisconnect method","IWMPEvents2.DeviceDisconnect","IWMPEvents2::DeviceDisconnect","IWMPEvents2DeviceDisconnect","wmp.iwmpevents2_iwmpevents2__devicedisconnect","wmp/IWMPEvents2::DeviceDisconnect"]
+description: The DeviceDisconnect event occurs when the user disconnects a device from the computer.
+helpviewer_keywords: ["DeviceDisconnect","DeviceDisconnect method [Windows Media Player]","DeviceDisconnect method [Windows Media Player]","IWMPEvents2 interface","IWMPEvents2 interface [Windows Media Player]","DeviceDisconnect method","IWMPEvents2.DeviceDisconnect","IWMPEvents2::DeviceDisconnect","IWMPEvents2DeviceDisconnect","wmp.iwmpevents2_iwmpevents2__devicedisconnect","wmp/IWMPEvents2::DeviceDisconnect"]
 old-location: wmp\iwmpevents2_iwmpevents2__devicedisconnect.htm
 tech.root: WMP
 ms.assetid: a37b72f9-4f71-433c-afad-66caae2d749a

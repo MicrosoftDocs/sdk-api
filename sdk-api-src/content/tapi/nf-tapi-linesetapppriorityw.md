@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineSetAppPriorityW
 title: lineSetAppPriorityW function (tapi.h)
-description: Enables an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list.helpviewer_keywords: ["_tapi2_linesetapppriority","lineSetAppPriority","lineSetAppPriority function [TAPI 2.2]","lineSetAppPriorityA","lineSetAppPriorityW","tapi/lineSetAppPriority","tapi/lineSetAppPriorityA","tapi/lineSetAppPriorityW","tapi2.linesetapppriority"]
+description: Enables an application to set its priority in the handoff priority list for a particular media type or Assisted Telephony request mode, or to remove itself from the priority list.
+helpviewer_keywords: ["_tapi2_linesetapppriority","lineSetAppPriority","lineSetAppPriority function [TAPI 2.2]","lineSetAppPriorityA","lineSetAppPriorityW","tapi/lineSetAppPriority","tapi/lineSetAppPriorityA","tapi/lineSetAppPriorityW","tapi2.linesetapppriority"]
 old-location: tapi2\linesetapppriority.htm
 tech.root: Tapi
 ms.assetid: f173c472-56bc-4773-a77a-1aa05ba8766f
@@ -117,6 +118,10 @@ The Priorities set with <b>lineSetAppPriority</b> will persist across restarts o
 
 
 
+
+
+> [!NOTE]
+> The tapi.h header defines lineSetAppPriority as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

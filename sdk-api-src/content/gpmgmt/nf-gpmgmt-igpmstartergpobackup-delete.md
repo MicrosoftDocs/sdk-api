@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMStarterGPOBackup.Delete
 title: IGPMStarterGPOBackup::Delete (gpmgmt.h)
-description: Removes the Starter GPO backup from the backup directory, and from the file system.helpviewer_keywords: ["Delete","Delete method [GPMC]","Delete method [GPMC]","IGPMStarterGPOBackup interface","IGPMStarterGPOBackup interface [GPMC]","Delete method","IGPMStarterGPOBackup.Delete","IGPMStarterGPOBackup::Delete","_win32_igpmstartergpobackup_delete","gpmc.igpmstartergpobackup_delete","gpmgmt/IGPMStarterGPOBackup::Delete"]
+description: Removes the Starter GPO backup from the backup directory, and from the file system.
+helpviewer_keywords: ["Delete","Delete method [GPMC]","Delete method [GPMC]","IGPMStarterGPOBackup interface","IGPMStarterGPOBackup interface [GPMC]","Delete method","IGPMStarterGPOBackup.Delete","IGPMStarterGPOBackup::Delete","_win32_igpmstartergpobackup_delete","gpmc.igpmstartergpobackup_delete","gpmgmt/IGPMStarterGPOBackup::Delete"]
 old-location: gpmc\igpmstartergpobackup_delete.htm
 tech.root: gpmc
 ms.assetid: 32a1388a-b8b9-455b-af94-0a09e98f9108

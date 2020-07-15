@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGIResource.GetSharedHandle
 title: IDXGIResource::GetSharedHandle (dxgi.h)
-description: Gets the handle to a shared resource.helpviewer_keywords: ["GetSharedHandle","GetSharedHandle method [DXGI]","GetSharedHandle method [DXGI]","IDXGIResource interface","IDXGIResource interface [DXGI]","GetSharedHandle method","IDXGIResource.GetSharedHandle","IDXGIResource::GetSharedHandle","direct3ddxgi.idxgiresource_getsharedhandle","dxgi/IDXGIResource::GetSharedHandle","fea59fdb-2526-c2b6-2bd7-58a9fe56c221"]
+description: Gets the handle to a shared resource.
+helpviewer_keywords: ["GetSharedHandle","GetSharedHandle method [DXGI]","GetSharedHandle method [DXGI]","IDXGIResource interface","IDXGIResource interface [DXGI]","GetSharedHandle method","IDXGIResource.GetSharedHandle","IDXGIResource::GetSharedHandle","direct3ddxgi.idxgiresource_getsharedhandle","dxgi/IDXGIResource::GetSharedHandle","fea59fdb-2526-c2b6-2bd7-58a9fe56c221"]
 old-location: direct3ddxgi\idxgiresource_getsharedhandle.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_getsharedhandle.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchQueryHelper.get_QueryContentProperties
 title: ISearchQueryHelper::get_QueryContentProperties (searchapi.h)
-description: Gets the list of properties included in the query when search terms do not explicitly specify a property.helpviewer_keywords: ["ISearchQueryHelper interface [search]","get_QueryContentProperties method","ISearchQueryHelper.get_QueryContentProperties","ISearchQueryHelper::get_QueryContentProperties","_search_ISearchQueryHelper_get_QueryContentProperties","get_QueryContentProperties","get_QueryContentProperties method [search]","get_QueryContentProperties method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_get_QueryContentProperties","searchapi/ISearchQueryHelper::get_QueryContentProperties"]
+description: Gets the list of properties included in the query when search terms do not explicitly specify a property.
+helpviewer_keywords: ["ISearchQueryHelper interface [search]","get_QueryContentProperties method","ISearchQueryHelper.get_QueryContentProperties","ISearchQueryHelper::get_QueryContentProperties","_search_ISearchQueryHelper_get_QueryContentProperties","get_QueryContentProperties","get_QueryContentProperties method [search]","get_QueryContentProperties method [search]","ISearchQueryHelper interface","search._search_ISearchQueryHelper_get_QueryContentProperties","searchapi/ISearchQueryHelper::get_QueryContentProperties"]
 old-location: search\_search_ISearchQueryHelper_get_QueryContentProperties.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\isearchqueryhelper\get_querycontentproperties.htm
@@ -81,7 +82,7 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 Search terms may or may not be explicitly prefixed by a property ("author:Irina" or just "Irina"). If <i>SEARCH_ADVANCED_QUERY_SYNTAX</i> or <i>NO_QUERY_SYNTAX</i> is set in <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nf-searchapi-isearchqueryhelper-put_querysyntax">ISearchQueryHelper::put_QuerySyntax</a>, all search terms not prefixed by a property keyword are matched against the list of properties in <i>ppszContentProperties</i>.
 
-The DSearch code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
+Checkout the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-dsearch">DSearch code sample</a> to see how to create a class for a static console application to query Windows Search using the Microsoft.Search.Interop assembly for <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-isearchqueryhelper">ISearchQueryHelper</a>.
 
 
 

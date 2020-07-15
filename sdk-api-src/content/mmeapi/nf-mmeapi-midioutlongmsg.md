@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.midiOutLongMsg
 title: midiOutLongMsg function (mmeapi.h)
-description: The midiOutLongMsg function sends a system-exclusive MIDI message to the specified MIDI output device.helpviewer_keywords: ["_win32_midiOutLongMsg","midiOutLongMsg","midiOutLongMsg function [Windows Multimedia]","mmeapi/midiOutLongMsg","multimedia.midioutlongmsg"]
+description: The midiOutLongMsg function sends a system-exclusive MIDI message to the specified MIDI output device.
+helpviewer_keywords: ["_win32_midiOutLongMsg","midiOutLongMsg","midiOutLongMsg function [Windows Multimedia]","mmeapi/midiOutLongMsg","multimedia.midioutlongmsg"]
 old-location: multimedia\midioutlongmsg.htm
 tech.root: Multimedia
 ms.assetid: 7fda802b-eed5-4a27-8bc0-1f43f4722d33

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1helper.SetDpiCompensatedEffectInput
 title: SetDpiCompensatedEffectInput function (d2d1_1helper.h)
-description: Sets a bitmap as an effect input, while inserting a DPI compensation effect to preserve visual appearance as the device context's DPI changes.helpviewer_keywords: ["SetDpiCompensatedEffectInput","SetDpiCompensatedEffectInput function [Direct2D]","d2d1_1helper/SetDpiCompensatedEffectInput","direct2d.setdpicompensatedeffectinput"]
+description: Sets a bitmap as an effect input, while inserting a DPI compensation effect to preserve visual appearance as the device context's DPI changes.
+helpviewer_keywords: ["SetDpiCompensatedEffectInput","SetDpiCompensatedEffectInput function [Direct2D]","d2d1_1helper/SetDpiCompensatedEffectInput","direct2d.setdpicompensatedeffectinput"]
 old-location: direct2d\setdpicompensatedeffectinput.htm
 tech.root: Direct2D
 ms.assetid: B9E2C5F7-2E05-441D-A902-6473E0235659

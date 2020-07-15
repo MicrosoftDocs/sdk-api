@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IComLTxEvents
 title: IComLTxEvents (comsvcs.h)
-description: Notifies the subscriber of events that relate to COM+ transactions.helpviewer_keywords: ["IComLTxEvents","IComLTxEvents interface [COM+]","IComLTxEvents interface [COM+]","described","comsvcs/IComLTxEvents","cos.icomltxevents"]
+description: Notifies the subscriber of events that relate to COM+ transactions.
+helpviewer_keywords: ["IComLTxEvents","IComLTxEvents interface [COM+]","IComLTxEvents interface [COM+]","described","comsvcs/IComLTxEvents","cos.icomltxevents"]
 old-location: cos\icomltxevents.htm
 tech.root: cossdk
 ms.assetid: 8be6dddb-ed57-4715-8933-8a0e478095c8

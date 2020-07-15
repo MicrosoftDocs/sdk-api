@@ -1,7 +1,8 @@
 ---
 UID: NF:winsnmp.SnmpGetVendorInfo
 title: SnmpGetVendorInfo function (winsnmp.h)
-description: A WinSNMP application calls the SnmpGetVendorInfo function to retrieve information about the Microsoft WinSNMP implementation.helpviewer_keywords: ["SnmpGetVendorInfo","SnmpGetVendorInfo function [SNMP]","_snmp_snmpgetvendorinfo","snmp.snmpgetvendorinfo","winsnmp/SnmpGetVendorInfo"]
+description: A WinSNMP application calls the SnmpGetVendorInfo function to retrieve information about the Microsoft WinSNMP implementation.
+helpviewer_keywords: ["SnmpGetVendorInfo","SnmpGetVendorInfo function [SNMP]","_snmp_snmpgetvendorinfo","snmp.snmpgetvendorinfo","winsnmp/SnmpGetVendorInfo"]
 old-location: snmp\snmpgetvendorinfo.htm
 tech.root: SNMP
 ms.assetid: e5929fb9-5011-42b9-887e-db0ccdd79e2b

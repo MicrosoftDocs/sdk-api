@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.ITokenCollection.GetToken
 title: ITokenCollection::GetToken (structuredquery.h)
-description: Retrieves the position, length, and any overriding string of an individual token.helpviewer_keywords: ["GetToken","GetToken method [search]","GetToken method [search]","ITokenCollection interface","ITokenCollection interface [search]","GetToken method","ITokenCollection.GetToken","ITokenCollection::GetToken","_search_ITokenCollection_GetToken","search._search_ITokenCollection_GetToken","structuredquery/ITokenCollection::GetToken"]
+description: Retrieves the position, length, and any overriding string of an individual token.
+helpviewer_keywords: ["GetToken","GetToken method [search]","GetToken method [search]","ITokenCollection interface","ITokenCollection interface [search]","GetToken method","ITokenCollection.GetToken","ITokenCollection::GetToken","_search_ITokenCollection_GetToken","search._search_ITokenCollection_GetToken","structuredquery/ITokenCollection::GetToken"]
 old-location: search\_search_ITokenCollection_GetToken.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\itokencollection\gettoken.htm

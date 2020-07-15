@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetTextExtentExPointI
 title: GetTextExtentExPointI function (wingdi.h)
-description: The GetTextExtentExPointI function retrieves the number of characters in a specified string that will fit within a specified space and fills an array with the text extent for each of those characters.helpviewer_keywords: ["GetTextExtentExPointI","GetTextExtentExPointI function [Windows GDI]","_win32_GetTextExtentExPointI","gdi.gettextextentexpointi","wingdi/GetTextExtentExPointI"]
+description: The GetTextExtentExPointI function retrieves the number of characters in a specified string that will fit within a specified space and fills an array with the text extent for each of those characters.
+helpviewer_keywords: ["GetTextExtentExPointI","GetTextExtentExPointI function [Windows GDI]","_win32_GetTextExtentExPointI","gdi.gettextextentexpointi","wingdi/GetTextExtentExPointI"]
 old-location: gdi\gettextextentexpointi.htm
 tech.root: gdi
 ms.assetid: d543ec43-f6f1-4463-b27d-a1abf1cf3961

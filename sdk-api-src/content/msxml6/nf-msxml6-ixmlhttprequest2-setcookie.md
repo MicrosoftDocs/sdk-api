@@ -1,7 +1,8 @@
 ---
 UID: NF:msxml6.IXMLHTTPRequest2.SetCookie
 title: IXMLHTTPRequest2::SetCookie (msxml6.h)
-description: Sets a cookie associated with the specified URL in the HTTP cookie jar.helpviewer_keywords: ["IXMLHTTPRequest2 interface [XMLHttpRequest2]","SetCookie method","IXMLHTTPRequest2.SetCookie","IXMLHTTPRequest2::SetCookie","SetCookie","SetCookie method [XMLHttpRequest2]","SetCookie method [XMLHttpRequest2]","IXMLHTTPRequest2 interface","XHR_COOKIE_STATE_ACCEPT","XHR_COOKIE_STATE_DOWNGRADE","XHR_COOKIE_STATE_LEASH","XHR_COOKIE_STATE_PROMPT","XHR_COOKIE_STATE_REJECT","XHR_COOKIE_STATE_UNKNOWN","ixhr2.ixmlhttprequest2_setcookie","msxml6/IXMLHTTPRequest2::SetCookie"]
+description: Sets a cookie associated with the specified URL in the HTTP cookie jar.
+helpviewer_keywords: ["IXMLHTTPRequest2 interface [XMLHttpRequest2]","SetCookie method","IXMLHTTPRequest2.SetCookie","IXMLHTTPRequest2::SetCookie","SetCookie","SetCookie method [XMLHttpRequest2]","SetCookie method [XMLHttpRequest2]","IXMLHTTPRequest2 interface","XHR_COOKIE_STATE_ACCEPT","XHR_COOKIE_STATE_DOWNGRADE","XHR_COOKIE_STATE_LEASH","XHR_COOKIE_STATE_PROMPT","XHR_COOKIE_STATE_REJECT","XHR_COOKIE_STATE_UNKNOWN","ixhr2.ixmlhttprequest2_setcookie","msxml6/IXMLHTTPRequest2::SetCookie"]
 old-location: ixhr2\ixmlhttprequest2_setcookie.htm
 tech.root: ixhr2
 ms.assetid: E150B7CA-A881-4CD5-896F-7E3B6770E105

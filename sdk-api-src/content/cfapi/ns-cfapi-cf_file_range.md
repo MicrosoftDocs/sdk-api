@@ -1,7 +1,8 @@
 ---
 UID: NS:cfapi.CF_FILE_RANGE
 title: CF_FILE_RANGE (cfapi.h)
-description: Specifies a range of data in a placeholder file.helpviewer_keywords: ["CF_FILE_RANGE","CF_FILE_RANGE structure","cfapi/CF_FILE_RANGE","cloudApi.cf_file_range"]
+description: Specifies a range of data in a placeholder file.
+helpviewer_keywords: ["CF_FILE_RANGE","CF_FILE_RANGE structure","cfapi/CF_FILE_RANGE","cloudApi.cf_file_range"]
 old-location: cloudapi\cf_file_range.htm
 tech.root: cfApi
 ms.assetid: DAE43446-725E-490B-AE1B-EA6CB31F4358

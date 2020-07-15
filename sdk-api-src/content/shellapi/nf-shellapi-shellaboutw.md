@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.ShellAboutW
 title: ShellAboutW function (shellapi.h)
-description: Displays a ShellAbout dialog box.helpviewer_keywords: ["ShellAbout","ShellAbout function [Windows Shell]","ShellAboutA","ShellAboutW","_win32_ShellAbout","shell.ShellAbout","shellapi/ShellAbout","shellapi/ShellAboutA","shellapi/ShellAboutW"]
+description: Displays a ShellAbout dialog box.
+helpviewer_keywords: ["ShellAbout","ShellAbout function [Windows Shell]","ShellAboutA","ShellAboutW","_win32_ShellAbout","shell.ShellAbout","shellapi/ShellAbout","shellapi/ShellAboutA","shellapi/ShellAboutW"]
 old-location: shell\ShellAbout.htm
 tech.root: shell
 ms.assetid: 0919e356-84e8-475e-8628-23097b19c50d
@@ -113,4 +114,8 @@ Note that the <b>ShellAbout</b> function dialog box uses text and a default icon
 To see an example of a <b>ShellAbout</b> dialog box, choose <b>About Windows</b> from the <b>Help</b> menu drop-down list in Windows Explorer.
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines ShellAbout as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

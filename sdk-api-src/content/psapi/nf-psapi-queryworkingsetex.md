@@ -1,7 +1,8 @@
 ---
 UID: NF:psapi.QueryWorkingSetEx
 title: QueryWorkingSetEx function (psapi.h)
-description: Retrieves extended information about the pages at specific virtual addresses in the address space of the specified process.helpviewer_keywords: ["K32QueryWorkingSetEx","QueryWorkingSetEx","QueryWorkingSetEx function [PSAPI]","base.queryworkingsetex","psapi.queryworkingsetex","psapi/K32QueryWorkingSetEx","psapi/QueryWorkingSetEx"]
+description: Retrieves extended information about the pages at specific virtual addresses in the address space of the specified process.
+helpviewer_keywords: ["K32QueryWorkingSetEx","QueryWorkingSetEx","QueryWorkingSetEx function [PSAPI]","base.queryworkingsetex","psapi.queryworkingsetex","psapi/K32QueryWorkingSetEx","psapi/QueryWorkingSetEx"]
 old-location: psapi\queryworkingsetex.htm
 tech.root: psapi
 ms.assetid: 59ae76c9-e954-4648-9c9f-787136375b02

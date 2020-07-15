@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPStorageGlobals.GetTotalSize
 title: IMDSPStorageGlobals::GetTotalSize (mswmdm.h)
-description: The GetTotalSize method retrieves the total size, in bytes, of the medium associated with this IMDSPStorageGlobals interface.helpviewer_keywords: ["GetTotalSize","GetTotalSize method [windows Media Device Manager]","GetTotalSize method [windows Media Device Manager]","IMDSPStorageGlobals interface","IMDSPStorageGlobals interface [windows Media Device Manager]","GetTotalSize method","IMDSPStorageGlobals.GetTotalSize","IMDSPStorageGlobals::GetTotalSize","IMDSPStorageGlobalsGetTotalSize","mswmdm/IMDSPStorageGlobals::GetTotalSize","wmdm.imdspstorageglobals_gettotalsize"]
+description: The GetTotalSize method retrieves the total size, in bytes, of the medium associated with this IMDSPStorageGlobals interface.
+helpviewer_keywords: ["GetTotalSize","GetTotalSize method [windows Media Device Manager]","GetTotalSize method [windows Media Device Manager]","IMDSPStorageGlobals interface","IMDSPStorageGlobals interface [windows Media Device Manager]","GetTotalSize method","IMDSPStorageGlobals.GetTotalSize","IMDSPStorageGlobals::GetTotalSize","IMDSPStorageGlobalsGetTotalSize","mswmdm/IMDSPStorageGlobals::GetTotalSize","wmdm.imdspstorageglobals_gettotalsize"]
 old-location: wmdm\imdspstorageglobals_gettotalsize.htm
 tech.root: WMDM
 ms.assetid: 6a4b4ac5-0b7e-4a22-9857-b251a6bf1dcf

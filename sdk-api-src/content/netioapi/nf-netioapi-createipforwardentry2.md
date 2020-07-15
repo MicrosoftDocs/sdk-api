@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.CreateIpForwardEntry2
 title: CreateIpForwardEntry2 function (netioapi.h)
-description: Creates a new IP route entry on the local computer.helpviewer_keywords: ["CreateIpForwardEntry2","CreateIpForwardEntry2 function [IP Helper]","iphlp.createipforwardentry2","netioapi/CreateIpForwardEntry2"]
+description: Creates a new IP route entry on the local computer.
+helpviewer_keywords: ["CreateIpForwardEntry2","CreateIpForwardEntry2 function [IP Helper]","iphlp.createipforwardentry2","netioapi/CreateIpForwardEntry2"]
 old-location: iphlp\createipforwardentry2.htm
 tech.root: IpHlp
 ms.assetid: d2d065d3-daad-4167-8b87-4229199ee76a

@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwProfile.get_RemoteAdminSettings
 title: INetFwProfile::get_RemoteAdminSettings (netfw.h)
-description: Specifies the settings governing remote administration.helpviewer_keywords: ["INetFwProfile interface [ICS/ICF]","RemoteAdminSettings property","INetFwProfile.RemoteAdminSettings","INetFwProfile.get_RemoteAdminSettings","INetFwProfile::RemoteAdminSettings","INetFwProfile::get_RemoteAdminSettings","RemoteAdminSettings property [ICS/ICF]","RemoteAdminSettings property [ICS/ICF]","INetFwProfile interface","get_RemoteAdminSettings","ics.inetfwprofile_remoteadminpermission","ics.inetfwprofile_remoteadminsettings","netfw/INetFwProfile::RemoteAdminSettings","netfw/INetFwProfile::get_RemoteAdminSettings"]
+description: Specifies the settings governing remote administration.
+helpviewer_keywords: ["INetFwProfile interface [ICS/ICF]","RemoteAdminSettings property","INetFwProfile.RemoteAdminSettings","INetFwProfile.get_RemoteAdminSettings","INetFwProfile::RemoteAdminSettings","INetFwProfile::get_RemoteAdminSettings","RemoteAdminSettings property [ICS/ICF]","RemoteAdminSettings property [ICS/ICF]","INetFwProfile interface","get_RemoteAdminSettings","ics.inetfwprofile_remoteadminpermission","ics.inetfwprofile_remoteadminsettings","netfw/INetFwProfile::RemoteAdminSettings","netfw/INetFwProfile::get_RemoteAdminSettings"]
 old-location: ics\inetfwprofile_remoteadminsettings.htm
 tech.root: ics
 ms.assetid: 1e05e464-093d-4c25-850a-60e9fad64876

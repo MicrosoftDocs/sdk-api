@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.ILocator
 title: ILocator (tuner.h)
-description: The ILocator interface is implemented (through derived interfaces such as IATSCLocator) on Locator objects that contain tuning information about the tuning space.helpviewer_keywords: ["ILocator","ILocator interface [Microsoft TV Technologies]","ILocator interface [Microsoft TV Technologies]","described","ILocatorInterface","mstv.ilocator","tuner/ILocator"]
+description: The ILocator interface is implemented (through derived interfaces such as IATSCLocator) on Locator objects that contain tuning information about the tuning space.
+helpviewer_keywords: ["ILocator","ILocator interface [Microsoft TV Technologies]","ILocator interface [Microsoft TV Technologies]","described","ILocatorInterface","mstv.ilocator","tuner/ILocator"]
 old-location: mstv\ilocator.htm
 tech.root: mstv
 ms.assetid: 1d6c18f0-e7f1-4a1c-9edb-e4b66297becf

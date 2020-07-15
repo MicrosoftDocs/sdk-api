@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.PathGetShortPath
 title: PathGetShortPath function (shlobj_core.h)
-description: PathGetShortPath may be altered or unavailable.helpviewer_keywords: ["PathGetShortPath","PathGetShortPath function [Windows Shell]","_win32_PathGetShortPath","shell.PathGetShortPath","shlobj_core/PathGetShortPath"]
+description: PathGetShortPath may be altered or unavailable.
+helpviewer_keywords: ["PathGetShortPath","PathGetShortPath function [Windows Shell]","_win32_PathGetShortPath","shell.PathGetShortPath","shlobj_core/PathGetShortPath"]
 old-location: shell\PathGetShortPath.htm
 tech.root: shell
 ms.assetid: f374a575-3fbf-4bed-aa76-76ed81e01d60

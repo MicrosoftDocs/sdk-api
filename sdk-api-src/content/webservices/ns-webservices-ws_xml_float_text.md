@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_FLOAT_TEXT
 title: WS_XML_FLOAT_TEXT (webservices.h)
-description: Represents a 4 byte floating point value.helpviewer_keywords: ["WS_XML_FLOAT_TEXT","WS_XML_FLOAT_TEXT structure [Web Services for Windows]","webservices/WS_XML_FLOAT_TEXT","wsw.ws_xml_float_text"]
+description: Represents a 4 byte floating point value.
+helpviewer_keywords: ["WS_XML_FLOAT_TEXT","WS_XML_FLOAT_TEXT structure [Web Services for Windows]","webservices/WS_XML_FLOAT_TEXT","wsw.ws_xml_float_text"]
 old-location: wsw\ws_xml_float_text.htm
 tech.root: wsw
 ms.assetid: f6d0401a-fc5f-4be8-96ce-211f6a29c560

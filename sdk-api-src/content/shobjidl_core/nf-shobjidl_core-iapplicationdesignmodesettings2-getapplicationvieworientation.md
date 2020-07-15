@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings2.GetApplicationViewOrientation
 title: IApplicationDesignModeSettings2::GetApplicationViewOrientation (shobjidl_core.h)
-description: Gets the orientation of the application design mode window.helpviewer_keywords: ["GetApplicationViewOrientation","GetApplicationViewOrientation method [Windows Shell]","GetApplicationViewOrientation method [Windows Shell]","IApplicationDesignModeSettings2 interface","IApplicationDesignModeSettings2 interface [Windows Shell]","GetApplicationViewOrientation method","IApplicationDesignModeSettings2.GetApplicationViewOrientation","IApplicationDesignModeSettings2::GetApplicationViewOrientation","shell.IApplicationDesignModeSettings2_GetApplicationViewOrientation","shobjidl_core/IApplicationDesignModeSettings2::GetApplicationViewOrientation"]
+description: Gets the orientation of the application design mode window.
+helpviewer_keywords: ["GetApplicationViewOrientation","GetApplicationViewOrientation method [Windows Shell]","GetApplicationViewOrientation method [Windows Shell]","IApplicationDesignModeSettings2 interface","IApplicationDesignModeSettings2 interface [Windows Shell]","GetApplicationViewOrientation method","IApplicationDesignModeSettings2.GetApplicationViewOrientation","IApplicationDesignModeSettings2::GetApplicationViewOrientation","shell.IApplicationDesignModeSettings2_GetApplicationViewOrientation","shobjidl_core/IApplicationDesignModeSettings2::GetApplicationViewOrientation"]
 old-location: shell\IApplicationDesignModeSettings2_GetApplicationViewOrientation.htm
 tech.root: shell
 ms.assetid: D6DF8432-7D37-4D39-9E08-2F5B874A0BCB

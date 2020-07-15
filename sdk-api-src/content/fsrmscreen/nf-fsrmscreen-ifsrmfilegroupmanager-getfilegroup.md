@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileGroupManager.GetFileGroup
 title: IFsrmFileGroupManager::GetFileGroup (fsrmscreen.h)
-description: Retrieves the specified file group from FSRM.helpviewer_keywords: ["FsrmFileGroupManager class [File Server Resource Manager]","GetFileGroup method","GetFileGroup","GetFileGroup method [File Server Resource Manager]","GetFileGroup method [File Server Resource Manager]","FsrmFileGroupManager class","GetFileGroup method [File Server Resource Manager]","IFsrmFileGroupManager interface","IFsrmFileGroupManager interface [File Server Resource Manager]","GetFileGroup method","IFsrmFileGroupManager.GetFileGroup","IFsrmFileGroupManager::GetFileGroup","fs.ifsrmfilegroupmanager_getfilegroup","fsrm.ifsrmfilegroupmanager_getfilegroup","fsrmscreen/IFsrmFileGroupManager::GetFileGroup"]
+description: Retrieves the specified file group from FSRM.
+helpviewer_keywords: ["FsrmFileGroupManager class [File Server Resource Manager]","GetFileGroup method","GetFileGroup","GetFileGroup method [File Server Resource Manager]","GetFileGroup method [File Server Resource Manager]","FsrmFileGroupManager class","GetFileGroup method [File Server Resource Manager]","IFsrmFileGroupManager interface","IFsrmFileGroupManager interface [File Server Resource Manager]","GetFileGroup method","IFsrmFileGroupManager.GetFileGroup","IFsrmFileGroupManager::GetFileGroup","fs.ifsrmfilegroupmanager_getfilegroup","fsrm.ifsrmfilegroupmanager_getfilegroup","fsrmscreen/IFsrmFileGroupManager::GetFileGroup"]
 old-location: fsrm\ifsrmfilegroupmanager_getfilegroup.htm
 tech.root: fsrm
 ms.assetid: 14b61b2b-a20e-4895-bfbe-40e9dfe0c496

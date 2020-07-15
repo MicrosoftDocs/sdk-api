@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArrayGetDim
 title: SafeArrayGetDim function (oleauto.h)
-description: Gets the number of dimensions in the array.helpviewer_keywords: ["SafeArrayGetDim","SafeArrayGetDim function [Automation]","_oa96_SafeArrayGetDim","automat.safearraygetdim","oleauto/SafeArrayGetDim"]
+description: Gets the number of dimensions in the array.
+helpviewer_keywords: ["SafeArrayGetDim","SafeArrayGetDim function [Automation]","_oa96_SafeArrayGetDim","automat.safearraygetdim","oleauto/SafeArrayGetDim"]
 old-location: automat\safearraygetdim.htm
 tech.root: automat
 ms.assetid: bc52b23b-d323-478c-881f-d2a31a3289c5

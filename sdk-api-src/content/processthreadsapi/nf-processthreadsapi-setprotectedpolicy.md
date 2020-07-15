@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.SetProtectedPolicy
 title: SetProtectedPolicy function (processthreadsapi.h)
-description: Sets a protected policy.helpviewer_keywords: ["SetProtectedPolicy","SetProtectedPolicy function","base.setprotectedpolicy","processthreadsapi/SetProtectedPolicy"]
+description: Sets a protected policy.
+helpviewer_keywords: ["SetProtectedPolicy","SetProtectedPolicy function","base.setprotectedpolicy","processthreadsapi/SetProtectedPolicy"]
 old-location: base\setprotectedpolicy.htm
 tech.root: ProcThread
 ms.assetid: 36975287-20F0-477B-870F-EA0AC40B39E3

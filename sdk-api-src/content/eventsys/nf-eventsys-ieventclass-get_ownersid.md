@@ -1,7 +1,8 @@
 ---
 UID: NF:eventsys.IEventClass.get_OwnerSID
 title: IEventClass::get_OwnerSID (eventsys.h)
-description: The security ID of the event class object's creator. This property is supported only for backward compatibility.helpviewer_keywords: ["IEventClass interface [COM+]","OwnerSID property","IEventClass.OwnerSID","IEventClass.get_OwnerSID","IEventClass::OwnerSID","IEventClass::get_OwnerSID","IEventClass::put_OwnerSID","OwnerSID property [COM+]","OwnerSID property [COM+]","IEventClass interface","cos.ieventclass_ownersid","eventsys/IEventClass::OwnerSID","eventsys/IEventClass::get_OwnerSID","eventsys/IEventClass::put_OwnerSID","get_OwnerSID"]
+description: The security ID of the event class object's creator. This property is supported only for backward compatibility.
+helpviewer_keywords: ["IEventClass interface [COM+]","OwnerSID property","IEventClass.OwnerSID","IEventClass.get_OwnerSID","IEventClass::OwnerSID","IEventClass::get_OwnerSID","IEventClass::put_OwnerSID","OwnerSID property [COM+]","OwnerSID property [COM+]","IEventClass interface","cos.ieventclass_ownersid","eventsys/IEventClass::OwnerSID","eventsys/IEventClass::get_OwnerSID","eventsys/IEventClass::put_OwnerSID","get_OwnerSID"]
 old-location: cos\ieventclass_ownersid.htm
 tech.root: cossdk
 ms.assetid: 3e1b91db-ee1f-42cd-a59d-69cec08f1a91

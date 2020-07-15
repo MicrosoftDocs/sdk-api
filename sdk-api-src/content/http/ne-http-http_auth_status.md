@@ -1,7 +1,8 @@
 ---
 UID: NE:http._HTTP_AUTH_STATUS
 title: HTTP_AUTH_STATUS (http.h)
-description: Defines the authentication state of a request.helpviewer_keywords: ["*PHTTP_AUTH_STATUS","*PHTTP_AUTH_STATUS enumeration [HTTP]","HTTP_AUTH_STATUS","HTTP_AUTH_STATUS enumeration [HTTP]","HttpAuthStatusFailure","HttpAuthStatusNotAuthenticated","HttpAuthStatusSuccess","http.http_auth_status","http/*PHTTP_AUTH_STATUS","http/HTTP_AUTH_STATUS","http/HttpAuthStatusFailure","http/HttpAuthStatusNotAuthenticated","http/HttpAuthStatusSuccess"]
+description: Defines the authentication state of a request.
+helpviewer_keywords: ["*PHTTP_AUTH_STATUS","*PHTTP_AUTH_STATUS enumeration [HTTP]","HTTP_AUTH_STATUS","HTTP_AUTH_STATUS enumeration [HTTP]","HttpAuthStatusFailure","HttpAuthStatusNotAuthenticated","HttpAuthStatusSuccess","http.http_auth_status","http/*PHTTP_AUTH_STATUS","http/HTTP_AUTH_STATUS","http/HttpAuthStatusFailure","http/HttpAuthStatusNotAuthenticated","http/HttpAuthStatusSuccess"]
 old-location: http\http_auth_status.htm
 tech.root: http
 ms.assetid: 1290fbbe-6c8e-40dc-b47c-32976d85afca

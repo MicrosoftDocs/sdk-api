@@ -1,7 +1,8 @@
 ---
 UID: NS:oaidl.tagTYPEATTR
 title: TYPEATTR (oaidl.h)
-description: Contains attributes of a type.helpviewer_keywords: ["*LPTYPEATTR","LPTYPEATTR","LPTYPEATTR structure pointer [Automation]","TYPEATTR","TYPEATTR structure [Automation]","_oa96_TYPEATTR","automat.typeattr","oaidl/LPTYPEATTR","oaidl/TYPEATTR"]
+description: Contains attributes of a type.
+helpviewer_keywords: ["*LPTYPEATTR","LPTYPEATTR","LPTYPEATTR structure pointer [Automation]","TYPEATTR","TYPEATTR structure [Automation]","_oa96_TYPEATTR","automat.typeattr","oaidl/LPTYPEATTR","oaidl/TYPEATTR"]
 old-location: automat\typeattr.htm
 tech.root: automat
 ms.assetid: 00c2b307-b944-44de-a9c7-1165fb27165b

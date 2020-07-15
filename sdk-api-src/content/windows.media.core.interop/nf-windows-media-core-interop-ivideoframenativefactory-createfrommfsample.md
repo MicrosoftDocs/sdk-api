@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.core.interop.IVideoFrameNativeFactory.CreateFromMFSample
 title: IVideoFrameNativeFactory::core (windows.media.core.interop.h)
-description: Creates an IVideoFrameNative from the provided IMFSample.helpviewer_keywords: ["CreateFromMFSample","CreateFromMFSample method [Windows Runtime]","CreateFromMFSample method [Windows Runtime]","IVideoFrameNativeFactory interface","IVideoFrameNativeFactory interface [Windows Runtime]","CreateFromMFSample method","IVideoFrameNativeFactory.CreateFromMFSample","IVideoFrameNativeFactory.core","IVideoFrameNativeFactory::CreateFromMFSample","IVideoFrameNativeFactory::core","windows/IVideoFrameNativeFactory::CreateFromMFSample","winrt.ivideoframenativefactory_createfrommfsample"]
+description: Creates an IVideoFrameNative from the provided IMFSample.
+helpviewer_keywords: ["CreateFromMFSample","CreateFromMFSample method [Windows Runtime]","CreateFromMFSample method [Windows Runtime]","IVideoFrameNativeFactory interface","IVideoFrameNativeFactory interface [Windows Runtime]","CreateFromMFSample method","IVideoFrameNativeFactory.CreateFromMFSample","IVideoFrameNativeFactory.core","IVideoFrameNativeFactory::CreateFromMFSample","IVideoFrameNativeFactory::core","windows/IVideoFrameNativeFactory::CreateFromMFSample","winrt.ivideoframenativefactory_createfrommfsample"]
 old-location: winrt\ivideoframenativefactory_createfrommfsample.htm
 tech.root: WinRT
 ms.assetid: EE925680-42A1-4C7E-A39D-15EA93F11FA1

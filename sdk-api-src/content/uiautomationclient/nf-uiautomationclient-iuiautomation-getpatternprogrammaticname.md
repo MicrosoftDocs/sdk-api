@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.GetPatternProgrammaticName
 title: IUIAutomation::GetPatternProgrammaticName (uiautomationclient.h)
-description: Retrieves the registered programmatic name of a control pattern.helpviewer_keywords: ["GetPatternProgrammaticName","GetPatternProgrammaticName method [Windows Accessibility]","GetPatternProgrammaticName method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","GetPatternProgrammaticName method","IUIAutomation.GetPatternProgrammaticName","IUIAutomation::GetPatternProgrammaticName","uiauto.uiauto_IUIAutomation_GetPatternProgrammaticName","uiauto_IUIAutomation_GetPatternProgrammaticName","uiautomationclient/IUIAutomation::GetPatternProgrammaticName","winauto.uiauto_IUIAutomation_GetPatternProgrammaticName"]
+description: Retrieves the registered programmatic name of a control pattern.
+helpviewer_keywords: ["GetPatternProgrammaticName","GetPatternProgrammaticName method [Windows Accessibility]","GetPatternProgrammaticName method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","GetPatternProgrammaticName method","IUIAutomation.GetPatternProgrammaticName","IUIAutomation::GetPatternProgrammaticName","uiauto.uiauto_IUIAutomation_GetPatternProgrammaticName","uiauto_IUIAutomation_GetPatternProgrammaticName","uiautomationclient/IUIAutomation::GetPatternProgrammaticName","winauto.uiauto_IUIAutomation_GetPatternProgrammaticName"]
 old-location: winauto\uiauto_IUIAutomation_GetPatternProgrammaticName.htm
 tech.root: WinAuto
 ms.assetid: a5968193-e3d9-41d1-b13f-8e86db5e0c70

@@ -1,7 +1,8 @@
 ---
 UID: NF:traceloggingprovider.TraceLoggingCustom
 title: TraceLoggingCustom macro (traceloggingprovider.h)
-description: Wrapper macro for an event field packed using a custom serializer.helpviewer_keywords: ["TraceLoggingCustom","TraceLoggingCustom macro","tracelogging.traceloggingcustom","traceloggingprovider/TraceLoggingCustom"]
+description: Wrapper macro for an event field packed using a custom serializer.
+helpviewer_keywords: ["TraceLoggingCustom","TraceLoggingCustom macro","tracelogging.traceloggingcustom","traceloggingprovider/TraceLoggingCustom"]
 old-location: tracelogging\traceloggingcustom.htm
 tech.root: tracelogging
 ms.assetid: 617B5EFF-DB4F-493E-841B-14BBA312E26B

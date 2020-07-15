@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetRecordGroup
 title: IISDB_SDTT::GetRecordGroup (dvbsiparser.h)
-description: Receives the recording download level from a record in an Integrated services Digital Broadcasting (ISDB) software download trigger table (SDTT).helpviewer_keywords: ["GetRecordGroup","GetRecordGroup method [Microsoft TV Technologies]","GetRecordGroup method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetRecordGroup method","IISDB_SDTT.GetRecordGroup","IISDB_SDTT::GetRecordGroup","dvbsiparser/IISDB_SDTT::GetRecordGroup","mstv.iisdb_sdtt_getrecordgroup"]
+description: Receives the recording download level from a record in an Integrated services Digital Broadcasting (ISDB) software download trigger table (SDTT).
+helpviewer_keywords: ["GetRecordGroup","GetRecordGroup method [Microsoft TV Technologies]","GetRecordGroup method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetRecordGroup method","IISDB_SDTT.GetRecordGroup","IISDB_SDTT::GetRecordGroup","dvbsiparser/IISDB_SDTT::GetRecordGroup","mstv.iisdb_sdtt_getrecordgroup"]
 old-location: mstv\iisdb_sdtt_getrecordgroup.htm
 tech.root: mstv
 ms.assetid: 6798e477-754d-49a3-84f1-04d1a60094a7

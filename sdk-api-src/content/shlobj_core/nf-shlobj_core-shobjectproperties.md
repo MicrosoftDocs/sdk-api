@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHObjectProperties
 title: SHObjectProperties function (shlobj_core.h)
-description: SHObjectProperties may be altered or unavailable.helpviewer_keywords: ["SHOP_FILEPATH","SHOP_PRINTERNAME","SHOP_VOLUMEGUID","SHObjectProperties","SHObjectProperties function [Windows Shell]","_win32_SHObjectProperties","shell.SHObjectProperties","shlobj_core/SHObjectProperties"]
+description: SHObjectProperties may be altered or unavailable.
+helpviewer_keywords: ["SHOP_FILEPATH","SHOP_PRINTERNAME","SHOP_VOLUMEGUID","SHObjectProperties","SHObjectProperties function [Windows Shell]","_win32_SHObjectProperties","shell.SHObjectProperties","shlobj_core/SHObjectProperties"]
 old-location: shell\SHObjectProperties.htm
 tech.root: shell
 ms.assetid: 7517c461-955b-446e-85d7-a707c9bd183a

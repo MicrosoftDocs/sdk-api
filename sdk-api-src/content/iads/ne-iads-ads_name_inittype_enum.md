@@ -1,7 +1,8 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0050_0002
 title: ADS_NAME_INITTYPE_ENUM (iads.h)
-description: The ADS_NAME_INITTYPE_ENUM enumeration specifies the types of initialization to perform on a NameTranslate object. It is used in the IADsNameTranslate interface.helpviewer_keywords: ["ADS_NAME_INITTYPE_DOMAIN","ADS_NAME_INITTYPE_ENUM","ADS_NAME_INITTYPE_ENUM enumeration [ADSI]","ADS_NAME_INITTYPE_GC","ADS_NAME_INITTYPE_SERVER","_ds_ads_name_inittype_enum","adsi.ads__name__inittype__enum","adsi.ads_name_inittype_enum","iads/ADS_NAME_INITTYPE_DOMAIN","iads/ADS_NAME_INITTYPE_ENUM","iads/ADS_NAME_INITTYPE_GC","iads/ADS_NAME_INITTYPE_SERVER"]
+description: The ADS_NAME_INITTYPE_ENUM enumeration specifies the types of initialization to perform on a NameTranslate object. It is used in the IADsNameTranslate interface.
+helpviewer_keywords: ["ADS_NAME_INITTYPE_DOMAIN","ADS_NAME_INITTYPE_ENUM","ADS_NAME_INITTYPE_ENUM enumeration [ADSI]","ADS_NAME_INITTYPE_GC","ADS_NAME_INITTYPE_SERVER","_ds_ads_name_inittype_enum","adsi.ads__name__inittype__enum","adsi.ads_name_inittype_enum","iads/ADS_NAME_INITTYPE_DOMAIN","iads/ADS_NAME_INITTYPE_ENUM","iads/ADS_NAME_INITTYPE_GC","iads/ADS_NAME_INITTYPE_SERVER"]
 old-location: adsi\ads_name_inittype_enum.htm
 tech.root: adsi
 ms.assetid: cd7e4786-b20c-4dad-bae6-4e703e60f330

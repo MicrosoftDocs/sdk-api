@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaQueryForestTrustInformation
 title: LsaQueryForestTrustInformation function (ntsecapi.h)
-description: Retrieves forest trust information for the specified Local Security Authority&#160;TrustedDomain object.helpviewer_keywords: ["LsaQueryForestTrustInformation","LsaQueryForestTrustInformation function [Security]","ntsecapi/LsaQueryForestTrustInformation","security.lsaqueryforesttrustinformation"]
+description: Retrieves forest trust information for the specified Local Security Authority TrustedDomain object.
+helpviewer_keywords: ["LsaQueryForestTrustInformation","LsaQueryForestTrustInformation function [Security]","ntsecapi/LsaQueryForestTrustInformation","security.lsaqueryforesttrustinformation"]
 old-location: security\lsaqueryforesttrustinformation.htm
 tech.root: SecAuthN
 ms.assetid: 38857f1f-e2c7-4ce5-a928-335bc3bd2176

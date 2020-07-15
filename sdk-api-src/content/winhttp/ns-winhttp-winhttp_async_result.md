@@ -1,7 +1,8 @@
 ---
 UID: NS:winhttp.__unnamed_struct_0
 title: WINHTTP_ASYNC_RESULT (winhttp.h)
-description: The WINHTTP_ASYNC_RESULT structure contains the result of a call to an asynchronous function. This structure is used with the WINHTTP_STATUS_CALLBACK prototype.helpviewer_keywords: ["*LPWINHTTP_ASYNC_RESULT","API_QUERY_DATA_AVAILABLE","API_READ_DATA","API_RECEIVE_RESPONSE","API_SEND_REQUEST","API_WRITE_DATA","WINHTTP_ASYNC_RESULT","WINHTTP_ASYNC_RESULT structure [HTTP]","http.winhttp_async_result","winhttp.winhttp_async_result_structure","winhttp/WINHTTP_ASYNC_RESULT"]
+description: The WINHTTP_ASYNC_RESULT structure contains the result of a call to an asynchronous function. This structure is used with the WINHTTP_STATUS_CALLBACK prototype.
+helpviewer_keywords: ["*LPWINHTTP_ASYNC_RESULT","API_QUERY_DATA_AVAILABLE","API_READ_DATA","API_RECEIVE_RESPONSE","API_SEND_REQUEST","API_WRITE_DATA","WINHTTP_ASYNC_RESULT","WINHTTP_ASYNC_RESULT structure [HTTP]","http.winhttp_async_result","winhttp.winhttp_async_result_structure","winhttp/WINHTTP_ASYNC_RESULT"]
 old-location: http\winhttp_async_result.htm
 tech.root: WinHttp
 ms.assetid: 31544ef1-2532-4e44-8747-7a693cef9ccd

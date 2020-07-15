@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.foundation.IPropertyValueStatics.CreateSize
 title: IPropertyValueStatics::IPropertyValueStatics (windows.foundation.h)
-description: Creates a new IPropertyValue object that contains the specified Size value.helpviewer_keywords: ["CreateSize","CreateSize method [Windows Runtime]","CreateSize method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateSize method","IPropertyValueStatics.CreateSize","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateSize","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateSize","winrt.ipropertyvaluefactory_createsize","winrt.ipropertyvaluestatics_createsize"]
+description: Creates a new IPropertyValue object that contains the specified Size value.
+helpviewer_keywords: ["CreateSize","CreateSize method [Windows Runtime]","CreateSize method [Windows Runtime]","IPropertyValueStatics interface","IPropertyValueStatics interface [Windows Runtime]","CreateSize method","IPropertyValueStatics.CreateSize","IPropertyValueStatics.IPropertyValueStatics","IPropertyValueStatics::CreateSize","IPropertyValueStatics::IPropertyValueStatics","windows/IPropertyValueStatics::CreateSize","winrt.ipropertyvaluefactory_createsize","winrt.ipropertyvaluestatics_createsize"]
 old-location: winrt\ipropertyvaluestatics_createsize.htm
 tech.root: WinRT
 ms.assetid: 0a5055f1-6873-4396-9a3e-b7a4cc41200e

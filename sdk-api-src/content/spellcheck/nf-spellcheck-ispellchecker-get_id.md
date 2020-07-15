@@ -1,7 +1,8 @@
 ---
 UID: NF:spellcheck.ISpellChecker.get_Id
 title: ISpellChecker::get_Id (spellcheck.h)
-description: Gets the identifier for this spell checker.helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","Id property","ISpellChecker.Id","ISpellChecker.get_Id","ISpellChecker::Id","ISpellChecker::get_Id","Id property [Internationalization for Windows Applications]","Id property [Internationalization for Windows Applications]","ISpellChecker interface","get_Id","intl.ispellchecker_id","spellcheck/ISpellChecker::Id","spellcheck/ISpellChecker::get_Id"]
+description: Gets the identifier for this spell checker.
+helpviewer_keywords: ["ISpellChecker interface [Internationalization for Windows Applications]","Id property","ISpellChecker.Id","ISpellChecker.get_Id","ISpellChecker::Id","ISpellChecker::get_Id","Id property [Internationalization for Windows Applications]","Id property [Internationalization for Windows Applications]","ISpellChecker interface","get_Id","intl.ispellchecker_id","spellcheck/ISpellChecker::Id","spellcheck/ISpellChecker::get_Id"]
 old-location: intl\ispellchecker_id.htm
 tech.root: Intl
 ms.assetid: ba3a520b-feea-4ea4-b285-f44a1e1fc518

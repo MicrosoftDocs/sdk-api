@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core.ASSOCIATIONLEVEL
 title: ASSOCIATIONLEVEL (shobjidl_core.h)
-description: Specifies the source of the default association for a file name extension. Used by methods of the IApplicationAssociationRegistration interface.helpviewer_keywords: ["AL_EFFECTIVE","AL_MACHINE","AL_USER","ASSOCIATIONLEVEL","ASSOCIATIONLEVEL enumeration [Windows Shell]","_shell_ASSOCIATIONLEVEL","shell.ASSOCIATIONLEVEL","shobjidl_core/AL_EFFECTIVE","shobjidl_core/AL_MACHINE","shobjidl_core/AL_USER","shobjidl_core/ASSOCIATIONLEVEL"]
+description: Specifies the source of the default association for a file name extension. Used by methods of the IApplicationAssociationRegistration interface.
+helpviewer_keywords: ["AL_EFFECTIVE","AL_MACHINE","AL_USER","ASSOCIATIONLEVEL","ASSOCIATIONLEVEL enumeration [Windows Shell]","_shell_ASSOCIATIONLEVEL","shell.ASSOCIATIONLEVEL","shobjidl_core/AL_EFFECTIVE","shobjidl_core/AL_MACHINE","shobjidl_core/AL_USER","shobjidl_core/ASSOCIATIONLEVEL"]
 old-location: shell\ASSOCIATIONLEVEL.htm
 tech.root: shell
 ms.assetid: 846ce9f4-092a-420d-be73-0951efc4368f

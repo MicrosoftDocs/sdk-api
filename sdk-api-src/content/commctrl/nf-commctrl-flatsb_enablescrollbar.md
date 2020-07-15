@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.FlatSB_EnableScrollBar
 title: FlatSB_EnableScrollBar function (commctrl.h)
-description: Enables or disables one or both flat scroll bar direction buttons. If flat scroll bars are not initialized for the window, this function calls the standard EnableScrollBar function.helpviewer_keywords: ["ESB_DISABLE_BOTH","ESB_DISABLE_DOWN","ESB_DISABLE_LEFT","ESB_DISABLE_LTUP","ESB_DISABLE_RIGHT","ESB_DISABLE_RTDN","ESB_DISABLE_UP","ESB_ENABLE_BOTH","FlatSB_EnableScrollBar","FlatSB_EnableScrollBar function [Windows Controls]","SB_BOTH","SB_HORZ","SB_VERT","_win32_FlatSB_EnableScrollBar","_win32_FlatSB_EnableScrollBar_cpp","commctrl/FlatSB_EnableScrollBar","controls.FlatSB_EnableScrollBar","controls._win32_FlatSB_EnableScrollBar"]
+description: Enables or disables one or both flat scroll bar direction buttons. If flat scroll bars are not initialized for the window, this function calls the standard EnableScrollBar function.
+helpviewer_keywords: ["ESB_DISABLE_BOTH","ESB_DISABLE_DOWN","ESB_DISABLE_LEFT","ESB_DISABLE_LTUP","ESB_DISABLE_RIGHT","ESB_DISABLE_RTDN","ESB_DISABLE_UP","ESB_ENABLE_BOTH","FlatSB_EnableScrollBar","FlatSB_EnableScrollBar function [Windows Controls]","SB_BOTH","SB_HORZ","SB_VERT","_win32_FlatSB_EnableScrollBar","_win32_FlatSB_EnableScrollBar_cpp","commctrl/FlatSB_EnableScrollBar","controls.FlatSB_EnableScrollBar","controls._win32_FlatSB_EnableScrollBar"]
 old-location: controls\FlatSB_EnableScrollBar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\flatsb\functions\flatsb_enablescrollbar.htm

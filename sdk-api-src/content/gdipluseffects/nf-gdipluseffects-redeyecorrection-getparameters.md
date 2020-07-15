@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.RedEyeCorrection.GetParameters
 title: RedEyeCorrection::GetParameters (gdipluseffects.h)
-description: The RedEyeCorrection::GetParameters method gets the current values of the parameters of this RedEyeCorrection object.helpviewer_keywords: ["GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","RedEyeCorrection class","RedEyeCorrection class [GDI+]","GetParameters method","RedEyeCorrection.GetParameters","RedEyeCorrection::GetParameters","_gdiplus_CLASS_RedEyeCorrection_GetParameters_","gdiplus._gdiplus_CLASS_RedEyeCorrection_GetParameters_"]
+description: The RedEyeCorrection::GetParameters method gets the current values of the parameters of this RedEyeCorrection object.
+helpviewer_keywords: ["GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","RedEyeCorrection class","RedEyeCorrection class [GDI+]","GetParameters method","RedEyeCorrection.GetParameters","RedEyeCorrection::GetParameters","_gdiplus_CLASS_RedEyeCorrection_GetParameters_","gdiplus._gdiplus_CLASS_RedEyeCorrection_GetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_RedEyeCorrection_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\redeyecorrectionclass\redeyecorrectionmethods\getparameters.htm

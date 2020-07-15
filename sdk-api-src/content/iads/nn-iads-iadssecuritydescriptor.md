@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsSecurityDescriptor
 title: IADsSecurityDescriptor (iads.h)
-description: Provides access to properties on an ADSI security descriptor object.helpviewer_keywords: ["ADsSecurityUtility","IADsSecurityDescriptor","IADsSecurityDescriptor interface [ADSI]","IADsSecurityDescriptor interface [ADSI]","described","_ds_iadssecuritydescriptor","adsi.iadssecuritydescriptor","iads/IADsSecurityDescriptor"]
+description: Provides access to properties on an ADSI security descriptor object.
+helpviewer_keywords: ["ADsSecurityUtility","IADsSecurityDescriptor","IADsSecurityDescriptor interface [ADSI]","IADsSecurityDescriptor interface [ADSI]","described","_ds_iadssecuritydescriptor","adsi.iadssecuritydescriptor","iads/IADsSecurityDescriptor"]
 old-location: adsi\iadssecuritydescriptor.htm
 tech.root: adsi
 ms.assetid: c77547ab-e666-4d72-b8ef-4b2f3d61ad38

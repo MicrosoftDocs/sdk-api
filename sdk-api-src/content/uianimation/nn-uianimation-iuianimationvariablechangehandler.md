@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationVariableChangeHandler
 title: IUIAnimationVariableChangeHandler (uianimation.h)
-description: Defines a method for handling events related to animation variable updates.helpviewer_keywords: ["IUIAnimationVariableChangeHandler","IUIAnimationVariableChangeHandler interface [Windows Animation]","IUIAnimationVariableChangeHandler interface [Windows Animation]","described","uianimation.iuianimationvariablechangehandler","uianimation/IUIAnimationVariableChangeHandler"]
+description: Defines a method for handling events related to animation variable updates.
+helpviewer_keywords: ["IUIAnimationVariableChangeHandler","IUIAnimationVariableChangeHandler interface [Windows Animation]","IUIAnimationVariableChangeHandler interface [Windows Animation]","described","uianimation.iuianimationvariablechangehandler","uianimation/IUIAnimationVariableChangeHandler"]
 old-location: uianimation\iuianimationvariablechangehandler.htm
 tech.root: UIAnimation
 ms.assetid: 2288b256-aaf4-44fe-9ad1-f05ef7b0e30b

@@ -1,7 +1,8 @@
 ---
 UID: NF:keycredmgr.KeyCredentialManagerShowUIOperation
 title: KeyCredentialManagerShowUIOperation function (keycredmgr.h)
-description: API to perform the requested WHFB operation.helpviewer_keywords: ["KeyCredentialManagerShowUIOperation","KeyCredentialManagerShowUIOperation function [Security]","keycredmgr/KeyCredentialManagerShowUIOperation","security.keycredentialmanagershowuioperation"]
+description: API to perform the requested WHFB operation.
+helpviewer_keywords: ["KeyCredentialManagerShowUIOperation","KeyCredentialManagerShowUIOperation function [Security]","keycredmgr/KeyCredentialManagerShowUIOperation","security.keycredentialmanagershowuioperation"]
 old-location: security\keycredentialmanagershowuioperation.htm
 tech.root: SecAuthN
 ms.assetid: 94AB2BA7-810C-4AC4-A719-FD9684C21BA0

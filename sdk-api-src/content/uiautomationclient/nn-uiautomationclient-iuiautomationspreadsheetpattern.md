@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationSpreadsheetPattern
 title: IUIAutomationSpreadsheetPattern (uiautomationclient.h)
-description: Enables a client application to access the items (cells) in a spreadsheet.helpviewer_keywords: ["IUIAutomationSpreadsheetPattern","IUIAutomationSpreadsheetPattern interface [Windows Accessibility]","IUIAutomationSpreadsheetPattern interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationSpreadsheetPattern","winauto.uiauto_IUIAutomationSpreadsheetPattern"]
+description: Enables a client application to access the items (cells) in a spreadsheet.
+helpviewer_keywords: ["IUIAutomationSpreadsheetPattern","IUIAutomationSpreadsheetPattern interface [Windows Accessibility]","IUIAutomationSpreadsheetPattern interface [Windows Accessibility]","described","uiautomationclient/IUIAutomationSpreadsheetPattern","winauto.uiauto_IUIAutomationSpreadsheetPattern"]
 old-location: winauto\uiauto_IUIAutomationSpreadsheetPattern.htm
 tech.root: WinAuto
 ms.assetid: 049DC33E-48C3-43AB-A5B0-401CDBAE4873

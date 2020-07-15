@@ -1,7 +1,8 @@
 ---
 UID: NS:projectedfslib.PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS
 title: PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS (projectedfslib.h)
-description: Specifies parameters required for completing certain callbacks.helpviewer_keywords: ["PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS","PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS structure","ProjFS.prj_complete_command_extended_parameters","projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS"]
+description: Specifies parameters required for completing certain callbacks.
+helpviewer_keywords: ["PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS","PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS structure","ProjFS.prj_complete_command_extended_parameters","projectedfslib/PRJ_COMPLETE_COMMAND_EXTENDED_PARAMETERS"]
 old-location: projfs\prj_complete_command_extended_parameters.htm
 tech.root: ProjFS
 ms.assetid: 1E13CED8-41DF-4206-AA60-751424424011

@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IThreadPoolKnobs.SetQueueDepth
 title: IThreadPoolKnobs::SetQueueDepth (comsvcs.h)
-description: Sets the threshold number of execution requests above which a new thread is added to the pool.helpviewer_keywords: ["IThreadPoolKnobs interface [COM+]","SetQueueDepth method","IThreadPoolKnobs.SetQueueDepth","IThreadPoolKnobs::SetQueueDepth","SetQueueDepth","SetQueueDepth method [COM+]","SetQueueDepth method [COM+]","IThreadPoolKnobs interface","_cos_IThreadPoolKnobs_SetQueueDepth","comsvcs/IThreadPoolKnobs::SetQueueDepth","cos.ithreadpoolknobs_setqueuedepth"]
+description: Sets the threshold number of execution requests above which a new thread is added to the pool.
+helpviewer_keywords: ["IThreadPoolKnobs interface [COM+]","SetQueueDepth method","IThreadPoolKnobs.SetQueueDepth","IThreadPoolKnobs::SetQueueDepth","SetQueueDepth","SetQueueDepth method [COM+]","SetQueueDepth method [COM+]","IThreadPoolKnobs interface","_cos_IThreadPoolKnobs_SetQueueDepth","comsvcs/IThreadPoolKnobs::SetQueueDepth","cos.ithreadpoolknobs_setqueuedepth"]
 old-location: cos\ithreadpoolknobs_setqueuedepth.htm
 tech.root: cossdk
 ms.assetid: 42c12d8b-d7e6-4dd3-926c-176638433839

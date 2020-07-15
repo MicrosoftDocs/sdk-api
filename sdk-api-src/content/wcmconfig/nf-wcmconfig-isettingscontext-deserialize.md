@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsContext.Deserialize
 title: ISettingsContext::Deserialize (wcmconfig.h)
-description: Deserializes the data in the stream that is provided to this context.helpviewer_keywords: ["Deserialize","Deserialize method [SMI]","Deserialize method [SMI]","ISettingsContext interface","ISettingsContext interface [SMI]","Deserialize method","ISettingsContext.Deserialize","ISettingsContext::Deserialize","smi.isettingscontext_deserialize","wcmconfig/ISettingsContext::Deserialize"]
+description: Deserializes the data in the stream that is provided to this context.
+helpviewer_keywords: ["Deserialize","Deserialize method [SMI]","Deserialize method [SMI]","ISettingsContext interface","ISettingsContext interface [SMI]","Deserialize method","ISettingsContext.Deserialize","ISettingsContext::Deserialize","smi.isettingscontext_deserialize","wcmconfig/ISettingsContext::Deserialize"]
 old-location: smi\isettingscontext_deserialize.htm
 tech.root: SMI
 ms.assetid: 382f2864-047e-4095-929b-a8b67773eefb

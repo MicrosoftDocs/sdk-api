@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.EnumerateScopeRules
 title: ISearchCrawlScopeManager::EnumerateScopeRules (searchapi.h)
-description: Returns an enumeration of all the scope rules of which this instance of the ISearchCrawlScopeManager interface is aware.helpviewer_keywords: ["EnumerateScopeRules","EnumerateScopeRules method [search]","EnumerateScopeRules method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","EnumerateScopeRules method","ISearchCrawlScopeManager.EnumerateScopeRules","ISearchCrawlScopeManager::EnumerateScopeRules","_search_ISearchCrawlScopeManager_EnumerateScopeRules","search._search_ISearchCrawlScopeManager_EnumerateScopeRules","searchapi/ISearchCrawlScopeManager::EnumerateScopeRules"]
+description: Returns an enumeration of all the scope rules of which this instance of the ISearchCrawlScopeManager interface is aware.
+helpviewer_keywords: ["EnumerateScopeRules","EnumerateScopeRules method [search]","EnumerateScopeRules method [search]","ISearchCrawlScopeManager interface","ISearchCrawlScopeManager interface [search]","EnumerateScopeRules method","ISearchCrawlScopeManager.EnumerateScopeRules","ISearchCrawlScopeManager::EnumerateScopeRules","_search_ISearchCrawlScopeManager_EnumerateScopeRules","search._search_ISearchCrawlScopeManager_EnumerateScopeRules","searchapi/ISearchCrawlScopeManager::EnumerateScopeRules"]
 old-location: search\_search_ISearchCrawlScopeManager_EnumerateScopeRules.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\enumeratescoperules.htm
@@ -80,9 +81,4 @@ Returns S_OK if successful, S_FALSE if there are no rules to enumerate, or an er
 
 ## -remarks
 
-
-
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

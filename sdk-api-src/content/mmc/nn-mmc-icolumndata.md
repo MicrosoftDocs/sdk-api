@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IColumnData
 title: IColumnData (mmc.h)
-description: The IColumnData interface is introduced in MMC 1.2.helpviewer_keywords: ["IColumnData","IColumnData interface [MMC]","IColumnData interface [MMC]","described","_slate_icolumndata","mmc.icolumndata","mmc/IColumnData"]
+description: The IColumnData interface is introduced in MMC 1.2.
+helpviewer_keywords: ["IColumnData","IColumnData interface [MMC]","IColumnData interface [MMC]","described","_slate_icolumndata","mmc.icolumndata","mmc/IColumnData"]
 old-location: mmc\icolumndata.htm
 tech.root: mmc
 ms.assetid: fb2b8863-c476-4997-915d-329cf66fd945

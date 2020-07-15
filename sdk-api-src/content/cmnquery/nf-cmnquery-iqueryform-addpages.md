@@ -1,7 +1,8 @@
 ---
 UID: NF:cmnquery.IQueryForm.AddPages
 title: IQueryForm::AddPages (cmnquery.h)
-description: Called to allow a query form object to add pages to an existing form.helpviewer_keywords: ["AddPages","AddPages method [Active Directory]","AddPages method [Active Directory]","IQueryForm interface","IQueryForm interface [Active Directory]","AddPages method","IQueryForm.AddPages","IQueryForm::AddPages","_glines_iqueryform_addpages","ad.iqueryform__addpages","ad.iqueryform_addpages","cmnquery/IQueryForm::AddPages"]
+description: Called to allow a query form object to add pages to an existing form.
+helpviewer_keywords: ["AddPages","AddPages method [Active Directory]","AddPages method [Active Directory]","IQueryForm interface","IQueryForm interface [Active Directory]","AddPages method","IQueryForm.AddPages","IQueryForm::AddPages","_glines_iqueryform_addpages","ad.iqueryform__addpages","ad.iqueryform_addpages","cmnquery/IQueryForm::AddPages"]
 old-location: ad\iqueryform_addpages.htm
 tech.root: ad
 ms.assetid: 797496fd-67db-4ec2-beec-224664d5d330

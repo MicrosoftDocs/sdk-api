@@ -1,7 +1,8 @@
 ---
 UID: NF:psapi.EnumProcessModulesEx
 title: EnumProcessModulesEx function (psapi.h)
-description: Retrieves a handle for each module in the specified process that meets the specified filter criteria.helpviewer_keywords: ["EnumProcessModulesEx","EnumProcessModulesEx function [PSAPI]","K32EnumProcessModulesEx","LIST_MODULES_32BIT","LIST_MODULES_64BIT","LIST_MODULES_ALL","LIST_MODULES_DEFAULT","base.enumprocessmodulesex","psapi.enumprocessmodulesex","psapi/EnumProcessModulesEx","psapi/K32EnumProcessModulesEx"]
+description: Retrieves a handle for each module in the specified process that meets the specified filter criteria.
+helpviewer_keywords: ["EnumProcessModulesEx","EnumProcessModulesEx function [PSAPI]","K32EnumProcessModulesEx","LIST_MODULES_32BIT","LIST_MODULES_64BIT","LIST_MODULES_ALL","LIST_MODULES_DEFAULT","base.enumprocessmodulesex","psapi.enumprocessmodulesex","psapi/EnumProcessModulesEx","psapi/K32EnumProcessModulesEx"]
 old-location: psapi\enumprocessmodulesex.htm
 tech.root: psapi
 ms.assetid: 0f982f32-31f4-47b6-85d2-d6e17aa4eeb9

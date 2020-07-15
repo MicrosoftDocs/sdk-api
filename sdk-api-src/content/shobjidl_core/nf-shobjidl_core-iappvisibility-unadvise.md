@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.Unadvise
 title: IAppVisibility::Unadvise (shobjidl_core.h)
-description: Cancels a connection that was previously established by using Advise.helpviewer_keywords: ["IAppVisibility interface [Windows Shell]","Unadvise method","IAppVisibility.Unadvise","IAppVisibility::Unadvise","Unadvise","Unadvise method [Windows Shell]","Unadvise method [Windows Shell]","IAppVisibility interface","shell.IAppVisibility_Unadvise","shobjidl_core/IAppVisibility::Unadvise"]
+description: Cancels a connection that was previously established by using Advise.
+helpviewer_keywords: ["IAppVisibility interface [Windows Shell]","Unadvise method","IAppVisibility.Unadvise","IAppVisibility::Unadvise","Unadvise","Unadvise method [Windows Shell]","Unadvise method [Windows Shell]","IAppVisibility interface","shell.IAppVisibility_Unadvise","shobjidl_core/IAppVisibility::Unadvise"]
 old-location: shell\IAppVisibility_Unadvise.htm
 tech.root: shell
 ms.assetid: D670F1E7-5E0B-498E-8F27-DF2A3A387862

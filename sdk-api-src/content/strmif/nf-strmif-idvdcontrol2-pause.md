@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl2.Pause
 title: IDvdControl2::Pause (strmif.h)
-description: Note  This method is deprecated. Applications should call IMediaControl::Pause instead. For more information, see Data Flow in the DVD Navigator. The Pause method pauses or resumes playback at the current location.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","Pause method","IDvdControl2.Pause","IDvdControl2::Pause","IDvdControl2Pause","Pause","Pause method [DirectShow]","Pause method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_pause","strmif/IDvdControl2::Pause"]
+description: Note  This method is deprecated. Applications should call IMediaControl::Pause instead. For more information, see Data Flow in the DVD Navigator. The Pause method pauses or resumes playback at the current location.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","Pause method","IDvdControl2.Pause","IDvdControl2::Pause","IDvdControl2Pause","Pause","Pause method [DirectShow]","Pause method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_pause","strmif/IDvdControl2::Pause"]
 old-location: dshow\idvdcontrol2_pause.htm
 tech.root: DirectShow
 ms.assetid: 32ef572a-56f5-4aa4-b994-08f86a1f17ec

@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFileSystemImageResult.get_ImageStream
 title: IFileSystemImageResult::get_ImageStream (imapi2fs.h)
-description: Retrieves the burn image stream.helpviewer_keywords: ["IFileSystemImageResult interface [IMAPI]","get_ImageStream method","IFileSystemImageResult.get_ImageStream","IFileSystemImageResult::get_ImageStream","get_ImageStream","get_ImageStream method [IMAPI]","get_ImageStream method [IMAPI]","IFileSystemImageResult interface","imapi.ifilesystemimageresult_get_imagestream","imapi2fs/IFileSystemImageResult::get_ImageStream"]
+description: Retrieves the burn image stream.
+helpviewer_keywords: ["IFileSystemImageResult interface [IMAPI]","get_ImageStream method","IFileSystemImageResult.get_ImageStream","IFileSystemImageResult::get_ImageStream","get_ImageStream","get_ImageStream method [IMAPI]","get_ImageStream method [IMAPI]","IFileSystemImageResult interface","imapi.ifilesystemimageresult_get_imagestream","imapi2fs/IFileSystemImageResult::get_ImageStream"]
 old-location: imapi\ifilesystemimageresult_get_imagestream.htm
 tech.root: imapi
 ms.assetid: 87e4bde6-c8c3-43b6-b096-514fdef5e262

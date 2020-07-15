@@ -1,7 +1,8 @@
 ---
 UID: NS:d2d1effectauthor.D2D1_FEATURE_DATA_DOUBLES
 title: D2D1_FEATURE_DATA_DOUBLES (d2d1effectauthor.h)
-description: Describes the support for doubles in shaders.helpviewer_keywords: ["D2D1_FEATURE_DATA_DOUBLES","D2D1_FEATURE_DATA_DOUBLES structure [Direct2D]","d2d1effectauthor/D2D1_FEATURE_DATA_DOUBLES","direct2d.d2d1_feature_data_doubles"]
+description: Describes the support for doubles in shaders.
+helpviewer_keywords: ["D2D1_FEATURE_DATA_DOUBLES","D2D1_FEATURE_DATA_DOUBLES structure [Direct2D]","d2d1effectauthor/D2D1_FEATURE_DATA_DOUBLES","direct2d.d2d1_feature_data_doubles"]
 old-location: direct2d\d2d1_feature_data_doubles.htm
 tech.root: Direct2D
 ms.assetid: 29EDAD15-FFFF-4F0D-BB0D-B4BF37AC609F

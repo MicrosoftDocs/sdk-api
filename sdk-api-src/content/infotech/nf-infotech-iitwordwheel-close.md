@@ -1,7 +1,8 @@
 ---
 UID: NF:infotech.IITWordWheel.Close
 title: IITWordWheel::Close (infotech.h)
-description: Closes a word wheel.helpviewer_keywords: ["Close","Close method [HTML Help Workshop]","Close method [HTML Help Workshop]","IITWordWheel interface","IITWordWheel interface [HTML Help Workshop]","Close method","IITWordWheel.Close","IITWordWheel::Close","htmlhelp.iitwordwheel_close","infotech/IITWordWheel::Close","refIITWordWheelClose"]
+description: Closes a word wheel.
+helpviewer_keywords: ["Close","Close method [HTML Help Workshop]","Close method [HTML Help Workshop]","IITWordWheel interface","IITWordWheel interface [HTML Help Workshop]","Close method","IITWordWheel.Close","IITWordWheel::Close","htmlhelp.iitwordwheel_close","infotech/IITWordWheel::Close","refIITWordWheelClose"]
 old-location: htmlhelp\iitwordwheel_close.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitwordwheelclose.htm

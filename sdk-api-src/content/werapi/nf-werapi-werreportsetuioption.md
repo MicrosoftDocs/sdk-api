@@ -1,7 +1,8 @@
 ---
 UID: NF:werapi.WerReportSetUIOption
 title: WerReportSetUIOption function (werapi.h)
-description: Sets the user interface options for the specified report.helpviewer_keywords: ["WerReportSetUIOption","WerReportSetUIOption function [Windows Error Reporting]","WerUIAdditionalDataDlgHeader","WerUICloseDlgBody","WerUICloseDlgButtonText","WerUICloseDlgHeader","WerUICloseText","WerUIConsentDlgBody","WerUIConsentDlgHeader","WerUIIconFilePath","WerUIOfflineSolutionCheckText","WerUIOnlineSolutionCheckText","base.werreportsetuioption","wer.werreportsetuioption","werapi/WerReportSetUIOption"]
+description: Sets the user interface options for the specified report.
+helpviewer_keywords: ["WerReportSetUIOption","WerReportSetUIOption function [Windows Error Reporting]","WerUIAdditionalDataDlgHeader","WerUICloseDlgBody","WerUICloseDlgButtonText","WerUICloseDlgHeader","WerUICloseText","WerUIConsentDlgBody","WerUIConsentDlgHeader","WerUIIconFilePath","WerUIOfflineSolutionCheckText","WerUIOnlineSolutionCheckText","base.werreportsetuioption","wer.werreportsetuioption","werapi/WerReportSetUIOption"]
 old-location: wer\werreportsetuioption.htm
 tech.root: wer
 ms.assetid: c8816782-faec-490e-898f-a40df8fb205b

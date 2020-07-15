@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpReadFragmentFromCache
 title: HttpReadFragmentFromCache function (http.h)
-description: The HttpReadFragmentFromCache function retrieves a response fragment having a specified name from the HTTP Server API cache.helpviewer_keywords: ["HttpReadFragmentFromCache","HttpReadFragmentFromCache function [HTTP]","_http_httpreadfragmentfromcache","http.httpreadfragmentfromcache","http/HttpReadFragmentFromCache"]
+description: The HttpReadFragmentFromCache function retrieves a response fragment having a specified name from the HTTP Server API cache.
+helpviewer_keywords: ["HttpReadFragmentFromCache","HttpReadFragmentFromCache function [HTTP]","_http_httpreadfragmentfromcache","http.httpreadfragmentfromcache","http/HttpReadFragmentFromCache"]
 old-location: http\httpreadfragmentfromcache.htm
 tech.root: http
 ms.assetid: 2f066e1d-035f-4c1c-b854-de4a6ef58a58

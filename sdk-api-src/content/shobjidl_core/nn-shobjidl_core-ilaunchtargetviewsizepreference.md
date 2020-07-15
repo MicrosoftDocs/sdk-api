@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.ILaunchTargetViewSizePreference
 title: ILaunchTargetViewSizePreference (shobjidl_core.h)
-description: Provides a method for retrieving the preferred view size for a new application window.helpviewer_keywords: ["ILaunchTargetViewSizePreference","ILaunchTargetViewSizePreference interface [Windows Shell]","ILaunchTargetViewSizePreference interface [Windows Shell]","described","shell.ILaunchTargetViewSizePreference","shobjidl_core/ILaunchTargetViewSizePreference"]
+description: Provides a method for retrieving the preferred view size for a new application window.
+helpviewer_keywords: ["ILaunchTargetViewSizePreference","ILaunchTargetViewSizePreference interface [Windows Shell]","ILaunchTargetViewSizePreference interface [Windows Shell]","described","shell.ILaunchTargetViewSizePreference","shobjidl_core/ILaunchTargetViewSizePreference"]
 old-location: shell\ILaunchTargetViewSizePreference.htm
 tech.root: shell
 ms.assetid: 3535E9EF-265E-4278-8E0D-60AA8A34C316

@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.FindNextAttrTransition
 title: ITextStoreAnchor::FindNextAttrTransition (textstor.h)
-description: The ITextStoreAnchor::FindNextAttrTransition method finds the location in the text stream where a transition occurs in an attribute value. The specified attribute to check is application-dependent.helpviewer_keywords: ["FindNextAttrTransition","FindNextAttrTransition method [Text Services Framework]","FindNextAttrTransition method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","FindNextAttrTransition method","ITextStoreAnchor.FindNextAttrTransition","ITextStoreAnchor::FindNextAttrTransition","TS_ATTR_FIND_BACKWARDS","TS_ATTR_FIND_UPDATESTART","TS_ATTR_FIND_WANT_OFFSET","textstor/ITextStoreAnchor::FindNextAttrTransition","tsf.itextstoreanchor_findnextattrtransition"]
+description: The ITextStoreAnchor::FindNextAttrTransition method finds the location in the text stream where a transition occurs in an attribute value. The specified attribute to check is application-dependent.
+helpviewer_keywords: ["FindNextAttrTransition","FindNextAttrTransition method [Text Services Framework]","FindNextAttrTransition method [Text Services Framework]","ITextStoreAnchor interface","ITextStoreAnchor interface [Text Services Framework]","FindNextAttrTransition method","ITextStoreAnchor.FindNextAttrTransition","ITextStoreAnchor::FindNextAttrTransition","TS_ATTR_FIND_BACKWARDS","TS_ATTR_FIND_UPDATESTART","TS_ATTR_FIND_WANT_OFFSET","textstor/ITextStoreAnchor::FindNextAttrTransition","tsf.itextstoreanchor_findnextattrtransition"]
 old-location: tsf\itextstoreanchor_findnextattrtransition.htm
 tech.root: TSF
 ms.assetid: 9bb21a4a-047e-4347-93b3-9c41cd2c20b7

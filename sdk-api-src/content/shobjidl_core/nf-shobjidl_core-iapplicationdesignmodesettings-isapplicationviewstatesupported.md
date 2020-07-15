@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IApplicationDesignModeSettings.IsApplicationViewStateSupported
 title: IApplicationDesignModeSettings::IsApplicationViewStateSupported (shobjidl_core.h)
-description: Determines whether a particular application view state is supported for specific spoofed display size and scale factor settings.helpviewer_keywords: ["IApplicationDesignModeSettings interface [Windows Shell]","IsApplicationViewStateSupported method","IApplicationDesignModeSettings.IsApplicationViewStateSupported","IApplicationDesignModeSettings::IsApplicationViewStateSupported","IsApplicationViewStateSupported","IsApplicationViewStateSupported method [Windows Shell]","IsApplicationViewStateSupported method [Windows Shell]","IApplicationDesignModeSettings interface","shell.IApplicationDesignModeSettings_IsApplicationViewStateSupported","shobjidl_core/IApplicationDesignModeSettings::IsApplicationViewStateSupported"]
+description: Determines whether a particular application view state is supported for specific spoofed display size and scale factor settings.
+helpviewer_keywords: ["IApplicationDesignModeSettings interface [Windows Shell]","IsApplicationViewStateSupported method","IApplicationDesignModeSettings.IsApplicationViewStateSupported","IApplicationDesignModeSettings::IsApplicationViewStateSupported","IsApplicationViewStateSupported","IsApplicationViewStateSupported method [Windows Shell]","IsApplicationViewStateSupported method [Windows Shell]","IApplicationDesignModeSettings interface","shell.IApplicationDesignModeSettings_IsApplicationViewStateSupported","shobjidl_core/IApplicationDesignModeSettings::IsApplicationViewStateSupported"]
 old-location: shell\IApplicationDesignModeSettings_IsApplicationViewStateSupported.htm
 tech.root: shell
 ms.assetid: 49661f00-15bc-48c0-a302-b81bee61180a

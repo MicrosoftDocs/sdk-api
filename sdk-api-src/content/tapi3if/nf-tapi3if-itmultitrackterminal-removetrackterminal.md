@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITMultiTrackTerminal.RemoveTrackTerminal
 title: ITMultiTrackTerminal::RemoveTrackTerminal (tapi3if.h)
-description: The RemoveTrackTerminal method removes the specified terminal from the collection of track terminals that belong to the multitrack terminal on which the method was called.helpviewer_keywords: ["ITMultiTrackTerminal interface [TAPI 2.2]","RemoveTrackTerminal method","ITMultiTrackTerminal.RemoveTrackTerminal","ITMultiTrackTerminal::RemoveTrackTerminal","RemoveTrackTerminal","RemoveTrackTerminal method [TAPI 2.2]","RemoveTrackTerminal method [TAPI 2.2]","ITMultiTrackTerminal interface","_tapi3_itmultitrackterminal_removetrackterminal","tapi3.itmultitrackterminal_removetrackterminal","tapi3if/ITMultiTrackTerminal::RemoveTrackTerminal"]
+description: The RemoveTrackTerminal method removes the specified terminal from the collection of track terminals that belong to the multitrack terminal on which the method was called.
+helpviewer_keywords: ["ITMultiTrackTerminal interface [TAPI 2.2]","RemoveTrackTerminal method","ITMultiTrackTerminal.RemoveTrackTerminal","ITMultiTrackTerminal::RemoveTrackTerminal","RemoveTrackTerminal","RemoveTrackTerminal method [TAPI 2.2]","RemoveTrackTerminal method [TAPI 2.2]","ITMultiTrackTerminal interface","_tapi3_itmultitrackterminal_removetrackterminal","tapi3.itmultitrackterminal_removetrackterminal","tapi3if/ITMultiTrackTerminal::RemoveTrackTerminal"]
 old-location: tapi3\itmultitrackterminal_removetrackterminal.htm
 tech.root: Tapi
 ms.assetid: 59f257ef-9e52-40fb-a72c-732105262016

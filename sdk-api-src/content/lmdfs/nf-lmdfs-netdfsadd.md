@@ -1,7 +1,8 @@
 ---
 UID: NF:lmdfs.NetDfsAdd
 title: NetDfsAdd function (lmdfs.h)
-description: Creates a new Distributed File System (DFS) link or adds targets to an existing link in a DFS namespace.helpviewer_keywords: ["DFS_ADD_VOLUME","DFS_RESTORE_VOLUME","NetDfsAdd","NetDfsAdd function [Distributed File System]","_win32_netdfsadd","dfs.netdfsadd","fs.netdfsadd","lmdfs/NetDfsAdd","netmgmt.netdfsadd"]
+description: Creates a new Distributed File System (DFS) link or adds targets to an existing link in a DFS namespace.
+helpviewer_keywords: ["DFS_ADD_VOLUME","DFS_RESTORE_VOLUME","NetDfsAdd","NetDfsAdd function [Distributed File System]","_win32_netdfsadd","dfs.netdfsadd","fs.netdfsadd","lmdfs/NetDfsAdd","netmgmt.netdfsadd"]
 old-location: dfs\netdfsadd.htm
 tech.root: Dfs
 ms.assetid: 2c8816b2-5489-486e-b749-605932ba9fe9

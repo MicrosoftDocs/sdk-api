@@ -1,7 +1,8 @@
 ---
 UID: NF:cfapi.CfUpdatePlaceholder
 title: CfUpdatePlaceholder function (cfapi.h)
-description: Updates characteristics of the placeholder file or directory.helpviewer_keywords: ["CfUpdatePlaceholder","CfUpdatePlaceholder function","cfapi/CfUpdatePlaceholder","cloudApi.cfupdateplaceholder"]
+description: Updates characteristics of the placeholder file or directory.
+helpviewer_keywords: ["CfUpdatePlaceholder","CfUpdatePlaceholder function","cfapi/CfUpdatePlaceholder","cloudApi.cfupdateplaceholder"]
 old-location: cloudapi\cfupdateplaceholder.htm
 tech.root: cfApi
 ms.assetid: 13F2BF9A-505F-4CFB-B008-7DDE85A3C581

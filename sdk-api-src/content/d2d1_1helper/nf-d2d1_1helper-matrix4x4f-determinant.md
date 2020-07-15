@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1helper.Matrix4x4F.Determinant
 title: Matrix4x4F::Determinant (d2d1_1helper.h)
-description: Calculates the determinant of the matrix.helpviewer_keywords: ["Determinant","Determinant method [Direct2D]","Determinant method [Direct2D]","Matrix4x4F interface","Matrix4x4F interface [Direct2D]","Determinant method","Matrix4x4F.Determinant","Matrix4x4F::Determinant","d2d1_1helper/Matrix4x4F::Determinant","direct2d.matrix4x4f_determinant"]
+description: Calculates the determinant of the matrix.
+helpviewer_keywords: ["Determinant","Determinant method [Direct2D]","Determinant method [Direct2D]","Matrix4x4F interface","Matrix4x4F interface [Direct2D]","Determinant method","Matrix4x4F.Determinant","Matrix4x4F::Determinant","d2d1_1helper/Matrix4x4F::Determinant","direct2d.matrix4x4f_determinant"]
 old-location: direct2d\matrix4x4f_determinant.htm
 tech.root: Direct2D
 ms.assetid: 900531EB-F3D4-4971-984E-A355E79D6577

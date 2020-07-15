@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.GetValue
 title: ISettingsItem::GetValue (wcmconfig.h)
-description: Gets the current value from the item.helpviewer_keywords: ["GetValue","GetValue method [SMI]","GetValue method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetValue method","ISettingsItem.GetValue","ISettingsItem::GetValue","smi.isettingsitem_getvalue","wcmconfig/ISettingsItem::GetValue"]
+description: Gets the current value from the item.
+helpviewer_keywords: ["GetValue","GetValue method [SMI]","GetValue method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","GetValue method","ISettingsItem.GetValue","ISettingsItem::GetValue","smi.isettingsitem_getvalue","wcmconfig/ISettingsItem::GetValue"]
 old-location: smi\isettingsitem_getvalue.htm
 tech.root: SMI
 ms.assetid: 11b61570-d1ed-4dcf-b533-873096ae80b9

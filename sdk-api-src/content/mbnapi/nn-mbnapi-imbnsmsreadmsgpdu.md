@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnSmsReadMsgPdu
 title: IMbnSmsReadMsgPdu (mbnapi.h)
-description: A collection of properties that represent an SMS message read from the device memory.helpviewer_keywords: ["IMbnSmsReadMsgPdu","IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks]","IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks]","described","mbn.imbnsmsreadmsgpdu","mbnapi/IMbnSmsReadMsgPdu"]
+description: A collection of properties that represent an SMS message read from the device memory.
+helpviewer_keywords: ["IMbnSmsReadMsgPdu","IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks]","IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks]","described","mbn.imbnsmsreadmsgpdu","mbnapi/IMbnSmsReadMsgPdu"]
 old-location: mbn\imbnsmsreadmsgpdu.htm
 tech.root: mbn
 ms.assetid: dc0e15c4-6203-4105-9d19-5931b27047d2

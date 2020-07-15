@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IBasicVideo.get_BitRate
 title: IBasicVideo::get_BitRate (control.h)
-description: The get_BitRate method retrieves the approximate bit rate of the video stream.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_BitRate method","IBasicVideo.get_BitRate","IBasicVideo::get_BitRate","IBasicVideoget_BitRate","control/IBasicVideo::get_BitRate","dshow.ibasicvideo_get_bitrate","get_BitRate","get_BitRate method [DirectShow]","get_BitRate method [DirectShow]","IBasicVideo interface"]
+description: The get_BitRate method retrieves the approximate bit rate of the video stream.
+helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_BitRate method","IBasicVideo.get_BitRate","IBasicVideo::get_BitRate","IBasicVideoget_BitRate","control/IBasicVideo::get_BitRate","dshow.ibasicvideo_get_bitrate","get_BitRate","get_BitRate method [DirectShow]","get_BitRate method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_get_bitrate.htm
 tech.root: DirectShow
 ms.assetid: aae4c41d-4cab-4c49-9733-44ba5e0e03bb

@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IGetClusterResourceInfo.GetResourceTypeName
 title: IGetClusterResourceInfo::GetResourceTypeName (cluadmex.h)
-description: Returns the type of a resource.helpviewer_keywords: ["GetResourceTypeName","GetResourceTypeName method [Failover Cluster]","GetResourceTypeName method [Failover Cluster]","IGetClusterResourceInfo interface","IGetClusterResourceInfo interface [Failover Cluster]","GetResourceTypeName method","IGetClusterResourceInfo.GetResourceTypeName","IGetClusterResourceInfo::GetResourceTypeName","_wolf_igetclusterresourceinfo_getresourcetypename","cluadmex/IGetClusterResourceInfo::GetResourceTypeName","mscs.igetclusterresourceinfo_getresourcetypename"]
+description: Returns the type of a resource.
+helpviewer_keywords: ["GetResourceTypeName","GetResourceTypeName method [Failover Cluster]","GetResourceTypeName method [Failover Cluster]","IGetClusterResourceInfo interface","IGetClusterResourceInfo interface [Failover Cluster]","GetResourceTypeName method","IGetClusterResourceInfo.GetResourceTypeName","IGetClusterResourceInfo::GetResourceTypeName","_wolf_igetclusterresourceinfo_getresourcetypename","cluadmex/IGetClusterResourceInfo::GetResourceTypeName","mscs.igetclusterresourceinfo_getresourcetypename"]
 old-location: mscs\igetclusterresourceinfo_getresourcetypename.htm
 tech.root: MsCS
 ms.assetid: c7154163-0ab9-4766-99be-31457a0efc17

@@ -1,7 +1,8 @@
 ---
 UID: NF:bits2_5.IBackgroundCopyJobHttpOptions.SetCustomHeaders
 title: IBackgroundCopyJobHttpOptions::SetCustomHeaders (bits2_5.h)
-description: Specifies one or more custom HTTP headers to include in HTTP requests.helpviewer_keywords: ["IBackgroundCopyJobHttpOptions interface [BITS]","SetCustomHeaders method","IBackgroundCopyJobHttpOptions.SetCustomHeaders","IBackgroundCopyJobHttpOptions::SetCustomHeaders","SetCustomHeaders","SetCustomHeaders method [BITS]","SetCustomHeaders method [BITS]","IBackgroundCopyJobHttpOptions interface","bits.ibackgroundcopyjobhttpoptions_setcustomheaders","bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders"]
+description: Specifies one or more custom HTTP headers to include in HTTP requests.
+helpviewer_keywords: ["IBackgroundCopyJobHttpOptions interface [BITS]","SetCustomHeaders method","IBackgroundCopyJobHttpOptions.SetCustomHeaders","IBackgroundCopyJobHttpOptions::SetCustomHeaders","SetCustomHeaders","SetCustomHeaders method [BITS]","SetCustomHeaders method [BITS]","IBackgroundCopyJobHttpOptions interface","bits.ibackgroundcopyjobhttpoptions_setcustomheaders","bits2_5/IBackgroundCopyJobHttpOptions::SetCustomHeaders"]
 old-location: bits\ibackgroundcopyjobhttpoptions_setcustomheaders.htm
 tech.root: Bits
 ms.assetid: 422a331d-5b6b-48ec-b040-43a88be43ac3

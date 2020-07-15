@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.DDiscMaster2Events.NotifyDeviceAdded
 title: DDiscMaster2Events::NotifyDeviceAdded (imapi2.h)
-description: Receives notification when an optical media device is added to the computer.helpviewer_keywords: ["DDiscMaster2Events interface [IMAPI]","NotifyDeviceAdded method","DDiscMaster2Events.NotifyDeviceAdded","DDiscMaster2Events::NotifyDeviceAdded","NotifyDeviceAdded","NotifyDeviceAdded method [IMAPI]","NotifyDeviceAdded method [IMAPI]","DDiscMaster2Events interface","imapi.ddiscmaster2events_notifydeviceadded","imapi2/DDiscMaster2Events::NotifyDeviceAdded"]
+description: Receives notification when an optical media device is added to the computer.
+helpviewer_keywords: ["DDiscMaster2Events interface [IMAPI]","NotifyDeviceAdded method","DDiscMaster2Events.NotifyDeviceAdded","DDiscMaster2Events::NotifyDeviceAdded","NotifyDeviceAdded","NotifyDeviceAdded method [IMAPI]","NotifyDeviceAdded method [IMAPI]","DDiscMaster2Events interface","imapi.ddiscmaster2events_notifydeviceadded","imapi2/DDiscMaster2Events::NotifyDeviceAdded"]
 old-location: imapi\ddiscmaster2events_notifydeviceadded.htm
 tech.root: imapi
 ms.assetid: 1f728b33-3788-4fc4-b261-da243b4ff46e

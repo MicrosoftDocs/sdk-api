@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ISecurityProperty.GetOriginalCreatorSID
 title: ISecurityProperty::GetOriginalCreatorSID (comsvcs.h)
-description: In MTS 2.0, this method retrieves the security identifier of the base process that initiated the activity in which the current object is executing. Do not use this method in COM+.helpviewer_keywords: ["GetOriginalCreatorSID","GetOriginalCreatorSID method [COM+]","GetOriginalCreatorSID method [COM+]","ISecurityProperty interface","ISecurityProperty interface [COM+]","GetOriginalCreatorSID method","ISecurityProperty.GetOriginalCreatorSID","ISecurityProperty::GetOriginalCreatorSID","_cos_ISecurityProperty_GetOriginalCreatorSID","comsvcs/ISecurityProperty::GetOriginalCreatorSID","cos.isecurityproperty_getoriginalcreatorsid"]
+description: In MTS 2.0, this method retrieves the security identifier of the base process that initiated the activity in which the current object is executing. Do not use this method in COM+.
+helpviewer_keywords: ["GetOriginalCreatorSID","GetOriginalCreatorSID method [COM+]","GetOriginalCreatorSID method [COM+]","ISecurityProperty interface","ISecurityProperty interface [COM+]","GetOriginalCreatorSID method","ISecurityProperty.GetOriginalCreatorSID","ISecurityProperty::GetOriginalCreatorSID","_cos_ISecurityProperty_GetOriginalCreatorSID","comsvcs/ISecurityProperty::GetOriginalCreatorSID","cos.isecurityproperty_getoriginalcreatorsid"]
 old-location: cos\isecurityproperty_getoriginalcreatorsid.htm
 tech.root: cossdk
 ms.assetid: 599b0773-feee-4e3d-a23b-cc2c294f49f9

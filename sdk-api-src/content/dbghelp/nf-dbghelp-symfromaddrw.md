@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymFromAddrW
 title: SymFromAddrW function (dbghelp.h)
-description: Retrieves symbol information for the specified address.helpviewer_keywords: ["SymFromAddr","SymFromAddr function","SymFromAddrW","_win32_symfromaddr","base.symfromaddr","dbghelp/SymFromAddr","dbghelp/SymFromAddrW"]
+description: Retrieves symbol information for the specified address.
+helpviewer_keywords: ["SymFromAddr","SymFromAddr function","SymFromAddrW","_win32_symfromaddr","base.symfromaddr","dbghelp/SymFromAddr","dbghelp/SymFromAddrW"]
 old-location: base\symfromaddr.htm
 tech.root: Debug
 ms.assetid: 20338631-19ab-4ad8-9ba2-56fa4812b33e
@@ -111,6 +112,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymFromAddr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

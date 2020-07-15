@@ -1,7 +1,8 @@
 ---
 UID: NS:websocket._WEB_SOCKET_PROPERTY
 title: WEB_SOCKET_PROPERTY (websocket.h)
-description: Contains a single WebSocket property.helpviewer_keywords: ["*PWEB_SOCKET_PROPERTY","PWEB_SOCKET_PROPERTY","PWEB_SOCKET_PROPERTY structure pointer [Websocket Protocol Component API]","WEB_SOCKET_PROPERTY","WEB_SOCKET_PROPERTY structure [Websocket Protocol Component API]","websock.web_socket_property","websocket/PWEB_SOCKET_PROPERTY","websocket/WEB_SOCKET_PROPERTY"]
+description: Contains a single WebSocket property.
+helpviewer_keywords: ["*PWEB_SOCKET_PROPERTY","PWEB_SOCKET_PROPERTY","PWEB_SOCKET_PROPERTY structure pointer [Websocket Protocol Component API]","WEB_SOCKET_PROPERTY","WEB_SOCKET_PROPERTY structure [Websocket Protocol Component API]","websock.web_socket_property","websocket/PWEB_SOCKET_PROPERTY","websocket/WEB_SOCKET_PROPERTY"]
 old-location: websock\web_socket_property.htm
 tech.root: WebSock
 ms.assetid: c8b35288-4cc1-4839-a5be-4fd13b162c20

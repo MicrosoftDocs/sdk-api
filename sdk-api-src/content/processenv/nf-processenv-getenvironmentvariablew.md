@@ -1,7 +1,8 @@
 ---
 UID: NF:processenv.GetEnvironmentVariableW
 title: GetEnvironmentVariableW function (processenv.h)
-description: Retrieves the contents of the specified variable from the environment block of the calling process.helpviewer_keywords: ["GetEnvironmentVariable","GetEnvironmentVariable function","GetEnvironmentVariableA","GetEnvironmentVariableW","_win32_getenvironmentvariable","base.getenvironmentvariable","processenv/GetEnvironmentVariable","processenv/GetEnvironmentVariableA","processenv/GetEnvironmentVariableW","winbase/GetEnvironmentVariable","winbase/GetEnvironmentVariableA","winbase/GetEnvironmentVariableW"]
+description: Retrieves the contents of the specified variable from the environment block of the calling process.
+helpviewer_keywords: ["GetEnvironmentVariable","GetEnvironmentVariable function","GetEnvironmentVariableA","GetEnvironmentVariableW","_win32_getenvironmentvariable","base.getenvironmentvariable","processenv/GetEnvironmentVariable","processenv/GetEnvironmentVariableA","processenv/GetEnvironmentVariableW","winbase/GetEnvironmentVariable","winbase/GetEnvironmentVariableA","winbase/GetEnvironmentVariableW"]
 old-location: base\getenvironmentvariable.htm
 tech.root: ProcThread
 ms.assetid: 1d4cc328-12e6-4aae-9f58-58675116ad54
@@ -108,6 +109,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The processenv.h header defines GetEnvironmentVariable as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

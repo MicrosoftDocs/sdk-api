@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiOpenDevRegKey
 title: SetupDiOpenDevRegKey function (setupapi.h)
-description: The SetupDiOpenDevRegKey function opens a registry key for device-specific configuration information.helpviewer_keywords: ["SetupDiOpenDevRegKey","SetupDiOpenDevRegKey function [Device and Driver Installation]","devinst.setupdiopendevregkey","di-rtns_074a28c6-e847-439c-a694-36a196e418b6.xml","setupapi/SetupDiOpenDevRegKey"]
+description: The SetupDiOpenDevRegKey function opens a registry key for device-specific configuration information.
+helpviewer_keywords: ["SetupDiOpenDevRegKey","SetupDiOpenDevRegKey function [Device and Driver Installation]","devinst.setupdiopendevregkey","di-rtns_074a28c6-e847-439c-a694-36a196e418b6.xml","setupapi/SetupDiOpenDevRegKey"]
 old-location: devinst\setupdiopendevregkey.htm
 tech.root: devinst
 ms.assetid: ffa435c8-4a73-454e-be36-cd90ba6e6d11

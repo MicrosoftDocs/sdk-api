@@ -1,7 +1,8 @@
 ---
 UID: NE:shlwapi.__unnamed_enum_4
 title: SHREGENUM_FLAGS (shlwapi.h)
-description: Provides a set of values that indicate the base key that will be used for an enumeration.helpviewer_keywords: ["SHREGENUM_BOTH","SHREGENUM_DEFAULT","SHREGENUM_FLAGS","SHREGENUM_FLAGS enumeration [Windows Shell]","SHREGENUM_HKCU","SHREGENUM_HKLM","_win32_SHREGENUM_FLAGS","shell.SHREGENUM_FLAGS","shlwapi/SHREGENUM_BOTH","shlwapi/SHREGENUM_DEFAULT","shlwapi/SHREGENUM_FLAGS","shlwapi/SHREGENUM_HKCU","shlwapi/SHREGENUM_HKLM"]
+description: Provides a set of values that indicate the base key that will be used for an enumeration.
+helpviewer_keywords: ["SHREGENUM_BOTH","SHREGENUM_DEFAULT","SHREGENUM_FLAGS","SHREGENUM_FLAGS enumeration [Windows Shell]","SHREGENUM_HKCU","SHREGENUM_HKLM","_win32_SHREGENUM_FLAGS","shell.SHREGENUM_FLAGS","shlwapi/SHREGENUM_BOTH","shlwapi/SHREGENUM_DEFAULT","shlwapi/SHREGENUM_FLAGS","shlwapi/SHREGENUM_HKCU","shlwapi/SHREGENUM_HKLM"]
 old-location: shell\SHREGENUM_FLAGS.htm
 tech.root: shell
 ms.assetid: 4216a983-9d53-44b1-8273-e5a90ac4b3ef

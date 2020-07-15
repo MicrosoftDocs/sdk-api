@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_TIMESPAN_DESCRIPTION
 title: WS_TIMESPAN_DESCRIPTION (webservices.h)
-description: This type description is used with WS_TIMESPAN_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.helpviewer_keywords: ["WS_TIMESPAN_DESCRIPTION","WS_TIMESPAN_DESCRIPTION structure [Web Services for Windows]","webservices/WS_TIMESPAN_DESCRIPTION","wsw.ws_timespan_description"]
+description: This type description is used with WS_TIMESPAN_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
+helpviewer_keywords: ["WS_TIMESPAN_DESCRIPTION","WS_TIMESPAN_DESCRIPTION structure [Web Services for Windows]","webservices/WS_TIMESPAN_DESCRIPTION","wsw.ws_timespan_description"]
 old-location: wsw\ws_timespan_description.htm
 tech.root: wsw
 ms.assetid: 8c74c30e-6793-490b-bc36-b7c60ef35232

@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2fs.IIsoImageManager
 title: IIsoImageManager (imapi2fs.h)
-description: Use this interface to verify if an existing .iso file contains a valid file system for burning.helpviewer_keywords: ["IIsoImageManager","IIsoImageManager interface [IMAPI]","IIsoImageManager interface [IMAPI]","described","imapi.iisoimagemanager","imapi2fs/IIsoImageManager"]
+description: Use this interface to verify if an existing .iso file contains a valid file system for burning.
+helpviewer_keywords: ["IIsoImageManager","IIsoImageManager interface [IMAPI]","IIsoImageManager interface [IMAPI]","described","imapi.iisoimagemanager","imapi2fs/IIsoImageManager"]
 old-location: imapi\iisoimagemanager.htm
 tech.root: imapi
 ms.assetid: 47b059a9-a18a-4f32-9a02-6566175ca86b

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdevlicensing.CheckDeveloperLicense
 title: CheckDeveloperLicense function (wsdevlicensing.h)
-description: Checks to see if a developer license exists.helpviewer_keywords: ["CheckDeveloperLicense","CheckDeveloperLicense function","devlic.checkdeveloperlicense","wsdevlicensing/CheckDeveloperLicense"]
+description: Checks to see if a developer license exists.
+helpviewer_keywords: ["CheckDeveloperLicense","CheckDeveloperLicense function","devlic.checkdeveloperlicense","wsdevlicensing/CheckDeveloperLicense"]
 old-location: devlic\checkdeveloperlicense.htm
 tech.root: devlic
 ms.assetid: 957CBEDC-CF3A-4A65-B0D9-4CEACCAAC344

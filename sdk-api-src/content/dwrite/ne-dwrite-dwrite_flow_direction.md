@@ -1,7 +1,8 @@
 ---
 UID: NE:dwrite.DWRITE_FLOW_DIRECTION
 title: DWRITE_FLOW_DIRECTION (dwrite.h)
-description: Indicates the direction of how lines of text are placed relative to one another.helpviewer_keywords: ["DWRITE_FLOW_DIRECTION","DWRITE_FLOW_DIRECTION enumeration [Direct Write]","DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP","DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT","DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT","DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM","directwrite.dwrite_flow_direction","dwrite/DWRITE_FLOW_DIRECTION","dwrite/DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP","dwrite/DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT","dwrite/DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT","dwrite/DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM"]
+description: Indicates the direction of how lines of text are placed relative to one another.
+helpviewer_keywords: ["DWRITE_FLOW_DIRECTION","DWRITE_FLOW_DIRECTION enumeration [Direct Write]","DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP","DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT","DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT","DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM","directwrite.dwrite_flow_direction","dwrite/DWRITE_FLOW_DIRECTION","dwrite/DWRITE_FLOW_DIRECTION_BOTTOM_TO_TOP","dwrite/DWRITE_FLOW_DIRECTION_LEFT_TO_RIGHT","dwrite/DWRITE_FLOW_DIRECTION_RIGHT_TO_LEFT","dwrite/DWRITE_FLOW_DIRECTION_TOP_TO_BOTTOM"]
 old-location: directwrite\dwrite_flow_direction.htm
 tech.root: DirectWrite
 ms.assetid: 35a78bde-ba80-4328-8fb8-77ca73c1c04b

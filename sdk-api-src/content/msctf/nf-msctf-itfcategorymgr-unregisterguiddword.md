@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCategoryMgr.UnregisterGUIDDWORD
 title: ITfCategoryMgr::UnregisterGUIDDWORD (msctf.h)
-description: ITfCategoryMgr::UnregisterGUIDDWORD methodhelpviewer_keywords: ["ITfCategoryMgr interface [Text Services Framework]","UnregisterGUIDDWORD method","ITfCategoryMgr.UnregisterGUIDDWORD","ITfCategoryMgr::UnregisterGUIDDWORD","UnregisterGUIDDWORD","UnregisterGUIDDWORD method [Text Services Framework]","UnregisterGUIDDWORD method [Text Services Framework]","ITfCategoryMgr interface","_tsf_itfcategorymgr_unregisterguiddword_ref","msctf/ITfCategoryMgr::UnregisterGUIDDWORD","tsf.itfcategorymgr_unregisterguiddword"]
+description: ITfCategoryMgr::UnregisterGUIDDWORD method
+helpviewer_keywords: ["ITfCategoryMgr interface [Text Services Framework]","UnregisterGUIDDWORD method","ITfCategoryMgr.UnregisterGUIDDWORD","ITfCategoryMgr::UnregisterGUIDDWORD","UnregisterGUIDDWORD","UnregisterGUIDDWORD method [Text Services Framework]","UnregisterGUIDDWORD method [Text Services Framework]","ITfCategoryMgr interface","_tsf_itfcategorymgr_unregisterguiddword_ref","msctf/ITfCategoryMgr::UnregisterGUIDDWORD","tsf.itfcategorymgr_unregisterguiddword"]
 old-location: tsf\itfcategorymgr_unregisterguiddword.htm
 tech.root: TSF
 ms.assetid: 37161b4b-7dfc-4b8d-8e0b-3b9f794eb3b0

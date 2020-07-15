@@ -1,7 +1,8 @@
 ---
 UID: NF:shappmgr.IShellApp.IsInstalled
 title: IShellApp::IsInstalled (shappmgr.h)
-description: Gets a value indicating whether a specified application is currently installed.helpviewer_keywords: ["IShellApp interface [Windows Shell]","IsInstalled method","IShellApp.IsInstalled","IShellApp::IsInstalled","IsInstalled","IsInstalled method [Windows Shell]","IsInstalled method [Windows Shell]","IShellApp interface","inet_IShellApp_IsInstalled","shappmgr/IShellApp::IsInstalled","shell.IShellApp_IsInstalled"]
+description: Gets a value indicating whether a specified application is currently installed.
+helpviewer_keywords: ["IShellApp interface [Windows Shell]","IsInstalled method","IShellApp.IsInstalled","IShellApp::IsInstalled","IsInstalled","IsInstalled method [Windows Shell]","IsInstalled method [Windows Shell]","IShellApp interface","inet_IShellApp_IsInstalled","shappmgr/IShellApp::IsInstalled","shell.IShellApp_IsInstalled"]
 old-location: shell\IShellApp_IsInstalled.htm
 tech.root: shell
 ms.assetid: 338ba632-5749-4850-b982-2247f0d0dcc5

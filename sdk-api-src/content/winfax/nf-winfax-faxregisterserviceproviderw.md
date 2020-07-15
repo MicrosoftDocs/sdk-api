@@ -1,7 +1,8 @@
 ---
 UID: NF:winfax.FaxRegisterServiceProviderW
 title: FaxRegisterServiceProviderW function (winfax.h)
-description: The FaxRegisterServiceProvider function registers a fax service provider DLL with the fax service. The function configures the fax service registry to query and use the new fax service provider DLL when the fax service restarts.helpviewer_keywords: ["FaxRegisterServiceProvider","FaxRegisterServiceProvider function [Fax Service]","FaxRegisterServiceProviderW","_mfax_faxregisterserviceprovider","fax._mfax_faxregisterserviceprovider","winfax/FaxRegisterServiceProvider"]
+description: The FaxRegisterServiceProvider function registers a fax service provider DLL with the fax service. The function configures the fax service registry to query and use the new fax service provider DLL when the fax service restarts.
+helpviewer_keywords: ["FaxRegisterServiceProvider","FaxRegisterServiceProvider function [Fax Service]","FaxRegisterServiceProviderW","_mfax_faxregisterserviceprovider","fax._mfax_faxregisterserviceprovider","winfax/FaxRegisterServiceProvider"]
 old-location: fax\_mfax_faxregisterserviceprovider.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_94xe.htm

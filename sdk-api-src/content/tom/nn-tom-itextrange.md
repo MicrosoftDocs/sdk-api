@@ -1,7 +1,8 @@
 ---
 UID: NN:tom.ITextRange
 title: ITextRange (tom.h)
-description: The ITextRange objects are powerful editing and data-binding tools that allow a program to select text in a story and then examine or change that text.helpviewer_keywords: ["ITextRange","ITextRange interface [Windows Controls]","ITextRange interface [Windows Controls]","described","_win32_ITextRange","_win32_ITextRange_cpp","controls.ITextRange","controls._win32_ITextRange","tom/ITextRange"]
+description: The ITextRange objects are powerful editing and data-binding tools that allow a program to select text in a story and then examine or change that text.
+helpviewer_keywords: ["ITextRange","ITextRange interface [Windows Controls]","ITextRange interface [Windows Controls]","described","_win32_ITextRange","_win32_ITextRange_cpp","controls.ITextRange","controls._win32_ITextRange","tom/ITextRange"]
 old-location: controls\ITextRange.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextrange.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.CoAllowSetForegroundWindow
 title: CoAllowSetForegroundWindow function (objbase.h)
-description: This function passes the foreground privilege (the privilege to set the foreground window) from one process to another. The process that has the foreground privilege can call this function to pass that privilege on to a local COM server process.helpviewer_keywords: ["CoAllowSetForegroundWindow","CoAllowSetForegroundWindow function [COM]","_com_CoAllowSetForegroundWindow","com.coallowsetforegroundwindow","objbase/CoAllowSetForegroundWindow"]
+description: This function passes the foreground privilege (the privilege to set the foreground window) from one process to another. The process that has the foreground privilege can call this function to pass that privilege on to a local COM server process.
+helpviewer_keywords: ["CoAllowSetForegroundWindow","CoAllowSetForegroundWindow function [COM]","_com_CoAllowSetForegroundWindow","com.coallowsetforegroundwindow","objbase/CoAllowSetForegroundWindow"]
 old-location: com\coallowsetforegroundwindow.htm
 tech.root: com
 ms.assetid: a728aaad-3d7a-425c-b886-ba35c4fa54d0

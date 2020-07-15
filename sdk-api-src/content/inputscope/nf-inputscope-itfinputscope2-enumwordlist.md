@@ -1,7 +1,8 @@
 ---
 UID: NF:inputscope.ITfInputScope2.EnumWordList
 title: ITfInputScope2::EnumWordList (inputscope.h)
-description: ITfInputScope2::EnumWordList methodhelpviewer_keywords: ["EnumWordList","EnumWordList method [Text Services Framework]","EnumWordList method [Text Services Framework]","ITfInputScope2 interface","ITfInputScope2 interface [Text Services Framework]","EnumWordList method","ITfInputScope2.EnumWordList","ITfInputScope2::EnumWordList","_tsf_itfinputscope2_enumwordlist_ref","inputscope/ITfInputScope2::EnumWordList","tsf.itfinputscope2_enumwordlist"]
+description: ITfInputScope2::EnumWordList method
+helpviewer_keywords: ["EnumWordList","EnumWordList method [Text Services Framework]","EnumWordList method [Text Services Framework]","ITfInputScope2 interface","ITfInputScope2 interface [Text Services Framework]","EnumWordList method","ITfInputScope2.EnumWordList","ITfInputScope2::EnumWordList","_tsf_itfinputscope2_enumwordlist_ref","inputscope/ITfInputScope2::EnumWordList","tsf.itfinputscope2_enumwordlist"]
 old-location: tsf\itfinputscope2_enumwordlist.htm
 tech.root: TSF
 ms.assetid: 89379dab-6f96-4a86-8433-b6b0a8e45516

@@ -1,7 +1,8 @@
 ---
 UID: NE:encdec.ProtType
 title: ProtType (encdec.h)
-description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["PROT_COPY_BF","PROT_COPY_CN_RECORDING_STOP","PROT_COPY_FREE","PROT_COPY_FREE_CIT","PROT_COPY_FREE_SECURE","PROT_COPY_INVALID","PROT_COPY_NEVER","PROT_COPY_NEVER_REALLY","PROT_COPY_NO_MORE","PROT_COPY_ONCE","ProtType","ProtType enumeration [Microsoft TV Technologies]","encdec/PROT_COPY_BF","encdec/PROT_COPY_CN_RECORDING_STOP","encdec/PROT_COPY_FREE","encdec/PROT_COPY_FREE_CIT","encdec/PROT_COPY_FREE_SECURE","encdec/PROT_COPY_INVALID","encdec/PROT_COPY_NEVER","encdec/PROT_COPY_NEVER_REALLY","encdec/PROT_COPY_NO_MORE","encdec/PROT_COPY_ONCE","encdec/ProtType","mstv.prottype"]
+description: This topic applies to Windows XP Service Pack 1 or later.
+helpviewer_keywords: ["PROT_COPY_BF","PROT_COPY_CN_RECORDING_STOP","PROT_COPY_FREE","PROT_COPY_FREE_CIT","PROT_COPY_FREE_SECURE","PROT_COPY_INVALID","PROT_COPY_NEVER","PROT_COPY_NEVER_REALLY","PROT_COPY_NO_MORE","PROT_COPY_ONCE","ProtType","ProtType enumeration [Microsoft TV Technologies]","encdec/PROT_COPY_BF","encdec/PROT_COPY_CN_RECORDING_STOP","encdec/PROT_COPY_FREE","encdec/PROT_COPY_FREE_CIT","encdec/PROT_COPY_FREE_SECURE","encdec/PROT_COPY_INVALID","encdec/PROT_COPY_NEVER","encdec/PROT_COPY_NEVER_REALLY","encdec/PROT_COPY_NO_MORE","encdec/PROT_COPY_ONCE","encdec/ProtType","mstv.prottype"]
 old-location: mstv\prottype.htm
 tech.root: mstv
 ms.assetid: 190b8483-91c8-4fe4-8189-637749393151

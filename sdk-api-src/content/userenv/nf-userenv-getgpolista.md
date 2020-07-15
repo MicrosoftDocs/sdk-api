@@ -1,7 +1,8 @@
 ---
 UID: NF:userenv.GetGPOListA
 title: GetGPOListA function (userenv.h)
-description: The GetGPOList function retrieves the list of GPOs for the specified user or computer.helpviewer_keywords: ["GetGPOList","GetGPOList function [Group Policy]","GetGPOListA","GetGPOListW","_win32_getgpolist","policy.getgpolist","userenv/GetGPOList","userenv/GetGPOListA","userenv/GetGPOListW"]
+description: The GetGPOList function retrieves the list of GPOs for the specified user or computer.
+helpviewer_keywords: ["GetGPOList","GetGPOList function [Group Policy]","GetGPOListA","GetGPOListW","_win32_getgpolist","policy.getgpolist","userenv/GetGPOList","userenv/GetGPOListA","userenv/GetGPOListW"]
 old-location: policy\getgpolist.htm
 tech.root: Policy
 ms.assetid: 26c54ac5-23d7-40ed-94a9-70d25e14431f
@@ -169,6 +170,10 @@ To retrieve the list of GPOs applied for a specific user or computer and extensi
 
 
 
+
+
+> [!NOTE]
+> The userenv.h header defines GetGPOList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

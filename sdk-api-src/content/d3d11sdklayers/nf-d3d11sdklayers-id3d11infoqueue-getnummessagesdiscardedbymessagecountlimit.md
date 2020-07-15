@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11sdklayers.ID3D11InfoQueue.GetNumMessagesDiscardedByMessageCountLimit
 title: ID3D11InfoQueue::GetNumMessagesDiscardedByMessageCountLimit (d3d11sdklayers.h)
-description: Get the number of messages that were discarded due to the message count limit.helpviewer_keywords: ["GetNumMessagesDiscardedByMessageCountLimit","GetNumMessagesDiscardedByMessageCountLimit method [Direct3D 11]","GetNumMessagesDiscardedByMessageCountLimit method [Direct3D 11]","ID3D11InfoQueue interface","ID3D11InfoQueue interface [Direct3D 11]","GetNumMessagesDiscardedByMessageCountLimit method","ID3D11InfoQueue.GetNumMessagesDiscardedByMessageCountLimit","ID3D11InfoQueue::GetNumMessagesDiscardedByMessageCountLimit","d3d11sdklayers/ID3D11InfoQueue::GetNumMessagesDiscardedByMessageCountLimit","direct3d11.id3d11infoqueue_getnummessagesdiscardedbymessagecountlimit","ef744f2d-3777-9d02-76c3-9279cdf0497b"]
+description: Get the number of messages that were discarded due to the message count limit.
+helpviewer_keywords: ["GetNumMessagesDiscardedByMessageCountLimit","GetNumMessagesDiscardedByMessageCountLimit method [Direct3D 11]","GetNumMessagesDiscardedByMessageCountLimit method [Direct3D 11]","ID3D11InfoQueue interface","ID3D11InfoQueue interface [Direct3D 11]","GetNumMessagesDiscardedByMessageCountLimit method","ID3D11InfoQueue.GetNumMessagesDiscardedByMessageCountLimit","ID3D11InfoQueue::GetNumMessagesDiscardedByMessageCountLimit","d3d11sdklayers/ID3D11InfoQueue::GetNumMessagesDiscardedByMessageCountLimit","direct3d11.id3d11infoqueue_getnummessagesdiscardedbymessagecountlimit","ef744f2d-3777-9d02-76c3-9279cdf0497b"]
 old-location: direct3d11\id3d11infoqueue_getnummessagesdiscardedbymessagecountlimit.htm
 tech.root: direct3d11
 ms.assetid: 8a2cb3c3-2b8c-47bf-b306-e13f35729686

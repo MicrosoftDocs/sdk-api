@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.DeleteNtmsLibrary
 title: DeleteNtmsLibrary function (ntmsapi.h)
-description: The DeleteNtmsLibrary function deletes a library, and all the devices contained in the library, from the RSM database. All media in the library is moved to the offline library.helpviewer_keywords: ["DeleteNtmsLibrary","DeleteNtmsLibrary function [Files]","_zaw_deletentmslibrary","base.deletentmslibrary","fs.deletentmslibrary","ntmsapi/DeleteNtmsLibrary"]
+description: The DeleteNtmsLibrary function deletes a library, and all the devices contained in the library, from the RSM database. All media in the library is moved to the offline library.
+helpviewer_keywords: ["DeleteNtmsLibrary","DeleteNtmsLibrary function [Files]","_zaw_deletentmslibrary","base.deletentmslibrary","fs.deletentmslibrary","ntmsapi/DeleteNtmsLibrary"]
 old-location: fs\deletentmslibrary.htm
 tech.root: Rsm
 ms.assetid: 2bbc1463-9fbb-49d9-84d0-7b8ea231b454

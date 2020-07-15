@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_PropertySet_GetElementAt
 title: MI_PropertySet_GetElementAt function (mi.h)
-description: Gets the element of a property set at the specified index.helpviewer_keywords: ["MI_PropertySet_GetElementAt","MI_PropertySet_GetElementAt function [Windows Management Infrastructure (MI)]","mi/MI_PropertySet_GetElementAt","wmi_v2.mi_propertyset_getelementat"]
+description: Gets the element of a property set at the specified index.
+helpviewer_keywords: ["MI_PropertySet_GetElementAt","MI_PropertySet_GetElementAt function [Windows Management Infrastructure (MI)]","mi/MI_PropertySet_GetElementAt","wmi_v2.mi_propertyset_getelementat"]
 old-location: wmi_v2\mi_propertyset_getelementat.htm
 tech.root: wmi_v2
 ms.assetid: 234fe69f-cba6-4ad0-b970-f90346488417

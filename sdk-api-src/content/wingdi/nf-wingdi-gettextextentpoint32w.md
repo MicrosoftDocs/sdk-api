@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetTextExtentPoint32W
 title: GetTextExtentPoint32W function (wingdi.h)
-description: The GetTextExtentPoint32 function computes the width and height of the specified string of text.helpviewer_keywords: ["GetTextExtentPoint32","GetTextExtentPoint32 function [Windows GDI]","GetTextExtentPoint32A","GetTextExtentPoint32W","_win32_GetTextExtentPoint32","gdi.gettextextentpoint32","wingdi/GetTextExtentPoint32","wingdi/GetTextExtentPoint32A","wingdi/GetTextExtentPoint32W"]
+description: The GetTextExtentPoint32 function computes the width and height of the specified string of text.
+helpviewer_keywords: ["GetTextExtentPoint32","GetTextExtentPoint32 function [Windows GDI]","GetTextExtentPoint32A","GetTextExtentPoint32W","_win32_GetTextExtentPoint32","gdi.gettextextentpoint32","wingdi/GetTextExtentPoint32","wingdi/GetTextExtentPoint32A","wingdi/GetTextExtentPoint32W"]
 old-location: gdi\gettextextentpoint32.htm
 tech.root: gdi
 ms.assetid: 530280ee-dfd8-4905-9b72-6c19efcff133
@@ -123,6 +124,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/gdi/draw
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines GetTextExtentPoint32 as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

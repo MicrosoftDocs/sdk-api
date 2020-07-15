@@ -1,7 +1,8 @@
 ---
 UID: NC:ras.PFNRASGETBUFFER
 title: PFNRASGETBUFFER (ras.h)
-description: The custom-scripting DLL calls RasGetBuffer to allocate memory for sending or receiving data over the port connected to the server.helpviewer_keywords: ["PFNRASGETBUFFER","PFNRASGETBUFFER callback","RasGetBuffer","RasGetBuffer callback function [RAS]","_ras_rasgetbuffer","ras/RasGetBuffer","rras.rasgetbuffer"]
+description: The custom-scripting DLL calls RasGetBuffer to allocate memory for sending or receiving data over the port connected to the server.
+helpviewer_keywords: ["PFNRASGETBUFFER","PFNRASGETBUFFER callback","RasGetBuffer","RasGetBuffer callback function [RAS]","_ras_rasgetbuffer","ras/RasGetBuffer","rras.rasgetbuffer"]
 old-location: rras\rasgetbuffer.htm
 tech.root: RRAS
 ms.assetid: 655f2dfa-a6cf-43db-8d2e-bf9a10163c75

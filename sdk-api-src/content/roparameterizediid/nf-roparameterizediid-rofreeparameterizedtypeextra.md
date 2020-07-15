@@ -1,7 +1,8 @@
 ---
 UID: NF:roparameterizediid.RoFreeParameterizedTypeExtra
 title: RoFreeParameterizedTypeExtra function (roparameterizediid.h)
-description: Frees the handle allocated by RoGetParameterizedTypeInstanceIID.helpviewer_keywords: ["RoFreeParameterizedTypeExtra","RoFreeParameterizedTypeExtra function [Windows Runtime]","roparameterizediid/RoFreeParameterizedTypeExtra","winrt.rofreeparameterizedtypeextra"]
+description: Frees the handle allocated by RoGetParameterizedTypeInstanceIID.
+helpviewer_keywords: ["RoFreeParameterizedTypeExtra","RoFreeParameterizedTypeExtra function [Windows Runtime]","roparameterizediid/RoFreeParameterizedTypeExtra","winrt.rofreeparameterizedtypeextra"]
 old-location: winrt\rofreeparameterizedtypeextra.htm
 tech.root: WinRT
 ms.assetid: A9A063F3-D6E0-4383-B9AD-EA115FC3A8FD

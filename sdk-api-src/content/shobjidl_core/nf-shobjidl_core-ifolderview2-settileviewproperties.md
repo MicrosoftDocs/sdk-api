@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetTileViewProperties
 title: IFolderView2::SetTileViewProperties (shobjidl_core.h)
-description: Set the list of tile properties for an item.helpviewer_keywords: ["IFolderView2 interface [Windows Shell]","SetTileViewProperties method","IFolderView2.SetTileViewProperties","IFolderView2::SetTileViewProperties","SetTileViewProperties","SetTileViewProperties method [Windows Shell]","SetTileViewProperties method [Windows Shell]","IFolderView2 interface","_shell_IFolderView2_SetTileViewProperties","shell.IFolderView2_SetTileViewProperties","shobjidl_core/IFolderView2::SetTileViewProperties"]
+description: Set the list of tile properties for an item.
+helpviewer_keywords: ["IFolderView2 interface [Windows Shell]","SetTileViewProperties method","IFolderView2.SetTileViewProperties","IFolderView2::SetTileViewProperties","SetTileViewProperties","SetTileViewProperties method [Windows Shell]","SetTileViewProperties method [Windows Shell]","IFolderView2 interface","_shell_IFolderView2_SetTileViewProperties","shell.IFolderView2_SetTileViewProperties","shobjidl_core/IFolderView2::SetTileViewProperties"]
 old-location: shell\IFolderView2_SetTileViewProperties.htm
 tech.root: shell
 ms.assetid: 44abbbbb-8d4d-4a09-9c17-a2255467de44

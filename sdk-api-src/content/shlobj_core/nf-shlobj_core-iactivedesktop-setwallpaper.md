@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.SetWallpaper
 title: IActiveDesktop::SetWallpaper (shlobj_core.h)
-description: Sets the wallpaper for the Active Desktop.helpviewer_keywords: ["IActiveDesktop interface [Legacy Windows Environment Features]","SetWallpaper method","IActiveDesktop.SetWallpaper","IActiveDesktop::SetWallpaper","SetWallpaper","SetWallpaper method [Legacy Windows Environment Features]","SetWallpaper method [Legacy Windows Environment Features]","IActiveDesktop interface","_win32_IActiveDesktop_SetWallpaper","lwef.iactivedesktop_setwallpaper","shell.iactivedesktop_setwallpaper","shlobj_core/IActiveDesktop::SetWallpaper"]
+description: Sets the wallpaper for the Active Desktop.
+helpviewer_keywords: ["IActiveDesktop interface [Legacy Windows Environment Features]","SetWallpaper method","IActiveDesktop.SetWallpaper","IActiveDesktop::SetWallpaper","SetWallpaper","SetWallpaper method [Legacy Windows Environment Features]","SetWallpaper method [Legacy Windows Environment Features]","IActiveDesktop interface","_win32_IActiveDesktop_SetWallpaper","lwef.iactivedesktop_setwallpaper","shell.iactivedesktop_setwallpaper","shlobj_core/IActiveDesktop::SetWallpaper"]
 old-location: lwef\iactivedesktop_setwallpaper.htm
 tech.root: lwef
 ms.assetid: e789a8f1-3e65-4fa7-a62b-8fad6114ed46

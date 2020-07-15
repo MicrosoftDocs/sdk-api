@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1Factory.CreateHwndRenderTarget(const D2D1_RENDER_TARGET_PROPERTIES,const D2D1_HWND_RENDER_TARGET_PROPERTIES,ID2D1HwndRenderTarget)
+UID: NF:d2d1.ID2D1Factory.CreateHwndRenderTarget(constD2D1_RENDER_TARGET_PROPERTIES,constD2D1_HWND_RENDER_TARGET_PROPERTIES,ID2D1HwndRenderTarget)
 title: ID2D1Factory::CreateHwndRenderTarget (d2d1.h)
 description: Creates an ID2D1HwndRenderTarget, a render target that renders to a window.
 helpviewer_keywords: ["CreateHwndRenderTarget","CreateHwndRenderTarget methods [Direct2D]","ID2D1Factory.CreateHwndRenderTarget","ID2D1Factory::CreateHwndRenderTarget","d2d1/CreateHwndRenderTarget","direct2d.id2d1factory_createhwndrendertarget"]

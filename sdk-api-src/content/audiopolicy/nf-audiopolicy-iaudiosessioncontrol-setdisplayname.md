@@ -1,7 +1,8 @@
 ---
 UID: NF:audiopolicy.IAudioSessionControl.SetDisplayName
 title: IAudioSessionControl::SetDisplayName (audiopolicy.h)
-description: The SetDisplayName method assigns a display name to the current session.helpviewer_keywords: ["IAudioSessionControl interface [Core Audio]","SetDisplayName method","IAudioSessionControl.SetDisplayName","IAudioSessionControl::SetDisplayName","IAudioSessionControlSetDisplayName","SetDisplayName","SetDisplayName method [Core Audio]","SetDisplayName method [Core Audio]","IAudioSessionControl interface","audiopolicy/IAudioSessionControl::SetDisplayName","coreaudio.iaudiosessioncontrol_setdisplayname"]
+description: The SetDisplayName method assigns a display name to the current session.
+helpviewer_keywords: ["IAudioSessionControl interface [Core Audio]","SetDisplayName method","IAudioSessionControl.SetDisplayName","IAudioSessionControl::SetDisplayName","IAudioSessionControlSetDisplayName","SetDisplayName","SetDisplayName method [Core Audio]","SetDisplayName method [Core Audio]","IAudioSessionControl interface","audiopolicy/IAudioSessionControl::SetDisplayName","coreaudio.iaudiosessioncontrol_setdisplayname"]
 old-location: coreaudio\iaudiosessioncontrol_setdisplayname.htm
 tech.root: CoreAudio
 ms.assetid: d12c12ed-a556-4743-952e-2eb4f58ee0eb

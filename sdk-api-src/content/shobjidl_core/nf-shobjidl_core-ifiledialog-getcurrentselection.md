@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialog.GetCurrentSelection
 title: IFileDialog::GetCurrentSelection (shobjidl_core.h)
-description: Gets the user's current selection in the dialog.helpviewer_keywords: ["GetCurrentSelection","GetCurrentSelection method [Windows Shell]","GetCurrentSelection method [Windows Shell]","IFileDialog interface","IFileDialog interface [Windows Shell]","GetCurrentSelection method","IFileDialog.GetCurrentSelection","IFileDialog::GetCurrentSelection","shell.IFileDialog_GetCurrentSelection","shell_IFileDialog_GetCurrentSelection","shobjidl_core/IFileDialog::GetCurrentSelection"]
+description: Gets the user's current selection in the dialog.
+helpviewer_keywords: ["GetCurrentSelection","GetCurrentSelection method [Windows Shell]","GetCurrentSelection method [Windows Shell]","IFileDialog interface","IFileDialog interface [Windows Shell]","GetCurrentSelection method","IFileDialog.GetCurrentSelection","IFileDialog::GetCurrentSelection","shell.IFileDialog_GetCurrentSelection","shell_IFileDialog_GetCurrentSelection","shobjidl_core/IFileDialog::GetCurrentSelection"]
 old-location: shell\IFileDialog_GetCurrentSelection.htm
 tech.root: shell
 ms.assetid: b3768c15-d933-43c0-8398-f8f1c16ecbf9

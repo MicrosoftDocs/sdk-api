@@ -1,7 +1,8 @@
 ---
 UID: NN:atscpsipparser.IServiceLocationDescriptor
 title: IServiceLocationDescriptor (atscpsipparser.h)
-description: Gets information from the Service Location Descriptor in an Advanced Television Systems Committee (ATSC) Virtual Channel Table (VCT).helpviewer_keywords: ["IServiceLocationDescriptor","IServiceLocationDescriptor interface [Microsoft TV Technologies]","IServiceLocationDescriptor interface [Microsoft TV Technologies]","described","atscpsipparser/IServiceLocationDescriptor","mstv.iservicelocationdescriptor"]
+description: Gets information from the Service Location Descriptor in an Advanced Television Systems Committee (ATSC) Virtual Channel Table (VCT).
+helpviewer_keywords: ["IServiceLocationDescriptor","IServiceLocationDescriptor interface [Microsoft TV Technologies]","IServiceLocationDescriptor interface [Microsoft TV Technologies]","described","atscpsipparser/IServiceLocationDescriptor","mstv.iservicelocationdescriptor"]
 old-location: mstv\iservicelocationdescriptor.htm
 tech.root: mstv
 ms.assetid: 43dd800b-c51d-4a2f-ad59-943cb4975066

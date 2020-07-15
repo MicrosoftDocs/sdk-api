@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminTransportGetInfo
 title: MprAdminTransportGetInfo function (mprapi.h)
-description: The MprAdminTransportGetInfo function retrieves global information, default client interface information, or both, for a specified transport.helpviewer_keywords: ["MprAdminTransportGetInfo","MprAdminTransportGetInfo function [RAS]","_mpr_mpradmintransportgetinfo","mprapi/MprAdminTransportGetInfo","rras.mpradmintransportgetinfo"]
+description: The MprAdminTransportGetInfo function retrieves global information, default client interface information, or both, for a specified transport.
+helpviewer_keywords: ["MprAdminTransportGetInfo","MprAdminTransportGetInfo function [RAS]","_mpr_mpradmintransportgetinfo","mprapi/MprAdminTransportGetInfo","rras.mpradmintransportgetinfo"]
 old-location: rras\mpradmintransportgetinfo.htm
 tech.root: RRAS
 ms.assetid: 47fbe483-8a1b-4747-9555-931dd63e2db8

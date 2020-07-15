@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxManifestTargetDeviceFamily.GetName
 title: IAppxManifestTargetDeviceFamily::GetName (appxpackaging.h)
-description: Gets the name of the target device family from the AppxManifest.xml..helpviewer_keywords: ["GetName","GetName method [App packaging and management]","GetName method [App packaging and management]","IAppxManifestTargetDeviceFamily interface","IAppxManifestTargetDeviceFamily interface [App packaging and management]","GetName method","IAppxManifestTargetDeviceFamily.GetName","IAppxManifestTargetDeviceFamily::GetName","appxpackaging/IAppxManifestTargetDeviceFamily::GetName","appxpkg.iappxmanifesttargetdevicefamily_getname"]
+description: Gets the name of the target device family from the AppxManifest.xml..
+helpviewer_keywords: ["GetName","GetName method [App packaging and management]","GetName method [App packaging and management]","IAppxManifestTargetDeviceFamily interface","IAppxManifestTargetDeviceFamily interface [App packaging and management]","GetName method","IAppxManifestTargetDeviceFamily.GetName","IAppxManifestTargetDeviceFamily::GetName","appxpackaging/IAppxManifestTargetDeviceFamily::GetName","appxpkg.iappxmanifesttargetdevicefamily_getname"]
 old-location: appxpkg\iappxmanifesttargetdevicefamily_getname.htm
 tech.root: appxpkg
 ms.assetid: B7D3A0D3-421D-4A40-AF40-516AE51E06D4

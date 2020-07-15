@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.FindNextItem
 title: Image::FindNextItem (gdiplusheaders.h)
-description: The Image::FindNextItem method is used along with the Image::FindFirstItem method to enumerate the metadata items stored in this Image object.helpviewer_keywords: ["FindNextItem","FindNextItem method [GDI+]","FindNextItem method [GDI+]","Image class","Image class [GDI+]","FindNextItem method","Image.FindNextItem","Image::FindNextItem","_gdiplus_CLASS_Image_FindNextItem_","gdiplus._gdiplus_CLASS_Image_FindNextItem_"]
+description: The Image::FindNextItem method is used along with the Image::FindFirstItem method to enumerate the metadata items stored in this Image object.
+helpviewer_keywords: ["FindNextItem","FindNextItem method [GDI+]","FindNextItem method [GDI+]","Image class","Image class [GDI+]","FindNextItem method","Image.FindNextItem","Image::FindNextItem","_gdiplus_CLASS_Image_FindNextItem_","gdiplus._gdiplus_CLASS_Image_FindNextItem_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_FindNextItem_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\findnextitem.htm

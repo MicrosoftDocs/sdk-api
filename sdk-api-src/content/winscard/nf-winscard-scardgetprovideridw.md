@@ -1,7 +1,8 @@
 ---
 UID: NF:winscard.SCardGetProviderIdW
 title: SCardGetProviderIdW function (winscard.h)
-description: Returns the identifier (GUID) of the primary service provider for a given card.helpviewer_keywords: ["SCardGetProviderId","SCardGetProviderId function [Security]","SCardGetProviderIdA","SCardGetProviderIdW","_smart_scardgetproviderid","security.scardgetproviderid","winscard/SCardGetProviderId","winscard/SCardGetProviderIdA","winscard/SCardGetProviderIdW"]
+description: Returns the identifier (GUID) of the primary service provider for a given card.
+helpviewer_keywords: ["SCardGetProviderId","SCardGetProviderId function [Security]","SCardGetProviderIdA","SCardGetProviderIdW","_smart_scardgetproviderid","security.scardgetproviderid","winscard/SCardGetProviderId","winscard/SCardGetProviderIdA","winscard/SCardGetProviderIdW"]
 old-location: security\scardgetproviderid.htm
 tech.root: SecAuthN
 ms.assetid: 6e0f42af-9ac1-469b-b241-939d64676d99
@@ -152,6 +153,10 @@ else
 
 
 
+
+
+> [!NOTE]
+> The winscard.h header defines SCardGetProviderId as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

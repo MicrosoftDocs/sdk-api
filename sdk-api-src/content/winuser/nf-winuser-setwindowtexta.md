@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetWindowTextA
 title: SetWindowTextA function (winuser.h)
-description: Changes the text of the specified window's title bar (if it has one). If the specified window is a control, the text of the control is changed. However, SetWindowText cannot change the text of a control in another application.helpviewer_keywords: ["SetWindowText","SetWindowText function [Windows and Messages]","SetWindowTextA","SetWindowTextW","_win32_SetWindowText","_win32_setwindowtext_cpp","winmsg.setwindowtext","winui._win32_setwindowtext","winuser/SetWindowText","winuser/SetWindowTextA","winuser/SetWindowTextW"]
+description: Changes the text of the specified window's title bar (if it has one). If the specified window is a control, the text of the control is changed. However, SetWindowText cannot change the text of a control in another application.
+helpviewer_keywords: ["SetWindowText","SetWindowText function [Windows and Messages]","SetWindowTextA","SetWindowTextW","_win32_SetWindowText","_win32_setwindowtext_cpp","winmsg.setwindowtext","winui._win32_setwindowtext","winuser/SetWindowText","winuser/SetWindowTextA","winuser/SetWindowTextW"]
 old-location: winmsg\setwindowtext.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setwindowtext.htm
@@ -114,6 +115,10 @@ The <b>SetWindowText</b> function does not expand tab characters (ASCII code 0x0
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines SetWindowText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

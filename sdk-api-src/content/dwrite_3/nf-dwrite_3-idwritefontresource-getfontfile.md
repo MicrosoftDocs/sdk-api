@@ -51,9 +51,9 @@ Retrieves the font file of the resource.
 
 ### -param fontFile [out]
 
-Type: **[IDWriteFontFile](https://docs.microsoft.com/en-us/windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\*\***
+Type: **[IDWriteFontFile](/windows/win32/api/dwrite//windows/win32/api/dwrite/nn-dwrite-idwritefontfile)\*\***
 
-The address of a pointer to an [IDWriteFontFile](https://docs.microsoft.com/en-us/windows/win32/api/dwrite/nn-dwrite-idwritefontfile) interface. On successful completion, the function sets the pointer to the font file object.
+The address of a pointer to an [IDWriteFontFile](/windows/win32/api/dwrite//windows/win32/api/dwrite/nn-dwrite-idwritefontfile) interface. On successful completion, the function sets the pointer to the font file object.
 
 ## -returns
 

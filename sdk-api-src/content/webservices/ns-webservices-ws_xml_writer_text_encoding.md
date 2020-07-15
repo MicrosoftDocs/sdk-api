@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_TEXT_ENCODING
 title: WS_XML_WRITER_TEXT_ENCODING (webservices.h)
-description: Indicates that the reader should emit bytes as textual xml.helpviewer_keywords: ["WS_XML_WRITER_TEXT_ENCODING","WS_XML_WRITER_TEXT_ENCODING structure [Web Services for Windows]","webservices/WS_XML_WRITER_TEXT_ENCODING","wsw.ws_xml_writer_text_encoding"]
+description: Indicates that the reader should emit bytes as textual xml.
+helpviewer_keywords: ["WS_XML_WRITER_TEXT_ENCODING","WS_XML_WRITER_TEXT_ENCODING structure [Web Services for Windows]","webservices/WS_XML_WRITER_TEXT_ENCODING","wsw.ws_xml_writer_text_encoding"]
 old-location: wsw\ws_xml_writer_text_encoding.htm
 tech.root: wsw
 ms.assetid: 916e693b-9804-4c93-869d-0c3b576e5b61

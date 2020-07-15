@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICPalette.HasAlpha
 title: IWICPalette::HasAlpha (wincodec.h)
-description: Indicates whether the palette contains an entry that is non-opaque (that is, an entry with an alpha that is less than 1).helpviewer_keywords: ["HasAlpha","HasAlpha method [Windows Imaging Component]","HasAlpha method [Windows Imaging Component]","IWICPalette interface","IWICPalette interface [Windows Imaging Component]","HasAlpha method","IWICPalette.HasAlpha","IWICPalette::HasAlpha","_wic_codec_iwicpalette_hasalpha","wic._wic_codec_iwicpalette_hasalpha","wincodec/IWICPalette::HasAlpha"]
+description: Indicates whether the palette contains an entry that is non-opaque (that is, an entry with an alpha that is less than 1).
+helpviewer_keywords: ["HasAlpha","HasAlpha method [Windows Imaging Component]","HasAlpha method [Windows Imaging Component]","IWICPalette interface","IWICPalette interface [Windows Imaging Component]","HasAlpha method","IWICPalette.HasAlpha","IWICPalette::HasAlpha","_wic_codec_iwicpalette_hasalpha","wic._wic_codec_iwicpalette_hasalpha","wincodec/IWICPalette::HasAlpha"]
 old-location: wic\_wic_codec_iwicpalette_hasalpha.htm
 tech.root: wic
 ms.assetid: 7c2cd523-04e4-4f19-b7f3-cc2af7604283

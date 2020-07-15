@@ -1,7 +1,8 @@
 ---
 UID: NF:wintrust.WintrustLoadFunctionPointers
 title: WintrustLoadFunctionPointers function (wintrust.h)
-description: Loads function entry points for a specified action GUID. This function has no associated import library.helpviewer_keywords: ["HTTPSPROV_ACTION","WINTRUST_ACTION_GENERIC_VERIFY","WINTRUST_ACTION_GENERIC_VERIFY_V2","WintrustLoadFunctionPointers","WintrustLoadFunctionPointers function [Security]","security.wintrustloadfunctionpointers","wintrust/WintrustLoadFunctionPointers"]
+description: Loads function entry points for a specified action GUID. This function has no associated import library.
+helpviewer_keywords: ["HTTPSPROV_ACTION","WINTRUST_ACTION_GENERIC_VERIFY","WINTRUST_ACTION_GENERIC_VERIFY_V2","WintrustLoadFunctionPointers","WintrustLoadFunctionPointers function [Security]","security.wintrustloadfunctionpointers","wintrust/WintrustLoadFunctionPointers"]
 old-location: security\wintrustloadfunctionpointers.htm
 tech.root: SecCrypto
 ms.assetid: c36db226-34b4-4a31-b8c6-b9d124acc669

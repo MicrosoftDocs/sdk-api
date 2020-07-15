@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarCyFromI4
 title: VarCyFromI4 function (oleauto.h)
-description: Converts a long value to a currency value.helpviewer_keywords: ["VarCyFromI4","VarCyFromI4 function [Automation]","_oa96_VarCyFromI4","automat.varcyfromi4","oleauto/VarCyFromI4"]
+description: Converts a long value to a currency value.
+helpviewer_keywords: ["VarCyFromI4","VarCyFromI4 function [Automation]","_oa96_VarCyFromI4","automat.varcyfromi4","oleauto/VarCyFromI4"]
 old-location: automat\varcyfromi4.htm
 tech.root: automat
 ms.assetid: 5b9230fb-96c0-4b61-b932-e703a3611fbf

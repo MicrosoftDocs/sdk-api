@@ -1,7 +1,8 @@
 ---
 UID: NF:lmjoin.NetRemoveAlternateComputerName
 title: NetRemoveAlternateComputerName function (lmjoin.h)
-description: Removes an alternate name for the specified computer.helpviewer_keywords: ["NetRemoveAlternateComputerName","NetRemoveAlternateComputerName function [Network Management]","lmjoin/NetRemoveAlternateComputerName","netmgmt.netremovealternatecomputername"]
+description: Removes an alternate name for the specified computer.
+helpviewer_keywords: ["NetRemoveAlternateComputerName","NetRemoveAlternateComputerName function [Network Management]","lmjoin/NetRemoveAlternateComputerName","netmgmt.netremovealternatecomputername"]
 old-location: netmgmt\netremovealternatecomputername.htm
 tech.root: NetMgmt
 ms.assetid: 3c7ab44e-d5fa-40da-83fe-a44bf85b2ba5

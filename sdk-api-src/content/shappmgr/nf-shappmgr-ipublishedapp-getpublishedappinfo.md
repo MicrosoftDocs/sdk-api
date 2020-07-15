@@ -1,7 +1,8 @@
 ---
 UID: NF:shappmgr.IPublishedApp.GetPublishedAppInfo
 title: IPublishedApp::GetPublishedAppInfo (shappmgr.h)
-description: Gets publishing-related information about an application published by an application publisher.helpviewer_keywords: ["GetPublishedAppInfo","GetPublishedAppInfo method [Windows Shell]","GetPublishedAppInfo method [Windows Shell]","IPublishedApp interface","IPublishedApp interface [Windows Shell]","GetPublishedAppInfo method","IPublishedApp.GetPublishedAppInfo","IPublishedApp::GetPublishedAppInfo","inet_IPublishedApp_GetPublishedAppInfo","shappmgr/IPublishedApp::GetPublishedAppInfo","shell.IPublishedApp_GetPublishedAppInfo"]
+description: Gets publishing-related information about an application published by an application publisher.
+helpviewer_keywords: ["GetPublishedAppInfo","GetPublishedAppInfo method [Windows Shell]","GetPublishedAppInfo method [Windows Shell]","IPublishedApp interface","IPublishedApp interface [Windows Shell]","GetPublishedAppInfo method","IPublishedApp.GetPublishedAppInfo","IPublishedApp::GetPublishedAppInfo","inet_IPublishedApp_GetPublishedAppInfo","shappmgr/IPublishedApp::GetPublishedAppInfo","shell.IPublishedApp_GetPublishedAppInfo"]
 old-location: shell\IPublishedApp_GetPublishedAppInfo.htm
 tech.root: shell
 ms.assetid: 4ffcc30a-cf07-45e7-b9a5-342fe2b553c8

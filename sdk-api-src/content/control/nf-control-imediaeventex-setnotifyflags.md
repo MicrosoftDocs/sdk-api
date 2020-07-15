@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IMediaEventEx.SetNotifyFlags
 title: IMediaEventEx::SetNotifyFlags (control.h)
-description: The SetNotifyFlags method enables or disables event notifications.helpviewer_keywords: ["IMediaEventEx interface [DirectShow]","SetNotifyFlags method","IMediaEventEx.SetNotifyFlags","IMediaEventEx::SetNotifyFlags","IMediaEventExSetNotifyFlags","SetNotifyFlags","SetNotifyFlags method [DirectShow]","SetNotifyFlags method [DirectShow]","IMediaEventEx interface","control/IMediaEventEx::SetNotifyFlags","dshow.imediaeventex_setnotifyflags"]
+description: The SetNotifyFlags method enables or disables event notifications.
+helpviewer_keywords: ["IMediaEventEx interface [DirectShow]","SetNotifyFlags method","IMediaEventEx.SetNotifyFlags","IMediaEventEx::SetNotifyFlags","IMediaEventExSetNotifyFlags","SetNotifyFlags","SetNotifyFlags method [DirectShow]","SetNotifyFlags method [DirectShow]","IMediaEventEx interface","control/IMediaEventEx::SetNotifyFlags","dshow.imediaeventex_setnotifyflags"]
 old-location: dshow\imediaeventex_setnotifyflags.htm
 tech.root: DirectShow
 ms.assetid: 6a41b6eb-3fe9-4b2e-bcbb-a407e0e6ab5e

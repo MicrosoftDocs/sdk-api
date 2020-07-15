@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IAppVisibility.Advise
 title: IAppVisibility::Advise (shobjidl_core.h)
-description: Registers an advise sink object to receive notification of changes to the display.helpviewer_keywords: ["Advise","Advise method [Windows Shell]","Advise method [Windows Shell]","IAppVisibility interface","IAppVisibility interface [Windows Shell]","Advise method","IAppVisibility.Advise","IAppVisibility::Advise","shell.IAppVisibility_Advise","shobjidl_core/IAppVisibility::Advise"]
+description: Registers an advise sink object to receive notification of changes to the display.
+helpviewer_keywords: ["Advise","Advise method [Windows Shell]","Advise method [Windows Shell]","IAppVisibility interface","IAppVisibility interface [Windows Shell]","Advise method","IAppVisibility.Advise","IAppVisibility::Advise","shell.IAppVisibility_Advise","shobjidl_core/IAppVisibility::Advise"]
 old-location: shell\IAppVisibility_Advise.htm
 tech.root: shell
 ms.assetid: 602F46EF-014C-4219-9C1F-C1B4371EA456

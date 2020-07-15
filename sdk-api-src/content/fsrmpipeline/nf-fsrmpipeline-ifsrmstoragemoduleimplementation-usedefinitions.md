@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmStorageModuleImplementation.UseDefinitions
 title: IFsrmStorageModuleImplementation::UseDefinitions (fsrmpipeline.h)
-description: Specifies the property definitions FSRM recognizes.helpviewer_keywords: ["IFsrmStorageModuleImplementation interface [File Server Resource Manager]","UseDefinitions method","IFsrmStorageModuleImplementation.UseDefinitions","IFsrmStorageModuleImplementation::UseDefinitions","UseDefinitions","UseDefinitions method [File Server Resource Manager]","UseDefinitions method [File Server Resource Manager]","IFsrmStorageModuleImplementation interface","fs.ifsrmstoragemoduleimplementation_usedefinitions","fsrm.ifsrmstoragemoduleimplementation_usedefinitions","fsrmpipeline/IFsrmStorageModuleImplementation::UseDefinitions"]
+description: Specifies the property definitions FSRM recognizes.
+helpviewer_keywords: ["IFsrmStorageModuleImplementation interface [File Server Resource Manager]","UseDefinitions method","IFsrmStorageModuleImplementation.UseDefinitions","IFsrmStorageModuleImplementation::UseDefinitions","UseDefinitions","UseDefinitions method [File Server Resource Manager]","UseDefinitions method [File Server Resource Manager]","IFsrmStorageModuleImplementation interface","fs.ifsrmstoragemoduleimplementation_usedefinitions","fsrm.ifsrmstoragemoduleimplementation_usedefinitions","fsrmpipeline/IFsrmStorageModuleImplementation::UseDefinitions"]
 old-location: fsrm\ifsrmstoragemoduleimplementation_usedefinitions.htm
 tech.root: fsrm
 ms.assetid: d5683668-18c2-405b-aa56-8e7a9a1d5a9e

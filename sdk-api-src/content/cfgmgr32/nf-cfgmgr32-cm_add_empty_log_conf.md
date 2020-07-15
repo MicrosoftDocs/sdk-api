@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Add_Empty_Log_Conf
 title: CM_Add_Empty_Log_Conf function (cfgmgr32.h)
-description: The CM_Add_Empty_Log_Conf function creates an empty logical configuration, for a specified configuration type and a specified device instance, on the local machine.helpviewer_keywords: ["CM_Add_Empty_Log_Conf","CM_Add_Empty_Log_Conf function [Device and Driver Installation]","cfgmgr32/CM_Add_Empty_Log_Conf","cfgmgrfn_91cca29b-dad4-43a7-882c-0cc465811429.xml","devinst.cm_add_empty_log_conf"]
+description: The CM_Add_Empty_Log_Conf function creates an empty logical configuration, for a specified configuration type and a specified device instance, on the local machine.
+helpviewer_keywords: ["CM_Add_Empty_Log_Conf","CM_Add_Empty_Log_Conf function [Device and Driver Installation]","cfgmgr32/CM_Add_Empty_Log_Conf","cfgmgrfn_91cca29b-dad4-43a7-882c-0cc465811429.xml","devinst.cm_add_empty_log_conf"]
 old-location: devinst\cm_add_empty_log_conf.htm
 tech.root: devinst
 ms.assetid: 9de0b04d-96be-4c93-b7af-09200fdcf807

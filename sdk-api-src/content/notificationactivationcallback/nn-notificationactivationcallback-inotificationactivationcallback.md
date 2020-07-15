@@ -1,7 +1,8 @@
 ---
 UID: NN:notificationactivationcallback.INotificationActivationCallback
 title: INotificationActivationCallback (notificationactivationcallback.h)
-description: Receives notification messages when an app is triggered through a toast from the action center.helpviewer_keywords: ["INotificationActivationCallback","INotificationActivationCallback interface","INotificationActivationCallback interface","described","notificationactivationcallback/INotificationActivationCallback","win32_tile_badge_notif.inotificationactivationcallback"]
+description: Receives notification messages when an app is triggered through a toast from the action center.
+helpviewer_keywords: ["INotificationActivationCallback","INotificationActivationCallback interface","INotificationActivationCallback interface","described","notificationactivationcallback/INotificationActivationCallback","win32_tile_badge_notif.inotificationactivationcallback"]
 old-location: win32_tile_badge_notif\inotificationactivationcallback.htm
 tech.root: win32_tile_badge_notif
 ms.assetid: 9DB90C47-6FFA-44CA-8D33-709DD8CDDA29

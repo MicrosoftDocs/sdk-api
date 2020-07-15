@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreateTranscodeSinkActivate
 title: MFCreateTranscodeSinkActivate function (mfidl.h)
-description: Creates the transcode sink activation object.helpviewer_keywords: ["MFCreateTranscodeSinkActivate","MFCreateTranscodeSinkActivate function [Media Foundation]","mf.mfcreatetranscodesinkactivate","mfidl/MFCreateTranscodeSinkActivate"]
+description: Creates the transcode sink activation object.
+helpviewer_keywords: ["MFCreateTranscodeSinkActivate","MFCreateTranscodeSinkActivate function [Media Foundation]","mf.mfcreatetranscodesinkactivate","mfidl/MFCreateTranscodeSinkActivate"]
 old-location: mf\mfcreatetranscodesinkactivate.htm
 tech.root: medfound
 ms.assetid: cc9c604d-7f5a-4afb-a2df-b270ef883e68

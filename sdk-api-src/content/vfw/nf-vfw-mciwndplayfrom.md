@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndPlayFrom
 title: MCIWndPlayFrom macro (vfw.h)
-description: The MCIWndPlayFrom macro plays the content of an MCI device from the specified location to the end of the content or until another command stops playback. You can use this macro or explicitly send the MCIWNDM_PLAYFROM message.helpviewer_keywords: ["MCIWndPlayFrom","MCIWndPlayFrom macro [Windows Multimedia]","_win32_MCIWndPlayFrom","multimedia.mciwndplayfrom","vfw/MCIWndPlayFrom"]
+description: The MCIWndPlayFrom macro plays the content of an MCI device from the specified location to the end of the content or until another command stops playback. You can use this macro or explicitly send the MCIWNDM_PLAYFROM message.
+helpviewer_keywords: ["MCIWndPlayFrom","MCIWndPlayFrom macro [Windows Multimedia]","_win32_MCIWndPlayFrom","multimedia.mciwndplayfrom","vfw/MCIWndPlayFrom"]
 old-location: multimedia\mciwndplayfrom.htm
 tech.root: Multimedia
 ms.assetid: b3efd0c9-d216-4b16-818d-76f3bb8f627e

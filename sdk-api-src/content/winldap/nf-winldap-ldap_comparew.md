@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_compareW
 title: ldap_compareW function (winldap.h)
-description: Use the ldap_compare function to determine whether an attribute for a given entry holds a known value.helpviewer_keywords: ["_ldap_ldap_compare","ldap.ldap__compare","ldap.ldap_compare","ldap_compare","ldap_compare function [LDAP]","ldap_compareA","ldap_compareW","winldap/ldap_compare","winldap/ldap_compareA","winldap/ldap_compareW"]
+description: Use the ldap_compare function to determine whether an attribute for a given entry holds a known value.
+helpviewer_keywords: ["_ldap_ldap_compare","ldap.ldap__compare","ldap.ldap_compare","ldap_compare","ldap_compare function [LDAP]","ldap_compareA","ldap_compareW","winldap/ldap_compare","winldap/ldap_compareA","winldap/ldap_compareW"]
 old-location: ldap\ldap_compare.htm
 tech.root: ldap
 ms.assetid: 0cdcea2f-5ee2-407a-a229-5a3fb1e3b856
@@ -117,6 +118,10 @@ Multithreading: Calls to <b>ldap_compare</b> are thread-safe, provided that
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines ldap_compare as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

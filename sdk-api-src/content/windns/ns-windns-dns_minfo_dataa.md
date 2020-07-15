@@ -65,6 +65,10 @@ A pointer to a string that represents the FQDN of the mailbox to receive error m
 The <b>DNS_MINFO_DATA</b> structure is used in conjunction with the 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a> structure to programmatically manage DNS entries.
 
+
+> [!NOTE]
+> The windns.h header defines DNS_MINFO_DATA as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 <a href="/windows/win32/api/windns/ns-windns-dns_recorda">DNS_RECORD</a>

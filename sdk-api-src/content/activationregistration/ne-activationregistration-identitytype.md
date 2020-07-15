@@ -1,7 +1,8 @@
 ---
 UID: NE:activationregistration.IdentityType
 title: IdentityType (activationregistration.h)
-description: Represents the kind of activation for an out-of-process server.helpviewer_keywords: ["IdentityType","IdentityType enumeration [Windows Runtime]","IdentityType_ActivateAsActivatingUser","IdentityType_ActivateAsActivator","IdentityType_ActivateAsPackage","IdentityType_RunAs","IdentityType_SessionUser","IdentityType_SessionVirtual","activationregistration/IdentityType","activationregistration/IdentityType_ActivateAsActivatingUser","activationregistration/IdentityType_ActivateAsActivator","activationregistration/IdentityType_ActivateAsPackage","activationregistration/IdentityType_RunAs","activationregistration/IdentityType_SessionUser","activationregistration/IdentityType_SessionVirtual","winrt.identitytype"]
+description: Represents the kind of activation for an out-of-process server.
+helpviewer_keywords: ["IdentityType","IdentityType enumeration [Windows Runtime]","IdentityType_ActivateAsActivatingUser","IdentityType_ActivateAsActivator","IdentityType_ActivateAsPackage","IdentityType_RunAs","IdentityType_SessionUser","IdentityType_SessionVirtual","activationregistration/IdentityType","activationregistration/IdentityType_ActivateAsActivatingUser","activationregistration/IdentityType_ActivateAsActivator","activationregistration/IdentityType_ActivateAsPackage","activationregistration/IdentityType_RunAs","activationregistration/IdentityType_SessionUser","activationregistration/IdentityType_SessionVirtual","winrt.identitytype"]
 old-location: winrt\identitytype.htm
 tech.root: WinRT
 ms.assetid: 17EBFEE2-903A-4B64-A59F-D94E96E4457E

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.ICurrentWorkingDirectory.GetDirectory
 title: ICurrentWorkingDirectory::GetDirectory (shlobj.h)
-description: Gets the current working directory.helpviewer_keywords: ["GetDirectory","GetDirectory method [Windows Shell]","GetDirectory method [Windows Shell]","ICurrentWorkingDirectory interface","ICurrentWorkingDirectory interface [Windows Shell]","GetDirectory method","ICurrentWorkingDirectory.GetDirectory","ICurrentWorkingDirectory::GetDirectory","_win32_ICurrentWorkingDirectory_GetDirectory","shell.ICurrentWorkingDirectory_GetDirectory","shlobj/ICurrentWorkingDirectory::GetDirectory"]
+description: Gets the current working directory.
+helpviewer_keywords: ["GetDirectory","GetDirectory method [Windows Shell]","GetDirectory method [Windows Shell]","ICurrentWorkingDirectory interface","ICurrentWorkingDirectory interface [Windows Shell]","GetDirectory method","ICurrentWorkingDirectory.GetDirectory","ICurrentWorkingDirectory::GetDirectory","_win32_ICurrentWorkingDirectory_GetDirectory","shell.ICurrentWorkingDirectory_GetDirectory","shlobj/ICurrentWorkingDirectory::GetDirectory"]
 old-location: shell\ICurrentWorkingDirectory_GetDirectory.htm
 tech.root: shell
 ms.assetid: 763c042b-2780-4202-9c3e-073cc8adc93a

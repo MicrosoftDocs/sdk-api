@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSourceResolver.CreateObjectFromByteStream
 title: IMFSourceResolver::CreateObjectFromByteStream (mfidl.h)
-description: Creates a media source from a byte stream. This method is synchronous.helpviewer_keywords: ["CreateObjectFromByteStream","CreateObjectFromByteStream method [Media Foundation]","CreateObjectFromByteStream method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","CreateObjectFromByteStream method","IMFSourceResolver.CreateObjectFromByteStream","IMFSourceResolver::CreateObjectFromByteStream","e4a4aad5-0924-4251-b0da-6919ae010bf0","mf.imfsourceresolver_createobjectfrombytestream","mfidl/IMFSourceResolver::CreateObjectFromByteStream"]
+description: Creates a media source from a byte stream. This method is synchronous.
+helpviewer_keywords: ["CreateObjectFromByteStream","CreateObjectFromByteStream method [Media Foundation]","CreateObjectFromByteStream method [Media Foundation]","IMFSourceResolver interface","IMFSourceResolver interface [Media Foundation]","CreateObjectFromByteStream method","IMFSourceResolver.CreateObjectFromByteStream","IMFSourceResolver::CreateObjectFromByteStream","e4a4aad5-0924-4251-b0da-6919ae010bf0","mf.imfsourceresolver_createobjectfrombytestream","mfidl/IMFSourceResolver::CreateObjectFromByteStream"]
 old-location: mf\imfsourceresolver_createobjectfrombytestream.htm
 tech.root: medfound
 ms.assetid: e4a4aad5-0924-4251-b0da-6919ae010bf0

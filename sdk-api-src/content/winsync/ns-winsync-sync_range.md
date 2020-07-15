@@ -1,7 +1,8 @@
 ---
 UID: NS:winsync._SYNC_RANGE
 title: SYNC_RANGE (winsync.h)
-description: Represents a range of item IDs.helpviewer_keywords: ["SYNC_RANGE","SYNC_RANGE structure [Windows Sync]","winsync.sync_range","winsync/SYNC_RANGE"]
+description: Represents a range of item IDs.
+helpviewer_keywords: ["SYNC_RANGE","SYNC_RANGE structure [Windows Sync]","winsync.sync_range","winsync/SYNC_RANGE"]
 old-location: winsync\sync_range.htm
 tech.root: winsync
 ms.assetid: d3e4a4f4-4a67-4dce-a81a-3861dcf788e6

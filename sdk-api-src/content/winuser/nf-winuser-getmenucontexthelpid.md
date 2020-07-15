@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetMenuContextHelpId
 title: GetMenuContextHelpId function (winuser.h)
-description: Retrieves the Help context identifier associated with the specified menu.helpviewer_keywords: ["GetMenuContextHelpId","GetMenuContextHelpId function [Windows Shell]","_win32_GetMenuContextHelpId","shell.GetMenuContextHelpId","winuser/GetMenuContextHelpId"]
+description: Retrieves the Help context identifier associated with the specified menu.
+helpviewer_keywords: ["GetMenuContextHelpId","GetMenuContextHelpId function [Windows Shell]","_win32_GetMenuContextHelpId","shell.GetMenuContextHelpId","winuser/GetMenuContextHelpId"]
 old-location: shell\GetMenuContextHelpId.htm
 tech.root: shell
 ms.assetid: 2b8d3e94-6860-4a75-8373-38afb641eb3b

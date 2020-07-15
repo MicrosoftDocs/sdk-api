@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsDeleteOps
 title: IADsDeleteOps (iads.h)
-description: The IADsDeleteOps interface specifies a method an object can use to delete itself from the underlying directory. For a container object, the method deletes its children and the entire subtree.helpviewer_keywords: ["IADsDeleteOps","IADsDeleteOps interface [ADSI]","IADsDeleteOps interface [ADSI]","described","_ds_iadsdeleteops","adsi.iadsdeleteops","iads/IADsDeleteOps"]
+description: The IADsDeleteOps interface specifies a method an object can use to delete itself from the underlying directory. For a container object, the method deletes its children and the entire subtree.
+helpviewer_keywords: ["IADsDeleteOps","IADsDeleteOps interface [ADSI]","IADsDeleteOps interface [ADSI]","described","_ds_iadsdeleteops","adsi.iadsdeleteops","iads/IADsDeleteOps"]
 old-location: adsi\iadsdeleteops.htm
 tech.root: adsi
 ms.assetid: 329d7061-9aa2-4f4e-a0ec-a0cbb1d231f5

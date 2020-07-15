@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadBOOL
 title: PSPropertyBag_ReadBOOL function (propsys.h)
-description: Reads the BOOL data value of a property in a property bag.helpviewer_keywords: ["PSPropertyBag_ReadBOOL","PSPropertyBag_ReadBOOL function [Windows Properties]","properties.PSPropertyBag_ReadBOOL","propsys/PSPropertyBag_ReadBOOL","shell.PSPropertyBag_ReadBOOL","shell_PSPropertyBag_ReadBOOL"]
+description: Reads the BOOL data value of a property in a property bag.
+helpviewer_keywords: ["PSPropertyBag_ReadBOOL","PSPropertyBag_ReadBOOL function [Windows Properties]","properties.PSPropertyBag_ReadBOOL","propsys/PSPropertyBag_ReadBOOL","shell.PSPropertyBag_ReadBOOL","shell_PSPropertyBag_ReadBOOL"]
 old-location: properties\PSPropertyBag_ReadBOOL.htm
 tech.root: properties
 ms.assetid: 95F9CB5E-E690-4d83-A094-02981F0578CF

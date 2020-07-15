@@ -1,7 +1,8 @@
 ---
 UID: NF:deviceaccess.ICreateDeviceAccessAsync.Wait
 title: ICreateDeviceAccessAsync::Wait (deviceaccess.h)
-description: The Wait method waits a specified length of time for an asynchronous bind operation that is in progress to finish.helpviewer_keywords: ["ICreateDeviceAccessAsync interface [Device Access Broker API]","Wait method","ICreateDeviceAccessAsync.Wait","ICreateDeviceAccessAsync::Wait","Wait","Wait method [Device Access Broker API]","Wait method [Device Access Broker API]","ICreateDeviceAccessAsync interface","deviceaccess.icreatedeviceaccessasync_wait","deviceaccess/ICreateDeviceAccessAsync::Wait"]
+description: The Wait method waits a specified length of time for an asynchronous bind operation that is in progress to finish.
+helpviewer_keywords: ["ICreateDeviceAccessAsync interface [Device Access Broker API]","Wait method","ICreateDeviceAccessAsync.Wait","ICreateDeviceAccessAsync::Wait","Wait","Wait method [Device Access Broker API]","Wait method [Device Access Broker API]","ICreateDeviceAccessAsync interface","deviceaccess.icreatedeviceaccessasync_wait","deviceaccess/ICreateDeviceAccessAsync::Wait"]
 old-location: deviceaccess\icreatedeviceaccessasync_wait.htm
 tech.root: deviceaccess
 ms.assetid: 6fdab230-f8f7-47fa-838f-97316a4e78b9

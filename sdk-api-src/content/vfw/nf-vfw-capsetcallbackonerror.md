@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.capSetCallbackOnError
 title: capSetCallbackOnError macro (vfw.h)
-description: The capSetCallbackOnError macro sets an error callback function in the client application. AVICap calls this procedure when errors occur. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_ERROR message.helpviewer_keywords: ["_win32_capSetCallbackOnError","capSetCallbackOnError","capSetCallbackOnError macro [Windows Multimedia]","multimedia.capsetcallbackonerror","vfw/capSetCallbackOnError"]
+description: The capSetCallbackOnError macro sets an error callback function in the client application. AVICap calls this procedure when errors occur. You can use this macro or explicitly call the WM_CAP_SET_CALLBACK_ERROR message.
+helpviewer_keywords: ["_win32_capSetCallbackOnError","capSetCallbackOnError","capSetCallbackOnError macro [Windows Multimedia]","multimedia.capsetcallbackonerror","vfw/capSetCallbackOnError"]
 old-location: multimedia\capsetcallbackonerror.htm
 tech.root: Multimedia
 ms.assetid: 1f9d3dba-be6d-4f7d-a80c-5bca8632e13f

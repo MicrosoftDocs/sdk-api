@@ -1,7 +1,8 @@
 ---
 UID: NS:fwpmtypes.FWPM_LAYER_ENUM_TEMPLATE0_
 title: FWPM_LAYER_ENUM_TEMPLATE0 (fwpmtypes.h)
-description: Used for enumerating layers.helpviewer_keywords: ["FWPM_LAYER_ENUM_TEMPLATE0","FWPM_LAYER_ENUM_TEMPLATE0 structure [Filtering]","fwp.fwpm_layer_enum_template0_struct","fwpmtypes/FWPM_LAYER_ENUM_TEMPLATE0"]
+description: Used for enumerating layers.
+helpviewer_keywords: ["FWPM_LAYER_ENUM_TEMPLATE0","FWPM_LAYER_ENUM_TEMPLATE0 structure [Filtering]","fwp.fwpm_layer_enum_template0_struct","fwpmtypes/FWPM_LAYER_ENUM_TEMPLATE0"]
 old-location: fwp\fwpm_layer_enum_template0_struct.htm
 tech.root: fwp
 ms.assetid: 1e08ee29-8ade-491d-be17-d724d83d86a3

@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiInstallDevice
 title: SetupDiInstallDevice function (setupapi.h)
-description: The SetupDiInstallDevice function is the default handler for the DIF_INSTALLDEVICE installation request.helpviewer_keywords: ["SetupDiInstallDevice","SetupDiInstallDevice function [Device and Driver Installation]","devinst.setupdiinstalldevice","di-rtns_5b8edbe1-3653-41c6-8a61-12f11544ff08.xml","setupapi/SetupDiInstallDevice"]
+description: The SetupDiInstallDevice function is the default handler for the DIF_INSTALLDEVICE installation request.
+helpviewer_keywords: ["SetupDiInstallDevice","SetupDiInstallDevice function [Device and Driver Installation]","devinst.setupdiinstalldevice","di-rtns_5b8edbe1-3653-41c6-8a61-12f11544ff08.xml","setupapi/SetupDiInstallDevice"]
 old-location: devinst\setupdiinstalldevice.htm
 tech.root: devinst
 ms.assetid: 130a58a8-7964-40cb-87e8-4765178bd1ff

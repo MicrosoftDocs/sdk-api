@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResource.GetStream
 title: IXpsOMFontResource::GetStream (xpsobjectmodel.h)
-description: Gets a new, read-only copy of the stream that is associated with this resource.helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMFontResource interface","IXpsOMFontResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMFontResource.GetStream","IXpsOMFontResource::GetStream","xps.ixpsomfontresource_getstream","xpsobjectmodel/IXpsOMFontResource::GetStream"]
+description: Gets a new, read-only copy of the stream that is associated with this resource.
+helpviewer_keywords: ["GetStream","GetStream method [XPS Documents and Packaging]","GetStream method [XPS Documents and Packaging]","IXpsOMFontResource interface","IXpsOMFontResource interface [XPS Documents and Packaging]","GetStream method","IXpsOMFontResource.GetStream","IXpsOMFontResource::GetStream","xps.ixpsomfontresource_getstream","xpsobjectmodel/IXpsOMFontResource::GetStream"]
 old-location: xps\ixpsomfontresource_getstream.htm
 tech.root: printdocs
 ms.assetid: d512e862-e2d0-4cc8-a20a-bc3cfbfbcc47

@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagENUMTEXTMETRICW
 title: ENUMTEXTMETRICW (wingdi.h)
-description: The ENUMTEXTMETRIC structure contains information about a physical font.helpviewer_keywords: ["*LPENUMTEXTMETRICW","*PENUMTEXTMETRICW","ENUMTEXTMETRIC","ENUMTEXTMETRIC structure [Windows GDI]","ENUMTEXTMETRICA","ENUMTEXTMETRICW","PENUMTEXTMETRIC","PENUMTEXTMETRIC structure pointer [Windows GDI]","_win32_ENUMTEXTMETRIC_str","gdi.enumtextmetric","wingdi/ENUMTEXTMETRIC","wingdi/ENUMTEXTMETRICA","wingdi/ENUMTEXTMETRICW","wingdi/PENUMTEXTMETRIC"]
+description: The ENUMTEXTMETRIC structure contains information about a physical font.
+helpviewer_keywords: ["*LPENUMTEXTMETRICW","*PENUMTEXTMETRICW","ENUMTEXTMETRIC","ENUMTEXTMETRIC structure [Windows GDI]","ENUMTEXTMETRICA","ENUMTEXTMETRICW","PENUMTEXTMETRIC","PENUMTEXTMETRIC structure pointer [Windows GDI]","_win32_ENUMTEXTMETRIC_str","gdi.enumtextmetric","wingdi/ENUMTEXTMETRIC","wingdi/ENUMTEXTMETRICA","wingdi/ENUMTEXTMETRICW","wingdi/PENUMTEXTMETRIC"]
 old-location: gdi\enumtextmetric.htm
 tech.root: gdi
 ms.assetid: deb81846-3ada-4c88-8c26-74224538d282
@@ -82,6 +83,10 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/wingdi/nf-wingdi-enu
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines ENUMTEXTMETRIC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

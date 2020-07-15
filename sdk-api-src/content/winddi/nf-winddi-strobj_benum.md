@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.STROBJ_bEnum
 title: STROBJ_bEnum function (winddi.h)
-description: The STROBJ_bEnum function enumerates glyph identities and positions.helpviewer_keywords: ["STROBJ_bEnum","STROBJ_bEnum function [Display Devices]","display.strobj_benum","gdifncs_2925a0a5-f797-41a5-b5b1-d87d60d44905.xml","winddi/STROBJ_bEnum"]
+description: The STROBJ_bEnum function enumerates glyph identities and positions.
+helpviewer_keywords: ["STROBJ_bEnum","STROBJ_bEnum function [Display Devices]","display.strobj_benum","gdifncs_2925a0a5-f797-41a5-b5b1-d87d60d44905.xml","winddi/STROBJ_bEnum"]
 old-location: display\strobj_benum.htm
 tech.root: display
 ms.assetid: 82cb12ff-2baa-4291-849c-dab9d01fa39b

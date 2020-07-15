@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapSource.CopyPixels
 title: IWICBitmapSource::CopyPixels (wincodec.h)
-description: Instructs the object to produce pixels.helpviewer_keywords: ["CopyPixels","CopyPixels method [Windows Imaging Component]","CopyPixels method [Windows Imaging Component]","IWICBitmapSource interface","IWICBitmapSource interface [Windows Imaging Component]","CopyPixels method","IWICBitmapSource.CopyPixels","IWICBitmapSource::CopyPixels","_wic_codec_iwicbitmapsource_copypixels","wic._wic_codec_iwicbitmapsource_copypixels","wincodec/IWICBitmapSource::CopyPixels"]
+description: Instructs the object to produce pixels.
+helpviewer_keywords: ["CopyPixels","CopyPixels method [Windows Imaging Component]","CopyPixels method [Windows Imaging Component]","IWICBitmapSource interface","IWICBitmapSource interface [Windows Imaging Component]","CopyPixels method","IWICBitmapSource.CopyPixels","IWICBitmapSource::CopyPixels","_wic_codec_iwicbitmapsource_copypixels","wic._wic_codec_iwicbitmapsource_copypixels","wincodec/IWICBitmapSource::CopyPixels"]
 old-location: wic\_wic_codec_iwicbitmapsource_copypixels.htm
 tech.root: wic
 ms.assetid: d4908a75-e7de-4b8f-bdc8-d86cf6b49f8c

@@ -1,7 +1,8 @@
 ---
 UID: NS:mfapi.tagMFASYNCRESULT
 title: MFASYNCRESULT (mfapi.h)
-description: Contains data that is needed to implement the IMFAsyncResult interface.helpviewer_keywords: ["MFASYNCRESULT","MFASYNCRESULT structure [Media Foundation]","fffa32d6-5e9f-42a1-9978-04f5726528bc","mf.mfasyncresult","mfapi/MFASYNCRESULT"]
+description: Contains data that is needed to implement the IMFAsyncResult interface.
+helpviewer_keywords: ["MFASYNCRESULT","MFASYNCRESULT structure [Media Foundation]","fffa32d6-5e9f-42a1-9978-04f5726528bc","mf.mfasyncresult","mfapi/MFASYNCRESULT"]
 old-location: mf\mfasyncresult.htm
 tech.root: medfound
 ms.assetid: fffa32d6-5e9f-42a1-9978-04f5726528bc

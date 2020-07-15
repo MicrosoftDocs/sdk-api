@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsbuffer.INSSBuffer.GetBuffer
 title: INSSBuffer::GetBuffer (wmsbuffer.h)
-description: The GetBuffer method retrieves the location of the buffer controlled by the buffer object.helpviewer_keywords: ["GetBuffer","GetBuffer method [windows Media Format]","GetBuffer method [windows Media Format]","INSSBuffer interface","INSSBuffer interface [windows Media Format]","GetBuffer method","INSSBuffer.GetBuffer","INSSBuffer::GetBuffer","INSSBufferGetBuffer","wmformat.inssbuffer_getbuffer","wmsbuffer/INSSBuffer::GetBuffer"]
+description: The GetBuffer method retrieves the location of the buffer controlled by the buffer object.
+helpviewer_keywords: ["GetBuffer","GetBuffer method [windows Media Format]","GetBuffer method [windows Media Format]","INSSBuffer interface","INSSBuffer interface [windows Media Format]","GetBuffer method","INSSBuffer.GetBuffer","INSSBuffer::GetBuffer","INSSBufferGetBuffer","wmformat.inssbuffer_getbuffer","wmsbuffer/INSSBuffer::GetBuffer"]
 old-location: wmformat\inssbuffer_getbuffer.htm
 tech.root: wmformat
 ms.assetid: 3f9e8408-52ce-48aa-ba85-51bdbbfd8b51

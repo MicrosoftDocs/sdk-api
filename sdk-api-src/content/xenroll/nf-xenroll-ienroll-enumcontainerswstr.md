@@ -1,7 +1,8 @@
 ---
 UID: NF:xenroll.IEnroll.enumContainersWStr
 title: IEnroll::enumContainersWStr (xenroll.h)
-description: Retrieves the names of containers for the cryptographic service provider (CSP) specified by the ProviderNameWStr property.helpviewer_keywords: ["IEnroll interface [Security]","enumContainersWStr method","IEnroll.enumContainersWStr","IEnroll::enumContainersWStr","enumContainersWStr","enumContainersWStr method [Security]","enumContainersWStr method [Security]","IEnroll interface","security.ienroll4_enumcontainerswstr","xenroll/IEnroll::enumContainersWStr"]
+description: Retrieves the names of containers for the cryptographic service provider (CSP) specified by the ProviderNameWStr property.
+helpviewer_keywords: ["IEnroll interface [Security]","enumContainersWStr method","IEnroll.enumContainersWStr","IEnroll::enumContainersWStr","enumContainersWStr","enumContainersWStr method [Security]","enumContainersWStr method [Security]","IEnroll interface","security.ienroll4_enumcontainerswstr","xenroll/IEnroll::enumContainersWStr"]
 old-location: security\ienroll4_enumcontainerswstr.htm
 tech.root: SecCrypto
 ms.assetid: a08d97c9-8ee9-464e-862e-18c335695927

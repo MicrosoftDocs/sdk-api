@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMQuaternionToAxisAngle
 title: XMQuaternionToAxisAngle function (directxmath.h)
-description: Computes an axis and angle of rotation about that axis for a given quaternion.helpviewer_keywords: ["Use DirectX..XMQuaternionToAxisAngle","XMQuaternionToAxisAngle","XMQuaternionToAxisAngle method [DirectX Math Support APIs]","dxmath.xmquaterniontoaxisangle"]
+description: Computes an axis and angle of rotation about that axis for a given quaternion.
+helpviewer_keywords: ["Use DirectX..XMQuaternionToAxisAngle","XMQuaternionToAxisAngle","XMQuaternionToAxisAngle method [DirectX Math Support APIs]","dxmath.xmquaterniontoaxisangle"]
 old-location: dxmath\xmquaterniontoaxisangle.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionToAxisAngle(XMVECTOR@,float@,XMVECTOR)

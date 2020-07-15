@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.ISnapinAbout.GetSnapinImage
 title: ISnapinAbout::GetSnapinImage (mmc.h)
-description: Enables the console to obtain the snap-in's main icon to be used in the About box.helpviewer_keywords: ["GetSnapinImage","GetSnapinImage method [MMC]","GetSnapinImage method [MMC]","ISnapinAbout interface","ISnapinAbout interface [MMC]","GetSnapinImage method","ISnapinAbout.GetSnapinImage","ISnapinAbout::GetSnapinImage","_slate_isnapinabout_getsnapinimage","mmc.isnapinabout_getsnapinimage","mmc/ISnapinAbout::GetSnapinImage"]
+description: Enables the console to obtain the snap-in's main icon to be used in the About box.
+helpviewer_keywords: ["GetSnapinImage","GetSnapinImage method [MMC]","GetSnapinImage method [MMC]","ISnapinAbout interface","ISnapinAbout interface [MMC]","GetSnapinImage method","ISnapinAbout.GetSnapinImage","ISnapinAbout::GetSnapinImage","_slate_isnapinabout_getsnapinimage","mmc.isnapinabout_getsnapinimage","mmc/ISnapinAbout::GetSnapinImage"]
 old-location: mmc\isnapinabout_getsnapinimage.htm
 tech.root: mmc
 ms.assetid: 0a009125-fee0-4ea4-9778-e28797e47465

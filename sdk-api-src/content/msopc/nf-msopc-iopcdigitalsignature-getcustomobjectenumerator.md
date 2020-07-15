@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcDigitalSignature.GetCustomObjectEnumerator
 title: IOpcDigitalSignature::GetCustomObjectEnumerator (msopc.h)
-description: Gets an enumerator of IOpcSignatureCustomObject interface pointers that represent application-specific Object elements in the signature markup.helpviewer_keywords: ["GetCustomObjectEnumerator","GetCustomObjectEnumerator method [Open Packaging Conventions]","GetCustomObjectEnumerator method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetCustomObjectEnumerator method","IOpcDigitalSignature.GetCustomObjectEnumerator","IOpcDigitalSignature::GetCustomObjectEnumerator","msopc/IOpcDigitalSignature::GetCustomObjectEnumerator","opc.iopcdigitalsignature_getcustomobjectenumerator"]
+description: Gets an enumerator of IOpcSignatureCustomObject interface pointers that represent application-specific Object elements in the signature markup.
+helpviewer_keywords: ["GetCustomObjectEnumerator","GetCustomObjectEnumerator method [Open Packaging Conventions]","GetCustomObjectEnumerator method [Open Packaging Conventions]","IOpcDigitalSignature interface","IOpcDigitalSignature interface [Open Packaging Conventions]","GetCustomObjectEnumerator method","IOpcDigitalSignature.GetCustomObjectEnumerator","IOpcDigitalSignature::GetCustomObjectEnumerator","msopc/IOpcDigitalSignature::GetCustomObjectEnumerator","opc.iopcdigitalsignature_getcustomobjectenumerator"]
 old-location: opc\iopcdigitalsignature_getcustomobjectenumerator.htm
 tech.root: OPC
 ms.assetid: 1263ca86-8b4f-4be9-a88a-f11e76178d0d

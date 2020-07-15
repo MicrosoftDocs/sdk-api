@@ -1,7 +1,8 @@
 ---
 UID: NS:vds._VDS_VOLUME_PROP
 title: VDS_VOLUME_PROP (vds.h)
-description: Defines the properties of a volume object.helpviewer_keywords: ["*PVDS_VOLUME_PROP","PVDS_VOLUME_PROP","PVDS_VOLUME_PROP structure pointer [VDS]","VDS_VOLUME_PROP","VDS_VOLUME_PROP structure [VDS]","base.vds_volume_prop","vds/PVDS_VOLUME_PROP","vds/_VDS_VOLUME_PROP"]
+description: Defines the properties of a volume object.
+helpviewer_keywords: ["*PVDS_VOLUME_PROP","PVDS_VOLUME_PROP","PVDS_VOLUME_PROP structure pointer [VDS]","VDS_VOLUME_PROP","VDS_VOLUME_PROP structure [VDS]","base.vds_volume_prop","vds/PVDS_VOLUME_PROP","vds/_VDS_VOLUME_PROP"]
 old-location: base\vds_volume_prop.htm
 tech.root: VDS
 ms.assetid: 3628b312-f830-4a1c-beb7-ad002a94313c

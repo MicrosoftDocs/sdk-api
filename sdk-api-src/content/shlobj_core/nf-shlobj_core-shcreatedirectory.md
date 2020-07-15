@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHCreateDirectory
 title: SHCreateDirectory function (shlobj_core.h)
-description: Creates a new file system folder.helpviewer_keywords: ["SHCreateDirectory","SHCreateDirectory function [Windows Shell]","_win32_SHCreateDirectory","shell.SHCreateDirectory","shlobj_core/SHCreateDirectory"]
+description: Creates a new file system folder.
+helpviewer_keywords: ["SHCreateDirectory","SHCreateDirectory function [Windows Shell]","_win32_SHCreateDirectory","shell.SHCreateDirectory","shlobj_core/SHCreateDirectory"]
 old-location: shell\SHCreateDirectory.htm
 tech.root: shell
 ms.assetid: 4927429c-f457-4dda-aa0d-236eb236795c

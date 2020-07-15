@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.GetObject
 title: IShellFolderView::GetObject (shlobj_core.h)
-description: Gets an item from the view.helpviewer_keywords: ["GetObject","GetObject method [Windows Shell]","GetObject method [Windows Shell]","IShellFolderView interface","IShellFolderView interface [Windows Shell]","GetObject method","IShellFolderView.GetObject","IShellFolderView::GetObject","_shell_IShellFolderView_GetObject","shell.IShellFolderView_GetObject","shlobj_core/IShellFolderView::GetObject"]
+description: Gets an item from the view.
+helpviewer_keywords: ["GetObject","GetObject method [Windows Shell]","GetObject method [Windows Shell]","IShellFolderView interface","IShellFolderView interface [Windows Shell]","GetObject method","IShellFolderView.GetObject","IShellFolderView::GetObject","_shell_IShellFolderView_GetObject","shell.IShellFolderView_GetObject","shlobj_core/IShellFolderView::GetObject"]
 old-location: shell\IShellFolderView_GetObject.htm
 tech.root: shell
 ms.assetid: a231e92f-b467-4fd7-929d-92259272a734

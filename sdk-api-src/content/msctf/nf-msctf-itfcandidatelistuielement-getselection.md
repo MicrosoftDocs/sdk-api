@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetSelection
 title: ITfCandidateListUIElement::GetSelection (msctf.h)
-description: The ITfCandidateListUIElement::GetSelection method returns the current selection of the candidate list.helpviewer_keywords: ["GetSelection","GetSelection method [Text Services Framework]","GetSelection method [Text Services Framework]","ITfCandidateListUIElement interface","ITfCandidateListUIElement interface [Text Services Framework]","GetSelection method","ITfCandidateListUIElement.GetSelection","ITfCandidateListUIElement::GetSelection","msctf/ITfCandidateListUIElement::GetSelection","tsf.itfcandidatelistuielement_getselection"]
+description: The ITfCandidateListUIElement::GetSelection method returns the current selection of the candidate list.
+helpviewer_keywords: ["GetSelection","GetSelection method [Text Services Framework]","GetSelection method [Text Services Framework]","ITfCandidateListUIElement interface","ITfCandidateListUIElement interface [Text Services Framework]","GetSelection method","ITfCandidateListUIElement.GetSelection","ITfCandidateListUIElement::GetSelection","msctf/ITfCandidateListUIElement::GetSelection","tsf.itfcandidatelistuielement_getselection"]
 old-location: tsf\itfcandidatelistuielement_getselection.htm
 tech.root: TSF
 ms.assetid: ac7530cd-eac8-4b2b-89e1-e05c14a81c7d

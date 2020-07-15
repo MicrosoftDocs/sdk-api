@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.IEnumVARIANT.Next
 title: IEnumVARIANT::Next (oaidl.h)
-description: Retrieves the specified items in the enumeration sequence.helpviewer_keywords: ["IEnumVARIANT interface [Automation]","Next method","IEnumVARIANT.Next","IEnumVARIANT::Next","Next","Next method [Automation]","Next method [Automation]","IEnumVARIANT interface","_oa96_IEnumVARIANT::Next","automat.ienumvariant_next","oaidl/IEnumVARIANT::Next"]
+description: Retrieves the specified items in the enumeration sequence.
+helpviewer_keywords: ["IEnumVARIANT interface [Automation]","Next method","IEnumVARIANT.Next","IEnumVARIANT::Next","Next","Next method [Automation]","Next method [Automation]","IEnumVARIANT interface","_oa96_IEnumVARIANT::Next","automat.ienumvariant_next","oaidl/IEnumVARIANT::Next"]
 old-location: automat\ienumvariant_next.htm
 tech.root: automat
 ms.assetid: 691c1624-8d01-41e0-890e-a4782eba1f59

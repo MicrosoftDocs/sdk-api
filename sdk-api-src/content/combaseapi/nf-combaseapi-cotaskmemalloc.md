@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoTaskMemAlloc
 title: CoTaskMemAlloc function (combaseapi.h)
-description: Allocates a block of task memory in the same way that IMalloc::Alloc does.helpviewer_keywords: ["CoTaskMemAlloc","CoTaskMemAlloc function [COM]","_com_CoTaskMemAlloc","com.cotaskmemalloc","combaseapi/CoTaskMemAlloc"]
+description: Allocates a block of task memory in the same way that IMalloc::Alloc does.
+helpviewer_keywords: ["CoTaskMemAlloc","CoTaskMemAlloc function [COM]","_com_CoTaskMemAlloc","com.cotaskmemalloc","combaseapi/CoTaskMemAlloc"]
 old-location: com\cotaskmemalloc.htm
 tech.root: com
 ms.assetid: c4cb588d-9482-4f90-a92e-75b604540d5c

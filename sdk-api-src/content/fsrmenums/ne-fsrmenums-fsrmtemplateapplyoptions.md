@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmTemplateApplyOptions
 title: FsrmTemplateApplyOptions (fsrmenums.h)
-description: Defines the options for applying template changes to derived objects.helpviewer_keywords: ["FsrmTemplateApplyOptions","FsrmTemplateApplyOptions enumeration [File Server Resource Manager]","FsrmTemplateApplyOptions_ApplyToDerivedAll","FsrmTemplateApplyOptions_ApplyToDerivedMatching","fs.fsrmtemplateapplyoptions","fsrm.fsrmtemplateapplyoptions","fsrmenums/FsrmTemplateApplyOptions","fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedAll","fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedMatching"]
+description: Defines the options for applying template changes to derived objects.
+helpviewer_keywords: ["FsrmTemplateApplyOptions","FsrmTemplateApplyOptions enumeration [File Server Resource Manager]","FsrmTemplateApplyOptions_ApplyToDerivedAll","FsrmTemplateApplyOptions_ApplyToDerivedMatching","fs.fsrmtemplateapplyoptions","fsrm.fsrmtemplateapplyoptions","fsrmenums/FsrmTemplateApplyOptions","fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedAll","fsrmenums/FsrmTemplateApplyOptions_ApplyToDerivedMatching"]
 old-location: fsrm\fsrmtemplateapplyoptions.htm
 tech.root: fsrm
 ms.assetid: 44a8e280-4005-476c-a43d-184c18825129

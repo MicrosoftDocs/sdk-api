@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.BRUSHOBJ_pvAllocRbrush
 title: BRUSHOBJ_pvAllocRbrush function (winddi.h)
-description: The BRUSHOBJ_pvAllocRbrush function allocates memory for the driver's realization of a specified brush.helpviewer_keywords: ["BRUSHOBJ_pvAllocRbrush","BRUSHOBJ_pvAllocRbrush function [Display Devices]","display.brushobj_pvallocrbrush","gdifncs_1858340b-edd3-4fbb-b214-6863301a93fa.xml","winddi/BRUSHOBJ_pvAllocRbrush"]
+description: The BRUSHOBJ_pvAllocRbrush function allocates memory for the driver's realization of a specified brush.
+helpviewer_keywords: ["BRUSHOBJ_pvAllocRbrush","BRUSHOBJ_pvAllocRbrush function [Display Devices]","display.brushobj_pvallocrbrush","gdifncs_1858340b-edd3-4fbb-b214-6863301a93fa.xml","winddi/BRUSHOBJ_pvAllocRbrush"]
 old-location: display\brushobj_pvallocrbrush.htm
 tech.root: display
 ms.assetid: 10900536-6c48-4a96-92d2-025660ccff7e

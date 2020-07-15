@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IWEExtendWizard.CreateWizardPages
 title: IWEExtendWizard::CreateWizardPages (cluadmex.h)
-description: Allows you to create wizard pages and add them to Failover Cluster Administrator's New Resource Wizard or Cluster Application Wizard.helpviewer_keywords: ["CreateWizardPages","CreateWizardPages method [Failover Cluster]","CreateWizardPages method [Failover Cluster]","IWEExtendWizard interface","IWEExtendWizard interface [Failover Cluster]","CreateWizardPages method","IWEExtendWizard.CreateWizardPages","IWEExtendWizard::CreateWizardPages","_wolf_iweextendwizard_createwizardpages","cluadmex/IWEExtendWizard::CreateWizardPages","mscs.iweextendwizard_createwizardpages"]
+description: Allows you to create wizard pages and add them to Failover Cluster Administrator's New Resource Wizard or Cluster Application Wizard.
+helpviewer_keywords: ["CreateWizardPages","CreateWizardPages method [Failover Cluster]","CreateWizardPages method [Failover Cluster]","IWEExtendWizard interface","IWEExtendWizard interface [Failover Cluster]","CreateWizardPages method","IWEExtendWizard.CreateWizardPages","IWEExtendWizard::CreateWizardPages","_wolf_iweextendwizard_createwizardpages","cluadmex/IWEExtendWizard::CreateWizardPages","mscs.iweextendwizard_createwizardpages"]
 old-location: mscs\iweextendwizard_createwizardpages.htm
 tech.root: MsCS
 ms.assetid: b52ea5a5-aa80-4f65-9bab-b60fa8363b01

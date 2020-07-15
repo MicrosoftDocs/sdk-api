@@ -1,7 +1,8 @@
 ---
 UID: NF:wcndevice.IWCNDevice.SetNetworkProfile
 title: IWCNDevice::SetNetworkProfile (wcndevice.h)
-description: The IWCNDevice::SetNetworkProfile method queues an XML WLAN profile to be provisioned to the device. This method may only be called prior to IWCNDevice::Connect.helpviewer_keywords: ["IWCNDevice interface [Windows Connect Now]","SetNetworkProfile method","IWCNDevice.SetNetworkProfile","IWCNDevice::SetNetworkProfile","SetNetworkProfile","SetNetworkProfile method [Windows Connect Now]","SetNetworkProfile method [Windows Connect Now]","IWCNDevice interface","wcn.iwcndevice_setnetworkprofile","wcndevice/IWCNDevice::SetNetworkProfile"]
+description: The IWCNDevice::SetNetworkProfile method queues an XML WLAN profile to be provisioned to the device. This method may only be called prior to IWCNDevice::Connect.
+helpviewer_keywords: ["IWCNDevice interface [Windows Connect Now]","SetNetworkProfile method","IWCNDevice.SetNetworkProfile","IWCNDevice::SetNetworkProfile","SetNetworkProfile","SetNetworkProfile method [Windows Connect Now]","SetNetworkProfile method [Windows Connect Now]","IWCNDevice interface","wcn.iwcndevice_setnetworkprofile","wcndevice/IWCNDevice::SetNetworkProfile"]
 old-location: wcn\iwcndevice_setnetworkprofile.htm
 tech.root: wcn
 ms.assetid: 267aa55a-005d-4db8-9569-f8ee77a15168

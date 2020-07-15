@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMSecurityInfo.RemoveTrustee
 title: IGPMSecurityInfo::RemoveTrustee (gpmgmt.h)
-description: Removes all policy-related permissions for the specified trustee. A trustee is a user, computer, or security group that can be granted permissions on a GPO, SOM, or WMI filter.helpviewer_keywords: ["GPMSecurityInfo class [GPMC]","RemoveTrustee method","IGPMSecurityInfo interface [GPMC]","RemoveTrustee method","IGPMSecurityInfo.RemoveTrustee","IGPMSecurityInfo::RemoveTrustee","RemoveTrustee","RemoveTrustee method [GPMC]","RemoveTrustee method [GPMC]","GPMSecurityInfo class","RemoveTrustee method [GPMC]","IGPMSecurityInfo interface","_win32_igpmsecurityinfo_removetrustee","gpmc.igpmsecurityinfo_removetrustee","gpmgmt/IGPMSecurityInfo::RemoveTrustee"]
+description: Removes all policy-related permissions for the specified trustee. A trustee is a user, computer, or security group that can be granted permissions on a GPO, SOM, or WMI filter.
+helpviewer_keywords: ["GPMSecurityInfo class [GPMC]","RemoveTrustee method","IGPMSecurityInfo interface [GPMC]","RemoveTrustee method","IGPMSecurityInfo.RemoveTrustee","IGPMSecurityInfo::RemoveTrustee","RemoveTrustee","RemoveTrustee method [GPMC]","RemoveTrustee method [GPMC]","GPMSecurityInfo class","RemoveTrustee method [GPMC]","IGPMSecurityInfo interface","_win32_igpmsecurityinfo_removetrustee","gpmc.igpmsecurityinfo_removetrustee","gpmgmt/IGPMSecurityInfo::RemoveTrustee"]
 old-location: gpmc\igpmsecurityinfo_removetrustee.htm
 tech.root: gpmc
 ms.assetid: e290648d-f480-4834-93a3-4759da581611

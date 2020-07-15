@@ -1,7 +1,8 @@
 ---
 UID: NN:wsmandisp.IWSManEx3
 title: IWSManEx3 (wsmandisp.h)
-description: Extends the methods and properties of the IWSManEx interface to include a method that returns a session flag value related to authentication using the Credential Security Support Provider (CredSSP).helpviewer_keywords: ["IWSManEx3","IWSManEx3 interface [Windows Remote Management]","IWSManEx3 interface [Windows Remote Management]","described","winrm.iwsmanex3","wsmandisp/IWSManEx3"]
+description: Extends the methods and properties of the IWSManEx interface to include a method that returns a session flag value related to authentication using the Credential Security Support Provider (CredSSP).
+helpviewer_keywords: ["IWSManEx3","IWSManEx3 interface [Windows Remote Management]","IWSManEx3 interface [Windows Remote Management]","described","winrm.iwsmanex3","wsmandisp/IWSManEx3"]
 old-location: winrm\iwsmanex3.htm
 tech.root: winrm
 ms.assetid: 6d362cdf-0f77-446a-8df9-1d38eca853a2

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarBoolFromStr
 title: VarBoolFromStr function (oleauto.h)
-description: Converts an OLECHAR string to a Boolean value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_LOCALBOOL","VarBoolFromStr","VarBoolFromStr function [Automation]","_oa96_VarBoolFromStr","automat.varboolfromstr","oleauto/VarBoolFromStr"]
+description: Converts an OLECHAR string to a Boolean value.
+helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_LOCALBOOL","VarBoolFromStr","VarBoolFromStr function [Automation]","_oa96_VarBoolFromStr","automat.varboolfromstr","oleauto/VarBoolFromStr"]
 old-location: automat\varboolfromstr.htm
 tech.root: automat
 ms.assetid: 75a8e8e5-9082-4991-84ad-8fb81a32746d

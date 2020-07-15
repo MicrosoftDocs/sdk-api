@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.BrightnessContrast.SetParameters
 title: BrightnessContrast::SetParameters (gdipluseffects.h)
-description: The BrightnessContrast::SetParameters method sets the parameters of this BrightnessContrast object.helpviewer_keywords: ["BrightnessContrast class [GDI+]","SetParameters method","BrightnessContrast.SetParameters","BrightnessContrast::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","BrightnessContrast class","_gdiplus_CLASS_BrightnessContrast_SetParameters_","gdiplus._gdiplus_CLASS_BrightnessContrast_SetParameters_"]
+description: The BrightnessContrast::SetParameters method sets the parameters of this BrightnessContrast object.
+helpviewer_keywords: ["BrightnessContrast class [GDI+]","SetParameters method","BrightnessContrast.SetParameters","BrightnessContrast::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","BrightnessContrast class","_gdiplus_CLASS_BrightnessContrast_SetParameters_","gdiplus._gdiplus_CLASS_BrightnessContrast_SetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_BrightnessContrast_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\brightnesscontrastclass\brightnesscontrastmethods\setparameters.htm

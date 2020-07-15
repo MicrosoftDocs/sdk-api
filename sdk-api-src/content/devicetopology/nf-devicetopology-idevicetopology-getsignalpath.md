@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IDeviceTopology.GetSignalPath
 title: IDeviceTopology::GetSignalPath (devicetopology.h)
-description: The GetSignalPath method gets a list of parts in the signal path that links two parts, if the path exists.helpviewer_keywords: ["GetSignalPath","GetSignalPath method [Core Audio]","GetSignalPath method [Core Audio]","IDeviceTopology interface","IDeviceTopology interface [Core Audio]","GetSignalPath method","IDeviceTopology.GetSignalPath","IDeviceTopology::GetSignalPath","IDeviceTopologyGetSignalPath","coreaudio.idevicetopology_getsignalpath","devicetopology/IDeviceTopology::GetSignalPath"]
+description: The GetSignalPath method gets a list of parts in the signal path that links two parts, if the path exists.
+helpviewer_keywords: ["GetSignalPath","GetSignalPath method [Core Audio]","GetSignalPath method [Core Audio]","IDeviceTopology interface","IDeviceTopology interface [Core Audio]","GetSignalPath method","IDeviceTopology.GetSignalPath","IDeviceTopology::GetSignalPath","IDeviceTopologyGetSignalPath","coreaudio.idevicetopology_getsignalpath","devicetopology/IDeviceTopology::GetSignalPath"]
 old-location: coreaudio\idevicetopology_getsignalpath.htm
 tech.root: CoreAudio
 ms.assetid: 3f32ba6a-a82c-4c2c-8433-ebedd8799615

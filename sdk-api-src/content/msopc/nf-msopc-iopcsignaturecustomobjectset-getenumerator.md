@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSignatureCustomObjectSet.GetEnumerator
 title: IOpcSignatureCustomObjectSet::GetEnumerator (msopc.h)
-description: Gets an enumerator of IOpcSignatureCustomObject interface pointers in the set.helpviewer_keywords: ["GetEnumerator","GetEnumerator method [Open Packaging Conventions]","GetEnumerator method [Open Packaging Conventions]","IOpcSignatureCustomObjectSet interface","IOpcSignatureCustomObjectSet interface [Open Packaging Conventions]","GetEnumerator method","IOpcSignatureCustomObjectSet.GetEnumerator","IOpcSignatureCustomObjectSet::GetEnumerator","msopc/IOpcSignatureCustomObjectSet::GetEnumerator","opc.iopcsignaturecustomobjectset_getenumerator"]
+description: Gets an enumerator of IOpcSignatureCustomObject interface pointers in the set.
+helpviewer_keywords: ["GetEnumerator","GetEnumerator method [Open Packaging Conventions]","GetEnumerator method [Open Packaging Conventions]","IOpcSignatureCustomObjectSet interface","IOpcSignatureCustomObjectSet interface [Open Packaging Conventions]","GetEnumerator method","IOpcSignatureCustomObjectSet.GetEnumerator","IOpcSignatureCustomObjectSet::GetEnumerator","msopc/IOpcSignatureCustomObjectSet::GetEnumerator","opc.iopcsignaturecustomobjectset_getenumerator"]
 old-location: opc\iopcsignaturecustomobjectset_getenumerator.htm
 tech.root: OPC
 ms.assetid: a365a1df-4c72-44a0-bcf5-8ef19c54f4ee

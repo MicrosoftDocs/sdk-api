@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHwndProp
 title: IAccPropServices::SetHwndProp (oleacc.h)
-description: This method wraps SetPropValue, providing a convenient entry point for callers who are annotating HWND-based accessible elements. If the new value is a string, you can use IAccPropServices::SetHwndPropStr instead.helpviewer_keywords: ["IAccPropServices interface [Windows Accessibility]","SetHwndProp method","IAccPropServices.SetHwndProp","IAccPropServices::SetHwndProp","SetHwndProp","SetHwndProp method [Windows Accessibility]","SetHwndProp method [Windows Accessibility]","IAccPropServices interface","_msaa_IAccPropServices_SetHwndProp","msaa.iaccpropservices_iaccpropservices__sethwndprop","oleacc/IAccPropServices::SetHwndProp","winauto.iaccpropservices_iaccpropservices__sethwndprop"]
+description: This method wraps SetPropValue, providing a convenient entry point for callers who are annotating HWND-based accessible elements. If the new value is a string, you can use IAccPropServices::SetHwndPropStr instead.
+helpviewer_keywords: ["IAccPropServices interface [Windows Accessibility]","SetHwndProp method","IAccPropServices.SetHwndProp","IAccPropServices::SetHwndProp","SetHwndProp","SetHwndProp method [Windows Accessibility]","SetHwndProp method [Windows Accessibility]","IAccPropServices interface","_msaa_IAccPropServices_SetHwndProp","msaa.iaccpropservices_iaccpropservices__sethwndprop","oleacc/IAccPropServices::SetHwndProp","winauto.iaccpropservices_iaccpropservices__sethwndprop"]
 old-location: winauto\iaccpropservices_iaccpropservices__sethwndprop.htm
 tech.root: WinAuto
 ms.assetid: 00387897-5385-467d-9da4-4d71fce742b6

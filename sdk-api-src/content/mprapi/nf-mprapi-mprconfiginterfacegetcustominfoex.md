@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceGetCustomInfoEx
 title: MprConfigInterfaceGetCustomInfoEx function (mprapi.h)
-description: Retrieves the custom IKEv2 policy configuration for the specified interface.helpviewer_keywords: ["MprConfigInterfaceGetCustomInfoEx","MprConfigInterfaceGetCustomInfoEx function [RAS]","mprapi/MprConfigInterfaceGetCustomInfoEx","rras.mprconfiginterfacegetcustominfoex"]
+description: Retrieves the custom IKEv2 policy configuration for the specified interface.
+helpviewer_keywords: ["MprConfigInterfaceGetCustomInfoEx","MprConfigInterfaceGetCustomInfoEx function [RAS]","mprapi/MprConfigInterfaceGetCustomInfoEx","rras.mprconfiginterfacegetcustominfoex"]
 old-location: rras\mprconfiginterfacegetcustominfoex.htm
 tech.root: RRAS
 ms.assetid: 97fa62f4-5e1c-4634-a3c7-974425717080

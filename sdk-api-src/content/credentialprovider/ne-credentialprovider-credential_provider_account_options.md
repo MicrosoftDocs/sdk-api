@@ -1,7 +1,8 @@
 ---
 UID: NE:credentialprovider.CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS
 title: CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS (credentialprovider.h)
-description: Indicates the type of credential that a credential provider should return to associate with the &#0034;Other user&#0034; tile. Used by ICredentialProviderUserArray_GetAccountOptions.helpviewer_keywords: ["CPAO_EMPTY_CONNECTED","CPAO_EMPTY_LOCAL","CPAO_NONE","CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS","CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS enumeration [Windows Shell]","credentialprovider/CPAO_EMPTY_CONNECTED","credentialprovider/CPAO_EMPTY_LOCAL","credentialprovider/CPAO_NONE","credentialprovider/CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS","shell.CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS"]
+description: Indicates the type of credential that a credential provider should return to associate with the &quot;Other user&quot; tile. Used by ICredentialProviderUserArray_GetAccountOptions.
+helpviewer_keywords: ["CPAO_EMPTY_CONNECTED","CPAO_EMPTY_LOCAL","CPAO_NONE","CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS","CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS enumeration [Windows Shell]","credentialprovider/CPAO_EMPTY_CONNECTED","credentialprovider/CPAO_EMPTY_LOCAL","credentialprovider/CPAO_NONE","credentialprovider/CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS","shell.CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS"]
 old-location: shell\CREDENTIAL_PROVIDER_ACCOUNT_OPTIONS.htm
 tech.root: shell
 ms.assetid: 9251928C-AB98-47be-8C41-7B89194EB8F9

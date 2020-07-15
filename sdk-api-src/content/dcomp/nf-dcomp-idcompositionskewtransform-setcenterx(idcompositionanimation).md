@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionSkewTransform.SetCenterX(IDCompositionAnimation)
 title: IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the CenterX property of a 2D skew transform.helpviewer_keywords: ["IDCompositionSkewTransform interface [DirectComposition]","SetCenterX method","IDCompositionSkewTransform.SetCenterX","IDCompositionSkewTransform.SetCenterX(IDCompositionAnimation)","IDCompositionSkewTransform::SetCenterX","IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation)","IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation*)","SetCenterX","SetCenterX method [DirectComposition]","SetCenterX method [DirectComposition]","IDCompositionSkewTransform interface","dcomp/IDCompositionSkewTransform::SetCenterX","directcomp.idcompositionskewtransform_setcenterx_idcompositionanimation"]
+description: Animates the value of the CenterX property of a 2D skew transform.
+helpviewer_keywords: ["IDCompositionSkewTransform interface [DirectComposition]","SetCenterX method","IDCompositionSkewTransform.SetCenterX","IDCompositionSkewTransform.SetCenterX(IDCompositionAnimation)","IDCompositionSkewTransform::SetCenterX","IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation)","IDCompositionSkewTransform::SetCenterX(IDCompositionAnimation*)","SetCenterX","SetCenterX method [DirectComposition]","SetCenterX method [DirectComposition]","IDCompositionSkewTransform interface","dcomp/IDCompositionSkewTransform::SetCenterX","directcomp.idcompositionskewtransform_setcenterx_idcompositionanimation"]
 old-location: directcomp\idcompositionskewtransform_setcenterx_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 99f954cf-620a-48e4-b2ff-dc4fb9657fc4

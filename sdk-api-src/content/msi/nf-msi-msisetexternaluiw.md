@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiSetExternalUIW
 title: MsiSetExternalUIW function (msi.h)
-description: The MsiSetExternalUI function enables an external user-interface handler.helpviewer_keywords: ["INSTALLLOGMODE_ACTIONDATA","INSTALLLOGMODE_ACTIONSTART","INSTALLLOGMODE_COMMONDATA","INSTALLLOGMODE_ERROR","INSTALLLOGMODE_FATALEXIT","INSTALLLOGMODE_FILESINUSE","INSTALLLOGMODE_INFO","INSTALLLOGMODE_INITIALIZE","INSTALLLOGMODE_INSTALLEND","INSTALLLOGMODE_INSTALLSTART","INSTALLLOGMODE_OUTOFDISKSPACE","INSTALLLOGMODE_PROGRESS","INSTALLLOGMODE_RESOLVESOURCE","INSTALLLOGMODE_RMFILESINUSE","INSTALLLOGMODE_SHOWDIALOG","INSTALLLOGMODE_TERMINATE","INSTALLLOGMODE_USER","INSTALLLOGMODE_WARNING","MsiSetExternalUI","MsiSetExternalUI function","MsiSetExternalUIA","MsiSetExternalUIW","_msi_msisetexternalui","msi/MsiSetExternalUI","msi/MsiSetExternalUIA","msi/MsiSetExternalUIW","setup.msisetexternalui"]
+description: The MsiSetExternalUI function enables an external user-interface handler.
+helpviewer_keywords: ["INSTALLLOGMODE_ACTIONDATA","INSTALLLOGMODE_ACTIONSTART","INSTALLLOGMODE_COMMONDATA","INSTALLLOGMODE_ERROR","INSTALLLOGMODE_FATALEXIT","INSTALLLOGMODE_FILESINUSE","INSTALLLOGMODE_INFO","INSTALLLOGMODE_INITIALIZE","INSTALLLOGMODE_INSTALLEND","INSTALLLOGMODE_INSTALLSTART","INSTALLLOGMODE_OUTOFDISKSPACE","INSTALLLOGMODE_PROGRESS","INSTALLLOGMODE_RESOLVESOURCE","INSTALLLOGMODE_RMFILESINUSE","INSTALLLOGMODE_SHOWDIALOG","INSTALLLOGMODE_TERMINATE","INSTALLLOGMODE_USER","INSTALLLOGMODE_WARNING","MsiSetExternalUI","MsiSetExternalUI function","MsiSetExternalUIA","MsiSetExternalUIW","_msi_msisetexternalui","msi/MsiSetExternalUI","msi/MsiSetExternalUIA","msi/MsiSetExternalUIW","setup.msisetexternalui"]
 old-location: setup\msisetexternalui.htm
 tech.root: Msi
 ms.assetid: fcbf0607-d048-486f-bec2-f6e9d03e4194
@@ -301,6 +302,10 @@ The external user interface handler pointed to by the <i>puiHandler</i> paramete
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiSetExternalUI as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxAccountOutgoingQueue
 title: IFaxAccountOutgoingQueue (faxcomex.h)
-description: Used by a fax client application to retrieve the outbound fax jobs (FaxOutgoingJobs object) in the job queue for a particular fax account.helpviewer_keywords: ["IFaxAccountOutgoingQueue","IFaxAccountOutgoingQueue interface [Fax Service]","IFaxAccountOutgoingQueue interface [Fax Service]","described","_mfax_faxaccountoutgoingqueue_cpp","fax._mfax_faxaccountoutgoingqueue_cpp","faxcomex/IFaxAccountOutgoingQueue"]
+description: Used by a fax client application to retrieve the outbound fax jobs (FaxOutgoingJobs object) in the job queue for a particular fax account.
+helpviewer_keywords: ["IFaxAccountOutgoingQueue","IFaxAccountOutgoingQueue interface [Fax Service]","IFaxAccountOutgoingQueue interface [Fax Service]","described","_mfax_faxaccountoutgoingqueue_cpp","fax._mfax_faxaccountoutgoingqueue_cpp","faxcomex/IFaxAccountOutgoingQueue"]
 old-location: fax\_mfax_faxaccountoutgoingqueue_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingqueue\faxinta_n_ifaxaccountoutgoingqueue_cpp.htm

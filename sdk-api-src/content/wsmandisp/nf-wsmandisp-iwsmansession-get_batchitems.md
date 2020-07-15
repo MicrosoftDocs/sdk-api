@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManSession.get_BatchItems
 title: IWSManSession::get_BatchItems (wsmandisp.h)
-description: Sets and gets the number of items in each enumeration batch.helpviewer_keywords: ["BatchItems property [Windows Remote Management]","BatchItems property [Windows Remote Management]","IWSManSession interface","IWSManSession interface [Windows Remote Management]","BatchItems property","IWSManSession.BatchItems","IWSManSession.get_BatchItems","IWSManSession::BatchItems","IWSManSession::get_BatchItems","IWSManSession::put_BatchItems","get_BatchItems","winrm.iwsmansession_batchitems","wsmandisp/IWSManSession::BatchItems","wsmandisp/IWSManSession::get_BatchItems","wsmandisp/IWSManSession::put_BatchItems"]
+description: Sets and gets the number of items in each enumeration batch.
+helpviewer_keywords: ["BatchItems property [Windows Remote Management]","BatchItems property [Windows Remote Management]","IWSManSession interface","IWSManSession interface [Windows Remote Management]","BatchItems property","IWSManSession.BatchItems","IWSManSession.get_BatchItems","IWSManSession::BatchItems","IWSManSession::get_BatchItems","IWSManSession::put_BatchItems","get_BatchItems","winrm.iwsmansession_batchitems","wsmandisp/IWSManSession::BatchItems","wsmandisp/IWSManSession::get_BatchItems","wsmandisp/IWSManSession::put_BatchItems"]
 old-location: winrm\iwsmansession_batchitems.htm
 tech.root: winrm
 ms.assetid: 883fc265-b84e-4757-a9b1-8c52174cb701

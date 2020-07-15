@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Modify_Res_Des
 title: CM_Modify_Res_Des function (cfgmgr32.h)
-description: The CM_Modify_Res_Des function modifies a specified resource descriptor on the local machine.helpviewer_keywords: ["CM_Modify_Res_Des","CM_Modify_Res_Des function [Device and Driver Installation]","cfgmgr32/CM_Modify_Res_Des","cfgmgrfn_7bf5dade-d4e6-4460-8b3c-a4b99458ed28.xml","devinst.cm_modify_res_des"]
+description: The CM_Modify_Res_Des function modifies a specified resource descriptor on the local machine.
+helpviewer_keywords: ["CM_Modify_Res_Des","CM_Modify_Res_Des function [Device and Driver Installation]","cfgmgr32/CM_Modify_Res_Des","cfgmgrfn_7bf5dade-d4e6-4460-8b3c-a4b99458ed28.xml","devinst.cm_modify_res_des"]
 old-location: devinst\cm_modify_res_des.htm
 tech.root: devinst
 ms.assetid: 9320c396-4da8-4b35-a620-4bb7cbd80e9a

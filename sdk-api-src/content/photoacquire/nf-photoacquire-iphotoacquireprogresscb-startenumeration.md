@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartEnumeration
 title: IPhotoAcquireProgressCB::StartEnumeration (photoacquire.h)
-description: The StartEnumeration method provides extended functionality when the enumeration of items to acquire begins.helpviewer_keywords: ["IPhotoAcquireProgressCB interface [Picture Acquisition]","StartEnumeration method","IPhotoAcquireProgressCB.StartEnumeration","IPhotoAcquireProgressCB::StartEnumeration","IPhotoAcquireProgressCBStartEnumeration","StartEnumeration","StartEnumeration method [Picture Acquisition]","StartEnumeration method [Picture Acquisition]","IPhotoAcquireProgressCB interface","photoacquire/IPhotoAcquireProgressCB::StartEnumeration","picacq.iphotoacquireprogresscb_startenumeration"]
+description: The StartEnumeration method provides extended functionality when the enumeration of items to acquire begins.
+helpviewer_keywords: ["IPhotoAcquireProgressCB interface [Picture Acquisition]","StartEnumeration method","IPhotoAcquireProgressCB.StartEnumeration","IPhotoAcquireProgressCB::StartEnumeration","IPhotoAcquireProgressCBStartEnumeration","StartEnumeration","StartEnumeration method [Picture Acquisition]","StartEnumeration method [Picture Acquisition]","IPhotoAcquireProgressCB interface","photoacquire/IPhotoAcquireProgressCB::StartEnumeration","picacq.iphotoacquireprogresscb_startenumeration"]
 old-location: picacq\iphotoacquireprogresscb_startenumeration.htm
 tech.root: acquisition
 ms.assetid: ef42722d-ca39-4d22-8de1-6b3926669abf

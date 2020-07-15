@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._CHANGER_EXCHANGE_MEDIUM
 title: CHANGER_EXCHANGE_MEDIUM
-description: Contains information the IOCTL_CHANGER_EXCHANGE_MEDIUM control code uses to move a piece of media to a destination, and the piece of media originally in the first destination to a second destination.helpviewer_keywords: ["*PCHANGER_EXCHANGE_MEDIUM","CHANGER_EXCHANGE_MEDIUM","CHANGER_EXCHANGE_MEDIUM structure","PCHANGER_EXCHANGE_MEDIUM","PCHANGER_EXCHANGE_MEDIUM structure pointer","_win32_changer_exchange_medium_str","base.changer_exchange_medium_str","winioctl/CHANGER_EXCHANGE_MEDIUM","winioctl/PCHANGER_EXCHANGE_MEDIUM"]
+description: Contains information the IOCTL_CHANGER_EXCHANGE_MEDIUM control code uses to move a piece of media to a destination, and the piece of media originally in the first destination to a second destination.
+helpviewer_keywords: ["*PCHANGER_EXCHANGE_MEDIUM","CHANGER_EXCHANGE_MEDIUM","CHANGER_EXCHANGE_MEDIUM structure","PCHANGER_EXCHANGE_MEDIUM","PCHANGER_EXCHANGE_MEDIUM structure pointer","_win32_changer_exchange_medium_str","base.changer_exchange_medium_str","winioctl/CHANGER_EXCHANGE_MEDIUM","winioctl/PCHANGER_EXCHANGE_MEDIUM"]
 old-location: base\changer_exchange_medium_str.htm
 tech.root: devio
 ms.assetid: a35c9da8-7632-4aa1-a1a7-030ffce727b7

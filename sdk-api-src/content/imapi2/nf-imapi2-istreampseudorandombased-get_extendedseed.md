@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IStreamPseudoRandomBased.get_ExtendedSeed
 title: IStreamPseudoRandomBased::get_ExtendedSeed (imapi2.h)
-description: Retrieves an array of seed values used by the random number generator.helpviewer_keywords: ["IStreamPseudoRandomBased interface [IMAPI]","get_ExtendedSeed method","IStreamPseudoRandomBased.get_ExtendedSeed","IStreamPseudoRandomBased::get_ExtendedSeed","get_ExtendedSeed","get_ExtendedSeed method [IMAPI]","get_ExtendedSeed method [IMAPI]","IStreamPseudoRandomBased interface","imapi.istreampseudorandombased_get_extendedseed","imapi2/IStreamPseudoRandomBased::get_ExtendedSeed"]
+description: Retrieves an array of seed values used by the random number generator.
+helpviewer_keywords: ["IStreamPseudoRandomBased interface [IMAPI]","get_ExtendedSeed method","IStreamPseudoRandomBased.get_ExtendedSeed","IStreamPseudoRandomBased::get_ExtendedSeed","get_ExtendedSeed","get_ExtendedSeed method [IMAPI]","get_ExtendedSeed method [IMAPI]","IStreamPseudoRandomBased interface","imapi.istreampseudorandombased_get_extendedseed","imapi2/IStreamPseudoRandomBased::get_ExtendedSeed"]
 old-location: imapi\istreampseudorandombased_get_extendedseed.htm
 tech.root: imapi
 ms.assetid: e15e47aa-e5c4-4944-a3c4-14e459a31bb5

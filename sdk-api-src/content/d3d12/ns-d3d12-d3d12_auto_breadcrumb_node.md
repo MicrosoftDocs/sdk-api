@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_AUTO_BREADCRUMB_NODE
 title: D3D12_AUTO_BREADCRUMB_NODE
-description: Represents Device Removed Extended Data (DRED) auto-breadcrumb data as a node in a linked list.helpviewer_keywords: ["D3D12_AUTO_BREADCRUMB_NODE","D3D12_AUTO_BREADCRUMB_NODE structure","d3d12/D3D12_AUTO_BREADCRUMB_NODE","direct3d12.d3d12_auto_breadcrumb_node"]
+description: Represents Device Removed Extended Data (DRED) auto-breadcrumb data as a node in a linked list.
+helpviewer_keywords: ["D3D12_AUTO_BREADCRUMB_NODE","D3D12_AUTO_BREADCRUMB_NODE structure","d3d12/D3D12_AUTO_BREADCRUMB_NODE","direct3d12.d3d12_auto_breadcrumb_node"]
 tech.root: direct3d12
 ms.date: 02/06/2019
 ms.keywords: D3D12_AUTO_BREADCRUMB_NODE, D3D12_AUTO_BREADCRUMB_NODE structure, d3d12/D3D12_AUTO_BREADCRUMB_NODE, direct3d12.d3d12_auto_breadcrumb_node

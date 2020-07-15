@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationSynchronizedInputPattern
 title: IUIAutomationSynchronizedInputPattern (uiautomationclient.h)
-description: Provides access to the keyboard or mouse input of a control.helpviewer_keywords: ["IUIAutomationSynchronizedInputPattern","IUIAutomationSynchronizedInputPattern interface [Windows Accessibility]","IUIAutomationSynchronizedInputPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationSynchronizedInputPattern","uiauto_IUIAutomationSynchronizedInputPattern","uiautomationclient/IUIAutomationSynchronizedInputPattern","winauto.uiauto_IUIAutomationSynchronizedInputPattern"]
+description: Provides access to the keyboard or mouse input of a control.
+helpviewer_keywords: ["IUIAutomationSynchronizedInputPattern","IUIAutomationSynchronizedInputPattern interface [Windows Accessibility]","IUIAutomationSynchronizedInputPattern interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationSynchronizedInputPattern","uiauto_IUIAutomationSynchronizedInputPattern","uiautomationclient/IUIAutomationSynchronizedInputPattern","winauto.uiauto_IUIAutomationSynchronizedInputPattern"]
 old-location: winauto\uiauto_IUIAutomationSynchronizedInputPattern.htm
 tech.root: WinAuto
 ms.assetid: 8e1ad860-7288-4600-8e88-59d5b1c86694

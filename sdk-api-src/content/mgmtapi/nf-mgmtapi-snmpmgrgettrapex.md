@@ -1,7 +1,8 @@
 ---
 UID: NF:mgmtapi.SnmpMgrGetTrapEx
 title: SnmpMgrGetTrapEx function (mgmtapi.h)
-description: The SnmpMgrGetTrapEx function returns outstanding trap data that the caller has not received if trap reception is enabled.helpviewer_keywords: ["SNMP_GENERICTRAP_AUTHFAILURE","SNMP_GENERICTRAP_COLDSTART","SNMP_GENERICTRAP_EGPNEIGHLOSS","SNMP_GENERICTRAP_ENTERSPECIFIC","SNMP_GENERICTRAP_LINKDOWN","SNMP_GENERICTRAP_LINKUP","SNMP_GENERICTRAP_WARMSTART","SnmpMgrGetTrapEx","SnmpMgrGetTrapEx function [SNMP]","_snmp_snmpmgrgettrapex","mgmtapi/SnmpMgrGetTrapEx","snmp.snmpmgrgettrapex"]
+description: The SnmpMgrGetTrapEx function returns outstanding trap data that the caller has not received if trap reception is enabled.
+helpviewer_keywords: ["SNMP_GENERICTRAP_AUTHFAILURE","SNMP_GENERICTRAP_COLDSTART","SNMP_GENERICTRAP_EGPNEIGHLOSS","SNMP_GENERICTRAP_ENTERSPECIFIC","SNMP_GENERICTRAP_LINKDOWN","SNMP_GENERICTRAP_LINKUP","SNMP_GENERICTRAP_WARMSTART","SnmpMgrGetTrapEx","SnmpMgrGetTrapEx function [SNMP]","_snmp_snmpmgrgettrapex","mgmtapi/SnmpMgrGetTrapEx","snmp.snmpmgrgettrapex"]
 old-location: snmp\snmpmgrgettrapex.htm
 tech.root: SNMP
 ms.assetid: 1dc4b432-8418-46a7-9ea8-5025799c8ec9

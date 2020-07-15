@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1RenderTarget.CreateGradientStopCollection(const D2D1_GRADIENT_STOP,UINT32,D2D1_GAMMA,D2D1_EXTEND_MODE,ID2D1GradientStopCollection)
+UID: NF:d2d1.ID2D1RenderTarget.CreateGradientStopCollection(constD2D1_GRADIENT_STOP,UINT32,D2D1_GAMMA,D2D1_EXTEND_MODE,ID2D1GradientStopCollection)
 title: ID2D1RenderTarget::CreateGradientStopCollection (d2d1.h)
 description: Creates an ID2D1GradientStopCollection from the specified array of D2D1_GRADIENT_STOP structures.
 helpviewer_keywords: ["CreateGradientStopCollection","CreateGradientStopCollection methods [Direct2D]","ID2D1RenderTarget.CreateGradientStopCollection","ID2D1RenderTarget::CreateGradientStopCollection","d2d1_1/CreateGradientStopCollection","direct2d.id2d1rendertarget_creategradientstopcollection"]

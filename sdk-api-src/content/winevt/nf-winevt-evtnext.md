@@ -1,7 +1,8 @@
 ---
 UID: NF:winevt.EvtNext
 title: EvtNext function (winevt.h)
-description: Gets the next event from the query or subscription results.helpviewer_keywords: ["EvtNext","EvtNext function [EventLog]","wes.evtnext","winevt/EvtNext"]
+description: Gets the next event from the query or subscription results.
+helpviewer_keywords: ["EvtNext","EvtNext function [EventLog]","wes.evtnext","winevt/EvtNext"]
 old-location: wes\evtnext.htm
 tech.root: wes
 ms.assetid: 46d40734-f022-4775-aa4f-13f4069c43c8

@@ -1,7 +1,8 @@
 ---
 UID: NF:featurestagingapi.GetFeatureVariant
 title: GetFeatureVariant function (featurestagingapi.h)
-description: This function is intended for infrastructure use only.helpviewer_keywords: ["GetFeatureVariant","GetFeatureVariant function [Windows API]","featurestagingapi/GetFeatureVariant","winprog.getfeaturevariant"]
+description: This function is intended for infrastructure use only.
+helpviewer_keywords: ["GetFeatureVariant","GetFeatureVariant function [Windows API]","featurestagingapi/GetFeatureVariant","winprog.getfeaturevariant"]
 old-location: winprog\getfeaturevariant.htm
 tech.root: DevNotes
 ms.assetid: CEB545DB-321A-4FE6-B182-DC7F6B37D665

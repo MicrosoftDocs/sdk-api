@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmFileStreamingMode
 title: FsrmFileStreamingMode (fsrmenums.h)
-description: Defines the streaming modes to use for the file stream.helpviewer_keywords: ["FsrmFileStreamingMode","FsrmFileStreamingMode enumeration [File Server Resource Manager]","FsrmFileStreamingMode_Read","FsrmFileStreamingMode_Unknown","FsrmFileStreamingMode_Write","fs.fsrmfilestreamingmode","fsrm.fsrmfilestreamingmode","fsrmenums/FsrmFileStreamingMode","fsrmenums/FsrmFileStreamingMode_Read","fsrmenums/FsrmFileStreamingMode_Unknown","fsrmenums/FsrmFileStreamingMode_Write"]
+description: Defines the streaming modes to use for the file stream.
+helpviewer_keywords: ["FsrmFileStreamingMode","FsrmFileStreamingMode enumeration [File Server Resource Manager]","FsrmFileStreamingMode_Read","FsrmFileStreamingMode_Unknown","FsrmFileStreamingMode_Write","fs.fsrmfilestreamingmode","fsrm.fsrmfilestreamingmode","fsrmenums/FsrmFileStreamingMode","fsrmenums/FsrmFileStreamingMode_Read","fsrmenums/FsrmFileStreamingMode_Unknown","fsrmenums/FsrmFileStreamingMode_Write"]
 old-location: fsrm\fsrmfilestreamingmode.htm
 tech.root: fsrm
 ms.assetid: a2f7de78-7102-43f9-a7b8-b35ac0b7286a

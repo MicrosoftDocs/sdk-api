@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMStorage.GetSize
 title: IWMDMStorage::GetSize (mswmdm.h)
-description: The GetSize method retrieves the size of the storage, in bytes.helpviewer_keywords: ["GetSize","GetSize method [windows Media Device Manager]","GetSize method [windows Media Device Manager]","IWMDMStorage interface","IWMDMStorage interface [windows Media Device Manager]","GetSize method","IWMDMStorage.GetSize","IWMDMStorage::GetSize","IWMDMStorageGetSize","mswmdm/IWMDMStorage::GetSize","wmdm.iwmdmstorage_getsize"]
+description: The GetSize method retrieves the size of the storage, in bytes.
+helpviewer_keywords: ["GetSize","GetSize method [windows Media Device Manager]","GetSize method [windows Media Device Manager]","IWMDMStorage interface","IWMDMStorage interface [windows Media Device Manager]","GetSize method","IWMDMStorage.GetSize","IWMDMStorage::GetSize","IWMDMStorageGetSize","mswmdm/IWMDMStorage::GetSize","wmdm.iwmdmstorage_getsize"]
 old-location: wmdm\iwmdmstorage_getsize.htm
 tech.root: WMDM
 ms.assetid: 1042b71b-1656-4f0b-be95-8a09ba4421ed

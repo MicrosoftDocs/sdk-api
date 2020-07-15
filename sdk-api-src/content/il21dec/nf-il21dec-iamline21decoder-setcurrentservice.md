@@ -1,7 +1,8 @@
 ---
 UID: NF:il21dec.IAMLine21Decoder.SetCurrentService
 title: IAMLine21Decoder::SetCurrentService (il21dec.h)
-description: The SetCurrentService method sets the closed captioning service.helpviewer_keywords: ["IAMLine21Decoder interface [DirectShow]","SetCurrentService method","IAMLine21Decoder.SetCurrentService","IAMLine21Decoder::SetCurrentService","IAMLine21DecoderSetCurrentService","SetCurrentService","SetCurrentService method [DirectShow]","SetCurrentService method [DirectShow]","IAMLine21Decoder interface","dshow.iamline21decoder_setcurrentservice","il21dec/IAMLine21Decoder::SetCurrentService"]
+description: The SetCurrentService method sets the closed captioning service.
+helpviewer_keywords: ["IAMLine21Decoder interface [DirectShow]","SetCurrentService method","IAMLine21Decoder.SetCurrentService","IAMLine21Decoder::SetCurrentService","IAMLine21DecoderSetCurrentService","SetCurrentService","SetCurrentService method [DirectShow]","SetCurrentService method [DirectShow]","IAMLine21Decoder interface","dshow.iamline21decoder_setcurrentservice","il21dec/IAMLine21Decoder::SetCurrentService"]
 old-location: dshow\iamline21decoder_setcurrentservice.htm
 tech.root: DirectShow
 ms.assetid: 2f1945c3-644d-4e72-b2b7-a7e068b59d96

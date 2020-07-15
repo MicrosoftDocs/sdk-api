@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMCreateUser
 title: DRMCreateUser function (msdrm.h)
-description: Creates a user that will be granted a right.helpviewer_keywords: ["DRMCreateUser","DRMCreateUser function [Active Directory Rights Management Services SDK 1.0]","Federation","Internal","Passport","Unspecified","Windows","msdrm/DRMCreateUser","rm.drmcreateuser"]
+description: Creates a user that will be granted a right.
+helpviewer_keywords: ["DRMCreateUser","DRMCreateUser function [Active Directory Rights Management Services SDK 1.0]","Federation","Internal","Passport","Unspecified","Windows","msdrm/DRMCreateUser","rm.drmcreateuser"]
 old-location: rm\drmcreateuser.htm
 tech.root: AdRms_Sdk
 ms.assetid: e5679f4f-23e7-40af-9f45-d2077643da98

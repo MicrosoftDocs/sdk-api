@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IObjectContextInfo.GetActivityId
 title: IObjectContextInfo::GetActivityId (comsvcs.h)
-description: Retrieves the identifier of the current activity.helpviewer_keywords: ["GetActivityId","GetActivityId method [COM+]","GetActivityId method [COM+]","IObjectContextInfo interface","IObjectContextInfo interface [COM+]","GetActivityId method","IObjectContextInfo.GetActivityId","IObjectContextInfo::GetActivityId","_cos_IObjectContextInfo_GetActivityId","comsvcs/IObjectContextInfo::GetActivityId","cos.iobjectcontextinfo_getactivityid"]
+description: Retrieves the identifier of the current activity.
+helpviewer_keywords: ["GetActivityId","GetActivityId method [COM+]","GetActivityId method [COM+]","IObjectContextInfo interface","IObjectContextInfo interface [COM+]","GetActivityId method","IObjectContextInfo.GetActivityId","IObjectContextInfo::GetActivityId","_cos_IObjectContextInfo_GetActivityId","comsvcs/IObjectContextInfo::GetActivityId","cos.iobjectcontextinfo_getactivityid"]
 old-location: cos\iobjectcontextinfo_getactivityid.htm
 tech.root: cossdk
 ms.assetid: b6420f2e-223c-4a85-9c45-178a478c8424

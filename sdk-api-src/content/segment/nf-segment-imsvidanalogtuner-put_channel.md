@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidAnalogTuner.put_Channel
 title: IMSVidAnalogTuner::put_Channel (segment.h)
-description: The put_Channel method specifies the tuner's channel.helpviewer_keywords: ["IMSVidAnalogTuner interface [Microsoft TV Technologies]","put_Channel method","IMSVidAnalogTuner.put_Channel","IMSVidAnalogTuner::put_Channel","IMSVidAnalogTunerput_Channel","mstv.imsvidanalogtuner_put_channel","put_Channel","put_Channel method [Microsoft TV Technologies]","put_Channel method [Microsoft TV Technologies]","IMSVidAnalogTuner interface","segment/IMSVidAnalogTuner::put_Channel"]
+description: The put_Channel method specifies the tuner's channel.
+helpviewer_keywords: ["IMSVidAnalogTuner interface [Microsoft TV Technologies]","put_Channel method","IMSVidAnalogTuner.put_Channel","IMSVidAnalogTuner::put_Channel","IMSVidAnalogTunerput_Channel","mstv.imsvidanalogtuner_put_channel","put_Channel","put_Channel method [Microsoft TV Technologies]","put_Channel method [Microsoft TV Technologies]","IMSVidAnalogTuner interface","segment/IMSVidAnalogTuner::put_Channel"]
 old-location: mstv\imsvidanalogtuner_put_channel.htm
 tech.root: mstv
 ms.assetid: 1afd718d-bca9-478c-b56e-413de0f15656

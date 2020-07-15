@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.SetPrimitiveBlend
 title: ID2D1DeviceContext::SetPrimitiveBlend (d2d1_1.h)
-description: Changes the primitive blend mode that is used for all rendering operations in the device context.helpviewer_keywords: ["ID2D1DeviceContext interface [Direct2D]","SetPrimitiveBlend method","ID2D1DeviceContext.SetPrimitiveBlend","ID2D1DeviceContext::SetPrimitiveBlend","SetPrimitiveBlend","SetPrimitiveBlend method [Direct2D]","SetPrimitiveBlend method [Direct2D]","ID2D1DeviceContext interface","d2d1_1/ID2D1DeviceContext::SetPrimitiveBlend","direct2d.id2d1devicecontext_setprimitiveblend"]
+description: Changes the primitive blend mode that is used for all rendering operations in the device context.
+helpviewer_keywords: ["ID2D1DeviceContext interface [Direct2D]","SetPrimitiveBlend method","ID2D1DeviceContext.SetPrimitiveBlend","ID2D1DeviceContext::SetPrimitiveBlend","SetPrimitiveBlend","SetPrimitiveBlend method [Direct2D]","SetPrimitiveBlend method [Direct2D]","ID2D1DeviceContext interface","d2d1_1/ID2D1DeviceContext::SetPrimitiveBlend","direct2d.id2d1devicecontext_setprimitiveblend"]
 old-location: direct2d\id2d1devicecontext_setprimitiveblend.htm
 tech.root: Direct2D
 ms.assetid: be04c9f7-397f-468e-91c0-3b11c68b489f

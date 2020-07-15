@@ -1,7 +1,8 @@
 ---
 UID: NE:clusapi._CLUSTER_SETUP_PHASE_TYPE
 title: CLUSTER_SETUP_PHASE_TYPE (clusapi.h)
-description: Describes the progress of the cluster setup process.helpviewer_keywords: ["CLUSTER_SETUP_PHASE_TYPE","CLUSTER_SETUP_PHASE_TYPE enumeration [Failover Cluster]","ClusterSetupPhaseContinue","ClusterSetupPhaseEnd","ClusterSetupPhaseStart","clusapi/CLUSTER_SETUP_PHASE_TYPE","clusapi/ClusterSetupPhaseContinue","clusapi/ClusterSetupPhaseEnd","clusapi/ClusterSetupPhaseStart","mscs.cluster_setup_phase_type"]
+description: Describes the progress of the cluster setup process.
+helpviewer_keywords: ["CLUSTER_SETUP_PHASE_TYPE","CLUSTER_SETUP_PHASE_TYPE enumeration [Failover Cluster]","ClusterSetupPhaseContinue","ClusterSetupPhaseEnd","ClusterSetupPhaseStart","clusapi/CLUSTER_SETUP_PHASE_TYPE","clusapi/ClusterSetupPhaseContinue","clusapi/ClusterSetupPhaseEnd","clusapi/ClusterSetupPhaseStart","mscs.cluster_setup_phase_type"]
 old-location: mscs\cluster_setup_phase_type.htm
 tech.root: MsCS
 ms.assetid: 515fe36d-84a0-41f1-80fa-a8c12718bdf5

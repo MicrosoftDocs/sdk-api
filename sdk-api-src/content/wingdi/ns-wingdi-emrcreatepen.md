@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMRCREATEPEN
 title: EMRCREATEPEN (wingdi.h)
-description: The EMRCREATEPEN structure contains members for the CreatePen enhanced metafile record.helpviewer_keywords: ["*PEMRCREATEPEN","EMRCREATEPEN","EMRCREATEPEN structure [Windows GDI]","PEMRCREATEPEN","PEMRCREATEPEN structure pointer [Windows GDI]","_win32_EMRCREATEPEN_str","gdi.emrcreatepen","wingdi/EMRCREATEPEN","wingdi/PEMRCREATEPEN"]
+description: The EMRCREATEPEN structure contains members for the CreatePen enhanced metafile record.
+helpviewer_keywords: ["*PEMRCREATEPEN","EMRCREATEPEN","EMRCREATEPEN structure [Windows GDI]","PEMRCREATEPEN","PEMRCREATEPEN structure pointer [Windows GDI]","_win32_EMRCREATEPEN_str","gdi.emrcreatepen","wingdi/EMRCREATEPEN","wingdi/PEMRCREATEPEN"]
 old-location: gdi\emrcreatepen.htm
 tech.root: gdi
 ms.assetid: bd338c56-00b4-4eae-9e4f-57ac49809f32

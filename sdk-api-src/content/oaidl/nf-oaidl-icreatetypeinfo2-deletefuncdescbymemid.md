@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo2.DeleteFuncDescByMemId
 title: ICreateTypeInfo2::DeleteFuncDescByMemId (oaidl.h)
-description: Deletes the specified function description (FUNCDESC).helpviewer_keywords: ["DeleteFuncDescByMemId","DeleteFuncDescByMemId method [Automation]","DeleteFuncDescByMemId method [Automation]","ICreateTypeInfo2 interface","ICreateTypeInfo2 interface [Automation]","DeleteFuncDescByMemId method","ICreateTypeInfo2.DeleteFuncDescByMemId","ICreateTypeInfo2::DeleteFuncDescByMemId","_oa96_ICreateTypeInfo2_DeleteFuncDescByMemId","automat.icreatetypeinfo2_deletefuncdescbymemid","oaidl/ICreateTypeInfo2::DeleteFuncDescByMemId"]
+description: Deletes the specified function description (FUNCDESC).
+helpviewer_keywords: ["DeleteFuncDescByMemId","DeleteFuncDescByMemId method [Automation]","DeleteFuncDescByMemId method [Automation]","ICreateTypeInfo2 interface","ICreateTypeInfo2 interface [Automation]","DeleteFuncDescByMemId method","ICreateTypeInfo2.DeleteFuncDescByMemId","ICreateTypeInfo2::DeleteFuncDescByMemId","_oa96_ICreateTypeInfo2_DeleteFuncDescByMemId","automat.icreatetypeinfo2_deletefuncdescbymemid","oaidl/ICreateTypeInfo2::DeleteFuncDescByMemId"]
 old-location: automat\icreatetypeinfo2_deletefuncdescbymemid.htm
 tech.root: automat
 ms.assetid: 75de562b-3c08-4bab-957a-3a9eab16fb3f

@@ -1,7 +1,8 @@
 ---
 UID: NF:ntdsapi.DsRemoveDsDomainA
 title: DsRemoveDsDomainA function (ntdsapi.h)
-description: Removes all traces of a domain naming context from the global area of the directory service.helpviewer_keywords: ["DsRemoveDsDomain","DsRemoveDsDomain function [Active Directory]","DsRemoveDsDomainA","DsRemoveDsDomainW","_glines_dsremovedsdomain","ad.dsremovedsdomain","ntdsapi/DsRemoveDsDomain","ntdsapi/DsRemoveDsDomainA","ntdsapi/DsRemoveDsDomainW"]
+description: Removes all traces of a domain naming context from the global area of the directory service.
+helpviewer_keywords: ["DsRemoveDsDomain","DsRemoveDsDomain function [Active Directory]","DsRemoveDsDomainA","DsRemoveDsDomainW","_glines_dsremovedsdomain","ad.dsremovedsdomain","ntdsapi/DsRemoveDsDomain","ntdsapi/DsRemoveDsDomainA","ntdsapi/DsRemoveDsDomainW"]
 old-location: ad\dsremovedsdomain.htm
 tech.root: ad
 ms.assetid: 0639cc04-2821-4421-8aa7-363621c1d6b5
@@ -101,4 +102,9 @@ Returns <b>ERROR_SUCCESS</b> if successful  or a Win32 or RPC error code if unsu
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The ntdsapi.h header defines DsRemoveDsDomain as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

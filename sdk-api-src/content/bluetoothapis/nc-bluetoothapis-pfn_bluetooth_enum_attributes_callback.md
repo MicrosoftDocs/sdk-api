@@ -1,7 +1,8 @@
 ---
 UID: NC:bluetoothapis.PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK
 title: PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK (bluetoothapis.h)
-description: A callback function prototype that is called once for each attribute found in the pSDPStream parameter passed to the BluetoothSdpEnumAttributes function call.helpviewer_keywords: ["PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK","PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback","PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback function [Bluetooth]","bluetooth.pfn_bluetooth_enum_attributes_callback","bluetoothapis/PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK"]
+description: A callback function prototype that is called once for each attribute found in the pSDPStream parameter passed to the BluetoothSdpEnumAttributes function call.
+helpviewer_keywords: ["PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK","PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback","PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK callback function [Bluetooth]","bluetooth.pfn_bluetooth_enum_attributes_callback","bluetoothapis/PFN_BLUETOOTH_ENUM_ATTRIBUTES_CALLBACK"]
 old-location: bluetooth\pfn_bluetooth_enum_attributes_callback.htm
 tech.root: bluetooth
 ms.assetid: 4d728467-1866-428f-9e66-a45b597a226a

@@ -1,7 +1,8 @@
 ---
 UID: NS:wabdefs._SRowSet
 title: SRowSet (wabdefs.h)
-description: Do not use. Contains an array of SRow structures. Each SRow structure describes a row from a table.helpviewer_keywords: ["*LPSRowSet","SRowSet","SRowSet structure [Windows Address Book]","_wab_SRowSet","wab._wab_SRowSet","wabdefs/SRowSet"]
+description: Do not use. Contains an array of SRow structures. Each SRow structure describes a row from a table.
+helpviewer_keywords: ["*LPSRowSet","SRowSet","SRowSet structure [Windows Address Book]","_wab_SRowSet","wab._wab_SRowSet","wabdefs/SRowSet"]
 old-location: wab\_wab_SRowSet.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\srowset.htm

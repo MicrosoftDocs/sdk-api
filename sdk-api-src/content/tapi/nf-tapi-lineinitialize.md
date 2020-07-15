@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineInitialize
 title: lineInitialize function (tapi.h)
-description: The lineInitialize function is obsolete. It continues to be exported by Tapi.dll and Tapi32.dll for backward compatibility with applications using API versions 1.3 and 1.4.helpviewer_keywords: ["_tapi2_lineinitialize","lineInitialize","lineInitialize function [TAPI 2.2]","tapi/lineInitialize","tapi2.lineinitialize"]
+description: The lineInitialize function is obsolete. It continues to be exported by Tapi.dll and Tapi32.dll for backward compatibility with applications using API versions 1.3 and 1.4.
+helpviewer_keywords: ["_tapi2_lineinitialize","lineInitialize","lineInitialize function [TAPI 2.2]","tapi/lineInitialize","tapi2.lineinitialize"]
 old-location: tapi2\lineinitialize.htm
 tech.root: Tapi
 ms.assetid: 4b406f19-be9b-4130-91a7-5fdfa56f7fc3

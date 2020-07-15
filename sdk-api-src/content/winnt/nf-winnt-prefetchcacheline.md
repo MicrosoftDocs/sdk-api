@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.PreFetchCacheLine
 title: PreFetchCacheLine macro (winnt.h)
-description: Indicates to the processor that a cache line will be needed in the near future.helpviewer_keywords: ["PF_NON_TEMPORAL_LEVEL_ALL","PF_TEMPORAL_LEVEL_1","PreFetchCacheLine","PreFetchCacheLine macro","base.prefetchcacheline","winnt/PreFetchCacheLine"]
+description: Indicates to the processor that a cache line will be needed in the near future.
+helpviewer_keywords: ["PF_NON_TEMPORAL_LEVEL_ALL","PF_TEMPORAL_LEVEL_1","PreFetchCacheLine","PreFetchCacheLine macro","base.prefetchcacheline","winnt/PreFetchCacheLine"]
 old-location: base\prefetchcacheline.htm
 tech.root: Sync
 ms.assetid: 112f3acc-e9d4-44c0-8844-1dc8cc1de2c8

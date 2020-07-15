@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2spi.WSAProviderCompleteAsyncCall
 title: WSAProviderCompleteAsyncCall function (ws2spi.h)
-description: Notifies a client when an asynchronous call to a namespace version-2 provider is completed.helpviewer_keywords: ["WSAProviderCompleteAsyncCall","WSAProviderCompleteAsyncCall function [Winsock]","winsock.wsaprovidercompleteasynccall","ws2spi/WSAProviderCompleteAsyncCall"]
+description: Notifies a client when an asynchronous call to a namespace version-2 provider is completed.
+helpviewer_keywords: ["WSAProviderCompleteAsyncCall","WSAProviderCompleteAsyncCall function [Winsock]","winsock.wsaprovidercompleteasynccall","ws2spi/WSAProviderCompleteAsyncCall"]
 old-location: winsock\wsaprovidercompleteasynccall.htm
 tech.root: WinSock
 ms.assetid: 2bbc20ae-ad6d-47f6-8ca9-dd5559236fbe

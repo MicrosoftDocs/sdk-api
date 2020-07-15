@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.MulDiv
 title: MulDiv function (winbase.h)
-description: Multiplies two 32-bit values and then divides the 64-bit result by a third 32-bit value.helpviewer_keywords: ["MulDiv","MulDiv function [Windows API]","_win32_muldiv","winbase/MulDiv","winprog.muldiv"]
+description: Multiplies two 32-bit values and then divides the 64-bit result by a third 32-bit value.
+helpviewer_keywords: ["MulDiv","MulDiv function [Windows API]","_win32_muldiv","winbase/MulDiv","winprog.muldiv"]
 old-location: winprog\muldiv.htm
 tech.root: WinProg
 ms.assetid: 30419ce3-3874-4066-91c8-7f63dfb50169

@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.GetEndCap
 title: Pen::GetEndCap (gdipluspen.h)
-description: The Pen::GetEndCap method gets the end cap currently set for this Pen object.helpviewer_keywords: ["GetEndCap","GetEndCap method [GDI+]","GetEndCap method [GDI+]","Pen class","Pen class [GDI+]","GetEndCap method","Pen.GetEndCap","Pen::GetEndCap","_gdiplus_CLASS_Pen_GetEndCap_","gdiplus._gdiplus_CLASS_Pen_GetEndCap_"]
+description: The Pen::GetEndCap method gets the end cap currently set for this Pen object.
+helpviewer_keywords: ["GetEndCap","GetEndCap method [GDI+]","GetEndCap method [GDI+]","Pen class","Pen class [GDI+]","GetEndCap method","Pen.GetEndCap","Pen::GetEndCap","_gdiplus_CLASS_Pen_GetEndCap_","gdiplus._gdiplus_CLASS_Pen_GetEndCap_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetEndCap_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getendcap.htm

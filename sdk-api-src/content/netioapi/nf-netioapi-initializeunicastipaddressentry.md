@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.InitializeUnicastIpAddressEntry
 title: InitializeUnicastIpAddressEntry function (netioapi.h)
-description: Initializes a MIB_UNICASTIPADDRESS_ROW structure with default values for a unicast IP address entry on the local computer.helpviewer_keywords: ["InitializeUnicastIpAddressEntry","InitializeUnicastIpAddressEntry function [IP Helper]","iphlp.initializeunicastipaddressentry","netioapi/InitializeUnicastIpAddressEntry"]
+description: Initializes a MIB_UNICASTIPADDRESS_ROW structure with default values for a unicast IP address entry on the local computer.
+helpviewer_keywords: ["InitializeUnicastIpAddressEntry","InitializeUnicastIpAddressEntry function [IP Helper]","iphlp.initializeunicastipaddressentry","netioapi/InitializeUnicastIpAddressEntry"]
 old-location: iphlp\initializeunicastipaddressentry.htm
 tech.root: IpHlp
 ms.assetid: 8cbdd972-060a-4e18-9490-450df21936ea

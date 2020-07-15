@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.HueSaturationLightness.GetParameters
 title: HueSaturationLightness::GetParameters (gdipluseffects.h)
-description: The HueSaturationLightness::GetParameters method gets the current values of the parameters of this HueSaturationLightness object.helpviewer_keywords: ["GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","HueSaturationLightness class","HueSaturationLightness class [GDI+]","GetParameters method","HueSaturationLightness.GetParameters","HueSaturationLightness::GetParameters","_gdiplus_CLASS_HueSaturationLightness_GetParameters_","gdiplus._gdiplus_CLASS_HueSaturationLightness_GetParameters_"]
+description: The HueSaturationLightness::GetParameters method gets the current values of the parameters of this HueSaturationLightness object.
+helpviewer_keywords: ["GetParameters","GetParameters method [GDI+]","GetParameters method [GDI+]","HueSaturationLightness class","HueSaturationLightness class [GDI+]","GetParameters method","HueSaturationLightness.GetParameters","HueSaturationLightness::GetParameters","_gdiplus_CLASS_HueSaturationLightness_GetParameters_","gdiplus._gdiplus_CLASS_HueSaturationLightness_GetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_GetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightnessclass\huesaturationlightnessmethods\getparameters.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:qnetwork.IAMChannelInfo.get_ChannelName
 title: IAMChannelInfo::get_ChannelName (qnetwork.h)
-description: The get_ChannelName method retrieves the channel name.helpviewer_keywords: ["IAMChannelInfo interface [DirectShow]","get_ChannelName method","IAMChannelInfo.get_ChannelName","IAMChannelInfo::get_ChannelName","IAMChannelInfoget_ChannelName","dshow.iamchannelinfo_get_channelname","get_ChannelName","get_ChannelName method [DirectShow]","get_ChannelName method [DirectShow]","IAMChannelInfo interface","qnetwork/IAMChannelInfo::get_ChannelName"]
+description: The get_ChannelName method retrieves the channel name.
+helpviewer_keywords: ["IAMChannelInfo interface [DirectShow]","get_ChannelName method","IAMChannelInfo.get_ChannelName","IAMChannelInfo::get_ChannelName","IAMChannelInfoget_ChannelName","dshow.iamchannelinfo_get_channelname","get_ChannelName","get_ChannelName method [DirectShow]","get_ChannelName method [DirectShow]","IAMChannelInfo interface","qnetwork/IAMChannelInfo::get_ChannelName"]
 old-location: dshow\iamchannelinfo_get_channelname.htm
 tech.root: DirectShow
 ms.assetid: 6cf4f8aa-d6aa-46bd-83b1-fba762fbb8bb

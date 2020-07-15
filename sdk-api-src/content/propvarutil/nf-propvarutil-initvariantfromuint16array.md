@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitVariantFromUInt16Array
 title: InitVariantFromUInt16Array function (propvarutil.h)
-description: Initializes a VARIANT structure with an array of unsigned 16-bit integer values.helpviewer_keywords: ["InitVariantFromUInt16Array","InitVariantFromUInt16Array function [Windows Properties]","_shell_InitVariantFromUInt16Array","properties.InitVariantFromUInt16Array","propvarutil/InitVariantFromUInt16Array","shell.InitVariantFromUInt16Array"]
+description: Initializes a VARIANT structure with an array of unsigned 16-bit integer values.
+helpviewer_keywords: ["InitVariantFromUInt16Array","InitVariantFromUInt16Array function [Windows Properties]","_shell_InitVariantFromUInt16Array","properties.InitVariantFromUInt16Array","propvarutil/InitVariantFromUInt16Array","shell.InitVariantFromUInt16Array"]
 old-location: properties\InitVariantFromUInt16Array.htm
 tech.root: properties
 ms.assetid: 57fe1dd2-48a5-486e-a2cb-53cf0b8f96b0

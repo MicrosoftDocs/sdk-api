@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._EXFAT_STATISTICS
 title: EXFAT_STATISTICS
-description: Contains statistical information from the exFAT file system.helpviewer_keywords: ["*PEXFAT_STATISTICS","EXFAT_STATISTICS","EXFAT_STATISTICS structure [Files]","PEXFAT_STATISTICS","PEXFAT_STATISTICS structure pointer [Files]","fs.exfat_statistics","winioctl/EXFAT_STATISTICS","winioctl/PEXFAT_STATISTICS"]
+description: Contains statistical information from the exFAT file system.
+helpviewer_keywords: ["*PEXFAT_STATISTICS","EXFAT_STATISTICS","EXFAT_STATISTICS structure [Files]","PEXFAT_STATISTICS","PEXFAT_STATISTICS structure pointer [Files]","fs.exfat_statistics","winioctl/EXFAT_STATISTICS","winioctl/PEXFAT_STATISTICS"]
 old-location: fs\exfat_statistics.htm
 tech.root: FileIO
 ms.assetid: fc33e967-fbc0-4f98-9b6c-2d6ac103a256

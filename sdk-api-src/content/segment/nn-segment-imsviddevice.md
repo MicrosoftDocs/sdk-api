@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidDevice
 title: IMSVidDevice (segment.h)
-description: The IMSVidDevice interface is the base interface for all the devices and features that the Video Control supports.helpviewer_keywords: ["IMSVidDevice","IMSVidDevice interface [Microsoft TV Technologies]","IMSVidDevice interface [Microsoft TV Technologies]","described","IMSVidDeviceInterface","mstv.imsviddevice","segment/IMSVidDevice"]
+description: The IMSVidDevice interface is the base interface for all the devices and features that the Video Control supports.
+helpviewer_keywords: ["IMSVidDevice","IMSVidDevice interface [Microsoft TV Technologies]","IMSVidDevice interface [Microsoft TV Technologies]","described","IMSVidDeviceInterface","mstv.imsviddevice","segment/IMSVidDevice"]
 old-location: mstv\imsviddevice.htm
 tech.root: mstv
 ms.assetid: 5ec85d18-2fed-4fd0-ab94-72d1d4f3f7ef

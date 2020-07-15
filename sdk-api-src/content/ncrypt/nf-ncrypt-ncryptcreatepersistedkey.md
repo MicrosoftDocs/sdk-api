@@ -1,7 +1,8 @@
 ---
 UID: NF:ncrypt.NCryptCreatePersistedKey
 title: NCryptCreatePersistedKey function (ncrypt.h)
-description: Creates a new key and stores it in the specified key storage provider.helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","NCRYPT_MACHINE_KEY_FLAG","NCRYPT_OVERWRITE_KEY_FLAG","NCryptCreatePersistedKey","NCryptCreatePersistedKey function [Security]","ncrypt/NCryptCreatePersistedKey","security.ncryptcreatepersistedkey_func"]
+description: Creates a new key and stores it in the specified key storage provider.
+helpviewer_keywords: ["AT_KEYEXCHANGE","AT_SIGNATURE","NCRYPT_MACHINE_KEY_FLAG","NCRYPT_OVERWRITE_KEY_FLAG","NCryptCreatePersistedKey","NCryptCreatePersistedKey function [Security]","ncrypt/NCryptCreatePersistedKey","security.ncryptcreatepersistedkey_func"]
 old-location: security\ncryptcreatepersistedkey_func.htm
 tech.root: SecCNG
 ms.assetid: eeb1842f-fd9e-4edf-9db8-7b4e91760e9b

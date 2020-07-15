@@ -1,7 +1,8 @@
 ---
 UID: NF:shldisp.IShellFolderViewDual3.put_FolderFlags
 title: IShellFolderViewDual3::put_FolderFlags (shldisp.h)
-description: Sets the current folders settings.helpviewer_keywords: ["IShellFolderViewDual3 interface [Windows Shell]","put_FolderFlags method","IShellFolderViewDual3.put_FolderFlags","IShellFolderViewDual3::put_FolderFlags","_shell_IShellFolderViewDual3_put_FolderFlags","put_FolderFlags","put_FolderFlags method [Windows Shell]","put_FolderFlags method [Windows Shell]","IShellFolderViewDual3 interface","shell.IShellFolderViewDual3_put_FolderFlags","shldisp/IShellFolderViewDual3::put_FolderFlags"]
+description: Sets the current folders settings.
+helpviewer_keywords: ["IShellFolderViewDual3 interface [Windows Shell]","put_FolderFlags method","IShellFolderViewDual3.put_FolderFlags","IShellFolderViewDual3::put_FolderFlags","_shell_IShellFolderViewDual3_put_FolderFlags","put_FolderFlags","put_FolderFlags method [Windows Shell]","put_FolderFlags method [Windows Shell]","IShellFolderViewDual3 interface","shell.IShellFolderViewDual3_put_FolderFlags","shldisp/IShellFolderViewDual3::put_FolderFlags"]
 old-location: shell\IShellFolderViewDual3_put_FolderFlags.htm
 tech.root: shell
 ms.assetid: 698678a6-3624-420a-997a-9fd1e61d67e6

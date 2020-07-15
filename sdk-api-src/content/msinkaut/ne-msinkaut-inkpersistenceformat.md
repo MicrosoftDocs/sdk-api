@@ -1,7 +1,8 @@
 ---
 UID: NE:msinkaut.InkPersistenceFormat
 title: InkPersistenceFormat (msinkaut.h)
-description: Specifies how ink is persisted.helpviewer_keywords: ["IPF_Base64Gif","IPF_Base64InkSerializedFormat","IPF_Gif","IPF_InkSerializedFormat","InkPersistenceFormat","InkPersistenceFormat enumeration [Tablet PC]","ecbf48ce-0394-4da1-9f5c-d2626545982c","msinkaut/IPF_Base64Gif","msinkaut/IPF_Base64InkSerializedFormat","msinkaut/IPF_Gif","msinkaut/IPF_InkSerializedFormat","msinkaut/InkPersistenceFormat","tablet.inkpersistenceformat"]
+description: Specifies how ink is persisted.
+helpviewer_keywords: ["IPF_Base64Gif","IPF_Base64InkSerializedFormat","IPF_Gif","IPF_InkSerializedFormat","InkPersistenceFormat","InkPersistenceFormat enumeration [Tablet PC]","ecbf48ce-0394-4da1-9f5c-d2626545982c","msinkaut/IPF_Base64Gif","msinkaut/IPF_Base64InkSerializedFormat","msinkaut/IPF_Gif","msinkaut/IPF_InkSerializedFormat","msinkaut/InkPersistenceFormat","tablet.inkpersistenceformat"]
 old-location: tablet\inkpersistenceformat.htm
 tech.root: tablet
 ms.assetid: ecbf48ce-0394-4da1-9f5c-d2626545982c

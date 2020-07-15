@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.GetAcquisitionTime
 title: IPhotoAcquireSettings::GetAcquisitionTime (photoacquire.h)
-description: The GetAcquisitionTime method retrieves the acquisition time of the current session.helpviewer_keywords: ["GetAcquisitionTime","GetAcquisitionTime method [Picture Acquisition]","GetAcquisitionTime method [Picture Acquisition]","IPhotoAcquireSettings interface","IPhotoAcquireSettings interface [Picture Acquisition]","GetAcquisitionTime method","IPhotoAcquireSettings.GetAcquisitionTime","IPhotoAcquireSettings::GetAcquisitionTime","IPhotoAcquireSettingsGetAcquisitionTime","photoacquire/IPhotoAcquireSettings::GetAcquisitionTime","picacq.iphotoacquiresettings_getacquisitiontime"]
+description: The GetAcquisitionTime method retrieves the acquisition time of the current session.
+helpviewer_keywords: ["GetAcquisitionTime","GetAcquisitionTime method [Picture Acquisition]","GetAcquisitionTime method [Picture Acquisition]","IPhotoAcquireSettings interface","IPhotoAcquireSettings interface [Picture Acquisition]","GetAcquisitionTime method","IPhotoAcquireSettings.GetAcquisitionTime","IPhotoAcquireSettings::GetAcquisitionTime","IPhotoAcquireSettingsGetAcquisitionTime","photoacquire/IPhotoAcquireSettings::GetAcquisitionTime","picacq.iphotoacquiresettings_getacquisitiontime"]
 old-location: picacq\iphotoacquiresettings_getacquisitiontime.htm
 tech.root: acquisition
 ms.assetid: 0acafc4d-e4f5-4dce-a192-18d27024ad83

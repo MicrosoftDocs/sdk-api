@@ -1,7 +1,8 @@
 ---
 UID: NF:vmr9.IVMRWindowlessControl9.GetVideoPosition
 title: IVMRWindowlessControl9::GetVideoPosition (vmr9.h)
-description: The GetVideoPosition method retrieves the current source and destination rectangles used to display the video.helpviewer_keywords: ["GetVideoPosition","GetVideoPosition method [DirectShow]","GetVideoPosition method [DirectShow]","IVMRWindowlessControl9 interface","IVMRWindowlessControl9 interface [DirectShow]","GetVideoPosition method","IVMRWindowlessControl9.GetVideoPosition","IVMRWindowlessControl9::GetVideoPosition","IVMRWindowlessControl9GetVideoPosition","dshow.ivmrwindowlesscontrol9_getvideoposition","vmr9/IVMRWindowlessControl9::GetVideoPosition"]
+description: The GetVideoPosition method retrieves the current source and destination rectangles used to display the video.
+helpviewer_keywords: ["GetVideoPosition","GetVideoPosition method [DirectShow]","GetVideoPosition method [DirectShow]","IVMRWindowlessControl9 interface","IVMRWindowlessControl9 interface [DirectShow]","GetVideoPosition method","IVMRWindowlessControl9.GetVideoPosition","IVMRWindowlessControl9::GetVideoPosition","IVMRWindowlessControl9GetVideoPosition","dshow.ivmrwindowlesscontrol9_getvideoposition","vmr9/IVMRWindowlessControl9::GetVideoPosition"]
 old-location: dshow\ivmrwindowlesscontrol9_getvideoposition.htm
 tech.root: DirectShow
 ms.assetid: 0963ec09-8637-441c-b10e-fecc11788e39

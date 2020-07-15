@@ -1,7 +1,8 @@
 ---
 UID: NF:qnetwork.IAMMediaContent.get_AuthorName
 title: IAMMediaContent::get_AuthorName (qnetwork.h)
-description: The get_AuthorName method retrieves the author name.helpviewer_keywords: ["IAMMediaContent interface [DirectShow]","get_AuthorName method","IAMMediaContent.get_AuthorName","IAMMediaContent::get_AuthorName","IAMMediaContentget_AuthorName","dshow.iammediacontent_get_authorname","get_AuthorName","get_AuthorName method [DirectShow]","get_AuthorName method [DirectShow]","IAMMediaContent interface","qnetwork/IAMMediaContent::get_AuthorName"]
+description: The get_AuthorName method retrieves the author name.
+helpviewer_keywords: ["IAMMediaContent interface [DirectShow]","get_AuthorName method","IAMMediaContent.get_AuthorName","IAMMediaContent::get_AuthorName","IAMMediaContentget_AuthorName","dshow.iammediacontent_get_authorname","get_AuthorName","get_AuthorName method [DirectShow]","get_AuthorName method [DirectShow]","IAMMediaContent interface","qnetwork/IAMMediaContent::get_AuthorName"]
 old-location: dshow\iammediacontent_get_authorname.htm
 tech.root: DirectShow
 ms.assetid: 49ccb07c-1f20-47e9-a05b-f8f3b77acc99

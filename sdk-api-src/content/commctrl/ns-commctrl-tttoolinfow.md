@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagTOOLINFOW
 title: TTTOOLINFOW (commctrl.h)
-description: The TOOLINFO structure contains information about a tool in a tooltip control.helpviewer_keywords: ["*LPTTTOOLINFOW","*PTOOLINFOW","LPTOOLINFO","LPTOOLINFO structure pointer [Windows Controls]","PTOOLINFO","PTOOLINFO structure pointer [Windows Controls]","TOOLINFO","TOOLINFO structure [Windows Controls]","TOOLINFOA","TOOLINFOW","TTF_ABSOLUTE","TTF_CENTERTIP","TTF_IDISHWND","TTF_PARSELINKS","TTF_RTLREADING","TTF_SUBCLASS","TTF_TRACK","TTF_TRANSPARENT","TTTOOLINFO","TTTOOLINFOA","TTTOOLINFOW","_win32_TOOLINFO","_win32_TOOLINFO_cpp","commctrl/LPTOOLINFO","commctrl/PTOOLINFO","commctrl/TOOLINFO","commctrl/TOOLINFOA","commctrl/TOOLINFOW","controls.TOOLINFO","controls._win32_TOOLINFO"]
+description: The TOOLINFO structure contains information about a tool in a tooltip control.
+helpviewer_keywords: ["*LPTTTOOLINFOW","*PTOOLINFOW","LPTOOLINFO","LPTOOLINFO structure pointer [Windows Controls]","PTOOLINFO","PTOOLINFO structure pointer [Windows Controls]","TOOLINFO","TOOLINFO structure [Windows Controls]","TOOLINFOA","TOOLINFOW","TTF_ABSOLUTE","TTF_CENTERTIP","TTF_IDISHWND","TTF_PARSELINKS","TTF_RTLREADING","TTF_SUBCLASS","TTF_TRACK","TTF_TRANSPARENT","TTTOOLINFO","TTTOOLINFOA","TTTOOLINFOW","_win32_TOOLINFO","_win32_TOOLINFO_cpp","commctrl/LPTOOLINFO","commctrl/PTOOLINFO","commctrl/TOOLINFO","commctrl/TOOLINFOA","commctrl/TOOLINFOW","controls.TOOLINFO","controls._win32_TOOLINFO"]
 old-location: controls\TOOLINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tooltip\structures\toolinfo.htm
@@ -224,4 +225,8 @@ Reserved. Must be set to <b>NULL</b>.
 Normal windows display text left-to-right (LTR). Windows can be <i>mirrored</i> to display languages such as Hebrew or Arabic that read right-to-left (RTL). Normally, tooltip text is displayed in the same direction as the text in its parent window. If TTF_RTLREADING is set, tooltip text will read in the opposite direction from the text in the parent window.
 
 
+
+
+> [!NOTE]
+> The commctrl.h header defines TTTOOLINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

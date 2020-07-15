@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12video.D3D12_VIDEO_FORMAT
 title: D3D12_VIDEO_FORMAT
-description: Defines the combination of a pixel format and color space for a resource content description.helpviewer_keywords: ["D3D12_VIDEO_FORMAT","D3D12_VIDEO_FORMAT",""]
+description: Defines the combination of a pixel format and color space for a resource content description.
+helpviewer_keywords: ["D3D12_VIDEO_FORMAT","D3D12_VIDEO_FORMAT",""]
 tech.root: mf
 ms.assetid: 83e83e89-fdbf-444b-abea-6a6b62d26ebd
 ms.date: 05/28/2019

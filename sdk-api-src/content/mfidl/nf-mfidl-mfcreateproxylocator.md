@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreateProxyLocator
 title: MFCreateProxyLocator function (mfidl.h)
-description: Creates a default proxy locator.helpviewer_keywords: ["9ad707df-533a-407b-a611-49bfb019affc","MFCreateProxyLocator","MFCreateProxyLocator function [Media Foundation]","mf.mfcreateproxylocator","mfidl/MFCreateProxyLocator"]
+description: Creates a default proxy locator.
+helpviewer_keywords: ["9ad707df-533a-407b-a611-49bfb019affc","MFCreateProxyLocator","MFCreateProxyLocator function [Media Foundation]","mf.mfcreateproxylocator","mfidl/MFCreateProxyLocator"]
 old-location: mf\mfcreateproxylocator.htm
 tech.root: medfound
 ms.assetid: 9ad707df-533a-407b-a611-49bfb019affc

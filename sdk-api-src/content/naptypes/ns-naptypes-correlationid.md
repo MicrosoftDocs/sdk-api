@@ -1,7 +1,8 @@
 ---
 UID: NS:naptypes.tagCorrelationId
 title: CorrelationId (naptypes.h)
-description: Is used to pair SoHRequests with SoHResponses and uniquely describes an SoH exchange.helpviewer_keywords: ["CorrelationId","CorrelationId structure [NAP]","nap.correlationid_struct","naptypes/CorrelationId"]
+description: Is used to pair SoHRequests with SoHResponses and uniquely describes an SoH exchange.
+helpviewer_keywords: ["CorrelationId","CorrelationId structure [NAP]","nap.correlationid_struct","naptypes/CorrelationId"]
 old-location: nap\correlationid_struct.htm
 tech.root: NAP
 ms.assetid: 99e5bad8-47dd-447b-bd8d-e35ae765808b

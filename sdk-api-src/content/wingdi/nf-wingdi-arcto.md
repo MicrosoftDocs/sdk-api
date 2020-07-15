@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.ArcTo
 title: ArcTo function (wingdi.h)
-description: The ArcTo function draws an elliptical arc.helpviewer_keywords: ["ArcTo","ArcTo function [Windows GDI]","_win32_ArcTo","gdi.arcto","wingdi/ArcTo"]
+description: The ArcTo function draws an elliptical arc.
+helpviewer_keywords: ["ArcTo","ArcTo function [Windows GDI]","_win32_ArcTo","gdi.arcto","wingdi/ArcTo"]
 old-location: gdi\arcto.htm
 tech.root: gdi
 ms.assetid: 5e358a14-9f39-4267-9a44-c8bf05b5dfbb

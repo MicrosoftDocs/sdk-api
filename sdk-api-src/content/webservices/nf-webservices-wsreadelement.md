@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsReadElement
 title: WsReadElement function (webservices.h)
-description: Read an element producing a value of the specified WS_TYPE.helpviewer_keywords: ["WsReadElement","WsReadElement function [Web Services for Windows]","webservices/WsReadElement","wsw.wsreadelement"]
+description: Read an element producing a value of the specified WS_TYPE.
+helpviewer_keywords: ["WsReadElement","WsReadElement function [Web Services for Windows]","webservices/WsReadElement","wsw.wsreadelement"]
 old-location: wsw\wsreadelement.htm
 tech.root: wsw
 ms.assetid: 88e0cc4d-ae24-46af-998d-fdbfbcc1be64

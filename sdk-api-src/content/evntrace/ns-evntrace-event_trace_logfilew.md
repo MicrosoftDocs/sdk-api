@@ -1,7 +1,8 @@
 ---
 UID: NS:evntrace._EVENT_TRACE_LOGFILEW
 title: EVENT_TRACE_LOGFILEW (evntrace.h)
-description: The EVENT_TRACE_LOGFILE structure specifies how the consumer wants to read events (from a log file or in real-time) and the callbacks that will receive the events.helpviewer_keywords: ["*PEVENT_TRACE_LOGFILEW","EVENT_TRACE_LOGFILE","EVENT_TRACE_LOGFILE structure [ETW]","EVENT_TRACE_LOGFILEA","EVENT_TRACE_LOGFILEW","PEVENT_TRACE_LOGFILE","PEVENT_TRACE_LOGFILE structure pointer [ETW]","PROCESS_TRACE_MODE_EVENT_RECORD","PROCESS_TRACE_MODE_RAW_TIMESTAMP","PROCESS_TRACE_MODE_REAL_TIME","_EVENT_TRACE_LOGFILEA","_EVENT_TRACE_LOGFILEW","_evt_event_trace_logfile","base.event_trace_logfile","etw.event_trace_logfile","evntrace/EVENT_TRACE_LOGFILE","evntrace/EVENT_TRACE_LOGFILEA","evntrace/EVENT_TRACE_LOGFILEW","evntrace/PEVENT_TRACE_LOGFILE"]
+description: The EVENT_TRACE_LOGFILE structure specifies how the consumer wants to read events (from a log file or in real-time) and the callbacks that will receive the events.
+helpviewer_keywords: ["*PEVENT_TRACE_LOGFILEW","EVENT_TRACE_LOGFILE","EVENT_TRACE_LOGFILE structure [ETW]","EVENT_TRACE_LOGFILEA","EVENT_TRACE_LOGFILEW","PEVENT_TRACE_LOGFILE","PEVENT_TRACE_LOGFILE structure pointer [ETW]","PROCESS_TRACE_MODE_EVENT_RECORD","PROCESS_TRACE_MODE_RAW_TIMESTAMP","PROCESS_TRACE_MODE_REAL_TIME","_EVENT_TRACE_LOGFILEA","_EVENT_TRACE_LOGFILEW","_evt_event_trace_logfile","base.event_trace_logfile","etw.event_trace_logfile","evntrace/EVENT_TRACE_LOGFILE","evntrace/EVENT_TRACE_LOGFILEA","evntrace/EVENT_TRACE_LOGFILEW","evntrace/PEVENT_TRACE_LOGFILE"]
 old-location: etw\event_trace_logfile.htm
 tech.root: ETW
 ms.assetid: 179451e9-7e3c-4d3a-bcc6-3ad9d382229a
@@ -236,6 +237,10 @@ consumer's <a href="https://docs.microsoft.com/windows/desktop/ETW/buffercallbac
 
 
 
+
+
+> [!NOTE]
+> The evntrace.h header defines EVENT_TRACE_LOGFILE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

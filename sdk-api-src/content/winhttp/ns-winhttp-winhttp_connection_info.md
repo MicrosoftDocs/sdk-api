@@ -1,7 +1,8 @@
 ---
 UID: NS:winhttp._WINHTTP_CONNECTION_INFO
 title: WINHTTP_CONNECTION_INFO (winhttp.h)
-description: The WINHTTP_CONNECTION_INFO structure contains the source and destination IP address of the request that generated the response.helpviewer_keywords: ["WINHTTP_CONNECTION_INFO","WINHTTP_CONNECTION_INFO structure [HTTP]","http.winhttp_connection_info","winhttp/WINHTTP_CONNECTION_INFO"]
+description: The WINHTTP_CONNECTION_INFO structure contains the source and destination IP address of the request that generated the response.
+helpviewer_keywords: ["WINHTTP_CONNECTION_INFO","WINHTTP_CONNECTION_INFO structure [HTTP]","http.winhttp_connection_info","winhttp/WINHTTP_CONNECTION_INFO"]
 old-location: http\winhttp_connection_info.htm
 tech.root: WinHttp
 ms.assetid: cb6e10f8-a480-41ac-b4d3-f09cfc663780

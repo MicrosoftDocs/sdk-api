@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.MoveClusterGroupEx
 title: MoveClusterGroupEx function (clusapi.h)
-description: Extends the existing MoveClusterGroup method with the addition of flags and a buffer.helpviewer_keywords: ["CLUSAPI_GROUP_MOVE_FAILBACK","CLUSAPI_GROUP_MOVE_HIGH_PRIORITY_START","CLUSAPI_GROUP_MOVE_IGNORE_RESOURCE_STATUS","CLUSAPI_GROUP_MOVE_QUEUE_ENABLED","CLUSAPI_GROUP_MOVE_RETURN_TO_SOURCE_NODE_ON_ERROR","MoveClusterGroupEx","MoveClusterGroupEx function [Failover Cluster]","clusapi/MoveClusterGroupEx","mscs.moveclustergroupex"]
+description: Extends the existing MoveClusterGroup method with the addition of flags and a buffer.
+helpviewer_keywords: ["CLUSAPI_GROUP_MOVE_FAILBACK","CLUSAPI_GROUP_MOVE_HIGH_PRIORITY_START","CLUSAPI_GROUP_MOVE_IGNORE_RESOURCE_STATUS","CLUSAPI_GROUP_MOVE_QUEUE_ENABLED","CLUSAPI_GROUP_MOVE_RETURN_TO_SOURCE_NODE_ON_ERROR","MoveClusterGroupEx","MoveClusterGroupEx function [Failover Cluster]","clusapi/MoveClusterGroupEx","mscs.moveclustergroupex"]
 old-location: mscs\moveclustergroupex.htm
 tech.root: MsCS
 ms.assetid: CE56BA9D-3527-43D3-8656-EA0BBDF48B98

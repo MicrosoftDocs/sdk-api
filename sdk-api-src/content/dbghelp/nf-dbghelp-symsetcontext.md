@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymSetContext
 title: SymSetContext function (dbghelp.h)
-description: Sets context information used by the SymEnumSymbols function. This function only works with PDB symbols.helpviewer_keywords: ["SymSetContext","SymSetContext function","_win32_symsetcontext","base.symsetcontext","dbghelp/SymSetContext"]
+description: Sets context information used by the SymEnumSymbols function. This function only works with PDB symbols.
+helpviewer_keywords: ["SymSetContext","SymSetContext function","_win32_symsetcontext","base.symsetcontext","dbghelp/SymSetContext"]
 old-location: base\symsetcontext.htm
 tech.root: Debug
 ms.assetid: 0a9c6bfe-5e60-48c4-af98-b910df3032d5

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordMagazineNumber
 title: IDvbTeletextDescriptor::GetRecordMagazineNumber (dvbsiparser.h)
-description: Gets the magazine number from a Digital Video Broadcast (DVB) teletext descriptor.helpviewer_keywords: ["GetRecordMagazineNumber","GetRecordMagazineNumber method [Microsoft TV Technologies]","GetRecordMagazineNumber method [Microsoft TV Technologies]","IDvbTeletextDescriptor interface","IDvbTeletextDescriptor interface [Microsoft TV Technologies]","GetRecordMagazineNumber method","IDvbTeletextDescriptor.GetRecordMagazineNumber","IDvbTeletextDescriptor::GetRecordMagazineNumber","dvbsiparser/IDvbTeletextDescriptor::GetRecordMagazineNumber","mstv.idvbteletextdescriptor_getrecordmagazinenumber"]
+description: Gets the magazine number from a Digital Video Broadcast (DVB) teletext descriptor.
+helpviewer_keywords: ["GetRecordMagazineNumber","GetRecordMagazineNumber method [Microsoft TV Technologies]","GetRecordMagazineNumber method [Microsoft TV Technologies]","IDvbTeletextDescriptor interface","IDvbTeletextDescriptor interface [Microsoft TV Technologies]","GetRecordMagazineNumber method","IDvbTeletextDescriptor.GetRecordMagazineNumber","IDvbTeletextDescriptor::GetRecordMagazineNumber","dvbsiparser/IDvbTeletextDescriptor::GetRecordMagazineNumber","mstv.idvbteletextdescriptor_getrecordmagazinenumber"]
 old-location: mstv\idvbteletextdescriptor_getrecordmagazinenumber.htm
 tech.root: mstv
 ms.assetid: bb3c39b6-dc85-42ca-9d4b-ad27eae077dd

@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ICoreFragment.NextColumn
 title: ICoreFragment::NextColumn (winsync.h)
-description: Returns the next change unit ID in the set of change unit IDs that this knowledge fragment applies to.helpviewer_keywords: ["ICoreFragment interface [Windows Sync]","NextColumn method","ICoreFragment.NextColumn","ICoreFragment::NextColumn","NextColumn","NextColumn method [Windows Sync]","NextColumn method [Windows Sync]","ICoreFragment interface","winsync.icorefragment_nextcolumn","winsync/ICoreFragment::NextColumn"]
+description: Returns the next change unit ID in the set of change unit IDs that this knowledge fragment applies to.
+helpviewer_keywords: ["ICoreFragment interface [Windows Sync]","NextColumn method","ICoreFragment.NextColumn","ICoreFragment::NextColumn","NextColumn","NextColumn method [Windows Sync]","NextColumn method [Windows Sync]","ICoreFragment interface","winsync.icorefragment_nextcolumn","winsync/ICoreFragment::NextColumn"]
 old-location: winsync\icorefragment_nextcolumn.htm
 tech.root: winsync
 ms.assetid: d50527cb-00ba-4e7b-9fb3-267eaa6cd6e6

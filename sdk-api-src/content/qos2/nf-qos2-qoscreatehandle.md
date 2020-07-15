@@ -1,7 +1,8 @@
 ---
 UID: NF:qos2.QOSCreateHandle
 title: QOSCreateHandle function (qos2.h)
-description: This function initializes the QOS subsystem and the QOSHandle parameter. The QOSHandle parameter is used when calling other QOS functions. QOSCreateHandle must be called before any other functions.helpviewer_keywords: ["QOSCreateHandle","QOSCreateHandle function [QOS]","qos.qoscreatehandle","qos2/QOSCreateHandle"]
+description: This function initializes the QOS subsystem and the QOSHandle parameter. The QOSHandle parameter is used when calling other QOS functions. QOSCreateHandle must be called before any other functions.
+helpviewer_keywords: ["QOSCreateHandle","QOSCreateHandle function [QOS]","qos.qoscreatehandle","qos2/QOSCreateHandle"]
 old-location: qos\qoscreatehandle.htm
 tech.root: QOS
 ms.assetid: dcee0bed-dc6f-435d-b292-07e331f6cf5b

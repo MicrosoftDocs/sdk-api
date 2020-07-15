@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12sdklayers.ID3D12DebugDevice.GetFeatureMask
 title: ID3D12DebugDevice::GetFeatureMask (d3d12sdklayers.h)
-description: Gets a bit field of flags that indicates which debug features are on or off.helpviewer_keywords: ["GetFeatureMask","GetFeatureMask method","GetFeatureMask method","ID3D12DebugDevice interface","ID3D12DebugDevice interface","GetFeatureMask method","ID3D12DebugDevice.GetFeatureMask","ID3D12DebugDevice::GetFeatureMask","d3d12sdklayers/ID3D12DebugDevice::GetFeatureMask","direct3d12.id3d12debugdevice_getfeaturemask"]
+description: Gets a bit field of flags that indicates which debug features are on or off.
+helpviewer_keywords: ["GetFeatureMask","GetFeatureMask method","GetFeatureMask method","ID3D12DebugDevice interface","ID3D12DebugDevice interface","GetFeatureMask method","ID3D12DebugDevice.GetFeatureMask","ID3D12DebugDevice::GetFeatureMask","d3d12sdklayers/ID3D12DebugDevice::GetFeatureMask","direct3d12.id3d12debugdevice_getfeaturemask"]
 old-location: direct3d12\id3d12debugdevice_getfeaturemask.htm
 tech.root: direct3d12
 ms.assetid: E4ECE63F-6738-4856-9912-93C3AAEE7E3B

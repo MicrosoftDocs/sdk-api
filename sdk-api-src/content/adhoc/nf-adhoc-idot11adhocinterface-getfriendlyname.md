@@ -1,7 +1,8 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.GetFriendlyName
 title: IDot11AdHocInterface::GetFriendlyName (adhoc.h)
-description: Gets the friendly name of the NIC.helpviewer_keywords: ["GetFriendlyName","GetFriendlyName method [NativeWIFI]","GetFriendlyName method [NativeWIFI]","IDot11AdHocInterface interface","IDot11AdHocInterface interface [NativeWIFI]","GetFriendlyName method","IDot11AdHocInterface.GetFriendlyName","IDot11AdHocInterface::GetFriendlyName","adhoc/IDot11AdHocInterface::GetFriendlyName","nwifi.idot11adhocinterface_getfriendlyname"]
+description: Gets the friendly name of the NIC.
+helpviewer_keywords: ["GetFriendlyName","GetFriendlyName method [NativeWIFI]","GetFriendlyName method [NativeWIFI]","IDot11AdHocInterface interface","IDot11AdHocInterface interface [NativeWIFI]","GetFriendlyName method","IDot11AdHocInterface.GetFriendlyName","IDot11AdHocInterface::GetFriendlyName","adhoc/IDot11AdHocInterface::GetFriendlyName","nwifi.idot11adhocinterface_getfriendlyname"]
 old-location: nwifi\idot11adhocinterface_getfriendlyname.htm
 tech.root: NativeWiFi
 ms.assetid: 945947e9-99ea-4420-95db-5b831e59e894

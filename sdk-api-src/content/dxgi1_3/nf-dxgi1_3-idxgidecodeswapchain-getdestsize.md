@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_3.IDXGIDecodeSwapChain.GetDestSize
 title: IDXGIDecodeSwapChain::GetDestSize (dxgi1_3.h)
-description: Gets the size of the destination surface to use for the video processing blit operation.helpviewer_keywords: ["GetDestSize","GetDestSize method [DXGI]","GetDestSize method [DXGI]","IDXGIDecodeSwapChain interface","IDXGIDecodeSwapChain interface [DXGI]","GetDestSize method","IDXGIDecodeSwapChain.GetDestSize","IDXGIDecodeSwapChain::GetDestSize","direct3ddxgi.idxgidecodeswapchain_getdestsize","dxgi1_3/IDXGIDecodeSwapChain::GetDestSize"]
+description: Gets the size of the destination surface to use for the video processing blit operation.
+helpviewer_keywords: ["GetDestSize","GetDestSize method [DXGI]","GetDestSize method [DXGI]","IDXGIDecodeSwapChain interface","IDXGIDecodeSwapChain interface [DXGI]","GetDestSize method","IDXGIDecodeSwapChain.GetDestSize","IDXGIDecodeSwapChain::GetDestSize","direct3ddxgi.idxgidecodeswapchain_getdestsize","dxgi1_3/IDXGIDecodeSwapChain::GetDestSize"]
 old-location: direct3ddxgi\idxgidecodeswapchain_getdestsize.htm
 tech.root: direct3ddxgi
 ms.assetid: FA01A6C1-7731-4B30-845F-4C2514B6AD77

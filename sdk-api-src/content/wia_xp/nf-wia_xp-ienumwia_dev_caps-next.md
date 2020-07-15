@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IEnumWIA_DEV_CAPS.Next
 title: IEnumWIA_DEV_CAPS::Next (wia_xp.h)
-description: The IEnumWIA_DEV_CAPS::Next method fills an array of pointers to WIA_DEV_CAP structures.helpviewer_keywords: ["IEnumWIA_DEV_CAPS interface [WIA]","Next method","IEnumWIA_DEV_CAPS.Next","IEnumWIA_DEV_CAPS::Next","Next","Next method [WIA]","Next method [WIA]","IEnumWIA_DEV_CAPS interface","_wia_IEnumWIA_DEV_CAPS_Next","wia._wia_IEnumWIA_DEV_CAPS_Next","wia_xp/IEnumWIA_DEV_CAPS::Next"]
+description: The IEnumWIA_DEV_CAPS::Next method fills an array of pointers to WIA_DEV_CAP structures.
+helpviewer_keywords: ["IEnumWIA_DEV_CAPS interface [WIA]","Next method","IEnumWIA_DEV_CAPS.Next","IEnumWIA_DEV_CAPS::Next","Next","Next method [WIA]","Next method [WIA]","IEnumWIA_DEV_CAPS interface","_wia_IEnumWIA_DEV_CAPS_Next","wia._wia_IEnumWIA_DEV_CAPS_Next","wia_xp/IEnumWIA_DEV_CAPS::Next"]
 old-location: wia\_wia_IEnumWIA_DEV_CAPS_Next.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_caps\next.htm

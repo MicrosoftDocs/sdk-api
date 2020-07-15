@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.TransferObjectData
 title: IWMDMOperation::TransferObjectData (mswmdm.h)
-description: The TransferObjectData method is called to allow the application to transfer a block of data to or from the computer.helpviewer_keywords: ["IWMDMOperation interface [windows Media Device Manager]","TransferObjectData method","IWMDMOperation.TransferObjectData","IWMDMOperation::TransferObjectData","IWMDMOperationTransferObjectData","TransferObjectData","TransferObjectData method [windows Media Device Manager]","TransferObjectData method [windows Media Device Manager]","IWMDMOperation interface","mswmdm/IWMDMOperation::TransferObjectData","wmdm.iwmdmoperation_transferobjectdata"]
+description: The TransferObjectData method is called to allow the application to transfer a block of data to or from the computer.
+helpviewer_keywords: ["IWMDMOperation interface [windows Media Device Manager]","TransferObjectData method","IWMDMOperation.TransferObjectData","IWMDMOperation::TransferObjectData","IWMDMOperationTransferObjectData","TransferObjectData","TransferObjectData method [windows Media Device Manager]","TransferObjectData method [windows Media Device Manager]","IWMDMOperation interface","mswmdm/IWMDMOperation::TransferObjectData","wmdm.iwmdmoperation_transferobjectdata"]
 old-location: wmdm\iwmdmoperation_transferobjectdata.htm
 tech.root: WMDM
 ms.assetid: ba3f29d9-88cd-4050-aa9f-f9317745a16b

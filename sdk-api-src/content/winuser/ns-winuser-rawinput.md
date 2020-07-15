@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagRAWINPUT
 title: RAWINPUT (winuser.h)
-description: Contains the raw input from a device.helpviewer_keywords: ["*LPRAWINPUT","*PRAWINPUT","LPRAWINPUT","LPRAWINPUT structure pointer [Keyboard and Mouse Input]","PRAWINPUT","PRAWINPUT structure pointer [Keyboard and Mouse Input]","RAWINPUT","RAWINPUT structure [Keyboard and Mouse Input]","_win32_RAWINPUT_str","_win32_rawinput_str_cpp","inputdev.rawinput","winui._win32_rawinput_str","winuser/LPRAWINPUT","winuser/PRAWINPUT","winuser/RAWINPUT"]
+description: Contains the raw input from a device.
+helpviewer_keywords: ["*LPRAWINPUT","*PRAWINPUT","LPRAWINPUT","LPRAWINPUT structure pointer [Keyboard and Mouse Input]","PRAWINPUT","PRAWINPUT structure pointer [Keyboard and Mouse Input]","RAWINPUT","RAWINPUT structure [Keyboard and Mouse Input]","_win32_RAWINPUT_str","_win32_rawinput_str_cpp","inputdev.rawinput","winui._win32_rawinput_str","winuser/LPRAWINPUT","winuser/PRAWINPUT","winuser/RAWINPUT"]
 old-location: inputdev\rawinput.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rawinput.htm

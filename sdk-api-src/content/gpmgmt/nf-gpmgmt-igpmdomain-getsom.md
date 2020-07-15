@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.GetSOM
 title: IGPMDomain::GetSOM (gpmgmt.h)
-description: Retrieves the IGPMSOM interface that represents the domain or the organizational unit (OU) at the specified path.helpviewer_keywords: ["GPMDomain class [GPMC]","GetSOM method","GetSOM","GetSOM method [GPMC]","GetSOM method [GPMC]","GPMDomain class","GetSOM method [GPMC]","IGPMDomain interface","IGPMDomain interface [GPMC]","GetSOM method","IGPMDomain.GetSOM","IGPMDomain::GetSOM","_win32_igpmdomain_getsom","gpmc.igpmdomain_getsom","gpmgmt/IGPMDomain::GetSOM"]
+description: Retrieves the IGPMSOM interface that represents the domain or the organizational unit (OU) at the specified path.
+helpviewer_keywords: ["GPMDomain class [GPMC]","GetSOM method","GetSOM","GetSOM method [GPMC]","GetSOM method [GPMC]","GPMDomain class","GetSOM method [GPMC]","IGPMDomain interface","IGPMDomain interface [GPMC]","GetSOM method","IGPMDomain.GetSOM","IGPMDomain::GetSOM","_win32_igpmdomain_getsom","gpmc.igpmdomain_getsom","gpmgmt/IGPMDomain::GetSOM"]
 old-location: gpmc\igpmdomain_getsom.htm
 tech.root: gpmc
 ms.assetid: cbacd900-26ea-4554-97d8-8f33d2f5dd2b

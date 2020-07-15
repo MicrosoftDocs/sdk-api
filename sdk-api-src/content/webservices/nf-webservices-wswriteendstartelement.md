@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsWriteEndStartElement
 title: WsWriteEndStartElement function (webservices.h)
-description: Forces the writer to commit the current element and prevent further attributes from being written to the element.helpviewer_keywords: ["WsWriteEndStartElement","WsWriteEndStartElement function [Web Services for Windows]","webservices/WsWriteEndStartElement","wsw.wswriteendstartelement"]
+description: Forces the writer to commit the current element and prevent further attributes from being written to the element.
+helpviewer_keywords: ["WsWriteEndStartElement","WsWriteEndStartElement function [Web Services for Windows]","webservices/WsWriteEndStartElement","wsw.wswriteendstartelement"]
 old-location: wsw\wswriteendstartelement.htm
 tech.root: wsw
 ms.assetid: 56bf55f8-978c-4f03-9ace-f992530927c2

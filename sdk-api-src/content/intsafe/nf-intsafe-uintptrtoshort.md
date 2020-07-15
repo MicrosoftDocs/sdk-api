@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.UIntPtrToShort
 title: UIntPtrToShort function (intsafe.h)
-description: Converts a value of type UINT_PTR to a value of type SHORT.helpviewer_keywords: ["UIntPtrToShort","UIntPtrToShort function [Windows Shell]","intsafe/UIntPtrToShort","shell.UIntPtrToShort"]
+description: Converts a value of type UINT_PTR to a value of type SHORT.
+helpviewer_keywords: ["UIntPtrToShort","UIntPtrToShort function [Windows Shell]","intsafe/UIntPtrToShort","shell.UIntPtrToShort"]
 old-location: shell\UIntPtrToShort.htm
 tech.root: shell
 ms.assetid: 6cbbced2-5a0f-49d6-8ac0-27a9d1a885fe

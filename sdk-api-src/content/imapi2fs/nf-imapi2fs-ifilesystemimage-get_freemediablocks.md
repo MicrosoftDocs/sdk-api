@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_FreeMediaBlocks
 title: IFileSystemImage::get_FreeMediaBlocks (imapi2fs.h)
-description: Retrieves the maximum number of blocks available for the image.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_FreeMediaBlocks method","IFileSystemImage.get_FreeMediaBlocks","IFileSystemImage::get_FreeMediaBlocks","get_FreeMediaBlocks","get_FreeMediaBlocks method [IMAPI]","get_FreeMediaBlocks method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_freemediablocks","imapi2fs/IFileSystemImage::get_FreeMediaBlocks"]
+description: Retrieves the maximum number of blocks available for the image.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_FreeMediaBlocks method","IFileSystemImage.get_FreeMediaBlocks","IFileSystemImage::get_FreeMediaBlocks","get_FreeMediaBlocks","get_FreeMediaBlocks method [IMAPI]","get_FreeMediaBlocks method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_freemediablocks","imapi2fs/IFileSystemImage::get_FreeMediaBlocks"]
 old-location: imapi\ifilesystemimage_get_freemediablocks.htm
 tech.root: imapi
 ms.assetid: 4942d86d-0cc7-4f4e-b257-dc59d3896b38

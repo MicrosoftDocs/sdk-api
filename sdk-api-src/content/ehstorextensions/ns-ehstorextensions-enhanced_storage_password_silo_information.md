@@ -1,7 +1,8 @@
 ---
 UID: NS:ehstorextensions._ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION
 title: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION (ehstorextensions.h)
-description: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure contains data that defines the capabilities and requirements of a password silo.helpviewer_keywords: ["*PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION","ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION","ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure [Enhanced Storage]","PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION","PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure pointer [Enhanced Storage]","ehstorextensions/ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION","ehstorextensions/PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION","enstor.enhanced_storage_password_silo_information"]
+description: ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure contains data that defines the capabilities and requirements of a password silo.
+helpviewer_keywords: ["*PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION","ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION","ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure [Enhanced Storage]","PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION","PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION structure pointer [Enhanced Storage]","ehstorextensions/ENHANCED_STORAGE_PASSWORD_SILO_INFORMATION","ehstorextensions/PENHANCED_STORAGE_PASSWORD_SILO_INFORMATION","enstor.enhanced_storage_password_silo_information"]
 old-location: enstor\enhanced_storage_password_silo_information.htm
 tech.root: enstor
 ms.assetid: b922aca7-d574-497a-bf83-b53a321400a9

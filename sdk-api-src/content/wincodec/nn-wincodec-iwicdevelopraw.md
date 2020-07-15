@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICDevelopRaw
 title: IWICDevelopRaw (wincodec.h)
-description: Exposes methods that provide access to the capabilites of a raw codec format.helpviewer_keywords: ["IWICDevelopRaw","IWICDevelopRaw interface [Windows Imaging Component]","IWICDevelopRaw interface [Windows Imaging Component]","described","_wic_codec_iwicdevelopraw","wic._wic_codec_iwicdevelopraw","wincodec/IWICDevelopRaw"]
+description: Exposes methods that provide access to the capabilites of a raw codec format.
+helpviewer_keywords: ["IWICDevelopRaw","IWICDevelopRaw interface [Windows Imaging Component]","IWICDevelopRaw interface [Windows Imaging Component]","described","_wic_codec_iwicdevelopraw","wic._wic_codec_iwicdevelopraw","wincodec/IWICDevelopRaw"]
 old-location: wic\_wic_codec_iwicdevelopraw.htm
 tech.root: wic
 ms.assetid: d449f3f7-fd43-44b0-ab7f-2ae307a74191

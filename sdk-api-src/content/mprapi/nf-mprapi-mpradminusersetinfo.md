@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminUserSetInfo
 title: MprAdminUserSetInfo function (mprapi.h)
-description: The MprAdminUserSetInfo function sets RAS information for the specified user.helpviewer_keywords: ["MprAdminUserSetInfo","MprAdminUserSetInfo function [RAS]","_mpr_mpradminusersetinfo","mprapi/MprAdminUserSetInfo","rras.mpradminusersetinfo"]
+description: The MprAdminUserSetInfo function sets RAS information for the specified user.
+helpviewer_keywords: ["MprAdminUserSetInfo","MprAdminUserSetInfo function [RAS]","_mpr_mpradminusersetinfo","mprapi/MprAdminUserSetInfo","rras.mpradminusersetinfo"]
 old-location: rras\mpradminusersetinfo.htm
 tech.root: RRAS
 ms.assetid: 7f4d5213-56b4-43d2-93c8-ee5ca50b2a19

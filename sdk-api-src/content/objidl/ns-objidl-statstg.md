@@ -1,7 +1,8 @@
 ---
 UID: NS:objidl.tagSTATSTG
 title: STATSTG (objidl.h)
-description: Contains statistical data about an open storage, stream, or byte-array object.helpviewer_keywords: ["STATSTG","STATSTG [Strctd Stg]","STATSTG structure [Structured Storage]","_stg_statstg","objidl/STATSTG","stg.statstg","tagSTATSTG"]
+description: Contains statistical data about an open storage, stream, or byte-array object.
+helpviewer_keywords: ["STATSTG","STATSTG [Strctd Stg]","STATSTG structure [Structured Storage]","_stg_statstg","objidl/STATSTG","stg.statstg","tagSTATSTG"]
 old-location: stg\statstg.htm
 tech.root: Stg
 ms.assetid: 54e1df08-de8f-430a-bf76-e66594df4839

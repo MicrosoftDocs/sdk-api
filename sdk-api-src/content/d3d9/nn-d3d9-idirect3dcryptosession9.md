@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d9.IDirect3DCryptoSession9
 title: IDirect3DCryptoSession9 (d3d9.h)
-description: Represents a cryptographic session.To get a pointer to this interface, call IDirect3DDevice9Video::CreateCryptoSession.helpviewer_keywords: ["IDirect3DCryptoSession9","IDirect3DCryptoSession9 interface [Media Foundation]","IDirect3DCryptoSession9 interface [Media Foundation]","described","d3d9/IDirect3DCryptoSession9","mf.idirect3dcryptosession9"]
+description: Represents a cryptographic session.To get a pointer to this interface, call IDirect3DDevice9Video::CreateCryptoSession.
+helpviewer_keywords: ["IDirect3DCryptoSession9","IDirect3DCryptoSession9 interface [Media Foundation]","IDirect3DCryptoSession9 interface [Media Foundation]","described","d3d9/IDirect3DCryptoSession9","mf.idirect3dcryptosession9"]
 old-location: mf\idirect3dcryptosession9.htm
 tech.root: medfound
 ms.assetid: 2511c9da-e696-4e49-b180-7fc1317c1652

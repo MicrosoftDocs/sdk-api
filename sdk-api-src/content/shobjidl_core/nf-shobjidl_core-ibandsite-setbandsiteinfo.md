@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IBandSite.SetBandSiteInfo
 title: IBandSite::SetBandSiteInfo (shobjidl_core.h)
-description: Sets information about the band site.helpviewer_keywords: ["IBandSite interface [Windows Shell]","SetBandSiteInfo method","IBandSite.SetBandSiteInfo","IBandSite::SetBandSiteInfo","SetBandSiteInfo","SetBandSiteInfo method [Windows Shell]","SetBandSiteInfo method [Windows Shell]","IBandSite interface","_win32_IBandSite_SetBandSiteInfo","shell.IBandSite_SetBandSiteInfo","shobjidl_core/IBandSite::SetBandSiteInfo"]
+description: Sets information about the band site.
+helpviewer_keywords: ["IBandSite interface [Windows Shell]","SetBandSiteInfo method","IBandSite.SetBandSiteInfo","IBandSite::SetBandSiteInfo","SetBandSiteInfo","SetBandSiteInfo method [Windows Shell]","SetBandSiteInfo method [Windows Shell]","IBandSite interface","_win32_IBandSite_SetBandSiteInfo","shell.IBandSite_SetBandSiteInfo","shobjidl_core/IBandSite::SetBandSiteInfo"]
 old-location: shell\IBandSite_SetBandSiteInfo.htm
 tech.root: shell
 ms.assetid: 2658a49d-d60f-483b-bbe1-e1390e9dc35e

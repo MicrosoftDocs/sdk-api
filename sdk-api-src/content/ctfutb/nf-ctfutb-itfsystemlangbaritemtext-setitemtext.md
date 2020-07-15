@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfSystemLangBarItemText.SetItemText
 title: ITfSystemLangBarItemText::SetItemText (ctfutb.h)
-description: The ITfSystemLangBarItemText::SetItemText method modifies the text displayed for the system language bar menu.helpviewer_keywords: ["ITfSystemLangBarItemText interface [Text Services Framework]","SetItemText method","ITfSystemLangBarItemText.SetItemText","ITfSystemLangBarItemText::SetItemText","SetItemText","SetItemText method [Text Services Framework]","SetItemText method [Text Services Framework]","ITfSystemLangBarItemText interface","ctfutb/ITfSystemLangBarItemText::SetItemText","tsf.itfsystemlangbaritemtext_setitemtext"]
+description: The ITfSystemLangBarItemText::SetItemText method modifies the text displayed for the system language bar menu.
+helpviewer_keywords: ["ITfSystemLangBarItemText interface [Text Services Framework]","SetItemText method","ITfSystemLangBarItemText.SetItemText","ITfSystemLangBarItemText::SetItemText","SetItemText","SetItemText method [Text Services Framework]","SetItemText method [Text Services Framework]","ITfSystemLangBarItemText interface","ctfutb/ITfSystemLangBarItemText::SetItemText","tsf.itfsystemlangbaritemtext_setitemtext"]
 old-location: tsf\itfsystemlangbaritemtext_setitemtext.htm
 tech.root: TSF
 ms.assetid: 4265f1b6-8688-4b88-b738-e373beea622b

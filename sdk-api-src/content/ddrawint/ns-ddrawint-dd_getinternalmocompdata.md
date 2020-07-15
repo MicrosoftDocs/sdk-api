@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_GETINTERNALMOCOMPDATA
 title: DD_GETINTERNALMOCOMPDATA (ddrawint.h)
-description: The DD_GETINTERNALMOCOMPDATA structure contains the internal memory requirements.helpviewer_keywords: ["*PDD_GETINTERNALMOCOMPDATA","DD_GETINTERNALMOCOMPDATA","DD_GETINTERNALMOCOMPDATA structure [Display Devices]","ddrawint/DD_GETINTERNALMOCOMPDATA","ddstrcts_02721b17-cf19-462c-b588-039431b8d548.xml","display.dd_getinternalmocompdata"]
+description: The DD_GETINTERNALMOCOMPDATA structure contains the internal memory requirements.
+helpviewer_keywords: ["*PDD_GETINTERNALMOCOMPDATA","DD_GETINTERNALMOCOMPDATA","DD_GETINTERNALMOCOMPDATA structure [Display Devices]","ddrawint/DD_GETINTERNALMOCOMPDATA","ddstrcts_02721b17-cf19-462c-b588-039431b8d548.xml","display.dd_getinternalmocompdata"]
 old-location: display\dd_getinternalmocompdata.htm
 tech.root: display
 ms.assetid: 5d8f722f-7574-485e-9ff2-568cd0ae23f7

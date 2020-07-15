@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.GetPackageFamilyNameFromToken
 title: GetPackageFamilyNameFromToken function (appmodel.h)
-description: Gets the package family name for the specified token.helpviewer_keywords: ["GetPackageFamilyNameFromToken","GetPackageFamilyNameFromToken function [App packaging and management]","appmodel/GetPackageFamilyNameFromToken","appxpkg.getpackagefamilynamefromtoken"]
+description: Gets the package family name for the specified token.
+helpviewer_keywords: ["GetPackageFamilyNameFromToken","GetPackageFamilyNameFromToken function [App packaging and management]","appmodel/GetPackageFamilyNameFromToken","appxpkg.getpackagefamilynamefromtoken"]
 old-location: appxpkg\getpackagefamilynamefromtoken.htm
 tech.root: appxpkg
 ms.assetid: C4FAF5DE-DF1F-4AFA-813B-5D80C786031B

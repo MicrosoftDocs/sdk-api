@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_InstanceA
 title: MI_InstanceA (mi.h)
-description: Represents an array of MI_Instance structures.helpviewer_keywords: ["MI_InstanceA","MI_InstanceA structure [Windows Management Infrastructure (MI)]","mi/MI_InstanceA","wmi._mi_instancea","wmi_v2.mi_instancea"]
+description: Represents an array of MI_Instance structures.
+helpviewer_keywords: ["MI_InstanceA","MI_InstanceA structure [Windows Management Infrastructure (MI)]","mi/MI_InstanceA","wmi._mi_instancea","wmi_v2.mi_instancea"]
 old-location: wmi_v2\mi_instancea.htm
 tech.root: wmi_v2
 ms.assetid: f25514cb-8a2c-43a0-b6c6-b08266d3ee5c

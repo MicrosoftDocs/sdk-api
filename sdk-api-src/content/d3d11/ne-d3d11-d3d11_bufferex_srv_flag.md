@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d11.D3D11_BUFFEREX_SRV_FLAG
 title: D3D11_BUFFEREX_SRV_FLAG (d3d11.h)
-description: Identifies how to view a buffer resource.helpviewer_keywords: ["966a7d54-75bc-7a4e-7188-3703ad332b5b","D3D11_BUFFEREX_SRV_FLAG","D3D11_BUFFEREX_SRV_FLAG enumeration [Direct3D 11]","D3D11_BUFFEREX_SRV_FLAG_RAW","d3d11/D3D11_BUFFEREX_SRV_FLAG","d3d11/D3D11_BUFFEREX_SRV_FLAG_RAW","direct3d11.d3d11_bufferex_srv_flag"]
+description: Identifies how to view a buffer resource.
+helpviewer_keywords: ["966a7d54-75bc-7a4e-7188-3703ad332b5b","D3D11_BUFFEREX_SRV_FLAG","D3D11_BUFFEREX_SRV_FLAG enumeration [Direct3D 11]","D3D11_BUFFEREX_SRV_FLAG_RAW","d3d11/D3D11_BUFFEREX_SRV_FLAG","d3d11/D3D11_BUFFEREX_SRV_FLAG_RAW","direct3d11.d3d11_bufferex_srv_flag"]
 old-location: direct3d11\d3d11_bufferex_srv_flag.htm
 tech.root: direct3d11
 ms.assetid: 11ded487-af4a-4357-b781-bd6b0f3c5a75

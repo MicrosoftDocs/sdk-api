@@ -1,7 +1,8 @@
 ---
 UID: NF:eventsys.IEventPublisher.GetDefaultProperty
 title: IEventPublisher::GetDefaultProperty (eventsys.h)
-description: Retrieves a named property and its value from the property bag associated with the event publisher.helpviewer_keywords: ["GetDefaultProperty","GetDefaultProperty method [COM]","GetDefaultProperty method [COM]","IEventPublisher interface","IEventPublisher interface [COM]","GetDefaultProperty method","IEventPublisher.GetDefaultProperty","IEventPublisher::GetDefaultProperty","_com_ieventpublisher_getdefaultproperty","com.ieventpublisher_getdefaultproperty","eventsys/IEventPublisher::GetDefaultProperty"]
+description: Retrieves a named property and its value from the property bag associated with the event publisher.
+helpviewer_keywords: ["GetDefaultProperty","GetDefaultProperty method [COM]","GetDefaultProperty method [COM]","IEventPublisher interface","IEventPublisher interface [COM]","GetDefaultProperty method","IEventPublisher.GetDefaultProperty","IEventPublisher::GetDefaultProperty","_com_ieventpublisher_getdefaultproperty","com.ieventpublisher_getdefaultproperty","eventsys/IEventPublisher::GetDefaultProperty"]
 old-location: com\ieventpublisher_getdefaultproperty.htm
 tech.root: com
 ms.assetid: 5d9adc4f-30c9-42bd-89c9-e35384885b8c

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.Add
 title: IInkCustomStrokes::Add (msinkaut.h)
-description: Adds an InkStrokes collection to an IInkCustomStrokes collection.helpviewer_keywords: ["482906b2-131e-4baa-8ed7-c11f79f05e4b","Add","Add method [Tablet PC]","Add method [Tablet PC]","IInkCustomStrokes interface","IInkCustomStrokes interface [Tablet PC]","Add method","IInkCustomStrokes.Add","IInkCustomStrokes::Add","msinkaut/IInkCustomStrokes::Add","tablet.iinkcustomstrokes_add"]
+description: Adds an InkStrokes collection to an IInkCustomStrokes collection.
+helpviewer_keywords: ["482906b2-131e-4baa-8ed7-c11f79f05e4b","Add","Add method [Tablet PC]","Add method [Tablet PC]","IInkCustomStrokes interface","IInkCustomStrokes interface [Tablet PC]","Add method","IInkCustomStrokes.Add","IInkCustomStrokes::Add","msinkaut/IInkCustomStrokes::Add","tablet.iinkcustomstrokes_add"]
 old-location: tablet\iinkcustomstrokes_add.htm
 tech.root: tablet
 ms.assetid: 482906b2-131e-4baa-8ed7-c11f79f05e4b

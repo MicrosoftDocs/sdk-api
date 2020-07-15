@@ -1,7 +1,8 @@
 ---
 UID: NN:tvratings.IEvalRat
 title: IEvalRat (tvratings.h)
-description: The IEvalRat interface is used to evaluate content ratings carried by a broadcast stream.helpviewer_keywords: ["IEvalRat","IEvalRat interface [Microsoft TV Technologies]","IEvalRat interface [Microsoft TV Technologies]","described","IEvalRatInterface","mstv.ievalrat","tvratings/IEvalRat"]
+description: The IEvalRat interface is used to evaluate content ratings carried by a broadcast stream.
+helpviewer_keywords: ["IEvalRat","IEvalRat interface [Microsoft TV Technologies]","IEvalRat interface [Microsoft TV Technologies]","described","IEvalRatInterface","mstv.ievalrat","tvratings/IEvalRat"]
 old-location: mstv\ievalrat.htm
 tech.root: mstv
 ms.assetid: b37c7e7d-80fd-4a42-a698-c20ffb2a5052

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.RemoveWindowSubclass
 title: RemoveWindowSubclass function (commctrl.h)
-description: Removes a subclass callback from a window.helpviewer_keywords: ["RemoveWindowSubclass","RemoveWindowSubclass function [Windows Shell]","commctrl/RemoveWindowSubclass","inet_RemoveWindowSubclass","shell.RemoveWindowSubclass"]
+description: Removes a subclass callback from a window.
+helpviewer_keywords: ["RemoveWindowSubclass","RemoveWindowSubclass function [Windows Shell]","commctrl/RemoveWindowSubclass","inet_RemoveWindowSubclass","shell.RemoveWindowSubclass"]
 old-location: shell\RemoveWindowSubclass.htm
 tech.root: shell
 ms.assetid: 09f27240-f3af-4791-afcb-a82bda79712a

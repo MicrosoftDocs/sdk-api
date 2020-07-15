@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLGetAuthenticationResult
 title: SLGetAuthenticationResult function (slpublic.h)
-description: Gets the authentication results.helpviewer_keywords: ["SLGetAuthenticationResult","SLGetAuthenticationResult function [Security]","security.slgetauthenticationresult","slpublic/SLGetAuthenticationResult"]
+description: Gets the authentication results.
+helpviewer_keywords: ["SLGetAuthenticationResult","SLGetAuthenticationResult function [Security]","security.slgetauthenticationresult","slpublic/SLGetAuthenticationResult"]
 old-location: security\slgetauthenticationresult.htm
 tech.root: SecSLApi
 ms.assetid: 8f30ac28-92a0-41f5-b076-eda7014fb526

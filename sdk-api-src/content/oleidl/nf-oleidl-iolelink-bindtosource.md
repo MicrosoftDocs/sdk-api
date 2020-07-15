@@ -125,7 +125,7 @@ Binding the moniker might require calling the <a href="https://docs.microsoft.co
 
 
 <h3><a id="Notes_to_Callers"></a><a id="notes_to_callers"></a><a id="NOTES_TO_CALLERS"></a>Notes to Callers</h3>
-Typically, your container application does not need to call the <b>IOleLink::BindToSource</b> method directly. When it's necessary to activate the connection to the link source, your container typically calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-update">IOleLink::Update</a>. The linked object's implementation of these methods calls <b>IOleLink::BindToSource</b>. Your container can also call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a> function, which calls <b>IOleLink::BindToSource</b> when it is called on a linked object.
+Typically, your container application does not need to call the <b>IOleLink::BindToSource</b> method directly. When it's necessary to activate the connection to the link source, your container typically calls <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-doverb">IOleObject::DoVerb</a>, <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-ioleobject-update">IOleObject::Update</a>, or <a href="https://docs.microsoft.com/windows/desktop/api/oleidl/nf-oleidl-iolelink-update">IOleLink::Update</a>. The linked object's implementation of these methods calls <b>IOleLink::BindToSource</b>. Your container can also call the <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a> function, which calls <b>IOleLink::BindToSource</b> when called on a linked object.
 
 In each of the examples listed previously, in which <b>IOleLink::BindToSource</b> is called indirectly, the bindflags parameter is set to zero. Consequently, these calls can fail with the OLE_E_CLASSDIFF error if the class of the link source is different from what it was the last time the linked object was bound. This could happen, for example, if the original link source was an embedded Lotus spreadsheet that an end user had subsequently converted (using the Change Type dialog box) to an Excel spreadsheet.
 
@@ -180,7 +180,3 @@ If <b>IOleLink::BindToSource</b> binds to the link source, it calls the compound
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/ole2/nf-ole2-olerun">OleRun</a>
- 
-
- 
-

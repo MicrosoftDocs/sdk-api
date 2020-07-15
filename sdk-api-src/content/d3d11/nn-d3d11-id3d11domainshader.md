@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11.ID3D11DomainShader
 title: ID3D11DomainShader (d3d11.h)
-description: A domain-shader interface manages an executable program (a domain shader) that controls the domain-shader stage.helpviewer_keywords: ["ID3D11DomainShader","ID3D11DomainShader interface [Direct3D 11]","ID3D11DomainShader interface [Direct3D 11]","described","b1ab0261-4310-836c-a463-56ac752ba47f","d3d11/ID3D11DomainShader","direct3d11.id3d11domainshader"]
+description: A domain-shader interface manages an executable program (a domain shader) that controls the domain-shader stage.
+helpviewer_keywords: ["ID3D11DomainShader","ID3D11DomainShader interface [Direct3D 11]","ID3D11DomainShader interface [Direct3D 11]","described","b1ab0261-4310-836c-a463-56ac752ba47f","d3d11/ID3D11DomainShader","direct3d11.id3d11domainshader"]
 old-location: direct3d11\id3d11domainshader.htm
 tech.root: direct3d11
 ms.assetid: cd01c872-4df5-4741-90c5-211d3e393f89

@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.IsTokenRestricted
 title: IsTokenRestricted function (securitybaseapi.h)
-description: Indicates whether a token contains a list of restricted security identifiers (SIDs).helpviewer_keywords: ["IsTokenRestricted","IsTokenRestricted function [Security]","_win32_istokenrestricted","security.istokenrestricted","securitybaseapi/IsTokenRestricted"]
+description: Indicates whether a token contains a list of restricted security identifiers (SIDs).
+helpviewer_keywords: ["IsTokenRestricted","IsTokenRestricted function [Security]","_win32_istokenrestricted","security.istokenrestricted","securitybaseapi/IsTokenRestricted"]
 old-location: security\istokenrestricted.htm
 tech.root: SecAuthZ
 ms.assetid: eaa63bb9-3084-4246-b2ab-f913bb7348fb

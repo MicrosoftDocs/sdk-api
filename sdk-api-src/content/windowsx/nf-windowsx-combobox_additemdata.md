@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ComboBox_AddItemData
 title: ComboBox_AddItemData macro (windowsx.h)
-description: Adds item data to the list in a combo box at the specified location. You can use this macro or send the CB_ADDSTRING message explicitly.helpviewer_keywords: ["ComboBox_AddItemData","ComboBox_AddItemData macro [Windows Controls]","_win32_ComboBox_AddItemData","_win32_ComboBox_AddItemData_cpp","controls.ComboBox_AddItemData","controls._win32_ComboBox_AddItemData","windowsx/ComboBox_AddItemData"]
+description: Adds item data to the list in a combo box at the specified location. You can use this macro or send the CB_ADDSTRING message explicitly.
+helpviewer_keywords: ["ComboBox_AddItemData","ComboBox_AddItemData macro [Windows Controls]","_win32_ComboBox_AddItemData","_win32_ComboBox_AddItemData_cpp","controls.ComboBox_AddItemData","controls._win32_ComboBox_AddItemData","windowsx/ComboBox_AddItemData"]
 old-location: controls\ComboBox_AddItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_additemdata.htm

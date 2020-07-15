@@ -1,7 +1,8 @@
 ---
 UID: NF:deviceaccess.CreateDeviceAccessInstance
 title: CreateDeviceAccessInstance function (deviceaccess.h)
-description: Creates the object that's used to access a device. The instantiated object implements the IDeviceIoControl and ICreateDeviceAccessAsync interfaces.helpviewer_keywords: ["CreateDeviceAccessInstance","CreateDeviceAccessInstance function [Device Access Broker API]","deviceaccess.createdeviceaccessinstance","deviceaccess/CreateDeviceAccessInstance"]
+description: Creates the object that's used to access a device. The instantiated object implements the IDeviceIoControl and ICreateDeviceAccessAsync interfaces.
+helpviewer_keywords: ["CreateDeviceAccessInstance","CreateDeviceAccessInstance function [Device Access Broker API]","deviceaccess.createdeviceaccessinstance","deviceaccess/CreateDeviceAccessInstance"]
 old-location: deviceaccess\createdeviceaccessinstance.htm
 tech.root: deviceaccess
 ms.assetid: 082d6297-20ac-4557-8205-0451482a5758

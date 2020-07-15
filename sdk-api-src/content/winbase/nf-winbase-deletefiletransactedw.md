@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.DeleteFileTransactedW
 title: DeleteFileTransactedW function (winbase.h)
-description: Deletes an existing file as a transacted operation.helpviewer_keywords: ["DeleteFileTransacted","DeleteFileTransacted function [Files]","DeleteFileTransactedA","DeleteFileTransactedW","fs.deletefiletransacted","winbase/DeleteFileTransacted","winbase/DeleteFileTransactedA","winbase/DeleteFileTransactedW"]
+description: Deletes an existing file as a transacted operation.
+helpviewer_keywords: ["DeleteFileTransacted","DeleteFileTransacted function [Files]","DeleteFileTransactedA","DeleteFileTransactedW","fs.deletefiletransacted","winbase/DeleteFileTransacted","winbase/DeleteFileTransactedA","winbase/DeleteFileTransactedW"]
 old-location: fs\deletefiletransacted.htm
 tech.root: FileIO
 ms.assetid: e0a6230b-2da1-4746-95fe-80f7b6bae41f
@@ -209,6 +210,10 @@ SMB 3.0 does not support TxF.
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines DeleteFileTransacted as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

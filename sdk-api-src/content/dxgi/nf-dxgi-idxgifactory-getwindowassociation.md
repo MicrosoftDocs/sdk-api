@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGIFactory.GetWindowAssociation
 title: IDXGIFactory::GetWindowAssociation (dxgi.h)
-description: Get the window through which the user controls the transition to and from full screen.helpviewer_keywords: ["GetWindowAssociation","GetWindowAssociation method [DXGI]","GetWindowAssociation method [DXGI]","IDXGIFactory interface","IDXGIFactory interface [DXGI]","GetWindowAssociation method","IDXGIFactory.GetWindowAssociation","IDXGIFactory::GetWindowAssociation","b199d248-a0a8-e257-1b89-68baeb809572","direct3ddxgi.idxgifactory_getwindowassociation","dxgi/IDXGIFactory::GetWindowAssociation"]
+description: Get the window through which the user controls the transition to and from full screen.
+helpviewer_keywords: ["GetWindowAssociation","GetWindowAssociation method [DXGI]","GetWindowAssociation method [DXGI]","IDXGIFactory interface","IDXGIFactory interface [DXGI]","GetWindowAssociation method","IDXGIFactory.GetWindowAssociation","IDXGIFactory::GetWindowAssociation","b199d248-a0a8-e257-1b89-68baeb809572","direct3ddxgi.idxgifactory_getwindowassociation","dxgi/IDXGIFactory::GetWindowAssociation"]
 old-location: direct3ddxgi\idxgifactory_getwindowassociation.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgifactory_getwindowassociation.htm

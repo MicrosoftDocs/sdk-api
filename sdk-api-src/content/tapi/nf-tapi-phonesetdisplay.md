@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.phoneSetDisplay
 title: phoneSetDisplay function (tapi.h)
-description: The phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.helpviewer_keywords: ["_tapi2_phonesetdisplay","phoneSetDisplay","phoneSetDisplay function [TAPI 2.2]","tapi/phoneSetDisplay","tapi2.phonesetdisplay"]
+description: The phoneSetDisplay function causes the specified string to be displayed on the specified open phone device.
+helpviewer_keywords: ["_tapi2_phonesetdisplay","phoneSetDisplay","phoneSetDisplay function [TAPI 2.2]","tapi/phoneSetDisplay","tapi2.phonesetdisplay"]
 old-location: tapi2\phonesetdisplay.htm
 tech.root: Tapi
 ms.assetid: 154efb07-7c4e-47f0-8a14-e2fe404efcb7

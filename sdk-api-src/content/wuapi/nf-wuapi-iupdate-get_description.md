@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdate.get_Description
 title: IUpdate::get_Description (wuapi.h)
-description: Gets the localized description of the update.helpviewer_keywords: ["Description property [Windows Update Agent]","Description property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","Description property","IUpdate.Description","IUpdate.get_Description","IUpdate::Description","IUpdate::get_Description","get_Description","wua.iupdate_description","wuapi/IUpdate::Description","wuapi/IUpdate::get_Description"]
+description: Gets the localized description of the update.
+helpviewer_keywords: ["Description property [Windows Update Agent]","Description property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","Description property","IUpdate.Description","IUpdate.get_Description","IUpdate::Description","IUpdate::get_Description","get_Description","wua.iupdate_description","wuapi/IUpdate::Description","wuapi/IUpdate::get_Description"]
 old-location: wua\iupdate_description.htm
 tech.root: Wua_Sdk
 ms.assetid: 2448c9aa-0e90-4454-b168-c31b36f569af

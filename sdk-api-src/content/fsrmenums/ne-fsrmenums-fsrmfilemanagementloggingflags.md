@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmFileManagementLoggingFlags
 title: FsrmFileManagementLoggingFlags (fsrmenums.h)
-description: Defines the options for logging when running a file management job.helpviewer_keywords: ["FsrmFileManagementLoggingFlags","FsrmFileManagementLoggingFlags enumeration [File Server Resource Manager]","FsrmFileManagementLoggingFlags_Audit","FsrmFileManagementLoggingFlags_Error","FsrmFileManagementLoggingFlags_Information","FsrmFileManagementLoggingFlags_None","fs.fsrmfilemanagementloggingflags","fsrm.fsrmfilemanagementloggingflags","fsrmenums/FsrmFileManagementLoggingFlags","fsrmenums/FsrmFileManagementLoggingFlags_Audit","fsrmenums/FsrmFileManagementLoggingFlags_Error","fsrmenums/FsrmFileManagementLoggingFlags_Information","fsrmenums/FsrmFileManagementLoggingFlags_None"]
+description: Defines the options for logging when running a file management job.
+helpviewer_keywords: ["FsrmFileManagementLoggingFlags","FsrmFileManagementLoggingFlags enumeration [File Server Resource Manager]","FsrmFileManagementLoggingFlags_Audit","FsrmFileManagementLoggingFlags_Error","FsrmFileManagementLoggingFlags_Information","FsrmFileManagementLoggingFlags_None","fs.fsrmfilemanagementloggingflags","fsrm.fsrmfilemanagementloggingflags","fsrmenums/FsrmFileManagementLoggingFlags","fsrmenums/FsrmFileManagementLoggingFlags_Audit","fsrmenums/FsrmFileManagementLoggingFlags_Error","fsrmenums/FsrmFileManagementLoggingFlags_Information","fsrmenums/FsrmFileManagementLoggingFlags_None"]
 old-location: fsrm\fsrmfilemanagementloggingflags.htm
 tech.root: fsrm
 ms.assetid: 8e6e40cb-a513-492b-bf2c-97238eb1d1db

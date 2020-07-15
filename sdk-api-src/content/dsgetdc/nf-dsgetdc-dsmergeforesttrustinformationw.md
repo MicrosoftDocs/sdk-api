@@ -1,7 +1,8 @@
 ---
 UID: NF:dsgetdc.DsMergeForestTrustInformationW
 title: DsMergeForestTrustInformationW function (dsgetdc.h)
-description: Merges the changes from a new forest trust data structure with an old forest trust data structure.helpviewer_keywords: ["DsMergeForestTrustInformationW","DsMergeForestTrustInformationW function [Active Directory]","ad.dsmergeforesttrustinformationw","dsgetdc/DsMergeForestTrustInformationW"]
+description: Merges the changes from a new forest trust data structure with an old forest trust data structure.
+helpviewer_keywords: ["DsMergeForestTrustInformationW","DsMergeForestTrustInformationW function [Active Directory]","ad.dsmergeforesttrustinformationw","dsgetdc/DsMergeForestTrustInformationW"]
 old-location: ad\dsmergeforesttrustinformationw.htm
 tech.root: ad
 ms.assetid: f42e16d0-62b2-49c4-b182-d1e744afe58c

@@ -1,7 +1,8 @@
 ---
 UID: NN:devicetopology.IAudioOutputSelector
 title: IAudioOutputSelector (devicetopology.h)
-description: The IAudioOutputSelector interface provides access to a hardware demultiplexer control (output selector).helpviewer_keywords: ["IAudioOutputSelector","IAudioOutputSelector interface [Core Audio]","IAudioOutputSelector interface [Core Audio]","described","coreaudio.iaudiooutputselector","devicetopology/IAudioOutputSelector"]
+description: The IAudioOutputSelector interface provides access to a hardware demultiplexer control (output selector).
+helpviewer_keywords: ["IAudioOutputSelector","IAudioOutputSelector interface [Core Audio]","IAudioOutputSelector interface [Core Audio]","described","coreaudio.iaudiooutputselector","devicetopology/IAudioOutputSelector"]
 old-location: coreaudio\iaudiooutputselector.htm
 tech.root: CoreAudio
 ms.assetid: 571a44b6-972f-4d75-a31f-0e02cf728764

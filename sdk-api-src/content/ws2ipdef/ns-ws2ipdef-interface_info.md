@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2ipdef._INTERFACE_INFO
 title: INTERFACE_INFO (ws2ipdef.h)
-description: The INTERFACE_INFO structure is used in conjunction with the SIO_GET_INTERFACE_LIST ioctl command to obtain information about an interface IP address.helpviewer_keywords: ["*LPINTERFACE_INFO","IFF_BROADCAST","IFF_LOOPBACK","IFF_MULTICAST","IFF_POINTTOPOINT","IFF_UP","INTERFACE_INFO","INTERFACE_INFO structure [Winsock]","INTERFACE_INFO","FAR * LPINTERFACE_INFO","INTERFACE_INFO","FAR * LPINTERFACE_INFO structure [Winsock]","_win32_interface_info_2","winsock.interface_info_2","ws2ipdef/INTERFACE_INFO","ws2tcpip/INTERFACE_INFO"]
+description: The INTERFACE_INFO structure is used in conjunction with the SIO_GET_INTERFACE_LIST ioctl command to obtain information about an interface IP address.
+helpviewer_keywords: ["*LPINTERFACE_INFO","IFF_BROADCAST","IFF_LOOPBACK","IFF_MULTICAST","IFF_POINTTOPOINT","IFF_UP","INTERFACE_INFO","INTERFACE_INFO structure [Winsock]","INTERFACE_INFO","FAR * LPINTERFACE_INFO","INTERFACE_INFO","FAR * LPINTERFACE_INFO structure [Winsock]","_win32_interface_info_2","winsock.interface_info_2","ws2ipdef/INTERFACE_INFO","ws2tcpip/INTERFACE_INFO"]
 old-location: winsock\interface_info_2.htm
 tech.root: WinSock
 ms.assetid: fe1bf38d-70a7-4f0a-b76a-c0c9443d1782

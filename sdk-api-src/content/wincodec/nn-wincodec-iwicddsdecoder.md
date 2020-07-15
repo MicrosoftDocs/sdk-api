@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICDdsDecoder
 title: IWICDdsDecoder (wincodec.h)
-description: Provides information and functionality specific to the DDS image format.helpviewer_keywords: ["IWICDdsDecoder","IWICDdsDecoder interface [Windows Imaging Component]","IWICDdsDecoder interface [Windows Imaging Component]","described","wic.iwicddsdecoder","wincodec/IWICDdsDecoder"]
+description: Provides information and functionality specific to the DDS image format.
+helpviewer_keywords: ["IWICDdsDecoder","IWICDdsDecoder interface [Windows Imaging Component]","IWICDdsDecoder interface [Windows Imaging Component]","described","wic.iwicddsdecoder","wincodec/IWICDdsDecoder"]
 old-location: wic\iwicddsdecoder.htm
 tech.root: wic
 ms.assetid: 632D1E7B-9C1D-48FB-95B5-1A295FE99577

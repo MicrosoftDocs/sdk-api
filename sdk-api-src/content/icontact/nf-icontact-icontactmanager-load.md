@@ -1,7 +1,8 @@
 ---
 UID: NF:icontact.IContactManager.Load
 title: IContactManager::Load (icontact.h)
-description: Loads an IContact object with the data from the contact referenced by the computer-local contact ID.helpviewer_keywords: ["IContactManager interface [Windows Contacts]","Load method","IContactManager.Load","IContactManager::Load","Load","Load method [Windows Contacts]","Load method [Windows Contacts]","IContactManager interface","_wincontacts_IContactManager_Load","icontact/IContactManager::Load","wincontacts._wincontacts_IContactManager_Load"]
+description: Loads an IContact object with the data from the contact referenced by the computer-local contact ID.
+helpviewer_keywords: ["IContactManager interface [Windows Contacts]","Load method","IContactManager.Load","IContactManager::Load","Load","Load method [Windows Contacts]","Load method [Windows Contacts]","IContactManager interface","_wincontacts_IContactManager_Load","icontact/IContactManager::Load","wincontacts._wincontacts_IContactManager_Load"]
 old-location: wincontacts\_wincontacts_IContactManager_Load.htm
 tech.root: wincontacts
 ms.assetid: d9addc49-72fd-4b87-bf48-a2a09b1161e9

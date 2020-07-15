@@ -1,7 +1,8 @@
 ---
 UID: NF:wsman.WSManCreateShell
 title: WSManCreateShell function (wsman.h)
-description: Creates a shell object.helpviewer_keywords: ["WSManCreateShell","WSManCreateShell function [Windows Remote Management]","winrm.wsmancreateshell","wsman/WSManCreateShell"]
+description: Creates a shell object.
+helpviewer_keywords: ["WSManCreateShell","WSManCreateShell function [Windows Remote Management]","winrm.wsmancreateshell","wsman/WSManCreateShell"]
 old-location: winrm\wsmancreateshell.htm
 tech.root: winrm
 ms.assetid: 901c0a2d-d25f-451c-8d6c-83662f1f1061

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleObject.SetHostNames
 title: IOleObject::SetHostNames (oleidl.h)
-description: Provides an object with the names of its container application and the compound document in which it is embedded.helpviewer_keywords: ["IOleObject interface [COM]","SetHostNames method","IOleObject.SetHostNames","IOleObject::SetHostNames","SetHostNames","SetHostNames method [COM]","SetHostNames method [COM]","IOleObject interface","_ole_ioleobject_sethostnames","com.ioleobject_sethostnames","oleidl/IOleObject::SetHostNames"]
+description: Provides an object with the names of its container application and the compound document in which it is embedded.
+helpviewer_keywords: ["IOleObject interface [COM]","SetHostNames method","IOleObject.SetHostNames","IOleObject::SetHostNames","SetHostNames","SetHostNames method [COM]","SetHostNames method [COM]","IOleObject interface","_ole_ioleobject_sethostnames","com.ioleobject_sethostnames","oleidl/IOleObject::SetHostNames"]
 old-location: com\ioleobject_sethostnames.htm
 tech.root: com
 ms.assetid: 38cccb3d-e198-4996-991b-6c56451d25e3

@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.INameSpaceTreeControlFolderCapabilities
 title: INameSpaceTreeControlFolderCapabilities (shobjidl_core.h)
-description: Exposes a single method that retrieves the status of a folder's System.IsPinnedToNameSpaceTree filtering support.helpviewer_keywords: ["INameSpaceTreeControlFolderCapabilities","INameSpaceTreeControlFolderCapabilities interface [Windows Shell]","INameSpaceTreeControlFolderCapabilities interface [Windows Shell]","described","_shell_INameSpaceTreeControlFolderCapabilities","shell.INameSpaceTreeControlFolderCapabilities","shobjidl_core/INameSpaceTreeControlFolderCapabilities"]
+description: Exposes a single method that retrieves the status of a folder's System.IsPinnedToNameSpaceTree filtering support.
+helpviewer_keywords: ["INameSpaceTreeControlFolderCapabilities","INameSpaceTreeControlFolderCapabilities interface [Windows Shell]","INameSpaceTreeControlFolderCapabilities interface [Windows Shell]","described","_shell_INameSpaceTreeControlFolderCapabilities","shell.INameSpaceTreeControlFolderCapabilities","shobjidl_core/INameSpaceTreeControlFolderCapabilities"]
 old-location: shell\INameSpaceTreeControlFolderCapabilities.htm
 tech.root: shell
 ms.assetid: 2a5580f6-42cb-46c7-9507-a59d36b2cd91

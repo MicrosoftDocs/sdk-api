@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._LOCALGROUP_MEMBERS_INFO_2
 title: LOCALGROUP_MEMBERS_INFO_2 (lmaccess.h)
-description: The LOCALGROUP_MEMBERS_INFO_2 structure contains the security identifier (SID) and account information associated with a local group member.helpviewer_keywords: ["*LPLOCALGROUP_MEMBERS_INFO_2","*PLOCALGROUP_MEMBERS_INFO_2","LOCALGROUP_MEMBERS_INFO_2","LOCALGROUP_MEMBERS_INFO_2 structure [Network Management]","LPLOCALGROUP_MEMBERS_INFO_2","LPLOCALGROUP_MEMBERS_INFO_2 structure pointer [Network Management]","PLOCALGROUP_MEMBERS_INFO_2","PLOCALGROUP_MEMBERS_INFO_2 structure pointer [Network Management]","SidTypeDeletedAccount","SidTypeGroup","SidTypeUnknown","SidTypeUser","SidTypeWellKnownGroup","_win32_localgroup_members_info_2_str","lmaccess/LOCALGROUP_MEMBERS_INFO_2","lmaccess/LPLOCALGROUP_MEMBERS_INFO_2","lmaccess/PLOCALGROUP_MEMBERS_INFO_2","netmgmt.localgroup_members_info_2_str"]
+description: The LOCALGROUP_MEMBERS_INFO_2 structure contains the security identifier (SID) and account information associated with a local group member.
+helpviewer_keywords: ["*LPLOCALGROUP_MEMBERS_INFO_2","*PLOCALGROUP_MEMBERS_INFO_2","LOCALGROUP_MEMBERS_INFO_2","LOCALGROUP_MEMBERS_INFO_2 structure [Network Management]","LPLOCALGROUP_MEMBERS_INFO_2","LPLOCALGROUP_MEMBERS_INFO_2 structure pointer [Network Management]","PLOCALGROUP_MEMBERS_INFO_2","PLOCALGROUP_MEMBERS_INFO_2 structure pointer [Network Management]","SidTypeDeletedAccount","SidTypeGroup","SidTypeUnknown","SidTypeUser","SidTypeWellKnownGroup","_win32_localgroup_members_info_2_str","lmaccess/LOCALGROUP_MEMBERS_INFO_2","lmaccess/LPLOCALGROUP_MEMBERS_INFO_2","lmaccess/PLOCALGROUP_MEMBERS_INFO_2","netmgmt.localgroup_members_info_2_str"]
 old-location: netmgmt\localgroup_members_info_2_str.htm
 tech.root: NetMgmt
 ms.assetid: f5cd6e84-1111-4558-bec4-26af13f21b61

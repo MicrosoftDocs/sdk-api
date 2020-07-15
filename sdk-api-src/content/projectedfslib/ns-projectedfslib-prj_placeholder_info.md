@@ -1,7 +1,8 @@
 ---
 UID: NS:projectedfslib.PRJ_PLACEHOLDER_INFO
 title: PRJ_PLACEHOLDER_INFO (projectedfslib.h)
-description: A buffer of metadata for the placeholder file or directory.helpviewer_keywords: ["PRJ_PLACEHOLDER_INFO","PRJ_PLACEHOLDER_INFO structure","ProjFS.prj_placeholder_info","projectedfslib/PRJ_PLACEHOLDER_INFO"]
+description: A buffer of metadata for the placeholder file or directory.
+helpviewer_keywords: ["PRJ_PLACEHOLDER_INFO","PRJ_PLACEHOLDER_INFO structure","ProjFS.prj_placeholder_info","projectedfslib/PRJ_PLACEHOLDER_INFO"]
 old-location: projfs\prj_placeholder_info.htm
 tech.root: ProjFS
 ms.assetid: 84F510F6-7192-4B0D-A063-CE99B54ED7DD

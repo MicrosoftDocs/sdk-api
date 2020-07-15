@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAllocatorEx.AllocateForStreamEx
 title: IWMReaderAllocatorEx::AllocateForStreamEx (wmsdkidl.h)
-description: The AllocateForStreamEx method allocates a user-created buffer for samples delivered to the IWMReaderCallbackAdvanced::OnStreamSample method.helpviewer_keywords: ["AllocateForStreamEx","AllocateForStreamEx method [windows Media Format]","AllocateForStreamEx method [windows Media Format]","IWMReaderAllocatorEx interface","IWMReaderAllocatorEx interface [windows Media Format]","AllocateForStreamEx method","IWMReaderAllocatorEx.AllocateForStreamEx","IWMReaderAllocatorEx::AllocateForStreamEx","IWMReaderAllocatorExAllocateForStreamEx","wmformat.iwmreaderallocatorex_allocateforstreamex","wmsdkidl/IWMReaderAllocatorEx::AllocateForStreamEx"]
+description: The AllocateForStreamEx method allocates a user-created buffer for samples delivered to the IWMReaderCallbackAdvanced::OnStreamSample method.
+helpviewer_keywords: ["AllocateForStreamEx","AllocateForStreamEx method [windows Media Format]","AllocateForStreamEx method [windows Media Format]","IWMReaderAllocatorEx interface","IWMReaderAllocatorEx interface [windows Media Format]","AllocateForStreamEx method","IWMReaderAllocatorEx.AllocateForStreamEx","IWMReaderAllocatorEx::AllocateForStreamEx","IWMReaderAllocatorExAllocateForStreamEx","wmformat.iwmreaderallocatorex_allocateforstreamex","wmsdkidl/IWMReaderAllocatorEx::AllocateForStreamEx"]
 old-location: wmformat\iwmreaderallocatorex_allocateforstreamex.htm
 tech.root: wmformat
 ms.assetid: bb12f0e1-dc9c-447e-a28d-30c45eb95d09

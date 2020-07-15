@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1BlendTransform
 title: ID2D1BlendTransform (d2d1effectauthor.h)
-description: Provides methods to allow a blend operation to be inserted into a transform graph.helpviewer_keywords: ["ID2D1BlendTransform","ID2D1BlendTransform interface [Direct2D]","ID2D1BlendTransform interface [Direct2D]","described","d2d1effectauthor/ID2D1BlendTransform","direct2d.id2d1blendtransform"]
+description: Provides methods to allow a blend operation to be inserted into a transform graph.
+helpviewer_keywords: ["ID2D1BlendTransform","ID2D1BlendTransform interface [Direct2D]","ID2D1BlendTransform interface [Direct2D]","described","d2d1effectauthor/ID2D1BlendTransform","direct2d.id2d1blendtransform"]
 old-location: direct2d\id2d1blendtransform.htm
 tech.root: Direct2D
 ms.assetid: 0DC46758-6005-4A33-9539-9C95CF8CFB6A

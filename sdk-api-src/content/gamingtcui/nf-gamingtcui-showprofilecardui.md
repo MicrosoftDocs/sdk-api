@@ -1,7 +1,8 @@
 ---
 UID: NF:gamingtcui.ShowProfileCardUI
 title: ShowProfileCardUI function (gamingtcui.h)
-description: Do not use. This API is only supported for Xbox developers.helpviewer_keywords: ["ShowProfileCardUI","ShowProfileCardUI function","gamingtcui/ShowProfileCardUI","tcui.showprofilecardui"]
+description: Do not use. This API is only supported for Xbox developers.
+helpviewer_keywords: ["ShowProfileCardUI","ShowProfileCardUI function","gamingtcui/ShowProfileCardUI","tcui.showprofilecardui"]
 old-location: tcui\showprofilecardui.htm
 tech.root: tcui
 ms.assetid: 1BFC3B4B-4E48-4FAF-8B52-6E04EB72A064

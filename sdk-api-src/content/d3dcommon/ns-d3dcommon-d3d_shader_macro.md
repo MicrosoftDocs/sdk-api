@@ -1,7 +1,8 @@
 ---
 UID: NS:d3dcommon._D3D_SHADER_MACRO
 title: D3D_SHADER_MACRO (d3dcommon.h)
-description: Defines a shader macro.helpviewer_keywords: ["*LPD3D_SHADER_MACRO","D3D_SHADER_MACRO","D3D_SHADER_MACRO structure [Direct3D 11]","LPD3D_SHADER_MACRO","LPD3D_SHADER_MACRO structure pointer [Direct3D 11]","d3dcommon/D3D_SHADER_MACRO","d3dcommon/LPD3D_SHADER_MACRO","direct3d11.d3d_shader_macro"]
+description: Defines a shader macro.
+helpviewer_keywords: ["*LPD3D_SHADER_MACRO","D3D_SHADER_MACRO","D3D_SHADER_MACRO structure [Direct3D 11]","LPD3D_SHADER_MACRO","LPD3D_SHADER_MACRO structure pointer [Direct3D 11]","d3dcommon/D3D_SHADER_MACRO","d3dcommon/LPD3D_SHADER_MACRO","direct3d11.d3d_shader_macro"]
 old-location: direct3d11\d3d_shader_macro.htm
 tech.root: direct3d11
 ms.assetid: 8cfe0b3c-5ce8-4d59-8fd9-0fdf200c9552

@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_DigitalDemodulator2.get_GuardInterval
 title: IBDA_DigitalDemodulator2::get_GuardInterval (bdaiface.h)
-description: Gets the demodulator's guard interval.helpviewer_keywords: ["IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies]","get_GuardInterval method","IBDA_DigitalDemodulator2.get_GuardInterval","IBDA_DigitalDemodulator2::get_GuardInterval","bdaiface/IBDA_DigitalDemodulator2::get_GuardInterval","get_GuardInterval","get_GuardInterval method [Microsoft TV Technologies]","get_GuardInterval method [Microsoft TV Technologies]","IBDA_DigitalDemodulator2 interface","mstv.ibda_digitaldemodulator2_get_guardinterval"]
+description: Gets the demodulator's guard interval.
+helpviewer_keywords: ["IBDA_DigitalDemodulator2 interface [Microsoft TV Technologies]","get_GuardInterval method","IBDA_DigitalDemodulator2.get_GuardInterval","IBDA_DigitalDemodulator2::get_GuardInterval","bdaiface/IBDA_DigitalDemodulator2::get_GuardInterval","get_GuardInterval","get_GuardInterval method [Microsoft TV Technologies]","get_GuardInterval method [Microsoft TV Technologies]","IBDA_DigitalDemodulator2 interface","mstv.ibda_digitaldemodulator2_get_guardinterval"]
 old-location: mstv\ibda_digitaldemodulator2_get_guardinterval.htm
 tech.root: mstv
 ms.assetid: e122fac7-bad8-4fbf-bf7d-ffbfad75a5d8

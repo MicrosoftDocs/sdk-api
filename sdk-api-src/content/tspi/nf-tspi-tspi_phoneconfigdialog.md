@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_phoneConfigDialog
 title: TSPI_phoneConfigDialog function (tspi.h)
-description: The TSPI_phoneConfigDialog function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_phoneConfigDialog.helpviewer_keywords: ["TSPI_phoneConfigDialog","TSPI_phoneConfigDialog function [TAPI 2.2]","_tspi_tspi_phoneconfigdialog","tspi.tspi_phoneconfigdialog","tspi/TSPI_phoneConfigDialog"]
+description: The TSPI_phoneConfigDialog function is obsolete. TAPI version 1.4 or earlier service providers can implement this TSPI function. TAPI version 2.0 or later TSPs implement TUISPI_phoneConfigDialog.
+helpviewer_keywords: ["TSPI_phoneConfigDialog","TSPI_phoneConfigDialog function [TAPI 2.2]","_tspi_tspi_phoneconfigdialog","tspi.tspi_phoneconfigdialog","tspi/TSPI_phoneConfigDialog"]
 old-location: tspi\tspi_phoneconfigdialog.htm
 tech.root: Tapi
 ms.assetid: cce9460c-0914-4f02-a6a4-efb7f43ed22a

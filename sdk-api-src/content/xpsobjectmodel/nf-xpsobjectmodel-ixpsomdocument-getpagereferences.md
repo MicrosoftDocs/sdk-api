@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMDocument.GetPageReferences
 title: IXpsOMDocument::GetPageReferences (xpsobjectmodel.h)
-description: Gets the IXpsOMPageReferenceCollection interface of the document, which allows virtualized access to its pages.helpviewer_keywords: ["GetPageReferences","GetPageReferences method [XPS Documents and Packaging]","GetPageReferences method [XPS Documents and Packaging]","IXpsOMDocument interface","IXpsOMDocument interface [XPS Documents and Packaging]","GetPageReferences method","IXpsOMDocument.GetPageReferences","IXpsOMDocument::GetPageReferences","xps.ixpsomdocument_getpagereferences","xpsobjectmodel/IXpsOMDocument::GetPageReferences"]
+description: Gets the IXpsOMPageReferenceCollection interface of the document, which allows virtualized access to its pages.
+helpviewer_keywords: ["GetPageReferences","GetPageReferences method [XPS Documents and Packaging]","GetPageReferences method [XPS Documents and Packaging]","IXpsOMDocument interface","IXpsOMDocument interface [XPS Documents and Packaging]","GetPageReferences method","IXpsOMDocument.GetPageReferences","IXpsOMDocument::GetPageReferences","xps.ixpsomdocument_getpagereferences","xpsobjectmodel/IXpsOMDocument::GetPageReferences"]
 old-location: xps\ixpsomdocument_getpagereferences.htm
 tech.root: printdocs
 ms.assetid: 65e8b20b-6a6b-4d24-86a1-b9d1833caa3c

@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.CloseClusterNode
 title: CloseClusterNode function (clusapi.h)
-description: Closes a node handle.helpviewer_keywords: ["CloseClusterNode","CloseClusterNode function [Failover Cluster]","PCLUSAPI_CLOSE_CLUSTER_NODE","PCLUSAPI_CLOSE_CLUSTER_NODE function [Failover Cluster]","_wolf_closeclusternode","clusapi/CloseClusterNode","clusapi/PCLUSAPI_CLOSE_CLUSTER_NODE","mscs.closeclusternode"]
+description: Closes a node handle.
+helpviewer_keywords: ["CloseClusterNode","CloseClusterNode function [Failover Cluster]","PCLUSAPI_CLOSE_CLUSTER_NODE","PCLUSAPI_CLOSE_CLUSTER_NODE function [Failover Cluster]","_wolf_closeclusternode","clusapi/CloseClusterNode","clusapi/PCLUSAPI_CLOSE_CLUSTER_NODE","mscs.closeclusternode"]
 old-location: mscs\closeclusternode.htm
 tech.root: MsCS
 ms.assetid: e2d90b7e-d181-48b6-a891-b885c24a15ea

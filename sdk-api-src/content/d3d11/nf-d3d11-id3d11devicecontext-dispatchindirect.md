@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.DispatchIndirect
 title: ID3D11DeviceContext::DispatchIndirect (d3d11.h)
-description: Execute a command list over one or more thread groups.helpviewer_keywords: ["4aaa5960-b4f6-bccf-2256-435d0fef6be6","DispatchIndirect","DispatchIndirect method [Direct3D 11]","DispatchIndirect method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","DispatchIndirect method","ID3D11DeviceContext.DispatchIndirect","ID3D11DeviceContext::DispatchIndirect","d3d11/ID3D11DeviceContext::DispatchIndirect","direct3d11.id3d11devicecontext_dispatchindirect"]
+description: Execute a command list over one or more thread groups.
+helpviewer_keywords: ["4aaa5960-b4f6-bccf-2256-435d0fef6be6","DispatchIndirect","DispatchIndirect method [Direct3D 11]","DispatchIndirect method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","DispatchIndirect method","ID3D11DeviceContext.DispatchIndirect","ID3D11DeviceContext::DispatchIndirect","d3d11/ID3D11DeviceContext::DispatchIndirect","direct3d11.id3d11devicecontext_dispatchindirect"]
 old-location: direct3d11\id3d11devicecontext_dispatchindirect.htm
 tech.root: direct3d11
 ms.assetid: bb8840f5-ae4b-42d6-b51d-6844d0b18074

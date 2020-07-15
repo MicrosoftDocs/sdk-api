@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFactory.CreateFontFileReference
 title: IDWriteFactory::CreateFontFileReference (dwrite.h)
-description: Creates a font file reference object from a local font file.helpviewer_keywords: ["CreateFontFileReference","CreateFontFileReference method [Direct Write]","CreateFontFileReference method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateFontFileReference method","IDWriteFactory.CreateFontFileReference","IDWriteFactory::CreateFontFileReference","directwrite.IDWriteFactory_CreateFontFileReference","dwrite/IDWriteFactory::CreateFontFileReference"]
+description: Creates a font file reference object from a local font file.
+helpviewer_keywords: ["CreateFontFileReference","CreateFontFileReference method [Direct Write]","CreateFontFileReference method [Direct Write]","IDWriteFactory interface","IDWriteFactory interface [Direct Write]","CreateFontFileReference method","IDWriteFactory.CreateFontFileReference","IDWriteFactory::CreateFontFileReference","directwrite.IDWriteFactory_CreateFontFileReference","dwrite/IDWriteFactory::CreateFontFileReference"]
 old-location: directwrite\IDWriteFactory_CreateFontFileReference.htm
 tech.root: DirectWrite
 ms.assetid: ec67407d-e19b-4135-83ff-f3115e2da90c

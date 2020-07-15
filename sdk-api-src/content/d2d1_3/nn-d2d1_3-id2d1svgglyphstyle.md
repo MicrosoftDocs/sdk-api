@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1_3.ID2D1SvgGlyphStyle
 title: ID2D1SvgGlyphStyle (d2d1_3.h)
-description: This object supplies the values for context-fill, context-stroke, and context-value that are used when rendering SVG glyphs.helpviewer_keywords: ["ID2D1SvgGlyphStyle","ID2D1SvgGlyphStyle interface [Direct2D]","ID2D1SvgGlyphStyle interface [Direct2D]","described","d2d1_3/ID2D1SvgGlyphStyle","direct2d.id2d1svgglyphstyle"]
+description: This object supplies the values for context-fill, context-stroke, and context-value that are used when rendering SVG glyphs.
+helpviewer_keywords: ["ID2D1SvgGlyphStyle","ID2D1SvgGlyphStyle interface [Direct2D]","ID2D1SvgGlyphStyle interface [Direct2D]","described","d2d1_3/ID2D1SvgGlyphStyle","direct2d.id2d1svgglyphstyle"]
 old-location: direct2d\id2d1svgglyphstyle.htm
 tech.root: Direct2D
 ms.assetid: FE01771A-D82A-4610-8014-E0C0C0C5402E

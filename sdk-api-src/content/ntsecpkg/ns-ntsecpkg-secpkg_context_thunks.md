@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecpkg._SECPKG_CONTEXT_THUNKS
 title: SECPKG_CONTEXT_THUNKS (ntsecpkg.h)
-description: The SECPKG_CONTEXT_THUNKS structure contains information about QueryContextAttributes (General) calls to be executed in LSA mode.This structure is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.helpviewer_keywords: ["*PSECPKG_CONTEXT_THUNKS","PSECPKG_CONTEXT_THUNKS","PSECPKG_CONTEXT_THUNKS structure pointer [Security]","SECPKG_CONTEXT_THUNKS","SECPKG_CONTEXT_THUNKS structure [Security]","_ssp_secpkg_context_thunks","ntsecpkg/PSECPKG_CONTEXT_THUNKS","ntsecpkg/SECPKG_CONTEXT_THUNKS","security.secpkg_context_thunks"]
+description: The SECPKG_CONTEXT_THUNKS structure contains information about QueryContextAttributes (General) calls to be executed in LSA mode.This structure is used by the SpGetExtendedInformation and SpSetExtendedInformation functions.
+helpviewer_keywords: ["*PSECPKG_CONTEXT_THUNKS","PSECPKG_CONTEXT_THUNKS","PSECPKG_CONTEXT_THUNKS structure pointer [Security]","SECPKG_CONTEXT_THUNKS","SECPKG_CONTEXT_THUNKS structure [Security]","_ssp_secpkg_context_thunks","ntsecpkg/PSECPKG_CONTEXT_THUNKS","ntsecpkg/SECPKG_CONTEXT_THUNKS","security.secpkg_context_thunks"]
 old-location: security\secpkg_context_thunks.htm
 tech.root: SecAuthN
 ms.assetid: 66604eaf-37f1-4c46-a62a-d8c821ad9039

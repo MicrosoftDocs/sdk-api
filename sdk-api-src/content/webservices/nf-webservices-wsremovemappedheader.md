@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsRemoveMappedHeader
 title: WsRemoveMappedHeader function (webservices.h)
-description: Removes all instances of a mapped header from the message.helpviewer_keywords: ["WsRemoveMappedHeader","WsRemoveMappedHeader function [Web Services for Windows]","webservices/WsRemoveMappedHeader","wsw.wsremovemappedheader"]
+description: Removes all instances of a mapped header from the message.
+helpviewer_keywords: ["WsRemoveMappedHeader","WsRemoveMappedHeader function [Web Services for Windows]","webservices/WsRemoveMappedHeader","wsw.wsremovemappedheader"]
 old-location: wsw\wsremovemappedheader.htm
 tech.root: wsw
 ms.assetid: aa662c92-4fb4-47af-b260-a3dedf4c6c9a

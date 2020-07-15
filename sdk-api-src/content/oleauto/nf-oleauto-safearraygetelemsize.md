@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArrayGetElemsize
 title: SafeArrayGetElemsize function (oleauto.h)
-description: Gets the size of an element.helpviewer_keywords: ["SafeArrayGetElemsize","SafeArrayGetElemsize function [Automation]","_oa96_SafeArrayGetElemsize","automat.safearraygetelemsize","oleauto/SafeArrayGetElemsize"]
+description: Gets the size of an element.
+helpviewer_keywords: ["SafeArrayGetElemsize","SafeArrayGetElemsize function [Automation]","_oa96_SafeArrayGetElemsize","automat.safearraygetelemsize","oleauto/SafeArrayGetElemsize"]
 old-location: automat\safearraygetelemsize.htm
 tech.root: automat
 ms.assetid: 27bd4a3f-0e9d-45f7-ad7c-0c0b59579dd0

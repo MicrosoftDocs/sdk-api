@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.DequeueUmsCompletionListItems
 title: DequeueUmsCompletionListItems function (winbase.h)
-description: Retrieves user-mode scheduling (UMS) worker threads from the specified UMS completion list.helpviewer_keywords: ["DequeueUmsCompletionListItems","DequeueUmsCompletionListItems function","base.dequeueumscompletionlistitems","winbase/DequeueUmsCompletionListItems"]
+description: Retrieves user-mode scheduling (UMS) worker threads from the specified UMS completion list.
+helpviewer_keywords: ["DequeueUmsCompletionListItems","DequeueUmsCompletionListItems function","base.dequeueumscompletionlistitems","winbase/DequeueUmsCompletionListItems"]
 old-location: base\dequeueumscompletionlistitems.htm
 tech.root: ProcThread
 ms.assetid: 91499eb9-9fc5-4135-95f6-1bced78f1e07

@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIFileRelease
 title: AVIFileRelease function (vfw.h)
-description: The AVIFileRelease function decrements the reference count of an AVI file interface handle and closes the file if the count reaches zero.helpviewer_keywords: ["AVIFileRelease","AVIFileRelease function [Windows Multimedia]","_win32_AVIFileRelease","multimedia.avifilerelease","vfw/AVIFileRelease"]
+description: The AVIFileRelease function decrements the reference count of an AVI file interface handle and closes the file if the count reaches zero.
+helpviewer_keywords: ["AVIFileRelease","AVIFileRelease function [Windows Multimedia]","_win32_AVIFileRelease","multimedia.avifilerelease","vfw/AVIFileRelease"]
 old-location: multimedia\avifilerelease.htm
 tech.root: Multimedia
 ms.assetid: c2f94ca2-b46c-48b0-9c31-92cf2cf75be3

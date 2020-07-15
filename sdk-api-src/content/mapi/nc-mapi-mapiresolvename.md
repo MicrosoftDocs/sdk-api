@@ -1,7 +1,8 @@
 ---
 UID: NC:mapi.MAPIRESOLVENAME
 title: MAPIRESOLVENAME (mapi.h)
-description: The MAPIResolveName function transforms a message recipient's name as entered by a user to an unambiguous address list entry.helpviewer_keywords: ["MAPIResolveName","MAPIResolveName callback","MAPIResolveName callback function","MAPI_AB_NOMODIFY","MAPI_DIALOG","MAPI_LOGON_UI","MAPI_NEW_SESSION","mapi.mapiresolvename","mapi/MAPIResolveName"]
+description: The MAPIResolveName function transforms a message recipient's name as entered by a user to an unambiguous address list entry.
+helpviewer_keywords: ["MAPIResolveName","MAPIResolveName callback","MAPIResolveName callback function","MAPI_AB_NOMODIFY","MAPI_DIALOG","MAPI_LOGON_UI","MAPI_NEW_SESSION","mapi.mapiresolvename","mapi/MAPIResolveName"]
 old-location: mapi\mapiresolvename.htm
 tech.root: WindowsMAPI
 ms.assetid: c834ea40-62c6-44a8-b0e1-f569a92b4c83

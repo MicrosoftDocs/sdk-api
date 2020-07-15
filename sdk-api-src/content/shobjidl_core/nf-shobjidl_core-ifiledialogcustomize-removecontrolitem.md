@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.RemoveControlItem
 title: IFileDialogCustomize::RemoveControlItem (shobjidl_core.h)
-description: Removes an item from a container control in the dialog.helpviewer_keywords: ["IFileDialogCustomize interface [Windows Shell]","RemoveControlItem method","IFileDialogCustomize.RemoveControlItem","IFileDialogCustomize::RemoveControlItem","RemoveControlItem","RemoveControlItem method [Windows Shell]","RemoveControlItem method [Windows Shell]","IFileDialogCustomize interface","shell.IFileDialogCustomize_RemoveControlItem","shell_IFileDialogCustomize_RemoveControlItem","shobjidl_core/IFileDialogCustomize::RemoveControlItem"]
+description: Removes an item from a container control in the dialog.
+helpviewer_keywords: ["IFileDialogCustomize interface [Windows Shell]","RemoveControlItem method","IFileDialogCustomize.RemoveControlItem","IFileDialogCustomize::RemoveControlItem","RemoveControlItem","RemoveControlItem method [Windows Shell]","RemoveControlItem method [Windows Shell]","IFileDialogCustomize interface","shell.IFileDialogCustomize_RemoveControlItem","shell_IFileDialogCustomize_RemoveControlItem","shobjidl_core/IFileDialogCustomize::RemoveControlItem"]
 old-location: shell\IFileDialogCustomize_RemoveControlItem.htm
 tech.root: shell
 ms.assetid: 190aaeba-817d-421c-a356-157f3ae7d2e1

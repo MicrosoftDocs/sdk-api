@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.ICInstall
 title: ICInstall function (vfw.h)
-description: The ICInstall function installs a new compressor or decompressor.helpviewer_keywords: ["ICInstall","ICInstall function [Windows Multimedia]","_win32_ICInstall","multimedia.icinstall","vfw/ICInstall"]
+description: The ICInstall function installs a new compressor or decompressor.
+helpviewer_keywords: ["ICInstall","ICInstall function [Windows Multimedia]","_win32_ICInstall","multimedia.icinstall","vfw/ICInstall"]
 old-location: multimedia\icinstall.htm
 tech.root: Multimedia
 ms.assetid: 23bbc186-3ef9-479a-94f9-a97269cf6dbc

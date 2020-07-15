@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_RESPONSE_INFO
 title: HTTP_RESPONSE_INFO (http.h)
-description: Extends the HTTP_RESPONSE structure with additional information for the response.helpviewer_keywords: ["*PHTTP_RESPONSE_INFO","*PHTTP_RESPONSE_INFO structure [HTTP]","HTTP_RESPONSE_INFO","HTTP_RESPONSE_INFO structure [HTTP]","http.http_response_info","http/*PHTTP_RESPONSE_INFO","http/HTTP_RESPONSE_INFO"]
+description: Extends the HTTP_RESPONSE structure with additional information for the response.
+helpviewer_keywords: ["*PHTTP_RESPONSE_INFO","*PHTTP_RESPONSE_INFO structure [HTTP]","HTTP_RESPONSE_INFO","HTTP_RESPONSE_INFO structure [HTTP]","http.http_response_info","http/*PHTTP_RESPONSE_INFO","http/HTTP_RESPONSE_INFO"]
 old-location: http\http_response_info.htm
 tech.root: http
 ms.assetid: 29422116-0a33-4553-98aa-785bb926dee0

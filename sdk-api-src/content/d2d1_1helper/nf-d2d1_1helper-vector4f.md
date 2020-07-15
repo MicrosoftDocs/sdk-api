@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1helper.Vector4F
 title: Vector4F function (d2d1_1helper.h)
-description: Returns a filled D2D1_VECTOR_4F structure.helpviewer_keywords: ["Vector4F","Vector4F function [Direct2D]","d2d1_1helper/Vector4F","direct2d.vector4f"]
+description: Returns a filled D2D1_VECTOR_4F structure.
+helpviewer_keywords: ["Vector4F","Vector4F function [Direct2D]","d2d1_1helper/Vector4F","direct2d.vector4f"]
 old-location: direct2d\vector4f.htm
 tech.root: Direct2D
 ms.assetid: 0664EEFB-E3F7-4393-A595-D2BEF74E0492

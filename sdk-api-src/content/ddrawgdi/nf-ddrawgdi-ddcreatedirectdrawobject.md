@@ -1,7 +1,8 @@
 ---
 UID: NF:ddrawgdi.DdCreateDirectDrawObject
 title: DdCreateDirectDrawObject function (ddrawgdi.h)
-description: Wrapper for the NtGdiDdCreateDirectDrawObject function and creates a kernel-side representation of the Microsoft DirectDraw object.helpviewer_keywords: ["DdCreateDirectDrawObject","DdCreateDirectDrawObject function [Windows API]","GdiEntry1","_dxgkernel_ddcreatedirectdrawobject","ddrawgdi/DdCreateDirectDrawObject","ddrawgdi/GdiEntry1","winprog._dxgkernel_ddcreatedirectdrawobject","winui._dxgkernel_ddcreatedirectdrawobject"]
+description: Wrapper for the NtGdiDdCreateDirectDrawObject function and creates a kernel-side representation of the Microsoft DirectDraw object.
+helpviewer_keywords: ["DdCreateDirectDrawObject","DdCreateDirectDrawObject function [Windows API]","GdiEntry1","_dxgkernel_ddcreatedirectdrawobject","ddrawgdi/DdCreateDirectDrawObject","ddrawgdi/GdiEntry1","winprog._dxgkernel_ddcreatedirectdrawobject","winui._dxgkernel_ddcreatedirectdrawobject"]
 old-location: winprog\_dxgkernel_ddcreatedirectdrawobject.htm
 tech.root: DevNotes
 ms.assetid: VS|winui|~\winui\windowsuserinterface\lowlevelclientsupport\graphics\ddcreatedirectdrawobject.htm

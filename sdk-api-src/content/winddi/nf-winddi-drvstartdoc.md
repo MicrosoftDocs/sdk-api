@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvStartDoc
 title: DrvStartDoc function (winddi.h)
-description: The DrvStartDoc function is called by GDI when it is ready to start sending a document to the driver for rendering.helpviewer_keywords: ["DrvStartDoc","DrvStartDoc function [Display Devices]","ddifncs_18494fde-3744-4ade-a245-f312b1fc4b48.xml","display.drvstartdoc","winddi/DrvStartDoc"]
+description: The DrvStartDoc function is called by GDI when it is ready to start sending a document to the driver for rendering.
+helpviewer_keywords: ["DrvStartDoc","DrvStartDoc function [Display Devices]","ddifncs_18494fde-3744-4ade-a245-f312b1fc4b48.xml","display.drvstartdoc","winddi/DrvStartDoc"]
 old-location: display\drvstartdoc.htm
 tech.root: display
 ms.assetid: f73adc24-2e61-4b62-9d38-12a23b62ed01

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetMenuCheckMarkDimensions
 title: GetMenuCheckMarkDimensions function (winuser.h)
-description: Retrieves the dimensions of the default check-mark bitmap.helpviewer_keywords: ["GetMenuCheckMarkDimensions","GetMenuCheckMarkDimensions function [Menus and Other Resources]","_win32_GetMenuCheckMarkDimensions","_win32_getmenucheckmarkdimensions_cpp","menurc.getmenucheckmarkdimensions","winui._win32_getmenucheckmarkdimensions","winuser/GetMenuCheckMarkDimensions"]
+description: Retrieves the dimensions of the default check-mark bitmap.
+helpviewer_keywords: ["GetMenuCheckMarkDimensions","GetMenuCheckMarkDimensions function [Menus and Other Resources]","_win32_GetMenuCheckMarkDimensions","_win32_getmenucheckmarkdimensions_cpp","menurc.getmenucheckmarkdimensions","winui._win32_getmenucheckmarkdimensions","winuser/GetMenuCheckMarkDimensions"]
 old-location: menurc\getmenucheckmarkdimensions.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenucheckmarkdimensions.htm

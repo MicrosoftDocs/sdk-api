@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.get_EnumerationDepth
 title: ISearchRoot::get_EnumerationDepth (searchapi.h)
-description: Gets the enumeration depth for this search root.helpviewer_keywords: ["ISearchRoot interface [search]","get_EnumerationDepth method","ISearchRoot.get_EnumerationDepth","ISearchRoot::get_EnumerationDepth","_search_ISearchRoot_get_EnumerationDepth","get_EnumerationDepth","get_EnumerationDepth method [search]","get_EnumerationDepth method [search]","ISearchRoot interface","search._search_ISearchRoot_get_EnumerationDepth","searchapi/ISearchRoot::get_EnumerationDepth"]
+description: Gets the enumeration depth for this search root.
+helpviewer_keywords: ["ISearchRoot interface [search]","get_EnumerationDepth method","ISearchRoot.get_EnumerationDepth","ISearchRoot::get_EnumerationDepth","_search_ISearchRoot_get_EnumerationDepth","get_EnumerationDepth","get_EnumerationDepth method [search]","get_EnumerationDepth method [search]","ISearchRoot interface","search._search_ISearchRoot_get_EnumerationDepth","searchapi/ISearchRoot::get_EnumerationDepth"]
 old-location: search\_search_ISearchRoot_get_EnumerationDepth.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\get_enumerationdepth.htm
@@ -77,10 +78,5 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-The CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line 
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line 
 options for Crawl Scope Manager (CSM) indexing operations.
-
-
-

@@ -1,7 +1,8 @@
 ---
 UID: NE:rtscom.RealTimeStylusLockType
 title: RealTimeStylusLockType (rtscom.h)
-description: Specifies the locks within the RealTimeStylus Class object that protect the RealTimeStylus Class object's members and properties from modification.helpviewer_keywords: ["RTSLT_AsyncEventLock","RTSLT_AsyncObjLock","RTSLT_ExcludeCallback","RTSLT_ObjLock","RTSLT_SyncEventLock","RTSLT_SyncObjLock","RealTimeStylusLockType","RealTimeStylusLockType enumeration [Tablet PC]","d472b588-b208-4665-9364-f2c92fe09bcd","rtscom/RTSLT_AsyncEventLock","rtscom/RTSLT_AsyncObjLock","rtscom/RTSLT_ExcludeCallback","rtscom/RTSLT_ObjLock","rtscom/RTSLT_SyncEventLock","rtscom/RTSLT_SyncObjLock","rtscom/RealTimeStylusLockType","tablet.realtimestyluslocktype"]
+description: Specifies the locks within the RealTimeStylus Class object that protect the RealTimeStylus Class object's members and properties from modification.
+helpviewer_keywords: ["RTSLT_AsyncEventLock","RTSLT_AsyncObjLock","RTSLT_ExcludeCallback","RTSLT_ObjLock","RTSLT_SyncEventLock","RTSLT_SyncObjLock","RealTimeStylusLockType","RealTimeStylusLockType enumeration [Tablet PC]","d472b588-b208-4665-9364-f2c92fe09bcd","rtscom/RTSLT_AsyncEventLock","rtscom/RTSLT_AsyncObjLock","rtscom/RTSLT_ExcludeCallback","rtscom/RTSLT_ObjLock","rtscom/RTSLT_SyncEventLock","rtscom/RTSLT_SyncObjLock","rtscom/RealTimeStylusLockType","tablet.realtimestyluslocktype"]
 old-location: tablet\realtimestyluslocktype.htm
 tech.root: tablet
 ms.assetid: d472b588-b208-4665-9364-f2c92fe09bcd

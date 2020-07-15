@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmSubLayerDeleteByKey0
 title: FwpmSubLayerDeleteByKey0 function (fwpmu.h)
-description: Deletes a sublayer from the system by its key.helpviewer_keywords: ["FwpmSubLayerDeleteByKey0","FwpmSubLayerDeleteByKey0 function [Filtering]","fwp.fwpmsublayerdeletebykey0_func","fwpmu/FwpmSubLayerDeleteByKey0"]
+description: Deletes a sublayer from the system by its key.
+helpviewer_keywords: ["FwpmSubLayerDeleteByKey0","FwpmSubLayerDeleteByKey0 function [Filtering]","fwp.fwpmsublayerdeletebykey0_func","fwpmu/FwpmSubLayerDeleteByKey0"]
 old-location: fwp\fwpmsublayerdeletebykey0_func.htm
 tech.root: fwp
 ms.assetid: 4aa238a6-1a47-4fdc-b02b-f10cf0e90040

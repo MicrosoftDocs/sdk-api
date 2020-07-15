@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_UDFRevision
 title: IFileSystemImage::get_UDFRevision (imapi2fs.h)
-description: Retrieves the UDF revision level of the imported file system image.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_UDFRevision method","IFileSystemImage.get_UDFRevision","IFileSystemImage::get_UDFRevision","get_UDFRevision","get_UDFRevision method [IMAPI]","get_UDFRevision method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_udfrevision","imapi2fs/IFileSystemImage::get_UDFRevision"]
+description: Retrieves the UDF revision level of the imported file system image.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_UDFRevision method","IFileSystemImage.get_UDFRevision","IFileSystemImage::get_UDFRevision","get_UDFRevision","get_UDFRevision method [IMAPI]","get_UDFRevision method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_udfrevision","imapi2fs/IFileSystemImage::get_UDFRevision"]
 old-location: imapi\ifilesystemimage_get_udfrevision.htm
 tech.root: imapi
 ms.assetid: c854a8db-730a-42a3-b50c-fb8fec271b57

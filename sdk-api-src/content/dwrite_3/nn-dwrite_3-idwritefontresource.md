@@ -1,7 +1,8 @@
 ---
 UID: NN:dwrite_3.IDWriteFontResource
 title: IDWriteFontResource
-description: Provides axis information for a font resource, and is used to create specific font face instances.helpviewer_keywords: ["IDWriteFontResource","IDWriteFontResource interface [Direct Write]","IDWriteFontResource interface [Direct Write]","described","directwrite.idwritefontresource","dwrite_3/IDWriteFontResource"]
+description: Provides axis information for a font resource, and is used to create specific font face instances.
+helpviewer_keywords: ["IDWriteFontResource","IDWriteFontResource interface [Direct Write]","IDWriteFontResource interface [Direct Write]","described","directwrite.idwritefontresource","dwrite_3/IDWriteFontResource"]
 tech.root: DirectWrite
 ms.date: 09/13/2019
 ms.keywords: IDWriteFontResource, IDWriteFontResource interface [Direct Write], IDWriteFontResource interface [Direct Write],described, directwrite.idwritefontresource, dwrite_3/IDWriteFontResource

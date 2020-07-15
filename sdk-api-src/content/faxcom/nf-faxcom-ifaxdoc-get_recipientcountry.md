@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxDoc.get_RecipientCountry
 title: IFaxDoc::get_RecipientCountry (faxcom.h)
-description: Sets or retrieves the RecipientCountry property of a FaxDoc object. The RecipientCountry property is a null-terminated string that contains the country/region of the recipient of the fax transmission.helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientCountry property","IFaxDoc.RecipientCountry","IFaxDoc.get_RecipientCountry","IFaxDoc::RecipientCountry","IFaxDoc::get_RecipientCountry","IFaxDoc::put_RecipientCountry","RecipientCountry property [Fax Service]","RecipientCountry property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipientcountry","fax._mfax_ifaxdoc_get_recipientcountry","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcountry_cpp","faxcom/IFaxDoc::RecipientCountry","faxcom/IFaxDoc::get_RecipientCountry","faxcom/IFaxDoc::put_RecipientCountry","get_RecipientCountry"]
+description: Sets or retrieves the RecipientCountry property of a FaxDoc object. The RecipientCountry property is a null-terminated string that contains the country/region of the recipient of the fax transmission.
+helpviewer_keywords: ["IFaxDoc interface [Fax Service]","RecipientCountry property","IFaxDoc.RecipientCountry","IFaxDoc.get_RecipientCountry","IFaxDoc::RecipientCountry","IFaxDoc::get_RecipientCountry","IFaxDoc::put_RecipientCountry","RecipientCountry property [Fax Service]","RecipientCountry property [Fax Service]","IFaxDoc interface","_mfax_ifaxdoc_get_recipientcountry","fax._mfax_ifaxdoc_get_recipientcountry","fax._mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcountry_cpp","faxcom/IFaxDoc::RecipientCountry","faxcom/IFaxDoc::get_RecipientCountry","faxcom/IFaxDoc::put_RecipientCountry","get_RecipientCountry"]
 old-location: fax\_mfax_ifaxdoc_mfax_ifaxdoc_get_recipientcountry_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7ybd.htm

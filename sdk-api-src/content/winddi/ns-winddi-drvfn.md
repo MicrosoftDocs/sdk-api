@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._DRVFN
 title: DRVFN (winddi.h)
-description: The DRVFN structure is used by graphics drivers to provide GDI with pointers to the graphics DDI functions defined by the driver.helpviewer_keywords: ["*PDRVFN","DRVFN","DRVFN structure [Display Devices]","PDRVFN","PDRVFN structure pointer [Display Devices]","display.drvfn","grstrcts_178b2ecc-75f9-4921-8912-661b33305d80.xml","winddi/DRVFN","winddi/PDRVFN"]
+description: The DRVFN structure is used by graphics drivers to provide GDI with pointers to the graphics DDI functions defined by the driver.
+helpviewer_keywords: ["*PDRVFN","DRVFN","DRVFN structure [Display Devices]","PDRVFN","PDRVFN structure pointer [Display Devices]","display.drvfn","grstrcts_178b2ecc-75f9-4921-8912-661b33305d80.xml","winddi/DRVFN","winddi/PDRVFN"]
 old-location: display\drvfn.htm
 tech.root: display
 ms.assetid: 2ff20004-ec2e-4192-a5f1-e3e9d2bfad3c

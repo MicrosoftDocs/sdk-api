@@ -1,7 +1,8 @@
 ---
 UID: NF:appmgmt.InstallApplication
 title: InstallApplication function (appmgmt.h)
-description: The InstallApplication function can install applications that have been deployed to target users that belong to a domain.helpviewer_keywords: ["InstallApplication","InstallApplication function [Group Policy]","appmgmt/InstallApplication","policy.installapplication"]
+description: The InstallApplication function can install applications that have been deployed to target users that belong to a domain.
+helpviewer_keywords: ["InstallApplication","InstallApplication function [Group Policy]","appmgmt/InstallApplication","policy.installapplication"]
 old-location: policy\installapplication.htm
 tech.root: Policy
 ms.assetid: 5b2e1d82-a421-42af-9e1b-391ae9d4813e

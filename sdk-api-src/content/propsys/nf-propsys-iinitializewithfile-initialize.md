@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IInitializeWithFile.Initialize
 title: IInitializeWithFile::Initialize (propsys.h)
-description: Initializes a handler with a file path.helpviewer_keywords: ["IInitializeWithFile interface [Windows Shell]","Initialize method","IInitializeWithFile.Initialize","IInitializeWithFile::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IInitializeWithFile interface","STGM_READ","STGM_READWRITE","propsys/IInitializeWithFile::Initialize","shell.IInitializeWithFile_Initialize","shell_IInitializeWithFile_Initialize"]
+description: Initializes a handler with a file path.
+helpviewer_keywords: ["IInitializeWithFile interface [Windows Shell]","Initialize method","IInitializeWithFile.Initialize","IInitializeWithFile::Initialize","Initialize","Initialize method [Windows Shell]","Initialize method [Windows Shell]","IInitializeWithFile interface","STGM_READ","STGM_READWRITE","propsys/IInitializeWithFile::Initialize","shell.IInitializeWithFile_Initialize","shell_IInitializeWithFile_Initialize"]
 old-location: shell\IInitializeWithFile_Initialize.htm
 tech.root: shell
 ms.assetid: 7b7bb534-dff7-455b-baee-f573fb645cc3

@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.core.interop.IVideoFrameNative.GetData
 title: IVideoFrameNative::core (windows.media.core.interop.h)
-description: This method returns an interface that provides access to the video data.helpviewer_keywords: ["GetData","GetData method [Windows Runtime]","GetData method [Windows Runtime]","IVideoFrameNative interface","IVideoFrameNative interface [Windows Runtime]","GetData method","IVideoFrameNative.GetData","IVideoFrameNative.core","IVideoFrameNative::GetData","IVideoFrameNative::core","windows/IVideoFrameNative::GetData","winrt.ivideoframenative_getdata"]
+description: This method returns an interface that provides access to the video data.
+helpviewer_keywords: ["GetData","GetData method [Windows Runtime]","GetData method [Windows Runtime]","IVideoFrameNative interface","IVideoFrameNative interface [Windows Runtime]","GetData method","IVideoFrameNative.GetData","IVideoFrameNative.core","IVideoFrameNative::GetData","IVideoFrameNative::core","windows/IVideoFrameNative::GetData","winrt.ivideoframenative_getdata"]
 old-location: winrt\ivideoframenative_getdata.htm
 tech.root: WinRT
 ms.assetid: 084F020F-A6F5-4982-BA4B-A8F8D6182868

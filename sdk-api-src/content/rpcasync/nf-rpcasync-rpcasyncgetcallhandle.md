@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcasync.RpcAsyncGetCallHandle
 title: RpcAsyncGetCallHandle macro (rpcasync.h)
-description: The RpcAsyncGetCallHandle macro returns the binding handle on an asynchronous remote procedure call.helpviewer_keywords: ["RpcAsyncGetCallHandle","RpcAsyncGetCallHandle macro [RPC]","_rpc_rpcasyncgetcallhandle","rpc.rpcasyncgetcallhandle","rpcasync/RpcAsyncGetCallHandle"]
+description: The RpcAsyncGetCallHandle macro returns the binding handle on an asynchronous remote procedure call.
+helpviewer_keywords: ["RpcAsyncGetCallHandle","RpcAsyncGetCallHandle macro [RPC]","_rpc_rpcasyncgetcallhandle","rpc.rpcasyncgetcallhandle","rpcasync/RpcAsyncGetCallHandle"]
 old-location: rpc\rpcasyncgetcallhandle.htm
 tech.root: Rpc
 ms.assetid: 5a218d25-187e-4899-8a27-a955f77af8c2

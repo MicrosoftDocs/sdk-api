@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._USER_INFO_1053
 title: USER_INFO_1053 (lmaccess.h)
-description: The USER_INFO_1053 structure contains user information for network accounts. This information level is valid only when you call the NetUserSetInfo function.helpviewer_keywords: ["*LPUSER_INFO_1053","*PUSER_INFO_1053","LPUSER_INFO_1053","LPUSER_INFO_1053 structure pointer [Network Management]","PUSER_INFO_1053","PUSER_INFO_1053 structure pointer [Network Management]","USER_INFO_1053","USER_INFO_1053 structure [Network Management]","_win32_user_info_1053_str","lmaccess/LPUSER_INFO_1053","lmaccess/PUSER_INFO_1053","lmaccess/USER_INFO_1053","netmgmt.user_info_1053_str"]
+description: The USER_INFO_1053 structure contains user information for network accounts. This information level is valid only when you call the NetUserSetInfo function.
+helpviewer_keywords: ["*LPUSER_INFO_1053","*PUSER_INFO_1053","LPUSER_INFO_1053","LPUSER_INFO_1053 structure pointer [Network Management]","PUSER_INFO_1053","PUSER_INFO_1053 structure pointer [Network Management]","USER_INFO_1053","USER_INFO_1053 structure [Network Management]","_win32_user_info_1053_str","lmaccess/LPUSER_INFO_1053","lmaccess/PUSER_INFO_1053","lmaccess/USER_INFO_1053","netmgmt.user_info_1053_str"]
 old-location: netmgmt\user_info_1053_str.htm
 tech.root: NetMgmt
 ms.assetid: 687b2c35-344d-49db-a1e2-fb5c2b5db2d6

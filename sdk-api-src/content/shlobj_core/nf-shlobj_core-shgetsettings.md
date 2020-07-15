@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHGetSettings
 title: SHGetSettings function (shlobj_core.h)
-description: Retrieves the current Shell option settings.helpviewer_keywords: ["SHGetSettings","SHGetSettings function [Windows Shell]","SSF_DESKTOPHTML","SSF_DONTPRETTYPATH","SSF_DOUBLECLICKINWEBVIEW","SSF_HIDEICONS","SSF_MAPNETDRVBUTTON","SSF_NOCONFIRMRECYCLE","SSF_SHOWALLOBJECTS","SSF_SHOWATTRIBCOL","SSF_SHOWCOMPCOLOR","SSF_SHOWEXTENSIONS","SSF_SHOWINFOTIP","SSF_SHOWSYSFILES","SSF_WIN95CLASSIC","_win32_SHGetSettings","shell.SHGetSettings","shlobj_core/SHGetSettings"]
+description: Retrieves the current Shell option settings.
+helpviewer_keywords: ["SHGetSettings","SHGetSettings function [Windows Shell]","SSF_DESKTOPHTML","SSF_DONTPRETTYPATH","SSF_DOUBLECLICKINWEBVIEW","SSF_HIDEICONS","SSF_MAPNETDRVBUTTON","SSF_NOCONFIRMRECYCLE","SSF_SHOWALLOBJECTS","SSF_SHOWATTRIBCOL","SSF_SHOWCOMPCOLOR","SSF_SHOWEXTENSIONS","SSF_SHOWINFOTIP","SSF_SHOWSYSFILES","SSF_WIN95CLASSIC","_win32_SHGetSettings","shell.SHGetSettings","shlobj_core/SHGetSettings"]
 old-location: shell\SHGetSettings.htm
 tech.root: shell
 ms.assetid: 728a4004-f35d-4592-baf1-456a613a3344

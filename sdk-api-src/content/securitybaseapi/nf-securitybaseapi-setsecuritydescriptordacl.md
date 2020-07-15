@@ -1,7 +1,8 @@
 ---
 UID: NF:securitybaseapi.SetSecurityDescriptorDacl
 title: SetSecurityDescriptorDacl function (securitybaseapi.h)
-description: Sets information in a discretionary access control list (DACL). If a DACL is already present in the security descriptor, the DACL is replaced.helpviewer_keywords: ["SetSecurityDescriptorDacl","SetSecurityDescriptorDacl function [Security]","_win32_setsecuritydescriptordacl","security.setsecuritydescriptordacl","securitybaseapi/SetSecurityDescriptorDacl"]
+description: Sets information in a discretionary access control list (DACL). If a DACL is already present in the security descriptor, the DACL is replaced.
+helpviewer_keywords: ["SetSecurityDescriptorDacl","SetSecurityDescriptorDacl function [Security]","_win32_setsecuritydescriptordacl","security.setsecuritydescriptordacl","securitybaseapi/SetSecurityDescriptorDacl"]
 old-location: security\setsecuritydescriptordacl.htm
 tech.root: SecAuthZ
 ms.assetid: a873b803-391e-47e1-af7e-6dad7195968c

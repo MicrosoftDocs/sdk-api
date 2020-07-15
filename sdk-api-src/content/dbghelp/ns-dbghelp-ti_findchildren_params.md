@@ -1,7 +1,8 @@
 ---
 UID: NS:dbghelp._TI_FINDCHILDREN_PARAMS
 title: TI_FINDCHILDREN_PARAMS (dbghelp.h)
-description: Contains type index information. It is used by the SymGetTypeInfo function.helpviewer_keywords: ["TI_FINDCHILDREN_PARAMS","TI_FINDCHILDREN_PARAMS structure","_TI_FINDCHILDREN_PARAMS","_win32_ti_findchildren_params_str","base.ti_findchildren_params_str","dbghelp/TI_FINDCHILDREN_PARAMS"]
+description: Contains type index information. It is used by the SymGetTypeInfo function.
+helpviewer_keywords: ["TI_FINDCHILDREN_PARAMS","TI_FINDCHILDREN_PARAMS structure","_TI_FINDCHILDREN_PARAMS","_win32_ti_findchildren_params_str","base.ti_findchildren_params_str","dbghelp/TI_FINDCHILDREN_PARAMS"]
 old-location: base\ti_findchildren_params_str.htm
 tech.root: Debug
 ms.assetid: 618717d2-879d-4284-a4c2-0a5102698ed9

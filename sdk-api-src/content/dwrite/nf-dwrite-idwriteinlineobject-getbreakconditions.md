@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteInlineObject.GetBreakConditions
 title: IDWriteInlineObject::GetBreakConditions (dwrite.h)
-description: Layout uses this to determine the line-breaking behavior of the inline object among the text.helpviewer_keywords: ["GetBreakConditions","GetBreakConditions method [Direct Write]","GetBreakConditions method [Direct Write]","IDWriteInlineObject interface","IDWriteInlineObject interface [Direct Write]","GetBreakConditions method","IDWriteInlineObject.GetBreakConditions","IDWriteInlineObject::GetBreakConditions","directwrite.IDWriteInlineObject_GetBreakConditions","dwrite/IDWriteInlineObject::GetBreakConditions"]
+description: Layout uses this to determine the line-breaking behavior of the inline object among the text.
+helpviewer_keywords: ["GetBreakConditions","GetBreakConditions method [Direct Write]","GetBreakConditions method [Direct Write]","IDWriteInlineObject interface","IDWriteInlineObject interface [Direct Write]","GetBreakConditions method","IDWriteInlineObject.GetBreakConditions","IDWriteInlineObject::GetBreakConditions","directwrite.IDWriteInlineObject_GetBreakConditions","dwrite/IDWriteInlineObject::GetBreakConditions"]
 old-location: directwrite\IDWriteInlineObject_GetBreakConditions.htm
 tech.root: DirectWrite
 ms.assetid: c46614a6-2b48-46db-a1e2-73383d6386c5

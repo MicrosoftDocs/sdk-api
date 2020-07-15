@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.ICCompressGetSize
 title: ICCompressGetSize macro (vfw.h)
-description: The ICCompressGetSize macro requests that the video compression driver supply the maximum size of one frame of data when compressed into the specified output format. You can use this macro or explicitly call the ICM_COMPRESS_GET_SIZE message.helpviewer_keywords: ["ICCompressGetSize","ICCompressGetSize macro [Windows Multimedia]","_win32_ICCompressGetSize","multimedia.iccompressgetsize","vfw/ICCompressGetSize"]
+description: The ICCompressGetSize macro requests that the video compression driver supply the maximum size of one frame of data when compressed into the specified output format. You can use this macro or explicitly call the ICM_COMPRESS_GET_SIZE message.
+helpviewer_keywords: ["ICCompressGetSize","ICCompressGetSize macro [Windows Multimedia]","_win32_ICCompressGetSize","multimedia.iccompressgetsize","vfw/ICCompressGetSize"]
 old-location: multimedia\iccompressgetsize.htm
 tech.root: Multimedia
 ms.assetid: 6cb85b0b-4a05-44f7-af61-303a94b49847

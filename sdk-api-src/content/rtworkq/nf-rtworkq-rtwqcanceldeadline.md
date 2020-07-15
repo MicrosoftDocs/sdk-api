@@ -1,7 +1,8 @@
 ---
 UID: NF:rtworkq.RtwqCancelDeadline
 title: RtwqCancelDeadline function (rtworkq.h)
-description: Cancels a deadline that was previously set with RtwqSetDeadline.helpviewer_keywords: ["RtwqCancelDeadline","RtwqCancelDeadline function","base.rtwqcanceldeadline","rtworkq/RtwqCancelDeadline"]
+description: Cancels a deadline that was previously set with RtwqSetDeadline.
+helpviewer_keywords: ["RtwqCancelDeadline","RtwqCancelDeadline function","base.rtwqcanceldeadline","rtworkq/RtwqCancelDeadline"]
 old-location: base\rtwqcanceldeadline.htm
 tech.root: ProcThread
 ms.assetid: 4128B655-AFF9-4AEF-8EDB-A6DC8DA05FE9

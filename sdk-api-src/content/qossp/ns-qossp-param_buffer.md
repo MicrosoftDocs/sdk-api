@@ -1,7 +1,8 @@
 ---
 UID: NS:qossp._PARAM_BUFFER
 title: PARAM_BUFFER (qossp.h)
-description: The PARAM_BUFFER structure describes the format of the parameter buffer that can be included in the CONTROL_SERVICE structure.helpviewer_keywords: ["*LPPARAM_BUFFER","*LPPARAM_BUFFER structure [QOS]","PARAM_BUFFER","PARAM_BUFFER structure [QOS]","qos.param_buffer","qossp/*LPPARAM_BUFFER","qossp/PARAM_BUFFER"]
+description: The PARAM_BUFFER structure describes the format of the parameter buffer that can be included in the CONTROL_SERVICE structure.
+helpviewer_keywords: ["*LPPARAM_BUFFER","*LPPARAM_BUFFER structure [QOS]","PARAM_BUFFER","PARAM_BUFFER structure [QOS]","qos.param_buffer","qossp/*LPPARAM_BUFFER","qossp/PARAM_BUFFER"]
 old-location: qos\param_buffer.htm
 tech.root: QOS
 ms.assetid: b5078f3b-ab7f-4194-aed7-de5ebb4f7fb8

@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IVideoWindow.put_Height
 title: IVideoWindow::put_Height (control.h)
-description: The put_Height method sets the height of the video window.helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_Height method","IVideoWindow.put_Height","IVideoWindow::put_Height","IVideoWindowput_Height","control/IVideoWindow::put_Height","dshow.ivideowindow_put_height","put_Height","put_Height method [DirectShow]","put_Height method [DirectShow]","IVideoWindow interface"]
+description: The put_Height method sets the height of the video window.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","put_Height method","IVideoWindow.put_Height","IVideoWindow::put_Height","IVideoWindowput_Height","control/IVideoWindow::put_Height","dshow.ivideowindow_put_height","put_Height","put_Height method [DirectShow]","put_Height method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_put_height.htm
 tech.root: DirectShow
 ms.assetid: 39ba411f-675f-4dad-be4f-6beffbd3b53c

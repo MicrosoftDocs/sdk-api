@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory3.CreateFontCollectionFromFontSet
 title: IDWriteFactory3::CreateFontCollectionFromFontSet (dwrite_3.h)
-description: Create a weight/width/slope tree from a set of fonts.helpviewer_keywords: ["CreateFontCollectionFromFontSet","CreateFontCollectionFromFontSet method [Direct Write]","CreateFontCollectionFromFontSet method [Direct Write]","IDWriteFactory3 interface","IDWriteFactory3 interface [Direct Write]","CreateFontCollectionFromFontSet method","IDWriteFactory3.CreateFontCollectionFromFontSet","IDWriteFactory3::CreateFontCollectionFromFontSet","directwrite.idwritefactory3_createfontcollectionfromfontset","dwrite_3/IDWriteFactory3::CreateFontCollectionFromFontSet"]
+description: Create a weight/width/slope tree from a set of fonts.
+helpviewer_keywords: ["CreateFontCollectionFromFontSet","CreateFontCollectionFromFontSet method [Direct Write]","CreateFontCollectionFromFontSet method [Direct Write]","IDWriteFactory3 interface","IDWriteFactory3 interface [Direct Write]","CreateFontCollectionFromFontSet method","IDWriteFactory3.CreateFontCollectionFromFontSet","IDWriteFactory3::CreateFontCollectionFromFontSet","directwrite.idwritefactory3_createfontcollectionfromfontset","dwrite_3/IDWriteFactory3::CreateFontCollectionFromFontSet"]
 old-location: directwrite\idwritefactory3_createfontcollectionfromfontset.htm
 tech.root: DirectWrite
 ms.assetid: 22cc005f-6d34-f701-ff83-63ba819ab651

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.IAccessible.get_accHelpTopic
 title: IAccessible::get_accHelpTopic (oleacc.h)
-description: The IAccessible::get_accHelpTopic method retrieves the full path of the WinHelp file that is associated with the specified object; it also retrieves the identifier of the appropriate topic within that file.helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","get_accHelpTopic method","IAccessible.get_accHelpTopic","IAccessible::get_accHelpTopic","_msaa_IAccessible_get_accHelpTopic","get_accHelpTopic","get_accHelpTopic method [Windows Accessibility]","get_accHelpTopic method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__get_acchelptopic","oleacc/IAccessible::get_accHelpTopic","winauto.iaccessible_iaccessible__get_acchelptopic"]
+description: The IAccessible::get_accHelpTopic method retrieves the full path of the WinHelp file that is associated with the specified object; it also retrieves the identifier of the appropriate topic within that file.
+helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","get_accHelpTopic method","IAccessible.get_accHelpTopic","IAccessible::get_accHelpTopic","_msaa_IAccessible_get_accHelpTopic","get_accHelpTopic","get_accHelpTopic method [Windows Accessibility]","get_accHelpTopic method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__get_acchelptopic","oleacc/IAccessible::get_accHelpTopic","winauto.iaccessible_iaccessible__get_acchelptopic"]
 old-location: winauto\iaccessible_iaccessible__get_acchelptopic.htm
 tech.root: WinAuto
 ms.assetid: a8f4ae56-6bd9-4615-a87d-a4de2f7632b1

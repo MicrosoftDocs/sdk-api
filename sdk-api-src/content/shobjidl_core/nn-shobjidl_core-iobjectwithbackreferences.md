@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IObjectWithBackReferences
 title: IObjectWithBackReferences (shobjidl_core.h)
-description: Provides a method for interacting with back references held by an object.helpviewer_keywords: ["IObjectWithBackReferences","IObjectWithBackReferences interface [Windows Shell]","IObjectWithBackReferences interface [Windows Shell]","described","_shell_IObjectWithBackReferences","shell.IObjectWithBackReferences","shobjidl_core/IObjectWithBackReferences"]
+description: Provides a method for interacting with back references held by an object.
+helpviewer_keywords: ["IObjectWithBackReferences","IObjectWithBackReferences interface [Windows Shell]","IObjectWithBackReferences interface [Windows Shell]","described","_shell_IObjectWithBackReferences","shell.IObjectWithBackReferences","shobjidl_core/IObjectWithBackReferences"]
 old-location: shell\IObjectWithBackReferences.htm
 tech.root: shell
 ms.assetid: 9ce0edc6-c2b1-4222-a12b-daf94efcb233

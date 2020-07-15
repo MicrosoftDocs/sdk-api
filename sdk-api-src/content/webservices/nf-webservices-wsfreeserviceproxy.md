@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsFreeServiceProxy
 title: WsFreeServiceProxy function (webservices.h)
-description: Releases the memory associated with a Service Proxy resource.helpviewer_keywords: ["WsFreeServiceProxy","WsFreeServiceProxy function [Web Services for Windows]","webservices/WsFreeServiceProxy","wsw.wsfreeserviceproxy"]
+description: Releases the memory associated with a Service Proxy resource.
+helpviewer_keywords: ["WsFreeServiceProxy","WsFreeServiceProxy function [Web Services for Windows]","webservices/WsFreeServiceProxy","wsw.wsfreeserviceproxy"]
 old-location: wsw\wsfreeserviceproxy.htm
 tech.root: wsw
 ms.assetid: fb200cf8-c1d4-4a97-afef-f7c4ed5efb10

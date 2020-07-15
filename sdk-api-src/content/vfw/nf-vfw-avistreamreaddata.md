@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIStreamReadData
 title: AVIStreamReadData function (vfw.h)
-description: The AVIStreamReadData function reads optional header data from a stream.helpviewer_keywords: ["AVIStreamReadData","AVIStreamReadData function [Windows Multimedia]","_win32_AVIStreamReadData","multimedia.avistreamreaddata","vfw/AVIStreamReadData"]
+description: The AVIStreamReadData function reads optional header data from a stream.
+helpviewer_keywords: ["AVIStreamReadData","AVIStreamReadData function [Windows Multimedia]","_win32_AVIStreamReadData","multimedia.avistreamreaddata","vfw/AVIStreamReadData"]
 old-location: multimedia\avistreamreaddata.htm
 tech.root: Multimedia
 ms.assetid: 87a787e8-547a-4c35-ba65-a592bd037063

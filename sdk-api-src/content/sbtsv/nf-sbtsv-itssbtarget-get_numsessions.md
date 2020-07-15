@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbTarget.get_NumSessions
 title: ITsSbTarget::get_NumSessions (sbtsv.h)
-description: Retrieves the number of sessions maintained by broker for the target.helpviewer_keywords: ["ITsSbTarget interface [Remote Desktop Services]","NumSessions property","ITsSbTarget.NumSessions","ITsSbTarget.get_NumSessions","ITsSbTarget::NumSessions","ITsSbTarget::get_NumSessions","ITsSbTargetEx interface [Remote Desktop Services]","NumSessions property","ITsSbTargetEx.NumSessions","ITsSbTargetEx::get_NumSessions","NumSessions property [Remote Desktop Services]","NumSessions property [Remote Desktop Services]","ITsSbTarget interface","NumSessions property [Remote Desktop Services]","ITsSbTargetEx interface","get_NumSessions","sbtsv/ITsSbTarget::NumSessions","sbtsv/ITsSbTarget::get_NumSessions","sbtsv/ITsSbTargetEx::NumSessions","sbtsv/ITsSbTargetEx::get_NumSessions","termserv.itssbtarget_numsessions"]
+description: Retrieves the number of sessions maintained by broker for the target.
+helpviewer_keywords: ["ITsSbTarget interface [Remote Desktop Services]","NumSessions property","ITsSbTarget.NumSessions","ITsSbTarget.get_NumSessions","ITsSbTarget::NumSessions","ITsSbTarget::get_NumSessions","ITsSbTargetEx interface [Remote Desktop Services]","NumSessions property","ITsSbTargetEx.NumSessions","ITsSbTargetEx::get_NumSessions","NumSessions property [Remote Desktop Services]","NumSessions property [Remote Desktop Services]","ITsSbTarget interface","NumSessions property [Remote Desktop Services]","ITsSbTargetEx interface","get_NumSessions","sbtsv/ITsSbTarget::NumSessions","sbtsv/ITsSbTarget::get_NumSessions","sbtsv/ITsSbTargetEx::NumSessions","sbtsv/ITsSbTargetEx::get_NumSessions","termserv.itssbtarget_numsessions"]
 old-location: termserv\itssbtarget_numsessions.htm
 tech.root: TermServ
 ms.assetid: 6163f4c3-135c-4282-91ac-d01cfb0cec05

@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_Services
 title: IUPnPDevice::get_Services (upnp.h)
-description: The Services property specifies the list of services provided by the device.helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_Services method","IUPnPDevice.get_Services","IUPnPDevice::get_Services","_upnp_iupnpdevice_services","get_Services","get_Services method [UPnP APIs]","get_Services method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_services","upnp/IUPnPDevice::get_Services"]
+description: The Services property specifies the list of services provided by the device.
+helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_Services method","IUPnPDevice.get_Services","IUPnPDevice::get_Services","_upnp_iupnpdevice_services","get_Services","get_Services method [UPnP APIs]","get_Services method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_services","upnp/IUPnPDevice::get_Services"]
 old-location: upnp\iupnpdevice_services.htm
 tech.root: upnp
 ms.assetid: 3b854a5a-a0a9-4236-83c1-98b3671bfc74

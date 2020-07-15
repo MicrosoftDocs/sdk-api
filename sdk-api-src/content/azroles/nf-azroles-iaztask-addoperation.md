@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzTask.AddOperation
 title: IAzTask::AddOperation (azroles.h)
-description: Adds the IAzOperation object with the specified name to the task.helpviewer_keywords: ["AddOperation","AddOperation method [Security]","AddOperation method [Security]","AzTask object","AddOperation method [Security]","IAzTask interface","AzTask object [Security]","AddOperation method","IAzTask interface [Security]","AddOperation method","IAzTask.AddOperation","IAzTask::AddOperation","azroles/IAzTask::AddOperation","security.iaztask_addoperation"]
+description: Adds the IAzOperation object with the specified name to the task.
+helpviewer_keywords: ["AddOperation","AddOperation method [Security]","AddOperation method [Security]","AzTask object","AddOperation method [Security]","IAzTask interface","AzTask object [Security]","AddOperation method","IAzTask interface [Security]","AddOperation method","IAzTask.AddOperation","IAzTask::AddOperation","azroles/IAzTask::AddOperation","security.iaztask_addoperation"]
 old-location: security\iaztask_addoperation.htm
 tech.root: SecAuthZ
 ms.assetid: 73da7094-440c-4e68-8d43-9f4ba26dd14b

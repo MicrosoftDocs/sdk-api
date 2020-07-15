@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngStretchBlt
 title: EngStretchBlt function (winddi.h)
-description: The EngStretchBlt function causes GDI to do a stretching bit-block transfer.helpviewer_keywords: ["EngStretchBlt","EngStretchBlt function [Display Devices]","display.engstretchblt","gdifncs_936bc1b7-36b7-4f4f-8de4-9a4b845ac0c1.xml","winddi/EngStretchBlt"]
+description: The EngStretchBlt function causes GDI to do a stretching bit-block transfer.
+helpviewer_keywords: ["EngStretchBlt","EngStretchBlt function [Display Devices]","display.engstretchblt","gdifncs_936bc1b7-36b7-4f4f-8de4-9a4b845ac0c1.xml","winddi/EngStretchBlt"]
 old-location: display\engstretchblt.htm
 tech.root: display
 ms.assetid: e8f3084c-6216-497b-923a-adef3bfe8bf7

@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLInstallLicense
 title: SLInstallLicense function (slpublic.h)
-description: Stores the specified license and returns a license file ID.helpviewer_keywords: ["SLInstallLicense","SLInstallLicense function [Security]","security.slinstalllicense","slpublic/SLInstallLicense"]
+description: Stores the specified license and returns a license file ID.
+helpviewer_keywords: ["SLInstallLicense","SLInstallLicense function [Security]","security.slinstalllicense","slpublic/SLInstallLicense"]
 old-location: security\slinstalllicense.htm
 tech.root: SecSLApi
 ms.assetid: 39b14ce1-116b-4469-9e95-8cc4db70171a

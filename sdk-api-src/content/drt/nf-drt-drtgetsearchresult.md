@@ -1,7 +1,8 @@
 ---
 UID: NF:drt.DrtGetSearchResult
 title: DrtGetSearchResult function (drt.h)
-description: DrtGetSearchResult function.helpviewer_keywords: ["DrtGetSearchResult","DrtGetSearchResult function [Peer Networking]","drt/DrtGetSearchResult","p2p.drtgetsearchresult"]
+description: DrtGetSearchResult function.
+helpviewer_keywords: ["DrtGetSearchResult","DrtGetSearchResult function [Peer Networking]","drt/DrtGetSearchResult","p2p.drtgetsearchresult"]
 old-location: p2p\drtgetsearchresult.htm
 tech.root: P2PSdk
 ms.assetid: b89ea470-072e-46b6-9f5d-3e05aa012188

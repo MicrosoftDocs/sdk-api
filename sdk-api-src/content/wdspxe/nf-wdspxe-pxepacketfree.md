@@ -1,7 +1,8 @@
 ---
 UID: NF:wdspxe.PxePacketFree
 title: PxePacketFree function (wdspxe.h)
-description: Frees a packet allocated by the PxePacketAllocate function.helpviewer_keywords: ["PxePacketFree","PxePacketFree function [Windows Deployment Services]","wds.pxepacketfree","wdspxe/PxePacketFree"]
+description: Frees a packet allocated by the PxePacketAllocate function.
+helpviewer_keywords: ["PxePacketFree","PxePacketFree function [Windows Deployment Services]","wds.pxepacketfree","wdspxe/PxePacketFree"]
 old-location: wds\pxepacketfree.htm
 tech.root: wds
 ms.assetid: de93d42d-9c46-4944-a6e9-5dd72b8a3278

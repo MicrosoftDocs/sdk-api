@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSettings.SetFlags
 title: IPhotoAcquireSettings::SetFlags (photoacquire.h)
-description: The SetFlags method sets the photo acquire flags.helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","SetFlags method","IPhotoAcquireSettings.SetFlags","IPhotoAcquireSettings::SetFlags","IPhotoAcquireSettingsSetFlags","SetFlags","SetFlags method [Picture Acquisition]","SetFlags method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::SetFlags","picacq.iphotoacquiresettings_setflags"]
+description: The SetFlags method sets the photo acquire flags.
+helpviewer_keywords: ["IPhotoAcquireSettings interface [Picture Acquisition]","SetFlags method","IPhotoAcquireSettings.SetFlags","IPhotoAcquireSettings::SetFlags","IPhotoAcquireSettingsSetFlags","SetFlags","SetFlags method [Picture Acquisition]","SetFlags method [Picture Acquisition]","IPhotoAcquireSettings interface","photoacquire/IPhotoAcquireSettings::SetFlags","picacq.iphotoacquiresettings_setflags"]
 old-location: picacq\iphotoacquiresettings_setflags.htm
 tech.root: acquisition
 ms.assetid: aebe06d8-c764-4d2d-9bd2-58fd9e3714bd

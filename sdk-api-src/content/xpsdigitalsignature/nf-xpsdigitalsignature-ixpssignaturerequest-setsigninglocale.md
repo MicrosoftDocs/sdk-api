@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsdigitalsignature.IXpsSignatureRequest.SetSigningLocale
 title: IXpsSignatureRequest::SetSigningLocale (xpsdigitalsignature.h)
-description: Sets the legal jurisdiction of the package signing location.helpviewer_keywords: ["IXpsSignatureRequest interface [XPS Documents and Packaging]","SetSigningLocale method","IXpsSignatureRequest.SetSigningLocale","IXpsSignatureRequest::SetSigningLocale","SetSigningLocale","SetSigningLocale method [XPS Documents and Packaging]","SetSigningLocale method [XPS Documents and Packaging]","IXpsSignatureRequest interface","xps.ixpssignaturerequest_setsigninglocale","xpsdigitalsignature/IXpsSignatureRequest::SetSigningLocale"]
+description: Sets the legal jurisdiction of the package signing location.
+helpviewer_keywords: ["IXpsSignatureRequest interface [XPS Documents and Packaging]","SetSigningLocale method","IXpsSignatureRequest.SetSigningLocale","IXpsSignatureRequest::SetSigningLocale","SetSigningLocale","SetSigningLocale method [XPS Documents and Packaging]","SetSigningLocale method [XPS Documents and Packaging]","IXpsSignatureRequest interface","xps.ixpssignaturerequest_setsigninglocale","xpsdigitalsignature/IXpsSignatureRequest::SetSigningLocale"]
 old-location: xps\ixpssignaturerequest_setsigninglocale.htm
 tech.root: printdocs
 ms.assetid: 03d93f1a-2d49-4179-b706-20a688e2467d

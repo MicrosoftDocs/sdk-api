@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.ExtractIconExW
 title: ExtractIconExW function (shellapi.h)
-description: The ExtractIconEx function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.helpviewer_keywords: ["ExtractIconEx","ExtractIconEx function [Windows Shell]","ExtractIconExA","ExtractIconExW","_shell_ExtractIconEx","shell.ExtractIconEx","shellapi/ExtractIconEx","shellapi/ExtractIconExA","shellapi/ExtractIconExW"]
+description: The ExtractIconEx function creates an array of handles to large or small icons extracted from the specified executable file, DLL, or icon file.
+helpviewer_keywords: ["ExtractIconEx","ExtractIconEx function [Windows Shell]","ExtractIconExA","ExtractIconExW","_shell_ExtractIconEx","shell.ExtractIconEx","shellapi/ExtractIconEx","shellapi/ExtractIconExA","shellapi/ExtractIconExW"]
 old-location: shell\ExtractIconEx.htm
 tech.root: shell
 ms.assetid: 1c4d760a-79b5-4646-9cf2-6cd32c5d05ee
@@ -106,9 +107,14 @@ The number of icons to extract from the file.
 
 
 
-Type: <b>UINT</b>
+Type: **UINT**
 
-If the <i>nIconIndex</i> parameter is -1, the <i>phiconLarge</i> parameter is <b>NULL</b>, and the <i>phiconSmall</i> parameter is <b>NULL</b>, then the return value is the number of icons contained in the specified file. Otherwise, the return value is the number of icons successfully extracted from the file.
+If the *nIconIndex* parameter is -1 and both the *phiconLarge* and *phiconSmall* parameters are **NULL**, then the return value is the number of icons contained in the specified file.
+
+If the *nIconIndex* parameter is any value other than -1 and either *phiconLarge* or *phiconSmall* is not **NULL**, the return value is the number of icons successfully extracted from the file.
+
+> [!NOTE]
+> If the function encounters an error, it returns **UINT_MAX**. In this case, you can call [GetLastError](https://docs.microsoft.com/windows/win32/api/errhandlingapi/nf-errhandlingapi-getlasterror) to retrieve the error code. For example, this function returns **UINT_MAX** if the file specified by *lpszFile* cannot be found while the *nIconIndex* parameter is any value other than -1 and either *phiconLarge* or *phiconSmall* is not **NULL**. In this case, **GetLastError** returns **ERROR_FILE_NOT_FOUND** (2).
 
 
 
@@ -123,6 +129,10 @@ To retrieve the dimensions of the large and small icons, use this function with 
 
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines ExtractIconEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.OMSetDepthBounds
 title: ID3D12GraphicsCommandList1::OMSetDepthBounds (d3d12.h)
-description: This method enables you to change the depth bounds dynamically.helpviewer_keywords: ["ID3D12GraphicsCommandList1 interface","OMSetDepthBounds method","ID3D12GraphicsCommandList1.OMSetDepthBounds","ID3D12GraphicsCommandList1::OMSetDepthBounds","OMSetDepthBounds","OMSetDepthBounds method","OMSetDepthBounds method","ID3D12GraphicsCommandList1 interface","d3d12/ID3D12GraphicsCommandList1::OMSetDepthBounds","direct3d12.id3d12graphicscommandlist1_omsetdepthbounds"]
+description: This method enables you to change the depth bounds dynamically.
+helpviewer_keywords: ["ID3D12GraphicsCommandList1 interface","OMSetDepthBounds method","ID3D12GraphicsCommandList1.OMSetDepthBounds","ID3D12GraphicsCommandList1::OMSetDepthBounds","OMSetDepthBounds","OMSetDepthBounds method","OMSetDepthBounds method","ID3D12GraphicsCommandList1 interface","d3d12/ID3D12GraphicsCommandList1::OMSetDepthBounds","direct3d12.id3d12graphicscommandlist1_omsetdepthbounds"]
 old-location: direct3d12\id3d12graphicscommandlist1_omsetdepthbounds.htm
 tech.root: direct3d12
 ms.assetid: 065DBAD3-F4B6-4C94-BA0E-821A46E0B2EE

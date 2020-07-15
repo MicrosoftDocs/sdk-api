@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.SHRemoveLocalizedName
 title: SHRemoveLocalizedName function (shellapi.h)
-description: Removes the localized name of a file in a Shell folder.helpviewer_keywords: ["SHRemoveLocalizedName","SHRemoveLocalizedName function [Windows Shell]","_shell_SHRemoveLocalizedName","shell.SHRemoveLocalizedName","shellapi/SHRemoveLocalizedName"]
+description: Removes the localized name of a file in a Shell folder.
+helpviewer_keywords: ["SHRemoveLocalizedName","SHRemoveLocalizedName function [Windows Shell]","_shell_SHRemoveLocalizedName","shell.SHRemoveLocalizedName","shellapi/SHRemoveLocalizedName"]
 old-location: shell\SHRemoveLocalizedName.htm
 tech.root: shell
 ms.assetid: ed30546f-3531-42df-9018-1a24a79a0b79

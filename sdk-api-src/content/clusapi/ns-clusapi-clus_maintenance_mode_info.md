@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi.CLUS_MAINTENANCE_MODE_INFO
 title: CLUS_MAINTENANCE_MODE_INFO (clusapi.h)
-description: Enables or disables maintenance mode on a cluster node.helpviewer_keywords: ["*PCLUS_MAINTENANCE_MODE_INFO","CLUS_MAINTENANCE_MODE_INFO","CLUS_MAINTENANCE_MODE_INFO structure [Failover Cluster]","PCLUS_MAINTENANCE_MODE_INFO","PCLUS_MAINTENANCE_MODE_INFO structure pointer [Failover Cluster]","clusapi/CLUS_MAINTENANCE_MODE_INFO","clusapi/PCLUS_MAINTENANCE_MODE_INFO","mscs.clus_maintenance_mode_info"]
+description: Enables or disables maintenance mode on a cluster node.
+helpviewer_keywords: ["*PCLUS_MAINTENANCE_MODE_INFO","CLUS_MAINTENANCE_MODE_INFO","CLUS_MAINTENANCE_MODE_INFO structure [Failover Cluster]","PCLUS_MAINTENANCE_MODE_INFO","PCLUS_MAINTENANCE_MODE_INFO structure pointer [Failover Cluster]","clusapi/CLUS_MAINTENANCE_MODE_INFO","clusapi/PCLUS_MAINTENANCE_MODE_INFO","mscs.clus_maintenance_mode_info"]
 old-location: mscs\clus_maintenance_mode_info.htm
 tech.root: MsCS
 ms.assetid: dc53dc5e-b7ed-49f8-a08f-495e2c0e45e2

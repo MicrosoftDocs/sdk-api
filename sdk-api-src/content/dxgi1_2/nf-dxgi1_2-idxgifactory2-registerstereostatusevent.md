@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi1_2.IDXGIFactory2.RegisterStereoStatusEvent
 title: IDXGIFactory2::RegisterStereoStatusEvent (dxgi1_2.h)
-description: Registers to receive notification of changes in stereo status by using event signaling.helpviewer_keywords: ["IDXGIFactory2 interface [DXGI]","RegisterStereoStatusEvent method","IDXGIFactory2.RegisterStereoStatusEvent","IDXGIFactory2::RegisterStereoStatusEvent","RegisterStereoStatusEvent","RegisterStereoStatusEvent method [DXGI]","RegisterStereoStatusEvent method [DXGI]","IDXGIFactory2 interface","direct3ddxgi.idxgifactory2_RegisterStereoStatusEvent","dxgi1_2/IDXGIFactory2::RegisterStereoStatusEvent"]
+description: Registers to receive notification of changes in stereo status by using event signaling.
+helpviewer_keywords: ["IDXGIFactory2 interface [DXGI]","RegisterStereoStatusEvent method","IDXGIFactory2.RegisterStereoStatusEvent","IDXGIFactory2::RegisterStereoStatusEvent","RegisterStereoStatusEvent","RegisterStereoStatusEvent method [DXGI]","RegisterStereoStatusEvent method [DXGI]","IDXGIFactory2 interface","direct3ddxgi.idxgifactory2_RegisterStereoStatusEvent","dxgi1_2/IDXGIFactory2::RegisterStereoStatusEvent"]
 old-location: direct3ddxgi\idxgifactory2_RegisterStereoStatusEvent.htm
 tech.root: direct3ddxgi
 ms.assetid: 912FC8B0-8B66-4203-BF27-8D7186F7CAC0

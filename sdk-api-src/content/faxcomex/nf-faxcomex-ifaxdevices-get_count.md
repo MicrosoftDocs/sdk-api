@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDevices.get_Count
 title: IFaxDevices::get_Count (faxcomex.h)
-description: The IFaxDevices::get_Count property represents the number of objects in the FaxDevices collection. This is the total number of devices used by the fax server.helpviewer_keywords: ["Count property [Fax Service]","Count property [Fax Service]","IFaxDevices interface","IFaxDevices interface [Fax Service]","Count property","IFaxDevices.Count","IFaxDevices.get_Count","IFaxDevices::Count","IFaxDevices::get_Count","_mfax_faxdevices.count","fax._mfax_faxdevices_count","fax._mfax_faxdevices_cpp_mfax_faxdevices_count_cpp","faxcomex/IFaxDevices::Count","faxcomex/IFaxDevices::get_Count","get_Count"]
+description: The IFaxDevices::get_Count property represents the number of objects in the FaxDevices collection. This is the total number of devices used by the fax server.
+helpviewer_keywords: ["Count property [Fax Service]","Count property [Fax Service]","IFaxDevices interface","IFaxDevices interface [Fax Service]","Count property","IFaxDevices.Count","IFaxDevices.get_Count","IFaxDevices::Count","IFaxDevices::get_Count","_mfax_faxdevices.count","fax._mfax_faxdevices_count","fax._mfax_faxdevices_cpp_mfax_faxdevices_count_cpp","faxcomex/IFaxDevices::Count","faxcomex/IFaxDevices::get_Count","get_Count"]
 old-location: fax\_mfax_faxdevices_cpp_mfax_faxdevices_count_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9ypg.htm

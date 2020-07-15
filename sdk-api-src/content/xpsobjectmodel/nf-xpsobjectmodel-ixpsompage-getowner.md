@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPage.GetOwner
 title: IXpsOMPage::GetOwner (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMPageReference interface that contains the page.helpviewer_keywords: ["GetOwner","GetOwner method [XPS Documents and Packaging]","GetOwner method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetOwner method","IXpsOMPage.GetOwner","IXpsOMPage::GetOwner","xps.ixpsompage_getowner","xpsobjectmodel/IXpsOMPage::GetOwner"]
+description: Gets a pointer to the IXpsOMPageReference interface that contains the page.
+helpviewer_keywords: ["GetOwner","GetOwner method [XPS Documents and Packaging]","GetOwner method [XPS Documents and Packaging]","IXpsOMPage interface","IXpsOMPage interface [XPS Documents and Packaging]","GetOwner method","IXpsOMPage.GetOwner","IXpsOMPage::GetOwner","xps.ixpsompage_getowner","xpsobjectmodel/IXpsOMPage::GetOwner"]
 old-location: xps\ixpsompage_getowner.htm
 tech.root: printdocs
 ms.assetid: fd29eaa7-8f9c-4468-ad3b-a159bf5f516c

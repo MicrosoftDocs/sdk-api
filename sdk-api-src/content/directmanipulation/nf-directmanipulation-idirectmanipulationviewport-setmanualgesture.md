@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetManualGesture
 title: IDirectManipulationViewport::SetManualGesture (directmanipulation.h)
-description: Sets which gestures are ignored by Direct Manipulation.helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","SetManualGesture method","IDirectManipulationViewport.SetManualGesture","IDirectManipulationViewport::SetManualGesture","SetManualGesture","SetManualGesture method [Direct Manipulation]","SetManualGesture method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_setmanualgesture","directmanipulation/IDirectManipulationViewport::SetManualGesture"]
+description: Sets which gestures are ignored by Direct Manipulation.
+helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","SetManualGesture method","IDirectManipulationViewport.SetManualGesture","IDirectManipulationViewport::SetManualGesture","SetManualGesture","SetManualGesture method [Direct Manipulation]","SetManualGesture method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_setmanualgesture","directmanipulation/IDirectManipulationViewport::SetManualGesture"]
 old-location: directmanipulation\idirectmanipulationviewport_setmanualgesture.htm
 tech.root: directmanipulation
 ms.assetid: EBBBCEDB-8BAC-4E87-A69C-9730865A257F

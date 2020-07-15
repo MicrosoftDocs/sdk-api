@@ -1,7 +1,8 @@
 ---
 UID: NN:amstream.IMediaStreamFilter
 title: IMediaStreamFilter (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The IMediaStreamFilter interface is supported by the Media Stream filter, which is used internally by the multimedia stream object. Applications should not use this interface.helpviewer_keywords: ["IMediaStreamFilter","IMediaStreamFilter interface [DirectShow]","IMediaStreamFilter interface [DirectShow]","described","IMediaStreamFilterInterface","amstream/IMediaStreamFilter","dshow.imediastreamfilter"]
+description: Note  This interface is deprecated. New applications should not use it. The IMediaStreamFilter interface is supported by the Media Stream filter, which is used internally by the multimedia stream object. Applications should not use this interface.
+helpviewer_keywords: ["IMediaStreamFilter","IMediaStreamFilter interface [DirectShow]","IMediaStreamFilter interface [DirectShow]","described","IMediaStreamFilterInterface","amstream/IMediaStreamFilter","dshow.imediastreamfilter"]
 old-location: dshow\imediastreamfilter.htm
 tech.root: DirectShow
 ms.assetid: 1ac4976b-7088-47ac-9689-58c143746f05

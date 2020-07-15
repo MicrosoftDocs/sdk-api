@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Serializer_SerializeInstance
 title: MI_Serializer_SerializeInstance function (mi.h)
-description: Serializes an MI_Instance into a buffer in the format specified when the serializer was created. Options can be passed into the flags to control if the class is also serialized into the buffer as well as the instance.helpviewer_keywords: ["MI_Serializer_SerializeInstance","MI_Serializer_SerializeInstance function [Windows Management Infrastructure (MI)]","mi/MI_Serializer_SerializeInstance","wmi_v2.mi_serializer_serializeinstance"]
+description: Serializes an MI_Instance into a buffer in the format specified when the serializer was created. Options can be passed into the flags to control if the class is also serialized into the buffer as well as the instance.
+helpviewer_keywords: ["MI_Serializer_SerializeInstance","MI_Serializer_SerializeInstance function [Windows Management Infrastructure (MI)]","mi/MI_Serializer_SerializeInstance","wmi_v2.mi_serializer_serializeinstance"]
 old-location: wmi_v2\mi_serializer_serializeinstance.htm
 tech.root: wmi_v2
 ms.assetid: 45c5033a-b2ef-4fb6-a09e-54b3cd9fc99f

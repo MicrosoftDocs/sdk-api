@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapDecoder.GetDecoderInfo
 title: IWICBitmapDecoder::GetDecoderInfo (wincodec.h)
-description: Retrieves an IWICBitmapDecoderInfo for the image.helpviewer_keywords: ["GetDecoderInfo","GetDecoderInfo method [Windows Imaging Component]","GetDecoderInfo method [Windows Imaging Component]","IWICBitmapDecoder interface","IWICBitmapDecoder interface [Windows Imaging Component]","GetDecoderInfo method","IWICBitmapDecoder.GetDecoderInfo","IWICBitmapDecoder::GetDecoderInfo","_wic_codec_iwicbitmapdecoder_getdecoderinfo","wic._wic_codec_iwicbitmapdecoder_getdecoderinfo","wincodec/IWICBitmapDecoder::GetDecoderInfo"]
+description: Retrieves an IWICBitmapDecoderInfo for the image.
+helpviewer_keywords: ["GetDecoderInfo","GetDecoderInfo method [Windows Imaging Component]","GetDecoderInfo method [Windows Imaging Component]","IWICBitmapDecoder interface","IWICBitmapDecoder interface [Windows Imaging Component]","GetDecoderInfo method","IWICBitmapDecoder.GetDecoderInfo","IWICBitmapDecoder::GetDecoderInfo","_wic_codec_iwicbitmapdecoder_getdecoderinfo","wic._wic_codec_iwicbitmapdecoder_getdecoderinfo","wincodec/IWICBitmapDecoder::GetDecoderInfo"]
 old-location: wic\_wic_codec_iwicbitmapdecoder_getdecoderinfo.htm
 tech.root: wic
 ms.assetid: 45bcdcda-c45a-4646-a511-3a16d3fda262
