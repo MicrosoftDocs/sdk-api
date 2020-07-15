@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.InstallHinfSectionA
 title: InstallHinfSectionA function (setupapi.h)
-description: InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section.helpviewer_keywords: ["InstallHinfSection","InstallHinfSection function [Setup API]","InstallHinfSectionA","InstallHinfSectionW","_setupapi_installhinfsection","setup.installhinfsection","setupapi/InstallHinfSection","setupapi/InstallHinfSectionA","setupapi/InstallHinfSectionW"]
+description: InstallHinfSection is an entry-point function exported by Setupapi.dll that you can use to execute a section of an .inf file. InstallHinfSection can be invoked by calling the Rundll32.exe utility as described in the Remarks section.
+helpviewer_keywords: ["InstallHinfSection","InstallHinfSection function [Setup API]","InstallHinfSectionA","InstallHinfSectionW","_setupapi_installhinfsection","setup.installhinfsection","setupapi/InstallHinfSection","setupapi/InstallHinfSectionA","setupapi/InstallHinfSectionW"]
 old-location: setup\installhinfsection.htm
 tech.root: SetupApi
 ms.assetid: 151aa91b-9b3d-45e8-94a3-2bc395cd466d
@@ -161,4 +162,8 @@ For example, the following command line runs the DefaultInstall section of the S
 <b>RUNDLL32.EXE SETUPAPI.DLL,InstallHinfSection DefaultInstall 132 C:\WINDOWS\INF\SHELL.INF</b>
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines InstallHinfSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

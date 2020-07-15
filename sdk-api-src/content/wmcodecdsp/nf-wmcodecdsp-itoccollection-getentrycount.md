@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.ITocCollection.GetEntryCount
 title: ITocCollection::GetEntryCount (wmcodecdsp.h)
-description: The GetEntryCount method retrieves the number of tables of contents in the collection.helpviewer_keywords: ["GetEntryCount","GetEntryCount method [Media Foundation]","GetEntryCount method [Media Foundation]","ITocCollection interface","ITocCollection interface [Media Foundation]","GetEntryCount method","ITocCollection.GetEntryCount","ITocCollection::GetEntryCount","codecapi.itoccollection_getentrycount","mf.itoccollection_getentrycount","wmcodecdsp/ITocCollection::GetEntryCount"]
+description: The GetEntryCount method retrieves the number of tables of contents in the collection.
+helpviewer_keywords: ["GetEntryCount","GetEntryCount method [Media Foundation]","GetEntryCount method [Media Foundation]","ITocCollection interface","ITocCollection interface [Media Foundation]","GetEntryCount method","ITocCollection.GetEntryCount","ITocCollection::GetEntryCount","codecapi.itoccollection_getentrycount","mf.itoccollection_getentrycount","wmcodecdsp/ITocCollection::GetEntryCount"]
 old-location: mf\itoccollection_getentrycount.htm
 tech.root: medfound
 ms.assetid: 494efcde-cab3-4e72-9bc6-1df61f125f62

@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcom.IFaxTiff
 title: IFaxTiff (faxcom.h)
-description: The IFaxTiff dual interface is used by a fax client application to retrieve information about FaxTiff objects.helpviewer_keywords: ["IFaxTiff","IFaxTiff interface [Fax Service]","IFaxTiff interface [Fax Service]","described","_mfax_ifaxtiff","fax._mfax_ifaxtiff","faxcom/IFaxTiff"]
+description: The IFaxTiff dual interface is used by a fax client application to retrieve information about FaxTiff objects.
+helpviewer_keywords: ["IFaxTiff","IFaxTiff interface [Fax Service]","IFaxTiff interface [Fax Service]","described","_mfax_ifaxtiff","fax._mfax_ifaxtiff","faxcom/IFaxTiff"]
 old-location: fax\_mfax_ifaxtiff.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_3zhi.htm

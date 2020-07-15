@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IHardwareAudioEngineBase.GetEngineFormat
 title: IHardwareAudioEngineBase::GetEngineFormat (audioengineendpoint.h)
-description: The GetEngineFormat method retrieves the current data format of the offloaded audio stream.helpviewer_keywords: ["GetEngineFormat","GetEngineFormat method [Core Audio]","GetEngineFormat method [Core Audio]","IHardwareAudioEngineBase interface","IHardwareAudioEngineBase interface [Core Audio]","GetEngineFormat method","IHardwareAudioEngineBase.GetEngineFormat","IHardwareAudioEngineBase::GetEngineFormat","audioengineendpoint/IHardwareAudioEngineBase::GetEngineFormat","coreaudio.ihardwareaudioenginebase_getengineformat"]
+description: The GetEngineFormat method retrieves the current data format of the offloaded audio stream.
+helpviewer_keywords: ["GetEngineFormat","GetEngineFormat method [Core Audio]","GetEngineFormat method [Core Audio]","IHardwareAudioEngineBase interface","IHardwareAudioEngineBase interface [Core Audio]","GetEngineFormat method","IHardwareAudioEngineBase.GetEngineFormat","IHardwareAudioEngineBase::GetEngineFormat","audioengineendpoint/IHardwareAudioEngineBase::GetEngineFormat","coreaudio.ihardwareaudioenginebase_getengineformat"]
 old-location: coreaudio\ihardwareaudioenginebase_getengineformat.htm
 tech.root: CoreAudio
 ms.assetid: 150F8E7C-35A0-42DA-8E3D-69835153382F

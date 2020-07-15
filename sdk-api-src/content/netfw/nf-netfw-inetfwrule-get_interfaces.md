@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwRule.get_Interfaces
 title: INetFwRule::get_Interfaces (netfw.h)
-description: Specifies the list of interfaces for which the rule applies.helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","Interfaces property","INetFwRule.Interfaces","INetFwRule.get_Interfaces","INetFwRule::Interfaces","INetFwRule::get_Interfaces","INetFwRule::put_Interfaces","Interfaces property [ICS/ICF]","Interfaces property [ICS/ICF]","INetFwRule interface","get_Interfaces","ics.inetfwrule_interfaces","netfw/INetFwRule::Interfaces","netfw/INetFwRule::get_Interfaces","netfw/INetFwRule::put_Interfaces"]
+description: Specifies the list of interfaces for which the rule applies.
+helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","Interfaces property","INetFwRule.Interfaces","INetFwRule.get_Interfaces","INetFwRule::Interfaces","INetFwRule::get_Interfaces","INetFwRule::put_Interfaces","Interfaces property [ICS/ICF]","Interfaces property [ICS/ICF]","INetFwRule interface","get_Interfaces","ics.inetfwrule_interfaces","netfw/INetFwRule::Interfaces","netfw/INetFwRule::get_Interfaces","netfw/INetFwRule::put_Interfaces"]
 old-location: ics\inetfwrule_interfaces.htm
 tech.root: ics
 ms.assetid: f04ac143-bbb7-4676-936e-4282ebf58f56

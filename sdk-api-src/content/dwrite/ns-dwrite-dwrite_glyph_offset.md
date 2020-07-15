@@ -1,7 +1,8 @@
 ---
 UID: NS:dwrite.DWRITE_GLYPH_OFFSET
 title: DWRITE_GLYPH_OFFSET (dwrite.h)
-description: The optional adjustment to a glyph's position.helpviewer_keywords: ["DWRITE_GLYPH_OFFSET","DWRITE_GLYPH_OFFSET structure [Direct Write]","directwrite.dwrite_glyph_offset","dwrite/DWRITE_GLYPH_OFFSET"]
+description: The optional adjustment to a glyph's position.
+helpviewer_keywords: ["DWRITE_GLYPH_OFFSET","DWRITE_GLYPH_OFFSET structure [Direct Write]","directwrite.dwrite_glyph_offset","dwrite/DWRITE_GLYPH_OFFSET"]
 old-location: directwrite\dwrite_glyph_offset.htm
 tech.root: DirectWrite
 ms.assetid: f5a231c0-78df-4fe0-99a8-81fcad517cda

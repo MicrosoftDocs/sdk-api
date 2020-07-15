@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.INamespaceWalkCB
 title: INamespaceWalkCB (shobjidl_core.h)
-description: A callback interface exposing methods used with INamespaceWalk.helpviewer_keywords: ["INamespaceWalkCB","INamespaceWalkCB interface [Windows Shell]","INamespaceWalkCB interface [Windows Shell]","described","_win32_INamespaceWalkCB","shell.INamespaceWalkCB","shobjidl_core/INamespaceWalkCB"]
+description: A callback interface exposing methods used with INamespaceWalk.
+helpviewer_keywords: ["INamespaceWalkCB","INamespaceWalkCB interface [Windows Shell]","INamespaceWalkCB interface [Windows Shell]","described","_win32_INamespaceWalkCB","shell.INamespaceWalkCB","shobjidl_core/INamespaceWalkCB"]
 old-location: shell\INamespaceWalkCB.htm
 tech.root: shell
 ms.assetid: 15244d6e-6cd7-4dee-8e4e-2533d5a60ae7

@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiReinstallFeatureA
 title: MsiReinstallFeatureA function (msi.h)
-description: Reinstalls features.helpviewer_keywords: ["MsiReinstallFeature","MsiReinstallFeature function","MsiReinstallFeatureA","MsiReinstallFeatureW","REINSTALLMODE_FILEEQUALVERSION","REINSTALLMODE_FILEEXACT","REINSTALLMODE_FILEMISSING","REINSTALLMODE_FILEOLDERVERSION","REINSTALLMODE_FILEREPLACE","REINSTALLMODE_FILEVERIFY","REINSTALLMODE_MACHINEDATA","REINSTALLMODE_PACKAGE","REINSTALLMODE_SHORTCUT","REINSTALLMODE_USERDATA","_msi_msireinstallfeature","msi/MsiReinstallFeature","msi/MsiReinstallFeatureA","msi/MsiReinstallFeatureW","setup.msireinstallfeature"]
+description: Reinstalls features.
+helpviewer_keywords: ["MsiReinstallFeature","MsiReinstallFeature function","MsiReinstallFeatureA","MsiReinstallFeatureW","REINSTALLMODE_FILEEQUALVERSION","REINSTALLMODE_FILEEXACT","REINSTALLMODE_FILEMISSING","REINSTALLMODE_FILEOLDERVERSION","REINSTALLMODE_FILEREPLACE","REINSTALLMODE_FILEVERIFY","REINSTALLMODE_MACHINEDATA","REINSTALLMODE_PACKAGE","REINSTALLMODE_SHORTCUT","REINSTALLMODE_USERDATA","_msi_msireinstallfeature","msi/MsiReinstallFeature","msi/MsiReinstallFeatureA","msi/MsiReinstallFeatureW","setup.msireinstallfeature"]
 old-location: setup\msireinstallfeature.htm
 tech.root: Msi
 ms.assetid: 0750838d-56c8-449c-b1fd-99c9426beb52
@@ -322,4 +323,9 @@ For more information, see
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The msi.h header defines MsiReinstallFeature as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

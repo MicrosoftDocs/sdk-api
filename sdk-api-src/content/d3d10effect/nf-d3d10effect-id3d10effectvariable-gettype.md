@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetType
 title: ID3D10EffectVariable::GetType (d3d10effect.h)
-description: Get type information.helpviewer_keywords: ["675fd28c-3c3f-013f-f9c3-8c82054eae00","GetType","GetType method [Direct3D 10]","GetType method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","GetType method","ID3D10EffectVariable.GetType","ID3D10EffectVariable::GetType","d3d10effect/ID3D10EffectVariable::GetType","direct3d10.id3d10effectvariable_gettype"]
+description: Get type information.
+helpviewer_keywords: ["675fd28c-3c3f-013f-f9c3-8c82054eae00","GetType","GetType method [Direct3D 10]","GetType method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","GetType method","ID3D10EffectVariable.GetType","ID3D10EffectVariable::GetType","d3d10effect/ID3D10EffectVariable::GetType","direct3d10.id3d10effectvariable_gettype"]
 old-location: direct3d10\id3d10effectvariable_gettype.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_gettype.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Enable_DevNode
 title: CM_Enable_DevNode function (cfgmgr32.h)
-description: The CM_Enable_DevNode function enables a device.helpviewer_keywords: ["CM_Enable_DevNode","CM_Enable_DevNode function [Device and Driver Installation]","cfgmgr32/CM_Enable_DevNode","cfgmgrfn_10a592e0-91c9-47f2-aaa1-769e44bc1cbc.xml","devinst.cm_enable_devnode"]
+description: The CM_Enable_DevNode function enables a device.
+helpviewer_keywords: ["CM_Enable_DevNode","CM_Enable_DevNode function [Device and Driver Installation]","cfgmgr32/CM_Enable_DevNode","cfgmgrfn_10a592e0-91c9-47f2-aaa1-769e44bc1cbc.xml","devinst.cm_enable_devnode"]
 old-location: devinst\cm_enable_devnode.htm
 tech.root: devinst
 ms.assetid: ddc3a507-03ee-4f44-89e3-64ec4290d0ff

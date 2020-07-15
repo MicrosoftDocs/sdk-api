@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.GetHalftonePalette
 title: Graphics::GetHalftonePalette (gdiplusgraphics.h)
-description: The Graphics::GetHalftonePalette method gets a Windows halftone palette.helpviewer_keywords: ["GetHalftonePalette","GetHalftonePalette method [GDI+]","GetHalftonePalette method [GDI+]","Graphics class","Graphics class [GDI+]","GetHalftonePalette method","Graphics.GetHalftonePalette","Graphics::GetHalftonePalette","_gdiplus_CLASS_Graphics_GetHalftonePalette_","gdiplus._gdiplus_CLASS_Graphics_GetHalftonePalette_"]
+description: The Graphics::GetHalftonePalette method gets a Windows halftone palette.
+helpviewer_keywords: ["GetHalftonePalette","GetHalftonePalette method [GDI+]","GetHalftonePalette method [GDI+]","Graphics class","Graphics class [GDI+]","GetHalftonePalette method","Graphics.GetHalftonePalette","Graphics::GetHalftonePalette","_gdiplus_CLASS_Graphics_GetHalftonePalette_","gdiplus._gdiplus_CLASS_Graphics_GetHalftonePalette_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_GetHalftonePalette_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\gethalftonepalette.htm

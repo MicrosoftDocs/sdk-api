@@ -1,7 +1,8 @@
 ---
 UID: NC:resapi.PARBITRATE_ROUTINE
 title: PARBITRATE_ROUTINE (resapi.h)
-description: Allows a node to attempt to regain ownership of a quorum resource.helpviewer_keywords: ["Arbitrate","Arbitrate callback","Arbitrate callback function [Failover Cluster]","PARBITRATE_ROUTINE","PARBITRATE_ROUTINE callback function [Failover Cluster]","_wolf_arbitrate","mscs.arbitrate","resapi/Arbitrate","resapi/PARBITRATE_ROUTINE"]
+description: Allows a node to attempt to regain ownership of a quorum resource.
+helpviewer_keywords: ["Arbitrate","Arbitrate callback","Arbitrate callback function [Failover Cluster]","PARBITRATE_ROUTINE","PARBITRATE_ROUTINE callback function [Failover Cluster]","_wolf_arbitrate","mscs.arbitrate","resapi/Arbitrate","resapi/PARBITRATE_ROUTINE"]
 old-location: mscs\arbitrate.htm
 tech.root: MsCS
 ms.assetid: dc16b785-bbb1-4917-a826-e49445a86c26

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmiutils.IWbemPathKeyList
 title: IWbemPathKeyList (wmiutils.h)
-description: Used to access the details of the path keys.helpviewer_keywords: ["IWbemPathKeyList","IWbemPathKeyList interface [Windows Management Instrumentation]","IWbemPathKeyList interface [Windows Management Instrumentation]","described","_hmm_iwbempathkeylist","wmi.iwbempathkeylist","wmiutils/IWbemPathKeyList"]
+description: Used to access the details of the path keys.
+helpviewer_keywords: ["IWbemPathKeyList","IWbemPathKeyList interface [Windows Management Instrumentation]","IWbemPathKeyList interface [Windows Management Instrumentation]","described","_hmm_iwbempathkeylist","wmi.iwbempathkeylist","wmiutils/IWbemPathKeyList"]
 old-location: wmi\iwbempathkeylist.htm
 tech.root: WmiSdk
 ms.assetid: 5b188426-9d7f-4e87-9eed-ce80e5d93c30

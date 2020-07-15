@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.IEnumTfRanges
 title: IEnumTfRanges (msctf.h)
-description: The IEnumTfRanges interface is implemented by the TSF manager to provide an enumeration of range objects.helpviewer_keywords: ["IEnumTfRanges","IEnumTfRanges interface [Text Services Framework]","IEnumTfRanges interface [Text Services Framework]","described","_tsf_ienumtfranges_ref","msctf/IEnumTfRanges","tsf.ienumtfranges"]
+description: The IEnumTfRanges interface is implemented by the TSF manager to provide an enumeration of range objects.
+helpviewer_keywords: ["IEnumTfRanges","IEnumTfRanges interface [Text Services Framework]","IEnumTfRanges interface [Text Services Framework]","described","_tsf_ienumtfranges_ref","msctf/IEnumTfRanges","tsf.ienumtfranges"]
 old-location: tsf\ienumtfranges.htm
 tech.root: TSF
 ms.assetid: 68e17539-3b00-4e51-964d-0516b448f6c8

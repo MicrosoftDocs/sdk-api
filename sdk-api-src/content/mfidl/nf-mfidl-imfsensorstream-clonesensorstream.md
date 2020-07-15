@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSensorStream.CloneSensorStream
 title: IMFSensorStream::CloneSensorStream (mfidl.h)
-description: Clones the IMFSensorStream.helpviewer_keywords: ["CloneSensorStream","CloneSensorStream method [Media Foundation]","CloneSensorStream method [Media Foundation]","IMFSensorStream interface","IMFSensorStream interface [Media Foundation]","CloneSensorStream method","IMFSensorStream.CloneSensorStream","IMFSensorStream::CloneSensorStream","mf.imfsensorstream_clonesensorstream","mfidl/IMFSensorStream::CloneSensorStream"]
+description: Clones the IMFSensorStream.
+helpviewer_keywords: ["CloneSensorStream","CloneSensorStream method [Media Foundation]","CloneSensorStream method [Media Foundation]","IMFSensorStream interface","IMFSensorStream interface [Media Foundation]","CloneSensorStream method","IMFSensorStream.CloneSensorStream","IMFSensorStream::CloneSensorStream","mf.imfsensorstream_clonesensorstream","mfidl/IMFSensorStream::CloneSensorStream"]
 old-location: mf\imfsensorstream_clonesensorstream.htm
 tech.root: medfound
 ms.assetid: A9729DEB-AA59-476B-A309-A960C3B1E40E

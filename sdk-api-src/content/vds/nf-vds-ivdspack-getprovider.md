@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsPack.GetProvider
 title: IVdsPack::GetProvider (vds.h)
-description: Returns the software provider associated with a pack.helpviewer_keywords: ["GetProvider","GetProvider method [VDS]","GetProvider method [VDS]","IVdsPack interface","IVdsPack interface [VDS]","GetProvider method","IVdsPack.GetProvider","IVdsPack::GetProvider","base.ivdspack_getprovider","vds/IVdsPack::GetProvider"]
+description: Returns the software provider associated with a pack.
+helpviewer_keywords: ["GetProvider","GetProvider method [VDS]","GetProvider method [VDS]","IVdsPack interface","IVdsPack interface [VDS]","GetProvider method","IVdsPack.GetProvider","IVdsPack::GetProvider","base.ivdspack_getprovider","vds/IVdsPack::GetProvider"]
 old-location: base\ivdspack_getprovider.htm
 tech.root: VDS
 ms.assetid: b6e7ca7c-b95f-457d-996b-b3c449b6ce6b

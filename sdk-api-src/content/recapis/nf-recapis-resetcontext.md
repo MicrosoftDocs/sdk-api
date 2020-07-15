@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.ResetContext
 title: ResetContext function (recapis.h)
-description: Deletes the current ink and recognition results from the context.The current settings of the recognizer context are preserved.helpviewer_keywords: ["92446aca-e611-42b2-8b55-2d1c47ccaa5c","ResetContext","ResetContext function [Tablet PC]","recapis/ResetContext","tablet.resetcontext"]
+description: Deletes the current ink and recognition results from the context.The current settings of the recognizer context are preserved.
+helpviewer_keywords: ["92446aca-e611-42b2-8b55-2d1c47ccaa5c","ResetContext","ResetContext function [Tablet PC]","recapis/ResetContext","tablet.resetcontext"]
 old-location: tablet\resetcontext.htm
 tech.root: tablet
 ms.assetid: 92446aca-e611-42b2-8b55-2d1c47ccaa5c

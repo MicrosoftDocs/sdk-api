@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrControl.UpdateHandlerCollection
 title: ISyncMgrControl::UpdateHandlerCollection (syncmgr.h)
-description: Instructs Sync Center to reenumerate the handler collection, or informs it that properties of a handler in the handler collection have changed.helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","UpdateHandlerCollection method","ISyncMgrControl.UpdateHandlerCollection","ISyncMgrControl::UpdateHandlerCollection","UpdateHandlerCollection","UpdateHandlerCollection method [Windows Shell]","UpdateHandlerCollection method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_UpdateHandlerCollection","shell.ISyncMgrControl_UpdateHandlerCollection","syncmgr/ISyncMgrControl::UpdateHandlerCollection"]
+description: Instructs Sync Center to reenumerate the handler collection, or informs it that properties of a handler in the handler collection have changed.
+helpviewer_keywords: ["ISyncMgrControl interface [Windows Shell]","UpdateHandlerCollection method","ISyncMgrControl.UpdateHandlerCollection","ISyncMgrControl::UpdateHandlerCollection","UpdateHandlerCollection","UpdateHandlerCollection method [Windows Shell]","UpdateHandlerCollection method [Windows Shell]","ISyncMgrControl interface","_shell_ISyncMgrControl_UpdateHandlerCollection","shell.ISyncMgrControl_UpdateHandlerCollection","syncmgr/ISyncMgrControl::UpdateHandlerCollection"]
 old-location: shell\ISyncMgrControl_UpdateHandlerCollection.htm
 tech.root: shell
 ms.assetid: 752f197e-0dad-4b3d-9f70-352f5f50e9ee

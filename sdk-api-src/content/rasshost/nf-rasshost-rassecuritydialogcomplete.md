@@ -1,7 +1,8 @@
 ---
 UID: NF:rasshost.RasSecurityDialogComplete
 title: RasSecurityDialogComplete function (rasshost.h)
-description: The RasSecurityDialogComplete function notifies the RAS server of the results of a third-party security authentication transaction.helpviewer_keywords: ["RasSecurityDialogComplete","RasSecurityDialogComplete function [RAS]","_ras_rassecuritydialogcomplete","rasshost/RasSecurityDialogComplete","rras.rassecuritydialogcomplete"]
+description: The RasSecurityDialogComplete function notifies the RAS server of the results of a third-party security authentication transaction.
+helpviewer_keywords: ["RasSecurityDialogComplete","RasSecurityDialogComplete function [RAS]","_ras_rassecuritydialogcomplete","rasshost/RasSecurityDialogComplete","rras.rassecuritydialogcomplete"]
 old-location: rras\rassecuritydialogcomplete.htm
 tech.root: RRAS
 ms.assetid: 9ebe8b85-7500-405f-98c2-6f51f3339629

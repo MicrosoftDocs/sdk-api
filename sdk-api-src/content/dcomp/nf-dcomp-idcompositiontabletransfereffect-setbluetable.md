@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetBlueTable
 title: IDCompositionTableTransferEffect::SetBlueTable (dcomp.h)
-description: Sets the list of values used to define the transfer function for the blue channel.helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetBlueTable method","IDCompositionTableTransferEffect.SetBlueTable","IDCompositionTableTransferEffect::SetBlueTable","SetBlueTable","SetBlueTable method [DirectComposition]","SetBlueTable method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetBlueTable","directcomp.idcompositiontabletransfereffect_setbluetable"]
+description: Sets the list of values used to define the transfer function for the blue channel.
+helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetBlueTable method","IDCompositionTableTransferEffect.SetBlueTable","IDCompositionTableTransferEffect::SetBlueTable","SetBlueTable","SetBlueTable method [DirectComposition]","SetBlueTable method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetBlueTable","directcomp.idcompositiontabletransfereffect_setbluetable"]
 old-location: directcomp\idcompositiontabletransfereffect_setbluetable.htm
 tech.root: directcomp
 ms.assetid: D6E5D8CB-8E69-4E33-AC2E-4995F9D4283A

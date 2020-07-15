@@ -1,7 +1,8 @@
 ---
 UID: NN:xenroll.ICEnroll4
 title: ICEnroll4 (xenroll.h)
-description: The ICEnroll4 interface is one of several interfaces that represent the Certificate Enrollment Control.helpviewer_keywords: ["ICEnroll4","ICEnroll4 interface [Security]","ICEnroll4 interface [Security]","described","_xen_icenroll4","security.icenroll4","xenroll/ICEnroll4"]
+description: The ICEnroll4 interface is one of several interfaces that represent the Certificate Enrollment Control.
+helpviewer_keywords: ["ICEnroll4","ICEnroll4 interface [Security]","ICEnroll4 interface [Security]","described","_xen_icenroll4","security.icenroll4","xenroll/ICEnroll4"]
 old-location: security\icenroll4.htm
 tech.root: SecCrypto
 ms.assetid: 4e3e3792-aa41-46fe-bf75-26c2b8959f7a

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange2.GetColumn
 title: ITextRange2::GetColumn (tom.h)
-description: Gets the column properties for the currently selected column.helpviewer_keywords: ["GetColumn","GetColumn method [Windows Controls]","GetColumn method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetColumn method","ITextRange2.GetColumn","ITextRange2::GetColumn","controls.itextrange2_getcolumn","tom/ITextRange2::GetColumn"]
+description: Gets the column properties for the currently selected column.
+helpviewer_keywords: ["GetColumn","GetColumn method [Windows Controls]","GetColumn method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetColumn method","ITextRange2.GetColumn","ITextRange2::GetColumn","controls.itextrange2_getcolumn","tom/ITextRange2::GetColumn"]
 old-location: controls\itextrange2_getcolumn.htm
 tech.root: Controls
 ms.assetid: d8e2c985-9799-42c9-b23d-43c16bae5c69

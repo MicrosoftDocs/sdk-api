@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IRunningObjectTable.GetObject
 title: IRunningObjectTable::GetObject (objidl.h)
-description: Determines whether the object identified by the specified moniker is running, and if it is, retrieves a pointer to that object.helpviewer_keywords: ["GetObject","GetObject method [COM]","GetObject method [COM]","IRunningObjectTable interface","IRunningObjectTable interface [COM]","GetObject method","IRunningObjectTable.GetObject","IRunningObjectTable::GetObject","_com_irunningobjecttable_getobject","com.irunningobjecttable_getobject","objidl/IRunningObjectTable::GetObject"]
+description: Determines whether the object identified by the specified moniker is running, and if it is, retrieves a pointer to that object.
+helpviewer_keywords: ["GetObject","GetObject method [COM]","GetObject method [COM]","IRunningObjectTable interface","IRunningObjectTable interface [COM]","GetObject method","IRunningObjectTable.GetObject","IRunningObjectTable::GetObject","_com_irunningobjecttable_getobject","com.irunningobjecttable_getobject","objidl/IRunningObjectTable::GetObject"]
 old-location: com\irunningobjecttable_getobject.htm
 tech.root: com
 ms.assetid: 5d74b3ee-323d-43f9-8eab-0866432659de

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPMediaCollection
 title: IWMPMediaCollection (wmp.h)
-description: The IWMPMediaCollection interface provides methods that can be used to organize a large collection of media items.helpviewer_keywords: ["IWMPMediaCollection","IWMPMediaCollection interface [Windows Media Player]","IWMPMediaCollection interface [Windows Media Player]","described","IWMPMediaCollectionInterface","wmp.iwmpmediacollection","wmp/IWMPMediaCollection"]
+description: The IWMPMediaCollection interface provides methods that can be used to organize a large collection of media items.
+helpviewer_keywords: ["IWMPMediaCollection","IWMPMediaCollection interface [Windows Media Player]","IWMPMediaCollection interface [Windows Media Player]","described","IWMPMediaCollectionInterface","wmp.iwmpmediacollection","wmp/IWMPMediaCollection"]
 old-location: wmp\iwmpmediacollection.htm
 tech.root: WMP
 ms.assetid: bf975a30-dfb1-4994-9095-510a6b997aff

@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IGetClusterObjectInfo.GetObjectName
 title: IGetClusterObjectInfo::GetObjectName (cluadmex.h)
-description: Returns the name of a cluster object.helpviewer_keywords: ["GetObjectName","GetObjectName method [Failover Cluster]","GetObjectName method [Failover Cluster]","IGetClusterObjectInfo interface","IGetClusterObjectInfo interface [Failover Cluster]","GetObjectName method","IGetClusterObjectInfo.GetObjectName","IGetClusterObjectInfo::GetObjectName","_wolf_igetclusterobjectinfo_getobjectname","cluadmex/IGetClusterObjectInfo::GetObjectName","mscs.igetclusterobjectinfo_getobjectname"]
+description: Returns the name of a cluster object.
+helpviewer_keywords: ["GetObjectName","GetObjectName method [Failover Cluster]","GetObjectName method [Failover Cluster]","IGetClusterObjectInfo interface","IGetClusterObjectInfo interface [Failover Cluster]","GetObjectName method","IGetClusterObjectInfo.GetObjectName","IGetClusterObjectInfo::GetObjectName","_wolf_igetclusterobjectinfo_getobjectname","cluadmex/IGetClusterObjectInfo::GetObjectName","mscs.igetclusterobjectinfo_getobjectname"]
 old-location: mscs\igetclusterobjectinfo_getobjectname.htm
 tech.root: MsCS
 ms.assetid: e45f3652-74da-4d93-826d-320ddae10f49

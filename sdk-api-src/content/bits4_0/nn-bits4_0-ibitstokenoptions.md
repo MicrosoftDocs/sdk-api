@@ -1,7 +1,8 @@
 ---
 UID: NN:bits4_0.IBitsTokenOptions
 title: IBitsTokenOptions (bits4_0.h)
-description: Use IBitsTokenOptions to associate and manage a pair of security tokens for a Background Intelligent Transfer Service (BITS) transfer job.helpviewer_keywords: ["IBitsTokenOptions","IBitsTokenOptions interface [BITS]","IBitsTokenOptions interface [BITS]","described","bits.ibitstokenoptions","bits4_0/IBitsTokenOptions"]
+description: Use IBitsTokenOptions to associate and manage a pair of security tokens for a Background Intelligent Transfer Service (BITS) transfer job.
+helpviewer_keywords: ["IBitsTokenOptions","IBitsTokenOptions interface [BITS]","IBitsTokenOptions interface [BITS]","described","bits.ibitstokenoptions","bits4_0/IBitsTokenOptions"]
 old-location: bits\ibitstokenoptions.htm
 tech.root: Bits
 ms.assetid: 8496c27b-68d8-4709-b8a6-6ffa17c886df

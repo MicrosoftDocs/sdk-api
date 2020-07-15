@@ -1,7 +1,8 @@
 ---
 UID: NF:winber.ber_next_element
 title: ber_next_element function (winber.h)
-description: The ber_next_element function is used along with ber_first_element to traverse a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied BerElement structure. It returns the tag and length of the next element in the constructed type.helpviewer_keywords: ["_ldap_ber_next_element","ber_next_element","ber_next_element function [LDAP]","ldap.ber__next__element","ldap.ber_next_element","winber/ber_next_element"]
+description: The ber_next_element function is used along with ber_first_element to traverse a SET, SET OF, SEQUENCE or SEQUENCE OF data value stored in the supplied BerElement structure. It returns the tag and length of the next element in the constructed type.
+helpviewer_keywords: ["_ldap_ber_next_element","ber_next_element","ber_next_element function [LDAP]","ldap.ber__next__element","ldap.ber_next_element","winber/ber_next_element"]
 old-location: ldap\ber_next_element.htm
 tech.root: ldap
 ms.assetid: 3daf33c9-730d-4032-a0fc-21de4c425209

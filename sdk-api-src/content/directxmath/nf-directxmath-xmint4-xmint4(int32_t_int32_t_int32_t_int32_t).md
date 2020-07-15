@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMINT4.XMINT4(int32_t,int32_t,int32_t,int32_t)
 title: XMINT4::XMINT4(int32_t,int32_t,int32_t,int32_t) (directxmath.h)
-description: Initializes a new instance of XMINT4 from four int32_t arguments.helpviewer_keywords: ["XMINT4","XMINT4 constructor [DirectX Math Support APIs]","XMINT4 constructor [DirectX Math Support APIs]","XMINT4 structure","XMINT4 structure [DirectX Math Support APIs]","XMINT4 constructor","XMINT4.XMINT4","XMINT4.XMINT4(int32_t","int32_t","int32_t","int32_t)","XMINT4::XMINT4","XMINT4::XMINT4(int32_t","int32_t","int32_t","int32_t)","dxmath.xmint4_ctor_2"]
+description: Initializes a new instance of XMINT4 from four int32_t arguments.
+helpviewer_keywords: ["XMINT4","XMINT4 constructor [DirectX Math Support APIs]","XMINT4 constructor [DirectX Math Support APIs]","XMINT4 structure","XMINT4 structure [DirectX Math Support APIs]","XMINT4 constructor","XMINT4.XMINT4","XMINT4.XMINT4(int32_t","int32_t","int32_t","int32_t)","XMINT4::XMINT4","XMINT4::XMINT4(int32_t","int32_t","int32_t","int32_t)","dxmath.xmint4_ctor_2"]
 old-location: dxmath\xmint4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMINT4.#ctor(int32_t,int32_t,int32_t,int32_t)

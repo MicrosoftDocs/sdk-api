@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorMod
 title: XMVectorMod function (directxmath.h)
-description: Computes the per-component floating-point remainder of the quotient of two vectors.helpviewer_keywords: ["Use DirectX..XMVectorMod","XMVectorMod","XMVectorMod method [DirectX Math Support APIs]","dxmath.xmvectormod"]
+description: Computes the per-component floating-point remainder of the quotient of two vectors.
+helpviewer_keywords: ["Use DirectX..XMVectorMod","XMVectorMod","XMVectorMod method [DirectX Math Support APIs]","dxmath.xmvectormod"]
 old-location: dxmath\xmvectormod.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorMod(XMVECTOR,XMVECTOR)

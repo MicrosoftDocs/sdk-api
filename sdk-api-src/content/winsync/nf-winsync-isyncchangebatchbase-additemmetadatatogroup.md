@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.AddItemMetadataToGroup
 title: ISyncChangeBatchBase::AddItemMetadataToGroup (winsync.h)
-description: Adds a specified item change to the group that is currently open.helpviewer_keywords: ["AddItemMetadataToGroup","AddItemMetadataToGroup method [Windows Sync]","AddItemMetadataToGroup method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","AddItemMetadataToGroup method","ISyncChangeBatchBase.AddItemMetadataToGroup","ISyncChangeBatchBase::AddItemMetadataToGroup","winsync.isyncchangebatchbase_additemmetadatatogroup","winsync/ISyncChangeBatchBase::AddItemMetadataToGroup"]
+description: Adds a specified item change to the group that is currently open.
+helpviewer_keywords: ["AddItemMetadataToGroup","AddItemMetadataToGroup method [Windows Sync]","AddItemMetadataToGroup method [Windows Sync]","ISyncChangeBatchBase interface","ISyncChangeBatchBase interface [Windows Sync]","AddItemMetadataToGroup method","ISyncChangeBatchBase.AddItemMetadataToGroup","ISyncChangeBatchBase::AddItemMetadataToGroup","winsync.isyncchangebatchbase_additemmetadatatogroup","winsync/ISyncChangeBatchBase::AddItemMetadataToGroup"]
 old-location: winsync\isyncchangebatchbase_additemmetadatatogroup.htm
 tech.root: winsync
 ms.assetid: cb5b5a35-70d9-413d-8bf6-7003fe7681c8

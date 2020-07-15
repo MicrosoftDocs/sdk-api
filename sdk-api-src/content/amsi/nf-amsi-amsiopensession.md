@@ -1,7 +1,8 @@
 ---
 UID: NF:amsi.AmsiOpenSession
 title: AmsiOpenSession function (amsi.h)
-description: Opens a session within which multiple scan requests can be correlated.helpviewer_keywords: ["AmsiOpenSession","AmsiOpenSession function [Antimalware Scan Interface]","amsi.amsiopensession","amsi/AmsiOpenSession"]
+description: Opens a session within which multiple scan requests can be correlated.
+helpviewer_keywords: ["AmsiOpenSession","AmsiOpenSession function [Antimalware Scan Interface]","amsi.amsiopensession","amsi/AmsiOpenSession"]
 old-location: amsi\amsiopensession.htm
 tech.root: AMSI
 ms.assetid: 588C9003-8689-4D1C-BDFB-386E60BAECD5

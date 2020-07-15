@@ -1,7 +1,8 @@
 ---
 UID: NF:adshlp.ADsBuildVarArrayStr
 title: ADsBuildVarArrayStr function (adshlp.h)
-description: The ADsBuildVarArrayStr function builds a variant array from an array of Unicode strings.helpviewer_keywords: ["ADsBuildVarArrayStr","ADsBuildVarArrayStr function [ADSI]","_ds_adsbuildvararraystr","adshlp/ADsBuildVarArrayStr","adsi.adsbuildvararraystr"]
+description: The ADsBuildVarArrayStr function builds a variant array from an array of Unicode strings.
+helpviewer_keywords: ["ADsBuildVarArrayStr","ADsBuildVarArrayStr function [ADSI]","_ds_adsbuildvararraystr","adshlp/ADsBuildVarArrayStr","adsi.adsbuildvararraystr"]
 old-location: adsi\adsbuildvararraystr.htm
 tech.root: adsi
 ms.assetid: 7258a840-691a-4d9b-ab33-bcdf30fd1331

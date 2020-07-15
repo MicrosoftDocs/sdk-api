@@ -1,7 +1,8 @@
 ---
 UID: NF:qnetwork.IAMNetShowConfig.get_EnableTCP
 title: IAMNetShowConfig::get_EnableTCP (qnetwork.h)
-description: The get_EnableTCP method queries whether TCP-based streaming is enabled.helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_EnableTCP method","IAMNetShowConfig.get_EnableTCP","IAMNetShowConfig::get_EnableTCP","IAMNetShowConfigget_EnableTCP","dshow.iamnetshowconfig_get_enabletcp","get_EnableTCP","get_EnableTCP method [DirectShow]","get_EnableTCP method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_EnableTCP"]
+description: The get_EnableTCP method queries whether TCP-based streaming is enabled.
+helpviewer_keywords: ["IAMNetShowConfig interface [DirectShow]","get_EnableTCP method","IAMNetShowConfig.get_EnableTCP","IAMNetShowConfig::get_EnableTCP","IAMNetShowConfigget_EnableTCP","dshow.iamnetshowconfig_get_enabletcp","get_EnableTCP","get_EnableTCP method [DirectShow]","get_EnableTCP method [DirectShow]","IAMNetShowConfig interface","qnetwork/IAMNetShowConfig::get_EnableTCP"]
 old-location: dshow\iamnetshowconfig_get_enabletcp.htm
 tech.root: DirectShow
 ms.assetid: b4282f84-e05b-407f-9425-0690783957c4

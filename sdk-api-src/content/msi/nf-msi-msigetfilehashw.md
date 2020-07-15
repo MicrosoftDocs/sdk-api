@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiGetFileHashW
 title: MsiGetFileHashW function (msi.h)
-description: The MsiGetFileHash function takes the path to a file and returns a 128-bit hash of that file. Authoring tools may use MsiGetFileHash to obtain the file hash needed to populate the MsiFileHash table.helpviewer_keywords: ["MsiGetFileHash","MsiGetFileHash function","MsiGetFileHashA","MsiGetFileHashW","_msi_msigetfilehash","msi/MsiGetFileHash","msi/MsiGetFileHashA","msi/MsiGetFileHashW","setup.msigetfilehash"]
+description: The MsiGetFileHash function takes the path to a file and returns a 128-bit hash of that file. Authoring tools may use MsiGetFileHash to obtain the file hash needed to populate the MsiFileHash table.
+helpviewer_keywords: ["MsiGetFileHash","MsiGetFileHash function","MsiGetFileHashA","MsiGetFileHashW","_msi_msigetfilehash","msi/MsiGetFileHash","msi/MsiGetFileHashA","msi/MsiGetFileHashW","setup.msigetfilehash"]
 old-location: setup\msigetfilehash.htm
 tech.root: Msi
 ms.assetid: afd9f0b4-432f-4d23-b59d-7406ac2f68bb
@@ -156,6 +157,10 @@ The hash information entered into the MsiFileHash table must be obtained by call
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiGetFileHash as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

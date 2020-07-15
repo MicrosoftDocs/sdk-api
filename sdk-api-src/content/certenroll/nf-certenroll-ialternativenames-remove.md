@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IAlternativeNames.Remove
 title: IAlternativeNames::Remove (certenroll.h)
-description: Removes an object from the collection by index number.helpviewer_keywords: ["IAlternativeNames interface [Security]","Remove method","IAlternativeNames.Remove","IAlternativeNames::Remove","Remove","Remove method [Security]","Remove method [Security]","IAlternativeNames interface","certenroll/IAlternativeNames::Remove","security.ialternativenames_remove_method"]
+description: Removes an object from the collection by index number.
+helpviewer_keywords: ["IAlternativeNames interface [Security]","Remove method","IAlternativeNames.Remove","IAlternativeNames::Remove","Remove","Remove method [Security]","Remove method [Security]","IAlternativeNames interface","certenroll/IAlternativeNames::Remove","security.ialternativenames_remove_method"]
 old-location: security\ialternativenames_remove_method.htm
 tech.root: seccertenroll
 ms.assetid: 1507d03b-2c1d-416e-b346-16795902f5e2

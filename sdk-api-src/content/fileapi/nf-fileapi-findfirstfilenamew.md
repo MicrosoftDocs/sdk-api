@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.FindFirstFileNameW
 title: FindFirstFileNameW function (fileapi.h)
-description: Creates an enumeration of all the hard links to the specified file. The FindFirstFileNameW function returns a handle to the enumeration that can be used on subsequent calls to the FindNextFileNameW function.helpviewer_keywords: ["FindFirstFileNameW","FindFirstFileNameW function [Files]","fileapi/FindFirstFileNameW","fs.findfirstfilenamew"]
+description: Creates an enumeration of all the hard links to the specified file. The FindFirstFileNameW function returns a handle to the enumeration that can be used on subsequent calls to the FindNextFileNameW function.
+helpviewer_keywords: ["FindFirstFileNameW","FindFirstFileNameW function [Files]","fileapi/FindFirstFileNameW","fs.findfirstfilenamew"]
 old-location: fs\findfirstfilenamew.htm
 tech.root: FileIO
 ms.assetid: 9f64aa3e-4c73-47a8-8304-6134f1b4d153

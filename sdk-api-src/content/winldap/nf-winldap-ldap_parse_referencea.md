@@ -68,10 +68,11 @@ The session handle.
 ### -param ResultMessage [in]
 
 A pointer to an 
+
 <a href="/windows/win32/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure containing the search response.
 
-
 ### -param Referrals [out]
+
 
 A pointer to the list of subordinate referrals. Free with <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>.
 
@@ -83,9 +84,8 @@ A pointer to the list of subordinate referrals. Free with <a href="/previous-ver
 If the function succeeds, the return value is <b>LDAP_SUCCESS</b>.
 
 If the function fails, it returns an error code. See 
+
 <a href="/previous-versions/windows/desktop/ldap/return-values">Return Values</a> for more information.
-
-
 
 
 ## -remarks
@@ -99,11 +99,7 @@ When it is no longer needed, free the <i>Referrals</i> pointer by calling
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>.
 
 
-
-
 ## -see-also
-
-
 
 
 <a href="/previous-versions/windows/desktop/ldap/functions">Functions</a>
@@ -119,7 +115,3 @@ When it is no longer needed, free the <i>Referrals</i> pointer by calling
 
 
 <a href="/previous-versions/windows/desktop/api/winldap/nf-winldap-ldap_value_free">ldap_value_free</a>
- 
-
- 
-

@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.QueryVirtualMemoryInformation
 title: QueryVirtualMemoryInformation function (memoryapi.h)
-description: The QueryVirtualMemoryInformation function returns information about a page or a set of pages within the virtual address space of the specified process.helpviewer_keywords: ["QueryVirtualMemoryInformation","QueryVirtualMemoryInformation function","base.queryvirtualmemoryinformation","memoryapi/QueryVirtualMemoryInformation"]
+description: The QueryVirtualMemoryInformation function returns information about a page or a set of pages within the virtual address space of the specified process.
+helpviewer_keywords: ["QueryVirtualMemoryInformation","QueryVirtualMemoryInformation function","base.queryvirtualmemoryinformation","memoryapi/QueryVirtualMemoryInformation"]
 old-location: base\queryvirtualmemoryinformation.htm
 tech.root: Memory
 ms.assetid: D887FB6E-2594-4822-BA5E-803F9B12DCBC

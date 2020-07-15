@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.FontCollection.GetLastStatus
 title: FontCollection::GetLastStatus (gdiplusheaders.h)
-description: The FontCollection::GetLastStatus method returns a value that indicates the result of this FontCollection object's previous method call.helpviewer_keywords: ["FontCollection class [GDI+]","GetLastStatus method","FontCollection.GetLastStatus","FontCollection::GetLastStatus","GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","FontCollection class","_gdiplus_CLASS_FontCollection_GetLastStatus_","gdiplus._gdiplus_CLASS_FontCollection_GetLastStatus_"]
+description: The FontCollection::GetLastStatus method returns a value that indicates the result of this FontCollection object's previous method call.
+helpviewer_keywords: ["FontCollection class [GDI+]","GetLastStatus method","FontCollection.GetLastStatus","FontCollection::GetLastStatus","GetLastStatus","GetLastStatus method [GDI+]","GetLastStatus method [GDI+]","FontCollection class","_gdiplus_CLASS_FontCollection_GetLastStatus_","gdiplus._gdiplus_CLASS_FontCollection_GetLastStatus_"]
 old-location: gdiplus\_gdiplus_CLASS_FontCollection_GetLastStatus_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontcollectionclass\fontcollectionmethods\getlaststatus_22.htm

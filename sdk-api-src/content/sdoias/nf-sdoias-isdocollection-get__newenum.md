@@ -1,7 +1,8 @@
 ---
 UID: NF:sdoias.ISdoCollection.get__NewEnum
 title: ISdoCollection::get__NewEnum (sdoias.h)
-description: The get__NewEnum method retrieves an IEnumVARIANT interface for a Server Data Objects (SDO) collection.helpviewer_keywords: ["ISdoCollection interface [Network Policy Server]","get__NewEnum method","ISdoCollection.get__NewEnum","ISdoCollection::get__NewEnum","_sdo_isdocollection_get__newenum","get__NewEnum","get__NewEnum method [Network Policy Server]","get__NewEnum method [Network Policy Server]","ISdoCollection interface","nps.SDO_isdocollection_get__newenum","sdo.isdocollection_get__newenum","sdoias/ISdoCollection::get__NewEnum"]
+description: The get__NewEnum method retrieves an IEnumVARIANT interface for a Server Data Objects (SDO) collection.
+helpviewer_keywords: ["ISdoCollection interface [Network Policy Server]","get__NewEnum method","ISdoCollection.get__NewEnum","ISdoCollection::get__NewEnum","_sdo_isdocollection_get__newenum","get__NewEnum","get__NewEnum method [Network Policy Server]","get__NewEnum method [Network Policy Server]","ISdoCollection interface","nps.SDO_isdocollection_get__newenum","sdo.isdocollection_get__newenum","sdoias/ISdoCollection::get__NewEnum"]
 old-location: nps\SDO_isdocollection_get__newenum.htm
 tech.root: Nps
 ms.assetid: f41211cf-7ed6-4f49-ba90-a72b6eb4db3e

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3InverseRotate
 title: XMVector3InverseRotate function (directxmath.h)
-description: Rotates a 3D vector using the inverse of a quaternion.helpviewer_keywords: ["Use DirectX..XMVector3InverseRotate","XMVector3InverseRotate","XMVector3InverseRotate method [DirectX Math Support APIs]","dxmath.xmvector3inverserotate"]
+description: Rotates a 3D vector using the inverse of a quaternion.
+helpviewer_keywords: ["Use DirectX..XMVector3InverseRotate","XMVector3InverseRotate","XMVector3InverseRotate method [DirectX Math Support APIs]","dxmath.xmvector3inverserotate"]
 old-location: dxmath\xmvector3inverserotate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3InverseRotate(XMVECTOR,XMVECTOR)

@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawClipper.IsClipListChanged
 title: IDirectDrawClipper::IsClipListChanged (ddraw.h)
-description: Retrieves the status of the clip list if a window handle is associated with a DirectDrawClipper object.helpviewer_keywords: ["IDirectDrawClipper interface [DirectDraw]","IsClipListChanged method","IDirectDrawClipper.IsClipListChanged","IDirectDrawClipper::IsClipListChanged","IsClipListChanged","IsClipListChanged method [DirectDraw]","IsClipListChanged method [DirectDraw]","IDirectDrawClipper interface","ddraw/IDirectDrawClipper::IsClipListChanged","directdraw.idirectdrawclipper_iscliplistchanged"]
+description: Retrieves the status of the clip list if a window handle is associated with a DirectDrawClipper object.
+helpviewer_keywords: ["IDirectDrawClipper interface [DirectDraw]","IsClipListChanged method","IDirectDrawClipper.IsClipListChanged","IDirectDrawClipper::IsClipListChanged","IsClipListChanged","IsClipListChanged method [DirectDraw]","IsClipListChanged method [DirectDraw]","IDirectDrawClipper interface","ddraw/IDirectDrawClipper::IsClipListChanged","directdraw.idirectdrawclipper_iscliplistchanged"]
 old-location: directdraw\idirectdrawclipper_iscliplistchanged.htm
 tech.root: directdraw
 ms.assetid: d394b638-6015-47d8-89ea-2ed71611ddb3

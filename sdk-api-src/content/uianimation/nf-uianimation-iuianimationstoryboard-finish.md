@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationStoryboard.Finish
 title: IUIAnimationStoryboard::Finish (uianimation.h)
-description: Finishes the storyboard within the specified time, compressing the storyboard if necessary.helpviewer_keywords: ["Finish","Finish method [Windows Animation]","Finish method [Windows Animation]","IUIAnimationStoryboard interface","IUIAnimationStoryboard interface [Windows Animation]","Finish method","IUIAnimationStoryboard.Finish","IUIAnimationStoryboard::Finish","uianimation.iuianimationstoryboard_finish","uianimation/IUIAnimationStoryboard::Finish"]
+description: Finishes the storyboard within the specified time, compressing the storyboard if necessary.
+helpviewer_keywords: ["Finish","Finish method [Windows Animation]","Finish method [Windows Animation]","IUIAnimationStoryboard interface","IUIAnimationStoryboard interface [Windows Animation]","Finish method","IUIAnimationStoryboard.Finish","IUIAnimationStoryboard::Finish","uianimation.iuianimationstoryboard_finish","uianimation/IUIAnimationStoryboard::Finish"]
 old-location: uianimation\iuianimationstoryboard_finish.htm
 tech.root: UIAnimation
 ms.assetid: 45d0872a-dbcf-4151-a880-80b2c6fb884c

@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IRawCDImageCreator
 title: IRawCDImageCreator (imapi2.h)
-description: Use this interface to create a RAW CD image for use in writing to CD media in Disc-at-Once (DAO) mode. Images created with this interface can be written to CD media using the IDiscFormat2RawCD interface.helpviewer_keywords: ["IRawCDImageCreator","IRawCDImageCreator interface [IMAPI]","IRawCDImageCreator interface [IMAPI]","described","imapi.irawcdimagecreator","imapi2/IRawCDImageCreator"]
+description: Use this interface to create a RAW CD image for use in writing to CD media in Disc-at-Once (DAO) mode. Images created with this interface can be written to CD media using the IDiscFormat2RawCD interface.
+helpviewer_keywords: ["IRawCDImageCreator","IRawCDImageCreator interface [IMAPI]","IRawCDImageCreator interface [IMAPI]","described","imapi.irawcdimagecreator","imapi2/IRawCDImageCreator"]
 old-location: imapi\irawcdimagecreator.htm
 tech.root: imapi
 ms.assetid: b5fe1a32-545e-417d-9996-34d12862a0ea

@@ -50,7 +50,7 @@ ms.custom: 19H1
 ## -description
 
 
-Used by the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetprioritization">IRowsetPrioritization</a> interface to sets or retrieve the current indexer prioritization level for the scope specified by a query.
+Used by the <a href="https://docs.microsoft.com/windows/desktop/api/searchapi/nn-searchapi-irowsetprioritization">IRowsetPrioritization</a> interface to set or retrieve the current indexer prioritization level for the scope specified by a query.
 
 
 ## -enum-fields
@@ -80,12 +80,7 @@ Indicates that the indexer should  process items at the normal indexer rate.
 
 ## -remarks
 
-
-
-The SearchEvents code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to prioritize indexing events.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-searchevents">SearchEvents code sample</a>.
 
 ## -see-also
 

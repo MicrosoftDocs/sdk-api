@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionMatrixTransform3D.SetMatrixElement(int,int,float)
 title: IDCompositionMatrixTransform3D::SetMatrixElement(int,int,float) (dcomp.h)
-description: Changes the value of one element of the matrix of this 3D transform.helpviewer_keywords: ["IDCompositionMatrixTransform3D interface [DirectComposition]","SetMatrixElement method","IDCompositionMatrixTransform3D.SetMatrixElement","IDCompositionMatrixTransform3D.SetMatrixElement(int","int","float)","IDCompositionMatrixTransform3D::SetMatrixElement","IDCompositionMatrixTransform3D::SetMatrixElement(int","int","float)","SetMatrixElement","SetMatrixElement method [DirectComposition]","SetMatrixElement method [DirectComposition]","IDCompositionMatrixTransform3D interface","dcomp/IDCompositionMatrixTransform3D::SetMatrixElement","directcomp.idcompositionmatrixtransform3d_setmatrixelement_float"]
+description: Changes the value of one element of the matrix of this 3D transform.
+helpviewer_keywords: ["IDCompositionMatrixTransform3D interface [DirectComposition]","SetMatrixElement method","IDCompositionMatrixTransform3D.SetMatrixElement","IDCompositionMatrixTransform3D.SetMatrixElement(int","int","float)","IDCompositionMatrixTransform3D::SetMatrixElement","IDCompositionMatrixTransform3D::SetMatrixElement(int","int","float)","SetMatrixElement","SetMatrixElement method [DirectComposition]","SetMatrixElement method [DirectComposition]","IDCompositionMatrixTransform3D interface","dcomp/IDCompositionMatrixTransform3D::SetMatrixElement","directcomp.idcompositionmatrixtransform3d_setmatrixelement_float"]
 old-location: directcomp\idcompositionmatrixtransform3d_setmatrixelement_float.htm
 tech.root: directcomp
 ms.assetid: 5AB88C3B-7901-413E-929A-8A80EDD8962F

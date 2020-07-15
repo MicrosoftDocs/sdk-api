@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_AddToSelection
 title: TextRange_AddToSelection function (uiautomationcoreapi.h)
-description: Adds to the existing collection of highlighted text in a text container that supports multiple, disjoint selections by highlighting supplementary text corresponding to the calling text range Start and End endpoints.helpviewer_keywords: ["TextRange_AddToSelection","TextRange_AddToSelection function [Windows Accessibility]","uiauto.uiauto_TextRange_AddToSelectionConPat","uiauto_TextRange_AddToSelectionConPat","uiautomationcoreapi/TextRange_AddToSelection","winauto.uiauto_TextRange_AddToSelectionConPat"]
+description: Adds to the existing collection of highlighted text in a text container that supports multiple, disjoint selections by highlighting supplementary text corresponding to the calling text range Start and End endpoints.
+helpviewer_keywords: ["TextRange_AddToSelection","TextRange_AddToSelection function [Windows Accessibility]","uiauto.uiauto_TextRange_AddToSelectionConPat","uiauto_TextRange_AddToSelectionConPat","uiautomationcoreapi/TextRange_AddToSelection","winauto.uiauto_TextRange_AddToSelectionConPat"]
 old-location: winauto\uiauto_TextRange_AddToSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: a9e832ea-5761-4c5d-839e-9d4db2c551c2

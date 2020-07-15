@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteGdiInterop.CreateFontFaceFromHdc
 title: IDWriteGdiInterop::CreateFontFaceFromHdc (dwrite.h)
-description: Creates an IDWriteFontFace object that corresponds to the currently selected HFONT of the specified HDC.helpviewer_keywords: ["CreateFontFaceFromHdc","CreateFontFaceFromHdc method [Direct Write]","CreateFontFaceFromHdc method [Direct Write]","IDWriteGdiInterop interface","IDWriteGdiInterop interface [Direct Write]","CreateFontFaceFromHdc method","IDWriteGdiInterop.CreateFontFaceFromHdc","IDWriteGdiInterop::CreateFontFaceFromHdc","directwrite.IDWriteGdiInterop_CreateFontFaceFromHdc","dwrite/IDWriteGdiInterop::CreateFontFaceFromHdc"]
+description: Creates an IDWriteFontFace object that corresponds to the currently selected HFONT of the specified HDC.
+helpviewer_keywords: ["CreateFontFaceFromHdc","CreateFontFaceFromHdc method [Direct Write]","CreateFontFaceFromHdc method [Direct Write]","IDWriteGdiInterop interface","IDWriteGdiInterop interface [Direct Write]","CreateFontFaceFromHdc method","IDWriteGdiInterop.CreateFontFaceFromHdc","IDWriteGdiInterop::CreateFontFaceFromHdc","directwrite.IDWriteGdiInterop_CreateFontFaceFromHdc","dwrite/IDWriteGdiInterop::CreateFontFaceFromHdc"]
 old-location: directwrite\IDWriteGdiInterop_CreateFontFaceFromHdc.htm
 tech.root: DirectWrite
 ms.assetid: 583acf9a-2982-4491-bc57-8cf6bfc98598

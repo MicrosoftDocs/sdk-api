@@ -1,7 +1,8 @@
 ---
 UID: NN:bits2_5.IBackgroundCopyJobHttpOptions
 title: IBackgroundCopyJobHttpOptions (bits2_5.h)
-description: Use this interface to specify client certificates for certificate-based client authentication and custom headers for HTTP requests.helpviewer_keywords: ["IBackgroundCopyJobHttpOptions","IBackgroundCopyJobHttpOptions interface [BITS]","IBackgroundCopyJobHttpOptions interface [BITS]","described","bits.ibackgroundcopyjobhttpoptions","bits2_5/IBackgroundCopyJobHttpOptions"]
+description: Use this interface to specify client certificates for certificate-based client authentication and custom headers for HTTP requests.
+helpviewer_keywords: ["IBackgroundCopyJobHttpOptions","IBackgroundCopyJobHttpOptions interface [BITS]","IBackgroundCopyJobHttpOptions interface [BITS]","described","bits.ibackgroundcopyjobhttpoptions","bits2_5/IBackgroundCopyJobHttpOptions"]
 old-location: bits\ibackgroundcopyjobhttpoptions.htm
 tech.root: Bits
 ms.assetid: d8ccf65d-a4f1-44d9-9903-43e5529f1f29

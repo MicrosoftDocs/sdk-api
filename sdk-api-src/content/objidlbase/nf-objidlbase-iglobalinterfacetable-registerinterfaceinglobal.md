@@ -1,7 +1,8 @@
 ---
 UID: NF:objidlbase.IGlobalInterfaceTable.RegisterInterfaceInGlobal
 title: IGlobalInterfaceTable::RegisterInterfaceInGlobal (objidlbase.h)
-description: Registers the specified interface on an object residing in one apartment of a process as a global interface, enabling other apartments access to that interface.helpviewer_keywords: ["IGlobalInterfaceTable interface [COM]","RegisterInterfaceInGlobal method","IGlobalInterfaceTable.RegisterInterfaceInGlobal","IGlobalInterfaceTable::RegisterInterfaceInGlobal","RegisterInterfaceInGlobal","RegisterInterfaceInGlobal method [COM]","RegisterInterfaceInGlobal method [COM]","IGlobalInterfaceTable interface","_com_iglobalinterfacetable_registerinterfaceinglobal","com.iglobalinterfacetable_registerinterfaceinglobal","objidlbase/IGlobalInterfaceTable::RegisterInterfaceInGlobal"]
+description: Registers the specified interface on an object residing in one apartment of a process as a global interface, enabling other apartments access to that interface.
+helpviewer_keywords: ["IGlobalInterfaceTable interface [COM]","RegisterInterfaceInGlobal method","IGlobalInterfaceTable.RegisterInterfaceInGlobal","IGlobalInterfaceTable::RegisterInterfaceInGlobal","RegisterInterfaceInGlobal","RegisterInterfaceInGlobal method [COM]","RegisterInterfaceInGlobal method [COM]","IGlobalInterfaceTable interface","_com_iglobalinterfacetable_registerinterfaceinglobal","com.iglobalinterfacetable_registerinterfaceinglobal","objidlbase/IGlobalInterfaceTable::RegisterInterfaceInGlobal"]
 old-location: com\iglobalinterfacetable_registerinterfaceinglobal.htm
 tech.root: com
 ms.assetid: 5282b0b8-4eab-4114-8061-6d74db3756b7

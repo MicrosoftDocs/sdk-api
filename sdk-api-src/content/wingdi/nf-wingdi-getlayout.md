@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetLayout
 title: GetLayout function (wingdi.h)
-description: The GetLayout function returns the layout of a device context (DC).helpviewer_keywords: ["GetLayout","GetLayout function [Windows GDI]","_win32_GetLayout","gdi.getlayout","wingdi/GetLayout"]
+description: The GetLayout function returns the layout of a device context (DC).
+helpviewer_keywords: ["GetLayout","GetLayout function [Windows GDI]","_win32_GetLayout","gdi.getlayout","wingdi/GetLayout"]
 old-location: gdi\getlayout.htm
 tech.root: gdi
 ms.assetid: 2bbc0bef-55e5-4f11-a195-d379e95e44bf

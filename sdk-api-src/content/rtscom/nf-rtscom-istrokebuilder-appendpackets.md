@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.AppendPackets
 title: IStrokeBuilder::AppendPackets (rtscom.h)
-description: Adds a packet to the end of the digitizer input packet list.helpviewer_keywords: ["7b53a9b2-11da-4063-aac3-a85e52abeb52","AppendPackets","AppendPackets method [Tablet PC]","AppendPackets method [Tablet PC]","IStrokeBuilder interface","IStrokeBuilder interface [Tablet PC]","AppendPackets method","IStrokeBuilder.AppendPackets","IStrokeBuilder::AppendPackets","rtscom/IStrokeBuilder::AppendPackets","tablet.istrokebuilder_appendpackets"]
+description: Adds a packet to the end of the digitizer input packet list.
+helpviewer_keywords: ["7b53a9b2-11da-4063-aac3-a85e52abeb52","AppendPackets","AppendPackets method [Tablet PC]","AppendPackets method [Tablet PC]","IStrokeBuilder interface","IStrokeBuilder interface [Tablet PC]","AppendPackets method","IStrokeBuilder.AppendPackets","IStrokeBuilder::AppendPackets","rtscom/IStrokeBuilder::AppendPackets","tablet.istrokebuilder_appendpackets"]
 old-location: tablet\istrokebuilder_appendpackets.htm
 tech.root: tablet
 ms.assetid: 7b53a9b2-11da-4063-aac3-a85e52abeb52

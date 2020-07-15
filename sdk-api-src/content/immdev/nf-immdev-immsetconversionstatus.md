@@ -1,7 +1,8 @@
 ---
 UID: NF:immdev.ImmSetConversionStatus
 title: ImmSetConversionStatus function (immdev.h)
-description: Sets the current conversion status.helpviewer_keywords: ["ImmSetConversionStatus","ImmSetConversionStatus function [Internationalization for Windows Applications]","_win32_ImmSetConversionStatus","imm/ImmSetConversionStatus","intl.immsetconversionstatus"]
+description: Sets the current conversion status.
+helpviewer_keywords: ["ImmSetConversionStatus","ImmSetConversionStatus function [Internationalization for Windows Applications]","_win32_ImmSetConversionStatus","imm/ImmSetConversionStatus","intl.immsetconversionstatus"]
 old-location: intl\immsetconversionstatus.htm
 tech.root: Intl
 ms.assetid: cdf6ea84-bab9-4ecc-b2d1-748e5e28615f

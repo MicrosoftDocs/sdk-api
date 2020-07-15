@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d10.D3D10_SAMPLER_DESC
 title: D3D10_SAMPLER_DESC (d3d10.h)
-description: Describes a sampler state.helpviewer_keywords: ["3a645765-f6d2-d3f9-5cfb-b48ca43f620b","D3D10_SAMPLER_DESC","D3D10_SAMPLER_DESC structure [Direct3D 10]","d3d10/D3D10_SAMPLER_DESC","direct3d10.d3d10_sampler_desc"]
+description: Describes a sampler state.
+helpviewer_keywords: ["3a645765-f6d2-d3f9-5cfb-b48ca43f620b","D3D10_SAMPLER_DESC","D3D10_SAMPLER_DESC structure [Direct3D 10]","d3d10/D3D10_SAMPLER_DESC","direct3d10.d3d10_sampler_desc"]
 old-location: direct3d10\d3d10_sampler_desc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_sampler_desc.htm

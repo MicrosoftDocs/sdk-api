@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IVideoWindow.GetWindowPosition
 title: IVideoWindow::GetWindowPosition (control.h)
-description: The GetWindowPosition method retrieves the position of the video window.helpviewer_keywords: ["GetWindowPosition","GetWindowPosition method [DirectShow]","GetWindowPosition method [DirectShow]","IVideoWindow interface","IVideoWindow interface [DirectShow]","GetWindowPosition method","IVideoWindow.GetWindowPosition","IVideoWindow::GetWindowPosition","IVideoWindowGetWindowPosition","control/IVideoWindow::GetWindowPosition","dshow.ivideowindow_getwindowposition"]
+description: The GetWindowPosition method retrieves the position of the video window.
+helpviewer_keywords: ["GetWindowPosition","GetWindowPosition method [DirectShow]","GetWindowPosition method [DirectShow]","IVideoWindow interface","IVideoWindow interface [DirectShow]","GetWindowPosition method","IVideoWindow.GetWindowPosition","IVideoWindow::GetWindowPosition","IVideoWindowGetWindowPosition","control/IVideoWindow::GetWindowPosition","dshow.ivideowindow_getwindowposition"]
 old-location: dshow\ivideowindow_getwindowposition.htm
 tech.root: DirectShow
 ms.assetid: df55c10d-aec1-42f3-8bfb-207ae8804e72

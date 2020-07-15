@@ -1,7 +1,8 @@
 ---
 UID: NN:textserv.IRicheditUiaOverrides
 title: IRicheditUiaOverrides (textserv.h)
-description: Enables the host container of a windowless rich edit control to override the control's Microsoft UI Automation accessibility properties.helpviewer_keywords: ["IRicheditUiaOverrides","IRicheditUiaOverrides interface [Windows Controls]","IRicheditUiaOverrides interface [Windows Controls]","described","controls.irichedituiaoverrides","textserv/IRicheditUiaOverrides"]
+description: Enables the host container of a windowless rich edit control to override the control's Microsoft UI Automation accessibility properties.
+helpviewer_keywords: ["IRicheditUiaOverrides","IRicheditUiaOverrides interface [Windows Controls]","IRicheditUiaOverrides interface [Windows Controls]","described","controls.irichedituiaoverrides","textserv/IRicheditUiaOverrides"]
 old-location: controls\irichedituiaoverrides.htm
 tech.root: Controls
 ms.assetid: 2590002F-A6B0-4AA7-A54C-A5AB5304D9FA

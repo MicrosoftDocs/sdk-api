@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_WaitNoPendingInstallEvents
 title: CM_WaitNoPendingInstallEvents function (cfgmgr32.h)
-description: The CMP_WaitNoPendingInstallEvents (CM_WaitNoPendingInstallEvents) function waits until there are no pending device installation activities for the PnP manager to perform.helpviewer_keywords: ["CMP_WaitNoPendingInstallEvents","CM_WaitNoPendingInstallEvents","CM_WaitNoPendingInstallEvents function [Device and Driver Installation]","cfgmgr32/CM_WaitNoPendingInstallEvents","cfgmgrfn_096076fd-3ea8-42cb-9b51-ea551bde863d.xml","devinst.cmp_waitnopendinginstallevents"]
+description: The CMP_WaitNoPendingInstallEvents (CM_WaitNoPendingInstallEvents) function waits until there are no pending device installation activities for the PnP manager to perform.
+helpviewer_keywords: ["CMP_WaitNoPendingInstallEvents","CM_WaitNoPendingInstallEvents","CM_WaitNoPendingInstallEvents function [Device and Driver Installation]","cfgmgr32/CM_WaitNoPendingInstallEvents","cfgmgrfn_096076fd-3ea8-42cb-9b51-ea551bde863d.xml","devinst.cmp_waitnopendinginstallevents"]
 old-location: devinst\cmp_waitnopendinginstallevents.htm
 tech.root: devinst
 ms.assetid: 5be4c315-0e47-44ec-970c-855f302b355c

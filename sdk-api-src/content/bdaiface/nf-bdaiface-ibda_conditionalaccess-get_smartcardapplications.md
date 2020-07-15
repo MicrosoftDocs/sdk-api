@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_ConditionalAccess.get_SmartCardApplications
 title: IBDA_ConditionalAccess::get_SmartCardApplications (bdaiface.h)
-description: The get_SmartCardApplications method retrieves a list of the smart card applications.helpviewer_keywords: ["IBDA_ConditionalAccess interface [Microsoft TV Technologies]","get_SmartCardApplications method","IBDA_ConditionalAccess.get_SmartCardApplications","IBDA_ConditionalAccess::get_SmartCardApplications","IBDA_ConditionalAccessget_SmartCardApplications","bdaiface/IBDA_ConditionalAccess::get_SmartCardApplications","get_SmartCardApplications","get_SmartCardApplications method [Microsoft TV Technologies]","get_SmartCardApplications method [Microsoft TV Technologies]","IBDA_ConditionalAccess interface","mstv.ibda_conditionalaccess_get_smartcardapplications"]
+description: The get_SmartCardApplications method retrieves a list of the smart card applications.
+helpviewer_keywords: ["IBDA_ConditionalAccess interface [Microsoft TV Technologies]","get_SmartCardApplications method","IBDA_ConditionalAccess.get_SmartCardApplications","IBDA_ConditionalAccess::get_SmartCardApplications","IBDA_ConditionalAccessget_SmartCardApplications","bdaiface/IBDA_ConditionalAccess::get_SmartCardApplications","get_SmartCardApplications","get_SmartCardApplications method [Microsoft TV Technologies]","get_SmartCardApplications method [Microsoft TV Technologies]","IBDA_ConditionalAccess interface","mstv.ibda_conditionalaccess_get_smartcardapplications"]
 old-location: mstv\ibda_conditionalaccess_get_smartcardapplications.htm
 tech.root: mstv
 ms.assetid: 5667ca9c-c46d-43d6-a7da-1f0ff340e869

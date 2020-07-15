@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellView2.GetView
 title: IShellView2::GetView (shobjidl_core.h)
-description: Requests the current or default Shell view, together with all other valid view identifiers (VIDs) supported by this implementation of IShellView2.helpviewer_keywords: ["GetView","GetView method [Windows Shell]","GetView method [Windows Shell]","IShellView2 interface","IShellView2 interface [Windows Shell]","GetView method","IShellView2.GetView","IShellView2::GetView","SV2GV_CURRENTVIEW","SV2GV_DEFAULTVIEW","VID_Details","VID_LargeIcons","VID_List","VID_SmallIcons","VID_Tile","_win32_IShellView2_GetView","shell.IShellView2_GetView","shobjidl_core/IShellView2::GetView"]
+description: Requests the current or default Shell view, together with all other valid view identifiers (VIDs) supported by this implementation of IShellView2.
+helpviewer_keywords: ["GetView","GetView method [Windows Shell]","GetView method [Windows Shell]","IShellView2 interface","IShellView2 interface [Windows Shell]","GetView method","IShellView2.GetView","IShellView2::GetView","SV2GV_CURRENTVIEW","SV2GV_DEFAULTVIEW","VID_Details","VID_LargeIcons","VID_List","VID_SmallIcons","VID_Tile","_win32_IShellView2_GetView","shell.IShellView2_GetView","shobjidl_core/IShellView2::GetView"]
 old-location: shell\IShellView2_GetView.htm
 tech.root: shell
 ms.assetid: 74fe42fe-33de-483a-88e4-50da9c1f77c2

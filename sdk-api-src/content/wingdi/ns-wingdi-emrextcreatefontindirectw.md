@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMREXTCREATEFONTINDIRECTW
 title: EMREXTCREATEFONTINDIRECTW (wingdi.h)
-description: The EMREXTCREATEFONTINDIRECTW structure contains members for the CreateFontIndirect enhanced metafile record.helpviewer_keywords: ["*PEMREXTCREATEFONTINDIRECTW","*PEMREXTCREATEFONTINDIRECTW structure [Windows GDI]","EMREXTCREATEFONTINDIRECTW","EMREXTCREATEFONTINDIRECTW structure [Windows GDI]","_win32_EMREXTCREATEFONTINDIRECTW_str","gdi.emrextcreatefontindirectw","wingdi/*PEMREXTCREATEFONTINDIRECTW","wingdi/EMREXTCREATEFONTINDIRECTW"]
+description: The EMREXTCREATEFONTINDIRECTW structure contains members for the CreateFontIndirect enhanced metafile record.
+helpviewer_keywords: ["*PEMREXTCREATEFONTINDIRECTW","*PEMREXTCREATEFONTINDIRECTW structure [Windows GDI]","EMREXTCREATEFONTINDIRECTW","EMREXTCREATEFONTINDIRECTW structure [Windows GDI]","_win32_EMREXTCREATEFONTINDIRECTW_str","gdi.emrextcreatefontindirectw","wingdi/*PEMREXTCREATEFONTINDIRECTW","wingdi/EMREXTCREATEFONTINDIRECTW"]
 old-location: gdi\emrextcreatefontindirectw.htm
 tech.root: gdi
 ms.assetid: 27adba1d-6845-4d5e-8183-9c092775b473

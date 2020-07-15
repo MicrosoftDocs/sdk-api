@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPDevice.get_ModelURL
 title: IUPnPDevice::get_ModelURL (upnp.h)
-description: The ModelURL property specifies the URL for a Web page that contains model-specific information for the device.helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_ModelURL method","IUPnPDevice.get_ModelURL","IUPnPDevice::get_ModelURL","_upnp_iupnpdevice_modelurl","get_ModelURL","get_ModelURL method [UPnP APIs]","get_ModelURL method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_modelurl","upnp/IUPnPDevice::get_ModelURL"]
+description: The ModelURL property specifies the URL for a Web page that contains model-specific information for the device.
+helpviewer_keywords: ["IUPnPDevice interface [UPnP APIs]","get_ModelURL method","IUPnPDevice.get_ModelURL","IUPnPDevice::get_ModelURL","_upnp_iupnpdevice_modelurl","get_ModelURL","get_ModelURL method [UPnP APIs]","get_ModelURL method [UPnP APIs]","IUPnPDevice interface","upnp.iupnpdevice_modelurl","upnp/IUPnPDevice::get_ModelURL"]
 old-location: upnp\iupnpdevice_modelurl.htm
 tech.root: upnp
 ms.assetid: e9f3231a-5836-4629-9df5-6ed9184fb753

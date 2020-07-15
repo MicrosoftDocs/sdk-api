@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.INameSpaceTreeControlEvents.OnItemDeleted
 title: INameSpaceTreeControlEvents::OnItemDeleted (shobjidl.h)
-description: Called after an IShellItem has been deleted.helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnItemDeleted method","INameSpaceTreeControlEvents.OnItemDeleted","INameSpaceTreeControlEvents::OnItemDeleted","OnItemDeleted","OnItemDeleted method [Windows Shell]","OnItemDeleted method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnItemDeleted","shell.INameSpaceTreeControlEvents_OnItemDeleted","shobjidl/INameSpaceTreeControlEvents::OnItemDeleted"]
+description: Called after an IShellItem has been deleted.
+helpviewer_keywords: ["INameSpaceTreeControlEvents interface [Windows Shell]","OnItemDeleted method","INameSpaceTreeControlEvents.OnItemDeleted","INameSpaceTreeControlEvents::OnItemDeleted","OnItemDeleted","OnItemDeleted method [Windows Shell]","OnItemDeleted method [Windows Shell]","INameSpaceTreeControlEvents interface","_shell_INameSpaceTreeControlEvents_OnItemDeleted","shell.INameSpaceTreeControlEvents_OnItemDeleted","shobjidl/INameSpaceTreeControlEvents::OnItemDeleted"]
 old-location: shell\INameSpaceTreeControlEvents_OnItemDeleted.htm
 tech.root: shell
 ms.assetid: be5894ce-bf4c-4738-9096-da9c9d8688ee

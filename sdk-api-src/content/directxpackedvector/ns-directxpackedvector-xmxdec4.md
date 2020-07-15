@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMXDEC4
 title: XMXDEC4 (directxpackedvector.h)
-description: A 4D vector with x-,y-, and z- components represented as 10 bit signed integer values, and the w-component as a 2 bit unsigned integer value.helpviewer_keywords: ["XMXDEC4","XMXDEC4 structure [DirectX Math Support APIs]","directxpackedvector/XMXDEC4","dxmath.xmxdec4"]
+description: A 4D vector with x-,y-, and z- components represented as 10 bit signed integer values, and the w-component as a 2 bit unsigned integer value.
+helpviewer_keywords: ["XMXDEC4","XMXDEC4 structure [DirectX Math Support APIs]","directxpackedvector/XMXDEC4","dxmath.xmxdec4"]
 old-location: dxmath\xmxdec4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMXDEC4

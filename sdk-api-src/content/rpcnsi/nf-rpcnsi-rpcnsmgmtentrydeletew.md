@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryDeleteW
 title: RpcNsMgmtEntryDeleteW function (rpcnsi.h)
-description: The RpcNsMgmtEntryDelete function deletes a name service&#8211;database entry.helpviewer_keywords: ["RpcNsMgmtEntryDelete","RpcNsMgmtEntryDelete function [RPC]","RpcNsMgmtEntryDeleteA","RpcNsMgmtEntryDeleteW","_rpc_rpcnsmgmtentrydelete","rpc.rpcnsmgmtentrydelete","rpcnsi/RpcNsMgmtEntryDelete","rpcnsi/RpcNsMgmtEntryDeleteA","rpcnsi/RpcNsMgmtEntryDeleteW"]
+description: The RpcNsMgmtEntryDelete function deletes a name service–database entry.
+helpviewer_keywords: ["RpcNsMgmtEntryDelete","RpcNsMgmtEntryDelete function [RPC]","RpcNsMgmtEntryDeleteA","RpcNsMgmtEntryDeleteW","_rpc_rpcnsmgmtentrydelete","rpc.rpcnsmgmtentrydelete","rpcnsi/RpcNsMgmtEntryDelete","rpcnsi/RpcNsMgmtEntryDeleteA","rpcnsi/RpcNsMgmtEntryDeleteW"]
 old-location: rpc\rpcnsmgmtentrydelete.htm
 tech.root: Rpc
 ms.assetid: 65d04a7c-e42c-4956-a953-b9aec95254e0
@@ -182,6 +183,10 @@ Because name-service databases are designed to be relatively stable, frequent us
 
 
 
+
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsMgmtEntryDelete as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

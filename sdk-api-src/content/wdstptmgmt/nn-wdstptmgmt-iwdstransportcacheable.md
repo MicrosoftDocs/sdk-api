@@ -1,7 +1,8 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportCacheable
 title: IWdsTransportCacheable (wdstptmgmt.h)
-description: Provides caching for objects that handle persistent data. This interface can be inherited by other interfaces that represent persisted objects.helpviewer_keywords: ["IWdsTransportCacheable","IWdsTransportCacheable interface [Windows Deployment Services]","IWdsTransportCacheable interface [Windows Deployment Services]","described","wds.iwdstransportcacheable","wdstptmgmt/IWdsTransportCacheable"]
+description: Provides caching for objects that handle persistent data. This interface can be inherited by other interfaces that represent persisted objects.
+helpviewer_keywords: ["IWdsTransportCacheable","IWdsTransportCacheable interface [Windows Deployment Services]","IWdsTransportCacheable interface [Windows Deployment Services]","described","wds.iwdstransportcacheable","wdstptmgmt/IWdsTransportCacheable"]
 old-location: wds\iwdstransportcacheable.htm
 tech.root: wds
 ms.assetid: 2245d198-056c-467f-aae7-b1bb02f188e2

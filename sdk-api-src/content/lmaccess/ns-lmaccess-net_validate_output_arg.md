@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_OUTPUT_ARG
 title: NET_VALIDATE_OUTPUT_ARG (lmaccess.h)
-description: The NET_VALIDATE_OUTPUT_ARG structure contains information about persistent password-related data that has changed since the user's last logon as well as the result of the function's password validation check.helpviewer_keywords: ["*PNET_VALIDATE_OUTPUT_ARG","NET_VALIDATE_OUTPUT_ARG","NET_VALIDATE_OUTPUT_ARG structure [Network Management]","PNET_VALIDATE_OUTPUT_ARG","PNET_VALIDATE_OUTPUT_ARG structure pointer [Network Management]","lmaccess/NET_VALIDATE_OUTPUT_ARG","lmaccess/PNET_VALIDATE_OUTPUT_ARG","netmgmt.net_validate_output_arg"]
+description: The NET_VALIDATE_OUTPUT_ARG structure contains information about persistent password-related data that has changed since the user's last logon as well as the result of the function's password validation check.
+helpviewer_keywords: ["*PNET_VALIDATE_OUTPUT_ARG","NET_VALIDATE_OUTPUT_ARG","NET_VALIDATE_OUTPUT_ARG structure [Network Management]","PNET_VALIDATE_OUTPUT_ARG","PNET_VALIDATE_OUTPUT_ARG structure pointer [Network Management]","lmaccess/NET_VALIDATE_OUTPUT_ARG","lmaccess/PNET_VALIDATE_OUTPUT_ARG","netmgmt.net_validate_output_arg"]
 old-location: netmgmt\net_validate_output_arg.htm
 tech.root: NetMgmt
 ms.assetid: 833c89c3-34ba-485b-a310-1d709aa618cd

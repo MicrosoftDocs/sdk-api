@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGradientStopCollection.InsertAt
 title: IXpsOMGradientStopCollection::InsertAt (xpsobjectmodel.h)
-description: Inserts an IXpsOMGradientStop interface pointer at a specified location in the collection.helpviewer_keywords: ["IXpsOMGradientStopCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMGradientStopCollection.InsertAt","IXpsOMGradientStopCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMGradientStopCollection interface","xps.ixpsomgradientstopcollection_insertat","xpsobjectmodel/IXpsOMGradientStopCollection::InsertAt"]
+description: Inserts an IXpsOMGradientStop interface pointer at a specified location in the collection.
+helpviewer_keywords: ["IXpsOMGradientStopCollection interface [XPS Documents and Packaging]","InsertAt method","IXpsOMGradientStopCollection.InsertAt","IXpsOMGradientStopCollection::InsertAt","InsertAt","InsertAt method [XPS Documents and Packaging]","InsertAt method [XPS Documents and Packaging]","IXpsOMGradientStopCollection interface","xps.ixpsomgradientstopcollection_insertat","xpsobjectmodel/IXpsOMGradientStopCollection::InsertAt"]
 old-location: xps\ixpsomgradientstopcollection_insertat.htm
 tech.root: printdocs
 ms.assetid: b5ab5db8-ad94-4949-9d74-bddef3f29895

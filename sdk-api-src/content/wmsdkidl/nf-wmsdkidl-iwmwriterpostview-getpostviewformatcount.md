@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterPostView.GetPostViewFormatCount
 title: IWMWriterPostView::GetPostViewFormatCount (wmsdkidl.h)
-description: The GetPostViewFormatCount method is used for ascertaining all possible format types supported for the specified stream.helpviewer_keywords: ["GetPostViewFormatCount","GetPostViewFormatCount method [windows Media Format]","GetPostViewFormatCount method [windows Media Format]","IWMWriterPostView interface","IWMWriterPostView interface [windows Media Format]","GetPostViewFormatCount method","IWMWriterPostView.GetPostViewFormatCount","IWMWriterPostView::GetPostViewFormatCount","IWMWriterPostViewGetPostViewFormatCount","wmformat.iwmwriterpostview_getpostviewformatcount","wmsdkidl/IWMWriterPostView::GetPostViewFormatCount"]
+description: The GetPostViewFormatCount method is used for ascertaining all possible format types supported for the specified stream.
+helpviewer_keywords: ["GetPostViewFormatCount","GetPostViewFormatCount method [windows Media Format]","GetPostViewFormatCount method [windows Media Format]","IWMWriterPostView interface","IWMWriterPostView interface [windows Media Format]","GetPostViewFormatCount method","IWMWriterPostView.GetPostViewFormatCount","IWMWriterPostView::GetPostViewFormatCount","IWMWriterPostViewGetPostViewFormatCount","wmformat.iwmwriterpostview_getpostviewformatcount","wmsdkidl/IWMWriterPostView::GetPostViewFormatCount"]
 old-location: wmformat\iwmwriterpostview_getpostviewformatcount.htm
 tech.root: wmformat
 ms.assetid: b34b2418-5ae4-49a2-913a-bb4ac604ac4e

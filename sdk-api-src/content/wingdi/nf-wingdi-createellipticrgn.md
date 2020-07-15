@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.CreateEllipticRgn
 title: CreateEllipticRgn function (wingdi.h)
-description: The CreateEllipticRgn function creates an elliptical region.helpviewer_keywords: ["CreateEllipticRgn","CreateEllipticRgn function [Windows GDI]","_win32_CreateEllipticRgn","gdi.createellipticrgn","wingdi/CreateEllipticRgn"]
+description: The CreateEllipticRgn function creates an elliptical region.
+helpviewer_keywords: ["CreateEllipticRgn","CreateEllipticRgn function [Windows GDI]","_win32_CreateEllipticRgn","gdi.createellipticrgn","wingdi/CreateEllipticRgn"]
 old-location: gdi\createellipticrgn.htm
 tech.root: gdi
 ms.assetid: b4e9b210-8e22-42db-bb6e-65f1fb870eff

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.MAKEDLLVERULL
 title: MAKEDLLVERULL macro (shlwapi.h)
-description: Used to pack DLL version information into a ULONGLONG value.helpviewer_keywords: ["MAKEDLLVERULL","MAKEDLLVERULL macro [Windows Shell]","_win32_MAKEDLLVERULL","shell.MAKEDLLVERULL","shlwapi/MAKEDLLVERULL"]
+description: Used to pack DLL version information into a ULONGLONG value.
+helpviewer_keywords: ["MAKEDLLVERULL","MAKEDLLVERULL macro [Windows Shell]","_win32_MAKEDLLVERULL","shell.MAKEDLLVERULL","shlwapi/MAKEDLLVERULL"]
 old-location: shell\MAKEDLLVERULL.htm
 tech.root: shell
 ms.assetid: 10c75c91-9642-4877-845e-8c6343721b4f

@@ -1,7 +1,8 @@
 ---
 UID: NF:dxvahd.DXVAHD_CreateDevice
 title: DXVAHD_CreateDevice function (dxvahd.h)
-description: Creates a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.helpviewer_keywords: ["DXVAHD_CreateDevice","DXVAHD_CreateDevice function [Media Foundation]","dxvahd/DXVAHD_CreateDevice","mf.dxvahd_createdevice"]
+description: Creates a Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+helpviewer_keywords: ["DXVAHD_CreateDevice","DXVAHD_CreateDevice function [Media Foundation]","dxvahd/DXVAHD_CreateDevice","mf.dxvahd_createdevice"]
 old-location: mf\dxvahd_createdevice.htm
 tech.root: medfound
 ms.assetid: 9a5411f9-2018-4a8a-922d-ab431d615583

@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCPV4_FAILOVER_CLIENT_INFO_ARRAY
 title: DHCPV4_FAILOVER_CLIENT_INFO_ARRAY (dhcpsapi.h)
-description: The DHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure defines an array of DHCP server scope statistics that are part of a failover relationship.helpviewer_keywords: ["*LPDHCPV4_FAILOVER_CLIENT_INFO_ARRAY","DHCPV4_FAILOVER_CLIENT_INFO_ARRAY","DHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure [DHCP]","PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY","PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure pointer [DHCP]","dhcp.dhcpv4_failover_client_info_array","dhcpsapi/DHCPV4_FAILOVER_CLIENT_INFO_ARRAY","dhcpsapi/PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY"]
+description: The DHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure defines an array of DHCP server scope statistics that are part of a failover relationship.
+helpviewer_keywords: ["*LPDHCPV4_FAILOVER_CLIENT_INFO_ARRAY","DHCPV4_FAILOVER_CLIENT_INFO_ARRAY","DHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure [DHCP]","PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY","PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY structure pointer [DHCP]","dhcp.dhcpv4_failover_client_info_array","dhcpsapi/DHCPV4_FAILOVER_CLIENT_INFO_ARRAY","dhcpsapi/PDHCPV4_FAILOVER_CLIENT_INFO_ARRAY"]
 old-location: dhcp\dhcpv4_failover_client_info_array.htm
 tech.root: DHCP
 ms.assetid: D988F420-28F0-4F13-B2A1-CFD9A71669A4

@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitVariantFromBooleanArray
 title: InitVariantFromBooleanArray function (propvarutil.h)
-description: Initializes a VARIANT structure from an array of Boolean values.helpviewer_keywords: ["InitVariantFromBooleanArray","InitVariantFromBooleanArray function [Windows Properties]","_shell_InitVariantFromBooleanArray","properties.InitVariantFromBooleanArray","propvarutil/InitVariantFromBooleanArray","shell.InitVariantFromBooleanArray"]
+description: Initializes a VARIANT structure from an array of Boolean values.
+helpviewer_keywords: ["InitVariantFromBooleanArray","InitVariantFromBooleanArray function [Windows Properties]","_shell_InitVariantFromBooleanArray","properties.InitVariantFromBooleanArray","propvarutil/InitVariantFromBooleanArray","shell.InitVariantFromBooleanArray"]
 old-location: properties\InitVariantFromBooleanArray.htm
 tech.root: properties
 ms.assetid: 50780131-c0ed-443b-86e8-deb996a5c98e

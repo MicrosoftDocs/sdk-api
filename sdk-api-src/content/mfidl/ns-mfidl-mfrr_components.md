@@ -1,7 +1,8 @@
 ---
 UID: NS:mfidl._MFRR_COMPONENTS
 title: MFRR_COMPONENTS (mfidl.h)
-description: Contains information about one or more revoked components.helpviewer_keywords: ["*PMFRR_COMPONENTS","MFRR_COMPONENTS","MFRR_COMPONENTS structure [Media Foundation]","PMFRR_COMPONENTS","PMFRR_COMPONENTS structure pointer [Media Foundation]","df12e64b-92e3-4446-bade-3ad55cbedf51","mf.mfrr_components","mfidl/MFRR_COMPONENTS","mfidl/PMFRR_COMPONENTS"]
+description: Contains information about one or more revoked components.
+helpviewer_keywords: ["*PMFRR_COMPONENTS","MFRR_COMPONENTS","MFRR_COMPONENTS structure [Media Foundation]","PMFRR_COMPONENTS","PMFRR_COMPONENTS structure pointer [Media Foundation]","df12e64b-92e3-4446-bade-3ad55cbedf51","mf.mfrr_components","mfidl/MFRR_COMPONENTS","mfidl/PMFRR_COMPONENTS"]
 old-location: mf\mfrr_components.htm
 tech.root: medfound
 ms.assetid: df12e64b-92e3-4446-bade-3ad55cbedf51

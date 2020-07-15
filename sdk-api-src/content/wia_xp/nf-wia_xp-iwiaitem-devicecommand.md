@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaItem.DeviceCommand
 title: IWiaItem::DeviceCommand (wia_xp.h)
-description: The IWiaItem::DeviceCommand issues a command to a Windows Image Acquisition (WIA) hardware device.helpviewer_keywords: ["DeviceCommand","DeviceCommand method [WIA]","DeviceCommand method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","DeviceCommand method","IWiaItem.DeviceCommand","IWiaItem::DeviceCommand","_wia_IWiaItem_DeviceCommand","wia._wia_IWiaItem_DeviceCommand","wia_xp/IWiaItem::DeviceCommand"]
+description: The IWiaItem::DeviceCommand issues a command to a Windows Image Acquisition (WIA) hardware device.
+helpviewer_keywords: ["DeviceCommand","DeviceCommand method [WIA]","DeviceCommand method [WIA]","IWiaItem interface","IWiaItem interface [WIA]","DeviceCommand method","IWiaItem.DeviceCommand","IWiaItem::DeviceCommand","_wia_IWiaItem_DeviceCommand","wia._wia_IWiaItem_DeviceCommand","wia_xp/IWiaItem::DeviceCommand"]
 old-location: wia\_wia_IWiaItem_DeviceCommand.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitem\devicecommand.htm

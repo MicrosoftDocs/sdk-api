@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IChannelIDTuneRequest
 title: IChannelIDTuneRequest (tuner.h)
-description: Implements methods that support channel requests using a string identifier.helpviewer_keywords: ["IChannelIDTuneRequest","IChannelIDTuneRequest interface [Microsoft TV Technologies]","IChannelIDTuneRequest interface [Microsoft TV Technologies]","described","mstv.ichannelidtunerequest","tuner/IChannelIDTuneRequest"]
+description: Implements methods that support channel requests using a string identifier.
+helpviewer_keywords: ["IChannelIDTuneRequest","IChannelIDTuneRequest interface [Microsoft TV Technologies]","IChannelIDTuneRequest interface [Microsoft TV Technologies]","described","mstv.ichannelidtunerequest","tuner/IChannelIDTuneRequest"]
 old-location: mstv\ichannelidtunerequest.htm
 tech.root: mstv
 ms.assetid: 4ff0e945-b0a3-4b9f-9511-5891b69c72df

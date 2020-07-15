@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509CertificateTemplates.Remove
 title: IX509CertificateTemplates::Remove (certenroll.h)
-description: Removes an IX509CertificateTemplate object from the collection by index number.helpviewer_keywords: ["IX509CertificateTemplates interface [Security]","Remove method","IX509CertificateTemplates.Remove","IX509CertificateTemplates::Remove","Remove","Remove method [Security]","Remove method [Security]","IX509CertificateTemplates interface","certenroll/IX509CertificateTemplates::Remove","security.ix509certificatetemplates_remove"]
+description: Removes an IX509CertificateTemplate object from the collection by index number.
+helpviewer_keywords: ["IX509CertificateTemplates interface [Security]","Remove method","IX509CertificateTemplates.Remove","IX509CertificateTemplates::Remove","Remove","Remove method [Security]","Remove method [Security]","IX509CertificateTemplates interface","certenroll/IX509CertificateTemplates::Remove","security.ix509certificatetemplates_remove"]
 old-location: security\ix509certificatetemplates_remove.htm
 tech.root: seccertenroll
 ms.assetid: e30aaeab-4130-40ab-9b50-32a119fdb794

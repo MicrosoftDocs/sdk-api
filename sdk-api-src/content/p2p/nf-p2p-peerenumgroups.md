@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerEnumGroups
 title: PeerEnumGroups function (p2p.h)
-description: The PeerEnumGroups function creates and returns a peer enumeration handle used to enumerate all the peer groups associated with a specific peer identity.helpviewer_keywords: ["PeerEnumGroups","PeerEnumGroups function [Peer Networking]","p2p.peerenumgroups","p2p/PeerEnumGroups"]
+description: The PeerEnumGroups function creates and returns a peer enumeration handle used to enumerate all the peer groups associated with a specific peer identity.
+helpviewer_keywords: ["PeerEnumGroups","PeerEnumGroups function [Peer Networking]","p2p.peerenumgroups","p2p/PeerEnumGroups"]
 old-location: p2p\peerenumgroups.htm
 tech.root: P2PSdk
 ms.assetid: debb3c57-b5d2-440b-acf2-b6d8e712849b

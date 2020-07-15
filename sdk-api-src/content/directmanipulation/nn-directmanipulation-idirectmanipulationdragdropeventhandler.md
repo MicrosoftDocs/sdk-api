@@ -1,7 +1,8 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationDragDropEventHandler
 title: IDirectManipulationDragDropEventHandler (directmanipulation.h)
-description: Defines methods to handle drag-drop behavior events.helpviewer_keywords: ["IDirectManipulationDragDropEventHandler","IDirectManipulationDragDropEventHandler interface [Direct Manipulation]","IDirectManipulationDragDropEventHandler interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationdragdropeventhandler","directmanipulation/IDirectManipulationDragDropEventHandler"]
+description: Defines methods to handle drag-drop behavior events.
+helpviewer_keywords: ["IDirectManipulationDragDropEventHandler","IDirectManipulationDragDropEventHandler interface [Direct Manipulation]","IDirectManipulationDragDropEventHandler interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationdragdropeventhandler","directmanipulation/IDirectManipulationDragDropEventHandler"]
 old-location: directmanipulation\idirectmanipulationdragdropeventhandler.htm
 tech.root: directmanipulation
 ms.assetid: B0F4120F-E64C-4224-A1C5-00DBEE63949B

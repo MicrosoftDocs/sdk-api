@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagENUMLOGFONTEXW
 title: ENUMLOGFONTEXW (wingdi.h)
-description: The ENUMLOGFONTEX structure contains information about an enumerated font.helpviewer_keywords: ["*LPENUMLOGFONTEXW","ENUMLOGFONTEX","ENUMLOGFONTEX structure [Windows GDI]","ENUMLOGFONTEXA","ENUMLOGFONTEXW","LPENUMLOGFONTEX","LPENUMLOGFONTEX structure pointer [Windows GDI]","_win32_ENUMLOGFONTEX_str","gdi.enumlogfontex","wingdi/ENUMLOGFONTEX","wingdi/ENUMLOGFONTEXA","wingdi/ENUMLOGFONTEXW","wingdi/LPENUMLOGFONTEX"]
+description: The ENUMLOGFONTEX structure contains information about an enumerated font.
+helpviewer_keywords: ["*LPENUMLOGFONTEXW","ENUMLOGFONTEX","ENUMLOGFONTEX structure [Windows GDI]","ENUMLOGFONTEXA","ENUMLOGFONTEXW","LPENUMLOGFONTEX","LPENUMLOGFONTEX structure pointer [Windows GDI]","_win32_ENUMLOGFONTEX_str","gdi.enumlogfontex","wingdi/ENUMLOGFONTEX","wingdi/ENUMLOGFONTEXA","wingdi/ENUMLOGFONTEXW","wingdi/LPENUMLOGFONTEX"]
 old-location: gdi\enumlogfontex.htm
 tech.root: gdi
 ms.assetid: 2e848e47-5b5f-46ad-9963-55d6bb6748a9
@@ -107,4 +108,9 @@ The script, that is, the character set, of the font. For example, Cyrillic.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The wingdi.h header defines ENUMLOGFONTEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

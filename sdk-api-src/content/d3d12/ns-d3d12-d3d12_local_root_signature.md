@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_LOCAL_ROOT_SIGNATURE
 title: D3D12_LOCAL_ROOT_SIGNATURE (d3d12.h)
-description: Defines a local root signature state subobject that will be used with associated shaders.helpviewer_keywords: ["D3D12_LOCAL_ROOT_SIGNATURE","D3D12_LOCAL_ROOT_SIGNATURE structure","PD3D12_LOCAL_ROOT_SIGNATURE","PD3D12_LOCAL_ROOT_SIGNATURE structure pointer","d3d12/D3D12_LOCAL_ROOT_SIGNATURE","d3d12/PD3D12_LOCAL_ROOT_SIGNATURE","direct3d12.d3d12_local_root_signature"]
+description: Defines a local root signature state subobject that will be used with associated shaders.
+helpviewer_keywords: ["D3D12_LOCAL_ROOT_SIGNATURE","D3D12_LOCAL_ROOT_SIGNATURE structure","PD3D12_LOCAL_ROOT_SIGNATURE","PD3D12_LOCAL_ROOT_SIGNATURE structure pointer","d3d12/D3D12_LOCAL_ROOT_SIGNATURE","d3d12/PD3D12_LOCAL_ROOT_SIGNATURE","direct3d12.d3d12_local_root_signature"]
 old-location: direct3d12\d3d12_local_root_signature.htm
 tech.root: direct3d12
 ms.assetid: 98265867-4A2A-4AFC-B6B8-F91AC343C2B9

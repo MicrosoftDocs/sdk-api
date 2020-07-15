@@ -1,7 +1,8 @@
 ---
 UID: NF:processsnapshot.PssWalkMarkerSetPosition
 title: PssWalkMarkerSetPosition function (processsnapshot.h)
-description: Sets the position of a walk marker.helpviewer_keywords: ["PssWalkMarkerSetPosition","PssWalkMarkerSetPosition function","proc_snap.psswalkmarkersetposition","processsnapshot/PssWalkMarkerSetPosition"]
+description: Sets the position of a walk marker.
+helpviewer_keywords: ["PssWalkMarkerSetPosition","PssWalkMarkerSetPosition function","proc_snap.psswalkmarkersetposition","processsnapshot/PssWalkMarkerSetPosition"]
 old-location: proc_snap\psswalkmarkersetposition.htm
 tech.root: proc_snap
 ms.assetid: D89EA4DB-D8C6-43D1-B292-D24F1EAB2E43

@@ -1,7 +1,8 @@
 ---
 UID: NF:spellcheck.IUserDictionariesRegistrar.UnregisterUserDictionary
 title: IUserDictionariesRegistrar::UnregisterUserDictionary (spellcheck.h)
-description: Unregisters a previously registered user dictionary.helpviewer_keywords: ["IUserDictionariesRegistrar interface [Internationalization for Windows Applications]","UnregisterUserDictionary method","IUserDictionariesRegistrar.UnregisterUserDictionary","IUserDictionariesRegistrar::UnregisterUserDictionary","UnregisterUserDictionary","UnregisterUserDictionary method [Internationalization for Windows Applications]","UnregisterUserDictionary method [Internationalization for Windows Applications]","IUserDictionariesRegistrar interface","intl.iuserdictionariesregistrar_unregisteruserdictionary","spellcheck/IUserDictionariesRegistrar::UnregisterUserDictionary"]
+description: Unregisters a previously registered user dictionary.
+helpviewer_keywords: ["IUserDictionariesRegistrar interface [Internationalization for Windows Applications]","UnregisterUserDictionary method","IUserDictionariesRegistrar.UnregisterUserDictionary","IUserDictionariesRegistrar::UnregisterUserDictionary","UnregisterUserDictionary","UnregisterUserDictionary method [Internationalization for Windows Applications]","UnregisterUserDictionary method [Internationalization for Windows Applications]","IUserDictionariesRegistrar interface","intl.iuserdictionariesregistrar_unregisteruserdictionary","spellcheck/IUserDictionariesRegistrar::UnregisterUserDictionary"]
 old-location: intl\iuserdictionariesregistrar_unregisteruserdictionary.htm
 tech.root: Intl
 ms.assetid: 6b1756f5-7ab5-4408-896d-5ea5ae671651

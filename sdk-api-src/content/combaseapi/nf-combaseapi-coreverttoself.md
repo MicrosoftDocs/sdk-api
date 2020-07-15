@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoRevertToSelf
 title: CoRevertToSelf function (combaseapi.h)
-description: Restores the authentication information on a thread of execution.helpviewer_keywords: ["CoRevertToSelf","CoRevertToSelf function [COM]","_com_CoRevertToSelf","com.coreverttoself","combaseapi/CoRevertToSelf"]
+description: Restores the authentication information on a thread of execution.
+helpviewer_keywords: ["CoRevertToSelf","CoRevertToSelf function [COM]","_com_CoRevertToSelf","com.coreverttoself","combaseapi/CoRevertToSelf"]
 old-location: com\coreverttoself.htm
 tech.root: com
 ms.assetid: 8061ddbe-ed21-47f7-9ac4-b3ec910ff89d

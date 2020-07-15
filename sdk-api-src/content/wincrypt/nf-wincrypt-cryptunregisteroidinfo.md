@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptUnregisterOIDInfo
 title: CryptUnregisterOIDInfo function (wincrypt.h)
-description: The CryptUnregisterOIDInfo function removes the registration of a specified CRYPT_OID_INFO OID information structure. The structure to be unregistered is identified by the structure's pszOID and dwGroupId members.helpviewer_keywords: ["CryptUnregisterOIDInfo","CryptUnregisterOIDInfo function [Security]","_crypto2_cryptunregisteroidinfo","security.cryptunregisteroidinfo","wincrypt/CryptUnregisterOIDInfo"]
+description: The CryptUnregisterOIDInfo function removes the registration of a specified CRYPT_OID_INFO OID information structure. The structure to be unregistered is identified by the structure's pszOID and dwGroupId members.
+helpviewer_keywords: ["CryptUnregisterOIDInfo","CryptUnregisterOIDInfo function [Security]","_crypto2_cryptunregisteroidinfo","security.cryptunregisteroidinfo","wincrypt/CryptUnregisterOIDInfo"]
 old-location: security\cryptunregisteroidinfo.htm
 tech.root: SecCrypto
 ms.assetid: 1217397b-2af9-4f58-8616-5a18ee2f4b8c

@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfLangBarEventSink.GetItemFloatingRect
 title: ITfLangBarEventSink::GetItemFloatingRect (ctfutb.h)
-description: ITfLangBarEventSink::GetItemFloatingRect methodhelpviewer_keywords: ["GetItemFloatingRect","GetItemFloatingRect method [Text Services Framework]","GetItemFloatingRect method [Text Services Framework]","ITfLangBarEventSink interface","ITfLangBarEventSink interface [Text Services Framework]","GetItemFloatingRect method","ITfLangBarEventSink.GetItemFloatingRect","ITfLangBarEventSink::GetItemFloatingRect","_tsf_itflangbareventsink_getitemfloatingrect_ref","ctfutb/ITfLangBarEventSink::GetItemFloatingRect","tsf.itflangbareventsink_getitemfloatingrect"]
+description: ITfLangBarEventSink::GetItemFloatingRect method
+helpviewer_keywords: ["GetItemFloatingRect","GetItemFloatingRect method [Text Services Framework]","GetItemFloatingRect method [Text Services Framework]","ITfLangBarEventSink interface","ITfLangBarEventSink interface [Text Services Framework]","GetItemFloatingRect method","ITfLangBarEventSink.GetItemFloatingRect","ITfLangBarEventSink::GetItemFloatingRect","_tsf_itflangbareventsink_getitemfloatingrect_ref","ctfutb/ITfLangBarEventSink::GetItemFloatingRect","tsf.itflangbareventsink_getitemfloatingrect"]
 old-location: tsf\itflangbareventsink_getitemfloatingrect.htm
 tech.root: TSF
 ms.assetid: 05747d41-1342-4189-b654-ceb8fadcadd5

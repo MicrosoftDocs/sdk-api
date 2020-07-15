@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.LSA_AP_LOGON_TERMINATED
 title: LSA_AP_LOGON_TERMINATED (ntsecpkg.h)
-description: Used to notify an authentication package when a logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.helpviewer_keywords: ["LSA_AP_LOGON_TERMINATED","LSA_AP_LOGON_TERMINATED callback","LsaApLogonTerminated","LsaApLogonTerminated callback function [Security]","_lsa_lsaaplogonterminated","ntsecpkg/LsaApLogonTerminated","security.lsaaplogonterminated"]
+description: Used to notify an authentication package when a logon session terminates. A logon session terminates when the last token referencing the logon session is deleted.
+helpviewer_keywords: ["LSA_AP_LOGON_TERMINATED","LSA_AP_LOGON_TERMINATED callback","LsaApLogonTerminated","LsaApLogonTerminated callback function [Security]","_lsa_lsaaplogonterminated","ntsecpkg/LsaApLogonTerminated","security.lsaaplogonterminated"]
 old-location: security\lsaaplogonterminated.htm
 tech.root: SecAuthN
 ms.assetid: 17e8426a-5a25-48ca-8cef-91bbeda8490c

@@ -1,7 +1,8 @@
 ---
 UID: NS:shlobj_core.__unnamed_struct_14
 title: SHELLSTATEW (shlobj_core.h)
-description: Contains settings for the Shell's state. This structure is used with the SHGetSetSettings function.helpviewer_keywords: ["*LPSHELLSTATEW","LPSHELLSTATE","LPSHELLSTATE structure pointer [Windows Shell]","SHELLSTATE","SHELLSTATE structure [Windows Shell]","SHELLSTATEA","SHELLSTATEW","_win32_SHELLSTATE","shell.SHELLSTATE","shlobj_core/LPSHELLSTATE","shlobj_core/SHELLSTATE"]
+description: Contains settings for the Shell's state. This structure is used with the SHGetSetSettings function.
+helpviewer_keywords: ["*LPSHELLSTATEW","LPSHELLSTATE","LPSHELLSTATE structure pointer [Windows Shell]","SHELLSTATE","SHELLSTATE structure [Windows Shell]","SHELLSTATEA","SHELLSTATEW","_win32_SHELLSTATE","shell.SHELLSTATE","shlobj_core/LPSHELLSTATE","shlobj_core/SHELLSTATE"]
 old-location: shell\SHELLSTATE.htm
 tech.root: shell
 ms.assetid: a5ba0e9f-d164-4fe6-97ab-34d61289ce1c
@@ -272,4 +273,9 @@ Type: <b>BOOL</b>
 Type: <b>UINT</b>
 
 Not used.
+
+## -remarks
+
+> [!NOTE]
+> The shlobj_core.h header defines SHELLSTATE as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

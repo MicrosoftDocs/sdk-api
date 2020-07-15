@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3NearEqual
 title: XMVector3NearEqual function (directxmath.h)
-description: Tests whether one 3D vector is near another 3D vector.helpviewer_keywords: ["Use DirectX..XMVector3NearEqual","XMVector3NearEqual","XMVector3NearEqual method [DirectX Math Support APIs]","dxmath.xmvector3nearequal"]
+description: Tests whether one 3D vector is near another 3D vector.
+helpviewer_keywords: ["Use DirectX..XMVector3NearEqual","XMVector3NearEqual","XMVector3NearEqual method [DirectX Math Support APIs]","dxmath.xmvector3nearequal"]
 old-location: dxmath\xmvector3nearequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3NearEqual(XMVECTOR,XMVECTOR,XMVECTOR)

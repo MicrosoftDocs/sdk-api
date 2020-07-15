@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchManager.GetIndexerVersionStr
 title: ISearchManager::GetIndexerVersionStr (searchapi.h)
-description: Retrieves the version of the current indexer as a single string.helpviewer_keywords: ["GetIndexerVersionStr","GetIndexerVersionStr method [search]","GetIndexerVersionStr method [search]","ISearchManager interface","ISearchManager interface [search]","GetIndexerVersionStr method","ISearchManager.GetIndexerVersionStr","ISearchManager::GetIndexerVersionStr","WDS 2.65 on Windows XP/Windows Server 2003","WDS 2.66 on Windows XP/Windows Server 2003","WDS 3.0 on Windows XP/Windows Server 2003","WDS 3.01 on Windows XP/Windows Server 2003","Windows Search 4.0 Preview on all platforms","Windows Search 4.0 on all platforms","Windows Search on Windows Vista RTM/Windows Server RTM","Windows Search on Windows Vista SP1/Windows Server 2008","_search_ISearchManager_GetIndexerVersionStr","search._search_ISearchManager_GetIndexerVersionStr","searchapi/ISearchManager::GetIndexerVersionStr"]
+description: Retrieves the version of the current indexer as a single string.
+helpviewer_keywords: ["GetIndexerVersionStr","GetIndexerVersionStr method [search]","GetIndexerVersionStr method [search]","ISearchManager interface","ISearchManager interface [search]","GetIndexerVersionStr method","ISearchManager.GetIndexerVersionStr","ISearchManager::GetIndexerVersionStr","WDS 2.65 on Windows XP/Windows Server 2003","WDS 2.66 on Windows XP/Windows Server 2003","WDS 3.0 on Windows XP/Windows Server 2003","WDS 3.01 on Windows XP/Windows Server 2003","Windows Search 4.0 Preview on all platforms","Windows Search 4.0 on all platforms","Windows Search on Windows Vista RTM/Windows Server RTM","Windows Search on Windows Vista SP1/Windows Server 2008","_search_ISearchManager_GetIndexerVersionStr","search._search_ISearchManager_GetIndexerVersionStr","searchapi/ISearchManager::GetIndexerVersionStr"]
 old-location: search\_search_ISearchManager_GetIndexerVersionStr.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\getindexerversionstr.htm
@@ -125,9 +126,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-The ReindexMatchingUrls code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates ways to specify which files to re-index and how.
-
-
-
+Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-reindexmatchingurls">ReindexMatchingUrls code sample</a> to see ways to specify which files to re-index and how set it up.

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateAsyncResult
 title: MFCreateAsyncResult function (mfapi.h)
-description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.helpviewer_keywords: ["6ff773a9-961e-4a5e-ad37-46234022c575","MFCreateAsyncResult","MFCreateAsyncResult function [Media Foundation]","mf.mfcreateasyncresult","mfapi/MFCreateAsyncResult"]
+description: Creates an asynchronous result object. Use this function if you are implementing an asynchronous method.
+helpviewer_keywords: ["6ff773a9-961e-4a5e-ad37-46234022c575","MFCreateAsyncResult","MFCreateAsyncResult function [Media Foundation]","mf.mfcreateasyncresult","mfapi/MFCreateAsyncResult"]
 old-location: mf\mfcreateasyncresult.htm
 tech.root: medfound
 ms.assetid: 6ff773a9-961e-4a5e-ad37-46234022c575

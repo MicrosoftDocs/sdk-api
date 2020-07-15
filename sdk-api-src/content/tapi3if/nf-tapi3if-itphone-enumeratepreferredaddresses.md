@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITPhone.EnumeratePreferredAddresses
 title: ITPhone::EnumeratePreferredAddresses (tapi3if.h)
-description: The EnumeratePreferredAddresses method enumerates the preferred addresses for the phone object. The application does not have to call ITPhone::Open before executing this method.helpviewer_keywords: ["EnumeratePreferredAddresses","EnumeratePreferredAddresses method [TAPI 2.2]","EnumeratePreferredAddresses method [TAPI 2.2]","ITPhone interface","ITPhone interface [TAPI 2.2]","EnumeratePreferredAddresses method","ITPhone.EnumeratePreferredAddresses","ITPhone::EnumeratePreferredAddresses","_tapi3_itphone_enumeratepreferredaddresses","tapi3.itphone_enumeratepreferredaddresses","tapi3if/ITPhone::EnumeratePreferredAddresses"]
+description: The EnumeratePreferredAddresses method enumerates the preferred addresses for the phone object. The application does not have to call ITPhone::Open before executing this method.
+helpviewer_keywords: ["EnumeratePreferredAddresses","EnumeratePreferredAddresses method [TAPI 2.2]","EnumeratePreferredAddresses method [TAPI 2.2]","ITPhone interface","ITPhone interface [TAPI 2.2]","EnumeratePreferredAddresses method","ITPhone.EnumeratePreferredAddresses","ITPhone::EnumeratePreferredAddresses","_tapi3_itphone_enumeratepreferredaddresses","tapi3.itphone_enumeratepreferredaddresses","tapi3if/ITPhone::EnumeratePreferredAddresses"]
 old-location: tapi3\itphone_enumeratepreferredaddresses.htm
 tech.root: Tapi
 ms.assetid: 7bb15dc1-c1f0-4da5-8217-baedb45b70f7

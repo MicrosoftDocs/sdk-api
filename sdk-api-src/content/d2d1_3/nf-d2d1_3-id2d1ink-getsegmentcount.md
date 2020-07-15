@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1Ink.GetSegmentCount
 title: ID2D1Ink::GetSegmentCount (d2d1_3.h)
-description: Returns the number of segments in this ink object.helpviewer_keywords: ["GetSegmentCount","GetSegmentCount method [Direct2D]","GetSegmentCount method [Direct2D]","ID2D1Ink interface","ID2D1Ink interface [Direct2D]","GetSegmentCount method","ID2D1Ink.GetSegmentCount","ID2D1Ink::GetSegmentCount","d2d1_3/ID2D1Ink::GetSegmentCount","direct2d.id2d1ink_getsegmentcount"]
+description: Returns the number of segments in this ink object.
+helpviewer_keywords: ["GetSegmentCount","GetSegmentCount method [Direct2D]","GetSegmentCount method [Direct2D]","ID2D1Ink interface","ID2D1Ink interface [Direct2D]","GetSegmentCount method","ID2D1Ink.GetSegmentCount","ID2D1Ink::GetSegmentCount","d2d1_3/ID2D1Ink::GetSegmentCount","direct2d.id2d1ink_getsegmentcount"]
 old-location: direct2d\id2d1ink_getsegmentcount.htm
 tech.root: Direct2D
 ms.assetid: 8222B527-FEEE-4456-8C0E-35437CB81DE5

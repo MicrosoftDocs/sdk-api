@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarR8Pow
 title: VarR8Pow function (oleauto.h)
-description: Performs the power function for variants of type double.helpviewer_keywords: ["VarR8Pow","VarR8Pow function [Automation]","_oa96_VarR8Pow","automat.varr8pow","oleauto/VarR8Pow"]
+description: Performs the power function for variants of type double.
+helpviewer_keywords: ["VarR8Pow","VarR8Pow function [Automation]","_oa96_VarR8Pow","automat.varr8pow","oleauto/VarR8Pow"]
 old-location: automat\varr8pow.htm
 tech.root: automat
 ms.assetid: 45ad59e7-f829-43f0-85f8-9cabb2a36ddf

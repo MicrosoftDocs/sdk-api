@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary.CreateCubicTransition
 title: IUIAnimationTransitionLibrary::CreateCubicTransition (uianimation.h)
-description: Creates a cubic transition.helpviewer_keywords: ["CreateCubicTransition","CreateCubicTransition method [Windows Animation]","CreateCubicTransition method [Windows Animation]","IUIAnimationTransitionLibrary interface","IUIAnimationTransitionLibrary interface [Windows Animation]","CreateCubicTransition method","IUIAnimationTransitionLibrary.CreateCubicTransition","IUIAnimationTransitionLibrary::CreateCubicTransition","uianimation.iuianimationtransitionlibrary_createcubictransition","uianimation/IUIAnimationTransitionLibrary::CreateCubicTransition"]
+description: Creates a cubic transition.
+helpviewer_keywords: ["CreateCubicTransition","CreateCubicTransition method [Windows Animation]","CreateCubicTransition method [Windows Animation]","IUIAnimationTransitionLibrary interface","IUIAnimationTransitionLibrary interface [Windows Animation]","CreateCubicTransition method","IUIAnimationTransitionLibrary.CreateCubicTransition","IUIAnimationTransitionLibrary::CreateCubicTransition","uianimation.iuianimationtransitionlibrary_createcubictransition","uianimation/IUIAnimationTransitionLibrary::CreateCubicTransition"]
 old-location: uianimation\iuianimationtransitionlibrary_createcubictransition.htm
 tech.root: UIAnimation
 ms.assetid: 5003685d-d4d7-4871-b700-4d7f38050ada

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IObjectWithProgID.SetProgID
 title: IObjectWithProgID::SetProgID (shobjidl_core.h)
-description: Sets the ProgID of an object.helpviewer_keywords: ["IObjectWithProgID interface [Windows Shell]","SetProgID method","IObjectWithProgID.SetProgID","IObjectWithProgID::SetProgID","SetProgID","SetProgID method [Windows Shell]","SetProgID method [Windows Shell]","IObjectWithProgID interface","_shell_IObjectWithProgID_SetProgID","shell.IObjectWithProgID_SetProgID","shobjidl_core/IObjectWithProgID::SetProgID"]
+description: Sets the ProgID of an object.
+helpviewer_keywords: ["IObjectWithProgID interface [Windows Shell]","SetProgID method","IObjectWithProgID.SetProgID","IObjectWithProgID::SetProgID","SetProgID","SetProgID method [Windows Shell]","SetProgID method [Windows Shell]","IObjectWithProgID interface","_shell_IObjectWithProgID_SetProgID","shell.IObjectWithProgID_SetProgID","shobjidl_core/IObjectWithProgID::SetProgID"]
 old-location: shell\IObjectWithProgID_SetProgID.htm
 tech.root: shell
 ms.assetid: 4889f9a5-da80-4909-b4b5-4ea69ea99c3e

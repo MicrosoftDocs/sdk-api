@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.CreateDirectoryExA
 title: CreateDirectoryExA function (winbase.h)
-description: Creates a new directory with the attributes of a specified template directory.helpviewer_keywords: ["CreateDirectoryEx","CreateDirectoryEx function [Files]","CreateDirectoryExA","CreateDirectoryExW","_win32_createdirectoryex","base.createdirectoryex","fs.createdirectoryex","winbase/CreateDirectoryEx","winbase/CreateDirectoryExA","winbase/CreateDirectoryExW"]
+description: Creates a new directory with the attributes of a specified template directory.
+helpviewer_keywords: ["CreateDirectoryEx","CreateDirectoryEx function [Files]","CreateDirectoryExA","CreateDirectoryExW","_win32_createdirectoryex","base.createdirectoryex","fs.createdirectoryex","winbase/CreateDirectoryEx","winbase/CreateDirectoryExA","winbase/CreateDirectoryExW"]
 old-location: fs\createdirectoryex.htm
 tech.root: FileIO
 ms.assetid: 287996f8-e8ca-4b72-a5f6-016754785c5c
@@ -240,6 +241,10 @@ Yes
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines CreateDirectoryEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

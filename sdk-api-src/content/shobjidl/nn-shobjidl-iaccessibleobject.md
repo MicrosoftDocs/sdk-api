@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.IAccessibleObject
 title: IAccessibleObject (shobjidl.h)
-description: Exposes a method that can be used by an accessibility application.helpviewer_keywords: ["IAccessibleObject","IAccessibleObject interface [Windows Shell]","IAccessibleObject interface [Windows Shell]","described","_shell_IAccessibleObject","shell.IAccessibleObject","shobjidl/IAccessibleObject"]
+description: Exposes a method that can be used by an accessibility application.
+helpviewer_keywords: ["IAccessibleObject","IAccessibleObject interface [Windows Shell]","IAccessibleObject interface [Windows Shell]","described","_shell_IAccessibleObject","shell.IAccessibleObject","shobjidl/IAccessibleObject"]
 old-location: shell\IAccessibleObject.htm
 tech.root: shell
 ms.assetid: bac49a2d-4357-4607-a89d-d2ed4abf89bb

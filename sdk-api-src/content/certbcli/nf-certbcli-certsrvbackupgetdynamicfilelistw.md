@@ -1,7 +1,8 @@
 ---
 UID: NF:certbcli.CertSrvBackupGetDynamicFileListW
 title: CertSrvBackupGetDynamicFileListW function (certbcli.h)
-description: Retrieves the list of Certificate Services dynamic file names that need to be backed up for the given backup context.helpviewer_keywords: ["CertSrvBackupGetDynamicFileList","CertSrvBackupGetDynamicFileList function [Security]","CertSrvBackupGetDynamicFileListW","_certsrv_certsrvbackupgetdynamicfilelist","certbcli/CertSrvBackupGetDynamicFileList","certbcli/CertSrvBackupGetDynamicFileListW","security.certsrvbackupgetdynamicfilelist"]
+description: Retrieves the list of Certificate Services dynamic file names that need to be backed up for the given backup context.
+helpviewer_keywords: ["CertSrvBackupGetDynamicFileList","CertSrvBackupGetDynamicFileList function [Security]","CertSrvBackupGetDynamicFileListW","_certsrv_certsrvbackupgetdynamicfilelist","certbcli/CertSrvBackupGetDynamicFileList","certbcli/CertSrvBackupGetDynamicFileListW","security.certsrvbackupgetdynamicfilelist"]
 old-location: security\certsrvbackupgetdynamicfilelist.htm
 tech.root: SecCrypto
 ms.assetid: ff60b705-5ac6-4e61-9b88-9ffc2dc9adce

@@ -1,7 +1,8 @@
 ---
 UID: NF:eventsys.IEventSubscription.PutSubscriberProperty
 title: IEventSubscription::PutSubscriberProperty (eventsys.h)
-description: Writes a property and its value to the property bag to define subscriber context.helpviewer_keywords: ["IEventSubscription interface [COM+]","PutSubscriberProperty method","IEventSubscription.PutSubscriberProperty","IEventSubscription::PutSubscriberProperty","PutSubscriberProperty","PutSubscriberProperty method [COM+]","PutSubscriberProperty method [COM+]","IEventSubscription interface","_cos_IEventSubscription_PutSubscriberProperty","cos.ieventsubscription_putsubscriberproperty","eventsys/IEventSubscription::PutSubscriberProperty"]
+description: Writes a property and its value to the property bag to define subscriber context.
+helpviewer_keywords: ["IEventSubscription interface [COM+]","PutSubscriberProperty method","IEventSubscription.PutSubscriberProperty","IEventSubscription::PutSubscriberProperty","PutSubscriberProperty","PutSubscriberProperty method [COM+]","PutSubscriberProperty method [COM+]","IEventSubscription interface","_cos_IEventSubscription_PutSubscriberProperty","cos.ieventsubscription_putsubscriberproperty","eventsys/IEventSubscription::PutSubscriberProperty"]
 old-location: cos\ieventsubscription_putsubscriberproperty.htm
 tech.root: cossdk
 ms.assetid: 817ee07c-32ea-41a4-a871-370c06bfc8a8

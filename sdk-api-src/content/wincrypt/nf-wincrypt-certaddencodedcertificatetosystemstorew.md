@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertAddEncodedCertificateToSystemStoreW
 title: CertAddEncodedCertificateToSystemStoreW function (wincrypt.h)
-description: Opens the specified system store and adds the encoded certificate to it.helpviewer_keywords: ["CertAddEncodedCertificateToSystemStore","CertAddEncodedCertificateToSystemStore function [Security]","CertAddEncodedCertificateToSystemStoreA","CertAddEncodedCertificateToSystemStoreW","security.certaddencodedcertificatetosystemstore","wincrypt/CertAddEncodedCertificateToSystemStore","wincrypt/CertAddEncodedCertificateToSystemStoreA","wincrypt/CertAddEncodedCertificateToSystemStoreW"]
+description: Opens the specified system store and adds the encoded certificate to it.
+helpviewer_keywords: ["CertAddEncodedCertificateToSystemStore","CertAddEncodedCertificateToSystemStore function [Security]","CertAddEncodedCertificateToSystemStoreA","CertAddEncodedCertificateToSystemStoreW","security.certaddencodedcertificatetosystemstore","wincrypt/CertAddEncodedCertificateToSystemStore","wincrypt/CertAddEncodedCertificateToSystemStoreA","wincrypt/CertAddEncodedCertificateToSystemStoreW"]
 old-location: security\certaddencodedcertificatetosystemstore.htm
 tech.root: SecCrypto
 ms.assetid: 72ff1bcc-eb94-4d97-89fa-d95ed9eb460e
@@ -134,4 +135,8 @@ If <b>CertAddEncodedCertificateToSystemStore</b> obtains a handle to the specifi
 
 
 
+
+
+> [!NOTE]
+> The wincrypt.h header defines CertAddEncodedCertificateToSystemStore as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

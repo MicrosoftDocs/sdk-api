@@ -1,7 +1,8 @@
 ---
 UID: NF:docobj.IOleDocumentView.GetInPlaceSite
 title: IOleDocumentView::GetInPlaceSite (docobj.h)
-description: Retrieves the view site associated with this view object.helpviewer_keywords: ["GetInPlaceSite","GetInPlaceSite method [COM]","GetInPlaceSite method [COM]","IOleDocumentView interface","IOleDocumentView interface [COM]","GetInPlaceSite method","IOleDocumentView.GetInPlaceSite","IOleDocumentView::GetInPlaceSite","_ole_ioledocumentview_getinplacesite","com.ioledocumentview_getinplacesite","docobj/IOleDocumentView::GetInPlaceSite"]
+description: Retrieves the view site associated with this view object.
+helpviewer_keywords: ["GetInPlaceSite","GetInPlaceSite method [COM]","GetInPlaceSite method [COM]","IOleDocumentView interface","IOleDocumentView interface [COM]","GetInPlaceSite method","IOleDocumentView.GetInPlaceSite","IOleDocumentView::GetInPlaceSite","_ole_ioledocumentview_getinplacesite","com.ioledocumentview_getinplacesite","docobj/IOleDocumentView::GetInPlaceSite"]
 old-location: com\ioledocumentview_getinplacesite.htm
 tech.root: com
 ms.assetid: d48cd54c-11b3-4acd-a13a-75a612f1761a

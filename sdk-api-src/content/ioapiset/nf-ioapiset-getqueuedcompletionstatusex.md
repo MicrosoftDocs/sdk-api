@@ -1,7 +1,8 @@
 ---
 UID: NF:ioapiset.GetQueuedCompletionStatusEx
 title: GetQueuedCompletionStatusEx function (ioapiset.h)
-description: Retrieves multiple completion port entries simultaneously.helpviewer_keywords: ["GetQueuedCompletionStatusEx","GetQueuedCompletionStatusEx function [Files]","fs.getqueuedcompletionstatusex_func","ioapiset/GetQueuedCompletionStatusEx","winbase/GetQueuedCompletionStatusEx"]
+description: Retrieves multiple completion port entries simultaneously.
+helpviewer_keywords: ["GetQueuedCompletionStatusEx","GetQueuedCompletionStatusEx function [Files]","fs.getqueuedcompletionstatusex_func","ioapiset/GetQueuedCompletionStatusEx","winbase/GetQueuedCompletionStatusEx"]
 old-location: fs\getqueuedcompletionstatusex_func.htm
 tech.root: FileIO
 ms.assetid: 3996c02c-562c-4697-a091-e241ad54b239

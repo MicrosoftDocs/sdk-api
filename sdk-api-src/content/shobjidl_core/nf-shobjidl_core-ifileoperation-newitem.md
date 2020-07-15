@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.NewItem
 title: IFileOperation::NewItem (shobjidl_core.h)
-description: Declares a new item that is to be created in a specified location.helpviewer_keywords: ["IFileOperation interface [Windows Shell]","NewItem method","IFileOperation.NewItem","IFileOperation::NewItem","NewItem","NewItem method [Windows Shell]","NewItem method [Windows Shell]","IFileOperation interface","_shell_IFileOperation_NewItem","shell.IFileOperation_NewItem","shobjidl_core/IFileOperation::NewItem"]
+description: Declares a new item that is to be created in a specified location.
+helpviewer_keywords: ["IFileOperation interface [Windows Shell]","NewItem method","IFileOperation.NewItem","IFileOperation::NewItem","NewItem","NewItem method [Windows Shell]","NewItem method [Windows Shell]","IFileOperation interface","_shell_IFileOperation_NewItem","shell.IFileOperation_NewItem","shobjidl_core/IFileOperation::NewItem"]
 old-location: shell\IFileOperation_NewItem.htm
 tech.root: shell
 ms.assetid: 810a1275-cae2-4487-b517-22aa8e4374a9

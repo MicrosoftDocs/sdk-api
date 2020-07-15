@@ -1,7 +1,8 @@
 ---
 UID: NS:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0029
 title: MPEG_WINSOCK (mpeg2structs.h)
-description: The MPEG_WINSOCK structure is not supported.helpviewer_keywords: ["MPEG_WINSOCK","MPEG_WINSOCK structure [Microsoft TV Technologies]","mpeg2structs/MPEG_WINSOCK","mstv.mpeg_winsock"]
+description: The MPEG_WINSOCK structure is not supported.
+helpviewer_keywords: ["MPEG_WINSOCK","MPEG_WINSOCK structure [Microsoft TV Technologies]","mpeg2structs/MPEG_WINSOCK","mstv.mpeg_winsock"]
 old-location: mstv\mpeg_winsock.htm
 tech.root: mstv
 ms.assetid: b8128811-dd8c-40e0-9010-8c473e253270

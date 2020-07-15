@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathSearchAndQualifyA
 title: PathSearchAndQualifyA function (shlwapi.h)
-description: Determines if a given path is correctly formatted and fully qualified.helpviewer_keywords: ["PathSearchAndQualify","PathSearchAndQualify function [Windows Shell]","PathSearchAndQualifyA","PathSearchAndQualifyW","_win32_PathSearchAndQualify","shell.PathSearchAndQualify","shlwapi/PathSearchAndQualify","shlwapi/PathSearchAndQualifyA","shlwapi/PathSearchAndQualifyW"]
+description: Determines if a given path is correctly formatted and fully qualified.
+helpviewer_keywords: ["PathSearchAndQualify","PathSearchAndQualify function [Windows Shell]","PathSearchAndQualifyA","PathSearchAndQualifyW","_win32_PathSearchAndQualify","shell.PathSearchAndQualify","shlwapi/PathSearchAndQualify","shlwapi/PathSearchAndQualifyA","shlwapi/PathSearchAndQualifyW"]
 old-location: shell\PathSearchAndQualify.htm
 tech.root: shell
 ms.assetid: 90da281d-349a-460a-aa5a-14e3b4ced727
@@ -92,4 +93,9 @@ Type: <b>BOOL</b>
 Returns <b>TRUE</b> if the path is qualified, or <b>FALSE</b> otherwise.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines PathSearchAndQualify as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

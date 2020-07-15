@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.put_DataTimeout
 title: ISearchCatalogManager::put_DataTimeout (searchapi.h)
-description: Sets the time-out value for data transactions between the indexer and the search filter host. This information is stored in the TIMEOUT_INFO structure and is measured in seconds.helpviewer_keywords: ["ISearchCatalogManager interface [search]","put_DataTimeout method","ISearchCatalogManager.put_DataTimeout","ISearchCatalogManager::put_DataTimeout","_search_ISearchCatalogManager_put_DataTimeout","put_DataTimeout","put_DataTimeout method [search]","put_DataTimeout method [search]","ISearchCatalogManager interface","search._search_ISearchCatalogManager_put_DataTimeout","searchapi/ISearchCatalogManager::put_DataTimeout"]
+description: Sets the time-out value for data transactions between the indexer and the search filter host. This information is stored in the TIMEOUT_INFO structure and is measured in seconds.
+helpviewer_keywords: ["ISearchCatalogManager interface [search]","put_DataTimeout method","ISearchCatalogManager.put_DataTimeout","ISearchCatalogManager::put_DataTimeout","_search_ISearchCatalogManager_put_DataTimeout","put_DataTimeout","put_DataTimeout method [search]","put_DataTimeout method [search]","ISearchCatalogManager interface","search._search_ISearchCatalogManager_put_DataTimeout","searchapi/ISearchCatalogManager::put_DataTimeout"]
 old-location: search\_search_ISearchCatalogManager_put_DataTimeout.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\put_datatimeout.htm

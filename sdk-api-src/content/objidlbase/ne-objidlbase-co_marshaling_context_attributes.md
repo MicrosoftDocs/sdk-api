@@ -1,7 +1,8 @@
 ---
 UID: NE:objidlbase.CO_MARSHALING_CONTEXT_ATTRIBUTES
 title: CO_MARSHALING_CONTEXT_ATTRIBUTES (objidlbase.h)
-description: Identifies one of the marshaling context attributes that you can query by using the GetMarshalingContextAttribute method.helpviewer_keywords: ["CO_MARSHALING_CONTEXT_ATTRIBUTES","CO_MARSHALING_CONTEXT_ATTRIBUTES enumeration [COM]","CO_MARSHALING_SOURCE_IS_APP_CONTAINER","com.co_marshaling_context_attributes","objidl/CO_MARSHALING_CONTEXT_ATTRIBUTES","objidl/CO_MARSHALING_SOURCE_IS_APP_CONTAINER"]
+description: Identifies one of the marshaling context attributes that you can query by using the GetMarshalingContextAttribute method.
+helpviewer_keywords: ["CO_MARSHALING_CONTEXT_ATTRIBUTES","CO_MARSHALING_CONTEXT_ATTRIBUTES enumeration [COM]","CO_MARSHALING_SOURCE_IS_APP_CONTAINER","com.co_marshaling_context_attributes","objidl/CO_MARSHALING_CONTEXT_ATTRIBUTES","objidl/CO_MARSHALING_SOURCE_IS_APP_CONTAINER"]
 old-location: com\co_marshaling_context_attributes.htm
 tech.root: com
 ms.assetid: EF020513-8E03-474C-BC14-9E9D6EFE7318

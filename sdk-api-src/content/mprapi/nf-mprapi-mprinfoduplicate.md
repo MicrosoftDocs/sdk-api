@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprInfoDuplicate
 title: MprInfoDuplicate function (mprapi.h)
-description: The MprInfoDuplicate function duplicates an existing information header.helpviewer_keywords: ["MprInfoDuplicate","MprInfoDuplicate function [RAS]","_mpr_mprinfoduplicate","mprapi/MprInfoDuplicate","rras.mprinfoduplicate"]
+description: The MprInfoDuplicate function duplicates an existing information header.
+helpviewer_keywords: ["MprInfoDuplicate","MprInfoDuplicate function [RAS]","_mpr_mprinfoduplicate","mprapi/MprInfoDuplicate","rras.mprinfoduplicate"]
 old-location: rras\mprinfoduplicate.htm
 tech.root: RRAS
 ms.assetid: 446e93a0-8de5-4117-94fe-6f167da1acef

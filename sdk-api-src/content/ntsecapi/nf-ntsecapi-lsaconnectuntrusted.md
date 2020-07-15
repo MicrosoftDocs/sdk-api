@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaConnectUntrusted
 title: LsaConnectUntrusted function (ntsecapi.h)
-description: Establishes an untrusted connection to the LSA server.helpviewer_keywords: ["LsaConnectUntrusted","LsaConnectUntrusted function [Security]","_lsa_lsaconnectuntrusted","ntsecapi/LsaConnectUntrusted","security.lsaconnectuntrusted"]
+description: Establishes an untrusted connection to the LSA server.
+helpviewer_keywords: ["LsaConnectUntrusted","LsaConnectUntrusted function [Security]","_lsa_lsaconnectuntrusted","ntsecapi/LsaConnectUntrusted","security.lsaconnectuntrusted"]
 old-location: security\lsaconnectuntrusted.htm
 tech.root: SecAuthN
 ms.assetid: b54917c8-51cd-4891-9613-f37a4a46448b

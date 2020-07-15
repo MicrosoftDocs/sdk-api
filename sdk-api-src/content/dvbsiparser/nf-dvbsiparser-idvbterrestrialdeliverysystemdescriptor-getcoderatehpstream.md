@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream
 title: IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetCodeRateHPStream","GetCodeRateHPStream method [Microsoft TV Technologies]","GetCodeRateHPStream method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetCodeRateHPStream method","IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream","IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream","IDvbTerrestrialDeliverySystemDescriptorGetCodeRateHPStream","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream","mstv.idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetCodeRateHPStream","GetCodeRateHPStream method [Microsoft TV Technologies]","GetCodeRateHPStream method [Microsoft TV Technologies]","IDvbTerrestrialDeliverySystemDescriptor interface","IDvbTerrestrialDeliverySystemDescriptor interface [Microsoft TV Technologies]","GetCodeRateHPStream method","IDvbTerrestrialDeliverySystemDescriptor.GetCodeRateHPStream","IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream","IDvbTerrestrialDeliverySystemDescriptorGetCodeRateHPStream","dvbsiparser/IDvbTerrestrialDeliverySystemDescriptor::GetCodeRateHPStream","mstv.idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream"]
 old-location: mstv\idvbterrestrialdeliverysystemdescriptor_getcoderatehpstream.htm
 tech.root: mstv
 ms.assetid: 84cc3e77-aa46-40b0-ad04-27541216bb6f

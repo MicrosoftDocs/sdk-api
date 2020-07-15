@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.DrawShadowText
 title: DrawShadowText function (commctrl.h)
-description: Draws text that has a shadow.helpviewer_keywords: ["DrawShadowText","DrawShadowText function [Windows Controls]","commctrl/DrawShadowText","controls.DrawShadowText","controls.inet_DrawShadowText","inet_DrawShadowText","inet_DrawShadowText_cpp"]
+description: Draws text that has a shadow.
+helpviewer_keywords: ["DrawShadowText","DrawShadowText function [Windows Controls]","commctrl/DrawShadowText","controls.DrawShadowText","controls.inet_DrawShadowText","inet_DrawShadowText","inet_DrawShadowText_cpp"]
 old-location: controls\DrawShadowText.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\drawshadowtext.htm

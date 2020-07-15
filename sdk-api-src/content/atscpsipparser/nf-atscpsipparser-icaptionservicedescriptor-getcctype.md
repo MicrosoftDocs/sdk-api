@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetCCType
 title: ICaptionServiceDescriptor::GetCCType (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetCCType","GetCCType method [Microsoft TV Technologies]","GetCCType method [Microsoft TV Technologies]","ICaptionServiceDescriptor interface","ICaptionServiceDescriptor interface [Microsoft TV Technologies]","GetCCType method","ICaptionServiceDescriptor.GetCCType","ICaptionServiceDescriptor::GetCCType","ICaptionServiceDescriptorGetCCType","atscpsipparser/ICaptionServiceDescriptor::GetCCType","mstv.icaptionservicedescriptor_getcctype"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetCCType","GetCCType method [Microsoft TV Technologies]","GetCCType method [Microsoft TV Technologies]","ICaptionServiceDescriptor interface","ICaptionServiceDescriptor interface [Microsoft TV Technologies]","GetCCType method","ICaptionServiceDescriptor.GetCCType","ICaptionServiceDescriptor::GetCCType","ICaptionServiceDescriptorGetCCType","atscpsipparser/ICaptionServiceDescriptor::GetCCType","mstv.icaptionservicedescriptor_getcctype"]
 old-location: mstv\icaptionservicedescriptor_getcctype.htm
 tech.root: mstv
 ms.assetid: d245118a-3ff2-4ea7-9ff9-f8c1991f2073

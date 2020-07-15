@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_First_Log_Conf_Ex
 title: CM_Get_First_Log_Conf_Ex function (cfgmgr32.h)
-description: The CM_Get_First_Log_Conf_Ex function obtains the first logical configuration associated with a specified device instance on a local or a remote machine.helpviewer_keywords: ["CM_Get_First_Log_Conf_Ex","CM_Get_First_Log_Conf_Ex function [Device and Driver Installation]","cfgmgr32/CM_Get_First_Log_Conf_Ex","cfgmgrfn_bfb585c9-0dba-4c24-991e-2e866e3e6e9b.xml","devinst.cm_get_first_log_conf_ex"]
+description: The CM_Get_First_Log_Conf_Ex function obtains the first logical configuration associated with a specified device instance on a local or a remote machine.
+helpviewer_keywords: ["CM_Get_First_Log_Conf_Ex","CM_Get_First_Log_Conf_Ex function [Device and Driver Installation]","cfgmgr32/CM_Get_First_Log_Conf_Ex","cfgmgrfn_bfb585c9-0dba-4c24-991e-2e866e3e6e9b.xml","devinst.cm_get_first_log_conf_ex"]
 old-location: devinst\cm_get_first_log_conf_ex.htm
 tech.root: devinst
 ms.assetid: cb562b5c-eb40-4be4-89a3-0e69a78ae6ea

@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSALookupServiceNextW
 title: WSALookupServiceNextW function (winsock2.h)
-description: The WSALookupServiceNext function is called after obtaining a handle from a previous call to WSALookupServiceBegin in order to retrieve the requested service information.helpviewer_keywords: ["LUP_CONTAINERS","LUP_DEEP","LUP_FLUSHCACHE","LUP_FLUSHPREVIOUS","LUP_NEAREST","LUP_NOCONTAINERS","LUP_RES_SERVICE","LUP_RETURN_ADDR","LUP_RETURN_ALIASES","LUP_RETURN_ALL","LUP_RETURN_BLOB","LUP_RETURN_COMMENT","LUP_RETURN_NAME","LUP_RETURN_QUERY_STRING","LUP_RETURN_TYPE","LUP_RETURN_VERSION","WSALookupServiceNext","WSALookupServiceNext function [Winsock]","WSALookupServiceNextA","WSALookupServiceNextW","_win32_wsalookupservicenext_2","winsock.wsalookupservicenext_2","winsock2/WSALookupServiceNext","winsock2/WSALookupServiceNextA","winsock2/WSALookupServiceNextW"]
+description: The WSALookupServiceNext function is called after obtaining a handle from a previous call to WSALookupServiceBegin in order to retrieve the requested service information.
+helpviewer_keywords: ["LUP_CONTAINERS","LUP_DEEP","LUP_FLUSHCACHE","LUP_FLUSHPREVIOUS","LUP_NEAREST","LUP_NOCONTAINERS","LUP_RES_SERVICE","LUP_RETURN_ADDR","LUP_RETURN_ALIASES","LUP_RETURN_ALL","LUP_RETURN_BLOB","LUP_RETURN_COMMENT","LUP_RETURN_NAME","LUP_RETURN_QUERY_STRING","LUP_RETURN_TYPE","LUP_RETURN_VERSION","WSALookupServiceNext","WSALookupServiceNext function [Winsock]","WSALookupServiceNextA","WSALookupServiceNextW","_win32_wsalookupservicenext_2","winsock.wsalookupservicenext_2","winsock2/WSALookupServiceNext","winsock2/WSALookupServiceNextA","winsock2/WSALookupServiceNextW"]
 old-location: winsock\wsalookupservicenext_2.htm
 tech.root: WinSock
 ms.assetid: ab4f1830-b38d-4224-a6a9-6d4512245ad6
@@ -497,6 +498,10 @@ The following table describes how the query results are represented in the
 
 
 
+
+
+> [!NOTE]
+> The winsock2.h header defines WSALookupServiceNext as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_NIT.ConvertNextToCurrent
 title: IDVB_NIT::ConvertNextToCurrent (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["ConvertNextToCurrent","ConvertNextToCurrent method [Microsoft TV Technologies]","ConvertNextToCurrent method [Microsoft TV Technologies]","IDVB_NIT interface","IDVB_NIT interface [Microsoft TV Technologies]","ConvertNextToCurrent method","IDVB_NIT.ConvertNextToCurrent","IDVB_NIT::ConvertNextToCurrent","IDVB_NITConvertNextToCurrent","dvbsiparser/IDVB_NIT::ConvertNextToCurrent","mstv.idvb_nit_convertnexttocurrent"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["ConvertNextToCurrent","ConvertNextToCurrent method [Microsoft TV Technologies]","ConvertNextToCurrent method [Microsoft TV Technologies]","IDVB_NIT interface","IDVB_NIT interface [Microsoft TV Technologies]","ConvertNextToCurrent method","IDVB_NIT.ConvertNextToCurrent","IDVB_NIT::ConvertNextToCurrent","IDVB_NITConvertNextToCurrent","dvbsiparser/IDVB_NIT::ConvertNextToCurrent","mstv.idvb_nit_convertnexttocurrent"]
 old-location: mstv\idvb_nit_convertnexttocurrent.htm
 tech.root: mstv
 ms.assetid: 068f5dd8-f0fc-4d34-a49c-91cedb7bf7e7

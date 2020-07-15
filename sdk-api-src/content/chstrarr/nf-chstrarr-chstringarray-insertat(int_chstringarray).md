@@ -1,7 +1,8 @@
 ---
 UID: NF:chstrarr.CHStringArray.InsertAt(int,CHStringArray)
 title: CHStringArray::InsertAt(int,CHStringArray) (chstrarr.h)
-description: The InsertAt method inserts all of the elements of another CHStringArray array at the index specified by nStartIndex.helpviewer_keywords: ["CHStringArray.InsertAt","CHStringArray.InsertAt(int","CHStringArray)","CHStringArray::InsertAt","CHStringArray::InsertAt methods [Windows Management Instrumentation]","CHStringArray::InsertAt(int","CHStringArray)","InsertAt","chstrarr/CHStringArray::InsertAt","wmi.insertat_method_in_class_chstringarray"]
+description: The InsertAt method inserts all of the elements of another CHStringArray array at the index specified by nStartIndex.
+helpviewer_keywords: ["CHStringArray.InsertAt","CHStringArray.InsertAt(int","CHStringArray)","CHStringArray::InsertAt","CHStringArray::InsertAt methods [Windows Management Instrumentation]","CHStringArray::InsertAt(int","CHStringArray)","InsertAt","chstrarr/CHStringArray::InsertAt","wmi.insertat_method_in_class_chstringarray"]
 old-location: wmi\chstringarray_insertat_int__chstringarray__.htm
 tech.root: WmiSdk
 ms.assetid: 4aab5eb2-0b6d-4ffc-b627-a35c0696c7cc

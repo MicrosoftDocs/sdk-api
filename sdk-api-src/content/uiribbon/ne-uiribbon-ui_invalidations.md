@@ -1,7 +1,8 @@
 ---
 UID: NE:uiribbon.UI_INVALIDATIONS
 title: UI_INVALIDATIONS (uiribbon.h)
-description: Specifies values that identify the aspect of a Command to invalidate.helpviewer_keywords: ["UI_INVALIDATIONS","UI_INVALIDATIONS enumeration [Windows Ribbon]","UI_INVALIDATIONS_ALLPROPERTIES","UI_INVALIDATIONS_PROPERTY","UI_INVALIDATIONS_STATE","UI_INVALIDATIONS_VALUE","scenicintent_UI_INVALIDATIONS","uiribbon/UI_INVALIDATIONS","uiribbon/UI_INVALIDATIONS_ALLPROPERTIES","uiribbon/UI_INVALIDATIONS_PROPERTY","uiribbon/UI_INVALIDATIONS_STATE","uiribbon/UI_INVALIDATIONS_VALUE","windowsribbon.windowsribbon_ui_invalidations"]
+description: Specifies values that identify the aspect of a Command to invalidate.
+helpviewer_keywords: ["UI_INVALIDATIONS","UI_INVALIDATIONS enumeration [Windows Ribbon]","UI_INVALIDATIONS_ALLPROPERTIES","UI_INVALIDATIONS_PROPERTY","UI_INVALIDATIONS_STATE","UI_INVALIDATIONS_VALUE","scenicintent_UI_INVALIDATIONS","uiribbon/UI_INVALIDATIONS","uiribbon/UI_INVALIDATIONS_ALLPROPERTIES","uiribbon/UI_INVALIDATIONS_PROPERTY","uiribbon/UI_INVALIDATIONS_STATE","uiribbon/UI_INVALIDATIONS_VALUE","windowsribbon.windowsribbon_ui_invalidations"]
 old-location: windowsribbon\windowsribbon_ui_invalidations.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_invalidations.htm

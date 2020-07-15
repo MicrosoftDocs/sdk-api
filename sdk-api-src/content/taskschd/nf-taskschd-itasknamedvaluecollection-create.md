@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskNamedValueCollection.Create
 title: ITaskNamedValueCollection::Create (taskschd.h)
-description: Creates a name-value pair in the collection.helpviewer_keywords: ["Create","Create method [Task Scheduler]","Create method [Task Scheduler]","ITaskNamedValueCollection interface","ITaskNamedValueCollection interface [Task Scheduler]","Create method","ITaskNamedValueCollection.Create","ITaskNamedValueCollection::Create","taskschd.itasknamedvaluecollection_create","taskschd/ITaskNamedValueCollection::Create"]
+description: Creates a name-value pair in the collection.
+helpviewer_keywords: ["Create","Create method [Task Scheduler]","Create method [Task Scheduler]","ITaskNamedValueCollection interface","ITaskNamedValueCollection interface [Task Scheduler]","Create method","ITaskNamedValueCollection.Create","ITaskNamedValueCollection::Create","taskschd.itasknamedvaluecollection_create","taskschd/ITaskNamedValueCollection::Create"]
 old-location: taskschd\itasknamedvaluecollection_create.htm
 tech.root: taskschd
 ms.assetid: aec5ca20-b983-48e1-a5d0-761f18557fe4

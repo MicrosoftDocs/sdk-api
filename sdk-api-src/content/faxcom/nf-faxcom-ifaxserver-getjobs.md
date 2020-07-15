@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxServer.GetJobs
 title: IFaxServer::GetJobs (faxcom.h)
-description: The GetJobs method creates and initializes a FaxJobs object for a specified FaxServer object. The FaxJobs object allows enumeration of the current queued jobs for the connected fax server.helpviewer_keywords: ["GetJobs","GetJobs method [Fax Service]","GetJobs method [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","GetJobs method","IFaxServer.GetJobs","IFaxServer::GetJobs","_mfax_ifaxserver_getjobs","fax._mfax_ifaxserver_client_mfax_ifaxserver_getjobs_cpp","fax._mfax_ifaxserver_getjobs","faxcom/IFaxServer::GetJobs"]
+description: The GetJobs method creates and initializes a FaxJobs object for a specified FaxServer object. The FaxJobs object allows enumeration of the current queued jobs for the connected fax server.
+helpviewer_keywords: ["GetJobs","GetJobs method [Fax Service]","GetJobs method [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","GetJobs method","IFaxServer.GetJobs","IFaxServer::GetJobs","_mfax_ifaxserver_getjobs","fax._mfax_ifaxserver_client_mfax_ifaxserver_getjobs_cpp","fax._mfax_ifaxserver_getjobs","faxcom/IFaxServer::GetJobs"]
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_getjobs_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_9uk3.htm

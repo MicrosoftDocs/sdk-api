@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaDataTransfer.idtGetExtendedTransferInfo
 title: IWiaDataTransfer::idtGetExtendedTransferInfo (wia_xp.h)
-description: The IWiaDataTransfer::idtGetExtendedTransferInfo retrieves extended information relating to data transfer buffers in the case of banded data transfers.helpviewer_keywords: ["IWiaDataTransfer interface [WIA]","idtGetExtendedTransferInfo method","IWiaDataTransfer.idtGetExtendedTransferInfo","IWiaDataTransfer::idtGetExtendedTransferInfo","_wia_IWiaDataTransfer_idtGetExtendedTransferInfo","idtGetExtendedTransferInfo","idtGetExtendedTransferInfo method [WIA]","idtGetExtendedTransferInfo method [WIA]","IWiaDataTransfer interface","wia._wia_IWiaDataTransfer_idtGetExtendedTransferInfo","wia_xp/IWiaDataTransfer::idtGetExtendedTransferInfo"]
+description: The IWiaDataTransfer::idtGetExtendedTransferInfo retrieves extended information relating to data transfer buffers in the case of banded data transfers.
+helpviewer_keywords: ["IWiaDataTransfer interface [WIA]","idtGetExtendedTransferInfo method","IWiaDataTransfer.idtGetExtendedTransferInfo","IWiaDataTransfer::idtGetExtendedTransferInfo","_wia_IWiaDataTransfer_idtGetExtendedTransferInfo","idtGetExtendedTransferInfo","idtGetExtendedTransferInfo method [WIA]","idtGetExtendedTransferInfo method [WIA]","IWiaDataTransfer interface","wia._wia_IWiaDataTransfer_idtGetExtendedTransferInfo","wia_xp/IWiaDataTransfer::idtGetExtendedTransferInfo"]
 old-location: wia\_wia_IWiaDataTransfer_idtGetExtendedTransferInfo.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadatatransfer\idtgetextendedtransferinfo.htm

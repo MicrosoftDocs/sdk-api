@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwRule.get_RemotePorts
 title: INetFwRule::get_RemotePorts (netfw.h)
-description: Specifies the list of remote ports for this rule.helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","RemotePorts property","INetFwRule.RemotePorts","INetFwRule.get_RemotePorts","INetFwRule::RemotePorts","INetFwRule::get_RemotePorts","INetFwRule::put_RemotePorts","RemotePorts property [ICS/ICF]","RemotePorts property [ICS/ICF]","INetFwRule interface","get_RemotePorts","ics.inetfwrule_remoteports","netfw/INetFwRule::RemotePorts","netfw/INetFwRule::get_RemotePorts","netfw/INetFwRule::put_RemotePorts"]
+description: Specifies the list of remote ports for this rule.
+helpviewer_keywords: ["INetFwRule interface [ICS/ICF]","RemotePorts property","INetFwRule.RemotePorts","INetFwRule.get_RemotePorts","INetFwRule::RemotePorts","INetFwRule::get_RemotePorts","INetFwRule::put_RemotePorts","RemotePorts property [ICS/ICF]","RemotePorts property [ICS/ICF]","INetFwRule interface","get_RemotePorts","ics.inetfwrule_remoteports","netfw/INetFwRule::RemotePorts","netfw/INetFwRule::get_RemotePorts","netfw/INetFwRule::put_RemotePorts"]
 old-location: ics\inetfwrule_remoteports.htm
 tech.root: ics
 ms.assetid: e6791258-4669-42d9-9551-5c861bfb2b52

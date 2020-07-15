@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleUndoManager.Close
 title: IOleUndoManager::Close (ocidl.h)
-description: Closes the specified parent undo unit.helpviewer_keywords: ["Close","Close method [COM]","Close method [COM]","IOleUndoManager interface","IOleUndoManager interface [COM]","Close method","IOleUndoManager.Close","IOleUndoManager::Close","_ole_ioleundomanager_close","com.ioleundomanager_close","ocidl/IOleUndoManager::Close"]
+description: Closes the specified parent undo unit.
+helpviewer_keywords: ["Close","Close method [COM]","Close method [COM]","IOleUndoManager interface","IOleUndoManager interface [COM]","Close method","IOleUndoManager.Close","IOleUndoManager::Close","_ole_ioleundomanager_close","com.ioleundomanager_close","ocidl/IOleUndoManager::Close"]
 old-location: com\ioleundomanager_close.htm
 tech.root: com
 ms.assetid: 4546f270-5cef-42a3-b07a-f0a491e78849

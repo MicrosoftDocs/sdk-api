@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj_core.IShellIconOverlayManager
 title: IShellIconOverlayManager (shlobj_core.h)
-description: IShellIconOverlayManager may be altered or unavailable.helpviewer_keywords: ["IShellIconOverlayManager","IShellIconOverlayManager interface [Windows Shell]","IShellIconOverlayManager interface [Windows Shell]","described","_win32_IShellIconOverlayManager","shell.IShellIconOverlayManager","shlobj_core/IShellIconOverlayManager"]
+description: IShellIconOverlayManager may be altered or unavailable.
+helpviewer_keywords: ["IShellIconOverlayManager","IShellIconOverlayManager interface [Windows Shell]","IShellIconOverlayManager interface [Windows Shell]","described","_win32_IShellIconOverlayManager","shell.IShellIconOverlayManager","shlobj_core/IShellIconOverlayManager"]
 old-location: shell\IShellIconOverlayManager.htm
 tech.root: shell
 ms.assetid: 769c3b0b-ece4-4406-a76c-cabc37901351

@@ -1,7 +1,8 @@
 ---
 UID: NE:shobjidl_core.ATTACHMENT_ACTION
 title: ATTACHMENT_ACTION (shobjidl_core.h)
-description: Provides a set of flags to be used with IAttachmentExecute::Prompt to indicate the action to be performed upon user confirmation.helpviewer_keywords: ["ATTACHMENT_ACTION","ATTACHMENT_ACTION enumeration [Windows Shell]","ATTACHMENT_ACTION_CANCEL","ATTACHMENT_ACTION_EXEC","ATTACHMENT_ACTION_SAVE","_win32_ATTACHMENT_ACTION","shell.ATTACHMENT_ACTION","shobjidl_core/ATTACHMENT_ACTION","shobjidl_core/ATTACHMENT_ACTION_CANCEL","shobjidl_core/ATTACHMENT_ACTION_EXEC","shobjidl_core/ATTACHMENT_ACTION_SAVE"]
+description: Provides a set of flags to be used with IAttachmentExecute::Prompt to indicate the action to be performed upon user confirmation.
+helpviewer_keywords: ["ATTACHMENT_ACTION","ATTACHMENT_ACTION enumeration [Windows Shell]","ATTACHMENT_ACTION_CANCEL","ATTACHMENT_ACTION_EXEC","ATTACHMENT_ACTION_SAVE","_win32_ATTACHMENT_ACTION","shell.ATTACHMENT_ACTION","shobjidl_core/ATTACHMENT_ACTION","shobjidl_core/ATTACHMENT_ACTION_CANCEL","shobjidl_core/ATTACHMENT_ACTION_EXEC","shobjidl_core/ATTACHMENT_ACTION_SAVE"]
 old-location: shell\ATTACHMENT_ACTION.htm
 tech.root: shell
 ms.assetid: 2deeb14b-2665-4970-923c-9da1f561979f

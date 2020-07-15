@@ -1,7 +1,8 @@
 ---
 UID: NC:winbio_adapter.PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN
 title: PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN (winbio_adapter.h)
-description: Called by the Windows Biometric Framework to determine which of the Sensor Adapter’s calibration formats the Engine Adapter wants to use.helpviewer_keywords: ["EngineAdapterSelectCalibrationFormat","EngineAdapterSelectCalibrationFormat callback function [Windows Biometric Framework API]","PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN","PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN callback","secbiomet.engineadapterselectcalibrationformat","winbio_adapter/EngineAdapterSelectCalibrationFormat"]
+description: Called by the Windows Biometric Framework to determine which of the Sensor Adapter’s calibration formats the Engine Adapter wants to use.
+helpviewer_keywords: ["EngineAdapterSelectCalibrationFormat","EngineAdapterSelectCalibrationFormat callback function [Windows Biometric Framework API]","PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN","PIBIO_ENGINE_SELECT_CALIBRATION_FORMAT_FN callback","secbiomet.engineadapterselectcalibrationformat","winbio_adapter/EngineAdapterSelectCalibrationFormat"]
 old-location: secbiomet\engineadapterselectcalibrationformat.htm
 tech.root: SecBioMet
 ms.assetid: 1B4920D9-3C8E-4206-A71B-619A14ADD10A

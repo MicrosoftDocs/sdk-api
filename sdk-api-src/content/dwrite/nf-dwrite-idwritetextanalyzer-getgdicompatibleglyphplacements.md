@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalyzer.GetGdiCompatibleGlyphPlacements
 title: IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements (dwrite.h)
-description: Place glyphs output from the GetGlyphs method according to the font and the writing system's rendering rules.helpviewer_keywords: ["GetGdiCompatibleGlyphPlacements","GetGdiCompatibleGlyphPlacements method [Direct Write]","GetGdiCompatibleGlyphPlacements method [Direct Write]","IDWriteTextAnalyzer interface","IDWriteTextAnalyzer interface [Direct Write]","GetGdiCompatibleGlyphPlacements method","IDWriteTextAnalyzer.GetGdiCompatibleGlyphPlacements","IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements","directwrite.idwritetextanalyzer_getgdicompatibleglyphplacements","dwrite/IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements"]
+description: Place glyphs output from the GetGlyphs method according to the font and the writing system's rendering rules.
+helpviewer_keywords: ["GetGdiCompatibleGlyphPlacements","GetGdiCompatibleGlyphPlacements method [Direct Write]","GetGdiCompatibleGlyphPlacements method [Direct Write]","IDWriteTextAnalyzer interface","IDWriteTextAnalyzer interface [Direct Write]","GetGdiCompatibleGlyphPlacements method","IDWriteTextAnalyzer.GetGdiCompatibleGlyphPlacements","IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements","directwrite.idwritetextanalyzer_getgdicompatibleglyphplacements","dwrite/IDWriteTextAnalyzer::GetGdiCompatibleGlyphPlacements"]
 old-location: directwrite\idwritetextanalyzer_getgdicompatibleglyphplacements.htm
 tech.root: DirectWrite
 ms.assetid: 49312b03-9ee9-44ef-b3eb-a35631a6e693

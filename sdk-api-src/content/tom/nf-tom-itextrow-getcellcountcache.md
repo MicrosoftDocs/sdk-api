@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRow.GetCellCountCache
 title: ITextRow::GetCellCountCache (tom.h)
-description: Gets the count of cells cached for this row.helpviewer_keywords: ["GetCellCountCache","GetCellCountCache method [Windows Controls]","GetCellCountCache method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetCellCountCache method","ITextRow.GetCellCountCache","ITextRow::GetCellCountCache","controls.itextrow_getcellcountcache","tom/ITextRow::GetCellCountCache"]
+description: Gets the count of cells cached for this row.
+helpviewer_keywords: ["GetCellCountCache","GetCellCountCache method [Windows Controls]","GetCellCountCache method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetCellCountCache method","ITextRow.GetCellCountCache","ITextRow::GetCellCountCache","controls.itextrow_getcellcountcache","tom/ITextRow::GetCellCountCache"]
 old-location: controls\itextrow_getcellcountcache.htm
 tech.root: Controls
 ms.assetid: e94abbcb-2a7a-4904-a832-0d2158d49010

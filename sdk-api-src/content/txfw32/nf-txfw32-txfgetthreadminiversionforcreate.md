@@ -1,7 +1,8 @@
 ---
 UID: NF:txfw32.TxfGetThreadMiniVersionForCreate
 title: TxfGetThreadMiniVersionForCreate
-description: Returns the MiniVersion a subsequent create is set to open.helpviewer_keywords: ["TxfGetThreadMiniVersionForCreate"]
+description: Returns the MiniVersion a subsequent create is set to open.
+helpviewer_keywords: ["TxfGetThreadMiniVersionForCreate"]
 ms.date: 4/26/2019
 ms.keywords: TxfGetThreadMiniVersionForCreate
 f1_keywords:

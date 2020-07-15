@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoIsHandlerConnected
 title: CoIsHandlerConnected function (combaseapi.h)
-description: Determines whether a remote object is connected to the corresponding in-process object.helpviewer_keywords: ["CoIsHandlerConnected","CoIsHandlerConnected function [COM]","_com_CoIsHandlerConnected","com.coishandlerconnected","combaseapi/CoIsHandlerConnected"]
+description: Determines whether a remote object is connected to the corresponding in-process object.
+helpviewer_keywords: ["CoIsHandlerConnected","CoIsHandlerConnected function [COM]","_com_CoIsHandlerConnected","com.coishandlerconnected","combaseapi/CoIsHandlerConnected"]
 old-location: com\coishandlerconnected.htm
 tech.root: com
 ms.assetid: f58bdec6-3709-439d-9867-0022a069c53d

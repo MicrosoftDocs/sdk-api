@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionTranslateTransform.SetOffsetY(IDCompositionAnimation)
 title: IDCompositionTranslateTransform::SetOffsetY(IDCompositionAnimation) (dcomp.h)
-description: Animates the value of the OffsetY property of a 2D translation transform.helpviewer_keywords: ["IDCompositionTranslateTransform interface [DirectComposition]","SetOffsetY method","IDCompositionTranslateTransform.SetOffsetY","IDCompositionTranslateTransform.SetOffsetY(IDCompositionAnimation)","IDCompositionTranslateTransform::SetOffsetY","IDCompositionTranslateTransform::SetOffsetY(IDCompositionAnimation)","IDCompositionTranslateTransform::SetOffsetY(IDCompositionAnimation*)","SetOffsetY","SetOffsetY method [DirectComposition]","SetOffsetY method [DirectComposition]","IDCompositionTranslateTransform interface","dcomp/IDCompositionTranslateTransform::SetOffsetY","directcomp.idcompositiontranslatetransform_setoffsety_idcompositionanimation"]
+description: Animates the value of the OffsetY property of a 2D translation transform.
+helpviewer_keywords: ["IDCompositionTranslateTransform interface [DirectComposition]","SetOffsetY method","IDCompositionTranslateTransform.SetOffsetY","IDCompositionTranslateTransform.SetOffsetY(IDCompositionAnimation)","IDCompositionTranslateTransform::SetOffsetY","IDCompositionTranslateTransform::SetOffsetY(IDCompositionAnimation)","IDCompositionTranslateTransform::SetOffsetY(IDCompositionAnimation*)","SetOffsetY","SetOffsetY method [DirectComposition]","SetOffsetY method [DirectComposition]","IDCompositionTranslateTransform interface","dcomp/IDCompositionTranslateTransform::SetOffsetY","directcomp.idcompositiontranslatetransform_setoffsety_idcompositionanimation"]
 old-location: directcomp\idcompositiontranslatetransform_setoffsety_idcompositionanimation.htm
 tech.root: directcomp
 ms.assetid: 579B8866-7882-48E9-BA9C-75D78AF66A38

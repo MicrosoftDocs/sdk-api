@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationElement
 title: IUIAutomationElement (uiautomationclient.h)
-description: Exposes methods and properties for a UI Automation element, which represents a UI item.helpviewer_keywords: ["IUIAutomationElement","IUIAutomationElement interface [Windows Accessibility]","IUIAutomationElement interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationElement","uiauto_IUIAutomationElement","uiautomationclient/IUIAutomationElement","winauto.uiauto_IUIAutomationElement"]
+description: Exposes methods and properties for a UI Automation element, which represents a UI item.
+helpviewer_keywords: ["IUIAutomationElement","IUIAutomationElement interface [Windows Accessibility]","IUIAutomationElement interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationElement","uiauto_IUIAutomationElement","uiautomationclient/IUIAutomationElement","winauto.uiauto_IUIAutomationElement"]
 old-location: winauto\uiauto_IUIAutomationElement.htm
 tech.root: WinAuto
 ms.assetid: 9e1f87b1-a204-4ca9-acf2-a40277012207

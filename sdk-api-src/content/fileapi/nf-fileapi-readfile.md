@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.ReadFile
 title: ReadFile function (fileapi.h)
-description: Reads data from the specified file or input/output (I/O) device. Reads occur at the position specified by the file pointer if supported by the device.helpviewer_keywords: ["ReadFile","ReadFile function [Files]","_win32_readfile","base.readfile","fileapi/ReadFile","fs.readfile","winbase/ReadFile"]
+description: Reads data from the specified file or input/output (I/O) device. Reads occur at the position specified by the file pointer if supported by the device.
+helpviewer_keywords: ["ReadFile","ReadFile function [Files]","_win32_readfile","base.readfile","fileapi/ReadFile","fs.readfile","winbase/ReadFile"]
 old-location: fs\readfile.htm
 tech.root: FileIO
 ms.assetid: 4ad4580d-c002-44a4-a5f6-757e83ed8732

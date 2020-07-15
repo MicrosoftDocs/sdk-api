@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.capSetScrollPos
 title: capSetScrollPos macro (vfw.h)
-description: The capSetScrollPos macro defines the portion of the video frame to display in the capture window.helpviewer_keywords: ["_win32_capSetScrollPos","capSetScrollPos","capSetScrollPos macro [Windows Multimedia]","multimedia.capsetscrollpos","vfw/capSetScrollPos"]
+description: The capSetScrollPos macro defines the portion of the video frame to display in the capture window.
+helpviewer_keywords: ["_win32_capSetScrollPos","capSetScrollPos","capSetScrollPos macro [Windows Multimedia]","multimedia.capsetscrollpos","vfw/capSetScrollPos"]
 old-location: multimedia\capsetscrollpos.htm
 tech.root: Multimedia
 ms.assetid: a5af0d75-ae9f-41f2-90cb-8ede7c2f454a

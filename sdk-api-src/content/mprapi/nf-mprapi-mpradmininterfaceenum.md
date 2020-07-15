@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceEnum
 title: MprAdminInterfaceEnum function (mprapi.h)
-description: The MprAdminInterfaceEnum function enumerates all the interfaces on a specified server.helpviewer_keywords: ["MprAdminInterfaceEnum","MprAdminInterfaceEnum function [RAS]","_mpr_mpradmininterfaceenum","mprapi/MprAdminInterfaceEnum","rras.mpradmininterfaceenum"]
+description: The MprAdminInterfaceEnum function enumerates all the interfaces on a specified server.
+helpviewer_keywords: ["MprAdminInterfaceEnum","MprAdminInterfaceEnum function [RAS]","_mpr_mpradmininterfaceenum","mprapi/MprAdminInterfaceEnum","rras.mpradmininterfaceenum"]
 old-location: rras\mpradmininterfaceenum.htm
 tech.root: RRAS
 ms.assetid: 50486ad3-2f1d-4ab9-9a7f-7b72128486fb

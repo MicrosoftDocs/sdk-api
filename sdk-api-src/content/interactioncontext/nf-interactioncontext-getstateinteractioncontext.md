@@ -1,7 +1,8 @@
 ---
 UID: NF:interactioncontext.GetStateInteractionContext
 title: GetStateInteractionContext function (interactioncontext.h)
-description: Gets current Interaction Context state and the time when the context will return to idle state.helpviewer_keywords: ["GetStateInteractionContext","GetStateInteractionContext function","input_intcontext.getstateinteractioncontext","interactioncontext.getstateinteractioncontext","interactioncontext/GetStateInteractionContext"]
+description: Gets current Interaction Context state and the time when the context will return to idle state.
+helpviewer_keywords: ["GetStateInteractionContext","GetStateInteractionContext function","input_intcontext.getstateinteractioncontext","interactioncontext.getstateinteractioncontext","interactioncontext/GetStateInteractionContext"]
 old-location: input_intcontext\getstateinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 35d581a9-b1be-4f9b-8783-ccea3469921a

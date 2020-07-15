@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationElement.get_CurrentAutomationId
 title: IUIAutomationElement::get_CurrentAutomationId (uiautomationclient.h)
-description: Retrieves the Microsoft UI Automation identifier of the element.helpviewer_keywords: ["CurrentAutomationId property [Windows Accessibility]","CurrentAutomationId property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentAutomationId property","IUIAutomationElement.CurrentAutomationId","IUIAutomationElement.get_CurrentAutomationId","IUIAutomationElement::CurrentAutomationId","IUIAutomationElement::get_CurrentAutomationId","get_CurrentAutomationId","uiauto.uiauto_IUIAutomationElement_CurrentAutomationId","uiauto_IUIAutomationElement_CurrentAutomationId","uiautomationclient/IUIAutomationElement::CurrentAutomationId","uiautomationclient/IUIAutomationElement::get_CurrentAutomationId","winauto.uiauto_IUIAutomationElement_CurrentAutomationId"]
+description: Retrieves the Microsoft UI Automation identifier of the element.
+helpviewer_keywords: ["CurrentAutomationId property [Windows Accessibility]","CurrentAutomationId property [Windows Accessibility]","IUIAutomationElement interface","IUIAutomationElement interface [Windows Accessibility]","CurrentAutomationId property","IUIAutomationElement.CurrentAutomationId","IUIAutomationElement.get_CurrentAutomationId","IUIAutomationElement::CurrentAutomationId","IUIAutomationElement::get_CurrentAutomationId","get_CurrentAutomationId","uiauto.uiauto_IUIAutomationElement_CurrentAutomationId","uiauto_IUIAutomationElement_CurrentAutomationId","uiautomationclient/IUIAutomationElement::CurrentAutomationId","uiautomationclient/IUIAutomationElement::get_CurrentAutomationId","winauto.uiauto_IUIAutomationElement_CurrentAutomationId"]
 old-location: winauto\uiauto_IUIAutomationElement_CurrentAutomationId.htm
 tech.root: WinAuto
 ms.assetid: d8dbf803-44ad-4ec6-a1b3-098c85da2364

@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateErrorInfo.SetHelpFile
 title: ICreateErrorInfo::SetHelpFile (oaidl.h)
-description: Sets the path of the Help file that describes the error.helpviewer_keywords: ["ICreateErrorInfo interface [Automation]","SetHelpFile method","ICreateErrorInfo.SetHelpFile","ICreateErrorInfo::SetHelpFile","SetHelpFile","SetHelpFile method [Automation]","SetHelpFile method [Automation]","ICreateErrorInfo interface","_oa96_ICreateErrorInfo_SetHelpFile","automat.icreateerrorinfo_sethelpfile","oaidl/ICreateErrorInfo::SetHelpFile"]
+description: Sets the path of the Help file that describes the error.
+helpviewer_keywords: ["ICreateErrorInfo interface [Automation]","SetHelpFile method","ICreateErrorInfo.SetHelpFile","ICreateErrorInfo::SetHelpFile","SetHelpFile","SetHelpFile method [Automation]","SetHelpFile method [Automation]","ICreateErrorInfo interface","_oa96_ICreateErrorInfo_SetHelpFile","automat.icreateerrorinfo_sethelpfile","oaidl/ICreateErrorInfo::SetHelpFile"]
 old-location: automat\icreateerrorinfo_sethelpfile.htm
 tech.root: automat
 ms.assetid: bb439d74-fd52-4c95-afc5-d57e2fe5029d

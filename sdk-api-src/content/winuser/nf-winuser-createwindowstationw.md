@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CreateWindowStationW
 title: CreateWindowStationW function (winuser.h)
-description: Creates a window station object, associates it with the calling process, and assigns it to the current session.helpviewer_keywords: ["CreateWindowStation","CreateWindowStation function [Windows Stations and Desktops]","CreateWindowStationA","CreateWindowStationW","_win32_createwindowstation","base.createwindowstation","winstation.createwindowstation","winuser/CreateWindowStation","winuser/CreateWindowStationA","winuser/CreateWindowStationW"]
+description: Creates a window station object, associates it with the calling process, and assigns it to the current session.
+helpviewer_keywords: ["CreateWindowStation","CreateWindowStation function [Windows Stations and Desktops]","CreateWindowStationA","CreateWindowStationW","_win32_createwindowstation","base.createwindowstation","winstation.createwindowstation","winuser/CreateWindowStation","winuser/CreateWindowStationA","winuser/CreateWindowStationW"]
 old-location: winstation\createwindowstation.htm
 tech.root: winstation
 ms.assetid: c1aee546-decd-46c9-8d02-d6792f5a6a0d
@@ -110,6 +111,10 @@ After you are done with the handle, you must call
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CreateWindowStation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

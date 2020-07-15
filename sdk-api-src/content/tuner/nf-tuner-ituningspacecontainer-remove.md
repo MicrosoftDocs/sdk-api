@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.ITuningSpaceContainer.Remove
 title: ITuningSpaceContainer::Remove (tuner.h)
-description: The Remove method permanently removes a tuning space from the system.helpviewer_keywords: ["ITuningSpaceContainer interface [Microsoft TV Technologies]","Remove method","ITuningSpaceContainer.Remove","ITuningSpaceContainer::Remove","ITuningSpaceContainerRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","ITuningSpaceContainer interface","mstv.ituningspacecontainer_remove","tuner/ITuningSpaceContainer::Remove"]
+description: The Remove method permanently removes a tuning space from the system.
+helpviewer_keywords: ["ITuningSpaceContainer interface [Microsoft TV Technologies]","Remove method","ITuningSpaceContainer.Remove","ITuningSpaceContainer::Remove","ITuningSpaceContainerRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","ITuningSpaceContainer interface","mstv.ituningspacecontainer_remove","tuner/ITuningSpaceContainer::Remove"]
 old-location: mstv\ituningspacecontainer_remove.htm
 tech.root: mstv
 ms.assetid: 72ead181-6c5a-49d1-a789-3ae4128417c6

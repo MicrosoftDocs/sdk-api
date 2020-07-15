@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d10.ID3D10Counter
 title: ID3D10Counter (d3d10.h)
-description: This interface encapsulates methods for measuring GPU performance.helpviewer_keywords: ["004d04e1-a54d-6c89-c551-db2d30d9d7e9","ID3D10Counter","ID3D10Counter interface [Direct3D 10]","ID3D10Counter interface [Direct3D 10]","described","d3d10/ID3D10Counter","direct3d10.id3d10counter"]
+description: This interface encapsulates methods for measuring GPU performance.
+helpviewer_keywords: ["004d04e1-a54d-6c89-c551-db2d30d9d7e9","ID3D10Counter","ID3D10Counter interface [Direct3D 10]","ID3D10Counter interface [Direct3D 10]","described","d3d10/ID3D10Counter","direct3d10.id3d10counter"]
 old-location: direct3d10\id3d10counter.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10counter.htm

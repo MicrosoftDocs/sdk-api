@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.IntToChar
 title: IntToChar function (intsafe.h)
-description: Converts a value of type INT to a value of type CHAR.helpviewer_keywords: ["IntToChar","IntToChar function [Windows Shell]","_shell_IntToChar","intsafe/IntToChar","shell.IntToChar"]
+description: Converts a value of type INT to a value of type CHAR.
+helpviewer_keywords: ["IntToChar","IntToChar function [Windows Shell]","_shell_IntToChar","intsafe/IntToChar","shell.IntToChar"]
 old-location: shell\IntToChar.htm
 tech.root: shell
 ms.assetid: c377db74-daa9-4d20-b2f2-954472dd7d2e

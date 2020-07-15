@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_Priority
 title: IFaxOutgoingJob::get_Priority (faxcomex.h)
-description: The IFaxOutgoingJob::get_Priority property specifies the priority to use when sending the fax; for example, normal, low, or high priority.helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","Priority property","IFaxOutgoingJob.Priority","IFaxOutgoingJob.get_Priority","IFaxOutgoingJob::Priority","IFaxOutgoingJob::get_Priority","Priority property [Fax Service]","Priority property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.priority","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_priority_cpp","fax._mfax_faxoutgoingjob_priority","faxcomex/IFaxOutgoingJob::Priority","faxcomex/IFaxOutgoingJob::get_Priority","get_Priority"]
+description: The IFaxOutgoingJob::get_Priority property specifies the priority to use when sending the fax; for example, normal, low, or high priority.
+helpviewer_keywords: ["IFaxOutgoingJob interface [Fax Service]","Priority property","IFaxOutgoingJob.Priority","IFaxOutgoingJob.get_Priority","IFaxOutgoingJob::Priority","IFaxOutgoingJob::get_Priority","Priority property [Fax Service]","Priority property [Fax Service]","IFaxOutgoingJob interface","_mfax_faxoutgoingjob.priority","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_priority_cpp","fax._mfax_faxoutgoingjob_priority","faxcomex/IFaxOutgoingJob::Priority","faxcomex/IFaxOutgoingJob::get_Priority","get_Priority"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_priority_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_6fll.htm

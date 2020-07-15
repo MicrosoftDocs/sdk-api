@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Pager_SetButtonSize
 title: Pager_SetButtonSize macro (commctrl.h)
-description: Sets the current button size for the pager control. You can use this macro or send the PGM_SETBUTTONSIZE message explicitly.helpviewer_keywords: ["Pager_SetButtonSize","Pager_SetButtonSize macro [Windows Controls]","_win32_Pager_SetButtonSize","_win32_Pager_SetButtonSize_cpp","commctrl/Pager_SetButtonSize","controls.Pager_SetButtonSize","controls._win32_Pager_SetButtonSize"]
+description: Sets the current button size for the pager control. You can use this macro or send the PGM_SETBUTTONSIZE message explicitly.
+helpviewer_keywords: ["Pager_SetButtonSize","Pager_SetButtonSize macro [Windows Controls]","_win32_Pager_SetButtonSize","_win32_Pager_SetButtonSize_cpp","commctrl/Pager_SetButtonSize","controls.Pager_SetButtonSize","controls._win32_Pager_SetButtonSize"]
 old-location: controls\Pager_SetButtonSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\pager\macros\pager_setbuttonsize.htm

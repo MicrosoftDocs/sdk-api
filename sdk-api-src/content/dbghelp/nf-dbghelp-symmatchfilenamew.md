@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymMatchFileNameW
 title: SymMatchFileNameW function (dbghelp.h)
-description: Compares a string to a file name and path.helpviewer_keywords: ["SymMatchFileName","SymMatchFileName function","SymMatchFileNameW","_win32_symmatchfilename","base.symmatchfilename","dbghelp/SymMatchFileName","dbghelp/SymMatchFileNameW"]
+description: Compares a string to a file name and path.
+helpviewer_keywords: ["SymMatchFileName","SymMatchFileName function","SymMatchFileNameW","_win32_symmatchfilename","base.symmatchfilename","dbghelp/SymMatchFileName","dbghelp/SymMatchFileNameW"]
 old-location: base\symmatchfilename.htm
 tech.root: Debug
 ms.assetid: 69787cc7-db84-4c60-8d7d-f8eae18c82e9
@@ -105,6 +106,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymMatchFileName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

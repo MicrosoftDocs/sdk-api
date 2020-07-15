@@ -1,7 +1,8 @@
 ---
 UID: NC:winuser.SENDASYNCPROC
 title: SENDASYNCPROC (winuser.h)
-description: An application-defined callback function used with the SendMessageCallback function.helpviewer_keywords: ["SendAsyncProc","SendAsyncProc callback","SendAsyncProc callback function [Windows and Messages]","_win32_SendAsyncProc","_win32_sendasyncproc_cpp","winmsg.sendasyncproc","winui._win32_sendasyncproc","winuser/SendAsyncProc"]
+description: An application-defined callback function used with the SendMessageCallback function.
+helpviewer_keywords: ["SendAsyncProc","SendAsyncProc callback","SendAsyncProc callback function [Windows and Messages]","_win32_SendAsyncProc","_win32_sendasyncproc_cpp","winmsg.sendasyncproc","winui._win32_sendasyncproc","winuser/SendAsyncProc"]
 old-location: winmsg\sendasyncproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendasyncproc.htm

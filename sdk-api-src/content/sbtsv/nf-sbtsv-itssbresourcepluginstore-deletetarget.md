@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.DeleteTarget
 title: ITsSbResourcePluginStore::DeleteTarget (sbtsv.h)
-description: Deletes a target.helpviewer_keywords: ["DeleteTarget","DeleteTarget method [Remote Desktop Services]","DeleteTarget method [Remote Desktop Services]","ITsSbResourcePluginStore interface","DeleteTarget method [Remote Desktop Services]","ITsSbResourcePluginStoreEx interface","ITsSbResourcePluginStore interface [Remote Desktop Services]","DeleteTarget method","ITsSbResourcePluginStore.DeleteTarget","ITsSbResourcePluginStore::DeleteTarget","ITsSbResourcePluginStoreEx interface [Remote Desktop Services]","DeleteTarget method","ITsSbResourcePluginStoreEx::DeleteTarget","sbtsv/ITsSbResourcePluginStore::DeleteTarget","sbtsv/ITsSbResourcePluginStoreEx::DeleteTarget","termserv.itssbresourcepluginstore_deletetarget"]
+description: Deletes a target.
+helpviewer_keywords: ["DeleteTarget","DeleteTarget method [Remote Desktop Services]","DeleteTarget method [Remote Desktop Services]","ITsSbResourcePluginStore interface","DeleteTarget method [Remote Desktop Services]","ITsSbResourcePluginStoreEx interface","ITsSbResourcePluginStore interface [Remote Desktop Services]","DeleteTarget method","ITsSbResourcePluginStore.DeleteTarget","ITsSbResourcePluginStore::DeleteTarget","ITsSbResourcePluginStoreEx interface [Remote Desktop Services]","DeleteTarget method","ITsSbResourcePluginStoreEx::DeleteTarget","sbtsv/ITsSbResourcePluginStore::DeleteTarget","sbtsv/ITsSbResourcePluginStoreEx::DeleteTarget","termserv.itssbresourcepluginstore_deletetarget"]
 old-location: termserv\itssbresourcepluginstore_deletetarget.htm
 tech.root: TermServ
 ms.assetid: d8114126-f518-4a43-8f6e-900fe84052e5

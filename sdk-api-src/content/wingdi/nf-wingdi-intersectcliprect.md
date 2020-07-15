@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.IntersectClipRect
 title: IntersectClipRect function (wingdi.h)
-description: The IntersectClipRect function creates a new clipping region from the intersection of the current clipping region and the specified rectangle.helpviewer_keywords: ["IntersectClipRect","IntersectClipRect function [Windows GDI]","_win32_IntersectClipRect","gdi.intersectcliprect","wingdi/IntersectClipRect"]
+description: The IntersectClipRect function creates a new clipping region from the intersection of the current clipping region and the specified rectangle.
+helpviewer_keywords: ["IntersectClipRect","IntersectClipRect function [Windows GDI]","_win32_IntersectClipRect","gdi.intersectcliprect","wingdi/IntersectClipRect"]
 old-location: gdi\intersectcliprect.htm
 tech.root: gdi
 ms.assetid: 9b3f9bfb-337b-45f0-b9ec-399e5f563638

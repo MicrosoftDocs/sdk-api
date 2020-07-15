@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPropertyPage2.EditProperty
 title: IPropertyPage2::EditProperty (ocidl.h)
-description: Specifies which field is to receive the focus when the property page is activated.helpviewer_keywords: ["EditProperty","EditProperty method [COM]","EditProperty method [COM]","IPropertyPage2 interface","IPropertyPage2 interface [COM]","EditProperty method","IPropertyPage2.EditProperty","IPropertyPage2::EditProperty","_ctrl_ipropertypage2_editproperty","com.ipropertypage2_editproperty","ocidl/IPropertyPage2::EditProperty"]
+description: Specifies which field is to receive the focus when the property page is activated.
+helpviewer_keywords: ["EditProperty","EditProperty method [COM]","EditProperty method [COM]","IPropertyPage2 interface","IPropertyPage2 interface [COM]","EditProperty method","IPropertyPage2.EditProperty","IPropertyPage2::EditProperty","_ctrl_ipropertypage2_editproperty","com.ipropertypage2_editproperty","ocidl/IPropertyPage2::EditProperty"]
 old-location: com\ipropertypage2_editproperty.htm
 tech.root: com
 ms.assetid: a41d2d50-6484-43d0-a41c-1cfa3bfdbe8e

@@ -1,7 +1,8 @@
 ---
 UID: NF:lmaccess.NetIsServiceAccount
 title: NetIsServiceAccount function (lmaccess.h)
-description: Tests whether the specified standalone managed service account (sMSA) or group managed service account (gMSA) exists in the Netlogon store on the specified server.helpviewer_keywords: ["NetIsServiceAccount","NetIsServiceAccount function [Security]","lmaccess/NetIsServiceAccount","security.netisserviceaccount"]
+description: Tests whether the specified standalone managed service account (sMSA) or group managed service account (gMSA) exists in the Netlogon store on the specified server.
+helpviewer_keywords: ["NetIsServiceAccount","NetIsServiceAccount function [Security]","lmaccess/NetIsServiceAccount","security.netisserviceaccount"]
 old-location: security\netisserviceaccount.htm
 tech.root: SecMgmt
 ms.assetid: 975e7c0d-d803-4d78-99ed-d07369341674

@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMGetIssuanceLicenseInfo
 title: DRMGetIssuanceLicenseInfo function (msdrm.h)
-description: Retrieves various information from an issuance license.helpviewer_keywords: ["DRMGetIssuanceLicenseInfo","DRMGetIssuanceLicenseInfo function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetIssuanceLicenseInfo","rm.drmgetissuancelicenseinfo"]
+description: Retrieves various information from an issuance license.
+helpviewer_keywords: ["DRMGetIssuanceLicenseInfo","DRMGetIssuanceLicenseInfo function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetIssuanceLicenseInfo","rm.drmgetissuancelicenseinfo"]
 old-location: rm\drmgetissuancelicenseinfo.htm
 tech.root: AdRms_Sdk
 ms.assetid: 67213b97-3831-4284-b807-f6bc69d4b610

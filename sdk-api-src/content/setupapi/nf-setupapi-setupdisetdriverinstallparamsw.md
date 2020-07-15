@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiSetDriverInstallParamsW
 title: SetupDiSetDriverInstallParamsW function (setupapi.h)
-description: The SetupDiSetDriverInstallParams function sets driver installation parameters for a driver information element.helpviewer_keywords: ["SetupDiSetDriverInstallParams","SetupDiSetDriverInstallParams function [Device and Driver Installation]","SetupDiSetDriverInstallParamsA","SetupDiSetDriverInstallParamsW","devinst.setupdisetdriverinstallparams","di-rtns_31ccb1b6-757d-48d0-b3bd-1c46ac3bc4bd.xml","setupapi/SetupDiSetDriverInstallParams"]
+description: The SetupDiSetDriverInstallParams function sets driver installation parameters for a driver information element.
+helpviewer_keywords: ["SetupDiSetDriverInstallParams","SetupDiSetDriverInstallParams function [Device and Driver Installation]","SetupDiSetDriverInstallParamsA","SetupDiSetDriverInstallParamsW","devinst.setupdisetdriverinstallparams","di-rtns_31ccb1b6-757d-48d0-b3bd-1c46ac3bc4bd.xml","setupapi/SetupDiSetDriverInstallParams"]
 old-location: devinst\setupdisetdriverinstallparams.htm
 tech.root: devinst
 ms.assetid: a6084bb4-f0c1-43f3-94e7-8fd0682f5ac0
@@ -96,4 +97,9 @@ The function returns <b>TRUE</b> if it is successful. Otherwise, it returns <b>F
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiSetDriverInstallParams as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

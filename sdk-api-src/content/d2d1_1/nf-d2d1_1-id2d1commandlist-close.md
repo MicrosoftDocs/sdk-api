@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1CommandList.Close
 title: ID2D1CommandList::Close (d2d1_1.h)
-description: Instructs the command list to stop accepting commands so that you can use it as an input to an effect or in a call to ID2D1DeviceContext::DrawImage.helpviewer_keywords: ["Close","Close method [Direct2D]","Close method [Direct2D]","ID2D1CommandList interface","ID2D1CommandList interface [Direct2D]","Close method","ID2D1CommandList.Close","ID2D1CommandList::Close","d2d1_1/ID2D1CommandList::Close","direct2d.id2d1commandlist_close"]
+description: Instructs the command list to stop accepting commands so that you can use it as an input to an effect or in a call to ID2D1DeviceContext::DrawImage.
+helpviewer_keywords: ["Close","Close method [Direct2D]","Close method [Direct2D]","ID2D1CommandList interface","ID2D1CommandList interface [Direct2D]","Close method","ID2D1CommandList.Close","ID2D1CommandList::Close","d2d1_1/ID2D1CommandList::Close","direct2d.id2d1commandlist_close"]
 old-location: direct2d\id2d1commandlist_close.htm
 tech.root: Direct2D
 ms.assetid: 161A8E33-25C7-4007-8397-D86EBA777D4D

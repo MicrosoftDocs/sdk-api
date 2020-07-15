@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoCreateInstanceFromApp
 title: CoCreateInstanceFromApp function (combaseapi.h)
-description: Creates an instance of a specific class on a specific computer from within an app container.helpviewer_keywords: ["CoCreateInstanceFromApp","CoCreateInstanceFromApp function [COM]","com.cocreateinstancefromapp","combaseapi/CoCreateInstanceFromApp"]
+description: Creates an instance of a specific class on a specific computer from within an app container.
+helpviewer_keywords: ["CoCreateInstanceFromApp","CoCreateInstanceFromApp function [COM]","com.cocreateinstancefromapp","combaseapi/CoCreateInstanceFromApp"]
 old-location: com\cocreateinstancefromapp.htm
 tech.root: com
 ms.assetid: 1C773D78-5B33-44FE-A09B-AB8087F678A1

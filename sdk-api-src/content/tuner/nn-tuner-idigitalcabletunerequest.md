@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IDigitalCableTuneRequest
 title: IDigitalCableTuneRequest (tuner.h)
-description: The IDigitalCableTuneRequest interface provides methods for tuning to a channel in a digital cable network.helpviewer_keywords: ["IDigitalCableTuneRequest","IDigitalCableTuneRequest interface [Microsoft TV Technologies]","IDigitalCableTuneRequest interface [Microsoft TV Technologies]","described","IDigitalCableTuneRequestInterface","mstv.idigitalcabletunerequest","tuner/IDigitalCableTuneRequest"]
+description: The IDigitalCableTuneRequest interface provides methods for tuning to a channel in a digital cable network.
+helpviewer_keywords: ["IDigitalCableTuneRequest","IDigitalCableTuneRequest interface [Microsoft TV Technologies]","IDigitalCableTuneRequest interface [Microsoft TV Technologies]","described","IDigitalCableTuneRequestInterface","mstv.idigitalcabletunerequest","tuner/IDigitalCableTuneRequest"]
 old-location: mstv\idigitalcabletunerequest.htm
 tech.root: mstv
 ms.assetid: 75c3c80f-2f02-4cb7-a9e0-aad4076793e4

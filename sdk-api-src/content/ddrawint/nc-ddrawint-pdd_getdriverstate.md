@@ -1,7 +1,8 @@
 ---
 UID: NC:ddrawint.PDD_GETDRIVERSTATE
 title: PDD_GETDRIVERSTATE (ddrawint.h)
-description: The D3dGetDriverState function is used by both the Microsoft DirectDraw and Microsoft Direct3D runtimes to obtain information from the driver about its current state.helpviewer_keywords: ["D3dGetDriverState","D3dGetDriverState callback function [Display Devices]","PDD_GETDRIVERSTATE","PDD_GETDRIVERSTATE callback","d3dfncs_e2c93c0f-5d2e-47b2-b8df-b527db9b121e.xml","ddrawint/D3dGetDriverState","display.d3dgetdriverstate"]
+description: The D3dGetDriverState function is used by both the Microsoft DirectDraw and Microsoft Direct3D runtimes to obtain information from the driver about its current state.
+helpviewer_keywords: ["D3dGetDriverState","D3dGetDriverState callback function [Display Devices]","PDD_GETDRIVERSTATE","PDD_GETDRIVERSTATE callback","d3dfncs_e2c93c0f-5d2e-47b2-b8df-b527db9b121e.xml","ddrawint/D3dGetDriverState","display.d3dgetdriverstate"]
 old-location: display\d3dgetdriverstate.htm
 tech.root: display
 ms.assetid: 6e1b0bce-1ac5-46e7-ae25-b0d3ce8580a0

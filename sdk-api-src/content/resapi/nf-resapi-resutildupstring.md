@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilDupString
 title: ResUtilDupString function (resapi.h)
-description: Duplicates a null-terminated Unicode string.helpviewer_keywords: ["PRESUTIL_DUP_STRING","PRESUTIL_DUP_STRING function [Failover Cluster]","ResUtilDupString","ResUtilDupString function [Failover Cluster]","_wolf_resutildupstring","mscs.resutildupstring","resapi/PRESUTIL_DUP_STRING","resapi/ResUtilDupString"]
+description: Duplicates a null-terminated Unicode string.
+helpviewer_keywords: ["PRESUTIL_DUP_STRING","PRESUTIL_DUP_STRING function [Failover Cluster]","ResUtilDupString","ResUtilDupString function [Failover Cluster]","_wolf_resutildupstring","mscs.resutildupstring","resapi/PRESUTIL_DUP_STRING","resapi/ResUtilDupString"]
 old-location: mscs\resutildupstring.htm
 tech.root: MsCS
 ms.assetid: 7d993247-ea8c-46a0-a11e-e03b981ed4ae

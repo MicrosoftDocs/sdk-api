@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IEnumSTATDATA.Next
 title: IEnumSTATDATA::Next (objidl.h)
-description: Retrieves the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumSTATDATA interface [COM]","Next method","IEnumSTATDATA.Next","IEnumSTATDATA::Next","Next","Next method [COM]","Next method [COM]","IEnumSTATDATA interface","_ole_ienumstatdata_next","com.ienumstatdata_next","objidl/IEnumSTATDATA::Next"]
+description: Retrieves the specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumSTATDATA interface [COM]","Next method","IEnumSTATDATA.Next","IEnumSTATDATA::Next","Next","Next method [COM]","Next method [COM]","IEnumSTATDATA interface","_ole_ienumstatdata_next","com.ienumstatdata_next","objidl/IEnumSTATDATA::Next"]
 old-location: com\ienumstatdata_next.htm
 tech.root: com
 ms.assetid: 8258b6f4-15d7-4da2-96d1-d1ce36a31c1c

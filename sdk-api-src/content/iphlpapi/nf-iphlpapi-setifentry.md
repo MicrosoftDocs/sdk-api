@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.SetIfEntry
 title: SetIfEntry function (iphlpapi.h)
-description: The SetIfEntry function sets the administrative status of an interface.helpviewer_keywords: ["MIB_IF_ADMIN_STATUS_DOWN","MIB_IF_ADMIN_STATUS_UP","SetIfEntry","SetIfEntry function [IP Helper]","_iphlp_setifentry","iphlp.setifentry","iphlpapi/SetIfEntry"]
+description: The SetIfEntry function sets the administrative status of an interface.
+helpviewer_keywords: ["MIB_IF_ADMIN_STATUS_DOWN","MIB_IF_ADMIN_STATUS_UP","SetIfEntry","SetIfEntry function [IP Helper]","_iphlp_setifentry","iphlp.setifentry","iphlpapi/SetIfEntry"]
 old-location: iphlp\setifentry.htm
 tech.root: IpHlp
 ms.assetid: 67a18ef2-a7af-4fc1-8416-053aa8388f9e

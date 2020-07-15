@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_2.IDWriteTextLayout2.SetLastLineWrapping
 title: IDWriteTextLayout2::SetLastLineWrapping (dwrite_2.h)
-description: Set whether or not the last word on the last line is wrapped.helpviewer_keywords: ["IDWriteTextLayout2 interface [Direct Write]","SetLastLineWrapping method","IDWriteTextLayout2.SetLastLineWrapping","IDWriteTextLayout2::SetLastLineWrapping","SetLastLineWrapping","SetLastLineWrapping method [Direct Write]","SetLastLineWrapping method [Direct Write]","IDWriteTextLayout2 interface","directwrite.idwritetextlayout2_setlastlinewrapping","dwrite_2/IDWriteTextLayout2::SetLastLineWrapping"]
+description: Set whether or not the last word on the last line is wrapped.
+helpviewer_keywords: ["IDWriteTextLayout2 interface [Direct Write]","SetLastLineWrapping method","IDWriteTextLayout2.SetLastLineWrapping","IDWriteTextLayout2::SetLastLineWrapping","SetLastLineWrapping","SetLastLineWrapping method [Direct Write]","SetLastLineWrapping method [Direct Write]","IDWriteTextLayout2 interface","directwrite.idwritetextlayout2_setlastlinewrapping","dwrite_2/IDWriteTextLayout2::SetLastLineWrapping"]
 old-location: directwrite\idwritetextlayout2_setlastlinewrapping.htm
 tech.root: DirectWrite
 ms.assetid: 424ADF2E-42DC-414B-8588-5A326CA4A507

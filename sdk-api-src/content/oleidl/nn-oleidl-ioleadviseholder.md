@@ -1,7 +1,8 @@
 ---
 UID: NN:oleidl.IOleAdviseHolder
 title: IOleAdviseHolder (oleidl.h)
-description: Manages advisory connections and compound document notifications in an object server.helpviewer_keywords: ["IOleAdviseHolder","IOleAdviseHolder interface [COM]","IOleAdviseHolder interface [COM]","described","_ole_ioleadviseholder","com.ioleadviseholder","oleidl/IOleAdviseHolder"]
+description: Manages advisory connections and compound document notifications in an object server.
+helpviewer_keywords: ["IOleAdviseHolder","IOleAdviseHolder interface [COM]","IOleAdviseHolder interface [COM]","described","_ole_ioleadviseholder","com.ioleadviseholder","oleidl/IOleAdviseHolder"]
 old-location: com\ioleadviseholder.htm
 tech.root: com
 ms.assetid: 680afee7-2bee-4d54-ae0b-3e4e0deb622f

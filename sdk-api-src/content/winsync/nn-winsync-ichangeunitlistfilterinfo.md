@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.IChangeUnitListFilterInfo
 title: IChangeUnitListFilterInfo (winsync.h)
-description: Represents a filter that can be used to control which change units are included for items in an ISyncChangeBatch object.helpviewer_keywords: ["IChangeUnitListFilterInfo","IChangeUnitListFilterInfo interface [Windows Sync]","IChangeUnitListFilterInfo interface [Windows Sync]","described","winsync.ichangeunitlistfilterinfo","winsync/IChangeUnitListFilterInfo"]
+description: Represents a filter that can be used to control which change units are included for items in an ISyncChangeBatch object.
+helpviewer_keywords: ["IChangeUnitListFilterInfo","IChangeUnitListFilterInfo interface [Windows Sync]","IChangeUnitListFilterInfo interface [Windows Sync]","described","winsync.ichangeunitlistfilterinfo","winsync/IChangeUnitListFilterInfo"]
 old-location: winsync\ichangeunitlistfilterinfo.htm
 tech.root: winsync
 ms.assetid: fd379fc6-22e5-4165-b4e6-480bc65cccb3

@@ -1,7 +1,8 @@
 ---
 UID: NN:wia_xp.IWiaDevMgr
 title: IWiaDevMgr (wia_xp.h)
-description: Applications use the IWiaDevMgr interface to create and manage image acquisition devices.helpviewer_keywords: ["IWiaDevMgr","IWiaDevMgr interface [WIA]","IWiaDevMgr interface [WIA]","described","_wia_IWiaDevMgr","wia._wia_IWiaDevMgr","wia_xp/IWiaDevMgr"]
+description: Applications use the IWiaDevMgr interface to create and manage image acquisition devices.
+helpviewer_keywords: ["IWiaDevMgr","IWiaDevMgr interface [WIA]","IWiaDevMgr interface [WIA]","described","_wia_IWiaDevMgr","wia._wia_IWiaDevMgr","wia_xp/IWiaDevMgr"]
 old-location: wia\_wia_IWiaDevMgr.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\iwiadevmgr.htm

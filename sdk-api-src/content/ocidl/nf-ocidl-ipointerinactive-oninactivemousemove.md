@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPointerInactive.OnInactiveMouseMove
 title: IPointerInactive::OnInactiveMouseMove (ocidl.h)
-description: Notifies the object that the mouse pointer has moved over it so the object can fire mouse events. This method is called by the container on receipt of a WM_MOUSEMOVE method when an inactive object is under the mouse pointer.helpviewer_keywords: ["IPointerInactive interface [COM]","OnInactiveMouseMove method","IPointerInactive.OnInactiveMouseMove","IPointerInactive::OnInactiveMouseMove","OnInactiveMouseMove","OnInactiveMouseMove method [COM]","OnInactiveMouseMove method [COM]","IPointerInactive interface","_ctrl_ipointerinactive_oninactivemousemove","com.ipointerinactive_oninactivemousemove","ocidl/IPointerInactive::OnInactiveMouseMove"]
+description: Notifies the object that the mouse pointer has moved over it so the object can fire mouse events. This method is called by the container on receipt of a WM_MOUSEMOVE method when an inactive object is under the mouse pointer.
+helpviewer_keywords: ["IPointerInactive interface [COM]","OnInactiveMouseMove method","IPointerInactive.OnInactiveMouseMove","IPointerInactive::OnInactiveMouseMove","OnInactiveMouseMove","OnInactiveMouseMove method [COM]","OnInactiveMouseMove method [COM]","IPointerInactive interface","_ctrl_ipointerinactive_oninactivemousemove","com.ipointerinactive_oninactivemousemove","ocidl/IPointerInactive::OnInactiveMouseMove"]
 old-location: com\ipointerinactive_oninactivemousemove.htm
 tech.root: com
 ms.assetid: d026c570-b51b-456f-b121-eb2be08e2cac

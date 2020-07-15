@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IAsyncReader
 title: IAsyncReader (strmif.h)
-description: The IAsyncReader interface performs an asynchronous data request on a filter.This interface is exposed by output pins that perform asynchronous read operations.helpviewer_keywords: ["IAsyncReader","IAsyncReader interface [DirectShow]","IAsyncReader interface [DirectShow]","described","IAsyncReaderInterface","dshow.iasyncreader","strmif/IAsyncReader"]
+description: The IAsyncReader interface performs an asynchronous data request on a filter.This interface is exposed by output pins that perform asynchronous read operations.
+helpviewer_keywords: ["IAsyncReader","IAsyncReader interface [DirectShow]","IAsyncReader interface [DirectShow]","described","IAsyncReaderInterface","dshow.iasyncreader","strmif/IAsyncReader"]
 old-location: dshow\iasyncreader.htm
 tech.root: DirectShow
 ms.assetid: 54a18567-e9d4-4b12-b486-cdd70d719184

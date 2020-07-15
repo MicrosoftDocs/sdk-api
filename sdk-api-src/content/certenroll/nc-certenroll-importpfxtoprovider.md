@@ -1,7 +1,8 @@
 ---
 UID: NC:certenroll.ImportPFXToProvider
 title: ImportPFXToProvider (certenroll.h)
-description: Imports a PFX certificate.helpviewer_keywords: ["ImportPFXToProvider","(FNIMPORTPFXTOPROVIDER)","(FNIMPORTPFXTOPROVIDER) callback function [Security]","FNIMPORTPFXTOPROVIDER callback","certenroll/(FNIMPORTPFXTOPROVIDER)","fnimportpfxtoprovider","security.fnimportpfxtoprovider","wincrypt/(FNIMPORTPFXTOPROVIDER)"]
+description: Imports a PFX certificate.
+helpviewer_keywords: ["ImportPFXToProvider","(FNIMPORTPFXTOPROVIDER)","(FNIMPORTPFXTOPROVIDER) callback function [Security]","FNIMPORTPFXTOPROVIDER callback","certenroll/(FNIMPORTPFXTOPROVIDER)","fnimportpfxtoprovider","security.fnimportpfxtoprovider","wincrypt/(FNIMPORTPFXTOPROVIDER)"]
 old-location: security\fnimportpfxtoprovider.htm
 tech.root: SecCrypto
 ms.assetid: D5F4A318-4572-4563-85B0-7F3532833DE4

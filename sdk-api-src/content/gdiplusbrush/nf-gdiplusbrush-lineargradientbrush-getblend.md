@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.GetBlend
 title: LinearGradientBrush::GetBlend (gdiplusbrush.h)
-description: The LinearGradientBrush::GetBlend method gets the blend factors and their corresponding blend positions from a LinearGradientBrush object.helpviewer_keywords: ["GetBlend","GetBlend method [GDI+]","GetBlend method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetBlend method","LinearGradientBrush.GetBlend","LinearGradientBrush::GetBlend","_gdiplus_CLASS_LinearGradientBrush_GetBlend_blendFactors_blendPositions_count_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetBlend_blendFactors_blendPositions_count_"]
+description: The LinearGradientBrush::GetBlend method gets the blend factors and their corresponding blend positions from a LinearGradientBrush object.
+helpviewer_keywords: ["GetBlend","GetBlend method [GDI+]","GetBlend method [GDI+]","LinearGradientBrush class","LinearGradientBrush class [GDI+]","GetBlend method","LinearGradientBrush.GetBlend","LinearGradientBrush::GetBlend","_gdiplus_CLASS_LinearGradientBrush_GetBlend_blendFactors_blendPositions_count_","gdiplus._gdiplus_CLASS_LinearGradientBrush_GetBlend_blendFactors_blendPositions_count_"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_GetBlend_blendFactors_blendPositions_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushmethods\getblend.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_TEX1D_ARRAY_UAV
 title: D3D11_TEX1D_ARRAY_UAV (d3d11.h)
-description: Describes an array of unordered-access 1D texture resources.helpviewer_keywords: ["996cd2a4-b335-16f3-2420-8b9fadb414b0","D3D11_TEX1D_ARRAY_UAV","D3D11_TEX1D_ARRAY_UAV structure [Direct3D 11]","d3d11/D3D11_TEX1D_ARRAY_UAV","direct3d11.d3d11_tex1d_array_uav"]
+description: Describes an array of unordered-access 1D texture resources.
+helpviewer_keywords: ["996cd2a4-b335-16f3-2420-8b9fadb414b0","D3D11_TEX1D_ARRAY_UAV","D3D11_TEX1D_ARRAY_UAV structure [Direct3D 11]","d3d11/D3D11_TEX1D_ARRAY_UAV","direct3d11.d3d11_tex1d_array_uav"]
 old-location: direct3d11\d3d11_tex1d_array_uav.htm
 tech.root: direct3d11
 ms.assetid: 8a637d5f-b9cb-486b-8f43-4925cee9ccf7

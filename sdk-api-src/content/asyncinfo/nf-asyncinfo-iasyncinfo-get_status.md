@@ -1,7 +1,8 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.get_Status
 title: IAsyncInfo::get_Status (asyncinfo.h)
-description: Gets a value that indicates the status of the asynchronous operation.helpviewer_keywords: ["IAsyncInfo interface [Windows Runtime]","Status property","IAsyncInfo.Status","IAsyncInfo.get_Status","IAsyncInfo::Status","IAsyncInfo::get_Status","Status property [Windows Runtime]","Status property [Windows Runtime]","IAsyncInfo interface","asyncinfo/IAsyncInfo::Status","asyncinfo/IAsyncInfo::get_Status","get_Status","winrt.iasyncinfo_status"]
+description: Gets a value that indicates the status of the asynchronous operation.
+helpviewer_keywords: ["IAsyncInfo interface [Windows Runtime]","Status property","IAsyncInfo.Status","IAsyncInfo.get_Status","IAsyncInfo::Status","IAsyncInfo::get_Status","Status property [Windows Runtime]","Status property [Windows Runtime]","IAsyncInfo interface","asyncinfo/IAsyncInfo::Status","asyncinfo/IAsyncInfo::get_Status","get_Status","winrt.iasyncinfo_status"]
 old-location: winrt\iasyncinfo_status.htm
 tech.root: WinRT
 ms.assetid: b34d9318-8a0f-4986-a678-76ba6c5bb051

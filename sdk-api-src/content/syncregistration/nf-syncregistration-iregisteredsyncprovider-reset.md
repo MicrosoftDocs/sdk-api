@@ -1,7 +1,8 @@
 ---
 UID: NF:syncregistration.IRegisteredSyncProvider.Reset
 title: IRegisteredSyncProvider::Reset (syncregistration.h)
-description: Resets a synchronization provider so that it looks like a new replica in the next synchronization session.helpviewer_keywords: ["IRegisteredSyncProvider interface [Windows Sync]","Reset method","IRegisteredSyncProvider.Reset","IRegisteredSyncProvider::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","IRegisteredSyncProvider interface","syncregistration/IRegisteredSyncProvider::Reset","winsync.iregisteredsyncprovider_reset"]
+description: Resets a synchronization provider so that it looks like a new replica in the next synchronization session.
+helpviewer_keywords: ["IRegisteredSyncProvider interface [Windows Sync]","Reset method","IRegisteredSyncProvider.Reset","IRegisteredSyncProvider::Reset","Reset","Reset method [Windows Sync]","Reset method [Windows Sync]","IRegisteredSyncProvider interface","syncregistration/IRegisteredSyncProvider::Reset","winsync.iregisteredsyncprovider_reset"]
 old-location: winsync\iregisteredsyncprovider_reset.htm
 tech.root: winsync
 ms.assetid: 05fe5db8-9a21-4e09-a1fb-d50d1f08a540

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorTanEst
 title: XMVectorTanEst function (directxmath.h)
-description: Estimates the tangent of each component of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMVectorTanEst","XMVectorTanEst","XMVectorTanEst method [DirectX Math Support APIs]","dxmath.xmvectortanest"]
+description: Estimates the tangent of each component of an XMVECTOR.
+helpviewer_keywords: ["Use DirectX..XMVectorTanEst","XMVectorTanEst","XMVectorTanEst method [DirectX Math Support APIs]","dxmath.xmvectortanest"]
 old-location: dxmath\xmvectortanest.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transcendental.XMVectorTanEst(XMVECTOR)

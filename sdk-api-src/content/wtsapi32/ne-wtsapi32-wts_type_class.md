@@ -1,7 +1,8 @@
 ---
 UID: NE:wtsapi32._WTS_TYPE_CLASS
 title: WTS_TYPE_CLASS (wtsapi32.h)
-description: Specifies the type of structure that a Remote Desktop Services function has returned in a buffer.helpviewer_keywords: ["WTSTypeProcessInfoLevel0","WTSTypeProcessInfoLevel1","WTSTypeSessionInfoLevel1","WTS_TYPE_CLASS","WTS_TYPE_CLASS enumeration [Remote Desktop Services]","termserv.wts_type_class","wtsapi32/WTSTypeProcessInfoLevel0","wtsapi32/WTSTypeProcessInfoLevel1","wtsapi32/WTSTypeSessionInfoLevel1","wtsapi32/WTS_TYPE_CLASS"]
+description: Specifies the type of structure that a Remote Desktop Services function has returned in a buffer.
+helpviewer_keywords: ["WTSTypeProcessInfoLevel0","WTSTypeProcessInfoLevel1","WTSTypeSessionInfoLevel1","WTS_TYPE_CLASS","WTS_TYPE_CLASS enumeration [Remote Desktop Services]","termserv.wts_type_class","wtsapi32/WTSTypeProcessInfoLevel0","wtsapi32/WTSTypeProcessInfoLevel1","wtsapi32/WTSTypeSessionInfoLevel1","wtsapi32/WTS_TYPE_CLASS"]
 old-location: termserv\wts_type_class.htm
 tech.root: TermServ
 ms.assetid: 1827e862-add0-4271-b5d7-62834c396250

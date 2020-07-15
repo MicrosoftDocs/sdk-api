@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.IAccPropServices.SetHmenuProp
 title: IAccPropServices::SetHmenuProp (oleacc.h)
-description: This method wraps SetPropValue, providing a convenient entry point for callers who are annotating HMENU-based accessible elements. If the new value is a string, you can use IAccPropServices::SetHmenuPropStr instead.helpviewer_keywords: ["IAccPropServices interface [Windows Accessibility]","SetHmenuProp method","IAccPropServices.SetHmenuProp","IAccPropServices::SetHmenuProp","SetHmenuProp","SetHmenuProp method [Windows Accessibility]","SetHmenuProp method [Windows Accessibility]","IAccPropServices interface","oleacc/IAccPropServices::SetHmenuProp","winauto.iaccpropservices_iaccpropservices__sethmenuprop"]
+description: This method wraps SetPropValue, providing a convenient entry point for callers who are annotating HMENU-based accessible elements. If the new value is a string, you can use IAccPropServices::SetHmenuPropStr instead.
+helpviewer_keywords: ["IAccPropServices interface [Windows Accessibility]","SetHmenuProp method","IAccPropServices.SetHmenuProp","IAccPropServices::SetHmenuProp","SetHmenuProp","SetHmenuProp method [Windows Accessibility]","SetHmenuProp method [Windows Accessibility]","IAccPropServices interface","oleacc/IAccPropServices::SetHmenuProp","winauto.iaccpropservices_iaccpropservices__sethmenuprop"]
 old-location: winauto\iaccpropservices_iaccpropservices__sethmenuprop.htm
 tech.root: WinAuto
 ms.assetid: ac835bb6-609f-4a37-8cfc-dd529d641c00

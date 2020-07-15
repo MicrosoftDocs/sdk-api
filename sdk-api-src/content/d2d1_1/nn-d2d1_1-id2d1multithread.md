@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1_1.ID2D1Multithread
 title: ID2D1Multithread (d2d1_1.h)
-description: A locking mechanism from a Direct2D factory that Direct2D uses to control exclusive resource access in an app that is uses multiple threads.helpviewer_keywords: ["ID2D1Multithread","ID2D1Multithread interface [Direct2D]","ID2D1Multithread interface [Direct2D]","described","d2d1_1/ID2D1Multithread","direct2d.id2d1multithread"]
+description: A locking mechanism from a Direct2D factory that Direct2D uses to control exclusive resource access in an app that is uses multiple threads.
+helpviewer_keywords: ["ID2D1Multithread","ID2D1Multithread interface [Direct2D]","ID2D1Multithread interface [Direct2D]","described","d2d1_1/ID2D1Multithread","direct2d.id2d1multithread"]
 old-location: direct2d\id2d1multithread.htm
 tech.root: Direct2D
 ms.assetid: 885E7580-6BF0-4A44-9493-6D4FFCB5577B

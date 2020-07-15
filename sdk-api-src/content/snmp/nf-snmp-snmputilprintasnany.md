@@ -1,7 +1,8 @@
 ---
 UID: NF:snmp.SnmpUtilPrintAsnAny
 title: SnmpUtilPrintAsnAny function (snmp.h)
-description: The SnmpUtilPrintAsnAny function prints the value of the Any parameter to the standard output. This function is an element of the SNMP Utility API.helpviewer_keywords: ["SnmpUtilPrintAsnAny","SnmpUtilPrintAsnAny function [SNMP]","_snmp_snmputilprintasnany","snmp.snmputilprintasnany","snmp/SnmpUtilPrintAsnAny"]
+description: The SnmpUtilPrintAsnAny function prints the value of the Any parameter to the standard output. This function is an element of the SNMP Utility API.
+helpviewer_keywords: ["SnmpUtilPrintAsnAny","SnmpUtilPrintAsnAny function [SNMP]","_snmp_snmputilprintasnany","snmp.snmputilprintasnany","snmp/SnmpUtilPrintAsnAny"]
 old-location: snmp\snmputilprintasnany.htm
 tech.root: SNMP
 ms.assetid: 2dd52131-defb-4613-a889-a115d60a969a

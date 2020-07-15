@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchManager2
 title: ISearchManager2 (searchapi.h)
-description: Enabled applications to create and delete custom catalogs in the Windows Search indexer.helpviewer_keywords: ["ISearchManager2","ISearchManager2 interface [search]","ISearchManager2 interface [search]","described","search.isearchmanager2","searchapi/ISearchManager2"]
+description: Enabled applications to create and delete custom catalogs in the Windows Search indexer.
+helpviewer_keywords: ["ISearchManager2","ISearchManager2 interface [search]","ISearchManager2 interface [search]","described","search.isearchmanager2","searchapi/ISearchManager2"]
 old-location: search\isearchmanager2.htm
 tech.root: search
 ms.assetid: EE08AC43-D2E9-4B70-BBA5-52E36DD7F9A1

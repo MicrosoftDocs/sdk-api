@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsNamespaces
 title: IADsNamespaces (iads.h)
-description: The IADsNamespaces interface is implemented by the ADs provider and is used for managing namespace objects.helpviewer_keywords: ["IADsNamespaces","IADsNamespaces interface [ADSI]","IADsNamespaces interface [ADSI]","described","_ds_iadsnamespaces","adsi.iadsnamespaces","iads/IADsNamespaces"]
+description: The IADsNamespaces interface is implemented by the ADs provider and is used for managing namespace objects.
+helpviewer_keywords: ["IADsNamespaces","IADsNamespaces interface [ADSI]","IADsNamespaces interface [ADSI]","described","_ds_iadsnamespaces","adsi.iadsnamespaces","iads/IADsNamespaces"]
 old-location: adsi\iadsnamespaces.htm
 tech.root: adsi
 ms.assetid: edac671e-9ab1-4211-9fd7-1a0b965196b4

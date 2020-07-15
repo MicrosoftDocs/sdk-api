@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnSms.GetSmsConfiguration
 title: IMbnSms::GetSmsConfiguration (mbnapi.h)
-description: Gets the SMS configuration of a device.helpviewer_keywords: ["GetSmsConfiguration","GetSmsConfiguration method [Microsoft Broadband Networks]","GetSmsConfiguration method [Microsoft Broadband Networks]","IMbnSms interface","IMbnSms interface [Microsoft Broadband Networks]","GetSmsConfiguration method","IMbnSms.GetSmsConfiguration","IMbnSms::GetSmsConfiguration","mbn.imbnsms_getsmsconfiguration","mbnapi/IMbnSms::GetSmsConfiguration"]
+description: Gets the SMS configuration of a device.
+helpviewer_keywords: ["GetSmsConfiguration","GetSmsConfiguration method [Microsoft Broadband Networks]","GetSmsConfiguration method [Microsoft Broadband Networks]","IMbnSms interface","IMbnSms interface [Microsoft Broadband Networks]","GetSmsConfiguration method","IMbnSms.GetSmsConfiguration","IMbnSms::GetSmsConfiguration","mbn.imbnsms_getsmsconfiguration","mbnapi/IMbnSms::GetSmsConfiguration"]
 old-location: mbn\imbnsms_getsmsconfiguration.htm
 tech.root: mbn
 ms.assetid: b868bb6f-3ac0-4d77-82dd-b9bc94882a8b

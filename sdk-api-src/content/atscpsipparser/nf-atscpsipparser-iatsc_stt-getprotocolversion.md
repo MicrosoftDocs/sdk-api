@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_STT.GetProtocolVersion
 title: IATSC_STT::GetProtocolVersion (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetProtocolVersion","GetProtocolVersion method [Microsoft TV Technologies]","GetProtocolVersion method [Microsoft TV Technologies]","IATSC_STT interface","IATSC_STT interface [Microsoft TV Technologies]","GetProtocolVersion method","IATSC_STT.GetProtocolVersion","IATSC_STT::GetProtocolVersion","IATSC_STTGetProtocolVersion","atscpsipparser/IATSC_STT::GetProtocolVersion","mstv.iatsc_stt_getprotocolversion"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetProtocolVersion","GetProtocolVersion method [Microsoft TV Technologies]","GetProtocolVersion method [Microsoft TV Technologies]","IATSC_STT interface","IATSC_STT interface [Microsoft TV Technologies]","GetProtocolVersion method","IATSC_STT.GetProtocolVersion","IATSC_STT::GetProtocolVersion","IATSC_STTGetProtocolVersion","atscpsipparser/IATSC_STT::GetProtocolVersion","mstv.iatsc_stt_getprotocolversion"]
 old-location: mstv\iatsc_stt_getprotocolversion.htm
 tech.root: mstv
 ms.assetid: c735400d-9227-4f13-9703-ddafdf5772b0

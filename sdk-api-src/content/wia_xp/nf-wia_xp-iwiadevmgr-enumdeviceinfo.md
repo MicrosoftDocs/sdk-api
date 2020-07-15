@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaDevMgr.EnumDeviceInfo
 title: IWiaDevMgr::EnumDeviceInfo (wia_xp.h)
-description: Applications use the IWiaDevMgr::EnumDeviceInfo method to enumerate property information for each available Windows Image Acquisition (WIA) device.helpviewer_keywords: ["EnumDeviceInfo","EnumDeviceInfo method [WIA]","EnumDeviceInfo method [WIA]","IWiaDevMgr interface","IWiaDevMgr interface [WIA]","EnumDeviceInfo method","IWiaDevMgr.EnumDeviceInfo","IWiaDevMgr::EnumDeviceInfo","_wia_IWiaDevMgr_EnumDeviceInfo","wia._wia_IWiaDevMgr_EnumDeviceInfo","wia_xp/IWiaDevMgr::EnumDeviceInfo"]
+description: Applications use the IWiaDevMgr::EnumDeviceInfo method to enumerate property information for each available Windows Image Acquisition (WIA) device.
+helpviewer_keywords: ["EnumDeviceInfo","EnumDeviceInfo method [WIA]","EnumDeviceInfo method [WIA]","IWiaDevMgr interface","IWiaDevMgr interface [WIA]","EnumDeviceInfo method","IWiaDevMgr.EnumDeviceInfo","IWiaDevMgr::EnumDeviceInfo","_wia_IWiaDevMgr_EnumDeviceInfo","wia._wia_IWiaDevMgr_EnumDeviceInfo","wia_xp/IWiaDevMgr::EnumDeviceInfo"]
 old-location: wia\_wia_IWiaDevMgr_EnumDeviceInfo.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiadevmgr\enumdeviceinfo.htm

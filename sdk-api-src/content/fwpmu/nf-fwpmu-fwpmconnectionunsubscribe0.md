@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmConnectionUnsubscribe0
 title: FwpmConnectionUnsubscribe0 function (fwpmu.h)
-description: Is used to cancel a connection object change event subscription and stop receiving notifications.helpviewer_keywords: ["FwpmConnectionUnsubscribe0","FwpmConnectionUnsubscribe0 function [Filtering]","fwp.fwpmconnectionunsubscribe0","fwpmu/FwpmConnectionUnsubscribe0"]
+description: Is used to cancel a connection object change event subscription and stop receiving notifications.
+helpviewer_keywords: ["FwpmConnectionUnsubscribe0","FwpmConnectionUnsubscribe0 function [Filtering]","fwp.fwpmconnectionunsubscribe0","fwpmu/FwpmConnectionUnsubscribe0"]
 old-location: fwp\fwpmconnectionunsubscribe0.htm
 tech.root: fwp
 ms.assetid: b9fc4c7f-5cbd-4c85-9317-2aa027d3bcde

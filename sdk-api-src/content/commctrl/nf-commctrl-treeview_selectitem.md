@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_SelectItem
 title: TreeView_SelectItem macro (commctrl.h)
-description: Selects the specified tree-view item. You can use this macro or the TreeView_Select macro, or you can send the TVM_SELECTITEM message explicitly.helpviewer_keywords: ["TreeView_SelectItem","TreeView_SelectItem macro [Windows Controls]","_win32_TreeView_SelectItem","_win32_TreeView_SelectItem_cpp","commctrl/TreeView_SelectItem","controls.TreeView_SelectItem","controls._win32_TreeView_SelectItem"]
+description: Selects the specified tree-view item. You can use this macro or the TreeView_Select macro, or you can send the TVM_SELECTITEM message explicitly.
+helpviewer_keywords: ["TreeView_SelectItem","TreeView_SelectItem macro [Windows Controls]","_win32_TreeView_SelectItem","_win32_TreeView_SelectItem_cpp","commctrl/TreeView_SelectItem","controls.TreeView_SelectItem","controls._win32_TreeView_SelectItem"]
 old-location: controls\TreeView_SelectItem.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_selectitem.htm

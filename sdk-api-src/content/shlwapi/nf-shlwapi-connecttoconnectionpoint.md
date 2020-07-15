@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.ConnectToConnectionPoint
 title: ConnectToConnectionPoint function (shlwapi.h)
-description: Establishes or terminates a connection between a client's sink and a connection point container.helpviewer_keywords: ["ConnectToConnectionPoint","ConnectToConnectionPoint function [Windows Shell]","_win32_ConnectToConnectionPoint","shell.ConnectToConnectionPoint","shlwapi/ConnectToConnectionPoint"]
+description: Establishes or terminates a connection between a client's sink and a connection point container.
+helpviewer_keywords: ["ConnectToConnectionPoint","ConnectToConnectionPoint function [Windows Shell]","_win32_ConnectToConnectionPoint","shell.ConnectToConnectionPoint","shlwapi/ConnectToConnectionPoint"]
 old-location: shell\ConnectToConnectionPoint.htm
 tech.root: shell
 ms.assetid: f0c6051e-cced-4f38-a35d-d4c184d39084

@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ISignerCertificates.Find
 title: ISignerCertificates::Find (certenroll.h)
-description: Retrieves the index number of an ISignerCertificate object.helpviewer_keywords: ["Find","Find method [Security]","Find method [Security]","ISignerCertificates interface","ISignerCertificates interface [Security]","Find method","ISignerCertificates.Find","ISignerCertificates::Find","certenroll/ISignerCertificates::Find","security.isignercertificates_find_method"]
+description: Retrieves the index number of an ISignerCertificate object.
+helpviewer_keywords: ["Find","Find method [Security]","Find method [Security]","ISignerCertificates interface","ISignerCertificates interface [Security]","Find method","ISignerCertificates.Find","ISignerCertificates::Find","certenroll/ISignerCertificates::Find","security.isignercertificates_find_method"]
 old-location: security\isignercertificates_find_method.htm
 tech.root: seccertenroll
 ms.assetid: ee741eda-e125-4938-bc49-d8089f7d5df2

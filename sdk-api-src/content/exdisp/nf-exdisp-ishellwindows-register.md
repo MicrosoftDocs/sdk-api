@@ -1,7 +1,8 @@
 ---
 UID: NF:exdisp.IShellWindows.Register
 title: IShellWindows::Register (exdisp.h)
-description: Registers an open window as a Shell window; the window is specified by handle.helpviewer_keywords: ["IShellWindows interface [Windows Shell]","Register method","IShellWindows.Register","IShellWindows::Register","Register","Register method [Windows Shell]","Register method [Windows Shell]","IShellWindows interface","_win32_IShellWindows_Register","exdisp/IShellWindows::Register","shell.IShellWindows_Register"]
+description: Registers an open window as a Shell window; the window is specified by handle.
+helpviewer_keywords: ["IShellWindows interface [Windows Shell]","Register method","IShellWindows.Register","IShellWindows::Register","Register","Register method [Windows Shell]","Register method [Windows Shell]","IShellWindows interface","_win32_IShellWindows_Register","exdisp/IShellWindows::Register","shell.IShellWindows_Register"]
 old-location: shell\IShellWindows_Register.htm
 tech.root: shell
 ms.assetid: 4545cc34-2209-41a5-ab65-283f2985cce0

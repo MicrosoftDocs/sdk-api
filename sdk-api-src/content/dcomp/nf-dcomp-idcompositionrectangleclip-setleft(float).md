@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionRectangleClip.SetLeft(float)
 title: IDCompositionRectangleClip::SetLeft(float) (dcomp.h)
-description: Changes the value of the Left property of a clip rectangle.helpviewer_keywords: ["IDCompositionRectangleClip interface [DirectComposition]","SetLeft method","IDCompositionRectangleClip.SetLeft","IDCompositionRectangleClip.SetLeft(float)","IDCompositionRectangleClip::SetLeft","IDCompositionRectangleClip::SetLeft(float)","SetLeft","SetLeft method [DirectComposition]","SetLeft method [DirectComposition]","IDCompositionRectangleClip interface","dcomp/IDCompositionRectangleClip::SetLeft","directcomp.idcompositionrectangleclip_setleft_float"]
+description: Changes the value of the Left property of a clip rectangle.
+helpviewer_keywords: ["IDCompositionRectangleClip interface [DirectComposition]","SetLeft method","IDCompositionRectangleClip.SetLeft","IDCompositionRectangleClip.SetLeft(float)","IDCompositionRectangleClip::SetLeft","IDCompositionRectangleClip::SetLeft(float)","SetLeft","SetLeft method [DirectComposition]","SetLeft method [DirectComposition]","IDCompositionRectangleClip interface","dcomp/IDCompositionRectangleClip::SetLeft","directcomp.idcompositionrectangleclip_setleft_float"]
 old-location: directcomp\idcompositionrectangleclip_setleft_float.htm
 tech.root: directcomp
 ms.assetid: 56614B81-3AC7-484C-9049-5E189D1C0B3B

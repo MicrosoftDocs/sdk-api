@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspixelformats.IsExtendedPixelFormat
 title: IsExtendedPixelFormat function (gdipluspixelformats.h)
-description: The IsExtendedPixelFormat method determines whether a specified pixel format uses 16 bits per color channel.helpviewer_keywords: ["IsExtendedPixelFormat","IsExtendedPixelFormat function [GDI+]","_gdiplus_FUNC_IsExtendedPixelFormat_","gdiplus._gdiplus_FUNC_IsExtendedPixelFormat_","gdipluspixelformats/IsExtendedPixelFormat"]
+description: The IsExtendedPixelFormat method determines whether a specified pixel format uses 16 bits per color channel.
+helpviewer_keywords: ["IsExtendedPixelFormat","IsExtendedPixelFormat function [GDI+]","_gdiplus_FUNC_IsExtendedPixelFormat_","gdiplus._gdiplus_FUNC_IsExtendedPixelFormat_","gdipluspixelformats/IsExtendedPixelFormat"]
 old-location: gdiplus\_gdiplus_FUNC_IsExtendedPixelFormat_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\isextendedpixelformat.htm

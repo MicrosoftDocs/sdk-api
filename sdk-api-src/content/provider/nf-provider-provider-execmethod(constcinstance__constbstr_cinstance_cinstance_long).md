@@ -1,7 +1,8 @@
 ---
-UID: NF:provider.Provider.ExecMethod(const CInstance &,const BSTR,CInstance,CInstance,long)
+UID: NF:provider.Provider.ExecMethod(constCInstance&,constBSTR,CInstance,CInstance,long)
 title: Provider::ExecMethod (provider.h)
-description: The ExecMethod method is called by WMI to invoke a method on a class or instance.helpviewer_keywords: ["ExecMethod","ExecMethod method [Windows Management Instrumentation]","ExecMethod method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","ExecMethod method","Provider.ExecMethod","Provider::ExecMethod","_hmm_provider_execmethod","provider/Provider::ExecMethod","wmi.provider_execmethod"]
+description: The ExecMethod method is called by WMI to invoke a method on a class or instance.
+helpviewer_keywords: ["ExecMethod","ExecMethod method [Windows Management Instrumentation]","ExecMethod method [Windows Management Instrumentation]","Provider interface","Provider interface [Windows Management Instrumentation]","ExecMethod method","Provider.ExecMethod","Provider::ExecMethod","_hmm_provider_execmethod","provider/Provider::ExecMethod","wmi.provider_execmethod"]
 old-location: wmi\provider_execmethod.htm
 tech.root: WmiSdk
 ms.assetid: 590f59ad-ea93-42f0-8b0d-c05a49272b1b

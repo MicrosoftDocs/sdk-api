@@ -1,7 +1,8 @@
 ---
 UID: NF:cfapi.CfExecute
 title: CfExecute function (cfapi.h)
-description: The main entry point for all connection key based placeholder operations. It is intended to be used by a sync provider to respond to various callbacks from the platform.helpviewer_keywords: ["CfExecute","CfExecute function","cfapi/CfExecute","cloudApi.cfexecute"]
+description: The main entry point for all connection key based placeholder operations. It is intended to be used by a sync provider to respond to various callbacks from the platform.
+helpviewer_keywords: ["CfExecute","CfExecute function","cfapi/CfExecute","cloudApi.cfexecute"]
 old-location: cloudapi\cfexecute.htm
 tech.root: cfApi
 ms.assetid: 6AC8958D-B060-4468-9811-9BAB0E6A06D3

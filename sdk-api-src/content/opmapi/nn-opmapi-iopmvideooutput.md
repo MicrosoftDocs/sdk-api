@@ -1,7 +1,8 @@
 ---
 UID: NN:opmapi.IOPMVideoOutput
 title: IOPMVideoOutput (opmapi.h)
-description: Represents a video output for an Output Protection Manager (OPM) session.helpviewer_keywords: ["IOPMVideoOutput","IOPMVideoOutput interface [Media Foundation]","IOPMVideoOutput interface [Media Foundation]","described","mf.iopmvideooutput","opmapi/IOPMVideoOutput"]
+description: Represents a video output for an Output Protection Manager (OPM) session.
+helpviewer_keywords: ["IOPMVideoOutput","IOPMVideoOutput interface [Media Foundation]","IOPMVideoOutput interface [Media Foundation]","described","mf.iopmvideooutput","opmapi/IOPMVideoOutput"]
 old-location: mf\iopmvideooutput.htm
 tech.root: medfound
 ms.assetid: 8bf43577-3535-4f62-ac81-bb7e3c329403

@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Id
 title: IFaxOutgoingMessage::get_Id (faxcomex.h)
-description: The IFaxOutgoingMessage::get_Id property is a null-terminated string that contains a unique identifier for the outbound fax message.helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","Id property","IFaxOutgoingMessage.Id","IFaxOutgoingMessage.get_Id","IFaxOutgoingMessage::Id","IFaxOutgoingMessage::get_Id","Id property [Fax Service]","Id property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.id","fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_id_cpp","fax._mfax_faxoutgoingmessage_id","faxcomex/IFaxOutgoingMessage::Id","faxcomex/IFaxOutgoingMessage::get_Id","get_Id"]
+description: The IFaxOutgoingMessage::get_Id property is a null-terminated string that contains a unique identifier for the outbound fax message.
+helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","Id property","IFaxOutgoingMessage.Id","IFaxOutgoingMessage.get_Id","IFaxOutgoingMessage::Id","IFaxOutgoingMessage::get_Id","Id property [Fax Service]","Id property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.id","fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_id_cpp","fax._mfax_faxoutgoingmessage_id","faxcomex/IFaxOutgoingMessage::Id","faxcomex/IFaxOutgoingMessage::get_Id","get_Id"]
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_id_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_357o.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.UIntToLong
 title: UIntToLong function (intsafe.h)
-description: Converts a value of type UINT to a value of type LONG.helpviewer_keywords: ["UIntToLong","UIntToLong function [Windows Shell]","_shell_UIntToLong","intsafe/UIntToLong","shell.UIntToLong"]
+description: Converts a value of type UINT to a value of type LONG.
+helpviewer_keywords: ["UIntToLong","UIntToLong function [Windows Shell]","_shell_UIntToLong","intsafe/UIntToLong","shell.UIntToLong"]
 old-location: shell\UIntToLong.htm
 tech.root: shell
 ms.assetid: c632b617-3b77-4a6e-80e7-90115ae0ac3a

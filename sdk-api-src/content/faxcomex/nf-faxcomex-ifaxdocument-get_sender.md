@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDocument.get_Sender
 title: IFaxDocument::get_Sender (faxcomex.h)
-description: Retrieves an object containing information about the sender of the fax document.helpviewer_keywords: ["IFaxDocument interface [Fax Service]","Sender property","IFaxDocument.Sender","IFaxDocument.get_Sender","IFaxDocument::Sender","IFaxDocument::get_Sender","Sender property [Fax Service]","Sender property [Fax Service]","IFaxDocument interface","_mfax_faxdocument.sender","fax._mfax_faxdocument_cpp_mfax_faxdocument_sender_cpp","fax._mfax_faxdocument_sender","faxcomex/IFaxDocument::Sender","faxcomex/IFaxDocument::get_Sender","get_Sender"]
+description: Retrieves an object containing information about the sender of the fax document.
+helpviewer_keywords: ["IFaxDocument interface [Fax Service]","Sender property","IFaxDocument.Sender","IFaxDocument.get_Sender","IFaxDocument::Sender","IFaxDocument::get_Sender","Sender property [Fax Service]","Sender property [Fax Service]","IFaxDocument interface","_mfax_faxdocument.sender","fax._mfax_faxdocument_cpp_mfax_faxdocument_sender_cpp","fax._mfax_faxdocument_sender","faxcomex/IFaxDocument::Sender","faxcomex/IFaxDocument::get_Sender","get_Sender"]
 old-location: fax\_mfax_faxdocument_cpp_mfax_faxdocument_sender_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2cdu.htm

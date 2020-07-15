@@ -1,7 +1,8 @@
 ---
 UID: NE:tapi3if.CALLINFO_BUFFER
 title: CALLINFO_BUFFER (tapi3if.h)
-description: The CALLINFO_BUFFER enum indicates the type of buffer accessed by the ITCallInfo::GetCallInfoBuffer method or the ITCallInfo::SetCallInfoBuffer method.helpviewer_keywords: ["CALLINFO_BUFFER","CALLINFO_BUFFER enumeration [TAPI 2.2]","CIB_CALLDATABUFFER","CIB_CHARGINGINFOBUFFER","CIB_DEVSPECIFICBUFFER","CIB_HIGHLEVELCOMPATIBILITYBUFFER","CIB_LOWLEVELCOMPATIBILITYBUFFER","CIB_USERUSERINFO","_tapi3_callinfo_buffer","tapi3.callinfo_buffer","tapi3if/CALLINFO_BUFFER","tapi3if/CIB_CALLDATABUFFER","tapi3if/CIB_CHARGINGINFOBUFFER","tapi3if/CIB_DEVSPECIFICBUFFER","tapi3if/CIB_HIGHLEVELCOMPATIBILITYBUFFER","tapi3if/CIB_LOWLEVELCOMPATIBILITYBUFFER","tapi3if/CIB_USERUSERINFO"]
+description: The CALLINFO_BUFFER enum indicates the type of buffer accessed by the ITCallInfo::GetCallInfoBuffer method or the ITCallInfo::SetCallInfoBuffer method.
+helpviewer_keywords: ["CALLINFO_BUFFER","CALLINFO_BUFFER enumeration [TAPI 2.2]","CIB_CALLDATABUFFER","CIB_CHARGINGINFOBUFFER","CIB_DEVSPECIFICBUFFER","CIB_HIGHLEVELCOMPATIBILITYBUFFER","CIB_LOWLEVELCOMPATIBILITYBUFFER","CIB_USERUSERINFO","_tapi3_callinfo_buffer","tapi3.callinfo_buffer","tapi3if/CALLINFO_BUFFER","tapi3if/CIB_CALLDATABUFFER","tapi3if/CIB_CHARGINGINFOBUFFER","tapi3if/CIB_DEVSPECIFICBUFFER","tapi3if/CIB_HIGHLEVELCOMPATIBILITYBUFFER","tapi3if/CIB_LOWLEVELCOMPATIBILITYBUFFER","tapi3if/CIB_USERUSERINFO"]
 old-location: tapi3\callinfo_buffer.htm
 tech.root: Tapi
 ms.assetid: 76774741-2aa3-455c-a203-1daee42cf0fa

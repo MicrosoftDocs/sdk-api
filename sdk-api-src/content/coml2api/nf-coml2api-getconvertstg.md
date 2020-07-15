@@ -1,7 +1,8 @@
 ---
 UID: NF:coml2api.GetConvertStg
 title: GetConvertStg function (coml2api.h)
-description: The GetConvertStg function returns the current value of the convert bit for the specified storage object.helpviewer_keywords: ["GetConvertStg","GetConvertStg function [Structured Storage]","_stg_getconvertstg","coml2api/GetConvertStg","stg.getconvertstg"]
+description: The GetConvertStg function returns the current value of the convert bit for the specified storage object.
+helpviewer_keywords: ["GetConvertStg","GetConvertStg function [Structured Storage]","_stg_getconvertstg","coml2api/GetConvertStg","stg.getconvertstg"]
 old-location: stg\getconvertstg.htm
 tech.root: Stg
 ms.assetid: 748649a2-cf75-4ffa-ac1f-4a148b845d21

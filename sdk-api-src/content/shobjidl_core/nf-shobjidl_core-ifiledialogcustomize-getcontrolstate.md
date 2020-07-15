@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetControlState
 title: IFileDialogCustomize::GetControlState (shobjidl_core.h)
-description: Gets the current visibility and enabled states of a given control.helpviewer_keywords: ["GetControlState","GetControlState method [Windows Shell]","GetControlState method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","GetControlState method","IFileDialogCustomize.GetControlState","IFileDialogCustomize::GetControlState","shell.IFileDialogCustomize_GetControlState","shell_IFileDialogCustomize_GetControlState","shobjidl_core/IFileDialogCustomize::GetControlState"]
+description: Gets the current visibility and enabled states of a given control.
+helpviewer_keywords: ["GetControlState","GetControlState method [Windows Shell]","GetControlState method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","GetControlState method","IFileDialogCustomize.GetControlState","IFileDialogCustomize::GetControlState","shell.IFileDialogCustomize_GetControlState","shell_IFileDialogCustomize_GetControlState","shobjidl_core/IFileDialogCustomize::GetControlState"]
 old-location: shell\IFileDialogCustomize_GetControlState.htm
 tech.root: shell
 ms.assetid: 2a167050-2778-4cc2-9b05-ec81f679c6c0

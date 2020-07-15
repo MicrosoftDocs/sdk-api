@@ -1,7 +1,8 @@
 ---
 UID: NF:ktmw32.GetEnlistmentRecoveryInformation
 title: GetEnlistmentRecoveryInformation function (ktmw32.h)
-description: Retrieves an opaque structure of recovery data from KTM.helpviewer_keywords: ["GetEnlistmentRecoveryInformation","GetEnlistmentRecoveryInformation function [Files]","fs.getenlistmentrecoveryinformation_func","ktmw32/GetEnlistmentRecoveryInformation"]
+description: Retrieves an opaque structure of recovery data from KTM.
+helpviewer_keywords: ["GetEnlistmentRecoveryInformation","GetEnlistmentRecoveryInformation function [Files]","fs.getenlistmentrecoveryinformation_func","ktmw32/GetEnlistmentRecoveryInformation"]
 old-location: fs\getenlistmentrecoveryinformation_func.htm
 tech.root: ktm
 ms.assetid: 05bfbe81-5f3d-4e32-b4fa-4532227f522e

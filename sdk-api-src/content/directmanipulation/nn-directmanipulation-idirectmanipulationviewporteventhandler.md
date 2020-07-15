@@ -1,7 +1,8 @@
 ---
 UID: NN:directmanipulation.IDirectManipulationViewportEventHandler
 title: IDirectManipulationViewportEventHandler (directmanipulation.h)
-description: Defines methods for handling status and update events for the viewport.helpviewer_keywords: ["IDirectManipulationViewportEventHandler","IDirectManipulationViewportEventHandler interface [Direct Manipulation]","IDirectManipulationViewportEventHandler interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationviewporteventhandler","directmanipulation/IDirectManipulationViewportEventHandler"]
+description: Defines methods for handling status and update events for the viewport.
+helpviewer_keywords: ["IDirectManipulationViewportEventHandler","IDirectManipulationViewportEventHandler interface [Direct Manipulation]","IDirectManipulationViewportEventHandler interface [Direct Manipulation]","described","directmanipulation.idirectmanipulationviewporteventhandler","directmanipulation/IDirectManipulationViewportEventHandler"]
 old-location: directmanipulation\idirectmanipulationviewporteventhandler.htm
 tech.root: directmanipulation
 ms.assetid: 3594011a-da4a-4550-9b3b-076218d09f39

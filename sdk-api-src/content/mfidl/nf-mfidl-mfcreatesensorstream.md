@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreateSensorStream
 title: MFCreateSensorStream function (mfidl.h)
-description: Creates an instance of the IMFSensorStream interface.helpviewer_keywords: ["MFCreateSensorStream","MFCreateSensorStream function [Media Foundation]","mf.mfcreatesensorstream","mfidl/MFCreateSensorStream"]
+description: Creates an instance of the IMFSensorStream interface.
+helpviewer_keywords: ["MFCreateSensorStream","MFCreateSensorStream function [Media Foundation]","mf.mfcreatesensorstream","mfidl/MFCreateSensorStream"]
 old-location: mf\mfcreatesensorstream.htm
 tech.root: medfound
 ms.assetid: 3C260634-E722-4F1D-800C-FB32308CF605

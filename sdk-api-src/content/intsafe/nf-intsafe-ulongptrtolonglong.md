@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ULongPtrToLongLong
 title: ULongPtrToLongLong function (intsafe.h)
-description: Converts a value of type SIZE_T to a value of type INT64.helpviewer_keywords: ["SIZETToInt64","SIZETToInt64 function [Windows Shell]","ULongPtrToLongLong","_shell_SIZETToInt64","intsafe/SIZETToInt64","shell.SIZETToInt64","shell.SIZETToInt64_1"]
+description: Converts a value of type SIZE_T to a value of type INT64.
+helpviewer_keywords: ["SIZETToInt64","SIZETToInt64 function [Windows Shell]","ULongPtrToLongLong","_shell_SIZETToInt64","intsafe/SIZETToInt64","shell.SIZETToInt64","shell.SIZETToInt64_1"]
 old-location: shell\SIZETToInt64_1.htm
 tech.root: shell
 ms.assetid: fee8914c-8acb-41e9-b239-3844a4ef1289

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFObjectReferenceStream.LoadReference
 title: IMFObjectReferenceStream::LoadReference (mfidl.h)
-description: Marshals an interface from data stored in the stream.helpviewer_keywords: ["IMFObjectReferenceStream interface [Media Foundation]","LoadReference method","IMFObjectReferenceStream.LoadReference","IMFObjectReferenceStream::LoadReference","LoadReference","LoadReference method [Media Foundation]","LoadReference method [Media Foundation]","IMFObjectReferenceStream interface","fabf7de2-8433-43ba-9ded-001569614054","mf.imfobjectreferencestream_loadreference","mfidl/IMFObjectReferenceStream::LoadReference"]
+description: Marshals an interface from data stored in the stream.
+helpviewer_keywords: ["IMFObjectReferenceStream interface [Media Foundation]","LoadReference method","IMFObjectReferenceStream.LoadReference","IMFObjectReferenceStream::LoadReference","LoadReference","LoadReference method [Media Foundation]","LoadReference method [Media Foundation]","IMFObjectReferenceStream interface","fabf7de2-8433-43ba-9ded-001569614054","mf.imfobjectreferencestream_loadreference","mfidl/IMFObjectReferenceStream::LoadReference"]
 old-location: mf\imfobjectreferencestream_loadreference.htm
 tech.root: medfound
 ms.assetid: fabf7de2-8433-43ba-9ded-001569614054

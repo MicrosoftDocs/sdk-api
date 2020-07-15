@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsADSystemInfo.GetTrees
 title: IADsADSystemInfo::GetTrees (iads.h)
-description: Retrieves the DNS names of all the directory trees in the local computer's forest.helpviewer_keywords: ["GetTrees","GetTrees method [ADSI]","GetTrees method [ADSI]","IADsADSystemInfo interface","IADsADSystemInfo interface [ADSI]","GetTrees method","IADsADSystemInfo.GetTrees","IADsADSystemInfo::GetTrees","_ds_iadsadsysteminfo_gettrees","adsi.iadsadsysteminfo__gettrees","adsi.iadsadsysteminfo_gettrees","iads/IADsADSystemInfo::GetTrees"]
+description: Retrieves the DNS names of all the directory trees in the local computer's forest.
+helpviewer_keywords: ["GetTrees","GetTrees method [ADSI]","GetTrees method [ADSI]","IADsADSystemInfo interface","IADsADSystemInfo interface [ADSI]","GetTrees method","IADsADSystemInfo.GetTrees","IADsADSystemInfo::GetTrees","_ds_iadsadsysteminfo_gettrees","adsi.iadsadsysteminfo__gettrees","adsi.iadsadsysteminfo_gettrees","iads/IADsADSystemInfo::GetTrees"]
 old-location: adsi\iadsadsysteminfo_gettrees.htm
 tech.root: adsi
 ms.assetid: 1446d248-0adc-4542-b4af-c7139cee028f

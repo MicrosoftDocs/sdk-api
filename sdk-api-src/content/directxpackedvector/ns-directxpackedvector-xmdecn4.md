@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMDECN4
 title: XMDECN4 (directxpackedvector.h)
-description: A 4D vector for storing signed, normalized values as 10 bit signed x-,y-, and z- components and a 2 bit signed w-component.helpviewer_keywords: ["XMDECN4","XMDECN4 structure [DirectX Math Support APIs]","directxpackedvector/XMDECN4","dxmath.xmdecn4"]
+description: A 4D vector for storing signed, normalized values as 10 bit signed x-,y-, and z- components and a 2 bit signed w-component.
+helpviewer_keywords: ["XMDECN4","XMDECN4 structure [DirectX Math Support APIs]","directxpackedvector/XMDECN4","dxmath.xmdecn4"]
 old-location: dxmath\xmdecn4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMDECN4

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IRunnableTask.Resume
 title: IRunnableTask::Resume (shobjidl_core.h)
-description: Requests that a task resume.helpviewer_keywords: ["IRunnableTask interface [Windows Shell]","Resume method","IRunnableTask.Resume","IRunnableTask::Resume","Resume","Resume method [Windows Shell]","Resume method [Windows Shell]","IRunnableTask interface","_win32_IRunnableTask_Resume","shell.IRunnableTask_Resume","shobjidl_core/IRunnableTask::Resume"]
+description: Requests that a task resume.
+helpviewer_keywords: ["IRunnableTask interface [Windows Shell]","Resume method","IRunnableTask.Resume","IRunnableTask::Resume","Resume","Resume method [Windows Shell]","Resume method [Windows Shell]","IRunnableTask interface","_win32_IRunnableTask_Resume","shell.IRunnableTask_Resume","shobjidl_core/IRunnableTask::Resume"]
 old-location: shell\IRunnableTask_Resume.htm
 tech.root: shell
 ms.assetid: 51ff7ae2-b2db-4eee-b03b-da46ff0ec901

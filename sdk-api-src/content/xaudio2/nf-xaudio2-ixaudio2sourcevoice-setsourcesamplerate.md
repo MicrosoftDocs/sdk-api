@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2SourceVoice.SetSourceSampleRate
 title: IXAudio2SourceVoice::SetSourceSampleRate (xaudio2.h)
-description: Reconfigures the voice to consume source data at a different sample rate than the rate specified when the voice was created.helpviewer_keywords: ["IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","SetSourceSampleRate method","IXAudio2SourceVoice.SetSourceSampleRate","IXAudio2SourceVoice::SetSourceSampleRate","SetSourceSampleRate","SetSourceSampleRate method [XAudio2 Audio Mixing APIs]","SetSourceSampleRate method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","xaudio2.ixaudio2sourcevoice_interface_setsourcesamplerate","xaudio2/IXAudio2SourceVoice::SetSourceSampleRate"]
+description: Reconfigures the voice to consume source data at a different sample rate than the rate specified when the voice was created.
+helpviewer_keywords: ["IXAudio2SourceVoice interface [XAudio2 Audio Mixing APIs]","SetSourceSampleRate method","IXAudio2SourceVoice.SetSourceSampleRate","IXAudio2SourceVoice::SetSourceSampleRate","SetSourceSampleRate","SetSourceSampleRate method [XAudio2 Audio Mixing APIs]","SetSourceSampleRate method [XAudio2 Audio Mixing APIs]","IXAudio2SourceVoice interface","xaudio2.ixaudio2sourcevoice_interface_setsourcesamplerate","xaudio2/IXAudio2SourceVoice::SetSourceSampleRate"]
 old-location: xaudio2\ixaudio2sourcevoice_interface_setsourcesamplerate.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2sourcevoice.IXAudio2SourceVoice.SetSourceSampleRate(UINT32)

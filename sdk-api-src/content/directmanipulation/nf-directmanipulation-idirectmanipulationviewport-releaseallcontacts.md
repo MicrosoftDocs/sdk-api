@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.ReleaseAllContacts
 title: IDirectManipulationViewport::ReleaseAllContacts (directmanipulation.h)
-description: Removes all contacts that are associated with the viewport. Inertia is started if the viewport supports inertia.helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","ReleaseAllContacts method","IDirectManipulationViewport.ReleaseAllContacts","IDirectManipulationViewport::ReleaseAllContacts","ReleaseAllContacts","ReleaseAllContacts method [Direct Manipulation]","ReleaseAllContacts method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_releaseallcontacts","directmanipulation/IDirectManipulationViewport::ReleaseAllContacts"]
+description: Removes all contacts that are associated with the viewport. Inertia is started if the viewport supports inertia.
+helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","ReleaseAllContacts method","IDirectManipulationViewport.ReleaseAllContacts","IDirectManipulationViewport::ReleaseAllContacts","ReleaseAllContacts","ReleaseAllContacts method [Direct Manipulation]","ReleaseAllContacts method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_releaseallcontacts","directmanipulation/IDirectManipulationViewport::ReleaseAllContacts"]
 old-location: directmanipulation\idirectmanipulationviewport_releaseallcontacts.htm
 tech.root: directmanipulation
 ms.assetid: 6ef43920-92bf-49c5-8e10-954d1b2b4440

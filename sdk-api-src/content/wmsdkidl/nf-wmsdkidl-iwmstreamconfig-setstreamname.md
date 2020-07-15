@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.SetStreamName
 title: IWMStreamConfig::SetStreamName (wmsdkidl.h)
-description: The SetStreamName method assigns a name to the stream represented by the stream configuration object.helpviewer_keywords: ["IWMStreamConfig interface [windows Media Format]","SetStreamName method","IWMStreamConfig.SetStreamName","IWMStreamConfig::SetStreamName","IWMStreamConfigSetStreamName","SetStreamName","SetStreamName method [windows Media Format]","SetStreamName method [windows Media Format]","IWMStreamConfig interface","wmformat.iwmstreamconfig_setstreamname","wmsdkidl/IWMStreamConfig::SetStreamName"]
+description: The SetStreamName method assigns a name to the stream represented by the stream configuration object.
+helpviewer_keywords: ["IWMStreamConfig interface [windows Media Format]","SetStreamName method","IWMStreamConfig.SetStreamName","IWMStreamConfig::SetStreamName","IWMStreamConfigSetStreamName","SetStreamName","SetStreamName method [windows Media Format]","SetStreamName method [windows Media Format]","IWMStreamConfig interface","wmformat.iwmstreamconfig_setstreamname","wmsdkidl/IWMStreamConfig::SetStreamName"]
 old-location: wmformat\iwmstreamconfig_setstreamname.htm
 tech.root: wmformat
 ms.assetid: 90ab1591-eee7-4504-8d7f-475d90fa3b40

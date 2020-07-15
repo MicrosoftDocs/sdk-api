@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT
 title: WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT (webservices.h)
-description: A security binding constraint that corresponds to the WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING.helpviewer_keywords: ["WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT","WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows]","webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT","wsw.ws_security_context_message_security_binding_constraint"]
+description: A security binding constraint that corresponds to the WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING.
+helpviewer_keywords: ["WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT","WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT structure [Web Services for Windows]","webservices/WS_SECURITY_CONTEXT_MESSAGE_SECURITY_BINDING_CONSTRAINT","wsw.ws_security_context_message_security_binding_constraint"]
 old-location: wsw\ws_security_context_message_security_binding_constraint.htm
 tech.root: wsw
 ms.assetid: 7abc37d8-cb00-459d-aa08-609a06b65a5c

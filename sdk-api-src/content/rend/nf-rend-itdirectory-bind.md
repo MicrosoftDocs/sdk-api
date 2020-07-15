@@ -1,7 +1,8 @@
 ---
 UID: NF:rend.ITDirectory.Bind
 title: ITDirectory::Bind (rend.h)
-description: The Bind method binds to the server.helpviewer_keywords: ["Bind","Bind method [TAPI 2.2]","Bind method [TAPI 2.2]","ITDirectory interface","ITDirectory interface [TAPI 2.2]","Bind method","ITDirectory.Bind","ITDirectory::Bind","_tapi3_itdirectory_bind","rend/ITDirectory::Bind","tapi3.itdirectory_bind"]
+description: The Bind method binds to the server.
+helpviewer_keywords: ["Bind","Bind method [TAPI 2.2]","Bind method [TAPI 2.2]","ITDirectory interface","ITDirectory interface [TAPI 2.2]","Bind method","ITDirectory.Bind","ITDirectory::Bind","_tapi3_itdirectory_bind","rend/ITDirectory::Bind","tapi3.itdirectory_bind"]
 old-location: tapi3\itdirectory_bind.htm
 tech.root: Tapi
 ms.assetid: 4bcf994c-3091-445e-ad79-91958e48960a

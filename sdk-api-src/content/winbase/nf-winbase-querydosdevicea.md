@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.QueryDosDeviceA
 title: QueryDosDeviceA function (winbase.h)
-description: Retrieves information about MS-DOS device names.helpviewer_keywords: ["QueryDosDevice","QueryDosDevice function [Files]","QueryDosDeviceA","QueryDosDeviceW","_win32_querydosdevice","base.querydosdevice","fileapi/QueryDosDevice","fileapi/QueryDosDeviceA","fileapi/QueryDosDeviceW","fs.querydosdevice","winbase/QueryDosDevice","winbase/QueryDosDeviceA","winbase/QueryDosDeviceW"]
+description: Retrieves information about MS-DOS device names.
+helpviewer_keywords: ["QueryDosDevice","QueryDosDevice function [Files]","QueryDosDeviceA","QueryDosDeviceW","_win32_querydosdevice","base.querydosdevice","fileapi/QueryDosDevice","fileapi/QueryDosDeviceA","fileapi/QueryDosDeviceW","fs.querydosdevice","winbase/QueryDosDevice","winbase/QueryDosDeviceA","winbase/QueryDosDeviceW"]
 old-location: fs\querydosdevice.htm
 tech.root: FileIO
 ms.assetid: ff25bc2b-dde6-40c3-a270-372daab2e5c4
@@ -79,7 +80,7 @@ MS-DOS device names are stored as junctions in the object namespace. The code th
 ### -param lpDeviceName [in, optional]
 
 An MS-DOS device name string specifying the target of the query. The device name cannot have a trailing 
-       backslash; for example, use "C:", not "C:\".
+       backslash; for example, use "C:", not "C:\\".
 
 This parameter can be <b>NULL</b>. In that case, the 
        <b>QueryDosDevice</b> function will store a list of all 

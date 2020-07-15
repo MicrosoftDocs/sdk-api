@@ -1,7 +1,8 @@
 ---
 UID: NE:uiautomationcore.RowOrColumnMajor
 title: RowOrColumnMajor (uiautomationcore.h)
-description: Contains values that specify whether data in a table should be read primarily by row or by column.helpviewer_keywords: ["RowOrColumnMajor","RowOrColumnMajor enumeration [Windows Accessibility]","RowOrColumnMajor_ColumnMajor","RowOrColumnMajor_Indeterminate","RowOrColumnMajor_RowMajor","uiauto.uiauto_RowOrColumnMajorEnum","uiauto_RowOrColumnMajorEnum","uiautomationcore/RowOrColumnMajor","uiautomationcore/RowOrColumnMajor_ColumnMajor","uiautomationcore/RowOrColumnMajor_Indeterminate","uiautomationcore/RowOrColumnMajor_RowMajor","winauto.uiauto_RowOrColumnMajorEnum"]
+description: Contains values that specify whether data in a table should be read primarily by row or by column.
+helpviewer_keywords: ["RowOrColumnMajor","RowOrColumnMajor enumeration [Windows Accessibility]","RowOrColumnMajor_ColumnMajor","RowOrColumnMajor_Indeterminate","RowOrColumnMajor_RowMajor","uiauto.uiauto_RowOrColumnMajorEnum","uiauto_RowOrColumnMajorEnum","uiautomationcore/RowOrColumnMajor","uiautomationcore/RowOrColumnMajor_ColumnMajor","uiautomationcore/RowOrColumnMajor_Indeterminate","uiautomationcore/RowOrColumnMajor_RowMajor","winauto.uiauto_RowOrColumnMajorEnum"]
 old-location: winauto\uiauto_RowOrColumnMajorEnum.htm
 tech.root: WinAuto
 ms.assetid: c1847da9-21ad-4751-bb17-5c54b4bebe77

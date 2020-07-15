@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusheaders.Bitmap.Bitmap(IN INT,IN INT,IN Graphics)
+UID: NF:gdiplusheaders.Bitmap.Bitmap(ININT,ININT,INGraphics)
 title: Bitmap::Bitmap(IN INT,IN INT,IN Graphics) (gdiplusheaders.h)
-description: Creates a Bitmap::Bitmap object based on a Graphics object, a width, and a height.helpviewer_keywords: ["Bitmap","Bitmap class [GDI+]","Bitmap constructor","Bitmap constructor [GDI+]","Bitmap constructor [GDI+]","Bitmap class","Bitmap.Bitmap","Bitmap.Bitmap(IN INT","IN INT","IN Graphics)","Bitmap.Bitmap(INT","INT","Graphics*)","Bitmap::Bitmap","Bitmap::Bitmap(IN INT","IN INT","IN Graphics)","_gdiplus_CLASS_Bitmap_Bitmap_width_height_target_","gdiplus._gdiplus_CLASS_Bitmap_Bitmap_width_height_target_"]
+description: Creates a Bitmap::Bitmap object based on a Graphics object, a width, and a height.
+helpviewer_keywords: ["Bitmap","Bitmap class [GDI+]","Bitmap constructor","Bitmap constructor [GDI+]","Bitmap constructor [GDI+]","Bitmap class","Bitmap.Bitmap","Bitmap.Bitmap(IN INT","IN INT","IN Graphics)","Bitmap.Bitmap(INT","INT","Graphics*)","Bitmap::Bitmap","Bitmap::Bitmap(IN INT","IN INT","IN Graphics)","_gdiplus_CLASS_Bitmap_Bitmap_width_height_target_","gdiplus._gdiplus_CLASS_Bitmap_Bitmap_width_height_target_"]
 old-location: gdiplus\_gdiplus_CLASS_Bitmap_Bitmap_width_height_target_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\bitmapclass\bitmapconstructors\bitmap_21width_height_target.htm

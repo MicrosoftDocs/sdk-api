@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiEnableLogA
 title: MsiEnableLogA function (msi.h)
-description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process.helpviewer_keywords: ["INSTALLLOGATTRIBUTES_APPEND","INSTALLLOGATTRIBUTES_FLUSHEACHLINE","INSTALLLOGMODE_ACTIONDATA","INSTALLLOGMODE_ACTIONSTART","INSTALLLOGMODE_COMMONDATA","INSTALLLOGMODE_ERROR","INSTALLLOGMODE_EXTRADEBUG","INSTALLLOGMODE_FATALEXIT","INSTALLLOGMODE_INFO","INSTALLLOGMODE_LOGONLYONERROR","INSTALLLOGMODE_OUTOFDISKSPACE","INSTALLLOGMODE_PROPERTYDUMP","INSTALLLOGMODE_RESOLVESOURCE","INSTALLLOGMODE_USER","INSTALLLOGMODE_VERBOSE","INSTALLLOGMODE_WARNING","MsiEnableLog","MsiEnableLog function","MsiEnableLogA","MsiEnableLogW","_msi_msienablelog","msi/MsiEnableLog","msi/MsiEnableLogA","msi/MsiEnableLogW","setup.msienablelog"]
+description: The MsiEnableLog function sets the log mode for all subsequent installations that are initiated in the calling process.
+helpviewer_keywords: ["INSTALLLOGATTRIBUTES_APPEND","INSTALLLOGATTRIBUTES_FLUSHEACHLINE","INSTALLLOGMODE_ACTIONDATA","INSTALLLOGMODE_ACTIONSTART","INSTALLLOGMODE_COMMONDATA","INSTALLLOGMODE_ERROR","INSTALLLOGMODE_EXTRADEBUG","INSTALLLOGMODE_FATALEXIT","INSTALLLOGMODE_INFO","INSTALLLOGMODE_LOGONLYONERROR","INSTALLLOGMODE_OUTOFDISKSPACE","INSTALLLOGMODE_PROPERTYDUMP","INSTALLLOGMODE_RESOLVESOURCE","INSTALLLOGMODE_USER","INSTALLLOGMODE_VERBOSE","INSTALLLOGMODE_WARNING","MsiEnableLog","MsiEnableLog function","MsiEnableLogA","MsiEnableLogW","_msi_msienablelog","msi/MsiEnableLog","msi/MsiEnableLogA","msi/MsiEnableLogW","setup.msienablelog"]
 old-location: setup\msienablelog.htm
 tech.root: Msi
 ms.assetid: 117ccd0b-e434-453f-9602-ff50bc85db6e
@@ -304,6 +305,10 @@ The path to the log file location must already exist when using this function. T
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiEnableLog as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

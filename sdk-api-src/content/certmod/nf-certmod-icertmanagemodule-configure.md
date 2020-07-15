@@ -1,7 +1,8 @@
 ---
 UID: NF:certmod.ICertManageModule.Configure
 title: ICertManageModule::Configure (certmod.h)
-description: Displays the module user interface.helpviewer_keywords: ["CCertManageModule object [Security]","Configure method","Configure","Configure method [Security]","Configure method [Security]","CCertManageModule object","Configure method [Security]","ICertManageModule interface","ICertManageModule interface [Security]","Configure method","ICertManageModule.Configure","ICertManageModule::Configure","_certsrv_icertmanagemodule_configure","certmod/ICertManageModule::Configure","security.icertmanagemodule_configure"]
+description: Displays the module user interface.
+helpviewer_keywords: ["CCertManageModule object [Security]","Configure method","Configure","Configure method [Security]","Configure method [Security]","CCertManageModule object","Configure method [Security]","ICertManageModule interface","ICertManageModule interface [Security]","Configure method","ICertManageModule.Configure","ICertManageModule::Configure","_certsrv_icertmanagemodule_configure","certmod/ICertManageModule::Configure","security.icertmanagemodule_configure"]
 old-location: security\icertmanagemodule_configure.htm
 tech.root: SecCrypto
 ms.assetid: dc54cda9-1818-40af-9005-f31ad3c110c4

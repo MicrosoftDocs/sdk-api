@@ -1,7 +1,8 @@
 ---
 UID: NS:txfw32._TXF_LOG_RECORD_WRITE
 title: TXF_LOG_RECORD_WRITE (txfw32.h)
-description: Contains the record for a write operation.helpviewer_keywords: ["*PTXF_LOG_RECORD_WRITE","PTXF_LOG_RECORD_WRITE","PTXF_LOG_RECORD_WRITE structure pointer [Files]","TXF_LOG_RECORD_WRITE","TXF_LOG_RECORD_WRITE structure [Files]","fs.txf_log_record_write","txfw32/PTXF_LOG_RECORD_WRITE","txfw32/TXF_LOG_RECORD_WRITE"]
+description: Contains the record for a write operation.
+helpviewer_keywords: ["*PTXF_LOG_RECORD_WRITE","PTXF_LOG_RECORD_WRITE","PTXF_LOG_RECORD_WRITE structure pointer [Files]","TXF_LOG_RECORD_WRITE","TXF_LOG_RECORD_WRITE structure [Files]","fs.txf_log_record_write","txfw32/PTXF_LOG_RECORD_WRITE","txfw32/TXF_LOG_RECORD_WRITE"]
 old-location: fs\txf_log_record_write.htm
 tech.root: FileIO
 ms.assetid: 754ea93e-bc82-498e-8333-eda3262aebc0

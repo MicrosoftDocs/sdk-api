@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIPerfCounterLoggingManager.CreateLogger
 title: IRDPSRAPIPerfCounterLoggingManager::CreateLogger (rdpencomapi.h)
-description: Creates a new IRDPSRAPIPerfCounterLogger object.helpviewer_keywords: ["CreateLogger","CreateLogger method [RDP]","CreateLogger method [RDP]","IRDPSRAPIPerfCounterLoggingManager interface","IRDPSRAPIPerfCounterLoggingManager interface [RDP]","CreateLogger method","IRDPSRAPIPerfCounterLoggingManager.CreateLogger","IRDPSRAPIPerfCounterLoggingManager::CreateLogger","rdp.irdpsrapiperfcounterloggingmanager_createlogger","rdpencomapi/IRDPSRAPIPerfCounterLoggingManager::CreateLogger"]
+description: Creates a new IRDPSRAPIPerfCounterLogger object.
+helpviewer_keywords: ["CreateLogger","CreateLogger method [RDP]","CreateLogger method [RDP]","IRDPSRAPIPerfCounterLoggingManager interface","IRDPSRAPIPerfCounterLoggingManager interface [RDP]","CreateLogger method","IRDPSRAPIPerfCounterLoggingManager.CreateLogger","IRDPSRAPIPerfCounterLoggingManager::CreateLogger","rdp.irdpsrapiperfcounterloggingmanager_createlogger","rdpencomapi/IRDPSRAPIPerfCounterLoggingManager::CreateLogger"]
 old-location: rdp\irdpsrapiperfcounterloggingmanager_createlogger.htm
 tech.root: rdp
 ms.assetid: 24C57AE8-208B-4254-B5B1-8AB77E2D4044

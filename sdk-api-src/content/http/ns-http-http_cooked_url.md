@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_COOKED_URL
 title: HTTP_COOKED_URL (http.h)
-description: Contains a validated, canonical, UTF-16 Unicode-encoded URL request string together with pointers into it and element lengths.helpviewer_keywords: ["*PHTTP_COOKED_URL","HTTP_COOKED_URL","HTTP_COOKED_URL structure [HTTP]","PHTTP_COOKED_URL","PHTTP_COOKED_URL structure pointer [HTTP]","_http_http_cooked_url","http.http_cooked_url","http/HTTP_COOKED_URL","http/PHTTP_COOKED_URL"]
+description: Contains a validated, canonical, UTF-16 Unicode-encoded URL request string together with pointers into it and element lengths.
+helpviewer_keywords: ["*PHTTP_COOKED_URL","HTTP_COOKED_URL","HTTP_COOKED_URL structure [HTTP]","PHTTP_COOKED_URL","PHTTP_COOKED_URL structure pointer [HTTP]","_http_http_cooked_url","http.http_cooked_url","http/HTTP_COOKED_URL","http/PHTTP_COOKED_URL"]
 old-location: http\http_cooked_url.htm
 tech.root: http
 ms.assetid: beb31444-4a4b-4d8d-b88b-7d74467c9ca1

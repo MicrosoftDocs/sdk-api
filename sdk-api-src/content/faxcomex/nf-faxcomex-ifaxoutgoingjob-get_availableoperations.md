@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingJob.get_AvailableOperations
 title: IFaxOutgoingJob::get_AvailableOperations (faxcomex.h)
-description: The IFaxOutgoingJob::get_AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.helpviewer_keywords: ["AvailableOperations property [Fax Service]","AvailableOperations property [Fax Service]","IFaxOutgoingJob interface","IFaxOutgoingJob interface [Fax Service]","AvailableOperations property","IFaxOutgoingJob.AvailableOperations","IFaxOutgoingJob.get_AvailableOperations","IFaxOutgoingJob::AvailableOperations","IFaxOutgoingJob::get_AvailableOperations","_mfax_faxoutgoingjob.availableoperations","fax._mfax_faxoutgoingjob_availableoperations","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperations_cpp","faxcomex/IFaxOutgoingJob::AvailableOperations","faxcomex/IFaxOutgoingJob::get_AvailableOperations","get_AvailableOperations"]
+description: The IFaxOutgoingJob::get_AvailableOperations property indicates the combination of valid operations that you can perform on the fax job, given its current status.
+helpviewer_keywords: ["AvailableOperations property [Fax Service]","AvailableOperations property [Fax Service]","IFaxOutgoingJob interface","IFaxOutgoingJob interface [Fax Service]","AvailableOperations property","IFaxOutgoingJob.AvailableOperations","IFaxOutgoingJob.get_AvailableOperations","IFaxOutgoingJob::AvailableOperations","IFaxOutgoingJob::get_AvailableOperations","_mfax_faxoutgoingjob.availableoperations","fax._mfax_faxoutgoingjob_availableoperations","fax._mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperations_cpp","faxcomex/IFaxOutgoingJob::AvailableOperations","faxcomex/IFaxOutgoingJob::get_AvailableOperations","get_AvailableOperations"]
 old-location: fax\_mfax_faxoutgoingjob_cpp_mfax_faxoutgoingjob_availableoperations_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_9rsj.htm

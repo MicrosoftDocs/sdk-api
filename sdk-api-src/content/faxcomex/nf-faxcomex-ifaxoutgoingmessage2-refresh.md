@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage2.Refresh
 title: IFaxOutgoingMessage2::Refresh (faxcomex.h)
-description: Refreshes FaxOutgoingMessage object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.helpviewer_keywords: ["IFaxOutgoingMessage2 interface [Fax Service]","Refresh method","IFaxOutgoingMessage2.Refresh","IFaxOutgoingMessage2::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxOutgoingMessage2 interface","_mfax_faxoutgoingmessage.refresh","fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_refresh_cpp","fax._mfax_faxoutgoingmessage_refresh","faxcomex/IFaxOutgoingMessage2::Refresh"]
+description: Refreshes FaxOutgoingMessage object information from the fax server. When the Refresh method is called, any configuration changes made after the last Save method call are lost.
+helpviewer_keywords: ["IFaxOutgoingMessage2 interface [Fax Service]","Refresh method","IFaxOutgoingMessage2.Refresh","IFaxOutgoingMessage2::Refresh","Refresh","Refresh method [Fax Service]","Refresh method [Fax Service]","IFaxOutgoingMessage2 interface","_mfax_faxoutgoingmessage.refresh","fax._mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_refresh_cpp","fax._mfax_faxoutgoingmessage_refresh","faxcomex/IFaxOutgoingMessage2::Refresh"]
 old-location: fax\_mfax_faxoutgoingmessage2_cpp_mfax_faxoutgoingmessage_refresh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxoutgoingmessage2\refresh.htm

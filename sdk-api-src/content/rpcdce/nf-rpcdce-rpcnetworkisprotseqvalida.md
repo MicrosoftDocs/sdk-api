@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcNetworkIsProtseqValidA
 title: RpcNetworkIsProtseqValidA function (rpcdce.h)
-description: The RpcNetworkIsProtseqValid function tells whether the specified protocol sequence is supported by both the RPC run-time library and the operating system. Server applications often use RpcNetworkInqProtseqs.helpviewer_keywords: ["RpcNetworkIsProtseqValid","RpcNetworkIsProtseqValid function [RPC]","RpcNetworkIsProtseqValidA","RpcNetworkIsProtseqValidW","_rpc_rpcnetworkisprotseqvalid","rpc.rpcnetworkisprotseqvalid","rpcdce/RpcNetworkIsProtseqValid","rpcdce/RpcNetworkIsProtseqValidA","rpcdce/RpcNetworkIsProtseqValidW"]
+description: The RpcNetworkIsProtseqValid function tells whether the specified protocol sequence is supported by both the RPC run-time library and the operating system. Server applications often use RpcNetworkInqProtseqs.
+helpviewer_keywords: ["RpcNetworkIsProtseqValid","RpcNetworkIsProtseqValid function [RPC]","RpcNetworkIsProtseqValidA","RpcNetworkIsProtseqValidW","_rpc_rpcnetworkisprotseqvalid","rpc.rpcnetworkisprotseqvalid","rpcdce/RpcNetworkIsProtseqValid","rpcdce/RpcNetworkIsProtseqValidA","rpcdce/RpcNetworkIsProtseqValidW"]
 old-location: rpc\rpcnetworkisprotseqvalid.htm
 tech.root: Rpc
 ms.assetid: 72a28f64-2a66-4b61-96a9-80b8b9486151
@@ -136,6 +137,10 @@ A protocol sequence is valid if both the RPC run-time library and the operating 
 
 
 
+
+
+> [!NOTE]
+> The rpcdce.h header defines RpcNetworkIsProtseqValid as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

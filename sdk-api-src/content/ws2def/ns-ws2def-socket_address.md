@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2def._SOCKET_ADDRESS
 title: SOCKET_ADDRESS (ws2def.h)
-description: SOCKET_ADDRESS structure stores protocol-specific address information.helpviewer_keywords: ["*LPSOCKET_ADDRESS","*PSOCKET_ADDRESS","PSOCKET_ADDRESS","PSOCKET_ADDRESS structure pointer [Winsock]","SOCKET_ADDRESS","SOCKET_ADDRESS structure [Winsock]","_win32_socket_address_2","winsock.socket_address_2","winsock2/PSOCKET_ADDRESS","winsock2/SOCKET_ADDRESS","ws2def/PSOCKET_ADDRESS","ws2def/SOCKET_ADDRESS"]
+description: SOCKET_ADDRESS structure stores protocol-specific address information.
+helpviewer_keywords: ["*LPSOCKET_ADDRESS","*PSOCKET_ADDRESS","PSOCKET_ADDRESS","PSOCKET_ADDRESS structure pointer [Winsock]","SOCKET_ADDRESS","SOCKET_ADDRESS structure [Winsock]","_win32_socket_address_2","winsock.socket_address_2","winsock2/PSOCKET_ADDRESS","winsock2/SOCKET_ADDRESS","ws2def/PSOCKET_ADDRESS","ws2def/SOCKET_ADDRESS"]
 old-location: winsock\socket_address_2.htm
 tech.root: WinSock
 ms.assetid: 37fbcb96-a859-4eca-8928-8051f95407b9

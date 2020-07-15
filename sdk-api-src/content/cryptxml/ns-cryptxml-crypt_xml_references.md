@@ -1,7 +1,8 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_REFERENCES
 title: CRYPT_XML_REFERENCES (cryptxml.h)
-description: Defines an array of CRYPT_XML_REFERENCE structures.helpviewer_keywords: ["*PCRYPT_XML_REFERENCES","CRYPT_XML_REFERENCES","CRYPT_XML_REFERENCES structure [Security]","PCRYPT_XML_REFERENCES","PCRYPT_XML_REFERENCES structure pointer [Security]","cryptxml/CRYPT_XML_REFERENCES","cryptxml/PCRYPT_XML_REFERENCES","security.crypt_xml_references"]
+description: Defines an array of CRYPT_XML_REFERENCE structures.
+helpviewer_keywords: ["*PCRYPT_XML_REFERENCES","CRYPT_XML_REFERENCES","CRYPT_XML_REFERENCES structure [Security]","PCRYPT_XML_REFERENCES","PCRYPT_XML_REFERENCES structure pointer [Security]","cryptxml/CRYPT_XML_REFERENCES","cryptxml/PCRYPT_XML_REFERENCES","security.crypt_xml_references"]
 old-location: security\crypt_xml_references.htm
 tech.root: SecCrypto
 ms.assetid: 25414b2d-3283-4e2f-a23c-ccebff1409e2

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ReplyMessage
 title: ReplyMessage function (winuser.h)
-description: Replies to a message sent from another thread by the SendMessage function.helpviewer_keywords: ["ReplyMessage","ReplyMessage function [Windows and Messages]","_win32_ReplyMessage","_win32_replymessage_cpp","winmsg.replymessage","winui._win32_replymessage","winuser/ReplyMessage"]
+description: Replies to a message sent from another thread by the SendMessage function.
+helpviewer_keywords: ["ReplyMessage","ReplyMessage function [Windows and Messages]","_win32_ReplyMessage","_win32_replymessage_cpp","winmsg.replymessage","winui._win32_replymessage","winuser/ReplyMessage"]
 old-location: winmsg\replymessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\replymessage.htm

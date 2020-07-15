@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_SetImageList
 title: ListView_SetImageList macro (commctrl.h)
-description: Assigns an image list to a list-view control. You can use this macro or send the LVM_SETIMAGELIST message explicitly.helpviewer_keywords: ["LVSIL_GROUPHEADER","LVSIL_NORMAL","LVSIL_SMALL","LVSIL_STATE","ListView_SetImageList","ListView_SetImageList macro [Windows Controls]","_win32_ListView_SetImageList","_win32_ListView_SetImageList_cpp","commctrl/ListView_SetImageList","controls.ListView_SetImageList","controls._win32_ListView_SetImageList"]
+description: Assigns an image list to a list-view control. You can use this macro or send the LVM_SETIMAGELIST message explicitly.
+helpviewer_keywords: ["LVSIL_GROUPHEADER","LVSIL_NORMAL","LVSIL_SMALL","LVSIL_STATE","ListView_SetImageList","ListView_SetImageList macro [Windows Controls]","_win32_ListView_SetImageList","_win32_ListView_SetImageList_cpp","commctrl/ListView_SetImageList","controls.ListView_SetImageList","controls._win32_ListView_SetImageList"]
 old-location: controls\ListView_SetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_setimagelist.htm

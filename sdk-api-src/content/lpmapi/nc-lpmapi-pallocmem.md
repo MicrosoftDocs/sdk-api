@@ -1,7 +1,8 @@
 ---
 UID: NC:lpmapi.PALLOCMEM
 title: PALLOCMEM (lpmapi.h)
-description: The PALLOCMEM function is a memory allocation function provided by the PCM, used for allocating memory when returning policy information to the PCM.helpviewer_keywords: ["PALLOCMEM","PALLOCMEM callback","PALLOCMEM callback function [QOS]","_gqos_pallocmem","lpmapi/PALLOCMEM","qos.pallocmem"]
+description: The PALLOCMEM function is a memory allocation function provided by the PCM, used for allocating memory when returning policy information to the PCM.
+helpviewer_keywords: ["PALLOCMEM","PALLOCMEM callback","PALLOCMEM callback function [QOS]","_gqos_pallocmem","lpmapi/PALLOCMEM","qos.pallocmem"]
 old-location: qos\pallocmem.htm
 tech.root: QOS
 ms.assetid: e7b38820-4a7e-4f17-a67d-b94caa9037f5

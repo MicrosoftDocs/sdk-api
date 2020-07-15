@@ -1,7 +1,8 @@
 ---
 UID: NF:pathcch.PathCchAddBackslashEx
 title: PathCchAddBackslashEx function (pathcch.h)
-description: Adds a backslash to the end of a string to create the correct syntax for a path.helpviewer_keywords: ["PathCchAddBackslashEx","PathCchAddBackslashEx function [Windows Shell]","pathcch/PathCchAddBackslashEx","shell.PathCchAddBackslashEx"]
+description: Adds a backslash to the end of a string to create the correct syntax for a path.
+helpviewer_keywords: ["PathCchAddBackslashEx","PathCchAddBackslashEx function [Windows Shell]","pathcch/PathCchAddBackslashEx","shell.PathCchAddBackslashEx"]
 old-location: shell\PathCchAddBackslashEx.htm
 tech.root: shell
 ms.assetid: 89adf45f-f16d-49d1-9e76-b57b73b4d4c3

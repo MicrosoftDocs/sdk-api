@@ -1,7 +1,8 @@
 ---
 UID: NN:eventsys.IEventObjectCollection
 title: IEventObjectCollection (eventsys.h)
-description: Manages objects in an event objects collection.helpviewer_keywords: ["IEventObjectCollection","IEventObjectCollection interface [COM+]","IEventObjectCollection interface [COM+]","described","_cos_IEventObjectCollection","cos.ieventobjectcollection","eventsys/IEventObjectCollection"]
+description: Manages objects in an event objects collection.
+helpviewer_keywords: ["IEventObjectCollection","IEventObjectCollection interface [COM+]","IEventObjectCollection interface [COM+]","described","_cos_IEventObjectCollection","cos.ieventobjectcollection","eventsys/IEventObjectCollection"]
 old-location: cos\ieventobjectcollection.htm
 tech.root: cossdk
 ms.assetid: 7bb00b80-a48f-49c8-983d-9ff0ea424e4d

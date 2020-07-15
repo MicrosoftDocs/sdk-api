@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2fs.IFileSystemImage
 title: IFileSystemImage (imapi2fs.h)
-description: Use this interface to build a file system image, set session parameter, and import or export an image.helpviewer_keywords: ["IFileSystemImage","IFileSystemImage interface [IMAPI]","IFileSystemImage interface [IMAPI]","described","imapi.ifilesystemimage","imapi2fs/IFileSystemImage"]
+description: Use this interface to build a file system image, set session parameter, and import or export an image.
+helpviewer_keywords: ["IFileSystemImage","IFileSystemImage interface [IMAPI]","IFileSystemImage interface [IMAPI]","described","imapi.ifilesystemimage","imapi2fs/IFileSystemImage"]
 old-location: imapi\ifilesystemimage.htm
 tech.root: imapi
 ms.assetid: 0256f1d2-a3fb-45b2-bd84-e2b71148e4ec

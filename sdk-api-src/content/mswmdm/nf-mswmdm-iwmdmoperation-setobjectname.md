@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMOperation.SetObjectName
 title: IWMDMOperation::SetObjectName (mswmdm.h)
-description: The SetObjectName method assigns a name to the content being read or written. This method is currently not called by Windows Media Device Manager.helpviewer_keywords: ["IWMDMOperation interface [windows Media Device Manager]","SetObjectName method","IWMDMOperation.SetObjectName","IWMDMOperation::SetObjectName","IWMDMOperationSetObjectName","SetObjectName","SetObjectName method [windows Media Device Manager]","SetObjectName method [windows Media Device Manager]","IWMDMOperation interface","mswmdm/IWMDMOperation::SetObjectName","wmdm.iwmdmoperation_setobjectname"]
+description: The SetObjectName method assigns a name to the content being read or written. This method is currently not called by Windows Media Device Manager.
+helpviewer_keywords: ["IWMDMOperation interface [windows Media Device Manager]","SetObjectName method","IWMDMOperation.SetObjectName","IWMDMOperation::SetObjectName","IWMDMOperationSetObjectName","SetObjectName","SetObjectName method [windows Media Device Manager]","SetObjectName method [windows Media Device Manager]","IWMDMOperation interface","mswmdm/IWMDMOperation::SetObjectName","wmdm.iwmdmoperation_setobjectname"]
 old-location: wmdm\iwmdmoperation_setobjectname.htm
 tech.root: WMDM
 ms.assetid: d15b9cb0-6984-401e-9f81-97d0aae17b76

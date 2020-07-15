@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_StageFiles
 title: IFileSystemImage::get_StageFiles (imapi2fs.h)
-description: Indicates if the files being added to the file system image should be staged before the burn.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_StageFiles method","IFileSystemImage.get_StageFiles","IFileSystemImage::get_StageFiles","get_StageFiles","get_StageFiles method [IMAPI]","get_StageFiles method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_stagefiles","imapi2fs/IFileSystemImage::get_StageFiles"]
+description: Indicates if the files being added to the file system image should be staged before the burn.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_StageFiles method","IFileSystemImage.get_StageFiles","IFileSystemImage::get_StageFiles","get_StageFiles","get_StageFiles method [IMAPI]","get_StageFiles method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_stagefiles","imapi2fs/IFileSystemImage::get_StageFiles"]
 old-location: imapi\ifilesystemimage_get_stagefiles.htm
 tech.root: imapi
 ms.assetid: 7146ad88-071a-4df9-80f9-46e24b49286b

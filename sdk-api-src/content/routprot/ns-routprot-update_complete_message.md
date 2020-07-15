@@ -1,7 +1,8 @@
 ---
 UID: NS:routprot._UPDATE_COMPLETE_MESSAGE
 title: UPDATE_COMPLETE_MESSAGE (routprot.h)
-description: The UPDATE_COMPLETE_MESSAGE structure contains information describing the completion status of an update operation.helpviewer_keywords: ["*PUPDATE_COMPLETE_MESSAGE","DEMAND_UPDATE_ROUTES","DEMAND_UPDATE_SERVICES","ERROR_CAN_NOT_COMPLETE","NO_ERROR","PUPDATE_COMPLETE_MESSAGE","PUPDATE_COMPLETE_MESSAGE structure pointer [RAS]","UPDATE_COMPLETE_MESSAGE","UPDATE_COMPLETE_MESSAGE structure [RAS]","_mpr_update_complete_message","routprot/PUPDATE_COMPLETE_MESSAGE","routprot/UPDATE_COMPLETE_MESSAGE","rras.update_complete_message"]
+description: The UPDATE_COMPLETE_MESSAGE structure contains information describing the completion status of an update operation.
+helpviewer_keywords: ["*PUPDATE_COMPLETE_MESSAGE","DEMAND_UPDATE_ROUTES","DEMAND_UPDATE_SERVICES","ERROR_CAN_NOT_COMPLETE","NO_ERROR","PUPDATE_COMPLETE_MESSAGE","PUPDATE_COMPLETE_MESSAGE structure pointer [RAS]","UPDATE_COMPLETE_MESSAGE","UPDATE_COMPLETE_MESSAGE structure [RAS]","_mpr_update_complete_message","routprot/PUPDATE_COMPLETE_MESSAGE","routprot/UPDATE_COMPLETE_MESSAGE","rras.update_complete_message"]
 old-location: rras\update_complete_message.htm
 tech.root: RRAS
 ms.assetid: 76f00da0-4f56-4a1a-977d-a3872bbe19fc

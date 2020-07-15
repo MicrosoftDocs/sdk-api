@@ -1,7 +1,8 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.SetChannelVolumeLevel
 title: IAudioEndpointVolume::SetChannelVolumeLevel (endpointvolume.h)
-description: The SetChannelVolumeLevel method sets the volume level, in decibels, of the specified channel of the audio stream that enters or leaves the audio endpoint device.helpviewer_keywords: ["IAudioEndpointVolume interface [Core Audio]","SetChannelVolumeLevel method","IAudioEndpointVolume.SetChannelVolumeLevel","IAudioEndpointVolume::SetChannelVolumeLevel","IAudioEndpointVolumeSetChannelVolumeLevel","SetChannelVolumeLevel","SetChannelVolumeLevel method [Core Audio]","SetChannelVolumeLevel method [Core Audio]","IAudioEndpointVolume interface","coreaudio.iaudioendpointvolume_setchannelvolumelevel","endpointvolume/IAudioEndpointVolume::SetChannelVolumeLevel"]
+description: The SetChannelVolumeLevel method sets the volume level, in decibels, of the specified channel of the audio stream that enters or leaves the audio endpoint device.
+helpviewer_keywords: ["IAudioEndpointVolume interface [Core Audio]","SetChannelVolumeLevel method","IAudioEndpointVolume.SetChannelVolumeLevel","IAudioEndpointVolume::SetChannelVolumeLevel","IAudioEndpointVolumeSetChannelVolumeLevel","SetChannelVolumeLevel","SetChannelVolumeLevel method [Core Audio]","SetChannelVolumeLevel method [Core Audio]","IAudioEndpointVolume interface","coreaudio.iaudioendpointvolume_setchannelvolumelevel","endpointvolume/IAudioEndpointVolume::SetChannelVolumeLevel"]
 old-location: coreaudio\iaudioendpointvolume_setchannelvolumelevel.htm
 tech.root: CoreAudio
 ms.assetid: 51f3b4dd-be9d-4b83-8605-a9962c6709a3

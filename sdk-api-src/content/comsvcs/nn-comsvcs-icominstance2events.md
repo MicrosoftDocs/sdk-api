@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IComInstance2Events
 title: IComInstance2Events (comsvcs.h)
-description: Notifies the subscriber if an object is created or released by a client.helpviewer_keywords: ["IComInstance2Events","IComInstance2Events interface [COM+]","IComInstance2Events interface [COM+]","described","_dtc_icominstance2events","comsvcs/IComInstance2Events","cos.icominstance2events"]
+description: Notifies the subscriber if an object is created or released by a client.
+helpviewer_keywords: ["IComInstance2Events","IComInstance2Events interface [COM+]","IComInstance2Events interface [COM+]","described","_dtc_icominstance2events","comsvcs/IComInstance2Events","cos.icominstance2events"]
 old-location: cos\icominstance2events.htm
 tech.root: cossdk
 ms.assetid: 2fb2904d-7069-4303-bb3c-2caef9499c1e

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMSignatureBlockResourceCollection.GetCount
 title: IXpsOMSignatureBlockResourceCollection::GetCount (xpsobjectmodel.h)
-description: Gets the number of IXpsOMSignatureBlockResource interface pointers in the collection.helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMSignatureBlockResourceCollection interface","IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMSignatureBlockResourceCollection.GetCount","IXpsOMSignatureBlockResourceCollection::GetCount","xps.ixpsomsignatureblockresourcecollection_getcount","xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetCount"]
+description: Gets the number of IXpsOMSignatureBlockResource interface pointers in the collection.
+helpviewer_keywords: ["GetCount","GetCount method [XPS Documents and Packaging]","GetCount method [XPS Documents and Packaging]","IXpsOMSignatureBlockResourceCollection interface","IXpsOMSignatureBlockResourceCollection interface [XPS Documents and Packaging]","GetCount method","IXpsOMSignatureBlockResourceCollection.GetCount","IXpsOMSignatureBlockResourceCollection::GetCount","xps.ixpsomsignatureblockresourcecollection_getcount","xpsobjectmodel/IXpsOMSignatureBlockResourceCollection::GetCount"]
 old-location: xps\ixpsomsignatureblockresourcecollection_getcount.htm
 tech.root: printdocs
 ms.assetid: 3ed0890a-9593-4004-b122-264d692913db

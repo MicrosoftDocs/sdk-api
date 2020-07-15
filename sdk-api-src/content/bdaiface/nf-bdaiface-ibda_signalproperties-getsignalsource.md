@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_SignalProperties.GetSignalSource
 title: IBDA_SignalProperties::GetSignalSource (bdaiface.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetSignalSource","GetSignalSource method [Microsoft TV Technologies]","GetSignalSource method [Microsoft TV Technologies]","IBDA_SignalProperties interface","IBDA_SignalProperties interface [Microsoft TV Technologies]","GetSignalSource method","IBDA_SignalProperties.GetSignalSource","IBDA_SignalProperties::GetSignalSource","IBDA_SignalPropertiesGetSignalSource","bdaiface/IBDA_SignalProperties::GetSignalSource","mstv.ibda_signalproperties_getsignalsource"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetSignalSource","GetSignalSource method [Microsoft TV Technologies]","GetSignalSource method [Microsoft TV Technologies]","IBDA_SignalProperties interface","IBDA_SignalProperties interface [Microsoft TV Technologies]","GetSignalSource method","IBDA_SignalProperties.GetSignalSource","IBDA_SignalProperties::GetSignalSource","IBDA_SignalPropertiesGetSignalSource","bdaiface/IBDA_SignalProperties::GetSignalSource","mstv.ibda_signalproperties_getsignalsource"]
 old-location: mstv\ibda_signalproperties_getsignalsource.htm
 tech.root: mstv
 ms.assetid: 929ec042-3f43-468e-944a-919dda3893be

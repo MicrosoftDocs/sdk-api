@@ -1,7 +1,8 @@
 ---
-UID: NF:d3d11.CD3D11_BOX.CD3D11_BOX(const D3D11_BOX &)
+UID: NF:d3d11.CD3D11_BOX.CD3D11_BOX(constD3D11_BOX&)
 title: CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &) (d3d11.h)
-description: Instantiates a new instance of a **CD3D11_BOX** structure that is initialized with a **CD3D11_BOX** structure.helpviewer_keywords: ["CD3D11_BOX","CD3D11_BOX constructor [Direct3D 11]","CD3D11_BOX constructor [Direct3D 11]","CD3D11_BOX interface","CD3D11_BOX interface [Direct3D 11]","CD3D11_BOX constructor","CD3D11_BOX.CD3D11_BOX","CD3D11_BOX.CD3D11_BOX(const D3D11_BOX &)","CD3D11_BOX::CD3D11_BOX","CD3D11_BOX::CD3D11_BOX()","CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &)","d3d11/CD3D11_BOX::CD3D11_BOX","direct3d11.cd3d11_box_cd3d11_box"]
+description: Instantiates a new instance of a **CD3D11_BOX** structure that is initialized with a **CD3D11_BOX** structure.
+helpviewer_keywords: ["CD3D11_BOX","CD3D11_BOX constructor [Direct3D 11]","CD3D11_BOX constructor [Direct3D 11]","CD3D11_BOX interface","CD3D11_BOX interface [Direct3D 11]","CD3D11_BOX constructor","CD3D11_BOX.CD3D11_BOX","CD3D11_BOX.CD3D11_BOX(const D3D11_BOX &)","CD3D11_BOX::CD3D11_BOX","CD3D11_BOX::CD3D11_BOX()","CD3D11_BOX::CD3D11_BOX(const D3D11_BOX &)","d3d11/CD3D11_BOX::CD3D11_BOX","direct3d11.cd3d11_box_cd3d11_box"]
 old-location: 
 tech.root: direct3d11
 ms.assetid: 3830A242-CC73-42DF-9324-07AADCC82785

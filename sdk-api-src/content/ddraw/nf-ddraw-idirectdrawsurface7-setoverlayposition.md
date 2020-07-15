@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.SetOverlayPosition
 title: IDirectDrawSurface7::SetOverlayPosition (ddraw.h)
-description: Changes the display coordinates of an overlay surface.helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","SetOverlayPosition method","IDirectDrawSurface7.SetOverlayPosition","IDirectDrawSurface7::SetOverlayPosition","SetOverlayPosition","SetOverlayPosition method [DirectDraw]","SetOverlayPosition method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::SetOverlayPosition","directdraw.idirectdrawsurface7_setoverlayposition"]
+description: Changes the display coordinates of an overlay surface.
+helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","SetOverlayPosition method","IDirectDrawSurface7.SetOverlayPosition","IDirectDrawSurface7::SetOverlayPosition","SetOverlayPosition","SetOverlayPosition method [DirectDraw]","SetOverlayPosition method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::SetOverlayPosition","directdraw.idirectdrawsurface7_setoverlayposition"]
 old-location: directdraw\idirectdrawsurface7_setoverlayposition.htm
 tech.root: directdraw
 ms.assetid: 94bd79f8-ded2-4cfa-98c1-a03202d3e678

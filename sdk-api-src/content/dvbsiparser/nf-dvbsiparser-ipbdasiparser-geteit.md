@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IPBDASiParser.GetEIT
 title: IPBDASiParser::GetEIT (dvbsiparser.h)
-description: Gets the event information table (EIT) from the program and system information protocol (PSIP) tables in a Protected Broadcast Device Architecture (PBDA) transport stream.helpviewer_keywords: ["GetEIT","GetEIT method [Microsoft TV Technologies]","GetEIT method [Microsoft TV Technologies]","IPBDASiParser interface","IPBDASiParser interface [Microsoft TV Technologies]","GetEIT method","IPBDASiParser.GetEIT","IPBDASiParser::GetEIT","dshow.ipbdasiparser_geteit","dvbsiparser/IPBDASiParser::GetEIT","mstv.ipbdasiparser_geteit"]
+description: Gets the event information table (EIT) from the program and system information protocol (PSIP) tables in a Protected Broadcast Device Architecture (PBDA) transport stream.
+helpviewer_keywords: ["GetEIT","GetEIT method [Microsoft TV Technologies]","GetEIT method [Microsoft TV Technologies]","IPBDASiParser interface","IPBDASiParser interface [Microsoft TV Technologies]","GetEIT method","IPBDASiParser.GetEIT","IPBDASiParser::GetEIT","dshow.ipbdasiparser_geteit","dvbsiparser/IPBDASiParser::GetEIT","mstv.ipbdasiparser_geteit"]
 old-location: mstv\ipbdasiparser_geteit.htm
 tech.root: mstv
 ms.assetid: ab7df40a-6a1c-4017-bece-618fb75797cf

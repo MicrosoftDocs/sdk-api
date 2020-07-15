@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IWebProxy.get_ReadOnly
 title: IWebProxy::get_ReadOnly (wuapi.h)
-description: Gets a Boolean value that indicates whether the WebProxy object is read-only.helpviewer_keywords: ["IWebProxy interface [Windows Update Agent]","ReadOnly property","IWebProxy.ReadOnly","IWebProxy.get_ReadOnly","IWebProxy::ReadOnly","IWebProxy::get_ReadOnly","ReadOnly property [Windows Update Agent]","ReadOnly property [Windows Update Agent]","IWebProxy interface","get_ReadOnly","wua.iwebproxy_readonly","wuapi/IWebProxy::ReadOnly","wuapi/IWebProxy::get_ReadOnly"]
+description: Gets a Boolean value that indicates whether the WebProxy object is read-only.
+helpviewer_keywords: ["IWebProxy interface [Windows Update Agent]","ReadOnly property","IWebProxy.ReadOnly","IWebProxy.get_ReadOnly","IWebProxy::ReadOnly","IWebProxy::get_ReadOnly","ReadOnly property [Windows Update Agent]","ReadOnly property [Windows Update Agent]","IWebProxy interface","get_ReadOnly","wua.iwebproxy_readonly","wuapi/IWebProxy::ReadOnly","wuapi/IWebProxy::get_ReadOnly"]
 old-location: wua\iwebproxy_readonly.htm
 tech.root: Wua_Sdk
 ms.assetid: daa1a276-e03c-448c-8572-3bec9151bcb7

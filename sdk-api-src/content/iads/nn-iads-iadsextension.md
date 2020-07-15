@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsExtension
 title: IADsExtension (iads.h)
-description: The IADsExtension interface forms the basis of the ADSI application extension model.helpviewer_keywords: ["IADsExtension","IADsExtension interface [ADSI]","IADsExtension interface [ADSI]","described","_ds_iadsextension","adsi.iadsextension","iads/IADsExtension"]
+description: The IADsExtension interface forms the basis of the ADSI application extension model.
+helpviewer_keywords: ["IADsExtension","IADsExtension interface [ADSI]","IADsExtension interface [ADSI]","described","_ds_iadsextension","adsi.iadsextension","iads/IADsExtension"]
 old-location: adsi\iadsextension.htm
 tech.root: adsi
 ms.assetid: 05681526-2232-4341-859d-6773f7a58431

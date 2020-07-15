@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.FindWindowExA
 title: FindWindowExA function (winuser.h)
-description: Retrieves a handle to a window whose class name and window name match the specified strings. The function searches child windows, beginning with the one following the specified child window. This function does not perform a case-sensitive search.helpviewer_keywords: ["FindWindowEx","FindWindowEx function [Windows and Messages]","FindWindowExA","FindWindowExW","_win32_FindWindowEx","_win32_findwindowex_cpp","winmsg.findwindowex","winui._win32_findwindowex","winuser/FindWindowEx","winuser/FindWindowExA","winuser/FindWindowExW"]
+description: Retrieves a handle to a window whose class name and window name match the specified strings. The function searches child windows, beginning with the one following the specified child window. This function does not perform a case-sensitive search.
+helpviewer_keywords: ["FindWindowEx","FindWindowEx function [Windows and Messages]","FindWindowExA","FindWindowExW","_win32_FindWindowEx","_win32_findwindowex_cpp","winmsg.findwindowex","winui._win32_findwindowex","winuser/FindWindowEx","winuser/FindWindowExA","winuser/FindWindowExW"]
 old-location: winmsg\findwindowex.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\findwindowex.htm
@@ -133,6 +134,10 @@ Note that 0x8000 is the atom for a menu class. When an application calls this fu
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines FindWindowEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

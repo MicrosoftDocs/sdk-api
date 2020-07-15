@@ -1,7 +1,8 @@
 ---
 UID: NF:rendezvoussession.IRendezvousSession.get_State
 title: IRendezvousSession::get_State (rendezvoussession.h)
-description: Retrieves a value that indicates the session state.helpviewer_keywords: ["IRendezvousSession interface [Remote Assistance]","State property","IRendezvousSession.State","IRendezvousSession.get_State","IRendezvousSession::State","IRendezvousSession::get_State","State property [Remote Assistance]","State property [Remote Assistance]","IRendezvousSession interface","get_State","remoteassist.remoteassist_IRendezvousSession_State","remoteassist_IRendezvousSession_State","rendezvoussession/IRendezvousSession::State","rendezvoussession/IRendezvousSession::get_State"]
+description: Retrieves a value that indicates the session state.
+helpviewer_keywords: ["IRendezvousSession interface [Remote Assistance]","State property","IRendezvousSession.State","IRendezvousSession.get_State","IRendezvousSession::State","IRendezvousSession::get_State","State property [Remote Assistance]","State property [Remote Assistance]","IRendezvousSession interface","get_State","remoteassist.remoteassist_IRendezvousSession_State","remoteassist_IRendezvousSession_State","rendezvoussession/IRendezvousSession::State","rendezvoussession/IRendezvousSession::get_State"]
 old-location: remoteassist\remoteassist_IRendezvousSession_State.htm
 tech.root: remoteassist
 ms.assetid: VS|remoteassist|~\remoteassist\reference\ifaces\irendezvoussession\state.htm

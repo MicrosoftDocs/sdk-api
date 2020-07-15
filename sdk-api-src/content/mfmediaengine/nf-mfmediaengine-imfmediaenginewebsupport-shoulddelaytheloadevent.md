@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineWebSupport.ShouldDelayTheLoadEvent
 title: IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent (mfmediaengine.h)
-description: Gets a value indicating if the connecting to Web audio should delay the page's load event.helpviewer_keywords: ["IMFMediaEngineWebSupport interface [Media Foundation]","ShouldDelayTheLoadEvent method","IMFMediaEngineWebSupport.ShouldDelayTheLoadEvent","IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent","ShouldDelayTheLoadEvent","ShouldDelayTheLoadEvent method [Media Foundation]","ShouldDelayTheLoadEvent method [Media Foundation]","IMFMediaEngineWebSupport interface","mf.imfmediaenginewebsupport_shoulddelaytheloadevent","mfmediaengine/IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent"]
+description: Gets a value indicating if the connecting to Web audio should delay the page's load event.
+helpviewer_keywords: ["IMFMediaEngineWebSupport interface [Media Foundation]","ShouldDelayTheLoadEvent method","IMFMediaEngineWebSupport.ShouldDelayTheLoadEvent","IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent","ShouldDelayTheLoadEvent","ShouldDelayTheLoadEvent method [Media Foundation]","ShouldDelayTheLoadEvent method [Media Foundation]","IMFMediaEngineWebSupport interface","mf.imfmediaenginewebsupport_shoulddelaytheloadevent","mfmediaengine/IMFMediaEngineWebSupport::ShouldDelayTheLoadEvent"]
 old-location: mf\imfmediaenginewebsupport_shoulddelaytheloadevent.htm
 tech.root: medfound
 ms.assetid: 850ED4DC-1790-481E-A8CD-9F87F9E389EC

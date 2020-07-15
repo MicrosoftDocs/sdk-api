@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.VariantToPropVariant
 title: VariantToPropVariant function (propvarutil.h)
-description: Copies the contents of a VARIANT structure to a PROPVARIANT structure.helpviewer_keywords: ["VariantToPropVariant","VariantToPropVariant function [Windows Properties]","properties.VariantToPropVariant","propvarutil/VariantToPropVariant","shell.VariantToPropVariant","shell_VariantToPropVariant"]
+description: Copies the contents of a VARIANT structure to a PROPVARIANT structure.
+helpviewer_keywords: ["VariantToPropVariant","VariantToPropVariant function [Windows Properties]","properties.VariantToPropVariant","propvarutil/VariantToPropVariant","shell.VariantToPropVariant","shell_VariantToPropVariant"]
 old-location: properties\VariantToPropVariant.htm
 tech.root: properties
 ms.assetid: b321d0a5-310a-4a64-8f39-4487602fbd3f

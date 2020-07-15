@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSource2
 title: IMSVidStreamBufferSource2 (segment.h)
-description: The IMSVidStreamBufferSource2 interface represents the Stream Buffer Source filter within the Video Control.helpviewer_keywords: ["IMSVidStreamBufferSource2","IMSVidStreamBufferSource2 interface [Microsoft TV Technologies]","IMSVidStreamBufferSource2 interface [Microsoft TV Technologies]","described","IMSVidStreamBufferSource2Interface","mstv.imsvidstreambuffersource2","segment/IMSVidStreamBufferSource2"]
+description: The IMSVidStreamBufferSource2 interface represents the Stream Buffer Source filter within the Video Control.
+helpviewer_keywords: ["IMSVidStreamBufferSource2","IMSVidStreamBufferSource2 interface [Microsoft TV Technologies]","IMSVidStreamBufferSource2 interface [Microsoft TV Technologies]","described","IMSVidStreamBufferSource2Interface","mstv.imsvidstreambuffersource2","segment/IMSVidStreamBufferSource2"]
 old-location: mstv\imsvidstreambuffersource2.htm
 tech.root: mstv
 ms.assetid: 47012868-4c9e-4974-8549-11331836bed0

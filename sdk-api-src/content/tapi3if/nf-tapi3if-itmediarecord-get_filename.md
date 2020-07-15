@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITMediaRecord.get_FileName
 title: ITMediaRecord::get_FileName (tapi3if.h)
-description: The get_FileName method retrieves the name of the file that was used for recording by this terminal.helpviewer_keywords: ["ITMediaRecord interface [TAPI 2.2]","get_FileName method","ITMediaRecord.get_FileName","ITMediaRecord::get_FileName","_tapi3_itmediarecord_get_filename","get_FileName","get_FileName method [TAPI 2.2]","get_FileName method [TAPI 2.2]","ITMediaRecord interface","tapi3.itmediarecord_get_filename","tapi3if/ITMediaRecord::get_FileName"]
+description: The get_FileName method retrieves the name of the file that was used for recording by this terminal.
+helpviewer_keywords: ["ITMediaRecord interface [TAPI 2.2]","get_FileName method","ITMediaRecord.get_FileName","ITMediaRecord::get_FileName","_tapi3_itmediarecord_get_filename","get_FileName","get_FileName method [TAPI 2.2]","get_FileName method [TAPI 2.2]","ITMediaRecord interface","tapi3.itmediarecord_get_filename","tapi3if/ITMediaRecord::get_FileName"]
 old-location: tapi3\itmediarecord_get_filename.htm
 tech.root: Tapi
 ms.assetid: fd97665c-ff9e-4621-baf9-7c0b603400c5

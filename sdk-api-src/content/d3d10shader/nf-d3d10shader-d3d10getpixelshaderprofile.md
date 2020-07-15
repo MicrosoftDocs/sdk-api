@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10shader.D3D10GetPixelShaderProfile
 title: D3D10GetPixelShaderProfile function (d3d10shader.h)
-description: Get the pixel shader profile best suited to a given device.helpviewer_keywords: ["8d581e0e-4553-6a9c-455b-9ef399e0d29f","D3D10GetPixelShaderProfile","D3D10GetPixelShaderProfile function [Direct3D 10]","d3d10shader/D3D10GetPixelShaderProfile","direct3d10.d3d10getpixelshaderprofile"]
+description: Get the pixel shader profile best suited to a given device.
+helpviewer_keywords: ["8d581e0e-4553-6a9c-455b-9ef399e0d29f","D3D10GetPixelShaderProfile","D3D10GetPixelShaderProfile function [Direct3D 10]","d3d10shader/D3D10GetPixelShaderProfile","direct3d10.d3d10getpixelshaderprofile"]
 old-location: direct3d10\d3d10getpixelshaderprofile.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10getpixelshaderprofile.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IFilterMapper2.RegisterFilter
 title: IFilterMapper2::RegisterFilter (strmif.h)
-description: The RegisterFilter method adds filter information to the registry.helpviewer_keywords: ["IFilterMapper2 interface [DirectShow]","RegisterFilter method","IFilterMapper2.RegisterFilter","IFilterMapper2::RegisterFilter","IFilterMapper2RegisterFilter","RegisterFilter","RegisterFilter method [DirectShow]","RegisterFilter method [DirectShow]","IFilterMapper2 interface","dshow.ifiltermapper2_registerfilter","strmif/IFilterMapper2::RegisterFilter"]
+description: The RegisterFilter method adds filter information to the registry.
+helpviewer_keywords: ["IFilterMapper2 interface [DirectShow]","RegisterFilter method","IFilterMapper2.RegisterFilter","IFilterMapper2::RegisterFilter","IFilterMapper2RegisterFilter","RegisterFilter","RegisterFilter method [DirectShow]","RegisterFilter method [DirectShow]","IFilterMapper2 interface","dshow.ifiltermapper2_registerfilter","strmif/IFilterMapper2::RegisterFilter"]
 old-location: dshow\ifiltermapper2_registerfilter.htm
 tech.root: DirectShow
 ms.assetid: 773e527e-2174-4f74-a822-549cfe2927a3

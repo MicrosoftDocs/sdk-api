@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFValidateMediaTypeSize
 title: MFValidateMediaTypeSize function (mfapi.h)
-description: Validates the size of a buffer for a video format block.helpviewer_keywords: ["782b59ca-bfa8-4217-9b72-50a78937775a","FORMAT_DvInfo","FORMAT_MFVideoFormat","FORMAT_MPEG2Video","FORMAT_MPEGStreams","FORMAT_MPEGVideo","FORMAT_VideoInfo","FORMAT_VideoInfo2","FORMAT_WaveFormatEx","MFValidateMediaTypeSize","MFValidateMediaTypeSize function [Media Foundation]","mf.mfvalidatemediatypesize","mfapi/MFValidateMediaTypeSize"]
+description: Validates the size of a buffer for a video format block.
+helpviewer_keywords: ["782b59ca-bfa8-4217-9b72-50a78937775a","FORMAT_DvInfo","FORMAT_MFVideoFormat","FORMAT_MPEG2Video","FORMAT_MPEGStreams","FORMAT_MPEGVideo","FORMAT_VideoInfo","FORMAT_VideoInfo2","FORMAT_WaveFormatEx","MFValidateMediaTypeSize","MFValidateMediaTypeSize function [Media Foundation]","mf.mfvalidatemediatypesize","mfapi/MFValidateMediaTypeSize"]
 old-location: mf\mfvalidatemediatypesize.htm
 tech.root: medfound
 ms.assetid: 782b59ca-bfa8-4217-9b72-50a78937775a

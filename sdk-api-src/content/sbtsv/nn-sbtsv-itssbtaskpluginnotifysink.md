@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbTaskPluginNotifySink
 title: ITsSbTaskPluginNotifySink (sbtsv.h)
-description: Exposes methods that report status and error messages about tasks to Remote Desktop Connection Broker (RD Connection Broker).helpviewer_keywords: ["ITsSbTaskPluginNotifySink","ITsSbTaskPluginNotifySink interface [Remote Desktop Services]","ITsSbTaskPluginNotifySink interface [Remote Desktop Services]","described","sbtsv/ITsSbTaskPluginNotifySink","termserv.itssbtaskpluginnotifysink"]
+description: Exposes methods that report status and error messages about tasks to Remote Desktop Connection Broker (RD Connection Broker).
+helpviewer_keywords: ["ITsSbTaskPluginNotifySink","ITsSbTaskPluginNotifySink interface [Remote Desktop Services]","ITsSbTaskPluginNotifySink interface [Remote Desktop Services]","described","sbtsv/ITsSbTaskPluginNotifySink","termserv.itssbtaskpluginnotifysink"]
 old-location: termserv\itssbtaskpluginnotifysink.htm
 tech.root: TermServ
 ms.assetid: dc1b56f3-ea5f-4df5-b90a-ce24c36aee21

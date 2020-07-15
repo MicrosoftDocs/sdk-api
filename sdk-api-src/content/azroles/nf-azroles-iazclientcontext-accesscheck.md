@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzClientContext.AccessCheck
 title: IAzClientContext::AccessCheck (azroles.h)
-description: Determines whether the current client context is allowed to perform the specified operations.helpviewer_keywords: ["AccessCheck","AccessCheck method [Security]","AccessCheck method [Security]","AzClientContext object","AccessCheck method [Security]","IAzClientContext interface","AzClientContext object [Security]","AccessCheck method","IAzClientContext interface [Security]","AccessCheck method","IAzClientContext.AccessCheck","IAzClientContext::AccessCheck","azroles/IAzClientContext::AccessCheck","security.iazclientcontext_accesscheck"]
+description: Determines whether the current client context is allowed to perform the specified operations.
+helpviewer_keywords: ["AccessCheck","AccessCheck method [Security]","AccessCheck method [Security]","AzClientContext object","AccessCheck method [Security]","IAzClientContext interface","AzClientContext object [Security]","AccessCheck method","IAzClientContext interface [Security]","AccessCheck method","IAzClientContext.AccessCheck","IAzClientContext::AccessCheck","azroles/IAzClientContext::AccessCheck","security.iazclientcontext_accesscheck"]
 old-location: security\iazclientcontext_accesscheck.htm
 tech.root: SecAuthZ
 ms.assetid: 0bd16cdb-3dba-4656-b264-32e622732155

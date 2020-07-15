@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetResolution
 title: IShellImageData::GetResolution (shimgdata.h)
-description: Gets the resolution, in dots per inch (dpi), of the image.helpviewer_keywords: ["GetResolution","GetResolution method [Windows Shell]","GetResolution method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","GetResolution method","IShellImageData.GetResolution","IShellImageData::GetResolution","_shell_IShellImageData_GetResolution","shell.IShellImageData_GetResolution","shimgdata/IShellImageData::GetResolution"]
+description: Gets the resolution, in dots per inch (dpi), of the image.
+helpviewer_keywords: ["GetResolution","GetResolution method [Windows Shell]","GetResolution method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","GetResolution method","IShellImageData.GetResolution","IShellImageData::GetResolution","_shell_IShellImageData_GetResolution","shell.IShellImageData_GetResolution","shimgdata/IShellImageData::GetResolution"]
 old-location: shell\IShellImageData_GetResolution.htm
 tech.root: shell
 ms.assetid: 9e3c3e0f-010b-4d7d-a8fa-178a808687f8

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellIcon.GetIconOf
 title: IShellIcon::GetIconOf (shobjidl_core.h)
-description: Gets an icon for an object inside a specific folder.helpviewer_keywords: ["0","1","2","3","4","GIL_FORSHELL","GIL_OPENICON","GetIconOf","GetIconOf method [Windows Shell]","GetIconOf method [Windows Shell]","IShellIcon interface","IShellIcon interface [Windows Shell]","GetIconOf method","IShellIcon.GetIconOf","IShellIcon::GetIconOf","_win32_IShellIcon_GetIconOf","shell.IShellIcon_GetIconOf","shobjidl_core/IShellIcon::GetIconOf"]
+description: Gets an icon for an object inside a specific folder.
+helpviewer_keywords: ["0","1","2","3","4","GIL_FORSHELL","GIL_OPENICON","GetIconOf","GetIconOf method [Windows Shell]","GetIconOf method [Windows Shell]","IShellIcon interface","IShellIcon interface [Windows Shell]","GetIconOf method","IShellIcon.GetIconOf","IShellIcon::GetIconOf","_win32_IShellIcon_GetIconOf","shell.IShellIcon_GetIconOf","shobjidl_core/IShellIcon::GetIconOf"]
 old-location: shell\IShellIcon_GetIconOf.htm
 tech.root: shell
 ms.assetid: 42ab02bf-7b94-447d-9a09-d1f4a47bef5d

@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantToFileTimeVector
 title: PropVariantToFileTimeVector function (propvarutil.h)
-description: Extracts data from a PROPVARIANT structure into a FILETIME vector.helpviewer_keywords: ["PropVariantToFileTimeVector","PropVariantToFileTimeVector function [Windows Properties]","_shell_PropVariantToFileTimeVector","properties.PropVariantToFileTimeVector","propvarutil/PropVariantToFileTimeVector","shell.PropVariantToFileTimeVector"]
+description: Extracts data from a PROPVARIANT structure into a FILETIME vector.
+helpviewer_keywords: ["PropVariantToFileTimeVector","PropVariantToFileTimeVector function [Windows Properties]","_shell_PropVariantToFileTimeVector","properties.PropVariantToFileTimeVector","propvarutil/PropVariantToFileTimeVector","shell.PropVariantToFileTimeVector"]
 old-location: properties\PropVariantToFileTimeVector.htm
 tech.root: properties
 ms.assetid: ef665f50-3f3b-47db-9133-490305da5341

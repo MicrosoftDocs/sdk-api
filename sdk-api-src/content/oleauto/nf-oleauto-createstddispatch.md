@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.CreateStdDispatch
 title: CreateStdDispatch function (oleauto.h)
-description: Creates a standard implementation of the IDispatch interface through a single function call. This simplifies exposing objects through Automation.helpviewer_keywords: ["CreateStdDispatch","CreateStdDispatch function [Automation]","_oa96_CreateStdDispatch","automat.createstddispatch","oleauto/CreateStdDispatch"]
+description: Creates a standard implementation of the IDispatch interface through a single function call. This simplifies exposing objects through Automation.
+helpviewer_keywords: ["CreateStdDispatch","CreateStdDispatch function [Automation]","_oa96_CreateStdDispatch","automat.createstddispatch","oleauto/CreateStdDispatch"]
 old-location: automat\createstddispatch.htm
 tech.root: automat
 ms.assetid: 45a59243-df93-41ca-ac60-354cb1165004

@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IConfigurationDataCollector.get_Files
 title: IConfigurationDataCollector::get_Files (pla.h)
-description: Retrieves or sets the files to collect.helpviewer_keywords: ["Files property [PLA]","Files property [PLA]","IConfigurationDataCollector interface","IConfigurationDataCollector interface [PLA]","Files property","IConfigurationDataCollector.Files","IConfigurationDataCollector.get_Files","IConfigurationDataCollector::Files","IConfigurationDataCollector::get_Files","IConfigurationDataCollector::put_Files","base.iconfigurationdatacollector_files","get_Files","pla.iconfigurationdatacollector_files","pla/IConfigurationDataCollector::Files","pla/IConfigurationDataCollector::get_Files","pla/IConfigurationDataCollector::put_Files"]
+description: Retrieves or sets the files to collect.
+helpviewer_keywords: ["Files property [PLA]","Files property [PLA]","IConfigurationDataCollector interface","IConfigurationDataCollector interface [PLA]","Files property","IConfigurationDataCollector.Files","IConfigurationDataCollector.get_Files","IConfigurationDataCollector::Files","IConfigurationDataCollector::get_Files","IConfigurationDataCollector::put_Files","base.iconfigurationdatacollector_files","get_Files","pla.iconfigurationdatacollector_files","pla/IConfigurationDataCollector::Files","pla/IConfigurationDataCollector::get_Files","pla/IConfigurationDataCollector::put_Files"]
 old-location: pla\iconfigurationdatacollector_files.htm
 tech.root: PLA
 ms.assetid: ca495768-8f84-489b-8590-3ab7d031f0be

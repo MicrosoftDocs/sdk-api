@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.BackupClusterDatabase
 title: BackupClusterDatabase function (clusapi.h)
-description: Creates a backup of the cluster database and all registry checkpoints.helpviewer_keywords: ["BackupClusterDatabase","BackupClusterDatabase function [Failover Cluster]","_wolf_backupclusterdatabase","clusapi/BackupClusterDatabase","mscs.backupclusterdatabase"]
+description: Creates a backup of the cluster database and all registry checkpoints.
+helpviewer_keywords: ["BackupClusterDatabase","BackupClusterDatabase function [Failover Cluster]","_wolf_backupclusterdatabase","clusapi/BackupClusterDatabase","mscs.backupclusterdatabase"]
 old-location: mscs\backupclusterdatabase.htm
 tech.root: MsCS
 ms.assetid: c381b7d3-cc60-45cf-a7f0-eebf44557bcf

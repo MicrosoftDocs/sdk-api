@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.D3D10CreateEffectFromMemory
 title: D3D10CreateEffectFromMemory function (d3d10effect.h)
-description: Creates an ID3D10Effect from a buffer containing a compiled effect.helpviewer_keywords: ["D3D10CreateEffectFromMemory","D3D10CreateEffectFromMemory function [Direct3D 10]","d3d10effect/D3D10CreateEffectFromMemory","direct3d10.d3d10createeffectfrommemory","f306b99a-20d9-c501-65b4-81dd11930f56"]
+description: Creates an ID3D10Effect from a buffer containing a compiled effect.
+helpviewer_keywords: ["D3D10CreateEffectFromMemory","D3D10CreateEffectFromMemory function [Direct3D 10]","d3d10effect/D3D10CreateEffectFromMemory","direct3d10.d3d10createeffectfrommemory","f306b99a-20d9-c501-65b4-81dd11930f56"]
 old-location: direct3d10\d3d10createeffectfrommemory.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10createeffectfrommemory.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi._FD_XFORM
 title: FD_XFORM (winddi.h)
-description: The FD_XFORM structure describes an arbitrary two-dimensional font transform.helpviewer_keywords: ["*PFD_XFORM","FD_XFORM","FD_XFORM structure [Display Devices]","PFD_XFORM","PFD_XFORM structure pointer [Display Devices]","display.fd_xform","grstrcts_c68b9048-8da3-4c5d-b977-6bd50cbd6703.xml","winddi/FD_XFORM","winddi/PFD_XFORM"]
+description: The FD_XFORM structure describes an arbitrary two-dimensional font transform.
+helpviewer_keywords: ["*PFD_XFORM","FD_XFORM","FD_XFORM structure [Display Devices]","PFD_XFORM","PFD_XFORM structure pointer [Display Devices]","display.fd_xform","grstrcts_c68b9048-8da3-4c5d-b977-6bd50cbd6703.xml","winddi/FD_XFORM","winddi/PFD_XFORM"]
 old-location: display\fd_xform.htm
 tech.root: display
 ms.assetid: 4d15a771-fbf2-46ed-9698-faa3840f5f76

@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IAMDroppedFrames
 title: IAMDroppedFrames (strmif.h)
-description: The IAMDroppedFrames interface retrieves performance information from a video capture filter, including how many frames were dropped and how many were delivered. Applications can use this interface to determine capture performance at run-time.helpviewer_keywords: ["IAMDroppedFrames","IAMDroppedFrames interface [DirectShow]","IAMDroppedFrames interface [DirectShow]","described","IAMDroppedFramesInterface","dshow.iamdroppedframes","strmif/IAMDroppedFrames"]
+description: The IAMDroppedFrames interface retrieves performance information from a video capture filter, including how many frames were dropped and how many were delivered. Applications can use this interface to determine capture performance at run-time.
+helpviewer_keywords: ["IAMDroppedFrames","IAMDroppedFrames interface [DirectShow]","IAMDroppedFrames interface [DirectShow]","described","IAMDroppedFramesInterface","dshow.iamdroppedframes","strmif/IAMDroppedFrames"]
 old-location: dshow\iamdroppedframes.htm
 tech.root: DirectShow
 ms.assetid: b41c3792-76fe-48e0-b2f5-ca3b0ee4c8ae

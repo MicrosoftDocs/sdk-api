@@ -1,7 +1,8 @@
 ---
 UID: NS:bcrypt._CRYPT_PROVIDER_REG
 title: CRYPT_PROVIDER_REG (bcrypt.h)
-description: Used to contain registration information for a CNG provider.helpviewer_keywords: ["*PCRYPT_PROVIDER_REG","CRYPT_PROVIDER_REG","CRYPT_PROVIDER_REG structure [Security]","PCRYPT_PROVIDER_REG","PCRYPT_PROVIDER_REG structure pointer [Security]","bcrypt/CRYPT_PROVIDER_REG","bcrypt/PCRYPT_PROVIDER_REG","security.crypt_provider_reg"]
+description: Used to contain registration information for a CNG provider.
+helpviewer_keywords: ["*PCRYPT_PROVIDER_REG","CRYPT_PROVIDER_REG","CRYPT_PROVIDER_REG structure [Security]","PCRYPT_PROVIDER_REG","PCRYPT_PROVIDER_REG structure pointer [Security]","bcrypt/CRYPT_PROVIDER_REG","bcrypt/PCRYPT_PROVIDER_REG","security.crypt_provider_reg"]
 old-location: security\crypt_provider_reg.htm
 tech.root: SecCNG
 ms.assetid: ca0ac386-9435-49f0-95fe-503aa7183517

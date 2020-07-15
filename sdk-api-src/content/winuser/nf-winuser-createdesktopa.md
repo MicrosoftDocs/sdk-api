@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CreateDesktopA
 title: CreateDesktopA function (winuser.h)
-description: Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread.helpviewer_keywords: ["CreateDesktop","CreateDesktop function [Windows Stations and Desktops]","CreateDesktopA","CreateDesktopW","DF_ALLOWOTHERACCOUNTHOOK","_win32_createdesktop","base.createdesktop","winstation.createdesktop","winuser/CreateDesktop","winuser/CreateDesktopA","winuser/CreateDesktopW"]
+description: Creates a new desktop, associates it with the current window station of the calling process, and assigns it to the calling thread.
+helpviewer_keywords: ["CreateDesktop","CreateDesktop function [Windows Stations and Desktops]","CreateDesktopA","CreateDesktopW","DF_ALLOWOTHERACCOUNTHOOK","_win32_createdesktop","base.createdesktop","winstation.createdesktop","winuser/CreateDesktop","winuser/CreateDesktopA","winuser/CreateDesktopW"]
 old-location: winstation\createdesktop.htm
 tech.root: winstation
 ms.assetid: c6ed40c5-13a9-4697-a727-730adc6a912d
@@ -161,6 +162,10 @@ The values for the "SharedSection" substring are described as follows:
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CreateDesktop as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

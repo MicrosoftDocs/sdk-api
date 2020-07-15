@@ -1,7 +1,8 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest3Callback
 title: IXMLHTTPRequest3Callback (msxml6.h)
-description: Defines callbacks that notify an application with an outstanding IXMLHTTPRequest3 request of events that affect HTTP request and response processing.helpviewer_keywords: ["IXMLHTTPRequest3Callback","IXMLHTTPRequest3Callback interface [XMLHttpRequest2]","IXMLHTTPRequest3Callback interface [XMLHttpRequest2]","described","ixhr2.ixmlhttprequest3callback","msxml6/IXMLHTTPRequest3Callback"]
+description: Defines callbacks that notify an application with an outstanding IXMLHTTPRequest3 request of events that affect HTTP request and response processing.
+helpviewer_keywords: ["IXMLHTTPRequest3Callback","IXMLHTTPRequest3Callback interface [XMLHttpRequest2]","IXMLHTTPRequest3Callback interface [XMLHttpRequest2]","described","ixhr2.ixmlhttprequest3callback","msxml6/IXMLHTTPRequest3Callback"]
 old-location: ixhr2\ixmlhttprequest3callback.htm
 tech.root: ixhr2
 ms.assetid: f745669a-a594-457d-ae6b-952a55576bae

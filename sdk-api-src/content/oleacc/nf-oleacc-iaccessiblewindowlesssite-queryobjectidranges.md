@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.IAccessibleWindowlessSite.QueryObjectIdRanges
 title: IAccessibleWindowlessSite::QueryObjectIdRanges (oleacc.h)
-description: Retrieves the object ID ranges that a particular windowless Microsoft ActiveX control has reserved.helpviewer_keywords: ["IAccessibleWindowlessSite interface [Windows Accessibility]","QueryObjectIdRanges method","IAccessibleWindowlessSite.QueryObjectIdRanges","IAccessibleWindowlessSite::QueryObjectIdRanges","QueryObjectIdRanges","QueryObjectIdRanges method [Windows Accessibility]","QueryObjectIdRanges method [Windows Accessibility]","IAccessibleWindowlessSite interface","oleacc/IAccessibleWindowlessSite::QueryObjectIdRanges","winauto.uiauto_IAccessibleWindowlessSite_QueryObjectIdRanges"]
+description: Retrieves the object ID ranges that a particular windowless Microsoft ActiveX control has reserved.
+helpviewer_keywords: ["IAccessibleWindowlessSite interface [Windows Accessibility]","QueryObjectIdRanges method","IAccessibleWindowlessSite.QueryObjectIdRanges","IAccessibleWindowlessSite::QueryObjectIdRanges","QueryObjectIdRanges","QueryObjectIdRanges method [Windows Accessibility]","QueryObjectIdRanges method [Windows Accessibility]","IAccessibleWindowlessSite interface","oleacc/IAccessibleWindowlessSite::QueryObjectIdRanges","winauto.uiauto_IAccessibleWindowlessSite_QueryObjectIdRanges"]
 old-location: winauto\uiauto_IAccessibleWindowlessSite_QueryObjectIdRanges.htm
 tech.root: WinAuto
 ms.assetid: 36663457-57B7-40D4-8A52-9C4E9B551E8E

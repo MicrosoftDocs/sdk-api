@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSStringFromPropertyKey
 title: PSStringFromPropertyKey function (propsys.h)
-description: Creates a string that identifies a property from that property's key.helpviewer_keywords: ["PSStringFromPropertyKey","PSStringFromPropertyKey function [Windows Properties]","_shell_PSStringFromPropertyKey","properties.PSStringFromPropertyKey","propsys/PSStringFromPropertyKey","shell.PSStringFromPropertyKey"]
+description: Creates a string that identifies a property from that property's key.
+helpviewer_keywords: ["PSStringFromPropertyKey","PSStringFromPropertyKey function [Windows Properties]","_shell_PSStringFromPropertyKey","properties.PSStringFromPropertyKey","propsys/PSStringFromPropertyKey","shell.PSStringFromPropertyKey"]
 old-location: properties\PSStringFromPropertyKey.htm
 tech.root: properties
 ms.assetid: 081f8e6d-9189-44f9-9b27-e85f4793da48

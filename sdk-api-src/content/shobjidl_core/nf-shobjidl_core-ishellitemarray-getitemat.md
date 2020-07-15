@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellItemArray.GetItemAt
 title: IShellItemArray::GetItemAt (shobjidl_core.h)
-description: Gets the item at the given index in the IShellItemArray.helpviewer_keywords: ["GetItemAt","GetItemAt method [Windows Shell]","GetItemAt method [Windows Shell]","IShellItemArray interface","IShellItemArray interface [Windows Shell]","GetItemAt method","IShellItemArray.GetItemAt","IShellItemArray::GetItemAt","_shell_IShellItemArray_GetItemAt","shell.IShellItemArray_GetItemAt","shobjidl_core/IShellItemArray::GetItemAt"]
+description: Gets the item at the given index in the IShellItemArray.
+helpviewer_keywords: ["GetItemAt","GetItemAt method [Windows Shell]","GetItemAt method [Windows Shell]","IShellItemArray interface","IShellItemArray interface [Windows Shell]","GetItemAt method","IShellItemArray.GetItemAt","IShellItemArray::GetItemAt","_shell_IShellItemArray_GetItemAt","shell.IShellItemArray_GetItemAt","shobjidl_core/IShellItemArray::GetItemAt"]
 old-location: shell\IShellItemArray_GetItemAt.htm
 tech.root: shell
 ms.assetid: 58307102-1ae3-4249-81e0-25c1166500d0

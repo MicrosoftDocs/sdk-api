@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT
 title: D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT (d3d11.h)
-description: Contains input data for a D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION query.helpviewer_keywords: ["D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT","D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT structure [Media Foundation]","d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT","mf.d3d11_authenticated_query_crypto_session_input"]
+description: Contains input data for a D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION query.
+helpviewer_keywords: ["D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT","D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT structure [Media Foundation]","d3d11/D3D11_AUTHENTICATED_QUERY_CRYPTO_SESSION_INPUT","mf.d3d11_authenticated_query_crypto_session_input"]
 old-location: mf\d3d11_authenticated_query_crypto_session_input.htm
 tech.root: medfound
 ms.assetid: 012E594C-4E0B-48A3-828A-A8F8B901F8E7

@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.mixerClose
 title: mixerClose function (mmeapi.h)
-description: The mixerClose function closes the specified mixer device.helpviewer_keywords: ["_win32_mixerClose","mixerClose","mixerClose function [Windows Multimedia]","mmeapi/mixerClose","multimedia.mixerclose"]
+description: The mixerClose function closes the specified mixer device.
+helpviewer_keywords: ["_win32_mixerClose","mixerClose","mixerClose function [Windows Multimedia]","mmeapi/mixerClose","multimedia.mixerclose"]
 old-location: multimedia\mixerclose.htm
 tech.root: Multimedia
 ms.assetid: d92a9bb0-9761-471b-85d2-af0bcdbbda34

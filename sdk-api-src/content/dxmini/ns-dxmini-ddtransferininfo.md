@@ -1,7 +1,8 @@
 ---
 UID: NS:dxmini._DDTRANSFERININFO
 title: DDTRANSFERININFO (dxmini.h)
-description: The DDTRANSFERININFO structure contains the transfer information for the surfacehelpviewer_keywords: ["*PDDTRANSFERININFO","DDTRANSFERININFO","DDTRANSFERININFO structure [Display Devices]","PDDTRANSFERININFO","PDDTRANSFERININFO structure pointer [Display Devices]","Video_Structs_2585fa9a-a3ea-4bc0-a5b8-1911262203ba.xml","display.ddtransferininfo","dxmini/DDTRANSFERININFO","dxmini/PDDTRANSFERININFO"]
+description: The DDTRANSFERININFO structure contains the transfer information for the surface
+helpviewer_keywords: ["*PDDTRANSFERININFO","DDTRANSFERININFO","DDTRANSFERININFO structure [Display Devices]","PDDTRANSFERININFO","PDDTRANSFERININFO structure pointer [Display Devices]","Video_Structs_2585fa9a-a3ea-4bc0-a5b8-1911262203ba.xml","display.ddtransferininfo","dxmini/DDTRANSFERININFO","dxmini/PDDTRANSFERININFO"]
 old-location: display\ddtransferininfo.htm
 tech.root: display
 ms.assetid: 9e5f938d-0db6-4df6-a9c2-49840fef8c03

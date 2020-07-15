@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.GetUrlCacheEntryInfoW
 title: GetUrlCacheEntryInfoW function (wininet.h)
-description: Retrieves information about a cache entry.helpviewer_keywords: ["GetUrlCacheEntryInfo","GetUrlCacheEntryInfo function [WinINet]","GetUrlCacheEntryInfoA","GetUrlCacheEntryInfoW","_inet_geturlcacheentryinfo_function","wininet.geturlcacheentryinfo","wininet/GetUrlCacheEntryInfo","wininet/GetUrlCacheEntryInfoA","wininet/GetUrlCacheEntryInfoW"]
+description: Retrieves information about a cache entry.
+helpviewer_keywords: ["GetUrlCacheEntryInfo","GetUrlCacheEntryInfo function [WinINet]","GetUrlCacheEntryInfoA","GetUrlCacheEntryInfoW","_inet_geturlcacheentryinfo_function","wininet.geturlcacheentryinfo","wininet/GetUrlCacheEntryInfo","wininet/GetUrlCacheEntryInfoA","wininet/GetUrlCacheEntryInfoW"]
 old-location: wininet\geturlcacheentryinfo.htm
 tech.root: wininet
 ms.assetid: 0f70bcef-2d56-4765-a44e-4549b4ae2ced
@@ -133,6 +134,10 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines GetUrlCacheEntryInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

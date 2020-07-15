@@ -1,7 +1,8 @@
 ---
 UID: NF:urlmon.CreateFormatEnumerator
 title: CreateFormatEnumerator function (urlmon.h)
-description: Creates an object that implements IEnumFORMATETC over a static array of FORMATETC structures.helpviewer_keywords: ["CreateFormatEnumerator","CreateFormatEnumerator function [COM]","_ole_CreateFormatEnumerator","com.createformatenumerator","urlmon/CreateFormatEnumerator"]
+description: Creates an object that implements IEnumFORMATETC over a static array of FORMATETC structures.
+helpviewer_keywords: ["CreateFormatEnumerator","CreateFormatEnumerator function [COM]","_ole_CreateFormatEnumerator","com.createformatenumerator","urlmon/CreateFormatEnumerator"]
 old-location: com\createformatenumerator.htm
 tech.root: com
 ms.assetid: 302418e5-48b6-46ee-bb96-2a8170c4af5e

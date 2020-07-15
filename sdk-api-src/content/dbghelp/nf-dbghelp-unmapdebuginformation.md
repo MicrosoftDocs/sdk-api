@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.UnmapDebugInformation
 title: UnmapDebugInformation function (dbghelp.h)
-description: Deallocates the memory and resources allocated by a call to the MapDebugInformation function.helpviewer_keywords: ["UnmapDebugInformation","UnmapDebugInformation function","_win32_unmapdebuginformation","base.unmapdebuginformation","dbghelp/UnmapDebugInformation"]
+description: Deallocates the memory and resources allocated by a call to the MapDebugInformation function.
+helpviewer_keywords: ["UnmapDebugInformation","UnmapDebugInformation function","_win32_unmapdebuginformation","base.unmapdebuginformation","dbghelp/UnmapDebugInformation"]
 old-location: base\unmapdebuginformation.htm
 tech.root: Debug
 ms.assetid: 86d82f23-7803-475f-8b23-c3964d33cb00

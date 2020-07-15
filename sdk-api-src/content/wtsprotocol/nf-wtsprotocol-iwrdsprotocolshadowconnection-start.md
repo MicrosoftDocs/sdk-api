@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolShadowConnection.Start
 title: IWRdsProtocolShadowConnection::Start (wtsprotocol.h)
-description: Notifies the protocol that shadowing has started.helpviewer_keywords: ["IWRdsProtocolShadowConnection interface [Remote Desktop Services]","Start method","IWRdsProtocolShadowConnection.Start","IWRdsProtocolShadowConnection::Start","Start","Start method [Remote Desktop Services]","Start method [Remote Desktop Services]","IWRdsProtocolShadowConnection interface","termserv.iwrdsprotocolshadowconnection_start","wtsprotocol/IWRdsProtocolShadowConnection::Start"]
+description: Notifies the protocol that shadowing has started.
+helpviewer_keywords: ["IWRdsProtocolShadowConnection interface [Remote Desktop Services]","Start method","IWRdsProtocolShadowConnection.Start","IWRdsProtocolShadowConnection::Start","Start","Start method [Remote Desktop Services]","Start method [Remote Desktop Services]","IWRdsProtocolShadowConnection interface","termserv.iwrdsprotocolshadowconnection_start","wtsprotocol/IWRdsProtocolShadowConnection::Start"]
 old-location: termserv\iwrdsprotocolshadowconnection_start.htm
 tech.root: TermServ
 ms.assetid: 1f7b5811-6aba-41f2-9fa4-2bbc4c6e005c

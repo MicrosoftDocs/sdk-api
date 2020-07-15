@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioEndpointRT.ProcessingComplete
 title: IAudioEndpointRT::ProcessingComplete (audioengineendpoint.h)
-description: Notifies the endpoint that a processing pass has been completed.helpviewer_keywords: ["IAudioEndpointRT interface [Remote Desktop Services]","ProcessingComplete method","IAudioEndpointRT.ProcessingComplete","IAudioEndpointRT::ProcessingComplete","ProcessingComplete","ProcessingComplete method [Remote Desktop Services]","ProcessingComplete method [Remote Desktop Services]","IAudioEndpointRT interface","audioengineendpoint/IAudioEndpointRT::ProcessingComplete","termserv.iaudioendpointrt_processingcomplete"]
+description: Notifies the endpoint that a processing pass has been completed.
+helpviewer_keywords: ["IAudioEndpointRT interface [Remote Desktop Services]","ProcessingComplete method","IAudioEndpointRT.ProcessingComplete","IAudioEndpointRT::ProcessingComplete","ProcessingComplete","ProcessingComplete method [Remote Desktop Services]","ProcessingComplete method [Remote Desktop Services]","IAudioEndpointRT interface","audioengineendpoint/IAudioEndpointRT::ProcessingComplete","termserv.iaudioendpointrt_processingcomplete"]
 old-location: termserv\iaudioendpointrt_processingcomplete.htm
 tech.root: TermServ
 ms.assetid: 1a9c52fa-27ff-4e63-ae87-f5a3cd8d4f9b

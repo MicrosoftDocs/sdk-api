@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchManager2.CreateCatalog
 title: ISearchManager2::CreateCatalog (searchapi.h)
-description: Creates a new custom catalog in the Windows Search indexer and returns a reference to it.helpviewer_keywords: ["CreateCatalog","CreateCatalog method [search]","CreateCatalog method [search]","ISearchManager2 interface","ISearchManager2 interface [search]","CreateCatalog method","ISearchManager2.CreateCatalog","ISearchManager2::CreateCatalog","search.isearchmanager2_createcatalog","searchapi/ISearchManager2::CreateCatalog"]
+description: Creates a new custom catalog in the Windows Search indexer and returns a reference to it.
+helpviewer_keywords: ["CreateCatalog","CreateCatalog method [search]","CreateCatalog method [search]","ISearchManager2 interface","ISearchManager2 interface [search]","CreateCatalog method","ISearchManager2.CreateCatalog","ISearchManager2::CreateCatalog","search.isearchmanager2_createcatalog","searchapi/ISearchManager2::CreateCatalog"]
 old-location: search\isearchmanager2_createcatalog.htm
 tech.root: search
 ms.assetid: 2ADC48B8-87A2-4527-9AA8-9B0BA3A12462

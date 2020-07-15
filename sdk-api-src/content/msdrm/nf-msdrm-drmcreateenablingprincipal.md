@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMCreateEnablingPrincipal
 title: DRMCreateEnablingPrincipal function (msdrm.h)
-description: Creates an enabling principal needed to bind to a license.helpviewer_keywords: ["DRMCreateEnablingPrincipal","DRMCreateEnablingPrincipal function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMCreateEnablingPrincipal","rm.drmcreateenablingprincipal"]
+description: Creates an enabling principal needed to bind to a license.
+helpviewer_keywords: ["DRMCreateEnablingPrincipal","DRMCreateEnablingPrincipal function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMCreateEnablingPrincipal","rm.drmcreateenablingprincipal"]
 old-location: rm\drmcreateenablingprincipal.htm
 tech.root: AdRms_Sdk
 ms.assetid: 92858a46-cef5-4d25-9f3c-cbb343743565

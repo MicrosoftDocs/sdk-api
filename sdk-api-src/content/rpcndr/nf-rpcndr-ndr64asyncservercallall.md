@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.Ndr64AsyncServerCallAll
 title: Ndr64AsyncServerCallAll function (rpcndr.h)
-description: Ndr64AsyncServerCallAll is not intended to be directly called by applications.helpviewer_keywords: ["Ndr64AsyncServerCallAll","Ndr64AsyncServerCallAll function [RPC]","rpc.ndr64asyncservercallall","rpcndr/Ndr64AsyncServerCallAll"]
+description: Ndr64AsyncServerCallAll is not intended to be directly called by applications.
+helpviewer_keywords: ["Ndr64AsyncServerCallAll","Ndr64AsyncServerCallAll function [RPC]","rpc.ndr64asyncservercallall","rpcndr/Ndr64AsyncServerCallAll"]
 old-location: rpc\ndr64asyncservercallall.htm
 tech.root: Rpc
 ms.assetid: 0B8203F2-2EE0-4DBD-B1B8-FD9E7E073E6F

@@ -1,7 +1,8 @@
 ---
 UID: NS:htmlhelp.tagHH_AKLINK
 title: HH_AKLINK (htmlhelp.h)
-description: Use this structure to specify one or more ALink names or KLink keywords that you want to search for.helpviewer_keywords: ["HH_AKLINK","HH_AKLINK structure [HTML Help Workshop]","htmlhelp.hh_aklink_structure","htmlhelp/HH_AKLINK","vsconStrhhaklink"]
+description: Use this structure to specify one or more ALink names or KLink keywords that you want to search for.
+helpviewer_keywords: ["HH_AKLINK","HH_AKLINK structure [HTML Help Workshop]","htmlhelp.hh_aklink_structure","htmlhelp/HH_AKLINK","vsconStrhhaklink"]
 old-location: htmlhelp\hh_aklink_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhaklink.htm

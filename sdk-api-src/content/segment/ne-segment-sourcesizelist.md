@@ -1,7 +1,8 @@
 ---
 UID: NE:segment.SourceSizeList
 title: SourceSizeList (segment.h)
-description: This topic applies to Windows XP or later.helpviewer_keywords: ["MSVidCtlSourceSizeListEnumeration","SourceSizeList","SourceSizeList enumeration [Microsoft TV Technologies]","enumeration [Microsoft TV Technologies]","mstv.sourcesizelist","segment/SourceSizeList","segment/sslClipByClipRect","segment/sslClipByOverScan","segment/sslFullSize","sslClipByClipRect","sslClipByOverScan","sslFullSize"]
+description: This topic applies to Windows XP or later.
+helpviewer_keywords: ["MSVidCtlSourceSizeListEnumeration","SourceSizeList","SourceSizeList enumeration [Microsoft TV Technologies]","enumeration [Microsoft TV Technologies]","mstv.sourcesizelist","segment/SourceSizeList","segment/sslClipByClipRect","segment/sslClipByOverScan","segment/sslFullSize","sslClipByClipRect","sslClipByOverScan","sslFullSize"]
 old-location: mstv\sourcesizelist.htm
 tech.root: mstv
 ms.assetid: 579c4993-6238-47c7-b61c-398568c1fb94

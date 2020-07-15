@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.AddStroke
 title: AddStroke function (recapis.h)
-description: Adds an ink stroke to the RecognizerContext.helpviewer_keywords: ["1db3dbef-41bf-4b00-8e6c-07c7c414e595","AddStroke","AddStroke function [Tablet PC]","recapis/AddStroke","tablet.addstroke"]
+description: Adds an ink stroke to the RecognizerContext.
+helpviewer_keywords: ["1db3dbef-41bf-4b00-8e6c-07c7c414e595","AddStroke","AddStroke function [Tablet PC]","recapis/AddStroke","tablet.addstroke"]
 old-location: tablet\addstroke.htm
 tech.root: tablet
 ms.assetid: 1db3dbef-41bf-4b00-8e6c-07c7c414e595

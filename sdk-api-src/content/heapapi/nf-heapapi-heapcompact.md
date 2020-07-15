@@ -1,7 +1,8 @@
 ---
 UID: NF:heapapi.HeapCompact
 title: HeapCompact function (heapapi.h)
-description: Returns the size of the largest committed free block in the specified heap. If the Disable heap coalesce on free global flag is set, this function also coalesces adjacent free blocks of memory in the heap.helpviewer_keywords: ["HEAP_NO_SERIALIZE","HeapCompact","HeapCompact function","_win32_heapcompact","base.heapcompact","heapapi/HeapCompact","winbase/HeapCompact"]
+description: Returns the size of the largest committed free block in the specified heap. If the Disable heap coalesce on free global flag is set, this function also coalesces adjacent free blocks of memory in the heap.
+helpviewer_keywords: ["HEAP_NO_SERIALIZE","HeapCompact","HeapCompact function","_win32_heapcompact","base.heapcompact","heapapi/HeapCompact","winbase/HeapCompact"]
 old-location: base\heapcompact.htm
 tech.root: Memory
 ms.assetid: 792ec16f-d6b0-4afd-a832-29fe12b25058

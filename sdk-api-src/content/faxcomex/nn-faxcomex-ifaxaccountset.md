@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcomex.IFaxAccountSet
 title: IFaxAccountSet (faxcomex.h)
-description: Provides methods for fax account management, including adding, removing, and retrieving fax accounts.helpviewer_keywords: ["IFaxAccountSet","IFaxAccountSet interface [Fax Service]","IFaxAccountSet interface [Fax Service]","described","_mfax_faxaccountset_cpp","fax._mfax_faxaccountset_cpp","faxcomex/IFaxAccountSet"]
+description: Provides methods for fax account management, including adding, removing, and retrieving fax accounts.
+helpviewer_keywords: ["IFaxAccountSet","IFaxAccountSet interface [Fax Service]","IFaxAccountSet interface [Fax Service]","described","_mfax_faxaccountset_cpp","fax._mfax_faxaccountset_cpp","faxcomex/IFaxAccountSet"]
 old-location: fax\_mfax_faxaccountset_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountset\faxinta_n_ifaxaccountset.htm

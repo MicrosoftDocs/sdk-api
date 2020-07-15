@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IActionCollection.Create
 title: IActionCollection::Create (taskschd.h)
-description: Creates and adds a new action to the collection.helpviewer_keywords: ["Create","Create method [Task Scheduler]","Create method [Task Scheduler]","IActionCollection interface","IActionCollection interface [Task Scheduler]","Create method","IActionCollection.Create","IActionCollection::Create","TASK_ACTION_COM_HANDLER","TASK_ACTION_EXEC","TASK_ACTION_SEND_EMAIL","TASK_ACTION_SHOW_MESSAGE","actions [Task Scheduler]","creating","taskschd.iactioncollection_create","taskschd/IActionCollection::Create"]
+description: Creates and adds a new action to the collection.
+helpviewer_keywords: ["Create","Create method [Task Scheduler]","Create method [Task Scheduler]","IActionCollection interface","IActionCollection interface [Task Scheduler]","Create method","IActionCollection.Create","IActionCollection::Create","TASK_ACTION_COM_HANDLER","TASK_ACTION_EXEC","TASK_ACTION_SEND_EMAIL","TASK_ACTION_SHOW_MESSAGE","actions [Task Scheduler]","creating","taskschd.iactioncollection_create","taskschd/IActionCollection::Create"]
 old-location: taskschd\iactioncollection_create.htm
 tech.root: taskschd
 ms.assetid: 815a000b-ba02-470d-80e6-06ba3c8ea014

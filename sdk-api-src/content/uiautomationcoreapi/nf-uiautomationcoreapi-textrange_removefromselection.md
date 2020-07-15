@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_RemoveFromSelection
 title: TextRange_RemoveFromSelection function (uiautomationcoreapi.h)
-description: Removes the selected text, corresponding to the calling text range TextPatternRangeEndpoint_Start and TextPatternRangeEndpoint_End endpoints, from an existing collection of selected text in a text container that supports multiple, disjoint selections.helpviewer_keywords: ["TextRange_RemoveFromSelection","TextRange_RemoveFromSelection function [Windows Accessibility]","uiauto.uiauto_TextRange_RemoveFromSelectionConPat","uiauto_TextRange_RemoveFromSelectionConPat","uiautomationcoreapi/TextRange_RemoveFromSelection","winauto.uiauto_TextRange_RemoveFromSelectionConPat"]
+description: Removes the selected text, corresponding to the calling text range TextPatternRangeEndpoint_Start and TextPatternRangeEndpoint_End endpoints, from an existing collection of selected text in a text container that supports multiple, disjoint selections.
+helpviewer_keywords: ["TextRange_RemoveFromSelection","TextRange_RemoveFromSelection function [Windows Accessibility]","uiauto.uiauto_TextRange_RemoveFromSelectionConPat","uiauto_TextRange_RemoveFromSelectionConPat","uiautomationcoreapi/TextRange_RemoveFromSelection","winauto.uiauto_TextRange_RemoveFromSelectionConPat"]
 old-location: winauto\uiauto_TextRange_RemoveFromSelectionConPat.htm
 tech.root: WinAuto
 ms.assetid: c8de1889-82e8-4147-9c71-f77bf05c72a0

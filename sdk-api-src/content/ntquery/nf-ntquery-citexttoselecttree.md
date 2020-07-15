@@ -1,7 +1,8 @@
 ---
 UID: NF:ntquery.CITextToSelectTree
 title: CITextToSelectTree function (ntquery.h)
-description: Creates a SELECT node for a DBCOMMANDTREE structure using Query Language Dialect 1.helpviewer_keywords: ["CITextToSelectTree","CITextToSelectTree function [Indexing Service]","_idxs_CITextToSelectTree","indexsrv.citexttoselecttree","ntquery/CITextToSelectTree"]
+description: Creates a SELECT node for a DBCOMMANDTREE structure using Query Language Dialect 1.
+helpviewer_keywords: ["CITextToSelectTree","CITextToSelectTree function [Indexing Service]","_idxs_CITextToSelectTree","indexsrv.citexttoselecttree","ntquery/CITextToSelectTree"]
 old-location: indexsrv\citexttoselecttree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_1t0l.htm

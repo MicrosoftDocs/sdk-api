@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_STRING_DESCRIPTION
 title: WS_STRING_DESCRIPTION (webservices.h)
-description: This type description is used with WS_STRING_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.helpviewer_keywords: ["WS_STRING_DESCRIPTION","WS_STRING_DESCRIPTION structure [Web Services for Windows]","webservices/WS_STRING_DESCRIPTION","wsw.ws_string_description"]
+description: This type description is used with WS_STRING_TYPE and is optional. It is used to specify constraints on the set of values which can be deserialized.
+helpviewer_keywords: ["WS_STRING_DESCRIPTION","WS_STRING_DESCRIPTION structure [Web Services for Windows]","webservices/WS_STRING_DESCRIPTION","wsw.ws_string_description"]
 old-location: wsw\ws_string_description.htm
 tech.root: wsw
 ms.assetid: 10abb773-ec10-4e72-bce8-13fe3c41cb52

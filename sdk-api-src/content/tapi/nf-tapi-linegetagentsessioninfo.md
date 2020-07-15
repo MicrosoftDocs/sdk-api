@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineGetAgentSessionInfo
 title: lineGetAgentSessionInfo function (tapi.h)
-description: The lineGetAgentSessionInfo function returns a structure that holds the ACD information associated with a particular agent session handle.helpviewer_keywords: ["_tapi2_linegetagentsessioninfo","lineGetAgentSessionInfo","lineGetAgentSessionInfo function [TAPI 2.2]","tapi/lineGetAgentSessionInfo","tapi2.linegetagentsessioninfo"]
+description: The lineGetAgentSessionInfo function returns a structure that holds the ACD information associated with a particular agent session handle.
+helpviewer_keywords: ["_tapi2_linegetagentsessioninfo","lineGetAgentSessionInfo","lineGetAgentSessionInfo function [TAPI 2.2]","tapi/lineGetAgentSessionInfo","tapi2.linegetagentsessioninfo"]
 old-location: tapi2\linegetagentsessioninfo.htm
 tech.root: Tapi
 ms.assetid: 06a5ea23-4205-46fd-abe7-ee4575be81c8

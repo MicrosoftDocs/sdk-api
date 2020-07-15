@@ -1,7 +1,8 @@
 ---
 UID: NE:accctrl._MULTIPLE_TRUSTEE_OPERATION
 title: MULTIPLE_TRUSTEE_OPERATION (accctrl.h)
-description: Contains values that indicate whether a TRUSTEE structure is an impersonation trustee.helpviewer_keywords: ["MULTIPLE_TRUSTEE_OPERATION","MULTIPLE_TRUSTEE_OPERATION enumeration [Security]","NO_MULTIPLE_TRUSTEE","TRUSTEE_IS_IMPERSONATE","_win32_multiple_trustee_operation_str","accctrl/MULTIPLE_TRUSTEE_OPERATION","accctrl/NO_MULTIPLE_TRUSTEE","accctrl/TRUSTEE_IS_IMPERSONATE","security.multiple_trustee_operation"]
+description: Contains values that indicate whether a TRUSTEE structure is an impersonation trustee.
+helpviewer_keywords: ["MULTIPLE_TRUSTEE_OPERATION","MULTIPLE_TRUSTEE_OPERATION enumeration [Security]","NO_MULTIPLE_TRUSTEE","TRUSTEE_IS_IMPERSONATE","_win32_multiple_trustee_operation_str","accctrl/MULTIPLE_TRUSTEE_OPERATION","accctrl/NO_MULTIPLE_TRUSTEE","accctrl/TRUSTEE_IS_IMPERSONATE","security.multiple_trustee_operation"]
 old-location: security\multiple_trustee_operation.htm
 tech.root: SecAuthZ
 ms.assetid: 00b00678-5c87-4aa9-8232-5f0f1cb48e24

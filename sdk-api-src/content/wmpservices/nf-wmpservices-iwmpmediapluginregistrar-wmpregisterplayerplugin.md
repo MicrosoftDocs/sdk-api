@@ -1,7 +1,8 @@
 ---
 UID: NF:wmpservices.IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin
 title: IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin (wmpservices.h)
-description: The IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin function adds information to the registry that identifies a Windows Media Player plug-in.helpviewer_keywords: ["IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin","IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin","WMPRegisterPlayerPlugin","WMPRegisterPlayerPlugin function [Windows Media Player]","wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin","wmpservices/WMPRegisterPlayerPlugin"]
+description: The IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin function adds information to the registry that identifies a Windows Media Player plug-in.
+helpviewer_keywords: ["IWMPMediaPluginRegistrar.WMPRegisterPlayerPlugin","IWMPMediaPluginRegistrar::WMPRegisterPlayerPlugin","WMPRegisterPlayerPlugin","WMPRegisterPlayerPlugin function [Windows Media Player]","wmp.iwmpmediapluginregistrar__wmpregisterplayerplugin","wmpservices/WMPRegisterPlayerPlugin"]
 old-location: wmp\iwmpmediapluginregistrar__wmpregisterplayerplugin.htm
 tech.root: WMP
 ms.assetid: db042911-c46f-431a-ad1c-ceb2c3b4546c

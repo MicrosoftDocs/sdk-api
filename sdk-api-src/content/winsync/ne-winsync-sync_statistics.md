@@ -1,7 +1,8 @@
 ---
 UID: NE:winsync.__MIDL___MIDL_itf_winsync_0000_0000_0006
 title: SYNC_STATISTICS (winsync.h)
-description: Represents types of statistics that convey information about a component.helpviewer_keywords: ["SYNC_STATISTICS","SYNC_STATISTICS enumeration [Windows Sync]","SYNC_STATISTICS_RANGE_COUNT","winsync.sync_statistics","winsync/SYNC_STATISTICS","winsync/SYNC_STATISTICS_RANGE_COUNT"]
+description: Represents types of statistics that convey information about a component.
+helpviewer_keywords: ["SYNC_STATISTICS","SYNC_STATISTICS enumeration [Windows Sync]","SYNC_STATISTICS_RANGE_COUNT","winsync.sync_statistics","winsync/SYNC_STATISTICS","winsync/SYNC_STATISTICS_RANGE_COUNT"]
 old-location: winsync\sync_statistics.htm
 tech.root: winsync
 ms.assetid: 8a978578-0169-4784-bdcf-ff41f0a09f7a

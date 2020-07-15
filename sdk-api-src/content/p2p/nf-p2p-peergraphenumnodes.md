@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphEnumNodes
 title: PeerGraphEnumNodes function (p2p.h)
-description: The PeerGraphEnumNodes function creates and returns an enumeration handle used to enumerate the nodes in a peer graph.helpviewer_keywords: ["PeerGraphEnumNodes","PeerGraphEnumNodes function [Peer Networking]","p2p.peergraphenumnodes","p2p/PeerGraphEnumNodes"]
+description: The PeerGraphEnumNodes function creates and returns an enumeration handle used to enumerate the nodes in a peer graph.
+helpviewer_keywords: ["PeerGraphEnumNodes","PeerGraphEnumNodes function [Peer Networking]","p2p.peergraphenumnodes","p2p/PeerGraphEnumNodes"]
 old-location: p2p\peergraphenumnodes.htm
 tech.root: P2PSdk
 ms.assetid: 68231b0a-6002-4974-84d7-08b0629f3622

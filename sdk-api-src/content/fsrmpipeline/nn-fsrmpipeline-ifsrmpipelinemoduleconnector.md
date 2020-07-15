@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmpipeline.IFsrmPipelineModuleConnector
 title: IFsrmPipelineModuleConnector (fsrmpipeline.h)
-description: Creates the communication channel between FSRM and your pipeline module implementation.helpviewer_keywords: ["IFsrmPipelineModuleConnector","IFsrmPipelineModuleConnector interface [File Server Resource Manager]","IFsrmPipelineModuleConnector interface [File Server Resource Manager]","described","fs.ifsrmpipelinemoduleconnector","fsrm.ifsrmpipelinemoduleconnector","fsrmpipeline/IFsrmPipelineModuleConnector"]
+description: Creates the communication channel between FSRM and your pipeline module implementation.
+helpviewer_keywords: ["IFsrmPipelineModuleConnector","IFsrmPipelineModuleConnector interface [File Server Resource Manager]","IFsrmPipelineModuleConnector interface [File Server Resource Manager]","described","fs.ifsrmpipelinemoduleconnector","fsrm.ifsrmpipelinemoduleconnector","fsrmpipeline/IFsrmPipelineModuleConnector"]
 old-location: fsrm\ifsrmpipelinemoduleconnector.htm
 tech.root: fsrm
 ms.assetid: 7debbe8c-b687-42e1-b9b7-1b5f6f16a159

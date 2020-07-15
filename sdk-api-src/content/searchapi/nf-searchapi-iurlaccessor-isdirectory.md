@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IUrlAccessor.IsDirectory
 title: IUrlAccessor::IsDirectory (searchapi.h)
-description: Ascertains whether the item URL points to a directory.helpviewer_keywords: ["IUrlAccessor interface [search]","IsDirectory method","IUrlAccessor.IsDirectory","IUrlAccessor::IsDirectory","IsDirectory","IsDirectory method [search]","IsDirectory method [search]","IUrlAccessor interface","_search_IUrlAccessor_IsDirectory","search._search_IUrlAccessor_IsDirectory","searchapi/IUrlAccessor::IsDirectory"]
+description: Ascertains whether the item URL points to a directory.
+helpviewer_keywords: ["IUrlAccessor interface [search]","IsDirectory method","IUrlAccessor.IsDirectory","IUrlAccessor::IsDirectory","IsDirectory","IsDirectory method [search]","IsDirectory method [search]","IUrlAccessor interface","_search_IUrlAccessor_IsDirectory","search._search_IUrlAccessor_IsDirectory","searchapi/IUrlAccessor::IsDirectory"]
 old-location: search\_search_IUrlAccessor_IsDirectory.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\isdirectory.htm

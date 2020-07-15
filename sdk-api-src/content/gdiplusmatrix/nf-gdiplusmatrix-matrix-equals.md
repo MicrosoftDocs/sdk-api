@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.Equals
 title: Matrix::Equals (gdiplusmatrix.h)
-description: The Matrix::Equals method determines whether the elements of this matrix are equal to the elements of another matrix.helpviewer_keywords: ["Equals","Equals method [GDI+]","Equals method [GDI+]","Matrix class","Matrix class [GDI+]","Equals method","Matrix.Equals","Matrix::Equals","_gdiplus_CLASS_Matrix_Equals_matrix_","gdiplus._gdiplus_CLASS_Matrix_Equals_matrix_"]
+description: The Matrix::Equals method determines whether the elements of this matrix are equal to the elements of another matrix.
+helpviewer_keywords: ["Equals","Equals method [GDI+]","Equals method [GDI+]","Matrix class","Matrix class [GDI+]","Equals method","Matrix.Equals","Matrix::Equals","_gdiplus_CLASS_Matrix_Equals_matrix_","gdiplus._gdiplus_CLASS_Matrix_Equals_matrix_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Equals_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\equals.htm

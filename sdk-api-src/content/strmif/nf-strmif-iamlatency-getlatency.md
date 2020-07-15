@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMLatency.GetLatency
 title: IAMLatency::GetLatency (strmif.h)
-description: The GetLatency method retrieves the expected latency associated with this filter.helpviewer_keywords: ["GetLatency","GetLatency method [DirectShow]","GetLatency method [DirectShow]","IAMLatency interface","IAMLatency interface [DirectShow]","GetLatency method","IAMLatency.GetLatency","IAMLatency::GetLatency","IAMLatencyGetLatency","dshow.iamlatency_getlatency","strmif/IAMLatency::GetLatency"]
+description: The GetLatency method retrieves the expected latency associated with this filter.
+helpviewer_keywords: ["GetLatency","GetLatency method [DirectShow]","GetLatency method [DirectShow]","IAMLatency interface","IAMLatency interface [DirectShow]","GetLatency method","IAMLatency.GetLatency","IAMLatency::GetLatency","IAMLatencyGetLatency","dshow.iamlatency_getlatency","strmif/IAMLatency::GetLatency"]
 old-location: dshow\iamlatency_getlatency.htm
 tech.root: DirectShow
 ms.assetid: 5c5f6a73-d216-4a26-958e-ce8055575d17

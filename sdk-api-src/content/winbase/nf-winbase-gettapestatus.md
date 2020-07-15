@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetTapeStatus
 title: GetTapeStatus function (winbase.h)
-description: Determines whether the tape device is ready to process tape commands.helpviewer_keywords: ["GetTapeStatus","GetTapeStatus function [Backup]","_win32_gettapestatus","backup.gettapestatus","base.gettapestatus","winbase/GetTapeStatus"]
+description: Determines whether the tape device is ready to process tape commands.
+helpviewer_keywords: ["GetTapeStatus","GetTapeStatus function [Backup]","_win32_gettapestatus","backup.gettapestatus","base.gettapestatus","winbase/GetTapeStatus"]
 old-location: backup\gettapestatus.htm
 tech.root: Backup
 ms.assetid: 37422a27-2d46-43db-9318-4a3547b7f933

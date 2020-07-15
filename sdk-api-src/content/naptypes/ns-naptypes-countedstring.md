@@ -1,7 +1,8 @@
 ---
 UID: NS:naptypes.tagCountedString
 title: CountedString (naptypes.h)
-description: Defines a null-terminated string with a defined length.helpviewer_keywords: ["CountedString","CountedString structure [NAP]","StringCorrelationId","nap.countedstring_struct","naptypes/CountedString"]
+description: Defines a null-terminated string with a defined length.
+helpviewer_keywords: ["CountedString","CountedString structure [NAP]","StringCorrelationId","nap.countedstring_struct","naptypes/CountedString"]
 old-location: nap\countedstring_struct.htm
 tech.root: NAP
 ms.assetid: 92261dd3-504d-4a4b-b6fa-86f4f97a0df0

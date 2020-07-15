@@ -98,7 +98,7 @@ The method returns an <b>HRESULT</b>. Possible values include, but are not limit
 
 The bitmap used must have been created from a DXGI surface render target, a derived render target, or a device context created from an <a href="https://docs.microsoft.com/windows/desktop/api/d2d1_1/nn-d2d1_1-id2d1device">ID2D1Device</a>.
 
-The returned surface can be used with Microsoft Direct3D or any other API that interoperates with shared surfaces. The application must transitively ensure that the surface is usable on the Direct3D device that is used in this context. For example, if using the surface with Direct2D  then the Direct2D render target must have been created through ID2D1Factory::CreateDxgiSurfaceRenderTarget or on a device context created on the same device.
+The returned surface can be used with Microsoft Direct3D or any other API that interoperates with shared surfaces. The application must transitively ensure that the surface is usable on the Direct3D device that is used in this context. For example, if using the surface with Direct2D  then the Direct2D render target must have been created through <a href="https://docs.microsoft.com/windows/desktop/api/d2d1/nf-d2d1-createdxgisurfacerendertarget">ID2D1Factory::CreateDxgiSurfaceRenderTarget</a> or on a device context created on the same device.
 
 
 

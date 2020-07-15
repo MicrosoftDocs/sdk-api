@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_SIMPLE_CHAIN
 title: CERT_SIMPLE_CHAIN (wincrypt.h)
-description: The CERT_SIMPLE_CHAIN structure contains an array of chain elements and a summary trust status for the chain that the array represents.helpviewer_keywords: ["*PCERT_SIMPLE_CHAIN","CERT_SIMPLE_CHAIN","CERT_SIMPLE_CHAIN structure [Security]","PCERT_SIMPLE_CHAIN","PCERT_SIMPLE_CHAIN structure pointer [Security]","_crypto2_cert_simple_chain","security.cert_simple_chain","wincrypt/CERT_SIMPLE_CHAIN","wincrypt/PCERT_SIMPLE_CHAIN"]
+description: The CERT_SIMPLE_CHAIN structure contains an array of chain elements and a summary trust status for the chain that the array represents.
+helpviewer_keywords: ["*PCERT_SIMPLE_CHAIN","CERT_SIMPLE_CHAIN","CERT_SIMPLE_CHAIN structure [Security]","PCERT_SIMPLE_CHAIN","PCERT_SIMPLE_CHAIN structure pointer [Security]","_crypto2_cert_simple_chain","security.cert_simple_chain","wincrypt/CERT_SIMPLE_CHAIN","wincrypt/PCERT_SIMPLE_CHAIN"]
 old-location: security\cert_simple_chain.htm
 tech.root: SecCrypto
 ms.assetid: c130cab4-bf8d-429a-beb7-04cb5d37d466

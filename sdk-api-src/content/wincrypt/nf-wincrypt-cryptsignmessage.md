@@ -186,7 +186,3 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
 
 
 <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/cryptography-functions">Simplified Message Functions</a>
- 
-
- 
-

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkTablets.get_Count
 title: IInkTablets::get_Count (msinkaut.h)
-description: Gets the number of objects or collections contained in a collection.helpviewer_keywords: ["Count property [Tablet PC]","Count property [Tablet PC]","IInkTablets interface","IInkTablets interface [Tablet PC]","Count property","IInkTablets.Count","IInkTablets.get_Count","IInkTablets::Count","IInkTablets::get_Count","InkTablets.get_Count","get_Count","msinkaut/IInkTablets::Count","msinkaut/IInkTablets::get_Count","tablet.inktablets_count"]
+description: Gets the number of objects or collections contained in a collection.
+helpviewer_keywords: ["Count property [Tablet PC]","Count property [Tablet PC]","IInkTablets interface","IInkTablets interface [Tablet PC]","Count property","IInkTablets.Count","IInkTablets.get_Count","IInkTablets::Count","IInkTablets::get_Count","InkTablets.get_Count","get_Count","msinkaut/IInkTablets::Count","msinkaut/IInkTablets::get_Count","tablet.inktablets_count"]
 old-location: tablet\inktablets_count.htm
 tech.root: tablet
 ms.assetid: 6224871c-044e-478a-9635-6b2874bdcf45

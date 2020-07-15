@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Fence.Signal
 title: ID3D12Fence::Signal (d3d12.h)
-description: Sets the fence to the specified value.helpviewer_keywords: ["ID3D12Fence interface","Signal method","ID3D12Fence.Signal","ID3D12Fence::Signal","Signal","Signal method","Signal method","ID3D12Fence interface","d3d12/ID3D12Fence::Signal","direct3d12.id3d12fence_signal"]
+description: Sets the fence to the specified value.
+helpviewer_keywords: ["ID3D12Fence interface","Signal method","ID3D12Fence.Signal","ID3D12Fence::Signal","Signal","Signal method","Signal method","ID3D12Fence interface","d3d12/ID3D12Fence::Signal","direct3d12.id3d12fence_signal"]
 old-location: direct3d12\id3d12fence_signal.htm
 tech.root: direct3d12
 ms.assetid: 8AC955C1-37C9-47F3-B35C-980783C58390

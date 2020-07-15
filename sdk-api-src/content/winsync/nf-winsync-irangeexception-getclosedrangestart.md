@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IRangeException.GetClosedRangeStart
 title: IRangeException::GetClosedRangeStart (winsync.h)
-description: Gets the lower bound of the range of item IDs to exclude.helpviewer_keywords: ["GetClosedRangeStart","GetClosedRangeStart method [Windows Sync]","GetClosedRangeStart method [Windows Sync]","IRangeException interface","IRangeException interface [Windows Sync]","GetClosedRangeStart method","IRangeException.GetClosedRangeStart","IRangeException::GetClosedRangeStart","winsync.irangeexception_getclosedrangestart","winsync/IRangeException::GetClosedRangeStart"]
+description: Gets the lower bound of the range of item IDs to exclude.
+helpviewer_keywords: ["GetClosedRangeStart","GetClosedRangeStart method [Windows Sync]","GetClosedRangeStart method [Windows Sync]","IRangeException interface","IRangeException interface [Windows Sync]","GetClosedRangeStart method","IRangeException.GetClosedRangeStart","IRangeException::GetClosedRangeStart","winsync.irangeexception_getclosedrangestart","winsync/IRangeException::GetClosedRangeStart"]
 old-location: winsync\irangeexception_getclosedrangestart.htm
 tech.root: winsync
 ms.assetid: 5c3c4e92-8c0d-4a3d-97be-029d2c386af4

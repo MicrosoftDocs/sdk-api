@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IBasicVideo.get_BitErrorRate
 title: IBasicVideo::get_BitErrorRate (control.h)
-description: The get_BitErrorRate method retrieves the approximate bit error rate of the video stream.helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_BitErrorRate method","IBasicVideo.get_BitErrorRate","IBasicVideo::get_BitErrorRate","IBasicVideoget_BitErrorRate","control/IBasicVideo::get_BitErrorRate","dshow.ibasicvideo_get_biterrorrate","get_BitErrorRate","get_BitErrorRate method [DirectShow]","get_BitErrorRate method [DirectShow]","IBasicVideo interface"]
+description: The get_BitErrorRate method retrieves the approximate bit error rate of the video stream.
+helpviewer_keywords: ["IBasicVideo interface [DirectShow]","get_BitErrorRate method","IBasicVideo.get_BitErrorRate","IBasicVideo::get_BitErrorRate","IBasicVideoget_BitErrorRate","control/IBasicVideo::get_BitErrorRate","dshow.ibasicvideo_get_biterrorrate","get_BitErrorRate","get_BitErrorRate method [DirectShow]","get_BitErrorRate method [DirectShow]","IBasicVideo interface"]
 old-location: dshow\ibasicvideo_get_biterrorrate.htm
 tech.root: DirectShow
 ms.assetid: c61b8a96-83ea-49e2-884e-c9fb3526cc46

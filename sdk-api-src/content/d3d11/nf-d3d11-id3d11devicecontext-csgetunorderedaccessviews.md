@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.CSGetUnorderedAccessViews
 title: ID3D11DeviceContext::CSGetUnorderedAccessViews (d3d11.h)
-description: Gets an array of views for an unordered resource.helpviewer_keywords: ["CSGetUnorderedAccessViews","CSGetUnorderedAccessViews method [Direct3D 11]","CSGetUnorderedAccessViews method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CSGetUnorderedAccessViews method","ID3D11DeviceContext.CSGetUnorderedAccessViews","ID3D11DeviceContext::CSGetUnorderedAccessViews","afdfe129-87c0-6deb-9357-e78983622e7d","d3d11/ID3D11DeviceContext::CSGetUnorderedAccessViews","direct3d11.id3d11devicecontext_csgetunorderedaccessviews"]
+description: Gets an array of views for an unordered resource.
+helpviewer_keywords: ["CSGetUnorderedAccessViews","CSGetUnorderedAccessViews method [Direct3D 11]","CSGetUnorderedAccessViews method [Direct3D 11]","ID3D11DeviceContext interface","ID3D11DeviceContext interface [Direct3D 11]","CSGetUnorderedAccessViews method","ID3D11DeviceContext.CSGetUnorderedAccessViews","ID3D11DeviceContext::CSGetUnorderedAccessViews","afdfe129-87c0-6deb-9357-e78983622e7d","d3d11/ID3D11DeviceContext::CSGetUnorderedAccessViews","direct3d11.id3d11devicecontext_csgetunorderedaccessviews"]
 old-location: direct3d11\id3d11devicecontext_csgetunorderedaccessviews.htm
 tech.root: direct3d11
 ms.assetid: ae572062-0034-48c2-a3ce-abe40b50248b

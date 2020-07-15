@@ -1,7 +1,8 @@
 ---
 UID: NE:sessdirpublictypes._TARGET_STATE
 title: TARGET_STATE (sessdirpublictypes.h)
-description: Indicates the state of a target.helpviewer_keywords: ["TARGET_CHECKED_OUT","TARGET_DOWN","TARGET_HIBERNATED","TARGET_INITIALIZING","TARGET_RUNNING","TARGET_STATE","TARGET_STATE enumeration [Remote Desktop Services]","TARGET_STOPPED","TARGET_UNKNOWN","sessdirpublictypes/TARGET_CHECKED_OUT","sessdirpublictypes/TARGET_DOWN","sessdirpublictypes/TARGET_HIBERNATED","sessdirpublictypes/TARGET_INITIALIZING","sessdirpublictypes/TARGET_RUNNING","sessdirpublictypes/TARGET_STATE","sessdirpublictypes/TARGET_STOPPED","sessdirpublictypes/TARGET_UNKNOWN","termserv.target_state"]
+description: Indicates the state of a target.
+helpviewer_keywords: ["TARGET_CHECKED_OUT","TARGET_DOWN","TARGET_HIBERNATED","TARGET_INITIALIZING","TARGET_RUNNING","TARGET_STATE","TARGET_STATE enumeration [Remote Desktop Services]","TARGET_STOPPED","TARGET_UNKNOWN","sessdirpublictypes/TARGET_CHECKED_OUT","sessdirpublictypes/TARGET_DOWN","sessdirpublictypes/TARGET_HIBERNATED","sessdirpublictypes/TARGET_INITIALIZING","sessdirpublictypes/TARGET_RUNNING","sessdirpublictypes/TARGET_STATE","sessdirpublictypes/TARGET_STOPPED","sessdirpublictypes/TARGET_UNKNOWN","termserv.target_state"]
 old-location: termserv\target_state.htm
 tech.root: TermServ
 ms.assetid: 52ef4bb9-d025-4b54-ac5b-16fa28047cc6

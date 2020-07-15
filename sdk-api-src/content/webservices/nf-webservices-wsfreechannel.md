@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsFreeChannel
 title: WsFreeChannel function (webservices.h)
-description: Releases the memory resource associated with a Channel object.helpviewer_keywords: ["WsFreeChannel","WsFreeChannel function [Web Services for Windows]","webservices/WsFreeChannel","wsw.wsfreechannel"]
+description: Releases the memory resource associated with a Channel object.
+helpviewer_keywords: ["WsFreeChannel","WsFreeChannel function [Web Services for Windows]","webservices/WsFreeChannel","wsw.wsfreechannel"]
 old-location: wsw\wsfreechannel.htm
 tech.root: wsw
 ms.assetid: 74e36d19-c6db-4bba-90e3-88a48b6a1fb5

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector2NotEqual
 title: XMVector2NotEqual function (directxmath.h)
-description: Tests whether two 2D vectors are not equal.helpviewer_keywords: ["Use DirectX..XMVector2NotEqual","XMVector2NotEqual","XMVector2NotEqual method [DirectX Math Support APIs]","dxmath.xmvector2notequal"]
+description: Tests whether two 2D vectors are not equal.
+helpviewer_keywords: ["Use DirectX..XMVector2NotEqual","XMVector2NotEqual","XMVector2NotEqual method [DirectX Math Support APIs]","dxmath.xmvector2notequal"]
 old-location: dxmath\xmvector2notequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector2NotEqual(XMVECTOR,XMVECTOR)

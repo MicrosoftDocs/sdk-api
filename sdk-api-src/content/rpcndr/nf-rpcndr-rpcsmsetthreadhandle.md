@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.RpcSmSetThreadHandle
 title: RpcSmSetThreadHandle function (rpcndr.h)
-description: The RpcSmSetThreadHandle function sets a thread handle for the stub memory&#8211;management environment.helpviewer_keywords: ["RpcSmSetThreadHandle","RpcSmSetThreadHandle function [RPC]","_rpc_rpcsmsetthreadhandle","rpc.rpcsmsetthreadhandle","rpcndr/RpcSmSetThreadHandle"]
+description: The RpcSmSetThreadHandle function sets a thread handle for the stub memory–management environment.
+helpviewer_keywords: ["RpcSmSetThreadHandle","RpcSmSetThreadHandle function [RPC]","_rpc_rpcsmsetthreadhandle","rpc.rpcsmsetthreadhandle","rpcndr/RpcSmSetThreadHandle"]
 old-location: rpc\rpcsmsetthreadhandle.htm
 tech.root: Rpc
 ms.assetid: 90bfd7f3-c95b-450b-8578-6e46d3ac7517

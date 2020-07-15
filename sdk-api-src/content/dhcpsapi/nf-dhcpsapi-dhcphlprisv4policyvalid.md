@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpHlprIsV4PolicyValid
 title: DhcpHlprIsV4PolicyValid function (dhcpsapi.h)
-description: Verifies a DHCP server policy.helpviewer_keywords: ["DhcpHlprIsV4PolicyValid","DhcpHlprIsV4PolicyValid function [DHCP]","dhcp.dhcphlprisv4policyvalid","dhcpsapi/DhcpHlprIsV4PolicyValid"]
+description: Verifies a DHCP server policy.
+helpviewer_keywords: ["DhcpHlprIsV4PolicyValid","DhcpHlprIsV4PolicyValid function [DHCP]","dhcp.dhcphlprisv4policyvalid","dhcpsapi/DhcpHlprIsV4PolicyValid"]
 old-location: dhcp\dhcphlprisv4policyvalid.htm
 tech.root: DHCP
 ms.assetid: f11386a6-2b80-4a2b-b859-fb399d7392e8

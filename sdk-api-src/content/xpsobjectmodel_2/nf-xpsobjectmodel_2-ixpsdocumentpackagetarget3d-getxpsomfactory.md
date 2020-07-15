@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel_2.IXpsDocumentPackageTarget3D.GetXpsOMFactory
 title: IXpsDocumentPackageTarget3D::GetXpsOMFactory (xpsobjectmodel_2.h)
-description: Gets the IXpsOMObjectFactory object for the document package.helpviewer_keywords: ["GetXpsOMFactory","GetXpsOMFactory method [XPS Documents and Packaging]","GetXpsOMFactory method [XPS Documents and Packaging]","IXpsDocumentPackageTarget3D interface","IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging]","GetXpsOMFactory method","IXpsDocumentPackageTarget3D.GetXpsOMFactory","IXpsDocumentPackageTarget3D::GetXpsOMFactory","xps.ixpsdocumentpackagetarget3d_getxpsomfactory","xpsobjectmodel_2/IXpsDocumentPackageTarget3D::GetXpsOMFactory"]
+description: Gets the IXpsOMObjectFactory object for the document package.
+helpviewer_keywords: ["GetXpsOMFactory","GetXpsOMFactory method [XPS Documents and Packaging]","GetXpsOMFactory method [XPS Documents and Packaging]","IXpsDocumentPackageTarget3D interface","IXpsDocumentPackageTarget3D interface [XPS Documents and Packaging]","GetXpsOMFactory method","IXpsDocumentPackageTarget3D.GetXpsOMFactory","IXpsDocumentPackageTarget3D::GetXpsOMFactory","xps.ixpsdocumentpackagetarget3d_getxpsomfactory","xpsobjectmodel_2/IXpsDocumentPackageTarget3D::GetXpsOMFactory"]
 old-location: xps\ixpsdocumentpackagetarget3d_getxpsomfactory.htm
 tech.root: printdocs
 ms.assetid: A96555FB-9312-46E3-A347-A726A2C39BFC

@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.IAnchor.Clone
 title: IAnchor::Clone (textstor.h)
-description: The IAnchor::Clone method produces a new anchor object positioned at the same location, and with the same gravity, as the current anchor.helpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IAnchor interface","IAnchor interface [Text Services Framework]","Clone method","IAnchor.Clone","IAnchor::Clone","textstor/IAnchor::Clone","tsf.ianchor_clone"]
+description: The IAnchor::Clone method produces a new anchor object positioned at the same location, and with the same gravity, as the current anchor.
+helpviewer_keywords: ["Clone","Clone method [Text Services Framework]","Clone method [Text Services Framework]","IAnchor interface","IAnchor interface [Text Services Framework]","Clone method","IAnchor.Clone","IAnchor::Clone","textstor/IAnchor::Clone","tsf.ianchor_clone"]
 old-location: tsf\ianchor_clone.htm
 tech.root: TSF
 ms.assetid: 2c5e767a-5f66-4ecf-89f1-b27ed38e887b

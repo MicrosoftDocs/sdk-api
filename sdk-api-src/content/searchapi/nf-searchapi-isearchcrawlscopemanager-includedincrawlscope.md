@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCrawlScopeManager.IncludedInCrawlScope
 title: ISearchCrawlScopeManager::IncludedInCrawlScope (searchapi.h)
-description: Retrieves an indicator of whether the specified URL is included in the crawl scope.helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","IncludedInCrawlScope method","ISearchCrawlScopeManager.IncludedInCrawlScope","ISearchCrawlScopeManager::IncludedInCrawlScope","IncludedInCrawlScope","IncludedInCrawlScope method [search]","IncludedInCrawlScope method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_IncludedInCrawlScope","search._search_ISearchCrawlScopeManager_IncludedInCrawlScope","searchapi/ISearchCrawlScopeManager::IncludedInCrawlScope"]
+description: Retrieves an indicator of whether the specified URL is included in the crawl scope.
+helpviewer_keywords: ["ISearchCrawlScopeManager interface [search]","IncludedInCrawlScope method","ISearchCrawlScopeManager.IncludedInCrawlScope","ISearchCrawlScopeManager::IncludedInCrawlScope","IncludedInCrawlScope","IncludedInCrawlScope method [search]","IncludedInCrawlScope method [search]","ISearchCrawlScopeManager interface","_search_ISearchCrawlScopeManager_IncludedInCrawlScope","search._search_ISearchCrawlScopeManager_IncludedInCrawlScope","searchapi/ISearchCrawlScopeManager::IncludedInCrawlScope"]
 old-location: search\_search_ISearchCrawlScopeManager_IncludedInCrawlScope.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchcrawlscopemanager\includedincrawlscope.htm
@@ -87,11 +88,6 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
 For hierarchical sources, the most immediate parent is included. For non-hierarchical sources like URLs, this will be only the URL rule itself. Other URLs that might be indexed will cause this method to retrieve <b>FALSE</b> because there is no way to tell whether they are in the scope.
 
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

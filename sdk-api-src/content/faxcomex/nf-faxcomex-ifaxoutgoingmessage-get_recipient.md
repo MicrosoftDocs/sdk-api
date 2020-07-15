@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Recipient
 title: IFaxOutgoingMessage::get_Recipient (faxcomex.h)
-description: The IFaxOutgoingMessage::get_Recipient property retrieves an interface containing information about the recipient of the fax message.helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","Recipient property","IFaxOutgoingMessage.Recipient","IFaxOutgoingMessage.get_Recipient","IFaxOutgoingMessage::Recipient","IFaxOutgoingMessage::get_Recipient","Recipient property [Fax Service]","Recipient property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.recipient_cpp","fax._mfax_faxoutgoingmessage_recipient_cpp","faxcomex/IFaxOutgoingMessage::Recipient","faxcomex/IFaxOutgoingMessage::get_Recipient","get_Recipient"]
+description: The IFaxOutgoingMessage::get_Recipient property retrieves an interface containing information about the recipient of the fax message.
+helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","Recipient property","IFaxOutgoingMessage.Recipient","IFaxOutgoingMessage.get_Recipient","IFaxOutgoingMessage::Recipient","IFaxOutgoingMessage::get_Recipient","Recipient property [Fax Service]","Recipient property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.recipient_cpp","fax._mfax_faxoutgoingmessage_recipient_cpp","faxcomex/IFaxOutgoingMessage::Recipient","faxcomex/IFaxOutgoingMessage::get_Recipient","get_Recipient"]
 old-location: fax\_mfax_faxoutgoingmessage_recipient_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5vn8_cpp.htm

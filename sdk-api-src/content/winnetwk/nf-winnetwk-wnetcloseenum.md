@@ -1,7 +1,8 @@
 ---
 UID: NF:winnetwk.WNetCloseEnum
 title: WNetCloseEnum function (winnetwk.h)
-description: The WNetCloseEnum function ends a network resource enumeration started by a call to the WNetOpenEnum function.helpviewer_keywords: ["WNetCloseEnum","WNetCloseEnum function [Windows Networking (WNet)]","_win32_wnetcloseenum","winnetwk/WNetCloseEnum","wnet.wnetcloseenum"]
+description: The WNetCloseEnum function ends a network resource enumeration started by a call to the WNetOpenEnum function.
+helpviewer_keywords: ["WNetCloseEnum","WNetCloseEnum function [Windows Networking (WNet)]","_win32_wnetcloseenum","winnetwk/WNetCloseEnum","wnet.wnetcloseenum"]
 old-location: wnet\wnetcloseenum.htm
 tech.root: WNet
 ms.assetid: c68fd9de-9f24-41f0-8b59-2d083fec8abf

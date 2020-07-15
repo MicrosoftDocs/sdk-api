@@ -1,7 +1,8 @@
 ---
 UID: NF:manipulations.IInertiaProcessor.Reset
 title: IInertiaProcessor::Reset (manipulations.h)
-description: The Reset method initializes the processor with initial timestamp and restarts inertia.helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","Reset method","IInertiaProcessor.Reset","IInertiaProcessor::Reset","Reset","Reset method [Windows Touch]","Reset method [Windows Touch]","IInertiaProcessor interface","manipulations/IInertiaProcessor::Reset","wintouch.iinertiaprocessor_reset"]
+description: The Reset method initializes the processor with initial timestamp and restarts inertia.
+helpviewer_keywords: ["IInertiaProcessor interface [Windows Touch]","Reset method","IInertiaProcessor.Reset","IInertiaProcessor::Reset","Reset","Reset method [Windows Touch]","Reset method [Windows Touch]","IInertiaProcessor interface","manipulations/IInertiaProcessor::Reset","wintouch.iinertiaprocessor_reset"]
 old-location: wintouch\iinertiaprocessor_reset.htm
 tech.root: wintouch
 ms.assetid: 69ce260d-0674-4ff0-8610-bc814976bd3d

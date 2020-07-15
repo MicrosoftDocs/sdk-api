@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMLoadFloat2A
 title: XMLoadFloat2A function (directxmath.h)
-description: Loads an XMFLOAT2A into an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMLoadFloat2A","XMLoadFloat2A","XMLoadFloat2A method [DirectX Math Support APIs]","dxmath.xmloadfloat2a"]
+description: Loads an XMFLOAT2A into an XMVECTOR.
+helpviewer_keywords: ["Use DirectX..XMLoadFloat2A","XMLoadFloat2A","XMLoadFloat2A method [DirectX Math Support APIs]","dxmath.xmloadfloat2a"]
 old-location: dxmath\xmloadfloat2a.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadFloat2A(const XMFLOAT2A)

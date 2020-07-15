@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListAddSourceExA
 title: MsiSourceListAddSourceExA function (msi.h)
-description: Adds or reorders the set of sources of a patch or product in a specified context. It can also create a source list for a patch that does not exist in the specified context.helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListAddSourceEx","MsiSourceListAddSourceEx function","MsiSourceListAddSourceExA","MsiSourceListAddSourceExW","NULL","User SID","msi/MsiSourceListAddSourceEx","msi/MsiSourceListAddSourceExA","msi/MsiSourceListAddSourceExW","setup.msisourcelistaddsourceex"]
+description: Adds or reorders the set of sources of a patch or product in a specified context. It can also create a source list for a patch that does not exist in the specified context.
+helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MSISOURCETYPE_NETWORK","MSISOURCETYPE_URL","MsiSourceListAddSourceEx","MsiSourceListAddSourceEx function","MsiSourceListAddSourceExA","MsiSourceListAddSourceExW","NULL","User SID","msi/MsiSourceListAddSourceEx","msi/MsiSourceListAddSourceExA","msi/MsiSourceListAddSourceExW","setup.msisourcelistaddsourceex"]
 old-location: setup\msisourcelistaddsourceex.htm
 tech.root: Msi
 ms.assetid: 79f1286e-e30b-4989-a631-f2bcb87486a2
@@ -319,6 +320,10 @@ Non-administrators cannot  modify the installation of  a product or patch instan
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListAddSourceEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:iscsidsc.RemoveIScsiConnection
 title: RemoveIScsiConnection function (iscsidsc.h)
-description: RemoveIscsiConnection function removes a connection from an active session.helpviewer_keywords: ["RemoveIScsiConnection","RemoveIscsiConnection","RemoveIscsiConnection function [iSCSI Discovery Library API]","iscsidisc.removeiscsiconnection","iscsidsc/RemoveIscsiConnection"]
+description: RemoveIscsiConnection function removes a connection from an active session.
+helpviewer_keywords: ["RemoveIScsiConnection","RemoveIscsiConnection","RemoveIscsiConnection function [iSCSI Discovery Library API]","iscsidisc.removeiscsiconnection","iscsidsc/RemoveIscsiConnection"]
 old-location: iscsidisc\removeiscsiconnection.htm
 tech.root: iSCSIDisc
 ms.assetid: 1d34348a-b16a-4420-88e1-092e3f521ea5

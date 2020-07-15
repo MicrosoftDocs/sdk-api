@@ -1,7 +1,8 @@
 ---
 UID: NF:mdmregistration.IsManagementRegistrationAllowed
 title: IsManagementRegistrationAllowed function (mdmregistration.h)
-description: Checks whether MDM registration is allowed by local policy.helpviewer_keywords: ["IsManagementRegistrationAllowed","IsManagementRegistrationAllowed function [MDM Registration]","mdmreg.ismanagementregistrationallowed","mdmregistration/IsManagementRegistrationAllowed"]
+description: Checks whether MDM registration is allowed by local policy.
+helpviewer_keywords: ["IsManagementRegistrationAllowed","IsManagementRegistrationAllowed function [MDM Registration]","mdmreg.ismanagementregistrationallowed","mdmregistration/IsManagementRegistrationAllowed"]
 old-location: mdmreg\ismanagementregistrationallowed.htm
 tech.root: MDMReg
 ms.assetid: 138f567d-4c50-4e13-be10-269eb44f9fe5

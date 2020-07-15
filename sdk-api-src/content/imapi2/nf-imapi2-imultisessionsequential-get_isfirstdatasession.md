@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IMultisessionSequential.get_IsFirstDataSession
 title: IMultisessionSequential::get_IsFirstDataSession (imapi2.h)
-description: Determines if this session is the first data session on the media.helpviewer_keywords: ["IMultisessionSequential interface [IMAPI]","get_IsFirstDataSession method","IMultisessionSequential.get_IsFirstDataSession","IMultisessionSequential::get_IsFirstDataSession","get_IsFirstDataSession","get_IsFirstDataSession method [IMAPI]","get_IsFirstDataSession method [IMAPI]","IMultisessionSequential interface","imapi.imultisessionsequential_get_isfirstdatasession","imapi2/IMultisessionSequential::get_IsFirstDataSession"]
+description: Determines if this session is the first data session on the media.
+helpviewer_keywords: ["IMultisessionSequential interface [IMAPI]","get_IsFirstDataSession method","IMultisessionSequential.get_IsFirstDataSession","IMultisessionSequential::get_IsFirstDataSession","get_IsFirstDataSession","get_IsFirstDataSession method [IMAPI]","get_IsFirstDataSession method [IMAPI]","IMultisessionSequential interface","imapi.imultisessionsequential_get_isfirstdatasession","imapi2/IMultisessionSequential::get_IsFirstDataSession"]
 old-location: imapi\imultisessionsequential_get_isfirstdatasession.htm
 tech.root: imapi
 ms.assetid: 5dd7a321-833a-4fee-8128-675d1b76736c

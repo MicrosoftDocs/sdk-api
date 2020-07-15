@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.OfferVirtualMemory
 title: OfferVirtualMemory function (memoryapi.h)
-description: Indicates that the data contained in a range of memory pages is no longer needed by the application and can be discarded by the system if necessary.helpviewer_keywords: ["OfferVirtualMemory","OfferVirtualMemory function","VMOfferPriorityBelowNormal","VMOfferPriorityLow","VMOfferPriorityNormal","VMOfferPriorityVeryLow","base.offervirtualmemory","winbase/OfferVirtualMemory"]
+description: Indicates that the data contained in a range of memory pages is no longer needed by the application and can be discarded by the system if necessary.
+helpviewer_keywords: ["OfferVirtualMemory","OfferVirtualMemory function","VMOfferPriorityBelowNormal","VMOfferPriorityLow","VMOfferPriorityNormal","VMOfferPriorityVeryLow","base.offervirtualmemory","winbase/OfferVirtualMemory"]
 old-location: base\offervirtualmemory.htm
 tech.root: Memory
 ms.assetid: 45f8a433-0a9e-31d1-f21d-a17d7247e164

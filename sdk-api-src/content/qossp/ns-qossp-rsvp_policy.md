@@ -1,7 +1,8 @@
 ---
 UID: NS:qossp._RSVP_POLICY
 title: RSVP_POLICY (qossp.h)
-description: The RSVP_POLICY structure stores one or more undefined policy elements.helpviewer_keywords: ["*LPRSVP_POLICY","*LPRSVP_POLICY structure [QOS]","RSVP_POLICY","RSVP_POLICY structure [QOS]","qos.rsvp_policy","qossp/*LPRSVP_POLICY","qossp/RSVP_POLICY"]
+description: The RSVP_POLICY structure stores one or more undefined policy elements.
+helpviewer_keywords: ["*LPRSVP_POLICY","*LPRSVP_POLICY structure [QOS]","RSVP_POLICY","RSVP_POLICY structure [QOS]","qos.rsvp_policy","qossp/*LPRSVP_POLICY","qossp/RSVP_POLICY"]
 old-location: qos\rsvp_policy.htm
 tech.root: QOS
 ms.assetid: e23cd113-6fa1-479b-85c2-7690055e57e7

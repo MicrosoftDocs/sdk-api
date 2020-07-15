@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Button_GetTextMargin
 title: Button_GetTextMargin macro (commctrl.h)
-description: Gets the margins used to draw text in a button control. You can use this macro or send the BCM_GETTEXTMARGIN message explicitly.helpviewer_keywords: ["Button_GetTextMargin","Button_GetTextMargin macro [Windows Controls]","_win32_Button_GetTextMargin","_win32_Button_GetTextMargin_cpp","commctrl/Button_GetTextMargin","controls.Button_GetTextMargin","controls._win32_Button_GetTextMargin"]
+description: Gets the margins used to draw text in a button control. You can use this macro or send the BCM_GETTEXTMARGIN message explicitly.
+helpviewer_keywords: ["Button_GetTextMargin","Button_GetTextMargin macro [Windows Controls]","_win32_Button_GetTextMargin","_win32_Button_GetTextMargin_cpp","commctrl/Button_GetTextMargin","controls.Button_GetTextMargin","controls._win32_Button_GetTextMargin"]
 old-location: controls\Button_GetTextMargin.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_gettextmargin.htm

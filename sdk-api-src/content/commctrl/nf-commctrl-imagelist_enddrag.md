@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_EndDrag
 title: ImageList_EndDrag function (commctrl.h)
-description: Ends a drag operation.helpviewer_keywords: ["ImageList_EndDrag","ImageList_EndDrag function [Windows Controls]","_win32_ImageList_EndDrag","_win32_ImageList_EndDrag_cpp","commctrl/ImageList_EndDrag","controls.ImageList_EndDrag","controls._win32_ImageList_EndDrag"]
+description: Ends a drag operation.
+helpviewer_keywords: ["ImageList_EndDrag","ImageList_EndDrag function [Windows Controls]","_win32_ImageList_EndDrag","_win32_ImageList_EndDrag_cpp","commctrl/ImageList_EndDrag","controls.ImageList_EndDrag","controls._win32_ImageList_EndDrag"]
 old-location: controls\ImageList_EndDrag.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_enddrag.htm

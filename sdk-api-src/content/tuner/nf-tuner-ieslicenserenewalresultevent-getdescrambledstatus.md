@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IESLicenseRenewalResultEvent.GetDescrambledStatus
 title: IESLicenseRenewalResultEvent::GetDescrambledStatus (tuner.h)
-description: Gets a code from a LicenseRenewalResult event that indicates the result of an attempt to descramble protected content.helpviewer_keywords: ["GetDescrambledStatus","GetDescrambledStatus method [DirectShow]","GetDescrambledStatus method [DirectShow]","IESLicenseRenewalResultEvent interface","IESLicenseRenewalResultEvent interface [DirectShow]","GetDescrambledStatus method","IESLicenseRenewalResultEvent.GetDescrambledStatus","IESLicenseRenewalResultEvent::GetDescrambledStatus","mstv.ieslicenserenewalresultevent_getdescrambledstatus","tuner/IESLicenseRenewalResultEvent::GetDescrambledStatus"]
+description: Gets a code from a LicenseRenewalResult event that indicates the result of an attempt to descramble protected content.
+helpviewer_keywords: ["GetDescrambledStatus","GetDescrambledStatus method [DirectShow]","GetDescrambledStatus method [DirectShow]","IESLicenseRenewalResultEvent interface","IESLicenseRenewalResultEvent interface [DirectShow]","GetDescrambledStatus method","IESLicenseRenewalResultEvent.GetDescrambledStatus","IESLicenseRenewalResultEvent::GetDescrambledStatus","mstv.ieslicenserenewalresultevent_getdescrambledstatus","tuner/IESLicenseRenewalResultEvent::GetDescrambledStatus"]
 old-location: mstv\ieslicenserenewalresultevent_getdescrambledstatus.htm
 tech.root: mstv
 ms.assetid: ed09aea2-e000-40ce-bd94-a174e75a5001

@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.GetInertiaEndTransform
 title: IDirectManipulationPrimaryContent::GetInertiaEndTransform (directmanipulation.h)
-description: Gets the final transform, including inertia, of the primary content.helpviewer_keywords: ["GetInertiaEndTransform","GetInertiaEndTransform method [Direct Manipulation]","GetInertiaEndTransform method [Direct Manipulation]","IDirectManipulationPrimaryContent interface","IDirectManipulationPrimaryContent interface [Direct Manipulation]","GetInertiaEndTransform method","IDirectManipulationPrimaryContent.GetInertiaEndTransform","IDirectManipulationPrimaryContent::GetInertiaEndTransform","directmanipulation.idirectmanipulationprimarycontent_getinertiaendtransform","directmanipulation/IDirectManipulationPrimaryContent::GetInertiaEndTransform"]
+description: Gets the final transform, including inertia, of the primary content.
+helpviewer_keywords: ["GetInertiaEndTransform","GetInertiaEndTransform method [Direct Manipulation]","GetInertiaEndTransform method [Direct Manipulation]","IDirectManipulationPrimaryContent interface","IDirectManipulationPrimaryContent interface [Direct Manipulation]","GetInertiaEndTransform method","IDirectManipulationPrimaryContent.GetInertiaEndTransform","IDirectManipulationPrimaryContent::GetInertiaEndTransform","directmanipulation.idirectmanipulationprimarycontent_getinertiaendtransform","directmanipulation/IDirectManipulationPrimaryContent::GetInertiaEndTransform"]
 old-location: directmanipulation\idirectmanipulationprimarycontent_getinertiaendtransform.htm
 tech.root: directmanipulation
 ms.assetid: BCF0E48F-C47E-42BE-90F8-25737301DC9C

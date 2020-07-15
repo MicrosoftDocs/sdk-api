@@ -1,7 +1,8 @@
 ---
 UID: NS:mmiscapi.tagDRVCONFIGINFO
 title: DRVCONFIGINFO (mmiscapi.h)
-description: Contains the registry key and value names associated with the installable driver.helpviewer_keywords: ["*LPDRVCONFIGINFO","*NPDRVCONFIGINFO","*PDRVCONFIGINFO","DRVCONFIGINFO","DRVCONFIGINFO structure [Windows Multimedia]","_win32_DRVCONFIGINFO_str","mmsystem/DRVCONFIGINFO","multimedia.drvconfiginfo","tagDRVCONFIGINFO"]
+description: Contains the registry key and value names associated with the installable driver.
+helpviewer_keywords: ["*LPDRVCONFIGINFO","*NPDRVCONFIGINFO","*PDRVCONFIGINFO","DRVCONFIGINFO","DRVCONFIGINFO structure [Windows Multimedia]","_win32_DRVCONFIGINFO_str","mmsystem/DRVCONFIGINFO","multimedia.drvconfiginfo","tagDRVCONFIGINFO"]
 old-location: multimedia\drvconfiginfo.htm
 tech.root: Multimedia
 ms.assetid: 34451e1c-0748-48c7-9e5e-877a0c531a07

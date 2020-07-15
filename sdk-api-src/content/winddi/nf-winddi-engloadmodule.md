@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngLoadModule
 title: EngLoadModule function (winddi.h)
-description: The EngLoadModule function loads the specified data module into system memory for reading.helpviewer_keywords: ["EngLoadModule","EngLoadModule function [Display Devices]","display.engloadmodule","gdifncs_43b05b8f-ecc9-4097-81d3-39716dabaf2f.xml","winddi/EngLoadModule"]
+description: The EngLoadModule function loads the specified data module into system memory for reading.
+helpviewer_keywords: ["EngLoadModule","EngLoadModule function [Display Devices]","display.engloadmodule","gdifncs_43b05b8f-ecc9-4097-81d3-39716dabaf2f.xml","winddi/EngLoadModule"]
 old-location: display\engloadmodule.htm
 tech.root: display
 ms.assetid: 0327d3f0-f9ee-4715-aa0e-ad1d0544a1ff

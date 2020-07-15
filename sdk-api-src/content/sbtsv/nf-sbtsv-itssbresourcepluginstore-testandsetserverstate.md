@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.TestAndSetServerState
 title: ITsSbResourcePluginStore::TestAndSetServerState (sbtsv.h)
-description: Conditionally sets a new state on a server.helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","TestAndSetServerState method","ITsSbResourcePluginStore.TestAndSetServerState","ITsSbResourcePluginStore::TestAndSetServerState","TestAndSetServerState","TestAndSetServerState method [Remote Desktop Services]","TestAndSetServerState method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::TestAndSetServerState","termserv.itssbresourcepluginstore_testandsetserverstate"]
+description: Conditionally sets a new state on a server.
+helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","TestAndSetServerState method","ITsSbResourcePluginStore.TestAndSetServerState","ITsSbResourcePluginStore::TestAndSetServerState","TestAndSetServerState","TestAndSetServerState method [Remote Desktop Services]","TestAndSetServerState method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::TestAndSetServerState","termserv.itssbresourcepluginstore_testandsetserverstate"]
 old-location: termserv\itssbresourcepluginstore_testandsetserverstate.htm
 tech.root: TermServ
 ms.assetid: 5b209587-090e-4338-95b3-542e50412587

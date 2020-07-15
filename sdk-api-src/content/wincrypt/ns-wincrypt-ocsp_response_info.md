@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._OCSP_RESPONSE_INFO
 title: OCSP_RESPONSE_INFO (wincrypt.h)
-description: Indicates the success or failure of the corresponding online certificate status protocol (OCSP) request. For successful requests, it contains the type and value of response information.helpviewer_keywords: ["*POCSP_RESPONSE_INFO","OCSP_INTERNAL_ERROR_RESPONSE","OCSP_MALFORMED_REQUEST_RESPONSE","OCSP_RESPONSE_INFO","OCSP_RESPONSE_INFO structure [Security]","OCSP_SIG_REQUIRED_RESPONSE","OCSP_SUCCESSFUL_RESPONSE","OCSP_TRY_LATER_RESPONSE","OCSP_UNAUTHORIZED_RESPONSE","POCSP_RESPONSE_INFO","POCSP_RESPONSE_INFO structure pointer [Security]","security.ocsp_response_info","szOID_PKIX_OCSP_BASIC_SIGNED_RESPONSE","wincrypt/OCSP_RESPONSE_INFO","wincrypt/POCSP_RESPONSE_INFO"]
+description: Indicates the success or failure of the corresponding online certificate status protocol (OCSP) request. For successful requests, it contains the type and value of response information.
+helpviewer_keywords: ["*POCSP_RESPONSE_INFO","OCSP_INTERNAL_ERROR_RESPONSE","OCSP_MALFORMED_REQUEST_RESPONSE","OCSP_RESPONSE_INFO","OCSP_RESPONSE_INFO structure [Security]","OCSP_SIG_REQUIRED_RESPONSE","OCSP_SUCCESSFUL_RESPONSE","OCSP_TRY_LATER_RESPONSE","OCSP_UNAUTHORIZED_RESPONSE","POCSP_RESPONSE_INFO","POCSP_RESPONSE_INFO structure pointer [Security]","security.ocsp_response_info","szOID_PKIX_OCSP_BASIC_SIGNED_RESPONSE","wincrypt/OCSP_RESPONSE_INFO","wincrypt/POCSP_RESPONSE_INFO"]
 old-location: security\ocsp_response_info.htm
 tech.root: SecCrypto
 ms.assetid: e3829739-dd10-4886-8048-cd1b1b712d56

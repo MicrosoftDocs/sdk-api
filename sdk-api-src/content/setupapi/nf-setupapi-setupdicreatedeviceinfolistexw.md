@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInfoListExW
 title: SetupDiCreateDeviceInfoListExW function (setupapi.h)
-description: The SetupDiCreateDeviceInfoList function creates an empty device information set on a remote or a local computer and optionally associates the set with a device setup class .helpviewer_keywords: ["SetupDiCreateDeviceInfoListEx","SetupDiCreateDeviceInfoListEx function [Device and Driver Installation]","SetupDiCreateDeviceInfoListExA","SetupDiCreateDeviceInfoListExW","devinst.setupdicreatedeviceinfolistex","di-rtns_584dc470-c07f-4658-b16d-53a2594dabf9.xml","setupapi/SetupDiCreateDeviceInfoListEx"]
+description: The SetupDiCreateDeviceInfoList function creates an empty device information set on a remote or a local computer and optionally associates the set with a device setup class .
+helpviewer_keywords: ["SetupDiCreateDeviceInfoListEx","SetupDiCreateDeviceInfoListEx function [Device and Driver Installation]","SetupDiCreateDeviceInfoListExA","SetupDiCreateDeviceInfoListExW","devinst.setupdicreatedeviceinfolistex","di-rtns_584dc470-c07f-4658-b16d-53a2594dabf9.xml","setupapi/SetupDiCreateDeviceInfoListEx"]
 old-location: devinst\setupdicreatedeviceinfolistex.htm
 tech.root: devinst
 ms.assetid: 4dae7b07-2e24-4fd8-82f2-f947296ce3c4
@@ -98,6 +99,10 @@ If the device information set is for devices on a remote computer (<i>MachineNam
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiCreateDeviceInfoListEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

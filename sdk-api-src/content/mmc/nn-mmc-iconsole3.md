@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IConsole3
 title: IConsole3 (mmc.h)
-description: The IConsole3 interface supersedes the IConsole2 interface. The IConsole3 interface contains the IConsole3::RenameScopeItem method, which allows a scope node to programmatically be placed in rename mode.helpviewer_keywords: ["IConsole3","IConsole3 interface [MMC]","IConsole3 interface [MMC]","described","_slate_iconsole3","mmc.iconsole3","mmc/IConsole3"]
+description: The IConsole3 interface supersedes the IConsole2 interface. The IConsole3 interface contains the IConsole3::RenameScopeItem method, which allows a scope node to programmatically be placed in rename mode.
+helpviewer_keywords: ["IConsole3","IConsole3 interface [MMC]","IConsole3 interface [MMC]","described","_slate_iconsole3","mmc.iconsole3","mmc/IConsole3"]
 old-location: mmc\iconsole3.htm
 tech.root: mmc
 ms.assetid: be3d42a4-a18a-40a5-99fc-2cf2a848c564

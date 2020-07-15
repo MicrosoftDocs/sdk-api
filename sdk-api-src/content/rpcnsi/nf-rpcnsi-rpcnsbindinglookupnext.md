@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsBindingLookupNext
 title: RpcNsBindingLookupNext function (rpcnsi.h)
-description: The RpcNsBindingLookupNext function returns a list of compatible binding handles for a specified interface and optionally an object.helpviewer_keywords: ["RpcNsBindingLookupNext","RpcNsBindingLookupNext function [RPC]","_rpc_rpcnsbindinglookupnext","rpc.rpcnsbindinglookupnext","rpcnsi/RpcNsBindingLookupNext"]
+description: The RpcNsBindingLookupNext function returns a list of compatible binding handles for a specified interface and optionally an object.
+helpviewer_keywords: ["RpcNsBindingLookupNext","RpcNsBindingLookupNext function [RPC]","_rpc_rpcnsbindinglookupnext","rpc.rpcnsbindinglookupnext","rpcnsi/RpcNsBindingLookupNext"]
 old-location: rpc\rpcnsbindinglookupnext.htm
 tech.root: Rpc
 ms.assetid: 068913fb-f9ca-4e03-93d7-3484ba43472e

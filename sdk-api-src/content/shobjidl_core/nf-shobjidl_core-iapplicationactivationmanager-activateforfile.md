@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IApplicationActivationManager.ActivateForFile
 title: IApplicationActivationManager::ActivateForFile (shobjidl_core.h)
-description: Activates the specified Windows Store app for the file contract (Windows.File).helpviewer_keywords: ["ActivateForFile","ActivateForFile method [Windows Shell]","ActivateForFile method [Windows Shell]","IApplicationActivationManager interface","IApplicationActivationManager interface [Windows Shell]","ActivateForFile method","IApplicationActivationManager.ActivateForFile","IApplicationActivationManager::ActivateForFile","shell.IApplicationActivationManager_ActivateForFile","shobjidl_core/IApplicationActivationManager::ActivateForFile"]
+description: Activates the specified Windows Store app for the file contract (Windows.File).
+helpviewer_keywords: ["ActivateForFile","ActivateForFile method [Windows Shell]","ActivateForFile method [Windows Shell]","IApplicationActivationManager interface","IApplicationActivationManager interface [Windows Shell]","ActivateForFile method","IApplicationActivationManager.ActivateForFile","IApplicationActivationManager::ActivateForFile","shell.IApplicationActivationManager_ActivateForFile","shobjidl_core/IApplicationActivationManager::ActivateForFile"]
 old-location: shell\IApplicationActivationManager_ActivateForFile.htm
 tech.root: shell
 ms.assetid: E7EBB743-4847-4966-A2EA-486BBA6A4A6F

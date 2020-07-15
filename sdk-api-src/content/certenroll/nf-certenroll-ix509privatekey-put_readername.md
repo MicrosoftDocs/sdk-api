@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509PrivateKey.put_ReaderName
 title: IX509PrivateKey::put_ReaderName (certenroll.h)
-description: Specifies or retrieves the name of a smart card reader.helpviewer_keywords: ["IX509PrivateKey interface [Security]","ReaderName property","IX509PrivateKey.ReaderName","IX509PrivateKey.put_ReaderName","IX509PrivateKey::ReaderName","IX509PrivateKey::get_ReaderName","IX509PrivateKey::put_ReaderName","ReaderName property [Security]","ReaderName property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::ReaderName","certenroll/IX509PrivateKey::get_ReaderName","certenroll/IX509PrivateKey::put_ReaderName","put_ReaderName","security.ix509privatekey_readername_property"]
+description: Specifies or retrieves the name of a smart card reader.
+helpviewer_keywords: ["IX509PrivateKey interface [Security]","ReaderName property","IX509PrivateKey.ReaderName","IX509PrivateKey.put_ReaderName","IX509PrivateKey::ReaderName","IX509PrivateKey::get_ReaderName","IX509PrivateKey::put_ReaderName","ReaderName property [Security]","ReaderName property [Security]","IX509PrivateKey interface","certenroll/IX509PrivateKey::ReaderName","certenroll/IX509PrivateKey::get_ReaderName","certenroll/IX509PrivateKey::put_ReaderName","put_ReaderName","security.ix509privatekey_readername_property"]
 old-location: security\ix509privatekey_readername_property.htm
 tech.root: seccertenroll
 ms.assetid: 1c9bb81a-c91b-42b9-a44c-de1ae5b68af6

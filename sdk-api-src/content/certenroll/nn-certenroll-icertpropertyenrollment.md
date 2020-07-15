@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.ICertPropertyEnrollment
 title: ICertPropertyEnrollment (certenroll.h)
-description: Represents a certificate property that contains certificate and certification authority (CA) information created when the client calls the Enroll method on the IX509Enrollment interface.helpviewer_keywords: ["ICertPropertyEnrollment","ICertPropertyEnrollment interface [Security]","ICertPropertyEnrollment interface [Security]","described","certenroll/ICertPropertyEnrollment","security.icertpropertyenrollment"]
+description: Represents a certificate property that contains certificate and certification authority (CA) information created when the client calls the Enroll method on the IX509Enrollment interface.
+helpviewer_keywords: ["ICertPropertyEnrollment","ICertPropertyEnrollment interface [Security]","ICertPropertyEnrollment interface [Security]","described","certenroll/ICertPropertyEnrollment","security.icertpropertyenrollment"]
 old-location: security\icertpropertyenrollment.htm
 tech.root: seccertenroll
 ms.assetid: 7530998b-b59c-426b-a74a-ead4bca55c3b

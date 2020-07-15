@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IsHungAppWindow
 title: IsHungAppWindow function (winuser.h)
-description: Determines whether the system considers that a specified application is not responding.helpviewer_keywords: ["IsHungAppWindow","IsHungAppWindow function [Windows and Messages]","_win32_IsHungAppWindow","_win32_ishungappwindow_cpp","winmsg.ishungappwindow","winui._win32_ishungappwindow","winuser/IsHungAppWindow"]
+description: Determines whether the system considers that a specified application is not responding.
+helpviewer_keywords: ["IsHungAppWindow","IsHungAppWindow function [Windows and Messages]","_win32_IsHungAppWindow","_win32_ishungappwindow_cpp","winmsg.ishungappwindow","winui._win32_ishungappwindow","winuser/IsHungAppWindow"]
 old-location: winmsg\ishungappwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\ishungappwindow.htm

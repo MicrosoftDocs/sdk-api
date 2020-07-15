@@ -1,7 +1,8 @@
 ---
 UID: NF:tdh.TdhEnumerateManifestProviderEvents
 title: TdhEnumerateManifestProviderEvents function (tdh.h)
-description: Retrieves the list of events present in the provider manifest.helpviewer_keywords: ["TdhEnumerateManifestProviderEvents","TdhEnumerateManifestProviderEvents function [ETW]","etw.tdhenumeratemanifestproviderevents","tdh/TdhEnumerateManifestProviderEvents"]
+description: Retrieves the list of events present in the provider manifest.
+helpviewer_keywords: ["TdhEnumerateManifestProviderEvents","TdhEnumerateManifestProviderEvents function [ETW]","etw.tdhenumeratemanifestproviderevents","tdh/TdhEnumerateManifestProviderEvents"]
 old-location: etw\tdhenumeratemanifestproviderevents.htm
 tech.root: ETW
 ms.assetid: 93A03E1D-4047-49F1-987B-FB7BE03E0483

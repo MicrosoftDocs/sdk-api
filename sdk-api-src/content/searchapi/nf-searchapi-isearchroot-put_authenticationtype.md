@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchRoot.put_AuthenticationType
 title: ISearchRoot::put_AuthenticationType (searchapi.h)
-description: Sets the type of authentication required to access the URLs under this search root.helpviewer_keywords: ["ISearchRoot interface [search]","put_AuthenticationType method","ISearchRoot.put_AuthenticationType","ISearchRoot::put_AuthenticationType","_search_ISearchRoot_put_AuthenticationType","put_AuthenticationType","put_AuthenticationType method [search]","put_AuthenticationType method [search]","ISearchRoot interface","search._search_ISearchRoot_put_AuthenticationType","searchapi/ISearchRoot::put_AuthenticationType"]
+description: Sets the type of authentication required to access the URLs under this search root.
+helpviewer_keywords: ["ISearchRoot interface [search]","put_AuthenticationType method","ISearchRoot.put_AuthenticationType","ISearchRoot::put_AuthenticationType","_search_ISearchRoot_put_AuthenticationType","put_AuthenticationType","put_AuthenticationType method [search]","put_AuthenticationType method [search]","ISearchRoot interface","search._search_ISearchRoot_put_AuthenticationType","searchapi/ISearchRoot::put_AuthenticationType"]
 old-location: search\_search_ISearchRoot_put_AuthenticationType.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchroot\put_authenticationtype.htm
@@ -77,10 +78,5 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-The CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line 
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line 
 options for Crawl Scope Manager (CSM) indexing operations.
-
-
-

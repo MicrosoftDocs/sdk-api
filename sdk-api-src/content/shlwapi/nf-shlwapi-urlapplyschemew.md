@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.UrlApplySchemeW
 title: UrlApplySchemeW function (shlwapi.h)
-description: Determines a scheme for a specified URL string, and returns a string with an appropriate prefix.helpviewer_keywords: ["URL_APPLY_DEFAULT","URL_APPLY_FORCEAPPLY","URL_APPLY_GUESSFILE","URL_APPLY_GUESSSCHEME","UrlApplyScheme","UrlApplyScheme function [Windows Shell]","UrlApplySchemeA","UrlApplySchemeW","_win32_UrlApplyScheme","shell.UrlApplyScheme","shlwapi/UrlApplyScheme","shlwapi/UrlApplySchemeA","shlwapi/UrlApplySchemeW"]
+description: Determines a scheme for a specified URL string, and returns a string with an appropriate prefix.
+helpviewer_keywords: ["URL_APPLY_DEFAULT","URL_APPLY_FORCEAPPLY","URL_APPLY_GUESSFILE","URL_APPLY_GUESSSCHEME","UrlApplyScheme","UrlApplyScheme function [Windows Shell]","UrlApplySchemeA","UrlApplySchemeW","_win32_UrlApplyScheme","shell.UrlApplyScheme","shlwapi/UrlApplyScheme","shlwapi/UrlApplySchemeA","shlwapi/UrlApplySchemeW"]
 old-location: shell\UrlApplyScheme.htm
 tech.root: shell
 ms.assetid: af60643e-b1a4-4013-b116-dd9fad4e90bf
@@ -194,4 +195,8 @@ The buffer was too small. The value of <i>pcchOut</i> is set to the minimum numb
 If the URL has a valid scheme, the string will not be modified. However, almost any combination of two or more characters followed by a colon will be parsed as a scheme. Valid characters include some common punctuation marks, such as ".". If your input string fits this description, <b>UrlApplyScheme</b> may treat it as valid and not apply a scheme. To force the function to apply a scheme to a URL, set the <b>URL_APPLY_FORCEAPPLY</b> and <b>URL_APPLY_DEFAULT</b> flags in <i>dwFlags</i>. This combination of flags forces the function to apply a scheme to the URL. Typically, the function will not be able to determine a valid scheme. The second flag guarantees that, if no valid scheme can be determined, the function will apply the default scheme to the URL.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines UrlApplyScheme as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

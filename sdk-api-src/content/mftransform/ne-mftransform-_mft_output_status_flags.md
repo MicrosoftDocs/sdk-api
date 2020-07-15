@@ -1,7 +1,8 @@
 ---
 UID: NE:mftransform._MFT_OUTPUT_STATUS_FLAGS
 title: _MFT_OUTPUT_STATUS_FLAGS (mftransform.h)
-description: Indicates whether a Media Foundation transform (MFT) can produce output data.helpviewer_keywords: ["951900b1-364e-4867-a1f8-50d485d13c77","MFT_OUTPUT_STATUS_SAMPLE_READY","_MFT_OUTPUT_STATUS_FLAGS","_MFT_OUTPUT_STATUS_FLAGS enumeration [Media Foundation]","mf._mft_output_status_flags","mftransform/MFT_OUTPUT_STATUS_SAMPLE_READY","mftransform/_MFT_OUTPUT_STATUS_FLAGS"]
+description: Indicates whether a Media Foundation transform (MFT) can produce output data.
+helpviewer_keywords: ["951900b1-364e-4867-a1f8-50d485d13c77","MFT_OUTPUT_STATUS_SAMPLE_READY","_MFT_OUTPUT_STATUS_FLAGS","_MFT_OUTPUT_STATUS_FLAGS enumeration [Media Foundation]","mf._mft_output_status_flags","mftransform/MFT_OUTPUT_STATUS_SAMPLE_READY","mftransform/_MFT_OUTPUT_STATUS_FLAGS"]
 old-location: mf\_mft_output_status_flags.htm
 tech.root: medfound
 ms.assetid: 951900b1-364e-4867-a1f8-50d485d13c77

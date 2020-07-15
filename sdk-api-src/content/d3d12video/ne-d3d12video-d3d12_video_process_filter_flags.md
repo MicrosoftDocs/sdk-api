@@ -37,7 +37,7 @@ targetos: Windows
 
 ## -description
 
-Specifies support for the image filters defined by the D3D12\_VIDEO\_PROCESS\_FILTER enumeration. 
+Specifies support for the image filters defined by the [D3D12\_VIDEO\_PROCESS\_FILTER](ne-d3d12video-d3d12_video_process_filter.md) enumeration. 
 
 ## -enum-fields
 

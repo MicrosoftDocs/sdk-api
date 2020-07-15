@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2data.IMpeg2TableFilter.AddTable
 title: IMpeg2TableFilter::AddTable (mpeg2data.h)
-description: The AddTable method adds a table identifier (TID) to the list of MPEG-2 table sections that the filter sends.helpviewer_keywords: ["AddTable","AddTable method [Microsoft TV Technologies]","AddTable method [Microsoft TV Technologies]","IMpeg2TableFilter interface","IMpeg2TableFilter interface [Microsoft TV Technologies]","AddTable method","IMpeg2TableFilter.AddTable","IMpeg2TableFilter::AddTable","IMpeg2TableFilterAddTable","mpeg2data/IMpeg2TableFilter::AddTable","mstv.impeg2tablefilter_addtable"]
+description: The AddTable method adds a table identifier (TID) to the list of MPEG-2 table sections that the filter sends.
+helpviewer_keywords: ["AddTable","AddTable method [Microsoft TV Technologies]","AddTable method [Microsoft TV Technologies]","IMpeg2TableFilter interface","IMpeg2TableFilter interface [Microsoft TV Technologies]","AddTable method","IMpeg2TableFilter.AddTable","IMpeg2TableFilter::AddTable","IMpeg2TableFilterAddTable","mpeg2data/IMpeg2TableFilter::AddTable","mstv.impeg2tablefilter_addtable"]
 old-location: mstv\impeg2tablefilter_addtable.htm
 tech.root: mstv
 ms.assetid: b789bfda-bb7e-4a7b-999e-0e2e798df4d5

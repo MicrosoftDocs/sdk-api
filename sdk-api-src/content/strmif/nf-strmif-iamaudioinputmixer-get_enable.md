@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMAudioInputMixer.get_Enable
 title: IAMAudioInputMixer::get_Enable (strmif.h)
-description: The get_Enable method retrieves whether the input is enabled.helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Enable method","IAMAudioInputMixer.get_Enable","IAMAudioInputMixer::get_Enable","IAMAudioInputMixerget_Enable","dshow.iamaudioinputmixer_get_enable","get_Enable","get_Enable method [DirectShow]","get_Enable method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_Enable"]
+description: The get_Enable method retrieves whether the input is enabled.
+helpviewer_keywords: ["IAMAudioInputMixer interface [DirectShow]","get_Enable method","IAMAudioInputMixer.get_Enable","IAMAudioInputMixer::get_Enable","IAMAudioInputMixerget_Enable","dshow.iamaudioinputmixer_get_enable","get_Enable","get_Enable method [DirectShow]","get_Enable method [DirectShow]","IAMAudioInputMixer interface","strmif/IAMAudioInputMixer::get_Enable"]
 old-location: dshow\iamaudioinputmixer_get_enable.htm
 tech.root: DirectShow
 ms.assetid: d3ec509c-9990-4803-a4e3-abc88fc8c522

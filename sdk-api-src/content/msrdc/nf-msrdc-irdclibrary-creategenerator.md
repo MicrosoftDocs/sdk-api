@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IRdcLibrary.CreateGenerator
 title: IRdcLibrary::CreateGenerator (msrdc.h)
-description: Creates a signature generator that will generate the specified levels of signatures.helpviewer_keywords: ["CreateGenerator","CreateGenerator method [Remote Differential Compression]","CreateGenerator method [Remote Differential Compression]","IRdcLibrary interface","IRdcLibrary interface [Remote Differential Compression]","CreateGenerator method","IRdcLibrary.CreateGenerator","IRdcLibrary::CreateGenerator","fs.irdclibrary_creategenerator","msrdc/IRdcLibrary::CreateGenerator","rdc.irdclibrary_creategenerator"]
+description: Creates a signature generator that will generate the specified levels of signatures.
+helpviewer_keywords: ["CreateGenerator","CreateGenerator method [Remote Differential Compression]","CreateGenerator method [Remote Differential Compression]","IRdcLibrary interface","IRdcLibrary interface [Remote Differential Compression]","CreateGenerator method","IRdcLibrary.CreateGenerator","IRdcLibrary::CreateGenerator","fs.irdclibrary_creategenerator","msrdc/IRdcLibrary::CreateGenerator","rdc.irdclibrary_creategenerator"]
 old-location: rdc\irdclibrary_creategenerator.htm
 tech.root: rdc
 ms.assetid: 9cd64c3f-acd7-4e59-916f-90e90f452e12

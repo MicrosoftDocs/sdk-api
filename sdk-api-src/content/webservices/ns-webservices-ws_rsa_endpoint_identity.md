@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_RSA_ENDPOINT_IDENTITY
 title: WS_RSA_ENDPOINT_IDENTITY (webservices.h)
-description: Type for RSA endpoint identity.helpviewer_keywords: ["WS_RSA_ENDPOINT_IDENTITY","WS_RSA_ENDPOINT_IDENTITY structure [Web Services for Windows]","webservices/WS_RSA_ENDPOINT_IDENTITY","wsw.ws_rsa_endpoint_identity"]
+description: Type for RSA endpoint identity.
+helpviewer_keywords: ["WS_RSA_ENDPOINT_IDENTITY","WS_RSA_ENDPOINT_IDENTITY structure [Web Services for Windows]","webservices/WS_RSA_ENDPOINT_IDENTITY","wsw.ws_rsa_endpoint_identity"]
 old-location: wsw\ws_rsa_endpoint_identity.htm
 tech.root: wsw
 ms.assetid: 1d562eee-b30b-4dce-88d3-9387c0ce2dd1

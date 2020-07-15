@@ -1,7 +1,8 @@
 ---
 UID: NN:certif.ICertServerExit
 title: ICertServerExit (certif.h)
-description: Exported by the server engine and is called by exit modules.helpviewer_keywords: ["ICertServerExit","ICertServerExit interface [Security]","ICertServerExit interface [Security]","described","_certsrv_icertserverexit","certif/ICertServerExit","security.icertserverexit"]
+description: Exported by the server engine and is called by exit modules.
+helpviewer_keywords: ["ICertServerExit","ICertServerExit interface [Security]","ICertServerExit interface [Security]","described","_certsrv_icertserverexit","certif/ICertServerExit","security.icertserverexit"]
 old-location: security\icertserverexit.htm
 tech.root: SecCrypto
 ms.assetid: 1554c09c-a7c1-44ad-9821-93c0913212fc

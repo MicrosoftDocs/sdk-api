@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsAddMappedHeader
 title: WsAddMappedHeader function (webservices.h)
-description: Adds a specified mapped header to the message.helpviewer_keywords: ["WsAddMappedHeader","WsAddMappedHeader function [Web Services for Windows]","webservices/WsAddMappedHeader","wsw.wsaddmappedheader"]
+description: Adds a specified mapped header to the message.
+helpviewer_keywords: ["WsAddMappedHeader","WsAddMappedHeader function [Web Services for Windows]","webservices/WsAddMappedHeader","wsw.wsaddmappedheader"]
 old-location: wsw\wsaddmappedheader.htm
 tech.root: wsw
 ms.assetid: f91dac8e-606e-4a9f-a598-8f8136c6b386

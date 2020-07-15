@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.DestroySyntheticPointerDevice
 title: DestroySyntheticPointerDevice function (winuser.h)
-description: Destroys the specified pointer injection device.helpviewer_keywords: ["DestroySyntheticPointerDevice","DestroySyntheticPointerDevice function","input_pointerdevice.destroysyntheticpointerdevice","winuser/DestroySyntheticPointerDevice"]
+description: Destroys the specified pointer injection device.
+helpviewer_keywords: ["DestroySyntheticPointerDevice","DestroySyntheticPointerDevice function","input_pointerdevice.destroysyntheticpointerdevice","winuser/DestroySyntheticPointerDevice"]
 old-location: input_pointerdevice\destroysyntheticpointerdevice.htm
 tech.root: Input_PointerDevice
 ms.assetid: 236484FC-D552-45CE-A968-B928D020A4C8

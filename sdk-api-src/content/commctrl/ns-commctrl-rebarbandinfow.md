@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagREBARBANDINFOW
 title: REBARBANDINFOW (commctrl.h)
-description: Contains information that defines a band in a rebar control.helpviewer_keywords: ["*LPREBARBANDINFOW","LPREBARBANDINFO","LPREBARBANDINFO structure pointer [Windows Controls]","RBBIM_BACKGROUND","RBBIM_CHEVRONLOCATION","RBBIM_CHEVRONSTATE","RBBIM_CHILD","RBBIM_CHILDSIZE","RBBIM_COLORS","RBBIM_HEADERSIZE","RBBIM_ID","RBBIM_IDEALSIZE","RBBIM_IMAGE","RBBIM_LPARAM","RBBIM_SIZE","RBBIM_STYLE","RBBIM_TEXT","RBBS_BREAK","RBBS_CHILDEDGE","RBBS_FIXEDBMP","RBBS_FIXEDSIZE","RBBS_GRIPPERALWAYS","RBBS_HIDDEN","RBBS_HIDETITLE","RBBS_NOGRIPPER","RBBS_NOVERT","RBBS_TOPALIGN","RBBS_USECHEVRON","RBBS_VARIABLEHEIGHT","REBARBANDINFO","REBARBANDINFO structure [Windows Controls]","REBARBANDINFOA","REBARBANDINFOW","_win32_REBARBANDINFO","_win32_REBARBANDINFO_cpp","commctrl/LPREBARBANDINFO","commctrl/REBARBANDINFO","commctrl/REBARBANDINFOA","commctrl/REBARBANDINFOW","controls.REBARBANDINFO","controls._win32_REBARBANDINFO"]
+description: Contains information that defines a band in a rebar control.
+helpviewer_keywords: ["*LPREBARBANDINFOW","LPREBARBANDINFO","LPREBARBANDINFO structure pointer [Windows Controls]","RBBIM_BACKGROUND","RBBIM_CHEVRONLOCATION","RBBIM_CHEVRONSTATE","RBBIM_CHILD","RBBIM_CHILDSIZE","RBBIM_COLORS","RBBIM_HEADERSIZE","RBBIM_ID","RBBIM_IDEALSIZE","RBBIM_IMAGE","RBBIM_LPARAM","RBBIM_SIZE","RBBIM_STYLE","RBBIM_TEXT","RBBS_BREAK","RBBS_CHILDEDGE","RBBS_FIXEDBMP","RBBS_FIXEDSIZE","RBBS_GRIPPERALWAYS","RBBS_HIDDEN","RBBS_HIDETITLE","RBBS_NOGRIPPER","RBBS_NOVERT","RBBS_TOPALIGN","RBBS_USECHEVRON","RBBS_VARIABLEHEIGHT","REBARBANDINFO","REBARBANDINFO structure [Windows Controls]","REBARBANDINFOA","REBARBANDINFOW","_win32_REBARBANDINFO","_win32_REBARBANDINFO_cpp","commctrl/LPREBARBANDINFO","commctrl/REBARBANDINFO","commctrl/REBARBANDINFOA","commctrl/REBARBANDINFOW","controls.REBARBANDINFO","controls._win32_REBARBANDINFO"]
 old-location: controls\REBARBANDINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rebarbandinfo.htm
@@ -513,4 +514,8 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 The <b>cxMinChild</b>, <b>cyMinChild</b>, and <b>cx</b> members provide information on dimensions relative to the orientation of the control. That is, for a horizontal rebar control, <b>cxMinChild</b> and <b>cx</b> are horizontal measurements and <b>cyMinChild</b> is a vertical measurement. However, if the control uses the <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-styles">CCS_VERT</a> style, <b>cxMinChild</b> and <b>cx</b> are vertical measurements and <b>cyMinChild</b> is a horizontal measurement. 
 
 
+
+
+> [!NOTE]
+> The commctrl.h header defines REBARBANDINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

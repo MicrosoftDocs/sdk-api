@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector2TransformNormalStream
 title: XMVector2TransformNormalStream function (directxmath.h)
-description: Transforms a stream of 2D normal vectors by a given matrix.helpviewer_keywords: ["Use DirectX..XMVector2TransformNormalStream","XMVector2TransformNormalStream","XMVector2TransformNormalStream method [DirectX Math Support APIs]","dxmath.xmvector2transformnormalstream"]
+description: Transforms a stream of 2D normal vectors by a given matrix.
+helpviewer_keywords: ["Use DirectX..XMVector2TransformNormalStream","XMVector2TransformNormalStream","XMVector2TransformNormalStream method [DirectX Math Support APIs]","dxmath.xmvector2transformnormalstream"]
 old-location: dxmath\xmvector2transformnormalstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector2TransformNormalStream(XMFLOAT2@,size_t,const XMFLOAT2,size_t,size_t,XMMATRIX)

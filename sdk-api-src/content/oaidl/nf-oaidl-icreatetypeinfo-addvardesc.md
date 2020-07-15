@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.AddVarDesc
 title: ICreateTypeInfo::AddVarDesc (oaidl.h)
-description: Adds a variable or data member description to the type description.helpviewer_keywords: ["AddVarDesc","AddVarDesc method [Automation]","AddVarDesc method [Automation]","ICreateTypeInfo interface","ICreateTypeInfo interface [Automation]","AddVarDesc method","ICreateTypeInfo.AddVarDesc","ICreateTypeInfo::AddVarDesc","_oa96_ICreateTypeInfo_AddVarDesc","automat.icreatetypeinfo_addvardesc","oaidl/ICreateTypeInfo::AddVarDesc"]
+description: Adds a variable or data member description to the type description.
+helpviewer_keywords: ["AddVarDesc","AddVarDesc method [Automation]","AddVarDesc method [Automation]","ICreateTypeInfo interface","ICreateTypeInfo interface [Automation]","AddVarDesc method","ICreateTypeInfo.AddVarDesc","ICreateTypeInfo::AddVarDesc","_oa96_ICreateTypeInfo_AddVarDesc","automat.icreatetypeinfo_addvardesc","oaidl/ICreateTypeInfo::AddVarDesc"]
 old-location: automat\icreatetypeinfo_addvardesc.htm
 tech.root: automat
 ms.assetid: db576528-fefc-4a22-bc24-d5ea037eae26

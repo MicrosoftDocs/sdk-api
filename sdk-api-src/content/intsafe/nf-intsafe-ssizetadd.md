@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.SSIZETAdd
 title: SSIZETAdd function (intsafe.h)
-description: Adds two SSIZE_T values together.helpviewer_keywords: ["SSIZETAdd","SSIZETAdd function [Windows Shell]","intsafe/SSIZETAdd","shell.SSIZETAdd"]
+description: Adds two SSIZE_T values together.
+helpviewer_keywords: ["SSIZETAdd","SSIZETAdd function [Windows Shell]","intsafe/SSIZETAdd","shell.SSIZETAdd"]
 old-location: shell\SSIZETAdd.htm
 tech.root: shell
 ms.assetid: a9a2eb36-f70b-45fb-a84a-391a0bb77954

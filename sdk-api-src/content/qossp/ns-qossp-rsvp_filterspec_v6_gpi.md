@@ -1,7 +1,8 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC_V6_GPI
 title: RSVP_FILTERSPEC_V6_GPI (qossp.h)
-description: The RSVP_FILTERSPEC_V6_GPI structure provides general port identifier information for a given FILTERSPEC on an IPv6 address.helpviewer_keywords: ["*LPRSVP_FILTERSPEC_V6_GPI","*LPRSVP_FILTERSPEC_V6_GPI structure [QOS]","RSVP_FILTERSPEC_V6_GPI","RSVP_FILTERSPEC_V6_GPI structure [QOS]","qos.rsvp_filterspec_v6_gpi","qossp/*LPRSVP_FILTERSPEC_V6_GPI","qossp/RSVP_FILTERSPEC_V6_GPI"]
+description: The RSVP_FILTERSPEC_V6_GPI structure provides general port identifier information for a given FILTERSPEC on an IPv6 address.
+helpviewer_keywords: ["*LPRSVP_FILTERSPEC_V6_GPI","*LPRSVP_FILTERSPEC_V6_GPI structure [QOS]","RSVP_FILTERSPEC_V6_GPI","RSVP_FILTERSPEC_V6_GPI structure [QOS]","qos.rsvp_filterspec_v6_gpi","qossp/*LPRSVP_FILTERSPEC_V6_GPI","qossp/RSVP_FILTERSPEC_V6_GPI"]
 old-location: qos\rsvp_filterspec_v6_gpi.htm
 tech.root: QOS
 ms.assetid: ede040f4-4858-42d8-a4b5-af6e79c036d7

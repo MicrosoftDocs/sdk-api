@@ -1,7 +1,8 @@
 ---
 UID: NN:wmpservices.IWMPPlugin
 title: IWMPPlugin (wmpservices.h)
-description: The IWMPPlugin interface is implemented by the plug-in. It manages the connection to Windows Media Player.Note  The interface identifier GUID for this interface changed between the beta release and the final release. .helpviewer_keywords: ["IWMPPlugin","IWMPPlugin interface [Windows Media Player]","IWMPPlugin interface [Windows Media Player]","described","IWMPPluginInterfaceDSP","wmp.iwmpplugin","wmpservices/IWMPPlugin"]
+description: The IWMPPlugin interface is implemented by the plug-in. It manages the connection to Windows Media Player.Note  The interface identifier GUID for this interface changed between the beta release and the final release. .
+helpviewer_keywords: ["IWMPPlugin","IWMPPlugin interface [Windows Media Player]","IWMPPlugin interface [Windows Media Player]","described","IWMPPluginInterfaceDSP","wmp.iwmpplugin","wmpservices/IWMPPlugin"]
 old-location: wmp\iwmpplugin.htm
 tech.root: WMP
 ms.assetid: e384aa43-72ab-44b7-b6bd-7a29335b5197

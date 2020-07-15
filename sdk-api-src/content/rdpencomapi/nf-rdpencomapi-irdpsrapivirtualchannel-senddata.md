@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIVirtualChannel.SendData
 title: IRDPSRAPIVirtualChannel::SendData (rdpencomapi.h)
-description: Sends data on the channel.helpviewer_keywords: ["CHANNEL_FLAGS_UNCOMPRESSED","IRDPSRAPIVirtualChannel interface [RDP]","SendData method","IRDPSRAPIVirtualChannel.SendData","IRDPSRAPIVirtualChannel::SendData","SendData","SendData method [RDP]","SendData method [RDP]","IRDPSRAPIVirtualChannel interface","rdp.irdpsrapivirtualchannel_senddata","rdpencomapi/IRDPSRAPIVirtualChannel::SendData"]
+description: Sends data on the channel.
+helpviewer_keywords: ["CHANNEL_FLAGS_UNCOMPRESSED","IRDPSRAPIVirtualChannel interface [RDP]","SendData method","IRDPSRAPIVirtualChannel.SendData","IRDPSRAPIVirtualChannel::SendData","SendData","SendData method [RDP]","SendData method [RDP]","IRDPSRAPIVirtualChannel interface","rdp.irdpsrapivirtualchannel_senddata","rdpencomapi/IRDPSRAPIVirtualChannel::SendData"]
 old-location: rdp\irdpsrapivirtualchannel_senddata.htm
 tech.root: rdp
 ms.assetid: d861de01-70e3-49b0-91b3-01f6b0051823

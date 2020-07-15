@@ -1,7 +1,8 @@
 ---
 UID: NS:ocidl.tagCONNECTDATA
 title: CONNECTDATA (ocidl.h)
-description: Describes a connection that exists to a given connection point.helpviewer_keywords: ["*LPCONNECTDATA","*PCONNECTDATA","CONNECTDATA","CONNECTDATA structure [COM]","LPCONNECTDATA","LPCONNECTDATA structure pointer [COM]","PCONNECTDATA","PCONNECTDATA structure pointer [COM]","_com_CONNECTDATA","com.connectdata","ocidl/CONNECTDATA","ocidl/LPCONNECTDATA","ocidl/PCONNECTDATA"]
+description: Describes a connection that exists to a given connection point.
+helpviewer_keywords: ["*LPCONNECTDATA","*PCONNECTDATA","CONNECTDATA","CONNECTDATA structure [COM]","LPCONNECTDATA","LPCONNECTDATA structure pointer [COM]","PCONNECTDATA","PCONNECTDATA structure pointer [COM]","_com_CONNECTDATA","com.connectdata","ocidl/CONNECTDATA","ocidl/LPCONNECTDATA","ocidl/PCONNECTDATA"]
 old-location: com\connectdata.htm
 tech.root: com
 ms.assetid: 23312f89-2985-402d-aae4-cd7388137153

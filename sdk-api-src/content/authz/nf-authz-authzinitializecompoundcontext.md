@@ -1,7 +1,8 @@
 ---
 UID: NF:authz.AuthzInitializeCompoundContext
 title: AuthzInitializeCompoundContext function (authz.h)
-description: Creates a user-mode context from the given user and device security contexts.helpviewer_keywords: ["AuthzInitializeCompoundContext","AuthzInitializeCompoundContext function [Security]","authz/AuthzInitializeCompoundContext","security.authzinitializecompoundcontext"]
+description: Creates a user-mode context from the given user and device security contexts.
+helpviewer_keywords: ["AuthzInitializeCompoundContext","AuthzInitializeCompoundContext function [Security]","authz/AuthzInitializeCompoundContext","security.authzinitializecompoundcontext"]
 old-location: security\authzinitializecompoundcontext.htm
 tech.root: SecAuthZ
 ms.assetid: 2EC9EE76-9A92-40DF-9884-547D96FF3E09

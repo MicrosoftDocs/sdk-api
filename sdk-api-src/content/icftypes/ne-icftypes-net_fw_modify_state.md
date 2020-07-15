@@ -1,7 +1,8 @@
 ---
 UID: NE:icftypes.NET_FW_MODIFY_STATE_
 title: NET_FW_MODIFY_STATE (icftypes.h)
-description: Specifies the effect of modifications to the current policy.helpviewer_keywords: ["NET_FW_MODIFY_STATE","NET_FW_MODIFY_STATE enumeration [ICS/ICF]","NET_FW_MODIFY_STATE_GP_OVERRIDE","NET_FW_MODIFY_STATE_INBOUND_BLOCKED","NET_FW_MODIFY_STATE_OK","icftypes/NET_FW_MODIFY_STATE","icftypes/NET_FW_MODIFY_STATE_GP_OVERRIDE","icftypes/NET_FW_MODIFY_STATE_INBOUND_BLOCKED","icftypes/NET_FW_MODIFY_STATE_OK","ics.net_fw_modify_state"]
+description: Specifies the effect of modifications to the current policy.
+helpviewer_keywords: ["NET_FW_MODIFY_STATE","NET_FW_MODIFY_STATE enumeration [ICS/ICF]","NET_FW_MODIFY_STATE_GP_OVERRIDE","NET_FW_MODIFY_STATE_INBOUND_BLOCKED","NET_FW_MODIFY_STATE_OK","icftypes/NET_FW_MODIFY_STATE","icftypes/NET_FW_MODIFY_STATE_GP_OVERRIDE","icftypes/NET_FW_MODIFY_STATE_INBOUND_BLOCKED","icftypes/NET_FW_MODIFY_STATE_OK","ics.net_fw_modify_state"]
 old-location: ics\net_fw_modify_state.htm
 tech.root: ics
 ms.assetid: c9bfe7e8-2668-499f-9b75-3457235655b8

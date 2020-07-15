@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.IStartMenuPinnedList
 title: IStartMenuPinnedList (shobjidl.h)
-description: Exposes a method that unpins an application shortcut from the Start menu or the taskbar.helpviewer_keywords: ["IStartMenuPinnedList","IStartMenuPinnedList interface [Windows Shell]","IStartMenuPinnedList interface [Windows Shell]","described","_shell_IStartMenuPinnedList","shell.IStartMenuPinnedList","shobjidl/IStartMenuPinnedList"]
+description: Exposes a method that unpins an application shortcut from the Start menu or the taskbar.
+helpviewer_keywords: ["IStartMenuPinnedList","IStartMenuPinnedList interface [Windows Shell]","IStartMenuPinnedList interface [Windows Shell]","described","_shell_IStartMenuPinnedList","shell.IStartMenuPinnedList","shobjidl/IStartMenuPinnedList"]
 old-location: shell\IStartMenuPinnedList.htm
 tech.root: shell
 ms.assetid: e1f4dbdb-34c0-4bf5-bb8b-a622a81c1617

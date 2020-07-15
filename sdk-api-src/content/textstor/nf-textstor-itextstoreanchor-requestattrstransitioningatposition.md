@@ -1,7 +1,8 @@
 ---
 UID: NF:textstor.ITextStoreAnchor.RequestAttrsTransitioningAtPosition
 title: ITextStoreAnchor::RequestAttrsTransitioningAtPosition (textstor.h)
-description: ITextStoreAnchor::RequestAttrsTransitioningAtPosition methodhelpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","RequestAttrsTransitioningAtPosition method","ITextStoreAnchor.RequestAttrsTransitioningAtPosition","ITextStoreAnchor::RequestAttrsTransitioningAtPosition","RequestAttrsTransitioningAtPosition","RequestAttrsTransitioningAtPosition method [Text Services Framework]","RequestAttrsTransitioningAtPosition method [Text Services Framework]","ITextStoreAnchor interface","TS_ATTR_FIND_WANT_END","TS_ATTR_FIND_WANT_VALUE","textstor/ITextStoreAnchor::RequestAttrsTransitioningAtPosition","tsf.itextstoreanchor_requestattrstransitioningatposition"]
+description: ITextStoreAnchor::RequestAttrsTransitioningAtPosition method
+helpviewer_keywords: ["ITextStoreAnchor interface [Text Services Framework]","RequestAttrsTransitioningAtPosition method","ITextStoreAnchor.RequestAttrsTransitioningAtPosition","ITextStoreAnchor::RequestAttrsTransitioningAtPosition","RequestAttrsTransitioningAtPosition","RequestAttrsTransitioningAtPosition method [Text Services Framework]","RequestAttrsTransitioningAtPosition method [Text Services Framework]","ITextStoreAnchor interface","TS_ATTR_FIND_WANT_END","TS_ATTR_FIND_WANT_VALUE","textstor/ITextStoreAnchor::RequestAttrsTransitioningAtPosition","tsf.itextstoreanchor_requestattrstransitioningatposition"]
 old-location: tsf\itextstoreanchor_requestattrstransitioningatposition.htm
 tech.root: TSF
 ms.assetid: f0f43237-8c26-4e0c-8717-908884229b7b

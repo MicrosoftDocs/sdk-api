@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPMedia.get_duration
 title: IWMPMedia::get_duration (wmp.h)
-description: The get_duration method retrieves the duration in seconds of the current media item..helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","get_duration method","IWMPMedia.get_duration","IWMPMedia2 interface [Windows Media Player]","get_duration method","IWMPMedia2::get_duration","IWMPMedia3 interface [Windows Media Player]","get_duration method","IWMPMedia3::get_duration","IWMPMedia::get_duration","IWMPMediaget_duration","get_duration","get_duration method [Windows Media Player]","get_duration method [Windows Media Player]","IWMPMedia interface","get_duration method [Windows Media Player]","IWMPMedia2 interface","get_duration method [Windows Media Player]","IWMPMedia3 interface","wmp.iwmpmedia_get_duration","wmp/IWMPMedia2::get_duration","wmp/IWMPMedia3::get_duration","wmp/IWMPMedia::get_duration"]
+description: The get_duration method retrieves the duration in seconds of the current media item..
+helpviewer_keywords: ["IWMPMedia interface [Windows Media Player]","get_duration method","IWMPMedia.get_duration","IWMPMedia2 interface [Windows Media Player]","get_duration method","IWMPMedia2::get_duration","IWMPMedia3 interface [Windows Media Player]","get_duration method","IWMPMedia3::get_duration","IWMPMedia::get_duration","IWMPMediaget_duration","get_duration","get_duration method [Windows Media Player]","get_duration method [Windows Media Player]","IWMPMedia interface","get_duration method [Windows Media Player]","IWMPMedia2 interface","get_duration method [Windows Media Player]","IWMPMedia3 interface","wmp.iwmpmedia_get_duration","wmp/IWMPMedia2::get_duration","wmp/IWMPMedia3::get_duration","wmp/IWMPMedia::get_duration"]
 old-location: wmp\iwmpmedia_get_duration.htm
 tech.root: WMP
 ms.assetid: 40313888-faa0-499e-9133-dc437f5ad44f

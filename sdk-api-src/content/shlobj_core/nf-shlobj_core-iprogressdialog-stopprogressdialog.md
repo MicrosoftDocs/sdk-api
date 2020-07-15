@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IProgressDialog.StopProgressDialog
 title: IProgressDialog::StopProgressDialog (shlobj_core.h)
-description: Stops the progress dialog box and removes it from the screen.helpviewer_keywords: ["IProgressDialog interface [Windows Shell]","StopProgressDialog method","IProgressDialog.StopProgressDialog","IProgressDialog::StopProgressDialog","StopProgressDialog","StopProgressDialog method [Windows Shell]","StopProgressDialog method [Windows Shell]","IProgressDialog interface","_win32_IProgressDialog_StopProgressDialog","shell.IProgressDialog_StopProgressDialog","shlobj_core/IProgressDialog::StopProgressDialog"]
+description: Stops the progress dialog box and removes it from the screen.
+helpviewer_keywords: ["IProgressDialog interface [Windows Shell]","StopProgressDialog method","IProgressDialog.StopProgressDialog","IProgressDialog::StopProgressDialog","StopProgressDialog","StopProgressDialog method [Windows Shell]","StopProgressDialog method [Windows Shell]","IProgressDialog interface","_win32_IProgressDialog_StopProgressDialog","shell.IProgressDialog_StopProgressDialog","shlobj_core/IProgressDialog::StopProgressDialog"]
 old-location: shell\IProgressDialog_StopProgressDialog.htm
 tech.root: shell
 ms.assetid: 6a46ca72-b19d-4fd3-b783-2d182326deb4

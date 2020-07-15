@@ -1,7 +1,8 @@
 ---
 UID: NF:encdec.IETFilter.GetLastErrorCode
 title: IETFilter::GetLastErrorCode (encdec.h)
-description: Not implemented.helpviewer_keywords: ["GetLastErrorCode","GetLastErrorCode method [Microsoft TV Technologies]","GetLastErrorCode method [Microsoft TV Technologies]","IETFilter interface","IETFilter interface [Microsoft TV Technologies]","GetLastErrorCode method","IETFilter.GetLastErrorCode","IETFilter::GetLastErrorCode","IETFilterGetLastErrorCode","encdec/IETFilter::GetLastErrorCode","mstv.ietfilter_getlasterrorcode"]
+description: Not implemented.
+helpviewer_keywords: ["GetLastErrorCode","GetLastErrorCode method [Microsoft TV Technologies]","GetLastErrorCode method [Microsoft TV Technologies]","IETFilter interface","IETFilter interface [Microsoft TV Technologies]","GetLastErrorCode method","IETFilter.GetLastErrorCode","IETFilter::GetLastErrorCode","IETFilterGetLastErrorCode","encdec/IETFilter::GetLastErrorCode","mstv.ietfilter_getlasterrorcode"]
 old-location: mstv\ietfilter_getlasterrorcode.htm
 tech.root: mstv
 ms.assetid: 7982c60b-9be1-49c4-8194-f5e52487275e

@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.TF_CreateCategoryMgr
 title: TF_CreateCategoryMgr function (msctf.h)
-description: The TF_CreateCategoryMgr function creates a category manager object without having to initialize COM. Usage must be done carefully because the calling thread must maintain the reference count on an object that is owned by MSCTF.DLL.helpviewer_keywords: ["TF_CreateCategoryMgr","TF_CreateCategoryMgr function [Text Services Framework]","msctf/TF_CreateCategoryMgr","tsf.tf_createcategorymgr"]
+description: The TF_CreateCategoryMgr function creates a category manager object without having to initialize COM. Usage must be done carefully because the calling thread must maintain the reference count on an object that is owned by MSCTF.DLL.
+helpviewer_keywords: ["TF_CreateCategoryMgr","TF_CreateCategoryMgr function [Text Services Framework]","msctf/TF_CreateCategoryMgr","tsf.tf_createcategorymgr"]
 old-location: tsf\tf_createcategorymgr.htm
 tech.root: TSF
 ms.assetid: d157d006-c664-4086-b75e-3b90b2fa818f

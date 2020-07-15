@@ -1,7 +1,8 @@
 ---
 UID: NF:faxdev.FaxDevSend
 title: FaxDevSend function (faxdev.h)
-description: The fax service calls the FaxDevSend function to signal a fax service provider (FSP) that it must initiate an outgoing fax transmission. Each FSP must export the FaxDevSend function.helpviewer_keywords: ["FaxDevSend","FaxDevSend function [Fax Service]","_mfax_faxdevsend","fax._mfax_faxdevsend","faxdev/FaxDevSend"]
+description: The fax service calls the FaxDevSend function to signal a fax service provider (FSP) that it must initiate an outgoing fax transmission. Each FSP must export the FaxDevSend function.
+helpviewer_keywords: ["FaxDevSend","FaxDevSend function [Fax Service]","_mfax_faxdevsend","fax._mfax_faxdevsend","faxdev/FaxDevSend"]
 old-location: fax\_mfax_faxdevsend.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_7rz8.htm

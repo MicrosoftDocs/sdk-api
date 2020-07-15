@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1_3.ID2D1CommandSink4
 title: ID2D1CommandSink4 (d2d1_3.h)
-description: This interface performs all the same functions as the existing ID2D1CommandSink3 interface. It also enables access to the new primitive blend mode, MAX, through the SetPrimitiveBlend2 method.helpviewer_keywords: ["ID2D1CommandSink4","ID2D1CommandSink4 interface [Direct2D]","ID2D1CommandSink4 interface [Direct2D]","described","d2d1_3/ID2D1CommandSink4","direct2d.id2d1commandsink4"]
+description: This interface performs all the same functions as the existing ID2D1CommandSink3 interface. It also enables access to the new primitive blend mode, MAX, through the SetPrimitiveBlend2 method.
+helpviewer_keywords: ["ID2D1CommandSink4","ID2D1CommandSink4 interface [Direct2D]","ID2D1CommandSink4 interface [Direct2D]","described","d2d1_3/ID2D1CommandSink4","direct2d.id2d1commandsink4"]
 old-location: direct2d\id2d1commandsink4.htm
 tech.root: Direct2D
 ms.assetid: C5E69D48-5CE1-49AB-A535-244AB586C71E

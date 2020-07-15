@@ -66,8 +66,7 @@ A pointer to a UMS thread context.
 
 ### -param UmsThreadInfoClass [in]
 
-A UMS_THREAD_INFO_CLASS value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
-
+A <a href="https://docs.microsoft.com/windows/desktop/api/winnt/ne-winnt-_rtl_ums_thread_info_class">UMS_THREAD_INFO_CLASS</a> value that specifies the kind of information to set. This parameter must be <b>UmsThreadUserContext</b>.
 
 ### -param UmsThreadInformation [in]
 
@@ -126,18 +125,11 @@ The <i>UmsThreadInfoClass</i> parameter specifies an information class that is n
 
 The <b>SetUmsThreadInformation</b> function can be used to set an application-defined context for the specified UMS worker thread. The context information can consist of anything the application might find useful to track, such as per-scheduler or per-worker thread state. The underlying structures for UMS worker threads are managed by the system and should not be modified directly. 
 
+
 The <a href="/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a> function can be used to retrieve other exposed information about the specified thread, such as its thread execution block (<a href="/windows/desktop/api/winternl/ns-winternl-teb">TEB</a>) and whether the thread is suspended or terminated. Information that is not exposed through <b>QueryUmsThreadInformation</b> should be considered reserved.
-
-
 
 
 ## -see-also
 
 
-
-
 <a href="/windows/desktop/api/winbase/nf-winbase-queryumsthreadinformation">QueryUmsThreadInformation</a>
- 
-
- 
-

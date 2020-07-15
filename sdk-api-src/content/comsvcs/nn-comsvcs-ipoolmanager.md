@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IPoolManager
 title: IPoolManager (comsvcs.h)
-description: Enables the caller to control an object pool.helpviewer_keywords: ["IPoolManager","IPoolManager interface [COM+]","IPoolManager interface [COM+]","described","_cos_IPoolManager","comsvcs/IPoolManager","cos.ipoolmanager"]
+description: Enables the caller to control an object pool.
+helpviewer_keywords: ["IPoolManager","IPoolManager interface [COM+]","IPoolManager interface [COM+]","described","_cos_IPoolManager","comsvcs/IPoolManager","cos.ipoolmanager"]
 old-location: cos\ipoolmanager.htm
 tech.root: cossdk
 ms.assetid: 7811ad0c-e7b6-423b-8c52-ab8b1b97d6f4

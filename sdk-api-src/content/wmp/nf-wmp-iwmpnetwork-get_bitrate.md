@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPNetwork.get_bitRate
 title: IWMPNetwork::get_bitRate (wmp.h)
-description: The get_bitRate method retrieves the current bit rate being received.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_bitRate method","IWMPNetwork.get_bitRate","IWMPNetwork::get_bitRate","IWMPNetworkget_bitRate","get_bitRate","get_bitRate method [Windows Media Player]","get_bitRate method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_bitrate","wmp/IWMPNetwork::get_bitRate"]
+description: The get_bitRate method retrieves the current bit rate being received.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","get_bitRate method","IWMPNetwork.get_bitRate","IWMPNetwork::get_bitRate","IWMPNetworkget_bitRate","get_bitRate","get_bitRate method [Windows Media Player]","get_bitRate method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_get_bitrate","wmp/IWMPNetwork::get_bitRate"]
 old-location: wmp\iwmpnetwork_get_bitrate.htm
 tech.root: WMP
 ms.assetid: dfac8b29-47d9-4cee-801b-f43fa2bba6ed

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface
 title: IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface (strmif.h)
-description: The SetXlcModeDDObjAndPrimarySurface method informs the VMR of the DirectDraw object and primary surface that were created by the application.helpviewer_keywords: ["IVMRImagePresenterExclModeConfig interface [DirectShow]","SetXlcModeDDObjAndPrimarySurface method","IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface","IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface","SetXlcModeDDObjAndPrimarySurface","SetXlcModeDDObjAndPrimarySurface method [DirectShow]","SetXlcModeDDObjAndPrimarySurface method [DirectShow]","IVMRImagePresenterExclModeConfig interface","dshow.ivmrimagepresenterexclmodeconfig_setxlcmodeddobjandprimarysurface","strmif/IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface"]
+description: The SetXlcModeDDObjAndPrimarySurface method informs the VMR of the DirectDraw object and primary surface that were created by the application.
+helpviewer_keywords: ["IVMRImagePresenterExclModeConfig interface [DirectShow]","SetXlcModeDDObjAndPrimarySurface method","IVMRImagePresenterExclModeConfig.SetXlcModeDDObjAndPrimarySurface","IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface","SetXlcModeDDObjAndPrimarySurface","SetXlcModeDDObjAndPrimarySurface method [DirectShow]","SetXlcModeDDObjAndPrimarySurface method [DirectShow]","IVMRImagePresenterExclModeConfig interface","dshow.ivmrimagepresenterexclmodeconfig_setxlcmodeddobjandprimarysurface","strmif/IVMRImagePresenterExclModeConfig::SetXlcModeDDObjAndPrimarySurface"]
 old-location: dshow\ivmrimagepresenterexclmodeconfig_setxlcmodeddobjandprimarysurface.htm
 tech.root: DirectShow
 ms.assetid: 3af69975-fe3c-45e6-b1f5-ce2dbda9a4dc

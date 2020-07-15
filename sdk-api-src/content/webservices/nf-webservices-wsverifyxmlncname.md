@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsVerifyXmlNCName
 title: WsVerifyXmlNCName function (webservices.h)
-description: Verifies whether the input string is a valid XML NCName.helpviewer_keywords: ["WsVerifyXmlNCName","WsVerifyXmlNCName function [Web Services for Windows]","webservices/WsVerifyXmlNCName","wsw.wsverifyxmlncname"]
+description: Verifies whether the input string is a valid XML NCName.
+helpviewer_keywords: ["WsVerifyXmlNCName","WsVerifyXmlNCName function [Web Services for Windows]","webservices/WsVerifyXmlNCName","wsw.wsverifyxmlncname"]
 old-location: wsw\wsverifyxmlncname.htm
 tech.root: wsw
 ms.assetid: af9953c0-481d-4aa8-b938-e10d5d733a59

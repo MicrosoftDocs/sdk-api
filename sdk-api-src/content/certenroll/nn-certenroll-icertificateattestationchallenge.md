@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.ICertificateAttestationChallenge
 title: ICertificateAttestationChallenge (certenroll.h)
-description: Allows applications to decrypt a key attestation challenge received from a server.helpviewer_keywords: ["ICertificateAttestationChallenge","ICertificateAttestationChallenge interface [Security]","ICertificateAttestationChallenge interface [Security]","described","certenroll/ICertificateAttestationChallenge","security.icertificateattestationchallenge"]
+description: Allows applications to decrypt a key attestation challenge received from a server.
+helpviewer_keywords: ["ICertificateAttestationChallenge","ICertificateAttestationChallenge interface [Security]","ICertificateAttestationChallenge interface [Security]","described","certenroll/ICertificateAttestationChallenge","security.icertificateattestationchallenge"]
 old-location: security\icertificateattestationchallenge.htm
 tech.root: seccertenroll
 ms.assetid: 3b8d3104-5824-4801-9b74-59307e650662

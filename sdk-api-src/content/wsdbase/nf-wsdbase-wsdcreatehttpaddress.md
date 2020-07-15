@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.WSDCreateHttpAddress
 title: WSDCreateHttpAddress function (wsdbase.h)
-description: Creates an IWSDHttpAddress object.helpviewer_keywords: ["WSDCreateHttpAddress","WSDCreateHttpAddress function","ncd.wsdcreatehttpaddress","wsdbase/WSDCreateHttpAddress"]
+description: Creates an IWSDHttpAddress object.
+helpviewer_keywords: ["WSDCreateHttpAddress","WSDCreateHttpAddress function","ncd.wsdcreatehttpaddress","wsdbase/WSDCreateHttpAddress"]
 old-location: ncd\wsdcreatehttpaddress.htm
 tech.root: WsdApi
 ms.assetid: 05a862e9-51db-442d-bdce-1209cb718b6f

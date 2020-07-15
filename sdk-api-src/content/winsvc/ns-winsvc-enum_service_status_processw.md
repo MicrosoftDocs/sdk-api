@@ -1,7 +1,8 @@
 ---
 UID: NS:winsvc._ENUM_SERVICE_STATUS_PROCESSW
 title: ENUM_SERVICE_STATUS_PROCESSW (winsvc.h)
-description: Contains the name of a service in a service control manager database and information about the service. It is used by the EnumServicesStatusEx function.helpviewer_keywords: ["*LPENUM_SERVICE_STATUS_PROCESSW","ENUM_SERVICE_STATUS_PROCESS","ENUM_SERVICE_STATUS_PROCESS structure","ENUM_SERVICE_STATUS_PROCESSA","ENUM_SERVICE_STATUS_PROCESSW","LPENUM_SERVICE_STATUS_PROCESS","LPENUM_SERVICE_STATUS_PROCESS structure pointer","_win32_enum_service_status_process_str","base.enum_service_status_process_str","winsvc/ENUM_SERVICE_STATUS_PROCESS","winsvc/ENUM_SERVICE_STATUS_PROCESSA","winsvc/ENUM_SERVICE_STATUS_PROCESSW","winsvc/LPENUM_SERVICE_STATUS_PROCESS"]
+description: Contains the name of a service in a service control manager database and information about the service. It is used by the EnumServicesStatusEx function.
+helpviewer_keywords: ["*LPENUM_SERVICE_STATUS_PROCESSW","ENUM_SERVICE_STATUS_PROCESS","ENUM_SERVICE_STATUS_PROCESS structure","ENUM_SERVICE_STATUS_PROCESSA","ENUM_SERVICE_STATUS_PROCESSW","LPENUM_SERVICE_STATUS_PROCESS","LPENUM_SERVICE_STATUS_PROCESS structure pointer","_win32_enum_service_status_process_str","base.enum_service_status_process_str","winsvc/ENUM_SERVICE_STATUS_PROCESS","winsvc/ENUM_SERVICE_STATUS_PROCESSA","winsvc/ENUM_SERVICE_STATUS_PROCESSW","winsvc/LPENUM_SERVICE_STATUS_PROCESS"]
 old-location: base\enum_service_status_process_str.htm
 tech.root: Services
 ms.assetid: 6a683cc8-c2ac-4093-aed7-33e6bdd02d79
@@ -89,4 +90,9 @@ A
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winsvc.h header defines ENUM_SERVICE_STATUS_PROCESS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

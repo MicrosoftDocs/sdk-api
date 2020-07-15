@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMSOM.GetInheritedGPOLinks
 title: IGPMSOM::GetInheritedGPOLinks (gpmgmt.h)
-description: Returns a GPOLinksCollection object that contains the GPO links that are applied to the scope of management (SOM), including links inherited from parent containers (OUs and domains).helpviewer_keywords: ["GPMSOM class [GPMC]","GetInheritedGPOLinks method","GetInheritedGPOLinks","GetInheritedGPOLinks method [GPMC]","GetInheritedGPOLinks method [GPMC]","GPMSOM class","GetInheritedGPOLinks method [GPMC]","IGPMSOM interface","IGPMSOM interface [GPMC]","GetInheritedGPOLinks method","IGPMSOM.GetInheritedGPOLinks","IGPMSOM::GetInheritedGPOLinks","_win32_igpmsom_getinheritedgpolinks","gpmc.igpmsom_getinheritedgpolinks","gpmgmt/IGPMSOM::GetInheritedGPOLinks"]
+description: Returns a GPOLinksCollection object that contains the GPO links that are applied to the scope of management (SOM), including links inherited from parent containers (OUs and domains).
+helpviewer_keywords: ["GPMSOM class [GPMC]","GetInheritedGPOLinks method","GetInheritedGPOLinks","GetInheritedGPOLinks method [GPMC]","GetInheritedGPOLinks method [GPMC]","GPMSOM class","GetInheritedGPOLinks method [GPMC]","IGPMSOM interface","IGPMSOM interface [GPMC]","GetInheritedGPOLinks method","IGPMSOM.GetInheritedGPOLinks","IGPMSOM::GetInheritedGPOLinks","_win32_igpmsom_getinheritedgpolinks","gpmc.igpmsom_getinheritedgpolinks","gpmgmt/IGPMSOM::GetInheritedGPOLinks"]
 old-location: gpmc\igpmsom_getinheritedgpolinks.htm
 tech.root: gpmc
 ms.assetid: 545ab05a-b25e-40a7-b002-6935587764a5

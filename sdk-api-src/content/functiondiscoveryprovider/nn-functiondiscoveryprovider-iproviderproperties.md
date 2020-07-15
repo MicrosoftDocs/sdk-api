@@ -1,7 +1,8 @@
 ---
 UID: NN:functiondiscoveryprovider.IProviderProperties
 title: IProviderProperties (functiondiscoveryprovider.h)
-description: Is optionally implemented by discovery providers to directly create and manage their own property store.helpviewer_keywords: ["IProviderProperties","IProviderProperties interface","IProviderProperties interface","described","functiondiscoveryprovider/IProviderProperties","ncd.iproviderproperties"]
+description: Is optionally implemented by discovery providers to directly create and manage their own property store.
+helpviewer_keywords: ["IProviderProperties","IProviderProperties interface","IProviderProperties interface","described","functiondiscoveryprovider/IProviderProperties","ncd.iproviderproperties"]
 old-location: ncd\iproviderproperties.htm
 tech.root: FunDisc
 ms.assetid: d6d3d1d1-d2fb-409c-be37-3cd286e325a3

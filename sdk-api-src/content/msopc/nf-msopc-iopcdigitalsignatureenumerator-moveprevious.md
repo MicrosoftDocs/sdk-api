@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcDigitalSignatureEnumerator.MovePrevious
 title: IOpcDigitalSignatureEnumerator::MovePrevious (msopc.h)
-description: Moves the current position of the enumerator to the previous IOpcDigitalSignature interface pointer.helpviewer_keywords: ["IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions]","MovePrevious method","IOpcDigitalSignatureEnumerator.MovePrevious","IOpcDigitalSignatureEnumerator::MovePrevious","MovePrevious","MovePrevious method [Open Packaging Conventions]","MovePrevious method [Open Packaging Conventions]","IOpcDigitalSignatureEnumerator interface","msopc/IOpcDigitalSignatureEnumerator::MovePrevious","opc.iopcdigitalsignatureenumerator_moveprevious"]
+description: Moves the current position of the enumerator to the previous IOpcDigitalSignature interface pointer.
+helpviewer_keywords: ["IOpcDigitalSignatureEnumerator interface [Open Packaging Conventions]","MovePrevious method","IOpcDigitalSignatureEnumerator.MovePrevious","IOpcDigitalSignatureEnumerator::MovePrevious","MovePrevious","MovePrevious method [Open Packaging Conventions]","MovePrevious method [Open Packaging Conventions]","IOpcDigitalSignatureEnumerator interface","msopc/IOpcDigitalSignatureEnumerator::MovePrevious","opc.iopcdigitalsignatureenumerator_moveprevious"]
 old-location: opc\iopcdigitalsignatureenumerator_moveprevious.htm
 tech.root: OPC
 ms.assetid: a3972c08-82a1-44e8-b6c6-782294eacfa3

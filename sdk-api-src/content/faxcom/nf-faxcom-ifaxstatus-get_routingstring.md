@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxStatus.get_RoutingString
 title: IFaxStatus::get_RoutingString (faxcom.h)
-description: Retrieves the RoutingString property for the FaxStatus object of a parent FaxPort object. The RoutingString property is a null-terminated string that contains routing information for inbound fax transmissions that is specific to a fax service provider.helpviewer_keywords: ["IFaxStatus interface [Fax Service]","RoutingString property","IFaxStatus.RoutingString","IFaxStatus.get_RoutingString","IFaxStatus::RoutingString","IFaxStatus::get_RoutingString","RoutingString property [Fax Service]","RoutingString property [Fax Service]","IFaxStatus interface","_mfax_ifaxstatus_get_routingstring","fax._mfax_ifaxstatus_get_routingstring","fax._mfax_ifaxstatus_mfax_ifaxstatus_get_routingstring_cpp","faxcom/IFaxStatus::RoutingString","faxcom/IFaxStatus::get_RoutingString","get_RoutingString"]
+description: Retrieves the RoutingString property for the FaxStatus object of a parent FaxPort object. The RoutingString property is a null-terminated string that contains routing information for inbound fax transmissions that is specific to a fax service provider.
+helpviewer_keywords: ["IFaxStatus interface [Fax Service]","RoutingString property","IFaxStatus.RoutingString","IFaxStatus.get_RoutingString","IFaxStatus::RoutingString","IFaxStatus::get_RoutingString","RoutingString property [Fax Service]","RoutingString property [Fax Service]","IFaxStatus interface","_mfax_ifaxstatus_get_routingstring","fax._mfax_ifaxstatus_get_routingstring","fax._mfax_ifaxstatus_mfax_ifaxstatus_get_routingstring_cpp","faxcom/IFaxStatus::RoutingString","faxcom/IFaxStatus::get_RoutingString","get_RoutingString"]
 old-location: fax\_mfax_ifaxstatus_mfax_ifaxstatus_get_routingstring_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_1aav.htm

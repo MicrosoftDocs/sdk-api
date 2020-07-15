@@ -1,7 +1,8 @@
 ---
 UID: NC:dxvahd.PDXVAHDSW_GetVideoProcessorDeviceCaps
 title: PDXVAHDSW_GetVideoProcessorDeviceCaps (dxvahd.h)
-description: Gets the capabilities of a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.helpviewer_keywords: ["PDXVAHDSW_GetVideoProcessorDeviceCaps","PDXVAHDSW_GetVideoProcessorDeviceCaps callback","PDXVAHDSW_GetVideoProcessorDeviceCaps callback function [Media Foundation]","dxvahd/PDXVAHDSW_GetVideoProcessorDeviceCaps","mf.pdxvahdsw_getvideoprocessordevicecaps"]
+description: Gets the capabilities of a software plug-in Microsoft DirectX Video Acceleration High Definition (DXVA-HD) device.
+helpviewer_keywords: ["PDXVAHDSW_GetVideoProcessorDeviceCaps","PDXVAHDSW_GetVideoProcessorDeviceCaps callback","PDXVAHDSW_GetVideoProcessorDeviceCaps callback function [Media Foundation]","dxvahd/PDXVAHDSW_GetVideoProcessorDeviceCaps","mf.pdxvahdsw_getvideoprocessordevicecaps"]
 old-location: mf\pdxvahdsw_getvideoprocessordevicecaps.htm
 tech.root: medfound
 ms.assetid: 09753e3b-7235-4204-ad08-a083a7db4a2b

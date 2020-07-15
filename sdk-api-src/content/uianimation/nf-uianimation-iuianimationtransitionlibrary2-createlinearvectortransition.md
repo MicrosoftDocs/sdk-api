@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationTransitionLibrary2.CreateLinearVectorTransition
 title: IUIAnimationTransitionLibrary2::CreateLinearVectorTransition (uianimation.h)
-description: Creates a linear vector transition in the specified dimension.helpviewer_keywords: ["CreateLinearVectorTransition","CreateLinearVectorTransition method [Windows Animation]","CreateLinearVectorTransition method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateLinearVectorTransition method","IUIAnimationTransitionLibrary2.CreateLinearVectorTransition","IUIAnimationTransitionLibrary2::CreateLinearVectorTransition","uianimation.iuianimationtransitionlibrary2_createlinearvectortransition","uianimation/IUIAnimationTransitionLibrary2::CreateLinearVectorTransition"]
+description: Creates a linear vector transition in the specified dimension.
+helpviewer_keywords: ["CreateLinearVectorTransition","CreateLinearVectorTransition method [Windows Animation]","CreateLinearVectorTransition method [Windows Animation]","IUIAnimationTransitionLibrary2 interface","IUIAnimationTransitionLibrary2 interface [Windows Animation]","CreateLinearVectorTransition method","IUIAnimationTransitionLibrary2.CreateLinearVectorTransition","IUIAnimationTransitionLibrary2::CreateLinearVectorTransition","uianimation.iuianimationtransitionlibrary2_createlinearvectortransition","uianimation/IUIAnimationTransitionLibrary2::CreateLinearVectorTransition"]
 old-location: uianimation\iuianimationtransitionlibrary2_createlinearvectortransition.htm
 tech.root: UIAnimation
 ms.assetid: 71A009AB-FBF3-4624-9B78-45C42B0CEE62

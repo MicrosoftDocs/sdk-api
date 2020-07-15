@@ -1,7 +1,8 @@
 ---
 UID: NF:shidfact.CItemIDFactory.GetDataFromIDList(PCUIDLIST_RELATIVE)
 title: CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE) (shidfact.h)
-description: Gets a read only pointer to the client provided structure in the first ItemID in the IDList.helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","GetDataFromIDList method","CItemIDFactory.GetDataFromIDList","CItemIDFactory.GetDataFromIDList(PCUIDLIST_RELATIVE)","CItemIDFactory::GetDataFromIDList","CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE)","GetDataFromIDList","GetDataFromIDList method [Windows Shell]","GetDataFromIDList method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_getdatafromidlist","shidfact/CItemIDFactory::GetDataFromIDList"]
+description: Gets a read only pointer to the client provided structure in the first ItemID in the IDList.
+helpviewer_keywords: ["CItemIDFactory interface [Windows Shell]","GetDataFromIDList method","CItemIDFactory.GetDataFromIDList","CItemIDFactory.GetDataFromIDList(PCUIDLIST_RELATIVE)","CItemIDFactory::GetDataFromIDList","CItemIDFactory::GetDataFromIDList(PCUIDLIST_RELATIVE)","GetDataFromIDList","GetDataFromIDList method [Windows Shell]","GetDataFromIDList method [Windows Shell]","CItemIDFactory interface","shell.citemidfactory_getdatafromidlist","shidfact/CItemIDFactory::GetDataFromIDList"]
 old-location: shell\citemidfactory_getdatafromidlist.htm
 tech.root: shell
 ms.assetid: E3E2233D-F424-4BF9-AAC4-4DC2FB75E214

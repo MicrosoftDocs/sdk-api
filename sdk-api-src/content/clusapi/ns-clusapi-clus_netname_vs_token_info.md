@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi.CLUS_NETNAME_VS_TOKEN_INFO
 title: CLUS_NETNAME_VS_TOKEN_INFO (clusapi.h)
-description: Contains the data needed to request a token. It is used as the input parameter of the CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN control code.helpviewer_keywords: ["*PCLUS_NETNAME_VS_TOKEN_INFO","*PCLUS_VS_TOKEN_INFO","CLUS_NETNAME_VS_TOKEN_INFO","CLUS_NETNAME_VS_TOKEN_INFO structure [Failover Cluster]","CLUS_VS_TOKEN_INFO","CLUS_VS_TOKEN_INFO structure [Failover Cluster]","PCLUS_NETNAME_VS_TOKEN_INFO","PCLUS_NETNAME_VS_TOKEN_INFO structure pointer [Failover Cluster]","PCLUS_VS_TOKEN_INFO","PCLUS_VS_TOKEN_INFO structure pointer [Failover Cluster]","clusapi/CLUS_NETNAME_VS_TOKEN_INFO","clusapi/CLUS_VS_TOKEN_INFO","clusapi/PCLUS_NETNAME_VS_TOKEN_INFO","clusapi/PCLUS_VS_TOKEN_INFO","mscs.clus_netname_vs_token_info"]
+description: Contains the data needed to request a token. It is used as the input parameter of the CLUSCTL_RESOURCE_NETNAME_GET_VIRTUAL_SERVER_TOKEN control code.
+helpviewer_keywords: ["*PCLUS_NETNAME_VS_TOKEN_INFO","*PCLUS_VS_TOKEN_INFO","CLUS_NETNAME_VS_TOKEN_INFO","CLUS_NETNAME_VS_TOKEN_INFO structure [Failover Cluster]","CLUS_VS_TOKEN_INFO","CLUS_VS_TOKEN_INFO structure [Failover Cluster]","PCLUS_NETNAME_VS_TOKEN_INFO","PCLUS_NETNAME_VS_TOKEN_INFO structure pointer [Failover Cluster]","PCLUS_VS_TOKEN_INFO","PCLUS_VS_TOKEN_INFO structure pointer [Failover Cluster]","clusapi/CLUS_NETNAME_VS_TOKEN_INFO","clusapi/CLUS_VS_TOKEN_INFO","clusapi/PCLUS_NETNAME_VS_TOKEN_INFO","clusapi/PCLUS_VS_TOKEN_INFO","mscs.clus_netname_vs_token_info"]
 old-location: mscs\clus_netname_vs_token_info.htm
 tech.root: MsCS
 ms.assetid: 9b4fc589-f4e4-4fcf-b3df-3b0b6f9f4e65

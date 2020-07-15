@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2ipdef.sockaddr_in6_old
 title: sockaddr_in6_old (ws2ipdef.h)
-description: The sockaddr structure varies depending on the protocol selected.helpviewer_keywords: ["SOCKADDR","SOCKADDR_IN","SOCKADDR_IN6","_win32_sockaddr_2","sockaddr","sockaddr structure [Winsock]","sockaddr_in","sockaddr_in6","sockaddr_in6_old","winsock.sockaddr_2","winsock/sockaddr"]
+description: The sockaddr structure varies depending on the protocol selected.
+helpviewer_keywords: ["SOCKADDR","SOCKADDR_IN","SOCKADDR_IN6","_win32_sockaddr_2","sockaddr","sockaddr structure [Winsock]","sockaddr_in","sockaddr_in6","sockaddr_in6_old","winsock.sockaddr_2","winsock/sockaddr"]
 old-location: winsock\sockaddr_2.htm
 tech.root: WinSock
 ms.assetid: d1392e1c-2b20-425a-8adf-38e665fb6275

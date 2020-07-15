@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Class_GetParentClass
 title: MI_Class_GetParentClass function (mi.h)
-description: Gets the parent class for the specified class.helpviewer_keywords: ["MI_Class_GetParentClass","MI_Class_GetParentClass function [Windows Management Infrastructure (MI)]","mi/MI_Class_GetParentClass","wmi_v2.mi_class_getparentclass"]
+description: Gets the parent class for the specified class.
+helpviewer_keywords: ["MI_Class_GetParentClass","MI_Class_GetParentClass function [Windows Management Infrastructure (MI)]","mi/MI_Class_GetParentClass","wmi_v2.mi_class_getparentclass"]
 old-location: wmi_v2\mi_class_getparentclass.htm
 tech.root: wmi_v2
 ms.assetid: e90e3072-7d01-4959-bfee-c85ea89775a2

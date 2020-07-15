@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.UIntToUInt8
 title: UIntToUInt8 function (intsafe.h)
-description: Converts a value of type UINT to a value of type UINT8.helpviewer_keywords: ["UIntToByte","UIntToUInt8","UIntToUInt8 function [Windows Shell]","intsafe/UIntToUInt8","shell.UIntToUInt8"]
+description: Converts a value of type UINT to a value of type UINT8.
+helpviewer_keywords: ["UIntToByte","UIntToUInt8","UIntToUInt8 function [Windows Shell]","intsafe/UIntToUInt8","shell.UIntToUInt8"]
 old-location: shell\UIntToUInt8.htm
 tech.root: shell
 ms.assetid: c3c63264-6b5d-4d58-947a-d0cc7a051a6d

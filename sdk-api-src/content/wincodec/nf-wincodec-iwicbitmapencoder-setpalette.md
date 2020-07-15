@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapEncoder.SetPalette
 title: IWICBitmapEncoder::SetPalette (wincodec.h)
-description: Sets the global palette for the image.helpviewer_keywords: ["IWICBitmapEncoder interface [Windows Imaging Component]","SetPalette method","IWICBitmapEncoder.SetPalette","IWICBitmapEncoder::SetPalette","SetPalette","SetPalette method [Windows Imaging Component]","SetPalette method [Windows Imaging Component]","IWICBitmapEncoder interface","_wic_codec_iwicbitmapencoder_setpalette","wic._wic_codec_iwicbitmapencoder_setpalette","wincodec/IWICBitmapEncoder::SetPalette"]
+description: Sets the global palette for the image.
+helpviewer_keywords: ["IWICBitmapEncoder interface [Windows Imaging Component]","SetPalette method","IWICBitmapEncoder.SetPalette","IWICBitmapEncoder::SetPalette","SetPalette","SetPalette method [Windows Imaging Component]","SetPalette method [Windows Imaging Component]","IWICBitmapEncoder interface","_wic_codec_iwicbitmapencoder_setpalette","wic._wic_codec_iwicbitmapencoder_setpalette","wincodec/IWICBitmapEncoder::SetPalette"]
 old-location: wic\_wic_codec_iwicbitmapencoder_setpalette.htm
 tech.root: wic
 ms.assetid: 9310f407-d310-402b-bd90-ebc7e8d99361

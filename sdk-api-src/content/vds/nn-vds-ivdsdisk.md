@@ -1,7 +1,8 @@
 ---
 UID: NN:vds.IVdsDisk
 title: IVdsDisk (vds.h)
-description: Provides methods to query and configure basic and dynamic disks.helpviewer_keywords: ["IVdsDisk","IVdsDisk interface [VDS]","IVdsDisk interface [VDS]","described","base.ivdsdisk","vds/IVdsDisk"]
+description: Provides methods to query and configure basic and dynamic disks.
+helpviewer_keywords: ["IVdsDisk","IVdsDisk interface [VDS]","IVdsDisk interface [VDS]","described","base.ivdsdisk","vds/IVdsDisk"]
 old-location: base\ivdsdisk.htm
 tech.root: VDS
 ms.assetid: 0fd6d1d4-daa6-4be3-8749-be98cd7c0288

@@ -1,7 +1,8 @@
 ---
 UID: NF:mgm.MgmGroupEnumerationEnd
 title: MgmGroupEnumerationEnd function (mgm.h)
-description: The MgmGroupEnumerationEnd function releases the specified enumeration handle that was obtained from a previous call to MgmGroupEnumerationStart.helpviewer_keywords: ["MgmGroupEnumerationEnd","MgmGroupEnumerationEnd function [RAS]","_mpr_mgmgroupenumerationend","mgm/MgmGroupEnumerationEnd","rras.mgmgroupenumerationend"]
+description: The MgmGroupEnumerationEnd function releases the specified enumeration handle that was obtained from a previous call to MgmGroupEnumerationStart.
+helpviewer_keywords: ["MgmGroupEnumerationEnd","MgmGroupEnumerationEnd function [RAS]","_mpr_mgmgroupenumerationend","mgm/MgmGroupEnumerationEnd","rras.mgmgroupenumerationend"]
 old-location: rras\mgmgroupenumerationend.htm
 tech.root: RRAS
 ms.assetid: 87a0bd96-c877-443e-a539-a31ab0971869

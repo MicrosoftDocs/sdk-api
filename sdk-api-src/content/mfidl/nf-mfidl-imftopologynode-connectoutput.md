@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFTopologyNode.ConnectOutput
 title: IMFTopologyNode::ConnectOutput (mfidl.h)
-description: Connects an output stream from this node to the input stream of another node.helpviewer_keywords: ["2340fd87-27ea-4f98-97e3-48b9506251a9","ConnectOutput","ConnectOutput method [Media Foundation]","ConnectOutput method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","ConnectOutput method","IMFTopologyNode.ConnectOutput","IMFTopologyNode::ConnectOutput","mf.imftopologynode_connectoutput","mfidl/IMFTopologyNode::ConnectOutput"]
+description: Connects an output stream from this node to the input stream of another node.
+helpviewer_keywords: ["2340fd87-27ea-4f98-97e3-48b9506251a9","ConnectOutput","ConnectOutput method [Media Foundation]","ConnectOutput method [Media Foundation]","IMFTopologyNode interface","IMFTopologyNode interface [Media Foundation]","ConnectOutput method","IMFTopologyNode.ConnectOutput","IMFTopologyNode::ConnectOutput","mf.imftopologynode_connectoutput","mfidl/IMFTopologyNode::ConnectOutput"]
 old-location: mf\imftopologynode_connectoutput.htm
 tech.root: medfound
 ms.assetid: 2340fd87-27ea-4f98-97e3-48b9506251a9

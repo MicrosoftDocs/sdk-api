@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzApplication3.CreateRoleAssignment
 title: IAzApplication3::CreateRoleAssignment (azroles.h)
-description: Creates a new IAzRoleAssignment object with the specified name.helpviewer_keywords: ["CreateRoleAssignment","CreateRoleAssignment method [Security]","CreateRoleAssignment method [Security]","IAzApplication3 interface","IAzApplication3 interface [Security]","CreateRoleAssignment method","IAzApplication3.CreateRoleAssignment","IAzApplication3::CreateRoleAssignment","azroles/IAzApplication3::CreateRoleAssignment","security.iazapplication3_createroleassignment"]
+description: Creates a new IAzRoleAssignment object with the specified name.
+helpviewer_keywords: ["CreateRoleAssignment","CreateRoleAssignment method [Security]","CreateRoleAssignment method [Security]","IAzApplication3 interface","IAzApplication3 interface [Security]","CreateRoleAssignment method","IAzApplication3.CreateRoleAssignment","IAzApplication3::CreateRoleAssignment","azroles/IAzApplication3::CreateRoleAssignment","security.iazapplication3_createroleassignment"]
 old-location: security\iazapplication3_createroleassignment.htm
 tech.root: SecAuthZ
 ms.assetid: 0646601d-97e6-437a-abfe-99fdb5bb1354

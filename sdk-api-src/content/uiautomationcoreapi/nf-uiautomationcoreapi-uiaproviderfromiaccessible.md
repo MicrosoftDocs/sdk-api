@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaProviderFromIAccessible
 title: UiaProviderFromIAccessible function (uiautomationcoreapi.h)
-description: Creates a Microsoft UI Automation provider based on the specified Microsoft Active Accessibility object.helpviewer_keywords: ["UIA_PFIA_DEFAULT","UIA_PFIA_UNWRAP_BRIDGE","UiaProviderFromIAccessible","UiaProviderFromIAccessible function [Windows Accessibility]","uiautomationcoreapi/UiaProviderFromIAccessible","winauto.uiauto_UiaProviderFromIAccessibleFunction"]
+description: Creates a Microsoft UI Automation provider based on the specified Microsoft Active Accessibility object.
+helpviewer_keywords: ["UIA_PFIA_DEFAULT","UIA_PFIA_UNWRAP_BRIDGE","UiaProviderFromIAccessible","UiaProviderFromIAccessible function [Windows Accessibility]","uiautomationcoreapi/UiaProviderFromIAccessible","winauto.uiauto_UiaProviderFromIAccessibleFunction"]
 old-location: winauto\uiauto_UiaProviderFromIAccessibleFunction.htm
 tech.root: WinAuto
 ms.assetid: 9858B3B2-CE93-4209-BAFE-BFC911042800

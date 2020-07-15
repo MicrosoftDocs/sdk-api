@@ -1,7 +1,8 @@
 ---
 UID: NS:cmdtree.tagDBLIKE
 title: DBLIKE (cmdtree.h)
-description: The DBLIKE structure represents specific information required by the DBOP_like operator.helpviewer_keywords: ["DBLIKE","DBLIKE structure [Indexing Service]","_idxs_DBLIKE","cmdtree/DBLIKE","indexsrv.dblike","tagDBLIKE"]
+description: The DBLIKE structure represents specific information required by the DBOP_like operator.
+helpviewer_keywords: ["DBLIKE","DBLIKE structure [Indexing Service]","_idxs_DBLIKE","cmdtree/DBLIKE","indexsrv.dblike","tagDBLIKE"]
 old-location: indexsrv\dblike.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_84rp.htm

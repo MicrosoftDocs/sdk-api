@@ -66,6 +66,7 @@ Retrieves the type and data for a list of value names associated with an open re
 ### -param hKey [in]
 
 A handle to an open registry key. The key must have been opened with the KEY_QUERY_VALUE access right. For more information, see 
+
 <a href="/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
 
 
@@ -75,6 +76,7 @@ This handle is returned by the
 <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
 <a href="/windows/desktop/api/winreg/nf-winreg-regopenkeytransacteda">RegOpenKeyTransacted</a> function. It can also be one of the following 
 <a href="/windows/desktop/SysInfo/predefined-keys">predefined keys</a>:<dl>
+
 <dd><b>HKEY_CLASSES_ROOT</b></dd>
 <dd><b>HKEY_CURRENT_CONFIG</b></dd>
 <dd><b>HKEY_CURRENT_USER</b></dd>
@@ -88,7 +90,8 @@ This handle is returned by the
 ### -param val_list [out]
 
 A pointer to an array of 
-VALENT structures that describe one or more value entries. On input, the <b>ve_valuename</b> member of each structure must contain a pointer to the name of a value to retrieve. The function fails if any of the specified values do not exist in the specified key. 
+
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/ns-winreg-value_enta">VALENT</a> structures that describe one or more value entries. On input, the <b>ve_valuename</b> member of each structure must contain a pointer to the name of a value to retrieve. The function fails if any of the specified values do not exist in the specified key. 
 
 
 
@@ -183,16 +186,21 @@ If the target key is a dynamic key, its provider must provide all the values in 
 
 
 
+
+> [!NOTE]
+> The winreg.h header defines RegQueryMultipleValues as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
+
 ## -see-also
 
 
-
-
-<a href="/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
-
-
-
-<a href="/windows/desktop/SysInfo/registry">Registry Overview</a>
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
 
 
+<a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/ns-winreg-value_enta">VALENT</a>
+ 

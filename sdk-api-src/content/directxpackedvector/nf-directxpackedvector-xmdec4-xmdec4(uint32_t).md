@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMDEC4.XMDEC4(uint32_t)
 title: XMDEC4::XMDEC4(uint32_t) (directxpackedvector.h)
-description: Initializes a new instance of XMDEC4 from a uint32_t variable containing component data in a packed format.helpviewer_keywords: ["XMDEC4","XMDEC4 constructor [DirectX Math Support APIs]","XMDEC4 constructor [DirectX Math Support APIs]","XMDEC4 structure","XMDEC4 structure [DirectX Math Support APIs]","XMDEC4 constructor","XMDEC4.XMDEC4","XMDEC4.XMDEC4(uint32_t)","XMDEC4::XMDEC4","XMDEC4::XMDEC4(uint32_t)","dxmath.xmdec4_ctor_2"]
+description: Initializes a new instance of XMDEC4 from a uint32_t variable containing component data in a packed format.
+helpviewer_keywords: ["XMDEC4","XMDEC4 constructor [DirectX Math Support APIs]","XMDEC4 constructor [DirectX Math Support APIs]","XMDEC4 structure","XMDEC4 structure [DirectX Math Support APIs]","XMDEC4 constructor","XMDEC4.XMDEC4","XMDEC4.XMDEC4(uint32_t)","XMDEC4::XMDEC4","XMDEC4::XMDEC4(uint32_t)","dxmath.xmdec4_ctor_2"]
 old-location: dxmath\xmdec4_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMDEC4.#ctor(uint32_t)

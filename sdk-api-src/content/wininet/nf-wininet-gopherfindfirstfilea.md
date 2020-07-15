@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.GopherFindFirstFileA
 title: GopherFindFirstFileA function (wininet.h)
-description: Uses a Gopher locator and search criteria to create a session with the server and locate the requested documents, binary files, index servers, or directory trees.helpviewer_keywords: ["GopherFindFirstFile","GopherFindFirstFile function [WinINet]","GopherFindFirstFileA","GopherFindFirstFileW","_inet_gopherfindfirstfile_function","wininet.gopherfindfirstfile","wininet/GopherFindFirstFile","wininet/GopherFindFirstFileA","wininet/GopherFindFirstFileW"]
+description: Uses a Gopher locator and search criteria to create a session with the server and locate the requested documents, binary files, index servers, or directory trees.
+helpviewer_keywords: ["GopherFindFirstFile","GopherFindFirstFile function [WinINet]","GopherFindFirstFileA","GopherFindFirstFileW","_inet_gopherfindfirstfile_function","wininet.gopherfindfirstfile","wininet/GopherFindFirstFile","wininet/GopherFindFirstFileA","wininet/GopherFindFirstFileW"]
 old-location: wininet\gopherfindfirstfile.htm
 tech.root: wininet
 ms.assetid: 801dc601-9d1d-4f7d-acf0-b36ea2314d70
@@ -196,6 +197,10 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines GopherFindFirstFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

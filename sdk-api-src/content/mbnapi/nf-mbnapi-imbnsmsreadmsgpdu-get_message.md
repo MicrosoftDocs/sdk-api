@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnSmsReadMsgPdu.get_Message
 title: IMbnSmsReadMsgPdu::get_Message (mbnapi.h)
-description: Message in WMT format as used by CDMA devices.helpviewer_keywords: ["IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks]","Message property","IMbnSmsReadMsgPdu.Message","IMbnSmsReadMsgPdu.get_Message","IMbnSmsReadMsgPdu::Message","IMbnSmsReadMsgPdu::get_Message","Message property [Microsoft Broadband Networks]","Message property [Microsoft Broadband Networks]","IMbnSmsReadMsgPdu interface","get_Message","mbn.imbnsmsreadmsgpdu_message","mbnapi/IMbnSmsReadMsgPdu::Message","mbnapi/IMbnSmsReadMsgPdu::get_Message"]
+description: Message in WMT format as used by CDMA devices.
+helpviewer_keywords: ["IMbnSmsReadMsgPdu interface [Microsoft Broadband Networks]","Message property","IMbnSmsReadMsgPdu.Message","IMbnSmsReadMsgPdu.get_Message","IMbnSmsReadMsgPdu::Message","IMbnSmsReadMsgPdu::get_Message","Message property [Microsoft Broadband Networks]","Message property [Microsoft Broadband Networks]","IMbnSmsReadMsgPdu interface","get_Message","mbn.imbnsmsreadmsgpdu_message","mbnapi/IMbnSmsReadMsgPdu::Message","mbnapi/IMbnSmsReadMsgPdu::get_Message"]
 old-location: mbn\imbnsmsreadmsgpdu_message.htm
 tech.root: mbn
 ms.assetid: 83135a78-096c-4690-be07-a64febecd66c

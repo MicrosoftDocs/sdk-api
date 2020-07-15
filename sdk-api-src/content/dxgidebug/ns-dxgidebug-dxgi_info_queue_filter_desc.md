@@ -1,7 +1,8 @@
 ---
 UID: NS:dxgidebug.DXGI_INFO_QUEUE_FILTER_DESC
 title: DXGI_INFO_QUEUE_FILTER_DESC (dxgidebug.h)
-description: Describes the types of messages to allow or deny to pass through a filter.helpviewer_keywords: ["DXGI_INFO_QUEUE_FILTER_DESC","DXGI_INFO_QUEUE_FILTER_DESC structure [DXGI]","direct3ddxgi.dxgi_info_queue_filter_desc","dxgidebug/DXGI_INFO_QUEUE_FILTER_DESC"]
+description: Describes the types of messages to allow or deny to pass through a filter.
+helpviewer_keywords: ["DXGI_INFO_QUEUE_FILTER_DESC","DXGI_INFO_QUEUE_FILTER_DESC structure [DXGI]","direct3ddxgi.dxgi_info_queue_filter_desc","dxgidebug/DXGI_INFO_QUEUE_FILTER_DESC"]
 old-location: direct3ddxgi\dxgi_info_queue_filter_desc.htm
 tech.root: direct3ddxgi
 ms.assetid: B916731B-362B-46AD-BC18-71339A2935B4

@@ -1,7 +1,8 @@
 ---
 UID: NS:dxvahd._DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA
 title: DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA (dxvahd.h)
-description: Specifies the pixel aspect ratio (PAR) for the source and destination rectangles.helpviewer_keywords: ["DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA","DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure [Media Foundation]","PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA","PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure pointer [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA","dxvahd/PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA","mf.dxvahd_stream_state_aspect_ratio_data"]
+description: Specifies the pixel aspect ratio (PAR) for the source and destination rectangles.
+helpviewer_keywords: ["DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA","DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure [Media Foundation]","PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA","PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA structure pointer [Media Foundation]","dxvahd/DXVAHD_STREAM_STATE_ASPECT_RATIO_DATA","dxvahd/PDXVAHD_STREAM_STATE_ASPECT_RATIO_DATA","mf.dxvahd_stream_state_aspect_ratio_data"]
 old-location: mf\dxvahd_stream_state_aspect_ratio_data.htm
 tech.root: medfound
 ms.assetid: dd7ab16e-2dc6-462e-b55d-b93a14c362cf

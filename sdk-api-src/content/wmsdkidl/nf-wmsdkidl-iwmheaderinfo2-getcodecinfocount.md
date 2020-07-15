@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo2.GetCodecInfoCount
 title: IWMHeaderInfo2::GetCodecInfoCount (wmsdkidl.h)
-description: The GetCodecInfoCount method retrieves the number of codecs for which information is available.helpviewer_keywords: ["GetCodecInfoCount","GetCodecInfoCount method [windows Media Format]","GetCodecInfoCount method [windows Media Format]","IWMHeaderInfo2 interface","GetCodecInfoCount method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo2 interface [windows Media Format]","GetCodecInfoCount method","IWMHeaderInfo2.GetCodecInfoCount","IWMHeaderInfo2::GetCodecInfoCount","IWMHeaderInfo2GetCodecInfoCount","IWMHeaderInfo3 interface [windows Media Format]","GetCodecInfoCount method","IWMHeaderInfo3::GetCodecInfoCount","wmformat.iwmheaderinfo2_getcodecinfocount","wmsdkidl/IWMHeaderInfo2::GetCodecInfoCount","wmsdkidl/IWMHeaderInfo3::GetCodecInfoCount"]
+description: The GetCodecInfoCount method retrieves the number of codecs for which information is available.
+helpviewer_keywords: ["GetCodecInfoCount","GetCodecInfoCount method [windows Media Format]","GetCodecInfoCount method [windows Media Format]","IWMHeaderInfo2 interface","GetCodecInfoCount method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo2 interface [windows Media Format]","GetCodecInfoCount method","IWMHeaderInfo2.GetCodecInfoCount","IWMHeaderInfo2::GetCodecInfoCount","IWMHeaderInfo2GetCodecInfoCount","IWMHeaderInfo3 interface [windows Media Format]","GetCodecInfoCount method","IWMHeaderInfo3::GetCodecInfoCount","wmformat.iwmheaderinfo2_getcodecinfocount","wmsdkidl/IWMHeaderInfo2::GetCodecInfoCount","wmsdkidl/IWMHeaderInfo3::GetCodecInfoCount"]
 old-location: wmformat\iwmheaderinfo2_getcodecinfocount.htm
 tech.root: wmformat
 ms.assetid: 1f77f362-5cc7-4d12-9b5f-0436d490b46d

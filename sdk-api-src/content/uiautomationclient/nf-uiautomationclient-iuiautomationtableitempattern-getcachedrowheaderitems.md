@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTableItemPattern.GetCachedRowHeaderItems
 title: IUIAutomationTableItemPattern::GetCachedRowHeaderItems (uiautomationclient.h)
-description: Retrieves the cached row headers associated with a table item or cell.helpviewer_keywords: ["GetCachedRowHeaderItems","GetCachedRowHeaderItems method [Windows Accessibility]","GetCachedRowHeaderItems method [Windows Accessibility]","IUIAutomationTableItemPattern interface","IUIAutomationTableItemPattern interface [Windows Accessibility]","GetCachedRowHeaderItems method","IUIAutomationTableItemPattern.GetCachedRowHeaderItems","IUIAutomationTableItemPattern::GetCachedRowHeaderItems","uiauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems","uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems","uiautomationclient/IUIAutomationTableItemPattern::GetCachedRowHeaderItems","winauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems"]
+description: Retrieves the cached row headers associated with a table item or cell.
+helpviewer_keywords: ["GetCachedRowHeaderItems","GetCachedRowHeaderItems method [Windows Accessibility]","GetCachedRowHeaderItems method [Windows Accessibility]","IUIAutomationTableItemPattern interface","IUIAutomationTableItemPattern interface [Windows Accessibility]","GetCachedRowHeaderItems method","IUIAutomationTableItemPattern.GetCachedRowHeaderItems","IUIAutomationTableItemPattern::GetCachedRowHeaderItems","uiauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems","uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems","uiautomationclient/IUIAutomationTableItemPattern::GetCachedRowHeaderItems","winauto.uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems"]
 old-location: winauto\uiauto_IUIAutomationTableItemPattern_GetCachedRowHeaderItems.htm
 tech.root: WinAuto
 ms.assetid: 69d4a632-8e35-4569-8c14-f56e9fd84c34

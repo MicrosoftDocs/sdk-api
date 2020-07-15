@@ -1,7 +1,8 @@
 ---
 UID: NF:cmnquery.IQueryForm.Initialize
 title: IQueryForm::Initialize (cmnquery.h)
-description: Initializes the query form extension object.helpviewer_keywords: ["IQueryForm interface [Active Directory]","Initialize method","IQueryForm.Initialize","IQueryForm::Initialize","Initialize","Initialize method [Active Directory]","Initialize method [Active Directory]","IQueryForm interface","_glines_iqueryform_initialize","ad.iqueryform__initialize","ad.iqueryform_initialize","cmnquery/IQueryForm::Initialize"]
+description: Initializes the query form extension object.
+helpviewer_keywords: ["IQueryForm interface [Active Directory]","Initialize method","IQueryForm.Initialize","IQueryForm::Initialize","Initialize","Initialize method [Active Directory]","Initialize method [Active Directory]","IQueryForm interface","_glines_iqueryform_initialize","ad.iqueryform__initialize","ad.iqueryform_initialize","cmnquery/IQueryForm::Initialize"]
 old-location: ad\iqueryform_initialize.htm
 tech.root: ad
 ms.assetid: d1250c69-f29b-44f1-b123-13818d26e322

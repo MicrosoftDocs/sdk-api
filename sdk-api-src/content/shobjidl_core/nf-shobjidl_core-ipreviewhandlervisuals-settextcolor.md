@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IPreviewHandlerVisuals.SetTextColor
 title: IPreviewHandlerVisuals::SetTextColor (shobjidl_core.h)
-description: Sets the color of the text within the preview handler.helpviewer_keywords: ["IPreviewHandlerVisuals interface [Windows Shell]","SetTextColor method","IPreviewHandlerVisuals.SetTextColor","IPreviewHandlerVisuals::SetTextColor","SetTextColor","SetTextColor method [Windows Shell]","SetTextColor method [Windows Shell]","IPreviewHandlerVisuals interface","_shell_IPreviewHandlerVisuals_SetTextColor","shell.IPreviewHandlerVisuals_SetTextColor","shobjidl_core/IPreviewHandlerVisuals::SetTextColor"]
+description: Sets the color of the text within the preview handler.
+helpviewer_keywords: ["IPreviewHandlerVisuals interface [Windows Shell]","SetTextColor method","IPreviewHandlerVisuals.SetTextColor","IPreviewHandlerVisuals::SetTextColor","SetTextColor","SetTextColor method [Windows Shell]","SetTextColor method [Windows Shell]","IPreviewHandlerVisuals interface","_shell_IPreviewHandlerVisuals_SetTextColor","shell.IPreviewHandlerVisuals_SetTextColor","shobjidl_core/IPreviewHandlerVisuals::SetTextColor"]
 old-location: shell\IPreviewHandlerVisuals_SetTextColor.htm
 tech.root: shell
 ms.assetid: 07278485-51a6-4729-8569-250478382a1e

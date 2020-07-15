@@ -1,7 +1,8 @@
 ---
 UID: NF:effects.IWMPEffects.GoFullscreen
 title: IWMPEffects::GoFullscreen (effects.h)
-description: The GoFullscreen method instructs the visualization to switch to full-screen mode.helpviewer_keywords: ["EffectsGoFullscreen","GoFullscreen","GoFullscreen method [Windows Media Player]","GoFullscreen method [Windows Media Player]","IWMPEffects interface","IWMPEffects interface [Windows Media Player]","GoFullscreen method","IWMPEffects.GoFullscreen","IWMPEffects::GoFullscreen","effects/IWMPEffects::GoFullscreen","wmp.iwmpeffects_gofullscreen"]
+description: The GoFullscreen method instructs the visualization to switch to full-screen mode.
+helpviewer_keywords: ["EffectsGoFullscreen","GoFullscreen","GoFullscreen method [Windows Media Player]","GoFullscreen method [Windows Media Player]","IWMPEffects interface","IWMPEffects interface [Windows Media Player]","GoFullscreen method","IWMPEffects.GoFullscreen","IWMPEffects::GoFullscreen","effects/IWMPEffects::GoFullscreen","wmp.iwmpeffects_gofullscreen"]
 old-location: wmp\iwmpeffects_gofullscreen.htm
 tech.root: WMP
 ms.assetid: daf69206-5756-4504-9738-e16b9af39790

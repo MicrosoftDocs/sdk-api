@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetClassWord
 title: SetClassWord function (winuser.h)
-description: Replaces the 16-bit (WORD) value at the specified offset into the extra class memory for the window class to which the specified window belongs.helpviewer_keywords: ["SetClassWord","SetClassWord function [Windows and Messages]","_win32_SetClassWord","_win32_setclassword_cpp","winmsg.setclassword","winui._win32_setclassword","winuser/SetClassWord"]
+description: Replaces the 16-bit (WORD) value at the specified offset into the extra class memory for the window class to which the specified window belongs.
+helpviewer_keywords: ["SetClassWord","SetClassWord function [Windows and Messages]","_win32_SetClassWord","_win32_setclassword_cpp","winmsg.setclassword","winui._win32_setclassword","winuser/SetClassWord"]
 old-location: winmsg\setclassword.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setclassword.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.LoadKeyboardLayoutW
 title: LoadKeyboardLayoutW function (winuser.h)
-description: Loads a new input locale identifier (formerly called the keyboard layout) into the system.helpviewer_keywords: ["KLF_ACTIVATE","KLF_NOTELLSHELL","KLF_REORDER","KLF_REPLACELANG","KLF_SETFORPROCESS","KLF_SUBSTITUTE_OK","KLF_UNLOADPREVIOUS","LoadKeyboardLayout","LoadKeyboardLayout function [Keyboard and Mouse Input]","LoadKeyboardLayoutA","LoadKeyboardLayoutW","_win32_LoadKeyboardLayout","_win32_loadkeyboardlayout_cpp","inputdev.loadkeyboardlayout","winui._win32_loadkeyboardlayout","winuser/LoadKeyboardLayout","winuser/LoadKeyboardLayoutA","winuser/LoadKeyboardLayoutW"]
+description: Loads a new input locale identifier (formerly called the keyboard layout) into the system.
+helpviewer_keywords: ["KLF_ACTIVATE","KLF_NOTELLSHELL","KLF_REORDER","KLF_REPLACELANG","KLF_SETFORPROCESS","KLF_SUBSTITUTE_OK","KLF_UNLOADPREVIOUS","LoadKeyboardLayout","LoadKeyboardLayout function [Keyboard and Mouse Input]","LoadKeyboardLayoutA","LoadKeyboardLayoutW","_win32_LoadKeyboardLayout","_win32_loadkeyboardlayout_cpp","inputdev.loadkeyboardlayout","winui._win32_loadkeyboardlayout","winuser/LoadKeyboardLayout","winuser/LoadKeyboardLayoutA","winuser/LoadKeyboardLayoutW"]
 old-location: inputdev\loadkeyboardlayout.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\loadkeyboardlayout.htm
@@ -198,6 +199,10 @@ An application can and will typically load the default input locale identifier o
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines LoadKeyboardLayout as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

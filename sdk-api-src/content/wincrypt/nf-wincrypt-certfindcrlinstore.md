@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertFindCRLInStore
 title: CertFindCRLInStore function (wincrypt.h)
-description: Finds the first or next certificate revocation list (CRL) context in a certificate store that matches a search criterion established by the dwFindType parameter and the associated pvFindPara parameter.helpviewer_keywords: ["CRL_FIND_ANY","CRL_FIND_EXISTING","CRL_FIND_ISSUED_BY","CRL_FIND_ISSUED_BY_AKI_FLAG","CRL_FIND_ISSUED_BY_BASE_FLAG","CRL_FIND_ISSUED_BY_DELTA_FLAG","CRL_FIND_ISSUED_BY_SIGNATURE_FLAG","CRL_FIND_ISSUED_FOR","CRL_FIND_ISSUED_FOR_SET_STRONG_PROPERTIES_FLAG","CertFindCRLInStore","CertFindCRLInStore function [Security]","_crypto2_certfindcrlinstore","security.certfindcrlinstore","wincrypt/CertFindCRLInStore"]
+description: Finds the first or next certificate revocation list (CRL) context in a certificate store that matches a search criterion established by the dwFindType parameter and the associated pvFindPara parameter.
+helpviewer_keywords: ["CRL_FIND_ANY","CRL_FIND_EXISTING","CRL_FIND_ISSUED_BY","CRL_FIND_ISSUED_BY_AKI_FLAG","CRL_FIND_ISSUED_BY_BASE_FLAG","CRL_FIND_ISSUED_BY_DELTA_FLAG","CRL_FIND_ISSUED_BY_SIGNATURE_FLAG","CRL_FIND_ISSUED_FOR","CRL_FIND_ISSUED_FOR_SET_STRONG_PROPERTIES_FLAG","CertFindCRLInStore","CertFindCRLInStore function [Security]","_crypto2_certfindcrlinstore","security.certfindcrlinstore","wincrypt/CertFindCRLInStore"]
 old-location: security\certfindcrlinstore.htm
 tech.root: SecCrypto
 ms.assetid: 3e481912-204a-4d86-ab67-81f8ae4d1aaa

@@ -1,7 +1,8 @@
 ---
 UID: NN:ehstorapi.IEnhancedStorageSiloAction
 title: IEnhancedStorageSiloAction (ehstorapi.h)
-description: Use this interface as a point of access for actions involving IEEE 1667 silos.helpviewer_keywords: ["IEnhancedStorageSiloAction","IEnhancedStorageSiloAction interface [Enhanced Storage]","IEnhancedStorageSiloAction interface [Enhanced Storage]","described","ehstorapi/IEnhancedStorageSiloAction","enstor.ienhancedstoragesiloaction"]
+description: Use this interface as a point of access for actions involving IEEE 1667 silos.
+helpviewer_keywords: ["IEnhancedStorageSiloAction","IEnhancedStorageSiloAction interface [Enhanced Storage]","IEnhancedStorageSiloAction interface [Enhanced Storage]","described","ehstorapi/IEnhancedStorageSiloAction","enstor.ienhancedstoragesiloaction"]
 old-location: enstor\ienhancedstoragesiloaction.htm
 tech.root: enstor
 ms.assetid: 6deb7e22-f153-45fd-98ea-53a2e5692df7

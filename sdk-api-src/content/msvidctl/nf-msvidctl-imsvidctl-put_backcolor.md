@@ -1,7 +1,8 @@
 ---
 UID: NF:msvidctl.IMSVidCtl.put_BackColor
 title: IMSVidCtl::put_BackColor (msvidctl.h)
-description: The put_BackColor method specifies the background color of the Video Control.helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","put_BackColor method","IMSVidCtl.put_BackColor","IMSVidCtl::put_BackColor","IMSVidCtlput_BackColor","mstv.imsvidctl_put_backcolor","msvidctl/IMSVidCtl::put_BackColor","put_BackColor","put_BackColor method [Microsoft TV Technologies]","put_BackColor method [Microsoft TV Technologies]","IMSVidCtl interface"]
+description: The put_BackColor method specifies the background color of the Video Control.
+helpviewer_keywords: ["IMSVidCtl interface [Microsoft TV Technologies]","put_BackColor method","IMSVidCtl.put_BackColor","IMSVidCtl::put_BackColor","IMSVidCtlput_BackColor","mstv.imsvidctl_put_backcolor","msvidctl/IMSVidCtl::put_BackColor","put_BackColor","put_BackColor method [Microsoft TV Technologies]","put_BackColor method [Microsoft TV Technologies]","IMSVidCtl interface"]
 old-location: mstv\imsvidctl_put_backcolor.htm
 tech.root: mstv
 ms.assetid: d2812c19-2b69-46a8-98ab-7e1eee43f383

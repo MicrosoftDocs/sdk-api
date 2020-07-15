@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagPANOSE
 title: PANOSE (wingdi.h)
-description: The PANOSE structure describes the PANOSE font-classification values for a TrueType font. These characteristics are then used to associate the font with other fonts of similar appearance but different names.helpviewer_keywords: ["*LPPANOSE","LPPANOSE","LPPANOSE structure pointer [Windows GDI]","PANOSE","PANOSE structure [Windows GDI]","_win32_PANOSE_str","gdi.panose","wingdi/LPPANOSE","wingdi/PANOSE"]
+description: The PANOSE structure describes the PANOSE font-classification values for a TrueType font. These characteristics are then used to associate the font with other fonts of similar appearance but different names.
+helpviewer_keywords: ["*LPPANOSE","LPPANOSE","LPPANOSE structure pointer [Windows GDI]","PANOSE","PANOSE structure [Windows GDI]","_win32_PANOSE_str","gdi.panose","wingdi/LPPANOSE","wingdi/PANOSE"]
 old-location: gdi\panose.htm
 tech.root: gdi
 ms.assetid: 18aa4a36-8e47-4e35-973f-376d412ed923

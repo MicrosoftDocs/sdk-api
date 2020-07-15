@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcSignaturePartReferenceEnumerator
 title: IOpcSignaturePartReferenceEnumerator (msopc.h)
-description: A read-only enumerator of IOpcSignaturePartReference interface pointers.helpviewer_keywords: ["IOpcSignaturePartReferenceEnumerator","IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions]","IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions]","described","msopc/IOpcSignaturePartReferenceEnumerator","opc.iopcsignaturepartreferenceenumerator"]
+description: A read-only enumerator of IOpcSignaturePartReference interface pointers.
+helpviewer_keywords: ["IOpcSignaturePartReferenceEnumerator","IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions]","IOpcSignaturePartReferenceEnumerator interface [Open Packaging Conventions]","described","msopc/IOpcSignaturePartReferenceEnumerator","opc.iopcsignaturepartreferenceenumerator"]
 old-location: opc\iopcsignaturepartreferenceenumerator.htm
 tech.root: OPC
 ms.assetid: 8a54debe-3ac6-471d-b5a5-c3512da4d079

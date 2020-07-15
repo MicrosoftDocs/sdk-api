@@ -1,7 +1,8 @@
 ---
 UID: NN:oledlg.IOleUIObjInfoA
 title: IOleUIObjInfoA (oledlg.h)
-description: Implemented by containers and used by the container's Object Properties dialog box and by the Convert dialog box.helpviewer_keywords: ["IOleUIObjInfo","IOleUIObjInfo interface [COM]","IOleUIObjInfo interface [COM]","described","IOleUIObjInfoA","IOleUIObjInfoW","_ole_IOleUIObjInfo","com.ioleuiobjinfo","oledlg/IOleUIObjInfo"]
+description: Implemented by containers and used by the container's Object Properties dialog box and by the Convert dialog box.
+helpviewer_keywords: ["IOleUIObjInfo","IOleUIObjInfo interface [COM]","IOleUIObjInfo interface [COM]","described","IOleUIObjInfoA","IOleUIObjInfoW","_ole_IOleUIObjInfo","com.ioleuiobjinfo","oledlg/IOleUIObjInfo"]
 old-location: com\ioleuiobjinfo.htm
 tech.root: com
 ms.assetid: 508dccb3-e98b-4f62-8bc3-98ca2b0d1349
@@ -130,4 +131,9 @@ Sets the view information associated with the object.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The oledlg.h header defines IOleUIObjInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

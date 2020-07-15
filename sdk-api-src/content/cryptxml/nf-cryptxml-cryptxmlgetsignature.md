@@ -1,7 +1,8 @@
 ---
 UID: NF:cryptxml.CryptXmlGetSignature
 title: CryptXmlGetSignature function (cryptxml.h)
-description: Returns an XML Signature element.helpviewer_keywords: ["CryptXmlGetSignature","CryptXmlGetSignature function [Security]","cryptxml/CryptXmlGetSignature","security.cryptxmlgetsignature"]
+description: Returns an XML Signature element.
+helpviewer_keywords: ["CryptXmlGetSignature","CryptXmlGetSignature function [Security]","cryptxml/CryptXmlGetSignature","security.cryptxmlgetsignature"]
 old-location: security\cryptxmlgetsignature.htm
 tech.root: SecCrypto
 ms.assetid: ef6748eb-1d3b-43e0-9525-2b588c2ae13f

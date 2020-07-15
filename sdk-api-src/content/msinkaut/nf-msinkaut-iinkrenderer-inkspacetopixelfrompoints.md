@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRenderer.InkSpaceToPixelFromPoints
 title: IInkRenderer::InkSpaceToPixelFromPoints (msinkaut.h)
-description: Converts an array of points in ink space coordinates to an array of points in pixel space.helpviewer_keywords: ["IInkRenderer interface [Tablet PC]","InkSpaceToPixelFromPoints method","IInkRenderer.InkSpaceToPixelFromPoints","IInkRenderer::InkSpaceToPixelFromPoints","InkSpaceToPixelFromPoints","InkSpaceToPixelFromPoints method [Tablet PC]","InkSpaceToPixelFromPoints method [Tablet PC]","IInkRenderer interface","e2b46752-fd9d-4e28-8f53-f16d7573ec89","msinkaut/IInkRenderer::InkSpaceToPixelFromPoints","tablet.inkrenderer_inkspacetopixelfrompoints"]
+description: Converts an array of points in ink space coordinates to an array of points in pixel space.
+helpviewer_keywords: ["IInkRenderer interface [Tablet PC]","InkSpaceToPixelFromPoints method","IInkRenderer.InkSpaceToPixelFromPoints","IInkRenderer::InkSpaceToPixelFromPoints","InkSpaceToPixelFromPoints","InkSpaceToPixelFromPoints method [Tablet PC]","InkSpaceToPixelFromPoints method [Tablet PC]","IInkRenderer interface","e2b46752-fd9d-4e28-8f53-f16d7573ec89","msinkaut/IInkRenderer::InkSpaceToPixelFromPoints","tablet.inkrenderer_inkspacetopixelfrompoints"]
 old-location: tablet\inkrenderer_inkspacetopixelfrompoints.htm
 tech.root: tablet
 ms.assetid: e2b46752-fd9d-4e28-8f53-f16d7573ec89

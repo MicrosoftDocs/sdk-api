@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmquota.IFsrmQuota
 title: IFsrmQuota (fsrmquota.h)
-description: Used to define a quota for a specified directory and to retrieve use statistics.helpviewer_keywords: ["IFsrmQuota","IFsrmQuota interface [File Server Resource Manager]","IFsrmQuota interface [File Server Resource Manager]","described","fs.ifsrmquota","fsrm.ifsrmquota","fsrm/IFsrmQuota"]
+description: Used to define a quota for a specified directory and to retrieve use statistics.
+helpviewer_keywords: ["IFsrmQuota","IFsrmQuota interface [File Server Resource Manager]","IFsrmQuota interface [File Server Resource Manager]","described","fs.ifsrmquota","fsrm.ifsrmquota","fsrm/IFsrmQuota"]
 old-location: fsrm\ifsrmquota.htm
 tech.root: fsrm
 ms.assetid: 91ced22a-01b9-4fcf-b61a-c99e6f0286f3

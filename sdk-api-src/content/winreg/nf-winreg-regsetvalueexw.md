@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegSetValueExW
 title: RegSetValueExW function (winreg.h)
-description: Sets the data and type of a specified value under a registry key.helpviewer_keywords: ["RegSetValueEx","RegSetValueEx function","RegSetValueExA","RegSetValueExW","_win32_regsetvalueex","base.regsetvalueex","winreg/RegSetValueEx","winreg/RegSetValueExA","winreg/RegSetValueExW"]
+description: Sets the data and type of a specified value under a registry key.
+helpviewer_keywords: ["RegSetValueEx","RegSetValueEx function","RegSetValueExA","RegSetValueExW","_win32_regsetvalueex","base.regsetvalueex","winreg/RegSetValueEx","winreg/RegSetValueExA","winreg/RegSetValueExW"]
 old-location: base\regsetvalueex.htm
 tech.root: SysInfo
 ms.assetid: 29b0e27c-4999-4e92-bd8b-bba74920bccc
@@ -54,25 +55,16 @@ ms.custom: 19H1
 
 # RegSetValueExW function
 
-
 ## -description
-
 
 Sets the data and type of a specified value under a registry key.
 
-
 ## -parameters
-
-
-
 
 ### -param hKey [in]
 
 A handle to an open registry key. The key must have been opened with the KEY_SET_VALUE access right. For more information, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-key-security-and-access-rights">Registry Key Security and Access Rights</a>. 
-
-
-
 
 This handle is returned by the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeytransacteda">RegCreateKeyTransacted</a>, <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>, or 
@@ -88,14 +80,9 @@ This handle is returned by the
 <li><b>HKEY_PERFORMANCE_NLSTEXT</b></li>
 </ul>
 
-
-
 ### -param lpValueName [in, optional]
 
 The name of the value to be set. If a value with this name is not already present in the key, the function adds it to the key. 
-
-
-
 
 If <i>lpValueName</i> is <b>NULL</b> or an empty string, "", the function sets the type and data for the key's unnamed or default value.
 
@@ -104,17 +91,14 @@ For more information, see
 
 Registry keys do not have default values, but they can have one unnamed value, which can be of any type.
 
-
 ### -param Reserved
 
 This parameter is reserved and must be zero.
-
 
 ### -param dwType [in]
 
 The type of data pointed to by the <i>lpData</i> parameter. For a list of the possible types, see 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-value-types">Registry Value Types</a>.
-
 
 ### -param lpData [in]
 
@@ -129,22 +113,14 @@ For string-based types, such as REG_SZ, the string must be <b>null</b>-terminate
 
 The size of the information pointed to by the <i>lpData</i> parameter, in bytes. If the data is of type REG_SZ, REG_EXPAND_SZ, or REG_MULTI_SZ, <i>cbData</i> must include the size of the terminating <b>null</b> character or characters.
 
-
 ## -returns
-
-
 
 If the function succeeds, the return value is ERROR_SUCCESS.
 
 If the function fails, the return value is a nonzero error code defined in Winerror.h. You can use the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-formatmessage">FormatMessage</a> function with the FORMAT_MESSAGE_FROM_SYSTEM flag to get a generic description of the error.
 
-
-
-
 ## -remarks
-
-
 
 Value sizes are limited by available memory. However, storing large values in the registry can affect its performance. Long values (more than 2,048 bytes) should be stored as files, with the locations of the files stored in the registry. 
 
@@ -154,36 +130,23 @@ If <i>dwType</i> is the REG_SZ, REG_MULTI_SZ, or REG_EXPAND_SZ type and the ANSI
 
 Note that operations that access certain registry keys are redirected. For more information,  see <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-virtualization">Registry Virtualization</a> and <a href="https://docs.microsoft.com/windows/desktop/SysInfo/32-bit-and-64-bit-application-data-in-the-registry">32-bit and 64-bit Application Data in the Registry</a>.
 
+Consider using the <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetkeyvaluew">RegSetKeyValue</a> function, which provides a more convenient way to set the value of a registry key.
 
-
+> [!NOTE]
+> The winreg.h header defines RegSetValueEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regsetkeyvaluew">RegSetKeyValue</a>
 
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexa">RegCreateKeyEx</a>
-
-
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regcreatekeyexw">RegCreateKeyEx</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regflushkey">RegFlushKey</a>
 
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexw">RegOpenKeyEx</a>
 
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regopenkeyexa">RegOpenKeyEx</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexa">RegQueryValueEx</a>
-
-
+<a href="https://docs.microsoft.com/windows/desktop/api/winreg/nf-winreg-regqueryvalueexw">RegQueryValueEx</a>
 
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry-functions">Registry Functions</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/SysInfo/registry">Registry Overview</a>
- 
-
- 
-

@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.AppPolicyGetClrCompat
 title: AppPolicyGetClrCompat function (appmodel.h)
-description: Retrieves a value indicating the application type of a process so that you can determine whether to enable private reflection and/or make managed objects agile.helpviewer_keywords: ["AppPolicyGetClrCompat","AppPolicyGetClrCompat function [App packaging and management]","appmodel/AppPolicyGetClrCompat","appxpkg.apppolicygetclrcompat"]
+description: Retrieves a value indicating the application type of a process so that you can determine whether to enable private reflection and/or make managed objects agile.
+helpviewer_keywords: ["AppPolicyGetClrCompat","AppPolicyGetClrCompat function [App packaging and management]","appmodel/AppPolicyGetClrCompat","appxpkg.apppolicygetclrcompat"]
 old-location: appxpkg\apppolicygetclrcompat.htm
 tech.root: appxpkg
 ms.assetid: FCB15725-CA80-4C4E-9592-D69E0C937DB4

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsddisco.IWSDiscoveryPublisher.MatchProbeEx
 title: IWSDiscoveryPublisher::MatchProbeEx (wsddisco.h)
-description: Determines whether a Probe message matches the specified host and sends a WS-Discovery ProbeMatches message with extended information if the match is made.helpviewer_keywords: ["IWSDiscoveryPublisher interface","MatchProbeEx method","IWSDiscoveryPublisher.MatchProbeEx","IWSDiscoveryPublisher::MatchProbeEx","MatchProbeEx","MatchProbeEx method","MatchProbeEx method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_matchprobeex_method","wsddisco/IWSDiscoveryPublisher::MatchProbeEx"]
+description: Determines whether a Probe message matches the specified host and sends a WS-Discovery ProbeMatches message with extended information if the match is made.
+helpviewer_keywords: ["IWSDiscoveryPublisher interface","MatchProbeEx method","IWSDiscoveryPublisher.MatchProbeEx","IWSDiscoveryPublisher::MatchProbeEx","MatchProbeEx","MatchProbeEx method","MatchProbeEx method","IWSDiscoveryPublisher interface","ncd.iwsdiscoverypublisher_matchprobeex_method","wsddisco/IWSDiscoveryPublisher::MatchProbeEx"]
 old-location: ncd\iwsdiscoverypublisher_matchprobeex_method.htm
 tech.root: WsdApi
 ms.assetid: d2441bdc-848b-48c4-bc4e-5b8f854cc4a5

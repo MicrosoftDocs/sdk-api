@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetEmboss
 title: ITextFont::GetEmboss (tom.h)
-description: Gets whether characters are embossed.helpviewer_keywords: ["GetEmboss","GetEmboss method [Windows Controls]","GetEmboss method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetEmboss method","ITextFont.GetEmboss","ITextFont::GetEmboss","_win32_ITextFont_GetEmboss","_win32_ITextFont_GetEmboss_cpp","controls.ITextFont_GetEmboss","controls._win32_ITextFont_GetEmboss","tom/ITextFont::GetEmboss"]
+description: Gets whether characters are embossed.
+helpviewer_keywords: ["GetEmboss","GetEmboss method [Windows Controls]","GetEmboss method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetEmboss method","ITextFont.GetEmboss","ITextFont::GetEmboss","_win32_ITextFont_GetEmboss","_win32_ITextFont_GetEmboss_cpp","controls.ITextFont_GetEmboss","controls._win32_ITextFont_GetEmboss","tom/ITextFont::GetEmboss"]
 old-location: controls\ITextFont_GetEmboss.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getemboss.htm

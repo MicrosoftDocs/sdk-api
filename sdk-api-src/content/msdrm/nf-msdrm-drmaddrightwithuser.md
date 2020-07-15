@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMAddRightWithUser
 title: DRMAddRightWithUser function (msdrm.h)
-description: Assigns a right to a user in an issuance license.helpviewer_keywords: ["DRMAddRightWithUser","DRMAddRightWithUser function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMAddRightWithUser","rm.drmaddrightwithuser"]
+description: Assigns a right to a user in an issuance license.
+helpviewer_keywords: ["DRMAddRightWithUser","DRMAddRightWithUser function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMAddRightWithUser","rm.drmaddrightwithuser"]
 old-location: rm\drmaddrightwithuser.htm
 tech.root: AdRms_Sdk
 ms.assetid: 10b76b20-cee7-44f3-b9bd-2b690fdd040c

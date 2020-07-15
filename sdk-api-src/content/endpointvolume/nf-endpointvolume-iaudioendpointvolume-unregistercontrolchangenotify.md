@@ -1,7 +1,8 @@
 ---
 UID: NF:endpointvolume.IAudioEndpointVolume.UnregisterControlChangeNotify
 title: IAudioEndpointVolume::UnregisterControlChangeNotify (endpointvolume.h)
-description: The UnregisterControlChangeNotify method deletes the registration of a client's notification callback interface that the client registered in a previous call to the IAudioEndpointVolume::RegisterControlChangeNotify method.helpviewer_keywords: ["IAudioEndpointVolume interface [Core Audio]","UnregisterControlChangeNotify method","IAudioEndpointVolume.UnregisterControlChangeNotify","IAudioEndpointVolume::UnregisterControlChangeNotify","IAudioEndpointVolumeUnregisterControlChangeNotify","UnregisterControlChangeNotify","UnregisterControlChangeNotify method [Core Audio]","UnregisterControlChangeNotify method [Core Audio]","IAudioEndpointVolume interface","coreaudio.iaudioendpointvolume_unregistercontrolchangenotify","endpointvolume/IAudioEndpointVolume::UnregisterControlChangeNotify"]
+description: The UnregisterControlChangeNotify method deletes the registration of a client's notification callback interface that the client registered in a previous call to the IAudioEndpointVolume::RegisterControlChangeNotify method.
+helpviewer_keywords: ["IAudioEndpointVolume interface [Core Audio]","UnregisterControlChangeNotify method","IAudioEndpointVolume.UnregisterControlChangeNotify","IAudioEndpointVolume::UnregisterControlChangeNotify","IAudioEndpointVolumeUnregisterControlChangeNotify","UnregisterControlChangeNotify","UnregisterControlChangeNotify method [Core Audio]","UnregisterControlChangeNotify method [Core Audio]","IAudioEndpointVolume interface","coreaudio.iaudioendpointvolume_unregistercontrolchangenotify","endpointvolume/IAudioEndpointVolume::UnregisterControlChangeNotify"]
 old-location: coreaudio\iaudioendpointvolume_unregistercontrolchangenotify.htm
 tech.root: CoreAudio
 ms.assetid: 4ae8263b-83f5-4d9f-9e48-d78fae98c7ad

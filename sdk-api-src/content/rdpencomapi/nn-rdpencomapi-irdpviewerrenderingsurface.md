@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPViewerRenderingSurface
 title: IRDPViewerRenderingSurface (rdpencomapi.h)
-description: Manages the rendering surface for the viewer.helpviewer_keywords: ["IRDPViewerRenderingSurface","IRDPViewerRenderingSurface interface [RDP]","IRDPViewerRenderingSurface interface [RDP]","described","rdp.irdpviewerrenderingsurface","rdpencomapi/IRDPViewerRenderingSurface"]
+description: Manages the rendering surface for the viewer.
+helpviewer_keywords: ["IRDPViewerRenderingSurface","IRDPViewerRenderingSurface interface [RDP]","IRDPViewerRenderingSurface interface [RDP]","described","rdp.irdpviewerrenderingsurface","rdpencomapi/IRDPViewerRenderingSurface"]
 old-location: rdp\irdpviewerrenderingsurface.htm
 tech.root: rdp
 ms.assetid: 24d818ec-f58d-4bf1-adf8-c15560595147

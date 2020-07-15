@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IPackageDebugSettings
 title: IPackageDebugSettings (shobjidl_core.h)
-description: Enables debugger developers to control the life cycle of a Windows Store app, such as suspending or resuming.helpviewer_keywords: ["IPackageDebugSettings","IPackageDebugSettings interface [Windows Shell]","IPackageDebugSettings interface [Windows Shell]","described","shell.IPackageDebugSettings","shobjidl_core/IPackageDebugSettings"]
+description: Enables debugger developers to control the life cycle of a Windows Store app, such as suspending or resuming.
+helpviewer_keywords: ["IPackageDebugSettings","IPackageDebugSettings interface [Windows Shell]","IPackageDebugSettings interface [Windows Shell]","described","shell.IPackageDebugSettings","shobjidl_core/IPackageDebugSettings"]
 old-location: shell\IPackageDebugSettings.htm
 tech.root: shell
 ms.assetid: e407c4ca-0de1-4b17-bb83-5c4128952d48

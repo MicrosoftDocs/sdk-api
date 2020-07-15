@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IActionProgressDialog
 title: IActionProgressDialog (shobjidl_core.h)
-description: Exposes methods that initialize and stop a progress dialog.helpviewer_keywords: ["IActionProgressDialog","IActionProgressDialog interface [Windows Shell]","IActionProgressDialog interface [Windows Shell]","described","_shell_IActionProgressDialog","shell.IActionProgressDialog","shobjidl_core/IActionProgressDialog"]
+description: Exposes methods that initialize and stop a progress dialog.
+helpviewer_keywords: ["IActionProgressDialog","IActionProgressDialog interface [Windows Shell]","IActionProgressDialog interface [Windows Shell]","described","_shell_IActionProgressDialog","shell.IActionProgressDialog","shobjidl_core/IActionProgressDialog"]
 old-location: shell\IActionProgressDialog.htm
 tech.root: shell
 ms.assetid: f3c0e4ae-f93f-4ee2-873a-d9370044e922

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.AddDesktopItem
 title: IActiveDesktop::AddDesktopItem (shlobj_core.h)
-description: Adds a desktop item.helpviewer_keywords: ["AddDesktopItem","AddDesktopItem method [Legacy Windows Environment Features]","AddDesktopItem method [Legacy Windows Environment Features]","IActiveDesktop interface","IActiveDesktop interface [Legacy Windows Environment Features]","AddDesktopItem method","IActiveDesktop.AddDesktopItem","IActiveDesktop::AddDesktopItem","_win32_IActiveDesktop_AddDesktopItem","lwef.iactivedesktop_adddesktopitem","shell.iactivedesktop_adddesktopitem","shlobj_core/IActiveDesktop::AddDesktopItem"]
+description: Adds a desktop item.
+helpviewer_keywords: ["AddDesktopItem","AddDesktopItem method [Legacy Windows Environment Features]","AddDesktopItem method [Legacy Windows Environment Features]","IActiveDesktop interface","IActiveDesktop interface [Legacy Windows Environment Features]","AddDesktopItem method","IActiveDesktop.AddDesktopItem","IActiveDesktop::AddDesktopItem","_win32_IActiveDesktop_AddDesktopItem","lwef.iactivedesktop_adddesktopitem","shell.iactivedesktop_adddesktopitem","shlobj_core/IActiveDesktop::AddDesktopItem"]
 old-location: lwef\iactivedesktop_adddesktopitem.htm
 tech.root: lwef
 ms.assetid: 5a0c61e8-a645-4a32-b97b-8d7b43d0e5e3

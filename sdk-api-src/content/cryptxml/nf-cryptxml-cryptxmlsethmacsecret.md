@@ -1,7 +1,8 @@
 ---
 UID: NF:cryptxml.CryptXmlSetHMACSecret
 title: CryptXmlSetHMACSecret function (cryptxml.h)
-description: Sets the HMAC secret on the handle before calling the CryptXmlSign or CryptXmlVerify function.helpviewer_keywords: ["CryptXmlSetHMACSecret","CryptXmlSetHMACSecret function [Security]","cryptxml/CryptXmlSetHMACSecret","security.cryptxmlsethmacsecret"]
+description: Sets the HMAC secret on the handle before calling the CryptXmlSign or CryptXmlVerify function.
+helpviewer_keywords: ["CryptXmlSetHMACSecret","CryptXmlSetHMACSecret function [Security]","cryptxml/CryptXmlSetHMACSecret","security.cryptxmlsethmacsecret"]
 old-location: security\cryptxmlsethmacsecret.htm
 tech.root: SecCrypto
 ms.assetid: 3e7d0280-c10e-4328-b7f7-208ea5a4285c

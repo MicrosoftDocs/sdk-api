@@ -1,7 +1,8 @@
 ---
 UID: NC:cryptxml.CryptXmlDllEncodeAlgorithm
 title: CryptXmlDllEncodeAlgorithm (cryptxml.h)
-description: Encodes SignatureMethod or DigestMethod elements for agile algorithms with default parameters.helpviewer_keywords: ["CryptXmlDllEncodeAlgorithm","CryptXmlDllEncodeAlgorithm callback","CryptXmlDllEncodeAlgorithm callback function [Security]","cryptxml/CryptXmlDllEncodeAlgorithm","security.cryptxmldllencodealgorithm"]
+description: Encodes SignatureMethod or DigestMethod elements for agile algorithms with default parameters.
+helpviewer_keywords: ["CryptXmlDllEncodeAlgorithm","CryptXmlDllEncodeAlgorithm callback","CryptXmlDllEncodeAlgorithm callback function [Security]","cryptxml/CryptXmlDllEncodeAlgorithm","security.cryptxmldllencodealgorithm"]
 old-location: security\cryptxmldllencodealgorithm.htm
 tech.root: SecCrypto
 ms.assetid: ef21897e-66f1-436c-8440-91422f5c95a7

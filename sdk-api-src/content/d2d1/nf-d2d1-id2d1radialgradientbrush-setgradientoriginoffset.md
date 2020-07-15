@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1RadialGradientBrush.SetGradientOriginOffset
 title: ID2D1RadialGradientBrush::SetGradientOriginOffset (d2d1.h)
-description: Specifies the offset of the gradient origin relative to the gradient ellipse's center.helpviewer_keywords: ["ID2D1RadialGradientBrush interface [Direct2D]","SetGradientOriginOffset method","ID2D1RadialGradientBrush.SetGradientOriginOffset","ID2D1RadialGradientBrush::SetGradientOriginOffset","SetGradientOriginOffset","SetGradientOriginOffset method [Direct2D]","SetGradientOriginOffset method [Direct2D]","ID2D1RadialGradientBrush interface","d2d1/ID2D1RadialGradientBrush::SetGradientOriginOffset","direct2d.ID2D1RadialGradientBrush_SetGradientOriginOffset"]
+description: Specifies the offset of the gradient origin relative to the gradient ellipse's center.
+helpviewer_keywords: ["ID2D1RadialGradientBrush interface [Direct2D]","SetGradientOriginOffset method","ID2D1RadialGradientBrush.SetGradientOriginOffset","ID2D1RadialGradientBrush::SetGradientOriginOffset","SetGradientOriginOffset","SetGradientOriginOffset method [Direct2D]","SetGradientOriginOffset method [Direct2D]","ID2D1RadialGradientBrush interface","d2d1/ID2D1RadialGradientBrush::SetGradientOriginOffset","direct2d.ID2D1RadialGradientBrush_SetGradientOriginOffset"]
 old-location: direct2d\ID2D1RadialGradientBrush_SetGradientOriginOffset.htm
 tech.root: Direct2D
 ms.assetid: 108d73a4-6d8e-4cce-ac70-ee79bbaef5b5

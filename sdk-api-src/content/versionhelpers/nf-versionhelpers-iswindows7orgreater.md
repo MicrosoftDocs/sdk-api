@@ -1,7 +1,8 @@
 ---
 UID: NF:versionhelpers.IsWindows7OrGreater
 title: IsWindows7OrGreater function (versionhelpers.h)
-description: Indicates if the current OS version matches, or is greater than, the Windows 7 version.helpviewer_keywords: ["IsWindows7OrGreater","IsWindows7OrGreater function","base.iswindows7orgreater","versionhelpers/IsWindows7OrGreater"]
+description: Indicates if the current OS version matches, or is greater than, the Windows 7 version.
+helpviewer_keywords: ["IsWindows7OrGreater","IsWindows7OrGreater function","base.iswindows7orgreater","versionhelpers/IsWindows7OrGreater"]
 old-location: base\iswindows7orgreater.htm
 tech.root: SysInfo
 ms.assetid: 5C475B5E-1412-4F60-AB81-00BE83E204BF

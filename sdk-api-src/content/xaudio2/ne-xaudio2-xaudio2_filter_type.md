@@ -1,7 +1,8 @@
 ---
 UID: NE:xaudio2.XAUDIO2_FILTER_TYPE
 title: XAUDIO2_FILTER_TYPE (xaudio2.h)
-description: Indicates the filter type.helpviewer_keywords: ["BandPassFilter","HighPassFilter","HighPassOnePoleFilter","LowPassFilter","LowPassOnePoleFilter","NotchFilter","XAUDIO2_FILTER_TYPE","XAUDIO2_FILTER_TYPE enumeration [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_filter_type","xaudio2/BandPassFilter","xaudio2/HighPassFilter","xaudio2/HighPassOnePoleFilter","xaudio2/LowPassFilter","xaudio2/LowPassOnePoleFilter","xaudio2/NotchFilter","xaudio2/XAUDIO2_FILTER_TYPE"]
+description: Indicates the filter type.
+helpviewer_keywords: ["BandPassFilter","HighPassFilter","HighPassOnePoleFilter","LowPassFilter","LowPassOnePoleFilter","NotchFilter","XAUDIO2_FILTER_TYPE","XAUDIO2_FILTER_TYPE enumeration [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_filter_type","xaudio2/BandPassFilter","xaudio2/HighPassFilter","xaudio2/HighPassOnePoleFilter","xaudio2/LowPassFilter","xaudio2/LowPassOnePoleFilter","xaudio2/NotchFilter","xaudio2/XAUDIO2_FILTER_TYPE"]
 old-location: xaudio2\xaudio2_filter_type.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_FILTER_TYPE

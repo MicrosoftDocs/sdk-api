@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITTerminal.get_State
 title: ITTerminal::get_State (tapi3if.h)
-description: The get_State method gets the current state of the terminal.helpviewer_keywords: ["ITTerminal interface [TAPI 2.2]","get_State method","ITTerminal.get_State","ITTerminal::get_State","_tapi3_itterminal_get_state","get_State","get_State method [TAPI 2.2]","get_State method [TAPI 2.2]","ITTerminal interface","tapi3.itterminal_get_state","tapi3if/ITTerminal::get_State"]
+description: The get_State method gets the current state of the terminal.
+helpviewer_keywords: ["ITTerminal interface [TAPI 2.2]","get_State method","ITTerminal.get_State","ITTerminal::get_State","_tapi3_itterminal_get_state","get_State","get_State method [TAPI 2.2]","get_State method [TAPI 2.2]","ITTerminal interface","tapi3.itterminal_get_state","tapi3if/ITTerminal::get_State"]
 old-location: tapi3\itterminal_get_state.htm
 tech.root: Tapi
 ms.assetid: 18eebe2c-2c65-4836-a371-146eb76a379c

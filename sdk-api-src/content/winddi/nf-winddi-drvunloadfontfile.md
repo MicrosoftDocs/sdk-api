@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvUnloadFontFile
 title: DrvUnloadFontFile function (winddi.h)
-description: The DrvUnloadFontFile function informs a font driver that the specified font file is no longer needed.helpviewer_keywords: ["DrvUnloadFontFile","DrvUnloadFontFile function [Display Devices]","ddifncs_db8c3f72-5fde-4dd3-84e1-5bea9b7e530d.xml","display.drvunloadfontfile","winddi/DrvUnloadFontFile"]
+description: The DrvUnloadFontFile function informs a font driver that the specified font file is no longer needed.
+helpviewer_keywords: ["DrvUnloadFontFile","DrvUnloadFontFile function [Display Devices]","ddifncs_db8c3f72-5fde-4dd3-84e1-5bea9b7e530d.xml","display.drvunloadfontfile","winddi/DrvUnloadFontFile"]
 old-location: display\drvunloadfontfile.htm
 tech.root: display
 ms.assetid: 2b4b946a-30d0-434f-ab04-73bedd6a01aa

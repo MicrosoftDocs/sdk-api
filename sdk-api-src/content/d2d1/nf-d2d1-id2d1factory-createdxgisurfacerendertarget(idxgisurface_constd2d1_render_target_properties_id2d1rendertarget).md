@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1Factory.CreateDxgiSurfaceRenderTarget(IDXGISurface,const D2D1_RENDER_TARGET_PROPERTIES,ID2D1RenderTarget)
+UID: NF:d2d1.ID2D1Factory.CreateDxgiSurfaceRenderTarget(IDXGISurface,constD2D1_RENDER_TARGET_PROPERTIES,ID2D1RenderTarget)
 title: ID2D1Factory::CreateDxgiSurfaceRenderTarget
 description: Creates a render target that draws to a DirectX Graphics Infrastructure (DXGI) surface.
 helpviewer_keywords: ["CreateDxgiSurfaceRenderTarget","CreateDxgiSurfaceRenderTarget methods [Direct2D]","ID2D1Factory.CreateDxgiSurfaceRenderTarget","ID2D1Factory::CreateDxgiSurfaceRenderTarget","d2d1/CreateDxgiSurfaceRenderTarget","direct2d.id2d1factory_createdxgisurfacerendertarget"]

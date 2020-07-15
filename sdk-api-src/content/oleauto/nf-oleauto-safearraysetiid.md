@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArraySetIID
 title: SafeArraySetIID function (oleauto.h)
-description: Sets the GUID of the interface for the specified safe array.helpviewer_keywords: ["SafeArraySetIID","SafeArraySetIID function [Automation]","_oa96_SafeArraySetIID","automat.safearraysetiid","oleauto/SafeArraySetIID"]
+description: Sets the GUID of the interface for the specified safe array.
+helpviewer_keywords: ["SafeArraySetIID","SafeArraySetIID function [Automation]","_oa96_SafeArraySetIID","automat.safearraysetiid","oleauto/SafeArraySetIID"]
 old-location: automat\safearraysetiid.htm
 tech.root: automat
 ms.assetid: 851b8a44-9da4-418c-88bc-80c9fc55d25c

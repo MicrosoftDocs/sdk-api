@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtSetExpAge
 title: RpcNsMgmtSetExpAge function (rpcnsi.h)
-description: The RpcNsMgmtSetExpAge function modifies the application's global expiration age for local copies of name-service data.helpviewer_keywords: ["RpcNsMgmtSetExpAge","RpcNsMgmtSetExpAge function [RPC]","_rpc_rpcnsmgmtsetexpage","rpc.rpcnsmgmtsetexpage","rpcnsi/RpcNsMgmtSetExpAge"]
+description: The RpcNsMgmtSetExpAge function modifies the application's global expiration age for local copies of name-service data.
+helpviewer_keywords: ["RpcNsMgmtSetExpAge","RpcNsMgmtSetExpAge function [RPC]","_rpc_rpcnsmgmtsetexpage","rpc.rpcnsmgmtsetexpage","rpcnsi/RpcNsMgmtSetExpAge"]
 old-location: rpc\rpcnsmgmtsetexpage.htm
 tech.root: Rpc
 ms.assetid: 9433e8c3-2c52-4994-8661-6af089fa9bc9

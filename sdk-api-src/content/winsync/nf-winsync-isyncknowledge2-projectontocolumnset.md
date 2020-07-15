@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.ProjectOntoColumnSet
 title: ISyncKnowledge2::ProjectOntoColumnSet (winsync.h)
-description: Returns the knowledge for the specified set of change units for all the items that are contained in this object.helpviewer_keywords: ["ISyncKnowledge2 interface [Windows Sync]","ProjectOntoColumnSet method","ISyncKnowledge2.ProjectOntoColumnSet","ISyncKnowledge2::ProjectOntoColumnSet","ProjectOntoColumnSet","ProjectOntoColumnSet method [Windows Sync]","ProjectOntoColumnSet method [Windows Sync]","ISyncKnowledge2 interface","winsync.isyncknowledge2_projectontocolumnset","winsync/ISyncKnowledge2::ProjectOntoColumnSet"]
+description: Returns the knowledge for the specified set of change units for all the items that are contained in this object.
+helpviewer_keywords: ["ISyncKnowledge2 interface [Windows Sync]","ProjectOntoColumnSet method","ISyncKnowledge2.ProjectOntoColumnSet","ISyncKnowledge2::ProjectOntoColumnSet","ProjectOntoColumnSet","ProjectOntoColumnSet method [Windows Sync]","ProjectOntoColumnSet method [Windows Sync]","ISyncKnowledge2 interface","winsync.isyncknowledge2_projectontocolumnset","winsync/ISyncKnowledge2::ProjectOntoColumnSet"]
 old-location: winsync\isyncknowledge2_projectontocolumnset.htm
 tech.root: winsync
 ms.assetid: fe183377-9b5a-476b-91af-ff974a9d41a4

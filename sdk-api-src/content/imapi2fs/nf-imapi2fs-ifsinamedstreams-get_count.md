@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFsiNamedStreams.get_Count
 title: IFsiNamedStreams::get_Count (imapi2fs.h)
-description: Returns the number of the named streams associated with a file in the file system image.helpviewer_keywords: ["IFsiNamedStreams interface [IMAPI]","get_Count method","IFsiNamedStreams.get_Count","IFsiNamedStreams::get_Count","get_Count","get_Count method [IMAPI]","get_Count method [IMAPI]","IFsiNamedStreams interface","imapi.ifsinamedstreams_get_count","imapi2fs/IFsiNamedStreams::get_Count"]
+description: Returns the number of the named streams associated with a file in the file system image.
+helpviewer_keywords: ["IFsiNamedStreams interface [IMAPI]","get_Count method","IFsiNamedStreams.get_Count","IFsiNamedStreams::get_Count","get_Count","get_Count method [IMAPI]","get_Count method [IMAPI]","IFsiNamedStreams interface","imapi.ifsinamedstreams_get_count","imapi2fs/IFsiNamedStreams::get_Count"]
 old-location: imapi\ifsinamedstreams_get_count.htm
 tech.root: imapi
 ms.assetid: 3d4efee2-607b-4be4-9854-79fed47503e4

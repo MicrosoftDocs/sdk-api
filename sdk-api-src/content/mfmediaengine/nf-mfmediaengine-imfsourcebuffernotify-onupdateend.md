@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFSourceBufferNotify.OnUpdateEnd
 title: IMFSourceBufferNotify::OnUpdateEnd (mfmediaengine.h)
-description: Used to indicate that the source buffer has finished updating.helpviewer_keywords: ["IMFSourceBufferNotify interface [Media Foundation]","OnUpdateEnd method","IMFSourceBufferNotify.OnUpdateEnd","IMFSourceBufferNotify::OnUpdateEnd","OnUpdateEnd","OnUpdateEnd method [Media Foundation]","OnUpdateEnd method [Media Foundation]","IMFSourceBufferNotify interface","mf.imfsourcebuffernotify_onupdateend","mfmediaengine/IMFSourceBufferNotify::OnUpdateEnd"]
+description: Used to indicate that the source buffer has finished updating.
+helpviewer_keywords: ["IMFSourceBufferNotify interface [Media Foundation]","OnUpdateEnd method","IMFSourceBufferNotify.OnUpdateEnd","IMFSourceBufferNotify::OnUpdateEnd","OnUpdateEnd","OnUpdateEnd method [Media Foundation]","OnUpdateEnd method [Media Foundation]","IMFSourceBufferNotify interface","mf.imfsourcebuffernotify_onupdateend","mfmediaengine/IMFSourceBufferNotify::OnUpdateEnd"]
 old-location: mf\imfsourcebuffernotify_onupdateend.htm
 tech.root: medfound
 ms.assetid: a06d5765-d91e-4cbc-ac12-09d1ce4d84f6

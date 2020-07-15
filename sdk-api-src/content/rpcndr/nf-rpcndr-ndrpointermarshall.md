@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrPointerMarshall
 title: NdrPointerMarshall function (rpcndr.h)
-description: The NdrPointerMarshall function marshalls a top level pointer to anything. Pointers embedded in structures, arrays, or unions call NdrPointerMarshall directly.helpviewer_keywords: ["NdrPointerMarshall","NdrPointerMarshall function [RPC]","rpc.ndrpointermarshall","rpcndr/NdrPointerMarshall"]
+description: The NdrPointerMarshall function marshalls a top level pointer to anything. Pointers embedded in structures, arrays, or unions call NdrPointerMarshall directly.
+helpviewer_keywords: ["NdrPointerMarshall","NdrPointerMarshall function [RPC]","rpc.ndrpointermarshall","rpcndr/NdrPointerMarshall"]
 old-location: rpc\ndrpointermarshall.htm
 tech.root: Rpc
 ms.assetid: efbdb93e-5d6b-4116-b1bf-8836cd9d7b89

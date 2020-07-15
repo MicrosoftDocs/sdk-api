@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d11.ID3D11GeometryShader
 title: ID3D11GeometryShader (d3d11.h)
-description: A geometry-shader interface manages an executable program (a geometry shader) that controls the geometry-shader stage.helpviewer_keywords: ["71a86899-19ac-ddc3-70b4-f68cdd6422d0","ID3D11GeometryShader","ID3D11GeometryShader interface [Direct3D 11]","ID3D11GeometryShader interface [Direct3D 11]","described","d3d11/ID3D11GeometryShader","direct3d11.id3d11geometryshader"]
+description: A geometry-shader interface manages an executable program (a geometry shader) that controls the geometry-shader stage.
+helpviewer_keywords: ["71a86899-19ac-ddc3-70b4-f68cdd6422d0","ID3D11GeometryShader","ID3D11GeometryShader interface [Direct3D 11]","ID3D11GeometryShader interface [Direct3D 11]","described","d3d11/ID3D11GeometryShader","direct3d11.id3d11geometryshader"]
 old-location: direct3d11\id3d11geometryshader.htm
 tech.root: direct3d11
 ms.assetid: c2b5863d-5773-4719-b1d0-2026f55fcef3

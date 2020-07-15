@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegGetIntW
 title: SHRegGetIntW function (shlwapi.h)
-description: Reads a numeric string value from the registry and converts it to an integer.helpviewer_keywords: ["SHRegGetIntW","SHRegGetIntW function [Windows Shell]","_shell_SHRegGetInt","shell.SHRegGetInt","shlwapi/SHRegGetIntW"]
+description: Reads a numeric string value from the registry and converts it to an integer.
+helpviewer_keywords: ["SHRegGetIntW","SHRegGetIntW function [Windows Shell]","_shell_SHRegGetInt","shell.SHRegGetInt","shlwapi/SHRegGetIntW"]
 old-location: shell\SHRegGetInt.htm
 tech.root: shell
 ms.assetid: 027e3470-46be-4d37-b815-e1fd550d0c60

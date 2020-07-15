@@ -1,7 +1,8 @@
 ---
 UID: NF:ip2string.RtlIpv6StringToAddressA
 title: RtlIpv6StringToAddressA function (ip2string.h)
-description: Converts a string representation of an IPv6 address to a binary IPv6 address.helpviewer_keywords: ["RtlIpv6StringToAddress","RtlIpv6StringToAddress function [IP Helper]","RtlIpv6StringToAddressA","RtlIpv6StringToAddressW","ip2string/RtlIpv6StringToAddress","ip2string/RtlIpv6StringToAddressA","ip2string/RtlIpv6StringToAddressW","iphlp.rtlipv6stringtoaddress"]
+description: Converts a string representation of an IPv6 address to a binary IPv6 address.
+helpviewer_keywords: ["RtlIpv6StringToAddress","RtlIpv6StringToAddress function [IP Helper]","RtlIpv6StringToAddressA","RtlIpv6StringToAddressW","ip2string/RtlIpv6StringToAddress","ip2string/RtlIpv6StringToAddressA","ip2string/RtlIpv6StringToAddressW","iphlp.rtlipv6stringtoaddress"]
 old-location: iphlp\rtlipv6stringtoaddress.htm
 tech.root: IpHlp
 ms.assetid: 3cd3bfcf-e9b2-4ee6-8e93-a31a70fc3ad3
@@ -156,6 +157,10 @@ An import library containing the <b>RtlIpv6StringToAddress</b> function is not i
 
 
 
+
+
+> [!NOTE]
+> The ip2string.h header defines RtlIpv6StringToAddress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

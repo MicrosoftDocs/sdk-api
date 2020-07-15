@@ -1,7 +1,8 @@
 ---
 UID: NF:txfw32.TxfLogDestroyReadContext
 title: TxfLogDestroyReadContext function (txfw32.h)
-description: Closes a read context created by the TxfLogCreateFileReadContext function.helpviewer_keywords: ["TxfLogDestroyReadContext","TxfLogDestroyReadContext function [Files]","fs.txflogdestroyreadcontext","txfw32/TxfLogDestroyReadContext"]
+description: Closes a read context created by the TxfLogCreateFileReadContext function.
+helpviewer_keywords: ["TxfLogDestroyReadContext","TxfLogDestroyReadContext function [Files]","fs.txflogdestroyreadcontext","txfw32/TxfLogDestroyReadContext"]
 old-location: fs\txflogdestroyreadcontext.htm
 tech.root: FileIO
 ms.assetid: e1f323bd-48cb-4264-89a0-185d18881726

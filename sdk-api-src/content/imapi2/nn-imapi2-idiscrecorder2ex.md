@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IDiscRecorder2Ex
 title: IDiscRecorder2Ex (imapi2.h)
-description: This interface represents a physical device.helpviewer_keywords: ["IDiscRecorder2Ex","IDiscRecorder2Ex interface [IMAPI]","IDiscRecorder2Ex interface [IMAPI]","described","imapi.idiscrecorder2ex","imapi2/IDiscRecorder2Ex"]
+description: This interface represents a physical device.
+helpviewer_keywords: ["IDiscRecorder2Ex","IDiscRecorder2Ex interface [IMAPI]","IDiscRecorder2Ex interface [IMAPI]","described","imapi.idiscrecorder2ex","imapi2/IDiscRecorder2Ex"]
 old-location: imapi\idiscrecorder2ex.htm
 tech.root: imapi
 ms.assetid: 37e65b57-ec53-405c-a7bd-34c2df15d5d7

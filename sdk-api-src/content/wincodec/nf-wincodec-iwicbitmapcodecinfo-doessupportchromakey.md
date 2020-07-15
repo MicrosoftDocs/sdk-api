@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapCodecInfo.DoesSupportChromakey
 title: IWICBitmapCodecInfo::DoesSupportChromakey (wincodec.h)
-description: Retrieves a value indicating whether the codec supports chromakeys.helpviewer_keywords: ["DoesSupportChromakey","DoesSupportChromakey method [Windows Imaging Component]","DoesSupportChromakey method [Windows Imaging Component]","IWICBitmapCodecInfo interface","IWICBitmapCodecInfo interface [Windows Imaging Component]","DoesSupportChromakey method","IWICBitmapCodecInfo.DoesSupportChromakey","IWICBitmapCodecInfo::DoesSupportChromakey","_wic_codec_iwicbitmapcodecinfo_doessupportchromakey","wic._wic_codec_iwicbitmapcodecinfo_doessupportchromakey","wincodec/IWICBitmapCodecInfo::DoesSupportChromakey"]
+description: Retrieves a value indicating whether the codec supports chromakeys.
+helpviewer_keywords: ["DoesSupportChromakey","DoesSupportChromakey method [Windows Imaging Component]","DoesSupportChromakey method [Windows Imaging Component]","IWICBitmapCodecInfo interface","IWICBitmapCodecInfo interface [Windows Imaging Component]","DoesSupportChromakey method","IWICBitmapCodecInfo.DoesSupportChromakey","IWICBitmapCodecInfo::DoesSupportChromakey","_wic_codec_iwicbitmapcodecinfo_doessupportchromakey","wic._wic_codec_iwicbitmapcodecinfo_doessupportchromakey","wincodec/IWICBitmapCodecInfo::DoesSupportChromakey"]
 old-location: wic\_wic_codec_iwicbitmapcodecinfo_doessupportchromakey.htm
 tech.root: wic
 ms.assetid: 662e213e-1ed2-445c-a7be-ff8a137fba2e

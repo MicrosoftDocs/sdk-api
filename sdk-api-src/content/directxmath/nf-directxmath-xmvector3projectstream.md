@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3ProjectStream
 title: XMVector3ProjectStream function (directxmath.h)
-description: Projects a stream of 3D vectors from object space into screen space.helpviewer_keywords: ["Use DirectX..XMVector3ProjectStream","XMVector3ProjectStream","XMVector3ProjectStream method [DirectX Math Support APIs]","dxmath.xmvector3projectstream"]
+description: Projects a stream of 3D vectors from object space into screen space.
+helpviewer_keywords: ["Use DirectX..XMVector3ProjectStream","XMVector3ProjectStream","XMVector3ProjectStream method [DirectX Math Support APIs]","dxmath.xmvector3projectstream"]
 old-location: dxmath\xmvector3projectstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3ProjectStream(XMFLOAT3@,size_t,const XMFLOAT3,size_t,size_t,float,float,float,float,float,float,XMMATRIX,XMMATRIX,XMMATRIX)

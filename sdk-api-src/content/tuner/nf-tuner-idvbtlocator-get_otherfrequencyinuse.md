@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IDVBTLocator.get_OtherFrequencyInUse
 title: IDVBTLocator::get_OtherFrequencyInUse (tuner.h)
-description: The get_OtherFrequencyInUse method indicates whether the frequency is being used by another DVB-T broadcaster.helpviewer_keywords: ["IDVBTLocator interface [Microsoft TV Technologies]","get_OtherFrequencyInUse method","IDVBTLocator.get_OtherFrequencyInUse","IDVBTLocator::get_OtherFrequencyInUse","IDVBTLocatorget_OtherFrequencyInUse","get_OtherFrequencyInUse","get_OtherFrequencyInUse method [Microsoft TV Technologies]","get_OtherFrequencyInUse method [Microsoft TV Technologies]","IDVBTLocator interface","mstv.idvbtlocator_get_otherfrequencyinuse","tuner/IDVBTLocator::get_OtherFrequencyInUse"]
+description: The get_OtherFrequencyInUse method indicates whether the frequency is being used by another DVB-T broadcaster.
+helpviewer_keywords: ["IDVBTLocator interface [Microsoft TV Technologies]","get_OtherFrequencyInUse method","IDVBTLocator.get_OtherFrequencyInUse","IDVBTLocator::get_OtherFrequencyInUse","IDVBTLocatorget_OtherFrequencyInUse","get_OtherFrequencyInUse","get_OtherFrequencyInUse method [Microsoft TV Technologies]","get_OtherFrequencyInUse method [Microsoft TV Technologies]","IDVBTLocator interface","mstv.idvbtlocator_get_otherfrequencyinuse","tuner/IDVBTLocator::get_OtherFrequencyInUse"]
 old-location: mstv\idvbtlocator_get_otherfrequencyinuse.htm
 tech.root: mstv
 ms.assetid: fcb39760-901f-4c62-a517-bee7ea96f8d9

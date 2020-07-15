@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IComponentData.Notify
 title: IComponentData::Notify (mmc.h)
-description: The IComponentData::Notify method notifies the snap-in of actions performed by the user.helpviewer_keywords: ["IComponentData interface [MMC]","Notify method","IComponentData.Notify","IComponentData::Notify","Notify","Notify method [MMC]","Notify method [MMC]","IComponentData interface","_slate_icomponentdata_notify","mmc.icomponentdata_notify","mmc/IComponentData::Notify"]
+description: The IComponentData::Notify method notifies the snap-in of actions performed by the user.
+helpviewer_keywords: ["IComponentData interface [MMC]","Notify method","IComponentData.Notify","IComponentData::Notify","Notify","Notify method [MMC]","Notify method [MMC]","IComponentData interface","_slate_icomponentdata_notify","mmc.icomponentdata_notify","mmc/IComponentData::Notify"]
 old-location: mmc\icomponentdata_notify.htm
 tech.root: mmc
 ms.assetid: 8679396e-23d0-4418-987a-c72b1508e7b9

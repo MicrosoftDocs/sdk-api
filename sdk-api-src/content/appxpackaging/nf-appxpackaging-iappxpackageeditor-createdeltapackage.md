@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.CreateDeltaPackage
 title: IAppxPackageEditor::CreateDeltaPackage (appxpackaging.h)
-description: Creates a delta package from the differences in the updated package and the baseline package.helpviewer_keywords: ["CreateDeltaPackage","CreateDeltaPackage method [App packaging and management]","CreateDeltaPackage method [App packaging and management]","IAppxPackageEditor interface","IAppxPackageEditor interface [App packaging and management]","CreateDeltaPackage method","IAppxPackageEditor.CreateDeltaPackage","IAppxPackageEditor::CreateDeltaPackage","appxpackaging/IAppxPackageEditor::CreateDeltaPackage","appxpkg.iappxpackageeditor_createdeltapackage"]
+description: Creates a delta package from the differences in the updated package and the baseline package.
+helpviewer_keywords: ["CreateDeltaPackage","CreateDeltaPackage method [App packaging and management]","CreateDeltaPackage method [App packaging and management]","IAppxPackageEditor interface","IAppxPackageEditor interface [App packaging and management]","CreateDeltaPackage method","IAppxPackageEditor.CreateDeltaPackage","IAppxPackageEditor::CreateDeltaPackage","appxpackaging/IAppxPackageEditor::CreateDeltaPackage","appxpkg.iappxpackageeditor_createdeltapackage"]
 old-location: appxpkg\iappxpackageeditor_createdeltapackage.htm
 tech.root: appxpkg
 ms.assetid: 40B41D47-674A-4842-8C6D-FBB661D12589

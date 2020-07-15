@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcPartSet
 title: IOpcPartSet (msopc.h)
-description: An unordered set of IOpcPart interface pointers to part objects that represent the parts in a package that are not Relationships parts.helpviewer_keywords: ["IOpcPartSet","IOpcPartSet interface [Open Packaging Conventions]","IOpcPartSet interface [Open Packaging Conventions]","described","msopc/IOpcPartSet","opc.iopcpartset"]
+description: An unordered set of IOpcPart interface pointers to part objects that represent the parts in a package that are not Relationships parts.
+helpviewer_keywords: ["IOpcPartSet","IOpcPartSet interface [Open Packaging Conventions]","IOpcPartSet interface [Open Packaging Conventions]","described","msopc/IOpcPartSet","opc.iopcpartset"]
 old-location: opc\iopcpartset.htm
 tech.root: OPC
 ms.assetid: f34c682f-7677-4d20-bd37-b1a68293d85c

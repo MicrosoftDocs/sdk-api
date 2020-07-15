@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported
 title: IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported (azroles.h)
-description: Gets a Boolean value that indicates whether the version of this authorization store can be upgraded.helpviewer_keywords: ["IAzAuthorizationStore3 interface [Security]","IsFunctionalLevelUpgradeSupported method","IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported","IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported","IsFunctionalLevelUpgradeSupported","IsFunctionalLevelUpgradeSupported method [Security]","IsFunctionalLevelUpgradeSupported method [Security]","IAzAuthorizationStore3 interface","azroles/IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported","security.iazauthorizationstore3_isfunctionallevelupgradesupported"]
+description: Gets a Boolean value that indicates whether the version of this authorization store can be upgraded.
+helpviewer_keywords: ["IAzAuthorizationStore3 interface [Security]","IsFunctionalLevelUpgradeSupported method","IAzAuthorizationStore3.IsFunctionalLevelUpgradeSupported","IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported","IsFunctionalLevelUpgradeSupported","IsFunctionalLevelUpgradeSupported method [Security]","IsFunctionalLevelUpgradeSupported method [Security]","IAzAuthorizationStore3 interface","azroles/IAzAuthorizationStore3::IsFunctionalLevelUpgradeSupported","security.iazauthorizationstore3_isfunctionallevelupgradesupported"]
 old-location: security\iazauthorizationstore3_isfunctionallevelupgradesupported.htm
 tech.root: SecAuthZ
 ms.assetid: 344fbbb7-72e7-46ec-a924-79fece3e1eb0

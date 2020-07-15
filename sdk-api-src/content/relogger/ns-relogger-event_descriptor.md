@@ -1,7 +1,8 @@
 ---
 UID: NS:relogger._EVENT_DESCRIPTOR
 title: EVENT_DESCRIPTOR (relogger.h)
-description: Contains metadata that defines the event.helpviewer_keywords: ["*PEVENT_DESCRIPTOR","EVENT_DESCRIPTOR","EVENT_DESCRIPTOR structure [ETW]","PCEVENT_DESCRIPTOR","PCEVENT_DESCRIPTOR structure pointer [ETW]","PEVENT_DESCRIPTOR","PEVENT_DESCRIPTOR structure pointer [ETW]","_EVENT_DESCRIPTOR","base.event_descriptor","etw.event_descriptor","relogger/EVENT_DESCRIPTOR","relogger/PCEVENT_DESCRIPTOR","relogger/PEVENT_DESCRIPTOR"]
+description: Contains metadata that defines the event.
+helpviewer_keywords: ["*PEVENT_DESCRIPTOR","EVENT_DESCRIPTOR","EVENT_DESCRIPTOR structure [ETW]","PCEVENT_DESCRIPTOR","PCEVENT_DESCRIPTOR structure pointer [ETW]","PEVENT_DESCRIPTOR","PEVENT_DESCRIPTOR structure pointer [ETW]","_EVENT_DESCRIPTOR","base.event_descriptor","etw.event_descriptor","relogger/EVENT_DESCRIPTOR","relogger/PCEVENT_DESCRIPTOR","relogger/PEVENT_DESCRIPTOR"]
 old-location: etw\event_descriptor.htm
 tech.root: ETW
 ms.assetid: 907e6c38-5eaa-49da-9dc0-d055dcc69d1a

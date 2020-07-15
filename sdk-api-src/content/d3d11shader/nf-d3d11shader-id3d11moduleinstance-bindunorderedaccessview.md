@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11ModuleInstance.BindUnorderedAccessView
 title: ID3D11ModuleInstance::BindUnorderedAccessView (d3d11shader.h)
-description: Rebinds an unordered access view (UAV) from source slot to destination slot.helpviewer_keywords: ["BindUnorderedAccessView","BindUnorderedAccessView method [Direct3D 11]","BindUnorderedAccessView method [Direct3D 11]","ID3D11ModuleInstance interface","ID3D11ModuleInstance interface [Direct3D 11]","BindUnorderedAccessView method","ID3D11ModuleInstance.BindUnorderedAccessView","ID3D11ModuleInstance::BindUnorderedAccessView","d3d11shader/ID3D11ModuleInstance::BindUnorderedAccessView","direct3d11.id3d11moduleinstance_bindunorderedaccessview"]
+description: Rebinds an unordered access view (UAV) from source slot to destination slot.
+helpviewer_keywords: ["BindUnorderedAccessView","BindUnorderedAccessView method [Direct3D 11]","BindUnorderedAccessView method [Direct3D 11]","ID3D11ModuleInstance interface","ID3D11ModuleInstance interface [Direct3D 11]","BindUnorderedAccessView method","ID3D11ModuleInstance.BindUnorderedAccessView","ID3D11ModuleInstance::BindUnorderedAccessView","d3d11shader/ID3D11ModuleInstance::BindUnorderedAccessView","direct3d11.id3d11moduleinstance_bindunorderedaccessview"]
 old-location: direct3d11\id3d11moduleinstance_bindunorderedaccessview.htm
 tech.root: direct3d11
 ms.assetid: 2948964B-73B1-4656-8547-F5238C3DC928

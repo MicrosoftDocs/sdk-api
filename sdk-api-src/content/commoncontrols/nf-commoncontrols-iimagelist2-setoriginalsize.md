@@ -1,7 +1,8 @@
 ---
 UID: NF:commoncontrols.IImageList2.SetOriginalSize
 title: IImageList2::SetOriginalSize (commoncontrols.h)
-description: Sets the original size of a specified image.helpviewer_keywords: ["IImageList2 interface [Windows Controls]","SetOriginalSize method","IImageList2.SetOriginalSize","IImageList2::SetOriginalSize","SetOriginalSize","SetOriginalSize method [Windows Controls]","SetOriginalSize method [Windows Controls]","IImageList2 interface","_shell_IImageList2_SetOriginalSize","_shell_IImageList2_SetOriginalSize_cpp","commoncontrols/IImageList2::SetOriginalSize","controls.IImageList2_SetOriginalSize","controls._shell_IImageList2_SetOriginalSize"]
+description: Sets the original size of a specified image.
+helpviewer_keywords: ["IImageList2 interface [Windows Controls]","SetOriginalSize method","IImageList2.SetOriginalSize","IImageList2::SetOriginalSize","SetOriginalSize","SetOriginalSize method [Windows Controls]","SetOriginalSize method [Windows Controls]","IImageList2 interface","_shell_IImageList2_SetOriginalSize","_shell_IImageList2_SetOriginalSize_cpp","commoncontrols/IImageList2::SetOriginalSize","controls.IImageList2_SetOriginalSize","controls._shell_IImageList2_SetOriginalSize"]
 old-location: controls\IImageList2_SetOriginalSize.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\ifaces\iimagelist2\setoriginalsize.htm

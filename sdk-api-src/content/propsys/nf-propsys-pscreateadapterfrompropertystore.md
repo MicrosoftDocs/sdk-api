@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSCreateAdapterFromPropertyStore
 title: PSCreateAdapterFromPropertyStore function (propsys.h)
-description: Creates an adapter from an IPropertyStore.helpviewer_keywords: ["PSCreateAdapterFromPropertyStore","PSCreateAdapterFromPropertyStore function [Windows Properties]","_shell_PSCreateAdapterFromPropertyStore","properties.PSCreateAdapterFromPropertyStore","propsys/PSCreateAdapterFromPropertyStore","shell.PSCreateAdapterFromPropertyStore"]
+description: Creates an adapter from an IPropertyStore.
+helpviewer_keywords: ["PSCreateAdapterFromPropertyStore","PSCreateAdapterFromPropertyStore function [Windows Properties]","_shell_PSCreateAdapterFromPropertyStore","properties.PSCreateAdapterFromPropertyStore","propsys/PSCreateAdapterFromPropertyStore","shell.PSCreateAdapterFromPropertyStore"]
 old-location: properties\PSCreateAdapterFromPropertyStore.htm
 tech.root: properties
 ms.assetid: a3489f95-e790-481a-af6e-f30527dc476c

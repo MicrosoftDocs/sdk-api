@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.INetSharingManager.get_EnumEveryConnection
 title: INetSharingManager::get_EnumEveryConnection (netcon.h)
-description: The get_EnumEveryConnection method retrieves an enumeration interface for all the connections in the connection folder.helpviewer_keywords: ["INetSharingManager interface [ICS/ICF]","get_EnumEveryConnection method","INetSharingManager.get_EnumEveryConnection","INetSharingManager::get_EnumEveryConnection","_ics_inetsharingmanager_get_enumeveryconnection","get_EnumEveryConnection","get_EnumEveryConnection method [ICS/ICF]","get_EnumEveryConnection method [ICS/ICF]","INetSharingManager interface","ics.inetsharingmanager_get_enumeveryconnection","netcon/INetSharingManager::get_EnumEveryConnection"]
+description: The get_EnumEveryConnection method retrieves an enumeration interface for all the connections in the connection folder.
+helpviewer_keywords: ["INetSharingManager interface [ICS/ICF]","get_EnumEveryConnection method","INetSharingManager.get_EnumEveryConnection","INetSharingManager::get_EnumEveryConnection","_ics_inetsharingmanager_get_enumeveryconnection","get_EnumEveryConnection","get_EnumEveryConnection method [ICS/ICF]","get_EnumEveryConnection method [ICS/ICF]","INetSharingManager interface","ics.inetsharingmanager_get_enumeveryconnection","netcon/INetSharingManager::get_EnumEveryConnection"]
 old-location: ics\inetsharingmanager_get_enumeveryconnection.htm
 tech.root: ics
 ms.assetid: f200ffbf-3ce1-4c1b-b4c6-28a8784b5cb8

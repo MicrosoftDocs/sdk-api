@@ -1,7 +1,8 @@
 ---
 UID: NF:strsafe.StringCchCopyNExA
 title: StringCchCopyNExA function (strsafe.h)
-description: Copies the specified number of characters from one string to another.helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchCopyNEx","StringCchCopyNEx function [Menus and Other Resources]","StringCchCopyNExA","StringCchCopyNExW","_shell_StringCchCopyNEx","_shell_stringcchcopynex_cpp","menurc.stringcchcopynex","strsafe/StringCchCopyNEx","strsafe/StringCchCopyNExA","strsafe/StringCchCopyNExW","winui._shell_stringcchcopynex"]
+description: Copies the specified number of characters from one string to another.
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCchCopyNEx","StringCchCopyNEx function [Menus and Other Resources]","StringCchCopyNExA","StringCchCopyNExW","_shell_StringCchCopyNEx","_shell_stringcchcopynex_cpp","menurc.stringcchcopynex","strsafe/StringCchCopyNEx","strsafe/StringCchCopyNExA","strsafe/StringCchCopyNExW","winui._shell_stringcchcopynex"]
 old-location: menurc\stringcchcopynex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcchcopynex.htm
@@ -271,6 +272,10 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 
+
+
+> [!NOTE]
+> The strsafe.h header defines StringCchCopyNEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

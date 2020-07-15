@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IPart.RegisterControlChangeCallback
 title: IPart::RegisterControlChangeCallback (devicetopology.h)
-description: The RegisterControlChangeCallback method registers the IControlChangeNotify interface, which the client implements to receive notifications of status changes in this part.helpviewer_keywords: ["IPart interface [Core Audio]","RegisterControlChangeCallback method","IPart.RegisterControlChangeCallback","IPart::RegisterControlChangeCallback","IPartRegisterControlChangeCallback","RegisterControlChangeCallback","RegisterControlChangeCallback method [Core Audio]","RegisterControlChangeCallback method [Core Audio]","IPart interface","coreaudio.ipart_registercontrolchangecallback","devicetopology/IPart::RegisterControlChangeCallback"]
+description: The RegisterControlChangeCallback method registers the IControlChangeNotify interface, which the client implements to receive notifications of status changes in this part.
+helpviewer_keywords: ["IPart interface [Core Audio]","RegisterControlChangeCallback method","IPart.RegisterControlChangeCallback","IPart::RegisterControlChangeCallback","IPartRegisterControlChangeCallback","RegisterControlChangeCallback","RegisterControlChangeCallback method [Core Audio]","RegisterControlChangeCallback method [Core Audio]","IPart interface","coreaudio.ipart_registercontrolchangecallback","devicetopology/IPart::RegisterControlChangeCallback"]
 old-location: coreaudio\ipart_registercontrolchangecallback.htm
 tech.root: CoreAudio
 ms.assetid: 58cf52c9-20ee-46c4-926e-c374a4f42240

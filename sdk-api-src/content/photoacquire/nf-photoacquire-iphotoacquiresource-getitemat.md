@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireSource.GetItemAt
 title: IPhotoAcquireSource::GetItemAt (photoacquire.h)
-description: The GetItemAt method retrieves the IPhotoAcquireItem object at the given index in the list of items.helpviewer_keywords: ["GetItemAt","GetItemAt method [Picture Acquisition]","GetItemAt method [Picture Acquisition]","IPhotoAcquireSource interface","IPhotoAcquireSource interface [Picture Acquisition]","GetItemAt method","IPhotoAcquireSource.GetItemAt","IPhotoAcquireSource::GetItemAt","IPhotoAcquireSourceGetItemAt","photoacquire/IPhotoAcquireSource::GetItemAt","picacq.iphotoacquiresource_getitemat"]
+description: The GetItemAt method retrieves the IPhotoAcquireItem object at the given index in the list of items.
+helpviewer_keywords: ["GetItemAt","GetItemAt method [Picture Acquisition]","GetItemAt method [Picture Acquisition]","IPhotoAcquireSource interface","IPhotoAcquireSource interface [Picture Acquisition]","GetItemAt method","IPhotoAcquireSource.GetItemAt","IPhotoAcquireSource::GetItemAt","IPhotoAcquireSourceGetItemAt","photoacquire/IPhotoAcquireSource::GetItemAt","picacq.iphotoacquiresource_getitemat"]
 old-location: picacq\iphotoacquiresource_getitemat.htm
 tech.root: acquisition
 ms.assetid: c066464b-1d88-4d43-8bfd-0f60f21db5fd

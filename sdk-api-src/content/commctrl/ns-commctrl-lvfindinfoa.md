@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagLVFINDINFOA
 title: LVFINDINFOA (commctrl.h)
-description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions.helpviewer_keywords: ["*LPFINDINFOA","LPFINDINFO","LPFINDINFO structure pointer [Windows Controls]","LVFINDINFO","LVFINDINFO structure [Windows Controls]","LVFINDINFOA","LVFINDINFOW","LVFI_NEARESTXY","LVFI_PARAM","LVFI_PARTIAL","LVFI_STRING","LVFI_SUBSTRING","LVFI_WRAP","_win32_LVFINDINFO","_win32_LVFINDINFO_cpp","commctrl/LPFINDINFO","commctrl/LVFINDINFO","commctrl/LVFINDINFOA","commctrl/LVFINDINFOW","controls.LVFINDINFO","controls._win32_LVFINDINFO"]
+description: Contains information used when searching for a list-view item. This structure is identical to LV_FINDINFO but has been renamed to fit standard naming conventions.
+helpviewer_keywords: ["*LPFINDINFOA","LPFINDINFO","LPFINDINFO structure pointer [Windows Controls]","LVFINDINFO","LVFINDINFO structure [Windows Controls]","LVFINDINFOA","LVFINDINFOW","LVFI_NEARESTXY","LVFI_PARAM","LVFI_PARTIAL","LVFI_STRING","LVFI_SUBSTRING","LVFI_WRAP","_win32_LVFINDINFO","_win32_LVFINDINFO_cpp","commctrl/LPFINDINFO","commctrl/LVFINDINFO","commctrl/LVFINDINFOA","commctrl/LVFINDINFOW","controls.LVFINDINFO","controls._win32_LVFINDINFO"]
 old-location: controls\LVFINDINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lvfindinfo.htm
@@ -175,4 +176,9 @@ Virtual key code that specifies the direction to search. The following codes are
 <li>VK_NEXT </li>
 </ul>
 This member is valid only if LVFI_NEARESTXY is set in the <b>flags</b> member.
+
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines LVFINDINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

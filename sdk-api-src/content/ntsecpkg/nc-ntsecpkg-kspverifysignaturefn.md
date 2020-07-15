@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.KspVerifySignatureFn
 title: KspVerifySignatureFn (ntsecpkg.h)
-description: Verifies that the message received is correct according to the signature.helpviewer_keywords: ["KspVerifySignatureFn","KspVerifySignatureFn callback","SpVerifySignature","SpVerifySignature callback function [Security]","_ssp_spverifysignature","ntsecpkg/SpVerifySignature","security.spverifysignature"]
+description: Verifies that the message received is correct according to the signature.
+helpviewer_keywords: ["KspVerifySignatureFn","KspVerifySignatureFn callback","SpVerifySignature","SpVerifySignature callback function [Security]","_ssp_spverifysignature","ntsecpkg/SpVerifySignature","security.spverifysignature"]
 old-location: security\spverifysignature.htm
 tech.root: SecAuthN
 ms.assetid: 62a74a1d-c7e6-4722-af57-997a5ff553ee

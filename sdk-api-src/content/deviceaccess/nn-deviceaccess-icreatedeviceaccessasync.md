@@ -1,7 +1,8 @@
 ---
 UID: NN:deviceaccess.ICreateDeviceAccessAsync
 title: ICreateDeviceAccessAsync (deviceaccess.h)
-description: The ICreateDeviceAccessAsync interface is returned from a call to CreateDeviceAccessInstance.helpviewer_keywords: ["ICreateDeviceAccessAsync","ICreateDeviceAccessAsync interface [Device Access Broker API]","ICreateDeviceAccessAsync interface [Device Access Broker API]","described","deviceaccess.icreatedeviceaccessasync","deviceaccess/ICreateDeviceAccessAsync"]
+description: The ICreateDeviceAccessAsync interface is returned from a call to CreateDeviceAccessInstance.
+helpviewer_keywords: ["ICreateDeviceAccessAsync","ICreateDeviceAccessAsync interface [Device Access Broker API]","ICreateDeviceAccessAsync interface [Device Access Broker API]","described","deviceaccess.icreatedeviceaccessasync","deviceaccess/ICreateDeviceAccessAsync"]
 old-location: deviceaccess\icreatedeviceaccessasync.htm
 tech.root: deviceaccess
 ms.assetid: ebc8d694-c933-4d98-95f5-67b0dd733d4d

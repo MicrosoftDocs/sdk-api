@@ -45,12 +45,9 @@ ms.custom: 19H1
 
 # RAWKEYBOARD structure
 
-
 ## -description
 
-
 Contains information about the state of the keyboard. 
-
 
 ## -struct-fields
 
@@ -58,63 +55,20 @@ Contains information about the state of the keyboard.
 
 Type: <b>USHORT</b>
 
-Specifies the scan code associated with a key press. See <b>Scan Code Table</b> at <a href="http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc">Keyboard Scan Code Specification</a> document for a list of possible values. The scan code for keyboard overrun is <b>KEYBOARD_OVERRUN_MAKE_CODE</b>. 
-
+Specifies the scan code (from Scan Code Set 1) associated with a key press. See Remarks.
 
 ### -field Flags
 
 Type: <b>USHORT</b>
 
-Flags for scan code information. It can be one or more of the following.
+Flags for scan code information. It can be one or more of the following:
 
-<table>
-<tr>
-<th>Value</th>
-<th>Meaning</th>
-</tr>
-<tr>
-<td width="40%"><a id="RI_KEY_MAKE"></a><a id="ri_key_make"></a><dl>
-<dt><b>RI_KEY_MAKE</b></dt>
-<dt>0</dt>
-</dl>
-</td>
-<td width="60%">
-The key is down.
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="RI_KEY_BREAK"></a><a id="ri_key_break"></a><dl>
-<dt><b>RI_KEY_BREAK</b></dt>
-<dt>1</dt>
-</dl>
-</td>
-<td width="60%">
-The key is up.
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="RI_KEY_E0"></a><a id="ri_key_e0"></a><dl>
-<dt><b>RI_KEY_E0</b></dt>
-<dt>2</dt>
-</dl>
-</td>
-<td width="60%">
-The scan code has the E0 prefix.
-</td>
-</tr>
-<tr>
-<td width="40%"><a id="RI_KEY_E1"></a><a id="ri_key_e1"></a><dl>
-<dt><b>RI_KEY_E1</b></dt>
-<dt>4</dt>
-</dl>
-</td>
-<td width="60%">
-The scan code has the E1 prefix.
-</td>
-</tr>
-</table>
- 
-
+| Value                | Meaning                          |
+|----------------------|----------------------------------|
+| **RI\_KEY\_MAKE** 0  | The key is down.                 |
+| **RI\_KEY\_BREAK** 1 | The key is up.                   |
+| **RI\_KEY\_E0** 2    | The scan code has the E0 prefix. |
+| **RI\_KEY\_E1** 4    | The scan code has the E1 prefix. |
 
 ### -field Reserved
 
@@ -122,26 +76,31 @@ Type: <b>USHORT</b>
 
 Reserved; must be zero. 
 
-
 ### -field VKey
 
 Type: <b>USHORT</b>
 
-Windows message compatible virtual-key code. For more information, see <a href="https://docs.microsoft.com/windows/desktop/inputdev/virtual-key-codes">Virtual Key Codes</a>. 
-
+The corresponding [legacy virtual-key code](https://docs.microsoft.com/windows/win32/inputdev/virtual-key-codes).
 
 ### -field Message
 
 Type: <b>UINT</b>
 
-The corresponding window message, for example <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-keydown">WM_KEYDOWN</a>, <a href="https://docs.microsoft.com/windows/desktop/inputdev/wm-syskeydown">WM_SYSKEYDOWN</a>, and so forth. 
-
+The corresponding [legacy keyboard window message](https://docs.microsoft.com/windows/win32/inputdev/keyboard-input-notifications), for example [WM_KEYDOWN](https://docs.microsoft.com/windows/win32/inputdev/wm-keydown), [WM_SYSKEYDOWN](https://docs.microsoft.com/windows/win32/inputdev/wm-syskeydown), and so forth. 
 
 ### -field ExtraInformation
 
 Type: <b>ULONG</b>
 
-The device-specific additional information for the event. 
+The device-specific additional information for the event.
+
+## -remarks
+
+For a **MakeCode** value [HID client mapper driver](https://docs.microsoft.com/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers) converts HID usages into scan codes according to [USB HID to PS/2 Scan Code Translation Table](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf) (see **PS/2 Set 1 Make** column).
+
+Older PS/2 keyboards actually transmit Scan Code Set 2 values down the wire from the keyboard to the keyboard port. These values are translated to Scan Code Set 1 by the i8042 port chip. Possible values are listed in [Keyboard Scan Code Specification](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc) (see **Scan Code Table**).
+
+<b>KEYBOARD_OVERRUN_MAKE_CODE</b> is a special **MakeCode** value sent when an invalid or unrecognizable combination of keys is pressed or the number of keys pressed exceeds the limit for this keyboard.
 
 ## -see-also
 
@@ -151,14 +110,14 @@ The device-specific additional information for the event.
 
 [RAWINPUT](ns-winuser-rawinput.md)
 
-[Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
+[Raw Input](https://docs.microsoft.com/windows/win32/inputdev/raw-input)
+
+[Keyboard and mouse HID client drivers](https://docs.microsoft.com/windows-hardware/drivers/hid/keyboard-and-mouse-hid-client-drivers)
 
 <b>Reference</b>
 
-[Windows Platform Design Notes: Keyboard Scan Code Specification, Revision 1.3a](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc)
+[USB HID to PS/2 Scan Code Translation Table](https://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/translate.pdf)
 
-[KEYBDINPUT structure](ns-winuser-keybdinput.md)
+[PS/2 Keyboard Scan Code Specification](http://download.microsoft.com/download/1/6/1/161ba512-40e2-4cc9-843a-923143f3456c/scancode.doc)
 
-[SendInput function](nf-winuser-sendinput.md)
-
-[KEYBOARD_INPUT_DATA structure](https://docs.microsoft.com/en-us/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_input_data)
+[KEYBOARD_INPUT_DATA structure](https://docs.microsoft.com/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_input_data)

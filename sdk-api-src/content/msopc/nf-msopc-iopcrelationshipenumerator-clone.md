@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcRelationshipEnumerator.Clone
 title: IOpcRelationshipEnumerator::Clone (msopc.h)
-description: Creates a copy of the current enumerator and all its descendants.helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcRelationshipEnumerator interface","IOpcRelationshipEnumerator interface [Open Packaging Conventions]","Clone method","IOpcRelationshipEnumerator.Clone","IOpcRelationshipEnumerator::Clone","msopc/IOpcRelationshipEnumerator::Clone","opc.iopcrelationshipenumerator_clone"]
+description: Creates a copy of the current enumerator and all its descendants.
+helpviewer_keywords: ["Clone","Clone method [Open Packaging Conventions]","Clone method [Open Packaging Conventions]","IOpcRelationshipEnumerator interface","IOpcRelationshipEnumerator interface [Open Packaging Conventions]","Clone method","IOpcRelationshipEnumerator.Clone","IOpcRelationshipEnumerator::Clone","msopc/IOpcRelationshipEnumerator::Clone","opc.iopcrelationshipenumerator_clone"]
 old-location: opc\iopcrelationshipenumerator_clone.htm
 tech.root: OPC
 ms.assetid: 838f9486-be46-461f-b570-bc77003f1619

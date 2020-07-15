@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2spi.WPUOpenCurrentThread
 title: WPUOpenCurrentThread function (ws2spi.h)
-description: The WPUOpenCurrentThread function opens a handle to the current thread that can be used with overlapped functions in a layered service provider.helpviewer_keywords: ["WPUOpenCurrentThread","WPUOpenCurrentThread function [Winsock]","_win32_wpuopencurrentthread_2","winsock.wpuopencurrentthread_2","ws2spi/WPUOpenCurrentThread"]
+description: The WPUOpenCurrentThread function opens a handle to the current thread that can be used with overlapped functions in a layered service provider.
+helpviewer_keywords: ["WPUOpenCurrentThread","WPUOpenCurrentThread function [Winsock]","_win32_wpuopencurrentthread_2","winsock.wpuopencurrentthread_2","ws2spi/WPUOpenCurrentThread"]
 old-location: winsock\wpuopencurrentthread_2.htm
 tech.root: WinSock
 ms.assetid: 92d21f29-240f-407e-89a7-bbbb8f9bf0eb

@@ -1,7 +1,8 @@
 ---
 UID: NS:rectypes.tagRECO_LATTICE_PROPERTY
 title: RECO_LATTICE_PROPERTY (rectypes.h)
-description: Contains a property used in the lattice.helpviewer_keywords: ["RECO_LATTICE_PROPERTY","RECO_LATTICE_PROPERTY structure [Tablet PC]","cbf35f4e-cc13-4d5e-886f-22a6f0e26411","rectypes/RECO_LATTICE_PROPERTY","tablet.reco_lattice_property"]
+description: Contains a property used in the lattice.
+helpviewer_keywords: ["RECO_LATTICE_PROPERTY","RECO_LATTICE_PROPERTY structure [Tablet PC]","cbf35f4e-cc13-4d5e-886f-22a6f0e26411","rectypes/RECO_LATTICE_PROPERTY","tablet.reco_lattice_property"]
 old-location: tablet\reco_lattice_property.htm
 tech.root: tablet
 ms.assetid: cbf35f4e-cc13-4d5e-886f-22a6f0e26411

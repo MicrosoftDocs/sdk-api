@@ -1,7 +1,8 @@
 ---
 UID: NF:winsnmp.SnmpStrToEntity
 title: SnmpStrToEntity function (winsnmp.h)
-description: The WinSNMP SnmpStrToEntity function returns a handle to information about an SNMP management entity that is specific to the Microsoft WinSNMP implementation.helpviewer_keywords: ["SNMPAPI_TRANSLATED","SNMPAPI_UNTRANSLATED_V1","SNMPAPI_UNTRANSLATED_V2","SnmpStrToEntity","SnmpStrToEntity function [SNMP]","_snmp_snmpstrtoentity","snmp.snmpstrtoentity","winsnmp/SnmpStrToEntity"]
+description: The WinSNMP SnmpStrToEntity function returns a handle to information about an SNMP management entity that is specific to the Microsoft WinSNMP implementation.
+helpviewer_keywords: ["SNMPAPI_TRANSLATED","SNMPAPI_UNTRANSLATED_V1","SNMPAPI_UNTRANSLATED_V2","SnmpStrToEntity","SnmpStrToEntity function [SNMP]","_snmp_snmpstrtoentity","snmp.snmpstrtoentity","winsnmp/SnmpStrToEntity"]
 old-location: snmp\snmpstrtoentity.htm
 tech.root: SNMP
 ms.assetid: d0a8e389-ba5b-45f4-9682-1fbe456daaed

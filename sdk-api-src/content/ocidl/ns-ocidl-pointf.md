@@ -1,7 +1,8 @@
 ---
 UID: NS:ocidl.tagPOINTF
 title: POINTF (ocidl.h)
-description: Contains information that is used to convert between container units, expressed in floating point, and control units, expressed in HIMETRIC.helpviewer_keywords: ["*LPPOINTF","LPPOINTF","LPPOINTF structure pointer [COM]","POINTF","POINTF structure [COM]","_ole_POINTF","com.pointf","ocidl/LPPOINTF","ocidl/POINTF"]
+description: Contains information that is used to convert between container units, expressed in floating point, and control units, expressed in HIMETRIC.
+helpviewer_keywords: ["*LPPOINTF","LPPOINTF","LPPOINTF structure pointer [COM]","POINTF","POINTF structure [COM]","_ole_POINTF","com.pointf","ocidl/LPPOINTF","ocidl/POINTF"]
 old-location: com\pointf.htm
 tech.root: com
 ms.assetid: 2b201df8-efee-4302-a93c-b514b982cf2b

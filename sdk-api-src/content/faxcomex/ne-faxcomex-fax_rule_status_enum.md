@@ -1,7 +1,8 @@
 ---
 UID: NE:faxcomex.FAX_RULE_STATUS_ENUM
 title: FAX_RULE_STATUS_ENUM (faxcomex.h)
-description: The FAX_RULE_STATUS_ENUM enumeration defines the status types for outbound routing rules.helpviewer_keywords: ["FAX_RULE_STATUS_ENUM","FAX_RULE_STATUS_ENUM enumeration [Fax Service]","_mfax_fax_rule_status_enum","fax._mfax_fax_rule_status_enum","faxcomex/FAX_RULE_STATUS_ENUM","faxcomex/frsALL_GROUP_DEV_NOT_VALID","faxcomex/frsBAD_DEVICE","faxcomex/frsEMPTY_GROUP","faxcomex/frsSOME_GROUP_DEV_NOT_VALID","faxcomex/frsVALID","frsALL_GROUP_DEV_NOT_VALID","frsBAD_DEVICE","frsEMPTY_GROUP","frsSOME_GROUP_DEV_NOT_VALID","frsVALID"]
+description: The FAX_RULE_STATUS_ENUM enumeration defines the status types for outbound routing rules.
+helpviewer_keywords: ["FAX_RULE_STATUS_ENUM","FAX_RULE_STATUS_ENUM enumeration [Fax Service]","_mfax_fax_rule_status_enum","fax._mfax_fax_rule_status_enum","faxcomex/FAX_RULE_STATUS_ENUM","faxcomex/frsALL_GROUP_DEV_NOT_VALID","faxcomex/frsBAD_DEVICE","faxcomex/frsEMPTY_GROUP","faxcomex/frsSOME_GROUP_DEV_NOT_VALID","faxcomex/frsVALID","frsALL_GROUP_DEV_NOT_VALID","frsBAD_DEVICE","frsEMPTY_GROUP","frsSOME_GROUP_DEV_NOT_VALID","frsVALID"]
 old-location: fax\_mfax_fax_rule_status_enum.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_5p2l.htm

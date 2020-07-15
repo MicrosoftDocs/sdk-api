@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetCaption
 title: IPhotoProgressDialog::SetCaption (photoacquire.h)
-description: Sets the caption of the progress dialog box.helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","SetCaption method","IPhotoProgressDialog.SetCaption","IPhotoProgressDialog::SetCaption","IPhotoProgressDialogSetCaption","SetCaption","SetCaption method [Picture Acquisition]","SetCaption method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::SetCaption","picacq.iphotoprogressdialog_setcaption"]
+description: Sets the caption of the progress dialog box.
+helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","SetCaption method","IPhotoProgressDialog.SetCaption","IPhotoProgressDialog::SetCaption","IPhotoProgressDialogSetCaption","SetCaption","SetCaption method [Picture Acquisition]","SetCaption method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::SetCaption","picacq.iphotoprogressdialog_setcaption"]
 old-location: picacq\iphotoprogressdialog_setcaption.htm
 tech.root: acquisition
 ms.assetid: 01689aa9-e3ae-48b4-b105-25880097a112

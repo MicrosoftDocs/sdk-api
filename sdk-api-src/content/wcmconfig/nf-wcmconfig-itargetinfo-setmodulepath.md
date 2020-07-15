@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.SetModulePath
 title: ITargetInfo::SetModulePath (wcmconfig.h)
-description: Sets the module path for the offline installation location.helpviewer_keywords: ["ITargetInfo interface [SMI]","SetModulePath method","ITargetInfo.SetModulePath","ITargetInfo::SetModulePath","SetModulePath","SetModulePath method [SMI]","SetModulePath method [SMI]","ITargetInfo interface","smi.itargetinfo_setmodulepath","wcmconfig/ITargetInfo::SetModulePath"]
+description: Sets the module path for the offline installation location.
+helpviewer_keywords: ["ITargetInfo interface [SMI]","SetModulePath method","ITargetInfo.SetModulePath","ITargetInfo::SetModulePath","SetModulePath","SetModulePath method [SMI]","SetModulePath method [SMI]","ITargetInfo interface","smi.itargetinfo_setmodulepath","wcmconfig/ITargetInfo::SetModulePath"]
 old-location: smi\itargetinfo_setmodulepath.htm
 tech.root: SMI
 ms.assetid: 4831fdf9-411b-4fdb-bd5c-3a309e6b6918

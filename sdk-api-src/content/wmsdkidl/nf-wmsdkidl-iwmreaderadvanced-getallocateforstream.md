@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced.GetAllocateForStream
 title: IWMReaderAdvanced::GetAllocateForStream (wmsdkidl.h)
-description: The GetAllocateForStream method ascertains whether the reader is configured to use IWMReaderCallbackAdvanced to allocate stream samples delivered by the IWMReaderCallbackAdvanced::OnStreamSample callback.helpviewer_keywords: ["GetAllocateForStream","GetAllocateForStream method [windows Media Format]","GetAllocateForStream method [windows Media Format]","IWMReaderAdvanced interface","IWMReaderAdvanced interface [windows Media Format]","GetAllocateForStream method","IWMReaderAdvanced.GetAllocateForStream","IWMReaderAdvanced::GetAllocateForStream","IWMReaderAdvancedGetAllocateForStream","wmformat.iwmreaderadvanced_getallocateforstream","wmsdkidl/IWMReaderAdvanced::GetAllocateForStream"]
+description: The GetAllocateForStream method ascertains whether the reader is configured to use IWMReaderCallbackAdvanced to allocate stream samples delivered by the IWMReaderCallbackAdvanced::OnStreamSample callback.
+helpviewer_keywords: ["GetAllocateForStream","GetAllocateForStream method [windows Media Format]","GetAllocateForStream method [windows Media Format]","IWMReaderAdvanced interface","IWMReaderAdvanced interface [windows Media Format]","GetAllocateForStream method","IWMReaderAdvanced.GetAllocateForStream","IWMReaderAdvanced::GetAllocateForStream","IWMReaderAdvancedGetAllocateForStream","wmformat.iwmreaderadvanced_getallocateforstream","wmsdkidl/IWMReaderAdvanced::GetAllocateForStream"]
 old-location: wmformat\iwmreaderadvanced_getallocateforstream.htm
 tech.root: wmformat
 ms.assetid: 816f13b1-9856-482d-b5b1-4aaf5c61c230

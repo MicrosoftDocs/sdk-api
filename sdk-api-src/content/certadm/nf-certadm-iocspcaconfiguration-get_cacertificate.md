@@ -1,7 +1,8 @@
 ---
 UID: NF:certadm.IOCSPCAConfiguration.get_CACertificate
 title: IOCSPCAConfiguration::get_CACertificate (certadm.h)
-description: Gets an X.509 certificate that has been encoded by using Distinguished Encoding Rules (DER) and that is for a certification authority (CA).helpviewer_keywords: ["CACertificate property [Security]","CACertificate property [Security]","IOCSPCAConfiguration interface","IOCSPCAConfiguration interface [Security]","CACertificate property","IOCSPCAConfiguration.CACertificate","IOCSPCAConfiguration.get_CACertificate","IOCSPCAConfiguration::CACertificate","IOCSPCAConfiguration::get_CACertificate","certadm/IOCSPCAConfiguration::CACertificate","certadm/IOCSPCAConfiguration::get_CACertificate","get_CACertificate","security.iocspcaconfiguration_cacertificate_method"]
+description: Gets an X.509 certificate that has been encoded by using Distinguished Encoding Rules (DER) and that is for a certification authority (CA).
+helpviewer_keywords: ["CACertificate property [Security]","CACertificate property [Security]","IOCSPCAConfiguration interface","IOCSPCAConfiguration interface [Security]","CACertificate property","IOCSPCAConfiguration.CACertificate","IOCSPCAConfiguration.get_CACertificate","IOCSPCAConfiguration::CACertificate","IOCSPCAConfiguration::get_CACertificate","certadm/IOCSPCAConfiguration::CACertificate","certadm/IOCSPCAConfiguration::get_CACertificate","get_CACertificate","security.iocspcaconfiguration_cacertificate_method"]
 old-location: security\iocspcaconfiguration_cacertificate_method.htm
 tech.root: SecCrypto
 ms.assetid: 73fd56d2-a0d4-4bf8-b818-aadf8cbac9c4

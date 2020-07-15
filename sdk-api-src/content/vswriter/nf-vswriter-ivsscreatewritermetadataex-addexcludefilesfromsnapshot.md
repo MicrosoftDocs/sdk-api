@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot
 title: IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot (vswriter.h)
-description: Reports any file sets that will be explicitly excluded by the writer when a shadow copy is created.helpviewer_keywords: ["AddExcludeFilesFromSnapshot","AddExcludeFilesFromSnapshot method","AddExcludeFilesFromSnapshot method","IVssCreateWriterMetadataEx interface","IVssCreateWriterMetadataEx interface","AddExcludeFilesFromSnapshot method","IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot","IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot","base.ivsscreatewritermetadataex_addexcludefilesfromsnapshot","vswriter/IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot"]
+description: Reports any file sets that will be explicitly excluded by the writer when a shadow copy is created.
+helpviewer_keywords: ["AddExcludeFilesFromSnapshot","AddExcludeFilesFromSnapshot method","AddExcludeFilesFromSnapshot method","IVssCreateWriterMetadataEx interface","IVssCreateWriterMetadataEx interface","AddExcludeFilesFromSnapshot method","IVssCreateWriterMetadataEx.AddExcludeFilesFromSnapshot","IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot","base.ivsscreatewritermetadataex_addexcludefilesfromsnapshot","vswriter/IVssCreateWriterMetadataEx::AddExcludeFilesFromSnapshot"]
 old-location: base\ivsscreatewritermetadataex_addexcludefilesfromsnapshot.htm
 tech.root: VSS
 ms.assetid: 6be4c63c-c36a-4ff4-92b7-63b69a030b86

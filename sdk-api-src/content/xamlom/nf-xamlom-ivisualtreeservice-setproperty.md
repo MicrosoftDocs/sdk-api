@@ -1,7 +1,8 @@
 ---
 UID: NF:xamlom.IVisualTreeService.SetProperty
 title: IVisualTreeService::SetProperty (xamlom.h)
-description: Sets a property value on a XAML element.helpviewer_keywords: ["IVisualTreeService interface","SetProperty method","IVisualTreeService.SetProperty","IVisualTreeService::SetProperty","SetProperty","SetProperty method","SetProperty method","IVisualTreeService interface","xaml_diagnostics.ivisualtreeservice_setproperty","xamlom/IVisualTreeService::SetProperty"]
+description: Sets a property value on a XAML element.
+helpviewer_keywords: ["IVisualTreeService interface","SetProperty method","IVisualTreeService.SetProperty","IVisualTreeService::SetProperty","SetProperty","SetProperty method","SetProperty method","IVisualTreeService interface","xaml_diagnostics.ivisualtreeservice_setproperty","xamlom/IVisualTreeService::SetProperty"]
 old-location: xaml_diagnostics\ivisualtreeservice_setproperty.htm
 tech.root: xaml_diagnostics
 ms.assetid: A9C6C67F-7767-454C-BA05-86C6B1E5D712

@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxBundleWriter2
 title: IAppxBundleWriter2 (appxpackaging.h)
-description: Provides a write-only object model for bundle packages.helpviewer_keywords: ["IAppxBundleWriter2","IAppxBundleWriter2 interface [App packaging and management]","IAppxBundleWriter2 interface [App packaging and management]","described","appxpackaging/IAppxBundleWriter2","appxpkg.iappxbundlewriter2"]
+description: Provides a write-only object model for bundle packages.
+helpviewer_keywords: ["IAppxBundleWriter2","IAppxBundleWriter2 interface [App packaging and management]","IAppxBundleWriter2 interface [App packaging and management]","described","appxpackaging/IAppxBundleWriter2","appxpkg.iappxbundlewriter2"]
 old-location: appxpkg\iappxbundlewriter2.htm
 tech.root: appxpkg
 ms.assetid: FD9EAF80-8449-4016-91A9-2299711C3D48

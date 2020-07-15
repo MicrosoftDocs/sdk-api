@@ -1,7 +1,8 @@
 ---
 UID: NF:micaut.IMathInputControl.GetHoverIcon
 title: IMathInputControl::GetHoverIcon (micaut.h)
-description: Retrieves the icon to be used for the hover target to launch math input control.helpviewer_keywords: ["GetHoverIcon","GetHoverIcon method [Tablet PC]","GetHoverIcon method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","GetHoverIcon method","IMathInputControl.GetHoverIcon","IMathInputControl::GetHoverIcon","micaut/IMathInputControl::GetHoverIcon","tablet.imathinputcontrol_gethovericon"]
+description: Retrieves the icon to be used for the hover target to launch math input control.
+helpviewer_keywords: ["GetHoverIcon","GetHoverIcon method [Tablet PC]","GetHoverIcon method [Tablet PC]","IMathInputControl interface","IMathInputControl interface [Tablet PC]","GetHoverIcon method","IMathInputControl.GetHoverIcon","IMathInputControl::GetHoverIcon","micaut/IMathInputControl::GetHoverIcon","tablet.imathinputcontrol_gethovericon"]
 old-location: tablet\imathinputcontrol_gethovericon.htm
 tech.root: tablet
 ms.assetid: 281695e6-295b-42d8-a184-c5a005de10e3

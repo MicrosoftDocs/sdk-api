@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontSetBuilder2.AddFontFile
 title: IDWriteFontSetBuilder2::AddFontFile
-description: Adds references to all the fonts in the specified font file. The method parses the font file to determine the fonts and their properties.helpviewer_keywords: ["IDWriteFontSetBuilder2 interface [Direct Write]","AddFontFile method","IDWriteFontSetBuilder2.AddFontFile","IDWriteFontSetBuilder2::AddFontFile","AddFontFile","AddFontFile method [Direct Write]","AddFontFile method [Direct Write]","IDWriteFontSetBuilder2 interface","directwrite.idwritefontsetbuilder2_addfontfile","dwrite_3/IDWriteFontSetBuilder2::AddFontFile"]
+description: Adds references to all the fonts in the specified font file. The method parses the font file to determine the fonts and their properties.
+helpviewer_keywords: ["IDWriteFontSetBuilder2 interface [Direct Write]","AddFontFile method","IDWriteFontSetBuilder2.AddFontFile","IDWriteFontSetBuilder2::AddFontFile","AddFontFile","AddFontFile method [Direct Write]","AddFontFile method [Direct Write]","IDWriteFontSetBuilder2 interface","directwrite.idwritefontsetbuilder2_addfontfile","dwrite_3/IDWriteFontSetBuilder2::AddFontFile"]
 tech.root: DirectWrite
 ms.date: 09/16/2019
 ms.keywords: IDWriteFontSetBuilder2 interface [Direct Write],AddFontFile method, IDWriteFontSetBuilder2.AddFontFile, IDWriteFontSetBuilder2::AddFontFile, AddFontFile, AddFontFile method [Direct Write], AddFontFile method [Direct Write],IDWriteFontSetBuilder2 interface, directwrite.idwritefontsetbuilder2_addfontfile, dwrite_3/IDWriteFontSetBuilder2::AddFontFile

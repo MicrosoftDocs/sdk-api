@@ -1,7 +1,8 @@
 ---
 UID: NS:uiautomationcore.UiaChangeInfo
 title: UiaChangeInfo (uiautomationcore.h)
-description: Contains data about a UI Automation change that occurred.helpviewer_keywords: ["PUiaChangeInfo","PUiaChangeInfo structure pointer [Windows Accessibility]","UiaChangeInfo","UiaChangeInfo structure [Windows Accessibility]","uiautomationcore/PUiaChangeInfo","uiautomationcore/UiaChangeInfo","winauto.uiachangeinfo"]
+description: Contains data about a UI Automation change that occurred.
+helpviewer_keywords: ["PUiaChangeInfo","PUiaChangeInfo structure pointer [Windows Accessibility]","UiaChangeInfo","UiaChangeInfo structure [Windows Accessibility]","uiautomationcore/PUiaChangeInfo","uiautomationcore/UiaChangeInfo","winauto.uiachangeinfo"]
 old-location: winauto\uiachangeinfo.htm
 tech.root: WinAuto
 ms.assetid: 28C0C0DE-7ED2-4D01-B532-E56AD81AE8D0

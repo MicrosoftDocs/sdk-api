@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateColorMatrixEffect
 title: IDCompositionDevice3::CreateColorMatrixEffect (dcomp.h)
-description: Creates an instance of IDCompositionColorMatrixEffect.helpviewer_keywords: ["CreateColorMatrixEffect","CreateColorMatrixEffect method [DirectComposition]","CreateColorMatrixEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateColorMatrixEffect method","IDCompositionDevice3.CreateColorMatrixEffect","IDCompositionDevice3::CreateColorMatrixEffect","dcomp/IDCompositionDevice3::CreateColorMatrixEffect","directcomp.idcompositiondevice3_createcolormatrixeffect"]
+description: Creates an instance of IDCompositionColorMatrixEffect.
+helpviewer_keywords: ["CreateColorMatrixEffect","CreateColorMatrixEffect method [DirectComposition]","CreateColorMatrixEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateColorMatrixEffect method","IDCompositionDevice3.CreateColorMatrixEffect","IDCompositionDevice3::CreateColorMatrixEffect","dcomp/IDCompositionDevice3::CreateColorMatrixEffect","directcomp.idcompositiondevice3_createcolormatrixeffect"]
 old-location: directcomp\idcompositiondevice3_createcolormatrixeffect.htm
 tech.root: directcomp
 ms.assetid: A286F5C1-764F-4FAF-B2D2-92820BD2E709

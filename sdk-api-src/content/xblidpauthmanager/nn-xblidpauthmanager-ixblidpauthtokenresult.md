@@ -1,7 +1,8 @@
 ---
 UID: NN:xblidpauthmanager.IXblIdpAuthTokenResult
 title: IXblIdpAuthTokenResult (xblidpauthmanager.h)
-description: Reserved for Microsoft use.helpviewer_keywords: ["IXblIdpAuthTokenResult","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","described","xblidp.ixblidpauthtokenresult","xblidpauthmanager/IXblIdpAuthTokenResult"]
+description: Reserved for Microsoft use.
+helpviewer_keywords: ["IXblIdpAuthTokenResult","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","described","xblidp.ixblidpauthtokenresult","xblidpauthmanager/IXblIdpAuthTokenResult"]
 old-location: xblidp\ixblidpauthtokenresult.htm
 tech.root: xblidp
 ms.assetid: F3E2F3FD-0258-4AB9-B86E-5B12AD8ECA52

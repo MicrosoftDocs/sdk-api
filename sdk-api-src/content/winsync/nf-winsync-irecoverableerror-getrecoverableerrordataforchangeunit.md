@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IRecoverableError.GetRecoverableErrorDataForChangeUnit
 title: IRecoverableError::GetRecoverableErrorDataForChangeUnit (winsync.h)
-description: Gets additional data about the recoverable error for a specified change unit.helpviewer_keywords: ["GetRecoverableErrorDataForChangeUnit","GetRecoverableErrorDataForChangeUnit method [Windows Sync]","GetRecoverableErrorDataForChangeUnit method [Windows Sync]","IRecoverableError interface","IRecoverableError interface [Windows Sync]","GetRecoverableErrorDataForChangeUnit method","IRecoverableError.GetRecoverableErrorDataForChangeUnit","IRecoverableError::GetRecoverableErrorDataForChangeUnit","winsync.irecoverableerror_getrecoverableerrordataforchangeunit","winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit"]
+description: Gets additional data about the recoverable error for a specified change unit.
+helpviewer_keywords: ["GetRecoverableErrorDataForChangeUnit","GetRecoverableErrorDataForChangeUnit method [Windows Sync]","GetRecoverableErrorDataForChangeUnit method [Windows Sync]","IRecoverableError interface","IRecoverableError interface [Windows Sync]","GetRecoverableErrorDataForChangeUnit method","IRecoverableError.GetRecoverableErrorDataForChangeUnit","IRecoverableError::GetRecoverableErrorDataForChangeUnit","winsync.irecoverableerror_getrecoverableerrordataforchangeunit","winsync/IRecoverableError::GetRecoverableErrorDataForChangeUnit"]
 old-location: winsync\irecoverableerror_getrecoverableerrordataforchangeunit.htm
 tech.root: winsync
 ms.assetid: 609ecdb0-b135-474f-b959-9ab6f427e5d6

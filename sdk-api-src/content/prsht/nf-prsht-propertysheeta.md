@@ -1,7 +1,8 @@
 ---
 UID: NF:prsht.PropertySheetA
 title: PropertySheetA function (prsht.h)
-description: Creates a property sheet and adds the pages defined in the specified property sheet header structure.helpviewer_keywords: ["PropertySheet","PropertySheet function [Windows Controls]","PropertySheetA","PropertySheetW","_win32_PropertySheet","_win32_PropertySheet_cpp","controls.PropertySheet","controls._win32_PropertySheet","prsht/PropertySheet","prsht/PropertySheetA","prsht/PropertySheetW"]
+description: Creates a property sheet and adds the pages defined in the specified property sheet header structure.
+helpviewer_keywords: ["PropertySheet","PropertySheet function [Windows Controls]","PropertySheetA","PropertySheetW","_win32_PropertySheet","_win32_PropertySheet_cpp","controls.PropertySheet","controls._win32_PropertySheet","prsht/PropertySheet","prsht/PropertySheetA","prsht/PropertySheetW"]
 old-location: controls\PropertySheet.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propertysheet.htm
@@ -148,4 +149,8 @@ For a modeless property sheet, your message loop should use <a href="https://doc
 <a href="https://docs.microsoft.com/windows/desktop/Controls/common-control-versions">Version 5.80.</a> The <b>PropertySheet</b> return value carries different information for modal and modeless property sheets. In some cases, modeless property sheets might need the information they would have received from <b>PropertySheet</b> if they had been modal. In particular, they may need to know whether ID_PSREBOOTSYSTEM or ID_PSRESTARTWINDOWS would have been returned. A modeless property sheet can retrieve the value that a modal property sheet would have received from <b>PropertySheet</b> by waiting until <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-getcurrentpagehwnd">PSM_GETCURRENTPAGEHWND</a> returns <b>NULL</b> and then sending a <a href="https://docs.microsoft.com/windows/desktop/Controls/psm-getresult">PSM_GETRESULT</a> message.
 
 
+
+
+> [!NOTE]
+> The prsht.h header defines PropertySheet as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

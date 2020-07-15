@@ -1,7 +1,8 @@
 ---
 UID: NF:interactioncontext.CreateInteractionContext
 title: CreateInteractionContext function (interactioncontext.h)
-description: Creates and initializes an Interaction Context object.helpviewer_keywords: ["CreateInteractionContext","CreateInteractionContext function","input_intcontext.createinteractioncontext","interactioncontext.createinteractioncontext","interactioncontext/CreateInteractionContext"]
+description: Creates and initializes an Interaction Context object.
+helpviewer_keywords: ["CreateInteractionContext","CreateInteractionContext function","input_intcontext.createinteractioncontext","interactioncontext.createinteractioncontext","interactioncontext/CreateInteractionContext"]
 old-location: input_intcontext\createinteractioncontext.htm
 tech.root: Input_IntContext
 ms.assetid: 90b81d1c-c1c0-442b-a534-f6e39e707230

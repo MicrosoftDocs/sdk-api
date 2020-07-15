@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509CertificateRequestPkcs10.InitializeFromTemplateName
 title: IX509CertificateRequestPkcs10::InitializeFromTemplateName (certenroll.h)
-description: .helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","InitializeFromTemplateName method","IX509CertificateRequestPkcs10.InitializeFromTemplateName","IX509CertificateRequestPkcs10::InitializeFromTemplateName","InitializeFromTemplateName","InitializeFromTemplateName method [Security]","InitializeFromTemplateName method [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::InitializeFromTemplateName","security.ix509certificaterequestpkcs10_initializefromtemplatename_method"]
+description: .
+helpviewer_keywords: ["IX509CertificateRequestPkcs10 interface [Security]","InitializeFromTemplateName method","IX509CertificateRequestPkcs10.InitializeFromTemplateName","IX509CertificateRequestPkcs10::InitializeFromTemplateName","InitializeFromTemplateName","InitializeFromTemplateName method [Security]","InitializeFromTemplateName method [Security]","IX509CertificateRequestPkcs10 interface","certenroll/IX509CertificateRequestPkcs10::InitializeFromTemplateName","security.ix509certificaterequestpkcs10_initializefromtemplatename_method"]
 old-location: security\ix509certificaterequestpkcs10_initializefromtemplatename_method.htm
 tech.root: seccertenroll
 ms.assetid: 4ea746c3-b967-41b4-94ae-7b16b93ca4e4

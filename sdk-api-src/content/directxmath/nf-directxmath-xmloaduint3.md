@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMLoadUInt3
 title: XMLoadUInt3 function (directxmath.h)
-description: Loads unsigned integer data into the x, y, and z components of an XMVECTOR, without type checking.helpviewer_keywords: ["Use DirectX..XMLoadUInt3","XMLoadUInt3","XMLoadUInt3 method [DirectX Math Support APIs]","dxmath.xmloaduint3"]
+description: Loads unsigned integer data into the x, y, and z components of an XMVECTOR, without type checking.
+helpviewer_keywords: ["Use DirectX..XMLoadUInt3","XMLoadUInt3","XMLoadUInt3 method [DirectX Math Support APIs]","dxmath.xmloaduint3"]
 old-location: dxmath\xmloaduint3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUInt3(const XMUINT3)

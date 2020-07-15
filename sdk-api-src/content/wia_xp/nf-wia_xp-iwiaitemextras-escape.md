@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IWiaItemExtras.Escape
 title: IWiaItemExtras::Escape (wia_xp.h)
-description: The IWiaItemExtras::Escape method sends a request for a vendor-specific I/O operation to a still image device.helpviewer_keywords: ["Escape","Escape method [WIA]","Escape method [WIA]","IWiaItemExtras interface","IWiaItemExtras interface [WIA]","Escape method","IWiaItemExtras.Escape","IWiaItemExtras::Escape","_wia_IWiaItemExtras_Escape","wia._wia_IWiaItemExtras_Escape","wia_xp/IWiaItemExtras::Escape"]
+description: The IWiaItemExtras::Escape method sends a request for a vendor-specific I/O operation to a still image device.
+helpviewer_keywords: ["Escape","Escape method [WIA]","Escape method [WIA]","IWiaItemExtras interface","IWiaItemExtras interface [WIA]","Escape method","IWiaItemExtras.Escape","IWiaItemExtras::Escape","_wia_IWiaItemExtras_Escape","wia._wia_IWiaItemExtras_Escape","wia_xp/IWiaItemExtras::Escape"]
 old-location: wia\_wia_IWiaItemExtras_Escape.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiaitemextras\escape.htm

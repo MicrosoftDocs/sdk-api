@@ -1,7 +1,8 @@
 ---
 UID: NF:mmdeviceapi.IMMDeviceCollection.Item
 title: IMMDeviceCollection::Item (mmdeviceapi.h)
-description: The Item method retrieves a pointer to the specified item in the device collection.helpviewer_keywords: ["IMMDeviceCollection interface [Core Audio]","Item method","IMMDeviceCollection.Item","IMMDeviceCollection::Item","IMMDeviceCollectionItem","Item","Item method [Core Audio]","Item method [Core Audio]","IMMDeviceCollection interface","coreaudio.immdevicecollection_item","mmdeviceapi/IMMDeviceCollection::Item"]
+description: The Item method retrieves a pointer to the specified item in the device collection.
+helpviewer_keywords: ["IMMDeviceCollection interface [Core Audio]","Item method","IMMDeviceCollection.Item","IMMDeviceCollection::Item","IMMDeviceCollectionItem","Item","Item method [Core Audio]","Item method [Core Audio]","IMMDeviceCollection interface","coreaudio.immdevicecollection_item","mmdeviceapi/IMMDeviceCollection::Item"]
 old-location: coreaudio\immdevicecollection_item.htm
 tech.root: CoreAudio
 ms.assetid: 98cb72fd-9422-44b4-a585-a1fed029a77f

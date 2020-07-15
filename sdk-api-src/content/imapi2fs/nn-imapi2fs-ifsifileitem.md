@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2fs.IFsiFileItem
 title: IFsiFileItem (imapi2fs.h)
-description: Use this interface to identify the file size and data stream of the file contents.helpviewer_keywords: ["IFsiFileItem","IFsiFileItem interface [IMAPI]","IFsiFileItem interface [IMAPI]","described","imapi.ifsifileitem","imapi2fs/IFsiFileItem"]
+description: Use this interface to identify the file size and data stream of the file contents.
+helpviewer_keywords: ["IFsiFileItem","IFsiFileItem interface [IMAPI]","IFsiFileItem interface [IMAPI]","described","imapi.ifsifileitem","imapi2fs/IFsiFileItem"]
 old-location: imapi\ifsifileitem.htm
 tech.root: imapi
 ms.assetid: 13085b1f-4ff9-48ff-a9ae-9a1c5cb9a108

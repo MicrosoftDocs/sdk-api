@@ -1,7 +1,8 @@
 ---
 UID: NF:wrdsgraphicschannels.IWRdsGraphicsChannelEvents.OnMetricsUpdate
 title: IWRdsGraphicsChannelEvents::OnMetricsUpdate (wrdsgraphicschannels.h)
-description: Called to notify the RemoteFX graphics services that network conditions have changed.helpviewer_keywords: ["IWRdsGraphicsChannelEvents interface [Remote Desktop Services]","OnMetricsUpdate method","IWRdsGraphicsChannelEvents.OnMetricsUpdate","IWRdsGraphicsChannelEvents::OnMetricsUpdate","OnMetricsUpdate","OnMetricsUpdate method [Remote Desktop Services]","OnMetricsUpdate method [Remote Desktop Services]","IWRdsGraphicsChannelEvents interface","termserv.iwrdsgraphicschannelevents_onmetricsupdate","wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnMetricsUpdate"]
+description: Called to notify the RemoteFX graphics services that network conditions have changed.
+helpviewer_keywords: ["IWRdsGraphicsChannelEvents interface [Remote Desktop Services]","OnMetricsUpdate method","IWRdsGraphicsChannelEvents.OnMetricsUpdate","IWRdsGraphicsChannelEvents::OnMetricsUpdate","OnMetricsUpdate","OnMetricsUpdate method [Remote Desktop Services]","OnMetricsUpdate method [Remote Desktop Services]","IWRdsGraphicsChannelEvents interface","termserv.iwrdsgraphicschannelevents_onmetricsupdate","wrdsgraphicschannels/IWRdsGraphicsChannelEvents::OnMetricsUpdate"]
 old-location: termserv\iwrdsgraphicschannelevents_onmetricsupdate.htm
 tech.root: TermServ
 ms.assetid: d955041a-6179-4bf2-9a1b-766f459f3776

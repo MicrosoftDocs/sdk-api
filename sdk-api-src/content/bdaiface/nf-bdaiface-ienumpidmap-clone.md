@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Clone
 title: IEnumPIDMap::Clone (bdaiface.h)
-description: The Clone method creates a copy the collection.helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumPIDMap interface","IEnumPIDMap interface [DirectShow]","Clone method","IEnumPIDMap.Clone","IEnumPIDMap::Clone","IEnumPIDMapClone","bdaiface/IEnumPIDMap::Clone","dshow.ienumpidmap_clone"]
+description: The Clone method creates a copy the collection.
+helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IEnumPIDMap interface","IEnumPIDMap interface [DirectShow]","Clone method","IEnumPIDMap.Clone","IEnumPIDMap::Clone","IEnumPIDMapClone","bdaiface/IEnumPIDMap::Clone","dshow.ienumpidmap_clone"]
 old-location: dshow\ienumpidmap_clone.htm
 tech.root: DirectShow
 ms.assetid: 4d965a71-ff5e-4d4a-8976-0de5b8bbae04

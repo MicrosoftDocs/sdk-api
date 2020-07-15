@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.ITravelEntry.Update
 title: ITravelEntry::Update (shdeprecated.h)
-description: Deprecated. Updates the travel entry.helpviewer_keywords: ["FALSE","ITravelEntry interface [Windows Shell]","Update method","ITravelEntry.Update","ITravelEntry::Update","TRUE","Update","Update method [Windows Shell]","Update method [Windows Shell]","ITravelEntry interface","shdeprecated/ITravelEntry::Update","shell.ITravelEntry_Update","zone_ITravelEntry_Update"]
+description: Deprecated. Updates the travel entry.
+helpviewer_keywords: ["FALSE","ITravelEntry interface [Windows Shell]","Update method","ITravelEntry.Update","ITravelEntry::Update","TRUE","Update","Update method [Windows Shell]","Update method [Windows Shell]","ITravelEntry interface","shdeprecated/ITravelEntry::Update","shell.ITravelEntry_Update","zone_ITravelEntry_Update"]
 old-location: shell\ITravelEntry_Update.htm
 tech.root: shell
 ms.assetid: 49861eb7-0e8e-41d9-b9b7-3b9bd35d0e52

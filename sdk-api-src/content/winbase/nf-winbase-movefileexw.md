@@ -253,7 +253,6 @@ If the <i>dwFlags</i> parameter specifies
      <b>HKEY_LOCAL_MACHINE</b>\\<b>SYSTEM</b>\\<b>CurrentControlSet</b>\\<b>Control</b>\\<b>Session Manager</b>\\<b>PendingFileRenameOperations</b>
 
 
-
 This registry  value is of type <b>REG_MULTI_SZ</b>. Each rename operation stores one 
        of the following NULL-terminated strings, depending on whether the rename is a delete or not:
 
@@ -387,6 +386,10 @@ For an example, see
 
 
 
+
+> [!NOTE]
+> The winbase.h header defines MoveFileEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
+
 ## -see-also
 
 
@@ -421,7 +424,3 @@ For an example, see
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-writeprivateprofilestringa">WritePrivateProfileString</a>
- 
-
- 
-

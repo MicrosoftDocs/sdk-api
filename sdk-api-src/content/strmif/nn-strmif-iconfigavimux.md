@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IConfigAviMux
 title: IConfigAviMux (strmif.h)
-description: The IConfigAviMux interface configures the AVI Mux filter.helpviewer_keywords: ["IConfigAviMux","IConfigAviMux interface [DirectShow]","IConfigAviMux interface [DirectShow]","described","IConfigAviMuxInterface","dshow.iconfigavimux","strmif/IConfigAviMux"]
+description: The IConfigAviMux interface configures the AVI Mux filter.
+helpviewer_keywords: ["IConfigAviMux","IConfigAviMux interface [DirectShow]","IConfigAviMux interface [DirectShow]","described","IConfigAviMuxInterface","dshow.iconfigavimux","strmif/IConfigAviMux"]
 old-location: dshow\iconfigavimux.htm
 tech.root: DirectShow
 ms.assetid: 4cc3cdeb-ebc5-46e1-8cc4-84b40e91323b

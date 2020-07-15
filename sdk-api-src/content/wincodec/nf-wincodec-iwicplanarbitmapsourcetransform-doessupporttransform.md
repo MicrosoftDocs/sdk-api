@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICPlanarBitmapSourceTransform.DoesSupportTransform
 title: IWICPlanarBitmapSourceTransform::DoesSupportTransform (wincodec.h)
-description: Use this method to determine if a desired planar output is supported and allow the caller to choose an optimized code path if it is.helpviewer_keywords: ["DoesSupportTransform","DoesSupportTransform method [Windows Imaging Component]","DoesSupportTransform method [Windows Imaging Component]","IWICPlanarBitmapSourceTransform interface","IWICPlanarBitmapSourceTransform interface [Windows Imaging Component]","DoesSupportTransform method","IWICPlanarBitmapSourceTransform.DoesSupportTransform","IWICPlanarBitmapSourceTransform::DoesSupportTransform","wic.iwicplanarbitmapsourcetransform_doessupporttransform","wincodec/IWICPlanarBitmapSourceTransform::DoesSupportTransform"]
+description: Use this method to determine if a desired planar output is supported and allow the caller to choose an optimized code path if it is.
+helpviewer_keywords: ["DoesSupportTransform","DoesSupportTransform method [Windows Imaging Component]","DoesSupportTransform method [Windows Imaging Component]","IWICPlanarBitmapSourceTransform interface","IWICPlanarBitmapSourceTransform interface [Windows Imaging Component]","DoesSupportTransform method","IWICPlanarBitmapSourceTransform.DoesSupportTransform","IWICPlanarBitmapSourceTransform::DoesSupportTransform","wic.iwicplanarbitmapsourcetransform_doessupporttransform","wincodec/IWICPlanarBitmapSourceTransform::DoesSupportTransform"]
 old-location: wic\iwicplanarbitmapsourcetransform_doessupporttransform.htm
 tech.root: wic
 ms.assetid: CB601454-591B-4292-A8BF-EA9D1F060AB3

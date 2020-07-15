@@ -1,7 +1,8 @@
 ---
 UID: NF:dssec.DSCreateISecurityInfoObjectEx
 title: DSCreateISecurityInfoObjectEx function (dssec.h)
-description: Creates an instance of the ISecurityInformation interface associated with the specified directory service (DS) object on the specified server.helpviewer_keywords: ["DSCreateISecurityInfoObjectEx","DSCreateISecurityInfoObjectEx function [Security]","DSSI_IS_ROOT","DSSI_NO_ACCESS_CHECK","DSSI_NO_EDIT_OWNER","DSSI_NO_EDIT_SACL","DSSI_NO_FILTER","DSSI_NO_READONLY_MESSAGE","DSSI_READ_ONLY","dssec/DSCreateISecurityInfoObjectEx","security.dscreateisecurityinfoobjectex"]
+description: Creates an instance of the ISecurityInformation interface associated with the specified directory service (DS) object on the specified server.
+helpviewer_keywords: ["DSCreateISecurityInfoObjectEx","DSCreateISecurityInfoObjectEx function [Security]","DSSI_IS_ROOT","DSSI_NO_ACCESS_CHECK","DSSI_NO_EDIT_OWNER","DSSI_NO_EDIT_SACL","DSSI_NO_FILTER","DSSI_NO_READONLY_MESSAGE","DSSI_READ_ONLY","dssec/DSCreateISecurityInfoObjectEx","security.dscreateisecurityinfoobjectex"]
 old-location: security\dscreateisecurityinfoobjectex.htm
 tech.root: SecAuthZ
 ms.assetid: b0622c7b-49f2-4879-a0dc-9267851fe03d

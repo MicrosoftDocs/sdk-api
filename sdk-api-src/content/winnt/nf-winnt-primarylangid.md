@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.PRIMARYLANGID
 title: PRIMARYLANGID macro (winnt.h)
-description: Extracts a primary language identifier from a language identifier.helpviewer_keywords: ["PRIMARYLANGID","PRIMARYLANGID macro [Internationalization for Windows Applications]","_win32_PRIMARYLANGID","intl.primarylangid","winnt/PRIMARYLANGID"]
+description: Extracts a primary language identifier from a language identifier.
+helpviewer_keywords: ["PRIMARYLANGID","PRIMARYLANGID macro [Internationalization for Windows Applications]","_win32_PRIMARYLANGID","intl.primarylangid","winnt/PRIMARYLANGID"]
 old-location: intl\primarylangid.htm
 tech.root: Intl
 ms.assetid: e463a2dc-bf36-4fbb-8df6-799ca1d549fa

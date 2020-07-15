@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IsWindowUnicode
 title: IsWindowUnicode function (winuser.h)
-description: Determines whether the specified window is a native Unicode window.helpviewer_keywords: ["IsWindowUnicode","IsWindowUnicode function [Windows and Messages]","_win32_IsWindowUnicode","_win32_iswindowunicode_cpp","winmsg.iswindowunicode","winui._win32_iswindowunicode","winuser/IsWindowUnicode"]
+description: Determines whether the specified window is a native Unicode window.
+helpviewer_keywords: ["IsWindowUnicode","IsWindowUnicode function [Windows and Messages]","_win32_IsWindowUnicode","_win32_iswindowunicode_cpp","winmsg.iswindowunicode","winui._win32_iswindowunicode","winuser/IsWindowUnicode"]
 old-location: winmsg\iswindowunicode.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\iswindowunicode.htm

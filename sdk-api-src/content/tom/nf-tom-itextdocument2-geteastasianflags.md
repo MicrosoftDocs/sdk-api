@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument2.GetEastAsianFlags
 title: ITextDocument2::GetEastAsianFlags (tom.h)
-description: Gets the East Asian flags.helpviewer_keywords: ["GetEastAsianFlags","GetEastAsianFlags method [Windows Controls]","GetEastAsianFlags method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","GetEastAsianFlags method","ITextDocument2.GetEastAsianFlags","ITextDocument2::GetEastAsianFlags","controls.itextdocument2_geteastasianflags","tom/ITextDocument2::GetEastAsianFlags","tomNoIME","tomRE10Mode","tomSelfIME","tomTextFlowMask","tomUseAtFont","tomUsePassword"]
+description: Gets the East Asian flags.
+helpviewer_keywords: ["GetEastAsianFlags","GetEastAsianFlags method [Windows Controls]","GetEastAsianFlags method [Windows Controls]","ITextDocument2 interface","ITextDocument2 interface [Windows Controls]","GetEastAsianFlags method","ITextDocument2.GetEastAsianFlags","ITextDocument2::GetEastAsianFlags","controls.itextdocument2_geteastasianflags","tom/ITextDocument2::GetEastAsianFlags","tomNoIME","tomRE10Mode","tomSelfIME","tomTextFlowMask","tomUseAtFont","tomUsePassword"]
 old-location: controls\itextdocument2_geteastasianflags.htm
 tech.root: Controls
 ms.assetid: 730c869d-cac0-40ce-b6c5-ca3be2c94419

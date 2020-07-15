@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl.LowerButtonSelect
 title: IDvdControl::LowerButtonSelect (strmif.h)
-description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the lower directional button from the displayed menu.helpviewer_keywords: ["IDvdControl interface [DirectShow]","LowerButtonSelect method","IDvdControl.LowerButtonSelect","IDvdControl::LowerButtonSelect","IDvdControlLowerButtonSelect","LowerButtonSelect","LowerButtonSelect method [DirectShow]","LowerButtonSelect method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_lowerbuttonselect","strmif/IDvdControl::LowerButtonSelect"]
+description: Note  The IDvdControl interface is deprecated. Use IDvdControl2 instread. Selects the lower directional button from the displayed menu.
+helpviewer_keywords: ["IDvdControl interface [DirectShow]","LowerButtonSelect method","IDvdControl.LowerButtonSelect","IDvdControl::LowerButtonSelect","IDvdControlLowerButtonSelect","LowerButtonSelect","LowerButtonSelect method [DirectShow]","LowerButtonSelect method [DirectShow]","IDvdControl interface","dshow.idvdcontrol_lowerbuttonselect","strmif/IDvdControl::LowerButtonSelect"]
 old-location: dshow\idvdcontrol_lowerbuttonselect.htm
 tech.root: DirectShow
 ms.assetid: eba476a5-c949-4ce1-b296-314e36afc912

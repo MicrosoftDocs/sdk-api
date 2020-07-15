@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPath.CloseAllFigures
 title: GraphicsPath::CloseAllFigures (gdipluspath.h)
-description: The GraphicsPath::CloseAllFigures method closes all open figures in this path.helpviewer_keywords: ["CloseAllFigures","CloseAllFigures method [GDI+]","CloseAllFigures method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","CloseAllFigures method","GraphicsPath.CloseAllFigures","GraphicsPath::CloseAllFigures","_gdiplus_CLASS_GraphicsPath_CloseAllFigures_","gdiplus._gdiplus_CLASS_GraphicsPath_CloseAllFigures_"]
+description: The GraphicsPath::CloseAllFigures method closes all open figures in this path.
+helpviewer_keywords: ["CloseAllFigures","CloseAllFigures method [GDI+]","CloseAllFigures method [GDI+]","GraphicsPath class","GraphicsPath class [GDI+]","CloseAllFigures method","GraphicsPath.CloseAllFigures","GraphicsPath::CloseAllFigures","_gdiplus_CLASS_GraphicsPath_CloseAllFigures_","gdiplus._gdiplus_CLASS_GraphicsPath_CloseAllFigures_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPath_CloseAllFigures_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathclass\graphicspathmethods\closeallfigures.htm

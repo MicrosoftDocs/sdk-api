@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvSetPalette
 title: DrvSetPalette function (winddi.h)
-description: The DrvSetPalette function requests that the driver realize the palette for a specified device.helpviewer_keywords: ["DrvSetPalette","DrvSetPalette function [Display Devices]","ddifncs_b76ad321-743e-4e7b-bf58-85f969470e29.xml","display.drvsetpalette","winddi/DrvSetPalette"]
+description: The DrvSetPalette function requests that the driver realize the palette for a specified device.
+helpviewer_keywords: ["DrvSetPalette","DrvSetPalette function [Display Devices]","ddifncs_b76ad321-743e-4e7b-bf58-85f969470e29.xml","display.drvsetpalette","winddi/DrvSetPalette"]
 old-location: display\drvsetpalette.htm
 tech.root: display
 ms.assetid: b7be48e6-188b-4b23-a494-30adcc18f12e

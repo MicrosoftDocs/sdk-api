@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl._RB_HITTESTINFO
 title: RBHITTESTINFO (commctrl.h)
-description: Contains information specific to a hit test operation. This structure is used with the RB_HITTEST message.helpviewer_keywords: ["*LPRBHITTESTINFO","LPRBHITTESTINFO","LPRBHITTESTINFO structure pointer [Windows Controls]","RBHITTESTINFO","RBHITTESTINFO structure [Windows Controls]","RBHT_CAPTION","RBHT_CHEVRON","RBHT_CLIENT","RBHT_GRABBER","RBHT_NOWHERE","RBHT_SPLITTER","_win32_RBHITTESTINFO","_win32_RBHITTESTINFO_cpp","commctrl/LPRBHITTESTINFO","commctrl/RBHITTESTINFO","controls.RBHITTESTINFO","controls._win32_RBHITTESTINFO"]
+description: Contains information specific to a hit test operation. This structure is used with the RB_HITTEST message.
+helpviewer_keywords: ["*LPRBHITTESTINFO","LPRBHITTESTINFO","LPRBHITTESTINFO structure pointer [Windows Controls]","RBHITTESTINFO","RBHITTESTINFO structure [Windows Controls]","RBHT_CAPTION","RBHT_CHEVRON","RBHT_CLIENT","RBHT_GRABBER","RBHT_NOWHERE","RBHT_SPLITTER","_win32_RBHITTESTINFO","_win32_RBHITTESTINFO_cpp","commctrl/LPRBHITTESTINFO","commctrl/RBHITTESTINFO","controls.RBHITTESTINFO","controls._win32_RBHITTESTINFO"]
 old-location: controls\RBHITTESTINFO.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\rebar\structures\rbhittestinfo.htm

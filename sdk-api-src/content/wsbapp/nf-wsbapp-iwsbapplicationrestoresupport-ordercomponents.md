@@ -1,7 +1,8 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.OrderComponents
 title: IWsbApplicationRestoreSupport::OrderComponents (wsbapp.h)
-description: Specifies the order in which application components are to be restored.helpviewer_keywords: ["IWsbApplicationRestoreSupport interface [Windows Server Backup]","OrderComponents method","IWsbApplicationRestoreSupport.OrderComponents","IWsbApplicationRestoreSupport::OrderComponents","OrderComponents","OrderComponents method [Windows Server Backup]","OrderComponents method [Windows Server Backup]","IWsbApplicationRestoreSupport interface","wsb.iwsbapplicationrestoresupport_ordercomponents","wsbapp/IWsbApplicationRestoreSupport::OrderComponents"]
+description: Specifies the order in which application components are to be restored.
+helpviewer_keywords: ["IWsbApplicationRestoreSupport interface [Windows Server Backup]","OrderComponents method","IWsbApplicationRestoreSupport.OrderComponents","IWsbApplicationRestoreSupport::OrderComponents","OrderComponents","OrderComponents method [Windows Server Backup]","OrderComponents method [Windows Server Backup]","IWsbApplicationRestoreSupport interface","wsb.iwsbapplicationrestoresupport_ordercomponents","wsbapp/IWsbApplicationRestoreSupport::OrderComponents"]
 old-location: wsb\iwsbapplicationrestoresupport_ordercomponents.htm
 tech.root: wsb
 ms.assetid: 15250479-841d-421e-8780-6dee795f29b5

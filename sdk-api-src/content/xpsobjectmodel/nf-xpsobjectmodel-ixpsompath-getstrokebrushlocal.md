@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.GetStrokeBrushLocal
 title: IXpsOMPath::GetStrokeBrushLocal (xpsobjectmodel.h)
-description: Gets a pointer to the local, unshared IXpsOMBrush interface that contains the stroke brush for the path.helpviewer_keywords: ["GetStrokeBrushLocal","GetStrokeBrushLocal method [XPS Documents and Packaging]","GetStrokeBrushLocal method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeBrushLocal method","IXpsOMPath.GetStrokeBrushLocal","IXpsOMPath::GetStrokeBrushLocal","xps.ixpsompath_getstrokebrushlocal","xpsobjectmodel/IXpsOMPath::GetStrokeBrushLocal"]
+description: Gets a pointer to the local, unshared IXpsOMBrush interface that contains the stroke brush for the path.
+helpviewer_keywords: ["GetStrokeBrushLocal","GetStrokeBrushLocal method [XPS Documents and Packaging]","GetStrokeBrushLocal method [XPS Documents and Packaging]","IXpsOMPath interface","IXpsOMPath interface [XPS Documents and Packaging]","GetStrokeBrushLocal method","IXpsOMPath.GetStrokeBrushLocal","IXpsOMPath::GetStrokeBrushLocal","xps.ixpsompath_getstrokebrushlocal","xpsobjectmodel/IXpsOMPath::GetStrokeBrushLocal"]
 old-location: xps\ixpsompath_getstrokebrushlocal.htm
 tech.root: printdocs
 ms.assetid: cf816750-8381-4c04-af20-e5ce3f8ad63c

@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfInputProcessorProfiles.Skip
 title: IEnumTfInputProcessorProfiles::Skip (msctf.h)
-description: The IEnumTfInputProcessorProfiles::Skip method moves the current position forward in the enumeration sequence by the specified number of elements.helpviewer_keywords: ["IEnumTfInputProcessorProfiles interface [Text Services Framework]","Skip method","IEnumTfInputProcessorProfiles.Skip","IEnumTfInputProcessorProfiles::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfInputProcessorProfiles interface","msctf/IEnumTfInputProcessorProfiles::Skip","tsf.ienumtfinputprocessorprofiles_skip"]
+description: The IEnumTfInputProcessorProfiles::Skip method moves the current position forward in the enumeration sequence by the specified number of elements.
+helpviewer_keywords: ["IEnumTfInputProcessorProfiles interface [Text Services Framework]","Skip method","IEnumTfInputProcessorProfiles.Skip","IEnumTfInputProcessorProfiles::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfInputProcessorProfiles interface","msctf/IEnumTfInputProcessorProfiles::Skip","tsf.ienumtfinputprocessorprofiles_skip"]
 old-location: tsf\ienumtfinputprocessorprofiles_skip.htm
 tech.root: TSF
 ms.assetid: 7b0bf0be-1f0d-4da9-a8d2-c8a29ae3dcac

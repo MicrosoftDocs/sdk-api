@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_3
 title: Rsvp_Hop_IPv4 (lpmapi.h)
-description: The Rsvp_Hop_IPv4 structure stores information about an RSVP-enabled IPv4 hop.helpviewer_keywords: ["Rsvp_Hop_IPv4","Rsvp_Hop_IPv4 structure [QOS]","lpmapi/Rsvp_Hop_IPv4","qos.rsvp_hop_ipv4"]
+description: The Rsvp_Hop_IPv4 structure stores information about an RSVP-enabled IPv4 hop.
+helpviewer_keywords: ["Rsvp_Hop_IPv4","Rsvp_Hop_IPv4 structure [QOS]","lpmapi/Rsvp_Hop_IPv4","qos.rsvp_hop_ipv4"]
 old-location: qos\rsvp_hop_ipv4.htm
 tech.root: QOS
 ms.assetid: 1a3f3e65-70f8-490c-8724-9e93c7fba457

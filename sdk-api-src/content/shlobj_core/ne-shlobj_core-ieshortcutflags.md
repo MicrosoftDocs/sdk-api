@@ -1,7 +1,8 @@
 ---
 UID: NE:shlobj_core.tagIESHORTCUTFLAGS
 title: IESHORTCUTFLAGS (shlobj_core.h)
-description: Specifies how a shortcut should be handled by the browser.helpviewer_keywords: ["IESHORTCUTFLAGS","IESHORTCUTFLAGS enumeration [Windows Shell]","IESHORTCUT_BACKGROUNDTAB","IESHORTCUT_FORCENAVIGATE","IESHORTCUT_NEWBROWSER","IESHORTCUT_OPENNEWTAB","_shell_IESHORTCUTFLAGS","shell.IESHORTCUTFLAGS","shlobj_core/IESHORTCUTFLAGS","shlobj_core/IESHORTCUT_BACKGROUNDTAB","shlobj_core/IESHORTCUT_FORCENAVIGATE","shlobj_core/IESHORTCUT_NEWBROWSER","shlobj_core/IESHORTCUT_OPENNEWTAB"]
+description: Specifies how a shortcut should be handled by the browser.
+helpviewer_keywords: ["IESHORTCUTFLAGS","IESHORTCUTFLAGS enumeration [Windows Shell]","IESHORTCUT_BACKGROUNDTAB","IESHORTCUT_FORCENAVIGATE","IESHORTCUT_NEWBROWSER","IESHORTCUT_OPENNEWTAB","_shell_IESHORTCUTFLAGS","shell.IESHORTCUTFLAGS","shlobj_core/IESHORTCUTFLAGS","shlobj_core/IESHORTCUT_BACKGROUNDTAB","shlobj_core/IESHORTCUT_FORCENAVIGATE","shlobj_core/IESHORTCUT_NEWBROWSER","shlobj_core/IESHORTCUT_OPENNEWTAB"]
 old-location: shell\IESHORTCUTFLAGS.htm
 tech.root: shell
 ms.assetid: 0821a990-5cae-41b3-aebf-20be13b6e89b

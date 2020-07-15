@@ -1,7 +1,8 @@
 ---
 UID: NC:routprot.PADD_INTERFACE
 title: PADD_INTERFACE (routprot.h)
-description: The AddInterface function adds an interface to be managed by the routing protocol.helpviewer_keywords: ["AddInterface","AddInterface callback function [RAS]","DEMAND_DIAL","LOCAL_WORKSTATION_DIAL","PADD_INTERFACE","PADD_INTERFACE callback","PERMANENT","REMOTE_WORKSTATION_DIAL","_mpr_addinterface","routprot/AddInterface","rras.addinterface"]
+description: The AddInterface function adds an interface to be managed by the routing protocol.
+helpviewer_keywords: ["AddInterface","AddInterface callback function [RAS]","DEMAND_DIAL","LOCAL_WORKSTATION_DIAL","PADD_INTERFACE","PADD_INTERFACE callback","PERMANENT","REMOTE_WORKSTATION_DIAL","_mpr_addinterface","routprot/AddInterface","rras.addinterface"]
 old-location: rras\addinterface.htm
 tech.root: RRAS
 ms.assetid: d2a90d20-7a1f-4301-adab-76224a4f8310

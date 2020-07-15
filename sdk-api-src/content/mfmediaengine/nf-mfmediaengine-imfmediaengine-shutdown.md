@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngine.Shutdown
 title: IMFMediaEngine::Shutdown (mfmediaengine.h)
-description: Shuts down the Media Engine and releases the resources it is using.helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","Shutdown method","IMFMediaEngine.Shutdown","IMFMediaEngine::Shutdown","Shutdown","Shutdown method [Media Foundation]","Shutdown method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_shutdown","mfmediaengine/IMFMediaEngine::Shutdown"]
+description: Shuts down the Media Engine and releases the resources it is using.
+helpviewer_keywords: ["IMFMediaEngine interface [Media Foundation]","Shutdown method","IMFMediaEngine.Shutdown","IMFMediaEngine::Shutdown","Shutdown","Shutdown method [Media Foundation]","Shutdown method [Media Foundation]","IMFMediaEngine interface","mf.imfmediaengine_shutdown","mfmediaengine/IMFMediaEngine::Shutdown"]
 old-location: mf\imfmediaengine_shutdown.htm
 tech.root: medfound
 ms.assetid: 8B7BCEAC-7A30-4B60-AD0E-E8DCE404DDE9

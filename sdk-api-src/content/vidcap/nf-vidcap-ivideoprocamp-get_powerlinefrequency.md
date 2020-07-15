@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_PowerlineFrequency
 title: IVideoProcAmp::get_PowerlineFrequency (vidcap.h)
-description: The get_PowerlineFrequency method returns the camera's power line frequency setting. This setting enables the camera to perform anti-flicker processing.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","get_PowerlineFrequency method","IVideoProcAmp.get_PowerlineFrequency","IVideoProcAmp::get_PowerlineFrequency","IVideoProcAmpget_PowerlineFrequency","dshow.ivideoprocamp_get_powerlinefrequency","get_PowerlineFrequency","get_PowerlineFrequency method [DirectShow]","get_PowerlineFrequency method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::get_PowerlineFrequency"]
+description: The get_PowerlineFrequency method returns the camera's power line frequency setting. This setting enables the camera to perform anti-flicker processing.
+helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","get_PowerlineFrequency method","IVideoProcAmp.get_PowerlineFrequency","IVideoProcAmp::get_PowerlineFrequency","IVideoProcAmpget_PowerlineFrequency","dshow.ivideoprocamp_get_powerlinefrequency","get_PowerlineFrequency","get_PowerlineFrequency method [DirectShow]","get_PowerlineFrequency method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::get_PowerlineFrequency"]
 old-location: dshow\ivideoprocamp_get_powerlinefrequency.htm
 tech.root: DirectShow
 ms.assetid: 8c7bfc4a-895f-45a6-9619-868d1e7bc674

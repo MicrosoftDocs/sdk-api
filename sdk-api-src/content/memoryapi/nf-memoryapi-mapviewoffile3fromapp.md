@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.MapViewOfFile3FromApp
 title: MapViewOfFile3FromApp function (memoryapi.h)
-description: Maps a view of a file mapping into the address space of a calling Windows Store app.helpviewer_keywords: ["MEM_LARGE_PAGES","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MapViewOfFile3FromApp","MapViewOfFile3FromApp function","base.mapviewoffile3fromapp","memoryapi/MapViewOfFile3FromApp"]
+description: Maps a view of a file mapping into the address space of a calling Windows Store app.
+helpviewer_keywords: ["MEM_LARGE_PAGES","MEM_REPLACE_PLACEHOLDER","MEM_RESERVE","MapViewOfFile3FromApp","MapViewOfFile3FromApp function","base.mapviewoffile3fromapp","memoryapi/MapViewOfFile3FromApp"]
 old-location: base\mapviewoffile3fromapp.htm
 tech.root: Memory
 ms.assetid: 5E10E1B2-69D9-4F68-8F06-D411CF7FE2ED

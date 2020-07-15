@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorZero
 title: XMVectorZero function (directxmath.h)
-description: Creates the zero vector.helpviewer_keywords: ["Use DirectX..XMVectorZero","XMVectorZero","XMVectorZero method [DirectX Math Support APIs]","dxmath.xmvectorzero"]
+description: Creates the zero vector.
+helpviewer_keywords: ["Use DirectX..XMVectorZero","XMVectorZero","XMVectorZero method [DirectX Math Support APIs]","dxmath.xmvectorzero"]
 old-location: dxmath\xmvectorzero.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorZero

@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_READER_INPUT
 title: WS_XML_READER_INPUT (webservices.h)
-description: Specifies where the reader should obtain the bytes that comprise the xml document.helpviewer_keywords: ["WS_XML_READER_INPUT","WS_XML_READER_INPUT structure [Web Services for Windows]","webservices/WS_XML_READER_INPUT","wsw.ws_xml_reader_input"]
+description: Specifies where the reader should obtain the bytes that comprise the xml document.
+helpviewer_keywords: ["WS_XML_READER_INPUT","WS_XML_READER_INPUT structure [Web Services for Windows]","webservices/WS_XML_READER_INPUT","wsw.ws_xml_reader_input"]
 old-location: wsw\ws_xml_reader_input.htm
 tech.root: wsw
 ms.assetid: 1e7a708d-5dcf-44ec-b781-a34946cb2844

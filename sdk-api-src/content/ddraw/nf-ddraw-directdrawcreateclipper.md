@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.DirectDrawCreateClipper
 title: DirectDrawCreateClipper function (ddraw.h)
-description: Creates an instance of a DirectDrawClipper object that is not associated with a DirectDraw object.helpviewer_keywords: ["DirectDrawCreateClipper","DirectDrawCreateClipper function [DirectDraw]","ddraw/DirectDrawCreateClipper","directdraw.directdrawcreateclipper"]
+description: Creates an instance of a DirectDrawClipper object that is not associated with a DirectDraw object.
+helpviewer_keywords: ["DirectDrawCreateClipper","DirectDrawCreateClipper function [DirectDraw]","ddraw/DirectDrawCreateClipper","directdraw.directdrawcreateclipper"]
 old-location: directdraw\directdrawcreateclipper.htm
 tech.root: directdraw
 ms.assetid: 12d499d2-dd4a-4831-9290-c225aec1a160

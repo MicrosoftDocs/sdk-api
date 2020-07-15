@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagTVITEMCHANGE
 title: NMTVITEMCHANGE (commctrl.h)
-description: Contains information on a tree-view item change. This structure is sent with the TVN_ITEMCHANGED and TVN_ITEMCHANGING notifications.helpviewer_keywords: ["NMTVITEMCHANGE","NMTVITEMCHANGE structure [Windows Controls]","_shell_NMTVITEMCHANGE","_shell_NMTVITEMCHANGE_cpp","commctrl/NMTVITEMCHANGE","controls.NMTVITEMCHANGE","controls._shell_NMTVITEMCHANGE"]
+description: Contains information on a tree-view item change. This structure is sent with the TVN_ITEMCHANGED and TVN_ITEMCHANGING notifications.
+helpviewer_keywords: ["NMTVITEMCHANGE","NMTVITEMCHANGE structure [Windows Controls]","_shell_NMTVITEMCHANGE","_shell_NMTVITEMCHANGE_cpp","commctrl/NMTVITEMCHANGE","controls.NMTVITEMCHANGE","controls._shell_NMTVITEMCHANGE"]
 old-location: controls\NMTVITEMCHANGE.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvitemchange.htm

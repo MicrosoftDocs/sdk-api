@@ -1,7 +1,8 @@
 ---
 UID: NN:oleacc.IAccessibleWindowlessSite
 title: IAccessibleWindowlessSite (oleacc.h)
-description: A Microsoft ActiveX control site implements this interface to enable a windowless ActiveX control that has a Microsoft Active Accessibility implementation to express its accessibility.helpviewer_keywords: ["IAccessibleWindowlessSite","IAccessibleWindowlessSite interface [Windows Accessibility]","IAccessibleWindowlessSite interface [Windows Accessibility]","described","oleacc/IAccessibleWindowlessSite","winauto.uiauto_IAccessibleWindowlessSite"]
+description: A Microsoft ActiveX control site implements this interface to enable a windowless ActiveX control that has a Microsoft Active Accessibility implementation to express its accessibility.
+helpviewer_keywords: ["IAccessibleWindowlessSite","IAccessibleWindowlessSite interface [Windows Accessibility]","IAccessibleWindowlessSite interface [Windows Accessibility]","described","oleacc/IAccessibleWindowlessSite","winauto.uiauto_IAccessibleWindowlessSite"]
 old-location: winauto\uiauto_IAccessibleWindowlessSite.htm
 tech.root: WinAuto
 ms.assetid: 1ED23B39-231B-46A2-9FED-969A36DA8DD9

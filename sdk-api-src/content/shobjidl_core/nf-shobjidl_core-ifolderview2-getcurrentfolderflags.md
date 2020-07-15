@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.GetCurrentFolderFlags
 title: IFolderView2::GetCurrentFolderFlags (shobjidl_core.h)
-description: Gets the currently applied folder flags.helpviewer_keywords: ["GetCurrentFolderFlags","GetCurrentFolderFlags method [Windows Shell]","GetCurrentFolderFlags method [Windows Shell]","IFolderView2 interface","IFolderView2 interface [Windows Shell]","GetCurrentFolderFlags method","IFolderView2.GetCurrentFolderFlags","IFolderView2::GetCurrentFolderFlags","_shell_IFolderView2_GetCurrentFolderFlags","shell.IFolderView2_GetCurrentFolderFlags","shobjidl_core/IFolderView2::GetCurrentFolderFlags"]
+description: Gets the currently applied folder flags.
+helpviewer_keywords: ["GetCurrentFolderFlags","GetCurrentFolderFlags method [Windows Shell]","GetCurrentFolderFlags method [Windows Shell]","IFolderView2 interface","IFolderView2 interface [Windows Shell]","GetCurrentFolderFlags method","IFolderView2.GetCurrentFolderFlags","IFolderView2::GetCurrentFolderFlags","_shell_IFolderView2_GetCurrentFolderFlags","shell.IFolderView2_GetCurrentFolderFlags","shobjidl_core/IFolderView2::GetCurrentFolderFlags"]
 old-location: shell\IFolderView2_GetCurrentFolderFlags.htm
 tech.root: shell
 ms.assetid: 334d93c7-79a5-46c0-9042-400504aa2706

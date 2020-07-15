@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_1.IDWriteFontFace1.GetGdiCompatibleGlyphAdvances
 title: IDWriteFontFace1::GetGdiCompatibleGlyphAdvances (dwrite_1.h)
-description: Returns the pixel-aligned advances for a sequences of glyphs.helpviewer_keywords: ["GetGdiCompatibleGlyphAdvances","GetGdiCompatibleGlyphAdvances method [Direct Write]","GetGdiCompatibleGlyphAdvances method [Direct Write]","IDWriteFontFace1 interface","IDWriteFontFace1 interface [Direct Write]","GetGdiCompatibleGlyphAdvances method","IDWriteFontFace1.GetGdiCompatibleGlyphAdvances","IDWriteFontFace1::GetGdiCompatibleGlyphAdvances","directwrite.idwritefontface1_getgdicompatibleglyphadvances","dwrite_1/IDWriteFontFace1::GetGdiCompatibleGlyphAdvances"]
+description: Returns the pixel-aligned advances for a sequences of glyphs.
+helpviewer_keywords: ["GetGdiCompatibleGlyphAdvances","GetGdiCompatibleGlyphAdvances method [Direct Write]","GetGdiCompatibleGlyphAdvances method [Direct Write]","IDWriteFontFace1 interface","IDWriteFontFace1 interface [Direct Write]","GetGdiCompatibleGlyphAdvances method","IDWriteFontFace1.GetGdiCompatibleGlyphAdvances","IDWriteFontFace1::GetGdiCompatibleGlyphAdvances","directwrite.idwritefontface1_getgdicompatibleglyphadvances","dwrite_1/IDWriteFontFace1::GetGdiCompatibleGlyphAdvances"]
 old-location: directwrite\idwritefontface1_getgdicompatibleglyphadvances.htm
 tech.root: DirectWrite
 ms.assetid: 187DF4C8-203E-4658-9DBF-D02988F92BBB

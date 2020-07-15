@@ -1,7 +1,8 @@
 ---
 UID: NF:t2embapi.TTIsEmbeddingEnabled
 title: TTIsEmbeddingEnabled function (t2embapi.h)
-description: Determines whether the typeface exclusion list contains a specified font.helpviewer_keywords: ["TTIsEmbeddingEnabled","TTIsEmbeddingEnabled function [Windows GDI]","_win32_TTIsEmbeddingEnabled","gdi.ttisembeddingenabled","t2embapi/TTIsEmbeddingEnabled"]
+description: Determines whether the typeface exclusion list contains a specified font.
+helpviewer_keywords: ["TTIsEmbeddingEnabled","TTIsEmbeddingEnabled function [Windows GDI]","_win32_TTIsEmbeddingEnabled","gdi.ttisembeddingenabled","t2embapi/TTIsEmbeddingEnabled"]
 old-location: gdi\ttisembeddingenabled.htm
 tech.root: gdi
 ms.assetid: f1e3112b-d840-45eb-bb99-416319ed9e15

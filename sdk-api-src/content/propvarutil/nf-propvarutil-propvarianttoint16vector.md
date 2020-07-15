@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.PropVariantToInt16Vector
 title: PropVariantToInt16Vector function (propvarutil.h)
-description: Extracts a vector of Int16 values from a PROPVARIANT structure.helpviewer_keywords: ["PropVariantToInt16Vector","PropVariantToInt16Vector function [Windows Properties]","_shell_PropVariantToInt16Vector","properties.PropVariantToInt16Vector","propvarutil/PropVariantToInt16Vector","shell.PropVariantToInt16Vector"]
+description: Extracts a vector of Int16 values from a PROPVARIANT structure.
+helpviewer_keywords: ["PropVariantToInt16Vector","PropVariantToInt16Vector function [Windows Properties]","_shell_PropVariantToInt16Vector","properties.PropVariantToInt16Vector","propvarutil/PropVariantToInt16Vector","shell.PropVariantToInt16Vector"]
 old-location: properties\PropVariantToInt16Vector.htm
 tech.root: properties
 ms.assetid: 33240552-7caa-4114-aad6-7341551b1fbe

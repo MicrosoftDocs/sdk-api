@@ -1,7 +1,8 @@
 ---
 UID: NN:mswmdm.IMDSPStorage
 title: IMDSPStorage (mswmdm.h)
-description: The IMDSPStorage interface provides an instanced-based association with a storage medium on a device.helpviewer_keywords: ["IMDSPStorage","IMDSPStorage interface [windows Media Device Manager]","IMDSPStorage interface [windows Media Device Manager]","described","IMDSPStorageInterface","mswmdm/IMDSPStorage","wmdm.imdspstorage"]
+description: The IMDSPStorage interface provides an instanced-based association with a storage medium on a device.
+helpviewer_keywords: ["IMDSPStorage","IMDSPStorage interface [windows Media Device Manager]","IMDSPStorage interface [windows Media Device Manager]","described","IMDSPStorageInterface","mswmdm/IMDSPStorage","wmdm.imdspstorage"]
 old-location: wmdm\imdspstorage.htm
 tech.root: WMDM
 ms.assetid: f22b8a6d-7df8-4fea-9436-79b9ded25a40

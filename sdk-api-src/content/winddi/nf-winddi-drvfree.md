@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvFree
 title: DrvFree function (winddi.h)
-description: The DrvFree function is used to notify the driver that the specified structure is no longer needed.helpviewer_keywords: ["DrvFree","DrvFree function [Display Devices]","ddifncs_c3b37742-3ce6-477b-a28c-065cd60c38cd.xml","display.drvfree","winddi/DrvFree"]
+description: The DrvFree function is used to notify the driver that the specified structure is no longer needed.
+helpviewer_keywords: ["DrvFree","DrvFree function [Display Devices]","ddifncs_c3b37742-3ce6-477b-a28c-065cd60c38cd.xml","display.drvfree","winddi/DrvFree"]
 old-location: display\drvfree.htm
 tech.root: display
 ms.assetid: 829e8128-f57f-433c-9c09-7e4dc0ef54be

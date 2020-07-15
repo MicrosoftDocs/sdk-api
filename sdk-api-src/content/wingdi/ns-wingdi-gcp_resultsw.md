@@ -57,7 +57,6 @@ The <b>GCP_RESULTS</b> structure contains information about characters in a stri
 
 
 
-
 ## -struct-fields
 
 
@@ -78,7 +77,6 @@ A pointer to the buffer that receives the output string or is <b>NULL</b> if the
 A pointer to the array that receives ordering indexes or is <b>NULL</b> if the ordering indexes are not needed. However, its meaning depends on the other elements of <b>GCP_RESULTS</b>. If glyph indexes are to be returned, the indexes are for the <b>lpGlyphs</b> array; if glyphs indexes are not returned and <b>lpOrder</b> is requested, the indexes are for <b>lpOutString</b>. For example, in the latter case the value of <b>lpOrder</b>[i] is the position of <b>lpString</b>[i] in the output string lpOutString.
 
 This is typically used when <a href="/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a> returns the GCP_REORDER flag, which indicates that the original string needs reordering. For example, in Hebrew, in which the text runs from right to left, the <b>lpOrder</b> array gives the exact locations of each element in the original string.
-
 
 ### -field lpDx
 
@@ -281,7 +279,6 @@ When GCP_LIGATE is used, you can limit the number of characters that will be lig
 
 For languages such as Arabic, where <a href="/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a> returns the GCP_GLYPHSHAPE flag, the glyphs for a character will be different depending on whether the character is at the beginning, middle, or end of a word. Typically, the first character in the input string will also be the first character in a word, and the last character in the input string will be treated as the last character in a word. However, if the displayed string is a subset of the complete string, such as when displaying a section of scrolled text, this may not be true. In these cases, it is desirable to force the first or last characters to be shaped as not being initial or final forms. To do this, again, the first location in the <b>lpGlyphs</b> array is used by performing an OR operation of the ligation value above with the values GCPGLYPH_LINKBEFORE and/or GCPGLYPH_LINKAFTER. For example, a value of GCPGLYPH_LINKBEFORE | 2 means that two-character ligatures are the maximum required, and the first character in the string should be treated as if it is in the middle of a word.
 
-
 ### -field nGlyphs
 
 On input, this member must be set to the size of the arrays pointed to by the array pointer members. On output, this is set to the number of glyphs filled in, in the output arrays. If glyph substitution is not required (that is, each input character maps to exactly one glyph), this member is the same as it is on input.
@@ -294,8 +291,6 @@ The number of characters that fit within the extents specified by the <i>nMaxExt
 
 ## -remarks
 
-
-
 Whether the <b>lpGlyphs</b>, <b>lpOutString</b>, or neither is required depends on the results of the <a href="/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a> call.
 
 In the case of a font for a language such as English, in which none of the GCP_DBCS, GCP_REORDER, GCP_GLYPHSHAPE, GCP_LIGATE, GCP_DIACRITIC, or GCP_KASHIDA flags are returned, neither of the arrays is required for proper operation. (Though not required, they can still be used. If the <b>lpOutString</b> array is used, it will be exactly the same as the <i>lpInputString</i> passed to <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>.) Note, however, that if GCP_MAXEXTENT is used, then <b>lpOutString</b> will contain the truncated string if it is used, NOT an exact copy of the original.
@@ -305,11 +300,10 @@ In the case of fonts for languages such as Hebrew, which DO have reordering but 
 In the case of languages such as Thai or Arabic, in which <a href="/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a> returns the GCP_GLYPHSHAPE flag, the <b>lpOutString</b> will give the display-readable order of the string passed to <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>, but the values will still be the unshaped characters. For proper display, the <b>lpGlyphs</b> array must be used.
 
 
-
+> [!NOTE]
+> The wingdi.h header defines GCP_RESULTS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
-
-
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-exttextouta">ExtTextOut</a>
@@ -329,7 +323,3 @@ In the case of languages such as Thai or Arabic, in which <a href="/windows/desk
 
 
 <a href="/windows/desktop/api/wingdi/nf-wingdi-getfontlanguageinfo">GetFontLanguageInfo</a>
- 
-
- 
-

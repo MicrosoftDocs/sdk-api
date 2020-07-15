@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationAnnotationPattern.get_CurrentDateTime
 title: IUIAutomationAnnotationPattern::get_CurrentDateTime (uiautomationclient.h)
-description: Retrieves the date and time that this annotation was created.helpviewer_keywords: ["CurrentDateTime property [Windows Accessibility]","CurrentDateTime property [Windows Accessibility]","IUIAutomationAnnotationPattern interface","IUIAutomationAnnotationPattern interface [Windows Accessibility]","CurrentDateTime property","IUIAutomationAnnotationPattern.CurrentDateTime","IUIAutomationAnnotationPattern.get_CurrentDateTime","IUIAutomationAnnotationPattern::CurrentDateTime","IUIAutomationAnnotationPattern::get_CurrentDateTime","get_CurrentDateTime","uiautomationclient/IUIAutomationAnnotationPattern::CurrentDateTime","uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentDateTime","winauto.uiauto_IUIAutomationAnnotationPattern_CurrentDateTime"]
+description: Retrieves the date and time that this annotation was created.
+helpviewer_keywords: ["CurrentDateTime property [Windows Accessibility]","CurrentDateTime property [Windows Accessibility]","IUIAutomationAnnotationPattern interface","IUIAutomationAnnotationPattern interface [Windows Accessibility]","CurrentDateTime property","IUIAutomationAnnotationPattern.CurrentDateTime","IUIAutomationAnnotationPattern.get_CurrentDateTime","IUIAutomationAnnotationPattern::CurrentDateTime","IUIAutomationAnnotationPattern::get_CurrentDateTime","get_CurrentDateTime","uiautomationclient/IUIAutomationAnnotationPattern::CurrentDateTime","uiautomationclient/IUIAutomationAnnotationPattern::get_CurrentDateTime","winauto.uiauto_IUIAutomationAnnotationPattern_CurrentDateTime"]
 old-location: winauto\uiauto_IUIAutomationAnnotationPattern_CurrentDateTime.htm
 tech.root: WinAuto
 ms.assetid: 391F6C44-F1AF-4EB7-87F1-593541FFF3A8

@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesTransparentCacheInfo.IsTransparentlyCached
 title: IOfflineFilesTransparentCacheInfo::IsTransparentlyCached (cscobj.h)
-description: Determines whether the item is transparently cached.helpviewer_keywords: ["IOfflineFilesTransparentCacheInfo interface [Offline Files]","IsTransparentlyCached method","IOfflineFilesTransparentCacheInfo.IsTransparentlyCached","IOfflineFilesTransparentCacheInfo::IsTransparentlyCached","IsTransparentlyCached","IsTransparentlyCached method [Offline Files]","IsTransparentlyCached method [Offline Files]","IOfflineFilesTransparentCacheInfo interface","cscobj/IOfflineFilesTransparentCacheInfo::IsTransparentlyCached","of.iofflinefilestransparentcacheinfo_istransparentlycached"]
+description: Determines whether the item is transparently cached.
+helpviewer_keywords: ["IOfflineFilesTransparentCacheInfo interface [Offline Files]","IsTransparentlyCached method","IOfflineFilesTransparentCacheInfo.IsTransparentlyCached","IOfflineFilesTransparentCacheInfo::IsTransparentlyCached","IsTransparentlyCached","IsTransparentlyCached method [Offline Files]","IsTransparentlyCached method [Offline Files]","IOfflineFilesTransparentCacheInfo interface","cscobj/IOfflineFilesTransparentCacheInfo::IsTransparentlyCached","of.iofflinefilestransparentcacheinfo_istransparentlycached"]
 old-location: of\iofflinefilestransparentcacheinfo_istransparentlycached.htm
 tech.root: offlinefiles
 ms.assetid: 7f8656e0-0f24-46a0-81b7-62067b0d4c21

@@ -1,7 +1,8 @@
 ---
 UID: NF:msime.IFECommon.SetDefaultIME
 title: IFECommon::SetDefaultIME (msime.h)
-description: Allows the Microsoft IME to become the default IME in the keyboard layout.helpviewer_keywords: ["IFECommon interface [Internationalization for Windows Applications]","SetDefaultIME method","IFECommon.SetDefaultIME","IFECommon::SetDefaultIME","SetDefaultIME","SetDefaultIME method [Internationalization for Windows Applications]","SetDefaultIME method [Internationalization for Windows Applications]","IFECommon interface","intl.ifecommon_setdefaultime","msime/IFECommon::SetDefaultIME"]
+description: Allows the Microsoft IME to become the default IME in the keyboard layout.
+helpviewer_keywords: ["IFECommon interface [Internationalization for Windows Applications]","SetDefaultIME method","IFECommon.SetDefaultIME","IFECommon::SetDefaultIME","SetDefaultIME","SetDefaultIME method [Internationalization for Windows Applications]","SetDefaultIME method [Internationalization for Windows Applications]","IFECommon interface","intl.ifecommon_setdefaultime","msime/IFECommon::SetDefaultIME"]
 old-location: intl\ifecommon_setdefaultime.htm
 tech.root: Intl
 ms.assetid: D54AABA7-8FAC-4867-91E7-BAF477F8DAB9

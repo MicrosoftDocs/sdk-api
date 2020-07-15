@@ -1,7 +1,8 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControlEventCallback.OnSuspendComplete
 title: ICameraUIControlEventCallback::OnSuspendComplete (camerauicontrol.h)
-description: Occurs when the camera UI control has completed being suspended.helpviewer_keywords: ["ICameraUIControlEventCallback interface [Windows API]","OnSuspendComplete method","ICameraUIControlEventCallback.OnSuspendComplete","ICameraUIControlEventCallback::OnSuspendComplete","OnSuspendComplete","OnSuspendComplete method [Windows API]","OnSuspendComplete method [Windows API]","ICameraUIControlEventCallback interface","camerauicontrol/ICameraUIControlEventCallback::OnSuspendComplete","winprog.icamerauicontroleventcallback_onsuspendcomplete"]
+description: Occurs when the camera UI control has completed being suspended.
+helpviewer_keywords: ["ICameraUIControlEventCallback interface [Windows API]","OnSuspendComplete method","ICameraUIControlEventCallback.OnSuspendComplete","ICameraUIControlEventCallback::OnSuspendComplete","OnSuspendComplete","OnSuspendComplete method [Windows API]","OnSuspendComplete method [Windows API]","ICameraUIControlEventCallback interface","camerauicontrol/ICameraUIControlEventCallback::OnSuspendComplete","winprog.icamerauicontroleventcallback_onsuspendcomplete"]
 old-location: winprog\icamerauicontroleventcallback_onsuspendcomplete.htm
 tech.root: DevNotes
 ms.assetid: 4ec41f09-8278-48ad-838f-9f796617a683

@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.EnumThresholdActions
 title: IFsrmQuotaBase::EnumThresholdActions (fsrmquota.h)
-description: Enumerates all the actions for the specified threshold.helpviewer_keywords: ["EnumThresholdActions","EnumThresholdActions method [File Server Resource Manager]","EnumThresholdActions method [File Server Resource Manager]","IFsrmQuotaBase interface","IFsrmQuotaBase interface [File Server Resource Manager]","EnumThresholdActions method","IFsrmQuotaBase.EnumThresholdActions","IFsrmQuotaBase::EnumThresholdActions","fs.ifsrmquotabase_enumthresholdactions","fsrm.ifsrmquotabase_enumthresholdactions","fsrmquota/IFsrmQuotaBase::EnumThresholdActions"]
+description: Enumerates all the actions for the specified threshold.
+helpviewer_keywords: ["EnumThresholdActions","EnumThresholdActions method [File Server Resource Manager]","EnumThresholdActions method [File Server Resource Manager]","IFsrmQuotaBase interface","IFsrmQuotaBase interface [File Server Resource Manager]","EnumThresholdActions method","IFsrmQuotaBase.EnumThresholdActions","IFsrmQuotaBase::EnumThresholdActions","fs.ifsrmquotabase_enumthresholdactions","fsrm.ifsrmquotabase_enumthresholdactions","fsrmquota/IFsrmQuotaBase::EnumThresholdActions"]
 old-location: fsrm\ifsrmquotabase_enumthresholdactions.htm
 tech.root: fsrm
 ms.assetid: ce4f85a9-f2e0-42df-adb4-7c21256d5305

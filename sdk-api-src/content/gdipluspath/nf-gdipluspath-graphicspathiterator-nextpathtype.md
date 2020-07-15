@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.GraphicsPathIterator.NextPathType
 title: GraphicsPathIterator::NextPathType (gdipluspath.h)
-description: The GraphicsPathIterator::NextPathType method gets the starting index and the ending index of the next group of data points that all have the same type.helpviewer_keywords: ["GraphicsPathIterator class [GDI+]","NextPathType method","GraphicsPathIterator.NextPathType","GraphicsPathIterator::NextPathType","NextPathType","NextPathType method [GDI+]","NextPathType method [GDI+]","GraphicsPathIterator class","_gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_"]
+description: The GraphicsPathIterator::NextPathType method gets the starting index and the ending index of the next group of data points that all have the same type.
+helpviewer_keywords: ["GraphicsPathIterator class [GDI+]","NextPathType method","GraphicsPathIterator.NextPathType","GraphicsPathIterator::NextPathType","NextPathType","NextPathType method [GDI+]","NextPathType method [GDI+]","GraphicsPathIterator class","_gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_","gdiplus._gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_"]
 old-location: gdiplus\_gdiplus_CLASS_GraphicsPathIterator_NextPathType_pathType_startIndex_endIndex_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicspathiteratorclass\graphicspathiteratormethods\nextpathtype.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.HANDLE_WM_NOTIFY
 title: HANDLE_WM_NOTIFY macro (commctrl.h)
-description: Calls a function that processes the WM_NOTIFY message.helpviewer_keywords: ["HANDLE_WM_NOTIFY","HANDLE_WM_NOTIFY macro [Windows Controls]","_win32_HANDLE_WM_NOTIFY","_win32_HANDLE_WM_NOTIFY_cpp","commctrl/HANDLE_WM_NOTIFY","controls.HANDLE_WM_NOTIFY","controls._win32_HANDLE_WM_NOTIFY"]
+description: Calls a function that processes the WM_NOTIFY message.
+helpviewer_keywords: ["HANDLE_WM_NOTIFY","HANDLE_WM_NOTIFY macro [Windows Controls]","_win32_HANDLE_WM_NOTIFY","_win32_HANDLE_WM_NOTIFY_cpp","commctrl/HANDLE_WM_NOTIFY","controls.HANDLE_WM_NOTIFY","controls._win32_HANDLE_WM_NOTIFY"]
 old-location: controls\HANDLE_WM_NOTIFY.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\macros\handle_wm_notify.htm

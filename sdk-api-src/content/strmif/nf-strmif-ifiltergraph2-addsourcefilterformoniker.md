@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IFilterGraph2.AddSourceFilterForMoniker
 title: IFilterGraph2::AddSourceFilterForMoniker (strmif.h)
-description: The AddSourceFilterForMoniker method creates a source filter from an IMoniker pointer and adds the filter to the graph.helpviewer_keywords: ["AddSourceFilterForMoniker","AddSourceFilterForMoniker method [DirectShow]","AddSourceFilterForMoniker method [DirectShow]","IFilterGraph2 interface","IFilterGraph2 interface [DirectShow]","AddSourceFilterForMoniker method","IFilterGraph2.AddSourceFilterForMoniker","IFilterGraph2::AddSourceFilterForMoniker","IFilterGraph2AddSourceFilterForMoniker","dshow.ifiltergraph2_addsourcefilterformoniker","strmif/IFilterGraph2::AddSourceFilterForMoniker"]
+description: The AddSourceFilterForMoniker method creates a source filter from an IMoniker pointer and adds the filter to the graph.
+helpviewer_keywords: ["AddSourceFilterForMoniker","AddSourceFilterForMoniker method [DirectShow]","AddSourceFilterForMoniker method [DirectShow]","IFilterGraph2 interface","IFilterGraph2 interface [DirectShow]","AddSourceFilterForMoniker method","IFilterGraph2.AddSourceFilterForMoniker","IFilterGraph2::AddSourceFilterForMoniker","IFilterGraph2AddSourceFilterForMoniker","dshow.ifiltergraph2_addsourcefilterformoniker","strmif/IFilterGraph2::AddSourceFilterForMoniker"]
 old-location: dshow\ifiltergraph2_addsourcefilterformoniker.htm
 tech.root: DirectShow
 ms.assetid: 7e398df6-7cb7-4028-be34-3040a2cd1c2b

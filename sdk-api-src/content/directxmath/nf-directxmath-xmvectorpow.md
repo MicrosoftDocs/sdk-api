@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorPow
 title: XMVectorPow function (directxmath.h)
-description: Computes V1 raised to the power of V2.helpviewer_keywords: ["Use DirectX..XMVectorPow","XMVectorPow","XMVectorPow method [DirectX Math Support APIs]","dxmath.xmvectorpow"]
+description: Computes V1 raised to the power of V2.
+helpviewer_keywords: ["Use DirectX..XMVectorPow","XMVectorPow","XMVectorPow method [DirectX Math Support APIs]","dxmath.xmvectorpow"]
 old-location: dxmath\xmvectorpow.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorPow(XMVECTOR,XMVECTOR)

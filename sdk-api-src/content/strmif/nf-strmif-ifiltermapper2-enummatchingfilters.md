@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IFilterMapper2.EnumMatchingFilters
 title: IFilterMapper2::EnumMatchingFilters (strmif.h)
-description: The EnumMatchingFilters method enumerates registered filters that meet specified requirements.helpviewer_keywords: ["EnumMatchingFilters","EnumMatchingFilters method [DirectShow]","EnumMatchingFilters method [DirectShow]","IFilterMapper2 interface","IFilterMapper2 interface [DirectShow]","EnumMatchingFilters method","IFilterMapper2.EnumMatchingFilters","IFilterMapper2::EnumMatchingFilters","IFilterMapper2EnumMatchingFilters","dshow.ifiltermapper2_enummatchingfilters","strmif/IFilterMapper2::EnumMatchingFilters"]
+description: The EnumMatchingFilters method enumerates registered filters that meet specified requirements.
+helpviewer_keywords: ["EnumMatchingFilters","EnumMatchingFilters method [DirectShow]","EnumMatchingFilters method [DirectShow]","IFilterMapper2 interface","IFilterMapper2 interface [DirectShow]","EnumMatchingFilters method","IFilterMapper2.EnumMatchingFilters","IFilterMapper2::EnumMatchingFilters","IFilterMapper2EnumMatchingFilters","dshow.ifiltermapper2_enummatchingfilters","strmif/IFilterMapper2::EnumMatchingFilters"]
 old-location: dshow\ifiltermapper2_enummatchingfilters.htm
 tech.root: DirectShow
 ms.assetid: f121b4c3-fce1-4be3-ace4-5084242130f6

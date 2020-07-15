@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDeviceStatics.GetDevicesOnMatchingNetworkAsync
 title: IActiveBasicDeviceStatics::streaming (windows.media.streaming.h)
-description: Asynchronously gets a DevicePair of devices that are on the same network interface.helpviewer_keywords: ["GetDevicesOnMatchingNetworkAsync","GetDevicesOnMatchingNetworkAsync method [Media Streaming API]","GetDevicesOnMatchingNetworkAsync method [Media Streaming API]","IActiveBasicDeviceStatics interface","IActiveBasicDeviceStatics interface [Media Streaming API]","GetDevicesOnMatchingNetworkAsync method","IActiveBasicDeviceStatics.GetDevicesOnMatchingNetworkAsync","IActiveBasicDeviceStatics.streaming","IActiveBasicDeviceStatics::GetDevicesOnMatchingNetworkAsync","IActiveBasicDeviceStatics::streaming","mediastreaming.iactivebasicdevicestatics_getdevicesonmatchingnetworkasync","windows/IActiveBasicDeviceStatics::GetDevicesOnMatchingNetworkAsync"]
+description: Asynchronously gets a DevicePair of devices that are on the same network interface.
+helpviewer_keywords: ["GetDevicesOnMatchingNetworkAsync","GetDevicesOnMatchingNetworkAsync method [Media Streaming API]","GetDevicesOnMatchingNetworkAsync method [Media Streaming API]","IActiveBasicDeviceStatics interface","IActiveBasicDeviceStatics interface [Media Streaming API]","GetDevicesOnMatchingNetworkAsync method","IActiveBasicDeviceStatics.GetDevicesOnMatchingNetworkAsync","IActiveBasicDeviceStatics.streaming","IActiveBasicDeviceStatics::GetDevicesOnMatchingNetworkAsync","IActiveBasicDeviceStatics::streaming","mediastreaming.iactivebasicdevicestatics_getdevicesonmatchingnetworkasync","windows/IActiveBasicDeviceStatics::GetDevicesOnMatchingNetworkAsync"]
 old-location: mediastreaming\iactivebasicdevicestatics_getdevicesonmatchingnetworkasync.htm
 tech.root: mediastreaming
 ms.assetid: 9BE3BBD1-F3D3-4EAF-9125-B82AE0DE48AA

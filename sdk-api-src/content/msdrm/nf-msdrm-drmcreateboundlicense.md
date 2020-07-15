@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMCreateBoundLicense
 title: DRMCreateBoundLicense function (msdrm.h)
-description: Allows an application to examine or exercise the rights on a locally stored license.helpviewer_keywords: ["DRMCreateBoundLicense","DRMCreateBoundLicense function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMCreateBoundLicense","rm.drmcreateboundlicense"]
+description: Allows an application to examine or exercise the rights on a locally stored license.
+helpviewer_keywords: ["DRMCreateBoundLicense","DRMCreateBoundLicense function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMCreateBoundLicense","rm.drmcreateboundlicense"]
 old-location: rm\drmcreateboundlicense.htm
 tech.root: AdRms_Sdk
 ms.assetid: 102fa347-47be-4dc7-ba17-3f1ad3735b00

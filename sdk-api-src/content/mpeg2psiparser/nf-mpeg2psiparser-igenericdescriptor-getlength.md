@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.IGenericDescriptor.GetLength
 title: IGenericDescriptor::GetLength (mpeg2psiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IGenericDescriptor interface","IGenericDescriptor interface [Microsoft TV Technologies]","GetLength method","IGenericDescriptor.GetLength","IGenericDescriptor::GetLength","IGenericDescriptorGetLength","mpeg2psiparser/IGenericDescriptor::GetLength","mstv.igenericdescriptor_getlength"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IGenericDescriptor interface","IGenericDescriptor interface [Microsoft TV Technologies]","GetLength method","IGenericDescriptor.GetLength","IGenericDescriptor::GetLength","IGenericDescriptorGetLength","mpeg2psiparser/IGenericDescriptor::GetLength","mstv.igenericdescriptor_getlength"]
 old-location: mstv\igenericdescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: fd36bb87-ef30-4064-a251-c89a878eeae9

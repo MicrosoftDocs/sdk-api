@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMRSOP.LoggingEnumerateUsers
 title: IGPMRSOP::LoggingEnumerateUsers (gpmgmt.h)
-description: Enumerates all users who have logging mode data on a specific computer.helpviewer_keywords: ["GPMRSOP class [GPMC]","LoggingEnumerateUsers method","IGPMRSOP interface [GPMC]","LoggingEnumerateUsers method","IGPMRSOP.LoggingEnumerateUsers","IGPMRSOP::LoggingEnumerateUsers","LoggingEnumerateUsers","LoggingEnumerateUsers method [GPMC]","LoggingEnumerateUsers method [GPMC]","GPMRSOP class","LoggingEnumerateUsers method [GPMC]","IGPMRSOP interface","_win32_igpmrsop_loggingenumerateusers","gpmc.igpmrsop_loggingenumerateusers","gpmgmt/IGPMRSOP::LoggingEnumerateUsers"]
+description: Enumerates all users who have logging mode data on a specific computer.
+helpviewer_keywords: ["GPMRSOP class [GPMC]","LoggingEnumerateUsers method","IGPMRSOP interface [GPMC]","LoggingEnumerateUsers method","IGPMRSOP.LoggingEnumerateUsers","IGPMRSOP::LoggingEnumerateUsers","LoggingEnumerateUsers","LoggingEnumerateUsers method [GPMC]","LoggingEnumerateUsers method [GPMC]","GPMRSOP class","LoggingEnumerateUsers method [GPMC]","IGPMRSOP interface","_win32_igpmrsop_loggingenumerateusers","gpmc.igpmrsop_loggingenumerateusers","gpmgmt/IGPMRSOP::LoggingEnumerateUsers"]
 old-location: gpmc\igpmrsop_loggingenumerateusers.htm
 tech.root: gpmc
 ms.assetid: 7cc794e6-1a8d-4e31-9bea-4ebc4cf51602

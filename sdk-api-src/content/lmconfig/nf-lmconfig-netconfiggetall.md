@@ -1,7 +1,8 @@
 ---
 UID: NF:lmconfig.NetConfigGetAll
 title: NetConfigGetAll function (lmconfig.h)
-description: The NetConfigGetAll function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.helpviewer_keywords: ["NetConfigGetAll","NetConfigGetAll function [Network Management]","_win32_netconfiggetall","lmconfig/NetConfigGetAll","netmgmt.netconfiggetall"]
+description: The NetConfigGetAll function is obsolete. It is included for compatibility with 16-bit versions of Windows. Other applications should use the registry.
+helpviewer_keywords: ["NetConfigGetAll","NetConfigGetAll function [Network Management]","_win32_netconfiggetall","lmconfig/NetConfigGetAll","netmgmt.netconfiggetall"]
 old-location: netmgmt\netconfiggetall.htm
 tech.root: NetMgmt
 ms.assetid: 1819f3d0-5e85-454b-947a-ae5e3db30987

@@ -1,7 +1,8 @@
 ---
 UID: NF:tvratings.IEvalRat.get_BlockedRatingAttributes
 title: IEvalRat::get_BlockedRatingAttributes (tvratings.h)
-description: The get_BlockedRatingAttributes method determines whether content is blocked for a given rating system and rating level.helpviewer_keywords: ["IEvalRat interface [Microsoft TV Technologies]","get_BlockedRatingAttributes method","IEvalRat.get_BlockedRatingAttributes","IEvalRat::get_BlockedRatingAttributes","IEvalRatget_BlockedRatingAttributes","get_BlockedRatingAttributes","get_BlockedRatingAttributes method [Microsoft TV Technologies]","get_BlockedRatingAttributes method [Microsoft TV Technologies]","IEvalRat interface","mstv.ievalrat_get_blockedratingattributes","tvratings/IEvalRat::get_BlockedRatingAttributes"]
+description: The get_BlockedRatingAttributes method determines whether content is blocked for a given rating system and rating level.
+helpviewer_keywords: ["IEvalRat interface [Microsoft TV Technologies]","get_BlockedRatingAttributes method","IEvalRat.get_BlockedRatingAttributes","IEvalRat::get_BlockedRatingAttributes","IEvalRatget_BlockedRatingAttributes","get_BlockedRatingAttributes","get_BlockedRatingAttributes method [Microsoft TV Technologies]","get_BlockedRatingAttributes method [Microsoft TV Technologies]","IEvalRat interface","mstv.ievalrat_get_blockedratingattributes","tvratings/IEvalRat::get_BlockedRatingAttributes"]
 old-location: mstv\ievalrat_get_blockedratingattributes.htm
 tech.root: mstv
 ms.assetid: d07b6462-958c-4e97-9be1-41941aa6b747

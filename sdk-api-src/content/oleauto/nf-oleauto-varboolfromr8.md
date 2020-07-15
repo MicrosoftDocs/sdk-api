@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarBoolFromR8
 title: VarBoolFromR8 function (oleauto.h)
-description: Converts a double value to a Boolean value.helpviewer_keywords: ["VarBoolFromR8","VarBoolFromR8 function [Automation]","_oa96_VarBoolFromR8","automat.varboolfromr8","oleauto/VarBoolFromR8"]
+description: Converts a double value to a Boolean value.
+helpviewer_keywords: ["VarBoolFromR8","VarBoolFromR8 function [Automation]","_oa96_VarBoolFromR8","automat.varboolfromr8","oleauto/VarBoolFromR8"]
 old-location: automat\varboolfromr8.htm
 tech.root: automat
 ms.assetid: 075a15f7-cd3b-4a6c-ae46-408da0dbd7ba

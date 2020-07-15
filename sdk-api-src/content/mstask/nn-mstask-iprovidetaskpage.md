@@ -1,7 +1,8 @@
 ---
 UID: NN:mstask.IProvideTaskPage
 title: IProvideTaskPage (mstask.h)
-description: Provides the methods to access the property sheet settings of a task.helpviewer_keywords: ["IProvideTaskPage","IProvideTaskPage interface [Task Scheduler]","IProvideTaskPage interface [Task Scheduler]","described","_msb_iprovidetaskpage","mstask/IProvideTaskPage","taskschd.iprovidetaskpage"]
+description: Provides the methods to access the property sheet settings of a task.
+helpviewer_keywords: ["IProvideTaskPage","IProvideTaskPage interface [Task Scheduler]","IProvideTaskPage interface [Task Scheduler]","described","_msb_iprovidetaskpage","mstask/IProvideTaskPage","taskschd.iprovidetaskpage"]
 old-location: taskschd\iprovidetaskpage.htm
 tech.root: taskschd
 ms.assetid: 58be7ea9-022f-46a0-9f27-9b226000a8cc

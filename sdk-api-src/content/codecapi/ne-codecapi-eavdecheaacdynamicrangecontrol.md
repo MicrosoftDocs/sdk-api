@@ -1,7 +1,8 @@
 ---
 UID: NE:codecapi.eAVDecHEAACDynamicRangeControl
 title: eAVDecHEAACDynamicRangeControl (codecapi.h)
-description: Specifies whether an AAC decoder performs dynamic range control.helpviewer_keywords: ["codecapi/eAVDecHEAACDynamicRangeControl","codecapi/eAVDecHEAACDynamicRangeControl_OFF","codecapi/eAVDecHEAACDynamicRangeControl_ON","dshow.eavdecheaacdynamicrangecontrol","eAVDecHEAACDynamicRangeControl","eAVDecHEAACDynamicRangeControl enumeration [DirectShow]","eAVDecHEAACDynamicRangeControl_OFF","eAVDecHEAACDynamicRangeControl_ON"]
+description: Specifies whether an AAC decoder performs dynamic range control.
+helpviewer_keywords: ["codecapi/eAVDecHEAACDynamicRangeControl","codecapi/eAVDecHEAACDynamicRangeControl_OFF","codecapi/eAVDecHEAACDynamicRangeControl_ON","dshow.eavdecheaacdynamicrangecontrol","eAVDecHEAACDynamicRangeControl","eAVDecHEAACDynamicRangeControl enumeration [DirectShow]","eAVDecHEAACDynamicRangeControl_OFF","eAVDecHEAACDynamicRangeControl_ON"]
 old-location: dshow\eavdecheaacdynamicrangecontrol.htm
 tech.root: DirectShow
 ms.assetid: d854093c-4ec8-439c-a1be-c34e3d080616

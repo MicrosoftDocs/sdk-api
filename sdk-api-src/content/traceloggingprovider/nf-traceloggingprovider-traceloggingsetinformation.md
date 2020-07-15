@@ -72,4 +72,3 @@ This function serves as a wrapper around the [**EventSetInformation**](/windows/
 To control the behavior of this function, use macros TLG\_EVENT\_SET\_INFORMATION and TLG\_HAVE\_EVENT\_SET\_INFORMATION.
 
 ## -see-also
-

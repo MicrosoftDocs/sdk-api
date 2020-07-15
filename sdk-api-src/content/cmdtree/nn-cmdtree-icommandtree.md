@@ -1,7 +1,8 @@
 ---
 UID: NN:cmdtree.ICommandTree
 title: ICommandTree (cmdtree.h)
-description: The ICommandTree interface is optional for providers that support commands. It contains methods for manipulating query trees. Providers that support command trees must also support specifying the same functionality through the ICommandText interface.helpviewer_keywords: ["ICommandTree","ICommandTree interface [Indexing Service]","ICommandTree interface [Indexing Service]","described","_idxs_ICommandTree","cmdtree/ICommandTree","indexsrv.icommandtree"]
+description: The ICommandTree interface is optional for providers that support commands. It contains methods for manipulating query trees. Providers that support command trees must also support specifying the same functionality through the ICommandText interface.
+helpviewer_keywords: ["ICommandTree","ICommandTree interface [Indexing Service]","ICommandTree interface [Indexing Service]","described","_idxs_ICommandTree","cmdtree/ICommandTree","indexsrv.icommandtree"]
 old-location: indexsrv\icommandtree.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_0ckl.htm

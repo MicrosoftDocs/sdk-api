@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsIscsiTarget.GetConnectedInitiators
 title: IVdsIscsiTarget::GetConnectedInitiators (vds.h)
-description: Returns the list of iSCSI names of the initiators currently logged into the target.helpviewer_keywords: ["GetConnectedInitiators","GetConnectedInitiators method [VDS]","GetConnectedInitiators method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","GetConnectedInitiators method","IVdsIscsiTarget.GetConnectedInitiators","IVdsIscsiTarget::GetConnectedInitiators","base.ivdsiscsitarget_getconnectedinitiators","vds/IVdsIscsiTarget::GetConnectedInitiators","vdshwprv/IVdsIscsiTarget::GetConnectedInitiators"]
+description: Returns the list of iSCSI names of the initiators currently logged into the target.
+helpviewer_keywords: ["GetConnectedInitiators","GetConnectedInitiators method [VDS]","GetConnectedInitiators method [VDS]","IVdsIscsiTarget interface","IVdsIscsiTarget interface [VDS]","GetConnectedInitiators method","IVdsIscsiTarget.GetConnectedInitiators","IVdsIscsiTarget::GetConnectedInitiators","base.ivdsiscsitarget_getconnectedinitiators","vds/IVdsIscsiTarget::GetConnectedInitiators","vdshwprv/IVdsIscsiTarget::GetConnectedInitiators"]
 old-location: base\ivdsiscsitarget_getconnectedinitiators.htm
 tech.root: VDS
 ms.assetid: 2060f012-169c-4077-a6ed-cef362f926d4

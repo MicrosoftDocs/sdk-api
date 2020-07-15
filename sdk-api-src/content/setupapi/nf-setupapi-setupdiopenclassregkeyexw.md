@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiOpenClassRegKeyExW
 title: SetupDiOpenClassRegKeyExW function (setupapi.h)
-description: The SetupDiOpenClassRegKeyEx function opens the device setup class registry key, the device interface class registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.helpviewer_keywords: ["SetupDiOpenClassRegKeyEx","SetupDiOpenClassRegKeyEx function [Device and Driver Installation]","SetupDiOpenClassRegKeyExA","SetupDiOpenClassRegKeyExW","devinst.setupdiopenclassregkeyex","di-rtns_498e4805-8ce4-41cb-8d77-552dbf342f60.xml","setupapi/SetupDiOpenClassRegKeyEx"]
+description: The SetupDiOpenClassRegKeyEx function opens the device setup class registry key, the device interface class registry key, or a specific class's subkey. This function opens the specified key on the local computer or on a remote computer.
+helpviewer_keywords: ["SetupDiOpenClassRegKeyEx","SetupDiOpenClassRegKeyEx function [Device and Driver Installation]","SetupDiOpenClassRegKeyExA","SetupDiOpenClassRegKeyExW","devinst.setupdiopenclassregkeyex","di-rtns_498e4805-8ce4-41cb-8d77-552dbf342f60.xml","setupapi/SetupDiOpenClassRegKeyEx"]
 old-location: devinst\setupdiopenclassregkeyex.htm
 tech.root: devinst
 ms.assetid: c931f906-8237-4203-b9b6-4dd54a93ca8b
@@ -130,6 +131,10 @@ Callers of this function must close the handle returned from this function by ca
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiOpenClassRegKeyEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

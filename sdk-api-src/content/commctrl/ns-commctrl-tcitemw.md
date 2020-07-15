@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagTCITEMW
 title: TCITEMW (commctrl.h)
-description: Specifies or receives the attributes of a tab item. It is used with the TCM_INSERTITEM, TCM_GETITEM, and TCM_SETITEM messages. This structure supersedes the TC_ITEM structure.helpviewer_keywords: ["*LPTCITEMW","LPTCITEM","LPTCITEM structure pointer [Windows Controls]","TCIF_IMAGE","TCIF_PARAM","TCIF_RTLREADING","TCIF_STATE","TCIF_TEXT","TCITEM","TCITEM structure [Windows Controls]","TCITEMA","TCITEMW","_win32_TCITEM","_win32_TCITEM_cpp","commctrl/LPTCITEM","commctrl/TCITEM","commctrl/TCITEMA","commctrl/TCITEMW","controls.TCITEM","controls._win32_TCITEM"]
+description: Specifies or receives the attributes of a tab item. It is used with the TCM_INSERTITEM, TCM_GETITEM, and TCM_SETITEM messages. This structure supersedes the TC_ITEM structure.
+helpviewer_keywords: ["*LPTCITEMW","LPTCITEM","LPTCITEM structure pointer [Windows Controls]","TCIF_IMAGE","TCIF_PARAM","TCIF_RTLREADING","TCIF_STATE","TCIF_TEXT","TCITEM","TCITEM structure [Windows Controls]","TCITEMA","TCITEMW","_win32_TCITEM","_win32_TCITEM_cpp","commctrl/LPTCITEM","commctrl/TCITEM","commctrl/TCITEMA","commctrl/TCITEMW","controls.TCITEM","controls._win32_TCITEM"]
 old-location: controls\TCITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\structures\tcitem.htm
@@ -198,4 +199,8 @@ Typically, windows display text left-to-right (LTR). Windows can be
 				<i>mirrored</i> to display languages such as Hebrew or Arabic that read right-to-left (RTL). Ordinarily, <b>pszText</b> will be displayed in the same direction as the text in its parent window. If TCIF_RTLREADING is set, <b>pszText</b> will read in the opposite direction from the text in the parent window.
 
 
+
+
+> [!NOTE]
+> The commctrl.h header defines TCITEM as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

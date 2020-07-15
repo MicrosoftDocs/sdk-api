@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_WritePropertyKey
 title: PSPropertyBag_WritePropertyKey function (propsys.h)
-description: Sets the property key value of a property in a property bag.helpviewer_keywords: ["PSPropertyBag_WritePropertyKey","PSPropertyBag_WritePropertyKey function [Windows Properties]","properties.PSPropertyBag_WritePropertyKey","propsys/PSPropertyBag_WritePropertyKey","shell.PSPropertyBag_WritePropertyKey"]
+description: Sets the property key value of a property in a property bag.
+helpviewer_keywords: ["PSPropertyBag_WritePropertyKey","PSPropertyBag_WritePropertyKey function [Windows Properties]","properties.PSPropertyBag_WritePropertyKey","propsys/PSPropertyBag_WritePropertyKey","shell.PSPropertyBag_WritePropertyKey"]
 old-location: properties\PSPropertyBag_WritePropertyKey.htm
 tech.root: properties
 ms.assetid: 52965079-ECC6-411a-BBB9-4EA2B7C01631

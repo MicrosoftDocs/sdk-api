@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdate.get_DeltaCompressedContentPreferred
 title: IUpdate::get_DeltaCompressedContentPreferred (wuapi.h)
-description: Gets a Boolean value that indicates whether to prefer delta-compressed content during the download and install or uninstall of the update if delta-compressed content is available.helpviewer_keywords: ["DeltaCompressedContentPreferred property [Windows Update Agent]","DeltaCompressedContentPreferred property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","DeltaCompressedContentPreferred property","IUpdate.DeltaCompressedContentPreferred","IUpdate.get_DeltaCompressedContentPreferred","IUpdate::DeltaCompressedContentPreferred","IUpdate::get_DeltaCompressedContentPreferred","get_DeltaCompressedContentPreferred","wua.iupdate_deltacompressedcontentpreferred","wuapi/IUpdate::DeltaCompressedContentPreferred","wuapi/IUpdate::get_DeltaCompressedContentPreferred"]
+description: Gets a Boolean value that indicates whether to prefer delta-compressed content during the download and install or uninstall of the update if delta-compressed content is available.
+helpviewer_keywords: ["DeltaCompressedContentPreferred property [Windows Update Agent]","DeltaCompressedContentPreferred property [Windows Update Agent]","IUpdate interface","IUpdate interface [Windows Update Agent]","DeltaCompressedContentPreferred property","IUpdate.DeltaCompressedContentPreferred","IUpdate.get_DeltaCompressedContentPreferred","IUpdate::DeltaCompressedContentPreferred","IUpdate::get_DeltaCompressedContentPreferred","get_DeltaCompressedContentPreferred","wua.iupdate_deltacompressedcontentpreferred","wuapi/IUpdate::DeltaCompressedContentPreferred","wuapi/IUpdate::get_DeltaCompressedContentPreferred"]
 old-location: wua\iupdate_deltacompressedcontentpreferred.htm
 tech.root: Wua_Sdk
 ms.assetid: 9fdb3918-9fc7-491f-9abb-4c2f13528817

@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_1
 title: Session_IPv4 (lpmapi.h)
-description: The Session_IPv4 structure stores information about an IPv4 RSVP SESSION object.helpviewer_keywords: ["Session_IPv4","Session_IPv4 structure [QOS]","lpmapi/Session_IPv4","qos.session_ipv4"]
+description: The Session_IPv4 structure stores information about an IPv4 RSVP SESSION object.
+helpviewer_keywords: ["Session_IPv4","Session_IPv4 structure [QOS]","lpmapi/Session_IPv4","qos.session_ipv4"]
 old-location: qos\session_ipv4.htm
 tech.root: QOS
 ms.assetid: 8fbe41f2-c7c7-4476-b5e6-f3306ce74cf6

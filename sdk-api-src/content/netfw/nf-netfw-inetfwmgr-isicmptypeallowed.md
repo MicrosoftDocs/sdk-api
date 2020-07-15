@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwMgr.IsIcmpTypeAllowed
 title: INetFwMgr::IsIcmpTypeAllowed (netfw.h)
-description: Determines whether the specified ICMP type is allowed.helpviewer_keywords: ["INetFwMgr interface [ICS/ICF]","IsIcmpTypeAllowed method","INetFwMgr.IsIcmpTypeAllowed","INetFwMgr::IsIcmpTypeAllowed","IsIcmpTypeAllowed","IsIcmpTypeAllowed method [ICS/ICF]","IsIcmpTypeAllowed method [ICS/ICF]","INetFwMgr interface","ics.inetfwmgr_isicmptypeallowed","netfw/INetFwMgr::IsIcmpTypeAllowed"]
+description: Determines whether the specified ICMP type is allowed.
+helpviewer_keywords: ["INetFwMgr interface [ICS/ICF]","IsIcmpTypeAllowed method","INetFwMgr.IsIcmpTypeAllowed","INetFwMgr::IsIcmpTypeAllowed","IsIcmpTypeAllowed","IsIcmpTypeAllowed method [ICS/ICF]","IsIcmpTypeAllowed method [ICS/ICF]","INetFwMgr interface","ics.inetfwmgr_isicmptypeallowed","netfw/INetFwMgr::IsIcmpTypeAllowed"]
 old-location: ics\inetfwmgr_isicmptypeallowed.htm
 tech.root: ics
 ms.assetid: 9ff5ef3b-581e-4ce5-9424-dafb08cfe067

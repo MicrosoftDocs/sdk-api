@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.ResolveQueryData
 title: ID3D12VideoDecodeCommandList::ResolveQueryData
-description: Extracts data from a query.helpviewer_keywords: ["ID3D12VideoDecodeCommandList::ResolveQueryData","ResolveQueryData","ID3D12VideoDecodeCommandList.ResolveQueryData","ID3D12VideoDecodeCommandList::ResolveQueryData","ID3D12VideoDecodeCommandList.ResolveQueryData"]
+description: Extracts data from a query.
+helpviewer_keywords: ["ID3D12VideoDecodeCommandList::ResolveQueryData","ResolveQueryData","ID3D12VideoDecodeCommandList.ResolveQueryData","ID3D12VideoDecodeCommandList::ResolveQueryData","ID3D12VideoDecodeCommandList.ResolveQueryData"]
 tech.root: mf
 ms.assetid: 6c0f7e3b-9399-4ce7-b5a6-02c441496f2e
 ms.date: 05/28/2019

@@ -1,7 +1,8 @@
 ---
 UID: NF:mmiscapi.mmioRenameW
 title: mmioRenameW function (mmiscapi.h)
-description: The mmioRename function renames the specified file.helpviewer_keywords: ["_win32_mmioRename","mmioRename","mmioRename function [Windows Multimedia]","mmioRenameA","mmioRenameW","mmsystem/mmioRename","mmsystem/mmioRenameA","mmsystem/mmioRenameW","multimedia.mmiorename"]
+description: The mmioRename function renames the specified file.
+helpviewer_keywords: ["_win32_mmioRename","mmioRename","mmioRename function [Windows Multimedia]","mmioRenameA","mmioRenameW","mmsystem/mmioRename","mmsystem/mmioRenameA","mmsystem/mmioRenameW","multimedia.mmiorename"]
 old-location: multimedia\mmiorename.htm
 tech.root: Multimedia
 ms.assetid: f47ef581-b3c8-409b-9edf-cbc8cfa04036
@@ -92,4 +93,9 @@ Flags for the rename operation. This parameter should be set to zero.
 Returns zero if the file was renamed. Otherwise, returns an error code returned from <b>mmioRename</b> or from the I/O procedure.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The mmiscapi.h header defines mmioRename as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_25
 title: CtrlLoadFlowspec (lpmapi.h)
-description: The CtrlLoadFlowspec structure contains a Controlled Load FLOWSPEC.helpviewer_keywords: ["CtrlLoadFlowspec","CtrlLoadFlowspec structure [QOS]","lpmapi/CtrlLoadFlowspec","qos.ctrlloadflowspec"]
+description: The CtrlLoadFlowspec structure contains a Controlled Load FLOWSPEC.
+helpviewer_keywords: ["CtrlLoadFlowspec","CtrlLoadFlowspec structure [QOS]","lpmapi/CtrlLoadFlowspec","qos.ctrlloadflowspec"]
 old-location: qos\ctrlloadflowspec.htm
 tech.root: QOS
 ms.assetid: def835ae-f0d2-4cdc-a498-315c4ef1245b

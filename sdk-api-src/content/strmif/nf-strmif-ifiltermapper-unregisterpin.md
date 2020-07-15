@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IFilterMapper.UnregisterPin
 title: IFilterMapper::UnregisterPin (strmif.h)
-description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this pin from the registry.helpviewer_keywords: ["IFilterMapper interface [DirectShow]","UnregisterPin method","IFilterMapper.UnregisterPin","IFilterMapper::UnregisterPin","IFilterMapperUnregisterPin","UnregisterPin","UnregisterPin method [DirectShow]","UnregisterPin method [DirectShow]","IFilterMapper interface","dshow.ifiltermapper_unregisterpin","strmif/IFilterMapper::UnregisterPin"]
+description: Note  The IFilterMapper interface is deprecated. Use IFilterMapper2 instead. Removes the registration of this pin from the registry.
+helpviewer_keywords: ["IFilterMapper interface [DirectShow]","UnregisterPin method","IFilterMapper.UnregisterPin","IFilterMapper::UnregisterPin","IFilterMapperUnregisterPin","UnregisterPin","UnregisterPin method [DirectShow]","UnregisterPin method [DirectShow]","IFilterMapper interface","dshow.ifiltermapper_unregisterpin","strmif/IFilterMapper::UnregisterPin"]
 old-location: dshow\ifiltermapper_unregisterpin.htm
 tech.root: DirectShow
 ms.assetid: f8964890-53d7-4731-91b2-156e61809774

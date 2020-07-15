@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoInitializeEx
 title: CoInitializeEx function (combaseapi.h)
-description: Initializes the COM library for use by the calling thread, sets the thread's concurrency model, and creates a new apartment for the thread if one is required.helpviewer_keywords: ["CoInitializeEx","CoInitializeEx function [COM]","_com_CoInitializeEx","com.coinitializeex","combaseapi/CoInitializeEx"]
+description: Initializes the COM library for use by the calling thread, sets the thread's concurrency model, and creates a new apartment for the thread if one is required.
+helpviewer_keywords: ["CoInitializeEx","CoInitializeEx function [COM]","_com_CoInitializeEx","com.coinitializeex","combaseapi/CoInitializeEx"]
 old-location: com\coinitializeex.htm
 tech.root: com
 ms.assetid: ffb79c0f-aeda-4ea1-aea8-afb79109837f

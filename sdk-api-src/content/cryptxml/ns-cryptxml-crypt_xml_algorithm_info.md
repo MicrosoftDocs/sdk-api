@@ -1,7 +1,8 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_ALGORITHM_INFO
 title: CRYPT_XML_ALGORITHM_INFO (cryptxml.h)
-description: Contains algorithm information.helpviewer_keywords: ["*PCRYPT_XML_ALGORITHM_INFO","CRYPT_XML_ALGORITHM_INFO","CRYPT_XML_ALGORITHM_INFO structure [Security]","CRYPT_XML_GROUP_ID_HASH","CRYPT_XML_GROUP_ID_SIGN","PCRYPT_XML_ALGORITHM_INFO","PCRYPT_XML_ALGORITHM_INFO structure pointer [Security]","cryptxml/CRYPT_XML_ALGORITHM_INFO","cryptxml/PCRYPT_XML_ALGORITHM_INFO","security.crypt_xml_algorithm_info"]
+description: Contains algorithm information.
+helpviewer_keywords: ["*PCRYPT_XML_ALGORITHM_INFO","CRYPT_XML_ALGORITHM_INFO","CRYPT_XML_ALGORITHM_INFO structure [Security]","CRYPT_XML_GROUP_ID_HASH","CRYPT_XML_GROUP_ID_SIGN","PCRYPT_XML_ALGORITHM_INFO","PCRYPT_XML_ALGORITHM_INFO structure pointer [Security]","cryptxml/CRYPT_XML_ALGORITHM_INFO","cryptxml/PCRYPT_XML_ALGORITHM_INFO","security.crypt_xml_algorithm_info"]
 old-location: security\crypt_xml_algorithm_info.htm
 tech.root: SecCrypto
 ms.assetid: ab6ec092-d25d-4ca0-8206-b7e5ad36d69b

@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssComponentEx.SetPostSnapshotFailureMsg
 title: IVssComponentEx::SetPostSnapshotFailureMsg (vswriter.h)
-description: Sets a PostSnapshot failure message string for a component.helpviewer_keywords: ["IVssComponentEx interface","SetPostSnapshotFailureMsg method","IVssComponentEx.SetPostSnapshotFailureMsg","IVssComponentEx::SetPostSnapshotFailureMsg","SetPostSnapshotFailureMsg","SetPostSnapshotFailureMsg method","SetPostSnapshotFailureMsg method","IVssComponentEx interface","base.ivsscomponentex_setpostsnapshotfailuremsg","vswriter/IVssComponentEx::SetPostSnapshotFailureMsg"]
+description: Sets a PostSnapshot failure message string for a component.
+helpviewer_keywords: ["IVssComponentEx interface","SetPostSnapshotFailureMsg method","IVssComponentEx.SetPostSnapshotFailureMsg","IVssComponentEx::SetPostSnapshotFailureMsg","SetPostSnapshotFailureMsg","SetPostSnapshotFailureMsg method","SetPostSnapshotFailureMsg method","IVssComponentEx interface","base.ivsscomponentex_setpostsnapshotfailuremsg","vswriter/IVssComponentEx::SetPostSnapshotFailureMsg"]
 old-location: base\ivsscomponentex_setpostsnapshotfailuremsg.htm
 tech.root: VSS
 ms.assetid: 7cf4e512-d557-4187-b489-5cca76c0560f

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMFontResourceCollection.SetAt
 title: IXpsOMFontResourceCollection::SetAt (xpsobjectmodel.h)
-description: Replaces an IXpsOMFontResource interface pointer at a specified location in the collection.helpviewer_keywords: ["IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","SetAt method","IXpsOMFontResourceCollection.SetAt","IXpsOMFontResourceCollection::SetAt","SetAt","SetAt method [XPS Documents and Packaging]","SetAt method [XPS Documents and Packaging]","IXpsOMFontResourceCollection interface","xps.ixpsomfontresourcecollection_setat","xpsobjectmodel/IXpsOMFontResourceCollection::SetAt"]
+description: Replaces an IXpsOMFontResource interface pointer at a specified location in the collection.
+helpviewer_keywords: ["IXpsOMFontResourceCollection interface [XPS Documents and Packaging]","SetAt method","IXpsOMFontResourceCollection.SetAt","IXpsOMFontResourceCollection::SetAt","SetAt","SetAt method [XPS Documents and Packaging]","SetAt method [XPS Documents and Packaging]","IXpsOMFontResourceCollection interface","xps.ixpsomfontresourcecollection_setat","xpsobjectmodel/IXpsOMFontResourceCollection::SetAt"]
 old-location: xps\ixpsomfontresourcecollection_setat.htm
 tech.root: printdocs
 ms.assetid: 3eead538-544f-4c74-aba8-1ad496e44156

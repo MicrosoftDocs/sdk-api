@@ -48,6 +48,7 @@ ms.custom: 19H1
 
 # GetThreadDescription function
 
+
 ## -description
 
 Retrieves the description that was assigned to a thread by calling [SetThreadDescription](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setthreaddescription).
@@ -75,7 +76,9 @@ The description for a thread can change at any time. For example, a different th
 
 Thread descriptions do not need to be unique.
 
-To free the memory for the thread description, call [LocalFree](/windows/win32/api/winbase/nf-winbase-localfree).
+To free the memory for the thread description, call the [LocalFree](/windows/win32/api/winbase/nf-winbase-localfree) method.
+
+
 
 #### Examples
 

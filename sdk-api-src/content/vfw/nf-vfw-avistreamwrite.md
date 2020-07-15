@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVIStreamWrite
 title: AVIStreamWrite function (vfw.h)
-description: The AVIStreamWrite function writes data to a stream.helpviewer_keywords: ["AVIIF_KEYFRAME","AVIStreamWrite","AVIStreamWrite function [Windows Multimedia]","_win32_AVIStreamWrite","multimedia.avistreamwrite","vfw/AVIStreamWrite"]
+description: The AVIStreamWrite function writes data to a stream.
+helpviewer_keywords: ["AVIIF_KEYFRAME","AVIStreamWrite","AVIStreamWrite function [Windows Multimedia]","_win32_AVIStreamWrite","multimedia.avistreamwrite","vfw/AVIStreamWrite"]
 old-location: multimedia\avistreamwrite.htm
 tech.root: Multimedia
 ms.assetid: 9a306939-7b4f-4e0b-8340-270725da74c3

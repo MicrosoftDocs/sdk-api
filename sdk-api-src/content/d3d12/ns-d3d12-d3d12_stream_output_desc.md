@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_STREAM_OUTPUT_DESC
 title: D3D12_STREAM_OUTPUT_DESC (d3d12.h)
-description: Describes a streaming output buffer.helpviewer_keywords: ["D3D12_STREAM_OUTPUT_DESC","D3D12_STREAM_OUTPUT_DESC structure","d3d12/D3D12_STREAM_OUTPUT_DESC","direct3d12.d3d12_stream_output_desc"]
+description: Describes a streaming output buffer.
+helpviewer_keywords: ["D3D12_STREAM_OUTPUT_DESC","D3D12_STREAM_OUTPUT_DESC structure","d3d12/D3D12_STREAM_OUTPUT_DESC","direct3d12.d3d12_stream_output_desc"]
 old-location: direct3d12\d3d12_stream_output_desc.htm
 tech.root: direct3d12
 ms.assetid: 9EFAA901-857B-40E3-B4B7-7C04D53BCA67

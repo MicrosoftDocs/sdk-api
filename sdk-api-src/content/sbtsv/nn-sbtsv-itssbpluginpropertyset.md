@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbPluginPropertySet
 title: ITsSbPluginPropertySet (sbtsv.h)
-description: Can be used to define custom plug-in properties as appropriate.helpviewer_keywords: ["ITsSbPluginPropertySet","ITsSbPluginPropertySet interface [Remote Desktop Services]","ITsSbPluginPropertySet interface [Remote Desktop Services]","described","sbtsv/ITsSbPluginPropertySet","termserv.itssbpluginpropertyset"]
+description: Can be used to define custom plug-in properties as appropriate.
+helpviewer_keywords: ["ITsSbPluginPropertySet","ITsSbPluginPropertySet interface [Remote Desktop Services]","ITsSbPluginPropertySet interface [Remote Desktop Services]","described","sbtsv/ITsSbPluginPropertySet","termserv.itssbpluginpropertyset"]
 old-location: termserv\itssbpluginpropertyset.htm
 tech.root: TermServ
 ms.assetid: e28e4ce7-1d11-483e-b666-69b3c0ba34b1

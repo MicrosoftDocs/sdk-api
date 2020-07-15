@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationObjects
 title: IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects (uiautomationclient.h)
-description: Retrieves an array of elements representing the annotations associated with this spreadsheet cell.helpviewer_keywords: ["GetCurrentAnnotationObjects","GetCurrentAnnotationObjects method [Windows Accessibility]","GetCurrentAnnotationObjects method [Windows Accessibility]","IUIAutomationSpreadsheetItemPattern interface","IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility]","GetCurrentAnnotationObjects method","IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationObjects","IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects","uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects","winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationObjects"]
+description: Retrieves an array of elements representing the annotations associated with this spreadsheet cell.
+helpviewer_keywords: ["GetCurrentAnnotationObjects","GetCurrentAnnotationObjects method [Windows Accessibility]","GetCurrentAnnotationObjects method [Windows Accessibility]","IUIAutomationSpreadsheetItemPattern interface","IUIAutomationSpreadsheetItemPattern interface [Windows Accessibility]","GetCurrentAnnotationObjects method","IUIAutomationSpreadsheetItemPattern.GetCurrentAnnotationObjects","IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects","uiautomationclient/IUIAutomationSpreadsheetItemPattern::GetCurrentAnnotationObjects","winauto.uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationObjects"]
 old-location: winauto\uiauto_IUIAutomationSpreadsheetItemPattern_GetCurrentAnnotationObjects.htm
 tech.root: WinAuto
 ms.assetid: 876ED365-C860-4C71-BF98-D940D49F2A9D

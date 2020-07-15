@@ -1,7 +1,8 @@
 ---
 UID: NF:wpcapi.IWPCSettings.IsLoggingRequired
 title: IWPCSettings::IsLoggingRequired (wpcapi.h)
-description: Determines whether activity logging should be performed when obtaining the IWPCSettings interface.helpviewer_keywords: ["IWPCSettings interface","IsLoggingRequired method","IWPCSettings.IsLoggingRequired","IWPCSettings::IsLoggingRequired","IsLoggingRequired","IsLoggingRequired method","IsLoggingRequired method","IWPCSettings interface","parcon.iwpcsettings_isloggingrequired","wpcapi/IWPCSettings::IsLoggingRequired"]
+description: Determines whether activity logging should be performed when obtaining the IWPCSettings interface.
+helpviewer_keywords: ["IWPCSettings interface","IsLoggingRequired method","IWPCSettings.IsLoggingRequired","IWPCSettings::IsLoggingRequired","IsLoggingRequired","IsLoggingRequired method","IsLoggingRequired method","IWPCSettings interface","parcon.iwpcsettings_isloggingrequired","wpcapi/IWPCSettings::IsLoggingRequired"]
 old-location: parcon\iwpcsettings_isloggingrequired.htm
 tech.root: parcon
 ms.assetid: bfe04843-af23-4146-bc45-f91d6ad36c1a

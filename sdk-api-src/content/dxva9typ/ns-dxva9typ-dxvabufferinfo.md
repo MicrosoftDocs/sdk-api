@@ -1,7 +1,8 @@
 ---
 UID: NS:dxva9typ._DXVABufferInfo
 title: DXVABufferInfo (dxva9typ.h)
-description: Specifies a buffer for the IDirect3DDXVADevice9::Execute method.helpviewer_keywords: ["DXVABufferInfo","DXVABufferInfo structure [Media Foundation]","_DXVABufferInfo","dxva9typ/DXVABufferInfo","mf.dxvabufferinfo"]
+description: Specifies a buffer for the IDirect3DDXVADevice9::Execute method.
+helpviewer_keywords: ["DXVABufferInfo","DXVABufferInfo structure [Media Foundation]","_DXVABufferInfo","dxva9typ/DXVABufferInfo","mf.dxvabufferinfo"]
 old-location: mf\dxvabufferinfo.htm
 tech.root: medfound
 ms.assetid: 048a3fcf-6076-4500-b5cc-edfe782f467b

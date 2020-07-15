@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfLangBarItemMgr.GetItemsStatus
 title: ITfLangBarItemMgr::GetItemsStatus (ctfutb.h)
-description: ITfLangBarItemMgr::GetItemsStatus methodhelpviewer_keywords: ["GetItemsStatus","GetItemsStatus method [Text Services Framework]","GetItemsStatus method [Text Services Framework]","ITfLangBarItemMgr interface","ITfLangBarItemMgr interface [Text Services Framework]","GetItemsStatus method","ITfLangBarItemMgr.GetItemsStatus","ITfLangBarItemMgr::GetItemsStatus","_tsf_itflangbaritemmgr_getitemsstatus_ref","ctfutb/ITfLangBarItemMgr::GetItemsStatus","tsf.itflangbaritemmgr_getitemsstatus"]
+description: ITfLangBarItemMgr::GetItemsStatus method
+helpviewer_keywords: ["GetItemsStatus","GetItemsStatus method [Text Services Framework]","GetItemsStatus method [Text Services Framework]","ITfLangBarItemMgr interface","ITfLangBarItemMgr interface [Text Services Framework]","GetItemsStatus method","ITfLangBarItemMgr.GetItemsStatus","ITfLangBarItemMgr::GetItemsStatus","_tsf_itflangbaritemmgr_getitemsstatus_ref","ctfutb/ITfLangBarItemMgr::GetItemsStatus","tsf.itflangbaritemmgr_getitemsstatus"]
 old-location: tsf\itflangbaritemmgr_getitemsstatus.htm
 tech.root: TSF
 ms.assetid: bf0bbbd5-63ca-4f2e-afee-e0c47d6e3d7b

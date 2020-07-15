@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.SetDefaultSaveFolder
 title: IShellLibrary::SetDefaultSaveFolder (shobjidl_core.h)
-description: Sets the default target folder that the library will use for save operations.helpviewer_keywords: ["IShellLibrary interface [Windows Shell]","SetDefaultSaveFolder method","IShellLibrary.SetDefaultSaveFolder","IShellLibrary::SetDefaultSaveFolder","SetDefaultSaveFolder","SetDefaultSaveFolder method [Windows Shell]","SetDefaultSaveFolder method [Windows Shell]","IShellLibrary interface","_shell_IShellLibrary_SetDefaultSaveFolder","shell.IShellLibrary_SetDefaultSaveFolder","shobjidl_core/IShellLibrary::SetDefaultSaveFolder"]
+description: Sets the default target folder that the library will use for save operations.
+helpviewer_keywords: ["IShellLibrary interface [Windows Shell]","SetDefaultSaveFolder method","IShellLibrary.SetDefaultSaveFolder","IShellLibrary::SetDefaultSaveFolder","SetDefaultSaveFolder","SetDefaultSaveFolder method [Windows Shell]","SetDefaultSaveFolder method [Windows Shell]","IShellLibrary interface","_shell_IShellLibrary_SetDefaultSaveFolder","shell.IShellLibrary_SetDefaultSaveFolder","shobjidl_core/IShellLibrary::SetDefaultSaveFolder"]
 old-location: shell\IShellLibrary_SetDefaultSaveFolder.htm
 tech.root: shell
 ms.assetid: 0c65bd5e-22f4-450b-a1d5-75e564854b5f

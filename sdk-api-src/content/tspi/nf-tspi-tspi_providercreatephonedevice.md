@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_providerCreatePhoneDevice
 title: TSPI_providerCreatePhoneDevice function (tspi.h)
-description: The TSPI_providerCreatePhoneDevice function is called by TAPI in response to receipt of a PHONE_CREATE message from the service provider, which allows the dynamic creation of a new phone device.helpviewer_keywords: ["TSPI_providerCreatePhoneDevice","TSPI_providerCreatePhoneDevice function [TAPI 2.2]","_tspi_tspi_providercreatephonedevice","tspi.tspi_providercreatephonedevice","tspi/TSPI_providerCreatePhoneDevice"]
+description: The TSPI_providerCreatePhoneDevice function is called by TAPI in response to receipt of a PHONE_CREATE message from the service provider, which allows the dynamic creation of a new phone device.
+helpviewer_keywords: ["TSPI_providerCreatePhoneDevice","TSPI_providerCreatePhoneDevice function [TAPI 2.2]","_tspi_tspi_providercreatephonedevice","tspi.tspi_providercreatephonedevice","tspi/TSPI_providerCreatePhoneDevice"]
 old-location: tspi\tspi_providercreatephonedevice.htm
 tech.root: Tapi
 ms.assetid: 9768cc69-fa7b-4b84-9e85-c9e75def3823

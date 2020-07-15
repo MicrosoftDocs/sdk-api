@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.IID_PPV_ARGS
 title: IID_PPV_ARGS macro (combaseapi.h)
-description: Used to retrieve an interface pointer, supplying the IID value of the requested interface automatically based on the type of the interface pointer used. This avoids a common coding error by checking the type of the value passed at compile time.helpviewer_keywords: ["IID_PPV_ARGS","IID_PPV_ARGS macro [Windows Shell]","IID_PPV_ARGS_Helper","_shell_IID_PPV_ARGS","combaseapi/IID_PPV_ARGS","shell.IID_PPV_ARGS"]
+description: Used to retrieve an interface pointer, supplying the IID value of the requested interface automatically based on the type of the interface pointer used. This avoids a common coding error by checking the type of the value passed at compile time.
+helpviewer_keywords: ["IID_PPV_ARGS","IID_PPV_ARGS macro [Windows Shell]","IID_PPV_ARGS_Helper","_shell_IID_PPV_ARGS","combaseapi/IID_PPV_ARGS","shell.IID_PPV_ARGS"]
 old-location: shell\IID_PPV_ARGS.htm
 tech.root: shell
 ms.assetid: 268B59FA-44EB-4777-8162-C50981CBDD09

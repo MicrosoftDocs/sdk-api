@@ -55,8 +55,8 @@ ms.custom: 19H1
 
 The <b>IEncoderAPI</b> interface defines a standard way for applications and drivers to communicate with third-party hardware or software encoders that implement the interface. For more information on this interface, see <a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>.
 
-
 ## -inheritance
+
 
 The <b xmlns:loc="http://microsoft.com/wdcml/l10n">IEncoderAPI</b> interface inherits from the <a href="/windows/desktop/api/unknwn/nn-unknwn-iunknown">IUnknown</a> interface. <b>IEncoderAPI</b> also has these types of members:
 <ul>
@@ -200,8 +200,8 @@ The following table describes the expected behavior of an encoder under extremel
  
 
 <h3><a id="OCUR_Devices"></a><a id="ocur_devices"></a><a id="OCUR_DEVICES"></a>OCUR Devices</h3>
-This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
 
+This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. See <a href="/previous-versions/windows/desktop/mstv/ocur-devices">OCUR Devices</a>.
 
 
 
@@ -210,8 +210,6 @@ This interface supports OpenCable Unidirectional Cable Receiver (OCUR) devices. 
 
 
 
+
 <a href="/windows/desktop/DirectShow/encoder-api">Encoder API</a>
  
-
- 
-

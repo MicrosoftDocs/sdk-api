@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.TpSetCallbackPersistent
 title: TpSetCallbackPersistent function (winnt.h)
-description: Specifies that the callback should run on a persistent thread.helpviewer_keywords: ["TpSetCallbackPersistent","TpSetCallbackPersistent function","base.tpsetcallbackpersistent","winnt/TpSetCallbackPersistent"]
+description: Specifies that the callback should run on a persistent thread.
+helpviewer_keywords: ["TpSetCallbackPersistent","TpSetCallbackPersistent function","base.tpsetcallbackpersistent","winnt/TpSetCallbackPersistent"]
 old-location: base\tpsetcallbackpersistent.htm
 tech.root: ProcThread
 ms.assetid: FE2CB959-25BC-4420-A921-2A65016B25CF

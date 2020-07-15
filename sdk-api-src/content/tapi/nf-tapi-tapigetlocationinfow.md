@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.tapiGetLocationInfoW
 title: tapiGetLocationInfoW function (tapi.h)
-description: The tapiGetLocationInfo function returns the country or region code and city (area) code that the user has set in the current location parameters in the Telephony Control Panel.helpviewer_keywords: ["_tapi2_tapigetlocationinfo","tapi/tapiGetLocationInfo","tapi/tapiGetLocationInfoA","tapi/tapiGetLocationInfoW","tapi2.tapigetlocationinfo","tapiGetLocationInfo","tapiGetLocationInfo function [TAPI 2.2]","tapiGetLocationInfoA","tapiGetLocationInfoW"]
+description: The tapiGetLocationInfo function returns the country or region code and city (area) code that the user has set in the current location parameters in the Telephony Control Panel.
+helpviewer_keywords: ["_tapi2_tapigetlocationinfo","tapi/tapiGetLocationInfo","tapi/tapiGetLocationInfoA","tapi/tapiGetLocationInfoW","tapi2.tapigetlocationinfo","tapiGetLocationInfo","tapiGetLocationInfo function [TAPI 2.2]","tapiGetLocationInfoA","tapiGetLocationInfoW"]
 old-location: tapi2\tapigetlocationinfo.htm
 tech.root: Tapi
 ms.assetid: c7c83cb7-3fd6-4dbb-8510-2c9afcc7015c
@@ -92,4 +93,9 @@ Returns zero if the request succeeds or a negative error number if an error occu
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The tapi.h header defines tapiGetLocationInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

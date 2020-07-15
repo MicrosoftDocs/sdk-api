@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptSetContextFunctionProperty
 title: BCryptSetContextFunctionProperty function (bcrypt.h)
-description: Sets the value of a named property for a cryptographic function in an existing CNG context.helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptSetContextFunctionProperty","BCryptSetContextFunctionProperty function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","bcrypt/BCryptSetContextFunctionProperty","security.bcryptsetcontextfunctionproperty"]
+description: Sets the value of a named property for a cryptographic function in an existing CNG context.
+helpviewer_keywords: ["BCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","BCRYPT_CIPHER_INTERFACE","BCRYPT_HASH_INTERFACE","BCRYPT_RNG_INTERFACE","BCRYPT_SECRET_AGREEMENT_INTERFACE","BCRYPT_SIGNATURE_INTERFACE","BCryptSetContextFunctionProperty","BCryptSetContextFunctionProperty function [Security]","CRYPT_DOMAIN","CRYPT_LOCAL","NCRYPT_KEY_STORAGE_INTERFACE","NCRYPT_SCHANNEL_INTERFACE","bcrypt/BCryptSetContextFunctionProperty","security.bcryptsetcontextfunctionproperty"]
 old-location: security\bcryptsetcontextfunctionproperty.htm
 tech.root: SecCNG
 ms.assetid: 1e02720b-5210-4127-ab9e-24532a764795

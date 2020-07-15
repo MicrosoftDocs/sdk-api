@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IExtendTaskPad.GetBackground
 title: IExtendTaskPad::GetBackground (mmc.h)
-description: The IExtendTaskPad::GetBackground method enables MMC to get the taskpad's background image to display in taskpads that use MMC taskpad templates.helpviewer_keywords: ["GetBackground","GetBackground method [MMC]","GetBackground method [MMC]","IExtendTaskPad interface","IExtendTaskPad interface [MMC]","GetBackground method","IExtendTaskPad.GetBackground","IExtendTaskPad::GetBackground","_slate_iextendtaskpad_getbackground","mmc.iextendtaskpad_getbackground","mmc/IExtendTaskPad::GetBackground"]
+description: The IExtendTaskPad::GetBackground method enables MMC to get the taskpad's background image to display in taskpads that use MMC taskpad templates.
+helpviewer_keywords: ["GetBackground","GetBackground method [MMC]","GetBackground method [MMC]","IExtendTaskPad interface","IExtendTaskPad interface [MMC]","GetBackground method","IExtendTaskPad.GetBackground","IExtendTaskPad::GetBackground","_slate_iextendtaskpad_getbackground","mmc.iextendtaskpad_getbackground","mmc/IExtendTaskPad::GetBackground"]
 old-location: mmc\iextendtaskpad_getbackground.htm
 tech.root: mmc
 ms.assetid: e34fc088-61d7-46a8-b493-8255a733d521

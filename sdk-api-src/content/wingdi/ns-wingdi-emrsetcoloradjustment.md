@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMRSETCOLORADJUSTMENT
 title: EMRSETCOLORADJUSTMENT (wingdi.h)
-description: The EMRSETCOLORADJUSTMENT structure contains members for the SetColorAdjustment enhanced metafile record.helpviewer_keywords: ["*PEMRSETCOLORADJUSTMENT","EMRSETCOLORADJUSTMENT","EMRSETCOLORADJUSTMENT structure [Windows GDI]","PEMRSETCOLORADJUSTMENT","PEMRSETCOLORADJUSTMENT structure pointer [Windows GDI]","_win32_EMRSETCOLORADJUSTMENT_str","gdi.emrsetcoloradjustment","wingdi/EMRSETCOLORADJUSTMENT","wingdi/PEMRSETCOLORADJUSTMENT"]
+description: The EMRSETCOLORADJUSTMENT structure contains members for the SetColorAdjustment enhanced metafile record.
+helpviewer_keywords: ["*PEMRSETCOLORADJUSTMENT","EMRSETCOLORADJUSTMENT","EMRSETCOLORADJUSTMENT structure [Windows GDI]","PEMRSETCOLORADJUSTMENT","PEMRSETCOLORADJUSTMENT structure pointer [Windows GDI]","_win32_EMRSETCOLORADJUSTMENT_str","gdi.emrsetcoloradjustment","wingdi/EMRSETCOLORADJUSTMENT","wingdi/PEMRSETCOLORADJUSTMENT"]
 old-location: gdi\emrsetcoloradjustment.htm
 tech.root: gdi
 ms.assetid: d9f99f71-d102-484f-beb4-0d2de1070345

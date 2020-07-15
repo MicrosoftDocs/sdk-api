@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1RenderTarget.CreateCompatibleRenderTarget(const D2D1_SIZE_F,const D2D1_SIZE_U,const D2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget)
+UID: NF:d2d1.ID2D1RenderTarget.CreateCompatibleRenderTarget(constD2D1_SIZE_F,constD2D1_SIZE_U,constD2D1_PIXEL_FORMAT,D2D1_COMPATIBLE_RENDER_TARGET_OPTIONS,ID2D1BitmapRenderTarget)
 title: ID2D1RenderTarget::CreateCompatibleRenderTarget (d2d1.h)
 description: Creates a new bitmap render target for use during intermediate offscreen drawing that is compatible with the current render target .
 helpviewer_keywords: ["CreateCompatibleRenderTarget","CreateCompatibleRenderTarget methods [Direct2D]","ID2D1RenderTarget.CreateCompatibleRenderTarget","ID2D1RenderTarget::CreateCompatibleRenderTarget","d2d1/CreateCompatibleRenderTarget","direct2d.id2d1rendertarget_createcompatiblerendertarget"]

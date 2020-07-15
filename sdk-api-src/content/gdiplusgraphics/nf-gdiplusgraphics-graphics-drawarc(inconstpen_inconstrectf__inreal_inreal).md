@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawArc(IN const Pen,IN const RectF &,IN REAL,IN REAL)
+UID: NF:gdiplusgraphics.Graphics.DrawArc(INconstPen,INconstRectF&,INREAL,INREAL)
 title: Graphics::DrawArc(IN const Pen,IN const RectF &,IN REAL,IN REAL) (gdiplusgraphics.h)
-description: The Graphics::DrawArc method draws an arc. The arc is part of an ellipse.helpviewer_keywords: ["DrawArc","DrawArc method [GDI+]","DrawArc method [GDI+]","Graphics class","Graphics class [GDI+]","DrawArc method","Graphics.DrawArc","Graphics.DrawArc(IN const Pen","IN const RectF &","IN REAL","IN REAL)","Graphics.DrawArc(const Pen*","const RectF&","REAL","REAL)","Graphics::DrawArc","Graphics::DrawArc(IN const Pen","IN const RectF &","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_DrawArc_Pen_pen_RectF_rect_REAL_startAngle_REAL_sweepAngle_","gdiplus._gdiplus_CLASS_Graphics_DrawArc_Pen_pen_RectF_rect_REAL_startAngle_REAL_sweepAngle_"]
+description: The Graphics::DrawArc method draws an arc. The arc is part of an ellipse.
+helpviewer_keywords: ["DrawArc","DrawArc method [GDI+]","DrawArc method [GDI+]","Graphics class","Graphics class [GDI+]","DrawArc method","Graphics.DrawArc","Graphics.DrawArc(IN const Pen","IN const RectF &","IN REAL","IN REAL)","Graphics.DrawArc(const Pen*","const RectF&","REAL","REAL)","Graphics::DrawArc","Graphics::DrawArc(IN const Pen","IN const RectF &","IN REAL","IN REAL)","_gdiplus_CLASS_Graphics_DrawArc_Pen_pen_RectF_rect_REAL_startAngle_REAL_sweepAngle_","gdiplus._gdiplus_CLASS_Graphics_DrawArc_Pen_pen_RectF_rect_REAL_startAngle_REAL_sweepAngle_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_DrawArc_Pen_pen_RectF_rect_REAL_startAngle_REAL_sweepAngle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsdrawarcmethods\drawarc_20penpen_rectfamprect_realstartangle_rea.htm

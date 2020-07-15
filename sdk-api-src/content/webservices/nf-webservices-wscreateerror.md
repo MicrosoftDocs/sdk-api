@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsCreateError
 title: WsCreateError function (webservices.h)
-description: Creates an error object that can passed to functions to record rich error information.helpviewer_keywords: ["WsCreateError","WsCreateError function [Web Services for Windows]","webservices/WsCreateError","wsw.wscreateerror"]
+description: Creates an error object that can passed to functions to record rich error information.
+helpviewer_keywords: ["WsCreateError","WsCreateError function [Web Services for Windows]","webservices/WsCreateError","wsw.wscreateerror"]
 old-location: wsw\wscreateerror.htm
 tech.root: wsw
 ms.assetid: 0ec858f7-12a5-43cf-94a7-3838ab6d76ae

@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigBufferFree
 title: MprConfigBufferFree function (mprapi.h)
-description: The MprConfigBufferFree function frees buffers. MprConfigXEnum, MprConfigXGetInfohelpviewer_keywords: ["MprConfigBufferFree","MprConfigBufferFree function [RAS]","_mpr_mprconfigbufferfree","mprapi/MprConfigBufferFree","rras.mprconfigbufferfree"]
+description: The MprConfigBufferFree function frees buffers. MprConfigXEnum, MprConfigXGetInfo
+helpviewer_keywords: ["MprConfigBufferFree","MprConfigBufferFree function [RAS]","_mpr_mprconfigbufferfree","mprapi/MprConfigBufferFree","rras.mprconfigbufferfree"]
 old-location: rras\mprconfigbufferfree.htm
 tech.root: RRAS
 ms.assetid: d7df56ee-72e4-4b0c-87a3-a1f66d791b62

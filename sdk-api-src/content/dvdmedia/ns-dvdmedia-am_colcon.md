@@ -1,7 +1,8 @@
 ---
 UID: NS:dvdmedia._AM_COLCON
 title: AM_COLCON (dvdmedia.h)
-description: Indicates the color contrast description from the DVD highlight (HLI) structure.helpviewer_keywords: ["*PAM_COLCON","AM_COLCON","AM_COLCON structure [DirectShow]","PAM_COLCON","PAM_COLCON structure pointer [DirectShow]","dshow.am_colcon","dvdmedia/AM_COLCON","dvdmedia/PAM_COLCON"]
+description: Indicates the color contrast description from the DVD highlight (HLI) structure.
+helpviewer_keywords: ["*PAM_COLCON","AM_COLCON","AM_COLCON structure [DirectShow]","PAM_COLCON","PAM_COLCON structure pointer [DirectShow]","dshow.am_colcon","dvdmedia/AM_COLCON","dvdmedia/PAM_COLCON"]
 old-location: dshow\am_colcon.htm
 tech.root: DirectShow
 ms.assetid: 9358d860-6187-48d9-81b6-d5d65d73786d

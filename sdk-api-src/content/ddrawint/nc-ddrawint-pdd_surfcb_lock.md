@@ -1,7 +1,8 @@
 ---
 UID: NC:ddrawint.PDD_SURFCB_LOCK
 title: PDD_SURFCB_LOCK (ddrawint.h)
-description: The DdLock callback function locks a specified area of surface memory and provides a valid pointer to a block of memory associated with a surface.helpviewer_keywords: ["DdLock","DdLock callback function [Display Devices]","PDD_SURFCB_LOCK","PDD_SURFCB_LOCK callback","ddfncs_af3e49f9-5fe1-4bf7-962b-18644a6fb582.xml","ddrawint/DdLock","display.ddlock"]
+description: The DdLock callback function locks a specified area of surface memory and provides a valid pointer to a block of memory associated with a surface.
+helpviewer_keywords: ["DdLock","DdLock callback function [Display Devices]","PDD_SURFCB_LOCK","PDD_SURFCB_LOCK callback","ddfncs_af3e49f9-5fe1-4bf7-962b-18644a6fb582.xml","ddrawint/DdLock","display.ddlock"]
 old-location: display\ddlock.htm
 tech.root: display
 ms.assetid: b5256ed8-79be-4c7b-a079-ed3bca954e9e

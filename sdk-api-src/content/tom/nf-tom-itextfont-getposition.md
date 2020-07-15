@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetPosition
 title: ITextFont::GetPosition (tom.h)
-description: Gets the amount that characters are offset vertically relative to the baseline.helpviewer_keywords: ["GetPosition","GetPosition method [Windows Controls]","GetPosition method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetPosition method","ITextFont.GetPosition","ITextFont::GetPosition","_win32_ITextFont_GetPosition","_win32_ITextFont_GetPosition_cpp","controls.ITextFont_GetPosition","controls._win32_ITextFont_GetPosition","tom/ITextFont::GetPosition"]
+description: Gets the amount that characters are offset vertically relative to the baseline.
+helpviewer_keywords: ["GetPosition","GetPosition method [Windows Controls]","GetPosition method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetPosition method","ITextFont.GetPosition","ITextFont::GetPosition","_win32_ITextFont_GetPosition","_win32_ITextFont_GetPosition_cpp","controls.ITextFont_GetPosition","controls._win32_ITextFont_GetPosition","tom/ITextFont::GetPosition"]
 old-location: controls\ITextFont_GetPosition.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getposition.htm

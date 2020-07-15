@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.SetSpacing
 title: ITextFont::SetSpacing (tom.h)
-description: Sets the amount of horizontal spacing between characters.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetSpacing method","ITextFont.SetSpacing","ITextFont::SetSpacing","SetSpacing","SetSpacing method [Windows Controls]","SetSpacing method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetSpacing","_win32_ITextFont_SetSpacing_cpp","controls.ITextFont_SetSpacing","controls._win32_ITextFont_SetSpacing","tom/ITextFont::SetSpacing"]
+description: Sets the amount of horizontal spacing between characters.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetSpacing method","ITextFont.SetSpacing","ITextFont::SetSpacing","SetSpacing","SetSpacing method [Windows Controls]","SetSpacing method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetSpacing","_win32_ITextFont_SetSpacing_cpp","controls.ITextFont_SetSpacing","controls._win32_ITextFont_SetSpacing","tom/ITextFont::SetSpacing"]
 old-location: controls\ITextFont_SetSpacing.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setspacing.htm

@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusheaders.Region.Region(IN const Rect &)
+UID: NF:gdiplusheaders.Region.Region(INconstRect&)
 title: Region::Region(IN const Rect &) (gdiplusheaders.h)
-description: Creates a region that is defined by a rectangle.helpviewer_keywords: ["Region","Region class [GDI+]","Region constructor","Region constructor [GDI+]","Region constructor [GDI+]","Region class","Region.Region","Region.Region(IN const Rect &)","Region.Region(const Rect&)","Region::Region","Region::Region(IN const Rect &)","_gdiplus_CLASS_Region_Region_Rect_rect_","gdiplus._gdiplus_CLASS_Region_Region_Rect_rect_"]
+description: Creates a region that is defined by a rectangle.
+helpviewer_keywords: ["Region","Region class [GDI+]","Region constructor","Region constructor [GDI+]","Region constructor [GDI+]","Region class","Region.Region","Region.Region(IN const Rect &)","Region.Region(const Rect&)","Region::Region","Region::Region(IN const Rect &)","_gdiplus_CLASS_Region_Region_Rect_rect_","gdiplus._gdiplus_CLASS_Region_Region_Rect_rect_"]
 old-location: gdiplus\_gdiplus_CLASS_Region_Region_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionconstructors\region_16rectamprect.htm

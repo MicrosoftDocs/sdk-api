@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IStreamPseudoRandomBased.put_Seed
 title: IStreamPseudoRandomBased::put_Seed (imapi2.h)
-description: Sets the seed value used by the random number generator and seeks to the start of stream.helpviewer_keywords: ["IStreamPseudoRandomBased interface [IMAPI]","put_Seed method","IStreamPseudoRandomBased.put_Seed","IStreamPseudoRandomBased::put_Seed","imapi.istreampseudorandombased_put_seed","imapi2/IStreamPseudoRandomBased::put_Seed","put_Seed","put_Seed method [IMAPI]","put_Seed method [IMAPI]","IStreamPseudoRandomBased interface"]
+description: Sets the seed value used by the random number generator and seeks to the start of stream.
+helpviewer_keywords: ["IStreamPseudoRandomBased interface [IMAPI]","put_Seed method","IStreamPseudoRandomBased.put_Seed","IStreamPseudoRandomBased::put_Seed","imapi.istreampseudorandombased_put_seed","imapi2/IStreamPseudoRandomBased::put_Seed","put_Seed","put_Seed method [IMAPI]","put_Seed method [IMAPI]","IStreamPseudoRandomBased interface"]
 old-location: imapi\istreampseudorandombased_put_seed.htm
 tech.root: imapi
 ms.assetid: 455d087d-a6f5-45ab-9c0d-c46e721cba6e

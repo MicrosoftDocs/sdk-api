@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArrayGetElement
 title: SafeArrayGetElement function (oleauto.h)
-description: Retrieves a single element of the array.helpviewer_keywords: ["SafeArrayGetElement","SafeArrayGetElement function [Automation]","_oa96_SafeArrayGetElement","automat.safearraygetelement","oleauto/SafeArrayGetElement"]
+description: Retrieves a single element of the array.
+helpviewer_keywords: ["SafeArrayGetElement","SafeArrayGetElement function [Automation]","_oa96_SafeArrayGetElement","automat.safearraygetelement","oleauto/SafeArrayGetElement"]
 old-location: automat\safearraygetelement.htm
 tech.root: automat
 ms.assetid: 47e9ee31-1e3b-4193-8467-6ef0db05966e

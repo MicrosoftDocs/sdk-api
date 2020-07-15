@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager2.AddService2
 title: IUpdateServiceManager2::AddService2 (wuapi.h)
-description: Registers a service with Windows Update Agent (WUA) without requiring an authorization cabinet file (.cab). This method also returns a pointer to an IUpdateServiceRegistration interface.helpviewer_keywords: ["AddService2","AddService2 method [Windows Update Agent]","AddService2 method [Windows Update Agent]","IUpdateServiceManager2 interface","IUpdateServiceManager2 interface [Windows Update Agent]","AddService2 method","IUpdateServiceManager2.AddService2","IUpdateServiceManager2::AddService2","wua.iupdateservicemanager2_addservice2_methods","wuapi/IUpdateServiceManager2::AddService2"]
+description: Registers a service with Windows Update Agent (WUA) without requiring an authorization cabinet file (.cab). This method also returns a pointer to an IUpdateServiceRegistration interface.
+helpviewer_keywords: ["AddService2","AddService2 method [Windows Update Agent]","AddService2 method [Windows Update Agent]","IUpdateServiceManager2 interface","IUpdateServiceManager2 interface [Windows Update Agent]","AddService2 method","IUpdateServiceManager2.AddService2","IUpdateServiceManager2::AddService2","wua.iupdateservicemanager2_addservice2_methods","wuapi/IUpdateServiceManager2::AddService2"]
 old-location: wua\iupdateservicemanager2_addservice2_methods.htm
 tech.root: Wua_Sdk
 ms.assetid: 1584b92f-ba21-4b03-a1b4-540313eb7893

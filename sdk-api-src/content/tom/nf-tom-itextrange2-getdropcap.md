@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange2.GetDropCap
 title: ITextRange2::GetDropCap (tom.h)
-description: Gets the drop-cap parameters of the paragraph that contains this range.helpviewer_keywords: ["GetDropCap","GetDropCap method [Windows Controls]","GetDropCap method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetDropCap method","ITextRange2.GetDropCap","ITextRange2::GetDropCap","controls.itextrange2_getdropcap","tom/ITextRange2::GetDropCap"]
+description: Gets the drop-cap parameters of the paragraph that contains this range.
+helpviewer_keywords: ["GetDropCap","GetDropCap method [Windows Controls]","GetDropCap method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetDropCap method","ITextRange2.GetDropCap","ITextRange2::GetDropCap","controls.itextrange2_getdropcap","tom/ITextRange2::GetDropCap"]
 old-location: controls\itextrange2_getdropcap.htm
 tech.root: Controls
 ms.assetid: c653c002-6708-4813-83ae-1ea578bdcee2

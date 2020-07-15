@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetDialA
 title: InternetDialA function (wininet.h)
-description: Initiates a connection to the Internet using a modem.helpviewer_keywords: ["InternetDial","InternetDial function [WinINet]","InternetDialA","InternetDialW","_inet_internetdial_function","wininet.internetdial","winineti/InternetDial","winineti/InternetDialA","winineti/InternetDialW"]
+description: Initiates a connection to the Internet using a modem.
+helpviewer_keywords: ["InternetDial","InternetDial function [WinINet]","InternetDialA","InternetDialW","_inet_internetdial_function","wininet.internetdial","winineti/InternetDial","winineti/InternetDialA","winineti/InternetDialW"]
 old-location: wininet\internetdial.htm
 tech.root: wininet
 ms.assetid: b8ce748b-9879-4f68-aea1-32e2bfaee8ab
@@ -211,6 +212,10 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines InternetDial as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

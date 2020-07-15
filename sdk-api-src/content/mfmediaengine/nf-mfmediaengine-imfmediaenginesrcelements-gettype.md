@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetType
 title: IMFMediaEngineSrcElements::GetType (mfmediaengine.h)
-description: Gets the MIME type of an element in the list.helpviewer_keywords: ["GetType","GetType method [Media Foundation]","GetType method [Media Foundation]","IMFMediaEngineSrcElements interface","IMFMediaEngineSrcElements interface [Media Foundation]","GetType method","IMFMediaEngineSrcElements.GetType","IMFMediaEngineSrcElements::GetType","mf.imfmediaenginesrcelements_gettype","mfmediaengine/IMFMediaEngineSrcElements::GetType"]
+description: Gets the MIME type of an element in the list.
+helpviewer_keywords: ["GetType","GetType method [Media Foundation]","GetType method [Media Foundation]","IMFMediaEngineSrcElements interface","IMFMediaEngineSrcElements interface [Media Foundation]","GetType method","IMFMediaEngineSrcElements.GetType","IMFMediaEngineSrcElements::GetType","mf.imfmediaenginesrcelements_gettype","mfmediaengine/IMFMediaEngineSrcElements::GetType"]
 old-location: mf\imfmediaenginesrcelements_gettype.htm
 tech.root: medfound
 ms.assetid: 7B788160-A342-48B4-A3F9-42F3BB83A24D

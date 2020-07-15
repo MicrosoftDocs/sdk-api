@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IActionProgress.QueryCancel
 title: IActionProgress::QueryCancel (shobjidl_core.h)
-description: Provides information about whether the action is being canceled.helpviewer_keywords: ["IActionProgress interface [Windows Shell]","QueryCancel method","IActionProgress.QueryCancel","IActionProgress::QueryCancel","QueryCancel","QueryCancel method [Windows Shell]","QueryCancel method [Windows Shell]","IActionProgress interface","shell.IActionProgress_QueryCancel","shell_IActionProgress_QueryCancel","shobjidl_core/IActionProgress::QueryCancel"]
+description: Provides information about whether the action is being canceled.
+helpviewer_keywords: ["IActionProgress interface [Windows Shell]","QueryCancel method","IActionProgress.QueryCancel","IActionProgress::QueryCancel","QueryCancel","QueryCancel method [Windows Shell]","QueryCancel method [Windows Shell]","IActionProgress interface","shell.IActionProgress_QueryCancel","shell_IActionProgress_QueryCancel","shobjidl_core/IActionProgress::QueryCancel"]
 old-location: shell\IActionProgress_QueryCancel.htm
 tech.root: shell
 ms.assetid: a5db4344-c1b4-4e76-9291-46dafc82e88d

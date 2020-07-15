@@ -1,7 +1,8 @@
 ---
 UID: NF:ctfutb.ITfLangBarMgr.GetInputProcessorProfiles
 title: ITfLangBarMgr::GetInputProcessorProfiles (ctfutb.h)
-description: ITfLangBarMgr::GetInputProcessorProfiles methodhelpviewer_keywords: ["GetInputProcessorProfiles","GetInputProcessorProfiles method [Text Services Framework]","GetInputProcessorProfiles method [Text Services Framework]","ITfLangBarMgr interface","ITfLangBarMgr interface [Text Services Framework]","GetInputProcessorProfiles method","ITfLangBarMgr.GetInputProcessorProfiles","ITfLangBarMgr::GetInputProcessorProfiles","_tsf_itflangbarmgr_getinputprocessorprofiles_ref","ctfutb/ITfLangBarMgr::GetInputProcessorProfiles","tsf.itflangbarmgr_getinputprocessorprofiles"]
+description: ITfLangBarMgr::GetInputProcessorProfiles method
+helpviewer_keywords: ["GetInputProcessorProfiles","GetInputProcessorProfiles method [Text Services Framework]","GetInputProcessorProfiles method [Text Services Framework]","ITfLangBarMgr interface","ITfLangBarMgr interface [Text Services Framework]","GetInputProcessorProfiles method","ITfLangBarMgr.GetInputProcessorProfiles","ITfLangBarMgr::GetInputProcessorProfiles","_tsf_itflangbarmgr_getinputprocessorprofiles_ref","ctfutb/ITfLangBarMgr::GetInputProcessorProfiles","tsf.itflangbarmgr_getinputprocessorprofiles"]
 old-location: tsf\itflangbarmgr_getinputprocessorprofiles.htm
 tech.root: TSF
 ms.assetid: 679d101b-b3f9-4771-9c68-729a6a3486de

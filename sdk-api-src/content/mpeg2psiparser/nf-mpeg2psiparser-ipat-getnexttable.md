@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.IPAT.GetNextTable
 title: IPAT::GetNextTable (mpeg2psiparser.h)
-description: The GetNextTable method retrieves the next table that follows the current table.helpviewer_keywords: ["GetNextTable","GetNextTable method [Microsoft TV Technologies]","GetNextTable method [Microsoft TV Technologies]","IPAT interface","IPAT interface [Microsoft TV Technologies]","GetNextTable method","IPAT.GetNextTable","IPAT::GetNextTable","IPATGetNextTable","mpeg2psiparser/IPAT::GetNextTable","mstv.ipat_getnexttable"]
+description: The GetNextTable method retrieves the next table that follows the current table.
+helpviewer_keywords: ["GetNextTable","GetNextTable method [Microsoft TV Technologies]","GetNextTable method [Microsoft TV Technologies]","IPAT interface","IPAT interface [Microsoft TV Technologies]","GetNextTable method","IPAT.GetNextTable","IPAT::GetNextTable","IPATGetNextTable","mpeg2psiparser/IPAT::GetNextTable","mstv.ipat_getnexttable"]
 old-location: mstv\ipat_getnexttable.htm
 tech.root: mstv
 ms.assetid: 24cc3c97-60f6-440d-80fd-da7516698a2e

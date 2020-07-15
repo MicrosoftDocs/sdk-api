@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_DATETIME
 title: WS_DATETIME (webservices.h)
-description: This structure is used to represent dates and times.helpviewer_keywords: ["WS_DATETIME","WS_DATETIME structure [Web Services for Windows]","webservices/WS_DATETIME","wsw.ws_datetime"]
+description: This structure is used to represent dates and times.
+helpviewer_keywords: ["WS_DATETIME","WS_DATETIME structure [Web Services for Windows]","webservices/WS_DATETIME","wsw.ws_datetime"]
 old-location: wsw\ws_datetime.htm
 tech.root: wsw
 ms.assetid: 635f8e0b-f994-4500-85ad-dd74fb4a6c22

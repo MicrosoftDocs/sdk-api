@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfo.GetPackageId
 title: IAppxBundleManifestOptionalBundleInfo::GetPackageId (appxpackaging.h)
-description: Retrieves an object that represents the identity of the &lt;OptionalBundle&gt;.helpviewer_keywords: ["GetPackageId","GetPackageId method [App packaging and management]","GetPackageId method [App packaging and management]","IAppxBundleManifestOptionalBundleInfo interface","IAppxBundleManifestOptionalBundleInfo interface [App packaging and management]","GetPackageId method","IAppxBundleManifestOptionalBundleInfo.GetPackageId","IAppxBundleManifestOptionalBundleInfo::GetPackageId","appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageId","appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageid"]
+description: Retrieves an object that represents the identity of the &lt;OptionalBundle&gt;.
+helpviewer_keywords: ["GetPackageId","GetPackageId method [App packaging and management]","GetPackageId method [App packaging and management]","IAppxBundleManifestOptionalBundleInfo interface","IAppxBundleManifestOptionalBundleInfo interface [App packaging and management]","GetPackageId method","IAppxBundleManifestOptionalBundleInfo.GetPackageId","IAppxBundleManifestOptionalBundleInfo::GetPackageId","appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageId","appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageid"]
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfo_getpackageid.htm
 tech.root: appxpkg
 ms.assetid: 57C8FB41-0218-4768-8E84-4ABF63EB94E8

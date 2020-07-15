@@ -56,21 +56,19 @@ Defines the raw input data coming from the specified keyboard.
 
 Type: <b>DWORD</b>
 
-The type of the keyboard. 
+The type of the keyboard. See the Remarks section.
 
 ### -field dwSubType
 
 Type: <b>DWORD</b>
 
-The subtype of the keyboard. 
-
+The subtype of the keyboard. See the Remarks section.
 
 ### -field dwKeyboardMode
 
 Type: <b>DWORD</b>
 
-The  scan code mode. 
-
+The scan code mode. See the Remarks section.
 
 ### -field dwNumberOfFunctionKeys
 
@@ -78,13 +76,11 @@ Type: <b>DWORD</b>
 
 The number of function keys on the keyboard.
 
-
 ### -field dwNumberOfIndicators
 
 Type: <b>DWORD</b>
 
 The number of LED indicators on the keyboard.
-
 
 ### -field dwNumberOfKeysTotal
 
@@ -94,7 +90,7 @@ The total number of keys on the keyboard.
 
 ### -remarks
 
-For the keyboard, the Usage Page is 1 and the Usage is 6.
+For information about keyboard types, subtypes, scan code modes, and related keyboard layouts, see the documentation in *kbd.h*, *ntdd8042.h* and *ntddkbd.h* headers in Windows SDK, and the [Keyboard Layout Samples](https://docs.microsoft.com/samples/microsoft/windows-driver-samples/keyboard-layout-samples/). 
 
 ## -see-also
 
@@ -105,6 +101,6 @@ For the keyboard, the Usage Page is 1 and the Usage is 6.
 [Raw Input](https://docs.microsoft.com/windows/desktop/inputdev/raw-input)
 
 **Reference**
- 
+
 [KEYBOARD_ATTRIBUTES structure](https://docs.microsoft.com/windows/win32/api/ntddkbd/ns-ntddkbd-keyboard_attributes)
  

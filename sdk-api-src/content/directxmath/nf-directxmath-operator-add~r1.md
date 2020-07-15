@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.operator-add~r1
 title: operator+
-description: Adds two instances of **XMVECTOR**, returning the result in a new instance.helpviewer_keywords: ["operator+"]
+description: Adds two instances of **XMVECTOR**, returning the result in a new instance.
+helpviewer_keywords: ["operator+"]
 ms.assetid: 24dc38ff-fa79-4fba-b7fb-594722c5c967
 ms.date: 05/13/2019
 ms.keywords: operator+

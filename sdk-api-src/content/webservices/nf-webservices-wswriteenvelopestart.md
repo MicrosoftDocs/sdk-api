@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsWriteEnvelopeStart
 title: WsWriteEnvelopeStart function (webservices.h)
-description: Writes the start of the message including the current set of headers of the message and prepares to write the body elementss.helpviewer_keywords: ["WsWriteEnvelopeStart","WsWriteEnvelopeStart function [Web Services for Windows]","webservices/WsWriteEnvelopeStart","wsw.wswriteenvelopestart"]
+description: Writes the start of the message including the current set of headers of the message and prepares to write the body elementss.
+helpviewer_keywords: ["WsWriteEnvelopeStart","WsWriteEnvelopeStart function [Web Services for Windows]","webservices/WsWriteEnvelopeStart","wsw.wswriteenvelopestart"]
 old-location: wsw\wswriteenvelopestart.htm
 tech.root: wsw
 ms.assetid: 213fe780-82f2-4140-92f2-2665317a5cb6

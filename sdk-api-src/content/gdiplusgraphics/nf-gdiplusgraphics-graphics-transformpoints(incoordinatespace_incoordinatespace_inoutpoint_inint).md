@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.TransformPoints(IN CoordinateSpace,IN CoordinateSpace,IN OUT Point,IN INT)
+UID: NF:gdiplusgraphics.Graphics.TransformPoints(INCoordinateSpace,INCoordinateSpace,INOUTPoint,ININT)
 title: Graphics::TransformPoints(IN CoordinateSpace,IN CoordinateSpace,IN OUT Point,IN INT) (gdiplusgraphics.h)
-description: The Graphics::TransformPoints method converts an array of points from one coordinate space to another. The conversion is based on the current world and page transformations of this Graphics object.helpviewer_keywords: ["Graphics class [GDI+]","TransformPoints method","Graphics.TransformPoints","Graphics.TransformPoints(IN CoordinateSpace","IN CoordinateSpace","IN OUT Point","IN INT)","Graphics::TransformPoints","Graphics::TransformPoints(IN CoordinateSpace","IN CoordinateSpace","IN OUT Point","IN INT)","TransformPoints","TransformPoints method [GDI+]","TransformPoints method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_","gdiplus._gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_"]
+description: The Graphics::TransformPoints method converts an array of points from one coordinate space to another. The conversion is based on the current world and page transformations of this Graphics object.
+helpviewer_keywords: ["Graphics class [GDI+]","TransformPoints method","Graphics.TransformPoints","Graphics.TransformPoints(IN CoordinateSpace","IN CoordinateSpace","IN OUT Point","IN INT)","Graphics::TransformPoints","Graphics::TransformPoints(IN CoordinateSpace","IN CoordinateSpace","IN OUT Point","IN INT)","TransformPoints","TransformPoints method [GDI+]","TransformPoints method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_","gdiplus._gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_TransformPoints_destSpace_srcSpace_pts_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\transformpoints.htm

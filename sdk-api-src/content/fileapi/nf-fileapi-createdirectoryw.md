@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.CreateDirectoryW
 title: CreateDirectoryW function (fileapi.h)
-description: Creates a new directory.helpviewer_keywords: ["CreateDirectory","CreateDirectory function [Files]","CreateDirectoryA","CreateDirectoryW","_win32_createdirectory","base.createdirectory","fileapi/CreateDirectory","fileapi/CreateDirectoryA","fileapi/CreateDirectoryW","fs.createdirectory","winbase/CreateDirectory","winbase/CreateDirectoryA","winbase/CreateDirectoryW"]
+description: Creates a new directory.
+helpviewer_keywords: ["CreateDirectory","CreateDirectory function [Files]","CreateDirectoryA","CreateDirectoryW","_win32_createdirectory","base.createdirectory","fileapi/CreateDirectory","fileapi/CreateDirectoryA","fileapi/CreateDirectoryW","fs.createdirectory","winbase/CreateDirectory","winbase/CreateDirectoryA","winbase/CreateDirectoryW"]
 old-location: fs\createdirectory.htm
 tech.root: FileIO
 ms.assetid: f8ca8b10-c8bd-4285-8a40-dbec4c24729c
@@ -230,6 +231,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines CreateDirectory as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

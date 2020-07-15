@@ -1,7 +1,8 @@
 ---
 UID: NE:minwinbase._FINDEX_INFO_LEVELS
 title: FINDEX_INFO_LEVELS (minwinbase.h)
-description: Defines values that are used with the FindFirstFileEx function to specify the information level of the returned data.helpviewer_keywords: ["FINDEX_INFO_LEVELS","FINDEX_INFO_LEVELS enumeration [Files]","FindExInfoBasic","FindExInfoMaxInfoLevel","FindExInfoStandard","_win32_findex_info_levels_str","base.findex_info_levels_str","fs.findex_info_levels_str","winbase/FINDEX_INFO_LEVELS","winbase/FindExInfoBasic","winbase/FindExInfoMaxInfoLevel","winbase/FindExInfoStandard"]
+description: Defines values that are used with the FindFirstFileEx function to specify the information level of the returned data.
+helpviewer_keywords: ["FINDEX_INFO_LEVELS","FINDEX_INFO_LEVELS enumeration [Files]","FindExInfoBasic","FindExInfoMaxInfoLevel","FindExInfoStandard","_win32_findex_info_levels_str","base.findex_info_levels_str","fs.findex_info_levels_str","winbase/FINDEX_INFO_LEVELS","winbase/FindExInfoBasic","winbase/FindExInfoMaxInfoLevel","winbase/FindExInfoStandard"]
 old-location: fs\findex_info_levels_str.htm
 tech.root: FileIO
 ms.assetid: 454d5fc2-2ada-49de-9e1e-9e6eba050b17

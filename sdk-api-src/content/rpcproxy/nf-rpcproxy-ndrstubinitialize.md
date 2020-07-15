@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcproxy.NdrStubInitialize
 title: NdrStubInitialize function (rpcproxy.h)
-description: The NdrStubInitialize function is called by the server stub before unmarshalling. It sets up some stub message fields.helpviewer_keywords: ["NdrStubInitialize","NdrStubInitialize function [RPC]","rpc.ndrstubinitialize","rpcproxy/NdrStubInitialize"]
+description: The NdrStubInitialize function is called by the server stub before unmarshalling. It sets up some stub message fields.
+helpviewer_keywords: ["NdrStubInitialize","NdrStubInitialize function [RPC]","rpc.ndrstubinitialize","rpcproxy/NdrStubInitialize"]
 old-location: rpc\ndrstubinitialize.htm
 tech.root: Rpc
 ms.assetid: 078442d1-1e35-4679-b86d-0a9110977a7c

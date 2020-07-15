@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdevlicensing.RemoveDeveloperLicense
 title: RemoveDeveloperLicense function (wsdevlicensing.h)
-description: Removes a developer license.helpviewer_keywords: ["RemoveDeveloperLicense","RemoveDeveloperLicense function","devlic.removedeveloperlicense","wsdevlicensing/RemoveDeveloperLicense"]
+description: Removes a developer license.
+helpviewer_keywords: ["RemoveDeveloperLicense","RemoveDeveloperLicense function","devlic.removedeveloperlicense","wsdevlicensing/RemoveDeveloperLicense"]
 old-location: devlic\removedeveloperlicense.htm
 tech.root: devlic
 ms.assetid: C75F8B6E-EAFB-48E2-93B1-CEC1A1FF5FC0

@@ -1,7 +1,8 @@
 ---
 UID: NN:netcon.IEnumNetSharingPrivateConnection
 title: IEnumNetSharingPrivateConnection (netcon.h)
-description: The IEnumNetSharingPrivateConnection interface provides methods for enumerating the currently configured privately-shared connections.helpviewer_keywords: ["IEnumNetSharingPrivateConnection","IEnumNetSharingPrivateConnection interface [ICS/ICF]","IEnumNetSharingPrivateConnection interface [ICS/ICF]","described","_ics_ienumnetsharingprivateconnection","ics.ienumnetsharingprivateconnection","netcon/IEnumNetSharingPrivateConnection"]
+description: The IEnumNetSharingPrivateConnection interface provides methods for enumerating the currently configured privately-shared connections.
+helpviewer_keywords: ["IEnumNetSharingPrivateConnection","IEnumNetSharingPrivateConnection interface [ICS/ICF]","IEnumNetSharingPrivateConnection interface [ICS/ICF]","described","_ics_ienumnetsharingprivateconnection","ics.ienumnetsharingprivateconnection","netcon/IEnumNetSharingPrivateConnection"]
 old-location: ics\ienumnetsharingprivateconnection.htm
 tech.root: ics
 ms.assetid: 0e4cfa2e-8caa-4258-bd52-1f5a00403dfa

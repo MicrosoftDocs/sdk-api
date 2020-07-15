@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.DisableNtmsObject
 title: DisableNtmsObject function (ntmsapi.h)
-description: The DisableNtmsObject function disables the specified RSM object.helpviewer_keywords: ["DisableNtmsObject","DisableNtmsObject function [Files]","NTMS_DRIVE","NTMS_LIBRARY","NTMS_PHYSICAL_MEDIA","_zaw_disablentmsobject","base.disablentmsobject","fs.disablentmsobject","ntmsapi/DisableNtmsObject"]
+description: The DisableNtmsObject function disables the specified RSM object.
+helpviewer_keywords: ["DisableNtmsObject","DisableNtmsObject function [Files]","NTMS_DRIVE","NTMS_LIBRARY","NTMS_PHYSICAL_MEDIA","_zaw_disablentmsobject","base.disablentmsobject","fs.disablentmsobject","ntmsapi/DisableNtmsObject"]
 old-location: fs\disablentmsobject.htm
 tech.root: Rsm
 ms.assetid: 409d1ab6-c611-4118-aa10-095d585c099a

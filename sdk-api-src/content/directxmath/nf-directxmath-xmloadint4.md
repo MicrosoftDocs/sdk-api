@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMLoadInt4
 title: XMLoadInt4 function (directxmath.h)
-description: Loads data into an XMVECTOR, without type checking.helpviewer_keywords: ["Use DirectX..XMLoadInt4","XMLoadInt4","XMLoadInt4 method [DirectX Math Support APIs]","dxmath.xmloadint4"]
+description: Loads data into an XMVECTOR, without type checking.
+helpviewer_keywords: ["Use DirectX..XMLoadInt4","XMLoadInt4","XMLoadInt4 method [DirectX Math Support APIs]","dxmath.xmloadint4"]
 old-location: dxmath\xmloadint4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadInt4(const VOID)

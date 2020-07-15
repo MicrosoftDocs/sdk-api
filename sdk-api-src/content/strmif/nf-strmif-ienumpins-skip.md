@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IEnumPins.Skip
 title: IEnumPins::Skip (strmif.h)
-description: The Skip method skips over a specified number of pins.helpviewer_keywords: ["IEnumPins interface [DirectShow]","Skip method","IEnumPins.Skip","IEnumPins::Skip","IEnumPinsSkip","Skip","Skip method [DirectShow]","Skip method [DirectShow]","IEnumPins interface","dshow.ienumpins_skip","strmif/IEnumPins::Skip"]
+description: The Skip method skips over a specified number of pins.
+helpviewer_keywords: ["IEnumPins interface [DirectShow]","Skip method","IEnumPins.Skip","IEnumPins::Skip","IEnumPinsSkip","Skip","Skip method [DirectShow]","Skip method [DirectShow]","IEnumPins interface","dshow.ienumpins_skip","strmif/IEnumPins::Skip"]
 old-location: dshow\ienumpins_skip.htm
 tech.root: DirectShow
 ms.assetid: 501d08ee-ebd1-48dc-8cc9-bf017034b4cd

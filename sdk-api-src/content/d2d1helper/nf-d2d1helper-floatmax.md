@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1helper.FloatMax
 title: FloatMax function (d2d1helper.h)
-description: Returns the maximum floating-point value.helpviewer_keywords: ["FloatMax","FloatMax function [Direct2D]","d2d1helper/FloatMax","direct2d.floatmax"]
+description: Returns the maximum floating-point value.
+helpviewer_keywords: ["FloatMax","FloatMax function [Direct2D]","d2d1helper/FloatMax","direct2d.floatmax"]
 old-location: direct2d\floatmax.htm
 tech.root: Direct2D
 ms.assetid: 93f0e030-b913-4b3b-bee8-c52eb19c63ab

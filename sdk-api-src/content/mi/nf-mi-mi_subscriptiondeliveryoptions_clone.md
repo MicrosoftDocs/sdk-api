@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_Clone
 title: MI_SubscriptionDeliveryOptions_Clone function (mi.h)
-description: Creates a copy of a MI_SubscriptionDeliveryOptions structure.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_Clone","MI_SubscriptionDeliveryOptions_Clone function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_Clone","wmi_v2.mi_subscriptiondeliveryoptions_clone"]
+description: Creates a copy of a MI_SubscriptionDeliveryOptions structure.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_Clone","MI_SubscriptionDeliveryOptions_Clone function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_Clone","wmi_v2.mi_subscriptiondeliveryoptions_clone"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_clone.htm
 tech.root: wmi_v2
 ms.assetid: 34374907-bbb6-4d22-81ac-2d662efaf119

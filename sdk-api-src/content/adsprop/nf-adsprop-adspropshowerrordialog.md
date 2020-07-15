@@ -1,7 +1,8 @@
 ---
 UID: NF:adsprop.ADsPropShowErrorDialog
 title: ADsPropShowErrorDialog function (adsprop.h)
-description: The ADsPropShowErrorDialog function displays a dialog box that contains the error messages accumulated through calls to the ADsPropSendErrorMessage function or the WM_ADSPROP_NOTIFY_ERROR.helpviewer_keywords: ["ADsPropShowErrorDialog","ADsPropShowErrorDialog function [Active Directory]","ad.adspropshowerrordialog","adsprop/ADsPropShowErrorDialog"]
+description: The ADsPropShowErrorDialog function displays a dialog box that contains the error messages accumulated through calls to the ADsPropSendErrorMessage function or the WM_ADSPROP_NOTIFY_ERROR.
+helpviewer_keywords: ["ADsPropShowErrorDialog","ADsPropShowErrorDialog function [Active Directory]","ad.adspropshowerrordialog","adsprop/ADsPropShowErrorDialog"]
 old-location: ad\adspropshowerrordialog.htm
 tech.root: ad
 ms.assetid: c7ed3d36-474e-4cb1-82aa-1e2c1ebd4b83

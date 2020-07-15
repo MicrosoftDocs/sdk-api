@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetFirstLineIndent
 title: ITextPara::GetFirstLineIndent (tom.h)
-description: Retrieves the amount used to indent the first line of a paragraph relative to the left indent. The left indent is the indent for all lines of the paragraph except the first line.helpviewer_keywords: ["GetFirstLineIndent","GetFirstLineIndent method [Windows Controls]","GetFirstLineIndent method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetFirstLineIndent method","ITextPara.GetFirstLineIndent","ITextPara::GetFirstLineIndent","_win32_ITextPara_GetFirstLineIndent","_win32_ITextPara_GetFirstLineIndent_cpp","controls.ITextPara_GetFirstLineIndent","controls._win32_ITextPara_GetFirstLineIndent","tom/ITextPara::GetFirstLineIndent"]
+description: Retrieves the amount used to indent the first line of a paragraph relative to the left indent. The left indent is the indent for all lines of the paragraph except the first line.
+helpviewer_keywords: ["GetFirstLineIndent","GetFirstLineIndent method [Windows Controls]","GetFirstLineIndent method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetFirstLineIndent method","ITextPara.GetFirstLineIndent","ITextPara::GetFirstLineIndent","_win32_ITextPara_GetFirstLineIndent","_win32_ITextPara_GetFirstLineIndent_cpp","controls.ITextPara_GetFirstLineIndent","controls._win32_ITextPara_GetFirstLineIndent","tom/ITextPara::GetFirstLineIndent"]
 old-location: controls\ITextPara_GetFirstLineIndent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getfirstlineindent.htm

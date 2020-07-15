@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_SetItemState
 title: TreeView_SetItemState macro (commctrl.h)
-description: Sets a tree-view item's state attributes. You can use this macro or send the TVM_SETITEM message explicitly.helpviewer_keywords: ["TreeView_SetItemState","TreeView_SetItemState macro [Windows Controls]","_win32_TreeView_SetItemState","_win32_TreeView_SetItemState_cpp","commctrl/TreeView_SetItemState","controls.TreeView_SetItemState","controls._win32_TreeView_SetItemState"]
+description: Sets a tree-view item's state attributes. You can use this macro or send the TVM_SETITEM message explicitly.
+helpviewer_keywords: ["TreeView_SetItemState","TreeView_SetItemState macro [Windows Controls]","_win32_TreeView_SetItemState","_win32_TreeView_SetItemState_cpp","commctrl/TreeView_SetItemState","controls.TreeView_SetItemState","controls._win32_TreeView_SetItemState"]
 old-location: controls\TreeView_SetItemState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_setitemstate.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrResolutionHandler.KeepRecent
 title: ISyncMgrResolutionHandler::KeepRecent (syncmgr.h)
-description: Keeps the more recent copy.helpviewer_keywords: ["ISyncMgrResolutionHandler interface [Windows Shell]","KeepRecent method","ISyncMgrResolutionHandler.KeepRecent","ISyncMgrResolutionHandler::KeepRecent","KeepRecent","KeepRecent method [Windows Shell]","KeepRecent method [Windows Shell]","ISyncMgrResolutionHandler interface","_shell_ISyncMgrResolutionHandler_KeepRecent","shell.ISyncMgrResolutionHandler_KeepRecent","syncmgr/ISyncMgrResolutionHandler::KeepRecent"]
+description: Keeps the more recent copy.
+helpviewer_keywords: ["ISyncMgrResolutionHandler interface [Windows Shell]","KeepRecent method","ISyncMgrResolutionHandler.KeepRecent","ISyncMgrResolutionHandler::KeepRecent","KeepRecent","KeepRecent method [Windows Shell]","KeepRecent method [Windows Shell]","ISyncMgrResolutionHandler interface","_shell_ISyncMgrResolutionHandler_KeepRecent","shell.ISyncMgrResolutionHandler_KeepRecent","syncmgr/ISyncMgrResolutionHandler::KeepRecent"]
 old-location: shell\ISyncMgrResolutionHandler_KeepRecent.htm
 tech.root: shell
 ms.assetid: a2327234-4a8d-42b4-aa62-f5c286e3c24b

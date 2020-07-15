@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMHeaderInfo.GetMarker
 title: IWMHeaderInfo::GetMarker (wmsdkidl.h)
-description: The GetMarker method returns the name and time of a marker.helpviewer_keywords: ["GetMarker","GetMarker method [windows Media Format]","GetMarker method [windows Media Format]","IWMHeaderInfo interface","GetMarker method [windows Media Format]","IWMHeaderInfo2 interface","GetMarker method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo interface [windows Media Format]","GetMarker method","IWMHeaderInfo.GetMarker","IWMHeaderInfo2 interface [windows Media Format]","GetMarker method","IWMHeaderInfo2::GetMarker","IWMHeaderInfo3 interface [windows Media Format]","GetMarker method","IWMHeaderInfo3::GetMarker","IWMHeaderInfo::GetMarker","IWMHeaderInfoGetMarker","wmformat.iwmheaderinfo_getmarker","wmsdkidl/IWMHeaderInfo2::GetMarker","wmsdkidl/IWMHeaderInfo3::GetMarker","wmsdkidl/IWMHeaderInfo::GetMarker"]
+description: The GetMarker method returns the name and time of a marker.
+helpviewer_keywords: ["GetMarker","GetMarker method [windows Media Format]","GetMarker method [windows Media Format]","IWMHeaderInfo interface","GetMarker method [windows Media Format]","IWMHeaderInfo2 interface","GetMarker method [windows Media Format]","IWMHeaderInfo3 interface","IWMHeaderInfo interface [windows Media Format]","GetMarker method","IWMHeaderInfo.GetMarker","IWMHeaderInfo2 interface [windows Media Format]","GetMarker method","IWMHeaderInfo2::GetMarker","IWMHeaderInfo3 interface [windows Media Format]","GetMarker method","IWMHeaderInfo3::GetMarker","IWMHeaderInfo::GetMarker","IWMHeaderInfoGetMarker","wmformat.iwmheaderinfo_getmarker","wmsdkidl/IWMHeaderInfo2::GetMarker","wmsdkidl/IWMHeaderInfo3::GetMarker","wmsdkidl/IWMHeaderInfo::GetMarker"]
 old-location: wmformat\iwmheaderinfo_getmarker.htm
 tech.root: wmformat
 ms.assetid: ae035991-86c8-4ffc-b819-5a5ce81a980f

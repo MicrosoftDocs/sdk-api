@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IFont.put_Italic
 title: IFont::put_Italic (ocidl.h)
-description: Sets the font's Italic property.helpviewer_keywords: ["IFont interface [COM]","put_Italic method","IFont.put_Italic","IFont::put_Italic","_ctrl_ifont_put_italic","com.ifont_put_italic","ocidl/IFont::put_Italic","put_Italic","put_Italic method [COM]","put_Italic method [COM]","IFont interface"]
+description: Sets the font's Italic property.
+helpviewer_keywords: ["IFont interface [COM]","put_Italic method","IFont.put_Italic","IFont::put_Italic","_ctrl_ifont_put_italic","com.ifont_put_italic","ocidl/IFont::put_Italic","put_Italic","put_Italic method [COM]","put_Italic method [COM]","IFont interface"]
 old-location: com\ifont_put_italic.htm
 tech.root: com
 ms.assetid: a59169e1-d3c4-4dc0-b228-afad0e4d4307

@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.Capture
 title: IMSVidVideoRenderer::Capture (segment.h)
-description: The Capture method captures the video frame that is currently being rendered by the Video Mixing Renderer (VMR).helpviewer_keywords: ["Capture","Capture method [Microsoft TV Technologies]","Capture method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","IMSVidVideoRenderer interface [Microsoft TV Technologies]","Capture method","IMSVidVideoRenderer.Capture","IMSVidVideoRenderer::Capture","IMSVidVideoRendererCapture","mstv.imsvidvideorenderer_capture","segment/IMSVidVideoRenderer::Capture"]
+description: The Capture method captures the video frame that is currently being rendered by the Video Mixing Renderer (VMR).
+helpviewer_keywords: ["Capture","Capture method [Microsoft TV Technologies]","Capture method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","IMSVidVideoRenderer interface [Microsoft TV Technologies]","Capture method","IMSVidVideoRenderer.Capture","IMSVidVideoRenderer::Capture","IMSVidVideoRendererCapture","mstv.imsvidvideorenderer_capture","segment/IMSVidVideoRenderer::Capture"]
 old-location: mstv\imsvidvideorenderer_capture.htm
 tech.root: mstv
 ms.assetid: 05287e53-a988-43cc-ac41-5024a217621a

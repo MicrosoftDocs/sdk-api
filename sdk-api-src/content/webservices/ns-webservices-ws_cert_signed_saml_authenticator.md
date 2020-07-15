@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_CERT_SIGNED_SAML_AUTHENTICATOR
 title: WS_CERT_SIGNED_SAML_AUTHENTICATOR (webservices.h)
-description: The type for specifying a SAML token authenticator based on an array of expected issuer certificates.helpviewer_keywords: ["WS_CERT_SIGNED_SAML_AUTHENTICATOR","WS_CERT_SIGNED_SAML_AUTHENTICATOR structure [Web Services for Windows]","webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR","wsw.ws_cert_signed_saml_authenticator"]
+description: The type for specifying a SAML token authenticator based on an array of expected issuer certificates.
+helpviewer_keywords: ["WS_CERT_SIGNED_SAML_AUTHENTICATOR","WS_CERT_SIGNED_SAML_AUTHENTICATOR structure [Web Services for Windows]","webservices/WS_CERT_SIGNED_SAML_AUTHENTICATOR","wsw.ws_cert_signed_saml_authenticator"]
 old-location: wsw\ws_cert_signed_saml_authenticator.htm
 tech.root: wsw
 ms.assetid: 228ba94f-6e99-4bbf-93be-19d0311985ee

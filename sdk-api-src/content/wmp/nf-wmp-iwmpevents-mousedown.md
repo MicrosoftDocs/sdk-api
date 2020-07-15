@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPEvents.MouseDown
 title: IWMPEvents::MouseDown (wmp.h)
-description: The MouseDown event occurs when a mouse button is pressed.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","MouseDown method","IWMPEvents.MouseDown","IWMPEvents::MouseDown","IWMPEventsMouseDown","MouseDown","MouseDown method [Windows Media Player]","MouseDown method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__mousedown","wmp/IWMPEvents::MouseDown"]
+description: The MouseDown event occurs when a mouse button is pressed.
+helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","MouseDown method","IWMPEvents.MouseDown","IWMPEvents::MouseDown","IWMPEventsMouseDown","MouseDown","MouseDown method [Windows Media Player]","MouseDown method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__mousedown","wmp/IWMPEvents::MouseDown"]
 old-location: wmp\iwmpevents_iwmpevents__mousedown.htm
 tech.root: WMP
 ms.assetid: 4fbf1fdf-3d15-4d43-b319-5c83712e7f2f

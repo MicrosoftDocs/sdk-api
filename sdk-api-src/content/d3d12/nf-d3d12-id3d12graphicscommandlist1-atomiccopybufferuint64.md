@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64
 title: ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64 (d3d12.h)
-description: Atomically copies a primary data element of type UINT64 from one resource to another, along with optional dependent resources.helpviewer_keywords: ["AtomicCopyBufferUINT64","AtomicCopyBufferUINT64 method","AtomicCopyBufferUINT64 method","ID3D12GraphicsCommandList1 interface","ID3D12GraphicsCommandList1 interface","AtomicCopyBufferUINT64 method","ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64","ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64","d3d12/ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64","direct3d12.id3d12graphicscommandlist1_atomiccopybufferuint64"]
+description: Atomically copies a primary data element of type UINT64 from one resource to another, along with optional dependent resources.
+helpviewer_keywords: ["AtomicCopyBufferUINT64","AtomicCopyBufferUINT64 method","AtomicCopyBufferUINT64 method","ID3D12GraphicsCommandList1 interface","ID3D12GraphicsCommandList1 interface","AtomicCopyBufferUINT64 method","ID3D12GraphicsCommandList1.AtomicCopyBufferUINT64","ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64","d3d12/ID3D12GraphicsCommandList1::AtomicCopyBufferUINT64","direct3d12.id3d12graphicscommandlist1_atomiccopybufferuint64"]
 old-location: direct3d12\id3d12graphicscommandlist1_atomiccopybufferuint64.htm
 tech.root: direct3d12
 ms.assetid: F83870E9-5256-4A3E-BAF7-05C4CCB28442

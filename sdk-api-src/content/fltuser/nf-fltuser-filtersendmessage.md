@@ -1,7 +1,8 @@
 ---
 UID: NF:fltuser.FilterSendMessage
 title: FilterSendMessage function (fltuser.h)
-description: The FilterSendMessage function sends a message to a kernel-mode minifilter.helpviewer_keywords: ["FilterSendMessage","FilterSendMessage function [Installable File System Drivers]","FltWin32ApiRef_7d1d856f-6ed8-4c55-8524-05d99ab7d626.xml","fltuser/FilterSendMessage","ifsk.filtersendmessage"]
+description: The FilterSendMessage function sends a message to a kernel-mode minifilter.
+helpviewer_keywords: ["FilterSendMessage","FilterSendMessage function [Installable File System Drivers]","FltWin32ApiRef_7d1d856f-6ed8-4c55-8524-05d99ab7d626.xml","fltuser/FilterSendMessage","ifsk.filtersendmessage"]
 old-location: ifsk\filtersendmessage.htm
 tech.root: ifsk
 ms.assetid: e0a5d790-280d-43ff-a170-14b28b3da02a

@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService.CacheOLEServer
 title: IBrowserService::CacheOLEServer (shdeprecated.h)
-description: Deprecated. Caches a reference to an external object to avoid reloading the server on reuse.helpviewer_keywords: ["CacheOLEServer","CacheOLEServer method [Windows Shell]","CacheOLEServer method [Windows Shell]","IBrowserService interface","IBrowserService interface [Windows Shell]","CacheOLEServer method","IBrowserService.CacheOLEServer","IBrowserService::CacheOLEServer","shdeprecated/IBrowserService::CacheOLEServer","shell.IBrowserService_CacheOLEServer","zone_IBrowserService_CacheOLEServer"]
+description: Deprecated. Caches a reference to an external object to avoid reloading the server on reuse.
+helpviewer_keywords: ["CacheOLEServer","CacheOLEServer method [Windows Shell]","CacheOLEServer method [Windows Shell]","IBrowserService interface","IBrowserService interface [Windows Shell]","CacheOLEServer method","IBrowserService.CacheOLEServer","IBrowserService::CacheOLEServer","shdeprecated/IBrowserService::CacheOLEServer","shell.IBrowserService_CacheOLEServer","zone_IBrowserService_CacheOLEServer"]
 old-location: shell\IBrowserService_CacheOLEServer.htm
 tech.root: shell
 ms.assetid: 8999e7d7-f29d-4fc8-8f1f-7a8e8b8f45e6

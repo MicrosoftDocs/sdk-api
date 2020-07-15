@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfKeystrokeMgr.KeyUp
 title: ITfKeystrokeMgr::KeyUp (msctf.h)
-description: ITfKeystrokeMgr::KeyUp methodhelpviewer_keywords: ["ITfKeystrokeMgr interface [Text Services Framework]","KeyUp method","ITfKeystrokeMgr.KeyUp","ITfKeystrokeMgr::KeyUp","KeyUp","KeyUp method [Text Services Framework]","KeyUp method [Text Services Framework]","ITfKeystrokeMgr interface","_tsf_itfkeystrokemgr_keyup_ref","msctf/ITfKeystrokeMgr::KeyUp","tsf.itfkeystrokemgr_keyup"]
+description: ITfKeystrokeMgr::KeyUp method
+helpviewer_keywords: ["ITfKeystrokeMgr interface [Text Services Framework]","KeyUp method","ITfKeystrokeMgr.KeyUp","ITfKeystrokeMgr::KeyUp","KeyUp","KeyUp method [Text Services Framework]","KeyUp method [Text Services Framework]","ITfKeystrokeMgr interface","_tsf_itfkeystrokemgr_keyup_ref","msctf/ITfKeystrokeMgr::KeyUp","tsf.itfkeystrokemgr_keyup"]
 old-location: tsf\itfkeystrokemgr_keyup.htm
 tech.root: TSF
 ms.assetid: 14415de3-f397-4866-b7d1-167c0931a80c

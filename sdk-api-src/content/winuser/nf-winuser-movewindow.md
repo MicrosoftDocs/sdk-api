@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.MoveWindow
 title: MoveWindow function (winuser.h)
-description: Changes the position and dimensions of the specified window.helpviewer_keywords: ["MoveWindow","MoveWindow function [Windows and Messages]","_win32_MoveWindow","_win32_movewindow_cpp","winmsg.movewindow","winui._win32_movewindow","winuser/MoveWindow"]
+description: Changes the position and dimensions of the specified window.
+helpviewer_keywords: ["MoveWindow","MoveWindow function [Windows and Messages]","_win32_MoveWindow","_win32_movewindow_cpp","winmsg.movewindow","winui._win32_movewindow","winuser/MoveWindow"]
 old-location: winmsg\movewindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\movewindow.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:evntrace._CLASSIC_EVENT_ID
 title: CLASSIC_EVENT_ID (evntrace.h)
-description: Identifies the kernel event for which you want to enable call stack tracing.helpviewer_keywords: ["*PCLASSIC_EVENT_ID","CLASSIC_EVENT_ID","CLASSIC_EVENT_ID structure [ETW]","PCLASSIC_EVENT_ID","PCLASSIC_EVENT_ID structure pointer [ETW]","_CLASSIC_EVENT_ID","etw.classic_event_id","evntrace/CLASSIC_EVENT_ID","evntrace/PCLASSIC_EVENT_ID"]
+description: Identifies the kernel event for which you want to enable call stack tracing.
+helpviewer_keywords: ["*PCLASSIC_EVENT_ID","CLASSIC_EVENT_ID","CLASSIC_EVENT_ID structure [ETW]","PCLASSIC_EVENT_ID","PCLASSIC_EVENT_ID structure pointer [ETW]","_CLASSIC_EVENT_ID","etw.classic_event_id","evntrace/CLASSIC_EVENT_ID","evntrace/PCLASSIC_EVENT_ID"]
 old-location: etw\classic_event_id.htm
 tech.root: ETW
 ms.assetid: cbd77002-466b-40e6-85a5-cd872aef7d51

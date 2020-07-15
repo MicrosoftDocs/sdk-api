@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsIscsiPortalGroup.GetProperties
 title: IVdsIscsiPortalGroup::GetProperties (vds.h)
-description: Returns the properties of a portal group.helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","GetProperties method","IVdsIscsiPortalGroup.GetProperties","IVdsIscsiPortalGroup::GetProperties","base.ivdsiscsiportalgroup_getproperties","vds/IVdsIscsiPortalGroup::GetProperties","vdshwprv/IVdsIscsiPortalGroup::GetProperties"]
+description: Returns the properties of a portal group.
+helpviewer_keywords: ["GetProperties","GetProperties method [VDS]","GetProperties method [VDS]","IVdsIscsiPortalGroup interface","IVdsIscsiPortalGroup interface [VDS]","GetProperties method","IVdsIscsiPortalGroup.GetProperties","IVdsIscsiPortalGroup::GetProperties","base.ivdsiscsiportalgroup_getproperties","vds/IVdsIscsiPortalGroup::GetProperties","vdshwprv/IVdsIscsiPortalGroup::GetProperties"]
 old-location: base\ivdsiscsiportalgroup_getproperties.htm
 tech.root: VDS
 ms.assetid: 7257101e-04a5-41d5-b4fa-401106610dcf

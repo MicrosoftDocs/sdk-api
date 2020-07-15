@@ -1,7 +1,8 @@
 ---
 UID: NF:pathcch.PathIsUNCEx
 title: PathIsUNCEx function (pathcch.h)
-description: Determines if a path string is a valid Universal Naming Convention (UNC) path, as opposed to a path based on a drive letter.This function differs from PathIsUNC in that it also allows you to extract the name of the server from the path.helpviewer_keywords: ["PathIsUNCEx","PathIsUNCEx function [Windows Shell]","pathcch/PathIsUNCEx","shell.PathIsUNCEx"]
+description: Determines if a path string is a valid Universal Naming Convention (UNC) path, as opposed to a path based on a drive letter.This function differs from PathIsUNC in that it also allows you to extract the name of the server from the path.
+helpviewer_keywords: ["PathIsUNCEx","PathIsUNCEx function [Windows Shell]","pathcch/PathIsUNCEx","shell.PathIsUNCEx"]
 old-location: shell\PathIsUNCEx.htm
 tech.root: shell
 ms.assetid: 3b2a4158-63ec-49eb-a031-7493d02f2caa

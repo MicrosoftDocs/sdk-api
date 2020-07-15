@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcBindingVectorFree
 title: RpcBindingVectorFree function (rpcdce.h)
-description: The RpcBindingVectorFree function frees the binding handles contained in the vector and the vector itself.helpviewer_keywords: ["RpcBindingVectorFree","RpcBindingVectorFree function [RPC]","_rpc_rpcbindingvectorfree","rpc.rpcbindingvectorfree","rpcdce/RpcBindingVectorFree"]
+description: The RpcBindingVectorFree function frees the binding handles contained in the vector and the vector itself.
+helpviewer_keywords: ["RpcBindingVectorFree","RpcBindingVectorFree function [RPC]","_rpc_rpcbindingvectorfree","rpc.rpcbindingvectorfree","rpcdce/RpcBindingVectorFree"]
 old-location: rpc\rpcbindingvectorfree.htm
 tech.root: Rpc
 ms.assetid: a8af56ae-bacc-497d-b65e-c0a56f3b09de

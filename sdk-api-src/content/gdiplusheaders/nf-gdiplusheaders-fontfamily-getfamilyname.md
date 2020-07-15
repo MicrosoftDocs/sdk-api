@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.GetFamilyName
 title: FontFamily::GetFamilyName (gdiplusheaders.h)
-description: The FontFamily::GetFamilyName method gets the name of this font family.helpviewer_keywords: ["FontFamily class [GDI+]","GetFamilyName method","FontFamily.GetFamilyName","FontFamily::GetFamilyName","GetFamilyName","GetFamilyName method [GDI+]","GetFamilyName method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GetFamilyName_name_language_","gdiplus._gdiplus_CLASS_FontFamily_GetFamilyName_name_language_"]
+description: The FontFamily::GetFamilyName method gets the name of this font family.
+helpviewer_keywords: ["FontFamily class [GDI+]","GetFamilyName method","FontFamily.GetFamilyName","FontFamily::GetFamilyName","GetFamilyName","GetFamilyName method [GDI+]","GetFamilyName method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_GetFamilyName_name_language_","gdiplus._gdiplus_CLASS_FontFamily_GetFamilyName_name_language_"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_GetFamilyName_name_language_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\getfamilyname.htm

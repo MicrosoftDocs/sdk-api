@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_UPDATENONLOCALHEAPDATA
 title: DD_UPDATENONLOCALHEAPDATA (ddrawint.h)
-description: The DD_UPDATENONLOCALHEAPDATA structure contains the required heap information.helpviewer_keywords: ["*PDD_UPDATENONLOCALHEAPDATA","DD_UPDATENONLOCALHEAPDATA","DD_UPDATENONLOCALHEAPDATA structure [Display Devices]","ddrawint/DD_UPDATENONLOCALHEAPDATA","ddstrcts_e53429c7-6fc5-4528-ab0e-c9768fdf75ae.xml","display.dd_updatenonlocalheapdata"]
+description: The DD_UPDATENONLOCALHEAPDATA structure contains the required heap information.
+helpviewer_keywords: ["*PDD_UPDATENONLOCALHEAPDATA","DD_UPDATENONLOCALHEAPDATA","DD_UPDATENONLOCALHEAPDATA structure [Display Devices]","ddrawint/DD_UPDATENONLOCALHEAPDATA","ddstrcts_e53429c7-6fc5-4528-ab0e-c9768fdf75ae.xml","display.dd_updatenonlocalheapdata"]
 old-location: display\dd_updatenonlocalheapdata.htm
 tech.root: display
 ms.assetid: ef16df6f-dbc6-40ee-9c86-be9c3d132b28

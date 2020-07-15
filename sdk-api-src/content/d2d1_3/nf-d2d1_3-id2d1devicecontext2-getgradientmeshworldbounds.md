@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_3.ID2D1DeviceContext2.GetGradientMeshWorldBounds
 title: ID2D1DeviceContext2::GetGradientMeshWorldBounds (d2d1_3.h)
-description: Returns the world bounds of a given gradient mesh.helpviewer_keywords: ["GetGradientMeshWorldBounds","GetGradientMeshWorldBounds method [Direct2D]","GetGradientMeshWorldBounds method [Direct2D]","ID2D1DeviceContext2 interface","ID2D1DeviceContext2 interface [Direct2D]","GetGradientMeshWorldBounds method","ID2D1DeviceContext2.GetGradientMeshWorldBounds","ID2D1DeviceContext2::GetGradientMeshWorldBounds","d2d1_3/ID2D1DeviceContext2::GetGradientMeshWorldBounds","direct2d.id2d1devicecontext2_getgradientmeshworldbounds"]
+description: Returns the world bounds of a given gradient mesh.
+helpviewer_keywords: ["GetGradientMeshWorldBounds","GetGradientMeshWorldBounds method [Direct2D]","GetGradientMeshWorldBounds method [Direct2D]","ID2D1DeviceContext2 interface","ID2D1DeviceContext2 interface [Direct2D]","GetGradientMeshWorldBounds method","ID2D1DeviceContext2.GetGradientMeshWorldBounds","ID2D1DeviceContext2::GetGradientMeshWorldBounds","d2d1_3/ID2D1DeviceContext2::GetGradientMeshWorldBounds","direct2d.id2d1devicecontext2_getgradientmeshworldbounds"]
 old-location: direct2d\id2d1devicecontext2_getgradientmeshworldbounds.htm
 tech.root: Direct2D
 ms.assetid: 809d851c-a3e0-7609-95e0-637e25cdaa06

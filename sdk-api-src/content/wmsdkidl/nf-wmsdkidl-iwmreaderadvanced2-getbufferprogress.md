@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderAdvanced2.GetBufferProgress
 title: IWMReaderAdvanced2::GetBufferProgress (wmsdkidl.h)
-description: The GetBufferProgress method retrieves the percentage of data that has been buffered, and the time remaining to completion.helpviewer_keywords: ["GetBufferProgress","GetBufferProgress method [windows Media Format]","GetBufferProgress method [windows Media Format]","IWMReaderAdvanced2 interface","IWMReaderAdvanced2 interface [windows Media Format]","GetBufferProgress method","IWMReaderAdvanced2.GetBufferProgress","IWMReaderAdvanced2::GetBufferProgress","IWMReaderAdvanced2GetBufferProgress","wmformat.iwmreaderadvanced2_getbufferprogress","wmsdkidl/IWMReaderAdvanced2::GetBufferProgress"]
+description: The GetBufferProgress method retrieves the percentage of data that has been buffered, and the time remaining to completion.
+helpviewer_keywords: ["GetBufferProgress","GetBufferProgress method [windows Media Format]","GetBufferProgress method [windows Media Format]","IWMReaderAdvanced2 interface","IWMReaderAdvanced2 interface [windows Media Format]","GetBufferProgress method","IWMReaderAdvanced2.GetBufferProgress","IWMReaderAdvanced2::GetBufferProgress","IWMReaderAdvanced2GetBufferProgress","wmformat.iwmreaderadvanced2_getbufferprogress","wmsdkidl/IWMReaderAdvanced2::GetBufferProgress"]
 old-location: wmformat\iwmreaderadvanced2_getbufferprogress.htm
 tech.root: wmformat
 ms.assetid: e0419f53-9962-4d81-9153-0538c60861eb

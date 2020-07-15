@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IProfferService.RevokeService
 title: IProfferService::RevokeService (shobjidl_core.h)
-description: Makes a service unavailable that had previously been available to other objects through IProfferService::ProfferService.helpviewer_keywords: ["IProfferService interface [Windows Shell]","RevokeService method","IProfferService.RevokeService","IProfferService::RevokeService","RevokeService","RevokeService method [Windows Shell]","RevokeService method [Windows Shell]","IProfferService interface","inet_IProfferService_RevokeService","shell.IProfferService_RevokeService","shobjidl_core/IProfferService::RevokeService"]
+description: Makes a service unavailable that had previously been available to other objects through IProfferService::ProfferService.
+helpviewer_keywords: ["IProfferService interface [Windows Shell]","RevokeService method","IProfferService.RevokeService","IProfferService::RevokeService","RevokeService","RevokeService method [Windows Shell]","RevokeService method [Windows Shell]","IProfferService interface","inet_IProfferService_RevokeService","shell.IProfferService_RevokeService","shobjidl_core/IProfferService::RevokeService"]
 old-location: shell\IProfferService_RevokeService.htm
 tech.root: shell
 ms.assetid: 90868bbb-6fcd-4de1-a853-524542b74701

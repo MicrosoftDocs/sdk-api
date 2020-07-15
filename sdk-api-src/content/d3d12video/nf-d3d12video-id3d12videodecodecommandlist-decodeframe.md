@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12video.ID3D12VideoDecodeCommandList.DecodeFrame
 title: ID3D12VideoDecodeCommandList::DecodeFrame
-description: Records a decode frame operation to the command list.helpviewer_keywords: ["ID3D12VideoDecodeCommandList::DecodeFrame","DecodeFrame","ID3D12VideoDecodeCommandList.DecodeFrame","ID3D12VideoDecodeCommandList::DecodeFrame","ID3D12VideoDecodeCommandList.DecodeFrame"]
+description: Records a decode frame operation to the command list.
+helpviewer_keywords: ["ID3D12VideoDecodeCommandList::DecodeFrame","DecodeFrame","ID3D12VideoDecodeCommandList.DecodeFrame","ID3D12VideoDecodeCommandList::DecodeFrame","ID3D12VideoDecodeCommandList.DecodeFrame"]
 tech.root: mf
 ms.assetid: c3d8c964-b411-440a-bc79-b3abbf32b40f
 ms.date: 05/28/2019

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbCAContractInformationDescriptor.GetCountOfRecords
 title: IIsdbCAContractInformationDescriptor::GetCountOfRecords (dvbsiparser.h)
-description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IIsdbCAContractInformationDescriptor interface","IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IIsdbCAContractInformationDescriptor.GetCountOfRecords","IIsdbCAContractInformationDescriptor::GetCountOfRecords","dvbsiparser/IIsdbCAContractInformationDescriptor::GetCountOfRecords","mstv.iisdbcacontractinformationdescriptor_getcountofrecords"]
+description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) conditional access (CA) contract information descriptor.
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IIsdbCAContractInformationDescriptor interface","IIsdbCAContractInformationDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IIsdbCAContractInformationDescriptor.GetCountOfRecords","IIsdbCAContractInformationDescriptor::GetCountOfRecords","dvbsiparser/IIsdbCAContractInformationDescriptor::GetCountOfRecords","mstv.iisdbcacontractinformationdescriptor_getcountofrecords"]
 old-location: mstv\iisdbcacontractinformationdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 00df3bb9-494b-4e2c-b836-4893fd6eff8c

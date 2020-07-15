@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMGPO.GetWMIFilter
 title: IGPMGPO::GetWMIFilter (gpmgmt.h)
-description: Retrieves the GPMWMIFilter object linked to the Group Policy object (GPO).helpviewer_keywords: ["GPMGPO class [GPMC]","GetWMIFilter method","GetWMIFilter","GetWMIFilter method [GPMC]","GetWMIFilter method [GPMC]","GPMGPO class","GetWMIFilter method [GPMC]","IGPMGPO interface","IGPMGPO interface [GPMC]","GetWMIFilter method","IGPMGPO.GetWMIFilter","IGPMGPO::GetWMIFilter","_win32_igpmgpo_getwmifilter","gpmc.igpmgpo_getwmifilter","gpmgmt/IGPMGPO::GetWMIFilter"]
+description: Retrieves the GPMWMIFilter object linked to the Group Policy object (GPO).
+helpviewer_keywords: ["GPMGPO class [GPMC]","GetWMIFilter method","GetWMIFilter","GetWMIFilter method [GPMC]","GetWMIFilter method [GPMC]","GPMGPO class","GetWMIFilter method [GPMC]","IGPMGPO interface","IGPMGPO interface [GPMC]","GetWMIFilter method","IGPMGPO.GetWMIFilter","IGPMGPO::GetWMIFilter","_win32_igpmgpo_getwmifilter","gpmc.igpmgpo_getwmifilter","gpmgmt/IGPMGPO::GetWMIFilter"]
 old-location: gpmc\igpmgpo_getwmifilter.htm
 tech.root: gpmc
 ms.assetid: eca1dffb-1e92-42a1-b950-c6c6c88bd064

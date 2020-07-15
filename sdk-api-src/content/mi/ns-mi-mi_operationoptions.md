@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_OperationOptions
 title: MI_OperationOptions (mi.h)
-description: Represents a set of operation options.helpviewer_keywords: ["MI_OperationOptions","MI_OperationOptions structure [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions","wmi_v2.mi_operationoptions"]
+description: Represents a set of operation options.
+helpviewer_keywords: ["MI_OperationOptions","MI_OperationOptions structure [Windows Management Infrastructure (MI)]","mi/MI_OperationOptions","wmi_v2.mi_operationoptions"]
 old-location: wmi_v2\mi_operationoptions.htm
 tech.root: wmi_v2
 ms.assetid: 60445a53-c40c-4d0a-9650-21d0c7f3bbf6

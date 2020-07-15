@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1BorderTransform.GetExtendModeY
 title: ID2D1BorderTransform::GetExtendModeY (d2d1effectauthor.h)
-description: Gets the extend mode in the y direction.helpviewer_keywords: ["GetExtendModeY","GetExtendModeY method [Direct2D]","GetExtendModeY method [Direct2D]","ID2D1BorderTransform interface","ID2D1BorderTransform interface [Direct2D]","GetExtendModeY method","ID2D1BorderTransform.GetExtendModeY","ID2D1BorderTransform::GetExtendModeY","d2d1effectauthor/ID2D1BorderTransform::GetExtendModeY","direct2d.id2d1bordertransform_getextendmodey"]
+description: Gets the extend mode in the y direction.
+helpviewer_keywords: ["GetExtendModeY","GetExtendModeY method [Direct2D]","GetExtendModeY method [Direct2D]","ID2D1BorderTransform interface","ID2D1BorderTransform interface [Direct2D]","GetExtendModeY method","ID2D1BorderTransform.GetExtendModeY","ID2D1BorderTransform::GetExtendModeY","d2d1effectauthor/ID2D1BorderTransform::GetExtendModeY","direct2d.id2d1bordertransform_getextendmodey"]
 old-location: direct2d\id2d1bordertransform_getextendmodey.htm
 tech.root: Direct2D
 ms.assetid: 5B63E761-D22A-4789-A9DE-44DD8DC80E8D

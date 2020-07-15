@@ -1,7 +1,8 @@
 ---
 UID: NF:peerdist.PeerDistServerCloseStreamHandle
 title: PeerDistServerCloseStreamHandle function (peerdist.h)
-description: PeerDistServerCloseStreamHandle function closes a handle returned by PeerDistServerPublishStream.helpviewer_keywords: ["PeerDistServerCloseStreamHandle","PeerDistServerCloseStreamHandle function [Peer Networking]","p2p.peerdistserverclosestreamhandle","peerdist/PeerDistServerCloseStreamHandle"]
+description: PeerDistServerCloseStreamHandle function closes a handle returned by PeerDistServerPublishStream.
+helpviewer_keywords: ["PeerDistServerCloseStreamHandle","PeerDistServerCloseStreamHandle function [Peer Networking]","p2p.peerdistserverclosestreamhandle","peerdist/PeerDistServerCloseStreamHandle"]
 old-location: p2p\peerdistserverclosestreamhandle.htm
 tech.root: P2PSdk
 ms.assetid: 599b4694-3d03-4d25-9d02-313599aaaf0b

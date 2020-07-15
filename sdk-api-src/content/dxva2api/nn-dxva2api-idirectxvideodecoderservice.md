@@ -1,7 +1,8 @@
 ---
 UID: NN:dxva2api.IDirectXVideoDecoderService
 title: IDirectXVideoDecoderService (dxva2api.h)
-description: Provides access to DirectX Video Acceleration (DXVA) decoder services.helpviewer_keywords: ["IDirectXVideoDecoderService","IDirectXVideoDecoderService interface [Media Foundation]","IDirectXVideoDecoderService interface [Media Foundation]","described","dxva2api/IDirectXVideoDecoderService","eeb62178-b54d-45d3-a584-75865f0662fa","mf.idirectxvideodecoderservice"]
+description: Provides access to DirectX Video Acceleration (DXVA) decoder services.
+helpviewer_keywords: ["IDirectXVideoDecoderService","IDirectXVideoDecoderService interface [Media Foundation]","IDirectXVideoDecoderService interface [Media Foundation]","described","dxva2api/IDirectXVideoDecoderService","eeb62178-b54d-45d3-a584-75865f0662fa","mf.idirectxvideodecoderservice"]
 old-location: mf\idirectxvideodecoderservice.htm
 tech.root: medfound
 ms.assetid: eeb62178-b54d-45d3-a584-75865f0662fa

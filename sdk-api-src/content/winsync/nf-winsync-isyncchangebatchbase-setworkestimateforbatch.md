@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncChangeBatchBase.SetWorkEstimateForBatch
 title: ISyncChangeBatchBase::SetWorkEstimateForBatch (winsync.h)
-description: Sets the work estimate for the batch.helpviewer_keywords: ["ISyncChangeBatchBase interface [Windows Sync]","SetWorkEstimateForBatch method","ISyncChangeBatchBase.SetWorkEstimateForBatch","ISyncChangeBatchBase::SetWorkEstimateForBatch","SetWorkEstimateForBatch","SetWorkEstimateForBatch method [Windows Sync]","SetWorkEstimateForBatch method [Windows Sync]","ISyncChangeBatchBase interface","winsync.isyncchangebatchbase_setworkestimateforbatch","winsync/ISyncChangeBatchBase::SetWorkEstimateForBatch"]
+description: Sets the work estimate for the batch.
+helpviewer_keywords: ["ISyncChangeBatchBase interface [Windows Sync]","SetWorkEstimateForBatch method","ISyncChangeBatchBase.SetWorkEstimateForBatch","ISyncChangeBatchBase::SetWorkEstimateForBatch","SetWorkEstimateForBatch","SetWorkEstimateForBatch method [Windows Sync]","SetWorkEstimateForBatch method [Windows Sync]","ISyncChangeBatchBase interface","winsync.isyncchangebatchbase_setworkestimateforbatch","winsync/ISyncChangeBatchBase::SetWorkEstimateForBatch"]
 old-location: winsync\isyncchangebatchbase_setworkestimateforbatch.htm
 tech.root: winsync
 ms.assetid: da88dd49-4b11-444c-8137-212f8c673122

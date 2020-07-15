@@ -1,7 +1,8 @@
 ---
 UID: NF:audioclient.ISimpleAudioVolume.GetMute
 title: ISimpleAudioVolume::GetMute (audioclient.h)
-description: The GetMute method retrieves the current muting state for the audio session.helpviewer_keywords: ["GetMute","GetMute method [Core Audio]","GetMute method [Core Audio]","ISimpleAudioVolume interface","ISimpleAudioVolume interface [Core Audio]","GetMute method","ISimpleAudioVolume.GetMute","ISimpleAudioVolume::GetMute","ISimpleAudioVolumeGetMute","audioclient/ISimpleAudioVolume::GetMute","coreaudio.isimpleaudiovolume_getmute"]
+description: The GetMute method retrieves the current muting state for the audio session.
+helpviewer_keywords: ["GetMute","GetMute method [Core Audio]","GetMute method [Core Audio]","ISimpleAudioVolume interface","ISimpleAudioVolume interface [Core Audio]","GetMute method","ISimpleAudioVolume.GetMute","ISimpleAudioVolume::GetMute","ISimpleAudioVolumeGetMute","audioclient/ISimpleAudioVolume::GetMute","coreaudio.isimpleaudiovolume_getmute"]
 old-location: coreaudio\isimpleaudiovolume_getmute.htm
 tech.root: CoreAudio
 ms.assetid: 35890423-2aac-473b-a820-ba7cb1b5e05e

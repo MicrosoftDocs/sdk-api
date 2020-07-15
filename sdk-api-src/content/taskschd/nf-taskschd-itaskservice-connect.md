@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskService.Connect
 title: ITaskService::Connect (taskschd.h)
-description: Connects to a remote computer and associates all subsequent calls on this interface with a remote session.helpviewer_keywords: ["Connect","Connect method [Task Scheduler]","Connect method [Task Scheduler]","ITaskService interface","ITaskService interface [Task Scheduler]","Connect method","ITaskService.Connect","ITaskService::Connect","taskschd.itaskservice_connect","taskschd/ITaskService::Connect"]
+description: Connects to a remote computer and associates all subsequent calls on this interface with a remote session.
+helpviewer_keywords: ["Connect","Connect method [Task Scheduler]","Connect method [Task Scheduler]","ITaskService interface","ITaskService interface [Task Scheduler]","Connect method","ITaskService.Connect","ITaskService::Connect","taskschd.itaskservice_connect","taskschd/ITaskService::Connect"]
 old-location: taskschd\itaskservice_connect.htm
 tech.root: taskschd
 ms.assetid: ba810bac-e587-4eb8-871c-449b4174ab46

@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrDcomAsyncClientCall
 title: NdrDcomAsyncClientCall function (rpcndr.h)
-description: NdrDcomAsyncClientCall may be altered or unavailable.helpviewer_keywords: ["NdrDcomAsyncClientCall","NdrDcomAsyncClientCall function [RPC]","rpc.ndrdcomasyncclientcall","rpcndr/NdrDcomAsyncClientCall"]
+description: NdrDcomAsyncClientCall may be altered or unavailable.
+helpviewer_keywords: ["NdrDcomAsyncClientCall","NdrDcomAsyncClientCall function [RPC]","rpc.ndrdcomasyncclientcall","rpcndr/NdrDcomAsyncClientCall"]
 old-location: rpc\ndrdcomasyncclientcall.htm
 tech.root: Rpc
 ms.assetid: 726ACE34-E1C9-4769-81ED-90D78A26C70A

@@ -53,7 +53,8 @@ The process information is represented by a <a href="/windows/win32/api/processt
 
 ### -field ProcessInPrivateInfo
 
-The process information is ignored. 
+If a process is set to **ProcessInPrivate** mode, and a trace session has set the [EVENT_ENABLE_PROPERTY_EXCLUDE_INPRIVATE](/windows/win32/api/evntrace/ns-evntrace-enable_trace_parameters) flag, then the trace session will drop all events from that process.
+
 
 ### -field ProcessPowerThrottling
 

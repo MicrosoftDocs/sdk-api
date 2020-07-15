@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.GetIpInterfaceEntry
 title: GetIpInterfaceEntry function (netioapi.h)
-description: Retrieves IP information for the specified interface on the local computer.helpviewer_keywords: ["GetIpInterfaceEntry","GetIpInterfaceEntry function [IP Helper]","iphlp.getipinterfaceentry","netioapi/GetIpInterfaceEntry"]
+description: Retrieves IP information for the specified interface on the local computer.
+helpviewer_keywords: ["GetIpInterfaceEntry","GetIpInterfaceEntry function [IP Helper]","iphlp.getipinterfaceentry","netioapi/GetIpInterfaceEntry"]
 old-location: iphlp\getipinterfaceentry.htm
 tech.root: IpHlp
 ms.assetid: 604e33fd-ab12-4861-a083-544045f46ef4

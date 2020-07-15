@@ -1,7 +1,8 @@
 ---
 UID: NF:imm.ImmSetOpenStatus
 title: ImmSetOpenStatus function (imm.h)
-description: Opens or closes the IME.helpviewer_keywords: ["ImmSetOpenStatus","ImmSetOpenStatus function [Internationalization for Windows Applications]","_win32_ImmSetOpenStatus","imm/ImmSetOpenStatus","intl.immsetopenstatus"]
+description: Opens or closes the IME.
+helpviewer_keywords: ["ImmSetOpenStatus","ImmSetOpenStatus function [Internationalization for Windows Applications]","_win32_ImmSetOpenStatus","imm/ImmSetOpenStatus","intl.immsetopenstatus"]
 old-location: intl\immsetopenstatus.htm
 tech.root: Intl
 ms.assetid: 4c6dfc40-56d3-41bb-8094-1f30dbb27cf5

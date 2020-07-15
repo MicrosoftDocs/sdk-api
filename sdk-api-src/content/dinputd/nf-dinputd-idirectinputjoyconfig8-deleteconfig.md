@@ -1,7 +1,8 @@
 ---
 UID: NF:dinputd.IDirectInputJoyConfig8.DeleteConfig
 title: IDirectInputJoyConfig8::DeleteConfig (dinputd.h)
-description: The IDirectInputJoyConfig8::DeleteConfig method deletes configuration information about a joystick.helpviewer_keywords: ["DeleteConfig","DeleteConfig method [Human Input Devices]","DeleteConfig method [Human Input Devices]","IDirectInputJoyConfig8 interface","IDirectInputJoyConfig8 interface [Human Input Devices]","DeleteConfig method","IDirectInputJoyConfig8.DeleteConfig","IDirectInputJoyConfig8::DeleteConfig","di_ref_453b121d-6edc-4674-ab3c-f610ba900831.xml","dinputd/IDirectInputJoyConfig8::DeleteConfig","hid.idirectinputjoyconfig8_deleteconfig"]
+description: The IDirectInputJoyConfig8::DeleteConfig method deletes configuration information about a joystick.
+helpviewer_keywords: ["DeleteConfig","DeleteConfig method [Human Input Devices]","DeleteConfig method [Human Input Devices]","IDirectInputJoyConfig8 interface","IDirectInputJoyConfig8 interface [Human Input Devices]","DeleteConfig method","IDirectInputJoyConfig8.DeleteConfig","IDirectInputJoyConfig8::DeleteConfig","di_ref_453b121d-6edc-4674-ab3c-f610ba900831.xml","dinputd/IDirectInputJoyConfig8::DeleteConfig","hid.idirectinputjoyconfig8_deleteconfig"]
 old-location: hid\idirectinputjoyconfig8_deleteconfig.htm
 tech.root: hid
 ms.assetid: f589e5f4-e003-4a42-b7e6-10b5b14d1aa6

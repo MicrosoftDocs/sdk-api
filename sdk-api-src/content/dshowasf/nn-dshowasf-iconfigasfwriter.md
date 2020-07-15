@@ -1,7 +1,8 @@
 ---
 UID: NN:dshowasf.IConfigAsfWriter
 title: IConfigAsfWriter (dshowasf.h)
-description: The IConfigAsfWriter interface configures the WM ASF Writer filter.helpviewer_keywords: ["IConfigAsfWriter","IConfigAsfWriter interface [DirectShow]","IConfigAsfWriter interface [DirectShow]","described","IConfigAsfWriterInterface","dshow.iconfigasfwriter","dshowasf/IConfigAsfWriter"]
+description: The IConfigAsfWriter interface configures the WM ASF Writer filter.
+helpviewer_keywords: ["IConfigAsfWriter","IConfigAsfWriter interface [DirectShow]","IConfigAsfWriter interface [DirectShow]","described","IConfigAsfWriterInterface","dshow.iconfigasfwriter","dshowasf/IConfigAsfWriter"]
 old-location: dshow\iconfigasfwriter.htm
 tech.root: DirectShow
 ms.assetid: 50fd7825-4844-4a7f-b949-4abfff5ef30f

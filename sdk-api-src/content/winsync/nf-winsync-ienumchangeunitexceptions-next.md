@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IEnumChangeUnitExceptions.Next
 title: IEnumChangeUnitExceptions::Next (winsync.h)
-description: Returns the next elements in the change unit exception set, if they are available.helpviewer_keywords: ["IEnumChangeUnitExceptions interface [Windows Sync]","Next method","IEnumChangeUnitExceptions.Next","IEnumChangeUnitExceptions::Next","Next","Next method [Windows Sync]","Next method [Windows Sync]","IEnumChangeUnitExceptions interface","winsync.ienumchangeunitexceptions_next","winsync/IEnumChangeUnitExceptions::Next"]
+description: Returns the next elements in the change unit exception set, if they are available.
+helpviewer_keywords: ["IEnumChangeUnitExceptions interface [Windows Sync]","Next method","IEnumChangeUnitExceptions.Next","IEnumChangeUnitExceptions::Next","Next","Next method [Windows Sync]","Next method [Windows Sync]","IEnumChangeUnitExceptions interface","winsync.ienumchangeunitexceptions_next","winsync/IEnumChangeUnitExceptions::Next"]
 old-location: winsync\ienumchangeunitexceptions_next.htm
 tech.root: winsync
 ms.assetid: 97bf473d-4e63-4192-a5d8-b802d5887a55

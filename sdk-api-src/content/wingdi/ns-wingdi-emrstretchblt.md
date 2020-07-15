@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMRSTRETCHBLT
 title: EMRSTRETCHBLT (wingdi.h)
-description: The EMRSTRETCHBLT structure contains members for the StretchBlt enhanced metafile record. Note that graphics device interface (GDI) converts the device-dependent bitmap into a device-independent bitmap (DIB) before storing it in the metafile record.helpviewer_keywords: ["*PEMRSTRETCHBLT","EMRSTRETCHBLT","EMRSTRETCHBLT structure [Windows GDI]","PEMRSTRETCHBLT","PEMRSTRETCHBLT structure pointer [Windows GDI]","_win32_EMRSTRETCHBLT_str","gdi.emrstretchblt","wingdi/EMRSTRETCHBLT","wingdi/PEMRSTRETCHBLT"]
+description: The EMRSTRETCHBLT structure contains members for the StretchBlt enhanced metafile record. Note that graphics device interface (GDI) converts the device-dependent bitmap into a device-independent bitmap (DIB) before storing it in the metafile record.
+helpviewer_keywords: ["*PEMRSTRETCHBLT","EMRSTRETCHBLT","EMRSTRETCHBLT structure [Windows GDI]","PEMRSTRETCHBLT","PEMRSTRETCHBLT structure pointer [Windows GDI]","_win32_EMRSTRETCHBLT_str","gdi.emrstretchblt","wingdi/EMRSTRETCHBLT","wingdi/PEMRSTRETCHBLT"]
 old-location: gdi\emrstretchblt.htm
 tech.root: gdi
 ms.assetid: 957b09d2-a706-4045-affb-fd530cd4fa3a

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArrayAllocDescriptor
 title: SafeArrayAllocDescriptor function (oleauto.h)
-description: Allocates memory for a safe array descriptor.helpviewer_keywords: ["SafeArrayAllocDescriptor","SafeArrayAllocDescriptor function [Automation]","_oa96_SafeArrayAllocDescriptor","automat.safearrayallocdescriptor","oleauto/SafeArrayAllocDescriptor"]
+description: Allocates memory for a safe array descriptor.
+helpviewer_keywords: ["SafeArrayAllocDescriptor","SafeArrayAllocDescriptor function [Automation]","_oa96_SafeArrayAllocDescriptor","automat.safearrayallocdescriptor","oleauto/SafeArrayAllocDescriptor"]
 old-location: automat\safearrayallocdescriptor.htm
 tech.root: automat
 ms.assetid: 8fe5c802-cdc0-4e7a-9410-ba65f9a5140e

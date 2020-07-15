@@ -1,7 +1,8 @@
 ---
 UID: NS:sspi._SecPkgContext_KeyInfoA
 title: SecPkgContext_KeyInfoA (sspi.h)
-description: The SecPkgContext_KeyInfo structure contains information about the session keys used in a security context.helpviewer_keywords: ["*PSecPkgContext_KeyInfoA","PSecPkgContext_KeyInfo","PSecPkgContext_KeyInfo structure pointer [Security]","SecPkgContext_KeyInfo","SecPkgContext_KeyInfo structure [Security]","SecPkgContext_KeyInfoA","SecPkgContext_KeyInfoW","_ssp_secpkgcontext_keyinfo","security.secpkgcontext_keyinfo","sspi/PSecPkgContext_KeyInfo","sspi/SecPkgContext_KeyInfo","sspi/SecPkgContext_KeyInfoA","sspi/SecPkgContext_KeyInfoW"]
+description: The SecPkgContext_KeyInfo structure contains information about the session keys used in a security context.
+helpviewer_keywords: ["*PSecPkgContext_KeyInfoA","PSecPkgContext_KeyInfo","PSecPkgContext_KeyInfo structure pointer [Security]","SecPkgContext_KeyInfo","SecPkgContext_KeyInfo structure [Security]","SecPkgContext_KeyInfoA","SecPkgContext_KeyInfoW","_ssp_secpkgcontext_keyinfo","security.secpkgcontext_keyinfo","sspi/PSecPkgContext_KeyInfo","sspi/SecPkgContext_KeyInfo","sspi/SecPkgContext_KeyInfoA","sspi/SecPkgContext_KeyInfoW"]
 old-location: security\secpkgcontext_keyinfo.htm
 tech.root: SecAuthN
 ms.assetid: ec146329-6789-460c-ae62-629a1765a4c1
@@ -96,4 +97,9 @@ Specifies the algorithm identifier (<a href="https://docs.microsoft.com/windows/
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The sspi.h header defines SecPkgContext_KeyInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

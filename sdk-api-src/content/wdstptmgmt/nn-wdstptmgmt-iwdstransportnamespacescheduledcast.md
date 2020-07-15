@@ -1,7 +1,8 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceScheduledCast
 title: IWdsTransportNamespaceScheduledCast (wdstptmgmt.h)
-description: Represents a base interface to the derived interfaces:\_IWdsTransportNamespaceScheduledCastManualStart and IWdsTransportNamespaceScheduledCastAutoStart.helpviewer_keywords: ["IWdsTransportNamespaceScheduledCast","IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services]","IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services]","described","wds.iwdstransportnamespacescheduledcast","wdstptmgmt/IWdsTransportNamespaceScheduledCast"]
+description: Represents a base interface to the derived interfaces:\_IWdsTransportNamespaceScheduledCastManualStart and IWdsTransportNamespaceScheduledCastAutoStart.
+helpviewer_keywords: ["IWdsTransportNamespaceScheduledCast","IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services]","IWdsTransportNamespaceScheduledCast interface [Windows Deployment Services]","described","wds.iwdstransportnamespacescheduledcast","wdstptmgmt/IWdsTransportNamespaceScheduledCast"]
 old-location: wds\iwdstransportnamespacescheduledcast.htm
 tech.root: wds
 ms.assetid: 434e2eb2-b149-46e6-b7d0-0d07c44bcec2

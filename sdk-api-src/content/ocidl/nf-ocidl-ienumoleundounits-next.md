@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IEnumOleUndoUnits.Next
 title: IEnumOleUndoUnits::Next (ocidl.h)
-description: Retrieves the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumOleUndoUnits interface [COM]","Next method","IEnumOleUndoUnits.Next","IEnumOleUndoUnits::Next","Next","Next method [COM]","Next method [COM]","IEnumOleUndoUnits interface","_ole_ienumoleundounits_next","com.ienumoleundounits_next","ocidl/IEnumOleUndoUnits::Next"]
+description: Retrieves the specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumOleUndoUnits interface [COM]","Next method","IEnumOleUndoUnits.Next","IEnumOleUndoUnits::Next","Next","Next method [COM]","Next method [COM]","IEnumOleUndoUnits interface","_ole_ienumoleundounits_next","com.ienumoleundounits_next","ocidl/IEnumOleUndoUnits::Next"]
 old-location: com\ienumoleundounits_next.htm
 tech.root: com
 ms.assetid: bd5ce157-37d1-4e27-a0d4-ed9cffeac2b3

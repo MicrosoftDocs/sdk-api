@@ -1,7 +1,8 @@
 ---
 UID: NF:mfplay.IMFPMediaPlayer.GetMediaItem
 title: IMFPMediaPlayer::GetMediaItem (mfplay.h)
-description: Gets a pointer to the current media item.helpviewer_keywords: ["GetMediaItem","GetMediaItem method [Media Foundation]","GetMediaItem method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetMediaItem method","IMFPMediaPlayer.GetMediaItem","IMFPMediaPlayer::GetMediaItem","mf.imfpmediaplayer_getmediaitem","mfplay/IMFPMediaPlayer::GetMediaItem"]
+description: Gets a pointer to the current media item.
+helpviewer_keywords: ["GetMediaItem","GetMediaItem method [Media Foundation]","GetMediaItem method [Media Foundation]","IMFPMediaPlayer interface","IMFPMediaPlayer interface [Media Foundation]","GetMediaItem method","IMFPMediaPlayer.GetMediaItem","IMFPMediaPlayer::GetMediaItem","mf.imfpmediaplayer_getmediaitem","mfplay/IMFPMediaPlayer::GetMediaItem"]
 old-location: mf\imfpmediaplayer_getmediaitem.htm
 tech.root: medfound
 ms.assetid: 9593092d-bd50-4ff6-a283-f5a0ab1e6fc0

@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1RenderTarget.Clear(const D2D1_COLOR_F &)
+UID: NF:d2d1.ID2D1RenderTarget.Clear(constD2D1_COLOR_F&)
 title: ID2D1RenderTarget::Clear(const D2D1_COLOR_F &) (d2d1.h)
 description: Clears the drawing area to the specified color.
 helpviewer_keywords: ["Clear","Clear method [Direct2D]","Clear method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","Clear method","ID2D1RenderTarget.Clear","ID2D1RenderTarget.Clear(const D2D1_COLOR_F &)","ID2D1RenderTarget::Clear","ID2D1RenderTarget::Clear(const D2D1_COLOR_F &)","ID2D1RenderTarget::Clear(const D2D1_COLOR_F)","d2d1/ID2D1RenderTarget::Clear","direct2d.ID2D1RenderTarget_Clear_ptr_COLOR_F"]

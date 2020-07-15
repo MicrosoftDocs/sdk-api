@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMColorHSVToRGB
 title: XMColorHSVToRGB function (directxmath.h)
-description: Converts HSV color values to RGB color values.helpviewer_keywords: ["Use DirectX..XMColorHSVToRGB","XMColorHSVToRGB","XMColorHSVToRGB method [DirectX Math Support APIs]","dxmath.xmcolorhsvtorgb"]
+description: Converts HSV color values to RGB color values.
+helpviewer_keywords: ["Use DirectX..XMColorHSVToRGB","XMColorHSVToRGB","XMColorHSVToRGB method [DirectX Math Support APIs]","dxmath.xmcolorhsvtorgb"]
 old-location: dxmath\xmcolorhsvtorgb.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.color.XMColorHSVToRGB(XMVECTOR)

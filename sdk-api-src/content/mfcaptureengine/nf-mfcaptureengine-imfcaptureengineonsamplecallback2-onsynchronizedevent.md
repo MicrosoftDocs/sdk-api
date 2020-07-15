@@ -1,7 +1,8 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent
 title: IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent (mfcaptureengine.h)
-description: Called by the capture sink when the format of the sample is changed.helpviewer_keywords: ["IMFCaptureEngineOnSampleCallback2 interface [Media Foundation]","OnSynchronizedEvent method","IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent","IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent","OnSynchronizedEvent","OnSynchronizedEvent method [Media Foundation]","OnSynchronizedEvent method [Media Foundation]","IMFCaptureEngineOnSampleCallback2 interface","mf.imfcaptureengineonsamplecallback2_onsynchronizedevent","mfcaptureengine/IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent"]
+description: Called by the capture sink when the format of the sample is changed.
+helpviewer_keywords: ["IMFCaptureEngineOnSampleCallback2 interface [Media Foundation]","OnSynchronizedEvent method","IMFCaptureEngineOnSampleCallback2.OnSynchronizedEvent","IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent","OnSynchronizedEvent","OnSynchronizedEvent method [Media Foundation]","OnSynchronizedEvent method [Media Foundation]","IMFCaptureEngineOnSampleCallback2 interface","mf.imfcaptureengineonsamplecallback2_onsynchronizedevent","mfcaptureengine/IMFCaptureEngineOnSampleCallback2::OnSynchronizedEvent"]
 old-location: mf\imfcaptureengineonsamplecallback2_onsynchronizedevent.htm
 tech.root: medfound
 ms.assetid: f82a657a-bc6a-407b-ad72-1e9c6ec17bed

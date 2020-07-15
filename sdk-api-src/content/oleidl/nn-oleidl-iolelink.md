@@ -1,7 +1,8 @@
 ---
 UID: NN:oleidl.IOleLink
 title: IOleLink (oleidl.h)
-description: Enables a linked object to provide its container with functions pertaining to linking.helpviewer_keywords: ["IOleLink","IOleLink interface [COM]","IOleLink interface [COM]","described","_ole_iolelink","com.iolelink","oleidl/IOleLink"]
+description: Enables a linked object to provide its container with functions pertaining to linking.
+helpviewer_keywords: ["IOleLink","IOleLink interface [COM]","IOleLink interface [COM]","described","_ole_iolelink","com.iolelink","oleidl/IOleLink"]
 old-location: com\iolelink.htm
 tech.root: com
 ms.assetid: 4a34a90d-df1b-4bbf-8365-9d741c18ff74

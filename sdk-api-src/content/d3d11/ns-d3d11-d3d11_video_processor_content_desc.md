@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_VIDEO_PROCESSOR_CONTENT_DESC
 title: D3D11_VIDEO_PROCESSOR_CONTENT_DESC (d3d11.h)
-description: Describes a video stream for a video processor.helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_CONTENT_DESC","D3D11_VIDEO_PROCESSOR_CONTENT_DESC structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC","mf.d3d11_video_processor_content_desc"]
+description: Describes a video stream for a video processor.
+helpviewer_keywords: ["D3D11_VIDEO_PROCESSOR_CONTENT_DESC","D3D11_VIDEO_PROCESSOR_CONTENT_DESC structure [Media Foundation]","d3d11/D3D11_VIDEO_PROCESSOR_CONTENT_DESC","mf.d3d11_video_processor_content_desc"]
 old-location: mf\d3d11_video_processor_content_desc.htm
 tech.root: medfound
 ms.assetid: A1649897-B368-4D03-9A08-630C8C59E44A

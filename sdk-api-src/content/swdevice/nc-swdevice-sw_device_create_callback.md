@@ -1,7 +1,8 @@
 ---
 UID: NC:swdevice.SW_DEVICE_CREATE_CALLBACK
 title: SW_DEVICE_CREATE_CALLBACK (swdevice.h)
-description: Provides a device with backing in the registry and allows the caller to then make calls to Software Device API functions with the hSwDevice handle.helpviewer_keywords: ["SW_DEVICE_CREATE_CALLBACK","SW_DEVICE_CREATE_CALLBACK function","SW_DEVICE_CREATE_CALLBACK function pointer","swdevice.sw_device_create_callback","swdevice/SW_DEVICE_CREATE_CALLBACK"]
+description: Provides a device with backing in the registry and allows the caller to then make calls to Software Device API functions with the hSwDevice handle.
+helpviewer_keywords: ["SW_DEVICE_CREATE_CALLBACK","SW_DEVICE_CREATE_CALLBACK function","SW_DEVICE_CREATE_CALLBACK function pointer","swdevice.sw_device_create_callback","swdevice/SW_DEVICE_CREATE_CALLBACK"]
 old-location: swdevice\sw_device_create_callback.htm
 tech.root: swdevice
 ms.assetid: 3955FA66-EBE2-4710-A873-C5FC8B7DBE2E

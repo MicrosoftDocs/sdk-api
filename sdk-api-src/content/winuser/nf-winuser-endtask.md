@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.EndTask
 title: EndTask function (winuser.h)
-description: Forcibly closes the specified window.helpviewer_keywords: ["EndTask","EndTask function [Windows and Messages]","_win32_EndTask","_win32_endtask_cpp","winmsg.endtask","winui._win32_endtask","winuser/EndTask"]
+description: Forcibly closes the specified window.
+helpviewer_keywords: ["EndTask","EndTask function [Windows and Messages]","_win32_EndTask","_win32_endtask_cpp","winmsg.endtask","winui._win32_endtask","winuser/EndTask"]
 old-location: winmsg\endtask.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\endtask.htm

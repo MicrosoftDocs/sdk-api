@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarI4FromStr
 title: VarI4FromStr function (oleauto.h)
-description: Converts an OLECHAR string to a long value.helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_DATEVALUEONLY","VAR_TIMEVALUEONLY","VarI4FromStr","VarI4FromStr function [Automation]","_oa96_VarI4FromStr","automat.vari4fromstr","oleauto/VarI4FromStr"]
+description: Converts an OLECHAR string to a long value.
+helpviewer_keywords: ["LOCALE_NOUSEROVERRIDE","VAR_DATEVALUEONLY","VAR_TIMEVALUEONLY","VarI4FromStr","VarI4FromStr function [Automation]","_oa96_VarI4FromStr","automat.vari4fromstr","oleauto/VarI4FromStr"]
 old-location: automat\vari4fromstr.htm
 tech.root: automat
 ms.assetid: 61a1ad0c-f0bd-4437-85c2-7edd6ade06bd

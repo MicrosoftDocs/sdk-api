@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.ICAT.Initialize
 title: ICAT::Initialize (mpeg2psiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["ICAT interface [Microsoft TV Technologies]","Initialize method","ICAT.Initialize","ICAT::Initialize","ICATInitialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","ICAT interface","mpeg2psiparser/ICAT::Initialize","mstv.icat_initialize"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["ICAT interface [Microsoft TV Technologies]","Initialize method","ICAT.Initialize","ICAT::Initialize","ICATInitialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","ICAT interface","mpeg2psiparser/ICAT::Initialize","mstv.icat_initialize"]
 old-location: mstv\icat_initialize.htm
 tech.root: mstv
 ms.assetid: 74751ee7-4cc9-451b-b4da-29df3ebf0df5

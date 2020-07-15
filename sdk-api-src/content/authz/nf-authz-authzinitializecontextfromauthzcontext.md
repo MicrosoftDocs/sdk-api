@@ -1,7 +1,8 @@
 ---
 UID: NF:authz.AuthzInitializeContextFromAuthzContext
 title: AuthzInitializeContextFromAuthzContext function (authz.h)
-description: Creates a new client context based on an existing client context.helpviewer_keywords: ["AuthzInitializeContextFromAuthzContext","AuthzInitializeContextFromAuthzContext function [Security]","_win32_authzinitializecontextfromauthzcontext","authz/AuthzInitializeContextFromAuthzContext","security.authzinitializecontextfromauthzcontext"]
+description: Creates a new client context based on an existing client context.
+helpviewer_keywords: ["AuthzInitializeContextFromAuthzContext","AuthzInitializeContextFromAuthzContext function [Security]","_win32_authzinitializecontextfromauthzcontext","authz/AuthzInitializeContextFromAuthzContext","security.authzinitializecontextfromauthzcontext"]
 old-location: security\authzinitializecontextfromauthzcontext.htm
 tech.root: SecAuthZ
 ms.assetid: dac5e354-ee31-45e3-9eb8-8f3263161ad2

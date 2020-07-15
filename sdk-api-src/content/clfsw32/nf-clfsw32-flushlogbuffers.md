@@ -1,7 +1,8 @@
 ---
 UID: NF:clfsw32.FlushLogBuffers
 title: FlushLogBuffers function (clfsw32.h)
-description: Forces all records appended to this marshaling area to be flushed to disk.helpviewer_keywords: ["FlushLogBuffers","FlushLogBuffers function [Files]","clfsw32/FlushLogBuffers","fs.flushlogbuffers"]
+description: Forces all records appended to this marshaling area to be flushed to disk.
+helpviewer_keywords: ["FlushLogBuffers","FlushLogBuffers function [Files]","clfsw32/FlushLogBuffers","fs.flushlogbuffers"]
 old-location: fs\flushlogbuffers.htm
 tech.root: Clfs
 ms.assetid: b5c52472-6c08-44f6-843f-5206611e40b4

@@ -1,7 +1,8 @@
 ---
 UID: NS:shellapi._SHSTOCKICONINFO
 title: SHSTOCKICONINFO (shellapi.h)
-description: Receives information used to retrieve a stock Shell icon. This structure is used in a call SHGetStockIconInfo.helpviewer_keywords: ["SHSTOCKICONINFO","SHSTOCKICONINFO structure [Windows Shell]","_SHSTOCKICONINFO","_SHSTOCKICONINFO structure [Windows Shell]","_shell_SHSTOCKICONINFO","shell.SHSTOCKICONINFO","shellapi/SHSTOCKICONINFO"]
+description: Receives information used to retrieve a stock Shell icon. This structure is used in a call SHGetStockIconInfo.
+helpviewer_keywords: ["SHSTOCKICONINFO","SHSTOCKICONINFO structure [Windows Shell]","_SHSTOCKICONINFO","_SHSTOCKICONINFO structure [Windows Shell]","_shell_SHSTOCKICONINFO","shell.SHSTOCKICONINFO","shellapi/SHSTOCKICONINFO"]
 old-location: shell\SHSTOCKICONINFO.htm
 tech.root: shell
 ms.assetid: 4d32826a-bb40-4805-9826-801c142b8d28

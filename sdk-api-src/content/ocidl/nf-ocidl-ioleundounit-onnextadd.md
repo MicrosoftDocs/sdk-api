@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleUndoUnit.OnNextAdd
 title: IOleUndoUnit::OnNextAdd (ocidl.h)
-description: Notifies the last undo unit in the collection that a new unit has been added.helpviewer_keywords: ["IOleUndoUnit interface [COM]","OnNextAdd method","IOleUndoUnit.OnNextAdd","IOleUndoUnit::OnNextAdd","OnNextAdd","OnNextAdd method [COM]","OnNextAdd method [COM]","IOleUndoUnit interface","_ole_ioleundounit_onnextadd","com.ioleundounit_onnextadd","ocidl/IOleUndoUnit::OnNextAdd"]
+description: Notifies the last undo unit in the collection that a new unit has been added.
+helpviewer_keywords: ["IOleUndoUnit interface [COM]","OnNextAdd method","IOleUndoUnit.OnNextAdd","IOleUndoUnit::OnNextAdd","OnNextAdd","OnNextAdd method [COM]","OnNextAdd method [COM]","IOleUndoUnit interface","_ole_ioleundounit_onnextadd","com.ioleundounit_onnextadd","ocidl/IOleUndoUnit::OnNextAdd"]
 old-location: com\ioleundounit_onnextadd.htm
 tech.root: com
 ms.assetid: 79bbdb6c-cae3-4f9a-b335-565aacec6d3e

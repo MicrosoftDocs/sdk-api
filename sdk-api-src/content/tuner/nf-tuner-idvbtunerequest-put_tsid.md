@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IDVBTuneRequest.put_TSID
 title: IDVBTuneRequest::put_TSID (tuner.h)
-description: The put_TSID method sets the transport stream ID.helpviewer_keywords: ["IDVBTuneRequest interface [Microsoft TV Technologies]","put_TSID method","IDVBTuneRequest.put_TSID","IDVBTuneRequest::put_TSID","IDVBTuneRequestput_TSID","mstv.idvbtunerequest_put_tsid","put_TSID","put_TSID method [Microsoft TV Technologies]","put_TSID method [Microsoft TV Technologies]","IDVBTuneRequest interface","tuner/IDVBTuneRequest::put_TSID"]
+description: The put_TSID method sets the transport stream ID.
+helpviewer_keywords: ["IDVBTuneRequest interface [Microsoft TV Technologies]","put_TSID method","IDVBTuneRequest.put_TSID","IDVBTuneRequest::put_TSID","IDVBTuneRequestput_TSID","mstv.idvbtunerequest_put_tsid","put_TSID","put_TSID method [Microsoft TV Technologies]","put_TSID method [Microsoft TV Technologies]","IDVBTuneRequest interface","tuner/IDVBTuneRequest::put_TSID"]
 old-location: mstv\idvbtunerequest_put_tsid.htm
 tech.root: mstv
 ms.assetid: f72dce85-3584-40bc-ae7a-69c9914c13b9

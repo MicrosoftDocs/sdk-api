@@ -1,7 +1,8 @@
 ---
 UID: NS:dhcpsapi._DHCP_FAILOVER_RELATIONSHIP
 title: DHCP_FAILOVER_RELATIONSHIP (dhcpsapi.h)
-description: The DHCP_FAILOVER_RELATIONSHIP structure defines information about a DHCPv4 server failover relationship.helpviewer_keywords: ["*LPDHCP_FAILOVER_RELATIONSHIP","DHCP_FAILOVER_RELATIONSHIP","DHCP_FAILOVER_RELATIONSHIP structure [DHCP]","LPDHCP_FAILOVER_RELATIONSHIP","LPDHCP_FAILOVER_RELATIONSHIP structure pointer [DHCP]","dhcp.dhcp_failover_relationship","dhcpsapi/DHCP_FAILOVER_RELATIONSHIP","dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP"]
+description: The DHCP_FAILOVER_RELATIONSHIP structure defines information about a DHCPv4 server failover relationship.
+helpviewer_keywords: ["*LPDHCP_FAILOVER_RELATIONSHIP","DHCP_FAILOVER_RELATIONSHIP","DHCP_FAILOVER_RELATIONSHIP structure [DHCP]","LPDHCP_FAILOVER_RELATIONSHIP","LPDHCP_FAILOVER_RELATIONSHIP structure pointer [DHCP]","dhcp.dhcp_failover_relationship","dhcpsapi/DHCP_FAILOVER_RELATIONSHIP","dhcpsapi/LPDHCP_FAILOVER_RELATIONSHIP"]
 old-location: dhcp\dhcp_failover_relationship.htm
 tech.root: DHCP
 ms.assetid: b409b0ff-2fdc-416c-a7ce-2cba9cf75122

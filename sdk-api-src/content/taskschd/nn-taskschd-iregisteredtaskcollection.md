@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.IRegisteredTaskCollection
 title: IRegisteredTaskCollection (taskschd.h)
-description: Contains all the tasks that are registered.helpviewer_keywords: ["IRegisteredTaskCollection","IRegisteredTaskCollection interface [Task Scheduler]","IRegisteredTaskCollection interface [Task Scheduler]","described","taskschd.iregisteredtaskcollection","taskschd/IRegisteredTaskCollection"]
+description: Contains all the tasks that are registered.
+helpviewer_keywords: ["IRegisteredTaskCollection","IRegisteredTaskCollection interface [Task Scheduler]","IRegisteredTaskCollection interface [Task Scheduler]","described","taskschd.iregisteredtaskcollection","taskschd/IRegisteredTaskCollection"]
 old-location: taskschd\iregisteredtaskcollection.htm
 tech.root: taskschd
 ms.assetid: 97403825-5762-477c-9695-3775bb5bc9e4

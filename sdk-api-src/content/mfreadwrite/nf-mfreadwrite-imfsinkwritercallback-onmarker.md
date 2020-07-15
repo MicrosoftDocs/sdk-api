@@ -1,7 +1,8 @@
 ---
 UID: NF:mfreadwrite.IMFSinkWriterCallback.OnMarker
 title: IMFSinkWriterCallback::OnMarker (mfreadwrite.h)
-description: Called when the IMFSinkWriter::PlaceMarker method completes.helpviewer_keywords: ["IMFSinkWriterCallback interface [Media Foundation]","OnMarker method","IMFSinkWriterCallback.OnMarker","IMFSinkWriterCallback::OnMarker","OnMarker","OnMarker method [Media Foundation]","OnMarker method [Media Foundation]","IMFSinkWriterCallback interface","mf.imfsinkwritercallback_onmarker","mfreadwrite/IMFSinkWriterCallback::OnMarker"]
+description: Called when the IMFSinkWriter::PlaceMarker method completes.
+helpviewer_keywords: ["IMFSinkWriterCallback interface [Media Foundation]","OnMarker method","IMFSinkWriterCallback.OnMarker","IMFSinkWriterCallback::OnMarker","OnMarker","OnMarker method [Media Foundation]","OnMarker method [Media Foundation]","IMFSinkWriterCallback interface","mf.imfsinkwritercallback_onmarker","mfreadwrite/IMFSinkWriterCallback::OnMarker"]
 old-location: mf\imfsinkwritercallback_onmarker.htm
 tech.root: medfound
 ms.assetid: 5b1ca6a7-c2bc-4b30-aa86-05bd4ccc052c

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IWMResamplerProps.SetHalfFilterLength
 title: IWMResamplerProps::SetHalfFilterLength (wmcodecdsp.h)
-description: Specifies the quality of the output.helpviewer_keywords: ["IWMResamplerProps interface [Media Foundation]","SetHalfFilterLength method","IWMResamplerProps.SetHalfFilterLength","IWMResamplerProps::SetHalfFilterLength","SetHalfFilterLength","SetHalfFilterLength method [Media Foundation]","SetHalfFilterLength method [Media Foundation]","IWMResamplerProps interface","codecapi.iwmresamplerpropssethalffilterlength","mf.iwmresamplerpropssethalffilterlength","wmcodecdsp/IWMResamplerProps::SetHalfFilterLength"]
+description: Specifies the quality of the output.
+helpviewer_keywords: ["IWMResamplerProps interface [Media Foundation]","SetHalfFilterLength method","IWMResamplerProps.SetHalfFilterLength","IWMResamplerProps::SetHalfFilterLength","SetHalfFilterLength","SetHalfFilterLength method [Media Foundation]","SetHalfFilterLength method [Media Foundation]","IWMResamplerProps interface","codecapi.iwmresamplerpropssethalffilterlength","mf.iwmresamplerpropssethalffilterlength","wmcodecdsp/IWMResamplerProps::SetHalfFilterLength"]
 old-location: mf\iwmresamplerpropssethalffilterlength.htm
 tech.root: medfound
 ms.assetid: ac35fafa-d1f1-4470-b4e3-0e6fce792a11

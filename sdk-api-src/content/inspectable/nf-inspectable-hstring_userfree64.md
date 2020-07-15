@@ -1,7 +1,8 @@
 ---
 UID: NF:inspectable.HSTRING_UserFree64
 title: HSTRING_UserFree64 function (inspectable.h)
-description: Frees resources on the server side when called by RPC stub files.helpviewer_keywords: ["HSTRING_UserFree64","HSTRING_UserFree64 function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserFree64","winrt.hstring_userfree64"]
+description: Frees resources on the server side when called by RPC stub files.
+helpviewer_keywords: ["HSTRING_UserFree64","HSTRING_UserFree64 function [Windows Runtime]","remotesystemadditionalinfo/HSTRING_UserFree64","winrt.hstring_userfree64"]
 old-location: winrt\hstring_userfree64.htm
 tech.root: WinRT
 ms.assetid: 11285260-6AF3-4047-92D4-958B1BFA18E7

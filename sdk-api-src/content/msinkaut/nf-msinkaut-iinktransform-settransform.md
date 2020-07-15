@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkTransform.SetTransform
 title: IInkTransform::SetTransform (msinkaut.h)
-description: Modifies the InkTransform member data.helpviewer_keywords: ["5b734703-4117-4668-b881-4ba4e1c65189","IInkTransform interface [Tablet PC]","SetTransform method","IInkTransform.SetTransform","IInkTransform::SetTransform","SetTransform","SetTransform method [Tablet PC]","SetTransform method [Tablet PC]","IInkTransform interface","msinkaut/IInkTransform::SetTransform","tablet.inktransform_settransform"]
+description: Modifies the InkTransform member data.
+helpviewer_keywords: ["5b734703-4117-4668-b881-4ba4e1c65189","IInkTransform interface [Tablet PC]","SetTransform method","IInkTransform.SetTransform","IInkTransform::SetTransform","SetTransform","SetTransform method [Tablet PC]","SetTransform method [Tablet PC]","IInkTransform interface","msinkaut/IInkTransform::SetTransform","tablet.inktransform_settransform"]
 old-location: tablet\inktransform_settransform.htm
 tech.root: tablet
 ms.assetid: 5b734703-4117-4668-b881-4ba4e1c65189

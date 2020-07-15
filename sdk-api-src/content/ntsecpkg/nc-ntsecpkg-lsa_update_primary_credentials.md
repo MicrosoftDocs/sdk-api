@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.LSA_UPDATE_PRIMARY_CREDENTIALS
 title: LSA_UPDATE_PRIMARY_CREDENTIALS (ntsecpkg.h)
-description: Provides a mechanism for one security package to notify other packages that the credentials for a logon session have changed.helpviewer_keywords: ["LSA_UPDATE_PRIMARY_CREDENTIALS","LSA_UPDATE_PRIMARY_CREDENTIALS callback","UpdateCredentials","UpdateCredentials callback function [Security]","_ssp_updatecredentials","ntsecpkg/UpdateCredentials","security.updatecredentials"]
+description: Provides a mechanism for one security package to notify other packages that the credentials for a logon session have changed.
+helpviewer_keywords: ["LSA_UPDATE_PRIMARY_CREDENTIALS","LSA_UPDATE_PRIMARY_CREDENTIALS callback","UpdateCredentials","UpdateCredentials callback function [Security]","_ssp_updatecredentials","ntsecpkg/UpdateCredentials","security.updatecredentials"]
 old-location: security\updatecredentials.htm
 tech.root: SecAuthN
 ms.assetid: 952ed682-775a-4370-8a89-15ca35553667

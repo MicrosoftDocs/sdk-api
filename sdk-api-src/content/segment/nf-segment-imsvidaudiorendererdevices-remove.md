@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidAudioRendererDevices.Remove
 title: IMSVidAudioRendererDevices::Remove (segment.h)
-description: The Remove method removes an item from the collection.helpviewer_keywords: ["IMSVidAudioRendererDevices interface [Microsoft TV Technologies]","Remove method","IMSVidAudioRendererDevices.Remove","IMSVidAudioRendererDevices::Remove","IMSVidAudioRendererDevicesRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","IMSVidAudioRendererDevices interface","mstv.imsvidaudiorendererdevices_remove","segment/IMSVidAudioRendererDevices::Remove"]
+description: The Remove method removes an item from the collection.
+helpviewer_keywords: ["IMSVidAudioRendererDevices interface [Microsoft TV Technologies]","Remove method","IMSVidAudioRendererDevices.Remove","IMSVidAudioRendererDevices::Remove","IMSVidAudioRendererDevicesRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","IMSVidAudioRendererDevices interface","mstv.imsvidaudiorendererdevices_remove","segment/IMSVidAudioRendererDevices::Remove"]
 old-location: mstv\imsvidaudiorendererdevices_remove.htm
 tech.root: mstv
 ms.assetid: 5a9cf752-e3f8-40bf-89e8-e223654e4080

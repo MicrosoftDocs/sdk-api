@@ -1,7 +1,8 @@
 ---
 UID: NF:imessagedispatcher.IMessageDispatcher.PumpMessages
 title: IMessageDispatcher::PumpMessages (imessagedispatcher.h)
-description: Performs custom dispatching when window messages are available to be dispatched on an ASTA thread.helpviewer_keywords: ["IMessageDispatcher interface [COM]","PumpMessages method","IMessageDispatcher.PumpMessages","IMessageDispatcher::PumpMessages","PumpMessages","PumpMessages method [COM]","PumpMessages method [COM]","IMessageDispatcher interface","com.imessagedispatcher_pumpmessages","imessagedispatcher/IMessageDispatcher::PumpMessages"]
+description: Performs custom dispatching when window messages are available to be dispatched on an ASTA thread.
+helpviewer_keywords: ["IMessageDispatcher interface [COM]","PumpMessages method","IMessageDispatcher.PumpMessages","IMessageDispatcher::PumpMessages","PumpMessages","PumpMessages method [COM]","PumpMessages method [COM]","IMessageDispatcher interface","com.imessagedispatcher_pumpmessages","imessagedispatcher/IMessageDispatcher::PumpMessages"]
 old-location: com\imessagedispatcher_pumpmessages.htm
 tech.root: com
 ms.assetid: CC34B3B0-C956-4B37-8DF7-CC90A0160835

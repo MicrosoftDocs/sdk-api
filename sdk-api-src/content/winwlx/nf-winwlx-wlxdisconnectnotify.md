@@ -4,7 +4,8 @@ title: WlxDisconnectNotify
 ms.date: 11/4/2019
 ms.topic: language-reference
 targetos: Windows
-description: Winlogon calls this function when a Terminal Services network session is disconnected.helpviewer_keywords: ["WlxDisconnectNotify"]
+description: Winlogon calls this function when a Terminal Services network session is disconnected.
+helpviewer_keywords: ["WlxDisconnectNotify"]
 tech.root: SecAuthN
 req.assembly: 
 req.construct-type: function

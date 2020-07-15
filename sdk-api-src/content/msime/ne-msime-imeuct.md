@@ -1,7 +1,8 @@
 ---
 UID: NE:msime.__unnamed_enum_2
 title: IMEUCT (msime.h)
-description: Type of user comment in a IMEWRD structure.helpviewer_keywords: ["IFED_UCT_NONE","IFED_UCT_STRING_SJIS","IFED_UCT_STRING_UNICODE","IFED_UCT_USER_DEFINED","IMEUCT","IMEUCT enumeration [Internationalization for Windows Applications]","intl.imeuct","msime/IFED_UCT_NONE","msime/IFED_UCT_STRING_SJIS","msime/IFED_UCT_STRING_UNICODE","msime/IFED_UCT_USER_DEFINED","msime/IMEUCT"]
+description: Type of user comment in a IMEWRD structure.
+helpviewer_keywords: ["IFED_UCT_NONE","IFED_UCT_STRING_SJIS","IFED_UCT_STRING_UNICODE","IFED_UCT_USER_DEFINED","IMEUCT","IMEUCT enumeration [Internationalization for Windows Applications]","intl.imeuct","msime/IFED_UCT_NONE","msime/IFED_UCT_STRING_SJIS","msime/IFED_UCT_STRING_UNICODE","msime/IFED_UCT_USER_DEFINED","msime/IMEUCT"]
 old-location: intl\imeuct.htm
 tech.root: Intl
 ms.assetid: B4969E4E-1918-4963-B9F2-606556FD5978

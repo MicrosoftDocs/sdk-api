@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ISelectionItemProvider.RemoveFromSelection
 title: ISelectionItemProvider::RemoveFromSelection (uiautomationcore.h)
-description: Removes the current element from the collection of selected items.helpviewer_keywords: ["ISelectionItemProvider interface [Windows Accessibility]","RemoveFromSelection method","ISelectionItemProvider.RemoveFromSelection","ISelectionItemProvider::RemoveFromSelection","RemoveFromSelection","RemoveFromSelection method [Windows Accessibility]","RemoveFromSelection method [Windows Accessibility]","ISelectionItemProvider interface","uiauto.uiauto_ISelectionItemProvider_RemoveFromSelection","uiauto_ISelectionItemProvider_RemoveFromSelection","uiautomationcore/ISelectionItemProvider::RemoveFromSelection","winauto.uiauto_ISelectionItemProvider_RemoveFromSelection"]
+description: Removes the current element from the collection of selected items.
+helpviewer_keywords: ["ISelectionItemProvider interface [Windows Accessibility]","RemoveFromSelection method","ISelectionItemProvider.RemoveFromSelection","ISelectionItemProvider::RemoveFromSelection","RemoveFromSelection","RemoveFromSelection method [Windows Accessibility]","RemoveFromSelection method [Windows Accessibility]","ISelectionItemProvider interface","uiauto.uiauto_ISelectionItemProvider_RemoveFromSelection","uiauto_ISelectionItemProvider_RemoveFromSelection","uiautomationcore/ISelectionItemProvider::RemoveFromSelection","winauto.uiauto_ISelectionItemProvider_RemoveFromSelection"]
 old-location: winauto\uiauto_ISelectionItemProvider_RemoveFromSelection.htm
 tech.root: WinAuto
 ms.assetid: fcbf452e-5827-4368-b601-a6eeabb15d53

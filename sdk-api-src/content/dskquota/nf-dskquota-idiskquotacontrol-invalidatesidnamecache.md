@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.InvalidateSidNameCache
 title: IDiskQuotaControl::InvalidateSidNameCache (dskquota.h)
-description: Invalidates the contents of the system's SID-to-name cache so subsequent requests for new user objects (IEnumDiskQuotaUsers::Next, IDiskQuotaControl::FindUserSid, and IDiskQuotaControl::FindUserName) must obtain user names from the domain controller.helpviewer_keywords: ["IDiskQuotaControl interface [Files]","InvalidateSidNameCache method","IDiskQuotaControl.InvalidateSidNameCache","IDiskQuotaControl::InvalidateSidNameCache","InvalidateSidNameCache","InvalidateSidNameCache method [Files]","InvalidateSidNameCache method [Files]","IDiskQuotaControl interface","_win32_idiskquotacontrol_invalidatesidnamecache","base.idiskquotacontrol_invalidatesidnamecache","dskquota/IDiskQuotaControl::InvalidateSidNameCache","fs.idiskquotacontrol_invalidatesidnamecache"]
+description: Invalidates the contents of the system's SID-to-name cache so subsequent requests for new user objects (IEnumDiskQuotaUsers::Next, IDiskQuotaControl::FindUserSid, and IDiskQuotaControl::FindUserName) must obtain user names from the domain controller.
+helpviewer_keywords: ["IDiskQuotaControl interface [Files]","InvalidateSidNameCache method","IDiskQuotaControl.InvalidateSidNameCache","IDiskQuotaControl::InvalidateSidNameCache","InvalidateSidNameCache","InvalidateSidNameCache method [Files]","InvalidateSidNameCache method [Files]","IDiskQuotaControl interface","_win32_idiskquotacontrol_invalidatesidnamecache","base.idiskquotacontrol_invalidatesidnamecache","dskquota/IDiskQuotaControl::InvalidateSidNameCache","fs.idiskquotacontrol_invalidatesidnamecache"]
 old-location: fs\idiskquotacontrol_invalidatesidnamecache.htm
 tech.root: FileIO
 ms.assetid: 9bca99e9-2dd7-4e79-ab6a-ad0e821dd9bf

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ToAsciiEx
 title: ToAsciiEx function (winuser.h)
-description: Translates the specified virtual-key code and keyboard state to the corresponding character or characters. The function translates the code using the input language and physical keyboard layout identified by the input locale identifier.helpviewer_keywords: ["ToAsciiEx","ToAsciiEx function [Keyboard and Mouse Input]","_win32_ToAsciiEx","_win32_toasciiex_cpp","inputdev.toasciiex","winui._win32_toasciiex","winuser/ToAsciiEx"]
+description: Translates the specified virtual-key code and keyboard state to the corresponding character or characters. The function translates the code using the input language and physical keyboard layout identified by the input locale identifier.
+helpviewer_keywords: ["ToAsciiEx","ToAsciiEx function [Keyboard and Mouse Input]","_win32_ToAsciiEx","_win32_toasciiex_cpp","inputdev.toasciiex","winui._win32_toasciiex","winuser/ToAsciiEx"]
 old-location: inputdev\toasciiex.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\toasciiex.htm

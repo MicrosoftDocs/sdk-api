@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnMultiCarrier
 title: IMbnMultiCarrier (mbnapi.h)
-description: This interface exposes the multi-carrier functionality of a capable Mobile Broadband device.helpviewer_keywords: ["IMbnMultiCarrier","IMbnMultiCarrier interface [Microsoft Broadband Networks]","IMbnMultiCarrier interface [Microsoft Broadband Networks]","described","mbn.imbnmulticarrier","mbnapi/IMbnMultiCarrier"]
+description: This interface exposes the multi-carrier functionality of a capable Mobile Broadband device.
+helpviewer_keywords: ["IMbnMultiCarrier","IMbnMultiCarrier interface [Microsoft Broadband Networks]","IMbnMultiCarrier interface [Microsoft Broadband Networks]","described","mbn.imbnmulticarrier","mbnapi/IMbnMultiCarrier"]
 old-location: mbn\imbnmulticarrier.htm
 tech.root: mbn
 ms.assetid: E40517CE-3169-4F20-A572-EDBC8FEC2862

@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.SetNtmsObjectInformationA
 title: SetNtmsObjectInformationA function (ntmsapi.h)
-description: The SetNtmsObjectInformation function changes the information structure of the specified object.helpviewer_keywords: ["SetNtmsObjectInformation","SetNtmsObjectInformation function [Files]","SetNtmsObjectInformationA","SetNtmsObjectInformationW","_zaw_setntmsobjectinformation","base.setntmsobjectinformation","fs.setntmsobjectinformation","ntmsapi/SetNtmsObjectInformation","ntmsapi/SetNtmsObjectInformationA","ntmsapi/SetNtmsObjectInformationW"]
+description: The SetNtmsObjectInformation function changes the information structure of the specified object.
+helpviewer_keywords: ["SetNtmsObjectInformation","SetNtmsObjectInformation function [Files]","SetNtmsObjectInformationA","SetNtmsObjectInformationW","_zaw_setntmsobjectinformation","base.setntmsobjectinformation","fs.setntmsobjectinformation","ntmsapi/SetNtmsObjectInformation","ntmsapi/SetNtmsObjectInformationA","ntmsapi/SetNtmsObjectInformationW"]
 old-location: fs\setntmsobjectinformation.htm
 tech.root: Rsm
 ms.assetid: 1cdb9c72-1b34-4800-a07d-b648baec8582
@@ -339,6 +340,10 @@ The following is the list of objects that have members that can be updated.
 
 
 
+
+
+> [!NOTE]
+> The ntmsapi.h header defines SetNtmsObjectInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

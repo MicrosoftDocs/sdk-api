@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetInsertMark
 title: ListView_GetInsertMark macro (commctrl.h)
-description: Gets the position of the insertion point. You can use this macro or send the LVM_GETINSERTMARK message explicitly.helpviewer_keywords: ["ListView_GetInsertMark","ListView_GetInsertMark macro [Windows Controls]","_win32_ListView_GetInsertMark","_win32_ListView_GetInsertMark_cpp","commctrl/ListView_GetInsertMark","controls.ListView_GetInsertMark","controls._win32_ListView_GetInsertMark"]
+description: Gets the position of the insertion point. You can use this macro or send the LVM_GETINSERTMARK message explicitly.
+helpviewer_keywords: ["ListView_GetInsertMark","ListView_GetInsertMark macro [Windows Controls]","_win32_ListView_GetInsertMark","_win32_ListView_GetInsertMark_cpp","commctrl/ListView_GetInsertMark","controls.ListView_GetInsertMark","controls._win32_ListView_GetInsertMark"]
 old-location: controls\ListView_GetInsertMark.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getinsertmark.htm

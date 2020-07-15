@@ -1,7 +1,8 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.HighUtilization
 title: INetDiagHelper::HighUtilization (ndhelper.h)
-description: Check whether the corresponding component is highly utilized.helpviewer_keywords: ["HighUtilization","HighUtilization method [NDF]","HighUtilization method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","HighUtilization method","INetDiagHelper.HighUtilization","INetDiagHelper::HighUtilization","ndf.inetdiaghelpe_highutilization","ndhelper/INetDiagHelper::HighUtilization"]
+description: Check whether the corresponding component is highly utilized.
+helpviewer_keywords: ["HighUtilization","HighUtilization method [NDF]","HighUtilization method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","HighUtilization method","INetDiagHelper.HighUtilization","INetDiagHelper::HighUtilization","ndf.inetdiaghelpe_highutilization","ndhelper/INetDiagHelper::HighUtilization"]
 old-location: ndf\inetdiaghelpe_highutilization.htm
 tech.root: NDF
 ms.assetid: 4a555683-f7fd-43a4-808a-60579723293c

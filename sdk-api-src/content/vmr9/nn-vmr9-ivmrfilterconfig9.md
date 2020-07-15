@@ -1,7 +1,8 @@
 ---
 UID: NN:vmr9.IVMRFilterConfig9
 title: IVMRFilterConfig9 (vmr9.h)
-description: The IVMRFilterConfig9 interface is implemented by the Video Mixing Renderer Filter 9.helpviewer_keywords: ["IVMRFilterConfig9","IVMRFilterConfig9 interface [DirectShow]","IVMRFilterConfig9 interface [DirectShow]","described","IVMRFilterConfig9Interface","dshow.ivmrfilterconfig9","vmr9/IVMRFilterConfig9"]
+description: The IVMRFilterConfig9 interface is implemented by the Video Mixing Renderer Filter 9.
+helpviewer_keywords: ["IVMRFilterConfig9","IVMRFilterConfig9 interface [DirectShow]","IVMRFilterConfig9 interface [DirectShow]","described","IVMRFilterConfig9Interface","dshow.ivmrfilterconfig9","vmr9/IVMRFilterConfig9"]
 old-location: dshow\ivmrfilterconfig9.htm
 tech.root: DirectShow
 ms.assetid: 089e44c8-6a27-410d-aad5-08816bd4f915

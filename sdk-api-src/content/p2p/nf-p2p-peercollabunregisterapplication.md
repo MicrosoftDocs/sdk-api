@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerCollabUnregisterApplication
 title: PeerCollabUnregisterApplication function (p2p.h)
-description: Unregisters the specific applications of a peer from the local computer.helpviewer_keywords: ["PeerCollabUnregisterApplication","PeerCollabUnregisterApplication function [Peer Networking]","p2p.peercollabunregisterapplication","p2p/PeerCollabUnregisterApplication"]
+description: Unregisters the specific applications of a peer from the local computer.
+helpviewer_keywords: ["PeerCollabUnregisterApplication","PeerCollabUnregisterApplication function [Peer Networking]","p2p.peercollabunregisterapplication","p2p/PeerCollabUnregisterApplication"]
 old-location: p2p\peercollabunregisterapplication.htm
 tech.root: P2PSdk
 ms.assetid: 2479b726-20f1-4370-9fcf-f29cec44c3ec

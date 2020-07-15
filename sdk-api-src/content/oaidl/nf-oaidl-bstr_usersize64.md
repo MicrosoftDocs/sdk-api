@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.BSTR_UserSize64
 title: BSTR_UserSize64 function (oaidl.h)
-description: Calculates the wire size of the BSTR object, and gets its handle and data.helpviewer_keywords: ["BSTR_UserSize64","BSTR_UserSize64 function [Automation]","automat.bstr_usersize64","oaidl/BSTR_UserSize64"]
+description: Calculates the wire size of the BSTR object, and gets its handle and data.
+helpviewer_keywords: ["BSTR_UserSize64","BSTR_UserSize64 function [Automation]","automat.bstr_usersize64","oaidl/BSTR_UserSize64"]
 old-location: automat\bstr_usersize64.htm
 tech.root: automat
 ms.assetid: 56ba0992-b5df-419d-b531-ea974413a7b0

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_PLACED_SUBRESOURCE_FOOTPRINT
 title: D3D12_PLACED_SUBRESOURCE_FOOTPRINT (d3d12.h)
-description: Describes the footprint of a placed subresource, including the offset and the D3D12_SUBRESOURCE_FOOTPRINT.helpviewer_keywords: ["D3D12_PLACED_SUBRESOURCE_FOOTPRINT","D3D12_PLACED_SUBRESOURCE_FOOTPRINT structure","d3d12/D3D12_PLACED_SUBRESOURCE_FOOTPRINT","direct3d12.d3d12_placed_subresource_footprint"]
+description: Describes the footprint of a placed subresource, including the offset and the D3D12_SUBRESOURCE_FOOTPRINT.
+helpviewer_keywords: ["D3D12_PLACED_SUBRESOURCE_FOOTPRINT","D3D12_PLACED_SUBRESOURCE_FOOTPRINT structure","d3d12/D3D12_PLACED_SUBRESOURCE_FOOTPRINT","direct3d12.d3d12_placed_subresource_footprint"]
 old-location: direct3d12\d3d12_placed_subresource_footprint.htm
 tech.root: direct3d12
 ms.assetid: 74740A52-C2A5-4AF6-92CC-85B5C214423F

@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxTiff.get_RecipientName
 title: IFaxTiff::get_RecipientName (faxcom.h)
-description: Retrieves the RecipientName property for a FaxTiff object. The RecipientName property is a null-terminated string that contains the name of the recipient for the specified fax file.helpviewer_keywords: ["IFaxTiff interface [Fax Service]","RecipientName property","IFaxTiff.RecipientName","IFaxTiff.get_RecipientName","IFaxTiff::RecipientName","IFaxTiff::get_RecipientName","RecipientName property [Fax Service]","RecipientName property [Fax Service]","IFaxTiff interface","_mfax_ifaxtiff_get_recipientname","fax._mfax_ifaxtiff_get_recipientname","fax._mfax_ifaxtiff_mfax_ifaxtiff_get_recipientname_cpp","faxcom/IFaxTiff::RecipientName","faxcom/IFaxTiff::get_RecipientName","get_RecipientName"]
+description: Retrieves the RecipientName property for a FaxTiff object. The RecipientName property is a null-terminated string that contains the name of the recipient for the specified fax file.
+helpviewer_keywords: ["IFaxTiff interface [Fax Service]","RecipientName property","IFaxTiff.RecipientName","IFaxTiff.get_RecipientName","IFaxTiff::RecipientName","IFaxTiff::get_RecipientName","RecipientName property [Fax Service]","RecipientName property [Fax Service]","IFaxTiff interface","_mfax_ifaxtiff_get_recipientname","fax._mfax_ifaxtiff_get_recipientname","fax._mfax_ifaxtiff_mfax_ifaxtiff_get_recipientname_cpp","faxcom/IFaxTiff::RecipientName","faxcom/IFaxTiff::get_RecipientName","get_RecipientName"]
 old-location: fax\_mfax_ifaxtiff_mfax_ifaxtiff_get_recipientname_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_29b9.htm

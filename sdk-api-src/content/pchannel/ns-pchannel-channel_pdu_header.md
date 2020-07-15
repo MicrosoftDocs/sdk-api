@@ -1,7 +1,8 @@
 ---
 UID: NS:pchannel.tagCHANNEL_PDU_HEADER
 title: CHANNEL_PDU_HEADER (pchannel.h)
-description: Contains information about a data block being received by the server end of a virtual channel.helpviewer_keywords: ["*PCHANNEL_PDU_HEADER","CHANNEL_FLAG_FIRST","CHANNEL_FLAG_LAST","CHANNEL_FLAG_MIDDLE","CHANNEL_FLAG_ONLY","CHANNEL_PDU_HEADER","CHANNEL_PDU_HEADER structure [Remote Desktop Services]","PCHANNEL_PDU_HEADER","PCHANNEL_PDU_HEADER structure pointer [Remote Desktop Services]","_win32_channel_pdu_header_str","pchannel/CHANNEL_PDU_HEADER","pchannel/PCHANNEL_PDU_HEADER","termserv.channel_pdu_header_str"]
+description: Contains information about a data block being received by the server end of a virtual channel.
+helpviewer_keywords: ["*PCHANNEL_PDU_HEADER","CHANNEL_FLAG_FIRST","CHANNEL_FLAG_LAST","CHANNEL_FLAG_MIDDLE","CHANNEL_FLAG_ONLY","CHANNEL_PDU_HEADER","CHANNEL_PDU_HEADER structure [Remote Desktop Services]","PCHANNEL_PDU_HEADER","PCHANNEL_PDU_HEADER structure pointer [Remote Desktop Services]","_win32_channel_pdu_header_str","pchannel/CHANNEL_PDU_HEADER","pchannel/PCHANNEL_PDU_HEADER","termserv.channel_pdu_header_str"]
 old-location: termserv\channel_pdu_header_str.htm
 tech.root: TermServ
 ms.assetid: f980e746-fc05-45e8-af27-6f137ef01bf9

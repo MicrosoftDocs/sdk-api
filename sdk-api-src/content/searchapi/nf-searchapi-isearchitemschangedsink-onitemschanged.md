@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchItemsChangedSink.OnItemsChanged
 title: ISearchItemsChangedSink::OnItemsChanged (searchapi.h)
-description: Call this method to notify an indexer to re-index some changed items.helpviewer_keywords: ["ISearchItemsChangedSink interface [search]","OnItemsChanged method","ISearchItemsChangedSink.OnItemsChanged","ISearchItemsChangedSink::OnItemsChanged","OnItemsChanged","OnItemsChanged method [search]","OnItemsChanged method [search]","ISearchItemsChangedSink interface","_search_ISearchItemsChangedSink_OnItemsChanged","search._search_ISearchItemsChangedSink_OnItemsChanged","searchapi/ISearchItemsChangedSink::OnItemsChanged"]
+description: Call this method to notify an indexer to re-index some changed items.
+helpviewer_keywords: ["ISearchItemsChangedSink interface [search]","OnItemsChanged method","ISearchItemsChangedSink.OnItemsChanged","ISearchItemsChangedSink::OnItemsChanged","OnItemsChanged","OnItemsChanged method [search]","OnItemsChanged method [search]","ISearchItemsChangedSink interface","_search_ISearchItemsChangedSink_OnItemsChanged","search._search_ISearchItemsChangedSink_OnItemsChanged","searchapi/ISearchItemsChangedSink::OnItemsChanged"]
 old-location: search\_search_ISearchItemsChangedSink_OnItemsChanged.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\notifications\isearchitemschangedsink\onitemschanged.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetRegionOfInterest
 title: IMILBitmapEffectRenderContext::SetRegionOfInterest (mileffects.h)
-description: Sets the region of interest for the effect.helpviewer_keywords: ["IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","SetRegionOfInterest method","IMILBitmapEffectRenderContext.SetRegionOfInterest","IMILBitmapEffectRenderContext::SetRegionOfInterest","SetRegionOfInterest","SetRegionOfInterest method [WPF Bitmap Effects]","SetRegionOfInterest method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","_wibe_imilbitmapeffectrendercontext_setregionofinterest","mileffects/IMILBitmapEffectRenderContext::SetRegionOfInterest","wibe._wibe_imilbitmapeffectrendercontext_setregionofinterest"]
+description: Sets the region of interest for the effect.
+helpviewer_keywords: ["IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","SetRegionOfInterest method","IMILBitmapEffectRenderContext.SetRegionOfInterest","IMILBitmapEffectRenderContext::SetRegionOfInterest","SetRegionOfInterest","SetRegionOfInterest method [WPF Bitmap Effects]","SetRegionOfInterest method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","_wibe_imilbitmapeffectrendercontext_setregionofinterest","mileffects/IMILBitmapEffectRenderContext::SetRegionOfInterest","wibe._wibe_imilbitmapeffectrendercontext_setregionofinterest"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setregionofinterest.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setregionofinterest.htm

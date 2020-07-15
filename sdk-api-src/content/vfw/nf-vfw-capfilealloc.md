@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.capFileAlloc
 title: capFileAlloc macro (vfw.h)
-description: The capFileAlloc macro creates (preallocates) a capture file of a specified size. You can use this macro or explicitly send the WM_CAP_FILE_ALLOCATE message.helpviewer_keywords: ["_win32_capFileAlloc","capFileAlloc","capFileAlloc macro [Windows Multimedia]","multimedia.capfilealloc","vfw/capFileAlloc"]
+description: The capFileAlloc macro creates (preallocates) a capture file of a specified size. You can use this macro or explicitly send the WM_CAP_FILE_ALLOCATE message.
+helpviewer_keywords: ["_win32_capFileAlloc","capFileAlloc","capFileAlloc macro [Windows Multimedia]","multimedia.capfilealloc","vfw/capFileAlloc"]
 old-location: multimedia\capfilealloc.htm
 tech.root: Multimedia
 ms.assetid: 579c5406-f44a-4ea2-9822-f09a890489fb

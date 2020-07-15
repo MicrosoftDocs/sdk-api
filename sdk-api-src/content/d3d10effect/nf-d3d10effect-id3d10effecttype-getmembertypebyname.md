@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectType.GetMemberTypeByName
 title: ID3D10EffectType::GetMemberTypeByName (d3d10effect.h)
-description: Get an member type by name.helpviewer_keywords: ["86e236b9-7c07-9a19-3421-2874e5f044cd","GetMemberTypeByName","GetMemberTypeByName method [Direct3D 10]","GetMemberTypeByName method [Direct3D 10]","ID3D10EffectType interface","ID3D10EffectType interface [Direct3D 10]","GetMemberTypeByName method","ID3D10EffectType.GetMemberTypeByName","ID3D10EffectType::GetMemberTypeByName","d3d10effect/ID3D10EffectType::GetMemberTypeByName","direct3d10.id3d10effecttype_getmembertypebyname"]
+description: Get an member type by name.
+helpviewer_keywords: ["86e236b9-7c07-9a19-3421-2874e5f044cd","GetMemberTypeByName","GetMemberTypeByName method [Direct3D 10]","GetMemberTypeByName method [Direct3D 10]","ID3D10EffectType interface","ID3D10EffectType interface [Direct3D 10]","GetMemberTypeByName method","ID3D10EffectType.GetMemberTypeByName","ID3D10EffectType::GetMemberTypeByName","d3d10effect/ID3D10EffectType::GetMemberTypeByName","direct3d10.id3d10effecttype_getmembertypebyname"]
 old-location: direct3d10\id3d10effecttype_getmembertypebyname.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effecttype_getmembertypebyname.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlayer2.get_stretchToFit
 title: IWMPPlayer2::get_stretchToFit (wmp.h)
-description: The get_stretchToFit method retrieves a value indicating whether video displayed by the Windows Media Player control automatically sizes to fit the video window when the video window is larger than the dimensions of the video image.helpviewer_keywords: ["IWMPPlayer2 interface [Windows Media Player]","get_stretchToFit method","IWMPPlayer2.get_stretchToFit","IWMPPlayer2::get_stretchToFit","IWMPPlayer2get_stretchToFit","get_stretchToFit","get_stretchToFit method [Windows Media Player]","get_stretchToFit method [Windows Media Player]","IWMPPlayer2 interface","wmp.iwmpplayer2_get_stretchtofit","wmp/IWMPPlayer2::get_stretchToFit"]
+description: The get_stretchToFit method retrieves a value indicating whether video displayed by the Windows Media Player control automatically sizes to fit the video window when the video window is larger than the dimensions of the video image.
+helpviewer_keywords: ["IWMPPlayer2 interface [Windows Media Player]","get_stretchToFit method","IWMPPlayer2.get_stretchToFit","IWMPPlayer2::get_stretchToFit","IWMPPlayer2get_stretchToFit","get_stretchToFit","get_stretchToFit method [Windows Media Player]","get_stretchToFit method [Windows Media Player]","IWMPPlayer2 interface","wmp.iwmpplayer2_get_stretchtofit","wmp/IWMPPlayer2::get_stretchToFit"]
 old-location: wmp\iwmpplayer2_get_stretchtofit.htm
 tech.root: WMP
 ms.assetid: d477800d-fb16-49a7-ab80-a0f5f7c68fc7

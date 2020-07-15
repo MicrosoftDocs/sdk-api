@@ -1,7 +1,8 @@
 ---
 UID: NF:prntvpt.PTGetPrintCapabilities
 title: PTGetPrintCapabilities function (prntvpt.h)
-description: Retrieves the printer's capabilities formatted in compliance with the XML Print Schema.helpviewer_keywords: ["PTGetPrintCapabilities","PTGetPrintCapabilities function [Windows GDI]","_win32_PTGetPrintCapabilities","gdi.ptgetprintcapabilities","prntvpt/PTGetPrintCapabilities"]
+description: Retrieves the printer's capabilities formatted in compliance with the XML Print Schema.
+helpviewer_keywords: ["PTGetPrintCapabilities","PTGetPrintCapabilities function [Windows GDI]","_win32_PTGetPrintCapabilities","gdi.ptgetprintcapabilities","prntvpt/PTGetPrintCapabilities"]
 old-location: gdi\ptgetprintcapabilities.htm
 tech.root: printdocs
 ms.assetid: 925e314c-85ff-4c1b-b3c9-f36aa4b55e01

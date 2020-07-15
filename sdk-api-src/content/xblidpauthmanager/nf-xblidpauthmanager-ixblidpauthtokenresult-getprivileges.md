@@ -1,7 +1,8 @@
 ---
 UID: NF:xblidpauthmanager.IXblIdpAuthTokenResult.GetPrivileges
 title: IXblIdpAuthTokenResult::GetPrivileges (xblidpauthmanager.h)
-description: Reserved for Microsoft use.helpviewer_keywords: ["GetPrivileges","GetPrivileges method","GetPrivileges method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetPrivileges method","IXblIdpAuthTokenResult.GetPrivileges","IXblIdpAuthTokenResult::GetPrivileges","xblidp.ixblidpauthtokenresult_getprivileges","xblidpauthmanager/IXblIdpAuthTokenResult::GetPrivileges"]
+description: Reserved for Microsoft use.
+helpviewer_keywords: ["GetPrivileges","GetPrivileges method","GetPrivileges method","IXblIdpAuthTokenResult interface","IXblIdpAuthTokenResult interface","GetPrivileges method","IXblIdpAuthTokenResult.GetPrivileges","IXblIdpAuthTokenResult::GetPrivileges","xblidp.ixblidpauthtokenresult_getprivileges","xblidpauthmanager/IXblIdpAuthTokenResult::GetPrivileges"]
 old-location: xblidp\ixblidpauthtokenresult_getprivileges.htm
 tech.root: xblidp
 ms.assetid: A351B734-6311-4E89-8832-F2460E738BA0

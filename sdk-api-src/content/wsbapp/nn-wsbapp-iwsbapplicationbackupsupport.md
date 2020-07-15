@@ -1,7 +1,8 @@
 ---
 UID: NN:wsbapp.IWsbApplicationBackupSupport
 title: IWsbApplicationBackupSupport (wsbapp.h)
-description: Defines a method for checking the consistency of the application's VSS writer's components.helpviewer_keywords: ["IWsbApplicationBackupSupport","IWsbApplicationBackupSupport interface [Windows Server Backup]","IWsbApplicationBackupSupport interface [Windows Server Backup]","described","wsb.iwsbapplicationbackupsupport","wsbapp/IWsbApplicationBackupSupport"]
+description: Defines a method for checking the consistency of the application's VSS writer's components.
+helpviewer_keywords: ["IWsbApplicationBackupSupport","IWsbApplicationBackupSupport interface [Windows Server Backup]","IWsbApplicationBackupSupport interface [Windows Server Backup]","described","wsb.iwsbapplicationbackupsupport","wsbapp/IWsbApplicationBackupSupport"]
 old-location: wsb\iwsbapplicationbackupsupport.htm
 tech.root: wsb
 ms.assetid: 45865f1b-0f0a-46fc-b1f3-f2fd7c49f56f

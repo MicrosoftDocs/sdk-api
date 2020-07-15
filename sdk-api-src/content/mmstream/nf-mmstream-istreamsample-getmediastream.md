@@ -1,7 +1,8 @@
 ---
 UID: NF:mmstream.IStreamSample.GetMediaStream
 title: IStreamSample::GetMediaStream (mmstream.h)
-description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the media stream object that created the current sample.helpviewer_keywords: ["GetMediaStream","GetMediaStream method [DirectShow]","GetMediaStream method [DirectShow]","IStreamSample interface","IStreamSample interface [DirectShow]","GetMediaStream method","IStreamSample.GetMediaStream","IStreamSample::GetMediaStream","IStreamSampleGetMediaStream","dshow.istreamsample_getmediastream","mmstream/IStreamSample::GetMediaStream"]
+description: Note  This interface is deprecated. New applications should not use it. Retrieves a pointer to the media stream object that created the current sample.
+helpviewer_keywords: ["GetMediaStream","GetMediaStream method [DirectShow]","GetMediaStream method [DirectShow]","IStreamSample interface","IStreamSample interface [DirectShow]","GetMediaStream method","IStreamSample.GetMediaStream","IStreamSample::GetMediaStream","IStreamSampleGetMediaStream","dshow.istreamsample_getmediastream","mmstream/IStreamSample::GetMediaStream"]
 old-location: dshow\istreamsample_getmediastream.htm
 tech.root: DirectShow
 ms.assetid: dfc38480-7b8d-42ad-937b-dd39384796c9

@@ -1,7 +1,8 @@
 ---
 UID: NF:wpcapi.IWPCProviderState.Disable
 title: IWPCProviderState::Disable (wpcapi.h)
-description: Notifies the third-party application that it is not the current provider.helpviewer_keywords: ["Disable","Disable method","Disable method","IWPCProviderState interface","IWPCProviderState interface","Disable method","IWPCProviderState.Disable","IWPCProviderState::Disable","parcon.iwpcproviderstate_disable","wpcapi/IWPCProviderState::Disable"]
+description: Notifies the third-party application that it is not the current provider.
+helpviewer_keywords: ["Disable","Disable method","Disable method","IWPCProviderState interface","IWPCProviderState interface","Disable method","IWPCProviderState.Disable","IWPCProviderState::Disable","parcon.iwpcproviderstate_disable","wpcapi/IWPCProviderState::Disable"]
 old-location: parcon\iwpcproviderstate_disable.htm
 tech.root: parcon
 ms.assetid: 2aa1a236-b681-4226-a337-507d0854955d

@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagHELPINFO
 title: HELPINFO (winuser.h)
-description: Contains information about an item for which context-sensitive Help has been requested.helpviewer_keywords: ["*LPHELPINFO","HELPINFO","HELPINFO structure [Windows Shell]","HELPINFO_MENUITEM","HELPINFO_WINDOW","LPHELPINFO","LPHELPINFO structure pointer [Windows Shell]","_win32_HELPINFO_str","_win32_helpinfo_str_cpp","shell.HELPINFO_str","tagHELPINFO","winuser/HELPINFO","winuser/LPHELPINFO"]
+description: Contains information about an item for which context-sensitive Help has been requested.
+helpviewer_keywords: ["*LPHELPINFO","HELPINFO","HELPINFO structure [Windows Shell]","HELPINFO_MENUITEM","HELPINFO_WINDOW","LPHELPINFO","LPHELPINFO structure pointer [Windows Shell]","_win32_HELPINFO_str","_win32_helpinfo_str_cpp","shell.HELPINFO_str","tagHELPINFO","winuser/HELPINFO","winuser/LPHELPINFO"]
 old-location: shell\HELPINFO_str.htm
 tech.root: shell
 ms.assetid: 8320fb68-294b-487b-ab5a-6611bb57cff0

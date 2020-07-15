@@ -1,7 +1,8 @@
 ---
 UID: NF:wincred.CredGetTargetInfoA
 title: CredGetTargetInfoA function (wincred.h)
-description: The CredGetTargetInfo function retrieves all known target name information for the named target computer.helpviewer_keywords: ["CredGetTargetInfo","CredGetTargetInfo function [Security]","CredGetTargetInfoA","CredGetTargetInfoW","_cred_credgettargetinfo","security.credgettargetinfo","wincred/CredGetTargetInfo","wincred/CredGetTargetInfoA","wincred/CredGetTargetInfoW"]
+description: The CredGetTargetInfo function retrieves all known target name information for the named target computer.
+helpviewer_keywords: ["CredGetTargetInfo","CredGetTargetInfo function [Security]","CredGetTargetInfoA","CredGetTargetInfoW","_cred_credgettargetinfo","security.credgettargetinfo","wincred/CredGetTargetInfo","wincred/CredGetTargetInfoA","wincred/CredGetTargetInfoW"]
 old-location: security\credgettargetinfo.htm
 tech.root: SecAuthN
 ms.assetid: 14dca0af-72d7-4ca8-84bb-c7040c5b5fb9
@@ -130,4 +131,9 @@ Target information for the named server is not available.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The wincred.h header defines CredGetTargetInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:npapi.NPLogonNotify
 title: NPLogonNotify function (npapi.h)
-description: MPR calls this function to notify the credential manager that a logon event has occurred, allowing the credential manager to return a logon script.helpviewer_keywords: ["NPLogonNotify","NPLogonNotify function [Security]","SvcCtl","WinSta_0","_mnp_nplogonnotify","npapi/NPLogonNotify","security.nplogonnotify"]
+description: MPR calls this function to notify the credential manager that a logon event has occurred, allowing the credential manager to return a logon script.
+helpviewer_keywords: ["NPLogonNotify","NPLogonNotify function [Security]","SvcCtl","WinSta_0","_mnp_nplogonnotify","npapi/NPLogonNotify","security.nplogonnotify"]
 old-location: security\nplogonnotify.htm
 tech.root: SecAuthN
 ms.assetid: 9b0e5646-ac57-4eae-bad7-a16c07b51f4b

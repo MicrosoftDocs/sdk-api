@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IBootOptions.put_Manufacturer
 title: IBootOptions::put_Manufacturer (imapi2fs.h)
-description: Sets an identifier that identifies the manufacturer or developer of the CD.helpviewer_keywords: ["IBootOptions interface [IMAPI]","put_Manufacturer method","IBootOptions.put_Manufacturer","IBootOptions::put_Manufacturer","imapi.ibootoptions_put_manufacturer","imapi2fs/IBootOptions::put_Manufacturer","put_Manufacturer","put_Manufacturer method [IMAPI]","put_Manufacturer method [IMAPI]","IBootOptions interface"]
+description: Sets an identifier that identifies the manufacturer or developer of the CD.
+helpviewer_keywords: ["IBootOptions interface [IMAPI]","put_Manufacturer method","IBootOptions.put_Manufacturer","IBootOptions::put_Manufacturer","imapi.ibootoptions_put_manufacturer","imapi2fs/IBootOptions::put_Manufacturer","put_Manufacturer","put_Manufacturer method [IMAPI]","put_Manufacturer method [IMAPI]","IBootOptions interface"]
 old-location: imapi\ibootoptions_put_manufacturer.htm
 tech.root: imapi
 ms.assetid: 485b36f0-6c33-48da-8ac5-64f4fc13fd68

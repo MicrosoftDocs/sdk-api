@@ -1,7 +1,8 @@
 ---
 UID: NN:syncmgr.ISyncMgrConflictResolveInfo
 title: ISyncMgrConflictResolveInfo (syncmgr.h)
-description: Exposes methods that get and set information about sync manager conflict resolution.helpviewer_keywords: ["ISyncMgrConflictResolveInfo","ISyncMgrConflictResolveInfo interface [Windows Shell]","ISyncMgrConflictResolveInfo interface [Windows Shell]","described","_shell_ISyncMgrConflictResolveInfo","shell.ISyncMgrConflictResolveInfo","syncmgr/ISyncMgrConflictResolveInfo"]
+description: Exposes methods that get and set information about sync manager conflict resolution.
+helpviewer_keywords: ["ISyncMgrConflictResolveInfo","ISyncMgrConflictResolveInfo interface [Windows Shell]","ISyncMgrConflictResolveInfo interface [Windows Shell]","described","_shell_ISyncMgrConflictResolveInfo","shell.ISyncMgrConflictResolveInfo","syncmgr/ISyncMgrConflictResolveInfo"]
 old-location: shell\ISyncMgrConflictResolveInfo.htm
 tech.root: shell
 ms.assetid: c47d533f-7307-4db3-a025-961f3419203e

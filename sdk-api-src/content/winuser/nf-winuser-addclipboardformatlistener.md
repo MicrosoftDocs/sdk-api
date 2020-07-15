@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.AddClipboardFormatListener
 title: AddClipboardFormatListener function (winuser.h)
-description: Places the given window in the system-maintained clipboard format listener list.helpviewer_keywords: ["AddClipboardFormatListener","AddClipboardFormatListener function [Data Exchange]","_win32_AddClipboardFormatListener","_win32_addclipboardformatlistener_cpp","dataxchg.addclipboardformatlistener","winui._win32_addclipboardformatlistener","winuser/AddClipboardFormatListener"]
+description: Places the given window in the system-maintained clipboard format listener list.
+helpviewer_keywords: ["AddClipboardFormatListener","AddClipboardFormatListener function [Data Exchange]","_win32_AddClipboardFormatListener","_win32_addclipboardformatlistener_cpp","dataxchg.addclipboardformatlistener","winui._win32_addclipboardformatlistener","winuser/AddClipboardFormatListener"]
 old-location: dataxchg\addclipboardformatlistener.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\clipboard\clipboardreference\clipboardfunctions\addclipboardformatlistener.htm

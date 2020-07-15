@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_UINT16_DESCRIPTION
 title: WS_UINT16_DESCRIPTION (webservices.h)
-description: An optional type description used with WS_UINT16_TYPE to specify constraints on the set of values which can be deserialized.helpviewer_keywords: ["WS_UINT16_DESCRIPTION","WS_UINT16_DESCRIPTION structure [Web Services for Windows]","webservices/WS_UINT16_DESCRIPTION","wsw.ws_uint16_description"]
+description: An optional type description used with WS_UINT16_TYPE to specify constraints on the set of values which can be deserialized.
+helpviewer_keywords: ["WS_UINT16_DESCRIPTION","WS_UINT16_DESCRIPTION structure [Web Services for Windows]","webservices/WS_UINT16_DESCRIPTION","wsw.ws_uint16_description"]
 old-location: wsw\ws_uint16_description.htm
 tech.root: wsw
 ms.assetid: 62bc0e6c-a8f0-4b57-89bc-a2832d785703

@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.ISCPSecureQuery.GetDataDemands
 title: ISCPSecureQuery::GetDataDemands (mswmdm.h)
-description: The GetDataDemands method reports which data the secure content provider needs to determine the rights and responsibility for a specified piece of content.helpviewer_keywords: ["GetDataDemands","GetDataDemands method [windows Media Device Manager]","GetDataDemands method [windows Media Device Manager]","ISCPSecureQuery interface","ISCPSecureQuery interface [windows Media Device Manager]","GetDataDemands method","ISCPSecureQuery.GetDataDemands","ISCPSecureQuery::GetDataDemands","ISCPSecureQueryGetDataDemands","mswmdm/ISCPSecureQuery::GetDataDemands","wmdm.iscpsecurequery_getdatademands"]
+description: The GetDataDemands method reports which data the secure content provider needs to determine the rights and responsibility for a specified piece of content.
+helpviewer_keywords: ["GetDataDemands","GetDataDemands method [windows Media Device Manager]","GetDataDemands method [windows Media Device Manager]","ISCPSecureQuery interface","ISCPSecureQuery interface [windows Media Device Manager]","GetDataDemands method","ISCPSecureQuery.GetDataDemands","ISCPSecureQuery::GetDataDemands","ISCPSecureQueryGetDataDemands","mswmdm/ISCPSecureQuery::GetDataDemands","wmdm.iscpsecurequery_getdatademands"]
 old-location: wmdm\iscpsecurequery_getdatademands.htm
 tech.root: WMDM
 ms.assetid: c4ed4da1-9378-4c35-8f03-b028e37c1707

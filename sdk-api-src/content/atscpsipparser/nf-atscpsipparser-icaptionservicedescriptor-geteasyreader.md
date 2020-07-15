@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetEasyReader
 title: ICaptionServiceDescriptor::GetEasyReader (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetEasyReader","GetEasyReader method [Microsoft TV Technologies]","GetEasyReader method [Microsoft TV Technologies]","ICaptionServiceDescriptor interface","ICaptionServiceDescriptor interface [Microsoft TV Technologies]","GetEasyReader method","ICaptionServiceDescriptor.GetEasyReader","ICaptionServiceDescriptor::GetEasyReader","ICaptionServiceDescriptorGetEasyReader","atscpsipparser/ICaptionServiceDescriptor::GetEasyReader","mstv.icaptionservicedescriptor_geteasyreader"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetEasyReader","GetEasyReader method [Microsoft TV Technologies]","GetEasyReader method [Microsoft TV Technologies]","ICaptionServiceDescriptor interface","ICaptionServiceDescriptor interface [Microsoft TV Technologies]","GetEasyReader method","ICaptionServiceDescriptor.GetEasyReader","ICaptionServiceDescriptor::GetEasyReader","ICaptionServiceDescriptorGetEasyReader","atscpsipparser/ICaptionServiceDescriptor::GetEasyReader","mstv.icaptionservicedescriptor_geteasyreader"]
 old-location: mstv\icaptionservicedescriptor_geteasyreader.htm
 tech.root: mstv
 ms.assetid: 7ecf31c8-b93e-4c6c-991c-33ce942757ec

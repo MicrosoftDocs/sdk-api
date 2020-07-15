@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMProgress3.Progress3
 title: IWMDMProgress3::Progress3 (mswmdm.h)
-description: The Progress3 method is called by Windows Media Device Manager to indicate the status of an action in progress.helpviewer_keywords: ["IWMDMProgress3 interface [windows Media Device Manager]","Progress3 method","IWMDMProgress3.Progress3","IWMDMProgress3::Progress3","IWMDMProgress3Progress3","Progress3","Progress3 method [windows Media Device Manager]","Progress3 method [windows Media Device Manager]","IWMDMProgress3 interface","mswmdm/IWMDMProgress3::Progress3","wmdm.iwmdmprogress3_progress3"]
+description: The Progress3 method is called by Windows Media Device Manager to indicate the status of an action in progress.
+helpviewer_keywords: ["IWMDMProgress3 interface [windows Media Device Manager]","Progress3 method","IWMDMProgress3.Progress3","IWMDMProgress3::Progress3","IWMDMProgress3Progress3","Progress3","Progress3 method [windows Media Device Manager]","Progress3 method [windows Media Device Manager]","IWMDMProgress3 interface","mswmdm/IWMDMProgress3::Progress3","wmdm.iwmdmprogress3_progress3"]
 old-location: wmdm\iwmdmprogress3_progress3.htm
 tech.root: WMDM
 ms.assetid: 33f1de9c-f2eb-4b83-89a1-404a8c50ee08

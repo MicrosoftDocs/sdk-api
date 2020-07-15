@@ -1,7 +1,8 @@
 ---
 UID: NE:wuapi.tagDeploymentAction
 title: DeploymentAction (wuapi.h)
-description: Defines the action for which an update is explicitly deployed.helpviewer_keywords: ["DeploymentAction","DeploymentAction enumeration [Windows Update Agent]","daDetection","daInstallation","daNone","daUninstallation","wua.deploymentaction","wuapi/DeploymentAction","wuapi/daDetection","wuapi/daInstallation","wuapi/daNone","wuapi/daUninstallation"]
+description: Defines the action for which an update is explicitly deployed.
+helpviewer_keywords: ["DeploymentAction","DeploymentAction enumeration [Windows Update Agent]","daDetection","daInstallation","daNone","daUninstallation","wua.deploymentaction","wuapi/DeploymentAction","wuapi/daDetection","wuapi/daInstallation","wuapi/daNone","wuapi/daUninstallation"]
 old-location: wua\deploymentaction.htm
 tech.root: Wua_Sdk
 ms.assetid: c192db44-05ad-4fb2-aa51-9153389d95dc

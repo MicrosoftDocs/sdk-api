@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IManagedActivationEvents.CreateManagedStub
 title: IManagedActivationEvents::CreateManagedStub (comsvcs.h)
-description: Creates a stub for a managed object within the current COM+ context.helpviewer_keywords: ["CreateManagedStub","CreateManagedStub method [COM+]","CreateManagedStub method [COM+]","IManagedActivationEvents interface","IManagedActivationEvents interface [COM+]","CreateManagedStub method","IManagedActivationEvents.CreateManagedStub","IManagedActivationEvents::CreateManagedStub","_cos_IManagedActivationEvents_CreateManagedStub","comsvcs/IManagedActivationEvents::CreateManagedStub","cos.imanagedactivationevents_createmanagedstub"]
+description: Creates a stub for a managed object within the current COM+ context.
+helpviewer_keywords: ["CreateManagedStub","CreateManagedStub method [COM+]","CreateManagedStub method [COM+]","IManagedActivationEvents interface","IManagedActivationEvents interface [COM+]","CreateManagedStub method","IManagedActivationEvents.CreateManagedStub","IManagedActivationEvents::CreateManagedStub","_cos_IManagedActivationEvents_CreateManagedStub","comsvcs/IManagedActivationEvents::CreateManagedStub","cos.imanagedactivationevents_createmanagedstub"]
 old-location: cos\imanagedactivationevents_createmanagedstub.htm
 tech.root: cossdk
 ms.assetid: a2ba7ece-ac17-42fb-b22f-976ad849eca5

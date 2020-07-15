@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterNodeEnum
 title: ClusterNodeEnum function (clusapi.h)
-description: Enumerates the network interfaces or groups installed on a node, returning the name of each with each call.helpviewer_keywords: ["CLUSTER_NODE_ENUM_GROUPS","CLUSTER_NODE_ENUM_NETINTERFACES","ClusterNodeEnum","ClusterNodeEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_NODE_ENUM","PCLUSAPI_CLUSTER_NODE_ENUM function [Failover Cluster]","_wolf_clusternodeenum","clusapi/ClusterNodeEnum","clusapi/PCLUSAPI_CLUSTER_NODE_ENUM","mscs.clusternodeenum"]
+description: Enumerates the network interfaces or groups installed on a node, returning the name of each with each call.
+helpviewer_keywords: ["CLUSTER_NODE_ENUM_GROUPS","CLUSTER_NODE_ENUM_NETINTERFACES","ClusterNodeEnum","ClusterNodeEnum function [Failover Cluster]","PCLUSAPI_CLUSTER_NODE_ENUM","PCLUSAPI_CLUSTER_NODE_ENUM function [Failover Cluster]","_wolf_clusternodeenum","clusapi/ClusterNodeEnum","clusapi/PCLUSAPI_CLUSTER_NODE_ENUM","mscs.clusternodeenum"]
 old-location: mscs\clusternodeenum.htm
 tech.root: MsCS
 ms.assetid: e184ef8e-9ec6-4d84-a3d0-850298262b81

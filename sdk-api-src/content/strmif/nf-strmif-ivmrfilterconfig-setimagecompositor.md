@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRFilterConfig.SetImageCompositor
 title: IVMRFilterConfig::SetImageCompositor (strmif.h)
-description: The SetImageCompositor method installs an application-provided image compositor.helpviewer_keywords: ["IVMRFilterConfig interface [DirectShow]","SetImageCompositor method","IVMRFilterConfig.SetImageCompositor","IVMRFilterConfig::SetImageCompositor","IVMRFilterConfigSetImageCompositor","SetImageCompositor","SetImageCompositor method [DirectShow]","SetImageCompositor method [DirectShow]","IVMRFilterConfig interface","dshow.ivmrfilterconfig_setimagecompositor","strmif/IVMRFilterConfig::SetImageCompositor"]
+description: The SetImageCompositor method installs an application-provided image compositor.
+helpviewer_keywords: ["IVMRFilterConfig interface [DirectShow]","SetImageCompositor method","IVMRFilterConfig.SetImageCompositor","IVMRFilterConfig::SetImageCompositor","IVMRFilterConfigSetImageCompositor","SetImageCompositor","SetImageCompositor method [DirectShow]","SetImageCompositor method [DirectShow]","IVMRFilterConfig interface","dshow.ivmrfilterconfig_setimagecompositor","strmif/IVMRFilterConfig::SetImageCompositor"]
 old-location: dshow\ivmrfilterconfig_setimagecompositor.htm
 tech.root: DirectShow
 ms.assetid: 504380d4-4df6-4b01-8db3-5c769a3d4106

@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1ConcreteTransform.SetCached
 title: ID2D1ConcreteTransform::SetCached (d2d1effectauthor.h)
-description: Sets whether the output of the specified transform is cached.helpviewer_keywords: ["ID2D1ConcreteTransform interface [Direct2D]","SetCached method","ID2D1ConcreteTransform.SetCached","ID2D1ConcreteTransform::SetCached","SetCached","SetCached method [Direct2D]","SetCached method [Direct2D]","ID2D1ConcreteTransform interface","d2d1effectauthor/ID2D1ConcreteTransform::SetCached","direct2d.id2d1concretetransform_setcached"]
+description: Sets whether the output of the specified transform is cached.
+helpviewer_keywords: ["ID2D1ConcreteTransform interface [Direct2D]","SetCached method","ID2D1ConcreteTransform.SetCached","ID2D1ConcreteTransform::SetCached","SetCached","SetCached method [Direct2D]","SetCached method [Direct2D]","ID2D1ConcreteTransform interface","d2d1effectauthor/ID2D1ConcreteTransform::SetCached","direct2d.id2d1concretetransform_setcached"]
 old-location: direct2d\id2d1concretetransform_setcached.htm
 tech.root: Direct2D
 ms.assetid: A1600D5A-BEE9-4EBE-BC2E-53B6B80EE4EA

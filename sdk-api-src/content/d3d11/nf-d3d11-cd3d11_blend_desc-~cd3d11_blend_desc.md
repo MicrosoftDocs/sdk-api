@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.CD3D11_BLEND_DESC.~CD3D11_BLEND_DESC
 title: CD3D11_BLEND_DESC::~CD3D11_BLEND_DESC (d3d11.h)
-description: Destroys an instance of a CD3D11_BLEND_DESC structure.helpviewer_keywords: ["CD3D11_BLEND_DESC interface [Direct3D 11]","~CD3D11_BLEND_DESC destructor","CD3D11_BLEND_DESC.~CD3D11_BLEND_DESC","CD3D11_BLEND_DESC::~CD3D11_BLEND_DESC","CD3D11_BLEND_DESC::~CD3D11_BLEND_DESC()","d3d11/CD3D11_BLEND_DESC::~CD3D11_BLEND_DESC","direct3d11.cd3d11_blend_desc__cd3d11_blend_desc__destructor","~CD3D11_BLEND_DESC","~CD3D11_BLEND_DESC destructor [Direct3D 11]","~CD3D11_BLEND_DESC destructor [Direct3D 11]","CD3D11_BLEND_DESC interface"]
+description: Destroys an instance of a CD3D11_BLEND_DESC structure.
+helpviewer_keywords: ["CD3D11_BLEND_DESC interface [Direct3D 11]","~CD3D11_BLEND_DESC destructor","CD3D11_BLEND_DESC.~CD3D11_BLEND_DESC","CD3D11_BLEND_DESC::~CD3D11_BLEND_DESC","CD3D11_BLEND_DESC::~CD3D11_BLEND_DESC()","d3d11/CD3D11_BLEND_DESC::~CD3D11_BLEND_DESC","direct3d11.cd3d11_blend_desc__cd3d11_blend_desc__destructor","~CD3D11_BLEND_DESC","~CD3D11_BLEND_DESC destructor [Direct3D 11]","~CD3D11_BLEND_DESC destructor [Direct3D 11]","CD3D11_BLEND_DESC interface"]
 old-location: direct3d11\cd3d11_blend_desc__cd3d11_blend_desc__destructor.htm
 tech.root: direct3d11
 ms.assetid: FFDC3E04-2A0C-42AD-9726-60FC951F68B3

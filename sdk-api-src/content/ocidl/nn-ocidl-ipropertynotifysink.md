@@ -1,7 +1,8 @@
 ---
 UID: NN:ocidl.IPropertyNotifySink
 title: IPropertyNotifySink (ocidl.h)
-description: Implemented by a sink object to receive notifications about property changes from an object that supports IPropertyNotifySink as an outgoing interface.helpviewer_keywords: ["IPropertyNotifySink","IPropertyNotifySink interface [COM]","IPropertyNotifySink interface [COM]","described","_ctrl_ipropertynotifysink","com.ipropertynotifysink","ocidl/IPropertyNotifySink"]
+description: Implemented by a sink object to receive notifications about property changes from an object that supports IPropertyNotifySink as an outgoing interface.
+helpviewer_keywords: ["IPropertyNotifySink","IPropertyNotifySink interface [COM]","IPropertyNotifySink interface [COM]","described","_ctrl_ipropertynotifysink","com.ipropertynotifysink","ocidl/IPropertyNotifySink"]
 old-location: com\ipropertynotifysink.htm
 tech.root: com
 ms.assetid: bfdf315c-6375-4c77-abd8-03f07342820f

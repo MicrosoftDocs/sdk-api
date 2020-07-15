@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IAMBufferNegotiation
 title: IAMBufferNegotiation (strmif.h)
-description: The IAMBufferNegotiation interface requests the number of buffers for a filter to create and size of each buffer.helpviewer_keywords: ["IAMBufferNegotiation","IAMBufferNegotiation interface [DirectShow]","IAMBufferNegotiation interface [DirectShow]","described","IAMBufferNegotiationInterface","dshow.iambuffernegotiation","strmif/IAMBufferNegotiation"]
+description: The IAMBufferNegotiation interface requests the number of buffers for a filter to create and size of each buffer.
+helpviewer_keywords: ["IAMBufferNegotiation","IAMBufferNegotiation interface [DirectShow]","IAMBufferNegotiation interface [DirectShow]","described","IAMBufferNegotiationInterface","dshow.iambuffernegotiation","strmif/IAMBufferNegotiation"]
 old-location: dshow\iambuffernegotiation.htm
 tech.root: DirectShow
 ms.assetid: 68e98afd-3275-49bb-b165-48ed40026e76

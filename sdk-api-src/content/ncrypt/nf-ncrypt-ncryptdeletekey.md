@@ -1,7 +1,8 @@
 ---
 UID: NF:ncrypt.NCryptDeleteKey
 title: NCryptDeleteKey function (ncrypt.h)
-description: Deletes a CNG key.helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptDeleteKey","NCryptDeleteKey function [Security]","ncrypt/NCryptDeleteKey","security.ncryptdeletekey_func"]
+description: Deletes a CNG key.
+helpviewer_keywords: ["NCRYPT_SILENT_FLAG","NCryptDeleteKey","NCryptDeleteKey function [Security]","ncrypt/NCryptDeleteKey","security.ncryptdeletekey_func"]
 old-location: security\ncryptdeletekey_func.htm
 tech.root: SecCNG
 ms.assetid: 2e1958a7-51e0-4731-b4cf-a90d6c1f9ae0

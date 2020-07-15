@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DPA_Grow
 title: DPA_Grow function (dpa_dsa.h)
-description: Changes the number of pointers in a dynamic pointer array (DPA).helpviewer_keywords: ["DPA_Grow","DPA_Grow function [Windows Controls]","_shell_DPA_Grow","_shell_DPA_Grow_cpp","controls.DPA_Grow","controls._shell_DPA_Grow","dpa_dsa/DPA_Grow"]
+description: Changes the number of pointers in a dynamic pointer array (DPA).
+helpviewer_keywords: ["DPA_Grow","DPA_Grow function [Windows Controls]","_shell_DPA_Grow","_shell_DPA_Grow_cpp","controls.DPA_Grow","controls._shell_DPA_Grow","dpa_dsa/DPA_Grow"]
 old-location: controls\DPA_Grow.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_grow.htm

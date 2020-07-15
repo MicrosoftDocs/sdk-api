@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ITaskbarList3.ThumbBarSetImageList
 title: ITaskbarList3::ThumbBarSetImageList (shobjidl_core.h)
-description: Specifies an image list that contains button images for a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.helpviewer_keywords: ["ITaskbarList3 interface [Windows Shell]","ThumbBarSetImageList method","ITaskbarList3.ThumbBarSetImageList","ITaskbarList3::ThumbBarSetImageList","ThumbBarSetImageList","ThumbBarSetImageList method [Windows Shell]","ThumbBarSetImageList method [Windows Shell]","ITaskbarList3 interface","_shell_ITaskbarList3_ThumbBarSetImageList","shell.ITaskbarList3_ThumbBarSetImageList","shobjidl_core/ITaskbarList3::ThumbBarSetImageList"]
+description: Specifies an image list that contains button images for a toolbar embedded in a thumbnail image of a window in a taskbar button flyout.
+helpviewer_keywords: ["ITaskbarList3 interface [Windows Shell]","ThumbBarSetImageList method","ITaskbarList3.ThumbBarSetImageList","ITaskbarList3::ThumbBarSetImageList","ThumbBarSetImageList","ThumbBarSetImageList method [Windows Shell]","ThumbBarSetImageList method [Windows Shell]","ITaskbarList3 interface","_shell_ITaskbarList3_ThumbBarSetImageList","shell.ITaskbarList3_ThumbBarSetImageList","shobjidl_core/ITaskbarList3::ThumbBarSetImageList"]
 old-location: shell\ITaskbarList3_ThumbBarSetImageList.htm
 tech.root: shell
 ms.assetid: 5c288b64-8630-42ca-9821-8e131f11f76d

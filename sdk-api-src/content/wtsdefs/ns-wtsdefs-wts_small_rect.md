@@ -1,7 +1,8 @@
 ---
 UID: NS:wtsdefs._WTS_SMALL_RECT
 title: WTS_SMALL_RECT (wtsdefs.h)
-description: Contains client window coordinates.helpviewer_keywords: ["*PWTS_SMALL_RECT","PWRDS_SMALL_RECT","PWRDS_SMALL_RECT structure pointer [Remote Desktop Services]","PWTS_SMALL_RECT","PWTS_SMALL_RECT structure pointer [Remote Desktop Services]","WRDS_SMALL_RECT","WRDS_SMALL_RECT structure [Remote Desktop Services]","WTS_SMALL_RECT","WTS_SMALL_RECT structure [Remote Desktop Services]","termserv.wts_small_rect","wtsdefs/PWRDS_SMALL_RECT","wtsdefs/PWTS_SMALL_RECT","wtsdefs/WRDS_SMALL_RECT","wtsdefs/WTS_SMALL_RECT"]
+description: Contains client window coordinates.
+helpviewer_keywords: ["*PWTS_SMALL_RECT","PWRDS_SMALL_RECT","PWRDS_SMALL_RECT structure pointer [Remote Desktop Services]","PWTS_SMALL_RECT","PWTS_SMALL_RECT structure pointer [Remote Desktop Services]","WRDS_SMALL_RECT","WRDS_SMALL_RECT structure [Remote Desktop Services]","WTS_SMALL_RECT","WTS_SMALL_RECT structure [Remote Desktop Services]","termserv.wts_small_rect","wtsdefs/PWRDS_SMALL_RECT","wtsdefs/PWTS_SMALL_RECT","wtsdefs/WRDS_SMALL_RECT","wtsdefs/WTS_SMALL_RECT"]
 old-location: termserv\wts_small_rect.htm
 tech.root: TermServ
 ms.assetid: 5f139077-8ef4-4c8e-ae33-0dd3aee58ef6

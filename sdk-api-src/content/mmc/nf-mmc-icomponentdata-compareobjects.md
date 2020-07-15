@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IComponentData.CompareObjects
 title: IComponentData::CompareObjects (mmc.h)
-description: The IComponentData::CompareObjects method enables a snap-in to compare two data objects acquired through QueryDataObject. Be aware that the data objects can be acquired from two different instances of IComponentData.helpviewer_keywords: ["CompareObjects","CompareObjects method [MMC]","CompareObjects method [MMC]","IComponentData interface","IComponentData interface [MMC]","CompareObjects method","IComponentData.CompareObjects","IComponentData::CompareObjects","_slate_icomponentdata_compareobjects","mmc.icomponentdata_compareobjects","mmc/IComponentData::CompareObjects"]
+description: The IComponentData::CompareObjects method enables a snap-in to compare two data objects acquired through QueryDataObject. Be aware that the data objects can be acquired from two different instances of IComponentData.
+helpviewer_keywords: ["CompareObjects","CompareObjects method [MMC]","CompareObjects method [MMC]","IComponentData interface","IComponentData interface [MMC]","CompareObjects method","IComponentData.CompareObjects","IComponentData::CompareObjects","_slate_icomponentdata_compareobjects","mmc.icomponentdata_compareobjects","mmc/IComponentData::CompareObjects"]
 old-location: mmc\icomponentdata_compareobjects.htm
 tech.root: mmc
 ms.assetid: d6ca3957-3d0c-492d-9e47-fc898981720b

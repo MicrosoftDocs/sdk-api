@@ -1,7 +1,8 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageLastModifiedTime
 title: WdsCliGetImageLastModifiedTime function (wdsclientapi.h)
-description: Returns the last-modification time of the current image.helpviewer_keywords: ["WdsCliGetImageLastModifiedTime","WdsCliGetImageLastModifiedTime function [Windows Deployment Services]","wds.wdscligetimagelastmodifiedtime","wdsclientapi/WdsCliGetImageLastModifiedTime"]
+description: Returns the last-modification time of the current image.
+helpviewer_keywords: ["WdsCliGetImageLastModifiedTime","WdsCliGetImageLastModifiedTime function [Windows Deployment Services]","wds.wdscligetimagelastmodifiedtime","wdsclientapi/WdsCliGetImageLastModifiedTime"]
 old-location: wds\wdscligetimagelastmodifiedtime.htm
 tech.root: wds
 ms.assetid: b0554857-ffef-4f45-8aba-90512ce7f3b1

@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IGlobalInterfaceTable.RevokeInterfaceFromGlobal
 title: IGlobalInterfaceTable::RevokeInterfaceFromGlobal (objidl.h)
-description: Revokes the registration of an interface in the global interface table.helpviewer_keywords: ["IGlobalInterfaceTable interface [COM]","RevokeInterfaceFromGlobal method","IGlobalInterfaceTable.RevokeInterfaceFromGlobal","IGlobalInterfaceTable::RevokeInterfaceFromGlobal","RevokeInterfaceFromGlobal","RevokeInterfaceFromGlobal method [COM]","RevokeInterfaceFromGlobal method [COM]","IGlobalInterfaceTable interface","_com_iglobalinterfacetable_revokeinterfacefromglobal","com.iglobalinterfacetable_revokeinterfacefromglobal","objidlbase/IGlobalInterfaceTable::RevokeInterfaceFromGlobal"]
+description: Revokes the registration of an interface in the global interface table.
+helpviewer_keywords: ["IGlobalInterfaceTable interface [COM]","RevokeInterfaceFromGlobal method","IGlobalInterfaceTable.RevokeInterfaceFromGlobal","IGlobalInterfaceTable::RevokeInterfaceFromGlobal","RevokeInterfaceFromGlobal","RevokeInterfaceFromGlobal method [COM]","RevokeInterfaceFromGlobal method [COM]","IGlobalInterfaceTable interface","_com_iglobalinterfacetable_revokeinterfacefromglobal","com.iglobalinterfacetable_revokeinterfacefromglobal","objidlbase/IGlobalInterfaceTable::RevokeInterfaceFromGlobal"]
 old-location: com\iglobalinterfacetable_revokeinterfacefromglobal.htm
 tech.root: com
 ms.assetid: 202bf33a-5827-4cbf-b977-86167a9c633f

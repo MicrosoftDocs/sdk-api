@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMProfileManager.LoadSystemProfile
 title: IWMProfileManager::LoadSystemProfile (wmsdkidl.h)
-description: The LoadSystemProfile method loads a system profile identified by its index. If you do not know the index of the desired system profile, you must use IWMProfileManager::LoadProfileByID. To load a custom profile, use IWMProfileManager::LoadProfileByData.helpviewer_keywords: ["IWMProfileManager interface [windows Media Format]","LoadSystemProfile method","IWMProfileManager.LoadSystemProfile","IWMProfileManager::LoadSystemProfile","IWMProfileManagerLoadSystemProfile","LoadSystemProfile","LoadSystemProfile method [windows Media Format]","LoadSystemProfile method [windows Media Format]","IWMProfileManager interface","wmformat.iwmprofilemanager_loadsystemprofile","wmsdkidl/IWMProfileManager::LoadSystemProfile"]
+description: The LoadSystemProfile method loads a system profile identified by its index. If you do not know the index of the desired system profile, you must use IWMProfileManager::LoadProfileByID. To load a custom profile, use IWMProfileManager::LoadProfileByData.
+helpviewer_keywords: ["IWMProfileManager interface [windows Media Format]","LoadSystemProfile method","IWMProfileManager.LoadSystemProfile","IWMProfileManager::LoadSystemProfile","IWMProfileManagerLoadSystemProfile","LoadSystemProfile","LoadSystemProfile method [windows Media Format]","LoadSystemProfile method [windows Media Format]","IWMProfileManager interface","wmformat.iwmprofilemanager_loadsystemprofile","wmsdkidl/IWMProfileManager::LoadSystemProfile"]
 old-location: wmformat\iwmprofilemanager_loadsystemprofile.htm
 tech.root: wmformat
 ms.assetid: 5de4bd41-953b-4f50-b495-1d852831ae34

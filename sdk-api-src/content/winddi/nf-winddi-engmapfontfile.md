@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngMapFontFile
 title: EngMapFontFile function (winddi.h)
-description: The EngMapFontFile function is obsolete. Use EngMapFontFileFD instead.helpviewer_keywords: ["EngMapFontFile","EngMapFontFile function [Display Devices]","display.engmapfontfile","gdifncs_d19f98a8-779f-4a26-aa3e-c4499b0f0ff8.xml","winddi/EngMapFontFile"]
+description: The EngMapFontFile function is obsolete. Use EngMapFontFileFD instead.
+helpviewer_keywords: ["EngMapFontFile","EngMapFontFile function [Display Devices]","display.engmapfontfile","gdifncs_d19f98a8-779f-4a26-aa3e-c4499b0f0ff8.xml","winddi/EngMapFontFile"]
 old-location: display\engmapfontfile.htm
 tech.root: display
 ms.assetid: 86b869fe-679a-42d1-83a4-293ad790366d

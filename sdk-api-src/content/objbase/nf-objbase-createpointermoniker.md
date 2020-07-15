@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.CreatePointerMoniker
 title: CreatePointerMoniker function (objbase.h)
-description: Creates a pointer moniker based on a pointer to an object.helpviewer_keywords: ["CreatePointerMoniker","CreatePointerMoniker function [COM]","_com_CreatePointerMoniker","com.createpointermoniker","objbase/CreatePointerMoniker"]
+description: Creates a pointer moniker based on a pointer to an object.
+helpviewer_keywords: ["CreatePointerMoniker","CreatePointerMoniker function [COM]","_com_CreatePointerMoniker","com.createpointermoniker","objbase/CreatePointerMoniker"]
 old-location: com\createpointermoniker.htm
 tech.root: com
 ms.assetid: d4d40fd5-6035-4ddc-a443-01d32dcf4bca

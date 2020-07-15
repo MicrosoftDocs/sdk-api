@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device5.CheckDriverMatchingIdentifier
 title: ID3D12Device5::CheckDriverMatchingIdentifier (d3d12.h)
-description: Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to CopyRaytracingAccelerationStructure with mode D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE, with the current device/driver.helpviewer_keywords: ["CheckDriverMatchingIdentifier","CheckDriverMatchingIdentifier method","CheckDriverMatchingIdentifier method","ID3D12Device5 interface","ID3D12Device5 interface","CheckDriverMatchingIdentifier method","ID3D12Device5.CheckDriverMatchingIdentifier","ID3D12Device5::CheckDriverMatchingIdentifier","d3d12/ID3D12Device5::CheckDriverMatchingIdentifier","direct3d12.id3d12device5_checkdrivermatchingidentifier"]
+description: Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to CopyRaytracingAccelerationStructure with mode D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE, with the current device/driver.
+helpviewer_keywords: ["CheckDriverMatchingIdentifier","CheckDriverMatchingIdentifier method","CheckDriverMatchingIdentifier method","ID3D12Device5 interface","ID3D12Device5 interface","CheckDriverMatchingIdentifier method","ID3D12Device5.CheckDriverMatchingIdentifier","ID3D12Device5::CheckDriverMatchingIdentifier","d3d12/ID3D12Device5::CheckDriverMatchingIdentifier","direct3d12.id3d12device5_checkdrivermatchingidentifier"]
 old-location: direct3d12\id3d12device5_checkdrivermatchingidentifier.htm
 tech.root: direct3d12
 ms.assetid: 765714D4-5133-4CCA-A09F-EDE650B06905

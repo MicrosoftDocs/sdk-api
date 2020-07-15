@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ResumeClusterNode
 title: ResumeClusterNode function (clusapi.h)
-description: Requests that a paused node resume its cluster activity. The PCLUSAPI_RESUME_CLUSTER_NODE type defines a pointer to this function.helpviewer_keywords: ["PCLUSAPI_RESUME_CLUSTER_NODE","PCLUSAPI_RESUME_CLUSTER_NODE function [Failover Cluster]","ResumeClusterNode","ResumeClusterNode function [Failover Cluster]","_wolf_resumeclusternode","clusapi/PCLUSAPI_RESUME_CLUSTER_NODE","clusapi/ResumeClusterNode","mscs.resumeclusternode"]
+description: Requests that a paused node resume its cluster activity. The PCLUSAPI_RESUME_CLUSTER_NODE type defines a pointer to this function.
+helpviewer_keywords: ["PCLUSAPI_RESUME_CLUSTER_NODE","PCLUSAPI_RESUME_CLUSTER_NODE function [Failover Cluster]","ResumeClusterNode","ResumeClusterNode function [Failover Cluster]","_wolf_resumeclusternode","clusapi/PCLUSAPI_RESUME_CLUSTER_NODE","clusapi/ResumeClusterNode","mscs.resumeclusternode"]
 old-location: mscs\resumeclusternode.htm
 tech.root: MsCS
 ms.assetid: 01b98d8d-9235-4133-aa3c-f9ad45be8aaf

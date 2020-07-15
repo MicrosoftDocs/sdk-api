@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IAMAnalogVideoEncoder
 title: IAMAnalogVideoEncoder (strmif.h)
-description: Note  This interface has been deprecated. Note  Microsoft does not provide an implementation of this interface.helpviewer_keywords: ["IAMAnalogVideoEncoder","IAMAnalogVideoEncoder interface [DirectShow]","IAMAnalogVideoEncoder interface [DirectShow]","described","IAMAnalogVideoEncoderInterface","dshow.iamanalogvideoencoder","strmif/IAMAnalogVideoEncoder"]
+description: Note  This interface has been deprecated. Note  Microsoft does not provide an implementation of this interface.
+helpviewer_keywords: ["IAMAnalogVideoEncoder","IAMAnalogVideoEncoder interface [DirectShow]","IAMAnalogVideoEncoder interface [DirectShow]","described","IAMAnalogVideoEncoderInterface","dshow.iamanalogvideoencoder","strmif/IAMAnalogVideoEncoder"]
 old-location: dshow\iamanalogvideoencoder.htm
 tech.root: DirectShow
 ms.assetid: fb2927cf-c979-411f-a896-d010b684acf2

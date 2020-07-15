@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssComponent.GetPreviousBackupStamp
 title: IVssComponent::GetPreviousBackupStamp (vswriter.h)
-description: The GetPreviousBackupStamp method returns a previous backup stamp loaded by a requester in the Backup Components Document. The value is used by a writer when deciding if files should participate in differential or incremental backup operation.helpviewer_keywords: ["GetPreviousBackupStamp","GetPreviousBackupStamp method [VSS]","GetPreviousBackupStamp method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetPreviousBackupStamp method","IVssComponent.GetPreviousBackupStamp","IVssComponent::GetPreviousBackupStamp","_win32_ivsscomponent_getpreviousbackupstamp","base.ivsscomponent_getpreviousbackupstamp","vswriter/IVssComponent::GetPreviousBackupStamp"]
+description: The GetPreviousBackupStamp method returns a previous backup stamp loaded by a requester in the Backup Components Document. The value is used by a writer when deciding if files should participate in differential or incremental backup operation.
+helpviewer_keywords: ["GetPreviousBackupStamp","GetPreviousBackupStamp method [VSS]","GetPreviousBackupStamp method [VSS]","IVssComponent interface","IVssComponent interface [VSS]","GetPreviousBackupStamp method","IVssComponent.GetPreviousBackupStamp","IVssComponent::GetPreviousBackupStamp","_win32_ivsscomponent_getpreviousbackupstamp","base.ivsscomponent_getpreviousbackupstamp","vswriter/IVssComponent::GetPreviousBackupStamp"]
 old-location: base\ivsscomponent_getpreviousbackupstamp.htm
 tech.root: VSS
 ms.assetid: 91778854-52af-4e1e-943b-89c786963291

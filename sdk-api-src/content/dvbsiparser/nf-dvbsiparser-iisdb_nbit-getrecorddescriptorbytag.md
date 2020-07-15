@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordDescriptorByTag
 title: IISDB_NBIT::GetRecordDescriptorByTag (dvbsiparser.h)
-description: Gets a descriptor from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT) by using the standard tag for the descriptor.helpviewer_keywords: ["GetRecordDescriptorByTag","GetRecordDescriptorByTag method [Microsoft TV Technologies]","GetRecordDescriptorByTag method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetRecordDescriptorByTag method","IISDB_NBIT.GetRecordDescriptorByTag","IISDB_NBIT::GetRecordDescriptorByTag","dvbsiparser/IISDB_NBIT::GetRecordDescriptorByTag","mstv.iisdb_nbit_getrecorddescriptorbytag"]
+description: Gets a descriptor from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT) by using the standard tag for the descriptor.
+helpviewer_keywords: ["GetRecordDescriptorByTag","GetRecordDescriptorByTag method [Microsoft TV Technologies]","GetRecordDescriptorByTag method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetRecordDescriptorByTag method","IISDB_NBIT.GetRecordDescriptorByTag","IISDB_NBIT::GetRecordDescriptorByTag","dvbsiparser/IISDB_NBIT::GetRecordDescriptorByTag","mstv.iisdb_nbit_getrecorddescriptorbytag"]
 old-location: mstv\iisdb_nbit_getrecorddescriptorbytag.htm
 tech.root: mstv
 ms.assetid: baec7c6a-67a7-4081-96ee-3cb35a72ff4e

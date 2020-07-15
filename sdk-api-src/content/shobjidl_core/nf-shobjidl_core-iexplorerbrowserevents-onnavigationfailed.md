@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowserEvents.OnNavigationFailed
 title: IExplorerBrowserEvents::OnNavigationFailed (shobjidl_core.h)
-description: Notifies clients that the Explorer browser has failed to navigate to a Shell folder.helpviewer_keywords: ["IExplorerBrowserEvents interface [Windows Shell]","OnNavigationFailed method","IExplorerBrowserEvents.OnNavigationFailed","IExplorerBrowserEvents::OnNavigationFailed","OnNavigationFailed","OnNavigationFailed method [Windows Shell]","OnNavigationFailed method [Windows Shell]","IExplorerBrowserEvents interface","_shell_IExplorerBrowserEvents_OnNavigationFailed","shell.IExplorerBrowserEvents_OnNavigationFailed","shobjidl_core/IExplorerBrowserEvents::OnNavigationFailed"]
+description: Notifies clients that the Explorer browser has failed to navigate to a Shell folder.
+helpviewer_keywords: ["IExplorerBrowserEvents interface [Windows Shell]","OnNavigationFailed method","IExplorerBrowserEvents.OnNavigationFailed","IExplorerBrowserEvents::OnNavigationFailed","OnNavigationFailed","OnNavigationFailed method [Windows Shell]","OnNavigationFailed method [Windows Shell]","IExplorerBrowserEvents interface","_shell_IExplorerBrowserEvents_OnNavigationFailed","shell.IExplorerBrowserEvents_OnNavigationFailed","shobjidl_core/IExplorerBrowserEvents::OnNavigationFailed"]
 old-location: shell\IExplorerBrowserEvents_OnNavigationFailed.htm
 tech.root: shell
 ms.assetid: d4de3b81-4482-47c8-bb47-593aba484952

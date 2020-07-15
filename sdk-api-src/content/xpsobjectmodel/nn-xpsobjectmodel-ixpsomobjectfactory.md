@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMObjectFactory
 title: IXpsOMObjectFactory (xpsobjectmodel.h)
-description: Creates objects in the XPS document object model.helpviewer_keywords: ["IXpsOMObjectFactory","IXpsOMObjectFactory interface [XPS Documents and Packaging]","IXpsOMObjectFactory interface [XPS Documents and Packaging]","described","xps.ixpsomobjectfactory","xpsobjectmodel/IXpsOMObjectFactory"]
+description: Creates objects in the XPS document object model.
+helpviewer_keywords: ["IXpsOMObjectFactory","IXpsOMObjectFactory interface [XPS Documents and Packaging]","IXpsOMObjectFactory interface [XPS Documents and Packaging]","described","xps.ixpsomobjectfactory","xpsobjectmodel/IXpsOMObjectFactory"]
 old-location: xps\ixpsomobjectfactory.htm
 tech.root: printdocs
 ms.assetid: 2444703e-4b89-4ef0-9ed7-aa937bc62e8c

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IMediaPropertyBag.EnumProperty
 title: IMediaPropertyBag::EnumProperty (strmif.h)
-description: The EnumProperty method retrieves a property/value pair.helpviewer_keywords: ["EnumProperty","EnumProperty method [DirectShow]","EnumProperty method [DirectShow]","IMediaPropertyBag interface","IMediaPropertyBag interface [DirectShow]","EnumProperty method","IMediaPropertyBag.EnumProperty","IMediaPropertyBag::EnumProperty","IMediaPropertyBagEnumProperty","dshow.imediapropertybag_enumproperty","strmif/IMediaPropertyBag::EnumProperty"]
+description: The EnumProperty method retrieves a property/value pair.
+helpviewer_keywords: ["EnumProperty","EnumProperty method [DirectShow]","EnumProperty method [DirectShow]","IMediaPropertyBag interface","IMediaPropertyBag interface [DirectShow]","EnumProperty method","IMediaPropertyBag.EnumProperty","IMediaPropertyBag::EnumProperty","IMediaPropertyBagEnumProperty","dshow.imediapropertybag_enumproperty","strmif/IMediaPropertyBag::EnumProperty"]
 old-location: dshow\imediapropertybag_enumproperty.htm
 tech.root: DirectShow
 ms.assetid: 88cd9016-ef6f-467a-9e84-10b2ac578211

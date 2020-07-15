@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleInPlaceSite.OnInPlaceActivate
 title: IOleInPlaceSite::OnInPlaceActivate (oleidl.h)
-description: Notifies the container that one of its objects is being activated in place.helpviewer_keywords: ["IOleInPlaceSite interface [COM]","OnInPlaceActivate method","IOleInPlaceSite.OnInPlaceActivate","IOleInPlaceSite::OnInPlaceActivate","OnInPlaceActivate","OnInPlaceActivate method [COM]","OnInPlaceActivate method [COM]","IOleInPlaceSite interface","_ole_ioleinplacesite_oninplaceactivate","com.ioleinplacesite_oninplaceactivate","oleidl/IOleInPlaceSite::OnInPlaceActivate"]
+description: Notifies the container that one of its objects is being activated in place.
+helpviewer_keywords: ["IOleInPlaceSite interface [COM]","OnInPlaceActivate method","IOleInPlaceSite.OnInPlaceActivate","IOleInPlaceSite::OnInPlaceActivate","OnInPlaceActivate","OnInPlaceActivate method [COM]","OnInPlaceActivate method [COM]","IOleInPlaceSite interface","_ole_ioleinplacesite_oninplaceactivate","com.ioleinplacesite_oninplaceactivate","oleidl/IOleInPlaceSite::OnInPlaceActivate"]
 old-location: com\ioleinplacesite_oninplaceactivate.htm
 tech.root: com
 ms.assetid: e5744911-1ea6-4482-988d-8def16229f4c

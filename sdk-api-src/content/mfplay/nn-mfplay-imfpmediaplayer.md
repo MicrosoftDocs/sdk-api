@@ -1,7 +1,8 @@
 ---
 UID: NN:mfplay.IMFPMediaPlayer
 title: IMFPMediaPlayer (mfplay.h)
-description: Contains methods to play media files. (Deprecated.).helpviewer_keywords: ["IMFPMediaPlayer","IMFPMediaPlayer interface [Media Foundation]","IMFPMediaPlayer interface [Media Foundation]","described","mf.imfpmediaplayer","mfplay/IMFPMediaPlayer"]
+description: Contains methods to play media files. (Deprecated.).
+helpviewer_keywords: ["IMFPMediaPlayer","IMFPMediaPlayer interface [Media Foundation]","IMFPMediaPlayer interface [Media Foundation]","described","mf.imfpmediaplayer","mfplay/IMFPMediaPlayer"]
 old-location: mf\imfpmediaplayer.htm
 tech.root: medfound
 ms.assetid: fa57d465-1ee9-4f7a-9be8-66a6d73f65e8

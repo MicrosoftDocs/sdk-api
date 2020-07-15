@@ -1,7 +1,8 @@
 ---
 UID: NS:wincred._CREDENTIALW
 title: CREDENTIALW (wincred.h)
-description: The CREDENTIAL structure contains an individual credential.helpviewer_keywords: ["*PCREDENTIALW","CREDENTIAL","CREDENTIAL structure [Security]","CREDENTIALA","CREDENTIALW","CRED_FLAGS_PROMPT_NOW","CRED_FLAGS_USERNAME_TARGET","CRED_PERSIST_ENTERPRISE","CRED_PERSIST_LOCAL_MACHINE","CRED_PERSIST_SESSION","CRED_TYPE_DOMAIN_CERTIFICATE","CRED_TYPE_DOMAIN_EXTENDED","CRED_TYPE_DOMAIN_PASSWORD","CRED_TYPE_DOMAIN_VISIBLE_PASSWORD","CRED_TYPE_GENERIC","CRED_TYPE_GENERIC_CERTIFICATE","CRED_TYPE_MAXIMUM","CRED_TYPE_MAXIMUM_EX","PCREDENTIAL","PCREDENTIAL structure pointer [Security]","_cred_credential","security.credential","wincred/CREDENTIAL","wincred/CREDENTIALA","wincred/CREDENTIALW","wincred/PCREDENTIAL"]
+description: The CREDENTIAL structure contains an individual credential.
+helpviewer_keywords: ["*PCREDENTIALW","CREDENTIAL","CREDENTIAL structure [Security]","CREDENTIALA","CREDENTIALW","CRED_FLAGS_PROMPT_NOW","CRED_FLAGS_USERNAME_TARGET","CRED_PERSIST_ENTERPRISE","CRED_PERSIST_LOCAL_MACHINE","CRED_PERSIST_SESSION","CRED_TYPE_DOMAIN_CERTIFICATE","CRED_TYPE_DOMAIN_EXTENDED","CRED_TYPE_DOMAIN_PASSWORD","CRED_TYPE_DOMAIN_VISIBLE_PASSWORD","CRED_TYPE_GENERIC","CRED_TYPE_GENERIC_CERTIFICATE","CRED_TYPE_MAXIMUM","CRED_TYPE_MAXIMUM_EX","PCREDENTIAL","PCREDENTIAL structure pointer [Security]","_cred_credential","security.credential","wincred/CREDENTIAL","wincred/CREDENTIALA","wincred/CREDENTIALW","wincred/PCREDENTIAL"]
 old-location: security\credential.htm
 tech.root: SecAuthN
 ms.assetid: 6361b93c-4441-4a01-bd39-b95c42962497
@@ -471,4 +472,9 @@ If the credential <b>Type</b> is <b>CRED_TYPE_DOMAIN_CERTIFICATE</b>, this membe
 If the credential <b>Type</b> is <b>CRED_TYPE_GENERIC</b>, this member can be non-<b>NULL</b>, but the credential manager ignores the member.
 
 This member cannot be longer than <b>CRED_MAX_USERNAME_LENGTH</b> (513) characters.
+
+## -remarks
+
+> [!NOTE]
+> The wincred.h header defines CREDENTIAL as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbResourcePluginStore.ReleaseTargetLock
 title: ITsSbResourcePluginStore::ReleaseTargetLock (sbtsv.h)
-description: Releases a lock on a target.helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","ReleaseTargetLock method","ITsSbResourcePluginStore.ReleaseTargetLock","ITsSbResourcePluginStore::ReleaseTargetLock","ReleaseTargetLock","ReleaseTargetLock method [Remote Desktop Services]","ReleaseTargetLock method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::ReleaseTargetLock","termserv.itssbresourcepluginstore_releasetargetlock"]
+description: Releases a lock on a target.
+helpviewer_keywords: ["ITsSbResourcePluginStore interface [Remote Desktop Services]","ReleaseTargetLock method","ITsSbResourcePluginStore.ReleaseTargetLock","ITsSbResourcePluginStore::ReleaseTargetLock","ReleaseTargetLock","ReleaseTargetLock method [Remote Desktop Services]","ReleaseTargetLock method [Remote Desktop Services]","ITsSbResourcePluginStore interface","sbtsv/ITsSbResourcePluginStore::ReleaseTargetLock","termserv.itssbresourcepluginstore_releasetargetlock"]
 old-location: termserv\itssbresourcepluginstore_releasetargetlock.htm
 tech.root: TermServ
 ms.assetid: 37c22f94-c00d-471b-bd6c-067b3229f99b

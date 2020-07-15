@@ -1,7 +1,8 @@
 ---
 UID: NS:cmdtree.tagDBSETFUNC
 title: DBSETFUNC (cmdtree.h)
-description: The DBSETFUNC structure specifies the aggregation function to use in a select operation.helpviewer_keywords: ["DBSETFUNC","DBSETFUNC structure [Indexing Service]","_idxs_DBSETFUNC","cmdtree/DBSETFUNC","indexsrv.dbsetfunc","tagDBSETFUNC"]
+description: The DBSETFUNC structure specifies the aggregation function to use in a select operation.
+helpviewer_keywords: ["DBSETFUNC","DBSETFUNC structure [Indexing Service]","_idxs_DBSETFUNC","cmdtree/DBSETFUNC","indexsrv.dbsetfunc","tagDBSETFUNC"]
 old-location: indexsrv\dbsetfunc.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixoledb_5e1v.htm

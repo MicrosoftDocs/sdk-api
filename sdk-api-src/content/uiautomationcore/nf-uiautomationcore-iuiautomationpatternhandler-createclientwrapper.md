@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IUIAutomationPatternHandler.CreateClientWrapper
 title: IUIAutomationPatternHandler::CreateClientWrapper (uiautomationcore.h)
-description: Creates an object that enables a client application to interact with a custom control pattern.helpviewer_keywords: ["CreateClientWrapper","CreateClientWrapper method [Windows Accessibility]","CreateClientWrapper method [Windows Accessibility]","IUIAutomationPatternHandler interface","IUIAutomationPatternHandler interface [Windows Accessibility]","CreateClientWrapper method","IUIAutomationPatternHandler.CreateClientWrapper","IUIAutomationPatternHandler::CreateClientWrapper","uiauto.uiauto_IUIAutomationPatternHandler_CreateClientWrapper","uiauto_IUIAutomationPatternHandler_CreateClientWrapper","uiautomationcore/IUIAutomationPatternHandler::CreateClientWrapper","winauto.uiauto_IUIAutomationPatternHandler_CreateClientWrapper"]
+description: Creates an object that enables a client application to interact with a custom control pattern.
+helpviewer_keywords: ["CreateClientWrapper","CreateClientWrapper method [Windows Accessibility]","CreateClientWrapper method [Windows Accessibility]","IUIAutomationPatternHandler interface","IUIAutomationPatternHandler interface [Windows Accessibility]","CreateClientWrapper method","IUIAutomationPatternHandler.CreateClientWrapper","IUIAutomationPatternHandler::CreateClientWrapper","uiauto.uiauto_IUIAutomationPatternHandler_CreateClientWrapper","uiauto_IUIAutomationPatternHandler_CreateClientWrapper","uiautomationcore/IUIAutomationPatternHandler::CreateClientWrapper","winauto.uiauto_IUIAutomationPatternHandler_CreateClientWrapper"]
 old-location: winauto\uiauto_IUIAutomationPatternHandler_CreateClientWrapper.htm
 tech.root: WinAuto
 ms.assetid: 03530381-52f8-4d9b-a54c-faebf7cd4a06

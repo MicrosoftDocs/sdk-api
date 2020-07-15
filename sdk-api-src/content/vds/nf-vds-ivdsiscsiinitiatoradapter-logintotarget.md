@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsIscsiInitiatorAdapter.LoginToTarget
 title: IVdsIscsiInitiatorAdapter::LoginToTarget (vds.h)
-description: Performs a manual login to an iSCSI target.helpviewer_keywords: ["IVdsIscsiInitiatorAdapter interface [VDS]","LoginToTarget method","IVdsIscsiInitiatorAdapter.LoginToTarget","IVdsIscsiInitiatorAdapter::LoginToTarget","LoginToTarget","LoginToTarget method [VDS]","LoginToTarget method [VDS]","IVdsIscsiInitiatorAdapter interface","base.ivdsiscsiinitiatoradapter_logintotarget","vds/IVdsIscsiInitiatorAdapter::LoginToTarget"]
+description: Performs a manual login to an iSCSI target.
+helpviewer_keywords: ["IVdsIscsiInitiatorAdapter interface [VDS]","LoginToTarget method","IVdsIscsiInitiatorAdapter.LoginToTarget","IVdsIscsiInitiatorAdapter::LoginToTarget","LoginToTarget","LoginToTarget method [VDS]","LoginToTarget method [VDS]","IVdsIscsiInitiatorAdapter interface","base.ivdsiscsiinitiatoradapter_logintotarget","vds/IVdsIscsiInitiatorAdapter::LoginToTarget"]
 old-location: base\ivdsiscsiinitiatoradapter_logintotarget.htm
 tech.root: VDS
 ms.assetid: 74d6ddd0-1b78-446a-9bce-6816eb34a2b9

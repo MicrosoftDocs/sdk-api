@@ -1,7 +1,8 @@
 ---
 UID: NF:vsprov.IVssProviderNotifications.OnUnload
 title: IVssProviderNotifications::OnUnload (vsprov.h)
-description: Notifies the provider to prepare to be unloaded.helpviewer_keywords: ["IVssProviderNotifications interface [VSS]","OnUnload method","IVssProviderNotifications.OnUnload","IVssProviderNotifications::OnUnload","OnUnload","OnUnload method [VSS]","OnUnload method [VSS]","IVssProviderNotifications interface","base.ivssprovidernotifications_onunload","vsprov/IVssProviderNotifications::OnUnload"]
+description: Notifies the provider to prepare to be unloaded.
+helpviewer_keywords: ["IVssProviderNotifications interface [VSS]","OnUnload method","IVssProviderNotifications.OnUnload","IVssProviderNotifications::OnUnload","OnUnload","OnUnload method [VSS]","OnUnload method [VSS]","IVssProviderNotifications interface","base.ivssprovidernotifications_onunload","vsprov/IVssProviderNotifications::OnUnload"]
 old-location: base\ivssprovidernotifications_onunload.htm
 tech.root: VSS
 ms.assetid: 5b9e0940-70b4-4913-9281-0347e60baa0d

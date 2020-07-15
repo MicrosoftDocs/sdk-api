@@ -1,7 +1,8 @@
 ---
 UID: NN:wsdclient.IWSDEndpointProxy
 title: IWSDEndpointProxy (wsdclient.h)
-description: Implements a device services messaging proxy.helpviewer_keywords: ["IWSDEndpointProxy","IWSDEndpointProxy interface","IWSDEndpointProxy interface","described","ncd.iwsdendpointproxy","wsdclient/IWSDEndpointProxy"]
+description: Implements a device services messaging proxy.
+helpviewer_keywords: ["IWSDEndpointProxy","IWSDEndpointProxy interface","IWSDEndpointProxy interface","described","ncd.iwsdendpointproxy","wsdclient/IWSDEndpointProxy"]
 old-location: ncd\iwsdendpointproxy.htm
 tech.root: WsdApi
 ms.assetid: 58ca085f-8939-413c-8fd3-4d867b1cf490

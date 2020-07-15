@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPDeviceDocumentAccessEx.GetDocument
 title: IUPnPDeviceDocumentAccessEx::GetDocument (upnp.h)
-description: Retrieves the XML device description document for a UPnP device.helpviewer_keywords: ["GetDocument","GetDocument method [UPnP APIs]","GetDocument method [UPnP APIs]","IUPnPDeviceDocumentAccessEx interface","IUPnPDeviceDocumentAccessEx interface [UPnP APIs]","GetDocument method","IUPnPDeviceDocumentAccessEx.GetDocument","IUPnPDeviceDocumentAccessEx::GetDocument","upnp.iupnpdevicedocumentex_getdocument","upnp/IUPnPDeviceDocumentAccessEx::GetDocument"]
+description: Retrieves the XML device description document for a UPnP device.
+helpviewer_keywords: ["GetDocument","GetDocument method [UPnP APIs]","GetDocument method [UPnP APIs]","IUPnPDeviceDocumentAccessEx interface","IUPnPDeviceDocumentAccessEx interface [UPnP APIs]","GetDocument method","IUPnPDeviceDocumentAccessEx.GetDocument","IUPnPDeviceDocumentAccessEx::GetDocument","upnp.iupnpdevicedocumentex_getdocument","upnp/IUPnPDeviceDocumentAccessEx::GetDocument"]
 old-location: upnp\iupnpdevicedocumentex_getdocument.htm
 tech.root: upnp
 ms.assetid: 12778bd4-9e62-42a4-b9b3-29ee9c6d2d40

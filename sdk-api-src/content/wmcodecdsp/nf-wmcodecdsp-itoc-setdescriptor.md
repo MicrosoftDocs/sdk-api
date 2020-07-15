@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IToc.SetDescriptor
 title: IToc::SetDescriptor (wmcodecdsp.h)
-description: The SetDescriptor method associates a descriptor with the table of contents.helpviewer_keywords: ["IToc interface [Media Foundation]","SetDescriptor method","IToc.SetDescriptor","IToc::SetDescriptor","SetDescriptor","SetDescriptor method [Media Foundation]","SetDescriptor method [Media Foundation]","IToc interface","codecapi.itoc_setdescriptor","mf.itoc_setdescriptor","wmcodecdsp/IToc::SetDescriptor"]
+description: The SetDescriptor method associates a descriptor with the table of contents.
+helpviewer_keywords: ["IToc interface [Media Foundation]","SetDescriptor method","IToc.SetDescriptor","IToc::SetDescriptor","SetDescriptor","SetDescriptor method [Media Foundation]","SetDescriptor method [Media Foundation]","IToc interface","codecapi.itoc_setdescriptor","mf.itoc_setdescriptor","wmcodecdsp/IToc::SetDescriptor"]
 old-location: mf\itoc_setdescriptor.htm
 tech.root: medfound
 ms.assetid: 55208226-fd2d-48e5-887b-34e95309a770

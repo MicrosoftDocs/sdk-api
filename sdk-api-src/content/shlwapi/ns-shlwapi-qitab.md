@@ -1,7 +1,8 @@
 ---
 UID: NS:shlwapi.__unnamed_struct_0
 title: QITAB (shlwapi.h)
-description: Used by the QISearch function to describe a single interface.helpviewer_keywords: ["*LPQITAB","LPQITAB","LPQITAB structure pointer [Windows Shell]","QITAB","QITAB structure [Windows Shell]","_win32_QITAB","shell.QITAB","shlwapi/LPQITAB","shlwapi/QITAB"]
+description: Used by the QISearch function to describe a single interface.
+helpviewer_keywords: ["*LPQITAB","LPQITAB","LPQITAB structure pointer [Windows Shell]","QITAB","QITAB structure [Windows Shell]","_win32_QITAB","shell.QITAB","shlwapi/LPQITAB","shlwapi/QITAB"]
 old-location: shell\QITAB.htm
 tech.root: shell
 ms.assetid: 3a055773-6e53-45e1-8936-011a8b2b8b16

@@ -1,7 +1,8 @@
 ---
 UID: NC:wdstci.PFN_WdsTransportClientSessionStart
 title: PFN_WdsTransportClientSessionStart (wdstci.h)
-description: The PFN_WdsTransportClientSessionStart callback is called at the start of a multicast session to indicate file size and other server side information about the file to the consumer.helpviewer_keywords: ["PFN_WdsTransportClientSessionStart","PFN_WdsTransportClientSessionStart callback","PFN_WdsTransportClientSessionStart callback function [Windows Deployment Services]","wds.pfn_wdstransportclientsessionstart","wdstci/PFN_WdsTransportClientSessionStart"]
+description: The PFN_WdsTransportClientSessionStart callback is called at the start of a multicast session to indicate file size and other server side information about the file to the consumer.
+helpviewer_keywords: ["PFN_WdsTransportClientSessionStart","PFN_WdsTransportClientSessionStart callback","PFN_WdsTransportClientSessionStart callback function [Windows Deployment Services]","wds.pfn_wdstransportclientsessionstart","wdstci/PFN_WdsTransportClientSessionStart"]
 old-location: wds\pfn_wdstransportclientsessionstart.htm
 tech.root: wds
 ms.assetid: 47a053e3-f457-4d0a-80a8-1b93d5e8688f

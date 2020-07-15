@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiDeleteDevRegKey
 title: SetupDiDeleteDevRegKey function (setupapi.h)
-description: The SetupDiDeleteDevRegKey function deletes specified user-accessible registry keys that are associated with a device information element.helpviewer_keywords: ["SetupDiDeleteDevRegKey","SetupDiDeleteDevRegKey function [Device and Driver Installation]","devinst.setupdideletedevregkey","di-rtns_9e60aff0-2d01-4b1b-90e5-7f050a0e075a.xml","setupapi/SetupDiDeleteDevRegKey"]
+description: The SetupDiDeleteDevRegKey function deletes specified user-accessible registry keys that are associated with a device information element.
+helpviewer_keywords: ["SetupDiDeleteDevRegKey","SetupDiDeleteDevRegKey function [Device and Driver Installation]","devinst.setupdideletedevregkey","di-rtns_9e60aff0-2d01-4b1b-90e5-7f050a0e075a.xml","setupapi/SetupDiDeleteDevRegKey"]
 old-location: devinst\setupdideletedevregkey.htm
 tech.root: devinst
 ms.assetid: 3b332291-0593-4750-9965-f6bf90ec8838

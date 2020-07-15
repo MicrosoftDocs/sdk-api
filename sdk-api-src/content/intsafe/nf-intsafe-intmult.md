@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.IntMult
 title: IntMult function (intsafe.h)
-description: Multiplies two values of type INT.helpviewer_keywords: ["IntMult","IntMult function [Windows Shell]","intsafe/IntMult","shell.IntMult"]
+description: Multiplies two values of type INT.
+helpviewer_keywords: ["IntMult","IntMult function [Windows Shell]","intsafe/IntMult","shell.IntMult"]
 old-location: shell\IntMult.htm
 tech.root: shell
 ms.assetid: 7a8ec63e-7424-4a12-9bc9-7c91e4c49fa7

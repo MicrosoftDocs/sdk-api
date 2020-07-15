@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectConstantBuffer.GetConstantBuffer
 title: ID3D10EffectConstantBuffer::GetConstantBuffer (d3d10effect.h)
-description: Get a constant-buffer.helpviewer_keywords: ["GetConstantBuffer","GetConstantBuffer method [Direct3D 10]","GetConstantBuffer method [Direct3D 10]","ID3D10EffectConstantBuffer interface","ID3D10EffectConstantBuffer interface [Direct3D 10]","GetConstantBuffer method","ID3D10EffectConstantBuffer.GetConstantBuffer","ID3D10EffectConstantBuffer::GetConstantBuffer","d3d10effect/ID3D10EffectConstantBuffer::GetConstantBuffer","dce18db8-3c7e-fd66-9353-140401d9be7d","direct3d10.id3d10effectconstantbuffer_getconstantbuffer"]
+description: Get a constant-buffer.
+helpviewer_keywords: ["GetConstantBuffer","GetConstantBuffer method [Direct3D 10]","GetConstantBuffer method [Direct3D 10]","ID3D10EffectConstantBuffer interface","ID3D10EffectConstantBuffer interface [Direct3D 10]","GetConstantBuffer method","ID3D10EffectConstantBuffer.GetConstantBuffer","ID3D10EffectConstantBuffer::GetConstantBuffer","d3d10effect/ID3D10EffectConstantBuffer::GetConstantBuffer","dce18db8-3c7e-fd66-9353-140401d9be7d","direct3d10.id3d10effectconstantbuffer_getconstantbuffer"]
 old-location: direct3d10\id3d10effectconstantbuffer_getconstantbuffer.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectconstantbuffer_getconstantbuffer.htm

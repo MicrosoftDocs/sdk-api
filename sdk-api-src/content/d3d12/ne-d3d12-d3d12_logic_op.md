@@ -44,6 +44,9 @@ req.redist:
 ms.custom: 19H1
 ---
 
+# D3D12_LOGIC_OP enumeration
+
+
 ## -description
 
 Defines constants that specify logical operations to configure for a render target.
@@ -116,8 +119,18 @@ Performs a logical OR and invert operation on the render target (<code>~s | d</c
 
 ## -remarks
 
-This enum is used by the <a href="/windows/desktop/api/d3d12/ns-d3d12-d3d12_render_target_blend_desc">D3D12_RENDER_TARGET_BLEND_DESC</a> structure.
+
+
+This enum is used by the <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-d3d12-d3d12_render_target_blend_desc">D3D12_RENDER_TARGET_BLEND_DESC</a> structure.
+
+
+
 
 ## -see-also
 
-<a href="/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+
+
+
+<a href="https://docs.microsoft.com/windows/desktop/direct3d12/direct3d-12-enumerations">Core Enumerations</a>
+ 
+

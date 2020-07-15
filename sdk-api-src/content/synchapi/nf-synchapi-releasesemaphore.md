@@ -68,11 +68,10 @@ Increases the count of the specified semaphore object by a specified amount.
 
 A handle to the semaphore object. The 
 <a href="/windows/desktop/api/winbase/nf-winbase-createsemaphorea">CreateSemaphore</a> or 
-OpenSemaphore function returns this handle.
+<a href="/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a> function returns this handle.
 
 This handle must have the <b>SEMAPHORE_MODIFY_STATE</b> access right. For more information, see 
 <a href="/windows/desktop/Sync/synchronization-object-security-and-access-rights">Synchronization Object Security and Access Rights</a>.
-
 
 ### -param lReleaseCount [in]
 
@@ -90,9 +89,7 @@ A pointer to a variable to receive the previous count for the semaphore. This pa
 
 If the function succeeds, the return value is nonzero.
 
-If the function fails, the return value is zero. To get extended error information, call 
-<a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
-
+If the function fails, the return value is zero. To get extended error information, call <a href="/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
 
@@ -131,10 +128,9 @@ For an example that uses
 ## -see-also
 
 
-
-
 <a href="/windows/desktop/api/winbase/nf-winbase-createsemaphorea">CreateSemaphore</a>
 
+<a href="/windows/desktop/api/winbase/nf-winbase-opensemaphorea">OpenSemaphore</a>
 
 
 <a href="/windows/desktop/Sync/semaphore-objects">Semaphore Objects</a>
@@ -142,7 +138,3 @@ For an example that uses
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
-

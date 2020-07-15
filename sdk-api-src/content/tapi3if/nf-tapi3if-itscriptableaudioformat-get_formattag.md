@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.get_FormatTag
 title: ITScriptableAudioFormat::get_FormatTag (tapi3if.h)
-description: The get_FormatTag method returns the value for the wFormatTag member in the WAVEFORMATEX structure.helpviewer_keywords: ["ITScriptableAudioFormat interface [TAPI 2.2]","get_FormatTag method","ITScriptableAudioFormat.get_FormatTag","ITScriptableAudioFormat::get_FormatTag","_tapi3_itscriptableaudioformat_get_formattag","get_FormatTag","get_FormatTag method [TAPI 2.2]","get_FormatTag method [TAPI 2.2]","ITScriptableAudioFormat interface","tapi3.itscriptableaudioformat_get_formattag","tapi3if/ITScriptableAudioFormat::get_FormatTag"]
+description: The get_FormatTag method returns the value for the wFormatTag member in the WAVEFORMATEX structure.
+helpviewer_keywords: ["ITScriptableAudioFormat interface [TAPI 2.2]","get_FormatTag method","ITScriptableAudioFormat.get_FormatTag","ITScriptableAudioFormat::get_FormatTag","_tapi3_itscriptableaudioformat_get_formattag","get_FormatTag","get_FormatTag method [TAPI 2.2]","get_FormatTag method [TAPI 2.2]","ITScriptableAudioFormat interface","tapi3.itscriptableaudioformat_get_formattag","tapi3if/ITScriptableAudioFormat::get_FormatTag"]
 old-location: tapi3\itscriptableaudioformat_get_formattag.htm
 tech.root: Tapi
 ms.assetid: 073e4800-d84a-4f12-81ce-eba4a4e139fc

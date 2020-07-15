@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetDpiFromDpiAwarenessContext
 title: GetDpiFromDpiAwarenessContext function (winuser.h)
-description: Retrieves the DPI from a given DPI_AWARENESS_CONTEXT handle. This enables you to determine the DPI of a thread without needed to examine a window created within that thread.helpviewer_keywords: ["GetDpiFromDpiAwarenessContext","GetDpiFromDpiAwarenessContext function [High DPI]","hidpi.getdpifromdpiawarenesscontext","winuser/GetDpiFromDpiAwarenessContext"]
+description: Retrieves the DPI from a given DPI_AWARENESS_CONTEXT handle. This enables you to determine the DPI of a thread without needed to examine a window created within that thread.
+helpviewer_keywords: ["GetDpiFromDpiAwarenessContext","GetDpiFromDpiAwarenessContext function [High DPI]","hidpi.getdpifromdpiawarenesscontext","winuser/GetDpiFromDpiAwarenessContext"]
 old-location: hidpi\getdpifromdpiawarenesscontext.htm
 tech.root: hidpi
 ms.assetid: E47A7A12-AE11-4E66-AE49-463C9F4A6330

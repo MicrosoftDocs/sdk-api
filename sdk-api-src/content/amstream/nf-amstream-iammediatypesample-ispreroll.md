@@ -1,7 +1,8 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.IsPreroll
 title: IAMMediaTypeSample::IsPreroll (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The IsPreroll method determines if this sample is part of the preroll. A preroll sample should not be displayed.helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","IsPreroll method","IAMMediaTypeSample.IsPreroll","IAMMediaTypeSample::IsPreroll","IAMMediaTypeSampleIsPreroll","IsPreroll","IsPreroll method [DirectShow]","IsPreroll method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::IsPreroll","dshow.iammediatypesample_ispreroll"]
+description: Note  This interface is deprecated. New applications should not use it. The IsPreroll method determines if this sample is part of the preroll. A preroll sample should not be displayed.
+helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","IsPreroll method","IAMMediaTypeSample.IsPreroll","IAMMediaTypeSample::IsPreroll","IAMMediaTypeSampleIsPreroll","IsPreroll","IsPreroll method [DirectShow]","IsPreroll method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::IsPreroll","dshow.iammediatypesample_ispreroll"]
 old-location: dshow\iammediatypesample_ispreroll.htm
 tech.root: DirectShow
 ms.assetid: 57ae9d67-65b9-458e-ad94-f5d5c89d1984

@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.InterlockedIncrement64
 title: InterlockedIncrement64 function (winnt.h)
-description: Increments (increases by one) the value of the specified 64-bit variable as an atomic operation.helpviewer_keywords: ["InterlockedIncrement64","InterlockedIncrement64 function","base.interlockedincrement64","winnt/InterlockedIncrement64"]
+description: Increments (increases by one) the value of the specified 64-bit variable as an atomic operation.
+helpviewer_keywords: ["InterlockedIncrement64","InterlockedIncrement64 function","base.interlockedincrement64","winnt/InterlockedIncrement64"]
 old-location: base\interlockedincrement64.htm
 tech.root: Sync
 ms.assetid: f18b63fa-201f-436d-a152-41e458959a5c

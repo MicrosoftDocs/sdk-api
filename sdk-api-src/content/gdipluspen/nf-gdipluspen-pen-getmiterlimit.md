@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspen.Pen.GetMiterLimit
 title: Pen::GetMiterLimit (gdipluspen.h)
-description: The Pen::GetMiterLimit method gets the miter length currently set for this Pen object.helpviewer_keywords: ["GetMiterLimit","GetMiterLimit method [GDI+]","GetMiterLimit method [GDI+]","Pen class","Pen class [GDI+]","GetMiterLimit method","Pen.GetMiterLimit","Pen::GetMiterLimit","_gdiplus_CLASS_Pen_GetMiterLimit_","gdiplus._gdiplus_CLASS_Pen_GetMiterLimit_"]
+description: The Pen::GetMiterLimit method gets the miter length currently set for this Pen object.
+helpviewer_keywords: ["GetMiterLimit","GetMiterLimit method [GDI+]","GetMiterLimit method [GDI+]","Pen class","Pen class [GDI+]","GetMiterLimit method","Pen.GetMiterLimit","Pen::GetMiterLimit","_gdiplus_CLASS_Pen_GetMiterLimit_","gdiplus._gdiplus_CLASS_Pen_GetMiterLimit_"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_GetMiterLimit_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\penclass\penmethods\getmiterlimit.htm

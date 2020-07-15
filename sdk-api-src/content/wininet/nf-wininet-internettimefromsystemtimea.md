@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetTimeFromSystemTimeA
 title: InternetTimeFromSystemTimeA function (wininet.h)
-description: Formats a date and time according to the HTTP version 1.0 specification.helpviewer_keywords: ["InternetTimeFromSystemTime","InternetTimeFromSystemTime function [WinINet]","InternetTimeFromSystemTimeA","InternetTimeFromSystemTimeW","_inet_internettimefromsystemtime_function","wininet.internettimefromsystemtime","wininet/InternetTimeFromSystemTime","wininet/InternetTimeFromSystemTimeA","wininet/InternetTimeFromSystemTimeW"]
+description: Formats a date and time according to the HTTP version 1.0 specification.
+helpviewer_keywords: ["InternetTimeFromSystemTime","InternetTimeFromSystemTime function [WinINet]","InternetTimeFromSystemTimeA","InternetTimeFromSystemTimeW","_inet_internettimefromsystemtime_function","wininet.internettimefromsystemtime","wininet/InternetTimeFromSystemTime","wininet/InternetTimeFromSystemTimeA","wininet/InternetTimeFromSystemTimeW"]
 old-location: wininet\internettimefromsystemtime.htm
 tech.root: wininet
 ms.assetid: b52ba402-bad1-4005-b9d0-7630194272d1
@@ -101,6 +102,10 @@ Returns TRUE if the function succeeds, or FALSE otherwise. To get extended error
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines InternetTimeFromSystemTime as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

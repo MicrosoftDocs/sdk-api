@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsDNWithBinary
 title: IADsDNWithBinary (iads.h)
-description: The IADsDNWithBinary interface provides methods for an ADSI client to associate a distinguished name (DN) with the GUID of an object.helpviewer_keywords: ["DNWithBinary","IADsDNWithBinary","IADsDNWithBinary interface [ADSI]","IADsDNWithBinary interface [ADSI]","described","_ds_iadsdnwithbinary","adsi.iadsdnwithbinary","iads/IADsDNWithBinary"]
+description: The IADsDNWithBinary interface provides methods for an ADSI client to associate a distinguished name (DN) with the GUID of an object.
+helpviewer_keywords: ["DNWithBinary","IADsDNWithBinary","IADsDNWithBinary interface [ADSI]","IADsDNWithBinary interface [ADSI]","described","_ds_iadsdnwithbinary","adsi.iadsdnwithbinary","iads/IADsDNWithBinary"]
 old-location: adsi\iadsdnwithbinary.htm
 tech.root: adsi
 ms.assetid: dd64f0bd-1211-4e6f-93b5-87c079999208

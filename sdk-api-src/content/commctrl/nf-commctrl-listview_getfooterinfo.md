@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetFooterInfo
 title: ListView_GetFooterInfo macro (commctrl.h)
-description: Gets information on the footer of a specified list-view control. Use this macro or send the LVM_GETFOOTERINFO message explicitly.helpviewer_keywords: ["ListView_GetFooterInfo","ListView_GetFooterInfo macro [Windows Controls]","_shell_ListView_GetFooterInfo","_shell_ListView_GetFooterInfo_cpp","commctrl/ListView_GetFooterInfo","controls.ListView_GetFooterInfo","controls._shell_ListView_GetFooterInfo"]
+description: Gets information on the footer of a specified list-view control. Use this macro or send the LVM_GETFOOTERINFO message explicitly.
+helpviewer_keywords: ["ListView_GetFooterInfo","ListView_GetFooterInfo macro [Windows Controls]","_shell_ListView_GetFooterInfo","_shell_ListView_GetFooterInfo_cpp","commctrl/ListView_GetFooterInfo","controls.ListView_GetFooterInfo","controls._shell_ListView_GetFooterInfo"]
 old-location: controls\ListView_GetFooterInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooterinfo.htm

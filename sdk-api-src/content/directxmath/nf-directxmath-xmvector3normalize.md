@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3Normalize
 title: XMVector3Normalize function (directxmath.h)
-description: Returns the normalized version of a 3D vector.helpviewer_keywords: ["Use DirectX..XMVector3Normalize","XMVector3Normalize","XMVector3Normalize method [DirectX Math Support APIs]","dxmath.xmvector3normalize"]
+description: Returns the normalized version of a 3D vector.
+helpviewer_keywords: ["Use DirectX..XMVector3Normalize","XMVector3Normalize","XMVector3Normalize method [DirectX Math Support APIs]","dxmath.xmvector3normalize"]
 old-location: dxmath\xmvector3normalize.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3Normalize(XMVECTOR)

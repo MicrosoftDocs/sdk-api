@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IRootStorage.SwitchToFile
 title: IRootStorage::SwitchToFile (objidl.h)
-description: The SwitchToFile method copies the current file associated with the storage object to a new file.helpviewer_keywords: ["IRootStorage interface [Structured Storage]","SwitchToFile method","IRootStorage.SwitchToFile","IRootStorage::SwitchToFile","SwitchToFile","SwitchToFile method [Structured Storage]","SwitchToFile method [Structured Storage]","IRootStorage interface","_stg_irootstorage_switchtofile","objidl/IRootStorage::SwitchToFile","stg.irootstorage_switchtofile"]
+description: The SwitchToFile method copies the current file associated with the storage object to a new file.
+helpviewer_keywords: ["IRootStorage interface [Structured Storage]","SwitchToFile method","IRootStorage.SwitchToFile","IRootStorage::SwitchToFile","SwitchToFile","SwitchToFile method [Structured Storage]","SwitchToFile method [Structured Storage]","IRootStorage interface","_stg_irootstorage_switchtofile","objidl/IRootStorage::SwitchToFile","stg.irootstorage_switchtofile"]
 old-location: stg\irootstorage_switchtofile.htm
 tech.root: Stg
 ms.assetid: d482b51a-7159-4aab-ac5e-3f1878d426b2

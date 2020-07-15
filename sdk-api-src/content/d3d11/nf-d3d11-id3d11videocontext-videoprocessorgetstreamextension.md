@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetStreamExtension
 title: ID3D11VideoContext::VideoProcessorGetStreamExtension (d3d11.h)
-description: Gets a driver-specific state for a video processing stream.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamExtension method","ID3D11VideoContext.VideoProcessorGetStreamExtension","ID3D11VideoContext::VideoProcessorGetStreamExtension","VideoProcessorGetStreamExtension","VideoProcessorGetStreamExtension method [Media Foundation]","VideoProcessorGetStreamExtension method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamExtension","mf.id3d11videocontext_videoprocessorgetstreamextension"]
+description: Gets a driver-specific state for a video processing stream.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetStreamExtension method","ID3D11VideoContext.VideoProcessorGetStreamExtension","ID3D11VideoContext::VideoProcessorGetStreamExtension","VideoProcessorGetStreamExtension","VideoProcessorGetStreamExtension method [Media Foundation]","VideoProcessorGetStreamExtension method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetStreamExtension","mf.id3d11videocontext_videoprocessorgetstreamextension"]
 old-location: mf\id3d11videocontext_videoprocessorgetstreamextension.htm
 tech.root: medfound
 ms.assetid: 33A2DC3D-4B92-45B5-B67A-7F3AA55F061B

@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IRegisteredTask.Run
 title: IRegisteredTask::Run (taskschd.h)
-description: Runs the registered task immediately.helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","Run method","IRegisteredTask.Run","IRegisteredTask::Run","Run","Run method [Task Scheduler]","Run method [Task Scheduler]","IRegisteredTask interface","taskschd.iregisteredtask_run","taskschd/IRegisteredTask::Run"]
+description: Runs the registered task immediately.
+helpviewer_keywords: ["IRegisteredTask interface [Task Scheduler]","Run method","IRegisteredTask.Run","IRegisteredTask::Run","Run","Run method [Task Scheduler]","Run method [Task Scheduler]","IRegisteredTask interface","taskschd.iregisteredtask_run","taskschd/IRegisteredTask::Run"]
 old-location: taskschd\iregisteredtask_run.htm
 tech.root: taskschd
 ms.assetid: 6b237ddd-e4e8-47f7-97e7-360e79841acc

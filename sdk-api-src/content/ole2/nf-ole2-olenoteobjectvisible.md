@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleNoteObjectVisible
 title: OleNoteObjectVisible function (ole2.h)
-description: Increments or decrements an external reference that keeps an object in the running state.helpviewer_keywords: ["OleNoteObjectVisible","OleNoteObjectVisible function [COM]","_ole_OleNoteObjectVisible","com.olenoteobjectvisible","ole2/OleNoteObjectVisible"]
+description: Increments or decrements an external reference that keeps an object in the running state.
+helpviewer_keywords: ["OleNoteObjectVisible","OleNoteObjectVisible function [COM]","_ole_OleNoteObjectVisible","com.olenoteobjectvisible","ole2/OleNoteObjectVisible"]
 old-location: com\olenoteobjectvisible.htm
 tech.root: com
 ms.assetid: f140f068-3115-4389-b67b-6d41d12f7525

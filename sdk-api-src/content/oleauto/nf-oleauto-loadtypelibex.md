@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.LoadTypeLibEx
 title: LoadTypeLibEx function (oleauto.h)
-description: Loads a type library and (optionally) registers it in the system registry.  .helpviewer_keywords: ["LoadTypeLibEx","LoadTypeLibEx function [Automation]","_oa96_LoadTypeLibEx","automat.loadtypelibex","oleauto/LoadTypeLibEx"]
+description: Loads a type library and (optionally) registers it in the system registry.  .
+helpviewer_keywords: ["LoadTypeLibEx","LoadTypeLibEx function [Automation]","_oa96_LoadTypeLibEx","automat.loadtypelibex","oleauto/LoadTypeLibEx"]
 old-location: automat\loadtypelibex.htm
 tech.root: automat
 ms.assetid: 56a7f9e1-810b-4a42-aa4d-691f4304f5ef

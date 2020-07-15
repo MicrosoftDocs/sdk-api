@@ -1,7 +1,8 @@
 ---
 UID: NE:mfmediaengine.MF_MEDIA_ENGINE_CANPLAY
 title: MF_MEDIA_ENGINE_CANPLAY (mfmediaengine.h)
-description: Specifies the likelihood that the Media Engine can play a specified type of media resource.helpviewer_keywords: ["MF_MEDIA_ENGINE_CANPLAY","MF_MEDIA_ENGINE_CANPLAY enumeration [Media Foundation]","MF_MEDIA_ENGINE_CANPLAY_MAYBE","MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED","MF_MEDIA_ENGINE_CANPLAY_PROBABLY","mf.mf_media_engine_canplay","mfmediaengine/MF_MEDIA_ENGINE_CANPLAY","mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_MAYBE","mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED","mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_PROBABLY"]
+description: Specifies the likelihood that the Media Engine can play a specified type of media resource.
+helpviewer_keywords: ["MF_MEDIA_ENGINE_CANPLAY","MF_MEDIA_ENGINE_CANPLAY enumeration [Media Foundation]","MF_MEDIA_ENGINE_CANPLAY_MAYBE","MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED","MF_MEDIA_ENGINE_CANPLAY_PROBABLY","mf.mf_media_engine_canplay","mfmediaengine/MF_MEDIA_ENGINE_CANPLAY","mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_MAYBE","mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_NOT_SUPPORTED","mfmediaengine/MF_MEDIA_ENGINE_CANPLAY_PROBABLY"]
 old-location: mf\mf_media_engine_canplay.htm
 tech.root: medfound
 ms.assetid: AABABB09-D45F-474C-B692-DC3592ED164F

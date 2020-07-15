@@ -1,7 +1,8 @@
 ---
 UID: NE:wmp.WMPBurnFormat
 title: WMPBurnFormat (wmp.h)
-description: The WMPBurnFormat enumeration type defines the possible types of CDs for burning.helpviewer_keywords: ["WMPBurnFormat","WMPBurnFormat enumeration [Windows Media Player]","wmp.wmpburnformat","wmp/WMPBurnFormat","wmp/wmpbfAudioCD","wmp/wmpbfDataCD","wmpbfAudioCD","wmpbfDataCD"]
+description: The WMPBurnFormat enumeration type defines the possible types of CDs for burning.
+helpviewer_keywords: ["WMPBurnFormat","WMPBurnFormat enumeration [Windows Media Player]","wmp.wmpburnformat","wmp/WMPBurnFormat","wmp/wmpbfAudioCD","wmp/wmpbfDataCD","wmpbfAudioCD","wmpbfDataCD"]
 old-location: wmp\wmpburnformat.htm
 tech.root: WMP
 ms.assetid: 5761dbfb-4e7d-4063-bde7-2aa9d7869d7c

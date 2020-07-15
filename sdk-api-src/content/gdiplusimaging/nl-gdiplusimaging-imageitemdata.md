@@ -1,7 +1,8 @@
 ---
 UID: NL:gdiplusimaging.ImageItemData
 title: ImageItemData (gdiplusimaging.h)
-description: The ImageItemData class is used to store and retrieve custom image metadata. Windows GDI+ supports custom metadata for JPEG, PNG, and GIF image files.helpviewer_keywords: ["ImageItemData","ImageItemData class [GDI+]","ImageItemData class [GDI+]","described","_gdiplus_CLASS_ImageItemData_Class","gdiplus._gdiplus_CLASS_ImageItemData_Class","gdiplusimaging/ImageItemData"]
+description: The ImageItemData class is used to store and retrieve custom image metadata. Windows GDI+ supports custom metadata for JPEG, PNG, and GIF image files.
+helpviewer_keywords: ["ImageItemData","ImageItemData class [GDI+]","ImageItemData class [GDI+]","described","_gdiplus_CLASS_ImageItemData_Class","gdiplus._gdiplus_CLASS_ImageItemData_Class","gdiplusimaging/ImageItemData"]
 old-location: gdiplus\_gdiplus_CLASS_ImageItemData_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageitemdata.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:wabapi.IWABObject.VCardRetrieve
 title: IWABObject::VCardRetrieve (wabapi.h)
-description: Reads a vCard file and creates a MailUser object containing the vCard properties.helpviewer_keywords: ["IWABObject interface [Windows Address Book]","VCardRetrieve method","IWABObject.VCardRetrieve","IWABObject::VCardRetrieve","VCardRetrieve","VCardRetrieve method [Windows Address Book]","VCardRetrieve method [Windows Address Book]","IWABObject interface","WAB_VCARD_FILE","WAB_VCARD_STREAM","_wab_IWABObject_VCardRetrieve","wab._wab_IWABObject_VCardRetrieve","wabapi/IWABObject::VCardRetrieve"]
+description: Reads a vCard file and creates a MailUser object containing the vCard properties.
+helpviewer_keywords: ["IWABObject interface [Windows Address Book]","VCardRetrieve method","IWABObject.VCardRetrieve","IWABObject::VCardRetrieve","VCardRetrieve","VCardRetrieve method [Windows Address Book]","VCardRetrieve method [Windows Address Book]","IWABObject interface","WAB_VCARD_FILE","WAB_VCARD_STREAM","_wab_IWABObject_VCardRetrieve","wab._wab_IWABObject_VCardRetrieve","wabapi/IWABObject::VCardRetrieve"]
 old-location: wab\_wab_IWABObject_VCardRetrieve.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\vcardretrieve.htm

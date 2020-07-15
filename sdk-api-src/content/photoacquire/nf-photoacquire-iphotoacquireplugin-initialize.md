@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquirePlugin.Initialize
 title: IPhotoAcquirePlugin::Initialize (photoacquire.h)
-description: The Initialize method provides extended functionality when the plug-in is initialized. The application provides the implementation of the Initialize method.helpviewer_keywords: ["IPhotoAcquirePlugin interface [Picture Acquisition]","Initialize method","IPhotoAcquirePlugin.Initialize","IPhotoAcquirePlugin::Initialize","IPhotoAcquirePluginInitialize","Initialize","Initialize method [Picture Acquisition]","Initialize method [Picture Acquisition]","IPhotoAcquirePlugin interface","photoacquire/IPhotoAcquirePlugin::Initialize","picacq.iphotoacquireplugin_initialize"]
+description: The Initialize method provides extended functionality when the plug-in is initialized. The application provides the implementation of the Initialize method.
+helpviewer_keywords: ["IPhotoAcquirePlugin interface [Picture Acquisition]","Initialize method","IPhotoAcquirePlugin.Initialize","IPhotoAcquirePlugin::Initialize","IPhotoAcquirePluginInitialize","Initialize","Initialize method [Picture Acquisition]","Initialize method [Picture Acquisition]","IPhotoAcquirePlugin interface","photoacquire/IPhotoAcquirePlugin::Initialize","picacq.iphotoacquireplugin_initialize"]
 old-location: picacq\iphotoacquireplugin_initialize.htm
 tech.root: acquisition
 ms.assetid: 0992e4f0-43a0-49fb-99f4-8713af96ef7e

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.AreDpiAwarenessContextsEqual
 title: AreDpiAwarenessContextsEqual function (winuser.h)
-description: Determines whether two DPI_AWARENESS_CONTEXT values are identical.helpviewer_keywords: ["AreDpiAwarenessContextsEqual","AreDpiAwarenessContextsEqual function [High DPI]","hidpi.aredpiawarenesscontextsequal","winuser/AreDpiAwarenessContextsEqual"]
+description: Determines whether two DPI_AWARENESS_CONTEXT values are identical.
+helpviewer_keywords: ["AreDpiAwarenessContextsEqual","AreDpiAwarenessContextsEqual function [High DPI]","hidpi.aredpiawarenesscontextsequal","winuser/AreDpiAwarenessContextsEqual"]
 old-location: hidpi\aredpiawarenesscontextsequal.htm
 tech.root: hidpi
 ms.assetid: 77660CAB-97ED-4DAC-A95E-A149F1A479FD

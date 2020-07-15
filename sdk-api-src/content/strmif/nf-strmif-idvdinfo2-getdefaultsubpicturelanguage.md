@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdInfo2.GetDefaultSubpictureLanguage
 title: IDvdInfo2::GetDefaultSubpictureLanguage (strmif.h)
-description: The GetDefaultSubpictureLanguage method retrieves the default subpicture language.helpviewer_keywords: ["GetDefaultSubpictureLanguage","GetDefaultSubpictureLanguage method [DirectShow]","GetDefaultSubpictureLanguage method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDefaultSubpictureLanguage method","IDvdInfo2.GetDefaultSubpictureLanguage","IDvdInfo2::GetDefaultSubpictureLanguage","IDvdInfo2GetDefaultSubpictureLanguage","dshow.idvdinfo2_getdefaultsubpicturelanguage","strmif/IDvdInfo2::GetDefaultSubpictureLanguage"]
+description: The GetDefaultSubpictureLanguage method retrieves the default subpicture language.
+helpviewer_keywords: ["GetDefaultSubpictureLanguage","GetDefaultSubpictureLanguage method [DirectShow]","GetDefaultSubpictureLanguage method [DirectShow]","IDvdInfo2 interface","IDvdInfo2 interface [DirectShow]","GetDefaultSubpictureLanguage method","IDvdInfo2.GetDefaultSubpictureLanguage","IDvdInfo2::GetDefaultSubpictureLanguage","IDvdInfo2GetDefaultSubpictureLanguage","dshow.idvdinfo2_getdefaultsubpicturelanguage","strmif/IDvdInfo2::GetDefaultSubpictureLanguage"]
 old-location: dshow\idvdinfo2_getdefaultsubpicturelanguage.htm
 tech.root: DirectShow
 ms.assetid: ada423a5-90ef-48e1-80fa-04d0a24da8f7

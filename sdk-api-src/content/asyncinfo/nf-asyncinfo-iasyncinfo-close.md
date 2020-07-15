@@ -1,7 +1,8 @@
 ---
 UID: NF:asyncinfo.IAsyncInfo.Close
 title: IAsyncInfo::Close (asyncinfo.h)
-description: Closes the asynchronous work object.helpviewer_keywords: ["Close","Close method [Windows Runtime]","Close method [Windows Runtime]","IAsyncInfo interface","IAsyncInfo interface [Windows Runtime]","Close method","IAsyncInfo.Close","IAsyncInfo::Close","asyncinfo/IAsyncInfo::Close","winrt.iasyncinfo_close"]
+description: Closes the asynchronous work object.
+helpviewer_keywords: ["Close","Close method [Windows Runtime]","Close method [Windows Runtime]","IAsyncInfo interface","IAsyncInfo interface [Windows Runtime]","Close method","IAsyncInfo.Close","IAsyncInfo::Close","asyncinfo/IAsyncInfo::Close","winrt.iasyncinfo_close"]
 old-location: winrt\iasyncinfo_close.htm
 tech.root: WinRT
 ms.assetid: 1c357343-79cf-4808-8e41-f898dfdb99f6

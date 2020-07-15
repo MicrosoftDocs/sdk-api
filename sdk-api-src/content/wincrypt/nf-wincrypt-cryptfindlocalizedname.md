@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptFindLocalizedName
 title: CryptFindLocalizedName function (wincrypt.h)
-description: Finds the localized name for the specified name, such as the localize name of the &#0034;Root&#0034; system store.helpviewer_keywords: ["CryptFindLocalizedName","CryptFindLocalizedName function [Security]","_crypto2_cryptfindlocalizedname","security.cryptfindlocalizedname","wincrypt/CryptFindLocalizedName"]
+description: Finds the localized name for the specified name, such as the localize name of the &quot;Root&quot; system store.
+helpviewer_keywords: ["CryptFindLocalizedName","CryptFindLocalizedName function [Security]","_crypto2_cryptfindlocalizedname","security.cryptfindlocalizedname","wincrypt/CryptFindLocalizedName"]
 old-location: security\cryptfindlocalizedname.htm
 tech.root: SecCrypto
 ms.assetid: 8f0006a9-0930-4b71-87ce-e72371095e4c

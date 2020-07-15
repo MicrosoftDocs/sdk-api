@@ -1,7 +1,8 @@
 ---
 UID: NF:audiopolicy.IAudioVolumeDuckNotification.OnVolumeUnduckNotification
 title: IAudioVolumeDuckNotification::OnVolumeUnduckNotification (audiopolicy.h)
-description: The OnVolumeUnduckNotification method sends a notification about a pending system unducking event.helpviewer_keywords: ["IAudioVolumeDuckNotification interface [Core Audio]","OnVolumeUnduckNotification method","IAudioVolumeDuckNotification.OnVolumeUnduckNotification","IAudioVolumeDuckNotification::OnVolumeUnduckNotification","OnVolumeUnduckNotification","OnVolumeUnduckNotification method [Core Audio]","OnVolumeUnduckNotification method [Core Audio]","IAudioVolumeDuckNotification interface","audiopolicy/IAudioVolumeDuckNotification::OnVolumeUnduckNotification","coreaudio.iaudiovolumeducknotification_onvolumeunducknotification"]
+description: The OnVolumeUnduckNotification method sends a notification about a pending system unducking event.
+helpviewer_keywords: ["IAudioVolumeDuckNotification interface [Core Audio]","OnVolumeUnduckNotification method","IAudioVolumeDuckNotification.OnVolumeUnduckNotification","IAudioVolumeDuckNotification::OnVolumeUnduckNotification","OnVolumeUnduckNotification","OnVolumeUnduckNotification method [Core Audio]","OnVolumeUnduckNotification method [Core Audio]","IAudioVolumeDuckNotification interface","audiopolicy/IAudioVolumeDuckNotification::OnVolumeUnduckNotification","coreaudio.iaudiovolumeducknotification_onvolumeunducknotification"]
 old-location: coreaudio\iaudiovolumeducknotification_onvolumeunducknotification.htm
 tech.root: CoreAudio
 ms.assetid: f25f066e-999f-45ff-8287-afa8acb82a19

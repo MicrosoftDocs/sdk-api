@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.SafeArrayReleaseData
 title: SafeArrayReleaseData function (oleauto.h)
-description: Decreases the pinning reference count for the specified safe array data by one. When that count reaches 0, the memory for that data is no longer prevented from being freed.helpviewer_keywords: ["SafeArrayReleaseData","SafeArrayReleaseData function [Automation]","automat.safearrayreleasedata","oleauto/SafeArrayReleaseData"]
+description: Decreases the pinning reference count for the specified safe array data by one. When that count reaches 0, the memory for that data is no longer prevented from being freed.
+helpviewer_keywords: ["SafeArrayReleaseData","SafeArrayReleaseData function [Automation]","automat.safearrayreleasedata","oleauto/SafeArrayReleaseData"]
 old-location: automat\safearrayreleasedata.htm
 tech.root: automat
 ms.assetid: AF3C36A3-2B3A-4159-8183-DB082FBFD215

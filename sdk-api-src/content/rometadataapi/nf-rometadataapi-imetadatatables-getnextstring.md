@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetNextString
 title: IMetaDataTables::GetNextString (rometadataapi.h)
-description: Gets the index of the next string in the current table column.helpviewer_keywords: ["GetNextString","GetNextString method [Windows Runtime]","GetNextString method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetNextString method","IMetaDataTables.GetNextString","IMetaDataTables::GetNextString","rometadataapi/IMetaDataTables::GetNextString","winrt.imetadatatables_getnextstring"]
+description: Gets the index of the next string in the current table column.
+helpviewer_keywords: ["GetNextString","GetNextString method [Windows Runtime]","GetNextString method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetNextString method","IMetaDataTables.GetNextString","IMetaDataTables::GetNextString","rometadataapi/IMetaDataTables::GetNextString","winrt.imetadatatables_getnextstring"]
 old-location: winrt\imetadatatables_getnextstring.htm
 tech.root: WinRT
 ms.assetid: 7ac1fc2c-a60d-4431-8e49-5df1bb078c9b

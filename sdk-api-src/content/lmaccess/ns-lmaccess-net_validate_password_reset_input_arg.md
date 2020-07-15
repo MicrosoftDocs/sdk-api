@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._NET_VALIDATE_PASSWORD_RESET_INPUT_ARG
 title: NET_VALIDATE_PASSWORD_RESET_INPUT_ARG (lmaccess.h)
-description: A client application passes the NET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure to the NetValidatePasswordPolicy function when the application requests a password reset validation.helpviewer_keywords: ["*PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG","NET_VALIDATE_PASSWORD_RESET_INPUT_ARG","NET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure [Network Management]","PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG","PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure pointer [Network Management]","lmaccess/NET_VALIDATE_PASSWORD_RESET_INPUT_ARG","lmaccess/PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG","netmgmt.net_validate_password_reset_input_arg"]
+description: A client application passes the NET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure to the NetValidatePasswordPolicy function when the application requests a password reset validation.
+helpviewer_keywords: ["*PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG","NET_VALIDATE_PASSWORD_RESET_INPUT_ARG","NET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure [Network Management]","PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG","PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG structure pointer [Network Management]","lmaccess/NET_VALIDATE_PASSWORD_RESET_INPUT_ARG","lmaccess/PNET_VALIDATE_PASSWORD_RESET_INPUT_ARG","netmgmt.net_validate_password_reset_input_arg"]
 old-location: netmgmt\net_validate_password_reset_input_arg.htm
 tech.root: NetMgmt
 ms.assetid: 3a6d4c2d-0d90-48bf-9dfa-2ba587538350

@@ -1,7 +1,8 @@
 ---
 UID: NN:msinkaut.IInkRecognitionAlternate
 title: IInkRecognitionAlternate (msinkaut.h)
-description: Represents the possible word matches for segments of ink that are compared to a recognizers dictionary.helpviewer_keywords: ["219e96ee-6492-4f76-9928-f2e8dc28493d","IInkRecognitionAlternate","IInkRecognitionAlternate interface [Tablet PC]","IInkRecognitionAlternate interface [Tablet PC]","described","msinkaut/IInkRecognitionAlternate","tablet.iinkrecognitionalternate"]
+description: Represents the possible word matches for segments of ink that are compared to a recognizers dictionary.
+helpviewer_keywords: ["219e96ee-6492-4f76-9928-f2e8dc28493d","IInkRecognitionAlternate","IInkRecognitionAlternate interface [Tablet PC]","IInkRecognitionAlternate interface [Tablet PC]","described","msinkaut/IInkRecognitionAlternate","tablet.iinkrecognitionalternate"]
 old-location: tablet\iinkrecognitionalternate.htm
 tech.root: tablet
 ms.assetid: 219e96ee-6492-4f76-9928-f2e8dc28493d

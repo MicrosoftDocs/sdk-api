@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.SetClusterQuorumResource
 title: SetClusterQuorumResource function (clusapi.h)
-description: Establishes a resource as the quorum resource for a cluster.helpviewer_keywords: ["CLUS_HYBRID_QUORUM","CLUS_LEGACY_QUORUM","CLUS_NODE_MAJORITY_QUORUM","PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE","PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE function [Failover Cluster]","SetClusterQuorumResource","SetClusterQuorumResource function [Failover Cluster]","_wolf_setclusterquorumresource","clusapi/PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE","clusapi/SetClusterQuorumResource","mscs.setclusterquorumresource"]
+description: Establishes a resource as the quorum resource for a cluster.
+helpviewer_keywords: ["CLUS_HYBRID_QUORUM","CLUS_LEGACY_QUORUM","CLUS_NODE_MAJORITY_QUORUM","PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE","PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE function [Failover Cluster]","SetClusterQuorumResource","SetClusterQuorumResource function [Failover Cluster]","_wolf_setclusterquorumresource","clusapi/PCLUSAPI_SET_CLUSTER_QUORUM_RESOURCE","clusapi/SetClusterQuorumResource","mscs.setclusterquorumresource"]
 old-location: mscs\setclusterquorumresource.htm
 tech.root: MsCS
 ms.assetid: 1a00c09e-4470-4c02-807d-c559fd992066

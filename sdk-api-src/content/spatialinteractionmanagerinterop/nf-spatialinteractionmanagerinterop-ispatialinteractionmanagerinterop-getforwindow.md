@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialinteractionmanagerinterop.ISpatialInteractionManagerInterop.GetForWindow
 title: ISpatialInteractionManagerInterop::GetForWindow (spatialinteractionmanagerinterop.h)
-description: Retrieves a SpatialInteractionManager object bound to the active application.helpviewer_keywords: ["GetForWindow","GetForWindow method","GetForWindow method","ISpatialInteractionManagerInterop interface","ISpatialInteractionManagerInterop interface","GetForWindow method","ISpatialInteractionManagerInterop.GetForWindow","ISpatialInteractionManagerInterop::GetForWindow","MixedReality.ispatialinteractionmanager_getforwindow","spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop::GetForWindow"]
+description: Retrieves a SpatialInteractionManager object bound to the active application.
+helpviewer_keywords: ["GetForWindow","GetForWindow method","GetForWindow method","ISpatialInteractionManagerInterop interface","ISpatialInteractionManagerInterop interface","GetForWindow method","ISpatialInteractionManagerInterop.GetForWindow","ISpatialInteractionManagerInterop::GetForWindow","MixedReality.ispatialinteractionmanager_getforwindow","spatialinteractionmanagerinterop/ISpatialInteractionManagerInterop::GetForWindow"]
 old-location: mixedreality\ispatialinteractionmanager_getforwindow.htm
 tech.root: MixedReality
 ms.assetid: 5D11BF4D-2EE3-40A3-A1EE-202DD5B904FE
