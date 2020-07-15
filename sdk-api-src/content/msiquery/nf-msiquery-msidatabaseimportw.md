@@ -1,7 +1,8 @@
 ---
 UID: NF:msiquery.MsiDatabaseImportW
 title: MsiDatabaseImportW function (msiquery.h)
-description: The MsiDatabaseImport function imports an installer text archive file into an open database table.helpviewer_keywords: ["MsiDatabaseImport","MsiDatabaseImport function","MsiDatabaseImportA","MsiDatabaseImportW","_msi_msidatabaseimport","msiquery/MsiDatabaseImport","msiquery/MsiDatabaseImportA","msiquery/MsiDatabaseImportW","setup.msidatabaseimport"]
+description: The MsiDatabaseImport function imports an installer text archive file into an open database table.
+helpviewer_keywords: ["MsiDatabaseImport","MsiDatabaseImport function","MsiDatabaseImportA","MsiDatabaseImportW","_msi_msidatabaseimport","msiquery/MsiDatabaseImport","msiquery/MsiDatabaseImportA","msiquery/MsiDatabaseImportW","setup.msidatabaseimport"]
 old-location: setup\msidatabaseimport.htm
 tech.root: Msi
 ms.assetid: df277641-393e-4202-bb92-4b813ddaa0ca
@@ -102,6 +103,10 @@ If the function fails, you can obtain extended error information by using <a hre
 
 
 
+
+
+> [!NOTE]
+> The msiquery.h header defines MsiDatabaseImport as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

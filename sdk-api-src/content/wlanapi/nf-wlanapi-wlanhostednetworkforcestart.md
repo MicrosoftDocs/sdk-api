@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanHostedNetworkForceStart
 title: WlanHostedNetworkForceStart function (wlanapi.h)
-description: Transitions the wireless Hosted Network to the wlan_hosted_network_active state without associating the request with the application's calling handle.helpviewer_keywords: ["WlanHostedNetworkForceStart","WlanHostedNetworkForceStart function [NativeWIFI]","nwifi.wlanhostednetworkforcestart","wlanapi/WlanHostedNetworkForceStart"]
+description: Transitions the wireless Hosted Network to the wlan_hosted_network_active state without associating the request with the application's calling handle.
+helpviewer_keywords: ["WlanHostedNetworkForceStart","WlanHostedNetworkForceStart function [NativeWIFI]","nwifi.wlanhostednetworkforcestart","wlanapi/WlanHostedNetworkForceStart"]
 old-location: nwifi\wlanhostednetworkforcestart.htm
 tech.root: NativeWiFi
 ms.assetid: d3e3b44f-ff52-4062-b54d-a0e3f2cf7785

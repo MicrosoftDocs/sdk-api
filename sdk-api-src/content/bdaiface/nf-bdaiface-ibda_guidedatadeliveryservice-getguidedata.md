@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetGuideData
 title: IBDA_GuideDataDeliveryService::GetGuideData (bdaiface.h)
-description: Gets the next set of guide data that is available.helpviewer_keywords: ["GetGuideData","GetGuideData method [Microsoft TV Technologies]","GetGuideData method [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","GetGuideData method","IBDA_GuideDataDeliveryService.GetGuideData","IBDA_GuideDataDeliveryService::GetGuideData","bdaiface/IBDA_GuideDataDeliveryService::GetGuideData","mstv.ibda_guidedatadeliveryservice_getguidedata"]
+description: Gets the next set of guide data that is available.
+helpviewer_keywords: ["GetGuideData","GetGuideData method [Microsoft TV Technologies]","GetGuideData method [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","GetGuideData method","IBDA_GuideDataDeliveryService.GetGuideData","IBDA_GuideDataDeliveryService::GetGuideData","bdaiface/IBDA_GuideDataDeliveryService::GetGuideData","mstv.ibda_guidedatadeliveryservice_getguidedata"]
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedata.htm
 tech.root: mstv
 ms.assetid: c261d20e-3760-4bf9-905b-f5620df4166b

@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMRSETMITERLIMIT
 title: EMRSETMITERLIMIT (wingdi.h)
-description: The EMRSETMITERLIMIT structure contains members for the SetMiterLimit enhanced metafile record.helpviewer_keywords: ["*PEMRSETMITERLIMIT","EMRSETMITERLIMIT","EMRSETMITERLIMIT structure [Windows GDI]","PEMRSETMITERLIMIT","PEMRSETMITERLIMIT structure pointer [Windows GDI]","_win32_EMRSETMITERLIMIT_str","gdi.emrsetmiterlimit","wingdi/EMRSETMITERLIMIT","wingdi/PEMRSETMITERLIMIT"]
+description: The EMRSETMITERLIMIT structure contains members for the SetMiterLimit enhanced metafile record.
+helpviewer_keywords: ["*PEMRSETMITERLIMIT","EMRSETMITERLIMIT","EMRSETMITERLIMIT structure [Windows GDI]","PEMRSETMITERLIMIT","PEMRSETMITERLIMIT structure pointer [Windows GDI]","_win32_EMRSETMITERLIMIT_str","gdi.emrsetmiterlimit","wingdi/EMRSETMITERLIMIT","wingdi/PEMRSETMITERLIMIT"]
 old-location: gdi\emrsetmiterlimit.htm
 tech.root: gdi
 ms.assetid: 2d56eb0d-5417-464b-be6a-57e4654003e6

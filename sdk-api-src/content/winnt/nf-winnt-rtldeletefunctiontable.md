@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.RtlDeleteFunctionTable
 title: RtlDeleteFunctionTable function (winnt.h)
-description: Removes a dynamic function table from the dynamic function table list.helpviewer_keywords: ["RtlDeleteFunctionTable","RtlDeleteFunctionTable function","base.rtldeletefunctiontable","winnt/RtlDeleteFunctionTable"]
+description: Removes a dynamic function table from the dynamic function table list.
+helpviewer_keywords: ["RtlDeleteFunctionTable","RtlDeleteFunctionTable function","base.rtldeletefunctiontable","winnt/RtlDeleteFunctionTable"]
 old-location: base\rtldeletefunctiontable.htm
 tech.root: Debug
 ms.assetid: 42bc3d83-8053-40e9-b153-f68733d0cb2b

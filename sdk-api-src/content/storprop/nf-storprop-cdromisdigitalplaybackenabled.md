@@ -1,7 +1,8 @@
 ---
 UID: NF:storprop.CdromIsDigitalPlaybackEnabled
 title: CdromIsDigitalPlaybackEnabled function (storprop.h)
-description: Determines whether digital playback is enabled for the specified CD-ROM or DVD drive.helpviewer_keywords: ["CdromIsDigitalPlaybackEnabled","CdromIsDigitalPlaybackEnabled function","base.cdromisdigitalplaybackenabled","storprop/CdromIsDigitalPlaybackEnabled"]
+description: Determines whether digital playback is enabled for the specified CD-ROM or DVD drive.
+helpviewer_keywords: ["CdromIsDigitalPlaybackEnabled","CdromIsDigitalPlaybackEnabled function","base.cdromisdigitalplaybackenabled","storprop/CdromIsDigitalPlaybackEnabled"]
 old-location: base\cdromisdigitalplaybackenabled.htm
 tech.root: devio
 ms.assetid: 17d1ccc6-a552-434f-84f5-471455e97dc2

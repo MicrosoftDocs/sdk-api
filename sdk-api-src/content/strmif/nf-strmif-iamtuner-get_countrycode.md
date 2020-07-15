@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMTuner.get_CountryCode
 title: IAMTuner::get_CountryCode (strmif.h)
-description: The get_CountryCode method retrieves the country/region code that establishes the current channel-to-frequency mapping.helpviewer_keywords: ["IAMTuner interface [DirectShow]","get_CountryCode method","IAMTuner.get_CountryCode","IAMTuner::get_CountryCode","IAMTunerget_CountryCode","dshow.iamtuner_get_countrycode","get_CountryCode","get_CountryCode method [DirectShow]","get_CountryCode method [DirectShow]","IAMTuner interface","strmif/IAMTuner::get_CountryCode"]
+description: The get_CountryCode method retrieves the country/region code that establishes the current channel-to-frequency mapping.
+helpviewer_keywords: ["IAMTuner interface [DirectShow]","get_CountryCode method","IAMTuner.get_CountryCode","IAMTuner::get_CountryCode","IAMTunerget_CountryCode","dshow.iamtuner_get_countrycode","get_CountryCode","get_CountryCode method [DirectShow]","get_CountryCode method [DirectShow]","IAMTuner interface","strmif/IAMTuner::get_CountryCode"]
 old-location: dshow\iamtuner_get_countrycode.htm
 tech.root: DirectShow
 ms.assetid: 8b459ad8-c9e0-4b35-aec4-113c8a67d907

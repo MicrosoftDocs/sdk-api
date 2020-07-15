@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.ITMediaSupport
 title: ITMediaSupport (tapi3if.h)
-description: The ITMediaSupport interface provides methods that allow an application to discover the media support capabilities for an Address Object that exposes this interface.helpviewer_keywords: ["ITMediaSupport","ITMediaSupport interface [TAPI 2.2]","ITMediaSupport interface [TAPI 2.2]","described","_tapi3_itmediasupport","tapi3.itmediasupport","tapi3if/ITMediaSupport"]
+description: The ITMediaSupport interface provides methods that allow an application to discover the media support capabilities for an Address Object that exposes this interface.
+helpviewer_keywords: ["ITMediaSupport","ITMediaSupport interface [TAPI 2.2]","ITMediaSupport interface [TAPI 2.2]","described","_tapi3_itmediasupport","tapi3.itmediasupport","tapi3if/ITMediaSupport"]
 old-location: tapi3\itmediasupport.htm
 tech.root: Tapi
 ms.assetid: 196995f1-b8d0-4ec1-b94e-61a02a258087

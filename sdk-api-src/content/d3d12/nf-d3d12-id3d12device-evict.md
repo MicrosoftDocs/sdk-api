@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device.Evict
 title: ID3D12Device::Evict (d3d12.h)
-description: Enables the page-out of data, which precludes GPU access of that data.helpviewer_keywords: ["Evict","Evict method","Evict method","ID3D12Device interface","ID3D12Device interface","Evict method","ID3D12Device.Evict","ID3D12Device::Evict","d3d12/ID3D12Device::Evict","direct3d12.id3d12device_evict"]
+description: Enables the page-out of data, which precludes GPU access of that data.
+helpviewer_keywords: ["Evict","Evict method","Evict method","ID3D12Device interface","ID3D12Device interface","Evict method","ID3D12Device.Evict","ID3D12Device::Evict","d3d12/ID3D12Device::Evict","direct3d12.id3d12device_evict"]
 old-location: direct3d12\id3d12device_evict.htm
 tech.root: direct3d12
 ms.assetid: 37F8ABA7-EDA3-4775-8B86-470FC4F95662

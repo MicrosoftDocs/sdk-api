@@ -1,7 +1,8 @@
 ---
 UID: NN:bdatif.ITuneRequestInfo
 title: ITuneRequestInfo (bdatif.h)
-description: The ITuneRequestInfo interface is implemented on the BDA MPEG2 Transport Information Filter (TIF) and is used by the Network Provider.helpviewer_keywords: ["ITuneRequestInfo","ITuneRequestInfo interface [Microsoft TV Technologies]","ITuneRequestInfo interface [Microsoft TV Technologies]","described","ITuneRequestInfoInterface","bdatif/ITuneRequestInfo","mstv.itunerequestinfo"]
+description: The ITuneRequestInfo interface is implemented on the BDA MPEG2 Transport Information Filter (TIF) and is used by the Network Provider.
+helpviewer_keywords: ["ITuneRequestInfo","ITuneRequestInfo interface [Microsoft TV Technologies]","ITuneRequestInfo interface [Microsoft TV Technologies]","described","ITuneRequestInfoInterface","bdatif/ITuneRequestInfo","mstv.itunerequestinfo"]
 old-location: mstv\itunerequestinfo.htm
 tech.root: mstv
 ms.assetid: e5cb1a15-29c4-4e0f-aed2-eafe12ea007a

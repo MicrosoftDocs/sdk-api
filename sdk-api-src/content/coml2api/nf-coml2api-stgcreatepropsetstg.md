@@ -1,7 +1,8 @@
 ---
 UID: NF:coml2api.StgCreatePropSetStg
 title: StgCreatePropSetStg function (coml2api.h)
-description: Creates a property set storage object from a specified storage object.helpviewer_keywords: ["StgCreatePropSetStg","StgCreatePropSetStg function [Structured Storage]","_stg_stgcreatepropsetstg","coml2api/StgCreatePropSetStg","stg.stgcreatepropsetstg"]
+description: Creates a property set storage object from a specified storage object.
+helpviewer_keywords: ["StgCreatePropSetStg","StgCreatePropSetStg function [Structured Storage]","_stg_stgcreatepropsetstg","coml2api/StgCreatePropSetStg","stg.stgcreatepropsetstg"]
 old-location: stg\stgcreatepropsetstg.htm
 tech.root: Stg
 ms.assetid: 0113b29d-23aa-4590-b8ac-33789a7a2ed4

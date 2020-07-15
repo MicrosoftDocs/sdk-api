@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapFlipRotator.Initialize
 title: IWICBitmapFlipRotator::Initialize (wincodec.h)
-description: Initializes the bitmap flip rotator with the provided parameters.helpviewer_keywords: ["IWICBitmapFlipRotator interface [Windows Imaging Component]","Initialize method","IWICBitmapFlipRotator.Initialize","IWICBitmapFlipRotator::Initialize","Initialize","Initialize method [Windows Imaging Component]","Initialize method [Windows Imaging Component]","IWICBitmapFlipRotator interface","_wic_codec_iwicbitmapfliprotator_initialize","wic._wic_codec_iwicbitmapfliprotator_initialize","wincodec/IWICBitmapFlipRotator::Initialize"]
+description: Initializes the bitmap flip rotator with the provided parameters.
+helpviewer_keywords: ["IWICBitmapFlipRotator interface [Windows Imaging Component]","Initialize method","IWICBitmapFlipRotator.Initialize","IWICBitmapFlipRotator::Initialize","Initialize","Initialize method [Windows Imaging Component]","Initialize method [Windows Imaging Component]","IWICBitmapFlipRotator interface","_wic_codec_iwicbitmapfliprotator_initialize","wic._wic_codec_iwicbitmapfliprotator_initialize","wincodec/IWICBitmapFlipRotator::Initialize"]
 old-location: wic\_wic_codec_iwicbitmapfliprotator_initialize.htm
 tech.root: wic
 ms.assetid: 8c70d25d-b591-4ef4-91b5-b8350da99df1

@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IFolderView2
 title: IFolderView2 (shobjidl_core.h)
-description: Exposes methods that retrieve information about a folder's display options, select specified items in that folder, and set the folder's view mode.helpviewer_keywords: ["IFolderView2","IFolderView2 interface [Windows Shell]","IFolderView2 interface [Windows Shell]","described","_shell_IFolderView2","shell.IFolderView2","shobjidl_core/IFolderView2"]
+description: Exposes methods that retrieve information about a folder's display options, select specified items in that folder, and set the folder's view mode.
+helpviewer_keywords: ["IFolderView2","IFolderView2 interface [Windows Shell]","IFolderView2 interface [Windows Shell]","described","_shell_IFolderView2","shell.IFolderView2","shobjidl_core/IFolderView2"]
 old-location: shell\IFolderView2.htm
 tech.root: shell
 ms.assetid: 52fcf0df-f532-4114-b1c9-96838f1a5e77

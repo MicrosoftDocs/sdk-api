@@ -1,7 +1,8 @@
 ---
 UID: NF:dsadmin.IDsAdminNewObjPrimarySite.CreateNew
 title: IDsAdminNewObjPrimarySite::CreateNew (dsadmin.h)
-description: The IDsAdminNewObjPrimarySite::CreateNew method enables a primary object creation extension to create a temporary directory service object in Active Directory Domain Services.helpviewer_keywords: ["CreateNew","CreateNew method [Active Directory]","CreateNew method [Active Directory]","IDsAdminNewObjPrimarySite interface","IDsAdminNewObjPrimarySite interface [Active Directory]","CreateNew method","IDsAdminNewObjPrimarySite.CreateNew","IDsAdminNewObjPrimarySite::CreateNew","_glines_idsadminnewobjprimarysite_createnew","ad.idsadminnewobjprimarysite__createnew","ad.idsadminnewobjprimarysite_createnew","dsadmin/IDsAdminNewObjPrimarySite::CreateNew"]
+description: The IDsAdminNewObjPrimarySite::CreateNew method enables a primary object creation extension to create a temporary directory service object in Active Directory Domain Services.
+helpviewer_keywords: ["CreateNew","CreateNew method [Active Directory]","CreateNew method [Active Directory]","IDsAdminNewObjPrimarySite interface","IDsAdminNewObjPrimarySite interface [Active Directory]","CreateNew method","IDsAdminNewObjPrimarySite.CreateNew","IDsAdminNewObjPrimarySite::CreateNew","_glines_idsadminnewobjprimarysite_createnew","ad.idsadminnewobjprimarysite__createnew","ad.idsadminnewobjprimarysite_createnew","dsadmin/IDsAdminNewObjPrimarySite::CreateNew"]
 old-location: ad\idsadminnewobjprimarysite_createnew.htm
 tech.root: ad
 ms.assetid: ec685ae1-6a37-43d3-84ed-7409611ab63b

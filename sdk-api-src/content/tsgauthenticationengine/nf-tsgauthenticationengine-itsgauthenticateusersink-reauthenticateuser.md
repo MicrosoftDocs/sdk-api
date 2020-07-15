@@ -1,7 +1,8 @@
 ---
 UID: NF:tsgauthenticationengine.ITSGAuthenticateUserSink.ReauthenticateUser
 title: ITSGAuthenticateUserSink::ReauthenticateUser (tsgauthenticationengine.h)
-description: Notifies Remote Desktop Gateway (RD Gateway) that it should silently reauthenticate and reauthorize the user.helpviewer_keywords: ["ITSGAuthenticateUserSink interface [Remote Desktop Services]","ReauthenticateUser method","ITSGAuthenticateUserSink.ReauthenticateUser","ITSGAuthenticateUserSink::ReauthenticateUser","ReauthenticateUser","ReauthenticateUser method [Remote Desktop Services]","ReauthenticateUser method [Remote Desktop Services]","ITSGAuthenticateUserSink interface","termserv.itsgauthenticateusersink_reauthenticateuser","tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser"]
+description: Notifies Remote Desktop Gateway (RD Gateway) that it should silently reauthenticate and reauthorize the user.
+helpviewer_keywords: ["ITSGAuthenticateUserSink interface [Remote Desktop Services]","ReauthenticateUser method","ITSGAuthenticateUserSink.ReauthenticateUser","ITSGAuthenticateUserSink::ReauthenticateUser","ReauthenticateUser","ReauthenticateUser method [Remote Desktop Services]","ReauthenticateUser method [Remote Desktop Services]","ITSGAuthenticateUserSink interface","termserv.itsgauthenticateusersink_reauthenticateuser","tsgauthenticationengine/ITSGAuthenticateUserSink::ReauthenticateUser"]
 old-location: termserv\itsgauthenticateusersink_reauthenticateuser.htm
 tech.root: TermServ
 ms.assetid: f3706f72-d23c-49ac-9d81-3a38f8d399c8

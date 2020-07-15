@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegOpenUserClassesRoot
 title: RegOpenUserClassesRoot function (winreg.h)
-description: Retrieves a handle to the HKEY_CLASSES_ROOT key for a specified user. The user is identified by an access token.helpviewer_keywords: ["RegOpenUserClassesRoot","RegOpenUserClassesRoot function","_win32_regopenuserclassesroot","base.regopenuserclassesroot","winreg/RegOpenUserClassesRoot"]
+description: Retrieves a handle to the HKEY_CLASSES_ROOT key for a specified user. The user is identified by an access token.
+helpviewer_keywords: ["RegOpenUserClassesRoot","RegOpenUserClassesRoot function","_win32_regopenuserclassesroot","base.regopenuserclassesroot","winreg/RegOpenUserClassesRoot"]
 old-location: base\regopenuserclassesroot.htm
 tech.root: SysInfo
 ms.assetid: bd068826-cf88-4fc7-a7d6-96cc03e923c7

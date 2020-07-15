@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarDecMul
 title: VarDecMul function (oleauto.h)
-description: Multiplies two variants of type decimal.helpviewer_keywords: ["VarDecMul","VarDecMul function [Automation]","_oa96_VarDecMul","automat.vardecmul","oleauto/VarDecMul"]
+description: Multiplies two variants of type decimal.
+helpviewer_keywords: ["VarDecMul","VarDecMul function [Automation]","_oa96_VarDecMul","automat.vardecmul","oleauto/VarDecMul"]
 old-location: automat\vardecmul.htm
 tech.root: automat
 ms.assetid: d1c82664-bcdf-439f-9a53-6c1222873086

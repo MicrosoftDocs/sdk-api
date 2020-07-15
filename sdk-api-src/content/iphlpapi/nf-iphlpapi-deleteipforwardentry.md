@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.DeleteIpForwardEntry
 title: DeleteIpForwardEntry function (iphlpapi.h)
-description: Deletes an existing route in the local computer's IPv4 routing table.helpviewer_keywords: ["DeleteIpForwardEntry","DeleteIpForwardEntry function [IP Helper]","_iphlp_deleteipforwardentry","iphlp.deleteipforwardentry","iphlpapi/DeleteIpForwardEntry"]
+description: Deletes an existing route in the local computer's IPv4 routing table.
+helpviewer_keywords: ["DeleteIpForwardEntry","DeleteIpForwardEntry function [IP Helper]","_iphlp_deleteipforwardentry","iphlp.deleteipforwardentry","iphlpapi/DeleteIpForwardEntry"]
 old-location: iphlp\deleteipforwardentry.htm
 tech.root: IpHlp
 ms.assetid: 70bcfd71-34dd-465d-890b-1dd829632fb0

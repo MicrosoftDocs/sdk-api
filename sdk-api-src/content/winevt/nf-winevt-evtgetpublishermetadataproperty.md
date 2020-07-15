@@ -1,7 +1,8 @@
 ---
 UID: NF:winevt.EvtGetPublisherMetadataProperty
 title: EvtGetPublisherMetadataProperty function (winevt.h)
-description: Gets the specified provider metadata property.helpviewer_keywords: ["EvtGetPublisherMetadataProperty","EvtGetPublisherMetadataProperty function [EventLog]","wes.evtgetpublishermetadataproperty","winevt/EvtGetPublisherMetadataProperty"]
+description: Gets the specified provider metadata property.
+helpviewer_keywords: ["EvtGetPublisherMetadataProperty","EvtGetPublisherMetadataProperty function [EventLog]","wes.evtgetpublishermetadataproperty","winevt/EvtGetPublisherMetadataProperty"]
 old-location: wes\evtgetpublishermetadataproperty.htm
 tech.root: wes
 ms.assetid: f85a46ef-873c-4dd9-8b5c-3763fd67fc06

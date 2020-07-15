@@ -1,7 +1,8 @@
 ---
 UID: NS:lpmapi.__unnamed_struct_23
 title: IntServTspecBody (lpmapi.h)
-description: The IntServTspecBody structure contains information for an RSVP Tspec.helpviewer_keywords: ["IntServTspecBody","IntServTspecBody structure [QOS]","lpmapi/IntServTspecBody","qos.intservtspecbody"]
+description: The IntServTspecBody structure contains information for an RSVP Tspec.
+helpviewer_keywords: ["IntServTspecBody","IntServTspecBody structure [QOS]","lpmapi/IntServTspecBody","qos.intservtspecbody"]
 old-location: qos\intservtspecbody.htm
 tech.root: QOS
 ms.assetid: c4244dba-237a-437b-94b7-fd814edb3506

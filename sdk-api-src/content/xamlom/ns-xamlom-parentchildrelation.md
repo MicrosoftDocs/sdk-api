@@ -1,7 +1,8 @@
 ---
 UID: NS:xamlom.ParentChildRelation
 title: ParentChildRelation (xamlom.h)
-description: Associates a parent object with a child object.helpviewer_keywords: ["PParentChildRelation","PParentChildRelation structure pointer","ParentChildRelation","ParentChildRelation structure","xaml_diagnostics.parentchildrelation","xamlom/PParentChildRelation","xamlom/ParentChildRelation"]
+description: Associates a parent object with a child object.
+helpviewer_keywords: ["PParentChildRelation","PParentChildRelation structure pointer","ParentChildRelation","ParentChildRelation structure","xaml_diagnostics.parentchildrelation","xamlom/PParentChildRelation","xamlom/ParentChildRelation"]
 old-location: xaml_diagnostics\parentchildrelation.htm
 tech.root: xaml_diagnostics
 ms.assetid: 49BC909B-2886-4F03-8F4D-60B9126DA236

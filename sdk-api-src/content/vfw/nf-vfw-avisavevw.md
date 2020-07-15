@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.AVISaveVW
 title: AVISaveVW function (vfw.h)
-description: The AVISaveV function builds a file by combining data streams from other files or from memory.helpviewer_keywords: ["AVISaveV","AVISaveV function [Windows Multimedia]","AVISaveVA","AVISaveVW","_win32_AVISaveV","multimedia.avisavev","vfw/AVISaveV","vfw/AVISaveVA","vfw/AVISaveVW"]
+description: The AVISaveV function builds a file by combining data streams from other files or from memory.
+helpviewer_keywords: ["AVISaveV","AVISaveV function [Windows Multimedia]","AVISaveVA","AVISaveVW","_win32_AVISaveV","multimedia.avisavev","vfw/AVISaveV","vfw/AVISaveVA","vfw/AVISaveVW"]
 old-location: multimedia\avisavev.htm
 tech.root: Multimedia
 ms.assetid: e3810588-1be7-4e66-9b25-78aaa24b96c7
@@ -115,6 +116,10 @@ The argument <i>ppavi</i> contains the address of a pointer to an <a href="https
 
 
 
+
+
+> [!NOTE]
+> The vfw.h header defines AVISaveV as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

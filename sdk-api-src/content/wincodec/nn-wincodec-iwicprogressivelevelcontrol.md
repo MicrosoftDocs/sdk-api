@@ -1,7 +1,8 @@
 ---
 UID: NN:wincodec.IWICProgressiveLevelControl
 title: IWICProgressiveLevelControl (wincodec.h)
-description: Exposes methods for obtaining information about and controlling progressive decoding.helpviewer_keywords: ["IWICProgressiveLevelControl","IWICProgressiveLevelControl interface [Windows Imaging Component]","IWICProgressiveLevelControl interface [Windows Imaging Component]","described","_wic_codec_iwicprogressivelevelcontrol","wic._wic_codec_iwicprogressivelevelcontrol","wincodec/IWICProgressiveLevelControl"]
+description: Exposes methods for obtaining information about and controlling progressive decoding.
+helpviewer_keywords: ["IWICProgressiveLevelControl","IWICProgressiveLevelControl interface [Windows Imaging Component]","IWICProgressiveLevelControl interface [Windows Imaging Component]","described","_wic_codec_iwicprogressivelevelcontrol","wic._wic_codec_iwicprogressivelevelcontrol","wincodec/IWICProgressiveLevelControl"]
 old-location: wic\_wic_codec_iwicprogressivelevelcontrol.htm
 tech.root: wic
 ms.assetid: d77244bc-b9d4-4b7d-b718-4ee38de46614

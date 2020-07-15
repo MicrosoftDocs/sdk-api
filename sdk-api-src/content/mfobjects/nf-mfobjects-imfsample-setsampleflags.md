@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFSample.SetSampleFlags
 title: IMFSample::SetSampleFlags (mfobjects.h)
-description: Sets flags associated with the sample.Currently no flags are defined.helpviewer_keywords: ["30dac293-981b-41f3-951d-186d6a603d0a","IMFSample interface [Media Foundation]","SetSampleFlags method","IMFSample.SetSampleFlags","IMFSample::SetSampleFlags","SetSampleFlags","SetSampleFlags method [Media Foundation]","SetSampleFlags method [Media Foundation]","IMFSample interface","mf.imfsample_setsampleflags","mfobjects/IMFSample::SetSampleFlags"]
+description: Sets flags associated with the sample.Currently no flags are defined.
+helpviewer_keywords: ["30dac293-981b-41f3-951d-186d6a603d0a","IMFSample interface [Media Foundation]","SetSampleFlags method","IMFSample.SetSampleFlags","IMFSample::SetSampleFlags","SetSampleFlags","SetSampleFlags method [Media Foundation]","SetSampleFlags method [Media Foundation]","IMFSample interface","mf.imfsample_setsampleflags","mfobjects/IMFSample::SetSampleFlags"]
 old-location: mf\imfsample_setsampleflags.htm
 tech.root: medfound
 ms.assetid: 30dac293-981b-41f3-951d-186d6a603d0a

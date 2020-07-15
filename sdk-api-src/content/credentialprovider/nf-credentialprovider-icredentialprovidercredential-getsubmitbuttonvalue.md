@@ -1,7 +1,8 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredential.GetSubmitButtonValue
 title: ICredentialProviderCredential::GetSubmitButtonValue (credentialprovider.h)
-description: Retrieves the identifier of a field that the submit button should be placed next to in the Logon UI.helpviewer_keywords: ["GetSubmitButtonValue","GetSubmitButtonValue method [Windows Shell]","GetSubmitButtonValue method [Windows Shell]","ICredentialProviderCredential interface","ICredentialProviderCredential interface [Windows Shell]","GetSubmitButtonValue method","ICredentialProviderCredential.GetSubmitButtonValue","ICredentialProviderCredential::GetSubmitButtonValue","_shell_ICredentialProviderCredential_GetSubmitButtonValue","credentialprovider/ICredentialProviderCredential::GetSubmitButtonValue","shell.ICredentialProviderCredential_GetSubmitButtonValue"]
+description: Retrieves the identifier of a field that the submit button should be placed next to in the Logon UI.
+helpviewer_keywords: ["GetSubmitButtonValue","GetSubmitButtonValue method [Windows Shell]","GetSubmitButtonValue method [Windows Shell]","ICredentialProviderCredential interface","ICredentialProviderCredential interface [Windows Shell]","GetSubmitButtonValue method","ICredentialProviderCredential.GetSubmitButtonValue","ICredentialProviderCredential::GetSubmitButtonValue","_shell_ICredentialProviderCredential_GetSubmitButtonValue","credentialprovider/ICredentialProviderCredential::GetSubmitButtonValue","shell.ICredentialProviderCredential_GetSubmitButtonValue"]
 old-location: shell\ICredentialProviderCredential_GetSubmitButtonValue.htm
 tech.root: shell
 ms.assetid: 74adc133-aa4d-405f-a98d-c9cfc719648a

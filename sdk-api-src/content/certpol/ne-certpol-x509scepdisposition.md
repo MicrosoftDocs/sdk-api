@@ -1,7 +1,8 @@
 ---
 UID: NE:certpol.X509SCEPDisposition
 title: X509SCEPDisposition (certpol.h)
-description: Describes the resulting disposition of a request to process a response message.helpviewer_keywords: ["SCEPDispositionFailure","SCEPDispositionPending","SCEPDispositionSuccess","X509SCEPDisposition","X509SCEPDisposition enumeration [Security]","certpol/SCEPDispositionFailure","certpol/SCEPDispositionPending","certpol/SCEPDispositionSuccess","certpol/X509SCEPDisposition","security.x509scepdisposition"]
+description: Describes the resulting disposition of a request to process a response message.
+helpviewer_keywords: ["SCEPDispositionFailure","SCEPDispositionPending","SCEPDispositionSuccess","X509SCEPDisposition","X509SCEPDisposition enumeration [Security]","certpol/SCEPDispositionFailure","certpol/SCEPDispositionPending","certpol/SCEPDispositionSuccess","certpol/X509SCEPDisposition","security.x509scepdisposition"]
 old-location: security\x509scepdisposition.htm
 tech.root: seccertenroll
 ms.assetid: 635AAD37-261F-4F38-AD00-B3E8A5C55ABF

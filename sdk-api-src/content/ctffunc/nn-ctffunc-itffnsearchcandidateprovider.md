@@ -1,7 +1,8 @@
 ---
 UID: NN:ctffunc.ITfFnSearchCandidateProvider
 title: ITfFnSearchCandidateProvider (ctffunc.h)
-description: Enables an integrated search experience in an Input Method Editor (IME).helpviewer_keywords: ["ITfFnSearchCandidateProvider","ITfFnSearchCandidateProvider interface [Text Services Framework]","ITfFnSearchCandidateProvider interface [Text Services Framework]","described","ctffunc/ITfFnSearchCandidateProvider","tsf.itffnsearchcandidateprovider"]
+description: Enables an integrated search experience in an Input Method Editor (IME).
+helpviewer_keywords: ["ITfFnSearchCandidateProvider","ITfFnSearchCandidateProvider interface [Text Services Framework]","ITfFnSearchCandidateProvider interface [Text Services Framework]","described","ctffunc/ITfFnSearchCandidateProvider","tsf.itffnsearchcandidateprovider"]
 old-location: tsf\itffnsearchcandidateprovider.htm
 tech.root: TSF
 ms.assetid: 5DD99E0A-42A2-4EA5-B24F-5C439F5D7EEF

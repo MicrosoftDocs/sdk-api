@@ -1,7 +1,8 @@
 ---
 UID: NF:bdatif.IGuideData.GetServices
 title: IGuideData::GetServices (bdatif.h)
-description: The GetServices method retrieves a collection of tune requests representing all the services available in the tuning space.helpviewer_keywords: ["GetServices","GetServices method [Microsoft TV Technologies]","GetServices method [Microsoft TV Technologies]","IGuideData interface","IGuideData interface [Microsoft TV Technologies]","GetServices method","IGuideData.GetServices","IGuideData::GetServices","IGuideDataGetServices","bdatif/IGuideData::GetServices","mstv.iguidedata_getservices"]
+description: The GetServices method retrieves a collection of tune requests representing all the services available in the tuning space.
+helpviewer_keywords: ["GetServices","GetServices method [Microsoft TV Technologies]","GetServices method [Microsoft TV Technologies]","IGuideData interface","IGuideData interface [Microsoft TV Technologies]","GetServices method","IGuideData.GetServices","IGuideData::GetServices","IGuideDataGetServices","bdatif/IGuideData::GetServices","mstv.iguidedata_getservices"]
 old-location: mstv\iguidedata_getservices.htm
 tech.root: mstv
 ms.assetid: a3c08812-ed56-440e-a88d-80e20a681695

@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoProgressDialog.SetPercentComplete
 title: IPhotoProgressDialog::SetPercentComplete (photoacquire.h)
-description: The SetPercentComplete method sets a value indicating the completed portion of the current operation.helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","SetPercentComplete method","IPhotoProgressDialog.SetPercentComplete","IPhotoProgressDialog::SetPercentComplete","IPhotoProgressDialogSetPercentComplete","SetPercentComplete","SetPercentComplete method [Picture Acquisition]","SetPercentComplete method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::SetPercentComplete","picacq.iphotoprogressdialog_setpercentcomplete"]
+description: The SetPercentComplete method sets a value indicating the completed portion of the current operation.
+helpviewer_keywords: ["IPhotoProgressDialog interface [Picture Acquisition]","SetPercentComplete method","IPhotoProgressDialog.SetPercentComplete","IPhotoProgressDialog::SetPercentComplete","IPhotoProgressDialogSetPercentComplete","SetPercentComplete","SetPercentComplete method [Picture Acquisition]","SetPercentComplete method [Picture Acquisition]","IPhotoProgressDialog interface","photoacquire/IPhotoProgressDialog::SetPercentComplete","picacq.iphotoprogressdialog_setpercentcomplete"]
 old-location: picacq\iphotoprogressdialog_setpercentcomplete.htm
 tech.root: acquisition
 ms.assetid: b2fb225d-6d2b-49f7-bbc9-715107e90df2

@@ -1,7 +1,8 @@
 ---
 UID: NF:mobsync.ISyncMgrSynchronize.GetHandlerInfo
 title: ISyncMgrSynchronize::GetHandlerInfo (mobsync.h)
-description: Obtains handler information.helpviewer_keywords: ["GetHandlerInfo","GetHandlerInfo method [Windows Shell]","GetHandlerInfo method [Windows Shell]","ISyncMgrSynchronize interface","ISyncMgrSynchronize interface [Windows Shell]","GetHandlerInfo method","ISyncMgrSynchronize.GetHandlerInfo","ISyncMgrSynchronize::GetHandlerInfo","mobsync/ISyncMgrSynchronize::GetHandlerInfo","shell.syncmgr_isyncmgrsynchronize_gethandlerinfo","syncmgr.isyncmgrsynchronize_gethandlerinfo"]
+description: Obtains handler information.
+helpviewer_keywords: ["GetHandlerInfo","GetHandlerInfo method [Windows Shell]","GetHandlerInfo method [Windows Shell]","ISyncMgrSynchronize interface","ISyncMgrSynchronize interface [Windows Shell]","GetHandlerInfo method","ISyncMgrSynchronize.GetHandlerInfo","ISyncMgrSynchronize::GetHandlerInfo","mobsync/ISyncMgrSynchronize::GetHandlerInfo","shell.syncmgr_isyncmgrsynchronize_gethandlerinfo","syncmgr.isyncmgrsynchronize_gethandlerinfo"]
 old-location: shell\syncmgr_isyncmgrsynchronize_gethandlerinfo.htm
 tech.root: shell
 ms.assetid: bae3ead8-632c-45bf-a24e-bf07922039bd

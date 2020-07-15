@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.CMYK
 title: CMYK macro (wingdi.h)
-description: The CMYK macro creates a CMYK color value by combining the specified cyan, magenta, yellow, and black values.helpviewer_keywords: ["CMYK","CMYK macro [Windows Color System]","_color_CMYK","wcs.cmyk","wingdi/CMYK"]
+description: The CMYK macro creates a CMYK color value by combining the specified cyan, magenta, yellow, and black values.
+helpviewer_keywords: ["CMYK","CMYK macro [Windows Color System]","_color_CMYK","wcs.cmyk","wingdi/CMYK"]
 old-location: wcs\cmyk.htm
 tech.root: WCS
 ms.assetid: ee28d4e3-314f-429d-841b-da432ff6dc78

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetTab
 title: ITextPara::GetTab (tom.h)
-description: Retrieves tab parameters (displacement, alignment, and leader style) for a specified tab.helpviewer_keywords: ["GetTab","GetTab method [Windows Controls]","GetTab method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetTab method","ITextPara.GetTab","ITextPara::GetTab","_win32_ITextPara_GetTab","_win32_ITextPara_GetTab_cpp","controls.ITextPara_GetTab","controls._win32_ITextPara_GetTab","tom/ITextPara::GetTab"]
+description: Retrieves tab parameters (displacement, alignment, and leader style) for a specified tab.
+helpviewer_keywords: ["GetTab","GetTab method [Windows Controls]","GetTab method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetTab method","ITextPara.GetTab","ITextPara::GetTab","_win32_ITextPara_GetTab","_win32_ITextPara_GetTab_cpp","controls.ITextPara_GetTab","controls._win32_ITextPara_GetTab","tom/ITextPara::GetTab"]
 old-location: controls\ITextPara_GetTab.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\gettab.htm

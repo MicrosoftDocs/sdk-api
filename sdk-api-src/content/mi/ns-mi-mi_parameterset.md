@@ -1,7 +1,8 @@
 ---
 UID: NS:mi._MI_ParameterSet
 title: MI_ParameterSet (mi.h)
-description: Holds the method parameters of a class definition.helpviewer_keywords: ["MI_ParameterSet","MI_ParameterSet structure [Windows Management Infrastructure (MI)]","mi/MI_ParameterSet","wmi_v2.mi_parameterset"]
+description: Holds the method parameters of a class definition.
+helpviewer_keywords: ["MI_ParameterSet","MI_ParameterSet structure [Windows Management Infrastructure (MI)]","mi/MI_ParameterSet","wmi_v2.mi_parameterset"]
 old-location: wmi_v2\mi_parameterset.htm
 tech.root: wmi_v2
 ms.assetid: 14b5773c-4741-453b-824a-226aab9b8a10

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.GetStateTextW
 title: GetStateTextW function (oleacc.h)
-description: Retrieves a localized string that describes an object's state for a single predefined state bit flag. Because state values are a combination of one or more bit flags, clients call this function more than once to retrieve all state strings.helpviewer_keywords: ["GetStateText","GetStateText function [Windows Accessibility]","GetStateTextA","GetStateTextW","_msaa_GetStateText","msaa.getstatetext","oleacc/GetStateText","oleacc/GetStateTextA","oleacc/GetStateTextW","winauto.getstatetext"]
+description: Retrieves a localized string that describes an object's state for a single predefined state bit flag. Because state values are a combination of one or more bit flags, clients call this function more than once to retrieve all state strings.
+helpviewer_keywords: ["GetStateText","GetStateText function [Windows Accessibility]","GetStateTextA","GetStateTextW","_msaa_GetStateText","msaa.getstatetext","oleacc/GetStateText","oleacc/GetStateTextA","oleacc/GetStateTextW","winauto.getstatetext"]
 old-location: winauto\getstatetext.htm
 tech.root: WinAuto
 ms.assetid: 2a136883-870e-48c3-b182-1cdc64768894
@@ -100,4 +101,8 @@ If the string resource does not exist, or if the <i>lpszStateBit</i> parameter i
 This function accepts only one state bit at a time, not a bitmask.
 
 
+
+
+> [!NOTE]
+> The oleacc.h header defines GetStateText as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

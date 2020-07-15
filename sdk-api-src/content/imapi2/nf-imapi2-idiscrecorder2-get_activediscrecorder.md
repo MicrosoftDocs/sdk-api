@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_ActiveDiscRecorder
 title: IDiscRecorder2::get_ActiveDiscRecorder (imapi2.h)
-description: Retrieves the unique identifier used to initialize the disc device.helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_ActiveDiscRecorder method","IDiscRecorder2.get_ActiveDiscRecorder","IDiscRecorder2::get_ActiveDiscRecorder","get_ActiveDiscRecorder","get_ActiveDiscRecorder method [IMAPI]","get_ActiveDiscRecorder method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_activediscrecorder","imapi2/IDiscRecorder2::get_ActiveDiscRecorder"]
+description: Retrieves the unique identifier used to initialize the disc device.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_ActiveDiscRecorder method","IDiscRecorder2.get_ActiveDiscRecorder","IDiscRecorder2::get_ActiveDiscRecorder","get_ActiveDiscRecorder","get_ActiveDiscRecorder method [IMAPI]","get_ActiveDiscRecorder method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_activediscrecorder","imapi2/IDiscRecorder2::get_ActiveDiscRecorder"]
 old-location: imapi\idiscrecorder2_get_activediscrecorder.htm
 tech.root: imapi
 ms.assetid: 7fd3e13c-2853-417e-8478-46fa667c9f97

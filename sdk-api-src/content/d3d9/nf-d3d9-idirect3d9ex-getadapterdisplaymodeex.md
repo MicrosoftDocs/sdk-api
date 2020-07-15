@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d9.IDirect3D9Ex.GetAdapterDisplayModeEx
 title: IDirect3D9Ex::GetAdapterDisplayModeEx (d3d9.h)
-description: Retrieves the current display mode and rotation settings of the adapter.helpviewer_keywords: ["GetAdapterDisplayModeEx","GetAdapterDisplayModeEx method [Direct3D 9]","GetAdapterDisplayModeEx method [Direct3D 9]","IDirect3D9Ex interface","IDirect3D9Ex interface [Direct3D 9]","GetAdapterDisplayModeEx method","IDirect3D9Ex.GetAdapterDisplayModeEx","IDirect3D9Ex::GetAdapterDisplayModeEx","a9a9a87a-36fb-8647-d001-d83d9020a82e","d3d9/IDirect3D9Ex::GetAdapterDisplayModeEx","direct3d9.idirect3d9ex_getadapterdisplaymodeex"]
+description: Retrieves the current display mode and rotation settings of the adapter.
+helpviewer_keywords: ["GetAdapterDisplayModeEx","GetAdapterDisplayModeEx method [Direct3D 9]","GetAdapterDisplayModeEx method [Direct3D 9]","IDirect3D9Ex interface","IDirect3D9Ex interface [Direct3D 9]","GetAdapterDisplayModeEx method","IDirect3D9Ex.GetAdapterDisplayModeEx","IDirect3D9Ex::GetAdapterDisplayModeEx","a9a9a87a-36fb-8647-d001-d83d9020a82e","d3d9/IDirect3D9Ex::GetAdapterDisplayModeEx","direct3d9.idirect3d9ex_getadapterdisplaymodeex"]
 old-location: direct3d9\idirect3d9ex_getadapterdisplaymodeex.htm
 tech.root: direct3d9
 ms.assetid: VS|directx_sdk|~\idirect3d9ex_getadapterdisplaymodeex.htm

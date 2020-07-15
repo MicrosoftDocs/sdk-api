@@ -1,7 +1,8 @@
 ---
 UID: NS:directxpackedvector.XMUNIBBLE4
 title: XMUNIBBLE4 (directxpackedvector.h)
-description: A 4D vector with four unsigned 4-bit integer components.helpviewer_keywords: ["XMUNIBBLE4","XMUNIBBLE4 structure [DirectX Math Support APIs]","directxpackedvector/XMUNIBBLE4","dxmath.xmunibble4"]
+description: A 4D vector with four unsigned 4-bit integer components.
+helpviewer_keywords: ["XMUNIBBLE4","XMUNIBBLE4 structure [DirectX Math Support APIs]","directxpackedvector/XMUNIBBLE4","dxmath.xmunibble4"]
 old-location: dxmath\xmunibble4.htm
 tech.root: dxmath
 ms.assetid: T:Microsoft.directx_sdk.reference.XMUNIBBLE4

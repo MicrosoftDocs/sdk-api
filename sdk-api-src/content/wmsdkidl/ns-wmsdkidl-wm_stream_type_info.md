@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl._WMStreamTypeInfo
 title: WM_STREAM_TYPE_INFO (wmsdkidl.h)
-description: The WM_STREAM_TYPE_INFO structure is used as the data item for the WM/StreamTypeInfo complex metadata attribute. It stores the major type and the size of the associated format data.helpviewer_keywords: ["WM_STREAM_TYPE_INFO","WM_STREAM_TYPE_INFO structure [windows Media Format]","structure [windows Media Format]","wmformat.wm_stream_type_info","wmsdkidl/WM_STREAM_TYPE_INFO"]
+description: The WM_STREAM_TYPE_INFO structure is used as the data item for the WM/StreamTypeInfo complex metadata attribute. It stores the major type and the size of the associated format data.
+helpviewer_keywords: ["WM_STREAM_TYPE_INFO","WM_STREAM_TYPE_INFO structure [windows Media Format]","structure [windows Media Format]","wmformat.wm_stream_type_info","wmsdkidl/WM_STREAM_TYPE_INFO"]
 old-location: wmformat\wm_stream_type_info.htm
 tech.root: wmformat
 ms.assetid: 9e8f2670-555a-478a-99c2-3a4de7f8cfa1

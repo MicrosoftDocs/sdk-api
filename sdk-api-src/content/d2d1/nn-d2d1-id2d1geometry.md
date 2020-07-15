@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1.ID2D1Geometry
 title: ID2D1Geometry (d2d1.h)
-description: Represents a geometry resource and defines a set of helper methods for manipulating and measuring geometric shapes. Interfaces that inherit from ID2D1Geometry define specific shapes.helpviewer_keywords: ["ID2D1Geometry","ID2D1Geometry interface [Direct2D]","ID2D1Geometry interface [Direct2D]","described","d2d1/ID2D1Geometry","direct2d.ID2D1Geometry"]
+description: Represents a geometry resource and defines a set of helper methods for manipulating and measuring geometric shapes. Interfaces that inherit from ID2D1Geometry define specific shapes.
+helpviewer_keywords: ["ID2D1Geometry","ID2D1Geometry interface [Direct2D]","ID2D1Geometry interface [Direct2D]","described","d2d1/ID2D1Geometry","direct2d.ID2D1Geometry"]
 old-location: direct2d\ID2D1Geometry.htm
 tech.root: Direct2D
 ms.assetid: be4ab801-64f6-48f9-8f62-d0492cc438b1

@@ -1,7 +1,8 @@
 ---
 UID: NS:peerdist.peerdist_content_tag_tag
 title: PEERDIST_CONTENT_TAG (peerdist.h)
-description: PEERDIST_CONTENT_TAG structure contains a client supplied content tag as an input to the PeerDistClientOpenContent API.helpviewer_keywords: ["*PPEERDIST_CONTENT_TAG","PEERDIST_CONTENT_TAG","PEERDIST_CONTENT_TAG structure [Peer Networking]","PPEERDIST_CONTENT_TAG","PPEERDIST_CONTENT_TAG structure pointer [Peer Networking]","p2p.peerdist_content_tag","peerdist/PEERDIST_CONTENT_TAG","peerdist/PPEERDIST_CONTENT_TAG"]
+description: PEERDIST_CONTENT_TAG structure contains a client supplied content tag as an input to the PeerDistClientOpenContent API.
+helpviewer_keywords: ["*PPEERDIST_CONTENT_TAG","PEERDIST_CONTENT_TAG","PEERDIST_CONTENT_TAG structure [Peer Networking]","PPEERDIST_CONTENT_TAG","PPEERDIST_CONTENT_TAG structure pointer [Peer Networking]","p2p.peerdist_content_tag","peerdist/PEERDIST_CONTENT_TAG","peerdist/PPEERDIST_CONTENT_TAG"]
 old-location: p2p\peerdist_content_tag.htm
 tech.root: P2PSdk
 ms.assetid: 09eab22b-0534-44db-9954-ff5a9c5667f9

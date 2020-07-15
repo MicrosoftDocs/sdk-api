@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.ComboBox_SetItemData
 title: ComboBox_SetItemData macro (windowsx.h)
-description: Sets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the CB_SETITEMDATA message explicitly.helpviewer_keywords: ["ComboBox_SetItemData","ComboBox_SetItemData macro [Windows Controls]","_win32_ComboBox_SetItemData","_win32_ComboBox_SetItemData_cpp","controls.ComboBox_SetItemData","controls._win32_ComboBox_SetItemData","windowsx/ComboBox_SetItemData"]
+description: Sets the application-defined value associated with the specified list item in a combo box. You can use this macro or send the CB_SETITEMDATA message explicitly.
+helpviewer_keywords: ["ComboBox_SetItemData","ComboBox_SetItemData macro [Windows Controls]","_win32_ComboBox_SetItemData","_win32_ComboBox_SetItemData_cpp","controls.ComboBox_SetItemData","controls._win32_ComboBox_SetItemData","windowsx/ComboBox_SetItemData"]
 old-location: controls\ComboBox_SetItemData.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxmacros\combobox_setitemdata.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_2.IDWriteTextFormat1.SetFontFallback
 title: IDWriteTextFormat1::SetFontFallback (dwrite_2.h)
-description: Applies the custom font fallback onto the layout. If none is set, it uses the default system fallback list.helpviewer_keywords: ["IDWriteTextFormat1 interface [Direct Write]","SetFontFallback method","IDWriteTextFormat1.SetFontFallback","IDWriteTextFormat1::SetFontFallback","SetFontFallback","SetFontFallback method [Direct Write]","SetFontFallback method [Direct Write]","IDWriteTextFormat1 interface","directwrite.idwritetextformat1_setfontfallback","dwrite_2/IDWriteTextFormat1::SetFontFallback"]
+description: Applies the custom font fallback onto the layout. If none is set, it uses the default system fallback list.
+helpviewer_keywords: ["IDWriteTextFormat1 interface [Direct Write]","SetFontFallback method","IDWriteTextFormat1.SetFontFallback","IDWriteTextFormat1::SetFontFallback","SetFontFallback","SetFontFallback method [Direct Write]","SetFontFallback method [Direct Write]","IDWriteTextFormat1 interface","directwrite.idwritetextformat1_setfontfallback","dwrite_2/IDWriteTextFormat1::SetFontFallback"]
 old-location: directwrite\idwritetextformat1_setfontfallback.htm
 tech.root: DirectWrite
 ms.assetid: 56B577C0-2B18-409E-ADEC-0B93355586A0

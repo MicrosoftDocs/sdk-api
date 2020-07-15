@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectVariable.GetDesc
 title: ID3D10EffectVariable::GetDesc (d3d10effect.h)
-description: Get a description.helpviewer_keywords: ["2f6be8f5-312a-860c-8415-c07b16c8c7d6","GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","GetDesc method","ID3D10EffectVariable.GetDesc","ID3D10EffectVariable::GetDesc","d3d10effect/ID3D10EffectVariable::GetDesc","direct3d10.id3d10effectvariable_getdesc"]
+description: Get a description.
+helpviewer_keywords: ["2f6be8f5-312a-860c-8415-c07b16c8c7d6","GetDesc","GetDesc method [Direct3D 10]","GetDesc method [Direct3D 10]","ID3D10EffectVariable interface","ID3D10EffectVariable interface [Direct3D 10]","GetDesc method","ID3D10EffectVariable.GetDesc","ID3D10EffectVariable::GetDesc","d3d10effect/ID3D10EffectVariable::GetDesc","direct3d10.id3d10effectvariable_getdesc"]
 old-location: direct3d10\id3d10effectvariable_getdesc.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectvariable_getdesc.htm

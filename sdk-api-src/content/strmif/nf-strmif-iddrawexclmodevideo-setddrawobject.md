@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDDrawExclModeVideo.SetDDrawObject
 title: IDDrawExclModeVideo::SetDDrawObject (strmif.h)
-description: The SetDDrawObject method sets the DirectDraw object to be used in subsequent drawing.helpviewer_keywords: ["IDDrawExclModeVideo interface [DirectShow]","SetDDrawObject method","IDDrawExclModeVideo.SetDDrawObject","IDDrawExclModeVideo::SetDDrawObject","IDDrawExclModeVideoSetDDrawObject","SetDDrawObject","SetDDrawObject method [DirectShow]","SetDDrawObject method [DirectShow]","IDDrawExclModeVideo interface","dshow.iddrawexclmodevideo_setddrawobject","strmif/IDDrawExclModeVideo::SetDDrawObject"]
+description: The SetDDrawObject method sets the DirectDraw object to be used in subsequent drawing.
+helpviewer_keywords: ["IDDrawExclModeVideo interface [DirectShow]","SetDDrawObject method","IDDrawExclModeVideo.SetDDrawObject","IDDrawExclModeVideo::SetDDrawObject","IDDrawExclModeVideoSetDDrawObject","SetDDrawObject","SetDDrawObject method [DirectShow]","SetDDrawObject method [DirectShow]","IDDrawExclModeVideo interface","dshow.iddrawexclmodevideo_setddrawobject","strmif/IDDrawExclModeVideo::SetDDrawObject"]
 old-location: dshow\iddrawexclmodevideo_setddrawobject.htm
 tech.root: DirectShow
 ms.assetid: fce1b5df-c3df-475c-adde-392c25d05e4c

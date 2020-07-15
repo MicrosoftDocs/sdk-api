@@ -1,7 +1,8 @@
 ---
 UID: NF:fci.FNFCISTATUS
 title: FNFCISTATUS macro (fci.h)
-description: The FNFCISTATUS macro provides the declaration for the application-defined callback function to update the user.helpviewer_keywords: ["FNFCISTATUS","FNFCISTATUS macro [Windows API]","fci/FNFCISTATUS","winprog.fnfcistatus"]
+description: The FNFCISTATUS macro provides the declaration for the application-defined callback function to update the user.
+helpviewer_keywords: ["FNFCISTATUS","FNFCISTATUS macro [Windows API]","fci/FNFCISTATUS","winprog.fnfcistatus"]
 old-location: winprog\fnfcistatus.htm
 tech.root: DevNotes
 ms.assetid: 529fd3c8-9783-4dbe-9268-a9137935cf9b

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptContextAddRef
 title: CryptContextAddRef function (wincrypt.h)
-description: Adds one to the reference count of an HCRYPTPROV cryptographic service provider (CSP) handle.helpviewer_keywords: ["CryptContextAddRef","CryptContextAddRef function [Security]","_crypto2_cryptcontextaddref","security.cryptcontextaddref","wincrypt/CryptContextAddRef"]
+description: Adds one to the reference count of an HCRYPTPROV cryptographic service provider (CSP) handle.
+helpviewer_keywords: ["CryptContextAddRef","CryptContextAddRef function [Security]","_crypto2_cryptcontextaddref","security.cryptcontextaddref","wincrypt/CryptContextAddRef"]
 old-location: security\cryptcontextaddref.htm
 tech.root: SecCrypto
 ms.assetid: 074666a7-369c-43bc-97d9-3bcc9703976b

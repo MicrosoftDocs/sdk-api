@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_SDT.GetRecordEITPresentFollowingFlag
 title: IDVB_SDT::GetRecordEITPresentFollowingFlag (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordEITPresentFollowingFlag","GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies]","GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies]","IDVB_SDT interface","IDVB_SDT interface [Microsoft TV Technologies]","GetRecordEITPresentFollowingFlag method","IDVB_SDT.GetRecordEITPresentFollowingFlag","IDVB_SDT::GetRecordEITPresentFollowingFlag","IDVB_SDTGetRecordEITPresentFollowingFlag","dvbsiparser/IDVB_SDT::GetRecordEITPresentFollowingFlag","mstv.idvb_sdt_getrecordeitpresentfollowingflag"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordEITPresentFollowingFlag","GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies]","GetRecordEITPresentFollowingFlag method [Microsoft TV Technologies]","IDVB_SDT interface","IDVB_SDT interface [Microsoft TV Technologies]","GetRecordEITPresentFollowingFlag method","IDVB_SDT.GetRecordEITPresentFollowingFlag","IDVB_SDT::GetRecordEITPresentFollowingFlag","IDVB_SDTGetRecordEITPresentFollowingFlag","dvbsiparser/IDVB_SDT::GetRecordEITPresentFollowingFlag","mstv.idvb_sdt_getrecordeitpresentfollowingflag"]
 old-location: mstv\idvb_sdt_getrecordeitpresentfollowingflag.htm
 tech.root: mstv
 ms.assetid: 93dba50a-c2a5-468d-851a-c43cd986d3ef

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwmapi.DwmUnregisterThumbnail
 title: DwmUnregisterThumbnail function (dwmapi.h)
-description: Removes a Desktop Window Manager (DWM) thumbnail relationship created by the DwmRegisterThumbnail function.helpviewer_keywords: ["DwmUnregisterThumbnail","DwmUnregisterThumbnail function [Desktop Window Manager]","_udwm_dwmunregisterthumbnail","_udwm_dwmunregisterthumbnail_cpp","dwm.dwmunregisterthumbnail","dwmapi/DwmUnregisterThumbnail","winui._udwm_dwmunregisterthumbnail"]
+description: Removes a Desktop Window Manager (DWM) thumbnail relationship created by the DwmRegisterThumbnail function.
+helpviewer_keywords: ["DwmUnregisterThumbnail","DwmUnregisterThumbnail function [Desktop Window Manager]","_udwm_dwmunregisterthumbnail","_udwm_dwmunregisterthumbnail_cpp","dwm.dwmunregisterthumbnail","dwmapi/DwmUnregisterThumbnail","winui._udwm_dwmunregisterthumbnail"]
 old-location: dwm\dwmunregisterthumbnail.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmunregisterthumbnail.htm

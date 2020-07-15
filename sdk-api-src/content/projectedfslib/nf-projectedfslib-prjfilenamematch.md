@@ -1,7 +1,8 @@
 ---
 UID: NF:projectedfslib.PrjFileNameMatch
 title: PrjFileNameMatch function (projectedfslib.h)
-description: Determines whether a file name matches a search pattern.helpviewer_keywords: ["PrjFileNameMatch","PrjFileNameMatch function","ProjFS.prjfilenamematch","projectedfslib/PrjFileNameMatch"]
+description: Determines whether a file name matches a search pattern.
+helpviewer_keywords: ["PrjFileNameMatch","PrjFileNameMatch function","ProjFS.prjfilenamematch","projectedfslib/PrjFileNameMatch"]
 old-location: projfs\prjfilenamematch.htm
 tech.root: ProjFS
 ms.assetid: 2BE57189-0F68-4CCD-8796-964EFDE0A02E

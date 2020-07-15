@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteRemoteFontFileStream.GetFileFragmentLocality
 title: IDWriteRemoteFontFileStream::GetFileFragmentLocality (dwrite_3.h)
-description: Returns information about the locality of a byte range (i.e., font fragment) within the font file stream.helpviewer_keywords: ["GetFileFragmentLocality","GetFileFragmentLocality method [Direct Write]","GetFileFragmentLocality method [Direct Write]","IDWriteRemoteFontFileStream interface","IDWriteRemoteFontFileStream interface [Direct Write]","GetFileFragmentLocality method","IDWriteRemoteFontFileStream.GetFileFragmentLocality","IDWriteRemoteFontFileStream::GetFileFragmentLocality","directwrite.idwriteremotefontfilestream_getfilefragmentlocality","dwrite_3/IDWriteRemoteFontFileStream::GetFileFragmentLocality"]
+description: Returns information about the locality of a byte range (i.e., font fragment) within the font file stream.
+helpviewer_keywords: ["GetFileFragmentLocality","GetFileFragmentLocality method [Direct Write]","GetFileFragmentLocality method [Direct Write]","IDWriteRemoteFontFileStream interface","IDWriteRemoteFontFileStream interface [Direct Write]","GetFileFragmentLocality method","IDWriteRemoteFontFileStream.GetFileFragmentLocality","IDWriteRemoteFontFileStream::GetFileFragmentLocality","directwrite.idwriteremotefontfilestream_getfilefragmentlocality","dwrite_3/IDWriteRemoteFontFileStream::GetFileFragmentLocality"]
 old-location: directwrite\idwriteremotefontfilestream_getfilefragmentlocality.htm
 tech.root: DirectWrite
 ms.assetid: 24F68EFD-D4D6-442B-97C1-C639F570F56B

@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfFunctionProviders.Next
 title: IEnumTfFunctionProviders::Next (msctf.h)
-description: IEnumTfFunctionProviders::Next methodhelpviewer_keywords: ["IEnumTfFunctionProviders interface [Text Services Framework]","Next method","IEnumTfFunctionProviders.Next","IEnumTfFunctionProviders::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfFunctionProviders interface","_tsf_ienumtffunctionproviders_next_ref","msctf/IEnumTfFunctionProviders::Next","tsf.ienumtffunctionproviders_next"]
+description: IEnumTfFunctionProviders::Next method
+helpviewer_keywords: ["IEnumTfFunctionProviders interface [Text Services Framework]","Next method","IEnumTfFunctionProviders.Next","IEnumTfFunctionProviders::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfFunctionProviders interface","_tsf_ienumtffunctionproviders_next_ref","msctf/IEnumTfFunctionProviders::Next","tsf.ienumtffunctionproviders_next"]
 old-location: tsf\ienumtffunctionproviders_next.htm
 tech.root: TSF
 ms.assetid: c9938eb0-c084-4663-9aef-584c987a08a7

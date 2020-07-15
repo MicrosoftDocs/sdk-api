@@ -1,7 +1,8 @@
 ---
 UID: NF:restartmanager.RmStartSession
 title: RmStartSession function (restartmanager.h)
-description: Starts a new Restart Manager session.helpviewer_keywords: ["RmStartSession","RmStartSession function [Restart Mgr]","restartmanager/RmStartSession","rstmgr.rmstartsession"]
+description: Starts a new Restart Manager session.
+helpviewer_keywords: ["RmStartSession","RmStartSession function [Restart Mgr]","restartmanager/RmStartSession","rstmgr.rmstartsession"]
 old-location: rstmgr\rmstartsession.htm
 tech.root: rstmgr
 ms.assetid: bc79c6e5-49e6-44d3-90f6-b0109fb9611b

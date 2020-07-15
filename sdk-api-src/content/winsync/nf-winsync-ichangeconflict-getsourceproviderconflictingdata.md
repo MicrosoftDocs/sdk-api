@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IChangeConflict.GetSourceProviderConflictingData
 title: IChangeConflict::GetSourceProviderConflictingData (winsync.h)
-description: Gets an object that can be used to retrieve item data for the change item from the source replica.helpviewer_keywords: ["GetSourceProviderConflictingData","GetSourceProviderConflictingData method [Windows Sync]","GetSourceProviderConflictingData method [Windows Sync]","IChangeConflict interface","IChangeConflict interface [Windows Sync]","GetSourceProviderConflictingData method","IChangeConflict.GetSourceProviderConflictingData","IChangeConflict::GetSourceProviderConflictingData","winsync.ichangeconflict_getsourceproviderconflictingdata","winsync/IChangeConflict::GetSourceProviderConflictingData"]
+description: Gets an object that can be used to retrieve item data for the change item from the source replica.
+helpviewer_keywords: ["GetSourceProviderConflictingData","GetSourceProviderConflictingData method [Windows Sync]","GetSourceProviderConflictingData method [Windows Sync]","IChangeConflict interface","IChangeConflict interface [Windows Sync]","GetSourceProviderConflictingData method","IChangeConflict.GetSourceProviderConflictingData","IChangeConflict::GetSourceProviderConflictingData","winsync.ichangeconflict_getsourceproviderconflictingdata","winsync/IChangeConflict::GetSourceProviderConflictingData"]
 old-location: winsync\ichangeconflict_getsourceproviderconflictingdata.htm
 tech.root: winsync
 ms.assetid: 4227b559-59e9-4b87-beb0-2d47f3d81414

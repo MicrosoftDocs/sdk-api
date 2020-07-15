@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ICameraControl.get_Tilt
 title: ICameraControl::get_Tilt (vidcap.h)
-description: The get_Tilt method returns the camera's tilt angle.helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_Tilt method","ICameraControl.get_Tilt","ICameraControl::get_Tilt","ICameraControlget_Tilt","dshow.icameracontrol_get_tilt","get_Tilt","get_Tilt method [DirectShow]","get_Tilt method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_Tilt"]
+description: The get_Tilt method returns the camera's tilt angle.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_Tilt method","ICameraControl.get_Tilt","ICameraControl::get_Tilt","ICameraControlget_Tilt","dshow.icameracontrol_get_tilt","get_Tilt","get_Tilt method [DirectShow]","get_Tilt method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_Tilt"]
 old-location: dshow\icameracontrol_get_tilt.htm
 tech.root: DirectShow
 ms.assetid: 8e9d9176-fb27-4221-876b-49f407289877

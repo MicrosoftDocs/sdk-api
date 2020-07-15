@@ -1,7 +1,8 @@
 ---
 UID: NF:msiquery.MsiDatabaseIsTablePersistentA
 title: MsiDatabaseIsTablePersistentA function (msiquery.h)
-description: The MsiDatabaseIsTablePersistent function returns an enumeration that describes the state of a specific table.helpviewer_keywords: ["MsiDatabaseIsTablePersistent","MsiDatabaseIsTablePersistent function","MsiDatabaseIsTablePersistentA","MsiDatabaseIsTablePersistentW","_msi_msidatabaseistablepersistent","msiquery/MsiDatabaseIsTablePersistent","msiquery/MsiDatabaseIsTablePersistentA","msiquery/MsiDatabaseIsTablePersistentW","setup.msidatabaseistablepersistent"]
+description: The MsiDatabaseIsTablePersistent function returns an enumeration that describes the state of a specific table.
+helpviewer_keywords: ["MsiDatabaseIsTablePersistent","MsiDatabaseIsTablePersistent function","MsiDatabaseIsTablePersistentA","MsiDatabaseIsTablePersistentW","_msi_msidatabaseistablepersistent","msiquery/MsiDatabaseIsTablePersistent","msiquery/MsiDatabaseIsTablePersistentA","msiquery/MsiDatabaseIsTablePersistentW","setup.msidatabaseistablepersistent"]
 old-location: setup\msidatabaseistablepersistent.htm
 tech.root: Msi
 ms.assetid: 78c9d95a-8e36-40a4-afbb-4d0bf5f6f350
@@ -89,4 +90,9 @@ This function returns MSICONDITION.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The msiquery.h header defines MsiDatabaseIsTablePersistent as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

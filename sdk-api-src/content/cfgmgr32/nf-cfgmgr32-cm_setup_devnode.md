@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Setup_DevNode
 title: CM_Setup_DevNode function (cfgmgr32.h)
-description: The CM_Setup_DevNode function restarts a device instance that is not running because there is a problem with the device configuration.helpviewer_keywords: ["CM_Setup_DevNode","CM_Setup_DevNode function [Device and Driver Installation]","cfgmgr32/CM_Setup_DevNode","cfgmgrfn_e8515529-d4bc-4411-a5cf-18bc4f4d7500.xml","devinst.cm_setup_devnode"]
+description: The CM_Setup_DevNode function restarts a device instance that is not running because there is a problem with the device configuration.
+helpviewer_keywords: ["CM_Setup_DevNode","CM_Setup_DevNode function [Device and Driver Installation]","cfgmgr32/CM_Setup_DevNode","cfgmgrfn_e8515529-d4bc-4411-a5cf-18bc4f4d7500.xml","devinst.cm_setup_devnode"]
 old-location: devinst\cm_setup_devnode.htm
 tech.root: devinst
 ms.assetid: 94d0023d-d93f-42da-b2fc-54b9d8831b9b

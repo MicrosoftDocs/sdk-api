@@ -1,7 +1,8 @@
 ---
 UID: NS:strmif.tagVMRALLOCATIONINFO
 title: VMRALLOCATIONINFO (strmif.h)
-description: The VMRALLOCATIONINFO structure is used in the VMR-7 filter's IVMRSurfaceAllocator::AllocateSurface method.helpviewer_keywords: ["VMRALLOCATIONINFO","VMRALLOCATIONINFO structure [DirectShow]","VMRALLOCATIONINFOStructure","dshow.vmrallocationinfo","strmif/VMRALLOCATIONINFO"]
+description: The VMRALLOCATIONINFO structure is used in the VMR-7 filter's IVMRSurfaceAllocator::AllocateSurface method.
+helpviewer_keywords: ["VMRALLOCATIONINFO","VMRALLOCATIONINFO structure [DirectShow]","VMRALLOCATIONINFOStructure","dshow.vmrallocationinfo","strmif/VMRALLOCATIONINFO"]
 old-location: dshow\vmrallocationinfo.htm
 tech.root: DirectShow
 ms.assetid: 3908f9d1-5120-413b-a142-08cd9005c401

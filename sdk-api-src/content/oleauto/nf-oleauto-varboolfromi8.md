@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarBoolFromI8
 title: VarBoolFromI8 function (oleauto.h)
-description: Converts an 8-byte integer value to a Boolean value.helpviewer_keywords: ["VarBoolFromI8","VarBoolFromI8 function [Automation]","_oa96_VarBoolFromI8","automat.varboolfromi8","oleauto/VarBoolFromI8"]
+description: Converts an 8-byte integer value to a Boolean value.
+helpviewer_keywords: ["VarBoolFromI8","VarBoolFromI8 function [Automation]","_oa96_VarBoolFromI8","automat.varboolfromi8","oleauto/VarBoolFromI8"]
 old-location: automat\varboolfromi8.htm
 tech.root: automat
 ms.assetid: 143cd441-af97-44da-a772-936f57f1df97

@@ -1,7 +1,8 @@
 ---
 UID: NS:wsman._WSMAN_STREAM_ID_SET
 title: WSMAN_STREAM_ID_SET (wsman.h)
-description: Lists all the streams that are used for either input or output for the shell and commands.helpviewer_keywords: ["WSMAN_STREAM_ID_SET","WSMAN_STREAM_ID_SET structure [Windows Remote Management]","winrm.wsman_stream_id_set","wsman/WSMAN_STREAM_ID_SET"]
+description: Lists all the streams that are used for either input or output for the shell and commands.
+helpviewer_keywords: ["WSMAN_STREAM_ID_SET","WSMAN_STREAM_ID_SET structure [Windows Remote Management]","winrm.wsman_stream_id_set","wsman/WSMAN_STREAM_ID_SET"]
 old-location: winrm\wsman_stream_id_set.htm
 tech.root: winrm
 ms.assetid: a5705afa-e0b3-4a74-8c13-5abf3f53a209

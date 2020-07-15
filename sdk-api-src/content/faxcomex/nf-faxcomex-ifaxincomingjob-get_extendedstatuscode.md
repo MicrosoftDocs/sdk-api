@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxIncomingJob.get_ExtendedStatusCode
 title: IFaxIncomingJob::get_ExtendedStatusCode (faxcomex.h)
-description: Retrieves the ExtendedStatusCode property of a FaxIncomingJob object. The ExtendedStatusCode property specifies a code describing the job's extended status.helpviewer_keywords: ["IFaxIncomingJob interface [Fax Service]","get_ExtendedStatusCode method","IFaxIncomingJob.get_ExtendedStatusCode","IFaxIncomingJob::get_ExtendedStatusCode","_mfax_faxincomingjob.extendedstatuscode_cpp","fax._mfax_faxincomingjob_extendedstatuscode_cpp","faxcomex/IFaxIncomingJob::get_ExtendedStatusCode","get_ExtendedStatusCode","get_ExtendedStatusCode method [Fax Service]","get_ExtendedStatusCode method [Fax Service]","IFaxIncomingJob interface"]
+description: Retrieves the ExtendedStatusCode property of a FaxIncomingJob object. The ExtendedStatusCode property specifies a code describing the job's extended status.
+helpviewer_keywords: ["IFaxIncomingJob interface [Fax Service]","get_ExtendedStatusCode method","IFaxIncomingJob.get_ExtendedStatusCode","IFaxIncomingJob::get_ExtendedStatusCode","_mfax_faxincomingjob.extendedstatuscode_cpp","fax._mfax_faxincomingjob_extendedstatuscode_cpp","faxcomex/IFaxIncomingJob::get_ExtendedStatusCode","get_ExtendedStatusCode","get_ExtendedStatusCode method [Fax Service]","get_ExtendedStatusCode method [Fax Service]","IFaxIncomingJob interface"]
 old-location: fax\_mfax_faxincomingjob_extendedstatuscode_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_40v9_cpp.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:winevt.EvtArchiveExportedLog
 title: EvtArchiveExportedLog function (winevt.h)
-description: Adds localized strings to the events in the specified log file.helpviewer_keywords: ["EvtArchiveExportedLog","EvtArchiveExportedLog function [EventLog]","wes.evtarchiveexportedlog","winevt/EvtArchiveExportedLog"]
+description: Adds localized strings to the events in the specified log file.
+helpviewer_keywords: ["EvtArchiveExportedLog","EvtArchiveExportedLog function [EventLog]","wes.evtarchiveexportedlog","winevt/EvtArchiveExportedLog"]
 old-location: wes\evtarchiveexportedlog.htm
 tech.root: wes
 ms.assetid: 0a8f9958-03af-4310-9f9e-b79e84a30a04

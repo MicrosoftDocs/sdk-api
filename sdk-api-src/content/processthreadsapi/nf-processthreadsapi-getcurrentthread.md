@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.GetCurrentThread
 title: GetCurrentThread function (processthreadsapi.h)
-description: Retrieves a pseudo handle for the calling thread.helpviewer_keywords: ["GetCurrentThread","GetCurrentThread function","_win32_getcurrentthread","base.getcurrentthread","processthreadsapi/GetCurrentThread","winbase/GetCurrentThread"]
+description: Retrieves a pseudo handle for the calling thread.
+helpviewer_keywords: ["GetCurrentThread","GetCurrentThread function","_win32_getcurrentthread","base.getcurrentthread","processthreadsapi/GetCurrentThread","winbase/GetCurrentThread"]
 old-location: base\getcurrentthread.htm
 tech.root: ProcThread
 ms.assetid: 91a11552-66c1-42bd-b837-8a7685977bc9

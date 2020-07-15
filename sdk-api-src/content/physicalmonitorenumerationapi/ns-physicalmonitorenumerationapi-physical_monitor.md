@@ -1,7 +1,8 @@
 ---
 UID: NS:physicalmonitorenumerationapi._PHYSICAL_MONITOR
 title: PHYSICAL_MONITOR (physicalmonitorenumerationapi.h)
-description: Contains a handle and text description corresponding to a physical monitor.helpviewer_keywords: ["*LPPHYSICAL_MONITOR","LPPHYSICAL_MONITOR","LPPHYSICAL_MONITOR structure pointer [Monitor Configuration]","PHYSICAL_MONITOR","PHYSICAL_MONITOR structure [Monitor Configuration]","monitor.physical_monitor","physicalmonitorenumerationapi/LPPHYSICAL_MONITOR","physicalmonitorenumerationapi/PHYSICAL_MONITOR"]
+description: Contains a handle and text description corresponding to a physical monitor.
+helpviewer_keywords: ["*LPPHYSICAL_MONITOR","LPPHYSICAL_MONITOR","LPPHYSICAL_MONITOR structure pointer [Monitor Configuration]","PHYSICAL_MONITOR","PHYSICAL_MONITOR structure [Monitor Configuration]","monitor.physical_monitor","physicalmonitorenumerationapi/LPPHYSICAL_MONITOR","physicalmonitorenumerationapi/PHYSICAL_MONITOR"]
 old-location: monitor\physical_monitor.htm
 tech.root: Monitor
 ms.assetid: 58eb4999-37d9-472d-aa26-38b19a2287b2

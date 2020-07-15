@@ -1,7 +1,8 @@
 ---
 UID: NN:syncmgr.ISyncMgrUIOperation
 title: ISyncMgrUIOperation (syncmgr.h)
-description: Exposes a method through which a sync handler or sync item can display a UI object when requested to do so by Sync Center.helpviewer_keywords: ["ISyncMgrUIOperation","ISyncMgrUIOperation interface [Windows Shell]","ISyncMgrUIOperation interface [Windows Shell]","described","_shell_ISyncMgrUIOperation","shell.ISyncMgrUIOperation","syncmgr/ISyncMgrUIOperation"]
+description: Exposes a method through which a sync handler or sync item can display a UI object when requested to do so by Sync Center.
+helpviewer_keywords: ["ISyncMgrUIOperation","ISyncMgrUIOperation interface [Windows Shell]","ISyncMgrUIOperation interface [Windows Shell]","described","_shell_ISyncMgrUIOperation","shell.ISyncMgrUIOperation","syncmgr/ISyncMgrUIOperation"]
 old-location: shell\ISyncMgrUIOperation.htm
 tech.root: shell
 ms.assetid: 6fa4b0ac-3c75-4cda-b20d-582a3e18fb28

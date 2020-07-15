@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IMtsEventInfo.get_DisplayName
 title: IMtsEventInfo::get_DisplayName (comsvcs.h)
-description: Retrieves the display name of the object.helpviewer_keywords: ["IMtsEventInfo interface [COM+]","get_DisplayName method","IMtsEventInfo.get_DisplayName","IMtsEventInfo::get_DisplayName","_dtc_IMtsEventInfo_DisplayName","comsvcs/IMtsEventInfo::get_DisplayName","cos.imtseventinfo_get_displayname","get_DisplayName","get_DisplayName method [COM+]","get_DisplayName method [COM+]","IMtsEventInfo interface"]
+description: Retrieves the display name of the object.
+helpviewer_keywords: ["IMtsEventInfo interface [COM+]","get_DisplayName method","IMtsEventInfo.get_DisplayName","IMtsEventInfo::get_DisplayName","_dtc_IMtsEventInfo_DisplayName","comsvcs/IMtsEventInfo::get_DisplayName","cos.imtseventinfo_get_displayname","get_DisplayName","get_DisplayName method [COM+]","get_DisplayName method [COM+]","IMtsEventInfo interface"]
 old-location: cos\imtseventinfo_get_displayname.htm
 tech.root: cossdk
 ms.assetid: d3d8ed52-0ad3-4073-877b-071bac90c71f

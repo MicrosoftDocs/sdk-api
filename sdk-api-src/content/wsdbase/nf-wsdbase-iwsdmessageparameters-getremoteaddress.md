@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDMessageParameters.GetRemoteAddress
 title: IWSDMessageParameters::GetRemoteAddress (wsdbase.h)
-description: Retrieves the generic address object representing the remote address from which the message was sent.helpviewer_keywords: ["GetRemoteAddress","GetRemoteAddress method","GetRemoteAddress method","IWSDMessageParameters interface","IWSDMessageParameters interface","GetRemoteAddress method","IWSDMessageParameters.GetRemoteAddress","IWSDMessageParameters::GetRemoteAddress","ncd.iwsdmessageparameters_getremoteaddress","wsdbase/IWSDMessageParameters::GetRemoteAddress"]
+description: Retrieves the generic address object representing the remote address from which the message was sent.
+helpviewer_keywords: ["GetRemoteAddress","GetRemoteAddress method","GetRemoteAddress method","IWSDMessageParameters interface","IWSDMessageParameters interface","GetRemoteAddress method","IWSDMessageParameters.GetRemoteAddress","IWSDMessageParameters::GetRemoteAddress","ncd.iwsdmessageparameters_getremoteaddress","wsdbase/IWSDMessageParameters::GetRemoteAddress"]
 old-location: ncd\iwsdmessageparameters_getremoteaddress.htm
 tech.root: WsdApi
 ms.assetid: 483306d4-9672-4f30-a318-df5c7afbf583

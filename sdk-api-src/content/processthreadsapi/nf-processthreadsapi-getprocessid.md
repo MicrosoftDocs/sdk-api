@@ -83,8 +83,6 @@ If the function fails, the return value is zero. To get extended error informati
 <a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
 
 
-
-
 ## -remarks
 
 
@@ -113,7 +111,3 @@ Until a process terminates, its process identifier uniquely identifies it on the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
- 
-
- 
-

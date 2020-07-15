@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.UIntPtrToChar
 title: UIntPtrToChar function (intsafe.h)
-description: Converts a value of type UINT_PTR to a value of type CHAR.helpviewer_keywords: ["UIntPtrToChar","UIntPtrToChar function [Windows Shell]","intsafe/UIntPtrToChar","shell.UIntPtrToChar"]
+description: Converts a value of type UINT_PTR to a value of type CHAR.
+helpviewer_keywords: ["UIntPtrToChar","UIntPtrToChar function [Windows Shell]","intsafe/UIntPtrToChar","shell.UIntPtrToChar"]
 old-location: shell\UIntPtrToChar.htm
 tech.root: shell
 ms.assetid: b98ec1ee-8439-494b-b8e6-aa3d127042fa

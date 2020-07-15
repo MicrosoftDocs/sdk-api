@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.SetThreadContext
 title: SetThreadContext function (processthreadsapi.h)
-description: Sets the context for the specified thread.helpviewer_keywords: ["SetThreadContext","SetThreadContext function","_win32_setthreadcontext","base.setthreadcontext","processthreadsapi/SetThreadContext"]
+description: Sets the context for the specified thread.
+helpviewer_keywords: ["SetThreadContext","SetThreadContext function","_win32_setthreadcontext","base.setthreadcontext","processthreadsapi/SetThreadContext"]
 old-location: base\setthreadcontext.htm
 tech.root: Debug
 ms.assetid: be134953-b569-48ea-80ac-ab14dee24500

@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_providerEnumDevices
 title: TSPI_providerEnumDevices function (tspi.h)
-description: TAPI calls the TSPI_providerEnumDevices function before TSPI_providerInit to determine the number of line and phone devices supported by the service provider.helpviewer_keywords: ["TSPI_providerEnumDevices","TSPI_providerEnumDevices function [TAPI 2.2]","_tspi_tspi_providerenumdevices","tspi.tspi_providerenumdevices","tspi/TSPI_providerEnumDevices"]
+description: TAPI calls the TSPI_providerEnumDevices function before TSPI_providerInit to determine the number of line and phone devices supported by the service provider.
+helpviewer_keywords: ["TSPI_providerEnumDevices","TSPI_providerEnumDevices function [TAPI 2.2]","_tspi_tspi_providerenumdevices","tspi.tspi_providerenumdevices","tspi/TSPI_providerEnumDevices"]
 old-location: tspi\tspi_providerenumdevices.htm
 tech.root: Tapi
 ms.assetid: 5c7c578d-7200-4807-b89b-5bc39ee83e45

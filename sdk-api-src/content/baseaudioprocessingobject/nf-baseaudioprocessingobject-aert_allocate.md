@@ -1,7 +1,8 @@
 ---
 UID: NF:baseaudioprocessingobject.AERT_Allocate
 title: AERT_Allocate function (baseaudioprocessingobject.h)
-description: The AERT_Allocate utility function allocates and locks a segment of memory for use by audio processing objects.helpviewer_keywords: ["AERT_Allocate","AERT_Allocate function [Audio Devices]","audio.aert_allocate","audio_syseffects_r_db01d2ca-9a2d-4054-b066-773f2cb54276.xml","baseaudioprocessingobject/AERT_Allocate"]
+description: The AERT_Allocate utility function allocates and locks a segment of memory for use by audio processing objects.
+helpviewer_keywords: ["AERT_Allocate","AERT_Allocate function [Audio Devices]","audio.aert_allocate","audio_syseffects_r_db01d2ca-9a2d-4054-b066-773f2cb54276.xml","baseaudioprocessingobject/AERT_Allocate"]
 old-location: audio\aert_allocate.htm
 tech.root: audio
 ms.assetid: b992842d-0612-464c-9b82-b75137fa49eb

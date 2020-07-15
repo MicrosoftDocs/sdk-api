@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMStoreSInt2
 title: XMStoreSInt2 function (directxmath.h)
-description: Stores signed integer data from an XMVECTOR in an XMINT2 structure.helpviewer_keywords: ["Use DirectX..XMStoreSInt2","XMStoreSInt2","XMStoreSInt2 method [DirectX Math Support APIs]","dxmath.xmstoresint2"]
+description: Stores signed integer data from an XMVECTOR in an XMINT2 structure.
+helpviewer_keywords: ["Use DirectX..XMStoreSInt2","XMStoreSInt2","XMStoreSInt2 method [DirectX Math Support APIs]","dxmath.xmstoresint2"]
 old-location: dxmath\xmstoresint2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreSInt2(XMINT2@,XMVECTOR)

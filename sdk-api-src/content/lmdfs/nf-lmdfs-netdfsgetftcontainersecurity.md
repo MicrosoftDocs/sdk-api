@@ -1,7 +1,8 @@
 ---
 UID: NF:lmdfs.NetDfsGetFtContainerSecurity
 title: NetDfsGetFtContainerSecurity function (lmdfs.h)
-description: Retrieves the security descriptor of the container object for the domain-based DFS namespaces in the specified Active Directory domain.helpviewer_keywords: ["NetDfsGetFtContainerSecurity","NetDfsGetFtContainerSecurity function [Distributed File System]","dfs.netdfsgetftcontainersecurity","fs.netdfsgetftcontainersecurity","lmdfs/NetDfsGetFtContainerSecurity","netmgmt.netdfsgetftcontainersecurity"]
+description: Retrieves the security descriptor of the container object for the domain-based DFS namespaces in the specified Active Directory domain.
+helpviewer_keywords: ["NetDfsGetFtContainerSecurity","NetDfsGetFtContainerSecurity function [Distributed File System]","dfs.netdfsgetftcontainersecurity","fs.netdfsgetftcontainersecurity","lmdfs/NetDfsGetFtContainerSecurity","netmgmt.netdfsgetftcontainersecurity"]
 old-location: dfs\netdfsgetftcontainersecurity.htm
 tech.root: Dfs
 ms.assetid: 88e988db-1418-49d5-8cac-1ea6144474a5

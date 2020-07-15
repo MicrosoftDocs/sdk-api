@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.GetSymLoadError
 title: GetSymLoadError function (dbghelp.h)
-description: Gets the last symbol load error.helpviewer_keywords: ["GetSymLoadError","GetSymLoadError function","base.getsymloaderror","dbghelp/GetSymLoadError"]
+description: Gets the last symbol load error.
+helpviewer_keywords: ["GetSymLoadError","GetSymLoadError function","base.getsymloaderror","dbghelp/GetSymLoadError"]
 old-location: base\getsymloaderror.htm
 tech.root: Debug
 ms.assetid: EFCE3FC5-A815-401F-96C1-2A4F12E01C1C

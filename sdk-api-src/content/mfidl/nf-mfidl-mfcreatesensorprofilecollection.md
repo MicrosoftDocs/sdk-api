@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.MFCreateSensorProfileCollection
 title: MFCreateSensorProfileCollection function (mfidl.h)
-description: Creates a sensor profile collection.helpviewer_keywords: ["MFCreateSensorProfileCollection","MFCreateSensorProfileCollection function [Media Foundation]","mf.mfcreatesensorprofilecollection","mfidl/MFCreateSensorProfileCollection"]
+description: Creates a sensor profile collection.
+helpviewer_keywords: ["MFCreateSensorProfileCollection","MFCreateSensorProfileCollection function [Media Foundation]","mf.mfcreatesensorprofilecollection","mfidl/MFCreateSensorProfileCollection"]
 old-location: mf\mfcreatesensorprofilecollection.htm
 tech.root: medfound
 ms.assetid: 0EEA1C89-4B8B-4ECC-AF34-EB516C91997A

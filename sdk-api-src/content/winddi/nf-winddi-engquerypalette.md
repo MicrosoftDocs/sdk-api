@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngQueryPalette
 title: EngQueryPalette function (winddi.h)
-description: The EngQueryPalette function queries the specified palette for its attributes.helpviewer_keywords: ["EngQueryPalette","EngQueryPalette function [Display Devices]","display.engquerypalette","gdifncs_e11ff13c-9834-4911-9a02-a7d98f4cdfdc.xml","winddi/EngQueryPalette"]
+description: The EngQueryPalette function queries the specified palette for its attributes.
+helpviewer_keywords: ["EngQueryPalette","EngQueryPalette function [Display Devices]","display.engquerypalette","gdifncs_e11ff13c-9834-4911-9a02-a7d98f4cdfdc.xml","winddi/EngQueryPalette"]
 old-location: display\engquerypalette.htm
 tech.root: display
 ms.assetid: be4d0547-b71a-49b4-9d2c-12fab67c9412

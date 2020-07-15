@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetRedraw
 title: IShellFolderView::SetRedraw (shlobj_core.h)
-description: Allows a view to be redrawn or prevents it from being redrawn.helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","SetRedraw method","IShellFolderView.SetRedraw","IShellFolderView::SetRedraw","SetRedraw","SetRedraw method [Windows Shell]","SetRedraw method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_SetRedraw","shell.IShellFolderView_SetRedraw","shlobj_core/IShellFolderView::SetRedraw"]
+description: Allows a view to be redrawn or prevents it from being redrawn.
+helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","SetRedraw method","IShellFolderView.SetRedraw","IShellFolderView::SetRedraw","SetRedraw","SetRedraw method [Windows Shell]","SetRedraw method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_SetRedraw","shell.IShellFolderView_SetRedraw","shlobj_core/IShellFolderView::SetRedraw"]
 old-location: shell\IShellFolderView_SetRedraw.htm
 tech.root: shell
 ms.assetid: fe249faa-561f-4179-a478-4ff284ffa963

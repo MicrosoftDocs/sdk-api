@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitPropVariantFromPropVariantVectorElem
 title: InitPropVariantFromPropVariantVectorElem function (propvarutil.h)
-description: Initializes a PROPVARIANT structure based on a specified PROPVARIANT vector element.helpviewer_keywords: ["InitPropVariantFromPropVariantVectorElem","InitPropVariantFromPropVariantVectorElem function [Windows Properties]","properties.InitPropVariantFromPropVariantVectorElem","propvarutil/InitPropVariantFromPropVariantVectorElem","shell.InitPropVariantFromPropVariantVectorElem","shell_InitPropVariantFromPropVariantVectorElem"]
+description: Initializes a PROPVARIANT structure based on a specified PROPVARIANT vector element.
+helpviewer_keywords: ["InitPropVariantFromPropVariantVectorElem","InitPropVariantFromPropVariantVectorElem function [Windows Properties]","properties.InitPropVariantFromPropVariantVectorElem","propvarutil/InitPropVariantFromPropVariantVectorElem","shell.InitPropVariantFromPropVariantVectorElem","shell_InitPropVariantFromPropVariantVectorElem"]
 old-location: properties\InitPropVariantFromPropVariantVectorElem.htm
 tech.root: properties
 ms.assetid: 4618e63a-8afa-45d4-b0b0-cd1dae064ba4

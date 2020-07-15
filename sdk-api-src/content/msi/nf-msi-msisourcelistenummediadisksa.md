@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiSourceListEnumMediaDisksA
 title: MsiSourceListEnumMediaDisksA function (msi.h)
-description: The MsiSourceListEnumMediaDisks function enumerates the list of disks registered for the media source for a patch or product.helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListEnumMediaDisks","MsiSourceListEnumMediaDisks function","MsiSourceListEnumMediaDisksA","MsiSourceListEnumMediaDisksW","NULL","User SID","msi/MsiSourceListEnumMediaDisks","msi/MsiSourceListEnumMediaDisksA","msi/MsiSourceListEnumMediaDisksW","s-1-1-0","setup.msisourcelistenummediadisks"]
+description: The MsiSourceListEnumMediaDisks function enumerates the list of disks registered for the media source for a patch or product.
+helpviewer_keywords: ["MSICODE_PATCH","MSICODE_PRODUCT","MSIINSTALLCONTEXT_MACHINE","MSIINSTALLCONTEXT_USERMANAGED","MSIINSTALLCONTEXT_USERUNMANAGED","MsiSourceListEnumMediaDisks","MsiSourceListEnumMediaDisks function","MsiSourceListEnumMediaDisksA","MsiSourceListEnumMediaDisksW","NULL","User SID","msi/MsiSourceListEnumMediaDisks","msi/MsiSourceListEnumMediaDisksA","msi/MsiSourceListEnumMediaDisksW","s-1-1-0","setup.msisourcelistenummediadisks"]
 old-location: setup\msisourcelistenummediadisks.htm
 tech.root: Msi
 ms.assetid: 29bf12f4-f9e0-4853-8f03-a31a855b2ad6
@@ -364,6 +365,10 @@ An administrator can enumerate per-user unmanaged and managed installations for 
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiSourceListEnumMediaDisks as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

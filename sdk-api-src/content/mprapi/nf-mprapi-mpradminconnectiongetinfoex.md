@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminConnectionGetInfoEx
 title: MprAdminConnectionGetInfoEx function (mprapi.h)
-description: Retrieves the connection information for a specific connection on a specified RRAS server.helpviewer_keywords: ["MprAdminConnectionGetInfoEx","MprAdminConnectionGetInfoEx function [RAS]","mprapi/MprAdminConnectionGetInfoEx","rras.mpradminconnectiongetinfoex"]
+description: Retrieves the connection information for a specific connection on a specified RRAS server.
+helpviewer_keywords: ["MprAdminConnectionGetInfoEx","MprAdminConnectionGetInfoEx function [RAS]","mprapi/MprAdminConnectionGetInfoEx","rras.mpradminconnectiongetinfoex"]
 old-location: rras\mpradminconnectiongetinfoex.htm
 tech.root: RRAS
 ms.assetid: 7b6a27da-306c-48e5-830b-215ce6f80ea1

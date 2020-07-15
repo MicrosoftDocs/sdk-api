@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IRawCDImageTrackInfo.get_DigitalAudioCopySetting
 title: IRawCDImageTrackInfo::get_DigitalAudioCopySetting (imapi2.h)
-description: Retrieves the value for the bit that represents the current digital audio copy setting on the resulting media. Please see the IMAPI_CD_TRACK_DIGITAL_COPY_SETTING enumeration for possible values.helpviewer_keywords: ["IRawCDImageTrackInfo interface [IMAPI]","get_DigitalAudioCopySetting method","IRawCDImageTrackInfo.get_DigitalAudioCopySetting","IRawCDImageTrackInfo::get_DigitalAudioCopySetting","get_DigitalAudioCopySetting","get_DigitalAudioCopySetting method [IMAPI]","get_DigitalAudioCopySetting method [IMAPI]","IRawCDImageTrackInfo interface","imapi.irawcdimagetrackinfo_get_digitalaudiocopysetting","imapi2/IRawCDImageTrackInfo::get_DigitalAudioCopySetting"]
+description: Retrieves the value for the bit that represents the current digital audio copy setting on the resulting media. Please see the IMAPI_CD_TRACK_DIGITAL_COPY_SETTING enumeration for possible values.
+helpviewer_keywords: ["IRawCDImageTrackInfo interface [IMAPI]","get_DigitalAudioCopySetting method","IRawCDImageTrackInfo.get_DigitalAudioCopySetting","IRawCDImageTrackInfo::get_DigitalAudioCopySetting","get_DigitalAudioCopySetting","get_DigitalAudioCopySetting method [IMAPI]","get_DigitalAudioCopySetting method [IMAPI]","IRawCDImageTrackInfo interface","imapi.irawcdimagetrackinfo_get_digitalaudiocopysetting","imapi2/IRawCDImageTrackInfo::get_DigitalAudioCopySetting"]
 old-location: imapi\irawcdimagetrackinfo_get_digitalaudiocopysetting.htm
 tech.root: imapi
 ms.assetid: 1b9f277d-b1bb-4704-8a25-cd26fdf46069

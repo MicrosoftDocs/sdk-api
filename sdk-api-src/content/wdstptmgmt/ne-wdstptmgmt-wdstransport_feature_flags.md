@@ -1,7 +1,8 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0001
 title: WDSTRANSPORT_FEATURE_FLAGS (wdstptmgmt.h)
-description: Indicates which WDS features are installed on the WDS server.helpviewer_keywords: ["*PWDSTRANSPORT_FEATURE_FLAGS","WDSTRANSPORT_FEATURE_FLAGS","WDSTRANSPORT_FEATURE_FLAGS enumeration [Windows Deployment Services]","WdsTptFeatureAdminPack","WdsTptFeatureDeploymentServer","WdsTptFeatureTransportServer","wds.wdstransport_feature_flags","wdstptmgmt/WDSTRANSPORT_FEATURE_FLAGS","wdstptmgmt/WdsTptFeatureAdminPack","wdstptmgmt/WdsTptFeatureDeploymentServer","wdstptmgmt/WdsTptFeatureTransportServer"]
+description: Indicates which WDS features are installed on the WDS server.
+helpviewer_keywords: ["*PWDSTRANSPORT_FEATURE_FLAGS","WDSTRANSPORT_FEATURE_FLAGS","WDSTRANSPORT_FEATURE_FLAGS enumeration [Windows Deployment Services]","WdsTptFeatureAdminPack","WdsTptFeatureDeploymentServer","WdsTptFeatureTransportServer","wds.wdstransport_feature_flags","wdstptmgmt/WDSTRANSPORT_FEATURE_FLAGS","wdstptmgmt/WdsTptFeatureAdminPack","wdstptmgmt/WdsTptFeatureDeploymentServer","wdstptmgmt/WdsTptFeatureTransportServer"]
 old-location: wds\wdstransport_feature_flags.htm
 tech.root: wds
 ms.assetid: 60ce036d-7875-4fa7-8d7e-20a9faf63291

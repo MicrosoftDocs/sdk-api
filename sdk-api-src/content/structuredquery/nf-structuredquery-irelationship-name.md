@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IRelationship.Name
 title: IRelationship::Name (structuredquery.h)
-description: Retrieves the name of the relationship.helpviewer_keywords: ["IRelationship interface [search]","Name method","IRelationship.Name","IRelationship::Name","Name","Name method [search]","Name method [search]","IRelationship interface","_search_IRelationship_Name","search._search_IRelationship_Name","structuredquery/IRelationship::Name"]
+description: Retrieves the name of the relationship.
+helpviewer_keywords: ["IRelationship interface [search]","Name method","IRelationship.Name","IRelationship::Name","Name","Name method [search]","Name method [search]","IRelationship interface","_search_IRelationship_Name","search._search_IRelationship_Name","structuredquery/IRelationship::Name"]
 old-location: search\_search_IRelationship_Name.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irelationship\name.htm

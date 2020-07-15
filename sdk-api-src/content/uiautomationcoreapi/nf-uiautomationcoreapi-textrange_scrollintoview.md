@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_ScrollIntoView
 title: TextRange_ScrollIntoView function (uiautomationcoreapi.h)
-description: Scrolls the text so the specified range is visible in the viewport.helpviewer_keywords: ["TextRange_ScrollIntoView","TextRange_ScrollIntoView function [Windows Accessibility]","uiauto.uiauto_TextRange_ScrollIntoViewConPat","uiauto_TextRange_ScrollIntoViewConPat","uiautomationcoreapi/TextRange_ScrollIntoView","winauto.uiauto_TextRange_ScrollIntoViewConPat"]
+description: Scrolls the text so the specified range is visible in the viewport.
+helpviewer_keywords: ["TextRange_ScrollIntoView","TextRange_ScrollIntoView function [Windows Accessibility]","uiauto.uiauto_TextRange_ScrollIntoViewConPat","uiauto_TextRange_ScrollIntoViewConPat","uiautomationcoreapi/TextRange_ScrollIntoView","winauto.uiauto_TextRange_ScrollIntoViewConPat"]
 old-location: winauto\uiauto_TextRange_ScrollIntoViewConPat.htm
 tech.root: WinAuto
 ms.assetid: 94c922ba-7f43-4881-b876-c77fdf7b9eb5

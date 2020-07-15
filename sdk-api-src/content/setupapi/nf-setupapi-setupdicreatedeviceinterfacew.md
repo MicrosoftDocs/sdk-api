@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiCreateDeviceInterfaceW
 title: SetupDiCreateDeviceInterfaceW function (setupapi.h)
-description: The SetupDiCreateDeviceInterface function registers a device interface on a local system or a remote system.helpviewer_keywords: ["SetupDiCreateDeviceInterface","SetupDiCreateDeviceInterface function [Device and Driver Installation]","SetupDiCreateDeviceInterfaceA","SetupDiCreateDeviceInterfaceW","devinst.setupdicreatedeviceinterface","di-rtns_252e73f4-f140-44bf-bd81-abb08a036df7.xml","setupapi/SetupDiCreateDeviceInterface"]
+description: The SetupDiCreateDeviceInterface function registers a device interface on a local system or a remote system.
+helpviewer_keywords: ["SetupDiCreateDeviceInterface","SetupDiCreateDeviceInterface function [Device and Driver Installation]","SetupDiCreateDeviceInterfaceA","SetupDiCreateDeviceInterfaceW","devinst.setupdicreatedeviceinterface","di-rtns_252e73f4-f140-44bf-bd81-abb08a036df7.xml","setupapi/SetupDiCreateDeviceInterface"]
 old-location: devinst\setupdicreatedeviceinterface.htm
 tech.root: devinst
 ms.assetid: e5f78c34-b61c-4fcb-b021-fb8d07c2d841
@@ -115,6 +116,10 @@ If <b>SetupDiCreateDeviceInterface</b> successfully creates a new device interfa
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiCreateDeviceInterface as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NS:wsman._WSMAN_OPTION_SET
 title: WSMAN_OPTION_SET (wsman.h)
-description: Represents a set of options.helpviewer_keywords: ["WSMAN_OPTION_SET","WSMAN_OPTION_SET structure [Windows Remote Management]","winrm.wsman_option_set","wsman/WSMAN_OPTION_SET"]
+description: Represents a set of options.
+helpviewer_keywords: ["WSMAN_OPTION_SET","WSMAN_OPTION_SET structure [Windows Remote Management]","winrm.wsman_option_set","wsman/WSMAN_OPTION_SET"]
 old-location: winrm\wsman_option_set.htm
 tech.root: winrm
 ms.assetid: 16a1447c-d764-44bf-9c62-064769ead0f3

@@ -1,7 +1,8 @@
 ---
 UID: NS:vdslun._VDS_LUN_INFORMATION
 title: VDS_LUN_INFORMATION (vdslun.h)
-description: Defines information about a LUN or disk. Applications can use this structure to uniquely identify a LUN at all times.helpviewer_keywords: ["VDS_LUN_INFORMATION","VDS_LUN_INFORMATION structure [VDS]","base.vds_lun_information","vdslun/_VDS_LUN_INFORMATION"]
+description: Defines information about a LUN or disk. Applications can use this structure to uniquely identify a LUN at all times.
+helpviewer_keywords: ["VDS_LUN_INFORMATION","VDS_LUN_INFORMATION structure [VDS]","base.vds_lun_information","vdslun/_VDS_LUN_INFORMATION"]
 old-location: base\vds_lun_information.htm
 tech.root: VDS
 ms.assetid: 6ad7ec27-add1-4f1e-aa01-6f43c75b7ad9

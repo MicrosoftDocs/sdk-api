@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusbrush.LinearGradientBrush.LinearGradientBrush~r8
 title: LinearGradientBrush::LinearGradientBrush~r8 (gdiplusbrush.h)
-description: This topic lists the constructors of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class.helpviewer_keywords: ["LinearGradientBrush","LinearGradientBrush constructors [GDI+]","LinearGradientBrush.LinearGradientBrush","LinearGradientBrush.LinearGradientBrush~r8","LinearGradientBrush::LinearGradientBrush","LinearGradientBrush::LinearGradientBrush~r8","_gdiplus_CLASS_LinearGradientBrush_Constructors","gdiplus._gdiplus_CLASS_LinearGradientBrush_Constructors","gdiplusbrush/LinearGradientBrush"]
+description: This topic lists the constructors of the LinearGradientBrush class. For a complete class listing, see LinearGradientBrush Class.
+helpviewer_keywords: ["LinearGradientBrush","LinearGradientBrush constructors [GDI+]","LinearGradientBrush.LinearGradientBrush","LinearGradientBrush.LinearGradientBrush~r8","LinearGradientBrush::LinearGradientBrush","LinearGradientBrush::LinearGradientBrush~r8","_gdiplus_CLASS_LinearGradientBrush_Constructors","gdiplus._gdiplus_CLASS_LinearGradientBrush_Constructors","gdiplusbrush/LinearGradientBrush"]
 old-location: gdiplus\_gdiplus_CLASS_LinearGradientBrush_Constructors.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\lineargradientbrushclass\lineargradientbrushconstructors.htm

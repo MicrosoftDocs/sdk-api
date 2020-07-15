@@ -1,7 +1,8 @@
 ---
 UID: NF:realtimeapiset.QueryInterruptTime
 title: QueryInterruptTime function (realtimeapiset.h)
-description: Gets the current interrupt-time count.helpviewer_keywords: ["QueryInterruptTime","QueryInterruptTime function","base.queryinterrupttime","realtimeapiset/QueryInterruptTime"]
+description: Gets the current interrupt-time count.
+helpviewer_keywords: ["QueryInterruptTime","QueryInterruptTime function","base.queryinterrupttime","realtimeapiset/QueryInterruptTime"]
 old-location: base\queryinterrupttime.htm
 tech.root: SysInfo
 ms.assetid: FB2B179B-5E44-4201-86E2-DB386607FD90

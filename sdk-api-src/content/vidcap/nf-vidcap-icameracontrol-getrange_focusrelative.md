@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ICameraControl.getRange_FocusRelative
 title: ICameraControl::getRange_FocusRelative (vidcap.h)
-description: The getRange_FocusRelative method returns the range of relative focal distances supported by the camera. The relative focus indicates the direction in which the lens group is moving.helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_FocusRelative method","ICameraControl.getRange_FocusRelative","ICameraControl::getRange_FocusRelative","ICameraControlgetRange_FocusRelative","dshow.icameracontrol_getrange_focusrelative","getRange_FocusRelative","getRange_FocusRelative method [DirectShow]","getRange_FocusRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_FocusRelative"]
+description: The getRange_FocusRelative method returns the range of relative focal distances supported by the camera. The relative focus indicates the direction in which the lens group is moving.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","getRange_FocusRelative method","ICameraControl.getRange_FocusRelative","ICameraControl::getRange_FocusRelative","ICameraControlgetRange_FocusRelative","dshow.icameracontrol_getrange_focusrelative","getRange_FocusRelative","getRange_FocusRelative method [DirectShow]","getRange_FocusRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::getRange_FocusRelative"]
 old-location: dshow\icameracontrol_getrange_focusrelative.htm
 tech.root: DirectShow
 ms.assetid: c5038a59-bdc4-4034-afd1-256003687187

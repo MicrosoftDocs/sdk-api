@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IContextMenuCallback2
 title: IContextMenuCallback2 (mmc.h)
-description: The IContextMenuCallback2 interface is used to add menu items to a context menu. This interface supersedes IContextMenuCallback.helpviewer_keywords: ["IContextMenuCallback2","IContextMenuCallback2 interface [MMC]","IContextMenuCallback2 interface [MMC]","described","_slate_icontextmenucallback2","mmc.icontextmenucallback2","mmc/IContextMenuCallback2"]
+description: The IContextMenuCallback2 interface is used to add menu items to a context menu. This interface supersedes IContextMenuCallback.
+helpviewer_keywords: ["IContextMenuCallback2","IContextMenuCallback2 interface [MMC]","IContextMenuCallback2 interface [MMC]","described","_slate_icontextmenucallback2","mmc.icontextmenucallback2","mmc/IContextMenuCallback2"]
 old-location: mmc\icontextmenucallback2.htm
 tech.root: mmc
 ms.assetid: 97f0f574-6575-4be6-9c30-ed68e3438d30

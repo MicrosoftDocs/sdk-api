@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_SUPPORT_FLAGS
 title: D3D12_VIDEO_PROCESS_SUPPORT_FLAGS
-description: Specifies whether a video format and colorspace conversion operation is supported.helpviewer_keywords: ["D3D12_VIDEO_PROCESS_SUPPORT_FLAGS","D3D12_VIDEO_PROCESS_SUPPORT_FLAGS",""]
+description: Specifies whether a video format and colorspace conversion operation is supported.
+helpviewer_keywords: ["D3D12_VIDEO_PROCESS_SUPPORT_FLAGS","D3D12_VIDEO_PROCESS_SUPPORT_FLAGS",""]
 tech.root: mf
 ms.assetid: dc56a715-b29f-42fc-84e9-8ac377b9d0dc
 ms.date: 05/28/2019

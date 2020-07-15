@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.ContainsKnowledgeForChangeUnit
 title: ISyncKnowledge2::ContainsKnowledgeForChangeUnit (winsync.h)
-description: Indicates whether the specified knowledge of the specified change unit is known by this knowledge.helpviewer_keywords: ["ContainsKnowledgeForChangeUnit","ContainsKnowledgeForChangeUnit method [Windows Sync]","ContainsKnowledgeForChangeUnit method [Windows Sync]","ISyncKnowledge2 interface","ISyncKnowledge2 interface [Windows Sync]","ContainsKnowledgeForChangeUnit method","ISyncKnowledge2.ContainsKnowledgeForChangeUnit","ISyncKnowledge2::ContainsKnowledgeForChangeUnit","winsync.isyncknowledge2_containsknowledgeforchangeunit","winsync/ISyncKnowledge2::ContainsKnowledgeForChangeUnit"]
+description: Indicates whether the specified knowledge of the specified change unit is known by this knowledge.
+helpviewer_keywords: ["ContainsKnowledgeForChangeUnit","ContainsKnowledgeForChangeUnit method [Windows Sync]","ContainsKnowledgeForChangeUnit method [Windows Sync]","ISyncKnowledge2 interface","ISyncKnowledge2 interface [Windows Sync]","ContainsKnowledgeForChangeUnit method","ISyncKnowledge2.ContainsKnowledgeForChangeUnit","ISyncKnowledge2::ContainsKnowledgeForChangeUnit","winsync.isyncknowledge2_containsknowledgeforchangeunit","winsync/ISyncKnowledge2::ContainsKnowledgeForChangeUnit"]
 old-location: winsync\isyncknowledge2_containsknowledgeforchangeunit.htm
 tech.root: winsync
 ms.assetid: ecaefb24-eca0-408c-a98d-f7e6bbfefade

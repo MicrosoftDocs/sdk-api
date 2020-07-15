@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetDriverInfoDetailA
 title: SetupDiGetDriverInfoDetailA function (setupapi.h)
-description: The SetupDiGetDriverInfoDetail function retrieves driver information detail for a device information set or a particular device information element in the device information set.helpviewer_keywords: ["SetupDiGetDriverInfoDetail","SetupDiGetDriverInfoDetail function [Device and Driver Installation]","SetupDiGetDriverInfoDetailA","SetupDiGetDriverInfoDetailW","devinst.setupdigetdriverinfodetail","di-rtns_5a2fb98d-54ee-4290-9969-f5e12d77cbcf.xml","setupapi/SetupDiGetDriverInfoDetail"]
+description: The SetupDiGetDriverInfoDetail function retrieves driver information detail for a device information set or a particular device information element in the device information set.
+helpviewer_keywords: ["SetupDiGetDriverInfoDetail","SetupDiGetDriverInfoDetail function [Device and Driver Installation]","SetupDiGetDriverInfoDetailA","SetupDiGetDriverInfoDetailW","devinst.setupdigetdriverinfodetail","di-rtns_5a2fb98d-54ee-4290-9969-f5e12d77cbcf.xml","setupapi/SetupDiGetDriverInfoDetail"]
 old-location: devinst\setupdigetdriverinfodetail.htm
 tech.root: devinst
 ms.assetid: 42f3668c-8112-4cc0-bce8-b0b3886c45fb
@@ -107,6 +108,10 @@ If the specified driver information member and the caller-supplied buffer are bo
 
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetDriverInfoDetail as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

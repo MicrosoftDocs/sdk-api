@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_NetworkInterfaceName
 title: IWdsTransportSession::get_NetworkInterfaceName (wdstptmgmt.h)
-description: Receives the name of the server network interface used by this transport session.helpviewer_keywords: ["IWdsTransportSession interface [Windows Deployment Services]","NetworkInterfaceName property","IWdsTransportSession.NetworkInterfaceName","IWdsTransportSession.get_NetworkInterfaceName","IWdsTransportSession::NetworkInterfaceName","IWdsTransportSession::get_NetworkInterfaceName","NetworkInterfaceName property [Windows Deployment Services]","NetworkInterfaceName property [Windows Deployment Services]","IWdsTransportSession interface","get_NetworkInterfaceName","wds.iwdstransportsession_networkinterfacename","wdstptmgmt/IWdsTransportSession::NetworkInterfaceName","wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceName"]
+description: Receives the name of the server network interface used by this transport session.
+helpviewer_keywords: ["IWdsTransportSession interface [Windows Deployment Services]","NetworkInterfaceName property","IWdsTransportSession.NetworkInterfaceName","IWdsTransportSession.get_NetworkInterfaceName","IWdsTransportSession::NetworkInterfaceName","IWdsTransportSession::get_NetworkInterfaceName","NetworkInterfaceName property [Windows Deployment Services]","NetworkInterfaceName property [Windows Deployment Services]","IWdsTransportSession interface","get_NetworkInterfaceName","wds.iwdstransportsession_networkinterfacename","wdstptmgmt/IWdsTransportSession::NetworkInterfaceName","wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceName"]
 old-location: wds\iwdstransportsession_networkinterfacename.htm
 tech.root: wds
 ms.assetid: 2408b109-6878-4c66-ba44-196c10b2ae96

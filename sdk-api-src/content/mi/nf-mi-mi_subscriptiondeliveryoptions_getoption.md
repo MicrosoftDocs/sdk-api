@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_SubscriptionDeliveryOptions_GetOption
 title: MI_SubscriptionDeliveryOptions_GetOption function (mi.h)
-description: Gets the value of the named option.helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetOption","MI_SubscriptionDeliveryOptions_GetOption function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetOption","wmi_v2.mi_subscriptiondeliveryoptions_getoption"]
+description: Gets the value of the named option.
+helpviewer_keywords: ["MI_SubscriptionDeliveryOptions_GetOption","MI_SubscriptionDeliveryOptions_GetOption function [Windows Management Infrastructure (MI)]","mi/MI_SubscriptionDeliveryOptions_GetOption","wmi_v2.mi_subscriptiondeliveryoptions_getoption"]
 old-location: wmi_v2\mi_subscriptiondeliveryoptions_getoption.htm
 tech.root: wmi_v2
 ms.assetid: 4245b569-afe4-46e0-8d32-e7b571104071

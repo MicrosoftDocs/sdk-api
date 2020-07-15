@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.CreateColorContextFromFilename
 title: ID2D1DeviceContext::CreateColorContextFromFilename (d2d1_1.h)
-description: Creates a color context by loading it from the specified filename. The profile bytes are the contents of the file specified by Filename.helpviewer_keywords: ["CreateColorContextFromFilename","CreateColorContextFromFilename method [Direct2D]","CreateColorContextFromFilename method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","CreateColorContextFromFilename method","ID2D1DeviceContext.CreateColorContextFromFilename","ID2D1DeviceContext::CreateColorContextFromFilename","d2d1_1/ID2D1DeviceContext::CreateColorContextFromFilename","direct2d.id2d1devicecontext_createcolorcontextfromfilename"]
+description: Creates a color context by loading it from the specified filename. The profile bytes are the contents of the file specified by Filename.
+helpviewer_keywords: ["CreateColorContextFromFilename","CreateColorContextFromFilename method [Direct2D]","CreateColorContextFromFilename method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","CreateColorContextFromFilename method","ID2D1DeviceContext.CreateColorContextFromFilename","ID2D1DeviceContext::CreateColorContextFromFilename","d2d1_1/ID2D1DeviceContext::CreateColorContextFromFilename","direct2d.id2d1devicecontext_createcolorcontextfromfilename"]
 old-location: direct2d\id2d1devicecontext_createcolorcontextfromfilename.htm
 tech.root: Direct2D
 ms.assetid: ae72c68a-d984-4287-b607-a18913f083d4

@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ITypeChangeEvents.RequestTypeChange
 title: ITypeChangeEvents::RequestTypeChange (oaidl.h)
-description: Raised when a request has been made to change a type. The change can be disallowed.helpviewer_keywords: ["CHANGEKIND_ADDMEMBER","CHANGEKIND_CHANGEFAILED","CHANGEKIND_DELETEMEMBER","CHANGEKIND_GENERAL","CHANGEKIND_INVALIDATE","CHANGEKIND_SETDOCUMENTATION","CHANGEKIND_SETNAMES","ITypeChangeEvents interface [Automation]","RequestTypeChange method","ITypeChangeEvents.RequestTypeChange","ITypeChangeEvents::RequestTypeChange","RequestTypeChange","RequestTypeChange method [Automation]","RequestTypeChange method [Automation]","ITypeChangeEvents interface","_oa96_ITypeChangeEvents_RequestTypeChange","automat.itypechangeevents_requesttypechange","oaidl/ITypeChangeEvents::RequestTypeChange"]
+description: Raised when a request has been made to change a type. The change can be disallowed.
+helpviewer_keywords: ["CHANGEKIND_ADDMEMBER","CHANGEKIND_CHANGEFAILED","CHANGEKIND_DELETEMEMBER","CHANGEKIND_GENERAL","CHANGEKIND_INVALIDATE","CHANGEKIND_SETDOCUMENTATION","CHANGEKIND_SETNAMES","ITypeChangeEvents interface [Automation]","RequestTypeChange method","ITypeChangeEvents.RequestTypeChange","ITypeChangeEvents::RequestTypeChange","RequestTypeChange","RequestTypeChange method [Automation]","RequestTypeChange method [Automation]","ITypeChangeEvents interface","_oa96_ITypeChangeEvents_RequestTypeChange","automat.itypechangeevents_requesttypechange","oaidl/ITypeChangeEvents::RequestTypeChange"]
 old-location: automat\itypechangeevents_requesttypechange.htm
 tech.root: automat
 ms.assetid: 5f968395-263f-41fc-ab75-dbcc34dd50a0

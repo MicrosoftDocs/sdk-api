@@ -1,7 +1,8 @@
 ---
 UID: NE:asyncinfo.AsyncStatus
 title: AsyncStatus (asyncinfo.h)
-description: Represents the status for an asynchronous operation.helpviewer_keywords: ["AsyncStatus","AsyncStatus enumeration [Windows Runtime]","Cancelled","Completed","Created","Error","Started","asyncinfo/AsyncStatus","asyncinfo/Cancelled","asyncinfo/Completed","asyncinfo/Created","asyncinfo/Error","asyncinfo/Started","winrt.asyncstatus"]
+description: Represents the status for an asynchronous operation.
+helpviewer_keywords: ["AsyncStatus","AsyncStatus enumeration [Windows Runtime]","Cancelled","Completed","Created","Error","Started","asyncinfo/AsyncStatus","asyncinfo/Cancelled","asyncinfo/Completed","asyncinfo/Created","asyncinfo/Error","asyncinfo/Started","winrt.asyncstatus"]
 old-location: winrt\asyncstatus.htm
 tech.root: WinRT
 ms.assetid: 085BF8A1-087F-4B01-8A20-69730BA603B1

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFRealTimeClient.SetWorkQueue
 title: IMFRealTimeClient::SetWorkQueue (mfidl.h)
-description: Specifies the work queue for the topology branch that contains this object.helpviewer_keywords: ["2744ddaf-a1ad-415a-b387-1a3d3b4821bf","IMFRealTimeClient interface [Media Foundation]","SetWorkQueue method","IMFRealTimeClient.SetWorkQueue","IMFRealTimeClient::SetWorkQueue","SetWorkQueue","SetWorkQueue method [Media Foundation]","SetWorkQueue method [Media Foundation]","IMFRealTimeClient interface","mf.imfrealtimeclient_setworkqueue","mfidl/IMFRealTimeClient::SetWorkQueue"]
+description: Specifies the work queue for the topology branch that contains this object.
+helpviewer_keywords: ["2744ddaf-a1ad-415a-b387-1a3d3b4821bf","IMFRealTimeClient interface [Media Foundation]","SetWorkQueue method","IMFRealTimeClient.SetWorkQueue","IMFRealTimeClient::SetWorkQueue","SetWorkQueue","SetWorkQueue method [Media Foundation]","SetWorkQueue method [Media Foundation]","IMFRealTimeClient interface","mf.imfrealtimeclient_setworkqueue","mfidl/IMFRealTimeClient::SetWorkQueue"]
 old-location: mf\imfrealtimeclient_setworkqueue.htm
 tech.root: medfound
 ms.assetid: 2744ddaf-a1ad-415a-b387-1a3d3b4821bf

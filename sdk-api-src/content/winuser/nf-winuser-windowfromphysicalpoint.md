@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.WindowFromPhysicalPoint
 title: WindowFromPhysicalPoint function (winuser.h)
-description: Retrieves a handle to the window that contains the specified physical point.helpviewer_keywords: ["WindowFromPhysicalPoint","WindowFromPhysicalPoint function [Windows and Messages]","_win32_WindowFromPhysicalPoint","_win32_windowfromphysicalpoint_cpp","winmsg.windowfromphysicalpoint","winui._win32_windowfromphysicalpoint","winuser/WindowFromPhysicalPoint"]
+description: Retrieves a handle to the window that contains the specified physical point.
+helpviewer_keywords: ["WindowFromPhysicalPoint","WindowFromPhysicalPoint function [Windows and Messages]","_win32_WindowFromPhysicalPoint","_win32_windowfromphysicalpoint_cpp","winmsg.windowfromphysicalpoint","winui._win32_windowfromphysicalpoint","winuser/WindowFromPhysicalPoint"]
 old-location: winmsg\windowfromphysicalpoint.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\windowfromphysicalpoint.htm

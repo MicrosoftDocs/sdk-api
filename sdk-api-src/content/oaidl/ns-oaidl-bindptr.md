@@ -1,7 +1,8 @@
 ---
 UID: NS:oaidl.tagBINDPTR
 title: BINDPTR (oaidl.h)
-description: Describes a pointer.helpviewer_keywords: ["*LPBINDPTR","BINDPTR","BINDPTR structure [Automation]","LPBINDPTR","LPBINDPTR structure pointer [Automation]","_oa96_BINDPTR","automat.bindptr","oaidl/BINDPTR","oaidl/LPBINDPTR"]
+description: Describes a pointer.
+helpviewer_keywords: ["*LPBINDPTR","BINDPTR","BINDPTR structure [Automation]","LPBINDPTR","LPBINDPTR structure pointer [Automation]","_oa96_BINDPTR","automat.bindptr","oaidl/BINDPTR","oaidl/LPBINDPTR"]
 old-location: automat\bindptr.htm
 tech.root: automat
 ms.assetid: 7035df31-3b13-4297-8464-b86f64d38f20

@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetSetOptionExW
 title: InternetSetOptionExW function (wininet.h)
-description: Not supported.Implemented only as a stub that calls the InternetSetOption function; InternetSetOptionEx has no functionality of its own. Do not use this function at this time.helpviewer_keywords: ["InternetSetOptionEx","InternetSetOptionEx function [WinINet]","InternetSetOptionExA","InternetSetOptionExW","_inet_internetsetoptionex_function","wininet.internetsetoptionex","wininet/InternetSetOptionEx","wininet/InternetSetOptionExA","wininet/InternetSetOptionExW"]
+description: Not supported.Implemented only as a stub that calls the InternetSetOption function; InternetSetOptionEx has no functionality of its own. Do not use this function at this time.
+helpviewer_keywords: ["InternetSetOptionEx","InternetSetOptionEx function [WinINet]","InternetSetOptionExA","InternetSetOptionExW","_inet_internetsetoptionex_function","wininet.internetsetoptionex","wininet/InternetSetOptionEx","wininet/InternetSetOptionExA","wininet/InternetSetOptionExW"]
 old-location: wininet\internetsetoptionex.htm
 tech.root: wininet
 ms.assetid: 535e4f38-d941-4b69-8c48-ea47f3fbd5e7
@@ -105,6 +106,10 @@ This function does not return a value.
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines InternetSetOptionEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

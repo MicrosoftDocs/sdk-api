@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_AddIcon
 title: ImageList_AddIcon macro (commctrl.h)
-description: Adds an icon or cursor to an image list. ImageList_AddIcon calls the ImageList_ReplaceIcon function.helpviewer_keywords: ["ImageList_AddIcon","ImageList_AddIcon macro [Windows Controls]","_win32_ImageList_AddIcon","_win32_ImageList_AddIcon_cpp","commctrl/ImageList_AddIcon","controls.ImageList_AddIcon","controls._win32_ImageList_AddIcon"]
+description: Adds an icon or cursor to an image list. ImageList_AddIcon calls the ImageList_ReplaceIcon function.
+helpviewer_keywords: ["ImageList_AddIcon","ImageList_AddIcon macro [Windows Controls]","_win32_ImageList_AddIcon","_win32_ImageList_AddIcon_cpp","commctrl/ImageList_AddIcon","controls.ImageList_AddIcon","controls._win32_ImageList_AddIcon"]
 old-location: controls\ImageList_AddIcon.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\macros\imagelist_addicon.htm

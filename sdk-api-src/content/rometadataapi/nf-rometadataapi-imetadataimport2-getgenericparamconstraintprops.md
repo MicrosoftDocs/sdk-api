@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport2.GetGenericParamConstraintProps
 title: IMetaDataImport2::GetGenericParamConstraintProps (rometadataapi.h)
-description: Gets the metadata associated with the generic parameter constraint represented by the specified constraint token.helpviewer_keywords: ["GetGenericParamConstraintProps","GetGenericParamConstraintProps method [Windows Runtime]","GetGenericParamConstraintProps method [Windows Runtime]","IMetaDataImport2 interface","IMetaDataImport2 interface [Windows Runtime]","GetGenericParamConstraintProps method","IMetaDataImport2.GetGenericParamConstraintProps","IMetaDataImport2::GetGenericParamConstraintProps","rometadataapi/IMetaDataImport2::GetGenericParamConstraintProps","winrt.imetadataimport2_getgenericparamconstraintprops"]
+description: Gets the metadata associated with the generic parameter constraint represented by the specified constraint token.
+helpviewer_keywords: ["GetGenericParamConstraintProps","GetGenericParamConstraintProps method [Windows Runtime]","GetGenericParamConstraintProps method [Windows Runtime]","IMetaDataImport2 interface","IMetaDataImport2 interface [Windows Runtime]","GetGenericParamConstraintProps method","IMetaDataImport2.GetGenericParamConstraintProps","IMetaDataImport2::GetGenericParamConstraintProps","rometadataapi/IMetaDataImport2::GetGenericParamConstraintProps","winrt.imetadataimport2_getgenericparamconstraintprops"]
 old-location: winrt\imetadataimport2_getgenericparamconstraintprops.htm
 tech.root: WinRT
 ms.assetid: 307b4ab5-733d-4340-a400-3a13039099b0

@@ -1,7 +1,8 @@
 ---
 UID: NN:upnp.IUPnPService
 title: IUPnPService (upnp.h)
-description: The IUPnPService interface enables an application to query state variables and invoke actions on an instance of a service.helpviewer_keywords: ["IUPnPService","IUPnPService interface [UPnP APIs]","IUPnPService interface [UPnP APIs]","described","_upnp_iupnpservice","upnp.iupnpservice","upnp/IUPnPService"]
+description: The IUPnPService interface enables an application to query state variables and invoke actions on an instance of a service.
+helpviewer_keywords: ["IUPnPService","IUPnPService interface [UPnP APIs]","IUPnPService interface [UPnP APIs]","described","_upnp_iupnpservice","upnp.iupnpservice","upnp/IUPnPService"]
 old-location: upnp\iupnpservice.htm
 tech.root: upnp
 ms.assetid: 48b20b03-62a4-4dcd-8eda-f1bfef1eef38

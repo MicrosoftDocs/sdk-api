@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRImageCompositor.InitCompositionTarget
 title: IVMRImageCompositor::InitCompositionTarget (strmif.h)
-description: The InitCompositionTarget method informs the compositor that a new composition target has been created.helpviewer_keywords: ["IVMRImageCompositor interface [DirectShow]","InitCompositionTarget method","IVMRImageCompositor.InitCompositionTarget","IVMRImageCompositor::InitCompositionTarget","IVMRImageCompositorInitCompositionTarget","InitCompositionTarget","InitCompositionTarget method [DirectShow]","InitCompositionTarget method [DirectShow]","IVMRImageCompositor interface","dshow.ivmrimagecompositor_initcompositiontarget","strmif/IVMRImageCompositor::InitCompositionTarget"]
+description: The InitCompositionTarget method informs the compositor that a new composition target has been created.
+helpviewer_keywords: ["IVMRImageCompositor interface [DirectShow]","InitCompositionTarget method","IVMRImageCompositor.InitCompositionTarget","IVMRImageCompositor::InitCompositionTarget","IVMRImageCompositorInitCompositionTarget","InitCompositionTarget","InitCompositionTarget method [DirectShow]","InitCompositionTarget method [DirectShow]","IVMRImageCompositor interface","dshow.ivmrimagecompositor_initcompositiontarget","strmif/IVMRImageCompositor::InitCompositionTarget"]
 old-location: dshow\ivmrimagecompositor_initcompositiontarget.htm
 tech.root: DirectShow
 ms.assetid: 16d54090-a0fa-480f-ba94-a15aa08d4576

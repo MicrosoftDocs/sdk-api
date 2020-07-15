@@ -1,7 +1,8 @@
 ---
 UID: NN:vsprov.IVssSoftwareSnapshotProvider
 title: IVssSoftwareSnapshotProvider (vsprov.h)
-description: Contains the methods used by VSS to manage shadow copy volumes. All software providers must support this interface.helpviewer_keywords: ["IVssSoftwareSnapshotProvider","IVssSoftwareSnapshotProvider interface","IVssSoftwareSnapshotProvider interface","described","base.ivsssoftwaresnapshotprovider","vsprov/IVssSoftwareSnapshotProvider"]
+description: Contains the methods used by VSS to manage shadow copy volumes. All software providers must support this interface.
+helpviewer_keywords: ["IVssSoftwareSnapshotProvider","IVssSoftwareSnapshotProvider interface","IVssSoftwareSnapshotProvider interface","described","base.ivsssoftwaresnapshotprovider","vsprov/IVssSoftwareSnapshotProvider"]
 old-location: base\ivsssoftwaresnapshotprovider.htm
 tech.root: VSS
 ms.assetid: 5c95f2fb-c132-489c-af48-2ffafad0b41f

@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyDescriptionList.GetCount
 title: IPropertyDescriptionList::GetCount (propsys.h)
-description: Gets the number of properties included in the property list.helpviewer_keywords: ["GetCount","GetCount method [Windows Properties]","GetCount method [Windows Properties]","IPropertyDescriptionList interface","IPropertyDescriptionList interface [Windows Properties]","GetCount method","IPropertyDescriptionList.GetCount","IPropertyDescriptionList::GetCount","_shell_IPropertyDescriptionList_GetCount","properties.IPropertyDescriptionList_GetCount","propsys/IPropertyDescriptionList::GetCount","shell.IPropertyDescriptionList_GetCount"]
+description: Gets the number of properties included in the property list.
+helpviewer_keywords: ["GetCount","GetCount method [Windows Properties]","GetCount method [Windows Properties]","IPropertyDescriptionList interface","IPropertyDescriptionList interface [Windows Properties]","GetCount method","IPropertyDescriptionList.GetCount","IPropertyDescriptionList::GetCount","_shell_IPropertyDescriptionList_GetCount","properties.IPropertyDescriptionList_GetCount","propsys/IPropertyDescriptionList::GetCount","shell.IPropertyDescriptionList_GetCount"]
 old-location: properties\IPropertyDescriptionList_GetCount.htm
 tech.root: properties
 ms.assetid: 17d8b018-1709-42a7-9edf-e1c2886593de

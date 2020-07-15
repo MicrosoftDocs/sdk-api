@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFGetAttributeRatio
 title: MFGetAttributeRatio function (mfapi.h)
-description: Retrieves an attribute whose value is a ratio.helpviewer_keywords: ["2572c30c-4ae1-42b7-b1f7-6c564d936c60","MFGetAttributeRatio","MFGetAttributeRatio function [Media Foundation]","mf.mfgetattributeratio","mfapi/MFGetAttributeRatio"]
+description: Retrieves an attribute whose value is a ratio.
+helpviewer_keywords: ["2572c30c-4ae1-42b7-b1f7-6c564d936c60","MFGetAttributeRatio","MFGetAttributeRatio function [Media Foundation]","mf.mfgetattributeratio","mfapi/MFGetAttributeRatio"]
 old-location: mf\mfgetattributeratio.htm
 tech.root: medfound
 ms.assetid: 2572c30c-4ae1-42b7-b1f7-6c564d936c60

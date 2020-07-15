@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_stop_tls_s
 title: ldap_stop_tls_s function (winldap.h)
-description: Stops the encryption operation started by a call to ldap_start_tls_s.helpviewer_keywords: ["ldap.ldap_stop_tls_s","ldap_stop_tls_s","ldap_stop_tls_s function [LDAP]","winldap/ldap_stop_tls_s"]
+description: Stops the encryption operation started by a call to ldap_start_tls_s.
+helpviewer_keywords: ["ldap.ldap_stop_tls_s","ldap_stop_tls_s","ldap_stop_tls_s function [LDAP]","winldap/ldap_stop_tls_s"]
 old-location: ldap\ldap_stop_tls_s.htm
 tech.root: ldap
 ms.assetid: 7b82e79f-009e-4224-b4ce-12b60e0c1011

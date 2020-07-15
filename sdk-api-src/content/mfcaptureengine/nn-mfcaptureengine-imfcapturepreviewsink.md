@@ -1,7 +1,8 @@
 ---
 UID: NN:mfcaptureengine.IMFCapturePreviewSink
 title: IMFCapturePreviewSink (mfcaptureengine.h)
-description: Controls the preview sink.helpviewer_keywords: ["IMFCapturePreviewSink","IMFCapturePreviewSink interface [Media Foundation]","IMFCapturePreviewSink interface [Media Foundation]","described","mf.imfcapturepreviewsink","mfcaptureengine/IMFCapturePreviewSink"]
+description: Controls the preview sink.
+helpviewer_keywords: ["IMFCapturePreviewSink","IMFCapturePreviewSink interface [Media Foundation]","IMFCapturePreviewSink interface [Media Foundation]","described","mf.imfcapturepreviewsink","mfcaptureengine/IMFCapturePreviewSink"]
 old-location: mf\imfcapturepreviewsink.htm
 tech.root: medfound
 ms.assetid: 5E64C24D-D6EC-419B-9DC8-309EBCE0077E

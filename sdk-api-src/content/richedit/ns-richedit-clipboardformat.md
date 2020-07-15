@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit._clipboardformat
 title: CLIPBOARDFORMAT (richedit.h)
-description: Specifies the clipboard format. This structure included with the EN_CLIPFORMAT notification.helpviewer_keywords: ["CLIPBOARDFORMAT","CLIPBOARDFORMAT structure [Windows Controls]","controls.clipboardformat","richedit/CLIPBOARDFORMAT"]
+description: Specifies the clipboard format. This structure included with the EN_CLIPFORMAT notification.
+helpviewer_keywords: ["CLIPBOARDFORMAT","CLIPBOARDFORMAT structure [Windows Controls]","controls.clipboardformat","richedit/CLIPBOARDFORMAT"]
 old-location: controls\clipboardformat.htm
 tech.root: Controls
 ms.assetid: 5AD870B6-C4F1-446C-A516-171B24355EFA

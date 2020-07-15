@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2TrackAtOnce.get_UsedSectorsOnMedia
 title: IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia (imapi2.h)
-description: Retrieves the total number of used sectors on the media.helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_UsedSectorsOnMedia method","IDiscFormat2TrackAtOnce.get_UsedSectorsOnMedia","IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia","get_UsedSectorsOnMedia","get_UsedSectorsOnMedia method [IMAPI]","get_UsedSectorsOnMedia method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_usedsectorsonmedia","imapi2/IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia"]
+description: Retrieves the total number of used sectors on the media.
+helpviewer_keywords: ["IDiscFormat2TrackAtOnce interface [IMAPI]","get_UsedSectorsOnMedia method","IDiscFormat2TrackAtOnce.get_UsedSectorsOnMedia","IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia","get_UsedSectorsOnMedia","get_UsedSectorsOnMedia method [IMAPI]","get_UsedSectorsOnMedia method [IMAPI]","IDiscFormat2TrackAtOnce interface","imapi.idiscformat2trackatonce_get_usedsectorsonmedia","imapi2/IDiscFormat2TrackAtOnce::get_UsedSectorsOnMedia"]
 old-location: imapi\idiscformat2trackatonce_get_usedsectorsonmedia.htm
 tech.root: imapi
 ms.assetid: 85bbb2a8-6ff9-4af4-aefd-fca85f727f37

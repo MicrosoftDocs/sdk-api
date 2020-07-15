@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineCompleteTransfer
 title: lineCompleteTransfer function (tapi.h)
-description: The lineCompleteTransfer function completes the transfer of the specified call to the party connected in the consultation call.helpviewer_keywords: ["_tapi2_linecompletetransfer","lineCompleteTransfer","lineCompleteTransfer function [TAPI 2.2]","tapi/lineCompleteTransfer","tapi2.linecompletetransfer"]
+description: The lineCompleteTransfer function completes the transfer of the specified call to the party connected in the consultation call.
+helpviewer_keywords: ["_tapi2_linecompletetransfer","lineCompleteTransfer","lineCompleteTransfer function [TAPI 2.2]","tapi/lineCompleteTransfer","tapi2.linecompletetransfer"]
 old-location: tapi2\linecompletetransfer.htm
 tech.root: Tapi
 ms.assetid: ebedf664-4c45-49c3-9d86-c3d782077a00

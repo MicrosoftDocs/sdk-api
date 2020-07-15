@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.Flush
 title: Graphics::Flush (gdiplusgraphics.h)
-description: The Graphics::Flush method flushes all pending graphics operations.helpviewer_keywords: ["Flush","Flush method [GDI+]","Flush method [GDI+]","Graphics class","Graphics class [GDI+]","Flush method","Graphics.Flush","Graphics::Flush","_gdiplus_CLASS_Graphics_Flush_intention_","gdiplus._gdiplus_CLASS_Graphics_Flush_intention_"]
+description: The Graphics::Flush method flushes all pending graphics operations.
+helpviewer_keywords: ["Flush","Flush method [GDI+]","Flush method [GDI+]","Graphics class","Graphics class [GDI+]","Flush method","Graphics.Flush","Graphics::Flush","_gdiplus_CLASS_Graphics_Flush_intention_","gdiplus._gdiplus_CLASS_Graphics_Flush_intention_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_Flush_intention_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\flush.htm

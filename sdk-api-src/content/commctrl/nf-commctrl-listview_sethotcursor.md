@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_SetHotCursor
 title: ListView_SetHotCursor macro (commctrl.h)
-description: Sets the HCURSOR that the list-view control uses when the pointer is over an item while hot tracking is enabled. You can use this macro or send the LVM_SETHOTCURSOR message explicitly. To check whether hot tracking is enabled, call SystemParametersInfo.helpviewer_keywords: ["ListView_SetHotCursor","ListView_SetHotCursor macro [Windows Controls]","_win32_ListView_SetHotCursor","_win32_ListView_SetHotCursor_cpp","commctrl/ListView_SetHotCursor","controls.ListView_SetHotCursor","controls._win32_ListView_SetHotCursor"]
+description: Sets the HCURSOR that the list-view control uses when the pointer is over an item while hot tracking is enabled. You can use this macro or send the LVM_SETHOTCURSOR message explicitly. To check whether hot tracking is enabled, call SystemParametersInfo.
+helpviewer_keywords: ["ListView_SetHotCursor","ListView_SetHotCursor macro [Windows Controls]","_win32_ListView_SetHotCursor","_win32_ListView_SetHotCursor_cpp","commctrl/ListView_SetHotCursor","controls.ListView_SetHotCursor","controls._win32_ListView_SetHotCursor"]
 old-location: controls\ListView_SetHotCursor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_sethotcursor.htm

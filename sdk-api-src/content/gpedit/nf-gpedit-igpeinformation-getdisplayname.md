@@ -1,7 +1,8 @@
 ---
 UID: NF:gpedit.IGPEInformation.GetDisplayName
 title: IGPEInformation::GetDisplayName (gpedit.h)
-description: The GetDisplayName method retrieves the display name for the GPO.helpviewer_keywords: ["GetDisplayName","GetDisplayName method [Group Policy]","GetDisplayName method [Group Policy]","IGPEInformation interface","IGPEInformation interface [Group Policy]","GetDisplayName method","IGPEInformation.GetDisplayName","IGPEInformation::GetDisplayName","_win32_igpeinformation_getdisplayname","gpedit/IGPEInformation::GetDisplayName","policy.igpeinformation_getdisplayname"]
+description: The GetDisplayName method retrieves the display name for the GPO.
+helpviewer_keywords: ["GetDisplayName","GetDisplayName method [Group Policy]","GetDisplayName method [Group Policy]","IGPEInformation interface","IGPEInformation interface [Group Policy]","GetDisplayName method","IGPEInformation.GetDisplayName","IGPEInformation::GetDisplayName","_win32_igpeinformation_getdisplayname","gpedit/IGPEInformation::GetDisplayName","policy.igpeinformation_getdisplayname"]
 old-location: policy\igpeinformation_getdisplayname.htm
 tech.root: Policy
 ms.assetid: 3c1a43a5-5d16-4abc-85e0-1eeace2ee086

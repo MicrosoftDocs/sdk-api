@@ -1,7 +1,8 @@
 ---
 UID: NN:inputpanelconfiguration.IInputPanelConfiguration
 title: IInputPanelConfiguration (inputpanelconfiguration.h)
-description: Provides functionality for desktop apps to opt in to the focus tracking mechanism used in Windows Store apps.helpviewer_keywords: ["IInputPanelConfiguration","IInputPanelConfiguration interface [Windows Shell]","IInputPanelConfiguration interface [Windows Shell]","described","inputpanelconfiguration/IInputPanelConfiguration","shell.iinputpanelconfiguration"]
+description: Provides functionality for desktop apps to opt in to the focus tracking mechanism used in Windows Store apps.
+helpviewer_keywords: ["IInputPanelConfiguration","IInputPanelConfiguration interface [Windows Shell]","IInputPanelConfiguration interface [Windows Shell]","described","inputpanelconfiguration/IInputPanelConfiguration","shell.iinputpanelconfiguration"]
 old-location: shell\iinputpanelconfiguration.htm
 tech.root: shell
 ms.assetid: 81E54703-095E-4810-A8A0-2ACBE7F3D634

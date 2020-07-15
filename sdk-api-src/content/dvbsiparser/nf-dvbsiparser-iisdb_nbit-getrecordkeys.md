@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_NBIT.GetRecordKeys
 title: IISDB_NBIT::GetRecordKeys (dvbsiparser.h)
-description: Gets the number_of_keys field from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).helpviewer_keywords: ["GetRecordKeys","GetRecordKeys method [Microsoft TV Technologies]","GetRecordKeys method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetRecordKeys method","IISDB_NBIT.GetRecordKeys","IISDB_NBIT::GetRecordKeys","dvbsiparser/IISDB_NBIT::GetRecordKeys","mstv.iisdb_nbit_getrecordkeys"]
+description: Gets the number_of_keys field from a record in an Integrated Services Digital Broadcasting (ISDB) network broadcaster information table (NBIT).
+helpviewer_keywords: ["GetRecordKeys","GetRecordKeys method [Microsoft TV Technologies]","GetRecordKeys method [Microsoft TV Technologies]","IISDB_NBIT interface","IISDB_NBIT interface [Microsoft TV Technologies]","GetRecordKeys method","IISDB_NBIT.GetRecordKeys","IISDB_NBIT::GetRecordKeys","dvbsiparser/IISDB_NBIT::GetRecordKeys","mstv.iisdb_nbit_getrecordkeys"]
 old-location: mstv\iisdb_nbit_getrecordkeys.htm
 tech.root: mstv
 ms.assetid: c8f58c17-b3b1-4fc8-b6e0-2ab23681280d

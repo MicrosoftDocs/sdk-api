@@ -77,6 +77,7 @@ If this method succeeds, it returns S_OK. Otherwise, it returns an HRESULT error
 
 ## -remarks
 
+
 Before implementing an event handler, you should be familiar with the threading issues described in [Understanding Threading Issues](/windows/desktop/WinAuto/uiauto-threading).
 
 Active text position is indicated by a navigation event within or between read-only text elements (such as web browsers, Portable Document Format (PDF) documents, or [EPUB](https://en.wikipedia.org/wiki/EPUB) documents) using  bookmarks (or fragment identifiers to refer to a location within a resource). Examples include:

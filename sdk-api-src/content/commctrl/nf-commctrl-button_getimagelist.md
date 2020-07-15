@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.Button_GetImageList
 title: Button_GetImageList macro (commctrl.h)
-description: Gets the BUTTON_IMAGELIST structure that describes the image list that is set for a button control. You can use this macro or send the BCM_GETIMAGELIST message explicitly.helpviewer_keywords: ["Button_GetImageList","Button_GetImageList macro [Windows Controls]","_win32_Button_GetImageList","_win32_Button_GetImageList_cpp","commctrl/Button_GetImageList","controls.Button_GetImageList","controls._win32_Button_GetImageList"]
+description: Gets the BUTTON_IMAGELIST structure that describes the image list that is set for a button control. You can use this macro or send the BCM_GETIMAGELIST message explicitly.
+helpviewer_keywords: ["Button_GetImageList","Button_GetImageList macro [Windows Controls]","_win32_Button_GetImageList","_win32_Button_GetImageList_cpp","commctrl/Button_GetImageList","controls.Button_GetImageList","controls._win32_Button_GetImageList"]
 old-location: controls\Button_GetImageList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\buttons\buttonreference\buttonmacros\button_getimagelist.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.ISmimeCapability
 title: ISmimeCapability (certenroll.h)
-description: Represents an SMIMECapabilities extension that identifies the decryption capabilities of an email recipient.helpviewer_keywords: ["ISmimeCapability","ISmimeCapability interface [Security]","ISmimeCapability interface [Security]","described","certenroll/ISmimeCapability","security.ismimecapability"]
+description: Represents an SMIMECapabilities extension that identifies the decryption capabilities of an email recipient.
+helpviewer_keywords: ["ISmimeCapability","ISmimeCapability interface [Security]","ISmimeCapability interface [Security]","described","certenroll/ISmimeCapability","security.ismimecapability"]
 old-location: security\ismimecapability.htm
 tech.root: seccertenroll
 ms.assetid: 3cfbb16f-88fa-41f1-b719-cd5e8ad636cc

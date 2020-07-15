@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecpkg._SECPKG_TARGETINFO
 title: SECPKG_TARGETINFO (ntsecpkg.h)
-description: Specifies the target of an authentication request.helpviewer_keywords: ["*PSECPKG_TARGETINFO","PSECPKG_TARGETINFO","PSECPKG_TARGETINFO structure pointer [Security]","SECPKG_TARGETINFO","SECPKG_TARGETINFO structure [Security]","ntsecpkg/PSECPKG_TARGETINFO","ntsecpkg/SECPKG_TARGETINFO","security.secpkg_targetinfo"]
+description: Specifies the target of an authentication request.
+helpviewer_keywords: ["*PSECPKG_TARGETINFO","PSECPKG_TARGETINFO","PSECPKG_TARGETINFO structure pointer [Security]","SECPKG_TARGETINFO","SECPKG_TARGETINFO structure [Security]","ntsecpkg/PSECPKG_TARGETINFO","ntsecpkg/SECPKG_TARGETINFO","security.secpkg_targetinfo"]
 old-location: security\secpkg_targetinfo.htm
 tech.root: SecAuthN
 ms.assetid: c8d4ac70-743b-42b1-940c-d3d37a6174bc

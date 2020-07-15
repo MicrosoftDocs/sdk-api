@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetOpacity
 title: IXpsOMVisual::SetOpacity (xpsobjectmodel.h)
-description: Sets the opacity value of the visual.helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetOpacity method","IXpsOMVisual.SetOpacity","IXpsOMVisual::SetOpacity","SetOpacity","SetOpacity method [XPS Documents and Packaging]","SetOpacity method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_setopacity","xpsobjectmodel/IXpsOMVisual::SetOpacity"]
+description: Sets the opacity value of the visual.
+helpviewer_keywords: ["IXpsOMVisual interface [XPS Documents and Packaging]","SetOpacity method","IXpsOMVisual.SetOpacity","IXpsOMVisual::SetOpacity","SetOpacity","SetOpacity method [XPS Documents and Packaging]","SetOpacity method [XPS Documents and Packaging]","IXpsOMVisual interface","xps.ixpsomvisual_setopacity","xpsobjectmodel/IXpsOMVisual::SetOpacity"]
 old-location: xps\ixpsomvisual_setopacity.htm
 tech.root: printdocs
 ms.assetid: 2a29aee3-f11b-41e7-a871-3be3d5994409

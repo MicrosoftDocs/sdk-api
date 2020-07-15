@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetTransportAudioParameters
 title: IAMExtTransport::SetTransportAudioParameters (strmif.h)
-description: The SetTransportAudioParameters assigns audio parameter settings for external transport.helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","SetTransportAudioParameters method","IAMExtTransport.SetTransportAudioParameters","IAMExtTransport::SetTransportAudioParameters","IAMExtTransportSetTransportAudioParameters","SetTransportAudioParameters","SetTransportAudioParameters method [DirectShow]","SetTransportAudioParameters method [DirectShow]","IAMExtTransport interface","dshow.iamexttransport_settransportaudioparameters","strmif/IAMExtTransport::SetTransportAudioParameters"]
+description: The SetTransportAudioParameters assigns audio parameter settings for external transport.
+helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","SetTransportAudioParameters method","IAMExtTransport.SetTransportAudioParameters","IAMExtTransport::SetTransportAudioParameters","IAMExtTransportSetTransportAudioParameters","SetTransportAudioParameters","SetTransportAudioParameters method [DirectShow]","SetTransportAudioParameters method [DirectShow]","IAMExtTransport interface","dshow.iamexttransport_settransportaudioparameters","strmif/IAMExtTransport::SetTransportAudioParameters"]
 old-location: dshow\iamexttransport_settransportaudioparameters.htm
 tech.root: DirectShow
 ms.assetid: e013dd73-7276-48b3-bf5f-ffb4b3d49419

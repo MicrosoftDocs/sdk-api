@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.MakeDragList
 title: MakeDragList function (commctrl.h)
-description: Changes the specified single-selection list box to a drag list box.helpviewer_keywords: ["MakeDragList","MakeDragList function [Windows Controls]","_win32_MakeDragList","_win32_MakeDragList_cpp","commctrl/MakeDragList","controls.MakeDragList","controls._win32_MakeDragList"]
+description: Changes the specified single-selection list box to a drag list box.
+helpviewer_keywords: ["MakeDragList","MakeDragList function [Windows Controls]","_win32_MakeDragList","_win32_MakeDragList_cpp","commctrl/MakeDragList","controls.MakeDragList","controls._win32_MakeDragList"]
 old-location: controls\MakeDragList.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\draglb\functions\makedraglist.htm

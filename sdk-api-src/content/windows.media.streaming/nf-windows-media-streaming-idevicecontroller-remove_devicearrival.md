@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IDeviceController.remove_DeviceArrival
 title: IDeviceController::streaming (windows.media.streaming.h)
-description: Unregisters an event handler for the DeviceArrival event.helpviewer_keywords: ["IDeviceController interface [Media Streaming API]","remove_DeviceArrival method","IDeviceController.remove_DeviceArrival","IDeviceController.streaming","IDeviceController::remove_DeviceArrival","IDeviceController::streaming","mediastreaming.idevicecontroller_remove_devicearrival","remove_DeviceArrival","remove_DeviceArrival method [Media Streaming API]","remove_DeviceArrival method [Media Streaming API]","IDeviceController interface","windows/IDeviceController::remove_DeviceArrival"]
+description: Unregisters an event handler for the DeviceArrival event.
+helpviewer_keywords: ["IDeviceController interface [Media Streaming API]","remove_DeviceArrival method","IDeviceController.remove_DeviceArrival","IDeviceController.streaming","IDeviceController::remove_DeviceArrival","IDeviceController::streaming","mediastreaming.idevicecontroller_remove_devicearrival","remove_DeviceArrival","remove_DeviceArrival method [Media Streaming API]","remove_DeviceArrival method [Media Streaming API]","IDeviceController interface","windows/IDeviceController::remove_DeviceArrival"]
 old-location: mediastreaming\idevicecontroller_remove_devicearrival.htm
 tech.root: mediastreaming
 ms.assetid: D1026B13-627C-4FD4-A402-C05E42CF3DCF

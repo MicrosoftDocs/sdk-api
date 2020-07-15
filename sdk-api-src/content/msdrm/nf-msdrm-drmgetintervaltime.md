@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMGetIntervalTime
 title: DRMGetIntervalTime function (msdrm.h)
-description: Retrieves the number of days from issuance that can pass before an end&#8211;user license must be renewed.helpviewer_keywords: ["DRMGetIntervalTime","DRMGetIntervalTime function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetIntervalTime","rm.drmgetintervaltime"]
+description: Retrieves the number of days from issuance that can pass before an end–user license must be renewed.
+helpviewer_keywords: ["DRMGetIntervalTime","DRMGetIntervalTime function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMGetIntervalTime","rm.drmgetintervaltime"]
 old-location: rm\drmgetintervaltime.htm
 tech.root: AdRms_Sdk
 ms.assetid: 681791b1-caeb-46ef-8cae-c93d46a6729e

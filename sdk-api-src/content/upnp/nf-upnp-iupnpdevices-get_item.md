@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPDevices.get_Item
 title: IUPnPDevices::get_Item (upnp.h)
-description: The Item property specifies the IUPnPDevice interface for a device, identified by the UDN, in the collection.helpviewer_keywords: ["IUPnPDevices interface [UPnP APIs]","get_Item method","IUPnPDevices.get_Item","IUPnPDevices::get_Item","_upnp_iupnpdevices_item","get_Item","get_Item method [UPnP APIs]","get_Item method [UPnP APIs]","IUPnPDevices interface","upnp.iupnpdevices_item","upnp/IUPnPDevices::get_Item"]
+description: The Item property specifies the IUPnPDevice interface for a device, identified by the UDN, in the collection.
+helpviewer_keywords: ["IUPnPDevices interface [UPnP APIs]","get_Item method","IUPnPDevices.get_Item","IUPnPDevices::get_Item","_upnp_iupnpdevices_item","get_Item","get_Item method [UPnP APIs]","get_Item method [UPnP APIs]","IUPnPDevices interface","upnp.iupnpdevices_item","upnp/IUPnPDevices::get_Item"]
 old-location: upnp\iupnpdevices_item.htm
 tech.root: upnp
 ms.assetid: 38648c9c-6d5a-4215-9270-fd1f893fa360

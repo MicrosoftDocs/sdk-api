@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo2.GetCodecName
 title: IWMCodecInfo2::GetCodecName (wmsdkidl.h)
-description: The GetCodecName method retrieves the name of a specified codec.helpviewer_keywords: ["GetCodecName","GetCodecName method [windows Media Format]","GetCodecName method [windows Media Format]","IWMCodecInfo2 interface","IWMCodecInfo2 interface [windows Media Format]","GetCodecName method","IWMCodecInfo2.GetCodecName","IWMCodecInfo2::GetCodecName","IWMCodecInfo2GetCodecName","wmformat.iwmcodecinfo2_getcodecname","wmsdkidl/IWMCodecInfo2::GetCodecName"]
+description: The GetCodecName method retrieves the name of a specified codec.
+helpviewer_keywords: ["GetCodecName","GetCodecName method [windows Media Format]","GetCodecName method [windows Media Format]","IWMCodecInfo2 interface","IWMCodecInfo2 interface [windows Media Format]","GetCodecName method","IWMCodecInfo2.GetCodecName","IWMCodecInfo2::GetCodecName","IWMCodecInfo2GetCodecName","wmformat.iwmcodecinfo2_getcodecname","wmsdkidl/IWMCodecInfo2::GetCodecName"]
 old-location: wmformat\iwmcodecinfo2_getcodecname.htm
 tech.root: wmformat
 ms.assetid: 4ec4e242-9726-4fac-8867-cb4b13c4cbdc

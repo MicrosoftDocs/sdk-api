@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCore.get_cdromCollection
 title: IWMPCore::get_cdromCollection (wmp.h)
-description: The get_cdromCollection method retrieves a pointer to an IWMPCdromCollection interface.helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_cdromCollection method","IWMPCore.get_cdromCollection","IWMPCore::get_cdromCollection","IWMPCoreget_cdromCollection","get_cdromCollection","get_cdromCollection method [Windows Media Player]","get_cdromCollection method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_get_cdromcollection","wmp/IWMPCore::get_cdromCollection"]
+description: The get_cdromCollection method retrieves a pointer to an IWMPCdromCollection interface.
+helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_cdromCollection method","IWMPCore.get_cdromCollection","IWMPCore::get_cdromCollection","IWMPCoreget_cdromCollection","get_cdromCollection","get_cdromCollection method [Windows Media Player]","get_cdromCollection method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_get_cdromcollection","wmp/IWMPCore::get_cdromCollection"]
 old-location: wmp\iwmpcore_get_cdromcollection.htm
 tech.root: WMP
 ms.assetid: 6bb6500e-7a30-400b-a88b-7ee3596501b1

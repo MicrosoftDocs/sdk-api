@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d10effect.ID3D10EffectPass
 title: ID3D10EffectPass (d3d10effect.h)
-description: A pass interface encapsulates state assignments within a technique.helpviewer_keywords: ["5cb1e1c5-e0ab-9620-8166-f4d77be0bd73","ID3D10EffectPass","ID3D10EffectPass interface [Direct3D 10]","ID3D10EffectPass interface [Direct3D 10]","described","d3d10effect/ID3D10EffectPass","direct3d10.id3d10effectpass"]
+description: A pass interface encapsulates state assignments within a technique.
+helpviewer_keywords: ["5cb1e1c5-e0ab-9620-8166-f4d77be0bd73","ID3D10EffectPass","ID3D10EffectPass interface [Direct3D 10]","ID3D10EffectPass interface [Direct3D 10]","described","d3d10effect/ID3D10EffectPass","direct3d10.id3d10effectpass"]
 old-location: direct3d10\id3d10effectpass.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpass.htm

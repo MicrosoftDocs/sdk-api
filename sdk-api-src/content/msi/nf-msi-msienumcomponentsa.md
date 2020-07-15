@@ -1,7 +1,8 @@
 ---
 UID: NF:msi.MsiEnumComponentsA
 title: MsiEnumComponentsA function (msi.h)
-description: The MsiEnumComponents function enumerates the installed components for all products. This function retrieves one component code each time it is called.helpviewer_keywords: ["MsiEnumComponents","MsiEnumComponents function","MsiEnumComponentsA","MsiEnumComponentsW","_msi_msienumcomponents","msi/MsiEnumComponents","msi/MsiEnumComponentsA","msi/MsiEnumComponentsW","setup.msienumcomponents"]
+description: The MsiEnumComponents function enumerates the installed components for all products. This function retrieves one component code each time it is called.
+helpviewer_keywords: ["MsiEnumComponents","MsiEnumComponents function","MsiEnumComponentsA","MsiEnumComponentsW","_msi_msienumcomponents","msi/MsiEnumComponents","msi/MsiEnumComponentsA","msi/MsiEnumComponentsW","setup.msienumcomponents"]
 old-location: setup\msienumcomponents.htm
 tech.root: Msi
 ms.assetid: 8ca07b2a-7616-4b0d-be3e-3e500172e5ab
@@ -159,6 +160,10 @@ When making multiple calls to
 
 
 
+
+
+> [!NOTE]
+> The msi.h header defines MsiEnumComponents as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

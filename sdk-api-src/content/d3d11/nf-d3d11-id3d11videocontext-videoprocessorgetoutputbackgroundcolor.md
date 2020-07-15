@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11VideoContext.VideoProcessorGetOutputBackgroundColor
 title: ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor (d3d11.h)
-description: Gets the current background color for the video processor.helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetOutputBackgroundColor method","ID3D11VideoContext.VideoProcessorGetOutputBackgroundColor","ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor","VideoProcessorGetOutputBackgroundColor","VideoProcessorGetOutputBackgroundColor method [Media Foundation]","VideoProcessorGetOutputBackgroundColor method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor","mf.id3d11videocontext_videoprocessorgetoutputbackgroundcolor"]
+description: Gets the current background color for the video processor.
+helpviewer_keywords: ["ID3D11VideoContext interface [Media Foundation]","VideoProcessorGetOutputBackgroundColor method","ID3D11VideoContext.VideoProcessorGetOutputBackgroundColor","ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor","VideoProcessorGetOutputBackgroundColor","VideoProcessorGetOutputBackgroundColor method [Media Foundation]","VideoProcessorGetOutputBackgroundColor method [Media Foundation]","ID3D11VideoContext interface","d3d11/ID3D11VideoContext::VideoProcessorGetOutputBackgroundColor","mf.id3d11videocontext_videoprocessorgetoutputbackgroundcolor"]
 old-location: mf\id3d11videocontext_videoprocessorgetoutputbackgroundcolor.htm
 tech.root: medfound
 ms.assetid: B22666BC-EADF-4812-B299-1EA45F1943C4

@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetRecordProgramNumber
 title: IATSC_VCT::GetRecordProgramNumber (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetRecordProgramNumber","GetRecordProgramNumber method [Microsoft TV Technologies]","GetRecordProgramNumber method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordProgramNumber method","IATSC_VCT.GetRecordProgramNumber","IATSC_VCT::GetRecordProgramNumber","IATSC_VCTGetRecordProgramNumber","atscpsipparser/IATSC_VCT::GetRecordProgramNumber","mstv.iatsc_vct_getrecordprogramnumber"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetRecordProgramNumber","GetRecordProgramNumber method [Microsoft TV Technologies]","GetRecordProgramNumber method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetRecordProgramNumber method","IATSC_VCT.GetRecordProgramNumber","IATSC_VCT::GetRecordProgramNumber","IATSC_VCTGetRecordProgramNumber","atscpsipparser/IATSC_VCT::GetRecordProgramNumber","mstv.iatsc_vct_getrecordprogramnumber"]
 old-location: mstv\iatsc_vct_getrecordprogramnumber.htm
 tech.root: mstv
 ms.assetid: 11bf3b27-98da-4f4f-a6a9-6c69b20aedda

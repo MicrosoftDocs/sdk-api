@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFMediaBuffer.GetCurrentLength
 title: IMFMediaBuffer::GetCurrentLength (mfobjects.h)
-description: Retrieves the length of the valid data in the buffer.helpviewer_keywords: ["772e3e6c-0616-41f6-a681-d76da97d85fb","GetCurrentLength","GetCurrentLength method [Media Foundation]","GetCurrentLength method [Media Foundation]","IMFMediaBuffer interface","IMFMediaBuffer interface [Media Foundation]","GetCurrentLength method","IMFMediaBuffer.GetCurrentLength","IMFMediaBuffer::GetCurrentLength","mf.imfmediabuffer_getcurrentlength","mfobjects/IMFMediaBuffer::GetCurrentLength"]
+description: Retrieves the length of the valid data in the buffer.
+helpviewer_keywords: ["772e3e6c-0616-41f6-a681-d76da97d85fb","GetCurrentLength","GetCurrentLength method [Media Foundation]","GetCurrentLength method [Media Foundation]","IMFMediaBuffer interface","IMFMediaBuffer interface [Media Foundation]","GetCurrentLength method","IMFMediaBuffer.GetCurrentLength","IMFMediaBuffer::GetCurrentLength","mf.imfmediabuffer_getcurrentlength","mfobjects/IMFMediaBuffer::GetCurrentLength"]
 old-location: mf\imfmediabuffer_getcurrentlength.htm
 tech.root: medfound
 ms.assetid: 772e3e6c-0616-41f6-a681-d76da97d85fb

@@ -1,7 +1,8 @@
 ---
 UID: NF:mmiscapi.DrvGetModuleHandle
 title: DrvGetModuleHandle function (mmiscapi.h)
-description: Retrieves the instance handle of the module that contains the installable driver. This function is provided for compatibility with previous versions of Windows.helpviewer_keywords: ["DrvGetModuleHandle","DrvGetModuleHandle function [Windows Multimedia]","_win32_DrvGetModuleHandle","mmsystem/DrvGetModuleHandle","multimedia.drvgetmodulehandle"]
+description: Retrieves the instance handle of the module that contains the installable driver. This function is provided for compatibility with previous versions of Windows.
+helpviewer_keywords: ["DrvGetModuleHandle","DrvGetModuleHandle function [Windows Multimedia]","_win32_DrvGetModuleHandle","mmsystem/DrvGetModuleHandle","multimedia.drvgetmodulehandle"]
 old-location: multimedia\drvgetmodulehandle.htm
 tech.root: Multimedia
 ms.assetid: 77246a9f-15fa-48a7-a4a8-9f7579b195c7

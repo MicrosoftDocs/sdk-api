@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit.hyphresult
 title: HYPHRESULT (richedit.h)
-description: Contains information about the result of hyphenation in a Microsoft Rich Edit control.helpviewer_keywords: ["HYPHRESULT","HYPHRESULT structure [Windows Controls]","_win32_HYPHRESULT_str","_win32_HYPHRESULT_str_cpp","controls.HYPHRESULT","controls._win32_HYPHRESULT_str","richedit/HYPHRESULT"]
+description: Contains information about the result of hyphenation in a Microsoft Rich Edit control.
+helpviewer_keywords: ["HYPHRESULT","HYPHRESULT structure [Windows Controls]","_win32_HYPHRESULT_str","_win32_HYPHRESULT_str_cpp","controls.HYPHRESULT","controls._win32_HYPHRESULT_str","richedit/HYPHRESULT"]
 old-location: controls\HYPHRESULT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\hyphresult.htm

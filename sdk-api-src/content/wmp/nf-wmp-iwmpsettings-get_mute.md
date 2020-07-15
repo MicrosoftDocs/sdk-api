@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPSettings.get_mute
 title: IWMPSettings::get_mute (wmp.h)
-description: The get_mute method retrieves a value indicating whether audio is muted.helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","get_mute method","IWMPSettings.get_mute","IWMPSettings::get_mute","IWMPSettingsget_mute","get_mute","get_mute method [Windows Media Player]","get_mute method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_get_mute","wmp/IWMPSettings::get_mute"]
+description: The get_mute method retrieves a value indicating whether audio is muted.
+helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","get_mute method","IWMPSettings.get_mute","IWMPSettings::get_mute","IWMPSettingsget_mute","get_mute","get_mute method [Windows Media Player]","get_mute method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_get_mute","wmp/IWMPSettings::get_mute"]
 old-location: wmp\iwmpsettings_get_mute.htm
 tech.root: WMP
 ms.assetid: b0bb1c84-d208-4d29-a797-bb18af039f03

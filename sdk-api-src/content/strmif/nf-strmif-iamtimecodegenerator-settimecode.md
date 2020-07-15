@@ -88,8 +88,6 @@ To set only timecode, set userbit value to <b>NULL</b>, and vice versa. If gener
 ## -see-also
 
 
-
-
 <a href="/windows/desktop/DirectShow/error-and-success-codes">Error and Success Codes</a>
 
 
@@ -99,7 +97,4 @@ To set only timecode, set userbit value to <b>NULL</b>, and vice versa. If gener
 
 
 <a href="/windows/desktop/api/strmif/nf-strmif-iamtimecodegenerator-gettimecode">IAMTimecodeGenerator::GetTimecode</a>
- 
-
- 
 

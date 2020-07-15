@@ -1,7 +1,8 @@
 ---
 UID: NF:gpedit.DeleteAllGPOLinks
 title: DeleteAllGPOLinks function (gpedit.h)
-description: The DeleteAllGPOLinks function deletes all GPO links for the specified site, domain, or organizational unit.helpviewer_keywords: ["DeleteAllGPOLinks","DeleteAllGPOLinks function [Group Policy]","_win32_deleteallgpolinks","gpedit/DeleteAllGPOLinks","policy.deleteallgpolinks"]
+description: The DeleteAllGPOLinks function deletes all GPO links for the specified site, domain, or organizational unit.
+helpviewer_keywords: ["DeleteAllGPOLinks","DeleteAllGPOLinks function [Group Policy]","_win32_deleteallgpolinks","gpedit/DeleteAllGPOLinks","policy.deleteallgpolinks"]
 old-location: policy\deleteallgpolinks.htm
 tech.root: Policy
 ms.assetid: 164b1d10-9ec0-43c8-80fe-be1ad8ec991f

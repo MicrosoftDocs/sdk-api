@@ -1,7 +1,8 @@
 ---
 UID: NS:d2d1.D2D1_FACTORY_OPTIONS
 title: D2D1_FACTORY_OPTIONS (d2d1.h)
-description: Contains the debugging level of an ID2D1Factory object.helpviewer_keywords: ["D2D1_FACTORY_OPTIONS","D2D1_FACTORY_OPTIONS structure [Direct2D]","d2d1/D2D1_FACTORY_OPTIONS","direct2d.D2D1_FACTORY_OPTIONS"]
+description: Contains the debugging level of an ID2D1Factory object.
+helpviewer_keywords: ["D2D1_FACTORY_OPTIONS","D2D1_FACTORY_OPTIONS structure [Direct2D]","d2d1/D2D1_FACTORY_OPTIONS","direct2d.D2D1_FACTORY_OPTIONS"]
 old-location: direct2d\D2D1_FACTORY_OPTIONS.htm
 tech.root: Direct2D
 ms.assetid: 2765d34e-978c-4121-82c9-2780d54e2850

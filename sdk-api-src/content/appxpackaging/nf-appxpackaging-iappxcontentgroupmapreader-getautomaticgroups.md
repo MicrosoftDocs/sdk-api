@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxContentGroupMapReader.GetAutomaticGroups
 title: IAppxContentGroupMapReader::GetAutomaticGroups (appxpackaging.h)
-description: Gets the automatic content group(s) from the content group map.helpviewer_keywords: ["GetAutomaticGroups","GetAutomaticGroups method [App packaging and management]","GetAutomaticGroups method [App packaging and management]","IAppxContentGroupMapReader interface","IAppxContentGroupMapReader interface [App packaging and management]","GetAutomaticGroups method","IAppxContentGroupMapReader.GetAutomaticGroups","IAppxContentGroupMapReader::GetAutomaticGroups","appxpackaging/IAppxContentGroupMapReader::GetAutomaticGroups","appxpkg.iappxcontentgroupmapreader_getautomaticgroups"]
+description: Gets the automatic content group(s) from the content group map.
+helpviewer_keywords: ["GetAutomaticGroups","GetAutomaticGroups method [App packaging and management]","GetAutomaticGroups method [App packaging and management]","IAppxContentGroupMapReader interface","IAppxContentGroupMapReader interface [App packaging and management]","GetAutomaticGroups method","IAppxContentGroupMapReader.GetAutomaticGroups","IAppxContentGroupMapReader::GetAutomaticGroups","appxpackaging/IAppxContentGroupMapReader::GetAutomaticGroups","appxpkg.iappxcontentgroupmapreader_getautomaticgroups"]
 old-location: appxpkg\iappxcontentgroupmapreader_getautomaticgroups.htm
 tech.root: appxpkg
 ms.assetid: 3A5FE3A2-8D0D-4073-94FE-B0AC5DBF2D25

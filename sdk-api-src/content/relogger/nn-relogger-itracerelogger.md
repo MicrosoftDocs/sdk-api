@@ -1,7 +1,8 @@
 ---
 UID: NN:relogger.ITraceRelogger
 title: ITraceRelogger (relogger.h)
-description: Provides access to the relogging functionality, allowing you to manipulate and relog events from an ETW trace stream.helpviewer_keywords: ["ITraceRelogger","ITraceRelogger interface [ETW]","ITraceRelogger interface [ETW]","described","etw.itracerelogger","relogger/ITraceRelogger"]
+description: Provides access to the relogging functionality, allowing you to manipulate and relog events from an ETW trace stream.
+helpviewer_keywords: ["ITraceRelogger","ITraceRelogger interface [ETW]","ITraceRelogger interface [ETW]","described","etw.itracerelogger","relogger/ITraceRelogger"]
 old-location: etw\itracerelogger.htm
 tech.root: ETW
 ms.assetid: 08073b9a-5ae0-4e88-a502-647567418005

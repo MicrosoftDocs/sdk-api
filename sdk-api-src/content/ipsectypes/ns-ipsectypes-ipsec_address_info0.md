@@ -1,7 +1,8 @@
 ---
 UID: NS:ipsectypes.IPSEC_ADDRESS_INFO0_
 title: IPSEC_ADDRESS_INFO0 (ipsectypes.h)
-description: Is used to store mobile additional address information.helpviewer_keywords: ["IPSEC_ADDRESS_INFO0","IPSEC_ADDRESS_INFO0 structure [Filtering]","fwp.ipsec_address_info0","ipsectypes/IPSEC_ADDRESS_INFO0"]
+description: Is used to store mobile additional address information.
+helpviewer_keywords: ["IPSEC_ADDRESS_INFO0","IPSEC_ADDRESS_INFO0 structure [Filtering]","fwp.ipsec_address_info0","ipsectypes/IPSEC_ADDRESS_INFO0"]
 old-location: fwp\ipsec_address_info0.htm
 tech.root: fwp
 ms.assetid: ad6a271f-6513-44ac-aa9a-14811b32a06b

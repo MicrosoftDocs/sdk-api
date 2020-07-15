@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxEncryptedBundleWriter3.AddExternalPackageReference
 title: IAppxEncryptedBundleWriter3::AddExternalPackageReference (appxpackaging.h)
-description: Adds a reference within the encrypted package bundle to an external app package.helpviewer_keywords: ["AddExternalPackageReference","AddExternalPackageReference method [App packaging and management]","AddExternalPackageReference method [App packaging and management]","IAppxEncryptedBundleWriter3 interface","IAppxEncryptedBundleWriter3 interface [App packaging and management]","AddExternalPackageReference method","IAppxEncryptedBundleWriter3.AddExternalPackageReference","IAppxEncryptedBundleWriter3::AddExternalPackageReference","appxpackaging/IAppxEncryptedBundleWriter3::AddExternalPackageReference","appxpkg.iappxencryptedbundlewriter3_addexternalpackagereference"]
+description: Adds a reference within the encrypted package bundle to an external app package.
+helpviewer_keywords: ["AddExternalPackageReference","AddExternalPackageReference method [App packaging and management]","AddExternalPackageReference method [App packaging and management]","IAppxEncryptedBundleWriter3 interface","IAppxEncryptedBundleWriter3 interface [App packaging and management]","AddExternalPackageReference method","IAppxEncryptedBundleWriter3.AddExternalPackageReference","IAppxEncryptedBundleWriter3::AddExternalPackageReference","appxpackaging/IAppxEncryptedBundleWriter3::AddExternalPackageReference","appxpkg.iappxencryptedbundlewriter3_addexternalpackagereference"]
 old-location: appxpkg\iappxencryptedbundlewriter3_addexternalpackagereference.htm
 tech.root: appxpkg
 ms.assetid: 8441BE5B-1393-4B92-BADC-F1A4EA60B73F

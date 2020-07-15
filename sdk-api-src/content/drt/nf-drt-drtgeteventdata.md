@@ -1,7 +1,8 @@
 ---
 UID: NF:drt.DrtGetEventData
 title: DrtGetEventData function (drt.h)
-description: DrtGetEventData function retrieves event data associated with a signaled event.helpviewer_keywords: ["DrtGetEventData","DrtGetEventData function [Peer Networking]","drt/DrtGetEventData","p2p.drtgeteventdata"]
+description: DrtGetEventData function retrieves event data associated with a signaled event.
+helpviewer_keywords: ["DrtGetEventData","DrtGetEventData function [Peer Networking]","drt/DrtGetEventData","p2p.drtgeteventdata"]
 old-location: p2p\drtgeteventdata.htm
 tech.root: P2PSdk
 ms.assetid: 94ed3028-0bd1-449b-9902-7dbae4a70ec1

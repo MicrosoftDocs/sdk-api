@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineDevSpecific
 title: TSPI_lineDevSpecific function (tspi.h)
-description: The TSPI_lineDevSpecific function is used as a general extension mechanism to enable service providers to provide access to features not described in other operations.helpviewer_keywords: ["TSPI_lineDevSpecific","TSPI_lineDevSpecific function [TAPI 2.2]","_tspi_tspi_linedevspecific","tspi.tspi_linedevspecific","tspi/TSPI_lineDevSpecific"]
+description: The TSPI_lineDevSpecific function is used as a general extension mechanism to enable service providers to provide access to features not described in other operations.
+helpviewer_keywords: ["TSPI_lineDevSpecific","TSPI_lineDevSpecific function [TAPI 2.2]","_tspi_tspi_linedevspecific","tspi.tspi_linedevspecific","tspi/TSPI_lineDevSpecific"]
 old-location: tspi\tspi_linedevspecific.htm
 tech.root: Tapi
 ms.assetid: 16510976-6fa6-4e48-837a-98f94d4e1342

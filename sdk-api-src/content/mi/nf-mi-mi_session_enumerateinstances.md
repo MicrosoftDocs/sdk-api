@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Session_EnumerateInstances
 title: MI_Session_EnumerateInstances function (mi.h)
-description: Enumerate all instances (on the server represented by the session) that are associated with a class.helpviewer_keywords: ["MI_Session_EnumerateInstances","MI_Session_EnumerateInstances function [Windows Management Infrastructure (MI)]","mi/MI_Session_EnumerateInstances","wmi_v2.mi_session_enumerateinstances"]
+description: Enumerate all instances (on the server represented by the session) that are associated with a class.
+helpviewer_keywords: ["MI_Session_EnumerateInstances","MI_Session_EnumerateInstances function [Windows Management Infrastructure (MI)]","mi/MI_Session_EnumerateInstances","wmi_v2.mi_session_enumerateinstances"]
 old-location: wmi_v2\mi_session_enumerateinstances.htm
 tech.root: wmi_v2
 ms.assetid: a8d98dda-77a0-494d-ade2-adc1f4d8c551

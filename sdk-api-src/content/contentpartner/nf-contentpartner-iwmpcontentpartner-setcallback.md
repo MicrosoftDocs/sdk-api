@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentPartner.SetCallback
 title: IWMPContentPartner::SetCallback (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPContentPartner interface [Windows Media Player]","SetCallback method","IWMPContentPartner.SetCallback","IWMPContentPartner::SetCallback","IWMPContentPartnerSetCallback","SetCallback","SetCallback method [Windows Media Player]","SetCallback method [Windows Media Player]","IWMPContentPartner interface","contentpartner/IWMPContentPartner::SetCallback","wmp.iwmpcontentpartner_setcallback"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["IWMPContentPartner interface [Windows Media Player]","SetCallback method","IWMPContentPartner.SetCallback","IWMPContentPartner::SetCallback","IWMPContentPartnerSetCallback","SetCallback","SetCallback method [Windows Media Player]","SetCallback method [Windows Media Player]","IWMPContentPartner interface","contentpartner/IWMPContentPartner::SetCallback","wmp.iwmpcontentpartner_setcallback"]
 old-location: wmp\iwmpcontentpartner_setcallback.htm
 tech.root: WMP
 ms.assetid: eb3b0c68-b071-476c-ab14-e4ee34bc9044

@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMTVGETINFOTIPA
 title: NMTVGETINFOTIPA (commctrl.h)
-description: Contains and receives tree-view item information needed to display a tooltip for an item. This structure is used with the TVN_GETINFOTIP notification code.helpviewer_keywords: ["*LPNMTVGETINFOTIPA","LPNMTVGETINFOTIP","LPNMTVGETINFOTIP structure pointer [Windows Controls]","NMTVGETINFOTIP","NMTVGETINFOTIP structure [Windows Controls]","NMTVGETINFOTIPA","NMTVGETINFOTIPW","_win32_NMTVGETINFOTIP","_win32_NMTVGETINFOTIP_cpp","commctrl/LPNMTVGETINFOTIP","commctrl/NMTVGETINFOTIP","commctrl/NMTVGETINFOTIPA","commctrl/NMTVGETINFOTIPW","controls.NMTVGETINFOTIP","controls._win32_NMTVGETINFOTIP"]
+description: Contains and receives tree-view item information needed to display a tooltip for an item. This structure is used with the TVN_GETINFOTIP notification code.
+helpviewer_keywords: ["*LPNMTVGETINFOTIPA","LPNMTVGETINFOTIP","LPNMTVGETINFOTIP structure pointer [Windows Controls]","NMTVGETINFOTIP","NMTVGETINFOTIP structure [Windows Controls]","NMTVGETINFOTIPA","NMTVGETINFOTIPW","_win32_NMTVGETINFOTIP","_win32_NMTVGETINFOTIP_cpp","commctrl/LPNMTVGETINFOTIP","commctrl/NMTVGETINFOTIP","commctrl/NMTVGETINFOTIPA","commctrl/NMTVGETINFOTIPW","controls.NMTVGETINFOTIP","controls._win32_NMTVGETINFOTIP"]
 old-location: controls\NMTVGETINFOTIP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\structures\nmtvgetinfotip.htm
@@ -95,4 +96,9 @@ Tree handle to the item for which the tooltip is being displayed.
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">LPARAM</a></b>
 
 Application-defined data associated with the item for which the tooltip is being displayed. 
+
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines NMTVGETINFOTIP as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

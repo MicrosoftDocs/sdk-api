@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectImpl.GetInputSourceBounds
 title: IMILBitmapEffectImpl::GetInputSourceBounds (mileffects.h)
-description: Gets the bounds of the input source.helpviewer_keywords: ["GetInputSourceBounds","GetInputSourceBounds method [WPF Bitmap Effects]","GetInputSourceBounds method [WPF Bitmap Effects]","IMILBitmapEffectImpl interface","IMILBitmapEffectImpl interface [WPF Bitmap Effects]","GetInputSourceBounds method","IMILBitmapEffectImpl.GetInputSourceBounds","IMILBitmapEffectImpl::GetInputSourceBounds","_wibe_imilbitmapeffectimpl_getinputsourcebounds","mileffects/IMILBitmapEffectImpl::GetInputSourceBounds","wibe._wibe_imilbitmapeffectimpl_getinputsourcebounds"]
+description: Gets the bounds of the input source.
+helpviewer_keywords: ["GetInputSourceBounds","GetInputSourceBounds method [WPF Bitmap Effects]","GetInputSourceBounds method [WPF Bitmap Effects]","IMILBitmapEffectImpl interface","IMILBitmapEffectImpl interface [WPF Bitmap Effects]","GetInputSourceBounds method","IMILBitmapEffectImpl.GetInputSourceBounds","IMILBitmapEffectImpl::GetInputSourceBounds","_wibe_imilbitmapeffectimpl_getinputsourcebounds","mileffects/IMILBitmapEffectImpl::GetInputSourceBounds","wibe._wibe_imilbitmapeffectimpl_getinputsourcebounds"]
 old-location: wibe\_wibe_imilbitmapeffectimpl_getinputsourcebounds.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectimpl\getinputsourcebounds.htm

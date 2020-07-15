@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetVarDocString
 title: ICreateTypeInfo::SetVarDocString (oaidl.h)
-description: Sets the documentation string for the variable with the specified index.helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetVarDocString method","ICreateTypeInfo.SetVarDocString","ICreateTypeInfo::SetVarDocString","SetVarDocString","SetVarDocString method [Automation]","SetVarDocString method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetVarDocString","automat.icreatetypeinfo_setvardocstring","oaidl/ICreateTypeInfo::SetVarDocString"]
+description: Sets the documentation string for the variable with the specified index.
+helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetVarDocString method","ICreateTypeInfo.SetVarDocString","ICreateTypeInfo::SetVarDocString","SetVarDocString","SetVarDocString method [Automation]","SetVarDocString method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetVarDocString","automat.icreatetypeinfo_setvardocstring","oaidl/ICreateTypeInfo::SetVarDocString"]
 old-location: automat\icreatetypeinfo_setvardocstring.htm
 tech.root: automat
 ms.assetid: 6bea2b52-30d8-454c-ad96-f94417640ce5

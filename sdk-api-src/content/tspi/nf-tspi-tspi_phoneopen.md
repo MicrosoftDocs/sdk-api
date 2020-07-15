@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_phoneOpen
 title: TSPI_phoneOpen function (tspi.h)
-description: The TSPI_phoneOpen function opens the phone device whose device identifier is given, returning the service provider's opaque handle for the device and retaining TAPI's opaque handle for the device for use in subsequent calls to the PHONEEVENT procedure.helpviewer_keywords: ["TSPI_phoneOpen","TSPI_phoneOpen function [TAPI 2.2]","_tspi_tspi_phoneopen","tspi.tspi_phoneopen","tspi/TSPI_phoneOpen"]
+description: The TSPI_phoneOpen function opens the phone device whose device identifier is given, returning the service provider's opaque handle for the device and retaining TAPI's opaque handle for the device for use in subsequent calls to the PHONEEVENT procedure.
+helpviewer_keywords: ["TSPI_phoneOpen","TSPI_phoneOpen function [TAPI 2.2]","_tspi_tspi_phoneopen","tspi.tspi_phoneopen","tspi/TSPI_phoneOpen"]
 old-location: tspi\tspi_phoneopen.htm
 tech.root: Tapi
 ms.assetid: e2a4372f-62ff-488c-94a7-ed44388b8092

@@ -1,7 +1,8 @@
 ---
 UID: NN:tsvirtualchannels.IWTSListenerCallback
 title: IWTSListenerCallback (tsvirtualchannels.h)
-description: Used to notify the Remote Desktop Connection (RDC) client plug-in about incoming requests on a particular listener.helpviewer_keywords: ["IWTSListenerCallback","IWTSListenerCallback interface [Remote Desktop Services]","IWTSListenerCallback interface [Remote Desktop Services]","described","termserv.iwtslistenercallback","tsvirtualchannels/IWTSListenerCallback"]
+description: Used to notify the Remote Desktop Connection (RDC) client plug-in about incoming requests on a particular listener.
+helpviewer_keywords: ["IWTSListenerCallback","IWTSListenerCallback interface [Remote Desktop Services]","IWTSListenerCallback interface [Remote Desktop Services]","described","termserv.iwtslistenercallback","tsvirtualchannels/IWTSListenerCallback"]
 old-location: termserv\iwtslistenercallback.htm
 tech.root: TermServ
 ms.assetid: b5f1d74d-31e6-4447-82ab-6dd3ad9957fd

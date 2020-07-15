@@ -1,7 +1,8 @@
 ---
 UID: NF:certview.IEnumCERTVIEWCOLUMN.Reset
 title: IEnumCERTVIEWCOLUMN::Reset (certview.h)
-description: Moves to the beginning of the column-enumeration sequence.helpviewer_keywords: ["IEnumCERTVIEWCOLUMN interface [Security]","Reset method","IEnumCERTVIEWCOLUMN object [Security]","Reset method","IEnumCERTVIEWCOLUMN.Reset","IEnumCERTVIEWCOLUMN::Reset","Reset","Reset method [Security]","Reset method [Security]","IEnumCERTVIEWCOLUMN interface","Reset method [Security]","IEnumCERTVIEWCOLUMN object","_certsrv_ienumcertviewcolumn_reset","certview/IEnumCERTVIEWCOLUMN::Reset","security.ienumcertviewcolumn_reset"]
+description: Moves to the beginning of the column-enumeration sequence.
+helpviewer_keywords: ["IEnumCERTVIEWCOLUMN interface [Security]","Reset method","IEnumCERTVIEWCOLUMN object [Security]","Reset method","IEnumCERTVIEWCOLUMN.Reset","IEnumCERTVIEWCOLUMN::Reset","Reset","Reset method [Security]","Reset method [Security]","IEnumCERTVIEWCOLUMN interface","Reset method [Security]","IEnumCERTVIEWCOLUMN object","_certsrv_ienumcertviewcolumn_reset","certview/IEnumCERTVIEWCOLUMN::Reset","security.ienumcertviewcolumn_reset"]
 old-location: security\ienumcertviewcolumn_reset.htm
 tech.root: SecCrypto
 ms.assetid: 0be00eb0-1a22-4849-95ca-276099bbfa74

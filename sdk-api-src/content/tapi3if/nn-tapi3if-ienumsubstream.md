@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3if.IEnumSubStream
 title: IEnumSubStream (tapi3if.h)
-description: The IEnumSubStream interface provides COM-standard enumeration methods for the ITSubStream interface. The ITSubStreamControl::EnumerateSubStreams method returns a pointer to IEnumSubStream.helpviewer_keywords: ["IEnumSubStream","IEnumSubStream interface [TAPI 2.2]","IEnumSubStream interface [TAPI 2.2]","described","_tapi3_ienumsubstream","tapi3.ienumsubstream","tapi3if/IEnumSubStream"]
+description: The IEnumSubStream interface provides COM-standard enumeration methods for the ITSubStream interface. The ITSubStreamControl::EnumerateSubStreams method returns a pointer to IEnumSubStream.
+helpviewer_keywords: ["IEnumSubStream","IEnumSubStream interface [TAPI 2.2]","IEnumSubStream interface [TAPI 2.2]","described","_tapi3_ienumsubstream","tapi3.ienumsubstream","tapi3if/IEnumSubStream"]
 old-location: tapi3\ienumsubstream.htm
 tech.root: Tapi
 ms.assetid: d9076a32-983e-48d4-b025-5fc770156df6

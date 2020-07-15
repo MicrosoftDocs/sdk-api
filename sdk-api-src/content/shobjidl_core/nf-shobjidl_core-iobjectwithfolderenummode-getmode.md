@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IObjectWithFolderEnumMode.GetMode
 title: IObjectWithFolderEnumMode::GetMode (shobjidl_core.h)
-description: Retrieves the enumeration mode of the parsed item.helpviewer_keywords: ["GetMode","GetMode method [Windows Shell]","GetMode method [Windows Shell]","IObjectWithFolderEnumMode interface","IObjectWithFolderEnumMode interface [Windows Shell]","GetMode method","IObjectWithFolderEnumMode.GetMode","IObjectWithFolderEnumMode::GetMode","_shell_IObjectWithFolderEnumMode_GetMode","shell.IObjectWithFolderEnumMode_GetMode","shobjidl_core/IObjectWithFolderEnumMode::GetMode"]
+description: Retrieves the enumeration mode of the parsed item.
+helpviewer_keywords: ["GetMode","GetMode method [Windows Shell]","GetMode method [Windows Shell]","IObjectWithFolderEnumMode interface","IObjectWithFolderEnumMode interface [Windows Shell]","GetMode method","IObjectWithFolderEnumMode.GetMode","IObjectWithFolderEnumMode::GetMode","_shell_IObjectWithFolderEnumMode_GetMode","shell.IObjectWithFolderEnumMode_GetMode","shobjidl_core/IObjectWithFolderEnumMode::GetMode"]
 old-location: shell\IObjectWithFolderEnumMode_GetMode.htm
 tech.root: shell
 ms.assetid: 5d331255-2295-4f7b-b2d6-1238edcc15bb

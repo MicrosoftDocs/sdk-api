@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetSelectedCount
 title: ListView_GetSelectedCount macro (commctrl.h)
-description: Determines the number of selected items in a list-view control. You can use this macro or send the LVM_GETSELECTEDCOUNT message explicitly.helpviewer_keywords: ["ListView_GetSelectedCount","ListView_GetSelectedCount macro [Windows Controls]","_win32_ListView_GetSelectedCount","_win32_ListView_GetSelectedCount_cpp","commctrl/ListView_GetSelectedCount","controls.ListView_GetSelectedCount","controls._win32_ListView_GetSelectedCount"]
+description: Determines the number of selected items in a list-view control. You can use this macro or send the LVM_GETSELECTEDCOUNT message explicitly.
+helpviewer_keywords: ["ListView_GetSelectedCount","ListView_GetSelectedCount macro [Windows Controls]","_win32_ListView_GetSelectedCount","_win32_ListView_GetSelectedCount_cpp","commctrl/ListView_GetSelectedCount","controls.ListView_GetSelectedCount","controls._win32_ListView_GetSelectedCount"]
 old-location: controls\ListView_GetSelectedCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getselectedcount.htm

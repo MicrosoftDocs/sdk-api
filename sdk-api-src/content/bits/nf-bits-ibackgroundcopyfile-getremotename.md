@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyFile.GetRemoteName
 title: IBackgroundCopyFile::GetRemoteName (bits.h)
-description: Retrieves the remote name of the file.helpviewer_keywords: ["GetRemoteName","GetRemoteName method [BITS]","GetRemoteName method [BITS]","IBackgroundCopyFile interface","IBackgroundCopyFile interface [BITS]","GetRemoteName method","IBackgroundCopyFile.GetRemoteName","IBackgroundCopyFile::GetRemoteName","_drz_ibackgroundcopyfile_getremotename","bits.ibackgroundcopyfile_getremotename","bits/IBackgroundCopyFile::GetRemoteName"]
+description: Retrieves the remote name of the file.
+helpviewer_keywords: ["GetRemoteName","GetRemoteName method [BITS]","GetRemoteName method [BITS]","IBackgroundCopyFile interface","IBackgroundCopyFile interface [BITS]","GetRemoteName method","IBackgroundCopyFile.GetRemoteName","IBackgroundCopyFile::GetRemoteName","_drz_ibackgroundcopyfile_getremotename","bits.ibackgroundcopyfile_getremotename","bits/IBackgroundCopyFile::GetRemoteName"]
 old-location: bits\ibackgroundcopyfile_getremotename.htm
 tech.root: Bits
 ms.assetid: b6b1b1dc-776e-4369-bd39-d159e4edfe38

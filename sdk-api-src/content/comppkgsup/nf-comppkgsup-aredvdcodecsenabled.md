@@ -1,7 +1,8 @@
 ---
 UID: NF:comppkgsup.AreDvdCodecsEnabled
 title: AreDvdCodecsEnabled function (comppkgsup.h)
-description: Returns a value indicating whether DVD codecs are enabled on the current device.helpviewer_keywords: ["AreDvdCodecsEnabled","AreDvdCodecsEnabled function [Windows API]","comppkgsup/AreDvdCodecsEnabled","winprog.aredvdcodecsenabled"]
+description: Returns a value indicating whether DVD codecs are enabled on the current device.
+helpviewer_keywords: ["AreDvdCodecsEnabled","AreDvdCodecsEnabled function [Windows API]","comppkgsup/AreDvdCodecsEnabled","winprog.aredvdcodecsenabled"]
 old-location: winprog\aredvdcodecsenabled.htm
 tech.root: DevNotes
 ms.assetid: 706476D1-B372-4C51-8534-0085A4735D4C

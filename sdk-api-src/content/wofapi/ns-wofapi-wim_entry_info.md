@@ -1,7 +1,8 @@
 ---
 UID: NS:wofapi._WIM_ENTRY_INFO
 title: WIM_ENTRY_INFO (wofapi.h)
-description: Defines metadata specific to each WIM data source hosted on a volume.helpviewer_keywords: ["*PWIM_ENTRY_INFO","PWIM_ENTRY_INFO","PWIM_ENTRY_INFO structure pointer [Files]","WIM_ENTRY_INFO","WIM_ENTRY_INFO structure [Files]","fs.wim_entry_info","wofapi/PWIM_ENTRY_INFO","wofapi/WIM_ENTRY_INFO"]
+description: Defines metadata specific to each WIM data source hosted on a volume.
+helpviewer_keywords: ["*PWIM_ENTRY_INFO","PWIM_ENTRY_INFO","PWIM_ENTRY_INFO structure pointer [Files]","WIM_ENTRY_INFO","WIM_ENTRY_INFO structure [Files]","fs.wim_entry_info","wofapi/PWIM_ENTRY_INFO","wofapi/WIM_ENTRY_INFO"]
 old-location: fs\wim_entry_info.htm
 tech.root: FileIO
 ms.assetid: 2631B8AC-22B6-410A-AF3C-6D81FEECFB61

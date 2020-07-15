@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrEventStore.GetEventEnumerator
 title: ISyncMgrEventStore::GetEventEnumerator (syncmgr.h)
-description: Gets an enumerator for a handler's events.helpviewer_keywords: ["GetEventEnumerator","GetEventEnumerator method [Windows Shell]","GetEventEnumerator method [Windows Shell]","ISyncMgrEventStore interface","ISyncMgrEventStore interface [Windows Shell]","GetEventEnumerator method","ISyncMgrEventStore.GetEventEnumerator","ISyncMgrEventStore::GetEventEnumerator","_shell_ISyncMgrEventStore_GetEventEnumerator","shell.ISyncMgrEventStore_GetEventEnumerator","syncmgr/ISyncMgrEventStore::GetEventEnumerator"]
+description: Gets an enumerator for a handler's events.
+helpviewer_keywords: ["GetEventEnumerator","GetEventEnumerator method [Windows Shell]","GetEventEnumerator method [Windows Shell]","ISyncMgrEventStore interface","ISyncMgrEventStore interface [Windows Shell]","GetEventEnumerator method","ISyncMgrEventStore.GetEventEnumerator","ISyncMgrEventStore::GetEventEnumerator","_shell_ISyncMgrEventStore_GetEventEnumerator","shell.ISyncMgrEventStore_GetEventEnumerator","syncmgr/ISyncMgrEventStore::GetEventEnumerator"]
 old-location: shell\ISyncMgrEventStore_GetEventEnumerator.htm
 tech.root: shell
 ms.assetid: 8b634811-cb6d-47b2-b534-1baea23a5297

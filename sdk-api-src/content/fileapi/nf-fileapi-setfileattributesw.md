@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.SetFileAttributesW
 title: SetFileAttributesW function (fileapi.h)
-description: Sets the attributes for a file or directory.helpviewer_keywords: ["FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_COMPRESSED","FILE_ATTRIBUTE_DEVICE","FILE_ATTRIBUTE_DIRECTORY","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_NOT_CONTENT_INDEXED","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_REPARSE_POINT","FILE_ATTRIBUTE_SPARSE_FILE","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","SetFileAttributes","SetFileAttributes function [Files]","SetFileAttributesA","SetFileAttributesW","_win32_setfileattributes","base.setfileattributes","fileapi/SetFileAttributes","fileapi/SetFileAttributesA","fileapi/SetFileAttributesW","fs.setfileattributes","winbase/SetFileAttributes","winbase/SetFileAttributesA","winbase/SetFileAttributesW"]
+description: Sets the attributes for a file or directory.
+helpviewer_keywords: ["FILE_ATTRIBUTE_ARCHIVE","FILE_ATTRIBUTE_COMPRESSED","FILE_ATTRIBUTE_DEVICE","FILE_ATTRIBUTE_DIRECTORY","FILE_ATTRIBUTE_ENCRYPTED","FILE_ATTRIBUTE_HIDDEN","FILE_ATTRIBUTE_NORMAL","FILE_ATTRIBUTE_NOT_CONTENT_INDEXED","FILE_ATTRIBUTE_OFFLINE","FILE_ATTRIBUTE_READONLY","FILE_ATTRIBUTE_REPARSE_POINT","FILE_ATTRIBUTE_SPARSE_FILE","FILE_ATTRIBUTE_SYSTEM","FILE_ATTRIBUTE_TEMPORARY","SetFileAttributes","SetFileAttributes function [Files]","SetFileAttributesA","SetFileAttributesW","_win32_setfileattributes","base.setfileattributes","fileapi/SetFileAttributes","fileapi/SetFileAttributesA","fileapi/SetFileAttributesW","fs.setfileattributes","winbase/SetFileAttributes","winbase/SetFileAttributesA","winbase/SetFileAttributesW"]
 old-location: fs\setfileattributes.htm
 tech.root: FileIO
 ms.assetid: 3d5400c3-555f-44fc-9470-52a36d04d90b
@@ -387,6 +388,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines SetFileAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

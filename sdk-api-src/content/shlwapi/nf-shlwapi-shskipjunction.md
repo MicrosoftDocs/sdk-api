@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHSkipJunction
 title: SHSkipJunction function (shlwapi.h)
-description: Checks a bind context to see if it is safe to bind to a particular component object.helpviewer_keywords: ["SHSkipJunction","SHSkipJunction function [Windows Shell]","_win32_SHSkipJunction","shell.SHSkipJunction","shlwapi/SHSkipJunction"]
+description: Checks a bind context to see if it is safe to bind to a particular component object.
+helpviewer_keywords: ["SHSkipJunction","SHSkipJunction function [Windows Shell]","_win32_SHSkipJunction","shell.SHSkipJunction","shlwapi/SHSkipJunction"]
 old-location: shell\SHSkipJunction.htm
 tech.root: shell
 ms.assetid: 73af64a4-57eb-43db-91bb-75fe7134ad28

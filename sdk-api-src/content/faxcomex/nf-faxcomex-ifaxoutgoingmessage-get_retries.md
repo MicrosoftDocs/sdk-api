@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingMessage.get_Retries
 title: IFaxOutgoingMessage::get_Retries (faxcomex.h)
-description: The IFaxOutgoingMessage::get_Retries property is a value that indicates the number of times that the fax service attempted to transmit an outgoing fax after the initial transmission attempt failed.helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","Retries property","IFaxOutgoingMessage.Retries","IFaxOutgoingMessage.get_Retries","IFaxOutgoingMessage::Retries","IFaxOutgoingMessage::get_Retries","Retries property [Fax Service]","Retries property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.retries","fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_retries_cpp","fax._mfax_faxoutgoingmessage_retries","faxcomex/IFaxOutgoingMessage::Retries","faxcomex/IFaxOutgoingMessage::get_Retries","get_Retries"]
+description: The IFaxOutgoingMessage::get_Retries property is a value that indicates the number of times that the fax service attempted to transmit an outgoing fax after the initial transmission attempt failed.
+helpviewer_keywords: ["IFaxOutgoingMessage interface [Fax Service]","Retries property","IFaxOutgoingMessage.Retries","IFaxOutgoingMessage.get_Retries","IFaxOutgoingMessage::Retries","IFaxOutgoingMessage::get_Retries","Retries property [Fax Service]","Retries property [Fax Service]","IFaxOutgoingMessage interface","_mfax_faxoutgoingmessage.retries","fax._mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_retries_cpp","fax._mfax_faxoutgoingmessage_retries","faxcomex/IFaxOutgoingMessage::Retries","faxcomex/IFaxOutgoingMessage::get_Retries","get_Retries"]
 old-location: fax\_mfax_faxoutgoingmessage_cpp_mfax_faxoutgoingmessage_retries_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_7dir.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFolderView2.SetGroupBy
 title: IFolderView2::SetGroupBy (shobjidl_core.h)
-description: Groups the view by the given property key and direction.helpviewer_keywords: ["IFolderView2 interface [Windows Shell]","SetGroupBy method","IFolderView2.SetGroupBy","IFolderView2::SetGroupBy","SetGroupBy","SetGroupBy method [Windows Shell]","SetGroupBy method [Windows Shell]","IFolderView2 interface","_shell_IFolderView2_SetGroupBy","shell.IFolderView2_SetGroupBy","shobjidl_core/IFolderView2::SetGroupBy"]
+description: Groups the view by the given property key and direction.
+helpviewer_keywords: ["IFolderView2 interface [Windows Shell]","SetGroupBy method","IFolderView2.SetGroupBy","IFolderView2::SetGroupBy","SetGroupBy","SetGroupBy method [Windows Shell]","SetGroupBy method [Windows Shell]","IFolderView2 interface","_shell_IFolderView2_SetGroupBy","shell.IFolderView2_SetGroupBy","shobjidl_core/IFolderView2::SetGroupBy"]
 old-location: shell\IFolderView2_SetGroupBy.htm
 tech.root: shell
 ms.assetid: 2d0761cb-7c81-48f7-994d-6dd61062d848

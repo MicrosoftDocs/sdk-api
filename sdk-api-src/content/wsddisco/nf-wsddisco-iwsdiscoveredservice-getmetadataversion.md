@@ -1,7 +1,8 @@
 ---
 UID: NF:wsddisco.IWSDiscoveredService.GetMetadataVersion
 title: IWSDiscoveredService::GetMetadataVersion (wsddisco.h)
-description: Retrieves the metadata version of this message.helpviewer_keywords: ["GetMetadataVersion","GetMetadataVersion method","GetMetadataVersion method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetMetadataVersion method","IWSDiscoveredService.GetMetadataVersion","IWSDiscoveredService::GetMetadataVersion","ncd.iwsdiscoveredservice_getmetadataversion","wsddisco/IWSDiscoveredService::GetMetadataVersion"]
+description: Retrieves the metadata version of this message.
+helpviewer_keywords: ["GetMetadataVersion","GetMetadataVersion method","GetMetadataVersion method","IWSDiscoveredService interface","IWSDiscoveredService interface","GetMetadataVersion method","IWSDiscoveredService.GetMetadataVersion","IWSDiscoveredService::GetMetadataVersion","ncd.iwsdiscoveredservice_getmetadataversion","wsddisco/IWSDiscoveredService::GetMetadataVersion"]
 old-location: ncd\iwsdiscoveredservice_getmetadataversion.htm
 tech.root: WsdApi
 ms.assetid: ce0d463e-6455-48cc-b01f-6aa93fd628b6

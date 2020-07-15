@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IEnumMoniker.Next
 title: IEnumMoniker::Next (objidl.h)
-description: Retrieves the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumMoniker interface [COM]","Next method","IEnumMoniker.Next","IEnumMoniker::Next","Next","Next method [COM]","Next method [COM]","IEnumMoniker interface","_ole_ienummoniker_next","com.ienummoniker_next","objidl/IEnumMoniker::Next"]
+description: Retrieves the specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumMoniker interface [COM]","Next method","IEnumMoniker.Next","IEnumMoniker::Next","Next","Next method [COM]","Next method [COM]","IEnumMoniker interface","_ole_ienummoniker_next","com.ienummoniker_next","objidl/IEnumMoniker::Next"]
 old-location: com\ienummoniker_next.htm
 tech.root: com
 ms.assetid: ab4fd626-bddc-42b4-b279-b89d1f79b1e1

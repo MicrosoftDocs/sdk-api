@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluspath.PathGradientBrush.ResetTransform
 title: PathGradientBrush::ResetTransform (gdipluspath.h)
-description: The PathGradientBrush::ResetTransform method resets the transformation matrix of this path gradient brush to the identity matrix. This means that no transformation will take place.helpviewer_keywords: ["PathGradientBrush class [GDI+]","ResetTransform method","PathGradientBrush.ResetTransform","PathGradientBrush::ResetTransform","ResetTransform","ResetTransform method [GDI+]","ResetTransform method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_ResetTransform_","gdiplus._gdiplus_CLASS_PathGradientBrush_ResetTransform_"]
+description: The PathGradientBrush::ResetTransform method resets the transformation matrix of this path gradient brush to the identity matrix. This means that no transformation will take place.
+helpviewer_keywords: ["PathGradientBrush class [GDI+]","ResetTransform method","PathGradientBrush.ResetTransform","PathGradientBrush::ResetTransform","ResetTransform","ResetTransform method [GDI+]","ResetTransform method [GDI+]","PathGradientBrush class","_gdiplus_CLASS_PathGradientBrush_ResetTransform_","gdiplus._gdiplus_CLASS_PathGradientBrush_ResetTransform_"]
 old-location: gdiplus\_gdiplus_CLASS_PathGradientBrush_ResetTransform_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pathgradientbrushclass\pathgradientbrushmethods\resettransform_69.htm

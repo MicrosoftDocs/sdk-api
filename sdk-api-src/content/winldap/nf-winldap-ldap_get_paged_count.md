@@ -79,7 +79,6 @@ The total pages in the search results.
 A pointer to the 
 <a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a> structure that contains the results of the operation.
 
-
 ## -returns
 
 
@@ -113,9 +112,7 @@ If you call
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/ldap/functions">Functions</a>
 
 
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winldap/ns-winldap-ldapmessage">LDAPMessage</a>
-
 
 
 <a href="https://docs.microsoft.com/previous-versions/windows/desktop/legacy/aa366129(v=vs.85)">LDAPSearch</a>

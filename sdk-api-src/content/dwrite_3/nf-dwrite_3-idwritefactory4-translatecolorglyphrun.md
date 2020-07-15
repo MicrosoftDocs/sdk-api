@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory4.TranslateColorGlyphRun
 title: IDWriteFactory4::TranslateColorGlyphRun (dwrite_3.h)
-description: Translates a glyph run to a sequence of color glyph runs, which can be rendered to produce a color representation of the original &#0034;base&#0034; run.helpviewer_keywords: ["IDWriteFactory4 interface [Direct Write]","TranslateColorGlyphRun method","IDWriteFactory4.TranslateColorGlyphRun","IDWriteFactory4::TranslateColorGlyphRun","TranslateColorGlyphRun","TranslateColorGlyphRun method [Direct Write]","TranslateColorGlyphRun method [Direct Write]","IDWriteFactory4 interface","directwrite.idwritefactory4_translatecolorglyphrun","dwrite_3/IDWriteFactory4::TranslateColorGlyphRun"]
+description: Translates a glyph run to a sequence of color glyph runs, which can be rendered to produce a color representation of the original &quot;base&quot; run.
+helpviewer_keywords: ["IDWriteFactory4 interface [Direct Write]","TranslateColorGlyphRun method","IDWriteFactory4.TranslateColorGlyphRun","IDWriteFactory4::TranslateColorGlyphRun","TranslateColorGlyphRun","TranslateColorGlyphRun method [Direct Write]","TranslateColorGlyphRun method [Direct Write]","IDWriteFactory4 interface","directwrite.idwritefactory4_translatecolorglyphrun","dwrite_3/IDWriteFactory4::TranslateColorGlyphRun"]
 old-location: directwrite\idwritefactory4_translatecolorglyphrun.htm
 tech.root: DirectWrite
 ms.assetid: D8C38635-8D7B-4C05-87D5-CCDCF31A4070

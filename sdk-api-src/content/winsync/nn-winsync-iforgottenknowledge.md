@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.IForgottenKnowledge
 title: IForgottenKnowledge (winsync.h)
-description: Represents knowledge that has been forgotten because of tombstone cleanup.helpviewer_keywords: ["IForgottenKnowledge","IForgottenKnowledge interface [Windows Sync]","IForgottenKnowledge interface [Windows Sync]","described","winsync.iforgottenknowledge","winsync/IForgottenKnowledge"]
+description: Represents knowledge that has been forgotten because of tombstone cleanup.
+helpviewer_keywords: ["IForgottenKnowledge","IForgottenKnowledge interface [Windows Sync]","IForgottenKnowledge interface [Windows Sync]","described","winsync.iforgottenknowledge","winsync/IForgottenKnowledge"]
 old-location: winsync\iforgottenknowledge.htm
 tech.root: winsync
 ms.assetid: 93185921-8f41-4222-86d8-602d197c4b33

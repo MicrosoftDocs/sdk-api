@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.GetDesiredPacketDescription
 title: IRealTimeStylus::GetDesiredPacketDescription (rtscom.h)
-description: Retrieves the list of properties that have been requested to be included in the packet stream.helpviewer_keywords: ["8799eb17-8ad0-49c1-a278-40b3bff9d281","GetDesiredPacketDescription","GetDesiredPacketDescription method [Tablet PC]","GetDesiredPacketDescription method [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","GetDesiredPacketDescription method","IRealTimeStylus.GetDesiredPacketDescription","IRealTimeStylus::GetDesiredPacketDescription","rtscom/IRealTimeStylus::GetDesiredPacketDescription","tablet.irealtimestylus_getdesiredpacketdescription"]
+description: Retrieves the list of properties that have been requested to be included in the packet stream.
+helpviewer_keywords: ["8799eb17-8ad0-49c1-a278-40b3bff9d281","GetDesiredPacketDescription","GetDesiredPacketDescription method [Tablet PC]","GetDesiredPacketDescription method [Tablet PC]","IRealTimeStylus interface","IRealTimeStylus interface [Tablet PC]","GetDesiredPacketDescription method","IRealTimeStylus.GetDesiredPacketDescription","IRealTimeStylus::GetDesiredPacketDescription","rtscom/IRealTimeStylus::GetDesiredPacketDescription","tablet.irealtimestylus_getdesiredpacketdescription"]
 old-location: tablet\irealtimestylus_getdesiredpacketdescription.htm
 tech.root: tablet
 ms.assetid: 8799eb17-8ad0-49c1-a278-40b3bff9d281

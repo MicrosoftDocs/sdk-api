@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPEvents.MediaError
 title: IWMPEvents::MediaError (wmp.h)
-description: The MediaError event occurs when the Media object has an error condition.helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","MediaError method","IWMPEvents.MediaError","IWMPEvents::MediaError","IWMPEventsMediaError","MediaError","MediaError method [Windows Media Player]","MediaError method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__mediaerror","wmp/IWMPEvents::MediaError"]
+description: The MediaError event occurs when the Media object has an error condition.
+helpviewer_keywords: ["IWMPEvents interface [Windows Media Player]","MediaError method","IWMPEvents.MediaError","IWMPEvents::MediaError","IWMPEventsMediaError","MediaError","MediaError method [Windows Media Player]","MediaError method [Windows Media Player]","IWMPEvents interface","wmp.iwmpevents_iwmpevents__mediaerror","wmp/IWMPEvents::MediaError"]
 old-location: wmp\iwmpevents_iwmpevents__mediaerror.htm
 tech.root: WMP
 ms.assetid: 3c48ff94-01d6-492c-912c-ee74b619730b

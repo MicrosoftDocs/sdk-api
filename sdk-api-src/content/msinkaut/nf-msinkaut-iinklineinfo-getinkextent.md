@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkLineInfo.GetInkExtent
 title: IInkLineInfo::GetInkExtent (msinkaut.h)
-description: Specifies the display properties to set on the text ink object (tInk), and retrieves the width of the text ink object in HIMETRIC units.helpviewer_keywords: ["0082b7d3-61b2-478a-a6dd-ba59c20b7e1d","GetInkExtent","GetInkExtent method [Tablet PC]","GetInkExtent method [Tablet PC]","IInkLineInfo interface","IInkLineInfo interface [Tablet PC]","GetInkExtent method","IInkLineInfo.GetInkExtent","IInkLineInfo::GetInkExtent","msinkaut/IInkLineInfo::GetInkExtent","tablet.iinklineinfo_getinkextent"]
+description: Specifies the display properties to set on the text ink object (tInk), and retrieves the width of the text ink object in HIMETRIC units.
+helpviewer_keywords: ["0082b7d3-61b2-478a-a6dd-ba59c20b7e1d","GetInkExtent","GetInkExtent method [Tablet PC]","GetInkExtent method [Tablet PC]","IInkLineInfo interface","IInkLineInfo interface [Tablet PC]","GetInkExtent method","IInkLineInfo.GetInkExtent","IInkLineInfo::GetInkExtent","msinkaut/IInkLineInfo::GetInkExtent","tablet.iinklineinfo_getinkextent"]
 old-location: tablet\iinklineinfo_getinkextent.htm
 tech.root: tablet
 ms.assetid: 0082b7d3-61b2-478a-a6dd-ba59c20b7e1d

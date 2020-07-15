@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFontCollection.GetFontFamily
 title: IDWriteFontCollection::GetFontFamily (dwrite.h)
-description: Creates a font family object given a zero-based font family index.helpviewer_keywords: ["GetFontFamily","GetFontFamily method [Direct Write]","GetFontFamily method [Direct Write]","IDWriteFontCollection interface","IDWriteFontCollection interface [Direct Write]","GetFontFamily method","IDWriteFontCollection.GetFontFamily","IDWriteFontCollection::GetFontFamily","directwrite.IDWriteFontCollection_GetFontFamily","dwrite/IDWriteFontCollection::GetFontFamily"]
+description: Creates a font family object given a zero-based font family index.
+helpviewer_keywords: ["GetFontFamily","GetFontFamily method [Direct Write]","GetFontFamily method [Direct Write]","IDWriteFontCollection interface","IDWriteFontCollection interface [Direct Write]","GetFontFamily method","IDWriteFontCollection.GetFontFamily","IDWriteFontCollection::GetFontFamily","directwrite.IDWriteFontCollection_GetFontFamily","dwrite/IDWriteFontCollection::GetFontFamily"]
 old-location: directwrite\IDWriteFontCollection_GetFontFamily.htm
 tech.root: DirectWrite
 ms.assetid: 470c63cc-b50f-4b62-98c0-f7ce183bfcfd

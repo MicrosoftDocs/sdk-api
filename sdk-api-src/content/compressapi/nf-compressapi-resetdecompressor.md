@@ -1,7 +1,8 @@
 ---
 UID: NF:compressapi.ResetDecompressor
 title: ResetDecompressor function (compressapi.h)
-description: Prepares the decompressor for the decompression of a new stream.helpviewer_keywords: ["ResetDecompressor","ResetDecompressor function [Compression API]","cmpapi.resetdecompressor","compressapi/ResetDecompressor"]
+description: Prepares the decompressor for the decompression of a new stream.
+helpviewer_keywords: ["ResetDecompressor","ResetDecompressor function [Compression API]","cmpapi.resetdecompressor","compressapi/ResetDecompressor"]
 old-location: cmpapi\resetdecompressor.htm
 tech.root: cmpapi
 ms.assetid: 45243dac-bf07-4fee-aaf3-1482f4f009d9

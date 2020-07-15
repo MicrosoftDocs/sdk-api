@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CRL_DIST_POINT
 title: CRL_DIST_POINT (wincrypt.h)
-description: Identifies a single certificate revocation list (CRL) distribution point that a certificate user can reference to determine whether certificates have been revoked.helpviewer_keywords: ["*PCRL_DIST_POINT","CRL_DIST_POINT","CRL_DIST_POINT structure [Security]","PCRL_DIST_POINT","PCRL_DIST_POINT structure pointer [Security]","_crypto2_crl_dist_point","security.crl_dist_point","wincrypt/CRL_DIST_POINT","wincrypt/PCRL_DIST_POINT"]
+description: Identifies a single certificate revocation list (CRL) distribution point that a certificate user can reference to determine whether certificates have been revoked.
+helpviewer_keywords: ["*PCRL_DIST_POINT","CRL_DIST_POINT","CRL_DIST_POINT structure [Security]","PCRL_DIST_POINT","PCRL_DIST_POINT structure pointer [Security]","_crypto2_crl_dist_point","security.crl_dist_point","wincrypt/CRL_DIST_POINT","wincrypt/PCRL_DIST_POINT"]
 old-location: security\crl_dist_point.htm
 tech.root: SecCrypto
 ms.assetid: ec7ccc54-0aaa-4c32-8aa1-dcbaf59f9991

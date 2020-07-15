@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateMediaTypeFromRepresentation
 title: MFCreateMediaTypeFromRepresentation function (mfapi.h)
-description: Creates a Media Foundation media type from another format representation.helpviewer_keywords: ["5d85c47e-2e40-45f2-8f17-52f642652112","MFCreateMediaTypeFromRepresentation","MFCreateMediaTypeFromRepresentation function [Media Foundation]","mf.mfcreatemediatypefromrepresentation","mfapi/MFCreateMediaTypeFromRepresentation"]
+description: Creates a Media Foundation media type from another format representation.
+helpviewer_keywords: ["5d85c47e-2e40-45f2-8f17-52f642652112","MFCreateMediaTypeFromRepresentation","MFCreateMediaTypeFromRepresentation function [Media Foundation]","mf.mfcreatemediatypefromrepresentation","mfapi/MFCreateMediaTypeFromRepresentation"]
 old-location: mf\mfcreatemediatypefromrepresentation.htm
 tech.root: medfound
 ms.assetid: 5d85c47e-2e40-45f2-8f17-52f642652112

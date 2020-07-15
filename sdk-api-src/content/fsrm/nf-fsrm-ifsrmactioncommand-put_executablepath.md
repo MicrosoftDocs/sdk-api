@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrm.IFsrmActionCommand.put_ExecutablePath
 title: IFsrmActionCommand::put_ExecutablePath (fsrm.h)
-description: Retrieves or sets the full path to the executable program or script to run.helpviewer_keywords: ["ExecutablePath property [File Server Resource Manager]","ExecutablePath property [File Server Resource Manager]","IFsrmActionCommand interface","IFsrmActionCommand interface [File Server Resource Manager]","ExecutablePath property","IFsrmActionCommand.ExecutablePath","IFsrmActionCommand.put_ExecutablePath","IFsrmActionCommand::ExecutablePath","IFsrmActionCommand::get_ExecutablePath","IFsrmActionCommand::put_ExecutablePath","fs.ifsrmactioncommand_executablepath","fsrm.ifsrmactioncommand_executablepath","fsrm/IFsrmActionCommand::ExecutablePath","fsrm/IFsrmActionCommand::get_ExecutablePath","fsrm/IFsrmActionCommand::put_ExecutablePath","put_ExecutablePath"]
+description: Retrieves or sets the full path to the executable program or script to run.
+helpviewer_keywords: ["ExecutablePath property [File Server Resource Manager]","ExecutablePath property [File Server Resource Manager]","IFsrmActionCommand interface","IFsrmActionCommand interface [File Server Resource Manager]","ExecutablePath property","IFsrmActionCommand.ExecutablePath","IFsrmActionCommand.put_ExecutablePath","IFsrmActionCommand::ExecutablePath","IFsrmActionCommand::get_ExecutablePath","IFsrmActionCommand::put_ExecutablePath","fs.ifsrmactioncommand_executablepath","fsrm.ifsrmactioncommand_executablepath","fsrm/IFsrmActionCommand::ExecutablePath","fsrm/IFsrmActionCommand::get_ExecutablePath","fsrm/IFsrmActionCommand::put_ExecutablePath","put_ExecutablePath"]
 old-location: fsrm\ifsrmactioncommand_executablepath.htm
 tech.root: fsrm
 ms.assetid: c15b09e3-a8b6-4c73-82d7-8de7c2635f77

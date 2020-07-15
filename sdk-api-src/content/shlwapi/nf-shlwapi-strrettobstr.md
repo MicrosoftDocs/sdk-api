@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StrRetToBSTR
 title: StrRetToBSTR function (shlwapi.h)
-description: Accepts a STRRET structure returned by IShellFolder::GetDisplayNameOf that contains or points to a string, and returns that string as a BSTR.helpviewer_keywords: ["StrRetToBSTR","StrRetToBSTR function [Windows Shell]","_shell_StrRetToBSTR","shell.StrRetToBSTR","shlwapi/StrRetToBSTR"]
+description: Accepts a STRRET structure returned by IShellFolder::GetDisplayNameOf that contains or points to a string, and returns that string as a BSTR.
+helpviewer_keywords: ["StrRetToBSTR","StrRetToBSTR function [Windows Shell]","_shell_StrRetToBSTR","shell.StrRetToBSTR","shlwapi/StrRetToBSTR"]
 old-location: shell\StrRetToBSTR.htm
 tech.root: shell
 ms.assetid: 2a5a9a2b-74df-4521-a5b2-8fc91c3559eb

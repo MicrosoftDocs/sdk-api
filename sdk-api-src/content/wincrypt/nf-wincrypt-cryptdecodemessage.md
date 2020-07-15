@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptDecodeMessage
 title: CryptDecodeMessage function (wincrypt.h)
-description: Decodes, decrypts, and verifies a cryptographic message.helpviewer_keywords: ["CryptDecodeMessage","CryptDecodeMessage function [Security]","_crypto2_cryptdecodemessage","security.cryptdecodemessage","wincrypt/CryptDecodeMessage"]
+description: Decodes, decrypts, and verifies a cryptographic message.
+helpviewer_keywords: ["CryptDecodeMessage","CryptDecodeMessage function [Security]","_crypto2_cryptdecodemessage","security.cryptdecodemessage","wincrypt/CryptDecodeMessage"]
 old-location: security\cryptdecodemessage.htm
 tech.root: SecCrypto
 ms.assetid: 25ffd058-8f75-4ba5-b075-e3efc09f5d9d

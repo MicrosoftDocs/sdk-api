@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMU565.XMU565(uint8_t,uint8_t,uint8_t)
 title: XMU565::XMU565(uint8_t,uint8_t,uint8_t) (directxpackedvector.h)
-description: Initializes a new instance of XMU565 from three int8_t arguments.helpviewer_keywords: ["XMU565","XMU565 constructor [DirectX Math Support APIs]","XMU565 constructor [DirectX Math Support APIs]","XMU565 structure","XMU565 structure [DirectX Math Support APIs]","XMU565 constructor","XMU565.XMU565","XMU565.XMU565()","XMU565.XMU565(uint8_t","uint8_t","uint8_t)","XMU565::XMU565","XMU565::XMU565(uint8_t","uint8_t","uint8_t)","dxmath.xmu565_ctor_1"]
+description: Initializes a new instance of XMU565 from three int8_t arguments.
+helpviewer_keywords: ["XMU565","XMU565 constructor [DirectX Math Support APIs]","XMU565 constructor [DirectX Math Support APIs]","XMU565 structure","XMU565 structure [DirectX Math Support APIs]","XMU565 constructor","XMU565.XMU565","XMU565.XMU565()","XMU565.XMU565(uint8_t","uint8_t","uint8_t)","XMU565::XMU565","XMU565::XMU565(uint8_t","uint8_t","uint8_t)","dxmath.xmu565_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 184982ed-d1e7-462c-9cac-0393228bf64d

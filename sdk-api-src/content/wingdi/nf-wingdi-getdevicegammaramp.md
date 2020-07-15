@@ -103,7 +103,3 @@ Direct color display modes do not use color lookup tables and are usually 16, 24
 
 
 <a href="https://docs.microsoft.com/previous-versions/dd316902(v=vs.85)">Functions</a>
- 
-
- 
-

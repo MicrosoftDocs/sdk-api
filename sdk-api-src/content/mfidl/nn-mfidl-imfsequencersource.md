@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFSequencerSource
 title: IMFSequencerSource (mfidl.h)
-description: Implemented by the Sequencer Source.helpviewer_keywords: ["IMFSequencerSource","IMFSequencerSource interface [Media Foundation]","IMFSequencerSource interface [Media Foundation]","described","ba5e8e7b-5b0e-4807-a459-75bd5727d1e2","mf.imfsequencersource","mfidl/IMFSequencerSource"]
+description: Implemented by the Sequencer Source.
+helpviewer_keywords: ["IMFSequencerSource","IMFSequencerSource interface [Media Foundation]","IMFSequencerSource interface [Media Foundation]","described","ba5e8e7b-5b0e-4807-a459-75bd5727d1e2","mf.imfsequencersource","mfidl/IMFSequencerSource"]
 old-location: mf\imfsequencersource.htm
 tech.root: medfound
 ms.assetid: ba5e8e7b-5b0e-4807-a459-75bd5727d1e2

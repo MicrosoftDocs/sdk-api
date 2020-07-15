@@ -1,7 +1,8 @@
 ---
 UID: NF:xamlom.IVisualTreeService.CreateInstance
 title: IVisualTreeService::CreateInstance (xamlom.h)
-description: Creates an instance of any XAML runtime, enum, or primitive type.helpviewer_keywords: ["CreateInstance","CreateInstance method","CreateInstance method","IVisualTreeService interface","IVisualTreeService interface","CreateInstance method","IVisualTreeService.CreateInstance","IVisualTreeService::CreateInstance","xaml_diagnostics.ivisualtreeservice_createinstance","xamlom/IVisualTreeService::CreateInstance"]
+description: Creates an instance of any XAML runtime, enum, or primitive type.
+helpviewer_keywords: ["CreateInstance","CreateInstance method","CreateInstance method","IVisualTreeService interface","IVisualTreeService interface","CreateInstance method","IVisualTreeService.CreateInstance","IVisualTreeService::CreateInstance","xaml_diagnostics.ivisualtreeservice_createinstance","xamlom/IVisualTreeService::CreateInstance"]
 old-location: xaml_diagnostics\ivisualtreeservice_createinstance.htm
 tech.root: xaml_diagnostics
 ms.assetid: 214BE795-5883-4761-9040-2C7A679F5258

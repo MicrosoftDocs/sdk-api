@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.IBrowserService2._SendChildren
 title: IBrowserService2::_SendChildren (shdeprecated.h)
-description: Deprecated. Allows the derived class to send a message through the SendMessage function directly instead of relying on the base class.helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_SendChildren method","IBrowserService2._SendChildren","IBrowserService2::_SendChildren","_SendChildren","_SendChildren method [Windows Shell]","_SendChildren method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_SendChildren","shell.IBrowserService2__SendChildren","zone_IBrowserService2__SendChildren"]
+description: Deprecated. Allows the derived class to send a message through the SendMessage function directly instead of relying on the base class.
+helpviewer_keywords: ["IBrowserService2 interface [Windows Shell]","_SendChildren method","IBrowserService2._SendChildren","IBrowserService2::_SendChildren","_SendChildren","_SendChildren method [Windows Shell]","_SendChildren method [Windows Shell]","IBrowserService2 interface","shdeprecated/IBrowserService2::_SendChildren","shell.IBrowserService2__SendChildren","zone_IBrowserService2__SendChildren"]
 old-location: shell\IBrowserService2__SendChildren.htm
 tech.root: shell
 ms.assetid: 159516ce-1731-478a-8d84-85d0001f9c63

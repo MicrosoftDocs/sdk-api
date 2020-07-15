@@ -1,7 +1,8 @@
 ---
 UID: NF:recapis.GetUnicodeRanges
 title: GetUnicodeRanges function (recapis.h)
-description: Returns the ranges of Unicode points that the recognizer supports.helpviewer_keywords: ["4a354073-e971-43ba-93c9-84fa2e8c59aa","GetUnicodeRanges","GetUnicodeRanges function [Tablet PC]","recapis/GetUnicodeRanges","tablet.getunicoderanges"]
+description: Returns the ranges of Unicode points that the recognizer supports.
+helpviewer_keywords: ["4a354073-e971-43ba-93c9-84fa2e8c59aa","GetUnicodeRanges","GetUnicodeRanges function [Tablet PC]","recapis/GetUnicodeRanges","tablet.getunicoderanges"]
 old-location: tablet\getunicoderanges.htm
 tech.root: tablet
 ms.assetid: 4a354073-e971-43ba-93c9-84fa2e8c59aa

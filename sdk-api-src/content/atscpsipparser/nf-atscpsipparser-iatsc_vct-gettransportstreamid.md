@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.IATSC_VCT.GetTransportStreamId
 title: IATSC_VCT::GetTransportStreamId (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetTransportStreamId","GetTransportStreamId method [Microsoft TV Technologies]","GetTransportStreamId method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetTransportStreamId method","IATSC_VCT.GetTransportStreamId","IATSC_VCT::GetTransportStreamId","IATSC_VCTGetTransportStreamId","atscpsipparser/IATSC_VCT::GetTransportStreamId","mstv.iatsc_vct_gettransportstreamid"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetTransportStreamId","GetTransportStreamId method [Microsoft TV Technologies]","GetTransportStreamId method [Microsoft TV Technologies]","IATSC_VCT interface","IATSC_VCT interface [Microsoft TV Technologies]","GetTransportStreamId method","IATSC_VCT.GetTransportStreamId","IATSC_VCT::GetTransportStreamId","IATSC_VCTGetTransportStreamId","atscpsipparser/IATSC_VCT::GetTransportStreamId","mstv.iatsc_vct_gettransportstreamid"]
 old-location: mstv\iatsc_vct_gettransportstreamid.htm
 tech.root: mstv
 ms.assetid: 0c3261e8-c671-48c7-b07c-59ce74b13c76

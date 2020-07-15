@@ -1,7 +1,8 @@
 ---
 UID: NF:libloaderapi.LoadResource
 title: LoadResource function (libloaderapi.h)
-description: Retrieves a handle that can be used to obtain a pointer to the first byte of the specified resource in memory.helpviewer_keywords: ["LoadResource","LoadResource function [Menus and Other Resources]","_win32_LoadResource","_win32_loadresource_cpp","libloaderapi/LoadResource","menurc.loadresource","winui._win32_loadresource"]
+description: Retrieves a handle that can be used to obtain a pointer to the first byte of the specified resource in memory.
+helpviewer_keywords: ["LoadResource","LoadResource function [Menus and Other Resources]","_win32_LoadResource","_win32_loadresource_cpp","libloaderapi/LoadResource","menurc.loadresource","winui._win32_loadresource"]
 old-location: menurc\loadresource.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\loadresource.htm

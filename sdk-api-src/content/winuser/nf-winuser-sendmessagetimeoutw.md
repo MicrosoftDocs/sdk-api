@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SendMessageTimeoutW
 title: SendMessageTimeoutW function (winuser.h)
-description: Sends the specified message to one or more windows.helpviewer_keywords: ["SMTO_ABORTIFHUNG","SMTO_BLOCK","SMTO_ERRORONEXIT","SMTO_NORMAL","SMTO_NOTIMEOUTIFNOTHUNG","SendMessageTimeout","SendMessageTimeout function [Windows and Messages]","SendMessageTimeoutA","SendMessageTimeoutW","_win32_SendMessageTimeout","_win32_sendmessagetimeout_cpp","winmsg.sendmessagetimeout","winui._win32_sendmessagetimeout","winuser/SendMessageTimeout","winuser/SendMessageTimeoutA","winuser/SendMessageTimeoutW"]
+description: Sends the specified message to one or more windows.
+helpviewer_keywords: ["SMTO_ABORTIFHUNG","SMTO_BLOCK","SMTO_ERRORONEXIT","SMTO_NORMAL","SMTO_NOTIMEOUTIFNOTHUNG","SendMessageTimeout","SendMessageTimeout function [Windows and Messages]","SendMessageTimeoutA","SendMessageTimeoutW","_win32_SendMessageTimeout","_win32_sendmessagetimeout_cpp","winmsg.sendmessagetimeout","winui._win32_sendmessagetimeout","winuser/SendMessageTimeout","winuser/SendMessageTimeoutA","winuser/SendMessageTimeoutW"]
 old-location: winmsg\sendmessagetimeout.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\sendmessagetimeout.htm
@@ -211,6 +212,10 @@ The system only does marshalling for system messages (those in the range 0 to (<
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines SendMessageTimeout as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

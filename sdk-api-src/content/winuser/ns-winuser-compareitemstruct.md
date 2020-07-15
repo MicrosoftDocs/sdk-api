@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagCOMPAREITEMSTRUCT
 title: COMPAREITEMSTRUCT (winuser.h)
-description: Supplies the identifiers and application-supplied data for two items in a sorted, owner-drawn list box or combo box.helpviewer_keywords: ["*LPCOMPAREITEMSTRUCT","*PCOMPAREITEMSTRUCT","COMPAREITEMSTRUCT","COMPAREITEMSTRUCT structure [Windows Controls]","_win32_COMPAREITEMSTRUCT_str","_win32_COMPAREITEMSTRUCT_str_cpp","controls.COMPAREITEMSTRUCT","controls._win32_COMPAREITEMSTRUCT_str","winuser/COMPAREITEMSTRUCT"]
+description: Supplies the identifiers and application-supplied data for two items in a sorted, owner-drawn list box or combo box.
+helpviewer_keywords: ["*LPCOMPAREITEMSTRUCT","*PCOMPAREITEMSTRUCT","COMPAREITEMSTRUCT","COMPAREITEMSTRUCT structure [Windows Controls]","_win32_COMPAREITEMSTRUCT_str","_win32_COMPAREITEMSTRUCT_str_cpp","controls.COMPAREITEMSTRUCT","controls._win32_COMPAREITEMSTRUCT_str","winuser/COMPAREITEMSTRUCT"]
 old-location: controls\COMPAREITEMSTRUCT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\comboboxes\comboboxreference\comboboxstructures\compareitemstruct.htm

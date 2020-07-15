@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.DXGIGetDebugInterface
 title: DXGIGetDebugInterface function (dxgidebug.h)
-description: Retrieves a debugging interface.helpviewer_keywords: ["DXGIGetDebugInterface","DXGIGetDebugInterface function [DXGI]","direct3ddxgi.dxgigetdebuginterface","dxgidebug/DXGIGetDebugInterface"]
+description: Retrieves a debugging interface.
+helpviewer_keywords: ["DXGIGetDebugInterface","DXGIGetDebugInterface function [DXGI]","direct3ddxgi.dxgigetdebuginterface","dxgidebug/DXGIGetDebugInterface"]
 old-location: direct3ddxgi\dxgigetdebuginterface.htm
 tech.root: direct3ddxgi
 ms.assetid: 7702B842-6808-4CA9-A5B4-B1A1DC2479A7

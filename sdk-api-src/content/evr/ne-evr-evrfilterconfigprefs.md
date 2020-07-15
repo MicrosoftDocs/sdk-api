@@ -1,7 +1,8 @@
 ---
 UID: NE:evr._EVRFilterConfig_Prefs
 title: EVRFilterConfigPrefs (evr.h)
-description: Contains flags that are used to configure the Microsoft DirectShow enhanced video renderer (EVR) filter.helpviewer_keywords: ["EVRFilterConfigPrefs","EVRFilterConfigPrefs enumeration [Media Foundation]","EVRFilterConfigPrefs_EnableQoS","EVRFilterConfigPrefs_Mask","evr/EVRFilterConfigPrefs","evr/EVRFilterConfigPrefs_EnableQoS","evr/EVRFilterConfigPrefs_Mask","mf.evrfilterconfigprefs"]
+description: Contains flags that are used to configure the Microsoft DirectShow enhanced video renderer (EVR) filter.
+helpviewer_keywords: ["EVRFilterConfigPrefs","EVRFilterConfigPrefs enumeration [Media Foundation]","EVRFilterConfigPrefs_EnableQoS","EVRFilterConfigPrefs_Mask","evr/EVRFilterConfigPrefs","evr/EVRFilterConfigPrefs_EnableQoS","evr/EVRFilterConfigPrefs_Mask","mf.evrfilterconfigprefs"]
 old-location: mf\evrfilterconfigprefs.htm
 tech.root: medfound
 ms.assetid: 39d6845e-8655-4f8f-be39-76d704fd1177

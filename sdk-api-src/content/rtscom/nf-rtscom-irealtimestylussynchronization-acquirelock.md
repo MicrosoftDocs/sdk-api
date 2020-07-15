@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IRealTimeStylusSynchronization.AcquireLock
 title: IRealTimeStylusSynchronization::AcquireLock (rtscom.h)
-description: Retrieves the specified lock.helpviewer_keywords: ["74e315c5-99c2-4ba5-bca5-72d812624fa0","AcquireLock","AcquireLock method [Tablet PC]","AcquireLock method [Tablet PC]","IRealTimeStylusSynchronization interface","IRealTimeStylusSynchronization interface [Tablet PC]","AcquireLock method","IRealTimeStylusSynchronization.AcquireLock","IRealTimeStylusSynchronization::AcquireLock","rtscom/IRealTimeStylusSynchronization::AcquireLock","tablet.irealtimestylussynchronization_acquirelock"]
+description: Retrieves the specified lock.
+helpviewer_keywords: ["74e315c5-99c2-4ba5-bca5-72d812624fa0","AcquireLock","AcquireLock method [Tablet PC]","AcquireLock method [Tablet PC]","IRealTimeStylusSynchronization interface","IRealTimeStylusSynchronization interface [Tablet PC]","AcquireLock method","IRealTimeStylusSynchronization.AcquireLock","IRealTimeStylusSynchronization::AcquireLock","rtscom/IRealTimeStylusSynchronization::AcquireLock","tablet.irealtimestylussynchronization_acquirelock"]
 old-location: tablet\irealtimestylussynchronization_acquirelock.htm
 tech.root: tablet
 ms.assetid: 74e315c5-99c2-4ba5-bca5-72d812624fa0

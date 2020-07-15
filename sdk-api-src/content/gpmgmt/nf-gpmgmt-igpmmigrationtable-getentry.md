@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMMigrationTable.GetEntry
 title: IGPMMigrationTable::GetEntry (gpmgmt.h)
-description: The GetEntry method gets the entry in the migration table for a specified source field.helpviewer_keywords: ["GPMMigrationTable class [GPMC]","GetEntry method","GetEntry","GetEntry method [GPMC]","GetEntry method [GPMC]","GPMMigrationTable class","GetEntry method [GPMC]","IGPMMigrationTable interface","IGPMMigrationTable interface [GPMC]","GetEntry method","IGPMMigrationTable.GetEntry","IGPMMigrationTable::GetEntry","gpmc.igpmmigrationtable_getentry","gpmgmt/IGPMMigrationTable::GetEntry"]
+description: The GetEntry method gets the entry in the migration table for a specified source field.
+helpviewer_keywords: ["GPMMigrationTable class [GPMC]","GetEntry method","GetEntry","GetEntry method [GPMC]","GetEntry method [GPMC]","GPMMigrationTable class","GetEntry method [GPMC]","IGPMMigrationTable interface","IGPMMigrationTable interface [GPMC]","GetEntry method","IGPMMigrationTable.GetEntry","IGPMMigrationTable::GetEntry","gpmc.igpmmigrationtable_getentry","gpmgmt/IGPMMigrationTable::GetEntry"]
 old-location: gpmc\igpmmigrationtable_getentry.htm
 tech.root: gpmc
 ms.assetid: 3d6985ab-dbea-446c-9666-5fa19b97b40c

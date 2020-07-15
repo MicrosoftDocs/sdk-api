@@ -1,7 +1,8 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault
 title: IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault (vsmgmt.h)
-description: Clears the protection fault state for the specified volume.helpviewer_keywords: ["ClearVolumeProtectFault","ClearVolumeProtectFault method","ClearVolumeProtectFault method","IVssDifferentialSoftwareSnapshotMgmt3 interface","IVssDifferentialSoftwareSnapshotMgmt3 interface","ClearVolumeProtectFault method","IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault","IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault","base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault"]
+description: Clears the protection fault state for the specified volume.
+helpviewer_keywords: ["ClearVolumeProtectFault","ClearVolumeProtectFault method","ClearVolumeProtectFault method","IVssDifferentialSoftwareSnapshotMgmt3 interface","IVssDifferentialSoftwareSnapshotMgmt3 interface","ClearVolumeProtectFault method","IVssDifferentialSoftwareSnapshotMgmt3.ClearVolumeProtectFault","IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault","base.ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt3::ClearVolumeProtectFault"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt3_clearvolumeprotectfault.htm
 tech.root: VSS
 ms.assetid: 07257d34-23b1-47bf-b613-f65f5d2a977e

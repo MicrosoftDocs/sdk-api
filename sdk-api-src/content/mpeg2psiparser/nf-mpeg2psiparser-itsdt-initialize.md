@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.Initialize
 title: ITSDT::Initialize (mpeg2psiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["ITSDT interface [Microsoft TV Technologies]","Initialize method","ITSDT.Initialize","ITSDT::Initialize","ITSDTInitialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","ITSDT interface","mpeg2psiparser/ITSDT::Initialize","mstv.itsdt_initialize"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["ITSDT interface [Microsoft TV Technologies]","Initialize method","ITSDT.Initialize","ITSDT::Initialize","ITSDTInitialize","Initialize","Initialize method [Microsoft TV Technologies]","Initialize method [Microsoft TV Technologies]","ITSDT interface","mpeg2psiparser/ITSDT::Initialize","mstv.itsdt_initialize"]
 old-location: mstv\itsdt_initialize.htm
 tech.root: mstv
 ms.assetid: 6682de14-50a8-48be-839f-b15824c1dd6e

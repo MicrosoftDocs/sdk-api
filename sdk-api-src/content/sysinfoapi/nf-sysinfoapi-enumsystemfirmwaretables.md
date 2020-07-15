@@ -1,7 +1,8 @@
 ---
 UID: NF:sysinfoapi.EnumSystemFirmwareTables
 title: EnumSystemFirmwareTables function (sysinfoapi.h)
-description: Enumerates all system firmware tables of the specified type.helpviewer_keywords: ["EnumSystemFirmwareTables","EnumSystemFirmwareTables function","base.enumsystemfirmwaretables","sysinfoapi/EnumSystemFirmwareTables"]
+description: Enumerates all system firmware tables of the specified type.
+helpviewer_keywords: ["EnumSystemFirmwareTables","EnumSystemFirmwareTables function","base.enumsystemfirmwaretables","sysinfoapi/EnumSystemFirmwareTables"]
 old-location: base\enumsystemfirmwaretables.htm
 tech.root: SysInfo
 ms.assetid: 42aaefc0-dc05-460d-931a-b702fa855bed

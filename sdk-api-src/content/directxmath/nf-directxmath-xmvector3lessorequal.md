@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3LessOrEqual
 title: XMVector3LessOrEqual function (directxmath.h)
-description: Tests whether one 3D vector is less-than-or-equal-to another 3D vector.helpviewer_keywords: ["Use DirectX..XMVector3LessOrEqual","XMVector3LessOrEqual","XMVector3LessOrEqual method [DirectX Math Support APIs]","dxmath.xmvector3lessorequal"]
+description: Tests whether one 3D vector is less-than-or-equal-to another 3D vector.
+helpviewer_keywords: ["Use DirectX..XMVector3LessOrEqual","XMVector3LessOrEqual","XMVector3LessOrEqual method [DirectX Math Support APIs]","dxmath.xmvector3lessorequal"]
 old-location: dxmath\xmvector3lessorequal.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVector3LessOrEqual(XMVECTOR,XMVECTOR)

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICDevelopRaw.GetSaturation
 title: IWICDevelopRaw::GetSaturation (wincodec.h)
-description: Gets the saturation value of the raw image.helpviewer_keywords: ["GetSaturation","GetSaturation method [Windows Imaging Component]","GetSaturation method [Windows Imaging Component]","IWICDevelopRaw interface","IWICDevelopRaw interface [Windows Imaging Component]","GetSaturation method","IWICDevelopRaw.GetSaturation","IWICDevelopRaw::GetSaturation","_wic_codec_iwicdevelopraw_getsaturation","wic._wic_codec_iwicdevelopraw_getsaturation","wincodec/IWICDevelopRaw::GetSaturation"]
+description: Gets the saturation value of the raw image.
+helpviewer_keywords: ["GetSaturation","GetSaturation method [Windows Imaging Component]","GetSaturation method [Windows Imaging Component]","IWICDevelopRaw interface","IWICDevelopRaw interface [Windows Imaging Component]","GetSaturation method","IWICDevelopRaw.GetSaturation","IWICDevelopRaw::GetSaturation","_wic_codec_iwicdevelopraw_getsaturation","wic._wic_codec_iwicdevelopraw_getsaturation","wincodec/IWICDevelopRaw::GetSaturation"]
 old-location: wic\_wic_codec_iwicdevelopraw_getsaturation.htm
 tech.root: wic
 ms.assetid: 621868d6-3444-48f9-a069-f52ebacd7bbb

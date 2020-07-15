@@ -1,7 +1,8 @@
 ---
 UID: NS:ntsecapi._MSV1_0_LM20_LOGON_PROFILE
 title: MSV1_0_LM20_LOGON_PROFILE (ntsecapi.h)
-description: Contains information about a network logon session.helpviewer_keywords: ["*PMSV1_0_LM20_LOGON_PROFILE","LOGON_CACHED_ACCOUNT","LOGON_EXTRA_SIDS","LOGON_GUEST","LOGON_NOENCRYPTION","LOGON_PROFILE_PATH_RETURNED","LOGON_RESOURCE_GROUPS","LOGON_SERVER_TRUST_ACCOUNT","LOGON_SUBAUTH_SESSION_KEY","LOGON_USED_LM_PASSWORD","MSV1_0_LM20_LOGON_PROFILE","MSV1_0_LM20_LOGON_PROFILE structure [Security]","PMSV1_0_LM20_LOGON_PROFILE","PMSV1_0_LM20_LOGON_PROFILE structure pointer [Security]","_lsa_msv1_0_lm20_logon_profile","ntsecapi/MSV1_0_LM20_LOGON_PROFILE","ntsecapi/PMSV1_0_LM20_LOGON_PROFILE","security.msv1_0_lm20_logon_profile"]
+description: Contains information about a network logon session.
+helpviewer_keywords: ["*PMSV1_0_LM20_LOGON_PROFILE","LOGON_CACHED_ACCOUNT","LOGON_EXTRA_SIDS","LOGON_GUEST","LOGON_NOENCRYPTION","LOGON_PROFILE_PATH_RETURNED","LOGON_RESOURCE_GROUPS","LOGON_SERVER_TRUST_ACCOUNT","LOGON_SUBAUTH_SESSION_KEY","LOGON_USED_LM_PASSWORD","MSV1_0_LM20_LOGON_PROFILE","MSV1_0_LM20_LOGON_PROFILE structure [Security]","PMSV1_0_LM20_LOGON_PROFILE","PMSV1_0_LM20_LOGON_PROFILE structure pointer [Security]","_lsa_msv1_0_lm20_logon_profile","ntsecapi/MSV1_0_LM20_LOGON_PROFILE","ntsecapi/PMSV1_0_LM20_LOGON_PROFILE","security.msv1_0_lm20_logon_profile"]
 old-location: security\msv1_0_lm20_logon_profile.htm
 tech.root: SecAuthN
 ms.assetid: 4bf69171-1f92-40df-ab0f-cd6790ce34f1

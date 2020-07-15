@@ -1,7 +1,8 @@
 ---
 UID: NF:bluetoothapis.BluetoothEnableIncomingConnections
 title: BluetoothEnableIncomingConnections function (bluetoothapis.h)
-description: The BluetoothEnableIncomingConnections function modifies whether a local Bluetooth radio accepts incoming connections.helpviewer_keywords: ["BluetoothEnableIncomingConnections","BluetoothEnableIncomingConnections function [Bluetooth]","bluetooth.bluetoothenableincomingconnections","bluetoothapis/BluetoothEnableIncomingConnections"]
+description: The BluetoothEnableIncomingConnections function modifies whether a local Bluetooth radio accepts incoming connections.
+helpviewer_keywords: ["BluetoothEnableIncomingConnections","BluetoothEnableIncomingConnections function [Bluetooth]","bluetooth.bluetoothenableincomingconnections","bluetoothapis/BluetoothEnableIncomingConnections"]
 old-location: bluetooth\bluetoothenableincomingconnections.htm
 tech.root: bluetooth
 ms.assetid: 8f9c133e-e647-45c8-b2c6-372b18345637

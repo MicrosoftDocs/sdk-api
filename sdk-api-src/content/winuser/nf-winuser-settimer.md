@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetTimer
 title: SetTimer function (winuser.h)
-description: Creates a timer with the specified time-out value.helpviewer_keywords: ["SetTimer","SetTimer function [Windows and Messages]","_win32_SetTimer","_win32_settimer_cpp","winmsg.settimer","winui._win32_settimer","winuser/SetTimer"]
+description: Creates a timer with the specified time-out value.
+helpviewer_keywords: ["SetTimer","SetTimer function [Windows and Messages]","_win32_SetTimer","_win32_settimer_cpp","winmsg.settimer","winui._win32_settimer","winuser/SetTimer"]
 old-location: winmsg\settimer.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\timers\timerreference\timerfunctions\settimer.htm

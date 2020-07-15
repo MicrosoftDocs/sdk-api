@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1GeometrySink.AddArc(const D2D1_ARC_SEGMENT &)
+UID: NF:d2d1.ID2D1GeometrySink.AddArc(constD2D1_ARC_SEGMENT&)
 title: ID2D1GeometrySink::AddArc(const D2D1_ARC_SEGMENT &) (d2d1.h)
 description: Adds a single arc to the path geometry.
 helpviewer_keywords: ["AddArc","AddArc method [Direct2D]","AddArc method [Direct2D]","ID2D1GeometrySink interface","ID2D1GeometrySink interface [Direct2D]","AddArc method","ID2D1GeometrySink.AddArc","ID2D1GeometrySink.AddArc(const D2D1_ARC_SEGMENT &)","ID2D1GeometrySink::AddArc","ID2D1GeometrySink::AddArc(const D2D1_ARC_SEGMENT &)","d2d1/ID2D1GeometrySink::AddArc","direct2d.ID2D1GeometrySink_AddArc_ref_D2D1_ARC_SEGMENT"]

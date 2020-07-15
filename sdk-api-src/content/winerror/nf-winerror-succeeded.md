@@ -1,7 +1,8 @@
 ---
 UID: NF:winerror.SUCCEEDED
 title: SUCCEEDED macro (winerror.h)
-description: Provides a generic test for success on any status value.helpviewer_keywords: ["SUCCEEDED","SUCCEEDED macro [COM]","_com_SUCCEEDED","com.succeeded","com.succeeded_macro","winerror/SUCCEEDED"]
+description: Provides a generic test for success on any status value.
+helpviewer_keywords: ["SUCCEEDED","SUCCEEDED macro [COM]","_com_SUCCEEDED","com.succeeded","com.succeeded_macro","winerror/SUCCEEDED"]
 old-location: com\succeeded_macro.htm
 tech.root: com
 ms.assetid: 7a258b0b-d214-46c5-be0a-6493cd14a0e5

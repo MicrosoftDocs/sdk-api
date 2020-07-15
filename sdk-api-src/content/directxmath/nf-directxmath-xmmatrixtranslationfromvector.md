@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMatrixTranslationFromVector
 title: XMMatrixTranslationFromVector function (directxmath.h)
-description: Builds a translation matrix from a vector.helpviewer_keywords: ["Use DirectX..XMMatrixTranslationFromVector","XMMatrixTranslationFromVector","XMMatrixTranslationFromVector method [DirectX Math Support APIs]","dxmath.xmmatrixtranslationfromvector"]
+description: Builds a translation matrix from a vector.
+helpviewer_keywords: ["Use DirectX..XMMatrixTranslationFromVector","XMMatrixTranslationFromVector","XMMatrixTranslationFromVector method [DirectX Math Support APIs]","dxmath.xmmatrixtranslationfromvector"]
 old-location: dxmath\xmmatrixtranslationfromvector.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixTranslationFromVector(XMVECTOR)

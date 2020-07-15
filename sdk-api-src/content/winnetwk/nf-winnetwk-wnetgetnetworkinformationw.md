@@ -1,7 +1,8 @@
 ---
 UID: NF:winnetwk.WNetGetNetworkInformationW
 title: WNetGetNetworkInformationW function (winnetwk.h)
-description: The WNetGetNetworkInformation function returns extended information about a specific network provider whose name was returned by a previous network enumeration.helpviewer_keywords: ["WNetGetNetworkInformation","WNetGetNetworkInformation function [Windows Networking (WNet)]","WNetGetNetworkInformationA","WNetGetNetworkInformationW","_win32_wnetgetnetworkinformation","winnetwk/WNetGetNetworkInformation","winnetwk/WNetGetNetworkInformationA","winnetwk/WNetGetNetworkInformationW","wnet.wnetgetnetworkinformation"]
+description: The WNetGetNetworkInformation function returns extended information about a specific network provider whose name was returned by a previous network enumeration.
+helpviewer_keywords: ["WNetGetNetworkInformation","WNetGetNetworkInformation function [Windows Networking (WNet)]","WNetGetNetworkInformationA","WNetGetNetworkInformationW","_win32_wnetgetnetworkinformation","winnetwk/WNetGetNetworkInformation","winnetwk/WNetGetNetworkInformationA","winnetwk/WNetGetNetworkInformationW","wnet.wnetgetnetworkinformation"]
 old-location: wnet\wnetgetnetworkinformation.htm
 tech.root: WNet
 ms.assetid: df190133-b73b-4f3e-aaee-4095cd619065
@@ -149,4 +150,9 @@ The <b>cbStructure</b> member of the
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winnetwk.h header defines WNetGetNetworkInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

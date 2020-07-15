@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidEncoder.get_AudioEncoderInterface
 title: IMSVidEncoder::get_AudioEncoderInterface (segment.h)
-description: The get_AudioEncoderInterface method retrieves a pointer to the audio encoder interface.helpviewer_keywords: ["IMSVidEncoder interface [Microsoft TV Technologies]","get_AudioEncoderInterface method","IMSVidEncoder.get_AudioEncoderInterface","IMSVidEncoder::get_AudioEncoderInterface","IMSVidEncoderget_AudioEncoderInterface","get_AudioEncoderInterface","get_AudioEncoderInterface method [Microsoft TV Technologies]","get_AudioEncoderInterface method [Microsoft TV Technologies]","IMSVidEncoder interface","mstv.imsvidencoder_get_audioencoderinterface","segment/IMSVidEncoder::get_AudioEncoderInterface"]
+description: The get_AudioEncoderInterface method retrieves a pointer to the audio encoder interface.
+helpviewer_keywords: ["IMSVidEncoder interface [Microsoft TV Technologies]","get_AudioEncoderInterface method","IMSVidEncoder.get_AudioEncoderInterface","IMSVidEncoder::get_AudioEncoderInterface","IMSVidEncoderget_AudioEncoderInterface","get_AudioEncoderInterface","get_AudioEncoderInterface method [Microsoft TV Technologies]","get_AudioEncoderInterface method [Microsoft TV Technologies]","IMSVidEncoder interface","mstv.imsvidencoder_get_audioencoderinterface","segment/IMSVidEncoder::get_AudioEncoderInterface"]
 old-location: mstv\imsvidencoder_get_audioencoderinterface.htm
 tech.root: mstv
 ms.assetid: 5b22a062-7da5-411e-ac85-fb9c7b3650a7

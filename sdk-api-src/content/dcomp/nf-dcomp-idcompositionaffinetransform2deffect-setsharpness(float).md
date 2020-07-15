@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionAffineTransform2DEffect.SetSharpness(float)
 title: IDCompositionAffineTransform2DEffect::SetSharpness (dcomp.h)
-description: Sets the sharpness of the effect.helpviewer_keywords: ["IDCompositionAffineTransform2DEffect interface [DirectComposition]","SetSharpness method","IDCompositionAffineTransform2DEffect.SetSharpness","IDCompositionAffineTransform2DEffect::SetSharpness","IDCompositionAffineTransform2DEffect::SetSharpness(float)","SetSharpness","SetSharpness method [DirectComposition]","SetSharpness method [DirectComposition]","IDCompositionAffineTransform2DEffect interface","dcomp/IDCompositionAffineTransform2DEffect::SetSharpness","directcomp.idcompositionaffinetransform2deffect_setsharpness"]
+description: Sets the sharpness of the effect.
+helpviewer_keywords: ["IDCompositionAffineTransform2DEffect interface [DirectComposition]","SetSharpness method","IDCompositionAffineTransform2DEffect.SetSharpness","IDCompositionAffineTransform2DEffect::SetSharpness","IDCompositionAffineTransform2DEffect::SetSharpness(float)","SetSharpness","SetSharpness method [DirectComposition]","SetSharpness method [DirectComposition]","IDCompositionAffineTransform2DEffect interface","dcomp/IDCompositionAffineTransform2DEffect::SetSharpness","directcomp.idcompositionaffinetransform2deffect_setsharpness"]
 old-location: directcomp\idcompositionaffinetransform2deffect_setsharpness.htm
 tech.root: directcomp
 ms.assetid: F55B942C-F55E-4F19-A838-568F4BF4ED47

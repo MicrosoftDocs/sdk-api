@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertUnregisterSystemStore
 title: CertUnregisterSystemStore function (wincrypt.h)
-description: The CertUnregisterSystemStore function unregisters a specified system store.helpviewer_keywords: ["CERT_STORE_DELETE_FLAG","CERT_SYSTEM_STORE_RELOCATE_FLAG","CertUnregisterSystemStore","CertUnregisterSystemStore function [Security]","_crypto2_certunregistersystemstore","security.certunregistersystemstore","wincrypt/CertUnregisterSystemStore"]
+description: The CertUnregisterSystemStore function unregisters a specified system store.
+helpviewer_keywords: ["CERT_STORE_DELETE_FLAG","CERT_SYSTEM_STORE_RELOCATE_FLAG","CertUnregisterSystemStore","CertUnregisterSystemStore function [Security]","_crypto2_certunregistersystemstore","security.certunregistersystemstore","wincrypt/CertUnregisterSystemStore"]
 old-location: security\certunregistersystemstore.htm
 tech.root: SecCrypto
 ms.assetid: 958e4185-4c37-450c-abfc-91b95593227e

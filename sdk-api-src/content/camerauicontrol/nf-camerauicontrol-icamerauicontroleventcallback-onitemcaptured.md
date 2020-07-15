@@ -1,7 +1,8 @@
 ---
 UID: NF:camerauicontrol.ICameraUIControlEventCallback.OnItemCaptured
 title: ICameraUIControlEventCallback::OnItemCaptured (camerauicontrol.h)
-description: Occurs when an item is captured.helpviewer_keywords: ["ICameraUIControlEventCallback interface [Windows API]","OnItemCaptured method","ICameraUIControlEventCallback.OnItemCaptured","ICameraUIControlEventCallback::OnItemCaptured","OnItemCaptured","OnItemCaptured method [Windows API]","OnItemCaptured method [Windows API]","ICameraUIControlEventCallback interface","camerauicontrol/ICameraUIControlEventCallback::OnItemCaptured","winprog.icamerauicontroleventcallback_onitemcaptured"]
+description: Occurs when an item is captured.
+helpviewer_keywords: ["ICameraUIControlEventCallback interface [Windows API]","OnItemCaptured method","ICameraUIControlEventCallback.OnItemCaptured","ICameraUIControlEventCallback::OnItemCaptured","OnItemCaptured","OnItemCaptured method [Windows API]","OnItemCaptured method [Windows API]","ICameraUIControlEventCallback interface","camerauicontrol/ICameraUIControlEventCallback::OnItemCaptured","winprog.icamerauicontroleventcallback_onitemcaptured"]
 old-location: winprog\icamerauicontroleventcallback_onitemcaptured.htm
 tech.root: DevNotes
 ms.assetid: 4f202b68-48e2-4ae7-ade6-2180c05eec4a

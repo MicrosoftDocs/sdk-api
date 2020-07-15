@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationContent.GetContentTransform
 title: IDirectManipulationContent::GetContentTransform (directmanipulation.h)
-description: Retrieves the transform applied to the content.helpviewer_keywords: ["GetContentTransform","GetContentTransform method [Direct Manipulation]","GetContentTransform method [Direct Manipulation]","IDirectManipulationContent interface","IDirectManipulationContent interface [Direct Manipulation]","GetContentTransform method","IDirectManipulationContent.GetContentTransform","IDirectManipulationContent::GetContentTransform","directmanipulation.idirectmanipulationcontent_getcontenttransform","directmanipulation/IDirectManipulationContent::GetContentTransform"]
+description: Retrieves the transform applied to the content.
+helpviewer_keywords: ["GetContentTransform","GetContentTransform method [Direct Manipulation]","GetContentTransform method [Direct Manipulation]","IDirectManipulationContent interface","IDirectManipulationContent interface [Direct Manipulation]","GetContentTransform method","IDirectManipulationContent.GetContentTransform","IDirectManipulationContent::GetContentTransform","directmanipulation.idirectmanipulationcontent_getcontenttransform","directmanipulation/IDirectManipulationContent::GetContentTransform"]
 old-location: directmanipulation\idirectmanipulationcontent_getcontenttransform.htm
 tech.root: directmanipulation
 ms.assetid: 9db4f521-227c-4e2f-8c7d-44ae4a25651e

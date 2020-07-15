@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextHost.TxScreenToClient
 title: ITextHost::TxScreenToClient (textserv.h)
-description: Converts the screen coordinates to the text host window coordinates.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxScreenToClient method","ITextHost.TxScreenToClient","ITextHost::TxScreenToClient","TxScreenToClient","TxScreenToClient method [Windows Controls]","TxScreenToClient method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxScreenToClient","_win32_ITextHost_TxScreenToClient_cpp","controls.ITextHost_TxScreenToClient","controls._win32_ITextHost_TxScreenToClient","textserv/ITextHost::TxScreenToClient"]
+description: Converts the screen coordinates to the text host window coordinates.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxScreenToClient method","ITextHost.TxScreenToClient","ITextHost::TxScreenToClient","TxScreenToClient","TxScreenToClient method [Windows Controls]","TxScreenToClient method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxScreenToClient","_win32_ITextHost_TxScreenToClient_cpp","controls.ITextHost_TxScreenToClient","controls._win32_ITextHost_TxScreenToClient","textserv/ITextHost::TxScreenToClient"]
 old-location: controls\ITextHost_TxScreenToClient.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxscreentoclient.htm

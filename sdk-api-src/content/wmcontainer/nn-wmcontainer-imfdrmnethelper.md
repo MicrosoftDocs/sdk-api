@@ -1,7 +1,8 @@
 ---
 UID: NN:wmcontainer.IMFDRMNetHelper
 title: IMFDRMNetHelper (wmcontainer.h)
-description: Configures Windows Media Digital Rights Management (DRM) for Network Devices on a network sink.helpviewer_keywords: ["IMFDRMNetHelper","IMFDRMNetHelper interface [Media Foundation]","IMFDRMNetHelper interface [Media Foundation]","described","mf.imfdrmnethelper","wmcontainer/IMFDRMNetHelper"]
+description: Configures Windows Media Digital Rights Management (DRM) for Network Devices on a network sink.
+helpviewer_keywords: ["IMFDRMNetHelper","IMFDRMNetHelper interface [Media Foundation]","IMFDRMNetHelper interface [Media Foundation]","described","mf.imfdrmnethelper","wmcontainer/IMFDRMNetHelper"]
 old-location: mf\imfdrmnethelper.htm
 tech.root: medfound
 ms.assetid: 6f4ac19a-0972-4152-a64c-6c719efb396c

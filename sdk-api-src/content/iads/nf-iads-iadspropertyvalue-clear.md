@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsPropertyValue.Clear
 title: IADsPropertyValue::Clear (iads.h)
-description: Clears the current values of the property value object.helpviewer_keywords: ["Clear","Clear method [ADSI]","Clear method [ADSI]","IADsPropertyValue interface","IADsPropertyValue interface [ADSI]","Clear method","IADsPropertyValue.Clear","IADsPropertyValue::Clear","_ds_iadspropertyvalue_clear","adsi.iadspropertyvalue__clear","adsi.iadspropertyvalue_clear","iads/IADsPropertyValue::Clear"]
+description: Clears the current values of the property value object.
+helpviewer_keywords: ["Clear","Clear method [ADSI]","Clear method [ADSI]","IADsPropertyValue interface","IADsPropertyValue interface [ADSI]","Clear method","IADsPropertyValue.Clear","IADsPropertyValue::Clear","_ds_iadspropertyvalue_clear","adsi.iadspropertyvalue__clear","adsi.iadspropertyvalue_clear","iads/IADsPropertyValue::Clear"]
 old-location: adsi\iadspropertyvalue_clear.htm
 tech.root: adsi
 ms.assetid: 1662f507-6e1c-4f44-a40d-0eccd8091c51

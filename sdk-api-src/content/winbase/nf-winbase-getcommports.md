@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetCommPorts
 title: GetCommPorts function (winbase.h)
-description: Gets an array that contains the well-formed COM ports.helpviewer_keywords: ["GetCommPorts","GetCommPorts function","base.getcommports","winbase/GetCommPorts"]
+description: Gets an array that contains the well-formed COM ports.
+helpviewer_keywords: ["GetCommPorts","GetCommPorts function","base.getcommports","winbase/GetCommPorts"]
 old-location: base\getcommports.htm
 tech.root: devio
 ms.assetid: 8E57FB62-D7A0-4B47-942B-E33E0B7A37B1

@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageData.Decode
 title: IShellImageData::Decode (shimgdata.h)
-description: Decodes the image file, setting state.helpviewer_keywords: ["Decode","Decode method [Windows Shell]","Decode method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","Decode method","IShellImageData.Decode","IShellImageData::Decode","SHIMGDEC_DEFAULT","SHIMGDEC_LOADFULL","SHIMGDEC_THUMBNAIL","_shell_IShellImageData_Decode","shell.IShellImageData_Decode","shimgdata/IShellImageData::Decode"]
+description: Decodes the image file, setting state.
+helpviewer_keywords: ["Decode","Decode method [Windows Shell]","Decode method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","Decode method","IShellImageData.Decode","IShellImageData::Decode","SHIMGDEC_DEFAULT","SHIMGDEC_LOADFULL","SHIMGDEC_THUMBNAIL","_shell_IShellImageData_Decode","shell.IShellImageData_Decode","shimgdata/IShellImageData::Decode"]
 old-location: shell\IShellImageData_Decode.htm
 tech.root: shell
 ms.assetid: 954424d6-cb90-46c1-a850-4e1113dfe2e4

@@ -1,7 +1,8 @@
 ---
 UID: NS:shobjidl_core._SV2CVW2_PARAMS
 title: SV2CVW2_PARAMS (shobjidl_core.h)
-description: Holds the parameters for the IShellView2::CreateViewWindow2 method.helpviewer_keywords: ["*LPSV2CVW2_PARAMS","LPSV2CVW2_PARAMS","LPSV2CVW2_PARAMS structure pointer [Windows Shell]","SV2CVW2_PARAMS","SV2CVW2_PARAMS structure [Windows Shell]","_SV2CVW2_PARAMS","_win32_SV2CVW2_PARAMS","shell.SV2CVW2_PARAMS","shobjidl_core/LPSV2CVW2_PARAMS","shobjidl_core/SV2CVW2_PARAMS"]
+description: Holds the parameters for the IShellView2::CreateViewWindow2 method.
+helpviewer_keywords: ["*LPSV2CVW2_PARAMS","LPSV2CVW2_PARAMS","LPSV2CVW2_PARAMS structure pointer [Windows Shell]","SV2CVW2_PARAMS","SV2CVW2_PARAMS structure [Windows Shell]","_SV2CVW2_PARAMS","_win32_SV2CVW2_PARAMS","shell.SV2CVW2_PARAMS","shobjidl_core/LPSV2CVW2_PARAMS","shobjidl_core/SV2CVW2_PARAMS"]
 old-location: shell\SV2CVW2_PARAMS.htm
 tech.root: shell
 ms.assetid: 7e165654-74ea-4d8b-81b7-11257f87af53

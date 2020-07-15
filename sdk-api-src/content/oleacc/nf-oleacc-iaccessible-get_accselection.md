@@ -1,7 +1,8 @@
 ---
 UID: NF:oleacc.IAccessible.get_accSelection
 title: IAccessible::get_accSelection (oleacc.h)
-description: The IAccessible::get_accSelection method retrieves the selected children of this object. All objects that support selection must support this property.helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","get_accSelection method","IAccessible.get_accSelection","IAccessible::get_accSelection","VT_DISPATCH","VT_EMPTY","VT_I4","VT_UNKNOWN","_msaa_IAccessible_get_accSelection","get_accSelection","get_accSelection method [Windows Accessibility]","get_accSelection method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__get_accselection","oleacc/IAccessible::get_accSelection","winauto.iaccessible_iaccessible__get_accselection"]
+description: The IAccessible::get_accSelection method retrieves the selected children of this object. All objects that support selection must support this property.
+helpviewer_keywords: ["IAccessible interface [Windows Accessibility]","get_accSelection method","IAccessible.get_accSelection","IAccessible::get_accSelection","VT_DISPATCH","VT_EMPTY","VT_I4","VT_UNKNOWN","_msaa_IAccessible_get_accSelection","get_accSelection","get_accSelection method [Windows Accessibility]","get_accSelection method [Windows Accessibility]","IAccessible interface","msaa.iaccessible_iaccessible__get_accselection","oleacc/IAccessible::get_accSelection","winauto.iaccessible_iaccessible__get_accselection"]
 old-location: winauto\iaccessible_iaccessible__get_accselection.htm
 tech.root: WinAuto
 ms.assetid: 80df32de-a99f-4a5a-b354-f3e133f3e620

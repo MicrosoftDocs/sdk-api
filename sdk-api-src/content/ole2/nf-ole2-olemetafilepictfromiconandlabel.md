@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleMetafilePictFromIconAndLabel
 title: OleMetafilePictFromIconAndLabel function (ole2.h)
-description: Creates a metafile in which the specified icon and label are drawn.helpviewer_keywords: ["OleMetafilePictFromIconAndLabel","OleMetafilePictFromIconAndLabel function [COM]","_ole_OleMetafilePictFromIconAndLabel","com.olemetafilepictfromiconandlabel","ole2/OleMetafilePictFromIconAndLabel"]
+description: Creates a metafile in which the specified icon and label are drawn.
+helpviewer_keywords: ["OleMetafilePictFromIconAndLabel","OleMetafilePictFromIconAndLabel function [COM]","_ole_OleMetafilePictFromIconAndLabel","com.olemetafilepictfromiconandlabel","ole2/OleMetafilePictFromIconAndLabel"]
 old-location: com\olemetafilepictfromiconandlabel.htm
 tech.root: com
 ms.assetid: 627a79eb-46dd-4df7-a0d6-cab37b73387a

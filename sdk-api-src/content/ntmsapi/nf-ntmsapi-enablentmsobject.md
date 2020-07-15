@@ -1,7 +1,8 @@
 ---
 UID: NF:ntmsapi.EnableNtmsObject
 title: EnableNtmsObject function (ntmsapi.h)
-description: The EnableNtmsObject function enables the specified object.helpviewer_keywords: ["EnableNtmsObject","EnableNtmsObject function [Files]","NTMS_DRIVE","NTMS_LIBRARY","NTMS_PHYSICAL_MEDIA","_zaw_enablentmsobject","base.enablentmsobject","fs.enablentmsobject","ntmsapi/EnableNtmsObject"]
+description: The EnableNtmsObject function enables the specified object.
+helpviewer_keywords: ["EnableNtmsObject","EnableNtmsObject function [Files]","NTMS_DRIVE","NTMS_LIBRARY","NTMS_PHYSICAL_MEDIA","_zaw_enablentmsobject","base.enablentmsobject","fs.enablentmsobject","ntmsapi/EnableNtmsObject"]
 old-location: fs\enablentmsobject.htm
 tech.root: Rsm
 ms.assetid: 6a752f8e-7be0-4f2c-9bd3-3678d7328b20

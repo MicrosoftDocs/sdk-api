@@ -1,7 +1,8 @@
 ---
 UID: NE:winuser.DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS
 title: DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS (winuser.h)
-description: Describes per-monitor DPI scaling behavior overrides for child windows within dialogs. The values in this enumeration are bitfields and can be combined.helpviewer_keywords: ["DCDC_DEFAULT","DCDC_DISABLE_FONT_UPDATE","DCDC_DISABLE_RELAYOUT","DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR","DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR enumeration [High DPI]","DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS","DIALOG_SCALING_BEHAVIOR","DIALOG_SCALING_BEHAVIOR enumeration [High DPI]","hidpi.dialog_scaling_behavior","winuser/DCDC_DEFAULT","winuser/DCDC_DISABLE_FONT_UPDATE","winuser/DCDC_DISABLE_RELAYOUT","winuser/DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR"]
+description: Describes per-monitor DPI scaling behavior overrides for child windows within dialogs. The values in this enumeration are bitfields and can be combined.
+helpviewer_keywords: ["DCDC_DEFAULT","DCDC_DISABLE_FONT_UPDATE","DCDC_DISABLE_RELAYOUT","DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR","DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR enumeration [High DPI]","DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS","DIALOG_SCALING_BEHAVIOR","DIALOG_SCALING_BEHAVIOR enumeration [High DPI]","hidpi.dialog_scaling_behavior","winuser/DCDC_DEFAULT","winuser/DCDC_DISABLE_FONT_UPDATE","winuser/DCDC_DISABLE_RELAYOUT","winuser/DIALOG_CONTROL_DPI_CHANGE_BEHAVIOR"]
 old-location: hidpi\dialog_scaling_behavior.htm
 tech.root: hidpi
 ms.assetid: B368D997-F409-491A-8578-004C7408A160

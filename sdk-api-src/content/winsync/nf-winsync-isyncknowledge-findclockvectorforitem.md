@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge.FindClockVectorForItem
 title: ISyncKnowledge::FindClockVectorForItem (winsync.h)
-description: Gets the clock vector that is associated with the specified item ID.helpviewer_keywords: ["FindClockVectorForItem","FindClockVectorForItem method [Windows Sync]","FindClockVectorForItem method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","FindClockVectorForItem method","ISyncKnowledge.FindClockVectorForItem","ISyncKnowledge::FindClockVectorForItem","winsync.isyncknowledge_findclockvectorforitem","winsync/ISyncKnowledge::FindClockVectorForItem"]
+description: Gets the clock vector that is associated with the specified item ID.
+helpviewer_keywords: ["FindClockVectorForItem","FindClockVectorForItem method [Windows Sync]","FindClockVectorForItem method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","FindClockVectorForItem method","ISyncKnowledge.FindClockVectorForItem","ISyncKnowledge::FindClockVectorForItem","winsync.isyncknowledge_findclockvectorforitem","winsync/ISyncKnowledge::FindClockVectorForItem"]
 old-location: winsync\isyncknowledge_findclockvectorforitem.htm
 tech.root: winsync
 ms.assetid: d0df840c-c0ca-4fd8-b4bd-d4558e21b083

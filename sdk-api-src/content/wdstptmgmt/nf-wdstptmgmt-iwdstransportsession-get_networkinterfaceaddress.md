@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportSession.get_NetworkInterfaceAddress
 title: IWdsTransportSession::get_NetworkInterfaceAddress (wdstptmgmt.h)
-description: Receives the MAC address of the server network interface used by this transport session.helpviewer_keywords: ["IWdsTransportSession interface [Windows Deployment Services]","NetworkInterfaceAddress property","IWdsTransportSession.NetworkInterfaceAddress","IWdsTransportSession.get_NetworkInterfaceAddress","IWdsTransportSession::NetworkInterfaceAddress","IWdsTransportSession::get_NetworkInterfaceAddress","NetworkInterfaceAddress property [Windows Deployment Services]","NetworkInterfaceAddress property [Windows Deployment Services]","IWdsTransportSession interface","get_NetworkInterfaceAddress","wds.iwdstransportsession_networkinterfaceaddress","wdstptmgmt/IWdsTransportSession::NetworkInterfaceAddress","wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceAddress"]
+description: Receives the MAC address of the server network interface used by this transport session.
+helpviewer_keywords: ["IWdsTransportSession interface [Windows Deployment Services]","NetworkInterfaceAddress property","IWdsTransportSession.NetworkInterfaceAddress","IWdsTransportSession.get_NetworkInterfaceAddress","IWdsTransportSession::NetworkInterfaceAddress","IWdsTransportSession::get_NetworkInterfaceAddress","NetworkInterfaceAddress property [Windows Deployment Services]","NetworkInterfaceAddress property [Windows Deployment Services]","IWdsTransportSession interface","get_NetworkInterfaceAddress","wds.iwdstransportsession_networkinterfaceaddress","wdstptmgmt/IWdsTransportSession::NetworkInterfaceAddress","wdstptmgmt/IWdsTransportSession::get_NetworkInterfaceAddress"]
 old-location: wds\iwdstransportsession_networkinterfaceaddress.htm
 tech.root: wds
 ms.assetid: 6585452b-037c-4ee8-807a-144b6b53695a

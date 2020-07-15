@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CERT_PRIVATE_KEY_VALIDITY
 title: CERT_PRIVATE_KEY_VALIDITY (wincrypt.h)
-description: The CERT_PRIVATE_KEY_VALIDITY structure indicates a valid time span for the private key corresponding to a certificate's public key.helpviewer_keywords: ["*PCERT_PRIVATE_KEY_VALIDITY","CERT_PRIVATE_KEY_VALIDITY","CERT_PRIVATE_KEY_VALIDITY structure [Security]","PCERT_PRIVATE_KEY_VALIDITY","PCERT_PRIVATE_KEY_VALIDITY structure pointer [Security]","_crypto2_cert_private_key_validity","security.cert_private_key_validity","wincrypt/CERT_PRIVATE_KEY_VALIDITY","wincrypt/PCERT_PRIVATE_KEY_VALIDITY"]
+description: The CERT_PRIVATE_KEY_VALIDITY structure indicates a valid time span for the private key corresponding to a certificate's public key.
+helpviewer_keywords: ["*PCERT_PRIVATE_KEY_VALIDITY","CERT_PRIVATE_KEY_VALIDITY","CERT_PRIVATE_KEY_VALIDITY structure [Security]","PCERT_PRIVATE_KEY_VALIDITY","PCERT_PRIVATE_KEY_VALIDITY structure pointer [Security]","_crypto2_cert_private_key_validity","security.cert_private_key_validity","wincrypt/CERT_PRIVATE_KEY_VALIDITY","wincrypt/PCERT_PRIVATE_KEY_VALIDITY"]
 old-location: security\cert_private_key_validity.htm
 tech.root: SecCrypto
 ms.assetid: 4764174f-eecc-402e-8395-d3e2be0b0ae6

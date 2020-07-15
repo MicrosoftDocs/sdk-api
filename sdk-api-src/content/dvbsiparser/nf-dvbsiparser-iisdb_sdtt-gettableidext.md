@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IISDB_SDTT.GetTableIdExt
 title: IISDB_SDTT::GetTableIdExt (dvbsiparser.h)
-description: Gets the table_id_extension field value from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT). This field value identifies a specific instance of an SDTT.helpviewer_keywords: ["GetTableIdExt","GetTableIdExt method [Microsoft TV Technologies]","GetTableIdExt method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetTableIdExt method","IISDB_SDTT.GetTableIdExt","IISDB_SDTT::GetTableIdExt","dvbsiparser/IISDB_SDTT::GetTableIdExt","mstv.iisdb_sdtt_gettableidext"]
+description: Gets the table_id_extension field value from an Integrated Services Digital Broadcasting (ISDB) software download trigger table (SDTT). This field value identifies a specific instance of an SDTT.
+helpviewer_keywords: ["GetTableIdExt","GetTableIdExt method [Microsoft TV Technologies]","GetTableIdExt method [Microsoft TV Technologies]","IISDB_SDTT interface","IISDB_SDTT interface [Microsoft TV Technologies]","GetTableIdExt method","IISDB_SDTT.GetTableIdExt","IISDB_SDTT::GetTableIdExt","dvbsiparser/IISDB_SDTT::GetTableIdExt","mstv.iisdb_sdtt_gettableidext"]
 old-location: mstv\iisdb_sdtt_gettableidext.htm
 tech.root: mstv
 ms.assetid: 2b77ce3b-c706-4820-88dc-08b37978664b

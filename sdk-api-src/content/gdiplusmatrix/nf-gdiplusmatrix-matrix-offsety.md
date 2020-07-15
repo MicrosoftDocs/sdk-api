@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusmatrix.Matrix.OffsetY
 title: Matrix::OffsetY (gdiplusmatrix.h)
-description: The Matrix::OffsetY method gets the vertical translation value of this matrix, which is the element in row 3, column 2.helpviewer_keywords: ["Matrix class [GDI+]","OffsetY method","Matrix.OffsetY","Matrix::OffsetY","OffsetY","OffsetY method [GDI+]","OffsetY method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_OffsetY_","gdiplus._gdiplus_CLASS_Matrix_OffsetY_"]
+description: The Matrix::OffsetY method gets the vertical translation value of this matrix, which is the element in row 3, column 2.
+helpviewer_keywords: ["Matrix class [GDI+]","OffsetY method","Matrix.OffsetY","Matrix::OffsetY","OffsetY","OffsetY method [GDI+]","OffsetY method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_OffsetY_","gdiplus._gdiplus_CLASS_Matrix_OffsetY_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_OffsetY_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\offsety.htm

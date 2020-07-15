@@ -1,7 +1,8 @@
 ---
 UID: NF:wdsclientapi.WdsCliGetImageSize
 title: WdsCliGetImageSize function (wdsclientapi.h)
-description: Returns the size of the current image.helpviewer_keywords: ["WdsCliGetImageSize","WdsCliGetImageSize function [Windows Deployment Services]","wds.wdscligetimagesize","wdsclientapi/WdsCliGetImageSize"]
+description: Returns the size of the current image.
+helpviewer_keywords: ["WdsCliGetImageSize","WdsCliGetImageSize function [Windows Deployment Services]","wds.wdscligetimagesize","wdsclientapi/WdsCliGetImageSize"]
 old-location: wds\wdscligetimagesize.htm
 tech.root: wds
 ms.assetid: 35d04426-dfb4-48db-bb81-734d2d2ecdcb

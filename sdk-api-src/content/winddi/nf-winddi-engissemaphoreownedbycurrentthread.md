@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngIsSemaphoreOwnedByCurrentThread
 title: EngIsSemaphoreOwnedByCurrentThread function (winddi.h)
-description: The EngIsSemaphoreOwnedByCurrentThread function determines whether the currently executing thread holds the specified semaphore.helpviewer_keywords: ["EngIsSemaphoreOwnedByCurrentThread","EngIsSemaphoreOwnedByCurrentThread function [Display Devices]","display.engissemaphoreownedbycurrentthread","gdifncs_6c3dcc33-1798-4dc5-a64f-a9bb85f5cf81.xml","winddi/EngIsSemaphoreOwnedByCurrentThread"]
+description: The EngIsSemaphoreOwnedByCurrentThread function determines whether the currently executing thread holds the specified semaphore.
+helpviewer_keywords: ["EngIsSemaphoreOwnedByCurrentThread","EngIsSemaphoreOwnedByCurrentThread function [Display Devices]","display.engissemaphoreownedbycurrentthread","gdifncs_6c3dcc33-1798-4dc5-a64f-a9bb85f5cf81.xml","winddi/EngIsSemaphoreOwnedByCurrentThread"]
 old-location: display\engissemaphoreownedbycurrentthread.htm
 tech.root: display
 ms.assetid: ce5d8ceb-0137-4ca9-b718-2e3de650249d

@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICGifCommentExtensionProperties
 title: WICGifCommentExtensionProperties (wincodec.h)
-description: Specifies the comment extension metadata properties for a Graphics Interchange Format (GIF) image.helpviewer_keywords: ["WICGifCommentExtensionProperties","WICGifCommentExtensionProperties enumeration [Windows Imaging Component]","WICGifCommentExtensionText","_wic_codec_wicgifcommentextensionproperties","wic._wic_codec_wicgifcommentextensionproperties","wincodec/WICGifCommentExtensionProperties","wincodec/WICGifCommentExtensionText"]
+description: Specifies the comment extension metadata properties for a Graphics Interchange Format (GIF) image.
+helpviewer_keywords: ["WICGifCommentExtensionProperties","WICGifCommentExtensionProperties enumeration [Windows Imaging Component]","WICGifCommentExtensionText","_wic_codec_wicgifcommentextensionproperties","wic._wic_codec_wicgifcommentextensionproperties","wincodec/WICGifCommentExtensionProperties","wincodec/WICGifCommentExtensionText"]
 old-location: wic\_wic_codec_wicgifcommentextensionproperties.htm
 tech.root: wic
 ms.assetid: 900f1c1e-e8d2-4cee-acba-c9c2a45e9bcb

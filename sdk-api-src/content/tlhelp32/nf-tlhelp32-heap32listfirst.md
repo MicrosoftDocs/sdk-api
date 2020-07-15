@@ -1,7 +1,8 @@
 ---
 UID: NF:tlhelp32.Heap32ListFirst
 title: Heap32ListFirst function (tlhelp32.h)
-description: Retrieves information about the first heap that has been allocated by a specified process.helpviewer_keywords: ["Heap32ListFirst","Heap32ListFirst function [ToolHelp]","_win32_heap32listfirst","base.heap32listfirst","tlhelp32/Heap32ListFirst","toolhelp.heap32listfirst"]
+description: Retrieves information about the first heap that has been allocated by a specified process.
+helpviewer_keywords: ["Heap32ListFirst","Heap32ListFirst function [ToolHelp]","_win32_heap32listfirst","base.heap32listfirst","tlhelp32/Heap32ListFirst","toolhelp.heap32listfirst"]
 old-location: toolhelp\heap32listfirst.htm
 tech.root: ToolHelp
 ms.assetid: b9a2992b-0dc1-41c3-aa23-796def674831

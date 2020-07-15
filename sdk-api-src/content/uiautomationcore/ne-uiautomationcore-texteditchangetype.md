@@ -1,7 +1,8 @@
 ---
 UID: NE:uiautomationcore.TextEditChangeType
 title: TextEditChangeType (uiautomationcore.h)
-description: Describes the text editing change being performed by controls when text-edit events are raised or handled.helpviewer_keywords: ["TextEditChangeType","TextEditChangeType enumeration [Windows Accessibility]","TextEditChangeType_AutoCorrect","TextEditChangeType_Composition","TextEditChangeType_CompositionFinalized","TextEditChangeType_None","uiautomationcore/TextEditChangeType","uiautomationcore/TextEditChangeType_AutoCorrect","uiautomationcore/TextEditChangeType_Composition","uiautomationcore/TextEditChangeType_CompositionFinalized","uiautomationcore/TextEditChangeType_None","winauto.uiauto_TextEditChangeTypeEnum"]
+description: Describes the text editing change being performed by controls when text-edit events are raised or handled.
+helpviewer_keywords: ["TextEditChangeType","TextEditChangeType enumeration [Windows Accessibility]","TextEditChangeType_AutoCorrect","TextEditChangeType_Composition","TextEditChangeType_CompositionFinalized","TextEditChangeType_None","uiautomationcore/TextEditChangeType","uiautomationcore/TextEditChangeType_AutoCorrect","uiautomationcore/TextEditChangeType_Composition","uiautomationcore/TextEditChangeType_CompositionFinalized","uiautomationcore/TextEditChangeType_None","winauto.uiauto_TextEditChangeTypeEnum"]
 old-location: winauto\uiauto_TextEditChangeTypeEnum.htm
 tech.root: WinAuto
 ms.assetid: 212FD71E-BB79-F4A5-061E-F77FF7876998

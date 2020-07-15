@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICRawRenderMode
 title: WICRawRenderMode (wincodec.h)
-description: Specifies the render intent of the next CopyPixels call.helpviewer_keywords: ["WICRawRenderMode","WICRawRenderMode enumeration [Windows Imaging Component]","WICRawRenderModeBestQuality","WICRawRenderModeDraft","WICRawRenderModeNormal","_wic_codec_wicrawrendermode","wic._wic_codec_wicrawrendermode","wincodec/WICRawRenderMode","wincodec/WICRawRenderModeBestQuality","wincodec/WICRawRenderModeDraft","wincodec/WICRawRenderModeNormal"]
+description: Specifies the render intent of the next CopyPixels call.
+helpviewer_keywords: ["WICRawRenderMode","WICRawRenderMode enumeration [Windows Imaging Component]","WICRawRenderModeBestQuality","WICRawRenderModeDraft","WICRawRenderModeNormal","_wic_codec_wicrawrendermode","wic._wic_codec_wicrawrendermode","wincodec/WICRawRenderMode","wincodec/WICRawRenderModeBestQuality","wincodec/WICRawRenderModeDraft","wincodec/WICRawRenderModeNormal"]
 old-location: wic\_wic_codec_wicrawrendermode.htm
 tech.root: wic
 ms.assetid: dc020c78-a018-42ee-a500-65a743b96107

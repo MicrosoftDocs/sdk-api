@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetNotifyFlags
 title: IBackgroundCopyJob::SetNotifyFlags (bits.h)
-description: Specifies the type of event notification you want to receive, such as job transferred events.helpviewer_keywords: ["BG_NOTIFY_DISABLE","BG_NOTIFY_FILE_RANGES_TRANSFERRED","BG_NOTIFY_FILE_TRANSFERRED","BG_NOTIFY_JOB_ERROR","BG_NOTIFY_JOB_MODIFICATION","BG_NOTIFY_JOB_TRANSFERRED","IBackgroundCopyJob interface [BITS]","SetNotifyFlags method","IBackgroundCopyJob.SetNotifyFlags","IBackgroundCopyJob::SetNotifyFlags","SetNotifyFlags","SetNotifyFlags method [BITS]","SetNotifyFlags method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_setnotifyflags","bits.ibackgroundcopyjob_setnotifyflags","bits/IBackgroundCopyJob::SetNotifyFlags"]
+description: Specifies the type of event notification you want to receive, such as job transferred events.
+helpviewer_keywords: ["BG_NOTIFY_DISABLE","BG_NOTIFY_FILE_RANGES_TRANSFERRED","BG_NOTIFY_FILE_TRANSFERRED","BG_NOTIFY_JOB_ERROR","BG_NOTIFY_JOB_MODIFICATION","BG_NOTIFY_JOB_TRANSFERRED","IBackgroundCopyJob interface [BITS]","SetNotifyFlags method","IBackgroundCopyJob.SetNotifyFlags","IBackgroundCopyJob::SetNotifyFlags","SetNotifyFlags","SetNotifyFlags method [BITS]","SetNotifyFlags method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_setnotifyflags","bits.ibackgroundcopyjob_setnotifyflags","bits/IBackgroundCopyJob::SetNotifyFlags"]
 old-location: bits\ibackgroundcopyjob_setnotifyflags.htm
 tech.root: Bits
 ms.assetid: 24aa6445-d7bd-4825-9121-402e63ae6f69

@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.CLUSTER_MAKE_VERSION
 title: CLUSTER_MAKE_VERSION macro (clusapi.h)
-description: Creates a Cluster service version number.helpviewer_keywords: ["CLUSTER_MAKE_VERSION","CLUSTER_MAKE_VERSION macro [Failover Cluster]","_wolf_cluster_make_version","clusapi/CLUSTER_MAKE_VERSION","mscs.cluster_make_version"]
+description: Creates a Cluster service version number.
+helpviewer_keywords: ["CLUSTER_MAKE_VERSION","CLUSTER_MAKE_VERSION macro [Failover Cluster]","_wolf_cluster_make_version","clusapi/CLUSTER_MAKE_VERSION","mscs.cluster_make_version"]
 old-location: mscs\cluster_make_version.htm
 tech.root: MsCS
 ms.assetid: 0a53c070-efed-4105-8dce-60647869a93f

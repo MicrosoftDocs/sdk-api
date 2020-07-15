@@ -1,7 +1,8 @@
 ---
 UID: NF:lmdfs.NetDfsRemoveRootTarget
 title: NetDfsRemoveRootTarget function (lmdfs.h)
-description: Removes a DFS root target from a domain-based DFS namespace. If the root target is the last root target in the DFS namespace, this function removes the DFS namespace. This function can also be used to remove a stand-alone DFS namespace.helpviewer_keywords: ["DFS_FORCE_REMOVE","NetDfsRemoveRootTarget","NetDfsRemoveRootTarget function [Distributed File System]","dfs.netdfsremoveroottarget","fs.netdfsremoveroottarget","lmdfs/NetDfsRemoveRootTarget"]
+description: Removes a DFS root target from a domain-based DFS namespace. If the root target is the last root target in the DFS namespace, this function removes the DFS namespace. This function can also be used to remove a stand-alone DFS namespace.
+helpviewer_keywords: ["DFS_FORCE_REMOVE","NetDfsRemoveRootTarget","NetDfsRemoveRootTarget function [Distributed File System]","dfs.netdfsremoveroottarget","fs.netdfsremoveroottarget","lmdfs/NetDfsRemoveRootTarget"]
 old-location: dfs\netdfsremoveroottarget.htm
 tech.root: Dfs
 ms.assetid: 9a8c78f4-3170-4568-940c-1c51aebad3ae

@@ -1,7 +1,8 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0006
 title: WcmUserStatus (wcmconfig.h)
-description: Describes the status of the user.helpviewer_keywords: ["UnknownStatus","UserLoaded","UserRegistered","UserUnloaded","UserUnregistered","WcmUserStatus","WcmUserStatus enumeration [SMI]","smi.wcmuserstatus","wcmconfig/UnknownStatus","wcmconfig/UserLoaded","wcmconfig/UserRegistered","wcmconfig/UserUnloaded","wcmconfig/UserUnregistered","wcmconfig/WcmUserStatus"]
+description: Describes the status of the user.
+helpviewer_keywords: ["UnknownStatus","UserLoaded","UserRegistered","UserUnloaded","UserUnregistered","WcmUserStatus","WcmUserStatus enumeration [SMI]","smi.wcmuserstatus","wcmconfig/UnknownStatus","wcmconfig/UserLoaded","wcmconfig/UserRegistered","wcmconfig/UserUnloaded","wcmconfig/UserUnregistered","wcmconfig/WcmUserStatus"]
 old-location: smi\wcmuserstatus.htm
 tech.root: SMI
 ms.assetid: 1a21d53f-cc0d-48ac-8d38-c53d5ac09878

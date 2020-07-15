@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearThreshold
 title: ImageAttributes::ClearThreshold (gdiplusimageattributes.h)
-description: The ImageAttributes::ClearThreshold method clears the threshold value for a specified category.helpviewer_keywords: ["ClearThreshold","ClearThreshold method [GDI+]","ClearThreshold method [GDI+]","ImageAttributes class","ImageAttributes class [GDI+]","ClearThreshold method","ImageAttributes.ClearThreshold","ImageAttributes::ClearThreshold","_gdiplus_CLASS_ImageAttributes_ClearThreshold_type_","gdiplus._gdiplus_CLASS_ImageAttributes_ClearThreshold_type_"]
+description: The ImageAttributes::ClearThreshold method clears the threshold value for a specified category.
+helpviewer_keywords: ["ClearThreshold","ClearThreshold method [GDI+]","ClearThreshold method [GDI+]","ImageAttributes class","ImageAttributes class [GDI+]","ClearThreshold method","ImageAttributes.ClearThreshold","ImageAttributes::ClearThreshold","_gdiplus_CLASS_ImageAttributes_ClearThreshold_type_","gdiplus._gdiplus_CLASS_ImageAttributes_ClearThreshold_type_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearThreshold_type_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearthreshold.htm

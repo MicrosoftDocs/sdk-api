@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertOIDToAlgId
 title: CertOIDToAlgId function (wincrypt.h)
-description: Use the CryptFindOIDInfo function instead of this function because ALG_ID identifiers are no longer supported in CNG.helpviewer_keywords: ["CertOIDToAlgId","CertOIDToAlgId function [Security]","_crypto2_certoidtoalgid","security.certoidtoalgid","wincrypt/CertOIDToAlgId"]
+description: Use the CryptFindOIDInfo function instead of this function because ALG_ID identifiers are no longer supported in CNG.
+helpviewer_keywords: ["CertOIDToAlgId","CertOIDToAlgId function [Security]","_crypto2_certoidtoalgid","security.certoidtoalgid","wincrypt/CertOIDToAlgId"]
 old-location: security\certoidtoalgid.htm
 tech.root: SecCrypto
 ms.assetid: 920b2642-ce7c-4098-8720-5a6f24128787

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.SetTitle
 title: IXpsOMCoreProperties::SetTitle (xpsobjectmodel.h)
-description: Sets the title property.helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetTitle method","IXpsOMCoreProperties.SetTitle","IXpsOMCoreProperties::SetTitle","SetTitle","SetTitle method [XPS Documents and Packaging]","SetTitle method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_settitle","xpsobjectmodel/IXpsOMCoreProperties::SetTitle"]
+description: Sets the title property.
+helpviewer_keywords: ["IXpsOMCoreProperties interface [XPS Documents and Packaging]","SetTitle method","IXpsOMCoreProperties.SetTitle","IXpsOMCoreProperties::SetTitle","SetTitle","SetTitle method [XPS Documents and Packaging]","SetTitle method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","xps.ixpsomcoreproperties_settitle","xpsobjectmodel/IXpsOMCoreProperties::SetTitle"]
 old-location: xps\ixpsomcoreproperties_settitle.htm
 tech.root: printdocs
 ms.assetid: 55562670-576f-483d-abcf-f69ce279245d

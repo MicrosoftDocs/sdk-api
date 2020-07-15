@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1_1.D2D1_PRINT_FONT_SUBSET_MODE
 title: D2D1_PRINT_FONT_SUBSET_MODE (d2d1_1.h)
-description: Defines when font resources should be subset during printing.helpviewer_keywords: ["D2D1_PRINT_FONT_SUBSET_DEFAULT","D2D1_PRINT_FONT_SUBSET_EACHPAGE","D2D1_PRINT_FONT_SUBSET_MODE","D2D1_PRINT_FONT_SUBSET_MODE enumeration [Direct2D]","D2D1_PRINT_FONT_SUBSET_NONE","d2d1_1/D2D1_PRINT_FONT_SUBSET_DEFAULT","d2d1_1/D2D1_PRINT_FONT_SUBSET_EACHPAGE","d2d1_1/D2D1_PRINT_FONT_SUBSET_MODE","d2d1_1/D2D1_PRINT_FONT_SUBSET_NONE","direct2d.d2d1_cprint_font_subset_mode"]
+description: Defines when font resources should be subset during printing.
+helpviewer_keywords: ["D2D1_PRINT_FONT_SUBSET_DEFAULT","D2D1_PRINT_FONT_SUBSET_EACHPAGE","D2D1_PRINT_FONT_SUBSET_MODE","D2D1_PRINT_FONT_SUBSET_MODE enumeration [Direct2D]","D2D1_PRINT_FONT_SUBSET_NONE","d2d1_1/D2D1_PRINT_FONT_SUBSET_DEFAULT","d2d1_1/D2D1_PRINT_FONT_SUBSET_EACHPAGE","d2d1_1/D2D1_PRINT_FONT_SUBSET_MODE","d2d1_1/D2D1_PRINT_FONT_SUBSET_NONE","direct2d.d2d1_cprint_font_subset_mode"]
 old-location: direct2d\d2d1_cprint_font_subset_mode.htm
 tech.root: Direct2D
 ms.assetid: B8361117-6018-48EE-AD3D-2A37F6B71293

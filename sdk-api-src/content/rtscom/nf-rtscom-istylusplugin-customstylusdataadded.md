@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IStylusPlugin.CustomStylusDataAdded
 title: IStylusPlugin::CustomStylusDataAdded (rtscom.h)
-description: Notifies the implementing plug-in that custom stylus data is available.helpviewer_keywords: ["0d3f556c-b0a8-4346-b7da-82f1a3c2603c","CustomStylusDataAdded","CustomStylusDataAdded method [Tablet PC]","CustomStylusDataAdded method [Tablet PC]","IStylusPlugin interface","IStylusPlugin interface [Tablet PC]","CustomStylusDataAdded method","IStylusPlugin.CustomStylusDataAdded","IStylusPlugin::CustomStylusDataAdded","rtscom/IStylusPlugin::CustomStylusDataAdded","tablet.istylusplugin_customstylusdataadded"]
+description: Notifies the implementing plug-in that custom stylus data is available.
+helpviewer_keywords: ["0d3f556c-b0a8-4346-b7da-82f1a3c2603c","CustomStylusDataAdded","CustomStylusDataAdded method [Tablet PC]","CustomStylusDataAdded method [Tablet PC]","IStylusPlugin interface","IStylusPlugin interface [Tablet PC]","CustomStylusDataAdded method","IStylusPlugin.CustomStylusDataAdded","IStylusPlugin::CustomStylusDataAdded","rtscom/IStylusPlugin::CustomStylusDataAdded","tablet.istylusplugin_customstylusdataadded"]
 old-location: tablet\istylusplugin_customstylusdataadded.htm
 tech.root: tablet
 ms.assetid: 0d3f556c-b0a8-4346-b7da-82f1a3c2603c

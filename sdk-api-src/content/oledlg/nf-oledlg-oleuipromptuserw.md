@@ -1,7 +1,8 @@
 ---
 UID: NF:oledlg.OleUIPromptUserW
 title: OleUIPromptUserW function (oledlg.h)
-description: Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered.helpviewer_keywords: ["OleUIPromptUser","OleUIPromptUser function [COM]","OleUIPromptUserA","OleUIPromptUserW","_ole_OleUIPromptUser","com.oleuipromptuser","oledlg/OleUIPromptUser","oledlg/OleUIPromptUserA","oledlg/OleUIPromptUserW"]
+description: Displays a dialog box with the specified template and returns the response (button identifier) from the user. This function is used to display OLE warning messages, for example, Class Not Registered.
+helpviewer_keywords: ["OleUIPromptUser","OleUIPromptUser function [COM]","OleUIPromptUserA","OleUIPromptUserW","_ole_OleUIPromptUser","com.oleuipromptuser","oledlg/OleUIPromptUser","oledlg/OleUIPromptUserA","oledlg/OleUIPromptUserW"]
 old-location: com\oleuipromptuser.htm
 tech.root: com
 ms.assetid: a4c437d9-7242-401f-96fe-4b1c793a1170
@@ -389,4 +390,8 @@ IDD_SERVERNOTREG
 IDD_CANNOTRESPONDVERB 
 IDD_SERVERNOTFOUND </code></pre>
 
+
+
+> [!NOTE]
+> The oledlg.h header defines OleUIPromptUser as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

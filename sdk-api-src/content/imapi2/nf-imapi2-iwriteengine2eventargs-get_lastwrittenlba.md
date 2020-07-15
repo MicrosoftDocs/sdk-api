@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IWriteEngine2EventArgs.get_LastWrittenLba
 title: IWriteEngine2EventArgs::get_LastWrittenLba (imapi2.h)
-description: Retrieves the address of the sector most recently written to the device.helpviewer_keywords: ["IWriteEngine2EventArgs interface [IMAPI]","get_LastWrittenLba method","IWriteEngine2EventArgs.get_LastWrittenLba","IWriteEngine2EventArgs::get_LastWrittenLba","get_LastWrittenLba","get_LastWrittenLba method [IMAPI]","get_LastWrittenLba method [IMAPI]","IWriteEngine2EventArgs interface","imapi.iwriteengine2eventargs_get_lastwrittenlba","imapi2/IWriteEngine2EventArgs::get_LastWrittenLba"]
+description: Retrieves the address of the sector most recently written to the device.
+helpviewer_keywords: ["IWriteEngine2EventArgs interface [IMAPI]","get_LastWrittenLba method","IWriteEngine2EventArgs.get_LastWrittenLba","IWriteEngine2EventArgs::get_LastWrittenLba","get_LastWrittenLba","get_LastWrittenLba method [IMAPI]","get_LastWrittenLba method [IMAPI]","IWriteEngine2EventArgs interface","imapi.iwriteengine2eventargs_get_lastwrittenlba","imapi2/IWriteEngine2EventArgs::get_LastWrittenLba"]
 old-location: imapi\iwriteengine2eventargs_get_lastwrittenlba.htm
 tech.root: imapi
 ms.assetid: ccb964b5-dd6f-4250-b6d2-41154258872f

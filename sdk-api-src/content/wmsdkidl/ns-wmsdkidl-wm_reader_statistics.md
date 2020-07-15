@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl._WMReaderStatistics
 title: WM_READER_STATISTICS (wmsdkidl.h)
-description: The WM_READER_STATISTICS structure describes the performance of a reading operation.helpviewer_keywords: ["WM_READER_STATISTICS","WM_READER_STATISTICS structure [windows Media Format]","wmformat.wm_reader_statistics","wmsdkidl/WM_READER_STATISTICS"]
+description: The WM_READER_STATISTICS structure describes the performance of a reading operation.
+helpviewer_keywords: ["WM_READER_STATISTICS","WM_READER_STATISTICS structure [windows Media Format]","wmformat.wm_reader_statistics","wmsdkidl/WM_READER_STATISTICS"]
 old-location: wmformat\wm_reader_statistics.htm
 tech.root: wmformat
 ms.assetid: 30e58e9b-5247-4d9a-91dc-fd137d8f5613

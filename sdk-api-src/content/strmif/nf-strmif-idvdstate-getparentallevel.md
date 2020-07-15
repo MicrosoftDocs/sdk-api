@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdState.GetParentalLevel
 title: IDvdState::GetParentalLevel (strmif.h)
-description: The GetParentalLevel method retrieves the user's parental level as saved in the DvdState object.helpviewer_keywords: ["GetParentalLevel","GetParentalLevel method [DirectShow]","GetParentalLevel method [DirectShow]","IDvdState interface","IDvdState interface [DirectShow]","GetParentalLevel method","IDvdState.GetParentalLevel","IDvdState::GetParentalLevel","IDvdStateGetParentalLevel","dshow.idvdstate_getparentallevel","strmif/IDvdState::GetParentalLevel"]
+description: The GetParentalLevel method retrieves the user's parental level as saved in the DvdState object.
+helpviewer_keywords: ["GetParentalLevel","GetParentalLevel method [DirectShow]","GetParentalLevel method [DirectShow]","IDvdState interface","IDvdState interface [DirectShow]","GetParentalLevel method","IDvdState.GetParentalLevel","IDvdState::GetParentalLevel","IDvdStateGetParentalLevel","dshow.idvdstate_getparentallevel","strmif/IDvdState::GetParentalLevel"]
 old-location: dshow\idvdstate_getparentallevel.htm
 tech.root: DirectShow
 ms.assetid: f87c128f-d751-4593-ac26-3249b803bbe4

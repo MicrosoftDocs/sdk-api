@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.GetFont
 title: ITextRange::GetFont (tom.h)
-description: Gets an ITextFont object with the character attributes of the specified range.helpviewer_keywords: ["GetFont","GetFont method [Windows Controls]","GetFont method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetFont method","ITextRange.GetFont","ITextRange::GetFont","_win32_ITextRange_GetFont","_win32_ITextRange_GetFont_cpp","controls.ITextRange_GetFont","controls._win32_ITextRange_GetFont","tom/ITextRange::GetFont"]
+description: Gets an ITextFont object with the character attributes of the specified range.
+helpviewer_keywords: ["GetFont","GetFont method [Windows Controls]","GetFont method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","GetFont method","ITextRange.GetFont","ITextRange::GetFont","_win32_ITextRange_GetFont","_win32_ITextRange_GetFont_cpp","controls.ITextRange_GetFont","controls._win32_ITextRange_GetFont","tom/ITextRange::GetFont"]
 old-location: controls\ITextRange_GetFont.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getfont.htm

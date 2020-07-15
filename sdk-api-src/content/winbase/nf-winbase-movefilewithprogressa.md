@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.MoveFileWithProgressA
 title: MoveFileWithProgressA function (winbase.h)
-description: Moves a file or directory, including its children. You can provide a callback function that receives progress notifications.helpviewer_keywords: ["MOVEFILE_COPY_ALLOWED","MOVEFILE_CREATE_HARDLINK","MOVEFILE_DELAY_UNTIL_REBOOT","MOVEFILE_FAIL_IF_NOT_TRACKABLE","MOVEFILE_REPLACE_EXISTING","MOVEFILE_WRITE_THROUGH","MoveFileWithProgress","MoveFileWithProgress function [Files]","MoveFileWithProgressA","MoveFileWithProgressW","Rename file [Files]","_win32_movefilewithprogress","base.movefilewithprogress","fs.movefilewithprogress","winbase/MoveFileWithProgress","winbase/MoveFileWithProgressA","winbase/MoveFileWithProgressW"]
+description: Moves a file or directory, including its children. You can provide a callback function that receives progress notifications.
+helpviewer_keywords: ["MOVEFILE_COPY_ALLOWED","MOVEFILE_CREATE_HARDLINK","MOVEFILE_DELAY_UNTIL_REBOOT","MOVEFILE_FAIL_IF_NOT_TRACKABLE","MOVEFILE_REPLACE_EXISTING","MOVEFILE_WRITE_THROUGH","MoveFileWithProgress","MoveFileWithProgress function [Files]","MoveFileWithProgressA","MoveFileWithProgressW","Rename file [Files]","_win32_movefilewithprogress","base.movefilewithprogress","fs.movefilewithprogress","winbase/MoveFileWithProgress","winbase/MoveFileWithProgressA","winbase/MoveFileWithProgressW"]
 old-location: fs\movefilewithprogress.htm
 tech.root: FileIO
 ms.assetid: f490aadc-7934-498a-8131-5c1be9e6f1aa
@@ -334,6 +335,10 @@ CsvFs will do redirected IO for compressed files.
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines MoveFileWithProgress as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

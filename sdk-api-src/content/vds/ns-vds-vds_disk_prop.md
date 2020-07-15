@@ -260,6 +260,3 @@ The <a href="https://docs.microsoft.com/windows/desktop/api/vds/nf-vds-ivdsdisk-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/vdslun/ne-vdslun-vds_storage_bus_type">VDS_STORAGE_BUS_TYPE</a>
  
-
- 
-

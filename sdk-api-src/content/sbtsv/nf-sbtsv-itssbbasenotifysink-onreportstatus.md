@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbBaseNotifySink.OnReportStatus
 title: ITsSbBaseNotifySink::OnReportStatus (sbtsv.h)
-description: Sends status messages to the Remote Desktop Connection (RDC) client regarding the processing of a client connection.helpviewer_keywords: ["CLIENT_MESSAGE_CONNECTION_ERROR","CLIENT_MESSAGE_CONNECTION_STATUS","ITsSbBaseNotifySink interface [Remote Desktop Services]","OnReportStatus method","ITsSbBaseNotifySink.OnReportStatus","ITsSbBaseNotifySink::OnReportStatus","OnReportStatus","OnReportStatus method [Remote Desktop Services]","OnReportStatus method [Remote Desktop Services]","ITsSbBaseNotifySink interface","TS_STATUS_VM_BOOTING","TS_STATUS_VM_LOADING","TS_STATUS_VM_WAKING","sbtsv/ITsSbBaseNotifySink::OnReportStatus","termserv.itssbbasenotifysink_onreportstatus"]
+description: Sends status messages to the Remote Desktop Connection (RDC) client regarding the processing of a client connection.
+helpviewer_keywords: ["CLIENT_MESSAGE_CONNECTION_ERROR","CLIENT_MESSAGE_CONNECTION_STATUS","ITsSbBaseNotifySink interface [Remote Desktop Services]","OnReportStatus method","ITsSbBaseNotifySink.OnReportStatus","ITsSbBaseNotifySink::OnReportStatus","OnReportStatus","OnReportStatus method [Remote Desktop Services]","OnReportStatus method [Remote Desktop Services]","ITsSbBaseNotifySink interface","TS_STATUS_VM_BOOTING","TS_STATUS_VM_LOADING","TS_STATUS_VM_WAKING","sbtsv/ITsSbBaseNotifySink::OnReportStatus","termserv.itssbbasenotifysink_onreportstatus"]
 old-location: termserv\itssbbasenotifysink_onreportstatus.htm
 tech.root: TermServ
 ms.assetid: 4bde8375-b03a-44b8-9ba5-bc15277f3a4a

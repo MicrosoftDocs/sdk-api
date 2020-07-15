@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IProxyProviderWinEventSink.AddAutomationEvent
 title: IProxyProviderWinEventSink::AddAutomationEvent (uiautomationcore.h)
-description: Raises a Microsoft UI Automation event.helpviewer_keywords: ["AddAutomationEvent","AddAutomationEvent method [Windows Accessibility]","AddAutomationEvent method [Windows Accessibility]","IProxyProviderWinEventSink interface","IProxyProviderWinEventSink interface [Windows Accessibility]","AddAutomationEvent method","IProxyProviderWinEventSink.AddAutomationEvent","IProxyProviderWinEventSink::AddAutomationEvent","uiauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent","uiauto_IProxyProviderWinEventSink_AddAutomationEvent","uiautomationcore/IProxyProviderWinEventSink::AddAutomationEvent","winauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent"]
+description: Raises a Microsoft UI Automation event.
+helpviewer_keywords: ["AddAutomationEvent","AddAutomationEvent method [Windows Accessibility]","AddAutomationEvent method [Windows Accessibility]","IProxyProviderWinEventSink interface","IProxyProviderWinEventSink interface [Windows Accessibility]","AddAutomationEvent method","IProxyProviderWinEventSink.AddAutomationEvent","IProxyProviderWinEventSink::AddAutomationEvent","uiauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent","uiauto_IProxyProviderWinEventSink_AddAutomationEvent","uiautomationcore/IProxyProviderWinEventSink::AddAutomationEvent","winauto.uiauto_IProxyProviderWinEventSink_AddAutomationEvent"]
 old-location: winauto\uiauto_IProxyProviderWinEventSink_AddAutomationEvent.htm
 tech.root: WinAuto
 ms.assetid: c1730b6b-f399-4e1f-91d4-5d5e40835a74

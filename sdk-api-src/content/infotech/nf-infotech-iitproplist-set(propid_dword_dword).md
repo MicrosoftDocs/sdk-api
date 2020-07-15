@@ -1,7 +1,8 @@
 ---
 UID: NF:infotech.IITPropList.Set(PROPID,DWORD,DWORD)
 title: IITPropList::Set(PROPID,DWORD,DWORD) (infotech.h)
-description: Sets a property to a given value or deletes a property from the list.helpviewer_keywords: ["IITPropList interface [HTML Help Workshop]","Set method","IITPropList.Set","IITPropList.Set(PROPID","DWORD","DWORD)","IITPropList::Set","IITPropList::Set(PROPID","DWORD","DWORD)","PROP_ADD","PROP_DELETE","PROP_UPDATE","Set","Set method [HTML Help Workshop]","Set method [HTML Help Workshop]","IITPropList interface","htmlhelp.iitproplist_set1","infotech/IITPropList::Set","refIITPropListSet"]
+description: Sets a property to a given value or deletes a property from the list.
+helpviewer_keywords: ["IITPropList interface [HTML Help Workshop]","Set method","IITPropList.Set","IITPropList.Set(PROPID","DWORD","DWORD)","IITPropList::Set","IITPropList::Set(PROPID","DWORD","DWORD)","PROP_ADD","PROP_DELETE","PROP_UPDATE","Set","Set method [HTML Help Workshop]","Set method [HTML Help Workshop]","IITPropList interface","htmlhelp.iitproplist_set1","infotech/IITPropList::Set","refIITPropListSet"]
 old-location: htmlhelp\iitproplist_set1.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistset.htm

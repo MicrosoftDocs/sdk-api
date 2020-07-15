@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminInterfaceTransportRemove
 title: MprAdminInterfaceTransportRemove function (mprapi.h)
-description: The MprAdminInterfaceTransportRemove function removes a transport (for example, IP or IPX) from a specified interface.helpviewer_keywords: ["MprAdminInterfaceTransportRemove","MprAdminInterfaceTransportRemove function [RAS]","_mpr_mpradmininterfacetransportremove","mprapi/MprAdminInterfaceTransportRemove","rras.mpradmininterfacetransportremove"]
+description: The MprAdminInterfaceTransportRemove function removes a transport (for example, IP or IPX) from a specified interface.
+helpviewer_keywords: ["MprAdminInterfaceTransportRemove","MprAdminInterfaceTransportRemove function [RAS]","_mpr_mpradmininterfacetransportremove","mprapi/MprAdminInterfaceTransportRemove","rras.mpradmininterfacetransportremove"]
 old-location: rras\mpradmininterfacetransportremove.htm
 tech.root: RRAS
 ms.assetid: 0773923a-6bfe-4b86-a8ca-a52016733668

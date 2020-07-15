@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength
 title: ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength (spatialaudiometadata.h)
-description: Gets the length of the buffer required to store the specified number of spatial audio metadata items.helpviewer_keywords: ["GetSpatialAudioMetadataItemsBufferLength","GetSpatialAudioMetadataItemsBufferLength method [Core Audio]","GetSpatialAudioMetadataItemsBufferLength method [Core Audio]","ISpatialAudioMetadataClient interface","ISpatialAudioMetadataClient interface [Core Audio]","GetSpatialAudioMetadataItemsBufferLength method","ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength","ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength","coreaudio.ispatialaudiometadataclient_getspatialaudiometadataitemsbufferlength","spatialaudiometadata/ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength"]
+description: Gets the length of the buffer required to store the specified number of spatial audio metadata items.
+helpviewer_keywords: ["GetSpatialAudioMetadataItemsBufferLength","GetSpatialAudioMetadataItemsBufferLength method [Core Audio]","GetSpatialAudioMetadataItemsBufferLength method [Core Audio]","ISpatialAudioMetadataClient interface","ISpatialAudioMetadataClient interface [Core Audio]","GetSpatialAudioMetadataItemsBufferLength method","ISpatialAudioMetadataClient.GetSpatialAudioMetadataItemsBufferLength","ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength","coreaudio.ispatialaudiometadataclient_getspatialaudiometadataitemsbufferlength","spatialaudiometadata/ISpatialAudioMetadataClient::GetSpatialAudioMetadataItemsBufferLength"]
 old-location: coreaudio\ispatialaudiometadataclient_getspatialaudiometadataitemsbufferlength.htm
 tech.root: CoreAudio
 ms.assetid: 63D23390-222C-4F7E-AF8A-B49C85DFB222

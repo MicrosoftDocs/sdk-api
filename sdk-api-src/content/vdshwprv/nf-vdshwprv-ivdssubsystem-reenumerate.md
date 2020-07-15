@@ -1,7 +1,8 @@
 ---
 UID: NF:vdshwprv.IVdsSubSystem.Reenumerate
 title: IVdsSubSystem::Reenumerate (vdshwprv.h)
-description: Prompts the subsystem to scan its bus to discover newly-connected drives or newly-disconnected drives.helpviewer_keywords: ["IVdsSubSystem interface [VDS]","Reenumerate method","IVdsSubSystem.Reenumerate","IVdsSubSystem::Reenumerate","Reenumerate","Reenumerate method [VDS]","Reenumerate method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_reenumerate","vds/IVdsSubSystem::Reenumerate","vdshwprv/IVdsSubSystem::Reenumerate"]
+description: Prompts the subsystem to scan its bus to discover newly-connected drives or newly-disconnected drives.
+helpviewer_keywords: ["IVdsSubSystem interface [VDS]","Reenumerate method","IVdsSubSystem.Reenumerate","IVdsSubSystem::Reenumerate","Reenumerate","Reenumerate method [VDS]","Reenumerate method [VDS]","IVdsSubSystem interface","base.ivdssubsystem_reenumerate","vds/IVdsSubSystem::Reenumerate","vdshwprv/IVdsSubSystem::Reenumerate"]
 old-location: base\ivdssubsystem_reenumerate.htm
 tech.root: VDS
 ms.assetid: 9d6118bb-7b13-4ae1-9faf-9c17ada20511

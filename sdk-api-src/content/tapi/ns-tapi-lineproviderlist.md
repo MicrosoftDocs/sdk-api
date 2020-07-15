@@ -1,7 +1,8 @@
 ---
 UID: NS:tapi.lineproviderlist_tag
 title: LINEPROVIDERLIST (tapi.h)
-description: The LINEPROVIDERLIST structure describes a list of service providers. A structure of this type is returned by the lineGetProviderList function. The LINEPROVIDERLIST structure can contain an array of LINEPROVIDERENTRY structures.helpviewer_keywords: ["*LPLINEPROVIDERLIST","LINEPROVIDERLIST","LINEPROVIDERLIST structure [TAPI 2.2]","LPLINEPROVIDERLIST","LPLINEPROVIDERLIST structure pointer [TAPI 2.2]","_tapi2_lineproviderlist_str","tapi/LINEPROVIDERLIST","tapi/LPLINEPROVIDERLIST","tapi2.lineproviderlist_str"]
+description: The LINEPROVIDERLIST structure describes a list of service providers. A structure of this type is returned by the lineGetProviderList function. The LINEPROVIDERLIST structure can contain an array of LINEPROVIDERENTRY structures.
+helpviewer_keywords: ["*LPLINEPROVIDERLIST","LINEPROVIDERLIST","LINEPROVIDERLIST structure [TAPI 2.2]","LPLINEPROVIDERLIST","LPLINEPROVIDERLIST structure pointer [TAPI 2.2]","_tapi2_lineproviderlist_str","tapi/LINEPROVIDERLIST","tapi/LPLINEPROVIDERLIST","tapi2.lineproviderlist_str"]
 old-location: tapi2\lineproviderlist_str.htm
 tech.root: Tapi
 ms.assetid: 75790ffd-bb1b-4efc-a905-5727d31f8aec

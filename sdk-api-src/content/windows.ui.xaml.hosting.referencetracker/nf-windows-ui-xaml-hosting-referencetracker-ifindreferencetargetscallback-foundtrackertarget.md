@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IFindReferenceTargetsCallback.FoundTrackerTarget
 title: IFindReferenceTargetsCallback::xaml (windows.ui.xaml.hosting.referencetracker.h)
-description: Called whenever a XAML object reference tracker target is found.helpviewer_keywords: ["FoundTrackerTarget","FoundTrackerTarget method [Windows Runtime]","FoundTrackerTarget method [Windows Runtime]","IFindReferenceTargetsCallback interface","IFindReferenceTargetsCallback interface [Windows Runtime]","FoundTrackerTarget method","IFindReferenceTargetsCallback.FoundTrackerTarget","IFindReferenceTargetsCallback.xaml","IFindReferenceTargetsCallback::FoundTrackerTarget","IFindReferenceTargetsCallback::xaml","windows/IFindReferenceTargetsCallback::FoundTrackerTarget","winrt.ifindreferencetargetscallback_foundtrackertarget"]
+description: Called whenever a XAML object reference tracker target is found.
+helpviewer_keywords: ["FoundTrackerTarget","FoundTrackerTarget method [Windows Runtime]","FoundTrackerTarget method [Windows Runtime]","IFindReferenceTargetsCallback interface","IFindReferenceTargetsCallback interface [Windows Runtime]","FoundTrackerTarget method","IFindReferenceTargetsCallback.FoundTrackerTarget","IFindReferenceTargetsCallback.xaml","IFindReferenceTargetsCallback::FoundTrackerTarget","IFindReferenceTargetsCallback::xaml","windows/IFindReferenceTargetsCallback::FoundTrackerTarget","winrt.ifindreferencetargetscallback_foundtrackertarget"]
 old-location: winrt\ifindreferencetargetscallback_foundtrackertarget.htm
 tech.root: WinRT
 ms.assetid: f8959af6-a857-4bca-a469-d68f70e2fadf

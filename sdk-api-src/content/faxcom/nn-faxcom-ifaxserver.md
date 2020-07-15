@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcom.IFaxServer
 title: IFaxServer (faxcom.h)
-description: The IFaxServer dual interface is used by a fax client application to manage a connection to the fax service.helpviewer_keywords: ["IFaxServer","IFaxServer interface [Fax Service]","IFaxServer interface [Fax Service]","described","_mfax_ifaxserver_client","fax._mfax_ifaxserver_client","faxcom/IFaxServer"]
+description: The IFaxServer dual interface is used by a fax client application to manage a connection to the fax service.
+helpviewer_keywords: ["IFaxServer","IFaxServer interface [Fax Service]","IFaxServer interface [Fax Service]","described","_mfax_ifaxserver_client","fax._mfax_ifaxserver_client","faxcom/IFaxServer"]
 old-location: fax\_mfax_ifaxserver_client.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_8dx0.htm

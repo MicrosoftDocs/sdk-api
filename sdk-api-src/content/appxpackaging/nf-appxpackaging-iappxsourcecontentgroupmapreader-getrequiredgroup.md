@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxSourceContentGroupMapReader.GetRequiredGroup
 title: IAppxSourceContentGroupMapReader::GetRequiredGroup (appxpackaging.h)
-description: Gets the required content group from the source content group map.helpviewer_keywords: ["GetRequiredGroup","GetRequiredGroup method [App packaging and management]","GetRequiredGroup method [App packaging and management]","IAppxSourceContentGroupMapReader interface","IAppxSourceContentGroupMapReader interface [App packaging and management]","GetRequiredGroup method","IAppxSourceContentGroupMapReader.GetRequiredGroup","IAppxSourceContentGroupMapReader::GetRequiredGroup","appxpackaging/IAppxSourceContentGroupMapReader::GetRequiredGroup","appxpkg.iappxsourcecontentgroupmapreader_getrequiredgroup"]
+description: Gets the required content group from the source content group map.
+helpviewer_keywords: ["GetRequiredGroup","GetRequiredGroup method [App packaging and management]","GetRequiredGroup method [App packaging and management]","IAppxSourceContentGroupMapReader interface","IAppxSourceContentGroupMapReader interface [App packaging and management]","GetRequiredGroup method","IAppxSourceContentGroupMapReader.GetRequiredGroup","IAppxSourceContentGroupMapReader::GetRequiredGroup","appxpackaging/IAppxSourceContentGroupMapReader::GetRequiredGroup","appxpkg.iappxsourcecontentgroupmapreader_getrequiredgroup"]
 old-location: appxpkg\iappxsourcecontentgroupmapreader_getrequiredgroup.htm
 tech.root: appxpkg
 ms.assetid: 4C85F79F-CD91-4038-AF23-413E04CBA5AA

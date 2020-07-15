@@ -1,7 +1,8 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0005
 title: WDSTRANSPORT_SERVICE_NOTIFICATION (wdstptmgmt.h)
-description: Specifies what action needs to be taken when notifying WDS transport services, such as rereading their settings following a configuration change.helpviewer_keywords: ["*PWDSTRANSPORT_SERVICE_NOTIFICATION","WDSTRANSPORT_SERVICE_NOTIFICATION","WDSTRANSPORT_SERVICE_NOTIFICATION enumeration [Windows Deployment Services]","WdsTptServiceNotifyReadSettings","WdsTptServiceNotifyUnknown","wds.wdstransport_service_notification","wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION","wdstptmgmt/WdsTptServiceNotifyReadSettings","wdstptmgmt/WdsTptServiceNotifyUnknown"]
+description: Specifies what action needs to be taken when notifying WDS transport services, such as rereading their settings following a configuration change.
+helpviewer_keywords: ["*PWDSTRANSPORT_SERVICE_NOTIFICATION","WDSTRANSPORT_SERVICE_NOTIFICATION","WDSTRANSPORT_SERVICE_NOTIFICATION enumeration [Windows Deployment Services]","WdsTptServiceNotifyReadSettings","WdsTptServiceNotifyUnknown","wds.wdstransport_service_notification","wdstptmgmt/WDSTRANSPORT_SERVICE_NOTIFICATION","wdstptmgmt/WdsTptServiceNotifyReadSettings","wdstptmgmt/WdsTptServiceNotifyUnknown"]
 old-location: wds\wdstransport_service_notification.htm
 tech.root: wds
 ms.assetid: d239241d-efe9-409b-8425-c71382b27c05

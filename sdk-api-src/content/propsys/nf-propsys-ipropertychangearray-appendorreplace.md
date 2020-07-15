@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyChangeArray.AppendOrReplace
 title: IPropertyChangeArray::AppendOrReplace (propsys.h)
-description: Replaces the first occurrence of a change that affects the same property key as the provided change. If the property key is not already in the array, this method appends the change to the end of the array.helpviewer_keywords: ["AppendOrReplace","AppendOrReplace method [Windows Properties]","AppendOrReplace method [Windows Properties]","IPropertyChangeArray interface","IPropertyChangeArray interface [Windows Properties]","AppendOrReplace method","IPropertyChangeArray.AppendOrReplace","IPropertyChangeArray::AppendOrReplace","_shell_IPropertyChangeArray_AppendOrReplace","properties.IPropertyChangeArray_AppendOrReplace","propsys/IPropertyChangeArray::AppendOrReplace","shell.IPropertyChangeArray_AppendOrReplace"]
+description: Replaces the first occurrence of a change that affects the same property key as the provided change. If the property key is not already in the array, this method appends the change to the end of the array.
+helpviewer_keywords: ["AppendOrReplace","AppendOrReplace method [Windows Properties]","AppendOrReplace method [Windows Properties]","IPropertyChangeArray interface","IPropertyChangeArray interface [Windows Properties]","AppendOrReplace method","IPropertyChangeArray.AppendOrReplace","IPropertyChangeArray::AppendOrReplace","_shell_IPropertyChangeArray_AppendOrReplace","properties.IPropertyChangeArray_AppendOrReplace","propsys/IPropertyChangeArray::AppendOrReplace","shell.IPropertyChangeArray_AppendOrReplace"]
 old-location: properties\IPropertyChangeArray_AppendOrReplace.htm
 tech.root: properties
 ms.assetid: e4006738-d986-4fcb-899c-bbc4853ec6c1

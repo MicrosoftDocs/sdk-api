@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CRYPT_X942_OTHER_INFO
 title: CRYPT_X942_OTHER_INFO (wincrypt.h)
-description: The CRYPT_X942_OTHER_INFO structure contains additional key generation information.helpviewer_keywords: ["*PCRYPT_X942_OTHER_INFO","CRYPT_X942_OTHER_INFO","CRYPT_X942_OTHER_INFO structure [Security]","PCRYPT_X942_OTHER_INFO","PCRYPT_X942_OTHER_INFO structure pointer [Security]","_crypto2_crypt_x942_other_info","security.crypt_x942_other_info","wincrypt/CRYPT_X942_OTHER_INFO","wincrypt/PCRYPT_X942_OTHER_INFO"]
+description: The CRYPT_X942_OTHER_INFO structure contains additional key generation information.
+helpviewer_keywords: ["*PCRYPT_X942_OTHER_INFO","CRYPT_X942_OTHER_INFO","CRYPT_X942_OTHER_INFO structure [Security]","PCRYPT_X942_OTHER_INFO","PCRYPT_X942_OTHER_INFO structure pointer [Security]","_crypto2_crypt_x942_other_info","security.crypt_x942_other_info","wincrypt/CRYPT_X942_OTHER_INFO","wincrypt/PCRYPT_X942_OTHER_INFO"]
 old-location: security\crypt_x942_other_info.htm
 tech.root: SecCrypto
 ms.assetid: 7761af36-ad16-4628-86cb-16cbded6fb69

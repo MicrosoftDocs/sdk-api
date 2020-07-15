@@ -1,7 +1,8 @@
 ---
 UID: NF:imagehlp.MapFileAndCheckSumW
 title: MapFileAndCheckSumW function (imagehlp.h)
-description: Computes the checksum of the specified file.helpviewer_keywords: ["MapFileAndCheckSum","MapFileAndCheckSum function","MapFileAndCheckSumA","MapFileAndCheckSumW","_win32_mapfileandchecksum","base.mapfileandchecksum","imagehlp/MapFileAndCheckSum","imagehlp/MapFileAndCheckSumA","imagehlp/MapFileAndCheckSumW"]
+description: Computes the checksum of the specified file.
+helpviewer_keywords: ["MapFileAndCheckSum","MapFileAndCheckSum function","MapFileAndCheckSumA","MapFileAndCheckSumW","_win32_mapfileandchecksum","base.mapfileandchecksum","imagehlp/MapFileAndCheckSum","imagehlp/MapFileAndCheckSumA","imagehlp/MapFileAndCheckSumW"]
 old-location: base\mapfileandchecksum.htm
 tech.root: Debug
 ms.assetid: e8fac3cc-bddf-419d-a245-d7af84d2c7f7
@@ -158,6 +159,10 @@ All ImageHlp functions, such as this one, are single threaded. Therefore, calls 
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The imagehlp.h header defines MapFileAndCheckSum as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsFreeWriter
 title: WsFreeWriter function (webservices.h)
-description: Releases the memory resource associated with an XML Writer object.helpviewer_keywords: ["WsFreeWriter","WsFreeWriter function [Web Services for Windows]","webservices/WsFreeWriter","wsw.wsfreewriter"]
+description: Releases the memory resource associated with an XML Writer object.
+helpviewer_keywords: ["WsFreeWriter","WsFreeWriter function [Web Services for Windows]","webservices/WsFreeWriter","wsw.wsfreewriter"]
 old-location: wsw\wsfreewriter.htm
 tech.root: wsw
 ms.assetid: eb1eb835-838a-41e4-9e7d-c5c805237f65

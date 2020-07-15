@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetPrivateProfileIntW
 title: GetPrivateProfileIntW function (winbase.h)
-description: Retrieves an integer associated with a key in the specified section of an initialization file.helpviewer_keywords: ["GetPrivateProfileInt","GetPrivateProfileInt function","GetPrivateProfileIntA","GetPrivateProfileIntW","_win32_getprivateprofileint","base.getprivateprofileint","winbase/GetPrivateProfileInt","winbase/GetPrivateProfileIntA","winbase/GetPrivateProfileIntW"]
+description: Retrieves an integer associated with a key in the specified section of an initialization file.
+helpviewer_keywords: ["GetPrivateProfileInt","GetPrivateProfileInt function","GetPrivateProfileIntA","GetPrivateProfileIntW","_win32_getprivateprofileint","base.getprivateprofileint","winbase/GetPrivateProfileInt","winbase/GetPrivateProfileIntA","winbase/GetPrivateProfileIntW"]
 old-location: base\getprivateprofileint.htm
 tech.root: SysInfo
 ms.assetid: dcb48ec3-7172-4bcc-a833-23e34a73d70b
@@ -138,6 +139,10 @@ When looking at values in the registry that specify other registry locations, th
 </ul>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines GetPrivateProfileInt as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

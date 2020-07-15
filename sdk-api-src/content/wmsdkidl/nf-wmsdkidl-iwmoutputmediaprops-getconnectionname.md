@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMOutputMediaProps.GetConnectionName
 title: IWMOutputMediaProps::GetConnectionName (wmsdkidl.h)
-description: The GetConnectionName method retrieves the name of the connection to be used for output.helpviewer_keywords: ["GetConnectionName","GetConnectionName method [windows Media Format]","GetConnectionName method [windows Media Format]","IWMOutputMediaProps interface","IWMOutputMediaProps interface [windows Media Format]","GetConnectionName method","IWMOutputMediaProps.GetConnectionName","IWMOutputMediaProps::GetConnectionName","IWMOutputMediaPropsGetConnectionName","wmformat.iwmoutputmediaprops_getconnectionname","wmsdkidl/IWMOutputMediaProps::GetConnectionName"]
+description: The GetConnectionName method retrieves the name of the connection to be used for output.
+helpviewer_keywords: ["GetConnectionName","GetConnectionName method [windows Media Format]","GetConnectionName method [windows Media Format]","IWMOutputMediaProps interface","IWMOutputMediaProps interface [windows Media Format]","GetConnectionName method","IWMOutputMediaProps.GetConnectionName","IWMOutputMediaProps::GetConnectionName","IWMOutputMediaPropsGetConnectionName","wmformat.iwmoutputmediaprops_getconnectionname","wmsdkidl/IWMOutputMediaProps::GetConnectionName"]
 old-location: wmformat\iwmoutputmediaprops_getconnectionname.htm
 tech.root: wmformat
 ms.assetid: 93367398-07aa-4c14-85c8-e3a904bd4564

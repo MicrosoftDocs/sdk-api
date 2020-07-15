@@ -83,6 +83,7 @@ The function returns the original value of the <i>Destination</i> parameter.
 
 The interlocked functions provide a simple mechanism for synchronizing access to a variable that is shared by multiple threads. This function is atomic with respect to calls to other interlocked functions.
 
+
 For the Intel Itanium-based systems and x64 architectures, this function is implemented using the compiler intrinsic. For the x86 architecture, use the <a href="/previous-versions/b11125ze(v=vs.85)">_InterlockedOr8</a> compiler intrinsic directly.
 
 This function  generates a full memory barrier (or fence) to ensure that memory operations are completed in order.
@@ -95,7 +96,6 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 ## -see-also
-
 
 
 
@@ -164,7 +164,3 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
-

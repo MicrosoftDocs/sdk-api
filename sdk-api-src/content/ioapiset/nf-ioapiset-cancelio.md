@@ -1,7 +1,8 @@
 ---
 UID: NF:ioapiset.CancelIo
 title: CancelIo function (ioapiset.h)
-description: Cancels all pending input and output (I/O) operations that are issued by the calling thread for the specified file.helpviewer_keywords: ["CancelIo","CancelIo function [Files]","_win32_cancelio","base.cancelio","fs.cancelio","ioapiset/CancelIo","winbase/CancelIo"]
+description: Cancels all pending input and output (I/O) operations that are issued by the calling thread for the specified file.
+helpviewer_keywords: ["CancelIo","CancelIo function [Files]","_win32_cancelio","base.cancelio","fs.cancelio","ioapiset/CancelIo","winbase/CancelIo"]
 old-location: fs\cancelio.htm
 tech.root: FileIO
 ms.assetid: b28162dc-0da8-41c6-9901-29381d2d72c4

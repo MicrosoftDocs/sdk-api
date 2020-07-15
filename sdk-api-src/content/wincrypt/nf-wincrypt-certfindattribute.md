@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CertFindAttribute
 title: CertFindAttribute function (wincrypt.h)
-description: The CertFindAttribute function finds the first attribute in the CRYPT_ATTRIBUTE array, as identified by its object identifier (OID).helpviewer_keywords: ["CertFindAttribute","CertFindAttribute function [Security]","_crypto2_certfindattribute","security.certfindattribute","wincrypt/CertFindAttribute"]
+description: The CertFindAttribute function finds the first attribute in the CRYPT_ATTRIBUTE array, as identified by its object identifier (OID).
+helpviewer_keywords: ["CertFindAttribute","CertFindAttribute function [Security]","_crypto2_certfindattribute","security.certfindattribute","wincrypt/CertFindAttribute"]
 old-location: security\certfindattribute.htm
 tech.root: SecCrypto
 ms.assetid: 99d690fb-ea85-4cb1-9fb0-bdb02e4ac50a

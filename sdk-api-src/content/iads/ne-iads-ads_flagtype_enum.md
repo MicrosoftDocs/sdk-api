@@ -1,7 +1,8 @@
 ---
 UID: NE:iads.__MIDL___MIDL_itf_ads_0001_0048_0004
 title: ADS_FLAGTYPE_ENUM (iads.h)
-description: The ADS_FLAGTYPE_ENUM enumeration specifies values that can be used to indicate the presence of the ObjectType or InheritedObjectType fields in the access-control entry (ACE).helpviewer_keywords: ["ADS_FLAGTYPE_ENUM","ADS_FLAGTYPE_ENUM enumeration [ADSI]","ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT","ADS_FLAG_OBJECT_TYPE_PRESENT","_ds_ads_flagtype_enum","adsi.ads__flagtype__enum","adsi.ads_flagtype_enum","iads/ADS_FLAGTYPE_ENUM","iads/ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT","iads/ADS_FLAG_OBJECT_TYPE_PRESENT"]
+description: The ADS_FLAGTYPE_ENUM enumeration specifies values that can be used to indicate the presence of the ObjectType or InheritedObjectType fields in the access-control entry (ACE).
+helpviewer_keywords: ["ADS_FLAGTYPE_ENUM","ADS_FLAGTYPE_ENUM enumeration [ADSI]","ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT","ADS_FLAG_OBJECT_TYPE_PRESENT","_ds_ads_flagtype_enum","adsi.ads__flagtype__enum","adsi.ads_flagtype_enum","iads/ADS_FLAGTYPE_ENUM","iads/ADS_FLAG_INHERITED_OBJECT_TYPE_PRESENT","iads/ADS_FLAG_OBJECT_TYPE_PRESENT"]
 old-location: adsi\ads_flagtype_enum.htm
 tech.root: adsi
 ms.assetid: 6c3354d8-8df7-476d-af21-63725e5ed778

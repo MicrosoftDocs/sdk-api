@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1EffectContext.CreateBorderTransform
 title: ID2D1EffectContext::CreateBorderTransform (d2d1effectauthor.h)
-description: Creates a transform that extends its input infinitely in every direction based on the passed in extend mode.helpviewer_keywords: ["CreateBorderTransform","CreateBorderTransform method [Direct2D]","CreateBorderTransform method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateBorderTransform method","ID2D1EffectContext.CreateBorderTransform","ID2D1EffectContext::CreateBorderTransform","d2d1effectauthor/ID2D1EffectContext::CreateBorderTransform","direct2d.id2d1contextinternal_createbordertransform"]
+description: Creates a transform that extends its input infinitely in every direction based on the passed in extend mode.
+helpviewer_keywords: ["CreateBorderTransform","CreateBorderTransform method [Direct2D]","CreateBorderTransform method [Direct2D]","ID2D1EffectContext interface","ID2D1EffectContext interface [Direct2D]","CreateBorderTransform method","ID2D1EffectContext.CreateBorderTransform","ID2D1EffectContext::CreateBorderTransform","d2d1effectauthor/ID2D1EffectContext::CreateBorderTransform","direct2d.id2d1contextinternal_createbordertransform"]
 old-location: direct2d\id2d1contextinternal_createbordertransform.htm
 tech.root: Direct2D
 ms.assetid: E1FC2BF9-7287-4F9B-BDCF-3CD6EC8B849D

@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IManagedObjectInfo.SetWrapperStrength
 title: IManagedObjectInfo::SetWrapperStrength (comsvcs.h)
-description: Sets whether the managed object holds a strong or a weak reference to the COM+ context.helpviewer_keywords: ["IManagedObjectInfo interface [COM+]","SetWrapperStrength method","IManagedObjectInfo.SetWrapperStrength","IManagedObjectInfo::SetWrapperStrength","SetWrapperStrength","SetWrapperStrength method [COM+]","SetWrapperStrength method [COM+]","IManagedObjectInfo interface","_cos_IManagedObjectInfo_SetWrapperStrength","comsvcs/IManagedObjectInfo::SetWrapperStrength","cos.imanagedobjectinfo_setwrapperstrength"]
+description: Sets whether the managed object holds a strong or a weak reference to the COM+ context.
+helpviewer_keywords: ["IManagedObjectInfo interface [COM+]","SetWrapperStrength method","IManagedObjectInfo.SetWrapperStrength","IManagedObjectInfo::SetWrapperStrength","SetWrapperStrength","SetWrapperStrength method [COM+]","SetWrapperStrength method [COM+]","IManagedObjectInfo interface","_cos_IManagedObjectInfo_SetWrapperStrength","comsvcs/IManagedObjectInfo::SetWrapperStrength","cos.imanagedobjectinfo_setwrapperstrength"]
 old-location: cos\imanagedobjectinfo_setwrapperstrength.htm
 tech.root: cossdk
 ms.assetid: 0f03c6cb-4bfc-4871-8f5b-78ccc8df8838

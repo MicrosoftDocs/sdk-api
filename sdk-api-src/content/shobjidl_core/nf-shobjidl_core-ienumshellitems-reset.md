@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IEnumShellItems.Reset
 title: IEnumShellItems::Reset (shobjidl_core.h)
-description: Resets the internal count of retrieved IShellItem interfaces in the enumeration.helpviewer_keywords: ["IEnumShellItems interface [Windows Shell]","Reset method","IEnumShellItems.Reset","IEnumShellItems::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumShellItems interface","_shell_IEnumShellItems_Reset","shell.IEnumShellItems_Reset","shobjidl_core/IEnumShellItems::Reset"]
+description: Resets the internal count of retrieved IShellItem interfaces in the enumeration.
+helpviewer_keywords: ["IEnumShellItems interface [Windows Shell]","Reset method","IEnumShellItems.Reset","IEnumShellItems::Reset","Reset","Reset method [Windows Shell]","Reset method [Windows Shell]","IEnumShellItems interface","_shell_IEnumShellItems_Reset","shell.IEnumShellItems_Reset","shobjidl_core/IEnumShellItems::Reset"]
 old-location: shell\IEnumShellItems_Reset.htm
 tech.root: shell
 ms.assetid: e0208a68-0513-4fa9-88ae-2147cf61bcb5

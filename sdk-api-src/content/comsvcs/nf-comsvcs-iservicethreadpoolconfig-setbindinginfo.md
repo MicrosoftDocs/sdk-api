@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IServiceThreadPoolConfig.SetBindingInfo
 title: IServiceThreadPoolConfig::SetBindingInfo (comsvcs.h)
-description: Binds all work submitted by the activity to a single single-threaded apartment.helpviewer_keywords: ["IServiceThreadPoolConfig interface [COM+]","SetBindingInfo method","IServiceThreadPoolConfig.SetBindingInfo","IServiceThreadPoolConfig::SetBindingInfo","SetBindingInfo","SetBindingInfo method [COM+]","SetBindingInfo method [COM+]","IServiceThreadPoolConfig interface","_cos_IServiceThreadPoolConfig_SetBindingInfo","comsvcs/IServiceThreadPoolConfig::SetBindingInfo","cos.iservicethreadpoolconfig_setbindinginfo"]
+description: Binds all work submitted by the activity to a single single-threaded apartment.
+helpviewer_keywords: ["IServiceThreadPoolConfig interface [COM+]","SetBindingInfo method","IServiceThreadPoolConfig.SetBindingInfo","IServiceThreadPoolConfig::SetBindingInfo","SetBindingInfo","SetBindingInfo method [COM+]","SetBindingInfo method [COM+]","IServiceThreadPoolConfig interface","_cos_IServiceThreadPoolConfig_SetBindingInfo","comsvcs/IServiceThreadPoolConfig::SetBindingInfo","cos.iservicethreadpoolconfig_setbindinginfo"]
 old-location: cos\iservicethreadpoolconfig_setbindinginfo.htm
 tech.root: cossdk
 ms.assetid: 9d2c4e6f-aa12-4874-a8e0-ca21a981b43f

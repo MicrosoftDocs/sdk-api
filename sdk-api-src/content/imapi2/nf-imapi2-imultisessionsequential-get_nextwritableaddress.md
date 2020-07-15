@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IMultisessionSequential.get_NextWritableAddress
 title: IMultisessionSequential::get_NextWritableAddress (imapi2.h)
-description: Retrieves the next writable address on the media, including used sectors.helpviewer_keywords: ["IMultisessionSequential interface [IMAPI]","get_NextWritableAddress method","IMultisessionSequential.get_NextWritableAddress","IMultisessionSequential::get_NextWritableAddress","get_NextWritableAddress","get_NextWritableAddress method [IMAPI]","get_NextWritableAddress method [IMAPI]","IMultisessionSequential interface","imapi.imultisessionsequential_get_nextwritableaddress","imapi2/IMultisessionSequential::get_NextWritableAddress"]
+description: Retrieves the next writable address on the media, including used sectors.
+helpviewer_keywords: ["IMultisessionSequential interface [IMAPI]","get_NextWritableAddress method","IMultisessionSequential.get_NextWritableAddress","IMultisessionSequential::get_NextWritableAddress","get_NextWritableAddress","get_NextWritableAddress method [IMAPI]","get_NextWritableAddress method [IMAPI]","IMultisessionSequential interface","imapi.imultisessionsequential_get_nextwritableaddress","imapi2/IMultisessionSequential::get_NextWritableAddress"]
 old-location: imapi\imultisessionsequential_get_nextwritableaddress.htm
 tech.root: imapi
 ms.assetid: 52bc2a66-e2ac-473b-8b17-1c2d642a76f8

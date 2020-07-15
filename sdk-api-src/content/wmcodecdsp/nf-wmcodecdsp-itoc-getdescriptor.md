@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetDescriptor
 title: IToc::GetDescriptor (wmcodecdsp.h)
-description: The GetDescriptor method retrieves the descriptor, previously set by SetDescriptor, of the table of contents.helpviewer_keywords: ["GetDescriptor","GetDescriptor method [Media Foundation]","GetDescriptor method [Media Foundation]","IToc interface","IToc interface [Media Foundation]","GetDescriptor method","IToc.GetDescriptor","IToc::GetDescriptor","codecapi.itoc_getdescriptor","mf.itoc_getdescriptor","wmcodecdsp/IToc::GetDescriptor"]
+description: The GetDescriptor method retrieves the descriptor, previously set by SetDescriptor, of the table of contents.
+helpviewer_keywords: ["GetDescriptor","GetDescriptor method [Media Foundation]","GetDescriptor method [Media Foundation]","IToc interface","IToc interface [Media Foundation]","GetDescriptor method","IToc.GetDescriptor","IToc::GetDescriptor","codecapi.itoc_getdescriptor","mf.itoc_getdescriptor","wmcodecdsp/IToc::GetDescriptor"]
 old-location: mf\itoc_getdescriptor.htm
 tech.root: medfound
 ms.assetid: 4568b50f-a777-4c3d-8c71-66737d24b7cd

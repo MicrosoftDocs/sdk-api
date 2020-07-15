@@ -1,7 +1,8 @@
 ---
 UID: NS:ddkmapi._DDSETSURFACETATE
 title: DDSETSURFACESTATE (ddkmapi.h)
-description: The DDSETSURFACESTATE structure contains the surface state information.helpviewer_keywords: ["*LPDDSETSURFACESTATE","DDSETSURFACESTATE","DDSETSURFACESTATE structure [Display Devices]","LPDDSETSURFACESTATE","LPDDSETSURFACESTATE structure pointer [Display Devices]","ddkmapi/DDSETSURFACESTATE","ddkmapi/LPDDSETSURFACESTATE","ddstrcts_ddf8814f-d375-4b3c-93dc-0a77d12f3aab.xml","display.ddsetsurfacestate"]
+description: The DDSETSURFACESTATE structure contains the surface state information.
+helpviewer_keywords: ["*LPDDSETSURFACESTATE","DDSETSURFACESTATE","DDSETSURFACESTATE structure [Display Devices]","LPDDSETSURFACESTATE","LPDDSETSURFACESTATE structure pointer [Display Devices]","ddkmapi/DDSETSURFACESTATE","ddkmapi/LPDDSETSURFACESTATE","ddstrcts_ddf8814f-d375-4b3c-93dc-0a77d12f3aab.xml","display.ddsetsurfacestate"]
 old-location: display\ddsetsurfacestate.htm
 tech.root: display
 ms.assetid: a54b1496-1f7e-4ba9-acb3-2debbe7e980d

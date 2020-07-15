@@ -1,7 +1,8 @@
 ---
 UID: NE:icftypes.NET_FW_PROFILE_TYPE2_
 title: NET_FW_PROFILE_TYPE2 (icftypes.h)
-description: Specifies the type of profile.helpviewer_keywords: ["NET_FW_PROFILE2_ALL","NET_FW_PROFILE2_DOMAIN","NET_FW_PROFILE2_PRIVATE","NET_FW_PROFILE2_PUBLIC","NET_FW_PROFILE_TYPE2","NET_FW_PROFILE_TYPE2 enumeration [ICS/ICF]","NET_FW_PROFILE_TYPE2_","icftypes/NET_FW_PROFILE2_ALL","icftypes/NET_FW_PROFILE2_DOMAIN","icftypes/NET_FW_PROFILE2_PRIVATE","icftypes/NET_FW_PROFILE2_PUBLIC","icftypes/NET_FW_PROFILE_TYPE2","ics.net_fw_profile_type2"]
+description: Specifies the type of profile.
+helpviewer_keywords: ["NET_FW_PROFILE2_ALL","NET_FW_PROFILE2_DOMAIN","NET_FW_PROFILE2_PRIVATE","NET_FW_PROFILE2_PUBLIC","NET_FW_PROFILE_TYPE2","NET_FW_PROFILE_TYPE2 enumeration [ICS/ICF]","NET_FW_PROFILE_TYPE2_","icftypes/NET_FW_PROFILE2_ALL","icftypes/NET_FW_PROFILE2_DOMAIN","icftypes/NET_FW_PROFILE2_PRIVATE","icftypes/NET_FW_PROFILE2_PUBLIC","icftypes/NET_FW_PROFILE_TYPE2","ics.net_fw_profile_type2"]
 old-location: ics\net_fw_profile_type2.htm
 tech.root: ics
 ms.assetid: cb8328ec-a2eb-4d6f-b6af-214a31a037e9

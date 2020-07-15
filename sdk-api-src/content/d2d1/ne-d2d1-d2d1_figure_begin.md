@@ -1,7 +1,8 @@
 ---
 UID: NE:d2d1.D2D1_FIGURE_BEGIN
 title: D2D1_FIGURE_BEGIN (d2d1.h)
-description: Indicates whether a specific ID2D1SimplifiedGeometrySink figure is filled or hollow.helpviewer_keywords: ["D2D1_FIGURE_BEGIN","D2D1_FIGURE_BEGIN enumeration [Direct2D]","D2D1_FIGURE_BEGIN_FILLED","D2D1_FIGURE_BEGIN_HOLLOW","d2d1/D2D1_FIGURE_BEGIN","d2d1/D2D1_FIGURE_BEGIN_FILLED","d2d1/D2D1_FIGURE_BEGIN_HOLLOW","direct2d.D2D1_FIGURE_BEGIN"]
+description: Indicates whether a specific ID2D1SimplifiedGeometrySink figure is filled or hollow.
+helpviewer_keywords: ["D2D1_FIGURE_BEGIN","D2D1_FIGURE_BEGIN enumeration [Direct2D]","D2D1_FIGURE_BEGIN_FILLED","D2D1_FIGURE_BEGIN_HOLLOW","d2d1/D2D1_FIGURE_BEGIN","d2d1/D2D1_FIGURE_BEGIN_FILLED","d2d1/D2D1_FIGURE_BEGIN_HOLLOW","direct2d.D2D1_FIGURE_BEGIN"]
 old-location: direct2d\D2D1_FIGURE_BEGIN.htm
 tech.root: Direct2D
 ms.assetid: c29aa79e-b978-4318-a8e1-5a321cd66327

@@ -1,7 +1,8 @@
 ---
 UID: NF:http.HttpSetRequestQueueProperty
 title: HttpSetRequestQueueProperty function (http.h)
-description: Sets a new property or modifies an existing property on the request queue identified by the specified handle.helpviewer_keywords: ["HttpServer503VerbosityProperty","HttpServerQueueLengthProperty","HttpServerStateProperty","HttpSetRequestQueueProperty","HttpSetRequestQueueProperty function [HTTP]","http.httpsetrequestqueueproperty","http/HttpSetRequestQueueProperty"]
+description: Sets a new property or modifies an existing property on the request queue identified by the specified handle.
+helpviewer_keywords: ["HttpServer503VerbosityProperty","HttpServerQueueLengthProperty","HttpServerStateProperty","HttpSetRequestQueueProperty","HttpSetRequestQueueProperty function [HTTP]","http.httpsetrequestqueueproperty","http/HttpSetRequestQueueProperty"]
 old-location: http\httpsetrequestqueueproperty.htm
 tech.root: http
 ms.assetid: 56111cc0-94c8-47dc-a3bb-ffc5dae772fe

@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IDvbLogicalChannelDescriptor
 title: IDvbLogicalChannelDescriptor (dvbsiparser.h)
-description: The IDvbLogicalChannelDescriptor interface enables the client to get a logical channel descriptor from a DVB stream.helpviewer_keywords: ["IDvbLogicalChannelDescriptor","IDvbLogicalChannelDescriptor interface [DirectShow]","IDvbLogicalChannelDescriptor interface [DirectShow]","described","IDvbLogicalChannelDescriptorInterface","dvbsiparser/IDvbLogicalChannelDescriptor","mstv.idvblogicalchanneldescriptor"]
+description: The IDvbLogicalChannelDescriptor interface enables the client to get a logical channel descriptor from a DVB stream.
+helpviewer_keywords: ["IDvbLogicalChannelDescriptor","IDvbLogicalChannelDescriptor interface [DirectShow]","IDvbLogicalChannelDescriptor interface [DirectShow]","described","IDvbLogicalChannelDescriptorInterface","dvbsiparser/IDvbLogicalChannelDescriptor","mstv.idvblogicalchanneldescriptor"]
 old-location: mstv\idvblogicalchanneldescriptor.htm
 tech.root: mstv
 ms.assetid: 6e0a99e9-088f-420c-bb60-2d324aa28227

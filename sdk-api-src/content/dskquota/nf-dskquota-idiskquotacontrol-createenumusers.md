@@ -1,7 +1,8 @@
 ---
 UID: NF:dskquota.IDiskQuotaControl.CreateEnumUsers
 title: IDiskQuotaControl::CreateEnumUsers (dskquota.h)
-description: Creates an enumerator object for enumerating quota users on the volume.helpviewer_keywords: ["CreateEnumUsers","CreateEnumUsers method [Files]","CreateEnumUsers method [Files]","IDiskQuotaControl interface","DISKQUOTA_USERNAME_RESOLVE_ASYNC","DISKQUOTA_USERNAME_RESOLVE_NONE","DISKQUOTA_USERNAME_RESOLVE_SYNC","IDiskQuotaControl interface [Files]","CreateEnumUsers method","IDiskQuotaControl.CreateEnumUsers","IDiskQuotaControl::CreateEnumUsers","_win32_idiskquotacontrol_createenumusers","base.idiskquotacontrol_createenumusers","dskquota/IDiskQuotaControl::CreateEnumUsers","fs.idiskquotacontrol_createenumusers"]
+description: Creates an enumerator object for enumerating quota users on the volume.
+helpviewer_keywords: ["CreateEnumUsers","CreateEnumUsers method [Files]","CreateEnumUsers method [Files]","IDiskQuotaControl interface","DISKQUOTA_USERNAME_RESOLVE_ASYNC","DISKQUOTA_USERNAME_RESOLVE_NONE","DISKQUOTA_USERNAME_RESOLVE_SYNC","IDiskQuotaControl interface [Files]","CreateEnumUsers method","IDiskQuotaControl.CreateEnumUsers","IDiskQuotaControl::CreateEnumUsers","_win32_idiskquotacontrol_createenumusers","base.idiskquotacontrol_createenumusers","dskquota/IDiskQuotaControl::CreateEnumUsers","fs.idiskquotacontrol_createenumusers"]
 old-location: fs\idiskquotacontrol_createenumusers.htm
 tech.root: FileIO
 ms.assetid: a29e1955-80e2-442d-9565-c885006be565

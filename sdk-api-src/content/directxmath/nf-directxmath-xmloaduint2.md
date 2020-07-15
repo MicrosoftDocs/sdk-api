@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMLoadUInt2
 title: XMLoadUInt2 function (directxmath.h)
-description: Loads unsigned integer data into the x and y components of an XMVECTOR.helpviewer_keywords: ["Use DirectX..XMLoadUInt2","XMLoadUInt2","XMLoadUInt2 method [DirectX Math Support APIs]","dxmath.xmloaduint2"]
+description: Loads unsigned integer data into the x and y components of an XMVECTOR.
+helpviewer_keywords: ["Use DirectX..XMLoadUInt2","XMLoadUInt2","XMLoadUInt2 method [DirectX Math Support APIs]","dxmath.xmloaduint2"]
 old-location: dxmath\xmloaduint2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadUInt2(const XMUINT2)

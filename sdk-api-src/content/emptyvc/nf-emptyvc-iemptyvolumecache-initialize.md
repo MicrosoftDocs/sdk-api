@@ -1,7 +1,8 @@
 ---
 UID: NF:emptyvc.IEmptyVolumeCache.Initialize
 title: IEmptyVolumeCache::Initialize (emptyvc.h)
-description: Initializes the disk cleanup handler, based on the information stored under the specified registry key.helpviewer_keywords: ["EVCF_DONTSHOWIFZERO","EVCF_ENABLEBYDEFAULT","EVCF_ENABLEBYDEFAULT_AUTO","EVCF_HASSETTINGS","EVCF_OUTOFDISKSPACE","EVCF_REMOVEFROMLIST","EVCF_SETTINGSMODE","IEmptyVolumeCache interface [Legacy Windows Environment Features]","Initialize method","IEmptyVolumeCache.Initialize","IEmptyVolumeCache::Initialize","Initialize","Initialize method [Legacy Windows Environment Features]","Initialize method [Legacy Windows Environment Features]","IEmptyVolumeCache interface","These flags can be passed by the handler back to the disk cleanup manager:","These flags can be passed in to the object:","_win32_IEmptyVolumeCache_Initialize","emptyvc/IEmptyVolumeCache::Initialize","lwef.iemptyvolumecache_initialize","shell.iemptyvolumecache_initialize"]
+description: Initializes the disk cleanup handler, based on the information stored under the specified registry key.
+helpviewer_keywords: ["EVCF_DONTSHOWIFZERO","EVCF_ENABLEBYDEFAULT","EVCF_ENABLEBYDEFAULT_AUTO","EVCF_HASSETTINGS","EVCF_OUTOFDISKSPACE","EVCF_REMOVEFROMLIST","EVCF_SETTINGSMODE","IEmptyVolumeCache interface [Legacy Windows Environment Features]","Initialize method","IEmptyVolumeCache.Initialize","IEmptyVolumeCache::Initialize","Initialize","Initialize method [Legacy Windows Environment Features]","Initialize method [Legacy Windows Environment Features]","IEmptyVolumeCache interface","These flags can be passed by the handler back to the disk cleanup manager:","These flags can be passed in to the object:","_win32_IEmptyVolumeCache_Initialize","emptyvc/IEmptyVolumeCache::Initialize","lwef.iemptyvolumecache_initialize","shell.iemptyvolumecache_initialize"]
 old-location: lwef\iemptyvolumecache_initialize.htm
 tech.root: lwef
 ms.assetid: e0d66c58-6963-4694-984f-6f4a710d08c0

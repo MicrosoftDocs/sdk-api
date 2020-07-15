@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IAttachmentExecute
 title: IAttachmentExecute (shobjidl_core.h)
-description: Exposes methods that work with client applications to present a user environment that provides safe download and exchange of files through email and messaging attachments.helpviewer_keywords: ["IAttachmentExecute","IAttachmentExecute interface [Windows Shell]","IAttachmentExecute interface [Windows Shell]","described","_win32_IAttachmentExecute","shell.IAttachmentExecute","shobjidl_core/IAttachmentExecute"]
+description: Exposes methods that work with client applications to present a user environment that provides safe download and exchange of files through email and messaging attachments.
+helpviewer_keywords: ["IAttachmentExecute","IAttachmentExecute interface [Windows Shell]","IAttachmentExecute interface [Windows Shell]","described","_win32_IAttachmentExecute","shell.IAttachmentExecute","shobjidl_core/IAttachmentExecute"]
 old-location: shell\IAttachmentExecute.htm
 tech.root: shell
 ms.assetid: 2ebc3197-aa28-446e-8452-8ff71764fa9d

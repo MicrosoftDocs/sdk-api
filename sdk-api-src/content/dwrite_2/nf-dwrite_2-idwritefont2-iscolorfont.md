@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_2.IDWriteFont2.IsColorFont
 title: IDWriteFont2::IsColorFont (dwrite_2.h)
-description: Enables determining if a color rendering path is potentially necessary.helpviewer_keywords: ["IDWriteFont2 interface [Direct Write]","IsColorFont method","IDWriteFont2.IsColorFont","IDWriteFont2::IsColorFont","IsColorFont","IsColorFont method [Direct Write]","IsColorFont method [Direct Write]","IDWriteFont2 interface","directwrite.idwritefont2_iscolorfont","dwrite_2/IDWriteFont2::IsColorFont"]
+description: Enables determining if a color rendering path is potentially necessary.
+helpviewer_keywords: ["IDWriteFont2 interface [Direct Write]","IsColorFont method","IDWriteFont2.IsColorFont","IDWriteFont2::IsColorFont","IsColorFont","IsColorFont method [Direct Write]","IsColorFont method [Direct Write]","IDWriteFont2 interface","directwrite.idwritefont2_iscolorfont","dwrite_2/IDWriteFont2::IsColorFont"]
 old-location: directwrite\idwritefont2_iscolorfont.htm
 tech.root: DirectWrite
 ms.assetid: E21BB773-923E-461B-B966-A186ACD0164A

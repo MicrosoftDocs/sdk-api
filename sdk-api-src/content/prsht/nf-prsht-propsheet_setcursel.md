@@ -1,7 +1,8 @@
 ---
 UID: NF:prsht.PropSheet_SetCurSel
 title: PropSheet_SetCurSel macro (prsht.h)
-description: Activates the specified page in a property sheet. You can use this macro or send the PSM_SETCURSEL message explicitly.helpviewer_keywords: ["PropSheet_SetCurSel","PropSheet_SetCurSel macro [Windows Controls]","_win32_PropSheet_SetCurSel","_win32_PropSheet_SetCurSel_cpp","controls.PropSheet_SetCurSel","controls._win32_PropSheet_SetCurSel","prsht/PropSheet_SetCurSel"]
+description: Activates the specified page in a property sheet. You can use this macro or send the PSM_SETCURSEL message explicitly.
+helpviewer_keywords: ["PropSheet_SetCurSel","PropSheet_SetCurSel macro [Windows Controls]","_win32_PropSheet_SetCurSel","_win32_PropSheet_SetCurSel_cpp","controls.PropSheet_SetCurSel","controls._win32_PropSheet_SetCurSel","prsht/PropSheet_SetCurSel"]
 old-location: controls\PropSheet_SetCurSel.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\macros\propsheet_setcursel.htm

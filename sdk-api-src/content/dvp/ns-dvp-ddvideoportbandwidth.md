@@ -1,7 +1,8 @@
 ---
 UID: NS:dvp._DDVIDEOPORTBANDWIDTH
 title: DDVIDEOPORTBANDWIDTH (dvp.h)
-description: The DDVIDEOPORTBANDWIDTH structure describes the bandwidth characteristics of an overlay when used with a particular video port extensions (VPE) object/pixel format configuration.helpviewer_keywords: ["*LPDDVIDEOPORTBANDWIDTH","DDVIDEOPORTBANDWIDTH","DDVIDEOPORTBANDWIDTH structure [Display Devices]","ddstrcts_e3e483bd-3cb2-41e2-9563-c6d8e5970c21.xml","display.ddvideoportbandwidth","dvp/DDVIDEOPORTBANDWIDTH"]
+description: The DDVIDEOPORTBANDWIDTH structure describes the bandwidth characteristics of an overlay when used with a particular video port extensions (VPE) object/pixel format configuration.
+helpviewer_keywords: ["*LPDDVIDEOPORTBANDWIDTH","DDVIDEOPORTBANDWIDTH","DDVIDEOPORTBANDWIDTH structure [Display Devices]","ddstrcts_e3e483bd-3cb2-41e2-9563-c6d8e5970c21.xml","display.ddvideoportbandwidth","dvp/DDVIDEOPORTBANDWIDTH"]
 old-location: display\ddvideoportbandwidth.htm
 tech.root: display
 ms.assetid: 3e13874d-294e-4161-8131-f78799b2e90e

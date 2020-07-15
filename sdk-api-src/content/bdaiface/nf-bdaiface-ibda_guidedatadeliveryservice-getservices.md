@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetServices
 title: IBDA_GuideDataDeliveryService::GetServices (bdaiface.h)
-description: Gets a list of services that are available on the the media transform device (MTD).helpviewer_keywords: ["GetServices","GetServices method [Microsoft TV Technologies]","GetServices method [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","GetServices method","IBDA_GuideDataDeliveryService.GetServices","IBDA_GuideDataDeliveryService::GetServices","bdaiface/IBDA_GuideDataDeliveryService::GetServices","mstv.ibda_guidedatadeliveryservice_getservices"]
+description: Gets a list of services that are available on the the media transform device (MTD).
+helpviewer_keywords: ["GetServices","GetServices method [Microsoft TV Technologies]","GetServices method [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","GetServices method","IBDA_GuideDataDeliveryService.GetServices","IBDA_GuideDataDeliveryService::GetServices","bdaiface/IBDA_GuideDataDeliveryService::GetServices","mstv.ibda_guidedatadeliveryservice_getservices"]
 old-location: mstv\ibda_guidedatadeliveryservice_getservices.htm
 tech.root: mstv
 ms.assetid: 82133fc5-0f42-4b24-abf6-bc46e72650ac

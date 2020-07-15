@@ -1,7 +1,8 @@
 ---
 UID: NS:dxva2api._DXVA2_ConfigPictureDecode
 title: DXVA2_ConfigPictureDecode (dxva2api.h)
-description: Describes the configuration of a DXVA decoder device.helpviewer_keywords: ["1515cfa9-24ff-4c65-adca-f4143d36685c","DXVA2_ConfigPictureDecode","DXVA2_ConfigPictureDecode structure [Media Foundation]","dxva2api/DXVA2_ConfigPictureDecode","mf.dxva2_configpicturedecode"]
+description: Describes the configuration of a DXVA decoder device.
+helpviewer_keywords: ["1515cfa9-24ff-4c65-adca-f4143d36685c","DXVA2_ConfigPictureDecode","DXVA2_ConfigPictureDecode structure [Media Foundation]","dxva2api/DXVA2_ConfigPictureDecode","mf.dxva2_configpicturedecode"]
 old-location: mf\dxva2_configpicturedecode.htm
 tech.root: medfound
 ms.assetid: 1515cfa9-24ff-4c65-adca-f4143d36685c

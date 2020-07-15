@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit._nmhdr
 title: NMHDR (richedit.h)
-description: Contains information about a notification message.helpviewer_keywords: ["NMHDR","NMHDR structure [Windows Controls]","_win32_NMHDR_str","_win32_NMHDR_str_cpp","controls.NMHDR","controls._win32_NMHDR_str","richedit/NMHDR"]
+description: Contains information about a notification message.
+helpviewer_keywords: ["NMHDR","NMHDR structure [Windows Controls]","_win32_NMHDR_str","_win32_NMHDR_str_cpp","controls.NMHDR","controls._win32_NMHDR_str","richedit/NMHDR"]
 old-location: controls\NMHDR.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\structures\nmhdr.htm

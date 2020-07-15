@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_CLOSE_LISTENER_CALLBACK
 title: WS_CLOSE_LISTENER_CALLBACK (webservices.h)
-description: Handles the WsCloseListener call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_CLOSE_LISTENER_CALLBACK","WS_CLOSE_LISTENER_CALLBACK callback","WS_CLOSE_LISTENER_CALLBACK callback function [Web Services for Windows]","webservices/WS_CLOSE_LISTENER_CALLBACK","wsw.ws_close_listener_callback"]
+description: Handles the WsCloseListener call for a WS_CUSTOM_CHANNEL_BINDING.
+helpviewer_keywords: ["WS_CLOSE_LISTENER_CALLBACK","WS_CLOSE_LISTENER_CALLBACK callback","WS_CLOSE_LISTENER_CALLBACK callback function [Web Services for Windows]","webservices/WS_CLOSE_LISTENER_CALLBACK","wsw.ws_close_listener_callback"]
 old-location: wsw\ws_close_listener_callback.htm
 tech.root: wsw
 ms.assetid: 9a5d6b10-b4c8-41ba-9b69-4537e44416df

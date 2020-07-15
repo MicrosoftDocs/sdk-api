@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12shader.ID3D12FunctionReflection.GetFunctionParameter
 title: ID3D12FunctionReflection::GetFunctionParameter (d3d12shader.h)
-description: Gets the function parameter reflector.helpviewer_keywords: ["GetFunctionParameter","GetFunctionParameter method","GetFunctionParameter method","ID3D12FunctionReflection interface","ID3D12FunctionReflection interface","GetFunctionParameter method","ID3D12FunctionReflection.GetFunctionParameter","ID3D12FunctionReflection::GetFunctionParameter","d3d12shader/ID3D12FunctionReflection::GetFunctionParameter","direct3d12.id3d12functionreflection_getfunctionparameter"]
+description: Gets the function parameter reflector.
+helpviewer_keywords: ["GetFunctionParameter","GetFunctionParameter method","GetFunctionParameter method","ID3D12FunctionReflection interface","ID3D12FunctionReflection interface","GetFunctionParameter method","ID3D12FunctionReflection.GetFunctionParameter","ID3D12FunctionReflection::GetFunctionParameter","d3d12shader/ID3D12FunctionReflection::GetFunctionParameter","direct3d12.id3d12functionreflection_getfunctionparameter"]
 old-location: direct3d12\id3d12functionreflection_getfunctionparameter.htm
 tech.root: direct3d12
 ms.assetid: 88372A4E-596E-41F9-9FF4-9FD7E7F351DA

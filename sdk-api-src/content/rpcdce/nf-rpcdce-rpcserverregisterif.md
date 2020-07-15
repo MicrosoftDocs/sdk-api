@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.RpcServerRegisterIf
 title: RpcServerRegisterIf function (rpcdce.h)
-description: The RpcServerRegisterIf function registers an interface with the RPC run-time library.helpviewer_keywords: ["RpcServerRegisterIf","RpcServerRegisterIf function [RPC]","_rpc_rpcserverregisterif","rpc.rpcserverregisterif","rpcdce/RpcServerRegisterIf"]
+description: The RpcServerRegisterIf function registers an interface with the RPC run-time library.
+helpviewer_keywords: ["RpcServerRegisterIf","RpcServerRegisterIf function [RPC]","_rpc_rpcserverregisterif","rpc.rpcserverregisterif","rpcdce/RpcServerRegisterIf"]
 old-location: rpc\rpcserverregisterif.htm
 tech.root: Rpc
 ms.assetid: f7f6a7c3-ce6c-4b8b-9853-596c39a0e76d

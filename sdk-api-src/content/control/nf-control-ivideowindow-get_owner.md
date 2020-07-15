@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IVideoWindow.get_Owner
 title: IVideoWindow::get_Owner (control.h)
-description: The get_Owner method retrieves the video window's parent window, if any.helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_Owner method","IVideoWindow.get_Owner","IVideoWindow::get_Owner","IVideoWindowget_Owner","control/IVideoWindow::get_Owner","dshow.ivideowindow_get_owner","get_Owner","get_Owner method [DirectShow]","get_Owner method [DirectShow]","IVideoWindow interface"]
+description: The get_Owner method retrieves the video window's parent window, if any.
+helpviewer_keywords: ["IVideoWindow interface [DirectShow]","get_Owner method","IVideoWindow.get_Owner","IVideoWindow::get_Owner","IVideoWindowget_Owner","control/IVideoWindow::get_Owner","dshow.ivideowindow_get_owner","get_Owner","get_Owner method [DirectShow]","get_Owner method [DirectShow]","IVideoWindow interface"]
 old-location: dshow\ivideowindow_get_owner.htm
 tech.root: DirectShow
 ms.assetid: 9bb21c2a-25c6-43fa-a1b0-9f09944f1326

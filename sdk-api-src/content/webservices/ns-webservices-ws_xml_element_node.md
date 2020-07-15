@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_ELEMENT_NODE
 title: WS_XML_ELEMENT_NODE (webservices.h)
-description: Represents a start element in xml (e.g.helpviewer_keywords: ["WS_XML_ELEMENT_NODE","WS_XML_ELEMENT_NODE structure [Web Services for Windows]","webservices/WS_XML_ELEMENT_NODE","wsw.ws_xml_element_node"]
+description: Represents a start element in xml (e.g.
+helpviewer_keywords: ["WS_XML_ELEMENT_NODE","WS_XML_ELEMENT_NODE structure [Web Services for Windows]","webservices/WS_XML_ELEMENT_NODE","wsw.ws_xml_element_node"]
 old-location: wsw\ws_xml_element_node.htm
 tech.root: wsw
 ms.assetid: 32157ddf-ace2-49dc-85d7-b04e25e85693

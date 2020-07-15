@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_QNAME_TEXT
 title: WS_XML_QNAME_TEXT (webservices.h)
-description: Represents a qname formatted as the text &#0034;prefix:localName&#0034;helpviewer_keywords: ["WS_XML_QNAME_TEXT","WS_XML_QNAME_TEXT structure [Web Services for Windows]","webservices/WS_XML_QNAME_TEXT","wsw.ws_xml_qname_text"]
+description: Represents a qname formatted as the text &quot;prefix:localName&quot;
+helpviewer_keywords: ["WS_XML_QNAME_TEXT","WS_XML_QNAME_TEXT structure [Web Services for Windows]","webservices/WS_XML_QNAME_TEXT","wsw.ws_xml_qname_text"]
 old-location: wsw\ws_xml_qname_text.htm
 tech.root: wsw
 ms.assetid: 8c32f3f1-6a75-4f3f-96d3-1c84f6b20558

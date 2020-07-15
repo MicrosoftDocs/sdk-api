@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcdce.UuidCreateNil
 title: UuidCreateNil function (rpcdce.h)
-description: The UuidCreateNil function creates a nil-valued UUID.helpviewer_keywords: ["UuidCreateNil","UuidCreateNil function [RPC]","_rpc_uuidcreatenil","rpc.uuidcreatenil","rpcdce/UuidCreateNil"]
+description: The UuidCreateNil function creates a nil-valued UUID.
+helpviewer_keywords: ["UuidCreateNil","UuidCreateNil function [RPC]","_rpc_uuidcreatenil","rpc.uuidcreatenil","rpcdce/UuidCreateNil"]
 old-location: rpc\uuidcreatenil.htm
 tech.root: Rpc
 ms.assetid: ee955482-e786-4478-bbaa-7c574ab1ecc5

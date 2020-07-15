@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngInitializeSafeSemaphore
 title: EngInitializeSafeSemaphore function (winddi.h)
-description: The EngInitializeSafeSemaphore function initializes the specified safe semaphore.helpviewer_keywords: ["EngInitializeSafeSemaphore","EngInitializeSafeSemaphore function [Display Devices]","display.enginitializesafesemaphore","gdifncs_92f07217-a6d2-4996-99a9-eb289a713e19.xml","winddi/EngInitializeSafeSemaphore"]
+description: The EngInitializeSafeSemaphore function initializes the specified safe semaphore.
+helpviewer_keywords: ["EngInitializeSafeSemaphore","EngInitializeSafeSemaphore function [Display Devices]","display.enginitializesafesemaphore","gdifncs_92f07217-a6d2-4996-99a9-eb289a713e19.xml","winddi/EngInitializeSafeSemaphore"]
 old-location: display\enginitializesafesemaphore.htm
 tech.root: display
 ms.assetid: 17b614b0-1c41-442c-b787-978eac3ade45

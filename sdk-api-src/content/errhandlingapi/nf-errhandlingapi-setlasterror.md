@@ -1,7 +1,8 @@
 ---
 UID: NF:errhandlingapi.SetLastError
 title: SetLastError function (errhandlingapi.h)
-description: Sets the last-error code for the calling thread.helpviewer_keywords: ["SetLastError","SetLastError function","_win32_setlasterror","base.setlasterror","errhandlingapi/SetLastError"]
+description: Sets the last-error code for the calling thread.
+helpviewer_keywords: ["SetLastError","SetLastError function","_win32_setlasterror","base.setlasterror","errhandlingapi/SetLastError"]
 old-location: base\setlasterror.htm
 tech.root: Debug
 ms.assetid: d9da833f-36ca-4046-8d2f-cd4449dd3c63

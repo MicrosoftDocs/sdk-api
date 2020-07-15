@@ -1,7 +1,8 @@
 ---
 UID: NF:werapi.WerFreeString
 title: WerFreeString function (werapi.h)
-description: Frees up the memory used to store a report key string. This should be called after each successive call to WerStoreGetFirstReportKey or WerStoreGetNextReportKey, once the particular report key string has been used and is no longer needed.helpviewer_keywords: ["WerFreeString","WerFreeString function [Windows Error Reporting]","wer.werfreestring","werapi/WerFreeString"]
+description: Frees up the memory used to store a report key string. This should be called after each successive call to WerStoreGetFirstReportKey or WerStoreGetNextReportKey, once the particular report key string has been used and is no longer needed.
+helpviewer_keywords: ["WerFreeString","WerFreeString function [Windows Error Reporting]","wer.werfreestring","werapi/WerFreeString"]
 old-location: wer\werfreestring.htm
 tech.root: wer
 ms.assetid: 748AEFD4-3310-4BC1-A3DA-CFACBA31F2FC

@@ -1,7 +1,8 @@
 ---
 UID: NF:restartmanager.RmGetList
 title: RmGetList function (restartmanager.h)
-description: Gets a list of all applications and services that are currently using resources that have been registered with the Restart Manager session.helpviewer_keywords: ["RmGetList","RmGetList function [Restart Mgr]","restartmanager/RmGetList","rstmgr.rmgetlist"]
+description: Gets a list of all applications and services that are currently using resources that have been registered with the Restart Manager session.
+helpviewer_keywords: ["RmGetList","RmGetList function [Restart Mgr]","restartmanager/RmGetList","rstmgr.rmgetlist"]
 old-location: rstmgr\rmgetlist.htm
 tech.root: rstmgr
 ms.assetid: de4feea4-2b45-4430-a4b3-8ca26c455e42

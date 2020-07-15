@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineMSPIdentify
 title: TSPI_lineMSPIdentify function (tspi.h)
-description: The TSPI_lineMSPIdentify function determines the associated MSP CLSID for every line. This function requires TAPI 3.0 version negotiation.helpviewer_keywords: ["TSPI_lineMSPIdentify","TSPI_lineMSPIdentify function [TAPI 2.2]","_tspi_tspi_linemspidentify","tspi.tspi_linemspidentify","tspi/TSPI_lineMSPIdentify"]
+description: The TSPI_lineMSPIdentify function determines the associated MSP CLSID for every line. This function requires TAPI 3.0 version negotiation.
+helpviewer_keywords: ["TSPI_lineMSPIdentify","TSPI_lineMSPIdentify function [TAPI 2.2]","_tspi_tspi_linemspidentify","tspi.tspi_linemspidentify","tspi/TSPI_lineMSPIdentify"]
 old-location: tspi\tspi_linemspidentify.htm
 tech.root: Tapi
 ms.assetid: a4fe8d2e-7257-49de-b5d1-e343cadad59a

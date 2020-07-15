@@ -1,7 +1,8 @@
 ---
 UID: NF:bits4_0.IBitsTokenOptions.GetHelperTokenFlags
 title: IBitsTokenOptions::GetHelperTokenFlags (bits4_0.h)
-description: Returns the usage flags for a token that is associated with a BITS transfer job.helpviewer_keywords: ["BG_TOKEN_LOCAL_FILE","BG_TOKEN_NETWORK","GetHelperTokenFlags","GetHelperTokenFlags method [BITS]","GetHelperTokenFlags method [BITS]","IBitsTokenOptions interface","IBitsTokenOptions interface [BITS]","GetHelperTokenFlags method","IBitsTokenOptions.GetHelperTokenFlags","IBitsTokenOptions::GetHelperTokenFlags","bits.ibitstokenoptions_gethelpertokenflags","bits4_0/IBitsTokenOptions::GetHelperTokenFlags"]
+description: Returns the usage flags for a token that is associated with a BITS transfer job.
+helpviewer_keywords: ["BG_TOKEN_LOCAL_FILE","BG_TOKEN_NETWORK","GetHelperTokenFlags","GetHelperTokenFlags method [BITS]","GetHelperTokenFlags method [BITS]","IBitsTokenOptions interface","IBitsTokenOptions interface [BITS]","GetHelperTokenFlags method","IBitsTokenOptions.GetHelperTokenFlags","IBitsTokenOptions::GetHelperTokenFlags","bits.ibitstokenoptions_gethelpertokenflags","bits4_0/IBitsTokenOptions::GetHelperTokenFlags"]
 old-location: bits\ibitstokenoptions_gethelpertokenflags.htm
 tech.root: Bits
 ms.assetid: d00596bf-7695-4a5e-8d13-4700876fdef6

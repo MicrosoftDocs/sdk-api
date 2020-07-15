@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.GetOpacityMaskBrush
 title: IXpsOMVisual::GetOpacityMaskBrush (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMBrush interface of the visual's opacity mask brush.helpviewer_keywords: ["GetOpacityMaskBrush","GetOpacityMaskBrush method [XPS Documents and Packaging]","GetOpacityMaskBrush method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetOpacityMaskBrush method","IXpsOMVisual.GetOpacityMaskBrush","IXpsOMVisual::GetOpacityMaskBrush","xps.ixpsomvisual_getopacitymaskbrush","xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrush"]
+description: Gets a pointer to the IXpsOMBrush interface of the visual's opacity mask brush.
+helpviewer_keywords: ["GetOpacityMaskBrush","GetOpacityMaskBrush method [XPS Documents and Packaging]","GetOpacityMaskBrush method [XPS Documents and Packaging]","IXpsOMVisual interface","IXpsOMVisual interface [XPS Documents and Packaging]","GetOpacityMaskBrush method","IXpsOMVisual.GetOpacityMaskBrush","IXpsOMVisual::GetOpacityMaskBrush","xps.ixpsomvisual_getopacitymaskbrush","xpsobjectmodel/IXpsOMVisual::GetOpacityMaskBrush"]
 old-location: xps\ixpsomvisual_getopacitymaskbrush.htm
 tech.root: printdocs
 ms.assetid: df5b770e-cc66-45ee-b865-2959255920bf

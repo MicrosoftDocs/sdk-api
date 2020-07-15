@@ -1,7 +1,8 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.Detach
 title: ISharedBitmap::Detach (thumbcache.h)
-description: Retrieves the bitmap contained in an ISharedBitmap object, and returns a copy if the contained bitmap resides in shared memory.helpviewer_keywords: ["Detach","Detach method [Windows Shell]","Detach method [Windows Shell]","ISharedBitmap interface","ISharedBitmap interface [Windows Shell]","Detach method","ISharedBitmap.Detach","ISharedBitmap::Detach","_shell__Detach","shell.ISharedBitmap_Detach","thumbcache/ISharedBitmap::Detach"]
+description: Retrieves the bitmap contained in an ISharedBitmap object, and returns a copy if the contained bitmap resides in shared memory.
+helpviewer_keywords: ["Detach","Detach method [Windows Shell]","Detach method [Windows Shell]","ISharedBitmap interface","ISharedBitmap interface [Windows Shell]","Detach method","ISharedBitmap.Detach","ISharedBitmap::Detach","_shell__Detach","shell.ISharedBitmap_Detach","thumbcache/ISharedBitmap::Detach"]
 old-location: shell\ISharedBitmap_Detach.htm
 tech.root: shell
 ms.assetid: 1d68beca-c254-435e-a1cd-04e7aa462c84

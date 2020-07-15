@@ -1,7 +1,8 @@
 ---
 UID: NF:winfax.FaxEnumPortsA
 title: FaxEnumPortsA function (winfax.h)
-description: The FaxEnumPorts function enumerates all fax devices currently attached to the fax server to which the client has connected. The function returns detailed information for each fax port to the fax client application.helpviewer_keywords: ["FaxEnumPorts","FaxEnumPorts function [Fax Service]","FaxEnumPortsA","FaxEnumPortsW","_mfax_faxenumports","fax._mfax_faxenumports","winfax/FaxEnumPorts","winfax/FaxEnumPortsA","winfax/FaxEnumPortsW"]
+description: The FaxEnumPorts function enumerates all fax devices currently attached to the fax server to which the client has connected. The function returns detailed information for each fax port to the fax client application.
+helpviewer_keywords: ["FaxEnumPorts","FaxEnumPorts function [Fax Service]","FaxEnumPortsA","FaxEnumPortsW","_mfax_faxenumports","fax._mfax_faxenumports","winfax/FaxEnumPorts","winfax/FaxEnumPortsA","winfax/FaxEnumPortsW"]
 old-location: fax\_mfax_faxenumports.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0ir7.htm
@@ -145,6 +146,10 @@ The <b>FaxEnumPorts</b> function allocates the memory required for the <a href="
 
 
 
+
+
+> [!NOTE]
+> The winfax.h header defines FaxEnumPorts as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

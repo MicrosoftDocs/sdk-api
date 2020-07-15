@@ -1,7 +1,8 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_REFERENCE_FLAGS
 title: EVT_CHANNEL_REFERENCE_FLAGS (winevt.h)
-description: Defines the values that specify how a channel is referenced.helpviewer_keywords: ["EVT_CHANNEL_REFERENCE_FLAGS","EVT_CHANNEL_REFERENCE_FLAGS enumeration [EventLog]","EvtChannelReferenceImported","wes.evt_channel_reference_flags","winevt/EVT_CHANNEL_REFERENCE_FLAGS","winevt/EvtChannelReferenceImported"]
+description: Defines the values that specify how a channel is referenced.
+helpviewer_keywords: ["EVT_CHANNEL_REFERENCE_FLAGS","EVT_CHANNEL_REFERENCE_FLAGS enumeration [EventLog]","EvtChannelReferenceImported","wes.evt_channel_reference_flags","winevt/EVT_CHANNEL_REFERENCE_FLAGS","winevt/EvtChannelReferenceImported"]
 old-location: wes\evt_channel_reference_flags.htm
 tech.root: wes
 ms.assetid: 4f86dce0-1b01-4258-af86-b3fe1eca010a

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_PatternOrURL
 title: ISearchScopeRule::get_PatternOrURL (searchapi.h)
-description: Gets the pattern or URL for the rule. The scope rules determine what URLs or paths to include or exclude.helpviewer_keywords: ["ISearchScopeRule interface [search]","get_PatternOrURL method","ISearchScopeRule.get_PatternOrURL","ISearchScopeRule::get_PatternOrURL","_search_ISearchScopeRule_get_PatternOrURL","get_PatternOrURL","get_PatternOrURL method [search]","get_PatternOrURL method [search]","ISearchScopeRule interface","search._search_ISearchScopeRule_get_PatternOrURL","searchapi/ISearchScopeRule::get_PatternOrURL"]
+description: Gets the pattern or URL for the rule. The scope rules determine what URLs or paths to include or exclude.
+helpviewer_keywords: ["ISearchScopeRule interface [search]","get_PatternOrURL method","ISearchScopeRule.get_PatternOrURL","ISearchScopeRule::get_PatternOrURL","_search_ISearchScopeRule_get_PatternOrURL","get_PatternOrURL","get_PatternOrURL method [search]","get_PatternOrURL method [search]","ISearchScopeRule interface","search._search_ISearchScopeRule_get_PatternOrURL","searchapi/ISearchScopeRule::get_PatternOrURL"]
 old-location: search\_search_ISearchScopeRule_get_PatternOrURL.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_patternorurl.htm
@@ -85,7 +86,4 @@ A pattern might look like this: <code> file:///c:\documents and settings\*\appli
 
 Only exclusion rules use patterns.
 
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

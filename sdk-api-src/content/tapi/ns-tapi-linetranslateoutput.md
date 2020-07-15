@@ -1,7 +1,8 @@
 ---
 UID: NS:tapi.linetranslateoutput_tag
 title: LINETRANSLATEOUTPUT (tapi.h)
-description: The LINETRANSLATEOUTPUT structure describes the result of an address translation. The lineTranslateAddress function uses this structure.helpviewer_keywords: ["*LPLINETRANSLATEOUTPUT","LINETRANSLATEOUTPUT","LINETRANSLATEOUTPUT structure [TAPI 2.2]","LPLINETRANSLATEOUTPUT","LPLINETRANSLATEOUTPUT structure pointer [TAPI 2.2]","_tapi2_linetranslateoutput_str","tapi/LINETRANSLATEOUTPUT","tapi/LPLINETRANSLATEOUTPUT","tapi2.linetranslateoutput_str"]
+description: The LINETRANSLATEOUTPUT structure describes the result of an address translation. The lineTranslateAddress function uses this structure.
+helpviewer_keywords: ["*LPLINETRANSLATEOUTPUT","LINETRANSLATEOUTPUT","LINETRANSLATEOUTPUT structure [TAPI 2.2]","LPLINETRANSLATEOUTPUT","LPLINETRANSLATEOUTPUT structure pointer [TAPI 2.2]","_tapi2_linetranslateoutput_str","tapi/LINETRANSLATEOUTPUT","tapi/LPLINETRANSLATEOUTPUT","tapi2.linetranslateoutput_str"]
 old-location: tapi2\linetranslateoutput_str.htm
 tech.root: Tapi
 ms.assetid: bcf094ad-8098-4e45-9131-25dbdb7e4093

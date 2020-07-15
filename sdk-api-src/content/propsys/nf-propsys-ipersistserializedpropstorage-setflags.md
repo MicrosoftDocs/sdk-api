@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPersistSerializedPropStorage.SetFlags
 title: IPersistSerializedPropStorage::SetFlags (propsys.h)
-description: Toggles the property store object between the read-only and read/write state.helpviewer_keywords: ["FPSPS_DEFAULT","FPSPS_READONLY","FPSPS_TREAT_NEW_VALUES_AS_DIRTY","IPersistSerializedPropStorage interface [Windows Shell]","SetFlags method","IPersistSerializedPropStorage.SetFlags","IPersistSerializedPropStorage::SetFlags","SetFlags","SetFlags method [Windows Shell]","SetFlags method [Windows Shell]","IPersistSerializedPropStorage interface","_shell_IPersistSerializedPropStorage_SetFlags","propsys/IPersistSerializedPropStorage::SetFlags","shell.IPersistSerializedPropStorage_SetFlags"]
+description: Toggles the property store object between the read-only and read/write state.
+helpviewer_keywords: ["FPSPS_DEFAULT","FPSPS_READONLY","FPSPS_TREAT_NEW_VALUES_AS_DIRTY","IPersistSerializedPropStorage interface [Windows Shell]","SetFlags method","IPersistSerializedPropStorage.SetFlags","IPersistSerializedPropStorage::SetFlags","SetFlags","SetFlags method [Windows Shell]","SetFlags method [Windows Shell]","IPersistSerializedPropStorage interface","_shell_IPersistSerializedPropStorage_SetFlags","propsys/IPersistSerializedPropStorage::SetFlags","shell.IPersistSerializedPropStorage_SetFlags"]
 old-location: shell\IPersistSerializedPropStorage_SetFlags.htm
 tech.root: shell
 ms.assetid: df7a817e-de81-4e27-ab37-192e668bf7fa

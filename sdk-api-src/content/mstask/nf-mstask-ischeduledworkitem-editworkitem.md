@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.EditWorkItem
 title: IScheduledWorkItem::EditWorkItem (mstask.h)
-description: Displays the Task, Schedule, and settings property pages for the work item, allowing a user set the properties on those pages.helpviewer_keywords: ["EditWorkItem","EditWorkItem method [Task Scheduler]","EditWorkItem method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","EditWorkItem method","IScheduledWorkItem.EditWorkItem","IScheduledWorkItem::EditWorkItem","_msb_ischeduledworkitem_editworkitem","mstask/IScheduledWorkItem::EditWorkItem","taskschd.ischeduledworkitem_editworkitem"]
+description: Displays the Task, Schedule, and settings property pages for the work item, allowing a user set the properties on those pages.
+helpviewer_keywords: ["EditWorkItem","EditWorkItem method [Task Scheduler]","EditWorkItem method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","EditWorkItem method","IScheduledWorkItem.EditWorkItem","IScheduledWorkItem::EditWorkItem","_msb_ischeduledworkitem_editworkitem","mstask/IScheduledWorkItem::EditWorkItem","taskschd.ischeduledworkitem_editworkitem"]
 old-location: taskschd\ischeduledworkitem_editworkitem.htm
 tech.root: taskschd
 ms.assetid: 3b0b335a-4386-4726-8758-ef5944cb5dfe

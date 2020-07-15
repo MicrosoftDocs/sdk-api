@@ -1,7 +1,8 @@
 ---
 UID: NN:mfidl.IMFTrustedOutput
 title: IMFTrustedOutput (mfidl.h)
-description: Implemented by components that provide output trust authorities (OTAs).helpviewer_keywords: ["14342d8b-3c76-4c13-8cbe-a60bb66084c8","IMFTrustedOutput","IMFTrustedOutput interface [Media Foundation]","IMFTrustedOutput interface [Media Foundation]","described","mf.imftrustedoutput","mfidl/IMFTrustedOutput"]
+description: Implemented by components that provide output trust authorities (OTAs).
+helpviewer_keywords: ["14342d8b-3c76-4c13-8cbe-a60bb66084c8","IMFTrustedOutput","IMFTrustedOutput interface [Media Foundation]","IMFTrustedOutput interface [Media Foundation]","described","mf.imftrustedoutput","mfidl/IMFTrustedOutput"]
 old-location: mf\imftrustedoutput.htm
 tech.root: medfound
 ms.assetid: 14342d8b-3c76-4c13-8cbe-a60bb66084c8

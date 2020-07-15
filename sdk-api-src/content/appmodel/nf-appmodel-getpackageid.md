@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.GetPackageId
 title: GetPackageId function (appmodel.h)
-description: Gets the package identifier (ID) for the specified process.helpviewer_keywords: ["GetPackageId","GetPackageId function [App packaging and management]","appmodel/GetPackageId","appxpkg.getpackageid"]
+description: Gets the package identifier (ID) for the specified process.
+helpviewer_keywords: ["GetPackageId","GetPackageId function [App packaging and management]","appmodel/GetPackageId","appxpkg.getpackageid"]
 old-location: appxpkg\getpackageid.htm
 tech.root: appxpkg
 ms.assetid: BA5D87F5-72FD-48BE-A104-EC7D1459FD58

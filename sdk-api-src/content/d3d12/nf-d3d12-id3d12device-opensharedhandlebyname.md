@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device.OpenSharedHandleByName
 title: ID3D12Device::OpenSharedHandleByName (d3d12.h)
-description: Opens a handle for shared resources, shared heaps, and shared fences, by using Name and Access.helpviewer_keywords: ["ID3D12Device interface","OpenSharedHandleByName method","ID3D12Device.OpenSharedHandleByName","ID3D12Device::OpenSharedHandleByName","OpenSharedHandleByName","OpenSharedHandleByName method","OpenSharedHandleByName method","ID3D12Device interface","d3d12/ID3D12Device::OpenSharedHandleByName","direct3d12.id3d12device_opensharedhandlebyname"]
+description: Opens a handle for shared resources, shared heaps, and shared fences, by using Name and Access.
+helpviewer_keywords: ["ID3D12Device interface","OpenSharedHandleByName method","ID3D12Device.OpenSharedHandleByName","ID3D12Device::OpenSharedHandleByName","OpenSharedHandleByName","OpenSharedHandleByName method","OpenSharedHandleByName method","ID3D12Device interface","d3d12/ID3D12Device::OpenSharedHandleByName","direct3d12.id3d12device_opensharedhandlebyname"]
 old-location: direct3d12\id3d12device_opensharedhandlebyname.htm
 tech.root: direct3d12
 ms.assetid: 4866BD8B-31F8-47E0-9228-5F61D6CA2190

@@ -1,7 +1,8 @@
 ---
 UID: NF:snmp.SnmpExtensionInit
 title: SnmpExtensionInit function (snmp.h)
-description: The Microsoft SNMP service calls the SnmpExtensionInit function to initialize the SNMP extension agent DLL. This function is an element of the SNMP Extension Agent API.helpviewer_keywords: ["SnmpExtensionInit","SnmpExtensionInit callback","SnmpExtensionInit callback function [SNMP]","_snmp_snmpextensioninit","snmp.snmpextensioninit","snmp/SnmpExtensionInit"]
+description: The Microsoft SNMP service calls the SnmpExtensionInit function to initialize the SNMP extension agent DLL. This function is an element of the SNMP Extension Agent API.
+helpviewer_keywords: ["SnmpExtensionInit","SnmpExtensionInit callback","SnmpExtensionInit callback function [SNMP]","_snmp_snmpextensioninit","snmp.snmpextensioninit","snmp/SnmpExtensionInit"]
 old-location: snmp\snmpextensioninit.htm
 tech.root: SNMP
 ms.assetid: 015f2be2-8e10-4abd-afd0-f76834856733

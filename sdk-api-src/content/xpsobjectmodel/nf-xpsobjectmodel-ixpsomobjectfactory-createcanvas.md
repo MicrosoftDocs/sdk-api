@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMObjectFactory.CreateCanvas
 title: IXpsOMObjectFactory::CreateCanvas (xpsobjectmodel.h)
-description: Creates an IXpsOMCanvas interface that is used to group page elements.helpviewer_keywords: ["CreateCanvas","CreateCanvas method [XPS Documents and Packaging]","CreateCanvas method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateCanvas method","IXpsOMObjectFactory.CreateCanvas","IXpsOMObjectFactory::CreateCanvas","xps.ixpsomobjectfactory_createcanvas","xpsobjectmodel/IXpsOMObjectFactory::CreateCanvas"]
+description: Creates an IXpsOMCanvas interface that is used to group page elements.
+helpviewer_keywords: ["CreateCanvas","CreateCanvas method [XPS Documents and Packaging]","CreateCanvas method [XPS Documents and Packaging]","IXpsOMObjectFactory interface","IXpsOMObjectFactory interface [XPS Documents and Packaging]","CreateCanvas method","IXpsOMObjectFactory.CreateCanvas","IXpsOMObjectFactory::CreateCanvas","xps.ixpsomobjectfactory_createcanvas","xpsobjectmodel/IXpsOMObjectFactory::CreateCanvas"]
 old-location: xps\ixpsomobjectfactory_createcanvas.htm
 tech.root: printdocs
 ms.assetid: 1ee3a80d-f6d8-45ba-8178-e3870404698a

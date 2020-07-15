@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi._PSFEATURE_CUSTPAPER
 title: PSFEATURE_CUSTPAPER (wingdi.h)
-description: The PSFEATURE_CUSTPAPER structure contains information about a custom paper size for a PostScript driver. This structure is used with the GET_PS_FEATURESETTING printer escape function.helpviewer_keywords: ["*PPSFEATURE_CUSTPAPER","PPSFEATURE_CUSTPAPER","PPSFEATURE_CUSTPAPER structure pointer [Windows GDI]","PSFEATURE_CUSTPAPER","PSFEATURE_CUSTPAPER structure [Windows GDI]","_win32_PSFEATURE_CUSTPAPER_str","gdi.psfeature_custpaper","wingdi/PPSFEATURE_CUSTPAPER","wingdi/PSFEATURE_CUSTPAPER"]
+description: The PSFEATURE_CUSTPAPER structure contains information about a custom paper size for a PostScript driver. This structure is used with the GET_PS_FEATURESETTING printer escape function.
+helpviewer_keywords: ["*PPSFEATURE_CUSTPAPER","PPSFEATURE_CUSTPAPER","PPSFEATURE_CUSTPAPER structure pointer [Windows GDI]","PSFEATURE_CUSTPAPER","PSFEATURE_CUSTPAPER structure [Windows GDI]","_win32_PSFEATURE_CUSTPAPER_str","gdi.psfeature_custpaper","wingdi/PPSFEATURE_CUSTPAPER","wingdi/PSFEATURE_CUSTPAPER"]
 old-location: gdi\psfeature_custpaper.htm
 tech.root: printdocs
 ms.assetid: 3858154c-425f-4333-a637-6d977caf7290

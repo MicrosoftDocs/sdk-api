@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.wglSetLayerPaletteEntries
 title: wglSetLayerPaletteEntries function (wingdi.h)
-description: Sets the palette entries in a given color-index layer plane for a specified device context.helpviewer_keywords: ["_ogl_wglSetLayerPaletteEntries","opengl.wglsetlayerpaletteentries","wglSetLayerPaletteEntries","wglSetLayerPaletteEntries function [OpenGL]","wingdi/wglSetLayerPaletteEntries"]
+description: Sets the palette entries in a given color-index layer plane for a specified device context.
+helpviewer_keywords: ["_ogl_wglSetLayerPaletteEntries","opengl.wglsetlayerpaletteentries","wglSetLayerPaletteEntries","wglSetLayerPaletteEntries function [OpenGL]","wingdi/wglSetLayerPaletteEntries"]
 old-location: opengl\wglsetlayerpaletteentries.htm
 tech.root: OpenGL
 ms.assetid: bc44353d-15db-4e52-970d-a290b66bc046

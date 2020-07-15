@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxOutgoingQueue.GetJob
 title: IFaxOutgoingQueue::GetJob (faxcomex.h)
-description: The IFaxOutgoingQueue::GetJob method returns an outbound fax job in the job queue according to its ID.helpviewer_keywords: ["GetJob","GetJob method [Fax Service]","GetJob method [Fax Service]","IFaxOutgoingQueue interface","IFaxOutgoingQueue interface [Fax Service]","GetJob method","IFaxOutgoingQueue.GetJob","IFaxOutgoingQueue::GetJob","_mfax_faxoutgoingqueue.getjob_cpp","fax._mfax_faxoutgoingqueue_getjob_cpp","faxcomex/IFaxOutgoingQueue::GetJob"]
+description: The IFaxOutgoingQueue::GetJob method returns an outbound fax job in the job queue according to its ID.
+helpviewer_keywords: ["GetJob","GetJob method [Fax Service]","GetJob method [Fax Service]","IFaxOutgoingQueue interface","IFaxOutgoingQueue interface [Fax Service]","GetJob method","IFaxOutgoingQueue.GetJob","IFaxOutgoingQueue::GetJob","_mfax_faxoutgoingqueue.getjob_cpp","fax._mfax_faxoutgoingqueue_getjob_cpp","faxcomex/IFaxOutgoingQueue::GetJob"]
 old-location: fax\_mfax_faxoutgoingqueue_getjob_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_3w6a_cpp.htm

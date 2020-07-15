@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.SHEnumerateUnreadMailAccountsA
 title: SHEnumerateUnreadMailAccountsA function (shellapi.h)
-description: Enumerates the user accounts that have unread email.helpviewer_keywords: ["SHEnumerateUnreadMailAccounts","SHEnumerateUnreadMailAccounts function [Windows Shell]","SHEnumerateUnreadMailAccountsA","SHEnumerateUnreadMailAccountsW","_shell_SHEnumerateUnreadMailAccounts","shell.SHEnumerateUnreadMailAccounts","shellapi/SHEnumerateUnreadMailAccounts","shellapi/SHEnumerateUnreadMailAccountsA","shellapi/SHEnumerateUnreadMailAccountsW"]
+description: Enumerates the user accounts that have unread email.
+helpviewer_keywords: ["SHEnumerateUnreadMailAccounts","SHEnumerateUnreadMailAccounts function [Windows Shell]","SHEnumerateUnreadMailAccountsA","SHEnumerateUnreadMailAccountsW","_shell_SHEnumerateUnreadMailAccounts","shell.SHEnumerateUnreadMailAccounts","shellapi/SHEnumerateUnreadMailAccounts","shellapi/SHEnumerateUnreadMailAccountsA","shellapi/SHEnumerateUnreadMailAccountsW"]
 old-location: shell\SHEnumerateUnreadMailAccounts.htm
 tech.root: shell
 ms.assetid: 67ec8355-f902-4b71-972f-94e403701f96
@@ -105,4 +106,8 @@ If this function succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l
 The <i>hKeyUser</i> parameter is the HKEY for the root of the user's information, for example <b>HKEY_CURRENT_USER</b>, or any key enumerated under <b>HKEY_USERS</b>.
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines SHEnumerateUnreadMailAccounts as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

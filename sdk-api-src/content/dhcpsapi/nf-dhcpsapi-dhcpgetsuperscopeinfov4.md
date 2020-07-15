@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpGetSuperScopeInfoV4
 title: DhcpGetSuperScopeInfoV4 function (dhcpsapi.h)
-description: Returns information on the superscope of a DHCP server.helpviewer_keywords: ["DhcpGetSuperScopeInfoV4","DhcpGetSuperScopeInfoV4 function [DHCP]","dhcp.dhcpgetsuperscopeinfov4","dhcpsapi/DhcpGetSuperScopeInfoV4"]
+description: Returns information on the superscope of a DHCP server.
+helpviewer_keywords: ["DhcpGetSuperScopeInfoV4","DhcpGetSuperScopeInfoV4 function [DHCP]","dhcp.dhcpgetsuperscopeinfov4","dhcpsapi/DhcpGetSuperScopeInfoV4"]
 old-location: dhcp\dhcpgetsuperscopeinfov4.htm
 tech.root: DHCP
 ms.assetid: f40c77b8-c8ad-432d-8a9e-6719630826ef

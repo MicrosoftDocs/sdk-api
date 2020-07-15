@@ -1,7 +1,8 @@
 ---
 UID: NF:olectl.DllUnregisterServer
 title: DllUnregisterServer function (olectl.h)
-description: Instructs an in-process server to remove only those entries created through DllRegisterServer.helpviewer_keywords: ["DllUnregisterServer","DllUnregisterServer function [COM]","_com_DllUnregisterServer","com.dllunregisterserver","olectl/DllUnregisterServer"]
+description: Instructs an in-process server to remove only those entries created through DllRegisterServer.
+helpviewer_keywords: ["DllUnregisterServer","DllUnregisterServer function [COM]","_com_DllUnregisterServer","com.dllunregisterserver","olectl/DllUnregisterServer"]
 old-location: com\dllunregisterserver.htm
 tech.root: com
 ms.assetid: b71137a7-284e-4521-a3b2-9dad9c9d3c54

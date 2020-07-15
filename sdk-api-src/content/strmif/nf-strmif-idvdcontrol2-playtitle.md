@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl2.PlayTitle
 title: IDvdControl2::PlayTitle (strmif.h)
-description: The PlayTitle method starts playback from the beginning of the specified title.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","PlayTitle method","IDvdControl2.PlayTitle","IDvdControl2::PlayTitle","IDvdControl2PlayTitle","PlayTitle","PlayTitle method [DirectShow]","PlayTitle method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_playtitle","strmif/IDvdControl2::PlayTitle"]
+description: The PlayTitle method starts playback from the beginning of the specified title.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","PlayTitle method","IDvdControl2.PlayTitle","IDvdControl2::PlayTitle","IDvdControl2PlayTitle","PlayTitle","PlayTitle method [DirectShow]","PlayTitle method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_playtitle","strmif/IDvdControl2::PlayTitle"]
 old-location: dshow\idvdcontrol2_playtitle.htm
 tech.root: DirectShow
 ms.assetid: 5cdea69e-7d32-470e-846b-1b2be5ca87b1

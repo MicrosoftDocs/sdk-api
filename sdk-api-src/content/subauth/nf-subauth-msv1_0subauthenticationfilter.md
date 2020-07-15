@@ -1,7 +1,8 @@
 ---
 UID: NF:subauth.Msv1_0SubAuthenticationFilter
 title: Msv1_0SubAuthenticationFilter function (subauth.h)
-description: Performs user logon authentication that is specific to domain controllers.helpviewer_keywords: ["LOGON_GUEST","LOGON_NOENCRYPTION","MSV1_0_GUEST_LOGON","MSV1_0_PASSTHRU","Msv1_0SubAuthenticationFilter","Msv1_0SubAuthenticationFilter function [Security]","USER_ALL_PARAMETERS","_lsa_msv1_0subauthenticationfilter","security.msv1_0subauthenticationfilter","subauth/Msv1_0SubAuthenticationFilter"]
+description: Performs user logon authentication that is specific to domain controllers.
+helpviewer_keywords: ["LOGON_GUEST","LOGON_NOENCRYPTION","MSV1_0_GUEST_LOGON","MSV1_0_PASSTHRU","Msv1_0SubAuthenticationFilter","Msv1_0SubAuthenticationFilter function [Security]","USER_ALL_PARAMETERS","_lsa_msv1_0subauthenticationfilter","security.msv1_0subauthenticationfilter","subauth/Msv1_0SubAuthenticationFilter"]
 old-location: security\msv1_0subauthenticationfilter.htm
 tech.root: SecAuthN
 ms.assetid: d7162830-8cab-4ec1-afcb-7892f5e435d3

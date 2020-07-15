@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.CLUSCTL_GET_CONTROL_OBJECT
 title: CLUSCTL_GET_CONTROL_OBJECT macro (clusapi.h)
-description: Extracts the object code from a control code. For more information on the various codes that comprise a control code, see Control Code Architecture.helpviewer_keywords: ["CLUSCTL_GET_CONTROL_OBJECT","CLUSCTL_GET_CONTROL_OBJECT macro [Failover Cluster]","_wolf_clusctl_get_control_object","clusapi/CLUSCTL_GET_CONTROL_OBJECT","mscs.clusctl_get_control_object"]
+description: Extracts the object code from a control code. For more information on the various codes that comprise a control code, see Control Code Architecture.
+helpviewer_keywords: ["CLUSCTL_GET_CONTROL_OBJECT","CLUSCTL_GET_CONTROL_OBJECT macro [Failover Cluster]","_wolf_clusctl_get_control_object","clusapi/CLUSCTL_GET_CONTROL_OBJECT","mscs.clusctl_get_control_object"]
 old-location: mscs\clusctl_get_control_object.htm
 tech.root: MsCS
 ms.assetid: b49c030e-fe7a-45cd-bbbf-0056763d827c

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITPhone.Open
 title: ITPhone::Open (tapi3if.h)
-description: The Open method opens this phone device. The phone device remains open until the application calls ITPhone::Close or until TAPI is shut down.helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","Open method","ITPhone.Open","ITPhone::Open","Open","Open method [TAPI 2.2]","Open method [TAPI 2.2]","ITPhone interface","_tapi3_itphone_open","tapi3.itphone_open","tapi3if/ITPhone::Open"]
+description: The Open method opens this phone device. The phone device remains open until the application calls ITPhone::Close or until TAPI is shut down.
+helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","Open method","ITPhone.Open","ITPhone::Open","Open","Open method [TAPI 2.2]","Open method [TAPI 2.2]","ITPhone interface","_tapi3_itphone_open","tapi3.itphone_open","tapi3if/ITPhone::Open"]
 old-location: tapi3\itphone_open.htm
 tech.root: Tapi
 ms.assetid: d9efe2f7-3628-4e1f-b554-a6889d82a973

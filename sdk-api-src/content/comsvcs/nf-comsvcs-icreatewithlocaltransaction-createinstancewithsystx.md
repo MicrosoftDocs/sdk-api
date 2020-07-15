@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ICreateWithLocalTransaction.CreateInstanceWithSysTx
 title: ICreateWithLocalTransaction::CreateInstanceWithSysTx (comsvcs.h)
-description: Creates a COM+ object that executes within the scope of the specified local transaction.helpviewer_keywords: ["CreateInstanceWithSysTx","CreateInstanceWithSysTx method [COM+]","CreateInstanceWithSysTx method [COM+]","ICreateWithLocalTransaction interface","ICreateWithLocalTransaction interface [COM+]","CreateInstanceWithSysTx method","ICreateWithLocalTransaction.CreateInstanceWithSysTx","ICreateWithLocalTransaction::CreateInstanceWithSysTx","comsvcs/ICreateWithLocalTransaction::CreateInstanceWithSysTx","cos.icreatewithlocaltransaction_createinstancewithsystx"]
+description: Creates a COM+ object that executes within the scope of the specified local transaction.
+helpviewer_keywords: ["CreateInstanceWithSysTx","CreateInstanceWithSysTx method [COM+]","CreateInstanceWithSysTx method [COM+]","ICreateWithLocalTransaction interface","ICreateWithLocalTransaction interface [COM+]","CreateInstanceWithSysTx method","ICreateWithLocalTransaction.CreateInstanceWithSysTx","ICreateWithLocalTransaction::CreateInstanceWithSysTx","comsvcs/ICreateWithLocalTransaction::CreateInstanceWithSysTx","cos.icreatewithlocaltransaction_createinstancewithsystx"]
 old-location: cos\icreatewithlocaltransaction_createinstancewithsystx.htm
 tech.root: cossdk
 ms.assetid: e56a1810-77e7-47fa-b8b1-bb1ebc5662fd

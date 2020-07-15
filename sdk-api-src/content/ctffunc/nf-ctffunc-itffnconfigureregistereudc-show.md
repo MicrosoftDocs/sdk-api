@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.ITfFnConfigureRegisterEudc.Show
 title: ITfFnConfigureRegisterEudc::Show (ctffunc.h)
-description: The ITfFnConfigureRegisterEudc::Show method shows the EUDC key sequence register UI.helpviewer_keywords: ["ITfFnConfigureRegisterEudc interface [Text Services Framework]","Show method","ITfFnConfigureRegisterEudc.Show","ITfFnConfigureRegisterEudc::Show","Show","Show method [Text Services Framework]","Show method [Text Services Framework]","ITfFnConfigureRegisterEudc interface","ctffunc/ITfFnConfigureRegisterEudc::Show","tsf.itffnconfigureregistereudc_show"]
+description: The ITfFnConfigureRegisterEudc::Show method shows the EUDC key sequence register UI.
+helpviewer_keywords: ["ITfFnConfigureRegisterEudc interface [Text Services Framework]","Show method","ITfFnConfigureRegisterEudc.Show","ITfFnConfigureRegisterEudc::Show","Show","Show method [Text Services Framework]","Show method [Text Services Framework]","ITfFnConfigureRegisterEudc interface","ctffunc/ITfFnConfigureRegisterEudc::Show","tsf.itffnconfigureregistereudc_show"]
 old-location: tsf\itffnconfigureregistereudc_show.htm
 tech.root: TSF
 ms.assetid: 40279381-7c1c-4b11-92c9-200b763e7c7d

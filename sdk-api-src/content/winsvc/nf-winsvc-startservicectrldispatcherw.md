@@ -1,7 +1,8 @@
 ---
 UID: NF:winsvc.StartServiceCtrlDispatcherW
 title: StartServiceCtrlDispatcherW function (winsvc.h)
-description: Connects the main thread of a service process to the service control manager, which causes the thread to be the service control dispatcher thread for the calling process.helpviewer_keywords: ["StartServiceCtrlDispatcher","StartServiceCtrlDispatcher function","StartServiceCtrlDispatcherA","StartServiceCtrlDispatcherW","_win32_startservicectrldispatcher","base.startservicectrldispatcher","winsvc/StartServiceCtrlDispatcher","winsvc/StartServiceCtrlDispatcherA","winsvc/StartServiceCtrlDispatcherW"]
+description: Connects the main thread of a service process to the service control manager, which causes the thread to be the service control dispatcher thread for the calling process.
+helpviewer_keywords: ["StartServiceCtrlDispatcher","StartServiceCtrlDispatcher function","StartServiceCtrlDispatcherA","StartServiceCtrlDispatcherW","_win32_startservicectrldispatcher","base.startservicectrldispatcher","winsvc/StartServiceCtrlDispatcher","winsvc/StartServiceCtrlDispatcherA","winsvc/StartServiceCtrlDispatcherW"]
 old-location: base\startservicectrldispatcher.htm
 tech.root: Services
 ms.assetid: 8e275eb7-a8af-4bd7-bb39-0eac4f3735ad
@@ -166,6 +167,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winsvc.h header defines StartServiceCtrlDispatcher as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.OMSetRenderTargets
 title: ID3D12GraphicsCommandList::OMSetRenderTargets (d3d12.h)
-description: Sets CPU descriptor handles for the render targets and depth stencil.helpviewer_keywords: ["ID3D12GraphicsCommandList interface","OMSetRenderTargets method","ID3D12GraphicsCommandList.OMSetRenderTargets","ID3D12GraphicsCommandList::OMSetRenderTargets","OMSetRenderTargets","OMSetRenderTargets method","OMSetRenderTargets method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::OMSetRenderTargets","direct3d12.id3d12graphicscommandlist_omsetrendertargets"]
+description: Sets CPU descriptor handles for the render targets and depth stencil.
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","OMSetRenderTargets method","ID3D12GraphicsCommandList.OMSetRenderTargets","ID3D12GraphicsCommandList::OMSetRenderTargets","OMSetRenderTargets","OMSetRenderTargets method","OMSetRenderTargets method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::OMSetRenderTargets","direct3d12.id3d12graphicscommandlist_omsetrendertargets"]
 old-location: direct3d12\id3d12graphicscommandlist_omsetrendertargets.htm
 tech.root: direct3d12
 ms.assetid: FE565AA2-FA34-4824-870E-9C4C7C19C93C
@@ -64,6 +65,7 @@ Type: <b>UINT</b>
 
 The number of entries in the <i>pRenderTargetDescriptors</i> array (ranges between 0 and <b>D3D12_SIMULTANEOUS_RENDER_TARGET_COUNT</b>). If this parameter is nonzero, the number of entries in the array to which pRenderTargetDescriptors points must equal the number in this parameter.
           
+          
 
 
 ### -param pRenderTargetDescriptors [in, optional]
@@ -104,6 +106,3 @@ A pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ns-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist">ID3D12GraphicsCommandList</a>
  
-
- 
-

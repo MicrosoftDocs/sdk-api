@@ -1,7 +1,8 @@
 ---
-UID: NF:gdipluspath.GraphicsPath.GetPathPoints(OUT PointF,IN INT)
+UID: NF:gdipluspath.GraphicsPath.GetPathPoints(OUTPointF,ININT)
 title: GraphicsPath::GetPathPoints
-description: The GraphicsPath::GetPathPoints method gets this path's array of points.helpviewer_keywords: ["GraphicsPath::GetPathPoints"]
+description: The GraphicsPath::GetPathPoints method gets this path's array of points.
+helpviewer_keywords: ["GraphicsPath::GetPathPoints"]
 ms.assetid: b8477156-4557-4aa7-900e-61eb9108ec38
 ms.date: 05/13/2019
 ms.keywords: GraphicsPath::GetPathPoints

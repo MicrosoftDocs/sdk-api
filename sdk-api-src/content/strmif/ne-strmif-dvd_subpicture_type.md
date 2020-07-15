@@ -1,7 +1,8 @@
 ---
 UID: NE:strmif.tagDVD_SUBPICTURE_TYPE
 title: DVD_SUBPICTURE_TYPE (strmif.h)
-description: Defines flags used to determine what kind of content the subpicture stream contains.helpviewer_keywords: ["DVD_SPType_Language","DVD_SPType_NotSpecified","DVD_SPType_Other","DVD_SUBPICTURE_TYPE","DVD_SUBPICTURE_TYPE","DVD_SUBPICTURE_TYPE enumeration [DirectShow]","DVD_SUBPICTURE_TYPEEnumeration","dshow.dvd_subpicture_type","strmif/DVD_SPType_Language","strmif/DVD_SPType_NotSpecified","strmif/DVD_SPType_Other","strmif/DVD_SUBPICTURE_TYPE"]
+description: Defines flags used to determine what kind of content the subpicture stream contains.
+helpviewer_keywords: ["DVD_SPType_Language","DVD_SPType_NotSpecified","DVD_SPType_Other","DVD_SUBPICTURE_TYPE","DVD_SUBPICTURE_TYPE","DVD_SUBPICTURE_TYPE enumeration [DirectShow]","DVD_SUBPICTURE_TYPEEnumeration","dshow.dvd_subpicture_type","strmif/DVD_SPType_Language","strmif/DVD_SPType_NotSpecified","strmif/DVD_SPType_Other","strmif/DVD_SUBPICTURE_TYPE"]
 old-location: dshow\dvd_subpicture_type.htm
 tech.root: DirectShow
 ms.assetid: c4c5eb83-4773-464d-8b0c-b46b13c3b6d3

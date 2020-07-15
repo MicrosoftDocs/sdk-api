@@ -1,7 +1,8 @@
 ---
 UID: NS:winldap.ldap_apifeature_infoW
 title: LDAPAPIFeatureInfoW (winldap.h)
-description: Retrieves data about any supported LDAP API extensions.helpviewer_keywords: ["LDAPAPIFeatureInfo","LDAPAPIFeatureInfo structure [LDAP]","LDAPAPIFeatureInfoA","LDAPAPIFeatureInfoW","ldap.ldapapifeatureinfo","winldap/LDAPAPIFeatureInfo","winldap/LDAPAPIFeatureInfoA","winldap/LDAPAPIFeatureInfoW"]
+description: Retrieves data about any supported LDAP API extensions.
+helpviewer_keywords: ["LDAPAPIFeatureInfo","LDAPAPIFeatureInfo structure [LDAP]","LDAPAPIFeatureInfoA","LDAPAPIFeatureInfoW","ldap.ldapapifeatureinfo","winldap/LDAPAPIFeatureInfo","winldap/LDAPAPIFeatureInfoA","winldap/LDAPAPIFeatureInfoW"]
 old-location: ldap\ldapapifeatureinfo.htm
 tech.root: ldap
 ms.assetid: c8e4a3a2-a606-49af-887d-905d67705423
@@ -82,6 +83,10 @@ A pointer to this structure is passed, along with the <a href="https://docs.micr
 
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines LDAPAPIFeatureInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

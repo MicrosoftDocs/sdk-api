@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.LocalHandle
 title: LocalHandle function (winbase.h)
-description: Retrieves the handle associated with the specified pointer to a local memory object.helpviewer_keywords: ["LocalHandle","LocalHandle function","_win32_localhandle","base.localhandle","winbase/LocalHandle"]
+description: Retrieves the handle associated with the specified pointer to a local memory object.
+helpviewer_keywords: ["LocalHandle","LocalHandle function","_win32_localhandle","base.localhandle","winbase/LocalHandle"]
 old-location: base\localhandle.htm
 tech.root: Memory
 ms.assetid: 2b252f8b-d0a3-4d7f-9e2e-cb80c1512935

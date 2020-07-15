@@ -1,7 +1,8 @@
 ---
 UID: NF:clfsmgmtw32.SetLogFileSizeWithPolicy
 title: SetLogFileSizeWithPolicy function (clfsmgmtw32.h)
-description: Adds or deletes containers from a log based on the state of the installed policies.helpviewer_keywords: ["SetLogFileSizeWithPolicy","SetLogFileSizeWithPolicy function [Files]","clfsmgmtw32/SetLogFileSizeWithPolicy","fs.setlogfilesizewithpolicy"]
+description: Adds or deletes containers from a log based on the state of the installed policies.
+helpviewer_keywords: ["SetLogFileSizeWithPolicy","SetLogFileSizeWithPolicy function [Files]","clfsmgmtw32/SetLogFileSizeWithPolicy","fs.setlogfilesizewithpolicy"]
 old-location: fs\setlogfilesizewithpolicy.htm
 tech.root: Clfs
 ms.assetid: 4da401cf-3606-4ae1-ae6f-37eb3dea6426

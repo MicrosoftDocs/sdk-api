@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.GetBestRoute2
 title: GetBestRoute2 function (netioapi.h)
-description: Retrieves the IP route entry on the local computer for the best route to the specified destination IP address.helpviewer_keywords: ["GetBestRoute2","GetBestRoute2 function [IP Helper]","iphlp.getbestroute2","netioapi/GetBestRoute2"]
+description: Retrieves the IP route entry on the local computer for the best route to the specified destination IP address.
+helpviewer_keywords: ["GetBestRoute2","GetBestRoute2 function [IP Helper]","iphlp.getbestroute2","netioapi/GetBestRoute2"]
 old-location: iphlp\getbestroute2.htm
 tech.root: IpHlp
 ms.assetid: 7bc16824-c98f-4cd5-a589-e198b48b637c

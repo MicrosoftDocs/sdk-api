@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxRoutingMethods.get_Count
 title: IFaxRoutingMethods::get_Count (faxcom.h)
-description: The IFaxRoutingMethods::get_Count returns the number of fax routing methods associated with a FaxPort object.helpviewer_keywords: ["IFaxRoutingMethods interface [Fax Service]","get_Count method","IFaxRoutingMethods.get_Count","IFaxRoutingMethods::get_Count","_mfax_ifaxroutingmethods_get_count","fax._mfax_ifaxroutingmethods_get_count","faxcom/IFaxRoutingMethods::get_Count","get_Count","get_Count method [Fax Service]","get_Count method [Fax Service]","IFaxRoutingMethods interface"]
+description: The IFaxRoutingMethods::get_Count returns the number of fax routing methods associated with a FaxPort object.
+helpviewer_keywords: ["IFaxRoutingMethods interface [Fax Service]","get_Count method","IFaxRoutingMethods.get_Count","IFaxRoutingMethods::get_Count","_mfax_ifaxroutingmethods_get_count","fax._mfax_ifaxroutingmethods_get_count","faxcom/IFaxRoutingMethods::get_Count","get_Count","get_Count method [Fax Service]","get_Count method [Fax Service]","IFaxRoutingMethods interface"]
 old-location: fax\_mfax_ifaxroutingmethods_get_count.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_0lis.htm

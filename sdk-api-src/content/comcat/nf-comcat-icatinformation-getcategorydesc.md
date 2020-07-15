@@ -1,7 +1,8 @@
 ---
 UID: NF:comcat.ICatInformation.GetCategoryDesc
 title: ICatInformation::GetCategoryDesc (comcat.h)
-description: Retrieves the localized description string for a specific category ID.helpviewer_keywords: ["GetCategoryDesc","GetCategoryDesc method [COM]","GetCategoryDesc method [COM]","ICatInformation interface","ICatInformation interface [COM]","GetCategoryDesc method","ICatInformation.GetCategoryDesc","ICatInformation::GetCategoryDesc","_com_icatinformation_getcategorydesc","com.icatinformation_getcategorydesc","comcat/ICatInformation::GetCategoryDesc"]
+description: Retrieves the localized description string for a specific category ID.
+helpviewer_keywords: ["GetCategoryDesc","GetCategoryDesc method [COM]","GetCategoryDesc method [COM]","ICatInformation interface","ICatInformation interface [COM]","GetCategoryDesc method","ICatInformation.GetCategoryDesc","ICatInformation::GetCategoryDesc","_com_icatinformation_getcategorydesc","com.icatinformation_getcategorydesc","comcat/ICatInformation::GetCategoryDesc"]
 old-location: com\icatinformation_getcategorydesc.htm
 tech.root: com
 ms.assetid: 66f004c2-2616-441e-8bb7-f56eb062bb35

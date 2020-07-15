@@ -1,7 +1,8 @@
 ---
 UID: NF:cfapi.CfGetTransferKey
 title: CfGetTransferKey function (cfapi.h)
-description: Initiates a transfer of data into a placeholder file or folder.helpviewer_keywords: ["CfGetTransferKey","CfGetTransferKey function","cfapi/CfGetTransferKey","cloudApi.cfgettransferkey"]
+description: Initiates a transfer of data into a placeholder file or folder.
+helpviewer_keywords: ["CfGetTransferKey","CfGetTransferKey function","cfapi/CfGetTransferKey","cloudApi.cfgettransferkey"]
 old-location: cloudapi\cfgettransferkey.htm
 tech.root: cfApi
 ms.assetid: 07DDC46A-0C10-4677-A4B0-5A0406BBDAB7

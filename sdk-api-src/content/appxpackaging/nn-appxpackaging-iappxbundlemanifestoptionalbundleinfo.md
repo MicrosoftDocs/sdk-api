@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestOptionalBundleInfo
 title: IAppxBundleManifestOptionalBundleInfo (appxpackaging.h)
-description: Provides a read-only object model for an &lt;OptionalBundle&gt; element in a bundle package manifest.helpviewer_keywords: ["IAppxBundleManifestOptionalBundleInfo","IAppxBundleManifestOptionalBundleInfo interface [App packaging and management]","IAppxBundleManifestOptionalBundleInfo interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestOptionalBundleInfo","appxpkg.iappxbundlemanifestoptionalbundleinfo"]
+description: Provides a read-only object model for an &lt;OptionalBundle&gt; element in a bundle package manifest.
+helpviewer_keywords: ["IAppxBundleManifestOptionalBundleInfo","IAppxBundleManifestOptionalBundleInfo interface [App packaging and management]","IAppxBundleManifestOptionalBundleInfo interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestOptionalBundleInfo","appxpkg.iappxbundlemanifestoptionalbundleinfo"]
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfo.htm
 tech.root: appxpkg
 ms.assetid: C9DC823D-46D5-4459-A20A-0969D20C6E9E

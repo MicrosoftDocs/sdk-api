@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmNetEventsSetSecurityInfo0
 title: FwpmNetEventsSetSecurityInfo0 function (fwpmu.h)
-description: Sets specified security information in the security descriptor of a network event object.helpviewer_keywords: ["FwpmNetEventsSetSecurityInfo0","FwpmNetEventsSetSecurityInfo0 function [Filtering]","fwp.fwpmneteventssetsecurityinfo0","fwpmu/FwpmNetEventsSetSecurityInfo0"]
+description: Sets specified security information in the security descriptor of a network event object.
+helpviewer_keywords: ["FwpmNetEventsSetSecurityInfo0","FwpmNetEventsSetSecurityInfo0 function [Filtering]","fwp.fwpmneteventssetsecurityinfo0","fwpmu/FwpmNetEventsSetSecurityInfo0"]
 old-location: fwp\fwpmneteventssetsecurityinfo0.htm
 tech.root: fwp
 ms.assetid: ce4f76be-caee-49f3-98b6-ee4309bca484

@@ -1,7 +1,8 @@
 ---
 UID: NE:dhcpsapi.__unnamed_enum_6
 title: DHCPV6_STATELESS_PARAM_TYPE (dhcpsapi.h)
-description: The DHCPV6_STATELESS_PARAM_TYPE enumeration defines a DHCPv6 stateless client inventory configuration parameter type.helpviewer_keywords: ["DHCPV6_STATELESS_PARAM_TYPE","DHCPV6_STATELESS_PARAM_TYPE enumeration [DHCP]","DhcpStatelessPurgeInterval","DhcpStatelessStatus","dhcp.dhcpv6_stateless_param_type","dhcpsapi/DHCPV6_STATELESS_PARAM_TYPE","dhcpsapi/DhcpStatelessPurgeInterval","dhcpsapi/DhcpStatelessStatus"]
+description: The DHCPV6_STATELESS_PARAM_TYPE enumeration defines a DHCPv6 stateless client inventory configuration parameter type.
+helpviewer_keywords: ["DHCPV6_STATELESS_PARAM_TYPE","DHCPV6_STATELESS_PARAM_TYPE enumeration [DHCP]","DhcpStatelessPurgeInterval","DhcpStatelessStatus","dhcp.dhcpv6_stateless_param_type","dhcpsapi/DHCPV6_STATELESS_PARAM_TYPE","dhcpsapi/DhcpStatelessPurgeInterval","dhcpsapi/DhcpStatelessStatus"]
 old-location: dhcp\dhcpv6_stateless_param_type.htm
 tech.root: DHCP
 ms.assetid: 8670c69b-1fc0-4b60-b5cc-a616d56c9319

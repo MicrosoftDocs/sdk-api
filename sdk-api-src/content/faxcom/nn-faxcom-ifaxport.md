@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcom.IFaxPort
 title: IFaxPort (faxcom.h)
-description: The IFaxPort dual interface is used by a fax client application to access configuration information for a fax port on a connected fax server.helpviewer_keywords: ["IFaxPort","IFaxPort interface [Fax Service]","IFaxPort interface [Fax Service]","described","_mfax_ifaxport","fax._mfax_ifaxport","faxcom/IFaxPort"]
+description: The IFaxPort dual interface is used by a fax client application to access configuration information for a fax port on a connected fax server.
+helpviewer_keywords: ["IFaxPort","IFaxPort interface [Fax Service]","IFaxPort interface [Fax Service]","described","_mfax_ifaxport","fax._mfax_ifaxport","faxcom/IFaxPort"]
 old-location: fax\_mfax_ifaxport.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_21ys.htm

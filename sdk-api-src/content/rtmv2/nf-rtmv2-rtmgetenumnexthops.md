@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmGetEnumNextHops
 title: RtmGetEnumNextHops function (rtmv2.h)
-description: The RtmGetEnumNextHops function retrieves the next set of next hops in the specified enumeration.helpviewer_keywords: ["RtmGetEnumNextHops","RtmGetEnumNextHops function [RAS]","_rtmv2ref_rtmgetenumnexthops","rras.rtmgetenumnexthops","rtmv2/RtmGetEnumNextHops"]
+description: The RtmGetEnumNextHops function retrieves the next set of next hops in the specified enumeration.
+helpviewer_keywords: ["RtmGetEnumNextHops","RtmGetEnumNextHops function [RAS]","_rtmv2ref_rtmgetenumnexthops","rras.rtmgetenumnexthops","rtmv2/RtmGetEnumNextHops"]
 old-location: rras\rtmgetenumnexthops.htm
 tech.root: RRAS
 ms.assetid: 3e1a6064-6ba0-4ed8-b6df-1c347b098807

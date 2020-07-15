@@ -1,7 +1,8 @@
 ---
 UID: NF:vdshwprv.IVdsLun.QueryActiveControllers
 title: IVdsLun::QueryActiveControllers (vdshwprv.h)
-description: Returns an enumeration of currently active controllers&#8212;the controllers through which the LUN is accessible.helpviewer_keywords: ["IVdsLun interface [VDS]","QueryActiveControllers method","IVdsLun.QueryActiveControllers","IVdsLun::QueryActiveControllers","QueryActiveControllers","QueryActiveControllers method [VDS]","QueryActiveControllers method [VDS]","IVdsLun interface","base.ivdslun_queryactivecontrollers","vds/IVdsLun::QueryActiveControllers","vdshwprv/IVdsLun::QueryActiveControllers"]
+description: Returns an enumeration of currently active controllers—the controllers through which the LUN is accessible.
+helpviewer_keywords: ["IVdsLun interface [VDS]","QueryActiveControllers method","IVdsLun.QueryActiveControllers","IVdsLun::QueryActiveControllers","QueryActiveControllers","QueryActiveControllers method [VDS]","QueryActiveControllers method [VDS]","IVdsLun interface","base.ivdslun_queryactivecontrollers","vds/IVdsLun::QueryActiveControllers","vdshwprv/IVdsLun::QueryActiveControllers"]
 old-location: base\ivdslun_queryactivecontrollers.htm
 tech.root: VDS
 ms.assetid: 82561e4a-f2c2-46da-96bb-fbd50d4f7c39

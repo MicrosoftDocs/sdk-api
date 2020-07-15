@@ -1,7 +1,8 @@
 ---
 UID: NE:appmodel.AppPolicyLifecycleManagement
 title: AppPolicyLifecycleManagement (appmodel.h)
-description: The AppPolicyLifecycleManagement enumeration indicates whether a process is lifecycle-managed or not.helpviewer_keywords: ["AppPolicyLifecycleManagement","AppPolicyLifecycleManagement enumeration [App packaging and management]","AppPolicyLifecycleManagement_Managed","AppPolicyLifecycleManagement_Unmanaged","appmodel/AppPolicyLifecycleManagement","appmodel/AppPolicyLifecycleManagement_Managed","appmodel/AppPolicyLifecycleManagement_Unmanaged","appxpkg.apppolicylifecyclemanagement_enumeration"]
+description: The AppPolicyLifecycleManagement enumeration indicates whether a process is lifecycle-managed or not.
+helpviewer_keywords: ["AppPolicyLifecycleManagement","AppPolicyLifecycleManagement enumeration [App packaging and management]","AppPolicyLifecycleManagement_Managed","AppPolicyLifecycleManagement_Unmanaged","appmodel/AppPolicyLifecycleManagement","appmodel/AppPolicyLifecycleManagement_Managed","appmodel/AppPolicyLifecycleManagement_Unmanaged","appxpkg.apppolicylifecyclemanagement_enumeration"]
 old-location: appxpkg\apppolicylifecyclemanagement_enumeration.htm
 tech.root: appxpkg
 ms.assetid: 42BD1BA6-AD5B-4CD0-8860-20A85048D19A

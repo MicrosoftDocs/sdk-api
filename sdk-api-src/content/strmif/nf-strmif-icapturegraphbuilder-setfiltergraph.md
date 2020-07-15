@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.ICaptureGraphBuilder.SetFiltergraph
 title: ICaptureGraphBuilder::SetFiltergraph (strmif.h)
-description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Tells the graph builder object which filter graph to use.helpviewer_keywords: ["ICaptureGraphBuilder interface [DirectShow]","SetFiltergraph method","ICaptureGraphBuilder.SetFiltergraph","ICaptureGraphBuilder::SetFiltergraph","ICaptureGraphBuilderSetFiltergraph","SetFiltergraph","SetFiltergraph method [DirectShow]","SetFiltergraph method [DirectShow]","ICaptureGraphBuilder interface","dshow.icapturegraphbuilder_setfiltergraph","strmif/ICaptureGraphBuilder::SetFiltergraph"]
+description: Note  The ICaptureGraphBuilder interface is deprecated. Use ICaptureGraphBuilder2 instead. Tells the graph builder object which filter graph to use.
+helpviewer_keywords: ["ICaptureGraphBuilder interface [DirectShow]","SetFiltergraph method","ICaptureGraphBuilder.SetFiltergraph","ICaptureGraphBuilder::SetFiltergraph","ICaptureGraphBuilderSetFiltergraph","SetFiltergraph","SetFiltergraph method [DirectShow]","SetFiltergraph method [DirectShow]","ICaptureGraphBuilder interface","dshow.icapturegraphbuilder_setfiltergraph","strmif/ICaptureGraphBuilder::SetFiltergraph"]
 old-location: dshow\icapturegraphbuilder_setfiltergraph.htm
 tech.root: DirectShow
 ms.assetid: 01cb7f09-6ff2-46c1-b6f2-76583785b242

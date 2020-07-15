@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineSrcElements.GetURL
 title: IMFMediaEngineSrcElements::GetURL (mfmediaengine.h)
-description: Gets the URL of an element in the list.helpviewer_keywords: ["GetURL","GetURL method [Media Foundation]","GetURL method [Media Foundation]","IMFMediaEngineSrcElements interface","IMFMediaEngineSrcElements interface [Media Foundation]","GetURL method","IMFMediaEngineSrcElements.GetURL","IMFMediaEngineSrcElements::GetURL","mf.imfmediaenginesrcelements_geturl","mfmediaengine/IMFMediaEngineSrcElements::GetURL"]
+description: Gets the URL of an element in the list.
+helpviewer_keywords: ["GetURL","GetURL method [Media Foundation]","GetURL method [Media Foundation]","IMFMediaEngineSrcElements interface","IMFMediaEngineSrcElements interface [Media Foundation]","GetURL method","IMFMediaEngineSrcElements.GetURL","IMFMediaEngineSrcElements::GetURL","mf.imfmediaenginesrcelements_geturl","mfmediaengine/IMFMediaEngineSrcElements::GetURL"]
 old-location: mf\imfmediaenginesrcelements_geturl.htm
 tech.root: medfound
 ms.assetid: 5935BE0D-0E5A-46A8-944C-096746C5FCA3

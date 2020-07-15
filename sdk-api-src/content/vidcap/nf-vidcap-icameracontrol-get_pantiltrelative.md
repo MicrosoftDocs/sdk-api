@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.ICameraControl.get_PanTiltRelative
 title: ICameraControl::get_PanTiltRelative (vidcap.h)
-description: The get_PanTiltRelative method returns the camera's relative pan and tilt. The relative pan and tilt are expressed as a number of steps, where the size of each step depends on the camera model.helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_PanTiltRelative method","ICameraControl.get_PanTiltRelative","ICameraControl::get_PanTiltRelative","ICameraControlget_PanTiltRelative","dshow.icameracontrol_get_pantiltrelative","get_PanTiltRelative","get_PanTiltRelative method [DirectShow]","get_PanTiltRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_PanTiltRelative"]
+description: The get_PanTiltRelative method returns the camera's relative pan and tilt. The relative pan and tilt are expressed as a number of steps, where the size of each step depends on the camera model.
+helpviewer_keywords: ["ICameraControl interface [DirectShow]","get_PanTiltRelative method","ICameraControl.get_PanTiltRelative","ICameraControl::get_PanTiltRelative","ICameraControlget_PanTiltRelative","dshow.icameracontrol_get_pantiltrelative","get_PanTiltRelative","get_PanTiltRelative method [DirectShow]","get_PanTiltRelative method [DirectShow]","ICameraControl interface","vidcap/ICameraControl::get_PanTiltRelative"]
 old-location: dshow\icameracontrol_get_pantiltrelative.htm
 tech.root: DirectShow
 ms.assetid: 5d96dcfb-c0c4-4521-bf1f-30947577d305

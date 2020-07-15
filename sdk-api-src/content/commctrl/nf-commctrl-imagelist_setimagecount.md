@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ImageList_SetImageCount
 title: ImageList_SetImageCount function (commctrl.h)
-description: Resizes an existing image list.helpviewer_keywords: ["ImageList_SetImageCount","ImageList_SetImageCount function [Windows Controls]","_win32_ImageList_SetImageCount","_win32_ImageList_SetImageCount_cpp","commctrl/ImageList_SetImageCount","controls.ImageList_SetImageCount","controls._win32_ImageList_SetImageCount"]
+description: Resizes an existing image list.
+helpviewer_keywords: ["ImageList_SetImageCount","ImageList_SetImageCount function [Windows Controls]","_win32_ImageList_SetImageCount","_win32_ImageList_SetImageCount_cpp","commctrl/ImageList_SetImageCount","controls.ImageList_SetImageCount","controls._win32_ImageList_SetImageCount"]
 old-location: controls\ImageList_SetImageCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\imagelist\functions\imagelist_setimagecount.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:rasdlg.RasDialDlgA
 title: RasDialDlgA function (rasdlg.h)
-description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.helpviewer_keywords: ["RasDialDlg","RasDialDlg function [RAS]","RasDialDlgA","RasDialDlgW","_ras_rasdialdlg","rasdlg/RasDialDlg","rasdlg/RasDialDlgA","rasdlg/RasDialDlgW","rras.rasdialdlg"]
+description: The RasDialDlg function establishes a RAS connection using a specified phone-book entry and the credentials of the logged-on user. The function displays a stream of dialog boxes that indicate the state of the connection operation.
+helpviewer_keywords: ["RasDialDlg","RasDialDlg function [RAS]","RasDialDlgA","RasDialDlgW","_ras_rasdialdlg","rasdlg/RasDialDlg","rasdlg/RasDialDlgA","rasdlg/RasDialDlgW","rras.rasdialdlg"]
 old-location: rras\rasdialdlg.htm
 tech.root: RRAS
 ms.assetid: 698a18a1-b302-4b0d-8399-0bbdbe775f08
@@ -205,6 +206,10 @@ DWORD __cdecl wmain(){
 
 
 
+
+
+> [!NOTE]
+> The rasdlg.h header defines RasDialDlg as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

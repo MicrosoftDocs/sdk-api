@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetSubscript
 title: ITextFont::GetSubscript (tom.h)
-description: Gets whether characters are displayed as subscript.helpviewer_keywords: ["GetSubscript","GetSubscript method [Windows Controls]","GetSubscript method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetSubscript method","ITextFont.GetSubscript","ITextFont::GetSubscript","_win32_ITextFont_GetSubscript","_win32_ITextFont_GetSubscript_cpp","controls.ITextFont_GetSubscript","controls._win32_ITextFont_GetSubscript","tom/ITextFont::GetSubscript"]
+description: Gets whether characters are displayed as subscript.
+helpviewer_keywords: ["GetSubscript","GetSubscript method [Windows Controls]","GetSubscript method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetSubscript method","ITextFont.GetSubscript","ITextFont::GetSubscript","_win32_ITextFont_GetSubscript","_win32_ITextFont_GetSubscript_cpp","controls.ITextFont_GetSubscript","controls._win32_ITextFont_GetSubscript","tom/ITextFont::GetSubscript"]
 old-location: controls\ITextFont_GetSubscript.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getsubscript.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfTextInputProcessorEx
 title: ITfTextInputProcessorEx (msctf.h)
-description: The ITfTextInputProcessorEx interface is implemented by a text service and used by the TSF manager to activate and deactivate the text service.helpviewer_keywords: ["ITfTextInputProcessorEx","ITfTextInputProcessorEx interface [Text Services Framework]","ITfTextInputProcessorEx interface [Text Services Framework]","described","_tsf_itftextinputprocessorex_ref","msctf/ITfTextInputProcessorEx","tsf.itftextinputprocessorex"]
+description: The ITfTextInputProcessorEx interface is implemented by a text service and used by the TSF manager to activate and deactivate the text service.
+helpviewer_keywords: ["ITfTextInputProcessorEx","ITfTextInputProcessorEx interface [Text Services Framework]","ITfTextInputProcessorEx interface [Text Services Framework]","described","_tsf_itftextinputprocessorex_ref","msctf/ITfTextInputProcessorEx","tsf.itftextinputprocessorex"]
 old-location: tsf\itftextinputprocessorex.htm
 tech.root: TSF
 ms.assetid: fc762a6f-8d15-4082-9588-fc77fa565549

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMImageBrush.GetColorProfileResource
 title: IXpsOMImageBrush::GetColorProfileResource (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMColorProfileResource interface, which contains the color profile resource that is associated with the image.helpviewer_keywords: ["GetColorProfileResource","GetColorProfileResource method [XPS Documents and Packaging]","GetColorProfileResource method [XPS Documents and Packaging]","IXpsOMImageBrush interface","IXpsOMImageBrush interface [XPS Documents and Packaging]","GetColorProfileResource method","IXpsOMImageBrush.GetColorProfileResource","IXpsOMImageBrush::GetColorProfileResource","xps.ixpsomimagebrush_getcolorprofileresource","xpsobjectmodel/IXpsOMImageBrush::GetColorProfileResource"]
+description: Gets a pointer to the IXpsOMColorProfileResource interface, which contains the color profile resource that is associated with the image.
+helpviewer_keywords: ["GetColorProfileResource","GetColorProfileResource method [XPS Documents and Packaging]","GetColorProfileResource method [XPS Documents and Packaging]","IXpsOMImageBrush interface","IXpsOMImageBrush interface [XPS Documents and Packaging]","GetColorProfileResource method","IXpsOMImageBrush.GetColorProfileResource","IXpsOMImageBrush::GetColorProfileResource","xps.ixpsomimagebrush_getcolorprofileresource","xpsobjectmodel/IXpsOMImageBrush::GetColorProfileResource"]
 old-location: xps\ixpsomimagebrush_getcolorprofileresource.htm
 tech.root: printdocs
 ms.assetid: 7472f84b-cd14-4b9f-8ea9-69e743319d05

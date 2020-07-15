@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetThreadDesktop
 title: SetThreadDesktop function (winuser.h)
-description: Assigns the specified desktop to the calling thread. All subsequent operations on the desktop use the access rights granted to the desktop.helpviewer_keywords: ["SetThreadDesktop","SetThreadDesktop function [Windows Stations and Desktops]","_win32_setthreaddesktop","base.setthreaddesktop","winstation.setthreaddesktop","winuser/SetThreadDesktop"]
+description: Assigns the specified desktop to the calling thread. All subsequent operations on the desktop use the access rights granted to the desktop.
+helpviewer_keywords: ["SetThreadDesktop","SetThreadDesktop function [Windows Stations and Desktops]","_win32_setthreaddesktop","base.setthreaddesktop","winstation.setthreaddesktop","winuser/SetThreadDesktop"]
 old-location: winstation\setthreaddesktop.htm
 tech.root: winstation
 ms.assetid: 619c591f-54b7-4b61-aa07-fc57e05ee37a

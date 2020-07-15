@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITScriptableAudioFormat.put_BlockAlign
 title: ITScriptableAudioFormat::put_BlockAlign (tapi3if.h)
-description: The put_BlockAlign method sets the nBlockAlign member in the WAVEFORMATEX structure.helpviewer_keywords: ["ITScriptableAudioFormat interface [TAPI 2.2]","put_BlockAlign method","ITScriptableAudioFormat.put_BlockAlign","ITScriptableAudioFormat::put_BlockAlign","_tapi3_itscriptableaudioformat_put_blockalign","put_BlockAlign","put_BlockAlign method [TAPI 2.2]","put_BlockAlign method [TAPI 2.2]","ITScriptableAudioFormat interface","tapi3.itscriptableaudioformat_put_blockalign","tapi3if/ITScriptableAudioFormat::put_BlockAlign"]
+description: The put_BlockAlign method sets the nBlockAlign member in the WAVEFORMATEX structure.
+helpviewer_keywords: ["ITScriptableAudioFormat interface [TAPI 2.2]","put_BlockAlign method","ITScriptableAudioFormat.put_BlockAlign","ITScriptableAudioFormat::put_BlockAlign","_tapi3_itscriptableaudioformat_put_blockalign","put_BlockAlign","put_BlockAlign method [TAPI 2.2]","put_BlockAlign method [TAPI 2.2]","ITScriptableAudioFormat interface","tapi3.itscriptableaudioformat_put_blockalign","tapi3if/ITScriptableAudioFormat::put_BlockAlign"]
 old-location: tapi3\itscriptableaudioformat_put_blockalign.htm
 tech.root: Tapi
 ms.assetid: bc037229-4c5f-4778-af59-02e07d03a180

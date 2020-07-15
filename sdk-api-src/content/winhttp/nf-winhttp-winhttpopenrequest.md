@@ -90,13 +90,13 @@ Pointer to a string that specifies the URL of the document from which the URL in
 
 ### -param ppwszAcceptTypes [in]
 
+
 Pointer to a <b>null</b>-terminated array of string pointers that specifies media types accepted by the client. If this parameter is set to <b>WINHTTP_DEFAULT_ACCEPT_TYPES</b>, no types are accepted by the client. Typically, servers handle a lack of accepted types as indication that the client accepts only documents of type "text/*"; that is, only text documents—no pictures or other binary files. For a list of valid media types, see Media Types defined by IANA at http://www.iana.org/assignments/media-types/.
 
 
 ### -param dwFlags [in]
 
 Unsigned long integer value that contains the Internet flag values. This can be one or more of the following values: 
-                
 
 <table>
 <tr>

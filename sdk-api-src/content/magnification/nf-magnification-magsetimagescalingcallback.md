@@ -1,7 +1,8 @@
 ---
 UID: NF:magnification.MagSetImageScalingCallback
 title: MagSetImageScalingCallback function (magnification.h)
-description: Sets the callback function for external image filtering and scaling.helpviewer_keywords: ["MagSetImageScalingCallback","MagSetImageScalingCallback function [Magnification API]","magapi.magapi_MagSetImageScalingCallback","magapi_MagSetImageScalingCallback","magnification/MagSetImageScalingCallback"]
+description: Sets the callback function for external image filtering and scaling.
+helpviewer_keywords: ["MagSetImageScalingCallback","MagSetImageScalingCallback function [Magnification API]","magapi.magapi_MagSetImageScalingCallback","magapi_MagSetImageScalingCallback","magnification/MagSetImageScalingCallback"]
 old-location: magapi\magapi_MagSetImageScalingCallback.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\magsetimagescalingcallback.htm

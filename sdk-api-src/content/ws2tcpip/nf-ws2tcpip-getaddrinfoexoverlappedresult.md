@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExOverlappedResult
 title: GetAddrInfoExOverlappedResult function (ws2tcpip.h)
-description: Gets the return code for an OVERLAPPED structure used by an asynchronous operation for the GetAddrInfoEx function.helpviewer_keywords: ["GetAddrInfoExOverlappedResult","GetAddrInfoExOverlappedResult function [Winsock]","winsock.getaddrinfoexoverlappedresult","ws2tcpip/GetAddrInfoExOverlappedResult"]
+description: Gets the return code for an OVERLAPPED structure used by an asynchronous operation for the GetAddrInfoEx function.
+helpviewer_keywords: ["GetAddrInfoExOverlappedResult","GetAddrInfoExOverlappedResult function [Winsock]","winsock.getaddrinfoexoverlappedresult","ws2tcpip/GetAddrInfoExOverlappedResult"]
 old-location: winsock\getaddrinfoexoverlappedresult.htm
 tech.root: WinSock
 ms.assetid: BBA6E407-561C-4B3C-9218-0047477E82DE

@@ -1,7 +1,8 @@
 ---
 UID: NF:mdhcp.IMcastLeaseInfo.get_RequestID
 title: IMcastLeaseInfo::get_RequestID (mdhcp.h)
-description: The get_RequestID method obtains the request ID for a lease.helpviewer_keywords: ["IMcastLeaseInfo interface [TAPI 2.2]","get_RequestID method","IMcastLeaseInfo.get_RequestID","IMcastLeaseInfo::get_RequestID","_tapi3_imcastleaseinfo_get_requestid","get_RequestID","get_RequestID method [TAPI 2.2]","get_RequestID method [TAPI 2.2]","IMcastLeaseInfo interface","mdhcp/IMcastLeaseInfo::get_RequestID","tapi3.imcastleaseinfo_get_requestid"]
+description: The get_RequestID method obtains the request ID for a lease.
+helpviewer_keywords: ["IMcastLeaseInfo interface [TAPI 2.2]","get_RequestID method","IMcastLeaseInfo.get_RequestID","IMcastLeaseInfo::get_RequestID","_tapi3_imcastleaseinfo_get_requestid","get_RequestID","get_RequestID method [TAPI 2.2]","get_RequestID method [TAPI 2.2]","IMcastLeaseInfo interface","mdhcp/IMcastLeaseInfo::get_RequestID","tapi3.imcastleaseinfo_get_requestid"]
 old-location: tapi3\imcastleaseinfo_get_requestid.htm
 tech.root: Tapi
 ms.assetid: 832bf532-4779-4066-a630-9892ad746a6c

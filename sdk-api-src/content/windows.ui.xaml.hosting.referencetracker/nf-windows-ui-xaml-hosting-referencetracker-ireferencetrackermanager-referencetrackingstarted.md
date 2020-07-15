@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.ui.xaml.hosting.referencetracker.IReferenceTrackerManager.ReferenceTrackingStarted
 title: IReferenceTrackerManager::xaml (windows.ui.xaml.hosting.referencetracker.h)
-description: Indicates that a garbage collector is performing a collection; when the collection is finished, the garbage collector calls FindTrackerTargetsCompleted.helpviewer_keywords: ["IReferenceTrackerManager interface [Windows Runtime]","ReferenceTrackingStarted method","IReferenceTrackerManager.ReferenceTrackingStarted","IReferenceTrackerManager.xaml","IReferenceTrackerManager::ReferenceTrackingStarted","IReferenceTrackerManager::xaml","ReferenceTrackingStarted","ReferenceTrackingStarted method [Windows Runtime]","ReferenceTrackingStarted method [Windows Runtime]","IReferenceTrackerManager interface","windows/IReferenceTrackerManager::ReferenceTrackingStarted","winrt.ireferencetrackermanager_referencetrackingstarted"]
+description: Indicates that a garbage collector is performing a collection; when the collection is finished, the garbage collector calls FindTrackerTargetsCompleted.
+helpviewer_keywords: ["IReferenceTrackerManager interface [Windows Runtime]","ReferenceTrackingStarted method","IReferenceTrackerManager.ReferenceTrackingStarted","IReferenceTrackerManager.xaml","IReferenceTrackerManager::ReferenceTrackingStarted","IReferenceTrackerManager::xaml","ReferenceTrackingStarted","ReferenceTrackingStarted method [Windows Runtime]","ReferenceTrackingStarted method [Windows Runtime]","IReferenceTrackerManager interface","windows/IReferenceTrackerManager::ReferenceTrackingStarted","winrt.ireferencetrackermanager_referencetrackingstarted"]
 old-location: winrt\ireferencetrackermanager_referencetrackingstarted.htm
 tech.root: WinRT
 ms.assetid: 8d911bbb-aa5e-4906-86d6-caf6f3f84f6f

@@ -1,7 +1,8 @@
 ---
 UID: NN:wbemcli.IWbemObjectTextSrc
 title: IWbemObjectTextSrc (wbemcli.h)
-description: The IWbemObjectTextSrc interface is used to translate IWbemClassObject instances to and from differing text formats.helpviewer_keywords: ["IWbemObjectTextSrc","IWbemObjectTextSrc interface [Windows Management Instrumentation]","IWbemObjectTextSrc interface [Windows Management Instrumentation]","described","WbemObjectTextSrc","_hmm_iwbemobjecttextsrc","wbemcli/IWbemObjectTextSrc","wmi.iwbemobjecttextsrc"]
+description: The IWbemObjectTextSrc interface is used to translate IWbemClassObject instances to and from differing text formats.
+helpviewer_keywords: ["IWbemObjectTextSrc","IWbemObjectTextSrc interface [Windows Management Instrumentation]","IWbemObjectTextSrc interface [Windows Management Instrumentation]","described","WbemObjectTextSrc","_hmm_iwbemobjecttextsrc","wbemcli/IWbemObjectTextSrc","wmi.iwbemobjecttextsrc"]
 old-location: wmi\iwbemobjecttextsrc.htm
 tech.root: WmiSdk
 ms.assetid: b86fd54e-15a8-4a08-ba29-5bc086ababf8

@@ -56,4 +56,3 @@ In regards to thread safety, do not overlap calls to [**TraceLoggingRegister**](
 In addition, you must not call **TraceLoggingRegister** on a handle that is already registered or for a handle that could be in the process of being registered or unregistered on another thread.
 
 ## -see-also
-

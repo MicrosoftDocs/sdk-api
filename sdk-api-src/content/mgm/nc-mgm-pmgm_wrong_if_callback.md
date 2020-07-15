@@ -1,7 +1,8 @@
 ---
 UID: NC:mgm.PMGM_WRONG_IF_CALLBACK
 title: PMGM_WRONG_IF_CALLBACK (mgm.h)
-description: The PMGM_WRONG_IF_CALLBACK is a call into a routing protocol to notify the protocol that a packet has been received from the specified source and for the specified group on the wrong interface.helpviewer_keywords: ["MgmWrongIfCallback","PMGM_WRONG_IF_CALLBACK","PMGM_WRONG_IF_CALLBACK callback","PMGM_WRONG_IF_CALLBACK callback function [RAS]","_mpr_pmgm_wrong_if_callback","mgm/PMGM_WRONG_IF_CALLBACK","rras.pmgm_wrong_if_callback"]
+description: The PMGM_WRONG_IF_CALLBACK is a call into a routing protocol to notify the protocol that a packet has been received from the specified source and for the specified group on the wrong interface.
+helpviewer_keywords: ["MgmWrongIfCallback","PMGM_WRONG_IF_CALLBACK","PMGM_WRONG_IF_CALLBACK callback","PMGM_WRONG_IF_CALLBACK callback function [RAS]","_mpr_pmgm_wrong_if_callback","mgm/PMGM_WRONG_IF_CALLBACK","rras.pmgm_wrong_if_callback"]
 old-location: rras\pmgm_wrong_if_callback.htm
 tech.root: RRAS
 ms.assetid: d74f6984-35a0-42f4-8460-b7ad2fbba1b8

@@ -1,7 +1,8 @@
 ---
 UID: NF:dpa_dsa.DPA_Create
 title: DPA_Create function (dpa_dsa.h)
-description: Creates a dynamic pointer array (DPA).helpviewer_keywords: ["DPA_Create","DPA_Create function [Windows Controls]","_win32_DPA_Create","_win32_DPA_Create_cpp","controls.DPA_Create","controls._win32_DPA_Create","dpa_dsa/DPA_Create"]
+description: Creates a dynamic pointer array (DPA).
+helpviewer_keywords: ["DPA_Create","DPA_Create function [Windows Controls]","_win32_DPA_Create","_win32_DPA_Create_cpp","controls.DPA_Create","controls._win32_DPA_Create","dpa_dsa/DPA_Create"]
 old-location: controls\DPA_Create.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\dpa_create.htm

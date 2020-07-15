@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPObject.Rename
 title: IMDSPObject::Rename (mswmdm.h)
-description: The Rename method renames the associated object which can be a file or a folder.helpviewer_keywords: ["IMDSPObject interface [windows Media Device Manager]","Rename method","IMDSPObject.Rename","IMDSPObject::Rename","IMDSPObjectRename","Rename","Rename method [windows Media Device Manager]","Rename method [windows Media Device Manager]","IMDSPObject interface","mswmdm/IMDSPObject::Rename","wmdm.imdspobject_rename"]
+description: The Rename method renames the associated object which can be a file or a folder.
+helpviewer_keywords: ["IMDSPObject interface [windows Media Device Manager]","Rename method","IMDSPObject.Rename","IMDSPObject::Rename","IMDSPObjectRename","Rename","Rename method [windows Media Device Manager]","Rename method [windows Media Device Manager]","IMDSPObject interface","mswmdm/IMDSPObject::Rename","wmdm.imdspobject_rename"]
 old-location: wmdm\imdspobject_rename.htm
 tech.root: WMDM
 ms.assetid: 3da6a4a4-6e3b-4907-a466-5a5bd34f4374

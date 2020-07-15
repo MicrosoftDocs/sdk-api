@@ -95,3 +95,4 @@ This method is the equivalent for desktop apps of
 
 ## -see-also
 [Web account management sample app](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/WebAccountManagement), [RequestTokenWithWebAccountForWindowAsync](/windows/win32/api/webauthenticationcoremanagerinterop/nf-webauthenticationcoremanagerinterop-iwebauthenticationcoremanagerinterop-requesttokenwithwebaccountforwindowasync)
+>>>>>>> d00ded5462c7b66ea93a6693c8bb1ca4a5028557

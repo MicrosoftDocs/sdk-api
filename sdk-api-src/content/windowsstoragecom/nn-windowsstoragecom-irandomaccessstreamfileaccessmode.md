@@ -1,7 +1,8 @@
 ---
 UID: NN:windowsstoragecom.IRandomAccessStreamFileAccessMode
 title: IRandomAccessStreamFileAccessMode (windowsstoragecom.h)
-description: Provides access to the file access mode that was used when the StorageFile.OpenAsync method was called to open the random-access byte stream.helpviewer_keywords: ["IRandomAccessStreamFileAccessMode","IRandomAccessStreamFileAccessMode interface [Windows Runtime]","IRandomAccessStreamFileAccessMode interface [Windows Runtime]","described","windowsstoragecom/IRandomAccessStreamFileAccessMode","winrt.irandomaccessstreamfileaccessmode"]
+description: Provides access to the file access mode that was used when the StorageFile.OpenAsync method was called to open the random-access byte stream.
+helpviewer_keywords: ["IRandomAccessStreamFileAccessMode","IRandomAccessStreamFileAccessMode interface [Windows Runtime]","IRandomAccessStreamFileAccessMode interface [Windows Runtime]","described","windowsstoragecom/IRandomAccessStreamFileAccessMode","winrt.irandomaccessstreamfileaccessmode"]
 old-location: winrt\irandomaccessstreamfileaccessmode.htm
 tech.root: WinRT
 ms.assetid: 20A538B5-ACD6-4BD9-9CDC-3F2CCDCAF251

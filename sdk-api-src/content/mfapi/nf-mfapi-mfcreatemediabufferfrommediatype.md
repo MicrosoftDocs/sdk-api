@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateMediaBufferFromMediaType
 title: MFCreateMediaBufferFromMediaType function (mfapi.h)
-description: Allocates a system-memory buffer that is optimal for a specified media type.helpviewer_keywords: ["MFCreateMediaBufferFromMediaType","MFCreateMediaBufferFromMediaType function [Media Foundation]","mf.mfcreatemediabufferfrommediatype","mfapi/MFCreateMediaBufferFromMediaType"]
+description: Allocates a system-memory buffer that is optimal for a specified media type.
+helpviewer_keywords: ["MFCreateMediaBufferFromMediaType","MFCreateMediaBufferFromMediaType function [Media Foundation]","mf.mfcreatemediabufferfrommediatype","mfapi/MFCreateMediaBufferFromMediaType"]
 old-location: mf\mfcreatemediabufferfrommediatype.htm
 tech.root: medfound
 ms.assetid: 1EBDB616-6FA9-4E4E-9BC6-CA1E382A08D9

@@ -1,7 +1,8 @@
 ---
 UID: NN:wia_xp.IEnumWIA_DEV_INFO
 title: IEnumWIA_DEV_INFO (wia_xp.h)
-description: The IEnumWIA_DEV_INFO interface enumerates the currently available Windows Image Acquisition (WIA) hardware devices and their properties. Device information properties describe the installation and configuration of WIA hardware devices.helpviewer_keywords: ["IEnumWIA_DEV_INFO","IEnumWIA_DEV_INFO interface [WIA]","IEnumWIA_DEV_INFO interface [WIA]","described","_wia_IEnumWIA_DEV_INFO","wia._wia_IEnumWIA_DEV_INFO","wia_xp/IEnumWIA_DEV_INFO"]
+description: The IEnumWIA_DEV_INFO interface enumerates the currently available Windows Image Acquisition (WIA) hardware devices and their properties. Device information properties describe the installation and configuration of WIA hardware devices.
+helpviewer_keywords: ["IEnumWIA_DEV_INFO","IEnumWIA_DEV_INFO interface [WIA]","IEnumWIA_DEV_INFO interface [WIA]","described","_wia_IEnumWIA_DEV_INFO","wia._wia_IEnumWIA_DEV_INFO","wia_xp/IEnumWIA_DEV_INFO"]
 old-location: wia\_wia_IEnumWIA_DEV_INFO.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\ienumwia_dev_info\ienumwia_dev_info.htm

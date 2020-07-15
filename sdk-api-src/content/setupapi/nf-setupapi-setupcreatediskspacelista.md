@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupCreateDiskSpaceListA
 title: SetupCreateDiskSpaceListA function (setupapi.h)
-description: The SetupCreateDiskSpaceList function creates a disk-space list.helpviewer_keywords: ["SetupCreateDiskSpaceList","SetupCreateDiskSpaceList function [Setup API]","SetupCreateDiskSpaceListA","SetupCreateDiskSpaceListW","_setupapi_setupcreatediskspacelist","setup.setupcreatediskspacelist","setupapi/SetupCreateDiskSpaceList","setupapi/SetupCreateDiskSpaceListA","setupapi/SetupCreateDiskSpaceListW"]
+description: The SetupCreateDiskSpaceList function creates a disk-space list.
+helpviewer_keywords: ["SetupCreateDiskSpaceList","SetupCreateDiskSpaceList function [Setup API]","SetupCreateDiskSpaceListA","SetupCreateDiskSpaceListW","_setupapi_setupcreatediskspacelist","setup.setupcreatediskspacelist","setupapi/SetupCreateDiskSpaceList","setupapi/SetupCreateDiskSpaceListA","setupapi/SetupCreateDiskSpaceListW"]
 old-location: setup\setupcreatediskspacelist.htm
 tech.root: SetupApi
 ms.assetid: a578ed9d-12b2-43f4-ab0a-183269de0d40
@@ -116,4 +117,9 @@ If the function fails, it returns null. To get extended error information, call
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupCreateDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

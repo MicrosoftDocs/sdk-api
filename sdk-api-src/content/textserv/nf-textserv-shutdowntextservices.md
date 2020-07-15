@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ShutdownTextServices
 title: ShutdownTextServices function (textserv.h)
-description: Disconnects a host from a text services instance.helpviewer_keywords: ["ShutdownTextServices","ShutdownTextServices function [Windows Controls]","controls.shutdowntextservices","textserv/ShutdownTextServices"]
+description: Disconnects a host from a text services instance.
+helpviewer_keywords: ["ShutdownTextServices","ShutdownTextServices function [Windows Controls]","controls.shutdowntextservices","textserv/ShutdownTextServices"]
 old-location: controls\shutdowntextservices.htm
 tech.root: Controls
 ms.assetid: 3367D22B-1F9E-4D70-8907-0F218A23AE7E

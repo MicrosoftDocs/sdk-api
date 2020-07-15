@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.GetOutputPixelFormat
 title: IMILBitmapEffectRenderContext::GetOutputPixelFormat (mileffects.h)
-description: Gets the output pixel format GUID.helpviewer_keywords: ["GetOutputPixelFormat","GetOutputPixelFormat method [WPF Bitmap Effects]","GetOutputPixelFormat method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","GetOutputPixelFormat method","IMILBitmapEffectRenderContext.GetOutputPixelFormat","IMILBitmapEffectRenderContext::GetOutputPixelFormat","_wibe_imilbitmapeffectrendercontext_getoutputpixelformat","mileffects/IMILBitmapEffectRenderContext::GetOutputPixelFormat","wibe._wibe_imilbitmapeffectrendercontext_getoutputpixelformat"]
+description: Gets the output pixel format GUID.
+helpviewer_keywords: ["GetOutputPixelFormat","GetOutputPixelFormat method [WPF Bitmap Effects]","GetOutputPixelFormat method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","GetOutputPixelFormat method","IMILBitmapEffectRenderContext.GetOutputPixelFormat","IMILBitmapEffectRenderContext::GetOutputPixelFormat","_wibe_imilbitmapeffectrendercontext_getoutputpixelformat","mileffects/IMILBitmapEffectRenderContext::GetOutputPixelFormat","wibe._wibe_imilbitmapeffectrendercontext_getoutputpixelformat"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_getoutputpixelformat.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\getoutputpixelformat.htm

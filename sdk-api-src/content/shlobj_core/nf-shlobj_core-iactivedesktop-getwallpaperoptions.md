@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IActiveDesktop.GetWallpaperOptions
 title: IActiveDesktop::GetWallpaperOptions (shlobj_core.h)
-description: Gets the wallpaper options.helpviewer_keywords: ["GetWallpaperOptions","GetWallpaperOptions method [Legacy Windows Environment Features]","GetWallpaperOptions method [Legacy Windows Environment Features]","IActiveDesktop interface","IActiveDesktop interface [Legacy Windows Environment Features]","GetWallpaperOptions method","IActiveDesktop.GetWallpaperOptions","IActiveDesktop::GetWallpaperOptions","_win32_IActiveDesktop_GetWallpaperOptions","lwef.iactivedesktop_getwallpaperoptions","shell.iactivedesktop_getwallpaperoptions","shlobj_core/IActiveDesktop::GetWallpaperOptions"]
+description: Gets the wallpaper options.
+helpviewer_keywords: ["GetWallpaperOptions","GetWallpaperOptions method [Legacy Windows Environment Features]","GetWallpaperOptions method [Legacy Windows Environment Features]","IActiveDesktop interface","IActiveDesktop interface [Legacy Windows Environment Features]","GetWallpaperOptions method","IActiveDesktop.GetWallpaperOptions","IActiveDesktop::GetWallpaperOptions","_win32_IActiveDesktop_GetWallpaperOptions","lwef.iactivedesktop_getwallpaperoptions","shell.iactivedesktop_getwallpaperoptions","shlobj_core/IActiveDesktop::GetWallpaperOptions"]
 old-location: lwef\iactivedesktop_getwallpaperoptions.htm
 tech.root: lwef
 ms.assetid: b524a2b8-e6b6-4592-9435-88a6842b2338

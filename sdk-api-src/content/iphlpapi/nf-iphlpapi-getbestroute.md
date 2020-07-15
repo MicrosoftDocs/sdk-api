@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetBestRoute
 title: GetBestRoute function (iphlpapi.h)
-description: The GetBestRoute function retrieves the best route to the specified destination IP address.helpviewer_keywords: ["GetBestRoute","GetBestRoute function [IP Helper]","_iphlp_getbestroute","iphlp.getbestroute","iphlpapi/GetBestRoute"]
+description: The GetBestRoute function retrieves the best route to the specified destination IP address.
+helpviewer_keywords: ["GetBestRoute","GetBestRoute function [IP Helper]","_iphlp_getbestroute","iphlp.getbestroute","iphlpapi/GetBestRoute"]
 old-location: iphlp\getbestroute.htm
 tech.root: IpHlp
 ms.assetid: 5e507d14-f603-467d-9c37-bb048658d0b1

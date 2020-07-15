@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1StrokeStyle.GetDashOffset
 title: ID2D1StrokeStyle::GetDashOffset (d2d1.h)
-description: Retrieves a value that specifies how far in the dash sequence the stroke will start.helpviewer_keywords: ["GetDashOffset","GetDashOffset method [Direct2D]","GetDashOffset method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetDashOffset method","ID2D1StrokeStyle.GetDashOffset","ID2D1StrokeStyle::GetDashOffset","d2d1/ID2D1StrokeStyle::GetDashOffset","direct2d.ID2D1StrokeStyle_GetDashOffset"]
+description: Retrieves a value that specifies how far in the dash sequence the stroke will start.
+helpviewer_keywords: ["GetDashOffset","GetDashOffset method [Direct2D]","GetDashOffset method [Direct2D]","ID2D1StrokeStyle interface","ID2D1StrokeStyle interface [Direct2D]","GetDashOffset method","ID2D1StrokeStyle.GetDashOffset","ID2D1StrokeStyle::GetDashOffset","d2d1/ID2D1StrokeStyle::GetDashOffset","direct2d.ID2D1StrokeStyle_GetDashOffset"]
 old-location: direct2d\ID2D1StrokeStyle_GetDashOffset.htm
 tech.root: Direct2D
 ms.assetid: db540976-95a7-47c9-aeec-d5f874d22764

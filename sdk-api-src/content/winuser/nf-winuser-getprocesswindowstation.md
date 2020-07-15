@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetProcessWindowStation
 title: GetProcessWindowStation function (winuser.h)
-description: Retrieves a handle to the current window station for the calling process.helpviewer_keywords: ["GetProcessWindowStation","GetProcessWindowStation function [Windows Stations and Desktops]","_win32_getprocesswindowstation","base.getprocesswindowstation","winstation.getprocesswindowstation","winuser/GetProcessWindowStation"]
+description: Retrieves a handle to the current window station for the calling process.
+helpviewer_keywords: ["GetProcessWindowStation","GetProcessWindowStation function [Windows Stations and Desktops]","_win32_getprocesswindowstation","base.getprocesswindowstation","winstation.getprocesswindowstation","winuser/GetProcessWindowStation"]
 old-location: winstation\getprocesswindowstation.htm
 tech.root: winstation
 ms.assetid: f8929122-d277-4260-b2a7-5e76eb3ca876

@@ -1,7 +1,8 @@
 ---
 UID: NS:ncrypt._NCryptAlgorithmName
 title: NCryptAlgorithmName (ncrypt.h)
-description: Used to contain information about a CNG algorithm.helpviewer_keywords: ["NCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION","NCRYPT_SECRET_AGREEMENT_INTERFACE","NCRYPT_SECRET_AGREEMENT_OPERATION","NCRYPT_SIGNATURE_INTERFACE","NCRYPT_SIGNATURE_OPERATION","NCryptAlgorithmName","NCryptAlgorithmName structure [Security]","ncrypt/NCryptAlgorithmName","security.ncryptalgorithmname_struct"]
+description: Used to contain information about a CNG algorithm.
+helpviewer_keywords: ["NCRYPT_ASYMMETRIC_ENCRYPTION_INTERFACE","NCRYPT_ASYMMETRIC_ENCRYPTION_OPERATION","NCRYPT_SECRET_AGREEMENT_INTERFACE","NCRYPT_SECRET_AGREEMENT_OPERATION","NCRYPT_SIGNATURE_INTERFACE","NCRYPT_SIGNATURE_OPERATION","NCryptAlgorithmName","NCryptAlgorithmName structure [Security]","ncrypt/NCryptAlgorithmName","security.ncryptalgorithmname_struct"]
 old-location: security\ncryptalgorithmname_struct.htm
 tech.root: SecCNG
 ms.assetid: 79b0193e-3be8-46ce-a422-40ed9698363f

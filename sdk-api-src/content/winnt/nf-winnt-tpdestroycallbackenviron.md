@@ -1,7 +1,8 @@
 ---
 UID: NF:winnt.TpDestroyCallbackEnviron
 title: TpDestroyCallbackEnviron function (winnt.h)
-description: Deletes the specified callback environment. Call this function when the callback environment is no longer needed for creating new thread pool objects.helpviewer_keywords: ["TpDestroyCallbackEnviron","TpDestroyCallbackEnviron function","base.tpdestroycallbackenviron","winnt/TpDestroyCallbackEnviron"]
+description: Deletes the specified callback environment. Call this function when the callback environment is no longer needed for creating new thread pool objects.
+helpviewer_keywords: ["TpDestroyCallbackEnviron","TpDestroyCallbackEnviron function","base.tpdestroycallbackenviron","winnt/TpDestroyCallbackEnviron"]
 old-location: base\tpdestroycallbackenviron.htm
 tech.root: ProcThread
 ms.assetid: B0925491-73FE-4342-9E66-E5F6344353FB

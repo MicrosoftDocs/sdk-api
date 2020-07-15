@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Context_GetStringOption
 title: MI_Context_GetStringOption function (mi.h)
-description: Gets the string option that the client sets, based on the operation name.helpviewer_keywords: ["MI_Context_GetStringOption","MI_Context_GetStringOption function [Windows Management Infrastructure (MI)]","mi/MI_Context_GetStringOption","wmi.mi_getstringoption","wmi_v2.mi_context_getstringoption"]
+description: Gets the string option that the client sets, based on the operation name.
+helpviewer_keywords: ["MI_Context_GetStringOption","MI_Context_GetStringOption function [Windows Management Infrastructure (MI)]","mi/MI_Context_GetStringOption","wmi.mi_getstringoption","wmi_v2.mi_context_getstringoption"]
 old-location: wmi_v2\mi_context_getstringoption.htm
 tech.root: wmi_v2
 ms.assetid: ef6fa103-7421-4c66-902d-c5a731abaa54

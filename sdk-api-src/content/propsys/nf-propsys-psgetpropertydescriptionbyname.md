@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSGetPropertyDescriptionByName
 title: PSGetPropertyDescriptionByName function (propsys.h)
-description: Gets an instance of a property description interface for a specified property name.helpviewer_keywords: ["PSGetPropertyDescriptionByName","PSGetPropertyDescriptionByName function [Windows Properties]","properties.PSGetPropertyDescriptionByName","propsys/PSGetPropertyDescriptionByName","shell.PSGetPropertyDescriptionByName","shell_PSGetPropertyDescriptionByName"]
+description: Gets an instance of a property description interface for a specified property name.
+helpviewer_keywords: ["PSGetPropertyDescriptionByName","PSGetPropertyDescriptionByName function [Windows Properties]","properties.PSGetPropertyDescriptionByName","propsys/PSGetPropertyDescriptionByName","shell.PSGetPropertyDescriptionByName","shell_PSGetPropertyDescriptionByName"]
 old-location: properties\PSGetPropertyDescriptionByName.htm
 tech.root: properties
 ms.assetid: 181ebbfb-66ed-4763-ad2d-acf3c800f9d2

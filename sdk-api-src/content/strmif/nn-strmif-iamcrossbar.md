@@ -1,7 +1,8 @@
 ---
 UID: NN:strmif.IAMCrossbar
 title: IAMCrossbar (strmif.h)
-description: The IAMCrossbar interface routes signals from an analog or digital source to a video capture filter.This interface is implemented by the Analog Video Crossbar Filter.helpviewer_keywords: ["IAMCrossbar","IAMCrossbar interface [DirectShow]","IAMCrossbar interface [DirectShow]","described","IAMCrossbarInterface","dshow.iamcrossbar","strmif/IAMCrossbar"]
+description: The IAMCrossbar interface routes signals from an analog or digital source to a video capture filter.This interface is implemented by the Analog Video Crossbar Filter.
+helpviewer_keywords: ["IAMCrossbar","IAMCrossbar interface [DirectShow]","IAMCrossbar interface [DirectShow]","described","IAMCrossbarInterface","dshow.iamcrossbar","strmif/IAMCrossbar"]
 old-location: dshow\iamcrossbar.htm
 tech.root: DirectShow
 ms.assetid: 9eef4923-62e7-475e-85e6-de8c1eefe483

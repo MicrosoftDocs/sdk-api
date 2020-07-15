@@ -1,7 +1,8 @@
 ---
 UID: NE:oleidl.tagDISCARDCACHE
 title: DISCARDCACHE (oleidl.h)
-description: Specifies what to do with caches that are to be discarded from memory if their dirty bit has been set.helpviewer_keywords: ["DISCARDCACHE","DISCARDCACHE enumeration [COM]","DISCARDCACHE_NOSAVE","DISCARDCACHE_SAVEIFDIRTY","_ole_DISCARDCACHE","com.discardcache","oleidl/DISCARDCACHE","oleidl/DISCARDCACHE_NOSAVE","oleidl/DISCARDCACHE_SAVEIFDIRTY"]
+description: Specifies what to do with caches that are to be discarded from memory if their dirty bit has been set.
+helpviewer_keywords: ["DISCARDCACHE","DISCARDCACHE enumeration [COM]","DISCARDCACHE_NOSAVE","DISCARDCACHE_SAVEIFDIRTY","_ole_DISCARDCACHE","com.discardcache","oleidl/DISCARDCACHE","oleidl/DISCARDCACHE_NOSAVE","oleidl/DISCARDCACHE_SAVEIFDIRTY"]
 old-location: com\discardcache.htm
 tech.root: com
 ms.assetid: 879caecd-8231-449b-8329-e627c85030bf

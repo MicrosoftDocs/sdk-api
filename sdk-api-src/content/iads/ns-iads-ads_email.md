@@ -1,7 +1,8 @@
 ---
 UID: NS:iads.__MIDL___MIDL_itf_ads_0000_0000_0014
 title: ADS_EMAIL (iads.h)
-description: The ADS_EMAIL structure is an ADSI representation of the EMail Address attribute syntax.helpviewer_keywords: ["*PADS_EMAIL","ADS_EMAIL","ADS_EMAIL structure [ADSI]","PADS_EMAIL","PADS_EMAIL structure pointer [ADSI]","_ds_ads_email","adsi.ads__email","adsi.ads_email","iads/ADS_EMAIL","iads/PADS_EMAIL"]
+description: The ADS_EMAIL structure is an ADSI representation of the EMail Address attribute syntax.
+helpviewer_keywords: ["*PADS_EMAIL","ADS_EMAIL","ADS_EMAIL structure [ADSI]","PADS_EMAIL","PADS_EMAIL structure pointer [ADSI]","_ds_ads_email","adsi.ads__email","adsi.ads_email","iads/ADS_EMAIL","iads/PADS_EMAIL"]
 old-location: adsi\ads_email.htm
 tech.root: adsi
 ms.assetid: 72d9ed78-1ae8-456c-9f06-4284446a3234

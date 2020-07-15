@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.ICaptionServiceDescriptor.GetNumberOfServices
 title: ICaptionServiceDescriptor::GetNumberOfServices (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetNumberOfServices","GetNumberOfServices method [Microsoft TV Technologies]","GetNumberOfServices method [Microsoft TV Technologies]","ICaptionServiceDescriptor interface","ICaptionServiceDescriptor interface [Microsoft TV Technologies]","GetNumberOfServices method","ICaptionServiceDescriptor.GetNumberOfServices","ICaptionServiceDescriptor::GetNumberOfServices","ICaptionServiceDescriptorGetNumberOfServices","atscpsipparser/ICaptionServiceDescriptor::GetNumberOfServices","mstv.icaptionservicedescriptor_getnumberofservices"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetNumberOfServices","GetNumberOfServices method [Microsoft TV Technologies]","GetNumberOfServices method [Microsoft TV Technologies]","ICaptionServiceDescriptor interface","ICaptionServiceDescriptor interface [Microsoft TV Technologies]","GetNumberOfServices method","ICaptionServiceDescriptor.GetNumberOfServices","ICaptionServiceDescriptor::GetNumberOfServices","ICaptionServiceDescriptorGetNumberOfServices","atscpsipparser/ICaptionServiceDescriptor::GetNumberOfServices","mstv.icaptionservicedescriptor_getnumberofservices"]
 old-location: mstv\icaptionservicedescriptor_getnumberofservices.htm
 tech.root: mstv
 ms.assetid: 50c2baff-a355-45a4-8a05-a193e695c448

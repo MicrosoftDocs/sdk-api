@@ -1,7 +1,8 @@
 ---
 UID: NF:strsafe.StringCbCopyW
 title: StringCbCopyW function (strsafe.h)
-description: Copies one string to another.helpviewer_keywords: ["StringCbCopy","StringCbCopy function [Menus and Other Resources]","StringCbCopyA","StringCbCopyW","_shell_StringCbCopy","_shell_stringcbcopy_cpp","menurc.stringcbcopy","strsafe/StringCbCopy","strsafe/StringCbCopyA","strsafe/StringCbCopyW","winui._shell_stringcbcopy"]
+description: Copies one string to another.
+helpviewer_keywords: ["StringCbCopy","StringCbCopy function [Menus and Other Resources]","StringCbCopyA","StringCbCopyW","_shell_StringCbCopy","_shell_stringcbcopy_cpp","menurc.stringcbcopy","strsafe/StringCbCopy","strsafe/StringCbCopyA","strsafe/StringCbCopyW","winui._shell_stringcbcopy"]
 old-location: menurc\stringcbcopy.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcopy.htm
@@ -182,6 +183,10 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b>. See <a href="htt
 
 
 
+
+
+> [!NOTE]
+> The strsafe.h header defines StringCbCopy as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

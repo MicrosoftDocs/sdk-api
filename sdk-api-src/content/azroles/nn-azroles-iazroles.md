@@ -1,7 +1,8 @@
 ---
 UID: NN:azroles.IAzRoles
 title: IAzRoles (azroles.h)
-description: Represents a collection of IAzRole objects.helpviewer_keywords: ["IAzRoles","IAzRoles interface [Security]","IAzRoles interface [Security]","described","azroles/IAzRoles","security.iazroles"]
+description: Represents a collection of IAzRole objects.
+helpviewer_keywords: ["IAzRoles","IAzRoles interface [Security]","IAzRoles interface [Security]","described","azroles/IAzRoles","security.iazroles"]
 old-location: security\iazroles.htm
 tech.root: SecAuthZ
 ms.assetid: bc69ec52-ea73-4a0c-a9a2-913a6725489e

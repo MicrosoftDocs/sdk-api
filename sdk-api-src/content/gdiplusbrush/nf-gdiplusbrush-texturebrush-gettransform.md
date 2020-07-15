@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusbrush.TextureBrush.GetTransform
 title: TextureBrush::GetTransform (gdiplusbrush.h)
-description: The TextureBrush::GetTransform method gets the transformation matrix of this texture brush.helpviewer_keywords: ["GetTransform","GetTransform method [GDI+]","GetTransform method [GDI+]","TextureBrush class","TextureBrush class [GDI+]","GetTransform method","TextureBrush.GetTransform","TextureBrush::GetTransform","_gdiplus_CLASS_TextureBrush_GetTransform_matrix_","gdiplus._gdiplus_CLASS_TextureBrush_GetTransform_matrix_"]
+description: The TextureBrush::GetTransform method gets the transformation matrix of this texture brush.
+helpviewer_keywords: ["GetTransform","GetTransform method [GDI+]","GetTransform method [GDI+]","TextureBrush class","TextureBrush class [GDI+]","GetTransform method","TextureBrush.GetTransform","TextureBrush::GetTransform","_gdiplus_CLASS_TextureBrush_GetTransform_matrix_","gdiplus._gdiplus_CLASS_TextureBrush_GetTransform_matrix_"]
 old-location: gdiplus\_gdiplus_CLASS_TextureBrush_GetTransform_matrix_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\texturebrushclass\texturebrushmethods\gettransform_92matrix.htm

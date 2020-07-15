@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagBITMAP
 title: BITMAP (wingdi.h)
-description: The BITMAP structure defines the type, width, height, color format, and bit values of a bitmap.helpviewer_keywords: ["*LPBITMAP","*NPBITMAP","*PBITMAP","BITMAP","BITMAP structure [Windows GDI]","PBITMAP","PBITMAP structure pointer [Windows GDI]","_win32_BITMAP_str","gdi.bitmap","wingdi/BITMAP","wingdi/PBITMAP"]
+description: The BITMAP structure defines the type, width, height, color format, and bit values of a bitmap.
+helpviewer_keywords: ["*LPBITMAP","*NPBITMAP","*PBITMAP","BITMAP","BITMAP structure [Windows GDI]","PBITMAP","PBITMAP structure pointer [Windows GDI]","_win32_BITMAP_str","gdi.bitmap","wingdi/BITMAP","wingdi/PBITMAP"]
 old-location: gdi\bitmap.htm
 tech.root: gdi
 ms.assetid: 6ee382da-dd63-442b-80c3-59472defb41f

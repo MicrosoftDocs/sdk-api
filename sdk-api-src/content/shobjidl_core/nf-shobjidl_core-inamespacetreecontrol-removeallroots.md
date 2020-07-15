@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.INameSpaceTreeControl.RemoveAllRoots
 title: INameSpaceTreeControl::RemoveAllRoots (shobjidl_core.h)
-description: Removes all roots and their children from a tree.helpviewer_keywords: ["INameSpaceTreeControl interface [Windows Shell]","RemoveAllRoots method","INameSpaceTreeControl.RemoveAllRoots","INameSpaceTreeControl::RemoveAllRoots","RemoveAllRoots","RemoveAllRoots method [Windows Shell]","RemoveAllRoots method [Windows Shell]","INameSpaceTreeControl interface","_shell_INameSpaceTreeControl_RemoveAllRoots","shell.INameSpaceTreeControl_RemoveAllRoots","shobjidl_core/INameSpaceTreeControl::RemoveAllRoots"]
+description: Removes all roots and their children from a tree.
+helpviewer_keywords: ["INameSpaceTreeControl interface [Windows Shell]","RemoveAllRoots method","INameSpaceTreeControl.RemoveAllRoots","INameSpaceTreeControl::RemoveAllRoots","RemoveAllRoots","RemoveAllRoots method [Windows Shell]","RemoveAllRoots method [Windows Shell]","INameSpaceTreeControl interface","_shell_INameSpaceTreeControl_RemoveAllRoots","shell.INameSpaceTreeControl_RemoveAllRoots","shobjidl_core/INameSpaceTreeControl::RemoveAllRoots"]
 old-location: shell\INameSpaceTreeControl_RemoveAllRoots.htm
 tech.root: shell
 ms.assetid: 9d2eb0c1-c90f-47fb-a322-4267d175df22

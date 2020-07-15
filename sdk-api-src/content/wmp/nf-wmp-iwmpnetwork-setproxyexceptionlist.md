@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPNetwork.setProxyExceptionList
 title: IWMPNetwork::setProxyExceptionList (wmp.h)
-description: The setProxyExceptionList method specifies the proxy exception list.helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","setProxyExceptionList method","IWMPNetwork.setProxyExceptionList","IWMPNetwork::setProxyExceptionList","IWMPNetworksetProxyExceptionList","setProxyExceptionList","setProxyExceptionList method [Windows Media Player]","setProxyExceptionList method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_setproxyexceptionlist","wmp/IWMPNetwork::setProxyExceptionList"]
+description: The setProxyExceptionList method specifies the proxy exception list.
+helpviewer_keywords: ["IWMPNetwork interface [Windows Media Player]","setProxyExceptionList method","IWMPNetwork.setProxyExceptionList","IWMPNetwork::setProxyExceptionList","IWMPNetworksetProxyExceptionList","setProxyExceptionList","setProxyExceptionList method [Windows Media Player]","setProxyExceptionList method [Windows Media Player]","IWMPNetwork interface","wmp.iwmpnetwork_setproxyexceptionlist","wmp/IWMPNetwork::setProxyExceptionList"]
 old-location: wmp\iwmpnetwork_setproxyexceptionlist.htm
 tech.root: WMP
 ms.assetid: af9202aa-fa4e-4726-908f-3fc5370e06df

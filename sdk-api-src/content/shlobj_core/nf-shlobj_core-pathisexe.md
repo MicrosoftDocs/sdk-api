@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.PathIsExe
 title: PathIsExe function (shlobj_core.h)
-description: PathIsExe may be altered or unavailable.helpviewer_keywords: ["PathIsExe","PathIsExe function [Windows Shell]","_win32_PathIsExe","shell.PathIsExe","shlobj_core/PathIsExe"]
+description: PathIsExe may be altered or unavailable.
+helpviewer_keywords: ["PathIsExe","PathIsExe function [Windows Shell]","_win32_PathIsExe","shell.PathIsExe","shlobj_core/PathIsExe"]
 old-location: shell\PathIsExe.htm
 tech.root: shell
 ms.assetid: 54e9dae7-f9c4-48b8-9b91-32ed21365fb7

@@ -1,7 +1,8 @@
 ---
 UID: NE:winevt._EVT_FORMAT_MESSAGE_FLAGS
 title: EVT_FORMAT_MESSAGE_FLAGS (winevt.h)
-description: Defines the values that specify the message string from the event to format.helpviewer_keywords: ["EVT_FORMAT_MESSAGE_FLAGS","EVT_FORMAT_MESSAGE_FLAGS enumeration [EventLog]","EvtFormatMessageChannel","EvtFormatMessageEvent","EvtFormatMessageId","EvtFormatMessageKeyword","EvtFormatMessageLevel","EvtFormatMessageOpcode","EvtFormatMessageProvider","EvtFormatMessageTask","EvtFormatMessageXml","wes.evt_format_message_flags","winevt/EVT_FORMAT_MESSAGE_FLAGS","winevt/EvtFormatMessageChannel","winevt/EvtFormatMessageEvent","winevt/EvtFormatMessageId","winevt/EvtFormatMessageKeyword","winevt/EvtFormatMessageLevel","winevt/EvtFormatMessageOpcode","winevt/EvtFormatMessageProvider","winevt/EvtFormatMessageTask","winevt/EvtFormatMessageXml"]
+description: Defines the values that specify the message string from the event to format.
+helpviewer_keywords: ["EVT_FORMAT_MESSAGE_FLAGS","EVT_FORMAT_MESSAGE_FLAGS enumeration [EventLog]","EvtFormatMessageChannel","EvtFormatMessageEvent","EvtFormatMessageId","EvtFormatMessageKeyword","EvtFormatMessageLevel","EvtFormatMessageOpcode","EvtFormatMessageProvider","EvtFormatMessageTask","EvtFormatMessageXml","wes.evt_format_message_flags","winevt/EVT_FORMAT_MESSAGE_FLAGS","winevt/EvtFormatMessageChannel","winevt/EvtFormatMessageEvent","winevt/EvtFormatMessageId","winevt/EvtFormatMessageKeyword","winevt/EvtFormatMessageLevel","winevt/EvtFormatMessageOpcode","winevt/EvtFormatMessageProvider","winevt/EvtFormatMessageTask","winevt/EvtFormatMessageXml"]
 old-location: wes\evt_format_message_flags.htm
 tech.root: wes
 ms.assetid: 6a8ed14a-1952-4fcf-ac66-12c1fecd363f

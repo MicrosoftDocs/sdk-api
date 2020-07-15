@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGIDevice1.SetMaximumFrameLatency
 title: IDXGIDevice1::SetMaximumFrameLatency (dxgi.h)
-description: Sets the number of frames that the system is allowed to queue for rendering.helpviewer_keywords: ["IDXGIDevice1 interface [DXGI]","SetMaximumFrameLatency method","IDXGIDevice1.SetMaximumFrameLatency","IDXGIDevice1::SetMaximumFrameLatency","SetMaximumFrameLatency","SetMaximumFrameLatency method [DXGI]","SetMaximumFrameLatency method [DXGI]","IDXGIDevice1 interface","da92b152-07cc-06ca-caa5-a8982fe8fc2f","direct3ddxgi.idxgidevice1_setmaximumframelatency","dxgi/IDXGIDevice1::SetMaximumFrameLatency"]
+description: Sets the number of frames that the system is allowed to queue for rendering.
+helpviewer_keywords: ["IDXGIDevice1 interface [DXGI]","SetMaximumFrameLatency method","IDXGIDevice1.SetMaximumFrameLatency","IDXGIDevice1::SetMaximumFrameLatency","SetMaximumFrameLatency","SetMaximumFrameLatency method [DXGI]","SetMaximumFrameLatency method [DXGI]","IDXGIDevice1 interface","da92b152-07cc-06ca-caa5-a8982fe8fc2f","direct3ddxgi.idxgidevice1_setmaximumframelatency","dxgi/IDXGIDevice1::SetMaximumFrameLatency"]
 old-location: direct3ddxgi\idxgidevice1_setmaximumframelatency.htm
 tech.root: direct3ddxgi
 ms.assetid: ea477f33-2dba-44ac-9b47-8fd2ce6cec30

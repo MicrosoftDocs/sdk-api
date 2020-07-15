@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionBrightnessEffect.SetWhitePointY(float)
 title: IDCompositionBrightnessEffect::SetWhitePointY (dcomp.h)
-description: Sets the y value of the white point.helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetWhitePointY method","IDCompositionBrightnessEffect.SetWhitePointY","IDCompositionBrightnessEffect::SetWhitePointY","IDCompositionBrightnessEffect::SetWhitePointY(float)","SetWhitePointY","SetWhitePointY method [DirectComposition]","SetWhitePointY method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetWhitePointY","directcomp.idcompositionbrightnesseffect_setwhitepointy"]
+description: Sets the y value of the white point.
+helpviewer_keywords: ["IDCompositionBrightnessEffect interface [DirectComposition]","SetWhitePointY method","IDCompositionBrightnessEffect.SetWhitePointY","IDCompositionBrightnessEffect::SetWhitePointY","IDCompositionBrightnessEffect::SetWhitePointY(float)","SetWhitePointY","SetWhitePointY method [DirectComposition]","SetWhitePointY method [DirectComposition]","IDCompositionBrightnessEffect interface","dcomp/IDCompositionBrightnessEffect::SetWhitePointY","directcomp.idcompositionbrightnesseffect_setwhitepointy"]
 old-location: directcomp\idcompositionbrightnesseffect_setwhitepointy.htm
 tech.root: directcomp
 ms.assetid: 2F0FA710-6281-4D25-84E1-25A50DBB92E5

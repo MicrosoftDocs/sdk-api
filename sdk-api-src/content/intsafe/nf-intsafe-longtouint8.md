@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.LongToUInt8
 title: LongToUInt8 function (intsafe.h)
-description: Converts a value of type LONG to a value of type UINT8.helpviewer_keywords: ["LongToByte","LongToUInt8","LongToUInt8 function [Windows Shell]","intsafe/LongToUInt8","shell.LongToUInt8"]
+description: Converts a value of type LONG to a value of type UINT8.
+helpviewer_keywords: ["LongToByte","LongToUInt8","LongToUInt8 function [Windows Shell]","intsafe/LongToUInt8","shell.LongToUInt8"]
 old-location: shell\LongToUInt8.htm
 tech.root: shell
 ms.assetid: 46b20b7c-f822-4521-8598-73193da67d2c

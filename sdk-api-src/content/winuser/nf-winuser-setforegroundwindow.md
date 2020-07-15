@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetForegroundWindow
 title: SetForegroundWindow function (winuser.h)
-description: Brings the thread that created the specified window into the foreground and activates the window.helpviewer_keywords: ["SetForegroundWindow","SetForegroundWindow function [Windows and Messages]","_win32_SetForegroundWindow","_win32_setforegroundwindow_cpp","winmsg.setforegroundwindow","winui._win32_setforegroundwindow","winuser/SetForegroundWindow"]
+description: Brings the thread that created the specified window into the foreground and activates the window.
+helpviewer_keywords: ["SetForegroundWindow","SetForegroundWindow function [Windows and Messages]","_win32_SetForegroundWindow","_win32_setforegroundwindow_cpp","winmsg.setforegroundwindow","winui._win32_setforegroundwindow","winuser/SetForegroundWindow"]
 old-location: winmsg\setforegroundwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\setforegroundwindow.htm

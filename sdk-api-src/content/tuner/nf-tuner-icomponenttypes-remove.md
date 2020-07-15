@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IComponentTypes.Remove
 title: IComponentTypes::Remove (tuner.h)
-description: The Remove method removes the ComponentType object at the specified index number.helpviewer_keywords: ["IComponentTypes interface [Microsoft TV Technologies]","Remove method","IComponentTypes.Remove","IComponentTypes::Remove","IComponentTypesRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","IComponentTypes interface","mstv.icomponenttypes_remove","tuner/IComponentTypes::Remove"]
+description: The Remove method removes the ComponentType object at the specified index number.
+helpviewer_keywords: ["IComponentTypes interface [Microsoft TV Technologies]","Remove method","IComponentTypes.Remove","IComponentTypes::Remove","IComponentTypesRemove","Remove","Remove method [Microsoft TV Technologies]","Remove method [Microsoft TV Technologies]","IComponentTypes interface","mstv.icomponenttypes_remove","tuner/IComponentTypes::Remove"]
 old-location: mstv\icomponenttypes_remove.htm
 tech.root: mstv
 ms.assetid: 7344851a-51ba-41c0-b368-e5eecfb5fb08

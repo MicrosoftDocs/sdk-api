@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IWMCodecProps.GetCodecProp
 title: IWMCodecProps::GetCodecProp (wmcodecdsp.h)
-description: Retrieves a codec property specific to an output format.helpviewer_keywords: ["GetCodecProp","GetCodecProp method [Media Foundation]","GetCodecProp method [Media Foundation]","IWMCodecProps interface","IWMCodecProps interface [Media Foundation]","GetCodecProp method","IWMCodecProps.GetCodecProp","IWMCodecProps::GetCodecProp","codecapi.iwmcodecpropsgetcodecprop","g_wszWMCPCodecName","g_wszWMCPSupportedVBRModes","mf.iwmcodecpropsgetcodecprop","wmcodecdsp/IWMCodecProps::GetCodecProp"]
+description: Retrieves a codec property specific to an output format.
+helpviewer_keywords: ["GetCodecProp","GetCodecProp method [Media Foundation]","GetCodecProp method [Media Foundation]","IWMCodecProps interface","IWMCodecProps interface [Media Foundation]","GetCodecProp method","IWMCodecProps.GetCodecProp","IWMCodecProps::GetCodecProp","codecapi.iwmcodecpropsgetcodecprop","g_wszWMCPCodecName","g_wszWMCPSupportedVBRModes","mf.iwmcodecpropsgetcodecprop","wmcodecdsp/IWMCodecProps::GetCodecProp"]
 old-location: mf\iwmcodecpropsgetcodecprop.htm
 tech.root: medfound
 ms.assetid: 380c0beb-47a7-46e2-bf5a-cf901d7e0719

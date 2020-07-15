@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICPngFilterOption
 title: WICPngFilterOption (wincodec.h)
-description: Specifies the Portable Network Graphics (PNG) filters available for compression optimization.helpviewer_keywords: ["WICPngFilterAdaptive","WICPngFilterAverage","WICPngFilterNone","WICPngFilterOption","WICPngFilterOption enumeration [Windows Imaging Component]","WICPngFilterPaeth","WICPngFilterSub","WICPngFilterUnspecified","WICPngFilterUp","_wic_codec_wicpngfilteroption","wic._wic_codec_wicpngfilteroption","wincodec/WICPngFilterAdaptive","wincodec/WICPngFilterAverage","wincodec/WICPngFilterNone","wincodec/WICPngFilterOption","wincodec/WICPngFilterPaeth","wincodec/WICPngFilterSub","wincodec/WICPngFilterUnspecified","wincodec/WICPngFilterUp"]
+description: Specifies the Portable Network Graphics (PNG) filters available for compression optimization.
+helpviewer_keywords: ["WICPngFilterAdaptive","WICPngFilterAverage","WICPngFilterNone","WICPngFilterOption","WICPngFilterOption enumeration [Windows Imaging Component]","WICPngFilterPaeth","WICPngFilterSub","WICPngFilterUnspecified","WICPngFilterUp","_wic_codec_wicpngfilteroption","wic._wic_codec_wicpngfilteroption","wincodec/WICPngFilterAdaptive","wincodec/WICPngFilterAverage","wincodec/WICPngFilterNone","wincodec/WICPngFilterOption","wincodec/WICPngFilterPaeth","wincodec/WICPngFilterSub","wincodec/WICPngFilterUnspecified","wincodec/WICPngFilterUp"]
 old-location: wic\_wic_codec_wicpngfilteroption.htm
 tech.root: wic
 ms.assetid: 468033cf-62e8-4aef-b34f-c833df048115

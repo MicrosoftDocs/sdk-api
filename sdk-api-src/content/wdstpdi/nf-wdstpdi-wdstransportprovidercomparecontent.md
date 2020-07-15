@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCompareContent
 title: WdsTransportProviderCompareContent function (wdstpdi.h)
-description: Compares a specified content name and instance to an open content stream to determine if they are the same.helpviewer_keywords: ["WdsTransportProviderCompareContent","WdsTransportProviderCompareContent callback","WdsTransportProviderCompareContent callback function [Windows Deployment Services]","wds.wdstransportprovidercomparecontent","wdstpdi/WdsTransportProviderCompareContent"]
+description: Compares a specified content name and instance to an open content stream to determine if they are the same.
+helpviewer_keywords: ["WdsTransportProviderCompareContent","WdsTransportProviderCompareContent callback","WdsTransportProviderCompareContent callback function [Windows Deployment Services]","wds.wdstransportprovidercomparecontent","wdstpdi/WdsTransportProviderCompareContent"]
 old-location: wds\wdstransportprovidercomparecontent.htm
 tech.root: wds
 ms.assetid: 206b85e2-e139-4f62-9107-ed78893a7ad2

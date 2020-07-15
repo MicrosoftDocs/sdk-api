@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestReader2
 title: IAppxBundleManifestReader2 (appxpackaging.h)
-description: Provides a read-only object model for manifests of bundle packages.helpviewer_keywords: ["IAppxBundleManifestReader2","IAppxBundleManifestReader2 interface [App packaging and management]","IAppxBundleManifestReader2 interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestReader2","appxpkg.iappxbundlemanifestreader2"]
+description: Provides a read-only object model for manifests of bundle packages.
+helpviewer_keywords: ["IAppxBundleManifestReader2","IAppxBundleManifestReader2 interface [App packaging and management]","IAppxBundleManifestReader2 interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestReader2","appxpkg.iappxbundlemanifestreader2"]
 old-location: appxpkg\iappxbundlemanifestreader2.htm
 tech.root: appxpkg
 ms.assetid: 37236CED-F32F-4726-B945-F7359AEFF030

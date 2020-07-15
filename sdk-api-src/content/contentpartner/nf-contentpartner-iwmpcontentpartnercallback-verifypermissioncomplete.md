@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentPartnerCallback.VerifyPermissionComplete
 title: IWMPContentPartnerCallback::VerifyPermissionComplete (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["IWMPContentPartnerCallback interface [Windows Media Player]","VerifyPermissionComplete method","IWMPContentPartnerCallback.VerifyPermissionComplete","IWMPContentPartnerCallback::VerifyPermissionComplete","IWMPContentPartnerCallbackVerifyPermissionComplete","VerifyPermissionComplete","VerifyPermissionComplete method [Windows Media Player]","VerifyPermissionComplete method [Windows Media Player]","IWMPContentPartnerCallback interface","contentpartner/IWMPContentPartnerCallback::VerifyPermissionComplete","wmp.iwmpcontentpartnercallback_verifypermissioncomplete"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["IWMPContentPartnerCallback interface [Windows Media Player]","VerifyPermissionComplete method","IWMPContentPartnerCallback.VerifyPermissionComplete","IWMPContentPartnerCallback::VerifyPermissionComplete","IWMPContentPartnerCallbackVerifyPermissionComplete","VerifyPermissionComplete","VerifyPermissionComplete method [Windows Media Player]","VerifyPermissionComplete method [Windows Media Player]","IWMPContentPartnerCallback interface","contentpartner/IWMPContentPartnerCallback::VerifyPermissionComplete","wmp.iwmpcontentpartnercallback_verifypermissioncomplete"]
 old-location: wmp\iwmpcontentpartnercallback_verifypermissioncomplete.htm
 tech.root: WMP
 ms.assetid: bf99ead7-a50c-4638-9f4c-5c43a8d0a0be

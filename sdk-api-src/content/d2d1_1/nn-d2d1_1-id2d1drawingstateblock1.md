@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1_1.ID2D1DrawingStateBlock1
 title: ID2D1DrawingStateBlock1 (d2d1_1.h)
-description: Implementation of a drawing state block that adds the functionality of primitive blend in addition to already existing antialias mode, transform, tags and text rendering mode.helpviewer_keywords: ["ID2D1DrawingStateBlock1","ID2D1DrawingStateBlock1 interface [Direct2D]","ID2D1DrawingStateBlock1 interface [Direct2D]","described","d2d1_1/ID2D1DrawingStateBlock1","direct2d.id2d1drawingstateblock1"]
+description: Implementation of a drawing state block that adds the functionality of primitive blend in addition to already existing antialias mode, transform, tags and text rendering mode.
+helpviewer_keywords: ["ID2D1DrawingStateBlock1","ID2D1DrawingStateBlock1 interface [Direct2D]","ID2D1DrawingStateBlock1 interface [Direct2D]","described","d2d1_1/ID2D1DrawingStateBlock1","direct2d.id2d1drawingstateblock1"]
 old-location: direct2d\id2d1drawingstateblock1.htm
 tech.root: Direct2D
 ms.assetid: F3A364F6-2C30-4DDE-A5C7-7B58758F111F

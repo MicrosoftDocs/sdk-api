@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxManifestReader
 title: IAppxManifestReader (appxpackaging.h)
-description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes.helpviewer_keywords: ["IAppxManifestReader","IAppxManifestReader interface [App packaging and management]","IAppxManifestReader interface [App packaging and management]","described","appxpackaging/IAppxManifestReader","appxpkg.iappxmanifestreader"]
+description: Represents an object model of the package manifest that provides methods to access manifest elements and attributes.
+helpviewer_keywords: ["IAppxManifestReader","IAppxManifestReader interface [App packaging and management]","IAppxManifestReader interface [App packaging and management]","described","appxpackaging/IAppxManifestReader","appxpkg.iappxmanifestreader"]
 old-location: appxpkg\iappxmanifestreader.htm
 tech.root: appxpkg
 ms.assetid: 3DA45F2F-7088-4A9B-968C-91E402CAA412

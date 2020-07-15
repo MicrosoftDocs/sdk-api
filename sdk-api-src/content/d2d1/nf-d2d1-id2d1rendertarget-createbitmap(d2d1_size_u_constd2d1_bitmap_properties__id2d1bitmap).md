@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1RenderTarget.CreateBitmap(D2D1_SIZE_U,const D2D1_BITMAP_PROPERTIES &,ID2D1Bitmap)
+UID: NF:d2d1.ID2D1RenderTarget.CreateBitmap(D2D1_SIZE_U,constD2D1_BITMAP_PROPERTIES&,ID2D1Bitmap)
 title: ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U,const D2D1_BITMAP_PROPERTIES &,ID2D1Bitmap) (d2d1.h)
 description: Creates an uninitialized Direct2D bitmap.
 helpviewer_keywords: ["CreateBitmap","CreateBitmap method [Direct2D]","CreateBitmap method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateBitmap method","ID2D1RenderTarget.CreateBitmap","ID2D1RenderTarget.CreateBitmap(D2D1_SIZE_U","const D2D1_BITMAP_PROPERTIES &","ID2D1Bitmap)","ID2D1RenderTarget::CreateBitmap","ID2D1RenderTarget::CreateBitmap(D2D1_SIZE_U","const D2D1_BITMAP_PROPERTIES &","ID2D1Bitmap)","d2d1/ID2D1RenderTarget::CreateBitmap","direct2d.ID2D1RenderTarget_CreateBitmap_D2D_SIZE_U_ref_D2D1_BITMAP_PROPERTIES_ptr_ptr_ID2D1Bitmap"]

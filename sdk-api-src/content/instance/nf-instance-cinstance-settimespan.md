@@ -1,7 +1,8 @@
 ---
 UID: NF:instance.CInstance.SetTimeSpan
 title: CInstance::SetTimeSpan (instance.h)
-description: The SetTimeSpan method sets a property that represents a time span.helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","SetTimeSpan method","CInstance.SetTimeSpan","CInstance::SetTimeSpan","SetTimeSpan","SetTimeSpan method [Windows Management Instrumentation]","SetTimeSpan method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_settimespan","instance/CInstance::SetTimeSpan","wmi.cinstance_settimespan"]
+description: The SetTimeSpan method sets a property that represents a time span.
+helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","SetTimeSpan method","CInstance.SetTimeSpan","CInstance::SetTimeSpan","SetTimeSpan","SetTimeSpan method [Windows Management Instrumentation]","SetTimeSpan method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_settimespan","instance/CInstance::SetTimeSpan","wmi.cinstance_settimespan"]
 old-location: wmi\cinstance_settimespan.htm
 tech.root: WmiSdk
 ms.assetid: d23197a2-7352-44e8-b962-2509fdf9673d

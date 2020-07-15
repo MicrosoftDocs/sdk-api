@@ -1,7 +1,8 @@
 ---
 UID: NS:mfobjects._MFVideoSurfaceInfo
 title: MFVideoSurfaceInfo (mfobjects.h)
-description: Contains information about an uncompressed video format. This structure is used in the MFVIDEOFORMAT structure.helpviewer_keywords: ["MFVideoSurfaceInfo","MFVideoSurfaceInfo structure [Media Foundation]","b48099a2-8427-496c-9a60-ace5b89d81e9","mf.mfvideosurfaceinfo","mfobjects/MFVideoSurfaceInfo"]
+description: Contains information about an uncompressed video format. This structure is used in the MFVIDEOFORMAT structure.
+helpviewer_keywords: ["MFVideoSurfaceInfo","MFVideoSurfaceInfo structure [Media Foundation]","b48099a2-8427-496c-9a60-ace5b89d81e9","mf.mfvideosurfaceinfo","mfobjects/MFVideoSurfaceInfo"]
 old-location: mf\mfvideosurfaceinfo.htm
 tech.root: medfound
 ms.assetid: b48099a2-8427-496c-9a60-ace5b89d81e9

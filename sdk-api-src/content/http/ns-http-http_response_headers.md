@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_RESPONSE_HEADERS
 title: HTTP_RESPONSE_HEADERS (http.h)
-description: Contains the headers sent with an HTTP response.helpviewer_keywords: ["*PHTTP_RESPONSE_HEADERS","HTTP_RESPONSE_HEADERS","HTTP_RESPONSE_HEADERS structure [HTTP]","PHTTP_RESPONSE_HEADERS","PHTTP_RESPONSE_HEADERS structure pointer [HTTP]","_http_http_response_headers","http.http_response_headers","http/HTTP_RESPONSE_HEADERS","http/PHTTP_RESPONSE_HEADERS"]
+description: Contains the headers sent with an HTTP response.
+helpviewer_keywords: ["*PHTTP_RESPONSE_HEADERS","HTTP_RESPONSE_HEADERS","HTTP_RESPONSE_HEADERS structure [HTTP]","PHTTP_RESPONSE_HEADERS","PHTTP_RESPONSE_HEADERS structure pointer [HTTP]","_http_http_response_headers","http.http_response_headers","http/HTTP_RESPONSE_HEADERS","http/PHTTP_RESPONSE_HEADERS"]
 old-location: http\http_response_headers.htm
 tech.root: http
 ms.assetid: e783c27e-d215-4f6d-a080-92d915a7fc33

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.IDocViewSite.OnSetTitle
 title: IDocViewSite::OnSetTitle (shlobj.h)
-description: Sets or retrieves the title of the site object.helpviewer_keywords: ["IDocViewSite interface [Windows Shell]","OnSetTitle method","IDocViewSite.OnSetTitle","IDocViewSite::OnSetTitle","OnSetTitle","OnSetTitle method [Windows Shell]","OnSetTitle method [Windows Shell]","IDocViewSite interface","_win32_IDocViewSite_OnSetTitle","shell.IDocViewSite_OnSetTitle","shlobj/IDocViewSite::OnSetTitle"]
+description: Sets or retrieves the title of the site object.
+helpviewer_keywords: ["IDocViewSite interface [Windows Shell]","OnSetTitle method","IDocViewSite.OnSetTitle","IDocViewSite::OnSetTitle","OnSetTitle","OnSetTitle method [Windows Shell]","OnSetTitle method [Windows Shell]","IDocViewSite interface","_win32_IDocViewSite_OnSetTitle","shell.IDocViewSite_OnSetTitle","shlobj/IDocViewSite::OnSetTitle"]
 old-location: shell\IDocViewSite_OnSetTitle.htm
 tech.root: shell
 ms.assetid: 941a8fe0-27db-4646-97d0-287fc94e7721

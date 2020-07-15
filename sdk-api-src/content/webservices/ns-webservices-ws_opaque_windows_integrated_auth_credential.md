@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL
 title: WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL (webservices.h)
-description: Type for supplying a Windows Integrated Authentication credential as an opaque handle created by SspiPromptForCredentials and the related family of APIs. This feature is available only on Windows 7 and later.helpviewer_keywords: ["WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL","WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows]","webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL","wsw.ws_opaque_windows_integrated_auth_credential"]
+description: Type for supplying a Windows Integrated Authentication credential as an opaque handle created by SspiPromptForCredentials and the related family of APIs. This feature is available only on Windows 7 and later.
+helpviewer_keywords: ["WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL","WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL structure [Web Services for Windows]","webservices/WS_OPAQUE_WINDOWS_INTEGRATED_AUTH_CREDENTIAL","wsw.ws_opaque_windows_integrated_auth_credential"]
 old-location: wsw\ws_opaque_windows_integrated_auth_credential.htm
 tech.root: wsw
 ms.assetid: 9dc8bde7-b70d-4b1f-9b3f-41af9ea7f215

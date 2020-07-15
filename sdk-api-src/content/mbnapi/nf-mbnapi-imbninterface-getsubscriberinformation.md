@@ -1,7 +1,8 @@
 ---
 UID: NF:mbnapi.IMbnInterface.GetSubscriberInformation
 title: IMbnInterface::GetSubscriberInformation (mbnapi.h)
-description: Gets the subscriber information.helpviewer_keywords: ["GetSubscriberInformation","GetSubscriberInformation method [Microsoft Broadband Networks]","GetSubscriberInformation method [Microsoft Broadband Networks]","IMbnInterface interface","IMbnInterface interface [Microsoft Broadband Networks]","GetSubscriberInformation method","IMbnInterface.GetSubscriberInformation","IMbnInterface::GetSubscriberInformation","mbn.imbninterface_getsubscriberinformation","mbnapi/IMbnInterface::GetSubscriberInformation"]
+description: Gets the subscriber information.
+helpviewer_keywords: ["GetSubscriberInformation","GetSubscriberInformation method [Microsoft Broadband Networks]","GetSubscriberInformation method [Microsoft Broadband Networks]","IMbnInterface interface","IMbnInterface interface [Microsoft Broadband Networks]","GetSubscriberInformation method","IMbnInterface.GetSubscriberInformation","IMbnInterface::GetSubscriberInformation","mbn.imbninterface_getsubscriberinformation","mbnapi/IMbnInterface::GetSubscriberInformation"]
 old-location: mbn\imbninterface_getsubscriberinformation.htm
 tech.root: mbn
 ms.assetid: 9114a3ed-2dc9-4637-b3d5-9430d309e89b

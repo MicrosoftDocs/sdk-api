@@ -1,7 +1,8 @@
 ---
 UID: NF:wbemprov.IWbemHiPerfProvider.GetObjects
 title: IWbemHiPerfProvider::GetObjects (wbemprov.h)
-description: Inserts the non-key properties of the objects in the supplied array.helpviewer_keywords: ["GetObjects","GetObjects method [Windows Management Instrumentation]","GetObjects method [Windows Management Instrumentation]","IWbemHiPerfProvider interface","IWbemHiPerfProvider interface [Windows Management Instrumentation]","GetObjects method","IWbemHiPerfProvider.GetObjects","IWbemHiPerfProvider::GetObjects","_hmm_iwbemhiperfprovider_getobjects","wbemprov/IWbemHiPerfProvider::GetObjects","wmi.iwbemhiperfprovider_getobjects"]
+description: Inserts the non-key properties of the objects in the supplied array.
+helpviewer_keywords: ["GetObjects","GetObjects method [Windows Management Instrumentation]","GetObjects method [Windows Management Instrumentation]","IWbemHiPerfProvider interface","IWbemHiPerfProvider interface [Windows Management Instrumentation]","GetObjects method","IWbemHiPerfProvider.GetObjects","IWbemHiPerfProvider::GetObjects","_hmm_iwbemhiperfprovider_getobjects","wbemprov/IWbemHiPerfProvider::GetObjects","wmi.iwbemhiperfprovider_getobjects"]
 old-location: wmi\iwbemhiperfprovider_getobjects.htm
 tech.root: WmiSdk
 ms.assetid: ba56b029-95d4-4c79-8385-0a5adb9f7dcc

@@ -1,7 +1,8 @@
 ---
 UID: NS:lmserver._SERVER_INFO_1516
 title: SERVER_INFO_1516 (lmserver.h)
-description: The SERVER_INFO_1516 structure specifies whether the server is a reliable time source.helpviewer_keywords: ["*LPSERVER_INFO_1516","*PSERVER_INFO_1516","LPSERVER_INFO_1516","LPSERVER_INFO_1516 structure pointer [Network Management]","PSERVER_INFO_1516","PSERVER_INFO_1516 structure pointer [Network Management]","SERVER_INFO_1516","SERVER_INFO_1516 structure [Network Management]","_win32_server_info_1516_str","lmserver/LPSERVER_INFO_1516","lmserver/PSERVER_INFO_1516","lmserver/SERVER_INFO_1516","netmgmt.server_info_1516_str"]
+description: The SERVER_INFO_1516 structure specifies whether the server is a reliable time source.
+helpviewer_keywords: ["*LPSERVER_INFO_1516","*PSERVER_INFO_1516","LPSERVER_INFO_1516","LPSERVER_INFO_1516 structure pointer [Network Management]","PSERVER_INFO_1516","PSERVER_INFO_1516 structure pointer [Network Management]","SERVER_INFO_1516","SERVER_INFO_1516 structure [Network Management]","_win32_server_info_1516_str","lmserver/LPSERVER_INFO_1516","lmserver/PSERVER_INFO_1516","lmserver/SERVER_INFO_1516","netmgmt.server_info_1516_str"]
 old-location: netmgmt\server_info_1516_str.htm
 tech.root: NetMgmt
 ms.assetid: 3d2baa83-61b6-4f7e-8cee-d584f87daf7d

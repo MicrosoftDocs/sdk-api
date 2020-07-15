@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetRedTable
 title: IDCompositionTableTransferEffect::SetRedTable (dcomp.h)
-description: Sets the list of values used to define the transfer function for the red channel.helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetRedTable method","IDCompositionTableTransferEffect.SetRedTable","IDCompositionTableTransferEffect::SetRedTable","SetRedTable","SetRedTable method [DirectComposition]","SetRedTable method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetRedTable","directcomp.idcompositiontabletransfereffect_setredtable"]
+description: Sets the list of values used to define the transfer function for the red channel.
+helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetRedTable method","IDCompositionTableTransferEffect.SetRedTable","IDCompositionTableTransferEffect::SetRedTable","SetRedTable","SetRedTable method [DirectComposition]","SetRedTable method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetRedTable","directcomp.idcompositiontabletransfereffect_setredtable"]
 old-location: directcomp\idcompositiontabletransfereffect_setredtable.htm
 tech.root: directcomp
 ms.assetid: 4113919E-84B9-402A-A2A1-64EB74D2CC59

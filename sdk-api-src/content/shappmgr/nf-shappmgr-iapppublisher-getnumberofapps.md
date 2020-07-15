@@ -1,7 +1,8 @@
 ---
 UID: NF:shappmgr.IAppPublisher.GetNumberOfApps
 title: IAppPublisher::GetNumberOfApps (shappmgr.h)
-description: Obsolete. Clients of Add/Remove Programs Control Panel Application can return E_NOTIMPL.helpviewer_keywords: ["GetNumberOfApps","GetNumberOfApps method [Windows Shell]","GetNumberOfApps method [Windows Shell]","IAppPublisher interface","IAppPublisher interface [Windows Shell]","GetNumberOfApps method","IAppPublisher.GetNumberOfApps","IAppPublisher::GetNumberOfApps","inet_IAppPublisher_GetNumberOfApps","shappmgr/IAppPublisher::GetNumberOfApps","shell.IAppPublisher_GetNumberOfApps"]
+description: Obsolete. Clients of Add/Remove Programs Control Panel Application can return E_NOTIMPL.
+helpviewer_keywords: ["GetNumberOfApps","GetNumberOfApps method [Windows Shell]","GetNumberOfApps method [Windows Shell]","IAppPublisher interface","IAppPublisher interface [Windows Shell]","GetNumberOfApps method","IAppPublisher.GetNumberOfApps","IAppPublisher::GetNumberOfApps","inet_IAppPublisher_GetNumberOfApps","shappmgr/IAppPublisher::GetNumberOfApps","shell.IAppPublisher_GetNumberOfApps"]
 old-location: shell\IAppPublisher_GetNumberOfApps.htm
 tech.root: shell
 ms.assetid: 175beedc-49fa-42a3-aee1-ed2f254bfbb4

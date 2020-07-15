@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IExplorerBrowserEvents
 title: IExplorerBrowserEvents (shobjidl_core.h)
-description: Exposes methods for notification of Explorer browser navigation and view creation events.helpviewer_keywords: ["IExplorerBrowserEvents","IExplorerBrowserEvents interface [Windows Shell]","IExplorerBrowserEvents interface [Windows Shell]","described","_shell_IExplorerBrowserEvents","shell.IExplorerBrowserEvents","shobjidl_core/IExplorerBrowserEvents"]
+description: Exposes methods for notification of Explorer browser navigation and view creation events.
+helpviewer_keywords: ["IExplorerBrowserEvents","IExplorerBrowserEvents interface [Windows Shell]","IExplorerBrowserEvents interface [Windows Shell]","described","_shell_IExplorerBrowserEvents","shell.IExplorerBrowserEvents","shobjidl_core/IExplorerBrowserEvents"]
 old-location: shell\IExplorerBrowserEvents.htm
 tech.root: shell
 ms.assetid: 802d547f-41c2-4c4a-9f07-be615d7b86eb

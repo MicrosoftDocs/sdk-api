@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagXFORM
 title: XFORM (wingdi.h)
-description: The XFORM structure specifies a world-space to page-space transformation.helpviewer_keywords: ["*LPXFORM","*PXFORM","PXFORM","PXFORM structure pointer [Windows GDI]","XFORM","XFORM structure [Windows GDI]","_win32_XFORM_str","gdi.xform","tagXFORM","wingdi/PXFORM","wingdi/XFORM"]
+description: The XFORM structure specifies a world-space to page-space transformation.
+helpviewer_keywords: ["*LPXFORM","*PXFORM","PXFORM","PXFORM structure pointer [Windows GDI]","XFORM","XFORM structure [Windows GDI]","_win32_XFORM_str","gdi.xform","tagXFORM","wingdi/PXFORM","wingdi/XFORM"]
 old-location: gdi\xform.htm
 tech.root: gdi
 ms.assetid: 49f0d7ee-77fa-415e-af00-b8930253a3a9

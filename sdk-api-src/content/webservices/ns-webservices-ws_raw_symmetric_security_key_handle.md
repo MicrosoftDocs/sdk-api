@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE
 title: WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE (webservices.h)
-description: The type for specifying a symmetric cryptographic key as raw bytes.helpviewer_keywords: ["WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE","WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows]","webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE","wsw.ws_raw_symmetric_security_key_handle"]
+description: The type for specifying a symmetric cryptographic key as raw bytes.
+helpviewer_keywords: ["WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE","WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE structure [Web Services for Windows]","webservices/WS_RAW_SYMMETRIC_SECURITY_KEY_HANDLE","wsw.ws_raw_symmetric_security_key_handle"]
 old-location: wsw\ws_raw_symmetric_security_key_handle.htm
 tech.root: wsw
 ms.assetid: 8c2c664b-2ee4-4647-a219-119eb5c5a0f6

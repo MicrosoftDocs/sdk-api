@@ -1,7 +1,8 @@
 ---
 UID: NN:tapi3.ITAgentEvent
 title: ITAgentEvent (tapi3.h)
-description: The ITAgentEvent interface contains methods that retrieve the description of agent events.helpviewer_keywords: ["ITAgentEvent","ITAgentEvent interface [TAPI 2.2]","ITAgentEvent interface [TAPI 2.2]","described","_tapi3_itagentevent","tapi3.itagentevent","tapi3cc/ITAgentEvent"]
+description: The ITAgentEvent interface contains methods that retrieve the description of agent events.
+helpviewer_keywords: ["ITAgentEvent","ITAgentEvent interface [TAPI 2.2]","ITAgentEvent interface [TAPI 2.2]","described","_tapi3_itagentevent","tapi3.itagentevent","tapi3cc/ITAgentEvent"]
 old-location: tapi3\itagentevent.htm
 tech.root: Tapi
 ms.assetid: adfb58f7-b02c-4a64-92c1-a1b29c9f7143

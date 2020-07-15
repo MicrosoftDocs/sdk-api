@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICImagingFactory.CreateColorContext
 title: IWICImagingFactory::CreateColorContext (wincodec.h)
-description: Creates a new instance of the IWICColorContext class.helpviewer_keywords: ["CreateColorContext","CreateColorContext method [Windows Imaging Component]","CreateColorContext method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateColorContext method","IWICImagingFactory.CreateColorContext","IWICImagingFactory::CreateColorContext","_wic_codec_iwicimagingfactory_createcolorcontext","wic._wic_codec_iwicimagingfactory_createcolorcontext","wincodec/IWICImagingFactory::CreateColorContext"]
+description: Creates a new instance of the IWICColorContext class.
+helpviewer_keywords: ["CreateColorContext","CreateColorContext method [Windows Imaging Component]","CreateColorContext method [Windows Imaging Component]","IWICImagingFactory interface","IWICImagingFactory interface [Windows Imaging Component]","CreateColorContext method","IWICImagingFactory.CreateColorContext","IWICImagingFactory::CreateColorContext","_wic_codec_iwicimagingfactory_createcolorcontext","wic._wic_codec_iwicimagingfactory_createcolorcontext","wincodec/IWICImagingFactory::CreateColorContext"]
 old-location: wic\_wic_codec_iwicimagingfactory_createcolorcontext.htm
 tech.root: wic
 ms.assetid: 60ae0ec4-2bf4-43f0-9882-ff8b6f5f5923

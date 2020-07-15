@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.ITfFnPropertyUIStatus.SetStatus
 title: ITfFnPropertyUIStatus::SetStatus (ctffunc.h)
-description: ITfFnPropertyUIStatus::SetStatus methodhelpviewer_keywords: ["ITfFnPropertyUIStatus interface [Text Services Framework]","SetStatus method","ITfFnPropertyUIStatus.SetStatus","ITfFnPropertyUIStatus::SetStatus","SetStatus","SetStatus method [Text Services Framework]","SetStatus method [Text Services Framework]","ITfFnPropertyUIStatus interface","_tsf_itffnpropertyuistatus_setstatus_ref","ctffunc/ITfFnPropertyUIStatus::SetStatus","tsf.itffnpropertyuistatus_setstatus"]
+description: ITfFnPropertyUIStatus::SetStatus method
+helpviewer_keywords: ["ITfFnPropertyUIStatus interface [Text Services Framework]","SetStatus method","ITfFnPropertyUIStatus.SetStatus","ITfFnPropertyUIStatus::SetStatus","SetStatus","SetStatus method [Text Services Framework]","SetStatus method [Text Services Framework]","ITfFnPropertyUIStatus interface","_tsf_itffnpropertyuistatus_setstatus_ref","ctffunc/ITfFnPropertyUIStatus::SetStatus","tsf.itffnpropertyuistatus_setstatus"]
 old-location: tsf\itffnpropertyuistatus_setstatus.htm
 tech.root: TSF
 ms.assetid: 817329fb-521a-426a-88d8-b36ee161b6b9

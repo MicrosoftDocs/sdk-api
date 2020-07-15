@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_WRITER_ENCODING
 title: WS_XML_WRITER_ENCODING (webservices.h)
-description: This structure is the base type for all the different kinds of writer encodings.helpviewer_keywords: ["WS_XML_WRITER_ENCODING","WS_XML_WRITER_ENCODING structure [Web Services for Windows]","webservices/WS_XML_WRITER_ENCODING","wsw.ws_xml_writer_encoding"]
+description: This structure is the base type for all the different kinds of writer encodings.
+helpviewer_keywords: ["WS_XML_WRITER_ENCODING","WS_XML_WRITER_ENCODING structure [Web Services for Windows]","webservices/WS_XML_WRITER_ENCODING","wsw.ws_xml_writer_encoding"]
 old-location: wsw\ws_xml_writer_encoding.htm
 tech.root: wsw
 ms.assetid: 5ca43d39-e714-4070-b343-6c8ab9484817

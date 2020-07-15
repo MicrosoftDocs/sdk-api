@@ -1,11 +1,12 @@
 ---
 UID: NF:synchapi.ReleaseSRWLockExclusive
 title: ReleaseSRWLockExclusive function (synchapi.h)
-description: Releases a slim reader/writer (SRW) lock that was acquired in exclusive mode.helpviewer_keywords: ["ReleaseSRWLockExclusive","ReleaseSRWLockExclusive function","base.releasesrwlockexclusive","synchapi/ReleaseSRWLockExclusive","winbase/ReleaseSRWLockExclusive"]
+description: Releases a slim reader/writer (SRW) lock that was acquired in exclusive mode.
+helpviewer_keywords: ["ReleaseSRWLockExclusive","ReleaseSRWLockExclusive function","base.releasesrwlockexclusive","synchapi/ReleaseSRWLockExclusive","winbase/ReleaseSRWLockExclusive"]
 old-location: base\releasesrwlockexclusive.htm
 tech.root: Sync
 ms.assetid: 77f9b8ee-f922-4bd1-b715-ccb1ca891dcc
-ms.date: 12/05/2018
+ms.date: 06/29/2020
 ms.keywords: ReleaseSRWLockExclusive, ReleaseSRWLockExclusive function, base.releasesrwlockexclusive, synchapi/ReleaseSRWLockExclusive, winbase/ReleaseSRWLockExclusive
 f1_keywords:
 - synchapi/ReleaseSRWLockExclusive
@@ -69,18 +70,16 @@ Releases a slim reader/writer (SRW) lock that was acquired in exclusive mode.
 A pointer to the SRW lock.
 
 
+## -remarks
+
+The SRW lock must be released by the same thread that acquired it. You can use [Application Verifier](https://docs.microsoft.com/windows-hardware/drivers/devtest/application-verifier) to help verify that your program uses SRW locks correctly (enable Locks checker from Basic group).
+
+
 ## -see-also
-
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/api/synchapi/nf-synchapi-acquiresrwlockexclusive">AcquireSRWLockExclusive</a>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/Sync/slim-reader-writer--srw--locks">Slim Reader/Writer (SRW) Locks</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
  

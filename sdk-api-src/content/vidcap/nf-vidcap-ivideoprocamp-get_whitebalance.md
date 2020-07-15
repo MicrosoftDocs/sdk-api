@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_WhiteBalance
 title: IVideoProcAmp::get_WhiteBalance (vidcap.h)
-description: The get_WhiteBalance method returns the camera's white balance, specified as a color temperature.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","get_WhiteBalance method","IVideoProcAmp.get_WhiteBalance","IVideoProcAmp::get_WhiteBalance","IVideoProcAmpget_WhiteBalance","dshow.ivideoprocamp_get_whitebalance","get_WhiteBalance","get_WhiteBalance method [DirectShow]","get_WhiteBalance method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::get_WhiteBalance"]
+description: The get_WhiteBalance method returns the camera's white balance, specified as a color temperature.
+helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","get_WhiteBalance method","IVideoProcAmp.get_WhiteBalance","IVideoProcAmp::get_WhiteBalance","IVideoProcAmpget_WhiteBalance","dshow.ivideoprocamp_get_whitebalance","get_WhiteBalance","get_WhiteBalance method [DirectShow]","get_WhiteBalance method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::get_WhiteBalance"]
 old-location: dshow\ivideoprocamp_get_whitebalance.htm
 tech.root: DirectShow
 ms.assetid: 53743bff-4257-4abf-b41a-aa5586ab37b5

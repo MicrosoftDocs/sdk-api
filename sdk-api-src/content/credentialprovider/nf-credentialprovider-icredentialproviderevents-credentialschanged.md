@@ -1,7 +1,8 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderEvents.CredentialsChanged
 title: ICredentialProviderEvents::CredentialsChanged (credentialprovider.h)
-description: Signals the Logon UI or Credential UI that the enumerated list of credentials has changed.helpviewer_keywords: ["CredentialsChanged","CredentialsChanged method [Windows Shell]","CredentialsChanged method [Windows Shell]","ICredentialProviderEvents interface","ICredentialProviderEvents interface [Windows Shell]","CredentialsChanged method","ICredentialProviderEvents.CredentialsChanged","ICredentialProviderEvents::CredentialsChanged","credentialprovider/ICredentialProviderEvents::CredentialsChanged","shell.ICredentialProviderEvents_CredentialsChanged","shell_ICredentialProviderEvents_CredentialsChanged"]
+description: Signals the Logon UI or Credential UI that the enumerated list of credentials has changed.
+helpviewer_keywords: ["CredentialsChanged","CredentialsChanged method [Windows Shell]","CredentialsChanged method [Windows Shell]","ICredentialProviderEvents interface","ICredentialProviderEvents interface [Windows Shell]","CredentialsChanged method","ICredentialProviderEvents.CredentialsChanged","ICredentialProviderEvents::CredentialsChanged","credentialprovider/ICredentialProviderEvents::CredentialsChanged","shell.ICredentialProviderEvents_CredentialsChanged","shell_ICredentialProviderEvents_CredentialsChanged"]
 old-location: shell\ICredentialProviderEvents_CredentialsChanged.htm
 tech.root: shell
 ms.assetid: bff835ed-01b9-4620-a97c-c64a2445e02a

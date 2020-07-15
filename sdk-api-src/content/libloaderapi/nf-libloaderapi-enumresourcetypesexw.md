@@ -1,7 +1,8 @@
 ---
 UID: NF:libloaderapi.EnumResourceTypesExW
 title: EnumResourceTypesExW function (libloaderapi.h)
-description: Enumerates resource types associated with a specified binary module.helpviewer_keywords: ["EnumResourceTypesEx","EnumResourceTypesEx function [Menus and Other Resources]","EnumResourceTypesExA","EnumResourceTypesExW","RESOURCE_ENUM_LN","RESOURCE_ENUM_MUI","RESOURCE_ENUM_VALIDATE","_win32_EnumResourceTypesEx","_win32_enumresourcetypesex_cpp","libloaderapi/EnumResourceTypesEx","libloaderapi/EnumResourceTypesExA","libloaderapi/EnumResourceTypesExW","menurc.enumresourcetypesex","winui._win32_enumresourcetypesex"]
+description: Enumerates resource types associated with a specified binary module.
+helpviewer_keywords: ["EnumResourceTypesEx","EnumResourceTypesEx function [Menus and Other Resources]","EnumResourceTypesExA","EnumResourceTypesExW","RESOURCE_ENUM_LN","RESOURCE_ENUM_MUI","RESOURCE_ENUM_VALIDATE","_win32_EnumResourceTypesEx","_win32_enumresourcetypesex_cpp","libloaderapi/EnumResourceTypesEx","libloaderapi/EnumResourceTypesExA","libloaderapi/EnumResourceTypesExW","menurc.enumresourcetypesex","winui._win32_enumresourcetypesex"]
 old-location: menurc\enumresourcetypesex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\introductiontoresources\resourcereference\resourcefunctions\enumresourcetypesex.htm
@@ -182,6 +183,10 @@ For an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The libloaderapi.h header defines EnumResourceTypesEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

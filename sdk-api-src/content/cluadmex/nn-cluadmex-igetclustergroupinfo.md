@@ -1,7 +1,8 @@
 ---
 UID: NN:cluadmex.IGetClusterGroupInfo
 title: IGetClusterGroupInfo (cluadmex.h)
-description: The IGetClusterGroupInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a group.helpviewer_keywords: ["IGetClusterGroupInfo","IGetClusterGroupInfo interface [Failover Cluster]","IGetClusterGroupInfo interface [Failover Cluster]","described","_wolf_igetclustergroupinfo","cluadmex/IGetClusterGroupInfo","mscs.igetclustergroupinfo"]
+description: The IGetClusterGroupInfo interface is called by a Failover Cluster Administrator extension to retrieve information about a group.
+helpviewer_keywords: ["IGetClusterGroupInfo","IGetClusterGroupInfo interface [Failover Cluster]","IGetClusterGroupInfo interface [Failover Cluster]","described","_wolf_igetclustergroupinfo","cluadmex/IGetClusterGroupInfo","mscs.igetclustergroupinfo"]
 old-location: mscs\igetclustergroupinfo.htm
 tech.root: MsCS
 ms.assetid: 335114ff-3db8-4867-b830-6806adef01f8

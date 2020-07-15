@@ -1,7 +1,8 @@
 ---
 UID: NF:ntquery.LoadIFilter
 title: LoadIFilter function (ntquery.h)
-description: Retrieves IFilter from path name for object.helpviewer_keywords: ["LoadIFilter","LoadIFilter function [Indexing Service]","_idxs_LoadIFilter","indexsrv.loadifilter","ntquery/LoadIFilter"]
+description: Retrieves IFilter from path name for object.
+helpviewer_keywords: ["LoadIFilter","LoadIFilter function [Indexing Service]","_idxs_LoadIFilter","indexsrv.loadifilter","ntquery/LoadIFilter"]
 old-location: indexsrv\loadifilter.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_5ar6.htm

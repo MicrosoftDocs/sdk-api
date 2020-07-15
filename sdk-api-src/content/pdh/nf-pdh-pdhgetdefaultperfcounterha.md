@@ -1,7 +1,8 @@
 ---
 UID: NF:pdh.PdhGetDefaultPerfCounterHA
 title: PdhGetDefaultPerfCounterHA function (pdh.h)
-description: Retrieves the name of the default counter for the specified object.helpviewer_keywords: ["PdhGetDefaultPerfCounterH","PdhGetDefaultPerfCounterH function [Perf]","PdhGetDefaultPerfCounterHA","PdhGetDefaultPerfCounterHW","_win32_pdhgetdefaultperfcounterh","base.pdhgetdefaultperfcounterh","pdh/PdhGetDefaultPerfCounterH","pdh/PdhGetDefaultPerfCounterHA","pdh/PdhGetDefaultPerfCounterHW","perf.pdhgetdefaultperfcounterh"]
+description: Retrieves the name of the default counter for the specified object.
+helpviewer_keywords: ["PdhGetDefaultPerfCounterH","PdhGetDefaultPerfCounterH function [Perf]","PdhGetDefaultPerfCounterHA","PdhGetDefaultPerfCounterHW","_win32_pdhgetdefaultperfcounterh","base.pdhgetdefaultperfcounterh","pdh/PdhGetDefaultPerfCounterH","pdh/PdhGetDefaultPerfCounterHA","pdh/PdhGetDefaultPerfCounterHW","perf.pdhgetdefaultperfcounterh"]
 old-location: perf\pdhgetdefaultperfcounterh.htm
 tech.root: perfctrs
 ms.assetid: d1b3de9a-99ab-4339-8e9f-906f5a5d291d
@@ -199,6 +200,10 @@ You should call this function twice, the first time to get the required buffer s
 
 
 
+
+
+> [!NOTE]
+> The pdh.h header defines PdhGetDefaultPerfCounterH as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

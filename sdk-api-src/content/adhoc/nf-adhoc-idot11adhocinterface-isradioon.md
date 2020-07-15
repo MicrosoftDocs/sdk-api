@@ -1,7 +1,8 @@
 ---
 UID: NF:adhoc.IDot11AdHocInterface.IsRadioOn
 title: IDot11AdHocInterface::IsRadioOn (adhoc.h)
-description: Specifies whether the radio is on.helpviewer_keywords: ["IDot11AdHocInterface interface [NativeWIFI]","IsRadioOn method","IDot11AdHocInterface.IsRadioOn","IDot11AdHocInterface::IsRadioOn","IsRadioOn","IsRadioOn method [NativeWIFI]","IsRadioOn method [NativeWIFI]","IDot11AdHocInterface interface","adhoc/IDot11AdHocInterface::IsRadioOn","nwifi.idot11adhocinterface_isradioon"]
+description: Specifies whether the radio is on.
+helpviewer_keywords: ["IDot11AdHocInterface interface [NativeWIFI]","IsRadioOn method","IDot11AdHocInterface.IsRadioOn","IDot11AdHocInterface::IsRadioOn","IsRadioOn","IsRadioOn method [NativeWIFI]","IsRadioOn method [NativeWIFI]","IDot11AdHocInterface interface","adhoc/IDot11AdHocInterface::IsRadioOn","nwifi.idot11adhocinterface_isradioon"]
 old-location: nwifi\idot11adhocinterface_isradioon.htm
 tech.root: NativeWiFi
 ms.assetid: f5d76166-b960-4b70-acf7-e8eb65ca8cfb

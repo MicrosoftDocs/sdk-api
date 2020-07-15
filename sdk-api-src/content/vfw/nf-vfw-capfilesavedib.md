@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.capFileSaveDIB
 title: capFileSaveDIB macro (vfw.h)
-description: The capFileSaveDIB macro copies the current frame to a DIB file. You can use this macro or explicitly call the WM_CAP_FILE_SAVEDIB message.helpviewer_keywords: ["_win32_capFileSaveDIB","capFileSaveDIB","capFileSaveDIB macro [Windows Multimedia]","multimedia.capfilesavedib","vfw/capFileSaveDIB"]
+description: The capFileSaveDIB macro copies the current frame to a DIB file. You can use this macro or explicitly call the WM_CAP_FILE_SAVEDIB message.
+helpviewer_keywords: ["_win32_capFileSaveDIB","capFileSaveDIB","capFileSaveDIB macro [Windows Multimedia]","multimedia.capfilesavedib","vfw/capFileSaveDIB"]
 old-location: multimedia\capfilesavedib.htm
 tech.root: Multimedia
 ms.assetid: bab1c97d-e84e-43ff-9b66-79b903a610eb

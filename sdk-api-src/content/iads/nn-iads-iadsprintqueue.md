@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsPrintQueue
 title: IADsPrintQueue (iads.h)
-description: The IADsPrintQueue interface represents a printer on a network.helpviewer_keywords: ["IADsPrintQueue","IADsPrintQueue interface [ADSI]","IADsPrintQueue interface [ADSI]","described","_ds_iadsprintqueue","adsi.iadsprintqueue","iads/IADsPrintQueue"]
+description: The IADsPrintQueue interface represents a printer on a network.
+helpviewer_keywords: ["IADsPrintQueue","IADsPrintQueue interface [ADSI]","IADsPrintQueue interface [ADSI]","described","_ds_iadsprintqueue","adsi.iadsprintqueue","iads/IADsPrintQueue"]
 old-location: adsi\iadsprintqueue.htm
 tech.root: adsi
 ms.assetid: 2ea956b0-fb8f-4ffb-8741-8d98ad05d783

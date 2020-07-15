@@ -216,7 +216,3 @@ The <b>oneXStatus</b> member of the <a href="https://docs.microsoft.com/windows/
 
 
 <a href="https://docs.microsoft.com/windows/desktop/api/wlanapi/nf-wlanapi-wlanregisternotification">WlanRegisterNotification</a>
- 
-
- 
-

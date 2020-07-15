@@ -1,7 +1,8 @@
 ---
 UID: NS:dwrite_3.DWRITE_LINE_METRICS1
 title: DWRITE_LINE_METRICS1 (dwrite_3.h)
-description: Contains information about a formatted line of text.helpviewer_keywords: ["DWRITE_LINE_METRICS1","DWRITE_LINE_METRICS1 structure [Direct Write]","directwrite.dwrite_line_metrics1","dwrite_3/DWRITE_LINE_METRICS1"]
+description: Contains information about a formatted line of text.
+helpviewer_keywords: ["DWRITE_LINE_METRICS1","DWRITE_LINE_METRICS1 structure [Direct Write]","directwrite.dwrite_line_metrics1","dwrite_3/DWRITE_LINE_METRICS1"]
 old-location: directwrite\dwrite_line_metrics1.htm
 tech.root: DirectWrite
 ms.assetid: 7b5cc425-8a7e-0bff-3fe1-73984872b60b

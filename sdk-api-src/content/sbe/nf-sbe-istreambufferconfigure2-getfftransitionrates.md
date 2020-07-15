@@ -1,7 +1,8 @@
 ---
 UID: NF:sbe.IStreamBufferConfigure2.GetFFTransitionRates
 title: IStreamBufferConfigure2::GetFFTransitionRates (sbe.h)
-description: The GetFFTransitionRates method returns the maximum full-frame and key-frame playback rates.helpviewer_keywords: ["GetFFTransitionRates","GetFFTransitionRates method [Microsoft TV Technologies]","GetFFTransitionRates method [Microsoft TV Technologies]","IStreamBufferConfigure2 interface","IStreamBufferConfigure2 interface [Microsoft TV Technologies]","GetFFTransitionRates method","IStreamBufferConfigure2.GetFFTransitionRates","IStreamBufferConfigure2::GetFFTransitionRates","IStreamBufferConfigure2GetFFTransitionRates","mstv.istreambufferconfigure2_getfftransitionrates","sbe/IStreamBufferConfigure2::GetFFTransitionRates"]
+description: The GetFFTransitionRates method returns the maximum full-frame and key-frame playback rates.
+helpviewer_keywords: ["GetFFTransitionRates","GetFFTransitionRates method [Microsoft TV Technologies]","GetFFTransitionRates method [Microsoft TV Technologies]","IStreamBufferConfigure2 interface","IStreamBufferConfigure2 interface [Microsoft TV Technologies]","GetFFTransitionRates method","IStreamBufferConfigure2.GetFFTransitionRates","IStreamBufferConfigure2::GetFFTransitionRates","IStreamBufferConfigure2GetFFTransitionRates","mstv.istreambufferconfigure2_getfftransitionrates","sbe/IStreamBufferConfigure2::GetFFTransitionRates"]
 old-location: mstv\istreambufferconfigure2_getfftransitionrates.htm
 tech.root: mstv
 ms.assetid: ba0ce9b2-f160-4749-92ba-b9a77f34b980

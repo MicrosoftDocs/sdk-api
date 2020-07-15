@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete
 title: ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete (winsync.h)
-description: Gets the knowledge the destination replica will learn after it applies the changes in the full enumeration.helpviewer_keywords: ["GetLearnedKnowledgeAfterRecoveryComplete","GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync]","GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync]","ISyncFullEnumerationChange interface","ISyncFullEnumerationChange interface [Windows Sync]","GetLearnedKnowledgeAfterRecoveryComplete method","ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete","ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete","winsync.isyncfullenumerationchange_getlearnedknowledgeafterrecoverycomplete","winsync/ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete"]
+description: Gets the knowledge the destination replica will learn after it applies the changes in the full enumeration.
+helpviewer_keywords: ["GetLearnedKnowledgeAfterRecoveryComplete","GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync]","GetLearnedKnowledgeAfterRecoveryComplete method [Windows Sync]","ISyncFullEnumerationChange interface","ISyncFullEnumerationChange interface [Windows Sync]","GetLearnedKnowledgeAfterRecoveryComplete method","ISyncFullEnumerationChange.GetLearnedKnowledgeAfterRecoveryComplete","ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete","winsync.isyncfullenumerationchange_getlearnedknowledgeafterrecoverycomplete","winsync/ISyncFullEnumerationChange::GetLearnedKnowledgeAfterRecoveryComplete"]
 old-location: winsync\isyncfullenumerationchange_getlearnedknowledgeafterrecoverycomplete.htm
 tech.root: winsync
 ms.assetid: b6d536ad-557a-489d-a3e3-a4ffd69be096

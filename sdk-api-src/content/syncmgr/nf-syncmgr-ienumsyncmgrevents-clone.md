@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.IEnumSyncMgrEvents.Clone
 title: IEnumSyncMgrEvents::Clone (syncmgr.h)
-description: Clones an IEnumSyncMgrEvents object.helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumSyncMgrEvents interface","IEnumSyncMgrEvents interface [Windows Shell]","Clone method","IEnumSyncMgrEvents.Clone","IEnumSyncMgrEvents::Clone","_shell_IEnumSyncMgrEvents_Clone","shell.IEnumSyncMgrEvents_Clone","syncmgr/IEnumSyncMgrEvents::Clone"]
+description: Clones an IEnumSyncMgrEvents object.
+helpviewer_keywords: ["Clone","Clone method [Windows Shell]","Clone method [Windows Shell]","IEnumSyncMgrEvents interface","IEnumSyncMgrEvents interface [Windows Shell]","Clone method","IEnumSyncMgrEvents.Clone","IEnumSyncMgrEvents::Clone","_shell_IEnumSyncMgrEvents_Clone","shell.IEnumSyncMgrEvents_Clone","syncmgr/IEnumSyncMgrEvents::Clone"]
 old-location: shell\IEnumSyncMgrEvents_Clone.htm
 tech.root: shell
 ms.assetid: 55be3dd4-993e-4f8f-a9d3-be5b7e4f6ddb

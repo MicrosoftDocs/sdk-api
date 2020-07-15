@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.FindFirstVolumeA
 title: FindFirstVolumeA function (winbase.h)
-description: Retrieves the name of a volume on a computer.helpviewer_keywords: ["FindFirstVolume","FindFirstVolume function [Files]","FindFirstVolumeA","FindFirstVolumeW","_win32_findfirstvolume","base.findfirstvolume","fileapi/FindFirstVolume","fileapi/FindFirstVolumeA","fileapi/FindFirstVolumeW","fs.findfirstvolume","winbase/FindFirstVolume","winbase/FindFirstVolumeA","winbase/FindFirstVolumeW"]
+description: Retrieves the name of a volume on a computer.
+helpviewer_keywords: ["FindFirstVolume","FindFirstVolume function [Files]","FindFirstVolumeA","FindFirstVolumeW","_win32_findfirstvolume","base.findfirstvolume","fileapi/FindFirstVolume","fileapi/FindFirstVolumeA","fileapi/FindFirstVolumeW","fs.findfirstvolume","winbase/FindFirstVolume","winbase/FindFirstVolumeA","winbase/FindFirstVolumeW"]
 old-location: fs\findfirstvolume.htm
 tech.root: FileIO
 ms.assetid: 3eaf9903-ae20-47e7-b32c-943bf60e7bbd

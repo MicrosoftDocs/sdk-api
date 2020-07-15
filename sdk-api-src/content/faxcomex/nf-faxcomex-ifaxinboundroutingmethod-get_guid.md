@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxInboundRoutingMethod.get_GUID
 title: IFaxInboundRoutingMethod::get_GUID (faxcomex.h)
-description: The IFaxInboundRoutingMethod::get_GUID property is a null-terminated string that specifies the GUID that uniquely identifies the fax routing method.helpviewer_keywords: ["GUID property [Fax Service]","GUID property [Fax Service]","IFaxInboundRoutingMethod interface","IFaxInboundRoutingMethod interface [Fax Service]","GUID property","IFaxInboundRoutingMethod.GUID","IFaxInboundRoutingMethod.get_GUID","IFaxInboundRoutingMethod::GUID","IFaxInboundRoutingMethod::get_GUID","_mfax_faxinboundroutingmethod.guid","fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_guid_cpp","fax._mfax_faxinboundroutingmethod_guid","faxcomex/IFaxInboundRoutingMethod::GUID","faxcomex/IFaxInboundRoutingMethod::get_GUID","get_GUID"]
+description: The IFaxInboundRoutingMethod::get_GUID property is a null-terminated string that specifies the GUID that uniquely identifies the fax routing method.
+helpviewer_keywords: ["GUID property [Fax Service]","GUID property [Fax Service]","IFaxInboundRoutingMethod interface","IFaxInboundRoutingMethod interface [Fax Service]","GUID property","IFaxInboundRoutingMethod.GUID","IFaxInboundRoutingMethod.get_GUID","IFaxInboundRoutingMethod::GUID","IFaxInboundRoutingMethod::get_GUID","_mfax_faxinboundroutingmethod.guid","fax._mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_guid_cpp","fax._mfax_faxinboundroutingmethod_guid","faxcomex/IFaxInboundRoutingMethod::GUID","faxcomex/IFaxInboundRoutingMethod::get_GUID","get_GUID"]
 old-location: fax\_mfax_faxinboundroutingmethod_cpp_mfax_faxinboundroutingmethod_guid_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_5o6c.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj_core.ISearchContext
 title: ISearchContext (shlobj_core.h)
-description: Exposes methods that channel customization information to the search hooks.helpviewer_keywords: ["ISearchContext","ISearchContext interface [Windows Shell]","ISearchContext interface [Windows Shell]","described","_shell_ISearchContext","shell.ISearchContext","shlobj_core/ISearchContext"]
+description: Exposes methods that channel customization information to the search hooks.
+helpviewer_keywords: ["ISearchContext","ISearchContext interface [Windows Shell]","ISearchContext interface [Windows Shell]","described","_shell_ISearchContext","shell.ISearchContext","shlobj_core/ISearchContext"]
 old-location: shell\ISearchContext.htm
 tech.root: shell
 ms.assetid: 95ac188a-f27f-4e09-9de3-a822bbbd6e8e

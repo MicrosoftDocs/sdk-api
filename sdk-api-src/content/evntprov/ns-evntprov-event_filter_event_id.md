@@ -1,7 +1,8 @@
 ---
 UID: NS:evntprov._EVENT_FILTER_EVENT_ID
 title: EVENT_FILTER_EVENT_ID (evntprov.h)
-description: Defines event IDs used in an EVENT_FILTER_DESCRIPTOR structure for an event ID or stack walk filter.helpviewer_keywords: ["*PEVENT_FILTER_EVENT_ID","EVENT_FILTER_EVENT_ID","EVENT_FILTER_EVENT_ID structure [ETW]","PEVENT_FILTER_EVENT_ID","PEVENT_FILTER_EVENT_ID structure pointer [ETW]","etw.event_filter_event_id","evntprov/EVENT_FILTER_EVENT_ID","evntprov/PEVENT_FILTER_EVENT_ID"]
+description: Defines event IDs used in an EVENT_FILTER_DESCRIPTOR structure for an event ID or stack walk filter.
+helpviewer_keywords: ["*PEVENT_FILTER_EVENT_ID","EVENT_FILTER_EVENT_ID","EVENT_FILTER_EVENT_ID structure [ETW]","PEVENT_FILTER_EVENT_ID","PEVENT_FILTER_EVENT_ID structure pointer [ETW]","etw.event_filter_event_id","evntprov/EVENT_FILTER_EVENT_ID","evntprov/PEVENT_FILTER_EVENT_ID"]
 old-location: etw\event_filter_event_id.htm
 tech.root: ETW
 ms.assetid: D660D140-BE86-44F6-B1D2-E1B97300BD11

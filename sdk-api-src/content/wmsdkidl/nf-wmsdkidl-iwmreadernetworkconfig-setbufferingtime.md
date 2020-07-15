@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetBufferingTime
 title: IWMReaderNetworkConfig::SetBufferingTime (wmsdkidl.h)
-description: The SetBufferingTime method specifies how long the network source buffers data before rendering it.helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetBufferingTime method","IWMReaderNetworkConfig.SetBufferingTime","IWMReaderNetworkConfig::SetBufferingTime","IWMReaderNetworkConfigSetBufferingTime","SetBufferingTime","SetBufferingTime method [windows Media Format]","SetBufferingTime method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setbufferingtime","wmsdkidl/IWMReaderNetworkConfig::SetBufferingTime"]
+description: The SetBufferingTime method specifies how long the network source buffers data before rendering it.
+helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetBufferingTime method","IWMReaderNetworkConfig.SetBufferingTime","IWMReaderNetworkConfig::SetBufferingTime","IWMReaderNetworkConfigSetBufferingTime","SetBufferingTime","SetBufferingTime method [windows Media Format]","SetBufferingTime method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setbufferingtime","wmsdkidl/IWMReaderNetworkConfig::SetBufferingTime"]
 old-location: wmformat\iwmreadernetworkconfig_setbufferingtime.htm
 tech.root: wmformat
 ms.assetid: 64b8eb13-3b96-4bb7-8d75-0eccb1af5a2f

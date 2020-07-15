@@ -1,7 +1,8 @@
 ---
 UID: NF:propapi.StgPropertyLengthAsVariant
 title: StgPropertyLengthAsVariant function (propapi.h)
-description: The StgPropertyLengthAsVariant function examines a SERIALIZEDPROPERTYVALUE and returns the amount of memory that this property would occupy as a PROPVARIANT.helpviewer_keywords: ["StgPropertyLengthAsVariant","StgPropertyLengthAsVariant function [Structured Storage]","propapi/StgPropertyLengthAsVariant","stg.stgpropertylengthasvariant"]
+description: The StgPropertyLengthAsVariant function examines a SERIALIZEDPROPERTYVALUE and returns the amount of memory that this property would occupy as a PROPVARIANT.
+helpviewer_keywords: ["StgPropertyLengthAsVariant","StgPropertyLengthAsVariant function [Structured Storage]","propapi/StgPropertyLengthAsVariant","stg.stgpropertylengthasvariant"]
 old-location: stg\stgpropertylengthasvariant.htm
 tech.root: Stg
 ms.assetid: 3e809ca9-3038-4d92-bb56-23bd45b6b644

@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2spi.WPUPostMessage
 title: WPUPostMessage function (ws2spi.h)
-description: The WPUPostMessage function performs the standard Windows PostMessage function in a way that maintains backward compatibility with older versions of WSOCK32.dll.helpviewer_keywords: ["WPUPostMessage","WPUPostMessage function [Winsock]","_win32_wpupostmessage_2","winsock.wpupostmessage_2","ws2spi/WPUPostMessage"]
+description: The WPUPostMessage function performs the standard Windows PostMessage function in a way that maintains backward compatibility with older versions of WSOCK32.dll.
+helpviewer_keywords: ["WPUPostMessage","WPUPostMessage function [Winsock]","_win32_wpupostmessage_2","winsock.wpupostmessage_2","ws2spi/WPUPostMessage"]
 old-location: winsock\wpupostmessage_2.htm
 tech.root: WinSock
 ms.assetid: f4241941-c39f-441e-aad4-b84f2f8ed828

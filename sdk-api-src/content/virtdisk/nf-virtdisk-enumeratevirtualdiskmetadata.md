@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.EnumerateVirtualDiskMetadata
 title: EnumerateVirtualDiskMetadata function (virtdisk.h)
-description: Enumerates the metadata associated with a virtual disk.helpviewer_keywords: ["EnumerateVirtualDiskMetadata","EnumerateVirtualDiskMetadata function [Virtual Storage]","virtdisk/EnumerateVirtualDiskMetadata","vstor.enumeratevirtualdiskmetadata"]
+description: Enumerates the metadata associated with a virtual disk.
+helpviewer_keywords: ["EnumerateVirtualDiskMetadata","EnumerateVirtualDiskMetadata function [Virtual Storage]","virtdisk/EnumerateVirtualDiskMetadata","vstor.enumeratevirtualdiskmetadata"]
 old-location: vstor\enumeratevirtualdiskmetadata.htm
 tech.root: VStor
 ms.assetid: 7817863a-38ca-4686-9d66-71700dba852f

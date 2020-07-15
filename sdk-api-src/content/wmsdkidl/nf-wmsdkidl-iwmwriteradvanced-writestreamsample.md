@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterAdvanced.WriteStreamSample
 title: IWMWriterAdvanced::WriteStreamSample (wmsdkidl.h)
-description: The WriteStreamSample method writes a stream sample directly into an ASF file, bypassing the normal compression procedures.helpviewer_keywords: ["IWMWriterAdvanced interface [windows Media Format]","WriteStreamSample method","IWMWriterAdvanced.WriteStreamSample","IWMWriterAdvanced::WriteStreamSample","IWMWriterAdvancedWriteStreamSample","WriteStreamSample","WriteStreamSample method [windows Media Format]","WriteStreamSample method [windows Media Format]","IWMWriterAdvanced interface","wmformat.iwmwriteradvanced_writestreamsample","wmsdkidl/IWMWriterAdvanced::WriteStreamSample"]
+description: The WriteStreamSample method writes a stream sample directly into an ASF file, bypassing the normal compression procedures.
+helpviewer_keywords: ["IWMWriterAdvanced interface [windows Media Format]","WriteStreamSample method","IWMWriterAdvanced.WriteStreamSample","IWMWriterAdvanced::WriteStreamSample","IWMWriterAdvancedWriteStreamSample","WriteStreamSample","WriteStreamSample method [windows Media Format]","WriteStreamSample method [windows Media Format]","IWMWriterAdvanced interface","wmformat.iwmwriteradvanced_writestreamsample","wmsdkidl/IWMWriterAdvanced::WriteStreamSample"]
 old-location: wmformat\iwmwriteradvanced_writestreamsample.htm
 tech.root: wmformat
 ms.assetid: 498bfb73-bfa5-429d-ae8a-3a691fc25fc2

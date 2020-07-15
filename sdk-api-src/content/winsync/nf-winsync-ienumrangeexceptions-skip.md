@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IEnumRangeExceptions.Skip
 title: IEnumRangeExceptions::Skip (winsync.h)
-description: Skips the specified number of range exceptions.helpviewer_keywords: ["IEnumRangeExceptions interface [Windows Sync]","Skip method","IEnumRangeExceptions.Skip","IEnumRangeExceptions::Skip","Skip","Skip method [Windows Sync]","Skip method [Windows Sync]","IEnumRangeExceptions interface","winsync.ienumrangeexceptions_skip","winsync/IEnumRangeExceptions::Skip"]
+description: Skips the specified number of range exceptions.
+helpviewer_keywords: ["IEnumRangeExceptions interface [Windows Sync]","Skip method","IEnumRangeExceptions.Skip","IEnumRangeExceptions::Skip","Skip","Skip method [Windows Sync]","Skip method [Windows Sync]","IEnumRangeExceptions interface","winsync.ienumrangeexceptions_skip","winsync/IEnumRangeExceptions::Skip"]
 old-location: winsync\ienumrangeexceptions_skip.htm
 tech.root: winsync
 ms.assetid: 61907858-4089-4c12-865c-623a43132be3

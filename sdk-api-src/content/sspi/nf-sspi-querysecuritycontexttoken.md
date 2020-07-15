@@ -1,7 +1,8 @@
 ---
 UID: NF:sspi.QuerySecurityContextToken
 title: QuerySecurityContextToken function (sspi.h)
-description: Obtains the access token for a client security context and uses it directly.helpviewer_keywords: ["QuerySecurityContextToken","QuerySecurityContextToken function [Security]","_ssp_querysecuritycontexttoken","security.querysecuritycontexttoken","sspi/QuerySecurityContextToken"]
+description: Obtains the access token for a client security context and uses it directly.
+helpviewer_keywords: ["QuerySecurityContextToken","QuerySecurityContextToken function [Security]","_ssp_querysecuritycontexttoken","security.querysecuritycontexttoken","sspi/QuerySecurityContextToken"]
 old-location: security\querysecuritycontexttoken.htm
 tech.root: SecAuthN
 ms.assetid: 5dc23608-9ce3-4fee-8161-2e409cef4063

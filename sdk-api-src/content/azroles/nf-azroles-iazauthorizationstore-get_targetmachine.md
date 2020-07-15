@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzAuthorizationStore.get_TargetMachine
 title: IAzAuthorizationStore::get_TargetMachine (azroles.h)
-description: Retrieves the name of the computer on which account resolution should occur.helpviewer_keywords: ["AzAuthorizationStore object [Security]","TargetMachine property","IAzAuthorizationStore interface [Security]","TargetMachine property","IAzAuthorizationStore.TargetMachine","IAzAuthorizationStore.get_TargetMachine","IAzAuthorizationStore::TargetMachine","IAzAuthorizationStore::get_TargetMachine","TargetMachine property [Security]","TargetMachine property [Security]","AzAuthorizationStore object","TargetMachine property [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::TargetMachine","azroles/IAzAuthorizationStore::get_TargetMachine","get_TargetMachine","security.azauthorizationstore_targetmachine"]
+description: Retrieves the name of the computer on which account resolution should occur.
+helpviewer_keywords: ["AzAuthorizationStore object [Security]","TargetMachine property","IAzAuthorizationStore interface [Security]","TargetMachine property","IAzAuthorizationStore.TargetMachine","IAzAuthorizationStore.get_TargetMachine","IAzAuthorizationStore::TargetMachine","IAzAuthorizationStore::get_TargetMachine","TargetMachine property [Security]","TargetMachine property [Security]","AzAuthorizationStore object","TargetMachine property [Security]","IAzAuthorizationStore interface","azroles/IAzAuthorizationStore::TargetMachine","azroles/IAzAuthorizationStore::get_TargetMachine","get_TargetMachine","security.azauthorizationstore_targetmachine"]
 old-location: security\azauthorizationstore_targetmachine.htm
 tech.root: SecAuthZ
 ms.assetid: 60c3c23a-4721-4f0d-8380-e95b6170c804

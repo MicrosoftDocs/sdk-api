@@ -1,7 +1,8 @@
 ---
 UID: NC:ws2spi.LPNSPV2CLEANUP
 title: LPNSPV2CLEANUP (ws2spi.h)
-description: Notifies a namespace service provider version-2 (NSPv2) provider that a client session has terminated.helpviewer_keywords: ["LPNSPV2CLEANUP","NSPv2Cleanup","NSPv2Cleanup function [Winsock]","winsock.nspv2cleanup","ws2spi/NSPv2Cleanup"]
+description: Notifies a namespace service provider version-2 (NSPv2) provider that a client session has terminated.
+helpviewer_keywords: ["LPNSPV2CLEANUP","NSPv2Cleanup","NSPv2Cleanup function [Winsock]","winsock.nspv2cleanup","ws2spi/NSPv2Cleanup"]
 old-location: winsock\nspv2cleanup.htm
 tech.root: WinSock
 ms.assetid: 36064c0e-c83c-4819-a3e4-c89df50eb659

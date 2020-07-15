@@ -1,7 +1,8 @@
 ---
 UID: NF:debugapi.DebugBreak
 title: DebugBreak function (debugapi.h)
-description: Causes a breakpoint exception to occur in the current process. This allows the calling thread to signal the debugger to handle the exception.helpviewer_keywords: ["DebugBreak","DebugBreak function","_win32_debugbreak","base.debugbreak","debugapi/DebugBreak"]
+description: Causes a breakpoint exception to occur in the current process. This allows the calling thread to signal the debugger to handle the exception.
+helpviewer_keywords: ["DebugBreak","DebugBreak function","_win32_debugbreak","base.debugbreak","debugapi/DebugBreak"]
 old-location: base\debugbreak.htm
 tech.root: Debug
 ms.assetid: 1ca9d2d1-eed4-4982-8964-64b44e8be256

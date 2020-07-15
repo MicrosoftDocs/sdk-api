@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.auxGetNumDevs
 title: auxGetNumDevs function (mmeapi.h)
-description: The auxGetNumDevs function retrieves the number of auxiliary output devices present in the system.helpviewer_keywords: ["_win32_auxGetNumDevs","auxGetNumDevs","auxGetNumDevs function [Windows Multimedia]","mmeapi/auxGetNumDevs","multimedia.auxgetnumdevs"]
+description: The auxGetNumDevs function retrieves the number of auxiliary output devices present in the system.
+helpviewer_keywords: ["_win32_auxGetNumDevs","auxGetNumDevs","auxGetNumDevs function [Windows Multimedia]","mmeapi/auxGetNumDevs","multimedia.auxgetnumdevs"]
 old-location: multimedia\auxgetnumdevs.htm
 tech.root: Multimedia
 ms.assetid: 6e36d549-83ba-4a67-b9d7-047e7d3a5613

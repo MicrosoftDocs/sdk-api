@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagCOLORADJUSTMENT
 title: COLORADJUSTMENT (wingdi.h)
-description: The COLORADJUSTMENT structure defines the color adjustment values used by the StretchBlt and StretchDIBits functions when the stretch mode is HALFTONE. You can set the color adjustment values by calling the SetColorAdjustment function.helpviewer_keywords: ["*LPCOLORADJUSTMENT","*PCOLORADJUSTMENT","COLORADJUSTMENT","COLORADJUSTMENT structure [Windows GDI]","PCOLORADJUSTMENT","PCOLORADJUSTMENT structure pointer [Windows GDI]","_win32_COLORADJUSTMENT_str","gdi.coloradjustment","wingdi/COLORADJUSTMENT","wingdi/PCOLORADJUSTMENT"]
+description: The COLORADJUSTMENT structure defines the color adjustment values used by the StretchBlt and StretchDIBits functions when the stretch mode is HALFTONE. You can set the color adjustment values by calling the SetColorAdjustment function.
+helpviewer_keywords: ["*LPCOLORADJUSTMENT","*PCOLORADJUSTMENT","COLORADJUSTMENT","COLORADJUSTMENT structure [Windows GDI]","PCOLORADJUSTMENT","PCOLORADJUSTMENT structure pointer [Windows GDI]","_win32_COLORADJUSTMENT_str","gdi.coloradjustment","wingdi/COLORADJUSTMENT","wingdi/PCOLORADJUSTMENT"]
 old-location: gdi\coloradjustment.htm
 tech.root: gdi
 ms.assetid: 9a080f60-0bce-46b6-b8a8-f534ff83a0a8

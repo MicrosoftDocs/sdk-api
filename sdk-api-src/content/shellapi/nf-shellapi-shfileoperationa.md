@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.SHFileOperationA
 title: SHFileOperationA function (shellapi.h)
-description: Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by IFileOperation.helpviewer_keywords: ["SHFileOperation","SHFileOperation function [Windows Shell]","SHFileOperationA","SHFileOperationW","_win32_SHFileOperation","shell.SHFileOperation","shellapi/SHFileOperation","shellapi/SHFileOperationA","shellapi/SHFileOperationW"]
+description: Copies, moves, renames, or deletes a file system object. This function has been replaced in Windows Vista by IFileOperation.
+helpviewer_keywords: ["SHFileOperation","SHFileOperation function [Windows Shell]","SHFileOperationA","SHFileOperationW","_win32_SHFileOperation","shell.SHFileOperation","shellapi/SHFileOperation","shellapi/SHFileOperationA","shellapi/SHFileOperationW"]
 old-location: shell\SHFileOperation.htm
 tech.root: shell
 ms.assetid: 7807015f-52c5-46f5-9e90-4e3e60ddf705
@@ -275,4 +276,8 @@ To move only the specified files and none of the connected files, set the <b>FOF
 Note that the use of a folder with a name like "MyFile_files" to define a connection may not be valid for localized versions of Windows. The term "files" may need to be replaced by the equivalent word in the local language.
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines SHFileOperation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

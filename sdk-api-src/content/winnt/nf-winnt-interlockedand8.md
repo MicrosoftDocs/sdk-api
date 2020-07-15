@@ -97,8 +97,6 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 ## -see-also
 
 
-
-
 <a href="/windows/desktop/Sync/interlocked-variable-access">Interlocked Variable Access</a>
 
 
@@ -164,7 +162,3 @@ This function  generates a full memory barrier (or fence) to ensure that memory 
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
-

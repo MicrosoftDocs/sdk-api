@@ -1,7 +1,8 @@
 ---
 UID: NN:structuredquery.IEntity
 title: IEntity (structuredquery.h)
-description: Provides methods for retrieving information about an entity type in the schema.helpviewer_keywords: ["IEntity","IEntity interface [search]","IEntity interface [search]","described","_search_IEntity","search._search_IEntity","structuredquery/IEntity"]
+description: Provides methods for retrieving information about an entity type in the schema.
+helpviewer_keywords: ["IEntity","IEntity interface [search]","IEntity interface [search]","described","_search_IEntity","search._search_IEntity","structuredquery/IEntity"]
 old-location: search\_search_IEntity.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\ientity.htm

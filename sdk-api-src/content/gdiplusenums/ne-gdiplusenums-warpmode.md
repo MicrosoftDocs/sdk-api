@@ -1,7 +1,8 @@
 ---
 UID: NE:gdiplusenums.WarpMode
 title: WarpMode (gdiplusenums.h)
-description: The WarpMode enumeration specifies warp modes that can be used to transform images.helpviewer_keywords: ["WarpMode","WarpMode enumeration [GDI+]","WarpModeBilinear","WarpModePerspective","_gdiplus_ENUM_WarpMode","gdiplus._gdiplus_ENUM_WarpMode","gdiplusenums/WarpMode","gdiplusenums/WarpModeBilinear","gdiplusenums/WarpModePerspective"]
+description: The WarpMode enumeration specifies warp modes that can be used to transform images.
+helpviewer_keywords: ["WarpMode","WarpMode enumeration [GDI+]","WarpModeBilinear","WarpModePerspective","_gdiplus_ENUM_WarpMode","gdiplus._gdiplus_ENUM_WarpMode","gdiplusenums/WarpMode","gdiplusenums/WarpModeBilinear","gdiplusenums/WarpModePerspective"]
 old-location: gdiplus\_gdiplus_ENUM_WarpMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\warpmode.htm

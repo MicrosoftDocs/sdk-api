@@ -1,7 +1,8 @@
 ---
 UID: NF:qnetwork.IAMNetworkStatus.get_BufferingCount
 title: IAMNetworkStatus::get_BufferingCount (qnetwork.h)
-description: The get_BufferingCount method retrieves the number of times the network source has buffered the data.helpviewer_keywords: ["IAMNetworkStatus interface [DirectShow]","get_BufferingCount method","IAMNetworkStatus.get_BufferingCount","IAMNetworkStatus::get_BufferingCount","IAMNetworkStatusget_BufferingCount","dshow.iamnetworkstatus_get_bufferingcount","get_BufferingCount","get_BufferingCount method [DirectShow]","get_BufferingCount method [DirectShow]","IAMNetworkStatus interface","qnetwork/IAMNetworkStatus::get_BufferingCount"]
+description: The get_BufferingCount method retrieves the number of times the network source has buffered the data.
+helpviewer_keywords: ["IAMNetworkStatus interface [DirectShow]","get_BufferingCount method","IAMNetworkStatus.get_BufferingCount","IAMNetworkStatus::get_BufferingCount","IAMNetworkStatusget_BufferingCount","dshow.iamnetworkstatus_get_bufferingcount","get_BufferingCount","get_BufferingCount method [DirectShow]","get_BufferingCount method [DirectShow]","IAMNetworkStatus interface","qnetwork/IAMNetworkStatus::get_BufferingCount"]
 old-location: dshow\iamnetworkstatus_get_bufferingcount.htm
 tech.root: DirectShow
 ms.assetid: 82c1994b-9326-48a7-8ff5-2b2df274b3e2

@@ -1,7 +1,8 @@
 ---
 UID: NS:dwrite.DWRITE_CLUSTER_METRICS
 title: DWRITE_CLUSTER_METRICS (dwrite.h)
-description: Contains information about a glyph cluster.helpviewer_keywords: ["DWRITE_CLUSTER_METRICS","DWRITE_CLUSTER_METRICS structure [Direct Write]","directwrite.dwrite_cluster_metrics","dwrite/DWRITE_CLUSTER_METRICS"]
+description: Contains information about a glyph cluster.
+helpviewer_keywords: ["DWRITE_CLUSTER_METRICS","DWRITE_CLUSTER_METRICS structure [Direct Write]","directwrite.dwrite_cluster_metrics","dwrite/DWRITE_CLUSTER_METRICS"]
 old-location: directwrite\dwrite_cluster_metrics.htm
 tech.root: DirectWrite
 ms.assetid: 738b7f15-fcc5-4960-ac1f-ca530c448271

@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetSetOptionA
 title: InternetSetOptionA function (wininet.h)
-description: Sets an Internet option.helpviewer_keywords: ["InternetSetOption","InternetSetOption function [WinINet]","InternetSetOptionA","InternetSetOptionW","_inet_internetsetoption_function","wininet.internetsetoption","wininet/InternetSetOption","wininet/InternetSetOptionA","wininet/InternetSetOptionW"]
+description: Sets an Internet option.
+helpviewer_keywords: ["InternetSetOption","InternetSetOption function [WinINet]","InternetSetOptionA","InternetSetOptionW","_inet_internetsetoption_function","wininet.internetsetoption","wininet/InternetSetOption","wininet/InternetSetOptionA","wininet/InternetSetOptionW"]
 old-location: wininet\internetsetoption.htm
 tech.root: wininet
 ms.assetid: 578c7130-7426-4a2e-ae0f-ed8a84449b06
@@ -111,6 +112,10 @@ Like all other aspects of the WinINet API, this function cannot be safely called
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines InternetSetOption as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

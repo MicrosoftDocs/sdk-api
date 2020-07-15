@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._PROV_ENUMALGS_EX
 title: PROV_ENUMALGS_EX (wincrypt.h)
-description: Used with the CryptGetProvParam function when the PP_ENUMALGS_EX parameter is retrieved to contain information about an algorithm supported by a cryptographic service provider (CSP).helpviewer_keywords: ["PROV_ENUMALGS_EX","PROV_ENUMALGS_EX structure [Security]","_crypto2_prov_enumalgs_ex","security.prov_enumalgs_ex","wincrypt/PROV_ENUMALGS_EX"]
+description: Used with the CryptGetProvParam function when the PP_ENUMALGS_EX parameter is retrieved to contain information about an algorithm supported by a cryptographic service provider (CSP).
+helpviewer_keywords: ["PROV_ENUMALGS_EX","PROV_ENUMALGS_EX structure [Security]","_crypto2_prov_enumalgs_ex","security.prov_enumalgs_ex","wincrypt/PROV_ENUMALGS_EX"]
 old-location: security\prov_enumalgs_ex.htm
 tech.root: SecCrypto
 ms.assetid: 239dbc6f-c3fa-4f97-aa9a-4993fe726a98

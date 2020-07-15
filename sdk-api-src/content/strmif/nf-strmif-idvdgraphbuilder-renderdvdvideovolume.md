@@ -71,11 +71,9 @@ Pointer to the path for the DVD-Video volume to play. Can be <b>NULL</b>.
 
 Bitwise OR of flags from <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ne-strmif-am_dvd_graph_flags">AM_DVD_GRAPH_FLAGS</a> enumeration, specifying how to build the DVD playback graph.
 
-
 ### -param pStatus [out]
 
 Pointer to a <a href="https://docs.microsoft.com/windows/desktop/api/strmif/ns-strmif-am_dvd_renderstatus">AM_DVD_RENDERSTATUS</a> structure. When the method returns, the structure indicates any rendering failures.
-
 
 ## -returns
 

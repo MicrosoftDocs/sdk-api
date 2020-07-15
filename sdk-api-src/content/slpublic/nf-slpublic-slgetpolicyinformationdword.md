@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLGetPolicyInformationDWORD
 title: SLGetPolicyInformationDWORD function (slpublic.h)
-description: Gets the policy information after right has been consumed successfully.helpviewer_keywords: ["SLGetPolicyInformationDWORD","SLGetPolicyInformationDWORD function [Security]","security.slgetpolicyinformationdword","slpublic/SLGetPolicyInformationDWORD"]
+description: Gets the policy information after right has been consumed successfully.
+helpviewer_keywords: ["SLGetPolicyInformationDWORD","SLGetPolicyInformationDWORD function [Security]","security.slgetpolicyinformationdword","slpublic/SLGetPolicyInformationDWORD"]
 old-location: security\slgetpolicyinformationdword.htm
 tech.root: SecSLApi
 ms.assetid: 273e843d-94eb-405d-b7fa-43d49783282f

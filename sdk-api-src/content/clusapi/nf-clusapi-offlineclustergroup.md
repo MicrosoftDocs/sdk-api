@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.OfflineClusterGroup
 title: OfflineClusterGroup function (clusapi.h)
-description: Takes a group offline.helpviewer_keywords: ["OfflineClusterGroup","OfflineClusterGroup function [Failover Cluster]","PCLUSAPI_OFFLINE_CLUSTER_GROUP","PCLUSAPI_OFFLINE_CLUSTER_GROUP function [Failover Cluster]","_wolf_offlineclustergroup","clusapi/OfflineClusterGroup","clusapi/PCLUSAPI_OFFLINE_CLUSTER_GROUP","mscs.offlineclustergroup"]
+description: Takes a group offline.
+helpviewer_keywords: ["OfflineClusterGroup","OfflineClusterGroup function [Failover Cluster]","PCLUSAPI_OFFLINE_CLUSTER_GROUP","PCLUSAPI_OFFLINE_CLUSTER_GROUP function [Failover Cluster]","_wolf_offlineclustergroup","clusapi/OfflineClusterGroup","clusapi/PCLUSAPI_OFFLINE_CLUSTER_GROUP","mscs.offlineclustergroup"]
 old-location: mscs\offlineclustergroup.htm
 tech.root: MsCS
 ms.assetid: 465e9eac-6286-4955-a11c-a515c64230da

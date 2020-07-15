@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFVideoProcessorControl.SetConstrictionSize
 title: IMFVideoProcessorControl::SetConstrictionSize (mfidl.h)
-description: Specifies the amount of downsampling to perform on the output.helpviewer_keywords: ["IMFVideoProcessorControl interface [Media Foundation]","SetConstrictionSize method","IMFVideoProcessorControl.SetConstrictionSize","IMFVideoProcessorControl::SetConstrictionSize","SetConstrictionSize","SetConstrictionSize method [Media Foundation]","SetConstrictionSize method [Media Foundation]","IMFVideoProcessorControl interface","mf.imfvideoprocessorcontrol_setconstrictionsize","mfidl/IMFVideoProcessorControl::SetConstrictionSize"]
+description: Specifies the amount of downsampling to perform on the output.
+helpviewer_keywords: ["IMFVideoProcessorControl interface [Media Foundation]","SetConstrictionSize method","IMFVideoProcessorControl.SetConstrictionSize","IMFVideoProcessorControl::SetConstrictionSize","SetConstrictionSize","SetConstrictionSize method [Media Foundation]","SetConstrictionSize method [Media Foundation]","IMFVideoProcessorControl interface","mf.imfvideoprocessorcontrol_setconstrictionsize","mfidl/IMFVideoProcessorControl::SetConstrictionSize"]
 old-location: mf\imfvideoprocessorcontrol_setconstrictionsize.htm
 tech.root: medfound
 ms.assetid: 876F8BA0-9F05-48C6-ADE9-D65E7682C545

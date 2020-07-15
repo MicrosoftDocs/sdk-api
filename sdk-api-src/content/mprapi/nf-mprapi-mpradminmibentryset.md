@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminMIBEntrySet
 title: MprAdminMIBEntrySet function (mprapi.h)
-description: The MprAdminMIBEntrySet function sets the value of one of the variables exported by a routing protocol or router manager.helpviewer_keywords: ["MprAdminMIBEntrySet","MprAdminMIBEntrySet function [RAS]","_mpr_mpradminmibentryset","mprapi/MprAdminMIBEntrySet","rras.mpradminmibentryset"]
+description: The MprAdminMIBEntrySet function sets the value of one of the variables exported by a routing protocol or router manager.
+helpviewer_keywords: ["MprAdminMIBEntrySet","MprAdminMIBEntrySet function [RAS]","_mpr_mpradminmibentryset","mprapi/MprAdminMIBEntrySet","rras.mpradminmibentryset"]
 old-location: rras\mpradminmibentryset.htm
 tech.root: RRAS
 ms.assetid: 53dabf73-b9c5-4245-9269-bd7c6ce00026

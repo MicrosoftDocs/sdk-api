@@ -1,7 +1,8 @@
 ---
 UID: NN:wmcontainer.IMFASFMultiplexer
 title: IMFASFMultiplexer (wmcontainer.h)
-description: Provides methods to create Advanced Systems Format (ASF) data packets.helpviewer_keywords: ["IMFASFMultiplexer","IMFASFMultiplexer interface [Media Foundation]","IMFASFMultiplexer interface [Media Foundation]","described","bdb549b5-425b-4f77-b413-723ceb7acd11","mf.imfasfmultiplexer","wmcontainer/IMFASFMultiplexer"]
+description: Provides methods to create Advanced Systems Format (ASF) data packets.
+helpviewer_keywords: ["IMFASFMultiplexer","IMFASFMultiplexer interface [Media Foundation]","IMFASFMultiplexer interface [Media Foundation]","described","bdb549b5-425b-4f77-b413-723ceb7acd11","mf.imfasfmultiplexer","wmcontainer/IMFASFMultiplexer"]
 old-location: mf\imfasfmultiplexer.htm
 tech.root: medfound
 ms.assetid: bdb549b5-425b-4f77-b413-723ceb7acd11

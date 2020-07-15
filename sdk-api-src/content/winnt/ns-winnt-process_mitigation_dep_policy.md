@@ -1,7 +1,8 @@
 ---
 UID: NS:winnt._PROCESS_MITIGATION_DEP_POLICY
 title: PROCESS_MITIGATION_DEP_POLICY (winnt.h)
-description: Contains process mitigation policy settings for data execution prevention (DEP).helpviewer_keywords: ["*PPROCESS_MITIGATION_DEP_POLICY","PPROCESS_MITIGATION_DEP_POLICY","PPROCESS_MITIGATION_DEP_POLICY structure pointer","PROCESS_MITIGATION_DEP_POLICY","PROCESS_MITIGATION_DEP_POLICY structure","_PROCESS_MITIGATION_DEP_POLICY","base.process_mitigation_dep_policy","winnt/PPROCESS_MITIGATION_DEP_POLICY","winnt/PROCESS_MITIGATION_DEP_POLICY"]
+description: Contains process mitigation policy settings for data execution prevention (DEP).
+helpviewer_keywords: ["*PPROCESS_MITIGATION_DEP_POLICY","PPROCESS_MITIGATION_DEP_POLICY","PPROCESS_MITIGATION_DEP_POLICY structure pointer","PROCESS_MITIGATION_DEP_POLICY","PROCESS_MITIGATION_DEP_POLICY structure","_PROCESS_MITIGATION_DEP_POLICY","base.process_mitigation_dep_policy","winnt/PPROCESS_MITIGATION_DEP_POLICY","winnt/PROCESS_MITIGATION_DEP_POLICY"]
 old-location: base\process_mitigation_dep_policy.htm
 tech.root: ProcThread
 ms.assetid: 49f257fe-82e2-41b3-b692-9c88d5896273

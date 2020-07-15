@@ -1,7 +1,8 @@
 ---
 UID: NF:bits.IBackgroundCopyJob.SetNotifyInterface
 title: IBackgroundCopyJob::SetNotifyInterface (bits.h)
-description: Identifies your implementation of the IBackgroundCopyCallback interface to BITS. Use the IBackgroundCopyCallback interface to receive notification of job-related events.helpviewer_keywords: ["IBackgroundCopyJob interface [BITS]","SetNotifyInterface method","IBackgroundCopyJob.SetNotifyInterface","IBackgroundCopyJob::SetNotifyInterface","SetNotifyInterface","SetNotifyInterface method [BITS]","SetNotifyInterface method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_setnotifyinterface","bits.ibackgroundcopyjob_setnotifyinterface","bits/IBackgroundCopyJob::SetNotifyInterface"]
+description: Identifies your implementation of the IBackgroundCopyCallback interface to BITS. Use the IBackgroundCopyCallback interface to receive notification of job-related events.
+helpviewer_keywords: ["IBackgroundCopyJob interface [BITS]","SetNotifyInterface method","IBackgroundCopyJob.SetNotifyInterface","IBackgroundCopyJob::SetNotifyInterface","SetNotifyInterface","SetNotifyInterface method [BITS]","SetNotifyInterface method [BITS]","IBackgroundCopyJob interface","_drz_ibackgroundcopyjob_setnotifyinterface","bits.ibackgroundcopyjob_setnotifyinterface","bits/IBackgroundCopyJob::SetNotifyInterface"]
 old-location: bits\ibackgroundcopyjob_setnotifyinterface.htm
 tech.root: Bits
 ms.assetid: 34d51546-ec27-471f-9da5-3bec7ed4e1ea

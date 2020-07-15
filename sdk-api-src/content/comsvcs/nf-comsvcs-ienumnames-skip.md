@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IEnumNames.Skip
 title: IEnumNames::Skip (comsvcs.h)
-description: Skips over the specified number of items in the enumeration sequence.helpviewer_keywords: ["IEnumNames interface [COM+]","Skip method","IEnumNames.Skip","IEnumNames::Skip","Skip","Skip method [COM+]","Skip method [COM+]","IEnumNames interface","_cos_IEnumNames_Skip","comsvcs/IEnumNames::Skip","cos.ienumnames_skip"]
+description: Skips over the specified number of items in the enumeration sequence.
+helpviewer_keywords: ["IEnumNames interface [COM+]","Skip method","IEnumNames.Skip","IEnumNames::Skip","Skip","Skip method [COM+]","Skip method [COM+]","IEnumNames interface","_cos_IEnumNames_Skip","comsvcs/IEnumNames::Skip","cos.ienumnames_skip"]
 old-location: cos\ienumnames_skip.htm
 tech.root: cossdk
 ms.assetid: e45da100-688a-421e-a8cd-19fede5aac83

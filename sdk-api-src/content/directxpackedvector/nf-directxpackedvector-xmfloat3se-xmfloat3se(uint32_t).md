@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMFLOAT3SE.XMFLOAT3SE(uint32_t)
 title: XMFLOAT3SE::XMFLOAT3SE(uint32_t) (directxpackedvector.h)
-description: Initializes a new instance of XMFLOAT3SE from a uint32_tvariable containing component data in a packed format.helpviewer_keywords: ["XMFLOAT3SE","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE structure","XMFLOAT3SE structure [DirectX Math Support APIs]","XMFLOAT3SE constructor","XMFLOAT3SE.XMFLOAT3SE","XMFLOAT3SE.XMFLOAT3SE(uint32_t)","XMFLOAT3SE::XMFLOAT3SE","XMFLOAT3SE::XMFLOAT3SE(uint32_t)","dxmath.xmfloat3se_ctor_3"]
+description: Initializes a new instance of XMFLOAT3SE from a uint32_tvariable containing component data in a packed format.
+helpviewer_keywords: ["XMFLOAT3SE","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE constructor [DirectX Math Support APIs]","XMFLOAT3SE structure","XMFLOAT3SE structure [DirectX Math Support APIs]","XMFLOAT3SE constructor","XMFLOAT3SE.XMFLOAT3SE","XMFLOAT3SE.XMFLOAT3SE(uint32_t)","XMFLOAT3SE::XMFLOAT3SE","XMFLOAT3SE::XMFLOAT3SE(uint32_t)","dxmath.xmfloat3se_ctor_3"]
 old-location: dxmath\xmfloat3se_ctor_3.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMFLOAT3SE.#ctor(uint32_t)

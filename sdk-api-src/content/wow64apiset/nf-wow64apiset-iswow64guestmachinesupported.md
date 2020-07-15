@@ -1,7 +1,8 @@
 ---
 UID: NF:wow64apiset.IsWow64GuestMachineSupported
 title: IsWow64GuestMachineSupported function (wow64apiset.h)
-description: Determines which architectures are supported (under WOW64) on the given machine architecture.helpviewer_keywords: ["IsWow64GuestMachineSupported","IsWow64GuestMachineSupported function","base.iswow64guestmachinesupported","wow64apiset/IsWow64GuestMachineSupported"]
+description: Determines which architectures are supported (under WOW64) on the given machine architecture.
+helpviewer_keywords: ["IsWow64GuestMachineSupported","IsWow64GuestMachineSupported function","base.iswow64guestmachinesupported","wow64apiset/IsWow64GuestMachineSupported"]
 old-location: base\iswow64guestmachinesupported.htm
 tech.root: SysInfo
 ms.assetid: B6DAAE7A-21B0-475C-AC28-30E83B39F417

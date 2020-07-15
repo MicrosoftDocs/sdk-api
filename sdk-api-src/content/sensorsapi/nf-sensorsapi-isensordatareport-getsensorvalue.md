@@ -1,7 +1,8 @@
 ---
 UID: NF:sensorsapi.ISensorDataReport.GetSensorValue
 title: ISensorDataReport::GetSensorValue (sensorsapi.h)
-description: Retrieves a single data field value from the data report.helpviewer_keywords: ["GetSensorValue","GetSensorValue method","GetSensorValue method","ISensorDataReport interface","ISensorDataReport interface","GetSensorValue method","ISensorDataReport.GetSensorValue","ISensorDataReport::GetSensorValue","sensorsapi/ISensorDataReport::GetSensorValue","winsensors_com_ref.isensordatareport_getsensorvalue"]
+description: Retrieves a single data field value from the data report.
+helpviewer_keywords: ["GetSensorValue","GetSensorValue method","GetSensorValue method","ISensorDataReport interface","ISensorDataReport interface","GetSensorValue method","ISensorDataReport.GetSensorValue","ISensorDataReport::GetSensorValue","sensorsapi/ISensorDataReport::GetSensorValue","winsensors_com_ref.isensordatareport_getsensorvalue"]
 old-location: winsensors_com_ref\isensordatareport_getsensorvalue.htm
 tech.root: SensorsAPI
 ms.assetid: cd4aab72-558c-4f56-a9c1-b10213823c28

@@ -119,10 +119,12 @@ You can use this function with all three types of combo boxes (<a href="https://
 
 <b>Security Warning:  </b>Improper use of this function can cause problems for your application. For instance, the <i>nCount</i> parameter should be set properly for both ANSI and Unicode versions. Failure to do so could lead to a buffer overflow. You should review <a href="https://docs.microsoft.com/windows/desktop/Controls/sec-comctls">Security Considerations: Microsoft Windows Controls</a> before continuing.
 
-<b>Windows 95 or later</b>: <b>DlgDirSelectComboBoxExW</b> is supported by the Microsoft Layer for Unicode (MSLU). To use this, you must add certain files to your application, as outlined in <a href="https://www.microsoft.com/en-us/download/details.aspx?id=4237">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
+<b>Windows 95 or later</b>: <b>DlgDirSelectComboBoxExW</b> is supported by the Microsoft Layer for Unicode (MSLU). To use this, you must add certain files to your application, as outlined in <a href="https://www.microsoft.com/download/details.aspx?id=4237">Microsoft Layer for Unicode on Windows Me/98/95 Systems</a>.
 
 
 
+> [!NOTE]
+> The winuser.h header defines DlgDirSelectComboBoxEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

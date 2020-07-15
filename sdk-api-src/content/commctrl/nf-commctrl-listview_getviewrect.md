@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetViewRect
 title: ListView_GetViewRect macro (commctrl.h)
-description: Gets the bounding rectangle of all items in the list-view control. The list view must be in icon or small icon view. You can use this macro or send the LVM_GETVIEWRECT message explicitly.helpviewer_keywords: ["ListView_GetViewRect","ListView_GetViewRect macro [Windows Controls]","_win32_ListView_GetViewRect","_win32_ListView_GetViewRect_cpp","commctrl/ListView_GetViewRect","controls.ListView_GetViewRect","controls._win32_ListView_GetViewRect"]
+description: Gets the bounding rectangle of all items in the list-view control. The list view must be in icon or small icon view. You can use this macro or send the LVM_GETVIEWRECT message explicitly.
+helpviewer_keywords: ["ListView_GetViewRect","ListView_GetViewRect macro [Windows Controls]","_win32_ListView_GetViewRect","_win32_ListView_GetViewRect_cpp","commctrl/ListView_GetViewRect","controls.ListView_GetViewRect","controls._win32_ListView_GetViewRect"]
 old-location: controls\ListView_GetViewRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getviewrect.htm

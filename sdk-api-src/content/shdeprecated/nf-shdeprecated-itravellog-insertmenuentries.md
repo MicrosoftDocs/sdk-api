@@ -1,7 +1,8 @@
 ---
 UID: NF:shdeprecated.ITravelLog.InsertMenuEntries
 title: ITravelLog::InsertMenuEntries (shdeprecated.h)
-description: Deprecated. Inserts entries into the specified menu.helpviewer_keywords: ["ITravelLog interface [Windows Shell]","InsertMenuEntries method","ITravelLog.InsertMenuEntries","ITravelLog::InsertMenuEntries","InsertMenuEntries","InsertMenuEntries method [Windows Shell]","InsertMenuEntries method [Windows Shell]","ITravelLog interface","TLMENUF_BACK","TLMENUF_BACKANDFORTH","TLMENUF_CHECKCURRENT","TLMENUF_FORE","TLMENUF_INCLUDECURRENT","shdeprecated/ITravelLog::InsertMenuEntries","shell.ITravelLog_InsertMenuEntries","zone_ITravelLog_InsertMenuEntries"]
+description: Deprecated. Inserts entries into the specified menu.
+helpviewer_keywords: ["ITravelLog interface [Windows Shell]","InsertMenuEntries method","ITravelLog.InsertMenuEntries","ITravelLog::InsertMenuEntries","InsertMenuEntries","InsertMenuEntries method [Windows Shell]","InsertMenuEntries method [Windows Shell]","ITravelLog interface","TLMENUF_BACK","TLMENUF_BACKANDFORTH","TLMENUF_CHECKCURRENT","TLMENUF_FORE","TLMENUF_INCLUDECURRENT","shdeprecated/ITravelLog::InsertMenuEntries","shell.ITravelLog_InsertMenuEntries","zone_ITravelLog_InsertMenuEntries"]
 old-location: shell\ITravelLog_InsertMenuEntries.htm
 tech.root: shell
 ms.assetid: 5e75c524-5fa6-4d76-8fe9-a69ee1b509e8

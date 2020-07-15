@@ -1,7 +1,8 @@
 ---
 UID: NE:msopc.OPC_SIGNATURE_VALIDATION_RESULT
 title: OPC_SIGNATURE_VALIDATION_RESULT (msopc.h)
-description: Indicates the status of the signature.helpviewer_keywords: ["OPC_SIGNATURE_INVALID","OPC_SIGNATURE_VALID","OPC_SIGNATURE_VALIDATION_RESULT","OPC_SIGNATURE_VALIDATION_RESULT enumeration [Open Packaging Conventions]","msopc/OPC_SIGNATURE_INVALID","msopc/OPC_SIGNATURE_VALID","msopc/OPC_SIGNATURE_VALIDATION_RESULT","opc.opc_signature_validation_result"]
+description: Indicates the status of the signature.
+helpviewer_keywords: ["OPC_SIGNATURE_INVALID","OPC_SIGNATURE_VALID","OPC_SIGNATURE_VALIDATION_RESULT","OPC_SIGNATURE_VALIDATION_RESULT enumeration [Open Packaging Conventions]","msopc/OPC_SIGNATURE_INVALID","msopc/OPC_SIGNATURE_VALID","msopc/OPC_SIGNATURE_VALIDATION_RESULT","opc.opc_signature_validation_result"]
 old-location: opc\opc_signature_validation_result.htm
 tech.root: OPC
 ms.assetid: 991e0620-d674-4c2c-b0d8-18d7fdd031fb

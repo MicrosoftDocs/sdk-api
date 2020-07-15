@@ -1,7 +1,8 @@
 ---
 UID: NN:wmp.IWMPCore3
 title: IWMPCore3 (wmp.h)
-description: The IWMPCore3 interface provides methods that supplement the IWMPCore2 interface.helpviewer_keywords: ["IWMPCore3","IWMPCore3 interface [Windows Media Player]","IWMPCore3 interface [Windows Media Player]","described","IWMPCore3Interface","wmp.iwmpcore3","wmp/IWMPCore3"]
+description: The IWMPCore3 interface provides methods that supplement the IWMPCore2 interface.
+helpviewer_keywords: ["IWMPCore3","IWMPCore3 interface [Windows Media Player]","IWMPCore3 interface [Windows Media Player]","described","IWMPCore3Interface","wmp.iwmpcore3","wmp/IWMPCore3"]
 old-location: wmp\iwmpcore3.htm
 tech.root: WMP
 ms.assetid: 3004551e-ce36-4f15-88c3-93b2bfaa72fc

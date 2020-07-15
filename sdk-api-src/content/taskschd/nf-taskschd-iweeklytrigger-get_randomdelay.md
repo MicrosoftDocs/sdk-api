@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IWeeklyTrigger.get_RandomDelay
 title: IWeeklyTrigger::get_RandomDelay (taskschd.h)
-description: Gets or sets a delay time that is randomly added to the start time of the trigger.helpviewer_keywords: ["IWeeklyTrigger interface [Task Scheduler]","RandomDelay property","IWeeklyTrigger.RandomDelay","IWeeklyTrigger.get_RandomDelay","IWeeklyTrigger::RandomDelay","IWeeklyTrigger::get_RandomDelay","IWeeklyTrigger::put_RandomDelay","RandomDelay property [Task Scheduler]","RandomDelay property [Task Scheduler]","IWeeklyTrigger interface","get_RandomDelay","taskschd.iweeklytrigger_randomdelay","taskschd/IWeeklyTrigger::RandomDelay","taskschd/IWeeklyTrigger::get_RandomDelay","taskschd/IWeeklyTrigger::put_RandomDelay"]
+description: Gets or sets a delay time that is randomly added to the start time of the trigger.
+helpviewer_keywords: ["IWeeklyTrigger interface [Task Scheduler]","RandomDelay property","IWeeklyTrigger.RandomDelay","IWeeklyTrigger.get_RandomDelay","IWeeklyTrigger::RandomDelay","IWeeklyTrigger::get_RandomDelay","IWeeklyTrigger::put_RandomDelay","RandomDelay property [Task Scheduler]","RandomDelay property [Task Scheduler]","IWeeklyTrigger interface","get_RandomDelay","taskschd.iweeklytrigger_randomdelay","taskschd/IWeeklyTrigger::RandomDelay","taskschd/IWeeklyTrigger::get_RandomDelay","taskschd/IWeeklyTrigger::put_RandomDelay"]
 old-location: taskschd\iweeklytrigger_randomdelay.htm
 tech.root: taskschd
 ms.assetid: 1fa318b5-ef4e-4fb3-9119-1dd18afffb0b

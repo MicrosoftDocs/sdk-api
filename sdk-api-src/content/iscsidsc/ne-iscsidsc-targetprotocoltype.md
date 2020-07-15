@@ -1,7 +1,8 @@
 ---
 UID: NE:iscsidsc.__unnamed_enum_3
 title: TARGETPROTOCOLTYPE (iscsidsc.h)
-description: TARGETPROTOCOLTYPE enumeration indicates the type of protocol that the initiator must use to communicate with the target.helpviewer_keywords: ["*PTARGETPROTOCOLTYPE","ISCSI_TCP_PROTOCOL_TYPE","TARGETPROTOCOLTYPE","TARGETPROTOCOLTYPE enumeration [iSCSI Discovery Library API]","iscsidisc.targetprotocoltype","iscsidsc/ISCSI_TCP_PROTOCOL_TYPE","iscsidsc/TARGETPROTOCOLTYPE"]
+description: TARGETPROTOCOLTYPE enumeration indicates the type of protocol that the initiator must use to communicate with the target.
+helpviewer_keywords: ["*PTARGETPROTOCOLTYPE","ISCSI_TCP_PROTOCOL_TYPE","TARGETPROTOCOLTYPE","TARGETPROTOCOLTYPE enumeration [iSCSI Discovery Library API]","iscsidisc.targetprotocoltype","iscsidsc/ISCSI_TCP_PROTOCOL_TYPE","iscsidsc/TARGETPROTOCOLTYPE"]
 old-location: iscsidisc\targetprotocoltype.htm
 tech.root: iSCSIDisc
 ms.assetid: 1997b1d0-6723-434c-bca7-513e4dc30ee6

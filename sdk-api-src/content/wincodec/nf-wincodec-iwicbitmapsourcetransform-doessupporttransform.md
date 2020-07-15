@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICBitmapSourceTransform.DoesSupportTransform
 title: IWICBitmapSourceTransform::DoesSupportTransform (wincodec.h)
-description: Determines whether a specific transform option is supported natively by the implementation of the IWICBitmapSourceTransform interface.helpviewer_keywords: ["DoesSupportTransform","DoesSupportTransform method [Windows Imaging Component]","DoesSupportTransform method [Windows Imaging Component]","IWICBitmapSourceTransform interface","IWICBitmapSourceTransform interface [Windows Imaging Component]","DoesSupportTransform method","IWICBitmapSourceTransform.DoesSupportTransform","IWICBitmapSourceTransform::DoesSupportTransform","_wic_codec_iwicbitmapsourcetransform_doessupporttransform","wic._wic_codec_iwicbitmapsourcetransform_doessupporttransform","wincodec/IWICBitmapSourceTransform::DoesSupportTransform"]
+description: Determines whether a specific transform option is supported natively by the implementation of the IWICBitmapSourceTransform interface.
+helpviewer_keywords: ["DoesSupportTransform","DoesSupportTransform method [Windows Imaging Component]","DoesSupportTransform method [Windows Imaging Component]","IWICBitmapSourceTransform interface","IWICBitmapSourceTransform interface [Windows Imaging Component]","DoesSupportTransform method","IWICBitmapSourceTransform.DoesSupportTransform","IWICBitmapSourceTransform::DoesSupportTransform","_wic_codec_iwicbitmapsourcetransform_doessupporttransform","wic._wic_codec_iwicbitmapsourcetransform_doessupporttransform","wincodec/IWICBitmapSourceTransform::DoesSupportTransform"]
 old-location: wic\_wic_codec_iwicbitmapsourcetransform_doessupporttransform.htm
 tech.root: wic
 ms.assetid: 73f27e20-3245-42b3-8b83-29c3c969624f

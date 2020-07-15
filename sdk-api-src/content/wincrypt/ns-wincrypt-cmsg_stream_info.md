@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CMSG_STREAM_INFO
 title: CMSG_STREAM_INFO (wincrypt.h)
-description: Used to enable stream processing of data rather than single block processing.helpviewer_keywords: ["*PCMSG_STREAM_INFO","CMSG_STREAM_INFO","CMSG_STREAM_INFO structure [Security]","PCMSG_STREAM_INFO","PCMSG_STREAM_INFO structure pointer [Security]","_crypto2_cmsg_stream_info","cbData","fFinal","pbData","pvArg","security.cmsg_stream_info","wincrypt/CMSG_STREAM_INFO","wincrypt/PCMSG_STREAM_INFO"]
+description: Used to enable stream processing of data rather than single block processing.
+helpviewer_keywords: ["*PCMSG_STREAM_INFO","CMSG_STREAM_INFO","CMSG_STREAM_INFO structure [Security]","PCMSG_STREAM_INFO","PCMSG_STREAM_INFO structure pointer [Security]","_crypto2_cmsg_stream_info","cbData","fFinal","pbData","pvArg","security.cmsg_stream_info","wincrypt/CMSG_STREAM_INFO","wincrypt/PCMSG_STREAM_INFO"]
 old-location: security\cmsg_stream_info.htm
 tech.root: SecCrypto
 ms.assetid: a4e7f6e8-351f-4981-b223-50b65f503394

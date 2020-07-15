@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollector.get_DataCollectorType
 title: IDataCollector::get_DataCollectorType (pla.h)
-description: Retrieves the type of this data collector, for example, a performance data collector.helpviewer_keywords: ["DataCollectorType property [PLA]","DataCollectorType property [PLA]","IDataCollector interface","IDataCollector interface [PLA]","DataCollectorType property","IDataCollector.DataCollectorType","IDataCollector.get_DataCollectorType","IDataCollector::DataCollectorType","IDataCollector::get_DataCollectorType","base.idatacollector_datacollectortype","get_DataCollectorType","pla.idatacollector_datacollectortype","pla/IDataCollector::DataCollectorType","pla/IDataCollector::get_DataCollectorType"]
+description: Retrieves the type of this data collector, for example, a performance data collector.
+helpviewer_keywords: ["DataCollectorType property [PLA]","DataCollectorType property [PLA]","IDataCollector interface","IDataCollector interface [PLA]","DataCollectorType property","IDataCollector.DataCollectorType","IDataCollector.get_DataCollectorType","IDataCollector::DataCollectorType","IDataCollector::get_DataCollectorType","base.idatacollector_datacollectortype","get_DataCollectorType","pla.idatacollector_datacollectortype","pla/IDataCollector::DataCollectorType","pla/IDataCollector::get_DataCollectorType"]
 old-location: pla\idatacollector_datacollectortype.htm
 tech.root: PLA
 ms.assetid: a5ec0e60-555c-4a95-b13d-a22cc8db7c28

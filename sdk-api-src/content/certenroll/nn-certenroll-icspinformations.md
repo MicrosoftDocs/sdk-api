@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.ICspInformations
 title: ICspInformations (certenroll.h)
-description: The ICspInformations interface defines the following methods and properties to manage a collection of ICspInformation objects.helpviewer_keywords: ["ICspInformations","ICspInformations interface [Security]","ICspInformations interface [Security]","described","certenroll/ICspInformations","security.icspinformations"]
+description: The ICspInformations interface defines the following methods and properties to manage a collection of ICspInformation objects.
+helpviewer_keywords: ["ICspInformations","ICspInformations interface [Security]","ICspInformations interface [Security]","described","certenroll/ICspInformations","security.icspinformations"]
 old-location: security\icspinformations.htm
 tech.root: seccertenroll
 ms.assetid: 8141023c-c162-46d6-9c37-e227ce1c8761

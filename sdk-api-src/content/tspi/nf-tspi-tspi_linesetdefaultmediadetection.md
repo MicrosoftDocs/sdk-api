@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineSetDefaultMediaDetection
 title: TSPI_lineSetDefaultMediaDetection function (tspi.h)
-description: The TSPI_lineSetDefaultMediaDetection procedure tells the service provider the new set of media types to detect for the indicated line (replacing any previous set).helpviewer_keywords: ["TSPI_lineSetDefaultMediaDetection","TSPI_lineSetDefaultMediaDetection function [TAPI 2.2]","_tspi_tspi_linesetdefaultmediadetection","tspi.tspi_linesetdefaultmediadetection","tspi/TSPI_lineSetDefaultMediaDetection"]
+description: The TSPI_lineSetDefaultMediaDetection procedure tells the service provider the new set of media types to detect for the indicated line (replacing any previous set).
+helpviewer_keywords: ["TSPI_lineSetDefaultMediaDetection","TSPI_lineSetDefaultMediaDetection function [TAPI 2.2]","_tspi_tspi_linesetdefaultmediadetection","tspi.tspi_linesetdefaultmediadetection","tspi/TSPI_lineSetDefaultMediaDetection"]
 old-location: tspi\tspi_linesetdefaultmediadetection.htm
 tech.root: Tapi
 ms.assetid: 407fa545-6890-4a8c-b5a8-bddeacc46e18

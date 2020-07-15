@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFGetAttributeUINT32
 title: MFGetAttributeUINT32 function (mfapi.h)
-description: Returns a UINT32 value from an attribute store, or a default value if the attribute is not present.helpviewer_keywords: ["MFGetAttributeUINT32","MFGetAttributeUINT32 function [Media Foundation]","b79f3b2c-6293-41b2-afe7-4a0b2c27b34f","mf.mfgetattributeuint32","mfapi/MFGetAttributeUINT32"]
+description: Returns a UINT32 value from an attribute store, or a default value if the attribute is not present.
+helpviewer_keywords: ["MFGetAttributeUINT32","MFGetAttributeUINT32 function [Media Foundation]","b79f3b2c-6293-41b2-afe7-4a0b2c27b34f","mf.mfgetattributeuint32","mfapi/MFGetAttributeUINT32"]
 old-location: mf\mfgetattributeuint32.htm
 tech.root: medfound
 ms.assetid: b79f3b2c-6293-41b2-afe7-4a0b2c27b34f

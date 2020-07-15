@@ -1,7 +1,8 @@
 ---
-UID: NF:directxpackedvector.XMU565.operator uint16_t
+UID: NF:directxpackedvector.XMU565.operator-cast-uint16_t
 title: XMU565::operator uint16_t (directxpackedvector.h)
-description: Returns an instance of uint16_t containing the components of the XMU555instance in a packed format.helpviewer_keywords: ["DirectX::PackedVector.XMU565.operator uint16_t","DirectX::PackedVector::XMU565::operator uint16_t","XMU565 structure [DirectX Math Support APIs]","operator uint16_t method","XMU565.operator uint16_t","XMU565::operator uint16_t","dxmath.xmu565_operator_uint16_t","operator uint16_t","operator uint16_t method [DirectX Math Support APIs]","operator uint16_t method [DirectX Math Support APIs]","XMU565 structure"]
+description: Returns an instance of uint16_t containing the components of the XMU555instance in a packed format.
+helpviewer_keywords: ["DirectX::PackedVector.XMU565.operator uint16_t","DirectX::PackedVector::XMU565::operator uint16_t","XMU565 structure [DirectX Math Support APIs]","operator uint16_t method","XMU565.operator uint16_t","XMU565::operator uint16_t","dxmath.xmu565_operator_uint16_t","operator uint16_t","operator uint16_t method [DirectX Math Support APIs]","operator uint16_t method [DirectX Math Support APIs]","XMU565 structure"]
 old-location: dxmath\xmu565_operator_uint16_t.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMU565.operator uint16_t

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwmapi.DwmGetWindowAttribute
 title: DwmGetWindowAttribute function (dwmapi.h)
-description: Retrieves the current value of a specified Desktop Window Manager (DWM) attribute applied to a window.helpviewer_keywords: ["DwmGetWindowAttribute","DwmGetWindowAttribute function [Desktop Window Manager]","_udwm_dwmgetwindowattribute","_udwm_dwmgetwindowattribute_cpp","dwm.dwmgetwindowattribute","dwmapi/DwmGetWindowAttribute","winui._udwm_dwmgetwindowattribute"]
+description: Retrieves the current value of a specified Desktop Window Manager (DWM) attribute applied to a window.
+helpviewer_keywords: ["DwmGetWindowAttribute","DwmGetWindowAttribute function [Desktop Window Manager]","_udwm_dwmgetwindowattribute","_udwm_dwmgetwindowattribute_cpp","dwm.dwmgetwindowattribute","dwmapi/DwmGetWindowAttribute","winui._udwm_dwmgetwindowattribute"]
 old-location: dwm\dwmgetwindowattribute.htm
 tech.root: dwm
 ms.assetid: VS|winui|~\winui\desktopwindowmanager\reference\functions\dwmgetwindowattribute.htm

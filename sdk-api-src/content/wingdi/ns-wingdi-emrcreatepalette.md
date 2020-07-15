@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMRCREATEPALETTE
 title: EMRCREATEPALETTE (wingdi.h)
-description: The EMRCREATEPALETTE structure contains members for the CreatePalette enhanced metafile record.helpviewer_keywords: ["*PEMRCREATEPALETTE","EMRCREATEPALETTE","EMRCREATEPALETTE structure [Windows GDI]","PEMRCREATEPALETTE","PEMRCREATEPALETTE structure pointer [Windows GDI]","_win32_EMRCREATEPALETTE_str","gdi.emrcreatepalette","wingdi/EMRCREATEPALETTE","wingdi/PEMRCREATEPALETTE"]
+description: The EMRCREATEPALETTE structure contains members for the CreatePalette enhanced metafile record.
+helpviewer_keywords: ["*PEMRCREATEPALETTE","EMRCREATEPALETTE","EMRCREATEPALETTE structure [Windows GDI]","PEMRCREATEPALETTE","PEMRCREATEPALETTE structure pointer [Windows GDI]","_win32_EMRCREATEPALETTE_str","gdi.emrcreatepalette","wingdi/EMRCREATEPALETTE","wingdi/PEMRCREATEPALETTE"]
 old-location: gdi\emrcreatepalette.htm
 tech.root: gdi
 ms.assetid: 5198dc94-49bf-4cc8-8b41-2f29acd3c17d

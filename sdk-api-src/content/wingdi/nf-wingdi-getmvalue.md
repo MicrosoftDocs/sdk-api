@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetMValue
 title: GetMValue macro (wingdi.h)
-description: The GetMValue macro retrieves the magenta color value from a CMYK color value.helpviewer_keywords: ["GetMValue","GetMValue macro [Windows Color System]","_color_GetMValue","wcs.getmvalue","wingdi/GetMValue"]
+description: The GetMValue macro retrieves the magenta color value from a CMYK color value.
+helpviewer_keywords: ["GetMValue","GetMValue macro [Windows Color System]","_color_GetMValue","wcs.getmvalue","wingdi/GetMValue"]
 old-location: wcs\getmvalue.htm
 tech.root: WCS
 ms.assetid: d24816de-a3c7-4d9f-b6a0-652330cd3ccd

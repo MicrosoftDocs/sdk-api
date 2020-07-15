@@ -1,7 +1,8 @@
 ---
 UID: NF:virtdisk.ResizeVirtualDisk
 title: ResizeVirtualDisk function (virtdisk.h)
-description: Resizes a virtual disk.helpviewer_keywords: ["ResizeVirtualDisk","ResizeVirtualDisk function [Virtual Storage]","virtdisk/ResizeVirtualDisk","vstor.resizevirtualdisk"]
+description: Resizes a virtual disk.
+helpviewer_keywords: ["ResizeVirtualDisk","ResizeVirtualDisk function [Virtual Storage]","virtdisk/ResizeVirtualDisk","vstor.resizevirtualdisk"]
 old-location: vstor\resizevirtualdisk.htm
 tech.root: VStor
 ms.assetid: d000c03e-c0ad-4054-b2eb-1aca34a95816

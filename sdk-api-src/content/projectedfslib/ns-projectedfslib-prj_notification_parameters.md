@@ -1,7 +1,8 @@
 ---
 UID: NS:projectedfslib.PRJ_NOTIFICATION_PARAMETERS
 title: PRJ_NOTIFICATION_PARAMETERS (projectedfslib.h)
-description: Extra parameters for notifications.helpviewer_keywords: ["PRJ_NOTIFICATION_PARAMETERS","PRJ_NOTIFICATION_PARAMETERS union","ProjFS.prj_notification_parameters","projectedfslib/PRJ_NOTIFICATION_PARAMETERS"]
+description: Extra parameters for notifications.
+helpviewer_keywords: ["PRJ_NOTIFICATION_PARAMETERS","PRJ_NOTIFICATION_PARAMETERS union","ProjFS.prj_notification_parameters","projectedfslib/PRJ_NOTIFICATION_PARAMETERS"]
 old-location: projfs\prj_notification_parameters.htm
 tech.root: ProjFS
 ms.assetid: 596DC712-C6DD-4834-9E0F-CA21B0BC3BB3

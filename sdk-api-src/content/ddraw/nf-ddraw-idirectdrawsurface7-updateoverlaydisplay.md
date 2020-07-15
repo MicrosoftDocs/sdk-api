@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.UpdateOverlayDisplay
 title: IDirectDrawSurface7::UpdateOverlayDisplay (ddraw.h)
-description: The IDirectDrawSurface7::UpdateOverlayDisplay method is not currently implemented.helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","UpdateOverlayDisplay method","IDirectDrawSurface7.UpdateOverlayDisplay","IDirectDrawSurface7::UpdateOverlayDisplay","UpdateOverlayDisplay","UpdateOverlayDisplay method [DirectDraw]","UpdateOverlayDisplay method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::UpdateOverlayDisplay","directdraw.idirectdrawsurface7_updateoverlaydisplay"]
+description: The IDirectDrawSurface7::UpdateOverlayDisplay method is not currently implemented.
+helpviewer_keywords: ["IDirectDrawSurface7 interface [DirectDraw]","UpdateOverlayDisplay method","IDirectDrawSurface7.UpdateOverlayDisplay","IDirectDrawSurface7::UpdateOverlayDisplay","UpdateOverlayDisplay","UpdateOverlayDisplay method [DirectDraw]","UpdateOverlayDisplay method [DirectDraw]","IDirectDrawSurface7 interface","ddraw/IDirectDrawSurface7::UpdateOverlayDisplay","directdraw.idirectdrawsurface7_updateoverlaydisplay"]
 old-location: directdraw\idirectdrawsurface7_updateoverlaydisplay.htm
 tech.root: directdraw
 ms.assetid: 50edf36f-ddf2-44a4-bcab-4b4dd5c5b65c

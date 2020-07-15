@@ -1,7 +1,8 @@
 ---
 UID: NE:ntsecapi._POLICY_SERVER_ENABLE_STATE
 title: POLICY_SERVER_ENABLE_STATE (ntsecapi.h)
-description: The POLICY_SERVER_ENABLE_STATE enumeration represents the state of the LSA server&#8212;that is, whether it is enabled or disabled. Some operations may only be performed on an enabled LSA server.helpviewer_keywords: ["*PPOLICY_SERVER_ENABLE_STATE","POLICY_SERVER_ENABLE_STATE","POLICY_SERVER_ENABLE_STATE enumeration [Security]","PPOLICY_SERVER_ENABLE_STATE","PPOLICY_SERVER_ENABLE_STATE enumeration pointer [Security]","PolicyServerDisabled","PolicyServerEnabled","_lsa_policy_server_enable_state","ntsecapi/POLICY_SERVER_ENABLE_STATE","ntsecapi/PPOLICY_SERVER_ENABLE_STATE","ntsecapi/PolicyServerDisabled","ntsecapi/PolicyServerEnabled","security.policy_server_enable_state"]
+description: The POLICY_SERVER_ENABLE_STATE enumeration represents the state of the LSA server—that is, whether it is enabled or disabled. Some operations may only be performed on an enabled LSA server.
+helpviewer_keywords: ["*PPOLICY_SERVER_ENABLE_STATE","POLICY_SERVER_ENABLE_STATE","POLICY_SERVER_ENABLE_STATE enumeration [Security]","PPOLICY_SERVER_ENABLE_STATE","PPOLICY_SERVER_ENABLE_STATE enumeration pointer [Security]","PolicyServerDisabled","PolicyServerEnabled","_lsa_policy_server_enable_state","ntsecapi/POLICY_SERVER_ENABLE_STATE","ntsecapi/PPOLICY_SERVER_ENABLE_STATE","ntsecapi/PolicyServerDisabled","ntsecapi/PolicyServerEnabled","security.policy_server_enable_state"]
 old-location: security\policy_server_enable_state.htm
 tech.root: SecMgmt
 ms.assetid: aae5875e-ca55-4571-a9a4-684280ae8aa0

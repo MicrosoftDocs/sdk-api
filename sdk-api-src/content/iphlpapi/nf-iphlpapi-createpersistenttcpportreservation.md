@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.CreatePersistentTcpPortReservation
 title: CreatePersistentTcpPortReservation function (iphlpapi.h)
-description: Creates a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.helpviewer_keywords: ["CreatePersistentTcpPortReservation","CreatePersistentTcpPortReservation function [IP Helper]","iphlp.createpersistenttcpportreservation","iphlpapi/CreatePersistentTcpPortReservation"]
+description: Creates a persistent TCP port reservation for a consecutive block of TCP ports on the local computer.
+helpviewer_keywords: ["CreatePersistentTcpPortReservation","CreatePersistentTcpPortReservation function [IP Helper]","iphlp.createpersistenttcpportreservation","iphlpapi/CreatePersistentTcpPortReservation"]
 old-location: iphlp\createpersistenttcpportreservation.htm
 tech.root: IpHlp
 ms.assetid: 19DAF828-B0E4-49E2-843D-7350C8083C45

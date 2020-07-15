@@ -1,7 +1,8 @@
 ---
 UID: NF:syncregistration.ISyncProviderRegistration.GetSyncProviderInfo
 title: ISyncProviderRegistration::GetSyncProviderInfo (syncregistration.h)
-description: Returns an ISyncProviderInfo object for the specific synchronization provider instance ID.helpviewer_keywords: ["GetSyncProviderInfo","GetSyncProviderInfo method [Windows Sync]","GetSyncProviderInfo method [Windows Sync]","ISyncProviderRegistration interface","ISyncProviderRegistration interface [Windows Sync]","GetSyncProviderInfo method","ISyncProviderRegistration.GetSyncProviderInfo","ISyncProviderRegistration::GetSyncProviderInfo","syncregistration/ISyncProviderRegistration::GetSyncProviderInfo","winsync.isyncproviderregistration_getsyncproviderinfo"]
+description: Returns an ISyncProviderInfo object for the specific synchronization provider instance ID.
+helpviewer_keywords: ["GetSyncProviderInfo","GetSyncProviderInfo method [Windows Sync]","GetSyncProviderInfo method [Windows Sync]","ISyncProviderRegistration interface","ISyncProviderRegistration interface [Windows Sync]","GetSyncProviderInfo method","ISyncProviderRegistration.GetSyncProviderInfo","ISyncProviderRegistration::GetSyncProviderInfo","syncregistration/ISyncProviderRegistration::GetSyncProviderInfo","winsync.isyncproviderregistration_getsyncproviderinfo"]
 old-location: winsync\isyncproviderregistration_getsyncproviderinfo.htm
 tech.root: winsync
 ms.assetid: 894d2314-2210-4a16-a7e6-1ee74638c035

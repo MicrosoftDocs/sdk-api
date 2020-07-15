@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.ITransactionStatus
 title: ITransactionStatus (comsvcs.h)
-description: Used to discover the status of the transaction that is completed by the call to CoLeaveServiceDomain when CServiceConfig is configured to use transactions in the call to CoEnterServiceDomain.helpviewer_keywords: ["ITransactionStatus","ITransactionStatus interface [COM+]","ITransactionStatus interface [COM+]","described","_cos_ITransactionStatus","comsvcs/ITransactionStatus","cos.itransactionstatus"]
+description: Used to discover the status of the transaction that is completed by the call to CoLeaveServiceDomain when CServiceConfig is configured to use transactions in the call to CoEnterServiceDomain.
+helpviewer_keywords: ["ITransactionStatus","ITransactionStatus interface [COM+]","ITransactionStatus interface [COM+]","described","_cos_ITransactionStatus","comsvcs/ITransactionStatus","cos.itransactionstatus"]
 old-location: cos\itransactionstatus.htm
 tech.root: cossdk
 ms.assetid: df5eba93-6db7-478c-b6d7-831c20398d66

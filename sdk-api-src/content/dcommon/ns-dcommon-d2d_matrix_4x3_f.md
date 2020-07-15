@@ -1,7 +1,8 @@
 ---
 UID: NS:dcommon.D2D_MATRIX_4X3_F
 title: D2D_MATRIX_4X3_F (dcommon.h)
-description: Describes a 4-by-3 floating point matrix.helpviewer_keywords: ["D2D_MATRIX_4X3_F","D2D_MATRIX_4X3_F structure [Direct2D]","dcommon/D2D_MATRIX_4X3_F","direct2d.d2d_matrix_4x3_f"]
+description: Describes a 4-by-3 floating point matrix.
+helpviewer_keywords: ["D2D_MATRIX_4X3_F","D2D_MATRIX_4X3_F structure [Direct2D]","dcommon/D2D_MATRIX_4X3_F","direct2d.d2d_matrix_4x3_f"]
 old-location: direct2d\d2d_matrix_4x3_f.htm
 tech.root: Direct2D
 ms.assetid: 2CCAB3EE-EEF2-4C36-8F8E-23B93A45B1FF

@@ -1,7 +1,8 @@
 ---
 UID: NF:gpedit.IGroupPolicyObject.OpenLocalMachineGPO
 title: IGroupPolicyObject::OpenLocalMachineGPO (gpedit.h)
-description: The OpenLocalMachineGPO method opens the default GPO for the computer and optionally loads the registry information.helpviewer_keywords: ["GPO_OPEN_LOAD_REGISTRY","GPO_OPEN_READ_ONLY","IGroupPolicyObject interface [Group Policy]","OpenLocalMachineGPO method","IGroupPolicyObject.OpenLocalMachineGPO","IGroupPolicyObject::OpenLocalMachineGPO","OpenLocalMachineGPO","OpenLocalMachineGPO method [Group Policy]","OpenLocalMachineGPO method [Group Policy]","IGroupPolicyObject interface","_win32_igrouppolicyobject_openlocalmachinegpo","gpedit/IGroupPolicyObject::OpenLocalMachineGPO","policy.igrouppolicyobject_openlocalmachinegpo"]
+description: The OpenLocalMachineGPO method opens the default GPO for the computer and optionally loads the registry information.
+helpviewer_keywords: ["GPO_OPEN_LOAD_REGISTRY","GPO_OPEN_READ_ONLY","IGroupPolicyObject interface [Group Policy]","OpenLocalMachineGPO method","IGroupPolicyObject.OpenLocalMachineGPO","IGroupPolicyObject::OpenLocalMachineGPO","OpenLocalMachineGPO","OpenLocalMachineGPO method [Group Policy]","OpenLocalMachineGPO method [Group Policy]","IGroupPolicyObject interface","_win32_igrouppolicyobject_openlocalmachinegpo","gpedit/IGroupPolicyObject::OpenLocalMachineGPO","policy.igrouppolicyobject_openlocalmachinegpo"]
 old-location: policy\igrouppolicyobject_openlocalmachinegpo.htm
 tech.root: Policy
 ms.assetid: c986152b-59cd-4733-bcdd-ee7f0b6907ad

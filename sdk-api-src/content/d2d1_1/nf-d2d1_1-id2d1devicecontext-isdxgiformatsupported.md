@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1DeviceContext.IsDxgiFormatSupported
 title: ID2D1DeviceContext::IsDxgiFormatSupported (d2d1_1.h)
-description: Indicates whether the format is supported by the device context.helpviewer_keywords: ["ID2D1DeviceContext interface [Direct2D]","IsDxgiFormatSupported method","ID2D1DeviceContext.IsDxgiFormatSupported","ID2D1DeviceContext::IsDxgiFormatSupported","IsDxgiFormatSupported","IsDxgiFormatSupported method [Direct2D]","IsDxgiFormatSupported method [Direct2D]","ID2D1DeviceContext interface","d2d1_1/ID2D1DeviceContext::IsDxgiFormatSupported","direct2d.id2d1devicecontext_isdxgiformatsupported"]
+description: Indicates whether the format is supported by the device context.
+helpviewer_keywords: ["ID2D1DeviceContext interface [Direct2D]","IsDxgiFormatSupported method","ID2D1DeviceContext.IsDxgiFormatSupported","ID2D1DeviceContext::IsDxgiFormatSupported","IsDxgiFormatSupported","IsDxgiFormatSupported method [Direct2D]","IsDxgiFormatSupported method [Direct2D]","ID2D1DeviceContext interface","d2d1_1/ID2D1DeviceContext::IsDxgiFormatSupported","direct2d.id2d1devicecontext_isdxgiformatsupported"]
 old-location: direct2d\id2d1devicecontext_isdxgiformatsupported.htm
 tech.root: Direct2D
 ms.assetid: AA70292A-7B1C-4916-91CA-80263839BC3F

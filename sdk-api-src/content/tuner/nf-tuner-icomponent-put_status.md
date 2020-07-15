@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IComponent.put_Status
 title: IComponent::put_Status (tuner.h)
-description: The put_Status method sets the requested or actual status of the component.helpviewer_keywords: ["IComponent interface [Microsoft TV Technologies]","put_Status method","IComponent.put_Status","IComponent::put_Status","IComponentput_Status","mstv.icomponent_put_status","put_Status","put_Status method [Microsoft TV Technologies]","put_Status method [Microsoft TV Technologies]","IComponent interface","tuner/IComponent::put_Status"]
+description: The put_Status method sets the requested or actual status of the component.
+helpviewer_keywords: ["IComponent interface [Microsoft TV Technologies]","put_Status method","IComponent.put_Status","IComponent::put_Status","IComponentput_Status","mstv.icomponent_put_status","put_Status","put_Status method [Microsoft TV Technologies]","put_Status method [Microsoft TV Technologies]","IComponent interface","tuner/IComponent::put_Status"]
 old-location: mstv\icomponent_put_status.htm
 tech.root: mstv
 ms.assetid: f1f9cf98-69fd-4c54-8023-742f86413220

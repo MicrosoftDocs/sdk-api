@@ -1,7 +1,8 @@
 ---
 UID: NN:shlobj.ICopyHookA
 title: ICopyHookA
-description: Exposes a method that creates a copy hook handler.helpviewer_keywords: ["ICopyHookA"]
+description: Exposes a method that creates a copy hook handler.
+helpviewer_keywords: ["ICopyHookA"]
 old-location: 
 tech.root: shell
 ms.assetid: c3ffa682-250f-458b-8ad5-b25871b3901b
@@ -55,6 +56,10 @@ Implement a copy hook handler when you want to be able to control when, or if, t
 
 You do not call this Shell extension directly. [CopyCallback](nf-shlobj-icopyhooka-copycallback.md) is called by the Shell prior to moving, copying, deleting, or renaming a Shell folder object.
 		
+
+
+> [!NOTE]
+> The shlobj.h header defines ICopyHook as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscRecorder2.get_LegacyDeviceNumber
 title: IDiscRecorder2::get_LegacyDeviceNumber (imapi2.h)
-description: Retrieves the legacy device number for a CD or DVD device.helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_LegacyDeviceNumber method","IDiscRecorder2.get_LegacyDeviceNumber","IDiscRecorder2::get_LegacyDeviceNumber","get_LegacyDeviceNumber","get_LegacyDeviceNumber method [IMAPI]","get_LegacyDeviceNumber method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_legacydevicenumber","imapi2/IDiscRecorder2::get_LegacyDeviceNumber"]
+description: Retrieves the legacy device number for a CD or DVD device.
+helpviewer_keywords: ["IDiscRecorder2 interface [IMAPI]","get_LegacyDeviceNumber method","IDiscRecorder2.get_LegacyDeviceNumber","IDiscRecorder2::get_LegacyDeviceNumber","get_LegacyDeviceNumber","get_LegacyDeviceNumber method [IMAPI]","get_LegacyDeviceNumber method [IMAPI]","IDiscRecorder2 interface","imapi.idiscrecorder2_get_legacydevicenumber","imapi2/IDiscRecorder2::get_LegacyDeviceNumber"]
 old-location: imapi\idiscrecorder2_get_legacydevicenumber.htm
 tech.root: imapi
 ms.assetid: 14ec2007-3648-49b6-a96e-b682d592c2f1

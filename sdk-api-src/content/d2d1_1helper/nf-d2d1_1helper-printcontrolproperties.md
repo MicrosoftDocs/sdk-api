@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1helper.PrintControlProperties
 title: PrintControlProperties function (d2d1_1helper.h)
-description: Returns a filled D2D1_PRINT_CONTROL_PROPERTIES structure.helpviewer_keywords: ["PrintControlProperties","PrintControlProperties function [Direct2D]","d2d1_1helper/PrintControlProperties","direct2d.printcontrolproperties"]
+description: Returns a filled D2D1_PRINT_CONTROL_PROPERTIES structure.
+helpviewer_keywords: ["PrintControlProperties","PrintControlProperties function [Direct2D]","d2d1_1helper/PrintControlProperties","direct2d.printcontrolproperties"]
 old-location: direct2d\printcontrolproperties.htm
 tech.root: Direct2D
 ms.assetid: 0AD341B6-DA74-417B-9F2F-20557B090F49

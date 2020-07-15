@@ -1,7 +1,8 @@
 ---
 UID: NS:winfax._FAX_GLOBAL_ROUTING_INFOW
 title: FAX_GLOBAL_ROUTING_INFOW (winfax.h)
-description: The FAX_GLOBAL_ROUTING_INFO structure contains information about one fax routing method, as it pertains globally to the fax service.helpviewer_keywords: ["*PFAX_GLOBAL_ROUTING_INFOW","FAX_GLOBAL_ROUTING_INFO","FAX_GLOBAL_ROUTING_INFO structure [Fax Service]","FAX_GLOBAL_ROUTING_INFOA","FAX_GLOBAL_ROUTING_INFOW","PFAX_GLOBAL_ROUTING_INFO","PFAX_GLOBAL_ROUTING_INFO structure pointer [Fax Service]","_mfax_fax_global_routing_info_str","fax._mfax_fax_global_routing_info_str","winfax/FAX_GLOBAL_ROUTING_INFO","winfax/FAX_GLOBAL_ROUTING_INFOA","winfax/FAX_GLOBAL_ROUTING_INFOW","winfax/PFAX_GLOBAL_ROUTING_INFO"]
+description: The FAX_GLOBAL_ROUTING_INFO structure contains information about one fax routing method, as it pertains globally to the fax service.
+helpviewer_keywords: ["*PFAX_GLOBAL_ROUTING_INFOW","FAX_GLOBAL_ROUTING_INFO","FAX_GLOBAL_ROUTING_INFO structure [Fax Service]","FAX_GLOBAL_ROUTING_INFOA","FAX_GLOBAL_ROUTING_INFOW","PFAX_GLOBAL_ROUTING_INFO","PFAX_GLOBAL_ROUTING_INFO structure pointer [Fax Service]","_mfax_fax_global_routing_info_str","fax._mfax_fax_global_routing_info_str","winfax/FAX_GLOBAL_ROUTING_INFO","winfax/FAX_GLOBAL_ROUTING_INFOA","winfax/FAX_GLOBAL_ROUTING_INFOW","winfax/PFAX_GLOBAL_ROUTING_INFO"]
 old-location: fax\_mfax_fax_global_routing_info_str.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_07aq.htm
@@ -126,6 +127,10 @@ For more information, see <a href="https://docs.microsoft.com/previous-versions/
 
 
 
+
+
+> [!NOTE]
+> The winfax.h header defines FAX_GLOBAL_ROUTING_INFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

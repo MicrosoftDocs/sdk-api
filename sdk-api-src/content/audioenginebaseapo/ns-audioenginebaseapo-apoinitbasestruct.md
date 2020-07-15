@@ -1,7 +1,8 @@
 ---
 UID: NS:audioenginebaseapo.APOInitBaseStruct
 title: APOInitBaseStruct (audioenginebaseapo.h)
-description: The APOInitBaseStruct structure is the base initialization header that must precede other initialization data in IAudioProcessingObject::Initialize.helpviewer_keywords: ["APOInitBaseStruct","APOInitBaseStruct structure [Audio Devices]","PAPOInitBaseStruct","PAPOInitBaseStruct structure pointer [Audio Devices]","audio.apoinitbasestruct","audioenginebaseapo/APOInitBaseStruct","audioenginebaseapo/PAPOInitBaseStruct"]
+description: The APOInitBaseStruct structure is the base initialization header that must precede other initialization data in IAudioProcessingObject::Initialize.
+helpviewer_keywords: ["APOInitBaseStruct","APOInitBaseStruct structure [Audio Devices]","PAPOInitBaseStruct","PAPOInitBaseStruct structure pointer [Audio Devices]","audio.apoinitbasestruct","audioenginebaseapo/APOInitBaseStruct","audioenginebaseapo/PAPOInitBaseStruct"]
 old-location: audio\apoinitbasestruct.htm
 tech.root: audio
 ms.assetid: 15C973AE-B0E8-42FD-9F34-671A6A915B47

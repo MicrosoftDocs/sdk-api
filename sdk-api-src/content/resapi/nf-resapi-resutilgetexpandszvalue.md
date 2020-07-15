@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilGetExpandSzValue
 title: ResUtilGetExpandSzValue function (resapi.h)
-description: Returns a expandable string value from the cluster database.helpviewer_keywords: ["PRESUTIL_GET_EXPAND_SZ_VALUE","PRESUTIL_GET_EXPAND_SZ_VALUE function [Failover Cluster]","ResUtilGetExpandSzValue","ResUtilGetExpandSzValue function [Failover Cluster]","_wolf_resutilgetexpandszvalue","mscs.resutilgetexpandszvalue","resapi/PRESUTIL_GET_EXPAND_SZ_VALUE","resapi/ResUtilGetExpandSzValue"]
+description: Returns a expandable string value from the cluster database.
+helpviewer_keywords: ["PRESUTIL_GET_EXPAND_SZ_VALUE","PRESUTIL_GET_EXPAND_SZ_VALUE function [Failover Cluster]","ResUtilGetExpandSzValue","ResUtilGetExpandSzValue function [Failover Cluster]","_wolf_resutilgetexpandszvalue","mscs.resutilgetexpandszvalue","resapi/PRESUTIL_GET_EXPAND_SZ_VALUE","resapi/ResUtilGetExpandSzValue"]
 old-location: mscs\resutilgetexpandszvalue.htm
 tech.root: MsCS
 ms.assetid: c0f1064c-d9ae-43af-9622-beae9aee0ce0

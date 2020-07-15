@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminPortReset
 title: MprAdminPortReset function (mprapi.h)
-description: The MprAdminPortReset function resets the communication device attached to the specified port.helpviewer_keywords: ["MprAdminPortReset","MprAdminPortReset function [RAS]","_mpr_mpradminportreset","mprapi/MprAdminPortReset","rras.mpradminportreset"]
+description: The MprAdminPortReset function resets the communication device attached to the specified port.
+helpviewer_keywords: ["MprAdminPortReset","MprAdminPortReset function [RAS]","_mpr_mpradminportreset","mprapi/MprAdminPortReset","rras.mpradminportreset"]
 old-location: rras\mpradminportreset.htm
 tech.root: RRAS
 ms.assetid: 9fa58bec-ecec-4496-91fa-8c41da7961b3

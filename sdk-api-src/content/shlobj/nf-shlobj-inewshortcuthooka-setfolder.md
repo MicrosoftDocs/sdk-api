@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.INewShortcutHookA.SetFolder
 title: INewShortcutHookA::SetFolder (shlobj.h)
-description: Sets the folder name for the shortcut object.helpviewer_keywords: ["INewShortcutHook interface [Windows Shell]","SetFolder method","INewShortcutHook::SetFolder","INewShortcutHookA","INewShortcutHookA.SetFolder","INewShortcutHookA::SetFolder","INewShortcutHookW","INewShortcutHookW::SetFolder","SetFolder","SetFolder method [Windows Shell]","SetFolder method [Windows Shell]","INewShortcutHook interface","_win32_INewShortcutHook_SetFolder","shell.INewShortcutHook_SetFolder","shlobj/INewShortcutHook::SetFolder"]
+description: Sets the folder name for the shortcut object.
+helpviewer_keywords: ["INewShortcutHook interface [Windows Shell]","SetFolder method","INewShortcutHook::SetFolder","INewShortcutHookA","INewShortcutHookA.SetFolder","INewShortcutHookA::SetFolder","INewShortcutHookW","INewShortcutHookW::SetFolder","SetFolder","SetFolder method [Windows Shell]","SetFolder method [Windows Shell]","INewShortcutHook interface","_win32_INewShortcutHook_SetFolder","shell.INewShortcutHook_SetFolder","shlobj/INewShortcutHook::SetFolder"]
 old-location: shell\INewShortcutHook_SetFolder.htm
 tech.root: shell
 ms.assetid: 7f402d36-58cf-4912-af21-f8271eee98e4

@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IStrokeBuilder.BeginStroke
 title: IStrokeBuilder::BeginStroke (rtscom.h)
-description: Begins a stroke on an ink object by using packet data from a RealTimeStylus Class object.helpviewer_keywords: ["40b8ce05-0272-4505-8361-13bb6ca701ea","BeginStroke","BeginStroke method [Tablet PC]","BeginStroke method [Tablet PC]","IStrokeBuilder interface","IStrokeBuilder interface [Tablet PC]","BeginStroke method","IStrokeBuilder.BeginStroke","IStrokeBuilder::BeginStroke","rtscom/IStrokeBuilder::BeginStroke","tablet.istrokebuilder_beginstroke"]
+description: Begins a stroke on an ink object by using packet data from a RealTimeStylus Class object.
+helpviewer_keywords: ["40b8ce05-0272-4505-8361-13bb6ca701ea","BeginStroke","BeginStroke method [Tablet PC]","BeginStroke method [Tablet PC]","IStrokeBuilder interface","IStrokeBuilder interface [Tablet PC]","BeginStroke method","IStrokeBuilder.BeginStroke","IStrokeBuilder::BeginStroke","rtscom/IStrokeBuilder::BeginStroke","tablet.istrokebuilder_beginstroke"]
 old-location: tablet\istrokebuilder_beginstroke.htm
 tech.root: tablet
 ms.assetid: 40b8ce05-0272-4505-8361-13bb6ca701ea

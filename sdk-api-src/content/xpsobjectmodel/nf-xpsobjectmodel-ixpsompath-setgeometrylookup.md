@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPath.SetGeometryLookup
 title: IXpsOMPath::SetGeometryLookup (xpsobjectmodel.h)
-description: Sets the lookup key name of a shared geometry in a resource dictionary.helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetGeometryLookup method","IXpsOMPath.SetGeometryLookup","IXpsOMPath::SetGeometryLookup","SetGeometryLookup","SetGeometryLookup method [XPS Documents and Packaging]","SetGeometryLookup method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setgeometrylookup","xpsobjectmodel/IXpsOMPath::SetGeometryLookup"]
+description: Sets the lookup key name of a shared geometry in a resource dictionary.
+helpviewer_keywords: ["IXpsOMPath interface [XPS Documents and Packaging]","SetGeometryLookup method","IXpsOMPath.SetGeometryLookup","IXpsOMPath::SetGeometryLookup","SetGeometryLookup","SetGeometryLookup method [XPS Documents and Packaging]","SetGeometryLookup method [XPS Documents and Packaging]","IXpsOMPath interface","xps.ixpsompath_setgeometrylookup","xpsobjectmodel/IXpsOMPath::SetGeometryLookup"]
 old-location: xps\ixpsompath_setgeometrylookup.htm
 tech.root: printdocs
 ms.assetid: 7a60bf60-e69b-4a8a-94e9-5d304aa25dd5

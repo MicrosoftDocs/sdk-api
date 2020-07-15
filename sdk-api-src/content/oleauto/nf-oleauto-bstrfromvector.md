@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.BstrFromVector
 title: BstrFromVector function (oleauto.h)
-description: Returns a BSTR, assigning each element of the vector to a character in the BSTR.helpviewer_keywords: ["BstrFromVector","BstrFromVector function [Automation]","_oa96_BstrFromVector","automat.bstrfromvector","oleauto/BstrFromVector"]
+description: Returns a BSTR, assigning each element of the vector to a character in the BSTR.
+helpviewer_keywords: ["BstrFromVector","BstrFromVector function [Automation]","_oa96_BstrFromVector","automat.bstrfromvector","oleauto/BstrFromVector"]
 old-location: automat\bstrfromvector.htm
 tech.root: automat
 ms.assetid: 26955616-698b-4f63-b652-af7dfaa23e43

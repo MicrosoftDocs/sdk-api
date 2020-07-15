@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.IAVIEditStream.Copy
 title: IAVIEditStream::Copy (vfw.h)
-description: The Copy method copies a stream or a portion of it to a temporary stream. Called when an application uses the EditStreamCopy function.helpviewer_keywords: ["Copy","Copy method [Windows Multimedia]","Copy method [Windows Multimedia]","IAVIEditStream interface","IAVIEditStream interface [Windows Multimedia]","Copy method","IAVIEditStream.Copy","IAVIEditStream::Copy","_win32_IAVIEditStream_Copy","multimedia.iavieditstream_copy","vfw/IAVIEditStream::Copy"]
+description: The Copy method copies a stream or a portion of it to a temporary stream. Called when an application uses the EditStreamCopy function.
+helpviewer_keywords: ["Copy","Copy method [Windows Multimedia]","Copy method [Windows Multimedia]","IAVIEditStream interface","IAVIEditStream interface [Windows Multimedia]","Copy method","IAVIEditStream.Copy","IAVIEditStream::Copy","_win32_IAVIEditStream_Copy","multimedia.iavieditstream_copy","vfw/IAVIEditStream::Copy"]
 old-location: multimedia\iavieditstream_copy.htm
 tech.root: Multimedia
 ms.assetid: d2012d04-4fe5-4a49-8160-d27b7bc1bfc8

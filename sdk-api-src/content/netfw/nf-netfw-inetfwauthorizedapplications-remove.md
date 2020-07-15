@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwAuthorizedApplications.Remove
 title: INetFwAuthorizedApplications::Remove (netfw.h)
-description: The Remove method removes an application from the collection.helpviewer_keywords: ["INetFwAuthorizedApplications interface [ICS/ICF]","Remove method","INetFwAuthorizedApplications.Remove","INetFwAuthorizedApplications::Remove","Remove","Remove method [ICS/ICF]","Remove method [ICS/ICF]","INetFwAuthorizedApplications interface","ics.inetfwauthorizedapplications_remove","netfw/INetFwAuthorizedApplications::Remove"]
+description: The Remove method removes an application from the collection.
+helpviewer_keywords: ["INetFwAuthorizedApplications interface [ICS/ICF]","Remove method","INetFwAuthorizedApplications.Remove","INetFwAuthorizedApplications::Remove","Remove","Remove method [ICS/ICF]","Remove method [ICS/ICF]","INetFwAuthorizedApplications interface","ics.inetfwauthorizedapplications_remove","netfw/INetFwAuthorizedApplications::Remove"]
 old-location: ics\inetfwauthorizedapplications_remove.htm
 tech.root: ics
 ms.assetid: 7c4e7d3f-6ab2-46f9-a5a0-f2901a8b5734

@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d12.D3D12_FEATURE_DATA_D3D12_OPTIONS
 title: D3D12_FEATURE_DATA_D3D12_OPTIONS (d3d12.h)
-description: Describes Direct3D 12 feature options in the current graphics driver.helpviewer_keywords: ["D3D12_FEATURE_DATA_D3D12_OPTIONS","D3D12_FEATURE_DATA_D3D12_OPTIONS structure","d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS","direct3d12.d3d12_feature_data_d3d12_options"]
+description: Describes Direct3D 12 feature options in the current graphics driver.
+helpviewer_keywords: ["D3D12_FEATURE_DATA_D3D12_OPTIONS","D3D12_FEATURE_DATA_D3D12_OPTIONS structure","d3d12/D3D12_FEATURE_DATA_D3D12_OPTIONS","direct3d12.d3d12_feature_data_d3d12_options"]
 old-location: direct3d12\d3d12_feature_data_d3d12_options.htm
 tech.root: direct3d12
 ms.assetid: 3193E3CC-C6CA-43D4-8D8C-41B7FCEE2BDF

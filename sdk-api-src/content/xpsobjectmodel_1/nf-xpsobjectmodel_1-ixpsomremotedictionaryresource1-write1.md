@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel_1.IXpsOMRemoteDictionaryResource1.Write1
 title: IXpsOMRemoteDictionaryResource1::Write1 (xpsobjectmodel_1.h)
-description: Serializes the remote dictionary resource to a stream.helpviewer_keywords: ["IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging]","Write1 method","IXpsOMRemoteDictionaryResource1.Write1","IXpsOMRemoteDictionaryResource1::Write1","Write1","Write1 method [XPS Documents and Packaging]","Write1 method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResource1 interface","xps.ixpsomremotedictionaryresource1_write1","xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::Write1"]
+description: Serializes the remote dictionary resource to a stream.
+helpviewer_keywords: ["IXpsOMRemoteDictionaryResource1 interface [XPS Documents and Packaging]","Write1 method","IXpsOMRemoteDictionaryResource1.Write1","IXpsOMRemoteDictionaryResource1::Write1","Write1","Write1 method [XPS Documents and Packaging]","Write1 method [XPS Documents and Packaging]","IXpsOMRemoteDictionaryResource1 interface","xps.ixpsomremotedictionaryresource1_write1","xpsobjectmodel_1/IXpsOMRemoteDictionaryResource1::Write1"]
 old-location: xps\ixpsomremotedictionaryresource1_write1.htm
 tech.root: printdocs
 ms.assetid: 5C5C2DC9-1F03-44F9-9466-7AFD1BD5D098

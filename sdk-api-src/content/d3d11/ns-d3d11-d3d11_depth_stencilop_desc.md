@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_DEPTH_STENCILOP_DESC
 title: D3D11_DEPTH_STENCILOP_DESC (d3d11.h)
-description: Stencil operations that can be performed based on the results of stencil test.helpviewer_keywords: ["D3D11_DEPTH_STENCILOP_DESC","D3D11_DEPTH_STENCILOP_DESC structure [Direct3D 11]","b5c19838-9f15-a711-8c15-008fbca8d2a1","d3d11/D3D11_DEPTH_STENCILOP_DESC","direct3d11.d3d11_depth_stencilop_desc"]
+description: Stencil operations that can be performed based on the results of stencil test.
+helpviewer_keywords: ["D3D11_DEPTH_STENCILOP_DESC","D3D11_DEPTH_STENCILOP_DESC structure [Direct3D 11]","b5c19838-9f15-a711-8c15-008fbca8d2a1","d3d11/D3D11_DEPTH_STENCILOP_DESC","direct3d11.d3d11_depth_stencilop_desc"]
 old-location: direct3d11\d3d11_depth_stencilop_desc.htm
 tech.root: direct3d11
 ms.assetid: 8c375d2f-ecec-4b9f-bd84-625dad53fa6a

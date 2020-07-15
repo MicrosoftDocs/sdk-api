@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.ISynchronize.Reset
 title: ISynchronize::Reset (objidl.h)
-description: Sets the synchronization object to the nonsignaled state.helpviewer_keywords: ["ISynchronize interface [COM]","Reset method","ISynchronize.Reset","ISynchronize::Reset","Reset","Reset method [COM]","Reset method [COM]","ISynchronize interface","_com_isynchronize_reset","com.isynchronize_reset","objidlbase/ISynchronize::Reset"]
+description: Sets the synchronization object to the nonsignaled state.
+helpviewer_keywords: ["ISynchronize interface [COM]","Reset method","ISynchronize.Reset","ISynchronize::Reset","Reset","Reset method [COM]","Reset method [COM]","ISynchronize interface","_com_isynchronize_reset","com.isynchronize_reset","objidlbase/ISynchronize::Reset"]
 old-location: com\isynchronize_reset.htm
 tech.root: com
 ms.assetid: 33c56a33-9954-4612-ba0f-396ccdc48bf3

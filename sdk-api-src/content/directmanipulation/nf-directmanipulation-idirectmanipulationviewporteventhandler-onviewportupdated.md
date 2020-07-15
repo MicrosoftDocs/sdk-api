@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewportEventHandler.OnViewportUpdated
 title: IDirectManipulationViewportEventHandler::OnViewportUpdated (directmanipulation.h)
-description: Called after all content in the viewport has been updated.helpviewer_keywords: ["IDirectManipulationViewportEventHandler interface [Direct Manipulation]","OnViewportUpdated method","IDirectManipulationViewportEventHandler.OnViewportUpdated","IDirectManipulationViewportEventHandler::OnViewportUpdated","OnViewportUpdated","OnViewportUpdated method [Direct Manipulation]","OnViewportUpdated method [Direct Manipulation]","IDirectManipulationViewportEventHandler interface","directmanipulation.idirectmanipulationviewporteventhandler_onviewportupdated","directmanipulation/IDirectManipulationViewportEventHandler::OnViewportUpdated"]
+description: Called after all content in the viewport has been updated.
+helpviewer_keywords: ["IDirectManipulationViewportEventHandler interface [Direct Manipulation]","OnViewportUpdated method","IDirectManipulationViewportEventHandler.OnViewportUpdated","IDirectManipulationViewportEventHandler::OnViewportUpdated","OnViewportUpdated","OnViewportUpdated method [Direct Manipulation]","OnViewportUpdated method [Direct Manipulation]","IDirectManipulationViewportEventHandler interface","directmanipulation.idirectmanipulationviewporteventhandler_onviewportupdated","directmanipulation/IDirectManipulationViewportEventHandler::OnViewportUpdated"]
 old-location: directmanipulation\idirectmanipulationviewporteventhandler_onviewportupdated.htm
 tech.root: directmanipulation
 ms.assetid: dfb70d6f-ce3c-4d39-b7b5-21812ff7e56b

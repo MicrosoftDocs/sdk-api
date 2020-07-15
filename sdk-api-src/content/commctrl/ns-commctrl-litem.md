@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagLITEM
 title: LITEM (commctrl.h)
-description: Used to set and retrieve information about a link item.helpviewer_keywords: ["*PLITEM","LITEM","LITEM structure [Windows Controls]","PLITEM","PLITEM structure pointer [Windows Controls]","commctrl/LITEM","commctrl/PLITEM","controls.LITEM","controls.inet_LITEM","inet_LITEM","inet_LITEM_cpp"]
+description: Used to set and retrieve information about a link item.
+helpviewer_keywords: ["*PLITEM","LITEM","LITEM structure [Windows Controls]","PLITEM","PLITEM structure pointer [Windows Controls]","commctrl/LITEM","commctrl/PLITEM","controls.LITEM","controls.inet_LITEM","inet_LITEM","inet_LITEM_cpp"]
 old-location: controls\LITEM.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\syslink\structures\litem.htm

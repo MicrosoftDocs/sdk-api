@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDVB_EIT.GetVersionNumber
 title: IDVB_EIT::GetVersionNumber (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IDVB_EIT interface","IDVB_EIT interface [Microsoft TV Technologies]","GetVersionNumber method","IDVB_EIT.GetVersionNumber","IDVB_EIT::GetVersionNumber","IDVB_EITGetVersionNumber","dvbsiparser/IDVB_EIT::GetVersionNumber","mstv.idvb_eit_getversionnumber"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetVersionNumber","GetVersionNumber method [Microsoft TV Technologies]","GetVersionNumber method [Microsoft TV Technologies]","IDVB_EIT interface","IDVB_EIT interface [Microsoft TV Technologies]","GetVersionNumber method","IDVB_EIT.GetVersionNumber","IDVB_EIT::GetVersionNumber","IDVB_EITGetVersionNumber","dvbsiparser/IDVB_EIT::GetVersionNumber","mstv.idvb_eit_getversionnumber"]
 old-location: mstv\idvb_eit_getversionnumber.htm
 tech.root: mstv
 ms.assetid: 3dbd072d-0b48-4ce9-80ec-67f4c3b74915

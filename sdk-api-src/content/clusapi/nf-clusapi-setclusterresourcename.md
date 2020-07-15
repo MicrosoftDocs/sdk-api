@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.SetClusterResourceName
 title: SetClusterResourceName function (clusapi.h)
-description: Sets the name for a resource.helpviewer_keywords: ["PCLUSAPI_SET_CLUSTER_RESOURCE_NAME","PCLUSAPI_SET_CLUSTER_RESOURCE_NAME function [Failover Cluster]","SetClusterResourceName","SetClusterResourceName function [Failover Cluster]","_wolf_setclusterresourcename","clusapi/PCLUSAPI_SET_CLUSTER_RESOURCE_NAME","clusapi/SetClusterResourceName","mscs.setclusterresourcename"]
+description: Sets the name for a resource.
+helpviewer_keywords: ["PCLUSAPI_SET_CLUSTER_RESOURCE_NAME","PCLUSAPI_SET_CLUSTER_RESOURCE_NAME function [Failover Cluster]","SetClusterResourceName","SetClusterResourceName function [Failover Cluster]","_wolf_setclusterresourcename","clusapi/PCLUSAPI_SET_CLUSTER_RESOURCE_NAME","clusapi/SetClusterResourceName","mscs.setclusterresourcename"]
 old-location: mscs\setclusterresourcename.htm
 tech.root: MsCS
 ms.assetid: 8525a0b4-d37e-4ed3-8914-2c427978de6c

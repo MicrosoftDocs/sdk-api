@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWTSProtocolConnection.IsUserAllowedToLogon
 title: IWTSProtocolConnection::IsUserAllowedToLogon (wtsprotocol.h)
-description: IWTSProtocolConnection::IsUserAllowedToLogon is no longer available. Instead, use IWRdsProtocolConnection::IsUserAllowedToLogon.helpviewer_keywords: ["IWTSProtocolConnection interface [Remote Desktop Services]","IsUserAllowedToLogon method","IWTSProtocolConnection.IsUserAllowedToLogon","IWTSProtocolConnection::IsUserAllowedToLogon","IsUserAllowedToLogon","IsUserAllowedToLogon method [Remote Desktop Services]","IsUserAllowedToLogon method [Remote Desktop Services]","IWTSProtocolConnection interface","termserv.iwtsprotocolconnection_isuserallowedtologon","wtsprotocol/IWTSProtocolConnection::IsUserAllowedToLogon"]
+description: IWTSProtocolConnection::IsUserAllowedToLogon is no longer available. Instead, use IWRdsProtocolConnection::IsUserAllowedToLogon.
+helpviewer_keywords: ["IWTSProtocolConnection interface [Remote Desktop Services]","IsUserAllowedToLogon method","IWTSProtocolConnection.IsUserAllowedToLogon","IWTSProtocolConnection::IsUserAllowedToLogon","IsUserAllowedToLogon","IsUserAllowedToLogon method [Remote Desktop Services]","IsUserAllowedToLogon method [Remote Desktop Services]","IWTSProtocolConnection interface","termserv.iwtsprotocolconnection_isuserallowedtologon","wtsprotocol/IWTSProtocolConnection::IsUserAllowedToLogon"]
 old-location: termserv\iwtsprotocolconnection_isuserallowedtologon.htm
 tech.root: TermServ
 ms.assetid: 297ecc6c-6598-4c1a-94df-9d9924917cdf

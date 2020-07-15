@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1
 title: IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1 (dvbsiparser.h)
-description: Gets the value of the 7-bit reserved_future_use field from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor.helpviewer_keywords: ["GetFutureUse1","GetFutureUse1 method [Microsoft TV Technologies]","GetFutureUse1 method [Microsoft TV Technologies]","IIsdbHierarchicalTransmissionDescriptor interface","IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies]","GetFutureUse1 method","IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1","IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1","dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1","mstv.iisdbhierarchicaltransmissiondescriptor_getfutureuse1"]
+description: Gets the value of the 7-bit reserved_future_use field from an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor.
+helpviewer_keywords: ["GetFutureUse1","GetFutureUse1 method [Microsoft TV Technologies]","GetFutureUse1 method [Microsoft TV Technologies]","IIsdbHierarchicalTransmissionDescriptor interface","IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies]","GetFutureUse1 method","IIsdbHierarchicalTransmissionDescriptor.GetFutureUse1","IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1","dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetFutureUse1","mstv.iisdbhierarchicaltransmissiondescriptor_getfutureuse1"]
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getfutureuse1.htm
 tech.root: mstv
 ms.assetid: 853885cf-36cc-402a-96a8-bc44701fc0a4

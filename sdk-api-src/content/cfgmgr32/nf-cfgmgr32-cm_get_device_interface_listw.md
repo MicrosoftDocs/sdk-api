@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_Interface_ListW
 title: CM_Get_Device_Interface_ListW function (cfgmgr32.h)
-description: The CM_Get_Device_Interface_List function retrieves a list of device interface instances that belong to a specified device interface class.helpviewer_keywords: ["CM_Get_Device_Interface_List","CM_Get_Device_Interface_List function [Device and Driver Installation]","CM_Get_Device_Interface_ListA","CM_Get_Device_Interface_ListW","cfgmgr32/CM_Get_Device_Interface_List","cfgmgr32/CM_Get_Device_Interface_ListA","cfgmgr32/CM_Get_Device_Interface_ListW","cfgmgrfn_8729dc17-f9a0-4ebe-ad56-35c63f9299f0.xml","devinst.cm_get_device_interface_list"]
+description: The CM_Get_Device_Interface_List function retrieves a list of device interface instances that belong to a specified device interface class.
+helpviewer_keywords: ["CM_Get_Device_Interface_List","CM_Get_Device_Interface_List function [Device and Driver Installation]","CM_Get_Device_Interface_ListA","CM_Get_Device_Interface_ListW","cfgmgr32/CM_Get_Device_Interface_List","cfgmgr32/CM_Get_Device_Interface_ListA","cfgmgr32/CM_Get_Device_Interface_ListW","cfgmgrfn_8729dc17-f9a0-4ebe-ad56-35c63f9299f0.xml","devinst.cm_get_device_interface_list"]
 old-location: devinst\cm_get_device_interface_list.htm
 tech.root: devinst
 ms.assetid: 3f2dfc0f-1bde-40a8-b48c-25b75759e0d8
@@ -201,6 +202,10 @@ This snippet illustrates retrying getting the size and the list as described in 
 
 
 
+
+
+> [!NOTE]
+> The cfgmgr32.h header defines CM_Get_Device_Interface_List as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

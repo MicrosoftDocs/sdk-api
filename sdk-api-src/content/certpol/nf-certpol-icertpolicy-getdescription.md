@@ -1,7 +1,8 @@
 ---
 UID: NF:certpol.ICertPolicy.GetDescription
 title: ICertPolicy::GetDescription (certpol.h)
-description: Returns a human-readable description of the policy module and its function.helpviewer_keywords: ["CCertPolicy object [Security]","GetDescription method","GetDescription","GetDescription method [Security]","GetDescription method [Security]","CCertPolicy object","GetDescription method [Security]","ICertPolicy interface","GetDescription method [Security]","ICertPolicy2 interface","ICertPolicy interface [Security]","GetDescription method","ICertPolicy.GetDescription","ICertPolicy2 interface [Security]","GetDescription method","ICertPolicy2::GetDescription","ICertPolicy::GetDescription","_certsrv_icertpolicy_getdescription","certpol/ICertPolicy2::GetDescription","certpol/ICertPolicy::GetDescription","security.icertpolicy2_getdescription"]
+description: Returns a human-readable description of the policy module and its function.
+helpviewer_keywords: ["CCertPolicy object [Security]","GetDescription method","GetDescription","GetDescription method [Security]","GetDescription method [Security]","CCertPolicy object","GetDescription method [Security]","ICertPolicy interface","GetDescription method [Security]","ICertPolicy2 interface","ICertPolicy interface [Security]","GetDescription method","ICertPolicy.GetDescription","ICertPolicy2 interface [Security]","GetDescription method","ICertPolicy2::GetDescription","ICertPolicy::GetDescription","_certsrv_icertpolicy_getdescription","certpol/ICertPolicy2::GetDescription","certpol/ICertPolicy::GetDescription","security.icertpolicy2_getdescription"]
 old-location: security\icertpolicy2_getdescription.htm
 tech.root: SecCrypto
 ms.assetid: 38b85fa8-f5e7-4ac8-9f38-1cad83417797

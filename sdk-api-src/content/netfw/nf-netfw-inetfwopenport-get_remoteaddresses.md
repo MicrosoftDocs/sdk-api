@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwOpenPort.get_RemoteAddresses
 title: INetFwOpenPort::get_RemoteAddresses (netfw.h)
-description: Specifies a set of remote addresses from which the port can listen for traffic.helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","RemoteAddresses property","INetFwOpenPort.RemoteAddresses","INetFwOpenPort.get_RemoteAddresses","INetFwOpenPort::RemoteAddresses","INetFwOpenPort::get_RemoteAddresses","INetFwOpenPort::put_RemoteAddresses","RemoteAddresses property [ICS/ICF]","RemoteAddresses property [ICS/ICF]","INetFwOpenPort interface","get_RemoteAddresses","ics.inetfwopenport_remoteaddresses","netfw/INetFwOpenPort::RemoteAddresses","netfw/INetFwOpenPort::get_RemoteAddresses","netfw/INetFwOpenPort::put_RemoteAddresses"]
+description: Specifies a set of remote addresses from which the port can listen for traffic.
+helpviewer_keywords: ["INetFwOpenPort interface [ICS/ICF]","RemoteAddresses property","INetFwOpenPort.RemoteAddresses","INetFwOpenPort.get_RemoteAddresses","INetFwOpenPort::RemoteAddresses","INetFwOpenPort::get_RemoteAddresses","INetFwOpenPort::put_RemoteAddresses","RemoteAddresses property [ICS/ICF]","RemoteAddresses property [ICS/ICF]","INetFwOpenPort interface","get_RemoteAddresses","ics.inetfwopenport_remoteaddresses","netfw/INetFwOpenPort::RemoteAddresses","netfw/INetFwOpenPort::get_RemoteAddresses","netfw/INetFwOpenPort::put_RemoteAddresses"]
 old-location: ics\inetfwopenport_remoteaddresses.htm
 tech.root: ics
 ms.assetid: 5c38a9fc-b7d9-436d-92e6-8b0aec5e8628

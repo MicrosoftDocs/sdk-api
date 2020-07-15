@@ -1,7 +1,8 @@
 ---
 UID: NF:dxva2api.IDirect3DDeviceManager9.ResetDevice
 title: IDirect3DDeviceManager9::ResetDevice (dxva2api.h)
-description: Sets the Direct3D device or notifies the device manager that the Direct3D device was reset.helpviewer_keywords: ["01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33","IDirect3DDeviceManager9 interface [Media Foundation]","ResetDevice method","IDirect3DDeviceManager9.ResetDevice","IDirect3DDeviceManager9::ResetDevice","ResetDevice","ResetDevice method [Media Foundation]","ResetDevice method [Media Foundation]","IDirect3DDeviceManager9 interface","dxva2api/IDirect3DDeviceManager9::ResetDevice","mf.idirect3ddevicemanager9_resetdevice"]
+description: Sets the Direct3D device or notifies the device manager that the Direct3D device was reset.
+helpviewer_keywords: ["01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33","IDirect3DDeviceManager9 interface [Media Foundation]","ResetDevice method","IDirect3DDeviceManager9.ResetDevice","IDirect3DDeviceManager9::ResetDevice","ResetDevice","ResetDevice method [Media Foundation]","ResetDevice method [Media Foundation]","IDirect3DDeviceManager9 interface","dxva2api/IDirect3DDeviceManager9::ResetDevice","mf.idirect3ddevicemanager9_resetdevice"]
 old-location: mf\idirect3ddevicemanager9_resetdevice.htm
 tech.root: medfound
 ms.assetid: 01d2c2ea-5967-4a2d-9c78-e6e8b42a7e33

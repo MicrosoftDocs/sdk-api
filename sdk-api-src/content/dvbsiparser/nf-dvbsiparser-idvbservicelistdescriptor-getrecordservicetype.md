@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbServiceListDescriptor.GetRecordServiceType
 title: IDvbServiceListDescriptor::GetRecordServiceType (dvbsiparser.h)
-description: Gets the service_type field value from a Digital Video Broadcast (DVB) service descriptor.helpviewer_keywords: ["GetRecordServiceType","GetRecordServiceType method [Microsoft TV Technologies]","GetRecordServiceType method [Microsoft TV Technologies]","IDvbServiceListDescriptor interface","IDvbServiceListDescriptor interface [Microsoft TV Technologies]","GetRecordServiceType method","IDvbServiceListDescriptor.GetRecordServiceType","IDvbServiceListDescriptor::GetRecordServiceType","dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceType","mstv.idvbservicelistdescriptor_getrecordservicetype"]
+description: Gets the service_type field value from a Digital Video Broadcast (DVB) service descriptor.
+helpviewer_keywords: ["GetRecordServiceType","GetRecordServiceType method [Microsoft TV Technologies]","GetRecordServiceType method [Microsoft TV Technologies]","IDvbServiceListDescriptor interface","IDvbServiceListDescriptor interface [Microsoft TV Technologies]","GetRecordServiceType method","IDvbServiceListDescriptor.GetRecordServiceType","IDvbServiceListDescriptor::GetRecordServiceType","dvbsiparser/IDvbServiceListDescriptor::GetRecordServiceType","mstv.idvbservicelistdescriptor_getrecordservicetype"]
 old-location: mstv\idvbservicelistdescriptor_getrecordservicetype.htm
 tech.root: mstv
 ms.assetid: c9771d79-7f39-463a-aa20-d5377bbba610

@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.ObjectContext.DisableCommit
 title: ObjectContext::DisableCommit (comsvcs.h)
-description: Declares that the object's transactional updates are inconsistent and cannot be committed in their present state.helpviewer_keywords: ["DisableCommit","DisableCommit method [COM+]","DisableCommit method [COM+]","ObjectContext interface","ObjectContext interface [COM+]","DisableCommit method","ObjectContext.DisableCommit","ObjectContext::DisableCommit","_cos_ObjectContext_DisableCommit","comsvcs/ObjectContext::DisableCommit","cos.objectcontext_disablecommit"]
+description: Declares that the object's transactional updates are inconsistent and cannot be committed in their present state.
+helpviewer_keywords: ["DisableCommit","DisableCommit method [COM+]","DisableCommit method [COM+]","ObjectContext interface","ObjectContext interface [COM+]","DisableCommit method","ObjectContext.DisableCommit","ObjectContext::DisableCommit","_cos_ObjectContext_DisableCommit","comsvcs/ObjectContext::DisableCommit","cos.objectcontext_disablecommit"]
 old-location: cos\objectcontext_disablecommit.htm
 tech.root: cossdk
 ms.assetid: cf0e59d9-2760-445e-aa7d-8c2b78457181

@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.VirtualQueryEx
 title: VirtualQueryEx function (memoryapi.h)
-description: Retrieves information about a range of pages within the virtual address space of a specified process.helpviewer_keywords: ["VirtualQueryEx","VirtualQueryEx function","_win32_virtualqueryex","base.virtualqueryex","winbase/VirtualQueryEx"]
+description: Retrieves information about a range of pages within the virtual address space of a specified process.
+helpviewer_keywords: ["VirtualQueryEx","VirtualQueryEx function","_win32_virtualqueryex","base.virtualqueryex","winbase/VirtualQueryEx"]
 old-location: base\virtualqueryex.htm
 tech.root: Memory
 ms.assetid: 19e1d875-f661-47cd-bba7-4327a2bbfacc

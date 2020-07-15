@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Skip
 title: IEnumPIDMap::Skip (bdaiface.h)
-description: The Skip method skips the specified number of elements in the collection.helpviewer_keywords: ["IEnumPIDMap interface [DirectShow]","Skip method","IEnumPIDMap.Skip","IEnumPIDMap::Skip","IEnumPIDMapSkip","Skip","Skip method [DirectShow]","Skip method [DirectShow]","IEnumPIDMap interface","bdaiface/IEnumPIDMap::Skip","dshow.ienumpidmap_skip"]
+description: The Skip method skips the specified number of elements in the collection.
+helpviewer_keywords: ["IEnumPIDMap interface [DirectShow]","Skip method","IEnumPIDMap.Skip","IEnumPIDMap::Skip","IEnumPIDMapSkip","Skip","Skip method [DirectShow]","Skip method [DirectShow]","IEnumPIDMap interface","bdaiface/IEnumPIDMap::Skip","dshow.ienumpidmap_skip"]
 old-location: dshow\ienumpidmap_skip.htm
 tech.root: DirectShow
 ms.assetid: e611e5a0-beb1-4a31-974a-29b2b8349a17

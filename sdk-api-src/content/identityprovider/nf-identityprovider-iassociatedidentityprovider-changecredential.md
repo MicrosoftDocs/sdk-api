@@ -1,7 +1,8 @@
 ---
 UID: NF:identityprovider.IAssociatedIdentityProvider.ChangeCredential
 title: IAssociatedIdentityProvider::ChangeCredential (identityprovider.h)
-description: Changes the credentials associated with the specified identity.helpviewer_keywords: ["ChangeCredential","ChangeCredential method [Security]","ChangeCredential method [Security]","IAssociatedIdentityProvider interface","IAssociatedIdentityProvider interface [Security]","ChangeCredential method","IAssociatedIdentityProvider.ChangeCredential","IAssociatedIdentityProvider::ChangeCredential","identityprovider/IAssociatedIdentityProvider::ChangeCredential","identitystore/IAssociatedIdentityProvider::ChangeCredential","security.iassociatedidentityprovider_changecredential"]
+description: Changes the credentials associated with the specified identity.
+helpviewer_keywords: ["ChangeCredential","ChangeCredential method [Security]","ChangeCredential method [Security]","IAssociatedIdentityProvider interface","IAssociatedIdentityProvider interface [Security]","ChangeCredential method","IAssociatedIdentityProvider.ChangeCredential","IAssociatedIdentityProvider::ChangeCredential","identityprovider/IAssociatedIdentityProvider::ChangeCredential","identitystore/IAssociatedIdentityProvider::ChangeCredential","security.iassociatedidentityprovider_changecredential"]
 old-location: security\iassociatedidentityprovider_changecredential.htm
 tech.root: SecAuthN
 ms.assetid: 6a4361a8-8054-434e-9852-fcc20b1086cd

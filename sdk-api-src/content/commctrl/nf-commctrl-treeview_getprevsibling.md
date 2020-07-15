@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TreeView_GetPrevSibling
 title: TreeView_GetPrevSibling macro (commctrl.h)
-description: Retrieves the previous sibling item of a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_PREVIOUS flag.helpviewer_keywords: ["TreeView_GetPrevSibling","TreeView_GetPrevSibling macro [Windows Controls]","_win32_TreeView_GetPrevSibling","_win32_TreeView_GetPrevSibling_cpp","commctrl/TreeView_GetPrevSibling","controls.TreeView_GetPrevSibling","controls._win32_TreeView_GetPrevSibling"]
+description: Retrieves the previous sibling item of a specified item in a tree-view control. You can use this macro, or you can explicitly send the TVM_GETNEXTITEM message with the TVGN_PREVIOUS flag.
+helpviewer_keywords: ["TreeView_GetPrevSibling","TreeView_GetPrevSibling macro [Windows Controls]","_win32_TreeView_GetPrevSibling","_win32_TreeView_GetPrevSibling_cpp","commctrl/TreeView_GetPrevSibling","controls.TreeView_GetPrevSibling","controls._win32_TreeView_GetPrevSibling"]
 old-location: controls\TreeView_GetPrevSibling.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\treeview\macros\treeview_getprevsibling.htm

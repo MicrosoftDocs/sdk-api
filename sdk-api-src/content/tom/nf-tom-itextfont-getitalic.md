@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetItalic
 title: ITextFont::GetItalic (tom.h)
-description: Gets whether characters are in italics.helpviewer_keywords: ["GetItalic","GetItalic method [Windows Controls]","GetItalic method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetItalic method","ITextFont.GetItalic","ITextFont::GetItalic","_win32_ITextFont_GetItalic","_win32_ITextFont_GetItalic_cpp","controls.ITextFont_GetItalic","controls._win32_ITextFont_GetItalic","tom/ITextFont::GetItalic"]
+description: Gets whether characters are in italics.
+helpviewer_keywords: ["GetItalic","GetItalic method [Windows Controls]","GetItalic method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetItalic method","ITextFont.GetItalic","ITextFont::GetItalic","_win32_ITextFont_GetItalic","_win32_ITextFont_GetItalic_cpp","controls.ITextFont_GetItalic","controls._win32_ITextFont_GetItalic","tom/ITextFont::GetItalic"]
 old-location: controls\ITextFont_GetItalic.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getitalic.htm

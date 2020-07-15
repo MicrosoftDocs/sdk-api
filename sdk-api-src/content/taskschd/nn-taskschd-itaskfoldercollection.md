@@ -1,7 +1,8 @@
 ---
 UID: NN:taskschd.ITaskFolderCollection
 title: ITaskFolderCollection (taskschd.h)
-description: Provides information and control for a collection of folders that contain tasks.helpviewer_keywords: ["ITaskFolderCollection","ITaskFolderCollection interface [Task Scheduler]","ITaskFolderCollection interface [Task Scheduler]","described","taskschd.itaskfoldercollection","taskschd/ITaskFolderCollection"]
+description: Provides information and control for a collection of folders that contain tasks.
+helpviewer_keywords: ["ITaskFolderCollection","ITaskFolderCollection interface [Task Scheduler]","ITaskFolderCollection interface [Task Scheduler]","described","taskschd.itaskfoldercollection","taskschd/ITaskFolderCollection"]
 old-location: taskschd\itaskfoldercollection.htm
 tech.root: taskschd
 ms.assetid: 1889a7e3-8fa2-4b96-9d55-656850f605da

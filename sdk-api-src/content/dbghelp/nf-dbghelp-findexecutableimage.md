@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.FindExecutableImage
 title: FindExecutableImage function (dbghelp.h)
-description: Locates an executable file.helpviewer_keywords: ["FindExecutableImage","FindExecutableImage function","_win32_findexecutableimage","base.findexecutableimage","dbghelp/FindExecutableImage"]
+description: Locates an executable file.
+helpviewer_keywords: ["FindExecutableImage","FindExecutableImage function","_win32_findexecutableimage","base.findexecutableimage","dbghelp/FindExecutableImage"]
 old-location: base\findexecutableimage.htm
 tech.root: Debug
 ms.assetid: 48185a75-fa1d-4735-a814-e1f5893dd095

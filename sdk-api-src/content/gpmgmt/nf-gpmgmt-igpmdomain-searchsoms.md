@@ -1,7 +1,8 @@
 ---
 UID: NF:gpmgmt.IGPMDomain.SearchSOMs
 title: IGPMDomain::SearchSOMs (gpmgmt.h)
-description: Executes a search for GPMSOM objects (domains and organizational units) in the domain and then returns a GPMSOMCollection object.helpviewer_keywords: ["GPMDomain object [GPMC]","SearchSOMs method","IGPMDomain interface [GPMC]","SearchSOMs method","IGPMDomain.SearchSOMs","IGPMDomain::SearchSOMs","SearchSOMs","SearchSOMs method [GPMC]","SearchSOMs method [GPMC]","GPMDomain object","SearchSOMs method [GPMC]","IGPMDomain interface","_win32_igpmdomain_searchsoms","gpmc.igpmdomain_searchsoms","gpmgmt/IGPMDomain::SearchSOMs","somLinks"]
+description: Executes a search for GPMSOM objects (domains and organizational units) in the domain and then returns a GPMSOMCollection object.
+helpviewer_keywords: ["GPMDomain object [GPMC]","SearchSOMs method","IGPMDomain interface [GPMC]","SearchSOMs method","IGPMDomain.SearchSOMs","IGPMDomain::SearchSOMs","SearchSOMs","SearchSOMs method [GPMC]","SearchSOMs method [GPMC]","GPMDomain object","SearchSOMs method [GPMC]","IGPMDomain interface","_win32_igpmdomain_searchsoms","gpmc.igpmdomain_searchsoms","gpmgmt/IGPMDomain::SearchSOMs","somLinks"]
 old-location: gpmc\igpmdomain_searchsoms.htm
 tech.root: gpmc
 ms.assetid: 7ca3b0ef-b0d5-408a-8d75-647546087155

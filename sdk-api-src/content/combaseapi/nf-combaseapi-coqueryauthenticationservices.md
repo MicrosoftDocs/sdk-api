@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoQueryAuthenticationServices
 title: CoQueryAuthenticationServices function (combaseapi.h)
-description: Retrieves a list of the authentication services registered when the process called CoInitializeSecurity.helpviewer_keywords: ["CoQueryAuthenticationServices","CoQueryAuthenticationServices function [COM]","_com_CoQueryAuthenticationServices","com.coqueryauthenticationservices","combaseapi/CoQueryAuthenticationServices"]
+description: Retrieves a list of the authentication services registered when the process called CoInitializeSecurity.
+helpviewer_keywords: ["CoQueryAuthenticationServices","CoQueryAuthenticationServices function [COM]","_com_CoQueryAuthenticationServices","com.coqueryauthenticationservices","combaseapi/CoQueryAuthenticationServices"]
 old-location: com\coqueryauthenticationservices.htm
 tech.root: com
 ms.assetid: e9e7c5a3-70ec-4a68-ac21-1ab6774d140f

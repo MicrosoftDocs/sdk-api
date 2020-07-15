@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilFreeEnvironment
 title: ResUtilFreeEnvironment function (resapi.h)
-description: Destroys the environment variable block created with ResUtilGetEnvironmentWithNetName. The PRESUTIL_FREE_ENVIRONMENT type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_FREE_ENVIRONMENT","PRESUTIL_FREE_ENVIRONMENT function [Failover Cluster]","ResUtilFreeEnvironment","ResUtilFreeEnvironment function [Failover Cluster]","_wolf_resutilfreeenvironment","mscs.resutilfreeenvironment","resapi/PRESUTIL_FREE_ENVIRONMENT","resapi/ResUtilFreeEnvironment"]
+description: Destroys the environment variable block created with ResUtilGetEnvironmentWithNetName. The PRESUTIL_FREE_ENVIRONMENT type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_FREE_ENVIRONMENT","PRESUTIL_FREE_ENVIRONMENT function [Failover Cluster]","ResUtilFreeEnvironment","ResUtilFreeEnvironment function [Failover Cluster]","_wolf_resutilfreeenvironment","mscs.resutilfreeenvironment","resapi/PRESUTIL_FREE_ENVIRONMENT","resapi/ResUtilFreeEnvironment"]
 old-location: mscs\resutilfreeenvironment.htm
 tech.root: MsCS
 ms.assetid: 196f347e-2b2f-4bb1-a86c-b2a73881ed65

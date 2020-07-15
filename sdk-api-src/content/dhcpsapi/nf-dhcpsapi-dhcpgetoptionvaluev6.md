@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpGetOptionValueV6
 title: DhcpGetOptionValueV6 function (dhcpsapi.h)
-description: Retrieves the option value for a specific option defined on the DHCPv6 server for a specific user or vendor class.helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpGetOptionValueV6","DhcpGetOptionValueV6 function [DHCP]","dhcp.dhcpgetoptionvaluev6","dhcpsapi/DhcpGetOptionValueV6"]
+description: Retrieves the option value for a specific option defined on the DHCPv6 server for a specific user or vendor class.
+helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpGetOptionValueV6","DhcpGetOptionValueV6 function [DHCP]","dhcp.dhcpgetoptionvaluev6","dhcpsapi/DhcpGetOptionValueV6"]
 old-location: dhcp\dhcpgetoptionvaluev6.htm
 tech.root: DHCP
 ms.assetid: 62ad5e0f-d5e2-42d2-9e09-a7f2736ee7ab

@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpEnumSubnetClientsVQ
 title: DhcpEnumSubnetClientsVQ function (dhcpsapi.h)
-description: Retrieves all DHCP clients serviced from the specified IPv4 subnet.helpviewer_keywords: ["DhcpEnumSubnetClientsVQ","DhcpEnumSubnetClientsVQ function [DHCP]","dhcp.dhcpenumsubnetclientsvq","dhcpsapi/DhcpEnumSubnetClientsVQ"]
+description: Retrieves all DHCP clients serviced from the specified IPv4 subnet.
+helpviewer_keywords: ["DhcpEnumSubnetClientsVQ","DhcpEnumSubnetClientsVQ function [DHCP]","dhcp.dhcpenumsubnetclientsvq","dhcpsapi/DhcpEnumSubnetClientsVQ"]
 old-location: dhcp\dhcpenumsubnetclientsvq.htm
 tech.root: DHCP
 ms.assetid: 4e5cd074-1e1f-43cb-9c8b-e1cca0b8f2a8

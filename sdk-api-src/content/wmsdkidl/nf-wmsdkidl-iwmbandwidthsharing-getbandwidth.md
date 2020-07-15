@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMBandwidthSharing.GetBandwidth
 title: IWMBandwidthSharing::GetBandwidth (wmsdkidl.h)
-description: The GetBandwidth method retrieves the bandwidth and maximum buffer size of a combined stream.helpviewer_keywords: ["GetBandwidth","GetBandwidth method [windows Media Format]","GetBandwidth method [windows Media Format]","IWMBandwidthSharing interface","IWMBandwidthSharing interface [windows Media Format]","GetBandwidth method","IWMBandwidthSharing.GetBandwidth","IWMBandwidthSharing::GetBandwidth","IWMBandwidthSharingGetBandwidth","wmformat.iwmbandwidthsharing_getbandwidth","wmsdkidl/IWMBandwidthSharing::GetBandwidth"]
+description: The GetBandwidth method retrieves the bandwidth and maximum buffer size of a combined stream.
+helpviewer_keywords: ["GetBandwidth","GetBandwidth method [windows Media Format]","GetBandwidth method [windows Media Format]","IWMBandwidthSharing interface","IWMBandwidthSharing interface [windows Media Format]","GetBandwidth method","IWMBandwidthSharing.GetBandwidth","IWMBandwidthSharing::GetBandwidth","IWMBandwidthSharingGetBandwidth","wmformat.iwmbandwidthsharing_getbandwidth","wmsdkidl/IWMBandwidthSharing::GetBandwidth"]
 old-location: wmformat\iwmbandwidthsharing_getbandwidth.htm
 tech.root: wmformat
 ms.assetid: 2769328c-5c05-49fb-bfa6-729115dd417e

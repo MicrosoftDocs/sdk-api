@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPLibraryServices.getLibraryByType
 title: IWMPLibraryServices::getLibraryByType (wmp.h)
-description: The getLibraryByType method retrieves a pointer to an IWMPLibrary interface that represents the library that has the specified type and index.helpviewer_keywords: ["IWMPLibraryServices interface [Windows Media Player]","getLibraryByType method","IWMPLibraryServices.getLibraryByType","IWMPLibraryServices::getLibraryByType","IWMPLibraryServicesgetLibraryByType","getLibraryByType","getLibraryByType method [Windows Media Player]","getLibraryByType method [Windows Media Player]","IWMPLibraryServices interface","wmp.iwmplibraryservices_getlibrarybytype","wmp/IWMPLibraryServices::getLibraryByType"]
+description: The getLibraryByType method retrieves a pointer to an IWMPLibrary interface that represents the library that has the specified type and index.
+helpviewer_keywords: ["IWMPLibraryServices interface [Windows Media Player]","getLibraryByType method","IWMPLibraryServices.getLibraryByType","IWMPLibraryServices::getLibraryByType","IWMPLibraryServicesgetLibraryByType","getLibraryByType","getLibraryByType method [Windows Media Player]","getLibraryByType method [Windows Media Player]","IWMPLibraryServices interface","wmp.iwmplibraryservices_getlibrarybytype","wmp/IWMPLibraryServices::getLibraryByType"]
 old-location: wmp\iwmplibraryservices_getlibrarybytype.htm
 tech.root: WMP
 ms.assetid: 766cfd4e-53e6-44a8-87e6-2b9c1fa2ff3f

@@ -1,7 +1,8 @@
 ---
 UID: NN:natupnp.IUPnPNAT
 title: IUPnPNAT (natupnp.h)
-description: The IUPnPNAT interface is the primary interface for managing Network Address Translation (NAT) with UPnP. The IUPnPNAT interface provides access directly or indirectly to all the other interfaces in the NAT API with UPnP technology.helpviewer_keywords: ["IUPnPNAT","IUPnPNAT interface [ICS/ICF]","IUPnPNAT interface [ICS/ICF]","described","_ics_iupnpnat","ics.iupnpnat","natupnp/IUPnPNAT"]
+description: The IUPnPNAT interface is the primary interface for managing Network Address Translation (NAT) with UPnP. The IUPnPNAT interface provides access directly or indirectly to all the other interfaces in the NAT API with UPnP technology.
+helpviewer_keywords: ["IUPnPNAT","IUPnPNAT interface [ICS/ICF]","IUPnPNAT interface [ICS/ICF]","described","_ics_iupnpnat","ics.iupnpnat","natupnp/IUPnPNAT"]
 old-location: ics\iupnpnat.htm
 tech.root: ics
 ms.assetid: bfd93967-a514-4301-9b1e-0fee8794d929

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsecure.IWMSecureChannel
 title: IWMSecureChannel (wmsecure.h)
-description: The IWMSecureChannel interface provides methods that allow two DLLs to validate each other and perform secure communication.helpviewer_keywords: ["IWMSecureChannel","IWMSecureChannel interface [windows Media Format]","IWMSecureChannel interface [windows Media Format]","described","wmformat.iwmsecurechannel","wmsecure/IWMSecureChannel"]
+description: The IWMSecureChannel interface provides methods that allow two DLLs to validate each other and perform secure communication.
+helpviewer_keywords: ["IWMSecureChannel","IWMSecureChannel interface [windows Media Format]","IWMSecureChannel interface [windows Media Format]","described","wmformat.iwmsecurechannel","wmsecure/IWMSecureChannel"]
 old-location: wmformat\iwmsecurechannel.htm
 tech.root: wmformat
 ms.assetid: ccf34dc2-a527-4ec4-b2d7-ea539ff50cf5

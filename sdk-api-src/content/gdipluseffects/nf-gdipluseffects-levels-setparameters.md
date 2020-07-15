@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.Levels.SetParameters
 title: Levels::SetParameters (gdipluseffects.h)
-description: The Levels::SetParameters method sets the parameters of this Levels object.helpviewer_keywords: ["Levels class [GDI+]","SetParameters method","Levels.SetParameters","Levels::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","Levels class","_gdiplus_CLASS_Levels_SetParameters_","gdiplus._gdiplus_CLASS_Levels_SetParameters_"]
+description: The Levels::SetParameters method sets the parameters of this Levels object.
+helpviewer_keywords: ["Levels class [GDI+]","SetParameters method","Levels.SetParameters","Levels::SetParameters","SetParameters","SetParameters method [GDI+]","SetParameters method [GDI+]","Levels class","_gdiplus_CLASS_Levels_SetParameters_","gdiplus._gdiplus_CLASS_Levels_SetParameters_"]
 old-location: gdiplus\_gdiplus_CLASS_Levels_SetParameters_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\levelsclass\levelsmethods\setparameters.htm

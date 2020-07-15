@@ -1,7 +1,8 @@
 ---
 UID: NN:atscpsipparser.IATSC_STT
 title: IATSC_STT (atscpsipparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IATSC_STT","IATSC_STT interface [Microsoft TV Technologies]","IATSC_STT interface [Microsoft TV Technologies]","described","IATSC_STTInterface","atscpsipparser/IATSC_STT","mstv.iatsc_stt"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IATSC_STT","IATSC_STT interface [Microsoft TV Technologies]","IATSC_STT interface [Microsoft TV Technologies]","described","IATSC_STTInterface","atscpsipparser/IATSC_STT","mstv.iatsc_stt"]
 old-location: mstv\iatsc_stt.htm
 tech.root: mstv
 ms.assetid: 03e903e0-e722-42c6-b6b7-448fecc379b9

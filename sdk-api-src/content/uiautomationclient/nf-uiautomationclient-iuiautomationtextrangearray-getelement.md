@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationTextRangeArray.GetElement
 title: IUIAutomationTextRangeArray::GetElement (uiautomationclient.h)
-description: Retrieves a text range from the collection.helpviewer_keywords: ["GetElement","GetElement method [Windows Accessibility]","GetElement method [Windows Accessibility]","IUIAutomationTextRangeArray interface","IUIAutomationTextRangeArray interface [Windows Accessibility]","GetElement method","IUIAutomationTextRangeArray.GetElement","IUIAutomationTextRangeArray::GetElement","uiauto.uiauto_IUIAutomationTextRangeArray_GetElement","uiauto_IUIAutomationTextRangeArray_GetElement","uiautomationclient/IUIAutomationTextRangeArray::GetElement","winauto.uiauto_IUIAutomationTextRangeArray_GetElement"]
+description: Retrieves a text range from the collection.
+helpviewer_keywords: ["GetElement","GetElement method [Windows Accessibility]","GetElement method [Windows Accessibility]","IUIAutomationTextRangeArray interface","IUIAutomationTextRangeArray interface [Windows Accessibility]","GetElement method","IUIAutomationTextRangeArray.GetElement","IUIAutomationTextRangeArray::GetElement","uiauto.uiauto_IUIAutomationTextRangeArray_GetElement","uiauto_IUIAutomationTextRangeArray_GetElement","uiautomationclient/IUIAutomationTextRangeArray::GetElement","winauto.uiauto_IUIAutomationTextRangeArray_GetElement"]
 old-location: winauto\uiauto_IUIAutomationTextRangeArray_GetElement.htm
 tech.root: WinAuto
 ms.assetid: b5077152-b06a-4391-a0c2-013362014b2b

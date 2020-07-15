@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagCBT_CREATEWNDA
 title: CBT_CREATEWNDA (winuser.h)
-description: Contains information passed to a WH_CBT hook procedure, CBTProc, before a window is created.helpviewer_keywords: ["*LPCBT_CREATEWNDA","CBT_CREATEWND","CBT_CREATEWND structure [Windows and Messages]","CBT_CREATEWNDA","CBT_CREATEWNDW","LPCBT_CREATEWND","LPCBT_CREATEWND structure pointer [Windows and Messages]","_win32_CBT_CREATEWND_str","_win32_cbt_createwnd_str_cpp","winmsg.cbt_createwnd","winui._win32_cbt_createwnd_str","winuser/CBT_CREATEWND","winuser/CBT_CREATEWNDA","winuser/CBT_CREATEWNDW","winuser/LPCBT_CREATEWND"]
+description: Contains information passed to a WH_CBT hook procedure, CBTProc, before a window is created.
+helpviewer_keywords: ["*LPCBT_CREATEWNDA","CBT_CREATEWND","CBT_CREATEWND structure [Windows and Messages]","CBT_CREATEWNDA","CBT_CREATEWNDW","LPCBT_CREATEWND","LPCBT_CREATEWND structure pointer [Windows and Messages]","_win32_CBT_CREATEWND_str","_win32_cbt_createwnd_str_cpp","winmsg.cbt_createwnd","winui._win32_cbt_createwnd_str","winuser/CBT_CREATEWND","winuser/CBT_CREATEWNDA","winuser/CBT_CREATEWNDW","winuser/LPCBT_CREATEWND"]
 old-location: winmsg\cbt_createwnd.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\hooks\hookreference\hookstructures\cbt_createwnd.htm
@@ -102,4 +103,9 @@ A handle to the window whose position in the Z order precedes that of the window
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winuser.h header defines CBT_CREATEWND as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

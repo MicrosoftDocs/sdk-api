@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLGetPKeyInformation
 title: SLGetPKeyInformation function (slpublic.h)
-description: Gets the information of the specified product key.helpviewer_keywords: ["SLGetPKeyInformation","SLGetPKeyInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_SZ","SL_INFO_KEY_CHANNEL","SL_INFO_KEY_DIGITAL_PID","SL_INFO_KEY_DIGITAL_PID2","SL_INFO_KEY_PARTIAL_PRODUCT_KEY","SL_INFO_KEY_PRODUCT_SKU_ID","security.slgetpkeyinformation","slpublic/SLGetPKeyInformation"]
+description: Gets the information of the specified product key.
+helpviewer_keywords: ["SLGetPKeyInformation","SLGetPKeyInformation function [Security]","SL_DATA_BINARY","SL_DATA_DWORD","SL_DATA_SZ","SL_INFO_KEY_CHANNEL","SL_INFO_KEY_DIGITAL_PID","SL_INFO_KEY_DIGITAL_PID2","SL_INFO_KEY_PARTIAL_PRODUCT_KEY","SL_INFO_KEY_PRODUCT_SKU_ID","security.slgetpkeyinformation","slpublic/SLGetPKeyInformation"]
 old-location: security\slgetpkeyinformation.htm
 tech.root: SecSLApi
 ms.assetid: b7728d20-da39-4443-aaca-a6461880bb53

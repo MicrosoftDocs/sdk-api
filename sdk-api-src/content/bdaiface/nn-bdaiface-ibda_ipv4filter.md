@@ -1,7 +1,8 @@
 ---
 UID: NN:bdaiface.IBDA_IPV4Filter
 title: IBDA_IPV4Filter (bdaiface.h)
-description: The IBDA_ IPV4Filter interface is implemented on a Network Provider.helpviewer_keywords: ["IBDA_IPV4Filter","IBDA_IPV4Filter interface [Microsoft TV Technologies]","IBDA_IPV4Filter interface [Microsoft TV Technologies]","described","IBDA_IPV4FilterInterface","bdaiface/IBDA_IPV4Filter","mstv.ibda_ipv4filter"]
+description: The IBDA_ IPV4Filter interface is implemented on a Network Provider.
+helpviewer_keywords: ["IBDA_IPV4Filter","IBDA_IPV4Filter interface [Microsoft TV Technologies]","IBDA_IPV4Filter interface [Microsoft TV Technologies]","described","IBDA_IPV4FilterInterface","bdaiface/IBDA_IPV4Filter","mstv.ibda_ipv4filter"]
 old-location: mstv\ibda_ipv4filter.htm
 tech.root: mstv
 ms.assetid: 3db86e21-6d05-4b7f-be83-a3fa506a0e3b

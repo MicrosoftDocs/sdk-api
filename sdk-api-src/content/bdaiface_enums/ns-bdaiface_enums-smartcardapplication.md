@@ -1,7 +1,8 @@
 ---
 UID: NS:bdaiface_enums.SmartCardApplication
 title: SmartCardApplication (bdaiface_enums.h)
-description: The SmartCardApplication structure identifies a smart card application.helpviewer_keywords: ["SmartCardApplication","SmartCardApplication structure [Microsoft TV Technologies]","SmartCardApplicationStructure","bdaiface_enums/SmartCardApplication","mstv.smartcardapplication"]
+description: The SmartCardApplication structure identifies a smart card application.
+helpviewer_keywords: ["SmartCardApplication","SmartCardApplication structure [Microsoft TV Technologies]","SmartCardApplicationStructure","bdaiface_enums/SmartCardApplication","mstv.smartcardapplication"]
 old-location: mstv\smartcardapplication.htm
 tech.root: mstv
 ms.assetid: 14d9cfbd-46c4-4be2-8631-f0916820c129

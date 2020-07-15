@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngSort
 title: EngSort function (winddi.h)
-description: The EngSort function performs a quick-sort on the specified list.helpviewer_keywords: ["EngSort","EngSort function [Display Devices]","display.engsort","gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml","winddi/EngSort"]
+description: The EngSort function performs a quick-sort on the specified list.
+helpviewer_keywords: ["EngSort","EngSort function [Display Devices]","display.engsort","gdifncs_d675bef7-30d0-4e0d-a798-a397b282ce48.xml","winddi/EngSort"]
 old-location: display\engsort.htm
 tech.root: display
 ms.assetid: e3d1864e-97da-4085-89fa-86135a687f60

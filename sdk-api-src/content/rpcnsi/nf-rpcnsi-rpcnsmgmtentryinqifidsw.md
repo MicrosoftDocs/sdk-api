@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtEntryInqIfIdsW
 title: RpcNsMgmtEntryInqIfIdsW function (rpcnsi.h)
-description: The RpcNsMgmtEntryInqIfIds function returns the list of interfaces exported to a name service&#8211;database entry.helpviewer_keywords: ["RpcNsMgmtEntryInqIfIds","RpcNsMgmtEntryInqIfIds function [RPC]","RpcNsMgmtEntryInqIfIdsA","RpcNsMgmtEntryInqIfIdsW","_rpc_rpcnsmgmtentryinqifids","rpc.rpcnsmgmtentryinqifids","rpcnsi/RpcNsMgmtEntryInqIfIds","rpcnsi/RpcNsMgmtEntryInqIfIdsA","rpcnsi/RpcNsMgmtEntryInqIfIdsW"]
+description: The RpcNsMgmtEntryInqIfIds function returns the list of interfaces exported to a name service–database entry.
+helpviewer_keywords: ["RpcNsMgmtEntryInqIfIds","RpcNsMgmtEntryInqIfIds function [RPC]","RpcNsMgmtEntryInqIfIdsA","RpcNsMgmtEntryInqIfIdsW","_rpc_rpcnsmgmtentryinqifids","rpc.rpcnsmgmtentryinqifids","rpcnsi/RpcNsMgmtEntryInqIfIds","rpcnsi/RpcNsMgmtEntryInqIfIdsA","rpcnsi/RpcNsMgmtEntryInqIfIdsW"]
 old-location: rpc\rpcnsmgmtentryinqifids.htm
 tech.root: Rpc
 ms.assetid: 92f33e1d-a054-4484-903a-c91d3cd549d1
@@ -174,6 +175,10 @@ The
 
 
 
+
+
+> [!NOTE]
+> The rpcnsi.h header defines RpcNsMgmtEntryInqIfIds as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

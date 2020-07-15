@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.CustomLineCap.Clone
 title: CustomLineCap::Clone (gdiplusheaders.h)
-description: The CustomLineCap::Clone method copies the contents of the existing object into a new CustomLineCap object.helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","CustomLineCap class","CustomLineCap class [GDI+]","Clone method","CustomLineCap.Clone","CustomLineCap::Clone","_gdiplus_CLASS_CustomLineCap_Clone_","gdiplus._gdiplus_CLASS_CustomLineCap_Clone_"]
+description: The CustomLineCap::Clone method copies the contents of the existing object into a new CustomLineCap object.
+helpviewer_keywords: ["Clone","Clone method [GDI+]","Clone method [GDI+]","CustomLineCap class","CustomLineCap class [GDI+]","Clone method","CustomLineCap.Clone","CustomLineCap::Clone","_gdiplus_CLASS_CustomLineCap_Clone_","gdiplus._gdiplus_CLASS_CustomLineCap_Clone_"]
 old-location: gdiplus\_gdiplus_CLASS_CustomLineCap_Clone_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\customlinecapclass\customlinecapmethods\clone_49.htm

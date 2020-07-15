@@ -1,7 +1,8 @@
 ---
 UID: NN:ctffunc.ITfFnGetLinguisticAlternates
 title: ITfFnGetLinguisticAlternates (ctffunc.h)
-description: The ITfFnGetLinguisticAlternates interface is implemented by a text service and/or by the TSF manager to provide linguistic alternates for the text within a given range passed as a parameter.helpviewer_keywords: ["ITfFnGetLinguisticAlternates","ITfFnGetLinguisticAlternates interface [Text Services Framework]","ITfFnGetLinguisticAlternates interface [Text Services Framework]","described","ctffunc/ITfFnGetLinguisticAlternates","tsf.itffngetlinguisticalternates"]
+description: The ITfFnGetLinguisticAlternates interface is implemented by a text service and/or by the TSF manager to provide linguistic alternates for the text within a given range passed as a parameter.
+helpviewer_keywords: ["ITfFnGetLinguisticAlternates","ITfFnGetLinguisticAlternates interface [Text Services Framework]","ITfFnGetLinguisticAlternates interface [Text Services Framework]","described","ctffunc/ITfFnGetLinguisticAlternates","tsf.itffngetlinguisticalternates"]
 old-location: tsf\itffngetlinguisticalternates.htm
 tech.root: TSF
 ms.assetid: 854FB6EC-CEF1-4FB6-AA5F-34B26B46A3CA

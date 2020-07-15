@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.AnimatePalette
 title: AnimatePalette function (wingdi.h)
-description: The AnimatePalette function replaces entries in the specified logical palette.helpviewer_keywords: ["AnimatePalette","AnimatePalette function [Windows GDI]","_win32_AnimatePalette","gdi.animatepalette","wingdi/AnimatePalette"]
+description: The AnimatePalette function replaces entries in the specified logical palette.
+helpviewer_keywords: ["AnimatePalette","AnimatePalette function [Windows GDI]","_win32_AnimatePalette","gdi.animatepalette","wingdi/AnimatePalette"]
 old-location: gdi\animatepalette.htm
 tech.root: gdi
 ms.assetid: 65dd45e2-39a4-4a94-bd14-b0c8e4a609a3

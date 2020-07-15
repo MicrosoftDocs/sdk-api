@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluspen.Pen
 title: Pen (gdipluspen.h)
-description: A Pen object is a Windows GDI+ object used to draw lines and curves.helpviewer_keywords: ["Pen","Pen class [GDI+]","Pen class [GDI+]","described","_gdiplus_CLASS_Pen_Class","gdiplus._gdiplus_CLASS_Pen_Class","gdipluspen/Pen"]
+description: A Pen object is a Windows GDI+ object used to draw lines and curves.
+helpviewer_keywords: ["Pen","Pen class [GDI+]","Pen class [GDI+]","described","_gdiplus_CLASS_Pen_Class","gdiplus._gdiplus_CLASS_Pen_Class","gdipluspen/Pen"]
 old-location: gdiplus\_gdiplus_CLASS_Pen_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pen.htm

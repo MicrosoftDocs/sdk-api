@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchProtocol2
 title: ISearchProtocol2 (searchapi.h)
-description: Provides methods for invoking, initializing, and managing IUrlAccessor objects.helpviewer_keywords: ["ISearchProtocol2","ISearchProtocol2 interface [search]","ISearchProtocol2 interface [search]","described","_search_ISearchProtocol2","search._search_ISearchProtocol2","searchapi/ISearchProtocol2"]
+description: Provides methods for invoking, initializing, and managing IUrlAccessor objects.
+helpviewer_keywords: ["ISearchProtocol2","ISearchProtocol2 interface [search]","ISearchProtocol2 interface [search]","described","_search_ISearchProtocol2","search._search_ISearchProtocol2","searchapi/ISearchProtocol2"]
 old-location: search\_search_ISearchProtocol2.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocol2\isearchprotocol2.htm

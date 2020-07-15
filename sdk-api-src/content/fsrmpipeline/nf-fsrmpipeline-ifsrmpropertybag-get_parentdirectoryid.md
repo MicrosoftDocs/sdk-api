@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.get_ParentDirectoryId
 title: IFsrmPropertyBag::get_ParentDirectoryId (fsrmpipeline.h)
-description: The NTFS identifier of the file's parent directory.helpviewer_keywords: ["IFsrmPropertyBag interface [File Server Resource Manager]","ParentDirectoryId property","IFsrmPropertyBag.ParentDirectoryId","IFsrmPropertyBag.get_ParentDirectoryId","IFsrmPropertyBag::ParentDirectoryId","IFsrmPropertyBag::get_ParentDirectoryId","ParentDirectoryId property [File Server Resource Manager]","ParentDirectoryId property [File Server Resource Manager]","IFsrmPropertyBag interface","fs.ifsrmpropertybag_parentdirectoryid","fsrm.ifsrmpropertybag_parentdirectoryid","fsrmpipeline/IFsrmPropertyBag::ParentDirectoryId","fsrmpipeline/IFsrmPropertyBag::get_ParentDirectoryId","get_ParentDirectoryId"]
+description: The NTFS identifier of the file's parent directory.
+helpviewer_keywords: ["IFsrmPropertyBag interface [File Server Resource Manager]","ParentDirectoryId property","IFsrmPropertyBag.ParentDirectoryId","IFsrmPropertyBag.get_ParentDirectoryId","IFsrmPropertyBag::ParentDirectoryId","IFsrmPropertyBag::get_ParentDirectoryId","ParentDirectoryId property [File Server Resource Manager]","ParentDirectoryId property [File Server Resource Manager]","IFsrmPropertyBag interface","fs.ifsrmpropertybag_parentdirectoryid","fsrm.ifsrmpropertybag_parentdirectoryid","fsrmpipeline/IFsrmPropertyBag::ParentDirectoryId","fsrmpipeline/IFsrmPropertyBag::get_ParentDirectoryId","get_ParentDirectoryId"]
 old-location: fsrm\ifsrmpropertybag_parentdirectoryid.htm
 tech.root: fsrm
 ms.assetid: a62f9562-06ba-41bc-8450-300dd50ee728

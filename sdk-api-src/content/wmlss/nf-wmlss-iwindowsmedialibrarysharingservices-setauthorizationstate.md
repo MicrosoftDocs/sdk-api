@@ -1,7 +1,8 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingServices.setAuthorizationState
 title: IWindowsMediaLibrarySharingServices::setAuthorizationState (wmlss.h)
-description: The setAuthorizationState method enables or disables access to the current user's media library by a specified device.helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","setAuthorizationState method","IWindowsMediaLibrarySharingServices.setAuthorizationState","IWindowsMediaLibrarySharingServices::setAuthorizationState","setAuthorizationState","setAuthorizationState method [Windows Media Library Sharing Services]","setAuthorizationState method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSsetAuthorizationState","wmlss/IWindowsMediaLibrarySharingServices::setAuthorizationState"]
+description: The setAuthorizationState method enables or disables access to the current user's media library by a specified device.
+helpviewer_keywords: ["IWindowsMediaLibrarySharingServices interface [Windows Media Library Sharing Services]","setAuthorizationState method","IWindowsMediaLibrarySharingServices.setAuthorizationState","IWindowsMediaLibrarySharingServices::setAuthorizationState","setAuthorizationState","setAuthorizationState method [Windows Media Library Sharing Services]","setAuthorizationState method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingServices interface","wmlss.IWMLSSsetAuthorizationState","wmlss/IWindowsMediaLibrarySharingServices::setAuthorizationState"]
 old-location: wmlss\IWMLSSsetAuthorizationState.htm
 tech.root: WMLSS
 ms.assetid: bd67b81c-9810-4f35-b0b2-c471b4747216

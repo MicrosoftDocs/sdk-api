@@ -1,7 +1,8 @@
 ---
 UID: NS:dbghelp._SRCCODEINFOW
 title: SRCCODEINFOW (dbghelp.h)
-description: Contains line information.helpviewer_keywords: ["*PSRCCODEINFOW","PSRCCODEINFO","PSRCCODEINFO structure pointer","SRCCODEINFO","SRCCODEINFO structure","SRCCODEINFOW","_SRCCODEINFO","_SRCCODEINFOW","base.srccodeinfo_str","dbghelp/PSRCCODEINFO","dbghelp/SRCCODEINFO","dbghelp/SRCCODEINFOW"]
+description: Contains line information.
+helpviewer_keywords: ["*PSRCCODEINFOW","PSRCCODEINFO","PSRCCODEINFO structure pointer","SRCCODEINFO","SRCCODEINFO structure","SRCCODEINFOW","_SRCCODEINFO","_SRCCODEINFOW","base.srccodeinfo_str","dbghelp/PSRCCODEINFO","dbghelp/SRCCODEINFO","dbghelp/SRCCODEINFOW"]
 old-location: base\srccodeinfo_str.htm
 tech.root: Debug
 ms.assetid: 8a2ee743-d2e8-402a-b659-0c0b75052d1d
@@ -103,4 +104,9 @@ The virtual address of the first instruction of the line.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The dbghelp.h header defines SRCCODEINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

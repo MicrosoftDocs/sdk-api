@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponentsEx3.AddSnapshotToRecoverySet
 title: IVssBackupComponentsEx3::AddSnapshotToRecoverySet (vsbackup.h)
-description: Specifies the volumes to be included in a LUN resynchronization operation.helpviewer_keywords: ["AddSnapshotToRecoverySet","AddSnapshotToRecoverySet method","AddSnapshotToRecoverySet method","IVssBackupComponentsEx3 interface","IVssBackupComponentsEx3 interface","AddSnapshotToRecoverySet method","IVssBackupComponentsEx3.AddSnapshotToRecoverySet","IVssBackupComponentsEx3::AddSnapshotToRecoverySet","base.ivssbackupcomponentsex3_addsnapshottorecoveryset","vsbackup/IVssBackupComponentsEx3::AddSnapshotToRecoverySet"]
+description: Specifies the volumes to be included in a LUN resynchronization operation.
+helpviewer_keywords: ["AddSnapshotToRecoverySet","AddSnapshotToRecoverySet method","AddSnapshotToRecoverySet method","IVssBackupComponentsEx3 interface","IVssBackupComponentsEx3 interface","AddSnapshotToRecoverySet method","IVssBackupComponentsEx3.AddSnapshotToRecoverySet","IVssBackupComponentsEx3::AddSnapshotToRecoverySet","base.ivssbackupcomponentsex3_addsnapshottorecoveryset","vsbackup/IVssBackupComponentsEx3::AddSnapshotToRecoverySet"]
 old-location: base\ivssbackupcomponentsex3_addsnapshottorecoveryset.htm
 tech.root: VSS
 ms.assetid: f489d353-7c8a-45d2-8917-82d29fbdf5f5

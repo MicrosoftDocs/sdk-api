@@ -1,7 +1,8 @@
 ---
 UID: NS:ipmib._MIB_IPMCAST_IF_ENTRY
 title: MIB_IPMCAST_IF_ENTRY (ipmib.h)
-description: Stores information about an IP multicast interface.helpviewer_keywords: ["*PMIB_IPMCAST_IF_ENTRY","MIB_IPMCAST_IF_ENTRY","MIB_IPMCAST_IF_ENTRY structure [MIB]","PMIB_IPMCAST_IF_ENTRY","PMIB_IPMCAST_IF_ENTRY structure pointer [MIB]","_mpr_mib_ipmcast_if_entry","ipmib/MIB_IPMCAST_IF_ENTRY","ipmib/PMIB_IPMCAST_IF_ENTRY","iprtrmib/MIB_IPMCAST_IF_ENTRY","iprtrmib/PMIB_IPMCAST_IF_ENTRY","mib.mib_ipmcast_if_entry","rras.mib_ipmcast_if_entry"]
+description: Stores information about an IP multicast interface.
+helpviewer_keywords: ["*PMIB_IPMCAST_IF_ENTRY","MIB_IPMCAST_IF_ENTRY","MIB_IPMCAST_IF_ENTRY structure [MIB]","PMIB_IPMCAST_IF_ENTRY","PMIB_IPMCAST_IF_ENTRY structure pointer [MIB]","_mpr_mib_ipmcast_if_entry","ipmib/MIB_IPMCAST_IF_ENTRY","ipmib/PMIB_IPMCAST_IF_ENTRY","iprtrmib/MIB_IPMCAST_IF_ENTRY","iprtrmib/PMIB_IPMCAST_IF_ENTRY","mib.mib_ipmcast_if_entry","rras.mib_ipmcast_if_entry"]
 old-location: mib\mib_ipmcast_if_entry.htm
 tech.root: MIB
 ms.assetid: 59bc8df1-3999-4acb-b556-e765a9faef79

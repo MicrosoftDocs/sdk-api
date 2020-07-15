@@ -1,7 +1,8 @@
 ---
 UID: NF:bits2_0.IBackgroundCopyJob3.AddFileWithRanges
 title: IBackgroundCopyJob3::AddFileWithRanges (bits2_0.h)
-description: Adds a file to a download job and specifies the ranges of the file you want to download.helpviewer_keywords: ["AddFileWithRanges","AddFileWithRanges method [BITS]","AddFileWithRanges method [BITS]","IBackgroundCopyJob3 interface","IBackgroundCopyJob3 interface [BITS]","AddFileWithRanges method","IBackgroundCopyJob3.AddFileWithRanges","IBackgroundCopyJob3::AddFileWithRanges","bits.ibackgroundcopyjob3_addfilewithranges","bits2_0/IBackgroundCopyJob3::AddFileWithRanges"]
+description: Adds a file to a download job and specifies the ranges of the file you want to download.
+helpviewer_keywords: ["AddFileWithRanges","AddFileWithRanges method [BITS]","AddFileWithRanges method [BITS]","IBackgroundCopyJob3 interface","IBackgroundCopyJob3 interface [BITS]","AddFileWithRanges method","IBackgroundCopyJob3.AddFileWithRanges","IBackgroundCopyJob3::AddFileWithRanges","bits.ibackgroundcopyjob3_addfilewithranges","bits2_0/IBackgroundCopyJob3::AddFileWithRanges"]
 old-location: bits\ibackgroundcopyjob3_addfilewithranges.htm
 tech.root: Bits
 ms.assetid: b3601f23-1a69-47db-8943-7515652cf015

@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationPrimaryContent.SetSnapType
 title: IDirectManipulationPrimaryContent::SetSnapType (directmanipulation.h)
-description: Specifies the type of snap point.helpviewer_keywords: ["IDirectManipulationPrimaryContent interface [Direct Manipulation]","SetSnapType method","IDirectManipulationPrimaryContent.SetSnapType","IDirectManipulationPrimaryContent::SetSnapType","SetSnapType","SetSnapType method [Direct Manipulation]","SetSnapType method [Direct Manipulation]","IDirectManipulationPrimaryContent interface","directmanipulation.idirectmanipulationprimarycontent_setsnaptype","directmanipulation/IDirectManipulationPrimaryContent::SetSnapType"]
+description: Specifies the type of snap point.
+helpviewer_keywords: ["IDirectManipulationPrimaryContent interface [Direct Manipulation]","SetSnapType method","IDirectManipulationPrimaryContent.SetSnapType","IDirectManipulationPrimaryContent::SetSnapType","SetSnapType","SetSnapType method [Direct Manipulation]","SetSnapType method [Direct Manipulation]","IDirectManipulationPrimaryContent interface","directmanipulation.idirectmanipulationprimarycontent_setsnaptype","directmanipulation/IDirectManipulationPrimaryContent::SetSnapType"]
 old-location: directmanipulation\idirectmanipulationprimarycontent_setsnaptype.htm
 tech.root: directmanipulation
 ms.assetid: 0f1ad54d-8c9a-4b3c-a78b-fe02cb889ca9

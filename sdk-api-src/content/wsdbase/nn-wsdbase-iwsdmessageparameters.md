@@ -1,7 +1,8 @@
 ---
 UID: NN:wsdbase.IWSDMessageParameters
 title: IWSDMessageParameters (wsdbase.h)
-description: Use this interface to communicate message specific information up and down the protocol stack.helpviewer_keywords: ["IWSDMessageParameters","IWSDMessageParameters interface","IWSDMessageParameters interface","described","ncd.iwsdmessageparameters","wsdbase/IWSDMessageParameters"]
+description: Use this interface to communicate message specific information up and down the protocol stack.
+helpviewer_keywords: ["IWSDMessageParameters","IWSDMessageParameters interface","IWSDMessageParameters interface","described","ncd.iwsdmessageparameters","wsdbase/IWSDMessageParameters"]
 old-location: ncd\iwsdmessageparameters.htm
 tech.root: WsdApi
 ms.assetid: fb659a5e-1f55-47a6-b22d-660975d8c0fd

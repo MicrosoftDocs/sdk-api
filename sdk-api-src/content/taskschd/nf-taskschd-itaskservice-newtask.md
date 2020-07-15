@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.ITaskService.NewTask
 title: ITaskService::NewTask (taskschd.h)
-description: Returns an empty task definition object to be filled in with settings and properties and then registered using the ITaskFolder::RegisterTaskDefinition method.helpviewer_keywords: ["ITaskService interface [Task Scheduler]","NewTask method","ITaskService.NewTask","ITaskService::NewTask","NewTask","NewTask method [Task Scheduler]","NewTask method [Task Scheduler]","ITaskService interface","taskschd.itaskservice_newtask","taskschd/ITaskService::NewTask"]
+description: Returns an empty task definition object to be filled in with settings and properties and then registered using the ITaskFolder::RegisterTaskDefinition method.
+helpviewer_keywords: ["ITaskService interface [Task Scheduler]","NewTask method","ITaskService.NewTask","ITaskService::NewTask","NewTask","NewTask method [Task Scheduler]","NewTask method [Task Scheduler]","ITaskService interface","taskschd.itaskservice_newtask","taskschd/ITaskService::NewTask"]
 old-location: taskschd\itaskservice_newtask.htm
 tech.root: taskschd
 ms.assetid: 821fc610-cf94-4548-950d-b4fd7b2f90dc

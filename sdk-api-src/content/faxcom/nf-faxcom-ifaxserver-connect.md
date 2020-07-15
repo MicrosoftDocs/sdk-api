@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxServer.Connect
 title: IFaxServer::Connect (faxcom.h)
-description: The Connect method connects a fax client application to the specified fax server.helpviewer_keywords: ["Connect","Connect method [Fax Service]","Connect method [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","Connect method","IFaxServer.Connect","IFaxServer::Connect","_mfax_ifaxserver_connect_client","fax._mfax_ifaxserver_client_mfax_ifaxserver_connect_client_cpp","fax._mfax_ifaxserver_connect_client","faxcom/IFaxServer::Connect"]
+description: The Connect method connects a fax client application to the specified fax server.
+helpviewer_keywords: ["Connect","Connect method [Fax Service]","Connect method [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","Connect method","IFaxServer.Connect","IFaxServer::Connect","_mfax_ifaxserver_connect_client","fax._mfax_ifaxserver_client_mfax_ifaxserver_connect_client_cpp","fax._mfax_ifaxserver_connect_client","faxcom/IFaxServer::Connect"]
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_connect_client_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_7984.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.Enable
 title: IDesktopWallpaper::Enable (shobjidl_core.h)
-description: Enables or disables the desktop background.helpviewer_keywords: ["Enable","Enable method [Windows Shell]","Enable method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","Enable method","IDesktopWallpaper.Enable","IDesktopWallpaper::Enable","shell.IDesktopWallpaper_Enable","shobjidl_core/IDesktopWallpaper::Enable"]
+description: Enables or disables the desktop background.
+helpviewer_keywords: ["Enable","Enable method [Windows Shell]","Enable method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","Enable method","IDesktopWallpaper.Enable","IDesktopWallpaper::Enable","shell.IDesktopWallpaper_Enable","shobjidl_core/IDesktopWallpaper::Enable"]
 old-location: shell\IDesktopWallpaper_Enable.htm
 tech.root: shell
 ms.assetid: 8BC04B93-4BF4-4713-8EF8-C4BCF1C8090E

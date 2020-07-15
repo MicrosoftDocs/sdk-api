@@ -1,7 +1,8 @@
 ---
 UID: NC:evntrace.PEVENT_TRACE_BUFFER_CALLBACKA
 title: PEVENT_TRACE_BUFFER_CALLBACKA (evntrace.h)
-description: Consumers implement this function to receive statistics about each buffer of events that ETW delivers to an event trace consumer.helpviewer_keywords: ["BufferCallback","BufferCallback callback function [ETW]","PEVENT_TRACE_BUFFER_CALLBACK","PEVENT_TRACE_BUFFER_CALLBACK callback","PEVENT_TRACE_BUFFER_CALLBACKA","PEVENT_TRACE_BUFFER_CALLBACKW","_evt_buffercallback","base.buffercallback","etw.buffercallback","evntrace/BufferCallback"]
+description: Consumers implement this function to receive statistics about each buffer of events that ETW delivers to an event trace consumer.
+helpviewer_keywords: ["BufferCallback","BufferCallback callback function [ETW]","PEVENT_TRACE_BUFFER_CALLBACK","PEVENT_TRACE_BUFFER_CALLBACK callback","PEVENT_TRACE_BUFFER_CALLBACKA","PEVENT_TRACE_BUFFER_CALLBACKW","_evt_buffercallback","base.buffercallback","etw.buffercallback","evntrace/BufferCallback"]
 old-location: etw\buffercallback.htm
 tech.root: ETW
 ms.assetid: 0cfe2f62-63dc-45a6-96ce-fb4bf458358f
@@ -105,6 +106,10 @@ For an example implementation of a
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The evntrace.h header defines PEVENT_TRACE_BUFFER_CALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

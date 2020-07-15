@@ -1,7 +1,8 @@
 ---
 UID: NS:rectypes.tagCHARACTER_RANGE
 title: CHARACTER_RANGE (rectypes.h)
-description: Specifies a range of Unicode points (characters).helpviewer_keywords: ["*PCHARACTER_RANGE","51d13adf-170e-4172-b752-c9dac5a96fa5","CHARACTER_RANGE","CHARACTER_RANGE structure [Tablet PC]","rectypes/CHARACTER_RANGE","tablet.character_range"]
+description: Specifies a range of Unicode points (characters).
+helpviewer_keywords: ["*PCHARACTER_RANGE","51d13adf-170e-4172-b752-c9dac5a96fa5","CHARACTER_RANGE","CHARACTER_RANGE structure [Tablet PC]","rectypes/CHARACTER_RANGE","tablet.character_range"]
 old-location: tablet\character_range.htm
 tech.root: tablet
 ms.assetid: 51d13adf-170e-4172-b752-c9dac5a96fa5

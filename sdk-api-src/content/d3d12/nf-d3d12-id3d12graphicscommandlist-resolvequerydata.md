@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ResolveQueryData
 title: ID3D12GraphicsCommandList::ResolveQueryData (d3d12.h)
-description: Extracts data from a query. ResolveQueryData works with all heap types (default, upload, and readback).  ResolveQueryData works with all heap types (default, upload, and readback). .helpviewer_keywords: ["ID3D12GraphicsCommandList interface","ResolveQueryData method","ID3D12GraphicsCommandList.ResolveQueryData","ID3D12GraphicsCommandList::ResolveQueryData","ResolveQueryData","ResolveQueryData method","ResolveQueryData method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::ResolveQueryData","direct3d12.id3d12graphicscommandlist_resolvequerydata"]
+description: Extracts data from a query. ResolveQueryData works with all heap types (default, upload, and readback).  ResolveQueryData works with all heap types (default, upload, and readback). .
+helpviewer_keywords: ["ID3D12GraphicsCommandList interface","ResolveQueryData method","ID3D12GraphicsCommandList.ResolveQueryData","ID3D12GraphicsCommandList::ResolveQueryData","ResolveQueryData","ResolveQueryData method","ResolveQueryData method","ID3D12GraphicsCommandList interface","d3d12/ID3D12GraphicsCommandList::ResolveQueryData","direct3d12.id3d12graphicscommandlist_resolvequerydata"]
 old-location: direct3d12\id3d12graphicscommandlist_resolvequerydata.htm
 tech.root: direct3d12
 ms.assetid: E3154DB7-DDA9-4480-A918-19C3A62944F2

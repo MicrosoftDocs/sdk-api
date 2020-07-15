@@ -1,7 +1,8 @@
 ---
 UID: NC:batclass.BCLASS_SET_STATUS_NOTIFY_CALLBACK
 title: BCLASS_SET_STATUS_NOTIFY_CALLBACK (batclass.h)
-description: BatteryMiniSetStatusNotify sets the battery capacity and power state levels at which the class driver requires notification.helpviewer_keywords: ["BCLASS_SET_STATUS_NOTIFY_CALLBACK","BCLASS_SET_STATUS_NOTIFY_CALLBACK callback","BatteryMiniSetStatusNotify","BatteryMiniSetStatusNotify callback function [Battery Devices]","bat-mini_a7e948a0-2fe9-4727-88e1-9eb27272789d.xml","batclass/BatteryMiniSetStatusNotify","battery.batteryminisetstatusnotify"]
+description: BatteryMiniSetStatusNotify sets the battery capacity and power state levels at which the class driver requires notification.
+helpviewer_keywords: ["BCLASS_SET_STATUS_NOTIFY_CALLBACK","BCLASS_SET_STATUS_NOTIFY_CALLBACK callback","BatteryMiniSetStatusNotify","BatteryMiniSetStatusNotify callback function [Battery Devices]","bat-mini_a7e948a0-2fe9-4727-88e1-9eb27272789d.xml","batclass/BatteryMiniSetStatusNotify","battery.batteryminisetstatusnotify"]
 old-location: battery\batteryminisetstatusnotify.htm
 tech.root: battery
 ms.assetid: ec463202-4c08-475a-b612-73413f1376fc

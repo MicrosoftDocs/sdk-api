@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.XFORMOBJ_bApplyXform
 title: XFORMOBJ_bApplyXform function (winddi.h)
-description: The XFORMOBJ_bApplyXform function applies the given transform or its inverse to the given array of points.helpviewer_keywords: ["XFORMOBJ_bApplyXform","XFORMOBJ_bApplyXform function [Display Devices]","display.xformobj_bapplyxform","gdifncs_d95d97d6-6fd2-4deb-b7f9-627eef20fece.xml","winddi/XFORMOBJ_bApplyXform"]
+description: The XFORMOBJ_bApplyXform function applies the given transform or its inverse to the given array of points.
+helpviewer_keywords: ["XFORMOBJ_bApplyXform","XFORMOBJ_bApplyXform function [Display Devices]","display.xformobj_bapplyxform","gdifncs_d95d97d6-6fd2-4deb-b7f9-627eef20fece.xml","winddi/XFORMOBJ_bApplyXform"]
 old-location: display\xformobj_bapplyxform.htm
 tech.root: display
 ms.assetid: a9267d2a-96ab-4518-8045-428ab74bd599

@@ -1,7 +1,8 @@
 ---
 UID: NF:shellscalingapi.UnregisterScaleChangeEvent
 title: UnregisterScaleChangeEvent function (shellscalingapi.h)
-description: Unregisters for the scale change event registered through RegisterScaleChangeEvent. This function replaces RevokeScaleChangeNotifications.helpviewer_keywords: ["UnregisterScaleChangeEvent","UnregisterScaleChangeEvent function [Windows Shell]","shell.UnregisterScaleChangeEvent","shellscalingapi/UnregisterScaleChangeEvent"]
+description: Unregisters for the scale change event registered through RegisterScaleChangeEvent. This function replaces RevokeScaleChangeNotifications.
+helpviewer_keywords: ["UnregisterScaleChangeEvent","UnregisterScaleChangeEvent function [Windows Shell]","shell.UnregisterScaleChangeEvent","shellscalingapi/UnregisterScaleChangeEvent"]
 old-location: shell\UnregisterScaleChangeEvent.htm
 tech.root: shell
 ms.assetid: 4BF2F912-857A-4122-A9E1-6704F92240E6

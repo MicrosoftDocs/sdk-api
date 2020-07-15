@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingSphere.Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR)
 title: BoundingSphere::Contains(FXMVECTOR,FXMVECTOR,FXMVECTOR)
-description: Tests whether the BoundingSphere contains a specified triangle.helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","Contains method","BoundingSphere.Contains","BoundingSphere.Contains(FXMVECTOR","FXMVECTOR","FXMVECTOR)","BoundingSphere.Contains(XMVECTOR","XMVECTOR","XMVECTOR)","BoundingSphere::Contains","BoundingSphere::Contains(FXMVECTOR","FXMVECTOR","FXMVECTOR)","Contains","Contains method [DirectX Math Support APIs]","Contains method [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_contains_2"]
+description: Tests whether the BoundingSphere contains a specified triangle.
+helpviewer_keywords: ["BoundingSphere interface [DirectX Math Support APIs]","Contains method","BoundingSphere.Contains","BoundingSphere.Contains(FXMVECTOR","FXMVECTOR","FXMVECTOR)","BoundingSphere.Contains(XMVECTOR","XMVECTOR","XMVECTOR)","BoundingSphere::Contains","BoundingSphere::Contains(FXMVECTOR","FXMVECTOR","FXMVECTOR)","Contains","Contains method [DirectX Math Support APIs]","Contains method [DirectX Math Support APIs]","BoundingSphere interface","dxmath.boundingsphere_contains_2"]
 old-location: dxmath\boundingsphere_contains_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxcollision.BoundingSphere.Contains(XMVECTOR,XMVECTOR,XMVECTOR)

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetReferencePid
 title: IIsdbHierarchicalTransmissionDescriptor::GetReferencePid (dvbsiparser.h)
-description: Gets the program ID (PID) of the primary hierarchical stream from a hierarchical transmission descriptor.helpviewer_keywords: ["GetReferencePid","GetReferencePid method [Microsoft TV Technologies]","GetReferencePid method [Microsoft TV Technologies]","IIsdbHierarchicalTransmissionDescriptor interface","IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies]","GetReferencePid method","IIsdbHierarchicalTransmissionDescriptor.GetReferencePid","IIsdbHierarchicalTransmissionDescriptor::GetReferencePid","dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetReferencePid","mstv.iisdbhierarchicaltransmissiondescriptor_getreferencepid"]
+description: Gets the program ID (PID) of the primary hierarchical stream from a hierarchical transmission descriptor.
+helpviewer_keywords: ["GetReferencePid","GetReferencePid method [Microsoft TV Technologies]","GetReferencePid method [Microsoft TV Technologies]","IIsdbHierarchicalTransmissionDescriptor interface","IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies]","GetReferencePid method","IIsdbHierarchicalTransmissionDescriptor.GetReferencePid","IIsdbHierarchicalTransmissionDescriptor::GetReferencePid","dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetReferencePid","mstv.iisdbhierarchicaltransmissiondescriptor_getreferencepid"]
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getreferencepid.htm
 tech.root: mstv
 ms.assetid: 4c1d96eb-e2d6-4f3a-8a3c-88c0d920ad44

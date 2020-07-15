@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2fx.XAudio2CreateReverb
 title: XAudio2CreateReverb function (xaudio2fx.h)
-description: Creates a new reverb audio processing object (APO), and returns a pointer to it.helpviewer_keywords: ["XAudio2CreateReverb","XAudio2CreateReverb function [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2createreverb","xaudio2fx/XAudio2CreateReverb"]
+description: Creates a new reverb audio processing object (APO), and returns a pointer to it.
+helpviewer_keywords: ["XAudio2CreateReverb","XAudio2CreateReverb function [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2createreverb","xaudio2fx/XAudio2CreateReverb"]
 old-location: xaudio2\xaudio2createreverb.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateReverb(IUnknown@,UINT32)

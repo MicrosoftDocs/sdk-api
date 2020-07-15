@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphShutdown
 title: PeerGraphShutdown function (p2p.h)
-description: The PeerGraphShutdown function cleans up any resources allocated by the call to PeerGraphStartup. There must be a call to PeerGraphShutdown for each call to PeerGraphStartup.helpviewer_keywords: ["PeerGraphShutdown","PeerGraphShutdown function [Peer Networking]","p2p.peergraphshutdown","p2p/PeerGraphShutdown"]
+description: The PeerGraphShutdown function cleans up any resources allocated by the call to PeerGraphStartup. There must be a call to PeerGraphShutdown for each call to PeerGraphStartup.
+helpviewer_keywords: ["PeerGraphShutdown","PeerGraphShutdown function [Peer Networking]","p2p.peergraphshutdown","p2p/PeerGraphShutdown"]
 old-location: p2p\peergraphshutdown.htm
 tech.root: P2PSdk
 ms.assetid: 036f1bd6-f8aa-47ba-841e-f731ff486860

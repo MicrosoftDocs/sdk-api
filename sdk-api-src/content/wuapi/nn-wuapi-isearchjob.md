@@ -1,7 +1,8 @@
 ---
 UID: NN:wuapi.ISearchJob
 title: ISearchJob (wuapi.h)
-description: Contains properties and methods that are available to a search operation.helpviewer_keywords: ["ISearchJob","ISearchJob interface [Windows Update Agent]","ISearchJob interface [Windows Update Agent]","described","wua.isearchjob","wuapi/ISearchJob"]
+description: Contains properties and methods that are available to a search operation.
+helpviewer_keywords: ["ISearchJob","ISearchJob interface [Windows Update Agent]","ISearchJob interface [Windows Update Agent]","described","wua.isearchjob","wuapi/ISearchJob"]
 old-location: wua\isearchjob.htm
 tech.root: Wua_Sdk
 ms.assetid: aec4a812-cf5d-4986-a776-29c366bb1771

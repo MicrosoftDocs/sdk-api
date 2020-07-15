@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCore.get_error
 title: IWMPCore::get_error (wmp.h)
-description: The get_error method retrieves a pointer to an IWMPError interface.helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_error method","IWMPCore.get_error","IWMPCore::get_error","IWMPCoreget_error","get_error","get_error method [Windows Media Player]","get_error method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_get_error","wmp/IWMPCore::get_error"]
+description: The get_error method retrieves a pointer to an IWMPError interface.
+helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","get_error method","IWMPCore.get_error","IWMPCore::get_error","IWMPCoreget_error","get_error","get_error method [Windows Media Player]","get_error method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_get_error","wmp/IWMPCore::get_error"]
 old-location: wmp\iwmpcore_get_error.htm
 tech.root: WMP
 ms.assetid: db00797b-989f-4f92-8fac-aaa147e37383

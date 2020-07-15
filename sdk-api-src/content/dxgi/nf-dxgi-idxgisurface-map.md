@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGISurface.Map
 title: IDXGISurface::Map (dxgi.h)
-description: Get a pointer to the data contained in the surface, and deny GPU access to the surface.helpviewer_keywords: ["2353661a-8e73-6878-2899-79d0afdc2901","IDXGISurface interface [DXGI]","Map method","IDXGISurface.Map","IDXGISurface::Map","Map","Map method [DXGI]","Map method [DXGI]","IDXGISurface interface","direct3ddxgi.idxgisurface_map","dxgi/IDXGISurface::Map"]
+description: Get a pointer to the data contained in the surface, and deny GPU access to the surface.
+helpviewer_keywords: ["2353661a-8e73-6878-2899-79d0afdc2901","IDXGISurface interface [DXGI]","Map method","IDXGISurface.Map","IDXGISurface::Map","Map","Map method [DXGI]","Map method [DXGI]","IDXGISurface interface","direct3ddxgi.idxgisurface_map","dxgi/IDXGISurface::Map"]
 old-location: direct3ddxgi\idxgisurface_map.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgisurface_map.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:wsman._WSMAN_SENDER_DETAILS
 title: WSMAN_SENDER_DETAILS (wsman.h)
-description: Specifies the client details for every inbound request.helpviewer_keywords: ["WSMAN_SENDER_DETAILS","WSMAN_SENDER_DETAILS structure [Windows Remote Management]","winrm.wsman_sender_details","wsman/WSMAN_SENDER_DETAILS"]
+description: Specifies the client details for every inbound request.
+helpviewer_keywords: ["WSMAN_SENDER_DETAILS","WSMAN_SENDER_DETAILS structure [Windows Remote Management]","winrm.wsman_sender_details","wsman/WSMAN_SENDER_DETAILS"]
 old-location: winrm\wsman_sender_details.htm
 tech.root: winrm
 ms.assetid: f68a9f75-6808-4dfa-b40f-061da88ead3c

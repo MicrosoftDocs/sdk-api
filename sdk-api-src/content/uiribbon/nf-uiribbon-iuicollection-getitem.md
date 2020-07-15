@@ -1,7 +1,8 @@
 ---
 UID: NF:uiribbon.IUICollection.GetItem
 title: IUICollection::GetItem (uiribbon.h)
-description: Retrieves an item from the IUICollection at the specified index.helpviewer_keywords: ["GetItem","GetItem method [Windows Ribbon]","GetItem method [Windows Ribbon]","IUICollection interface","IUICollection interface [Windows Ribbon]","GetItem method","IUICollection.GetItem","IUICollection::GetItem","scenicintent_IUICollection_GetItem","uiribbon/IUICollection::GetItem","windowsribbon.windowsribbon_iuicollection_getitem"]
+description: Retrieves an item from the IUICollection at the specified index.
+helpviewer_keywords: ["GetItem","GetItem method [Windows Ribbon]","GetItem method [Windows Ribbon]","IUICollection interface","IUICollection interface [Windows Ribbon]","GetItem method","IUICollection.GetItem","IUICollection::GetItem","scenicintent_IUICollection_GetItem","uiribbon/IUICollection::GetItem","windowsribbon.windowsribbon_iuicollection_getitem"]
 old-location: windowsribbon\windowsribbon_iuicollection_getitem.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicollection\getitem.htm

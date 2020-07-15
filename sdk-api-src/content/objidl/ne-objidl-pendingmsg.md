@@ -1,7 +1,8 @@
 ---
 UID: NE:objidl.tagPENDINGMSG
 title: PENDINGMSG (objidl.h)
-description: Specifies the return values for the IMessageFilter::MessagePending method.helpviewer_keywords: ["PENDINGMSG","PENDINGMSG enumeration [COM]","PENDINGMSG_CANCELCALL","PENDINGMSG_WAITDEFPROCESS","PENDINGMSG_WAITNOPROCESS","_com_PENDINGMSG","com.pendingmsg","objidl/PENDINGMSG","objidl/PENDINGMSG_CANCELCALL","objidl/PENDINGMSG_WAITDEFPROCESS","objidl/PENDINGMSG_WAITNOPROCESS"]
+description: Specifies the return values for the IMessageFilter::MessagePending method.
+helpviewer_keywords: ["PENDINGMSG","PENDINGMSG enumeration [COM]","PENDINGMSG_CANCELCALL","PENDINGMSG_WAITDEFPROCESS","PENDINGMSG_WAITNOPROCESS","_com_PENDINGMSG","com.pendingmsg","objidl/PENDINGMSG","objidl/PENDINGMSG_CANCELCALL","objidl/PENDINGMSG_WAITDEFPROCESS","objidl/PENDINGMSG_WAITNOPROCESS"]
 old-location: com\pendingmsg.htm
 tech.root: com
 ms.assetid: 105bbcd4-b1b2-444d-bd55-7f6e564fec42

@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.LSA_MAP_BUFFER
 title: LSA_MAP_BUFFER (ntsecpkg.h)
-description: Maps a SecBuffer structure into the address space of the security support provider/authentication package (SSP/AP).helpviewer_keywords: ["LSA_MAP_BUFFER","LSA_MAP_BUFFER callback","MapBuffer","MapBuffer callback function [Security]","_ssp_mapbuffer","ntsecpkg/MapBuffer","security.mapbuffer"]
+description: Maps a SecBuffer structure into the address space of the security support provider/authentication package (SSP/AP).
+helpviewer_keywords: ["LSA_MAP_BUFFER","LSA_MAP_BUFFER callback","MapBuffer","MapBuffer callback function [Security]","_ssp_mapbuffer","ntsecpkg/MapBuffer","security.mapbuffer"]
 old-location: security\mapbuffer.htm
 tech.root: SecAuthN
 ms.assetid: 3189da1b-5f2f-4569-8f60-6f3b287460f1

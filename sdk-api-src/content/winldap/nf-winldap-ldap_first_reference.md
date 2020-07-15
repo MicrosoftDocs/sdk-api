@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_first_reference
 title: ldap_first_reference function (winldap.h)
-description: Returns the first reference from a message.helpviewer_keywords: ["_ldap_ldap_first_reference","ldap.ldap__first__reference","ldap.ldap_first_reference","ldap_first_reference","ldap_first_reference function [LDAP]","winldap/ldap_first_reference"]
+description: Returns the first reference from a message.
+helpviewer_keywords: ["_ldap_ldap_first_reference","ldap.ldap__first__reference","ldap.ldap_first_reference","ldap_first_reference","ldap_first_reference function [LDAP]","winldap/ldap_first_reference"]
 old-location: ldap\ldap_first_reference.htm
 tech.root: ldap
 ms.assetid: b9ee4da3-9309-4e2b-95a9-6e0f1625fc79

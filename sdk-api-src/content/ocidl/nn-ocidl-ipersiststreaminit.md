@@ -1,7 +1,8 @@
 ---
 UID: NN:ocidl.IPersistStreamInit
 title: IPersistStreamInit (ocidl.h)
-description: A replacement for IPersistStream that adds an initialization method.helpviewer_keywords: ["IPersistStreamInit","IPersistStreamInit interface [COM]","IPersistStreamInit interface [COM]","described","_com_ipersiststreaminit","com.ipersiststreaminit","ocidl/IPersistStreamInit"]
+description: A replacement for IPersistStream that adds an initialization method.
+helpviewer_keywords: ["IPersistStreamInit","IPersistStreamInit interface [COM]","IPersistStreamInit interface [COM]","described","_com_ipersiststreaminit","com.ipersiststreaminit","ocidl/IPersistStreamInit"]
 old-location: com\ipersiststreaminit.htm
 tech.root: com
 ms.assetid: 49c413b3-3523-4602-9ec1-19f4e0fe5651

@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidStreamBufferSourceEvent
 title: IMSVidStreamBufferSourceEvent (segment.h)
-description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["IMSVidStreamBufferSourceEvent","IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies]","described","IMSVidStreamBufferSourceEventInterface","mstv.imsvidstreambuffersourceevent","segment/IMSVidStreamBufferSourceEvent"]
+description: This topic applies to Windows XP Service Pack 1 or later.
+helpviewer_keywords: ["IMSVidStreamBufferSourceEvent","IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies]","IMSVidStreamBufferSourceEvent interface [Microsoft TV Technologies]","described","IMSVidStreamBufferSourceEventInterface","mstv.imsvidstreambuffersourceevent","segment/IMSVidStreamBufferSourceEvent"]
 old-location: mstv\imsvidstreambuffersourceevent.htm
 tech.root: mstv
 ms.assetid: 6d8e0cf3-b4c7-4f3e-acff-50f12b8340a8

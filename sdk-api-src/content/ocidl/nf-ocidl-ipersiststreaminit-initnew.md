@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPersistStreamInit.InitNew
 title: IPersistStreamInit::InitNew (ocidl.h)
-description: Initializes an object to a default state. This method is to be called instead of IPersistStreamInit::Load.helpviewer_keywords: ["IPersistStreamInit interface [COM]","InitNew method","IPersistStreamInit.InitNew","IPersistStreamInit::InitNew","InitNew","InitNew method [COM]","InitNew method [COM]","IPersistStreamInit interface","_com_ipersiststreaminit_initnew","com.ipersiststreaminit_initnew","ocidl/IPersistStreamInit::InitNew"]
+description: Initializes an object to a default state. This method is to be called instead of IPersistStreamInit::Load.
+helpviewer_keywords: ["IPersistStreamInit interface [COM]","InitNew method","IPersistStreamInit.InitNew","IPersistStreamInit::InitNew","InitNew","InitNew method [COM]","InitNew method [COM]","IPersistStreamInit interface","_com_ipersiststreaminit_initnew","com.ipersiststreaminit_initnew","ocidl/IPersistStreamInit::InitNew"]
 old-location: com\ipersiststreaminit_initnew.htm
 tech.root: com
 ms.assetid: 9e318698-0c3c-41c2-bb9e-04e8c9746c4d

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptReleaseContext
 title: CryptReleaseContext function (wincrypt.h)
-description: Releases the handle of a cryptographic service provider (CSP) and a key container.helpviewer_keywords: ["CryptReleaseContext","CryptReleaseContext function [Security]","_crypto2_cryptreleasecontext","security.cryptreleasecontext","wincrypt/CryptReleaseContext"]
+description: Releases the handle of a cryptographic service provider (CSP) and a key container.
+helpviewer_keywords: ["CryptReleaseContext","CryptReleaseContext function [Security]","_crypto2_cryptreleasecontext","security.cryptreleasecontext","wincrypt/CryptReleaseContext"]
 old-location: security\cryptreleasecontext.htm
 tech.root: SecCrypto
 ms.assetid: c1e3e708-b543-4e87-8638-a9946a83e614

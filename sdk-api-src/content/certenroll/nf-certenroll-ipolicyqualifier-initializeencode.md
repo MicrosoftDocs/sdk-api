@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IPolicyQualifier.InitializeEncode
 title: IPolicyQualifier::InitializeEncode (certenroll.h)
-description: Initializes the object from a string and a value that identifies the qualifier type.helpviewer_keywords: ["IPolicyQualifier interface [Security]","InitializeEncode method","IPolicyQualifier.InitializeEncode","IPolicyQualifier::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IPolicyQualifier interface","PolicyQualifierTypeUnknown","PolicyQualifierTypeUrl","PolicyQualifierTypeUserNotice","certenroll/IPolicyQualifier::InitializeEncode","security.ipolicyqualifier_initializeencode_method"]
+description: Initializes the object from a string and a value that identifies the qualifier type.
+helpviewer_keywords: ["IPolicyQualifier interface [Security]","InitializeEncode method","IPolicyQualifier.InitializeEncode","IPolicyQualifier::InitializeEncode","InitializeEncode","InitializeEncode method [Security]","InitializeEncode method [Security]","IPolicyQualifier interface","PolicyQualifierTypeUnknown","PolicyQualifierTypeUrl","PolicyQualifierTypeUserNotice","certenroll/IPolicyQualifier::InitializeEncode","security.ipolicyqualifier_initializeencode_method"]
 old-location: security\ipolicyqualifier_initializeencode_method.htm
 tech.root: seccertenroll
 ms.assetid: fc8b5916-0557-4f9b-8478-169a3dd9cebc

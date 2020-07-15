@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMColorProfileResourceCollection.Append
 title: IXpsOMColorProfileResourceCollection::Append (xpsobjectmodel.h)
-description: Appends an IXpsOMColorProfileResource interface pointer to the end of the collection.helpviewer_keywords: ["Append","Append method [XPS Documents and Packaging]","Append method [XPS Documents and Packaging]","IXpsOMColorProfileResourceCollection interface","IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","Append method","IXpsOMColorProfileResourceCollection.Append","IXpsOMColorProfileResourceCollection::Append","xps.ixpsomcolorprofileresourcecollection_append","xpsobjectmodel/IXpsOMColorProfileResourceCollection::Append"]
+description: Appends an IXpsOMColorProfileResource interface pointer to the end of the collection.
+helpviewer_keywords: ["Append","Append method [XPS Documents and Packaging]","Append method [XPS Documents and Packaging]","IXpsOMColorProfileResourceCollection interface","IXpsOMColorProfileResourceCollection interface [XPS Documents and Packaging]","Append method","IXpsOMColorProfileResourceCollection.Append","IXpsOMColorProfileResourceCollection::Append","xps.ixpsomcolorprofileresourcecollection_append","xpsobjectmodel/IXpsOMColorProfileResourceCollection::Append"]
 old-location: xps\ixpsomcolorprofileresourcecollection_append.htm
 tech.root: printdocs
 ms.assetid: 6aa00a6d-59f2-41d9-8a11-0810ac336d4b

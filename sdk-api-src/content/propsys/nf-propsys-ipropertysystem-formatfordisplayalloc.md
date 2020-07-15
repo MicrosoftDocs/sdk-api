@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertySystem.FormatForDisplayAlloc
 title: IPropertySystem::FormatForDisplayAlloc (propsys.h)
-description: Gets a string representation of a property value to an allocated memory buffer.helpviewer_keywords: ["FormatForDisplayAlloc","FormatForDisplayAlloc method [Windows Properties]","FormatForDisplayAlloc method [Windows Properties]","IPropertySystem interface","IPropertySystem interface [Windows Properties]","FormatForDisplayAlloc method","IPropertySystem.FormatForDisplayAlloc","IPropertySystem::FormatForDisplayAlloc","properties.IPropertySystem_FormatForDisplayAlloc","propsys/IPropertySystem::FormatForDisplayAlloc","shell.IPropertySystem_FormatForDisplayAlloc","shell_IPropertySystem_FormatForDisplayAlloc"]
+description: Gets a string representation of a property value to an allocated memory buffer.
+helpviewer_keywords: ["FormatForDisplayAlloc","FormatForDisplayAlloc method [Windows Properties]","FormatForDisplayAlloc method [Windows Properties]","IPropertySystem interface","IPropertySystem interface [Windows Properties]","FormatForDisplayAlloc method","IPropertySystem.FormatForDisplayAlloc","IPropertySystem::FormatForDisplayAlloc","properties.IPropertySystem_FormatForDisplayAlloc","propsys/IPropertySystem::FormatForDisplayAlloc","shell.IPropertySystem_FormatForDisplayAlloc","shell_IPropertySystem_FormatForDisplayAlloc"]
 old-location: properties\IPropertySystem_FormatForDisplayAlloc.htm
 tech.root: properties
 ms.assetid: 8e62855a-6d2c-45fa-b7bc-01270126b969

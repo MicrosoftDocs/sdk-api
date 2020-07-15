@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHRegSetPathA
 title: SHRegSetPathA function (shlwapi.h)
-description: Takes a file path, replaces folder names with environment strings, and places the resulting string in the registry.helpviewer_keywords: ["SHRegSetPath","SHRegSetPath function [Windows Shell]","SHRegSetPathA","SHRegSetPathW","_win32_SHRegSetPath","shell.SHRegSetPath","shlwapi/SHRegSetPath","shlwapi/SHRegSetPathA","shlwapi/SHRegSetPathW"]
+description: Takes a file path, replaces folder names with environment strings, and places the resulting string in the registry.
+helpviewer_keywords: ["SHRegSetPath","SHRegSetPath function [Windows Shell]","SHRegSetPathA","SHRegSetPathW","_win32_SHRegSetPath","shell.SHRegSetPath","shlwapi/SHRegSetPath","shlwapi/SHRegSetPathA","shlwapi/SHRegSetPathW"]
 old-location: shell\SHRegSetPath.htm
 tech.root: shell
 ms.assetid: 3ee6ec69-5d16-4bdd-a591-651af05bf944
@@ -156,4 +157,8 @@ The following folder paths will be replaced by their equivalent environment stri
 The environment variables listed in the above table might not all be set on any particular system. If an environment variable is not set, it will not be unexpanded. In particular, none of these variables are set for the default environment of Windows 95 or Windows 98. The %ProgramFiles% variable is new for Windows 2000, and will typically not be set on Microsoft Windows NT 4.0 systems.
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines SHRegSetPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

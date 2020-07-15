@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.ExtractAssociatedIconA
 title: ExtractAssociatedIconA function (shellapi.h)
-description: Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file.helpviewer_keywords: ["ExtractAssociatedIcon","ExtractAssociatedIcon function [Windows Shell]","ExtractAssociatedIconA","ExtractAssociatedIconW","_shell_ExtractAssociatedIcon","shell.ExtractAssociatedIcon","shellapi/ExtractAssociatedIcon","shellapi/ExtractAssociatedIconA","shellapi/ExtractAssociatedIconW"]
+description: Gets a handle to an icon stored as a resource in a file or an icon stored in a file's associated executable file.
+helpviewer_keywords: ["ExtractAssociatedIcon","ExtractAssociatedIcon function [Windows Shell]","ExtractAssociatedIconA","ExtractAssociatedIconW","_shell_ExtractAssociatedIcon","shell.ExtractAssociatedIcon","shellapi/ExtractAssociatedIcon","shellapi/ExtractAssociatedIconA","shellapi/ExtractAssociatedIconW"]
 old-location: shell\ExtractAssociatedIcon.htm
 tech.root: shell
 ms.assetid: 157ce603-9988-4cae-a2cd-51db290268c3
@@ -115,6 +116,10 @@ The <b>ExtractAssociatedIcon</b> function first looks for the indexed icon in th
 
 
 
+
+
+> [!NOTE]
+> The shellapi.h header defines ExtractAssociatedIcon as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

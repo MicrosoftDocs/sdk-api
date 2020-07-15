@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmProviderContextDestroyEnumHandle0
 title: FwpmProviderContextDestroyEnumHandle0 function (fwpmu.h)
-description: Frees a handle returned by FwpmProviderContextCreateEnumHandle0.helpviewer_keywords: ["FwpmProviderContextDestroyEnumHandle0","FwpmProviderContextDestroyEnumHandle0 function [Filtering]","fwp.fwpmprovidercontextdestroyenumhandle0_func","fwpmu/FwpmProviderContextDestroyEnumHandle0"]
+description: Frees a handle returned by FwpmProviderContextCreateEnumHandle0.
+helpviewer_keywords: ["FwpmProviderContextDestroyEnumHandle0","FwpmProviderContextDestroyEnumHandle0 function [Filtering]","fwp.fwpmprovidercontextdestroyenumhandle0_func","fwpmu/FwpmProviderContextDestroyEnumHandle0"]
 old-location: fwp\fwpmprovidercontextdestroyenumhandle0_func.htm
 tech.root: fwp
 ms.assetid: 85ec36f8-c6e0-4dcf-aad2-15d61aa6bd64

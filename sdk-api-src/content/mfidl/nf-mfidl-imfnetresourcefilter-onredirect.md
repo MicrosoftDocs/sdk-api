@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFNetResourceFilter.OnRedirect
 title: IMFNetResourceFilter::OnRedirect (mfidl.h)
-description: Called when the byte stream redirects to a URL.helpviewer_keywords: ["IMFNetResourceFilter interface [Media Foundation]","OnRedirect method","IMFNetResourceFilter.OnRedirect","IMFNetResourceFilter::OnRedirect","OnRedirect","OnRedirect method [Media Foundation]","OnRedirect method [Media Foundation]","IMFNetResourceFilter interface","mf.imfnetresourcefilter_onredirect","mfidl/IMFNetResourceFilter::OnRedirect"]
+description: Called when the byte stream redirects to a URL.
+helpviewer_keywords: ["IMFNetResourceFilter interface [Media Foundation]","OnRedirect method","IMFNetResourceFilter.OnRedirect","IMFNetResourceFilter::OnRedirect","OnRedirect","OnRedirect method [Media Foundation]","OnRedirect method [Media Foundation]","IMFNetResourceFilter interface","mf.imfnetresourcefilter_onredirect","mfidl/IMFNetResourceFilter::OnRedirect"]
 old-location: mf\imfnetresourcefilter_onredirect.htm
 tech.root: medfound
 ms.assetid: 418EA3E0-9732-43B7-BF80-A85ECB7A9485

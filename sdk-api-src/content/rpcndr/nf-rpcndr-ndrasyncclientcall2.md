@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrAsyncClientCall2
 title: NdrAsyncClientCall2 function (rpcndr.h)
-description: NdrAsyncClientCall2 may be altered or unavailable.helpviewer_keywords: ["NdrAsyncClientCall2","NdrAsyncClientCall2 function [RPC]","rpc.ndrasyncclientcall2","rpcndr/NdrAsyncClientCall2"]
+description: NdrAsyncClientCall2 may be altered or unavailable.
+helpviewer_keywords: ["NdrAsyncClientCall2","NdrAsyncClientCall2 function [RPC]","rpc.ndrasyncclientcall2","rpcndr/NdrAsyncClientCall2"]
 old-location: rpc\ndrasyncclientcall2.htm
 tech.root: Rpc
 ms.assetid: 0EBBE464-14D9-4A44-ADD4-1250FDBC02F1

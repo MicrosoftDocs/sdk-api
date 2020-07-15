@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IEnumWorkItems.Clone
 title: IEnumWorkItems::Clone (mstask.h)
-description: Creates a new enumeration object that contains the same enumeration state as the current enumeration.helpviewer_keywords: ["Clone","Clone method [Task Scheduler]","Clone method [Task Scheduler]","IEnumWorkItems interface","IEnumWorkItems interface [Task Scheduler]","Clone method","IEnumWorkItems.Clone","IEnumWorkItems::Clone","_msb_ienumworkitems_clone","mstask/IEnumWorkItems::Clone","taskschd.ienumworkitems_clone"]
+description: Creates a new enumeration object that contains the same enumeration state as the current enumeration.
+helpviewer_keywords: ["Clone","Clone method [Task Scheduler]","Clone method [Task Scheduler]","IEnumWorkItems interface","IEnumWorkItems interface [Task Scheduler]","Clone method","IEnumWorkItems.Clone","IEnumWorkItems::Clone","_msb_ienumworkitems_clone","mstask/IEnumWorkItems::Clone","taskschd.ienumworkitems_clone"]
 old-location: taskschd\ienumworkitems_clone.htm
 tech.root: taskschd
 ms.assetid: c42550df-33ad-49cc-ab89-5f952cce2a83

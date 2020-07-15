@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodec.IWICImageEncoder.WriteThumbnail
 title: IWICImageEncoder::WriteThumbnail (wincodec.h)
-description: Encodes the given image as the thumbnail to the given WIC bitmap encoder.helpviewer_keywords: ["IWICImageEncoder interface [Windows Imaging Component]","WriteThumbnail method","IWICImageEncoder.WriteThumbnail","IWICImageEncoder::WriteThumbnail","WriteThumbnail","WriteThumbnail method [Windows Imaging Component]","WriteThumbnail method [Windows Imaging Component]","IWICImageEncoder interface","wic.iwicimageencoder_writethumbnail","wincodec/IWICImageEncoder::WriteThumbnail"]
+description: Encodes the given image as the thumbnail to the given WIC bitmap encoder.
+helpviewer_keywords: ["IWICImageEncoder interface [Windows Imaging Component]","WriteThumbnail method","IWICImageEncoder.WriteThumbnail","IWICImageEncoder::WriteThumbnail","WriteThumbnail","WriteThumbnail method [Windows Imaging Component]","WriteThumbnail method [Windows Imaging Component]","IWICImageEncoder interface","wic.iwicimageencoder_writethumbnail","wincodec/IWICImageEncoder::WriteThumbnail"]
 old-location: wic\iwicimageencoder_writethumbnail.htm
 tech.root: wic
 ms.assetid: 322AD13D-E755-45BD-A31D-D603DBD7FA81

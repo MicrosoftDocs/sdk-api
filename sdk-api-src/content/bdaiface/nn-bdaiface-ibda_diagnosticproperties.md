@@ -1,7 +1,8 @@
 ---
 UID: NN:bdaiface.IBDA_DiagnosticProperties
 title: IBDA_DiagnosticProperties (bdaiface.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["IBDA_DiagnosticProperties","IBDA_DiagnosticProperties interface [Microsoft TV Technologies]","IBDA_DiagnosticProperties interface [Microsoft TV Technologies]","described","IBDA_DiagnosticPropertiesInterface","bdaiface/IBDA_DiagnosticProperties","mstv.ibda_diagnosticproperties"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["IBDA_DiagnosticProperties","IBDA_DiagnosticProperties interface [Microsoft TV Technologies]","IBDA_DiagnosticProperties interface [Microsoft TV Technologies]","described","IBDA_DiagnosticPropertiesInterface","bdaiface/IBDA_DiagnosticProperties","mstv.ibda_diagnosticproperties"]
 old-location: mstv\ibda_diagnosticproperties.htm
 tech.root: mstv
 ms.assetid: fde1153d-8598-4738-bc71-dbee3b17fb84

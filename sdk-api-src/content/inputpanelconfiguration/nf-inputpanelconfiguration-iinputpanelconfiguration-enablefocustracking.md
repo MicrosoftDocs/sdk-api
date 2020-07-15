@@ -1,7 +1,8 @@
 ---
 UID: NF:inputpanelconfiguration.IInputPanelConfiguration.EnableFocusTracking
 title: IInputPanelConfiguration::EnableFocusTracking (inputpanelconfiguration.h)
-description: Enables a client process to opt-in to the focus tracking mechanism for Windows Store apps that controls the invoking and dismissing semantics of the touch keyboard.helpviewer_keywords: ["EnableFocusTracking","EnableFocusTracking method [Windows Shell]","EnableFocusTracking method [Windows Shell]","IInputPanelConfiguration interface","IInputPanelConfiguration interface [Windows Shell]","EnableFocusTracking method","IInputPanelConfiguration.EnableFocusTracking","IInputPanelConfiguration::EnableFocusTracking","inputpanelconfiguration/IInputPanelConfiguration::EnableFocusTracking","shell.iinputpanelconfiguration_enablefocustracking"]
+description: Enables a client process to opt-in to the focus tracking mechanism for Windows Store apps that controls the invoking and dismissing semantics of the touch keyboard.
+helpviewer_keywords: ["EnableFocusTracking","EnableFocusTracking method [Windows Shell]","EnableFocusTracking method [Windows Shell]","IInputPanelConfiguration interface","IInputPanelConfiguration interface [Windows Shell]","EnableFocusTracking method","IInputPanelConfiguration.EnableFocusTracking","IInputPanelConfiguration::EnableFocusTracking","inputpanelconfiguration/IInputPanelConfiguration::EnableFocusTracking","shell.iinputpanelconfiguration_enablefocustracking"]
 old-location: shell\iinputpanelconfiguration_enablefocustracking.htm
 tech.root: shell
 ms.assetid: C20962EF-DB24-43EE-ADA6-4550163F9F73

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITAddress2.DeviceSpecific
 title: ITAddress2::DeviceSpecific (tapi3if.h)
-description: The DeviceSpecific method enables service providers to provide access to features not offered by other TAPI functions.helpviewer_keywords: ["DeviceSpecific","DeviceSpecific method [TAPI 2.2]","DeviceSpecific method [TAPI 2.2]","ITAddress2 interface","ITAddress2 interface [TAPI 2.2]","DeviceSpecific method","ITAddress2.DeviceSpecific","ITAddress2::DeviceSpecific","_tapi3_itaddress2_devicespecific","tapi3.itaddress2_devicespecific","tapi3if/ITAddress2::DeviceSpecific"]
+description: The DeviceSpecific method enables service providers to provide access to features not offered by other TAPI functions.
+helpviewer_keywords: ["DeviceSpecific","DeviceSpecific method [TAPI 2.2]","DeviceSpecific method [TAPI 2.2]","ITAddress2 interface","ITAddress2 interface [TAPI 2.2]","DeviceSpecific method","ITAddress2.DeviceSpecific","ITAddress2::DeviceSpecific","_tapi3_itaddress2_devicespecific","tapi3.itaddress2_devicespecific","tapi3if/ITAddress2::DeviceSpecific"]
 old-location: tapi3\itaddress2_devicespecific.htm
 tech.root: Tapi
 ms.assetid: d3b9e04d-ec20-4e30-847f-eb77f426f0f3

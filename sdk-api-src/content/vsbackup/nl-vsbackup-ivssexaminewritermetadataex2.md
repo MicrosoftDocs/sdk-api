@@ -1,7 +1,8 @@
 ---
 UID: NL:vsbackup.IVssExamineWriterMetadataEx2
 title: IVssExamineWriterMetadataEx2 (vsbackup.h)
-description: Defines methods to retrieve version information and other basic information for a specific writer instance.helpviewer_keywords: ["IVssExamineWriterMetadataEx2","IVssExamineWriterMetadataEx2 interface","IVssExamineWriterMetadataEx2 interface","described","base.ivssexaminewritermetadataex2","vsbackup/IVssExamineWriterMetadataEx2"]
+description: Defines methods to retrieve version information and other basic information for a specific writer instance.
+helpviewer_keywords: ["IVssExamineWriterMetadataEx2","IVssExamineWriterMetadataEx2 interface","IVssExamineWriterMetadataEx2 interface","described","base.ivssexaminewritermetadataex2","vsbackup/IVssExamineWriterMetadataEx2"]
 old-location: base\ivssexaminewritermetadataex2.htm
 tech.root: VSS
 ms.assetid: 1ef5a83c-8f63-4884-8b70-a8241ba4857b

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITPhone.put_RingVolume
 title: ITPhone::put_RingVolume (tapi3if.h)
-description: The put_RingVolume method requests that the phone change its ring volume.helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","put_RingVolume method","ITPhone.put_RingVolume","ITPhone::put_RingVolume","_tapi3_itphone_put_ringvolume","put_RingVolume","put_RingVolume method [TAPI 2.2]","put_RingVolume method [TAPI 2.2]","ITPhone interface","tapi3.itphone_put_ringvolume","tapi3if/ITPhone::put_RingVolume"]
+description: The put_RingVolume method requests that the phone change its ring volume.
+helpviewer_keywords: ["ITPhone interface [TAPI 2.2]","put_RingVolume method","ITPhone.put_RingVolume","ITPhone::put_RingVolume","_tapi3_itphone_put_ringvolume","put_RingVolume","put_RingVolume method [TAPI 2.2]","put_RingVolume method [TAPI 2.2]","ITPhone interface","tapi3.itphone_put_ringvolume","tapi3if/ITPhone::put_RingVolume"]
 old-location: tapi3\itphone_put_ringvolume.htm
 tech.root: Tapi
 ms.assetid: 858ca6a8-a53b-4858-b4b0-985230ec8ea0

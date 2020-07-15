@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_GuideDataDeliveryService.GetGuideDataType
 title: IBDA_GuideDataDeliveryService::GetGuideDataType (bdaiface.h)
-description: Gets the format UUID for the data that is retrieved on this service.helpviewer_keywords: ["CLSID_PBDA_GDDS_DATA_TYPE","GetGuideDataType","GetGuideDataType method [Microsoft TV Technologies]","GetGuideDataType method [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","GetGuideDataType method","IBDA_GuideDataDeliveryService.GetGuideDataType","IBDA_GuideDataDeliveryService::GetGuideDataType","bdaiface/IBDA_GuideDataDeliveryService::GetGuideDataType","mstv.ibda_guidedatadeliveryservice_getguidedatatype"]
+description: Gets the format UUID for the data that is retrieved on this service.
+helpviewer_keywords: ["CLSID_PBDA_GDDS_DATA_TYPE","GetGuideDataType","GetGuideDataType method [Microsoft TV Technologies]","GetGuideDataType method [Microsoft TV Technologies]","IBDA_GuideDataDeliveryService interface","IBDA_GuideDataDeliveryService interface [Microsoft TV Technologies]","GetGuideDataType method","IBDA_GuideDataDeliveryService.GetGuideDataType","IBDA_GuideDataDeliveryService::GetGuideDataType","bdaiface/IBDA_GuideDataDeliveryService::GetGuideDataType","mstv.ibda_guidedatadeliveryservice_getguidedatatype"]
 old-location: mstv\ibda_guidedatadeliveryservice_getguidedatatype.htm
 tech.root: mstv
 ms.assetid: 74370ba8-2104-41f9-aa02-02b6790236da

@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkPicture.GetEventInterest
 title: IInkPicture::GetEventInterest (msinkaut.h)
-description: Retrieves the interest an object has in a particular event for the InkCollector class, InkOverlay class, or InkPicture class.helpviewer_keywords: ["532a798e-b434-4730-8c20-7ec60255f170","GetEventInterest","GetEventInterest method [Tablet PC]","GetEventInterest method [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","GetEventInterest method","IInkPicture.GetEventInterest","IInkPicture::GetEventInterest","msinkaut/IInkPicture::GetEventInterest","tablet.inkpicture_geteventinterest"]
+description: Retrieves the interest an object has in a particular event for the InkCollector class, InkOverlay class, or InkPicture class.
+helpviewer_keywords: ["532a798e-b434-4730-8c20-7ec60255f170","GetEventInterest","GetEventInterest method [Tablet PC]","GetEventInterest method [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","GetEventInterest method","IInkPicture.GetEventInterest","IInkPicture::GetEventInterest","msinkaut/IInkPicture::GetEventInterest","tablet.inkpicture_geteventinterest"]
 old-location: tablet\inkpicture_geteventinterest.htm
 tech.root: tablet
 ms.assetid: e025a118-acf1-4b52-ace9-85a3a5a558fa

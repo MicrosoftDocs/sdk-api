@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDraw7.EnumSurfaces
 title: IDirectDraw7::EnumSurfaces (ddraw.h)
-description: Enumerates all the existing or possible surfaces that meet the specified surface description.helpviewer_keywords: ["DDENUMSURFACES_ALL","DDENUMSURFACES_CANBECREATED","DDENUMSURFACES_DOESEXIST","DDENUMSURFACES_MATCH","DDENUMSURFACES_NOMATCH","EnumSurfaces","EnumSurfaces method [DirectDraw]","EnumSurfaces method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","EnumSurfaces method","IDirectDraw7.EnumSurfaces","IDirectDraw7::EnumSurfaces","ddraw/IDirectDraw7::EnumSurfaces","directdraw.idirectdraw7_enumsurfaces"]
+description: Enumerates all the existing or possible surfaces that meet the specified surface description.
+helpviewer_keywords: ["DDENUMSURFACES_ALL","DDENUMSURFACES_CANBECREATED","DDENUMSURFACES_DOESEXIST","DDENUMSURFACES_MATCH","DDENUMSURFACES_NOMATCH","EnumSurfaces","EnumSurfaces method [DirectDraw]","EnumSurfaces method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","EnumSurfaces method","IDirectDraw7.EnumSurfaces","IDirectDraw7::EnumSurfaces","ddraw/IDirectDraw7::EnumSurfaces","directdraw.idirectdraw7_enumsurfaces"]
 old-location: directdraw\idirectdraw7_enumsurfaces.htm
 tech.root: directdraw
 ms.assetid: d97135f3-9921-4e0c-b5ba-e4f709a5e32d

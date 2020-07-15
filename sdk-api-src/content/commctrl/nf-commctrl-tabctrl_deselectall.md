@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.TabCtrl_DeselectAll
 title: TabCtrl_DeselectAll macro (commctrl.h)
-description: Resets items in a tab control, clearing any that were set to the TCIS_BUTTONPRESSED state. You can use this macro or send the TCM_DESELECTALL message explicitly.helpviewer_keywords: ["TabCtrl_DeselectAll","TabCtrl_DeselectAll macro [Windows Controls]","_win32_TabCtrl_DeselectAll","_win32_TabCtrl_DeselectAll_cpp","commctrl/TabCtrl_DeselectAll","controls.TabCtrl_DeselectAll","controls._win32_TabCtrl_DeselectAll"]
+description: Resets items in a tab control, clearing any that were set to the TCIS_BUTTONPRESSED state. You can use this macro or send the TCM_DESELECTALL message explicitly.
+helpviewer_keywords: ["TabCtrl_DeselectAll","TabCtrl_DeselectAll macro [Windows Controls]","_win32_TabCtrl_DeselectAll","_win32_TabCtrl_DeselectAll_cpp","commctrl/TabCtrl_DeselectAll","controls.TabCtrl_DeselectAll","controls._win32_TabCtrl_DeselectAll"]
 old-location: controls\TabCtrl_DeselectAll.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\tab\macros\tabctrl_deselectall.htm

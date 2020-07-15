@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RTM_IPV4_LEN_FROM_MASK
 title: RTM_IPV4_LEN_FROM_MASK macro (rtmv2.h)
-description: The RTM_IPV4_LEN_FROM_MASK macro converts an IPv4 mask to a generic route length.helpviewer_keywords: ["RTM_IPV4_LEN_FROM_MASK","RTM_IPV4_LEN_FROM_MASK macro [RAS]","_rtmv2ref_rtm_ipv4_len_from_mask","rras.rtm_ipv4_len_from_mask","rtmv2/RTM_IPV4_LEN_FROM_MASK"]
+description: The RTM_IPV4_LEN_FROM_MASK macro converts an IPv4 mask to a generic route length.
+helpviewer_keywords: ["RTM_IPV4_LEN_FROM_MASK","RTM_IPV4_LEN_FROM_MASK macro [RAS]","_rtmv2ref_rtm_ipv4_len_from_mask","rras.rtm_ipv4_len_from_mask","rtmv2/RTM_IPV4_LEN_FROM_MASK"]
 old-location: rras\rtm_ipv4_len_from_mask.htm
 tech.root: RRAS
 ms.assetid: fdbc2030-3917-4920-848e-76b5d1dfcfef

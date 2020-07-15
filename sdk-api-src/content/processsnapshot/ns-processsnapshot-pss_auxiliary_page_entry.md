@@ -1,7 +1,8 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_8
 title: PSS_AUXILIARY_PAGE_ENTRY (processsnapshot.h)
-description: Holds auxiliary page entry information returned by PssWalkSnapshot.helpviewer_keywords: ["PSS_AUXILIARY_PAGE_ENTRY","PSS_AUXILIARY_PAGE_ENTRY structure","proc_snap.pss_auxiliary_page_entry","processsnapshot/PSS_AUXILIARY_PAGE_ENTRY"]
+description: Holds auxiliary page entry information returned by PssWalkSnapshot.
+helpviewer_keywords: ["PSS_AUXILIARY_PAGE_ENTRY","PSS_AUXILIARY_PAGE_ENTRY structure","proc_snap.pss_auxiliary_page_entry","processsnapshot/PSS_AUXILIARY_PAGE_ENTRY"]
 old-location: proc_snap\pss_auxiliary_page_entry.htm
 tech.root: proc_snap
 ms.assetid: A3D948E6-6FFE-4732-A8C7-A292FDA07D7C

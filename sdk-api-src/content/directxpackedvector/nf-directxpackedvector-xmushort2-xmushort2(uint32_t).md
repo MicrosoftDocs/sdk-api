@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMUSHORT2.XMUSHORT2(uint32_t)
 title: XMUSHORT2::XMUSHORT2(uint32_t) (directxpackedvector.h)
-description: A constructor for XMUSHORT2.helpviewer_keywords: ["XMUSHORT2","XMUSHORT2 constructor [DirectX Math Support APIs]","XMUSHORT2 constructor [DirectX Math Support APIs]","XMUSHORT2 structure","XMUSHORT2 structure [DirectX Math Support APIs]","XMUSHORT2 constructor","XMUSHORT2.XMUSHORT2","XMUSHORT2.XMUSHORT2()","XMUSHORT2.XMUSHORT2(uint32_t)","XMUSHORT2::XMUSHORT2","XMUSHORT2::XMUSHORT2(uint32_t)","dxmath.xmushort2_ctor_1"]
+description: A constructor for XMUSHORT2.
+helpviewer_keywords: ["XMUSHORT2","XMUSHORT2 constructor [DirectX Math Support APIs]","XMUSHORT2 constructor [DirectX Math Support APIs]","XMUSHORT2 structure","XMUSHORT2 structure [DirectX Math Support APIs]","XMUSHORT2 constructor","XMUSHORT2.XMUSHORT2","XMUSHORT2.XMUSHORT2()","XMUSHORT2.XMUSHORT2(uint32_t)","XMUSHORT2::XMUSHORT2","XMUSHORT2::XMUSHORT2(uint32_t)","dxmath.xmushort2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 

@@ -1,7 +1,8 @@
 ---
 UID: NC:ntsecpkg.SpInstanceInitFn
 title: SpInstanceInitFn (ntsecpkg.h)
-description: Initializes user-mode security packages in an SSP/AP.helpviewer_keywords: ["SpInstanceInit","SpInstanceInit callback function [Security]","SpInstanceInitFn","SpInstanceInitFn callback","_ssp_spinstanceinit","ntsecpkg/SpInstanceInit","security.spinstanceinit"]
+description: Initializes user-mode security packages in an SSP/AP.
+helpviewer_keywords: ["SpInstanceInit","SpInstanceInit callback function [Security]","SpInstanceInitFn","SpInstanceInitFn callback","_ssp_spinstanceinit","ntsecpkg/SpInstanceInit","security.spinstanceinit"]
 old-location: security\spinstanceinit.htm
 tech.root: SecAuthN
 ms.assetid: 12f5903d-af13-40fd-8a23-2a28ffd9fc44

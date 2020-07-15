@@ -1,7 +1,8 @@
 ---
 UID: NN:iads.IADsHold
 title: IADsHold (iads.h)
-description: The IADsHold interface provides methods for an ADSI client to access the Hold attribute.helpviewer_keywords: ["Hold","IADsHold","IADsHold interface [ADSI]","IADsHold interface [ADSI]","described","_ds_iadshold","adsi.iadshold","iads/IADsHold"]
+description: The IADsHold interface provides methods for an ADSI client to access the Hold attribute.
+helpviewer_keywords: ["Hold","IADsHold","IADsHold interface [ADSI]","IADsHold interface [ADSI]","described","_ds_iadshold","adsi.iadshold","iads/IADsHold"]
 old-location: adsi\iadshold.htm
 tech.root: adsi
 ms.assetid: ccc22915-0f67-4089-9ddc-491b6f7ef554

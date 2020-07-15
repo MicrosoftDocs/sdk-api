@@ -1,7 +1,8 @@
 ---
 UID: NF:wpcapi.IWindowsParentalControlsCore.GetWebSettings
 title: IWindowsParentalControlsCore::GetWebSettings (wpcapi.h)
-description: Retrieves a pointer to an interface for web restrictions settings for the specified user.helpviewer_keywords: ["GetWebSettings","GetWebSettings method","GetWebSettings method","IWindowsParentalControlsCore interface","IWindowsParentalControlsCore interface","GetWebSettings method","IWindowsParentalControlsCore.GetWebSettings","IWindowsParentalControlsCore::GetWebSettings","parcon.iwindowsparentalcontrols_getwebsettings","wpcapi/IWindowsParentalControlsCore::GetWebSettings"]
+description: Retrieves a pointer to an interface for web restrictions settings for the specified user.
+helpviewer_keywords: ["GetWebSettings","GetWebSettings method","GetWebSettings method","IWindowsParentalControlsCore interface","IWindowsParentalControlsCore interface","GetWebSettings method","IWindowsParentalControlsCore.GetWebSettings","IWindowsParentalControlsCore::GetWebSettings","parcon.iwindowsparentalcontrols_getwebsettings","wpcapi/IWindowsParentalControlsCore::GetWebSettings"]
 old-location: parcon\iwindowsparentalcontrols_getwebsettings.htm
 tech.root: parcon
 ms.assetid: ed01e945-06e7-4d3d-8a23-066ef6e0b13c

@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.GetTextMetricsA
 title: GetTextMetricsA function (wingdi.h)
-description: The GetTextMetrics function fills the specified buffer with the metrics for the currently selected font.helpviewer_keywords: ["GetTextMetrics","GetTextMetrics function [Windows GDI]","GetTextMetricsA","GetTextMetricsW","_win32_GetTextMetrics","gdi.gettextmetrics","wingdi/GetTextMetrics","wingdi/GetTextMetricsA","wingdi/GetTextMetricsW"]
+description: The GetTextMetrics function fills the specified buffer with the metrics for the currently selected font.
+helpviewer_keywords: ["GetTextMetrics","GetTextMetrics function [Windows GDI]","GetTextMetricsA","GetTextMetricsW","_win32_GetTextMetrics","gdi.gettextmetrics","wingdi/GetTextMetrics","wingdi/GetTextMetricsA","wingdi/GetTextMetricsW"]
 old-location: gdi\gettextmetrics.htm
 tech.root: gdi
 ms.assetid: 92d45a3b-12df-42ff-8d87-5c27b44dc481
@@ -100,6 +101,10 @@ For an example, see "Displaying Keyboard Input" in <a href="https://docs.microso
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines GetTextMetrics as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

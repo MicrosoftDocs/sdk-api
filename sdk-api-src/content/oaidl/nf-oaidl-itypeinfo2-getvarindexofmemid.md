@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ITypeInfo2.GetVarIndexOfMemId
 title: ITypeInfo2::GetVarIndexOfMemId (oaidl.h)
-description: Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).helpviewer_keywords: ["GetVarIndexOfMemId","GetVarIndexOfMemId method [Automation]","GetVarIndexOfMemId method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetVarIndexOfMemId method","ITypeInfo2.GetVarIndexOfMemId","ITypeInfo2::GetVarIndexOfMemId","_oa96_ITypeInfo2_GetVarIndexOfMemId","automat.itypeinfo2_getvarindexofmemid","oaidl/ITypeInfo2::GetVarIndexOfMemId"]
+description: Binds to a specific member based on a known DISPID, where the member name is not known (for example, when binding to a default member).
+helpviewer_keywords: ["GetVarIndexOfMemId","GetVarIndexOfMemId method [Automation]","GetVarIndexOfMemId method [Automation]","ITypeInfo2 interface","ITypeInfo2 interface [Automation]","GetVarIndexOfMemId method","ITypeInfo2.GetVarIndexOfMemId","ITypeInfo2::GetVarIndexOfMemId","_oa96_ITypeInfo2_GetVarIndexOfMemId","automat.itypeinfo2_getvarindexofmemid","oaidl/ITypeInfo2::GetVarIndexOfMemId"]
 old-location: automat\itypeinfo2_getvarindexofmemid.htm
 tech.root: automat
 ms.assetid: 6b97ddbf-bcb3-4e39-a355-40c1fd4e8c6a

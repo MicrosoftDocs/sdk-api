@@ -1,7 +1,8 @@
 ---
 UID: NF:infotech.IITResultSet.Get
 title: IITResultSet::Get (infotech.h)
-description: Gets the property in the specified row and column and fills the given property object.helpviewer_keywords: ["Get","Get method [HTML Help Workshop]","Get method [HTML Help Workshop]","IITResultSet interface","IITResultSet interface [HTML Help Workshop]","Get method","IITResultSet.Get","IITResultSet::Get","htmlhelp.iitresultset_get","infotech/IITResultSet::Get","refIITResultSetGet"]
+description: Gets the property in the specified row and column and fills the given property object.
+helpviewer_keywords: ["Get","Get method [HTML Help Workshop]","Get method [HTML Help Workshop]","IITResultSet interface","IITResultSet interface [HTML Help Workshop]","Get method","IITResultSet.Get","IITResultSet::Get","htmlhelp.iitresultset_get","infotech/IITResultSet::Get","refIITResultSetGet"]
 old-location: htmlhelp\iitresultset_get.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitresultsetget.htm

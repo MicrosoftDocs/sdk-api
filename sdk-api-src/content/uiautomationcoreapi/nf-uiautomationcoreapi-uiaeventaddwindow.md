@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.UiaEventAddWindow
 title: UiaEventAddWindow function (uiautomationcoreapi.h)
-description: Adds a window to the event listener.helpviewer_keywords: ["UiaEventAddWindow","UiaEventAddWindow function [Windows Accessibility]","uiauto.uiauto_UiaEventAddWindowFunction","uiauto_UiaEventAddWindowFunction","uiautomationcoreapi/UiaEventAddWindow","winauto.uiauto_UiaEventAddWindowFunction"]
+description: Adds a window to the event listener.
+helpviewer_keywords: ["UiaEventAddWindow","UiaEventAddWindow function [Windows Accessibility]","uiauto.uiauto_UiaEventAddWindowFunction","uiauto_UiaEventAddWindowFunction","uiautomationcoreapi/UiaEventAddWindow","winauto.uiauto_UiaEventAddWindowFunction"]
 old-location: winauto\uiauto_UiaEventAddWindowFunction.htm
 tech.root: WinAuto
 ms.assetid: 1044dbe0-1b66-41f4-916d-eb23c0a0c92b

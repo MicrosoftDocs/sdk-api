@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMDeviceRegistration.GetFirstRegisteredDevice
 title: IWMDeviceRegistration::GetFirstRegisteredDevice (wmsdkidl.h)
-description: The GetFirstRegisteredDevice method retrieves information about the first device of a specified type that is in the device registration database.helpviewer_keywords: ["GetFirstRegisteredDevice","GetFirstRegisteredDevice method [windows Media Format]","GetFirstRegisteredDevice method [windows Media Format]","IWMDeviceRegistration interface","IWMDeviceRegistration interface [windows Media Format]","GetFirstRegisteredDevice method","IWMDeviceRegistration.GetFirstRegisteredDevice","IWMDeviceRegistration::GetFirstRegisteredDevice","IWMDeviceRegistrationGetFirstRegisteredDevice","wmformat.iwmdeviceregistration_getfirstregistereddevice","wmsdkidl/IWMDeviceRegistration::GetFirstRegisteredDevice"]
+description: The GetFirstRegisteredDevice method retrieves information about the first device of a specified type that is in the device registration database.
+helpviewer_keywords: ["GetFirstRegisteredDevice","GetFirstRegisteredDevice method [windows Media Format]","GetFirstRegisteredDevice method [windows Media Format]","IWMDeviceRegistration interface","IWMDeviceRegistration interface [windows Media Format]","GetFirstRegisteredDevice method","IWMDeviceRegistration.GetFirstRegisteredDevice","IWMDeviceRegistration::GetFirstRegisteredDevice","IWMDeviceRegistrationGetFirstRegisteredDevice","wmformat.iwmdeviceregistration_getfirstregistereddevice","wmsdkidl/IWMDeviceRegistration::GetFirstRegisteredDevice"]
 old-location: wmformat\iwmdeviceregistration_getfirstregistereddevice.htm
 tech.root: wmformat
 ms.assetid: a11249f5-0604-4de7-9dd2-152d570183c3

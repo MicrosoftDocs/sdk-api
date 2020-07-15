@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationCacheRequest
 title: IUIAutomationCacheRequest (uiautomationclient.h)
-description: Exposes properties and methods of a cache request. Client applications use this interface to specify the properties and control patterns to be cached when a Microsoft UI Automation element is obtained.helpviewer_keywords: ["IUIAutomationCacheRequest","IUIAutomationCacheRequest interface [Windows Accessibility]","IUIAutomationCacheRequest interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationCacheRequest","uiauto_IUIAutomationCacheRequest","uiautomationclient/IUIAutomationCacheRequest","winauto.uiauto_IUIAutomationCacheRequest"]
+description: Exposes properties and methods of a cache request. Client applications use this interface to specify the properties and control patterns to be cached when a Microsoft UI Automation element is obtained.
+helpviewer_keywords: ["IUIAutomationCacheRequest","IUIAutomationCacheRequest interface [Windows Accessibility]","IUIAutomationCacheRequest interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationCacheRequest","uiauto_IUIAutomationCacheRequest","uiautomationclient/IUIAutomationCacheRequest","winauto.uiauto_IUIAutomationCacheRequest"]
 old-location: winauto\uiauto_IUIAutomationCacheRequest.htm
 tech.root: WinAuto
 ms.assetid: 8e5d7f6e-c4c7-4bb9-ba33-959e098ecd41

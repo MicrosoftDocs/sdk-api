@@ -1,7 +1,8 @@
 ---
 UID: NN:audiopolicy.IAudioSessionManager2
 title: IAudioSessionManager2 (audiopolicy.h)
-description: The IAudioSessionManager2 interface enables an application to manage submixes for the audio device.helpviewer_keywords: ["IAudioSessionManager2","IAudioSessionManager2 interface [Core Audio]","IAudioSessionManager2 interface [Core Audio]","described","audiopolicy/IAudioSessionManager2","coreaudio.iaudiosessionmanager2"]
+description: The IAudioSessionManager2 interface enables an application to manage submixes for the audio device.
+helpviewer_keywords: ["IAudioSessionManager2","IAudioSessionManager2 interface [Core Audio]","IAudioSessionManager2 interface [Core Audio]","described","audiopolicy/IAudioSessionManager2","coreaudio.iaudiosessionmanager2"]
 old-location: coreaudio\iaudiosessionmanager2.htm
 tech.root: CoreAudio
 ms.assetid: 476dac90-d0c4-499c-973e-33ea55546659

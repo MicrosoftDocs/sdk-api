@@ -1,7 +1,8 @@
 ---
 UID: NE:appmodel.PackagePathType
 title: PackagePathType
-description: Indicates the type of package folder to retrieve.helpviewer_keywords: ["PackagePathType"]
+description: Indicates the type of package folder to retrieve.
+helpviewer_keywords: ["PackagePathType"]
 tech.root: appxpkg
 ms.date: 01/31/19
 ms.keywords: PackagePathType

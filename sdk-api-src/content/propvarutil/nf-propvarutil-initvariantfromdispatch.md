@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.InitVariantFromDispatch
 title: InitVariantFromDispatch function (propvarutil.h)
-description: Initializes a VARIANT structure based on an instance of an IDispatch object.helpviewer_keywords: ["InitVariantFromDispatch","InitVariantFromDispatch function [Windows Properties]","_shell_InitVariantFromDispatch","properties.InitVariantFromDispatch","propvarutil/InitVariantFromDispatch","shell.InitVariantFromDispatch"]
+description: Initializes a VARIANT structure based on an instance of an IDispatch object.
+helpviewer_keywords: ["InitVariantFromDispatch","InitVariantFromDispatch function [Windows Properties]","_shell_InitVariantFromDispatch","properties.InitVariantFromDispatch","propvarutil/InitVariantFromDispatch","shell.InitVariantFromDispatch"]
 old-location: properties\InitVariantFromDispatch.htm
 tech.root: properties
 ms.assetid: d42c48b5-cfd9-4de8-b0aa-b108d242e2e9

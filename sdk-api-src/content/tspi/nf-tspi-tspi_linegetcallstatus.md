@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineGetCallStatus
 title: TSPI_lineGetCallStatus function (tspi.h)
-description: The TSPI_lineGetCallStatus function returns the current status of the specified call.helpviewer_keywords: ["TSPI_lineGetCallStatus","TSPI_lineGetCallStatus function [TAPI 2.2]","_tspi_tspi_linegetcallstatus","tspi.tspi_linegetcallstatus","tspi/TSPI_lineGetCallStatus"]
+description: The TSPI_lineGetCallStatus function returns the current status of the specified call.
+helpviewer_keywords: ["TSPI_lineGetCallStatus","TSPI_lineGetCallStatus function [TAPI 2.2]","_tspi_tspi_linegetcallstatus","tspi.tspi_linegetcallstatus","tspi/TSPI_lineGetCallStatus"]
 old-location: tspi\tspi_linegetcallstatus.htm
 tech.root: Tapi
 ms.assetid: 7124ef73-148f-41df-afd6-ebfa29d5cf1c

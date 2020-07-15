@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMReaderAdvanced5
 title: IWMReaderAdvanced5 (wmsdkidl.h)
-description: The IWMReaderAdvanced5 interface enables you to associate a player-hook callback interface with the reader object.An IWMReaderAdvanced5 interface exists for every reader object.helpviewer_keywords: ["IWMReaderAdvanced5","IWMReaderAdvanced5 interface [windows Media Format]","IWMReaderAdvanced5 interface [windows Media Format]","described","IWMReaderAdvanced5Interface","wmformat.iwmreaderadvanced5","wmsdkidl/IWMReaderAdvanced5"]
+description: The IWMReaderAdvanced5 interface enables you to associate a player-hook callback interface with the reader object.An IWMReaderAdvanced5 interface exists for every reader object.
+helpviewer_keywords: ["IWMReaderAdvanced5","IWMReaderAdvanced5 interface [windows Media Format]","IWMReaderAdvanced5 interface [windows Media Format]","described","IWMReaderAdvanced5Interface","wmformat.iwmreaderadvanced5","wmsdkidl/IWMReaderAdvanced5"]
 old-location: wmformat\iwmreaderadvanced5.htm
 tech.root: wmformat
 ms.assetid: 28d697d8-99b5-4968-a765-ba01b86914f6

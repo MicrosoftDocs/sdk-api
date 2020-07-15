@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstpdi.WdsTransportProviderCreateInstance
 title: WdsTransportProviderCreateInstance function (wdstpdi.h)
-description: Opens a new instance of a content provider.helpviewer_keywords: ["WdsTransportProviderCreateInstance","WdsTransportProviderCreateInstance callback","WdsTransportProviderCreateInstance callback function [Windows Deployment Services]","wds.wdstransportprovidercreateinstance","wdstpdi/WdsTransportProviderCreateInstance"]
+description: Opens a new instance of a content provider.
+helpviewer_keywords: ["WdsTransportProviderCreateInstance","WdsTransportProviderCreateInstance callback","WdsTransportProviderCreateInstance callback function [Windows Deployment Services]","wds.wdstransportprovidercreateinstance","wdstpdi/WdsTransportProviderCreateInstance"]
 old-location: wds\wdstransportprovidercreateinstance.htm
 tech.root: wds
 ms.assetid: 534ba680-e5d7-47e7-83ad-2b621feab99f

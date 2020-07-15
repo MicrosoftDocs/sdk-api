@@ -110,4 +110,3 @@ The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desk
 A <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> that specifies the realm of the client, if known. If the realm is not known, this member can be <b>NULL</b>.
 
 The <b>Buffer</b> member of the <a href="https://docs.microsoft.com/windows/desktop/api/subauth/ns-subauth-unicode_string">UNICODE_STRING</a> structure must point to memory that is contiguous to the <b>KERB_S4U_LOGON</b> structure.
-

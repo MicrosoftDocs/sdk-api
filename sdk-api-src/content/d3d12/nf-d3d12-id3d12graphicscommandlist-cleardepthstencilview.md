@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12GraphicsCommandList.ClearDepthStencilView
 title: ID3D12GraphicsCommandList::ClearDepthStencilView (d3d12.h)
-description: Clears the depth-stencil resource.helpviewer_keywords: ["ClearDepthStencilView","ClearDepthStencilView method","ClearDepthStencilView method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","ClearDepthStencilView method","ID3D12GraphicsCommandList.ClearDepthStencilView","ID3D12GraphicsCommandList::ClearDepthStencilView","d3d12/ID3D12GraphicsCommandList::ClearDepthStencilView","direct3d12.id3d12graphicscommandlist_cleardepthstencilview"]
+description: Clears the depth-stencil resource.
+helpviewer_keywords: ["ClearDepthStencilView","ClearDepthStencilView method","ClearDepthStencilView method","ID3D12GraphicsCommandList interface","ID3D12GraphicsCommandList interface","ClearDepthStencilView method","ID3D12GraphicsCommandList.ClearDepthStencilView","ID3D12GraphicsCommandList::ClearDepthStencilView","d3d12/ID3D12GraphicsCommandList::ClearDepthStencilView","direct3d12.id3d12graphicscommandlist_cleardepthstencilview"]
 old-location: direct3d12\id3d12graphicscommandlist_cleardepthstencilview.htm
 tech.root: direct3d12
 ms.assetid: EF56EA6C-00DB-4231-B67D-B99811F51246

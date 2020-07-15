@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPipelineModuleConnector.Bind
 title: IFsrmPipelineModuleConnector::Bind (fsrmpipeline.h)
-description: Binds the pipeline module implementation to the FSRM communication channel.helpviewer_keywords: ["Bind","Bind method [File Server Resource Manager]","Bind method [File Server Resource Manager]","FsrmPipelineModuleConnector class","Bind method [File Server Resource Manager]","IFsrmPipelineModuleConnector interface","FsrmPipelineModuleConnector class [File Server Resource Manager]","Bind method","IFsrmPipelineModuleConnector interface [File Server Resource Manager]","Bind method","IFsrmPipelineModuleConnector.Bind","IFsrmPipelineModuleConnector::Bind","fs.ifsrmpipelinemoduleconnector_bind","fsrm.ifsrmpipelinemoduleconnector_bind","fsrmpipeline/IFsrmPipelineModuleConnector::Bind"]
+description: Binds the pipeline module implementation to the FSRM communication channel.
+helpviewer_keywords: ["Bind","Bind method [File Server Resource Manager]","Bind method [File Server Resource Manager]","FsrmPipelineModuleConnector class","Bind method [File Server Resource Manager]","IFsrmPipelineModuleConnector interface","FsrmPipelineModuleConnector class [File Server Resource Manager]","Bind method","IFsrmPipelineModuleConnector interface [File Server Resource Manager]","Bind method","IFsrmPipelineModuleConnector.Bind","IFsrmPipelineModuleConnector::Bind","fs.ifsrmpipelinemoduleconnector_bind","fsrm.ifsrmpipelinemoduleconnector_bind","fsrmpipeline/IFsrmPipelineModuleConnector::Bind"]
 old-location: fsrm\ifsrmpipelinemoduleconnector_bind.htm
 tech.root: fsrm
 ms.assetid: 4ac8ecc7-a02e-46ce-ac95-35a7dd38e631

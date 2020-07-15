@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.ITSDT.RegisterForNextTable
 title: ITSDT::RegisterForNextTable (mpeg2psiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["ITSDT interface [Microsoft TV Technologies]","RegisterForNextTable method","ITSDT.RegisterForNextTable","ITSDT::RegisterForNextTable","ITSDTRegisterForNextTable","RegisterForNextTable","RegisterForNextTable method [Microsoft TV Technologies]","RegisterForNextTable method [Microsoft TV Technologies]","ITSDT interface","mpeg2psiparser/ITSDT::RegisterForNextTable","mstv.itsdt_registerfornexttable"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["ITSDT interface [Microsoft TV Technologies]","RegisterForNextTable method","ITSDT.RegisterForNextTable","ITSDT::RegisterForNextTable","ITSDTRegisterForNextTable","RegisterForNextTable","RegisterForNextTable method [Microsoft TV Technologies]","RegisterForNextTable method [Microsoft TV Technologies]","ITSDT interface","mpeg2psiparser/ITSDT::RegisterForNextTable","mstv.itsdt_registerfornexttable"]
 old-location: mstv\itsdt_registerfornexttable.htm
 tech.root: mstv
 ms.assetid: 36d597e2-0a65-48f3-8220-bb3481185af7

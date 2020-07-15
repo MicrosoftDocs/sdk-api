@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.IRawElementProviderFragment.SetFocus
 title: IRawElementProviderFragment::SetFocus (uiautomationcore.h)
-description: Sets the focus to this element.helpviewer_keywords: ["IRawElementProviderFragment interface [Windows Accessibility]","SetFocus method","IRawElementProviderFragment.SetFocus","IRawElementProviderFragment::SetFocus","SetFocus","SetFocus method [Windows Accessibility]","SetFocus method [Windows Accessibility]","IRawElementProviderFragment interface","uiauto.uiauto_IRawElementProviderFragment_SetFocus","uiauto_IRawElementProviderFragment_SetFocus","uiautomationcore/IRawElementProviderFragment::SetFocus","winauto.uiauto_IRawElementProviderFragment_SetFocus"]
+description: Sets the focus to this element.
+helpviewer_keywords: ["IRawElementProviderFragment interface [Windows Accessibility]","SetFocus method","IRawElementProviderFragment.SetFocus","IRawElementProviderFragment::SetFocus","SetFocus","SetFocus method [Windows Accessibility]","SetFocus method [Windows Accessibility]","IRawElementProviderFragment interface","uiauto.uiauto_IRawElementProviderFragment_SetFocus","uiauto_IRawElementProviderFragment_SetFocus","uiautomationcore/IRawElementProviderFragment::SetFocus","winauto.uiauto_IRawElementProviderFragment_SetFocus"]
 old-location: winauto\uiauto_IRawElementProviderFragment_SetFocus.htm
 tech.root: WinAuto
 ms.assetid: 343959bc-42d0-4289-b507-7da78cee28f2

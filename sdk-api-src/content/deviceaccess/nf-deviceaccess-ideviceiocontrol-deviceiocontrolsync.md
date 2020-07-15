@@ -1,7 +1,8 @@
 ---
 UID: NF:deviceaccess.IDeviceIoControl.DeviceIoControlSync
 title: IDeviceIoControl::DeviceIoControlSync (deviceaccess.h)
-description: The DeviceIoControlSync method sends a synchronous device input/output (I/O) control request to the device interface that the call to the CreateDeviceAccessInstance function specified.helpviewer_keywords: ["DeviceIoControlSync","DeviceIoControlSync method [Device Access Broker API]","DeviceIoControlSync method [Device Access Broker API]","IDeviceIoControl interface","IDeviceIoControl interface [Device Access Broker API]","DeviceIoControlSync method","IDeviceIoControl.DeviceIoControlSync","IDeviceIoControl::DeviceIoControlSync","deviceaccess.ideviceiocontrol_deviceiocontrolsync","deviceaccess/IDeviceIoControl::DeviceIoControlSync"]
+description: The DeviceIoControlSync method sends a synchronous device input/output (I/O) control request to the device interface that the call to the CreateDeviceAccessInstance function specified.
+helpviewer_keywords: ["DeviceIoControlSync","DeviceIoControlSync method [Device Access Broker API]","DeviceIoControlSync method [Device Access Broker API]","IDeviceIoControl interface","IDeviceIoControl interface [Device Access Broker API]","DeviceIoControlSync method","IDeviceIoControl.DeviceIoControlSync","IDeviceIoControl::DeviceIoControlSync","deviceaccess.ideviceiocontrol_deviceiocontrolsync","deviceaccess/IDeviceIoControl::DeviceIoControlSync"]
 old-location: deviceaccess\ideviceiocontrol_deviceiocontrolsync.htm
 tech.root: deviceaccess
 ms.assetid: 7b17ab14-e9bb-40be-a463-ca9031ba9bb3

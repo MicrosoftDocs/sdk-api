@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscFormat2Data.get_CurrentMediaStatus
 title: IDiscFormat2Data::get_CurrentMediaStatus (imapi2.h)
-description: Retrieves the current state of the media in the device.helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_CurrentMediaStatus method","IDiscFormat2Data.get_CurrentMediaStatus","IDiscFormat2Data::get_CurrentMediaStatus","get_CurrentMediaStatus","get_CurrentMediaStatus method [IMAPI]","get_CurrentMediaStatus method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_currentmediastatus","imapi2/IDiscFormat2Data::get_CurrentMediaStatus"]
+description: Retrieves the current state of the media in the device.
+helpviewer_keywords: ["IDiscFormat2Data interface [IMAPI]","get_CurrentMediaStatus method","IDiscFormat2Data.get_CurrentMediaStatus","IDiscFormat2Data::get_CurrentMediaStatus","get_CurrentMediaStatus","get_CurrentMediaStatus method [IMAPI]","get_CurrentMediaStatus method [IMAPI]","IDiscFormat2Data interface","imapi.idiscformat2data_get_currentmediastatus","imapi2/IDiscFormat2Data::get_CurrentMediaStatus"]
 old-location: imapi\idiscformat2data_get_currentmediastatus.htm
 tech.root: imapi
 ms.assetid: b8ed119f-8976-48aa-ab9a-86c1361b6e14

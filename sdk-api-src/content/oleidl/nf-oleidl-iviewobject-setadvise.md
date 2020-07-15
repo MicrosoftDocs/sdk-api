@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IViewObject.SetAdvise
 title: IViewObject::SetAdvise (oleidl.h)
-description: Establishes a connection between the view object and an advise sink so that the advise sink can be notified about changes in the object's view.helpviewer_keywords: ["ADVF_ONLYONCE","ADVF_PRIMEFIRST","IViewObject interface [COM]","SetAdvise method","IViewObject.SetAdvise","IViewObject::SetAdvise","SetAdvise","SetAdvise method [COM]","SetAdvise method [COM]","IViewObject interface","_ole_iviewobject_setadvise","com.iviewobject_setadvise","oleidl/IViewObject::SetAdvise"]
+description: Establishes a connection between the view object and an advise sink so that the advise sink can be notified about changes in the object's view.
+helpviewer_keywords: ["ADVF_ONLYONCE","ADVF_PRIMEFIRST","IViewObject interface [COM]","SetAdvise method","IViewObject.SetAdvise","IViewObject::SetAdvise","SetAdvise","SetAdvise method [COM]","SetAdvise method [COM]","IViewObject interface","_ole_iviewobject_setadvise","com.iviewobject_setadvise","oleidl/IViewObject::SetAdvise"]
 old-location: com\iviewobject_setadvise.htm
 tech.root: com
 ms.assetid: 64712679-8454-41fa-9497-f0ab97240a51

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10.ID3D10Device.GSSetConstantBuffers
 title: ID3D10Device::GSSetConstantBuffers (d3d10.h)
-description: Set the constant buffers used by the geometry shader pipeline stage.helpviewer_keywords: ["4a93383e-8523-3db8-9e49-217d1cf3ff2b","GSSetConstantBuffers","GSSetConstantBuffers method [Direct3D 10]","GSSetConstantBuffers method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GSSetConstantBuffers method","ID3D10Device.GSSetConstantBuffers","ID3D10Device::GSSetConstantBuffers","d3d10/ID3D10Device::GSSetConstantBuffers","direct3d10.id3d10device_gssetconstantbuffers"]
+description: Set the constant buffers used by the geometry shader pipeline stage.
+helpviewer_keywords: ["4a93383e-8523-3db8-9e49-217d1cf3ff2b","GSSetConstantBuffers","GSSetConstantBuffers method [Direct3D 10]","GSSetConstantBuffers method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","GSSetConstantBuffers method","ID3D10Device.GSSetConstantBuffers","ID3D10Device::GSSetConstantBuffers","d3d10/ID3D10Device::GSSetConstantBuffers","direct3d10.id3d10device_gssetconstantbuffers"]
 old-location: direct3d10\id3d10device_gssetconstantbuffers.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_gssetconstantbuffers.htm

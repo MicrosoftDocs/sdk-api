@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer.put_OverScan
 title: IMSVidVideoRenderer::put_OverScan (segment.h)
-description: The put_OverScan method specifies the amount of clipping to perform on all sides of the video frame to cut off random video noise.helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","put_OverScan method","IMSVidVideoRenderer.put_OverScan","IMSVidVideoRenderer::put_OverScan","IMSVidVideoRendererput_OverScan","mstv.imsvidvideorenderer_put_overscan","put_OverScan","put_OverScan method [Microsoft TV Technologies]","put_OverScan method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","segment/IMSVidVideoRenderer::put_OverScan"]
+description: The put_OverScan method specifies the amount of clipping to perform on all sides of the video frame to cut off random video noise.
+helpviewer_keywords: ["IMSVidVideoRenderer interface [Microsoft TV Technologies]","put_OverScan method","IMSVidVideoRenderer.put_OverScan","IMSVidVideoRenderer::put_OverScan","IMSVidVideoRendererput_OverScan","mstv.imsvidvideorenderer_put_overscan","put_OverScan","put_OverScan method [Microsoft TV Technologies]","put_OverScan method [Microsoft TV Technologies]","IMSVidVideoRenderer interface","segment/IMSVidVideoRenderer::put_OverScan"]
 old-location: mstv\imsvidvideorenderer_put_overscan.htm
 tech.root: mstv
 ms.assetid: 141df99b-4fc7-439c-953e-1fa1c544258e

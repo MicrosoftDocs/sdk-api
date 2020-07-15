@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbSession.get_Username
 title: ITsSbSession::get_Username (sbtsv.h)
-description: Retrieves the user name for this session.helpviewer_keywords: ["ITsSbSession interface [Remote Desktop Services]","Username property","ITsSbSession.Username","ITsSbSession.get_Username","ITsSbSession::Username","ITsSbSession::get_Username","Username property [Remote Desktop Services]","Username property [Remote Desktop Services]","ITsSbSession interface","get_Username","sbtsv/ITsSbSession::Username","sbtsv/ITsSbSession::get_Username","termserv.itssbsession_username"]
+description: Retrieves the user name for this session.
+helpviewer_keywords: ["ITsSbSession interface [Remote Desktop Services]","Username property","ITsSbSession.Username","ITsSbSession.get_Username","ITsSbSession::Username","ITsSbSession::get_Username","Username property [Remote Desktop Services]","Username property [Remote Desktop Services]","ITsSbSession interface","get_Username","sbtsv/ITsSbSession::Username","sbtsv/ITsSbSession::get_Username","termserv.itssbsession_username"]
 old-location: termserv\itssbsession_username.htm
 tech.root: TermServ
 ms.assetid: 0034e8cc-b67b-4e30-a059-47a269bab0fd

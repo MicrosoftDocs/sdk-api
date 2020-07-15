@@ -1,7 +1,8 @@
 ---
 UID: NE:uiribbon.UI_FONTUNDERLINE
 title: UI_FONTUNDERLINE (uiribbon.h)
-description: Specifies values that identify the underline state of a FontControl.helpviewer_keywords: ["UI_FONTUNDERLINE","UI_FONTUNDERLINE enumeration [Windows Ribbon]","UI_FONTUNDERLINE_NOTAVAILABLE","UI_FONTUNDERLINE_NOTSET","UI_FONTUNDERLINE_SET","scenicintent_UI_FONTUNDERLINE","uiribbon/UI_FONTUNDERLINE","uiribbon/UI_FONTUNDERLINE_NOTAVAILABLE","uiribbon/UI_FONTUNDERLINE_NOTSET","uiribbon/UI_FONTUNDERLINE_SET","windowsribbon.windowsribbon_ui_fontunderline"]
+description: Specifies values that identify the underline state of a FontControl.
+helpviewer_keywords: ["UI_FONTUNDERLINE","UI_FONTUNDERLINE enumeration [Windows Ribbon]","UI_FONTUNDERLINE_NOTAVAILABLE","UI_FONTUNDERLINE_NOTSET","UI_FONTUNDERLINE_SET","scenicintent_UI_FONTUNDERLINE","uiribbon/UI_FONTUNDERLINE","uiribbon/UI_FONTUNDERLINE_NOTAVAILABLE","uiribbon/UI_FONTUNDERLINE_NOTSET","uiribbon/UI_FONTUNDERLINE_SET","windowsribbon.windowsribbon_ui_fontunderline"]
 old-location: windowsribbon\windowsribbon_ui_fontunderline.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_fontunderline.htm

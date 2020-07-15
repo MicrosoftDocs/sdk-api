@@ -1,7 +1,8 @@
 ---
 UID: NF:cscapi.OfflineFilesQueryStatusEx
 title: OfflineFilesQueryStatusEx function (cscapi.h)
-description: Determines whether the Offline Files feature is enabled and, if so, whether it is active and available. This function is identical to the OfflineFilesQueryStatus function, except that it has an additional output parameter.helpviewer_keywords: ["OfflineFilesQueryStatusEx","OfflineFilesQueryStatusEx function [Offline Files]","cscapi/OfflineFilesQueryStatusEx","of.offlinefilesquerystatusex"]
+description: Determines whether the Offline Files feature is enabled and, if so, whether it is active and available. This function is identical to the OfflineFilesQueryStatus function, except that it has an additional output parameter.
+helpviewer_keywords: ["OfflineFilesQueryStatusEx","OfflineFilesQueryStatusEx function [Offline Files]","cscapi/OfflineFilesQueryStatusEx","of.offlinefilesquerystatusex"]
 old-location: of\offlinefilesquerystatusex.htm
 tech.root: offlinefiles
 ms.assetid: 1916F3F7-3B99-40CA-B503-EA1D10991BF4

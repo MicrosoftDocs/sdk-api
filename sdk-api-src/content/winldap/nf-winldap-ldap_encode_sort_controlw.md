@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_encode_sort_controlW
 title: ldap_encode_sort_controlW function (winldap.h)
-description: The ldap_encode_sort_control function formats a list of sort keys into a search control. This function is obsolete. Instead, use ldap_create_sort_control.helpviewer_keywords: ["_ldap_ldap_encode_sort_control","ldap.ldap__encode__sort__control","ldap.ldap_encode_sort_control","ldap_encode_sort_control","ldap_encode_sort_control function [LDAP]","ldap_encode_sort_controlA","ldap_encode_sort_controlW","winldap/ldap_encode_sort_control","winldap/ldap_encode_sort_controlA","winldap/ldap_encode_sort_controlW"]
+description: The ldap_encode_sort_control function formats a list of sort keys into a search control. This function is obsolete. Instead, use ldap_create_sort_control.
+helpviewer_keywords: ["_ldap_ldap_encode_sort_control","ldap.ldap__encode__sort__control","ldap.ldap_encode_sort_control","ldap_encode_sort_control","ldap_encode_sort_control function [LDAP]","ldap_encode_sort_controlA","ldap_encode_sort_controlW","winldap/ldap_encode_sort_control","winldap/ldap_encode_sort_controlA","winldap/ldap_encode_sort_controlW"]
 old-location: ldap\ldap_encode_sort_control.htm
 tech.root: ldap
 ms.assetid: 5c6c3bd4-739f-413d-adc3-668ac7b56da6
@@ -107,4 +108,9 @@ If the call completed successfully, <b>LDAP_SUCCESS</b> is returned. Other stand
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winldap.h header defines ldap_encode_sort_control as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

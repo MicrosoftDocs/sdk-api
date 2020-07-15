@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdbase.IWSDHttpAddress.GetPath
 title: IWSDHttpAddress::GetPath (wsdbase.h)
-description: Gets the URI path for this address.helpviewer_keywords: ["GetPath","GetPath method","GetPath method","IWSDHttpAddress interface","IWSDHttpAddress interface","GetPath method","IWSDHttpAddress.GetPath","IWSDHttpAddress::GetPath","ncd.iwsdhttpaddress_getpath","wsdbase/IWSDHttpAddress::GetPath"]
+description: Gets the URI path for this address.
+helpviewer_keywords: ["GetPath","GetPath method","GetPath method","IWSDHttpAddress interface","IWSDHttpAddress interface","GetPath method","IWSDHttpAddress.GetPath","IWSDHttpAddress::GetPath","ncd.iwsdhttpaddress_getpath","wsdbase/IWSDHttpAddress::GetPath"]
 old-location: ncd\iwsdhttpaddress_getpath.htm
 tech.root: WsdApi
 ms.assetid: 5bf666d3-6f13-4607-a83a-ec71f40f00e6

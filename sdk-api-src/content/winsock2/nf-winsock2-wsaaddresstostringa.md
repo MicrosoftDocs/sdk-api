@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.WSAAddressToStringA
 title: WSAAddressToStringA function (winsock2.h)
-description: Converts all components of a sockaddr structure into a human-readable string representation of the address.helpviewer_keywords: ["WSAAddressToString","WSAAddressToString function [Winsock]","WSAAddressToStringA","WSAAddressToStringW","_win32_wsaaddresstostring_2","winsock.wsaaddresstostring_2","winsock2/WSAAddressToString","winsock2/WSAAddressToStringA","winsock2/WSAAddressToStringW"]
+description: Converts all components of a sockaddr structure into a human-readable string representation of the address.
+helpviewer_keywords: ["WSAAddressToString","WSAAddressToString function [Winsock]","WSAAddressToStringA","WSAAddressToStringW","_win32_wsaaddresstostring_2","winsock.wsaaddresstostring_2","winsock2/WSAAddressToString","winsock2/WSAAddressToStringA","winsock2/WSAAddressToStringW"]
 old-location: winsock\wsaaddresstostring_2.htm
 tech.root: WinSock
 ms.assetid: d72e55e6-79a9-4386-9e1a-24a322f13426
@@ -179,6 +180,10 @@ Support for IPv6 addresses using the <b>WSAAddressToString</b> function was adde
 
 
 
+
+
+> [!NOTE]
+> The winsock2.h header defines WSAAddressToString as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

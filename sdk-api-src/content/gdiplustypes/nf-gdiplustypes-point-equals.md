@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplustypes.Point.Equals
 title: Point::Equals (gdiplustypes.h)
-description: The Point::Equals method determines whether two Point objects are equal. Two points are considered equal if they have the same X and Y data members.helpviewer_keywords: ["Equals","Equals method [GDI+]","Equals method [GDI+]","Point class","Point class [GDI+]","Equals method","Point.Equals","Point::Equals","_gdiplus_CLASS_Point_Equals_point_","gdiplus._gdiplus_CLASS_Point_Equals_point_"]
+description: The Point::Equals method determines whether two Point objects are equal. Two points are considered equal if they have the same X and Y data members.
+helpviewer_keywords: ["Equals","Equals method [GDI+]","Equals method [GDI+]","Point class","Point class [GDI+]","Equals method","Point.Equals","Point::Equals","_gdiplus_CLASS_Point_Equals_point_","gdiplus._gdiplus_CLASS_Point_Equals_point_"]
 old-location: gdiplus\_gdiplus_CLASS_Point_Equals_point_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\pointclass\pointmethods\equals_4point.htm

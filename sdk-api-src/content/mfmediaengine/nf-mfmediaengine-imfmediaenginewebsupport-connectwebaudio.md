@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineWebSupport.ConnectWebAudio
 title: IMFMediaEngineWebSupport::ConnectWebAudio (mfmediaengine.h)
-description: Connects web audio to Media Engine using the specified sample rate.helpviewer_keywords: ["ConnectWebAudio","ConnectWebAudio method [Media Foundation]","ConnectWebAudio method [Media Foundation]","IMFMediaEngineWebSupport interface","IMFMediaEngineWebSupport interface [Media Foundation]","ConnectWebAudio method","IMFMediaEngineWebSupport.ConnectWebAudio","IMFMediaEngineWebSupport::ConnectWebAudio","mf.imfmediaenginewebsupport_connectwebaudio","mfmediaengine/IMFMediaEngineWebSupport::ConnectWebAudio"]
+description: Connects web audio to Media Engine using the specified sample rate.
+helpviewer_keywords: ["ConnectWebAudio","ConnectWebAudio method [Media Foundation]","ConnectWebAudio method [Media Foundation]","IMFMediaEngineWebSupport interface","IMFMediaEngineWebSupport interface [Media Foundation]","ConnectWebAudio method","IMFMediaEngineWebSupport.ConnectWebAudio","IMFMediaEngineWebSupport::ConnectWebAudio","mf.imfmediaenginewebsupport_connectwebaudio","mfmediaengine/IMFMediaEngineWebSupport::ConnectWebAudio"]
 old-location: mf\imfmediaenginewebsupport_connectwebaudio.htm
 tech.root: medfound
 ms.assetid: E2470C2B-2E55-4B4F-B00F-03ABBB1A896F

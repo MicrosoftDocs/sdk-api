@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataImport.GetMethodProps
 title: IMetaDataImport::GetMethodProps (rometadataapi.h)
-description: Gets the metadata associated with the method referenced by the specified MethodDef token.helpviewer_keywords: ["GetMethodProps","GetMethodProps method [Windows Runtime]","GetMethodProps method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetMethodProps method","IMetaDataImport.GetMethodProps","IMetaDataImport::GetMethodProps","rometadataapi/IMetaDataImport::GetMethodProps","winrt.imetadataimport_getmethodprops"]
+description: Gets the metadata associated with the method referenced by the specified MethodDef token.
+helpviewer_keywords: ["GetMethodProps","GetMethodProps method [Windows Runtime]","GetMethodProps method [Windows Runtime]","IMetaDataImport interface","IMetaDataImport interface [Windows Runtime]","GetMethodProps method","IMetaDataImport.GetMethodProps","IMetaDataImport::GetMethodProps","rometadataapi/IMetaDataImport::GetMethodProps","winrt.imetadataimport_getmethodprops"]
 old-location: winrt\imetadataimport_getmethodprops.htm
 tech.root: WinRT
 ms.assetid: 973f2a8c-025d-4d27-ac99-56902b1132dd

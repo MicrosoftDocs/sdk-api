@@ -1,7 +1,8 @@
 ---
 UID: NF:mftransform.IMFDeviceTransform.GetInputStreamAttributes
 title: IMFDeviceTransform::GetInputStreamAttributes (mftransform.h)
-description: The GetInputStreamAttributes method gets the attribute store for an input stream on this Media Foundation transform (MFT).helpviewer_keywords: ["GetInputStreamAttributes","GetInputStreamAttributes method [Streaming Media Devices]","GetInputStreamAttributes method [Streaming Media Devices]","IMFDeviceTransform interface","IMFDeviceTransform interface [Streaming Media Devices]","GetInputStreamAttributes method","IMFDeviceTransform.GetInputStreamAttributes","IMFDeviceTransform::GetInputStreamAttributes","mftransform/IMFDeviceTransform::GetInputStreamAttributes","stream.imfdevicetransform_getinputstreamattributes"]
+description: The GetInputStreamAttributes method gets the attribute store for an input stream on this Media Foundation transform (MFT).
+helpviewer_keywords: ["GetInputStreamAttributes","GetInputStreamAttributes method [Streaming Media Devices]","GetInputStreamAttributes method [Streaming Media Devices]","IMFDeviceTransform interface","IMFDeviceTransform interface [Streaming Media Devices]","GetInputStreamAttributes method","IMFDeviceTransform.GetInputStreamAttributes","IMFDeviceTransform::GetInputStreamAttributes","mftransform/IMFDeviceTransform::GetInputStreamAttributes","stream.imfdevicetransform_getinputstreamattributes"]
 old-location: stream\imfdevicetransform_getinputstreamattributes.htm
 tech.root: stream
 ms.assetid: 087696C2-BD29-4BAE-8285-1B127E0D076E

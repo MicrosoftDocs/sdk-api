@@ -1,7 +1,8 @@
 ---
 UID: NS:xaudio2.XAUDIO2_SEND_DESCRIPTOR
 title: XAUDIO2_SEND_DESCRIPTOR (xaudio2.h)
-description: Defines a destination voice that is the target of a send from another voice and specifies whether a filter should be used.helpviewer_keywords: ["XAUDIO2_SEND_DESCRIPTOR","XAUDIO2_SEND_DESCRIPTOR structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_send_descriptor","xaudio2/XAUDIO2_SEND_DESCRIPTOR"]
+description: Defines a destination voice that is the target of a send from another voice and specifies whether a filter should be used.
+helpviewer_keywords: ["XAUDIO2_SEND_DESCRIPTOR","XAUDIO2_SEND_DESCRIPTOR structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_send_descriptor","xaudio2/XAUDIO2_SEND_DESCRIPTOR"]
 old-location: xaudio2\xaudio2_send_descriptor.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_SEND_DESCRIPTOR

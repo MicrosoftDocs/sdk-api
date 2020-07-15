@@ -1,7 +1,8 @@
 ---
 UID: NS:searchapi._TIMEOUT_INFO
 title: TIMEOUT_INFO (searchapi.h)
-description: Stores time-out values for connections and data.helpviewer_keywords: ["TIMEOUT_INFO","TIMEOUT_INFO structure [search]","_search_TIMEOUT_INFO","search._search_TIMEOUT_INFO","searchapi/TIMEOUT_INFO"]
+description: Stores time-out values for connections and data.
+helpviewer_keywords: ["TIMEOUT_INFO","TIMEOUT_INFO structure [search]","_search_TIMEOUT_INFO","search._search_TIMEOUT_INFO","searchapi/TIMEOUT_INFO"]
 old-location: search\_search_TIMEOUT_INFO.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\timeout_info.htm

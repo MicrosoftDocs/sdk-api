@@ -1,7 +1,8 @@
 ---
 UID: NC:webservices.WS_ABORT_CHANNEL_CALLBACK
 title: WS_ABORT_CHANNEL_CALLBACK (webservices.h)
-description: Handles the WsAbortChannel call for a WS_CUSTOM_CHANNEL_BINDING.helpviewer_keywords: ["WS_ABORT_CHANNEL_CALLBACK","WS_ABORT_CHANNEL_CALLBACK callback","WS_ABORT_CHANNEL_CALLBACK callback function [Web Services for Windows]","webservices/WS_ABORT_CHANNEL_CALLBACK","wsw.ws_abort_channel_callback"]
+description: Handles the WsAbortChannel call for a WS_CUSTOM_CHANNEL_BINDING.
+helpviewer_keywords: ["WS_ABORT_CHANNEL_CALLBACK","WS_ABORT_CHANNEL_CALLBACK callback","WS_ABORT_CHANNEL_CALLBACK callback function [Web Services for Windows]","webservices/WS_ABORT_CHANNEL_CALLBACK","wsw.ws_abort_channel_callback"]
 old-location: wsw\ws_abort_channel_callback.htm
 tech.root: wsw
 ms.assetid: b2841065-5724-4fbb-92f0-b3b7ad1a6e26

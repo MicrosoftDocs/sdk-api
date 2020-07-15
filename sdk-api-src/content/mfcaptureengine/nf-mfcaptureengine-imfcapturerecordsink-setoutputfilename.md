@@ -1,7 +1,8 @@
 ---
 UID: NF:mfcaptureengine.IMFCaptureRecordSink.SetOutputFileName
 title: IMFCaptureRecordSink::SetOutputFileName (mfcaptureengine.h)
-description: Specifies the name of the output file for the recording.helpviewer_keywords: ["IMFCaptureRecordSink interface [Media Foundation]","SetOutputFileName method","IMFCaptureRecordSink.SetOutputFileName","IMFCaptureRecordSink::SetOutputFileName","SetOutputFileName","SetOutputFileName method [Media Foundation]","SetOutputFileName method [Media Foundation]","IMFCaptureRecordSink interface","mf.imfcapturerecordsink_setoutputfilename","mfcaptureengine/IMFCaptureRecordSink::SetOutputFileName"]
+description: Specifies the name of the output file for the recording.
+helpviewer_keywords: ["IMFCaptureRecordSink interface [Media Foundation]","SetOutputFileName method","IMFCaptureRecordSink.SetOutputFileName","IMFCaptureRecordSink::SetOutputFileName","SetOutputFileName","SetOutputFileName method [Media Foundation]","SetOutputFileName method [Media Foundation]","IMFCaptureRecordSink interface","mf.imfcapturerecordsink_setoutputfilename","mfcaptureengine/IMFCaptureRecordSink::SetOutputFileName"]
 old-location: mf\imfcapturerecordsink_setoutputfilename.htm
 tech.root: medfound
 ms.assetid: 96BEE09C-1B17-4857-B0DC-553D14B908E7

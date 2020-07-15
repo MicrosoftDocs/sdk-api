@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1TransformNode
 title: ID2D1TransformNode (d2d1effectauthor.h)
-description: Describes a node in a transform topology.helpviewer_keywords: ["ID2D1TransformNode","ID2D1TransformNode interface [Direct2D]","ID2D1TransformNode interface [Direct2D]","described","d2d1effectauthor/ID2D1TransformNode","direct2d.id2d1transformnode"]
+description: Describes a node in a transform topology.
+helpviewer_keywords: ["ID2D1TransformNode","ID2D1TransformNode interface [Direct2D]","ID2D1TransformNode interface [Direct2D]","described","d2d1effectauthor/ID2D1TransformNode","direct2d.id2d1transformnode"]
 old-location: direct2d\id2d1transformnode.htm
 tech.root: Direct2D
 ms.assetid: 2ACF65DA-A812-4983-B044-71103A9AA450

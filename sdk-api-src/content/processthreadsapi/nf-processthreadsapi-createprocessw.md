@@ -96,7 +96,7 @@ To run a batch file, you must start the command interpreter; set <i>lpApplicatio
 The command line to be executed. 
 
 
-The maximum length of this string is 32,768 characters, including the Unicode terminating null character. If <i>lpApplicationName</i> is <b>NULL</b>, the module name portion of <i>lpCommandLine</i> is limited to <b>MAX_PATH</b> characters.
+The maximum length of this string is 32,767 characters, including the Unicode terminating null character. If <i>lpApplicationName</i> is <b>NULL</b>, the module name portion of <i>lpCommandLine</i> is limited to <b>MAX_PATH</b> characters.
 
 The Unicode version of this function, <b>CreateProcessW</b>, can modify the contents of this string. Therefore, this parameter cannot be a pointer to read-only memory (such as a <b>const</b> variable or a literal string). If this parameter is a constant string, the function may cause an access violation.
 
@@ -294,6 +294,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The processthreadsapi.h header defines CreateProcess as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

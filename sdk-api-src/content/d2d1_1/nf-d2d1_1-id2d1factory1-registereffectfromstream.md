@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1Factory1.RegisterEffectFromStream
 title: ID2D1Factory1::RegisterEffectFromStream (d2d1_1.h)
-description: Registers an effect within the factory instance with the property XML specified as a stream.helpviewer_keywords: ["ID2D1Factory1 interface [Direct2D]","RegisterEffectFromStream method","ID2D1Factory1.RegisterEffectFromStream","ID2D1Factory1::RegisterEffectFromStream","RegisterEffectFromStream","RegisterEffectFromStream method [Direct2D]","RegisterEffectFromStream method [Direct2D]","ID2D1Factory1 interface","d2d1_1/ID2D1Factory1::RegisterEffectFromStream","direct2d.id2d1factory1_registereffectfromstream"]
+description: Registers an effect within the factory instance with the property XML specified as a stream.
+helpviewer_keywords: ["ID2D1Factory1 interface [Direct2D]","RegisterEffectFromStream method","ID2D1Factory1.RegisterEffectFromStream","ID2D1Factory1::RegisterEffectFromStream","RegisterEffectFromStream","RegisterEffectFromStream method [Direct2D]","RegisterEffectFromStream method [Direct2D]","ID2D1Factory1 interface","d2d1_1/ID2D1Factory1::RegisterEffectFromStream","direct2d.id2d1factory1_registereffectfromstream"]
 old-location: direct2d\id2d1factory1_registereffectfromstream.htm
 tech.root: Direct2D
 ms.assetid: E22F04F3-A67E-4F93-B936-5AE5CDFF75EF

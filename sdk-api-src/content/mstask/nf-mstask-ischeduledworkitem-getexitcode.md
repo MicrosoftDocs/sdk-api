@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.GetExitCode
 title: IScheduledWorkItem::GetExitCode (mstask.h)
-description: Retrieves the last exit code returned by the executable associated with the work item on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.helpviewer_keywords: ["GetExitCode","GetExitCode method [Task Scheduler]","GetExitCode method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetExitCode method","IScheduledWorkItem.GetExitCode","IScheduledWorkItem::GetExitCode","_msb_ischeduledworkitem_getexitcode","mstask/IScheduledWorkItem::GetExitCode","taskschd.ischeduledworkitem_getexitcode"]
+description: Retrieves the last exit code returned by the executable associated with the work item on its last run. The method also returns the exit code returned to Task Scheduler when it last attempted to run the work item.
+helpviewer_keywords: ["GetExitCode","GetExitCode method [Task Scheduler]","GetExitCode method [Task Scheduler]","IScheduledWorkItem interface","IScheduledWorkItem interface [Task Scheduler]","GetExitCode method","IScheduledWorkItem.GetExitCode","IScheduledWorkItem::GetExitCode","_msb_ischeduledworkitem_getexitcode","mstask/IScheduledWorkItem::GetExitCode","taskschd.ischeduledworkitem_getexitcode"]
 old-location: taskschd\ischeduledworkitem_getexitcode.htm
 tech.root: taskschd
 ms.assetid: 857d8b84-2ccf-4888-8aea-869ba70d3f64

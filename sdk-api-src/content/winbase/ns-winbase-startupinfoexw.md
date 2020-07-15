@@ -1,7 +1,8 @@
 ---
 UID: NS:winbase._STARTUPINFOEXW
 title: STARTUPINFOEXW (winbase.h)
-description: Specifies the window station, desktop, standard handles, and attributes for a new process. It is used with the CreateProcess and CreateProcessAsUser functions.helpviewer_keywords: ["*LPSTARTUPINFOEXW","LPSTARTUPINFOEX","LPSTARTUPINFOEX structure pointer","STARTUPINFOEX","STARTUPINFOEX structure","STARTUPINFOEXA","STARTUPINFOEXW","_STARTUPINFOEXA","_STARTUPINFOEXW","base.startupinfoex","winbase/LPSTARTUPINFOEX","winbase/STARTUPINFOEX","winbase/STARTUPINFOEXA","winbase/STARTUPINFOEXW"]
+description: Specifies the window station, desktop, standard handles, and attributes for a new process. It is used with the CreateProcess and CreateProcessAsUser functions.
+helpviewer_keywords: ["*LPSTARTUPINFOEXW","LPSTARTUPINFOEX","LPSTARTUPINFOEX structure pointer","STARTUPINFOEX","STARTUPINFOEX structure","STARTUPINFOEXA","STARTUPINFOEXW","_STARTUPINFOEXA","_STARTUPINFOEXW","base.startupinfoex","winbase/LPSTARTUPINFOEX","winbase/STARTUPINFOEX","winbase/STARTUPINFOEXA","winbase/STARTUPINFOEXW"]
 old-location: base\startupinfoex.htm
 tech.root: ProcThread
 ms.assetid: 61203f57-292d-4ea1-88f4-a3b05012d7a3
@@ -79,6 +80,10 @@ Be sure to set the <b>cb</b> member of the <a href="https://docs.microsoft.com/w
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines STARTUPINFOEX as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

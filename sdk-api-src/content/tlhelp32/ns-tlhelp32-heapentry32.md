@@ -1,7 +1,8 @@
 ---
 UID: NS:tlhelp32.tagHEAPENTRY32
 title: HEAPENTRY32 (tlhelp32.h)
-description: Describes one entry (block) of a heap that is being examined.helpviewer_keywords: ["*LPHEAPENTRY32","*PHEAPENTRY32","HEAPENTRY32","HEAPENTRY32 structure [ToolHelp]","LF32_FIXED","LF32_FREE","LF32_MOVEABLE","PHEAPENTRY32","PHEAPENTRY32 structure pointer [ToolHelp]","_win32_heapentry32_str","base.heapentry32_str","tlhelp32/HEAPENTRY32","tlhelp32/PHEAPENTRY32","toolhelp.heapentry32_str"]
+description: Describes one entry (block) of a heap that is being examined.
+helpviewer_keywords: ["*LPHEAPENTRY32","*PHEAPENTRY32","HEAPENTRY32","HEAPENTRY32 structure [ToolHelp]","LF32_FIXED","LF32_FREE","LF32_MOVEABLE","PHEAPENTRY32","PHEAPENTRY32 structure pointer [ToolHelp]","_win32_heapentry32_str","base.heapentry32_str","tlhelp32/HEAPENTRY32","tlhelp32/PHEAPENTRY32","toolhelp.heapentry32_str"]
 old-location: toolhelp\heapentry32_str.htm
 tech.root: ToolHelp
 ms.assetid: c5f1dc66-d44f-4491-b0b7-961b163d0f1f

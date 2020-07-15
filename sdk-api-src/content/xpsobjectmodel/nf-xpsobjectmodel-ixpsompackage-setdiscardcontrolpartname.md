@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMPackage.SetDiscardControlPartName
 title: IXpsOMPackage::SetDiscardControlPartName (xpsobjectmodel.h)
-description: Sets the name of the discard control part in the XPS package.helpviewer_keywords: ["IXpsOMPackage interface [XPS Documents and Packaging]","SetDiscardControlPartName method","IXpsOMPackage.SetDiscardControlPartName","IXpsOMPackage::SetDiscardControlPartName","SetDiscardControlPartName","SetDiscardControlPartName method [XPS Documents and Packaging]","SetDiscardControlPartName method [XPS Documents and Packaging]","IXpsOMPackage interface","xps.ixpsompackage_setdiscardcontrolpartname","xpsobjectmodel/IXpsOMPackage::SetDiscardControlPartName"]
+description: Sets the name of the discard control part in the XPS package.
+helpviewer_keywords: ["IXpsOMPackage interface [XPS Documents and Packaging]","SetDiscardControlPartName method","IXpsOMPackage.SetDiscardControlPartName","IXpsOMPackage::SetDiscardControlPartName","SetDiscardControlPartName","SetDiscardControlPartName method [XPS Documents and Packaging]","SetDiscardControlPartName method [XPS Documents and Packaging]","IXpsOMPackage interface","xps.ixpsompackage_setdiscardcontrolpartname","xpsobjectmodel/IXpsOMPackage::SetDiscardControlPartName"]
 old-location: xps\ixpsompackage_setdiscardcontrolpartname.htm
 tech.root: printdocs
 ms.assetid: ce45f7cf-33ed-4e15-9f65-549ab2c8c8be

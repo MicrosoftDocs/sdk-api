@@ -1,7 +1,8 @@
 ---
 UID: NE:vswriter.VSS_COMPONENT_TYPE
 title: VSS_COMPONENT_TYPE (vswriter.h)
-description: Specify the type of component being used with a shadow copy backup operation.helpviewer_keywords: ["VSS_COMPONENT_TYPE","VSS_COMPONENT_TYPE enumeration [VSS]","VSS_CT_DATABASE","VSS_CT_FILEGROUP","VSS_CT_UNDEFINED","_win32_vss_component_type","base.vss_component_type","enumeration [VSS]","vswriter/VSS_COMPONENT_TYPE","vswriter/VSS_CT_DATABASE","vswriter/VSS_CT_FILEGROUP","vswriter/VSS_CT_UNDEFINED"]
+description: Specify the type of component being used with a shadow copy backup operation.
+helpviewer_keywords: ["VSS_COMPONENT_TYPE","VSS_COMPONENT_TYPE enumeration [VSS]","VSS_CT_DATABASE","VSS_CT_FILEGROUP","VSS_CT_UNDEFINED","_win32_vss_component_type","base.vss_component_type","enumeration [VSS]","vswriter/VSS_COMPONENT_TYPE","vswriter/VSS_CT_DATABASE","vswriter/VSS_CT_FILEGROUP","vswriter/VSS_CT_UNDEFINED"]
 old-location: base\vss_component_type.htm
 tech.root: VSS
 ms.assetid: ba3b726c-448a-46c0-8fa5-5793497aa385

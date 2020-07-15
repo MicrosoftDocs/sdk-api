@@ -1,7 +1,8 @@
 ---
 UID: NF:evntprov.EventDescZero
 title: EventDescZero function (evntprov.h)
-description: Initializes an event descriptor to zero.helpviewer_keywords: ["EventDescZero","EventDescZero function [ETW]","base.eventdesczero","etw.eventdesczero","evntprov/EventDescZero"]
+description: Initializes an event descriptor to zero.
+helpviewer_keywords: ["EventDescZero","EventDescZero function [ETW]","base.eventdesczero","etw.eventdesczero","evntprov/EventDescZero"]
 old-location: etw\eventdesczero.htm
 tech.root: ETW
 ms.assetid: c52c5f6b-c7ab-47c2-8bce-55323bae7917

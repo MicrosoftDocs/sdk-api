@@ -1,7 +1,8 @@
 ---
 UID: NF:drt.DrtCreatePnrpBootstrapResolver
 title: DrtCreatePnrpBootstrapResolver function (drt.h)
-description: DrtCreatePnrpBootstrapResolver.helpviewer_keywords: ["DrtCreatePnrpBootstrapResolver","DrtCreatePnrpBootstrapResolver function [Peer Networking]","drt/DrtCreatePnrpBootstrapResolver","p2p.drtcreatepnrpbootstrapresolver"]
+description: DrtCreatePnrpBootstrapResolver.
+helpviewer_keywords: ["DrtCreatePnrpBootstrapResolver","DrtCreatePnrpBootstrapResolver function [Peer Networking]","drt/DrtCreatePnrpBootstrapResolver","p2p.drtcreatepnrpbootstrapresolver"]
 old-location: p2p\drtcreatepnrpbootstrapresolver.htm
 tech.root: P2PSdk
 ms.assetid: 5bd64f10-abb8-4cba-8ebd-780a6a0c7074

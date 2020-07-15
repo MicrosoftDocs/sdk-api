@@ -1,7 +1,8 @@
 ---
 UID: NF:directmanipulation.IDirectManipulationViewport.SetUpdateMode
 title: IDirectManipulationViewport::SetUpdateMode (directmanipulation.h)
-description: Specifies whether a viewport updates content manually instead of during an input event.helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","SetUpdateMode method","IDirectManipulationViewport.SetUpdateMode","IDirectManipulationViewport::SetUpdateMode","SetUpdateMode","SetUpdateMode method [Direct Manipulation]","SetUpdateMode method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_setupdatemode","directmanipulation/IDirectManipulationViewport::SetUpdateMode"]
+description: Specifies whether a viewport updates content manually instead of during an input event.
+helpviewer_keywords: ["IDirectManipulationViewport interface [Direct Manipulation]","SetUpdateMode method","IDirectManipulationViewport.SetUpdateMode","IDirectManipulationViewport::SetUpdateMode","SetUpdateMode","SetUpdateMode method [Direct Manipulation]","SetUpdateMode method [Direct Manipulation]","IDirectManipulationViewport interface","directmanipulation.idirectmanipulationviewport_setupdatemode","directmanipulation/IDirectManipulationViewport::SetUpdateMode"]
 old-location: directmanipulation\idirectmanipulationviewport_setupdatemode.htm
 tech.root: directmanipulation
 ms.assetid: 10516474-f3ef-4de7-a5b5-aabaa5c65cf5

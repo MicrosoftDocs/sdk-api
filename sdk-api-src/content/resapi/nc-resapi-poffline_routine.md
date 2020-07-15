@@ -1,7 +1,8 @@
 ---
 UID: NC:resapi.POFFLINE_ROUTINE
 title: POFFLINE_ROUTINE (resapi.h)
-description: Marks a resource as unavailable for use after cleanup processing is complete.helpviewer_keywords: ["Offline","Offline callback","Offline callback function [Failover Cluster]","POFFLINE_ROUTINE","POFFLINE_ROUTINE callback function [Failover Cluster]","_wolf_offline","mscs.offline","resapi/Offline","resapi/POFFLINE_ROUTINE"]
+description: Marks a resource as unavailable for use after cleanup processing is complete.
+helpviewer_keywords: ["Offline","Offline callback","Offline callback function [Failover Cluster]","POFFLINE_ROUTINE","POFFLINE_ROUTINE callback function [Failover Cluster]","_wolf_offline","mscs.offline","resapi/Offline","resapi/POFFLINE_ROUTINE"]
 old-location: mscs\offline.htm
 tech.root: MsCS
 ms.assetid: 1d67a4f5-66f8-4818-8b63-d0f50452f889

@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_CUSTOM_CHANNEL_CALLBACKS
 title: WS_CUSTOM_CHANNEL_CALLBACKS (webservices.h)
-description: A structure that is used to specify a set of callbacks that form the implementation of a custom channel.helpviewer_keywords: ["WS_CUSTOM_CHANNEL_CALLBACKS","WS_CUSTOM_CHANNEL_CALLBACKS structure [Web Services for Windows]","webservices/WS_CUSTOM_CHANNEL_CALLBACKS","wsw.ws_custom_channel_callbacks"]
+description: A structure that is used to specify a set of callbacks that form the implementation of a custom channel.
+helpviewer_keywords: ["WS_CUSTOM_CHANNEL_CALLBACKS","WS_CUSTOM_CHANNEL_CALLBACKS structure [Web Services for Windows]","webservices/WS_CUSTOM_CHANNEL_CALLBACKS","wsw.ws_custom_channel_callbacks"]
 old-location: wsw\ws_custom_channel_callbacks.htm
 tech.root: wsw
 ms.assetid: 8df774fd-7cfc-4006-84ad-b81737770b6e

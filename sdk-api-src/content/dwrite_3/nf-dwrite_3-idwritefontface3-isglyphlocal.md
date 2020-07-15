@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.IsGlyphLocal
 title: IDWriteFontFace3::IsGlyphLocal (dwrite_3.h)
-description: Determines whether the glyph is locally downloaded from the font.helpviewer_keywords: ["IDWriteFontFace3 interface [Direct Write]","IsGlyphLocal method","IDWriteFontFace3.IsGlyphLocal","IDWriteFontFace3::IsGlyphLocal","IsGlyphLocal","IsGlyphLocal method [Direct Write]","IsGlyphLocal method [Direct Write]","IDWriteFontFace3 interface","directwrite.idwritefontface3_isglyphlocal","dwrite_3/IDWriteFontFace3::IsGlyphLocal"]
+description: Determines whether the glyph is locally downloaded from the font.
+helpviewer_keywords: ["IDWriteFontFace3 interface [Direct Write]","IsGlyphLocal method","IDWriteFontFace3.IsGlyphLocal","IDWriteFontFace3::IsGlyphLocal","IsGlyphLocal","IsGlyphLocal method [Direct Write]","IsGlyphLocal method [Direct Write]","IDWriteFontFace3 interface","directwrite.idwritefontface3_isglyphlocal","dwrite_3/IDWriteFontFace3::IsGlyphLocal"]
 old-location: directwrite\idwritefontface3_isglyphlocal.htm
 tech.root: DirectWrite
 ms.assetid: def185b6-a717-5390-8521-46e38335800b

@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfSourceSingle
 title: ITfSourceSingle (msctf.h)
-description: The ITfSourceSingle interface is implemented by the TSF manager.helpviewer_keywords: ["ITfSourceSingle","ITfSourceSingle interface [Text Services Framework]","ITfSourceSingle interface [Text Services Framework]","described","_tsf_itfsourcesingle_ref","msctf/ITfSourceSingle","tsf.itfsourcesingle"]
+description: The ITfSourceSingle interface is implemented by the TSF manager.
+helpviewer_keywords: ["ITfSourceSingle","ITfSourceSingle interface [Text Services Framework]","ITfSourceSingle interface [Text Services Framework]","described","_tsf_itfsourcesingle_ref","msctf/ITfSourceSingle","tsf.itfsourcesingle"]
 old-location: tsf\itfsourcesingle.htm
 tech.root: TSF
 ms.assetid: 01e60ede-b871-4b38-b2ee-24f79c5b3e80

@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwServices.get__NewEnum
 title: INetFwServices::get__NewEnum (netfw.h)
-description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the services in the collection.helpviewer_keywords: ["INetFwServices interface [ICS/ICF]","_NewEnum property","INetFwServices._NewEnum","INetFwServices.get__NewEnum","INetFwServices::_NewEnum","INetFwServices::get__NewEnum","_NewEnum property [ICS/ICF]","_NewEnum property [ICS/ICF]","INetFwServices interface","get__NewEnum","ics.inetfwservices_newenum","netfw/INetFwServices::_NewEnum","netfw/INetFwServices::get__NewEnum"]
+description: Returns an object supporting IEnumVARIANT that can be used to iterate through all the services in the collection.
+helpviewer_keywords: ["INetFwServices interface [ICS/ICF]","_NewEnum property","INetFwServices._NewEnum","INetFwServices.get__NewEnum","INetFwServices::_NewEnum","INetFwServices::get__NewEnum","_NewEnum property [ICS/ICF]","_NewEnum property [ICS/ICF]","INetFwServices interface","get__NewEnum","ics.inetfwservices_newenum","netfw/INetFwServices::_NewEnum","netfw/INetFwServices::get__NewEnum"]
 old-location: ics\inetfwservices_newenum.htm
 tech.root: ics
 ms.assetid: 2da6560f-2eca-4391-88c1-a86948d19d58

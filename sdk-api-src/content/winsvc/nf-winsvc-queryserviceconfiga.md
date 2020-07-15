@@ -1,7 +1,8 @@
 ---
 UID: NF:winsvc.QueryServiceConfigA
 title: QueryServiceConfigA function (winsvc.h)
-description: Retrieves the configuration parameters of the specified service.helpviewer_keywords: ["QueryServiceConfig","QueryServiceConfig function","QueryServiceConfigA","QueryServiceConfigW","_win32_queryserviceconfig","base.queryserviceconfig","winsvc/QueryServiceConfig","winsvc/QueryServiceConfigA","winsvc/QueryServiceConfigW"]
+description: Retrieves the configuration parameters of the specified service.
+helpviewer_keywords: ["QueryServiceConfig","QueryServiceConfig function","QueryServiceConfigA","QueryServiceConfigW","_win32_queryserviceconfig","base.queryserviceconfig","winsvc/QueryServiceConfig","winsvc/QueryServiceConfigA","winsvc/QueryServiceConfigW"]
 old-location: base\queryserviceconfig.htm
 tech.root: Services
 ms.assetid: 364c5f61-dfbe-460b-8e42-5c457b65c050
@@ -169,6 +170,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winsvc.h header defines QueryServiceConfig as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

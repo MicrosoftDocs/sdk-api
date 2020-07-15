@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.ISearchFolderItemFactory.SetDisplayName
 title: ISearchFolderItemFactory::SetDisplayName (shobjidl_core.h)
-description: Sets the search folder display name, as specified.helpviewer_keywords: ["ISearchFolderItemFactory interface [Windows Shell]","SetDisplayName method","ISearchFolderItemFactory.SetDisplayName","ISearchFolderItemFactory::SetDisplayName","SetDisplayName","SetDisplayName method [Windows Shell]","SetDisplayName method [Windows Shell]","ISearchFolderItemFactory interface","_shell_ISearchFolderItemFactory_SetDisplayName","shell.ISearchFolderItemFactory_SetDisplayName","shobjidl_core/ISearchFolderItemFactory::SetDisplayName"]
+description: Sets the search folder display name, as specified.
+helpviewer_keywords: ["ISearchFolderItemFactory interface [Windows Shell]","SetDisplayName method","ISearchFolderItemFactory.SetDisplayName","ISearchFolderItemFactory::SetDisplayName","SetDisplayName","SetDisplayName method [Windows Shell]","SetDisplayName method [Windows Shell]","ISearchFolderItemFactory interface","_shell_ISearchFolderItemFactory_SetDisplayName","shell.ISearchFolderItemFactory_SetDisplayName","shobjidl_core/ISearchFolderItemFactory::SetDisplayName"]
 old-location: shell\ISearchFolderItemFactory_SetDisplayName.htm
 tech.root: shell
 ms.assetid: 2552677b-7907-4a2b-8a2f-6769bca64029

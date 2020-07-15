@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMStoreUNibble4
 title: XMStoreUNibble4 function (directxpackedvector.h)
-description: Stores an XMVECTOR in an XMUNIBBLE4.helpviewer_keywords: ["DirectX::PackedVector.XMStoreUNibble4","XMStoreUNibble4","XMStoreUNibble4 method [DirectX Math Support APIs]","dxmath.xmstoreunibble4"]
+description: Stores an XMVECTOR in an XMUNIBBLE4.
+helpviewer_keywords: ["DirectX::PackedVector.XMStoreUNibble4","XMStoreUNibble4","XMStoreUNibble4 method [DirectX Math Support APIs]","dxmath.xmstoreunibble4"]
 old-location: dxmath\xmstoreunibble4.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.storing.XMStoreUNibble4(XMUNIBBLE4@,XMVECTOR)

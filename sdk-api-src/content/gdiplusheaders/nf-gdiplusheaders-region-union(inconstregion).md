@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusheaders.Region.Union(IN const Region)
+UID: NF:gdiplusheaders.Region.Union(INconstRegion)
 title: Region::Union(IN const Region) (gdiplusheaders.h)
-description: The Region::Union method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of another region.helpviewer_keywords: ["Region class [GDI+]","Union method","Region.Union","Region.Union(IN const Region)","Region.Union(const Region*)","Region::Union","Region::Union(IN const Region)","Union","Union method [GDI+]","Union method [GDI+]","Region class","_gdiplus_CLASS_Region_Union_region_","gdiplus._gdiplus_CLASS_Region_Union_region_"]
+description: The Region::Union method updates this region to all portions (intersecting and nonintersecting) of itself and all portions of another region.
+helpviewer_keywords: ["Region class [GDI+]","Union method","Region.Union","Region.Union(IN const Region)","Region.Union(const Region*)","Region::Union","Region::Union(IN const Region)","Union","Union method [GDI+]","Union method [GDI+]","Region class","_gdiplus_CLASS_Region_Union_region_","gdiplus._gdiplus_CLASS_Region_Union_region_"]
 old-location: gdiplus\_gdiplus_CLASS_Region_Union_region_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\regionclass\regionmethods\regionunionmethods\union_26region.htm

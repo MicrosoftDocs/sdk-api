@@ -1,7 +1,8 @@
 ---
 UID: NF:slpublic.SLDepositMigrationBlob
 title: SLDepositMigrationBlob function (slpublic.h)
-description: Deposits licensing information previously collected and gathered using the SLGatherMigrationBlob function.helpviewer_keywords: ["SLDepositMigrationBlob","SLDepositMigrationBlob function [Security]","security.sldepositmigrationblob","slpublic/SLDepositMigrationBlob"]
+description: Deposits licensing information previously collected and gathered using the SLGatherMigrationBlob function.
+helpviewer_keywords: ["SLDepositMigrationBlob","SLDepositMigrationBlob function [Security]","security.sldepositmigrationblob","slpublic/SLDepositMigrationBlob"]
 old-location: security\sldepositmigrationblob.htm
 tech.root: SecSLApi
 ms.assetid: 0fe3e466-c4df-4c11-9689-1002045df791

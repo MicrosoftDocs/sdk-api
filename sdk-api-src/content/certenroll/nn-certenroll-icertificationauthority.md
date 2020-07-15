@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.ICertificationAuthority
 title: ICertificationAuthority (certenroll.h)
-description: The ICertificationAuthority interface represents a single certification authority. A collection of certification authorities is represented by the ICertificationAuthorities interface.helpviewer_keywords: ["ICertificationAuthority","ICertificationAuthority interface [Security]","ICertificationAuthority interface [Security]","described","certenroll/ICertificationAuthority","security.icertificationauthority"]
+description: The ICertificationAuthority interface represents a single certification authority. A collection of certification authorities is represented by the ICertificationAuthorities interface.
+helpviewer_keywords: ["ICertificationAuthority","ICertificationAuthority interface [Security]","ICertificationAuthority interface [Security]","described","certenroll/ICertificationAuthority","security.icertificationauthority"]
 old-location: security\icertificationauthority.htm
 tech.root: seccertenroll
 ms.assetid: ffd64396-a258-4cf5-aca1-a61102ecf313

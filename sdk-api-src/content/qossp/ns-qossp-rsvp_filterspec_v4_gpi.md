@@ -1,7 +1,8 @@
 ---
 UID: NS:qossp._RSVP_FILTERSPEC_V4_GPI
 title: RSVP_FILTERSPEC_V4_GPI (qossp.h)
-description: The RSVP_FILTERSPEC_V4_GPI structure provides general port identifier information for a given FILTERSPEC.helpviewer_keywords: ["*LPRSVP_FILTERSPEC_V4_GPI","*LPRSVP_FILTERSPEC_V4_GPI structure [QOS]","RSVP_FILTERSPEC_V4_GPI","RSVP_FILTERSPEC_V4_GPI structure [QOS]","qos.rsvp_filterspec_v4_gpi","qossp/*LPRSVP_FILTERSPEC_V4_GPI","qossp/RSVP_FILTERSPEC_V4_GPI"]
+description: The RSVP_FILTERSPEC_V4_GPI structure provides general port identifier information for a given FILTERSPEC.
+helpviewer_keywords: ["*LPRSVP_FILTERSPEC_V4_GPI","*LPRSVP_FILTERSPEC_V4_GPI structure [QOS]","RSVP_FILTERSPEC_V4_GPI","RSVP_FILTERSPEC_V4_GPI structure [QOS]","qos.rsvp_filterspec_v4_gpi","qossp/*LPRSVP_FILTERSPEC_V4_GPI","qossp/RSVP_FILTERSPEC_V4_GPI"]
 old-location: qos\rsvp_filterspec_v4_gpi.htm
 tech.root: QOS
 ms.assetid: bedb3526-700c-4c99-ba02-19389a78acf8

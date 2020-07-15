@@ -1,7 +1,8 @@
 ---
 UID: NF:wsddisco.WSDCreateDiscoveryProvider
 title: WSDCreateDiscoveryProvider function (wsddisco.h)
-description: Creates an IWSDiscoveryProvider object.helpviewer_keywords: ["WSDCreateDiscoveryProvider","WSDCreateDiscoveryProvider function","ncd.wsdcreatediscoveryprovider_func","wsddisco/WSDCreateDiscoveryProvider"]
+description: Creates an IWSDiscoveryProvider object.
+helpviewer_keywords: ["WSDCreateDiscoveryProvider","WSDCreateDiscoveryProvider function","ncd.wsdcreatediscoveryprovider_func","wsddisco/WSDCreateDiscoveryProvider"]
 old-location: ncd\wsdcreatediscoveryprovider_func.htm
 tech.root: WsdApi
 ms.assetid: 44275cbe-ea02-41fd-b88d-81d4df966067

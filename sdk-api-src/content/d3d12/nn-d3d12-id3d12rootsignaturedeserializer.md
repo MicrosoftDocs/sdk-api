@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d12.ID3D12RootSignatureDeserializer
 title: ID3D12RootSignatureDeserializer (d3d12.h)
-description: Contains a method to return the deserialized D3D12_ROOT_SIGNATURE_DESC data structure, of a serialized root signature version 1.0.helpviewer_keywords: ["ID3D12RootSignatureDeserializer","ID3D12RootSignatureDeserializer interface","ID3D12RootSignatureDeserializer interface","described","d3d12/ID3D12RootSignatureDeserializer","direct3d12.id3d12rootsignaturedeserializer"]
+description: Contains a method to return the deserialized D3D12_ROOT_SIGNATURE_DESC data structure, of a serialized root signature version 1.0.
+helpviewer_keywords: ["ID3D12RootSignatureDeserializer","ID3D12RootSignatureDeserializer interface","ID3D12RootSignatureDeserializer interface","described","d3d12/ID3D12RootSignatureDeserializer","direct3d12.id3d12rootsignaturedeserializer"]
 old-location: direct3d12\id3d12rootsignaturedeserializer.htm
 tech.root: direct3d12
 ms.assetid: FEDA0802-45A6-4ED5-9683-5278BD60B7A4

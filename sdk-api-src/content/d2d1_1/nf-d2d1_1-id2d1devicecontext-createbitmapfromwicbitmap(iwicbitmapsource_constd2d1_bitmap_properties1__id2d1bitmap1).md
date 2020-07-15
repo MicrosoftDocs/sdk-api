@@ -1,7 +1,8 @@
 ---
-UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1)
+UID: NF:d2d1_1.ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource,constD2D1_BITMAP_PROPERTIES1&,ID2D1Bitmap1)
 title: ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource,const D2D1_BITMAP_PROPERTIES1 &,ID2D1Bitmap1) (d2d1_1.h)
-description: Creates a Direct2D bitmap by copying a WIC bitmap.helpviewer_keywords: ["CreateBitmapFromWicBitmap","CreateBitmapFromWicBitmap method [Direct2D]","CreateBitmapFromWicBitmap method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","CreateBitmapFromWicBitmap method","ID2D1DeviceContext.CreateBitmapFromWicBitmap","ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource","const D2D1_BITMAP_PROPERTIES1 &","ID2D1Bitmap1)","ID2D1DeviceContext::CreateBitmapFromWicBitmap","ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource","const D2D1_BITMAP_PROPERTIES1 &","ID2D1Bitmap1)","d2d1_1/ID2D1DeviceContext::CreateBitmapFromWicBitmap","direct2d.id2d1devicecontext_createbitmapfromwicbitmap2"]
+description: Creates a Direct2D bitmap by copying a WIC bitmap.
+helpviewer_keywords: ["CreateBitmapFromWicBitmap","CreateBitmapFromWicBitmap method [Direct2D]","CreateBitmapFromWicBitmap method [Direct2D]","ID2D1DeviceContext interface","ID2D1DeviceContext interface [Direct2D]","CreateBitmapFromWicBitmap method","ID2D1DeviceContext.CreateBitmapFromWicBitmap","ID2D1DeviceContext.CreateBitmapFromWicBitmap(IWICBitmapSource","const D2D1_BITMAP_PROPERTIES1 &","ID2D1Bitmap1)","ID2D1DeviceContext::CreateBitmapFromWicBitmap","ID2D1DeviceContext::CreateBitmapFromWicBitmap(IWICBitmapSource","const D2D1_BITMAP_PROPERTIES1 &","ID2D1Bitmap1)","d2d1_1/ID2D1DeviceContext::CreateBitmapFromWicBitmap","direct2d.id2d1devicecontext_createbitmapfromwicbitmap2"]
 old-location: direct2d\id2d1devicecontext_createbitmapfromwicbitmap2.htm
 tech.root: Direct2D
 ms.assetid: 74CB0A1C-2103-4C43-87C7-50C55057424D

@@ -1,7 +1,8 @@
 ---
 UID: NN:spatialaudioclient.ISpatialAudioObjectRenderStreamNotify
 title: ISpatialAudioObjectRenderStreamNotify (spatialaudioclient.h)
-description: Provides notifications for spatial audio clients to respond to changes in the state of an ISpatialAudioObjectRenderStream.helpviewer_keywords: ["ISpatialAudioObjectRenderStreamNotify","ISpatialAudioObjectRenderStreamNotify interface [Core Audio]","ISpatialAudioObjectRenderStreamNotify interface [Core Audio]","described","coreaudio.ispatialaudioobjectrenderstreamnotify","spatialaudioclient/ISpatialAudioObjectRenderStreamNotify"]
+description: Provides notifications for spatial audio clients to respond to changes in the state of an ISpatialAudioObjectRenderStream.
+helpviewer_keywords: ["ISpatialAudioObjectRenderStreamNotify","ISpatialAudioObjectRenderStreamNotify interface [Core Audio]","ISpatialAudioObjectRenderStreamNotify interface [Core Audio]","described","coreaudio.ispatialaudioobjectrenderstreamnotify","spatialaudioclient/ISpatialAudioObjectRenderStreamNotify"]
 old-location: coreaudio\ispatialaudioobjectrenderstreamnotify.htm
 tech.root: CoreAudio
 ms.assetid: 3729D985-9040-43AD-A8B0-045509FE2F20

@@ -1,7 +1,8 @@
 ---
 UID: NS:ddkmapi._DDOPENSURFACEOUT
 title: DDOPENSURFACEOUT (ddkmapi.h)
-description: The DDOPENSURFACEOUT structure contains a new DirectDrawSurface handle, if the ddRVal member of DDOPENSURFACEOUT is set to DD_OK. This new handle must be used on all subsequent calls that require a DirectDrawSurface handle.helpviewer_keywords: ["*LPDDOPENSURFACEOUT","DDOPENSURFACEOUT","DDOPENSURFACEOUT structure [Display Devices]","LPDDOPENSURFACEOUT","LPDDOPENSURFACEOUT structure pointer [Display Devices]","ddkmapi/DDOPENSURFACEOUT","ddkmapi/LPDDOPENSURFACEOUT","ddstrcts_911314a4-692d-4909-9c30-e868a767e031.xml","display.ddopensurfaceout"]
+description: The DDOPENSURFACEOUT structure contains a new DirectDrawSurface handle, if the ddRVal member of DDOPENSURFACEOUT is set to DD_OK. This new handle must be used on all subsequent calls that require a DirectDrawSurface handle.
+helpviewer_keywords: ["*LPDDOPENSURFACEOUT","DDOPENSURFACEOUT","DDOPENSURFACEOUT structure [Display Devices]","LPDDOPENSURFACEOUT","LPDDOPENSURFACEOUT structure pointer [Display Devices]","ddkmapi/DDOPENSURFACEOUT","ddkmapi/LPDDOPENSURFACEOUT","ddstrcts_911314a4-692d-4909-9c30-e868a767e031.xml","display.ddopensurfaceout"]
 old-location: display\ddopensurfaceout.htm
 tech.root: display
 ms.assetid: 0cf0db38-f512-4ca1-a386-5544a1c9433e

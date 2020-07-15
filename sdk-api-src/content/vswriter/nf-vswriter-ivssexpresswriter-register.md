@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssExpressWriter.Register
 title: IVssExpressWriter::Register (vswriter.h)
-description: Causes VSS to store the writer's metadata in the express writer metadata store.helpviewer_keywords: ["IVssExpressWriter interface","Register method","IVssExpressWriter.Register","IVssExpressWriter::Register","Register","Register method","Register method","IVssExpressWriter interface","base.ivssexpresswriter_register","vswriter/IVssExpressWriter::Register"]
+description: Causes VSS to store the writer's metadata in the express writer metadata store.
+helpviewer_keywords: ["IVssExpressWriter interface","Register method","IVssExpressWriter.Register","IVssExpressWriter::Register","Register","Register method","Register method","IVssExpressWriter interface","base.ivssexpresswriter_register","vswriter/IVssExpressWriter::Register"]
 old-location: base\ivssexpresswriter_register.htm
 tech.root: VSS
 ms.assetid: 75cdc416-5fb6-4c9e-b7ab-f79b091786b2

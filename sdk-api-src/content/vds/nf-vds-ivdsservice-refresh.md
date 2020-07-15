@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsService.Refresh
 title: IVdsService::Refresh (vds.h)
-description: Refreshes disk-ownership and disk-layout information.helpviewer_keywords: ["IVdsService interface [VDS]","Refresh method","IVdsService.Refresh","IVdsService::Refresh","Refresh","Refresh method [VDS]","Refresh method [VDS]","IVdsService interface","base.ivdsservice_refresh","vds/IVdsService::Refresh"]
+description: Refreshes disk-ownership and disk-layout information.
+helpviewer_keywords: ["IVdsService interface [VDS]","Refresh method","IVdsService.Refresh","IVdsService::Refresh","Refresh","Refresh method [VDS]","Refresh method [VDS]","IVdsService interface","base.ivdsservice_refresh","vds/IVdsService::Refresh"]
 old-location: base\ivdsservice_refresh.htm
 tech.root: VDS
 ms.assetid: ca6a1143-b5f0-49e5-8505-836c565aabcf

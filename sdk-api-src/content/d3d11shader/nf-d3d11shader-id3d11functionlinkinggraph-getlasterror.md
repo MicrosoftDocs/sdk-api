@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11shader.ID3D11FunctionLinkingGraph.GetLastError
 title: ID3D11FunctionLinkingGraph::GetLastError (d3d11shader.h)
-description: Gets the error from the last function call of the function-linking-graph.helpviewer_keywords: ["GetLastError","GetLastError method [Direct3D 11]","GetLastError method [Direct3D 11]","ID3D11FunctionLinkingGraph interface","ID3D11FunctionLinkingGraph interface [Direct3D 11]","GetLastError method","ID3D11FunctionLinkingGraph.GetLastError","ID3D11FunctionLinkingGraph::GetLastError","d3d11shader/ID3D11FunctionLinkingGraph::GetLastError","direct3d11.id3d11functionlinkinggraph_getlasterror"]
+description: Gets the error from the last function call of the function-linking-graph.
+helpviewer_keywords: ["GetLastError","GetLastError method [Direct3D 11]","GetLastError method [Direct3D 11]","ID3D11FunctionLinkingGraph interface","ID3D11FunctionLinkingGraph interface [Direct3D 11]","GetLastError method","ID3D11FunctionLinkingGraph.GetLastError","ID3D11FunctionLinkingGraph::GetLastError","d3d11shader/ID3D11FunctionLinkingGraph::GetLastError","direct3d11.id3d11functionlinkinggraph_getlasterror"]
 old-location: direct3d11\id3d11functionlinkinggraph_getlasterror.htm
 tech.root: direct3d11
 ms.assetid: 5BD10944-5C49-4DA2-A2B7-73DA21A49A12

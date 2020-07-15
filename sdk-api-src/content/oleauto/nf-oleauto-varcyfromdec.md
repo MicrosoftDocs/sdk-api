@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarCyFromDec
 title: VarCyFromDec function (oleauto.h)
-description: Converts a decimal value to a currency value.helpviewer_keywords: ["VarCyFromDec","VarCyFromDec function [Automation]","_oa96_VarCyFromDec","automat.varcyfromdec","oleauto/VarCyFromDec"]
+description: Converts a decimal value to a currency value.
+helpviewer_keywords: ["VarCyFromDec","VarCyFromDec function [Automation]","_oa96_VarCyFromDec","automat.varcyfromdec","oleauto/VarCyFromDec"]
 old-location: automat\varcyfromdec.htm
 tech.root: automat
 ms.assetid: a7bf1ea2-b127-410c-8b11-84b786ad4a34

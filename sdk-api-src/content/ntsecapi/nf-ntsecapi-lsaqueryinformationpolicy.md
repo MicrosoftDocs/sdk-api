@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaQueryInformationPolicy
 title: LsaQueryInformationPolicy function (ntsecapi.h)
-description: Retrieves information about a Policy object.helpviewer_keywords: ["LsaQueryInformationPolicy","LsaQueryInformationPolicy function [Security]","PolicyAccountDomainInformation","PolicyAuditEventsInformation","PolicyDnsDomainInformation","PolicyLsaServerRoleInformation","PolicyModificationInformation","PolicyPrimaryDomainInformation","_lsa_lsaqueryinformationpolicy","ntsecapi/LsaQueryInformationPolicy","security.lsaqueryinformationpolicy"]
+description: Retrieves information about a Policy object.
+helpviewer_keywords: ["LsaQueryInformationPolicy","LsaQueryInformationPolicy function [Security]","PolicyAccountDomainInformation","PolicyAuditEventsInformation","PolicyDnsDomainInformation","PolicyLsaServerRoleInformation","PolicyModificationInformation","PolicyPrimaryDomainInformation","_lsa_lsaqueryinformationpolicy","ntsecapi/LsaQueryInformationPolicy","security.lsaqueryinformationpolicy"]
 old-location: security\lsaqueryinformationpolicy.htm
 tech.root: SecAuthN
 ms.assetid: 2d543500-f639-4ef7-91f4-cdc5060dd567

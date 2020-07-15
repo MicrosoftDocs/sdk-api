@@ -1,7 +1,8 @@
 ---
 UID: NF:mfobjects.IMFMediaEventQueue.EndGetEvent
 title: IMFMediaEventQueue::EndGetEvent (mfobjects.h)
-description: Completes an asynchronous request for the next event in the queue.Call this method inside your implementation of IMFMediaEventGenerator::EndGetEvent. Pass the parameters from that method directly to this method.helpviewer_keywords: ["EndGetEvent","EndGetEvent method [Media Foundation]","EndGetEvent method [Media Foundation]","IMFMediaEventQueue interface","IMFMediaEventQueue interface [Media Foundation]","EndGetEvent method","IMFMediaEventQueue.EndGetEvent","IMFMediaEventQueue::EndGetEvent","bb0ea226-9dc0-43e3-a482-cfec531b5734","mf.imfmediaeventqueue_endgetevent","mfobjects/IMFMediaEventQueue::EndGetEvent"]
+description: Completes an asynchronous request for the next event in the queue.Call this method inside your implementation of IMFMediaEventGenerator::EndGetEvent. Pass the parameters from that method directly to this method.
+helpviewer_keywords: ["EndGetEvent","EndGetEvent method [Media Foundation]","EndGetEvent method [Media Foundation]","IMFMediaEventQueue interface","IMFMediaEventQueue interface [Media Foundation]","EndGetEvent method","IMFMediaEventQueue.EndGetEvent","IMFMediaEventQueue::EndGetEvent","bb0ea226-9dc0-43e3-a482-cfec531b5734","mf.imfmediaeventqueue_endgetevent","mfobjects/IMFMediaEventQueue::EndGetEvent"]
 old-location: mf\imfmediaeventqueue_endgetevent.htm
 tech.root: medfound
 ms.assetid: bb0ea226-9dc0-43e3-a482-cfec531b5734

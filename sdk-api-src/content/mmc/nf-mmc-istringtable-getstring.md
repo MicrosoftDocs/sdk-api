@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IStringTable.GetString
 title: IStringTable::GetString (mmc.h)
-description: Enables a snap-in to retrieve a string from the snap-in's string table.helpviewer_keywords: ["GetString","GetString method [MMC]","GetString method [MMC]","IStringTable interface","IStringTable interface [MMC]","GetString method","IStringTable.GetString","IStringTable::GetString","_slate_istringtable_getstring","mmc.istringtable_getstring","mmc/IStringTable::GetString"]
+description: Enables a snap-in to retrieve a string from the snap-in's string table.
+helpviewer_keywords: ["GetString","GetString method [MMC]","GetString method [MMC]","IStringTable interface","IStringTable interface [MMC]","GetString method","IStringTable.GetString","IStringTable::GetString","_slate_istringtable_getstring","mmc.istringtable_getstring","mmc/IStringTable::GetString"]
 old-location: mmc\istringtable_getstring.htm
 tech.root: mmc
 ms.assetid: 34dbf92a-b54d-4f60-87ff-493c9946a57d

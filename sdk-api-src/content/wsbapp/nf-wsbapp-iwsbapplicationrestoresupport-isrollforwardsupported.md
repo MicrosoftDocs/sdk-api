@@ -1,7 +1,8 @@
 ---
 UID: NF:wsbapp.IWsbApplicationRestoreSupport.IsRollForwardSupported
 title: IWsbApplicationRestoreSupport::IsRollForwardSupported (wsbapp.h)
-description: Reports whether the application supports roll-forward restore.helpviewer_keywords: ["IWsbApplicationRestoreSupport interface [Windows Server Backup]","IsRollForwardSupported method","IWsbApplicationRestoreSupport.IsRollForwardSupported","IWsbApplicationRestoreSupport::IsRollForwardSupported","IsRollForwardSupported","IsRollForwardSupported method [Windows Server Backup]","IsRollForwardSupported method [Windows Server Backup]","IWsbApplicationRestoreSupport interface","wsb.iwsbapplicationrestoresupport_isrollforwardsupported","wsbapp/IWsbApplicationRestoreSupport::IsRollForwardSupported"]
+description: Reports whether the application supports roll-forward restore.
+helpviewer_keywords: ["IWsbApplicationRestoreSupport interface [Windows Server Backup]","IsRollForwardSupported method","IWsbApplicationRestoreSupport.IsRollForwardSupported","IWsbApplicationRestoreSupport::IsRollForwardSupported","IsRollForwardSupported","IsRollForwardSupported method [Windows Server Backup]","IsRollForwardSupported method [Windows Server Backup]","IWsbApplicationRestoreSupport interface","wsb.iwsbapplicationrestoresupport_isrollforwardsupported","wsbapp/IWsbApplicationRestoreSupport::IsRollForwardSupported"]
 old-location: wsb\iwsbapplicationrestoresupport_isrollforwardsupported.htm
 tech.root: wsb
 ms.assetid: 6dae61b7-0e52-42f7-8ca4-b3566f6b4bbc

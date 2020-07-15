@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.BSTR_UserUnmarshal64
 title: BSTR_UserUnmarshal64 function (oaidl.h)
-description: Unmarshals a BSTR object from the RPC buffer.helpviewer_keywords: ["BSTR_UserUnmarshal64","BSTR_UserUnmarshal64 function [Automation]","automat.bstr_userunmarshal64","oaidl/BSTR_UserUnmarshal64"]
+description: Unmarshals a BSTR object from the RPC buffer.
+helpviewer_keywords: ["BSTR_UserUnmarshal64","BSTR_UserUnmarshal64 function [Automation]","automat.bstr_userunmarshal64","oaidl/BSTR_UserUnmarshal64"]
 old-location: automat\bstr_userunmarshal64.htm
 tech.root: automat
 ms.assetid: 5d0bb71f-f8a2-4af7-b7e4-177997af2c9b

@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.CopyMetaFileW
 title: CopyMetaFileW function (wingdi.h)
-description: The CopyMetaFile function copies the content of a Windows-format metafile to the specified file.helpviewer_keywords: ["CopyMetaFile","CopyMetaFile function [Windows GDI]","CopyMetaFileA","CopyMetaFileW","_win32_CopyMetaFile","gdi.copymetafile","wingdi/CopyMetaFile","wingdi/CopyMetaFileA","wingdi/CopyMetaFileW"]
+description: The CopyMetaFile function copies the content of a Windows-format metafile to the specified file.
+helpviewer_keywords: ["CopyMetaFile","CopyMetaFile function [Windows GDI]","CopyMetaFileA","CopyMetaFileW","_win32_CopyMetaFile","gdi.copymetafile","wingdi/CopyMetaFile","wingdi/CopyMetaFileA","wingdi/CopyMetaFileW"]
 old-location: gdi\copymetafile.htm
 tech.root: gdi
 ms.assetid: e9f97591-697b-47d0-a748-60fda4d5258c
@@ -92,6 +93,10 @@ When the application no longer needs the Windows-format metafile handle, it shou
 
 
 
+
+
+> [!NOTE]
+> The wingdi.h header defines CopyMetaFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

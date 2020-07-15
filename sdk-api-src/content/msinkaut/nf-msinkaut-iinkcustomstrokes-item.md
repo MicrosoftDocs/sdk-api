@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkCustomStrokes.Item
 title: IInkCustomStrokes::Item (msinkaut.h)
-description: Retrieves the InkStrokes Collection at the location specified within the IInkCustomStrokes Interface.helpviewer_keywords: ["14cdc466-2acf-4af0-8fbc-74233edf3884","IInkCustomStrokes interface [Tablet PC]","Item method","IInkCustomStrokes.Item","IInkCustomStrokes::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkCustomStrokes interface","msinkaut/IInkCustomStrokes::Item","tablet.iinkcustomstrokes_item"]
+description: Retrieves the InkStrokes Collection at the location specified within the IInkCustomStrokes Interface.
+helpviewer_keywords: ["14cdc466-2acf-4af0-8fbc-74233edf3884","IInkCustomStrokes interface [Tablet PC]","Item method","IInkCustomStrokes.Item","IInkCustomStrokes::Item","Item","Item method [Tablet PC]","Item method [Tablet PC]","IInkCustomStrokes interface","msinkaut/IInkCustomStrokes::Item","tablet.iinkcustomstrokes_item"]
 old-location: tablet\iinkcustomstrokes_item.htm
 tech.root: tablet
 ms.assetid: 14cdc466-2acf-4af0-8fbc-74233edf3884

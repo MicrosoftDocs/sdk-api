@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleCreateLink
 title: OleCreateLink function (ole2.h)
-description: Creates an OLE compound-document linked object.helpviewer_keywords: ["OleCreateLink","OleCreateLink function [COM]","_ole_OleCreateLink","com.olecreatelink","ole2/OleCreateLink"]
+description: Creates an OLE compound-document linked object.
+helpviewer_keywords: ["OleCreateLink","OleCreateLink function [COM]","_ole_OleCreateLink","com.olecreatelink","ole2/OleCreateLink"]
 old-location: com\olecreatelink.htm
 tech.root: com
 ms.assetid: ef52dc37-aa63-47f3-a04f-f9d22178690f

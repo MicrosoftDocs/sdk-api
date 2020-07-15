@@ -1,7 +1,8 @@
 ---
 UID: NF:shimgdata.IShellImageData.GetDelay
 title: IShellImageData::GetDelay (shimgdata.h)
-description: Gets the delay value for the current frame of an animation.helpviewer_keywords: ["GetDelay","GetDelay method [Windows Shell]","GetDelay method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","GetDelay method","IShellImageData.GetDelay","IShellImageData::GetDelay","_shell_IShellImageData_GetDelay","shell.IShellImageData_GetDelay","shimgdata/IShellImageData::GetDelay"]
+description: Gets the delay value for the current frame of an animation.
+helpviewer_keywords: ["GetDelay","GetDelay method [Windows Shell]","GetDelay method [Windows Shell]","IShellImageData interface","IShellImageData interface [Windows Shell]","GetDelay method","IShellImageData.GetDelay","IShellImageData::GetDelay","_shell_IShellImageData_GetDelay","shell.IShellImageData_GetDelay","shimgdata/IShellImageData::GetDelay"]
 old-location: shell\IShellImageData_GetDelay.htm
 tech.root: shell
 ms.assetid: b5815771-7c96-4431-bc43-a5e620bd1d2f

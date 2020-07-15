@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509CertificateRequest.get_CspInformations
 title: IX509CertificateRequest::get_CspInformations (certenroll.h)
-description: Specifies and retrieves a collection of cryptographic providers available for use by the request object.helpviewer_keywords: ["CspInformations property [Security]","CspInformations property [Security]","IX509CertificateRequest interface","IX509CertificateRequest interface [Security]","CspInformations property","IX509CertificateRequest.CspInformations","IX509CertificateRequest.get_CspInformations","IX509CertificateRequest::CspInformations","IX509CertificateRequest::get_CspInformations","IX509CertificateRequest::put_CspInformations","certenroll/IX509CertificateRequest::CspInformations","certenroll/IX509CertificateRequest::get_CspInformations","certenroll/IX509CertificateRequest::put_CspInformations","get_CspInformations","security.ix509certificaterequest_cspinformations_property"]
+description: Specifies and retrieves a collection of cryptographic providers available for use by the request object.
+helpviewer_keywords: ["CspInformations property [Security]","CspInformations property [Security]","IX509CertificateRequest interface","IX509CertificateRequest interface [Security]","CspInformations property","IX509CertificateRequest.CspInformations","IX509CertificateRequest.get_CspInformations","IX509CertificateRequest::CspInformations","IX509CertificateRequest::get_CspInformations","IX509CertificateRequest::put_CspInformations","certenroll/IX509CertificateRequest::CspInformations","certenroll/IX509CertificateRequest::get_CspInformations","certenroll/IX509CertificateRequest::put_CspInformations","get_CspInformations","security.ix509certificaterequest_cspinformations_property"]
 old-location: security\ix509certificaterequest_cspinformations_property.htm
 tech.root: seccertenroll
 ms.assetid: 7be532ab-0ab0-4c22-b274-c925fd5827d5

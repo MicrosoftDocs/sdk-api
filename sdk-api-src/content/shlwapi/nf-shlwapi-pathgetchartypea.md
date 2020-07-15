@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathGetCharTypeA
 title: PathGetCharTypeA function (shlwapi.h)
-description: Determines the type of character in relation to a path.helpviewer_keywords: ["PathGetCharType","PathGetCharType function [Windows Shell]","PathGetCharTypeA","PathGetCharTypeW","_win32_PathGetCharType","shell.PathGetCharType","shlwapi/PathGetCharType","shlwapi/PathGetCharTypeA","shlwapi/PathGetCharTypeW"]
+description: Determines the type of character in relation to a path.
+helpviewer_keywords: ["PathGetCharType","PathGetCharType function [Windows Shell]","PathGetCharTypeA","PathGetCharTypeW","_win32_PathGetCharType","shell.PathGetCharType","shlwapi/PathGetCharType","shlwapi/PathGetCharTypeA","shlwapi/PathGetCharTypeW"]
 old-location: shell\PathGetCharType.htm
 tech.root: shell
 ms.assetid: 838a255f-413e-424c-819e-47265224208d
@@ -141,4 +142,9 @@ The character is a wildcard character.
  
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines PathGetCharType as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

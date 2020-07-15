@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_SUBRESOURCE_DATA
 title: D3D11_SUBRESOURCE_DATA (d3d11.h)
-description: Specifies data for initializing a subresource.helpviewer_keywords: ["9f8b9590-da23-b969-b66b-241a33559322","D3D11_SUBRESOURCE_DATA","D3D11_SUBRESOURCE_DATA structure [Direct3D 11]","d3d11/D3D11_SUBRESOURCE_DATA","direct3d11.d3d11_subresource_data"]
+description: Specifies data for initializing a subresource.
+helpviewer_keywords: ["9f8b9590-da23-b969-b66b-241a33559322","D3D11_SUBRESOURCE_DATA","D3D11_SUBRESOURCE_DATA structure [Direct3D 11]","d3d11/D3D11_SUBRESOURCE_DATA","direct3d11.d3d11_subresource_data"]
 old-location: direct3d11\d3d11_subresource_data.htm
 tech.root: direct3d11
 ms.assetid: 0ae10f12-4ef7-4dab-a7d7-fb4f2fd72a73

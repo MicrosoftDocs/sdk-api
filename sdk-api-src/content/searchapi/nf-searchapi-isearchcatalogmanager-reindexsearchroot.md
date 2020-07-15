@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.ReindexSearchRoot
 title: ISearchCatalogManager::ReindexSearchRoot (searchapi.h)
-description: Re-indexes all URLs from a specified root.helpviewer_keywords: ["ISearchCatalogManager interface [search]","ReindexSearchRoot method","ISearchCatalogManager.ReindexSearchRoot","ISearchCatalogManager::ReindexSearchRoot","ReindexSearchRoot","ReindexSearchRoot method [search]","ReindexSearchRoot method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_ReindexSearchRoot","search._search_ISearchCatalogManager_ReindexSearchRoot","searchapi/ISearchCatalogManager::ReindexSearchRoot"]
+description: Re-indexes all URLs from a specified root.
+helpviewer_keywords: ["ISearchCatalogManager interface [search]","ReindexSearchRoot method","ISearchCatalogManager.ReindexSearchRoot","ISearchCatalogManager::ReindexSearchRoot","ReindexSearchRoot","ReindexSearchRoot method [search]","ReindexSearchRoot method [search]","ISearchCatalogManager interface","_search_ISearchCatalogManager_ReindexSearchRoot","search._search_ISearchCatalogManager_ReindexSearchRoot","searchapi/ISearchCatalogManager::ReindexSearchRoot"]
 old-location: search\_search_ISearchCatalogManager_ReindexSearchRoot.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\reindexsearchroot.htm

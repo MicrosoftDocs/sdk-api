@@ -1,7 +1,8 @@
 ---
 UID: NF:errhandlingapi.FatalAppExitA
 title: FatalAppExitA function (errhandlingapi.h)
-description: Displays a message box and terminates the application when the message box is closed.helpviewer_keywords: ["FatalAppExit","FatalAppExit function","FatalAppExitA","FatalAppExitW","_win32_fatalappexit","base.fatalappexit","errhandlingapi/FatalAppExit","errhandlingapi/FatalAppExitA","errhandlingapi/FatalAppExitW"]
+description: Displays a message box and terminates the application when the message box is closed.
+helpviewer_keywords: ["FatalAppExit","FatalAppExit function","FatalAppExitA","FatalAppExitW","_win32_fatalappexit","base.fatalappexit","errhandlingapi/FatalAppExit","errhandlingapi/FatalAppExitA","errhandlingapi/FatalAppExitW"]
 old-location: base\fatalappexit.htm
 tech.root: Debug
 ms.assetid: f18d8b16-ffe1-49f1-98be-ba8d49db86ef
@@ -92,6 +93,10 @@ An application calls
 
 
 
+
+
+> [!NOTE]
+> The errhandlingapi.h header defines FatalAppExit as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

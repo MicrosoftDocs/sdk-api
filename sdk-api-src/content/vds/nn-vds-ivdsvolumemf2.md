@@ -1,7 +1,8 @@
 ---
 UID: NN:vds.IVdsVolumeMF2
 title: IVdsVolumeMF2 (vds.h)
-description: Provides methods to perform additional file system management operations on the volume object.helpviewer_keywords: ["IVdsVolumeMF2","IVdsVolumeMF2 interface","IVdsVolumeMF2 interface","described","base.ivdsvolumemf2","vds/IVdsVolumeMF2"]
+description: Provides methods to perform additional file system management operations on the volume object.
+helpviewer_keywords: ["IVdsVolumeMF2","IVdsVolumeMF2 interface","IVdsVolumeMF2 interface","described","base.ivdsvolumemf2","vds/IVdsVolumeMF2"]
 old-location: base\ivdsvolumemf2.htm
 tech.root: VDS
 ms.assetid: 3219233e-7141-472a-8cb9-207222a4e775

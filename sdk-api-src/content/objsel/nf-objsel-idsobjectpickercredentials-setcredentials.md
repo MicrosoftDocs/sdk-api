@@ -1,7 +1,8 @@
 ---
 UID: NF:objsel.IDsObjectPickerCredentials.SetCredentials
 title: IDsObjectPickerCredentials::SetCredentials (objsel.h)
-description: Use this method to override the user credentials, passing new credentials for the account profile to be used.helpviewer_keywords: ["IDsObjectPickerCredentials interface [Active Directory]","SetCredentials method","IDsObjectPickerCredentials.SetCredentials","IDsObjectPickerCredentials::SetCredentials","SetCredentials","SetCredentials method [Active Directory]","SetCredentials method [Active Directory]","IDsObjectPickerCredentials interface","ad.idsobjectpickercredentials_setcredentials","objsel/IDsObjectPickerCredentials::SetCredentials"]
+description: Use this method to override the user credentials, passing new credentials for the account profile to be used.
+helpviewer_keywords: ["IDsObjectPickerCredentials interface [Active Directory]","SetCredentials method","IDsObjectPickerCredentials.SetCredentials","IDsObjectPickerCredentials::SetCredentials","SetCredentials","SetCredentials method [Active Directory]","SetCredentials method [Active Directory]","IDsObjectPickerCredentials interface","ad.idsobjectpickercredentials_setcredentials","objsel/IDsObjectPickerCredentials::SetCredentials"]
 old-location: ad\idsobjectpickercredentials_setcredentials.htm
 tech.root: ad
 ms.assetid: fb1c366d-10df-4e4f-a381-3f085bd136e2

@@ -1,7 +1,8 @@
 ---
 UID: NF:perflib.PerfStartProvider
 title: PerfStartProvider function (perflib.h)
-description: Registers the provider.helpviewer_keywords: ["PerfStartProvider","PerfStartProvider function [Perf]","base.perfstartprovider","perf.perfstartprovider","perflib/PerfStartProvider"]
+description: Registers the provider.
+helpviewer_keywords: ["PerfStartProvider","PerfStartProvider function [Perf]","base.perfstartprovider","perf.perfstartprovider","perflib/PerfStartProvider"]
 old-location: perf\perfstartprovider.htm
 tech.root: perfctrs
 ms.assetid: b417b19b-adbc-40e3-aca1-c2cd94a79232

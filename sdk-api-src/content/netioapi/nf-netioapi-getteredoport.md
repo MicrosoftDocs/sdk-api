@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.GetTeredoPort
 title: GetTeredoPort function (netioapi.h)
-description: Retrieves the dynamic UDP port number used by the Teredo client on the local computer.helpviewer_keywords: ["GetTeredoPort","GetTeredoPort function [IP Helper]","iphlp.getteredoport","netioapi/GetTeredoPort"]
+description: Retrieves the dynamic UDP port number used by the Teredo client on the local computer.
+helpviewer_keywords: ["GetTeredoPort","GetTeredoPort function [IP Helper]","iphlp.getteredoport","netioapi/GetTeredoPort"]
 old-location: iphlp\getteredoport.htm
 tech.root: IpHlp
 ms.assetid: 59d3764d-e560-4474-a73e-ab50bbddbf07

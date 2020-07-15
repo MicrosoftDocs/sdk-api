@@ -1,7 +1,8 @@
 ---
 UID: NS:immdev.tagIMEMENUITEMINFOW
 title: IMEMENUITEMINFOW (immdev.h)
-description: Contains information about IME menu items.helpviewer_keywords: ["*LPIMEMENUITEMINFOW","*NPIMEMENUITEMINFOW","*PIMEMENUITEMINFOW","IMEMENUITEMINFO","IMEMENUITEMINFO structure [Internationalization for Windows Applications]","IMEMENUITEMINFOA","IMEMENUITEMINFOW","PIMEMENUITEMINFO","PIMEMENUITEMINFO structure pointer [Internationalization for Windows Applications]","_win32_IMEMENUITEMINFO_str","imm/IMEMENUITEMINFO","imm/IMEMENUITEMINFOA","imm/IMEMENUITEMINFOW","imm/PIMEMENUITEMINFO","intl.imemenuiteminfo","tagIMEMENUITEMINFOA","tagIMEMENUITEMINFOW"]
+description: Contains information about IME menu items.
+helpviewer_keywords: ["*LPIMEMENUITEMINFOW","*NPIMEMENUITEMINFOW","*PIMEMENUITEMINFOW","IMEMENUITEMINFO","IMEMENUITEMINFO structure [Internationalization for Windows Applications]","IMEMENUITEMINFOA","IMEMENUITEMINFOW","PIMEMENUITEMINFO","PIMEMENUITEMINFO structure pointer [Internationalization for Windows Applications]","_win32_IMEMENUITEMINFO_str","imm/IMEMENUITEMINFO","imm/IMEMENUITEMINFOA","imm/IMEMENUITEMINFOW","imm/PIMEMENUITEMINFO","intl.imemenuiteminfo","tagIMEMENUITEMINFOA","tagIMEMENUITEMINFOW"]
 old-location: intl\imemenuiteminfo.htm
 tech.root: Intl
 ms.assetid: 2e00993f-6720-4139-8097-a3d830e661ca
@@ -184,4 +185,9 @@ Handle to a bitmap to display.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The immdev.h header defines IMEMENUITEMINFO as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

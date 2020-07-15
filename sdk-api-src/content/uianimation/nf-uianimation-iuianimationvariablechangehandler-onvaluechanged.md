@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationVariableChangeHandler.OnValueChanged
 title: IUIAnimationVariableChangeHandler::OnValueChanged (uianimation.h)
-description: Handles events that occur when the value of an animation variable changes.helpviewer_keywords: ["IUIAnimationVariableChangeHandler interface [Windows Animation]","OnValueChanged method","IUIAnimationVariableChangeHandler.OnValueChanged","IUIAnimationVariableChangeHandler::OnValueChanged","OnValueChanged","OnValueChanged method [Windows Animation]","OnValueChanged method [Windows Animation]","IUIAnimationVariableChangeHandler interface","uianimation.iuianimationvariablechangehandler_onvaluechanged","uianimation/IUIAnimationVariableChangeHandler::OnValueChanged"]
+description: Handles events that occur when the value of an animation variable changes.
+helpviewer_keywords: ["IUIAnimationVariableChangeHandler interface [Windows Animation]","OnValueChanged method","IUIAnimationVariableChangeHandler.OnValueChanged","IUIAnimationVariableChangeHandler::OnValueChanged","OnValueChanged","OnValueChanged method [Windows Animation]","OnValueChanged method [Windows Animation]","IUIAnimationVariableChangeHandler interface","uianimation.iuianimationvariablechangehandler_onvaluechanged","uianimation/IUIAnimationVariableChangeHandler::OnValueChanged"]
 old-location: uianimation\iuianimationvariablechangehandler_onvaluechanged.htm
 tech.root: UIAnimation
 ms.assetid: 1e865f55-d703-4d91-8690-b816b5fe1a89

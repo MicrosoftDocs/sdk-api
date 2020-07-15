@@ -1,7 +1,8 @@
 ---
 UID: NC:dxmini.PDX_IRQCALLBACK
 title: PDX_IRQCALLBACK (dxmini.h)
-description: The IRQCallback function performs operations related to the IRQ that occurred.helpviewer_keywords: ["IRQCallback","IRQCallback callback function [Display Devices]","PDX_IRQCALLBACK","PDX_IRQCALLBACK callback","ddfncs_761fa81e-0ee5-45f4-9e33-36ecfe5c00fb.xml","display.irqcallback","dxmini/IRQCallback"]
+description: The IRQCallback function performs operations related to the IRQ that occurred.
+helpviewer_keywords: ["IRQCallback","IRQCallback callback function [Display Devices]","PDX_IRQCALLBACK","PDX_IRQCALLBACK callback","ddfncs_761fa81e-0ee5-45f4-9e33-36ecfe5c00fb.xml","display.irqcallback","dxmini/IRQCallback"]
 old-location: display\irqcallback.htm
 tech.root: display
 ms.assetid: c4e47fb2-0d41-4efe-8f84-41e279ac8bbb

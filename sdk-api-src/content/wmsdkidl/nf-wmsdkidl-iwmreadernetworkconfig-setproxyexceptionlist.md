@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.SetProxyExceptionList
 title: IWMReaderNetworkConfig::SetProxyExceptionList (wmsdkidl.h)
-description: The SetProxyExceptionList method specifies the proxy exception list.helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetProxyExceptionList method","IWMReaderNetworkConfig.SetProxyExceptionList","IWMReaderNetworkConfig::SetProxyExceptionList","IWMReaderNetworkConfigSetProxyExceptionList","SetProxyExceptionList","SetProxyExceptionList method [windows Media Format]","SetProxyExceptionList method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setproxyexceptionlist","wmsdkidl/IWMReaderNetworkConfig::SetProxyExceptionList"]
+description: The SetProxyExceptionList method specifies the proxy exception list.
+helpviewer_keywords: ["IWMReaderNetworkConfig interface [windows Media Format]","SetProxyExceptionList method","IWMReaderNetworkConfig.SetProxyExceptionList","IWMReaderNetworkConfig::SetProxyExceptionList","IWMReaderNetworkConfigSetProxyExceptionList","SetProxyExceptionList","SetProxyExceptionList method [windows Media Format]","SetProxyExceptionList method [windows Media Format]","IWMReaderNetworkConfig interface","wmformat.iwmreadernetworkconfig_setproxyexceptionlist","wmsdkidl/IWMReaderNetworkConfig::SetProxyExceptionList"]
 old-location: wmformat\iwmreadernetworkconfig_setproxyexceptionlist.htm
 tech.root: wmformat
 ms.assetid: 1f6c6bb6-3a42-44da-ab80-e72a19b8d272

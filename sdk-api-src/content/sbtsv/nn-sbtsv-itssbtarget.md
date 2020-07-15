@@ -1,7 +1,8 @@
 ---
 UID: NN:sbtsv.ITsSbTarget
 title: ITsSbTarget (sbtsv.h)
-description: Exposes properties that store configuration and state information about a target.helpviewer_keywords: ["ITsSbTarget","ITsSbTarget interface [Remote Desktop Services]","ITsSbTarget interface [Remote Desktop Services]","described","sbtsv/ITsSbTarget","termserv.itssbtarget"]
+description: Exposes properties that store configuration and state information about a target.
+helpviewer_keywords: ["ITsSbTarget","ITsSbTarget interface [Remote Desktop Services]","ITsSbTarget interface [Remote Desktop Services]","described","sbtsv/ITsSbTarget","termserv.itssbtarget"]
 old-location: termserv\itssbtarget.htm
 tech.root: TermServ
 ms.assetid: bcb26b43-ec6e-4cc8-9d40-15a7a3a62582

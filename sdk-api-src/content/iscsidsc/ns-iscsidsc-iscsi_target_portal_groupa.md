@@ -1,7 +1,8 @@
 ---
 UID: NS:iscsidsc.__unnamed_struct_13
 title: ISCSI_TARGET_PORTAL_GROUPA (iscsidsc.h)
-description: ISCSI_TARGET_PORTAL_GROUP.helpviewer_keywords: ["*PISCSI_TARGET_PORTAL_GROUPA","ISCSI_TARGET_PORTAL_GROUP","ISCSI_TARGET_PORTAL_GROUP structure [iSCSI Discovery Library API]","ISCSI_TARGET_PORTAL_GROUPA","ISCSI_TARGET_PORTAL_GROUPW","PISCSI_TARGET_PORTAL_GROUP","PISCSI_TARGET_PORTAL_GROUP structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_portal_group","iscsidsc/ISCSI_TARGET_PORTAL_GROUP","iscsidsc/ISCSI_TARGET_PORTAL_GROUPA","iscsidsc/ISCSI_TARGET_PORTAL_GROUPW","iscsidsc/PISCSI_TARGET_PORTAL_GROUP"]
+description: ISCSI_TARGET_PORTAL_GROUP.
+helpviewer_keywords: ["*PISCSI_TARGET_PORTAL_GROUPA","ISCSI_TARGET_PORTAL_GROUP","ISCSI_TARGET_PORTAL_GROUP structure [iSCSI Discovery Library API]","ISCSI_TARGET_PORTAL_GROUPA","ISCSI_TARGET_PORTAL_GROUPW","PISCSI_TARGET_PORTAL_GROUP","PISCSI_TARGET_PORTAL_GROUP structure pointer [iSCSI Discovery Library API]","iscsidisc.iscsi_target_portal_group","iscsidsc/ISCSI_TARGET_PORTAL_GROUP","iscsidsc/ISCSI_TARGET_PORTAL_GROUPA","iscsidsc/ISCSI_TARGET_PORTAL_GROUPW","iscsidsc/PISCSI_TARGET_PORTAL_GROUP"]
 old-location: iscsidisc\iscsi_target_portal_group.htm
 tech.root: iSCSIDisc
 ms.assetid: 8b7e874b-5d2b-4948-98f2-1bcd6d4f8ca6
@@ -67,4 +68,9 @@ The number of portals in the portal group.
 ### -field Portals
 
 An array of <a href="https://docs.microsoft.com/previous-versions/windows/desktop/api/iscsidsc/ns-iscsidsc-iscsi_target_portala">ISCSI_TARGET_PORTAL</a> structures that describe the portals associated with the portal group. Portal names and addresses are described by either wide-character or ascii strings, depending upon implementation.
+
+## -remarks
+
+> [!NOTE]
+> The iscsidsc.h header defines ISCSI_TARGET_PORTAL_GROUP as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

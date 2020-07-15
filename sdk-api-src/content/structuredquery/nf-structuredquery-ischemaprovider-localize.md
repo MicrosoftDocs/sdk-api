@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.ISchemaProvider.Localize
 title: ISchemaProvider::Localize (structuredquery.h)
-description: Localizes the currently loaded schema for a specified locale.helpviewer_keywords: ["ISchemaProvider interface [search]","Localize method","ISchemaProvider.Localize","ISchemaProvider::Localize","Localize","Localize method [search]","Localize method [search]","ISchemaProvider interface","_search_ISchemaProvider_Localize","search._search_ISchemaProvider_Localize","structuredquery/ISchemaProvider::Localize"]
+description: Localizes the currently loaded schema for a specified locale.
+helpviewer_keywords: ["ISchemaProvider interface [search]","Localize method","ISchemaProvider.Localize","ISchemaProvider::Localize","Localize","Localize method [search]","Localize method [search]","ISchemaProvider interface","_search_ISchemaProvider_Localize","search._search_ISchemaProvider_Localize","structuredquery/ISchemaProvider::Localize"]
 old-location: search\_search_ISchemaProvider_Localize.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ischemaprovider\localize.htm

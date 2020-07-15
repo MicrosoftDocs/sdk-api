@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsbuffer.IWMSBufferAllocator.AllocateBuffer
 title: IWMSBufferAllocator::AllocateBuffer (wmsbuffer.h)
-description: The AllocateBuffer method initializes a buffer.helpviewer_keywords: ["AllocateBuffer","AllocateBuffer method [windows Media Format]","AllocateBuffer method [windows Media Format]","IWMSBufferAllocator interface","IWMSBufferAllocator interface [windows Media Format]","AllocateBuffer method","IWMSBufferAllocator.AllocateBuffer","IWMSBufferAllocator::AllocateBuffer","IWMSBufferAllocatorAllocateBuffer","wmformat.iwmsbufferallocator_allocatebuffer","wmsbuffer/IWMSBufferAllocator::AllocateBuffer"]
+description: The AllocateBuffer method initializes a buffer.
+helpviewer_keywords: ["AllocateBuffer","AllocateBuffer method [windows Media Format]","AllocateBuffer method [windows Media Format]","IWMSBufferAllocator interface","IWMSBufferAllocator interface [windows Media Format]","AllocateBuffer method","IWMSBufferAllocator.AllocateBuffer","IWMSBufferAllocator::AllocateBuffer","IWMSBufferAllocatorAllocateBuffer","wmformat.iwmsbufferallocator_allocatebuffer","wmsbuffer/IWMSBufferAllocator::AllocateBuffer"]
 old-location: wmformat\iwmsbufferallocator_allocatebuffer.htm
 tech.root: wmformat
 ms.assetid: 857fb8fa-0e86-46f2-907d-a244d6c699ef

@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIAttendeeDisconnectInfo
 title: IRDPSRAPIAttendeeDisconnectInfo (rdpencomapi.h)
-description: Contains information about the reason an attendee disconnected.helpviewer_keywords: ["IRDPSRAPIAttendeeDisconnectInfo","IRDPSRAPIAttendeeDisconnectInfo interface [RDP]","IRDPSRAPIAttendeeDisconnectInfo interface [RDP]","described","rdp.irdpsrapiattendeedisconnectinfo","rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo"]
+description: Contains information about the reason an attendee disconnected.
+helpviewer_keywords: ["IRDPSRAPIAttendeeDisconnectInfo","IRDPSRAPIAttendeeDisconnectInfo interface [RDP]","IRDPSRAPIAttendeeDisconnectInfo interface [RDP]","described","rdp.irdpsrapiattendeedisconnectinfo","rdpencomapi/IRDPSRAPIAttendeeDisconnectInfo"]
 old-location: rdp\irdpsrapiattendeedisconnectinfo.htm
 tech.root: rdp
 ms.assetid: 849c4fbe-b9c4-4601-b93f-13efd1014a50

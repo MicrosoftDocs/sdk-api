@@ -1,7 +1,8 @@
 ---
 UID: NS:strmif.REGPINMEDIUM
 title: REGPINMEDIUM (strmif.h)
-description: The REGPINMEDIUM structure describes a pin medium for registration through the IFilterMapper2 interface.helpviewer_keywords: ["REGPINMEDIUM","REGPINMEDIUM structure [DirectShow]","REGPINMEDIUMStructure","dshow.regpinmedium","strmif/REGPINMEDIUM"]
+description: The REGPINMEDIUM structure describes a pin medium for registration through the IFilterMapper2 interface.
+helpviewer_keywords: ["REGPINMEDIUM","REGPINMEDIUM structure [DirectShow]","REGPINMEDIUMStructure","dshow.regpinmedium","strmif/REGPINMEDIUM"]
 old-location: dshow\regpinmedium.htm
 tech.root: DirectShow
 ms.assetid: ed5614fe-bfeb-4ddf-a626-b14080f45b33

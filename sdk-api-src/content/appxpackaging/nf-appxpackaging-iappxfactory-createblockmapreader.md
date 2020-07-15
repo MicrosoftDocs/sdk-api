@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxFactory.CreateBlockMapReader
 title: IAppxFactory::CreateBlockMapReader (appxpackaging.h)
-description: Creates a read-only block map object model from contents provided by an IStream.helpviewer_keywords: ["CreateBlockMapReader","CreateBlockMapReader method [App packaging and management]","CreateBlockMapReader method [App packaging and management]","IAppxFactory interface","IAppxFactory interface [App packaging and management]","CreateBlockMapReader method","IAppxFactory.CreateBlockMapReader","IAppxFactory::CreateBlockMapReader","appxpackaging/IAppxFactory::CreateBlockMapReader","appxpkg.iappxfactory_createblockmapreader"]
+description: Creates a read-only block map object model from contents provided by an IStream.
+helpviewer_keywords: ["CreateBlockMapReader","CreateBlockMapReader method [App packaging and management]","CreateBlockMapReader method [App packaging and management]","IAppxFactory interface","IAppxFactory interface [App packaging and management]","CreateBlockMapReader method","IAppxFactory.CreateBlockMapReader","IAppxFactory::CreateBlockMapReader","appxpackaging/IAppxFactory::CreateBlockMapReader","appxpkg.iappxfactory_createblockmapreader"]
 old-location: appxpkg\iappxfactory_createblockmapreader.htm
 tech.root: appxpkg
 ms.assetid: B4A310F0-4276-49AA-9ABF-A98F41E8F87F

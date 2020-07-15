@@ -1,7 +1,8 @@
 ---
 UID: NF:amvideo.IQualProp.get_FramesDroppedInRenderer
 title: IQualProp::get_FramesDroppedInRenderer (amvideo.h)
-description: The get_FramesDroppedInRenderer method retrieves the number of frames dropped by the renderer.helpviewer_keywords: ["IQualProp interface [DirectShow]","get_FramesDroppedInRenderer method","IQualProp.get_FramesDroppedInRenderer","IQualProp::get_FramesDroppedInRenderer","IQualPropget_FramesDroppedInRenderer","amvideo/IQualProp::get_FramesDroppedInRenderer","dshow.iqualprop_get_framesdroppedinrenderer","get_FramesDroppedInRenderer","get_FramesDroppedInRenderer method [DirectShow]","get_FramesDroppedInRenderer method [DirectShow]","IQualProp interface"]
+description: The get_FramesDroppedInRenderer method retrieves the number of frames dropped by the renderer.
+helpviewer_keywords: ["IQualProp interface [DirectShow]","get_FramesDroppedInRenderer method","IQualProp.get_FramesDroppedInRenderer","IQualProp::get_FramesDroppedInRenderer","IQualPropget_FramesDroppedInRenderer","amvideo/IQualProp::get_FramesDroppedInRenderer","dshow.iqualprop_get_framesdroppedinrenderer","get_FramesDroppedInRenderer","get_FramesDroppedInRenderer method [DirectShow]","get_FramesDroppedInRenderer method [DirectShow]","IQualProp interface"]
 old-location: dshow\iqualprop_get_framesdroppedinrenderer.htm
 tech.root: DirectShow
 ms.assetid: 342aff30-ed1c-406d-8fbe-0524acbcd2d7

@@ -1,7 +1,8 @@
 ---
 UID: NF:strsafe.StringCbCatNExA
 title: StringCbCatNExA function (strsafe.h)
-description: Concatenates the specified number of bytes from one string to another string.helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbCatNEx","StringCbCatNEx function [Menus and Other Resources]","StringCbCatNExA","StringCbCatNExW","_shell_StringCbCatNEx","_shell_stringcbcatnex_cpp","menurc.stringcbcatnex","strsafe/StringCbCatNEx","strsafe/StringCbCatNExA","strsafe/StringCbCatNExW","winui._shell_stringcbcatnex"]
+description: Concatenates the specified number of bytes from one string to another string.
+helpviewer_keywords: ["STRSAFE_FILL_BEHIND_NULL","STRSAFE_FILL_ON_FAILURE","STRSAFE_IGNORE_NULLS","STRSAFE_NO_TRUNCATION","STRSAFE_NULL_ON_FAILURE","StringCbCatNEx","StringCbCatNEx function [Menus and Other Resources]","StringCbCatNExA","StringCbCatNExW","_shell_StringCbCatNEx","_shell_stringcbcatnex_cpp","menurc.stringcbcatnex","strsafe/StringCbCatNEx","strsafe/StringCbCatNExA","strsafe/StringCbCatNExW","winui._shell_stringcbcatnex"]
 old-location: menurc\stringcbcatnex.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\strings\stringreference\stringfunctions\stringcbcatnex.htm
@@ -271,6 +272,10 @@ Neither <i>pszSrc</i> nor <i>pszDest</i> should be <b>NULL</b> unless the <b>STR
 
 
 
+
+
+> [!NOTE]
+> The strsafe.h header defines StringCbCatNEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

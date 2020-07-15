@@ -1,7 +1,8 @@
 ---
 UID: NF:objidlbase.IContext.EnumContextProps
 title: IContext::EnumContextProps (objidlbase.h)
-description: Returns an IEnumContextProps interface pointer that can be used to enumerate the context properties in this context.helpviewer_keywords: ["EnumContextProps","EnumContextProps method [COM]","EnumContextProps method [COM]","IContext interface","IContext interface [COM]","EnumContextProps method","IContext.EnumContextProps","IContext::EnumContextProps","_com_icontext_enumcontextprops","com.icontext_enumcontextprops","objidlbase/IContext::EnumContextProps"]
+description: Returns an IEnumContextProps interface pointer that can be used to enumerate the context properties in this context.
+helpviewer_keywords: ["EnumContextProps","EnumContextProps method [COM]","EnumContextProps method [COM]","IContext interface","IContext interface [COM]","EnumContextProps method","IContext.EnumContextProps","IContext::EnumContextProps","_com_icontext_enumcontextprops","com.icontext_enumcontextprops","objidlbase/IContext::EnumContextProps"]
 old-location: com\icontext_enumcontextprops.htm
 tech.root: com
 ms.assetid: 7cae291e-dcf3-43b1-8306-9e5c7a5d3be0

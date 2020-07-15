@@ -1,7 +1,8 @@
 ---
 UID: NN:xamlom.IVisualTreeServiceCallback2
 title: IVisualTreeServiceCallback2 (xamlom.h)
-description: Represents additional capabilities of an IVisualTreeServiceCallback object.helpviewer_keywords: ["IVisualTreeServiceCallback2","IVisualTreeServiceCallback2 interface","IVisualTreeServiceCallback2 interface","described","xaml_diagnostics.ivisualtreeservicecallback2","xamlom/IVisualTreeServiceCallback2"]
+description: Represents additional capabilities of an IVisualTreeServiceCallback object.
+helpviewer_keywords: ["IVisualTreeServiceCallback2","IVisualTreeServiceCallback2 interface","IVisualTreeServiceCallback2 interface","described","xaml_diagnostics.ivisualtreeservicecallback2","xamlom/IVisualTreeServiceCallback2"]
 old-location: xaml_diagnostics\ivisualtreeservicecallback2.htm
 tech.root: xaml_diagnostics
 ms.assetid: F1C11F32-9524-49D6-89DD-C89E4A81720A

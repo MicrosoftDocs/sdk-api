@@ -1,7 +1,8 @@
 ---
 UID: NS:wmsdkidl.tagWMSCRIPTFORMAT
 title: WMSCRIPTFORMAT (wmsdkidl.h)
-description: The WMSCRIPTFORMAT structure describes the type of script data used in a script stream.helpviewer_keywords: ["WMSCRIPTFORMAT","WMSCRIPTFORMAT structure [windows Media Format]","wmformat.wmscriptformat","wmsdkidl/WMSCRIPTFORMAT"]
+description: The WMSCRIPTFORMAT structure describes the type of script data used in a script stream.
+helpviewer_keywords: ["WMSCRIPTFORMAT","WMSCRIPTFORMAT structure [windows Media Format]","wmformat.wmscriptformat","wmsdkidl/WMSCRIPTFORMAT"]
 old-location: wmformat\wmscriptformat.htm
 tech.root: wmformat
 ms.assetid: b7c513ac-9c28-4556-a0c8-f3e0d6efc735

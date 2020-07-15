@@ -1,7 +1,8 @@
 ---
 UID: NS:resapi.RESUTIL_LARGEINT_DATA
 title: RESUTIL_LARGEINT_DATA (resapi.h)
-description: Describes the default, maximum, and minimum values allowed for a signed large integer.helpviewer_keywords: ["*PRESUTIL_LARGEINT_DATA","PRESUTIL_LARGEINT_DATA","PRESUTIL_LARGEINT_DATA structure pointer [Failover Cluster]","RESUTIL_LARGEINT_DATA","RESUTIL_LARGEINT_DATA structure [Failover Cluster]","_wolf_resutil_largeint_data","mscs.resutil_largeint_data","resapi/PRESUTIL_LARGEINT_DATA","resapi/RESUTIL_LARGEINT_DATA"]
+description: Describes the default, maximum, and minimum values allowed for a signed large integer.
+helpviewer_keywords: ["*PRESUTIL_LARGEINT_DATA","PRESUTIL_LARGEINT_DATA","PRESUTIL_LARGEINT_DATA structure pointer [Failover Cluster]","RESUTIL_LARGEINT_DATA","RESUTIL_LARGEINT_DATA structure [Failover Cluster]","_wolf_resutil_largeint_data","mscs.resutil_largeint_data","resapi/PRESUTIL_LARGEINT_DATA","resapi/RESUTIL_LARGEINT_DATA"]
 old-location: mscs\resutil_largeint_data.htm
 tech.root: MsCS
 ms.assetid: 2498a771-f430-4faa-81c8-78d56905d18b

@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.GetStagedPackageOrigin
 title: GetStagedPackageOrigin function (appmodel.h)
-description: Gets the origin of the specified package.helpviewer_keywords: ["GetStagedPackageOrigin","GetStagedPackageOrigin function [App packaging and management]","appmodel/GetStagedPackageOrigin","appxpkg.getstagedpackageorigin"]
+description: Gets the origin of the specified package.
+helpviewer_keywords: ["GetStagedPackageOrigin","GetStagedPackageOrigin function [App packaging and management]","appmodel/GetStagedPackageOrigin","appxpkg.getstagedpackageorigin"]
 old-location: appxpkg\getstagedpackageorigin.htm
 tech.root: appxpkg
 ms.assetid: 7A1EE2CA-83CE-4E03-85A5-0061E29EB49B

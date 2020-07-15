@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzApplication.get_Version
 title: IAzApplication::get_Version (azroles.h)
-description: Sets or retrieves the version of the application.helpviewer_keywords: ["AzApplication object [Security]","Version property","IAzApplication interface [Security]","Version property","IAzApplication.Version","IAzApplication.get_Version","IAzApplication::Version","IAzApplication::get_Version","IAzApplication::put_Version","Version property [Security]","Version property [Security]","AzApplication object","Version property [Security]","IAzApplication interface","azroles/IAzApplication::Version","azroles/IAzApplication::get_Version","azroles/IAzApplication::put_Version","get_Version","security.iazapplication_version"]
+description: Sets or retrieves the version of the application.
+helpviewer_keywords: ["AzApplication object [Security]","Version property","IAzApplication interface [Security]","Version property","IAzApplication.Version","IAzApplication.get_Version","IAzApplication::Version","IAzApplication::get_Version","IAzApplication::put_Version","Version property [Security]","Version property [Security]","AzApplication object","Version property [Security]","IAzApplication interface","azroles/IAzApplication::Version","azroles/IAzApplication::get_Version","azroles/IAzApplication::put_Version","get_Version","security.iazapplication_version"]
 old-location: security\iazapplication_version.htm
 tech.root: SecAuthZ
 ms.assetid: 4fa03e8c-e039-465c-aca2-4b68b894eb29

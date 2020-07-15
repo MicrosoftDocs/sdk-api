@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2fs.IFileSystemImage.get_WorkingDirectory
 title: IFileSystemImage::get_WorkingDirectory (imapi2fs.h)
-description: Retrieves the temporary directory in which stash files are built.helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_WorkingDirectory method","IFileSystemImage.get_WorkingDirectory","IFileSystemImage::get_WorkingDirectory","get_WorkingDirectory","get_WorkingDirectory method [IMAPI]","get_WorkingDirectory method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_workingdirectory","imapi2fs/IFileSystemImage::get_WorkingDirectory"]
+description: Retrieves the temporary directory in which stash files are built.
+helpviewer_keywords: ["IFileSystemImage interface [IMAPI]","get_WorkingDirectory method","IFileSystemImage.get_WorkingDirectory","IFileSystemImage::get_WorkingDirectory","get_WorkingDirectory","get_WorkingDirectory method [IMAPI]","get_WorkingDirectory method [IMAPI]","IFileSystemImage interface","imapi.ifilesystemimage_get_workingdirectory","imapi2fs/IFileSystemImage::get_WorkingDirectory"]
 old-location: imapi\ifilesystemimage_get_workingdirectory.htm
 tech.root: imapi
 ms.assetid: 89c4fd34-6651-4056-9939-201f404ea6ee

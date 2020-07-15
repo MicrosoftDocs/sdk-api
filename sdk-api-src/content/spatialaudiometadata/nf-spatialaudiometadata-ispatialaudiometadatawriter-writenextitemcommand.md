@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataWriter.WriteNextItemCommand
 title: ISpatialAudioMetadataWriter::WriteNextItemCommand (spatialaudiometadata.h)
-description: Writes metadata commands and value data to the current item.helpviewer_keywords: ["ISpatialAudioMetadataWriter interface [Core Audio]","WriteNextItemCommand method","ISpatialAudioMetadataWriter.WriteNextItemCommand","ISpatialAudioMetadataWriter::WriteNextItemCommand","WriteNextItemCommand","WriteNextItemCommand method [Core Audio]","WriteNextItemCommand method [Core Audio]","ISpatialAudioMetadataWriter interface","coreaudio.ispatialaudiometadatawriter_writenextitemcommand","spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItemCommand"]
+description: Writes metadata commands and value data to the current item.
+helpviewer_keywords: ["ISpatialAudioMetadataWriter interface [Core Audio]","WriteNextItemCommand method","ISpatialAudioMetadataWriter.WriteNextItemCommand","ISpatialAudioMetadataWriter::WriteNextItemCommand","WriteNextItemCommand","WriteNextItemCommand method [Core Audio]","WriteNextItemCommand method [Core Audio]","ISpatialAudioMetadataWriter interface","coreaudio.ispatialaudiometadatawriter_writenextitemcommand","spatialaudiometadata/ISpatialAudioMetadataWriter::WriteNextItemCommand"]
 old-location: coreaudio\ispatialaudiometadatawriter_writenextitemcommand.htm
 tech.root: CoreAudio
 ms.assetid: A614AEC6-7CA3-4624-BAFE-46618BCB64FA

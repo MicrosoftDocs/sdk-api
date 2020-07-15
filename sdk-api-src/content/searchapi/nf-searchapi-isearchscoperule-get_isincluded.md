@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchScopeRule.get_IsIncluded
 title: ISearchScopeRule::get_IsIncluded (searchapi.h)
-description: Gets a value identifying whether this rule is an inclusion rule. Inclusion rules identify scopes that should be included in the crawl scope.helpviewer_keywords: ["ISearchScopeRule interface [search]","get_IsIncluded method","ISearchScopeRule.get_IsIncluded","ISearchScopeRule::get_IsIncluded","_search_ISearchScopeRule_get_IsIncluded","get_IsIncluded","get_IsIncluded method [search]","get_IsIncluded method [search]","ISearchScopeRule interface","search._search_ISearchScopeRule_get_IsIncluded","searchapi/ISearchScopeRule::get_IsIncluded"]
+description: Gets a value identifying whether this rule is an inclusion rule. Inclusion rules identify scopes that should be included in the crawl scope.
+helpviewer_keywords: ["ISearchScopeRule interface [search]","get_IsIncluded method","ISearchScopeRule.get_IsIncluded","ISearchScopeRule::get_IsIncluded","_search_ISearchScopeRule_get_IsIncluded","get_IsIncluded","get_IsIncluded method [search]","get_IsIncluded method [search]","ISearchScopeRule interface","search._search_ISearchScopeRule_get_IsIncluded","searchapi/ISearchScopeRule::get_IsIncluded"]
 old-location: search\_search_ISearchScopeRule_get_IsIncluded.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\crawlscope\isearchscoperule\get_isincluded.htm
@@ -77,9 +78,4 @@ If this method succeeds, it returns <b xmlns:loc="http://microsoft.com/wdcml/l10
 
 ## -remarks
 
-
-
-<b>Windows 7 and later</b>: the CrawlScopeCommandLine code sample, available on <a href="https://code.msdn.microsoft.com/windowssearch">Code Gallery</a> and the <a href="https://msdn.microsoft.com/windowsvista/bb980924.aspx">Windows 7 SDK</a>, demonstrates how to define command line options for Crawl Scope Manager (CSM) indexing operations.
-
-
-
+<b>Windows 7 and later</b>: Check out the <a href="https://docs.microsoft.com/windows/win32/search/-search-sample-crawlscopecommandline">CrawlScopeCommandLine code sample</a> to see how to define command line options for Crawl Scope Manager (CSM) indexing operations.

@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.BRUSHOBJ_hGetColorTransform
 title: BRUSHOBJ_hGetColorTransform function (winddi.h)
-description: The BRUSHOBJ_hGetColorTransform function retrieves the color transform for the specified brush.helpviewer_keywords: ["BRUSHOBJ_hGetColorTransform","BRUSHOBJ_hGetColorTransform function [Display Devices]","display.brushobj_hgetcolortransform","gdifncs_eeb575c7-44b8-4af6-ab2d-6bb1afc3af32.xml","winddi/BRUSHOBJ_hGetColorTransform"]
+description: The BRUSHOBJ_hGetColorTransform function retrieves the color transform for the specified brush.
+helpviewer_keywords: ["BRUSHOBJ_hGetColorTransform","BRUSHOBJ_hGetColorTransform function [Display Devices]","display.brushobj_hgetcolortransform","gdifncs_eeb575c7-44b8-4af6-ab2d-6bb1afc3af32.xml","winddi/BRUSHOBJ_hGetColorTransform"]
 old-location: display\brushobj_hgetcolortransform.htm
 tech.root: display
 ms.assetid: a62544e5-f4b6-4544-8ec1-5a03f8bd3306

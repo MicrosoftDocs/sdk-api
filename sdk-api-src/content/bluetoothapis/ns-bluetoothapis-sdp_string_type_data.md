@@ -1,7 +1,8 @@
 ---
 UID: NS:bluetoothapis._SDP_STRING_TYPE_DATA
 title: SDP_STRING_TYPE_DATA (bluetoothapis.h)
-description: The SDP_STRING_TYPE_DATA structure stores information about SDP string types.helpviewer_keywords: ["*PSDP_STRING_TYPE_DATA","*PSDP_STRING_TYPE_DATA structure [Bluetooth]","SDP_STRING_TYPE_DATA","SDP_STRING_TYPE_DATA structure [Bluetooth]","bluetooth.sdp_string_type_data","bluetoothapis/*PSDP_STRING_TYPE_DATA","bluetoothapis/SDP_STRING_TYPE_DATA"]
+description: The SDP_STRING_TYPE_DATA structure stores information about SDP string types.
+helpviewer_keywords: ["*PSDP_STRING_TYPE_DATA","*PSDP_STRING_TYPE_DATA structure [Bluetooth]","SDP_STRING_TYPE_DATA","SDP_STRING_TYPE_DATA structure [Bluetooth]","bluetooth.sdp_string_type_data","bluetoothapis/*PSDP_STRING_TYPE_DATA","bluetoothapis/SDP_STRING_TYPE_DATA"]
 old-location: bluetooth\sdp_string_type_data.htm
 tech.root: bluetooth
 ms.assetid: 16ff7951-08a7-49c5-93a5-0782cca50dab

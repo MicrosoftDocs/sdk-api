@@ -1,7 +1,8 @@
 ---
 UID: NF:t2embapi.TTLoadEmbeddedFont
 title: TTLoadEmbeddedFont function (t2embapi.h)
-description: Reads an embedded font from the document stream and installs it. Also allows a client to further restrict embedding privileges of the font.helpviewer_keywords: ["EMBED_EDITABLE","EMBED_INSTALLABLE","EMBED_NOEMBEDDING","EMBED_PREVIEWPRINT","LICENSE_DEFAULT","LICENSE_EDITABLE","LICENSE_INSTALLABLE","LICENSE_NOEMBEDDING","LICENSE_PREVIEWPRINT","TTLOAD_FONT_IN_SYSSTARTUP","TTLOAD_FONT_SUBSETTED","TTLOAD_PRIVATE","TTLoadEmbeddedFont","TTLoadEmbeddedFont function [Windows GDI]","_win32_TTLoadEmbeddedFont","gdi.ttloadembeddedfont","t2embapi/TTLoadEmbeddedFont"]
+description: Reads an embedded font from the document stream and installs it. Also allows a client to further restrict embedding privileges of the font.
+helpviewer_keywords: ["EMBED_EDITABLE","EMBED_INSTALLABLE","EMBED_NOEMBEDDING","EMBED_PREVIEWPRINT","LICENSE_DEFAULT","LICENSE_EDITABLE","LICENSE_INSTALLABLE","LICENSE_NOEMBEDDING","LICENSE_PREVIEWPRINT","TTLOAD_FONT_IN_SYSSTARTUP","TTLOAD_FONT_SUBSETTED","TTLOAD_PRIVATE","TTLoadEmbeddedFont","TTLoadEmbeddedFont function [Windows GDI]","_win32_TTLoadEmbeddedFont","gdi.ttloadembeddedfont","t2embapi/TTLoadEmbeddedFont"]
 old-location: gdi\ttloadembeddedfont.htm
 tech.root: gdi
 ms.assetid: 85181d86-bc18-4948-bc7d-65c2d71efefb

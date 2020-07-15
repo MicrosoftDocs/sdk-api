@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IApplicationDestinations
 title: IApplicationDestinations (shobjidl_core.h)
-description: Exposes methods that allow an application to remove one or all destinations from the Recent or Frequent categories in a Jump List.helpviewer_keywords: ["IApplicationDestinations","IApplicationDestinations interface [Windows Shell]","IApplicationDestinations interface [Windows Shell]","described","_shell_IApplicationDestinations","shell.IApplicationDestinations","shobjidl_core/IApplicationDestinations"]
+description: Exposes methods that allow an application to remove one or all destinations from the Recent or Frequent categories in a Jump List.
+helpviewer_keywords: ["IApplicationDestinations","IApplicationDestinations interface [Windows Shell]","IApplicationDestinations interface [Windows Shell]","described","_shell_IApplicationDestinations","shell.IApplicationDestinations","shobjidl_core/IApplicationDestinations"]
 old-location: shell\IApplicationDestinations.htm
 tech.root: shell
 ms.assetid: d425eb2c-75c7-431e-9607-11ea2e092178

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleObject.InitFromData
 title: IOleObject::InitFromData (oleidl.h)
-description: Initializes a newly created object with data from a specified data object, which can reside either in the same container or on the Clipboard.helpviewer_keywords: ["IOleObject interface [COM]","InitFromData method","IOleObject.InitFromData","IOleObject::InitFromData","InitFromData","InitFromData method [COM]","InitFromData method [COM]","IOleObject interface","_ole_ioleobject_initfromdata","com.ioleobject_initfromdata","oleidl/IOleObject::InitFromData"]
+description: Initializes a newly created object with data from a specified data object, which can reside either in the same container or on the Clipboard.
+helpviewer_keywords: ["IOleObject interface [COM]","InitFromData method","IOleObject.InitFromData","IOleObject::InitFromData","InitFromData","InitFromData method [COM]","InitFromData method [COM]","IOleObject interface","_ole_ioleobject_initfromdata","com.ioleobject_initfromdata","oleidl/IOleObject::InitFromData"]
 old-location: com\ioleobject_initfromdata.htm
 tech.root: com
 ms.assetid: 8bbda602-4421-4f79-a33a-63ded9a8bf90

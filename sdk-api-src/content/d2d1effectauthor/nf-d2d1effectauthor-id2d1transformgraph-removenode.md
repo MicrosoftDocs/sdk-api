@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1effectauthor.ID2D1TransformGraph.RemoveNode
 title: ID2D1TransformGraph::RemoveNode (d2d1effectauthor.h)
-description: Removes the provided node from the transform graph.helpviewer_keywords: ["ID2D1TransformGraph interface [Direct2D]","RemoveNode method","ID2D1TransformGraph.RemoveNode","ID2D1TransformGraph::RemoveNode","RemoveNode","RemoveNode method [Direct2D]","RemoveNode method [Direct2D]","ID2D1TransformGraph interface","d2d1effectauthor/ID2D1TransformGraph::RemoveNode","direct2d.id2d1transformgraph_removenode"]
+description: Removes the provided node from the transform graph.
+helpviewer_keywords: ["ID2D1TransformGraph interface [Direct2D]","RemoveNode method","ID2D1TransformGraph.RemoveNode","ID2D1TransformGraph::RemoveNode","RemoveNode","RemoveNode method [Direct2D]","RemoveNode method [Direct2D]","ID2D1TransformGraph interface","d2d1effectauthor/ID2D1TransformGraph::RemoveNode","direct2d.id2d1transformgraph_removenode"]
 old-location: direct2d\id2d1transformgraph_removenode.htm
 tech.root: Direct2D
 ms.assetid: 075D43D7-0299-45E9-8C43-3EA37F0477CB

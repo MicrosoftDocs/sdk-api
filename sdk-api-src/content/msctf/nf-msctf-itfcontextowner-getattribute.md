@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContextOwner.GetAttribute
 title: ITfContextOwner::GetAttribute (msctf.h)
-description: The ITfContextOwner::GetAttribute method returns the value of a supported attribute. If the attribute is unsupported, the pvarValue parameter is set to VT_EMPTY.helpviewer_keywords: ["GetAttribute","GetAttribute method [Text Services Framework]","GetAttribute method [Text Services Framework]","ITfContextOwner interface","ITfContextOwner interface [Text Services Framework]","GetAttribute method","ITfContextOwner.GetAttribute","ITfContextOwner::GetAttribute","_tsf_itfcontextowner_getattribute_ref","msctf/ITfContextOwner::GetAttribute","tsf.itfcontextowner_getattribute"]
+description: The ITfContextOwner::GetAttribute method returns the value of a supported attribute. If the attribute is unsupported, the pvarValue parameter is set to VT_EMPTY.
+helpviewer_keywords: ["GetAttribute","GetAttribute method [Text Services Framework]","GetAttribute method [Text Services Framework]","ITfContextOwner interface","ITfContextOwner interface [Text Services Framework]","GetAttribute method","ITfContextOwner.GetAttribute","ITfContextOwner::GetAttribute","_tsf_itfcontextowner_getattribute_ref","msctf/ITfContextOwner::GetAttribute","tsf.itfcontextowner_getattribute"]
 old-location: tsf\itfcontextowner_getattribute.htm
 tech.root: TSF
 ms.assetid: a249d529-fdb1-4f5f-84ae-f26dae917609

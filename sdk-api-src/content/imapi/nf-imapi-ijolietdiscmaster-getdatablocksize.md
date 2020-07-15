@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi.IJolietDiscMaster.GetDataBlockSize
 title: IJolietDiscMaster::GetDataBlockSize (imapi.h)
-description: Retrieves the size of a data block.helpviewer_keywords: ["GetDataBlockSize","GetDataBlockSize method [IMAPI]","GetDataBlockSize method [IMAPI]","IJolietDiscMaster interface","IJolietDiscMaster interface [IMAPI]","GetDataBlockSize method","IJolietDiscMaster.GetDataBlockSize","IJolietDiscMaster::GetDataBlockSize","_win32_ijolietdiscmaster_getdatablocksize","base.ijolietdiscmaster_getdatablocksize","imapi.ijolietdiscmaster_getdatablocksize","imapi/IJolietDiscMaster::GetDataBlockSize"]
+description: Retrieves the size of a data block.
+helpviewer_keywords: ["GetDataBlockSize","GetDataBlockSize method [IMAPI]","GetDataBlockSize method [IMAPI]","IJolietDiscMaster interface","IJolietDiscMaster interface [IMAPI]","GetDataBlockSize method","IJolietDiscMaster.GetDataBlockSize","IJolietDiscMaster::GetDataBlockSize","_win32_ijolietdiscmaster_getdatablocksize","base.ijolietdiscmaster_getdatablocksize","imapi.ijolietdiscmaster_getdatablocksize","imapi/IJolietDiscMaster::GetDataBlockSize"]
 old-location: imapi\ijolietdiscmaster_getdatablocksize.htm
 tech.root: imapi
 ms.assetid: 84bb0330-770d-44ab-8829-e81616f7c805

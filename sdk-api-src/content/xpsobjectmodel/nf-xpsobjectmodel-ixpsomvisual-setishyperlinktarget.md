@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMVisual.SetIsHyperlinkTarget
 title: IXpsOMVisual::SetIsHyperlinkTarget (xpsobjectmodel.h)
-description: Specifies whether the visual is the target of a hyperlink.helpviewer_keywords: ["FALSE","IXpsOMVisual interface [XPS Documents and Packaging]","SetIsHyperlinkTarget method","IXpsOMVisual.SetIsHyperlinkTarget","IXpsOMVisual::SetIsHyperlinkTarget","SetIsHyperlinkTarget","SetIsHyperlinkTarget method [XPS Documents and Packaging]","SetIsHyperlinkTarget method [XPS Documents and Packaging]","IXpsOMVisual interface","TRUE","xps.ixpsomvisual_setishyperlinktarget","xpsobjectmodel/IXpsOMVisual::SetIsHyperlinkTarget"]
+description: Specifies whether the visual is the target of a hyperlink.
+helpviewer_keywords: ["FALSE","IXpsOMVisual interface [XPS Documents and Packaging]","SetIsHyperlinkTarget method","IXpsOMVisual.SetIsHyperlinkTarget","IXpsOMVisual::SetIsHyperlinkTarget","SetIsHyperlinkTarget","SetIsHyperlinkTarget method [XPS Documents and Packaging]","SetIsHyperlinkTarget method [XPS Documents and Packaging]","IXpsOMVisual interface","TRUE","xps.ixpsomvisual_setishyperlinktarget","xpsobjectmodel/IXpsOMVisual::SetIsHyperlinkTarget"]
 old-location: xps\ixpsomvisual_setishyperlinktarget.htm
 tech.root: printdocs
 ms.assetid: 855a3993-b308-4dc0-a2f6-8ac6bdc495ce

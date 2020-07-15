@@ -1,7 +1,8 @@
 ---
 UID: NE:uiribbon.UI_EXECUTIONVERB
 title: UI_EXECUTIONVERB (uiribbon.h)
-description: Specifies values that identify the execution IDs that map to actions a user can initiate on a Command.helpviewer_keywords: ["UI_EXECUTIONVERB","UI_EXECUTIONVERB enumeration [Windows Ribbon]","UI_EXECUTIONVERB_CANCELPREVIEW","UI_EXECUTIONVERB_EXECUTE","UI_EXECUTIONVERB_PREVIEW","scenicintent_UI_EXECUTIONVERB","uiribbon/UI_EXECUTIONVERB","uiribbon/UI_EXECUTIONVERB_CANCELPREVIEW","uiribbon/UI_EXECUTIONVERB_EXECUTE","uiribbon/UI_EXECUTIONVERB_PREVIEW","windowsribbon.windowsribbon_ui_executionverb"]
+description: Specifies values that identify the execution IDs that map to actions a user can initiate on a Command.
+helpviewer_keywords: ["UI_EXECUTIONVERB","UI_EXECUTIONVERB enumeration [Windows Ribbon]","UI_EXECUTIONVERB_CANCELPREVIEW","UI_EXECUTIONVERB_EXECUTE","UI_EXECUTIONVERB_PREVIEW","scenicintent_UI_EXECUTIONVERB","uiribbon/UI_EXECUTIONVERB","uiribbon/UI_EXECUTIONVERB_CANCELPREVIEW","uiribbon/UI_EXECUTIONVERB_EXECUTE","uiribbon/UI_EXECUTIONVERB_PREVIEW","windowsribbon.windowsribbon_ui_executionverb"]
 old-location: windowsribbon\windowsribbon_ui_executionverb.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\enums\ui_executionverb.htm

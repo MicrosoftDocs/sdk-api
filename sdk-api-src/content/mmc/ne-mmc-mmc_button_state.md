@@ -1,7 +1,8 @@
 ---
 UID: NE:mmc._MMC_BUTTON_STATE
 title: MMC_BUTTON_STATE (mmc.h)
-description: The MMC_BUTTON_STATE enumeration defines the possible states of buttons available in MMC. These values are used in the nState parameter of IConsoleVerb::GetVerbState, IConsoleVerb::SetVerbState, IToolbar::GetButtonState, and IToolbar::SetButtonState.helpviewer_keywords: ["BUTTONPRESSED","CHECKED","ENABLED","HIDDEN","INDETERMINATE","MMC_BUTTON_STATE","MMC_BUTTON_STATE enumeration [MMC]","_slate_mmc_button_state","mmc.mmc_button_state","mmc/BUTTONPRESSED","mmc/CHECKED","mmc/ENABLED","mmc/HIDDEN","mmc/INDETERMINATE","mmc/MMC_BUTTON_STATE"]
+description: The MMC_BUTTON_STATE enumeration defines the possible states of buttons available in MMC. These values are used in the nState parameter of IConsoleVerb::GetVerbState, IConsoleVerb::SetVerbState, IToolbar::GetButtonState, and IToolbar::SetButtonState.
+helpviewer_keywords: ["BUTTONPRESSED","CHECKED","ENABLED","HIDDEN","INDETERMINATE","MMC_BUTTON_STATE","MMC_BUTTON_STATE enumeration [MMC]","_slate_mmc_button_state","mmc.mmc_button_state","mmc/BUTTONPRESSED","mmc/CHECKED","mmc/ENABLED","mmc/HIDDEN","mmc/INDETERMINATE","mmc/MMC_BUTTON_STATE"]
 old-location: mmc\mmc_button_state.htm
 tech.root: mmc
 ms.assetid: b08c8905-1a6d-485f-9136-d63efd0e8194

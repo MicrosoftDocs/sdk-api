@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d10.D3D10_MAP_FLAG
 title: D3D10_MAP_FLAG (d3d10.h)
-description: Specifies how the CPU should respond when Map is called on a resource being used by the GPU.helpviewer_keywords: ["D3D10_MAP_FLAG","D3D10_MAP_FLAG enumeration [Direct3D 10]","D3D10_MAP_FLAG_DO_NOT_WAIT","b065a6b9-984f-67e0-f7d5-c91d03926340","d3d10/D3D10_MAP_FLAG","d3d10/D3D10_MAP_FLAG_DO_NOT_WAIT","direct3d10.d3d10_map_flag"]
+description: Specifies how the CPU should respond when Map is called on a resource being used by the GPU.
+helpviewer_keywords: ["D3D10_MAP_FLAG","D3D10_MAP_FLAG enumeration [Direct3D 10]","D3D10_MAP_FLAG_DO_NOT_WAIT","b065a6b9-984f-67e0-f7d5-c91d03926340","d3d10/D3D10_MAP_FLAG","d3d10/D3D10_MAP_FLAG_DO_NOT_WAIT","direct3d10.d3d10_map_flag"]
 old-location: direct3d10\d3d10_map_flag.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\d3d10_map_flag.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.GetRightIndent
 title: ITextPara::GetRightIndent (tom.h)
-description: Retrieves the size of the right margin indent of a paragraph.helpviewer_keywords: ["GetRightIndent","GetRightIndent method [Windows Controls]","GetRightIndent method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetRightIndent method","ITextPara.GetRightIndent","ITextPara::GetRightIndent","_win32_ITextPara_GetRightIndent","_win32_ITextPara_GetRightIndent_cpp","controls.ITextPara_GetRightIndent","controls._win32_ITextPara_GetRightIndent","tom/ITextPara::GetRightIndent"]
+description: Retrieves the size of the right margin indent of a paragraph.
+helpviewer_keywords: ["GetRightIndent","GetRightIndent method [Windows Controls]","GetRightIndent method [Windows Controls]","ITextPara interface","ITextPara interface [Windows Controls]","GetRightIndent method","ITextPara.GetRightIndent","ITextPara::GetRightIndent","_win32_ITextPara_GetRightIndent","_win32_ITextPara_GetRightIndent_cpp","controls.ITextPara_GetRightIndent","controls._win32_ITextPara_GetRightIndent","tom/ITextPara::GetRightIndent"]
 old-location: controls\ITextPara_GetRightIndent.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getrightindent.htm

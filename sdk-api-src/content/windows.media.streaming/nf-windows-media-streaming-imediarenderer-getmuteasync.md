@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.GetMuteAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-description: Queries the DMR asynchronously to determine if audio is currently muted or unmuted.helpviewer_keywords: ["GetMuteAsync","GetMuteAsync method [Media Streaming API]","GetMuteAsync method [Media Streaming API]","IMediaRenderer interface","IMediaRenderer interface [Media Streaming API]","GetMuteAsync method","IMediaRenderer.GetMuteAsync","IMediaRenderer.streaming","IMediaRenderer::GetMuteAsync","IMediaRenderer::streaming","mediastreaming.imediarenderer_getmuteasync","windows/IMediaRenderer::GetMuteAsync"]
+description: Queries the DMR asynchronously to determine if audio is currently muted or unmuted.
+helpviewer_keywords: ["GetMuteAsync","GetMuteAsync method [Media Streaming API]","GetMuteAsync method [Media Streaming API]","IMediaRenderer interface","IMediaRenderer interface [Media Streaming API]","GetMuteAsync method","IMediaRenderer.GetMuteAsync","IMediaRenderer.streaming","IMediaRenderer::GetMuteAsync","IMediaRenderer::streaming","mediastreaming.imediarenderer_getmuteasync","windows/IMediaRenderer::GetMuteAsync"]
 old-location: mediastreaming\imediarenderer_getmuteasync.htm
 tech.root: mediastreaming
 ms.assetid: 411CAF71-2888-46A3-8777-80B0D6D9CDE5

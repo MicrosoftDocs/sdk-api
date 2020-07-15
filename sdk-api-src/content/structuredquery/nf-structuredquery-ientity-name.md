@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquery.IEntity.Name
 title: IEntity::Name (structuredquery.h)
-description: Retrieves the name of this entity.helpviewer_keywords: ["IEntity interface [search]","Name method","IEntity.Name","IEntity::Name","Name","Name method [search]","Name method [search]","IEntity interface","_search_IEntity_Name","search._search_IEntity_Name","structuredquery/IEntity::Name"]
+description: Retrieves the name of this entity.
+helpviewer_keywords: ["IEntity interface [search]","Name method","IEntity.Name","IEntity::Name","Name","Name method [search]","Name method [search]","IEntity interface","_search_IEntity_Name","search._search_IEntity_Name","structuredquery/IEntity::Name"]
 old-location: search\_search_IEntity_Name.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\ientity\name.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFStreamSink.ProcessSample
 title: IMFStreamSink::ProcessSample (mfidl.h)
-description: Delivers a sample to the stream. The media sink processes the sample.helpviewer_keywords: ["30e2bdb5-a99d-4a2e-ab36-7b4e383c645f","IMFStreamSink interface [Media Foundation]","ProcessSample method","IMFStreamSink.ProcessSample","IMFStreamSink::ProcessSample","ProcessSample","ProcessSample method [Media Foundation]","ProcessSample method [Media Foundation]","IMFStreamSink interface","mf.imfstreamsink_processsample","mfidl/IMFStreamSink::ProcessSample"]
+description: Delivers a sample to the stream. The media sink processes the sample.
+helpviewer_keywords: ["30e2bdb5-a99d-4a2e-ab36-7b4e383c645f","IMFStreamSink interface [Media Foundation]","ProcessSample method","IMFStreamSink.ProcessSample","IMFStreamSink::ProcessSample","ProcessSample","ProcessSample method [Media Foundation]","ProcessSample method [Media Foundation]","IMFStreamSink interface","mf.imfstreamsink_processsample","mfidl/IMFStreamSink::ProcessSample"]
 old-location: mf\imfstreamsink_processsample.htm
 tech.root: medfound
 ms.assetid: 30e2bdb5-a99d-4a2e-ab36-7b4e383c645f

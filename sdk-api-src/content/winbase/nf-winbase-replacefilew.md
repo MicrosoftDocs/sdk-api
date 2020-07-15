@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.ReplaceFileW
 title: ReplaceFileW function (winbase.h)
-description: Replaces one file with another file, with the option of creating a backup copy of the original file.helpviewer_keywords: ["REPLACEFILE_IGNORE_ACL_ERRORS","REPLACEFILE_IGNORE_MERGE_ERRORS","REPLACEFILE_WRITE_THROUGH","ReplaceFile","ReplaceFile function [Files]","ReplaceFileA","ReplaceFileW","_win32_replacefile","base.replacefile","fs.replacefile","winbase/ReplaceFile","winbase/ReplaceFileA","winbase/ReplaceFileW"]
+description: Replaces one file with another file, with the option of creating a backup copy of the original file.
+helpviewer_keywords: ["REPLACEFILE_IGNORE_ACL_ERRORS","REPLACEFILE_IGNORE_MERGE_ERRORS","REPLACEFILE_WRITE_THROUGH","ReplaceFile","ReplaceFile function [Files]","ReplaceFileA","ReplaceFileW","_win32_replacefile","base.replacefile","fs.replacefile","winbase/ReplaceFile","winbase/ReplaceFileA","winbase/ReplaceFileW"]
 old-location: fs\replacefile.htm
 tech.root: FileIO
 ms.assetid: 23402a71-e945-4891-9815-c75e57051501
@@ -297,6 +298,10 @@ To delete or rename a file, you must have either delete permission on the file o
 
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines ReplaceFile as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

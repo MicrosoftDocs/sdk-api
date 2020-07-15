@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprInfoBlockFind
 title: MprInfoBlockFind function (mprapi.h)
-description: The MprInfoBlockFind function locates a specified block in an information header, and retrieves information about the block.helpviewer_keywords: ["MprInfoBlockFind","MprInfoBlockFind function [RAS]","_mpr_mprinfoblockfind","mprapi/MprInfoBlockFind","rras.mprinfoblockfind"]
+description: The MprInfoBlockFind function locates a specified block in an information header, and retrieves information about the block.
+helpviewer_keywords: ["MprInfoBlockFind","MprInfoBlockFind function [RAS]","_mpr_mprinfoblockfind","mprapi/MprInfoBlockFind","rras.mprinfoblockfind"]
 old-location: rras\mprinfoblockfind.htm
 tech.root: RRAS
 ms.assetid: fd9a048b-03fb-4fe9-9f72-df07b35dd804

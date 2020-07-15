@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.SHCreateAssociationRegistration
 title: SHCreateAssociationRegistration function (shobjidl_core.h)
-description: Creates an IApplicationAssociationRegistration object based on the stock implementation of the interface provided by Windows.helpviewer_keywords: ["SHCreateAssociationRegistration","SHCreateAssociationRegistration function [Windows Shell]","_shell_SHCreateAssociationRegistration","shell.SHCreateAssociationRegistration","shobjidl_core/SHCreateAssociationRegistration"]
+description: Creates an IApplicationAssociationRegistration object based on the stock implementation of the interface provided by Windows.
+helpviewer_keywords: ["SHCreateAssociationRegistration","SHCreateAssociationRegistration function [Windows Shell]","_shell_SHCreateAssociationRegistration","shell.SHCreateAssociationRegistration","shobjidl_core/SHCreateAssociationRegistration"]
 old-location: shell\SHCreateAssociationRegistration.htm
 tech.root: shell
 ms.assetid: 7998f49d-2515-4c77-991e-62c0fefa43df

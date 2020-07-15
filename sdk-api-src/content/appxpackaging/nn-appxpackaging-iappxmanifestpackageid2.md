@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxManifestPackageId2
 title: IAppxManifestPackageId2 (appxpackaging.h)
-description: Provides access to the app package identity.helpviewer_keywords: ["IAppxManifestPackageId2","IAppxManifestPackageId2 interface [App packaging and management]","IAppxManifestPackageId2 interface [App packaging and management]","described","appxpackaging/IAppxManifestPackageId2","appxpkg.iappxmanifestpackageid2"]
+description: Provides access to the app package identity.
+helpviewer_keywords: ["IAppxManifestPackageId2","IAppxManifestPackageId2 interface [App packaging and management]","IAppxManifestPackageId2 interface [App packaging and management]","described","appxpackaging/IAppxManifestPackageId2","appxpkg.iappxmanifestpackageid2"]
 old-location: appxpkg\iappxmanifestpackageid2.htm
 tech.root: appxpkg
 ms.assetid: 27344514-B9B9-46EC-9A44-577C0C9361C8

@@ -1,7 +1,8 @@
 ---
 UID: NN:rometadataapi.IMetaDataDispenser
 title: IMetaDataDispenser (rometadataapi.h)
-description: Provides methods to create a new metadata scope, or open an existing one.helpviewer_keywords: ["IMetaDataDispenser","IMetaDataDispenser interface [Windows Runtime]","IMetaDataDispenser interface [Windows Runtime]","described","rometadataapi/IMetaDataDispenser","winrt.imetadatadispenser"]
+description: Provides methods to create a new metadata scope, or open an existing one.
+helpviewer_keywords: ["IMetaDataDispenser","IMetaDataDispenser interface [Windows Runtime]","IMetaDataDispenser interface [Windows Runtime]","described","rometadataapi/IMetaDataDispenser","winrt.imetadatadispenser"]
 old-location: winrt\imetadatadispenser.htm
 tech.root: WinRT
 ms.assetid: 3454193d-9068-4032-ae9e-b3087509b0b8

@@ -1,7 +1,8 @@
 ---
 UID: NF:mmiscapi.mmioAscend
 title: mmioAscend function (mmiscapi.h)
-description: The mmioAscend function ascends out of a chunk in a RIFF file descended into with the mmioDescend function or created with the mmioCreateChunk function.helpviewer_keywords: ["_win32_mmioAscend","mmioAscend","mmioAscend function [Windows Multimedia]","mmsystem/mmioAscend","multimedia.mmioascend"]
+description: The mmioAscend function ascends out of a chunk in a RIFF file descended into with the mmioDescend function or created with the mmioCreateChunk function.
+helpviewer_keywords: ["_win32_mmioAscend","mmioAscend","mmioAscend function [Windows Multimedia]","mmsystem/mmioAscend","multimedia.mmioascend"]
 old-location: multimedia\mmioascend.htm
 tech.root: Multimedia
 ms.assetid: 33da4c65-8ce1-44cf-9d5f-f5626620b420

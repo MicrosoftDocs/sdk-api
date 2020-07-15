@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadLONG
 title: PSPropertyBag_ReadLONG function (propsys.h)
-description: Reads a LONG data value from a property in a property bag.helpviewer_keywords: ["PSPropertyBag_ReadLONG","PSPropertyBag_ReadLONG function [Windows Properties]","properties.PSPropertyBag_ReadLONG","propsys/PSPropertyBag_ReadLONG","shell.PSPropertyBag_ReadLONG","shell_PSPropertyBag_ReadLONG"]
+description: Reads a LONG data value from a property in a property bag.
+helpviewer_keywords: ["PSPropertyBag_ReadLONG","PSPropertyBag_ReadLONG function [Windows Properties]","properties.PSPropertyBag_ReadLONG","propsys/PSPropertyBag_ReadLONG","shell.PSPropertyBag_ReadLONG","shell_PSPropertyBag_ReadLONG"]
 old-location: properties\PSPropertyBag_ReadLONG.htm
 tech.root: properties
 ms.assetid: A39E1F7C-A4FB-47da-A05E-39F6176F2878

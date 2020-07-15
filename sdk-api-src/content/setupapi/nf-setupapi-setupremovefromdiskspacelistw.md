@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupRemoveFromDiskSpaceListW
 title: SetupRemoveFromDiskSpaceListW function (setupapi.h)
-description: The SetupRemoveFromDiskSpaceList function removes a file delete or copy operation from a disk-space list.helpviewer_keywords: ["FILEOP_COPY","FILEOP_DELETE","SetupRemoveFromDiskSpaceList","SetupRemoveFromDiskSpaceList function [Setup API]","SetupRemoveFromDiskSpaceListA","SetupRemoveFromDiskSpaceListW","_setupapi_setupremovefromdiskspacelist","setup.setupremovefromdiskspacelist","setupapi/SetupRemoveFromDiskSpaceList","setupapi/SetupRemoveFromDiskSpaceListA","setupapi/SetupRemoveFromDiskSpaceListW"]
+description: The SetupRemoveFromDiskSpaceList function removes a file delete or copy operation from a disk-space list.
+helpviewer_keywords: ["FILEOP_COPY","FILEOP_DELETE","SetupRemoveFromDiskSpaceList","SetupRemoveFromDiskSpaceList function [Setup API]","SetupRemoveFromDiskSpaceListA","SetupRemoveFromDiskSpaceListW","_setupapi_setupremovefromdiskspacelist","setup.setupremovefromdiskspacelist","setupapi/SetupRemoveFromDiskSpaceList","setupapi/SetupRemoveFromDiskSpaceListA","setupapi/SetupRemoveFromDiskSpaceListW"]
 old-location: setup\setupremovefromdiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: 0d23c8ce-ada6-4640-b9ad-8989f9a122a2
@@ -157,4 +158,9 @@ If the routine fails for some other reason, it returns zero and
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupRemoveFromDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

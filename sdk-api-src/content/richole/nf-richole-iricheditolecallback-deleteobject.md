@@ -1,7 +1,8 @@
 ---
 UID: NF:richole.IRichEditOleCallback.DeleteObject
 title: IRichEditOleCallback::DeleteObject (richole.h)
-description: Sends notification that an object is about to be deleted from a rich edit control. The object is not necessarily being released when this member is called.helpviewer_keywords: ["DeleteObject","DeleteObject method [Windows Controls]","DeleteObject method [Windows Controls]","IRichEditOleCallback interface","IRichEditOleCallback interface [Windows Controls]","DeleteObject method","IRichEditOleCallback.DeleteObject","IRichEditOleCallback::DeleteObject","_win32_IRichEditOleCallback_DeleteObject","_win32_IRichEditOleCallback_DeleteObject_cpp","controls.IRichEditOleCallback_DeleteObject","controls._win32_IRichEditOleCallback_DeleteObject","richole/IRichEditOleCallback::DeleteObject"]
+description: Sends notification that an object is about to be deleted from a rich edit control. The object is not necessarily being released when this member is called.
+helpviewer_keywords: ["DeleteObject","DeleteObject method [Windows Controls]","DeleteObject method [Windows Controls]","IRichEditOleCallback interface","IRichEditOleCallback interface [Windows Controls]","DeleteObject method","IRichEditOleCallback.DeleteObject","IRichEditOleCallback::DeleteObject","_win32_IRichEditOleCallback_DeleteObject","_win32_IRichEditOleCallback_DeleteObject_cpp","controls.IRichEditOleCallback_DeleteObject","controls._win32_IRichEditOleCallback_DeleteObject","richole/IRichEditOleCallback::DeleteObject"]
 old-location: controls\IRichEditOleCallback_DeleteObject.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditolecallback\iricheditolecallbackdeleteobject.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRow.GetNestLevel
 title: ITextRow::GetNestLevel (tom.h)
-description: Gets the nest level of a table.helpviewer_keywords: ["GetNestLevel","GetNestLevel method [Windows Controls]","GetNestLevel method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetNestLevel method","ITextRow.GetNestLevel","ITextRow::GetNestLevel","controls.itextrow_getnestlevel","tom/ITextRow::GetNestLevel"]
+description: Gets the nest level of a table.
+helpviewer_keywords: ["GetNestLevel","GetNestLevel method [Windows Controls]","GetNestLevel method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetNestLevel method","ITextRow.GetNestLevel","ITextRow::GetNestLevel","controls.itextrow_getnestlevel","tom/ITextRow::GetNestLevel"]
 old-location: controls\itextrow_getnestlevel.htm
 tech.root: Controls
 ms.assetid: 6b689344-6748-49d7-aa98-a87435b7cb0b

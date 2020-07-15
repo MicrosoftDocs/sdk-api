@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngModifySurface
 title: EngModifySurface function (winddi.h)
-description: The EngModifySurface function notifies GDI about the attributes of a surface that was created by the driver.helpviewer_keywords: ["EngModifySurface","EngModifySurface function [Display Devices]","display.engmodifysurface","gdifncs_422719a8-bffd-4c92-bbb8-fbd53ee1ce09.xml","winddi/EngModifySurface"]
+description: The EngModifySurface function notifies GDI about the attributes of a surface that was created by the driver.
+helpviewer_keywords: ["EngModifySurface","EngModifySurface function [Display Devices]","display.engmodifysurface","gdifncs_422719a8-bffd-4c92-bbb8-fbd53ee1ce09.xml","winddi/EngModifySurface"]
 old-location: display\engmodifysurface.htm
 tech.root: display
 ms.assetid: 176f51c0-0075-4afb-8b5c-5d0b6b64a3ad

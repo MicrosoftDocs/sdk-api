@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcontainer.IMFASFIndexer.GetIndexPosition
 title: IMFASFIndexer::GetIndexPosition (wmcontainer.h)
-description: Retrieves the offset of the index object from the start of the content.helpviewer_keywords: ["7ef0e36c-1be5-44ac-8f6a-e29805c99e78","GetIndexPosition","GetIndexPosition method [Media Foundation]","GetIndexPosition method [Media Foundation]","IMFASFIndexer interface","IMFASFIndexer interface [Media Foundation]","GetIndexPosition method","IMFASFIndexer.GetIndexPosition","IMFASFIndexer::GetIndexPosition","mf.imfasfindexer_getindexposition","wmcontainer/IMFASFIndexer::GetIndexPosition"]
+description: Retrieves the offset of the index object from the start of the content.
+helpviewer_keywords: ["7ef0e36c-1be5-44ac-8f6a-e29805c99e78","GetIndexPosition","GetIndexPosition method [Media Foundation]","GetIndexPosition method [Media Foundation]","IMFASFIndexer interface","IMFASFIndexer interface [Media Foundation]","GetIndexPosition method","IMFASFIndexer.GetIndexPosition","IMFASFIndexer::GetIndexPosition","mf.imfasfindexer_getindexposition","wmcontainer/IMFASFIndexer::GetIndexPosition"]
 old-location: mf\imfasfindexer_getindexposition.htm
 tech.root: medfound
 ms.assetid: 7ef0e36c-1be5-44ac-8f6a-e29805c99e78

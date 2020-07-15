@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationManagerEventHandler2
 title: IUIAnimationManagerEventHandler2 (uianimation.h)
-description: Defines a method for handling updates to an animation manager.helpviewer_keywords: ["IUIAnimationManagerEventHandler2","IUIAnimationManagerEventHandler2 interface [Windows Animation]","IUIAnimationManagerEventHandler2 interface [Windows Animation]","described","uianimation.iuianimationmanagereventhandler2","uianimation/IUIAnimationManagerEventHandler2"]
+description: Defines a method for handling updates to an animation manager.
+helpviewer_keywords: ["IUIAnimationManagerEventHandler2","IUIAnimationManagerEventHandler2 interface [Windows Animation]","IUIAnimationManagerEventHandler2 interface [Windows Animation]","described","uianimation.iuianimationmanagereventhandler2","uianimation/IUIAnimationManagerEventHandler2"]
 old-location: uianimation\iuianimationmanagereventhandler2.htm
 tech.root: UIAnimation
 ms.assetid: 3D3DAC6C-6904-4962-BB17-18FA97678834

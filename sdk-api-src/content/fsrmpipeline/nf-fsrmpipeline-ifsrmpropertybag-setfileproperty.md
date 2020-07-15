@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmpipeline.IFsrmPropertyBag.SetFileProperty
 title: IFsrmPropertyBag::SetFileProperty (fsrmpipeline.h)
-description: Sets the specified property in the property bag.helpviewer_keywords: ["IFsrmPropertyBag interface [File Server Resource Manager]","SetFileProperty method","IFsrmPropertyBag.SetFileProperty","IFsrmPropertyBag::SetFileProperty","SetFileProperty","SetFileProperty method [File Server Resource Manager]","SetFileProperty method [File Server Resource Manager]","IFsrmPropertyBag interface","fs.ifsrmpropertybag_setfileproperty","fsrm.ifsrmpropertybag_setfileproperty","fsrmpipeline/IFsrmPropertyBag::SetFileProperty"]
+description: Sets the specified property in the property bag.
+helpviewer_keywords: ["IFsrmPropertyBag interface [File Server Resource Manager]","SetFileProperty method","IFsrmPropertyBag.SetFileProperty","IFsrmPropertyBag::SetFileProperty","SetFileProperty","SetFileProperty method [File Server Resource Manager]","SetFileProperty method [File Server Resource Manager]","IFsrmPropertyBag interface","fs.ifsrmpropertybag_setfileproperty","fsrm.ifsrmpropertybag_setfileproperty","fsrmpipeline/IFsrmPropertyBag::SetFileProperty"]
 old-location: fsrm\ifsrmpropertybag_setfileproperty.htm
 tech.root: fsrm
 ms.assetid: d3322907-c832-49ef-bf21-2e4581251a88

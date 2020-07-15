@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi._CREATE_CLUSTER_CONFIG
 title: CREATE_CLUSTER_CONFIG (clusapi.h)
-description: Defines the initial cluster configuration.helpviewer_keywords: ["*PCREATE_CLUSTER_CONFIG","CREATE_CLUSTER_CONFIG","CREATE_CLUSTER_CONFIG structure [Failover Cluster]","PCREATE_CLUSTER_CONFIG","PCREATE_CLUSTER_CONFIG structure pointer [Failover Cluster]","clusapi/CREATE_CLUSTER_CONFIG","clusapi/PCREATE_CLUSTER_CONFIG","mscs.create_cluster_config"]
+description: Defines the initial cluster configuration.
+helpviewer_keywords: ["*PCREATE_CLUSTER_CONFIG","CREATE_CLUSTER_CONFIG","CREATE_CLUSTER_CONFIG structure [Failover Cluster]","PCREATE_CLUSTER_CONFIG","PCREATE_CLUSTER_CONFIG structure pointer [Failover Cluster]","clusapi/CREATE_CLUSTER_CONFIG","clusapi/PCREATE_CLUSTER_CONFIG","mscs.create_cluster_config"]
 old-location: mscs\create_cluster_config.htm
 tech.root: MsCS
 ms.assetid: 5fc90422-47e4-44da-a49f-66d4b7712f53

@@ -1,7 +1,8 @@
 ---
 UID: NN:d3d10.ID3D10BlendState
 title: ID3D10BlendState (d3d10.h)
-description: This blend-state interface accesses blending state for a Direct3D 10.0 device for the output-merger stage.helpviewer_keywords: ["ID3D10BlendState","ID3D10BlendState interface [Direct3D 10]","ID3D10BlendState interface [Direct3D 10]","described","d3d10/ID3D10BlendState","direct3d10.id3d10blendstate","e7edf841-099a-0302-cacb-da34c915ac4c"]
+description: This blend-state interface accesses blending state for a Direct3D 10.0 device for the output-merger stage.
+helpviewer_keywords: ["ID3D10BlendState","ID3D10BlendState interface [Direct3D 10]","ID3D10BlendState interface [Direct3D 10]","described","d3d10/ID3D10BlendState","direct3d10.id3d10blendstate","e7edf841-099a-0302-cacb-da34c915ac4c"]
 old-location: direct3d10\id3d10blendstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10blendstate.htm

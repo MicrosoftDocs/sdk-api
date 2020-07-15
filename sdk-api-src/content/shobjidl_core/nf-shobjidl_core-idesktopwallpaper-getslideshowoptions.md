@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDesktopWallpaper.GetSlideshowOptions
 title: IDesktopWallpaper::GetSlideshowOptions (shobjidl_core.h)
-description: Gets the current desktop wallpaper slideshow settings for shuffle and timing.helpviewer_keywords: ["DSO_SHUFFLEIMAGES","GetSlideshowOptions","GetSlideshowOptions method [Windows Shell]","GetSlideshowOptions method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetSlideshowOptions method","IDesktopWallpaper.GetSlideshowOptions","IDesktopWallpaper::GetSlideshowOptions","shell.IDesktopWallpaper_GetSlideshowOptions","shobjidl_core/IDesktopWallpaper::GetSlideshowOptions"]
+description: Gets the current desktop wallpaper slideshow settings for shuffle and timing.
+helpviewer_keywords: ["DSO_SHUFFLEIMAGES","GetSlideshowOptions","GetSlideshowOptions method [Windows Shell]","GetSlideshowOptions method [Windows Shell]","IDesktopWallpaper interface","IDesktopWallpaper interface [Windows Shell]","GetSlideshowOptions method","IDesktopWallpaper.GetSlideshowOptions","IDesktopWallpaper::GetSlideshowOptions","shell.IDesktopWallpaper_GetSlideshowOptions","shobjidl_core/IDesktopWallpaper::GetSlideshowOptions"]
 old-location: shell\IDesktopWallpaper_GetSlideshowOptions.htm
 tech.root: shell
 ms.assetid: 2EB99E61-F5B4-4f07-8A87-793BE59D309B

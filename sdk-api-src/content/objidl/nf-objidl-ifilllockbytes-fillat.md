@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IFillLockBytes.FillAt
 title: IFillLockBytes::FillAt (objidl.h)
-description: The FillAt method writes a new block of data to a specified location in the byte array.helpviewer_keywords: ["FillAt","FillAt method [Structured Storage]","FillAt method [Structured Storage]","IFillLockBytes interface","IFillLockBytes interface [Structured Storage]","FillAt method","IFillLockBytes.FillAt","IFillLockBytes::FillAt","_stg_ifilllockbytes_fillat","objidl/IFillLockBytes::FillAt","stg.ifilllockbytes_fillat"]
+description: The FillAt method writes a new block of data to a specified location in the byte array.
+helpviewer_keywords: ["FillAt","FillAt method [Structured Storage]","FillAt method [Structured Storage]","IFillLockBytes interface","IFillLockBytes interface [Structured Storage]","FillAt method","IFillLockBytes.FillAt","IFillLockBytes::FillAt","_stg_ifilllockbytes_fillat","objidl/IFillLockBytes::FillAt","stg.ifilllockbytes_fillat"]
 old-location: stg\ifilllockbytes_fillat.htm
 tech.root: Stg
 ms.assetid: d378d87b-e081-4950-b87b-9b1ad6dfb29d

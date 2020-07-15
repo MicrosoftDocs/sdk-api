@@ -1,7 +1,8 @@
 ---
 UID: NC:cchannel.CHANNEL_INIT_EVENT_FN
 title: CHANNEL_INIT_EVENT_FN (cchannel.h)
-description: An application-defined callback function that Remote Desktop Services calls to notify the client DLL of virtual channel events.helpviewer_keywords: ["CHANNEL_EVENT_CONNECTED","CHANNEL_EVENT_DISCONNECTED","CHANNEL_EVENT_INITIALIZED","CHANNEL_EVENT_REMOTE_CONTROL_START","CHANNEL_EVENT_REMOTE_CONTROL_STOP","CHANNEL_EVENT_TERMINATED","CHANNEL_EVENT_V1_CONNECTED","CHANNEL_INIT_EVENT_FN","CHANNEL_INIT_EVENT_FN callback function [Remote Desktop Services]","VirtualChannelInitEvent callback","_win32_virtualchannelinitevent","cchannel/CHANNEL_INIT_EVENT_FN","termserv.virtualchannelinitevent"]
+description: An application-defined callback function that Remote Desktop Services calls to notify the client DLL of virtual channel events.
+helpviewer_keywords: ["CHANNEL_EVENT_CONNECTED","CHANNEL_EVENT_DISCONNECTED","CHANNEL_EVENT_INITIALIZED","CHANNEL_EVENT_REMOTE_CONTROL_START","CHANNEL_EVENT_REMOTE_CONTROL_STOP","CHANNEL_EVENT_TERMINATED","CHANNEL_EVENT_V1_CONNECTED","CHANNEL_INIT_EVENT_FN","CHANNEL_INIT_EVENT_FN callback function [Remote Desktop Services]","VirtualChannelInitEvent callback","_win32_virtualchannelinitevent","cchannel/CHANNEL_INIT_EVENT_FN","termserv.virtualchannelinitevent"]
 old-location: termserv\virtualchannelinitevent.htm
 tech.root: TermServ
 ms.assetid: 8a074b6c-7fc1-411f-a50c-64f40c0c4dd6

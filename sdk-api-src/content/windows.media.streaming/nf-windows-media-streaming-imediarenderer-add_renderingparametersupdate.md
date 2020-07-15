@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.add_RenderingParametersUpdate
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-description: Registers an event handler for the RenderingParametersUpdate event.helpviewer_keywords: ["IMediaRenderer interface [Media Streaming API]","add_RenderingParametersUpdate method","IMediaRenderer.add_RenderingParametersUpdate","IMediaRenderer.streaming","IMediaRenderer::add_RenderingParametersUpdate","IMediaRenderer::streaming","add_RenderingParametersUpdate","add_RenderingParametersUpdate method [Media Streaming API]","add_RenderingParametersUpdate method [Media Streaming API]","IMediaRenderer interface","mediastreaming.imediarenderer_add_renderingparametersupdate","windows/IMediaRenderer::add_RenderingParametersUpdate"]
+description: Registers an event handler for the RenderingParametersUpdate event.
+helpviewer_keywords: ["IMediaRenderer interface [Media Streaming API]","add_RenderingParametersUpdate method","IMediaRenderer.add_RenderingParametersUpdate","IMediaRenderer.streaming","IMediaRenderer::add_RenderingParametersUpdate","IMediaRenderer::streaming","add_RenderingParametersUpdate","add_RenderingParametersUpdate method [Media Streaming API]","add_RenderingParametersUpdate method [Media Streaming API]","IMediaRenderer interface","mediastreaming.imediarenderer_add_renderingparametersupdate","windows/IMediaRenderer::add_RenderingParametersUpdate"]
 old-location: mediastreaming\imediarenderer_add_renderingparametersupdate.htm
 tech.root: mediastreaming
 ms.assetid: 3CEED740-19EA-4CC6-B3F8-F9DE9C6DCC58

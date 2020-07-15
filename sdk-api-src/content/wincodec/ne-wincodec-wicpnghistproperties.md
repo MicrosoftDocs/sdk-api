@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICPngHistProperties
 title: WICPngHistProperties (wincodec.h)
-description: Specifies the Portable Network Graphics (PNG) hIST chunk metadata properties.helpviewer_keywords: ["WICPngHistFrequencies","WICPngHistProperties","WICPngHistProperties enumeration [Windows Imaging Component]","_wic_codec_wicpnghistproperties","wic._wic_codec_wicpnghistproperties","wincodec/WICPngHistFrequencies","wincodec/WICPngHistProperties"]
+description: Specifies the Portable Network Graphics (PNG) hIST chunk metadata properties.
+helpviewer_keywords: ["WICPngHistFrequencies","WICPngHistProperties","WICPngHistProperties enumeration [Windows Imaging Component]","_wic_codec_wicpnghistproperties","wic._wic_codec_wicpnghistproperties","wincodec/WICPngHistFrequencies","wincodec/WICPngHistProperties"]
 old-location: wic\_wic_codec_wicpnghistproperties.htm
 tech.root: wic
 ms.assetid: ab3ddddb-5916-43b8-8688-5361cee05902

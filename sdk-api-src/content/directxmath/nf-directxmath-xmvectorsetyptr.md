@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorSetYPtr
 title: XMVectorSetYPtr function (directxmath.h)
-description: Sets the y component of an XMVECTOR containing floating-point data, with a value contained in an instance of float referred to by a pointer.helpviewer_keywords: ["Use DirectX..XMVectorSetYPtr","XMVectorSetYPtr","XMVectorSetYPtr method [DirectX Math Support APIs]","dxmath.xmvectorsetyptr"]
+description: Sets the y component of an XMVECTOR containing floating-point data, with a value contained in an instance of float referred to by a pointer.
+helpviewer_keywords: ["Use DirectX..XMVectorSetYPtr","XMVectorSetYPtr","XMVectorSetYPtr method [DirectX Math Support APIs]","dxmath.xmvectorsetyptr"]
 old-location: dxmath\xmvectorsetyptr.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.accessors.XMVectorSetYPtr(XMVECTOR,const float)

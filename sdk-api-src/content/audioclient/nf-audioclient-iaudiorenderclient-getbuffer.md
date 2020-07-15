@@ -129,7 +129,6 @@ A previous <b>IAudioRenderClient::GetBuffer</b> call is still in effect.
 <td width="40%">
 <dl>
 <dt><b>AUDCLNT_E_DEVICE_INVALIDATED</b></dt>
-<dt><b>AUDCLNT_E_RESOURCES_INVALIDATED</b></dt>
 </dl>
 </td>
 <td width="60%">
@@ -242,6 +241,3 @@ For code examples that call the <b>GetBuffer</b> method, see the following topic
 
 <a href="https://docs.microsoft.com/windows/desktop/api/audioclient/nf-audioclient-iaudiorenderclient-releasebuffer">IAudioRenderClient::ReleaseBuffer</a>
  
-
- 
-

@@ -1,7 +1,8 @@
 ---
 UID: NF:netcon.INetSharingConfiguration.get_SharingEnabled
 title: INetSharingConfiguration::get_SharingEnabled (netcon.h)
-description: The get_SharingEnabled method determines whether sharing is enabled on this connection.helpviewer_keywords: ["INetSharingConfiguration interface [ICS/ICF]","get_SharingEnabled method","INetSharingConfiguration.get_SharingEnabled","INetSharingConfiguration::get_SharingEnabled","_ics_inetsharingconfiguration_get_sharingenabled","get_SharingEnabled","get_SharingEnabled method [ICS/ICF]","get_SharingEnabled method [ICS/ICF]","INetSharingConfiguration interface","ics.inetsharingconfiguration_get_sharingenabled","netcon/INetSharingConfiguration::get_SharingEnabled"]
+description: The get_SharingEnabled method determines whether sharing is enabled on this connection.
+helpviewer_keywords: ["INetSharingConfiguration interface [ICS/ICF]","get_SharingEnabled method","INetSharingConfiguration.get_SharingEnabled","INetSharingConfiguration::get_SharingEnabled","_ics_inetsharingconfiguration_get_sharingenabled","get_SharingEnabled","get_SharingEnabled method [ICS/ICF]","get_SharingEnabled method [ICS/ICF]","INetSharingConfiguration interface","ics.inetsharingconfiguration_get_sharingenabled","netcon/INetSharingConfiguration::get_SharingEnabled"]
 old-location: ics\inetsharingconfiguration_get_sharingenabled.htm
 tech.root: ics
 ms.assetid: b8872235-0ef3-4ade-8085-fd90f40549af

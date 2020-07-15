@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.Commit
 title: IShellLibrary::Commit (shobjidl_core.h)
-description: Commits library updates to an existing Library Description file.helpviewer_keywords: ["Commit","Commit method [Windows Shell]","Commit method [Windows Shell]","IShellLibrary interface","IShellLibrary interface [Windows Shell]","Commit method","IShellLibrary.Commit","IShellLibrary::Commit","_shell_IShellLibrary_Commit","shell.IShellLibrary_Commit","shobjidl_core/IShellLibrary::Commit"]
+description: Commits library updates to an existing Library Description file.
+helpviewer_keywords: ["Commit","Commit method [Windows Shell]","Commit method [Windows Shell]","IShellLibrary interface","IShellLibrary interface [Windows Shell]","Commit method","IShellLibrary.Commit","IShellLibrary::Commit","_shell_IShellLibrary_Commit","shell.IShellLibrary_Commit","shobjidl_core/IShellLibrary::Commit"]
 old-location: shell\IShellLibrary_Commit.htm
 tech.root: shell
 ms.assetid: a340964d-ea20-4a3b-be8b-f4f4dbf624ed

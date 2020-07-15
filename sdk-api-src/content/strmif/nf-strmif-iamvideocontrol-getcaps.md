@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMVideoControl.GetCaps
 title: IAMVideoControl::GetCaps (strmif.h)
-description: The GetCaps method retrieves the capabilities of the underlying hardware.helpviewer_keywords: ["GetCaps","GetCaps method [DirectShow]","GetCaps method [DirectShow]","IAMVideoControl interface","IAMVideoControl interface [DirectShow]","GetCaps method","IAMVideoControl.GetCaps","IAMVideoControl::GetCaps","IAMVideoControlGetCaps","dshow.iamvideocontrol_getcaps","strmif/IAMVideoControl::GetCaps"]
+description: The GetCaps method retrieves the capabilities of the underlying hardware.
+helpviewer_keywords: ["GetCaps","GetCaps method [DirectShow]","GetCaps method [DirectShow]","IAMVideoControl interface","IAMVideoControl interface [DirectShow]","GetCaps method","IAMVideoControl.GetCaps","IAMVideoControl::GetCaps","IAMVideoControlGetCaps","dshow.iamvideocontrol_getcaps","strmif/IAMVideoControl::GetCaps"]
 old-location: dshow\iamvideocontrol_getcaps.htm
 tech.root: DirectShow
 ms.assetid: 8e4b7b46-8179-410c-8369-652f9b65de8c

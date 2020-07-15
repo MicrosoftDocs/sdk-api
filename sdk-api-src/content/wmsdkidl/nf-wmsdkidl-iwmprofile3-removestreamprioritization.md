@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMProfile3.RemoveStreamPrioritization
 title: IWMProfile3::RemoveStreamPrioritization (wmsdkidl.h)
-description: The RemoveStreamPrioritization method removes the stream prioritization object from the profile.helpviewer_keywords: ["IWMProfile3 interface [windows Media Format]","RemoveStreamPrioritization method","IWMProfile3.RemoveStreamPrioritization","IWMProfile3::RemoveStreamPrioritization","IWMProfile3RemoveStreamPrioritization","RemoveStreamPrioritization","RemoveStreamPrioritization method [windows Media Format]","RemoveStreamPrioritization method [windows Media Format]","IWMProfile3 interface","wmformat.iwmprofile3_removestreamprioritization","wmsdkidl/IWMProfile3::RemoveStreamPrioritization"]
+description: The RemoveStreamPrioritization method removes the stream prioritization object from the profile.
+helpviewer_keywords: ["IWMProfile3 interface [windows Media Format]","RemoveStreamPrioritization method","IWMProfile3.RemoveStreamPrioritization","IWMProfile3::RemoveStreamPrioritization","IWMProfile3RemoveStreamPrioritization","RemoveStreamPrioritization","RemoveStreamPrioritization method [windows Media Format]","RemoveStreamPrioritization method [windows Media Format]","IWMProfile3 interface","wmformat.iwmprofile3_removestreamprioritization","wmsdkidl/IWMProfile3::RemoveStreamPrioritization"]
 old-location: wmformat\iwmprofile3_removestreamprioritization.htm
 tech.root: wmformat
 ms.assetid: 1522cb9f-ce3f-4183-8779-3ee112efb40b

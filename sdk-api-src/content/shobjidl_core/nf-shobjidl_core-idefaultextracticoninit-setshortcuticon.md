@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDefaultExtractIconInit.SetShortcutIcon
 title: IDefaultExtractIconInit::SetShortcutIcon (shobjidl_core.h)
-description: Sets the icon for a shortcut to the object.helpviewer_keywords: ["IDefaultExtractIconInit interface [Windows Shell]","SetShortcutIcon method","IDefaultExtractIconInit.SetShortcutIcon","IDefaultExtractIconInit::SetShortcutIcon","SetShortcutIcon","SetShortcutIcon method [Windows Shell]","SetShortcutIcon method [Windows Shell]","IDefaultExtractIconInit interface","_shell_IDefaultExtractIconInit_SetShortcutIcon","shell.IDefaultExtractIconInit_SetShortcutIcon","shobjidl_core/IDefaultExtractIconInit::SetShortcutIcon"]
+description: Sets the icon for a shortcut to the object.
+helpviewer_keywords: ["IDefaultExtractIconInit interface [Windows Shell]","SetShortcutIcon method","IDefaultExtractIconInit.SetShortcutIcon","IDefaultExtractIconInit::SetShortcutIcon","SetShortcutIcon","SetShortcutIcon method [Windows Shell]","SetShortcutIcon method [Windows Shell]","IDefaultExtractIconInit interface","_shell_IDefaultExtractIconInit_SetShortcutIcon","shell.IDefaultExtractIconInit_SetShortcutIcon","shobjidl_core/IDefaultExtractIconInit::SetShortcutIcon"]
 old-location: shell\IDefaultExtractIconInit_SetShortcutIcon.htm
 tech.root: shell
 ms.assetid: 1defab08-3dce-4668-aca3-d11821a4c339

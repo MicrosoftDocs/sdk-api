@@ -1,7 +1,8 @@
 ---
 UID: NF:rtmv2.RtmAddRouteToDest
 title: RtmAddRouteToDest function (rtmv2.h)
-description: The RtmAddRouteToDest function adds a new route to the routing table or updates an existing route in the routing table. If the best route changes, a change notification is generated.helpviewer_keywords: ["RTM_ROUTE_CHANGE_BEST","RTM_ROUTE_CHANGE_FIRST","RTM_ROUTE_CHANGE_NEW","RtmAddRouteToDest","RtmAddRouteToDest function [RAS]","_rtmv2ref_rtmaddroutetodest","rras.rtmaddroutetodest","rtmv2/RtmAddRouteToDest"]
+description: The RtmAddRouteToDest function adds a new route to the routing table or updates an existing route in the routing table. If the best route changes, a change notification is generated.
+helpviewer_keywords: ["RTM_ROUTE_CHANGE_BEST","RTM_ROUTE_CHANGE_FIRST","RTM_ROUTE_CHANGE_NEW","RtmAddRouteToDest","RtmAddRouteToDest function [RAS]","_rtmv2ref_rtmaddroutetodest","rras.rtmaddroutetodest","rtmv2/RtmAddRouteToDest"]
 old-location: rras\rtmaddroutetodest.htm
 tech.root: RRAS
 ms.assetid: 422beb9b-b7e8-446f-8294-9f87a9f66f7a

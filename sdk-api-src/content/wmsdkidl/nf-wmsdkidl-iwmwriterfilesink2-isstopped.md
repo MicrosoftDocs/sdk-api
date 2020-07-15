@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMWriterFileSink2.IsStopped
 title: IWMWriterFileSink2::IsStopped (wmsdkidl.h)
-description: The IsStopped method ascertains whether the file sink has stopped writing.helpviewer_keywords: ["IWMWriterFileSink2 interface [windows Media Format]","IsStopped method","IWMWriterFileSink2.IsStopped","IWMWriterFileSink2::IsStopped","IWMWriterFileSink2IsStopped","IsStopped","IsStopped method [windows Media Format]","IsStopped method [windows Media Format]","IWMWriterFileSink2 interface","wmformat.iwmwriterfilesink2_isstopped","wmsdkidl/IWMWriterFileSink2::IsStopped"]
+description: The IsStopped method ascertains whether the file sink has stopped writing.
+helpviewer_keywords: ["IWMWriterFileSink2 interface [windows Media Format]","IsStopped method","IWMWriterFileSink2.IsStopped","IWMWriterFileSink2::IsStopped","IWMWriterFileSink2IsStopped","IsStopped","IsStopped method [windows Media Format]","IsStopped method [windows Media Format]","IWMWriterFileSink2 interface","wmformat.iwmwriterfilesink2_isstopped","wmsdkidl/IWMWriterFileSink2::IsStopped"]
 old-location: wmformat\iwmwriterfilesink2_isstopped.htm
 tech.root: wmformat
 ms.assetid: f1e5790a-3cac-4e0e-8a3f-b21afe2711ff

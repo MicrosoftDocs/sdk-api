@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.RegisterWindowMessageA
 title: RegisterWindowMessageA function (winuser.h)
-description: Defines a new window message that is guaranteed to be unique throughout the system. The message value can be used when sending or posting messages.helpviewer_keywords: ["RegisterWindowMessage","RegisterWindowMessage function [Windows and Messages]","RegisterWindowMessageA","RegisterWindowMessageW","_win32_RegisterWindowMessage","_win32_registerwindowmessage_cpp","winmsg.registerwindowmessage","winui._win32_registerwindowmessage","winuser/RegisterWindowMessage","winuser/RegisterWindowMessageA","winuser/RegisterWindowMessageW"]
+description: Defines a new window message that is guaranteed to be unique throughout the system. The message value can be used when sending or posting messages.
+helpviewer_keywords: ["RegisterWindowMessage","RegisterWindowMessage function [Windows and Messages]","RegisterWindowMessageA","RegisterWindowMessageW","_win32_RegisterWindowMessage","_win32_registerwindowmessage_cpp","winmsg.registerwindowmessage","winui._win32_registerwindowmessage","winuser/RegisterWindowMessage","winuser/RegisterWindowMessageA","winuser/RegisterWindowMessageW"]
 old-location: winmsg\registerwindowmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\registerwindowmessage.htm
@@ -106,6 +107,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/dlgbox/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines RegisterWindowMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

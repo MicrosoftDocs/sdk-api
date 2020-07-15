@@ -1,7 +1,8 @@
 ---
 UID: NN:azroles.IAzApplication2
 title: IAzApplication2 (azroles.h)
-description: Inherits from the IAzApplication interface and implements additional methods to initialize IAzClientContext2 objects.helpviewer_keywords: ["IAzApplication2","IAzApplication2 interface [Security]","IAzApplication2 interface [Security]","described","azroles/IAzApplication2","security.iazapplication2"]
+description: Inherits from the IAzApplication interface and implements additional methods to initialize IAzClientContext2 objects.
+helpviewer_keywords: ["IAzApplication2","IAzApplication2 interface [Security]","IAzApplication2 interface [Security]","described","azroles/IAzApplication2","security.iazapplication2"]
 old-location: security\iazapplication2.htm
 tech.root: SecAuthZ
 ms.assetid: 58f0627e-fa92-4b3b-a0cd-7e437d451606

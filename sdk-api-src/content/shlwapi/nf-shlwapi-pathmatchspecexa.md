@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathMatchSpecExA
 title: PathMatchSpecExA function (shlwapi.h)
-description: Matches a file name from a path against one or more file name patterns.helpviewer_keywords: ["PMSF_DONT_STRIP_SPACES","PMSF_MULTIPLE","PMSF_NORMAL","PathMatchSpecEx","PathMatchSpecEx function [Windows Shell]","PathMatchSpecExA","PathMatchSpecExW","_win32_PathMatchSpecEx","shell.PathMatchSpecEx","shlwapi/PathMatchSpecEx","shlwapi/PathMatchSpecExA","shlwapi/PathMatchSpecExW"]
+description: Matches a file name from a path against one or more file name patterns.
+helpviewer_keywords: ["PMSF_DONT_STRIP_SPACES","PMSF_MULTIPLE","PMSF_NORMAL","PathMatchSpecEx","PathMatchSpecEx function [Windows Shell]","PathMatchSpecExA","PathMatchSpecExW","_win32_PathMatchSpecEx","shell.PathMatchSpecEx","shlwapi/PathMatchSpecEx","shlwapi/PathMatchSpecExA","shlwapi/PathMatchSpecExW"]
 old-location: shell\PathMatchSpecEx.htm
 tech.root: shell
 ms.assetid: bd9bf950-e349-4b67-8608-7acad84c0907
@@ -151,4 +152,9 @@ No file name pattern specified in <i>pszSpec</i> matched the file name found in 
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines PathMatchSpecEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

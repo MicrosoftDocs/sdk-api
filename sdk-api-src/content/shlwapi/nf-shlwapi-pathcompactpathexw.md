@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathCompactPathExW
 title: PathCompactPathExW function (shlwapi.h)
-description: Truncates a path to fit within a certain number of characters by replacing path components with ellipses.helpviewer_keywords: ["PathCompactPathEx","PathCompactPathEx function [Windows Shell]","PathCompactPathExA","PathCompactPathExW","_win32_PathCompactPathEx","shell.PathCompactPathEx","shlwapi/PathCompactPathEx","shlwapi/PathCompactPathExA","shlwapi/PathCompactPathExW"]
+description: Truncates a path to fit within a certain number of characters by replacing path components with ellipses.
+helpviewer_keywords: ["PathCompactPathEx","PathCompactPathEx function [Windows Shell]","PathCompactPathExA","PathCompactPathExW","_win32_PathCompactPathEx","shell.PathCompactPathEx","shlwapi/PathCompactPathEx","shlwapi/PathCompactPathExA","shlwapi/PathCompactPathExW"]
 old-location: shell\PathCompactPathEx.htm
 tech.root: shell
 ms.assetid: ff108ee6-3d71-4ab2-a04a-d4bcce408f88
@@ -105,4 +106,8 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise.
 The '/' separator will be used instead of '\' if the original string used it. If <i>pszSrc</i> points to a file name that is too long, instead of a path, the file name will be truncated to <i>cchMax</i> characters, including the ellipsis and the terminating <b>NULL</b> character. For example, if the input file name is "My Filename" and <i>cchMax</i> is 10, <b>PathCompactPathEx</b> will return "My Fil...".
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines PathCompactPathEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

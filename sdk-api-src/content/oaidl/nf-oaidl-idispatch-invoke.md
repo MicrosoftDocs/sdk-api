@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.IDispatch.Invoke
 title: IDispatch::Invoke (oaidl.h)
-description: Provides access to properties and methods exposed by an object.helpviewer_keywords: ["DISPATCH_METHOD","DISPATCH_PROPERTYGET","DISPATCH_PROPERTYPUT","DISPATCH_PROPERTYPUTREF","IDispatch interface [Automation]","Invoke method","IDispatch.Invoke","IDispatch::Invoke","Invoke","Invoke method [Automation]","Invoke method [Automation]","IDispatch interface","_oa96_IDispatch::Invoke","automat.idispatch_invoke","oaidl/IDispatch::Invoke"]
+description: Provides access to properties and methods exposed by an object.
+helpviewer_keywords: ["DISPATCH_METHOD","DISPATCH_PROPERTYGET","DISPATCH_PROPERTYPUT","DISPATCH_PROPERTYPUTREF","IDispatch interface [Automation]","Invoke method","IDispatch.Invoke","IDispatch::Invoke","Invoke","Invoke method [Automation]","Invoke method [Automation]","IDispatch interface","_oa96_IDispatch::Invoke","automat.idispatch_invoke","oaidl/IDispatch::Invoke"]
 old-location: automat\idispatch_invoke.htm
 tech.root: automat
 ms.assetid: 964ade8e-9d8a-4d32-bd47-aa678912a54d

@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IStorage.CreateStorage
 title: IStorage::CreateStorage (objidl.h)
-description: Creates and opens a new storage object nested within this storage object with the specified name in the specified access mode.helpviewer_keywords: ["CreateStorage","CreateStorage method [Structured Storage]","CreateStorage method [Structured Storage]","IStorage interface","IStorage interface [Structured Storage]","CreateStorage method","IStorage.CreateStorage","IStorage::CreateStorage","_stg_istorage_createstorage","objidl/IStorage::CreateStorage","stg.istorage_createstorage"]
+description: Creates and opens a new storage object nested within this storage object with the specified name in the specified access mode.
+helpviewer_keywords: ["CreateStorage","CreateStorage method [Structured Storage]","CreateStorage method [Structured Storage]","IStorage interface","IStorage interface [Structured Storage]","CreateStorage method","IStorage.CreateStorage","IStorage::CreateStorage","_stg_istorage_createstorage","objidl/IStorage::CreateStorage","stg.istorage_createstorage"]
 old-location: stg\istorage_createstorage.htm
 tech.root: Stg
 ms.assetid: 8c74cacf-8d3c-4d57-b1e9-dc5e4f281717

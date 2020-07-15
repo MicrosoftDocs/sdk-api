@@ -1,7 +1,8 @@
 ---
 UID: NF:evr.IMFVideoDeviceID.GetDeviceID
 title: IMFVideoDeviceID::GetDeviceID (evr.h)
-description: Returns the identifier of the video device supported by an EVR mixer or presenter.helpviewer_keywords: ["GetDeviceID","GetDeviceID method [Media Foundation]","GetDeviceID method [Media Foundation]","IMFVideoDeviceID interface","IMFVideoDeviceID interface [Media Foundation]","GetDeviceID method","IMFVideoDeviceID.GetDeviceID","IMFVideoDeviceID::GetDeviceID","e23ebce0-be58-413a-ab71-d94811c96029","evr/IMFVideoDeviceID::GetDeviceID","mf.imfvideodeviceid_getdeviceid"]
+description: Returns the identifier of the video device supported by an EVR mixer or presenter.
+helpviewer_keywords: ["GetDeviceID","GetDeviceID method [Media Foundation]","GetDeviceID method [Media Foundation]","IMFVideoDeviceID interface","IMFVideoDeviceID interface [Media Foundation]","GetDeviceID method","IMFVideoDeviceID.GetDeviceID","IMFVideoDeviceID::GetDeviceID","e23ebce0-be58-413a-ab71-d94811c96029","evr/IMFVideoDeviceID::GetDeviceID","mf.imfvideodeviceid_getdeviceid"]
 old-location: mf\imfvideodeviceid_getdeviceid.htm
 tech.root: medfound
 ms.assetid: e23ebce0-be58-413a-ab71-d94811c96029

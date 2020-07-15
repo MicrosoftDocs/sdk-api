@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesSetting.GetPreferenceScope
 title: IOfflineFilesSetting::GetPreferenceScope (cscobj.h)
-description: Indicates the scope of the preference associated with this setting.helpviewer_keywords: ["GetPreferenceScope","GetPreferenceScope method [Offline Files]","GetPreferenceScope method [Offline Files]","IOfflineFilesSetting interface","IOfflineFilesSetting interface [Offline Files]","GetPreferenceScope method","IOfflineFilesSetting.GetPreferenceScope","IOfflineFilesSetting::GetPreferenceScope","OFFLINEFILES_SETTING_SCOPE_COMPUTER","OFFLINEFILES_SETTING_SCOPE_USER","cscobj/IOfflineFilesSetting::GetPreferenceScope","of.iofflinefilessetting_getpreferencescope"]
+description: Indicates the scope of the preference associated with this setting.
+helpviewer_keywords: ["GetPreferenceScope","GetPreferenceScope method [Offline Files]","GetPreferenceScope method [Offline Files]","IOfflineFilesSetting interface","IOfflineFilesSetting interface [Offline Files]","GetPreferenceScope method","IOfflineFilesSetting.GetPreferenceScope","IOfflineFilesSetting::GetPreferenceScope","OFFLINEFILES_SETTING_SCOPE_COMPUTER","OFFLINEFILES_SETTING_SCOPE_USER","cscobj/IOfflineFilesSetting::GetPreferenceScope","of.iofflinefilessetting_getpreferencescope"]
 old-location: of\iofflinefilessetting_getpreferencescope.htm
 tech.root: offlinefiles
 ms.assetid: 618a83b7-a86d-4356-8312-7aba8923e8a4

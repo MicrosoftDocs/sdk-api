@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxServer.RegisterDeviceProvider
 title: IFaxServer::RegisterDeviceProvider (faxcomex.h)
-description: The IFaxServer::RegisterDeviceProvider method registers a fax service provider (FSP) with the fax service. Registration takes place after the fax service restarts.helpviewer_keywords: ["IFaxServer interface [Fax Service]","RegisterDeviceProvider method","IFaxServer.RegisterDeviceProvider","IFaxServer::RegisterDeviceProvider","RegisterDeviceProvider","RegisterDeviceProvider method [Fax Service]","RegisterDeviceProvider method [Fax Service]","IFaxServer interface","_mfax_faxserver.registerdeviceprovider","fax._mfax_faxserver_cpp_mfax_faxserver_registerdeviceprovider_cpp","fax._mfax_faxserver_registerdeviceprovider","faxcomex/IFaxServer::RegisterDeviceProvider"]
+description: The IFaxServer::RegisterDeviceProvider method registers a fax service provider (FSP) with the fax service. Registration takes place after the fax service restarts.
+helpviewer_keywords: ["IFaxServer interface [Fax Service]","RegisterDeviceProvider method","IFaxServer.RegisterDeviceProvider","IFaxServer::RegisterDeviceProvider","RegisterDeviceProvider","RegisterDeviceProvider method [Fax Service]","RegisterDeviceProvider method [Fax Service]","IFaxServer interface","_mfax_faxserver.registerdeviceprovider","fax._mfax_faxserver_cpp_mfax_faxserver_registerdeviceprovider_cpp","fax._mfax_faxserver_registerdeviceprovider","faxcomex/IFaxServer::RegisterDeviceProvider"]
 old-location: fax\_mfax_faxserver_cpp_mfax_faxserver_registerdeviceprovider_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinto_z_59ki.htm

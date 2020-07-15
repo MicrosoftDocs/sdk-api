@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteRenderingParams.GetRenderingMode
 title: IDWriteRenderingParams::GetRenderingMode (dwrite.h)
-description: Gets the rendering mode of the rendering parameters object.helpviewer_keywords: ["GetRenderingMode","GetRenderingMode method [Direct Write]","GetRenderingMode method [Direct Write]","IDWriteRenderingParams interface","IDWriteRenderingParams interface [Direct Write]","GetRenderingMode method","IDWriteRenderingParams.GetRenderingMode","IDWriteRenderingParams::GetRenderingMode","directwrite.IDWriteRenderingParams_GetRenderingMode","dwrite/IDWriteRenderingParams::GetRenderingMode"]
+description: Gets the rendering mode of the rendering parameters object.
+helpviewer_keywords: ["GetRenderingMode","GetRenderingMode method [Direct Write]","GetRenderingMode method [Direct Write]","IDWriteRenderingParams interface","IDWriteRenderingParams interface [Direct Write]","GetRenderingMode method","IDWriteRenderingParams.GetRenderingMode","IDWriteRenderingParams::GetRenderingMode","directwrite.IDWriteRenderingParams_GetRenderingMode","dwrite/IDWriteRenderingParams::GetRenderingMode"]
 old-location: directwrite\IDWriteRenderingParams_GetRenderingMode.htm
 tech.root: DirectWrite
 ms.assetid: 657360c6-3351-400b-bb41-bcd92de3c48d

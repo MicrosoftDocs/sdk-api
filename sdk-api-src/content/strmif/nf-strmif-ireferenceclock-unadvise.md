@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IReferenceClock.Unadvise
 title: IReferenceClock::Unadvise (strmif.h)
-description: The Unadvise method removes a pending advise request.helpviewer_keywords: ["IReferenceClock interface [DirectShow]","Unadvise method","IReferenceClock.Unadvise","IReferenceClock::Unadvise","IReferenceClockUnadvise","Unadvise","Unadvise method [DirectShow]","Unadvise method [DirectShow]","IReferenceClock interface","dshow.ireferenceclock_unadvise","strmif/IReferenceClock::Unadvise"]
+description: The Unadvise method removes a pending advise request.
+helpviewer_keywords: ["IReferenceClock interface [DirectShow]","Unadvise method","IReferenceClock.Unadvise","IReferenceClock::Unadvise","IReferenceClockUnadvise","Unadvise","Unadvise method [DirectShow]","Unadvise method [DirectShow]","IReferenceClock interface","dshow.ireferenceclock_unadvise","strmif/IReferenceClock::Unadvise"]
 old-location: dshow\ireferenceclock_unadvise.htm
 tech.root: DirectShow
 ms.assetid: 1f032036-4502-473a-93e1-976a66d8bde1

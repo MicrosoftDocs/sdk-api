@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictStore.EnumConflicts
 title: ISyncMgrConflictStore::EnumConflicts (syncmgr.h)
-description: Enumerates conflicts scoped to the provided sync handler and sync item.helpviewer_keywords: ["EnumConflicts","EnumConflicts method [Windows Shell]","EnumConflicts method [Windows Shell]","ISyncMgrConflictStore interface","ISyncMgrConflictStore interface [Windows Shell]","EnumConflicts method","ISyncMgrConflictStore.EnumConflicts","ISyncMgrConflictStore::EnumConflicts","_shell_ISyncMgrConflictStore_EnumConflicts","shell.ISyncMgrConflictStore_EnumConflicts","syncmgr/ISyncMgrConflictStore::EnumConflicts"]
+description: Enumerates conflicts scoped to the provided sync handler and sync item.
+helpviewer_keywords: ["EnumConflicts","EnumConflicts method [Windows Shell]","EnumConflicts method [Windows Shell]","ISyncMgrConflictStore interface","ISyncMgrConflictStore interface [Windows Shell]","EnumConflicts method","ISyncMgrConflictStore.EnumConflicts","ISyncMgrConflictStore::EnumConflicts","_shell_ISyncMgrConflictStore_EnumConflicts","shell.ISyncMgrConflictStore_EnumConflicts","syncmgr/ISyncMgrConflictStore::EnumConflicts"]
 old-location: shell\ISyncMgrConflictStore_EnumConflicts.htm
 tech.root: shell
 ms.assetid: b59c679c-7759-4b7a-9a23-f054af99d6a7

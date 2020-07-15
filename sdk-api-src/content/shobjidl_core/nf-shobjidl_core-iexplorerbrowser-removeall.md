@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IExplorerBrowser.RemoveAll
 title: IExplorerBrowser::RemoveAll (shobjidl_core.h)
-description: Removes all items from the results folder.helpviewer_keywords: ["IExplorerBrowser interface [Windows Shell]","RemoveAll method","IExplorerBrowser.RemoveAll","IExplorerBrowser::RemoveAll","RemoveAll","RemoveAll method [Windows Shell]","RemoveAll method [Windows Shell]","IExplorerBrowser interface","_shell_IExplorerBrowser_RemoveAll","shell.IExplorerBrowser_RemoveAll","shobjidl_core/IExplorerBrowser::RemoveAll"]
+description: Removes all items from the results folder.
+helpviewer_keywords: ["IExplorerBrowser interface [Windows Shell]","RemoveAll method","IExplorerBrowser.RemoveAll","IExplorerBrowser::RemoveAll","RemoveAll","RemoveAll method [Windows Shell]","RemoveAll method [Windows Shell]","IExplorerBrowser interface","_shell_IExplorerBrowser_RemoveAll","shell.IExplorerBrowser_RemoveAll","shobjidl_core/IExplorerBrowser::RemoveAll"]
 old-location: shell\IExplorerBrowser_RemoveAll.htm
 tech.root: shell
 ms.assetid: 4447d3f4-659f-4ec1-8a6f-91031c85b704

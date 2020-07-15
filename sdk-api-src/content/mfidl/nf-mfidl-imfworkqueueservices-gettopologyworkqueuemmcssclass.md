@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass
 title: IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass (mfidl.h)
-description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class for a specified branch of the current topology.helpviewer_keywords: ["GetTopologyWorkQueueMMCSSClass","GetTopologyWorkQueueMMCSSClass method [Media Foundation]","GetTopologyWorkQueueMMCSSClass method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","GetTopologyWorkQueueMMCSSClass method","IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass","IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass","e815bde7-e17e-4616-8a3f-688f357e8009","mf.imfworkqueueservices_gettopologyworkqueuemmcssclass","mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass"]
+description: Retrieves the Multimedia Class Scheduler Service (MMCSS) class for a specified branch of the current topology.
+helpviewer_keywords: ["GetTopologyWorkQueueMMCSSClass","GetTopologyWorkQueueMMCSSClass method [Media Foundation]","GetTopologyWorkQueueMMCSSClass method [Media Foundation]","IMFWorkQueueServices interface","IMFWorkQueueServices interface [Media Foundation]","GetTopologyWorkQueueMMCSSClass method","IMFWorkQueueServices.GetTopologyWorkQueueMMCSSClass","IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass","e815bde7-e17e-4616-8a3f-688f357e8009","mf.imfworkqueueservices_gettopologyworkqueuemmcssclass","mfidl/IMFWorkQueueServices::GetTopologyWorkQueueMMCSSClass"]
 old-location: mf\imfworkqueueservices_gettopologyworkqueuemmcssclass.htm
 tech.root: medfound
 ms.assetid: e815bde7-e17e-4616-8a3f-688f357e8009

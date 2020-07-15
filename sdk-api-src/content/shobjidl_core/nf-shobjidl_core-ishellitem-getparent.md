@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellItem.GetParent
 title: IShellItem::GetParent (shobjidl_core.h)
-description: Gets the parent of an IShellItem object.helpviewer_keywords: ["GetParent","GetParent method [Windows Shell]","GetParent method [Windows Shell]","IShellItem interface","IShellItem interface [Windows Shell]","GetParent method","IShellItem.GetParent","IShellItem::GetParent","_win32_IShellItem_GetParent","shell.IShellItem_GetParent","shobjidl_core/IShellItem::GetParent"]
+description: Gets the parent of an IShellItem object.
+helpviewer_keywords: ["GetParent","GetParent method [Windows Shell]","GetParent method [Windows Shell]","IShellItem interface","IShellItem interface [Windows Shell]","GetParent method","IShellItem.GetParent","IShellItem::GetParent","_win32_IShellItem_GetParent","shell.IShellItem_GetParent","shobjidl_core/IShellItem::GetParent"]
 old-location: shell\IShellItem_GetParent.htm
 tech.root: shell
 ms.assetid: d62123af-2ae2-40f2-8581-c95b18491f20

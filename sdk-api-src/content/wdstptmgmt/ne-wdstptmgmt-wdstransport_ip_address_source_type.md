@@ -1,7 +1,8 @@
 ---
 UID: NE:wdstptmgmt.__MIDL___MIDL_itf_wdstptmgmt_0000_0000_0007
 title: WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE (wdstptmgmt.h)
-description: Indicates the source from which the WDS multicast provider obtains a multicast address for a new session.helpviewer_keywords: ["*PWDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE","WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE","WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE enumeration [Windows Deployment Services]","WdsTptIpAddressSourceDhcp","WdsTptIpAddressSourceRange","WdsTptIpAddressSourceUnknown","wds.wdstransport_ip_address_source_type","wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE","wdstptmgmt/WdsTptIpAddressSourceDhcp","wdstptmgmt/WdsTptIpAddressSourceRange","wdstptmgmt/WdsTptIpAddressSourceUnknown"]
+description: Indicates the source from which the WDS multicast provider obtains a multicast address for a new session.
+helpviewer_keywords: ["*PWDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE","WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE","WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE enumeration [Windows Deployment Services]","WdsTptIpAddressSourceDhcp","WdsTptIpAddressSourceRange","WdsTptIpAddressSourceUnknown","wds.wdstransport_ip_address_source_type","wdstptmgmt/WDSTRANSPORT_IP_ADDRESS_SOURCE_TYPE","wdstptmgmt/WdsTptIpAddressSourceDhcp","wdstptmgmt/WdsTptIpAddressSourceRange","wdstptmgmt/WdsTptIpAddressSourceUnknown"]
 old-location: wds\wdstransport_ip_address_source_type.htm
 tech.root: wds
 ms.assetid: bc16cf5e-2cfe-480b-b67c-546b47ef2518

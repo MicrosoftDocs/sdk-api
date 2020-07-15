@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsContainer.Create
 title: IADsContainer::Create (iads.h)
-description: Sets up a request to create a directory object of the specified schema class and a given name in the container.helpviewer_keywords: ["Create","Create method [ADSI]","Create method [ADSI]","IADsContainer interface","IADsContainer interface [ADSI]","Create method","IADsContainer.Create","IADsContainer::Create","_ds_iadscontainer_create","adsi.iadscontainer__create","adsi.iadscontainer_create","iads/IADsContainer::Create"]
+description: Sets up a request to create a directory object of the specified schema class and a given name in the container.
+helpviewer_keywords: ["Create","Create method [ADSI]","Create method [ADSI]","IADsContainer interface","IADsContainer interface [ADSI]","Create method","IADsContainer.Create","IADsContainer::Create","_ds_iadscontainer_create","adsi.iadscontainer__create","adsi.iadscontainer_create","iads/IADsContainer::Create"]
 old-location: adsi\iadscontainer_create.htm
 tech.root: adsi
 ms.assetid: 9498ef4d-7a03-487f-91a7-189f17a38a24

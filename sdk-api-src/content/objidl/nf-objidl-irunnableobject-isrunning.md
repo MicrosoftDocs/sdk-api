@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IRunnableObject.IsRunning
 title: IRunnableObject::IsRunning (objidl.h)
-description: Determines whether an object is currently in the running state.helpviewer_keywords: ["IRunnableObject interface [COM]","IsRunning method","IRunnableObject.IsRunning","IRunnableObject::IsRunning","IsRunning","IsRunning method [COM]","IsRunning method [COM]","IRunnableObject interface","_com_irunnableobject_isrunning","com.irunnableobject_isrunning","objidl/IRunnableObject::IsRunning"]
+description: Determines whether an object is currently in the running state.
+helpviewer_keywords: ["IRunnableObject interface [COM]","IsRunning method","IRunnableObject.IsRunning","IRunnableObject::IsRunning","IsRunning","IsRunning method [COM]","IsRunning method [COM]","IRunnableObject interface","_com_irunnableobject_isrunning","com.irunnableobject_isrunning","objidl/IRunnableObject::IsRunning"]
 old-location: com\irunnableobject_isrunning.htm
 tech.root: com
 ms.assetid: 0a4cdd21-8256-4533-9cad-d9e8450a17e9

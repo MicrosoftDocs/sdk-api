@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfThreadMgr2.SuspendKeystrokeHandling
 title: ITfThreadMgr2::SuspendKeystrokeHandling (msctf.h)
-description: Suspends handling keystrokes.helpviewer_keywords: ["ITfThreadMgr2 interface [Text Services Framework]","SuspendKeystrokeHandling method","ITfThreadMgr2.SuspendKeystrokeHandling","ITfThreadMgr2::SuspendKeystrokeHandling","SuspendKeystrokeHandling","SuspendKeystrokeHandling method [Text Services Framework]","SuspendKeystrokeHandling method [Text Services Framework]","ITfThreadMgr2 interface","msctf/ITfThreadMgr2::SuspendKeystrokeHandling","tsf.itfthreadmgr2_suspendkeystrokehandling"]
+description: Suspends handling keystrokes.
+helpviewer_keywords: ["ITfThreadMgr2 interface [Text Services Framework]","SuspendKeystrokeHandling method","ITfThreadMgr2.SuspendKeystrokeHandling","ITfThreadMgr2::SuspendKeystrokeHandling","SuspendKeystrokeHandling","SuspendKeystrokeHandling method [Text Services Framework]","SuspendKeystrokeHandling method [Text Services Framework]","ITfThreadMgr2 interface","msctf/ITfThreadMgr2::SuspendKeystrokeHandling","tsf.itfthreadmgr2_suspendkeystrokehandling"]
 old-location: tsf\itfthreadmgr2_suspendkeystrokehandling.htm
 tech.root: TSF
 ms.assetid: 98E0D017-F0A2-4F80-9CD3-16D22170BFDF

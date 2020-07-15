@@ -1,7 +1,8 @@
 ---
 UID: NF:rdpencomapi.IRDPSRAPIApplication.get_Id
 title: IRDPSRAPIApplication::get_Id (rdpencomapi.h)
-description: The application identifier.helpviewer_keywords: ["IRDPSRAPIApplication interface [RDP]","Id property","IRDPSRAPIApplication.Id","IRDPSRAPIApplication.get_Id","IRDPSRAPIApplication::Id","IRDPSRAPIApplication::get_Id","Id property [RDP]","Id property [RDP]","IRDPSRAPIApplication interface","Id property [RDP]","RDPSRAPIApplication object","RDPSRAPIApplication object [RDP]","Id property","get_Id","rdp.irdpsrapiapplication_id","rdpencomapi/IRDPSRAPIApplication::Id","rdpencomapi/IRDPSRAPIApplication::get_Id"]
+description: The application identifier.
+helpviewer_keywords: ["IRDPSRAPIApplication interface [RDP]","Id property","IRDPSRAPIApplication.Id","IRDPSRAPIApplication.get_Id","IRDPSRAPIApplication::Id","IRDPSRAPIApplication::get_Id","Id property [RDP]","Id property [RDP]","IRDPSRAPIApplication interface","Id property [RDP]","RDPSRAPIApplication object","RDPSRAPIApplication object [RDP]","Id property","get_Id","rdp.irdpsrapiapplication_id","rdpencomapi/IRDPSRAPIApplication::Id","rdpencomapi/IRDPSRAPIApplication::get_Id"]
 old-location: rdp\irdpsrapiapplication_id.htm
 tech.root: rdp
 ms.assetid: 036a882d-9572-4b88-ad78-962251140a27

@@ -1,7 +1,8 @@
 ---
 UID: NF:wincodecsdk.IWICMetadataWriterInfo.CreateInstance
 title: IWICMetadataWriterInfo::CreateInstance (wincodecsdk.h)
-description: Creates an instance of an IWICMetadataWriter.helpviewer_keywords: ["CreateInstance","CreateInstance method [Windows Imaging Component]","CreateInstance method [Windows Imaging Component]","IWICMetadataWriterInfo interface","IWICMetadataWriterInfo interface [Windows Imaging Component]","CreateInstance method","IWICMetadataWriterInfo.CreateInstance","IWICMetadataWriterInfo::CreateInstance","_wic_codec_iwicmetadatawriterinfo_createinstance","wic._wic_codec_iwicmetadatawriterinfo_createinstance","wincodecsdk/IWICMetadataWriterInfo::CreateInstance"]
+description: Creates an instance of an IWICMetadataWriter.
+helpviewer_keywords: ["CreateInstance","CreateInstance method [Windows Imaging Component]","CreateInstance method [Windows Imaging Component]","IWICMetadataWriterInfo interface","IWICMetadataWriterInfo interface [Windows Imaging Component]","CreateInstance method","IWICMetadataWriterInfo.CreateInstance","IWICMetadataWriterInfo::CreateInstance","_wic_codec_iwicmetadatawriterinfo_createinstance","wic._wic_codec_iwicmetadatawriterinfo_createinstance","wincodecsdk/IWICMetadataWriterInfo::CreateInstance"]
 old-location: wic\_wic_codec_iwicmetadatawriterinfo_createinstance.htm
 tech.root: wic
 ms.assetid: d4c701f7-7f79-41d8-864e-41e044b0ea09

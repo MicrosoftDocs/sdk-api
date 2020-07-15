@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetAssemblyFromScope
 title: IMetaDataAssemblyImport::GetAssemblyFromScope (rometadataapi.h)
-description: Gets a pointer to the assembly in the current scope.helpviewer_keywords: ["GetAssemblyFromScope","GetAssemblyFromScope method [Windows Runtime]","GetAssemblyFromScope method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","GetAssemblyFromScope method","IMetaDataAssemblyImport.GetAssemblyFromScope","IMetaDataAssemblyImport::GetAssemblyFromScope","rometadataapi/IMetaDataAssemblyImport::GetAssemblyFromScope","winrt.imetadataassemblyimport_getassemblyfromscope"]
+description: Gets a pointer to the assembly in the current scope.
+helpviewer_keywords: ["GetAssemblyFromScope","GetAssemblyFromScope method [Windows Runtime]","GetAssemblyFromScope method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","GetAssemblyFromScope method","IMetaDataAssemblyImport.GetAssemblyFromScope","IMetaDataAssemblyImport::GetAssemblyFromScope","rometadataapi/IMetaDataAssemblyImport::GetAssemblyFromScope","winrt.imetadataassemblyimport_getassemblyfromscope"]
 old-location: winrt\imetadataassemblyimport_getassemblyfromscope.htm
 tech.root: WinRT
 ms.assetid: b7b7d650-2db6-4e7c-92e0-5d0055a0a5a9

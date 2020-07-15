@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagDELETEITEMSTRUCT
 title: DELETEITEMSTRUCT (winuser.h)
-description: Describes a deleted list box or combo box item.helpviewer_keywords: ["*LPDELETEITEMSTRUCT","*PDELETEITEMSTRUCT","DELETEITEMSTRUCT","DELETEITEMSTRUCT structure [Windows Controls]","ODT_COMBOBOX","ODT_LISTBOX","PDELETEITEMSTRUCT","PDELETEITEMSTRUCT structure pointer [Windows Controls]","_win32_DELETEITEMSTRUCT_str","_win32_DELETEITEMSTRUCT_str_cpp","controls.DELETEITEMSTRUCT","controls._win32_DELETEITEMSTRUCT_str","winuser/DELETEITEMSTRUCT","winuser/PDELETEITEMSTRUCT"]
+description: Describes a deleted list box or combo box item.
+helpviewer_keywords: ["*LPDELETEITEMSTRUCT","*PDELETEITEMSTRUCT","DELETEITEMSTRUCT","DELETEITEMSTRUCT structure [Windows Controls]","ODT_COMBOBOX","ODT_LISTBOX","PDELETEITEMSTRUCT","PDELETEITEMSTRUCT structure pointer [Windows Controls]","_win32_DELETEITEMSTRUCT_str","_win32_DELETEITEMSTRUCT_str_cpp","controls.DELETEITEMSTRUCT","controls._win32_DELETEITEMSTRUCT_str","winuser/DELETEITEMSTRUCT","winuser/PDELETEITEMSTRUCT"]
 old-location: controls\DELETEITEMSTRUCT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listboxes\listboxreference\listboxstructures\deleteitemstruct.htm

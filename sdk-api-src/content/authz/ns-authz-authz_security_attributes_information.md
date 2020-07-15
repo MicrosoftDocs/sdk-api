@@ -1,7 +1,8 @@
 ---
 UID: NS:authz._AUTHZ_SECURITY_ATTRIBUTES_INFORMATION
 title: AUTHZ_SECURITY_ATTRIBUTES_INFORMATION (authz.h)
-description: Specifies one or more security attributes and values.helpviewer_keywords: ["*PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION","AUTHZ_SECURITY_ATTRIBUTES_INFORMATION","AUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure [Security]","PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION","PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security]","authz/AUTHZ_SECURITY_ATTRIBUTES_INFORMATION","authz/PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION","security.authz_security_attributes_information"]
+description: Specifies one or more security attributes and values.
+helpviewer_keywords: ["*PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION","AUTHZ_SECURITY_ATTRIBUTES_INFORMATION","AUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure [Security]","PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION","PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION structure pointer [Security]","authz/AUTHZ_SECURITY_ATTRIBUTES_INFORMATION","authz/PAUTHZ_SECURITY_ATTRIBUTES_INFORMATION","security.authz_security_attributes_information"]
 old-location: security\authz_security_attributes_information.htm
 tech.root: SecAuthZ
 ms.assetid: 1db95ab0-951f-488c-b522-b3f38fc74c7c

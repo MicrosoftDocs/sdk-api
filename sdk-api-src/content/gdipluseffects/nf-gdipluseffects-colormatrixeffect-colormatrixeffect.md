@@ -1,7 +1,8 @@
 ---
 UID: NF:gdipluseffects.ColorMatrixEffect.ColorMatrixEffect
 title: ColorMatrixEffect::ColorMatrixEffect (gdipluseffects.h)
-description: Creates a ColorMatrixEffect object.helpviewer_keywords: ["ColorMatrixEffect","ColorMatrixEffect class [GDI+]","ColorMatrixEffect constructor","ColorMatrixEffect constructor [GDI+]","ColorMatrixEffect constructor [GDI+]","ColorMatrixEffect class","ColorMatrixEffect.ColorMatrixEffect","ColorMatrixEffect::ColorMatrixEffect","_gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_","gdiplus._gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_"]
+description: Creates a ColorMatrixEffect object.
+helpviewer_keywords: ["ColorMatrixEffect","ColorMatrixEffect class [GDI+]","ColorMatrixEffect constructor","ColorMatrixEffect constructor [GDI+]","ColorMatrixEffect constructor [GDI+]","ColorMatrixEffect class","ColorMatrixEffect.ColorMatrixEffect","ColorMatrixEffect::ColorMatrixEffect","_gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_","gdiplus._gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_"]
 old-location: gdiplus\_gdiplus_CLASS_ColorMatrixEffect_ColorMatrixEffect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\colormatrixeffectclass\colormatrixeffectconstructors\colormatrixeffect.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IRunningObjectTable.IsRunning
 title: IRunningObjectTable::IsRunning (objidl.h)
-description: Determines whether the object identified by the specified moniker is currently running.helpviewer_keywords: ["IRunningObjectTable interface [COM]","IsRunning method","IRunningObjectTable.IsRunning","IRunningObjectTable::IsRunning","IsRunning","IsRunning method [COM]","IsRunning method [COM]","IRunningObjectTable interface","_com_irunningobjecttable_isrunning","com.irunningobjecttable_isrunning","objidl/IRunningObjectTable::IsRunning"]
+description: Determines whether the object identified by the specified moniker is currently running.
+helpviewer_keywords: ["IRunningObjectTable interface [COM]","IsRunning method","IRunningObjectTable.IsRunning","IRunningObjectTable::IsRunning","IsRunning","IsRunning method [COM]","IsRunning method [COM]","IRunningObjectTable interface","_com_irunningobjecttable_isrunning","com.irunningobjecttable_isrunning","objidl/IRunningObjectTable::IsRunning"]
 old-location: com\irunningobjecttable_isrunning.htm
 tech.root: com
 ms.assetid: 44564e70-b157-4f60-9b51-337613f6a4c9

@@ -1,7 +1,8 @@
 ---
 UID: NF:mmiscapi.mmioSeek
 title: mmioSeek function (mmiscapi.h)
-description: The mmioSeek function changes the current file position in a file opened by using the mmioOpen function.helpviewer_keywords: ["SEEK_CUR","SEEK_END","SEEK_SET","_win32_mmioSeek","mmioSeek","mmioSeek function [Windows Multimedia]","mmsystem/mmioSeek","multimedia.mmioseek"]
+description: The mmioSeek function changes the current file position in a file opened by using the mmioOpen function.
+helpviewer_keywords: ["SEEK_CUR","SEEK_END","SEEK_SET","_win32_mmioSeek","mmioSeek","mmioSeek function [Windows Multimedia]","mmsystem/mmioSeek","multimedia.mmioseek"]
 old-location: multimedia\mmioseek.htm
 tech.root: Multimedia
 ms.assetid: 11ef0ba9-0b8d-4c1c-981b-3cef5b6ee0e9

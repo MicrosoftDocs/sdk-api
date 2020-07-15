@@ -1,7 +1,8 @@
 ---
 UID: NS:processsnapshot.__unnamed_struct_5
 title: PSS_THREAD_INFORMATION (processsnapshot.h)
-description: Holds thread information returned by PssQuerySnapshot.helpviewer_keywords: ["PSS_THREAD_INFORMATION","PSS_THREAD_INFORMATION structure","proc_snap.pss_thread_information","processsnapshot/PSS_THREAD_INFORMATION"]
+description: Holds thread information returned by PssQuerySnapshot.
+helpviewer_keywords: ["PSS_THREAD_INFORMATION","PSS_THREAD_INFORMATION structure","proc_snap.pss_thread_information","processsnapshot/PSS_THREAD_INFORMATION"]
 old-location: proc_snap\pss_thread_information.htm
 tech.root: proc_snap
 ms.assetid: 68BC42FD-9A30-462F-AFB1-DF9587C50F45

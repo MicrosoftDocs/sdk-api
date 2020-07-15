@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11.D3D11_OMAC
 title: D3D11_OMAC (d3d11.h)
-description: Contains a Message Authentication Code (MAC).helpviewer_keywords: ["D3D11_OMAC","D3D11_OMAC structure [Media Foundation]","d3d11/D3D11_OMAC","mf.d3d11_omac"]
+description: Contains a Message Authentication Code (MAC).
+helpviewer_keywords: ["D3D11_OMAC","D3D11_OMAC structure [Media Foundation]","d3d11/D3D11_OMAC","mf.d3d11_omac"]
 old-location: mf\d3d11_omac.htm
 tech.root: medfound
 ms.assetid: 68AEC018-1DFE-4811-A511-176E82C2E9E2
