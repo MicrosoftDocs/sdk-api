@@ -14,7 +14,7 @@ tech.root: http
 ## -description
 
 
-This header is used by Windows HTTP Services (WinHTTP). For more information, see:
+This header is used by HTTP Server API. For more information, see:
 
-- [Windows HTTP Services (WinHTTP)](../_http/index.md)
+- [HTTP Server API](../_http/index.md)
 
