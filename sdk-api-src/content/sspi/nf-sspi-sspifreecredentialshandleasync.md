@@ -18,8 +18,8 @@ req.lib:
 req.max-support: 
 req.namespace: 
 req.redist: 
-req.target-min-winverclnt: Windows 10, version 1607 [desktop apps only]
-req.target-min-winversvr: Windows Server 2016 [desktop apps only]
+req.target-min-winverclnt: Windows 10, version 1607 [kernel-mode drivers only]
+req.target-min-winversvr: Windows Server 2016 [kernel-mode drivers only]
 req.target-type: 
 req.type-library: 
 req.umdf-ver: 
