@@ -65,9 +65,9 @@ Retrieves information about the memory usage of the specified process.
 
 ### -param Process [in]
 
-A handle to the process. The handle must have the <b>PROCESS_QUERY_INFORMATION</b> or <b>PROCESS_QUERY_LIMITED_INFORMATION</b> access right and the <b>PROCESS_VM_READ</b> access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
+A handle to the process. The handle must have the **PROCESS_QUERY_INFORMATION** or **PROCESS_QUERY_LIMITED_INFORMATION** access right. For more information, see <a href="https://docs.microsoft.com/windows/desktop/ProcThread/process-security-and-access-rights">Process Security and Access Rights</a>.
 
-<b>Windows Server 2003 and Windows XP:  </b>The handle must have the <b>PROCESS_QUERY_INFORMATION</b> and <b>PROCESS_VM_READ</b> access rights.
+**Windows Server 2003 and Windows XP:  **The handle must have the **PROCESS_QUERY_INFORMATION** and **PROCESS_VM_READ** access rights.
 
 
 ### -param ppsmemCounters [out]
@@ -102,18 +102,18 @@ Starting with Windows 7 and Windows Server 2008 R2, Psapi.h establishes
     version numbers for the PSAPI functions. The PSAPI version number affects the name used to call the function and 
     the library that a program must load.
 
-If <b>PSAPI_VERSION</b> is 2 or greater, this function is defined as 
-    <b>K32GetProcessMemoryInfo</b> in Psapi.h and exported in 
-    Kernel32.lib and Kernel32.dll. If <b>PSAPI_VERSION</b> is 1, this 
-    function is defined as <b>GetProcessMemoryInfo</b> in 
+If **PSAPI_VERSION** is 2 or greater, this function is defined as 
+    **K32GetProcessMemoryInfo** in Psapi.h and exported in 
+    Kernel32.lib and Kernel32.dll. If **PSAPI_VERSION** is 1, this 
+    function is defined as **GetProcessMemoryInfo** in 
     Psapi.h and exported in Psapi.lib and Psapi.dll as a wrapper that calls 
-    <b>K32GetProcessMemoryInfo</b>. 
+    **K32GetProcessMemoryInfo**. 
 
 Programs that must run on earlier versions of Windows as 
     well as Windows 7 and later versions should always call this function as 
-    <b>GetProcessMemoryInfo</b>. To ensure correct resolution of symbols, 
-    add Psapi.lib to the <b>TARGETLIBS</b> macro and compile the program with 
-    <b>-DPSAPI_VERSION=1</b>. To use run-time dynamic linking, load Psapi.dll.
+    **GetProcessMemoryInfo**. To ensure correct resolution of symbols, 
+    add Psapi.lib to the **TARGETLIBS** macro and compile the program with 
+    **-DPSAPI_VERSION=1**. To use run-time dynamic linking, load Psapi.dll.
 
 
 #### Examples
