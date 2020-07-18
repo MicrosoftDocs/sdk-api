@@ -191,13 +191,8 @@ The following example uses
      version of Notepad.exe in %SystemRoot%\System32 instead of being redirected 
      to the 32-bit version in %SystemRoot%\SysWOW64.
 
-<div class="code"><span codelanguage="ManagedCPlusPlus"><table>
-<tr>
-<th>C++</th>
-</tr>
-<tr>
-<td>
-<pre>#ifdef _WIN32_WINNT
+```cpp
+#ifdef _WIN32_WINNT
 #undef _WIN32_WINNT
 #endif
 #define _WIN32_WINNT 0x0501
@@ -207,7 +202,7 @@ The following example uses
 #endif
 #define NTDDI_VERSION 0x05010000
 
-#include &lt;Windows.h&gt;
+#include <Windows.h>
 
 void main()
 {
@@ -216,7 +211,7 @@ void main()
 
     //  Disable redirection immediately prior to the native API
     //  function call.
-    if( Wow64DisableWow64FsRedirection(&amp;OldValue) ) 
+    if( Wow64DisableWow64FsRedirection(&OldValue) ) 
     {
         //  Any function calls in this block of code should be as concise
         //  and as simple as possible to avoid unintended results.
@@ -245,10 +240,7 @@ void main()
         // Use the file handle
     }
 }
-</pre>
-</td>
-</tr>
-</table></span></div>
+```
 
 
 
