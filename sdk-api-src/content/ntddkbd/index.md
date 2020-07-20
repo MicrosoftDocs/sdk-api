@@ -13,8 +13,9 @@ tech.root: hid
 
 ## -description
 
+This is the include file that defines all constants and types for accessing the keyboard device.
 
-This header is used by Human Interface Devices Reference. For more information, see:
+For more information, see:
 
 - [Human Interface Devices Reference](../_hid/index.md)
 
