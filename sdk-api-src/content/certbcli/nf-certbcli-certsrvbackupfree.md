@@ -1,7 +1,8 @@
 ---
 UID: NF:certbcli.CertSrvBackupFree
 title: CertSrvBackupFree function (certbcli.h)
-description: Used to free memory allocated from certain Certificate Services Backup APIs.helpviewer_keywords: ["CertSrvBackupFree","CertSrvBackupFree function [Security]","_certsrv_certsrvbackupfree","certbcli/CertSrvBackupFree","security.certsrvbackupfree"]
+description: Used to free memory allocated from certain Certificate Services Backup APIs.
+helpviewer_keywords: ["CertSrvBackupFree","CertSrvBackupFree function [Security]","_certsrv_certsrvbackupfree","certbcli/CertSrvBackupFree","security.certsrvbackupfree"]
 old-location: security\certsrvbackupfree.htm
 tech.root: SecCrypto
 ms.assetid: dbfac3fc-3156-4253-812a-8b0647719096

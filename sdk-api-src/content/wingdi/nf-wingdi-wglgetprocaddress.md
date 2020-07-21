@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.wglGetProcAddress
 title: wglGetProcAddress function (wingdi.h)
-description: The wglGetProcAddress function returns the address of an OpenGL extension function for use with the current OpenGL rendering context.helpviewer_keywords: ["_ogl_wglGetProcAddress","opengl.wglgetprocaddress","wglGetProcAddress","wglGetProcAddress function [OpenGL]","wingdi/wglGetProcAddress"]
+description: The wglGetProcAddress function returns the address of an OpenGL extension function for use with the current OpenGL rendering context.
+helpviewer_keywords: ["_ogl_wglGetProcAddress","opengl.wglgetprocaddress","wglGetProcAddress","wglGetProcAddress function [OpenGL]","wingdi/wglGetProcAddress"]
 old-location: opengl\wglgetprocaddress.htm
 tech.root: OpenGL
 ms.assetid: 7c419b64-1bc6-492e-9853-98b08f38a5ba

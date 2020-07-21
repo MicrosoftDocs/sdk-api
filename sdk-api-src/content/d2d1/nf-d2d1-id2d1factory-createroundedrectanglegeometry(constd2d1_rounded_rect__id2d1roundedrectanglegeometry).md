@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1Factory.CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &,ID2D1RoundedRectangleGeometry)
+UID: NF:d2d1.ID2D1Factory.CreateRoundedRectangleGeometry(constD2D1_ROUNDED_RECT&,ID2D1RoundedRectangleGeometry)
 title: ID2D1Factory::CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &,ID2D1RoundedRectangleGeometry) (d2d1.h)
 description: Creates an ID2D1RoundedRectangleGeometry.
 helpviewer_keywords: ["CreateRoundedRectangleGeometry","CreateRoundedRectangleGeometry method [Direct2D]","CreateRoundedRectangleGeometry method [Direct2D]","ID2D1Factory interface","ID2D1Factory interface [Direct2D]","CreateRoundedRectangleGeometry method","ID2D1Factory.CreateRoundedRectangleGeometry","ID2D1Factory.CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &","ID2D1RoundedRectangleGeometry)","ID2D1Factory::CreateRoundedRectangleGeometry","ID2D1Factory::CreateRoundedRectangleGeometry(const D2D1_ROUNDED_RECT &","ID2D1RoundedRectangleGeometry)","d2d1/ID2D1Factory::CreateRoundedRectangleGeometry","direct2d.ID2D1Factory_CreateRoundedRectangleGeometry_ref_D2D1_ROUNDED_RECT_ptr_ptr_ID2D1RoundedRectangleGeometry"]

@@ -1,7 +1,8 @@
 ---
 UID: NE:dhcpsapi.__unnamed_enum_2
 title: DHCP_POL_ATTR_TYPE (dhcpsapi.h)
-description: The DHCP_POL_ATTR_TYPE enumeration defines the attribute type for a condition in a DHCP server policy.helpviewer_keywords: ["DHCP_POL_ATTR_TYPE","DHCP_POL_ATTR_TYPE enumeration [DHCP]","DhcpAttrHWAddr","DhcpAttrOption","DhcpAttrSubOption","dhcp.dhcp_pol_attr_type","dhcpsapi/DHCP_POL_ATTR_TYPE","dhcpsapi/DhcpAttrHWAddr","dhcpsapi/DhcpAttrOption","dhcpsapi/DhcpAttrSubOption"]
+description: The DHCP_POL_ATTR_TYPE enumeration defines the attribute type for a condition in a DHCP server policy.
+helpviewer_keywords: ["DHCP_POL_ATTR_TYPE","DHCP_POL_ATTR_TYPE enumeration [DHCP]","DhcpAttrHWAddr","DhcpAttrOption","DhcpAttrSubOption","dhcp.dhcp_pol_attr_type","dhcpsapi/DHCP_POL_ATTR_TYPE","dhcpsapi/DhcpAttrHWAddr","dhcpsapi/DhcpAttrOption","dhcpsapi/DhcpAttrSubOption"]
 old-location: dhcp\dhcp_pol_attr_type.htm
 tech.root: DHCP
 ms.assetid: 02a84c55-402c-40fe-8dad-6ed3f58052a1

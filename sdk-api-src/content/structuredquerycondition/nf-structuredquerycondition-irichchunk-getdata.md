@@ -1,7 +1,8 @@
 ---
 UID: NF:structuredquerycondition.IRichChunk.GetData
 title: IRichChunk::GetData (structuredquerycondition.h)
-description: Retrieves the PROPVARIANT and input string that represents a chunk of data.helpviewer_keywords: ["GetData","GetData method [search]","GetData method [search]","IRichChunk interface","IRichChunk interface [search]","GetData method","IRichChunk.GetData","IRichChunk::GetData","_search_IRichChunk_GetData","search._search_IRichChunk_GetData","structuredquerycondition/IRichChunk::GetData"]
+description: Retrieves the PROPVARIANT and input string that represents a chunk of data.
+helpviewer_keywords: ["GetData","GetData method [search]","GetData method [search]","IRichChunk interface","IRichChunk interface [search]","GetData method","IRichChunk.GetData","IRichChunk::GetData","_search_IRichChunk_GetData","search._search_IRichChunk_GetData","structuredquerycondition/IRichChunk::GetData"]
 old-location: search\_search_IRichChunk_GetData.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\querying\irichchunk\getdata.htm

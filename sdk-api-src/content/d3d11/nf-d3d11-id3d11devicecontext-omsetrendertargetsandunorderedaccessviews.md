@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11DeviceContext.OMSetRenderTargetsAndUnorderedAccessViews
 title: ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews (d3d11.h)
-description: Binds resources to the output-merger stage.helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","OMSetRenderTargetsAndUnorderedAccessViews method","ID3D11DeviceContext.OMSetRenderTargetsAndUnorderedAccessViews","ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews","OMSetRenderTargetsAndUnorderedAccessViews","OMSetRenderTargetsAndUnorderedAccessViews method [Direct3D 11]","OMSetRenderTargetsAndUnorderedAccessViews method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews","direct3d11.id3d11devicecontext_omsetrendertargetsandunorderedaccessviews","ee2c41c6-fd01-a895-a163-330e4363a9d7"]
+description: Binds resources to the output-merger stage.
+helpviewer_keywords: ["ID3D11DeviceContext interface [Direct3D 11]","OMSetRenderTargetsAndUnorderedAccessViews method","ID3D11DeviceContext.OMSetRenderTargetsAndUnorderedAccessViews","ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews","OMSetRenderTargetsAndUnorderedAccessViews","OMSetRenderTargetsAndUnorderedAccessViews method [Direct3D 11]","OMSetRenderTargetsAndUnorderedAccessViews method [Direct3D 11]","ID3D11DeviceContext interface","d3d11/ID3D11DeviceContext::OMSetRenderTargetsAndUnorderedAccessViews","direct3d11.id3d11devicecontext_omsetrendertargetsandunorderedaccessviews","ee2c41c6-fd01-a895-a163-330e4363a9d7"]
 old-location: direct3d11\id3d11devicecontext_omsetrendertargetsandunorderedaccessviews.htm
 tech.root: direct3d11
 ms.assetid: 1973d40f-f0d0-497e-be7b-6cf55f8a7da2
@@ -254,6 +255,3 @@ The following conditions must be true for <b>OMSetRenderTargetsAndUnorderedAcces
 
 <a href="https://docs.microsoft.com/windows/desktop/api/d3d11/nn-d3d11-id3d11devicecontext">ID3D11DeviceContext</a>
  
-
- 
-

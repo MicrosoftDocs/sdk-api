@@ -1,7 +1,8 @@
 ---
 UID: NS:p2p.peer_member_tag
 title: PEER_MEMBER (p2p.h)
-description: The PEER_MEMBER structure contains information that describes a member of a peer group.helpviewer_keywords: ["*PPEER_MEMBER","PEER_MEMBER","PEER_MEMBER structure [Peer Networking]","PEER_MEMBER_PRESENT","PPEER_MEMBER","PPEER_MEMBER structure pointer [Peer Networking]","p2p.peer_member","p2p/PPEER_MEMBER","p2p/peer_member_tag"]
+description: The PEER_MEMBER structure contains information that describes a member of a peer group.
+helpviewer_keywords: ["*PPEER_MEMBER","PEER_MEMBER","PEER_MEMBER structure [Peer Networking]","PEER_MEMBER_PRESENT","PPEER_MEMBER","PPEER_MEMBER structure pointer [Peer Networking]","p2p.peer_member","p2p/PPEER_MEMBER","p2p/peer_member_tag"]
 old-location: p2p\peer_member.htm
 tech.root: P2PSdk
 ms.assetid: b8bd0e17-6af7-426d-ba38-11ff4948cf67

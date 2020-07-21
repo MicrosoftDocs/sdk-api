@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMStreamConfig.GetStreamType
 title: IWMStreamConfig::GetStreamType (wmsdkidl.h)
-description: The GetStreamType method retrieves the major type of the stream (audio, video, or script).helpviewer_keywords: ["GetStreamType","GetStreamType method [windows Media Format]","GetStreamType method [windows Media Format]","IWMStreamConfig interface","IWMStreamConfig interface [windows Media Format]","GetStreamType method","IWMStreamConfig.GetStreamType","IWMStreamConfig::GetStreamType","IWMStreamConfigGetStreamType","wmformat.iwmstreamconfig_getstreamtype","wmsdkidl/IWMStreamConfig::GetStreamType"]
+description: The GetStreamType method retrieves the major type of the stream (audio, video, or script).
+helpviewer_keywords: ["GetStreamType","GetStreamType method [windows Media Format]","GetStreamType method [windows Media Format]","IWMStreamConfig interface","IWMStreamConfig interface [windows Media Format]","GetStreamType method","IWMStreamConfig.GetStreamType","IWMStreamConfig::GetStreamType","IWMStreamConfigGetStreamType","wmformat.iwmstreamconfig_getstreamtype","wmsdkidl/IWMStreamConfig::GetStreamType"]
 old-location: wmformat\iwmstreamconfig_getstreamtype.htm
 tech.root: wmformat
 ms.assetid: a8dc8c37-da52-4d0f-b143-aaa45e6f77b8

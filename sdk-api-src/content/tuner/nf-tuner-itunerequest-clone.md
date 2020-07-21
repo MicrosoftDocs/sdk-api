@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.ITuneRequest.Clone
 title: ITuneRequest::Clone (tuner.h)
-description: The Clone method returns a new copy of this tune request.helpviewer_keywords: ["Clone","Clone method [Microsoft TV Technologies]","Clone method [Microsoft TV Technologies]","ITuneRequest interface","ITuneRequest interface [Microsoft TV Technologies]","Clone method","ITuneRequest.Clone","ITuneRequest::Clone","ITuneRequestClone","mstv.itunerequest_clone","tuner/ITuneRequest::Clone"]
+description: The Clone method returns a new copy of this tune request.
+helpviewer_keywords: ["Clone","Clone method [Microsoft TV Technologies]","Clone method [Microsoft TV Technologies]","ITuneRequest interface","ITuneRequest interface [Microsoft TV Technologies]","Clone method","ITuneRequest.Clone","ITuneRequest::Clone","ITuneRequestClone","mstv.itunerequest_clone","tuner/ITuneRequest::Clone"]
 old-location: mstv\itunerequest_clone.htm
 tech.root: mstv
 ms.assetid: 14298e56-805d-48f3-9f78-79d4eaf2239f

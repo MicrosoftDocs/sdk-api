@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.SHStripMneumonicW
 title: SHStripMneumonicW function (shlwapi.h)
-description: Removes the mnemonic marker from a string.helpviewer_keywords: ["SHStripMneumonic","SHStripMneumonic function [Windows Shell]","SHStripMneumonicA","SHStripMneumonicW","_win32_SHStripMneumonic","shell.SHStripMneumonic","shlwapi/SHStripMneumonic","shlwapi/SHStripMneumonicA","shlwapi/SHStripMneumonicW"]
+description: Removes the mnemonic marker from a string.
+helpviewer_keywords: ["SHStripMneumonic","SHStripMneumonic function [Windows Shell]","SHStripMneumonicA","SHStripMneumonicW","_win32_SHStripMneumonic","shell.SHStripMneumonic","shlwapi/SHStripMneumonic","shlwapi/SHStripMneumonicA","shlwapi/SHStripMneumonicW"]
 old-location: shell\SHStripMneumonic.htm
 tech.root: shell
 ms.assetid: 25479814-825a-4af2-8751-b35cf39bbb80
@@ -115,6 +116,10 @@ The function supports the following mnemonic formats.
 
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines SHStripMneumonic as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

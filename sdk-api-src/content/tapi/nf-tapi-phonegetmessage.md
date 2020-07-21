@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.phoneGetMessage
 title: phoneGetMessage function (tapi.h)
-description: The phoneGetMessage function returns the next TAPI message that is queued for delivery to an application that is using the Event Handle notification mechanism (see phoneInitializeEx for further details).helpviewer_keywords: ["_tapi2_phonegetmessage","phoneGetMessage","phoneGetMessage function [TAPI 2.2]","tapi/phoneGetMessage","tapi2.phonegetmessage"]
+description: The phoneGetMessage function returns the next TAPI message that is queued for delivery to an application that is using the Event Handle notification mechanism (see phoneInitializeEx for further details).
+helpviewer_keywords: ["_tapi2_phonegetmessage","phoneGetMessage","phoneGetMessage function [TAPI 2.2]","tapi/phoneGetMessage","tapi2.phonegetmessage"]
 old-location: tapi2\phonegetmessage.htm
 tech.root: Tapi
 ms.assetid: 8afa17ef-a47f-41af-b120-1e2d5acb4106

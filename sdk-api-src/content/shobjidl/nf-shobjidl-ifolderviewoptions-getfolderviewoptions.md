@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IFolderViewOptions.GetFolderViewOptions
 title: IFolderViewOptions::GetFolderViewOptions (shobjidl.h)
-description: Retrieves the current set of options for the view.helpviewer_keywords: ["GetFolderViewOptions","GetFolderViewOptions method [Windows Shell]","GetFolderViewOptions method [Windows Shell]","IFolderViewOptions interface","IFolderViewOptions interface [Windows Shell]","GetFolderViewOptions method","IFolderViewOptions.GetFolderViewOptions","IFolderViewOptions::GetFolderViewOptions","_shell_IFolderViewOptions_GetFolderViewOptions","shell.IFolderViewOptions_GetFolderViewOptions","shobjidl/IFolderViewOptions::GetFolderViewOptions"]
+description: Retrieves the current set of options for the view.
+helpviewer_keywords: ["GetFolderViewOptions","GetFolderViewOptions method [Windows Shell]","GetFolderViewOptions method [Windows Shell]","IFolderViewOptions interface","IFolderViewOptions interface [Windows Shell]","GetFolderViewOptions method","IFolderViewOptions.GetFolderViewOptions","IFolderViewOptions::GetFolderViewOptions","_shell_IFolderViewOptions_GetFolderViewOptions","shell.IFolderViewOptions_GetFolderViewOptions","shobjidl/IFolderViewOptions::GetFolderViewOptions"]
 old-location: shell\IFolderViewOptions_GetFolderViewOptions.htm
 tech.root: shell
 ms.assetid: 9733c2b0-608f-4f20-b379-81de0c333473

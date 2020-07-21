@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_XML_READER_PROPERTY
 title: WS_XML_READER_PROPERTY (webservices.h)
-description: Specifies a reader specific setting.helpviewer_keywords: ["WS_XML_READER_PROPERTY","WS_XML_READER_PROPERTY structure [Web Services for Windows]","webservices/WS_XML_READER_PROPERTY","wsw.ws_xml_reader_property"]
+description: Specifies a reader specific setting.
+helpviewer_keywords: ["WS_XML_READER_PROPERTY","WS_XML_READER_PROPERTY structure [Web Services for Windows]","webservices/WS_XML_READER_PROPERTY","wsw.ws_xml_reader_property"]
 old-location: wsw\ws_xml_reader_property.htm
 tech.root: wsw
 ms.assetid: 8864d679-c321-45bb-b774-f05696d6098e

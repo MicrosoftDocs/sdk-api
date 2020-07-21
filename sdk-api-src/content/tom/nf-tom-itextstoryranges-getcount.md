@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextStoryRanges.GetCount
 title: ITextStoryRanges::GetCount (tom.h)
-description: Retrieves the number of stories in the specified stories collection.helpviewer_keywords: ["GetCount","GetCount method [Windows Controls]","GetCount method [Windows Controls]","ITextStoryRanges interface","ITextStoryRanges interface [Windows Controls]","GetCount method","ITextStoryRanges.GetCount","ITextStoryRanges::GetCount","_win32_ITextStoryRanges_GetCount","_win32_ITextStoryRanges_GetCount_cpp","controls.ITextStoryRanges_GetCount","controls._win32_ITextStoryRanges_GetCount","tom/ITextStoryRanges::GetCount"]
+description: Retrieves the number of stories in the specified stories collection.
+helpviewer_keywords: ["GetCount","GetCount method [Windows Controls]","GetCount method [Windows Controls]","ITextStoryRanges interface","ITextStoryRanges interface [Windows Controls]","GetCount method","ITextStoryRanges.GetCount","ITextStoryRanges::GetCount","_win32_ITextStoryRanges_GetCount","_win32_ITextStoryRanges_GetCount_cpp","controls.ITextStoryRanges_GetCount","controls._win32_ITextStoryRanges_GetCount","tom/ITextStoryRanges::GetCount"]
 old-location: controls\ITextStoryRanges_GetCount.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getcount.htm

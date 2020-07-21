@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFCreateMuxStreamSample
 title: MFCreateMuxStreamSample function (mfapi.h)
-description: Creates an IMFSample containing the samples of multiplexed substreams.helpviewer_keywords: ["MFCreateMuxStreamSample","MFCreateMuxStreamSample function [Media Foundation]","mf.mfcreatemuxstreamsample","mfapi/MFCreateMuxStreamSample"]
+description: Creates an IMFSample containing the samples of multiplexed substreams.
+helpviewer_keywords: ["MFCreateMuxStreamSample","MFCreateMuxStreamSample function [Media Foundation]","mf.mfcreatemuxstreamsample","mfapi/MFCreateMuxStreamSample"]
 old-location: mf\mfcreatemuxstreamsample.htm
 tech.root: medfound
 ms.assetid: D7E7B260-54E0-47F4-9762-ADB06103CDF3

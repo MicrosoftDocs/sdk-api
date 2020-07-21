@@ -1,7 +1,8 @@
 ---
 UID: NC:winbio_adapter.PIBIO_SENSOR_RESET_FN
 title: PIBIO_SENSOR_RESET_FN (winbio_adapter.h)
-description: Reinitializes the sensor.helpviewer_keywords: ["PIBIO_SENSOR_RESET_FN","PIBIO_SENSOR_RESET_FN callback","SensorAdapterReset","SensorAdapterReset callback function [Windows Biometric Framework API]","secbiomet.sensoradapterreset","winbio_adapter/SensorAdapterReset"]
+description: Reinitializes the sensor.
+helpviewer_keywords: ["PIBIO_SENSOR_RESET_FN","PIBIO_SENSOR_RESET_FN callback","SensorAdapterReset","SensorAdapterReset callback function [Windows Biometric Framework API]","secbiomet.sensoradapterreset","winbio_adapter/SensorAdapterReset"]
 old-location: secbiomet\sensoradapterreset.htm
 tech.root: SecBioMet
 ms.assetid: 09a93726-2dff-4a8a-b36c-ad481a4f61b6

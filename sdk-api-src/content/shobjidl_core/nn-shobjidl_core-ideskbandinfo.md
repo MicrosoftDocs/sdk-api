@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IDeskBandInfo
 title: IDeskBandInfo (shobjidl_core.h)
-description: Exposes a method for getting the default Desk Band bandwidth.helpviewer_keywords: ["IDeskBandInfo","IDeskBandInfo interface [Windows Shell]","IDeskBandInfo interface [Windows Shell]","described","_shell_IDeskBandInfo","shell.IDeskBandInfo","shobjidl_core/IDeskBandInfo"]
+description: Exposes a method for getting the default Desk Band bandwidth.
+helpviewer_keywords: ["IDeskBandInfo","IDeskBandInfo interface [Windows Shell]","IDeskBandInfo interface [Windows Shell]","described","_shell_IDeskBandInfo","shell.IDeskBandInfo","shobjidl_core/IDeskBandInfo"]
 old-location: shell\IDeskBandInfo.htm
 tech.root: shell
 ms.assetid: 1fff31d0-e732-4c93-8238-a8b4a5a62d37

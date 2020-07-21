@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngStrokeAndFillPath
 title: EngStrokeAndFillPath function (winddi.h)
-description: The EngStrokeAndFillPath function causes GDI to fill a path and stroke it at the same time.helpviewer_keywords: ["EngStrokeAndFillPath","EngStrokeAndFillPath function [Display Devices]","display.engstrokeandfillpath","gdifncs_aad2693d-6a0e-40ab-ad95-aa38e77c7651.xml","winddi/EngStrokeAndFillPath"]
+description: The EngStrokeAndFillPath function causes GDI to fill a path and stroke it at the same time.
+helpviewer_keywords: ["EngStrokeAndFillPath","EngStrokeAndFillPath function [Display Devices]","display.engstrokeandfillpath","gdifncs_aad2693d-6a0e-40ab-ad95-aa38e77c7651.xml","winddi/EngStrokeAndFillPath"]
 old-location: display\engstrokeandfillpath.htm
 tech.root: display
 ms.assetid: a58ce829-aa55-46d6-b6d0-205140a9548c

@@ -1,7 +1,8 @@
 ---
 UID: NF:vmr9.IVMRAspectRatioControl9.SetAspectRatioMode
 title: IVMRAspectRatioControl9::SetAspectRatioMode (vmr9.h)
-description: The SetAspectRatioMode method specifies whether the VMR preserves the aspect ratio of the source video.helpviewer_keywords: ["IVMRAspectRatioControl9 interface [DirectShow]","SetAspectRatioMode method","IVMRAspectRatioControl9.SetAspectRatioMode","IVMRAspectRatioControl9::SetAspectRatioMode","IVMRAspectRatioControl9SetAspectRatioMode","SetAspectRatioMode","SetAspectRatioMode method [DirectShow]","SetAspectRatioMode method [DirectShow]","IVMRAspectRatioControl9 interface","dshow.ivmraspectratiocontrol9_setaspectratiomode","vmr9/IVMRAspectRatioControl9::SetAspectRatioMode"]
+description: The SetAspectRatioMode method specifies whether the VMR preserves the aspect ratio of the source video.
+helpviewer_keywords: ["IVMRAspectRatioControl9 interface [DirectShow]","SetAspectRatioMode method","IVMRAspectRatioControl9.SetAspectRatioMode","IVMRAspectRatioControl9::SetAspectRatioMode","IVMRAspectRatioControl9SetAspectRatioMode","SetAspectRatioMode","SetAspectRatioMode method [DirectShow]","SetAspectRatioMode method [DirectShow]","IVMRAspectRatioControl9 interface","dshow.ivmraspectratiocontrol9_setaspectratiomode","vmr9/IVMRAspectRatioControl9::SetAspectRatioMode"]
 old-location: dshow\ivmraspectratiocontrol9_setaspectratiomode.htm
 tech.root: DirectShow
 ms.assetid: adc34013-a349-4cf6-b5c2-58b7b212d630

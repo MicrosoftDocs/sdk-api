@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1_1.ID2D1ImageBrush.SetSourceRectangle
 title: ID2D1ImageBrush::SetSourceRectangle (d2d1_1.h)
-description: Sets the source rectangle in the image brush.helpviewer_keywords: ["ID2D1ImageBrush interface [Direct2D]","SetSourceRectangle method","ID2D1ImageBrush.SetSourceRectangle","ID2D1ImageBrush::SetSourceRectangle","SetSourceRectangle","SetSourceRectangle method [Direct2D]","SetSourceRectangle method [Direct2D]","ID2D1ImageBrush interface","d2d1_1/ID2D1ImageBrush::SetSourceRectangle","direct2d.id2d1imagebrush_setsourcerectangle"]
+description: Sets the source rectangle in the image brush.
+helpviewer_keywords: ["ID2D1ImageBrush interface [Direct2D]","SetSourceRectangle method","ID2D1ImageBrush.SetSourceRectangle","ID2D1ImageBrush::SetSourceRectangle","SetSourceRectangle","SetSourceRectangle method [Direct2D]","SetSourceRectangle method [Direct2D]","ID2D1ImageBrush interface","d2d1_1/ID2D1ImageBrush::SetSourceRectangle","direct2d.id2d1imagebrush_setsourcerectangle"]
 old-location: direct2d\id2d1imagebrush_setsourcerectangle.htm
 tech.root: Direct2D
 ms.assetid: be445505-585f-448b-a7eb-386e18a416b3

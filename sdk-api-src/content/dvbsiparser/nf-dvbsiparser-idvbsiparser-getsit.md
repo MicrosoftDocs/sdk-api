@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbSiParser.GetSIT
 title: IDvbSiParser::GetSIT (dvbsiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.helpviewer_keywords: ["GetSIT","GetSIT method [Microsoft TV Technologies]","GetSIT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetSIT method","IDvbSiParser.GetSIT","IDvbSiParser::GetSIT","IDvbSiParserGetSIT","dvbsiparser/IDvbSiParser::GetSIT","mstv.idvbsiparser_getsit"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005 and later.
+helpviewer_keywords: ["GetSIT","GetSIT method [Microsoft TV Technologies]","GetSIT method [Microsoft TV Technologies]","IDvbSiParser interface","IDvbSiParser interface [Microsoft TV Technologies]","GetSIT method","IDvbSiParser.GetSIT","IDvbSiParser::GetSIT","IDvbSiParserGetSIT","dvbsiparser/IDvbSiParser::GetSIT","mstv.idvbsiparser_getsit"]
 old-location: mstv\idvbsiparser_getsit.htm
 tech.root: mstv
 ms.assetid: d316858e-8014-499c-9727-0a839658fa18

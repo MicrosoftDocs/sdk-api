@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl.__unnamed_struct_9
 title: NTFS_FILE_RECORD_OUTPUT_BUFFER
-description: Receives output data from the FSCTL_GET_NTFS_FILE_RECORD control code.helpviewer_keywords: ["*PNTFS_FILE_RECORD_OUTPUT_BUFFER","NTFS_FILE_RECORD_OUTPUT_BUFFER","NTFS_FILE_RECORD_OUTPUT_BUFFER structure [Files]","PNTFS_FILE_RECORD_OUTPUT_BUFFER","PNTFS_FILE_RECORD_OUTPUT_BUFFER structure pointer [Files]","_win32_ntfs_file_record_output_buffer_str","base.ntfs_file_record_output_buffer_str","fs.ntfs_file_record_output_buffer_str","winioctl/NTFS_FILE_RECORD_OUTPUT_BUFFER","winioctl/PNTFS_FILE_RECORD_OUTPUT_BUFFER"]
+description: Receives output data from the FSCTL_GET_NTFS_FILE_RECORD control code.
+helpviewer_keywords: ["*PNTFS_FILE_RECORD_OUTPUT_BUFFER","NTFS_FILE_RECORD_OUTPUT_BUFFER","NTFS_FILE_RECORD_OUTPUT_BUFFER structure [Files]","PNTFS_FILE_RECORD_OUTPUT_BUFFER","PNTFS_FILE_RECORD_OUTPUT_BUFFER structure pointer [Files]","_win32_ntfs_file_record_output_buffer_str","base.ntfs_file_record_output_buffer_str","fs.ntfs_file_record_output_buffer_str","winioctl/NTFS_FILE_RECORD_OUTPUT_BUFFER","winioctl/PNTFS_FILE_RECORD_OUTPUT_BUFFER"]
 old-location: fs\ntfs_file_record_output_buffer_str.htm
 tech.root: FileIO
 ms.assetid: e2597939-5159-4c35-9a1f-f3be43081d72

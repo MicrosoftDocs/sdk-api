@@ -1,7 +1,8 @@
 ---
 UID: NE:wmlss.WindowsMediaLibrarySharingDeviceAuthorizationStatus
 title: WindowsMediaLibrarySharingDeviceAuthorizationStatus (wmlss.h)
-description: The WindowsMediaLibrarySharingDeviceAuthorizationStatus enumeration defines constants that indicate whether a media device is authorized to have access to a media library.helpviewer_keywords: ["DEVICE_AUTHORIZATION_ALLOWED","DEVICE_AUTHORIZATION_DENIED","DEVICE_AUTHORIZATION_UNKNOWN","WindowsMediaLibrarySharingDeviceAuthorizationStatus","WindowsMediaLibrarySharingDeviceAuthorizationStatus enumeration [Windows Media Library Sharing Services]","wmlss.WMLSDeviceAuthorizationStatusEnumeration","wmlss/DEVICE_AUTHORIZATION_ALLOWED","wmlss/DEVICE_AUTHORIZATION_DENIED","wmlss/DEVICE_AUTHORIZATION_UNKNOWN","wmlss/WindowsMediaLibrarySharingDeviceAuthorizationStatus"]
+description: The WindowsMediaLibrarySharingDeviceAuthorizationStatus enumeration defines constants that indicate whether a media device is authorized to have access to a media library.
+helpviewer_keywords: ["DEVICE_AUTHORIZATION_ALLOWED","DEVICE_AUTHORIZATION_DENIED","DEVICE_AUTHORIZATION_UNKNOWN","WindowsMediaLibrarySharingDeviceAuthorizationStatus","WindowsMediaLibrarySharingDeviceAuthorizationStatus enumeration [Windows Media Library Sharing Services]","wmlss.WMLSDeviceAuthorizationStatusEnumeration","wmlss/DEVICE_AUTHORIZATION_ALLOWED","wmlss/DEVICE_AUTHORIZATION_DENIED","wmlss/DEVICE_AUTHORIZATION_UNKNOWN","wmlss/WindowsMediaLibrarySharingDeviceAuthorizationStatus"]
 old-location: wmlss\WMLSDeviceAuthorizationStatusEnumeration.htm
 tech.root: WMLSS
 ms.assetid: 2b858236-32d9-410e-bf57-207a1c44c9d5

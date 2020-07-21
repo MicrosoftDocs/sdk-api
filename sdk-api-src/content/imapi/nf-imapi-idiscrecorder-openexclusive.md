@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi.IDiscRecorder.OpenExclusive
 title: IDiscRecorder::OpenExclusive (imapi.h)
-description: Opens a disc recorder for exclusive access.helpviewer_keywords: ["IDiscRecorder interface [IMAPI]","OpenExclusive method","IDiscRecorder.OpenExclusive","IDiscRecorder::OpenExclusive","OpenExclusive","OpenExclusive method [IMAPI]","OpenExclusive method [IMAPI]","IDiscRecorder interface","_win32_idiscrecorder_openexclusive","base.idiscrecorder_openexclusive","imapi.idiscrecorder_openexclusive","imapi/IDiscRecorder::OpenExclusive"]
+description: Opens a disc recorder for exclusive access.
+helpviewer_keywords: ["IDiscRecorder interface [IMAPI]","OpenExclusive method","IDiscRecorder.OpenExclusive","IDiscRecorder::OpenExclusive","OpenExclusive","OpenExclusive method [IMAPI]","OpenExclusive method [IMAPI]","IDiscRecorder interface","_win32_idiscrecorder_openexclusive","base.idiscrecorder_openexclusive","imapi.idiscrecorder_openexclusive","imapi/IDiscRecorder::OpenExclusive"]
 old-location: imapi\idiscrecorder_openexclusive.htm
 tech.root: imapi
 ms.assetid: e704baf0-d403-4cf7-aa32-16677d9a8694

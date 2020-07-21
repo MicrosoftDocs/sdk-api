@@ -1,7 +1,8 @@
 ---
 UID: NF:thumbcache.ISharedBitmap.GetSharedBitmap
 title: ISharedBitmap::GetSharedBitmap (thumbcache.h)
-description: Retrieves the bitmap contained in an ISharedBitmap object.helpviewer_keywords: ["GetSharedBitmap","GetSharedBitmap method [Windows Shell]","GetSharedBitmap method [Windows Shell]","ISharedBitmap interface","ISharedBitmap interface [Windows Shell]","GetSharedBitmap method","ISharedBitmap.GetSharedBitmap","ISharedBitmap::GetSharedBitmap","_shell__GetSharedBitmap","shell.ISharedBitmap_GetSharedBitmap","thumbcache/ISharedBitmap::GetSharedBitmap"]
+description: Retrieves the bitmap contained in an ISharedBitmap object.
+helpviewer_keywords: ["GetSharedBitmap","GetSharedBitmap method [Windows Shell]","GetSharedBitmap method [Windows Shell]","ISharedBitmap interface","ISharedBitmap interface [Windows Shell]","GetSharedBitmap method","ISharedBitmap.GetSharedBitmap","ISharedBitmap::GetSharedBitmap","_shell__GetSharedBitmap","shell.ISharedBitmap_GetSharedBitmap","thumbcache/ISharedBitmap::GetSharedBitmap"]
 old-location: shell\ISharedBitmap_GetSharedBitmap.htm
 tech.root: shell
 ms.assetid: 0d2cfdba-b51f-4035-b0b2-e48933505c73

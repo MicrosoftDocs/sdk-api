@@ -123,7 +123,6 @@ If the function fails, the return value is <b>NULL</b>. To get extended error in
 
 
 
-
 ## -remarks
 
 
@@ -165,8 +164,6 @@ For an example that uses
 ## -see-also
 
 
-
-
 <a href="/windows/desktop/api/handleapi/nf-handleapi-closehandle">CloseHandle</a>
 
 
@@ -200,7 +197,4 @@ For an example that uses
 
 
 <a href="/windows/desktop/Sync/synchronization-functions">Synchronization Functions</a>
- 
-
- 
 

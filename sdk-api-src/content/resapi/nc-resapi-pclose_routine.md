@@ -1,7 +1,8 @@
 ---
 UID: NC:resapi.PCLOSE_ROUTINE
 title: PCLOSE_ROUTINE (resapi.h)
-description: Closes a resource.helpviewer_keywords: ["Close","PCLOSE_ROUTINE","PCLOSE_ROUTINE callback","PCLOSE_ROUTINE callback function [Failover Cluster]","_wolf_close","mscs.close","resapi/PCLOSE_ROUTINE"]
+description: Closes a resource.
+helpviewer_keywords: ["Close","PCLOSE_ROUTINE","PCLOSE_ROUTINE callback","PCLOSE_ROUTINE callback function [Failover Cluster]","_wolf_close","mscs.close","resapi/PCLOSE_ROUTINE"]
 old-location: mscs\close.htm
 tech.root: MsCS
 ms.assetid: c7c74440-c98a-4440-8bf4-10ebd1a68608

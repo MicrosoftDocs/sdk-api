@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetMessageTime
 title: GetMessageTime function (winuser.h)
-description: Retrieves the message time for the last message retrieved by the GetMessage function.helpviewer_keywords: ["GetMessageTime","GetMessageTime function [Windows and Messages]","_win32_GetMessageTime","_win32_getmessagetime_cpp","winmsg.getmessagetime","winui._win32_getmessagetime","winuser/GetMessageTime"]
+description: Retrieves the message time for the last message retrieved by the GetMessage function.
+helpviewer_keywords: ["GetMessageTime","GetMessageTime function [Windows and Messages]","_win32_GetMessageTime","_win32_getmessagetime_cpp","winmsg.getmessagetime","winui._win32_getmessagetime","winuser/GetMessageTime"]
 old-location: winmsg\getmessagetime.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\getmessagetime.htm

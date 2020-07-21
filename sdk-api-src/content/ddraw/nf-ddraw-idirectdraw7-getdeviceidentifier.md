@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDraw7.GetDeviceIdentifier
 title: IDirectDraw7::GetDeviceIdentifier (ddraw.h)
-description: Obtains information about the device driver. This method can be used, with caution, to recognize specific hardware installations to implement workarounds for poor driver or chipset behavior.helpviewer_keywords: ["DDGDI_GETHOSTIDENTIFIER","GetDeviceIdentifier","GetDeviceIdentifier method [DirectDraw]","GetDeviceIdentifier method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","GetDeviceIdentifier method","IDirectDraw7.GetDeviceIdentifier","IDirectDraw7::GetDeviceIdentifier","ddraw/IDirectDraw7::GetDeviceIdentifier","directdraw.idirectdraw7_getdeviceidentifier"]
+description: Obtains information about the device driver. This method can be used, with caution, to recognize specific hardware installations to implement workarounds for poor driver or chipset behavior.
+helpviewer_keywords: ["DDGDI_GETHOSTIDENTIFIER","GetDeviceIdentifier","GetDeviceIdentifier method [DirectDraw]","GetDeviceIdentifier method [DirectDraw]","IDirectDraw7 interface","IDirectDraw7 interface [DirectDraw]","GetDeviceIdentifier method","IDirectDraw7.GetDeviceIdentifier","IDirectDraw7::GetDeviceIdentifier","ddraw/IDirectDraw7::GetDeviceIdentifier","directdraw.idirectdraw7_getdeviceidentifier"]
 old-location: directdraw\idirectdraw7_getdeviceidentifier.htm
 tech.root: directdraw
 ms.assetid: 1524dae8-e383-47f4-8e18-c8ef235b3176

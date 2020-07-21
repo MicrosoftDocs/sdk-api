@@ -1,7 +1,8 @@
 ---
 UID: NF:ndfapi.NdfCloseIncident
 title: NdfCloseIncident function (ndfapi.h)
-description: Used to close an Network Diagnostics Framework (NDF) incident following its resolution.helpviewer_keywords: ["NdfCloseIncident","NdfCloseIncident function [NDF]","ndf.ndfcloseincident","ndfapi/NdfCloseIncident"]
+description: Used to close an Network Diagnostics Framework (NDF) incident following its resolution.
+helpviewer_keywords: ["NdfCloseIncident","NdfCloseIncident function [NDF]","ndf.ndfcloseincident","ndfapi/NdfCloseIncident"]
 old-location: ndf\ndfcloseincident.htm
 tech.root: NDF
 ms.assetid: 5e5caf41-ca24-42e0-ac22-3b569400c383

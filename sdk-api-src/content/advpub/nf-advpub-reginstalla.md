@@ -1,7 +1,8 @@
 ---
 UID: NF:advpub.RegInstallA
 title: RegInstallA function (advpub.h)
-description: Updates the string registry values in the provided table.helpviewer_keywords: ["RegInstallA","RegInstallA function [Windows API]","advpub/RegInstallA","winprog.reginstalla"]
+description: Updates the string registry values in the provided table.
+helpviewer_keywords: ["RegInstallA","RegInstallA function [Windows API]","advpub/RegInstallA","winprog.reginstalla"]
 old-location: winprog\reginstalla.htm
 tech.root: DevNotes
 ms.assetid: 53BE8B69-2028-42EB-9A45-6CE776A7B9A6
@@ -79,4 +80,9 @@ The table of values to be updated.
 Returns S_OK on success. Returns E_FAIL on failure.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The advpub.h header defines RegInstall as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IDigitalCableTuningSpace.get_MaxSourceID
 title: IDigitalCableTuningSpace::get_MaxSourceID (tuner.h)
-description: The get_MaxSourceID method retrieves the highest source identifier for this tuning space.helpviewer_keywords: ["IDigitalCableTuningSpace interface [Microsoft TV Technologies]","get_MaxSourceID method","IDigitalCableTuningSpace.get_MaxSourceID","IDigitalCableTuningSpace::get_MaxSourceID","IDigitalCableTuningSpaceget_MaxSourceID","get_MaxSourceID","get_MaxSourceID method [Microsoft TV Technologies]","get_MaxSourceID method [Microsoft TV Technologies]","IDigitalCableTuningSpace interface","mstv.idigitalcabletuningspace_get_maxsourceid","tuner/IDigitalCableTuningSpace::get_MaxSourceID"]
+description: The get_MaxSourceID method retrieves the highest source identifier for this tuning space.
+helpviewer_keywords: ["IDigitalCableTuningSpace interface [Microsoft TV Technologies]","get_MaxSourceID method","IDigitalCableTuningSpace.get_MaxSourceID","IDigitalCableTuningSpace::get_MaxSourceID","IDigitalCableTuningSpaceget_MaxSourceID","get_MaxSourceID","get_MaxSourceID method [Microsoft TV Technologies]","get_MaxSourceID method [Microsoft TV Technologies]","IDigitalCableTuningSpace interface","mstv.idigitalcabletuningspace_get_maxsourceid","tuner/IDigitalCableTuningSpace::get_MaxSourceID"]
 old-location: mstv\idigitalcabletuningspace_get_maxsourceid.htm
 tech.root: mstv
 ms.assetid: 4f408777-11a0-4c86-95e6-9bfe7c917bb3

@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFNetCredentialManager.BeginGetCredentials
 title: IMFNetCredentialManager::BeginGetCredentials (mfidl.h)
-description: Begins an asynchronous request to retrieve the user's credentials.helpviewer_keywords: ["BeginGetCredentials","BeginGetCredentials method [Media Foundation]","BeginGetCredentials method [Media Foundation]","IMFNetCredentialManager interface","IMFNetCredentialManager interface [Media Foundation]","BeginGetCredentials method","IMFNetCredentialManager.BeginGetCredentials","IMFNetCredentialManager::BeginGetCredentials","ff11ff99-18bf-4c4c-93fd-31c06309f105","mf.imfnetcredentialmanager_begingetcredentials","mfidl/IMFNetCredentialManager::BeginGetCredentials"]
+description: Begins an asynchronous request to retrieve the user's credentials.
+helpviewer_keywords: ["BeginGetCredentials","BeginGetCredentials method [Media Foundation]","BeginGetCredentials method [Media Foundation]","IMFNetCredentialManager interface","IMFNetCredentialManager interface [Media Foundation]","BeginGetCredentials method","IMFNetCredentialManager.BeginGetCredentials","IMFNetCredentialManager::BeginGetCredentials","ff11ff99-18bf-4c4c-93fd-31c06309f105","mf.imfnetcredentialmanager_begingetcredentials","mfidl/IMFNetCredentialManager::BeginGetCredentials"]
 old-location: mf\imfnetcredentialmanager_begingetcredentials.htm
 tech.root: medfound
 ms.assetid: ff11ff99-18bf-4c4c-93fd-31c06309f105

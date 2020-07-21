@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorGreater
 title: XMVectorGreater function (directxmath.h)
-description: Performs a per-component test for greater-than between two vectors.helpviewer_keywords: ["Use DirectX..XMVectorGreater","XMVectorGreater","XMVectorGreater method [DirectX Math Support APIs]","dxmath.xmvectorgreater"]
+description: Performs a per-component test for greater-than between two vectors.
+helpviewer_keywords: ["Use DirectX..XMVectorGreater","XMVectorGreater","XMVectorGreater method [DirectX Math Support APIs]","dxmath.xmvectorgreater"]
 old-location: dxmath\xmvectorgreater.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.comparison.XMVectorGreater(XMVECTOR,XMVECTOR)

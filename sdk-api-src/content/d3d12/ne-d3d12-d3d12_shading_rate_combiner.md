@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12.D3D12_SHADING_RATE_COMBINER
 title: D3D12_SHADING_RATE_COMBINER
-description: Defines constants that specify a shading rate combiner (for variable-rate shading, or VRS).helpviewer_keywords: ["D3D12_SHADING_RATE_COMBINER"]
+description: Defines constants that specify a shading rate combiner (for variable-rate shading, or VRS).
+helpviewer_keywords: ["D3D12_SHADING_RATE_COMBINER"]
 ms.date: 05/20/2019
 ms.keywords: D3D12_SHADING_RATE_COMBINER
 f1_keywords:

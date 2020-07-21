@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.lineRemoveProvider
 title: lineRemoveProvider function (tapi.h)
-description: The lineRemoveProvider function removes an existing telephony service provider from the telephony system.helpviewer_keywords: ["_tapi2_lineremoveprovider","lineRemoveProvider","lineRemoveProvider function [TAPI 2.2]","tapi/lineRemoveProvider","tapi2.lineremoveprovider"]
+description: The lineRemoveProvider function removes an existing telephony service provider from the telephony system.
+helpviewer_keywords: ["_tapi2_lineremoveprovider","lineRemoveProvider","lineRemoveProvider function [TAPI 2.2]","tapi/lineRemoveProvider","tapi2.lineremoveprovider"]
 old-location: tapi2\lineremoveprovider.htm
 tech.root: Tapi
 ms.assetid: 8398a869-bc64-490a-bdb2-496582a88d84

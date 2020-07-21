@@ -1,7 +1,8 @@
 ---
 UID: NF:wpcapi.IWPCGamesSettings.IsBlocked
 title: IWPCGamesSettings::IsBlocked (wpcapi.h)
-description: Determines whether the specified game is blocked from execution.helpviewer_keywords: ["IWPCGamesSettings interface","IsBlocked method","IWPCGamesSettings.IsBlocked","IWPCGamesSettings::IsBlocked","IsBlocked","IsBlocked method","IsBlocked method","IWPCGamesSettings interface","parcon.iwpcgamessettings_isblocked","wpcapi/IWPCGamesSettings::IsBlocked"]
+description: Determines whether the specified game is blocked from execution.
+helpviewer_keywords: ["IWPCGamesSettings interface","IsBlocked method","IWPCGamesSettings.IsBlocked","IWPCGamesSettings::IsBlocked","IsBlocked","IsBlocked method","IsBlocked method","IWPCGamesSettings interface","parcon.iwpcgamessettings_isblocked","wpcapi/IWPCGamesSettings::IsBlocked"]
 old-location: parcon\iwpcgamessettings_isblocked.htm
 tech.root: parcon
 ms.assetid: a8cdd3ca-8a0d-4e4a-8a54-eb3ddcab52ff

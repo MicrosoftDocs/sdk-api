@@ -1,7 +1,8 @@
 ---
 UID: NF:audioenginebaseapo.IAudioSystemEffectsCustomFormats.GetFormat
 title: IAudioSystemEffectsCustomFormats::GetFormat (audioenginebaseapo.h)
-description: The GetFormat method retrieves an IAudioMediaType representation of a custom format.helpviewer_keywords: ["GetFormat","GetFormat method [Audio Devices]","GetFormat method [Audio Devices]","IAudioSystemEffectsCustomFormats interface","IAudioSystemEffectsCustomFormats interface [Audio Devices]","GetFormat method","IAudioSystemEffectsCustomFormats.GetFormat","IAudioSystemEffectsCustomFormats::GetFormat","audio.iaudiosystemeffectscustomformats_getformat","audio_syseffects_r_6d606a4f-7fce-4ae6-af5b-77a3baf2e41e.xml","audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormat"]
+description: The GetFormat method retrieves an IAudioMediaType representation of a custom format.
+helpviewer_keywords: ["GetFormat","GetFormat method [Audio Devices]","GetFormat method [Audio Devices]","IAudioSystemEffectsCustomFormats interface","IAudioSystemEffectsCustomFormats interface [Audio Devices]","GetFormat method","IAudioSystemEffectsCustomFormats.GetFormat","IAudioSystemEffectsCustomFormats::GetFormat","audio.iaudiosystemeffectscustomformats_getformat","audio_syseffects_r_6d606a4f-7fce-4ae6-af5b-77a3baf2e41e.xml","audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormat"]
 old-location: audio\iaudiosystemeffectscustomformats_getformat.htm
 tech.root: audio
 ms.assetid: 0eab885f-32f7-47d3-b9b1-684eb3d2cd37

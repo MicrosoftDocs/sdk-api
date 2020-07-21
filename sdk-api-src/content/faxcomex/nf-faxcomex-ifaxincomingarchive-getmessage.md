@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxIncomingArchive.GetMessage
 title: IFaxIncomingArchive::GetMessage (faxcomex.h)
-description: The GetMessage method returns a fax message from the archive of inbound faxes by using the fax message ID.helpviewer_keywords: ["GetMessage","GetMessage method [Fax Service]","GetMessage method [Fax Service]","IFaxIncomingArchive interface","IFaxIncomingArchive interface [Fax Service]","GetMessage method","IFaxIncomingArchive.GetMessage","IFaxIncomingArchive::GetMessage","_mfax_faxincomingarchive.getmessage","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_getmessage_cpp","fax._mfax_faxincomingarchive_getmessage","faxcomex/IFaxIncomingArchive::GetMessage"]
+description: The GetMessage method returns a fax message from the archive of inbound faxes by using the fax message ID.
+helpviewer_keywords: ["GetMessage","GetMessage method [Fax Service]","GetMessage method [Fax Service]","IFaxIncomingArchive interface","IFaxIncomingArchive interface [Fax Service]","GetMessage method","IFaxIncomingArchive.GetMessage","IFaxIncomingArchive::GetMessage","_mfax_faxincomingarchive.getmessage","fax._mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_getmessage_cpp","fax._mfax_faxincomingarchive_getmessage","faxcomex/IFaxIncomingArchive::GetMessage"]
 old-location: fax\_mfax_faxincomingarchive_cpp_mfax_faxincomingarchive_getmessage_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_223p.htm

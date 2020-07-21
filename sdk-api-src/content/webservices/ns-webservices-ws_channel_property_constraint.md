@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_CHANNEL_PROPERTY_CONSTRAINT
 title: WS_CHANNEL_PROPERTY_CONSTRAINT (webservices.h)
-description: Specifies constraints for a particular channel property.helpviewer_keywords: ["WS_CHANNEL_PROPERTY_CONSTRAINT","WS_CHANNEL_PROPERTY_CONSTRAINT structure [Web Services for Windows]","webservices/WS_CHANNEL_PROPERTY_CONSTRAINT","wsw.ws_channel_property_constraint"]
+description: Specifies constraints for a particular channel property.
+helpviewer_keywords: ["WS_CHANNEL_PROPERTY_CONSTRAINT","WS_CHANNEL_PROPERTY_CONSTRAINT structure [Web Services for Windows]","webservices/WS_CHANNEL_PROPERTY_CONSTRAINT","wsw.ws_channel_property_constraint"]
 old-location: wsw\ws_channel_property_constraint.htm
 tech.root: wsw
 ms.assetid: 548dcba5-dc78-402e-a930-a58fb462c08a

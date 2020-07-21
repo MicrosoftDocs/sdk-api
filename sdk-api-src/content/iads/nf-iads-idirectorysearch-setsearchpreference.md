@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IDirectorySearch.SetSearchPreference
 title: IDirectorySearch::SetSearchPreference (iads.h)
-description: Specifies a search preference for obtaining data in a subsequent search.helpviewer_keywords: ["IDirectorySearch interface [ADSI]","SetSearchPreference method","IDirectorySearch.SetSearchPreference","IDirectorySearch::SetSearchPreference","SetSearchPreference","SetSearchPreference method [ADSI]","SetSearchPreference method [ADSI]","IDirectorySearch interface","_ds_idirectorysearch_setsearchpreference","adsi.idirectorysearch__setsearchpreference","adsi.idirectorysearch_setsearchpreference","iads/IDirectorySearch::SetSearchPreference"]
+description: Specifies a search preference for obtaining data in a subsequent search.
+helpviewer_keywords: ["IDirectorySearch interface [ADSI]","SetSearchPreference method","IDirectorySearch.SetSearchPreference","IDirectorySearch::SetSearchPreference","SetSearchPreference","SetSearchPreference method [ADSI]","SetSearchPreference method [ADSI]","IDirectorySearch interface","_ds_idirectorysearch_setsearchpreference","adsi.idirectorysearch__setsearchpreference","adsi.idirectorysearch_setsearchpreference","iads/IDirectorySearch::SetSearchPreference"]
 old-location: adsi\idirectorysearch_setsearchpreference.htm
 tech.root: adsi
 ms.assetid: 1c5b3f72-6165-41ad-99d4-d68bc12ac10b

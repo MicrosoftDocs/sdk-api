@@ -1,7 +1,8 @@
 ---
 UID: NF:memoryapi.GetWriteWatch
 title: GetWriteWatch function (memoryapi.h)
-description: Retrieves the addresses of the pages that are written to in a region of virtual memory.helpviewer_keywords: ["GetWriteWatch","GetWriteWatch function","_win32_getwritewatch","base.getwritewatch","winbase/GetWriteWatch"]
+description: Retrieves the addresses of the pages that are written to in a region of virtual memory.
+helpviewer_keywords: ["GetWriteWatch","GetWriteWatch function","_win32_getwritewatch","base.getwritewatch","winbase/GetWriteWatch"]
 old-location: base\getwritewatch.htm
 tech.root: Memory
 ms.assetid: fa1426fe-4a1d-4300-b6f3-3e9e2272b8d3

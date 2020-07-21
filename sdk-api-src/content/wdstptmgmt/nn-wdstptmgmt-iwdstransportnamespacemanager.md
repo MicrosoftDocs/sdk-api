@@ -1,7 +1,8 @@
 ---
 UID: NN:wdstptmgmt.IWdsTransportNamespaceManager
 title: IWdsTransportNamespaceManager (wdstptmgmt.h)
-description: Manages namespaces on a WDS transport server.helpviewer_keywords: ["IWdsTransportNamespaceManager","IWdsTransportNamespaceManager interface [Windows Deployment Services]","IWdsTransportNamespaceManager interface [Windows Deployment Services]","described","wds.iwdstransportnamespacemanager","wdstptmgmt/IWdsTransportNamespaceManager"]
+description: Manages namespaces on a WDS transport server.
+helpviewer_keywords: ["IWdsTransportNamespaceManager","IWdsTransportNamespaceManager interface [Windows Deployment Services]","IWdsTransportNamespaceManager interface [Windows Deployment Services]","described","wds.iwdstransportnamespacemanager","wdstptmgmt/IWdsTransportNamespaceManager"]
 old-location: wds\iwdstransportnamespacemanager.htm
 tech.root: wds
 ms.assetid: de5fc470-af9f-4f9f-bc17-a347dc702e36

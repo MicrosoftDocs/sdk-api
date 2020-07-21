@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.DrawDibRealize
 title: DrawDibRealize function (vfw.h)
-description: The DrawDibRealize function realizes the palette of the DrawDib DC for use with the specified DC.helpviewer_keywords: ["DrawDibRealize","DrawDibRealize function [Windows Multimedia]","_win32_DrawDibRealize","multimedia.drawdibrealize","vfw/DrawDibRealize"]
+description: The DrawDibRealize function realizes the palette of the DrawDib DC for use with the specified DC.
+helpviewer_keywords: ["DrawDibRealize","DrawDibRealize function [Windows Multimedia]","_win32_DrawDibRealize","multimedia.drawdibrealize","vfw/DrawDibRealize"]
 old-location: multimedia\drawdibrealize.htm
 tech.root: Multimedia
 ms.assetid: 4723c8a4-36af-4543-b6df-d51f68a3e94d

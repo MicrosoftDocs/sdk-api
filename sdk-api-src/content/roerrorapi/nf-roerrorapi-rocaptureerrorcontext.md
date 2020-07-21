@@ -1,7 +1,8 @@
 ---
 UID: NF:roerrorapi.RoCaptureErrorContext
 title: RoCaptureErrorContext function
-description: Saves the current error context so that it's available for later calls to the RoFailFastWithErrorContext function.helpviewer_keywords: ["RoCaptureErrorContext","RoCaptureErrorContext function [Windows Runtime]","roerrorapi/RoCaptureErrorContext","winrt.rocaptureerrorcontext"]
+description: Saves the current error context so that it's available for later calls to the RoFailFastWithErrorContext function.
+helpviewer_keywords: ["RoCaptureErrorContext","RoCaptureErrorContext function [Windows Runtime]","roerrorapi/RoCaptureErrorContext","winrt.rocaptureerrorcontext"]
 old-location: winrt\rocaptureerrorcontext.htm
 tech.root: WinRT
 ms.assetid: 4102CAD6-B5EC-4633-91CC-D56F6C0E287E

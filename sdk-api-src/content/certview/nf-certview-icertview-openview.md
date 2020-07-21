@@ -1,7 +1,8 @@
 ---
 UID: NF:certview.ICertView.OpenView
 title: ICertView::OpenView (certview.h)
-description: Opens a view to a Certificate Services database and instantiates an instance of an IEnumCERTVIEWROW object.helpviewer_keywords: ["CCertView object [Security]","OpenView method","ICertView interface [Security]","OpenView method","ICertView.OpenView","ICertView2 interface [Security]","OpenView method","ICertView2::OpenView","ICertView::OpenView","OpenView","OpenView method [Security]","OpenView method [Security]","CCertView object","OpenView method [Security]","ICertView interface","OpenView method [Security]","ICertView2 interface","certview/ICertView2::OpenView","certview/ICertView::OpenView","security.icertview2_openview"]
+description: Opens a view to a Certificate Services database and instantiates an instance of an IEnumCERTVIEWROW object.
+helpviewer_keywords: ["CCertView object [Security]","OpenView method","ICertView interface [Security]","OpenView method","ICertView.OpenView","ICertView2 interface [Security]","OpenView method","ICertView2::OpenView","ICertView::OpenView","OpenView","OpenView method [Security]","OpenView method [Security]","CCertView object","OpenView method [Security]","ICertView interface","OpenView method [Security]","ICertView2 interface","certview/ICertView2::OpenView","certview/ICertView::OpenView","security.icertview2_openview"]
 old-location: security\icertview2_openview.htm
 tech.root: SecCrypto
 ms.assetid: d68a5463-f711-4737-b0ad-889f7e4855d5

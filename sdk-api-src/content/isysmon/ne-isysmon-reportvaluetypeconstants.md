@@ -1,7 +1,8 @@
 ---
 UID: NE:isysmon.eReportValueTypeConstant
 title: ReportValueTypeConstants (isysmon.h)
-description: Determines if the Histogram and Report views graph the last value sampled or a calculated value using values from the sampling period, such as the average or minimum value.helpviewer_keywords: ["ReportValueTypeConstants","ReportValueTypeConstants enumeration [SysMon]","base.reportvaluetypeconstants","isysmon/ReportValueTypeConstants","isysmon/sysmonAverage","isysmon/sysmonCurrentValue","isysmon/sysmonDefaultValue","isysmon/sysmonMaximum","isysmon/sysmonMinimum","sysmon.reportvaluetypeconstants","sysmonAverage","sysmonCurrentValue","sysmonDefaultValue","sysmonMaximum","sysmonMinimum"]
+description: Determines if the Histogram and Report views graph the last value sampled or a calculated value using values from the sampling period, such as the average or minimum value.
+helpviewer_keywords: ["ReportValueTypeConstants","ReportValueTypeConstants enumeration [SysMon]","base.reportvaluetypeconstants","isysmon/ReportValueTypeConstants","isysmon/sysmonAverage","isysmon/sysmonCurrentValue","isysmon/sysmonDefaultValue","isysmon/sysmonMaximum","isysmon/sysmonMinimum","sysmon.reportvaluetypeconstants","sysmonAverage","sysmonCurrentValue","sysmonDefaultValue","sysmonMaximum","sysmonMinimum"]
 old-location: sysmon\reportvaluetypeconstants.htm
 tech.root: SysMon
 ms.assetid: 63287889-3928-4abf-a04d-6790fd70df83

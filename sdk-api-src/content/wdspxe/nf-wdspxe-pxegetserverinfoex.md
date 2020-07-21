@@ -1,7 +1,8 @@
 ---
 UID: NF:wdspxe.PxeGetServerInfoEx
 title: PxeGetServerInfoEx function (wdspxe.h)
-description: Returns information about the PXE server.helpviewer_keywords: ["PXE_GSI_SERVER_DUID","PXE_GSI_TRACE_ENABLED","PxeGetServerInfoEx","PxeGetServerInfoEx function [Windows Deployment Services]","wds.pxegetserverinfoex","wdspxe/PxeGetServerInfoEx"]
+description: Returns information about the PXE server.
+helpviewer_keywords: ["PXE_GSI_SERVER_DUID","PXE_GSI_TRACE_ENABLED","PxeGetServerInfoEx","PxeGetServerInfoEx function [Windows Deployment Services]","wds.pxegetserverinfoex","wdspxe/PxeGetServerInfoEx"]
 old-location: wds\pxegetserverinfoex.htm
 tech.root: wds
 ms.assetid: E0AD1507-3018-42B5-B4DD-E19CC49FD25F

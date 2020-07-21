@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkTransform.GetTransform
 title: IInkTransform::GetTransform (msinkaut.h)
-description: Gets the InkTransform member data.helpviewer_keywords: ["GetTransform","GetTransform method [Tablet PC]","GetTransform method [Tablet PC]","IInkTransform interface","IInkTransform interface [Tablet PC]","GetTransform method","IInkTransform.GetTransform","IInkTransform::GetTransform","d6aec579-7fa4-4cfb-8f63-2810b0c40103","msinkaut/IInkTransform::GetTransform","tablet.inktransform_gettransform"]
+description: Gets the InkTransform member data.
+helpviewer_keywords: ["GetTransform","GetTransform method [Tablet PC]","GetTransform method [Tablet PC]","IInkTransform interface","IInkTransform interface [Tablet PC]","GetTransform method","IInkTransform.GetTransform","IInkTransform::GetTransform","d6aec579-7fa4-4cfb-8f63-2810b0c40103","msinkaut/IInkTransform::GetTransform","tablet.inktransform_gettransform"]
 old-location: tablet\inktransform_gettransform.htm
 tech.root: tablet
 ms.assetid: d6aec579-7fa4-4cfb-8f63-2810b0c40103

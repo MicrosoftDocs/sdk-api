@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.RegisterTraceGuidsW
 title: RegisterTraceGuidsW function (evntrace.h)
-description: The RegisterTraceGuids function registers an event trace provider and the event trace classes that it uses to generate events. This function also specifies the function the provider uses to enable and disable tracing.helpviewer_keywords: ["RegisterTraceGuids","RegisterTraceGuids function [ETW]","RegisterTraceGuidsA","RegisterTraceGuidsW","_evt_registertraceguids","base.registertraceguids","etw.registertraceguids","evntrace/RegisterTraceGuids","evntrace/RegisterTraceGuidsA","evntrace/RegisterTraceGuidsW"]
+description: The RegisterTraceGuids function registers an event trace provider and the event trace classes that it uses to generate events. This function also specifies the function the provider uses to enable and disable tracing.
+helpviewer_keywords: ["RegisterTraceGuids","RegisterTraceGuids function [ETW]","RegisterTraceGuidsA","RegisterTraceGuidsW","_evt_registertraceguids","base.registertraceguids","etw.registertraceguids","evntrace/RegisterTraceGuids","evntrace/RegisterTraceGuidsA","evntrace/RegisterTraceGuidsW"]
 old-location: etw\registertraceguids.htm
 tech.root: ETW
 ms.assetid: c9158292-281b-4a02-b280-956e340d225c
@@ -195,6 +196,10 @@ For an example that uses
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The evntrace.h header defines RegisterTraceGuids as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

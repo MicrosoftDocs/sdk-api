@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcproxy.CStdStubBuffer_DebugServerRelease
 title: CStdStubBuffer_DebugServerRelease function (rpcproxy.h)
-description: The CStdStubBuffer_DebugServerRelease function implements the IRpcStubBuffer::DebugServerRelease method.helpviewer_keywords: ["CStdStubBuffer_DebugServerRelease","CStdStubBuffer_DebugServerRelease function [RPC]","rpc.cstdstubbuffer_debugserverrelease","rpcproxy/CStdStubBuffer_DebugServerRelease"]
+description: The CStdStubBuffer_DebugServerRelease function implements the IRpcStubBuffer::DebugServerRelease method.
+helpviewer_keywords: ["CStdStubBuffer_DebugServerRelease","CStdStubBuffer_DebugServerRelease function [RPC]","rpc.cstdstubbuffer_debugserverrelease","rpcproxy/CStdStubBuffer_DebugServerRelease"]
 old-location: rpc\cstdstubbuffer_debugserverrelease.htm
 tech.root: Rpc
 ms.assetid: 3bdf74bf-2aed-4527-8c60-02537465354b

@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3.IEnumQueue.Skip
 title: IEnumQueue::Skip (tapi3.h)
-description: The Skip method skips over the next specified number of elements in the enumeration sequence.helpviewer_keywords: ["IEnumQueue interface [TAPI 2.2]","Skip method","IEnumQueue.Skip","IEnumQueue::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumQueue interface","_tapi3_ienumqueue_skip","tapi3.ienumqueue_skip","tapi3cc/IEnumQueue::Skip"]
+description: The Skip method skips over the next specified number of elements in the enumeration sequence.
+helpviewer_keywords: ["IEnumQueue interface [TAPI 2.2]","Skip method","IEnumQueue.Skip","IEnumQueue::Skip","Skip","Skip method [TAPI 2.2]","Skip method [TAPI 2.2]","IEnumQueue interface","_tapi3_ienumqueue_skip","tapi3.ienumqueue_skip","tapi3cc/IEnumQueue::Skip"]
 old-location: tapi3\ienumqueue_skip.htm
 tech.root: Tapi
 ms.assetid: 92862b33-ceaf-4b18-b782-bb0352871d34

@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyStoreCache.GetState
 title: IPropertyStoreCache::GetState (propsys.h)
-description: Gets the state of a specified property key.helpviewer_keywords: ["GetState","GetState method [Windows Properties]","GetState method [Windows Properties]","IPropertyStoreCache interface","IPropertyStoreCache interface [Windows Properties]","GetState method","IPropertyStoreCache.GetState","IPropertyStoreCache::GetState","_shell_IPropertyStoreCache_GetState","properties.IPropertyStoreCache_GetState","propsys/IPropertyStoreCache::GetState","shell.IPropertyStoreCache_GetState"]
+description: Gets the state of a specified property key.
+helpviewer_keywords: ["GetState","GetState method [Windows Properties]","GetState method [Windows Properties]","IPropertyStoreCache interface","IPropertyStoreCache interface [Windows Properties]","GetState method","IPropertyStoreCache.GetState","IPropertyStoreCache::GetState","_shell_IPropertyStoreCache_GetState","properties.IPropertyStoreCache_GetState","propsys/IPropertyStoreCache::GetState","shell.IPropertyStoreCache_GetState"]
 old-location: properties\IPropertyStoreCache_GetState.htm
 tech.root: properties
 ms.assetid: bee9275d-9529-4285-8dee-8e4683def46d

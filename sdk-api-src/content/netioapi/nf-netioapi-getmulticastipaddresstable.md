@@ -1,7 +1,8 @@
 ---
 UID: NF:netioapi.GetMulticastIpAddressTable
 title: GetMulticastIpAddressTable function (netioapi.h)
-description: Retrieves the multicast IP address table on the local computer.helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","GetMulticastIpAddressTable","GetMulticastIpAddressTable function [IP Helper]","iphlp.getmulticastipaddresstable","netioapi/GetMulticastIpAddressTable"]
+description: Retrieves the multicast IP address table on the local computer.
+helpviewer_keywords: ["AF_INET","AF_INET6","AF_UNSPEC","GetMulticastIpAddressTable","GetMulticastIpAddressTable function [IP Helper]","iphlp.getmulticastipaddresstable","netioapi/GetMulticastIpAddressTable"]
 old-location: iphlp\getmulticastipaddresstable.htm
 tech.root: IpHlp
 ms.assetid: 0958e92e-12ed-42e0-aa04-b8c4544f6642

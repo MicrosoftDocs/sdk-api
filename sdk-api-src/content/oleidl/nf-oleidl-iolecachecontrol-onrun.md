@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleCacheControl.OnRun
 title: IOleCacheControl::OnRun (oleidl.h)
-description: Notifies the cache that the data source object has entered the running state so that the cache object can establish advise sinks as needed.helpviewer_keywords: ["IOleCacheControl interface [COM]","OnRun method","IOleCacheControl.OnRun","IOleCacheControl::OnRun","OnRun","OnRun method [COM]","OnRun method [COM]","IOleCacheControl interface","_ole_iolecachecontrol_onrun","com.iolecachecontrol_onrun","oleidl/IOleCacheControl::OnRun"]
+description: Notifies the cache that the data source object has entered the running state so that the cache object can establish advise sinks as needed.
+helpviewer_keywords: ["IOleCacheControl interface [COM]","OnRun method","IOleCacheControl.OnRun","IOleCacheControl::OnRun","OnRun","OnRun method [COM]","OnRun method [COM]","IOleCacheControl interface","_ole_iolecachecontrol_onrun","com.iolecachecontrol_onrun","oleidl/IOleCacheControl::OnRun"]
 old-location: com\iolecachecontrol_onrun.htm
 tech.root: com
 ms.assetid: 8d155c3f-115c-41fe-985f-ed60a565341f

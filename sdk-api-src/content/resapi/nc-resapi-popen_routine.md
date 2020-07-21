@@ -1,7 +1,8 @@
 ---
 UID: NC:resapi.POPEN_ROUTINE
 title: POPEN_ROUTINE (resapi.h)
-description: Opens a resource.helpviewer_keywords: ["Open","Open callback","Open callback function [Failover Cluster]","POPEN_ROUTINE","POPEN_ROUTINE callback function [Failover Cluster]","_wolf_open","mscs.open","resapi/Open","resapi/POPEN_ROUTINE"]
+description: Opens a resource.
+helpviewer_keywords: ["Open","Open callback","Open callback function [Failover Cluster]","POPEN_ROUTINE","POPEN_ROUTINE callback function [Failover Cluster]","_wolf_open","mscs.open","resapi/Open","resapi/POPEN_ROUTINE"]
 old-location: mscs\open.htm
 tech.root: MsCS
 ms.assetid: 0a5c10c5-0380-4638-b49d-396be3b3c0dd

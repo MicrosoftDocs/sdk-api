@@ -1,7 +1,8 @@
 ---
 UID: NS:d3d11shadertracing.D3D11_TRACE_STEP
 title: D3D11_TRACE_STEP (d3d11shadertracing.h)
-description: Describes a trace step, which is an instruction.helpviewer_keywords: ["D3D11_TRACE_STEP","D3D11_TRACE_STEP structure [Direct3D 11]","d3d11shadertracing/D3D11_TRACE_STEP","direct3d11.d3d11_trace_step"]
+description: Describes a trace step, which is an instruction.
+helpviewer_keywords: ["D3D11_TRACE_STEP","D3D11_TRACE_STEP structure [Direct3D 11]","d3d11shadertracing/D3D11_TRACE_STEP","direct3d11.d3d11_trace_step"]
 old-location: direct3d11\d3d11_trace_step.htm
 tech.root: direct3d11
 ms.assetid: E4C4757F-4948-41C9-97FB-446B26BE8E93

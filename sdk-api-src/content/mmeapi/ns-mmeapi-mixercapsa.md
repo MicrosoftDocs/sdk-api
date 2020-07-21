@@ -1,7 +1,8 @@
 ---
 UID: NS:mmeapi.tagMIXERCAPSA
 title: MIXERCAPSA (mmeapi.h)
-description: The MIXERCAPS structure describes the capabilities of a mixer device.helpviewer_keywords: ["*LPMIXERCAPSA","*PMIXERCAPSA","MIXERCAPS","MIXERCAPS structure [Windows Multimedia]","MIXERCAPSA","_win32_MIXERCAPS_str","mmeapi/MIXERCAPS","multimedia.mixercaps","tMIXERCAPS","tagMIXERCAPSA","tagMIXERCAPSW"]
+description: The MIXERCAPS structure describes the capabilities of a mixer device.
+helpviewer_keywords: ["*LPMIXERCAPSA","*PMIXERCAPSA","MIXERCAPS","MIXERCAPS structure [Windows Multimedia]","MIXERCAPSA","_win32_MIXERCAPS_str","mmeapi/MIXERCAPS","multimedia.mixercaps","tMIXERCAPS","tagMIXERCAPSA","tagMIXERCAPSW"]
 old-location: multimedia\mixercaps.htm
 tech.root: Multimedia
 ms.assetid: 4a4220cb-fdb1-4afe-821f-27f5adb51530
@@ -108,4 +109,9 @@ Audio Mixers
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The mmeapi.h header defines MIXERCAPS as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

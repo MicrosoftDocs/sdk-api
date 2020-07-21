@@ -1,7 +1,8 @@
 ---
 UID: NF:sensorsapi.ISensor.GetFriendlyName
 title: ISensor::GetFriendlyName (sensorsapi.h)
-description: Retrieves the sensor name that is intended to be seen by the user.helpviewer_keywords: ["GetFriendlyName","GetFriendlyName method","GetFriendlyName method","ISensor interface","ISensor interface","GetFriendlyName method","ISensor.GetFriendlyName","ISensor::GetFriendlyName","sensorsapi/ISensor::GetFriendlyName","winsensors_com_ref.isensor_getfriendlyname"]
+description: Retrieves the sensor name that is intended to be seen by the user.
+helpviewer_keywords: ["GetFriendlyName","GetFriendlyName method","GetFriendlyName method","ISensor interface","ISensor interface","GetFriendlyName method","ISensor.GetFriendlyName","ISensor::GetFriendlyName","sensorsapi/ISensor::GetFriendlyName","winsensors_com_ref.isensor_getfriendlyname"]
 old-location: winsensors_com_ref\isensor_getfriendlyname.htm
 tech.root: SensorsAPI
 ms.assetid: 380a1a93-01f7-4d5b-9916-156728fd94ed

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteTextLayout3.GetLineMetrics
 title: IDWriteTextLayout3::GetLineMetrics (dwrite_3.h)
-description: Retrieves properties of each line.helpviewer_keywords: ["GetLineMetrics","GetLineMetrics method [Direct Write]","GetLineMetrics method [Direct Write]","IDWriteTextLayout3 interface","IDWriteTextLayout3 interface [Direct Write]","GetLineMetrics method","IDWriteTextLayout3.GetLineMetrics","IDWriteTextLayout3::GetLineMetrics","directwrite.idwritetextlayout3_getlinemetrics","dwrite_3/IDWriteTextLayout3::GetLineMetrics"]
+description: Retrieves properties of each line.
+helpviewer_keywords: ["GetLineMetrics","GetLineMetrics method [Direct Write]","GetLineMetrics method [Direct Write]","IDWriteTextLayout3 interface","IDWriteTextLayout3 interface [Direct Write]","GetLineMetrics method","IDWriteTextLayout3.GetLineMetrics","IDWriteTextLayout3::GetLineMetrics","directwrite.idwritetextlayout3_getlinemetrics","dwrite_3/IDWriteTextLayout3::GetLineMetrics"]
 old-location: directwrite\idwritetextlayout3_getlinemetrics.htm
 tech.root: DirectWrite
 ms.assetid: 352ca3e3-7b08-823c-0881-0b051d4ce574

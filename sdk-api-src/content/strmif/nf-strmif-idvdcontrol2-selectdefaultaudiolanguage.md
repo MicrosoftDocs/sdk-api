@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectDefaultAudioLanguage
 title: IDvdControl2::SelectDefaultAudioLanguage (strmif.h)
-description: The SelectDefaultAudioLanguage method sets the default audio language.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectDefaultAudioLanguage method","IDvdControl2.SelectDefaultAudioLanguage","IDvdControl2::SelectDefaultAudioLanguage","IDvdControl2SelectDefaultAudioLanguage","SelectDefaultAudioLanguage","SelectDefaultAudioLanguage method [DirectShow]","SelectDefaultAudioLanguage method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectdefaultaudiolanguage","strmif/IDvdControl2::SelectDefaultAudioLanguage"]
+description: The SelectDefaultAudioLanguage method sets the default audio language.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectDefaultAudioLanguage method","IDvdControl2.SelectDefaultAudioLanguage","IDvdControl2::SelectDefaultAudioLanguage","IDvdControl2SelectDefaultAudioLanguage","SelectDefaultAudioLanguage","SelectDefaultAudioLanguage method [DirectShow]","SelectDefaultAudioLanguage method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectdefaultaudiolanguage","strmif/IDvdControl2::SelectDefaultAudioLanguage"]
 old-location: dshow\idvdcontrol2_selectdefaultaudiolanguage.htm
 tech.root: DirectShow
 ms.assetid: 1f5cf846-6f14-4c17-bd01-6a8ecb46fdab

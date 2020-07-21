@@ -1,7 +1,8 @@
 ---
 UID: NF:winsock2.htonf
 title: htonf function (winsock2.h)
-description: Converts a float from host to TCP/IP network byte order (which is big-endian).helpviewer_keywords: ["htonf","htonf function [Winsock]","winsock.htonf","winsock2/htonf"]
+description: Converts a float from host to TCP/IP network byte order (which is big-endian).
+helpviewer_keywords: ["htonf","htonf function [Winsock]","winsock.htonf","winsock2/htonf"]
 old-location: winsock\htonf.htm
 tech.root: WinSock
 ms.assetid: 93011B2E-2B3C-4EDD-90F7-82A11542A154

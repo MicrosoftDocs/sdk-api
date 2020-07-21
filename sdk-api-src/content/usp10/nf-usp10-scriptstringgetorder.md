@@ -1,7 +1,8 @@
 ---
 UID: NF:usp10.ScriptStringGetOrder
 title: ScriptStringGetOrder function (usp10.h)
-description: Creates an array that maps an original character position to a glyph position.helpviewer_keywords: ["ScriptStringGetOrder","ScriptStringGetOrder function [Internationalization for Windows Applications]","_win32_ScriptStringGetOrder","intl.scriptstringgetorder","usp10/ScriptStringGetOrder"]
+description: Creates an array that maps an original character position to a glyph position.
+helpviewer_keywords: ["ScriptStringGetOrder","ScriptStringGetOrder function [Internationalization for Windows Applications]","_win32_ScriptStringGetOrder","intl.scriptstringgetorder","usp10/ScriptStringGetOrder"]
 old-location: intl\scriptstringgetorder.htm
 tech.root: Intl
 ms.assetid: c9986143-af15-439b-8c99-e07b48344645

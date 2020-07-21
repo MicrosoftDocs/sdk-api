@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice.CheckDeviceState
 title: IDCompositionDevice::CheckDeviceState (dcomp.h)
-description: Determines whether the DirectComposition device object is still valid.helpviewer_keywords: ["CheckDeviceState","CheckDeviceState method [DirectComposition]","CheckDeviceState method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CheckDeviceState method","IDCompositionDevice.CheckDeviceState","IDCompositionDevice::CheckDeviceState","dcomp/IDCompositionDevice::CheckDeviceState","directcomp.idcompositiondevice_checkdevicestate"]
+description: Determines whether the DirectComposition device object is still valid.
+helpviewer_keywords: ["CheckDeviceState","CheckDeviceState method [DirectComposition]","CheckDeviceState method [DirectComposition]","IDCompositionDevice interface","IDCompositionDevice interface [DirectComposition]","CheckDeviceState method","IDCompositionDevice.CheckDeviceState","IDCompositionDevice::CheckDeviceState","dcomp/IDCompositionDevice::CheckDeviceState","directcomp.idcompositiondevice_checkdevicestate"]
 old-location: directcomp\idcompositiondevice_checkdevicestate.htm
 tech.root: directcomp
 ms.assetid: F9916B1E-8713-4758-963A-DFD0F916FF2C

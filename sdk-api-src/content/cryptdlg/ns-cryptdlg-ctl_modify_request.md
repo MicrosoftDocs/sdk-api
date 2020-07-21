@@ -1,7 +1,8 @@
 ---
 UID: NS:cryptdlg._CTL_MODIFY_REQUEST
 title: CTL_MODIFY_REQUEST (cryptdlg.h)
-description: Contains a request to modify a certificate trust list (CTL). This structure is used in the CertModifyCertificatesToTrust function.helpviewer_keywords: ["*PCTL_MODIFY_REQUEST","CTL_MODIFY_REQUEST","CTL_MODIFY_REQUEST structure [Security]","CTL_MODIFY_REQUEST_ADD_NOT_TRUSTED","CTL_MODIFY_REQUEST_ADD_TRUSTED","CTL_MODIFY_REQUEST_REMOVE","PCTL_MODIFY_REQUEST","PCTL_MODIFY_REQUEST structure pointer [Security]","cryptdlg/CTL_MODIFY_REQUEST","cryptdlg/PCTL_MODIFY_REQUEST","security.ctl_modify_request"]
+description: Contains a request to modify a certificate trust list (CTL). This structure is used in the CertModifyCertificatesToTrust function.
+helpviewer_keywords: ["*PCTL_MODIFY_REQUEST","CTL_MODIFY_REQUEST","CTL_MODIFY_REQUEST structure [Security]","CTL_MODIFY_REQUEST_ADD_NOT_TRUSTED","CTL_MODIFY_REQUEST_ADD_TRUSTED","CTL_MODIFY_REQUEST_REMOVE","PCTL_MODIFY_REQUEST","PCTL_MODIFY_REQUEST structure pointer [Security]","cryptdlg/CTL_MODIFY_REQUEST","cryptdlg/PCTL_MODIFY_REQUEST","security.ctl_modify_request"]
 old-location: security\ctl_modify_request.htm
 tech.root: SecCrypto
 ms.assetid: b8b5fd3e-a0db-4edd-84c7-48bae9adc3f8

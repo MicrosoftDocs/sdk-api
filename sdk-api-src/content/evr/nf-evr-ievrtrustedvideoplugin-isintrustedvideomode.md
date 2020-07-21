@@ -1,7 +1,8 @@
 ---
 UID: NF:evr.IEVRTrustedVideoPlugin.IsInTrustedVideoMode
 title: IEVRTrustedVideoPlugin::IsInTrustedVideoMode (evr.h)
-description: Queries whether the plug-in has any transient vulnerabilities at this time.helpviewer_keywords: ["43242898-4812-4faa-8e0a-6e60455c9f3b","IEVRTrustedVideoPlugin interface [Media Foundation]","IsInTrustedVideoMode method","IEVRTrustedVideoPlugin.IsInTrustedVideoMode","IEVRTrustedVideoPlugin::IsInTrustedVideoMode","IsInTrustedVideoMode","IsInTrustedVideoMode method [Media Foundation]","IsInTrustedVideoMode method [Media Foundation]","IEVRTrustedVideoPlugin interface","evr/IEVRTrustedVideoPlugin::IsInTrustedVideoMode","mf.ievrtrustedvideoplugin_isintrustedvideomode"]
+description: Queries whether the plug-in has any transient vulnerabilities at this time.
+helpviewer_keywords: ["43242898-4812-4faa-8e0a-6e60455c9f3b","IEVRTrustedVideoPlugin interface [Media Foundation]","IsInTrustedVideoMode method","IEVRTrustedVideoPlugin.IsInTrustedVideoMode","IEVRTrustedVideoPlugin::IsInTrustedVideoMode","IsInTrustedVideoMode","IsInTrustedVideoMode method [Media Foundation]","IsInTrustedVideoMode method [Media Foundation]","IEVRTrustedVideoPlugin interface","evr/IEVRTrustedVideoPlugin::IsInTrustedVideoMode","mf.ievrtrustedvideoplugin_isintrustedvideomode"]
 old-location: mf\ievrtrustedvideoplugin_isintrustedvideomode.htm
 tech.root: medfound
 ms.assetid: 43242898-4812-4faa-8e0a-6e60455c9f3b

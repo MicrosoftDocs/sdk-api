@@ -1,7 +1,8 @@
 ---
 UID: NF:upnphost.IUPnPDeviceProvider.Start
 title: IUPnPDeviceProvider::Start (upnphost.h)
-description: The Start method starts the device provider. The device host invokes this method after it loads the device provider This method performs any initialization required by the device provider.helpviewer_keywords: ["IUPnPDeviceProvider interface [UPnP APIs]","Start method","IUPnPDeviceProvider.Start","IUPnPDeviceProvider::Start","Start","Start method [UPnP APIs]","Start method [UPnP APIs]","IUPnPDeviceProvider interface","_upnp_iupnpdeviceprovider_start","upnp.iupnpdeviceprovider_start","upnphost/IUPnPDeviceProvider::Start"]
+description: The Start method starts the device provider. The device host invokes this method after it loads the device provider This method performs any initialization required by the device provider.
+helpviewer_keywords: ["IUPnPDeviceProvider interface [UPnP APIs]","Start method","IUPnPDeviceProvider.Start","IUPnPDeviceProvider::Start","Start","Start method [UPnP APIs]","Start method [UPnP APIs]","IUPnPDeviceProvider interface","_upnp_iupnpdeviceprovider_start","upnp.iupnpdeviceprovider_start","upnphost/IUPnPDeviceProvider::Start"]
 old-location: upnp\iupnpdeviceprovider_start.htm
 tech.root: upnp
 ms.assetid: a76c7063-bad5-4f59-a5ca-8a8a4a79787e

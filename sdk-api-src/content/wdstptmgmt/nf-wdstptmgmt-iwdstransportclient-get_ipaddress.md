@@ -1,7 +1,8 @@
 ---
 UID: NF:wdstptmgmt.IWdsTransportClient.get_IpAddress
 title: IWdsTransportClient::get_IpAddress (wdstptmgmt.h)
-description: Receives a string value that contains the IP address of the WDS client.helpviewer_keywords: ["IWdsTransportClient interface [Windows Deployment Services]","IpAddress property","IWdsTransportClient.IpAddress","IWdsTransportClient.get_IpAddress","IWdsTransportClient::IpAddress","IWdsTransportClient::get_IpAddress","IpAddress property [Windows Deployment Services]","IpAddress property [Windows Deployment Services]","IWdsTransportClient interface","get_IpAddress","wds.iwdstransportclient_ipaddress","wdstptmgmt/IWdsTransportClient::IpAddress","wdstptmgmt/IWdsTransportClient::get_IpAddress"]
+description: Receives a string value that contains the IP address of the WDS client.
+helpviewer_keywords: ["IWdsTransportClient interface [Windows Deployment Services]","IpAddress property","IWdsTransportClient.IpAddress","IWdsTransportClient.get_IpAddress","IWdsTransportClient::IpAddress","IWdsTransportClient::get_IpAddress","IpAddress property [Windows Deployment Services]","IpAddress property [Windows Deployment Services]","IWdsTransportClient interface","get_IpAddress","wds.iwdstransportclient_ipaddress","wdstptmgmt/IWdsTransportClient::IpAddress","wdstptmgmt/IWdsTransportClient::get_IpAddress"]
 old-location: wds\iwdstransportclient_ipaddress.htm
 tech.root: wds
 ms.assetid: 1e2d0da1-9362-4187-9ccc-80522d109c83

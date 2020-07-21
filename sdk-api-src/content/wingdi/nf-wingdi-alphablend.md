@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.AlphaBlend
 title: AlphaBlend function (wingdi.h)
-description: The AlphaBlend function displays bitmaps that have transparent or semitransparent pixels.helpviewer_keywords: ["AlphaBlend","AlphaBlend function [Windows GDI]","_win32_AlphaBlend","gdi.alphablend","wingdi/AlphaBlend"]
+description: The AlphaBlend function displays bitmaps that have transparent or semitransparent pixels.
+helpviewer_keywords: ["AlphaBlend","AlphaBlend function [Windows GDI]","_win32_AlphaBlend","gdi.alphablend","wingdi/AlphaBlend"]
 old-location: gdi\alphablend.htm
 tech.root: gdi
 ms.assetid: 4624aa31-7e19-4506-ac70-9b3c98a8215d

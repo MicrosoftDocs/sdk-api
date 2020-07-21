@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectPrimitive.HasAffineTransform
 title: IMILBitmapEffectPrimitive::HasAffineTransform (mileffects.h)
-description: Determines whether the effect has an affine transform.helpviewer_keywords: ["HasAffineTransform","HasAffineTransform method [WPF Bitmap Effects]","HasAffineTransform method [WPF Bitmap Effects]","IMILBitmapEffectPrimitive interface","IMILBitmapEffectPrimitive interface [WPF Bitmap Effects]","HasAffineTransform method","IMILBitmapEffectPrimitive.HasAffineTransform","IMILBitmapEffectPrimitive::HasAffineTransform","_wibe_imilbitmapeffectprimitive_hasaffinetransform","mileffects/IMILBitmapEffectPrimitive::HasAffineTransform","wibe._wibe_imilbitmapeffectprimitive_hasaffinetransform"]
+description: Determines whether the effect has an affine transform.
+helpviewer_keywords: ["HasAffineTransform","HasAffineTransform method [WPF Bitmap Effects]","HasAffineTransform method [WPF Bitmap Effects]","IMILBitmapEffectPrimitive interface","IMILBitmapEffectPrimitive interface [WPF Bitmap Effects]","HasAffineTransform method","IMILBitmapEffectPrimitive.HasAffineTransform","IMILBitmapEffectPrimitive::HasAffineTransform","_wibe_imilbitmapeffectprimitive_hasaffinetransform","mileffects/IMILBitmapEffectPrimitive::HasAffineTransform","wibe._wibe_imilbitmapeffectprimitive_hasaffinetransform"]
 old-location: wibe\_wibe_imilbitmapeffectprimitive_hasaffinetransform.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectprimitive\hasaffinetransform.htm

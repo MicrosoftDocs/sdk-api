@@ -1,7 +1,8 @@
 ---
 UID: NF:wia_xp.IEnumWiaItem.Clone
 title: IEnumWiaItem::Clone (wia_xp.h)
-description: The IEnumWiaItem::Clone method creates an additional instance of the IEnumWiaItem interface and sends back a pointer to it.helpviewer_keywords: ["Clone","Clone method [WIA]","Clone method [WIA]","IEnumWiaItem interface","IEnumWiaItem interface [WIA]","Clone method","IEnumWiaItem.Clone","IEnumWiaItem::Clone","_wia_IEnumWiaItem_Clone","wia._wia_IEnumWiaItem_Clone","wia_xp/IEnumWiaItem::Clone"]
+description: The IEnumWiaItem::Clone method creates an additional instance of the IEnumWiaItem interface and sends back a pointer to it.
+helpviewer_keywords: ["Clone","Clone method [WIA]","Clone method [WIA]","IEnumWiaItem interface","IEnumWiaItem interface [WIA]","Clone method","IEnumWiaItem.Clone","IEnumWiaItem::Clone","_wia_IEnumWiaItem_Clone","wia._wia_IEnumWiaItem_Clone","wia_xp/IEnumWiaItem::Clone"]
 old-location: wia\_wia_IEnumWiaItem_Clone.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\wiax\refwia\ifaces\ienumwiaitem\clone.htm

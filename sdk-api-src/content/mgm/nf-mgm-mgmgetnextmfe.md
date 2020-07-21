@@ -1,7 +1,8 @@
 ---
 UID: NF:mgm.MgmGetNextMfe
 title: MgmGetNextMfe function (mgm.h)
-description: The MgmGetNextMfe function retrieves one or more MFEs.helpviewer_keywords: ["MgmGetNextMfe","MgmGetNextMfe function [RAS]","_mpr_mgmgetnextmfe","mgm/MgmGetNextMfe","rras.mgmgetnextmfe"]
+description: The MgmGetNextMfe function retrieves one or more MFEs.
+helpviewer_keywords: ["MgmGetNextMfe","MgmGetNextMfe function [RAS]","_mpr_mgmgetnextmfe","mgm/MgmGetNextMfe","rras.mgmgetnextmfe"]
 old-location: rras\mgmgetnextmfe.htm
 tech.root: RRAS
 ms.assetid: 067003ef-bb92-48cc-bc13-5b90066c9123

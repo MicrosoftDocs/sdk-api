@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetRTTAndHopCount
 title: GetRTTAndHopCount function (iphlpapi.h)
-description: The GetRTTAndHopCount function determines the round-trip time (RTT) and hop count to the specified destination.helpviewer_keywords: ["GetRTTAndHopCount","GetRTTAndHopCount function [IP Helper]","_iphlp_getrttandhopcount","iphlp.getrttandhopcount","iphlpapi/GetRTTAndHopCount"]
+description: The GetRTTAndHopCount function determines the round-trip time (RTT) and hop count to the specified destination.
+helpviewer_keywords: ["GetRTTAndHopCount","GetRTTAndHopCount function [IP Helper]","_iphlp_getrttandhopcount","iphlp.getrttandhopcount","iphlpapi/GetRTTAndHopCount"]
 old-location: iphlp\getrttandhopcount.htm
 tech.root: IpHlp
 ms.assetid: 4e84fe6f-40bd-4f0e-bb78-4180e13577aa

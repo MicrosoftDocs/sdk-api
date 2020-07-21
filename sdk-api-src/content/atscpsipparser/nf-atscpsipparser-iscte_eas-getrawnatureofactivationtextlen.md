@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetRawNatureOfActivationTextLen
 title: ISCTE_EAS::GetRawNatureOfActivationTextLen (atscpsipparser.h)
-description: Gets the length of the nature_of_activation_text field.helpviewer_keywords: ["GetRawNatureOfActivationTextLen","GetRawNatureOfActivationTextLen method [Microsoft TV Technologies]","GetRawNatureOfActivationTextLen method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetRawNatureOfActivationTextLen method","ISCTE_EAS.GetRawNatureOfActivationTextLen","ISCTE_EAS::GetRawNatureOfActivationTextLen","atscpsipparser/ISCTE_EAS::GetRawNatureOfActivationTextLen","mstv.iscte_eas_getrawnatureofactivationtextlen"]
+description: Gets the length of the nature_of_activation_text field.
+helpviewer_keywords: ["GetRawNatureOfActivationTextLen","GetRawNatureOfActivationTextLen method [Microsoft TV Technologies]","GetRawNatureOfActivationTextLen method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetRawNatureOfActivationTextLen method","ISCTE_EAS.GetRawNatureOfActivationTextLen","ISCTE_EAS::GetRawNatureOfActivationTextLen","atscpsipparser/ISCTE_EAS::GetRawNatureOfActivationTextLen","mstv.iscte_eas_getrawnatureofactivationtextlen"]
 old-location: mstv\iscte_eas_getrawnatureofactivationtextlen.htm
 tech.root: mstv
 ms.assetid: a7f93884-d8a9-449b-afc2-b2ccbd0d2492

@@ -1,7 +1,8 @@
 ---
 UID: NF:winevt.EvtGetExtendedStatus
 title: EvtGetExtendedStatus function (winevt.h)
-description: Gets a text message that contains the extended error information for the current error.helpviewer_keywords: ["EvtGetExtendedStatus","EvtGetExtendedStatus function [EventLog]","wes.evtgetextendedstatus","winevt/EvtGetExtendedStatus"]
+description: Gets a text message that contains the extended error information for the current error.
+helpviewer_keywords: ["EvtGetExtendedStatus","EvtGetExtendedStatus function [EventLog]","wes.evtgetextendedstatus","winevt/EvtGetExtendedStatus"]
 old-location: wes\evtgetextendedstatus.htm
 tech.root: wes
 ms.assetid: 49451981-b3de-4515-ae88-835f17a0a8f9

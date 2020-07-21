@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.UIntPtrToLongPtr
 title: UIntPtrToLongPtr function (intsafe.h)
-description: Converts a value of type UINT_PTR to a value of type LONG_PTR.helpviewer_keywords: ["SizeTToLongPtr","SizeTToSSIZET","UIntPtrToLongPtr","UIntPtrToLongPtr function [Windows Shell]","UIntPtrToSSIZET","_shell_UIntPtrToLongPtr","intsafe/UIntPtrToLongPtr","shell.UIntPtrToLongPtr"]
+description: Converts a value of type UINT_PTR to a value of type LONG_PTR.
+helpviewer_keywords: ["SizeTToLongPtr","SizeTToSSIZET","UIntPtrToLongPtr","UIntPtrToLongPtr function [Windows Shell]","UIntPtrToSSIZET","_shell_UIntPtrToLongPtr","intsafe/UIntPtrToLongPtr","shell.UIntPtrToLongPtr"]
 old-location: shell\UIntPtrToLongPtr.htm
 tech.root: shell
 ms.assetid: 13956b42-981c-41ef-8137-e2c84f662a6b

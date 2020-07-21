@@ -1,7 +1,8 @@
 ---
 UID: NF:mfmediaengine.IMFMediaEngineProtectedContent.TransferVideoFrame
 title: IMFMediaEngineProtectedContent::TransferVideoFrame (mfmediaengine.h)
-description: Copies a protected video frame to a DXGI surface.helpviewer_keywords: ["IMFMediaEngineProtectedContent interface [Media Foundation]","TransferVideoFrame method","IMFMediaEngineProtectedContent.TransferVideoFrame","IMFMediaEngineProtectedContent::TransferVideoFrame","TransferVideoFrame","TransferVideoFrame method [Media Foundation]","TransferVideoFrame method [Media Foundation]","IMFMediaEngineProtectedContent interface","mf.imfmediaengineprotectedcontent_transfervideoframe","mfmediaengine/IMFMediaEngineProtectedContent::TransferVideoFrame"]
+description: Copies a protected video frame to a DXGI surface.
+helpviewer_keywords: ["IMFMediaEngineProtectedContent interface [Media Foundation]","TransferVideoFrame method","IMFMediaEngineProtectedContent.TransferVideoFrame","IMFMediaEngineProtectedContent::TransferVideoFrame","TransferVideoFrame","TransferVideoFrame method [Media Foundation]","TransferVideoFrame method [Media Foundation]","IMFMediaEngineProtectedContent interface","mf.imfmediaengineprotectedcontent_transfervideoframe","mfmediaengine/IMFMediaEngineProtectedContent::TransferVideoFrame"]
 old-location: mf\imfmediaengineprotectedcontent_transfervideoframe.htm
 tech.root: medfound
 ms.assetid: 3A5C6908-65F4-4E7A-AD71-BBD1C2A4ACE3

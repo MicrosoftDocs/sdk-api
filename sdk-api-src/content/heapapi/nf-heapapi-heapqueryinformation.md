@@ -1,7 +1,8 @@
 ---
 UID: NF:heapapi.HeapQueryInformation
 title: HeapQueryInformation function (heapapi.h)
-description: Retrieves information about the specified heap.helpviewer_keywords: ["HeapCompatibilityInformation","HeapQueryInformation","HeapQueryInformation function","_win32_heapqueryinformation","base.heapqueryinformation","heapapi/HeapQueryInformation","winbase/HeapQueryInformation"]
+description: Retrieves information about the specified heap.
+helpviewer_keywords: ["HeapCompatibilityInformation","HeapQueryInformation","HeapQueryInformation function","_win32_heapqueryinformation","base.heapqueryinformation","heapapi/HeapQueryInformation","winbase/HeapQueryInformation"]
 old-location: base\heapqueryinformation.htm
 tech.root: Memory
 ms.assetid: 6bf6cb8b-7212-4ddb-9ea6-34bc78824a8f

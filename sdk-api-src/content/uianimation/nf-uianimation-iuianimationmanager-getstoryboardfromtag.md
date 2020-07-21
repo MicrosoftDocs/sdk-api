@@ -1,7 +1,8 @@
 ---
 UID: NF:uianimation.IUIAnimationManager.GetStoryboardFromTag
 title: IUIAnimationManager::GetStoryboardFromTag (uianimation.h)
-description: Gets the storyboard with the specified tag.helpviewer_keywords: ["GetStoryboardFromTag","GetStoryboardFromTag method [Windows Animation]","GetStoryboardFromTag method [Windows Animation]","IUIAnimationManager interface","IUIAnimationManager interface [Windows Animation]","GetStoryboardFromTag method","IUIAnimationManager.GetStoryboardFromTag","IUIAnimationManager::GetStoryboardFromTag","uianimation.iuianimationmanager_getstoryboardfromtag","uianimation/IUIAnimationManager::GetStoryboardFromTag"]
+description: Gets the storyboard with the specified tag.
+helpviewer_keywords: ["GetStoryboardFromTag","GetStoryboardFromTag method [Windows Animation]","GetStoryboardFromTag method [Windows Animation]","IUIAnimationManager interface","IUIAnimationManager interface [Windows Animation]","GetStoryboardFromTag method","IUIAnimationManager.GetStoryboardFromTag","IUIAnimationManager::GetStoryboardFromTag","uianimation.iuianimationmanager_getstoryboardfromtag","uianimation/IUIAnimationManager::GetStoryboardFromTag"]
 old-location: uianimation\iuianimationmanager_getstoryboardfromtag.htm
 tech.root: UIAnimation
 ms.assetid: 74a9265a-3602-4707-949e-6073cbde9ac4

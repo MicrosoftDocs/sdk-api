@@ -1,7 +1,8 @@
 ---
 UID: NS:qosobjs._QOS_FRIENDLY_NAME
 title: QOS_FRIENDLY_NAME (qosobjs.h)
-description: The QOS_FRIENDLY_NAME traffic control object associates a friendly name with flow.helpviewer_keywords: ["*LPQOS_FRIENDLY_NAME","LPQOS_FRIENDLY_NAME","LPQOS_FRIENDLY_NAME structure pointer [QOS]","QOS_FRIENDLY_NAME","QOS_FRIENDLY_NAME structure [QOS]","_gqos_qos_friendly_name","qos.qos_friendly_name","qosobjs/LPQOS_FRIENDLY_NAME","qosobjs/QOS_FRIENDLY_NAME"]
+description: The QOS_FRIENDLY_NAME traffic control object associates a friendly name with flow.
+helpviewer_keywords: ["*LPQOS_FRIENDLY_NAME","LPQOS_FRIENDLY_NAME","LPQOS_FRIENDLY_NAME structure pointer [QOS]","QOS_FRIENDLY_NAME","QOS_FRIENDLY_NAME structure [QOS]","_gqos_qos_friendly_name","qos.qos_friendly_name","qosobjs/LPQOS_FRIENDLY_NAME","qosobjs/QOS_FRIENDLY_NAME"]
 old-location: qos\qos_friendly_name.htm
 tech.root: QOS
 ms.assetid: 9681fc36-0a31-4b2a-9719-085506126877

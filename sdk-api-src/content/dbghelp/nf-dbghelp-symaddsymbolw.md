@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymAddSymbolW
 title: SymAddSymbolW function (dbghelp.h)
-description: Adds a virtual symbol to the specified module.helpviewer_keywords: ["SymAddSymbol","SymAddSymbol function","SymAddSymbolW","_win32_symaddsymbol","base.symaddsymbol","dbghelp/SymAddSymbol","dbghelp/SymAddSymbolW"]
+description: Adds a virtual symbol to the specified module.
+helpviewer_keywords: ["SymAddSymbol","SymAddSymbol function","SymAddSymbolW","_win32_symaddsymbol","base.symaddsymbol","dbghelp/SymAddSymbol","dbghelp/SymAddSymbolW"]
 old-location: base\symaddsymbol.htm
 tech.root: Debug
 ms.assetid: 28405993-035f-4946-91c3-0e3e34fd8824
@@ -113,6 +114,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymAddSymbol as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

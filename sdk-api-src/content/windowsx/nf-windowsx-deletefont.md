@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsx.DeleteFont
 title: DeleteFont macro (windowsx.h)
-description: The DeleteFont macro deletes a font object, freeing all system resources associated with the font object.helpviewer_keywords: ["DeleteFont","DeleteFont macro [Windows GDI]","_win32_DeleteFont","gdi.deletefont","windowsx/DeleteFont"]
+description: The DeleteFont macro deletes a font object, freeing all system resources associated with the font object.
+helpviewer_keywords: ["DeleteFont","DeleteFont macro [Windows GDI]","_win32_DeleteFont","gdi.deletefont","windowsx/DeleteFont"]
 old-location: gdi\deletefont.htm
 tech.root: gdi
 ms.assetid: 5cb6c667-3c8b-41cf-b2b7-9e1e89729da7

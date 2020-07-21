@@ -1,7 +1,8 @@
 ---
 UID: NF:roapi.RoGetApartmentIdentifier
 title: RoGetApartmentIdentifier function (roapi.h)
-description: Gets a unique identifier for the current apartment.helpviewer_keywords: ["RoGetApartmentIdentifier","RoGetApartmentIdentifier function [Windows Runtime]","roapi/RoGetApartmentIdentifier","winrt.rogetapartmentidentifier"]
+description: Gets a unique identifier for the current apartment.
+helpviewer_keywords: ["RoGetApartmentIdentifier","RoGetApartmentIdentifier function [Windows Runtime]","roapi/RoGetApartmentIdentifier","winrt.rogetapartmentidentifier"]
 old-location: winrt\rogetapartmentidentifier.htm
 tech.root: WinRT
 ms.assetid: C10AE81B-21AB-4B0A-9463-A36C7A1893C7

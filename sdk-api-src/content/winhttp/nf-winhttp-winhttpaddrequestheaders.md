@@ -1,7 +1,8 @@
 ---
 UID: NF:winhttp.WinHttpAddRequestHeaders
 title: WinHttpAddRequestHeaders function (winhttp.h)
-description: Adds one or more HTTP request headers to the HTTP request handle.helpviewer_keywords: ["WINHTTP_ADDREQ_FLAG_ADD","WINHTTP_ADDREQ_FLAG_ADD_IF_NEW","WINHTTP_ADDREQ_FLAG_COALESCE","WINHTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA","WINHTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON","WINHTTP_ADDREQ_FLAG_REPLACE","WinHttpAddRequestHeaders","WinHttpAddRequestHeaders function [WinHTTP]","http.winhttpaddrequestheaders","winhttp/WinHttpAddRequestHeaders","winhttp_winhttpaddrequestheaders_function"]
+description: Adds one or more HTTP request headers to the HTTP request handle.
+helpviewer_keywords: ["WINHTTP_ADDREQ_FLAG_ADD","WINHTTP_ADDREQ_FLAG_ADD_IF_NEW","WINHTTP_ADDREQ_FLAG_COALESCE","WINHTTP_ADDREQ_FLAG_COALESCE_WITH_COMMA","WINHTTP_ADDREQ_FLAG_COALESCE_WITH_SEMICOLON","WINHTTP_ADDREQ_FLAG_REPLACE","WinHttpAddRequestHeaders","WinHttpAddRequestHeaders function [WinHTTP]","http.winhttpaddrequestheaders","winhttp/WinHttpAddRequestHeaders","winhttp_winhttpaddrequestheaders_function"]
 old-location: http\winhttpaddrequestheaders.htm
 tech.root: WinHttp
 ms.assetid: 16cab68c-a802-43cc-87cd-60fcecb6a751

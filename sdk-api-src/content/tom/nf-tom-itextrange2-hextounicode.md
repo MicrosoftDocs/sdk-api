@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange2.HexToUnicode
 title: ITextRange2::HexToUnicode (tom.h)
-description: Converts and replaces the hexadecimal number at the end of this range to a Unicode character.helpviewer_keywords: ["HexToUnicode","HexToUnicode method [Windows Controls]","HexToUnicode method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","HexToUnicode method","ITextRange2.HexToUnicode","ITextRange2::HexToUnicode","controls.itextrange2_hextounicode","tom/ITextRange2::HexToUnicode"]
+description: Converts and replaces the hexadecimal number at the end of this range to a Unicode character.
+helpviewer_keywords: ["HexToUnicode","HexToUnicode method [Windows Controls]","HexToUnicode method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","HexToUnicode method","ITextRange2.HexToUnicode","ITextRange2::HexToUnicode","controls.itextrange2_hextounicode","tom/ITextRange2::HexToUnicode"]
 old-location: controls\itextrange2_hextounicode.htm
 tech.root: Controls
 ms.assetid: 024f9f32-2362-4f1c-b8db-9b4fb1ee157c

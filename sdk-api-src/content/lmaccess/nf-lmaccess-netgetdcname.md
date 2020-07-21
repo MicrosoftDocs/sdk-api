@@ -1,7 +1,8 @@
 ---
 UID: NF:lmaccess.NetGetDCName
 title: NetGetDCName function (lmaccess.h)
-description: The NetGetDCName function returns the name of the primary domain controller (PDC). It does not return the name of the backup domain controller (BDC) for the specified domain. Also, you cannot remote this function to a non-PDC server.helpviewer_keywords: ["NetGetDCName","NetGetDCName function [Network Management]","_win32_netgetdcname","lmaccess/NetGetDCName","netmgmt.netgetdcname"]
+description: The NetGetDCName function returns the name of the primary domain controller (PDC). It does not return the name of the backup domain controller (BDC) for the specified domain. Also, you cannot remote this function to a non-PDC server.
+helpviewer_keywords: ["NetGetDCName","NetGetDCName function [Network Management]","_win32_netgetdcname","lmaccess/NetGetDCName","netmgmt.netgetdcname"]
 old-location: netmgmt\netgetdcname.htm
 tech.root: NetMgmt
 ms.assetid: 3e32aacc-088e-455a-bc1b-92274e98d2e5

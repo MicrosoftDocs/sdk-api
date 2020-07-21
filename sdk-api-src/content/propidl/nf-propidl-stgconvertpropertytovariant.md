@@ -1,7 +1,8 @@
 ---
 UID: NF:propidl.StgConvertPropertyToVariant
 title: StgConvertPropertyToVariant function (propidl.h)
-description: Converts a SERIALIZEDPROPERTYVALUE data type to a PROPVARIANT data type.helpviewer_keywords: ["StgConvertPropertyToVariant","StgConvertPropertyToVariant function [Structured Storage]","propidl/StgConvertPropertyToVariant","stg.stgconvertpropertytovariant"]
+description: Converts a SERIALIZEDPROPERTYVALUE data type to a PROPVARIANT data type.
+helpviewer_keywords: ["StgConvertPropertyToVariant","StgConvertPropertyToVariant function [Structured Storage]","propidl/StgConvertPropertyToVariant","stg.stgconvertpropertytovariant"]
 old-location: stg\stgconvertpropertytovariant.htm
 tech.root: Stg
 ms.assetid: ea4196e6-fc99-4288-942a-e5283f2e5544

@@ -1,7 +1,8 @@
 ---
 UID: NN:msrdc.IRdcGenerator
 title: IRdcGenerator (msrdc.h)
-description: Used to process the input data and read the parameters used by the generator.helpviewer_keywords: ["IRdcGenerator","IRdcGenerator interface [Remote Differential Compression]","IRdcGenerator interface [Remote Differential Compression]","described","fs.irdcgenerator","msrdc/IRdcGenerator","rdc.irdcgenerator"]
+description: Used to process the input data and read the parameters used by the generator.
+helpviewer_keywords: ["IRdcGenerator","IRdcGenerator interface [Remote Differential Compression]","IRdcGenerator interface [Remote Differential Compression]","described","fs.irdcgenerator","msrdc/IRdcGenerator","rdc.irdcgenerator"]
 old-location: rdc\irdcgenerator.htm
 tech.root: rdc
 ms.assetid: 0288318a-0974-4870-b423-87c52090eb33

@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataTables.GetCodedTokenInfo
 title: IMetaDataTables::GetCodedTokenInfo (rometadataapi.h)
-description: Gets a pointer to an array of tokens associated with the specified row index.helpviewer_keywords: ["GetCodedTokenInfo","GetCodedTokenInfo method [Windows Runtime]","GetCodedTokenInfo method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetCodedTokenInfo method","IMetaDataTables.GetCodedTokenInfo","IMetaDataTables::GetCodedTokenInfo","rometadataapi/IMetaDataTables::GetCodedTokenInfo","winrt.imetadatatables_getcodedtokeninfo"]
+description: Gets a pointer to an array of tokens associated with the specified row index.
+helpviewer_keywords: ["GetCodedTokenInfo","GetCodedTokenInfo method [Windows Runtime]","GetCodedTokenInfo method [Windows Runtime]","IMetaDataTables interface","IMetaDataTables interface [Windows Runtime]","GetCodedTokenInfo method","IMetaDataTables.GetCodedTokenInfo","IMetaDataTables::GetCodedTokenInfo","rometadataapi/IMetaDataTables::GetCodedTokenInfo","winrt.imetadatatables_getcodedtokeninfo"]
 old-location: winrt\imetadatatables_getcodedtokeninfo.htm
 tech.root: WinRT
 ms.assetid: 6467affc-0f86-4926-b72f-629c6580e1bf

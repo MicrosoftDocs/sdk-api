@@ -1,7 +1,7 @@
 ---
 UID: NF:ntsecapi.LsaSetForestTrustInformation
 title: LsaSetForestTrustInformation function (ntsecapi.h)
-description: Sets the forest trust information for a specified Local Security Authority&#160;TrustedDomain object.
+description: Sets the forest trust information for a specified Local Security Authority TrustedDomain object.
 helpviewer_keywords: ["LsaSetForestTrustInformation","LsaSetForestTrustInformation function [Security]","ntsecapi/LsaSetForestTrustInformation","security.lsasetforesttrustinformation"]
 old-location: security\lsasetforesttrustinformation.htm
 tech.root: SecAuthN

@@ -1,7 +1,8 @@
 ---
 UID: NF:realtimeapiset.QueryThreadCycleTime
 title: QueryThreadCycleTime function (realtimeapiset.h)
-description: Retrieves the cycle time for the specified thread.helpviewer_keywords: ["QueryThreadCycleTime","QueryThreadCycleTime function","base.querythreadcycletime","realtimeapiset/QueryThreadCycleTime","winbase/QueryThreadCycleTime"]
+description: Retrieves the cycle time for the specified thread.
+helpviewer_keywords: ["QueryThreadCycleTime","QueryThreadCycleTime function","base.querythreadcycletime","realtimeapiset/QueryThreadCycleTime","winbase/QueryThreadCycleTime"]
 old-location: base\querythreadcycletime.htm
 tech.root: ProcThread
 ms.assetid: 5828b073-48af-4118-9206-096b87c978e7

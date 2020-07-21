@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagCHARSETINFO
 title: CHARSETINFO (wingdi.h)
-description: Contains information about a character set.helpviewer_keywords: ["*LPCHARSETINFO","*NPCHARSETINFO","*PCHARSETINFO","CHARSETINFO","CHARSETINFO structure [Internationalization for Windows Applications]","PCHARSETINFO","PCHARSETINFO structure pointer [Internationalization for Windows Applications]","_win32_CHARSETINFO_str","intl.charsetinfo","wingdi/CHARSETINFO","wingdi/PCHARSETINFO"]
+description: Contains information about a character set.
+helpviewer_keywords: ["*LPCHARSETINFO","*NPCHARSETINFO","*PCHARSETINFO","CHARSETINFO","CHARSETINFO structure [Internationalization for Windows Applications]","PCHARSETINFO","PCHARSETINFO structure pointer [Internationalization for Windows Applications]","_win32_CHARSETINFO_str","intl.charsetinfo","wingdi/CHARSETINFO","wingdi/PCHARSETINFO"]
 old-location: intl\charsetinfo.htm
 tech.root: Intl
 ms.assetid: 4f815f53-9fac-41f3-9493-bd8d68cff543

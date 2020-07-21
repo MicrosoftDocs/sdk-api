@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcore.ITextRangeProvider.AddToSelection
 title: ITextRangeProvider::AddToSelection (uiautomationcore.h)
-description: Adds the text range to the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text.helpviewer_keywords: ["AddToSelection","AddToSelection method [Windows Accessibility]","AddToSelection method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","AddToSelection method","ITextRangeProvider.AddToSelection","ITextRangeProvider::AddToSelection","uiauto.uiauto_ITextRangeProvider_AddToSelection","uiauto_ITextRangeProvider_AddToSelection","uiautomationcore/ITextRangeProvider::AddToSelection","winauto.uiauto_ITextRangeProvider_AddToSelection"]
+description: Adds the text range to the collection of selected text ranges in a control that supports multiple, disjoint spans of selected text.
+helpviewer_keywords: ["AddToSelection","AddToSelection method [Windows Accessibility]","AddToSelection method [Windows Accessibility]","ITextRangeProvider interface","ITextRangeProvider interface [Windows Accessibility]","AddToSelection method","ITextRangeProvider.AddToSelection","ITextRangeProvider::AddToSelection","uiauto.uiauto_ITextRangeProvider_AddToSelection","uiauto_ITextRangeProvider_AddToSelection","uiautomationcore/ITextRangeProvider::AddToSelection","winauto.uiauto_ITextRangeProvider_AddToSelection"]
 old-location: winauto\uiauto_ITextRangeProvider_AddToSelection.htm
 tech.root: WinAuto
 ms.assetid: e058ca62-6bb4-403e-a355-cc422a329109

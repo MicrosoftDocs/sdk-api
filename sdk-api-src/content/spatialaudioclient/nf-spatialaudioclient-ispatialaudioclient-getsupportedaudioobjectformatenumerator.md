@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudioclient.ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator
 title: ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator (spatialaudioclient.h)
-description: Gets an IAudioFormatEnumerator that contains all supported audio formats for spatial audio objects, the first item in the list represents the most preferable format.helpviewer_keywords: ["GetSupportedAudioObjectFormatEnumerator","GetSupportedAudioObjectFormatEnumerator method [Core Audio]","GetSupportedAudioObjectFormatEnumerator method [Core Audio]","ISpatialAudioClient interface","ISpatialAudioClient interface [Core Audio]","GetSupportedAudioObjectFormatEnumerator method","ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator","ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator","coreaudio.ispatialaudioclient_getsupportedaudioobjectformatenumerator","spatialaudioclient/ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator"]
+description: Gets an IAudioFormatEnumerator that contains all supported audio formats for spatial audio objects, the first item in the list represents the most preferable format.
+helpviewer_keywords: ["GetSupportedAudioObjectFormatEnumerator","GetSupportedAudioObjectFormatEnumerator method [Core Audio]","GetSupportedAudioObjectFormatEnumerator method [Core Audio]","ISpatialAudioClient interface","ISpatialAudioClient interface [Core Audio]","GetSupportedAudioObjectFormatEnumerator method","ISpatialAudioClient.GetSupportedAudioObjectFormatEnumerator","ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator","coreaudio.ispatialaudioclient_getsupportedaudioobjectformatenumerator","spatialaudioclient/ISpatialAudioClient::GetSupportedAudioObjectFormatEnumerator"]
 old-location: coreaudio\ispatialaudioclient_getsupportedaudioobjectformatenumerator.htm
 tech.root: CoreAudio
 ms.assetid: CB152D8C-DE3A-4224-A6CC-DF1BFF1A3ABA

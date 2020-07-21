@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IWriteEngine2.put_BytesPerSector
 title: IWriteEngine2::put_BytesPerSector (imapi2.h)
-description: Sets the number of bytes to use for each sector during writing.helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","put_BytesPerSector method","IWriteEngine2.put_BytesPerSector","IWriteEngine2::put_BytesPerSector","imapi.iwriteengine2_put_bytespersector","imapi2/IWriteEngine2::put_BytesPerSector","put_BytesPerSector","put_BytesPerSector method [IMAPI]","put_BytesPerSector method [IMAPI]","IWriteEngine2 interface"]
+description: Sets the number of bytes to use for each sector during writing.
+helpviewer_keywords: ["IWriteEngine2 interface [IMAPI]","put_BytesPerSector method","IWriteEngine2.put_BytesPerSector","IWriteEngine2::put_BytesPerSector","imapi.iwriteengine2_put_bytespersector","imapi2/IWriteEngine2::put_BytesPerSector","put_BytesPerSector","put_BytesPerSector method [IMAPI]","put_BytesPerSector method [IMAPI]","IWriteEngine2 interface"]
 old-location: imapi\iwriteengine2_put_bytespersector.htm
 tech.root: imapi
 ms.assetid: aac64c0a-4304-4a20-822e-4aa247d3d9e8

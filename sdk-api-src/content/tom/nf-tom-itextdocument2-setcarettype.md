@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextDocument2.SetCaretType
 title: ITextDocument2::SetCaretType (tom.h)
-description: Sets the caret type.helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","SetCaretType method","ITextDocument2.SetCaretType","ITextDocument2::SetCaretType","SetCaretType","SetCaretType method [Windows Controls]","SetCaretType method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_setcarettype","tom/ITextDocument2::SetCaretType","tomKoreanBlockCaret","tomNormalCaret","tomNullCaret"]
+description: Sets the caret type.
+helpviewer_keywords: ["ITextDocument2 interface [Windows Controls]","SetCaretType method","ITextDocument2.SetCaretType","ITextDocument2::SetCaretType","SetCaretType","SetCaretType method [Windows Controls]","SetCaretType method [Windows Controls]","ITextDocument2 interface","controls.itextdocument2_setcarettype","tom/ITextDocument2::SetCaretType","tomKoreanBlockCaret","tomNormalCaret","tomNullCaret"]
 old-location: controls\itextdocument2_setcarettype.htm
 tech.root: Controls
 ms.assetid: 40d34482-cf07-4401-ad02-f5d1b0184976

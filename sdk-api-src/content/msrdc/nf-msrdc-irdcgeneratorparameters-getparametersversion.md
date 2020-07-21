@@ -1,7 +1,8 @@
 ---
 UID: NF:msrdc.IRdcGeneratorParameters.GetParametersVersion
 title: IRdcGeneratorParameters::GetParametersVersion (msrdc.h)
-description: Returns information about the version of RDC used to serialize the parameters.helpviewer_keywords: ["GetParametersVersion","GetParametersVersion method [Remote Differential Compression]","GetParametersVersion method [Remote Differential Compression]","IRdcGeneratorParameters interface","IRdcGeneratorParameters interface [Remote Differential Compression]","GetParametersVersion method","IRdcGeneratorParameters.GetParametersVersion","IRdcGeneratorParameters::GetParametersVersion","fs.irdcgeneratorparameters_getparametersversion","msrdc/IRdcGeneratorParameters::GetParametersVersion","rdc.irdcgeneratorparameters_getparametersversion"]
+description: Returns information about the version of RDC used to serialize the parameters.
+helpviewer_keywords: ["GetParametersVersion","GetParametersVersion method [Remote Differential Compression]","GetParametersVersion method [Remote Differential Compression]","IRdcGeneratorParameters interface","IRdcGeneratorParameters interface [Remote Differential Compression]","GetParametersVersion method","IRdcGeneratorParameters.GetParametersVersion","IRdcGeneratorParameters::GetParametersVersion","fs.irdcgeneratorparameters_getparametersversion","msrdc/IRdcGeneratorParameters::GetParametersVersion","rdc.irdcgeneratorparameters_getparametersversion"]
 old-location: rdc\irdcgeneratorparameters_getparametersversion.htm
 tech.root: rdc
 ms.assetid: 58050740-0508-4797-b1b5-7a1e2a6dc00b

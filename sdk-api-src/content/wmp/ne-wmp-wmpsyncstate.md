@@ -1,7 +1,8 @@
 ---
 UID: NE:wmp.WMPSyncState
 title: WMPSyncState (wmp.h)
-description: The WMPSyncState enumeration type defines the possible operational states of Windows Media Player as it synchronizes digital media to a device. To use this enumeration you must create a remoted instance of the Windows Media Player 10 or later control.helpviewer_keywords: ["WMPSyncState","WMPSyncState enumeration [Windows Media Player]","wmp.wmpsyncstate","wmp/WMPSyncState","wmp/wmpssEstimating","wmp/wmpssLast","wmp/wmpssStopped","wmp/wmpssSynchronizing","wmp/wmpssUnknown","wmpssEstimating","wmpssLast","wmpssStopped","wmpssSynchronizing","wmpssUnknown"]
+description: The WMPSyncState enumeration type defines the possible operational states of Windows Media Player as it synchronizes digital media to a device. To use this enumeration you must create a remoted instance of the Windows Media Player 10 or later control.
+helpviewer_keywords: ["WMPSyncState","WMPSyncState enumeration [Windows Media Player]","wmp.wmpsyncstate","wmp/WMPSyncState","wmp/wmpssEstimating","wmp/wmpssLast","wmp/wmpssStopped","wmp/wmpssSynchronizing","wmp/wmpssUnknown","wmpssEstimating","wmpssLast","wmpssStopped","wmpssSynchronizing","wmpssUnknown"]
 old-location: wmp\wmpsyncstate.htm
 tech.root: WMP
 ms.assetid: 8f1e8026-bbde-42bc-8ac8-555cc363b0b9

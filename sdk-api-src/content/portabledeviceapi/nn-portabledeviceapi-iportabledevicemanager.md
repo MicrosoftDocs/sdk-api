@@ -1,7 +1,8 @@
 ---
 UID: NN:portabledeviceapi.IPortableDeviceManager
 title: IPortableDeviceManager (portabledeviceapi.h)
-description: Enumerates devices that are connected to the computer and provides a simple way to request installation information, including manufacturer, friendly name, and description.helpviewer_keywords: ["IPortableDeviceManager","IPortableDeviceManager interface [Windows Portable Devices SDK]","IPortableDeviceManager interface [Windows Portable Devices SDK]","described","IPortableDeviceManagerInterface","portabledeviceapi/IPortableDeviceManager","wpdsdk.iportabledevicemanager"]
+description: Enumerates devices that are connected to the computer and provides a simple way to request installation information, including manufacturer, friendly name, and description.
+helpviewer_keywords: ["IPortableDeviceManager","IPortableDeviceManager interface [Windows Portable Devices SDK]","IPortableDeviceManager interface [Windows Portable Devices SDK]","described","IPortableDeviceManagerInterface","portabledeviceapi/IPortableDeviceManager","wpdsdk.iportabledevicemanager"]
 old-location: wpdsdk\iportabledevicemanager.htm
 tech.root: wpd_sdk
 ms.assetid: 11cd5b2b-e8f8-4ba1-8527-f7a403f399d5

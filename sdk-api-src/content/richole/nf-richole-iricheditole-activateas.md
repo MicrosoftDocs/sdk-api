@@ -1,7 +1,8 @@
 ---
 UID: NF:richole.IRichEditOle.ActivateAs
 title: IRichEditOle::ActivateAs (richole.h)
-description: Handles Activate As behavior by unloading all objects of the old class, telling OLE to treat those objects as objects of the new class, and reloading the objects. If objects cannot be reloaded, they are deleted.helpviewer_keywords: ["ActivateAs","ActivateAs method [Windows Controls]","ActivateAs method [Windows Controls]","IRichEditOle interface","IRichEditOle interface [Windows Controls]","ActivateAs method","IRichEditOle.ActivateAs","IRichEditOle::ActivateAs","_win32_IRichEditOle_ActivateAs","_win32_IRichEditOle_ActivateAs_cpp","controls.IRichEditOle_ActivateAs","controls._win32_IRichEditOle_ActivateAs","richole/IRichEditOle::ActivateAs"]
+description: Handles Activate As behavior by unloading all objects of the old class, telling OLE to treat those objects as objects of the new class, and reloading the objects. If objects cannot be reloaded, they are deleted.
+helpviewer_keywords: ["ActivateAs","ActivateAs method [Windows Controls]","ActivateAs method [Windows Controls]","IRichEditOle interface","IRichEditOle interface [Windows Controls]","ActivateAs method","IRichEditOle.ActivateAs","IRichEditOle::ActivateAs","_win32_IRichEditOle_ActivateAs","_win32_IRichEditOle_ActivateAs_cpp","controls.IRichEditOle_ActivateAs","controls._win32_IRichEditOle_ActivateAs","richole/IRichEditOle::ActivateAs"]
 old-location: controls\IRichEditOle_ActivateAs.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditinterfaces\iricheditole\iricheditoleactivateas.htm

@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagLVGROUP
 title: LVGROUP (commctrl.h)
-description: Used to set and retrieve groups.helpviewer_keywords: ["*PLVGROUP","LVGF_FOOTER","LVGF_HEADER","LVGF_NONE","LVGF_STATE","LVGROUP","LVGROUP structure [Windows Controls]","PLVGROUP","PLVGROUP structure pointer [Windows Controls]","commctrl/LVGROUP","commctrl/PLVGROUP","controls.LVGROUP","controls.inet_LVGROUP","inet_LVGROUP","inet_LVGROUP_cpp"]
+description: Used to set and retrieve groups.
+helpviewer_keywords: ["*PLVGROUP","LVGF_FOOTER","LVGF_HEADER","LVGF_NONE","LVGF_STATE","LVGROUP","LVGROUP structure [Windows Controls]","PLVGROUP","PLVGROUP structure pointer [Windows Controls]","commctrl/LVGROUP","commctrl/PLVGROUP","controls.LVGROUP","controls.inet_LVGROUP","inet_LVGROUP","inet_LVGROUP_cpp"]
 old-location: controls\LVGROUP.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\structures\lv_group.htm

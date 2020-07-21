@@ -1,7 +1,8 @@
 ---
 UID: NC:faxroute.PFAXROUTEMODIFYROUTINGDATA
 title: PFAXROUTEMODIFYROUTINGDATA (faxroute.h)
-description: A fax routing method calls the FaxRouteModifyRoutingData callback function to modify the routing data for a subsequent fax routing method.helpviewer_keywords: ["FaxRouteModifyRoutingData","FaxRouteModifyRoutingData callback function [Fax Service]","PFAXROUTEMODIFYROUTINGDATA","PFAXROUTEMODIFYROUTINGDATA callback","_mfax_faxroutemodifyroutingdata","fax._mfax_faxroutemodifyroutingdata","faxroute/FaxRouteModifyRoutingData"]
+description: A fax routing method calls the FaxRouteModifyRoutingData callback function to modify the routing data for a subsequent fax routing method.
+helpviewer_keywords: ["FaxRouteModifyRoutingData","FaxRouteModifyRoutingData callback function [Fax Service]","PFAXROUTEMODIFYROUTINGDATA","PFAXROUTEMODIFYROUTINGDATA callback","_mfax_faxroutemodifyroutingdata","fax._mfax_faxroutemodifyroutingdata","faxroute/FaxRouteModifyRoutingData"]
 old-location: fax\_mfax_faxroutemodifyroutingdata.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxrouteextapiref_7ae9.htm

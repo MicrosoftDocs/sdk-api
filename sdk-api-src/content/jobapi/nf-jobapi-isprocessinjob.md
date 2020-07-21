@@ -1,7 +1,8 @@
 ---
 UID: NF:jobapi.IsProcessInJob
 title: IsProcessInJob function (jobapi.h)
-description: Determines whether the process is running in the specified job.helpviewer_keywords: ["IsProcessInJob","IsProcessInJob function","_win32_isprocessinjob","base.isprocessinjob","jobapi/IsProcessInJob","winbase/IsProcessInJob"]
+description: Determines whether the process is running in the specified job.
+helpviewer_keywords: ["IsProcessInJob","IsProcessInJob function","_win32_isprocessinjob","base.isprocessinjob","jobapi/IsProcessInJob","winbase/IsProcessInJob"]
 old-location: base\isprocessinjob.htm
 tech.root: ProcThread
 ms.assetid: 0253071d-a3fa-4ab0-86a7-71350d9fc24e

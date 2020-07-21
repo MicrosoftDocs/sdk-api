@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2bth._BTH_SET_SERVICE
 title: BTH_SET_SERVICE (ws2bth.h)
-description: Provides service information for the specified Bluetooth service.helpviewer_keywords: ["*PBTHNS_SETBLOB","*PBTH_SET_SERVICE","BTHNS_SETBLOB","BTH_SET_SERVICE","BTH_SET_SERVICE structure [Bluetooth]","PBTH_SET_SERVICE","PBTH_SET_SERVICE structure pointer [Bluetooth]","_bth_bth_set_service","bluetooth.bth_set_service","ws2bth/BTH_SET_SERVICE","ws2bth/PBTH_SET_SERVICE"]
+description: Provides service information for the specified Bluetooth service.
+helpviewer_keywords: ["*PBTHNS_SETBLOB","*PBTH_SET_SERVICE","BTHNS_SETBLOB","BTH_SET_SERVICE","BTH_SET_SERVICE structure [Bluetooth]","PBTH_SET_SERVICE","PBTH_SET_SERVICE structure pointer [Bluetooth]","_bth_bth_set_service","bluetooth.bth_set_service","ws2bth/BTH_SET_SERVICE","ws2bth/PBTH_SET_SERVICE"]
 old-location: bluetooth\bth_set_service.htm
 tech.root: bluetooth
 ms.assetid: 66b5474d-ea21-4ae4-9297-9740f1bc9ecb

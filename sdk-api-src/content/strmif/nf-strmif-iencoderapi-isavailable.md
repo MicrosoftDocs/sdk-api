@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IEncoderAPI.IsAvailable
 title: IEncoderAPI::IsAvailable (strmif.h)
-description: IEncoderAPI is no longer available for use.helpviewer_keywords: ["IEncoderAPI interface [Microsoft TV Technologies]","IsAvailable method","IEncoderAPI.IsAvailable","IEncoderAPI::IsAvailable","IEncoderAPIIsAvailable","IsAvailable","IsAvailable method [Microsoft TV Technologies]","IsAvailable method [Microsoft TV Technologies]","IEncoderAPI interface","mstv.iencoderapi_isavailable","strmif/IEncoderAPI::IsAvailable"]
+description: IEncoderAPI is no longer available for use.
+helpviewer_keywords: ["IEncoderAPI interface [Microsoft TV Technologies]","IsAvailable method","IEncoderAPI.IsAvailable","IEncoderAPI::IsAvailable","IEncoderAPIIsAvailable","IsAvailable","IsAvailable method [Microsoft TV Technologies]","IsAvailable method [Microsoft TV Technologies]","IEncoderAPI interface","mstv.iencoderapi_isavailable","strmif/IEncoderAPI::IsAvailable"]
 old-location: mstv\iencoderapi_isavailable.htm
 tech.root: mstv
 ms.assetid: ad94b70f-fd35-44b4-8322-9891cd7f17cc

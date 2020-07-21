@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IPropertyUI
 title: IPropertyUI (shobjidl_core.h)
-description: Developers should use IPropertyDescription instead.helpviewer_keywords: ["IPropertyUI","IPropertyUI interface [Windows Properties]","IPropertyUI interface [Windows Properties]","described","_shell_IPropertyUI","properties.IPropertyUI","shell.IPropertyUI","shobjidl_core/IPropertyUI"]
+description: Developers should use IPropertyDescription instead.
+helpviewer_keywords: ["IPropertyUI","IPropertyUI interface [Windows Properties]","IPropertyUI interface [Windows Properties]","described","_shell_IPropertyUI","properties.IPropertyUI","shell.IPropertyUI","shobjidl_core/IPropertyUI"]
 old-location: properties\IPropertyUI.htm
 tech.root: properties
 ms.assetid: FB3DD615-F08B-4cdb-A6EB-3458C474EBEE

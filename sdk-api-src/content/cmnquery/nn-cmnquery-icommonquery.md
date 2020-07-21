@@ -1,7 +1,8 @@
 ---
 UID: NN:cmnquery.ICommonQuery
 title: ICommonQuery (cmnquery.h)
-description: Used to programmatically display the system-supplied directory service query dialog box.helpviewer_keywords: ["ICommonQuery","ICommonQuery interface [Active Directory]","ICommonQuery interface [Active Directory]","described","_glines_icommonquery","ad.icommonquery","cmnquery/ICommonQuery"]
+description: Used to programmatically display the system-supplied directory service query dialog box.
+helpviewer_keywords: ["ICommonQuery","ICommonQuery interface [Active Directory]","ICommonQuery interface [Active Directory]","described","_glines_icommonquery","ad.icommonquery","cmnquery/ICommonQuery"]
 old-location: ad\icommonquery.htm
 tech.root: ad
 ms.assetid: 56d05afb-6e5e-41be-bc10-61192c1c1312

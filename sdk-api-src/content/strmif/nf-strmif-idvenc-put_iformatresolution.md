@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDVEnc.put_IFormatResolution
 title: IDVEnc::put_IFormatResolution (strmif.h)
-description: The put_IFormatResolution method sets the encoding resolution.helpviewer_keywords: ["IDVEnc interface [DirectShow]","put_IFormatResolution method","IDVEnc.put_IFormatResolution","IDVEnc::put_IFormatResolution","IDVEncput_IFormatResolution","dshow.idvenc_put_iformatresolution","put_IFormatResolution","put_IFormatResolution method [DirectShow]","put_IFormatResolution method [DirectShow]","IDVEnc interface","strmif/IDVEnc::put_IFormatResolution"]
+description: The put_IFormatResolution method sets the encoding resolution.
+helpviewer_keywords: ["IDVEnc interface [DirectShow]","put_IFormatResolution method","IDVEnc.put_IFormatResolution","IDVEnc::put_IFormatResolution","IDVEncput_IFormatResolution","dshow.idvenc_put_iformatresolution","put_IFormatResolution","put_IFormatResolution method [DirectShow]","put_IFormatResolution method [DirectShow]","IDVEnc interface","strmif/IDVEnc::put_IFormatResolution"]
 old-location: dshow\idvenc_put_iformatresolution.htm
 tech.root: DirectShow
 ms.assetid: c9cf2544-1b04-4a77-8a0b-d7820af5ff9f

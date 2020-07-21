@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.IVssCreateWriterMetadata.AddAlternateLocationMapping
 title: IVssCreateWriterMetadata::AddAlternateLocationMapping (vswriter.h)
-description: The AddAlternateLocationMapping method creates an alternate location mapping for a file set.helpviewer_keywords: ["AddAlternateLocationMapping","AddAlternateLocationMapping method [VSS]","AddAlternateLocationMapping method [VSS]","IVssCreateWriterMetadata interface","IVssCreateWriterMetadata interface [VSS]","AddAlternateLocationMapping method","IVssCreateWriterMetadata.AddAlternateLocationMapping","IVssCreateWriterMetadata::AddAlternateLocationMapping","_win32_ivsscreatewritermetadata_addalternatelocationmapping","base.ivsscreatewritermetadata_addalternatelocationmapping","vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping"]
+description: The AddAlternateLocationMapping method creates an alternate location mapping for a file set.
+helpviewer_keywords: ["AddAlternateLocationMapping","AddAlternateLocationMapping method [VSS]","AddAlternateLocationMapping method [VSS]","IVssCreateWriterMetadata interface","IVssCreateWriterMetadata interface [VSS]","AddAlternateLocationMapping method","IVssCreateWriterMetadata.AddAlternateLocationMapping","IVssCreateWriterMetadata::AddAlternateLocationMapping","_win32_ivsscreatewritermetadata_addalternatelocationmapping","base.ivsscreatewritermetadata_addalternatelocationmapping","vswriter/IVssCreateWriterMetadata::AddAlternateLocationMapping"]
 old-location: base\ivsscreatewritermetadata_addalternatelocationmapping.htm
 tech.root: VSS
 ms.assetid: 966c40d4-8c19-43cc-ba49-028763478f49

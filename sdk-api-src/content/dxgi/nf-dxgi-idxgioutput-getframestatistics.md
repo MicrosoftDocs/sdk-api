@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGIOutput.GetFrameStatistics
 title: IDXGIOutput::GetFrameStatistics (dxgi.h)
-description: Gets statistics about recently rendered frames.helpviewer_keywords: ["2986a9cc-4b09-8622-8d30-17f06409df3a","GetFrameStatistics","GetFrameStatistics method [DXGI]","GetFrameStatistics method [DXGI]","IDXGIOutput interface","IDXGIOutput interface [DXGI]","GetFrameStatistics method","IDXGIOutput.GetFrameStatistics","IDXGIOutput::GetFrameStatistics","direct3ddxgi.idxgioutput_getframestatistics","dxgi/IDXGIOutput::GetFrameStatistics"]
+description: Gets statistics about recently rendered frames.
+helpviewer_keywords: ["2986a9cc-4b09-8622-8d30-17f06409df3a","GetFrameStatistics","GetFrameStatistics method [DXGI]","GetFrameStatistics method [DXGI]","IDXGIOutput interface","IDXGIOutput interface [DXGI]","GetFrameStatistics method","IDXGIOutput.GetFrameStatistics","IDXGIOutput::GetFrameStatistics","direct3ddxgi.idxgioutput_getframestatistics","dxgi/IDXGIOutput::GetFrameStatistics"]
 old-location: direct3ddxgi\idxgioutput_getframestatistics.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgioutput_getframestatistics.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssBackupComponents.SetPreviousBackupStamp
 title: IVssBackupComponents::SetPreviousBackupStamp (vsbackup.h)
-description: The SetPreviousBackupStamp method sets the backup stamp of an earlier backup operation, upon which a differential or incremental backup operation will be based.helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetPreviousBackupStamp method","IVssBackupComponents.SetPreviousBackupStamp","IVssBackupComponents::SetPreviousBackupStamp","SetPreviousBackupStamp","SetPreviousBackupStamp method [VSS]","SetPreviousBackupStamp method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setpreviousbackupstamp","base.ivssbackupcomponents_setpreviousbackupstamp","vsbackup/IVssBackupComponents::SetPreviousBackupStamp"]
+description: The SetPreviousBackupStamp method sets the backup stamp of an earlier backup operation, upon which a differential or incremental backup operation will be based.
+helpviewer_keywords: ["IVssBackupComponents interface [VSS]","SetPreviousBackupStamp method","IVssBackupComponents.SetPreviousBackupStamp","IVssBackupComponents::SetPreviousBackupStamp","SetPreviousBackupStamp","SetPreviousBackupStamp method [VSS]","SetPreviousBackupStamp method [VSS]","IVssBackupComponents interface","_win32_ivssbackupcomponents_setpreviousbackupstamp","base.ivssbackupcomponents_setpreviousbackupstamp","vsbackup/IVssBackupComponents::SetPreviousBackupStamp"]
 old-location: base\ivssbackupcomponents_setpreviousbackupstamp.htm
 tech.root: VSS
 ms.assetid: cc1c75bf-b281-4741-9273-f7264532860f

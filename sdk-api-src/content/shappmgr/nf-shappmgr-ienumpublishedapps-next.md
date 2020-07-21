@@ -1,7 +1,8 @@
 ---
 UID: NF:shappmgr.IEnumPublishedApps.Next
 title: IEnumPublishedApps::Next (shappmgr.h)
-description: Gets the next IPublishedApp object in the enumeration.helpviewer_keywords: ["IEnumPublishedApps interface [Windows Shell]","Next method","IEnumPublishedApps.Next","IEnumPublishedApps::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumPublishedApps interface","inet_IEnumPublishedApps_Next","shappmgr/IEnumPublishedApps::Next","shell.IEnumPublishedApps_Next"]
+description: Gets the next IPublishedApp object in the enumeration.
+helpviewer_keywords: ["IEnumPublishedApps interface [Windows Shell]","Next method","IEnumPublishedApps.Next","IEnumPublishedApps::Next","Next","Next method [Windows Shell]","Next method [Windows Shell]","IEnumPublishedApps interface","inet_IEnumPublishedApps_Next","shappmgr/IEnumPublishedApps::Next","shell.IEnumPublishedApps_Next"]
 old-location: shell\IEnumPublishedApps_Next.htm
 tech.root: shell
 ms.assetid: 78d18529-2eeb-4510-8703-457ffe998bc5

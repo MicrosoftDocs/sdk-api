@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Session_GetInstance
 title: MI_Session_GetInstance function (mi.h)
-description: Gets the specified instance from the server represented by the session.helpviewer_keywords: ["MI_Session_GetInstance","MI_Session_GetInstance function [Windows Management Infrastructure (MI)]","mi/MI_Session_GetInstance","wmi_v2.mi_session_getinstance"]
+description: Gets the specified instance from the server represented by the session.
+helpviewer_keywords: ["MI_Session_GetInstance","MI_Session_GetInstance function [Windows Management Infrastructure (MI)]","mi/MI_Session_GetInstance","wmi_v2.mi_session_getinstance"]
 old-location: wmi_v2\mi_session_getinstance.htm
 tech.root: wmi_v2
 ms.assetid: d5d096ca-d45a-4df1-bdbc-0498999f2d35

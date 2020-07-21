@@ -1,7 +1,8 @@
 ---
 UID: NN:msopc.IOpcSignatureCustomObject
 title: IOpcSignatureCustomObject (msopc.h)
-description: Represents an application-specific Object element that has been or will be signed.helpviewer_keywords: ["IOpcSignatureCustomObject","IOpcSignatureCustomObject interface [Open Packaging Conventions]","IOpcSignatureCustomObject interface [Open Packaging Conventions]","described","msopc/IOpcSignatureCustomObject","opc.iopcsignaturecustomobject"]
+description: Represents an application-specific Object element that has been or will be signed.
+helpviewer_keywords: ["IOpcSignatureCustomObject","IOpcSignatureCustomObject interface [Open Packaging Conventions]","IOpcSignatureCustomObject interface [Open Packaging Conventions]","described","msopc/IOpcSignatureCustomObject","opc.iopcsignaturecustomobject"]
 old-location: opc\iopcsignaturecustomobject.htm
 tech.root: OPC
 ms.assetid: 4ebb4fbe-66cc-46d9-b548-31177d9f6da9

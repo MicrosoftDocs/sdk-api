@@ -1,7 +1,8 @@
 ---
 UID: NE:dwrite.DWRITE_FONT_SIMULATIONS
 title: DWRITE_FONT_SIMULATIONS (dwrite.h)
-description: Specifies algorithmic style simulations to be applied to the font face. Bold and oblique simulations can be combined via bitwise OR operation.helpviewer_keywords: ["DWRITE_FONT_SIMULATIONS","DWRITE_FONT_SIMULATIONS enumeration [Direct Write]","DWRITE_FONT_SIMULATIONS_BOLD","DWRITE_FONT_SIMULATIONS_NONE","DWRITE_FONT_SIMULATIONS_OBLIQUE","directwrite.dwrite_font_simulations","dwrite/DWRITE_FONT_SIMULATIONS","dwrite/DWRITE_FONT_SIMULATIONS_BOLD","dwrite/DWRITE_FONT_SIMULATIONS_NONE","dwrite/DWRITE_FONT_SIMULATIONS_OBLIQUE"]
+description: Specifies algorithmic style simulations to be applied to the font face. Bold and oblique simulations can be combined via bitwise OR operation.
+helpviewer_keywords: ["DWRITE_FONT_SIMULATIONS","DWRITE_FONT_SIMULATIONS enumeration [Direct Write]","DWRITE_FONT_SIMULATIONS_BOLD","DWRITE_FONT_SIMULATIONS_NONE","DWRITE_FONT_SIMULATIONS_OBLIQUE","directwrite.dwrite_font_simulations","dwrite/DWRITE_FONT_SIMULATIONS","dwrite/DWRITE_FONT_SIMULATIONS_BOLD","dwrite/DWRITE_FONT_SIMULATIONS_NONE","dwrite/DWRITE_FONT_SIMULATIONS_OBLIQUE"]
 old-location: directwrite\dwrite_font_simulations.htm
 tech.root: DirectWrite
 ms.assetid: 0881afec-2fa5-4f17-96a2-68a5293e0bba

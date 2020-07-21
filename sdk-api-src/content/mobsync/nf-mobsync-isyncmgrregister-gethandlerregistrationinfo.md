@@ -1,7 +1,8 @@
 ---
 UID: NF:mobsync.ISyncMgrRegister.GetHandlerRegistrationInfo
 title: ISyncMgrRegister::GetHandlerRegistrationInfo (mobsync.h)
-description: Called by the registered application's handler to get current registration information.helpviewer_keywords: ["GetHandlerRegistrationInfo","GetHandlerRegistrationInfo method [Windows Shell]","GetHandlerRegistrationInfo method [Windows Shell]","ISyncMgrRegister interface","ISyncMgrRegister interface [Windows Shell]","GetHandlerRegistrationInfo method","ISyncMgrRegister.GetHandlerRegistrationInfo","ISyncMgrRegister::GetHandlerRegistrationInfo","mobsync/ISyncMgrRegister::GetHandlerRegistrationInfo","shell.syncmgr_isyncmgrregister_gethandlerregistrationinfo","syncmgr.isyncmgrregister_gethandlerregistrationinfo"]
+description: Called by the registered application's handler to get current registration information.
+helpviewer_keywords: ["GetHandlerRegistrationInfo","GetHandlerRegistrationInfo method [Windows Shell]","GetHandlerRegistrationInfo method [Windows Shell]","ISyncMgrRegister interface","ISyncMgrRegister interface [Windows Shell]","GetHandlerRegistrationInfo method","ISyncMgrRegister.GetHandlerRegistrationInfo","ISyncMgrRegister::GetHandlerRegistrationInfo","mobsync/ISyncMgrRegister::GetHandlerRegistrationInfo","shell.syncmgr_isyncmgrregister_gethandlerregistrationinfo","syncmgr.isyncmgrregister_gethandlerregistrationinfo"]
 old-location: shell\syncmgr_isyncmgrregister_gethandlerregistrationinfo.htm
 tech.root: shell
 ms.assetid: 35241829-58b8-448a-ae69-1d43b4d0ba10

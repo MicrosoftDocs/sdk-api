@@ -69,8 +69,4 @@ This property is read/write.
 
 
 
-<a href="https://docs.microsoft.com/en-us/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_category">NET_FW_RULE_CATEGORY</a>
- 
-
- 
-
+<a href="https://docs.microsoft.com/windows/win32/api/icftypes/ne-icftypes-net_fw_rule_category">NET_FW_RULE_CATEGORY</a>

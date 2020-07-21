@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidRect
 title: IMSVidRect (segment.h)
-description: The IMSVidRect interface represents a rectangle with an associated window handle.helpviewer_keywords: ["IMSVidRect","IMSVidRect interface [Microsoft TV Technologies]","IMSVidRect interface [Microsoft TV Technologies]","described","IMSVidRectInterface","mstv.imsvidrect","segment/IMSVidRect"]
+description: The IMSVidRect interface represents a rectangle with an associated window handle.
+helpviewer_keywords: ["IMSVidRect","IMSVidRect interface [Microsoft TV Technologies]","IMSVidRect interface [Microsoft TV Technologies]","described","IMSVidRectInterface","mstv.imsvidrect","segment/IMSVidRect"]
 old-location: mstv\imsvidrect.htm
 tech.root: mstv
 ms.assetid: 0b3cf31b-e0cc-4208-a128-b77460fc0f1b

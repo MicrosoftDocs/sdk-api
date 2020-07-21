@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPStringCollection.item
 title: IWMPStringCollection::item (wmp.h)
-description: The item method retrieves the string at the given index.helpviewer_keywords: ["IWMPStringCollection interface [Windows Media Player]","item method","IWMPStringCollection.item","IWMPStringCollection::item","IWMPStringCollectionitem","item","item method [Windows Media Player]","item method [Windows Media Player]","IWMPStringCollection interface","wmp.iwmpstringcollection_item","wmp/IWMPStringCollection::item"]
+description: The item method retrieves the string at the given index.
+helpviewer_keywords: ["IWMPStringCollection interface [Windows Media Player]","item method","IWMPStringCollection.item","IWMPStringCollection::item","IWMPStringCollectionitem","item","item method [Windows Media Player]","item method [Windows Media Player]","IWMPStringCollection interface","wmp.iwmpstringcollection_item","wmp/IWMPStringCollection::item"]
 old-location: wmp\iwmpstringcollection_item.htm
 tech.root: WMP
 ms.assetid: 05e7fd0c-1226-4680-a9aa-543111fd2bdf

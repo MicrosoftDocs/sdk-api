@@ -1,7 +1,8 @@
 ---
 UID: NS:sspi._SecPkgContext_SessionKey
 title: SecPkgContext_SessionKey (sspi.h)
-description: The SecPkgContext_SessionKey structure contains information about the session key used for the security context. This structure is returned by the QueryContextAttributes (General) function.helpviewer_keywords: ["*PSecPkgContext_SessionKey","PSecPkgContext_SessionKey","PSecPkgContext_SessionKey structure pointer [Security]","SecPkgContext_SessionKey","SecPkgContext_SessionKey structure [Security]","security.secpkgcontext_sessionkey","sspi/PSecPkgContext_SessionKey","sspi/SecPkgContext_SessionKey"]
+description: The SecPkgContext_SessionKey structure contains information about the session key used for the security context. This structure is returned by the QueryContextAttributes (General) function.
+helpviewer_keywords: ["*PSecPkgContext_SessionKey","PSecPkgContext_SessionKey","PSecPkgContext_SessionKey structure pointer [Security]","SecPkgContext_SessionKey","SecPkgContext_SessionKey structure [Security]","security.secpkgcontext_sessionkey","sspi/PSecPkgContext_SessionKey","sspi/SecPkgContext_SessionKey"]
 old-location: security\secpkgcontext_sessionkey.htm
 tech.root: SecAuthN
 ms.assetid: 88cf437e-3be0-4f12-9058-ad078deed6a1

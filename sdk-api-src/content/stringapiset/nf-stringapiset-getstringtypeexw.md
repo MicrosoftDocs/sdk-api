@@ -1,7 +1,8 @@
 ---
 UID: NF:stringapiset.GetStringTypeExW
 title: GetStringTypeExW function (stringapiset.h)
-description: Retrieves character type information for the characters in the specified source string.helpviewer_keywords: ["GetStringTypeEx","GetStringTypeEx function [Internationalization for Windows Applications]","GetStringTypeExA","GetStringTypeExW","_win32_GetStringTypeEx","_win32_GetStringTypeEx_cpp","intl.getstringtypeex","stringapiset/GetStringTypeEx","stringapiset/GetStringTypeExA","stringapiset/GetStringTypeExW","winui._win32_GetStringTypeEx"]
+description: Retrieves character type information for the characters in the specified source string.
+helpviewer_keywords: ["GetStringTypeEx","GetStringTypeEx function [Internationalization for Windows Applications]","GetStringTypeExA","GetStringTypeExW","_win32_GetStringTypeEx","_win32_GetStringTypeEx_cpp","intl.getstringtypeex","stringapiset/GetStringTypeEx","stringapiset/GetStringTypeExA","stringapiset/GetStringTypeExW","winui._win32_GetStringTypeEx"]
 old-location: intl\getstringtypeex.htm
 tech.root: Intl
 ms.assetid: e0cd051f-6627-457a-9a83-d71de607f67f

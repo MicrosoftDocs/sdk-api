@@ -1,7 +1,8 @@
 ---
 UID: NS:searchapi._SEARCH_ITEM_INDEXING_STATUS
 title: SEARCH_ITEM_INDEXING_STATUS (searchapi.h)
-description: Describes the status of a document to be indexed.helpviewer_keywords: ["SEARCH_ITEM_INDEXING_STATUS","SEARCH_ITEM_INDEXING_STATUS structure [search]","_search_SEARCH_ITEM_INDEXING_STATUS","search._search_SEARCH_ITEM_INDEXING_STATUS","searchapi/SEARCH_ITEM_INDEXING_STATUS"]
+description: Describes the status of a document to be indexed.
+helpviewer_keywords: ["SEARCH_ITEM_INDEXING_STATUS","SEARCH_ITEM_INDEXING_STATUS structure [search]","_search_SEARCH_ITEM_INDEXING_STATUS","search._search_SEARCH_ITEM_INDEXING_STATUS","searchapi/SEARCH_ITEM_INDEXING_STATUS"]
 old-location: search\_search_SEARCH_ITEM_INDEXING_STATUS.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\structures\search_item_indexing_status.htm

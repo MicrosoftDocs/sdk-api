@@ -1,7 +1,8 @@
 ---
 UID: NS:lmdfs._DFS_SUPPORTED_NAMESPACE_VERSION_INFO
 title: DFS_SUPPORTED_NAMESPACE_VERSION_INFO (lmdfs.h)
-description: Contains version information for a DFS namespace.helpviewer_keywords: ["*PDFS_SUPPORTED_NAMESPACE_VERSION_INFO","DFS_NAMESPACE_CAPABILITY_ABDE","DFS_SUPPORTED_NAMESPACE_VERSION_INFO","DFS_SUPPORTED_NAMESPACE_VERSION_INFO structure [Distributed File System]","PDFS_SUPPORTED_NAMESPACE_VERSION_INFO","PDFS_SUPPORTED_NAMESPACE_VERSION_INFO structure pointer [Distributed File System]","dfs.dfs_supported_namespace_version_info","fs.dfs_supported_namespace_version_info","lmdfs/DFS_SUPPORTED_NAMESPACE_VERSION_INFO","lmdfs/PDFS_SUPPORTED_NAMESPACE_VERSION_INFO"]
+description: Contains version information for a DFS namespace.
+helpviewer_keywords: ["*PDFS_SUPPORTED_NAMESPACE_VERSION_INFO","DFS_NAMESPACE_CAPABILITY_ABDE","DFS_SUPPORTED_NAMESPACE_VERSION_INFO","DFS_SUPPORTED_NAMESPACE_VERSION_INFO structure [Distributed File System]","PDFS_SUPPORTED_NAMESPACE_VERSION_INFO","PDFS_SUPPORTED_NAMESPACE_VERSION_INFO structure pointer [Distributed File System]","dfs.dfs_supported_namespace_version_info","fs.dfs_supported_namespace_version_info","lmdfs/DFS_SUPPORTED_NAMESPACE_VERSION_INFO","lmdfs/PDFS_SUPPORTED_NAMESPACE_VERSION_INFO"]
 old-location: dfs\dfs_supported_namespace_version_info.htm
 tech.root: Dfs
 ms.assetid: ee75c500-70c6-4dce-9d38-36cacd695746

@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IDisplayHelp
 title: IDisplayHelp (mmc.h)
-description: The IDisplayHelp interface is introduced in MMC version 1.1.helpviewer_keywords: ["IDisplayHelp","IDisplayHelp interface [MMC]","IDisplayHelp interface [MMC]","described","_slate_idisplayhelp","mmc.idisplayhelp","mmc/IDisplayHelp"]
+description: The IDisplayHelp interface is introduced in MMC version 1.1.
+helpviewer_keywords: ["IDisplayHelp","IDisplayHelp interface [MMC]","IDisplayHelp interface [MMC]","described","_slate_idisplayhelp","mmc.idisplayhelp","mmc/IDisplayHelp"]
 old-location: mmc\idisplayhelp.htm
 tech.root: mmc
 ms.assetid: 5f5b9a3b-d520-4e19-8cd7-efbb08bcfba2

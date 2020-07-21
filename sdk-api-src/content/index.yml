@@ -134,7 +134,7 @@ landingContent:
         links:
           - text: Bluetooth
             url: _bluetooth/index.md
-          - text: Windows HTTP Services (WinHTTP)
+          - text: HTTP Server API
             url: _http/index.md
           - text: IP Helper
             url: _iphlp/index.md
@@ -142,6 +142,8 @@ landingContent:
             url: _netmgmt/index.md
           - text: Remote Procedure Call (RPC)
             url: _rpc/index.md
+          - text: Windows HTTP Services (WinHTTP)
+            url: _winhttp/index.md
           - text: Windows Internet
             url: _wininet/index.md
           - text: Windows Sockets 2

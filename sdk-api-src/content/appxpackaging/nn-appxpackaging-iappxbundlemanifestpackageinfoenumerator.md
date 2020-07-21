@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestPackageInfoEnumerator
 title: IAppxBundleManifestPackageInfoEnumerator (appxpackaging.h)
-description: Provides a read-only object model for the list of payload packages that are described in a bundle package manifest.helpviewer_keywords: ["IAppxBundleManifestPackageInfoEnumerator","IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management]","IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestPackageInfoEnumerator","appxpkg.iappxbundlemanifestpackageinfoenumerator"]
+description: Provides a read-only object model for the list of payload packages that are described in a bundle package manifest.
+helpviewer_keywords: ["IAppxBundleManifestPackageInfoEnumerator","IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management]","IAppxBundleManifestPackageInfoEnumerator interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestPackageInfoEnumerator","appxpkg.iappxbundlemanifestpackageinfoenumerator"]
 old-location: appxpkg\iappxbundlemanifestpackageinfoenumerator.htm
 tech.root: appxpkg
 ms.assetid: 4861D5CF-9FDC-4BAA-8462-D239DAEB5195

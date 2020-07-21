@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContext.GetAppProperty
 title: ITfContext::GetAppProperty (msctf.h)
-description: ITfContext::GetAppProperty methodhelpviewer_keywords: ["GetAppProperty","GetAppProperty method [Text Services Framework]","GetAppProperty method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetAppProperty method","ITfContext.GetAppProperty","ITfContext::GetAppProperty","_tsf_itfcontext_getappproperty_ref","msctf/ITfContext::GetAppProperty","tsf.itfcontext_getappproperty"]
+description: ITfContext::GetAppProperty method
+helpviewer_keywords: ["GetAppProperty","GetAppProperty method [Text Services Framework]","GetAppProperty method [Text Services Framework]","ITfContext interface","ITfContext interface [Text Services Framework]","GetAppProperty method","ITfContext.GetAppProperty","ITfContext::GetAppProperty","_tsf_itfcontext_getappproperty_ref","msctf/ITfContext::GetAppProperty","tsf.itfcontext_getappproperty"]
 old-location: tsf\itfcontext_getappproperty.htm
 tech.root: TSF
 ms.assetid: 5c04ff8e-5686-4802-b312-71dddaf0155e

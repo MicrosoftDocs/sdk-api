@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.LongLongMult
 title: LongLongMult function (intsafe.h)
-description: Multiplies two values of type LONGLONG.helpviewer_keywords: ["LongLongMult","LongLongMult function [Windows Shell]","intsafe/LongLongMult","shell.LongLongMult"]
+description: Multiplies two values of type LONGLONG.
+helpviewer_keywords: ["LongLongMult","LongLongMult function [Windows Shell]","intsafe/LongLongMult","shell.LongLongMult"]
 old-location: shell\LongLongMult.htm
 tech.root: shell
 ms.assetid: 71f9cef9-33a2-48f2-a14f-aad364116e93

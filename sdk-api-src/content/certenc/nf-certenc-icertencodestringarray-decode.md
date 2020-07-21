@@ -1,7 +1,8 @@
 ---
 UID: NF:certenc.ICertEncodeStringArray.Decode
 title: ICertEncodeStringArray::Decode (certenc.h)
-description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded string array and stores the resulting array of strings in the CertEncodeStringArray object.helpviewer_keywords: ["CCertEncodeStringArray object [Security]","Decode method","Decode","Decode method [Security]","Decode method [Security]","CCertEncodeStringArray object","Decode method [Security]","ICertEncodeStringArray interface","ICertEncodeStringArray interface [Security]","Decode method","ICertEncodeStringArray.Decode","ICertEncodeStringArray::Decode","_certsrv_icertencodestringarray_decode","certenc/ICertEncodeStringArray::Decode","security.icertencodestringarray_decode"]
+description: Decodes an Abstract Syntax Notation One (ASN.1)-encoded string array and stores the resulting array of strings in the CertEncodeStringArray object.
+helpviewer_keywords: ["CCertEncodeStringArray object [Security]","Decode method","Decode","Decode method [Security]","Decode method [Security]","CCertEncodeStringArray object","Decode method [Security]","ICertEncodeStringArray interface","ICertEncodeStringArray interface [Security]","Decode method","ICertEncodeStringArray.Decode","ICertEncodeStringArray::Decode","_certsrv_icertencodestringarray_decode","certenc/ICertEncodeStringArray::Decode","security.icertencodestringarray_decode"]
 old-location: security\icertencodestringarray_decode.htm
 tech.root: SecCrypto
 ms.assetid: 35799b54-2c04-4bb4-a227-d2902b2379ec

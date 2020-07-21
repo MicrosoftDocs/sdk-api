@@ -1,7 +1,8 @@
 ---
 UID: NF:ntsecapi.LsaCallAuthenticationPackage
 title: LsaCallAuthenticationPackage function (ntsecapi.h)
-description: Used by a logon application to communicate with an authentication package.helpviewer_keywords: ["LsaCallAuthenticationPackage","LsaCallAuthenticationPackage function [Security]","_lsa_lsacallauthenticationpackage","ntsecapi/LsaCallAuthenticationPackage","security.lsacallauthenticationpackage"]
+description: Used by a logon application to communicate with an authentication package.
+helpviewer_keywords: ["LsaCallAuthenticationPackage","LsaCallAuthenticationPackage function [Security]","_lsa_lsacallauthenticationpackage","ntsecapi/LsaCallAuthenticationPackage","security.lsacallauthenticationpackage"]
 old-location: security\lsacallauthenticationpackage.htm
 tech.root: SecAuthN
 ms.assetid: b891fa60-28b3-4819-9a92-e4524677fa4f

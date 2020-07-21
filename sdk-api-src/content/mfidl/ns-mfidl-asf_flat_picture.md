@@ -1,7 +1,8 @@
 ---
 UID: NS:mfidl._ASFFlatPicture
 title: ASF_FLAT_PICTURE (mfidl.h)
-description: Contains an image that is stored as metadata for a media source. This structure is used as the data item for the WM/Picture metadata attribute.helpviewer_keywords: ["2aa190bd-3431-4f37-bf2b-0801047793b3","ASF_FLAT_PICTURE","ASF_FLAT_PICTURE structure [Media Foundation]","mf.asf_flat_picture","mfidl/ASF_FLAT_PICTURE"]
+description: Contains an image that is stored as metadata for a media source. This structure is used as the data item for the WM/Picture metadata attribute.
+helpviewer_keywords: ["2aa190bd-3431-4f37-bf2b-0801047793b3","ASF_FLAT_PICTURE","ASF_FLAT_PICTURE structure [Media Foundation]","mf.asf_flat_picture","mfidl/ASF_FLAT_PICTURE"]
 old-location: mf\asf_flat_picture.htm
 tech.root: medfound
 ms.assetid: 2aa190bd-3431-4f37-bf2b-0801047793b3

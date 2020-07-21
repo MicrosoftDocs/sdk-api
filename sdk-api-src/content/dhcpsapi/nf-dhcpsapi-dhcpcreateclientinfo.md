@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateClientInfo
 title: DhcpCreateClientInfo function (dhcpsapi.h)
-description: The DhcpCreateClientInfo function creates a client information record on the DHCP server.helpviewer_keywords: ["DhcpCreateClientInfo","DhcpCreateClientInfo function [DHCP]","dhcp.dhcpcreateclientinfo","dhcpsapi/DhcpCreateClientInfo"]
+description: The DhcpCreateClientInfo function creates a client information record on the DHCP server.
+helpviewer_keywords: ["DhcpCreateClientInfo","DhcpCreateClientInfo function [DHCP]","dhcp.dhcpcreateclientinfo","dhcpsapi/DhcpCreateClientInfo"]
 old-location: dhcp\dhcpcreateclientinfo.htm
 tech.root: DHCP
 ms.assetid: 121718db-a7d8-42b7-b1a1-5c2dbe7d3d6b

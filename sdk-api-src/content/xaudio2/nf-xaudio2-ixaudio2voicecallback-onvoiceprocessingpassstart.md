@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2.IXAudio2VoiceCallback.OnVoiceProcessingPassStart
 title: IXAudio2VoiceCallback::OnVoiceProcessingPassStart (xaudio2.h)
-description: Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.helpviewer_keywords: ["IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs]","OnVoiceProcessingPassStart method","IXAudio2VoiceCallback.OnVoiceProcessingPassStart","IXAudio2VoiceCallback::OnVoiceProcessingPassStart","OnVoiceProcessingPassStart","OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs]","OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs]","IXAudio2VoiceCallback interface","xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassstart","xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassStart"]
+description: Called during each processing pass for each voice, just before XAudio2 reads data from the voice's buffer queue.
+helpviewer_keywords: ["IXAudio2VoiceCallback interface [XAudio2 Audio Mixing APIs]","OnVoiceProcessingPassStart method","IXAudio2VoiceCallback.OnVoiceProcessingPassStart","IXAudio2VoiceCallback::OnVoiceProcessingPassStart","OnVoiceProcessingPassStart","OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs]","OnVoiceProcessingPassStart method [XAudio2 Audio Mixing APIs]","IXAudio2VoiceCallback interface","xaudio2.ixaudio2voicecallback_interface_onvoiceprocessingpassstart","xaudio2/IXAudio2VoiceCallback::OnVoiceProcessingPassStart"]
 old-location: xaudio2\ixaudio2voicecallback_interface_onvoiceprocessingpassstart.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixaudio2voicecallback.IXAudio2VoiceCallback.OnVoiceProcessingPassStart(UINT32)

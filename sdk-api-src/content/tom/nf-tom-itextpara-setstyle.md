@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextPara.SetStyle
 title: ITextPara::SetStyle (tom.h)
-description: Sets the paragraph style for the paragraphs in a range.helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetStyle method","ITextPara.SetStyle","ITextPara::SetStyle","SetStyle","SetStyle method [Windows Controls]","SetStyle method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetStyle","_win32_ITextPara_SetStyle_cpp","controls.ITextPara_SetStyle","controls._win32_ITextPara_SetStyle","tom/ITextPara::SetStyle"]
+description: Sets the paragraph style for the paragraphs in a range.
+helpviewer_keywords: ["ITextPara interface [Windows Controls]","SetStyle method","ITextPara.SetStyle","ITextPara::SetStyle","SetStyle","SetStyle method [Windows Controls]","SetStyle method [Windows Controls]","ITextPara interface","_win32_ITextPara_SetStyle","_win32_ITextPara_SetStyle_cpp","controls.ITextPara_SetStyle","controls._win32_ITextPara_SetStyle","tom/ITextPara::SetStyle"]
 old-location: controls\ITextPara_SetStyle.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\itextpara\itextparasetstyle.htm

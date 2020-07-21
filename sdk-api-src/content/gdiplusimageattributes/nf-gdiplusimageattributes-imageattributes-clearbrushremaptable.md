@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusimageattributes.ImageAttributes.ClearBrushRemapTable
 title: ImageAttributes::ClearBrushRemapTable (gdiplusimageattributes.h)
-description: The ImageAttributes::ClearBrushRemapTable method clears the brush color-remap table of this ImageAttributes object.helpviewer_keywords: ["ClearBrushRemapTable","ClearBrushRemapTable method [GDI+]","ClearBrushRemapTable method [GDI+]","ImageAttributes class","ImageAttributes class [GDI+]","ClearBrushRemapTable method","ImageAttributes.ClearBrushRemapTable","ImageAttributes::ClearBrushRemapTable","_gdiplus_CLASS_ImageAttributes_ClearBrushRemapTable_","gdiplus._gdiplus_CLASS_ImageAttributes_ClearBrushRemapTable_"]
+description: The ImageAttributes::ClearBrushRemapTable method clears the brush color-remap table of this ImageAttributes object.
+helpviewer_keywords: ["ClearBrushRemapTable","ClearBrushRemapTable method [GDI+]","ClearBrushRemapTable method [GDI+]","ImageAttributes class","ImageAttributes class [GDI+]","ClearBrushRemapTable method","ImageAttributes.ClearBrushRemapTable","ImageAttributes::ClearBrushRemapTable","_gdiplus_CLASS_ImageAttributes_ClearBrushRemapTable_","gdiplus._gdiplus_CLASS_ImageAttributes_ClearBrushRemapTable_"]
 old-location: gdiplus\_gdiplus_CLASS_ImageAttributes_ClearBrushRemapTable_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageattributesclass\imageattributesmethods\clearbrushremaptable.htm

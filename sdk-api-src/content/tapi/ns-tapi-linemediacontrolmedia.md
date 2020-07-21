@@ -1,7 +1,8 @@
 ---
 UID: NS:tapi.linemediacontrolmedia_tag
 title: LINEMEDIACONTROLMEDIA (tapi.h)
-description: The LINEMEDIACONTROLMEDIA structure describes a media action to be executed when detecting a media type change. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.helpviewer_keywords: ["*LPLINEMEDIACONTROLMEDIA","LINEMEDIACONTROLMEDIA","LINEMEDIACONTROLMEDIA structure [TAPI 2.2]","LPLINEMEDIACONTROLMEDIA","LPLINEMEDIACONTROLMEDIA structure pointer [TAPI 2.2]","_tapi2_linemediacontrolmedia_str","tapi/LINEMEDIACONTROLMEDIA","tapi/LPLINEMEDIACONTROLMEDIA","tapi2.linemediacontrolmedia_str"]
+description: The LINEMEDIACONTROLMEDIA structure describes a media action to be executed when detecting a media type change. It is used as an entry in an array. The lineSetMediaControl and TSPI_lineSetMediaControl functions use this structure.
+helpviewer_keywords: ["*LPLINEMEDIACONTROLMEDIA","LINEMEDIACONTROLMEDIA","LINEMEDIACONTROLMEDIA structure [TAPI 2.2]","LPLINEMEDIACONTROLMEDIA","LPLINEMEDIACONTROLMEDIA structure pointer [TAPI 2.2]","_tapi2_linemediacontrolmedia_str","tapi/LINEMEDIACONTROLMEDIA","tapi/LPLINEMEDIACONTROLMEDIA","tapi2.linemediacontrolmedia_str"]
 old-location: tapi2\linemediacontrolmedia_str.htm
 tech.root: Tapi
 ms.assetid: 5515d510-3827-4da6-975c-ff191bb0ab4e

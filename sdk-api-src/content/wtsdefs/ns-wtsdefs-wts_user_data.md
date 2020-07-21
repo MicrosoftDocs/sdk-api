@@ -1,7 +1,8 @@
 ---
 UID: NS:wtsdefs._WTS_USER_DATA
 title: WTS_USER_DATA (wtsdefs.h)
-description: Contains select client property values.helpviewer_keywords: ["*PWTS_USER_DATA","PWTS_USER_DATA","PWTS_USER_DATA structure pointer [Remote Desktop Services]","WTS_USER_DATA","WTS_USER_DATA structure [Remote Desktop Services]","termserv.wts_user_data","wtsdefs/PWTS_USER_DATA","wtsdefs/WTS_USER_DATA"]
+description: Contains select client property values.
+helpviewer_keywords: ["*PWTS_USER_DATA","PWTS_USER_DATA","PWTS_USER_DATA structure pointer [Remote Desktop Services]","WTS_USER_DATA","WTS_USER_DATA structure [Remote Desktop Services]","termserv.wts_user_data","wtsdefs/PWTS_USER_DATA","wtsdefs/WTS_USER_DATA"]
 old-location: termserv\wts_user_data.htm
 tech.root: TermServ
 ms.assetid: be2f7338-44a8-433f-b45d-620b9b7e93c7

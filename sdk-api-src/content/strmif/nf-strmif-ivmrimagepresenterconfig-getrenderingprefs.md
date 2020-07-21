@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRImagePresenterConfig.GetRenderingPrefs
 title: IVMRImagePresenterConfig::GetRenderingPrefs (strmif.h)
-description: The GetRenderingPrefs method retrieves the current rendering preferences from the VMR-7 filter's allocator-presenter.helpviewer_keywords: ["GetRenderingPrefs","GetRenderingPrefs method [DirectShow]","GetRenderingPrefs method [DirectShow]","IVMRImagePresenterConfig interface","IVMRImagePresenterConfig interface [DirectShow]","GetRenderingPrefs method","IVMRImagePresenterConfig.GetRenderingPrefs","IVMRImagePresenterConfig::GetRenderingPrefs","IVMRImagePresenterConfigGetRenderingPrefs","dshow.ivmrimagepresenterconfig_getrenderingprefs","strmif/IVMRImagePresenterConfig::GetRenderingPrefs"]
+description: The GetRenderingPrefs method retrieves the current rendering preferences from the VMR-7 filter's allocator-presenter.
+helpviewer_keywords: ["GetRenderingPrefs","GetRenderingPrefs method [DirectShow]","GetRenderingPrefs method [DirectShow]","IVMRImagePresenterConfig interface","IVMRImagePresenterConfig interface [DirectShow]","GetRenderingPrefs method","IVMRImagePresenterConfig.GetRenderingPrefs","IVMRImagePresenterConfig::GetRenderingPrefs","IVMRImagePresenterConfigGetRenderingPrefs","dshow.ivmrimagepresenterconfig_getrenderingprefs","strmif/IVMRImagePresenterConfig::GetRenderingPrefs"]
 old-location: dshow\ivmrimagepresenterconfig_getrenderingprefs.htm
 tech.root: DirectShow
 ms.assetid: e9ca9c02-e38d-4600-aee8-08afd03423ad

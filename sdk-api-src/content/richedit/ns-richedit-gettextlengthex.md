@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit._gettextlengthex
 title: GETTEXTLENGTHEX (richedit.h)
-description: Contains information about how the text length of a rich edit control should be calculated. This structure is passed in the wParam in the EM_GETTEXTLENGTHEX message.helpviewer_keywords: ["GETTEXTLENGTHEX","GETTEXTLENGTHEX structure [Windows Controls]","GTL_CLOSE","GTL_DEFAULT","GTL_NUMBYTES","GTL_NUMCHARS","GTL_PRECISE","GTL_USECRLF","_win32_GETTEXTLENGTHEX_str","_win32_GETTEXTLENGTHEX_str_cpp","controls.GETTEXTLENGTHEX","controls._win32_GETTEXTLENGTHEX_str","richedit/GETTEXTLENGTHEX"]
+description: Contains information about how the text length of a rich edit control should be calculated. This structure is passed in the wParam in the EM_GETTEXTLENGTHEX message.
+helpviewer_keywords: ["GETTEXTLENGTHEX","GETTEXTLENGTHEX structure [Windows Controls]","GTL_CLOSE","GTL_DEFAULT","GTL_NUMBYTES","GTL_NUMCHARS","GTL_PRECISE","GTL_USECRLF","_win32_GETTEXTLENGTHEX_str","_win32_GETTEXTLENGTHEX_str_cpp","controls.GETTEXTLENGTHEX","controls._win32_GETTEXTLENGTHEX_str","richedit/GETTEXTLENGTHEX"]
 old-location: controls\GETTEXTLENGTHEX.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\gettextlengthex.htm

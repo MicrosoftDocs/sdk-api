@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPEvents.Error
 title: IWMPEvents::Error (wmp.h)
-description: The Error event occurs when the Windows Media Player control has an error condition..helpviewer_keywords: ["Error","Error method [Windows Media Player]","Error method [Windows Media Player]","IWMPEvents interface","IWMPEvents interface [Windows Media Player]","Error method","IWMPEvents.Error","IWMPEvents::Error","IWMPEventsError","wmp.iwmpevents_iwmpevents__error","wmp/IWMPEvents::Error"]
+description: The Error event occurs when the Windows Media Player control has an error condition..
+helpviewer_keywords: ["Error","Error method [Windows Media Player]","Error method [Windows Media Player]","IWMPEvents interface","IWMPEvents interface [Windows Media Player]","Error method","IWMPEvents.Error","IWMPEvents::Error","IWMPEventsError","wmp.iwmpevents_iwmpevents__error","wmp/IWMPEvents::Error"]
 old-location: wmp\iwmpevents_iwmpevents__error.htm
 tech.root: WMP
 ms.assetid: 65c17590-3988-40d8-b6d8-b32b2e883059

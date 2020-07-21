@@ -1,7 +1,8 @@
 ---
 UID: NN:qmgr.IBackgroundCopyGroup
 title: IBackgroundCopyGroup (qmgr.h)
-description: Use the IBackgroundCopyGroup interface to manage a group. A group contains download jobs. For example, add a job to the group, set the properties of the group, and start and stop the group in the download queue.helpviewer_keywords: ["IBackgroundCopyGroup","IBackgroundCopyGroup interface [BITS]","IBackgroundCopyGroup interface [BITS]","described","bits.ibackgroundcopygroup","qmgr/IBackgroundCopyGroup"]
+description: Use the IBackgroundCopyGroup interface to manage a group. A group contains download jobs. For example, add a job to the group, set the properties of the group, and start and stop the group in the download queue.
+helpviewer_keywords: ["IBackgroundCopyGroup","IBackgroundCopyGroup interface [BITS]","IBackgroundCopyGroup interface [BITS]","described","bits.ibackgroundcopygroup","qmgr/IBackgroundCopyGroup"]
 old-location: bits\ibackgroundcopygroup.htm
 tech.root: Bits
 ms.assetid: 51ddd89a-489a-4b83-ad45-838809a6d2e8

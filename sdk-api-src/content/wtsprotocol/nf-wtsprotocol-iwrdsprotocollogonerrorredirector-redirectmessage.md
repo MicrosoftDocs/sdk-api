@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolLogonErrorRedirector.RedirectMessage
 title: IWRdsProtocolLogonErrorRedirector::RedirectMessage (wtsprotocol.h)
-description: Queries the protocol regarding how to redirect the logon message.helpviewer_keywords: ["IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services]","RedirectMessage method","IWRdsProtocolLogonErrorRedirector.RedirectMessage","IWRdsProtocolLogonErrorRedirector::RedirectMessage","RedirectMessage","RedirectMessage method [Remote Desktop Services]","RedirectMessage method [Remote Desktop Services]","IWRdsProtocolLogonErrorRedirector interface","termserv.iwrdsprotocollogonerrorredirector_redirectmessage","wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectMessage"]
+description: Queries the protocol regarding how to redirect the logon message.
+helpviewer_keywords: ["IWRdsProtocolLogonErrorRedirector interface [Remote Desktop Services]","RedirectMessage method","IWRdsProtocolLogonErrorRedirector.RedirectMessage","IWRdsProtocolLogonErrorRedirector::RedirectMessage","RedirectMessage","RedirectMessage method [Remote Desktop Services]","RedirectMessage method [Remote Desktop Services]","IWRdsProtocolLogonErrorRedirector interface","termserv.iwrdsprotocollogonerrorredirector_redirectmessage","wtsprotocol/IWRdsProtocolLogonErrorRedirector::RedirectMessage"]
 old-location: termserv\iwrdsprotocollogonerrorredirector_redirectmessage.htm
 tech.root: TermServ
 ms.assetid: b818e2b0-3d6c-4a56-8175-75b585553520

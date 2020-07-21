@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IComObjectConstruction2Events
 title: IComObjectConstruction2Events (comsvcs.h)
-description: Notifies the subscriber if a constructed object is created.helpviewer_keywords: ["IComObjectConstruction2Events","IComObjectConstruction2Events interface [COM+]","IComObjectConstruction2Events interface [COM+]","described","_dtc_icomobjectconstruction2events","comsvcs/IComObjectConstruction2Events","cos.icomobjectconstruction2events"]
+description: Notifies the subscriber if a constructed object is created.
+helpviewer_keywords: ["IComObjectConstruction2Events","IComObjectConstruction2Events interface [COM+]","IComObjectConstruction2Events interface [COM+]","described","_dtc_icomobjectconstruction2events","comsvcs/IComObjectConstruction2Events","cos.icomobjectconstruction2events"]
 old-location: cos\icomobjectconstruction2events.htm
 tech.root: cossdk
 ms.assetid: 976b8c1a-5ccd-48e2-a77c-10d4de9a4ffa

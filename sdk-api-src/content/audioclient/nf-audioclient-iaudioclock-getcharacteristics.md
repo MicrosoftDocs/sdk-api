@@ -1,7 +1,8 @@
 ---
 UID: NF:audioclient.IAudioClock.GetCharacteristics
 title: IAudioClock::GetCharacteristics (audioclient.h)
-description: The GetCharacteristics method is reserved for future use.helpviewer_keywords: ["GetCharacteristics","GetCharacteristics method [Core Audio]","GetCharacteristics method [Core Audio]","IAudioClock interface","IAudioClock interface [Core Audio]","GetCharacteristics method","IAudioClock.GetCharacteristics","IAudioClock::GetCharacteristics","IAudioClockGetCharacteristics","audioclient/IAudioClock::GetCharacteristics","coreaudio.iaudioclock_getcharacteristics"]
+description: The GetCharacteristics method is reserved for future use.
+helpviewer_keywords: ["GetCharacteristics","GetCharacteristics method [Core Audio]","GetCharacteristics method [Core Audio]","IAudioClock interface","IAudioClock interface [Core Audio]","GetCharacteristics method","IAudioClock.GetCharacteristics","IAudioClock::GetCharacteristics","IAudioClockGetCharacteristics","audioclient/IAudioClock::GetCharacteristics","coreaudio.iaudioclock_getcharacteristics"]
 old-location: coreaudio\iaudioclock_getcharacteristics.htm
 tech.root: CoreAudio
 ms.assetid: a5439a03-9f51-4e51-ab2e-0263de8a3468

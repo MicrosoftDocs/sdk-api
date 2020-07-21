@@ -1,7 +1,8 @@
 ---
 UID: NF:lmmsg.NetMessageBufferSend
 title: NetMessageBufferSend function (lmmsg.h)
-description: The NetMessageBufferSend function sends a buffer of information to a registered message alias.helpviewer_keywords: ["NetMessageBufferSend","NetMessageBufferSend function [Network Management]","_win32_netmessagebuffersend","lmmsg/NetMessageBufferSend","netmgmt.netmessagebuffersend"]
+description: The NetMessageBufferSend function sends a buffer of information to a registered message alias.
+helpviewer_keywords: ["NetMessageBufferSend","NetMessageBufferSend function [Network Management]","_win32_netmessagebuffersend","lmmsg/NetMessageBufferSend","netmgmt.netmessagebuffersend"]
 old-location: netmgmt\netmessagebuffersend.htm
 tech.root: NetMgmt
 ms.assetid: d1b9bebd-52e9-4b5f-97fb-e2a98aaff6b7

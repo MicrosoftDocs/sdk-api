@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Context_WriteWarning
 title: MI_Context_WriteWarning function (mi.h)
-description: Writes a warning message to the client.helpviewer_keywords: ["MI_Context_WriteWarning","MI_Context_WriteWarning function [Windows Management Infrastructure (MI)]","mi/MI_Context_WriteWarning","wmi.mi_writewarning","wmi_v2.mi_context_writewarning"]
+description: Writes a warning message to the client.
+helpviewer_keywords: ["MI_Context_WriteWarning","MI_Context_WriteWarning function [Windows Management Infrastructure (MI)]","mi/MI_Context_WriteWarning","wmi.mi_writewarning","wmi_v2.mi_context_writewarning"]
 old-location: wmi_v2\mi_context_writewarning.htm
 tech.root: wmi_v2
 ms.assetid: b353eff6-2d62-4dfc-8a21-bf21cf2f6437

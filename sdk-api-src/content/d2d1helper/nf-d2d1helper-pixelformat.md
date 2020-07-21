@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1helper.PixelFormat
 title: PixelFormat function (d2d1helper.h)
-description: Creates a D2D1_PIXEL_FORMAT structure.helpviewer_keywords: ["PixelFormat","PixelFormat function [Direct2D]","d2d1helper/PixelFormat","direct2d.pixelformat"]
+description: Creates a D2D1_PIXEL_FORMAT structure.
+helpviewer_keywords: ["PixelFormat","PixelFormat function [Direct2D]","d2d1helper/PixelFormat","direct2d.pixelformat"]
 old-location: direct2d\pixelformat.htm
 tech.root: Direct2D
 ms.assetid: 97128e07-68c2-40ab-bad1-7b6f599291b9

@@ -1,7 +1,8 @@
 ---
 UID: NN:audiopolicy.IAudioSessionControl2
 title: IAudioSessionControl2 (audiopolicy.h)
-description: The IAudioSessionControl2 interface can be used by a client to get information about the audio session.helpviewer_keywords: ["IAudioSessionControl2","IAudioSessionControl2 interface [Core Audio]","IAudioSessionControl2 interface [Core Audio]","described","audiopolicy/IAudioSessionControl2","coreaudio.iaudiosessioncontrol2"]
+description: The IAudioSessionControl2 interface can be used by a client to get information about the audio session.
+helpviewer_keywords: ["IAudioSessionControl2","IAudioSessionControl2 interface [Core Audio]","IAudioSessionControl2 interface [Core Audio]","described","audiopolicy/IAudioSessionControl2","coreaudio.iaudiosessioncontrol2"]
 old-location: coreaudio\iaudiosessioncontrol2.htm
 tech.root: CoreAudio
 ms.assetid: 3bb65edf-103c-4eeb-82b4-7c571cddfcf3

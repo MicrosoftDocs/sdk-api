@@ -1,7 +1,8 @@
 ---
 UID: NS:mprapi._MPR_INTERFACE_0
 title: MPR_INTERFACE_0 (mprapi.h)
-description: The MPR_INTERFACE_0 structure contains information for a particular router interface.helpviewer_keywords: ["*PMPR_INTERFACE_0","MPR_INTERFACE_0","MPR_INTERFACE_0 structure [RAS]","PMPR_INTERFACE_0","PMPR_INTERFACE_0 structure pointer [RAS]","_mpr_mpr_interface_0","mprapi/MPR_INTERFACE_0","mprapi/PMPR_INTERFACE_0","rras.mpr_interface_0"]
+description: The MPR_INTERFACE_0 structure contains information for a particular router interface.
+helpviewer_keywords: ["*PMPR_INTERFACE_0","MPR_INTERFACE_0","MPR_INTERFACE_0 structure [RAS]","PMPR_INTERFACE_0","PMPR_INTERFACE_0 structure pointer [RAS]","_mpr_mpr_interface_0","mprapi/MPR_INTERFACE_0","mprapi/PMPR_INTERFACE_0","rras.mpr_interface_0"]
 old-location: rras\mpr_interface_0.htm
 tech.root: RRAS
 ms.assetid: b204c10e-ccce-4d62-a7a9-75cf4fe1d9ba

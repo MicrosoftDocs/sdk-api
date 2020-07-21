@@ -1,7 +1,8 @@
 ---
 UID: NS:wlanapi._WLAN_DEVICE_SERVICE_GUID_LIST
 title: WLAN_DEVICE_SERVICE_GUID_LIST
-description: Contains an array of device service GUIDs.helpviewer_keywords: ["_WLAN_DEVICE_SERVICE_GUID_LIST"]
+description: Contains an array of device service GUIDs.
+helpviewer_keywords: ["_WLAN_DEVICE_SERVICE_GUID_LIST"]
 ms.date: 12/18/2019
 targetos: Windows
 req.construct-type: structure

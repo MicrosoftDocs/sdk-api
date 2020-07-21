@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbHierarchicalTransmissionDescriptor.GetLength
 title: IIsdbHierarchicalTransmissionDescriptor::GetLength (dvbsiparser.h)
-description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor, in bytes.helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IIsdbHierarchicalTransmissionDescriptor interface","IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies]","GetLength method","IIsdbHierarchicalTransmissionDescriptor.GetLength","IIsdbHierarchicalTransmissionDescriptor::GetLength","dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetLength","mstv.iisdbhierarchicaltransmissiondescriptor_getlength"]
+description: Gets the body length of an Integrated Services Digital Broadcasting (ISDB) hierarchical transmission descriptor, in bytes.
+helpviewer_keywords: ["GetLength","GetLength method [Microsoft TV Technologies]","GetLength method [Microsoft TV Technologies]","IIsdbHierarchicalTransmissionDescriptor interface","IIsdbHierarchicalTransmissionDescriptor interface [Microsoft TV Technologies]","GetLength method","IIsdbHierarchicalTransmissionDescriptor.GetLength","IIsdbHierarchicalTransmissionDescriptor::GetLength","dvbsiparser/IIsdbHierarchicalTransmissionDescriptor::GetLength","mstv.iisdbhierarchicaltransmissiondescriptor_getlength"]
 old-location: mstv\iisdbhierarchicaltransmissiondescriptor_getlength.htm
 tech.root: mstv
 ms.assetid: de183193-09b7-4774-9640-f02ec597d9c6

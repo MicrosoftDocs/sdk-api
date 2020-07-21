@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.MCIWndPause
 title: MCIWndPause macro (vfw.h)
-description: The MCIWndPause macro sends a command to an MCI device to pause playing or recording.helpviewer_keywords: ["MCIWndPause","MCIWndPause macro [Windows Multimedia]","_win32_MCIWndPause","multimedia.mciwndpause","vfw/MCIWndPause"]
+description: The MCIWndPause macro sends a command to an MCI device to pause playing or recording.
+helpviewer_keywords: ["MCIWndPause","MCIWndPause macro [Windows Multimedia]","_win32_MCIWndPause","multimedia.mciwndpause","vfw/MCIWndPause"]
 old-location: multimedia\mciwndpause.htm
 tech.root: Multimedia
 ms.assetid: 3c5e0209-f64b-4235-9855-e5ad4ce88032

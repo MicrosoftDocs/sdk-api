@@ -1,7 +1,8 @@
 ---
 UID: NC:routprot.PGET_MFE_STATUS
 title: PGET_MFE_STATUS (routprot.h)
-description: The router manager calls the GetMfeStatus function to obtain the status of the multicast forwarding entry (MFE) for the specified interface, group address, and source address.helpviewer_keywords: ["GetMfeStatus","GetMfeStatus callback function [RAS]","MFE_NO_ERROR","MFE_OIF_PRUNED","MFE_OLD_ROUTER","MFE_PRUNED_UPSTREAM","MFE_REACHED_CORE","PGET_MFE_STATUS","PGET_MFE_STATUS callback","_mpr_getmfestatus","routprot/GetMfeStatus","rras.getmfestatus"]
+description: The router manager calls the GetMfeStatus function to obtain the status of the multicast forwarding entry (MFE) for the specified interface, group address, and source address.
+helpviewer_keywords: ["GetMfeStatus","GetMfeStatus callback function [RAS]","MFE_NO_ERROR","MFE_OIF_PRUNED","MFE_OLD_ROUTER","MFE_PRUNED_UPSTREAM","MFE_REACHED_CORE","PGET_MFE_STATUS","PGET_MFE_STATUS callback","_mpr_getmfestatus","routprot/GetMfeStatus","rras.getmfestatus"]
 old-location: rras\getmfestatus.htm
 tech.root: RRAS
 ms.assetid: 518eb335-13b9-4980-90fc-11cdd7ef8f1a

@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IRealTimeStylus.SetDesiredPacketDescription
 title: IRealTimeStylus::SetDesiredPacketDescription (rtscom.h)
-description: Requests properties to be included in the packet stream.helpviewer_keywords: ["1ea8359b-fc9f-4929-9499-c5017eb3d763","IRealTimeStylus interface [Tablet PC]","SetDesiredPacketDescription method","IRealTimeStylus.SetDesiredPacketDescription","IRealTimeStylus::SetDesiredPacketDescription","SetDesiredPacketDescription","SetDesiredPacketDescription method [Tablet PC]","SetDesiredPacketDescription method [Tablet PC]","IRealTimeStylus interface","rtscom/IRealTimeStylus::SetDesiredPacketDescription","tablet.irealtimestylus_setdesiredpacketdescription"]
+description: Requests properties to be included in the packet stream.
+helpviewer_keywords: ["1ea8359b-fc9f-4929-9499-c5017eb3d763","IRealTimeStylus interface [Tablet PC]","SetDesiredPacketDescription method","IRealTimeStylus.SetDesiredPacketDescription","IRealTimeStylus::SetDesiredPacketDescription","SetDesiredPacketDescription","SetDesiredPacketDescription method [Tablet PC]","SetDesiredPacketDescription method [Tablet PC]","IRealTimeStylus interface","rtscom/IRealTimeStylus::SetDesiredPacketDescription","tablet.irealtimestylus_setdesiredpacketdescription"]
 old-location: tablet\irealtimestylus_setdesiredpacketdescription.htm
 tech.root: tablet
 ms.assetid: 1ea8359b-fc9f-4929-9499-c5017eb3d763

@@ -1,7 +1,8 @@
 ---
 UID: NF:resapi.ResUtilResourcesEqual
 title: ResUtilResourcesEqual function (resapi.h)
-description: Tests whether two resource handles represent the same resource. The PRESUTIL_RESOURCES_EQUAL type defines a pointer to this function.helpviewer_keywords: ["PRESUTIL_RESOURCES_EQUAL","PRESUTIL_RESOURCES_EQUAL function [Failover Cluster]","ResUtilResourcesEqual","ResUtilResourcesEqual function [Failover Cluster]","_wolf_resutilresourcesequal","mscs.resutilresourcesequal","resapi/PRESUTIL_RESOURCES_EQUAL","resapi/ResUtilResourcesEqual"]
+description: Tests whether two resource handles represent the same resource. The PRESUTIL_RESOURCES_EQUAL type defines a pointer to this function.
+helpviewer_keywords: ["PRESUTIL_RESOURCES_EQUAL","PRESUTIL_RESOURCES_EQUAL function [Failover Cluster]","ResUtilResourcesEqual","ResUtilResourcesEqual function [Failover Cluster]","_wolf_resutilresourcesequal","mscs.resutilresourcesequal","resapi/PRESUTIL_RESOURCES_EQUAL","resapi/ResUtilResourcesEqual"]
 old-location: mscs\resutilresourcesequal.htm
 tech.root: MsCS
 ms.assetid: a34bbe15-f13f-4034-b2f1-fea3e58c579e

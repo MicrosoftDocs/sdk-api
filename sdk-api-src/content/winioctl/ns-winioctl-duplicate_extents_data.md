@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._DUPLICATE_EXTENTS_DATA
 title: DUPLICATE_EXTENTS_DATA
-description: Contains parameters for the FSCTL_DUPLICATE_EXTENTS control code that performs the Block Cloning operation.helpviewer_keywords: ["*PDUPLICATE_EXTENTS_DATA","DUPLICATE_EXTENTS_DATA","DUPLICATE_EXTENTS_DATA structure [Files]","PDUPLICATE_EXTENTS_DATA","PDUPLICATE_EXTENTS_DATA structure pointer [Files]","fs.duplicate_extents_data","winioctl/DUPLICATE_EXTENTS_DATA","winioctl/PDUPLICATE_EXTENTS_DATA"]
+description: Contains parameters for the FSCTL_DUPLICATE_EXTENTS control code that performs the Block Cloning operation.
+helpviewer_keywords: ["*PDUPLICATE_EXTENTS_DATA","DUPLICATE_EXTENTS_DATA","DUPLICATE_EXTENTS_DATA structure [Files]","PDUPLICATE_EXTENTS_DATA","PDUPLICATE_EXTENTS_DATA structure pointer [Files]","fs.duplicate_extents_data","winioctl/DUPLICATE_EXTENTS_DATA","winioctl/PDUPLICATE_EXTENTS_DATA"]
 old-location: fs\duplicate_extents_data.htm
 tech.root: FileIO
 ms.assetid: 9E2B3AA1-BC28-4458-9882-13F7EFB23756

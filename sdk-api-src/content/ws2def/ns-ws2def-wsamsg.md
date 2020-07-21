@@ -1,7 +1,8 @@
 ---
 UID: NS:ws2def._WSAMSG
 title: WSAMSG (ws2def.h)
-description: Used with the WSARecvMsg and WSASendMsg functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used to store message data.helpviewer_keywords: ["*LPWSAMSG","*PWSAMSG","LPWSAMSG","LPWSAMSG structure pointer [Winsock]","MSG_BCAST","MSG_CTRUNC","MSG_MCAST","MSG_PEEK","MSG_TRUNC","PWSAMSG","PWSAMSG structure pointer [Winsock]","WSAMSG","WSAMSG structure [Winsock]","_win32_wsamsg_2","mswsock/LPWSAMSG","mswsock/PWSAMSG","mswsock/WSAMSG","winsock.wsamsg_2","ws2def/LPWSAMSG","ws2def/PWSAMSG","ws2def/WSAMSG"]
+description: Used with the WSARecvMsg and WSASendMsg functions to store address and optional control information about connected and unconnected sockets as well as an array of buffers used to store message data.
+helpviewer_keywords: ["*LPWSAMSG","*PWSAMSG","LPWSAMSG","LPWSAMSG structure pointer [Winsock]","MSG_BCAST","MSG_CTRUNC","MSG_MCAST","MSG_PEEK","MSG_TRUNC","PWSAMSG","PWSAMSG structure pointer [Winsock]","WSAMSG","WSAMSG structure [Winsock]","_win32_wsamsg_2","mswsock/LPWSAMSG","mswsock/PWSAMSG","mswsock/WSAMSG","winsock.wsamsg_2","ws2def/LPWSAMSG","ws2def/PWSAMSG","ws2def/WSAMSG"]
 old-location: winsock\wsamsg_2.htm
 tech.root: WinSock
 ms.assetid: 105a6e2c-1edf-4ec0-a1c2-ac0bcafeda30

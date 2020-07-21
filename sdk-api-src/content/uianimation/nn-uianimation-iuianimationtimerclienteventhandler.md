@@ -1,7 +1,8 @@
 ---
 UID: NN:uianimation.IUIAnimationTimerClientEventHandler
 title: IUIAnimationTimerClientEventHandler (uianimation.h)
-description: Defines a method for handling events related to changes in timer client status.helpviewer_keywords: ["IUIAnimationTimerClientEventHandler","IUIAnimationTimerClientEventHandler interface [Windows Animation]","IUIAnimationTimerClientEventHandler interface [Windows Animation]","described","uianimation.iuianimationtimerclienteventhandler","uianimation/IUIAnimationTimerClientEventHandler"]
+description: Defines a method for handling events related to changes in timer client status.
+helpviewer_keywords: ["IUIAnimationTimerClientEventHandler","IUIAnimationTimerClientEventHandler interface [Windows Animation]","IUIAnimationTimerClientEventHandler interface [Windows Animation]","described","uianimation.iuianimationtimerclienteventhandler","uianimation/IUIAnimationTimerClientEventHandler"]
 old-location: uianimation\iuianimationtimerclienteventhandler.htm
 tech.root: UIAnimation
 ms.assetid: 8ca8f7d8-e698-4c55-8241-5c8f7b47f0e8

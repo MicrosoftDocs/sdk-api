@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymFindExecutableImageW
 title: SymFindExecutableImageW function (dbghelp.h)
-description: Locates an executable file in the process search path.helpviewer_keywords: ["SymFindExecutableImage","SymFindExecutableImage function","SymFindExecutableImageW","base.symfindexecutableimage","dbghelp/SymFindExecutableImage","dbghelp/SymFindExecutableImageW"]
+description: Locates an executable file in the process search path.
+helpviewer_keywords: ["SymFindExecutableImage","SymFindExecutableImage function","SymFindExecutableImageW","base.symfindexecutableimage","dbghelp/SymFindExecutableImage","dbghelp/SymFindExecutableImageW"]
 old-location: base\symfindexecutableimage.htm
 tech.root: Debug
 ms.assetid: e81ff4bd-b9a0-4c90-86cb-67e721e2fd1b
@@ -116,6 +117,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymFindExecutableImage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

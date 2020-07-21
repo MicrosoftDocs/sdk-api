@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2spi.WSAAdvertiseProvider
 title: WSAAdvertiseProvider function (ws2spi.h)
-description: Makes a specific namespace version-2 provider available for all eligible clients.helpviewer_keywords: ["WSAAdvertiseProvider","WSAAdvertiseProvider function [Winsock]","winsock.wsaadvertiseprovider","ws2spi/WSAAdvertiseProvider"]
+description: Makes a specific namespace version-2 provider available for all eligible clients.
+helpviewer_keywords: ["WSAAdvertiseProvider","WSAAdvertiseProvider function [Winsock]","winsock.wsaadvertiseprovider","ws2spi/WSAAdvertiseProvider"]
 old-location: winsock\wsaadvertiseprovider.htm
 tech.root: WinSock
 ms.assetid: 574ebfa4-d7f2-43c2-b1ec-35ce3db9151f

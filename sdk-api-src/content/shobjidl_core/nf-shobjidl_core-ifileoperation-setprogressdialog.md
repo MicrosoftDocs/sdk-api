@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileOperation.SetProgressDialog
 title: IFileOperation::SetProgressDialog (shobjidl_core.h)
-description: Specifies a dialog box used to display the progress of the operation.helpviewer_keywords: ["IFileOperation interface [Windows Shell]","SetProgressDialog method","IFileOperation.SetProgressDialog","IFileOperation::SetProgressDialog","SetProgressDialog","SetProgressDialog method [Windows Shell]","SetProgressDialog method [Windows Shell]","IFileOperation interface","_shell_IFileOperation_SetProgressDialog","shell.IFileOperation_SetProgressDialog","shobjidl_core/IFileOperation::SetProgressDialog"]
+description: Specifies a dialog box used to display the progress of the operation.
+helpviewer_keywords: ["IFileOperation interface [Windows Shell]","SetProgressDialog method","IFileOperation.SetProgressDialog","IFileOperation::SetProgressDialog","SetProgressDialog","SetProgressDialog method [Windows Shell]","SetProgressDialog method [Windows Shell]","IFileOperation interface","_shell_IFileOperation_SetProgressDialog","shell.IFileOperation_SetProgressDialog","shobjidl_core/IFileOperation::SetProgressDialog"]
 old-location: shell\IFileOperation_SetProgressDialog.htm
 tech.root: shell
 ms.assetid: 34cc6b88-9791-4778-a8d9-cf1b80aa42a8

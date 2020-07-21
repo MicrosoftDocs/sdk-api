@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IInputObjectSite
 title: IInputObjectSite (shobjidl_core.h)
-description: Exposes a method that is used to communicate focus changes for a user input object contained in the Shell.helpviewer_keywords: ["IInputObjectSite","IInputObjectSite interface [Windows Shell]","IInputObjectSite interface [Windows Shell]","described","_win32_IInputObjectSite","shell.IInputObjectSite","shobjidl_core/IInputObjectSite"]
+description: Exposes a method that is used to communicate focus changes for a user input object contained in the Shell.
+helpviewer_keywords: ["IInputObjectSite","IInputObjectSite interface [Windows Shell]","IInputObjectSite interface [Windows Shell]","described","_win32_IInputObjectSite","shell.IInputObjectSite","shobjidl_core/IInputObjectSite"]
 old-location: shell\IInputObjectSite.htm
 tech.root: shell
 ms.assetid: fda52080-4117-47d6-8248-ffedd35e7625

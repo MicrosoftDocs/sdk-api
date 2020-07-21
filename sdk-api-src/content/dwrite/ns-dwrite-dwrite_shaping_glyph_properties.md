@@ -1,7 +1,8 @@
 ---
 UID: NS:dwrite.DWRITE_SHAPING_GLYPH_PROPERTIES
 title: DWRITE_SHAPING_GLYPH_PROPERTIES (dwrite.h)
-description: Contains shaping output properties for an output glyph.helpviewer_keywords: ["DWRITE_SHAPING_GLYPH_PROPERTIES","DWRITE_SHAPING_GLYPH_PROPERTIES structure [Direct Write]","directwrite.dwrite_shaping_glyph_properties","dwrite/DWRITE_SHAPING_GLYPH_PROPERTIES"]
+description: Contains shaping output properties for an output glyph.
+helpviewer_keywords: ["DWRITE_SHAPING_GLYPH_PROPERTIES","DWRITE_SHAPING_GLYPH_PROPERTIES structure [Direct Write]","directwrite.dwrite_shaping_glyph_properties","dwrite/DWRITE_SHAPING_GLYPH_PROPERTIES"]
 old-location: directwrite\dwrite_shaping_glyph_properties.htm
 tech.root: DirectWrite
 ms.assetid: debaa84f-8883-4117-9be0-962857b55020

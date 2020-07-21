@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPPlayer4.get_playerApplication
 title: IWMPPlayer4::get_playerApplication (wmp.h)
-description: The get_playerApplication method retrieves a pointer to an IWMPPlayerApplication interface when a remoted Windows Media Player control is running.helpviewer_keywords: ["IWMPPlayer4 interface [Windows Media Player]","get_playerApplication method","IWMPPlayer4.get_playerApplication","IWMPPlayer4::get_playerApplication","IWMPPlayer4get_playerApplication","get_playerApplication","get_playerApplication method [Windows Media Player]","get_playerApplication method [Windows Media Player]","IWMPPlayer4 interface","wmp.iwmpplayer4_get_playerapplication","wmp/IWMPPlayer4::get_playerApplication"]
+description: The get_playerApplication method retrieves a pointer to an IWMPPlayerApplication interface when a remoted Windows Media Player control is running.
+helpviewer_keywords: ["IWMPPlayer4 interface [Windows Media Player]","get_playerApplication method","IWMPPlayer4.get_playerApplication","IWMPPlayer4::get_playerApplication","IWMPPlayer4get_playerApplication","get_playerApplication","get_playerApplication method [Windows Media Player]","get_playerApplication method [Windows Media Player]","IWMPPlayer4 interface","wmp.iwmpplayer4_get_playerapplication","wmp/IWMPPlayer4::get_playerApplication"]
 old-location: wmp\iwmpplayer4_get_playerapplication.htm
 tech.root: WMP
 ms.assetid: 37b4b0b1-f16e-42ed-830e-9b0468a66eeb

@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(IN const WCHAR,OUT MetafileHeader)
+UID: NF:gdiplusheaders.Metafile.GetMetafileHeader(INconstWCHAR,OUTMetafileHeader)
 title: Metafile::GetMetafileHeader(IN const WCHAR,OUT MetafileHeader) (gdiplusheaders.h)
-description: The Metafile::GetMetafileHeader method gets the header.helpviewer_keywords: ["GetMetafileHeader","GetMetafileHeader method [GDI+]","GetMetafileHeader method [GDI+]","Metafile class","Metafile class [GDI+]","GetMetafileHeader method","Metafile.GetMetafileHeader","Metafile.GetMetafileHeader(IN const WCHAR","OUT MetafileHeader)","Metafile.GetMetafileHeader(const WCHAR*","MetafileHeader*)","Metafile::GetMetafileHeader","Metafile::GetMetafileHeader(IN const WCHAR","OUT MetafileHeader)","_gdiplus_CLASS_Metafile_GetMetafileHeader_filename_header_","gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_filename_header_"]
+description: The Metafile::GetMetafileHeader method gets the header.
+helpviewer_keywords: ["GetMetafileHeader","GetMetafileHeader method [GDI+]","GetMetafileHeader method [GDI+]","Metafile class","Metafile class [GDI+]","GetMetafileHeader method","Metafile.GetMetafileHeader","Metafile.GetMetafileHeader(IN const WCHAR","OUT MetafileHeader)","Metafile.GetMetafileHeader(const WCHAR*","MetafileHeader*)","Metafile::GetMetafileHeader","Metafile::GetMetafileHeader(IN const WCHAR","OUT MetafileHeader)","_gdiplus_CLASS_Metafile_GetMetafileHeader_filename_header_","gdiplus._gdiplus_CLASS_Metafile_GetMetafileHeader_filename_header_"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_GetMetafileHeader_filename_header_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafilemethods\metafilegetmetafileheadermethods\getmetafileheader.htm

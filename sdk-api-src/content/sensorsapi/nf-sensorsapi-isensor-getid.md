@@ -1,7 +1,8 @@
 ---
 UID: NF:sensorsapi.ISensor.GetID
 title: ISensor::GetID (sensorsapi.h)
-description: Retrieves the unique identifier of the sensor.helpviewer_keywords: ["GetID","GetID method","GetID method","ISensor interface","ISensor interface","GetID method","ISensor.GetID","ISensor::GetID","sensorsapi/ISensor::GetID","winsensors_com_ref.isensor_getid"]
+description: Retrieves the unique identifier of the sensor.
+helpviewer_keywords: ["GetID","GetID method","GetID method","ISensor interface","ISensor interface","GetID method","ISensor.GetID","ISensor::GetID","sensorsapi/ISensor::GetID","winsensors_com_ref.isensor_getid"]
 old-location: winsensors_com_ref\isensor_getid.htm
 tech.root: SensorsAPI
 ms.assetid: f314060d-ed39-48b1-b8b1-8659c05be549

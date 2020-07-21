@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcasync.RpcAsyncGetCallStatus
 title: RpcAsyncGetCallStatus function (rpcasync.h)
-description: The client calls the RpcAsyncGetCallStatus function to determine the current status of an asynchronous remote call.helpviewer_keywords: ["RpcAsyncGetCallStatus","RpcAsyncGetCallStatus function [RPC]","_rpc_rpcasyncgetcallstatus","rpc.rpcasyncgetcallstatus","rpcasync/RpcAsyncGetCallStatus"]
+description: The client calls the RpcAsyncGetCallStatus function to determine the current status of an asynchronous remote call.
+helpviewer_keywords: ["RpcAsyncGetCallStatus","RpcAsyncGetCallStatus function [RPC]","_rpc_rpcasyncgetcallstatus","rpc.rpcasyncgetcallstatus","rpcasync/RpcAsyncGetCallStatus"]
 old-location: rpc\rpcasyncgetcallstatus.htm
 tech.root: Rpc
 ms.assetid: caa3add7-d07f-4d56-ad96-51dc67f66117

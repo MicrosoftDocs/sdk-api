@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_DestinationOptions_GetCertCACheck
 title: MI_DestinationOptions_GetCertCACheck function (mi.h)
-description: Gets the server certificate CA check value.helpviewer_keywords: ["MI_DestinationOptions_GetCertCACheck","MI_DestinationOptions_GetCertCACheck function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetCertCACheck","wmi_v2.mi_destinationoptions_getcertcacheck"]
+description: Gets the server certificate CA check value.
+helpviewer_keywords: ["MI_DestinationOptions_GetCertCACheck","MI_DestinationOptions_GetCertCACheck function [Windows Management Infrastructure (MI)]","mi/MI_DestinationOptions_GetCertCACheck","wmi_v2.mi_destinationoptions_getcertcacheck"]
 old-location: wmi_v2\mi_destinationoptions_getcertcacheck.htm
 tech.root: wmi_v2
 ms.assetid: 9b1b5bca-4e1f-4c37-9df4-9101f40f1b97

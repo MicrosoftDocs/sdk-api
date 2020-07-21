@@ -1,7 +1,8 @@
 ---
 UID: NS:cloneviewhelper.tagAdapters
 title: Adapters (cloneviewhelper.h)
-description: The Adapters structure contains a list of graphics adapters.helpviewer_keywords: ["Adapters","Adapters structure [Display Devices]","TMM_Ref_5b0d959d-9d91-4166-8555-633b0690de8a.xml","cloneviewhelper/Adapters","display.adapters"]
+description: The Adapters structure contains a list of graphics adapters.
+helpviewer_keywords: ["Adapters","Adapters structure [Display Devices]","TMM_Ref_5b0d959d-9d91-4166-8555-633b0690de8a.xml","cloneviewhelper/Adapters","display.adapters"]
 old-location: display\adapters.htm
 tech.root: display
 ms.assetid: 4f91e683-66f6-4667-86d0-d3de28ba64b0

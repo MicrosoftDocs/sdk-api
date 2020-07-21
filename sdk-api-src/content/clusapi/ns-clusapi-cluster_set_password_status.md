@@ -1,7 +1,8 @@
 ---
 UID: NS:clusapi.CLUSTER_SET_PASSWORD_STATUS
 title: CLUSTER_SET_PASSWORD_STATUS (clusapi.h)
-description: Used by the SetClusterServiceAccountPassword function to return the results of a Cluster service user account password change for each cluster node.helpviewer_keywords: ["*PCLUSTER_SET_PASSWORD_STATUS","CLUSTER_SET_PASSWORD_STATUS","CLUSTER_SET_PASSWORD_STATUS structure [Failover Cluster]","PCLUSTER_SET_PASSWORD_STATUS","PCLUSTER_SET_PASSWORD_STATUS structure pointer [Failover Cluster]","_wolf_cluster_set_password_status","clusapi/CLUSTER_SET_PASSWORD_STATUS","clusapi/PCLUSTER_SET_PASSWORD_STATUS","mscs.cluster_set_password_status"]
+description: Used by the SetClusterServiceAccountPassword function to return the results of a Cluster service user account password change for each cluster node.
+helpviewer_keywords: ["*PCLUSTER_SET_PASSWORD_STATUS","CLUSTER_SET_PASSWORD_STATUS","CLUSTER_SET_PASSWORD_STATUS structure [Failover Cluster]","PCLUSTER_SET_PASSWORD_STATUS","PCLUSTER_SET_PASSWORD_STATUS structure pointer [Failover Cluster]","_wolf_cluster_set_password_status","clusapi/CLUSTER_SET_PASSWORD_STATUS","clusapi/PCLUSTER_SET_PASSWORD_STATUS","mscs.cluster_set_password_status"]
 old-location: mscs\cluster_set_password_status.htm
 tech.root: MsCS
 ms.assetid: a9e0e99f-b57b-4bf1-93d5-6f09d907aed1

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetCountOfRecords
 title: IIsdbDataContentDescriptor::GetCountOfRecords (dvbsiparser.h)
-description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) data content descriptor.helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IIsdbDataContentDescriptor.GetCountOfRecords","IIsdbDataContentDescriptor::GetCountOfRecords","dvbsiparser/IIsdbDataContentDescriptor::GetCountOfRecords","mstv.iisdbdatacontentdescriptor_getcountofrecords"]
+description: Gets the number of records in an Integrated Services Digital Broadcasting (ISDB) data content descriptor.
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IIsdbDataContentDescriptor.GetCountOfRecords","IIsdbDataContentDescriptor::GetCountOfRecords","dvbsiparser/IIsdbDataContentDescriptor::GetCountOfRecords","mstv.iisdbdatacontentdescriptor_getcountofrecords"]
 old-location: mstv\iisdbdatacontentdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: 4198ec3c-f2a3-4517-8efb-81dfb9f8c01d

@@ -1,7 +1,8 @@
 ---
 UID: NF:wtsprotocol.IWRdsProtocolManager.CreateListener
 title: IWRdsProtocolManager::CreateListener (wtsprotocol.h)
-description: Requests the creation of an IWRdsProtocolListener object that listens for incoming client connection requests.helpviewer_keywords: ["CreateListener","CreateListener method [Remote Desktop Services]","CreateListener method [Remote Desktop Services]","IWRdsProtocolManager interface","IWRdsProtocolManager interface [Remote Desktop Services]","CreateListener method","IWRdsProtocolManager.CreateListener","IWRdsProtocolManager::CreateListener","termserv.iwrdsprotocolmanager_createlistener","wtsprotocol/IWRdsProtocolManager::CreateListener"]
+description: Requests the creation of an IWRdsProtocolListener object that listens for incoming client connection requests.
+helpviewer_keywords: ["CreateListener","CreateListener method [Remote Desktop Services]","CreateListener method [Remote Desktop Services]","IWRdsProtocolManager interface","IWRdsProtocolManager interface [Remote Desktop Services]","CreateListener method","IWRdsProtocolManager.CreateListener","IWRdsProtocolManager::CreateListener","termserv.iwrdsprotocolmanager_createlistener","wtsprotocol/IWRdsProtocolManager::CreateListener"]
 old-location: termserv\iwrdsprotocolmanager_createlistener.htm
 tech.root: TermServ
 ms.assetid: df91dc10-77af-4b5a-8033-1b1ff614bb17

@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetSecurityProvider
 title: IUrlAccessor::GetSecurityProvider (searchapi.h)
-description: Gets the security provider for the URL.helpviewer_keywords: ["GetSecurityProvider","GetSecurityProvider method [search]","GetSecurityProvider method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetSecurityProvider method","IUrlAccessor.GetSecurityProvider","IUrlAccessor::GetSecurityProvider","_search_IUrlAccessor_GetSecurityProvider","search._search_IUrlAccessor_GetSecurityProvider","searchapi/IUrlAccessor::GetSecurityProvider"]
+description: Gets the security provider for the URL.
+helpviewer_keywords: ["GetSecurityProvider","GetSecurityProvider method [search]","GetSecurityProvider method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetSecurityProvider method","IUrlAccessor.GetSecurityProvider","IUrlAccessor::GetSecurityProvider","_search_IUrlAccessor_GetSecurityProvider","search._search_IUrlAccessor_GetSecurityProvider","searchapi/IUrlAccessor::GetSecurityProvider"]
 old-location: search\_search_IUrlAccessor_GetSecurityProvider.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getsecurityprovider.htm

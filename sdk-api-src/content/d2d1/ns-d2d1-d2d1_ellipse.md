@@ -1,7 +1,8 @@
 ---
 UID: NS:d2d1.D2D1_ELLIPSE
 title: D2D1_ELLIPSE (d2d1.h)
-description: Contains the center point, x-radius, and y-radius of an ellipse.helpviewer_keywords: ["D2D1_ELLIPSE","D2D1_ELLIPSE structure [Direct2D]","d2d1/D2D1_ELLIPSE","direct2d.D2D1_ELLIPSE"]
+description: Contains the center point, x-radius, and y-radius of an ellipse.
+helpviewer_keywords: ["D2D1_ELLIPSE","D2D1_ELLIPSE structure [Direct2D]","d2d1/D2D1_ELLIPSE","direct2d.D2D1_ELLIPSE"]
 old-location: direct2d\D2D1_ELLIPSE.htm
 tech.root: Direct2D
 ms.assetid: 6fed6c49-ba83-4c2b-af8a-04156ee317f0

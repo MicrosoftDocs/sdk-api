@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetDC
 title: GetDC function (winuser.h)
-description: The GetDC function retrieves a handle to a device context (DC) for the client area of a specified window or for the entire screen.helpviewer_keywords: ["GetDC","GetDC function [Windows GDI]","_win32_GetDC","gdi.getdc","winuser/GetDC"]
+description: The GetDC function retrieves a handle to a device context (DC) for the client area of a specified window or for the entire screen.
+helpviewer_keywords: ["GetDC","GetDC function [Windows GDI]","_win32_GetDC","gdi.getdc","winuser/GetDC"]
 old-location: gdi\getdc.htm
 tech.root: gdi
 ms.assetid: 50b2387b-c8e4-42a8-8f0f-0bdb355adbfd

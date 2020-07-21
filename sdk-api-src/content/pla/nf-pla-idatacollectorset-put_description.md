@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSet.put_Description
 title: IDataCollectorSet::put_Description (pla.h)
-description: Retrieves or sets the description of the data collector set. The description will be added to all output files as metadata and inserted into Performance Data Helper logs as a comment.helpviewer_keywords: ["Description property [PLA]","Description property [PLA]","IDataCollectorSet interface","IDataCollectorSet interface [PLA]","Description property","IDataCollectorSet.Description","IDataCollectorSet.put_Description","IDataCollectorSet::Description","IDataCollectorSet::get_Description","IDataCollectorSet::put_Description","base.idatacollectorset_get_description","pla.idatacollectorset_get_description","pla/IDataCollectorSet::Description","pla/IDataCollectorSet::get_Description","pla/IDataCollectorSet::put_Description","put_Description"]
+description: Retrieves or sets the description of the data collector set. The description will be added to all output files as metadata and inserted into Performance Data Helper logs as a comment.
+helpviewer_keywords: ["Description property [PLA]","Description property [PLA]","IDataCollectorSet interface","IDataCollectorSet interface [PLA]","Description property","IDataCollectorSet.Description","IDataCollectorSet.put_Description","IDataCollectorSet::Description","IDataCollectorSet::get_Description","IDataCollectorSet::put_Description","base.idatacollectorset_get_description","pla.idatacollectorset_get_description","pla/IDataCollectorSet::Description","pla/IDataCollectorSet::get_Description","pla/IDataCollectorSet::put_Description","put_Description"]
 old-location: pla\idatacollectorset_get_description.htm
 tech.root: PLA
 ms.assetid: d36deb28-09fa-4efd-bfe8-055757f4273a

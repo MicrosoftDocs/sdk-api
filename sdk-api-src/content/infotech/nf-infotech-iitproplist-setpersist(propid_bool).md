@@ -1,7 +1,8 @@
 ---
 UID: NF:infotech.IITPropList.SetPersist(PROPID,BOOL)
 title: IITPropList::SetPersist (infotech.h)
-description: Sets the persistence state on or off for a given property.helpviewer_keywords: ["IITPropList interface [HTML Help Workshop]","SetPersist method","IITPropList.SetPersist","IITPropList::SetPersist","IITPropList::SetPersist(PROPID","BOOL)","SetPersist","SetPersist method [HTML Help Workshop]","SetPersist method [HTML Help Workshop]","IITPropList interface","htmlhelp.iitproplist_setpersist1","infotech/IITPropList::SetPersist","refIITPropListSetPersistProperty"]
+description: Sets the persistence state on or off for a given property.
+helpviewer_keywords: ["IITPropList interface [HTML Help Workshop]","SetPersist method","IITPropList.SetPersist","IITPropList::SetPersist","IITPropList::SetPersist(PROPID","BOOL)","SetPersist","SetPersist method [HTML Help Workshop]","SetPersist method [HTML Help Workshop]","IITPropList interface","htmlhelp.iitproplist_setpersist1","infotech/IITPropList::SetPersist","refIITPropListSetPersistProperty"]
 old-location: htmlhelp\iitproplist_setpersist1.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistsetpersistproperty.htm

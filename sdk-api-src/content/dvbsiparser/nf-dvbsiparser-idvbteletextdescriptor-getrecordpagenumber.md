@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbTeletextDescriptor.GetRecordPageNumber
 title: IDvbTeletextDescriptor::GetRecordPageNumber (dvbsiparser.h)
-description: Gets the page number a Digital Video Broadcast (DVB) teletext descriptor. The page number identifies the page of teletext that is broadcast.helpviewer_keywords: ["GetRecordPageNumber","GetRecordPageNumber method [Microsoft TV Technologies]","GetRecordPageNumber method [Microsoft TV Technologies]","IDvbTeletextDescriptor interface","IDvbTeletextDescriptor interface [Microsoft TV Technologies]","GetRecordPageNumber method","IDvbTeletextDescriptor.GetRecordPageNumber","IDvbTeletextDescriptor::GetRecordPageNumber","dvbsiparser/IDvbTeletextDescriptor::GetRecordPageNumber","mstv.idvbteletextdescriptor_getrecordpagenumber"]
+description: Gets the page number a Digital Video Broadcast (DVB) teletext descriptor. The page number identifies the page of teletext that is broadcast.
+helpviewer_keywords: ["GetRecordPageNumber","GetRecordPageNumber method [Microsoft TV Technologies]","GetRecordPageNumber method [Microsoft TV Technologies]","IDvbTeletextDescriptor interface","IDvbTeletextDescriptor interface [Microsoft TV Technologies]","GetRecordPageNumber method","IDvbTeletextDescriptor.GetRecordPageNumber","IDvbTeletextDescriptor::GetRecordPageNumber","dvbsiparser/IDvbTeletextDescriptor::GetRecordPageNumber","mstv.idvbteletextdescriptor_getrecordpagenumber"]
 old-location: mstv\idvbteletextdescriptor_getrecordpagenumber.htm
 tech.root: mstv
 ms.assetid: 323af443-8ef3-443e-9d6c-7af17419655a

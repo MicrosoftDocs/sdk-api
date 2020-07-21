@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IModalWindow.Show
 title: IModalWindow::Show (shobjidl_core.h)
-description: Launches the modal window.helpviewer_keywords: ["IModalWindow interface [Windows Shell]","Show method","IModalWindow.Show","IModalWindow::Show","Show","Show method [Windows Shell]","Show method [Windows Shell]","IModalWindow interface","_win32_IModalWindow_Show","shell.IModalWindow_Show","shobjidl_core/IModalWindow::Show"]
+description: Launches the modal window.
+helpviewer_keywords: ["IModalWindow interface [Windows Shell]","Show method","IModalWindow.Show","IModalWindow::Show","Show","Show method [Windows Shell]","Show method [Windows Shell]","IModalWindow interface","_win32_IModalWindow_Show","shell.IModalWindow_Show","shobjidl_core/IModalWindow::Show"]
 old-location: shell\IModalWindow_Show.htm
 tech.root: shell
 ms.assetid: 0284b694-64d1-48db-bef3-92f808b29b23

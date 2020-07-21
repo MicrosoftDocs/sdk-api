@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.MaskBlt
 title: MaskBlt function (wingdi.h)
-description: The MaskBlt function combines the color data for the source and destination bitmaps using the specified mask and raster operation.helpviewer_keywords: ["MaskBlt","MaskBlt function [Windows GDI]","_win32_MaskBlt","gdi.maskblt","wingdi/MaskBlt"]
+description: The MaskBlt function combines the color data for the source and destination bitmaps using the specified mask and raster operation.
+helpviewer_keywords: ["MaskBlt","MaskBlt function [Windows GDI]","_win32_MaskBlt","gdi.maskblt","wingdi/MaskBlt"]
 old-location: gdi\maskblt.htm
 tech.root: gdi
 ms.assetid: 9fd6f0ce-a802-428d-9be5-a66afe39e9b7

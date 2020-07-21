@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_GETFLIPSTATUSDATA
 title: DD_GETFLIPSTATUSDATA (ddrawint.h)
-description: The DD_GETFLIPSTATUSDATA structure returns the flip status information.helpviewer_keywords: ["*PDD_GETFLIPSTATUSDATA","DD_GETFLIPSTATUSDATA","DD_GETFLIPSTATUSDATA structure [Display Devices]","ddrawint/DD_GETFLIPSTATUSDATA","ddstrcts_03291da8-7881-46a2-8b11-291124a5732d.xml","display.dd_getflipstatusdata"]
+description: The DD_GETFLIPSTATUSDATA structure returns the flip status information.
+helpviewer_keywords: ["*PDD_GETFLIPSTATUSDATA","DD_GETFLIPSTATUSDATA","DD_GETFLIPSTATUSDATA structure [Display Devices]","ddrawint/DD_GETFLIPSTATUSDATA","ddstrcts_03291da8-7881-46a2-8b11-291124a5732d.xml","display.dd_getflipstatusdata"]
 old-location: display\dd_getflipstatusdata.htm
 tech.root: display
 ms.assetid: da3b90e0-1a60-434b-966c-a7ebabff33ee

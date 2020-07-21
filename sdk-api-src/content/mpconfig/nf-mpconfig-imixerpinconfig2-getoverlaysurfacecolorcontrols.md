@@ -1,7 +1,8 @@
 ---
 UID: NF:mpconfig.IMixerPinConfig2.GetOverlaySurfaceColorControls
 title: IMixerPinConfig2::GetOverlaySurfaceColorControls (mpconfig.h)
-description: The GetOverlaySurfaceColorControls method retrieves the color control settings associated with the specified overlay surface.helpviewer_keywords: ["GetOverlaySurfaceColorControls","GetOverlaySurfaceColorControls method [DirectShow]","GetOverlaySurfaceColorControls method [DirectShow]","IMixerPinConfig2 interface","IMixerPinConfig2 interface [DirectShow]","GetOverlaySurfaceColorControls method","IMixerPinConfig2.GetOverlaySurfaceColorControls","IMixerPinConfig2::GetOverlaySurfaceColorControls","IMixerPinConfig2GetOverlaySurfaceColorControls","dshow.imixerpinconfig2_getoverlaysurfacecolorcontrols","mpconfig/IMixerPinConfig2::GetOverlaySurfaceColorControls"]
+description: The GetOverlaySurfaceColorControls method retrieves the color control settings associated with the specified overlay surface.
+helpviewer_keywords: ["GetOverlaySurfaceColorControls","GetOverlaySurfaceColorControls method [DirectShow]","GetOverlaySurfaceColorControls method [DirectShow]","IMixerPinConfig2 interface","IMixerPinConfig2 interface [DirectShow]","GetOverlaySurfaceColorControls method","IMixerPinConfig2.GetOverlaySurfaceColorControls","IMixerPinConfig2::GetOverlaySurfaceColorControls","IMixerPinConfig2GetOverlaySurfaceColorControls","dshow.imixerpinconfig2_getoverlaysurfacecolorcontrols","mpconfig/IMixerPinConfig2::GetOverlaySurfaceColorControls"]
 old-location: dshow\imixerpinconfig2_getoverlaysurfacecolorcontrols.htm
 tech.root: DirectShow
 ms.assetid: c6b47e4d-5bf2-4d76-a1e2-88a3342d75a6

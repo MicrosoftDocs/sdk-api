@@ -1,7 +1,8 @@
 ---
 UID: NF:adshlp.ADsGetLastError
 title: ADsGetLastError function (adshlp.h)
-description: The ADsGetLastError function retrieves the calling thread's last-error code value.helpviewer_keywords: ["ADsGetLastError","ADsGetLastError function [ADSI]","_ds_adsgetlasterror","adshlp/ADsGetLastError","adsi.adsgetlasterror"]
+description: The ADsGetLastError function retrieves the calling thread's last-error code value.
+helpviewer_keywords: ["ADsGetLastError","ADsGetLastError function [ADSI]","_ds_adsgetlasterror","adshlp/ADsGetLastError","adsi.adsgetlasterror"]
 old-location: adsi\adsgetlasterror.htm
 tech.root: adsi
 ms.assetid: 5e9899e9-e51e-4785-812a-f86eac6e2006

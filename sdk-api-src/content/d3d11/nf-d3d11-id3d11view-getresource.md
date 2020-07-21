@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11View.GetResource
 title: ID3D11View::GetResource (d3d11.h)
-description: Get the resource that is accessed through this view.helpviewer_keywords: ["9a136bd2-66f9-8800-9ce0-d8b9c402d899","GetResource","GetResource method [Direct3D 11]","GetResource method [Direct3D 11]","ID3D11View interface","ID3D11View interface [Direct3D 11]","GetResource method","ID3D11View.GetResource","ID3D11View::GetResource","d3d11/ID3D11View::GetResource","direct3d11.id3d11view_getresource"]
+description: Get the resource that is accessed through this view.
+helpviewer_keywords: ["9a136bd2-66f9-8800-9ce0-d8b9c402d899","GetResource","GetResource method [Direct3D 11]","GetResource method [Direct3D 11]","ID3D11View interface","ID3D11View interface [Direct3D 11]","GetResource method","ID3D11View.GetResource","ID3D11View::GetResource","d3d11/ID3D11View::GetResource","direct3d11.id3d11view_getresource"]
 old-location: direct3d11\id3d11view_getresource.htm
 tech.root: direct3d11
 ms.assetid: f6f6c4db-80c0-49bc-bd15-53e3a52d9f3c

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHUpdateImageW
 title: SHUpdateImageW function (shlobj_core.h)
-description: Notifies the Shell that an image in the system image list has changed.helpviewer_keywords: ["SHUpdateImage","SHUpdateImage function [Windows Shell]","SHUpdateImageA","SHUpdateImageW","_win32_SHUpdateImage","shell.SHUpdateImage","shlobj_core/SHUpdateImage","shlobj_core/SHUpdateImageA","shlobj_core/SHUpdateImageW"]
+description: Notifies the Shell that an image in the system image list has changed.
+helpviewer_keywords: ["SHUpdateImage","SHUpdateImage function [Windows Shell]","SHUpdateImageA","SHUpdateImageW","_win32_SHUpdateImage","shell.SHUpdateImage","shlobj_core/SHUpdateImage","shlobj_core/SHUpdateImageA","shlobj_core/SHUpdateImageW"]
 old-location: shell\SHUpdateImage.htm
 tech.root: shell
 ms.assetid: 9df5860e-db65-4e43-aaf9-c1e0e33fc569
@@ -97,6 +98,10 @@ You must use <a href="https://docs.microsoft.com/windows/desktop/api/shlobj_core
 
 
 
+
+
+> [!NOTE]
+> The shlobj_core.h header defines SHUpdateImage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

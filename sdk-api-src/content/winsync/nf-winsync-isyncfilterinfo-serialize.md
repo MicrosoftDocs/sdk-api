@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncFilterInfo.Serialize
 title: ISyncFilterInfo::Serialize (winsync.h)
-description: Serializes the filter data to an array of bytes.helpviewer_keywords: ["ISyncFilterInfo interface [Windows Sync]","Serialize method","ISyncFilterInfo.Serialize","ISyncFilterInfo::Serialize","Serialize","Serialize method [Windows Sync]","Serialize method [Windows Sync]","ISyncFilterInfo interface","winsync.isyncfilterinfo_serialize","winsync/ISyncFilterInfo::Serialize"]
+description: Serializes the filter data to an array of bytes.
+helpviewer_keywords: ["ISyncFilterInfo interface [Windows Sync]","Serialize method","ISyncFilterInfo.Serialize","ISyncFilterInfo::Serialize","Serialize","Serialize method [Windows Sync]","Serialize method [Windows Sync]","ISyncFilterInfo interface","winsync.isyncfilterinfo_serialize","winsync/ISyncFilterInfo::Serialize"]
 old-location: winsync\isyncfilterinfo_serialize.htm
 tech.root: winsync
 ms.assetid: bd3e9fec-9fa2-4216-9a05-1f121bd3dbef

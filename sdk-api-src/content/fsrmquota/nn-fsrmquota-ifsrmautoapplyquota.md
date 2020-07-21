@@ -1,7 +1,8 @@
 ---
 UID: NN:fsrmquota.IFsrmAutoApplyQuota
 title: IFsrmAutoApplyQuota (fsrmquota.h)
-description: Used to automatically add the quota to new and existing subdirectories of the directory on which the automatic quota is applied.helpviewer_keywords: ["IFsrmAutoApplyQuota","IFsrmAutoApplyQuota interface [File Server Resource Manager]","IFsrmAutoApplyQuota interface [File Server Resource Manager]","described","fs.ifsrmautoapplyquota","fsrm.ifsrmautoapplyquota","fsrm/IFsrmAutoApplyQuota"]
+description: Used to automatically add the quota to new and existing subdirectories of the directory on which the automatic quota is applied.
+helpviewer_keywords: ["IFsrmAutoApplyQuota","IFsrmAutoApplyQuota interface [File Server Resource Manager]","IFsrmAutoApplyQuota interface [File Server Resource Manager]","described","fs.ifsrmautoapplyquota","fsrm.ifsrmautoapplyquota","fsrm/IFsrmAutoApplyQuota"]
 old-location: fsrm\ifsrmautoapplyquota.htm
 tech.root: fsrm
 ms.assetid: 3eb30caa-ce29-4898-b1a7-bd905031ca98

@@ -1,7 +1,8 @@
 ---
 UID: NN:d2d1effectauthor.ID2D1TransformGraph
 title: ID2D1TransformGraph (d2d1effectauthor.h)
-description: Represents a graph of transform nodes.helpviewer_keywords: ["ID2D1TransformGraph","ID2D1TransformGraph interface [Direct2D]","ID2D1TransformGraph interface [Direct2D]","described","d2d1effectauthor/ID2D1TransformGraph","direct2d.id2d1transformgraph"]
+description: Represents a graph of transform nodes.
+helpviewer_keywords: ["ID2D1TransformGraph","ID2D1TransformGraph interface [Direct2D]","ID2D1TransformGraph interface [Direct2D]","described","d2d1effectauthor/ID2D1TransformGraph","direct2d.id2d1transformgraph"]
 old-location: direct2d\id2d1transformgraph.htm
 tech.root: Direct2D
 ms.assetid: 6CA29200-9834-4A5B-99E8-434CD6E9B243

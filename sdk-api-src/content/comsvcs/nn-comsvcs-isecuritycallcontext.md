@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.ISecurityCallContext
 title: ISecurityCallContext (comsvcs.h)
-description: Provides access to security methods and information about the security call context of the current call.helpviewer_keywords: ["ISecurityCallContext","ISecurityCallContext interface [COM+]","ISecurityCallContext interface [COM+]","described","_cos_ISecurityCallContext","comsvcs/ISecurityCallContext","cos.isecuritycallcontext"]
+description: Provides access to security methods and information about the security call context of the current call.
+helpviewer_keywords: ["ISecurityCallContext","ISecurityCallContext interface [COM+]","ISecurityCallContext interface [COM+]","described","_cos_ISecurityCallContext","comsvcs/ISecurityCallContext","cos.isecuritycallcontext"]
 old-location: cos\isecuritycallcontext.htm
 tech.root: cossdk
 ms.assetid: cd96ef31-784f-40fa-beb5-92a88823326b

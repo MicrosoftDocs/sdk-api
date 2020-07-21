@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegCreateBatchNotifyPort
 title: ClusterRegCreateBatchNotifyPort function (clusapi.h)
-description: Creates a subscription to a batch notification port.helpviewer_keywords: ["ClusterRegCreateBatchNotifyPort","ClusterRegCreateBatchNotifyPort function [Failover Cluster]","PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT","clusapi/ClusterRegCreateBatchNotifyPort","mscs.clusterregcreatebatchnotifyport"]
+description: Creates a subscription to a batch notification port.
+helpviewer_keywords: ["ClusterRegCreateBatchNotifyPort","ClusterRegCreateBatchNotifyPort function [Failover Cluster]","PCLUSTER_REG_CREATE_BATCH_NOTIFY_PORT","clusapi/ClusterRegCreateBatchNotifyPort","mscs.clusterregcreatebatchnotifyport"]
 old-location: mscs\clusterregcreatebatchnotifyport.htm
 tech.root: MsCS
 ms.assetid: 1eca2ba5-c0c3-4388-9384-db9dbcfc8405

@@ -1,7 +1,8 @@
 ---
 UID: NF:winscard.SCardReleaseContext
 title: SCardReleaseContext function (winscard.h)
-description: Closes an established resource manager context, freeing any resources allocated under that context, including SCARDHANDLE objects and memory allocated using the SCARD_AUTOALLOCATE length designator.helpviewer_keywords: ["SCardReleaseContext","SCardReleaseContext function [Security]","_smart_scardreleasecontext","security.scardreleasecontext","winscard/SCardReleaseContext"]
+description: Closes an established resource manager context, freeing any resources allocated under that context, including SCARDHANDLE objects and memory allocated using the SCARD_AUTOALLOCATE length designator.
+helpviewer_keywords: ["SCardReleaseContext","SCardReleaseContext function [Security]","_smart_scardreleasecontext","security.scardreleasecontext","winscard/SCardReleaseContext"]
 old-location: security\scardreleasecontext.htm
 tech.root: SecAuthN
 ms.assetid: aa17cf94-ca66-4b5e-b1cd-00319f496b09

@@ -1,7 +1,8 @@
 ---
 UID: NF:x3daudio.X3DAudioInitialize
 title: X3DAudioInitialize function (x3daudio.h)
-description: Sets all global 3D audio constants.helpviewer_keywords: ["X3DAudioInitialize","X3DAudioInitialize function [XAudio2 Audio Mixing APIs]","x3daudio/X3DAudioInitialize","xaudio2.x3daudioinitialize"]
+description: Sets all global 3D audio constants.
+helpviewer_keywords: ["X3DAudioInitialize","X3DAudioInitialize function [XAudio2 Audio Mixing APIs]","x3daudio/X3DAudioInitialize","xaudio2.x3daudioinitialize"]
 old-location: xaudio2\x3daudioinitialize.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.x3daudio.X3DAudioInitialize(UINT32,FLOAT32,X3DAUDIO_HANDLE@)

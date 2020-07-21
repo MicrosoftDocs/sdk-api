@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.GetProcessId
 title: GetProcessId function (processthreadsapi.h)
-description: Retrieves the process identifier of the specified process.helpviewer_keywords: ["GetProcessId","GetProcessId function","base.getprocessid","processthreadsapi/GetProcessId","winbase/GetProcessId"]
+description: Retrieves the process identifier of the specified process.
+helpviewer_keywords: ["GetProcessId","GetProcessId function","base.getprocessid","processthreadsapi/GetProcessId","winbase/GetProcessId"]
 old-location: base\getprocessid.htm
 tech.root: ProcThread
 ms.assetid: 9a024147-8bfe-427a-af12-a63f23328e38
@@ -72,6 +73,16 @@ A handle to the process. The handle must have the PROCESS_QUERY_INFORMATION or P
 <b>Windows Server 2003 and Windows XP:  </b>The handle must have the PROCESS_QUERY_INFORMATION access right.
 
 
+## -returns
+
+
+
+If the function succeeds, the return value is the process identifier.
+
+If the function fails, the return value is zero. To get extended error information, call 
+<a href="https://docs.microsoft.com/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror">GetLastError</a>.
+
+
 ## -remarks
 
 
@@ -100,7 +111,3 @@ Until a process terminates, its process identifier uniquely identifies it on the
 
 
 <a href="https://docs.microsoft.com/windows/desktop/ProcThread/child-processes">Processes</a>
- 
-
- 
-

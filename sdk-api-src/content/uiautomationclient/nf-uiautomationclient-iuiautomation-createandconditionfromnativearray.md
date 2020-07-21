@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.CreateAndConditionFromNativeArray
 title: IUIAutomation::CreateAndConditionFromNativeArray (uiautomationclient.h)
-description: Creates a condition that selects elements from a native array, based on multiple conditions that must all be true.helpviewer_keywords: ["CreateAndConditionFromNativeArray","CreateAndConditionFromNativeArray method [Windows Accessibility]","CreateAndConditionFromNativeArray method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateAndConditionFromNativeArray method","IUIAutomation.CreateAndConditionFromNativeArray","IUIAutomation::CreateAndConditionFromNativeArray","uiauto.uiauto_IUIAutomation_CreateAndConditionFromNativeArray","uiauto_IUIAutomation_CreateAndConditionFromNativeArray","uiautomationclient/IUIAutomation::CreateAndConditionFromNativeArray","winauto.uiauto_IUIAutomation_CreateAndConditionFromNativeArray"]
+description: Creates a condition that selects elements from a native array, based on multiple conditions that must all be true.
+helpviewer_keywords: ["CreateAndConditionFromNativeArray","CreateAndConditionFromNativeArray method [Windows Accessibility]","CreateAndConditionFromNativeArray method [Windows Accessibility]","IUIAutomation interface","IUIAutomation interface [Windows Accessibility]","CreateAndConditionFromNativeArray method","IUIAutomation.CreateAndConditionFromNativeArray","IUIAutomation::CreateAndConditionFromNativeArray","uiauto.uiauto_IUIAutomation_CreateAndConditionFromNativeArray","uiauto_IUIAutomation_CreateAndConditionFromNativeArray","uiautomationclient/IUIAutomation::CreateAndConditionFromNativeArray","winauto.uiauto_IUIAutomation_CreateAndConditionFromNativeArray"]
 old-location: winauto\uiauto_IUIAutomation_CreateAndConditionFromNativeArray.htm
 tech.root: WinAuto
 ms.assetid: 2f47dfa7-1558-4984-8400-cac549543819

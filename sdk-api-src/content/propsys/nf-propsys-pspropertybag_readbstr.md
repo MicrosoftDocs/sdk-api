@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_ReadBSTR
 title: PSPropertyBag_ReadBSTR function (propsys.h)
-description: Reads a BSTR data value from a property in a property bag.helpviewer_keywords: ["PSPropertyBag_ReadBSTR","PSPropertyBag_ReadBSTR function [Windows Properties]","properties.PSPropertyBag_ReadBSTR","propsys/PSPropertyBag_ReadBSTR","shell.PSPropertyBag_ReadBSTR","shell_PSPropertyBag_ReadBSTR"]
+description: Reads a BSTR data value from a property in a property bag.
+helpviewer_keywords: ["PSPropertyBag_ReadBSTR","PSPropertyBag_ReadBSTR function [Windows Properties]","properties.PSPropertyBag_ReadBSTR","propsys/PSPropertyBag_ReadBSTR","shell.PSPropertyBag_ReadBSTR","shell_PSPropertyBag_ReadBSTR"]
 old-location: properties\PSPropertyBag_ReadBSTR.htm
 tech.root: properties
 ms.assetid: 14F21A4D-4867-4c4d-9BD8-C733B1C50266

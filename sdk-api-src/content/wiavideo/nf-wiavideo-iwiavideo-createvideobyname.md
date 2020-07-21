@@ -1,7 +1,8 @@
 ---
 UID: NF:wiavideo.IWiaVideo.CreateVideoByName
 title: IWiaVideo::CreateVideoByName (wiavideo.h)
-description: The IWiaVideo::CreateVideoByName method creates a connection to a streaming video device with the friendly device name obtained from a Directshow enumeration.helpviewer_keywords: ["CreateVideoByName","CreateVideoByName method [WIA]","CreateVideoByName method [WIA]","IWiaVideo interface","IWiaVideo interface [WIA]","CreateVideoByName method","IWiaVideo.CreateVideoByName","IWiaVideo::CreateVideoByName","_wia_IWiaVideo_CreateVideoByName","wia._wia_IWiaVideo_CreateVideoByName","wiavideo/IWiaVideo::CreateVideoByName"]
+description: The IWiaVideo::CreateVideoByName method creates a connection to a streaming video device with the friendly device name obtained from a Directshow enumeration.
+helpviewer_keywords: ["CreateVideoByName","CreateVideoByName method [WIA]","CreateVideoByName method [WIA]","IWiaVideo interface","IWiaVideo interface [WIA]","CreateVideoByName method","IWiaVideo.CreateVideoByName","IWiaVideo::CreateVideoByName","_wia_IWiaVideo_CreateVideoByName","wia._wia_IWiaVideo_CreateVideoByName","wiavideo/IWiaVideo::CreateVideoByName"]
 old-location: wia\_wia_IWiaVideo_CreateVideoByName.htm
 tech.root: wia
 ms.assetid: VS|wia|~\wia\refwia\ifaces\iwiavideo\createvideobyname.htm

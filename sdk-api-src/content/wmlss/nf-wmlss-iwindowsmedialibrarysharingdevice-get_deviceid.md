@@ -1,7 +1,8 @@
 ---
 UID: NF:wmlss.IWindowsMediaLibrarySharingDevice.get_DeviceID
 title: IWindowsMediaLibrarySharingDevice::get_DeviceID (wmlss.h)
-description: The get_DeviceID method retrieves the device ID.helpviewer_keywords: ["IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services]","get_DeviceID method","IWindowsMediaLibrarySharingDevice.get_DeviceID","IWindowsMediaLibrarySharingDevice::get_DeviceID","get_DeviceID","get_DeviceID method [Windows Media Library Sharing Services]","get_DeviceID method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDevice interface","wmlss.IWMLSDeviceget_DeviceID","wmlss/IWindowsMediaLibrarySharingDevice::get_DeviceID"]
+description: The get_DeviceID method retrieves the device ID.
+helpviewer_keywords: ["IWindowsMediaLibrarySharingDevice interface [Windows Media Library Sharing Services]","get_DeviceID method","IWindowsMediaLibrarySharingDevice.get_DeviceID","IWindowsMediaLibrarySharingDevice::get_DeviceID","get_DeviceID","get_DeviceID method [Windows Media Library Sharing Services]","get_DeviceID method [Windows Media Library Sharing Services]","IWindowsMediaLibrarySharingDevice interface","wmlss.IWMLSDeviceget_DeviceID","wmlss/IWindowsMediaLibrarySharingDevice::get_DeviceID"]
 old-location: wmlss\IWMLSDeviceget_DeviceID.htm
 tech.root: WMLSS
 ms.assetid: cdf12bcd-3b41-42a6-818b-26294389d4b3

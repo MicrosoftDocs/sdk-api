@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrMesProcEncodeDecode4
 title: NdrMesProcEncodeDecode4 function (rpcndr.h)
-description: NdrMesProcEncodeDecode4 may be altered or unavailable.helpviewer_keywords: ["NdrMesProcEncodeDecode4","NdrMesProcEncodeDecode4 function [RPC]","rpc.ndrmesprocencodedecode4","rpcndr/NdrMesProcEncodeDecode4"]
+description: NdrMesProcEncodeDecode4 may be altered or unavailable.
+helpviewer_keywords: ["NdrMesProcEncodeDecode4","NdrMesProcEncodeDecode4 function [RPC]","rpc.ndrmesprocencodedecode4","rpcndr/NdrMesProcEncodeDecode4"]
 old-location: rpc\ndrmesprocencodedecode4.htm
 tech.root: Rpc
 ms.assetid: 53A24D77-0C23-4C06-AAB8-521528297E4F

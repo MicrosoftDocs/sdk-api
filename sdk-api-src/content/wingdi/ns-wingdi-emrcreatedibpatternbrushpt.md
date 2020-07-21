@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMRCREATEDIBPATTERNBRUSHPT
 title: EMRCREATEDIBPATTERNBRUSHPT (wingdi.h)
-description: The EMRCREATEDIBPATTERNBRUSHPT structure contains members for the CreateDIBPatternBrushPt enhanced metafile record. The BITMAPINFO structure is followed by the bitmap bits that form a packed device-independent bitmap (DIB).helpviewer_keywords: ["*PEMRCREATEDIBPATTERNBRUSHPT","*PEMRCREATEDIBPATTERNBRUSHPT structure [Windows GDI]","EMRCREATEDIBPATTERNBRUSHPT","EMRCREATEDIBPATTERNBRUSHPT structure [Windows GDI]","_win32_EMRCREATEDIBPATTERNBRUSHPT_str","gdi.emrcreatedibpatternbrushpt","wingdi/*PEMRCREATEDIBPATTERNBRUSHPT","wingdi/EMRCREATEDIBPATTERNBRUSHPT"]
+description: The EMRCREATEDIBPATTERNBRUSHPT structure contains members for the CreateDIBPatternBrushPt enhanced metafile record. The BITMAPINFO structure is followed by the bitmap bits that form a packed device-independent bitmap (DIB).
+helpviewer_keywords: ["*PEMRCREATEDIBPATTERNBRUSHPT","*PEMRCREATEDIBPATTERNBRUSHPT structure [Windows GDI]","EMRCREATEDIBPATTERNBRUSHPT","EMRCREATEDIBPATTERNBRUSHPT structure [Windows GDI]","_win32_EMRCREATEDIBPATTERNBRUSHPT_str","gdi.emrcreatedibpatternbrushpt","wingdi/*PEMRCREATEDIBPATTERNBRUSHPT","wingdi/EMRCREATEDIBPATTERNBRUSHPT"]
 old-location: gdi\emrcreatedibpatternbrushpt.htm
 tech.root: gdi
 ms.assetid: e1d8302b-9dbe-4a92-9143-7ad03e334ee5

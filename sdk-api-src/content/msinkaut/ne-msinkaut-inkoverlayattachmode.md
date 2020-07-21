@@ -1,7 +1,8 @@
 ---
 UID: NE:msinkaut.InkOverlayAttachMode
 title: InkOverlayAttachMode (msinkaut.h)
-description: Specifies where to attach the new InkOverlay object, behind or in front of the active layer.helpviewer_keywords: ["5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0","IOAM_Behind","IOAM_InFront","InkOverlayAttachMode","InkOverlayAttachMode enumeration [Tablet PC]","msinkaut/IOAM_Behind","msinkaut/IOAM_InFront","msinkaut/InkOverlayAttachMode","tablet.inkoverlayattachmode"]
+description: Specifies where to attach the new InkOverlay object, behind or in front of the active layer.
+helpviewer_keywords: ["5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0","IOAM_Behind","IOAM_InFront","InkOverlayAttachMode","InkOverlayAttachMode enumeration [Tablet PC]","msinkaut/IOAM_Behind","msinkaut/IOAM_InFront","msinkaut/InkOverlayAttachMode","tablet.inkoverlayattachmode"]
 old-location: tablet\inkoverlayattachmode.htm
 tech.root: tablet
 ms.assetid: 5b46c6fc-2415-4ed2-a2f9-47a6e8455ff0

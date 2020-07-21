@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SetWindowLongPtrA
 title: SetWindowLongPtrA function (winuser.h)
-description: Changes an attribute of the specified window.helpviewer_keywords: ["DWLP_DLGPROC","DWLP_MSGRESULT","DWLP_USER","GWLP_HINSTANCE","GWLP_ID","GWLP_USERDATA","GWLP_WNDPROC","GWL_EXSTYLE","GWL_STYLE","SetWindowLongPtr","SetWindowLongPtr function [Windows and Messages]","SetWindowLongPtrA","SetWindowLongPtrW","_win32_SetWindowLongPtr","_win32_setwindowlongptr_cpp","winmsg.setwindowlongptr","winui._win32_setwindowlongptr","winuser/SetWindowLongPtr","winuser/SetWindowLongPtrA","winuser/SetWindowLongPtrW"]
+description: Changes an attribute of the specified window.
+helpviewer_keywords: ["DWLP_DLGPROC","DWLP_MSGRESULT","DWLP_USER","GWLP_HINSTANCE","GWLP_ID","GWLP_USERDATA","GWLP_WNDPROC","GWL_EXSTYLE","GWL_STYLE","SetWindowLongPtr","SetWindowLongPtr function [Windows and Messages]","SetWindowLongPtrA","SetWindowLongPtrW","_win32_SetWindowLongPtr","_win32_setwindowlongptr_cpp","winmsg.setwindowlongptr","winui._win32_setwindowlongptr","winuser/SetWindowLongPtr","winuser/SetWindowLongPtrA","winuser/SetWindowLongPtrW"]
 old-location: winmsg\setwindowlongptr.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowclasses\windowclassreference\windowclassfunctions\setwindowlongptr.htm
@@ -250,6 +251,10 @@ If the window has a class style of <b>CS_CLASSDC</b> or <b>CS_PARENTDC</b>, do n
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines SetWindowLongPtr as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

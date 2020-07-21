@@ -1,7 +1,8 @@
 ---
 UID: NS:elscore._MAPPING_ENUM_OPTIONS
 title: MAPPING_ENUM_OPTIONS (elscore.h)
-description: Contains options used by the MappingGetServices function to enumerate ELS services.helpviewer_keywords: ["*PMAPPING_ENUM_OPTIONS","MAPPING_ENUM_OPTIONS","MAPPING_ENUM_OPTIONS structure [Internationalization for Windows Applications]","PMAPPING_ENUM_OPTIONS","PMAPPING_ENUM_OPTIONS structure pointer [Internationalization for Windows Applications]","elscore/MAPPING_ENUM_OPTIONS","elscore/PMAPPING_ENUM_OPTIONS","intl.mappingenumoptions"]
+description: Contains options used by the MappingGetServices function to enumerate ELS services.
+helpviewer_keywords: ["*PMAPPING_ENUM_OPTIONS","MAPPING_ENUM_OPTIONS","MAPPING_ENUM_OPTIONS structure [Internationalization for Windows Applications]","PMAPPING_ENUM_OPTIONS","PMAPPING_ENUM_OPTIONS structure pointer [Internationalization for Windows Applications]","elscore/MAPPING_ENUM_OPTIONS","elscore/PMAPPING_ENUM_OPTIONS","intl.mappingenumoptions"]
 old-location: intl\mappingenumoptions.htm
 tech.root: Intl
 ms.assetid: 3c5a0c04-9789-48dc-bc8f-a8b5ff350e27

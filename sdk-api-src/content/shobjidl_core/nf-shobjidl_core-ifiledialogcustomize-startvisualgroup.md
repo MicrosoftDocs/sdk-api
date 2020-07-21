@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.StartVisualGroup
 title: IFileDialogCustomize::StartVisualGroup (shobjidl_core.h)
-description: Declares a visual group in the dialog. Subsequent calls to any &#0034;add&#0034; method add those elements to this group.helpviewer_keywords: ["IFileDialogCustomize interface [Windows Shell]","StartVisualGroup method","IFileDialogCustomize.StartVisualGroup","IFileDialogCustomize::StartVisualGroup","StartVisualGroup","StartVisualGroup method [Windows Shell]","StartVisualGroup method [Windows Shell]","IFileDialogCustomize interface","shell.IFileDialogCustomize_StartVisualGroup","shell_IFileDialogCustomize_StartVisualGroup","shobjidl_core/IFileDialogCustomize::StartVisualGroup"]
+description: Declares a visual group in the dialog. Subsequent calls to any &quot;add&quot; method add those elements to this group.
+helpviewer_keywords: ["IFileDialogCustomize interface [Windows Shell]","StartVisualGroup method","IFileDialogCustomize.StartVisualGroup","IFileDialogCustomize::StartVisualGroup","StartVisualGroup","StartVisualGroup method [Windows Shell]","StartVisualGroup method [Windows Shell]","IFileDialogCustomize interface","shell.IFileDialogCustomize_StartVisualGroup","shell_IFileDialogCustomize_StartVisualGroup","shobjidl_core/IFileDialogCustomize::StartVisualGroup"]
 old-location: shell\IFileDialogCustomize_StartVisualGroup.htm
 tech.root: shell
 ms.assetid: 2626c820-3731-474d-9ddb-d2a8966c3d35

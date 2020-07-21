@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IRegistrationInfo.get_Author
 title: IRegistrationInfo::get_Author (taskschd.h)
-description: Gets or sets the author of the task.helpviewer_keywords: ["Author property [Task Scheduler]","Author property [Task Scheduler]","IRegistrationInfo interface","IRegistrationInfo interface [Task Scheduler]","Author property","IRegistrationInfo.Author","IRegistrationInfo.get_Author","IRegistrationInfo::Author","IRegistrationInfo::get_Author","IRegistrationInfo::put_Author","get_Author","taskschd.iregistrationinfo_author","taskschd/IRegistrationInfo::Author","taskschd/IRegistrationInfo::get_Author","taskschd/IRegistrationInfo::put_Author"]
+description: Gets or sets the author of the task.
+helpviewer_keywords: ["Author property [Task Scheduler]","Author property [Task Scheduler]","IRegistrationInfo interface","IRegistrationInfo interface [Task Scheduler]","Author property","IRegistrationInfo.Author","IRegistrationInfo.get_Author","IRegistrationInfo::Author","IRegistrationInfo::get_Author","IRegistrationInfo::put_Author","get_Author","taskschd.iregistrationinfo_author","taskschd/IRegistrationInfo::Author","taskschd/IRegistrationInfo::get_Author","taskschd/IRegistrationInfo::put_Author"]
 old-location: taskschd\iregistrationinfo_author.htm
 tech.root: taskschd
 ms.assetid: 7a71924b-47d6-4aea-b384-09874f85976b

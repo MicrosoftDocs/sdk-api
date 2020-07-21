@@ -1,7 +1,8 @@
 ---
 UID: NF:vsbackup.IVssExamineWriterMetadata.GetFileCounts
 title: IVssExamineWriterMetadata::GetFileCounts (vsbackup.h)
-description: The GetFileCounts method obtains excluded files and the number of components that a writer manages.helpviewer_keywords: ["GetFileCounts","GetFileCounts method [VSS]","GetFileCounts method [VSS]","IVssExamineWriterMetadata interface","IVssExamineWriterMetadata interface [VSS]","GetFileCounts method","IVssExamineWriterMetadata.GetFileCounts","IVssExamineWriterMetadata::GetFileCounts","_win32_ivssexaminewritermetadata_getfilecounts","base.ivssexaminewritermetadata_getfilecounts","vsbackup/IVssExamineWriterMetadata::GetFileCounts"]
+description: The GetFileCounts method obtains excluded files and the number of components that a writer manages.
+helpviewer_keywords: ["GetFileCounts","GetFileCounts method [VSS]","GetFileCounts method [VSS]","IVssExamineWriterMetadata interface","IVssExamineWriterMetadata interface [VSS]","GetFileCounts method","IVssExamineWriterMetadata.GetFileCounts","IVssExamineWriterMetadata::GetFileCounts","_win32_ivssexaminewritermetadata_getfilecounts","base.ivssexaminewritermetadata_getfilecounts","vsbackup/IVssExamineWriterMetadata::GetFileCounts"]
 old-location: base\ivssexaminewritermetadata_getfilecounts.htm
 tech.root: VSS
 ms.assetid: 7c1f1e9d-3154-4e03-a7dd-69b9f505dbb2

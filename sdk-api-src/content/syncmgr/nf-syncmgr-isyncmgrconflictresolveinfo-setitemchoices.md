@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolveInfo.SetItemChoices
 title: ISyncMgrConflictResolveInfo::SetItemChoices (syncmgr.h)
-description: Sets the array of indexes that represents which items the user wants to keep. This method is used when the user chooses to apply the same operation to all selected conflicts of the same type from the same handler.helpviewer_keywords: ["ISyncMgrConflictResolveInfo interface [Windows Shell]","SetItemChoices method","ISyncMgrConflictResolveInfo.SetItemChoices","ISyncMgrConflictResolveInfo::SetItemChoices","SetItemChoices","SetItemChoices method [Windows Shell]","SetItemChoices method [Windows Shell]","ISyncMgrConflictResolveInfo interface","_shell_ISyncMgrConflictResolveInfo_SetItemChoices","shell.ISyncMgrConflictResolveInfo_SetItemChoices","syncmgr/ISyncMgrConflictResolveInfo::SetItemChoices"]
+description: Sets the array of indexes that represents which items the user wants to keep. This method is used when the user chooses to apply the same operation to all selected conflicts of the same type from the same handler.
+helpviewer_keywords: ["ISyncMgrConflictResolveInfo interface [Windows Shell]","SetItemChoices method","ISyncMgrConflictResolveInfo.SetItemChoices","ISyncMgrConflictResolveInfo::SetItemChoices","SetItemChoices","SetItemChoices method [Windows Shell]","SetItemChoices method [Windows Shell]","ISyncMgrConflictResolveInfo interface","_shell_ISyncMgrConflictResolveInfo_SetItemChoices","shell.ISyncMgrConflictResolveInfo_SetItemChoices","syncmgr/ISyncMgrConflictResolveInfo::SetItemChoices"]
 old-location: shell\ISyncMgrConflictResolveInfo_SetItemChoices.htm
 tech.root: shell
 ms.assetid: e4485f49-9bcb-47a8-8559-da2217ee1eab

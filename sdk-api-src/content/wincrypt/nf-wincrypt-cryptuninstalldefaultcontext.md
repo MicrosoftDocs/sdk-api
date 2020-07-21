@@ -1,7 +1,8 @@
 ---
 UID: NF:wincrypt.CryptUninstallDefaultContext
 title: CryptUninstallDefaultContext function (wincrypt.h)
-description: Important  This API is deprecated.helpviewer_keywords: ["CryptUninstallDefaultContext","CryptUninstallDefaultContext function [Security]","_crypto2_cryptuninstalldefaultcontext","security.cryptuninstalldefaultcontext","wincrypt/CryptUninstallDefaultContext"]
+description: Important  This API is deprecated.
+helpviewer_keywords: ["CryptUninstallDefaultContext","CryptUninstallDefaultContext function [Security]","_crypto2_cryptuninstalldefaultcontext","security.cryptuninstalldefaultcontext","wincrypt/CryptUninstallDefaultContext"]
 old-location: security\cryptuninstalldefaultcontext.htm
 tech.root: SecCrypto
 ms.assetid: ad7be5cf-f078-4a9f-81c4-959e4203dba8

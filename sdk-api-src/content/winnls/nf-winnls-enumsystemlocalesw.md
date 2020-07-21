@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.EnumSystemLocalesW
 title: EnumSystemLocalesW function (winnls.h)
-description: Enumerates the locales that are either installed on or supported by an operating system.Note  For interoperability reasons, the application should prefer the EnumSystemLocalesEx function to EnumSystemLocales because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that will be run only on Windows Vista and later should use EnumSystemLocalesEx.helpviewer_keywords: ["EnumSystemLocales","EnumSystemLocales function [Internationalization for Windows Applications]","EnumSystemLocalesA","EnumSystemLocalesW","LCID_ALTERNATE_SORTS","LCID_INSTALLED","LCID_SUPPORTED","_win32_EnumSystemLocales","intl.enumsystemlocales","winnls/EnumSystemLocales","winnls/EnumSystemLocalesA","winnls/EnumSystemLocalesW"]
+description: Enumerates the locales that are either installed on or supported by an operating system.Note  For interoperability reasons, the application should prefer the EnumSystemLocalesEx function to EnumSystemLocales because Microsoft is migrating toward the use of locale names instead of locale identifiers for new locales. Any application that will be run only on Windows Vista and later should use EnumSystemLocalesEx.
+helpviewer_keywords: ["EnumSystemLocales","EnumSystemLocales function [Internationalization for Windows Applications]","EnumSystemLocalesA","EnumSystemLocalesW","LCID_ALTERNATE_SORTS","LCID_INSTALLED","LCID_SUPPORTED","_win32_EnumSystemLocales","intl.enumsystemlocales","winnls/EnumSystemLocales","winnls/EnumSystemLocalesA","winnls/EnumSystemLocalesW"]
 old-location: intl\enumsystemlocales.htm
 tech.root: Intl
 ms.assetid: e6341460-3c4e-4040-8b49-3eb7d279e571
@@ -136,6 +137,10 @@ The function enumerates locales by passing locale identifiers, one at a time, to
 
 
 
+
+
+> [!NOTE]
+> The winnls.h header defines EnumSystemLocales as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

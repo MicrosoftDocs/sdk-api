@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetworkListManager.GetConnectivity
 title: INetworkListManager::GetConnectivity (netlistmgr.h)
-description: The GetConnectivity method returns the overall connectivity state of the machine.helpviewer_keywords: ["GetConnectivity","GetConnectivity method [Network Awareness]","GetConnectivity method [Network Awareness]","INetworkListManager interface","INetworkListManager interface [Network Awareness]","GetConnectivity method","INetworkListManager.GetConnectivity","INetworkListManager::GetConnectivity","netlistmgr/INetworkListManager::GetConnectivity","nla.inetworklistmanager_getconnectivity"]
+description: The GetConnectivity method returns the overall connectivity state of the machine.
+helpviewer_keywords: ["GetConnectivity","GetConnectivity method [Network Awareness]","GetConnectivity method [Network Awareness]","INetworkListManager interface","INetworkListManager interface [Network Awareness]","GetConnectivity method","INetworkListManager.GetConnectivity","INetworkListManager::GetConnectivity","netlistmgr/INetworkListManager::GetConnectivity","nla.inetworklistmanager_getconnectivity"]
 old-location: nla\inetworklistmanager_getconnectivity.htm
 tech.root: nla
 ms.assetid: 4695554a-2f8b-4d2e-b3ff-ec22c43387d6

@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.ITraceDataProviderCollection.get_Count
 title: ITraceDataProviderCollection::get_Count (pla.h)
-description: Retrieves the number of trace providers in the collection.helpviewer_keywords: ["Count property [PLA]","Count property [PLA]","ITraceDataProviderCollection interface","ITraceDataProviderCollection interface [PLA]","Count property","ITraceDataProviderCollection.Count","ITraceDataProviderCollection.get_Count","ITraceDataProviderCollection::Count","ITraceDataProviderCollection::get_Count","base.itracedataprovidercollection_count","get_Count","pla.itracedataprovidercollection_count","pla/ITraceDataProviderCollection::Count","pla/ITraceDataProviderCollection::get_Count"]
+description: Retrieves the number of trace providers in the collection.
+helpviewer_keywords: ["Count property [PLA]","Count property [PLA]","ITraceDataProviderCollection interface","ITraceDataProviderCollection interface [PLA]","Count property","ITraceDataProviderCollection.Count","ITraceDataProviderCollection.get_Count","ITraceDataProviderCollection::Count","ITraceDataProviderCollection::get_Count","base.itracedataprovidercollection_count","get_Count","pla.itracedataprovidercollection_count","pla/ITraceDataProviderCollection::Count","pla/ITraceDataProviderCollection::get_Count"]
 old-location: pla\itracedataprovidercollection_count.htm
 tech.root: PLA
 ms.assetid: d5ecc815-86c1-4a08-b434-88479df3d70c

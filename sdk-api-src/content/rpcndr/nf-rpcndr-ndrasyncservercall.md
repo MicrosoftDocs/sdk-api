@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrAsyncServerCall
 title: NdrAsyncServerCall function (rpcndr.h)
-description: NdrAsyncServerCall is not intended to be directly called by applications.helpviewer_keywords: ["NdrAsyncServerCall","NdrAsyncServerCall function [RPC]","rpc.ndrasyncservercall","rpcndr/NdrAsyncServerCall"]
+description: NdrAsyncServerCall is not intended to be directly called by applications.
+helpviewer_keywords: ["NdrAsyncServerCall","NdrAsyncServerCall function [RPC]","rpc.ndrasyncservercall","rpcndr/NdrAsyncServerCall"]
 old-location: rpc\ndrasyncservercall.htm
 tech.root: Rpc
 ms.assetid: 5AA8EFA3-E7A7-44F5-9FC8-7CA86D94746A

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellItemResources.OpenResource
 title: IShellItemResources::OpenResource (shobjidl_core.h)
-description: Opens a specified resource.helpviewer_keywords: ["IShellItemResources interface [Windows Shell]","OpenResource method","IShellItemResources.OpenResource","IShellItemResources::OpenResource","OpenResource","OpenResource method [Windows Shell]","OpenResource method [Windows Shell]","IShellItemResources interface","_shell_IShellItemResources_OpenResource","shell.IShellItemResources_OpenResource","shobjidl_core/IShellItemResources::OpenResource"]
+description: Opens a specified resource.
+helpviewer_keywords: ["IShellItemResources interface [Windows Shell]","OpenResource method","IShellItemResources.OpenResource","IShellItemResources::OpenResource","OpenResource","OpenResource method [Windows Shell]","OpenResource method [Windows Shell]","IShellItemResources interface","_shell_IShellItemResources_OpenResource","shell.IShellItemResources_OpenResource","shobjidl_core/IShellItemResources::OpenResource"]
 old-location: shell\IShellItemResources_OpenResource.htm
 tech.root: shell
 ms.assetid: abef9009-7e0d-4a09-aba8-2b391e4ab487

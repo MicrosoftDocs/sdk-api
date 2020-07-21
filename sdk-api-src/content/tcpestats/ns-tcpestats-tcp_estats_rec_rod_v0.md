@@ -1,7 +1,8 @@
 ---
 UID: NS:tcpestats._TCP_ESTATS_REC_ROD_v0
 title: TCP_ESTATS_REC_ROD_v0 (tcpestats.h)
-description: Contains read-only dynamic information for extended TCP statistics on the local receiver for a TCP connection.helpviewer_keywords: ["*PTCP_ESTATS_REC_ROD_v0","PTCP_ESTATS_REC_ROD_v0","PTCP_ESTATS_REC_ROD_v0 structure pointer [IP Helper]","TCP_ESTATS_REC_ROD_v0","TCP_ESTATS_REC_ROD_v0 structure [IP Helper]","iphlp.tcp_estats_rec_rod_v0","tcpestats/PTCP_ESTATS_REC_ROD_v0","tcpestats/TCP_ESTATS_REC_ROD_v0"]
+description: Contains read-only dynamic information for extended TCP statistics on the local receiver for a TCP connection.
+helpviewer_keywords: ["*PTCP_ESTATS_REC_ROD_v0","PTCP_ESTATS_REC_ROD_v0","PTCP_ESTATS_REC_ROD_v0 structure pointer [IP Helper]","TCP_ESTATS_REC_ROD_v0","TCP_ESTATS_REC_ROD_v0 structure [IP Helper]","iphlp.tcp_estats_rec_rod_v0","tcpestats/PTCP_ESTATS_REC_ROD_v0","tcpestats/TCP_ESTATS_REC_ROD_v0"]
 old-location: iphlp\tcp_estats_rec_rod_v0.htm
 tech.root: IpHlp
 ms.assetid: 1481f108-1ea3-4952-9131-8b15e373d83e

@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.UnregisterApplicationRecoveryCallback
 title: UnregisterApplicationRecoveryCallback function (winbase.h)
-description: Removes the active instance of an application from the recovery list.helpviewer_keywords: ["UnregisterApplicationRecoveryCallback","UnregisterApplicationRecoveryCallback function [Recovery]","recovery.unregisterapplicationrecoverycallback","winbase/UnregisterApplicationRecoveryCallback"]
+description: Removes the active instance of an application from the recovery list.
+helpviewer_keywords: ["UnregisterApplicationRecoveryCallback","UnregisterApplicationRecoveryCallback function [Recovery]","recovery.unregisterapplicationrecoverycallback","winbase/UnregisterApplicationRecoveryCallback"]
 old-location: recovery\unregisterapplicationrecoverycallback.htm
 tech.root: Recovery
 ms.assetid: 473e24d6-fddb-4935-b454-8cddfb53a02a

@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnPinManager
 title: IMbnPinManager (mbnapi.h)
-description: Provides important details about the device PIN.helpviewer_keywords: ["IMbnPinManager","IMbnPinManager interface [Microsoft Broadband Networks]","IMbnPinManager interface [Microsoft Broadband Networks]","described","mbn.imbnpinmanager","mbnapi/IMbnPinManager"]
+description: Provides important details about the device PIN.
+helpviewer_keywords: ["IMbnPinManager","IMbnPinManager interface [Microsoft Broadband Networks]","IMbnPinManager interface [Microsoft Broadband Networks]","described","mbn.imbnpinmanager","mbnapi/IMbnPinManager"]
 old-location: mbn\imbnpinmanager.htm
 tech.root: mbn
 ms.assetid: b5cfabc7-81f8-4ea0-b6f4-5de011320f0b

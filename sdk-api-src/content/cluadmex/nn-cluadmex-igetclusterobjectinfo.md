@@ -1,7 +1,8 @@
 ---
 UID: NN:cluadmex.IGetClusterObjectInfo
 title: IGetClusterObjectInfo (cluadmex.h)
-description: Called by a Failover Cluster Administrator extension to retrieve information about a cluster object.helpviewer_keywords: ["IGetClusterObjectInfo","IGetClusterObjectInfo interface [Failover Cluster]","IGetClusterObjectInfo interface [Failover Cluster]","described","_wolf_igetclusterobjectinfo","cluadmex/IGetClusterObjectInfo","mscs.igetclusterobjectinfo"]
+description: Called by a Failover Cluster Administrator extension to retrieve information about a cluster object.
+helpviewer_keywords: ["IGetClusterObjectInfo","IGetClusterObjectInfo interface [Failover Cluster]","IGetClusterObjectInfo interface [Failover Cluster]","described","_wolf_igetclusterobjectinfo","cluadmex/IGetClusterObjectInfo","mscs.igetclusterobjectinfo"]
 old-location: mscs\igetclusterobjectinfo.htm
 tech.root: MsCS
 ms.assetid: a88ba05c-b64b-4d6d-b005-f2f867093355

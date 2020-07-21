@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidRect.get_Top
 title: IMSVidRect::get_Top (segment.h)
-description: The get_Top method retrieves the top y-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.helpviewer_keywords: ["IMSVidRect interface [Microsoft TV Technologies]","get_Top method","IMSVidRect.get_Top","IMSVidRect::get_Top","IMSVidRectget_Top","get_Top","get_Top method [Microsoft TV Technologies]","get_Top method [Microsoft TV Technologies]","IMSVidRect interface","mstv.imsvidrect_get_top","segment/IMSVidRect::get_Top"]
+description: The get_Top method retrieves the top y-coordinate of the rectangle. This coordinate is relative to the rectangle's associated window.
+helpviewer_keywords: ["IMSVidRect interface [Microsoft TV Technologies]","get_Top method","IMSVidRect.get_Top","IMSVidRect::get_Top","IMSVidRectget_Top","get_Top","get_Top method [Microsoft TV Technologies]","get_Top method [Microsoft TV Technologies]","IMSVidRect interface","mstv.imsvidrect_get_top","segment/IMSVidRect::get_Top"]
 old-location: mstv\imsvidrect_get_top.htm
 tech.root: mstv
 ms.assetid: 3596141c-e359-4ea5-8d6a-9ec374c1f854

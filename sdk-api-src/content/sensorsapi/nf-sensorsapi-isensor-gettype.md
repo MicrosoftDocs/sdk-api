@@ -1,7 +1,8 @@
 ---
 UID: NF:sensorsapi.ISensor.GetType
 title: ISensor::GetType (sensorsapi.h)
-description: Retrieves the sensor type ID.helpviewer_keywords: ["GetType","GetType method","GetType method","ISensor interface","ISensor interface","GetType method","ISensor.GetType","ISensor::GetType","sensorsapi/ISensor::GetType","winsensors_com_ref.isensor_gettype"]
+description: Retrieves the sensor type ID.
+helpviewer_keywords: ["GetType","GetType method","GetType method","ISensor interface","ISensor interface","GetType method","ISensor.GetType","ISensor::GetType","sensorsapi/ISensor::GetType","winsensors_com_ref.isensor_gettype"]
 old-location: winsensors_com_ref\isensor_gettype.htm
 tech.root: SensorsAPI
 ms.assetid: b01434ec-163a-4d91-a457-3d2a2c2a710a

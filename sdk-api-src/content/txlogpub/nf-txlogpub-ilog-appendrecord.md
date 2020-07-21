@@ -1,7 +1,8 @@
 ---
 UID: NF:txlogpub.ILog.AppendRecord
 title: ILog::AppendRecord (txlogpub.h)
-description: Write a new record to the end of the log.helpviewer_keywords: ["AppendRecord","AppendRecord method [COM]","AppendRecord method [COM]","ILog interface","ILog interface [COM]","AppendRecord method","ILog.AppendRecord","ILog::AppendRecord","_com_ilog_appendrecord","com.ilog_appendrecord","txlogpub/ILog::AppendRecord"]
+description: Write a new record to the end of the log.
+helpviewer_keywords: ["AppendRecord","AppendRecord method [COM]","AppendRecord method [COM]","ILog interface","ILog interface [COM]","AppendRecord method","ILog.AppendRecord","ILog::AppendRecord","_com_ilog_appendrecord","com.ilog_appendrecord","txlogpub/ILog::AppendRecord"]
 old-location: com\ilog_appendrecord.htm
 tech.root: com
 ms.assetid: e739acb5-4d93-4871-8b35-54d45138fe0f

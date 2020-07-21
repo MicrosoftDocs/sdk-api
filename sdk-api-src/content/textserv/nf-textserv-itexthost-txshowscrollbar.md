@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextHost.TxShowScrollBar
 title: ITextHost::TxShowScrollBar (textserv.h)
-description: Shows or hides the scroll bar in the text host window.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxShowScrollBar method","ITextHost.TxShowScrollBar","ITextHost::TxShowScrollBar","TxShowScrollBar","TxShowScrollBar method [Windows Controls]","TxShowScrollBar method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxShowScrollBar","_win32_ITextHost_TxShowScrollBar_cpp","controls.ITextHost_TxShowScrollBar","controls._win32_ITextHost_TxShowScrollBar","textserv/ITextHost::TxShowScrollBar"]
+description: Shows or hides the scroll bar in the text host window.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxShowScrollBar method","ITextHost.TxShowScrollBar","ITextHost::TxShowScrollBar","TxShowScrollBar","TxShowScrollBar method [Windows Controls]","TxShowScrollBar method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxShowScrollBar","_win32_ITextHost_TxShowScrollBar_cpp","controls.ITextHost_TxShowScrollBar","controls._win32_ITextHost_TxShowScrollBar","textserv/ITextHost::TxShowScrollBar"]
 old-location: controls\ITextHost_TxShowScrollBar.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\txshowscrollbar.htm

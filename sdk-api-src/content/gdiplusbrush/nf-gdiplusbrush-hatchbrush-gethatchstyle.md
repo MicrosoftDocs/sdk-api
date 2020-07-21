@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusbrush.HatchBrush.GetHatchStyle
 title: HatchBrush::GetHatchStyle (gdiplusbrush.h)
-description: The HatchBrush::GetHatchStyle method gets the hatch style of this hatch brush.helpviewer_keywords: ["GetHatchStyle","GetHatchStyle method [GDI+]","GetHatchStyle method [GDI+]","HatchBrush class","HatchBrush class [GDI+]","GetHatchStyle method","HatchBrush.GetHatchStyle","HatchBrush::GetHatchStyle","_gdiplus_CLASS_HatchBrush_GetHatchStyle_","gdiplus._gdiplus_CLASS_HatchBrush_GetHatchStyle_"]
+description: The HatchBrush::GetHatchStyle method gets the hatch style of this hatch brush.
+helpviewer_keywords: ["GetHatchStyle","GetHatchStyle method [GDI+]","GetHatchStyle method [GDI+]","HatchBrush class","HatchBrush class [GDI+]","GetHatchStyle method","HatchBrush.GetHatchStyle","HatchBrush::GetHatchStyle","_gdiplus_CLASS_HatchBrush_GetHatchStyle_","gdiplus._gdiplus_CLASS_HatchBrush_GetHatchStyle_"]
 old-location: gdiplus\_gdiplus_CLASS_HatchBrush_GetHatchStyle_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\hatchbrushclass\hatchbrushmethods\gethatchstyle.htm

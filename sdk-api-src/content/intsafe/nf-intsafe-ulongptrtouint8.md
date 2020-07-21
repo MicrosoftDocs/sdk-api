@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ULongPtrToUInt8
 title: ULongPtrToUInt8 function (intsafe.h)
-description: Converts a value of type ULONG_PTR to a value of type UINT8.helpviewer_keywords: ["ULongPtrToUInt8","ULongPtrToUInt8 function [Windows Shell]","ULongToByte","intsafe/ULongPtrToUInt8","shell.ULongPtrToUInt8"]
+description: Converts a value of type ULONG_PTR to a value of type UINT8.
+helpviewer_keywords: ["ULongPtrToUInt8","ULongPtrToUInt8 function [Windows Shell]","ULongToByte","intsafe/ULongPtrToUInt8","shell.ULongPtrToUInt8"]
 old-location: shell\ULongPtrToUInt8.htm
 tech.root: shell
 ms.assetid: 1a287c22-80d8-4cd9-8878-c19aaeddd407

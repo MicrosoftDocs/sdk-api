@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectScalarVariable.GetIntArray
 title: ID3D10EffectScalarVariable::GetIntArray (d3d10effect.h)
-description: Get an array of integer variables.helpviewer_keywords: ["3b56ed87-da9a-3aec-33c5-66ed69d44a04","GetIntArray","GetIntArray method [Direct3D 10]","GetIntArray method [Direct3D 10]","ID3D10EffectScalarVariable interface","ID3D10EffectScalarVariable interface [Direct3D 10]","GetIntArray method","ID3D10EffectScalarVariable.GetIntArray","ID3D10EffectScalarVariable::GetIntArray","d3d10effect/ID3D10EffectScalarVariable::GetIntArray","direct3d10.id3d10effectscalarvariable_getintarray"]
+description: Get an array of integer variables.
+helpviewer_keywords: ["3b56ed87-da9a-3aec-33c5-66ed69d44a04","GetIntArray","GetIntArray method [Direct3D 10]","GetIntArray method [Direct3D 10]","ID3D10EffectScalarVariable interface","ID3D10EffectScalarVariable interface [Direct3D 10]","GetIntArray method","ID3D10EffectScalarVariable.GetIntArray","ID3D10EffectScalarVariable::GetIntArray","d3d10effect/ID3D10EffectScalarVariable::GetIntArray","direct3d10.id3d10effectscalarvariable_getintarray"]
 old-location: direct3d10\id3d10effectscalarvariable_getintarray.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectscalarvariable_getintarray.htm

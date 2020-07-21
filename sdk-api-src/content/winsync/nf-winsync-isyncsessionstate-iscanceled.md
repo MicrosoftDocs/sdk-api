@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncSessionState.IsCanceled
 title: ISyncSessionState::IsCanceled (winsync.h)
-description: Indicates whether the synchronization session has been canceled.helpviewer_keywords: ["ISyncSessionState interface [Windows Sync]","IsCanceled method","ISyncSessionState.IsCanceled","ISyncSessionState::IsCanceled","IsCanceled","IsCanceled method [Windows Sync]","IsCanceled method [Windows Sync]","ISyncSessionState interface","winsync.isyncsessionstate_iscanceled","winsync/ISyncSessionState::IsCanceled"]
+description: Indicates whether the synchronization session has been canceled.
+helpviewer_keywords: ["ISyncSessionState interface [Windows Sync]","IsCanceled method","ISyncSessionState.IsCanceled","ISyncSessionState::IsCanceled","IsCanceled","IsCanceled method [Windows Sync]","IsCanceled method [Windows Sync]","ISyncSessionState interface","winsync.isyncsessionstate_iscanceled","winsync/ISyncSessionState::IsCanceled"]
 old-location: winsync\isyncsessionstate_iscanceled.htm
 tech.root: winsync
 ms.assetid: 25ce0e21-99ce-4790-8f53-39466da9226f

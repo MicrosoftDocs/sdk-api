@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFUnlockDXGIDeviceManager
 title: MFUnlockDXGIDeviceManager function (mfapi.h)
-description: Unlocks the shared Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.helpviewer_keywords: ["MFUnlockDXGIDeviceManager","MFUnlockDXGIDeviceManager function [Media Foundation]","mf.mfunlockdxgidevicemanager","mfapi/MFUnlockDXGIDeviceManager"]
+description: Unlocks the shared Microsoft DirectX Graphics Infrastructure (DXGI) Device Manager.
+helpviewer_keywords: ["MFUnlockDXGIDeviceManager","MFUnlockDXGIDeviceManager function [Media Foundation]","mf.mfunlockdxgidevicemanager","mfapi/MFUnlockDXGIDeviceManager"]
 old-location: mf\mfunlockdxgidevicemanager.htm
 tech.root: medfound
 ms.assetid: 89121716-4F30-4ACD-AA48-F563550B94A1

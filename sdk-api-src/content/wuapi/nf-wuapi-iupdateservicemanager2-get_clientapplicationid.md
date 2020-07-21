@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateServiceManager2.get_ClientApplicationID
 title: IUpdateServiceManager2::get_ClientApplicationID (wuapi.h)
-description: Gets and sets the identifier of the current client application.helpviewer_keywords: ["ClientApplicationID property [Windows Update Agent]","ClientApplicationID property [Windows Update Agent]","IUpdateServiceManager2 interface","IUpdateServiceManager2 interface [Windows Update Agent]","ClientApplicationID property","IUpdateServiceManager2.ClientApplicationID","IUpdateServiceManager2.get_ClientApplicationID","IUpdateServiceManager2::ClientApplicationID","IUpdateServiceManager2::get_ClientApplicationID","IUpdateServiceManager2::put_ClientApplicationID","get_ClientApplicationID","wua.iupdateservicemanager2_clientapplicationid","wuapi/IUpdateServiceManager2::ClientApplicationID","wuapi/IUpdateServiceManager2::get_ClientApplicationID","wuapi/IUpdateServiceManager2::put_ClientApplicationID"]
+description: Gets and sets the identifier of the current client application.
+helpviewer_keywords: ["ClientApplicationID property [Windows Update Agent]","ClientApplicationID property [Windows Update Agent]","IUpdateServiceManager2 interface","IUpdateServiceManager2 interface [Windows Update Agent]","ClientApplicationID property","IUpdateServiceManager2.ClientApplicationID","IUpdateServiceManager2.get_ClientApplicationID","IUpdateServiceManager2::ClientApplicationID","IUpdateServiceManager2::get_ClientApplicationID","IUpdateServiceManager2::put_ClientApplicationID","get_ClientApplicationID","wua.iupdateservicemanager2_clientapplicationid","wuapi/IUpdateServiceManager2::ClientApplicationID","wuapi/IUpdateServiceManager2::get_ClientApplicationID","wuapi/IUpdateServiceManager2::put_ClientApplicationID"]
 old-location: wua\iupdateservicemanager2_clientapplicationid.htm
 tech.root: Wua_Sdk
 ms.assetid: 6783b7fc-ebb7-4b68-b71c-23e65ef61504

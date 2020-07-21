@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.data.pdf.interop.PdfCreateRenderer
 title: PdfCreateRenderer function (windows.data.pdf.interop.h)
-description: Gets an instance of the IPdfRendererNative interface for displaying a single page of a Portable Document Format (PDF) file.helpviewer_keywords: ["PdfCreateRenderer","PdfCreateRenderer function [Windows Runtime]","windows/PdfCreateRenderer","winrt.pdfcreaterenderer"]
+description: Gets an instance of the IPdfRendererNative interface for displaying a single page of a Portable Document Format (PDF) file.
+helpviewer_keywords: ["PdfCreateRenderer","PdfCreateRenderer function [Windows Runtime]","windows/PdfCreateRenderer","winrt.pdfcreaterenderer"]
 old-location: winrt\pdfcreaterenderer.htm
 tech.root: WinRT
 ms.assetid: 6C61B35A-FD43-434F-BD56-C912E2FCE464

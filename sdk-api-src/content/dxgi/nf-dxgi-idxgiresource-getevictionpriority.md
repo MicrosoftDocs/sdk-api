@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgi.IDXGIResource.GetEvictionPriority
 title: IDXGIResource::GetEvictionPriority (dxgi.h)
-description: Get the eviction priority.helpviewer_keywords: ["271e783f-4a0f-1453-c22a-244b5f091171","DXGI_RESOURCE_PRIORITY_HIGH (0xa0000000)","DXGI_RESOURCE_PRIORITY_LOW (0x50000000)","DXGI_RESOURCE_PRIORITY_MAXIMUM (0xc8000000)","DXGI_RESOURCE_PRIORITY_MINIMUM (0x28000000)","DXGI_RESOURCE_PRIORITY_NORMAL (0x78000000)","GetEvictionPriority","GetEvictionPriority method [DXGI]","GetEvictionPriority method [DXGI]","IDXGIResource interface","IDXGIResource interface [DXGI]","GetEvictionPriority method","IDXGIResource.GetEvictionPriority","IDXGIResource::GetEvictionPriority","direct3ddxgi.idxgiresource_getevictionpriority","dxgi/IDXGIResource::GetEvictionPriority"]
+description: Get the eviction priority.
+helpviewer_keywords: ["271e783f-4a0f-1453-c22a-244b5f091171","DXGI_RESOURCE_PRIORITY_HIGH (0xa0000000)","DXGI_RESOURCE_PRIORITY_LOW (0x50000000)","DXGI_RESOURCE_PRIORITY_MAXIMUM (0xc8000000)","DXGI_RESOURCE_PRIORITY_MINIMUM (0x28000000)","DXGI_RESOURCE_PRIORITY_NORMAL (0x78000000)","GetEvictionPriority","GetEvictionPriority method [DXGI]","GetEvictionPriority method [DXGI]","IDXGIResource interface","IDXGIResource interface [DXGI]","GetEvictionPriority method","IDXGIResource.GetEvictionPriority","IDXGIResource::GetEvictionPriority","direct3ddxgi.idxgiresource_getevictionpriority","dxgi/IDXGIResource::GetEvictionPriority"]
 old-location: direct3ddxgi\idxgiresource_getevictionpriority.htm
 tech.root: direct3ddxgi
 ms.assetid: VS|directx_sdk|~\idxgiresource_getevictionpriority.htm

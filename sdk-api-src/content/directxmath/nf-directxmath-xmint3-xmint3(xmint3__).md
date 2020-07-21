@@ -1,7 +1,8 @@
 ---
-UID: NF:directxmath.XMINT3.XMINT3(XMINT3 &&)
+UID: NF:directxmath.XMINT3.XMINT3(XMINT3&&)
 title: XMINT3::XMINT3(XMINT3 &&) (directxmath.h)
-description: A constructor for XMINT3.helpviewer_keywords: ["XMINT3","XMINT3 constructor [DirectX Math Support APIs]","XMINT3 constructor [DirectX Math Support APIs]","XMINT3 structure","XMINT3 structure [DirectX Math Support APIs]","XMINT3 constructor","XMINT3.XMINT3","XMINT3.XMINT3()","XMINT3.XMINT3(XMINT3 &&)","XMINT3::XMINT3","XMINT3::XMINT3(XMINT3 &&)","dxmath.xmint3_ctor_1"]
+description: A constructor for XMINT3.
+helpviewer_keywords: ["XMINT3","XMINT3 constructor [DirectX Math Support APIs]","XMINT3 constructor [DirectX Math Support APIs]","XMINT3 structure","XMINT3 structure [DirectX Math Support APIs]","XMINT3 constructor","XMINT3.XMINT3","XMINT3.XMINT3()","XMINT3.XMINT3(XMINT3 &&)","XMINT3::XMINT3","XMINT3::XMINT3(XMINT3 &&)","dxmath.xmint3_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 

@@ -1,7 +1,8 @@
 ---
 UID: NL:gdipluseffects.HueSaturationLightness
 title: HueSaturationLightness (gdipluseffects.h)
-description: The HueSaturationLightness class enables you to change the hue, saturation, and lightness of a bitmap.helpviewer_keywords: ["HueSaturationLightness","HueSaturationLightness class [GDI+]","HueSaturationLightness class [GDI+]","described","_gdiplus_CLASS_HueSaturationLightness_Class","gdiplus._gdiplus_CLASS_HueSaturationLightness_Class","gdipluseffects/HueSaturationLightness"]
+description: The HueSaturationLightness class enables you to change the hue, saturation, and lightness of a bitmap.
+helpviewer_keywords: ["HueSaturationLightness","HueSaturationLightness class [GDI+]","HueSaturationLightness class [GDI+]","described","_gdiplus_CLASS_HueSaturationLightness_Class","gdiplus._gdiplus_CLASS_HueSaturationLightness_Class","gdipluseffects/HueSaturationLightness"]
 old-location: gdiplus\_gdiplus_CLASS_HueSaturationLightness_Class.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\huesaturationlightness.htm

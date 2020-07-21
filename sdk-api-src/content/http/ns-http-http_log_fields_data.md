@@ -1,7 +1,8 @@
 ---
 UID: NS:http._HTTP_LOG_FIELDS_DATA
 title: HTTP_LOG_FIELDS_DATA (http.h)
-description: Used to pass the fields that are logged for an HTTP response when WC3 logging is enabled.helpviewer_keywords: ["*PHTTP_LOG_FIELDS_DATA","*PHTTP_LOG_FIELDS_DATA structure [HTTP]","HTTP_LOG_FIELDS_DATA","HTTP_LOG_FIELDS_DATA structure [HTTP]","http.http_log_fields_data","http/*PHTTP_LOG_FIELDS_DATA","http/HTTP_LOG_FIELDS_DATA"]
+description: Used to pass the fields that are logged for an HTTP response when WC3 logging is enabled.
+helpviewer_keywords: ["*PHTTP_LOG_FIELDS_DATA","*PHTTP_LOG_FIELDS_DATA structure [HTTP]","HTTP_LOG_FIELDS_DATA","HTTP_LOG_FIELDS_DATA structure [HTTP]","http.http_log_fields_data","http/*PHTTP_LOG_FIELDS_DATA","http/HTTP_LOG_FIELDS_DATA"]
 old-location: http\http_log_fields_data.htm
 tech.root: http
 ms.assetid: 5d1b86fe-161d-4182-b3fe-9a03a843e62e

@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsSetHeader
 title: WsSetHeader function (webservices.h)
-description: Adds or replaces the specified standard header in the message.helpviewer_keywords: ["WsSetHeader","WsSetHeader function [Web Services for Windows]","webservices/WsSetHeader","wsw.wssetheader"]
+description: Adds or replaces the specified standard header in the message.
+helpviewer_keywords: ["WsSetHeader","WsSetHeader function [Web Services for Windows]","webservices/WsSetHeader","wsw.wssetheader"]
 old-location: wsw\wssetheader.htm
 tech.root: wsw
 ms.assetid: 34671c47-d21e-47c4-9fb0-10b036fb4f70

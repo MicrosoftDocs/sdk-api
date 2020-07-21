@@ -1,7 +1,8 @@
 ---
 UID: NN:shdeprecated.IShellService
 title: IShellService (shdeprecated.h)
-description: Deprecated. IShellService Exposes one method that declares ownership when a service component implementing a certain interface is shared among multiple clients, such as Windows Internet Explorer and Windows Explorer.helpviewer_keywords: ["IShellService","IShellService interface [Windows Shell]","IShellService interface [Windows Shell]","described","shdeprecated/IShellService","shell.IShellService","zone_IShellService"]
+description: Deprecated. IShellService Exposes one method that declares ownership when a service component implementing a certain interface is shared among multiple clients, such as Windows Internet Explorer and Windows Explorer.
+helpviewer_keywords: ["IShellService","IShellService interface [Windows Shell]","IShellService interface [Windows Shell]","described","shdeprecated/IShellService","shell.IShellService","zone_IShellService"]
 old-location: shell\IShellService.htm
 tech.root: shell
 ms.assetid: 0b845907-a879-4f87-a6f5-8cc86dfe03ff

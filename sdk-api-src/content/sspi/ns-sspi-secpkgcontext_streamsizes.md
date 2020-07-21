@@ -1,7 +1,8 @@
 ---
 UID: NS:sspi._SecPkgContext_StreamSizes
 title: SecPkgContext_StreamSizes (sspi.h)
-description: Indicates the sizes of the various parts of a stream for use with the message support functions. The QueryContextAttributes (General) function uses this structure.helpviewer_keywords: ["*PSecPkgContext_StreamSizes","PSecPkgContext_StreamSizes","PSecPkgContext_StreamSizes structure pointer [Security]","SecPkgContext_DatagramSizes","SecPkgContext_StreamSizes","SecPkgContext_StreamSizes structure [Security]","_ssp_secpkgcontext_streamsizes","security.secpkgcontext_streamsizes","sspi/PSecPkgContext_StreamSizes","sspi/SecPkgContext_StreamSizes"]
+description: Indicates the sizes of the various parts of a stream for use with the message support functions. The QueryContextAttributes (General) function uses this structure.
+helpviewer_keywords: ["*PSecPkgContext_StreamSizes","PSecPkgContext_StreamSizes","PSecPkgContext_StreamSizes structure pointer [Security]","SecPkgContext_DatagramSizes","SecPkgContext_StreamSizes","SecPkgContext_StreamSizes structure [Security]","_ssp_secpkgcontext_streamsizes","security.secpkgcontext_streamsizes","sspi/PSecPkgContext_StreamSizes","sspi/SecPkgContext_StreamSizes"]
 old-location: security\secpkgcontext_streamsizes.htm
 tech.root: SecAuthN
 ms.assetid: 75e5fc96-56cc-4713-a34f-fca687798ad6

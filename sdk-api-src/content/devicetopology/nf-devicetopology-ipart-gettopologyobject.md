@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IPart.GetTopologyObject
 title: IPart::GetTopologyObject (devicetopology.h)
-description: The GetTopologyObject method gets a reference to the IDeviceTopology interface of the device-topology object that contains this part.helpviewer_keywords: ["GetTopologyObject","GetTopologyObject method [Core Audio]","GetTopologyObject method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetTopologyObject method","IPart.GetTopologyObject","IPart::GetTopologyObject","IPartGetTopologyObject","coreaudio.ipart_gettopologyobject","devicetopology/IPart::GetTopologyObject"]
+description: The GetTopologyObject method gets a reference to the IDeviceTopology interface of the device-topology object that contains this part.
+helpviewer_keywords: ["GetTopologyObject","GetTopologyObject method [Core Audio]","GetTopologyObject method [Core Audio]","IPart interface","IPart interface [Core Audio]","GetTopologyObject method","IPart.GetTopologyObject","IPart::GetTopologyObject","IPartGetTopologyObject","coreaudio.ipart_gettopologyobject","devicetopology/IPart::GetTopologyObject"]
 old-location: coreaudio\ipart_gettopologyobject.htm
 tech.root: CoreAudio
 ms.assetid: 5ad5fc66-6452-4d55-8c6a-a20a87431302

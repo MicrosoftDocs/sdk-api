@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzScope.DeletePolicyReader
 title: IAzScope::DeletePolicyReader (azroles.h)
-description: The DeletePolicyReader method of IAzScope removes the specified security identifier in text form from the list of principals that act as policy readers.helpviewer_keywords: ["AzScope object [Security]","DeletePolicyReader method","DeletePolicyReader","DeletePolicyReader method [Security]","DeletePolicyReader method [Security]","AzScope object","DeletePolicyReader method [Security]","IAzScope interface","IAzScope interface [Security]","DeletePolicyReader method","IAzScope.DeletePolicyReader","IAzScope::DeletePolicyReader","azroles/IAzScope::DeletePolicyReader","security.iazscope_deletepolicyreader"]
+description: The DeletePolicyReader method of IAzScope removes the specified security identifier in text form from the list of principals that act as policy readers.
+helpviewer_keywords: ["AzScope object [Security]","DeletePolicyReader method","DeletePolicyReader","DeletePolicyReader method [Security]","DeletePolicyReader method [Security]","AzScope object","DeletePolicyReader method [Security]","IAzScope interface","IAzScope interface [Security]","DeletePolicyReader method","IAzScope.DeletePolicyReader","IAzScope::DeletePolicyReader","azroles/IAzScope::DeletePolicyReader","security.iazscope_deletepolicyreader"]
 old-location: security\iazscope_deletepolicyreader.htm
 tech.root: SecAuthZ
 ms.assetid: c328a838-ae81-463d-8aa5-827071f58747

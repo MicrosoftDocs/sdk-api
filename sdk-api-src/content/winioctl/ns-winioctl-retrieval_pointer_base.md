@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._RETRIEVAL_POINTER_BASE
 title: RETRIEVAL_POINTER_BASE
-description: Contains the output for the FSCTL_GET_RETRIEVAL_POINTER_BASE control code.helpviewer_keywords: ["*PRETRIEVAL_POINTER_BASE","PRETRIEVAL_POINTER_BASE","PRETRIEVAL_POINTER_BASE structure pointer [Files]","RETRIEVAL_POINTER_BASE","RETRIEVAL_POINTER_BASE structure [Files]","fs.retrieval_pointer_base","winioctl/PRETRIEVAL_POINTER_BASE","winioctl/RETRIEVAL_POINTER_BASE"]
+description: Contains the output for the FSCTL_GET_RETRIEVAL_POINTER_BASE control code.
+helpviewer_keywords: ["*PRETRIEVAL_POINTER_BASE","PRETRIEVAL_POINTER_BASE","PRETRIEVAL_POINTER_BASE structure pointer [Files]","RETRIEVAL_POINTER_BASE","RETRIEVAL_POINTER_BASE structure [Files]","fs.retrieval_pointer_base","winioctl/PRETRIEVAL_POINTER_BASE","winioctl/RETRIEVAL_POINTER_BASE"]
 old-location: fs\retrieval_pointer_base.htm
 tech.root: FileIO
 ms.assetid: e0a779fb-6c46-4831-95dc-968e17f86a81

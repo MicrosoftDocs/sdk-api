@@ -1,7 +1,8 @@
 ---
 UID: NF:wabapi.IWABObject.LDAPUrl
 title: IWABObject::LDAPUrl (wabapi.h)
-description: Processes an Lightweight Directory Access Protocol (LDAP)&#160;URL and displays the results obtained from the URL.helpviewer_keywords: ["IWABObject interface [Windows Address Book]","LDAPUrl method","IWABObject.LDAPUrl","IWABObject::LDAPUrl","LDAPUrl","LDAPUrl method [Windows Address Book]","LDAPUrl method [Windows Address Book]","IWABObject interface","LDAP_AUTH_NEGOTIATE","MAPI_UNICODE","WABOBJECT_LDAPURL_RETURN_MAILUSER","_wab_IWABObject_LDAPUrl","wab._wab_IWABObject_LDAPUrl","wabapi/IWABObject::LDAPUrl"]
+description: Processes an Lightweight Directory Access Protocol (LDAP) URL and displays the results obtained from the URL.
+helpviewer_keywords: ["IWABObject interface [Windows Address Book]","LDAPUrl method","IWABObject.LDAPUrl","IWABObject::LDAPUrl","LDAPUrl","LDAPUrl method [Windows Address Book]","LDAPUrl method [Windows Address Book]","IWABObject interface","LDAP_AUTH_NEGOTIATE","MAPI_UNICODE","WABOBJECT_LDAPURL_RETURN_MAILUSER","_wab_IWABObject_LDAPUrl","wab._wab_IWABObject_LDAPUrl","wabapi/IWABObject::LDAPUrl"]
 old-location: wab\_wab_IWABObject_LDAPUrl.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\ifaces\iwabobject\ldapurl.htm

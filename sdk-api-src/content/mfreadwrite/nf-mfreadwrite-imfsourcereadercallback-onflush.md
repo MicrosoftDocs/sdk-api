@@ -1,7 +1,8 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnFlush
 title: IMFSourceReaderCallback::OnFlush (mfreadwrite.h)
-description: Called when the IMFSourceReader::Flush method completes.helpviewer_keywords: ["IMFSourceReaderCallback interface [Media Foundation]","OnFlush method","IMFSourceReaderCallback.OnFlush","IMFSourceReaderCallback::OnFlush","OnFlush","OnFlush method [Media Foundation]","OnFlush method [Media Foundation]","IMFSourceReaderCallback interface","mf.imfsourcereadercallback_onflush","mfreadwrite/IMFSourceReaderCallback::OnFlush"]
+description: Called when the IMFSourceReader::Flush method completes.
+helpviewer_keywords: ["IMFSourceReaderCallback interface [Media Foundation]","OnFlush method","IMFSourceReaderCallback.OnFlush","IMFSourceReaderCallback::OnFlush","OnFlush","OnFlush method [Media Foundation]","OnFlush method [Media Foundation]","IMFSourceReaderCallback interface","mf.imfsourcereadercallback_onflush","mfreadwrite/IMFSourceReaderCallback::OnFlush"]
 old-location: mf\imfsourcereadercallback_onflush.htm
 tech.root: medfound
 ms.assetid: a8273b0a-a75a-453f-bb42-38d554e44262

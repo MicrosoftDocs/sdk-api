@@ -1,7 +1,8 @@
 ---
 UID: NF:ndfapi.NdfCancelIncident
 title: NdfCancelIncident function (ndfapi.h)
-description: Used to cancel unneeded functions which have been previously called on an existing incident.helpviewer_keywords: ["NdfCancelIncident","NdfCancelIncident function [NDF]","ndf.ndfcancelincident","ndfapi/NdfCancelIncident"]
+description: Used to cancel unneeded functions which have been previously called on an existing incident.
+helpviewer_keywords: ["NdfCancelIncident","NdfCancelIncident function [NDF]","ndf.ndfcancelincident","ndfapi/NdfCancelIncident"]
 old-location: ndf\ndfcancelincident.htm
 tech.root: NDF
 ms.assetid: dc0cbfc0-fcaa-44b2-a753-8df9f184b8ca

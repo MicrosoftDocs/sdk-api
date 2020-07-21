@@ -1,7 +1,8 @@
 ---
 UID: NF:processthreadsapi.GetCurrentThreadId
 title: GetCurrentThreadId function (processthreadsapi.h)
-description: Retrieves the thread identifier of the calling thread.helpviewer_keywords: ["GetCurrentThreadId","GetCurrentThreadId function","_win32_getcurrentthreadid","base.getcurrentthreadid","processthreadsapi/GetCurrentThreadId","winbase/GetCurrentThreadId"]
+description: Retrieves the thread identifier of the calling thread.
+helpviewer_keywords: ["GetCurrentThreadId","GetCurrentThreadId function","_win32_getcurrentthreadid","base.getcurrentthreadid","processthreadsapi/GetCurrentThreadId","winbase/GetCurrentThreadId"]
 old-location: base\getcurrentthreadid.htm
 tech.root: ProcThread
 ms.assetid: a496f61a-e027-44e7-8b22-4f6651d7afb2

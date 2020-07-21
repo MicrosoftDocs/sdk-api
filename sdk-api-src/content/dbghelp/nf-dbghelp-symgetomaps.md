@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymGetOmaps
 title: SymGetOmaps function (dbghelp.h)
-description: Retrieves the omap tables within a loaded module.helpviewer_keywords: ["SymGetOmaps","SymGetOmaps function","base.symgetomaps","dbghelp/SymGetOmaps"]
+description: Retrieves the omap tables within a loaded module.
+helpviewer_keywords: ["SymGetOmaps","SymGetOmaps function","base.symgetomaps","dbghelp/SymGetOmaps"]
 old-location: base\symgetomaps.htm
 tech.root: Debug
 ms.assetid: d89947fa-65fd-4929-9f7e-a4923792049e

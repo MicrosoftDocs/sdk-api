@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwService.put_IpVersion
 title: INetFwService::put_IpVersion (netfw.h)
-description: Specifies the firewall IP version for which the service is authorized.helpviewer_keywords: ["INetFwService interface [ICS/ICF]","IpVersion property","INetFwService.IpVersion","INetFwService.put_IpVersion","INetFwService::IpVersion","INetFwService::get_IpVersion","INetFwService::put_IpVersion","IpVersion property [ICS/ICF]","IpVersion property [ICS/ICF]","INetFwService interface","ics.inetfwservice_ipversion","netfw/INetFwService::IpVersion","netfw/INetFwService::get_IpVersion","netfw/INetFwService::put_IpVersion","put_IpVersion"]
+description: Specifies the firewall IP version for which the service is authorized.
+helpviewer_keywords: ["INetFwService interface [ICS/ICF]","IpVersion property","INetFwService.IpVersion","INetFwService.put_IpVersion","INetFwService::IpVersion","INetFwService::get_IpVersion","INetFwService::put_IpVersion","IpVersion property [ICS/ICF]","IpVersion property [ICS/ICF]","INetFwService interface","ics.inetfwservice_ipversion","netfw/INetFwService::IpVersion","netfw/INetFwService::get_IpVersion","netfw/INetFwService::put_IpVersion","put_IpVersion"]
 old-location: ics\inetfwservice_ipversion.htm
 tech.root: ics
 ms.assetid: 992f39f6-ffb7-40c0-9227-6e626f226313

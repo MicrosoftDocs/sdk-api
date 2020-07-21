@@ -1,7 +1,8 @@
 ---
 UID: NN:dxgidebug.IDXGIDebug
 title: IDXGIDebug (dxgidebug.h)
-description: This interface controls debug settings, and can only be used if the debug layer is turned on.helpviewer_keywords: ["IDXGIDebug","IDXGIDebug interface [DXGI]","IDXGIDebug interface [DXGI]","described","direct3ddxgi.idxgidebug","dxgidebug/IDXGIDebug"]
+description: This interface controls debug settings, and can only be used if the debug layer is turned on.
+helpviewer_keywords: ["IDXGIDebug","IDXGIDebug interface [DXGI]","IDXGIDebug interface [DXGI]","described","direct3ddxgi.idxgidebug","dxgidebug/IDXGIDebug"]
 old-location: direct3ddxgi\idxgidebug.htm
 tech.root: direct3ddxgi
 ms.assetid: 7DCA4750-A397-4B5A-908F-A046427D30FB

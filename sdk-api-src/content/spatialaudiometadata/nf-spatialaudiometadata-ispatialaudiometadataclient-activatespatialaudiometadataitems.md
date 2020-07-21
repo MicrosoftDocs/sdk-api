@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems
 title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems (spatialaudiometadata.h)
-description: Creates an ISpatialAudioMetadataItems object for storing spatial audio metadata items.helpviewer_keywords: ["ActivateSpatialAudioMetadataItems","ActivateSpatialAudioMetadataItems method [Core Audio]","ActivateSpatialAudioMetadataItems method [Core Audio]","ISpatialAudioMetadataClient interface","ISpatialAudioMetadataClient interface [Core Audio]","ActivateSpatialAudioMetadataItems method","ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems","ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems","coreaudio.ispatialaudiometadataclient_activatespatialaudiometadataitems","spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems"]
+description: Creates an ISpatialAudioMetadataItems object for storing spatial audio metadata items.
+helpviewer_keywords: ["ActivateSpatialAudioMetadataItems","ActivateSpatialAudioMetadataItems method [Core Audio]","ActivateSpatialAudioMetadataItems method [Core Audio]","ISpatialAudioMetadataClient interface","ISpatialAudioMetadataClient interface [Core Audio]","ActivateSpatialAudioMetadataItems method","ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataItems","ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems","coreaudio.ispatialaudiometadataclient_activatespatialaudiometadataitems","spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataItems"]
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadataitems.htm
 tech.root: CoreAudio
 ms.assetid: 0788C3BE-1616-4C7B-8F47-B0C4E4034061

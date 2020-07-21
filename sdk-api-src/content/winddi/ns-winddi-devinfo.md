@@ -1,7 +1,8 @@
 ---
 UID: NS:winddi.tagDEVINFO
 title: DEVINFO (winddi.h)
-description: The DEVINFO structure provides information about the driver and its private PDEV to the graphics engine.helpviewer_keywords: ["*PDEVINFO","DEVINFO","DEVINFO structure [Display Devices]","PDEVINFO","PDEVINFO structure pointer [Display Devices]","display.devinfo","grstrcts_a5bb2e1a-5348-4453-a5ef-674b4693dbed.xml","winddi/DEVINFO","winddi/PDEVINFO"]
+description: The DEVINFO structure provides information about the driver and its private PDEV to the graphics engine.
+helpviewer_keywords: ["*PDEVINFO","DEVINFO","DEVINFO structure [Display Devices]","PDEVINFO","PDEVINFO structure pointer [Display Devices]","display.devinfo","grstrcts_a5bb2e1a-5348-4453-a5ef-674b4693dbed.xml","winddi/DEVINFO","winddi/PDEVINFO"]
 old-location: display\devinfo.htm
 tech.root: display
 ms.assetid: 5ba3e521-2e70-4a5b-979d-30a061275d42

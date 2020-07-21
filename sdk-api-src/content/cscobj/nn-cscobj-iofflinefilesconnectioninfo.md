@@ -1,7 +1,8 @@
 ---
 UID: NN:cscobj.IOfflineFilesConnectionInfo
 title: IOfflineFilesConnectionInfo (cscobj.h)
-description: Presents query and action capabilities associated with the online-offline transition behavior of Offline Files.helpviewer_keywords: ["IOfflineFilesConnectionInfo","IOfflineFilesConnectionInfo interface [Offline Files]","IOfflineFilesConnectionInfo interface [Offline Files]","described","cscobj/IOfflineFilesConnectionInfo","of.iofflinefilesconnectioninfo"]
+description: Presents query and action capabilities associated with the online-offline transition behavior of Offline Files.
+helpviewer_keywords: ["IOfflineFilesConnectionInfo","IOfflineFilesConnectionInfo interface [Offline Files]","IOfflineFilesConnectionInfo interface [Offline Files]","described","cscobj/IOfflineFilesConnectionInfo","of.iofflinefilesconnectioninfo"]
 old-location: of\iofflinefilesconnectioninfo.htm
 tech.root: offlinefiles
 ms.assetid: 923c5657-67e7-498a-a46b-97d44368cf3b

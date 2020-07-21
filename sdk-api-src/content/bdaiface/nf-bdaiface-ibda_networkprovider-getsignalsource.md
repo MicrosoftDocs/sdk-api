@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IBDA_NetworkProvider.GetSignalSource
 title: IBDA_NetworkProvider::GetSignalSource (bdaiface.h)
-description: The GetSignalSource method retrieves the signal source.helpviewer_keywords: ["GetSignalSource","GetSignalSource method [Microsoft TV Technologies]","GetSignalSource method [Microsoft TV Technologies]","IBDA_NetworkProvider interface","IBDA_NetworkProvider interface [Microsoft TV Technologies]","GetSignalSource method","IBDA_NetworkProvider.GetSignalSource","IBDA_NetworkProvider::GetSignalSource","IBDA_NetworkProviderGetSignalSource","bdaiface/IBDA_NetworkProvider::GetSignalSource","mstv.ibda_networkprovider_getsignalsource"]
+description: The GetSignalSource method retrieves the signal source.
+helpviewer_keywords: ["GetSignalSource","GetSignalSource method [Microsoft TV Technologies]","GetSignalSource method [Microsoft TV Technologies]","IBDA_NetworkProvider interface","IBDA_NetworkProvider interface [Microsoft TV Technologies]","GetSignalSource method","IBDA_NetworkProvider.GetSignalSource","IBDA_NetworkProvider::GetSignalSource","IBDA_NetworkProviderGetSignalSource","bdaiface/IBDA_NetworkProvider::GetSignalSource","mstv.ibda_networkprovider_getsignalsource"]
 old-location: mstv\ibda_networkprovider_getsignalsource.htm
 tech.root: mstv
 ms.assetid: 943b3c1f-4aea-4c16-b730-74b63397ad9f

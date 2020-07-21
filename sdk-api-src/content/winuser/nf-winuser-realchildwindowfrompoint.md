@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.RealChildWindowFromPoint
 title: RealChildWindowFromPoint function (winuser.h)
-description: Retrieves a handle to the child window at the specified point. The search is restricted to immediate child windows; grandchildren and deeper descendant windows are not searched.helpviewer_keywords: ["RealChildWindowFromPoint","RealChildWindowFromPoint function [Windows and Messages]","_win32_RealChildWindowFromPoint","_win32_realchildwindowfrompoint_cpp","winmsg.realchildwindowfrompoint","winui._win32_realchildwindowfrompoint","winuser/RealChildWindowFromPoint"]
+description: Retrieves a handle to the child window at the specified point. The search is restricted to immediate child windows; grandchildren and deeper descendant windows are not searched.
+helpviewer_keywords: ["RealChildWindowFromPoint","RealChildWindowFromPoint function [Windows and Messages]","_win32_RealChildWindowFromPoint","_win32_realchildwindowfrompoint_cpp","winmsg.realchildwindowfrompoint","winui._win32_realchildwindowfrompoint","winuser/RealChildWindowFromPoint"]
 old-location: winmsg\realchildwindowfrompoint.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\realchildwindowfrompoint.htm

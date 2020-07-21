@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.RemoveMenu
 title: RemoveMenu function (winuser.h)
-description: Deletes a menu item or detaches a submenu from the specified menu.helpviewer_keywords: ["MF_BYCOMMAND","MF_BYPOSITION","RemoveMenu","RemoveMenu function [Menus and Other Resources]","_win32_RemoveMenu","_win32_removemenu_cpp","menurc.removemenu","winui._win32_removemenu","winuser/RemoveMenu"]
+description: Deletes a menu item or detaches a submenu from the specified menu.
+helpviewer_keywords: ["MF_BYCOMMAND","MF_BYPOSITION","RemoveMenu","RemoveMenu function [Menus and Other Resources]","_win32_RemoveMenu","_win32_removemenu_cpp","menurc.removemenu","winui._win32_removemenu","winuser/RemoveMenu"]
 old-location: menurc\removemenu.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\removemenu.htm

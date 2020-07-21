@@ -1,7 +1,8 @@
 ---
 UID: NF:rtscom.IDynamicRenderer.ReleaseCachedData
 title: IDynamicRenderer::ReleaseCachedData (rtscom.h)
-description: Releases specified stroke data from the temporal data held by DynamicRenderer Class.helpviewer_keywords: ["691de815-a5be-4982-a59a-b904c070ede8","IDynamicRenderer interface [Tablet PC]","ReleaseCachedData method","IDynamicRenderer.ReleaseCachedData","IDynamicRenderer::ReleaseCachedData","ReleaseCachedData","ReleaseCachedData method [Tablet PC]","ReleaseCachedData method [Tablet PC]","IDynamicRenderer interface","rtscom/IDynamicRenderer::ReleaseCachedData","tablet.idynamicrenderer_releasecacheddata"]
+description: Releases specified stroke data from the temporal data held by DynamicRenderer Class.
+helpviewer_keywords: ["691de815-a5be-4982-a59a-b904c070ede8","IDynamicRenderer interface [Tablet PC]","ReleaseCachedData method","IDynamicRenderer.ReleaseCachedData","IDynamicRenderer::ReleaseCachedData","ReleaseCachedData","ReleaseCachedData method [Tablet PC]","ReleaseCachedData method [Tablet PC]","IDynamicRenderer interface","rtscom/IDynamicRenderer::ReleaseCachedData","tablet.idynamicrenderer_releasecacheddata"]
 old-location: tablet\idynamicrenderer_releasecacheddata.htm
 tech.root: tablet
 ms.assetid: 691de815-a5be-4982-a59a-b904c070ede8

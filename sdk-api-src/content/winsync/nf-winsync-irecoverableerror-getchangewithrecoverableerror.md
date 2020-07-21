@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.IRecoverableError.GetChangeWithRecoverableError
 title: IRecoverableError::GetChangeWithRecoverableError (winsync.h)
-description: Gets the item change that caused the error.helpviewer_keywords: ["GetChangeWithRecoverableError","GetChangeWithRecoverableError method [Windows Sync]","GetChangeWithRecoverableError method [Windows Sync]","IRecoverableError interface","IRecoverableError interface [Windows Sync]","GetChangeWithRecoverableError method","IRecoverableError.GetChangeWithRecoverableError","IRecoverableError::GetChangeWithRecoverableError","winsync.irecoverableerror_getchangewithrecoverableerror","winsync/IRecoverableError::GetChangeWithRecoverableError"]
+description: Gets the item change that caused the error.
+helpviewer_keywords: ["GetChangeWithRecoverableError","GetChangeWithRecoverableError method [Windows Sync]","GetChangeWithRecoverableError method [Windows Sync]","IRecoverableError interface","IRecoverableError interface [Windows Sync]","GetChangeWithRecoverableError method","IRecoverableError.GetChangeWithRecoverableError","IRecoverableError::GetChangeWithRecoverableError","winsync.irecoverableerror_getchangewithrecoverableerror","winsync/IRecoverableError::GetChangeWithRecoverableError"]
 old-location: winsync\irecoverableerror_getchangewithrecoverableerror.htm
 tech.root: winsync
 ms.assetid: c7ddc479-1428-43d9-9a26-4166cf4eec3d

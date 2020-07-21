@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFSensorProfileCollection.GetProfile
 title: IMFSensorProfileCollection::GetProfile (mfidl.h)
-description: Retrieves the specified profile.helpviewer_keywords: ["GetProfile","GetProfile method [Media Foundation]","GetProfile method [Media Foundation]","IMFSensorProfileCollection interface","IMFSensorProfileCollection interface [Media Foundation]","GetProfile method","IMFSensorProfileCollection.GetProfile","IMFSensorProfileCollection::GetProfile","mf.imfsensorprofilecollection_getprofile","mfidl/IMFSensorProfileCollection::GetProfile"]
+description: Retrieves the specified profile.
+helpviewer_keywords: ["GetProfile","GetProfile method [Media Foundation]","GetProfile method [Media Foundation]","IMFSensorProfileCollection interface","IMFSensorProfileCollection interface [Media Foundation]","GetProfile method","IMFSensorProfileCollection.GetProfile","IMFSensorProfileCollection::GetProfile","mf.imfsensorprofilecollection_getprofile","mfidl/IMFSensorProfileCollection::GetProfile"]
 old-location: mf\imfsensorprofilecollection_getprofile.htm
 tech.root: medfound
 ms.assetid: 3E229A12-D53A-493F-9EFB-EA28131ABB10

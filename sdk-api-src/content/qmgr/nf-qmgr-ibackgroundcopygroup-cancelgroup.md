@@ -1,7 +1,8 @@
 ---
 UID: NF:qmgr.IBackgroundCopyGroup.CancelGroup
 title: IBackgroundCopyGroup::CancelGroup (qmgr.h)
-description: Use the CancelGroup method to remove the group from the queue. Files completely downloaded before calling this method are available to the client. You can cancel a group at anytime; however, the group cannot be recovered once it is canceled.helpviewer_keywords: ["CancelGroup","CancelGroup method [BITS]","CancelGroup method [BITS]","IBackgroundCopyGroup interface","IBackgroundCopyGroup interface [BITS]","CancelGroup method","IBackgroundCopyGroup.CancelGroup","IBackgroundCopyGroup::CancelGroup","bits.ibackgroundcopygroup_cancelgroup","qmgr/IBackgroundCopyGroup::CancelGroup"]
+description: Use the CancelGroup method to remove the group from the queue. Files completely downloaded before calling this method are available to the client. You can cancel a group at anytime; however, the group cannot be recovered once it is canceled.
+helpviewer_keywords: ["CancelGroup","CancelGroup method [BITS]","CancelGroup method [BITS]","IBackgroundCopyGroup interface","IBackgroundCopyGroup interface [BITS]","CancelGroup method","IBackgroundCopyGroup.CancelGroup","IBackgroundCopyGroup::CancelGroup","bits.ibackgroundcopygroup_cancelgroup","qmgr/IBackgroundCopyGroup::CancelGroup"]
 old-location: bits\ibackgroundcopygroup_cancelgroup.htm
 tech.root: Bits
 ms.assetid: 4ef86db1-3dff-4345-a09a-efea8b6c8c8e

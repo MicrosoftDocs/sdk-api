@@ -1,7 +1,8 @@
 ---
 UID: NF:peninputpanel.IPenInputPanel.Refresh
 title: IPenInputPanel::Refresh (peninputpanel.h)
-description: Refresh is no longer available for use as of Windows XP Tablet PC Edition.helpviewer_keywords: ["7f135184-76cc-4636-8c20-db29ca7d5540","IPenInputPanel interface [Tablet PC]","Refresh method","IPenInputPanel.Refresh","IPenInputPanel::Refresh","Refresh","Refresh method [Tablet PC]","Refresh method [Tablet PC]","IPenInputPanel interface","peninputpanel/IPenInputPanel::Refresh","tablet.peninputpanel_refresh"]
+description: Refresh is no longer available for use as of Windows XP Tablet PC Edition.
+helpviewer_keywords: ["7f135184-76cc-4636-8c20-db29ca7d5540","IPenInputPanel interface [Tablet PC]","Refresh method","IPenInputPanel.Refresh","IPenInputPanel::Refresh","Refresh","Refresh method [Tablet PC]","Refresh method [Tablet PC]","IPenInputPanel interface","peninputpanel/IPenInputPanel::Refresh","tablet.peninputpanel_refresh"]
 old-location: tablet\peninputpanel_refresh.htm
 tech.root: tablet
 ms.assetid: 7f135184-76cc-4636-8c20-db29ca7d5540

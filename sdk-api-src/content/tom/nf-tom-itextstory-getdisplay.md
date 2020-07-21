@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextStory.GetDisplay
 title: ITextStory::GetDisplay (tom.h)
-description: Gets a new display for a story.helpviewer_keywords: ["GetDisplay","GetDisplay method [Windows Controls]","GetDisplay method [Windows Controls]","ITextStory interface","ITextStory interface [Windows Controls]","GetDisplay method","ITextStory.GetDisplay","ITextStory::GetDisplay","controls.itextstory_getdisplay","tom/ITextStory::GetDisplay"]
+description: Gets a new display for a story.
+helpviewer_keywords: ["GetDisplay","GetDisplay method [Windows Controls]","GetDisplay method [Windows Controls]","ITextStory interface","ITextStory interface [Windows Controls]","GetDisplay method","ITextStory.GetDisplay","ITextStory::GetDisplay","controls.itextstory_getdisplay","tom/ITextStory::GetDisplay"]
 old-location: controls\itextstory_getdisplay.htm
 tech.root: Controls
 ms.assetid: e9ea7fbc-b814-4dbd-ae8a-9e260b56abab

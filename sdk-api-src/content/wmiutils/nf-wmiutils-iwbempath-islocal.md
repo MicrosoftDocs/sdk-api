@@ -1,7 +1,8 @@
 ---
 UID: NF:wmiutils.IWbemPath.IsLocal
 title: IWbemPath::IsLocal (wmiutils.h)
-description: The IWbemPath::IsLocal method tests if the computer name passed in matches the computer name in the path, or if the server name in the path is NULL or &#0034;.&#0034;.helpviewer_keywords: ["IWbemPath interface [Windows Management Instrumentation]","IsLocal method","IWbemPath.IsLocal","IWbemPath::IsLocal","IsLocal","IsLocal method [Windows Management Instrumentation]","IsLocal method [Windows Management Instrumentation]","IWbemPath interface","_hmm_iwbempath_islocal","wmi.iwbempath_islocal","wmiutils/IWbemPath::IsLocal"]
+description: The IWbemPath::IsLocal method tests if the computer name passed in matches the computer name in the path, or if the server name in the path is NULL or &quot;.&quot;.
+helpviewer_keywords: ["IWbemPath interface [Windows Management Instrumentation]","IsLocal method","IWbemPath.IsLocal","IWbemPath::IsLocal","IsLocal","IsLocal method [Windows Management Instrumentation]","IsLocal method [Windows Management Instrumentation]","IWbemPath interface","_hmm_iwbempath_islocal","wmi.iwbempath_islocal","wmiutils/IWbemPath::IsLocal"]
 old-location: wmi\iwbempath_islocal.htm
 tech.root: WmiSdk
 ms.assetid: 28f33c70-095f-4bf0-98fa-29c5bb57f583

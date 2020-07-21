@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPClosedCaption2.getSAMILangName
 title: IWMPClosedCaption2::getSAMILangName (wmp.h)
-description: The getSAMILangName method retrieves the name of a language supported by the current SAMI file.helpviewer_keywords: ["IWMPClosedCaption2 interface [Windows Media Player]","getSAMILangName method","IWMPClosedCaption2.getSAMILangName","IWMPClosedCaption2::getSAMILangName","IWMPClosedCaption2getSAMILangName","getSAMILangName","getSAMILangName method [Windows Media Player]","getSAMILangName method [Windows Media Player]","IWMPClosedCaption2 interface","wmp.iwmpclosedcaption2_getsamilangname","wmp/IWMPClosedCaption2::getSAMILangName"]
+description: The getSAMILangName method retrieves the name of a language supported by the current SAMI file.
+helpviewer_keywords: ["IWMPClosedCaption2 interface [Windows Media Player]","getSAMILangName method","IWMPClosedCaption2.getSAMILangName","IWMPClosedCaption2::getSAMILangName","IWMPClosedCaption2getSAMILangName","getSAMILangName","getSAMILangName method [Windows Media Player]","getSAMILangName method [Windows Media Player]","IWMPClosedCaption2 interface","wmp.iwmpclosedcaption2_getsamilangname","wmp/IWMPClosedCaption2::getSAMILangName"]
 old-location: wmp\iwmpclosedcaption2_getsamilangname.htm
 tech.root: WMP
 ms.assetid: f2da5045-4000-46d8-a610-f5f80cb6f713

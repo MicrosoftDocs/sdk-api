@@ -1,7 +1,8 @@
 ---
 UID: NC:webapplication.UnregisterAuthoringClientFunctionType
 title: UnregisterAuthoringClientFunctionType (webapplication.h)
-description: Unregisters the application-defined function that was registered with the RegisterAuthoringClientFunctionType function. This function is called when the app host terminates.helpviewer_keywords: ["UnregisterAuthoringClientFunctionType","UnregisterAuthoringClientFunctionType callback","UnregisterAuthoringClientFunctionType callback function [Debugging Windows Store apps]","debug.unregisterauthoringclientfunctiontype","webapplication/UnregisterAuthoringClientFunctionType"]
+description: Unregisters the application-defined function that was registered with the RegisterAuthoringClientFunctionType function. This function is called when the app host terminates.
+helpviewer_keywords: ["UnregisterAuthoringClientFunctionType","UnregisterAuthoringClientFunctionType callback","UnregisterAuthoringClientFunctionType callback function [Debugging Windows Store apps]","debug.unregisterauthoringclientfunctiontype","webapplication/UnregisterAuthoringClientFunctionType"]
 old-location: debug\unregisterauthoringclientfunctiontype.htm
 tech.root: debug_wwahost
 ms.assetid: 2F48142B-88D2-49B7-9FAA-5D6BA4DC3837

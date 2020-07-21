@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFactory5.CreateInMemoryFontFileLoader
 title: IDWriteFactory5::CreateInMemoryFontFileLoader (dwrite_3.h)
-description: Creates a loader object that can be used to create font file references to in-memory fonts. The caller is responsible for registering and unregistering the loader.helpviewer_keywords: ["CreateInMemoryFontFileLoader","CreateInMemoryFontFileLoader method [Direct Write]","CreateInMemoryFontFileLoader method [Direct Write]","IDWriteFactory5 interface","IDWriteFactory5 interface [Direct Write]","CreateInMemoryFontFileLoader method","IDWriteFactory5.CreateInMemoryFontFileLoader","IDWriteFactory5::CreateInMemoryFontFileLoader","directwrite.idwritefactory5_createinmemoryfontfileloader","dwrite_3/IDWriteFactory5::CreateInMemoryFontFileLoader"]
+description: Creates a loader object that can be used to create font file references to in-memory fonts. The caller is responsible for registering and unregistering the loader.
+helpviewer_keywords: ["CreateInMemoryFontFileLoader","CreateInMemoryFontFileLoader method [Direct Write]","CreateInMemoryFontFileLoader method [Direct Write]","IDWriteFactory5 interface","IDWriteFactory5 interface [Direct Write]","CreateInMemoryFontFileLoader method","IDWriteFactory5.CreateInMemoryFontFileLoader","IDWriteFactory5::CreateInMemoryFontFileLoader","directwrite.idwritefactory5_createinmemoryfontfileloader","dwrite_3/IDWriteFactory5::CreateInMemoryFontFileLoader"]
 old-location: directwrite\idwritefactory5_createinmemoryfontfileloader.htm
 tech.root: DirectWrite
 ms.assetid: BA36B91C-C6B8-43B8-BEDA-0089FAE1BAAD

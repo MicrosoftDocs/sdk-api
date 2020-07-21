@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteLocalizedStrings.FindLocaleName
 title: IDWriteLocalizedStrings::FindLocaleName (dwrite.h)
-description: Gets the zero-based index of the locale name/string pair with the specified locale name.helpviewer_keywords: ["FindLocaleName","FindLocaleName method [Direct Write]","FindLocaleName method [Direct Write]","IDWriteLocalizedStrings interface","IDWriteLocalizedStrings interface [Direct Write]","FindLocaleName method","IDWriteLocalizedStrings.FindLocaleName","IDWriteLocalizedStrings::FindLocaleName","directwrite.IDWriteLocalizedStrings_FindLocaleName","dwrite/IDWriteLocalizedStrings::FindLocaleName"]
+description: Gets the zero-based index of the locale name/string pair with the specified locale name.
+helpviewer_keywords: ["FindLocaleName","FindLocaleName method [Direct Write]","FindLocaleName method [Direct Write]","IDWriteLocalizedStrings interface","IDWriteLocalizedStrings interface [Direct Write]","FindLocaleName method","IDWriteLocalizedStrings.FindLocaleName","IDWriteLocalizedStrings::FindLocaleName","directwrite.IDWriteLocalizedStrings_FindLocaleName","dwrite/IDWriteLocalizedStrings::FindLocaleName"]
 old-location: directwrite\IDWriteLocalizedStrings_FindLocaleName.htm
 tech.root: DirectWrite
 ms.assetid: d80032b2-304e-4c48-a7c7-fcda4305cca4

@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasInvokeEapUI
 title: RasInvokeEapUI function (ras.h)
-description: The RasInvokeEapUI function displays a custom user interface to obtain Extensible Authentication Protocol (EAP) information from the user.helpviewer_keywords: ["RasInvokeEapUI","RasInvokeEapUI function [RAS]","_ras_rasinvokeeapui","ras/RasInvokeEapUI","rras.rasinvokeeapui"]
+description: The RasInvokeEapUI function displays a custom user interface to obtain Extensible Authentication Protocol (EAP) information from the user.
+helpviewer_keywords: ["RasInvokeEapUI","RasInvokeEapUI function [RAS]","_ras_rasinvokeeapui","ras/RasInvokeEapUI","rras.rasinvokeeapui"]
 old-location: rras\rasinvokeeapui.htm
 tech.root: RRAS
 ms.assetid: 60661c23-3d6a-4b0c-9cc9-bf04ecea2425

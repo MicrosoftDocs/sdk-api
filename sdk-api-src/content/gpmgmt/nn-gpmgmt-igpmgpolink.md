@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMGPOLink
 title: IGPMGPOLink (gpmgmt.h)
-description: The IGPMGPOLink interface supports methods that allow you to remove a GPO link from the scope of management (SOM), and to set and retrieve various properties of GPO links, including enabling and enforcing links.helpviewer_keywords: ["GPMGPOLink","IGPMGPOLink","IGPMGPOLink interface [GPMC]","IGPMGPOLink interface [GPMC]","described","_win32_igpmgpolink","gpmc.igpmgpolink","gpmgmt/IGPMGPOLink"]
+description: The IGPMGPOLink interface supports methods that allow you to remove a GPO link from the scope of management (SOM), and to set and retrieve various properties of GPO links, including enabling and enforcing links.
+helpviewer_keywords: ["GPMGPOLink","IGPMGPOLink","IGPMGPOLink interface [GPMC]","IGPMGPOLink interface [GPMC]","described","_win32_igpmgpolink","gpmc.igpmgpolink","gpmgmt/IGPMGPOLink"]
 old-location: gpmc\igpmgpolink.htm
 tech.root: gpmc
 ms.assetid: 290a53fb-8be0-477d-837c-46251b30e245

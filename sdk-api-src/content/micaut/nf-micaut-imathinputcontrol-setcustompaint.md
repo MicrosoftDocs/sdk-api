@@ -1,7 +1,8 @@
 ---
 UID: NF:micaut.IMathInputControl.SetCustomPaint
 title: IMathInputControl::SetCustomPaint (micaut.h)
-description: Determines whether a button or background has custom painting.helpviewer_keywords: ["IMathInputControl interface [Tablet PC]","SetCustomPaint method","IMathInputControl.SetCustomPaint","IMathInputControl::SetCustomPaint","SetCustomPaint","SetCustomPaint method [Tablet PC]","SetCustomPaint method [Tablet PC]","IMathInputControl interface","micaut/IMathInputControl::SetCustomPaint","tablet.imathinputcontrol_setcustompaint"]
+description: Determines whether a button or background has custom painting.
+helpviewer_keywords: ["IMathInputControl interface [Tablet PC]","SetCustomPaint method","IMathInputControl.SetCustomPaint","IMathInputControl::SetCustomPaint","SetCustomPaint","SetCustomPaint method [Tablet PC]","SetCustomPaint method [Tablet PC]","IMathInputControl interface","micaut/IMathInputControl::SetCustomPaint","tablet.imathinputcontrol_setcustompaint"]
 old-location: tablet\imathinputcontrol_setcustompaint.htm
 tech.root: tablet
 ms.assetid: f734b73c-88a9-45d0-a657-ff048d1f5ffe

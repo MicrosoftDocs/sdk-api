@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess2.GetAccessEntryEx
 title: IWMAddressAccess2::GetAccessEntryEx (wmsdkidl.h)
-description: The GetAccessEntryEx method retrieves an entry from the IP address access list.helpviewer_keywords: ["GetAccessEntryEx","GetAccessEntryEx method [windows Media Format]","GetAccessEntryEx method [windows Media Format]","IWMAddressAccess2 interface","IWMAddressAccess2 interface [windows Media Format]","GetAccessEntryEx method","IWMAddressAccess2.GetAccessEntryEx","IWMAddressAccess2::GetAccessEntryEx","IWMAddressAccess2GetAccessEntryEx","wmformat.iwmaddressaccess2_getaccessentryex","wmsdkidl/IWMAddressAccess2::GetAccessEntryEx"]
+description: The GetAccessEntryEx method retrieves an entry from the IP address access list.
+helpviewer_keywords: ["GetAccessEntryEx","GetAccessEntryEx method [windows Media Format]","GetAccessEntryEx method [windows Media Format]","IWMAddressAccess2 interface","IWMAddressAccess2 interface [windows Media Format]","GetAccessEntryEx method","IWMAddressAccess2.GetAccessEntryEx","IWMAddressAccess2::GetAccessEntryEx","IWMAddressAccess2GetAccessEntryEx","wmformat.iwmaddressaccess2_getaccessentryex","wmsdkidl/IWMAddressAccess2::GetAccessEntryEx"]
 old-location: wmformat\iwmaddressaccess2_getaccessentryex.htm
 tech.root: wmformat
 ms.assetid: 477e6b28-bfa0-4ce9-b2e0-eb51eaba6476

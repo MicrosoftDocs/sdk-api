@@ -1,7 +1,8 @@
 ---
 UID: NF:libloaderapi.GetModuleHandleW
 title: GetModuleHandleW function (libloaderapi.h)
-description: Retrieves a module handle for the specified module. The module must have been loaded by the calling process.helpviewer_keywords: ["GetModuleHandle","GetModuleHandle function","GetModuleHandleA","GetModuleHandleW","_win32_getmodulehandle","base.getmodulehandle","libloaderapi/GetModuleHandle","libloaderapi/GetModuleHandleA","libloaderapi/GetModuleHandleW","winbase/GetModuleHandle","winbase/GetModuleHandleA","winbase/GetModuleHandleW"]
+description: Retrieves a module handle for the specified module. The module must have been loaded by the calling process.
+helpviewer_keywords: ["GetModuleHandle","GetModuleHandle function","GetModuleHandleA","GetModuleHandleW","_win32_getmodulehandle","base.getmodulehandle","libloaderapi/GetModuleHandle","libloaderapi/GetModuleHandleA","libloaderapi/GetModuleHandleW","winbase/GetModuleHandle","winbase/GetModuleHandleA","winbase/GetModuleHandleW"]
 old-location: base\getmodulehandle.htm
 tech.root: Dlls
 ms.assetid: 29514410-89fe-4888-8b34-0c30d5af237f
@@ -118,6 +119,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The libloaderapi.h header defines GetModuleHandle as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

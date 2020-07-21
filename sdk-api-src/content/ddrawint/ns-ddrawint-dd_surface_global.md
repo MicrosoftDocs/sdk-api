@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_SURFACE_GLOBAL
 title: DD_SURFACE_GLOBAL (ddrawint.h)
-description: The DD_SURFACE_GLOBAL structure contains global surface-related data that can be shared between multiple surfaces.helpviewer_keywords: ["*PDD_SURFACE_GLOBAL","DD_SURFACE_GLOBAL","DD_SURFACE_GLOBAL structure [Display Devices]","PDD_SURFACE_GLOBAL","PDD_SURFACE_GLOBAL structure pointer [Display Devices]","ddrawint/DD_SURFACE_GLOBAL","ddrawint/PDD_SURFACE_GLOBAL","ddstrcts_83ae0625-9b08-4380-bd3a-d8d67675a48b.xml","display.dd_surface_global"]
+description: The DD_SURFACE_GLOBAL structure contains global surface-related data that can be shared between multiple surfaces.
+helpviewer_keywords: ["*PDD_SURFACE_GLOBAL","DD_SURFACE_GLOBAL","DD_SURFACE_GLOBAL structure [Display Devices]","PDD_SURFACE_GLOBAL","PDD_SURFACE_GLOBAL structure pointer [Display Devices]","ddrawint/DD_SURFACE_GLOBAL","ddrawint/PDD_SURFACE_GLOBAL","ddstrcts_83ae0625-9b08-4380-bd3a-d8d67675a48b.xml","display.dd_surface_global"]
 old-location: display\dd_surface_global.htm
 tech.root: display
 ms.assetid: 11e0a6b9-16b9-4fc3-8e17-776f56c12196

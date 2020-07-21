@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_first_attributeA
 title: ldap_first_attributeA function (winldap.h)
-description: Returns the first attribute.helpviewer_keywords: ["_ldap_ldap_first_attribute","ldap.ldap__first__attribute","ldap.ldap_first_attribute","ldap_first_attribute","ldap_first_attribute function [LDAP]","ldap_first_attributeA","ldap_first_attributeW","winldap/ldap_first_attribute","winldap/ldap_first_attributeA","winldap/ldap_first_attributeW"]
+description: Returns the first attribute.
+helpviewer_keywords: ["_ldap_ldap_first_attribute","ldap.ldap__first__attribute","ldap.ldap_first_attribute","ldap_first_attribute","ldap_first_attribute function [LDAP]","ldap_first_attributeA","ldap_first_attributeW","winldap/ldap_first_attribute","winldap/ldap_first_attributeA","winldap/ldap_first_attributeW"]
 old-location: ldap\ldap_first_attribute.htm
 tech.root: ldap
 ms.assetid: 2a654ef4-519f-41a7-943e-3befe5c932e8

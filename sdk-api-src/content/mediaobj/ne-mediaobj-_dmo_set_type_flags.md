@@ -1,7 +1,8 @@
 ---
 UID: NE:mediaobj._DMO_SET_TYPE_FLAGS
 title: "_DMO_SET_TYPE_FLAGS (mediaobj.h)"
-description: The DMO_SET_TYPE_FLAGS enumeration defines flags for setting the media type on a stream.helpviewer_keywords: ["DMO_SET_TYPEF_CLEAR","DMO_SET_TYPEF_TEST_ONLY","DMO_SET_TYPE_FLAGS","DMO_SET_TYPE_FLAGSEnumeration","_DMO_SET_TYPE_FLAGS","_DMO_SET_TYPE_FLAGS enumeration [DirectShow]","dshow.dmo_set_type_flags","mediaobj/DMO_SET_TYPEF_CLEAR","mediaobj/DMO_SET_TYPEF_TEST_ONLY","mediaobj/_DMO_SET_TYPE_FLAGS"]
+description: The DMO_SET_TYPE_FLAGS enumeration defines flags for setting the media type on a stream.
+helpviewer_keywords: ["DMO_SET_TYPEF_CLEAR","DMO_SET_TYPEF_TEST_ONLY","DMO_SET_TYPE_FLAGS","DMO_SET_TYPE_FLAGSEnumeration","_DMO_SET_TYPE_FLAGS","_DMO_SET_TYPE_FLAGS enumeration [DirectShow]","dshow.dmo_set_type_flags","mediaobj/DMO_SET_TYPEF_CLEAR","mediaobj/DMO_SET_TYPEF_TEST_ONLY","mediaobj/_DMO_SET_TYPE_FLAGS"]
 old-location: dshow\dmo_set_type_flags.htm
 tech.root: DirectShow
 ms.assetid: e0638668-bbd2-4696-8482-d72438510740

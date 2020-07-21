@@ -1,7 +1,8 @@
 ---
 UID: NN:cluadmex.IWEExtendPropertySheet
 title: IWEExtendPropertySheet (cluadmex.h)
-description: Implement the IWEExtendPropertySheet interface to create property sheet pages for a cluster object and add them to a Failover Cluster Administrator property sheet.helpviewer_keywords: ["IWEExtendPropertySheet","IWEExtendPropertySheet interface [Failover Cluster]","IWEExtendPropertySheet interface [Failover Cluster]","described","_wolf_iweextendpropertysheet","cluadmex/IWEExtendPropertySheet","mscs.iweextendpropertysheet"]
+description: Implement the IWEExtendPropertySheet interface to create property sheet pages for a cluster object and add them to a Failover Cluster Administrator property sheet.
+helpviewer_keywords: ["IWEExtendPropertySheet","IWEExtendPropertySheet interface [Failover Cluster]","IWEExtendPropertySheet interface [Failover Cluster]","described","_wolf_iweextendpropertysheet","cluadmex/IWEExtendPropertySheet","mscs.iweextendpropertysheet"]
 old-location: mscs\iweextendpropertysheet.htm
 tech.root: MsCS
 ms.assetid: 1f2b7760-24d3-44a7-96a0-87e153b4bf92

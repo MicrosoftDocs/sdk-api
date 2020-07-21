@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsLunNaming.SetFriendlyName
 title: IVdsLunNaming::SetFriendlyName (vds.h)
-description: Sets the friendly name of a LUN.helpviewer_keywords: ["IVdsLunNaming interface [VDS]","SetFriendlyName method","IVdsLunNaming.SetFriendlyName","IVdsLunNaming::SetFriendlyName","SetFriendlyName","SetFriendlyName method [VDS]","SetFriendlyName method [VDS]","IVdsLunNaming interface","base.ivdslunnaming_setfriendlyname","vds/IVdsLunNaming::SetFriendlyName","vdshwprv/IVdsLunNaming::SetFriendlyName"]
+description: Sets the friendly name of a LUN.
+helpviewer_keywords: ["IVdsLunNaming interface [VDS]","SetFriendlyName method","IVdsLunNaming.SetFriendlyName","IVdsLunNaming::SetFriendlyName","SetFriendlyName","SetFriendlyName method [VDS]","SetFriendlyName method [VDS]","IVdsLunNaming interface","base.ivdslunnaming_setfriendlyname","vds/IVdsLunNaming::SetFriendlyName","vdshwprv/IVdsLunNaming::SetFriendlyName"]
 old-location: base\ivdslunnaming_setfriendlyname.htm
 tech.root: VDS
 ms.assetid: 233b19f6-dd0e-4033-a03d-0f1f597287a1

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10.ID3D10Device.CreateDepthStencilState
 title: ID3D10Device::CreateDepthStencilState (d3d10.h)
-description: Create a depth-stencil state object that encapsulates depth-stencil test information for the output-merger stage.helpviewer_keywords: ["CreateDepthStencilState","CreateDepthStencilState method [Direct3D 10]","CreateDepthStencilState method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateDepthStencilState method","ID3D10Device.CreateDepthStencilState","ID3D10Device::CreateDepthStencilState","a3a47d35-efaa-1c5f-3cb4-492e0e20a0b0","d3d10/ID3D10Device::CreateDepthStencilState","direct3d10.id3d10device_createdepthstencilstate"]
+description: Create a depth-stencil state object that encapsulates depth-stencil test information for the output-merger stage.
+helpviewer_keywords: ["CreateDepthStencilState","CreateDepthStencilState method [Direct3D 10]","CreateDepthStencilState method [Direct3D 10]","ID3D10Device interface","ID3D10Device interface [Direct3D 10]","CreateDepthStencilState method","ID3D10Device.CreateDepthStencilState","ID3D10Device::CreateDepthStencilState","a3a47d35-efaa-1c5f-3cb4-492e0e20a0b0","d3d10/ID3D10Device::CreateDepthStencilState","direct3d10.id3d10device_createdepthstencilstate"]
 old-location: direct3d10\id3d10device_createdepthstencilstate.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10device_createdepthstencilstate.htm

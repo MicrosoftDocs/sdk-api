@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMGradientStopCollection
 title: IXpsOMGradientStopCollection (xpsobjectmodel.h)
-description: A collection of IXpsOMGradientStop interface pointers.helpviewer_keywords: ["IXpsOMGradientStopCollection","IXpsOMGradientStopCollection interface [XPS Documents and Packaging]","IXpsOMGradientStopCollection interface [XPS Documents and Packaging]","described","xps.ixpsomgradientstopcollection","xpsobjectmodel/IXpsOMGradientStopCollection"]
+description: A collection of IXpsOMGradientStop interface pointers.
+helpviewer_keywords: ["IXpsOMGradientStopCollection","IXpsOMGradientStopCollection interface [XPS Documents and Packaging]","IXpsOMGradientStopCollection interface [XPS Documents and Packaging]","described","xps.ixpsomgradientstopcollection","xpsobjectmodel/IXpsOMGradientStopCollection"]
 old-location: xps\ixpsomgradientstopcollection.htm
 tech.root: printdocs
 ms.assetid: 1f51f818-e9bb-4d88-9795-4e6890d24b8c

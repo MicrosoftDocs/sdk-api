@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxFactory2.CreateContentGroupMapReader
 title: IAppxFactory2::CreateContentGroupMapReader (appxpackaging.h)
-description: Creates an IAppxContentGroupMapReader.helpviewer_keywords: ["CreateContentGroupMapReader","CreateContentGroupMapReader method [App packaging and management]","CreateContentGroupMapReader method [App packaging and management]","IAppxFactory2 interface","IAppxFactory2 interface [App packaging and management]","CreateContentGroupMapReader method","IAppxFactory2.CreateContentGroupMapReader","IAppxFactory2::CreateContentGroupMapReader","appxpackaging/IAppxFactory2::CreateContentGroupMapReader","appxpkg.iappxfactory2_createcontentgroupmapreader"]
+description: Creates an IAppxContentGroupMapReader.
+helpviewer_keywords: ["CreateContentGroupMapReader","CreateContentGroupMapReader method [App packaging and management]","CreateContentGroupMapReader method [App packaging and management]","IAppxFactory2 interface","IAppxFactory2 interface [App packaging and management]","CreateContentGroupMapReader method","IAppxFactory2.CreateContentGroupMapReader","IAppxFactory2::CreateContentGroupMapReader","appxpackaging/IAppxFactory2::CreateContentGroupMapReader","appxpkg.iappxfactory2_createcontentgroupmapreader"]
 old-location: appxpkg\iappxfactory2_createcontentgroupmapreader.htm
 tech.root: appxpkg
 ms.assetid: 42453BD7-AB65-49E0-86C0-4F96B4234397

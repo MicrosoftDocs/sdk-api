@@ -1,7 +1,8 @@
 ---
 UID: NN:wmcontainer.IMFASFIndexer
 title: IMFASFIndexer (wmcontainer.h)
-description: Provides methods to work with indexes in Systems Format (ASF) files.helpviewer_keywords: ["93127fe4-bca9-4674-ae21-012367d7dd2f","IMFASFIndexer","IMFASFIndexer interface [Media Foundation]","IMFASFIndexer interface [Media Foundation]","described","mf.imfasfindexer","wmcontainer/IMFASFIndexer"]
+description: Provides methods to work with indexes in Systems Format (ASF) files.
+helpviewer_keywords: ["93127fe4-bca9-4674-ae21-012367d7dd2f","IMFASFIndexer","IMFASFIndexer interface [Media Foundation]","IMFASFIndexer interface [Media Foundation]","described","mf.imfasfindexer","wmcontainer/IMFASFIndexer"]
 old-location: mf\imfasfindexer.htm
 tech.root: medfound
 ms.assetid: 93127fe4-bca9-4674-ae21-012367d7dd2f

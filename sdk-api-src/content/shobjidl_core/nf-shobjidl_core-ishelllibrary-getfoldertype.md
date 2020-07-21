@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetFolderType
 title: IShellLibrary::GetFolderType (shobjidl_core.h)
-description: Gets the library's folder type.helpviewer_keywords: ["GetFolderType","GetFolderType method [Windows Shell]","GetFolderType method [Windows Shell]","IShellLibrary interface","IShellLibrary interface [Windows Shell]","GetFolderType method","IShellLibrary.GetFolderType","IShellLibrary::GetFolderType","_shell_IShellLibrary_GetFolderType","shell.IShellLibrary_GetFolderType","shobjidl_core/IShellLibrary::GetFolderType"]
+description: Gets the library's folder type.
+helpviewer_keywords: ["GetFolderType","GetFolderType method [Windows Shell]","GetFolderType method [Windows Shell]","IShellLibrary interface","IShellLibrary interface [Windows Shell]","GetFolderType method","IShellLibrary.GetFolderType","IShellLibrary::GetFolderType","_shell_IShellLibrary_GetFolderType","shell.IShellLibrary_GetFolderType","shobjidl_core/IShellLibrary::GetFolderType"]
 old-location: shell\IShellLibrary_GetFolderType.htm
 tech.root: shell
 ms.assetid: 450ee4cc-5a09-4f14-832a-3982ec9de03b

@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMBackupRestoreProps
 title: IWMBackupRestoreProps (wmsdkidl.h)
-description: The IWMBackupRestoreProps interface sets and retrieves properties required by the IWMLicenseBackup and IWMLicenseRestore interfaces.helpviewer_keywords: ["IWMBackupRestoreProps","IWMBackupRestoreProps interface [windows Media Format]","IWMBackupRestoreProps interface [windows Media Format]","described","IWMBackupRestorePropsInterface","wmformat.iwmbackuprestoreprops","wmsdkidl/IWMBackupRestoreProps"]
+description: The IWMBackupRestoreProps interface sets and retrieves properties required by the IWMLicenseBackup and IWMLicenseRestore interfaces.
+helpviewer_keywords: ["IWMBackupRestoreProps","IWMBackupRestoreProps interface [windows Media Format]","IWMBackupRestoreProps interface [windows Media Format]","described","IWMBackupRestorePropsInterface","wmformat.iwmbackuprestoreprops","wmsdkidl/IWMBackupRestoreProps"]
 old-location: wmformat\iwmbackuprestoreprops.htm
 tech.root: wmformat
 ms.assetid: 3a5af1f3-e652-4729-931b-d0702af408f3

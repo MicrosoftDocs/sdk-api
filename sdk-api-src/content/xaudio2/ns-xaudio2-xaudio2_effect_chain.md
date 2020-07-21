@@ -1,7 +1,8 @@
 ---
 UID: NS:xaudio2.XAUDIO2_EFFECT_CHAIN
 title: XAUDIO2_EFFECT_CHAIN (xaudio2.h)
-description: Defines an effect chain.helpviewer_keywords: ["XAUDIO2_EFFECT_CHAIN","XAUDIO2_EFFECT_CHAIN structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_effect_chain","xaudio2/XAUDIO2_EFFECT_CHAIN"]
+description: Defines an effect chain.
+helpviewer_keywords: ["XAUDIO2_EFFECT_CHAIN","XAUDIO2_EFFECT_CHAIN structure [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2_effect_chain","xaudio2/XAUDIO2_EFFECT_CHAIN"]
 old-location: xaudio2\xaudio2_effect_chain.htm
 tech.root: xaudio2
 ms.assetid: T:Microsoft.directx_sdk.xaudio2.XAUDIO2_EFFECT_CHAIN

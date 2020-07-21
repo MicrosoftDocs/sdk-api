@@ -1,7 +1,8 @@
 ---
 UID: NN:ocidl.IOleUndoManager
 title: IOleUndoManager (ocidl.h)
-description: The IOleUndoManager interface enables containers to implement multi-level undo and redo operations for actions that occur within contained controls.helpviewer_keywords: ["IOleUndoManager","IOleUndoManager interface [COM]","IOleUndoManager interface [COM]","described","_ole_ioleundomanager","com.ioleundomanager","ocidl/IOleUndoManager"]
+description: The IOleUndoManager interface enables containers to implement multi-level undo and redo operations for actions that occur within contained controls.
+helpviewer_keywords: ["IOleUndoManager","IOleUndoManager interface [COM]","IOleUndoManager interface [COM]","described","_ole_ioleundomanager","com.ioleundomanager","ocidl/IOleUndoManager"]
 old-location: com\ioleundomanager.htm
 tech.root: com
 ms.assetid: 0f507506-3589-4d5b-b1b3-010bce9ae42f

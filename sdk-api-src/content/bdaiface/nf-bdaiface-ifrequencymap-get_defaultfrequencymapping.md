@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IFrequencyMap.get_DefaultFrequencyMapping
 title: IFrequencyMap::get_DefaultFrequencyMapping (bdaiface.h)
-description: The get_DefaultFrequencyMapping method returns the default frequency table for a given country/region code.helpviewer_keywords: ["IFrequencyMap interface [Microsoft TV Technologies]","get_DefaultFrequencyMapping method","IFrequencyMap.get_DefaultFrequencyMapping","IFrequencyMap::get_DefaultFrequencyMapping","IFrequencyMapget_DefaultMapping","bdaiface/IFrequencyMap::get_DefaultFrequencyMapping","get_DefaultFrequencyMapping","get_DefaultFrequencyMapping method [Microsoft TV Technologies]","get_DefaultFrequencyMapping method [Microsoft TV Technologies]","IFrequencyMap interface","mstv.ifrequencymap_get_defaultfrequencymapping"]
+description: The get_DefaultFrequencyMapping method returns the default frequency table for a given country/region code.
+helpviewer_keywords: ["IFrequencyMap interface [Microsoft TV Technologies]","get_DefaultFrequencyMapping method","IFrequencyMap.get_DefaultFrequencyMapping","IFrequencyMap::get_DefaultFrequencyMapping","IFrequencyMapget_DefaultMapping","bdaiface/IFrequencyMap::get_DefaultFrequencyMapping","get_DefaultFrequencyMapping","get_DefaultFrequencyMapping method [Microsoft TV Technologies]","get_DefaultFrequencyMapping method [Microsoft TV Technologies]","IFrequencyMap interface","mstv.ifrequencymap_get_defaultfrequencymapping"]
 old-location: mstv\ifrequencymap_get_defaultfrequencymapping.htm
 tech.root: mstv
 ms.assetid: 67057c70-cb4d-4828-ad97-cf0181bd8cfe

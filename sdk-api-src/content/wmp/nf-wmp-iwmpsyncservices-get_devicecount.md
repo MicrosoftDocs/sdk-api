@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPSyncServices.get_deviceCount
 title: IWMPSyncServices::get_deviceCount (wmp.h)
-description: The get_deviceCount method retrieves the number of available devices.helpviewer_keywords: ["IWMPSyncServices interface [Windows Media Player]","get_deviceCount method","IWMPSyncServices.get_deviceCount","IWMPSyncServices::get_deviceCount","IWMPSyncServicesget_deviceCount","get_deviceCount","get_deviceCount method [Windows Media Player]","get_deviceCount method [Windows Media Player]","IWMPSyncServices interface","wmp.iwmpsyncservices_get_devicecount","wmp/IWMPSyncServices::get_deviceCount"]
+description: The get_deviceCount method retrieves the number of available devices.
+helpviewer_keywords: ["IWMPSyncServices interface [Windows Media Player]","get_deviceCount method","IWMPSyncServices.get_deviceCount","IWMPSyncServices::get_deviceCount","IWMPSyncServicesget_deviceCount","get_deviceCount","get_deviceCount method [Windows Media Player]","get_deviceCount method [Windows Media Player]","IWMPSyncServices interface","wmp.iwmpsyncservices_get_devicecount","wmp/IWMPSyncServices::get_deviceCount"]
 old-location: wmp\iwmpsyncservices_get_devicecount.htm
 tech.root: WMP
 ms.assetid: dde5b3c8-ea22-403c-ae69-05dc7f2efdda

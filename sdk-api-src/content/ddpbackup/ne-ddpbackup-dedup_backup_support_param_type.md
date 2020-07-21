@@ -1,7 +1,8 @@
 ---
 UID: NE:ddpbackup._DEDUP_BACKUP_SUPPORT_PARAM_TYPE
 title: DEDUP_BACKUP_SUPPORT_PARAM_TYPE (ddpbackup.h)
-description: Indicates whether Data Deduplication should perform an unoptimized or optimized restore.helpviewer_keywords: ["DEDUP_BACKUP_SUPPORT_PARAM_TYPE","DEDUP_BACKUP_SUPPORT_PARAM_TYPE enumeration [Data Deduplication API]","DEDUP_RECONSTRUCT_OPTIMIZED","DEDUP_RECONSTRUCT_UNOPTIMIZED","ddpbackup/DEDUP_BACKUP_SUPPORT_PARAM_TYPE","ddpbackup/DEDUP_RECONSTRUCT_OPTIMIZED","ddpbackup/DEDUP_RECONSTRUCT_UNOPTIMIZED","dedup.dedup_backup_support_param_type"]
+description: Indicates whether Data Deduplication should perform an unoptimized or optimized restore.
+helpviewer_keywords: ["DEDUP_BACKUP_SUPPORT_PARAM_TYPE","DEDUP_BACKUP_SUPPORT_PARAM_TYPE enumeration [Data Deduplication API]","DEDUP_RECONSTRUCT_OPTIMIZED","DEDUP_RECONSTRUCT_UNOPTIMIZED","ddpbackup/DEDUP_BACKUP_SUPPORT_PARAM_TYPE","ddpbackup/DEDUP_RECONSTRUCT_OPTIMIZED","ddpbackup/DEDUP_RECONSTRUCT_UNOPTIMIZED","dedup.dedup_backup_support_param_type"]
 old-location: dedup\dedup_backup_support_param_type.htm
 tech.root: dedup
 ms.assetid: 654663C4-1E28-435A-9D81-1E390BC66B62

@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509PolicyServerUrl.UpdateRegistry
 title: IX509PolicyServerUrl::UpdateRegistry (certenroll.h)
-description: Registers a certificate enrollment policy (CEP) server.helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509PolicyServerUrl interface [Security]","UpdateRegistry method","IX509PolicyServerUrl.UpdateRegistry","IX509PolicyServerUrl::UpdateRegistry","UpdateRegistry","UpdateRegistry method [Security]","UpdateRegistry method [Security]","IX509PolicyServerUrl interface","certenroll/IX509PolicyServerUrl::UpdateRegistry","security.ix509policyserverurl_updateregistry"]
+description: Registers a certificate enrollment policy (CEP) server.
+helpviewer_keywords: ["ContextAdministratorForceMachine","ContextMachine","ContextUser","IX509PolicyServerUrl interface [Security]","UpdateRegistry method","IX509PolicyServerUrl.UpdateRegistry","IX509PolicyServerUrl::UpdateRegistry","UpdateRegistry","UpdateRegistry method [Security]","UpdateRegistry method [Security]","IX509PolicyServerUrl interface","certenroll/IX509PolicyServerUrl::UpdateRegistry","security.ix509policyserverurl_updateregistry"]
 old-location: security\ix509policyserverurl_updateregistry.htm
 tech.root: seccertenroll
 ms.assetid: dfb43979-a630-497d-96eb-f2bd701b5e09

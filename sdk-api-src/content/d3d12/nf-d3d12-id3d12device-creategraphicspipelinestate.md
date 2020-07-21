@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d12.ID3D12Device.CreateGraphicsPipelineState
 title: ID3D12Device::CreateGraphicsPipelineState (d3d12.h)
-description: Creates a graphics pipeline state object.helpviewer_keywords: ["CreateGraphicsPipelineState","CreateGraphicsPipelineState method","CreateGraphicsPipelineState method","ID3D12Device interface","ID3D12Device interface","CreateGraphicsPipelineState method","ID3D12Device.CreateGraphicsPipelineState","ID3D12Device::CreateGraphicsPipelineState","d3d12/ID3D12Device::CreateGraphicsPipelineState","direct3d12.id3d12device_creategraphicspipelinestate","direct3d12.id3d12device_createpipelinestate"]
+description: Creates a graphics pipeline state object.
+helpviewer_keywords: ["CreateGraphicsPipelineState","CreateGraphicsPipelineState method","CreateGraphicsPipelineState method","ID3D12Device interface","ID3D12Device interface","CreateGraphicsPipelineState method","ID3D12Device.CreateGraphicsPipelineState","ID3D12Device::CreateGraphicsPipelineState","d3d12/ID3D12Device::CreateGraphicsPipelineState","direct3d12.id3d12device_creategraphicspipelinestate","direct3d12.id3d12device_createpipelinestate"]
 old-location: direct3d12\id3d12device_creategraphicspipelinestate.htm
 tech.root: direct3d12
 ms.assetid: E35FCC4A-7527-4A6C-8569-0801A06AA427

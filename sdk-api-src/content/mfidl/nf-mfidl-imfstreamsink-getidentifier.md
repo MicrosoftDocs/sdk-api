@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFStreamSink.GetIdentifier
 title: IMFStreamSink::GetIdentifier (mfidl.h)
-description: Retrieves the stream identifier for this stream sink.helpviewer_keywords: ["GetIdentifier","GetIdentifier method [Media Foundation]","GetIdentifier method [Media Foundation]","IMFStreamSink interface","IMFStreamSink interface [Media Foundation]","GetIdentifier method","IMFStreamSink.GetIdentifier","IMFStreamSink::GetIdentifier","af4855f6-36fa-4949-8b93-9e630a12e71b","mf.imfstreamsink_getidentifier","mfidl/IMFStreamSink::GetIdentifier"]
+description: Retrieves the stream identifier for this stream sink.
+helpviewer_keywords: ["GetIdentifier","GetIdentifier method [Media Foundation]","GetIdentifier method [Media Foundation]","IMFStreamSink interface","IMFStreamSink interface [Media Foundation]","GetIdentifier method","IMFStreamSink.GetIdentifier","IMFStreamSink::GetIdentifier","af4855f6-36fa-4949-8b93-9e630a12e71b","mf.imfstreamsink_getidentifier","mfidl/IMFStreamSink::GetIdentifier"]
 old-location: mf\imfstreamsink_getidentifier.htm
 tech.root: medfound
 ms.assetid: af4855f6-36fa-4949-8b93-9e630a12e71b

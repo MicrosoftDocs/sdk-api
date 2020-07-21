@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMIndexer.StartIndexing
 title: IWMIndexer::StartIndexing (wmsdkidl.h)
-description: The StartIndexing method initiates indexing.helpviewer_keywords: ["IWMIndexer interface [windows Media Format]","StartIndexing method","IWMIndexer.StartIndexing","IWMIndexer::StartIndexing","IWMIndexerStartIndexing","StartIndexing","StartIndexing method [windows Media Format]","StartIndexing method [windows Media Format]","IWMIndexer interface","wmformat.iwmindexer_startindexing","wmsdkidl/IWMIndexer::StartIndexing"]
+description: The StartIndexing method initiates indexing.
+helpviewer_keywords: ["IWMIndexer interface [windows Media Format]","StartIndexing method","IWMIndexer.StartIndexing","IWMIndexer::StartIndexing","IWMIndexerStartIndexing","StartIndexing","StartIndexing method [windows Media Format]","StartIndexing method [windows Media Format]","IWMIndexer interface","wmformat.iwmindexer_startindexing","wmsdkidl/IWMIndexer::StartIndexing"]
 old-location: wmformat\iwmindexer_startindexing.htm
 tech.root: wmformat
 ms.assetid: 67dfb0df-4883-49e1-a085-0b78db3967d0

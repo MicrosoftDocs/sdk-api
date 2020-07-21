@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_SETOVERLAYPOSITIONDATA
 title: DD_SETOVERLAYPOSITIONDATA (ddrawint.h)
-description: The DD_SETOVERLAYPOSITIONDATA structure contains information necessary to change the display coordinates of an overlay surface.helpviewer_keywords: ["*PDD_SETOVERLAYPOSITIONDATA","DD_SETOVERLAYPOSITIONDATA","DD_SETOVERLAYPOSITIONDATA structure [Display Devices]","ddrawint/DD_SETOVERLAYPOSITIONDATA","ddstrcts_963680b2-05c1-4f15-959c-c38a8141541b.xml","display.dd_setoverlaypositiondata"]
+description: The DD_SETOVERLAYPOSITIONDATA structure contains information necessary to change the display coordinates of an overlay surface.
+helpviewer_keywords: ["*PDD_SETOVERLAYPOSITIONDATA","DD_SETOVERLAYPOSITIONDATA","DD_SETOVERLAYPOSITIONDATA structure [Display Devices]","ddrawint/DD_SETOVERLAYPOSITIONDATA","ddstrcts_963680b2-05c1-4f15-959c-c38a8141541b.xml","display.dd_setoverlaypositiondata"]
 old-location: display\dd_setoverlaypositiondata.htm
 tech.root: display
 ms.assetid: edfcbe23-81af-41fb-b29e-cd6e2da4d603

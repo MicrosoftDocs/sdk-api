@@ -1,7 +1,8 @@
 ---
 UID: NN:tsgpolicyengine.ITSGAuthorizeResourceSink
 title: ITSGAuthorizeResourceSink (tsgpolicyengine.h)
-description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.helpviewer_keywords: ["ITSGAuthorizeResourceSink","ITSGAuthorizeResourceSink interface [Remote Desktop Services]","ITSGAuthorizeResourceSink interface [Remote Desktop Services]","described","termserv.itsgauthorizeresourcesink","tsgpolicyengine/ITSGAuthorizeResourceSink"]
+description: Exposes methods that notify Remote Desktop Gateway (RD Gateway) about the result of an attempt to authorize a resource.
+helpviewer_keywords: ["ITSGAuthorizeResourceSink","ITSGAuthorizeResourceSink interface [Remote Desktop Services]","ITSGAuthorizeResourceSink interface [Remote Desktop Services]","described","termserv.itsgauthorizeresourcesink","tsgpolicyengine/ITSGAuthorizeResourceSink"]
 old-location: termserv\itsgauthorizeresourcesink.htm
 tech.root: TermServ
 ms.assetid: 4656064a-41d9-428c-8260-24eea0ee83cc

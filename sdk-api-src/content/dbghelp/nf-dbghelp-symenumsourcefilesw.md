@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymEnumSourceFilesW
 title: SymEnumSourceFilesW function (dbghelp.h)
-description: Enumerates all source files in a process.helpviewer_keywords: ["SymEnumSourceFiles","SymEnumSourceFiles function","SymEnumSourceFilesW","base.symenumsourcefiles","dbghelp/SymEnumSourceFiles","dbghelp/SymEnumSourceFilesW"]
+description: Enumerates all source files in a process.
+helpviewer_keywords: ["SymEnumSourceFiles","SymEnumSourceFiles function","SymEnumSourceFilesW","base.symenumsourcefiles","dbghelp/SymEnumSourceFiles","dbghelp/SymEnumSourceFilesW"]
 old-location: base\symenumsourcefiles.htm
 tech.root: Debug
 ms.assetid: 4649bdc6-74c5-4529-bedc-64e0277144d0
@@ -110,6 +111,10 @@ All DbgHelp functions, such as this one, are single threaded. Therefore, calls f
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymEnumSourceFiles as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

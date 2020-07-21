@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.CreateWindowA
 title: CreateWindowA macro (winuser.h)
-description: Creates an overlapped, pop-up, or child window.helpviewer_keywords: ["CreateWindow","CreateWindow function [Windows and Messages]","CreateWindowA","CreateWindowW","_win32_CreateWindow","_win32_createwindow_cpp","winmsg.createwindow","winui._win32_createwindow","winuser/CreateWindow","winuser/CreateWindowA","winuser/CreateWindowW"]
+description: Creates an overlapped, pop-up, or child window.
+helpviewer_keywords: ["CreateWindow","CreateWindow function [Windows and Messages]","CreateWindowA","CreateWindowW","_win32_CreateWindow","_win32_createwindow_cpp","winmsg.createwindow","winui._win32_createwindow","winuser/CreateWindow","winuser/CreateWindowA","winuser/CreateWindowW"]
 old-location: winmsg\createwindow.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\createwindow.htm
@@ -273,6 +274,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/winmsg/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CreateWindow as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NE:dhcpsapi._DHCP_OPTION_DATA_TYPE
 title: DHCP_OPTION_DATA_TYPE (dhcpsapi.h)
-description: The DHCP_OPTION_DATA_TYPE enumeration defines the set of formats that represent DHCP option data.helpviewer_keywords: ["*LPDHCP_OPTION_DATA_TYPE","DHCP_OPTION_DATA_TYPE","DHCP_OPTION_DATA_TYPE enumeration [DHCP]","DhcpBinaryDataOption","DhcpByteOption","DhcpDWordDWordOption","DhcpDWordOption","DhcpEncapsulatedDataOption","DhcpIpAddressOption","DhcpIpv6AddressOption","DhcpStringDataOption","DhcpWordOption","LPDHCP_OPTION_DATA_TYPE","LPDHCP_OPTION_DATA_TYPE enumeration pointer [DHCP]","dhcp.dhcp_option_data_type","dhcpsapi/DHCP_OPTION_DATA_TYPE","dhcpsapi/DhcpBinaryDataOption","dhcpsapi/DhcpByteOption","dhcpsapi/DhcpDWordDWordOption","dhcpsapi/DhcpDWordOption","dhcpsapi/DhcpEncapsulatedDataOption","dhcpsapi/DhcpIpAddressOption","dhcpsapi/DhcpIpv6AddressOption","dhcpsapi/DhcpStringDataOption","dhcpsapi/DhcpWordOption","dhcpsapi/LPDHCP_OPTION_DATA_TYPE"]
+description: The DHCP_OPTION_DATA_TYPE enumeration defines the set of formats that represent DHCP option data.
+helpviewer_keywords: ["*LPDHCP_OPTION_DATA_TYPE","DHCP_OPTION_DATA_TYPE","DHCP_OPTION_DATA_TYPE enumeration [DHCP]","DhcpBinaryDataOption","DhcpByteOption","DhcpDWordDWordOption","DhcpDWordOption","DhcpEncapsulatedDataOption","DhcpIpAddressOption","DhcpIpv6AddressOption","DhcpStringDataOption","DhcpWordOption","LPDHCP_OPTION_DATA_TYPE","LPDHCP_OPTION_DATA_TYPE enumeration pointer [DHCP]","dhcp.dhcp_option_data_type","dhcpsapi/DHCP_OPTION_DATA_TYPE","dhcpsapi/DhcpBinaryDataOption","dhcpsapi/DhcpByteOption","dhcpsapi/DhcpDWordDWordOption","dhcpsapi/DhcpDWordOption","dhcpsapi/DhcpEncapsulatedDataOption","dhcpsapi/DhcpIpAddressOption","dhcpsapi/DhcpIpv6AddressOption","dhcpsapi/DhcpStringDataOption","dhcpsapi/DhcpWordOption","dhcpsapi/LPDHCP_OPTION_DATA_TYPE"]
 old-location: dhcp\dhcp_option_data_type.htm
 tech.root: DHCP
 ms.assetid: 1f215915-07f0-4327-bb42-d5af09cd07c5

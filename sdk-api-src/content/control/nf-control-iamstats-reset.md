@@ -1,7 +1,8 @@
 ---
 UID: NF:control.IAMStats.Reset
 title: IAMStats::Reset (control.h)
-description: The Reset method resets all statistics to zero.helpviewer_keywords: ["IAMStats interface [DirectShow]","Reset method","IAMStats.Reset","IAMStats::Reset","IAMStatsReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IAMStats interface","control/IAMStats::Reset","dshow.iamstats_reset"]
+description: The Reset method resets all statistics to zero.
+helpviewer_keywords: ["IAMStats interface [DirectShow]","Reset method","IAMStats.Reset","IAMStats::Reset","IAMStatsReset","Reset","Reset method [DirectShow]","Reset method [DirectShow]","IAMStats interface","control/IAMStats::Reset","dshow.iamstats_reset"]
 old-location: dshow\iamstats_reset.htm
 tech.root: DirectShow
 ms.assetid: daa5f3c0-6785-46b6-987f-acef798b0ed9

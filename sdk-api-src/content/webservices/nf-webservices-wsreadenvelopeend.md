@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsReadEnvelopeEnd
 title: WsReadEnvelopeEnd function (webservices.h)
-description: Reads the closing elements of a message. The operation allows for reading of messages from sources other than Channels. If the source is a Channel use WsReadMessageEnd.helpviewer_keywords: ["WsReadEnvelopeEnd","WsReadEnvelopeEnd function [Web Services for Windows]","webservices/WsReadEnvelopeEnd","wsw.wsreadenvelopeend"]
+description: Reads the closing elements of a message. The operation allows for reading of messages from sources other than Channels. If the source is a Channel use WsReadMessageEnd.
+helpviewer_keywords: ["WsReadEnvelopeEnd","WsReadEnvelopeEnd function [Web Services for Windows]","webservices/WsReadEnvelopeEnd","wsw.wsreadenvelopeend"]
 old-location: wsw\wsreadenvelopeend.htm
 tech.root: wsw
 ms.assetid: 1252fa10-d19a-4335-8dc5-f230141eef79

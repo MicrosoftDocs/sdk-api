@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange2.GetCount
 title: ITextRange2::GetCount (tom.h)
-description: Gets the count of subranges, including the active subrange in the current range.helpviewer_keywords: ["GetCount","GetCount method [Windows Controls]","GetCount method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetCount method","ITextRange2.GetCount","ITextRange2::GetCount","controls.itextrange2_getcount","tom/ITextRange2::GetCount"]
+description: Gets the count of subranges, including the active subrange in the current range.
+helpviewer_keywords: ["GetCount","GetCount method [Windows Controls]","GetCount method [Windows Controls]","ITextRange2 interface","ITextRange2 interface [Windows Controls]","GetCount method","ITextRange2.GetCount","ITextRange2::GetCount","controls.itextrange2_getcount","tom/ITextRange2::GetCount"]
 old-location: controls\itextrange2_getcount.htm
 tech.root: Controls
 ms.assetid: a1744e60-74b0-44a0-b470-6e89d328fa11

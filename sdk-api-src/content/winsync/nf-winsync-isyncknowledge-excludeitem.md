@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge.ExcludeItem
 title: ISyncKnowledge::ExcludeItem (winsync.h)
-description: Removes knowledge about the specified item from the knowledge.helpviewer_keywords: ["ExcludeItem","ExcludeItem method [Windows Sync]","ExcludeItem method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","ExcludeItem method","ISyncKnowledge.ExcludeItem","ISyncKnowledge::ExcludeItem","winsync.isyncknowledge_excludeitem","winsync/ISyncKnowledge::ExcludeItem"]
+description: Removes knowledge about the specified item from the knowledge.
+helpviewer_keywords: ["ExcludeItem","ExcludeItem method [Windows Sync]","ExcludeItem method [Windows Sync]","ISyncKnowledge interface","ISyncKnowledge interface [Windows Sync]","ExcludeItem method","ISyncKnowledge.ExcludeItem","ISyncKnowledge::ExcludeItem","winsync.isyncknowledge_excludeitem","winsync/ISyncKnowledge::ExcludeItem"]
 old-location: winsync\isyncknowledge_excludeitem.htm
 tech.root: winsync
 ms.assetid: db3cd239-dbc2-4da7-ba3d-3adc9ad1c6f3

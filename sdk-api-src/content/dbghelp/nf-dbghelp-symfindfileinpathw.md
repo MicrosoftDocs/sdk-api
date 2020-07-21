@@ -1,7 +1,8 @@
 ---
 UID: NF:dbghelp.SymFindFileInPathW
 title: SymFindFileInPathW function (dbghelp.h)
-description: Locates a symbol file or executable image.helpviewer_keywords: ["SSRVOPT_DWORD","SSRVOPT_DWORDPTR","SSRVOPT_GUIDPTR","SymFindFileInPath","SymFindFileInPath function","SymFindFileInPathW","_win32_symfindfileinpath","base.symfindfileinpath","dbghelp/SymFindFileInPath","dbghelp/SymFindFileInPathW"]
+description: Locates a symbol file or executable image.
+helpviewer_keywords: ["SSRVOPT_DWORD","SSRVOPT_DWORDPTR","SSRVOPT_GUIDPTR","SymFindFileInPath","SymFindFileInPath function","SymFindFileInPathW","_win32_symfindfileinpath","base.symfindfileinpath","dbghelp/SymFindFileInPath","dbghelp/SymFindFileInPathW"]
 old-location: base\symfindfileinpath.htm
 tech.root: Debug
 ms.assetid: f85d8cd9-958a-490a-b155-3a9abdeda922
@@ -189,6 +190,10 @@ To call the Unicode version of this function, define DBGHELP_TRANSLATE_TCHAR.
 
 
 
+
+
+> [!NOTE]
+> The dbghelp.h header defines SymFindFileInPath as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

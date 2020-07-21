@@ -1,7 +1,8 @@
 ---
 UID: NF:inked.IInkEdit.get_Font
 title: IInkEdit::get_Font (inked.h)
-description: Gets or sets a Font object.helpviewer_keywords: ["Font property [Tablet PC]","Font property [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","Font property","IInkEdit.Font","IInkEdit.get_Font","IInkEdit::Font","IInkEdit::get_Font","IInkEdit::put_Font","InkEdit.get_Font","InkEdit.putref_Font","get_Font","inked/IInkEdit::Font","inked/IInkEdit::get_Font","inked/IInkEdit::put_Font","putref_Font","tablet.inkedit_font"]
+description: Gets or sets a Font object.
+helpviewer_keywords: ["Font property [Tablet PC]","Font property [Tablet PC]","IInkEdit interface","IInkEdit interface [Tablet PC]","Font property","IInkEdit.Font","IInkEdit.get_Font","IInkEdit::Font","IInkEdit::get_Font","IInkEdit::put_Font","InkEdit.get_Font","InkEdit.putref_Font","get_Font","inked/IInkEdit::Font","inked/IInkEdit::get_Font","inked/IInkEdit::put_Font","putref_Font","tablet.inkedit_font"]
 old-location: tablet\inkedit_font.htm
 tech.root: tablet
 ms.assetid: af8234bb-7d53-45c7-9edc-fd4e6b64eed3

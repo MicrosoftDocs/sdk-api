@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMExtTransport.SetBump
 title: IAMExtTransport::SetBump (strmif.h)
-description: The SetBump method temporarily changes the playback, for synchronization of multiple external devices.helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","SetBump method","IAMExtTransport.SetBump","IAMExtTransport::SetBump","IAMExtTransportSetBump","SetBump","SetBump method [DirectShow]","SetBump method [DirectShow]","IAMExtTransport interface","dshow.iamexttransport_setbump","strmif/IAMExtTransport::SetBump"]
+description: The SetBump method temporarily changes the playback, for synchronization of multiple external devices.
+helpviewer_keywords: ["IAMExtTransport interface [DirectShow]","SetBump method","IAMExtTransport.SetBump","IAMExtTransport::SetBump","IAMExtTransportSetBump","SetBump","SetBump method [DirectShow]","SetBump method [DirectShow]","IAMExtTransport interface","dshow.iamexttransport_setbump","strmif/IAMExtTransport::SetBump"]
 old-location: dshow\iamexttransport_setbump.htm
 tech.root: DirectShow
 ms.assetid: c2f2b59f-2522-4f13-8861-fb4e2d9d406c

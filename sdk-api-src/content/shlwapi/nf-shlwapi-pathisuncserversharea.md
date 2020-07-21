@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.PathIsUNCServerShareA
 title: PathIsUNCServerShareA function (shlwapi.h)
-description: Determines if a string is a valid Universal Naming Convention (UNC) share path, \\server\share.helpviewer_keywords: ["PathIsUNCServerShare","PathIsUNCServerShare function [Windows Shell]","PathIsUNCServerShareA","PathIsUNCServerShareW","_win32_PathIsUNCServerShare","shell.PathIsUNCServerShare","shlwapi/PathIsUNCServerShare","shlwapi/PathIsUNCServerShareA","shlwapi/PathIsUNCServerShareW"]
+description: Determines if a string is a valid Universal Naming Convention (UNC) share path, \\server\share.
+helpviewer_keywords: ["PathIsUNCServerShare","PathIsUNCServerShare function [Windows Shell]","PathIsUNCServerShareA","PathIsUNCServerShareW","_win32_PathIsUNCServerShare","shell.PathIsUNCServerShare","shlwapi/PathIsUNCServerShare","shlwapi/PathIsUNCServerShareA","shlwapi/PathIsUNCServerShareW"]
 old-location: shell\PathIsUNCServerShare.htm
 tech.root: shell
 ms.assetid: 306cfc34-7cb2-4f60-af5c-8b567149c2fc
@@ -79,4 +80,9 @@ Type: <b>BOOL</b>
 Returns <b>TRUE</b> if the string is in the form \\<i>server</i>\<i>share</i>, or <b>FALSE</b> otherwise.
 
 
+
+## -remarks
+
+> [!NOTE]
+> The shlwapi.h header defines PathIsUNCServerShare as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

@@ -1,7 +1,8 @@
 ---
 UID: NE:gdipluseffects.CurveChannel
 title: CurveChannel (gdipluseffects.h)
-description: The CurveChannel enumeration specifies which color channels are affected by a ColorCurve bitmap adjustment.helpviewer_keywords: ["CurveChannel","CurveChannel enumeration [GDI+]","CurveChannelAll","CurveChannelBlue","CurveChannelGreen","CurveChannelRed","_gdiplus_ENUM_CurveChannel","gdiplus._gdiplus_ENUM_CurveChannel","gdipluseffects/CurveChannel","gdipluseffects/CurveChannelAll","gdipluseffects/CurveChannelBlue","gdipluseffects/CurveChannelGreen","gdipluseffects/CurveChannelRed"]
+description: The CurveChannel enumeration specifies which color channels are affected by a ColorCurve bitmap adjustment.
+helpviewer_keywords: ["CurveChannel","CurveChannel enumeration [GDI+]","CurveChannelAll","CurveChannelBlue","CurveChannelGreen","CurveChannelRed","_gdiplus_ENUM_CurveChannel","gdiplus._gdiplus_ENUM_CurveChannel","gdipluseffects/CurveChannel","gdipluseffects/CurveChannelAll","gdipluseffects/CurveChannelBlue","gdipluseffects/CurveChannelGreen","gdipluseffects/CurveChannelRed"]
 old-location: gdiplus\_gdiplus_ENUM_CurveChannel.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\curvechannel.htm

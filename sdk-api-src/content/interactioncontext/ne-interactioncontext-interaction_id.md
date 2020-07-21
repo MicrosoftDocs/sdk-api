@@ -1,7 +1,8 @@
 ---
 UID: NE:interactioncontext.INTERACTION_ID
 title: INTERACTION_ID (interactioncontext.h)
-description: Specifies the interaction states used for configuring an Interaction Context object.helpviewer_keywords: ["INTERACTION_ID","INTERACTION_ID enumeration","INTERACTION_ID_CROSS_SLIDE","INTERACTION_ID_DRAG","INTERACTION_ID_HOLD","INTERACTION_ID_MANIPULATION","INTERACTION_ID_MAX","INTERACTION_ID_NONE","INTERACTION_ID_SECONDARY_TAP","INTERACTION_ID_TAP","input_intcontext.interaction_id","interactioncontext.interaction_id","interactioncontext/INTERACTION_ID","interactioncontext/INTERACTION_ID_CROSS_SLIDE","interactioncontext/INTERACTION_ID_DRAG","interactioncontext/INTERACTION_ID_HOLD","interactioncontext/INTERACTION_ID_MANIPULATION","interactioncontext/INTERACTION_ID_MAX","interactioncontext/INTERACTION_ID_NONE","interactioncontext/INTERACTION_ID_SECONDARY_TAP","interactioncontext/INTERACTION_ID_TAP"]
+description: Specifies the interaction states used for configuring an Interaction Context object.
+helpviewer_keywords: ["INTERACTION_ID","INTERACTION_ID enumeration","INTERACTION_ID_CROSS_SLIDE","INTERACTION_ID_DRAG","INTERACTION_ID_HOLD","INTERACTION_ID_MANIPULATION","INTERACTION_ID_MAX","INTERACTION_ID_NONE","INTERACTION_ID_SECONDARY_TAP","INTERACTION_ID_TAP","input_intcontext.interaction_id","interactioncontext.interaction_id","interactioncontext/INTERACTION_ID","interactioncontext/INTERACTION_ID_CROSS_SLIDE","interactioncontext/INTERACTION_ID_DRAG","interactioncontext/INTERACTION_ID_HOLD","interactioncontext/INTERACTION_ID_MANIPULATION","interactioncontext/INTERACTION_ID_MAX","interactioncontext/INTERACTION_ID_NONE","interactioncontext/INTERACTION_ID_SECONDARY_TAP","interactioncontext/INTERACTION_ID_TAP"]
 old-location: input_intcontext\interaction_id.htm
 tech.root: Input_IntContext
 ms.assetid: 9c6ac9ce-d7c9-4a92-9631-2f241a762525

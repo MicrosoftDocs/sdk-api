@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorFalseInt
 title: XMVectorFalseInt function (directxmath.h)
-description: Returns the zero (false) vector.helpviewer_keywords: ["Use DirectX..XMVectorFalseInt","XMVectorFalseInt","XMVectorFalseInt method [DirectX Math Support APIs]","dxmath.xmvectorfalseint"]
+description: Returns the zero (false) vector.
+helpviewer_keywords: ["Use DirectX..XMVectorFalseInt","XMVectorFalseInt","XMVectorFalseInt method [DirectX Math Support APIs]","dxmath.xmvectorfalseint"]
 old-location: dxmath\xmvectorfalseint.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.initialization.XMVectorFalseInt

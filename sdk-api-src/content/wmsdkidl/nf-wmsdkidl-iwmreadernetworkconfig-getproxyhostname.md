@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMReaderNetworkConfig.GetProxyHostName
 title: IWMReaderNetworkConfig::GetProxyHostName (wmsdkidl.h)
-description: The GetProxyHostName method retrieves the name of the host to use as the proxy.helpviewer_keywords: ["GetProxyHostName","GetProxyHostName method [windows Media Format]","GetProxyHostName method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetProxyHostName method","IWMReaderNetworkConfig.GetProxyHostName","IWMReaderNetworkConfig::GetProxyHostName","IWMReaderNetworkConfigGetProxyHostName","wmformat.iwmreadernetworkconfig_getproxyhostname","wmsdkidl/IWMReaderNetworkConfig::GetProxyHostName"]
+description: The GetProxyHostName method retrieves the name of the host to use as the proxy.
+helpviewer_keywords: ["GetProxyHostName","GetProxyHostName method [windows Media Format]","GetProxyHostName method [windows Media Format]","IWMReaderNetworkConfig interface","IWMReaderNetworkConfig interface [windows Media Format]","GetProxyHostName method","IWMReaderNetworkConfig.GetProxyHostName","IWMReaderNetworkConfig::GetProxyHostName","IWMReaderNetworkConfigGetProxyHostName","wmformat.iwmreadernetworkconfig_getproxyhostname","wmsdkidl/IWMReaderNetworkConfig::GetProxyHostName"]
 old-location: wmformat\iwmreadernetworkconfig_getproxyhostname.htm
 tech.root: wmformat
 ms.assetid: a7411ed6-90ee-450c-bb06-408469036d22

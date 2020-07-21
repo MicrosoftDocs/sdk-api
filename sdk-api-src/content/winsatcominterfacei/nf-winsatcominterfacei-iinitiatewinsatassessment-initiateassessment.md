@@ -1,7 +1,8 @@
 ---
 UID: NF:winsatcominterfacei.IInitiateWinSATAssessment.InitiateAssessment
 title: IInitiateWinSATAssessment::InitiateAssessment (winsatcominterfacei.h)
-description: Initiates an ad hoc assessment.helpviewer_keywords: ["IInitiateWinSATAssessment interface [WinSAT]","InitiateAssessment method","IInitiateWinSATAssessment.InitiateAssessment","IInitiateWinSATAssessment::InitiateAssessment","InitiateAssessment","InitiateAssessment method [WinSAT]","InitiateAssessment method [WinSAT]","IInitiateWinSATAssessment interface","winsat.iinitiatewinsatassessment_initiateassessment","winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment"]
+description: Initiates an ad hoc assessment.
+helpviewer_keywords: ["IInitiateWinSATAssessment interface [WinSAT]","InitiateAssessment method","IInitiateWinSATAssessment.InitiateAssessment","IInitiateWinSATAssessment::InitiateAssessment","InitiateAssessment","InitiateAssessment method [WinSAT]","InitiateAssessment method [WinSAT]","IInitiateWinSATAssessment interface","winsat.iinitiatewinsatassessment_initiateassessment","winsatcominterfacei/IInitiateWinSATAssessment::InitiateAssessment"]
 old-location: winsat\iinitiatewinsatassessment_initiateassessment.htm
 tech.root: WinSAT
 ms.assetid: c57d88b6-81ac-4314-8593-59a950348be4

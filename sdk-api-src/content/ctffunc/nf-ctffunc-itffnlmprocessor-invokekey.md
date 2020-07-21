@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.ITfFnLMProcessor.InvokeKey
 title: ITfFnLMProcessor::InvokeKey (ctffunc.h)
-description: ITfFnLMProcessor::InvokeKey methodhelpviewer_keywords: ["ITfFnLMProcessor interface [Text Services Framework]","InvokeKey method","ITfFnLMProcessor.InvokeKey","ITfFnLMProcessor::InvokeKey","InvokeKey","InvokeKey method [Text Services Framework]","InvokeKey method [Text Services Framework]","ITfFnLMProcessor interface","_tsf_itffnlmprocessor_invokekey_ref","ctffunc/ITfFnLMProcessor::InvokeKey","tsf.itffnlmprocessor_invokekey"]
+description: ITfFnLMProcessor::InvokeKey method
+helpviewer_keywords: ["ITfFnLMProcessor interface [Text Services Framework]","InvokeKey method","ITfFnLMProcessor.InvokeKey","ITfFnLMProcessor::InvokeKey","InvokeKey","InvokeKey method [Text Services Framework]","InvokeKey method [Text Services Framework]","ITfFnLMProcessor interface","_tsf_itffnlmprocessor_invokekey_ref","ctffunc/ITfFnLMProcessor::InvokeKey","tsf.itffnlmprocessor_invokekey"]
 old-location: tsf\itffnlmprocessor_invokekey.htm
 tech.root: TSF
 ms.assetid: 0611dd1e-6f79-4397-b523-e4fb278725f7

@@ -1,7 +1,8 @@
 ---
 UID: NS:richedit._msgfilter
 title: MSGFILTER (richedit.h)
-description: Contains information about a keyboard or mouse event. A rich edit control sends this structure to its parent window as part of an EN_MSGFILTER notification code, enabling the parent to change the message or prevent it from being processed.helpviewer_keywords: ["MSGFILTER","MSGFILTER structure [Windows Controls]","_win32_MSGFILTER_str","_win32_MSGFILTER_str_cpp","controls.MSGFILTER","controls._win32_MSGFILTER_str","richedit/MSGFILTER"]
+description: Contains information about a keyboard or mouse event. A rich edit control sends this structure to its parent window as part of an EN_MSGFILTER notification code, enabling the parent to change the message or prevent it from being processed.
+helpviewer_keywords: ["MSGFILTER","MSGFILTER structure [Windows Controls]","_win32_MSGFILTER_str","_win32_MSGFILTER_str_cpp","controls.MSGFILTER","controls._win32_MSGFILTER_str","richedit/MSGFILTER"]
 old-location: controls\MSGFILTER.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\richeditcontrols\richeditcontrolreference\richeditstructures\msgfilter.htm

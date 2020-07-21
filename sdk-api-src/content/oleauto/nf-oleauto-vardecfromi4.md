@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarDecFromI4
 title: VarDecFromI4 function (oleauto.h)
-description: Converts a long value to a decimal value.helpviewer_keywords: ["VarDecFromI4","VarDecFromI4 function [Automation]","_oa96_VarDecFromI4","automat.vardecfromi4","oleauto/VarDecFromI4"]
+description: Converts a long value to a decimal value.
+helpviewer_keywords: ["VarDecFromI4","VarDecFromI4 function [Automation]","_oa96_VarDecFromI4","automat.vardecfromi4","oleauto/VarDecFromI4"]
 old-location: automat\vardecfromi4.htm
 tech.root: automat
 ms.assetid: 577d0420-4a1c-4733-bf3b-4c20c1591d2f

@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.ITuningSpace.put_DefaultPreferredComponentTypes
 title: ITuningSpace::put_DefaultPreferredComponentTypes (tuner.h)
-description: The put_DefaultPreferredComponentTypes method specifies the default preferred component types for this tuning space.helpviewer_keywords: ["ITuningSpace interface [Microsoft TV Technologies]","put_DefaultPreferredComponentTypes method","ITuningSpace.put_DefaultPreferredComponentTypes","ITuningSpace::put_DefaultPreferredComponentTypes","ITuningSpaceput_DefaultPreferredComponentTypes","mstv.ituningspace_put_defaultpreferredcomponenttypes","put_DefaultPreferredComponentTypes","put_DefaultPreferredComponentTypes method [Microsoft TV Technologies]","put_DefaultPreferredComponentTypes method [Microsoft TV Technologies]","ITuningSpace interface","tuner/ITuningSpace::put_DefaultPreferredComponentTypes"]
+description: The put_DefaultPreferredComponentTypes method specifies the default preferred component types for this tuning space.
+helpviewer_keywords: ["ITuningSpace interface [Microsoft TV Technologies]","put_DefaultPreferredComponentTypes method","ITuningSpace.put_DefaultPreferredComponentTypes","ITuningSpace::put_DefaultPreferredComponentTypes","ITuningSpaceput_DefaultPreferredComponentTypes","mstv.ituningspace_put_defaultpreferredcomponenttypes","put_DefaultPreferredComponentTypes","put_DefaultPreferredComponentTypes method [Microsoft TV Technologies]","put_DefaultPreferredComponentTypes method [Microsoft TV Technologies]","ITuningSpace interface","tuner/ITuningSpace::put_DefaultPreferredComponentTypes"]
 old-location: mstv\ituningspace_put_defaultpreferredcomponenttypes.htm
 tech.root: mstv
 ms.assetid: 11ab6f15-1f16-42f9-9d7f-f0e51c83cba3

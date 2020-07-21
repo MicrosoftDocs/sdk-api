@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoGetMalloc
 title: CoGetMalloc function (combaseapi.h)
-description: Retrieves a pointer to the default OLE task memory allocator (which supports the system implementation of the IMalloc interface) so applications can call its methods to manage memory.helpviewer_keywords: ["CoGetMalloc","CoGetMalloc function [COM]","_com_CoGetMalloc","com.cogetmalloc","combaseapi/CoGetMalloc"]
+description: Retrieves a pointer to the default OLE task memory allocator (which supports the system implementation of the IMalloc interface) so applications can call its methods to manage memory.
+helpviewer_keywords: ["CoGetMalloc","CoGetMalloc function [COM]","_com_CoGetMalloc","com.cogetmalloc","combaseapi/CoGetMalloc"]
 old-location: com\cogetmalloc.htm
 tech.root: com
 ms.assetid: d1d09fbe-ca5c-4480-b807-3afcc043ccb9

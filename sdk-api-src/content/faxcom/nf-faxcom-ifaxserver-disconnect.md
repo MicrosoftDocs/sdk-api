@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcom.IFaxServer.Disconnect
 title: IFaxServer::Disconnect (faxcom.h)
-description: The IFaxServer::Disconnect method terminates a fax client application's connection to a fax server.helpviewer_keywords: ["Disconnect","Disconnect method [Fax Service]","Disconnect method [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","Disconnect method","IFaxServer.Disconnect","IFaxServer::Disconnect","_mfax_ifaxserver_disconnect_client","fax._mfax_ifaxserver_client_mfax_ifaxserver_disconnect_client_cpp","fax._mfax_ifaxserver_disconnect_client","faxcom/IFaxServer::Disconnect"]
+description: The IFaxServer::Disconnect method terminates a fax client application's connection to a fax server.
+helpviewer_keywords: ["Disconnect","Disconnect method [Fax Service]","Disconnect method [Fax Service]","IFaxServer interface","IFaxServer interface [Fax Service]","Disconnect method","IFaxServer.Disconnect","IFaxServer::Disconnect","_mfax_ifaxserver_disconnect_client","fax._mfax_ifaxserver_client_mfax_ifaxserver_disconnect_client_cpp","fax._mfax_ifaxserver_disconnect_client","faxcom/IFaxServer::Disconnect"]
 old-location: fax\_mfax_ifaxserver_client_mfax_ifaxserver_disconnect_client_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_5w50.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.ILRemoveLastID
 title: ILRemoveLastID function (shlobj_core.h)
-description: Removes the last SHITEMID structure from an ITEMIDLIST structure.helpviewer_keywords: ["ILRemoveLastID","ILRemoveLastID function [Windows Shell]","_win32_ILRemoveLastID","shell.ILRemoveLastID","shlobj_core/ILRemoveLastID"]
+description: Removes the last SHITEMID structure from an ITEMIDLIST structure.
+helpviewer_keywords: ["ILRemoveLastID","ILRemoveLastID function [Windows Shell]","_win32_ILRemoveLastID","shell.ILRemoveLastID","shlobj_core/ILRemoveLastID"]
 old-location: shell\ILRemoveLastID.htm
 tech.root: shell
 ms.assetid: 144df03b-1adc-40c2-a864-3e16bdaf4915

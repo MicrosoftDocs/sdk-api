@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrClientCall
 title: NdrClientCall function (rpcndr.h)
-description: The NdrClientCall function is the client-side entry point for the /Oicf mode stub.helpviewer_keywords: ["NdrClientCall","NdrClientCall function [RPC]","rpc.ndrclientcall","rpcndr/NdrClientCall"]
+description: The NdrClientCall function is the client-side entry point for the /Oicf mode stub.
+helpviewer_keywords: ["NdrClientCall","NdrClientCall function [RPC]","rpc.ndrclientcall","rpcndr/NdrClientCall"]
 old-location: rpc\ndrclientcall.htm
 tech.root: Rpc
 ms.assetid: c7bf480a-a9c7-4d67-a7b6-cba6352b4600

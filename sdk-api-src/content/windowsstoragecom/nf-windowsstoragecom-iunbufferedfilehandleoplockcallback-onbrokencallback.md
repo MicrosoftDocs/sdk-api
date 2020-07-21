@@ -1,7 +1,8 @@
 ---
 UID: NF:windowsstoragecom.IUnbufferedFileHandleOplockCallback.OnBrokenCallback
 title: IUnbufferedFileHandleOplockCallback::OnBrokenCallback (windowsstoragecom.h)
-description: Runs when the opportunistic lock for a handle that you get by calling the IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle method is broken.helpviewer_keywords: ["IUnbufferedFileHandleOplockCallback interface [Windows Runtime]","OnBrokenCallback method","IUnbufferedFileHandleOplockCallback.OnBrokenCallback","IUnbufferedFileHandleOplockCallback::OnBrokenCallback","OnBrokenCallback","OnBrokenCallback method [Windows Runtime]","OnBrokenCallback method [Windows Runtime]","IUnbufferedFileHandleOplockCallback interface","windowsstoragecom/IUnbufferedFileHandleOplockCallback::OnBrokenCallback","winrt.iunbufferedfilehandleoplockcallback_onbrokencallback"]
+description: Runs when the opportunistic lock for a handle that you get by calling the IUnbufferedFileHandleProvider::OpenUnbufferedFileHandle method is broken.
+helpviewer_keywords: ["IUnbufferedFileHandleOplockCallback interface [Windows Runtime]","OnBrokenCallback method","IUnbufferedFileHandleOplockCallback.OnBrokenCallback","IUnbufferedFileHandleOplockCallback::OnBrokenCallback","OnBrokenCallback","OnBrokenCallback method [Windows Runtime]","OnBrokenCallback method [Windows Runtime]","IUnbufferedFileHandleOplockCallback interface","windowsstoragecom/IUnbufferedFileHandleOplockCallback::OnBrokenCallback","winrt.iunbufferedfilehandleoplockcallback_onbrokencallback"]
 old-location: winrt\iunbufferedfilehandleoplockcallback_onbrokencallback.htm
 tech.root: WinRT
 ms.assetid: F5B6B4F6-61F2-4C5A-9E63-E9DC876FEB60

@@ -1,7 +1,8 @@
 ---
 UID: NF:clfsw32.GetNextLogArchiveExtent
 title: GetNextLogArchiveExtent function (clfsw32.h)
-description: Retrieves the next set of archive extents in a log archive context.helpviewer_keywords: ["GetNextLogArchiveExtent","GetNextLogArchiveExtent function [Files]","clfsw32/GetNextLogArchiveExtent","fs.getnextlogarchiveextent"]
+description: Retrieves the next set of archive extents in a log archive context.
+helpviewer_keywords: ["GetNextLogArchiveExtent","GetNextLogArchiveExtent function [Files]","clfsw32/GetNextLogArchiveExtent","fs.getnextlogarchiveextent"]
 old-location: fs\getnextlogarchiveextent.htm
 tech.root: Clfs
 ms.assetid: 4aaf10bd-e9df-435b-a756-5ae5c1eb2903

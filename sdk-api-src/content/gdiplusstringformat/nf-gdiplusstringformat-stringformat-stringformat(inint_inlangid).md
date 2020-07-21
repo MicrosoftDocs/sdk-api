@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusstringformat.StringFormat.StringFormat(IN INT,IN LANGID)
+UID: NF:gdiplusstringformat.StringFormat.StringFormat(ININT,INLANGID)
 title: StringFormat::StringFormat(IN INT,IN LANGID) (gdiplusstringformat.h)
-description: Creates a StringFormat object based on string format flags and a language.helpviewer_keywords: ["StringFormat","StringFormat class [GDI+]","StringFormat constructor","StringFormat constructor [GDI+]","StringFormat constructor [GDI+]","StringFormat class","StringFormat.StringFormat","StringFormat.StringFormat(IN INT","IN LANGID)","StringFormat.StringFormat(INT","LANGID)","StringFormat::StringFormat","StringFormat::StringFormat(IN INT","IN LANGID)","_gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_","gdiplus._gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_"]
+description: Creates a StringFormat object based on string format flags and a language.
+helpviewer_keywords: ["StringFormat","StringFormat class [GDI+]","StringFormat constructor","StringFormat constructor [GDI+]","StringFormat constructor [GDI+]","StringFormat class","StringFormat.StringFormat","StringFormat.StringFormat(IN INT","IN LANGID)","StringFormat.StringFormat(INT","LANGID)","StringFormat::StringFormat","StringFormat::StringFormat(IN INT","IN LANGID)","_gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_","gdiplus._gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_"]
 old-location: gdiplus\_gdiplus_CLASS_StringFormat_StringFormat_formatFlags_language_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\stringformatclass\stringformatconstructors\stringformat_22formatflags_language.htm

@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IDVBTuningSpace
 title: IDVBTuningSpace (tuner.h)
-description: The IDVBTuningSpace interface is implemented on the DVBTuningSpace object.Note  New applications should use the IDVBTuningSpace2 interface, which inherits IDVBTuningSpace and adds additional methods. .helpviewer_keywords: ["IDVBTuningSpace","IDVBTuningSpace interface [Microsoft TV Technologies]","IDVBTuningSpace interface [Microsoft TV Technologies]","described","IDVBTuningSpaceInterface","mstv.idvbtuningspace","tuner/IDVBTuningSpace"]
+description: The IDVBTuningSpace interface is implemented on the DVBTuningSpace object.Note  New applications should use the IDVBTuningSpace2 interface, which inherits IDVBTuningSpace and adds additional methods. .
+helpviewer_keywords: ["IDVBTuningSpace","IDVBTuningSpace interface [Microsoft TV Technologies]","IDVBTuningSpace interface [Microsoft TV Technologies]","described","IDVBTuningSpaceInterface","mstv.idvbtuningspace","tuner/IDVBTuningSpace"]
 old-location: mstv\idvbtuningspace.htm
 tech.root: mstv
 ms.assetid: fba3c7f3-61f8-4704-8068-cb1d3171345a

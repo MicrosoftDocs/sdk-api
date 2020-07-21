@@ -1,7 +1,8 @@
 ---
 UID: NF:winbio.WinBioIdentifyWithCallback
 title: WinBioIdentifyWithCallback function (winbio.h)
-description: Asynchronously captures a biometric sample and determines whether it matches an existing biometric template.helpviewer_keywords: ["WinBioIdentifyWithCallback","WinBioIdentifyWithCallback function [Windows Biometric Framework API]","secbiomet.winbioidentifywithcallback","winbio/WinBioIdentifyWithCallback"]
+description: Asynchronously captures a biometric sample and determines whether it matches an existing biometric template.
+helpviewer_keywords: ["WinBioIdentifyWithCallback","WinBioIdentifyWithCallback function [Windows Biometric Framework API]","secbiomet.winbioidentifywithcallback","winbio/WinBioIdentifyWithCallback"]
 old-location: secbiomet\winbioidentifywithcallback.htm
 tech.root: SecBioMet
 ms.assetid: df96b444-4a94-4d12-9d7a-2543d96f89ea

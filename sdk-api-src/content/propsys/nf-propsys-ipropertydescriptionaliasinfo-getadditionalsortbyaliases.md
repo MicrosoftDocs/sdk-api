@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases
 title: IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases (propsys.h)
-description: Gets the address of a pointer to the IPropertyDescriptionList interface, which contains additional sort column values.helpviewer_keywords: ["GetAdditionalSortByAliases","GetAdditionalSortByAliases method [Windows Properties]","GetAdditionalSortByAliases method [Windows Properties]","IPropertyDescriptionAliasInfo interface","IPropertyDescriptionAliasInfo interface [Windows Properties]","GetAdditionalSortByAliases method","IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases","IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases","_shell_IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases","properties.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases","propsys/IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases","shell.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases"]
+description: Gets the address of a pointer to the IPropertyDescriptionList interface, which contains additional sort column values.
+helpviewer_keywords: ["GetAdditionalSortByAliases","GetAdditionalSortByAliases method [Windows Properties]","GetAdditionalSortByAliases method [Windows Properties]","IPropertyDescriptionAliasInfo interface","IPropertyDescriptionAliasInfo interface [Windows Properties]","GetAdditionalSortByAliases method","IPropertyDescriptionAliasInfo.GetAdditionalSortByAliases","IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases","_shell_IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases","properties.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases","propsys/IPropertyDescriptionAliasInfo::GetAdditionalSortByAliases","shell.IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases"]
 old-location: properties\IPropertyDescriptionAliasInfo_GetAdditionalSortByAliases.htm
 tech.root: properties
 ms.assetid: fb7c105b-6e81-4837-ad00-8886abbe108f

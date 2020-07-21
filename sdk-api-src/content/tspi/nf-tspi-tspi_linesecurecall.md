@@ -1,7 +1,8 @@
 ---
 UID: NF:tspi.TSPI_lineSecureCall
 title: TSPI_lineSecureCall function (tspi.h)
-description: The TSPI_lineSecureCall function secures the call from any interruptions or interference that can affect the call's media stream.helpviewer_keywords: ["TSPI_lineSecureCall","TSPI_lineSecureCall function [TAPI 2.2]","_tspi_tspi_linesecurecall","tspi.tspi_linesecurecall","tspi/TSPI_lineSecureCall"]
+description: The TSPI_lineSecureCall function secures the call from any interruptions or interference that can affect the call's media stream.
+helpviewer_keywords: ["TSPI_lineSecureCall","TSPI_lineSecureCall function [TAPI 2.2]","_tspi_tspi_linesecurecall","tspi.tspi_linesecurecall","tspi/TSPI_lineSecureCall"]
 old-location: tspi\tspi_linesecurecall.htm
 tech.root: Tapi
 ms.assetid: a064bf4b-3401-4f92-b318-a9f66de1e61f

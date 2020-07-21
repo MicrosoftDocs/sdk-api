@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMLoadShort2
 title: XMLoadShort2 function (directxpackedvector.h)
-description: Loads an XMSHORT2 into an XMVECTOR.helpviewer_keywords: ["DirectX::PackedVector.XMLoadShort2","XMLoadShort2","XMLoadShort2 method [DirectX Math Support APIs]","dxmath.xmloadshort2"]
+description: Loads an XMSHORT2 into an XMVECTOR.
+helpviewer_keywords: ["DirectX::PackedVector.XMLoadShort2","XMLoadShort2","XMLoadShort2 method [DirectX Math Support APIs]","dxmath.xmloadshort2"]
 old-location: dxmath\xmloadshort2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.loading.XMLoadShort2(const XMSHORT2)

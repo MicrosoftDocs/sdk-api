@@ -1,7 +1,8 @@
 ---
 UID: NF:iscsidsc.GetIScsiInitiatorNodeNameW
 title: GetIScsiInitiatorNodeNameW function (iscsidsc.h)
-description: The GetIscsiInitiatorNodeName function retrieves the common initiator node name that is used when establishing sessions from the local machine.helpviewer_keywords: ["GetIScsiInitiatorNodeNameW","GetIscsiInitiatorNodeName","GetIscsiInitiatorNodeName function [iSCSI Discovery Library API]","GetIscsiInitiatorNodeNameA","GetIscsiInitiatorNodeNameW","iscsidisc.getiscsiinitiatornodename","iscsidsc/GetIscsiInitiatorNodeName","iscsidsc/GetIscsiInitiatorNodeNameA","iscsidsc/GetIscsiInitiatorNodeNameW"]
+description: The GetIscsiInitiatorNodeName function retrieves the common initiator node name that is used when establishing sessions from the local machine.
+helpviewer_keywords: ["GetIScsiInitiatorNodeNameW","GetIscsiInitiatorNodeName","GetIscsiInitiatorNodeName function [iSCSI Discovery Library API]","GetIscsiInitiatorNodeNameA","GetIscsiInitiatorNodeNameW","iscsidisc.getiscsiinitiatornodename","iscsidsc/GetIscsiInitiatorNodeName","iscsidsc/GetIscsiInitiatorNodeNameA","iscsidsc/GetIscsiInitiatorNodeNameW"]
 old-location: iscsidisc\getiscsiinitiatornodename.htm
 tech.root: iSCSIDisc
 ms.assetid: 592d9cd8-5944-479c-ba21-7cf911e0a5b9
@@ -81,4 +82,8 @@ Returns ERROR_SUCCESS if the operation succeeds and the appropriate Win32 or iSC
 All initiator Host Bus Adapters, both software and hardware, use the same node name when establishing sessions.
 
 
+
+
+> [!NOTE]
+> The iscsidsc.h header defines GetIScsiInitiatorNodeName as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

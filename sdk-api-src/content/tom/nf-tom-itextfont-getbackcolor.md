@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetBackColor
 title: ITextFont::GetBackColor (tom.h)
-description: Gets the text background (highlight) color.helpviewer_keywords: ["GetBackColor","GetBackColor method [Windows Controls]","GetBackColor method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetBackColor method","ITextFont.GetBackColor","ITextFont::GetBackColor","_win32_ITextFont_GetBackColor","_win32_ITextFont_GetBackColor_cpp","controls.ITextFont_GetBackColor","controls._win32_ITextFont_GetBackColor","tom/ITextFont::GetBackColor"]
+description: Gets the text background (highlight) color.
+helpviewer_keywords: ["GetBackColor","GetBackColor method [Windows Controls]","GetBackColor method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetBackColor method","ITextFont.GetBackColor","ITextFont::GetBackColor","_win32_ITextFont_GetBackColor","_win32_ITextFont_GetBackColor_cpp","controls.ITextFont_GetBackColor","controls._win32_ITextFont_GetBackColor","tom/ITextFont::GetBackColor"]
 old-location: controls\ITextFont_GetBackColor.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getbackcolor.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:contentpartner.IWMPContentContainer.GetPrice
 title: IWMPContentContainer::GetPrice (contentpartner.h)
-description: Note  This section describes functionality designed for use by online stores.helpviewer_keywords: ["GetPrice","GetPrice method [Windows Media Player]","GetPrice method [Windows Media Player]","IWMPContentContainer interface","IWMPContentContainer interface [Windows Media Player]","GetPrice method","IWMPContentContainer.GetPrice","IWMPContentContainer::GetPrice","IWMPContentContainerGetPrice","contentpartner/IWMPContentContainer::GetPrice","wmp.iwmpcontentcontainer_getprice"]
+description: Note  This section describes functionality designed for use by online stores.
+helpviewer_keywords: ["GetPrice","GetPrice method [Windows Media Player]","GetPrice method [Windows Media Player]","IWMPContentContainer interface","IWMPContentContainer interface [Windows Media Player]","GetPrice method","IWMPContentContainer.GetPrice","IWMPContentContainer::GetPrice","IWMPContentContainerGetPrice","contentpartner/IWMPContentContainer::GetPrice","wmp.iwmpcontentcontainer_getprice"]
 old-location: wmp\iwmpcontentcontainer_getprice.htm
 tech.root: WMP
 ms.assetid: 2ed27b14-9567-4943-81c3-282316ce1605

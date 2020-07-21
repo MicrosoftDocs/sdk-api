@@ -1,7 +1,8 @@
 ---
 UID: NF:xenroll.ICEnroll3.EnumAlgs
 title: ICEnroll3::EnumAlgs (xenroll.h)
-description: The ICEnroll4::EnumAlgs method retrieves the IDs of cryptographic algorithms in a given algorithm class that are supported by the current cryptographic service provider (CSP).helpviewer_keywords: ["CEnroll object [Security]","EnumAlgs method","EnumAlgs","EnumAlgs method [Security]","EnumAlgs method [Security]","CEnroll object","EnumAlgs method [Security]","ICEnroll3 interface","EnumAlgs method [Security]","ICEnroll4 interface","ICEnroll3 interface [Security]","EnumAlgs method","ICEnroll3.EnumAlgs","ICEnroll3::EnumAlgs","ICEnroll4 interface [Security]","EnumAlgs method","ICEnroll4::EnumAlgs","security.icenroll4_enumalgs","xenroll/ICEnroll3::EnumAlgs","xenroll/ICEnroll4::EnumAlgs"]
+description: The ICEnroll4::EnumAlgs method retrieves the IDs of cryptographic algorithms in a given algorithm class that are supported by the current cryptographic service provider (CSP).
+helpviewer_keywords: ["CEnroll object [Security]","EnumAlgs method","EnumAlgs","EnumAlgs method [Security]","EnumAlgs method [Security]","CEnroll object","EnumAlgs method [Security]","ICEnroll3 interface","EnumAlgs method [Security]","ICEnroll4 interface","ICEnroll3 interface [Security]","EnumAlgs method","ICEnroll3.EnumAlgs","ICEnroll3::EnumAlgs","ICEnroll4 interface [Security]","EnumAlgs method","ICEnroll4::EnumAlgs","security.icenroll4_enumalgs","xenroll/ICEnroll3::EnumAlgs","xenroll/ICEnroll4::EnumAlgs"]
 old-location: security\icenroll4_enumalgs.htm
 tech.root: SecCrypto
 ms.assetid: b7fe4abc-38e8-42a0-a7a0-312ccfc309e5

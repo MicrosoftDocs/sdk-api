@@ -1,7 +1,8 @@
 ---
 UID: NF:instance.CInstance.SetByte
 title: CInstance::SetByte (instance.h)
-description: The SetByte method sets a BYTE property.helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","SetByte method","CInstance.SetByte","CInstance::SetByte","SetByte","SetByte method [Windows Management Instrumentation]","SetByte method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_setbyte","instance/CInstance::SetByte","wmi.cinstance_setbyte"]
+description: The SetByte method sets a BYTE property.
+helpviewer_keywords: ["CInstance interface [Windows Management Instrumentation]","SetByte method","CInstance.SetByte","CInstance::SetByte","SetByte","SetByte method [Windows Management Instrumentation]","SetByte method [Windows Management Instrumentation]","CInstance interface","_hmm_cinstance_setbyte","instance/CInstance::SetByte","wmi.cinstance_setbyte"]
 old-location: wmi\cinstance_setbyte.htm
 tech.root: WmiSdk
 ms.assetid: d6ecbada-4eb6-40ad-9e59-ba77fd3b883a

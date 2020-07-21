@@ -1,7 +1,8 @@
 ---
 UID: NF:adhoc.IEnumDot11AdHocSecuritySettings.Skip
 title: IEnumDot11AdHocSecuritySettings::Skip (adhoc.h)
-description: Skips over the next specified number of elements in the enumeration sequence.helpviewer_keywords: ["IEnumDot11AdHocSecuritySettings interface [NativeWIFI]","Skip method","IEnumDot11AdHocSecuritySettings.Skip","IEnumDot11AdHocSecuritySettings::Skip","Skip","Skip method [NativeWIFI]","Skip method [NativeWIFI]","IEnumDot11AdHocSecuritySettings interface","adhoc/IEnumDot11AdHocSecuritySettings::Skip","nwifi.ienumdot11adhocsecuritysettings_skip"]
+description: Skips over the next specified number of elements in the enumeration sequence.
+helpviewer_keywords: ["IEnumDot11AdHocSecuritySettings interface [NativeWIFI]","Skip method","IEnumDot11AdHocSecuritySettings.Skip","IEnumDot11AdHocSecuritySettings::Skip","Skip","Skip method [NativeWIFI]","Skip method [NativeWIFI]","IEnumDot11AdHocSecuritySettings interface","adhoc/IEnumDot11AdHocSecuritySettings::Skip","nwifi.ienumdot11adhocsecuritysettings_skip"]
 old-location: nwifi\ienumdot11adhocsecuritysettings_skip.htm
 tech.root: NativeWiFi
 ms.assetid: c423e794-bb3a-4dd8-b6bc-324d91909e92

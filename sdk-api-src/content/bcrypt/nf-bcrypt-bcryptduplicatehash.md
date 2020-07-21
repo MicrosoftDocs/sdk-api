@@ -1,7 +1,8 @@
 ---
 UID: NF:bcrypt.BCryptDuplicateHash
 title: BCryptDuplicateHash function (bcrypt.h)
-description: Duplicates an existing hash or Message Authentication Code (MAC) object.helpviewer_keywords: ["BCryptDuplicateHash","BCryptDuplicateHash function [Security]","bcrypt/BCryptDuplicateHash","security.bcryptduplicatehash_func"]
+description: Duplicates an existing hash or Message Authentication Code (MAC) object.
+helpviewer_keywords: ["BCryptDuplicateHash","BCryptDuplicateHash function [Security]","bcrypt/BCryptDuplicateHash","security.bcryptduplicatehash_func"]
 old-location: security\bcryptduplicatehash_func.htm
 tech.root: SecCNG
 ms.assetid: 451ff5dc-b66a-4e8e-a327-28b4ee618b74

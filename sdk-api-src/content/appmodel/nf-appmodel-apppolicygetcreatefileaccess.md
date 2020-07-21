@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.AppPolicyGetCreateFileAccess
 title: AppPolicyGetCreateFileAccess function (appmodel.h)
-description: Retrieves a value indicating whether a process has full or restricted access to the IO devices (file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe).helpviewer_keywords: ["AppPolicyGetCreateFileAccess","AppPolicyGetCreateFileAccess function [App packaging and management]","appmodel/AppPolicyGetCreateFileAccess","appxpkg.apppolicygetcreatefileaccess_function"]
+description: Retrieves a value indicating whether a process has full or restricted access to the IO devices (file, file stream, directory, physical disk, volume, console buffer, tape drive, communications resource, mailslot, and pipe).
+helpviewer_keywords: ["AppPolicyGetCreateFileAccess","AppPolicyGetCreateFileAccess function [App packaging and management]","appmodel/AppPolicyGetCreateFileAccess","appxpkg.apppolicygetcreatefileaccess_function"]
 old-location: appxpkg\apppolicygetcreatefileaccess_function.htm
 tech.root: appxpkg
 ms.assetid: 3AFFEAE5-CD49-458D-BBB8-AEC3A71566D1

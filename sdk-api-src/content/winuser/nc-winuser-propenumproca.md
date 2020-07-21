@@ -1,7 +1,8 @@
 ---
 UID: NC:winuser.PROPENUMPROCA
 title: PROPENUMPROCA (winuser.h)
-description: An application-defined callback function used with the EnumProps function.helpviewer_keywords: ["PropEnumProc","PropEnumProc callback","PropEnumProc callback function [Windows and Messages]","PropEnumProcA","PropEnumProcW","_win32_PropEnumProc","_win32_propenumproc_cpp","winmsg.propenumproc","winui._win32_propenumproc","winuser/PropEnumProc","winuser/PropEnumProcA","winuser/PropEnumProcW"]
+description: An application-defined callback function used with the EnumProps function.
+helpviewer_keywords: ["PropEnumProc","PropEnumProc callback","PropEnumProc callback function [Windows and Messages]","PropEnumProcA","PropEnumProcW","_win32_PropEnumProc","_win32_propenumproc_cpp","winmsg.propenumproc","winui._win32_propenumproc","winuser/PropEnumProc","winuser/PropEnumProcA","winuser/PropEnumProcW"]
 old-location: winmsg\propenumproc.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windowproperties\windowpropertyreference\windowpropertyfunctions\propenumproc.htm
@@ -105,6 +106,10 @@ The following restrictions apply to this callback function:
 </ul>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines PROPENUMPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

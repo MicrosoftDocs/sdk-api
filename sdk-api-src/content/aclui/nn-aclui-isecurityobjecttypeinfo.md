@@ -1,7 +1,8 @@
 ---
 UID: NN:aclui.ISecurityObjectTypeInfo
 title: ISecurityObjectTypeInfo (aclui.h)
-description: Provides a means of determining the source of inherited access control entries (ACEs) in discretionary access control lists (DACLs) and system access control lists (SACLs).helpviewer_keywords: ["ISecurityObjectTypeInfo","ISecurityObjectTypeInfo interface [Security]","ISecurityObjectTypeInfo interface [Security]","described","aclui/ISecurityObjectTypeInfo","security.isecurityobjecttypeinfo"]
+description: Provides a means of determining the source of inherited access control entries (ACEs) in discretionary access control lists (DACLs) and system access control lists (SACLs).
+helpviewer_keywords: ["ISecurityObjectTypeInfo","ISecurityObjectTypeInfo interface [Security]","ISecurityObjectTypeInfo interface [Security]","described","aclui/ISecurityObjectTypeInfo","security.isecurityobjecttypeinfo"]
 old-location: security\isecurityobjecttypeinfo.htm
 tech.root: SecAuthZ
 ms.assetid: 345c66b9-fa8a-4adc-a929-39bddca6aeec

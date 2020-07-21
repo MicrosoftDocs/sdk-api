@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.ClusterRegQueryInfoKey
 title: ClusterRegQueryInfoKey function (clusapi.h)
-description: Returns information about a cluster database key.helpviewer_keywords: ["ClusterRegQueryInfoKey","ClusterRegQueryInfoKey function [Failover Cluster]","_wolf_clusterregqueryinfokey","clusapi/ClusterRegQueryInfoKey","mscs.clusterregqueryinfokey"]
+description: Returns information about a cluster database key.
+helpviewer_keywords: ["ClusterRegQueryInfoKey","ClusterRegQueryInfoKey function [Failover Cluster]","_wolf_clusterregqueryinfokey","clusapi/ClusterRegQueryInfoKey","mscs.clusterregqueryinfokey"]
 old-location: mscs\clusterregqueryinfokey.htm
 tech.root: MsCS
 ms.assetid: 90feb6ae-bd15-4431-ba99-0116fa20e94a

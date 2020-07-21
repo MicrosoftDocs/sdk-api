@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateSaturationEffect
 title: IDCompositionDevice3::CreateSaturationEffect (dcomp.h)
-description: Creates an instance of IDCompositionSaturationEffect.helpviewer_keywords: ["CreateSaturationEffect","CreateSaturationEffect method [DirectComposition]","CreateSaturationEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateSaturationEffect method","IDCompositionDevice3.CreateSaturationEffect","IDCompositionDevice3::CreateSaturationEffect","dcomp/IDCompositionDevice3::CreateSaturationEffect","directcomp.idcompositiondevice3_createsaturationeffect"]
+description: Creates an instance of IDCompositionSaturationEffect.
+helpviewer_keywords: ["CreateSaturationEffect","CreateSaturationEffect method [DirectComposition]","CreateSaturationEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateSaturationEffect method","IDCompositionDevice3.CreateSaturationEffect","IDCompositionDevice3::CreateSaturationEffect","dcomp/IDCompositionDevice3::CreateSaturationEffect","directcomp.idcompositiondevice3_createsaturationeffect"]
 old-location: directcomp\idcompositiondevice3_createsaturationeffect.htm
 tech.root: directcomp
 ms.assetid: 19613AF4-6EC0-4918-9FC1-147A04D321CA

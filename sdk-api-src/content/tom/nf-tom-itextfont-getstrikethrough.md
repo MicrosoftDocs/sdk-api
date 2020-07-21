@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.GetStrikeThrough
 title: ITextFont::GetStrikeThrough (tom.h)
-description: Gets whether characters are displayed with a horizontal line through the center.helpviewer_keywords: ["GetStrikeThrough","GetStrikeThrough method [Windows Controls]","GetStrikeThrough method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetStrikeThrough method","ITextFont.GetStrikeThrough","ITextFont::GetStrikeThrough","_win32_ITextFont_GetStrikeThrough","_win32_ITextFont_GetStrikeThrough_cpp","controls.ITextFont_GetStrikeThrough","controls._win32_ITextFont_GetStrikeThrough","tom/ITextFont::GetStrikeThrough"]
+description: Gets whether characters are displayed with a horizontal line through the center.
+helpviewer_keywords: ["GetStrikeThrough","GetStrikeThrough method [Windows Controls]","GetStrikeThrough method [Windows Controls]","ITextFont interface","ITextFont interface [Windows Controls]","GetStrikeThrough method","ITextFont.GetStrikeThrough","ITextFont::GetStrikeThrough","_win32_ITextFont_GetStrikeThrough","_win32_ITextFont_GetStrikeThrough_cpp","controls.ITextFont_GetStrikeThrough","controls._win32_ITextFont_GetStrikeThrough","tom/ITextFont::GetStrikeThrough"]
 old-location: controls\ITextFont_GetStrikeThrough.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\getstrikethrough.htm

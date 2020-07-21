@@ -1,7 +1,8 @@
 ---
 UID: NF:netfw.INetFwIcmpSettings.get_AllowOutboundTimeExceeded
 title: INetFwIcmpSettings::get_AllowOutboundTimeExceeded (netfw.h)
-description: Indicates whether exceeding the outbound time is allowed.helpviewer_keywords: ["AllowOutboundTimeExceeded property [ICS/ICF]","AllowOutboundTimeExceeded property [ICS/ICF]","INetFwIcmpSettings interface","INetFwIcmpSettings interface [ICS/ICF]","AllowOutboundTimeExceeded property","INetFwIcmpSettings.AllowOutboundTimeExceeded","INetFwIcmpSettings.get_AllowOutboundTimeExceeded","INetFwIcmpSettings::AllowOutboundTimeExceeded","INetFwIcmpSettings::get_AllowOutboundTimeExceeded","INetFwIcmpSettings::put_AllowOutboundTimeExceeded","get_AllowOutboundTimeExceeded","ics.inetfwicmpsettings_allowoutboundtimeexceeded","netfw/INetFwIcmpSettings::AllowOutboundTimeExceeded","netfw/INetFwIcmpSettings::get_AllowOutboundTimeExceeded","netfw/INetFwIcmpSettings::put_AllowOutboundTimeExceeded"]
+description: Indicates whether exceeding the outbound time is allowed.
+helpviewer_keywords: ["AllowOutboundTimeExceeded property [ICS/ICF]","AllowOutboundTimeExceeded property [ICS/ICF]","INetFwIcmpSettings interface","INetFwIcmpSettings interface [ICS/ICF]","AllowOutboundTimeExceeded property","INetFwIcmpSettings.AllowOutboundTimeExceeded","INetFwIcmpSettings.get_AllowOutboundTimeExceeded","INetFwIcmpSettings::AllowOutboundTimeExceeded","INetFwIcmpSettings::get_AllowOutboundTimeExceeded","INetFwIcmpSettings::put_AllowOutboundTimeExceeded","get_AllowOutboundTimeExceeded","ics.inetfwicmpsettings_allowoutboundtimeexceeded","netfw/INetFwIcmpSettings::AllowOutboundTimeExceeded","netfw/INetFwIcmpSettings::get_AllowOutboundTimeExceeded","netfw/INetFwIcmpSettings::put_AllowOutboundTimeExceeded"]
 old-location: ics\inetfwicmpsettings_allowoutboundtimeexceeded.htm
 tech.root: ics
 ms.assetid: b0a78d16-ce10-4978-bd66-e4841a4c52b6

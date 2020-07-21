@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IDvbTeletextDescriptor
 title: IDvbTeletextDescriptor (dvbsiparser.h)
-description: Implements methods that get data from a Digital Video Broadcast (DVB) teletext descriptor. The teletext descriptor is the part of the DVB program map table (PMT) that identifies European Broadcasting Union (EBU) teletext streams.helpviewer_keywords: ["IDvbTeletextDescriptor","IDvbTeletextDescriptor interface [Microsoft TV Technologies]","IDvbTeletextDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbTeletextDescriptor","mstv.idvbteletextdescriptor"]
+description: Implements methods that get data from a Digital Video Broadcast (DVB) teletext descriptor. The teletext descriptor is the part of the DVB program map table (PMT) that identifies European Broadcasting Union (EBU) teletext streams.
+helpviewer_keywords: ["IDvbTeletextDescriptor","IDvbTeletextDescriptor interface [Microsoft TV Technologies]","IDvbTeletextDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbTeletextDescriptor","mstv.idvbteletextdescriptor"]
 old-location: mstv\idvbteletextdescriptor.htm
 tech.root: mstv
 ms.assetid: 5148a87b-e6b6-4bda-871c-10a2f398ebcc

@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.put_SuppressEffects
 title: IMSVidVideoRenderer2::put_SuppressEffects (segment.h)
-description: The put_SuppressEffects method sets preferences for power management and visual effects.helpviewer_keywords: ["IMSVidVideoRenderer2 interface [Microsoft TV Technologies]","put_SuppressEffects method","IMSVidVideoRenderer2.put_SuppressEffects","IMSVidVideoRenderer2::put_SuppressEffects","IMSVidVideoRenderer2put_SuppressEffects","mstv.imsvidvideorenderer2_put_suppresseffects","put_SuppressEffects","put_SuppressEffects method [Microsoft TV Technologies]","put_SuppressEffects method [Microsoft TV Technologies]","IMSVidVideoRenderer2 interface","segment/IMSVidVideoRenderer2::put_SuppressEffects"]
+description: The put_SuppressEffects method sets preferences for power management and visual effects.
+helpviewer_keywords: ["IMSVidVideoRenderer2 interface [Microsoft TV Technologies]","put_SuppressEffects method","IMSVidVideoRenderer2.put_SuppressEffects","IMSVidVideoRenderer2::put_SuppressEffects","IMSVidVideoRenderer2put_SuppressEffects","mstv.imsvidvideorenderer2_put_suppresseffects","put_SuppressEffects","put_SuppressEffects method [Microsoft TV Technologies]","put_SuppressEffects method [Microsoft TV Technologies]","IMSVidVideoRenderer2 interface","segment/IMSVidVideoRenderer2::put_SuppressEffects"]
 old-location: mstv\imsvidvideorenderer2_put_suppresseffects.htm
 tech.root: mstv
 ms.assetid: d362addb-626a-42f8-9b95-82189a338527

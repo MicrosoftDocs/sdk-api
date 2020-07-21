@@ -1,7 +1,8 @@
 ---
 UID: NF:d3dcompiler.D3DDisassembleRegion
 title: D3DDisassembleRegion function (d3dcompiler.h)
-description: Disassembles a specific region of compiled Microsoft High Level Shader Language (HLSL) code.helpviewer_keywords: ["D3DDisassembleRegion","D3DDisassembleRegion function [HLSL]","d3dcompiler/D3DDisassembleRegion","direct3dhlsl.d3ddisassembleregion"]
+description: Disassembles a specific region of compiled Microsoft High Level Shader Language (HLSL) code.
+helpviewer_keywords: ["D3DDisassembleRegion","D3DDisassembleRegion function [HLSL]","d3dcompiler/D3DDisassembleRegion","direct3dhlsl.d3ddisassembleregion"]
 old-location: direct3dhlsl\d3ddisassembleregion.htm
 tech.root: direct3dhlsl
 ms.assetid: 4813FF62-42FA-425D-9C24-9E472F04E35B

@@ -1,7 +1,8 @@
 ---
 UID: NC:resapi.PWORKER_START_ROUTINE
 title: PWORKER_START_ROUTINE (resapi.h)
-description: Initializes a worker thread with the specified callback routine. The PWORKER_START_ROUTINE type defines a pointer to this function.helpviewer_keywords: ["PWORKER_START_ROUTINE","PWORKER_START_ROUTINE callback function [Failover Cluster]","WorkerStartRoutine","WorkerStartRoutine callback","WorkerStartRoutine callback function [Failover Cluster]","mscs.pworker_start_routine","resapi/PWORKER_START_ROUTINE","resapi/WorkerStartRoutine"]
+description: Initializes a worker thread with the specified callback routine. The PWORKER_START_ROUTINE type defines a pointer to this function.
+helpviewer_keywords: ["PWORKER_START_ROUTINE","PWORKER_START_ROUTINE callback function [Failover Cluster]","WorkerStartRoutine","WorkerStartRoutine callback","WorkerStartRoutine callback function [Failover Cluster]","mscs.pworker_start_routine","resapi/PWORKER_START_ROUTINE","resapi/WorkerStartRoutine"]
 old-location: mscs\pworker_start_routine.htm
 tech.root: MsCS
 ms.assetid: d46eaaa7-241a-40a5-a691-68631565e2e7

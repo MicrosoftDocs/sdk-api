@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.InitCommonControlsEx
 title: InitCommonControlsEx function (commctrl.h)
-description: Ensures that the common control DLL (Comctl32.dll) is loaded, and registers specific common control classes from the DLL. An application must call this function before creating a common control.helpviewer_keywords: ["InitCommonControlsEx","InitCommonControlsEx function [Windows Controls]","_win32_InitCommonControlsEx","_win32_InitCommonControlsEx_cpp","commctrl/InitCommonControlsEx","controls.InitCommonControlsEx","controls._win32_InitCommonControlsEx"]
+description: Ensures that the common control DLL (Comctl32.dll) is loaded, and registers specific common control classes from the DLL. An application must call this function before creating a common control.
+helpviewer_keywords: ["InitCommonControlsEx","InitCommonControlsEx function [Windows Controls]","_win32_InitCommonControlsEx","_win32_InitCommonControlsEx_cpp","commctrl/InitCommonControlsEx","controls.InitCommonControlsEx","controls._win32_InitCommonControlsEx"]
 old-location: controls\InitCommonControlsEx.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrolsex.htm

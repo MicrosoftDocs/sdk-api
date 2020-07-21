@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiAskForOEMDisk
 title: SetupDiAskForOEMDisk function (setupapi.h)
-description: The SetupDiAskForOEMDisk function displays a dialog that asks the user for the path of an OEM installation disk.helpviewer_keywords: ["SetupDiAskForOEMDisk","SetupDiAskForOEMDisk function [Device and Driver Installation]","devinst.setupdiaskforoemdisk","di-rtns_4b903984-cb48-48d3-9de8-dc68a79128c2.xml","setupapi/SetupDiAskForOEMDisk"]
+description: The SetupDiAskForOEMDisk function displays a dialog that asks the user for the path of an OEM installation disk.
+helpviewer_keywords: ["SetupDiAskForOEMDisk","SetupDiAskForOEMDisk function [Device and Driver Installation]","devinst.setupdiaskforoemdisk","di-rtns_4b903984-cb48-48d3-9de8-dc68a79128c2.xml","setupapi/SetupDiAskForOEMDisk"]
 old-location: devinst\setupdiaskforoemdisk.htm
 tech.root: devinst
 ms.assetid: 5be03143-3de0-43ed-a027-832f1e275527

@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeSysString
 title: GetThemeSysString function (uxtheme.h)
-description: Retrieves the value of a system string.helpviewer_keywords: ["GetThemeSysString","GetThemeSysString function [Windows Controls]","TMT_CSSNAME","TMT_XMLNAME","controls.GetThemeSysString","controls.inet_GetThemeSysString","inet_GetThemeSysString","inet_GetThemeSysString_cpp","uxtheme/GetThemeSysString"]
+description: Retrieves the value of a system string.
+helpviewer_keywords: ["GetThemeSysString","GetThemeSysString function [Windows Controls]","TMT_CSSNAME","TMT_XMLNAME","controls.GetThemeSysString","controls.inet_GetThemeSysString","inet_GetThemeSysString","inet_GetThemeSysString_cpp","uxtheme/GetThemeSysString"]
 old-location: controls\GetThemeSysString.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemesysstring.htm

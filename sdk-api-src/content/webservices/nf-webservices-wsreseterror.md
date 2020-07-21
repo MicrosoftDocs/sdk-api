@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsResetError
 title: WsResetError function (webservices.h)
-description: Releases the content of the error object parameter but does not release the resource allocated to the error object parameter.helpviewer_keywords: ["WsResetError","WsResetError function [Web Services for Windows]","webservices/WsResetError","wsw.wsreseterror"]
+description: Releases the content of the error object parameter but does not release the resource allocated to the error object parameter.
+helpviewer_keywords: ["WsResetError","WsResetError function [Web Services for Windows]","webservices/WsResetError","wsw.wsreseterror"]
 old-location: wsw\wsreseterror.htm
 tech.root: wsw
 ms.assetid: a01a65f1-3eca-452c-a10d-dc9c6c3db124

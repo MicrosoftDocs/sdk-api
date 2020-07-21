@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcPartSet.GetPart
 title: IOpcPartSet::GetPart (msopc.h)
-description: Gets a part object, which represents a specified part, in the set.helpviewer_keywords: ["GetPart","GetPart method [Open Packaging Conventions]","GetPart method [Open Packaging Conventions]","IOpcPartSet interface","IOpcPartSet interface [Open Packaging Conventions]","GetPart method","IOpcPartSet.GetPart","IOpcPartSet::GetPart","msopc/IOpcPartSet::GetPart","opc.iopcpartset_getpart"]
+description: Gets a part object, which represents a specified part, in the set.
+helpviewer_keywords: ["GetPart","GetPart method [Open Packaging Conventions]","GetPart method [Open Packaging Conventions]","IOpcPartSet interface","IOpcPartSet interface [Open Packaging Conventions]","GetPart method","IOpcPartSet.GetPart","IOpcPartSet::GetPart","msopc/IOpcPartSet::GetPart","opc.iopcpartset_getpart"]
 old-location: opc\iopcpartset_getpart.htm
 tech.root: OPC
 ms.assetid: 3a44725b-23a0-4338-b618-c0ce4ecde204

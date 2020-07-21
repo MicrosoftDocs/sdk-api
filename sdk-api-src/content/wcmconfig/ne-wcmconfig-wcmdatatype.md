@@ -1,7 +1,8 @@
 ---
 UID: NE:wcmconfig.__MIDL___MIDL_itf_wcmconfig_0000_0000_0003
 title: WcmDataType (wcmconfig.h)
-description: Enumerates the data types returned from the ISettingsItem::GetDataType method.helpviewer_keywords: ["WcmDataType","WcmDataType enumeration [SMI]","dataTypeBoolean","dataTypeByte","dataTypeFlagArray","dataTypeInt16","dataTypeInt32","dataTypeInt64","dataTypeSByte","dataTypeString","dataTypeUInt16","dataTypeUInt32","dataTypeUInt64","smi.wcmdatatype","wcmconfig/WcmDataType","wcmconfig/dataTypeBoolean","wcmconfig/dataTypeByte","wcmconfig/dataTypeFlagArray","wcmconfig/dataTypeInt16","wcmconfig/dataTypeInt32","wcmconfig/dataTypeInt64","wcmconfig/dataTypeSByte","wcmconfig/dataTypeString","wcmconfig/dataTypeUInt16","wcmconfig/dataTypeUInt32","wcmconfig/dataTypeUInt64"]
+description: Enumerates the data types returned from the ISettingsItem::GetDataType method.
+helpviewer_keywords: ["WcmDataType","WcmDataType enumeration [SMI]","dataTypeBoolean","dataTypeByte","dataTypeFlagArray","dataTypeInt16","dataTypeInt32","dataTypeInt64","dataTypeSByte","dataTypeString","dataTypeUInt16","dataTypeUInt32","dataTypeUInt64","smi.wcmdatatype","wcmconfig/WcmDataType","wcmconfig/dataTypeBoolean","wcmconfig/dataTypeByte","wcmconfig/dataTypeFlagArray","wcmconfig/dataTypeInt16","wcmconfig/dataTypeInt32","wcmconfig/dataTypeInt64","wcmconfig/dataTypeSByte","wcmconfig/dataTypeString","wcmconfig/dataTypeUInt16","wcmconfig/dataTypeUInt32","wcmconfig/dataTypeUInt64"]
 old-location: smi\wcmdatatype.htm
 tech.root: SMI
 ms.assetid: 27cf5831-f515-4864-bd40-a9d64f30c92d

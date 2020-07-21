@@ -1,7 +1,8 @@
 ---
 UID: NC:lpmapi.CBADMITRESULT
 title: CBADMITRESULT (lpmapi.h)
-description: The cbAdmitResult function is used by LPMs to return results for the LPM_AdmitRsvpMsg request.helpviewer_keywords: ["CBADMITRESULT","CBADMITRESULT callback function [QOS]","DUP_RESULTS","INV_LPM_HANDLE","INV_REQ_HANDLE","INV_RESULTS","LPM_TIME_OUT","cbAdmitResult","cbAdmitResult callback","cbAdmitResult callback function [QOS]","lpmapi/cbAdmitResult","qos.cbadmitresult"]
+description: The cbAdmitResult function is used by LPMs to return results for the LPM_AdmitRsvpMsg request.
+helpviewer_keywords: ["CBADMITRESULT","CBADMITRESULT callback function [QOS]","DUP_RESULTS","INV_LPM_HANDLE","INV_REQ_HANDLE","INV_RESULTS","LPM_TIME_OUT","cbAdmitResult","cbAdmitResult callback","cbAdmitResult callback function [QOS]","lpmapi/cbAdmitResult","qos.cbadmitresult"]
 old-location: qos\cbadmitresult.htm
 tech.root: QOS
 ms.assetid: 9040155b-6c6d-4deb-a63a-74e5fc8123ba

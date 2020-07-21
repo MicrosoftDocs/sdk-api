@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkPicture.HitTestSelection
 title: IInkPicture::HitTestSelection (msinkaut.h)
-description: Retrieves a member of the SelectionHitResult enumeration, which specifies which part of a selection, if any, was hit during a hit test.helpviewer_keywords: ["8dc745d8-7e2a-4255-86c6-226bf82d3d64","HitTestSelection","HitTestSelection method [Tablet PC]","HitTestSelection method [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","HitTestSelection method","IInkPicture.HitTestSelection","IInkPicture::HitTestSelection","msinkaut/IInkPicture::HitTestSelection","tablet.inkpicture_hittestselection"]
+description: Retrieves a member of the SelectionHitResult enumeration, which specifies which part of a selection, if any, was hit during a hit test.
+helpviewer_keywords: ["8dc745d8-7e2a-4255-86c6-226bf82d3d64","HitTestSelection","HitTestSelection method [Tablet PC]","HitTestSelection method [Tablet PC]","IInkPicture interface","IInkPicture interface [Tablet PC]","HitTestSelection method","IInkPicture.HitTestSelection","IInkPicture::HitTestSelection","msinkaut/IInkPicture::HitTestSelection","tablet.inkpicture_hittestselection"]
 old-location: tablet\inkpicture_hittestselection.htm
 tech.root: tablet
 ms.assetid: 8dc745d8-7e2a-4255-86c6-226bf82d3d64

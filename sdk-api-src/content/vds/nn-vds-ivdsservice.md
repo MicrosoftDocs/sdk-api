@@ -1,7 +1,8 @@
 ---
 UID: NN:vds.IVdsService
 title: IVdsService (vds.h)
-description: Provides methods to query and interact with VDS.helpviewer_keywords: ["IVdsService","IVdsService interface [VDS]","IVdsService interface [VDS]","described","base.ivdsservice","vds/IVdsService"]
+description: Provides methods to query and interact with VDS.
+helpviewer_keywords: ["IVdsService","IVdsService interface [VDS]","IVdsService interface [VDS]","described","base.ivdsservice","vds/IVdsService"]
 old-location: base\ivdsservice.htm
 tech.root: VDS
 ms.assetid: 6b081cc8-fe06-427f-b06d-831a1f1fef52

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_SetTileViewInfo
 title: ListView_SetTileViewInfo macro (commctrl.h)
-description: Sets information that a list-view control uses in tile view. You can use this macro or send the LVM_SETTILEVIEWINFO message explicitly.helpviewer_keywords: ["ListView_SetTileViewInfo","ListView_SetTileViewInfo macro [Windows Controls]","_win32_ListView_SetTileViewInfo","_win32_ListView_SetTileViewInfo_cpp","commctrl/ListView_SetTileViewInfo","controls.ListView_SetTileViewInfo","controls._win32_ListView_SetTileViewInfo"]
+description: Sets information that a list-view control uses in tile view. You can use this macro or send the LVM_SETTILEVIEWINFO message explicitly.
+helpviewer_keywords: ["ListView_SetTileViewInfo","ListView_SetTileViewInfo macro [Windows Controls]","_win32_ListView_SetTileViewInfo","_win32_ListView_SetTileViewInfo_cpp","commctrl/ListView_SetTileViewInfo","controls.ListView_SetTileViewInfo","controls._win32_ListView_SetTileViewInfo"]
 old-location: controls\ListView_SetTileViewInfo.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_settileviewinfo.htm

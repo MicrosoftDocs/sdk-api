@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11.ID3D11Device.CreateBuffer
 title: ID3D11Device::CreateBuffer (d3d11.h)
-description: Creates a buffer (vertex buffer, index buffer, or shader-constant buffer).helpviewer_keywords: ["CreateBuffer","CreateBuffer method [Direct3D 11]","CreateBuffer method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateBuffer method","ID3D11Device.CreateBuffer","ID3D11Device::CreateBuffer","d3d11/ID3D11Device::CreateBuffer","direct3d11.id3d11device_createbuffer","e4ddf93d-90c3-2369-284d-e5d67efaf51e"]
+description: Creates a buffer (vertex buffer, index buffer, or shader-constant buffer).
+helpviewer_keywords: ["CreateBuffer","CreateBuffer method [Direct3D 11]","CreateBuffer method [Direct3D 11]","ID3D11Device interface","ID3D11Device interface [Direct3D 11]","CreateBuffer method","ID3D11Device.CreateBuffer","ID3D11Device::CreateBuffer","d3d11/ID3D11Device::CreateBuffer","direct3d11.id3d11device_createbuffer","e4ddf93d-90c3-2369-284d-e5d67efaf51e"]
 old-location: direct3d11\id3d11device_createbuffer.htm
 tech.root: direct3d11
 ms.assetid: 5aec93c5-12a1-4b4e-813e-ee1e85adbf14

@@ -1,7 +1,8 @@
 ---
 UID: NF:directxcollision.BoundingFrustum.GetPlanes
 title: BoundingFrustum::GetPlanes
-description: Gets the planes making up the BoundingFrustum.helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","GetPlanes method","BoundingFrustum.GetPlanes","BoundingFrustum::GetPlanes","GetPlanes","GetPlanes method [DirectX Math Support APIs]","GetPlanes method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_getplanes"]
+description: Gets the planes making up the BoundingFrustum.
+helpviewer_keywords: ["BoundingFrustum interface [DirectX Math Support APIs]","GetPlanes method","BoundingFrustum.GetPlanes","BoundingFrustum::GetPlanes","GetPlanes","GetPlanes method [DirectX Math Support APIs]","GetPlanes method [DirectX Math Support APIs]","BoundingFrustum interface","dxmath.boundingfrustum_getplanes"]
 old-location: dxmath\boundingfrustum_getplanes.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.directxmath.BoundingFrustum.GetPlanes(XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR,XMVECTOR)

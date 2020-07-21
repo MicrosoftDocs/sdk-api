@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRecognitionAlternate.get_Strokes
 title: IInkRecognitionAlternate::get_Strokes (msinkaut.h)
-description: Gets the collection of strokes that are contained in an object or used to create an object.helpviewer_keywords: ["IInkRecognitionAlternate interface [Tablet PC]","Strokes property","IInkRecognitionAlternate.Strokes","IInkRecognitionAlternate.get_Strokes","IInkRecognitionAlternate::Strokes","IInkRecognitionAlternate::get_Strokes","Strokes property [Tablet PC]","Strokes property [Tablet PC]","IInkRecognitionAlternate interface","get_Strokes","msinkaut/IInkRecognitionAlternate::Strokes","msinkaut/IInkRecognitionAlternate::get_Strokes","tablet.iinkrecognitionalternate_strokes"]
+description: Gets the collection of strokes that are contained in an object or used to create an object.
+helpviewer_keywords: ["IInkRecognitionAlternate interface [Tablet PC]","Strokes property","IInkRecognitionAlternate.Strokes","IInkRecognitionAlternate.get_Strokes","IInkRecognitionAlternate::Strokes","IInkRecognitionAlternate::get_Strokes","Strokes property [Tablet PC]","Strokes property [Tablet PC]","IInkRecognitionAlternate interface","get_Strokes","msinkaut/IInkRecognitionAlternate::Strokes","msinkaut/IInkRecognitionAlternate::get_Strokes","tablet.iinkrecognitionalternate_strokes"]
 old-location: tablet\iinkrecognitionalternate_strokes.htm
 tech.root: tablet
 ms.assetid: 60ce6ed5-67d3-4471-a7a1-4653e8a122a1

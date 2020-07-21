@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmreports.IFsrmFileManagementJob.DeleteNotification
 title: IFsrmFileManagementJob::DeleteNotification (fsrmreports.h)
-description: Deletes a notification value from the file management job's list of notifications.helpviewer_keywords: ["DeleteNotification","DeleteNotification method [File Server Resource Manager]","DeleteNotification method [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","DeleteNotification method","IFsrmFileManagementJob.DeleteNotification","IFsrmFileManagementJob::DeleteNotification","fs.ifsrmfilemanagementjob_deletenotification","fsrm.ifsrmfilemanagementjob_deletenotification","fsrmreports/IFsrmFileManagementJob::DeleteNotification"]
+description: Deletes a notification value from the file management job's list of notifications.
+helpviewer_keywords: ["DeleteNotification","DeleteNotification method [File Server Resource Manager]","DeleteNotification method [File Server Resource Manager]","IFsrmFileManagementJob interface","IFsrmFileManagementJob interface [File Server Resource Manager]","DeleteNotification method","IFsrmFileManagementJob.DeleteNotification","IFsrmFileManagementJob::DeleteNotification","fs.ifsrmfilemanagementjob_deletenotification","fsrm.ifsrmfilemanagementjob_deletenotification","fsrmreports/IFsrmFileManagementJob::DeleteNotification"]
 old-location: fsrm\ifsrmfilemanagementjob_deletenotification.htm
 tech.root: fsrm
 ms.assetid: d21e289a-5062-4897-9479-3408589db11f

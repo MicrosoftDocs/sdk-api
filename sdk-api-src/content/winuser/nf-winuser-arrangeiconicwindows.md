@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.ArrangeIconicWindows
 title: ArrangeIconicWindows function (winuser.h)
-description: Arranges all the minimized (iconic) child windows of the specified parent window.helpviewer_keywords: ["ArrangeIconicWindows","ArrangeIconicWindows function [Windows and Messages]","_win32_ArrangeIconicWindows","_win32_arrangeiconicwindows_cpp","winmsg.arrangeiconicwindows","winui._win32_arrangeiconicwindows","winuser/ArrangeIconicWindows"]
+description: Arranges all the minimized (iconic) child windows of the specified parent window.
+helpviewer_keywords: ["ArrangeIconicWindows","ArrangeIconicWindows function [Windows and Messages]","_win32_ArrangeIconicWindows","_win32_arrangeiconicwindows_cpp","winmsg.arrangeiconicwindows","winui._win32_arrangeiconicwindows","winuser/ArrangeIconicWindows"]
 old-location: winmsg\arrangeiconicwindows.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\arrangeiconicwindows.htm

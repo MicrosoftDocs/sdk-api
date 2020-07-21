@@ -1,7 +1,8 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReaderCallback.OnEvent
 title: IMFSourceReaderCallback::OnEvent (mfreadwrite.h)
-description: Called when the source reader receives certain events from the media source.helpviewer_keywords: ["IMFSourceReaderCallback interface [Media Foundation]","OnEvent method","IMFSourceReaderCallback.OnEvent","IMFSourceReaderCallback::OnEvent","OnEvent","OnEvent method [Media Foundation]","OnEvent method [Media Foundation]","IMFSourceReaderCallback interface","mf.imfsourcereadercallback_onevent","mfreadwrite/IMFSourceReaderCallback::OnEvent"]
+description: Called when the source reader receives certain events from the media source.
+helpviewer_keywords: ["IMFSourceReaderCallback interface [Media Foundation]","OnEvent method","IMFSourceReaderCallback.OnEvent","IMFSourceReaderCallback::OnEvent","OnEvent","OnEvent method [Media Foundation]","OnEvent method [Media Foundation]","IMFSourceReaderCallback interface","mf.imfsourcereadercallback_onevent","mfreadwrite/IMFSourceReaderCallback::OnEvent"]
 old-location: mf\imfsourcereadercallback_onevent.htm
 tech.root: medfound
 ms.assetid: cbe85d0f-26a1-4526-bfe6-b6183812a271

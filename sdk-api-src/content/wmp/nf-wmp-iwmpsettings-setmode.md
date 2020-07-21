@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPSettings.setMode
 title: IWMPSettings::setMode (wmp.h)
-description: The setMode method sets the state of playback options.helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","setMode method","IWMPSettings.setMode","IWMPSettings::setMode","IWMPSettingssetMode","setMode","setMode method [Windows Media Player]","setMode method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_setmode","wmp/IWMPSettings::setMode"]
+description: The setMode method sets the state of playback options.
+helpviewer_keywords: ["IWMPSettings interface [Windows Media Player]","setMode method","IWMPSettings.setMode","IWMPSettings::setMode","IWMPSettingssetMode","setMode","setMode method [Windows Media Player]","setMode method [Windows Media Player]","IWMPSettings interface","wmp.iwmpsettings_setmode","wmp/IWMPSettings::setMode"]
 old-location: wmp\iwmpsettings_setmode.htm
 tech.root: WMP
 ms.assetid: 28a404a7-5bb0-41bb-a5b2-cc6138b8176e

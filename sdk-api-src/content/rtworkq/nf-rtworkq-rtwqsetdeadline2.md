@@ -1,7 +1,8 @@
 ---
 UID: NF:rtworkq.RtwqSetDeadline2
 title: RtwqSetDeadline2 function (rtworkq.h)
-description: Sets a deadline by which the work in a work queue must be completed.helpviewer_keywords: ["RtwqSetDeadline2","RtwqSetDeadline2 function","base.rtwqsetdeadline2","rtworkq/RtwqSetDeadline2"]
+description: Sets a deadline by which the work in a work queue must be completed.
+helpviewer_keywords: ["RtwqSetDeadline2","RtwqSetDeadline2 function","base.rtwqsetdeadline2","rtworkq/RtwqSetDeadline2"]
 old-location: base\rtwqsetdeadline2.htm
 tech.root: ProcThread
 ms.assetid: A259C9D2-9700-4FE8-81D6-7AD14476AA9C

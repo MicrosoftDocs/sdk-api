@@ -1,7 +1,8 @@
 ---
 UID: NC:avrfsdk.AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK
 title: AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK (avrfsdk.h)
-description: Receives information related to heap allocations.helpviewer_keywords: ["AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK","AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback","AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback function [Windows API]","avrfsdk/AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK","base.avrf_heap_allocation_enumerate_callback","winprog.avrf_heap_allocation_enumerate_callback"]
+description: Receives information related to heap allocations.
+helpviewer_keywords: ["AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK","AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback","AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK callback function [Windows API]","avrfsdk/AVRF_HEAPALLOCATION_ENUMERATE_CALLBACK","base.avrf_heap_allocation_enumerate_callback","winprog.avrf_heap_allocation_enumerate_callback"]
 old-location: winprog\avrf_heap_allocation_enumerate_callback.htm
 tech.root: DevNotes
 ms.assetid: 614d49f5-d119-4afe-b821-30ee9cb29582

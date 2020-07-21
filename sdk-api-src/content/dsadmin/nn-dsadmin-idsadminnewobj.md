@@ -1,7 +1,8 @@
 ---
 UID: NN:dsadmin.IDsAdminNewObj
 title: IDsAdminNewObj (dsadmin.h)
-description: The IDsAdminNewObj interface is used by a primary or secondary object creation wizard extension to obtain page count data and to control the command buttons in the wizard.helpviewer_keywords: ["IDsAdminNewObj","IDsAdminNewObj interface [Active Directory]","IDsAdminNewObj interface [Active Directory]","described","_glines_idsadminnewobj","ad.idsadminnewobj","dsadmin/IDsAdminNewObj"]
+description: The IDsAdminNewObj interface is used by a primary or secondary object creation wizard extension to obtain page count data and to control the command buttons in the wizard.
+helpviewer_keywords: ["IDsAdminNewObj","IDsAdminNewObj interface [Active Directory]","IDsAdminNewObj interface [Active Directory]","described","_glines_idsadminnewobj","ad.idsadminnewobj","dsadmin/IDsAdminNewObj"]
 old-location: ad\idsadminnewobj.htm
 tech.root: ad
 ms.assetid: b38016a2-bbb7-4715-81cc-bd9911fb5a3b

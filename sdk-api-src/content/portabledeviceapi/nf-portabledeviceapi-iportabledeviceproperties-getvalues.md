@@ -1,7 +1,8 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceProperties.GetValues
 title: IPortableDeviceProperties::GetValues (portabledeviceapi.h)
-description: The GetValues method retrieves a list of specified properties from a specified object on a device.helpviewer_keywords: ["GetValues","GetValues method [Windows Portable Devices SDK]","GetValues method [Windows Portable Devices SDK]","IPortableDeviceProperties interface","IPortableDeviceProperties interface [Windows Portable Devices SDK]","GetValues method","IPortableDeviceProperties.GetValues","IPortableDeviceProperties::GetValues","IPortableDevicePropertiesGetValues","portabledeviceapi/IPortableDeviceProperties::GetValues","wpdsdk.iportabledeviceproperties_getvalues"]
+description: The GetValues method retrieves a list of specified properties from a specified object on a device.
+helpviewer_keywords: ["GetValues","GetValues method [Windows Portable Devices SDK]","GetValues method [Windows Portable Devices SDK]","IPortableDeviceProperties interface","IPortableDeviceProperties interface [Windows Portable Devices SDK]","GetValues method","IPortableDeviceProperties.GetValues","IPortableDeviceProperties::GetValues","IPortableDevicePropertiesGetValues","portabledeviceapi/IPortableDeviceProperties::GetValues","wpdsdk.iportabledeviceproperties_getvalues"]
 old-location: wpdsdk\iportabledeviceproperties_getvalues.htm
 tech.root: wpd_sdk
 ms.assetid: 5f4ec65c-dd26-40d5-a9f8-a2175c3aa54c

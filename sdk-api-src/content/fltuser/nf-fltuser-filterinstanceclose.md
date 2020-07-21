@@ -1,7 +1,8 @@
 ---
 UID: NF:fltuser.FilterInstanceClose
 title: FilterInstanceClose function (fltuser.h)
-description: The FilterInstanceClose function closes a minifilter instance handle opened by FilterInstanceCreate.helpviewer_keywords: ["FilterInstanceClose","FilterInstanceClose function [Installable File System Drivers]","FltWin32ApiRef_aed3c694-a4bb-4804-9171-4d89cabd666d.xml","fltuser/FilterInstanceClose","ifsk.filterinstanceclose"]
+description: The FilterInstanceClose function closes a minifilter instance handle opened by FilterInstanceCreate.
+helpviewer_keywords: ["FilterInstanceClose","FilterInstanceClose function [Installable File System Drivers]","FltWin32ApiRef_aed3c694-a4bb-4804-9171-4d89cabd666d.xml","fltuser/FilterInstanceClose","ifsk.filterinstanceclose"]
 old-location: ifsk\filterinstanceclose.htm
 tech.root: ifsk
 ms.assetid: a0605b02-a5eb-4e7f-9659-0f0f538ea153

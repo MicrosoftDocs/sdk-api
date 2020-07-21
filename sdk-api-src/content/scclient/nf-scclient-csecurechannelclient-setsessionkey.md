@@ -1,7 +1,8 @@
 ---
 UID: NF:scclient.CSecureChannelClient.SetSessionKey
 title: CSecureChannelClient::SetSessionKey (scclient.h)
-description: The SetSessionKey method sets the key for this session that is used to communicate with another component. This method is not used by applications.helpviewer_keywords: ["CSecureChannelClient class [windows Media Device Manager]","SetSessionKey method","CSecureChannelClient.SetSessionKey","CSecureChannelClient::SetSessionKey","CSecureChannelClientSetSessionKey","SetSessionKey","SetSessionKey method [windows Media Device Manager]","SetSessionKey method [windows Media Device Manager]","CSecureChannelClient class","scclient/CSecureChannelClient::SetSessionKey","wmdm.csecurechannelclient_setsessionkey"]
+description: The SetSessionKey method sets the key for this session that is used to communicate with another component. This method is not used by applications.
+helpviewer_keywords: ["CSecureChannelClient class [windows Media Device Manager]","SetSessionKey method","CSecureChannelClient.SetSessionKey","CSecureChannelClient::SetSessionKey","CSecureChannelClientSetSessionKey","SetSessionKey","SetSessionKey method [windows Media Device Manager]","SetSessionKey method [windows Media Device Manager]","CSecureChannelClient class","scclient/CSecureChannelClient::SetSessionKey","wmdm.csecurechannelclient_setsessionkey"]
 old-location: wmdm\csecurechannelclient_setsessionkey.htm
 tech.root: WMDM
 ms.assetid: a57ffca0-3098-415c-bea5-a3ea9efbd591

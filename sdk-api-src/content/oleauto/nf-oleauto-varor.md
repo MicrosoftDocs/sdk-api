@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarOr
 title: VarOr function (oleauto.h)
-description: Performs a logical disjunction on two variants.helpviewer_keywords: ["VarOr","VarOr function [Automation]","_oa96_VarOr","automat.varor","oleauto/VarOr"]
+description: Performs a logical disjunction on two variants.
+helpviewer_keywords: ["VarOr","VarOr function [Automation]","_oa96_VarOr","automat.varor","oleauto/VarOr"]
 old-location: automat\varor.htm
 tech.root: automat
 ms.assetid: 8c161755-4fdd-48bd-9dc4-6510cc9ce8ab

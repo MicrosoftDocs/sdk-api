@@ -1,7 +1,8 @@
 ---
 UID: NN:uiautomationclient.IUIAutomationOrCondition
 title: IUIAutomationOrCondition (uiautomationclient.h)
-description: Represents a condition made up of multiple conditions, at least one of which must be true.helpviewer_keywords: ["IUIAutomationOrCondition","IUIAutomationOrCondition interface [Windows Accessibility]","IUIAutomationOrCondition interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationOrCondition","uiauto_IUIAutomationOrCondition","uiautomationclient/IUIAutomationOrCondition","winauto.uiauto_IUIAutomationOrCondition"]
+description: Represents a condition made up of multiple conditions, at least one of which must be true.
+helpviewer_keywords: ["IUIAutomationOrCondition","IUIAutomationOrCondition interface [Windows Accessibility]","IUIAutomationOrCondition interface [Windows Accessibility]","described","uiauto.uiauto_IUIAutomationOrCondition","uiauto_IUIAutomationOrCondition","uiautomationclient/IUIAutomationOrCondition","winauto.uiauto_IUIAutomationOrCondition"]
 old-location: winauto\uiauto_IUIAutomationOrCondition.htm
 tech.root: WinAuto
 ms.assetid: 323dedd5-2799-4fcc-bc8c-56b39ab7f882

@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.EnumAssemblyRefs
 title: IMetaDataAssemblyImport::EnumAssemblyRefs (rometadataapi.h)
-description: Enumerates the mdAssemblyRef instances that are defined in the assembly manifest.helpviewer_keywords: ["EnumAssemblyRefs","EnumAssemblyRefs method [Windows Runtime]","EnumAssemblyRefs method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","EnumAssemblyRefs method","IMetaDataAssemblyImport.EnumAssemblyRefs","IMetaDataAssemblyImport::EnumAssemblyRefs","rometadataapi/IMetaDataAssemblyImport::EnumAssemblyRefs","winrt.imetadataassemblyimport_enumassemblyrefs"]
+description: Enumerates the mdAssemblyRef instances that are defined in the assembly manifest.
+helpviewer_keywords: ["EnumAssemblyRefs","EnumAssemblyRefs method [Windows Runtime]","EnumAssemblyRefs method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","EnumAssemblyRefs method","IMetaDataAssemblyImport.EnumAssemblyRefs","IMetaDataAssemblyImport::EnumAssemblyRefs","rometadataapi/IMetaDataAssemblyImport::EnumAssemblyRefs","winrt.imetadataassemblyimport_enumassemblyrefs"]
 old-location: winrt\imetadataassemblyimport_enumassemblyrefs.htm
 tech.root: WinRT
 ms.assetid: 2b5768ef-47fc-4052-bb68-e279a027c887

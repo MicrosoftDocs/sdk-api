@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupDiGetClassImageListExW
 title: SetupDiGetClassImageListExW function (setupapi.h)
-description: The SetupDiGetClassImageListEx function builds an image list of bitmaps for every class installed on a local or remote system.helpviewer_keywords: ["SetupDiGetClassImageListEx","SetupDiGetClassImageListEx function [Device and Driver Installation]","SetupDiGetClassImageListExA","SetupDiGetClassImageListExW","devinst.setupdigetclassimagelistex","di-rtns_ff251460-9ebf-4968-80f2-f44c13305197.xml","setupapi/SetupDiGetClassImageListEx"]
+description: The SetupDiGetClassImageListEx function builds an image list of bitmaps for every class installed on a local or remote system.
+helpviewer_keywords: ["SetupDiGetClassImageListEx","SetupDiGetClassImageListEx function [Device and Driver Installation]","SetupDiGetClassImageListExA","SetupDiGetClassImageListExW","devinst.setupdigetclassimagelistex","di-rtns_ff251460-9ebf-4968-80f2-f44c13305197.xml","setupapi/SetupDiGetClassImageListEx"]
 old-location: devinst\setupdigetclassimagelistex.htm
 tech.root: devinst
 ms.assetid: f9cf7904-3fda-4f7f-bb05-3634fd1c9af3
@@ -92,6 +93,10 @@ The image list built by this function should be destroyed by calling <a href="ht
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The setupapi.h header defines SetupDiGetClassImageListEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

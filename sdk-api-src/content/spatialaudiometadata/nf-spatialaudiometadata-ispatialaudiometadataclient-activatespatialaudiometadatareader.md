@@ -1,7 +1,8 @@
 ---
 UID: NF:spatialaudiometadata.ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataReader
 title: ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataReader (spatialaudiometadata.h)
-description: Creates an ISpatialAudioMetadataWriter object for reading spatial audio metadata items from an ISpatialAudioMetadataItems object.helpviewer_keywords: ["ActivateSpatialAudioMetadataReader","ActivateSpatialAudioMetadataReader method [Core Audio]","ActivateSpatialAudioMetadataReader method [Core Audio]","ISpatialAudioMetadataClient interface","ISpatialAudioMetadataClient interface [Core Audio]","ActivateSpatialAudioMetadataReader method","ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataReader","ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataReader","coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatareader","spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataReader"]
+description: Creates an ISpatialAudioMetadataWriter object for reading spatial audio metadata items from an ISpatialAudioMetadataItems object.
+helpviewer_keywords: ["ActivateSpatialAudioMetadataReader","ActivateSpatialAudioMetadataReader method [Core Audio]","ActivateSpatialAudioMetadataReader method [Core Audio]","ISpatialAudioMetadataClient interface","ISpatialAudioMetadataClient interface [Core Audio]","ActivateSpatialAudioMetadataReader method","ISpatialAudioMetadataClient.ActivateSpatialAudioMetadataReader","ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataReader","coreaudio.ispatialaudiometadataclient_activatespatialaudiometadatareader","spatialaudiometadata/ISpatialAudioMetadataClient::ActivateSpatialAudioMetadataReader"]
 old-location: coreaudio\ispatialaudiometadataclient_activatespatialaudiometadatareader.htm
 tech.root: CoreAudio
 ms.assetid: 3A49BB96-275A-4886-A45E-42FA7B9A6B5F

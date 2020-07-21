@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1RenderTarget.CreateGradientStopCollection(const D2D1_GRADIENT_STOP,UINT32,ID2D1GradientStopCollection)
+UID: NF:d2d1.ID2D1RenderTarget.CreateGradientStopCollection(constD2D1_GRADIENT_STOP,UINT32,ID2D1GradientStopCollection)
 title: ID2D1RenderTarget::CreateGradientStopCollection(const D2D1_GRADIENT_STOP,UINT32,ID2D1GradientStopCollection) (d2d1.h)
 description: Creates an ID2D1GradientStopCollection from the specified gradient stops that uses the D2D1_GAMMA_2_2 color interpolation gamma and the clamp extend mode.
 helpviewer_keywords: ["CreateGradientStopCollection","CreateGradientStopCollection method [Direct2D]","CreateGradientStopCollection method [Direct2D]","ID2D1RenderTarget interface","ID2D1RenderTarget interface [Direct2D]","CreateGradientStopCollection method","ID2D1RenderTarget.CreateGradientStopCollection","ID2D1RenderTarget.CreateGradientStopCollection(const D2D1_GRADIENT_STOP","UINT32","ID2D1GradientStopCollection)","ID2D1RenderTarget::CreateGradientStopCollection","ID2D1RenderTarget::CreateGradientStopCollection(const D2D1_GRADIENT_STOP","UINT32","ID2D1GradientStopCollection)","d2d1/ID2D1RenderTarget::CreateGradientStopCollection","direct2d.ID2D1RenderTarget_CreateGradientStopCollection_ptr_D2D1_GRADIENT_STOP_ptr_ptr_ID2D1GradientStopCollection"]

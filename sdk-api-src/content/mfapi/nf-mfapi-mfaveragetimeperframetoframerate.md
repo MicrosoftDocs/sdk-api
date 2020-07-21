@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFAverageTimePerFrameToFrameRate
 title: MFAverageTimePerFrameToFrameRate function (mfapi.h)
-description: Calculates the frame rate, in frames per second, from the average duration of a video frame.helpviewer_keywords: ["9d2ab27f-80cb-4cd9-bd7a-8f56a810bb29","MFAverageTimePerFrameToFrameRate","MFAverageTimePerFrameToFrameRate function [Media Foundation]","mf.mfaveragetimeperframetoframerate","mfapi/MFAverageTimePerFrameToFrameRate"]
+description: Calculates the frame rate, in frames per second, from the average duration of a video frame.
+helpviewer_keywords: ["9d2ab27f-80cb-4cd9-bd7a-8f56a810bb29","MFAverageTimePerFrameToFrameRate","MFAverageTimePerFrameToFrameRate function [Media Foundation]","mf.mfaveragetimeperframetoframerate","mfapi/MFAverageTimePerFrameToFrameRate"]
 old-location: mf\mfaveragetimeperframetoframerate.htm
 tech.root: medfound
 ms.assetid: 9d2ab27f-80cb-4cd9-bd7a-8f56a810bb29

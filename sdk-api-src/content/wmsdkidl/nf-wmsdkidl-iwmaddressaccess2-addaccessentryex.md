@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMAddressAccess2.AddAccessEntryEx
 title: IWMAddressAccess2::AddAccessEntryEx (wmsdkidl.h)
-description: The AddAccessEntryEx method adds an entry to the IP address access list.helpviewer_keywords: ["AddAccessEntryEx","AddAccessEntryEx method [windows Media Format]","AddAccessEntryEx method [windows Media Format]","IWMAddressAccess2 interface","IWMAddressAccess2 interface [windows Media Format]","AddAccessEntryEx method","IWMAddressAccess2.AddAccessEntryEx","IWMAddressAccess2::AddAccessEntryEx","IWMAddressAccess2AddAccessEntryEx","wmformat.iwmaddressaccess2_addaccessentryex","wmsdkidl/IWMAddressAccess2::AddAccessEntryEx"]
+description: The AddAccessEntryEx method adds an entry to the IP address access list.
+helpviewer_keywords: ["AddAccessEntryEx","AddAccessEntryEx method [windows Media Format]","AddAccessEntryEx method [windows Media Format]","IWMAddressAccess2 interface","IWMAddressAccess2 interface [windows Media Format]","AddAccessEntryEx method","IWMAddressAccess2.AddAccessEntryEx","IWMAddressAccess2::AddAccessEntryEx","IWMAddressAccess2AddAccessEntryEx","wmformat.iwmaddressaccess2_addaccessentryex","wmsdkidl/IWMAddressAccess2::AddAccessEntryEx"]
 old-location: wmformat\iwmaddressaccess2_addaccessentryex.htm
 tech.root: wmformat
 ms.assetid: 8125f716-0523-4042-a1f1-019445fb7de9

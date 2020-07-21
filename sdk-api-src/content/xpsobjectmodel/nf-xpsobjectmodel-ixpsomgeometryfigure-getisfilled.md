@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometryFigure.GetIsFilled
 title: IXpsOMGeometryFigure::GetIsFilled (xpsobjectmodel.h)
-description: Gets a value that indicates whether the figure is filled.helpviewer_keywords: ["FALSE","GetIsFilled","GetIsFilled method [XPS Documents and Packaging]","GetIsFilled method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetIsFilled method","IXpsOMGeometryFigure.GetIsFilled","IXpsOMGeometryFigure::GetIsFilled","TRUE","xps.ixpsomgeometryfigure_getisfilled","xpsobjectmodel/IXpsOMGeometryFigure::GetIsFilled"]
+description: Gets a value that indicates whether the figure is filled.
+helpviewer_keywords: ["FALSE","GetIsFilled","GetIsFilled method [XPS Documents and Packaging]","GetIsFilled method [XPS Documents and Packaging]","IXpsOMGeometryFigure interface","IXpsOMGeometryFigure interface [XPS Documents and Packaging]","GetIsFilled method","IXpsOMGeometryFigure.GetIsFilled","IXpsOMGeometryFigure::GetIsFilled","TRUE","xps.ixpsomgeometryfigure_getisfilled","xpsobjectmodel/IXpsOMGeometryFigure::GetIsFilled"]
 old-location: xps\ixpsomgeometryfigure_getisfilled.htm
 tech.root: printdocs
 ms.assetid: 22da5239-c79f-4306-ad60-9b3e5bcae988

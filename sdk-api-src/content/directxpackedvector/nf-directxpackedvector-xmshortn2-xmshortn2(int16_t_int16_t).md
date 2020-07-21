@@ -1,7 +1,8 @@
 ---
 UID: NF:directxpackedvector.XMSHORTN2.XMSHORTN2(int16_t,int16_t)
 title: XMSHORTN2::XMSHORTN2(int16_t,int16_t) (directxpackedvector.h)
-description: Initializes a new instance of XMSHORTN2 from two int16_t arguments.helpviewer_keywords: ["XMSHORTN2","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 structure","XMSHORTN2 structure [DirectX Math Support APIs]","XMSHORTN2 constructor","XMSHORTN2.XMSHORTN2","XMSHORTN2.XMSHORTN2(int16_t","int16_t)","XMSHORTN2::XMSHORTN2","XMSHORTN2::XMSHORTN2(int16_t","int16_t)","dxmath.xmshortn2_ctor_2"]
+description: Initializes a new instance of XMSHORTN2 from two int16_t arguments.
+helpviewer_keywords: ["XMSHORTN2","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 constructor [DirectX Math Support APIs]","XMSHORTN2 structure","XMSHORTN2 structure [DirectX Math Support APIs]","XMSHORTN2 constructor","XMSHORTN2.XMSHORTN2","XMSHORTN2.XMSHORTN2(int16_t","int16_t)","XMSHORTN2::XMSHORTN2","XMSHORTN2::XMSHORTN2(int16_t","int16_t)","dxmath.xmshortn2_ctor_2"]
 old-location: dxmath\xmshortn2_ctor_2.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.reference.XMSHORTN2.#ctor(int16_t,int16_t)

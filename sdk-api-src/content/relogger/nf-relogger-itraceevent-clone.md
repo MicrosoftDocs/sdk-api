@@ -1,7 +1,8 @@
 ---
 UID: NF:relogger.ITraceEvent.Clone
 title: ITraceEvent::Clone (relogger.h)
-description: Creates a duplicate copy of an event.helpviewer_keywords: ["Clone","Clone method [ETW]","Clone method [ETW]","ITraceEvent interface","ITraceEvent interface [ETW]","Clone method","ITraceEvent.Clone","ITraceEvent::Clone","etw.ievent_clone","relogger/ITraceEvent::Clone"]
+description: Creates a duplicate copy of an event.
+helpviewer_keywords: ["Clone","Clone method [ETW]","Clone method [ETW]","ITraceEvent interface","ITraceEvent interface [ETW]","Clone method","ITraceEvent.Clone","ITraceEvent::Clone","etw.ievent_clone","relogger/ITraceEvent::Clone"]
 old-location: etw\ievent_clone.htm
 tech.root: ETW
 ms.assetid: a4fa29f4-a265-4b42-a499-bc53566dc889

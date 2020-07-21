@@ -1,7 +1,8 @@
 ---
 UID: NN:mbnapi.IMbnInterfaceEvents
 title: IMbnInterfaceEvents (mbnapi.h)
-description: This interface is a notification interface used to handle asynchronous IMbnInterface method calls as well as changes in the device state.helpviewer_keywords: ["IMbnInterfaceEvents","IMbnInterfaceEvents interface [Microsoft Broadband Networks]","IMbnInterfaceEvents interface [Microsoft Broadband Networks]","described","mbn.imbninterfaceevents","mbnapi/IMbnInterfaceEvents"]
+description: This interface is a notification interface used to handle asynchronous IMbnInterface method calls as well as changes in the device state.
+helpviewer_keywords: ["IMbnInterfaceEvents","IMbnInterfaceEvents interface [Microsoft Broadband Networks]","IMbnInterfaceEvents interface [Microsoft Broadband Networks]","described","mbn.imbninterfaceevents","mbnapi/IMbnInterfaceEvents"]
 old-location: mbn\imbninterfaceevents.htm
 tech.root: mbn
 ms.assetid: 3c641f14-9f53-4d69-9faa-2491189083df

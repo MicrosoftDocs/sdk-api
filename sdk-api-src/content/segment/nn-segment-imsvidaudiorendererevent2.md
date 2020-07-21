@@ -1,7 +1,8 @@
 ---
 UID: NN:segment.IMSVidAudioRendererEvent2
 title: IMSVidAudioRendererEvent2 (segment.h)
-description: Implements an event system for the audio renderer associated with a Video Control.helpviewer_keywords: ["IMSVidAudioRendererEvent2","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","described","mstv.imsvidaudiorendererevent2","segment/IMSVidAudioRendererEvent2"]
+description: Implements an event system for the audio renderer associated with a Video Control.
+helpviewer_keywords: ["IMSVidAudioRendererEvent2","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","IMSVidAudioRendererEvent2 interface [Microsoft TV Technologies]","described","mstv.imsvidaudiorendererevent2","segment/IMSVidAudioRendererEvent2"]
 old-location: mstv\imsvidaudiorendererevent2.htm
 tech.root: mstv
 ms.assetid: f37d3abb-e8ad-4aae-884a-1c6c4fa445e2

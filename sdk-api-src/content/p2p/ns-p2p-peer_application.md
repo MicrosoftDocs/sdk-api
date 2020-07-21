@@ -1,7 +1,8 @@
 ---
 UID: NS:p2p.peer_application_tag
 title: PEER_APPLICATION (p2p.h)
-description: The PEER_APPLICATION structure contains data describing a locally installed software application or component that can be registered and shared with trusted contacts within a peer collaboration network.helpviewer_keywords: ["*PPEER_APPLICATION","PCPEER_APPLICATION","PCPEER_APPLICATION structure pointer [Peer Networking]","PEER_APPLICATION","PEER_APPLICATION structure [Peer Networking]","PPEER_APPLICATION","PPEER_APPLICATION structure pointer [Peer Networking]","p2p.peer_application","p2p/PCPEER_APPLICATION","p2p/PEER_APPLICATION","p2p/PPEER_APPLICATION"]
+description: The PEER_APPLICATION structure contains data describing a locally installed software application or component that can be registered and shared with trusted contacts within a peer collaboration network.
+helpviewer_keywords: ["*PPEER_APPLICATION","PCPEER_APPLICATION","PCPEER_APPLICATION structure pointer [Peer Networking]","PEER_APPLICATION","PEER_APPLICATION structure [Peer Networking]","PPEER_APPLICATION","PPEER_APPLICATION structure pointer [Peer Networking]","p2p.peer_application","p2p/PCPEER_APPLICATION","p2p/PEER_APPLICATION","p2p/PPEER_APPLICATION"]
 old-location: p2p\peer_application.htm
 tech.root: P2PSdk
 ms.assetid: a219231b-75d0-47d3-8294-f1cc25b43d27

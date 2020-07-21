@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IUpdateInstaller.RunWizard
 title: IUpdateInstaller::RunWizard (wuapi.h)
-description: Starts a wizard that guides the local user through the steps to install the updates.helpviewer_keywords: ["IUpdateInstaller interface [Windows Update Agent]","RunWizard method","IUpdateInstaller.RunWizard","IUpdateInstaller::RunWizard","RunWizard","RunWizard method [Windows Update Agent]","RunWizard method [Windows Update Agent]","IUpdateInstaller interface","wua.iupdateinstaller_runwizard","wuapi/IUpdateInstaller::RunWizard"]
+description: Starts a wizard that guides the local user through the steps to install the updates.
+helpviewer_keywords: ["IUpdateInstaller interface [Windows Update Agent]","RunWizard method","IUpdateInstaller.RunWizard","IUpdateInstaller::RunWizard","RunWizard","RunWizard method [Windows Update Agent]","RunWizard method [Windows Update Agent]","IUpdateInstaller interface","wua.iupdateinstaller_runwizard","wuapi/IUpdateInstaller::RunWizard"]
 old-location: wua\iupdateinstaller_runwizard.htm
 tech.root: Wua_Sdk
 ms.assetid: 006d95ab-45bc-4110-abd9-e39de58b8a4c

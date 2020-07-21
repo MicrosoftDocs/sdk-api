@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1RenderTarget.DrawRectangle(const D2D1_RECT_F,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
+UID: NF:d2d1.ID2D1RenderTarget.DrawRectangle(constD2D1_RECT_F,ID2D1Brush,FLOAT,ID2D1StrokeStyle)
 title: ID2D1RenderTarget::DrawRectangle (d2d1.h)
 description: Draws the outline of a rectangle that has the specified dimensions and stroke style.
 helpviewer_keywords: ["DrawRectangle","DrawRectangle methods [Direct2D]","ID2D1RenderTarget.DrawRectangle","ID2D1RenderTarget::DrawRectangle","d2d1_1/DrawRectangle","direct2d.id2d1rendertarget_drawrectangle"]

@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegSetKeyValueA
 title: RegSetKeyValueA function (winreg.h)
-description: Sets the data for the specified value in the specified registry key and subkey.helpviewer_keywords: ["RegSetKeyValue","RegSetKeyValue function","RegSetKeyValueA","RegSetKeyValueW","base.regsetkeyvalue","winreg/RegSetKeyValue","winreg/RegSetKeyValueA","winreg/RegSetKeyValueW"]
+description: Sets the data for the specified value in the specified registry key and subkey.
+helpviewer_keywords: ["RegSetKeyValue","RegSetKeyValue function","RegSetKeyValueA","RegSetKeyValueW","base.regsetkeyvalue","winreg/RegSetKeyValue","winreg/RegSetKeyValueA","winreg/RegSetKeyValueW"]
 old-location: base\regsetkeyvalue.htm
 tech.root: SysInfo
 ms.assetid: e27d2dd6-b139-4ac1-8dd8-527022333364
@@ -136,6 +137,10 @@ To compile an application that uses this function, define _WIN32_WINNT as 0x0600
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegSetKeyValue as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

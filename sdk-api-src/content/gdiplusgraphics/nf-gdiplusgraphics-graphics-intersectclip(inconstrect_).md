@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.IntersectClip(IN const Rect &)
+UID: NF:gdiplusgraphics.Graphics.IntersectClip(INconstRect&)
 title: Graphics::IntersectClip(IN const Rect &) (gdiplusgraphics.h)
-description: The Graphics::IntersectClip method updates the clipping region of this Graphics object to the portion of the specified rectangle that intersects with the current clipping region of this Graphics object.helpviewer_keywords: ["Graphics class [GDI+]","IntersectClip method","Graphics.IntersectClip","Graphics.IntersectClip(IN const Rect &)","Graphics.IntersectClip(const Rect&)","Graphics::IntersectClip","Graphics::IntersectClip(IN const Rect &)","IntersectClip","IntersectClip method [GDI+]","IntersectClip method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_IntersectClip_Rect_rect_","gdiplus._gdiplus_CLASS_Graphics_IntersectClip_Rect_rect_"]
+description: The Graphics::IntersectClip method updates the clipping region of this Graphics object to the portion of the specified rectangle that intersects with the current clipping region of this Graphics object.
+helpviewer_keywords: ["Graphics class [GDI+]","IntersectClip method","Graphics.IntersectClip","Graphics.IntersectClip(IN const Rect &)","Graphics.IntersectClip(const Rect&)","Graphics::IntersectClip","Graphics::IntersectClip(IN const Rect &)","IntersectClip","IntersectClip method [GDI+]","IntersectClip method [GDI+]","Graphics class","_gdiplus_CLASS_Graphics_IntersectClip_Rect_rect_","gdiplus._gdiplus_CLASS_Graphics_IntersectClip_Rect_rect_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_IntersectClip_Rect_rect_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\graphicsintersectclipmethods\intersectclip.htm

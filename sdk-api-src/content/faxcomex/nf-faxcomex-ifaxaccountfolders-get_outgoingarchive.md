@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxAccountFolders.get_OutgoingArchive
 title: IFaxAccountFolders::get_OutgoingArchive (faxcomex.h)
-description: Represents the archive of outgoing faxes for a particular fax account that have been sent.helpviewer_keywords: ["IFaxAccountFolders interface [Fax Service]","OutgoingArchive property","IFaxAccountFolders.OutgoingArchive","IFaxAccountFolders.get_OutgoingArchive","IFaxAccountFolders::OutgoingArchive","IFaxAccountFolders::get_OutgoingArchive","OutgoingArchive property [Fax Service]","OutgoingArchive property [Fax Service]","IFaxAccountFolders interface","_mfax_faxaccountfolders.outgoingarchive","fax._mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_outgoingarchive_cpp","fax._mfax_faxaccountfolders_outgoingarchive","faxcomex/IFaxAccountFolders::OutgoingArchive","faxcomex/IFaxAccountFolders::get_OutgoingArchive","get_OutgoingArchive"]
+description: Represents the archive of outgoing faxes for a particular fax account that have been sent.
+helpviewer_keywords: ["IFaxAccountFolders interface [Fax Service]","OutgoingArchive property","IFaxAccountFolders.OutgoingArchive","IFaxAccountFolders.get_OutgoingArchive","IFaxAccountFolders::OutgoingArchive","IFaxAccountFolders::get_OutgoingArchive","OutgoingArchive property [Fax Service]","OutgoingArchive property [Fax Service]","IFaxAccountFolders interface","_mfax_faxaccountfolders.outgoingarchive","fax._mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_outgoingarchive_cpp","fax._mfax_faxaccountfolders_outgoingarchive","faxcomex/IFaxAccountFolders::OutgoingArchive","faxcomex/IFaxAccountFolders::get_OutgoingArchive","get_OutgoingArchive"]
 old-location: fax\_mfax_faxaccountfolders_cpp_mfax_faxaccountfolders_outgoingarchive_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountfolders\outgoingarchive.htm

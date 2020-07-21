@@ -1,7 +1,8 @@
 ---
 UID: NF:wuapi.IInstallationProgress.GetUpdateResult
 title: IInstallationProgress::GetUpdateResult (wuapi.h)
-description: Returns the result of the installation or uninstallation of a specified update.helpviewer_keywords: ["GetUpdateResult","GetUpdateResult method [Windows Update Agent]","GetUpdateResult method [Windows Update Agent]","IInstallationProgress interface","IInstallationProgress interface [Windows Update Agent]","GetUpdateResult method","IInstallationProgress.GetUpdateResult","IInstallationProgress::GetUpdateResult","wua.iinstallationprogress_getupdateresult","wuapi/IInstallationProgress::GetUpdateResult"]
+description: Returns the result of the installation or uninstallation of a specified update.
+helpviewer_keywords: ["GetUpdateResult","GetUpdateResult method [Windows Update Agent]","GetUpdateResult method [Windows Update Agent]","IInstallationProgress interface","IInstallationProgress interface [Windows Update Agent]","GetUpdateResult method","IInstallationProgress.GetUpdateResult","IInstallationProgress::GetUpdateResult","wua.iinstallationprogress_getupdateresult","wuapi/IInstallationProgress::GetUpdateResult"]
 old-location: wua\iinstallationprogress_getupdateresult.htm
 tech.root: Wua_Sdk
 ms.assetid: a0cb92f4-6c97-42be-abf1-e1662e213a7d

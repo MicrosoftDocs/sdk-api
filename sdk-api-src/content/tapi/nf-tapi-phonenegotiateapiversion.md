@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.phoneNegotiateAPIVersion
 title: phoneNegotiateAPIVersion function (tapi.h)
-description: The phoneNegotiateAPIVersion allows an application to negotiate an API version to use for the specified phone device.helpviewer_keywords: ["_tapi2_phonenegotiateapiversion","phoneNegotiateAPIVersion","phoneNegotiateAPIVersion function [TAPI 2.2]","tapi/phoneNegotiateAPIVersion","tapi2.phonenegotiateapiversion"]
+description: The phoneNegotiateAPIVersion allows an application to negotiate an API version to use for the specified phone device.
+helpviewer_keywords: ["_tapi2_phonenegotiateapiversion","phoneNegotiateAPIVersion","phoneNegotiateAPIVersion function [TAPI 2.2]","tapi/phoneNegotiateAPIVersion","tapi2.phonenegotiateapiversion"]
 old-location: tapi2\phonenegotiateapiversion.htm
 tech.root: Tapi
 ms.assetid: 50c2c15c-459f-451b-9b79-9118acc81c8c

@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetworkCostManager.GetDataPlanStatus
 title: INetworkCostManager::GetDataPlanStatus (netlistmgr.h)
-description: GetDataPlanStatus retrieves the data plan status for either a machine-wide internet connection , or the first-hop of routing to a specific destination on a connection.helpviewer_keywords: ["GetDataPlanStatus","GetDataPlanStatus method [Network Awareness]","GetDataPlanStatus method [Network Awareness]","INetworkCostManager interface","INetworkCostManager interface [Network Awareness]","GetDataPlanStatus method","INetworkCostManager.GetDataPlanStatus","INetworkCostManager::GetDataPlanStatus","netlistmgr/INetworkCostManager::GetDataPlanStatus","nla.inetworkcostmanager_getdataplanstatus"]
+description: GetDataPlanStatus retrieves the data plan status for either a machine-wide internet connection , or the first-hop of routing to a specific destination on a connection.
+helpviewer_keywords: ["GetDataPlanStatus","GetDataPlanStatus method [Network Awareness]","GetDataPlanStatus method [Network Awareness]","INetworkCostManager interface","INetworkCostManager interface [Network Awareness]","GetDataPlanStatus method","INetworkCostManager.GetDataPlanStatus","INetworkCostManager::GetDataPlanStatus","netlistmgr/INetworkCostManager::GetDataPlanStatus","nla.inetworkcostmanager_getdataplanstatus"]
 old-location: nla\inetworkcostmanager_getdataplanstatus.htm
 tech.root: nla
 ms.assetid: 82B4FF65-5D45-4D79-8F11-EA4CF4760EE2

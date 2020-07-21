@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.GetCalendarInfoEx
 title: GetCalendarInfoEx function (winnls.h)
-description: Retrieves information about a calendar for a locale specified by name.Note  The application should call this function in preference to GetCalendarInfo if designed to run only on Windows Vista and later. Note  This function can retrieve data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.helpviewer_keywords: ["GetCalendarInfoEx","GetCalendarInfoEx function [Internationalization for Windows Applications]","_win32_GetCalendarInfoEx","intl.getcalendarinfoex","winnls/GetCalendarInfoEx"]
+description: Retrieves information about a calendar for a locale specified by name.Note  The application should call this function in preference to GetCalendarInfo if designed to run only on Windows Vista and later. Note  This function can retrieve data that changes between releases, for example, due to a custom locale. If your application must persist or transmit data, see Using Persistent Locale Data.
+helpviewer_keywords: ["GetCalendarInfoEx","GetCalendarInfoEx function [Internationalization for Windows Applications]","_win32_GetCalendarInfoEx","intl.getcalendarinfoex","winnls/GetCalendarInfoEx"]
 old-location: intl\getcalendarinfoex.htm
 tech.root: Intl
 ms.assetid: b3c2fb74-0559-4752-9bdb-36b78084aed5

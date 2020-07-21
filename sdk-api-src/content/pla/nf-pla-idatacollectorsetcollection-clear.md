@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IDataCollectorSetCollection.Clear
 title: IDataCollectorSetCollection::Clear (pla.h)
-description: Removes all data collector sets from the collection.helpviewer_keywords: ["Clear","Clear method [PLA]","Clear method [PLA]","IDataCollectorSetCollection interface","IDataCollectorSetCollection interface [PLA]","Clear method","IDataCollectorSetCollection.Clear","IDataCollectorSetCollection::Clear","base.idatacollectorsetcollection_clear","pla.idatacollectorsetcollection_clear","pla/IDataCollectorSetCollection::Clear"]
+description: Removes all data collector sets from the collection.
+helpviewer_keywords: ["Clear","Clear method [PLA]","Clear method [PLA]","IDataCollectorSetCollection interface","IDataCollectorSetCollection interface [PLA]","Clear method","IDataCollectorSetCollection.Clear","IDataCollectorSetCollection::Clear","base.idatacollectorsetcollection_clear","pla.idatacollectorsetcollection_clear","pla/IDataCollectorSetCollection::Clear"]
 old-location: pla\idatacollectorsetcollection_clear.htm
 tech.root: PLA
 ms.assetid: a7a4754c-8c64-4add-89b1-c5bdbf4cb807

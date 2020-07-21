@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.GetMUILanguage
 title: GetMUILanguage function (commctrl.h)
-description: Gets the language currently in use by the common controls for a particular process.helpviewer_keywords: ["GetMUILanguage","GetMUILanguage function [Windows Controls]","_win32_GetMUILanguage","_win32_GetMUILanguage_cpp","commctrl/GetMUILanguage","controls.GetMUILanguage","controls._win32_GetMUILanguage"]
+description: Gets the language currently in use by the common controls for a particular process.
+helpviewer_keywords: ["GetMUILanguage","GetMUILanguage function [Windows Controls]","_win32_GetMUILanguage","_win32_GetMUILanguage_cpp","commctrl/GetMUILanguage","controls.GetMUILanguage","controls._win32_GetMUILanguage"]
 old-location: controls\GetMUILanguage.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\getmuilanguage.htm

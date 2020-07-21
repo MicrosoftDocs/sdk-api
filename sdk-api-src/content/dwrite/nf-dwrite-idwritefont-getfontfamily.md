@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteFont.GetFontFamily
 title: IDWriteFont::GetFontFamily (dwrite.h)
-description: Gets the font family to which the specified font belongs.helpviewer_keywords: ["GetFontFamily","GetFontFamily method [Direct Write]","GetFontFamily method [Direct Write]","IDWriteFont interface","IDWriteFont interface [Direct Write]","GetFontFamily method","IDWriteFont.GetFontFamily","IDWriteFont::GetFontFamily","directwrite.IDWriteFont_GetFontFamily","dwrite/IDWriteFont::GetFontFamily"]
+description: Gets the font family to which the specified font belongs.
+helpviewer_keywords: ["GetFontFamily","GetFontFamily method [Direct Write]","GetFontFamily method [Direct Write]","IDWriteFont interface","IDWriteFont interface [Direct Write]","GetFontFamily method","IDWriteFont.GetFontFamily","IDWriteFont::GetFontFamily","directwrite.IDWriteFont_GetFontFamily","dwrite/IDWriteFont::GetFontFamily"]
 old-location: directwrite\IDWriteFont_GetFontFamily.htm
 tech.root: DirectWrite
 ms.assetid: 6104a8ed-378f-4e2b-a0e5-8c0291750e65

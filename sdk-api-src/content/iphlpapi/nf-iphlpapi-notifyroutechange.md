@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.NotifyRouteChange
 title: NotifyRouteChange function (iphlpapi.h)
-description: The NotifyRouteChange function causes a notification to be sent to the caller whenever a change occurs in the IPv4 routing table.helpviewer_keywords: ["NotifyRouteChange","NotifyRouteChange function [IP Helper]","_iphlp_notifyroutechange","iphlp.notifyroutechange","iphlpapi/NotifyRouteChange"]
+description: The NotifyRouteChange function causes a notification to be sent to the caller whenever a change occurs in the IPv4 routing table.
+helpviewer_keywords: ["NotifyRouteChange","NotifyRouteChange function [IP Helper]","_iphlp_notifyroutechange","iphlp.notifyroutechange","iphlpapi/NotifyRouteChange"]
 old-location: iphlp\notifyroutechange.htm
 tech.root: IpHlp
 ms.assetid: 39f2ec4d-131a-4a0a-9740-0d96aaea2dc7

@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d11_4.ID3D11Device4.RegisterDeviceRemovedEvent
 title: ID3D11Device4::RegisterDeviceRemovedEvent (d3d11_4.h)
-description: Registers the &#0034;device removed&#0034; event and indicates when a Direct3D device has become removed for any reason, using an asynchronous notification mechanism.helpviewer_keywords: ["ID3D11Device4 interface [Direct3D 11]","RegisterDeviceRemovedEvent method","ID3D11Device4.RegisterDeviceRemovedEvent","ID3D11Device4::RegisterDeviceRemovedEvent","RegisterDeviceRemovedEvent","RegisterDeviceRemovedEvent method [Direct3D 11]","RegisterDeviceRemovedEvent method [Direct3D 11]","ID3D11Device4 interface","d3d11_4/ID3D11Device4::RegisterDeviceRemovedEvent","direct3d11.id3d11device4_registerdeviceremovedevent"]
+description: Registers the &quot;device removed&quot; event and indicates when a Direct3D device has become removed for any reason, using an asynchronous notification mechanism.
+helpviewer_keywords: ["ID3D11Device4 interface [Direct3D 11]","RegisterDeviceRemovedEvent method","ID3D11Device4.RegisterDeviceRemovedEvent","ID3D11Device4::RegisterDeviceRemovedEvent","RegisterDeviceRemovedEvent","RegisterDeviceRemovedEvent method [Direct3D 11]","RegisterDeviceRemovedEvent method [Direct3D 11]","ID3D11Device4 interface","d3d11_4/ID3D11Device4::RegisterDeviceRemovedEvent","direct3d11.id3d11device4_registerdeviceremovedevent"]
 old-location: direct3d11\id3d11device4_registerdeviceremovedevent.htm
 tech.root: direct3d11
 ms.assetid: 6C564C67-9166-4F65-B099-3DDDECCEDC40

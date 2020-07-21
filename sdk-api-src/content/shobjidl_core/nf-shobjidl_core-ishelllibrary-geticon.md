@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.GetIcon
 title: IShellLibrary::GetIcon (shobjidl_core.h)
-description: Gets the default icon for the library.helpviewer_keywords: ["GetIcon","GetIcon method [Windows Shell]","GetIcon method [Windows Shell]","IShellLibrary interface","IShellLibrary interface [Windows Shell]","GetIcon method","IShellLibrary.GetIcon","IShellLibrary::GetIcon","_shell_IShellLibrary_GetIcon","shell.IShellLibrary_GetIcon","shobjidl_core/IShellLibrary::GetIcon"]
+description: Gets the default icon for the library.
+helpviewer_keywords: ["GetIcon","GetIcon method [Windows Shell]","GetIcon method [Windows Shell]","IShellLibrary interface","IShellLibrary interface [Windows Shell]","GetIcon method","IShellLibrary.GetIcon","IShellLibrary::GetIcon","_shell_IShellLibrary_GetIcon","shell.IShellLibrary_GetIcon","shobjidl_core/IShellLibrary::GetIcon"]
 old-location: shell\IShellLibrary_GetIcon.htm
 tech.root: shell
 ms.assetid: e39bd663-3f2d-4b72-9882-1313ee457844

@@ -1,7 +1,8 @@
 ---
 UID: NN:searchapi.ISearchManager
 title: ISearchManager (searchapi.h)
-description: Provides methods for controlling the Search service. This interface manages settings and objects that affect the search engine across catalogs.helpviewer_keywords: ["ISearchManager","ISearchManager interface [search]","ISearchManager interface [search]","described","_search_ISearchManager","search._search_ISearchManager","searchapi/ISearchManager"]
+description: Provides methods for controlling the Search service. This interface manages settings and objects that affect the search engine across catalogs.
+helpviewer_keywords: ["ISearchManager","ISearchManager interface [search]","ISearchManager interface [search]","described","_search_ISearchManager","search._search_ISearchManager","searchapi/ISearchManager"]
 old-location: search\_search_ISearchManager.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchmanager\isearchmanager.htm

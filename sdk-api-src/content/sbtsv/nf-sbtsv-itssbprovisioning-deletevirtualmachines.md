@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbProvisioning.DeleteVirtualMachines
 title: ITsSbProvisioning::DeleteVirtualMachines (sbtsv.h)
-description: Deletes a virtual machine asynchronously.helpviewer_keywords: ["DeleteVirtualMachines","DeleteVirtualMachines method [Remote Desktop Services]","DeleteVirtualMachines method [Remote Desktop Services]","ITsSbProvisioning interface","ITsSbProvisioning interface [Remote Desktop Services]","DeleteVirtualMachines method","ITsSbProvisioning.DeleteVirtualMachines","ITsSbProvisioning::DeleteVirtualMachines","sbtsv/ITsSbProvisioning::DeleteVirtualMachines","termserv.itssbprovisioning_deletevirtualmachines"]
+description: Deletes a virtual machine asynchronously.
+helpviewer_keywords: ["DeleteVirtualMachines","DeleteVirtualMachines method [Remote Desktop Services]","DeleteVirtualMachines method [Remote Desktop Services]","ITsSbProvisioning interface","ITsSbProvisioning interface [Remote Desktop Services]","DeleteVirtualMachines method","ITsSbProvisioning.DeleteVirtualMachines","ITsSbProvisioning::DeleteVirtualMachines","sbtsv/ITsSbProvisioning::DeleteVirtualMachines","termserv.itssbprovisioning_deletevirtualmachines"]
 old-location: termserv\itssbprovisioning_deletevirtualmachines.htm
 tech.root: TermServ
 ms.assetid: 45f5398d-2d27-4f6b-9020-bcbb44edc89a

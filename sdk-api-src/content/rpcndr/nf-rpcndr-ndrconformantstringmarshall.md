@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrConformantStringMarshall
 title: NdrConformantStringMarshall function (rpcndr.h)
-description: The NdrConformantStringMarshall function marshals the conformant string into a network buffer to be sent to the server.helpviewer_keywords: ["NdrConformantStringMarshall","NdrConformantStringMarshall function [RPC]","rpc.ndrconformantstringmarshall","rpcndr/NdrConformantStringMarshall"]
+description: The NdrConformantStringMarshall function marshals the conformant string into a network buffer to be sent to the server.
+helpviewer_keywords: ["NdrConformantStringMarshall","NdrConformantStringMarshall function [RPC]","rpc.ndrconformantstringmarshall","rpcndr/NdrConformantStringMarshall"]
 old-location: rpc\ndrconformantstringmarshall.htm
 tech.root: Rpc
 ms.assetid: d2e323fb-2bb2-4c6c-8f26-fc7e19c7fea7

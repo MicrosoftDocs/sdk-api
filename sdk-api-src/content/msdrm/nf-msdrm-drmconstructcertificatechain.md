@@ -1,7 +1,8 @@
 ---
 UID: NF:msdrm.DRMConstructCertificateChain
 title: DRMConstructCertificateChain function (msdrm.h)
-description: Builds a certificate chain from an arbitrary number of certificates.helpviewer_keywords: ["DRMConstructCertificateChain","DRMConstructCertificateChain function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMConstructCertificateChain","rm.drmconstructcertificatechain"]
+description: Builds a certificate chain from an arbitrary number of certificates.
+helpviewer_keywords: ["DRMConstructCertificateChain","DRMConstructCertificateChain function [Active Directory Rights Management Services SDK 1.0]","msdrm/DRMConstructCertificateChain","rm.drmconstructcertificatechain"]
 old-location: rm\drmconstructcertificatechain.htm
 tech.root: AdRms_Sdk
 ms.assetid: 27c2bf2e-54b1-4ed4-a754-e8b3b3bd58cb

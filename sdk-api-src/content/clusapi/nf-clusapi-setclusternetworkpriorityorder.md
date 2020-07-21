@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.SetClusterNetworkPriorityOrder
 title: SetClusterNetworkPriorityOrder function (clusapi.h)
-description: Sets the priority order for the set of networks used for internal communication between cluster nodes.helpviewer_keywords: ["PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER","PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER function [Failover Cluster]","SetClusterNetworkPriorityOrder","SetClusterNetworkPriorityOrder function [Failover Cluster]","_wolf_setclusternetworkpriorityorder","clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER","clusapi/SetClusterNetworkPriorityOrder","mscs.setclusternetworkpriorityorder"]
+description: Sets the priority order for the set of networks used for internal communication between cluster nodes.
+helpviewer_keywords: ["PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER","PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER function [Failover Cluster]","SetClusterNetworkPriorityOrder","SetClusterNetworkPriorityOrder function [Failover Cluster]","_wolf_setclusternetworkpriorityorder","clusapi/PCLUSAPI_SET_CLUSTER_NETWORK_PRIORITY_ORDER","clusapi/SetClusterNetworkPriorityOrder","mscs.setclusternetworkpriorityorder"]
 old-location: mscs\setclusternetworkpriorityorder.htm
 tech.root: MsCS
 ms.assetid: 538e5024-6c51-4b11-a5ff-9df6aa7a4606

@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._CTL_ANY_SUBJECT_INFO
 title: CTL_ANY_SUBJECT_INFO (wincrypt.h)
-description: Contains a SubjectAlgorithm to be matched in the certificate trust list (CTL) and the SubjectIdentifier to be matched in one of the CTL entries in calls to CertFindSubjectInCTL.helpviewer_keywords: ["*PCTL_ANY_SUBJECT_INFO","CTL_ANY_SUBJECT_INFO","CTL_ANY_SUBJECT_INFO structure [Security]","PCTL_ANY_SUBJECT_INFO","PCTL_ANY_SUBJECT_INFO structure pointer [Security]","_crypto2_ctl_any_subject_info","security.ctl_any_subject_info","wincrypt/CTL_ANY_SUBJECT_INFO","wincrypt/PCTL_ANY_SUBJECT_INFO"]
+description: Contains a SubjectAlgorithm to be matched in the certificate trust list (CTL) and the SubjectIdentifier to be matched in one of the CTL entries in calls to CertFindSubjectInCTL.
+helpviewer_keywords: ["*PCTL_ANY_SUBJECT_INFO","CTL_ANY_SUBJECT_INFO","CTL_ANY_SUBJECT_INFO structure [Security]","PCTL_ANY_SUBJECT_INFO","PCTL_ANY_SUBJECT_INFO structure pointer [Security]","_crypto2_ctl_any_subject_info","security.ctl_any_subject_info","wincrypt/CTL_ANY_SUBJECT_INFO","wincrypt/PCTL_ANY_SUBJECT_INFO"]
 old-location: security\ctl_any_subject_info.htm
 tech.root: SecCrypto
 ms.assetid: 367e9914-b69b-47ad-a20a-3dd067708787

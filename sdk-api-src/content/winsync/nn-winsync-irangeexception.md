@@ -1,7 +1,8 @@
 ---
 UID: NN:winsync.IRangeException
 title: IRangeException (winsync.h)
-description: Represents an item ID range to exclude from a knowledge object.helpviewer_keywords: ["IRangeException","IRangeException interface [Windows Sync]","IRangeException interface [Windows Sync]","described","winsync.irangeexception","winsync/IRangeException"]
+description: Represents an item ID range to exclude from a knowledge object.
+helpviewer_keywords: ["IRangeException","IRangeException interface [Windows Sync]","IRangeException interface [Windows Sync]","described","winsync.irangeexception","winsync/IRangeException"]
 old-location: winsync\irangeexception.htm
 tech.root: winsync
 ms.assetid: 7eea9fe0-80e7-43a9-a797-df12d4d809dc

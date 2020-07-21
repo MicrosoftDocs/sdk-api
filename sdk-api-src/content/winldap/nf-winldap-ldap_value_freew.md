@@ -1,7 +1,8 @@
 ---
 UID: NF:winldap.ldap_value_freeW
 title: ldap_value_freeW function (winldap.h)
-description: Frees a structure returned by ldap_get_values.helpviewer_keywords: ["_ldap_ldap_value_free","ldap.ldap__value__free","ldap.ldap_value_free","ldap_value_free","ldap_value_free function [LDAP]","ldap_value_freeA","ldap_value_freeW","winldap/ldap_value_free","winldap/ldap_value_freeA","winldap/ldap_value_freeW"]
+description: Frees a structure returned by ldap_get_values.
+helpviewer_keywords: ["_ldap_ldap_value_free","ldap.ldap__value__free","ldap.ldap_value_free","ldap_value_free","ldap_value_free function [LDAP]","ldap_value_freeA","ldap_value_freeW","winldap/ldap_value_free","winldap/ldap_value_freeA","winldap/ldap_value_freeW"]
 old-location: ldap\ldap_value_free.htm
 tech.root: ldap
 ms.assetid: 67c9f04c-4b8e-4e97-902d-fceccf27f522
@@ -84,6 +85,10 @@ Call <b>ldap_value_free</b> to free a structure returned by <a href="https://doc
 
 
 
+
+
+> [!NOTE]
+> The winldap.h header defines ldap_value_free as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

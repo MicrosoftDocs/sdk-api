@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVectorNegate
 title: XMVectorNegate function (directxmath.h)
-description: Computes the negation of a vector.helpviewer_keywords: ["Use DirectX..XMVectorNegate","XMVectorNegate","XMVectorNegate method [DirectX Math Support APIs]","dxmath.xmvectornegate"]
+description: Computes the negation of a vector.
+helpviewer_keywords: ["Use DirectX..XMVectorNegate","XMVectorNegate","XMVectorNegate method [DirectX Math Support APIs]","dxmath.xmvectornegate"]
 old-location: dxmath\xmvectornegate.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.arithmetic.XMVectorNegate(XMVECTOR)

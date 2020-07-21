@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMGeometry.GetTransform
 title: IXpsOMGeometry::GetTransform (xpsobjectmodel.h)
-description: Gets a pointer to the geometry's IXpsOMMatrixTransform interface, which contains the resolved matrix transform for the geometry.helpviewer_keywords: ["GetTransform","GetTransform method [XPS Documents and Packaging]","GetTransform method [XPS Documents and Packaging]","IXpsOMGeometry interface","IXpsOMGeometry interface [XPS Documents and Packaging]","GetTransform method","IXpsOMGeometry.GetTransform","IXpsOMGeometry::GetTransform","xps.ixpsomgeometry_gettransform","xpsobjectmodel/IXpsOMGeometry::GetTransform"]
+description: Gets a pointer to the geometry's IXpsOMMatrixTransform interface, which contains the resolved matrix transform for the geometry.
+helpviewer_keywords: ["GetTransform","GetTransform method [XPS Documents and Packaging]","GetTransform method [XPS Documents and Packaging]","IXpsOMGeometry interface","IXpsOMGeometry interface [XPS Documents and Packaging]","GetTransform method","IXpsOMGeometry.GetTransform","IXpsOMGeometry::GetTransform","xps.ixpsomgeometry_gettransform","xpsobjectmodel/IXpsOMGeometry::GetTransform"]
 old-location: xps\ixpsomgeometry_gettransform.htm
 tech.root: printdocs
 ms.assetid: 2247aa7b-28b3-459e-b565-d52a6cff7323

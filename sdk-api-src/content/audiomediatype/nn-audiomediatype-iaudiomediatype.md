@@ -1,7 +1,8 @@
 ---
 UID: NN:audiomediatype.IAudioMediaType
 title: IAudioMediaType (audiomediatype.h)
-description: The IAudioMediaType interface exposes methods that allow an sAPO to get information that is used to negotiate with the audio engine for the appropriate audio data format.helpviewer_keywords: ["IAudioMediaType","IAudioMediaType interface [Audio Devices]","IAudioMediaType interface [Audio Devices]","described","audio.iaudiomediatype","audio_syseffects_r_8b31a96c-76bb-4090-a0e3-e7e16fb98ddc.xml","audiomediatype/IAudioMediaType"]
+description: The IAudioMediaType interface exposes methods that allow an sAPO to get information that is used to negotiate with the audio engine for the appropriate audio data format.
+helpviewer_keywords: ["IAudioMediaType","IAudioMediaType interface [Audio Devices]","IAudioMediaType interface [Audio Devices]","described","audio.iaudiomediatype","audio_syseffects_r_8b31a96c-76bb-4090-a0e3-e7e16fb98ddc.xml","audiomediatype/IAudioMediaType"]
 old-location: audio\iaudiomediatype.htm
 tech.root: audio
 ms.assetid: bf3ee44b-79f3-441a-91f9-a340dc146d67

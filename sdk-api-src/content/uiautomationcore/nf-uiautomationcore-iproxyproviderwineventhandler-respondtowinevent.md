@@ -60,6 +60,7 @@ Handles a WinEvent.
 
 ### -param idWinEvent [in]
 
+
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">DWORD</a></b>
 
 The identifier of the incoming WinEvent. For a list of WinEvent IDs, see <a href="/windows/desktop/WinAuto/event-constants">Event Constants</a>.
@@ -73,6 +74,7 @@ The handle of the window for which the WinEvent was fired. This should also be t
 
 
 ### -param idObject [in]
+
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">LONG</a></b>
 
@@ -92,9 +94,7 @@ Type: <b><a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-ipro
 
 A pointer to the <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a> interface provided by the UI Automation core. Any event that the proxy needs to raise in response to the WinEvent being handled should be added to the sink.
 
-
 ## -returns
-
 
 
 Type: <b><a href="/windows/desktop/WinProg/windows-data-types">HRESULT</a></b>
@@ -117,13 +117,11 @@ The provider should review the event data. If the provider needs to raise a UI A
 
 
 
-
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventhandler">IProxyProviderWinEventHandler</a>
 
 
 
 <a href="/windows/desktop/api/uiautomationcore/nn-uiautomationcore-iproxyproviderwineventsink">IProxyProviderWinEventSink</a>
-
 
 
 <b>Reference</b>

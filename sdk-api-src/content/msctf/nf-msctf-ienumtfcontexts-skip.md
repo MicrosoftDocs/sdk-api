@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.IEnumTfContexts.Skip
 title: IEnumTfContexts::Skip (msctf.h)
-description: IEnumTfContexts::Skip methodhelpviewer_keywords: ["IEnumTfContexts interface [Text Services Framework]","Skip method","IEnumTfContexts.Skip","IEnumTfContexts::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfContexts interface","_tsf_ienumtfcontexts_skip_ref","msctf/IEnumTfContexts::Skip","tsf.ienumtfcontexts_skip"]
+description: IEnumTfContexts::Skip method
+helpviewer_keywords: ["IEnumTfContexts interface [Text Services Framework]","Skip method","IEnumTfContexts.Skip","IEnumTfContexts::Skip","Skip","Skip method [Text Services Framework]","Skip method [Text Services Framework]","IEnumTfContexts interface","_tsf_ienumtfcontexts_skip_ref","msctf/IEnumTfContexts::Skip","tsf.ienumtfcontexts_skip"]
 old-location: tsf\ienumtfcontexts_skip.htm
 tech.root: TSF
 ms.assetid: 68f0c073-0ba5-4a46-a459-b213145aebd6

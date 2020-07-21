@@ -1,7 +1,8 @@
 ---
 UID: NF:dmusics.IDirectMusicSynth.Close
 title: IDirectMusicSynth::Close (dmusics.h)
-description: The Close method closes a DirectMusic &#0034;port&#0034;, which is a DirectMusic term for a device that sends or receives music data.helpviewer_keywords: ["Close","Close method [Audio Devices]","Close method [Audio Devices]","IDirectMusicSynth interface","IDirectMusicSynth interface [Audio Devices]","Close method","IDirectMusicSynth.Close","IDirectMusicSynth::Close","audio.idirectmusicsynth_close","audmp-routines_e0ff55d1-46e2-42a0-afe4-a4129e663ddd.xml","dmusics/IDirectMusicSynth::Close"]
+description: The Close method closes a DirectMusic &quot;port&quot;, which is a DirectMusic term for a device that sends or receives music data.
+helpviewer_keywords: ["Close","Close method [Audio Devices]","Close method [Audio Devices]","IDirectMusicSynth interface","IDirectMusicSynth interface [Audio Devices]","Close method","IDirectMusicSynth.Close","IDirectMusicSynth::Close","audio.idirectmusicsynth_close","audmp-routines_e0ff55d1-46e2-42a0-afe4-a4129e663ddd.xml","dmusics/IDirectMusicSynth::Close"]
 old-location: audio\idirectmusicsynth_close.htm
 tech.root: audio
 ms.assetid: 275d9ad3-9dde-4cfb-a67f-24da3a0ad2ce

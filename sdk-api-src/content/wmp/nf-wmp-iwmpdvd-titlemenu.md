@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPDVD.titleMenu
 title: IWMPDVD::titleMenu (wmp.h)
-description: The titleMenu method stops playback and displays the title menu.helpviewer_keywords: ["IWMPDVD interface [Windows Media Player]","titleMenu method","IWMPDVD.titleMenu","IWMPDVD::titleMenu","IWMPDVDtitleMenu","titleMenu","titleMenu method [Windows Media Player]","titleMenu method [Windows Media Player]","IWMPDVD interface","wmp.iwmpdvd_titlemenu","wmp/IWMPDVD::titleMenu"]
+description: The titleMenu method stops playback and displays the title menu.
+helpviewer_keywords: ["IWMPDVD interface [Windows Media Player]","titleMenu method","IWMPDVD.titleMenu","IWMPDVD::titleMenu","IWMPDVDtitleMenu","titleMenu","titleMenu method [Windows Media Player]","titleMenu method [Windows Media Player]","IWMPDVD interface","wmp.iwmpdvd_titlemenu","wmp/IWMPDVD::titleMenu"]
 old-location: wmp\iwmpdvd_titlemenu.htm
 tech.root: WMP
 ms.assetid: 93a06367-5b0b-421d-abef-f6cd23e5b0d5

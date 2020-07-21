@@ -1,7 +1,8 @@
 ---
 UID: NF:imapi2.IDiscRecorder2Ex.SendCommandNoData
 title: IDiscRecorder2Ex::SendCommandNoData (imapi2.h)
-description: Sends a MMC command to the recording device. Use this function when no data buffer is sent to nor received from the device.helpviewer_keywords: ["IDiscRecorder2Ex interface [IMAPI]","SendCommandNoData method","IDiscRecorder2Ex.SendCommandNoData","IDiscRecorder2Ex::SendCommandNoData","SendCommandNoData","SendCommandNoData method [IMAPI]","SendCommandNoData method [IMAPI]","IDiscRecorder2Ex interface","imapi.idiscrecorder2ex_sendcommandnodata","imapi2/IDiscRecorder2Ex::SendCommandNoData"]
+description: Sends a MMC command to the recording device. Use this function when no data buffer is sent to nor received from the device.
+helpviewer_keywords: ["IDiscRecorder2Ex interface [IMAPI]","SendCommandNoData method","IDiscRecorder2Ex.SendCommandNoData","IDiscRecorder2Ex::SendCommandNoData","SendCommandNoData","SendCommandNoData method [IMAPI]","SendCommandNoData method [IMAPI]","IDiscRecorder2Ex interface","imapi.idiscrecorder2ex_sendcommandnodata","imapi2/IDiscRecorder2Ex::SendCommandNoData"]
 old-location: imapi\idiscrecorder2ex_sendcommandnodata.htm
 tech.root: imapi
 ms.assetid: 7dc645d5-795d-4f31-a4cf-30875e930e10

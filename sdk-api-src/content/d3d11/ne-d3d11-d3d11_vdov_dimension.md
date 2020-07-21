@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d11.D3D11_VDOV_DIMENSION
 title: D3D11_VDOV_DIMENSION (d3d11.h)
-description: Specifies how to access a resource that is used in a video decoding output view.helpviewer_keywords: ["D3D11_VDOV_DIMENSION","D3D11_VDOV_DIMENSION enumeration [Media Foundation]","D3D11_VDOV_DIMENSION_TEXTURE2D","D3D11_VDOV_DIMENSION_UNKNOWN","d3d11/D3D11_VDOV_DIMENSION","d3d11/D3D11_VDOV_DIMENSION_TEXTURE2D","d3d11/D3D11_VDOV_DIMENSION_UNKNOWN","mf.d3d11_vdov_dimension"]
+description: Specifies how to access a resource that is used in a video decoding output view.
+helpviewer_keywords: ["D3D11_VDOV_DIMENSION","D3D11_VDOV_DIMENSION enumeration [Media Foundation]","D3D11_VDOV_DIMENSION_TEXTURE2D","D3D11_VDOV_DIMENSION_UNKNOWN","d3d11/D3D11_VDOV_DIMENSION","d3d11/D3D11_VDOV_DIMENSION_TEXTURE2D","d3d11/D3D11_VDOV_DIMENSION_UNKNOWN","mf.d3d11_vdov_dimension"]
 old-location: mf\d3d11_vdov_dimension.htm
 tech.root: medfound
 ms.assetid: 079460EB-A7D4-4C8C-B7CA-9A6FFB3B0FA8

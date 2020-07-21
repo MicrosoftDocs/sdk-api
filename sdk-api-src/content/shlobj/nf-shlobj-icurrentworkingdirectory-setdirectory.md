@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.ICurrentWorkingDirectory.SetDirectory
 title: ICurrentWorkingDirectory::SetDirectory (shlobj.h)
-description: Sets the current working directory.helpviewer_keywords: ["ICurrentWorkingDirectory interface [Windows Shell]","SetDirectory method","ICurrentWorkingDirectory.SetDirectory","ICurrentWorkingDirectory::SetDirectory","SetDirectory","SetDirectory method [Windows Shell]","SetDirectory method [Windows Shell]","ICurrentWorkingDirectory interface","_win32_ICurrentWorkingDirectory_SetDirectory","shell.ICurrentWorkingDirectory_SetDirectory","shlobj/ICurrentWorkingDirectory::SetDirectory"]
+description: Sets the current working directory.
+helpviewer_keywords: ["ICurrentWorkingDirectory interface [Windows Shell]","SetDirectory method","ICurrentWorkingDirectory.SetDirectory","ICurrentWorkingDirectory::SetDirectory","SetDirectory","SetDirectory method [Windows Shell]","SetDirectory method [Windows Shell]","ICurrentWorkingDirectory interface","_win32_ICurrentWorkingDirectory_SetDirectory","shell.ICurrentWorkingDirectory_SetDirectory","shlobj/ICurrentWorkingDirectory::SetDirectory"]
 old-location: shell\ICurrentWorkingDirectory_SetDirectory.htm
 tech.root: shell
 ms.assetid: cd7d1517-8c0c-4e42-b750-815fa0aff32c

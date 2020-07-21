@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMMatrixIsInfinite
 title: XMMatrixIsInfinite function (directxmath.h)
-description: Tests whether any of the elements of a matrix are positive or negative infinity.helpviewer_keywords: ["Use DirectX..XMMatrixIsInfinite","XMMatrixIsInfinite","XMMatrixIsInfinite method [DirectX Math Support APIs]","dxmath.xmmatrixisinfinite"]
+description: Tests whether any of the elements of a matrix are positive or negative infinity.
+helpviewer_keywords: ["Use DirectX..XMMatrixIsInfinite","XMMatrixIsInfinite","XMMatrixIsInfinite method [DirectX Math Support APIs]","dxmath.xmmatrixisinfinite"]
 old-location: dxmath\xmmatrixisinfinite.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.matrix.XMMatrixIsInfinite(XMMATRIX)

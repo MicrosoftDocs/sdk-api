@@ -1,7 +1,8 @@
 ---
 UID: NE:winml.WINML_RUNTIME_TYPE
 title: WINML_RUNTIME_TYPE (winml.h)
-description: Specifies the different types of WinML runtimes.helpviewer_keywords: ["MachineLearning.winml_runtime_type","WINML_RUNTIME_CNTK","WINML_RUNTIME_TYPE","WINML_RUNTIME_TYPE enumeration","winml/WINML_RUNTIME_CNTK","winml/WINML_RUNTIME_TYPE"]
+description: Specifies the different types of WinML runtimes.
+helpviewer_keywords: ["MachineLearning.winml_runtime_type","WINML_RUNTIME_CNTK","WINML_RUNTIME_TYPE","WINML_RUNTIME_TYPE enumeration","winml/WINML_RUNTIME_CNTK","winml/WINML_RUNTIME_TYPE"]
 old-location: machinelearning\winml_runtime_type.htm
 tech.root: MachineLearning
 ms.assetid: 5F522511-6186-4C1F-9315-3E382E87F62C

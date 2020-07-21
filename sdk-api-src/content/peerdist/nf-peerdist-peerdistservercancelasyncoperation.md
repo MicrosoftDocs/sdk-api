@@ -1,7 +1,8 @@
 ---
 UID: NF:peerdist.PeerDistServerCancelAsyncOperation
 title: PeerDistServerCancelAsyncOperation function (peerdist.h)
-description: PeerDistServerCancelAsyncOperation function cancels the asynchronous operation associated with the content identifier and OVERLAPPED structure.helpviewer_keywords: ["PeerDistServerCancelAsyncOperation","PeerDistServerCancelAsyncOperation function [Peer Networking]","p2p.peerdistservercancelasyncoperation","peerdist/PeerDistServerCancelAsyncOperation"]
+description: PeerDistServerCancelAsyncOperation function cancels the asynchronous operation associated with the content identifier and OVERLAPPED structure.
+helpviewer_keywords: ["PeerDistServerCancelAsyncOperation","PeerDistServerCancelAsyncOperation function [Peer Networking]","p2p.peerdistservercancelasyncoperation","peerdist/PeerDistServerCancelAsyncOperation"]
 old-location: p2p\peerdistservercancelasyncoperation.htm
 tech.root: P2PSdk
 ms.assetid: b8daa90a-f184-40cb-a62b-b1d122eb7781

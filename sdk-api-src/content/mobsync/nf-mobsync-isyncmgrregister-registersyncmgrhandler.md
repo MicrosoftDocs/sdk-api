@@ -1,7 +1,8 @@
 ---
 UID: NF:mobsync.ISyncMgrRegister.RegisterSyncMgrHandler
 title: ISyncMgrRegister::RegisterSyncMgrHandler (mobsync.h)
-description: Registers a handler with the synchronization manager when the handler has items to synchronize.helpviewer_keywords: ["ISyncMgrRegister interface [Windows Shell]","RegisterSyncMgrHandler method","ISyncMgrRegister.RegisterSyncMgrHandler","ISyncMgrRegister::RegisterSyncMgrHandler","RegisterSyncMgrHandler","RegisterSyncMgrHandler method [Windows Shell]","RegisterSyncMgrHandler method [Windows Shell]","ISyncMgrRegister interface","mobsync/ISyncMgrRegister::RegisterSyncMgrHandler","shell.syncmgr_isyncmgrregister_registersyncmgrhandler","syncmgr.isyncmgrregister_registersyncmgrhandler"]
+description: Registers a handler with the synchronization manager when the handler has items to synchronize.
+helpviewer_keywords: ["ISyncMgrRegister interface [Windows Shell]","RegisterSyncMgrHandler method","ISyncMgrRegister.RegisterSyncMgrHandler","ISyncMgrRegister::RegisterSyncMgrHandler","RegisterSyncMgrHandler","RegisterSyncMgrHandler method [Windows Shell]","RegisterSyncMgrHandler method [Windows Shell]","ISyncMgrRegister interface","mobsync/ISyncMgrRegister::RegisterSyncMgrHandler","shell.syncmgr_isyncmgrregister_registersyncmgrhandler","syncmgr.isyncmgrregister_registersyncmgrhandler"]
 old-location: shell\syncmgr_isyncmgrregister_registersyncmgrhandler.htm
 tech.root: shell
 ms.assetid: 8c980c57-90a1-4f97-8d0c-22a3abdefabb

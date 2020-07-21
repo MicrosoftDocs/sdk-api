@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IDvbContentDescriptor
 title: IDvbContentDescriptor (dvbsiparser.h)
-description: Implements methods that get information from a Digital Video Broadcast (DVB) content descriptor.helpviewer_keywords: ["IDvbContentDescriptor","IDvbContentDescriptor interface [Microsoft TV Technologies]","IDvbContentDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbContentDescriptor","mstv.idvbcontentdescriptor"]
+description: Implements methods that get information from a Digital Video Broadcast (DVB) content descriptor.
+helpviewer_keywords: ["IDvbContentDescriptor","IDvbContentDescriptor interface [Microsoft TV Technologies]","IDvbContentDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IDvbContentDescriptor","mstv.idvbcontentdescriptor"]
 old-location: mstv\idvbcontentdescriptor.htm
 tech.root: mstv
 ms.assetid: 7bc74428-f8e3-4d3b-b35a-33e917b18a93

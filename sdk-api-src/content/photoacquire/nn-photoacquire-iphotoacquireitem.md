@@ -1,7 +1,8 @@
 ---
 UID: NN:photoacquire.IPhotoAcquireItem
 title: IPhotoAcquireItem (photoacquire.h)
-description: The IPhotoAcquireItem interface provides methods for working with items as they are acquired from a device.helpviewer_keywords: ["IPhotoAcquireItem","IPhotoAcquireItem interface [Picture Acquisition]","IPhotoAcquireItem interface [Picture Acquisition]","described","IPhotoAcquireItemInterface","photoacquire/IPhotoAcquireItem","picacq.iphotoacquireitem"]
+description: The IPhotoAcquireItem interface provides methods for working with items as they are acquired from a device.
+helpviewer_keywords: ["IPhotoAcquireItem","IPhotoAcquireItem interface [Picture Acquisition]","IPhotoAcquireItem interface [Picture Acquisition]","described","IPhotoAcquireItemInterface","photoacquire/IPhotoAcquireItem","picacq.iphotoacquireitem"]
 old-location: picacq\iphotoacquireitem.htm
 tech.root: acquisition
 ms.assetid: 57e099eb-bf8d-4465-af4d-fcfc3eee3b5b

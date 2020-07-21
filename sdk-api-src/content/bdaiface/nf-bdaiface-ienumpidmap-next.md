@@ -1,7 +1,8 @@
 ---
 UID: NF:bdaiface.IEnumPIDMap.Next
 title: IEnumPIDMap::Next (bdaiface.h)
-description: The Next method retrieves the next n elements in the collection.helpviewer_keywords: ["IEnumPIDMap interface [DirectShow]","Next method","IEnumPIDMap.Next","IEnumPIDMap::Next","IEnumPIDMapNext","Next","Next method [DirectShow]","Next method [DirectShow]","IEnumPIDMap interface","bdaiface/IEnumPIDMap::Next","dshow.ienumpidmap_next"]
+description: The Next method retrieves the next n elements in the collection.
+helpviewer_keywords: ["IEnumPIDMap interface [DirectShow]","Next method","IEnumPIDMap.Next","IEnumPIDMap::Next","IEnumPIDMapNext","Next","Next method [DirectShow]","Next method [DirectShow]","IEnumPIDMap interface","bdaiface/IEnumPIDMap::Next","dshow.ienumpidmap_next"]
 old-location: dshow\ienumpidmap_next.htm
 tech.root: DirectShow
 ms.assetid: e7e3a2a7-cc62-478d-b0b8-30d58f0b3372

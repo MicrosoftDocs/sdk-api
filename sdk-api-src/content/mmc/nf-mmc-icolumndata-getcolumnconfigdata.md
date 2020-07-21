@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IColumnData.GetColumnConfigData
 title: IColumnData::GetColumnConfigData (mmc.h)
-description: The IColumnData::GetColumnConfigData method enables a snap-in to retrieve the current width, order, and hidden status of each column in a column set that is stored in memory by MMC.helpviewer_keywords: ["GetColumnConfigData","GetColumnConfigData method [MMC]","GetColumnConfigData method [MMC]","IColumnData interface","IColumnData interface [MMC]","GetColumnConfigData method","IColumnData.GetColumnConfigData","IColumnData::GetColumnConfigData","_slate_icolumndata_getcolumnconfigdata","mmc.icolumndata_getcolumnconfigdata","mmc/IColumnData::GetColumnConfigData"]
+description: The IColumnData::GetColumnConfigData method enables a snap-in to retrieve the current width, order, and hidden status of each column in a column set that is stored in memory by MMC.
+helpviewer_keywords: ["GetColumnConfigData","GetColumnConfigData method [MMC]","GetColumnConfigData method [MMC]","IColumnData interface","IColumnData interface [MMC]","GetColumnConfigData method","IColumnData.GetColumnConfigData","IColumnData::GetColumnConfigData","_slate_icolumndata_getcolumnconfigdata","mmc.icolumndata_getcolumnconfigdata","mmc/IColumnData::GetColumnConfigData"]
 old-location: mmc\icolumndata_getcolumnconfigdata.htm
 tech.root: mmc
 ms.assetid: 197804a2-63e5-4f0c-9d6d-4abc751a8a82

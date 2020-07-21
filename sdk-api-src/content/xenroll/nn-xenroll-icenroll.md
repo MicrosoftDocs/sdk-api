@@ -1,7 +1,8 @@
 ---
 UID: NN:xenroll.ICEnroll
 title: ICEnroll (xenroll.h)
-description: The ICEnroll interface is one of several interfaces that represent the Certificate Enrollment Control.helpviewer_keywords: ["ICEnroll","ICEnroll interface [Security]","ICEnroll interface [Security]","described","_xen_icenroll","security.icenroll","xenroll/ICEnroll"]
+description: The ICEnroll interface is one of several interfaces that represent the Certificate Enrollment Control.
+helpviewer_keywords: ["ICEnroll","ICEnroll interface [Security]","ICEnroll interface [Security]","described","_xen_icenroll","security.icenroll","xenroll/ICEnroll"]
 old-location: security\icenroll.htm
 tech.root: SecCrypto
 ms.assetid: d5b746e0-91bd-45bd-9a67-ddc8868cee56

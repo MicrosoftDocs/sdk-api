@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IVMRWindowlessControl.GetMaxIdealVideoSize
 title: IVMRWindowlessControl::GetMaxIdealVideoSize (strmif.h)
-description: The GetMaxIdealVideoSize method retrieves the maximum video size that the VMR can display without incurring significant performance or image quality degradation.helpviewer_keywords: ["GetMaxIdealVideoSize","GetMaxIdealVideoSize method [DirectShow]","GetMaxIdealVideoSize method [DirectShow]","IVMRWindowlessControl interface","IVMRWindowlessControl interface [DirectShow]","GetMaxIdealVideoSize method","IVMRWindowlessControl.GetMaxIdealVideoSize","IVMRWindowlessControl::GetMaxIdealVideoSize","IVMRWindowlessControlGetMaxIdealVideoSize","dshow.ivmrwindowlesscontrol_getmaxidealvideosize","strmif/IVMRWindowlessControl::GetMaxIdealVideoSize"]
+description: The GetMaxIdealVideoSize method retrieves the maximum video size that the VMR can display without incurring significant performance or image quality degradation.
+helpviewer_keywords: ["GetMaxIdealVideoSize","GetMaxIdealVideoSize method [DirectShow]","GetMaxIdealVideoSize method [DirectShow]","IVMRWindowlessControl interface","IVMRWindowlessControl interface [DirectShow]","GetMaxIdealVideoSize method","IVMRWindowlessControl.GetMaxIdealVideoSize","IVMRWindowlessControl::GetMaxIdealVideoSize","IVMRWindowlessControlGetMaxIdealVideoSize","dshow.ivmrwindowlesscontrol_getmaxidealvideosize","strmif/IVMRWindowlessControl::GetMaxIdealVideoSize"]
 old-location: dshow\ivmrwindowlesscontrol_getmaxidealvideosize.htm
 tech.root: DirectShow
 ms.assetid: 1cfd8c4e-70e0-4a7e-a47e-4ad0535e5cb2

@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.GetMenuItemInfoW
 title: GetMenuItemInfoW function (winuser.h)
-description: Retrieves information about a menu item.helpviewer_keywords: ["GetMenuItemInfo","GetMenuItemInfo function [Menus and Other Resources]","GetMenuItemInfoA","GetMenuItemInfoW","_win32_GetMenuItemInfo","_win32_getmenuiteminfo_cpp","menurc.getmenuiteminfo","winui._win32_getmenuiteminfo","winuser/GetMenuItemInfo","winuser/GetMenuItemInfoA","winuser/GetMenuItemInfoW"]
+description: Retrieves information about a menu item.
+helpviewer_keywords: ["GetMenuItemInfo","GetMenuItemInfo function [Menus and Other Resources]","GetMenuItemInfoA","GetMenuItemInfoW","_win32_GetMenuItemInfo","_win32_getmenuiteminfo_cpp","menurc.getmenuiteminfo","winui._win32_getmenuiteminfo","winuser/GetMenuItemInfo","winuser/GetMenuItemInfoA","winuser/GetMenuItemInfoW"]
 old-location: menurc\getmenuiteminfo.htm
 tech.root: menurc
 ms.assetid: VS|winui|~\winui\windowsuserinterface\resources\menus\menureference\menufunctions\getmenuiteminfo.htm
@@ -120,6 +121,10 @@ For an example, see <a href="https://docs.microsoft.com/windows/desktop/menurc/u
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines GetMenuItemInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

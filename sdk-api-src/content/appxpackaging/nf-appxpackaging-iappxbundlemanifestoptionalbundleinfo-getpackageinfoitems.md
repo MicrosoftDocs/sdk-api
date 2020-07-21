@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems
 title: IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems (appxpackaging.h)
-description: Retrieves optional packages in the bundle.helpviewer_keywords: ["GetPackageInfoItems","GetPackageInfoItems method [App packaging and management]","GetPackageInfoItems method [App packaging and management]","IAppxBundleManifestOptionalBundleInfo interface","IAppxBundleManifestOptionalBundleInfo interface [App packaging and management]","GetPackageInfoItems method","IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems","IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems","appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems","appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageinfoitems"]
+description: Retrieves optional packages in the bundle.
+helpviewer_keywords: ["GetPackageInfoItems","GetPackageInfoItems method [App packaging and management]","GetPackageInfoItems method [App packaging and management]","IAppxBundleManifestOptionalBundleInfo interface","IAppxBundleManifestOptionalBundleInfo interface [App packaging and management]","GetPackageInfoItems method","IAppxBundleManifestOptionalBundleInfo.GetPackageInfoItems","IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems","appxpackaging/IAppxBundleManifestOptionalBundleInfo::GetPackageInfoItems","appxpkg.iappxbundlemanifestoptionalbundleinfo_getpackageinfoitems"]
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfo_getpackageinfoitems.htm
 tech.root: appxpkg
 ms.assetid: 6D5028BF-7C74-4F74-9600-0A423FDC6E85

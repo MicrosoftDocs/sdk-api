@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IPropertySheetProvider.Show
 title: IPropertySheetProvider::Show (mmc.h)
-description: If the type that has been set in IPropertySheetProvider::CreatePropertySheet is a property sheet, IPropertySheetProvider::Show displays a property sheet frame that is parented to a hidden window.helpviewer_keywords: ["IPropertySheetProvider interface [MMC]","Show method","IPropertySheetProvider.Show","IPropertySheetProvider::Show","Show","Show method [MMC]","Show method [MMC]","IPropertySheetProvider interface","_slate_ipropertysheetprovider_show","mmc.ipropertysheetprovider_show","mmc/IPropertySheetProvider::Show"]
+description: If the type that has been set in IPropertySheetProvider::CreatePropertySheet is a property sheet, IPropertySheetProvider::Show displays a property sheet frame that is parented to a hidden window.
+helpviewer_keywords: ["IPropertySheetProvider interface [MMC]","Show method","IPropertySheetProvider.Show","IPropertySheetProvider::Show","Show","Show method [MMC]","Show method [MMC]","IPropertySheetProvider interface","_slate_ipropertysheetprovider_show","mmc.ipropertysheetprovider_show","mmc/IPropertySheetProvider::Show"]
 old-location: mmc\ipropertysheetprovider_show.htm
 tech.root: mmc
 ms.assetid: 08e1e3d9-9c9e-49c8-9d55-31c9519c5b0c

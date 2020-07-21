@@ -1,7 +1,8 @@
 ---
 UID: NN:aclui.IEffectivePermission
 title: IEffectivePermission (aclui.h)
-description: Provides a means to determine effective permission for a security principal on an object.helpviewer_keywords: ["IEffectivePermission","IEffectivePermission interface [Security]","IEffectivePermission interface [Security]","described","aclui/IEffectivePermission","security.ieffectivepermission"]
+description: Provides a means to determine effective permission for a security principal on an object.
+helpviewer_keywords: ["IEffectivePermission","IEffectivePermission interface [Security]","IEffectivePermission interface [Security]","described","aclui/IEffectivePermission","security.ieffectivepermission"]
 old-location: security\ieffectivepermission.htm
 tech.root: SecAuthZ
 ms.assetid: c2897dad-647c-4dc1-b962-bd7fbae2da3a

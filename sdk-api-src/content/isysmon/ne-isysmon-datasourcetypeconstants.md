@@ -1,7 +1,8 @@
 ---
 UID: NE:isysmon.eDataSourceTypeConstant
 title: DataSourceTypeConstants (isysmon.h)
-description: Determines the source of the performance counter data.helpviewer_keywords: ["DataSourceTypeConstants","DataSourceTypeConstants enumeration [SysMon]","base.datasourcetypeconstants","isysmon/DataSourceTypeConstants","isysmon/sysmonCurrentActivity","isysmon/sysmonLogFiles","isysmon/sysmonNullDataSource","isysmon/sysmonSqlLog","sysmon.datasourcetypeconstants","sysmonCurrentActivity","sysmonLogFiles","sysmonNullDataSource","sysmonSqlLog"]
+description: Determines the source of the performance counter data.
+helpviewer_keywords: ["DataSourceTypeConstants","DataSourceTypeConstants enumeration [SysMon]","base.datasourcetypeconstants","isysmon/DataSourceTypeConstants","isysmon/sysmonCurrentActivity","isysmon/sysmonLogFiles","isysmon/sysmonNullDataSource","isysmon/sysmonSqlLog","sysmon.datasourcetypeconstants","sysmonCurrentActivity","sysmonLogFiles","sysmonNullDataSource","sysmonSqlLog"]
 old-location: sysmon\datasourcetypeconstants.htm
 tech.root: SysMon
 ms.assetid: ea281ef6-a9bc-4e4f-bd05-642a9c48de73

@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfToolTipUIElement
 title: ITfToolTipUIElement (msctf.h)
-description: The ITfToolTipUIElement interface is implemented by a text service that wants to show a tooltip on its UI.helpviewer_keywords: ["ITfToolTipUIElement","ITfToolTipUIElement interface [Text Services Framework]","ITfToolTipUIElement interface [Text Services Framework]","described","_tsf_itftooltipuielement_ref","msctf/ITfToolTipUIElement","tsf.itftooltipuielement"]
+description: The ITfToolTipUIElement interface is implemented by a text service that wants to show a tooltip on its UI.
+helpviewer_keywords: ["ITfToolTipUIElement","ITfToolTipUIElement interface [Text Services Framework]","ITfToolTipUIElement interface [Text Services Framework]","described","_tsf_itftooltipuielement_ref","msctf/ITfToolTipUIElement","tsf.itftooltipuielement"]
 old-location: tsf\itftooltipuielement.htm
 tech.root: TSF
 ms.assetid: c881b251-a3fb-4f80-b2e8-08db1754f8f5

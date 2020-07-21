@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngDeleteClip
 title: EngDeleteClip function (winddi.h)
-description: The EngDeleteClip function deletes a CLIPOBJ structure allocated by EngCreateClip.helpviewer_keywords: ["EngDeleteClip","EngDeleteClip function [Display Devices]","display.engdeleteclip","gdifncs_0ca10e14-e720-49f3-8c56-9c9dd646f04f.xml","winddi/EngDeleteClip"]
+description: The EngDeleteClip function deletes a CLIPOBJ structure allocated by EngCreateClip.
+helpviewer_keywords: ["EngDeleteClip","EngDeleteClip function [Display Devices]","display.engdeleteclip","gdifncs_0ca10e14-e720-49f3-8c56-9c9dd646f04f.xml","winddi/EngDeleteClip"]
 old-location: display\engdeleteclip.htm
 tech.root: display
 ms.assetid: 7af85df1-1e37-4a69-82a0-1c1eec32dd48

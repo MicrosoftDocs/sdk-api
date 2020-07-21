@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMPushSource.GetStreamOffset
 title: IAMPushSource::GetStreamOffset (strmif.h)
-description: The GetStreamOffset method retrieves the offset that the filter uses when generating time stamps.helpviewer_keywords: ["GetStreamOffset","GetStreamOffset method [DirectShow]","GetStreamOffset method [DirectShow]","IAMPushSource interface","IAMPushSource interface [DirectShow]","GetStreamOffset method","IAMPushSource.GetStreamOffset","IAMPushSource::GetStreamOffset","IAMPushSourceGetStreamOffset","dshow.iampushsource_getstreamoffset","strmif/IAMPushSource::GetStreamOffset"]
+description: The GetStreamOffset method retrieves the offset that the filter uses when generating time stamps.
+helpviewer_keywords: ["GetStreamOffset","GetStreamOffset method [DirectShow]","GetStreamOffset method [DirectShow]","IAMPushSource interface","IAMPushSource interface [DirectShow]","GetStreamOffset method","IAMPushSource.GetStreamOffset","IAMPushSource::GetStreamOffset","IAMPushSourceGetStreamOffset","dshow.iampushsource_getstreamoffset","strmif/IAMPushSource::GetStreamOffset"]
 old-location: dshow\iampushsource_getstreamoffset.htm
 tech.root: DirectShow
 ms.assetid: 249d5262-e02d-4df7-a968-0680b64ab7d4

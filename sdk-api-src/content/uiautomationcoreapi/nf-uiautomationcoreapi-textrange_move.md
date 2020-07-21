@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationcoreapi.TextRange_Move
 title: TextRange_Move function (uiautomationcoreapi.h)
-description: Moves the text range the specified number of units requested by the client.helpviewer_keywords: ["TextRange_Move","TextRange_Move function [Windows Accessibility]","uiauto.uiauto_TextRange_MoveConPat","uiauto_TextRange_MoveConPat","uiautomationcoreapi/TextRange_Move","winauto.uiauto_TextRange_MoveConPat"]
+description: Moves the text range the specified number of units requested by the client.
+helpviewer_keywords: ["TextRange_Move","TextRange_Move function [Windows Accessibility]","uiauto.uiauto_TextRange_MoveConPat","uiauto_TextRange_MoveConPat","uiautomationcoreapi/TextRange_Move","winauto.uiauto_TextRange_MoveConPat"]
 old-location: winauto\uiauto_TextRange_MoveConPat.htm
 tech.root: WinAuto
 ms.assetid: 9d63bd12-da79-46b4-ad93-cd940948a0f5

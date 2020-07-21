@@ -1,7 +1,8 @@
 ---
 UID: NF:devicetopology.IPart.UnregisterControlChangeCallback
 title: IPart::UnregisterControlChangeCallback (devicetopology.h)
-description: The UnregisterControlChangeCallback method removes the registration of an IControlChangeNotify interface that the client previously registered by a call to the IPart::RegisterControlChangeCallback method.helpviewer_keywords: ["IPart interface [Core Audio]","UnregisterControlChangeCallback method","IPart.UnregisterControlChangeCallback","IPart::UnregisterControlChangeCallback","IPartUnregisterControlChangeCallback","UnregisterControlChangeCallback","UnregisterControlChangeCallback method [Core Audio]","UnregisterControlChangeCallback method [Core Audio]","IPart interface","coreaudio.ipart_unregistercontrolchangecallback","devicetopology/IPart::UnregisterControlChangeCallback"]
+description: The UnregisterControlChangeCallback method removes the registration of an IControlChangeNotify interface that the client previously registered by a call to the IPart::RegisterControlChangeCallback method.
+helpviewer_keywords: ["IPart interface [Core Audio]","UnregisterControlChangeCallback method","IPart.UnregisterControlChangeCallback","IPart::UnregisterControlChangeCallback","IPartUnregisterControlChangeCallback","UnregisterControlChangeCallback","UnregisterControlChangeCallback method [Core Audio]","UnregisterControlChangeCallback method [Core Audio]","IPart interface","coreaudio.ipart_unregistercontrolchangecallback","devicetopology/IPart::UnregisterControlChangeCallback"]
 old-location: coreaudio\ipart_unregistercontrolchangecallback.htm
 tech.root: CoreAudio
 ms.assetid: d3341421-6dab-43f3-87a8-83ee8a986a04

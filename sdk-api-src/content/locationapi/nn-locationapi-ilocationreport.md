@@ -1,7 +1,8 @@
 ---
 UID: NN:locationapi.ILocationReport
 title: ILocationReport (locationapi.h)
-description: The parent interface for location reports.helpviewer_keywords: ["ILocationReport","ILocationReport interface [WinLocation]","ILocationReport interface [WinLocation]","described","locationapi/ILocationReport","winlocation.ilocationreport"]
+description: The parent interface for location reports.
+helpviewer_keywords: ["ILocationReport","ILocationReport interface [WinLocation]","ILocationReport interface [WinLocation]","described","locationapi/ILocationReport","winlocation.ilocationreport"]
 old-location: winlocation\ilocationreport.htm
 tech.root: locationapi
 ms.assetid: 6dc78c26-36b3-4545-b5ba-7f04f6e67706

@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Instance_GetServerName
 title: MI_Instance_GetServerName function (mi.h)
-description: Gets the server name from the specified instance.helpviewer_keywords: ["MI_Instance_GetServerName","MI_Instance_GetServerName function [Windows Management Infrastructure (MI)]","mi/MI_Instance_GetServerName","wmi_v2.mi_instance_getservername"]
+description: Gets the server name from the specified instance.
+helpviewer_keywords: ["MI_Instance_GetServerName","MI_Instance_GetServerName function [Windows Management Infrastructure (MI)]","mi/MI_Instance_GetServerName","wmi_v2.mi_instance_getservername"]
 old-location: wmi_v2\mi_instance_getservername.htm
 tech.root: wmi_v2
 ms.assetid: 773b2cb9-9296-4da9-8c13-288524bfccd5

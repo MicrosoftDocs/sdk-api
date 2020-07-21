@@ -1,7 +1,8 @@
 ---
 UID: NN:filtereg.ILoadFilter
 title: ILoadFilter (filtereg.h)
-description: Defines methods and properties that are implemented by the FilterRegistration object, which provides methods for loading a filter.helpviewer_keywords: ["ILoadFilter","ILoadFilter interface [search]","ILoadFilter interface [search]","described","filtereg/ILoadFilter","search.iloadfilter"]
+description: Defines methods and properties that are implemented by the FilterRegistration object, which provides methods for loading a filter.
+helpviewer_keywords: ["ILoadFilter","ILoadFilter interface [search]","ILoadFilter interface [search]","described","filtereg/ILoadFilter","search.iloadfilter"]
 old-location: search\iloadfilter.htm
 tech.root: search
 ms.assetid: 7ac51909-fa0e-4f97-8da0-0ab4c5de7d60

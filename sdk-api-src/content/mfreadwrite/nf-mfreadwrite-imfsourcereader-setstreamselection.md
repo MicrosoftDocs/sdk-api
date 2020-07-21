@@ -1,7 +1,8 @@
 ---
 UID: NF:mfreadwrite.IMFSourceReader.SetStreamSelection
 title: IMFSourceReader::SetStreamSelection (mfreadwrite.h)
-description: Selects or deselects one or more streams.helpviewer_keywords: ["IMFSourceReader interface [Media Foundation]","SetStreamSelection method","IMFSourceReader.SetStreamSelection","IMFSourceReader::SetStreamSelection","MF_SOURCE_READER_ALL_STREAMS","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","SetStreamSelection","SetStreamSelection method [Media Foundation]","SetStreamSelection method [Media Foundation]","IMFSourceReader interface","mf.imfsourcereader_setstreamselection","mfreadwrite/IMFSourceReader::SetStreamSelection"]
+description: Selects or deselects one or more streams.
+helpviewer_keywords: ["IMFSourceReader interface [Media Foundation]","SetStreamSelection method","IMFSourceReader.SetStreamSelection","IMFSourceReader::SetStreamSelection","MF_SOURCE_READER_ALL_STREAMS","MF_SOURCE_READER_FIRST_AUDIO_STREAM","MF_SOURCE_READER_FIRST_VIDEO_STREAM","SetStreamSelection","SetStreamSelection method [Media Foundation]","SetStreamSelection method [Media Foundation]","IMFSourceReader interface","mf.imfsourcereader_setstreamselection","mfreadwrite/IMFSourceReader::SetStreamSelection"]
 old-location: mf\imfsourcereader_setstreamselection.htm
 tech.root: medfound
 ms.assetid: 5efadce6-347c-48cf-b42c-d461922b2523

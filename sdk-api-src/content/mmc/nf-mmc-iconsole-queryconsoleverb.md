@@ -1,7 +1,8 @@
 ---
 UID: NF:mmc.IConsole.QueryConsoleVerb
 title: IConsole::QueryConsoleVerb (mmc.h)
-description: Queries for the IConsoleVerb interface.helpviewer_keywords: ["IConsole interface [MMC]","QueryConsoleVerb method","IConsole.QueryConsoleVerb","IConsole::QueryConsoleVerb","QueryConsoleVerb","QueryConsoleVerb method [MMC]","QueryConsoleVerb method [MMC]","IConsole interface","mmc.iconsole_queryconsoleverb","mmc/IConsole::QueryConsoleVerb"]
+description: Queries for the IConsoleVerb interface.
+helpviewer_keywords: ["IConsole interface [MMC]","QueryConsoleVerb method","IConsole.QueryConsoleVerb","IConsole::QueryConsoleVerb","QueryConsoleVerb","QueryConsoleVerb method [MMC]","QueryConsoleVerb method [MMC]","IConsole interface","mmc.iconsole_queryconsoleverb","mmc/IConsole::QueryConsoleVerb"]
 old-location: mmc\iconsole_queryconsoleverb.htm
 tech.root: mmc
 ms.assetid: 6C40014C-EBCC-455C-A575-4637B253439C

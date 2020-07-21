@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IGetClusterDataInfo.GetClusterName
 title: IGetClusterDataInfo::GetClusterName (cluadmex.h)
-description: Returns the name of the cluster.helpviewer_keywords: ["GetClusterName","GetClusterName method [Failover Cluster]","GetClusterName method [Failover Cluster]","IGetClusterDataInfo interface","IGetClusterDataInfo interface [Failover Cluster]","GetClusterName method","IGetClusterDataInfo.GetClusterName","IGetClusterDataInfo::GetClusterName","_wolf_igetclusterdatainfo_getclustername","cluadmex/IGetClusterDataInfo::GetClusterName","mscs.igetclusterdatainfo_getclustername"]
+description: Returns the name of the cluster.
+helpviewer_keywords: ["GetClusterName","GetClusterName method [Failover Cluster]","GetClusterName method [Failover Cluster]","IGetClusterDataInfo interface","IGetClusterDataInfo interface [Failover Cluster]","GetClusterName method","IGetClusterDataInfo.GetClusterName","IGetClusterDataInfo::GetClusterName","_wolf_igetclusterdatainfo_getclustername","cluadmex/IGetClusterDataInfo::GetClusterName","mscs.igetclusterdatainfo_getclustername"]
 old-location: mscs\igetclusterdatainfo_getclustername.htm
 tech.root: MsCS
 ms.assetid: 711a193f-de29-4e90-adf1-6dc6e95c0c61

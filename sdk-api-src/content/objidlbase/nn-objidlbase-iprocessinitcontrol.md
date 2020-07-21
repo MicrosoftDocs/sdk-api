@@ -1,7 +1,8 @@
 ---
 UID: NN:objidlbase.IProcessInitControl
 title: IProcessInitControl (objidlbase.h)
-description: Specifies the process initialization time-out interval.helpviewer_keywords: ["IProcessInitControl","IProcessInitControl interface [COM]","IProcessInitControl interface [COM]","described","_com_iprocessinitcontrol","com.iprocessinitcontrol","objidlbase/IProcessInitControl"]
+description: Specifies the process initialization time-out interval.
+helpviewer_keywords: ["IProcessInitControl","IProcessInitControl interface [COM]","IProcessInitControl interface [COM]","described","_com_iprocessinitcontrol","com.iprocessinitcontrol","objidlbase/IProcessInitControl"]
 old-location: com\iprocessinitcontrol.htm
 tech.root: com
 ms.assetid: acce67ef-3290-4892-b56a-77a256776c80

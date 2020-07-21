@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IMediaObject.Discontinuity
 title: IMediaObject::Discontinuity (mediaobj.h)
-description: The Discontinuity method signals a discontinuity on the specified input stream.helpviewer_keywords: ["Discontinuity","Discontinuity method [DirectShow]","Discontinuity method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","Discontinuity method","IMediaObject.Discontinuity","IMediaObject::Discontinuity","IMediaObjectDiscontinuity","dshow.imediaobject_discontinuity","mediaobj/IMediaObject::Discontinuity"]
+description: The Discontinuity method signals a discontinuity on the specified input stream.
+helpviewer_keywords: ["Discontinuity","Discontinuity method [DirectShow]","Discontinuity method [DirectShow]","IMediaObject interface","IMediaObject interface [DirectShow]","Discontinuity method","IMediaObject.Discontinuity","IMediaObject::Discontinuity","IMediaObjectDiscontinuity","dshow.imediaobject_discontinuity","mediaobj/IMediaObject::Discontinuity"]
 old-location: dshow\imediaobject_discontinuity.htm
 tech.root: DirectShow
 ms.assetid: 1a8e51e2-5d19-423d-acd2-8f1c0a143cf3

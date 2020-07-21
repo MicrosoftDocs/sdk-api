@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidFeatures.get_Count
 title: IMSVidFeatures::get_Count (segment.h)
-description: The get_Count method retrieves the number of items in the collection.helpviewer_keywords: ["IMSVidFeatures interface [Microsoft TV Technologies]","get_Count method","IMSVidFeatures.get_Count","IMSVidFeatures::get_Count","IMSVidFeaturesget_Count","get_Count","get_Count method [Microsoft TV Technologies]","get_Count method [Microsoft TV Technologies]","IMSVidFeatures interface","mstv.imsvidfeatures_get_count","segment/IMSVidFeatures::get_Count"]
+description: The get_Count method retrieves the number of items in the collection.
+helpviewer_keywords: ["IMSVidFeatures interface [Microsoft TV Technologies]","get_Count method","IMSVidFeatures.get_Count","IMSVidFeatures::get_Count","IMSVidFeaturesget_Count","get_Count","get_Count method [Microsoft TV Technologies]","get_Count method [Microsoft TV Technologies]","IMSVidFeatures interface","mstv.imsvidfeatures_get_count","segment/IMSVidFeatures::get_Count"]
 old-location: mstv\imsvidfeatures_get_count.htm
 tech.root: mstv
 ms.assetid: 45ad322a-d9ec-446d-8c1e-c955049dd257

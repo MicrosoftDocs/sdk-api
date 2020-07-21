@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_3.IDWriteFontFace3.GetFontFaceReference
 title: IDWriteFontFace3::GetFontFaceReference (dwrite_3.h)
-description: Gets a font face reference that identifies this font.helpviewer_keywords: ["GetFontFaceReference","GetFontFaceReference method [Direct Write]","GetFontFaceReference method [Direct Write]","IDWriteFontFace3 interface","IDWriteFontFace3 interface [Direct Write]","GetFontFaceReference method","IDWriteFontFace3.GetFontFaceReference","IDWriteFontFace3::GetFontFaceReference","directwrite.idwritefontface3_getfontfacereference","dwrite_3/IDWriteFontFace3::GetFontFaceReference"]
+description: Gets a font face reference that identifies this font.
+helpviewer_keywords: ["GetFontFaceReference","GetFontFaceReference method [Direct Write]","GetFontFaceReference method [Direct Write]","IDWriteFontFace3 interface","IDWriteFontFace3 interface [Direct Write]","GetFontFaceReference method","IDWriteFontFace3.GetFontFaceReference","IDWriteFontFace3::GetFontFaceReference","directwrite.idwritefontface3_getfontfacereference","dwrite_3/IDWriteFontFace3::GetFontFaceReference"]
 old-location: directwrite\idwritefontface3_getfontfacereference.htm
 tech.root: DirectWrite
 ms.assetid: 3830951F-B304-4EBC-B8D5-611D1AC87F63

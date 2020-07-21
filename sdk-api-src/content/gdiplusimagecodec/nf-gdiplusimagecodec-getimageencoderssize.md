@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusimagecodec.GetImageEncodersSize
 title: GetImageEncodersSize function (gdiplusimagecodec.h)
-description: The GetImageEncodersSize function gets the number of available image encoders and the total size of the array of ImageCodecInfo objects that is returned by the GetImageEncoders function.helpviewer_keywords: ["GetImageEncodersSize","GetImageEncodersSize function [GDI+]","_gdiplus_FUNC_GetImageEncodersSize_numEncoders_size_","gdiplus._gdiplus_FUNC_GetImageEncodersSize_numEncoders_size_","gdiplusimagecodec/GetImageEncodersSize"]
+description: The GetImageEncodersSize function gets the number of available image encoders and the total size of the array of ImageCodecInfo objects that is returned by the GetImageEncoders function.
+helpviewer_keywords: ["GetImageEncodersSize","GetImageEncodersSize function [GDI+]","_gdiplus_FUNC_GetImageEncodersSize_numEncoders_size_","gdiplus._gdiplus_FUNC_GetImageEncodersSize_numEncoders_size_","gdiplusimagecodec/GetImageEncodersSize"]
 old-location: gdiplus\_gdiplus_FUNC_GetImageEncodersSize_numEncoders_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\functions\getimageencoderssize.htm

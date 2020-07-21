@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.SHCreateShellItem
 title: SHCreateShellItem function (shlobj_core.h)
-description: Creates an IShellItem object.helpviewer_keywords: ["SHCreateShellItem","SHCreateShellItem function [Windows Shell]","_win32_SHCreateShellItem","shell.SHCreateShellItem","shlobj_core/SHCreateShellItem"]
+description: Creates an IShellItem object.
+helpviewer_keywords: ["SHCreateShellItem","SHCreateShellItem function [Windows Shell]","_win32_SHCreateShellItem","shell.SHCreateShellItem","shlobj_core/SHCreateShellItem"]
 old-location: shell\SHCreateShellItem.htm
 tech.root: shell
 ms.assetid: d4371cdf-a8f4-4a39-ba66-97fd40ed46ae

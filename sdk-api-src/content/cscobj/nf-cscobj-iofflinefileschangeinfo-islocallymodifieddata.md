@@ -1,7 +1,8 @@
 ---
 UID: NF:cscobj.IOfflineFilesChangeInfo.IsLocallyModifiedData
 title: IOfflineFilesChangeInfo::IsLocallyModifiedData (cscobj.h)
-description: Determines whether an item's data was modified while working offline.helpviewer_keywords: ["IOfflineFilesChangeInfo interface [Offline Files]","IsLocallyModifiedData method","IOfflineFilesChangeInfo.IsLocallyModifiedData","IOfflineFilesChangeInfo::IsLocallyModifiedData","IsLocallyModifiedData","IsLocallyModifiedData method [Offline Files]","IsLocallyModifiedData method [Offline Files]","IOfflineFilesChangeInfo interface","cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedData","of.iofflinefileschangeinfo_islocallymodifieddata"]
+description: Determines whether an item's data was modified while working offline.
+helpviewer_keywords: ["IOfflineFilesChangeInfo interface [Offline Files]","IsLocallyModifiedData method","IOfflineFilesChangeInfo.IsLocallyModifiedData","IOfflineFilesChangeInfo::IsLocallyModifiedData","IsLocallyModifiedData","IsLocallyModifiedData method [Offline Files]","IsLocallyModifiedData method [Offline Files]","IOfflineFilesChangeInfo interface","cscobj/IOfflineFilesChangeInfo::IsLocallyModifiedData","of.iofflinefileschangeinfo_islocallymodifieddata"]
 old-location: of\iofflinefileschangeinfo_islocallymodifieddata.htm
 tech.root: offlinefiles
 ms.assetid: d27999af-147e-4c1b-be89-58191292337d

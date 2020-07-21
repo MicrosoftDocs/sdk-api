@@ -1,7 +1,8 @@
 ---
 UID: NS:wabdefs._ADRPARM
 title: ADRPARM (wabdefs.h)
-description: Do not use. Describes the display and behavior of the common address dialog box.helpviewer_keywords: ["*LPADRPARM","AB_RESOLVE","AB_SELECTONLY","ADDRESS_ONE","ADRPARM","ADRPARM structure [Windows Address Book]","DIALOG_MODAL","DIALOG_SDI","LPADRPARM","LPADRPARM structure pointer [Windows Address Book]","_wab_ADRPARM","wab._wab_ADRPARM","wabdefs/ADRPARM","wabdefs/LPADRPARM"]
+description: Do not use. Describes the display and behavior of the common address dialog box.
+helpviewer_keywords: ["*LPADRPARM","AB_RESOLVE","AB_SELECTONLY","ADDRESS_ONE","ADRPARM","ADRPARM structure [Windows Address Book]","DIALOG_MODAL","DIALOG_SDI","LPADRPARM","LPADRPARM structure pointer [Windows Address Book]","_wab_ADRPARM","wab._wab_ADRPARM","wabdefs/ADRPARM","wabdefs/LPADRPARM"]
 old-location: wab\_wab_ADRPARM.htm
 tech.root: wab
 ms.assetid: VS|wab|~\wab\reference\structures\adrparm.htm

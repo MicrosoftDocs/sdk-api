@@ -1,7 +1,8 @@
 ---
 UID: NF:audioclient.IAudioClock.GetFrequency
 title: IAudioClock::GetFrequency (audioclient.h)
-description: The GetFrequency method gets the device frequency.helpviewer_keywords: ["GetFrequency","GetFrequency method [Core Audio]","GetFrequency method [Core Audio]","IAudioClock interface","IAudioClock interface [Core Audio]","GetFrequency method","IAudioClock.GetFrequency","IAudioClock::GetFrequency","IAudioClockGetFrequency","audioclient/IAudioClock::GetFrequency","coreaudio.iaudioclock_getfrequency"]
+description: The GetFrequency method gets the device frequency.
+helpviewer_keywords: ["GetFrequency","GetFrequency method [Core Audio]","GetFrequency method [Core Audio]","IAudioClock interface","IAudioClock interface [Core Audio]","GetFrequency method","IAudioClock.GetFrequency","IAudioClock::GetFrequency","IAudioClockGetFrequency","audioclient/IAudioClock::GetFrequency","coreaudio.iaudioclock_getfrequency"]
 old-location: coreaudio\iaudioclock_getfrequency.htm
 tech.root: CoreAudio
 ms.assetid: 4ad17f03-a353-4ac5-9f07-b5dc7c3b530f

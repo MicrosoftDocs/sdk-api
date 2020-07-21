@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IATSCTuningSpace.get_MinPhysicalChannel
 title: IATSCTuningSpace::get_MinPhysicalChannel (tuner.h)
-description: The get_MinPhysicalChannel method sets the lowest physical channel number for this tuning space.helpviewer_keywords: ["IATSCTuningSpace interface [Microsoft TV Technologies]","get_MinPhysicalChannel method","IATSCTuningSpace.get_MinPhysicalChannel","IATSCTuningSpace::get_MinPhysicalChannel","IATSCTuningSpaceget_MinPhysicalChannel","get_MinPhysicalChannel","get_MinPhysicalChannel method [Microsoft TV Technologies]","get_MinPhysicalChannel method [Microsoft TV Technologies]","IATSCTuningSpace interface","mstv.iatsctuningspace_get_minphysicalchannel","tuner/IATSCTuningSpace::get_MinPhysicalChannel"]
+description: The get_MinPhysicalChannel method sets the lowest physical channel number for this tuning space.
+helpviewer_keywords: ["IATSCTuningSpace interface [Microsoft TV Technologies]","get_MinPhysicalChannel method","IATSCTuningSpace.get_MinPhysicalChannel","IATSCTuningSpace::get_MinPhysicalChannel","IATSCTuningSpaceget_MinPhysicalChannel","get_MinPhysicalChannel","get_MinPhysicalChannel method [Microsoft TV Technologies]","get_MinPhysicalChannel method [Microsoft TV Technologies]","IATSCTuningSpace interface","mstv.iatsctuningspace_get_minphysicalchannel","tuner/IATSCTuningSpace::get_MinPhysicalChannel"]
 old-location: mstv\iatsctuningspace_get_minphysicalchannel.htm
 tech.root: mstv
 ms.assetid: 1b85331a-d99f-4cb6-8440-1b51fa697ade

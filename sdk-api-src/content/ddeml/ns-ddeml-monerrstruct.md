@@ -1,7 +1,8 @@
 ---
 UID: NS:ddeml.tagMONERRSTRUCT
 title: MONERRSTRUCT (ddeml.h)
-description: Contains information about the current Dynamic Data Exchange (DDE) error. A DDE monitoring application can use this structure to monitor errors returned by DDE Management Library functions.helpviewer_keywords: ["*PMONERRSTRUCT","MONERRSTRUCT","MONERRSTRUCT structure [Data Exchange]","PMONERRSTRUCT","PMONERRSTRUCT structure pointer [Data Exchange]","_win32_MONERRSTRUCT_str","_win32_monerrstruct_str_cpp","dataxchg.monerrstruct_str","ddeml/MONERRSTRUCT","ddeml/PMONERRSTRUCT","winui._win32_monerrstruct_str"]
+description: Contains information about the current Dynamic Data Exchange (DDE) error. A DDE monitoring application can use this structure to monitor errors returned by DDE Management Library functions.
+helpviewer_keywords: ["*PMONERRSTRUCT","MONERRSTRUCT","MONERRSTRUCT structure [Data Exchange]","PMONERRSTRUCT","PMONERRSTRUCT structure pointer [Data Exchange]","_win32_MONERRSTRUCT_str","_win32_monerrstruct_str_cpp","dataxchg.monerrstruct_str","ddeml/MONERRSTRUCT","ddeml/PMONERRSTRUCT","winui._win32_monerrstruct_str"]
 old-location: dataxchg\monerrstruct_str.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementstructures\monerrstruct.htm

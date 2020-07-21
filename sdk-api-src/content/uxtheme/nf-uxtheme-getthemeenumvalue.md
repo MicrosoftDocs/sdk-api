@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeEnumValue
 title: GetThemeEnumValue function (uxtheme.h)
-description: Retrieves the value of an enumerated type property.helpviewer_keywords: ["GetThemeEnumValue","GetThemeEnumValue function [Windows Controls]","controls.GetThemeEnumValue","controls.inet_GetThemeEnumValue","inet_GetThemeEnumValue","inet_GetThemeEnumValue_cpp","uxtheme/GetThemeEnumValue"]
+description: Retrieves the value of an enumerated type property.
+helpviewer_keywords: ["GetThemeEnumValue","GetThemeEnumValue function [Windows Controls]","controls.GetThemeEnumValue","controls.inet_GetThemeEnumValue","inet_GetThemeEnumValue","inet_GetThemeEnumValue_cpp","uxtheme/GetThemeEnumValue"]
 old-location: controls\GetThemeEnumValue.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthemeenumvalue.htm

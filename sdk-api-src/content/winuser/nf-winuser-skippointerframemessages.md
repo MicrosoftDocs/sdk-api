@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.SkipPointerFrameMessages
 title: SkipPointerFrameMessages function (winuser.h)
-description: Determines which pointer input frame generated the most recently retrieved message for the specified pointer and discards any queued (unretrieved) pointer input messages generated from the same pointer input frame.helpviewer_keywords: ["SkipPointerFrameMessages","SkipPointerFrameMessages function [Input Messages and Notifications]","inputmsg.skippointerframemessages","winuser/SkipPointerFrameMessages"]
+description: Determines which pointer input frame generated the most recently retrieved message for the specified pointer and discards any queued (unretrieved) pointer input messages generated from the same pointer input frame.
+helpviewer_keywords: ["SkipPointerFrameMessages","SkipPointerFrameMessages function [Input Messages and Notifications]","inputmsg.skippointerframemessages","winuser/SkipPointerFrameMessages"]
 old-location: inputmsg\skippointerframemessages.htm
 tech.root: InputMsg
 ms.assetid: d67f8d44-3e19-4523-a0f3-38f09f5df91f

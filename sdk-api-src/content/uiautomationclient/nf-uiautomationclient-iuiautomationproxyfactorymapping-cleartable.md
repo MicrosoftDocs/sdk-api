@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomationProxyFactoryMapping.ClearTable
 title: IUIAutomationProxyFactoryMapping::ClearTable (uiautomationclient.h)
-description: Removes all entries from the proxy factory table.helpviewer_keywords: ["ClearTable","ClearTable method [Windows Accessibility]","ClearTable method [Windows Accessibility]","IUIAutomationProxyFactoryMapping interface","IUIAutomationProxyFactoryMapping interface [Windows Accessibility]","ClearTable method","IUIAutomationProxyFactoryMapping.ClearTable","IUIAutomationProxyFactoryMapping::ClearTable","uiauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable","uiauto_IUIAutomationProxyFactoryMapping_ClearTable","uiautomationclient/IUIAutomationProxyFactoryMapping::ClearTable","winauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable"]
+description: Removes all entries from the proxy factory table.
+helpviewer_keywords: ["ClearTable","ClearTable method [Windows Accessibility]","ClearTable method [Windows Accessibility]","IUIAutomationProxyFactoryMapping interface","IUIAutomationProxyFactoryMapping interface [Windows Accessibility]","ClearTable method","IUIAutomationProxyFactoryMapping.ClearTable","IUIAutomationProxyFactoryMapping::ClearTable","uiauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable","uiauto_IUIAutomationProxyFactoryMapping_ClearTable","uiautomationclient/IUIAutomationProxyFactoryMapping::ClearTable","winauto.uiauto_IUIAutomationProxyFactoryMapping_ClearTable"]
 old-location: winauto\uiauto_IUIAutomationProxyFactoryMapping_ClearTable.htm
 tech.root: WinAuto
 ms.assetid: 00f16e39-557c-4e55-bfbf-49dc0d97ab37

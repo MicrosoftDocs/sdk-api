@@ -1,7 +1,8 @@
 ---
 UID: NF:commdlg.IPrintDialogServices.GetCurrentPortName
 title: IPrintDialogServices::GetCurrentPortName (commdlg.h)
-description: Retrieves the name of the current port for use with PrintDlgEx.helpviewer_keywords: ["GetCurrentPortName","GetCurrentPortName function","GetCurrentPortName method [Dialog Boxes]","GetCurrentPortName method [Dialog Boxes]","IPrintDialogServices interface","IPrintDialogServices interface [Dialog Boxes]","GetCurrentPortName method","IPrintDialogServices.GetCurrentPortName","IPrintDialogServices::GetCurrentPortName","_win32_IPrintDialogServices_GetCurrentPortName","_win32_iprintdialogservices_getcurrentportname_cpp","commdlg/IPrintDialogServices::GetCurrentPortName","dlgbox.iprintdialogservices_getcurrentportname","winui._win32_iprintdialogservices_getcurrentportname"]
+description: Retrieves the name of the current port for use with PrintDlgEx.
+helpviewer_keywords: ["GetCurrentPortName","GetCurrentPortName function","GetCurrentPortName method [Dialog Boxes]","GetCurrentPortName method [Dialog Boxes]","IPrintDialogServices interface","IPrintDialogServices interface [Dialog Boxes]","GetCurrentPortName method","IPrintDialogServices.GetCurrentPortName","IPrintDialogServices::GetCurrentPortName","_win32_IPrintDialogServices_GetCurrentPortName","_win32_iprintdialogservices_getcurrentportname_cpp","commdlg/IPrintDialogServices::GetCurrentPortName","dlgbox.iprintdialogservices_getcurrentportname","winui._win32_iprintdialogservices_getcurrentportname"]
 old-location: dlgbox\iprintdialogservices_getcurrentportname.htm
 tech.root: dlgbox
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\commondialogboxlibrary\commondialogboxreference\commondialogboxinterfaces\iprintdialogservices\iprintdialogservicesgetcurrentportname.htm

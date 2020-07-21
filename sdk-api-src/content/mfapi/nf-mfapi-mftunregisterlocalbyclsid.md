@@ -1,7 +1,8 @@
 ---
 UID: NF:mfapi.MFTUnregisterLocalByCLSID
 title: MFTUnregisterLocalByCLSID function (mfapi.h)
-description: Unregisters a Media Foundation transform (MFT) from the caller's process.helpviewer_keywords: ["MFTUnregisterLocalByCLSID","MFTUnregisterLocalByCLSID function [Media Foundation]","mf.mftunregisterlocalbyclsid","mfapi/MFTUnregisterLocalByCLSID"]
+description: Unregisters a Media Foundation transform (MFT) from the caller's process.
+helpviewer_keywords: ["MFTUnregisterLocalByCLSID","MFTUnregisterLocalByCLSID function [Media Foundation]","mf.mftunregisterlocalbyclsid","mfapi/MFTUnregisterLocalByCLSID"]
 old-location: mf\mftunregisterlocalbyclsid.htm
 tech.root: medfound
 ms.assetid: ebdf50ad-99cb-4ebf-9050-da0b2d9f26df

@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.ICertificateAttestationChallenge.get_RequestID
 title: ICertificateAttestationChallenge::get_RequestID (certenroll.h)
-description: Gets the request ID from the Certificate Management over CMS (CMC) response.helpviewer_keywords: ["ICertificateAttestationChallenge interface [Security]","RequestID property","ICertificateAttestationChallenge.RequestID","ICertificateAttestationChallenge.get_RequestID","ICertificateAttestationChallenge::RequestID","ICertificateAttestationChallenge::get_RequestID","RequestID property [Security]","RequestID property [Security]","ICertificateAttestationChallenge interface","certenroll/ICertificateAttestationChallenge::RequestID","certenroll/ICertificateAttestationChallenge::get_RequestID","get_RequestID","security.icertificateattestationchallenge_requestid"]
+description: Gets the request ID from the Certificate Management over CMS (CMC) response.
+helpviewer_keywords: ["ICertificateAttestationChallenge interface [Security]","RequestID property","ICertificateAttestationChallenge.RequestID","ICertificateAttestationChallenge.get_RequestID","ICertificateAttestationChallenge::RequestID","ICertificateAttestationChallenge::get_RequestID","RequestID property [Security]","RequestID property [Security]","ICertificateAttestationChallenge interface","certenroll/ICertificateAttestationChallenge::RequestID","certenroll/ICertificateAttestationChallenge::get_RequestID","get_RequestID","security.icertificateattestationchallenge_requestid"]
 old-location: security\icertificateattestationchallenge_requestid.htm
 tech.root: seccertenroll
 ms.assetid: c3ca69cf-12e0-4341-b3a6-f668155ea3ff

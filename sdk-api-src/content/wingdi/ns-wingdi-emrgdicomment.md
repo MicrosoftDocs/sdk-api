@@ -1,7 +1,8 @@
 ---
 UID: NS:wingdi.tagEMRGDICOMMENT
 title: EMRGDICOMMENT (wingdi.h)
-description: The EMRGDICOMMENT structure contains application-specific data.helpviewer_keywords: ["*PEMRGDICOMMENT","EMRGDICOMMENT","EMRGDICOMMENT structure [Windows GDI]","PEMRGDICOMMENT","PEMRGDICOMMENT structure pointer [Windows GDI]","_win32_EMRGDICOMMENT_str","gdi.emrgdicomment","wingdi/EMRGDICOMMENT","wingdi/PEMRGDICOMMENT"]
+description: The EMRGDICOMMENT structure contains application-specific data.
+helpviewer_keywords: ["*PEMRGDICOMMENT","EMRGDICOMMENT","EMRGDICOMMENT structure [Windows GDI]","PEMRGDICOMMENT","PEMRGDICOMMENT structure pointer [Windows GDI]","_win32_EMRGDICOMMENT_str","gdi.emrgdicomment","wingdi/EMRGDICOMMENT","wingdi/PEMRGDICOMMENT"]
 old-location: gdi\emrgdicomment.htm
 tech.root: gdi
 ms.assetid: aac18154-bd50-45a4-a1ba-390b59525fa9

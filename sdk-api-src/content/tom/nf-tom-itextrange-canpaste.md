@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRange.CanPaste
 title: ITextRange::CanPaste (tom.h)
-description: Determines if a data object can be pasted, using a specified format, into the current range.helpviewer_keywords: ["CanPaste","CanPaste method [Windows Controls]","CanPaste method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","CanPaste method","ITextRange.CanPaste","ITextRange::CanPaste","_win32_ITextRange_CanPaste","_win32_ITextRange_CanPaste_cpp","controls.ITextRange_CanPaste","controls._win32_ITextRange_CanPaste","tom/ITextRange::CanPaste"]
+description: Determines if a data object can be pasted, using a specified format, into the current range.
+helpviewer_keywords: ["CanPaste","CanPaste method [Windows Controls]","CanPaste method [Windows Controls]","ITextRange interface","ITextRange interface [Windows Controls]","CanPaste method","ITextRange.CanPaste","ITextRange::CanPaste","_win32_ITextRange_CanPaste","_win32_ITextRange_CanPaste_cpp","controls.ITextRange_CanPaste","controls._win32_ITextRange_CanPaste","tom/ITextRange::CanPaste"]
 old-location: controls\ITextRange_CanPaste.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\canpaste.htm

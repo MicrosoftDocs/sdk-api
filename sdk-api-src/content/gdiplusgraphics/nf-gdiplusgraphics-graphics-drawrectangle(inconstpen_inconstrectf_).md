@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusgraphics.Graphics.DrawRectangle(IN const Pen,IN const RectF &)
+UID: NF:gdiplusgraphics.Graphics.DrawRectangle(INconstPen,INconstRectF&)
 title: Graphics::DrawRectangle
-description: The Graphics::DrawRectangle method draws a rectangle.helpviewer_keywords: ["Graphics::DrawRectangle"]
+description: The Graphics::DrawRectangle method draws a rectangle.
+helpviewer_keywords: ["Graphics::DrawRectangle"]
 ms.assetid: cf3f26ad-2aec-4986-a884-95763e63013e
 ms.date: 05/13/2019
 ms.keywords: Graphics::DrawRectangle

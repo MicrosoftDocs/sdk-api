@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsCreateHeap
 title: WsCreateHeap function (webservices.h)
-description: Creates a heap object.helpviewer_keywords: ["WsCreateHeap","WsCreateHeap function [Web Services for Windows]","webservices/WsCreateHeap","wsw.wscreateheap"]
+description: Creates a heap object.
+helpviewer_keywords: ["WsCreateHeap","WsCreateHeap function [Web Services for Windows]","webservices/WsCreateHeap","wsw.wscreateheap"]
 old-location: wsw\wscreateheap.htm
 tech.root: wsw
 ms.assetid: 459b7146-3b32-4df8-87e1-4ac7ad33ed0e

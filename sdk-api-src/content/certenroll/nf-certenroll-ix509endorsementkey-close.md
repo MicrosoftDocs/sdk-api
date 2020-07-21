@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509EndorsementKey.Close
 title: IX509EndorsementKey::Close (certenroll.h)
-description: Closes the endorsement key. You can only call the Close method after the Open method has been successfully called.helpviewer_keywords: ["Close","Close method [Security]","Close method [Security]","IX509EndorsementKey interface","IX509EndorsementKey interface [Security]","Close method","IX509EndorsementKey.Close","IX509EndorsementKey::Close","certenroll/IX509EndorsementKey::Close","security.ix509endorsementkey_close"]
+description: Closes the endorsement key. You can only call the Close method after the Open method has been successfully called.
+helpviewer_keywords: ["Close","Close method [Security]","Close method [Security]","IX509EndorsementKey interface","IX509EndorsementKey interface [Security]","Close method","IX509EndorsementKey.Close","IX509EndorsementKey::Close","certenroll/IX509EndorsementKey::Close","security.ix509endorsementkey_close"]
 old-location: security\ix509endorsementkey_close.htm
 tech.root: seccertenroll
 ms.assetid: 71855c96-a828-4bb6-849a-53be8269277d

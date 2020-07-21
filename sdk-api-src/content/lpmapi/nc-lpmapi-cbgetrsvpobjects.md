@@ -1,7 +1,8 @@
 ---
 UID: NC:lpmapi.CBGETRSVPOBJECTS
 title: CBGETRSVPOBJECTS (lpmapi.h)
-description: The cbGetRsvpObjects function is a callback function for LPMs to asynchronously return results for LPM_GetRsvpObjects requests.helpviewer_keywords: ["CBGETRSVPOBJECTS","CBGETRSVPOBJECTS callback function [QOS]","_gqos_cbpgetrsvpobjects","cbGetRsvpObjects","cbGetRsvpObjects callback","cbGetRsvpObjects callback function [QOS]","lpmapi/cbGetRsvpObjects","qos.cbgetrsvpobjects","qos.cbpgetrsvpobjects"]
+description: The cbGetRsvpObjects function is a callback function for LPMs to asynchronously return results for LPM_GetRsvpObjects requests.
+helpviewer_keywords: ["CBGETRSVPOBJECTS","CBGETRSVPOBJECTS callback function [QOS]","_gqos_cbpgetrsvpobjects","cbGetRsvpObjects","cbGetRsvpObjects callback","cbGetRsvpObjects callback function [QOS]","lpmapi/cbGetRsvpObjects","qos.cbgetrsvpobjects","qos.cbpgetrsvpobjects"]
 old-location: qos\cbgetrsvpobjects.htm
 tech.root: QOS
 ms.assetid: baedb3e9-7768-4666-8bd7-78dd1d0eb0de

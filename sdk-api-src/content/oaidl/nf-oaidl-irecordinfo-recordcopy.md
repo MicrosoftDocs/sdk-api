@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.IRecordInfo.RecordCopy
 title: IRecordInfo::RecordCopy (oaidl.h)
-description: Copies an existing record into the passed in buffer.helpviewer_keywords: ["IRecordInfo interface [Automation]","RecordCopy method","IRecordInfo.RecordCopy","IRecordInfo::RecordCopy","RecordCopy","RecordCopy method [Automation]","RecordCopy method [Automation]","IRecordInfo interface","_oa96_IRecordInfo_RecordCopy","automat.irecordinfo_recordcopy","oaidl/IRecordInfo::RecordCopy"]
+description: Copies an existing record into the passed in buffer.
+helpviewer_keywords: ["IRecordInfo interface [Automation]","RecordCopy method","IRecordInfo.RecordCopy","IRecordInfo::RecordCopy","RecordCopy","RecordCopy method [Automation]","RecordCopy method [Automation]","IRecordInfo interface","_oa96_IRecordInfo_RecordCopy","automat.irecordinfo_recordcopy","oaidl/IRecordInfo::RecordCopy"]
 old-location: automat\irecordinfo_recordcopy.htm
 tech.root: automat
 ms.assetid: 0e5a57a2-06d1-47b3-8e3c-c8718b550bcb

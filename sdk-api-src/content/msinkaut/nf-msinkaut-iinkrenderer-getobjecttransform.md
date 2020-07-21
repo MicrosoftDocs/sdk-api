@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkRenderer.GetObjectTransform
 title: IInkRenderer::GetObjectTransform (msinkaut.h)
-description: Gets the InkTransform object that represents the object transform that was used to render ink.helpviewer_keywords: ["11195fa1-ca59-4da6-8454-6209c75ccc67","GetObjectTransform","GetObjectTransform method [Tablet PC]","GetObjectTransform method [Tablet PC]","IInkRenderer interface","IInkRenderer interface [Tablet PC]","GetObjectTransform method","IInkRenderer.GetObjectTransform","IInkRenderer::GetObjectTransform","msinkaut/IInkRenderer::GetObjectTransform","tablet.inkrenderer_getobjecttransform"]
+description: Gets the InkTransform object that represents the object transform that was used to render ink.
+helpviewer_keywords: ["11195fa1-ca59-4da6-8454-6209c75ccc67","GetObjectTransform","GetObjectTransform method [Tablet PC]","GetObjectTransform method [Tablet PC]","IInkRenderer interface","IInkRenderer interface [Tablet PC]","GetObjectTransform method","IInkRenderer.GetObjectTransform","IInkRenderer::GetObjectTransform","msinkaut/IInkRenderer::GetObjectTransform","tablet.inkrenderer_getobjecttransform"]
 old-location: tablet\inkrenderer_getobjecttransform.htm
 tech.root: tablet
 ms.assetid: 11195fa1-ca59-4da6-8454-6209c75ccc67

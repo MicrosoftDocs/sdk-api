@@ -1,7 +1,8 @@
 ---
 UID: NF:ras.RasGetProjectionInfoA
 title: RasGetProjectionInfoA function (ras.h)
-description: The RasGetProjectionInfo function obtains information about a remote access projection operation for a specified remote access component protocol.helpviewer_keywords: ["RASP_Amb","RASP_PppCcp","RASP_PppIp","RASP_PppIpv6","RASP_PppIpx","RASP_PppLcp","RASP_PppNbf","RASP_Slip","RasGetProjectionInfo","RasGetProjectionInfo function [RAS]","RasGetProjectionInfoA","RasGetProjectionInfoW","_ras_rasgetprojectioninfo","ras/RasGetProjectionInfo","ras/RasGetProjectionInfoA","ras/RasGetProjectionInfoW","rras.rasgetprojectioninfo"]
+description: The RasGetProjectionInfo function obtains information about a remote access projection operation for a specified remote access component protocol.
+helpviewer_keywords: ["RASP_Amb","RASP_PppCcp","RASP_PppIp","RASP_PppIpv6","RASP_PppIpx","RASP_PppLcp","RASP_PppNbf","RASP_Slip","RasGetProjectionInfo","RasGetProjectionInfo function [RAS]","RasGetProjectionInfoA","RasGetProjectionInfoW","_ras_rasgetprojectioninfo","ras/RasGetProjectionInfo","ras/RasGetProjectionInfoA","ras/RasGetProjectionInfoW","rras.rasgetprojectioninfo"]
 old-location: rras\rasgetprojectioninfo.htm
 tech.root: RRAS
 ms.assetid: 97ae09c3-588a-4dd2-9756-ddcd5fa37f51
@@ -300,6 +301,10 @@ The NetBEUI protocol and authentication message blocks (AMB) are only supported 
 
 
 
+
+
+> [!NOTE]
+> The ras.h header defines RasGetProjectionInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

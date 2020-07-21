@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl.IFileDialog2.SetCancelButtonLabel
 title: IFileDialog2::SetCancelButtonLabel (shobjidl.h)
-description: Replaces the default text &#0034;Cancel&#0034; on the common file dialog's Cancel button.helpviewer_keywords: ["IFileDialog2 interface [Windows Shell]","SetCancelButtonLabel method","IFileDialog2.SetCancelButtonLabel","IFileDialog2::SetCancelButtonLabel","SetCancelButtonLabel","SetCancelButtonLabel method [Windows Shell]","SetCancelButtonLabel method [Windows Shell]","IFileDialog2 interface","_shell_IFileDialog2_SetCancelButtonLabel","shell.IFileDialog2_SetCancelButtonLabel","shobjidl/IFileDialog2::SetCancelButtonLabel"]
+description: Replaces the default text &quot;Cancel&quot; on the common file dialog's Cancel button.
+helpviewer_keywords: ["IFileDialog2 interface [Windows Shell]","SetCancelButtonLabel method","IFileDialog2.SetCancelButtonLabel","IFileDialog2::SetCancelButtonLabel","SetCancelButtonLabel","SetCancelButtonLabel method [Windows Shell]","SetCancelButtonLabel method [Windows Shell]","IFileDialog2 interface","_shell_IFileDialog2_SetCancelButtonLabel","shell.IFileDialog2_SetCancelButtonLabel","shobjidl/IFileDialog2::SetCancelButtonLabel"]
 old-location: shell\IFileDialog2_SetCancelButtonLabel.htm
 tech.root: shell
 ms.assetid: a0d7b516-1941-4245-8ca6-f470b8c426aa

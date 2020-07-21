@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMDevice.GetStatus
 title: IWMDMDevice::GetStatus (mswmdm.h)
-description: The GetStatus method retrieves device status information.helpviewer_keywords: ["GetStatus","GetStatus method [windows Media Device Manager]","GetStatus method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetStatus method","IWMDMDevice.GetStatus","IWMDMDevice::GetStatus","IWMDMDeviceGetStatus","mswmdm/IWMDMDevice::GetStatus","wmdm.iwmdmdevice_getstatus"]
+description: The GetStatus method retrieves device status information.
+helpviewer_keywords: ["GetStatus","GetStatus method [windows Media Device Manager]","GetStatus method [windows Media Device Manager]","IWMDMDevice interface","IWMDMDevice interface [windows Media Device Manager]","GetStatus method","IWMDMDevice.GetStatus","IWMDMDevice::GetStatus","IWMDMDeviceGetStatus","mswmdm/IWMDMDevice::GetStatus","wmdm.iwmdmdevice_getstatus"]
 old-location: wmdm\iwmdmdevice_getstatus.htm
 tech.root: WMDM
 ms.assetid: 18445ba5-6c91-4b4c-8f9b-b9d94fd96155

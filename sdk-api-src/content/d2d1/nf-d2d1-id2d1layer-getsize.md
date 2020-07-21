@@ -1,7 +1,8 @@
 ---
 UID: NF:d2d1.ID2D1Layer.GetSize
 title: ID2D1Layer::GetSize (d2d1.h)
-description: Gets the size of the layer in device-independent pixels.helpviewer_keywords: ["GetSize","GetSize method [Direct2D]","GetSize method [Direct2D]","ID2D1Layer interface","ID2D1Layer interface [Direct2D]","GetSize method","ID2D1Layer.GetSize","ID2D1Layer::GetSize","d2d1/ID2D1Layer::GetSize","direct2d.ID2D1Layer_GetSize"]
+description: Gets the size of the layer in device-independent pixels.
+helpviewer_keywords: ["GetSize","GetSize method [Direct2D]","GetSize method [Direct2D]","ID2D1Layer interface","ID2D1Layer interface [Direct2D]","GetSize method","ID2D1Layer.GetSize","ID2D1Layer::GetSize","d2d1/ID2D1Layer::GetSize","direct2d.ID2D1Layer_GetSize"]
 old-location: direct2d\ID2D1Layer_GetSize.htm
 tech.root: Direct2D
 ms.assetid: e9bf2990-6bd8-4247-9339-4ee652e21743

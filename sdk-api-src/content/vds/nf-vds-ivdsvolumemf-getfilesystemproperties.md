@@ -1,7 +1,8 @@
 ---
 UID: NF:vds.IVdsVolumeMF.GetFileSystemProperties
 title: IVdsVolumeMF::GetFileSystemProperties (vds.h)
-description: Returns property details about the file system on the current volume.helpviewer_keywords: ["GetFileSystemProperties","GetFileSystemProperties method [VDS]","GetFileSystemProperties method [VDS]","IVdsVolumeMF interface","IVdsVolumeMF interface [VDS]","GetFileSystemProperties method","IVdsVolumeMF.GetFileSystemProperties","IVdsVolumeMF::GetFileSystemProperties","base.ivdsvolumemf_getfilesystemproperties","vds/IVdsVolumeMF::GetFileSystemProperties"]
+description: Returns property details about the file system on the current volume.
+helpviewer_keywords: ["GetFileSystemProperties","GetFileSystemProperties method [VDS]","GetFileSystemProperties method [VDS]","IVdsVolumeMF interface","IVdsVolumeMF interface [VDS]","GetFileSystemProperties method","IVdsVolumeMF.GetFileSystemProperties","IVdsVolumeMF::GetFileSystemProperties","base.ivdsvolumemf_getfilesystemproperties","vds/IVdsVolumeMF::GetFileSystemProperties"]
 old-location: base\ivdsvolumemf_getfilesystemproperties.htm
 tech.root: VDS
 ms.assetid: 43f5495c-5a60-44fd-b217-16464c4693a4

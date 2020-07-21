@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl.ICommDlgBrowser3
 title: ICommDlgBrowser3 (shobjidl.h)
-description: Extends the capabilities of ICommDlgBrowser2, and used by the common file dialog boxes when they host a Shell browser.helpviewer_keywords: ["ICommDlgBrowser3","ICommDlgBrowser3 interface [Windows Shell]","ICommDlgBrowser3 interface [Windows Shell]","described","_shell_ICommDlgBrowser3","shell.ICommDlgBrowser3","shobjidl/ICommDlgBrowser3"]
+description: Extends the capabilities of ICommDlgBrowser2, and used by the common file dialog boxes when they host a Shell browser.
+helpviewer_keywords: ["ICommDlgBrowser3","ICommDlgBrowser3 interface [Windows Shell]","ICommDlgBrowser3 interface [Windows Shell]","described","_shell_ICommDlgBrowser3","shell.ICommDlgBrowser3","shobjidl/ICommDlgBrowser3"]
 old-location: shell\ICommDlgBrowser3.htm
 tech.root: shell
 ms.assetid: c9286061-8ac8-452b-9204-193bc6b571cb

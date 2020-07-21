@@ -1,7 +1,8 @@
 ---
 UID: NS:wsman._WSMAN_OPERATION_INFO
 title: WSMAN_OPERATION_INFO (wsman.h)
-description: Represents a specific resource endpoint for which the plug-in must perform the request.helpviewer_keywords: ["WSMAN_OPERATION_INFO","WSMAN_OPERATION_INFO structure [Windows Remote Management]","winrm.wsman_operation_info","wsman/WSMAN_OPERATION_INFO"]
+description: Represents a specific resource endpoint for which the plug-in must perform the request.
+helpviewer_keywords: ["WSMAN_OPERATION_INFO","WSMAN_OPERATION_INFO structure [Windows Remote Management]","winrm.wsman_operation_info","wsman/WSMAN_OPERATION_INFO"]
 old-location: winrm\wsman_operation_info.htm
 tech.root: winrm
 ms.assetid: a73029c6-d4e7-4cb3-ad0a-b71baffdbeb6

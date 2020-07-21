@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSigningOptions.SetSignaturePartName
 title: IOpcSigningOptions::SetSignaturePartName (msopc.h)
-description: Sets the part name of the signature part where the signature markup will be stored.helpviewer_keywords: ["IOpcSigningOptions interface [Open Packaging Conventions]","SetSignaturePartName method","IOpcSigningOptions.SetSignaturePartName","IOpcSigningOptions::SetSignaturePartName","SetSignaturePartName","SetSignaturePartName method [Open Packaging Conventions]","SetSignaturePartName method [Open Packaging Conventions]","IOpcSigningOptions interface","msopc/IOpcSigningOptions::SetSignaturePartName","opc.iopcsigningoptions_setsignaturepartname"]
+description: Sets the part name of the signature part where the signature markup will be stored.
+helpviewer_keywords: ["IOpcSigningOptions interface [Open Packaging Conventions]","SetSignaturePartName method","IOpcSigningOptions.SetSignaturePartName","IOpcSigningOptions::SetSignaturePartName","SetSignaturePartName","SetSignaturePartName method [Open Packaging Conventions]","SetSignaturePartName method [Open Packaging Conventions]","IOpcSigningOptions interface","msopc/IOpcSigningOptions::SetSignaturePartName","opc.iopcsigningoptions_setsignaturepartname"]
 old-location: opc\iopcsigningoptions_setsignaturepartname.htm
 tech.root: OPC
 ms.assetid: 36d69a11-bfc3-4f0a-a681-4e138751990d

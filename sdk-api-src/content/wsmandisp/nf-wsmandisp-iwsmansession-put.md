@@ -1,7 +1,8 @@
 ---
 UID: NF:wsmandisp.IWSManSession.Put
 title: IWSManSession::Put (wsmandisp.h)
-description: Updates a resource.helpviewer_keywords: ["IWSManSession interface [Windows Remote Management]","Put method","IWSManSession.Put","IWSManSession::Put","Put","Put method [Windows Remote Management]","Put method [Windows Remote Management]","IWSManSession interface","winrm.iwsmansession_put","wsmandisp/IWSManSession::Put"]
+description: Updates a resource.
+helpviewer_keywords: ["IWSManSession interface [Windows Remote Management]","Put method","IWSManSession.Put","IWSManSession::Put","Put","Put method [Windows Remote Management]","Put method [Windows Remote Management]","IWSManSession interface","winrm.iwsmansession_put","wsmandisp/IWSManSession::Put"]
 old-location: winrm\iwsmansession_put.htm
 tech.root: winrm
 ms.assetid: 1224dab8-82d1-4416-8c21-e84fdda15deb

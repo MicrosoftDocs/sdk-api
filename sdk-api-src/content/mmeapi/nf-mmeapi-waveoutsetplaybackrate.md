@@ -1,7 +1,8 @@
 ---
 UID: NF:mmeapi.waveOutSetPlaybackRate
 title: waveOutSetPlaybackRate function (mmeapi.h)
-description: The waveOutSetPlaybackRate function sets the playback rate for the specified waveform-audio output device.helpviewer_keywords: ["_win32_waveOutSetPlaybackRate","mmeapi/waveOutSetPlaybackRate","multimedia.waveoutsetplaybackrate","waveOutSetPlaybackRate","waveOutSetPlaybackRate function [Windows Multimedia]"]
+description: The waveOutSetPlaybackRate function sets the playback rate for the specified waveform-audio output device.
+helpviewer_keywords: ["_win32_waveOutSetPlaybackRate","mmeapi/waveOutSetPlaybackRate","multimedia.waveoutsetplaybackrate","waveOutSetPlaybackRate","waveOutSetPlaybackRate function [Windows Multimedia]"]
 old-location: multimedia\waveoutsetplaybackrate.htm
 tech.root: Multimedia
 ms.assetid: 53af902c-8c0e-4815-a0b1-6b59a970040d

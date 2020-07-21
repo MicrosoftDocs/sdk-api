@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflictResolutionItems.GetCount
 title: ISyncMgrConflictResolutionItems::GetCount (syncmgr.h)
-description: Gets item count.helpviewer_keywords: ["GetCount","GetCount method [Windows Shell]","GetCount method [Windows Shell]","ISyncMgrConflictResolutionItems interface","ISyncMgrConflictResolutionItems interface [Windows Shell]","GetCount method","ISyncMgrConflictResolutionItems.GetCount","ISyncMgrConflictResolutionItems::GetCount","_shell_ISyncMgrConflictResolutionItems_GetCount","shell.ISyncMgrConflictResolutionItems_GetCount","syncmgr/ISyncMgrConflictResolutionItems::GetCount"]
+description: Gets item count.
+helpviewer_keywords: ["GetCount","GetCount method [Windows Shell]","GetCount method [Windows Shell]","ISyncMgrConflictResolutionItems interface","ISyncMgrConflictResolutionItems interface [Windows Shell]","GetCount method","ISyncMgrConflictResolutionItems.GetCount","ISyncMgrConflictResolutionItems::GetCount","_shell_ISyncMgrConflictResolutionItems_GetCount","shell.ISyncMgrConflictResolutionItems_GetCount","syncmgr/ISyncMgrConflictResolutionItems::GetCount"]
 old-location: shell\ISyncMgrConflictResolutionItems_GetCount.htm
 tech.root: shell
 ms.assetid: 6842d091-210c-46de-b768-e9a145b0565d

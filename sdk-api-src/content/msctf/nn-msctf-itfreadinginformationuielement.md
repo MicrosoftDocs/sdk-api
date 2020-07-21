@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfReadingInformationUIElement
 title: ITfReadingInformationUIElement (msctf.h)
-description: The ITfCandidateListUIElement interface is implemented by a text service that has a UI for reading information UI at the near caret.helpviewer_keywords: ["ITfReadingInformationUIElement","ITfReadingInformationUIElement interface [Text Services Framework]","ITfReadingInformationUIElement interface [Text Services Framework]","described","msctf/ITfReadingInformationUIElement","tsf.itfreadinginformationuielement"]
+description: The ITfCandidateListUIElement interface is implemented by a text service that has a UI for reading information UI at the near caret.
+helpviewer_keywords: ["ITfReadingInformationUIElement","ITfReadingInformationUIElement interface [Text Services Framework]","ITfReadingInformationUIElement interface [Text Services Framework]","described","msctf/ITfReadingInformationUIElement","tsf.itfreadinginformationuielement"]
 old-location: tsf\itfreadinginformationuielement.htm
 tech.root: TSF
 ms.assetid: 60f7c6e2-7821-4be6-a1c1-35bacaa60bf4

@@ -1,7 +1,8 @@
 ---
 UID: NS:wsdtypes._WSD_PROBE
 title: WSD_PROBE (wsdtypes.h)
-description: Represents a Probe message.helpviewer_keywords: ["WSD_PROBE","WSD_PROBE structure","ncd.wsd_probe_struct","wsdtypes/WSD_PROBE"]
+description: Represents a Probe message.
+helpviewer_keywords: ["WSD_PROBE","WSD_PROBE structure","ncd.wsd_probe_struct","wsdtypes/WSD_PROBE"]
 old-location: ncd\wsd_probe_struct.htm
 tech.root: WsdApi
 ms.assetid: f84f7e77-ffe2-41af-a10f-a626466e9847

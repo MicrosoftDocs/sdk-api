@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagCREATESTRUCTA
 title: CREATESTRUCTA (winuser.h)
-description: Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the CreateWindowEx function.helpviewer_keywords: ["*LPCREATESTRUCTA","CREATESTRUCT","CREATESTRUCT structure [Windows and Messages]","CREATESTRUCTA","CREATESTRUCTW","LPCREATESTRUCT","LPCREATESTRUCT structure pointer [Windows and Messages]","_win32_CREATESTRUCT_str","_win32_createstruct_str_cpp","winmsg.createstruct","winui._win32_createstruct_str","winuser/CREATESTRUCT","winuser/CREATESTRUCTA","winuser/CREATESTRUCTW","winuser/LPCREATESTRUCT"]
+description: Defines the initialization parameters passed to the window procedure of an application. These members are identical to the parameters of the CreateWindowEx function.
+helpviewer_keywords: ["*LPCREATESTRUCTA","CREATESTRUCT","CREATESTRUCT structure [Windows and Messages]","CREATESTRUCTA","CREATESTRUCTW","LPCREATESTRUCT","LPCREATESTRUCT structure pointer [Windows and Messages]","_win32_CREATESTRUCT_str","_win32_createstruct_str_cpp","winmsg.createstruct","winui._win32_createstruct_str","winuser/CREATESTRUCT","winuser/CREATESTRUCTA","winuser/CREATESTRUCTW","winuser/LPCREATESTRUCT"]
 old-location: winmsg\createstruct.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowstructures\createstruct.htm
@@ -176,6 +177,10 @@ PMYDLGDATA pMyDlgdata = (PMYDLGDATA) (((LPCREATESTRUCT) lParam)->lpCreateParams)
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines CREATESTRUCT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ICreateTypeInfo.SetFuncDocString
 title: ICreateTypeInfo::SetFuncDocString (oaidl.h)
-description: Sets the documentation string for the function with the specified index.helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetFuncDocString method","ICreateTypeInfo.SetFuncDocString","ICreateTypeInfo::SetFuncDocString","SetFuncDocString","SetFuncDocString method [Automation]","SetFuncDocString method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetFuncDocString","automat.icreatetypeinfo_setfuncdocstring","oaidl/ICreateTypeInfo::SetFuncDocString"]
+description: Sets the documentation string for the function with the specified index.
+helpviewer_keywords: ["ICreateTypeInfo interface [Automation]","SetFuncDocString method","ICreateTypeInfo.SetFuncDocString","ICreateTypeInfo::SetFuncDocString","SetFuncDocString","SetFuncDocString method [Automation]","SetFuncDocString method [Automation]","ICreateTypeInfo interface","_oa96_ICreateTypeInfo_SetFuncDocString","automat.icreatetypeinfo_setfuncdocstring","oaidl/ICreateTypeInfo::SetFuncDocString"]
 old-location: automat\icreatetypeinfo_setfuncdocstring.htm
 tech.root: automat
 ms.assetid: e2377502-b26f-401f-82f1-d65f739a684f

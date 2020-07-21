@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFNetCredentialCache.SetGood
 title: IMFNetCredentialCache::SetGood (mfidl.h)
-description: Reports whether the credential object provided successfully passed the authentication challenge.helpviewer_keywords: ["IMFNetCredentialCache interface [Media Foundation]","SetGood method","IMFNetCredentialCache.SetGood","IMFNetCredentialCache::SetGood","SetGood","SetGood method [Media Foundation]","SetGood method [Media Foundation]","IMFNetCredentialCache interface","e2e9d87a-6238-49a0-9a19-fe213749d627","mf.imfnetcredentialcache_setgood","mfidl/IMFNetCredentialCache::SetGood"]
+description: Reports whether the credential object provided successfully passed the authentication challenge.
+helpviewer_keywords: ["IMFNetCredentialCache interface [Media Foundation]","SetGood method","IMFNetCredentialCache.SetGood","IMFNetCredentialCache::SetGood","SetGood","SetGood method [Media Foundation]","SetGood method [Media Foundation]","IMFNetCredentialCache interface","e2e9d87a-6238-49a0-9a19-fe213749d627","mf.imfnetcredentialcache_setgood","mfidl/IMFNetCredentialCache::SetGood"]
 old-location: mf\imfnetcredentialcache_setgood.htm
 tech.root: medfound
 ms.assetid: e2e9d87a-6238-49a0-9a19-fe213749d627

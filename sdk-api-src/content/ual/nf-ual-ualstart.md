@@ -1,7 +1,8 @@
 ---
 UID: NF:ual.UalStart
 title: UalStart function (ual.h)
-description: Starts a User Access Logging (UAL) session.helpviewer_keywords: ["UalStart","UalStart function [User Access Logging]","ual.ualstart","ual/UalStart"]
+description: Starts a User Access Logging (UAL) session.
+helpviewer_keywords: ["UalStart","UalStart function [User Access Logging]","ual.ualstart","ual/UalStart"]
 old-location: ual\ualstart.htm
 tech.root: ual
 ms.assetid: 800E8BCF-39A1-490A-9B6A-12EE900B8D17

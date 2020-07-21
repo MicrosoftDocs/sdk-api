@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IComActivityEvents
 title: IComActivityEvents (comsvcs.h)
-description: Notifies the subscriber if an activity is created, destroyed, or timed out.helpviewer_keywords: ["IComActivityEvents","IComActivityEvents interface [COM+]","IComActivityEvents interface [COM+]","described","_dtc_IComActivityEvents","comsvcs/IComActivityEvents","cos.icomactivityevents"]
+description: Notifies the subscriber if an activity is created, destroyed, or timed out.
+helpviewer_keywords: ["IComActivityEvents","IComActivityEvents interface [COM+]","IComActivityEvents interface [COM+]","described","_dtc_IComActivityEvents","comsvcs/IComActivityEvents","cos.icomactivityevents"]
 old-location: cos\icomactivityevents.htm
 tech.root: cossdk
 ms.assetid: 9b702bcd-d5a6-41fa-98ce-00a245dfe770

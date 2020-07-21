@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPCore.put_currentMedia
 title: IWMPCore::put_currentMedia (wmp.h)
-description: The put_currentMedia method specifies the IWMPMedia interface that corresponds to the current media item.helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","put_currentMedia method","IWMPCore.put_currentMedia","IWMPCore::put_currentMedia","IWMPCoreput_currentMedia","put_currentMedia","put_currentMedia method [Windows Media Player]","put_currentMedia method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_put_currentmedia","wmp/IWMPCore::put_currentMedia"]
+description: The put_currentMedia method specifies the IWMPMedia interface that corresponds to the current media item.
+helpviewer_keywords: ["IWMPCore interface [Windows Media Player]","put_currentMedia method","IWMPCore.put_currentMedia","IWMPCore::put_currentMedia","IWMPCoreput_currentMedia","put_currentMedia","put_currentMedia method [Windows Media Player]","put_currentMedia method [Windows Media Player]","IWMPCore interface","wmp.iwmpcore_put_currentmedia","wmp/IWMPCore::put_currentMedia"]
 old-location: wmp\iwmpcore_put_currentmedia.htm
 tech.root: WMP
 ms.assetid: 003d1937-13f0-4d2c-ad5c-a83569295b62

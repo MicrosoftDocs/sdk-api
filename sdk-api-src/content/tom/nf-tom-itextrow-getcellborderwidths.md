@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRow.GetCellBorderWidths
 title: ITextRow::GetCellBorderWidths (tom.h)
-description: Gets the border widths of the active cell.helpviewer_keywords: ["GetCellBorderWidths","GetCellBorderWidths method [Windows Controls]","GetCellBorderWidths method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetCellBorderWidths method","ITextRow.GetCellBorderWidths","ITextRow::GetCellBorderWidths","controls.itextrow_getcellborderwidths","tom/ITextRow::GetCellBorderWidths"]
+description: Gets the border widths of the active cell.
+helpviewer_keywords: ["GetCellBorderWidths","GetCellBorderWidths method [Windows Controls]","GetCellBorderWidths method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetCellBorderWidths method","ITextRow.GetCellBorderWidths","ITextRow::GetCellBorderWidths","controls.itextrow_getcellborderwidths","tom/ITextRow::GetCellBorderWidths"]
 old-location: controls\itextrow_getcellborderwidths.htm
 tech.root: Controls
 ms.assetid: e0ab26ca-ffb6-4f75-846b-e267e4ad6572

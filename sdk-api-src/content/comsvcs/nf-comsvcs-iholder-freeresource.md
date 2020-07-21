@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IHolder.FreeResource
 title: IHolder::FreeResource (comsvcs.h)
-description: Returns a resource to the inventory.helpviewer_keywords: ["FreeResource","FreeResource method [COM+]","FreeResource method [COM+]","IHolder interface","IHolder interface [COM+]","FreeResource method","IHolder.FreeResource","IHolder::FreeResource","_dtc_IHolder_FreeResource","comsvcs/IHolder::FreeResource","cos.iholder_freeresource"]
+description: Returns a resource to the inventory.
+helpviewer_keywords: ["FreeResource","FreeResource method [COM+]","FreeResource method [COM+]","IHolder interface","IHolder interface [COM+]","FreeResource method","IHolder.FreeResource","IHolder::FreeResource","_dtc_IHolder_FreeResource","comsvcs/IHolder::FreeResource","cos.iholder_freeresource"]
 old-location: cos\iholder_freeresource.htm
 tech.root: cossdk
 ms.assetid: 1d110bf6-7204-4fbb-abb7-ced7cf885e5b

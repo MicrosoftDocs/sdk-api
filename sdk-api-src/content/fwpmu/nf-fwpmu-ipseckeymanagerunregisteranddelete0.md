@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.IPsecKeyManagerUnregisterAndDelete0
 title: IPsecKeyManagerUnregisterAndDelete0 function (fwpmu.h)
-description: Unregisters a Trusted Intermediary Agent (TIA) which had previously been registered with IPsec.helpviewer_keywords: ["IPsecKeyManagerUnregisterAndDelete0","IPsecKeyManagerUnregisterAndDelete0 function [Filtering]","fwp.ipseckeymanagerunregisteranddelete0","fwpmu/IPsecKeyManagerUnregisterAndDelete0"]
+description: Unregisters a Trusted Intermediary Agent (TIA) which had previously been registered with IPsec.
+helpviewer_keywords: ["IPsecKeyManagerUnregisterAndDelete0","IPsecKeyManagerUnregisterAndDelete0 function [Filtering]","fwp.ipseckeymanagerunregisteranddelete0","fwpmu/IPsecKeyManagerUnregisterAndDelete0"]
 old-location: fwp\ipseckeymanagerunregisteranddelete0.htm
 tech.root: fwp
 ms.assetid: 6A200451-3528-4728-A2D1-643385BA23E6

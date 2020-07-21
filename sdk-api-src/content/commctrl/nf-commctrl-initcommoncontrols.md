@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.InitCommonControls
 title: InitCommonControls function (commctrl.h)
-description: Registers and initializes certain common control window classes. This function is obsolete. New applications should use the InitCommonControlsEx function.helpviewer_keywords: ["InitCommonControls","InitCommonControls function [Windows Controls]","_win32_InitCommonControls","_win32_InitCommonControls_cpp","commctrl/InitCommonControls","controls.InitCommonControls","controls._win32_InitCommonControls"]
+description: Registers and initializes certain common control window classes. This function is obsolete. New applications should use the InitCommonControlsEx function.
+helpviewer_keywords: ["InitCommonControls","InitCommonControls function [Windows Controls]","_win32_InitCommonControls","_win32_InitCommonControls_cpp","commctrl/InitCommonControls","controls.InitCommonControls","controls._win32_InitCommonControls"]
 old-location: controls\InitCommonControls.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\common\functions\initcommoncontrols.htm

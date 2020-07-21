@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMCodecInfo2.GetCodecFormatDesc
 title: IWMCodecInfo2::GetCodecFormatDesc (wmsdkidl.h)
-description: The GetCodecFormatDesc method retrieves a description of a specified codec format. This method also retrieves a stream configuration object containing the settings for the codec format.helpviewer_keywords: ["GetCodecFormatDesc","GetCodecFormatDesc method [windows Media Format]","GetCodecFormatDesc method [windows Media Format]","IWMCodecInfo2 interface","IWMCodecInfo2 interface [windows Media Format]","GetCodecFormatDesc method","IWMCodecInfo2.GetCodecFormatDesc","IWMCodecInfo2::GetCodecFormatDesc","IWMCodecInfo2GetCodecFormatDesc","wmformat.iwmcodecinfo2_getcodecformatdesc","wmsdkidl/IWMCodecInfo2::GetCodecFormatDesc"]
+description: The GetCodecFormatDesc method retrieves a description of a specified codec format. This method also retrieves a stream configuration object containing the settings for the codec format.
+helpviewer_keywords: ["GetCodecFormatDesc","GetCodecFormatDesc method [windows Media Format]","GetCodecFormatDesc method [windows Media Format]","IWMCodecInfo2 interface","IWMCodecInfo2 interface [windows Media Format]","GetCodecFormatDesc method","IWMCodecInfo2.GetCodecFormatDesc","IWMCodecInfo2::GetCodecFormatDesc","IWMCodecInfo2GetCodecFormatDesc","wmformat.iwmcodecinfo2_getcodecformatdesc","wmsdkidl/IWMCodecInfo2::GetCodecFormatDesc"]
 old-location: wmformat\iwmcodecinfo2_getcodecformatdesc.htm
 tech.root: wmformat
 ms.assetid: 24ca091e-72f6-4c7b-b25a-8957d70fa450

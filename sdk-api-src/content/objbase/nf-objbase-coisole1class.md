@@ -1,7 +1,8 @@
 ---
 UID: NF:objbase.CoIsOle1Class
 title: CoIsOle1Class function (objbase.h)
-description: Determines whether the specified CLSID represents an OLE 1 object.helpviewer_keywords: ["CoIsOle1Class","CoIsOle1Class function [COM]","_com_CoIsOle1Class","com.coisole1class","objbase/CoIsOle1Class"]
+description: Determines whether the specified CLSID represents an OLE 1 object.
+helpviewer_keywords: ["CoIsOle1Class","CoIsOle1Class function [COM]","_com_CoIsOle1Class","com.coisole1class","objbase/CoIsOle1Class"]
 old-location: com\coisole1class.htm
 tech.root: com
 ms.assetid: 3f6a021d-c8fe-40dd-9c3a-30f22ad76ce3

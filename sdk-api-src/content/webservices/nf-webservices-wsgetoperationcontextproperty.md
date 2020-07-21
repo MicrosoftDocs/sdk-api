@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsGetOperationContextProperty
 title: WsGetOperationContextProperty function (webservices.h)
-description: Returns a property of the specified operation context. It should be noted that the validity of these property is limited to the lifetime of the operation context itself.helpviewer_keywords: ["WsGetOperationContextProperty","WsGetOperationContextProperty function [Web Services for Windows]","webservices/WsGetOperationContextProperty","wsw.wsgetoperationcontextproperty"]
+description: Returns a property of the specified operation context. It should be noted that the validity of these property is limited to the lifetime of the operation context itself.
+helpviewer_keywords: ["WsGetOperationContextProperty","WsGetOperationContextProperty function [Web Services for Windows]","webservices/WsGetOperationContextProperty","wsw.wsgetoperationcontextproperty"]
 old-location: wsw\wsgetoperationcontextproperty.htm
 tech.root: wsw
 ms.assetid: 9ab843ff-8f2c-424e-8bb9-ba71f9355728

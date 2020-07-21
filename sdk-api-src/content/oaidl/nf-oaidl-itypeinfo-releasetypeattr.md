@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ITypeInfo.ReleaseTypeAttr
 title: ITypeInfo::ReleaseTypeAttr (oaidl.h)
-description: Releases a TYPEATTR previously returned by ITypeInfo::GetTypeAttr.helpviewer_keywords: ["ITypeInfo interface [Automation]","ReleaseTypeAttr method","ITypeInfo.ReleaseTypeAttr","ITypeInfo::ReleaseTypeAttr","ReleaseTypeAttr","ReleaseTypeAttr method [Automation]","ReleaseTypeAttr method [Automation]","ITypeInfo interface","_oa96_ITypeInfo_ReleaseTypeAttr","automat.itypeinfo_releasetypeattr","oaidl/ITypeInfo::ReleaseTypeAttr"]
+description: Releases a TYPEATTR previously returned by ITypeInfo::GetTypeAttr.
+helpviewer_keywords: ["ITypeInfo interface [Automation]","ReleaseTypeAttr method","ITypeInfo.ReleaseTypeAttr","ITypeInfo::ReleaseTypeAttr","ReleaseTypeAttr","ReleaseTypeAttr method [Automation]","ReleaseTypeAttr method [Automation]","ITypeInfo interface","_oa96_ITypeInfo_ReleaseTypeAttr","automat.itypeinfo_releasetypeattr","oaidl/ITypeInfo::ReleaseTypeAttr"]
 old-location: automat\itypeinfo_releasetypeattr.htm
 tech.root: automat
 ms.assetid: 86827f7f-d5c7-4297-8eb9-af7b03d16121

@@ -1,7 +1,8 @@
 ---
 UID: NE:cfapi.CF_PLACEHOLDER_INFO_CLASS
 title: CF_PLACEHOLDER_INFO_CLASS (cfapi.h)
-description: Information classes for placeholder info.helpviewer_keywords: ["CF_PLACEHOLDER_INFO_BASIC","CF_PLACEHOLDER_INFO_CLASS","CF_PLACEHOLDER_INFO_CLASS enumeration","CF_PLACEHOLDER_INFO_STANDARD","cfapi/CF_PLACEHOLDER_INFO_BASIC","cfapi/CF_PLACEHOLDER_INFO_CLASS","cfapi/CF_PLACEHOLDER_INFO_STANDARD","cloudApi.cf_placeholder_info_class"]
+description: Information classes for placeholder info.
+helpviewer_keywords: ["CF_PLACEHOLDER_INFO_BASIC","CF_PLACEHOLDER_INFO_CLASS","CF_PLACEHOLDER_INFO_CLASS enumeration","CF_PLACEHOLDER_INFO_STANDARD","cfapi/CF_PLACEHOLDER_INFO_BASIC","cfapi/CF_PLACEHOLDER_INFO_CLASS","cfapi/CF_PLACEHOLDER_INFO_STANDARD","cloudApi.cf_placeholder_info_class"]
 old-location: cloudapi\cf_placeholder_info_class.htm
 tech.root: cfApi
 ms.assetid: DA05148F-3EF0-4CC3-9233-883859FA00F1

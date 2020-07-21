@@ -1,7 +1,8 @@
 ---
 UID: NF:winsnmp.SnmpDeleteVb
 title: SnmpDeleteVb function (winsnmp.h)
-description: The WinSNMP SnmpDeleteVb function removes a variable binding entry from a variable bindings list.helpviewer_keywords: ["SnmpDeleteVb","SnmpDeleteVb function [SNMP]","_snmp_snmpdeletevb","snmp.snmpdeletevb","winsnmp/SnmpDeleteVb"]
+description: The WinSNMP SnmpDeleteVb function removes a variable binding entry from a variable bindings list.
+helpviewer_keywords: ["SnmpDeleteVb","SnmpDeleteVb function [SNMP]","_snmp_snmpdeletevb","snmp.snmpdeletevb","winsnmp/SnmpDeleteVb"]
 old-location: snmp\snmpdeletevb.htm
 tech.root: SNMP
 ms.assetid: b6f8a61a-493c-4626-9134-f8badce678c4

@@ -1,7 +1,8 @@
 ---
 UID: NF:vidcap.IVideoProcAmp.get_Gamma
 title: IVideoProcAmp::get_Gamma (vidcap.h)
-description: The get_Gamma method returns the camera's gamma setting.helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","get_Gamma method","IVideoProcAmp.get_Gamma","IVideoProcAmp::get_Gamma","IVideoProcAmpget_Gamma","dshow.ivideoprocamp_get_gamma","get_Gamma","get_Gamma method [DirectShow]","get_Gamma method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::get_Gamma"]
+description: The get_Gamma method returns the camera's gamma setting.
+helpviewer_keywords: ["IVideoProcAmp interface [DirectShow]","get_Gamma method","IVideoProcAmp.get_Gamma","IVideoProcAmp::get_Gamma","IVideoProcAmpget_Gamma","dshow.ivideoprocamp_get_gamma","get_Gamma","get_Gamma method [DirectShow]","get_Gamma method [DirectShow]","IVideoProcAmp interface","vidcap/IVideoProcAmp::get_Gamma"]
 old-location: dshow\ivideoprocamp_get_gamma.htm
 tech.root: DirectShow
 ms.assetid: a8d62862-5509-4401-affe-68dfa96ae60f

@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpCreateOptionV5
 title: DhcpCreateOptionV5 function (dhcpsapi.h)
-description: Creates a DHCP option.helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpCreateOptionV5","DhcpCreateOptionV5 function [DHCP]","dhcp.dhcpcreateoptionv5","dhcpsapi/DhcpCreateOptionV5"]
+description: Creates a DHCP option.
+helpviewer_keywords: ["DHCP_FLAGS_OPTION_IS_VENDOR","DhcpCreateOptionV5","DhcpCreateOptionV5 function [DHCP]","dhcp.dhcpcreateoptionv5","dhcpsapi/DhcpCreateOptionV5"]
 old-location: dhcp\dhcpcreateoptionv5.htm
 tech.root: DHCP
 ms.assetid: de6e8f87-af4b-4e7f-8468-54359c5a8907

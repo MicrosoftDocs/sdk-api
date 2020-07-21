@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IOleUndoManager.Open
 title: IOleUndoManager::Open (ocidl.h)
-description: Opens a new parent undo unit, which becomes part of its containing unit's undo stack.helpviewer_keywords: ["IOleUndoManager interface [COM]","Open method","IOleUndoManager.Open","IOleUndoManager::Open","Open","Open method [COM]","Open method [COM]","IOleUndoManager interface","_ole_ioleundomanager_open","com.ioleundomanager_open","ocidl/IOleUndoManager::Open"]
+description: Opens a new parent undo unit, which becomes part of its containing unit's undo stack.
+helpviewer_keywords: ["IOleUndoManager interface [COM]","Open method","IOleUndoManager.Open","IOleUndoManager::Open","Open","Open method [COM]","Open method [COM]","IOleUndoManager interface","_ole_ioleundomanager_open","com.ioleundomanager_open","ocidl/IOleUndoManager::Open"]
 old-location: com\ioleundomanager_open.htm
 tech.root: com
 ms.assetid: b494d5b9-5def-4249-8b6d-37b26993cc24

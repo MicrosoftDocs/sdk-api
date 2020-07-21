@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusmatrix.Matrix.TransformPoints(IN OUT Point,IN INT)
+UID: NF:gdiplusmatrix.Matrix.TransformPoints(INOUTPoint,ININT)
 title: Matrix::TransformPoints(IN OUT Point,IN INT) (gdiplusmatrix.h)
-description: The Matrix::TransformPoints method multiplies each point in an array by this matrix. Each point is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.helpviewer_keywords: ["Matrix class [GDI+]","TransformPoints method","Matrix.TransformPoints","Matrix.TransformPoints(IN OUT Point","IN INT)","Matrix.TransformPoints(Point*","INT)","Matrix::TransformPoints","Matrix::TransformPoints(IN OUT Point","IN INT)","TransformPoints","TransformPoints method [GDI+]","TransformPoints method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_","gdiplus._gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_"]
+description: The Matrix::TransformPoints method multiplies each point in an array by this matrix. Each point is treated as a row matrix. The multiplication is performed with the row matrix on the left and this matrix on the right.
+helpviewer_keywords: ["Matrix class [GDI+]","TransformPoints method","Matrix.TransformPoints","Matrix.TransformPoints(IN OUT Point","IN INT)","Matrix.TransformPoints(Point*","INT)","Matrix::TransformPoints","Matrix::TransformPoints(IN OUT Point","IN INT)","TransformPoints","TransformPoints method [GDI+]","TransformPoints method [GDI+]","Matrix class","_gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_","gdiplus._gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_TransformPoints_Point_pts_INT_count_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixmethods\matrixtransformpointsmethods\transformpoints_78pointpts_intcount.htm

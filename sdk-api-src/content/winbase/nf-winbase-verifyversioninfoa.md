@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.VerifyVersionInfoA
 title: VerifyVersionInfoA function (winbase.h)
-description: Compares a set of operating system version requirements to the corresponding values for the currently running version of the system.helpviewer_keywords: ["VER_BUILDNUMBER","VER_MAJORVERSION","VER_MINORVERSION","VER_PLATFORMID","VER_PRODUCT_TYPE","VER_SERVICEPACKMAJOR","VER_SERVICEPACKMINOR","VER_SUITENAME","VerifyVersionInfo","VerifyVersionInfo function","VerifyVersionInfoA","VerifyVersionInfoW","_win32_verifyversioninfo","base.verifyversioninfo","winbase/VerifyVersionInfo","winbase/VerifyVersionInfoA","winbase/VerifyVersionInfoW"]
+description: Compares a set of operating system version requirements to the corresponding values for the currently running version of the system.
+helpviewer_keywords: ["VER_BUILDNUMBER","VER_MAJORVERSION","VER_MINORVERSION","VER_PLATFORMID","VER_PRODUCT_TYPE","VER_SERVICEPACKMAJOR","VER_SERVICEPACKMINOR","VER_SUITENAME","VerifyVersionInfo","VerifyVersionInfo function","VerifyVersionInfoA","VerifyVersionInfoW","_win32_verifyversioninfo","base.verifyversioninfo","winbase/VerifyVersionInfo","winbase/VerifyVersionInfoA","winbase/VerifyVersionInfoW"]
 old-location: base\verifyversioninfo.htm
 tech.root: SysInfo
 ms.assetid: 791bc6bf-f486-4110-b6ea-30a0935040b2
@@ -247,6 +248,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines VerifyVersionInfo as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

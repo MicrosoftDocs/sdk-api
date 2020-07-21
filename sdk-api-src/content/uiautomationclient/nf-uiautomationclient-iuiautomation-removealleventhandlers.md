@@ -1,7 +1,8 @@
 ---
 UID: NF:uiautomationclient.IUIAutomation.RemoveAllEventHandlers
 title: IUIAutomation::RemoveAllEventHandlers (uiautomationclient.h)
-description: Removes all registered Microsoft UI Automation event handlers.helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","RemoveAllEventHandlers method","IUIAutomation.RemoveAllEventHandlers","IUIAutomation::RemoveAllEventHandlers","RemoveAllEventHandlers","RemoveAllEventHandlers method [Windows Accessibility]","RemoveAllEventHandlers method [Windows Accessibility]","IUIAutomation interface","uiauto.uiauto_IUIAutomation_RemoveAllEventHandlers","uiauto_IUIAutomation_RemoveAllEventHandlers","uiautomationclient/IUIAutomation::RemoveAllEventHandlers","winauto.uiauto_IUIAutomation_RemoveAllEventHandlers"]
+description: Removes all registered Microsoft UI Automation event handlers.
+helpviewer_keywords: ["IUIAutomation interface [Windows Accessibility]","RemoveAllEventHandlers method","IUIAutomation.RemoveAllEventHandlers","IUIAutomation::RemoveAllEventHandlers","RemoveAllEventHandlers","RemoveAllEventHandlers method [Windows Accessibility]","RemoveAllEventHandlers method [Windows Accessibility]","IUIAutomation interface","uiauto.uiauto_IUIAutomation_RemoveAllEventHandlers","uiauto_IUIAutomation_RemoveAllEventHandlers","uiautomationclient/IUIAutomation::RemoveAllEventHandlers","winauto.uiauto_IUIAutomation_RemoveAllEventHandlers"]
 old-location: winauto\uiauto_IUIAutomation_RemoveAllEventHandlers.htm
 tech.root: WinAuto
 ms.assetid: 3bf6d15a-2aaf-4f94-a852-f9cbd25cd496

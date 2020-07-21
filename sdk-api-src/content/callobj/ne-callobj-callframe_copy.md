@@ -1,7 +1,8 @@
 ---
 UID: NE:callobj.__MIDL_ICallFrame_0003
 title: CALLFRAME_COPY (callobj.h)
-description: Determines whether the copied call frame data can be shared with data in the parent frame by determining its lifetime dependency on the parent frame.helpviewer_keywords: ["CALLFRAME_COPY","CALLFRAME_COPY enumeration [COM]","CALLFRAME_COPY_INDEPENDENT","CALLFRAME_COPY_NESTED","_com_CALLFRAME_COPY","callobj/CALLFRAME_COPY","callobj/CALLFRAME_COPY_INDEPENDENT","callobj/CALLFRAME_COPY_NESTED","com.callframe_copy"]
+description: Determines whether the copied call frame data can be shared with data in the parent frame by determining its lifetime dependency on the parent frame.
+helpviewer_keywords: ["CALLFRAME_COPY","CALLFRAME_COPY enumeration [COM]","CALLFRAME_COPY_INDEPENDENT","CALLFRAME_COPY_NESTED","_com_CALLFRAME_COPY","callobj/CALLFRAME_COPY","callobj/CALLFRAME_COPY_INDEPENDENT","callobj/CALLFRAME_COPY_NESTED","com.callframe_copy"]
 old-location: com\callframe_copy.htm
 tech.root: com
 ms.assetid: 06c926ab-8e82-4291-b1ea-f4bfcd734b16

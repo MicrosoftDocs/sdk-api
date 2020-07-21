@@ -1,7 +1,8 @@
 ---
 UID: NF:inputscope.ITfInputScope.GetInputScopes
 title: ITfInputScope::GetInputScopes (inputscope.h)
-description: ITfInputScope::GetInputScopes methodhelpviewer_keywords: ["GetInputScopes","GetInputScopes method [Text Services Framework]","GetInputScopes method [Text Services Framework]","ITfInputScope interface","ITfInputScope interface [Text Services Framework]","GetInputScopes method","ITfInputScope.GetInputScopes","ITfInputScope::GetInputScopes","_tsf_itfinputscoe_getinputscopes_ref","inputscope/ITfInputScope::GetInputScopes","tsf.itfinputscope_getinputscope"]
+description: ITfInputScope::GetInputScopes method
+helpviewer_keywords: ["GetInputScopes","GetInputScopes method [Text Services Framework]","GetInputScopes method [Text Services Framework]","ITfInputScope interface","ITfInputScope interface [Text Services Framework]","GetInputScopes method","ITfInputScope.GetInputScopes","ITfInputScope::GetInputScopes","_tsf_itfinputscoe_getinputscopes_ref","inputscope/ITfInputScope::GetInputScopes","tsf.itfinputscope_getinputscope"]
 old-location: tsf\itfinputscope_getinputscope.htm
 tech.root: TSF
 ms.assetid: c5d54d2a-13b4-42f7-9224-4e80f0148a86

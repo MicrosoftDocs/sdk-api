@@ -49,9 +49,7 @@ ms.custom: 19H1
 
 ## -description
 
-
 Defines the attributes of cells in a table row. The definitions include the corresponding Rich Text Format (RTF) control words, which are defined in the Rich Text Format (RTF) Specification. 
-
 
 
 ## -struct-fields
@@ -101,7 +99,6 @@ The width of a cell (\cellx).
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">WORD</a></b>
 
 Shading in .01% (\clshdng). This controls the amount of pattern foreground color (<b>crForePat</b>) and pattern background color (<b>crBackPat</b>) that is used to create the cell background color. If <b>wShading</b> is 0, the cell background is <b>crBackPat</b>. If it's 10000, the cell background is <b>crForePat</b>. Values of <b>wShading</b> in between are mixtures of the two pattern colors. 
-
 
 
 ### -field dxBrdrLeft

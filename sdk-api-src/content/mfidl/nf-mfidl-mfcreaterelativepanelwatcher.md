@@ -27,9 +27,9 @@ req.unicode-ansi:
 topic_type:
  - apiref
 api_type:
- - 
+ - DllExport
 api_location:
- - mfidl.h
+ - mfsensorgroup.dll
 api_name:
  - MFCreateRelativePanelWatcher
 f1_keywords:

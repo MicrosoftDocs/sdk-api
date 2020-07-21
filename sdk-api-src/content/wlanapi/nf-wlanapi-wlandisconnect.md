@@ -1,7 +1,8 @@
 ---
 UID: NF:wlanapi.WlanDisconnect
 title: WlanDisconnect function (wlanapi.h)
-description: Disconnects an interface from its current network.helpviewer_keywords: ["WlanDisconnect","WlanDisconnect function [NativeWIFI]","nwifi.wlandisconnect","wlanapi/WlanDisconnect"]
+description: Disconnects an interface from its current network.
+helpviewer_keywords: ["WlanDisconnect","WlanDisconnect function [NativeWIFI]","nwifi.wlandisconnect","wlanapi/WlanDisconnect"]
 old-location: nwifi\wlandisconnect.htm
 tech.root: NativeWiFi
 ms.assetid: cc48ee72-3125-45a0-ac16-0c520ee3cd44

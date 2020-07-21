@@ -1,7 +1,8 @@
 ---
 UID: NN:xpsobjectmodel.IXpsOMFontResource
 title: IXpsOMFontResource (xpsobjectmodel.h)
-description: Provides an IStream interface to a font resource.helpviewer_keywords: ["IXpsOMFontResource","IXpsOMFontResource interface [XPS Documents and Packaging]","IXpsOMFontResource interface [XPS Documents and Packaging]","described","xps.ixpsomfontresource","xpsobjectmodel/IXpsOMFontResource"]
+description: Provides an IStream interface to a font resource.
+helpviewer_keywords: ["IXpsOMFontResource","IXpsOMFontResource interface [XPS Documents and Packaging]","IXpsOMFontResource interface [XPS Documents and Packaging]","described","xps.ixpsomfontresource","xpsobjectmodel/IXpsOMFontResource"]
 old-location: xps\ixpsomfontresource.htm
 tech.root: printdocs
 ms.assetid: dd0ce1c0-1c04-46a8-9075-93de9b3e3062

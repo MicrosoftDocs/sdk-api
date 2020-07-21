@@ -1,7 +1,8 @@
 ---
 UID: NS:webservices._WS_SECURITY_PROPERTIES
 title: WS_SECURITY_PROPERTIES (webservices.h)
-description: Specifies an array of channel-wide security settings.helpviewer_keywords: ["WS_SECURITY_PROPERTIES","WS_SECURITY_PROPERTIES structure [Web Services for Windows]","webservices/WS_SECURITY_PROPERTIES","wsw.ws_security_properties"]
+description: Specifies an array of channel-wide security settings.
+helpviewer_keywords: ["WS_SECURITY_PROPERTIES","WS_SECURITY_PROPERTIES structure [Web Services for Windows]","webservices/WS_SECURITY_PROPERTIES","wsw.ws_security_properties"]
 old-location: wsw\ws_security_properties.htm
 tech.root: wsw
 ms.assetid: 36a2dca5-d49f-4af7-ac1a-0ff7e9331e9a

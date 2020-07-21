@@ -1,7 +1,8 @@
 ---
 UID: NS:xamlom.PropertyChainValue
 title: PropertyChainValue (xamlom.h)
-description: Represents a property defined on an element.helpviewer_keywords: ["PPropertyChainValue","PPropertyChainValue structure pointer","PropertyChainValue","PropertyChainValue structure","xaml_diagnostics.propertychainvalue","xamlom/PPropertyChainValue","xamlom/PropertyChainValue"]
+description: Represents a property defined on an element.
+helpviewer_keywords: ["PPropertyChainValue","PPropertyChainValue structure pointer","PropertyChainValue","PropertyChainValue structure","xaml_diagnostics.propertychainvalue","xamlom/PPropertyChainValue","xamlom/PropertyChainValue"]
 old-location: xaml_diagnostics\propertychainvalue.htm
 tech.root: xaml_diagnostics
 ms.assetid: 111D10AB-2C16-4D21-A716-968C810B928F

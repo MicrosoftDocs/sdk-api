@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IOperationsProgressDialog.SetOperation
 title: IOperationsProgressDialog::SetOperation (shobjidl_core.h)
-description: Sets which progress dialog operation is occurring, and whether we are in pre-flight or undo mode.helpviewer_keywords: ["IOperationsProgressDialog interface [Windows Shell]","SetOperation method","IOperationsProgressDialog.SetOperation","IOperationsProgressDialog::SetOperation","SetOperation","SetOperation method [Windows Shell]","SetOperation method [Windows Shell]","IOperationsProgressDialog interface","_shell_IOperationsProgressDialog_SetOperation","shell.IOperationsProgressDialog_SetOperation","shobjidl_core/IOperationsProgressDialog::SetOperation"]
+description: Sets which progress dialog operation is occurring, and whether we are in pre-flight or undo mode.
+helpviewer_keywords: ["IOperationsProgressDialog interface [Windows Shell]","SetOperation method","IOperationsProgressDialog.SetOperation","IOperationsProgressDialog::SetOperation","SetOperation","SetOperation method [Windows Shell]","SetOperation method [Windows Shell]","IOperationsProgressDialog interface","_shell_IOperationsProgressDialog_SetOperation","shell.IOperationsProgressDialog_SetOperation","shobjidl_core/IOperationsProgressDialog::SetOperation"]
 old-location: shell\IOperationsProgressDialog_SetOperation.htm
 tech.root: shell
 ms.assetid: b6fae1df-1c27-4ce9-a7f6-c5488f080ef3

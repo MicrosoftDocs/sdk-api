@@ -1,7 +1,8 @@
 ---
 UID: NS:ddrawint._DD_SURFACE_INT
 title: DD_SURFACE_INT (ddrawint.h)
-description: The DD_SURFACE_INT structure contains the DirectDrawSurface object's interface information.helpviewer_keywords: ["*PDD_SURFACE_INT","DD_SURFACE_INT","DD_SURFACE_INT structure [Display Devices]","ddrawint/DD_SURFACE_INT","ddstrcts_3cca7be6-adbb-4d60-a970-891adb294d72.xml","display.dd_surface_int"]
+description: The DD_SURFACE_INT structure contains the DirectDrawSurface object's interface information.
+helpviewer_keywords: ["*PDD_SURFACE_INT","DD_SURFACE_INT","DD_SURFACE_INT structure [Display Devices]","ddrawint/DD_SURFACE_INT","ddstrcts_3cca7be6-adbb-4d60-a970-891adb294d72.xml","display.dd_surface_int"]
 old-location: display\dd_surface_int.htm
 tech.root: display
 ms.assetid: b06f204c-e59a-4f13-ac6d-ff0860378312

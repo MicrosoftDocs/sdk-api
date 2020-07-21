@@ -1,7 +1,8 @@
 ---
 UID: NF:ddeml.DdeKeepStringHandle
 title: DdeKeepStringHandle function (ddeml.h)
-description: Increments the usage count associated with the specified handle.helpviewer_keywords: ["DdeKeepStringHandle","DdeKeepStringHandle function [Data Exchange]","_win32_DdeKeepStringHandle","_win32_ddekeepstringhandle_cpp","dataxchg.ddekeepstringhandle","ddeml/DdeKeepStringHandle","winui._win32_ddekeepstringhandle"]
+description: Increments the usage count associated with the specified handle.
+helpviewer_keywords: ["DdeKeepStringHandle","DdeKeepStringHandle function [Data Exchange]","_win32_DdeKeepStringHandle","_win32_ddekeepstringhandle_cpp","dataxchg.ddekeepstringhandle","ddeml/DdeKeepStringHandle","winui._win32_ddekeepstringhandle"]
 old-location: dataxchg\ddekeepstringhandle.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddekeepstringhandle.htm

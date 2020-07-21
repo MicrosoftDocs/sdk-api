@@ -1,7 +1,8 @@
 ---
 UID: NF:evntrace.CreateTraceInstanceId
 title: CreateTraceInstanceId function (evntrace.h)
-description: The CreateTraceInstanceId function creates a unique transaction identifier and maps it to a class GUID registration handle. You then use the transaction identifier when calling the TraceEventInstance function.helpviewer_keywords: ["CreateTraceInstanceId","CreateTraceInstanceId function [ETW]","_evt_createtraceinstanceid","base.createtraceinstanceid","etw.createtraceinstanceid","evntrace/CreateTraceInstanceId"]
+description: The CreateTraceInstanceId function creates a unique transaction identifier and maps it to a class GUID registration handle. You then use the transaction identifier when calling the TraceEventInstance function.
+helpviewer_keywords: ["CreateTraceInstanceId","CreateTraceInstanceId function [ETW]","_evt_createtraceinstanceid","base.createtraceinstanceid","etw.createtraceinstanceid","evntrace/CreateTraceInstanceId"]
 old-location: etw\createtraceinstanceid.htm
 tech.root: ETW
 ms.assetid: ab890392-f1e4-4b4e-a46c-8c7c2bfd3897

@@ -1,7 +1,8 @@
 ---
 UID: NF:upnp.IUPnPServiceAsync.EndQueryStateVariable
 title: IUPnPServiceAsync::EndQueryStateVariable (upnp.h)
-description: EndQueryStateVariable method retrieves the results of a previous BeginQueryStateVariable operation and retrieves the resultant service-specific state variable value.helpviewer_keywords: ["EndQueryStateVariable","EndQueryStateVariable method [UPnP APIs]","EndQueryStateVariable method [UPnP APIs]","IUPnPServiceAsync interface","IUPnPServiceAsync interface [UPnP APIs]","EndQueryStateVariable method","IUPnPServiceAsync.EndQueryStateVariable","IUPnPServiceAsync::EndQueryStateVariable","upnp.iupnpserviceasync_endquerystatevariable","upnp/IUPnPServiceAsync::EndQueryStateVariable"]
+description: EndQueryStateVariable method retrieves the results of a previous BeginQueryStateVariable operation and retrieves the resultant service-specific state variable value.
+helpviewer_keywords: ["EndQueryStateVariable","EndQueryStateVariable method [UPnP APIs]","EndQueryStateVariable method [UPnP APIs]","IUPnPServiceAsync interface","IUPnPServiceAsync interface [UPnP APIs]","EndQueryStateVariable method","IUPnPServiceAsync.EndQueryStateVariable","IUPnPServiceAsync::EndQueryStateVariable","upnp.iupnpserviceasync_endquerystatevariable","upnp/IUPnPServiceAsync::EndQueryStateVariable"]
 old-location: upnp\iupnpserviceasync_endquerystatevariable.htm
 tech.root: upnp
 ms.assetid: 82AAB2C4-46A9-4545-95E1-887841735815

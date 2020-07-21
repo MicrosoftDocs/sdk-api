@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.VkKeyScanA
 title: VkKeyScanA function (winuser.h)
-description: Translates a character to the corresponding virtual-key code and shift state for the current keyboard.helpviewer_keywords: ["VkKeyScan","VkKeyScan function [Keyboard and Mouse Input]","VkKeyScanA","VkKeyScanW","_win32_VkKeyScan","_win32_vkkeyscan_cpp","inputdev.vkkeyscan","winui._win32_vkkeyscan","winuser/VkKeyScan","winuser/VkKeyScanA","winuser/VkKeyScanW"]
+description: Translates a character to the corresponding virtual-key code and shift state for the current keyboard.
+helpviewer_keywords: ["VkKeyScan","VkKeyScan function [Keyboard and Mouse Input]","VkKeyScanA","VkKeyScanW","_win32_VkKeyScan","_win32_vkkeyscan_cpp","inputdev.vkkeyscan","winui._win32_vkkeyscan","winuser/VkKeyScan","winuser/VkKeyScanA","winuser/VkKeyScanW"]
 old-location: inputdev\vkkeyscan.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\keyboardinput\keyboardinputreference\keyboardinputfunctions\vkkeyscan.htm
@@ -174,6 +175,10 @@ Translations for the numeric keypad (<b>VK_NUMPAD0</b> through <b>VK_DIVIDE</b>)
 
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines VkKeyScan as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

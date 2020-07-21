@@ -1,7 +1,8 @@
 ---
 UID: NF:msinkaut.IInkOverlay.put_CollectionMode
 title: IInkOverlay::put_CollectionMode (msinkaut.h)
-description: Gets or sets the collection mode that determines whether ink, gesture, or both are recognized as the user writes.helpviewer_keywords: ["CollectionMode property [Tablet PC]","CollectionMode property [Tablet PC]","IInkOverlay interface","IInkOverlay interface [Tablet PC]","CollectionMode property","IInkOverlay.CollectionMode","IInkOverlay.put_CollectionMode","IInkOverlay::CollectionMode","IInkOverlay::get_CollectionMode","IInkOverlay::put_CollectionMode","InkOverlay.get_CollectionMode","InkOverlay.put_CollectionMode","msinkaut/IInkOverlay::CollectionMode","msinkaut/IInkOverlay::get_CollectionMode","msinkaut/IInkOverlay::put_CollectionMode","put_CollectionMode","tablet.inkoverlay_collectionmode"]
+description: Gets or sets the collection mode that determines whether ink, gesture, or both are recognized as the user writes.
+helpviewer_keywords: ["CollectionMode property [Tablet PC]","CollectionMode property [Tablet PC]","IInkOverlay interface","IInkOverlay interface [Tablet PC]","CollectionMode property","IInkOverlay.CollectionMode","IInkOverlay.put_CollectionMode","IInkOverlay::CollectionMode","IInkOverlay::get_CollectionMode","IInkOverlay::put_CollectionMode","InkOverlay.get_CollectionMode","InkOverlay.put_CollectionMode","msinkaut/IInkOverlay::CollectionMode","msinkaut/IInkOverlay::get_CollectionMode","msinkaut/IInkOverlay::put_CollectionMode","put_CollectionMode","tablet.inkoverlay_collectionmode"]
 old-location: tablet\inkoverlay_collectionmode.htm
 tech.root: tablet
 ms.assetid: 3538213f-b9c3-474c-a847-40915c8961dd

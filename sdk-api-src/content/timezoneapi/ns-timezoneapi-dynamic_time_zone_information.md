@@ -1,7 +1,8 @@
 ---
 UID: NS:timezoneapi._TIME_DYNAMIC_ZONE_INFORMATION
 title: DYNAMIC_TIME_ZONE_INFORMATION (timezoneapi.h)
-description: Specifies settings for a time zone and dynamic daylight saving time.helpviewer_keywords: ["*PDYNAMIC_TIME_ZONE_INFORMATION","DYNAMIC_TIME_ZONE_INFORMATION","DYNAMIC_TIME_ZONE_INFORMATION structure","PDYNAMIC_TIME_ZONE_INFORMATION","PDYNAMIC_TIME_ZONE_INFORMATION structure pointer","_TIME_DYNAMIC_ZONE_INFORMATION","_TIME_DYNAMIC_ZONE_INFORMATION structure","base.dynamic_time_zone_information","winbase/PDYNAMIC_TIME_ZONE_INFORMATION","winbase/_DYNAMIC_TIME_ZONE_INFORMATION"]
+description: Specifies settings for a time zone and dynamic daylight saving time.
+helpviewer_keywords: ["*PDYNAMIC_TIME_ZONE_INFORMATION","DYNAMIC_TIME_ZONE_INFORMATION","DYNAMIC_TIME_ZONE_INFORMATION structure","PDYNAMIC_TIME_ZONE_INFORMATION","PDYNAMIC_TIME_ZONE_INFORMATION structure pointer","_TIME_DYNAMIC_ZONE_INFORMATION","_TIME_DYNAMIC_ZONE_INFORMATION structure","base.dynamic_time_zone_information","winbase/PDYNAMIC_TIME_ZONE_INFORMATION","winbase/_DYNAMIC_TIME_ZONE_INFORMATION"]
 old-location: base\dynamic_time_zone_information.htm
 tech.root: SysInfo
 ms.assetid: d60b1212-26bc-4fad-afce-9bd9062ca5b0

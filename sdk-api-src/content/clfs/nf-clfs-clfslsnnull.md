@@ -1,7 +1,8 @@
 ---
 UID: NF:clfs.ClfsLsnNull
 title: ClfsLsnNull function (clfs.h)
-description: Determines whether a specified LSN is equal to the smallest possible LSN, which is CLFS_LSN_NULL.helpviewer_keywords: ["ClfsLsnNull","LsnNull","LsnNull function [Files]","clfs/LsnNull","fs.lsnnull"]
+description: Determines whether a specified LSN is equal to the smallest possible LSN, which is CLFS_LSN_NULL.
+helpviewer_keywords: ["ClfsLsnNull","LsnNull","LsnNull function [Files]","clfs/LsnNull","fs.lsnnull"]
 old-location: fs\lsnnull.htm
 tech.root: Clfs
 ms.assetid: effa7924-fcde-4aaf-964b-a6916cb6d1f5

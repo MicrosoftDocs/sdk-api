@@ -1,7 +1,8 @@
 ---
 UID: NS:iads._ads_object_info
 title: ADS_OBJECT_INFO (iads.h)
-description: The ADS_OBJECT_INFO structure specifies the data, including the identity and location, of a directory service object.helpviewer_keywords: ["*PADS_OBJECT_INFO","ADS_OBJECT_INFO","ADS_OBJECT_INFO structure [ADSI]","PADS_OBJECT_INFO","PADS_OBJECT_INFO structure pointer [ADSI]","_ds_ads_object_info","adsi.ads__object__info","adsi.ads_object_info","iads/ADS_OBJECT_INFO","iads/PADS_OBJECT_INFO"]
+description: The ADS_OBJECT_INFO structure specifies the data, including the identity and location, of a directory service object.
+helpviewer_keywords: ["*PADS_OBJECT_INFO","ADS_OBJECT_INFO","ADS_OBJECT_INFO structure [ADSI]","PADS_OBJECT_INFO","PADS_OBJECT_INFO structure pointer [ADSI]","_ds_ads_object_info","adsi.ads__object__info","adsi.ads_object_info","iads/ADS_OBJECT_INFO","iads/PADS_OBJECT_INFO"]
 old-location: adsi\ads_object_info.htm
 tech.root: adsi
 ms.assetid: f072b2f8-8c03-4f90-8edf-cf5fed97a222

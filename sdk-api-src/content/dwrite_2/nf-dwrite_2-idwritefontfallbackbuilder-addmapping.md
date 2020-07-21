@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFallbackBuilder.AddMapping
 title: IDWriteFontFallbackBuilder::AddMapping (dwrite_2.h)
-description: Appends a single mapping to the list. Call this once for each additional mapping.helpviewer_keywords: ["AddMapping","AddMapping method [Direct Write]","AddMapping method [Direct Write]","IDWriteFontFallbackBuilder interface","IDWriteFontFallbackBuilder interface [Direct Write]","AddMapping method","IDWriteFontFallbackBuilder.AddMapping","IDWriteFontFallbackBuilder::AddMapping","directwrite.idwritefontfallbackbuilder_addmapping","dwrite_2/IDWriteFontFallbackBuilder::AddMapping"]
+description: Appends a single mapping to the list. Call this once for each additional mapping.
+helpviewer_keywords: ["AddMapping","AddMapping method [Direct Write]","AddMapping method [Direct Write]","IDWriteFontFallbackBuilder interface","IDWriteFontFallbackBuilder interface [Direct Write]","AddMapping method","IDWriteFontFallbackBuilder.AddMapping","IDWriteFontFallbackBuilder::AddMapping","directwrite.idwritefontfallbackbuilder_addmapping","dwrite_2/IDWriteFontFallbackBuilder::AddMapping"]
 old-location: directwrite\idwritefontfallbackbuilder_addmapping.htm
 tech.root: DirectWrite
 ms.assetid: FCA3CD9C-9FB3-49BD-B4D1-53AEAAAAEE8A

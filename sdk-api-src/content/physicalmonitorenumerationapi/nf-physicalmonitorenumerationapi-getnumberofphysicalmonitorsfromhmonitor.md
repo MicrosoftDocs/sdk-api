@@ -1,7 +1,8 @@
 ---
 UID: NF:physicalmonitorenumerationapi.GetNumberOfPhysicalMonitorsFromHMONITOR
 title: GetNumberOfPhysicalMonitorsFromHMONITOR function (physicalmonitorenumerationapi.h)
-description: Retrieves the number of physical monitors associated with an HMONITOR monitor handle.helpviewer_keywords: ["GetNumberOfPhysicalMonitorsFromHMONITOR","GetNumberOfPhysicalMonitorsFromHMONITOR function [Monitor Configuration]","monitor.getnumberofphysicalmonitorsfromhmonitor","physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromHMONITOR"]
+description: Retrieves the number of physical monitors associated with an HMONITOR monitor handle.
+helpviewer_keywords: ["GetNumberOfPhysicalMonitorsFromHMONITOR","GetNumberOfPhysicalMonitorsFromHMONITOR function [Monitor Configuration]","monitor.getnumberofphysicalmonitorsfromhmonitor","physicalmonitorenumerationapi/GetNumberOfPhysicalMonitorsFromHMONITOR"]
 old-location: monitor\getnumberofphysicalmonitorsfromhmonitor.htm
 tech.root: Monitor
 ms.assetid: c4cc3012-10ae-4435-8d81-e0a9eb62b55c

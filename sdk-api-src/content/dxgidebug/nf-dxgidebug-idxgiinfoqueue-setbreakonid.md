@@ -1,7 +1,8 @@
 ---
 UID: NF:dxgidebug.IDXGIInfoQueue.SetBreakOnID
 title: IDXGIInfoQueue::SetBreakOnID (dxgidebug.h)
-description: Sets a message identifier to break on when a message with that identifier passes through the storage filter.helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","SetBreakOnID method","IDXGIInfoQueue.SetBreakOnID","IDXGIInfoQueue::SetBreakOnID","SetBreakOnID","SetBreakOnID method [DXGI]","SetBreakOnID method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_setbreakonid","dxgidebug/IDXGIInfoQueue::SetBreakOnID"]
+description: Sets a message identifier to break on when a message with that identifier passes through the storage filter.
+helpviewer_keywords: ["IDXGIInfoQueue interface [DXGI]","SetBreakOnID method","IDXGIInfoQueue.SetBreakOnID","IDXGIInfoQueue::SetBreakOnID","SetBreakOnID","SetBreakOnID method [DXGI]","SetBreakOnID method [DXGI]","IDXGIInfoQueue interface","direct3ddxgi.idxgiinfoqueue_setbreakonid","dxgidebug/IDXGIInfoQueue::SetBreakOnID"]
 old-location: direct3ddxgi\idxgiinfoqueue_setbreakonid.htm
 tech.root: direct3ddxgi
 ms.assetid: C225B262-B062-40D5-ADC0-491F47B111C9

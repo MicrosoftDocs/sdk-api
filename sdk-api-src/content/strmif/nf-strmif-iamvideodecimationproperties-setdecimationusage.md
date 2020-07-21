@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMVideoDecimationProperties.SetDecimationUsage
 title: IAMVideoDecimationProperties::SetDecimationUsage (strmif.h)
-description: The SetDecimationUsage method sets the decimation strategy.helpviewer_keywords: ["IAMVideoDecimationProperties interface [DirectShow]","SetDecimationUsage method","IAMVideoDecimationProperties.SetDecimationUsage","IAMVideoDecimationProperties::SetDecimationUsage","IAMVideoDecimationPropertiesSetDecimationUsage","SetDecimationUsage","SetDecimationUsage method [DirectShow]","SetDecimationUsage method [DirectShow]","IAMVideoDecimationProperties interface","dshow.iamvideodecimationproperties_setdecimationusage","strmif/IAMVideoDecimationProperties::SetDecimationUsage"]
+description: The SetDecimationUsage method sets the decimation strategy.
+helpviewer_keywords: ["IAMVideoDecimationProperties interface [DirectShow]","SetDecimationUsage method","IAMVideoDecimationProperties.SetDecimationUsage","IAMVideoDecimationProperties::SetDecimationUsage","IAMVideoDecimationPropertiesSetDecimationUsage","SetDecimationUsage","SetDecimationUsage method [DirectShow]","SetDecimationUsage method [DirectShow]","IAMVideoDecimationProperties interface","dshow.iamvideodecimationproperties_setdecimationusage","strmif/IAMVideoDecimationProperties::SetDecimationUsage"]
 old-location: dshow\iamvideodecimationproperties_setdecimationusage.htm
 tech.root: DirectShow
 ms.assetid: c6456154-48f5-41d9-b6f5-863b30a53596

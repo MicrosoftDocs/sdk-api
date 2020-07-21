@@ -1,7 +1,8 @@
 ---
 UID: NF:mi.MI_Session_ReferenceInstances
 title: MI_Session_ReferenceInstances function (mi.h)
-description: Finds the association object that references the specified key instance.helpviewer_keywords: ["MI_Session_ReferenceInstances","MI_Session_ReferenceInstances function [Windows Management Infrastructure (MI)]","mi/MI_Session_ReferenceInstances","wmi_v2.mi_session_referenceinstances"]
+description: Finds the association object that references the specified key instance.
+helpviewer_keywords: ["MI_Session_ReferenceInstances","MI_Session_ReferenceInstances function [Windows Management Infrastructure (MI)]","mi/MI_Session_ReferenceInstances","wmi_v2.mi_session_referenceinstances"]
 old-location: wmi_v2\mi_session_referenceinstances.htm
 tech.root: wmi_v2
 ms.assetid: b42ed359-9580-4948-b29e-c5621a81206f

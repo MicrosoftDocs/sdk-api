@@ -1,7 +1,8 @@
 ---
 UID: NF:vswriter.CVssWriterEx.OnIdentifyEx
 title: CVssWriterEx::OnIdentifyEx (vswriter.h)
-description: Returns a pointer to an IVssCreateWriterMetadataEx object.helpviewer_keywords: ["CVssWriterEx interface","OnIdentifyEx method","CVssWriterEx.OnIdentifyEx","CVssWriterEx::OnIdentifyEx","OnIdentifyEx","OnIdentifyEx method","OnIdentifyEx method","CVssWriterEx interface","base.cvsswriterex_onidentifyex","vswriter/CVssWriterEx::OnIdentifyEx"]
+description: Returns a pointer to an IVssCreateWriterMetadataEx object.
+helpviewer_keywords: ["CVssWriterEx interface","OnIdentifyEx method","CVssWriterEx.OnIdentifyEx","CVssWriterEx::OnIdentifyEx","OnIdentifyEx","OnIdentifyEx method","OnIdentifyEx method","CVssWriterEx interface","base.cvsswriterex_onidentifyex","vswriter/CVssWriterEx::OnIdentifyEx"]
 old-location: base\cvsswriterex_onidentifyex.htm
 tech.root: VSS
 ms.assetid: 4cb3b8f6-f702-4fba-a3cc-af84897cfd82

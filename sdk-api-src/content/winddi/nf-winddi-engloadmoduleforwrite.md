@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.EngLoadModuleForWrite
 title: EngLoadModuleForWrite function (winddi.h)
-description: The EngLoadModuleForWrite function loads the specified executable module into system memory for writing.helpviewer_keywords: ["EngLoadModuleForWrite","EngLoadModuleForWrite function [Display Devices]","display.engloadmoduleforwrite","gdifncs_ee01ce88-2028-4ba0-8800-b02d6534891b.xml","winddi/EngLoadModuleForWrite"]
+description: The EngLoadModuleForWrite function loads the specified executable module into system memory for writing.
+helpviewer_keywords: ["EngLoadModuleForWrite","EngLoadModuleForWrite function [Display Devices]","display.engloadmoduleforwrite","gdifncs_ee01ce88-2028-4ba0-8800-b02d6534891b.xml","winddi/EngLoadModuleForWrite"]
 old-location: display\engloadmoduleforwrite.htm
 tech.root: display
 ms.assetid: e5509142-624e-4c57-93b0-2579c6fb7089

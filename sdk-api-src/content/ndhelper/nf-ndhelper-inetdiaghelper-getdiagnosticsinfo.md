@@ -1,7 +1,8 @@
 ---
 UID: NF:ndhelper.INetDiagHelper.GetDiagnosticsInfo
 title: INetDiagHelper::GetDiagnosticsInfo (ndhelper.h)
-description: Enables the Helper Class Extension instance to provide an estimate.helpviewer_keywords: ["GetDiagnosticsInfo","GetDiagnosticsInfo method [NDF]","GetDiagnosticsInfo method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","GetDiagnosticsInfo method","INetDiagHelper.GetDiagnosticsInfo","INetDiagHelper::GetDiagnosticsInfo","ndf.inetdiaghelpe_getdiagnosticsinfo","ndhelper/INetDiagHelper::GetDiagnosticsInfo"]
+description: Enables the Helper Class Extension instance to provide an estimate.
+helpviewer_keywords: ["GetDiagnosticsInfo","GetDiagnosticsInfo method [NDF]","GetDiagnosticsInfo method [NDF]","INetDiagHelper interface","INetDiagHelper interface [NDF]","GetDiagnosticsInfo method","INetDiagHelper.GetDiagnosticsInfo","INetDiagHelper::GetDiagnosticsInfo","ndf.inetdiaghelpe_getdiagnosticsinfo","ndhelper/INetDiagHelper::GetDiagnosticsInfo"]
 old-location: ndf\inetdiaghelpe_getdiagnosticsinfo.htm
 tech.root: NDF
 ms.assetid: bc162b1b-a22e-4ee3-96a6-c2eecc13e479

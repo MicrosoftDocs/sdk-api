@@ -1,7 +1,8 @@
 ---
 UID: NF:dhcpsapi.DhcpGetThreadOptions
 title: DhcpGetThreadOptions function (dhcpsapi.h)
-description: The DhcpGetThreadOptions function retrieves the current thread options as set by DhcpSetThreadOptions.helpviewer_keywords: ["DHCP_FLAGS_DONT_ACCESS_DS","DhcpGetThreadOptions","DhcpGetThreadOptions function [DHCP]","dhcp.dhcpgetthreadoptions","dhcpsapi/DhcpGetThreadOptions"]
+description: The DhcpGetThreadOptions function retrieves the current thread options as set by DhcpSetThreadOptions.
+helpviewer_keywords: ["DHCP_FLAGS_DONT_ACCESS_DS","DhcpGetThreadOptions","DhcpGetThreadOptions function [DHCP]","dhcp.dhcpgetthreadoptions","dhcpsapi/DhcpGetThreadOptions"]
 old-location: dhcp\dhcpgetthreadoptions.htm
 tech.root: DHCP
 ms.assetid: 2ba4b971-467c-47a6-8c4d-8e41b7874c80

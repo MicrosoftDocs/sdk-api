@@ -1,7 +1,8 @@
 ---
 UID: NF:audioenginebaseapo.IAudioSystemEffectsCustomFormats.GetFormatRepresentation
 title: IAudioSystemEffectsCustomFormats::GetFormatRepresentation (audioenginebaseapo.h)
-description: The GetFormatRepresentation method retrieves a string representation of the custom format so that it can be displayed on a user-interface.helpviewer_keywords: ["GetFormatRepresentation","GetFormatRepresentation method [Audio Devices]","GetFormatRepresentation method [Audio Devices]","IAudioSystemEffectsCustomFormats interface","IAudioSystemEffectsCustomFormats interface [Audio Devices]","GetFormatRepresentation method","IAudioSystemEffectsCustomFormats.GetFormatRepresentation","IAudioSystemEffectsCustomFormats::GetFormatRepresentation","audio.iaudiosystemeffectscustomformats_getformatrepresentation","audio_syseffects_r_0164d130-f6cc-423b-9195-e5e87ee6bf2f.xml","audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation"]
+description: The GetFormatRepresentation method retrieves a string representation of the custom format so that it can be displayed on a user-interface.
+helpviewer_keywords: ["GetFormatRepresentation","GetFormatRepresentation method [Audio Devices]","GetFormatRepresentation method [Audio Devices]","IAudioSystemEffectsCustomFormats interface","IAudioSystemEffectsCustomFormats interface [Audio Devices]","GetFormatRepresentation method","IAudioSystemEffectsCustomFormats.GetFormatRepresentation","IAudioSystemEffectsCustomFormats::GetFormatRepresentation","audio.iaudiosystemeffectscustomformats_getformatrepresentation","audio_syseffects_r_0164d130-f6cc-423b-9195-e5e87ee6bf2f.xml","audioenginebaseapo/IAudioSystemEffectsCustomFormats::GetFormatRepresentation"]
 old-location: audio\iaudiosystemeffectscustomformats_getformatrepresentation.htm
 tech.root: audio
 ms.assetid: 35953b82-8832-4e7b-9186-e336fdc65362

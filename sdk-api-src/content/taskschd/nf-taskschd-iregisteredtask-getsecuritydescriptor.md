@@ -1,7 +1,8 @@
 ---
 UID: NF:taskschd.IRegisteredTask.GetSecurityDescriptor
 title: IRegisteredTask::GetSecurityDescriptor (taskschd.h)
-description: Gets the security descriptor that is used as credentials for the registered task.helpviewer_keywords: ["GetSecurityDescriptor","GetSecurityDescriptor method [Task Scheduler]","GetSecurityDescriptor method [Task Scheduler]","IRegisteredTask interface","IRegisteredTask interface [Task Scheduler]","GetSecurityDescriptor method","IRegisteredTask.GetSecurityDescriptor","IRegisteredTask::GetSecurityDescriptor","taskschd.iregisteredtask_getsecuritydescriptor","taskschd/IRegisteredTask::GetSecurityDescriptor"]
+description: Gets the security descriptor that is used as credentials for the registered task.
+helpviewer_keywords: ["GetSecurityDescriptor","GetSecurityDescriptor method [Task Scheduler]","GetSecurityDescriptor method [Task Scheduler]","IRegisteredTask interface","IRegisteredTask interface [Task Scheduler]","GetSecurityDescriptor method","IRegisteredTask.GetSecurityDescriptor","IRegisteredTask::GetSecurityDescriptor","taskschd.iregisteredtask_getsecuritydescriptor","taskschd/IRegisteredTask::GetSecurityDescriptor"]
 old-location: taskschd\iregisteredtask_getsecuritydescriptor.htm
 tech.root: taskschd
 ms.assetid: 474d62a5-9ec7-40f7-b26e-54923f8ebe1e

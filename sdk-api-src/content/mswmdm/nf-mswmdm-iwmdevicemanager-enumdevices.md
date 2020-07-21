@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDeviceManager.EnumDevices
 title: IWMDeviceManager::EnumDevices (mswmdm.h)
-description: The EnumDevices method retrieves a pointer to the IWMDMEnumDevice interface that can be used to enumerate portable devices connected to the computer.helpviewer_keywords: ["EnumDevices","EnumDevices method [windows Media Device Manager]","EnumDevices method [windows Media Device Manager]","IWMDeviceManager interface","IWMDeviceManager interface [windows Media Device Manager]","EnumDevices method","IWMDeviceManager.EnumDevices","IWMDeviceManager::EnumDevices","IWMDeviceManagerEnumDevices","mswmdm/IWMDeviceManager::EnumDevices","wmdm.iwmdevicemanager_enumdevices"]
+description: The EnumDevices method retrieves a pointer to the IWMDMEnumDevice interface that can be used to enumerate portable devices connected to the computer.
+helpviewer_keywords: ["EnumDevices","EnumDevices method [windows Media Device Manager]","EnumDevices method [windows Media Device Manager]","IWMDeviceManager interface","IWMDeviceManager interface [windows Media Device Manager]","EnumDevices method","IWMDeviceManager.EnumDevices","IWMDeviceManager::EnumDevices","IWMDeviceManagerEnumDevices","mswmdm/IWMDeviceManager::EnumDevices","wmdm.iwmdevicemanager_enumdevices"]
 old-location: wmdm\iwmdevicemanager_enumdevices.htm
 tech.root: WMDM
 ms.assetid: 1daa6d36-9858-4504-a9a2-c0341031829b

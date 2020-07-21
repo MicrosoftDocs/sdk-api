@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPLibrarySharingServices.isLibrarySharingEnabled
 title: IWMPLibrarySharingServices::isLibrarySharingEnabled (wmp.h)
-description: The isLibrarySharingEnabled method retrieves a value indicating whether the user has enabled library sharing in Windows Media Player.helpviewer_keywords: ["IWMPLibrarySharingServices interface [Windows Media Player]","isLibrarySharingEnabled method","IWMPLibrarySharingServices.isLibrarySharingEnabled","IWMPLibrarySharingServices::isLibrarySharingEnabled","IWMPLibrarySharingServicesisLibrarySharingEnabled","isLibrarySharingEnabled","isLibrarySharingEnabled method [Windows Media Player]","isLibrarySharingEnabled method [Windows Media Player]","IWMPLibrarySharingServices interface","wmp.iwmplibrarysharingservices_islibrarysharingenabled","wmp/IWMPLibrarySharingServices::isLibrarySharingEnabled"]
+description: The isLibrarySharingEnabled method retrieves a value indicating whether the user has enabled library sharing in Windows Media Player.
+helpviewer_keywords: ["IWMPLibrarySharingServices interface [Windows Media Player]","isLibrarySharingEnabled method","IWMPLibrarySharingServices.isLibrarySharingEnabled","IWMPLibrarySharingServices::isLibrarySharingEnabled","IWMPLibrarySharingServicesisLibrarySharingEnabled","isLibrarySharingEnabled","isLibrarySharingEnabled method [Windows Media Player]","isLibrarySharingEnabled method [Windows Media Player]","IWMPLibrarySharingServices interface","wmp.iwmplibrarysharingservices_islibrarysharingenabled","wmp/IWMPLibrarySharingServices::isLibrarySharingEnabled"]
 old-location: wmp\iwmplibrarysharingservices_islibrarysharingenabled.htm
 tech.root: WMP
 ms.assetid: bd643869-9111-423e-9f9c-7147d1e3c7b8

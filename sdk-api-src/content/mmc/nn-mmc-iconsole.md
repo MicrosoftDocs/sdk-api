@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IConsole
 title: IConsole (mmc.h)
-description: Enables communication with the console.helpviewer_keywords: ["IConsole","IConsole interface [MMC]","IConsole interface [MMC]","described","mmc.iconsole","mmc/IConsole"]
+description: Enables communication with the console.
+helpviewer_keywords: ["IConsole","IConsole interface [MMC]","IConsole interface [MMC]","described","mmc.iconsole","mmc/IConsole"]
 old-location: mmc\iconsole.htm
 tech.root: mmc
 ms.assetid: 65154EB1-ABE5-4C4F-8B09-08633D82FD62

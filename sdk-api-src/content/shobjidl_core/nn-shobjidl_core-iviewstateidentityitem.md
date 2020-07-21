@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IViewStateIdentityItem
 title: IViewStateIdentityItem (shobjidl_core.h)
-description: Provides a canonical persistence item, an item for which view customizations will be remembered.helpviewer_keywords: ["IViewStateIdentityItem","IViewStateIdentityItem interface [Windows Shell]","IViewStateIdentityItem interface [Windows Shell]","described","_shell_IViewStateIdentityItem","shell.IViewStateIdentityItem","shobjidl_core/IViewStateIdentityItem"]
+description: Provides a canonical persistence item, an item for which view customizations will be remembered.
+helpviewer_keywords: ["IViewStateIdentityItem","IViewStateIdentityItem interface [Windows Shell]","IViewStateIdentityItem interface [Windows Shell]","described","_shell_IViewStateIdentityItem","shell.IViewStateIdentityItem","shobjidl_core/IViewStateIdentityItem"]
 old-location: shell\IViewStateIdentityItem.htm
 tech.root: shell
 ms.assetid: 7d9d960f-0dc9-4a36-8559-94cf1ea53e28

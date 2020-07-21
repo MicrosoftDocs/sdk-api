@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap
 title: IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap (appxpackaging.h)
-description: Creates a delta package from the differences in the updated package and the baseline block map.helpviewer_keywords: ["CreateDeltaPackageUsingBaselineBlockMap","CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management]","CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management]","IAppxPackageEditor interface","IAppxPackageEditor interface [App packaging and management]","CreateDeltaPackageUsingBaselineBlockMap method","IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap","IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap","appxpackaging/IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap","appxpkg.iappxpackageeditor_createdeltapackageusingbaselineblockmap"]
+description: Creates a delta package from the differences in the updated package and the baseline block map.
+helpviewer_keywords: ["CreateDeltaPackageUsingBaselineBlockMap","CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management]","CreateDeltaPackageUsingBaselineBlockMap method [App packaging and management]","IAppxPackageEditor interface","IAppxPackageEditor interface [App packaging and management]","CreateDeltaPackageUsingBaselineBlockMap method","IAppxPackageEditor.CreateDeltaPackageUsingBaselineBlockMap","IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap","appxpackaging/IAppxPackageEditor::CreateDeltaPackageUsingBaselineBlockMap","appxpkg.iappxpackageeditor_createdeltapackageusingbaselineblockmap"]
 old-location: appxpkg\iappxpackageeditor_createdeltapackageusingbaselineblockmap.htm
 tech.root: appxpkg
 ms.assetid: 33D1CEBA-A7F4-4506-B467-3610A3737B87

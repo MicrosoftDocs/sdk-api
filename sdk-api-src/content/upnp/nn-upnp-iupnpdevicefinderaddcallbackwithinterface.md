@@ -1,7 +1,8 @@
 ---
 UID: NN:upnp.IUPnPDeviceFinderAddCallbackWithInterface
 title: IUPnPDeviceFinderAddCallbackWithInterface (upnp.h)
-description: The IUPnPDeviceFinderAddCallbackWithInterface interface allows the UPnP framework to communicate to an applicationhelpviewer_keywords: ["IUPnPDeviceFinderAddCallbackWithInterface","IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs]","IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs]","described","upnp.iupnpdevicefinderaddcallbackwithinterface","upnp/IUPnPDeviceFinderAddCallbackWithInterface"]
+description: The IUPnPDeviceFinderAddCallbackWithInterface interface allows the UPnP framework to communicate to an application
+helpviewer_keywords: ["IUPnPDeviceFinderAddCallbackWithInterface","IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs]","IUPnPDeviceFinderAddCallbackWithInterface interface [UPnP APIs]","described","upnp.iupnpdevicefinderaddcallbackwithinterface","upnp/IUPnPDeviceFinderAddCallbackWithInterface"]
 old-location: upnp\iupnpdevicefinderaddcallbackwithinterface.htm
 tech.root: upnp
 ms.assetid: b0d78121-35d0-4f33-b1e9-19e0b2c5b78f

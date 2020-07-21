@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfCandidateListUIElement.GetCurrentPage
 title: ITfCandidateListUIElement::GetCurrentPage (msctf.h)
-description: The ITfCandidateListUIElement::GetCurrentPage method returns the current page.helpviewer_keywords: ["GetCurrentPage","GetCurrentPage method [Text Services Framework]","GetCurrentPage method [Text Services Framework]","ITfCandidateListUIElement interface","ITfCandidateListUIElement interface [Text Services Framework]","GetCurrentPage method","ITfCandidateListUIElement.GetCurrentPage","ITfCandidateListUIElement::GetCurrentPage","msctf/ITfCandidateListUIElement::GetCurrentPage","tsf.itfcandidatelistuielement_getcurrentpage"]
+description: The ITfCandidateListUIElement::GetCurrentPage method returns the current page.
+helpviewer_keywords: ["GetCurrentPage","GetCurrentPage method [Text Services Framework]","GetCurrentPage method [Text Services Framework]","ITfCandidateListUIElement interface","ITfCandidateListUIElement interface [Text Services Framework]","GetCurrentPage method","ITfCandidateListUIElement.GetCurrentPage","ITfCandidateListUIElement::GetCurrentPage","msctf/ITfCandidateListUIElement::GetCurrentPage","tsf.itfcandidatelistuielement_getcurrentpage"]
 old-location: tsf\itfcandidatelistuielement_getcurrentpage.htm
 tech.root: TSF
 ms.assetid: 551c73ff-8fbd-47e5-a6e8-90d58141c7c0

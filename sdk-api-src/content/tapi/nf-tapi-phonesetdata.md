@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi.phoneSetData
 title: phoneSetData function (tapi.h)
-description: The phoneSetData function downloads the information in the specified buffer to the opened phone device at the selected data identifier.helpviewer_keywords: ["_tapi2_phonesetdata","phoneSetData","phoneSetData function [TAPI 2.2]","tapi/phoneSetData","tapi2.phonesetdata"]
+description: The phoneSetData function downloads the information in the specified buffer to the opened phone device at the selected data identifier.
+helpviewer_keywords: ["_tapi2_phonesetdata","phoneSetData","phoneSetData function [TAPI 2.2]","tapi/phoneSetData","tapi2.phonesetdata"]
 old-location: tapi2\phonesetdata.htm
 tech.root: Tapi
 ms.assetid: 4563467b-6577-4210-9440-8445e307ac38

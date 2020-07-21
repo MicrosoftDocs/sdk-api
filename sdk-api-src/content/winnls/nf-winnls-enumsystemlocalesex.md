@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.EnumSystemLocalesEx
 title: EnumSystemLocalesEx function (winnls.h)
-description: Enumerates the locales that are either installed on or supported by an operating system.Note  The application should call this function in preference to EnumSystemLocales if designed to run only on Windows Vista and later.helpviewer_keywords: ["EnumSystemLocalesEx","EnumSystemLocalesEx function [Internationalization for Windows Applications]","_win32_EnumSystemLocalesEx","intl.enumsystemlocalesex","winnls/EnumSystemLocalesEx"]
+description: Enumerates the locales that are either installed on or supported by an operating system.Note  The application should call this function in preference to EnumSystemLocales if designed to run only on Windows Vista and later.
+helpviewer_keywords: ["EnumSystemLocalesEx","EnumSystemLocalesEx function [Internationalization for Windows Applications]","_win32_EnumSystemLocalesEx","intl.enumsystemlocalesex","winnls/EnumSystemLocalesEx"]
 old-location: intl\enumsystemlocalesex.htm
 tech.root: Intl
 ms.assetid: 74b1b453-66e9-4724-a956-26cea2d7d744

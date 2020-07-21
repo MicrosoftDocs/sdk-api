@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.IsThemeActive
 title: IsThemeActive function (uxtheme.h)
-description: Tests if a visual style for the current application is active.helpviewer_keywords: ["IsThemeActive","IsThemeActive function [Windows Controls]","controls.IsThemeActive","controls.inet_IsThemeActive","inet_IsThemeActive","inet_IsThemeActive_cpp","uxtheme/IsThemeActive"]
+description: Tests if a visual style for the current application is active.
+helpviewer_keywords: ["IsThemeActive","IsThemeActive function [Windows Controls]","controls.IsThemeActive","controls.inet_IsThemeActive","inet_IsThemeActive","inet_IsThemeActive_cpp","uxtheme/IsThemeActive"]
 old-location: controls\IsThemeActive.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\isthemeactive.htm

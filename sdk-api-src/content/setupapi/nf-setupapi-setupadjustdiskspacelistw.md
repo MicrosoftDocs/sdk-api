@@ -1,7 +1,8 @@
 ---
 UID: NF:setupapi.SetupAdjustDiskSpaceListW
 title: SetupAdjustDiskSpaceListW function (setupapi.h)
-description: The SetupAdjustDiskSpaceList function adjusts the amount of required space for a specified drive.helpviewer_keywords: ["SetupAdjustDiskSpaceList","SetupAdjustDiskSpaceList function [Setup API]","SetupAdjustDiskSpaceListA","SetupAdjustDiskSpaceListW","setup.setupadjustdiskspacelist","setupapi/SetupAdjustDiskSpaceList","setupapi/SetupAdjustDiskSpaceListA","setupapi/SetupAdjustDiskSpaceListW"]
+description: The SetupAdjustDiskSpaceList function adjusts the amount of required space for a specified drive.
+helpviewer_keywords: ["SetupAdjustDiskSpaceList","SetupAdjustDiskSpaceList function [Setup API]","SetupAdjustDiskSpaceListA","SetupAdjustDiskSpaceListW","setup.setupadjustdiskspacelist","setupapi/SetupAdjustDiskSpaceList","setupapi/SetupAdjustDiskSpaceListA","setupapi/SetupAdjustDiskSpaceListW"]
 old-location: setup\setupadjustdiskspacelist.htm
 tech.root: SetupApi
 ms.assetid: dcdcc43c-9b5c-495b-bf4b-331c4d9461e7
@@ -111,4 +112,9 @@ If the function fails, the return value is zero. To get extended error informati
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The setupapi.h header defines SetupAdjustDiskSpaceList as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

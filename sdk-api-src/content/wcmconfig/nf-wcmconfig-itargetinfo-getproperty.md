@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ITargetInfo.GetProperty
 title: ITargetInfo::GetProperty (wcmconfig.h)
-description: Gets a property value for the offline installation location.helpviewer_keywords: ["GetProperty","GetProperty method [SMI]","GetProperty method [SMI]","ITargetInfo interface","ITargetInfo interface [SMI]","GetProperty method","ITargetInfo.GetProperty","ITargetInfo::GetProperty","smi.itargetinfo_getproperty","wcmconfig/ITargetInfo::GetProperty"]
+description: Gets a property value for the offline installation location.
+helpviewer_keywords: ["GetProperty","GetProperty method [SMI]","GetProperty method [SMI]","ITargetInfo interface","ITargetInfo interface [SMI]","GetProperty method","ITargetInfo.GetProperty","ITargetInfo::GetProperty","smi.itargetinfo_getproperty","wcmconfig/ITargetInfo::GetProperty"]
 old-location: smi\itargetinfo_getproperty.htm
 tech.root: SMI
 ms.assetid: f4366d23-e2dd-4561-af79-870212631ebf

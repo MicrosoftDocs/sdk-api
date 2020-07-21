@@ -1,7 +1,8 @@
 ---
 UID: NS:htmlhelp.tagHHNTRACK
 title: HHNTRACK (htmlhelp.h)
-description: This structure returns the file name of the current topic and a constant that specifies the user action that is about to occur, such as hiding the Navigation pane by clicking the Hide button on the toolbar.helpviewer_keywords: ["HHNTRACK","HHNTRACK structure [HTML Help Workshop]","htmlhelp.hhntrack_structure","htmlhelp/HHNTRACK","vsconStrhhntrack"]
+description: This structure returns the file name of the current topic and a constant that specifies the user action that is about to occur, such as hiding the Navigation pane by clicking the Hide button on the toolbar.
+helpviewer_keywords: ["HHNTRACK","HHNTRACK structure [HTML Help Workshop]","htmlhelp.hhntrack_structure","htmlhelp/HHNTRACK","vsconStrhhntrack"]
 old-location: htmlhelp\hhntrack_structure.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\vsconstrhhntrack.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:propsys.PSPropertyBag_Delete
 title: PSPropertyBag_Delete function (propsys.h)
-description: Deletes a property from a property bag.helpviewer_keywords: ["PSPropertyBag_Delete","PSPropertyBag_Delete function [Windows Properties]","properties.PSPropertyBag_Delete","propsys/PSPropertyBag_Delete","shell.PSPropertyBag_Delete","shell_PSPropertyBag_Delete"]
+description: Deletes a property from a property bag.
+helpviewer_keywords: ["PSPropertyBag_Delete","PSPropertyBag_Delete function [Windows Properties]","properties.PSPropertyBag_Delete","propsys/PSPropertyBag_Delete","shell.PSPropertyBag_Delete","shell_PSPropertyBag_Delete"]
 old-location: properties\PSPropertyBag_Delete.htm
 tech.root: properties
 ms.assetid: 53ED1C87-5141-4925-B70E-C0304817A871

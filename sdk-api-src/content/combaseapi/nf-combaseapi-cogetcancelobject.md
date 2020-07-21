@@ -1,7 +1,8 @@
 ---
 UID: NF:combaseapi.CoGetCancelObject
 title: CoGetCancelObject function (combaseapi.h)
-description: Obtains a pointer to a call control interface, normally ICancelMethodCalls, on the cancel object corresponding to an outbound COM method call pending on the same or another client thread.helpviewer_keywords: ["CoGetCancelObject","CoGetCancelObject function [COM]","_com_CoGetCancelObject","com.cogetcancelobject","combaseapi/CoGetCancelObject"]
+description: Obtains a pointer to a call control interface, normally ICancelMethodCalls, on the cancel object corresponding to an outbound COM method call pending on the same or another client thread.
+helpviewer_keywords: ["CoGetCancelObject","CoGetCancelObject function [COM]","_com_CoGetCancelObject","com.cogetcancelobject","combaseapi/CoGetCancelObject"]
 old-location: com\cogetcancelobject.htm
 tech.root: com
 ms.assetid: d38161af-d662-4430-99b7-6563efda6f4e

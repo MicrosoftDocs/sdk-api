@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGroupEnumConnections
 title: PeerGroupEnumConnections function (p2p.h)
-description: The PeerGroupEnumConnections function creates an enumeration of connections currently active on the peer.helpviewer_keywords: ["PeerGroupEnumConnections","PeerGroupEnumConnections function [Peer Networking]","p2p.peergroupenumconnections","p2p/PeerGroupEnumConnections"]
+description: The PeerGroupEnumConnections function creates an enumeration of connections currently active on the peer.
+helpviewer_keywords: ["PeerGroupEnumConnections","PeerGroupEnumConnections function [Peer Networking]","p2p.peergroupenumconnections","p2p/PeerGroupEnumConnections"]
 old-location: p2p\peergroupenumconnections.htm
 tech.root: P2PSdk
 ms.assetid: 84a26066-3d6a-44c8-86a1-b3f997c17739

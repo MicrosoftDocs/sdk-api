@@ -1,7 +1,8 @@
 ---
 UID: NF:azroles.IAzApplicationGroup.DeleteAppNonMember
 title: IAzApplicationGroup::DeleteAppNonMember (azroles.h)
-description: Removes the specified IAzApplicationGroup object from the list of application groups that are refused membership in this application group.helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteAppNonMember method","DeleteAppNonMember","DeleteAppNonMember method [Security]","DeleteAppNonMember method [Security]","AzApplicationGroup object","DeleteAppNonMember method [Security]","IAzApplicationGroup interface","IAzApplicationGroup interface [Security]","DeleteAppNonMember method","IAzApplicationGroup.DeleteAppNonMember","IAzApplicationGroup::DeleteAppNonMember","azroles/IAzApplicationGroup::DeleteAppNonMember","security.iazapplicationgroup_deleteappnonmember"]
+description: Removes the specified IAzApplicationGroup object from the list of application groups that are refused membership in this application group.
+helpviewer_keywords: ["AzApplicationGroup object [Security]","DeleteAppNonMember method","DeleteAppNonMember","DeleteAppNonMember method [Security]","DeleteAppNonMember method [Security]","AzApplicationGroup object","DeleteAppNonMember method [Security]","IAzApplicationGroup interface","IAzApplicationGroup interface [Security]","DeleteAppNonMember method","IAzApplicationGroup.DeleteAppNonMember","IAzApplicationGroup::DeleteAppNonMember","azroles/IAzApplicationGroup::DeleteAppNonMember","security.iazapplicationgroup_deleteappnonmember"]
 old-location: security\iazapplicationgroup_deleteappnonmember.htm
 tech.root: SecAuthZ
 ms.assetid: d78f3cd9-4ccb-47b7-98bd-5e69ebbb178c

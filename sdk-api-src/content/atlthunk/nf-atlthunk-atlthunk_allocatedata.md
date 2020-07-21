@@ -1,7 +1,8 @@
 ---
 UID: NF:atlthunk.AtlThunk_AllocateData
 title: AtlThunk_AllocateData function (atlthunk.h)
-description: Allocates space in memory for an ATL thunk.helpviewer_keywords: ["AtlThunk_AllocateData","AtlThunk_AllocateData function","atlthunk/AtlThunk_AllocateData","base.atlthunk_allocatedata"]
+description: Allocates space in memory for an ATL thunk.
+helpviewer_keywords: ["AtlThunk_AllocateData","AtlThunk_AllocateData function","atlthunk/AtlThunk_AllocateData","base.atlthunk_allocatedata"]
 old-location: base\atlthunk_allocatedata.htm
 tech.root: Memory
 ms.assetid: D306E6CB-72D4-4820-885E-175FC8500954

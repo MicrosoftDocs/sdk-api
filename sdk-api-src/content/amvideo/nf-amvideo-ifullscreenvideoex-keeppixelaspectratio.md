@@ -1,7 +1,8 @@
 ---
 UID: NF:amvideo.IFullScreenVideoEx.KeepPixelAspectRatio
 title: IFullScreenVideoEx::KeepPixelAspectRatio (amvideo.h)
-description: The KeepPixelAspectRatio method specifies whether to maintain the pixel aspect ratio. The Full Screen Renderer filter does not support this method; it always maintains the pixel aspect ratio.helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","KeepPixelAspectRatio method","IFullScreenVideoEx.KeepPixelAspectRatio","IFullScreenVideoEx::KeepPixelAspectRatio","IFullScreenVideoExKeepPixelAspectRatio","KeepPixelAspectRatio","KeepPixelAspectRatio method [DirectShow]","KeepPixelAspectRatio method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::KeepPixelAspectRatio","dshow.ifullscreenvideoex_keeppixelaspectratio"]
+description: The KeepPixelAspectRatio method specifies whether to maintain the pixel aspect ratio. The Full Screen Renderer filter does not support this method; it always maintains the pixel aspect ratio.
+helpviewer_keywords: ["IFullScreenVideoEx interface [DirectShow]","KeepPixelAspectRatio method","IFullScreenVideoEx.KeepPixelAspectRatio","IFullScreenVideoEx::KeepPixelAspectRatio","IFullScreenVideoExKeepPixelAspectRatio","KeepPixelAspectRatio","KeepPixelAspectRatio method [DirectShow]","KeepPixelAspectRatio method [DirectShow]","IFullScreenVideoEx interface","amvideo/IFullScreenVideoEx::KeepPixelAspectRatio","dshow.ifullscreenvideoex_keeppixelaspectratio"]
 old-location: dshow\ifullscreenvideoex_keeppixelaspectratio.htm
 tech.root: DirectShow
 ms.assetid: f2c57560-7ffa-4bd4-8d0c-a048dafa35bc

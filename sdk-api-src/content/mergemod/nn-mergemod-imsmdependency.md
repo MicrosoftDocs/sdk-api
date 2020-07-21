@@ -1,7 +1,8 @@
 ---
 UID: NN:mergemod.IMsmDependency
 title: IMsmDependency (mergemod.h)
-description: The IMsmDependency interface retrieves details for a single module dependency.helpviewer_keywords: ["IMsmDependency","IMsmDependency interface","IMsmDependency interface","described","mergemod/IMsmDependency","setup.imsmdependency_interface"]
+description: The IMsmDependency interface retrieves details for a single module dependency.
+helpviewer_keywords: ["IMsmDependency","IMsmDependency interface","IMsmDependency interface","described","mergemod/IMsmDependency","setup.imsmdependency_interface"]
 old-location: setup\imsmdependency_interface.htm
 tech.root: Msi
 ms.assetid: 517cf174-418a-4717-a25f-1736225016a1

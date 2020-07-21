@@ -1,7 +1,8 @@
 ---
 UID: NE:fsrmenums._FsrmReportGenerationContext
 title: FsrmReportGenerationContext (fsrmenums.h)
-description: Defines the context in which the report is initiated.helpviewer_keywords: ["FsrmReportGenerationContext","FsrmReportGenerationContext enumeration [File Server Resource Manager]","FsrmReportGenerationContext_IncidentReport","FsrmReportGenerationContext_InteractiveReport","FsrmReportGenerationContext_ScheduledReport","FsrmReportGenerationContext_Undefined","fs.fsrmreportgenerationcontext","fsrm.fsrmreportgenerationcontext","fsrmenums/FsrmReportGenerationContext","fsrmenums/FsrmReportGenerationContext_IncidentReport","fsrmenums/FsrmReportGenerationContext_InteractiveReport","fsrmenums/FsrmReportGenerationContext_ScheduledReport","fsrmenums/FsrmReportGenerationContext_Undefined"]
+description: Defines the context in which the report is initiated.
+helpviewer_keywords: ["FsrmReportGenerationContext","FsrmReportGenerationContext enumeration [File Server Resource Manager]","FsrmReportGenerationContext_IncidentReport","FsrmReportGenerationContext_InteractiveReport","FsrmReportGenerationContext_ScheduledReport","FsrmReportGenerationContext_Undefined","fs.fsrmreportgenerationcontext","fsrm.fsrmreportgenerationcontext","fsrmenums/FsrmReportGenerationContext","fsrmenums/FsrmReportGenerationContext_IncidentReport","fsrmenums/FsrmReportGenerationContext_InteractiveReport","fsrmenums/FsrmReportGenerationContext_ScheduledReport","fsrmenums/FsrmReportGenerationContext_Undefined"]
 old-location: fsrm\fsrmreportgenerationcontext.htm
 tech.root: fsrm
 ms.assetid: 02e18cc2-7c5e-473f-8a7f-e310bfb1c57d

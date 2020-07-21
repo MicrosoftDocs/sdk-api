@@ -1,7 +1,8 @@
 ---
 UID: NF:appmodel.AppPolicyGetShowDeveloperDiagnostic
 title: AppPolicyGetShowDeveloperDiagnostic function (appmodel.h)
-description: Retrieves the method used for a process to surface developer information, such as asserts, to the user.helpviewer_keywords: ["AppPolicyGetShowDeveloperDiagnostic","AppPolicyGetShowDeveloperDiagnostic function [App packaging and management]","appmodel/AppPolicyGetShowDeveloperDiagnostic","appxpkg.apppolicygetshowdeveloperdiagnostic_function"]
+description: Retrieves the method used for a process to surface developer information, such as asserts, to the user.
+helpviewer_keywords: ["AppPolicyGetShowDeveloperDiagnostic","AppPolicyGetShowDeveloperDiagnostic function [App packaging and management]","appmodel/AppPolicyGetShowDeveloperDiagnostic","appxpkg.apppolicygetshowdeveloperdiagnostic_function"]
 old-location: appxpkg\apppolicygetshowdeveloperdiagnostic_function.htm
 tech.root: appxpkg
 ms.assetid: A6F794BE-7F40-4216-9E26-63D06B57FDD1

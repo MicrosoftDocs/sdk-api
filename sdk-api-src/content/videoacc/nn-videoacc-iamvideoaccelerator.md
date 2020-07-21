@@ -1,7 +1,8 @@
 ---
 UID: NN:videoacc.IAMVideoAccelerator
 title: IAMVideoAccelerator (videoacc.h)
-description: The IAMVideoAccelerator interface enables a video decoder filter to access DirectX Video Acceleration (DXVA) 1.0 functionality.helpviewer_keywords: ["IAMVideoAccelerator","IAMVideoAccelerator interface [DirectShow]","IAMVideoAccelerator interface [DirectShow]","described","IAMVideoAcceleratorInterface","dshow.iamvideoaccelerator","videoacc/IAMVideoAccelerator"]
+description: The IAMVideoAccelerator interface enables a video decoder filter to access DirectX Video Acceleration (DXVA) 1.0 functionality.
+helpviewer_keywords: ["IAMVideoAccelerator","IAMVideoAccelerator interface [DirectShow]","IAMVideoAccelerator interface [DirectShow]","described","IAMVideoAcceleratorInterface","dshow.iamvideoaccelerator","videoacc/IAMVideoAccelerator"]
 old-location: dshow\iamvideoaccelerator.htm
 tech.root: DirectShow
 ms.assetid: 78e0a165-5a19-4dca-8d6c-445345772824

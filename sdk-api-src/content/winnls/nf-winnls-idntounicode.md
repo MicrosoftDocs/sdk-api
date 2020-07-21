@@ -1,7 +1,8 @@
 ---
 UID: NF:winnls.IdnToUnicode
 title: IdnToUnicode function (winnls.h)
-description: Converts the Punycode form of an internationalized domain name (IDN) or another internationalized label to the normal Unicode UTF-16 encoding syntax.helpviewer_keywords: ["IdnToUnicode","IdnToUnicode function [Internationalization for Windows Applications]","_win32_IdnToUnicode","intl.idntounicode","winnls/IdnToUnicode"]
+description: Converts the Punycode form of an internationalized domain name (IDN) or another internationalized label to the normal Unicode UTF-16 encoding syntax.
+helpviewer_keywords: ["IdnToUnicode","IdnToUnicode function [Internationalization for Windows Applications]","_win32_IdnToUnicode","intl.idntounicode","winnls/IdnToUnicode"]
 old-location: intl\idntounicode.htm
 tech.root: Intl
 ms.assetid: 90707414-aef7-4265-bc2b-d48ac79db099

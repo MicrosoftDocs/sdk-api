@@ -1,7 +1,8 @@
 ---
-UID: NF:directxpackedvector.XMUSHORTN2.XMUSHORTN2(const uint16_t)
+UID: NF:directxpackedvector.XMUSHORTN2.XMUSHORTN2(constuint16_t)
 title: XMUSHORTN2::XMUSHORTN2(const uint16_t) (directxpackedvector.h)
-description: Initializes a new instance of XMUSHORTN2 from a two element uint16_t array argument.helpviewer_keywords: ["XMUSHORTN2","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 structure","XMUSHORTN2 structure [DirectX Math Support APIs]","XMUSHORTN2 constructor","XMUSHORTN2.XMUSHORTN2","XMUSHORTN2.XMUSHORTN2()","XMUSHORTN2.XMUSHORTN2(const uint16_t)","XMUSHORTN2::XMUSHORTN2","XMUSHORTN2::XMUSHORTN2(const uint16_t)","dxmath.xmushortn2_ctor_1"]
+description: Initializes a new instance of XMUSHORTN2 from a two element uint16_t array argument.
+helpviewer_keywords: ["XMUSHORTN2","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 constructor [DirectX Math Support APIs]","XMUSHORTN2 structure","XMUSHORTN2 structure [DirectX Math Support APIs]","XMUSHORTN2 constructor","XMUSHORTN2.XMUSHORTN2","XMUSHORTN2.XMUSHORTN2()","XMUSHORTN2.XMUSHORTN2(const uint16_t)","XMUSHORTN2::XMUSHORTN2","XMUSHORTN2::XMUSHORTN2(const uint16_t)","dxmath.xmushortn2_ctor_1"]
 old-location: 
 tech.root: dxmath
 ms.assetid: 15aeb82d-2262-4727-b591-47f9435bf6fd

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleauto.VarCat
 title: VarCat function (oleauto.h)
-description: Concatenates two variants and returns the result.helpviewer_keywords: ["VarCat","VarCat function [Automation]","_oa96_VarCat","automat.varcat","oleauto/VarCat"]
+description: Concatenates two variants and returns the result.
+helpviewer_keywords: ["VarCat","VarCat function [Automation]","_oa96_VarCat","automat.varcat","oleauto/VarCat"]
 old-location: automat\varcat.htm
 tech.root: automat
 ms.assetid: 2e94516e-de36-407a-a1fe-6a6e66641c17

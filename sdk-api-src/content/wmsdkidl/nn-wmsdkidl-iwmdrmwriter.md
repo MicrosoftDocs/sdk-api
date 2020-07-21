@@ -1,7 +1,8 @@
 ---
 UID: NN:wmsdkidl.IWMDRMWriter
 title: IWMDRMWriter (wmsdkidl.h)
-description: The IWMDRMWriter interface provides support for applying DRM protection to content in ASF files.helpviewer_keywords: ["IWMDRMWriter","IWMDRMWriter interface [windows Media Format]","IWMDRMWriter interface [windows Media Format]","described","IWMDRMWriterInterface","wmformat.iwmdrmwriter","wmsdkidl/IWMDRMWriter"]
+description: The IWMDRMWriter interface provides support for applying DRM protection to content in ASF files.
+helpviewer_keywords: ["IWMDRMWriter","IWMDRMWriter interface [windows Media Format]","IWMDRMWriter interface [windows Media Format]","described","IWMDRMWriterInterface","wmformat.iwmdrmwriter","wmsdkidl/IWMDRMWriter"]
 old-location: wmformat\iwmdrmwriter.htm
 tech.root: wmformat
 ms.assetid: fd466cf8-b1f8-49aa-a486-8fd347b29178

@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPIPerfCounterLoggingManager
 title: IRDPSRAPIPerfCounterLoggingManager (rdpencomapi.h)
-description: Manages IRDPSRAPIPerfCounterLogger objects.helpviewer_keywords: ["IRDPSRAPIPerfCounterLoggingManager","IRDPSRAPIPerfCounterLoggingManager class [RDP]","IRDPSRAPIPerfCounterLoggingManager class [RDP]","described","rdp.irdpsrapiperfcounterloggingmanager","rdp.irdpsrapiperfcounterloggingmanager_","rdpencomapi/IRDPSRAPIPerfCounterLoggingManager"]
+description: Manages IRDPSRAPIPerfCounterLogger objects.
+helpviewer_keywords: ["IRDPSRAPIPerfCounterLoggingManager","IRDPSRAPIPerfCounterLoggingManager class [RDP]","IRDPSRAPIPerfCounterLoggingManager class [RDP]","described","rdp.irdpsrapiperfcounterloggingmanager","rdp.irdpsrapiperfcounterloggingmanager_","rdpencomapi/IRDPSRAPIPerfCounterLoggingManager"]
 old-location: rdp\irdpsrapiperfcounterloggingmanager.htm
 tech.root: rdp
 ms.assetid: 611ABFB6-851F-4A2C-86A0-E26732CD20BE

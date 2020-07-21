@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2tcpip.GetAddrInfoExCancel
 title: GetAddrInfoExCancel function (ws2tcpip.h)
-description: Cancels an asynchronous operation by the GetAddrInfoEx function.helpviewer_keywords: ["GetAddrInfoExCancel","GetAddrInfoExCancel function [Winsock]","winsock.getaddrinfoexcancel","ws2tcpip/GetAddrInfoExCancel"]
+description: Cancels an asynchronous operation by the GetAddrInfoEx function.
+helpviewer_keywords: ["GetAddrInfoExCancel","GetAddrInfoExCancel function [Winsock]","winsock.getaddrinfoexcancel","ws2tcpip/GetAddrInfoExCancel"]
 old-location: winsock\getaddrinfoexcancel.htm
 tech.root: WinSock
 ms.assetid: A4DE552D-DEA7-44F5-865F-5B02C9BB4AB6

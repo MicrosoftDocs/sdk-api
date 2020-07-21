@@ -1,7 +1,8 @@
 ---
 UID: NF:mfidl.IMFMediaSource.Pause
 title: IMFMediaSource::Pause (mfidl.h)
-description: Pauses all active streams in the media source.helpviewer_keywords: ["113b3dc7-918e-427e-aa70-cf474b951c6d","IMFMediaSource interface [Media Foundation]","Pause method","IMFMediaSource.Pause","IMFMediaSource::Pause","Pause","Pause method [Media Foundation]","Pause method [Media Foundation]","IMFMediaSource interface","mf.imfmediasource_pause","mfidl/IMFMediaSource::Pause"]
+description: Pauses all active streams in the media source.
+helpviewer_keywords: ["113b3dc7-918e-427e-aa70-cf474b951c6d","IMFMediaSource interface [Media Foundation]","Pause method","IMFMediaSource.Pause","IMFMediaSource::Pause","Pause","Pause method [Media Foundation]","Pause method [Media Foundation]","IMFMediaSource interface","mf.imfmediasource_pause","mfidl/IMFMediaSource::Pause"]
 old-location: mf\imfmediasource_pause.htm
 tech.root: medfound
 ms.assetid: 113b3dc7-918e-427e-aa70-cf474b951c6d

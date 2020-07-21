@@ -1,7 +1,8 @@
 ---
 UID: NF:mpeg2psiparser.IGenericDescriptor.GetBody
 title: IGenericDescriptor::GetBody (mpeg2psiparser.h)
-description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.helpviewer_keywords: ["GetBody","GetBody method [Microsoft TV Technologies]","GetBody method [Microsoft TV Technologies]","IGenericDescriptor interface","IGenericDescriptor interface [Microsoft TV Technologies]","GetBody method","IGenericDescriptor.GetBody","IGenericDescriptor::GetBody","IGenericDescriptorGetBody","mpeg2psiparser/IGenericDescriptor::GetBody","mstv.igenericdescriptor_getbody"]
+description: This topic applies to Update Rollup 2 for Microsoft Windows XP Media Center Edition 2005.
+helpviewer_keywords: ["GetBody","GetBody method [Microsoft TV Technologies]","GetBody method [Microsoft TV Technologies]","IGenericDescriptor interface","IGenericDescriptor interface [Microsoft TV Technologies]","GetBody method","IGenericDescriptor.GetBody","IGenericDescriptor::GetBody","IGenericDescriptorGetBody","mpeg2psiparser/IGenericDescriptor::GetBody","mstv.igenericdescriptor_getbody"]
 old-location: mstv\igenericdescriptor_getbody.htm
 tech.root: mstv
 ms.assetid: fbb17e16-b0a4-45c1-b723-cbb6a61d4d0f

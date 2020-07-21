@@ -1,7 +1,8 @@
 ---
 UID: NN:certenroll.IX509EnrollmentWebClassFactory
 title: IX509EnrollmentWebClassFactory (certenroll.h)
-description: Can be used to create any of the following objects on a webpage.helpviewer_keywords: ["IX509EnrollmentWebClassFactory","IX509EnrollmentWebClassFactory interface [Security]","IX509EnrollmentWebClassFactory interface [Security]","described","certenroll/IX509EnrollmentWebClassFactory","security.ix509enrollmentwebclassfactory"]
+description: Can be used to create any of the following objects on a webpage.
+helpviewer_keywords: ["IX509EnrollmentWebClassFactory","IX509EnrollmentWebClassFactory interface [Security]","IX509EnrollmentWebClassFactory interface [Security]","described","certenroll/IX509EnrollmentWebClassFactory","security.ix509enrollmentwebclassfactory"]
 old-location: security\ix509enrollmentwebclassfactory.htm
 tech.root: seccertenroll
 ms.assetid: f779c197-8467-481a-abf5-d3fd3ac90ba7

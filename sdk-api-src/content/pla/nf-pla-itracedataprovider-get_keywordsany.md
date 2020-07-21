@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.ITraceDataProvider.get_KeywordsAny
 title: ITraceDataProvider::get_KeywordsAny (pla.h)
-description: Retrieves the list of keywords that determine the category of events that you want the provider to write.helpviewer_keywords: ["ITraceDataProvider interface [PLA]","KeywordsAny property","ITraceDataProvider.KeywordsAny","ITraceDataProvider.get_KeywordsAny","ITraceDataProvider::KeywordsAny","ITraceDataProvider::get_KeywordsAny","KeywordsAny property [PLA]","KeywordsAny property [PLA]","ITraceDataProvider interface","get_KeywordsAny","pla.itracedataprovider_keywordsany","pla/ITraceDataProvider::KeywordsAny","pla/ITraceDataProvider::get_KeywordsAny"]
+description: Retrieves the list of keywords that determine the category of events that you want the provider to write.
+helpviewer_keywords: ["ITraceDataProvider interface [PLA]","KeywordsAny property","ITraceDataProvider.KeywordsAny","ITraceDataProvider.get_KeywordsAny","ITraceDataProvider::KeywordsAny","ITraceDataProvider::get_KeywordsAny","KeywordsAny property [PLA]","KeywordsAny property [PLA]","ITraceDataProvider interface","get_KeywordsAny","pla.itracedataprovider_keywordsany","pla/ITraceDataProvider::KeywordsAny","pla/ITraceDataProvider::get_KeywordsAny"]
 old-location: pla\itracedataprovider_keywordsany.htm
 tech.root: PLA
 ms.assetid: 10159c09-609a-4263-a515-241ab942c3e8

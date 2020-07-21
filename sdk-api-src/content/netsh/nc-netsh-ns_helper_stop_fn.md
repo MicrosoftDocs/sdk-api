@@ -1,7 +1,8 @@
 ---
 UID: NC:netsh.NS_HELPER_STOP_FN
 title: NS_HELPER_STOP_FN (netsh.h)
-description: Is the stop function for helpers.helpviewer_keywords: ["NS_HELPER_STOP_FN","NS_HELPER_STOP_FN callback","NS_HELPER_STOP_FN callback function [NetShell]","SampleStopHelper","_netsh_ns_helper_stop_fn","netsh/NS_HELPER_STOP_FN","netshell.ns_helper_stop_fn"]
+description: Is the stop function for helpers.
+helpviewer_keywords: ["NS_HELPER_STOP_FN","NS_HELPER_STOP_FN callback","NS_HELPER_STOP_FN callback function [NetShell]","SampleStopHelper","_netsh_ns_helper_stop_fn","netsh/NS_HELPER_STOP_FN","netshell.ns_helper_stop_fn"]
 old-location: netshell\ns_helper_stop_fn.htm
 tech.root: netshell
 ms.assetid: a56c11e6-5314-43eb-9960-55987395112f

@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetOwner
 title: IXpsOMCoreProperties::GetOwner (xpsobjectmodel.h)
-description: Gets a pointer to the IXpsOMPackage interface that contains the core properties.helpviewer_keywords: ["GetOwner","GetOwner method [XPS Documents and Packaging]","GetOwner method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetOwner method","IXpsOMCoreProperties.GetOwner","IXpsOMCoreProperties::GetOwner","xps.ixpsomcoreproperties_getowner","xpsobjectmodel/IXpsOMCoreProperties::GetOwner"]
+description: Gets a pointer to the IXpsOMPackage interface that contains the core properties.
+helpviewer_keywords: ["GetOwner","GetOwner method [XPS Documents and Packaging]","GetOwner method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetOwner method","IXpsOMCoreProperties.GetOwner","IXpsOMCoreProperties::GetOwner","xps.ixpsomcoreproperties_getowner","xpsobjectmodel/IXpsOMCoreProperties::GetOwner"]
 old-location: xps\ixpsomcoreproperties_getowner.htm
 tech.root: printdocs
 ms.assetid: e3b2b9a7-7498-48a1-9d1f-eb954dc5576c

@@ -1,7 +1,8 @@
 ---
 UID: NF:lmdfs.NetDfsSetFtContainerSecurity
 title: NetDfsSetFtContainerSecurity function (lmdfs.h)
-description: Sets the security descriptor of the container object for the domain-based DFS namespaces in the specified Active Directory domain.helpviewer_keywords: ["NetDfsSetFtContainerSecurity","NetDfsSetFtContainerSecurity function [Distributed File System]","dfs.netdfssetftcontainersecurity","fs.netdfssetftcontainersecurity","lmdfs/NetDfsSetFtContainerSecurity","netmgmt.netdfssetftcontainersecurity"]
+description: Sets the security descriptor of the container object for the domain-based DFS namespaces in the specified Active Directory domain.
+helpviewer_keywords: ["NetDfsSetFtContainerSecurity","NetDfsSetFtContainerSecurity function [Distributed File System]","dfs.netdfssetftcontainersecurity","fs.netdfssetftcontainersecurity","lmdfs/NetDfsSetFtContainerSecurity","netmgmt.netdfssetftcontainersecurity"]
 old-location: dfs\netdfssetftcontainersecurity.htm
 tech.root: Dfs
 ms.assetid: 84300e38-b263-4c38-bc31-5221621b89f1

@@ -1,7 +1,8 @@
 ---
 UID: NF:wsdutil.WSDAttachLinkedMemory
 title: WSDAttachLinkedMemory function (wsdutil.h)
-description: Attaches a child memory block to a parent memory block.helpviewer_keywords: ["WSDAttachLinkedMemory","WSDAttachLinkedMemory function","ncd.wsdattachlinkedmemory_func","wsdutil/WSDAttachLinkedMemory"]
+description: Attaches a child memory block to a parent memory block.
+helpviewer_keywords: ["WSDAttachLinkedMemory","WSDAttachLinkedMemory function","ncd.wsdattachlinkedmemory_func","wsdutil/WSDAttachLinkedMemory"]
 old-location: ncd\wsdattachlinkedmemory_func.htm
 tech.root: WsdApi
 ms.assetid: 4f7bc268-6fcf-42f2-8457-e5094bee6e68

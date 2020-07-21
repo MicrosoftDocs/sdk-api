@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IActiveBasicDevice.GetEffectiveBandwidth
 title: IActiveBasicDevice::streaming (windows.media.streaming.h)
-description: Gets the current effective bandwidth for the device.helpviewer_keywords: ["GetEffectiveBandwidth","GetEffectiveBandwidth method [Media Streaming API]","GetEffectiveBandwidth method [Media Streaming API]","IActiveBasicDevice interface","IActiveBasicDevice interface [Media Streaming API]","GetEffectiveBandwidth method","IActiveBasicDevice.GetEffectiveBandwidth","IActiveBasicDevice.streaming","IActiveBasicDevice::GetEffectiveBandwidth","IActiveBasicDevice::streaming","mediastreaming.iactivebasicdevice_geteffectivebandwidth","windows/IActiveBasicDevice::GetEffectiveBandwidth"]
+description: Gets the current effective bandwidth for the device.
+helpviewer_keywords: ["GetEffectiveBandwidth","GetEffectiveBandwidth method [Media Streaming API]","GetEffectiveBandwidth method [Media Streaming API]","IActiveBasicDevice interface","IActiveBasicDevice interface [Media Streaming API]","GetEffectiveBandwidth method","IActiveBasicDevice.GetEffectiveBandwidth","IActiveBasicDevice.streaming","IActiveBasicDevice::GetEffectiveBandwidth","IActiveBasicDevice::streaming","mediastreaming.iactivebasicdevice_geteffectivebandwidth","windows/IActiveBasicDevice::GetEffectiveBandwidth"]
 old-location: mediastreaming\iactivebasicdevice_geteffectivebandwidth.htm
 tech.root: mediastreaming
 ms.assetid: 894EC907-E578-4F1E-A0AB-1FDE2FA67B6C

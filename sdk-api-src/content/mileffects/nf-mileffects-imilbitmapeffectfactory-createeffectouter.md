@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectFactory.CreateEffectOuter
 title: IMILBitmapEffectFactory::CreateEffectOuter (mileffects.h)
-description: Creates an outer IMILBitmapEffect object.helpviewer_keywords: ["CreateEffectOuter","CreateEffectOuter method [WPF Bitmap Effects]","CreateEffectOuter method [WPF Bitmap Effects]","IMILBitmapEffectFactory interface","IMILBitmapEffectFactory interface [WPF Bitmap Effects]","CreateEffectOuter method","IMILBitmapEffectFactory.CreateEffectOuter","IMILBitmapEffectFactory::CreateEffectOuter","_wibe_imilbitmapeffectfactory_createeffectouter","mileffects/IMILBitmapEffectFactory::CreateEffectOuter","wibe._wibe_imilbitmapeffectfactory_createeffectouter"]
+description: Creates an outer IMILBitmapEffect object.
+helpviewer_keywords: ["CreateEffectOuter","CreateEffectOuter method [WPF Bitmap Effects]","CreateEffectOuter method [WPF Bitmap Effects]","IMILBitmapEffectFactory interface","IMILBitmapEffectFactory interface [WPF Bitmap Effects]","CreateEffectOuter method","IMILBitmapEffectFactory.CreateEffectOuter","IMILBitmapEffectFactory::CreateEffectOuter","_wibe_imilbitmapeffectfactory_createeffectouter","mileffects/IMILBitmapEffectFactory::CreateEffectOuter","wibe._wibe_imilbitmapeffectfactory_createeffectouter"]
 old-location: wibe\_wibe_imilbitmapeffectfactory_createeffectouter.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createeffectouter.htm

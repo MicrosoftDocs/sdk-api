@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidVideoRenderer2.get_Allocator_ID
 title: IMSVidVideoRenderer2::get_Allocator_ID (segment.h)
-description: The get_Allocator_ID method retrieves an identifier for the VMR filter's allocator-presenter.helpviewer_keywords: ["IMSVidVideoRenderer2 interface [Microsoft TV Technologies]","get_Allocator_ID method","IMSVidVideoRenderer2.get_Allocator_ID","IMSVidVideoRenderer2::get_Allocator_ID","IMSVidVideoRenderer2get_Allocator_ID","get_Allocator_ID","get_Allocator_ID method [Microsoft TV Technologies]","get_Allocator_ID method [Microsoft TV Technologies]","IMSVidVideoRenderer2 interface","mstv.imsvidvideorenderer2_get_allocator_id","segment/IMSVidVideoRenderer2::get_Allocator_ID"]
+description: The get_Allocator_ID method retrieves an identifier for the VMR filter's allocator-presenter.
+helpviewer_keywords: ["IMSVidVideoRenderer2 interface [Microsoft TV Technologies]","get_Allocator_ID method","IMSVidVideoRenderer2.get_Allocator_ID","IMSVidVideoRenderer2::get_Allocator_ID","IMSVidVideoRenderer2get_Allocator_ID","get_Allocator_ID","get_Allocator_ID method [Microsoft TV Technologies]","get_Allocator_ID method [Microsoft TV Technologies]","IMSVidVideoRenderer2 interface","mstv.imsvidvideorenderer2_get_allocator_id","segment/IMSVidVideoRenderer2::get_Allocator_ID"]
 old-location: mstv\imsvidvideorenderer2_get_allocator_id.htm
 tech.root: mstv
 ms.assetid: 4d512525-ed18-43af-9773-ed56c49c3641

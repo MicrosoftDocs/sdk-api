@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchCatalogManager.GetItemsChangedSink
 title: ISearchCatalogManager::GetItemsChangedSink (searchapi.h)
-description: Gets the change notification sink interface.helpviewer_keywords: ["GetItemsChangedSink","GetItemsChangedSink method [search]","GetItemsChangedSink method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","GetItemsChangedSink method","ISearchCatalogManager.GetItemsChangedSink","ISearchCatalogManager::GetItemsChangedSink","_search_ISearchCatalogManager_GetItemsChangedSink","search._search_ISearchCatalogManager_GetItemsChangedSink","searchapi/ISearchCatalogManager::GetItemsChangedSink"]
+description: Gets the change notification sink interface.
+helpviewer_keywords: ["GetItemsChangedSink","GetItemsChangedSink method [search]","GetItemsChangedSink method [search]","ISearchCatalogManager interface","ISearchCatalogManager interface [search]","GetItemsChangedSink method","ISearchCatalogManager.GetItemsChangedSink","ISearchCatalogManager::GetItemsChangedSink","_search_ISearchCatalogManager_GetItemsChangedSink","search._search_ISearchCatalogManager_GetItemsChangedSink","searchapi/ISearchCatalogManager::GetItemsChangedSink"]
 old-location: search\_search_ISearchCatalogManager_GetItemsChangedSink.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\indexmanagement\isearchcatalogmanager\getitemschangedsink.htm

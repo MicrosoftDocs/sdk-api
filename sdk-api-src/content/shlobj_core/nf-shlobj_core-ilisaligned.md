@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.ILIsAligned
 title: ILIsAligned function (shlobj_core.h)
-description: Verifies whether a constant ITEMIDLIST is aligned on a pointer boundary, which is a DWORD on 32-bit architectures and a QWORD on 64-bit architectures.helpviewer_keywords: ["ILIsAligned","ILIsAligned function [Windows Shell]","_shell_ILIsAligned","shell.ILIsAligned","shlobj_core/ILIsAligned"]
+description: Verifies whether a constant ITEMIDLIST is aligned on a pointer boundary, which is a DWORD on 32-bit architectures and a QWORD on 64-bit architectures.
+helpviewer_keywords: ["ILIsAligned","ILIsAligned function [Windows Shell]","_shell_ILIsAligned","shell.ILIsAligned","shlobj_core/ILIsAligned"]
 old-location: shell\ILIsAligned.htm
 tech.root: shell
 ms.assetid: ef6607c6-3ea0-4b45-b443-dbd1359ab873

@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusheaders.Metafile.Metafile(IN HMETAFILE,IN const WmfPlaceableFileHeader,IN BOOL)
+UID: NF:gdiplusheaders.Metafile.Metafile(INHMETAFILE,INconstWmfPlaceableFileHeader,INBOOL)
 title: Metafile::Metafile(IN HMETAFILE,IN const WmfPlaceableFileHeader,IN BOOL) (gdiplusheaders.h)
-description: Creates a Windows GDI+Metafile::Metafile object for recording. The format will be placeable metafile.helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile constructor","Metafile constructor [GDI+]","Metafile constructor [GDI+]","Metafile class","Metafile.Metafile","Metafile.Metafile(HMETAFILE","const WmfPlaceableFileHeader*","BOOL)","Metafile.Metafile(IN HMETAFILE","IN const WmfPlaceableFileHeader","IN BOOL)","Metafile::Metafile","Metafile::Metafile(IN HMETAFILE","IN const WmfPlaceableFileHeader","IN BOOL)","_gdiplus_CLASS_Metafile_Metafile_hWmf_wmfPlaceableFileHeader_deleteWmf_","gdiplus._gdiplus_CLASS_Metafile_Metafile_hWmf_wmfPlaceableFileHeader_deleteWmf_"]
+description: Creates a Windows GDI+Metafile::Metafile object for recording. The format will be placeable metafile.
+helpviewer_keywords: ["Metafile","Metafile class [GDI+]","Metafile constructor","Metafile constructor [GDI+]","Metafile constructor [GDI+]","Metafile class","Metafile.Metafile","Metafile.Metafile(HMETAFILE","const WmfPlaceableFileHeader*","BOOL)","Metafile.Metafile(IN HMETAFILE","IN const WmfPlaceableFileHeader","IN BOOL)","Metafile::Metafile","Metafile::Metafile(IN HMETAFILE","IN const WmfPlaceableFileHeader","IN BOOL)","_gdiplus_CLASS_Metafile_Metafile_hWmf_wmfPlaceableFileHeader_deleteWmf_","gdiplus._gdiplus_CLASS_Metafile_Metafile_hWmf_wmfPlaceableFileHeader_deleteWmf_"]
 old-location: gdiplus\_gdiplus_CLASS_Metafile_Metafile_hWmf_wmfPlaceableFileHeader_deleteWmf_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\metafileclass\metafileconstructors\metafile_34hwmf_wmfplaceablefileheader_deletewmf.htm

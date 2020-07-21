@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.Image.GetPalette
 title: Image::GetPalette (gdiplusheaders.h)
-description: The Image::GetPalette method gets the ColorPalette of this Image object.helpviewer_keywords: ["GetPalette","GetPalette method [GDI+]","GetPalette method [GDI+]","Image class","Image class [GDI+]","GetPalette method","Image.GetPalette","Image::GetPalette","_gdiplus_CLASS_Image_GetPalette_palette_size_","gdiplus._gdiplus_CLASS_Image_GetPalette_palette_size_"]
+description: The Image::GetPalette method gets the ColorPalette of this Image object.
+helpviewer_keywords: ["GetPalette","GetPalette method [GDI+]","GetPalette method [GDI+]","Image class","Image class [GDI+]","GetPalette method","Image.GetPalette","Image::GetPalette","_gdiplus_CLASS_Image_GetPalette_palette_size_","gdiplus._gdiplus_CLASS_Image_GetPalette_palette_size_"]
 old-location: gdiplus\_gdiplus_CLASS_Image_GetPalette_palette_size_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\imageclass\imagemethods\getpalette.htm

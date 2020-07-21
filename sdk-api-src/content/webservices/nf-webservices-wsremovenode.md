@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsRemoveNode
 title: WsRemoveNode function (webservices.h)
-description: Removes the node at the specified position from the xml buffer. If positioned on an element it will remove the element including all of its children and its corresponding end element, otherwise it will remove a single node.helpviewer_keywords: ["WsRemoveNode","WsRemoveNode function [Web Services for Windows]","webservices/WsRemoveNode","wsw.wsremovenode"]
+description: Removes the node at the specified position from the xml buffer. If positioned on an element it will remove the element including all of its children and its corresponding end element, otherwise it will remove a single node.
+helpviewer_keywords: ["WsRemoveNode","WsRemoveNode function [Web Services for Windows]","webservices/WsRemoveNode","wsw.wsremovenode"]
 old-location: wsw\wsremovenode.htm
 tech.root: wsw
 ms.assetid: 955fd0b3-b351-40db-a25f-dd1ed8b55550

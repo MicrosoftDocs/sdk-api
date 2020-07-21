@@ -1,7 +1,8 @@
 ---
 UID: NF:icontact.IContactProperties.GetLabels
 title: IContactProperties::GetLabels (icontact.h)
-description: Retrieves the labels for a specified array element name.helpviewer_keywords: ["GetLabels","GetLabels method [Windows Contacts]","GetLabels method [Windows Contacts]","IContactProperties interface","IContactProperties interface [Windows Contacts]","GetLabels method","IContactProperties.GetLabels","IContactProperties::GetLabels","_wincontacts_IContactProperties_GetLabels","icontact/IContactProperties::GetLabels","wincontacts._wincontacts_IContactProperties_GetLabels"]
+description: Retrieves the labels for a specified array element name.
+helpviewer_keywords: ["GetLabels","GetLabels method [Windows Contacts]","GetLabels method [Windows Contacts]","IContactProperties interface","IContactProperties interface [Windows Contacts]","GetLabels method","IContactProperties.GetLabels","IContactProperties::GetLabels","_wincontacts_IContactProperties_GetLabels","icontact/IContactProperties::GetLabels","wincontacts._wincontacts_IContactProperties_GetLabels"]
 old-location: wincontacts\_wincontacts_IContactProperties_GetLabels.htm
 tech.root: wincontacts
 ms.assetid: c639a30b-3778-4ed9-b175-60b4a7ba9748

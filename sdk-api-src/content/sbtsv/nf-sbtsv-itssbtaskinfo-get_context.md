@@ -1,7 +1,8 @@
 ---
 UID: NF:sbtsv.ITsSbTaskInfo.get_Context
 title: ITsSbTaskInfo::get_Context (sbtsv.h)
-description: Retrieves the context bytes associated with the task.helpviewer_keywords: ["Context property [Remote Desktop Services]","Context property [Remote Desktop Services]","ITsSbTaskInfo interface","ITsSbTaskInfo interface [Remote Desktop Services]","Context property","ITsSbTaskInfo.Context","ITsSbTaskInfo.get_Context","ITsSbTaskInfo::Context","ITsSbTaskInfo::get_Context","get_Context","sbtsv/ITsSbTaskInfo::Context","sbtsv/ITsSbTaskInfo::get_Context","termserv.itssbtaskinfo_context"]
+description: Retrieves the context bytes associated with the task.
+helpviewer_keywords: ["Context property [Remote Desktop Services]","Context property [Remote Desktop Services]","ITsSbTaskInfo interface","ITsSbTaskInfo interface [Remote Desktop Services]","Context property","ITsSbTaskInfo.Context","ITsSbTaskInfo.get_Context","ITsSbTaskInfo::Context","ITsSbTaskInfo::get_Context","get_Context","sbtsv/ITsSbTaskInfo::Context","sbtsv/ITsSbTaskInfo::get_Context","termserv.itssbtaskinfo_context"]
 old-location: termserv\itssbtaskinfo_context.htm
 tech.root: TermServ
 ms.assetid: ce55ce2a-957f-4b50-b632-42079277102b

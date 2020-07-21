@@ -1,7 +1,8 @@
 ---
 UID: NF:d3d10effect.ID3D10EffectPool.AsEffect
 title: ID3D10EffectPool::AsEffect (d3d10effect.h)
-description: Get the effect that created the effect pool.helpviewer_keywords: ["77fbf257-12dc-9f58-d996-7dcb8ec3efff","AsEffect","AsEffect method [Direct3D 10]","AsEffect method [Direct3D 10]","ID3D10EffectPool interface","ID3D10EffectPool interface [Direct3D 10]","AsEffect method","ID3D10EffectPool.AsEffect","ID3D10EffectPool::AsEffect","d3d10effect/ID3D10EffectPool::AsEffect","direct3d10.id3d10effectpool_aseffect"]
+description: Get the effect that created the effect pool.
+helpviewer_keywords: ["77fbf257-12dc-9f58-d996-7dcb8ec3efff","AsEffect","AsEffect method [Direct3D 10]","AsEffect method [Direct3D 10]","ID3D10EffectPool interface","ID3D10EffectPool interface [Direct3D 10]","AsEffect method","ID3D10EffectPool.AsEffect","ID3D10EffectPool::AsEffect","d3d10effect/ID3D10EffectPool::AsEffect","direct3d10.id3d10effectpool_aseffect"]
 old-location: direct3d10\id3d10effectpool_aseffect.htm
 tech.root: direct3d10
 ms.assetid: VS|directx_sdk|~\id3d10effectpool_aseffect.htm

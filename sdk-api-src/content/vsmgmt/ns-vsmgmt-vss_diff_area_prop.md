@@ -89,15 +89,11 @@ Used space from the allocated area above. This must be less than or equal
 
 ## -remarks
 
-
-
 The <b>m_llMaximumDiffSpace</b> member is passed as a parameter to the <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-adddiffarea">IVssDifferentialSoftwareSnapshotMgmt::AddDiffArea</a>, <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt-changediffareamaximumsize">IVssDifferentialSoftwareSnapshotMgmt::ChangeDiffAreaMaximumSize</a>, and <a href="/windows/desktop/api/vsmgmt/nf-vsmgmt-ivssdifferentialsoftwaresnapshotmgmt2-changediffareamaximumsizeex">IVssDifferentialSoftwareSnapshotMgmt2::ChangeDiffAreaMaximumSizeEx</a> methods.
 
 
 
-
 ## -see-also
-
 
 
 
@@ -106,7 +102,3 @@ The <b>m_llMaximumDiffSpace</b> member is passed as a parameter to the <a href="
 
 
 <a href="/windows/desktop/VSS/volume-shadow-copy-api-structures">Volume Shadow Copy API Structures</a>
- 
-
- 
-

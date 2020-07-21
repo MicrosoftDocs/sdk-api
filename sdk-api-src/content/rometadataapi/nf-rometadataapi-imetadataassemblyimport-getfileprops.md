@@ -1,7 +1,8 @@
 ---
 UID: NF:rometadataapi.IMetaDataAssemblyImport.GetFileProps
 title: IMetaDataAssemblyImport::GetFileProps (rometadataapi.h)
-description: Gets the properties of the file with the specified metadata signature.helpviewer_keywords: ["GetFileProps","GetFileProps method [Windows Runtime]","GetFileProps method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","GetFileProps method","IMetaDataAssemblyImport.GetFileProps","IMetaDataAssemblyImport::GetFileProps","rometadataapi/IMetaDataAssemblyImport::GetFileProps","winrt.imetadataassemblyimport_getfileprops"]
+description: Gets the properties of the file with the specified metadata signature.
+helpviewer_keywords: ["GetFileProps","GetFileProps method [Windows Runtime]","GetFileProps method [Windows Runtime]","IMetaDataAssemblyImport interface","IMetaDataAssemblyImport interface [Windows Runtime]","GetFileProps method","IMetaDataAssemblyImport.GetFileProps","IMetaDataAssemblyImport::GetFileProps","rometadataapi/IMetaDataAssemblyImport::GetFileProps","winrt.imetadataassemblyimport_getfileprops"]
 old-location: winrt\imetadataassemblyimport_getfileprops.htm
 tech.root: WinRT
 ms.assetid: 28c884de-3b3c-48cd-9f6f-b2d56005de13

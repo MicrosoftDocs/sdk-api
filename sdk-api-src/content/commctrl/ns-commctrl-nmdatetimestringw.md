@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMDATETIMESTRINGW
 title: NMDATETIMESTRINGW (commctrl.h)
-description: Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the DTN_USERSTRING notification code.helpviewer_keywords: ["*LPNMDATETIMESTRINGW","LPNMDATETIMESTRING","LPNMDATETIMESTRING structure pointer [Windows Controls]","NMDATETIMESTRING","NMDATETIMESTRING structure [Windows Controls]","NMDATETIMESTRINGA","NMDATETIMESTRINGW","_win32_NMDATETIMESTRING","_win32_NMDATETIMESTRING_cpp","commctrl/LPNMDATETIMESTRING","commctrl/NMDATETIMESTRING","commctrl/NMDATETIMESTRINGA","commctrl/NMDATETIMESTRINGW","controls.NMDATETIMESTRING","controls._win32_NMDATETIMESTRING"]
+description: Contains information specific to an edit operation that has taken place in a date and time picker (DTP) control. This message is used with the DTN_USERSTRING notification code.
+helpviewer_keywords: ["*LPNMDATETIMESTRINGW","LPNMDATETIMESTRING","LPNMDATETIMESTRING structure pointer [Windows Controls]","NMDATETIMESTRING","NMDATETIMESTRING structure [Windows Controls]","NMDATETIMESTRINGA","NMDATETIMESTRINGW","_win32_NMDATETIMESTRING","_win32_NMDATETIMESTRING_cpp","commctrl/LPNMDATETIMESTRING","commctrl/NMDATETIMESTRING","commctrl/NMDATETIMESTRINGA","commctrl/NMDATETIMESTRINGW","controls.NMDATETIMESTRING","controls._win32_NMDATETIMESTRING"]
 old-location: controls\NMDATETIMESTRING.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimestring.htm
@@ -86,4 +87,9 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-dat
 
 The return field. Set this member to GDT_VALID to indicate that the 
 					<b>st</b> member is valid or to GDT_NONE to set the control to "no date" status (<a href="https://docs.microsoft.com/windows/desktop/Controls/date-and-time-picker-control-styles">DTS_SHOWNONE</a> style only). 
+
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines NMDATETIMESTRING as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

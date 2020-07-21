@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator
 title: IAppxBundleManifestOptionalBundleInfoEnumerator (appxpackaging.h)
-description: Enumerates the optional bundle information from a bundle.helpviewer_keywords: ["IAppxBundleManifestOptionalBundleInfoEnumerator","IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management]","IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator","appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator"]
+description: Enumerates the optional bundle information from a bundle.
+helpviewer_keywords: ["IAppxBundleManifestOptionalBundleInfoEnumerator","IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management]","IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management]","described","appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator","appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator"]
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator.htm
 tech.root: appxpkg
 ms.assetid: 5BF38EC7-7C04-455B-AFAA-CC2A78E54A4F

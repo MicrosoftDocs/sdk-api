@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionDevice3.CreateGaussianBlurEffect
 title: IDCompositionDevice3::CreateGaussianBlurEffect (dcomp.h)
-description: Creates an instance of IDCompositionGaussianBlurEffect.helpviewer_keywords: ["CreateGaussianBlurEffect","CreateGaussianBlurEffect method [DirectComposition]","CreateGaussianBlurEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateGaussianBlurEffect method","IDCompositionDevice3.CreateGaussianBlurEffect","IDCompositionDevice3::CreateGaussianBlurEffect","dcomp/IDCompositionDevice3::CreateGaussianBlurEffect","directcomp.idcompositiondevice3_creategaussianblureffect"]
+description: Creates an instance of IDCompositionGaussianBlurEffect.
+helpviewer_keywords: ["CreateGaussianBlurEffect","CreateGaussianBlurEffect method [DirectComposition]","CreateGaussianBlurEffect method [DirectComposition]","IDCompositionDevice3 interface","IDCompositionDevice3 interface [DirectComposition]","CreateGaussianBlurEffect method","IDCompositionDevice3.CreateGaussianBlurEffect","IDCompositionDevice3::CreateGaussianBlurEffect","dcomp/IDCompositionDevice3::CreateGaussianBlurEffect","directcomp.idcompositiondevice3_creategaussianblureffect"]
 old-location: directcomp\idcompositiondevice3_creategaussianblureffect.htm
 tech.root: directcomp
 ms.assetid: D05C7A70-107A-4246-9391-7B00ECAA0B80

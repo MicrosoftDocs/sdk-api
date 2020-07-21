@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.capSetCallbackOnWaveStream
 title: capSetCallbackOnWaveStream macro (vfw.h)
-description: The capSetCallbackOnWaveStream macro sets a callback function in the application.helpviewer_keywords: ["_win32_capSetCallbackOnWaveStream","capSetCallbackOnWaveStream","capSetCallbackOnWaveStream macro [Windows Multimedia]","multimedia.capsetcallbackonwavestream","vfw/capSetCallbackOnWaveStream"]
+description: The capSetCallbackOnWaveStream macro sets a callback function in the application.
+helpviewer_keywords: ["_win32_capSetCallbackOnWaveStream","capSetCallbackOnWaveStream","capSetCallbackOnWaveStream macro [Windows Multimedia]","multimedia.capsetcallbackonwavestream","vfw/capSetCallbackOnWaveStream"]
 old-location: multimedia\capsetcallbackonwavestream.htm
 tech.root: Multimedia
 ms.assetid: 282386af-506b-4be6-bb75-aa3c62f9778a

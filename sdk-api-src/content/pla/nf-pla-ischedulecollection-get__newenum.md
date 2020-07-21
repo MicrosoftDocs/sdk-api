@@ -1,7 +1,8 @@
 ---
 UID: NF:pla.IScheduleCollection.get__NewEnum
 title: IScheduleCollection::get__NewEnum (pla.h)
-description: Retrieves an interface to the enumeration.helpviewer_keywords: ["IScheduleCollection interface [PLA]","_NewEnum property","IScheduleCollection._NewEnum","IScheduleCollection.get__NewEnum","IScheduleCollection::_NewEnum","IScheduleCollection::get__NewEnum","_NewEnum property [PLA]","_NewEnum property [PLA]","IScheduleCollection interface","get__NewEnum","pla.ischedulecollection__newenum","pla/IScheduleCollection::_NewEnum","pla/IScheduleCollection::get__NewEnum"]
+description: Retrieves an interface to the enumeration.
+helpviewer_keywords: ["IScheduleCollection interface [PLA]","_NewEnum property","IScheduleCollection._NewEnum","IScheduleCollection.get__NewEnum","IScheduleCollection::_NewEnum","IScheduleCollection::get__NewEnum","_NewEnum property [PLA]","_NewEnum property [PLA]","IScheduleCollection interface","get__NewEnum","pla.ischedulecollection__newenum","pla/IScheduleCollection::_NewEnum","pla/IScheduleCollection::get__NewEnum"]
 old-location: pla\ischedulecollection__newenum.htm
 tech.root: PLA
 ms.assetid: 4aae67ae-8b9d-4baa-b617-b6e44b7e7edf

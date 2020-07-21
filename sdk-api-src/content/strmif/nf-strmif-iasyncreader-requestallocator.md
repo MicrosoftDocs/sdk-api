@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAsyncReader.RequestAllocator
 title: IAsyncReader::RequestAllocator (strmif.h)
-description: The RequestAllocator method requests an allocator during the pin connection.helpviewer_keywords: ["IAsyncReader interface [DirectShow]","RequestAllocator method","IAsyncReader.RequestAllocator","IAsyncReader::RequestAllocator","IAsyncReaderRequestAllocator","RequestAllocator","RequestAllocator method [DirectShow]","RequestAllocator method [DirectShow]","IAsyncReader interface","dshow.iasyncreader_requestallocator","strmif/IAsyncReader::RequestAllocator"]
+description: The RequestAllocator method requests an allocator during the pin connection.
+helpviewer_keywords: ["IAsyncReader interface [DirectShow]","RequestAllocator method","IAsyncReader.RequestAllocator","IAsyncReader::RequestAllocator","IAsyncReaderRequestAllocator","RequestAllocator","RequestAllocator method [DirectShow]","RequestAllocator method [DirectShow]","IAsyncReader interface","dshow.iasyncreader_requestallocator","strmif/IAsyncReader::RequestAllocator"]
 old-location: dshow\iasyncreader_requestallocator.htm
 tech.root: DirectShow
 ms.assetid: 7bde850e-662f-4610-bac3-914c93584b30

@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IInitializeWithWindow
 title: IInitializeWithWindow (shobjidl_core.h)
-description: Exposes a method through which a client can provide an owner window to a Windows Runtime object used in a desktop application.helpviewer_keywords: ["IInitializeWithWindow","IInitializeWithWindow interface [Windows Shell]","IInitializeWithWindow interface [Windows Shell]","described","shell.IInitializeWithWindow","shobjidl_core/IInitializeWithWindow"]
+description: Exposes a method through which a client can provide an owner window to a Windows Runtime object used in a desktop application.
+helpviewer_keywords: ["IInitializeWithWindow","IInitializeWithWindow interface [Windows Shell]","IInitializeWithWindow interface [Windows Shell]","described","shell.IInitializeWithWindow","shobjidl_core/IInitializeWithWindow"]
 old-location: shell\IInitializeWithWindow.htm
 tech.root: shell
 ms.assetid: 8421BFA0-0655-447c-99BB-3D4F049C572D

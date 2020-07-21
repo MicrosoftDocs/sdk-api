@@ -1,7 +1,8 @@
 ---
 UID: NF:clusapi.RegisterClusterResourceTypeNotifyV2
 title: RegisterClusterResourceTypeNotifyV2 function (clusapi.h)
-description: Adds a notification type to a cluster notification port.helpviewer_keywords: ["RegisterClusterResourceTypeNotifyV2","RegisterClusterResourceTypeNotifyV2 function [Failover Cluster]","clusapi/RegisterClusterResourceTypeNotifyV2","mscs.registerclusterresourcetypenotifyv2"]
+description: Adds a notification type to a cluster notification port.
+helpviewer_keywords: ["RegisterClusterResourceTypeNotifyV2","RegisterClusterResourceTypeNotifyV2 function [Failover Cluster]","clusapi/RegisterClusterResourceTypeNotifyV2","mscs.registerclusterresourcetypenotifyv2"]
 old-location: mscs\registerclusterresourcetypenotifyv2.htm
 tech.root: MsCS
 ms.assetid: 2E7DE3C3-F64B-4D5E-ADE9-B7CE60CB0E78

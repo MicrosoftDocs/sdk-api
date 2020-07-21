@@ -1,5 +1,5 @@
 ---
-UID: NF:d2d1.ID2D1GeometrySink.AddQuadraticBezier(const D2D1_QUADRATIC_BEZIER_SEGMENT &)
+UID: NF:d2d1.ID2D1GeometrySink.AddQuadraticBezier(constD2D1_QUADRATIC_BEZIER_SEGMENT&)
 title: ID2D1GeometrySink::AddQuadraticBezier(const D2D1_QUADRATIC_BEZIER_SEGMENT &) (d2d1.h)
 description: Creates a quadratic Bezier curve between the current point and the specified end point.
 helpviewer_keywords: ["AddQuadraticBezier","AddQuadraticBezier method [Direct2D]","AddQuadraticBezier method [Direct2D]","ID2D1GeometrySink interface","ID2D1GeometrySink interface [Direct2D]","AddQuadraticBezier method","ID2D1GeometrySink.AddQuadraticBezier","ID2D1GeometrySink.AddQuadraticBezier(const D2D1_QUADRATIC_BEZIER_SEGMENT &)","ID2D1GeometrySink::AddQuadraticBezier","ID2D1GeometrySink::AddQuadraticBezier(const D2D1_QUADRATIC_BEZIER_SEGMENT &)","d2d1/ID2D1GeometrySink::AddQuadraticBezier","direct2d.ID2D1GeometrySink_AddQuadraticBezier_ref_D2D1_QUADRATIC_BEZIER_SEGMENT"]

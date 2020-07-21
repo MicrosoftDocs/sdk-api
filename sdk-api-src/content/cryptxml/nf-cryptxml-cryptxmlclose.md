@@ -1,7 +1,8 @@
 ---
 UID: NF:cryptxml.CryptXmlClose
 title: CryptXmlClose function (cryptxml.h)
-description: Closes a cryptographic XML object handle.helpviewer_keywords: ["CryptXmlClose","CryptXmlClose function [Security]","cryptxml/CryptXmlClose","security.cryptxmlclose"]
+description: Closes a cryptographic XML object handle.
+helpviewer_keywords: ["CryptXmlClose","CryptXmlClose function [Security]","cryptxml/CryptXmlClose","security.cryptxmlclose"]
 old-location: security\cryptxmlclose.htm
 tech.root: SecCrypto
 ms.assetid: ee3f8ea3-4898-462b-87cd-47dd3134636c

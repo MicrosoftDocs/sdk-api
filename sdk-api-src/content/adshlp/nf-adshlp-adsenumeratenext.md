@@ -1,7 +1,8 @@
 ---
 UID: NF:adshlp.ADsEnumerateNext
 title: ADsEnumerateNext function (adshlp.h)
-description: The ADsEnumerateNext function enumerates through a specified number of elements from the current cursor position of the enumerator.helpviewer_keywords: ["ADsEnumerateNext","ADsEnumerateNext function [ADSI]","_ds_adsenumeratenext","adshlp/ADsEnumerateNext","adsi.adsenumeratenext"]
+description: The ADsEnumerateNext function enumerates through a specified number of elements from the current cursor position of the enumerator.
+helpviewer_keywords: ["ADsEnumerateNext","ADsEnumerateNext function [ADSI]","_ds_adsenumeratenext","adshlp/ADsEnumerateNext","adsi.adsenumeratenext"]
 old-location: adsi\adsenumeratenext.htm
 tech.root: adsi
 ms.assetid: 9bfc98a5-f4f0-4127-89c9-b8ed01bfde4e

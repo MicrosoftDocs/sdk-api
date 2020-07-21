@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextFormat.GetFontStyle
 title: IDWriteTextFormat::GetFontStyle (dwrite.h)
-description: Gets the font style of the text.helpviewer_keywords: ["GetFontStyle","GetFontStyle method [Direct Write]","GetFontStyle method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetFontStyle method","IDWriteTextFormat.GetFontStyle","IDWriteTextFormat::GetFontStyle","directwrite.IDWriteTextFormat_GetFontStyle","dwrite/IDWriteTextFormat::GetFontStyle"]
+description: Gets the font style of the text.
+helpviewer_keywords: ["GetFontStyle","GetFontStyle method [Direct Write]","GetFontStyle method [Direct Write]","IDWriteTextFormat interface","IDWriteTextFormat interface [Direct Write]","GetFontStyle method","IDWriteTextFormat.GetFontStyle","IDWriteTextFormat::GetFontStyle","directwrite.IDWriteTextFormat_GetFontStyle","dwrite/IDWriteTextFormat::GetFontStyle"]
 old-location: directwrite\IDWriteTextFormat_GetFontStyle.htm
 tech.root: DirectWrite
 ms.assetid: 53a52196-6640-46b1-afdf-ee5ba9e1ef11

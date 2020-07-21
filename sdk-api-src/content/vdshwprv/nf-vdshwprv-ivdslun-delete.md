@@ -1,7 +1,8 @@
 ---
 UID: NF:vdshwprv.IVdsLun.Delete
 title: IVdsLun::Delete (vdshwprv.h)
-description: Deletes the LUN and all of its plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","Delete method","IVdsLun.Delete","IVdsLun::Delete","base.ivdslun_delete","vds/IVdsLun::Delete","vdshwprv/IVdsLun::Delete"]
+description: Deletes the LUN and all of its plexes. Any data on the LUN is lost. VDS frees the extents allocated to the LUN.
+helpviewer_keywords: ["Delete","Delete method [VDS]","Delete method [VDS]","IVdsLun interface","IVdsLun interface [VDS]","Delete method","IVdsLun.Delete","IVdsLun::Delete","base.ivdslun_delete","vds/IVdsLun::Delete","vdshwprv/IVdsLun::Delete"]
 old-location: base\ivdslun_delete.htm
 tech.root: VDS
 ms.assetid: 21522c62-0b60-4c70-b2bd-7a33aa94d280

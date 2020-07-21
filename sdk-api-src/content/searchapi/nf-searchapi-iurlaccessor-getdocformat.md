@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IUrlAccessor.GetDocFormat
 title: IUrlAccessor::GetDocFormat (searchapi.h)
-description: Gets the document format, represented as a Multipurpose Internet Mail Extensions (MIME) string.helpviewer_keywords: ["GetDocFormat","GetDocFormat method [search]","GetDocFormat method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetDocFormat method","IUrlAccessor.GetDocFormat","IUrlAccessor::GetDocFormat","_search_IUrlAccessor_GetDocFormat","search._search_IUrlAccessor_GetDocFormat","searchapi/IUrlAccessor::GetDocFormat"]
+description: Gets the document format, represented as a Multipurpose Internet Mail Extensions (MIME) string.
+helpviewer_keywords: ["GetDocFormat","GetDocFormat method [search]","GetDocFormat method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","GetDocFormat method","IUrlAccessor.GetDocFormat","IUrlAccessor::GetDocFormat","_search_IUrlAccessor_GetDocFormat","search._search_IUrlAccessor_GetDocFormat","searchapi/IUrlAccessor::GetDocFormat"]
 old-location: search\_search_IUrlAccessor_GetDocFormat.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\getdocformat.htm

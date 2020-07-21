@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbDataContentDescriptor.GetTextW
 title: IIsdbDataContentDescriptor::GetTextW (dvbsiparser.h)
-description: Gets the text from an Integrated Services Digital Broadcasting (ISDB) data content descriptor that describes the contents of the descriptor, in Unicode text format.helpviewer_keywords: ["GetTextW","GetTextW method [Microsoft TV Technologies]","GetTextW method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetTextW method","IIsdbDataContentDescriptor.GetTextW","IIsdbDataContentDescriptor::GetTextW","dvbsiparser/IIsdbDataContentDescriptor::GetTextW","mstv.iisdbdatacontentdescriptor_gettextw"]
+description: Gets the text from an Integrated Services Digital Broadcasting (ISDB) data content descriptor that describes the contents of the descriptor, in Unicode text format.
+helpviewer_keywords: ["GetTextW","GetTextW method [Microsoft TV Technologies]","GetTextW method [Microsoft TV Technologies]","IIsdbDataContentDescriptor interface","IIsdbDataContentDescriptor interface [Microsoft TV Technologies]","GetTextW method","IIsdbDataContentDescriptor.GetTextW","IIsdbDataContentDescriptor::GetTextW","dvbsiparser/IIsdbDataContentDescriptor::GetTextW","mstv.iisdbdatacontentdescriptor_gettextw"]
 old-location: mstv\iisdbdatacontentdescriptor_gettextw.htm
 tech.root: mstv
 ms.assetid: b7abc2e2-4fb5-4b8b-8678-416056836aee

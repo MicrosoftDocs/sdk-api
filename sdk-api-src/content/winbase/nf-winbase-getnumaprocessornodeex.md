@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.GetNumaProcessorNodeEx
 title: GetNumaProcessorNodeEx function (winbase.h)
-description: Retrieves the node number as a USHORT value for the specified logical processor.helpviewer_keywords: ["GetNumaProcessorNodeEx","GetNumaProcessorNodeEx function","base.getnumaprocessornodeex","winbase/GetNumaProcessorNodeEx"]
+description: Retrieves the node number as a USHORT value for the specified logical processor.
+helpviewer_keywords: ["GetNumaProcessorNodeEx","GetNumaProcessorNodeEx function","base.getnumaprocessornodeex","winbase/GetNumaProcessorNodeEx"]
 old-location: base\getnumaprocessornodeex.htm
 tech.root: ProcThread
 ms.assetid: 6b843cd8-eeb5-4aa1-aad4-ce98916346b1

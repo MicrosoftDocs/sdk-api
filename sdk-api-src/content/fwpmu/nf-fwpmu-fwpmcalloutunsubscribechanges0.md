@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmCalloutUnsubscribeChanges0
 title: FwpmCalloutUnsubscribeChanges0 function (fwpmu.h)
-description: Is used to cancel a callout change subscription and stop receiving change notifications.helpviewer_keywords: ["FwpmCalloutUnsubscribeChanges0","FwpmCalloutUnsubscribeChanges0 function [Filtering]","fwp.fwpmcalloutunsubscribechanges0_func","fwpmu/FwpmCalloutUnsubscribeChanges0"]
+description: Is used to cancel a callout change subscription and stop receiving change notifications.
+helpviewer_keywords: ["FwpmCalloutUnsubscribeChanges0","FwpmCalloutUnsubscribeChanges0 function [Filtering]","fwp.fwpmcalloutunsubscribechanges0_func","fwpmu/FwpmCalloutUnsubscribeChanges0"]
 old-location: fwp\fwpmcalloutunsubscribechanges0_func.htm
 tech.root: fwp
 ms.assetid: ab0825fc-edf8-4634-a6bb-86de7e1e030c

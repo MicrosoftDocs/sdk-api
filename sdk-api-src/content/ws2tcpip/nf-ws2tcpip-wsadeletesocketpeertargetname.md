@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2tcpip.WSADeleteSocketPeerTargetName
 title: WSADeleteSocketPeerTargetName function (ws2tcpip.h)
-description: Removes the association between a peer target name and an IP address for a socket. After a successful return, there will be no future association between the IP address and the target name.helpviewer_keywords: ["WSADeleteSocketPeerTargetName","WSADeleteSocketPeerTargetName function [Winsock]","winsock.wsadeletesocketpeertargetname","ws2tcpip/WSADeleteSocketPeerTargetName"]
+description: Removes the association between a peer target name and an IP address for a socket. After a successful return, there will be no future association between the IP address and the target name.
+helpviewer_keywords: ["WSADeleteSocketPeerTargetName","WSADeleteSocketPeerTargetName function [Winsock]","winsock.wsadeletesocketpeertargetname","ws2tcpip/WSADeleteSocketPeerTargetName"]
 old-location: winsock\wsadeletesocketpeertargetname.htm
 tech.root: WinSock
 ms.assetid: 5d973316-fc51-453e-8d98-36ba36367df7

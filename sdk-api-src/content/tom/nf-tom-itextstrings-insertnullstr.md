@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextStrings.InsertNullStr
 title: ITextStrings::InsertNullStr (tom.h)
-description: Inserts a NULL string in the collection at a selected string index.helpviewer_keywords: ["ITextStrings interface [Windows Controls]","InsertNullStr method","ITextStrings.InsertNullStr","ITextStrings::InsertNullStr","InsertNullStr","InsertNullStr method [Windows Controls]","InsertNullStr method [Windows Controls]","ITextStrings interface","controls.itextstrings_insertnullstr","tom/ITextStrings::InsertNullStr"]
+description: Inserts a NULL string in the collection at a selected string index.
+helpviewer_keywords: ["ITextStrings interface [Windows Controls]","InsertNullStr method","ITextStrings.InsertNullStr","ITextStrings::InsertNullStr","InsertNullStr","InsertNullStr method [Windows Controls]","InsertNullStr method [Windows Controls]","ITextStrings interface","controls.itextstrings_insertnullstr","tom/ITextStrings::InsertNullStr"]
 old-location: controls\itextstrings_insertnullstr.htm
 tech.root: Controls
 ms.assetid: dc269f41-f65c-4335-ac5c-5c57187f20aa

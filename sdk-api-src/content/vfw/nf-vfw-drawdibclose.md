@@ -1,7 +1,8 @@
 ---
 UID: NF:vfw.DrawDibClose
 title: DrawDibClose function (vfw.h)
-description: The DrawDibClose function closes a DrawDib DC and frees the resources DrawDib allocated for it.helpviewer_keywords: ["DrawDibClose","DrawDibClose function [Windows Multimedia]","_win32_DrawDibClose","multimedia.drawdibclose","vfw/DrawDibClose"]
+description: The DrawDibClose function closes a DrawDib DC and frees the resources DrawDib allocated for it.
+helpviewer_keywords: ["DrawDibClose","DrawDibClose function [Windows Multimedia]","_win32_DrawDibClose","multimedia.drawdibclose","vfw/DrawDibClose"]
 old-location: multimedia\drawdibclose.htm
 tech.root: Multimedia
 ms.assetid: 61f9784e-4992-43d2-9770-17c3a8e5078b

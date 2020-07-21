@@ -1,7 +1,8 @@
 ---
 UID: NF:cluadmex.IGetClusterResourceInfo.GetResourceHandle
 title: IGetClusterResourceInfo::GetResourceHandle (cluadmex.h)
-description: Returns a handle to a resource.helpviewer_keywords: ["GetResourceHandle","GetResourceHandle method [Failover Cluster]","GetResourceHandle method [Failover Cluster]","IGetClusterResourceInfo interface","IGetClusterResourceInfo interface [Failover Cluster]","GetResourceHandle method","IGetClusterResourceInfo.GetResourceHandle","IGetClusterResourceInfo::GetResourceHandle","_wolf_igetclusterresourceinfo_getresourcehandle","cluadmex/IGetClusterResourceInfo::GetResourceHandle","mscs.igetclusterresourceinfo_getresourcehandle"]
+description: Returns a handle to a resource.
+helpviewer_keywords: ["GetResourceHandle","GetResourceHandle method [Failover Cluster]","GetResourceHandle method [Failover Cluster]","IGetClusterResourceInfo interface","IGetClusterResourceInfo interface [Failover Cluster]","GetResourceHandle method","IGetClusterResourceInfo.GetResourceHandle","IGetClusterResourceInfo::GetResourceHandle","_wolf_igetclusterresourceinfo_getresourcehandle","cluadmex/IGetClusterResourceInfo::GetResourceHandle","mscs.igetclusterresourceinfo_getresourcehandle"]
 old-location: mscs\igetclusterresourceinfo_getresourcehandle.htm
 tech.root: MsCS
 ms.assetid: a03436da-e12a-45ac-9ac1-1d1896f87fd7

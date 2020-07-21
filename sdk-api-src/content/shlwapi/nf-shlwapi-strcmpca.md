@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.StrCmpCA
 title: StrCmpCA function (shlwapi.h)
-description: Compares strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.helpviewer_keywords: ["StrCmpC","StrCmpC function [Windows Shell]","StrCmpCA","StrCmpCW","_shell_StrCmpC","shell.StrCmpC","shlwapi/StrCmpC","shlwapi/StrCmpCA","shlwapi/StrCmpCW"]
+description: Compares strings using C run-time (ASCII) collation rules. The comparison is case-sensitive.
+helpviewer_keywords: ["StrCmpC","StrCmpC function [Windows Shell]","StrCmpCA","StrCmpCW","_shell_StrCmpC","shell.StrCmpC","shlwapi/StrCmpC","shlwapi/StrCmpCA","shlwapi/StrCmpCW"]
 old-location: shell\StrCmpC.htm
 tech.root: shell
 ms.assetid: f4c4bc76-1e42-4cb0-bf74-d395743c9b1c
@@ -101,6 +102,10 @@ For those versions of Windows that do not include <b>StrCmpC</b> in Shlwapi.h, t
 
 
 
+
+
+> [!NOTE]
+> The shlwapi.h header defines StrCmpC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

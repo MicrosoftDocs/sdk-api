@@ -1,7 +1,8 @@
 ---
 UID: NF:shellapi.NetAddr_SetAllowType
 title: NetAddr_SetAllowType macro (shellapi.h)
-description: Sets the network address types that a specified network address control accepts.helpviewer_keywords: ["NetAddr_SetAllowType","NetAddr_SetAllowType macro [Windows Shell]","_shell_NetAddr_SetAllowType","shell.NetAddr_SetAllowType","shellapi/NetAddr_SetAllowType"]
+description: Sets the network address types that a specified network address control accepts.
+helpviewer_keywords: ["NetAddr_SetAllowType","NetAddr_SetAllowType macro [Windows Shell]","_shell_NetAddr_SetAllowType","shell.NetAddr_SetAllowType","shellapi/NetAddr_SetAllowType"]
 old-location: shell\NetAddr_SetAllowType.htm
 tech.root: shell
 ms.assetid: 2fa97abd-79c8-41ce-bd0e-75941bf4d005

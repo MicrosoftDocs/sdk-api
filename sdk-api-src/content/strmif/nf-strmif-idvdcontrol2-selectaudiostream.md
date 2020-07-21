@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IDvdControl2.SelectAudioStream
 title: IDvdControl2::SelectAudioStream (strmif.h)
-description: The SelectAudioStream method selects the audio stream to play.helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectAudioStream method","IDvdControl2.SelectAudioStream","IDvdControl2::SelectAudioStream","IDvdControl2SelectAudioStream","SelectAudioStream","SelectAudioStream method [DirectShow]","SelectAudioStream method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectaudiostream","strmif/IDvdControl2::SelectAudioStream"]
+description: The SelectAudioStream method selects the audio stream to play.
+helpviewer_keywords: ["IDvdControl2 interface [DirectShow]","SelectAudioStream method","IDvdControl2.SelectAudioStream","IDvdControl2::SelectAudioStream","IDvdControl2SelectAudioStream","SelectAudioStream","SelectAudioStream method [DirectShow]","SelectAudioStream method [DirectShow]","IDvdControl2 interface","dshow.idvdcontrol2_selectaudiostream","strmif/IDvdControl2::SelectAudioStream"]
 old-location: dshow\idvdcontrol2_selectaudiostream.htm
 tech.root: DirectShow
 ms.assetid: 845d00d5-3698-4cf5-bae4-abb9529c3f88

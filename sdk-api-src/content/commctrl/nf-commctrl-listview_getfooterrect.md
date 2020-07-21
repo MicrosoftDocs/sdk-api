@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetFooterRect
 title: ListView_GetFooterRect macro (commctrl.h)
-description: Gets the coordinates of the footer for a specified list-view control. Use this macro or send the LVM_GETFOOTERRECT message explicitly.helpviewer_keywords: ["ListView_GetFooterRect","ListView_GetFooterRect macro [Windows Controls]","_shell_ListView_GetFooterRect","_shell_ListView_GetFooterRect_cpp","commctrl/ListView_GetFooterRect","controls.ListView_GetFooterRect","controls._shell_ListView_GetFooterRect"]
+description: Gets the coordinates of the footer for a specified list-view control. Use this macro or send the LVM_GETFOOTERRECT message explicitly.
+helpviewer_keywords: ["ListView_GetFooterRect","ListView_GetFooterRect macro [Windows Controls]","_shell_ListView_GetFooterRect","_shell_ListView_GetFooterRect_cpp","commctrl/ListView_GetFooterRect","controls.ListView_GetFooterRect","controls._shell_ListView_GetFooterRect"]
 old-location: controls\ListView_GetFooterRect.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getfooterrect.htm

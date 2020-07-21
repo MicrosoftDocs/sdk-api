@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleGetClipboard
 title: OleGetClipboard function (ole2.h)
-description: Retrieves a data object that you can use to access the contents of the clipboard.helpviewer_keywords: ["OleGetClipboard","OleGetClipboard function [COM]","_ole_OleGetClipboard","com.olegetclipboard","ole2/OleGetClipboard"]
+description: Retrieves a data object that you can use to access the contents of the clipboard.
+helpviewer_keywords: ["OleGetClipboard","OleGetClipboard function [COM]","_ole_OleGetClipboard","com.olegetclipboard","ole2/OleGetClipboard"]
 old-location: com\olegetclipboard.htm
 tech.root: com
 ms.assetid: c5e7badb-339b-48d5-8c9a-3950e2ffe6bf

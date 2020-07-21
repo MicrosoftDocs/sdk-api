@@ -1,7 +1,8 @@
 ---
 UID: NS:iprtrmib._MIB_IFSTATUS
 title: MIB_IFSTATUS (iprtrmib.h)
-description: Stores status information for a particular interface.helpviewer_keywords: ["*PMIB_IFSTATUS","MIB_IFSTATUS","MIB_IFSTATUS structure [MIB]","PMIB_IFSTATUS","PMIB_IFSTATUS structure pointer [MIB]","_mpr_mib_ifstatus","iprtrmib/MIB_IFSTATUS","iprtrmib/PMIB_IFSTATUS","mib.mib_ifstatus","rras.mib_ifstatus"]
+description: Stores status information for a particular interface.
+helpviewer_keywords: ["*PMIB_IFSTATUS","MIB_IFSTATUS","MIB_IFSTATUS structure [MIB]","PMIB_IFSTATUS","PMIB_IFSTATUS structure pointer [MIB]","_mpr_mib_ifstatus","iprtrmib/MIB_IFSTATUS","iprtrmib/PMIB_IFSTATUS","mib.mib_ifstatus","rras.mib_ifstatus"]
 old-location: mib\mib_ifstatus.htm
 tech.root: MIB
 ms.assetid: ab5afe84-1e14-4ffd-9bf6-f3b319554608

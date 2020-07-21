@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3Length
 title: XMVector3Length function (directxmath.h)
-description: Computes the length of a 3D vector.helpviewer_keywords: ["Use DirectX..XMVector3Length","XMVector3Length","XMVector3Length method [DirectX Math Support APIs]","dxmath.xmvector3length"]
+description: Computes the length of a 3D vector.
+helpviewer_keywords: ["Use DirectX..XMVector3Length","XMVector3Length","XMVector3Length method [DirectX Math Support APIs]","dxmath.xmvector3length"]
 old-location: dxmath\xmvector3length.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.geometric.XMVector3Length(XMVECTOR)

@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMTimecodeGenerator.SetTCGMode
 title: IAMTimecodeGenerator::SetTCGMode (strmif.h)
-description: The SetTCGMode method sets the SMPTE timecode generator properties.helpviewer_keywords: ["IAMTimecodeGenerator interface [DirectShow]","SetTCGMode method","IAMTimecodeGenerator.SetTCGMode","IAMTimecodeGenerator::SetTCGMode","IAMTimecodeGeneratorSetTCGMode","SetTCGMode","SetTCGMode method [DirectShow]","SetTCGMode method [DirectShow]","IAMTimecodeGenerator interface","dshow.iamtimecodegenerator_settcgmode","strmif/IAMTimecodeGenerator::SetTCGMode"]
+description: The SetTCGMode method sets the SMPTE timecode generator properties.
+helpviewer_keywords: ["IAMTimecodeGenerator interface [DirectShow]","SetTCGMode method","IAMTimecodeGenerator.SetTCGMode","IAMTimecodeGenerator::SetTCGMode","IAMTimecodeGeneratorSetTCGMode","SetTCGMode","SetTCGMode method [DirectShow]","SetTCGMode method [DirectShow]","IAMTimecodeGenerator interface","dshow.iamtimecodegenerator_settcgmode","strmif/IAMTimecodeGenerator::SetTCGMode"]
 old-location: dshow\iamtimecodegenerator_settcgmode.htm
 tech.root: DirectShow
 ms.assetid: 61434534-0a43-4bf3-81d1-3b27ac601cb4

@@ -1,7 +1,8 @@
 ---
 UID: NF:workspaceax.IWorkspaceResTypeRegistry.DeleteResourceType
 title: IWorkspaceResTypeRegistry::DeleteResourceType (workspaceax.h)
-description: Unregisters a third-party file name extension with the RemoteApp and Desktop Connections runtime.helpviewer_keywords: ["DeleteResourceType","DeleteResourceType method [Remote Desktop Services]","DeleteResourceType method [Remote Desktop Services]","IWorkspaceResTypeRegistry interface","DeleteResourceType method [Remote Desktop Services]","Workspace object","IWorkspaceResTypeRegistry interface [Remote Desktop Services]","DeleteResourceType method","IWorkspaceResTypeRegistry.DeleteResourceType","IWorkspaceResTypeRegistry::DeleteResourceType","Workspace object [Remote Desktop Services]","DeleteResourceType method","termserv.iworkspacerestyperegistry_deleteresourcetype","workspaceax/IWorkspaceResTypeRegistry::DeleteResourceType"]
+description: Unregisters a third-party file name extension with the RemoteApp and Desktop Connections runtime.
+helpviewer_keywords: ["DeleteResourceType","DeleteResourceType method [Remote Desktop Services]","DeleteResourceType method [Remote Desktop Services]","IWorkspaceResTypeRegistry interface","DeleteResourceType method [Remote Desktop Services]","Workspace object","IWorkspaceResTypeRegistry interface [Remote Desktop Services]","DeleteResourceType method","IWorkspaceResTypeRegistry.DeleteResourceType","IWorkspaceResTypeRegistry::DeleteResourceType","Workspace object [Remote Desktop Services]","DeleteResourceType method","termserv.iworkspacerestyperegistry_deleteresourcetype","workspaceax/IWorkspaceResTypeRegistry::DeleteResourceType"]
 old-location: termserv\iworkspacerestyperegistry_deleteresourcetype.htm
 tech.root: TermServ
 ms.assetid: a50bd4a0-8f59-4ed9-8f5f-c2522540c41e

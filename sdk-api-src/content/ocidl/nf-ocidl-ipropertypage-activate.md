@@ -1,7 +1,8 @@
 ---
 UID: NF:ocidl.IPropertyPage.Activate
 title: IPropertyPage::Activate (ocidl.h)
-description: Creates the dialog box window for the property page.helpviewer_keywords: ["Activate","Activate method [COM]","Activate method [COM]","IPropertyPage interface","IPropertyPage interface [COM]","Activate method","IPropertyPage.Activate","IPropertyPage::Activate","_ctrl_ipropertypage_activate","com.ipropertypage_activate","ocidl/IPropertyPage::Activate"]
+description: Creates the dialog box window for the property page.
+helpviewer_keywords: ["Activate","Activate method [COM]","Activate method [COM]","IPropertyPage interface","IPropertyPage interface [COM]","Activate method","IPropertyPage.Activate","IPropertyPage::Activate","_ctrl_ipropertypage_activate","com.ipropertypage_activate","ocidl/IPropertyPage::Activate"]
 old-location: com\ipropertypage_activate.htm
 tech.root: com
 ms.assetid: 4756d06d-0ffc-4214-9c2b-d9cb169b4337

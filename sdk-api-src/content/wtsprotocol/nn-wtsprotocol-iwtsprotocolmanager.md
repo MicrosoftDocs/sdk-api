@@ -1,7 +1,8 @@
 ---
 UID: NN:wtsprotocol.IWTSProtocolManager
 title: IWTSProtocolManager (wtsprotocol.h)
-description: IWTSProtocolManager is no longer available. Instead, use IWRdsProtocolManager.helpviewer_keywords: ["IWTSProtocolManager","IWTSProtocolManager interface [Remote Desktop Services]","IWTSProtocolManager interface [Remote Desktop Services]","described","termserv.iwtsprotocolmanager","wtsprotocol/IWTSProtocolManager"]
+description: IWTSProtocolManager is no longer available. Instead, use IWRdsProtocolManager.
+helpviewer_keywords: ["IWTSProtocolManager","IWTSProtocolManager interface [Remote Desktop Services]","IWTSProtocolManager interface [Remote Desktop Services]","described","termserv.iwtsprotocolmanager","wtsprotocol/IWTSProtocolManager"]
 old-location: termserv\iwtsprotocolmanager.htm
 tech.root: TermServ
 ms.assetid: a54bdb46-b18b-4a6d-90fc-75947f6dd191

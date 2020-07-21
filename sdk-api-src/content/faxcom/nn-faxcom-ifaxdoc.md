@@ -1,7 +1,8 @@
 ---
 UID: NN:faxcom.IFaxDoc
 title: IFaxDoc (faxcom.h)
-description: The IFaxDoc dual interface is used by a fax client application to transmit fax documents and cover pages.helpviewer_keywords: ["IFaxDoc","IFaxDoc interface [Fax Service]","IFaxDoc interface [Fax Service]","described","_mfax_ifaxdoc","fax._mfax_ifaxdoc","faxcom/IFaxDoc"]
+description: The IFaxDoc dual interface is used by a fax client application to transmit fax documents and cover pages.
+helpviewer_keywords: ["IFaxDoc","IFaxDoc interface [Fax Service]","IFaxDoc interface [Fax Service]","described","_mfax_ifaxdoc","fax._mfax_ifaxdoc","faxcom/IFaxDoc"]
 old-location: fax\_mfax_ifaxdoc.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxlegacy_6mub.htm

@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IDvbExtendedEventDescriptor.GetCountOfRecords
 title: IDvbExtendedEventDescriptor::GetCountOfRecords (dvbsiparser.h)
-description: Gets the number of item records in a Digital Video Broadcast (DVB) extended event descriptor.helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IDvbExtendedEventDescriptor interface","IDvbExtendedEventDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IDvbExtendedEventDescriptor.GetCountOfRecords","IDvbExtendedEventDescriptor::GetCountOfRecords","dvbsiparser/IDvbExtendedEventDescriptor::GetCountOfRecords","mstv.idvbextendedeventdescriptor_getcountofrecords"]
+description: Gets the number of item records in a Digital Video Broadcast (DVB) extended event descriptor.
+helpviewer_keywords: ["GetCountOfRecords","GetCountOfRecords method [Microsoft TV Technologies]","GetCountOfRecords method [Microsoft TV Technologies]","IDvbExtendedEventDescriptor interface","IDvbExtendedEventDescriptor interface [Microsoft TV Technologies]","GetCountOfRecords method","IDvbExtendedEventDescriptor.GetCountOfRecords","IDvbExtendedEventDescriptor::GetCountOfRecords","dvbsiparser/IDvbExtendedEventDescriptor::GetCountOfRecords","mstv.idvbextendedeventdescriptor_getcountofrecords"]
 old-location: mstv\idvbextendedeventdescriptor_getcountofrecords.htm
 tech.root: mstv
 ms.assetid: db065f1a-8354-4207-b7f7-d67adf094c70

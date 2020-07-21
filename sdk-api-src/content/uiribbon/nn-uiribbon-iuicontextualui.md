@@ -1,7 +1,8 @@
 ---
 UID: NN:uiribbon.IUIContextualUI
 title: IUIContextualUI (uiribbon.h)
-description: The IUIContextualUI interface is implemented by the Ribbon framework and provides the core functionality for the Context Popup View.helpviewer_keywords: ["IUIContextualUI","IUIContextualUI interface [Windows Ribbon]","IUIContextualUI interface [Windows Ribbon]","described","scenicintent_IUIContextualUI","uiribbon/IUIContextualUI","windowsribbon.windowsribbon_iuicontextualui"]
+description: The IUIContextualUI interface is implemented by the Ribbon framework and provides the core functionality for the Context Popup View.
+helpviewer_keywords: ["IUIContextualUI","IUIContextualUI interface [Windows Ribbon]","IUIContextualUI interface [Windows Ribbon]","described","scenicintent_IUIContextualUI","uiribbon/IUIContextualUI","windowsribbon.windowsribbon_iuicontextualui"]
 old-location: windowsribbon\windowsribbon_iuicontextualui.htm
 tech.root: windowsribbon
 ms.assetid: VS|scenicintent|~\scenicintent\reference\ifaces\iuicontextualui\iuicontextualui.htm

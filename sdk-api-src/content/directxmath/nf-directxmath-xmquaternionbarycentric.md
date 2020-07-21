@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMQuaternionBaryCentric
 title: XMQuaternionBaryCentric function (directxmath.h)
-description: Returns a point in barycentric coordinates, using the specified quaternions.helpviewer_keywords: ["Use DirectX..XMQuaternionBaryCentric","XMQuaternionBaryCentric","XMQuaternionBaryCentric method [DirectX Math Support APIs]","dxmath.xmquaternionbarycentric"]
+description: Returns a point in barycentric coordinates, using the specified quaternions.
+helpviewer_keywords: ["Use DirectX..XMQuaternionBaryCentric","XMQuaternionBaryCentric","XMQuaternionBaryCentric method [DirectX Math Support APIs]","dxmath.xmquaternionbarycentric"]
 old-location: dxmath\xmquaternionbarycentric.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionBaryCentric(XMVECTOR,XMVECTOR,XMVECTOR,float,float)

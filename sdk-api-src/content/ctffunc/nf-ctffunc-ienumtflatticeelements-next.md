@@ -1,7 +1,8 @@
 ---
 UID: NF:ctffunc.IEnumTfLatticeElements.Next
 title: IEnumTfLatticeElements::Next (ctffunc.h)
-description: IEnumTfLatticeElements::Next methodhelpviewer_keywords: ["IEnumTfLatticeElements interface [Text Services Framework]","Next method","IEnumTfLatticeElements.Next","IEnumTfLatticeElements::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfLatticeElements interface","_tsf_ienumtflatticeelements_next_ref","ctffunc/IEnumTfLatticeElements::Next","tsf.ienumtflatticeelements_next"]
+description: IEnumTfLatticeElements::Next method
+helpviewer_keywords: ["IEnumTfLatticeElements interface [Text Services Framework]","Next method","IEnumTfLatticeElements.Next","IEnumTfLatticeElements::Next","Next","Next method [Text Services Framework]","Next method [Text Services Framework]","IEnumTfLatticeElements interface","_tsf_ienumtflatticeelements_next_ref","ctffunc/IEnumTfLatticeElements::Next","tsf.ienumtflatticeelements_next"]
 old-location: tsf\ienumtflatticeelements_next.htm
 tech.root: TSF
 ms.assetid: 066493c9-6597-43f4-9f65-51578af00a9b

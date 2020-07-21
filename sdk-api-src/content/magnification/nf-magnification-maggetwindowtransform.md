@@ -1,7 +1,8 @@
 ---
 UID: NF:magnification.MagGetWindowTransform
 title: MagGetWindowTransform function (magnification.h)
-description: Retrieves the transformation matrix associated with a magnifier control.helpviewer_keywords: ["MagGetWindowTransform","MagGetWindowTransform function [Magnification API]","magapi.magapi_MagGetWindowTransform","magapi_MagGetWindowTransform","magnification/MagGetWindowTransform"]
+description: Retrieves the transformation matrix associated with a magnifier control.
+helpviewer_keywords: ["MagGetWindowTransform","MagGetWindowTransform function [Magnification API]","magapi.magapi_MagGetWindowTransform","magapi_MagGetWindowTransform","magnification/MagGetWindowTransform"]
 old-location: magapi\magapi_MagGetWindowTransform.htm
 tech.root: magapi
 ms.assetid: VS|magapi|~\magapi\reference\functions\maggetwindowtransform.htm

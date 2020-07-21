@@ -1,7 +1,8 @@
 ---
 UID: NS:winioctl._FILE_STORAGE_TIER_REGION
 title: FILE_STORAGE_TIER_REGION
-description: Describes a single storage tier region.helpviewer_keywords: ["*PFILE_STORAGE_TIER_REGION","FILE_STORAGE_TIER_REGION","FILE_STORAGE_TIER_REGION structure [Files]","PFILE_STORAGE_TIER_REGION","PFILE_STORAGE_TIER_REGION structure pointer [Files]","fs.file_storage_tier_region","winioctl/FILE_STORAGE_TIER_REGION","winioctl/PFILE_STORAGE_TIER_REGION"]
+description: Describes a single storage tier region.
+helpviewer_keywords: ["*PFILE_STORAGE_TIER_REGION","FILE_STORAGE_TIER_REGION","FILE_STORAGE_TIER_REGION structure [Files]","PFILE_STORAGE_TIER_REGION","PFILE_STORAGE_TIER_REGION structure pointer [Files]","fs.file_storage_tier_region","winioctl/FILE_STORAGE_TIER_REGION","winioctl/PFILE_STORAGE_TIER_REGION"]
 old-location: fs\file_storage_tier_region.htm
 tech.root: FileIO
 ms.assetid: 5178A987-397A-44E5-9485-221D72490124

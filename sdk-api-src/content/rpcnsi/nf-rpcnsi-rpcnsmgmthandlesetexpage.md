@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcnsi.RpcNsMgmtHandleSetExpAge
 title: RpcNsMgmtHandleSetExpAge function (rpcnsi.h)
-description: The RpcNsMgmtHandleSetExpAge function sets the expiration age of a name-service handle for local copies of name-service data.helpviewer_keywords: ["RpcNsMgmtHandleSetExpAge","RpcNsMgmtHandleSetExpAge function [RPC]","_rpc_rpcnsmgmthandlesetexpage","rpc.rpcnsmgmthandlesetexpage","rpcnsi/RpcNsMgmtHandleSetExpAge"]
+description: The RpcNsMgmtHandleSetExpAge function sets the expiration age of a name-service handle for local copies of name-service data.
+helpviewer_keywords: ["RpcNsMgmtHandleSetExpAge","RpcNsMgmtHandleSetExpAge function [RPC]","_rpc_rpcnsmgmthandlesetexpage","rpc.rpcnsmgmthandlesetexpage","rpcnsi/RpcNsMgmtHandleSetExpAge"]
 old-location: rpc\rpcnsmgmthandlesetexpage.htm
 tech.root: Rpc
 ms.assetid: d6607ffb-21a9-41ec-863f-f1514b115d4d

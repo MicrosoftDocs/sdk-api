@@ -1,7 +1,8 @@
 ---
 UID: NS:cryptxml._CRYPT_XML_TRANSFORM_INFO
 title: CRYPT_XML_TRANSFORM_INFO (cryptxml.h)
-description: Contains information that is used when applying the data transform.helpviewer_keywords: ["*PCRYPT_XML_TRANSFORM_INFO","CRYPT_XML_TRANSFORM_INFO","CRYPT_XML_TRANSFORM_INFO structure [Security]","CRYPT_XML_TRANSFORM_ON_NODESET","CRYPT_XML_TRANSFORM_ON_STREAM","CRYPT_XML_TRANSFORM_URI_QUERY_STRING","PCRYPT_XML_TRANSFORM_INFO","PCRYPT_XML_TRANSFORM_INFO structure pointer [Security]","cryptxml/CRYPT_XML_TRANSFORM_INFO","cryptxml/PCRYPT_XML_TRANSFORM_INFO","security.crypt_xml_transform_info"]
+description: Contains information that is used when applying the data transform.
+helpviewer_keywords: ["*PCRYPT_XML_TRANSFORM_INFO","CRYPT_XML_TRANSFORM_INFO","CRYPT_XML_TRANSFORM_INFO structure [Security]","CRYPT_XML_TRANSFORM_ON_NODESET","CRYPT_XML_TRANSFORM_ON_STREAM","CRYPT_XML_TRANSFORM_URI_QUERY_STRING","PCRYPT_XML_TRANSFORM_INFO","PCRYPT_XML_TRANSFORM_INFO structure pointer [Security]","cryptxml/CRYPT_XML_TRANSFORM_INFO","cryptxml/PCRYPT_XML_TRANSFORM_INFO","security.crypt_xml_transform_info"]
 old-location: security\crypt_xml_transform_info.htm
 tech.root: SecCrypto
 ms.assetid: 4821dc8f-11d4-4083-bb17-9d9637d99af5

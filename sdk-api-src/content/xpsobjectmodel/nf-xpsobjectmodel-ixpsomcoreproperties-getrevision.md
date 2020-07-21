@@ -1,7 +1,8 @@
 ---
 UID: NF:xpsobjectmodel.IXpsOMCoreProperties.GetRevision
 title: IXpsOMCoreProperties::GetRevision (xpsobjectmodel.h)
-description: Gets the revision property.helpviewer_keywords: ["GetRevision","GetRevision method [XPS Documents and Packaging]","GetRevision method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetRevision method","IXpsOMCoreProperties.GetRevision","IXpsOMCoreProperties::GetRevision","xps.ixpsomcoreproperties_getrevision","xpsobjectmodel/IXpsOMCoreProperties::GetRevision"]
+description: Gets the revision property.
+helpviewer_keywords: ["GetRevision","GetRevision method [XPS Documents and Packaging]","GetRevision method [XPS Documents and Packaging]","IXpsOMCoreProperties interface","IXpsOMCoreProperties interface [XPS Documents and Packaging]","GetRevision method","IXpsOMCoreProperties.GetRevision","IXpsOMCoreProperties::GetRevision","xps.ixpsomcoreproperties_getrevision","xpsobjectmodel/IXpsOMCoreProperties::GetRevision"]
 old-location: xps\ixpsomcoreproperties_getrevision.htm
 tech.root: printdocs
 ms.assetid: 7143e4e7-c5e3-41f8-84d8-64fa3008ccc8

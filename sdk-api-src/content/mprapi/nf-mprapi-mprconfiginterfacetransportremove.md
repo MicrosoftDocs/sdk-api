@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprConfigInterfaceTransportRemove
 title: MprConfigInterfaceTransportRemove function (mprapi.h)
-description: The MprConfigInterfaceTransportRemove function removes the specified transport from the specified interface configuration on the router.helpviewer_keywords: ["MprConfigInterfaceTransportRemove","MprConfigInterfaceTransportRemove function [RAS]","_mpr_mprconfiginterfacetransportremove","mprapi/MprConfigInterfaceTransportRemove","rras.mprconfiginterfacetransportremove"]
+description: The MprConfigInterfaceTransportRemove function removes the specified transport from the specified interface configuration on the router.
+helpviewer_keywords: ["MprConfigInterfaceTransportRemove","MprConfigInterfaceTransportRemove function [RAS]","_mpr_mprconfiginterfacetransportremove","mprapi/MprConfigInterfaceTransportRemove","rras.mprconfiginterfacetransportremove"]
 old-location: rras\mprconfiginterfacetransportremove.htm
 tech.root: RRAS
 ms.assetid: 0f286003-f9d8-490b-a379-76baa3f53c6f

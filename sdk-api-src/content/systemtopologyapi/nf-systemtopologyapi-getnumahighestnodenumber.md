@@ -1,7 +1,8 @@
 ---
 UID: NF:systemtopologyapi.GetNumaHighestNodeNumber
 title: GetNumaHighestNodeNumber function (systemtopologyapi.h)
-description: Retrieves the node that currently has the highest number.helpviewer_keywords: ["GetNumaHighestNodeNumber","GetNumaHighestNodeNumber function","_win32_getnumahighestnodenumber","base.getnumahighestnodenumber","systemtopologyapi/GetNumaHighestNodeNumber","winbase/GetNumaHighestNodeNumber"]
+description: Retrieves the node that currently has the highest number.
+helpviewer_keywords: ["GetNumaHighestNodeNumber","GetNumaHighestNodeNumber function","_win32_getnumahighestnodenumber","base.getnumahighestnodenumber","systemtopologyapi/GetNumaHighestNodeNumber","winbase/GetNumaHighestNodeNumber"]
 old-location: base\getnumahighestnodenumber.htm
 tech.root: ProcThread
 ms.assetid: ce944fa7-b42a-4b99-ac8d-30bd026fba21

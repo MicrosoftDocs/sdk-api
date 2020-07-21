@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusgraphics.Graphics.FromHWND
 title: Graphics::FromHWND (gdiplusgraphics.h)
-description: The Graphics::FromHWND method creates a Graphicsobject that is associated with a specified window.helpviewer_keywords: ["FromHWND","FromHWND method [GDI+]","FromHWND method [GDI+]","Graphics class","Graphics class [GDI+]","FromHWND method","Graphics.FromHWND","Graphics::FromHWND","_gdiplus_CLASS_Graphics_FromHWND_hwnd_icm_","gdiplus._gdiplus_CLASS_Graphics_FromHWND_hwnd_icm_"]
+description: The Graphics::FromHWND method creates a Graphicsobject that is associated with a specified window.
+helpviewer_keywords: ["FromHWND","FromHWND method [GDI+]","FromHWND method [GDI+]","Graphics class","Graphics class [GDI+]","FromHWND method","Graphics.FromHWND","Graphics::FromHWND","_gdiplus_CLASS_Graphics_FromHWND_hwnd_icm_","gdiplus._gdiplus_CLASS_Graphics_FromHWND_hwnd_icm_"]
 old-location: gdiplus\_gdiplus_CLASS_Graphics_FromHWND_hwnd_icm_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\graphicsclass\graphicsmethods\fromhwnd.htm

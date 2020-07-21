@@ -1,7 +1,8 @@
 ---
 UID: NF:iwscapi.IWscProduct.get_RemediationPath
 title: IWscProduct::get_RemediationPath (iwscapi.h)
-description: Returns the current remediation path for the security product.helpviewer_keywords: ["IWscProduct interface [Windows API]","get_RemediationPath method","IWscProduct.get_RemediationPath","IWscProduct::get_RemediationPath","get_RemediationPath","get_RemediationPath method [Windows API]","get_RemediationPath method [Windows API]","IWscProduct interface","iwscapi/IWscProduct::get_RemediationPath","winprog.iwscproduct_remediationpath"]
+description: Returns the current remediation path for the security product.
+helpviewer_keywords: ["IWscProduct interface [Windows API]","get_RemediationPath method","IWscProduct.get_RemediationPath","IWscProduct::get_RemediationPath","get_RemediationPath","get_RemediationPath method [Windows API]","get_RemediationPath method [Windows API]","IWscProduct interface","iwscapi/IWscProduct::get_RemediationPath","winprog.iwscproduct_remediationpath"]
 old-location: winprog\iwscproduct_remediationpath.htm
 tech.root: DevNotes
 ms.assetid: 6922B572-4E00-4B0B-BE1F-64343DD776A0

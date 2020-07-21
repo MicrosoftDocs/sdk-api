@@ -1,7 +1,8 @@
 ---
 UID: NF:wmcodecdsp.IToc.GetDescription
 title: IToc::GetDescription (wmcodecdsp.h)
-description: The GetDescription method retrieves the description, set by a previous call to SetDescription, of the table of contents.helpviewer_keywords: ["GetDescription","GetDescription method [Media Foundation]","GetDescription method [Media Foundation]","IToc interface","IToc interface [Media Foundation]","GetDescription method","IToc.GetDescription","IToc::GetDescription","codecapi.itoc_getdescription","mf.itoc_getdescription","wmcodecdsp/IToc::GetDescription"]
+description: The GetDescription method retrieves the description, set by a previous call to SetDescription, of the table of contents.
+helpviewer_keywords: ["GetDescription","GetDescription method [Media Foundation]","GetDescription method [Media Foundation]","IToc interface","IToc interface [Media Foundation]","GetDescription method","IToc.GetDescription","IToc::GetDescription","codecapi.itoc_getdescription","mf.itoc_getdescription","wmcodecdsp/IToc::GetDescription"]
 old-location: mf\itoc_getdescription.htm
 tech.root: medfound
 ms.assetid: 660d4da9-ddbc-466c-ab1a-7e60ecf61473

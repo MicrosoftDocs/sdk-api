@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcndr.NdrConformantStringUnmarshall
 title: NdrConformantStringUnmarshall function (rpcndr.h)
-description: The NdrConformantStringUnmarshall function unmarshals the conformant string from the network buffer to memory.helpviewer_keywords: ["NdrConformantStringUnmarshall","NdrConformantStringUnmarshall function [RPC]","rpc.ndrconformantstringunmarshall","rpcndr/NdrConformantStringUnmarshall"]
+description: The NdrConformantStringUnmarshall function unmarshals the conformant string from the network buffer to memory.
+helpviewer_keywords: ["NdrConformantStringUnmarshall","NdrConformantStringUnmarshall function [RPC]","rpc.ndrconformantstringunmarshall","rpcndr/NdrConformantStringUnmarshall"]
 old-location: rpc\ndrconformantstringunmarshall.htm
 tech.root: Rpc
 ms.assetid: 3965e5aa-8695-4dd3-a75b-ee007ee3cccd

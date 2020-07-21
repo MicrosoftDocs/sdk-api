@@ -1,7 +1,8 @@
 ---
 UID: NF:appmgmt.GetManagedApplications
 title: GetManagedApplications function (appmgmt.h)
-description: The GetManagedApplications function gets a list of applications that are displayed in the Add pane of Add/Remove Programs (ARP) for a specified user context.helpviewer_keywords: ["GetManagedApplications","GetManagedApplications function [Group Policy]","MANAGED_APPS_FROMCATEGORY","MANAGED_APPS_USERAPPLICATIONS","appmgmt/GetManagedApplications","policy.getmanagedapplications"]
+description: The GetManagedApplications function gets a list of applications that are displayed in the Add pane of Add/Remove Programs (ARP) for a specified user context.
+helpviewer_keywords: ["GetManagedApplications","GetManagedApplications function [Group Policy]","MANAGED_APPS_FROMCATEGORY","MANAGED_APPS_USERAPPLICATIONS","appmgmt/GetManagedApplications","policy.getmanagedapplications"]
 old-location: policy\getmanagedapplications.htm
 tech.root: Policy
 ms.assetid: 62e32f36-cbb2-4557-9773-8bd454870d55

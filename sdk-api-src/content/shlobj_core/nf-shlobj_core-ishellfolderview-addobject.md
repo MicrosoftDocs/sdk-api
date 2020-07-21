@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.AddObject
 title: IShellFolderView::AddObject (shlobj_core.h)
-description: AddObject may be altered or unavailable.helpviewer_keywords: ["AddObject","AddObject method [Windows Shell]","AddObject method [Windows Shell]","IShellFolderView interface","IShellFolderView interface [Windows Shell]","AddObject method","IShellFolderView.AddObject","IShellFolderView::AddObject","_shell_IShellFolderView_AddObject","shell.IShellFolderView_AddObject","shlobj_core/IShellFolderView::AddObject"]
+description: AddObject may be altered or unavailable.
+helpviewer_keywords: ["AddObject","AddObject method [Windows Shell]","AddObject method [Windows Shell]","IShellFolderView interface","IShellFolderView interface [Windows Shell]","AddObject method","IShellFolderView.AddObject","IShellFolderView::AddObject","_shell_IShellFolderView_AddObject","shell.IShellFolderView_AddObject","shlobj_core/IShellFolderView::AddObject"]
 old-location: shell\IShellFolderView_AddObject.htm
 tech.root: shell
 ms.assetid: 50f07c12-7c66-40a0-b710-a4240fde859a

@@ -1,7 +1,8 @@
 ---
 UID: NF:winnetwk.MultinetGetConnectionPerformanceA
 title: MultinetGetConnectionPerformanceA function (winnetwk.h)
-description: Returns information about the expected performance of a connection used to access a network resource.helpviewer_keywords: ["MultinetGetConnectionPerformance","MultinetGetConnectionPerformance function [Windows Networking (WNet)]","MultinetGetConnectionPerformanceA","MultinetGetConnectionPerformanceW","_win32_multinetgetconnectionperformance","lpLocalName","lpProvider","lpRemoteName","winnetwk/MultinetGetConnectionPerformance","winnetwk/MultinetGetConnectionPerformanceA","winnetwk/MultinetGetConnectionPerformanceW","wnet.multinetgetconnectionperformance"]
+description: Returns information about the expected performance of a connection used to access a network resource.
+helpviewer_keywords: ["MultinetGetConnectionPerformance","MultinetGetConnectionPerformance function [Windows Networking (WNet)]","MultinetGetConnectionPerformanceA","MultinetGetConnectionPerformanceW","_win32_multinetgetconnectionperformance","lpLocalName","lpProvider","lpRemoteName","winnetwk/MultinetGetConnectionPerformance","winnetwk/MultinetGetConnectionPerformanceA","winnetwk/MultinetGetConnectionPerformanceW","wnet.multinetgetconnectionperformance"]
 old-location: wnet\multinetgetconnectionperformance.htm
 tech.root: WNet
 ms.assetid: 3ec4a397-e0d4-419c-9e12-6d76a87b1ca0
@@ -260,6 +261,10 @@ A typical way to use this function would be to open a file on a network server (
 
 
 
+
+
+> [!NOTE]
+> The winnetwk.h header defines MultinetGetConnectionPerformance as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

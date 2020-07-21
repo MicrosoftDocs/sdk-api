@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextRow.GetKeepTogether
 title: ITextRow::GetKeepTogether (tom.h)
-description: Gets whether this row is allowed to be broken across pages.helpviewer_keywords: ["GetKeepTogether","GetKeepTogether method [Windows Controls]","GetKeepTogether method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetKeepTogether method","ITextRow.GetKeepTogether","ITextRow::GetKeepTogether","controls.itextrow_getkeeptogether","tom/ITextRow::GetKeepTogether"]
+description: Gets whether this row is allowed to be broken across pages.
+helpviewer_keywords: ["GetKeepTogether","GetKeepTogether method [Windows Controls]","GetKeepTogether method [Windows Controls]","ITextRow interface","ITextRow interface [Windows Controls]","GetKeepTogether method","ITextRow.GetKeepTogether","ITextRow::GetKeepTogether","controls.itextrow_getkeeptogether","tom/ITextRow::GetKeepTogether"]
 old-location: controls\itextrow_getkeeptogether.htm
 tech.root: Controls
 ms.assetid: 3f40c910-2636-4412-ae05-7a630c1f4806

@@ -1,7 +1,8 @@
 ---
 UID: NF:xapo.IXAPO.Initialize
 title: IXAPO::Initialize (xapo.h)
-description: Performs any effect-specific initialization.helpviewer_keywords: ["IXAPO interface [XAudio2 Audio Mixing APIs]","Initialize method","IXAPO.Initialize","IXAPO::Initialize","Initialize","Initialize method [XAudio2 Audio Mixing APIs]","Initialize method [XAudio2 Audio Mixing APIs]","IXAPO interface","xapo/IXAPO::Initialize","xaudio2.ixapo_interface_initialize"]
+description: Performs any effect-specific initialization.
+helpviewer_keywords: ["IXAPO interface [XAudio2 Audio Mixing APIs]","Initialize method","IXAPO.Initialize","IXAPO::Initialize","Initialize","Initialize method [XAudio2 Audio Mixing APIs]","Initialize method [XAudio2 Audio Mixing APIs]","IXAPO interface","xapo/IXAPO::Initialize","xaudio2.ixapo_interface_initialize"]
 old-location: xaudio2\ixapo_interface_initialize.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.Initialize(const void,UINT32)

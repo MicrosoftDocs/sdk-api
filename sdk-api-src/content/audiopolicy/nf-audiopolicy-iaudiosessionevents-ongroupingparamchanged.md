@@ -1,7 +1,8 @@
 ---
 UID: NF:audiopolicy.IAudioSessionEvents.OnGroupingParamChanged
 title: IAudioSessionEvents::OnGroupingParamChanged (audiopolicy.h)
-description: The OnGroupingParamChanged method notifies the client that the grouping parameter for the session has changed.helpviewer_keywords: ["IAudioSessionEvents interface [Core Audio]","OnGroupingParamChanged method","IAudioSessionEvents.OnGroupingParamChanged","IAudioSessionEvents::OnGroupingParamChanged","IAudioSessionEventsOnGroupingParamChanged","OnGroupingParamChanged","OnGroupingParamChanged method [Core Audio]","OnGroupingParamChanged method [Core Audio]","IAudioSessionEvents interface","audiopolicy/IAudioSessionEvents::OnGroupingParamChanged","coreaudio.iaudiosessionevents_ongroupingparamchanged"]
+description: The OnGroupingParamChanged method notifies the client that the grouping parameter for the session has changed.
+helpviewer_keywords: ["IAudioSessionEvents interface [Core Audio]","OnGroupingParamChanged method","IAudioSessionEvents.OnGroupingParamChanged","IAudioSessionEvents::OnGroupingParamChanged","IAudioSessionEventsOnGroupingParamChanged","OnGroupingParamChanged","OnGroupingParamChanged method [Core Audio]","OnGroupingParamChanged method [Core Audio]","IAudioSessionEvents interface","audiopolicy/IAudioSessionEvents::OnGroupingParamChanged","coreaudio.iaudiosessionevents_ongroupingparamchanged"]
 old-location: coreaudio\iaudiosessionevents_ongroupingparamchanged.htm
 tech.root: CoreAudio
 ms.assetid: f52c9d8a-245b-489a-81c1-cb4715faa8be

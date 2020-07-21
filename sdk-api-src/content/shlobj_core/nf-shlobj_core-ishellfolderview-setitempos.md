@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj_core.IShellFolderView.SetItemPos
 title: IShellFolderView::SetItemPos (shlobj_core.h)
-description: Sets the position of the given item.helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","SetItemPos method","IShellFolderView.SetItemPos","IShellFolderView::SetItemPos","SetItemPos","SetItemPos method [Windows Shell]","SetItemPos method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_SetItemPos","shell.IShellFolderView_SetItemPos","shlobj_core/IShellFolderView::SetItemPos"]
+description: Sets the position of the given item.
+helpviewer_keywords: ["IShellFolderView interface [Windows Shell]","SetItemPos method","IShellFolderView.SetItemPos","IShellFolderView::SetItemPos","SetItemPos","SetItemPos method [Windows Shell]","SetItemPos method [Windows Shell]","IShellFolderView interface","_shell_IShellFolderView_SetItemPos","shell.IShellFolderView_SetItemPos","shlobj_core/IShellFolderView::SetItemPos"]
 old-location: shell\IShellFolderView_SetItemPos.htm
 tech.root: shell
 ms.assetid: d905260c-fa68-4b39-9c94-a74e1ac71b95

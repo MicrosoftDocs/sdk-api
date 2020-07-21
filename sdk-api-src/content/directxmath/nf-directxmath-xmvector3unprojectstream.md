@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMVector3UnprojectStream
 title: XMVector3UnprojectStream function (directxmath.h)
-description: Transforms a stream of 3D vectors from screen space to object space.helpviewer_keywords: ["Use DirectX..XMVector3UnprojectStream","XMVector3UnprojectStream","XMVector3UnprojectStream method [DirectX Math Support APIs]","dxmath.xmvector3unprojectstream"]
+description: Transforms a stream of 3D vectors from screen space to object space.
+helpviewer_keywords: ["Use DirectX..XMVector3UnprojectStream","XMVector3UnprojectStream","XMVector3UnprojectStream method [DirectX Math Support APIs]","dxmath.xmvector3unprojectstream"]
 old-location: dxmath\xmvector3unprojectstream.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.transformation.XMVector3UnprojectStream(XMFLOAT3@,size_t,const XMFLOAT3,size_t,size_t,float,float,float,float,float,float,XMMATRIX,XMMATRIX,XMMATRIX)

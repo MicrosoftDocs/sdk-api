@@ -1,7 +1,8 @@
 ---
 UID: NF:dcomp.IDCompositionTableTransferEffect.SetBlueTableValue(UINT,float)
 title: IDCompositionTableTransferEffect::SetBlueTableValue (dcomp.h)
-description: Sets a value in the blue table.helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetBlueTableValue method","IDCompositionTableTransferEffect.SetBlueTableValue","IDCompositionTableTransferEffect::SetBlueTableValue","IDCompositionTableTransferEffect::SetBlueTableValue(UINT","float)","SetBlueTableValue","SetBlueTableValue method [DirectComposition]","SetBlueTableValue method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetBlueTableValue","directcomp.idcompositiontabletransfereffect_setbluetablevalue"]
+description: Sets a value in the blue table.
+helpviewer_keywords: ["IDCompositionTableTransferEffect interface [DirectComposition]","SetBlueTableValue method","IDCompositionTableTransferEffect.SetBlueTableValue","IDCompositionTableTransferEffect::SetBlueTableValue","IDCompositionTableTransferEffect::SetBlueTableValue(UINT","float)","SetBlueTableValue","SetBlueTableValue method [DirectComposition]","SetBlueTableValue method [DirectComposition]","IDCompositionTableTransferEffect interface","dcomp/IDCompositionTableTransferEffect::SetBlueTableValue","directcomp.idcompositiontabletransfereffect_setbluetablevalue"]
 old-location: directcomp\idcompositiontabletransfereffect_setbluetablevalue.htm
 tech.root: directcomp
 ms.assetid: D73983D6-0E5D-434E-A14A-FFB39A620F78

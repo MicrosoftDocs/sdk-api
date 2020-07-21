@@ -1,7 +1,8 @@
 ---
 UID: NF:wininet.InternetReadFileExA
 title: InternetReadFileExA function (wininet.h)
-description: Reads data from a handle opened by the InternetOpenUrl or HttpOpenRequest function.helpviewer_keywords: ["InternetReadFileEx","InternetReadFileEx function [WinINet]","InternetReadFileExA","InternetReadFileExW","_inet_internetreadfileex_function","wininet.internetreadfileex","wininet/InternetReadFileEx","wininet/InternetReadFileExA","wininet/InternetReadFileExW"]
+description: Reads data from a handle opened by the InternetOpenUrl or HttpOpenRequest function.
+helpviewer_keywords: ["InternetReadFileEx","InternetReadFileEx function [WinINet]","InternetReadFileExA","InternetReadFileExW","_inet_internetreadfileex_function","wininet.internetreadfileex","wininet/InternetReadFileEx","wininet/InternetReadFileExA","wininet/InternetReadFileExW"]
 old-location: wininet\internetreadfileex.htm
 tech.root: wininet
 ms.assetid: 04e7bb7e-d925-41fd-8333-3cb443a04c5b
@@ -155,6 +156,10 @@ Returns <b>TRUE</b> if successful, or <b>FALSE</b> otherwise. To get extended er
 <div> </div>
 
 
+
+
+> [!NOTE]
+> The wininet.h header defines InternetReadFileEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

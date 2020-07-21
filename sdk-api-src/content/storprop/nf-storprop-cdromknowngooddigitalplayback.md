@@ -1,7 +1,8 @@
 ---
 UID: NF:storprop.CdromKnownGoodDigitalPlayback
 title: CdromKnownGoodDigitalPlayback function (storprop.h)
-description: Determines whether the specified CD-ROM or DVD drive has digital playback that is known to be good.helpviewer_keywords: ["CdromKnownGoodDigitalPlayback","CdromKnownGoodDigitalPlayback function","base.cdromknowngooddigitalplayback","storprop/CdromKnownGoodDigitalPlayback"]
+description: Determines whether the specified CD-ROM or DVD drive has digital playback that is known to be good.
+helpviewer_keywords: ["CdromKnownGoodDigitalPlayback","CdromKnownGoodDigitalPlayback function","base.cdromknowngooddigitalplayback","storprop/CdromKnownGoodDigitalPlayback"]
 old-location: base\cdromknowngooddigitalplayback.htm
 tech.root: devio
 ms.assetid: df242729-2082-4608-bd73-4c8d215a09ea

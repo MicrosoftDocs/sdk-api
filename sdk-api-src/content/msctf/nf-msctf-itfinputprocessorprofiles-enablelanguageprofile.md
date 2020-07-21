@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfInputProcessorProfiles.EnableLanguageProfile
 title: ITfInputProcessorProfiles::EnableLanguageProfile (msctf.h)
-description: ITfInputProcessorProfiles::EnableLanguageProfile methodhelpviewer_keywords: ["EnableLanguageProfile","EnableLanguageProfile method [Text Services Framework]","EnableLanguageProfile method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","EnableLanguageProfile method","ITfInputProcessorProfiles.EnableLanguageProfile","ITfInputProcessorProfiles::EnableLanguageProfile","_tsf_itfinputprocessorprofiles_enablelanguageprofile_ref","msctf/ITfInputProcessorProfiles::EnableLanguageProfile","tsf.itfinputprocessorprofiles_enablelanguageprofile"]
+description: ITfInputProcessorProfiles::EnableLanguageProfile method
+helpviewer_keywords: ["EnableLanguageProfile","EnableLanguageProfile method [Text Services Framework]","EnableLanguageProfile method [Text Services Framework]","ITfInputProcessorProfiles interface","ITfInputProcessorProfiles interface [Text Services Framework]","EnableLanguageProfile method","ITfInputProcessorProfiles.EnableLanguageProfile","ITfInputProcessorProfiles::EnableLanguageProfile","_tsf_itfinputprocessorprofiles_enablelanguageprofile_ref","msctf/ITfInputProcessorProfiles::EnableLanguageProfile","tsf.itfinputprocessorprofiles_enablelanguageprofile"]
 old-location: tsf\itfinputprocessorprofiles_enablelanguageprofile.htm
 tech.root: TSF
 ms.assetid: 54aa6668-e577-4d75-9461-b604e1e73a78

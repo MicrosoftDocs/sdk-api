@@ -1,7 +1,8 @@
 ---
 UID: NF:certif.ICertServerPolicy.SetContext
 title: ICertServerPolicy::SetContext (certif.h)
-description: Specifies the request to be used as the context for subsequent calls to Certificate Services.helpviewer_keywords: ["CCertServerPolicy object [Security]","SetContext method","ICertServerPolicy interface [Security]","SetContext method","ICertServerPolicy.SetContext","ICertServerPolicy::SetContext","SetContext","SetContext method [Security]","SetContext method [Security]","CCertServerPolicy object","SetContext method [Security]","ICertServerPolicy interface","_certsrv_icertserverpolicy_setcontext","certif/ICertServerPolicy::SetContext","security.icertserverpolicy_setcontext"]
+description: Specifies the request to be used as the context for subsequent calls to Certificate Services.
+helpviewer_keywords: ["CCertServerPolicy object [Security]","SetContext method","ICertServerPolicy interface [Security]","SetContext method","ICertServerPolicy.SetContext","ICertServerPolicy::SetContext","SetContext","SetContext method [Security]","SetContext method [Security]","CCertServerPolicy object","SetContext method [Security]","ICertServerPolicy interface","_certsrv_icertserverpolicy_setcontext","certif/ICertServerPolicy::SetContext","security.icertserverpolicy_setcontext"]
 old-location: security\icertserverpolicy_setcontext.htm
 tech.root: SecCrypto
 ms.assetid: ba45cda8-49a5-4bd6-af68-90b4b56aff7d

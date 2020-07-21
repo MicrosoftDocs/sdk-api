@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprAdminConnectionEnum
 title: MprAdminConnectionEnum function (mprapi.h)
-description: The MprAdminConnectionEnum function enumerates all active connections.helpviewer_keywords: ["MprAdminConnectionEnum","MprAdminConnectionEnum function [RAS]","_mpr_mpradminconnectionenum","mprapi/MprAdminConnectionEnum","rras.mpradminconnectionenum"]
+description: The MprAdminConnectionEnum function enumerates all active connections.
+helpviewer_keywords: ["MprAdminConnectionEnum","MprAdminConnectionEnum function [RAS]","_mpr_mpradminconnectionenum","mprapi/MprAdminConnectionEnum","rras.mpradminconnectionenum"]
 old-location: rras\mpradminconnectionenum.htm
 tech.root: RRAS
 ms.assetid: 27be536e-0437-4e30-aef7-ed92f50baeaa

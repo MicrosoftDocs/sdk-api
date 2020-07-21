@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextHost.TxSetCapture
 title: ITextHost::TxSetCapture (textserv.h)
-description: Sets the mouse capture in the text host's window.helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxSetCapture method","ITextHost.TxSetCapture","ITextHost::TxSetCapture","TxSetCapture","TxSetCapture method [Windows Controls]","TxSetCapture method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxSetCapture","_win32_ITextHost_TxSetCapture_cpp","controls.ITextHost_TxSetCapture","controls._win32_ITextHost_TxSetCapture","textserv/ITextHost::TxSetCapture"]
+description: Sets the mouse capture in the text host's window.
+helpviewer_keywords: ["ITextHost interface [Windows Controls]","TxSetCapture method","ITextHost.TxSetCapture","ITextHost::TxSetCapture","TxSetCapture","TxSetCapture method [Windows Controls]","TxSetCapture method [Windows Controls]","ITextHost interface","_win32_ITextHost_TxSetCapture","_win32_ITextHost_TxSetCapture_cpp","controls.ITextHost_TxSetCapture","controls._win32_ITextHost_TxSetCapture","textserv/ITextHost::TxSetCapture"]
 old-location: controls\ITextHost_TxSetCapture.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxsetcapture.htm

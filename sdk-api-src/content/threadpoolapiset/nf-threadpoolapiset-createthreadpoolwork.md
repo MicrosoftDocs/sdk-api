@@ -1,7 +1,8 @@
 ---
 UID: NF:threadpoolapiset.CreateThreadpoolWork
 title: CreateThreadpoolWork function (threadpoolapiset.h)
-description: Creates a new work object.helpviewer_keywords: ["CreateThreadpoolWork","CreateThreadpoolWork function","base.createthreadpoolwork","threadpoolapiset/CreateThreadpoolWork"]
+description: Creates a new work object.
+helpviewer_keywords: ["CreateThreadpoolWork","CreateThreadpoolWork function","base.createthreadpoolwork","threadpoolapiset/CreateThreadpoolWork"]
 old-location: base\createthreadpoolwork.htm
 tech.root: ProcThread
 ms.assetid: 50647d87-1768-4918-8376-a6a04daca621

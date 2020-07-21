@@ -1,7 +1,8 @@
 ---
 UID: NF:amstream.IAMMediaTypeSample.SetActualDataLength
 title: IAMMediaTypeSample::SetActualDataLength (amstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The SetActualDataLength method sets the sample's data length.helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetActualDataLength method","IAMMediaTypeSample.SetActualDataLength","IAMMediaTypeSample::SetActualDataLength","IAMMediaTypeSampleSetActualDataLength","SetActualDataLength","SetActualDataLength method [DirectShow]","SetActualDataLength method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetActualDataLength","dshow.iammediatypesample_setactualdatalength"]
+description: Note  This interface is deprecated. New applications should not use it. The SetActualDataLength method sets the sample's data length.
+helpviewer_keywords: ["IAMMediaTypeSample interface [DirectShow]","SetActualDataLength method","IAMMediaTypeSample.SetActualDataLength","IAMMediaTypeSample::SetActualDataLength","IAMMediaTypeSampleSetActualDataLength","SetActualDataLength","SetActualDataLength method [DirectShow]","SetActualDataLength method [DirectShow]","IAMMediaTypeSample interface","amstream/IAMMediaTypeSample::SetActualDataLength","dshow.iammediatypesample_setactualdatalength"]
 old-location: dshow\iammediatypesample_setactualdatalength.htm
 tech.root: DirectShow
 ms.assetid: 158a1761-7d42-4611-9667-9e717b23a2da

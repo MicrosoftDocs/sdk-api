@@ -1,7 +1,8 @@
 ---
 UID: NF:textserv.ITextHost.TxGetScrollBars
 title: ITextHost::TxGetScrollBars (textserv.h)
-description: Requests information about the scroll bars supported by the text host.helpviewer_keywords: ["ES_AUTOHSCROLL","ES_AUTOVSCROLL","ES_DISABLENOSCROLL","ITextHost interface [Windows Controls]","TxGetScrollBars method","ITextHost.TxGetScrollBars","ITextHost::TxGetScrollBars","TxGetScrollBars","TxGetScrollBars method [Windows Controls]","TxGetScrollBars method [Windows Controls]","ITextHost interface","WS_HSCROLL","WS_VSCROLL","_win32_ITextHost_TxGetScrollBars","_win32_ITextHost_TxGetScrollBars_cpp","controls.ITextHost_TxGetScrollBars","controls._win32_ITextHost_TxGetScrollBars","textserv/ITextHost::TxGetScrollBars"]
+description: Requests information about the scroll bars supported by the text host.
+helpviewer_keywords: ["ES_AUTOHSCROLL","ES_AUTOVSCROLL","ES_DISABLENOSCROLL","ITextHost interface [Windows Controls]","TxGetScrollBars method","ITextHost.TxGetScrollBars","ITextHost::TxGetScrollBars","TxGetScrollBars","TxGetScrollBars method [Windows Controls]","TxGetScrollBars method [Windows Controls]","ITextHost interface","WS_HSCROLL","WS_VSCROLL","_win32_ITextHost_TxGetScrollBars","_win32_ITextHost_TxGetScrollBars_cpp","controls.ITextHost_TxGetScrollBars","controls._win32_ITextHost_TxGetScrollBars","textserv/ITextHost::TxGetScrollBars"]
 old-location: controls\ITextHost_TxGetScrollBars.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\windowlessricheditcontrols\windowlessricheditcontrolsreference\windowlessricheditcontrolinterfaces\itexthost\itexthosttxgetscrollbars.htm

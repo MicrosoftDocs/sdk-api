@@ -1,7 +1,8 @@
 ---
 UID: NF:appxpackaging.IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent
 title: IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent (appxpackaging.h)
-description: Determines whether there is optional bundle information at the current position of the enumerator.helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxBundleManifestOptionalBundleInfoEnumerator interface","IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent","IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent","appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent","appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent"]
+description: Determines whether there is optional bundle information at the current position of the enumerator.
+helpviewer_keywords: ["GetHasCurrent","GetHasCurrent method [App packaging and management]","GetHasCurrent method [App packaging and management]","IAppxBundleManifestOptionalBundleInfoEnumerator interface","IAppxBundleManifestOptionalBundleInfoEnumerator interface [App packaging and management]","GetHasCurrent method","IAppxBundleManifestOptionalBundleInfoEnumerator.GetHasCurrent","IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent","appxpackaging/IAppxBundleManifestOptionalBundleInfoEnumerator::GetHasCurrent","appxpkg.iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent"]
 old-location: appxpkg\iappxbundlemanifestoptionalbundleinfoenumerator_gethascurrent.htm
 tech.root: appxpkg
 ms.assetid: C7473291-89EA-4412-848E-07257C0AC0FB

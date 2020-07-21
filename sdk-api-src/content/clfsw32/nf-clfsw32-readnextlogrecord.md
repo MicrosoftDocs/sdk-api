@@ -1,7 +1,8 @@
 ---
 UID: NF:clfsw32.ReadNextLogRecord
 title: ReadNextLogRecord function (clfsw32.h)
-description: Reads the next record in a sequence that is initiated by a call to ReadLogRecord or ReadLogRestartArea.helpviewer_keywords: ["ClfsClientRecord","ClfsDataRecord","ClfsRestartRecord","ReadNextLogRecord","ReadNextLogRecord function [Files]","clfsw32/ReadNextLogRecord","fs.readnextlogrecord"]
+description: Reads the next record in a sequence that is initiated by a call to ReadLogRecord or ReadLogRestartArea.
+helpviewer_keywords: ["ClfsClientRecord","ClfsDataRecord","ClfsRestartRecord","ReadNextLogRecord","ReadNextLogRecord function [Files]","clfsw32/ReadNextLogRecord","fs.readnextlogrecord"]
 old-location: fs\readnextlogrecord.htm
 tech.root: Clfs
 ms.assetid: 7736106b-6c43-496e-83b8-fa433c29e680

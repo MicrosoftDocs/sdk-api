@@ -1,7 +1,8 @@
 ---
 UID: NF:oaidl.ITypeInfo.CreateInstance
 title: ITypeInfo::CreateInstance (oaidl.h)
-description: Creates a new instance of a type that describes a component object class (coclass).helpviewer_keywords: ["CreateInstance","CreateInstance method [Automation]","CreateInstance method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","CreateInstance method","ITypeInfo.CreateInstance","ITypeInfo::CreateInstance","_oa96_ITypeInfo_CreateInstance","automat.itypeinfo_createinstance","oaidl/ITypeInfo::CreateInstance"]
+description: Creates a new instance of a type that describes a component object class (coclass).
+helpviewer_keywords: ["CreateInstance","CreateInstance method [Automation]","CreateInstance method [Automation]","ITypeInfo interface","ITypeInfo interface [Automation]","CreateInstance method","ITypeInfo.CreateInstance","ITypeInfo::CreateInstance","_oa96_ITypeInfo_CreateInstance","automat.itypeinfo_createinstance","oaidl/ITypeInfo::CreateInstance"]
 old-location: automat\itypeinfo_createinstance.htm
 tech.root: automat
 ms.assetid: b11c51e6-8ae7-482d-87eb-8175ca98eb63

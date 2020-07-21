@@ -1,7 +1,8 @@
 ---
 UID: NF:mediaobj.IMediaObjectInPlace.Clone
 title: IMediaObjectInPlace::Clone (mediaobj.h)
-description: The Clone method creates a copy of the DMO in its current state.helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IMediaObjectInPlace interface","IMediaObjectInPlace interface [DirectShow]","Clone method","IMediaObjectInPlace.Clone","IMediaObjectInPlace::Clone","IMediaObjectInPlaceClone","dshow.imediaobjectinplace_clone","mediaobj/IMediaObjectInPlace::Clone"]
+description: The Clone method creates a copy of the DMO in its current state.
+helpviewer_keywords: ["Clone","Clone method [DirectShow]","Clone method [DirectShow]","IMediaObjectInPlace interface","IMediaObjectInPlace interface [DirectShow]","Clone method","IMediaObjectInPlace.Clone","IMediaObjectInPlace::Clone","IMediaObjectInPlaceClone","dshow.imediaobjectinplace_clone","mediaobj/IMediaObjectInPlace::Clone"]
 old-location: dshow\imediaobjectinplace_clone.htm
 tech.root: DirectShow
 ms.assetid: 6660afa8-3502-4e88-925b-192e06346243

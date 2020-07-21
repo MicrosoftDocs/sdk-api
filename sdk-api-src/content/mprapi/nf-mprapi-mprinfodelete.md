@@ -1,7 +1,8 @@
 ---
 UID: NF:mprapi.MprInfoDelete
 title: MprInfoDelete function (mprapi.h)
-description: The MprInfoDelete function deletes an information header created using MprInfoCreate, or retrieved by MprInfoBlockAdd, MprInfoBlockRemove, or MprInfoBlockSet.helpviewer_keywords: ["MprInfoDelete","MprInfoDelete function [RAS]","_mpr_mprinfodelete","mprapi/MprInfoDelete","rras.mprinfodelete"]
+description: The MprInfoDelete function deletes an information header created using MprInfoCreate, or retrieved by MprInfoBlockAdd, MprInfoBlockRemove, or MprInfoBlockSet.
+helpviewer_keywords: ["MprInfoDelete","MprInfoDelete function [RAS]","_mpr_mprinfodelete","mprapi/MprInfoDelete","rras.mprinfodelete"]
 old-location: rras\mprinfodelete.htm
 tech.root: RRAS
 ms.assetid: c81b92c2-a977-40e0-b971-e4e70e1a1371

@@ -1,7 +1,8 @@
 ---
 UID: NF:oleidl.IOleCache.InitCache
 title: IOleCache::InitCache (oleidl.h)
-description: Fills the cache as needed using the data provided by the specified data object.helpviewer_keywords: ["IOleCache interface [COM]","InitCache method","IOleCache.InitCache","IOleCache::InitCache","InitCache","InitCache method [COM]","InitCache method [COM]","IOleCache interface","_ole_iolecache_initcache","com.iolecache_initcache","oleidl/IOleCache::InitCache"]
+description: Fills the cache as needed using the data provided by the specified data object.
+helpviewer_keywords: ["IOleCache interface [COM]","InitCache method","IOleCache.InitCache","IOleCache::InitCache","InitCache","InitCache method [COM]","InitCache method [COM]","IOleCache interface","_ole_iolecache_initcache","com.iolecache_initcache","oleidl/IOleCache::InitCache"]
 old-location: com\iolecache_initcache.htm
 tech.root: com
 ms.assetid: 4b1f2fb6-636c-47dd-8f89-884f7b4f3977

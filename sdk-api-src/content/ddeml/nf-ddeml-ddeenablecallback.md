@@ -1,7 +1,8 @@
 ---
 UID: NF:ddeml.DdeEnableCallback
 title: DdeEnableCallback function (ddeml.h)
-description: Enables or disables transactions for a specific conversation or for all conversations currently established by the calling application.helpviewer_keywords: ["DdeEnableCallback","DdeEnableCallback function [Data Exchange]","EC_DISABLE","EC_ENABLEALL","EC_ENABLEONE","EC_QUERYWAITING","_win32_DdeEnableCallback","_win32_ddeenablecallback_cpp","dataxchg.ddeenablecallback","ddeml/DdeEnableCallback","winui._win32_ddeenablecallback"]
+description: Enables or disables transactions for a specific conversation or for all conversations currently established by the calling application.
+helpviewer_keywords: ["DdeEnableCallback","DdeEnableCallback function [Data Exchange]","EC_DISABLE","EC_ENABLEALL","EC_ENABLEONE","EC_QUERYWAITING","_win32_DdeEnableCallback","_win32_ddeenablecallback_cpp","dataxchg.ddeenablecallback","ddeml/DdeEnableCallback","winui._win32_ddeenablecallback"]
 old-location: dataxchg\ddeenablecallback.htm
 tech.root: dataxchg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\dataexchange\dynamicdataexchangemanagementlibrary\dynamicdataexchangemanagementreference\dynamicdataexchangemanagementfunctions\ddeenablecallback.htm

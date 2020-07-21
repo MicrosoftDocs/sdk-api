@@ -1,7 +1,8 @@
 ---
 UID: NE:gdiplusenums.LinearGradientMode
 title: LinearGradientMode (gdiplusenums.h)
-description: The LinearGradientMode enumeration specifies the direction in which the change of color occurs for a linear gradient brush.helpviewer_keywords: ["LinearGradientMode","LinearGradientMode enumeration [GDI+]","LinearGradientModeBackwardDiagonal","LinearGradientModeForwardDiagonal","LinearGradientModeHorizontal","LinearGradientModeVertical","_gdiplus_ENUM_LinearGradientMode","gdiplus._gdiplus_ENUM_LinearGradientMode","gdiplusenums/LinearGradientMode","gdiplusenums/LinearGradientModeBackwardDiagonal","gdiplusenums/LinearGradientModeForwardDiagonal","gdiplusenums/LinearGradientModeHorizontal","gdiplusenums/LinearGradientModeVertical"]
+description: The LinearGradientMode enumeration specifies the direction in which the change of color occurs for a linear gradient brush.
+helpviewer_keywords: ["LinearGradientMode","LinearGradientMode enumeration [GDI+]","LinearGradientModeBackwardDiagonal","LinearGradientModeForwardDiagonal","LinearGradientModeHorizontal","LinearGradientModeVertical","_gdiplus_ENUM_LinearGradientMode","gdiplus._gdiplus_ENUM_LinearGradientMode","gdiplusenums/LinearGradientMode","gdiplusenums/LinearGradientModeBackwardDiagonal","gdiplusenums/LinearGradientModeForwardDiagonal","gdiplusenums/LinearGradientModeHorizontal","gdiplusenums/LinearGradientModeVertical"]
 old-location: gdiplus\_gdiplus_ENUM_LinearGradientMode.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\enumerations\lineargradientmode.htm

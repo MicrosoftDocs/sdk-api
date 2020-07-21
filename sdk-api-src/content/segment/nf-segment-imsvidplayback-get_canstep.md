@@ -1,7 +1,8 @@
 ---
 UID: NF:segment.IMSVidPlayback.get_CanStep
 title: IMSVidPlayback::get_CanStep (segment.h)
-description: The get_CanStep method queries whether the input source can step frame by frame.helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","get_CanStep method","IMSVidPlayback.get_CanStep","IMSVidPlayback::get_CanStep","IMSVidPlaybackget_CanStep","get_CanStep","get_CanStep method [Microsoft TV Technologies]","get_CanStep method [Microsoft TV Technologies]","IMSVidPlayback interface","mstv.imsvidplayback_get_canstep","segment/IMSVidPlayback::get_CanStep"]
+description: The get_CanStep method queries whether the input source can step frame by frame.
+helpviewer_keywords: ["IMSVidPlayback interface [Microsoft TV Technologies]","get_CanStep method","IMSVidPlayback.get_CanStep","IMSVidPlayback::get_CanStep","IMSVidPlaybackget_CanStep","get_CanStep","get_CanStep method [Microsoft TV Technologies]","get_CanStep method [Microsoft TV Technologies]","IMSVidPlayback interface","mstv.imsvidplayback_get_canstep","segment/IMSVidPlayback::get_CanStep"]
 old-location: mstv\imsvidplayback_get_canstep.htm
 tech.root: mstv
 ms.assetid: 41aad247-1f04-4245-89df-8ac527926307

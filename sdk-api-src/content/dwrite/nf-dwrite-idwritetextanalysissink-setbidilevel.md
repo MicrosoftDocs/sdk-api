@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextAnalysisSink.SetBidiLevel
 title: IDWriteTextAnalysisSink::SetBidiLevel (dwrite.h)
-description: Sets a bidirectional level on the range, which is called once per run change (either explicit or resolved implicit).helpviewer_keywords: ["IDWriteTextAnalysisSink interface [Direct Write]","SetBidiLevel method","IDWriteTextAnalysisSink.SetBidiLevel","IDWriteTextAnalysisSink::SetBidiLevel","SetBidiLevel","SetBidiLevel method [Direct Write]","SetBidiLevel method [Direct Write]","IDWriteTextAnalysisSink interface","directwrite.idwritetextanalysissink_setbidilevel","dwrite/IDWriteTextAnalysisSink::SetBidiLevel"]
+description: Sets a bidirectional level on the range, which is called once per run change (either explicit or resolved implicit).
+helpviewer_keywords: ["IDWriteTextAnalysisSink interface [Direct Write]","SetBidiLevel method","IDWriteTextAnalysisSink.SetBidiLevel","IDWriteTextAnalysisSink::SetBidiLevel","SetBidiLevel","SetBidiLevel method [Direct Write]","SetBidiLevel method [Direct Write]","IDWriteTextAnalysisSink interface","directwrite.idwritetextanalysissink_setbidilevel","dwrite/IDWriteTextAnalysisSink::SetBidiLevel"]
 old-location: directwrite\idwritetextanalysissink_setbidilevel.htm
 tech.root: DirectWrite
 ms.assetid: f51bae22-b4a0-4f72-a341-4479d66cfec5

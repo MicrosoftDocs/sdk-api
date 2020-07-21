@@ -1,7 +1,8 @@
 ---
-UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,const void,UINT32)
+UID: NF:d2d1svg.ID2D1SvgElement.SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,constvoid,UINT32)
 title: ID2D1SvgElement::SetAttributeValue(PCWSTR,D2D1_SVG_ATTRIBUTE_POD_TYPE,const void,UINT32) (d2d1svg.h)
-description: Sets an attribute of this element using a POD type.helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","SetAttributeValue method","ID2D1SvgElement.SetAttributeValue","ID2D1SvgElement.SetAttributeValue(PCWSTR","D2D1_SVG_ATTRIBUTE_POD_TYPE","const void","UINT32)","ID2D1SvgElement::SetAttributeValue","ID2D1SvgElement::SetAttributeValue(PCWSTR","D2D1_SVG_ATTRIBUTE_POD_TYPE","const void","UINT32)","SetAttributeValue","SetAttributeValue method [Direct2D]","SetAttributeValue method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::SetAttributeValue","direct2d.id2d1svgelement_setattributevalue_2"]
+description: Sets an attribute of this element using a POD type.
+helpviewer_keywords: ["ID2D1SvgElement interface [Direct2D]","SetAttributeValue method","ID2D1SvgElement.SetAttributeValue","ID2D1SvgElement.SetAttributeValue(PCWSTR","D2D1_SVG_ATTRIBUTE_POD_TYPE","const void","UINT32)","ID2D1SvgElement::SetAttributeValue","ID2D1SvgElement::SetAttributeValue(PCWSTR","D2D1_SVG_ATTRIBUTE_POD_TYPE","const void","UINT32)","SetAttributeValue","SetAttributeValue method [Direct2D]","SetAttributeValue method [Direct2D]","ID2D1SvgElement interface","d2d1svg/ID2D1SvgElement::SetAttributeValue","direct2d.id2d1svgelement_setattributevalue_2"]
 old-location: direct2d\id2d1svgelement_setattributevalue_2.htm
 tech.root: Direct2D
 ms.assetid: 8ACAA04E-8ABB-49D1-A6F8-BCCEAD1DA460

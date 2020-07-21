@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IUserNotification.SetIconInfo
 title: IUserNotification::SetIconInfo (shobjidl_core.h)
-description: Sets the notification area icon associated with specific user information.helpviewer_keywords: ["IUserNotification interface [Windows Shell]","SetIconInfo method","IUserNotification.SetIconInfo","IUserNotification::SetIconInfo","SetIconInfo","SetIconInfo method [Windows Shell]","SetIconInfo method [Windows Shell]","IUserNotification interface","inet_IUserNotification_SetIconInfo","shell.IUserNotification_SetIconInfo","shobjidl_core/IUserNotification::SetIconInfo"]
+description: Sets the notification area icon associated with specific user information.
+helpviewer_keywords: ["IUserNotification interface [Windows Shell]","SetIconInfo method","IUserNotification.SetIconInfo","IUserNotification::SetIconInfo","SetIconInfo","SetIconInfo method [Windows Shell]","SetIconInfo method [Windows Shell]","IUserNotification interface","inet_IUserNotification_SetIconInfo","shell.IUserNotification_SetIconInfo","shobjidl_core/IUserNotification::SetIconInfo"]
 old-location: shell\IUserNotification_SetIconInfo.htm
 tech.root: shell
 ms.assetid: f9a3612e-8a25-48d5-8122-44d6aa217bab

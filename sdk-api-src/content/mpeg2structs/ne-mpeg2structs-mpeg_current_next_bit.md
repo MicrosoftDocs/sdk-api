@@ -1,7 +1,8 @@
 ---
 UID: NE:mpeg2structs.__MIDL___MIDL_itf_mpeg2structs_0000_0000_0004
 title: MPEG_CURRENT_NEXT_BIT (mpeg2structs.h)
-description: The MPEG_CURRENT_NEXT_BIT enumeration type specifies the value of the current_next_indicator bit.helpviewer_keywords: ["MPEG_CURRENT_NEXT_BIT","MPEG_CURRENT_NEXT_BIT enumeration [Microsoft TV Technologies]","MPEG_SECTION_IS_CURRENT","MPEG_SECTION_IS_NEXT","mpeg2structs/MPEG_CURRENT_NEXT_BIT","mpeg2structs/MPEG_SECTION_IS_CURRENT","mpeg2structs/MPEG_SECTION_IS_NEXT","mstv.mpeg_current_next_bit"]
+description: The MPEG_CURRENT_NEXT_BIT enumeration type specifies the value of the current_next_indicator bit.
+helpviewer_keywords: ["MPEG_CURRENT_NEXT_BIT","MPEG_CURRENT_NEXT_BIT enumeration [Microsoft TV Technologies]","MPEG_SECTION_IS_CURRENT","MPEG_SECTION_IS_NEXT","mpeg2structs/MPEG_CURRENT_NEXT_BIT","mpeg2structs/MPEG_SECTION_IS_CURRENT","mpeg2structs/MPEG_SECTION_IS_NEXT","mstv.mpeg_current_next_bit"]
 old-location: mstv\mpeg_current_next_bit.htm
 tech.root: mstv
 ms.assetid: b35ced88-92b3-4f70-842b-9664a714823c

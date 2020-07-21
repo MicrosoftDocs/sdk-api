@@ -1,7 +1,8 @@
 ---
 UID: NF:mmstream.IMultiMediaStream.GetDuration
 title: IMultiMediaStream::GetDuration (mmstream.h)
-description: Note  This interface is deprecated. New applications should not use it. The GetDuration method retrieves the duration of the multimedia stream.helpviewer_keywords: ["GetDuration","GetDuration method [DirectShow]","GetDuration method [DirectShow]","IMultiMediaStream interface","IMultiMediaStream interface [DirectShow]","GetDuration method","IMultiMediaStream.GetDuration","IMultiMediaStream::GetDuration","IMultiMediaStreamGetDuration","dshow.imultimediastream_getduration","mmstream/IMultiMediaStream::GetDuration"]
+description: Note  This interface is deprecated. New applications should not use it. The GetDuration method retrieves the duration of the multimedia stream.
+helpviewer_keywords: ["GetDuration","GetDuration method [DirectShow]","GetDuration method [DirectShow]","IMultiMediaStream interface","IMultiMediaStream interface [DirectShow]","GetDuration method","IMultiMediaStream.GetDuration","IMultiMediaStream::GetDuration","IMultiMediaStreamGetDuration","dshow.imultimediastream_getduration","mmstream/IMultiMediaStream::GetDuration"]
 old-location: dshow\imultimediastream_getduration.htm
 tech.root: DirectShow
 ms.assetid: 4d8104ec-aa2a-4151-bb7f-53611d4a71f2

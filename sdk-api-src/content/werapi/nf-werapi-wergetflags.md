@@ -1,7 +1,8 @@
 ---
 UID: NF:werapi.WerGetFlags
 title: WerGetFlags function (werapi.h)
-description: Retrieves the fault reporting settings for the specified process.helpviewer_keywords: ["WER_FAULT_REPORTING_ALWAYS_SHOW_UI","WER_FAULT_REPORTING_FLAG_DISABLE_THREAD_SUSPENSION","WER_FAULT_REPORTING_FLAG_NOHEAP","WER_FAULT_REPORTING_FLAG_QUEUE","WER_FAULT_REPORTING_FLAG_QUEUE_UPLOAD","WerGetFlags","WerGetFlags function [Windows Error Reporting]","base.wergetflags","wer.wergetflags","werapi/WerGetFlags"]
+description: Retrieves the fault reporting settings for the specified process.
+helpviewer_keywords: ["WER_FAULT_REPORTING_ALWAYS_SHOW_UI","WER_FAULT_REPORTING_FLAG_DISABLE_THREAD_SUSPENSION","WER_FAULT_REPORTING_FLAG_NOHEAP","WER_FAULT_REPORTING_FLAG_QUEUE","WER_FAULT_REPORTING_FLAG_QUEUE_UPLOAD","WerGetFlags","WerGetFlags function [Windows Error Reporting]","base.wergetflags","wer.wergetflags","werapi/WerGetFlags"]
 old-location: wer\wergetflags.htm
 tech.root: wer
 ms.assetid: 8c5f08c0-e2d1-448c-9a57-ef19897f64c6

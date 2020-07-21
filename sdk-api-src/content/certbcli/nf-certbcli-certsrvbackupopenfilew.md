@@ -1,7 +1,8 @@
 ---
 UID: NF:certbcli.CertSrvBackupOpenFileW
 title: CertSrvBackupOpenFileW function (certbcli.h)
-description: Opens a file for backup.helpviewer_keywords: ["CertSrvBackupOpenFile","CertSrvBackupOpenFile function [Security]","CertSrvBackupOpenFileW","_certsrv_certsrvbackupopenfile","certbcli/CertSrvBackupOpenFile","certbcli/CertSrvBackupOpenFileW","security.certsrvbackupopenfile"]
+description: Opens a file for backup.
+helpviewer_keywords: ["CertSrvBackupOpenFile","CertSrvBackupOpenFile function [Security]","CertSrvBackupOpenFileW","_certsrv_certsrvbackupopenfile","certbcli/CertSrvBackupOpenFile","certbcli/CertSrvBackupOpenFileW","security.certsrvbackupopenfile"]
 old-location: security\certsrvbackupopenfile.htm
 tech.root: SecCrypto
 ms.assetid: 5ddce73f-c693-437a-9eae-d7eaf482ee05

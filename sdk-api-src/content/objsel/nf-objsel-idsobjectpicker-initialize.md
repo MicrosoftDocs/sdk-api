@@ -1,7 +1,8 @@
 ---
 UID: NF:objsel.IDsObjectPicker.Initialize
 title: IDsObjectPicker::Initialize (objsel.h)
-description: The IDsObjectPicker::Initialize method initializes the object picker dialog box with data about the scopes, filters, and options used by the object picker dialog box.helpviewer_keywords: ["IDsObjectPicker interface [Active Directory]","Initialize method","IDsObjectPicker.Initialize","IDsObjectPicker::Initialize","Initialize","Initialize method [Active Directory]","Initialize method [Active Directory]","IDsObjectPicker interface","_glines_idsobjectpicker_initialize","ad.idsobjectpicker__initialize","ad.idsobjectpicker_initialize","objsel/IDsObjectPicker::Initialize"]
+description: The IDsObjectPicker::Initialize method initializes the object picker dialog box with data about the scopes, filters, and options used by the object picker dialog box.
+helpviewer_keywords: ["IDsObjectPicker interface [Active Directory]","Initialize method","IDsObjectPicker.Initialize","IDsObjectPicker::Initialize","Initialize","Initialize method [Active Directory]","Initialize method [Active Directory]","IDsObjectPicker interface","_glines_idsobjectpicker_initialize","ad.idsobjectpicker__initialize","ad.idsobjectpicker_initialize","objsel/IDsObjectPicker::Initialize"]
 old-location: ad\idsobjectpicker_initialize.htm
 tech.root: ad
 ms.assetid: bcf4d283-6709-4425-a122-8f0808502b58

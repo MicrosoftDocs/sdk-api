@@ -1,7 +1,8 @@
 ---
 UID: NF:iads.IADsAccessControlList.CopyAccessList
 title: IADsAccessControlList::CopyAccessList (iads.h)
-description: The IADsAccessControlList::CopyAccessList method copies every access control entry (ACE) in the access-control list (ACL) to the caller's process space.helpviewer_keywords: ["CopyAccessList","CopyAccessList method [ADSI]","CopyAccessList method [ADSI]","IADsAccessControlList interface","IADsAccessControlList interface [ADSI]","CopyAccessList method","IADsAccessControlList.CopyAccessList","IADsAccessControlList::CopyAccessList","_ds_iadsaccesscontrollist_copyaccesslist","adsi.iadsaccesscontrollist__copyaccesslist","adsi.iadsaccesscontrollist_copyaccesslist","iads/IADsAccessControlList::CopyAccessList"]
+description: The IADsAccessControlList::CopyAccessList method copies every access control entry (ACE) in the access-control list (ACL) to the caller's process space.
+helpviewer_keywords: ["CopyAccessList","CopyAccessList method [ADSI]","CopyAccessList method [ADSI]","IADsAccessControlList interface","IADsAccessControlList interface [ADSI]","CopyAccessList method","IADsAccessControlList.CopyAccessList","IADsAccessControlList::CopyAccessList","_ds_iadsaccesscontrollist_copyaccesslist","adsi.iadsaccesscontrollist__copyaccesslist","adsi.iadsaccesscontrollist_copyaccesslist","iads/IADsAccessControlList::CopyAccessList"]
 old-location: adsi\iadsaccesscontrollist_copyaccesslist.htm
 tech.root: adsi
 ms.assetid: 3f4c89ec-1144-4886-981a-75353d2dfe8b

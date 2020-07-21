@@ -1,7 +1,8 @@
 ---
 UID: NF:identitystore.IIdentityStore.ConvertToSid
 title: IIdentityStore::ConvertToSid (identitystore.h)
-description: Retrieves the security identifier (SID) associated with the specified identity and identity provider.helpviewer_keywords: ["ConvertToSid","ConvertToSid method [Security]","ConvertToSid method [Security]","IIdentityStore interface","IIdentityStore interface [Security]","ConvertToSid method","IIdentityStore.ConvertToSid","IIdentityStore::ConvertToSid","identitystore/IIdentityStore::ConvertToSid","security.iidentitystore_converttosid"]
+description: Retrieves the security identifier (SID) associated with the specified identity and identity provider.
+helpviewer_keywords: ["ConvertToSid","ConvertToSid method [Security]","ConvertToSid method [Security]","IIdentityStore interface","IIdentityStore interface [Security]","ConvertToSid method","IIdentityStore.ConvertToSid","IIdentityStore::ConvertToSid","identitystore/IIdentityStore::ConvertToSid","security.iidentitystore_converttosid"]
 old-location: security\iidentitystore_converttosid.htm
 tech.root: SecAuthN
 ms.assetid: 484365a9-aeaf-453f-9a5b-6f88b79f8a35

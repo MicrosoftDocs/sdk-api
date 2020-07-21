@@ -1,7 +1,8 @@
 ---
 UID: NF:winsync.ISyncKnowledge2.GetInspector
 title: ISyncKnowledge2::GetInspector (winsync.h)
-description: Returns an object that can be used to retrieve the contents of the knowledge object.helpviewer_keywords: ["GetInspector","GetInspector method [Windows Sync]","GetInspector method [Windows Sync]","ISyncKnowledge2 interface","ISyncKnowledge2 interface [Windows Sync]","GetInspector method","ISyncKnowledge2.GetInspector","ISyncKnowledge2::GetInspector","winsync.isyncknowledge2_getinspector","winsync/ISyncKnowledge2::GetInspector"]
+description: Returns an object that can be used to retrieve the contents of the knowledge object.
+helpviewer_keywords: ["GetInspector","GetInspector method [Windows Sync]","GetInspector method [Windows Sync]","ISyncKnowledge2 interface","ISyncKnowledge2 interface [Windows Sync]","GetInspector method","ISyncKnowledge2.GetInspector","ISyncKnowledge2::GetInspector","winsync.isyncknowledge2_getinspector","winsync/ISyncKnowledge2::GetInspector"]
 old-location: winsync\isyncknowledge2_getinspector.htm
 tech.root: winsync
 ms.assetid: 088d864f-bb74-4fd8-b8cb-352cb2731edb

@@ -1,7 +1,8 @@
 ---
 UID: NF:commctrl.ListView_GetItemState
 title: ListView_GetItemState macro (commctrl.h)
-description: Gets the state of a list-view item. You can use this macro or send the LVM_GETITEMSTATE message explicitly.helpviewer_keywords: ["LVIS_CUT","LVIS_DROPHILITED","LVIS_FOCUSED","LVIS_OVERLAYMASK","LVIS_SELECTED","LVIS_STATEIMAGEMASK","ListView_GetItemState","ListView_GetItemState macro [Windows Controls]","_win32_ListView_GetItemState","_win32_ListView_GetItemState_cpp","commctrl/ListView_GetItemState","controls.ListView_GetItemState","controls._win32_ListView_GetItemState"]
+description: Gets the state of a list-view item. You can use this macro or send the LVM_GETITEMSTATE message explicitly.
+helpviewer_keywords: ["LVIS_CUT","LVIS_DROPHILITED","LVIS_FOCUSED","LVIS_OVERLAYMASK","LVIS_SELECTED","LVIS_STATEIMAGEMASK","ListView_GetItemState","ListView_GetItemState macro [Windows Controls]","_win32_ListView_GetItemState","_win32_ListView_GetItemState_cpp","commctrl/ListView_GetItemState","controls.ListView_GetItemState","controls._win32_ListView_GetItemState"]
 old-location: controls\ListView_GetItemState.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\listview\macros\listview_getitemstate.htm

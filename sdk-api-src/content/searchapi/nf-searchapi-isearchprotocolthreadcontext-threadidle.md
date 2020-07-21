@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.ISearchProtocolThreadContext.ThreadIdle
 title: ISearchProtocolThreadContext::ThreadIdle (searchapi.h)
-description: Notifies the protocol handler that the filtering thread is idle, so that the protocol handler can clean up any cache it might have built up.helpviewer_keywords: ["ISearchProtocolThreadContext interface [search]","ThreadIdle method","ISearchProtocolThreadContext.ThreadIdle","ISearchProtocolThreadContext::ThreadIdle","ThreadIdle","ThreadIdle method [search]","ThreadIdle method [search]","ISearchProtocolThreadContext interface","_search_ISearchProtocolThreadContext_ThreadIdle","search._search_ISearchProtocolThreadContext_ThreadIdle","searchapi/ISearchProtocolThreadContext::ThreadIdle"]
+description: Notifies the protocol handler that the filtering thread is idle, so that the protocol handler can clean up any cache it might have built up.
+helpviewer_keywords: ["ISearchProtocolThreadContext interface [search]","ThreadIdle method","ISearchProtocolThreadContext.ThreadIdle","ISearchProtocolThreadContext::ThreadIdle","ThreadIdle","ThreadIdle method [search]","ThreadIdle method [search]","ISearchProtocolThreadContext interface","_search_ISearchProtocolThreadContext_ThreadIdle","search._search_ISearchProtocolThreadContext_ThreadIdle","searchapi/ISearchProtocolThreadContext::ThreadIdle"]
 old-location: search\_search_ISearchProtocolThreadContext_ThreadIdle.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\isearchprotocolthreadcontext\threadidle.htm

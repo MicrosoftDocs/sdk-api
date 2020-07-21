@@ -1,7 +1,8 @@
 ---
 UID: NN:gpmgmt.IGPMStatusMessage
 title: IGPMStatusMessage (gpmgmt.h)
-description: The IGPMStatusMessage interface contains property methods that retrieve various properties of status messages related to GPO operations.helpviewer_keywords: ["GPMStatusMessage","IGPMStatusMessage","IGPMStatusMessage interface [GPMC]","IGPMStatusMessage interface [GPMC]","described","_win32_igpmstatusmessage","gpmc.igpmstatusmessage","gpmgmt/IGPMStatusMessage"]
+description: The IGPMStatusMessage interface contains property methods that retrieve various properties of status messages related to GPO operations.
+helpviewer_keywords: ["GPMStatusMessage","IGPMStatusMessage","IGPMStatusMessage interface [GPMC]","IGPMStatusMessage interface [GPMC]","described","_win32_igpmstatusmessage","gpmc.igpmstatusmessage","gpmgmt/IGPMStatusMessage"]
 old-location: gpmc\igpmstatusmessage.htm
 tech.root: gpmc
 ms.assetid: 8570d40c-25c2-405c-b52a-dae6c0eb50e0

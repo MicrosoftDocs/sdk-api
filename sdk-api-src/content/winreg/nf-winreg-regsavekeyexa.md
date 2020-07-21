@@ -1,7 +1,8 @@
 ---
 UID: NF:winreg.RegSaveKeyExA
 title: RegSaveKeyExA function (winreg.h)
-description: Saves the specified key and all of its subkeys and values to a registry file, in the specified format.helpviewer_keywords: ["REG_LATEST_FORMAT","REG_NO_COMPRESSION","REG_STANDARD_FORMAT","RegSaveKeyEx","RegSaveKeyEx function","RegSaveKeyExA","RegSaveKeyExW","_win32_regsavekeyex","base.regsavekeyex","winreg/RegSaveKeyEx","winreg/RegSaveKeyExA","winreg/RegSaveKeyExW"]
+description: Saves the specified key and all of its subkeys and values to a registry file, in the specified format.
+helpviewer_keywords: ["REG_LATEST_FORMAT","REG_NO_COMPRESSION","REG_STANDARD_FORMAT","RegSaveKeyEx","RegSaveKeyEx function","RegSaveKeyExA","RegSaveKeyExW","_win32_regsavekeyex","base.regsavekeyex","winreg/RegSaveKeyEx","winreg/RegSaveKeyExA","winreg/RegSaveKeyExW"]
 old-location: base\regsavekeyex.htm
 tech.root: SysInfo
 ms.assetid: f93b4162-cac4-42f7-bfd4-9e23fff80a03
@@ -184,6 +185,10 @@ The calling process must have the SE_BACKUP_NAME privilege enabled. For more inf
 
 
 
+
+
+> [!NOTE]
+> The winreg.h header defines RegSaveKeyEx as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

@@ -1,7 +1,8 @@
 ---
 UID: NN:wpcapi.IWPCProviderConfig
 title: IWPCProviderConfig (wpcapi.h)
-description: Exposes configuration methods that are implemented by third parties.helpviewer_keywords: ["IWPCProviderConfig","IWPCProviderConfig interface","IWPCProviderConfig interface","described","parcon.iwpcproviderconfig","wpcapi/IWPCProviderConfig"]
+description: Exposes configuration methods that are implemented by third parties.
+helpviewer_keywords: ["IWPCProviderConfig","IWPCProviderConfig interface","IWPCProviderConfig interface","described","parcon.iwpcproviderconfig","wpcapi/IWPCProviderConfig"]
 old-location: parcon\iwpcproviderconfig.htm
 tech.root: parcon
 ms.assetid: 008786aa-72ef-4591-8826-01176d3e3fba

@@ -1,7 +1,8 @@
 ---
 UID: NN:shobjidl_core.IDelegateFolder
 title: IDelegateFolder (shobjidl_core.h)
-description: Exposes a method through which a delegate folder is given the IMalloc interface required to allocate and free item IDs.helpviewer_keywords: ["IDelegateFolder","IDelegateFolder interface [Windows Shell]","IDelegateFolder interface [Windows Shell]","described","shell.IDelegateFolder","shell_IDelegateFolder","shobjidl_core/IDelegateFolder"]
+description: Exposes a method through which a delegate folder is given the IMalloc interface required to allocate and free item IDs.
+helpviewer_keywords: ["IDelegateFolder","IDelegateFolder interface [Windows Shell]","IDelegateFolder interface [Windows Shell]","described","shell.IDelegateFolder","shell_IDelegateFolder","shobjidl_core/IDelegateFolder"]
 old-location: shell\IDelegateFolder.htm
 tech.root: shell
 ms.assetid: 16db01f3-4167-43f0-9ef7-34eec906e199

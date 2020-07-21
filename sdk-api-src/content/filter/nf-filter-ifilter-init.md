@@ -1,7 +1,8 @@
 ---
 UID: NF:filter.IFilter.Init
 title: IFilter::Init (filter.h)
-description: Initializes a filtering session.helpviewer_keywords: ["IFilter interface [Indexing Service]","Init method","IFilter.Init","IFilter::Init","Init","Init method [Indexing Service]","Init method [Indexing Service]","IFilter interface","_idxs_IFilter_Init","filter/IFilter::Init","indexsrv.ifilter_init"]
+description: Initializes a filtering session.
+helpviewer_keywords: ["IFilter interface [Indexing Service]","Init method","IFilter.Init","IFilter::Init","Init","Init method [Indexing Service]","Init method [Indexing Service]","IFilter interface","_idxs_IFilter_Init","filter/IFilter::Init","indexsrv.ifilter_init"]
 old-location: indexsrv\ifilter_init.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_2oc4.htm

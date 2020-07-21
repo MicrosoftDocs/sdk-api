@@ -1,7 +1,8 @@
 ---
 UID: NE:d3d12video.D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS
 title: D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS
-description: Specifies the automatic processing features that a video processor can support.helpviewer_keywords: ["D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS","D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS",""]
+description: Specifies the automatic processing features that a video processor can support.
+helpviewer_keywords: ["D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS","D3D12_VIDEO_PROCESS_AUTO_PROCESSING_FLAGS",""]
 tech.root: mf
 ms.assetid: 4a93c0be-32e7-4c7a-a015-3195490280cb
 ms.date: 05/28/2019

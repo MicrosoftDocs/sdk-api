@@ -1,7 +1,8 @@
 ---
 UID: NF:propvarutil.IsVarTypeSignedInteger
 title: IsVarTypeSignedInteger function (propvarutil.h)
-description: Returns whether a VARTYPE is a signed integer.helpviewer_keywords: ["IsVarTypeSignedInteger","IsVarTypeSignedInteger function [Windows Properties]","_shell_IsVarTypeSignedInteger","properties.IsVarTypeSignedInteger","propvarutil/IsVarTypeSignedInteger","shell.IsVarTypeSignedInteger"]
+description: Returns whether a VARTYPE is a signed integer.
+helpviewer_keywords: ["IsVarTypeSignedInteger","IsVarTypeSignedInteger function [Windows Properties]","_shell_IsVarTypeSignedInteger","properties.IsVarTypeSignedInteger","propvarutil/IsVarTypeSignedInteger","shell.IsVarTypeSignedInteger"]
 old-location: properties\IsVarTypeSignedInteger.htm
 tech.root: properties
 ms.assetid: 8d5510c6-6c1c-4cc5-85a6-00514278029d

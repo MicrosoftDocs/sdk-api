@@ -1,7 +1,8 @@
 ---
 UID: NE:encdec.CPEvents
 title: CPEvents (encdec.h)
-description: This topic applies to Windows XP Service Pack 1 or later.helpviewer_keywords: ["CPEVENT_COPP","CPEVENT_DOWNRES","CPEVENT_LICENSE","CPEVENT_NONE","CPEVENT_RATINGS","CPEVENT_ROLLBACK","CPEVENT_SAC","CPEVENT_STUBLIB","CPEVENT_UNTRUSTEDGRAPH","CPEvents","CPEvents enumeration [Microsoft TV Technologies]","encdec/CPEVENT_COPP","encdec/CPEVENT_DOWNRES","encdec/CPEVENT_LICENSE","encdec/CPEVENT_NONE","encdec/CPEVENT_RATINGS","encdec/CPEVENT_ROLLBACK","encdec/CPEVENT_SAC","encdec/CPEVENT_STUBLIB","encdec/CPEVENT_UNTRUSTEDGRAPH","encdec/CPEvents","mstv.cpevents"]
+description: This topic applies to Windows XP Service Pack 1 or later.
+helpviewer_keywords: ["CPEVENT_COPP","CPEVENT_DOWNRES","CPEVENT_LICENSE","CPEVENT_NONE","CPEVENT_RATINGS","CPEVENT_ROLLBACK","CPEVENT_SAC","CPEVENT_STUBLIB","CPEVENT_UNTRUSTEDGRAPH","CPEvents","CPEvents enumeration [Microsoft TV Technologies]","encdec/CPEVENT_COPP","encdec/CPEVENT_DOWNRES","encdec/CPEVENT_LICENSE","encdec/CPEVENT_NONE","encdec/CPEVENT_RATINGS","encdec/CPEVENT_ROLLBACK","encdec/CPEVENT_SAC","encdec/CPEVENT_STUBLIB","encdec/CPEVENT_UNTRUSTEDGRAPH","encdec/CPEvents","mstv.cpevents"]
 old-location: mstv\cpevents.htm
 tech.root: mstv
 ms.assetid: 7a8ef55f-0546-4642-960d-6bd6093ab5d2

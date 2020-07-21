@@ -1,7 +1,8 @@
 ---
 UID: NF:bdatif.IGuideData.GetProgramProperties
 title: IGuideData::GetProgramProperties (bdatif.h)
-description: The GetProgramProperties method retrieves the properties for a specified program.helpviewer_keywords: ["GetProgramProperties","GetProgramProperties method [Microsoft TV Technologies]","GetProgramProperties method [Microsoft TV Technologies]","IGuideData interface","IGuideData interface [Microsoft TV Technologies]","GetProgramProperties method","IGuideData.GetProgramProperties","IGuideData::GetProgramProperties","IGuideDataGetProgramProperties","bdatif/IGuideData::GetProgramProperties","mstv.iguidedata_getprogramproperties"]
+description: The GetProgramProperties method retrieves the properties for a specified program.
+helpviewer_keywords: ["GetProgramProperties","GetProgramProperties method [Microsoft TV Technologies]","GetProgramProperties method [Microsoft TV Technologies]","IGuideData interface","IGuideData interface [Microsoft TV Technologies]","GetProgramProperties method","IGuideData.GetProgramProperties","IGuideData::GetProgramProperties","IGuideDataGetProgramProperties","bdatif/IGuideData::GetProgramProperties","mstv.iguidedata_getprogramproperties"]
 old-location: mstv\iguidedata_getprogramproperties.htm
 tech.root: mstv
 ms.assetid: 57eb55bf-49d9-471e-b59c-0d87aa3c3e3c

@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmscreen.IFsrmFileScreenException.get_Path
 title: IFsrmFileScreenException::get_Path (fsrmscreen.h)
-description: Retrieves the path that is associated with this file screen exception.helpviewer_keywords: ["IFsrmFileScreenException interface [File Server Resource Manager]","Path property","IFsrmFileScreenException.Path","IFsrmFileScreenException.get_Path","IFsrmFileScreenException::Path","IFsrmFileScreenException::get_Path","Path property [File Server Resource Manager]","Path property [File Server Resource Manager]","IFsrmFileScreenException interface","fs.ifsrmfilescreenexception_path","fsrm.ifsrmfilescreenexception_path","fsrmscreen/IFsrmFileScreenException::Path","fsrmscreen/IFsrmFileScreenException::get_Path","get_Path"]
+description: Retrieves the path that is associated with this file screen exception.
+helpviewer_keywords: ["IFsrmFileScreenException interface [File Server Resource Manager]","Path property","IFsrmFileScreenException.Path","IFsrmFileScreenException.get_Path","IFsrmFileScreenException::Path","IFsrmFileScreenException::get_Path","Path property [File Server Resource Manager]","Path property [File Server Resource Manager]","IFsrmFileScreenException interface","fs.ifsrmfilescreenexception_path","fsrm.ifsrmfilescreenexception_path","fsrmscreen/IFsrmFileScreenException::Path","fsrmscreen/IFsrmFileScreenException::get_Path","get_Path"]
 old-location: fsrm\ifsrmfilescreenexception_path.htm
 tech.root: fsrm
 ms.assetid: ac447042-b87b-4387-bb8f-2e69df9e7f8f

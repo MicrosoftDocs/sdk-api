@@ -1,7 +1,8 @@
 ---
 UID: NN:wtsprotocol.IWRdsProtocolLicenseConnection
 title: IWRdsProtocolLicenseConnection (wtsprotocol.h)
-description: Exposes methods used by the Remote Desktop Services service to perform the licensing handshake during a connection sequence.helpviewer_keywords: ["IWRdsProtocolLicenseConnection","IWRdsProtocolLicenseConnection interface [Remote Desktop Services]","IWRdsProtocolLicenseConnection interface [Remote Desktop Services]","described","termserv.iwrdsprotocollicenseconnection","wtsprotocol/IWRdsProtocolLicenseConnection"]
+description: Exposes methods used by the Remote Desktop Services service to perform the licensing handshake during a connection sequence.
+helpviewer_keywords: ["IWRdsProtocolLicenseConnection","IWRdsProtocolLicenseConnection interface [Remote Desktop Services]","IWRdsProtocolLicenseConnection interface [Remote Desktop Services]","described","termserv.iwrdsprotocollicenseconnection","wtsprotocol/IWRdsProtocolLicenseConnection"]
 old-location: termserv\iwrdsprotocollicenseconnection.htm
 tech.root: TermServ
 ms.assetid: 498c31c5-1cb6-41d7-91fb-7409ea03dda0

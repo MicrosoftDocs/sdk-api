@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcSignatureReferenceSet.GetEnumerator
 title: IOpcSignatureReferenceSet::GetEnumerator (msopc.h)
-description: Gets an enumerator of IOpcSignatureReference interface pointers in the set.helpviewer_keywords: ["GetEnumerator","GetEnumerator method [Open Packaging Conventions]","GetEnumerator method [Open Packaging Conventions]","IOpcSignatureReferenceSet interface","IOpcSignatureReferenceSet interface [Open Packaging Conventions]","GetEnumerator method","IOpcSignatureReferenceSet.GetEnumerator","IOpcSignatureReferenceSet::GetEnumerator","msopc/IOpcSignatureReferenceSet::GetEnumerator","opc.iopcsignaturereferenceset_getenumerator"]
+description: Gets an enumerator of IOpcSignatureReference interface pointers in the set.
+helpviewer_keywords: ["GetEnumerator","GetEnumerator method [Open Packaging Conventions]","GetEnumerator method [Open Packaging Conventions]","IOpcSignatureReferenceSet interface","IOpcSignatureReferenceSet interface [Open Packaging Conventions]","GetEnumerator method","IOpcSignatureReferenceSet.GetEnumerator","IOpcSignatureReferenceSet::GetEnumerator","msopc/IOpcSignatureReferenceSet::GetEnumerator","opc.iopcsignaturereferenceset_getenumerator"]
 old-location: opc\iopcsignaturereferenceset_getenumerator.htm
 tech.root: OPC
 ms.assetid: a4c39119-7317-408c-9173-efd6d449002e

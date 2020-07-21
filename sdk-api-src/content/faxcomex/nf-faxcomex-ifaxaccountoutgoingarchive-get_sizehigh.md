@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxAccountOutgoingArchive.get_SizeHigh
 title: IFaxAccountOutgoingArchive::get_SizeHigh (faxcomex.h)
-description: Specifies the high-order 32-bit value of the size (in bytes) of the archive of outbound fax messages for a particular fax account.helpviewer_keywords: ["IFaxAccountOutgoingArchive interface [Fax Service]","SizeHigh property","IFaxAccountOutgoingArchive.SizeHigh","IFaxAccountOutgoingArchive.get_SizeHigh","IFaxAccountOutgoingArchive::SizeHigh","IFaxAccountOutgoingArchive::get_SizeHigh","SizeHigh property [Fax Service]","SizeHigh property [Fax Service]","IFaxAccountOutgoingArchive interface","_mfax_faxaccountoutgoingarchive.sizehigh","fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_sizehigh_cpp","fax._mfax_faxaccountoutgoingarchive_sizehigh","faxcomex/IFaxAccountOutgoingArchive::SizeHigh","faxcomex/IFaxAccountOutgoingArchive::get_SizeHigh","get_SizeHigh"]
+description: Specifies the high-order 32-bit value of the size (in bytes) of the archive of outbound fax messages for a particular fax account.
+helpviewer_keywords: ["IFaxAccountOutgoingArchive interface [Fax Service]","SizeHigh property","IFaxAccountOutgoingArchive.SizeHigh","IFaxAccountOutgoingArchive.get_SizeHigh","IFaxAccountOutgoingArchive::SizeHigh","IFaxAccountOutgoingArchive::get_SizeHigh","SizeHigh property [Fax Service]","SizeHigh property [Fax Service]","IFaxAccountOutgoingArchive interface","_mfax_faxaccountoutgoingarchive.sizehigh","fax._mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_sizehigh_cpp","fax._mfax_faxaccountoutgoingarchive_sizehigh","faxcomex/IFaxAccountOutgoingArchive::SizeHigh","faxcomex/IFaxAccountOutgoingArchive::get_SizeHigh","get_SizeHigh"]
 old-location: fax\_mfax_faxaccountoutgoingarchive_cpp_mfax_faxaccountoutgoingarchive_sizehigh_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\reference\serviceextendedcom\i\ifaxaccountoutgoingarchive\sizehigh.htm

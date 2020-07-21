@@ -1,7 +1,8 @@
 ---
 UID: NF:certenroll.IX509EnrollmentStatus.put_Display
 title: IX509EnrollmentStatus::put_Display (certenroll.h)
-description: Specifies or retrieves a value that indicates whether to display the status information in a user interface.helpviewer_keywords: ["Display property [Security]","Display property [Security]","IX509EnrollmentStatus interface","IX509EnrollmentStatus interface [Security]","Display property","IX509EnrollmentStatus.Display","IX509EnrollmentStatus.put_Display","IX509EnrollmentStatus::Display","IX509EnrollmentStatus::get_Display","IX509EnrollmentStatus::put_Display","certenroll/IX509EnrollmentStatus::Display","certenroll/IX509EnrollmentStatus::get_Display","certenroll/IX509EnrollmentStatus::put_Display","put_Display","security.ix509enrollmentstatus_display_property"]
+description: Specifies or retrieves a value that indicates whether to display the status information in a user interface.
+helpviewer_keywords: ["Display property [Security]","Display property [Security]","IX509EnrollmentStatus interface","IX509EnrollmentStatus interface [Security]","Display property","IX509EnrollmentStatus.Display","IX509EnrollmentStatus.put_Display","IX509EnrollmentStatus::Display","IX509EnrollmentStatus::get_Display","IX509EnrollmentStatus::put_Display","certenroll/IX509EnrollmentStatus::Display","certenroll/IX509EnrollmentStatus::get_Display","certenroll/IX509EnrollmentStatus::put_Display","put_Display","security.ix509enrollmentstatus_display_property"]
 old-location: security\ix509enrollmentstatus_display_property.htm
 tech.root: seccertenroll
 ms.assetid: 91ac74af-8e59-42fc-bca8-d7ef96a1fed0

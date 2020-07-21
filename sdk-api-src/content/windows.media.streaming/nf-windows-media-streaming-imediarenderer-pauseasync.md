@@ -1,7 +1,8 @@
 ---
 UID: NF:windows.media.streaming.IMediaRenderer.PauseAsync
 title: IMediaRenderer::streaming (windows.media.streaming.h)
-description: Instructs the DMR asynchronously to pause playing the current content.helpviewer_keywords: ["IMediaRenderer interface [Media Streaming API]","PauseAsync method","IMediaRenderer.PauseAsync","IMediaRenderer.streaming","IMediaRenderer::PauseAsync","IMediaRenderer::streaming","PauseAsync","PauseAsync method [Media Streaming API]","PauseAsync method [Media Streaming API]","IMediaRenderer interface","mediastreaming.imediarenderer_pauseasync","windows/IMediaRenderer::PauseAsync"]
+description: Instructs the DMR asynchronously to pause playing the current content.
+helpviewer_keywords: ["IMediaRenderer interface [Media Streaming API]","PauseAsync method","IMediaRenderer.PauseAsync","IMediaRenderer.streaming","IMediaRenderer::PauseAsync","IMediaRenderer::streaming","PauseAsync","PauseAsync method [Media Streaming API]","PauseAsync method [Media Streaming API]","IMediaRenderer interface","mediastreaming.imediarenderer_pauseasync","windows/IMediaRenderer::PauseAsync"]
 old-location: mediastreaming\imediarenderer_pauseasync.htm
 tech.root: mediastreaming
 ms.assetid: 2EADD9BE-2306-4CDA-AD5C-8342C06EAF1B

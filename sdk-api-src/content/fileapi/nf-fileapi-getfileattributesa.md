@@ -1,7 +1,8 @@
 ---
 UID: NF:fileapi.GetFileAttributesA
 title: GetFileAttributesA function (fileapi.h)
-description: Retrieves file system attributes for a specified file or directory.helpviewer_keywords: ["GetFileAttributes","GetFileAttributes function [Files]","GetFileAttributesA","GetFileAttributesW","_win32_getfileattributes","base.getfileattributes","fileapi/GetFileAttributes","fileapi/GetFileAttributesA","fileapi/GetFileAttributesW","fs.getfileattributes","winbase/GetFileAttributes","winbase/GetFileAttributesA","winbase/GetFileAttributesW"]
+description: Retrieves file system attributes for a specified file or directory.
+helpviewer_keywords: ["GetFileAttributes","GetFileAttributes function [Files]","GetFileAttributesA","GetFileAttributesW","_win32_getfileattributes","base.getfileattributes","fileapi/GetFileAttributes","fileapi/GetFileAttributesA","fileapi/GetFileAttributesW","fs.getfileattributes","winbase/GetFileAttributes","winbase/GetFileAttributesA","winbase/GetFileAttributesW"]
 old-location: fs\getfileattributes.htm
 tech.root: FileIO
 ms.assetid: 9f9bcdbb-1ffd-49c2-92f4-181fdcc9c690
@@ -195,6 +196,10 @@ For an example, see
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The fileapi.h header defines GetFileAttributes as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

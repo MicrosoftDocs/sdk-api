@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsCreateMessage
 title: WsCreateMessage function (webservices.h)
-description: Creates a message object with the specified properties.helpviewer_keywords: ["WsCreateMessage","WsCreateMessage function [Web Services for Windows]","webservices/WsCreateMessage","wsw.wscreatemessage"]
+description: Creates a message object with the specified properties.
+helpviewer_keywords: ["WsCreateMessage","WsCreateMessage function [Web Services for Windows]","webservices/WsCreateMessage","wsw.wscreatemessage"]
 old-location: wsw\wscreatemessage.htm
 tech.root: wsw
 ms.assetid: 1c48647e-9e77-4b7a-add3-e035c7f9f27e

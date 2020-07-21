@@ -1,7 +1,8 @@
 ---
 UID: NN:comsvcs.IObjectContextInfo2
 title: IObjectContextInfo2 (comsvcs.h)
-description: Provides additional information about an object's context. This interface extends the IObjectContextInfo interface.helpviewer_keywords: ["IObjectContextInfo2","IObjectContextInfo2 interface [COM+]","IObjectContextInfo2 interface [COM+]","described","_cos_IObjectContextInfo2","comsvcs/IObjectContextInfo2","cos.iobjectcontextinfo2"]
+description: Provides additional information about an object's context. This interface extends the IObjectContextInfo interface.
+helpviewer_keywords: ["IObjectContextInfo2","IObjectContextInfo2 interface [COM+]","IObjectContextInfo2 interface [COM+]","described","_cos_IObjectContextInfo2","comsvcs/IObjectContextInfo2","cos.iobjectcontextinfo2"]
 old-location: cos\iobjectcontextinfo2.htm
 tech.root: cossdk
 ms.assetid: 21e078d2-ba93-4118-b1d1-3b4b6e0e28a4

@@ -1,7 +1,8 @@
 ---
 UID: NE:winevt._EVT_CHANNEL_TYPE
 title: EVT_CHANNEL_TYPE (winevt.h)
-description: Defines the type of a channel.helpviewer_keywords: ["EVT_CHANNEL_TYPE","EVT_CHANNEL_TYPE enumeration [EventLog]","EvtChannelTypeAdmin","EvtChannelTypeAnalytic","EvtChannelTypeDebug","EvtChannelTypeOperational","wes.evt_channel_type","winevt/EVT_CHANNEL_TYPE","winevt/EvtChannelTypeAdmin","winevt/EvtChannelTypeAnalytic","winevt/EvtChannelTypeDebug","winevt/EvtChannelTypeOperational"]
+description: Defines the type of a channel.
+helpviewer_keywords: ["EVT_CHANNEL_TYPE","EVT_CHANNEL_TYPE enumeration [EventLog]","EvtChannelTypeAdmin","EvtChannelTypeAnalytic","EvtChannelTypeDebug","EvtChannelTypeOperational","wes.evt_channel_type","winevt/EVT_CHANNEL_TYPE","winevt/EvtChannelTypeAdmin","winevt/EvtChannelTypeAnalytic","winevt/EvtChannelTypeDebug","winevt/EvtChannelTypeOperational"]
 old-location: wes\evt_channel_type.htm
 tech.root: wes
 ms.assetid: 5650dd28-b0ef-4d74-abc6-85ed2bd56b38

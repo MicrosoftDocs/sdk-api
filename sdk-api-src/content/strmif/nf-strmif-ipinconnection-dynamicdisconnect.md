@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IPinConnection.DynamicDisconnect
 title: IPinConnection::DynamicDisconnect (strmif.h)
-description: The DynamicDisconnect method disconnects the pin when the filter is active (paused or running). Call this method instead of IPin::Disconnect to disconnect a pin when the graph is running or paused.helpviewer_keywords: ["DynamicDisconnect","DynamicDisconnect method [DirectShow]","DynamicDisconnect method [DirectShow]","IPinConnection interface","IPinConnection interface [DirectShow]","DynamicDisconnect method","IPinConnection.DynamicDisconnect","IPinConnection::DynamicDisconnect","IPinConnectionDynamicDisconnect","dshow.ipinconnection_dynamicdisconnect","strmif/IPinConnection::DynamicDisconnect"]
+description: The DynamicDisconnect method disconnects the pin when the filter is active (paused or running). Call this method instead of IPin::Disconnect to disconnect a pin when the graph is running or paused.
+helpviewer_keywords: ["DynamicDisconnect","DynamicDisconnect method [DirectShow]","DynamicDisconnect method [DirectShow]","IPinConnection interface","IPinConnection interface [DirectShow]","DynamicDisconnect method","IPinConnection.DynamicDisconnect","IPinConnection::DynamicDisconnect","IPinConnectionDynamicDisconnect","dshow.ipinconnection_dynamicdisconnect","strmif/IPinConnection::DynamicDisconnect"]
 old-location: dshow\ipinconnection_dynamicdisconnect.htm
 tech.root: DirectShow
 ms.assetid: 44a5a219-fd42-4fe1-a767-f74d01d86012

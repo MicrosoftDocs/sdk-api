@@ -1,7 +1,8 @@
 ---
 UID: NS:bluetoothapis._BLUETOOTH_DEVICE_SEARCH_PARAMS
 title: BLUETOOTH_DEVICE_SEARCH_PARAMS (bluetoothapis.h)
-description: Specifies search criteria for Bluetooth device searches.helpviewer_keywords: ["BLUETOOTH_DEVICE_SEARCH_PARAMS","BLUETOOTH_DEVICE_SEARCH_PARAMS structure [Bluetooth]","bluetooth.bluetooth_device_search_params","bluetoothapis/BLUETOOTH_DEVICE_SEARCH_PARAMS"]
+description: Specifies search criteria for Bluetooth device searches.
+helpviewer_keywords: ["BLUETOOTH_DEVICE_SEARCH_PARAMS","BLUETOOTH_DEVICE_SEARCH_PARAMS structure [Bluetooth]","bluetooth.bluetooth_device_search_params","bluetoothapis/BLUETOOTH_DEVICE_SEARCH_PARAMS"]
 old-location: bluetooth\bluetooth_device_search_params.htm
 tech.root: bluetooth
 ms.assetid: e267df61-d0f5-434f-b49c-6899c2abfa2a

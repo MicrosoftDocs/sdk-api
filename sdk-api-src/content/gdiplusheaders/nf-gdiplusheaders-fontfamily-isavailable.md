@@ -1,7 +1,8 @@
 ---
 UID: NF:gdiplusheaders.FontFamily.IsAvailable
 title: FontFamily::IsAvailable (gdiplusheaders.h)
-description: The FontFamily::IsAvailable method determines whether this FontFamily object was created successfully.helpviewer_keywords: ["FontFamily class [GDI+]","IsAvailable method","FontFamily.IsAvailable","FontFamily::IsAvailable","IsAvailable","IsAvailable method [GDI+]","IsAvailable method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_IsAvailable_","gdiplus._gdiplus_CLASS_FontFamily_IsAvailable_"]
+description: The FontFamily::IsAvailable method determines whether this FontFamily object was created successfully.
+helpviewer_keywords: ["FontFamily class [GDI+]","IsAvailable method","FontFamily.IsAvailable","FontFamily::IsAvailable","IsAvailable","IsAvailable method [GDI+]","IsAvailable method [GDI+]","FontFamily class","_gdiplus_CLASS_FontFamily_IsAvailable_","gdiplus._gdiplus_CLASS_FontFamily_IsAvailable_"]
 old-location: gdiplus\_gdiplus_CLASS_FontFamily_IsAvailable_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\fontfamilyclass\fontfamilymethods\isavailable_5.htm

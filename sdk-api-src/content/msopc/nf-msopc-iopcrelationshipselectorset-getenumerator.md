@@ -1,7 +1,8 @@
 ---
 UID: NF:msopc.IOpcRelationshipSelectorSet.GetEnumerator
 title: IOpcRelationshipSelectorSet::GetEnumerator (msopc.h)
-description: Gets an enumerator of IOpcRelationshipSelector interface pointers in the set.helpviewer_keywords: ["GetEnumerator","GetEnumerator method [Open Packaging Conventions]","GetEnumerator method [Open Packaging Conventions]","IOpcRelationshipSelectorSet interface","IOpcRelationshipSelectorSet interface [Open Packaging Conventions]","GetEnumerator method","IOpcRelationshipSelectorSet.GetEnumerator","IOpcRelationshipSelectorSet::GetEnumerator","msopc/IOpcRelationshipSelectorSet::GetEnumerator","opc.iopcrelationshipselectorset_getenumerator"]
+description: Gets an enumerator of IOpcRelationshipSelector interface pointers in the set.
+helpviewer_keywords: ["GetEnumerator","GetEnumerator method [Open Packaging Conventions]","GetEnumerator method [Open Packaging Conventions]","IOpcRelationshipSelectorSet interface","IOpcRelationshipSelectorSet interface [Open Packaging Conventions]","GetEnumerator method","IOpcRelationshipSelectorSet.GetEnumerator","IOpcRelationshipSelectorSet::GetEnumerator","msopc/IOpcRelationshipSelectorSet::GetEnumerator","opc.iopcrelationshipselectorset_getenumerator"]
 old-location: opc\iopcrelationshipselectorset_getenumerator.htm
 tech.root: OPC
 ms.assetid: 7c0a885a-8ee2-40fe-bbc6-d7036e4a4c40

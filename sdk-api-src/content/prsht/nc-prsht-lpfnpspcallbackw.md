@@ -1,7 +1,8 @@
 ---
 UID: NC:prsht.LPFNPSPCALLBACKW
 title: LPFNPSPCALLBACKW (prsht.h)
-description: Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page.helpviewer_keywords: ["LPFNPSPCALLBACK","LPFNPSPCALLBACK callback","LPFNPSPCALLBACK callback function [Windows Controls]","LPFNPSPCALLBACKA","LPFNPSPCALLBACKW","PSPCB_ADDREF","PSPCB_CREATE","PSPCB_RELEASE","_win32_PropSheetPageProc","_win32_PropSheetPageProc_cpp","controls.PropSheetPageProc","controls._win32_PropSheetPageProc","prsht/LPFNPSPCALLBACK"]
+description: Specifies an application-defined callback function that a property sheet calls when a page is created and when it is about to be destroyed. An application can use this function to perform initialization and cleanup operations for the page.
+helpviewer_keywords: ["LPFNPSPCALLBACK","LPFNPSPCALLBACK callback","LPFNPSPCALLBACK callback function [Windows Controls]","LPFNPSPCALLBACKA","LPFNPSPCALLBACKW","PSPCB_ADDREF","PSPCB_CREATE","PSPCB_RELEASE","_win32_PropSheetPageProc","_win32_PropSheetPageProc_cpp","controls.PropSheetPageProc","controls._win32_PropSheetPageProc","prsht/LPFNPSPCALLBACK"]
 old-location: controls\PropSheetPageProc.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\propsheet\functions\propsheetpageproc.htm
@@ -140,4 +141,8 @@ An application must specify the address of this callback function in the <b>pfnC
 With the exception of the <b>lParam</b> member, your application should not modify the <a href="https://docs.microsoft.com/windows/desktop/api/prsht/ns-prsht-propsheetpagea_v2">PROPSHEETPAGE</a> structure. Doing so will have unpredictable results. The <b>lParam</b> member contains application-defined data and can be modified as needed.
 
 
+
+
+> [!NOTE]
+> The prsht.h header defines LPFNPSPCALLBACK as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

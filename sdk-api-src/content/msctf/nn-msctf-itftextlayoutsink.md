@@ -1,7 +1,8 @@
 ---
 UID: NN:msctf.ITfTextLayoutSink
 title: ITfTextLayoutSink (msctf.h)
-description: The ITfTextLayoutSink interface supports the context layout change by an application. Install this advise sink by calling ITfSource::AdviseSink with IID_ITfTextLayoutSink. A text service can optionally implement this interface.helpviewer_keywords: ["ITfTextLayoutSink","ITfTextLayoutSink interface [Text Services Framework]","ITfTextLayoutSink interface [Text Services Framework]","described","_tsf_itftextlayoutsink_ref","msctf/ITfTextLayoutSink","tsf.itftextlayoutsink"]
+description: The ITfTextLayoutSink interface supports the context layout change by an application. Install this advise sink by calling ITfSource::AdviseSink with IID_ITfTextLayoutSink. A text service can optionally implement this interface.
+helpviewer_keywords: ["ITfTextLayoutSink","ITfTextLayoutSink interface [Text Services Framework]","ITfTextLayoutSink interface [Text Services Framework]","described","_tsf_itftextlayoutsink_ref","msctf/ITfTextLayoutSink","tsf.itftextlayoutsink"]
 old-location: tsf\itftextlayoutsink.htm
 tech.root: TSF
 ms.assetid: 370e30a8-6eed-448a-87c7-7fd01e9973c6

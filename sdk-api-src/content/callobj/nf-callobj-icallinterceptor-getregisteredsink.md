@@ -1,7 +1,8 @@
 ---
 UID: NF:callobj.ICallInterceptor.GetRegisteredSink
 title: ICallInterceptor::GetRegisteredSink (callobj.h)
-description: Retrieves the registered event sink.helpviewer_keywords: ["GetRegisteredSink","GetRegisteredSink method [COM]","GetRegisteredSink method [COM]","ICallInterceptor interface","ICallInterceptor interface [COM]","GetRegisteredSink method","ICallInterceptor.GetRegisteredSink","ICallInterceptor::GetRegisteredSink","_com_icallinterceptor_getregisteredsink","callobj/ICallInterceptor::GetRegisteredSink","com.icallinterceptor_getregisteredsink"]
+description: Retrieves the registered event sink.
+helpviewer_keywords: ["GetRegisteredSink","GetRegisteredSink method [COM]","GetRegisteredSink method [COM]","ICallInterceptor interface","ICallInterceptor interface [COM]","GetRegisteredSink method","ICallInterceptor.GetRegisteredSink","ICallInterceptor::GetRegisteredSink","_com_icallinterceptor_getregisteredsink","callobj/ICallInterceptor::GetRegisteredSink","com.icallinterceptor_getregisteredsink"]
 old-location: com\icallinterceptor_getregisteredsink.htm
 tech.root: com
 ms.assetid: 65f33bc3-9fcb-4ad5-908d-3ac06b9f8c6c

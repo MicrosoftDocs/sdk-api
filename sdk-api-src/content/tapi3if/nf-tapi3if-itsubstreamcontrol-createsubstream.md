@@ -1,7 +1,8 @@
 ---
 UID: NF:tapi3if.ITSubStreamControl.CreateSubStream
 title: ITSubStreamControl::CreateSubStream (tapi3if.h)
-description: The CreateSubStream method creates a substream.helpviewer_keywords: ["CreateSubStream","CreateSubStream method [TAPI 2.2]","CreateSubStream method [TAPI 2.2]","ITSubStreamControl interface","ITSubStreamControl interface [TAPI 2.2]","CreateSubStream method","ITSubStreamControl.CreateSubStream","ITSubStreamControl::CreateSubStream","_tapi3_itsubstreamcontrol_createsubstream","tapi3.itsubstreamcontrol_createsubstream","tapi3if/ITSubStreamControl::CreateSubStream"]
+description: The CreateSubStream method creates a substream.
+helpviewer_keywords: ["CreateSubStream","CreateSubStream method [TAPI 2.2]","CreateSubStream method [TAPI 2.2]","ITSubStreamControl interface","ITSubStreamControl interface [TAPI 2.2]","CreateSubStream method","ITSubStreamControl.CreateSubStream","ITSubStreamControl::CreateSubStream","_tapi3_itsubstreamcontrol_createsubstream","tapi3.itsubstreamcontrol_createsubstream","tapi3if/ITSubStreamControl::CreateSubStream"]
 old-location: tapi3\itsubstreamcontrol_createsubstream.htm
 tech.root: Tapi
 ms.assetid: 00fe0f8f-c814-4ae6-a60b-c58f3dc60b67

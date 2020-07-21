@@ -1,7 +1,8 @@
 ---
 UID: NF:directxmath.XMQuaternionMultiply
 title: XMQuaternionMultiply function (directxmath.h)
-description: Computes the product of two quaternions.helpviewer_keywords: ["Use DirectX..XMQuaternionMultiply","XMQuaternionMultiply","XMQuaternionMultiply method [DirectX Math Support APIs]","dxmath.xmquaternionmultiply"]
+description: Computes the product of two quaternions.
+helpviewer_keywords: ["Use DirectX..XMQuaternionMultiply","XMQuaternionMultiply","XMQuaternionMultiply method [DirectX Math Support APIs]","dxmath.xmquaternionmultiply"]
 old-location: dxmath\xmquaternionmultiply.htm
 tech.root: dxmath
 ms.assetid: M:Microsoft.directx_sdk.quaternion.XMQuaternionMultiply(XMVECTOR,XMVECTOR)

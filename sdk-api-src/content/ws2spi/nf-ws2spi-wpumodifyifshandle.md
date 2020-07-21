@@ -1,7 +1,8 @@
 ---
 UID: NF:ws2spi.WPUModifyIFSHandle
 title: WPUModifyIFSHandle function (ws2spi.h)
-description: The WPUModifyIFSHandle function receives a (possibly) modified IFS handle from Ws2_32.dll.helpviewer_keywords: ["WPUModifyIFSHandle","WPUModifyIFSHandle function [Winsock]","_win32_wpumodifyifshandle_2","winsock.wpumodifyifshandle_2","ws2spi/WPUModifyIFSHandle"]
+description: The WPUModifyIFSHandle function receives a (possibly) modified IFS handle from Ws2_32.dll.
+helpviewer_keywords: ["WPUModifyIFSHandle","WPUModifyIFSHandle function [Winsock]","_win32_wpumodifyifshandle_2","winsock.wpumodifyifshandle_2","ws2spi/WPUModifyIFSHandle"]
 old-location: winsock\wpumodifyifshandle_2.htm
 tech.root: WinSock
 ms.assetid: f58971eb-0948-4e16-a767-1d4cba9ec721

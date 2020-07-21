@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxDevice.get_PoweredOff
 title: IFaxDevice::get_PoweredOff (faxcomex.h)
-description: The IFaxDevice::get_PoweredOff property is a Boolean value that indicates whether the fax device is currently available for sending and receiving faxes.helpviewer_keywords: ["IFaxDevice interface [Fax Service]","PoweredOff property","IFaxDevice.PoweredOff","IFaxDevice.get_PoweredOff","IFaxDevice::PoweredOff","IFaxDevice::get_PoweredOff","PoweredOff property [Fax Service]","PoweredOff property [Fax Service]","IFaxDevice interface","_mfax_faxdevice.poweredoff","fax._mfax_faxdevice_cpp_mfax_faxdevice_poweredoff_cpp","fax._mfax_faxdevice_poweredoff","faxcomex/IFaxDevice::PoweredOff","faxcomex/IFaxDevice::get_PoweredOff","get_PoweredOff"]
+description: The IFaxDevice::get_PoweredOff property is a Boolean value that indicates whether the fax device is currently available for sending and receiving faxes.
+helpviewer_keywords: ["IFaxDevice interface [Fax Service]","PoweredOff property","IFaxDevice.PoweredOff","IFaxDevice.get_PoweredOff","IFaxDevice::PoweredOff","IFaxDevice::get_PoweredOff","PoweredOff property [Fax Service]","PoweredOff property [Fax Service]","IFaxDevice interface","_mfax_faxdevice.poweredoff","fax._mfax_faxdevice_cpp_mfax_faxdevice_poweredoff_cpp","fax._mfax_faxdevice_poweredoff","faxcomex/IFaxDevice::PoweredOff","faxcomex/IFaxDevice::get_PoweredOff","get_PoweredOff"]
 old-location: fax\_mfax_faxdevice_cpp_mfax_faxdevice_poweredoff_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_2fdy.htm

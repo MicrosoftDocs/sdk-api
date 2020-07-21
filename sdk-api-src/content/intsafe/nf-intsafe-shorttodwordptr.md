@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.ShortToDWordPtr
 title: ShortToDWordPtr function (intsafe.h)
-description: Converts a value of type SHORT to a value of type DWORD_PTR.helpviewer_keywords: ["ShortToDWordPtr","ShortToDWordPtr function [Windows Shell]","intsafe/ShortToDWordPtr","shell.ShortToDWordPtr"]
+description: Converts a value of type SHORT to a value of type DWORD_PTR.
+helpviewer_keywords: ["ShortToDWordPtr","ShortToDWordPtr function [Windows Shell]","intsafe/ShortToDWordPtr","shell.ShortToDWordPtr"]
 old-location: shell\ShortToDWordPtr.htm
 tech.root: shell
 ms.assetid: e5d0bb74-adde-48c7-b2df-1ba86d528db1

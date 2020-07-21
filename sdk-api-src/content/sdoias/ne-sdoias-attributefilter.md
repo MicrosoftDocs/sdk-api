@@ -1,7 +1,8 @@
 ---
 UID: NE:sdoias._ATTRIBUTEFILTER
 title: ATTRIBUTEFILTER (sdoias.h)
-description: The usage cases for the NPS dictionary attributes.helpviewer_keywords: ["ATTRIBUTEFILTER","ATTRIBUTEFILTER enumeration [Network Policy Server]","ATTRIBUTE_FILTER_IEEE_802_1x","ATTRIBUTE_FILTER_NONE","ATTRIBUTE_FILTER_VPN_DIALUP","nps.SDO_attributefilter","sdo.attributefilter","sdoias/ATTRIBUTEFILTER","sdoias/ATTRIBUTE_FILTER_IEEE_802_1x","sdoias/ATTRIBUTE_FILTER_NONE","sdoias/ATTRIBUTE_FILTER_VPN_DIALUP"]
+description: The usage cases for the NPS dictionary attributes.
+helpviewer_keywords: ["ATTRIBUTEFILTER","ATTRIBUTEFILTER enumeration [Network Policy Server]","ATTRIBUTE_FILTER_IEEE_802_1x","ATTRIBUTE_FILTER_NONE","ATTRIBUTE_FILTER_VPN_DIALUP","nps.SDO_attributefilter","sdo.attributefilter","sdoias/ATTRIBUTEFILTER","sdoias/ATTRIBUTE_FILTER_IEEE_802_1x","sdoias/ATTRIBUTE_FILTER_NONE","sdoias/ATTRIBUTE_FILTER_VPN_DIALUP"]
 old-location: nps\SDO_attributefilter.htm
 tech.root: Nps
 ms.assetid: 7c90abe6-7a01-477d-b44d-6ae3ff1ef588

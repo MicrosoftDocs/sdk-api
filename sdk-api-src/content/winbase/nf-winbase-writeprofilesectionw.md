@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.WriteProfileSectionW
 title: WriteProfileSectionW function (winbase.h)
-description: Replaces the contents of the specified section in the Win.ini file with specified keys and values.helpviewer_keywords: ["WriteProfileSection","WriteProfileSection function","WriteProfileSectionA","WriteProfileSectionW","_win32_writeprofilesection","base.writeprofilesection","winbase/WriteProfileSection","winbase/WriteProfileSectionA","winbase/WriteProfileSectionW"]
+description: Replaces the contents of the specified section in the Win.ini file with specified keys and values.
+helpviewer_keywords: ["WriteProfileSection","WriteProfileSection function","WriteProfileSectionA","WriteProfileSectionW","_win32_writeprofilesection","base.writeprofilesection","winbase/WriteProfileSection","winbase/WriteProfileSectionA","winbase/WriteProfileSectionW"]
 old-location: base\writeprofilesection.htm
 tech.root: SysInfo
 ms.assetid: f712a7b4-d945-499c-b003-22204bc590d7
@@ -130,6 +131,10 @@ When looking at values in the registry that specify other registry locations, th
 </ul>
 
 
+
+
+> [!NOTE]
+> The winbase.h header defines WriteProfileSection as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

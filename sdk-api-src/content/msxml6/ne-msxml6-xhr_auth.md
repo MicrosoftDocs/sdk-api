@@ -1,7 +1,8 @@
 ---
 UID: NE:msxml6._XHR_AUTH
 title: XHR_AUTH (msxml6.h)
-description: Specifies whether to allow authentication to be used to connect to a proxy or to connect to the HTTP server.helpviewer_keywords: ["XHR_AUTH","XHR_AUTH enumeration [XMLHttpRequest2]","XHR_AUTH_ALL","XHR_AUTH_NONE","XHR_AUTH_PROXY","ixhr2.xhr_auth","msxml6/XHR_AUTH","msxml6/XHR_AUTH_ALL","msxml6/XHR_AUTH_NONE","msxml6/XHR_AUTH_PROXY"]
+description: Specifies whether to allow authentication to be used to connect to a proxy or to connect to the HTTP server.
+helpviewer_keywords: ["XHR_AUTH","XHR_AUTH enumeration [XMLHttpRequest2]","XHR_AUTH_ALL","XHR_AUTH_NONE","XHR_AUTH_PROXY","ixhr2.xhr_auth","msxml6/XHR_AUTH","msxml6/XHR_AUTH_ALL","msxml6/XHR_AUTH_NONE","msxml6/XHR_AUTH_PROXY"]
 old-location: ixhr2\xhr_auth.htm
 tech.root: ixhr2
 ms.assetid: 82cc5e27-c669-424d-887d-ba7f5a5c9f02

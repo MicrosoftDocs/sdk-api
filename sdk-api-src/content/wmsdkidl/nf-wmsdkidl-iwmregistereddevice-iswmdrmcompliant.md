@@ -1,7 +1,8 @@
 ---
 UID: NF:wmsdkidl.IWMRegisteredDevice.IsWmdrmCompliant
 title: IWMRegisteredDevice::IsWmdrmCompliant (wmsdkidl.h)
-description: The IsWmdrmCompliant method retrieves the DRM compliance status of the device. Compliant devices can receive data using the Windows Media DRM 10 for Network Devices protocol.helpviewer_keywords: ["IWMRegisteredDevice interface [windows Media Format]","IsWmdrmCompliant method","IWMRegisteredDevice.IsWmdrmCompliant","IWMRegisteredDevice::IsWmdrmCompliant","IWMRegisteredDeviceIsWmdrmCompliant","IsWmdrmCompliant","IsWmdrmCompliant method [windows Media Format]","IsWmdrmCompliant method [windows Media Format]","IWMRegisteredDevice interface","wmformat.iwmregistereddevice_iswmdrmcompliant","wmsdkidl/IWMRegisteredDevice::IsWmdrmCompliant"]
+description: The IsWmdrmCompliant method retrieves the DRM compliance status of the device. Compliant devices can receive data using the Windows Media DRM 10 for Network Devices protocol.
+helpviewer_keywords: ["IWMRegisteredDevice interface [windows Media Format]","IsWmdrmCompliant method","IWMRegisteredDevice.IsWmdrmCompliant","IWMRegisteredDevice::IsWmdrmCompliant","IWMRegisteredDeviceIsWmdrmCompliant","IsWmdrmCompliant","IsWmdrmCompliant method [windows Media Format]","IsWmdrmCompliant method [windows Media Format]","IWMRegisteredDevice interface","wmformat.iwmregistereddevice_iswmdrmcompliant","wmsdkidl/IWMRegisteredDevice::IsWmdrmCompliant"]
 old-location: wmformat\iwmregistereddevice_iswmdrmcompliant.htm
 tech.root: wmformat
 ms.assetid: 45bc7abb-1d39-4988-a9f0-867eaefe148f

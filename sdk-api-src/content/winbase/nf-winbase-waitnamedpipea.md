@@ -1,7 +1,8 @@
 ---
 UID: NF:winbase.WaitNamedPipeA
 title: WaitNamedPipeA function (winbase.h)
-description: Waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection (that is, the pipe's server process has a pending ConnectNamedPipe operation on the pipe).helpviewer_keywords: ["NMPWAIT_USE_DEFAULT_WAIT","NMPWAIT_WAIT_FOREVER","WaitNamedPipe","WaitNamedPipe function","WaitNamedPipeA","WaitNamedPipeW","_win32_waitnamedpipe","base.waitnamedpipe","winbase/WaitNamedPipe","winbase/WaitNamedPipeA","winbase/WaitNamedPipeW"]
+description: Waits until either a time-out interval elapses or an instance of the specified named pipe is available for connection (that is, the pipe's server process has a pending ConnectNamedPipe operation on the pipe).
+helpviewer_keywords: ["NMPWAIT_USE_DEFAULT_WAIT","NMPWAIT_WAIT_FOREVER","WaitNamedPipe","WaitNamedPipe function","WaitNamedPipeA","WaitNamedPipeW","_win32_waitnamedpipe","base.waitnamedpipe","winbase/WaitNamedPipe","winbase/WaitNamedPipeA","winbase/WaitNamedPipeW"]
 old-location: base\waitnamedpipe.htm
 tech.root: ipc
 ms.assetid: cbb2300b-5d5f-4a7b-994b-63b747e9ccfc

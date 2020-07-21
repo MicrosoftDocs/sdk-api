@@ -1,7 +1,8 @@
 ---
 UID: NF:iphlpapi.GetIpForwardTable
 title: GetIpForwardTable function (iphlpapi.h)
-description: The GetIpForwardTable function retrieves the IPv4 routing table.helpviewer_keywords: ["GetIpForwardTable","GetIpForwardTable function [IP Helper]","_iphlp_getipforwardtable","iphlp.getipforwardtable","iphlpapi/GetIpForwardTable"]
+description: The GetIpForwardTable function retrieves the IPv4 routing table.
+helpviewer_keywords: ["GetIpForwardTable","GetIpForwardTable function [IP Helper]","_iphlp_getipforwardtable","iphlp.getipforwardtable","iphlpapi/GetIpForwardTable"]
 old-location: iphlp\getipforwardtable.htm
 tech.root: IpHlp
 ms.assetid: 5d645353-7c87-4f8a-b7fd-149675a94743

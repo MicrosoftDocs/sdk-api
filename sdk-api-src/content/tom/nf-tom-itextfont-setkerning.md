@@ -1,7 +1,8 @@
 ---
 UID: NF:tom.ITextFont.SetKerning
 title: ITextFont::SetKerning (tom.h)
-description: Sets the minimum font size at which kerning occurs.helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetKerning method","ITextFont.SetKerning","ITextFont::SetKerning","SetKerning","SetKerning method [Windows Controls]","SetKerning method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetKerning","_win32_ITextFont_SetKerning_cpp","controls.ITextFont_SetKerning","controls._win32_ITextFont_SetKerning","tom/ITextFont::SetKerning"]
+description: Sets the minimum font size at which kerning occurs.
+helpviewer_keywords: ["ITextFont interface [Windows Controls]","SetKerning method","ITextFont.SetKerning","ITextFont::SetKerning","SetKerning","SetKerning method [Windows Controls]","SetKerning method [Windows Controls]","ITextFont interface","_win32_ITextFont_SetKerning","_win32_ITextFont_SetKerning_cpp","controls.ITextFont_SetKerning","controls._win32_ITextFont_SetKerning","tom/ITextFont::SetKerning"]
 old-location: controls\ITextFont_SetKerning.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\textobjectmodelreference\textobjectmodelinterfaces\setkerning.htm

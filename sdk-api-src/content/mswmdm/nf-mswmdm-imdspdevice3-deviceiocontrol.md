@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IMDSPDevice3.DeviceIoControl
 title: IMDSPDevice3::DeviceIoControl (mswmdm.h)
-description: The DeviceIoControl method calls the device I/O control.helpviewer_keywords: ["DeviceIoControl","DeviceIoControl method [windows Media Device Manager]","DeviceIoControl method [windows Media Device Manager]","IMDSPDevice3 interface","IMDSPDevice3 interface [windows Media Device Manager]","DeviceIoControl method","IMDSPDevice3.DeviceIoControl","IMDSPDevice3::DeviceIoControl","IMDSPDevice3DeviceIoControl","mswmdm/IMDSPDevice3::DeviceIoControl","wmdm.imdspdevice3_deviceiocontrol"]
+description: The DeviceIoControl method calls the device I/O control.
+helpviewer_keywords: ["DeviceIoControl","DeviceIoControl method [windows Media Device Manager]","DeviceIoControl method [windows Media Device Manager]","IMDSPDevice3 interface","IMDSPDevice3 interface [windows Media Device Manager]","DeviceIoControl method","IMDSPDevice3.DeviceIoControl","IMDSPDevice3::DeviceIoControl","IMDSPDevice3DeviceIoControl","mswmdm/IMDSPDevice3::DeviceIoControl","wmdm.imdspdevice3_deviceiocontrol"]
 old-location: wmdm\imdspdevice3_deviceiocontrol.htm
 tech.root: WMDM
 ms.assetid: 1f41c3f9-8eb6-4d51-87f9-c8b035a73cce

@@ -1,7 +1,8 @@
 ---
 UID: NF:wingdi.FillPath
 title: FillPath function (wingdi.h)
-description: The FillPath function closes any open figures in the current path and fills the path's interior by using the current brush and polygon-filling mode.helpviewer_keywords: ["FillPath","FillPath function [Windows GDI]","_win32_FillPath","gdi.fillpath","wingdi/FillPath"]
+description: The FillPath function closes any open figures in the current path and fills the path's interior by using the current brush and polygon-filling mode.
+helpviewer_keywords: ["FillPath","FillPath function [Windows GDI]","_win32_FillPath","gdi.fillpath","wingdi/FillPath"]
 old-location: gdi\fillpath.htm
 tech.root: gdi
 ms.assetid: a80b299a-c3f9-411b-9936-33d32fc71853

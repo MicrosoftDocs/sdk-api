@@ -1,7 +1,8 @@
 ---
 UID: NF:searchapi.IUrlAccessor.BindToStream
 title: IUrlAccessor::BindToStream (searchapi.h)
-description: Binds the item being processed to an IStream interface [Structured Storage] data stream and retrieves a pointer to that stream.helpviewer_keywords: ["BindToStream","BindToStream method [search]","BindToStream method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","BindToStream method","IUrlAccessor.BindToStream","IUrlAccessor::BindToStream","_search_IUrlAccessor_BindToStream","search._search_IUrlAccessor_BindToStream","searchapi/IUrlAccessor::BindToStream"]
+description: Binds the item being processed to an IStream interface [Structured Storage] data stream and retrieves a pointer to that stream.
+helpviewer_keywords: ["BindToStream","BindToStream method [search]","BindToStream method [search]","IUrlAccessor interface","IUrlAccessor interface [search]","BindToStream method","IUrlAccessor.BindToStream","IUrlAccessor::BindToStream","_search_IUrlAccessor_BindToStream","search._search_IUrlAccessor_BindToStream","searchapi/IUrlAccessor::BindToStream"]
 old-location: search\_search_IUrlAccessor_BindToStream.htm
 tech.root: search
 ms.assetid: VS|search|~\search\wds3x\reference\ifaces\protocolhandlers\iurlaccessor\bindtostream.htm

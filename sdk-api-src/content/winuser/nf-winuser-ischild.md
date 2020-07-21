@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.IsChild
 title: IsChild function (winuser.h)
-description: Determines whether a window is a child window or descendant window of a specified parent window.helpviewer_keywords: ["IsChild","IsChild function [Windows and Messages]","_win32_IsChild","_win32_ischild_cpp","winmsg.ischild","winui._win32_ischild","winuser/IsChild"]
+description: Determines whether a window is a child window or descendant window of a specified parent window.
+helpviewer_keywords: ["IsChild","IsChild function [Windows and Messages]","_win32_IsChild","_win32_ischild_cpp","winmsg.ischild","winui._win32_ischild","winuser/IsChild"]
 old-location: winmsg\ischild.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\windows\windowreference\windowfunctions\ischild.htm

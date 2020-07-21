@@ -1,7 +1,8 @@
 ---
 UID: NF:portabledeviceapi.IPortableDeviceUnitsStream.SeekInUnits
 title: IPortableDeviceUnitsStream::SeekInUnits (portabledeviceapi.h)
-description: The SeekInUnits method performs a seek on a stream, based on alternate units.helpviewer_keywords: ["IPortableDeviceUnitsStream interface [Windows Portable Devices SDK]","SeekInUnits method","IPortableDeviceUnitsStream.SeekInUnits","IPortableDeviceUnitsStream::SeekInUnits","SeekInUnits","SeekInUnits method [Windows Portable Devices SDK]","SeekInUnits method [Windows Portable Devices SDK]","IPortableDeviceUnitsStream interface","portabledeviceapi/IPortableDeviceUnitsStream::SeekInUnits","wpdsdk.iportabledeviceunitsstream_seekinunits"]
+description: The SeekInUnits method performs a seek on a stream, based on alternate units.
+helpviewer_keywords: ["IPortableDeviceUnitsStream interface [Windows Portable Devices SDK]","SeekInUnits method","IPortableDeviceUnitsStream.SeekInUnits","IPortableDeviceUnitsStream::SeekInUnits","SeekInUnits","SeekInUnits method [Windows Portable Devices SDK]","SeekInUnits method [Windows Portable Devices SDK]","IPortableDeviceUnitsStream interface","portabledeviceapi/IPortableDeviceUnitsStream::SeekInUnits","wpdsdk.iportabledeviceunitsstream_seekinunits"]
 old-location: wpdsdk\iportabledeviceunitsstream_seekinunits.htm
 tech.root: wpd_sdk
 ms.assetid: F94D30C7-57A8-4CBB-B416-ABB8BEC26A6E

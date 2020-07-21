@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellLibrary.LoadLibraryFromKnownFolder
 title: IShellLibrary::LoadLibraryFromKnownFolder (shobjidl_core.h)
-description: Loads the library that is referenced by a KNOWNFOLDERID.helpviewer_keywords: ["IShellLibrary interface [Windows Shell]","LoadLibraryFromKnownFolder method","IShellLibrary.LoadLibraryFromKnownFolder","IShellLibrary::LoadLibraryFromKnownFolder","LoadLibraryFromKnownFolder","LoadLibraryFromKnownFolder method [Windows Shell]","LoadLibraryFromKnownFolder method [Windows Shell]","IShellLibrary interface","_shell_IShellLibrary_LoadLibraryFromKnownFolder","shell.IShellLibrary_LoadLibraryFromKnownFolder","shobjidl_core/IShellLibrary::LoadLibraryFromKnownFolder"]
+description: Loads the library that is referenced by a KNOWNFOLDERID.
+helpviewer_keywords: ["IShellLibrary interface [Windows Shell]","LoadLibraryFromKnownFolder method","IShellLibrary.LoadLibraryFromKnownFolder","IShellLibrary::LoadLibraryFromKnownFolder","LoadLibraryFromKnownFolder","LoadLibraryFromKnownFolder method [Windows Shell]","LoadLibraryFromKnownFolder method [Windows Shell]","IShellLibrary interface","_shell_IShellLibrary_LoadLibraryFromKnownFolder","shell.IShellLibrary_LoadLibraryFromKnownFolder","shobjidl_core/IShellLibrary::LoadLibraryFromKnownFolder"]
 old-location: shell\IShellLibrary_LoadLibraryFromKnownFolder.htm
 tech.root: shell
 ms.assetid: 3fc1147e-6338-4fec-b20d-db5eb1303fe1

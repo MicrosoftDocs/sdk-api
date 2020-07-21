@@ -1,7 +1,8 @@
 ---
 UID: NF:syncmgr.ISyncMgrConflict.Resolve
 title: ISyncMgrConflict::Resolve (syncmgr.h)
-description: Resolves the conflict using its own sync handler, controls UI.helpviewer_keywords: ["ISyncMgrConflict interface [Windows Shell]","Resolve method","ISyncMgrConflict.Resolve","ISyncMgrConflict::Resolve","Resolve","Resolve method [Windows Shell]","Resolve method [Windows Shell]","ISyncMgrConflict interface","_shell_ISyncMgrConflict_Resolve","shell.ISyncMgrConflict_Resolve","syncmgr/ISyncMgrConflict::Resolve"]
+description: Resolves the conflict using its own sync handler, controls UI.
+helpviewer_keywords: ["ISyncMgrConflict interface [Windows Shell]","Resolve method","ISyncMgrConflict.Resolve","ISyncMgrConflict::Resolve","Resolve","Resolve method [Windows Shell]","Resolve method [Windows Shell]","ISyncMgrConflict interface","_shell_ISyncMgrConflict_Resolve","shell.ISyncMgrConflict_Resolve","syncmgr/ISyncMgrConflict::Resolve"]
 old-location: shell\ISyncMgrConflict_Resolve.htm
 tech.root: shell
 ms.assetid: 9680b96e-9a83-45e1-a2bf-674aff6490ec

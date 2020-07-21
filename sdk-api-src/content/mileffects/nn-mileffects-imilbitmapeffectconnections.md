@@ -1,7 +1,8 @@
 ---
 UID: NN:mileffects.IMILBitmapEffectConnections
 title: IMILBitmapEffectConnections (mileffects.h)
-description: Exposes methods used to retrieve input and output connectors exposed by the bitmap effect.helpviewer_keywords: ["IMILBitmapEffectConnections","IMILBitmapEffectConnections interface [WPF Bitmap Effects]","IMILBitmapEffectConnections interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectconnections","mileffects/IMILBitmapEffectConnections","wibe._wibe_imilbitmapeffectconnections"]
+description: Exposes methods used to retrieve input and output connectors exposed by the bitmap effect.
+helpviewer_keywords: ["IMILBitmapEffectConnections","IMILBitmapEffectConnections interface [WPF Bitmap Effects]","IMILBitmapEffectConnections interface [WPF Bitmap Effects]","described","_wibe_imilbitmapeffectconnections","mileffects/IMILBitmapEffectConnections","wibe._wibe_imilbitmapeffectconnections"]
 old-location: wibe\_wibe_imilbitmapeffectconnections.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectconnections\imilbitmapeffectconnections.htm

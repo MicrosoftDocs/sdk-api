@@ -1,7 +1,8 @@
 ---
 UID: NF:uxtheme.GetThemeMetric
 title: GetThemeMetric function (uxtheme.h)
-description: Retrieves the value of a metric property.helpviewer_keywords: ["GetThemeMetric","GetThemeMetric function [Windows Controls]","TMT_ALPHALEVEL","TMT_ALPHATHRESHOLD","TMT_BORDERSIZE","TMT_GLYPHINDEX","TMT_GRADIENTRATIO1","TMT_GRADIENTRATIO2","TMT_GRADIENTRATIO3","TMT_GRADIENTRATIO4","TMT_GRADIENTRATIO5","TMT_HEIGHT","TMT_IMAGECOUNT","TMT_MINDPI1","TMT_MINDPI2","TMT_MINDPI3","TMT_MINDPI4","TMT_MINDPI5","TMT_PROGRESSCHUNKSIZE","TMT_PROGRESSSPACESIZE","TMT_ROUNDCORNERHEIGHT","TMT_ROUNDCORNERWIDTH","TMT_SATURATION","TMT_TEXTBORDERSIZE","TMT_TRUESIZESTRETCHMARK","TMT_WIDTH","controls.GetThemeMetric","controls.inet_GetThemeMetric","inet_GetThemeMetric","inet_GetThemeMetric_cpp","uxtheme/GetThemeMetric"]
+description: Retrieves the value of a metric property.
+helpviewer_keywords: ["GetThemeMetric","GetThemeMetric function [Windows Controls]","TMT_ALPHALEVEL","TMT_ALPHATHRESHOLD","TMT_BORDERSIZE","TMT_GLYPHINDEX","TMT_GRADIENTRATIO1","TMT_GRADIENTRATIO2","TMT_GRADIENTRATIO3","TMT_GRADIENTRATIO4","TMT_GRADIENTRATIO5","TMT_HEIGHT","TMT_IMAGECOUNT","TMT_MINDPI1","TMT_MINDPI2","TMT_MINDPI3","TMT_MINDPI4","TMT_MINDPI5","TMT_PROGRESSCHUNKSIZE","TMT_PROGRESSSPACESIZE","TMT_ROUNDCORNERHEIGHT","TMT_ROUNDCORNERWIDTH","TMT_SATURATION","TMT_TEXTBORDERSIZE","TMT_TRUESIZESTRETCHMARK","TMT_WIDTH","controls.GetThemeMetric","controls.inet_GetThemeMetric","inet_GetThemeMetric","inet_GetThemeMetric_cpp","uxtheme/GetThemeMetric"]
 old-location: controls\GetThemeMetric.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\userex\functions\getthememetric.htm

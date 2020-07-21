@@ -1,7 +1,8 @@
 ---
 UID: NF:strmif.IAMVideoControl.GetFrameRateList
 title: IAMVideoControl::GetFrameRateList (strmif.h)
-description: The GetFrameRateList method retrieves a list of available frame rates.helpviewer_keywords: ["GetFrameRateList","GetFrameRateList method [DirectShow]","GetFrameRateList method [DirectShow]","IAMVideoControl interface","IAMVideoControl interface [DirectShow]","GetFrameRateList method","IAMVideoControl.GetFrameRateList","IAMVideoControl::GetFrameRateList","IAMVideoControlGetFrameRateList","dshow.iamvideocontrol_getframeratelist","strmif/IAMVideoControl::GetFrameRateList"]
+description: The GetFrameRateList method retrieves a list of available frame rates.
+helpviewer_keywords: ["GetFrameRateList","GetFrameRateList method [DirectShow]","GetFrameRateList method [DirectShow]","IAMVideoControl interface","IAMVideoControl interface [DirectShow]","GetFrameRateList method","IAMVideoControl.GetFrameRateList","IAMVideoControl::GetFrameRateList","IAMVideoControlGetFrameRateList","dshow.iamvideocontrol_getframeratelist","strmif/IAMVideoControl::GetFrameRateList"]
 old-location: dshow\iamvideocontrol_getframeratelist.htm
 tech.root: DirectShow
 ms.assetid: 864f294f-1a18-4d4c-952e-1965da4c9496

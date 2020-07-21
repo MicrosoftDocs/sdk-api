@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphGetRecord
 title: PeerGraphGetRecord function (p2p.h)
-description: The PeerGraphGetRecord function retrieves a specific record based on the specified record ID. The returned record should be freed by calling PeerGraphFreeData.helpviewer_keywords: ["PeerGraphGetRecord","PeerGraphGetRecord function [Peer Networking]","p2p.peergraphgetrecord","p2p/PeerGraphGetRecord"]
+description: The PeerGraphGetRecord function retrieves a specific record based on the specified record ID. The returned record should be freed by calling PeerGraphFreeData.
+helpviewer_keywords: ["PeerGraphGetRecord","PeerGraphGetRecord function [Peer Networking]","p2p.peergraphgetrecord","p2p/PeerGraphGetRecord"]
 old-location: p2p\peergraphgetrecord.htm
 tech.root: P2PSdk
 ms.assetid: 5e777c02-980c-42f9-add7-9568c86c2efe

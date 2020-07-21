@@ -1,7 +1,8 @@
 ---
 UID: NF:winuser.PostMessageW
 title: PostMessageW function (winuser.h)
-description: Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message.helpviewer_keywords: ["HWND_BROADCAST","PostMessage","PostMessage function [Windows and Messages]","PostMessageA","PostMessageW","_win32_PostMessage","_win32_postmessage_cpp","winmsg.postmessage","winui._win32_postmessage","winuser/PostMessage","winuser/PostMessageA","winuser/PostMessageW"]
+description: Places (posts) a message in the message queue associated with the thread that created the specified window and returns without waiting for the thread to process the message.
+helpviewer_keywords: ["HWND_BROADCAST","PostMessage","PostMessage function [Windows and Messages]","PostMessageA","PostMessageW","_win32_PostMessage","_win32_postmessage_cpp","winmsg.postmessage","winui._win32_postmessage","winuser/PostMessage","winuser/PostMessageA","winuser/PostMessageW"]
 old-location: winmsg\postmessage.htm
 tech.root: winmsg
 ms.assetid: VS|winui|~\winui\windowsuserinterface\windowing\messagesandmessagequeues\messagesandmessagequeuesreference\messagesandmessagequeuesfunctions\postmessage.htm
@@ -209,6 +210,10 @@ For more examples, see <a href="https://docs.microsoft.com/windows/desktop/datax
 <div class="code"></div>
 
 
+
+
+> [!NOTE]
+> The winuser.h header defines PostMessage as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

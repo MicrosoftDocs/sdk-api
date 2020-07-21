@@ -1,7 +1,8 @@
 ---
 UID: NF:wmp.IWMPMediaCollection.getMediaAtom
 title: IWMPMediaCollection::getMediaAtom (wmp.h)
-description: The getMediaAtom method retrieves the index at which a given attribute resides within the set of available attributes.helpviewer_keywords: ["IWMPMediaCollection interface [Windows Media Player]","getMediaAtom method","IWMPMediaCollection.getMediaAtom","IWMPMediaCollection::getMediaAtom","IWMPMediaCollectiongetMediaAtom","getMediaAtom","getMediaAtom method [Windows Media Player]","getMediaAtom method [Windows Media Player]","IWMPMediaCollection interface","wmp.iwmpmediacollection_getmediaatom","wmp/IWMPMediaCollection::getMediaAtom"]
+description: The getMediaAtom method retrieves the index at which a given attribute resides within the set of available attributes.
+helpviewer_keywords: ["IWMPMediaCollection interface [Windows Media Player]","getMediaAtom method","IWMPMediaCollection.getMediaAtom","IWMPMediaCollection::getMediaAtom","IWMPMediaCollectiongetMediaAtom","getMediaAtom","getMediaAtom method [Windows Media Player]","getMediaAtom method [Windows Media Player]","IWMPMediaCollection interface","wmp.iwmpmediacollection_getmediaatom","wmp/IWMPMediaCollection::getMediaAtom"]
 old-location: wmp\iwmpmediacollection_getmediaatom.htm
 tech.root: WMP
 ms.assetid: 22024108-398e-4a05-b5ed-311583c69497

@@ -1,7 +1,8 @@
 ---
 UID: NS:tlhelp32.tagHEAPLIST32
 title: HEAPLIST32 (tlhelp32.h)
-description: Describes an entry from a list that enumerates the heaps used by a specified process.helpviewer_keywords: ["*LPHEAPLIST32","*PHEAPLIST32","HEAPLIST32","HEAPLIST32 structure [ToolHelp]","HF32_DEFAULT","PHEAPLIST32","PHEAPLIST32 structure pointer [ToolHelp]","_win32_heaplist32_str","base.heaplist32_str","tlhelp32/HEAPLIST32","tlhelp32/PHEAPLIST32","toolhelp.heaplist32_str"]
+description: Describes an entry from a list that enumerates the heaps used by a specified process.
+helpviewer_keywords: ["*LPHEAPLIST32","*PHEAPLIST32","HEAPLIST32","HEAPLIST32 structure [ToolHelp]","HF32_DEFAULT","PHEAPLIST32","PHEAPLIST32 structure pointer [ToolHelp]","_win32_heaplist32_str","base.heaplist32_str","tlhelp32/HEAPLIST32","tlhelp32/PHEAPLIST32","toolhelp.heaplist32_str"]
 old-location: toolhelp\heaplist32_str.htm
 tech.root: ToolHelp
 ms.assetid: 61e01d23-9f15-44c5-9f6d-45df4809ccad

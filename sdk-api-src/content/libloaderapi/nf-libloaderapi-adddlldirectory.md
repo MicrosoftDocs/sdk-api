@@ -1,7 +1,8 @@
 ---
 UID: NF:libloaderapi.AddDllDirectory
 title: AddDllDirectory function (libloaderapi.h)
-description: Adds a directory to the process DLL search path.helpviewer_keywords: ["AddDllDirectory","AddDllDirectory function","base.adddlldirectory","libloaderapi/AddDllDirectory"]
+description: Adds a directory to the process DLL search path.
+helpviewer_keywords: ["AddDllDirectory","AddDllDirectory function","base.adddlldirectory","libloaderapi/AddDllDirectory"]
 old-location: base\adddlldirectory.htm
 tech.root: Dlls
 ms.assetid: 7eb49bdf-58f9-4520-876b-c8b69bf26b8a

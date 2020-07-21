@@ -1,7 +1,8 @@
 ---
 UID: NS:commctrl.tagNMDATETIMEFORMATA
 title: NMDATETIMEFORMATA (commctrl.h)
-description: Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control.helpviewer_keywords: ["*LPNMDATETIMEFORMATA","LPNMDATETIMEFORMAT","LPNMDATETIMEFORMAT structure pointer [Windows Controls]","NMDATETIMEFORMAT","NMDATETIMEFORMAT structure [Windows Controls]","NMDATETIMEFORMATA","NMDATETIMEFORMATW","_win32_NMDATETIMEFORMAT","_win32_NMDATETIMEFORMAT_cpp","commctrl/LPNMDATETIMEFORMAT","commctrl/NMDATETIMEFORMAT","commctrl/NMDATETIMEFORMATA","commctrl/NMDATETIMEFORMATW","controls.NMDATETIMEFORMAT","controls._win32_NMDATETIMEFORMAT"]
+description: Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control.
+helpviewer_keywords: ["*LPNMDATETIMEFORMATA","LPNMDATETIMEFORMAT","LPNMDATETIMEFORMAT structure pointer [Windows Controls]","NMDATETIMEFORMAT","NMDATETIMEFORMAT structure [Windows Controls]","NMDATETIMEFORMATA","NMDATETIMEFORMATW","_win32_NMDATETIMEFORMAT","_win32_NMDATETIMEFORMAT_cpp","commctrl/LPNMDATETIMEFORMAT","commctrl/NMDATETIMEFORMAT","commctrl/NMDATETIMEFORMATA","commctrl/NMDATETIMEFORMATW","controls.NMDATETIMEFORMAT","controls._win32_NMDATETIMEFORMAT"]
 old-location: controls\NMDATETIMEFORMAT.htm
 tech.root: Controls
 ms.assetid: VS|Controls|~\controls\datetime\structures\nmdatetimeformat.htm
@@ -94,4 +95,9 @@ A pointer to a null-terminated string that contains the display text of the cont
 Type: <b><a href="https://docs.microsoft.com/windows/desktop/WinProg/windows-data-types">TCHAR</a></b>
 
 64-character buffer that is to receive the zero-terminated string that the DTP control will display. It is not necessary to fill the entire buffer. 
+
+## -remarks
+
+> [!NOTE]
+> The commctrl.h header defines NMDATETIMEFORMAT as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

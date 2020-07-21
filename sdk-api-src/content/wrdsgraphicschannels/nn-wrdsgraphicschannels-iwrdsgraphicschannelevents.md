@@ -1,7 +1,8 @@
 ---
 UID: NN:wrdsgraphicschannels.IWRdsGraphicsChannelEvents
 title: IWRdsGraphicsChannelEvents (wrdsgraphicschannels.h)
-description: This interface receives notifications that relate to a graphics virtual channel.helpviewer_keywords: ["IWRdsGraphicsChannelEvents","IWRdsGraphicsChannelEvents interface [Remote Desktop Services]","IWRdsGraphicsChannelEvents interface [Remote Desktop Services]","described","termserv.iwrdsgraphicschannelevents","wrdsgraphicschannels/IWRdsGraphicsChannelEvents"]
+description: This interface receives notifications that relate to a graphics virtual channel.
+helpviewer_keywords: ["IWRdsGraphicsChannelEvents","IWRdsGraphicsChannelEvents interface [Remote Desktop Services]","IWRdsGraphicsChannelEvents interface [Remote Desktop Services]","described","termserv.iwrdsgraphicschannelevents","wrdsgraphicschannels/IWRdsGraphicsChannelEvents"]
 old-location: termserv\iwrdsgraphicschannelevents.htm
 tech.root: TermServ
 ms.assetid: 59802a2d-bdb0-4792-b667-5095d4a02b06

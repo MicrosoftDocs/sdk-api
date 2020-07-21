@@ -1,7 +1,8 @@
 ---
 UID: NF:xapo.IXAPO.GetRegistrationProperties
 title: IXAPO::GetRegistrationProperties (xapo.h)
-description: Returns the registration properties of an XAPO.helpviewer_keywords: ["GetRegistrationProperties","GetRegistrationProperties method [XAudio2 Audio Mixing APIs]","GetRegistrationProperties method [XAudio2 Audio Mixing APIs]","IXAPO interface","IXAPO interface [XAudio2 Audio Mixing APIs]","GetRegistrationProperties method","IXAPO.GetRegistrationProperties","IXAPO::GetRegistrationProperties","xapo/IXAPO::GetRegistrationProperties","xaudio2.ixapo_interface_getregistrationproperties"]
+description: Returns the registration properties of an XAPO.
+helpviewer_keywords: ["GetRegistrationProperties","GetRegistrationProperties method [XAudio2 Audio Mixing APIs]","GetRegistrationProperties method [XAudio2 Audio Mixing APIs]","IXAPO interface","IXAPO interface [XAudio2 Audio Mixing APIs]","GetRegistrationProperties method","IXAPO.GetRegistrationProperties","IXAPO::GetRegistrationProperties","xapo/IXAPO::GetRegistrationProperties","xaudio2.ixapo_interface_getregistrationproperties"]
 old-location: xaudio2\ixapo_interface_getregistrationproperties.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.ixapo.IXAPO.GetRegistrationProperties(XAPO_REGISTRATION_PROPERTIES)

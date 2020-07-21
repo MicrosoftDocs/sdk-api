@@ -1,7 +1,8 @@
 ---
 UID: NF:webservices.WsResetChannel
 title: WsResetChannel function (webservices.h)
-description: Reset a channel so it can be reused.helpviewer_keywords: ["WsResetChannel","WsResetChannel function [Web Services for Windows]","webservices/WsResetChannel","wsw.wsresetchannel"]
+description: Reset a channel so it can be reused.
+helpviewer_keywords: ["WsResetChannel","WsResetChannel function [Web Services for Windows]","webservices/WsResetChannel","wsw.wsresetchannel"]
 old-location: wsw\wsresetchannel.htm
 tech.root: wsw
 ms.assetid: 7aca8ae0-44a0-4ec7-87e8-bec9bd17d04b

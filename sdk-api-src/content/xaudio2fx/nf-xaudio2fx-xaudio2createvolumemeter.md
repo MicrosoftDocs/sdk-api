@@ -1,7 +1,8 @@
 ---
 UID: NF:xaudio2fx.XAudio2CreateVolumeMeter
 title: XAudio2CreateVolumeMeter function (xaudio2fx.h)
-description: Creates a new volume meter audio processing object (APO) and returns a pointer to it.helpviewer_keywords: ["XAudio2CreateVolumeMeter","XAudio2CreateVolumeMeter function [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2createvolumemeter","xaudio2fx/XAudio2CreateVolumeMeter"]
+description: Creates a new volume meter audio processing object (APO) and returns a pointer to it.
+helpviewer_keywords: ["XAudio2CreateVolumeMeter","XAudio2CreateVolumeMeter function [XAudio2 Audio Mixing APIs]","xaudio2.xaudio2createvolumemeter","xaudio2fx/XAudio2CreateVolumeMeter"]
 old-location: xaudio2\xaudio2createvolumemeter.htm
 tech.root: xaudio2
 ms.assetid: M:Microsoft.directx_sdk.xaudio2.XAudio2CreateVolumeMeter(IUnknown@,UINT32)

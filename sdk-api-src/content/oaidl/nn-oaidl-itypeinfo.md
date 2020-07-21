@@ -1,7 +1,8 @@
 ---
 UID: NN:oaidl.ITypeInfo
 title: ITypeInfo (oaidl.h)
-description: Used for reading information about objects.helpviewer_keywords: ["ITypeInfo","ITypeInfo interface [Automation]","ITypeInfo interface [Automation]","described","_oa96_ITypeInfo_Interface","automat.itypeinfo","oaidl/ITypeInfo"]
+description: Used for reading information about objects.
+helpviewer_keywords: ["ITypeInfo","ITypeInfo interface [Automation]","ITypeInfo interface [Automation]","described","_oa96_ITypeInfo_Interface","automat.itypeinfo","oaidl/ITypeInfo"]
 old-location: automat\itypeinfo.htm
 tech.root: automat
 ms.assetid: f3356463-3373-4279-bae1-953378aa2680

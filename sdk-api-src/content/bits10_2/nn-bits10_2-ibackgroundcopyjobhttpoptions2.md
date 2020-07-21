@@ -1,7 +1,8 @@
 ---
 UID: NN:bits10_2.IBackgroundCopyJobHttpOptions2
 title: IBackgroundCopyJobHttpOptions2 (bits10_2.h)
-description: Use this interface to retrieve and/or to override the HTTP method used for a BITS transfer.helpviewer_keywords: ["IBackgroundCopyJobHttpOptions2","IBackgroundCopyJobHttpOptions2 interface [BITS]","IBackgroundCopyJobHttpOptions2 interface [BITS]","described","bits.ibackgroundcopyjobhttpoptions2","bits10_2/IBackgroundCopyJobHttpOptions2"]
+description: Use this interface to retrieve and/or to override the HTTP method used for a BITS transfer.
+helpviewer_keywords: ["IBackgroundCopyJobHttpOptions2","IBackgroundCopyJobHttpOptions2 interface [BITS]","IBackgroundCopyJobHttpOptions2 interface [BITS]","described","bits.ibackgroundcopyjobhttpoptions2","bits10_2/IBackgroundCopyJobHttpOptions2"]
 old-location: bits\ibackgroundcopyjobhttpoptions2.htm
 tech.root: Bits
 ms.assetid: 6E8A32CF-99F6-4C4D-A6EE-A05A1E601793

@@ -1,7 +1,8 @@
 ---
 UID: NF:audioengineendpoint.IAudioOutputEndpointRT.GetOutputDataPointer
 title: IAudioOutputEndpointRT::GetOutputDataPointer (audioengineendpoint.h)
-description: Returns a pointer to the output buffer in which data will be written by the audio engine.helpviewer_keywords: ["GetOutputDataPointer","GetOutputDataPointer method [Remote Desktop Services]","GetOutputDataPointer method [Remote Desktop Services]","IAudioOutputEndpointRT interface","IAudioOutputEndpointRT interface [Remote Desktop Services]","GetOutputDataPointer method","IAudioOutputEndpointRT.GetOutputDataPointer","IAudioOutputEndpointRT::GetOutputDataPointer","audioengineendpoint/IAudioOutputEndpointRT::GetOutputDataPointer","termserv.iaudiooutputendpointrt_getoutputdatapointer"]
+description: Returns a pointer to the output buffer in which data will be written by the audio engine.
+helpviewer_keywords: ["GetOutputDataPointer","GetOutputDataPointer method [Remote Desktop Services]","GetOutputDataPointer method [Remote Desktop Services]","IAudioOutputEndpointRT interface","IAudioOutputEndpointRT interface [Remote Desktop Services]","GetOutputDataPointer method","IAudioOutputEndpointRT.GetOutputDataPointer","IAudioOutputEndpointRT::GetOutputDataPointer","audioengineendpoint/IAudioOutputEndpointRT::GetOutputDataPointer","termserv.iaudiooutputendpointrt_getoutputdatapointer"]
 old-location: termserv\iaudiooutputendpointrt_getoutputdatapointer.htm
 tech.root: TermServ
 ms.assetid: 14d69520-3d0c-42ee-8986-9d83b5cff62e

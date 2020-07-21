@@ -1,7 +1,8 @@
 ---
 UID: NF:ntquery.CIState
 title: CIState function (ntquery.h)
-description: Queries the state of the selected catalog.helpviewer_keywords: ["CIState","CIState function [Indexing Service]","_idxs_CIState","indexsrv.cistate","ntquery/CIState"]
+description: Queries the state of the selected catalog.
+helpviewer_keywords: ["CIState","CIState function [Indexing Service]","_idxs_CIState","indexsrv.cistate","ntquery/CIState"]
 old-location: indexsrv\cistate.htm
 tech.root: IndexSrv
 ms.assetid: VS|indexsrv|~\html\ixrefint_9syt.htm

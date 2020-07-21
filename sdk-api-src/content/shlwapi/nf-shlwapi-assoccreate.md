@@ -1,7 +1,8 @@
 ---
 UID: NF:shlwapi.AssocCreate
 title: AssocCreate function (shlwapi.h)
-description: Returns a pointer to an IQueryAssociations object.helpviewer_keywords: ["AssocCreate","AssocCreate function [Windows Shell]","_win32_AssocCreate","shell.AssocCreate","shlwapi/AssocCreate"]
+description: Returns a pointer to an IQueryAssociations object.
+helpviewer_keywords: ["AssocCreate","AssocCreate function [Windows Shell]","_win32_AssocCreate","shell.AssocCreate","shlwapi/AssocCreate"]
 old-location: shell\AssocCreate.htm
 tech.root: shell
 ms.assetid: 33099e0e-73e3-4047-804f-765a59e42e3f

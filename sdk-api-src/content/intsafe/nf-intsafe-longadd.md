@@ -1,7 +1,8 @@
 ---
 UID: NF:intsafe.LongAdd
 title: LongAdd function (intsafe.h)
-description: Adds two values of type LONG.helpviewer_keywords: ["LongAdd","LongAdd function [Windows Shell]","intsafe/LongAdd","shell.LongAdd"]
+description: Adds two values of type LONG.
+helpviewer_keywords: ["LongAdd","LongAdd function [Windows Shell]","intsafe/LongAdd","shell.LongAdd"]
 old-location: shell\LongAdd.htm
 tech.root: shell
 ms.assetid: 3cc13a46-3168-44fd-b759-06250eb1117f

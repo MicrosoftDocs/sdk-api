@@ -1,7 +1,8 @@
 ---
 UID: NF:activationregistration.IExeServerRegistration.get_ServerName
 title: IExeServerRegistration::get_ServerName (activationregistration.h)
-description: Gets the name of the current out-of-process server.helpviewer_keywords: ["IExeServerRegistration interface [Windows Runtime]","get_ServerName method","IExeServerRegistration.get_ServerName","IExeServerRegistration::get_ServerName","activationregistration/IExeServerRegistration::get_ServerName","get_ServerName","get_ServerName method [Windows Runtime]","get_ServerName method [Windows Runtime]","IExeServerRegistration interface","winrt.iexeserverregistration_servername"]
+description: Gets the name of the current out-of-process server.
+helpviewer_keywords: ["IExeServerRegistration interface [Windows Runtime]","get_ServerName method","IExeServerRegistration.get_ServerName","IExeServerRegistration::get_ServerName","activationregistration/IExeServerRegistration::get_ServerName","get_ServerName","get_ServerName method [Windows Runtime]","get_ServerName method [Windows Runtime]","IExeServerRegistration interface","winrt.iexeserverregistration_servername"]
 old-location: winrt\iexeserverregistration_servername.htm
 tech.root: WinRT
 ms.assetid: CB7CAA65-4DA9-4948-AEB4-150A45629947

@@ -1,7 +1,8 @@
 ---
 UID: NC:winnls.UILANGUAGE_ENUMPROCA
 title: UILANGUAGE_ENUMPROCA (winnls.h)
-description: An application-defined callback function that processes enumerated user interface language information provided by the EnumUILanguages function.helpviewer_keywords: ["EnumUILanguagesProc","UILANGUAGE_ENUMPROC","UILANGUAGE_ENUMPROC callback","UILANGUAGE_ENUMPROC callback function [Internationalization for Windows Applications]","UILANGUAGE_ENUMPROCA","UILANGUAGE_ENUMPROCW","_win32_EnumUILanguagesProc","intl.enumuilanguagesproc","winnls/UILANGUAGE_ENUMPROC"]
+description: An application-defined callback function that processes enumerated user interface language information provided by the EnumUILanguages function.
+helpviewer_keywords: ["EnumUILanguagesProc","UILANGUAGE_ENUMPROC","UILANGUAGE_ENUMPROC callback","UILANGUAGE_ENUMPROC callback function [Internationalization for Windows Applications]","UILANGUAGE_ENUMPROCA","UILANGUAGE_ENUMPROCW","_win32_EnumUILanguagesProc","intl.enumuilanguagesproc","winnls/UILANGUAGE_ENUMPROC"]
 old-location: intl\enumuilanguagesproc.htm
 tech.root: Intl
 ms.assetid: 5890bde9-7089-4440-a9cf-04b502183770
@@ -113,6 +114,10 @@ delegate System.Boolean EnumUILanguagesProc(
 
 
 
+
+
+> [!NOTE]
+> The winnls.h header defines UILANGUAGE_ENUMPROC as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

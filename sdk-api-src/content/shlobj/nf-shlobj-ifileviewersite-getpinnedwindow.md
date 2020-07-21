@@ -1,7 +1,8 @@
 ---
 UID: NF:shlobj.IFileViewerSite.GetPinnedWindow
 title: IFileViewerSite::GetPinnedWindow (shlobj.h)
-description: Gets the handle to the current pinned window, if one exists.helpviewer_keywords: ["GetPinnedWindow","GetPinnedWindow method [Windows Shell]","GetPinnedWindow method [Windows Shell]","IFileViewerSite interface","IFileViewerSite interface [Windows Shell]","GetPinnedWindow method","IFileViewerSite.GetPinnedWindow","IFileViewerSite::GetPinnedWindow","_win32_IFileViewerSite_GetPinnedWindow","shell.IFileViewerSite_GetPinnedWindow","shlobj/IFileViewerSite::GetPinnedWindow"]
+description: Gets the handle to the current pinned window, if one exists.
+helpviewer_keywords: ["GetPinnedWindow","GetPinnedWindow method [Windows Shell]","GetPinnedWindow method [Windows Shell]","IFileViewerSite interface","IFileViewerSite interface [Windows Shell]","GetPinnedWindow method","IFileViewerSite.GetPinnedWindow","IFileViewerSite::GetPinnedWindow","_win32_IFileViewerSite_GetPinnedWindow","shell.IFileViewerSite_GetPinnedWindow","shlobj/IFileViewerSite::GetPinnedWindow"]
 old-location: shell\IFileViewerSite_GetPinnedWindow.htm
 tech.root: shell
 ms.assetid: ef5b4668-1e74-42c2-903e-8d4cf5e2f74e

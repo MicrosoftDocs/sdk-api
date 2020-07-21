@@ -1,7 +1,8 @@
 ---
 UID: NF:heapapi.GetProcessHeaps
 title: GetProcessHeaps function (heapapi.h)
-description: Returns the number of active heaps and retrieves handles to all of the active heaps for the calling process.helpviewer_keywords: ["GetProcessHeaps","GetProcessHeaps function","_win32_getprocessheaps","base.getprocessheaps","heapapi/GetProcessHeaps","winbase/GetProcessHeaps"]
+description: Returns the number of active heaps and retrieves handles to all of the active heaps for the calling process.
+helpviewer_keywords: ["GetProcessHeaps","GetProcessHeaps function","_win32_getprocessheaps","base.getprocessheaps","heapapi/GetProcessHeaps","winbase/GetProcessHeaps"]
 old-location: base\getprocessheaps.htm
 tech.root: Memory
 ms.assetid: 6287c74d-5987-44ec-8b6f-2d5a08338877

@@ -1,7 +1,8 @@
 ---
 UID: NF:winddi.DrvResetDevice
 title: DrvResetDevice function (winddi.h)
-description: The DrvResetDevice function resets a device that is inoperable or unresponsive.helpviewer_keywords: ["DrvResetDevice","DrvResetDevice function [Display Devices]","ddifncs_ba6f8e5e-bd3a-4666-ab2c-d9bb56495712.xml","display.drvresetdevice","winddi/DrvResetDevice"]
+description: The DrvResetDevice function resets a device that is inoperable or unresponsive.
+helpviewer_keywords: ["DrvResetDevice","DrvResetDevice function [Display Devices]","ddifncs_ba6f8e5e-bd3a-4666-ab2c-d9bb56495712.xml","display.drvresetdevice","winddi/DrvResetDevice"]
 old-location: display\drvresetdevice.htm
 tech.root: display
 ms.assetid: 2078cefe-3b66-455b-a4cc-144d643f74e7

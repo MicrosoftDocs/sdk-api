@@ -1,7 +1,8 @@
 ---
 UID: NF:credentialprovider.ICredentialProviderCredentialEvents2.EndFieldUpdates
 title: ICredentialProviderCredentialEvents2::EndFieldUpdates (credentialprovider.h)
-description: Finishes and commits the batch updates started by BeginFieldUpdates.helpviewer_keywords: ["EndFieldUpdates","EndFieldUpdates method [Windows Shell]","EndFieldUpdates method [Windows Shell]","ICredentialProviderCredentialEvents2 interface","ICredentialProviderCredentialEvents2 interface [Windows Shell]","EndFieldUpdates method","ICredentialProviderCredentialEvents2.EndFieldUpdates","ICredentialProviderCredentialEvents2::EndFieldUpdates","credentialprovider/ICredentialProviderCredentialEvents2::EndFieldUpdates","shell.ICredentialProviderCredentialEvents2_EndFieldUpdates"]
+description: Finishes and commits the batch updates started by BeginFieldUpdates.
+helpviewer_keywords: ["EndFieldUpdates","EndFieldUpdates method [Windows Shell]","EndFieldUpdates method [Windows Shell]","ICredentialProviderCredentialEvents2 interface","ICredentialProviderCredentialEvents2 interface [Windows Shell]","EndFieldUpdates method","ICredentialProviderCredentialEvents2.EndFieldUpdates","ICredentialProviderCredentialEvents2::EndFieldUpdates","credentialprovider/ICredentialProviderCredentialEvents2::EndFieldUpdates","shell.ICredentialProviderCredentialEvents2_EndFieldUpdates"]
 old-location: shell\ICredentialProviderCredentialEvents2_EndFieldUpdates.htm
 tech.root: shell
 ms.assetid: D05A558E-79D9-4063-A714-F54D8EB8BBF8

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IDataObjectProvider.GetDataObject
 title: IDataObjectProvider::GetDataObject (shobjidl_core.h)
-description: Gets an IDataObject representation of the current DataPackage object.helpviewer_keywords: ["GetDataObject","GetDataObject method [Windows Shell]","GetDataObject method [Windows Shell]","IDataObjectProvider interface","IDataObjectProvider interface [Windows Shell]","GetDataObject method","IDataObjectProvider.GetDataObject","IDataObjectProvider::GetDataObject","shell.IDataObjectProvider_GetDataObject","shobjidl_core/IDataObjectProvider::GetDataObject"]
+description: Gets an IDataObject representation of the current DataPackage object.
+helpviewer_keywords: ["GetDataObject","GetDataObject method [Windows Shell]","GetDataObject method [Windows Shell]","IDataObjectProvider interface","IDataObjectProvider interface [Windows Shell]","GetDataObject method","IDataObjectProvider.GetDataObject","IDataObjectProvider::GetDataObject","shell.IDataObjectProvider_GetDataObject","shobjidl_core/IDataObjectProvider::GetDataObject"]
 old-location: shell\IDataObjectProvider_GetDataObject.htm
 tech.root: shell
 ms.assetid: 7F3678B2-4B18-4344-ADEE-F0D0A6CE635E

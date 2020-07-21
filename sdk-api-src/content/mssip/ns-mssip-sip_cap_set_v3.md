@@ -1,7 +1,8 @@
 ---
 UID: NS:mssip._SIP_CAP_SET_V3
 title: SIP_CAP_SET_V3 (mssip.h)
-description: Defines the capabilities of a subject interface package (SIP).helpviewer_keywords: ["*PSIP_CAP_SET_V3","PSIP_CAP_SET","PSIP_CAP_SET structure pointer [Security]","SIP_CAP_SET","SIP_CAP_SET structure [Security]","SIP_CAP_SET_V3","mssip/PSIP_CAP_SET","mssip/SIP_CAP_SET","security.sip_cap_set"]
+description: Defines the capabilities of a subject interface package (SIP).
+helpviewer_keywords: ["*PSIP_CAP_SET_V3","PSIP_CAP_SET","PSIP_CAP_SET structure pointer [Security]","SIP_CAP_SET","SIP_CAP_SET structure [Security]","SIP_CAP_SET_V3","mssip/PSIP_CAP_SET","mssip/SIP_CAP_SET","security.sip_cap_set"]
 old-location: security\sip_cap_set.htm
 tech.root: SecCrypto
 ms.assetid: 0B6D173B-0183-4A7C-BB92-2D451F746164

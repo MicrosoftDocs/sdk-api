@@ -1,7 +1,8 @@
 ---
 UID: NN:imapi2.IDiscFormat2TrackAtOnce
 title: IDiscFormat2TrackAtOnce (imapi2.h)
-description: Use this interface to write audio to blank CD-R or CD-RW media in Track-At-Once mode.helpviewer_keywords: ["IDiscFormat2TrackAtOnce","IDiscFormat2TrackAtOnce interface [IMAPI]","IDiscFormat2TrackAtOnce interface [IMAPI]","described","imapi.idiscformat2trackatonce","imapi2/IDiscFormat2TrackAtOnce"]
+description: Use this interface to write audio to blank CD-R or CD-RW media in Track-At-Once mode.
+helpviewer_keywords: ["IDiscFormat2TrackAtOnce","IDiscFormat2TrackAtOnce interface [IMAPI]","IDiscFormat2TrackAtOnce interface [IMAPI]","described","imapi.idiscformat2trackatonce","imapi2/IDiscFormat2TrackAtOnce"]
 old-location: imapi\idiscformat2trackatonce.htm
 tech.root: imapi
 ms.assetid: 27f2d248-1c83-4784-82f9-75ce0a038b87

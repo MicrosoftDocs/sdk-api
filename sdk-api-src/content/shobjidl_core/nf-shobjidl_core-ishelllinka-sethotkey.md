@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IShellLinkA.SetHotkey
 title: IShellLinkA::SetHotkey (shobjidl_core.h)
-description: Sets a keyboard shortcut (hot key) for a Shell link object.helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetHotkey method","IShellLink::SetHotkey","IShellLinkA interface [Windows Shell]","SetHotkey method","IShellLinkA.SetHotkey","IShellLinkA::SetHotkey","IShellLinkW interface [Windows Shell]","SetHotkey method","IShellLinkW::SetHotkey","SetHotkey","SetHotkey method [Windows Shell]","SetHotkey method [Windows Shell]","IShellLink interface","SetHotkey method [Windows Shell]","IShellLinkA interface","SetHotkey method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetHotkey","shell.IShellLink_SetHotkey","shobjidl_core/IShellLink::SetHotkey","shobjidl_core/IShellLinkA::SetHotkey","shobjidl_core/IShellLinkW::SetHotkey"]
+description: Sets a keyboard shortcut (hot key) for a Shell link object.
+helpviewer_keywords: ["IShellLink interface [Windows Shell]","SetHotkey method","IShellLink::SetHotkey","IShellLinkA interface [Windows Shell]","SetHotkey method","IShellLinkA.SetHotkey","IShellLinkA::SetHotkey","IShellLinkW interface [Windows Shell]","SetHotkey method","IShellLinkW::SetHotkey","SetHotkey","SetHotkey method [Windows Shell]","SetHotkey method [Windows Shell]","IShellLink interface","SetHotkey method [Windows Shell]","IShellLinkA interface","SetHotkey method [Windows Shell]","IShellLinkW interface","_win32_IShellLink_SetHotkey","shell.IShellLink_SetHotkey","shobjidl_core/IShellLink::SetHotkey","shobjidl_core/IShellLinkA::SetHotkey","shobjidl_core/IShellLinkW::SetHotkey"]
 old-location: shell\IShellLink_SetHotkey.htm
 tech.root: shell
 ms.assetid: 82cc2af8-b872-4efc-bfe4-04a50df74e28

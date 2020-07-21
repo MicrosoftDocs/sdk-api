@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectRenderContext.SetOutputPixelFormat
 title: IMILBitmapEffectRenderContext::SetOutputPixelFormat (mileffects.h)
-description: Sets the output pixel format.helpviewer_keywords: ["IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","SetOutputPixelFormat method","IMILBitmapEffectRenderContext.SetOutputPixelFormat","IMILBitmapEffectRenderContext::SetOutputPixelFormat","SetOutputPixelFormat","SetOutputPixelFormat method [WPF Bitmap Effects]","SetOutputPixelFormat method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","_wibe_imilbitmapeffectrendercontext_setoutputpixelformat","mileffects/IMILBitmapEffectRenderContext::SetOutputPixelFormat","wibe._wibe_imilbitmapeffectrendercontext_setoutputpixelformat"]
+description: Sets the output pixel format.
+helpviewer_keywords: ["IMILBitmapEffectRenderContext interface [WPF Bitmap Effects]","SetOutputPixelFormat method","IMILBitmapEffectRenderContext.SetOutputPixelFormat","IMILBitmapEffectRenderContext::SetOutputPixelFormat","SetOutputPixelFormat","SetOutputPixelFormat method [WPF Bitmap Effects]","SetOutputPixelFormat method [WPF Bitmap Effects]","IMILBitmapEffectRenderContext interface","_wibe_imilbitmapeffectrendercontext_setoutputpixelformat","mileffects/IMILBitmapEffectRenderContext::SetOutputPixelFormat","wibe._wibe_imilbitmapeffectrendercontext_setoutputpixelformat"]
 old-location: wibe\_wibe_imilbitmapeffectrendercontext_setoutputpixelformat.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectrendercontext\setoutputpixelformat.htm

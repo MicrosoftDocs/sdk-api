@@ -1,7 +1,8 @@
 ---
 UID: NS:wincrypt._OCSP_BASIC_RESPONSE_ENTRY
 title: OCSP_BASIC_RESPONSE_ENTRY (wincrypt.h)
-description: Contains the current certificate status for a single certificate.helpviewer_keywords: ["*POCSP_BASIC_RESPONSE_ENTRY","OCSP_BASIC_GOOD_CERT_STATUS","OCSP_BASIC_RESPONSE_ENTRY","OCSP_BASIC_RESPONSE_ENTRY structure [Security]","OCSP_BASIC_REVOKED_CERT_STATUS","OCSP_BASIC_UNKNOWN_CERT_STATUS","POCSP_BASIC_RESPONSE_ENTRY","POCSP_BASIC_RESPONSE_ENTRY structure pointer [Security]","security.ocsp_basic_response_entry","wincrypt/OCSP_BASIC_RESPONSE_ENTRY","wincrypt/POCSP_BASIC_RESPONSE_ENTRY"]
+description: Contains the current certificate status for a single certificate.
+helpviewer_keywords: ["*POCSP_BASIC_RESPONSE_ENTRY","OCSP_BASIC_GOOD_CERT_STATUS","OCSP_BASIC_RESPONSE_ENTRY","OCSP_BASIC_RESPONSE_ENTRY structure [Security]","OCSP_BASIC_REVOKED_CERT_STATUS","OCSP_BASIC_UNKNOWN_CERT_STATUS","POCSP_BASIC_RESPONSE_ENTRY","POCSP_BASIC_RESPONSE_ENTRY structure pointer [Security]","security.ocsp_basic_response_entry","wincrypt/OCSP_BASIC_RESPONSE_ENTRY","wincrypt/POCSP_BASIC_RESPONSE_ENTRY"]
 old-location: security\ocsp_basic_response_entry.htm
 tech.root: SecCrypto
 ms.assetid: c22f25fd-bbee-45de-9ca0-064b159abb7c

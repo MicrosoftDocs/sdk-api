@@ -1,7 +1,8 @@
 ---
 UID: NF:faxdev.FaxDevInitialize
 title: FaxDevInitialize function (faxdev.h)
-description: The fax service calls the FaxDevInitialize function each time the service starts, after it loads the fax service provider (FSP) DLL. Each FSP must export the FaxDevInitialize function.helpviewer_keywords: ["FaxDevInitialize","FaxDevInitialize function [Fax Service]","_mfax_faxdevinitialize","fax._mfax_faxdevinitialize","faxdev/FaxDevInitialize"]
+description: The fax service calls the FaxDevInitialize function each time the service starts, after it loads the fax service provider (FSP) DLL. Each FSP must export the FaxDevInitialize function.
+helpviewer_keywords: ["FaxDevInitialize","FaxDevInitialize function [Fax Service]","_mfax_faxdevinitialize","fax._mfax_faxdevinitialize","faxdev/FaxDevInitialize"]
 old-location: fax\_mfax_faxdevinitialize.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxfspapiref_8nhh.htm

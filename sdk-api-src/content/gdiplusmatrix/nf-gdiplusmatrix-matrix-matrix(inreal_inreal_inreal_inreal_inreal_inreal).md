@@ -1,7 +1,8 @@
 ---
-UID: NF:gdiplusmatrix.Matrix.Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL)
+UID: NF:gdiplusmatrix.Matrix.Matrix(INREAL,INREAL,INREAL,INREAL,INREAL,INREAL)
 title: Matrix::Matrix(IN REAL,IN REAL,IN REAL,IN REAL,IN REAL,IN REAL) (gdiplusmatrix.h)
-description: Creates and initializes a Matrix::Matrix object based on six numbers that define an affine transformation.helpviewer_keywords: ["Matrix","Matrix class [GDI+]","Matrix constructor","Matrix constructor [GDI+]","Matrix constructor [GDI+]","Matrix class","Matrix.Matrix","Matrix.Matrix(IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","Matrix.Matrix(REAL","REAL","REAL","REAL","REAL","REAL)","Matrix::Matrix","Matrix::Matrix(IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_","gdiplus._gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_"]
+description: Creates and initializes a Matrix::Matrix object based on six numbers that define an affine transformation.
+helpviewer_keywords: ["Matrix","Matrix class [GDI+]","Matrix constructor","Matrix constructor [GDI+]","Matrix constructor [GDI+]","Matrix class","Matrix.Matrix","Matrix.Matrix(IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","Matrix.Matrix(REAL","REAL","REAL","REAL","REAL","REAL)","Matrix::Matrix","Matrix::Matrix(IN REAL","IN REAL","IN REAL","IN REAL","IN REAL","IN REAL)","_gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_","gdiplus._gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_"]
 old-location: gdiplus\_gdiplus_CLASS_Matrix_Matrix_m11_m12_m21_m22_dx_dy_.htm
 tech.root: gdiplus
 ms.assetid: VS|gdicpp|~\gdiplus\gdiplusreference\classes\matrixclass\matrixconstructors\matrix_67m11_m12_m21_m22_dx_dy.htm

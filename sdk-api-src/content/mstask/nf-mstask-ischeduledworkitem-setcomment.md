@@ -1,7 +1,8 @@
 ---
 UID: NF:mstask.IScheduledWorkItem.SetComment
 title: IScheduledWorkItem::SetComment (mstask.h)
-description: Sets the comment for the work item.helpviewer_keywords: ["IScheduledWorkItem interface [Task Scheduler]","SetComment method","IScheduledWorkItem.SetComment","IScheduledWorkItem::SetComment","SetComment","SetComment method [Task Scheduler]","SetComment method [Task Scheduler]","IScheduledWorkItem interface","_msb_ischeduledworkitem_setcomment","mstask/IScheduledWorkItem::SetComment","taskschd.ischeduledworkitem_setcomment"]
+description: Sets the comment for the work item.
+helpviewer_keywords: ["IScheduledWorkItem interface [Task Scheduler]","SetComment method","IScheduledWorkItem.SetComment","IScheduledWorkItem::SetComment","SetComment","SetComment method [Task Scheduler]","SetComment method [Task Scheduler]","IScheduledWorkItem interface","_msb_ischeduledworkitem_setcomment","mstask/IScheduledWorkItem::SetComment","taskschd.ischeduledworkitem_setcomment"]
 old-location: taskschd\ischeduledworkitem_setcomment.htm
 tech.root: taskschd
 ms.assetid: c6017aa1-8860-454c-a402-becbc1a4ee5c

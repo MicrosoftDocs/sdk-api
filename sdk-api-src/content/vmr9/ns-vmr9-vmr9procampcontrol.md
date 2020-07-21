@@ -1,7 +1,8 @@
 ---
 UID: NS:vmr9._VMR9ProcAmpControl
 title: VMR9ProcAmpControl (vmr9.h)
-description: The VMR9ProcAmpControl structure specifies the image adjustments to be performed on a video stream. This structure is used with the Video Mixing Renderer Filter 9 (VMR-9).helpviewer_keywords: ["VMR9ProcAmpControl","VMR9ProcAmpControl structure [DirectShow]","VMR9ProcAmpControlStructure","dshow.vmr9procampcontrol","vmr9/VMR9ProcAmpControl"]
+description: The VMR9ProcAmpControl structure specifies the image adjustments to be performed on a video stream. This structure is used with the Video Mixing Renderer Filter 9 (VMR-9).
+helpviewer_keywords: ["VMR9ProcAmpControl","VMR9ProcAmpControl structure [DirectShow]","VMR9ProcAmpControlStructure","dshow.vmr9procampcontrol","vmr9/VMR9ProcAmpControl"]
 old-location: dshow\vmr9procampcontrol.htm
 tech.root: DirectShow
 ms.assetid: c4395344-e659-4e5a-aba0-ee27e65fe2cc

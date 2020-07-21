@@ -1,7 +1,8 @@
 ---
 UID: NF:mswmdm.IWMDMDeviceSession.EndSession
 title: IWMDMDeviceSession::EndSession (mswmdm.h)
-description: The EndSession method ends a device session.helpviewer_keywords: ["EndSession","EndSession method [windows Media Device Manager]","EndSession method [windows Media Device Manager]","IWMDMDeviceSession interface","IWMDMDeviceSession interface [windows Media Device Manager]","EndSession method","IWMDMDeviceSession.EndSession","IWMDMDeviceSession::EndSession","IWMDMDeviceSessionEndSession","mswmdm/IWMDMDeviceSession::EndSession","wmdm.iwmdmdevicesession_endsession"]
+description: The EndSession method ends a device session.
+helpviewer_keywords: ["EndSession","EndSession method [windows Media Device Manager]","EndSession method [windows Media Device Manager]","IWMDMDeviceSession interface","IWMDMDeviceSession interface [windows Media Device Manager]","EndSession method","IWMDMDeviceSession.EndSession","IWMDMDeviceSession::EndSession","IWMDMDeviceSessionEndSession","mswmdm/IWMDMDeviceSession::EndSession","wmdm.iwmdmdevicesession_endsession"]
 old-location: wmdm\iwmdmdevicesession_endsession.htm
 tech.root: WMDM
 ms.assetid: f587a20a-936f-49a4-8e56-2e05b3d295f6

@@ -1,7 +1,8 @@
 ---
 UID: NF:rpcproxy.CStdAsyncStubBuffer_AddRef
 title: CStdAsyncStubBuffer_AddRef function (rpcproxy.h)
-description: Implements the IRpcStubBuffer::AddRef method.helpviewer_keywords: ["CStdAsyncStubBuffer_AddRef","CStdAsyncStubBuffer_AddRef function [RPC]","rpc.cstdasyncstubbuffer_addref","rpcproxy/CStdAsyncStubBuffer_AddRef"]
+description: Implements the IRpcStubBuffer::AddRef method.
+helpviewer_keywords: ["CStdAsyncStubBuffer_AddRef","CStdAsyncStubBuffer_AddRef function [RPC]","rpc.cstdasyncstubbuffer_addref","rpcproxy/CStdAsyncStubBuffer_AddRef"]
 old-location: rpc\cstdasyncstubbuffer_addref.htm
 tech.root: Rpc
 ms.assetid: AE4BC50C-0AF1-4612-B4BF-27319351CA1E

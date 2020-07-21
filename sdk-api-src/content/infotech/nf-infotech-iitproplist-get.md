@@ -1,7 +1,8 @@
 ---
 UID: NF:infotech.IITPropList.Get
 title: IITPropList::Get (infotech.h)
-description: Returns the property object associated with the given property ID.helpviewer_keywords: ["Get","Get method [HTML Help Workshop]","Get method [HTML Help Workshop]","IITPropList interface","IITPropList interface [HTML Help Workshop]","Get method","IITPropList.Get","IITPropList::Get","htmlhelp.iitproplist_get","infotech/IITPropList::Get","refIITPropListGet"]
+description: Returns the property object associated with the given property ID.
+helpviewer_keywords: ["Get","Get method [HTML Help Workshop]","Get method [HTML Help Workshop]","IITPropList interface","IITPropList interface [HTML Help Workshop]","Get method","IITPropList.Get","IITPropList::Get","htmlhelp.iitproplist_get","infotech/IITPropList::Get","refIITPropListGet"]
 old-location: htmlhelp\iitproplist_get.htm
 tech.root: htmlhelp
 ms.assetid: VS|htmlhelp|~\html\refiitproplistget.htm

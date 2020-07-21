@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite_2.IDWriteFontFallbackBuilder.CreateFontFallback
 title: IDWriteFontFallbackBuilder::CreateFontFallback (dwrite_2.h)
-description: Creates the finalized fallback object from the mappings added.helpviewer_keywords: ["CreateFontFallback","CreateFontFallback method [Direct Write]","CreateFontFallback method [Direct Write]","IDWriteFontFallbackBuilder interface","IDWriteFontFallbackBuilder interface [Direct Write]","CreateFontFallback method","IDWriteFontFallbackBuilder.CreateFontFallback","IDWriteFontFallbackBuilder::CreateFontFallback","directwrite.idwritefontfallbackbuilder_createfontfallback","dwrite_2/IDWriteFontFallbackBuilder::CreateFontFallback"]
+description: Creates the finalized fallback object from the mappings added.
+helpviewer_keywords: ["CreateFontFallback","CreateFontFallback method [Direct Write]","CreateFontFallback method [Direct Write]","IDWriteFontFallbackBuilder interface","IDWriteFontFallbackBuilder interface [Direct Write]","CreateFontFallback method","IDWriteFontFallbackBuilder.CreateFontFallback","IDWriteFontFallbackBuilder::CreateFontFallback","directwrite.idwritefontfallbackbuilder_createfontfallback","dwrite_2/IDWriteFontFallbackBuilder::CreateFontFallback"]
 old-location: directwrite\idwritefontfallbackbuilder_createfontfallback.htm
 tech.root: DirectWrite
 ms.assetid: 933CB690-879E-480E-A0C6-179FA84187F5

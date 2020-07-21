@@ -1,7 +1,8 @@
 ---
 UID: NN:rdpencomapi.IRDPSRAPISessionProperties
 title: IRDPSRAPISessionProperties (rdpencomapi.h)
-description: Use this interface to get or set session properties.helpviewer_keywords: ["IRDPSRAPISessionProperties","IRDPSRAPISessionProperties interface [RDP]","IRDPSRAPISessionProperties interface [RDP]","described","rdp.irdpsrapisessionproperties","rdpencomapi/IRDPSRAPISessionProperties"]
+description: Use this interface to get or set session properties.
+helpviewer_keywords: ["IRDPSRAPISessionProperties","IRDPSRAPISessionProperties interface [RDP]","IRDPSRAPISessionProperties interface [RDP]","described","rdp.irdpsrapisessionproperties","rdpencomapi/IRDPSRAPISessionProperties"]
 old-location: rdp\irdpsrapisessionproperties.htm
 tech.root: rdp
 ms.assetid: bf4d9df2-8436-4d21-9016-7db231212155

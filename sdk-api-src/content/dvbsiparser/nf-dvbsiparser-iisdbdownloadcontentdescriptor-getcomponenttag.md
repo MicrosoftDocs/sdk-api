@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbDownloadContentDescriptor.GetComponentTag
 title: IIsdbDownloadContentDescriptor::GetComponentTag (dvbsiparser.h)
-description: Gets the tag that identifies a stream component from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. This tag also identifies the stream in the program map table (PMT).helpviewer_keywords: ["GetComponentTag","GetComponentTag method [Microsoft TV Technologies]","GetComponentTag method [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","GetComponentTag method","IIsdbDownloadContentDescriptor.GetComponentTag","IIsdbDownloadContentDescriptor::GetComponentTag","dvbsiparser/IIsdbDownloadContentDescriptor::GetComponentTag","mstv.iisdbdownloadcontentdescriptor_getcomponenttag"]
+description: Gets the tag that identifies a stream component from an Integrated Services Digital Broadcasting (ISDB) download content descriptor. This tag also identifies the stream in the program map table (PMT).
+helpviewer_keywords: ["GetComponentTag","GetComponentTag method [Microsoft TV Technologies]","GetComponentTag method [Microsoft TV Technologies]","IIsdbDownloadContentDescriptor interface","IIsdbDownloadContentDescriptor interface [Microsoft TV Technologies]","GetComponentTag method","IIsdbDownloadContentDescriptor.GetComponentTag","IIsdbDownloadContentDescriptor::GetComponentTag","dvbsiparser/IIsdbDownloadContentDescriptor::GetComponentTag","mstv.iisdbdownloadcontentdescriptor_getcomponenttag"]
 old-location: mstv\iisdbdownloadcontentdescriptor_getcomponenttag.htm
 tech.root: mstv
 ms.assetid: d4ba2fbd-4349-48e3-81dd-622442409060

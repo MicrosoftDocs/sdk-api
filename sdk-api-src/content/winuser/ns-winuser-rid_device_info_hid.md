@@ -1,7 +1,8 @@
 ---
 UID: NS:winuser.tagRID_DEVICE_INFO_HID
 title: RID_DEVICE_INFO_HID (winuser.h)
-description: Defines the raw input data coming from the specified Human Interface Device (HID).helpviewer_keywords: ["*PRID_DEVICE_INFO_HID","PRID_DEVICE_INFO_HID","PRID_DEVICE_INFO_HID structure pointer [Keyboard and Mouse Input]","RID_DEVICE_INFO_HID","RID_DEVICE_INFO_HID structure [Keyboard and Mouse Input]","_win32_RID_DEVICE_INFO_HID_str","_win32_rid_device_info_hid_str_cpp","inputdev.rid_device_info_hid","winui._win32_rid_device_info_hid_str","winuser/PRID_DEVICE_INFO_HID","winuser/RID_DEVICE_INFO_HID"]
+description: Defines the raw input data coming from the specified Human Interface Device (HID).
+helpviewer_keywords: ["*PRID_DEVICE_INFO_HID","PRID_DEVICE_INFO_HID","PRID_DEVICE_INFO_HID structure pointer [Keyboard and Mouse Input]","RID_DEVICE_INFO_HID","RID_DEVICE_INFO_HID structure [Keyboard and Mouse Input]","_win32_RID_DEVICE_INFO_HID_str","_win32_rid_device_info_hid_str_cpp","inputdev.rid_device_info_hid","winui._win32_rid_device_info_hid_str","winuser/PRID_DEVICE_INFO_HID","winuser/RID_DEVICE_INFO_HID"]
 old-location: inputdev\rid_device_info_hid.htm
 tech.root: inputdev
 ms.assetid: VS|winui|~\winui\windowsuserinterface\userinput\rawinput\rawinputreference\rawinputstructures\rid_device_info_hid.htm
@@ -45,17 +46,11 @@ ms.custom: 19H1
 
 # RID_DEVICE_INFO_HID structure
 
-
 ## -description
-
 
 Defines the raw input data coming from the specified Human Interface Device (HID). 
 
-
 ## -struct-fields
-
-
-
 
 ### -field dwVendorId
 
@@ -63,13 +58,11 @@ Type: <b>DWORD</b>
 
 The vendor identifier for the HID. 
 
-
 ### -field dwProductId
 
 Type: <b>DWORD</b>
 
 The product identifier for the HID. 
-
 
 ### -field dwVersionNumber
 
@@ -77,13 +70,11 @@ Type: <b>DWORD</b>
 
 The version number for the HID. 
 
-
 ### -field usUsagePage
 
 Type: <b>USHORT</b>
 
 The top-level collection Usage Page for the device. 
-
 
 ### -field usUsage
 
@@ -91,26 +82,12 @@ Type: <b>USHORT</b>
 
 The top-level collection Usage for the device. 
 
-
 ## -see-also
-
-
-
 
 <b>Conceptual</b>
 
-
-
 <a href="https://docs.microsoft.com/windows/desktop/api/winuser/ns-winuser-rid_device_info">RID_DEVICE_INFO</a>
-
-
 
 <a href="https://docs.microsoft.com/windows/desktop/inputdev/raw-input">Raw Input</a>
 
-
-
 <b>Reference</b>
- 
-
- 
-

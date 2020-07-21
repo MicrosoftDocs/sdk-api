@@ -1,7 +1,8 @@
 ---
 UID: NF:wcmconfig.ISettingsItem.CreateSettingByPath
 title: ISettingsItem::CreateSettingByPath (wcmconfig.h)
-description: Creates a setting object specified by the path.helpviewer_keywords: ["CreateSettingByPath","CreateSettingByPath method [SMI]","CreateSettingByPath method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","CreateSettingByPath method","ISettingsItem.CreateSettingByPath","ISettingsItem::CreateSettingByPath","smi.isettingsitem_createsettingbypath","wcmconfig/ISettingsItem::CreateSettingByPath"]
+description: Creates a setting object specified by the path.
+helpviewer_keywords: ["CreateSettingByPath","CreateSettingByPath method [SMI]","CreateSettingByPath method [SMI]","ISettingsItem interface","ISettingsItem interface [SMI]","CreateSettingByPath method","ISettingsItem.CreateSettingByPath","ISettingsItem::CreateSettingByPath","smi.isettingsitem_createsettingbypath","wcmconfig/ISettingsItem::CreateSettingByPath"]
 old-location: smi\isettingsitem_createsettingbypath.htm
 tech.root: SMI
 ms.assetid: 8b51329e-dc81-46dc-b174-0191e2eea44a

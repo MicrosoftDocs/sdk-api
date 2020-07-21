@@ -261,6 +261,7 @@ Retrieves the base service provider handle for a socket used by the [**WSASendMs
 
 This Ioctl is used by a layered service provider to ensure the provider intercept the [**WSASendMsg**](/windows/win32/api/winsock2/nf-winsock2-wsasendmsg) function.
 
+
 If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer</i> is less than the size of a **SOCKET**) or the <i>lpvOutBuffer</i> parameter is a **NULL** pointer, **SOCKET_ERROR** is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault).
 
 **SIO_BSP_HANDLE** is defined in the <i>Mswsock.h</i> header file and supported on Windows Vista and later.
@@ -295,6 +296,7 @@ If the output buffer is not large enough for a socket handle (the <i>cbOutBuffer
 
 <span id="SIO_CHK_QOS__opcode_setting__I__O__T__3_"></span><span id="sio_chk_qos__opcode_setting__i__o__t__3_"></span><span id="SIO_CHK_QOS__OPCODE_SETTING__I__O__T__3_"></span>**SIO_CHK_QOS** (opcode setting: I, O, T==3)
 </dt> <dd>
+
 
 Retrieves information about QoS traffic characteristics. During the transitional phase on the sending system between flow setup and the receipt of a RESV message (see How the RSVP Service Invokes TC for more information on the transitional phase), traffic associated with an RSVP flow is shaped based on service type ( BEST EFFORT, CONTROLLED LOAD, or [GUARANTEED](/windows/win32/winsock/guarantee-2)). For more information, see Using SIO_CHK_QOS in the Quality of Service section of the Platform Software Development Kit (SDK).
 
@@ -364,12 +366,14 @@ Reserved.
 <span id="SIO_GET_INTERFACE_LIST__opcode_setting__O__T__0_"></span><span id="sio_get_interface_list__opcode_setting__o__t__0_"></span><span id="SIO_GET_INTERFACE_LIST__OPCODE_SETTING__O__T__0_"></span>**SIO_GET_INTERFACE_LIST** (opcode setting: O, T==0)
 </dt> <dd>
 
+
 Returns a list of configured IP interfaces and their parameters as an array of [**INTERFACE_INFO**](/windows/win32/api/ws2ipdef/ns-ws2ipdef-interface_info) structures.
 
 > [!Note]  
 > Support of this command is mandatory for Windows Sockets 2-compliant TCP/IP service providers.
 
  
+
 
 The <i>lpvOutBuffer</i> parameter points to the buffer in which to store the information about interfaces as an array of [**INTERFACE_INFO**](/windows/win32/api/ws2ipdef/ns-ws2ipdef-interface_info) structures for unicast IP addresses on the interfaces. The <i>cbOutBuffer</i> parameter specifies the length of the output buffer. The number of interfaces returned (number of structures returned in the buffer pointed to by <i>lpvOutBuffer</i> parameter) can be determined based on the actual length of the output buffer returned in <i>lpcbBytesReturned</i>parameter.
 
@@ -393,6 +397,7 @@ The <i>lpvOutBuffer</i> parameter points to the buffer in which to store the inf
 <span id="SIO_GET_QOS__opcode_setting__O__T__1_"></span><span id="sio_get_qos__opcode_setting__o__t__1_"></span><span id="SIO_GET_QOS__OPCODE_SETTING__O__T__1_"></span>**SIO_GET_QOS** (opcode setting: O, T==1)
 </dt> <dd>
 
+
 Retrieves the <b><a href="/en-us/previous-versions/windows/desktop/qos/qos-structures">QOS</a></b> structure associated with the socket. The input buffer is optional. Some protocols (for example, RSVP) allow the input buffer to be used to qualify a **QOS** request. The **QOS** structure will be copied into the output buffer. The output buffer must be sized large enough to be able to contain the full **QOS** structure. The WSAENOPROTOOPT error code is indicated for service providers that do not support quality of service.
 
 </dd> <dt>
@@ -403,6 +408,7 @@ Retrieves the <b><a href="/en-us/previous-versions/windows/desktop/qos/qos-struc
 Notifies an application when the ideal send backlog (ISB) value changes for the underlying connection.
 
 When sending data over a TCP connection using Windows sockets, it is important to keep a sufficient amount of data outstanding (sent but not acknowledged yet) in TCP in order to achieve the highest throughput. The ideal value for the amount of data outstanding to achieve the best throughput for the TCP connection is called the ideal send backlog (ISB) size. The ISB value is a function of the bandwidth-delay product of the TCP connection and the receiver's advertised receive window (and partly the amount of congestion in the network).
+
 
 The ISB value per connection is available from the TCP protocol implementation in Windows Server 2008, Windows Vista with Service Pack 1 (SP1), and later versions of the operating system. The [**SIO_IDEAL_SEND_BACKLOG_CHANGE**](/windows/win32/winsock/sio-ideal-send-backlog-change) IOCTL can be used by an application to get notification when the ISB value changes dynamically for a connection.
 
@@ -506,6 +512,7 @@ If an overlapped operation completes immediately, this function returns a value 
 <span id="SIO_RCVALL__opcode_setting__I__T__3_"></span><span id="sio_rcvall__opcode_setting__i__t__3_"></span><span id="SIO_RCVALL__OPCODE_SETTING__I__T__3_"></span>**SIO_RCVALL** (opcode setting: I, T==3)
 </dt> <dd>
 
+
 Enables a socket to receive all IPv4 or IPv6 packets passing throuigh a network interface. The socket handle passed to the [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) function must be one of the following:
 
 -   An IPv4 socket that was created with the address family set to AF_INET, the socket type set to SOCK_RAW, and the protocol set to IPPROTO_IP.
@@ -533,9 +540,6 @@ The possible values for the **SIO_RCVALL** IOCTL option are specified in the **R
 | <span id="RCVALL_IPLEVEL"></span><span id="rcvall_iplevel"></span>RCVALL_IPLEVEL<br/>                         | Enable this option so an IPv4 or IPv6 socket receives all packets at the IP level on the network. This option does not enable promiscuous mode on the network interface card. This option only affects packet processing at the IP level. The NIC still receives only packets directed to its configured unicast and multicast addresses. However, a socket with this option enabled will receive not only packets directed to specific IP addresses, but will receive all the IPv4 or IPv6 packets the NIC receives.<br/> This option will not capture other packets (ARP, IPX, and NetBEUI packets, for example) received on the interface.<br/>                                                                                             |
 
 
-
- 
-
 For more detailed information, see the [**SIO_RCVALL**](/windows/win32/winsock/sio-rcvall) reference.
 
 **SIO_RCVALL** is supported on Windows 2000 and later.
@@ -544,6 +548,7 @@ For more detailed information, see the [**SIO_RCVALL**](/windows/win32/winsock/s
 
 <span id="SIO_RELEASE_PORT_RESERVATION__opcode_setting__I__T__3_"></span><span id="sio_release_port_reservation__opcode_setting__i__t__3_"></span><span id="SIO_RELEASE_PORT_RESERVATION__OPCODE_SETTING__I__T__3_"></span>**SIO_RELEASE_PORT_RESERVATION** (opcode setting: I, T==3)
 </dt> <dd>
+
 
 Releases a runtime reservation for a block of TCP or UDP ports. The runtime reservation to be released must have been obtained from the issuing process using the [**SIO_ACQUIRE_PORT_RESERVATION**](/windows/win32/winsock/sio-acquire-port-reservation) IOCTL.
 
@@ -578,6 +583,7 @@ Note that routes are subject to change. Therefore, Windows Socket SPI clients ca
 -   Issue **SIO_ROUTING_INTERFACE_CHANGE** IOCTL.
 -   Issue **SIO_ROUTING_INTERFACE_QUERY** IOCTL.
 -   Whenever **SIO_ROUTING_INTERFACE_CHANGE** IOCTL notifies the WinSock SPI client of routing change (either through overlapped I/O or by signaling FD_ROUTING_INTERFACE_CHANGE event), the whole sequence of actions should be repeated.
+
 
 If output buffer is not large enough to contain the interface address, SOCKET_ERROR is returned as the result of this IOCTL and [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) returns [WSAEFAULT](/windows/win32/winsock/windows-sockets-error-codes-2#wsaefault). The required size of the output buffer will be returned in <i>lpcbBytesReturned</i> in this case. Note the WSAEFAULT error code is also returned if the <i>lpvInBuffer</i>, <i>lpvOutBuffer</i>, or <i>lpcbBytesReturned</i> parameter is not totally contained in a valid part of the user address space.
 
@@ -682,6 +688,7 @@ The IOCTL codes with T == 0 are a subset of the IOCTL codes used in Berkeley soc
 > All I/O initiated by a given thread is canceled when that thread exits. For overlapped sockets, pending asynchronous operations can fail if the thread is closed before the operations complete. See <b><a href="/windows/win32/api/processthreadsapi/nf-processthreadsapi-exitthread">ExitThread</a></b> for more information.
 
 ## -see-also
+
 <a href="/windows/win32/api/ws2spi/nf-ws2spi-wpuqueueapc">WPUQueueApc</a>
    
 <a href="/windows/win32/api/ws2spi/nc-ws2spi-lpwspgetsockopt">LPWSPGetSockopt</a>

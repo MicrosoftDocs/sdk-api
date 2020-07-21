@@ -1,7 +1,8 @@
 ---
 UID: NE:wincodec.WICComponentType
 title: WICComponentType (wincodec.h)
-description: Specifies the type of Windows Imaging Component (WIC) component.helpviewer_keywords: ["WICAllComponents","WICComponentType","WICComponentType enumeration [Windows Imaging Component]","WICDecoder","WICEncoder","WICMetadataReader","WICMetadataWriter","WICPixelFormat","WICPixelFormatConverter","_wic_codec_wiccomponenttype","wic._wic_codec_wiccomponenttype","wincodec/WICAllComponents","wincodec/WICComponentType","wincodec/WICDecoder","wincodec/WICEncoder","wincodec/WICMetadataReader","wincodec/WICMetadataWriter","wincodec/WICPixelFormat","wincodec/WICPixelFormatConverter"]
+description: Specifies the type of Windows Imaging Component (WIC) component.
+helpviewer_keywords: ["WICAllComponents","WICComponentType","WICComponentType enumeration [Windows Imaging Component]","WICDecoder","WICEncoder","WICMetadataReader","WICMetadataWriter","WICPixelFormat","WICPixelFormatConverter","_wic_codec_wiccomponenttype","wic._wic_codec_wiccomponenttype","wincodec/WICAllComponents","wincodec/WICComponentType","wincodec/WICDecoder","wincodec/WICEncoder","wincodec/WICMetadataReader","wincodec/WICMetadataWriter","wincodec/WICPixelFormat","wincodec/WICPixelFormatConverter"]
 old-location: wic\_wic_codec_wiccomponenttype.htm
 tech.root: wic
 ms.assetid: eff6b77c-ea4b-4476-8d75-dec5bb2e1745

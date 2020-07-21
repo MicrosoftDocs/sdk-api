@@ -1,7 +1,8 @@
 ---
 UID: NF:authz.AuthzUnregisterSecurityEventSource
 title: AuthzUnregisterSecurityEventSource function (authz.h)
-description: Unregisters a security event source with the Local Security Authority (LSA).helpviewer_keywords: ["AuthzUnregisterSecurityEventSource","AuthzUnregisterSecurityEventSource function [Security]","authz/AuthzUnregisterSecurityEventSource","security.authzunregistersecurityeventsource"]
+description: Unregisters a security event source with the Local Security Authority (LSA).
+helpviewer_keywords: ["AuthzUnregisterSecurityEventSource","AuthzUnregisterSecurityEventSource function [Security]","authz/AuthzUnregisterSecurityEventSource","security.authzunregistersecurityeventsource"]
 old-location: security\authzunregistersecurityeventsource.htm
 tech.root: SecAuthZ
 ms.assetid: 3ca3086b-f9c9-4305-aaf3-c41b5dba30ad

@@ -1,7 +1,8 @@
 ---
 UID: NN:msxml6.IXMLHTTPRequest2Callback
 title: IXMLHTTPRequest2Callback (msxml6.h)
-description: Defines callbacks that notify an application with an outstanding IXMLHTTPRequest2 request of events that affect HTTP request and response processing. Note  This interface is supported on Windows Phone 8.1.  .helpviewer_keywords: ["IXMLHTTPRequest2Callback","IXMLHTTPRequest2Callback interface [XMLHttpRequest2]","IXMLHTTPRequest2Callback interface [XMLHttpRequest2]","described","ixhr2.ixmlhttprequest2callback","msxml6/IXMLHTTPRequest2Callback"]
+description: Defines callbacks that notify an application with an outstanding IXMLHTTPRequest2 request of events that affect HTTP request and response processing. Note  This interface is supported on Windows Phone 8.1.  .
+helpviewer_keywords: ["IXMLHTTPRequest2Callback","IXMLHTTPRequest2Callback interface [XMLHttpRequest2]","IXMLHTTPRequest2Callback interface [XMLHttpRequest2]","described","ixhr2.ixmlhttprequest2callback","msxml6/IXMLHTTPRequest2Callback"]
 old-location: ixhr2\ixmlhttprequest2callback.htm
 tech.root: ixhr2
 ms.assetid: AA4B3F4C-6E28-458B-BE25-6CCE8865FC71

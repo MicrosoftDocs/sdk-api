@@ -1,7 +1,8 @@
 ---
 UID: NF:atscpsipparser.ISCTE_EAS.GetProtocolVersion
 title: ISCTE_EAS::GetProtocolVersion (atscpsipparser.h)
-description: The GetProtocolVersion method returns the protocol version of the EAS table.helpviewer_keywords: ["GetProtocolVersion","GetProtocolVersion method [Microsoft TV Technologies]","GetProtocolVersion method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetProtocolVersion method","ISCTE_EAS.GetProtocolVersion","ISCTE_EAS::GetProtocolVersion","ISCTE_EASGetProtocolVersion","atscpsipparser/ISCTE_EAS::GetProtocolVersion","mstv.iscte_eas_getprotocolversion"]
+description: The GetProtocolVersion method returns the protocol version of the EAS table.
+helpviewer_keywords: ["GetProtocolVersion","GetProtocolVersion method [Microsoft TV Technologies]","GetProtocolVersion method [Microsoft TV Technologies]","ISCTE_EAS interface","ISCTE_EAS interface [Microsoft TV Technologies]","GetProtocolVersion method","ISCTE_EAS.GetProtocolVersion","ISCTE_EAS::GetProtocolVersion","ISCTE_EASGetProtocolVersion","atscpsipparser/ISCTE_EAS::GetProtocolVersion","mstv.iscte_eas_getprotocolversion"]
 old-location: mstv\iscte_eas_getprotocolversion.htm
 tech.root: mstv
 ms.assetid: 80700a74-85d6-4269-9000-83e62f68aeb1

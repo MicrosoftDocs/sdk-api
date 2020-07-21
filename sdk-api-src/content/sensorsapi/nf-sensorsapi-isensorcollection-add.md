@@ -1,7 +1,8 @@
 ---
 UID: NF:sensorsapi.ISensorCollection.Add
 title: ISensorCollection::Add (sensorsapi.h)
-description: Adds a sensor to the collection.helpviewer_keywords: ["Add","Add method","Add method","ISensorCollection interface","ISensorCollection interface","Add method","ISensorCollection.Add","ISensorCollection::Add","sensorsapi/ISensorCollection::Add","winsensors_com_ref.isensorcollection_add"]
+description: Adds a sensor to the collection.
+helpviewer_keywords: ["Add","Add method","Add method","ISensorCollection interface","ISensorCollection interface","Add method","ISensorCollection.Add","ISensorCollection::Add","sensorsapi/ISensorCollection::Add","winsensors_com_ref.isensorcollection_add"]
 old-location: winsensors_com_ref\isensorcollection_add.htm
 tech.root: SensorsAPI
 ms.assetid: 7f563d5d-2943-4cbd-bfb5-c347ec270e85

@@ -1,7 +1,8 @@
 ---
 UID: NN:mmc.IEnumTASK
 title: IEnumTASK (mmc.h)
-description: The IEnumTASK interface is introduced in MMC 1.1.helpviewer_keywords: ["IEnumTASK","IEnumTASK interface [MMC]","IEnumTASK interface [MMC]","described","_slate_ienumtask","mmc.ienumtask","mmc/IEnumTASK"]
+description: The IEnumTASK interface is introduced in MMC 1.1.
+helpviewer_keywords: ["IEnumTASK","IEnumTASK interface [MMC]","IEnumTASK interface [MMC]","described","_slate_ienumtask","mmc.ienumtask","mmc/IEnumTASK"]
 old-location: mmc\ienumtask.htm
 tech.root: mmc
 ms.assetid: 7cf1ff4f-bd45-4ead-a005-e0f38aed9039

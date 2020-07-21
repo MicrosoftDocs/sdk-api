@@ -1,7 +1,8 @@
 ---
 UID: NF:objidl.IBindCtx.RegisterObjectParam
 title: IBindCtx::RegisterObjectParam (objidl.h)
-description: Associates an object with a string key in the bind context's string-keyed table of pointers.helpviewer_keywords: ["IBindCtx interface [COM]","RegisterObjectParam method","IBindCtx.RegisterObjectParam","IBindCtx::RegisterObjectParam","RegisterObjectParam","RegisterObjectParam method [COM]","RegisterObjectParam method [COM]","IBindCtx interface","_com_ibindctx_registerobjectparam","com.ibindctx_registerobjectparam","objidl/IBindCtx::RegisterObjectParam"]
+description: Associates an object with a string key in the bind context's string-keyed table of pointers.
+helpviewer_keywords: ["IBindCtx interface [COM]","RegisterObjectParam method","IBindCtx.RegisterObjectParam","IBindCtx::RegisterObjectParam","RegisterObjectParam","RegisterObjectParam method [COM]","RegisterObjectParam method [COM]","IBindCtx interface","_com_ibindctx_registerobjectparam","com.ibindctx_registerobjectparam","objidl/IBindCtx::RegisterObjectParam"]
 old-location: com\ibindctx_registerobjectparam.htm
 tech.root: com
 ms.assetid: 7ee2b5b2-9b9c-41f1-8e58-7432ebc0f9ed

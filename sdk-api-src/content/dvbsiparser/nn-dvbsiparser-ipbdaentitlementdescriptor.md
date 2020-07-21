@@ -1,7 +1,8 @@
 ---
 UID: NN:dvbsiparser.IPBDAEntitlementDescriptor
 title: IPBDAEntitlementDescriptor (dvbsiparser.h)
-description: Implements methods that retrieve data from the entitlement descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.helpviewer_keywords: ["IPBDAEntitlementDescriptor","IPBDAEntitlementDescriptor interface [Microsoft TV Technologies]","IPBDAEntitlementDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IPBDAEntitlementDescriptor","mstv.ipbdaentitlementdescriptor"]
+description: Implements methods that retrieve data from the entitlement descriptor in a Protected Broadcast Driver Architecture (PBDA) transport stream.
+helpviewer_keywords: ["IPBDAEntitlementDescriptor","IPBDAEntitlementDescriptor interface [Microsoft TV Technologies]","IPBDAEntitlementDescriptor interface [Microsoft TV Technologies]","described","dvbsiparser/IPBDAEntitlementDescriptor","mstv.ipbdaentitlementdescriptor"]
 old-location: mstv\ipbdaentitlementdescriptor.htm
 tech.root: mstv
 ms.assetid: 2fe666fa-ebc4-4a47-87ce-085f357ce186

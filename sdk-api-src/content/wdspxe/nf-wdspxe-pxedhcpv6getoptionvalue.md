@@ -1,7 +1,8 @@
 ---
 UID: NF:wdspxe.PxeDhcpv6GetOptionValue
 title: PxeDhcpv6GetOptionValue function (wdspxe.h)
-description: Retrieves an option value from a DHCPv6 packet.helpviewer_keywords: ["PxeDhcpv6GetOptionValue","PxeDhcpv6GetOptionValue function [Windows Deployment Services]","wds.pxedhcpv6getoptionvalue","wdspxe/PxeDhcpv6GetOptionValue"]
+description: Retrieves an option value from a DHCPv6 packet.
+helpviewer_keywords: ["PxeDhcpv6GetOptionValue","PxeDhcpv6GetOptionValue function [Windows Deployment Services]","wds.pxedhcpv6getoptionvalue","wdspxe/PxeDhcpv6GetOptionValue"]
 old-location: wds\pxedhcpv6getoptionvalue.htm
 tech.root: wds
 ms.assetid: 0DC0CF7F-0C74-4595-9DC6-9468E1E7DA20

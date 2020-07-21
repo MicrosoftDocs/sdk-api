@@ -1,7 +1,8 @@
 ---
 UID: NF:fwpmu.FwpmProviderDeleteByKey0
 title: FwpmProviderDeleteByKey0 function (fwpmu.h)
-description: Removes a provider from the system.helpviewer_keywords: ["FwpmProviderDeleteByKey0","FwpmProviderDeleteByKey0 function [Filtering]","fwp.fwpmproviderdeletebykey0_func","fwpmu/FwpmProviderDeleteByKey0"]
+description: Removes a provider from the system.
+helpviewer_keywords: ["FwpmProviderDeleteByKey0","FwpmProviderDeleteByKey0 function [Filtering]","fwp.fwpmproviderdeletebykey0_func","fwpmu/FwpmProviderDeleteByKey0"]
 old-location: fwp\fwpmproviderdeletebykey0_func.htm
 tech.root: fwp
 ms.assetid: fe4e8d34-b0fc-4c93-bbde-83cd38625930

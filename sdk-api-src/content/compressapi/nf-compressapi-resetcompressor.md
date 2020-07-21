@@ -1,7 +1,8 @@
 ---
 UID: NF:compressapi.ResetCompressor
 title: ResetCompressor function (compressapi.h)
-description: Prepares the compressor for the compression of a new stream.helpviewer_keywords: ["ResetCompressor","ResetCompressor function [Compression API]","cmpapi.resetcompressor","compressapi/ResetCompressor"]
+description: Prepares the compressor for the compression of a new stream.
+helpviewer_keywords: ["ResetCompressor","ResetCompressor function [Compression API]","cmpapi.resetcompressor","compressapi/ResetCompressor"]
 old-location: cmpapi\resetcompressor.htm
 tech.root: cmpapi
 ms.assetid: 1ea542e0-7236-4158-9578-f5d55f8c7f8e

@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.EndVisualGroup
 title: IFileDialogCustomize::EndVisualGroup (shobjidl_core.h)
-description: Stops the addition of elements to a visual group in the dialog.helpviewer_keywords: ["EndVisualGroup","EndVisualGroup method [Windows Shell]","EndVisualGroup method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","EndVisualGroup method","IFileDialogCustomize.EndVisualGroup","IFileDialogCustomize::EndVisualGroup","shell.IFileDialogCustomize_EndVisualGroup","shell_IFileDialogCustomize_EndVisualGroup","shobjidl_core/IFileDialogCustomize::EndVisualGroup"]
+description: Stops the addition of elements to a visual group in the dialog.
+helpviewer_keywords: ["EndVisualGroup","EndVisualGroup method [Windows Shell]","EndVisualGroup method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","EndVisualGroup method","IFileDialogCustomize.EndVisualGroup","IFileDialogCustomize::EndVisualGroup","shell.IFileDialogCustomize_EndVisualGroup","shell_IFileDialogCustomize_EndVisualGroup","shobjidl_core/IFileDialogCustomize::EndVisualGroup"]
 old-location: shell\IFileDialogCustomize_EndVisualGroup.htm
 tech.root: shell
 ms.assetid: 84aef9e1-2b70-4e8b-b261-cc49f8e65ead

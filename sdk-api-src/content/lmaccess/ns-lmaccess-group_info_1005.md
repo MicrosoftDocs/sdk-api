@@ -1,7 +1,8 @@
 ---
 UID: NS:lmaccess._GROUP_INFO_1005
 title: GROUP_INFO_1005 (lmaccess.h)
-description: The GROUP_INFO_1005 structure contains the resource attributes associated with a global group.helpviewer_keywords: ["*LPGROUP_INFO_1005","*PGROUP_INFO_1005","GROUP_INFO_1005","GROUP_INFO_1005 structure [Network Management]","LPGROUP_INFO_1005","LPGROUP_INFO_1005 structure pointer [Network Management]","PGROUP_INFO_1005","PGROUP_INFO_1005 structure pointer [Network Management]","_win32_group_info_1005_str","lmaccess/GROUP_INFO_1005","lmaccess/LPGROUP_INFO_1005","lmaccess/PGROUP_INFO_1005","netmgmt.group_info_1005_str"]
+description: The GROUP_INFO_1005 structure contains the resource attributes associated with a global group.
+helpviewer_keywords: ["*LPGROUP_INFO_1005","*PGROUP_INFO_1005","GROUP_INFO_1005","GROUP_INFO_1005 structure [Network Management]","LPGROUP_INFO_1005","LPGROUP_INFO_1005 structure pointer [Network Management]","PGROUP_INFO_1005","PGROUP_INFO_1005 structure pointer [Network Management]","_win32_group_info_1005_str","lmaccess/GROUP_INFO_1005","lmaccess/LPGROUP_INFO_1005","lmaccess/PGROUP_INFO_1005","netmgmt.group_info_1005_str"]
 old-location: netmgmt\group_info_1005_str.htm
 tech.root: NetMgmt
 ms.assetid: bd93820a-e019-45f4-88c7-011a517955ad

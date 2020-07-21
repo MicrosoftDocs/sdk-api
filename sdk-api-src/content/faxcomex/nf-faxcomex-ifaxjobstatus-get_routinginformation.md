@@ -1,7 +1,8 @@
 ---
 UID: NF:faxcomex.IFaxJobStatus.get_RoutingInformation
 title: IFaxJobStatus::get_RoutingInformation (faxcomex.h)
-description: The RoutingInformation property is a null-terminated string that specifies the routing information for the fax job.helpviewer_keywords: ["IFaxJobStatus interface [Fax Service]","RoutingInformation property","IFaxJobStatus.RoutingInformation","IFaxJobStatus.get_RoutingInformation","IFaxJobStatus::RoutingInformation","IFaxJobStatus::get_RoutingInformation","RoutingInformation property [Fax Service]","RoutingInformation property [Fax Service]","IFaxJobStatus interface","_mfax_faxjobstatus.routinginformation","fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_routinginformation_cpp","fax._mfax_faxjobstatus_routinginformation","faxcomex/IFaxJobStatus::RoutingInformation","faxcomex/IFaxJobStatus::get_RoutingInformation","get_RoutingInformation"]
+description: The RoutingInformation property is a null-terminated string that specifies the routing information for the fax job.
+helpviewer_keywords: ["IFaxJobStatus interface [Fax Service]","RoutingInformation property","IFaxJobStatus.RoutingInformation","IFaxJobStatus.get_RoutingInformation","IFaxJobStatus::RoutingInformation","IFaxJobStatus::get_RoutingInformation","RoutingInformation property [Fax Service]","RoutingInformation property [Fax Service]","IFaxJobStatus interface","_mfax_faxjobstatus.routinginformation","fax._mfax_faxjobstatus_cpp_mfax_faxjobstatus_routinginformation_cpp","fax._mfax_faxjobstatus_routinginformation","faxcomex/IFaxJobStatus::RoutingInformation","faxcomex/IFaxJobStatus::get_RoutingInformation","get_RoutingInformation"]
 old-location: fax\_mfax_faxjobstatus_cpp_mfax_faxjobstatus_routinginformation_cpp.htm
 tech.root: Fax
 ms.assetid: VS|fax|~\fax\faxinta_n_9vvy.htm

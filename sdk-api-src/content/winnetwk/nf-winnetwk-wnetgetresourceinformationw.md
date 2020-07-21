@@ -1,7 +1,8 @@
 ---
 UID: NF:winnetwk.WNetGetResourceInformationW
 title: WNetGetResourceInformationW function (winnetwk.h)
-description: When provided with a remote path to a network resource, the WNetGetResourceInformation function identifies the network provider that owns the resource and obtains information about the type of the resource.helpviewer_keywords: ["WNetGetResourceInformation","WNetGetResourceInformation function [Windows Networking (WNet)]","WNetGetResourceInformationA","WNetGetResourceInformationW","_win32_wnetgetresourceinformation","winnetwk/WNetGetResourceInformation","winnetwk/WNetGetResourceInformationA","winnetwk/WNetGetResourceInformationW","wnet.wnetgetresourceinformation"]
+description: When provided with a remote path to a network resource, the WNetGetResourceInformation function identifies the network provider that owns the resource and obtains information about the type of the resource.
+helpviewer_keywords: ["WNetGetResourceInformation","WNetGetResourceInformation function [Windows Networking (WNet)]","WNetGetResourceInformationA","WNetGetResourceInformationW","_win32_wnetgetresourceinformation","winnetwk/WNetGetResourceInformation","winnetwk/WNetGetResourceInformationA","winnetwk/WNetGetResourceInformationW","wnet.wnetgetresourceinformation"]
 old-location: wnet\wnetgetresourceinformation.htm
 tech.root: WNet
 ms.assetid: 19273874-adf1-4ffb-8b83-0eaa64e4622e
@@ -217,4 +218,9 @@ The network is unavailable.
  
 
  
+
+## -remarks
+
+> [!NOTE]
+> The winnetwk.h header defines WNetGetResourceInformation as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 

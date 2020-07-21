@@ -1,7 +1,8 @@
 ---
 UID: NF:comsvcs.IMessageMover.get_DestPath
 title: IMessageMover::get_DestPath (comsvcs.h)
-description: Retrieves the path of the destination (output) queue.helpviewer_keywords: ["IMessageMover interface [COM+]","get_DestPath method","IMessageMover.get_DestPath","IMessageMover::get_DestPath","comsvcs/IMessageMover::get_DestPath","cos.imessagemover_get_destpath","get_DestPath","get_DestPath method [COM+]","get_DestPath method [COM+]","IMessageMover interface"]
+description: Retrieves the path of the destination (output) queue.
+helpviewer_keywords: ["IMessageMover interface [COM+]","get_DestPath method","IMessageMover.get_DestPath","IMessageMover::get_DestPath","comsvcs/IMessageMover::get_DestPath","cos.imessagemover_get_destpath","get_DestPath","get_DestPath method [COM+]","get_DestPath method [COM+]","IMessageMover interface"]
 old-location: cos\imessagemover_get_destpath.htm
 tech.root: cossdk
 ms.assetid: 3adb24d5-b56d-4740-838b-d5b7571950e2

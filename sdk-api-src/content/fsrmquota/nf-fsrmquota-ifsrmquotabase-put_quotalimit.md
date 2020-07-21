@@ -1,7 +1,8 @@
 ---
 UID: NF:fsrmquota.IFsrmQuotaBase.put_QuotaLimit
 title: IFsrmQuotaBase::put_QuotaLimit (fsrmquota.h)
-description: Retrieves or sets the quota limit for the object.helpviewer_keywords: ["IFsrmQuotaBase interface [File Server Resource Manager]","QuotaLimit property","IFsrmQuotaBase.QuotaLimit","IFsrmQuotaBase.put_QuotaLimit","IFsrmQuotaBase::QuotaLimit","IFsrmQuotaBase::get_QuotaLimit","IFsrmQuotaBase::put_QuotaLimit","QuotaLimit property [File Server Resource Manager]","QuotaLimit property [File Server Resource Manager]","IFsrmQuotaBase interface","fs.ifsrmquotabase_quotalimit","fsrm.ifsrmquotabase_quotalimit","fsrmquota/IFsrmQuotaBase::QuotaLimit","fsrmquota/IFsrmQuotaBase::get_QuotaLimit","fsrmquota/IFsrmQuotaBase::put_QuotaLimit","put_QuotaLimit"]
+description: Retrieves or sets the quota limit for the object.
+helpviewer_keywords: ["IFsrmQuotaBase interface [File Server Resource Manager]","QuotaLimit property","IFsrmQuotaBase.QuotaLimit","IFsrmQuotaBase.put_QuotaLimit","IFsrmQuotaBase::QuotaLimit","IFsrmQuotaBase::get_QuotaLimit","IFsrmQuotaBase::put_QuotaLimit","QuotaLimit property [File Server Resource Manager]","QuotaLimit property [File Server Resource Manager]","IFsrmQuotaBase interface","fs.ifsrmquotabase_quotalimit","fsrm.ifsrmquotabase_quotalimit","fsrmquota/IFsrmQuotaBase::QuotaLimit","fsrmquota/IFsrmQuotaBase::get_QuotaLimit","fsrmquota/IFsrmQuotaBase::put_QuotaLimit","put_QuotaLimit"]
 old-location: fsrm\ifsrmquotabase_quotalimit.htm
 tech.root: fsrm
 ms.assetid: 2f2b5d8f-70b7-497e-9c51-171dca657c69

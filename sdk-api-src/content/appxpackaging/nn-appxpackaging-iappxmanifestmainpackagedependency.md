@@ -1,7 +1,8 @@
 ---
 UID: NN:appxpackaging.IAppxManifestMainPackageDependency
 title: IAppxManifestMainPackageDependency (appxpackaging.h)
-description: Provides access to attribute values of the main package dependency.helpviewer_keywords: ["IAppxManifestMainPackageDependency","IAppxManifestMainPackageDependency interface [App packaging and management]","IAppxManifestMainPackageDependency interface [App packaging and management]","described","appxpackaging/IAppxManifestMainPackageDependency","appxpkg.iappxmanifestmainpackagedependency"]
+description: Provides access to attribute values of the main package dependency.
+helpviewer_keywords: ["IAppxManifestMainPackageDependency","IAppxManifestMainPackageDependency interface [App packaging and management]","IAppxManifestMainPackageDependency interface [App packaging and management]","described","appxpackaging/IAppxManifestMainPackageDependency","appxpkg.iappxmanifestmainpackagedependency"]
 old-location: appxpkg\iappxmanifestmainpackagedependency.htm
 tech.root: appxpkg
 ms.assetid: E9B04DAD-BD45-4699-9EB1-99CF59F8D934

@@ -1,7 +1,8 @@
 ---
 UID: NF:ddraw.IDirectDrawSurface7.ChangeUniquenessValue
 title: IDirectDrawSurface7::ChangeUniquenessValue (ddraw.h)
-description: Manually updates the uniqueness value for this surface.helpviewer_keywords: ["ChangeUniquenessValue","ChangeUniquenessValue method [DirectDraw]","ChangeUniquenessValue method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","ChangeUniquenessValue method","IDirectDrawSurface7.ChangeUniquenessValue","IDirectDrawSurface7::ChangeUniquenessValue","ddraw/IDirectDrawSurface7::ChangeUniquenessValue","directdraw.idirectdrawsurface7_changeuniquenessvalue"]
+description: Manually updates the uniqueness value for this surface.
+helpviewer_keywords: ["ChangeUniquenessValue","ChangeUniquenessValue method [DirectDraw]","ChangeUniquenessValue method [DirectDraw]","IDirectDrawSurface7 interface","IDirectDrawSurface7 interface [DirectDraw]","ChangeUniquenessValue method","IDirectDrawSurface7.ChangeUniquenessValue","IDirectDrawSurface7::ChangeUniquenessValue","ddraw/IDirectDrawSurface7::ChangeUniquenessValue","directdraw.idirectdrawsurface7_changeuniquenessvalue"]
 old-location: directdraw\idirectdrawsurface7_changeuniquenessvalue.htm
 tech.root: directdraw
 ms.assetid: 4d714fb7-7e12-45ab-ae40-7fc2a65b9e7e

@@ -1,7 +1,8 @@
 ---
 UID: NF:dwrite.IDWriteTextLayout.SetFontStretch
 title: IDWriteTextLayout::SetFontStretch (dwrite.h)
-description: Sets the font stretch for text within a specified text range.helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetFontStretch method","IDWriteTextLayout.SetFontStretch","IDWriteTextLayout::SetFontStretch","SetFontStretch","SetFontStretch method [Direct Write]","SetFontStretch method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetFontStretch","dwrite/IDWriteTextLayout::SetFontStretch"]
+description: Sets the font stretch for text within a specified text range.
+helpviewer_keywords: ["IDWriteTextLayout interface [Direct Write]","SetFontStretch method","IDWriteTextLayout.SetFontStretch","IDWriteTextLayout::SetFontStretch","SetFontStretch","SetFontStretch method [Direct Write]","SetFontStretch method [Direct Write]","IDWriteTextLayout interface","directwrite.IDWriteTextLayout_SetFontStretch","dwrite/IDWriteTextLayout::SetFontStretch"]
 old-location: directwrite\IDWriteTextLayout_SetFontStretch.htm
 tech.root: DirectWrite
 ms.assetid: 34e7e476-abed-4b0f-a18d-662a277548b1

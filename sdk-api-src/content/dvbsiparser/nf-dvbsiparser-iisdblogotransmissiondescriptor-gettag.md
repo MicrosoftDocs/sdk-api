@@ -1,7 +1,8 @@
 ---
 UID: NF:dvbsiparser.IIsdbLogoTransmissionDescriptor.GetTag
 title: IIsdbLogoTransmissionDescriptor::GetTag (dvbsiparser.h)
-description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbLogoTransmissionDescriptor interface","IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbLogoTransmissionDescriptor.GetTag","IIsdbLogoTransmissionDescriptor::GetTag","dvbsiparser/IIsdbLogoTransmissionDescriptor::GetTag","mstv.iisdblogotransmissiondescriptor_gettag"]
+description: Gets the tag that identifies an Integrated Services Digital Broadcasting (ISDB) logo transmission descriptor.
+helpviewer_keywords: ["GetTag","GetTag method [Microsoft TV Technologies]","GetTag method [Microsoft TV Technologies]","IIsdbLogoTransmissionDescriptor interface","IIsdbLogoTransmissionDescriptor interface [Microsoft TV Technologies]","GetTag method","IIsdbLogoTransmissionDescriptor.GetTag","IIsdbLogoTransmissionDescriptor::GetTag","dvbsiparser/IIsdbLogoTransmissionDescriptor::GetTag","mstv.iisdblogotransmissiondescriptor_gettag"]
 old-location: mstv\iisdblogotransmissiondescriptor_gettag.htm
 tech.root: mstv
 ms.assetid: 7ad7d7b5-a20f-4d03-b699-a39fe7ea7568

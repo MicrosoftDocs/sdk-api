@@ -1,7 +1,8 @@
 ---
 UID: NF:p2p.PeerGraphValidateDeferredRecords
 title: PeerGraphValidateDeferredRecords function (p2p.h)
-description: The PeerGraphValidateDeferredRecords function indicates to the Peer Graphing Infrastructure that it is time to resubmit any deferred records for the security module to validate.helpviewer_keywords: ["PeerGraphValidateDeferredRecords","PeerGraphValidateDeferredRecords function [Peer Networking]","p2p.peergraphvalidatedeferredrecords","p2p/PeerGraphValidateDeferredRecords"]
+description: The PeerGraphValidateDeferredRecords function indicates to the Peer Graphing Infrastructure that it is time to resubmit any deferred records for the security module to validate.
+helpviewer_keywords: ["PeerGraphValidateDeferredRecords","PeerGraphValidateDeferredRecords function [Peer Networking]","p2p.peergraphvalidatedeferredrecords","p2p/PeerGraphValidateDeferredRecords"]
 old-location: p2p\peergraphvalidatedeferredrecords.htm
 tech.root: P2PSdk
 ms.assetid: a9a48d8a-f31e-4526-bd09-826f04a564b1

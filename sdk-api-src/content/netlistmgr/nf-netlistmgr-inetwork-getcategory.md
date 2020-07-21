@@ -1,7 +1,8 @@
 ---
 UID: NF:netlistmgr.INetwork.GetCategory
 title: INetwork::GetCategory (netlistmgr.h)
-description: The GetCategory method returns the category of a network.helpviewer_keywords: ["GetCategory","GetCategory method [Network Awareness]","GetCategory method [Network Awareness]","INetwork interface","INetwork interface [Network Awareness]","GetCategory method","INetwork.GetCategory","INetwork::GetCategory","netlistmgr/INetwork::GetCategory","nla.inetwork_getcategory"]
+description: The GetCategory method returns the category of a network.
+helpviewer_keywords: ["GetCategory","GetCategory method [Network Awareness]","GetCategory method [Network Awareness]","INetwork interface","INetwork interface [Network Awareness]","GetCategory method","INetwork.GetCategory","INetwork::GetCategory","netlistmgr/INetwork::GetCategory","nla.inetwork_getcategory"]
 old-location: nla\inetwork_getcategory.htm
 tech.root: nla
 ms.assetid: 8a57c6ad-8c6c-4ef0-a731-463a5d7e325f

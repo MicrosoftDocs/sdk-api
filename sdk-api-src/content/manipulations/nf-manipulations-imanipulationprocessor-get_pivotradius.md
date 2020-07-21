@@ -1,7 +1,8 @@
 ---
 UID: NF:manipulations.IManipulationProcessor.get_PivotRadius
 title: IManipulationProcessor::get_PivotRadius (manipulations.h)
-description: The PivotRadius property is used to determine how much rotation is used in single finger manipulation.helpviewer_keywords: ["IManipulationProcessor interface [Windows Touch]","PivotRadius property","IManipulationProcessor.PivotRadius","IManipulationProcessor.get_PivotRadius","IManipulationProcessor::PivotRadius","IManipulationProcessor::get_PivotRadius","IManipulationProcessor::put_PivotRadius","PivotRadius property [Windows Touch]","PivotRadius property [Windows Touch]","IManipulationProcessor interface","get_PivotRadius","manipulations/IManipulationProcessor::PivotRadius","manipulations/IManipulationProcessor::get_PivotRadius","manipulations/IManipulationProcessor::put_PivotRadius","wintouch.imanipulationprocessor_pivotradius"]
+description: The PivotRadius property is used to determine how much rotation is used in single finger manipulation.
+helpviewer_keywords: ["IManipulationProcessor interface [Windows Touch]","PivotRadius property","IManipulationProcessor.PivotRadius","IManipulationProcessor.get_PivotRadius","IManipulationProcessor::PivotRadius","IManipulationProcessor::get_PivotRadius","IManipulationProcessor::put_PivotRadius","PivotRadius property [Windows Touch]","PivotRadius property [Windows Touch]","IManipulationProcessor interface","get_PivotRadius","manipulations/IManipulationProcessor::PivotRadius","manipulations/IManipulationProcessor::get_PivotRadius","manipulations/IManipulationProcessor::put_PivotRadius","wintouch.imanipulationprocessor_pivotradius"]
 old-location: wintouch\imanipulationprocessor_pivotradius.htm
 tech.root: wintouch
 ms.assetid: 793999b6-abb1-4912-9e9c-764f6f68ea29

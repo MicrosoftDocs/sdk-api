@@ -1,7 +1,8 @@
 ---
 UID: NN:tuner.IATSCLocator
 title: IATSCLocator (tuner.h)
-description: The IATSCLocator interface is implemented on the ATSCLocator object and contains methods that enable the network provider to determine the physical channel and transport stream ID of an ATSC transmission.helpviewer_keywords: ["IATSCLocator","IATSCLocator interface [Microsoft TV Technologies]","IATSCLocator interface [Microsoft TV Technologies]","described","IATSCLocatorInterface","mstv.iatsclocator","tuner/IATSCLocator"]
+description: The IATSCLocator interface is implemented on the ATSCLocator object and contains methods that enable the network provider to determine the physical channel and transport stream ID of an ATSC transmission.
+helpviewer_keywords: ["IATSCLocator","IATSCLocator interface [Microsoft TV Technologies]","IATSCLocator interface [Microsoft TV Technologies]","described","IATSCLocatorInterface","mstv.iatsclocator","tuner/IATSCLocator"]
 old-location: mstv\iatsclocator.htm
 tech.root: mstv
 ms.assetid: 8ca7d50f-e7cc-4938-a2ed-fce5278b73fd

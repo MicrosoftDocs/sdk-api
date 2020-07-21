@@ -1,7 +1,8 @@
 ---
 UID: NF:photoacquire.IPhotoAcquireProgressCB.StartDelete
 title: IPhotoAcquireProgressCB::StartDelete (photoacquire.h)
-description: The StartDelete method provides extended functionality when deletion of items from the device begins.helpviewer_keywords: ["IPhotoAcquireProgressCB interface [Picture Acquisition]","StartDelete method","IPhotoAcquireProgressCB.StartDelete","IPhotoAcquireProgressCB::StartDelete","IPhotoAcquireProgressCBStartDelete","StartDelete","StartDelete method [Picture Acquisition]","StartDelete method [Picture Acquisition]","IPhotoAcquireProgressCB interface","photoacquire/IPhotoAcquireProgressCB::StartDelete","picacq.iphotoacquireprogresscb_startdelete"]
+description: The StartDelete method provides extended functionality when deletion of items from the device begins.
+helpviewer_keywords: ["IPhotoAcquireProgressCB interface [Picture Acquisition]","StartDelete method","IPhotoAcquireProgressCB.StartDelete","IPhotoAcquireProgressCB::StartDelete","IPhotoAcquireProgressCBStartDelete","StartDelete","StartDelete method [Picture Acquisition]","StartDelete method [Picture Acquisition]","IPhotoAcquireProgressCB interface","photoacquire/IPhotoAcquireProgressCB::StartDelete","picacq.iphotoacquireprogresscb_startdelete"]
 old-location: picacq\iphotoacquireprogresscb_startdelete.htm
 tech.root: acquisition
 ms.assetid: 510999eb-068e-41e9-98b7-de6e67dbfe2f

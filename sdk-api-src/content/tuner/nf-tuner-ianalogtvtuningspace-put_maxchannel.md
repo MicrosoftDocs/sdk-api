@@ -1,7 +1,8 @@
 ---
 UID: NF:tuner.IAnalogTVTuningSpace.put_MaxChannel
 title: IAnalogTVTuningSpace::put_MaxChannel (tuner.h)
-description: The put_MaxChannel method sets the highest channel number for this tuning space.helpviewer_keywords: ["IAnalogTVTuningSpace interface [Microsoft TV Technologies]","put_MaxChannel method","IAnalogTVTuningSpace.put_MaxChannel","IAnalogTVTuningSpace::put_MaxChannel","IAnalogTVTuningSpaceput_MaxChannel","mstv.ianalogtvtuningspace_put_maxchannel","put_MaxChannel","put_MaxChannel method [Microsoft TV Technologies]","put_MaxChannel method [Microsoft TV Technologies]","IAnalogTVTuningSpace interface","tuner/IAnalogTVTuningSpace::put_MaxChannel"]
+description: The put_MaxChannel method sets the highest channel number for this tuning space.
+helpviewer_keywords: ["IAnalogTVTuningSpace interface [Microsoft TV Technologies]","put_MaxChannel method","IAnalogTVTuningSpace.put_MaxChannel","IAnalogTVTuningSpace::put_MaxChannel","IAnalogTVTuningSpaceput_MaxChannel","mstv.ianalogtvtuningspace_put_maxchannel","put_MaxChannel","put_MaxChannel method [Microsoft TV Technologies]","put_MaxChannel method [Microsoft TV Technologies]","IAnalogTVTuningSpace interface","tuner/IAnalogTVTuningSpace::put_MaxChannel"]
 old-location: mstv\ianalogtvtuningspace_put_maxchannel.htm
 tech.root: mstv
 ms.assetid: 2a559069-0d8a-4904-b0de-0573b4c0d273

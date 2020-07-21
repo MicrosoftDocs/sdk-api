@@ -1,7 +1,8 @@
 ---
 UID: NF:ole2.OleInitialize
 title: OleInitialize function (ole2.h)
-description: Initializes the COM library on the current apartment, identifies the concurrency model as single-thread apartment (STA), and enables additional functionality described in the Remarks section below.helpviewer_keywords: ["OleInitialize","OleInitialize function [COM]","_ole_OleInitialize","com.oleinitialize","ole2/OleInitialize"]
+description: Initializes the COM library on the current apartment, identifies the concurrency model as single-thread apartment (STA), and enables additional functionality described in the Remarks section below.
+helpviewer_keywords: ["OleInitialize","OleInitialize function [COM]","_ole_OleInitialize","com.oleinitialize","ole2/OleInitialize"]
 old-location: com\oleinitialize.htm
 tech.root: com
 ms.assetid: 9a13e7a0-f2e2-466b-98f5-38d5972fa391

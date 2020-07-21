@@ -1,7 +1,8 @@
 ---
 UID: NF:msctf.ITfContext.InWriteSession
 title: ITfContext::InWriteSession (msctf.h)
-description: ITfContext::InWriteSession methodhelpviewer_keywords: ["ITfContext interface [Text Services Framework]","InWriteSession method","ITfContext.InWriteSession","ITfContext::InWriteSession","InWriteSession","InWriteSession method [Text Services Framework]","InWriteSession method [Text Services Framework]","ITfContext interface","_tsf_itfcontext_inwritesession_ref","msctf/ITfContext::InWriteSession","tsf.itfcontext_inwritesession"]
+description: ITfContext::InWriteSession method
+helpviewer_keywords: ["ITfContext interface [Text Services Framework]","InWriteSession method","ITfContext.InWriteSession","ITfContext::InWriteSession","InWriteSession","InWriteSession method [Text Services Framework]","InWriteSession method [Text Services Framework]","ITfContext interface","_tsf_itfcontext_inwritesession_ref","msctf/ITfContext::InWriteSession","tsf.itfcontext_inwritesession"]
 old-location: tsf\itfcontext_inwritesession.htm
 tech.root: TSF
 ms.assetid: 88a8a2c1-bd5f-47d2-8612-c7e0cabfe254

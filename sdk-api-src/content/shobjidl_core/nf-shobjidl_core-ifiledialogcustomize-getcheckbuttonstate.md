@@ -1,7 +1,8 @@
 ---
 UID: NF:shobjidl_core.IFileDialogCustomize.GetCheckButtonState
 title: IFileDialogCustomize::GetCheckButtonState (shobjidl_core.h)
-description: Gets the current state of a check button (check box) in the dialog.helpviewer_keywords: ["GetCheckButtonState","GetCheckButtonState method [Windows Shell]","GetCheckButtonState method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","GetCheckButtonState method","IFileDialogCustomize.GetCheckButtonState","IFileDialogCustomize::GetCheckButtonState","shell.IFileDialogCustomize_GetCheckButtonState","shell_IFileDialogCustomize_GetCheckButtonState","shobjidl_core/IFileDialogCustomize::GetCheckButtonState"]
+description: Gets the current state of a check button (check box) in the dialog.
+helpviewer_keywords: ["GetCheckButtonState","GetCheckButtonState method [Windows Shell]","GetCheckButtonState method [Windows Shell]","IFileDialogCustomize interface","IFileDialogCustomize interface [Windows Shell]","GetCheckButtonState method","IFileDialogCustomize.GetCheckButtonState","IFileDialogCustomize::GetCheckButtonState","shell.IFileDialogCustomize_GetCheckButtonState","shell_IFileDialogCustomize_GetCheckButtonState","shobjidl_core/IFileDialogCustomize::GetCheckButtonState"]
 old-location: shell\IFileDialogCustomize_GetCheckButtonState.htm
 tech.root: shell
 ms.assetid: c16643e5-a711-455a-8967-2c810e28ea60

@@ -1,7 +1,8 @@
 ---
 UID: NF:cfgmgr32.CM_Get_Device_ID_List_SizeA
 title: CM_Get_Device_ID_List_SizeA function (cfgmgr32.h)
-description: The CM_Get_Device_ID_List_Size function retrieves the buffer size required to hold a list of device instance IDs for the local machine's device instances.helpviewer_keywords: ["CM_Get_Device_ID_List_Size","CM_Get_Device_ID_List_Size function [Device and Driver Installation]","CM_Get_Device_ID_List_SizeA","CM_Get_Device_ID_List_SizeW","cfgmgr32/CM_Get_Device_ID_List_Size","cfgmgr32/CM_Get_Device_ID_List_SizeA","cfgmgr32/CM_Get_Device_ID_List_SizeW","cfgmgrfn_b3d09a40-04c8-4b59-9e33-cd8b7a41972d.xml","devinst.cm_get_device_id_list_size"]
+description: The CM_Get_Device_ID_List_Size function retrieves the buffer size required to hold a list of device instance IDs for the local machine's device instances.
+helpviewer_keywords: ["CM_Get_Device_ID_List_Size","CM_Get_Device_ID_List_Size function [Device and Driver Installation]","CM_Get_Device_ID_List_SizeA","CM_Get_Device_ID_List_SizeW","cfgmgr32/CM_Get_Device_ID_List_Size","cfgmgr32/CM_Get_Device_ID_List_SizeA","cfgmgr32/CM_Get_Device_ID_List_SizeW","cfgmgrfn_b3d09a40-04c8-4b59-9e33-cd8b7a41972d.xml","devinst.cm_get_device_id_list_size"]
 old-location: devinst\cm_get_device_id_list_size.htm
 tech.root: devinst
 ms.assetid: 3c650b21-56dc-4ef5-b986-417a247b3eb0
@@ -97,6 +98,10 @@ For information about device instance IDs, see <a href="https://docs.microsoft.c
 
 
 
+
+
+> [!NOTE]
+> The cfgmgr32.h header defines CM_Get_Device_ID_List_Size as an alias which automatically selects the ANSI or Unicode version of this function based on the definition of the UNICODE preprocessor constant. Mixing usage of the encoding-neutral alias with code that not encoding-neutral can lead to mismatches that result in compilation or runtime errors. For more information, see [Conventions for Function Prototypes](/windows/win32/intl/conventions-for-function-prototypes).
 
 ## -see-also
 

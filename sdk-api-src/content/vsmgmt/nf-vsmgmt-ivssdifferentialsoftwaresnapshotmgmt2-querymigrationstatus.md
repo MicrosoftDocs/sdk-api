@@ -1,7 +1,8 @@
 ---
 UID: NF:vsmgmt.IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus
 title: IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus (vsmgmt.h)
-description: This method is reserved for future use.helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt2 interface","QueryMigrationStatus method","IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus","IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus","QueryMigrationStatus","QueryMigrationStatus method","QueryMigrationStatus method","IVssDifferentialSoftwareSnapshotMgmt2 interface","base.ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus"]
+description: This method is reserved for future use.
+helpviewer_keywords: ["IVssDifferentialSoftwareSnapshotMgmt2 interface","QueryMigrationStatus method","IVssDifferentialSoftwareSnapshotMgmt2.QueryMigrationStatus","IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus","QueryMigrationStatus","QueryMigrationStatus method","QueryMigrationStatus method","IVssDifferentialSoftwareSnapshotMgmt2 interface","base.ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus","vsmgmt/IVssDifferentialSoftwareSnapshotMgmt2::QueryMigrationStatus"]
 old-location: base\ivssdifferentialsoftwaresnapshotmgmt2_querymigrationstatus.htm
 tech.root: VSS
 ms.assetid: c2410f49-7f92-4e32-947d-d85ffdf854f6

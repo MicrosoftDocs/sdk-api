@@ -1,7 +1,8 @@
 ---
 UID: NE:ifdef.__unnamed_enum_1
 title: IF_OPER_STATUS (ifdef.h)
-description: The IF_OPER_STATUS enumeration specifies the operational status of an interface.helpviewer_keywords: ["IF_OPER_STATUS","IF_OPER_STATUS enumeration [IP Helper]","IfOperStatusDormant","IfOperStatusDown","IfOperStatusLowerLayerDown","IfOperStatusNotPresent","IfOperStatusTesting","IfOperStatusUnknown","IfOperStatusUp","ifdef/IF_OPER_STATUS","ifdef/IfOperStatusDormant","ifdef/IfOperStatusDown","ifdef/IfOperStatusLowerLayerDown","ifdef/IfOperStatusNotPresent","ifdef/IfOperStatusTesting","ifdef/IfOperStatusUnknown","ifdef/IfOperStatusUp","iphlp.if_oper_status"]
+description: The IF_OPER_STATUS enumeration specifies the operational status of an interface.
+helpviewer_keywords: ["IF_OPER_STATUS","IF_OPER_STATUS enumeration [IP Helper]","IfOperStatusDormant","IfOperStatusDown","IfOperStatusLowerLayerDown","IfOperStatusNotPresent","IfOperStatusTesting","IfOperStatusUnknown","IfOperStatusUp","ifdef/IF_OPER_STATUS","ifdef/IfOperStatusDormant","ifdef/IfOperStatusDown","ifdef/IfOperStatusLowerLayerDown","ifdef/IfOperStatusNotPresent","ifdef/IfOperStatusTesting","ifdef/IfOperStatusUnknown","ifdef/IfOperStatusUp","iphlp.if_oper_status"]
 old-location: iphlp\if_oper_status.htm
 tech.root: IpHlp
 ms.assetid: 829df6fc-d5db-4efe-9c67-d0c5543dacb4

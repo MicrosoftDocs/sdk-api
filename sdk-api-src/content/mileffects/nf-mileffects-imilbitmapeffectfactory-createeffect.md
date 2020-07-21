@@ -1,7 +1,8 @@
 ---
 UID: NF:mileffects.IMILBitmapEffectFactory.CreateEffect
 title: IMILBitmapEffectFactory::CreateEffect (mileffects.h)
-description: Creates an IMILBitmapEffect object.helpviewer_keywords: ["CreateEffect","CreateEffect method [WPF Bitmap Effects]","CreateEffect method [WPF Bitmap Effects]","IMILBitmapEffectFactory interface","IMILBitmapEffectFactory interface [WPF Bitmap Effects]","CreateEffect method","IMILBitmapEffectFactory.CreateEffect","IMILBitmapEffectFactory::CreateEffect","_wibe_imilbitmapeffectfactory_createeffect","mileffects/IMILBitmapEffectFactory::CreateEffect","wibe._wibe_imilbitmapeffectfactory_createeffect"]
+description: Creates an IMILBitmapEffect object.
+helpviewer_keywords: ["CreateEffect","CreateEffect method [WPF Bitmap Effects]","CreateEffect method [WPF Bitmap Effects]","IMILBitmapEffectFactory interface","IMILBitmapEffectFactory interface [WPF Bitmap Effects]","CreateEffect method","IMILBitmapEffectFactory.CreateEffect","IMILBitmapEffectFactory::CreateEffect","_wibe_imilbitmapeffectfactory_createeffect","mileffects/IMILBitmapEffectFactory::CreateEffect","wibe._wibe_imilbitmapeffectfactory_createeffect"]
 old-location: wibe\_wibe_imilbitmapeffectfactory_createeffect.htm
 tech.root: wibe
 ms.assetid: VS|wibe|~\wibelh\reference\ifaces\imilbitmapeffectfactory\createeffect.htm
