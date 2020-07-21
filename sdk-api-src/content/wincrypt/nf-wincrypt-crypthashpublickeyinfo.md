@@ -73,7 +73,7 @@ Unless there is a strong reason for passing in a specific cryptographic provider
 
 ### -param Algid [in]
 
-An <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> structure that specifies the CryptoAPI hash algorithm to use. If <i>Algid</i> is zero, the default hash algorithm, SHA1, is used.
+An <a href="https://docs.microsoft.com/windows/desktop/SecCrypto/alg-id">ALG_ID</a> structure that specifies the CryptoAPI hash algorithm to use. If <i>Algid</i> is zero, the default hash algorithm, MD5, is used.
 
 
 ### -param dwFlags [in]
@@ -183,4 +183,5 @@ If the function fails, <a href="https://docs.microsoft.com/windows/desktop/api/e
  
 
  
+
 
