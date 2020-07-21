@@ -65,6 +65,8 @@ The return value is a pointer to the command-line string for the current process
 
 ## -remarks
 
+The lifetime of the returned value is managed by the system, applications should not free or modify this value.
+
 Console processes can use the <i>argc</i> and <i>argv</i> arguments of the <b>main</b> or <b>wmain</b> functions by implemneting those as the program entry point.
 GUI processes can use the <i>lpCmdLine</i> argument of the <a href="/windows/win32/api/winbase/nf-winbase-winmain">WinMain</a> or wWinMain functions by implementing those as the program entry point.
 
