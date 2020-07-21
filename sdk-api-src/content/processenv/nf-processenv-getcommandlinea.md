@@ -66,7 +66,7 @@ The return value is a pointer to the command-line string for the current process
 ## -remarks
 
 Console processes can use the <i>argc</i> and <i>argv</i> arguments of the <b>main</b> or <b>wmain</b> functions by implemneting those as the program entry point.
-GUI processes can use the <i>lpCmdLine</i> argument of the <a href="/windows/win32/api/winbase/nf-winbase-winmain">WinMain</a> or <a href="/windows/win32/api/winbase/nf-winbase-wwinmain">wWinMain</a> functions by implementing those as the program entry point.
+GUI processes can use the <i>lpCmdLine</i> argument of the <a href="/windows/win32/api/winbase/nf-winbase-winmain">WinMain</a> or wWinMain functions by implementing those as the program entry point.
 
 To convert the command line to an <i>argv</i> style array of strings, pass the result from GetCommandLineA to
 <a href="/windows/win32/api/shellapi/nf-shellapi-commandlinetoargva">CommandLineToArgvA</a>.
